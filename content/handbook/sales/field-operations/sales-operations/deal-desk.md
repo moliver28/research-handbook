@@ -712,9 +712,9 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 ##### Creating a Professional Services Quote for Standard Services
 
 - Standard services are those for which a SKU exists in Zuora CPQ.
-- Standard services can be added to any New Business, Add-On, or Renewal quote alongside subscription product SKUs. (i.e. If you are selling a 12 month SaaS Ultimate deal, you can add a separate SKU on the same quote to sell the Rapid Results offering.)
+- Standard services can be added to any New Business, Add-On, or Renewal quote alongside subscription product SKUs. (i.e. If you are selling a 12 month SaaS Ultimate deal, you can add a separate SKU on the same quote to sell instructor led training offering(s).)
 - For Standard Services, a signed Order Form is sufficient to book the deal. (Note, some customers may also require issuance of a PO)
-- More information on [Professional Services SKUs](/handbook/customer-success/professional-services-engineering/#professional-services-skus)
+- More information on [Professional Services SKUs](https://about.gitlab.com/services/catalog)
 
 ##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure:
 
@@ -728,9 +728,12 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 - Scoped/Custom Services must always be quoted on a standalone opportunity, separately from any subscription products SKUs. (i.e.; You may NOT sell a 12 month SaaS Ultimate SKU on the same quote/ opportunity as Scoped/Custom Services).
 - Create a New Business Opportunity and select “Professional Services Only” under “Opportunity Record Type.”
 - Create a new subscription quote under the Professional Services opportunity by following the steps above under “new Subscription Quote.”
-  - **If the SOW contains purely Professional Services**, select the "GitLab Service Package" SKU. Update the price to reflect the total price on the SOW.
-  - **If the SOW contains purely Education Services**, select the "Custom PS Education Services" SKU. Update the price to reflect the total price on the SOW.
-  - **If the SOW contains a mixture of Professional Services and Education Services**, two separate quotes should be created under the same opportunity. **Note, for this use case ONLY, a Professional Services Engagement Manager will create the quotes on behalf of the SAE/AE.** Create one quote using the GitLab Service Package SKU, and another quote using the Custom PS Education Services SKU. Do not include the individual Education SKU's; instead use this 'umbrella' SKU, and sum the total amount of Education. On each quote, update the price of the applicable SKU to reflect the applicable price for each category from the SOW. Together, the totals of both quotes should add up to the total price on the SOW. **Note: Once this second quote is added, it is likley to overwrite the "Professional Services Value" field against the opportunity. Please ensure that this field continues to reflect the sum of both quotes, in line with the overall SOW.**
+  - **If the SOW contains purely Professional Services**, select the "GitLab Service Package" SKU. Update the price to reflect the total price on the SOW. **DISREGARD DISCOUNT APPROVALS**. 
+  - **If the SOW contains purely Education Services**, select the matching training and/or certification SKUs. Update the price to reflect the total price on the SOW. If you cannot find a match, use the `Custom PS Education Services` SKU. 
+  - **If the SOW contains a mixture of Professional Services and Education Services**, two separate quotes should be created under the same opportunity. 
+      - Create one quote using the `GitLab Service Package` SKU and reflect the Time and Materials value from the SOW.
+      - Create a second quote using the matching training/certification SKU(s). 
+      - The sum of the values from these two quotes should equal to the total price on the SOW. **Note: Once this second quote is added, it is likley to overwrite the "Professional Services Value" field against the opportunity. Please ensure that this field continues to reflect the sum of both quotes, in line with the overall SOW.**
     - To determine which portion of the SOW is for Professional Services vs. Education Services, note the following: Education and Services are split out on the SOW in separate sections. The Education portion would display standard SKU names such as "CI/CD Training" and "Admin Training" and will contain a total cost for the full Education portion. The Services portion would be custom, but would often denote "Time and Materials" or "PS Hours" and will contain a total cost for the full Services Portion.
 
 
@@ -741,7 +744,7 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 
 - Ensure that a supporting Quote object has been created with the amount matching the SOW amount (as per above)
 - Please note that the following items must be attached to the opportunity before it can be Closed Won:
-    - SOW signed by **both the customer and GitLab's PAO or CFO**
+    - SOW signed by **both the customer and GitLab's VP, Revenue Accounting**
     - Cost Estimate (COGS) spreadsheet (Link provided by the PS team)
     - A supporting Purchase Order (PO), or email from the Customer stating that a PO is not required for invoicing
 

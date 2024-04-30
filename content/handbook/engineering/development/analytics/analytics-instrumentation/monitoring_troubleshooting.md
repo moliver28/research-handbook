@@ -38,10 +38,10 @@ You will be alarmed via a [Monte Carlo alert](https://getmontecarlo.com/monitors
 
 Start with the [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2358326/views) which is based on the raw data ingested from our Snowplow S3 Bucket. Try to answer the following questions:
 
-1. Is the number of bad events unusually high, or is the number of good events lower than usual? If the latter is true, it indicates an unalerted drop in good events, and you should continue with the [good events drop alert](#good-events-drop)```
+1. Is the number of bad events unusually high, or is the number of good events lower than usual? If the latter is true, it indicates an unalerted drop in good events, and you should continue with the [good events drop alert](#good-events-drop).
 1. Locate the abbreviated messages which have the most increase in the affected time frame (see [chart](https://10az.online.tableau.com/#/site/gitlab/views/SnowplowEventVolumeDebugging/BadEventmessages?:iid=1)), and are therefore likely to have caused the error.
   1. If the messages start with "Payload with vendor", it's likely triggered by a directory scan by some kind of bot, since Snowplow interprets the first folder in the path as the
-     vendor, e.g. for `https://snowplow-collector.com/snowplow the vendor would be `snowplow`. These errors can be ignored if they don't persist beyond a few days.
+     vendor, e.g. for `https://snowplow-collector.com/snowplow` the vendor would be `snowplow`. These errors can be ignored if they don't persist beyond a few days.
   1. See if the abbreviated error message already tells you what's wrong.
 
 ##### Debugging the offending events

@@ -38,6 +38,9 @@ We used to have more values, but it was difficult to remember them all. In respo
 
 Everyone is welcome to suggest improvements. Please assign MRs to update these values to our CEO Sid and @mention him in Slack if you work at GitLab Inc. or [on Twitter](https://twitter.com/sytses) if you don't.
 
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/899882089?h=fceb9c5e64" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/899882089">Driving Results with CREDIT</a> from <a href="https://vimeo.com/gitlab">GitLab</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 ## 🤝 Collaboration{#collaboration}
 
 To achieve results, team members must work together effectively. At GitLab, helping others is a priority, even when it is not immediately related to the goals that you are trying to achieve.
@@ -176,8 +179,8 @@ A candidate who has talked to a lot of people inside GitLab said that, compared 
 ##### Don't let each other fail
 
 Keep an eye out for others who may be struggling or stuck.
-If you see someone who needs help, reach out and assist, or connect them with someone else who can provide expertise or assistance.
-We succeed and shine together!
+If you see someone who needs help, reach out and assist. This might involve offering to [pair program](https://about.gitlab.com/blog/2019/08/20/agile-pairing-sessions/) or setting up a sync brainstorming session. The goal is to connect them with someone else who can provide expertise or assistance.
+We are a team, so we succeed and shine together by supporting each other!
 
 ##### People are not their work
 
@@ -289,6 +292,7 @@ All GitLab team members should understand our customers’ needs, issues, and va
 
 We better understand customers and their needs through:
 - Reviewing public facing GitLab issues from our customers and users
+- [Dogfooding](#dogfooding) our product to understand the user experience
 - Reading customer stories from Marketing and Sales
 - Attending Customer fireside chats
 - Learning feedback from our customers and users on product features and roadmap
@@ -300,7 +304,7 @@ We create together with our customers. There is an open dialogue between GitLab 
 
 ##### Keep end users in sight
 
-Our focus is to improve the results that customers achieve. At GitLab, one way to drive customer results is through platform enhancements that drive the most value for direct users. This requires being aware of [the Concur effect](https://twitter.com/ryanfalor/status/1182647229414166528?s=12).
+Our focus is to increase customer results. At GitLab, one way to drive customer results is through platform enhancements that drive the most value for direct users. This requires being aware of [the Concur effect](https://twitter.com/ryanfalor/status/1182647229414166528?s=12).
 
 [Arvind Narayanan](https://www.cs.princeton.edu/~arvindn/), a Princeton Professor, described his frustration with Blackboard in a viral Tweet:
 
@@ -320,33 +324,30 @@ At GitLab, we want to drive customer results through focusing on platform enhanc
 
 **Customer results are more important** than:
 
-1. **What we plan to make**. If we focus only on our own plans, we would have only GitLab.com and no self-managed delivery of GitLab.
-1. **Large customers**. This leads to the [innovator's dilemma](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma), so we should also focus on small customers and future customers (users).
-1. **What customers ask for**. This means we don't use the phrase "customer focus", because it tempts us to prioritize what the customer *says* they want over what we discover they actually need through our product development process. Often, it’s easier for a customer to think in terms of a specific solution than to think about the core problem that needs to be solved. But a solution that works well for one customer isn’t always relevant to other customers, and it may not align with our overall product strategy. When a customer asks for something specific, we should strive to understand why, work to understand the broader impact, and then create a solution that scales.
+1. **What we plan to make**. If we focus only on our own plans, we would have only GitLab.com and no self-managed delivery of GitLab. This does not mean that we will agree to every feature request, but we won't let existing plans be an obstacle to working on what will drive the most customer value.
+1. **Large customer requests**. Catering to requests from large customers leads to the [innovator's dilemma](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma), we need to also focus on results for small and future customers.
 1. **Our existing scope**. For example, when customers asked for better integrations and complained about integration costs and effort, we responded by expanding our scope to create a [single application](/handbook/product/single-application/) for the DevOps lifecycle.
-1. **Our assumptions**. Every company works differently, so we can’t assume that what works well for us will support our customers’ needs. When we have an idea, we must directly validate our assumptions with customers to ensure we create scalable, highly relevant solutions.
+1. **Our assumptions**. Every company works differently, so we can’t assume that what works well for us will support our customers’ needs. When we have an idea, we must directly validate our assumptions with multiple customers to ensure we create scalable, highly relevant solutions.
 1. **What we control**. We should take responsibility for what the **customer experiences**, even when it isn’t entirely in our control. We aim to treat every customer-managed instance downtime as a [$1M a day problem](https://gitlab.com/gitlab-com/www-gitlab-com/commit/8b7857c1f7c59c53e4a9c0d6008830459d817497).
 
 ##### Measure impact, not activity
 
-We care about what you achieve: the code you shipped, the needle you moved, the user you made happy, and the team member you helped. Someone who took the afternoon off shouldn’t feel like they did something wrong, unless it negatively impacted a goal or result they were responsible for. You don’t have to defend how you spend your day. We trust team members to do the right thing instead of having rigid rules. We trust team members to show up and do their best work. Do not incite competition by proclaiming how many hours you worked yesterday. If you are working too many hours, talk to your manager to discuss solutions.
+We care about what you achieve: the code you shipped, the needle you moved, the user you made happy, and the team member you helped. Someone who took the afternoon off shouldn’t feel like they did something wrong, unless it negatively impacted a goal or result they were responsible for. You don’t have to defend how you spend your day if you are performing and delivering against expectations. We trust team members to do the right thing instead of having rigid rules. We trust team members to show up and do their best work. Do not incite competition by proclaiming how many hours you worked yesterday. If you are working too many hours, talk to your manager to discuss solutions.
 
 ##### Dogfooding
 
-We [use our own product](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) in the way our users do to surface improvements that will lead to better [customer results](#customer-results).
+We [use our own product](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) in the way our users do to surface improvements that will lead to better [customer results](#customer-results). GitLab is a DevSecOps Platform that can be used by people throughout the business. This is how we use it within GitLab. For example, we use our OKR functionality company-wide to inform product enhancements and for team members to have a great understanding of the customer experience. We also dogfood in the following ways:
 
 1. Our development organization uses GitLab.com to manage the DevOps lifecycle of GitLab itself.
-1. Our entire company uses GitLab to collaborate on this handbook.
+1. All team members use GitLab to collaborate on this handbook.
 1. We capture content and processes in Git repos and manage them with GitLab.
-1. When something breaks, doesn't work well, or needs improvement, we are more likely to notice it internally and address it before it impacts our larger community.
+
+When something breaks, doesn't work well, or needs improvement, we are more likely to notice it internally and address it before it impacts our larger community.
 
 ##### Give agency
 
 We give people agency to focus on what they think is most beneficial. If a meeting doesn't seem interesting and someone's active participation is not critical to the outcome of the meeting, they can always opt to not attend, or during a video call they can work on other things if they want. Staying in the call may still make sense even if you are working on other tasks, so other peers can ping you and get fast answers when needed. This is particularly useful in multi-purpose meetings where you may be involved for just a few minutes.
 
-##### Write promises down
-
-Agree in writing on measurable goals. Within the company we use [OKRs](/handbook/company/okrs/) for that.
 
 ##### Challenger mindset
 
@@ -356,41 +357,34 @@ Challenging the status quo can lead to remarkable results - we must never stop. 
 
 You don't always get results and this will lead to criticism from yourself and/or others. We believe our talents can be developed through hard work, targeted training, learning from others, on-the-job experience, and receiving input from others. It is in our DNA as a company and individuals to look for opportunity, stay humble, and never settle. We try to hire people based on [their trajectory, not their pedigree](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means). We also strive to foster a culture of curiosity and continuous learning where team members are provided and proactively seek out opportunities to grow themselves and their careers. We believe that with the right expectations and direction, people can grow to take on new challenges and surpass expectations.
 
-##### Global optimization
+##### Cross-functional optimization
 
-Our definition of global optimization is that you do what is best for the organization as a whole. Don't optimize for the goals of your team when it negatively impacts the goals of other teams, our users, and/or the company. Those goals are also your problem and your job. Keep your team as lean as possible, and help other teams achieve their goals.
-In the context of [collaboration](#collaboration), this means that if anyone is blocked by you on a question, your approval, or a merge request review, your top priority is always to unblock them, either directly or through helping them find someone else who can, even if this takes time away from your own or your team's priorities.
+Our definition of cross-functional optimization is that you do what is best for the organization as a whole. Don't optimize for the goals of your team when it negatively impacts the goals of other teams, our users, and/or the company. Those goals are also your problem and your job. For example, you may have set a non-urgent functional milestone that is supposed to land at the end of the quarter. If delivering within the last week requires engagement from [the GTM teams](https://internal.gitlab.com/handbook/sales/go-to-market/), the right decision may be to push your own team's target by a week to reduce the ask for the GTM team as the GTM focuses on meeting its revenue objectives.
 
-##### Tenacity
+In the context of [collaboration](#collaboration), if anyone is blocked by you on a question, your approval, or a merge request review, you should prioritize unblocking them, either directly or through helping them find someone else who can.
 
-We refer to this as "persistence of purpose". As talked about in [The Influence Blog](https://www.learntoinfluence.com/developing-tenacity-when-facing-opposition/), tenacity is the ability to display commitment to what you believe in. You keep picking yourself up, dusting yourself off, and quickly get going again having learned a little more.
+##### Embrace Tenacity
 
-##### Ownership
+We refer to this as "persistence of purpose". As talked about in [The Influence Blog](https://www.learntoinfluence.com/developing-tenacity-when-facing-opposition/), tenacity is the ability to display commitment to what you believe in. You keep picking yourself up, dusting yourself off, and quickly get going again having learned a little more. We value the ability to maintain focus and motivation when work is tough and asking for help when needed.
+
+##### Have Ownership & Accountability
 
 We expect team members to complete tasks that they are assigned. You are responsible for executing with attention to detail, connecting the dots across the organization and anticipating and solving problems. As an owner, you are responsible for overcoming challenges, not suppliers or other team members. Take initiative and proactively inform stakeholders when there is something you might not be able to solve.
 
 ##### Sense of urgency
 
-At an exponentially-scaling startup, time gained or lost has compounding effects. Try to get the results as fast as possible, but without compromising our other values and [ways we communicate](https://about.gitlab.com/handbook/communication), so the compounding of results can begin and we can focus on the next improvement.
+Time gained or lost has compounding effects. Try to get the results as fast as possible, but without compromising our other values and [ways we communicate](https://about.gitlab.com/handbook/communication), so the compounding of results can begin and we can focus on the next improvement.
 
+##### Operate with a bias for action
 
-##### Perseverance
+It's important that we keep our focus on action, and don't fall into the trap of analysis paralysis or sticking to a slow, quiet path without risk. Decisions should be thoughtful, but delivering fast results requires the fearless acceptance of occasionally making mistakes; our bias for action also allows us to course correct quickly. Try to get results as fast as possible, but without compromising our other values and ways of working
 
-Working at GitLab will expose you to situations of various levels of difficulty and complexity. This requires focus and the ability to defer gratification.
-We value the ability to maintain focus and motivation when work is tough and asking for help when needed.
+##### Disagree, commit, and advocate
 
-##### Bias for action
-
-It's important that we keep our focus on action, and don't fall into the trap of analysis paralysis or sticking to a slow, quiet path without risk. Decisions should be thoughtful, but delivering fast results requires the fearless acceptance of occasionally making mistakes; our bias for action also allows us to course correct quickly. Everyone will make mistakes, but it's the relative number of mistakes against all decisions made (i.e. percentage of mistakes), and the swift correction or resolution of that mistake, which is important. A key to success with transparency is to always combine an observation with (1) questions (to ensure understanding) *and* (2) suggestions for solutions / improvement to the group that can take action.  We don't make general complaints without including and supporting the groups that can effect change. Success with transparency almost always requires effective [collaboration](#collaboration).
-
-An example of our bias for action can be seen in our [Follow the Sun Coverage model](/handbook/engineering/development/processes/follow-the-sun-coverage/).
-
-##### Disagree, commit, and disagree
-
-Everything can be questioned, but as long as a decision is in place, we expect people to commit to executing it. Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed. This is [a common principle](https://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
+When a decision is in place, we expect people to commit to executing it. Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed. This is [a common principle](https://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
 Every decision can be changed;
 our [best decision was one that changed an earlier one](https://youtu.be/4BIsON95fl8?t=2034).
-In a manager-report circumstance, usually the report is the [Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/) (DRI).
+In a manager-report relationship, usually the report is the [Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/) (DRI).
 The manager may disagree with the final decision, but they still commit to the decision of the DRI.
 
 In a group setting, participants may disagree with a proposal but not articulate their views for one reason or another. Sometimes, [many or all individuals may disagree yet choose not to speak up](https://en.wikipedia.org/wiki/Abilene_paradox), because no one believes they would get agreement from the group. As a result, everyone loses out on their feedback. [Dissent](https://en.wikipedia.org/wiki/Dissent) is expression of that disagreement. However, it can be difficult and even socially expensive.
@@ -400,13 +394,10 @@ When you want to reopen the conversation on something, show that your argument i
 You have to achieve results on every decision while it stands, even when you are trying to have it changed.
 You should communicate with the [DRI](/handbook/people-group/directly-responsible-individuals/) who can change the decision instead of someone who can't.
 
-##### Accepting uncertainty
-
-We should strive to accept that there are things that we don’t know about the work we’re trying to do, and that the best way to drive out that uncertainty is not by layering analysis and conjecture over it, but rather accepting it and moving forward, driving it out as we go along. Wrong solutions can be fixed, but non-existent ones aren’t adjustable at all. [The Clever PM Blog](https://www.cleverpm.com/2018/08/23/accepting-uncertainty-is-the-key-to-agility/)
 
 ##### Escalate to unblock
 
-We should be diligent to define [Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/) (DRI). DRIs are empowered to escalate to unblock. Managers at GitLab seek to increase the output of the work of those on their team, a core concept in [High Output Management](/handbook/leadership/high-output-management/). Early escalation, delivered with context of the challenge, enables managers to function as an unblocker.
+If there is a disagreement and you can't move forward because of it, agree to escalate and escalate to one or both of your managers. Early escalation, delivered with context of the challenge, enables managers to function as an unblocker.
 
 ##### Results Competency
 
@@ -1221,7 +1212,7 @@ Most companies have a list of values. In companies without strong values, folks 
 
 ## How to scale the business while preserving GitLab values?
 
-*For certain business decisions or projects (such as [compensation](/handbook/total-rewards/compensation/) and [end-point management](/handbook/business-technology/team-member-enablement/onboarding-access-requests/endpoint-management/) ), GitLab team members may have a lot of opinions and interest,
+*For certain business decisions or projects (such as [compensation](/handbook/total-rewards/compensation/) and [end-point management](https://internal.gitlab.com/handbook/it/endpoint-tools/) ), GitLab team members may have a lot of opinions and interest,
 and they want to provide their feedback and comments.
 On the other hand,  it might be challenging for the project DRI to digest and respond to all these inputs.
 What should you do in this scenario?*
@@ -1233,7 +1224,7 @@ These perspectives may also uncover potential risks and problems in the project.
 
 There shouldn't be a [“Don’t they have their job to do?”](https://www.youtube.com/watch?v=U9de50APPAg) type of response.
 Furthermore, we shouldn’t judge team members who are perceived as being the “squeaky wheel.”
-At GitLab, we [measure results, not hours](#measure-results-not-hours).
+At GitLab, we [measure results, not hours](../../teamops/measurement-clarity.md#measure-results-not-hours).
 As long as a team member is producing required results, they are empowered to decide how to spend their time.
 
 On the other hand, as GitLab grows in size, we need to make decisions and the decisions may not be agreed to by everyone.
@@ -1384,7 +1375,7 @@ Values make and clarify choices. A well-chosen value has a defensible opposite. 
 
 ## What is not a value
 
-- [All-remote](/handbook/company/culture/all-remote/) isn't a value. It is something we do because it helps to [practice our values](/handbook/company/culture/all-remote/values/) of transparency, efficiency, results, and diversity, inclusion & belonging.
+- [All-remote](/handbook/company/culture/all-remote/) isn't a value. It is something we do because it helps to [practice our values](/handbook/company/culture/all-remote/remote-values/) of transparency, efficiency, results, and diversity, inclusion & belonging.
 
 ## Questions from new team members
 

@@ -46,7 +46,7 @@ An issue is considered completely triaged when all of the following criteria are
 
 - It is partially triaged.
 - It has a milestone set.
-- It has a [priority label](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) applied for `~"type::bug"` and `~"UX Debt"`.
+- It has a [priority label](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) applied for `~"type::bug"` and `~"Deferred UX"`.
 
 ## Type Labels
 
@@ -79,7 +79,7 @@ If you need help estimating severity, tag the group's corresponding [Software En
 
 Note: Theses severity definitions apply to issues only. Please see [Severity Levels section](/handbook/engineering/infrastructure/incident-management/#severities) of the [Incident Management page](/handbook/engineering/infrastructure/incident-management/) for details on incident severity.
 
-[Severity labels](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) help us determine urgency and clearly communicate the impact of a `~"type::bug"` on users. There can be multiple categories of a `~"type::bug"`. Severity is also applicable to non-`type::bug` `~SUS::Impacting` issues.
+[Severity labels](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) help us determine urgency and clearly communicate the impact of a `~"type::bug"` on users. There can be multiple categories of a `~"type::bug"`.
 
 The presence of bug category labels `~"bug::availability"`, `~"bug::performance"`, `~"bug::vulnerability"`, and `~UX` denotes to use the severity definition in that category. When a `~"type::bug"` correspond to multiple categories, the severity to apply should be the higher, for example, if an issue has a `~"severity::2"` for `~"bug::availability"` and a `~"severity::1"` for `~"bug::performance"` then the severity assigned to the issue should be `~"severity::1"`.
 
@@ -91,7 +91,7 @@ Once you've determined a severity for an issue add a note that explains in summa
 | `~"bug::performance"` Response time <br> (API/Web/Git)[^1] | Above 9000ms to timing out | Between 2000ms and 9000ms | Between 1000ms and 2000ms | Between 200ms and 1000ms | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/) |
 | `~"bug::performance"` Browser Rendering <br> ([LCP](https://web.dev/lcp/))[^2] | Above 9000ms to timing out | Between 4000ms and 9000ms | Between 3000ms and 4000ms | Between 3000ms and 2500ms | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/) |
 | `~"bug::performance"` Browser Rendering <br> ([TBT](https://web.dev/tbt/))[^2] | Above 9000ms to timing out | Between 2000ms and 9000ms | Between 1000ms and 2000ms | Between 300ms and 1000ms | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/) |
-| `~UX` User experience problem [&sup3;](#ux) | "I can't figure this out." Users are blocked and/or likely to make risky errors due to poor usability, and are likely to ask for support. | "I can figure out why this is happening, but it's really painful to solve." Users are significantly delayed by the available workaround. | "This still works, but I have to make small changes to my process." Users are self sufficient in completing the task with the workaround, but may be somewhat delayed. |  "There is a small inconvenience or inconsistency." Usability isn't ideal or there is a small cosmetic issue. | [Product Designers](/handbook/product/ux/product-design/) of that Product group |
+| `~bug::ux` User experience problem [&sup3;](#ux) | "I can't figure this out." Users are blocked and/or likely to make risky errors due to poor usability, and are likely to ask for support. | "I can figure out why this is happening, but it's really painful to solve." Users are significantly delayed by the available workaround. | "This still works, but I have to make small changes to my process." Users are self sufficient in completing the task with the workaround, but may be somewhat delayed. |  "There is a small inconvenience or inconsistency." Usability isn't ideal or there is a small cosmetic issue. | [Product Designers](/handbook/product/ux/product-design/) of that Product group |
 | `~"bug::availability"` of GitLab SaaS | See [Availability section](#availability) | See [Availability section](#availability) | See [Availability section](#availability) | See [Availability section](#availability) | |
 | `~"bug::vulnerability"` Security Vulnerability | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | AppSec team |
 | Global Search | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | |
@@ -124,6 +124,7 @@ If a issue seems to fall between two severity labels, assign it to the higher se
 - Example(s) of `~"severity::2"`
   - Cannot submit changes through the web IDE, but the command line works.
   - A status widget on the merge request page is not working, but information can be seen in the test pipeline page.
+  - A workaround is available but it requires the use of the [Rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html), making it unacceptably complex.
 - Example(s) of `~"severity::3"`
   - Can create merge requests only from the Merge Requests list view, not from an Issue page.
 - Example(s) of `~"severity::4"`
@@ -226,32 +227,13 @@ We encourage performance improvements to be broken down. Improve where we can an
 
 ### UX
 
-#### SUS-impacting
-Some UX-related issues are identified as impacting our [System Usability Scale (SUS) score](/handbook/product/ux/performance-indicators/system-usability-scale/), which is a focus in our [three-year strategy](/handbook/company/strategy/#three-year-strategy). We identify SUS-impacting issues with at least one of the labels listed in the [Total open SUS-impacting issues by severity](/handbook/product/ux/performance-indicators/#total-open-sus-impacting-issues-by-severity) UX KPI. If one of these labels is applied, the tracking label `"~SUS::Impacting"` will automatically be added. These issues can have a severity label applied *with* or *without* an accompanying `~"type::bug"` label. For issues with `type::bug`, they follow the [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and [SLOs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) for `type::bug` issues. Issues without `type::bug` are without SLO.
+#### UX bugs
 
-##### SUS-Impacting non-`type::bug` Severity
+Some UX-related issues are known to impact our [System Usability Scale (SUS) score](/handbook/product/ux/performance-indicators/system-usability-scale/), which is a focus in our [three-year strategy](/handbook/company/strategy/#three-year-strategy). We particularily target issues *with* the label `bug::ux`. These issues will have a severity label applied and they follow the [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and [SLOs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) for `type::bug` issues.
 
-| `SUS` issue severity without `type::bug` label | Allowed priorities | Recommended delivery |
-|-|-|-|
-| `~"severity::1"` | `~"priority::1"` only | within 60 days |
-| `~"severity::2"` | `~"priority::1"` or  `~"priority::2"` | within 120 days |
-| `~"severity::3"` | `~"priority::1"`, or `~"priority::2"`, or `~"priority::3"` | No SLA set today |
-| `~"severity::4"` | `~"priority::1"`, or `~"priority::2"`, or `~"priority::3"`, or `~"priority::4"` | No SLA set today  |
+#### Deferred UX
 
-**Note:** The above delivery timeframes only apply for new UX bugs filed after 2022-03-22. All UX bugs file prior to this date need to be reevaluated for the correct delivery timeframe.
-
-
-Additionally, we include UX bugs (identified with *both* the `~UX` `~"type::bug"` labels) in our list of SUS-Impacting issues.
-
-Note: SUS-impacting issues are intended to have an impact on the current product experience rather than on new feature additions. An issue will have the `SUS::Impacting` label automatically applied if any of the SUS-impacting labels are used. However, there are exceptions:
-- Issues with the combination `type::feature` and `feature::addition` indicate we are not making a change or improvement to an existing experience.
-- Issues with the `Actionable Insights::Exploration needed` label applied but the issue is not ready to be prioritized and added to the product.
-
-In these cases, you should replace the `SUS::Impacting` label with the [`SUS::Non-impacting`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&search=sus) label and a severity label is not needed.
-
-#### UX debt
-
-As noted above, issues labeled as `~UX Debt` also have a severity (and additionally [priority](#priority)) label applied *without* an accompanying `~"type::bug"` label. [UX Debt](/handbook/engineering/workflow/#ux-debt) results from the decision to release a user-facing feature that needs refinement, with the intention to improve it in subsequent iterations. Because it is an intentional decision, `~UX Debt` should not have a severity higher than `~"severity::3"`, because [MVCs](/handbook/values/#minimal-viable-change-mvc) should not intentionally have obvious bugs or significant usability problems. If you find yourself creating a UX debt issue that is higher than `~"severity::3"`, please talk to your stage group team about reincorporating that issue into the MVC.
+Issues labeled as `~Deferred UX` also have a severity (and additionally [priority](#priority)) label applied *without* an accompanying `~"type::bug"` label. [Deferred UX](/handbook/engineering/workflow/#deferred-ux) results from the decision to release a user-facing feature that needs refinement, with the intention to improve it in subsequent iterations. Because it is an intentional decision, `~Deferred UX` should not have a severity higher than `~"severity::3"`, because [MVCs](/handbook/values/#minimal-viable-change-mvc) should not intentionally have obvious bugs or significant usability problems. If you find yourself creating a Deferred UX issue that is higher than `~"severity::3"`, please talk to your stage group team about reincorporating that issue into the MVC.
 
 ### Transient bugs
 

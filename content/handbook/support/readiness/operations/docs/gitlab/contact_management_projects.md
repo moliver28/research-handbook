@@ -251,6 +251,47 @@ To fix this issue, go to the contact management project itself, go to the
 webhooks page, click `Test`, and select `Push events`. This will cause a new
 pipeline to run that should work outside of the caching.
 
+#### Pipeline failed due to "Too many orgs"
+
+This means multiple organizations within Zendesk are using the same project ID.
+You will need to determine which organization incorrectly is also using the
+project ID and remove it.
+
+After doing so, you should manually have the webhook trigger by going to the
+webhooks page, click `Test`, and select `Push events`. This will cause a new
+pipeline to run that should work outside of the caching.
+
+#### Pipeline failed due to "Error reading YAML file"
+
+This means something within the contacts.yaml file of the project is in a bad
+formatting. To rectify this, you will need to do one of the following:
+
+- Create a ticket to the customer asking them to fix it
+- Go to the project and fix it yourself
+
+Either method will work in the end, but the latter is quicker and better in
+terms of customer experience.
+
+If this happens repeatedly to the same customer, consider reaching out to their
+Account Manager regarding it.
+
+#### Pipeline failed due to "Invalid project ID"
+
+This means the `PROJECT_ID` value sent by the webhook is not a valid value. You
+need to go review the webhook you setup and correct it to use the correct value.
+
+#### Pipeline failed due to "Failed to sync contacts"
+
+This means the Zendesk API returned a non-200 status code when it tried to add
+users to the organization. You will need to manually troubleshoot why this is
+and rectify the blocking issue.
+
+#### Pipeline failed due to "Failed to remove users"
+
+This means the Zendesk API returned a non-200 status code when it tried to
+remove users to the organization. You will need to manually troubleshoot why
+this is and rectify the blocking issue.
+
 #### Pipeline failed due to "NoMethodError"
 
 This means something within the contacts.yaml file of the project is missing
@@ -267,16 +308,3 @@ terms of customer experience.
 If this happens repeatedly to the same customer, consider reaching out to their
 Account Manager regarding it.
 
-#### Pipeline failed due to "Error reading YAML file"
-
-This means something within the contacts.yaml file of the project is in a bad
-formatting. To rectify this, you will need to do one of the following:
-
-- Create a ticket to the customer asking them to fix it
-- Go to the project and fix it yourself
-
-Either method will work in the end, but the latter is quicker and better in
-terms of customer experience.
-
-If this happens repeatedly to the same customer, consider reaching out to their
-Account Manager regarding it.

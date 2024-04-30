@@ -13,7 +13,7 @@ aliases:
 
 ## Team Workflow
 
-Welcome to the Developer Advocate team workflow page. Learn how the team works and how to work with the team. We primarily use the [Developer Advocate Meta issue tracker](https://gitlab.com/gitlab-com/marketing/community-relations/developer-advocacy/meta/-/issues). We own the team label `developer-advocacy` and all of our other labels which are located at the [gitlab-com](https://gitlab.com/gitlab-com) group level. You can add the labels as necessary to any issue under this group for our team to track.
+Welcome to the Developer Advocate team workflow page. Learn how the team works and how to work with the team. We primarily use the [Developer Advocate Meta issue tracker](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues). We own the team label `developer-advocacy` and all of our other labels which are located at the [gitlab-com](https://gitlab.com/gitlab-com) group level. You can add the labels as necessary to any issue under this group for our team to track.
 
 ### How to work with the Developer Advocate Team
 
@@ -21,28 +21,28 @@ Opening an issue is the best way to get a conversation started. The `developer-a
 
 The `developer-advocacy` label is required, other labels are optional. The [DA-Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-advocacy-bot) or a team member will do the triage and add the necessary labels. To reduce noise in the comments, please add the `DA-Type::Consulting` and the relevant `Consulting` team labels yourself.
 
-You can use the [request an evangelist issue template](https://gitlab.com/gitlab-com/marketing/community-relations/developer-advocacy/meta/-/issues/new?issuable_template=developer-evangelist-request) to submit a request. It provides a guide to collect the required information to triage the request.
+You can use the [request a Developer Advocate issue template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=developer-advocate-request) to submit a request. It provides a guide to collect the required information to triage the request.
 
 ## Roadmap view
 
-The Developer Advocate team uses the [Roadmap in the Developer Relations Group](https://go.gitlab.com/community-relations-team-roadmap) to track our work. Epics for our team are tracked within this group using the `developer-advocacy` label. 
+The Developer Advocate team uses the [Roadmap in the Developer Relations Group](https://go.gitlab.com/community-relations-team-roadmap) to track our work. Epics for our team are tracked within this group using the `developer-advocacy` label.
 
 ### Epics
 
-Work items that fit our team strategy, including events and content plans, are tracked using epics and child epics. Use the following search filters to find the strategy epics for each fiscal year: 
+Work items that fit our team strategy, including events and content plans, are tracked using epics and child epics. Use the following search filters to find the strategy epics for each fiscal year:
 
 - [DevRel Events Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=DevRel-Events&search=strategy)
-- [DevRel Content Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=DevRel-Content&search=strategy) 
+- [DevRel Content Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=DevRel-Content&search=strategy)
 - [DevRel Release Evangelism](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics?state=opened&page=1&sort=start_date_desc&search=devrel+release+evangelism)
 
-For each activity of the team, a sub-epic should be created under the relevant parent epic and with relevant labels added. 
+For each activity of the team, a sub-epic should be created under the relevant parent epic and with relevant labels added.
 
-For each fiscal year's plan, we use the following structure to organize epics on our roadmap: 
-- FYXX Events 
+For each fiscal year's plan, we use the following structure to organize epics on our roadmap:
+- FYXX Events
   - Child epic for each event we will support
 - FYXX Content
   - FYXXQ{1,2,3,4}
-    - Child epic for each piece of content (blog, video, contributed article, media interview, etc) we will publish 
+    - Child epic for each piece of content (blog, video, contributed article, media interview, etc) we will publish
   - FYXX Release Evangelism epic (contains all release shares and results)
 
 
@@ -52,7 +52,7 @@ For blog posts and other content, start and due dates should correspond with the
 
 #### Epic Labels
 
-These are the recommended labels for Epics created in the Developer Relations group. They are used for filtering the epics. 
+These are the recommended labels for Epics created in the Developer Relations group. They are used for filtering the epics.
 
 | Label                      | Description |
 |----------------------------|----------------------------------------------------------------|
@@ -82,37 +82,38 @@ The roadmap view needs to be synced with the `Technical Content Plan - Developer
 Checklist for updating delivery dates:
 
 1. Sync the delivery date in the technical content plan with the epic due date.
-1. Update the epic's title to the `month, year` the content is delivered. 
-1. Update the epic's parent epic to match the quarter where the content is delivered. 
-1. Update the epic's labels to match the quarter where the content is delivered. 
+1. Update the epic's title to the `month, year` the content is delivered.
+1. Update the epic's parent epic to match the quarter where the content is delivered.
+1. Update the epic's labels to match the quarter where the content is delivered.
 
-The following quick actions example updates a content epic from FY24Q3 to FY24Q4. 
+The following quick actions example updates a content epic from FY25Q1 to FY25Q2.
 
 ```
-/unlabel ~FY24-Q3
+/unlabel ~"FY25-Q1"
 
-/label ~FY24-Q4
+/parent_epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/392
 
-/parent_epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/241 
+/label ~"FY25-Q2"
+
 ```
 
 ### Subscribing to epic updates
 
 To get notifications, you can [subscribe to epic labels](https://docs.gitlab.com/ee/user/project/labels.html#receive-notifications-when-a-label-is-used) starting with the ["DevRel" prefix](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=devrel).
 
-Please follow the [content library resources](/handbook/marketing/developer-relations/developer-advocacy/content/) for general content updates. 
+Please follow the [content library resources](/handbook/marketing/developer-relations/developer-advocacy/content/) for general content updates.
 
 ### Epic Templates
 
 Please use this template when creating Epics for activities that should appear for the Developer Advocate team on the roadmap:
 
-#### Content Epic Template 
+#### Content Epic Template
 
 ```markdown
-> Epic Title Guide: 
-> Dates should be using ISO dates, see https://about.gitlab.com/handbook/communication/#writing-style-guidelines 
+> Epic Title Guide:
+> Dates should be using ISO dates, see https://about.gitlab.com/handbook/communication/#writing-style-guidelines
 > Format:
->  Content: Title - Author - Publish Month, Publish Year 
+>  Content: Title - Author - Publish Month, Publish Year
 
 
 ## Activity Summary
@@ -120,31 +121,31 @@ Please use this template when creating Epics for activities that should appear f
 **Please consider addressing these key questions in your summary:**
 
 1. Who is our audience?
-    - A: 
+    - A:
 
 2. What is the best content type (blog post, video, how-to) to deliver this message?
-    - A: 
+    - A:
 
 3. How does this content help our audience?
-    - A: 
+    - A:
 
 4. How does this content help us achieve our goals?
-    - A: 
+    - A:
 
 
 ## Team or Individual DRIs
-**Please add team label to epic.** 
+**Please add team label to epic.**
 
 
 ## Relevant Issues, Epics or resources
 
--  
+-
 
-## Checklist 
+## Checklist
 **Please review the tasks and tick them off.**
 
-- [ ] Add to Technical content sheet. 
-    - [ ] When started: Mark the row as yellow (in progress) 
+- [ ] Add to Technical content sheet.
+    - [ ] When started: Mark the row as yellow (in progress)
 - [ ] Add epic start/due date, synced with the technical content sheet row.
 - [ ] Add issues for tracking content (blog pitches, etc.)
 
@@ -154,90 +155,89 @@ On completion:
 - [ ] Add results to the epic, and to the technical content sheet. Mark the sheet row as completed (green).
 
 <!-- these labels should be included on all templates -->
-/label ~"developer-advocacy" 
+/label ~"developer-advocacy"
 
 <!-- Note: These are samples for guidance, please add relevant labels for activity region, type, quarter or any other labels relevant to your team/program. Please update or include additional relevant labels here. -->
 
-/label ~"DevRel-Content" ~"FY24-Q4" 
+/label ~"DevRel-Content" ~"FY25-Q1"
 
-<!-- Link to parent epic where necessary. Please choose the quarterly epic from the FY24 epic
-https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/98 
-and FY25 epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/339 -->
+<!-- Link to parent epic where necessary. Please choose the quarterly epic from the
+FY25 epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/339 -->
 
-<!-- FY24Q4 -->
-/parent_epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/241 
+<!-- FY25Q1 -->
+/parent_epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/391
 
 <!-- Link to Child epic where necessary -->
-/child_epic 
+/child_epic
 
 <!-- Mention team members that should be aware of the epic -->
-/cc 
+/cc
 
 ```
 
 #### Events Epic Template
 
 ```markdown
-> Epic Title Guide: 
-> Dates should be using ISO dates, see https://about.gitlab.com/handbook/communication/#writing-style-guidelines 
+> Epic Title Guide:
+> Dates should be using ISO dates, see https://about.gitlab.com/handbook/communication/#writing-style-guidelines
 > Format:
->  Content: Title - Author - Publish Month, Publish Year 
->  Event: Event Name, Location, ISO Date 
+>  Content: Title - Author - Publish Month, Publish Year
+>  Event: Event Name, Location, ISO Date
 
 ## Activity Summary
 
 **Please consider addressing these key questions in your summary:**
 
 1. Who is our audience?
-    - A: 
+    - A:
 
 2. What is the best content type (blog post, video, how-to) to deliver this message?
-    - A: 
+    - A:
 
 3. How does this content help our audience?
-    - A: 
+    - A:
 
 4. How does this content help us achieve our goals?
-    - A: 
+    - A:
 
 ## Team or Individual DRIs
-**Please add team label to epic.** 
+**Please add team label to epic.**
 
 
 ## Relevant Issues, Epics or resources
 
--  
+-
 
-## Checklist 
+## Checklist
 **Please review the tasks and tick them off.**
 
 - [ ] Add epic start/due date.
 - [ ] Add issues for tracking tasks (CFPs, code challenge, lightning talks, staffing, etc.)
-- [ ] Document learnings, notes, ideas, etc. in the epic. 
+- [ ] Document learnings, notes, ideas, etc. in the epic.
 
 On completion:
 
 - [ ] [Create event report slides and share them](/handbook/marketing/developer-relations/events/#event-reporting)
 
 <!-- these labels should be included on all templates -->
-/label ~"developer-advocacy" 
+/label ~"developer-advocacy"
 
 <!-- Example: These are samples for guidance, please add relevant labels for activity region, type, quarter or any other labels relevant to your team/program. Please include additional relevant labels here.  -->
 
-/label ~"DevRel-Events" ~"Region-AMER" ~"FY25-Q1" 
+/label ~"DevRel-Events" ~"Region-AMER" ~"FY25-Q1"
 
 
 <!--Link to parent epic where necessary -->
 
 <!-- Events epic (FY25) -->
-/parent_epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326 
- 
+/parent_epic https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326
+
 
 <!-- Link to Child epic where necessary -->
-/child_epic 
+/child_epic
 
 <!-- Mention team members that should be aware of the epic -->
-/cc 
+/cc
 
 ```
 
@@ -270,7 +270,7 @@ On completion:
 
 Social shares
 
-1. 
+1.
 
 Feature highlights
 
@@ -403,7 +403,7 @@ These labels are automatically assigned by the [DA-Bot](/handbook/marketing/deve
 
 #### CFP Labels
 
-These labels are used to track workflow of the CFP submissions. 
+These labels are used to track workflow of the CFP submissions.
 
 | Label | Use |
 |-------|-----|
@@ -446,16 +446,16 @@ stop
 Example CFP workflow using [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions.html):
 
 1. Planning to submit, or when you have submitted already:
-    1. Create a new [CFP issue](https://gitlab.com/gitlab-com/marketing/community-relations/developer-advocacy/meta/-/issues/new?issuable_template=cfp).
+    1. Create a new [CFP issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=cfp).
     2. The issue template already sets the `~"CFP" ~"CFP::Open"` labels.
     3. Set the due date to the CFP submission due date.
 2. Submitted 1 talk:
     1. Change the label to `~CFP-Submitted ~CFP-Submitted::1`
-    2. In case you have submitted multiple talks, adjust the `~CFP-Submitted::` scoped label to reflect the correct number. 
+    2. In case you have submitted multiple talks, adjust the `~CFP-Submitted::` scoped label to reflect the correct number.
     3. Update the `submissions` section in the issue. Comment on the issue for visibility.
 
 ```
-/label ~CFP-Submitted ~CFP-Submitted::1 
+/label ~CFP-Submitted ~CFP-Submitted::1
 ```
 
 3. After the CFP closed, set the `CFP::Closed` label and update the due date to the CFP notification date listed in the issue.
@@ -467,8 +467,8 @@ Example CFP workflow using [quick actions](https://docs.gitlab.com/ee/user/proje
 4. CFP notifications come in, and at least 1 talk was accepted.
     1. Change the label to `~CFP-Accepted ~CFP-Accepted::1`
     2. In case you have multiple talks accepted, adjust the `~CFP-Accepted::` scoped label.
-    3. Comment on the issue with the talk titles for visibility. 
-    4. Set the due date to the event date, and ensure all speakers are assigned.  
+    3. Comment on the issue with the talk titles for visibility.
+    4. Set the due date to the event date, and ensure all speakers are assigned.
 
 ```
 /label ~CFP-Accepted ~CFP-Accepted::1
@@ -530,7 +530,7 @@ Content requests include blog post, podcasts, media interviews, or any request t
 | Content      | New                    | 2            |
 | Content      | Existing               | 1            |
 
-Each team listed below is allocated 15 points per quarter for requests: 
+Each team listed below is allocated 15 points per quarter for requests:
 
 | Team                       | Team Label  |
 |----------------------------|------------------|
@@ -544,7 +544,7 @@ Each team listed below is allocated 15 points per quarter for requests:
 | Product                    | `DA-Consulting::Product`     |
 | Engineering                | `DA-Consulting::Engineering` |
 
-If your team is not listed above, we will handle your request based on our availability.  
+If your team is not listed above, we will handle your request based on our availability.
 
 #### Managing requests
 

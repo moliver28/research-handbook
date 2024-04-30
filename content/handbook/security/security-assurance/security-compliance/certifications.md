@@ -44,7 +44,7 @@ Are you looking for security certifications/attestations for GitLab Dedicated? P
    - Based off the Cloud Controls Matrix and the CSA Code of Conduct for GDPR Compliance.
 - [CSA Trusted Cloud Provider](https://cloudsecurityalliance.org/artifacts/trusted-cloud-provider-faq/)
 - [Standardized Information Gathering Questionnaire](https://sharedassessments.org/sig/) Self-Assessment
-- [Annual Third Party Penetration Test]({{< ref "/handbook/security/penetration-testing-policy" >}})
+- [Annual Third Party Penetration Test](/handbook/security/penetration-testing-policy)
 
 ### Planned (Roadmap)
 

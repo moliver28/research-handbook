@@ -13,7 +13,7 @@ Team members working with security vulnerabilities should read this procedure in
 
 ## Purpose
 
-In accordance with expectations set by the FedRAMP Authorization Act and FedRAMP Program Management Office (PMO), GitLab must follow a formal process to track and request approval (risk acceptance) from our sponsoring Agency Authorizing Official (AO) for any vulnerabilities that cannot be [remediated within SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) due to scenarios described in the Scope section below. These are called vulnerability Deviation Requests (DRs) and are formally reported to our AO every month using [GitLab's Plan of Action & Milestones (POA&M) (internal only)](https://docs.google.com/spreadsheets/d/1Tj3_vqNp34CSIHZsiSI0eM2zdfG574CD/edit?usp=sharing&ouid=107738356047141217629&rtpof=true&sd=true). Deviation requests for risk adjustments (severity downgrades), false positives, and operational requirements require Authorizing Official (AO) approval.
+In accordance with expectations set by the FedRAMP Authorization Act and FedRAMP Program Management Office (PMO), GitLab must follow a formal process to track and request approval (risk acceptance) from our sponsoring Agency Authorizing Official (AO) for any vulnerabilities that cannot be [remediated within SLAs](/handbook/security/product-security/vulnerability-management/#remediation-slas) due to scenarios described in the Scope section below. These are called vulnerability Deviation Requests (DRs) and are formally reported to our AO every month using [GitLab's Plan of Action & Milestones (POA&M) (internal only)](https://docs.google.com/spreadsheets/d/1Tj3_vqNp34CSIHZsiSI0eM2zdfG574CD/edit?usp=sharing&ouid=107738356047141217629&rtpof=true&sd=true). Deviation requests for risk adjustments (severity downgrades), false positives, and operational requirements require Authorizing Official (AO) approval.
 
 ## Scope
 
@@ -134,7 +134,7 @@ There are no exceptions allowed to this procedure.
 
 ## References
 
-- [Vulnerability Management Procedure: Scanners]({{< ref "../../threat-management/vulnerability-management" >}})
+- [Vulnerability Management Procedure: Scanners]({{< ref "../../product-security/vulnerability-management" >}})
 
 ### Other helpful definitions
 

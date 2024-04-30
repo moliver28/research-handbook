@@ -7,30 +7,48 @@ aliases:
 
 ## Content Library
 
-The Developer Advocacy team creates content that can be reused for campaigns. All contents and activities the team participates in are added to the team's technical content plan sheet (search for `Technical Content Plan` in Google Drive) and [epics roadmap](/handbook/marketing/developer-relations/developer-evangelism/workflow/#roadmap-view).
+The Developer Advocacy team creates content that can be reused for campaigns. All contents and activities the team participates in are added to the team's technical content plan sheet (search for `Technical Content Plan` in Google Drive) and [epics roadmap](/handbook/marketing/developer-relations/developer-advocacy/workflow/#roadmap-view).
 
-You can search for relevant content and contact the team in the linked content epics or in the [#dev-evangelism-and-technical-marketing](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel. 
+You can search for relevant content and contact the team in the linked content epics or in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel.
+
+### Product Adoption Initiatives
+
+- [FY25 GitLab Duo adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/475) (internal).
+- [FY25 CI/CD adoption - Developer Relations epic](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/466) (internal)
+
+### Blog posts
+
+- [Abubakar Siddiq Ango](https://about.gitlab.com/blog/authors/abuango/)
+- [Cesar Saavedra](https://about.gitlab.com/blog/authors/csaavedra1/)
+- [Fatima Sarah Khalid](https://about.gitlab.com/blog/authors/sugaroverflow/)
+- [Fernando Diaz](https://about.gitlab.com/blog/authors/fjdiaz/)
+- [John Coghlan](https://about.gitlab.com/blog/authors/johncoghlan/)
+- [Itzik Gan Baruch](https://about.gitlab.com/blog/authors/iganbaruch/)
+- [Michael Friedrich](https://about.gitlab.com/blog/authors/dnsmichi/)
+- [William Arias](https://about.gitlab.com/blog/authors/warias/)
 
 ### Click-through Demos
 
 Click-through demos are product simulation demonstrations that can be used for self-guided training. They are invaluable for delivering demos to customers in areas with limited internet connectivity or complex environments, where preparation is necessary to showcase the flow. Toggle off the click boxes and speaker notes using fn+F2 to experience the real look and feel of the product.
 
-* [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
-* [Remote Development](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
-* [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
-* [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
+* [GitLab Duo (AI) - 2023-07-23](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
+* [Remote Development - 2023-05-23](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
+* [Feature Flags - 2023-06-23](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
+* [CI Overview - 2023-10-23](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
 
 Note: The demos can be run offline in the absence of internet connectivity. To do so, you can directly obtain the necessary HTML files from [here](https://gitlab.com/tech-marketing/static-demos/-/tree/master/public).
 
-### Product tours 
+### Product tours
 
-Product tours are a self-guided journey emphasizing the 'What' of a feature, skipping the 'How-to' steps to directly showcase the value aspects. 
+Product tours are a self-guided journey emphasizing the 'What' of a feature, skipping the 'How-to' steps to directly showcase the value aspects.
 
-* [Resolving vulnerabilities with GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html)
-* [CI/CD Catalog beta](https://gitlab.navattic.com/cicd-catalog)
-* [Integrating security to the pipeline](https://gitlab.navattic.com/gitlab-scans)
-* [Code Suggestions](https://gitlab.navattic.com/code-suggestions)
+* [Interactive infographic - 2024-03-24](https://tech-marketing.gitlab.io/static-demos/gitlab-infographic.html)
+* [Resolving vulnerabilities with GitLab Duo (AI) - 2024-02-24](https://tech-marketing.gitlab.io/static-demos/pt-explain-vulnerability.html)
+* [CI/CD Catalog beta - 2024-01-24](https://gitlab.navattic.com/cicd-catalog)
+* [Integrating security to the pipeline - 2024-01-24](https://gitlab.navattic.com/gitlab-scans)
+* [Code Suggestions - 2024-01-24](https://gitlab.navattic.com/code-suggestions)
 
+<<<<<<< content/handbook/marketing/developer-relations/developer-advocacy/content.md
 ### Guideline and tips for creating GitLab tours with Navattic
 
 1. Keep the product tours concise, ideally consisting of 8 to 12 steps, each highly focused on delivering clear value. In contrast, demos in documentation may adopt a more instructional "how-to" approach with longer steps.
@@ -40,22 +58,33 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 - Open your browser at 1920x1080 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
 - Open GitLab UI in full screen and capture only the GitLab UI (avoid including the Chrome toolbar or the MAC menu).
 - Use the keyboard shortcut Shift+Command+4 to Capture selected portion of the screen.  
+=======
+
+### Maintained talks
+
+These golden talk slide decks provide storytelling for lightning talks at events, speaking engagements, customer workshops, etc. You can use the slide decks for your own talks, workshops, etc. or repurpose specific slides into new stories.
+
+These talks are maintained throughout FY25:
+
+- "Efficient DevSecOps workflows with a little help from AI" ([resources](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources))
+- "Efficient DevSecOps workflows with reusable CI/CD components" ([resources](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources))
+>>>>>>> content/handbook/marketing/developer-relations/developer-advocacy/content.md
 
 ### Projects
 
-Source code, demo projects, workshops, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-evangelism/projects/).
+Source code, demo projects, workshops, tutorials, research, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/). This includes use cases for GitLab Duo (AI), CI/CD components, DevSecOps and Security, Remote Development, GitLab API, etc.
 
 ### YouTube playlists
 
-- [Developer Evangelism](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements.
-- [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-evangelism/projects/#gitlab-duo-coffee-chat)
+- [Developer Advocacy](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq-bYO9jCJaN45BBpzWSLAQ) with talks, workshops and community engagements.
+- [GitLab Duo Coffee Chat](/handbook/marketing/developer-relations/developer-advocacy/projects/#gitlab-duo-coffee-chat)
 
 
 ## Content Distribution
 
 ### Highspot
 
-The team's content is distributed in [Highspot](https://gitlab.highspot.com/) in topic and type-specific spots, for example, [GitLab Duo (AI)](https://gitlab.highspot.com/spots/64b14e7cc4b08381c0408bb4) and [Customer Outreach](https://gitlab.highspot.com/spots/615dd7c2506d3fc490ad78cd). 
+The team's content is distributed in [Highspot](https://gitlab.highspot.com/) in topic and type-specific spots, for example, [GitLab Duo (AI)](https://gitlab.highspot.com/spots/64b14e7cc4b08381c0408bb4) and [Customer Outreach](https://gitlab.highspot.com/spots/615dd7c2506d3fc490ad78cd).
 
 ### UTMs for URL tagging and tracking
 
@@ -70,13 +99,13 @@ We use the following campaigns:
 1. [Talk resources (general)](https://campaign-manager.gitlab.com/campaigns/view/13) - QR codes and short URLs for talk slides.
 1. [Community newsletter](https://campaign-manager.gitlab.com/campaigns/view/27) - community newsletter short URLs.
 1. [Demos (TMM, DE)](https://campaign-manager.gitlab.com/campaigns/view/50) - technical demos with standalone URLs.
-1. [Release Evangelism](https://campaign-manager.gitlab.com/campaigns/view/3) - [Release evangelism activities](/handbook/marketing/developer-relations/developer-evangelism/social-media/#release-evangelism).
+1. [Release Evangelism](https://campaign-manager.gitlab.com/campaigns/view/3) - [Release evangelism activities](/handbook/marketing/developer-relations/developer-advocacy/social-media/#release-evangelism).
 1. [Podcast resources](https://campaign-manager.gitlab.com/campaigns/view/38) - URLs shared with podcast hosts.
 1. [Contributed articles](https://campaign-manager.gitlab.com/campaigns/view/47) - external articles shared on social media.
 
 Event and content specific tracking examples are [KubeCon EU 2023](https://campaign-manager.gitlab.com/campaigns/view/36).
 
-### Content Distribution Workflow 
+### Content Distribution Workflow
 
 After content has been crafted and published, the next step is distribution. Here are some steps to assist in the process:
 
@@ -89,14 +118,14 @@ For documentation and community:
 
 For social media:
 
-1. Draft some copy for sharing your content on social media. See [Content Sharing](/handbook/marketing/developer-relations/developer-evangelism/social-media/#content) for tips and an overview of different platforms. Review the [message tips](/handbook/marketing/developer-relations/developer-evangelism/social-media/#message-tips) for additional engagement ideas, e.g. emojis.
+1. Draft some copy for sharing your content on social media. See [Content Sharing](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content) for tips and an overview of different platforms. Review the [message tips](/handbook/marketing/developer-relations/developer-advocacy/social-media/#message-tips) for additional engagement ideas, e.g. emojis.
 1. Suggest your content as a story on Bambu so other GitLab team members can also share it. [Details on how to suggest content on Bambu](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#suggesting-content-for-team-members-to-share-on-bambu).
 1. After posting your content on social media, share a link in the [`#social-media-action`](https://gitlab.slack.com/archives/C01AZ9C8Z4G) Slack channel to request promotion from the social media team.
 
 For GitLab teams:
 
 1. Content that can be useful to our Field Teams, should also be posted in [Highspot](https://gitlab.highspot.com/).
-1. Share an update in the [#dev-evangelism-and-technical-marketing](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel using the following message template:
+1. Share an update in the [#dev-advocacy-team](https://app.slack.com/client/T02592416/CMELFQS4B) Slack channel using the following message template:
 
 
 ```

@@ -32,7 +32,7 @@ Responsibilities:
 - Dependency updates
 - License management
 - Submissions to Partners for validations/certifications
-- The [install](/install/), [update](/update/), and [upgrade](/upgrade/) pages
+- The [install](https://about.gitlab.com/install/), [update](https://about.gitlab.com/update/), and [upgrade](https://about.gitlab.com/upgrade/) pages
 - Build and own the infrastructure used for creating the various installation methods
 - [Maintaining infrastructure](#infrastructure-and-maintenance) used in Distribution
 
@@ -94,11 +94,9 @@ Deploy team focus is configuration, deployment, and operation of GitLab as a who
 
 ## Goals
 
-Increase # of active installations
-<embed width="100%" height="300" src="https://app.periscopedata.com/shared/4def0441-92e2-4247-a509-3f5e27eae2ad?border=off&embed=v2&widget=5709313">
+[Increase # of active installations](https://10az.online.tableau.com/#/site/gitlab/workbooks/2298821/views)
 
-Reduce average days behind latest version
-<embed width="100%" height="300" src="https://app.periscopedata.com/shared/3c364984-9985-4d91-b7ba-242933694634?border=off&embed=v2&widget=5697571">
+[Reduce average days behind latest version](https://10az.online.tableau.com/#/site/gitlab/views/VersionUpgradeMetrics/InstallationsonLatestVersionsofGitLab?:iid=1)
 
 ## Team members
 
@@ -106,7 +104,7 @@ Reduce average days behind latest version
 
 The following people are members of the Distribution:Build Team:
 
-{{< team-by-manager-slug manager="plu8" team="Build" >}}
+{{< team-by-manager-slug manager="sissiyao" team="Build" >}}
 
 ### Distribution Deploy Team
 
@@ -242,7 +240,7 @@ us forward and helping create a better experience.
 
 In Distribution we strive for the following in our public projects:
 
-1. Uphold our [Community Code of Conduct](/community/contribute/code-of-conduct/).
+1. Uphold our [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
 1. Enable [GitLab's mission that everyone can contribute.](/handbook/company/mission/#mission).
 1. Show our work in [public](#public-by-default).
 1. [Recognize and thank](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#recognition-for-contributors) contributors for their work.
@@ -435,5 +433,18 @@ How did Distribution get its name? We iterated, as always. "Distribution" was ch
 
 ## Dashboards
 
-{{% cross-functional-dashboards filters="Distribution" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="distribution" >}}
+{{< /tableau >}}
 
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="distribution" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="distribution" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="distribution" >}}
+{{< /tableau >}}

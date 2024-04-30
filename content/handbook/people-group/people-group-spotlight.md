@@ -1,5 +1,5 @@
 ---
-title: People Group
+title: People Group Spotlight program
 description: >-
   An overview of the People Group Spotlight program.
 ---

@@ -21,6 +21,7 @@ description: "Tableau at GitLab"
 - [Internal Slack channel](https://app.slack.com/client/T02592416/C03RMCEHVCP)
 - [External Slack channel](https://app.slack.com/client/T02592416/C031QE95QJU)
 - [GitLab Tableau Developer Guide](/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/)
+- [GitLab Tableau Administration Guide](/handbook/business-technology/data-team/platform/tableau/tableau-admin-guide/)
 - [Reporting Data Catalog](/handbook/business-technology/data-team/platform/tableau/reporting-data-catalog/)
 - [Handbook Embedding Demonstration](/handbook/business-technology/data-team/platform/tableau/embed-demo/)
 
@@ -180,26 +181,10 @@ The top-level folders in our Tableau Project, and their corresponding levels of 
 
 ### BIOps Roles and Responsibilities
 
-Please see the [project-permission-structure](/handbook/business-technology/data-team/platform/tableau/#project-permission-structure) section for details on the permissions for the below BIOps roles.
-
-| **Department:Team, Business Motion** | **Team Member Name** | **Tableau Online Role**  | **GitLab Tableau Project Role** |
--------------------------------------- | -------------------- | ------------------------ | --------------------------------|
-| Data: BI Platform             | `@ttnguyen28`, `@iweeks`, `@pempey`, `@nmcavinue`, `@snalamaru` | Top Level Project Leader | Maintainer |
-| Data                          | `@ttnguyen28`, `@iweeks`, `@pempey`, `@nmcavinue`               | Sub-Project Leader       | Code Owner |
-| Customer Success              | `@bbutterfield`, `@marntz`                                      | Sub-Project Leader       | Code Owner |
-| Marketing                     | `@degan`                                                        | Sub-Project Leader       | Code Owner |
-| People                        | `@aperez349`, `@mccormack514`                                   | Sub-Project Leader       | Code Owner |
-| Product                       | `@cbraza`, `@dpeterson1`                                        | Sub-Project Leader       | Code Owner |
-| Engineering                   | `@cdeleon_gitlab`, `@gitlab-org/quality/engineering-analytics`  | Sub-Project Leader       | Code Owner |
-| Sales                         | `@leework`, `@nfiguera`                                         | Sub-Project Leader       | Code Owner |
-| Finance: GTM Finance          | `@alixtucker`, `@nbernardo`, `@vagrawalg`                       | Sub-Project Leader       | Code Owner |
-| Finance: Corporate Finance    | `@james.shen`, `@vagrawalg`                                     | Sub-Project Leader       | Code Owner |
-| Security                      | `TBD`                                                           | Sub-Project Leader       | Code Owner |
-| Go To Market                  | `@leework`, `@christinelee`, `@alixtucker`, `@nbernardo`, `@nmcavinue`, `@vagrawalg`,  `@degan`, `@nfiguera` | Sub-Project Leader | Code Owner |
-| Team Member                   | `@aperez349`, `@james.shen`, `@vagrawalg`, `@nmcavinue`         | Sub-Project Leader       | Code Owner |
+Please see the [project-permission-structure](/handbook/business-technology/data-team/platform/tableau/#project-permission-structure) section for details on the permissions for the BIOps roles. 
 
 1. **Top Level Project Leader / Maintainer Responsibilities:** The Top Level Project leaders come from the BI Platform Team. These leaders are responsible for publishing content in the Sub-Projects that role up to the Top Level Projects and are responsible for maintaining the GitLab Tableau Project. This role does not specifically include Tableau Online Site Administration responsibilities although several Top Level Project Leaders are also [Tableau Online Site Admins](/handbook/business-technology/data-team/platform/tableau/#tableau-online-admins).
-2. **Sub-Project Leader / Code Owner Responsibilities:** The Sub-Project Leaders come from functional departments and teams. These leaders are responsible for reviewing and approving content for publishing in their department's folder and in cross-functional Sub-Project folders like the Go To Market folder as Code Owners.
+2. **Sub-Project Leader / Code Owner Responsibilities:** The Sub-Project Leaders come from functional departments and teams. These leaders are responsible for reviewing and approving content for publishing in their department's folder and in cross-functional Sub-Project folders like the Go To Market folder as Code Owners. The [CODEOWNERS file](https://gitlab.com/gitlab-data/tableau/-/blob/main/CODEOWNERS?ref_type=heads) in the Tableau project is the source of truth for sub-project leads who are able to review and approve MRs to publish dashboards to Production. 
 
 ### BIOPs Workflows
 
@@ -319,6 +304,10 @@ User Groups are the only prescribed method we use for setting permissions across
 #### Limited Access User Groups
 
 Limited access user groups will allow business teams to manage accessibility to their published content based on rules that they've identified. Request for the creation of a limited access user group can be made through the All Requests template in [Issues](https://gitlab.com/gitlab-data/tableau/-/issues/?sort=created_date&state=opened&first_page_size=100) section of the Tableau project and requires the approval of that department's [sub-project lead](/handbook/business-technology/data-team/platform/tableau/#biops-roles-and-responsibilities).
+
+#### List of User Groups
+
+Each section below below corresponds to a limited access user group and the designated owner. Please note: To gain access to an user group, the designated owner will need to give approval in the AR.
 
 ##### **General SAFE Access**
 
@@ -593,7 +582,7 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 
 1. Personal Space > New > Workbook
 2. Connect to Data > On This Site
-3. Pick a published data source 
+3. Pick a published data source
 
 </details>
 

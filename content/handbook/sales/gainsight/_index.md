@@ -45,7 +45,7 @@ If you are logging in through Salesforce, you can also quickly open the Salesfor
 
 To access Gainsight directly, go to [gitlab.gainsightcloud.com](https://gitlab.gainsightcloud.com/) and when prompted for your username and password, enter *only* your GitLab email address. As soon as it is entered, the screen should change to indicate that you are using single sign-on, and when you click "log in" it will redirect you to Okta.
 
-- If you need to request access to Gainsight, fill out an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and have your manager add the manager approved label.
+- If you need to request access to Gainsight, fill out an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and have your manager add the manager approved label.
 - If you need help locating the Gainsight NXT tab in Salesforce or the Gainsight Okta tile, submit an issue using the [Gainsight Request Template](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).
 
 ### Confirm your timezone
@@ -107,4 +107,4 @@ If this doesn't solve the issue, reach out to [Gainsight support](#support-ticke
 
 - You can find more information about how Sales uses Gainsight on the [Using Gainsight within Sales](/handbook/sales/gainsight/account-planning/) page
 - You can find more information about how Customer Success Managers use Gainsight on the [Using Gainsight for CSMs](/handbook/customer-success/csm/gainsight/) page
-- You can find more information about how Solutions Architect use Gainsight on the [Using Gainsight for SAs](/handbook/customer-success/solutions-architects/processes/account-planning)
+- You can find more information about how Solutions Architect use Gainsight on the [Using Gainsight for SAs](/handbook/solutions-architects/processes/account-planning)

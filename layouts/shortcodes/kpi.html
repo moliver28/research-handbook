@@ -1,4 +1,4 @@
-
+<!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators -->
 {{ $org := lower (replace (.Get 0) " " "_") }}
 {{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/performance_indicators/%s.yml" $org}}
 {{ with resources.GetRemote $dataURL }}

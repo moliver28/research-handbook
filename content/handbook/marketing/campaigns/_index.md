@@ -437,7 +437,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 - *Note: this is being sunsetted in Q4 FY21 and existing records in nurture will continue until all emails have deployed.*
 - [Epic with tactical issues](https://gitlab.com/groups/gitlab-com/marketing/-/epics/367)
-- [Live landing page](/topics/devops/reduce-devops-costs/)
+- [Live landing page](https://about.gitlab.com/topics/devops/reduce-devops-costs/)
 - [Slack](https://gitlab.slack.com/archives/CCWUCP4MS)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000000CyiL)
 
@@ -467,7 +467,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 - *Note: this is being sunsetted Q2 FY21 and existing records in the nurture will move to the DevSecOps use case campaign nurture.*
 - [Epic with tactical issues](https://gitlab.com/groups/gitlab-com/marketing/-/epics/368)
-- [Live landing page](/solutions/dev-sec-ops/)
+- [Live landing page](https://about.gitlab.com/solutions/dev-sec-ops/)
 - [Campaign brief](https://docs.google.com/document/d/1NzFcUg-8c1eoZ1maHHQu9-ABFfQC65ptihx0Mlyd-64/edit)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000000CyeJ)
 
@@ -515,7 +515,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - *Note: this is being sunsetted Q2 FY21 and existing records in the nurture will move to the CI use case campaign nurture.*
 - [Epic with tactical issues](https://gitlab.com/groups/gitlab-com/marketing/-/epics/379)
 - [SDR & Sales enablement epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/432)
-- [Live landing page](/resources/ebook-single-app-cicd/)
+- [Live landing page](https://about.gitlab.com/resources/ebook-single-app-cicd/)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001lkp9)
 
 ### 🚀 Competitive campaign
@@ -529,7 +529,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 - [Parent epic with tactical issues](https://gitlab.com/groups/gitlab-com/marketing/-/epics/10)
 - [SDR & Sales enablement epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/85)
-- [Live landing page](/resources/ebook-single-app-cicd/)
+- [Live landing page](https://about.gitlab.com/resources/ebook-single-app-cicd/)
 - [SFDC Campaign >>](https://gitlab.my.salesforce.com/70161000000VxvJ)
 
 ### 🌄 Just Commit

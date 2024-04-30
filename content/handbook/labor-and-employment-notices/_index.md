@@ -216,7 +216,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Kansas
 
-- [Unemployment Insurance](https://www.dol.ks.gov/documents/20121/56357/Unemployment+Insurance+Poster.pdf/81a04d94-26c5-ba54-16f8-b6b1e9d2932a?t=1612353923740)
+- [Unemployment Insurance](https://www.dol.ks.gov/home/showpublisheddocument/100/638363383565870000)
 - [Kansas Law Provides Equal Opportunity](http://www.khrc.net/pdf/ksemployposter.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1wfEtSjJ7O_MDx4eIg9-5rebCLkDyrkgL/view?usp=sharing)
 
@@ -414,7 +414,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### New York
 
-- [New York Correction Law, Article 23-A](https://dol.ny.gov/system/files/documents/2021/02/correction-law-article-23a.pdf)
+- [New York Correction Law, Article 23-A](https://dol.ny.gov/system/files/documents/2024/02/correction-law-article-23a_0.pdf)
 - [New York State Human Rights Law](https://dhr.ny.gov/system/files/documents/2022/05/poster.pdf)
 - [Equal Pay Provision](https://dol.ny.gov/system/files/documents/2021/03/ls603_equity_provision.pdf)
 - [Minimum Wage](https://dol.ny.gov/system/files/documents/2021/12/ls207.pdf)
@@ -428,7 +428,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/13W9mUkiRUi8msZG2kXemM6fwxLdysNcS/view?usp=sharing)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1nYMzCdHjkRQXrwkkY-8C0vmUdRDgLuS9/view?usp=sharing)
 - **City of New York City**
-    - [Safe and Sick Leave](https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSafeSickLeave-MandatoryNotice-English.pdf)
+    - [Workers' Bill of Rights](https://www.nyc.gov/site/dca/workers/workersrights/know-your-worker-rights.page)
+    - [Safe and Sick Leave](https://www.nyc.gov/site/dca/workers/workersrights/paid-sick-leave-law-for-workers.page) and Notice(https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSafeSickLeave-MandatoryNotice-English.pdf)
     - Employers calendar year is Jan 1 - Dec 31st.
 
 ### North Carolina

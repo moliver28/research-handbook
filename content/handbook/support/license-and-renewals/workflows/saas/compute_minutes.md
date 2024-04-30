@@ -19,19 +19,19 @@ Use the <a href="/handbook/support/license-and-renewals/workflows/customersdot/m
 <details>
 <summary>Using GitLab.com ChatOps</summary>
 
-View the <a href="/handbook/support/workflows/chatops.html#setting-additional-minutes-quota-for-a-namespace">
+View the <a href="/handbook/support/workflows/chatops/#setting-additional-minutes-quota-for-a-namespace">
 Support ChatOps documentation</a> for more information.
 </details>
 
 ### Process for authorising additional compute minutes for customers as an act of goodwill
 
 - For an existing customer, Support is able to issue compute minutes as an act of goodwill in the following scenarios:
-  - requests from Sales AE during procurement delays (LINK TO FIELD OPS PAGE, https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/1687)
+  - requests from Sales AE during procurement delays as [per the Channel Ops handbook](https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/partner-faq/#post-sale).
   - customer has encountered a product bug related to compute minutes
   - customer experienced an unplanned GitLab.com downtime.
 
 - If the request falls outside of the examples above, any additional compute minutes should be paid for. If you are unsure, verify in
-the [#spt_managers](https://gitlab.slack.com/archives/C01F9S37AKT) channel in Slack.
+the [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) channel in Slack.
 
 #### Requests from sales during procurement delays
 
@@ -46,7 +46,7 @@ the [#spt_managers](https://gitlab.slack.com/archives/C01F9S37AKT) channel in Sl
 - Request from the customer a list of impacted projects, and:
   1. Post an internal note on the ticket denoting the number of compute minutes to be applied, using the following formula:
   - `Total compute minutes = Their current compute minutes + (2 x sum of compute minutes for all failed jobs)`
-  1. Request Manager Approval to `Restore Compute Minutes as an act of goodwill` to the [#spt_managers](https://gitlab.slack.com/archives/C01F9S37AKT) channel in Slack
+  1. Request Manager Approval to `Restore Compute Minutes as an act of goodwill` to the [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) channel in Slack
   1. MANAGERS: Acknowledge in Slack and post approval via internal note in the ticket.
   1. After Approval is provided in ticket, restore the compute minutes using the [Zendesk Mechanizer app: Set compute minutes to namespace workflow](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#set-compute-minutes-to-namespace)
 - This will provide recovery of the compute minutes lost, with an additional amount in recognition of the inconvenience caused to the customer.
@@ -62,7 +62,7 @@ the [#spt_managers](https://gitlab.slack.com/archives/C01F9S37AKT) channel in Sl
 - GitLab Sales team members may open an internal request for `Change Existing Trial Plan` to request quota increases. These requests are limited to the standard allotments of compute minutes for paid plans: 10,000 minutes for a Premium trial, and 50,000 minutes for an Ultimate trial.
   - Note: extra minutes are not automatically removed when the trial ends. The customer can use them until they are all used up.
 
-- In any other cases, additional compute minutes or storage should be paid for. If you have any questions, ask in the `#spt_managers` Slack channel.
+- In any other cases, additional compute minutes or storage should be paid for. If you have any questions, ask in the `#support_leadership` Slack channel.
 
 ### Purchased compute minutes are not associated with customer's group
 

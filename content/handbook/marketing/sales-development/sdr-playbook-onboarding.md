@@ -1,6 +1,8 @@
 ---
 
-title: "Sales Development Onboarding"
+title: Sales Development Onboarding
+description: This is the main page that newcoming team members should use to familiarize themselves with GitLab and how we work.
+
 ---
 
 ## The Goal of Sales Development Onboarding

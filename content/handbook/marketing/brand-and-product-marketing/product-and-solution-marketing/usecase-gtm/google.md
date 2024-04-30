@@ -88,7 +88,7 @@ See the full set of GitLab joint solution capabilities with Google Cloud at [htt
 
 ## Proof Points
 
-[General proof points](/handbook/sales/command-of-the-message/proof-points/) and [Customer Recognition](/customers/marketplace/)
+[General proof points](/handbook/sales/command-of-the-message/proof-points/) and [Customer Recognition](https://about.gitlab.com/customers/marketplace/)
 
 ### Quotes and reviews
 

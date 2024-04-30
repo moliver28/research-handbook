@@ -29,9 +29,9 @@ title: "End User Services"
 
 #### Baseline & Role-Based Entitlements
 
-- For information about baseline entitlements and role-based access, please refer to the [baseline entitlements handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/baseline-entitlements/).
+- For information about baseline entitlements and role-based access, please refer to the [baseline entitlements handbook page](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/).
 
-- For information on how to create a Role-Based Entitlement, please refer to the [instructions on how to create role-based entitlements](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/baseline-entitlements/#how-do-i-create-a-role-based-entitlement-template).
+- For information on how to create a Role-Based Entitlement, please refer to the [instructions on how to create role-based entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#how-do-i-create-a-role-based-entitlement-template).
 
 #### Automated Group Membership Reports for Managers
 
@@ -47,7 +47,7 @@ To read more about Okta, please visit the [**Okta**](/handbook/business-technolo
 
 #### Jamf (Endpoint Management)
 
-To read more about our Jamf deployment please visit the [**Endpoint Management**](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/) page of the handbook
+To read more about our Jamf deployment please visit the [**Endpoint Management**](https://internal.gitlab.com/handbook/it/endpoint-tools/) page of the handbook
 
 #### Laptop Delivery Metrics
 

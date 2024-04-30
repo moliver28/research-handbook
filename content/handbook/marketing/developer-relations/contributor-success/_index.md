@@ -22,6 +22,7 @@ description: "Contributor Success Team"
 | **Contributing Organization Tracking** | [Contributing Organization Tracking](/handbook/marketing/developer-relations/contributor-success/contributing-org-tracker) |
 | **A Contributor's User Journey** | [User Journey](/handbook/marketing/developer-relations/contributor-success/user-journey) |
 | **Community pairing sessions** | [Community pairing sessions](/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions) |
+| **Innovation Pitch Competition** | [Innovation Pitch Competition](/handbook/marketing/developer-relations/contributor-success/innovation-pitch-competition) |
 
 - - -
 
@@ -99,11 +100,11 @@ to the program.
 - Contribute as a [merge request coach](/job-families/expert/merge-request-coach/) in one or more specialties by providing guidance to community contributors on technical and non-technical aspects.
 - Be a point of escalation for community contributors and identify GitLab DRIs to resolve blockers.
 - Organize community contributors into [community teams](#gitlab-community-teams-structure) and ensure their success.
-- Track [contribution](/community/contribute/) delivery of the Community Contributors and Cohorts.
+- Track [contribution](https://about.gitlab.com/community/contribute/) delivery of the Community Contributors and Cohorts.
 - Nominate impactful community contributors and contributions for recognition.
 - Select and recognize a [GitLab MVP](/handbook/marketing/developer-relations/contributor-success/mvp-process) for each release post
-- Collaborate closely with our [Marketing counterparts](/handbook/marketing/developer-relations/) and [Core team](/community/core-team/).
-- Engineering representative that can ride along with the [Developer Advocate](/job-families/marketing/developer-evangelist/).
+- Collaborate closely with our [Marketing counterparts](/handbook/marketing/developer-relations/) and [Core team](https://about.gitlab.com/community/core-team/).
+- Engineering representative that can ride along with the [Developer Advocate](/job-families/marketing/developer-advocate/).
 - Improve community recognition system and awards in collaboration with the [Developer Relations team](/handbook/marketing/developer-relations/).
 - Participate in GitLab's overall Engineering open source outreach events and processes.
 - [Triage community issues](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to be picked up by the community or GitLab team members
@@ -359,6 +360,8 @@ A curated list of external resources for improving open source community relatio
 - [The secrets to onboarding new open source contributors](https://github.com/readme/featured/contributor-onboarding)
 
 - [The privilege of free time in Open Source](https://dri.es/the-privilege-of-free-time-in-open-source)
+
+- [Good first issues don't exist](https://opensauced.pizza/blog/good-first-issues-dont-exist)
 
 ## Community Office Hours
 

@@ -6,17 +6,7 @@ description: >-
   Team and anyone can contribute.
 ---
 
-
-
-
-
-
-
-GitLab's Marketing Site (about.gitlab.com) is led by the [Digital Experience Team](/handbook/marketing/digital-experience) and anyone can contribute.
-
-The [DRI](/handbook/people-group/directly-responsible-individuals/) for the Marketing Site is [Michael Preuss](https://gitlab.com/mpreuss22), and internal GitLab team members can drop questions in Slack at #digital-experience-team
-
-The Digital Experience team is migrating GitLab's Marketing Site to the [Buyer Experience Repository](/handbook/marketing/digital-experience/buyer-experience-repository).
+GitLab's Marketing Site (about.gitlab.com) is led by the [Digital Experience Team](/handbook/marketing/digital-experience) and anyone can contribute. Internal GitLab team members can drop questions in Slack at #digital-experience-team
 
 ## Objectives
 
@@ -97,8 +87,8 @@ Examples of other companies who have solutions pages:
 
 The product section of our website has pages that describe what GitLab does and the value provided. The functionality of GitLab is ordered in a hierarchy with 4 levels: Stage, Categories, Capabilities, and Features. You can find details on the [Product Categories Handbook](/handbook/product/categories/)
 
-- Stages relevant to users are listed on the [product overview page](/stages-devops-lifecycle/) with details about the stage on the [stages page](https://gitlab.com/gitlab-com/www-gitlab-com/issues/2428).
-- Categories relevant to users are listed on the [product overview page](/stages-devops-lifecycle/).
+- Stages relevant to users are listed on the [product overview page](https://about.gitlab.com/stages-devops-lifecycle/) with details about the stage on the [stages page](https://gitlab.com/gitlab-com/www-gitlab-com/issues/2428).
+- Categories relevant to users are listed on the [product overview page](https://about.gitlab.com/stages-devops-lifecycle/).
 - Capabilities are listed on the category page they belong to. Capabilities may also have their own landing page.
 - Features are listed in many places on the website: on the features page, the capabilities page they belong to, the pricing page, comparison pages, and the ROI calculator.
 
@@ -183,18 +173,14 @@ If you are an engineer, be sure to check out our [developer docs in Buyer Experi
 
 Pages are built in the code under [/pages/](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/pages?ref_type=heads), and they fetch content from Contentful. Documentation coming soon.
 
-
 #### As a Non-engineer
 
 To create a new page, work with the Digital Experience team by creating an issue in the [Buyer Experience repo](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#)
-
-
 
 ### Updating an existing page
 
 1. To edit the existing content of a page, check out our Contentful CMS documentation.
 1. To add a visual component or section to a page, please fill out an [issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new#) for the Digital Experience team.
-
 
 ### Optimize images
 
@@ -203,13 +189,24 @@ When adding an image to a webpage, be sure that you optimize the image first.
 1. Select the image you'd like to add to a page and save a copy to your computer.
 1. Add your local copy to [ImageOptim](https://imageoptim.com/howto.html) and optimize the image for the web.
 
-
-
 ### Working with Stages, Groups, and Categories
 
 [Categories and stages](/handbook/product/categories/) are defined in the product handbook. Stages are stored in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml) and categories are stored in [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml) as the single source of truth for engineering and marketing.
 
-These two files power various parts of the website including the [homepage](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/sites/uncategorized/source/includes/home/sdlc.html.haml), [product pages](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/product/index.html.haml), and [product categories handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/includes/product/_categories.erb).
+These two files power various parts of the website:
+
+- [homepage](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/sites/uncategorized/source/includes/home/sdlc.html.haml)
+- [product pages](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/product/index.html.haml)
+- [product categories handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/includes/product/_categories.erb)
+- [feature page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/features/index.vue)
+- [platform page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/platform.vue)
+
+Note: The [categories table](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/components/common/categories-table.vue) on the [platform page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/platform.vue) is populated by [`data/categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml) for each feature which has the `marketing` key set to True. When clicking on a feature in the table, you are redirected in the following orders:
+
+1. `marketing_page` key: Points to the appropriate marketing or solution page
+2. `feature_page` key: Points to the appropriate section of the [feature page](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/pages/features/index.vue)
+3. `documentation` key: Points to the appropriate documentation for the feature
+4. `direction` key (planned maturity only): Points to the appropriate direction page
 
 They are also used by the automated triage operation ["Stage and group labels inference from category labels"](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/).
 
@@ -306,7 +303,7 @@ This list is used in the automated triage operation ["Stage and group labels inf
 - `lovable`: an ISO date for when the category will/did move from complete to loveable on the [maturity handbook page](https://about.gitlab.com/direction/maturity/).
 - `maturity`: the current maturity of the category on the [maturity handbook page](https://about.gitlab.com/direction/maturity/). Valid values are `planned`, `minimal` (available), `viable`, `complete`, and `lovable`. Provided `marketing = true`, a value of `planned` will cause the category to appear in the "coming soon" section of the homepage, while other values will cause it to appear in the "Since 20XX GitLab added" section.
 - `marketing`: A value of `true` will cause this category to appear on our marketing pages, in addition to our [handbook](/handbook/product/categories/). For the home page, a `maturity` state is also required. [Internationalizaion](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml) is a good example of a category the engineering team works on, but is not a "customer-facing category" that appears on marketing pages.
-- `body`: content added in markdown will be [auto-generated](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/config.rb#L133) and turned into a page at `/product/<category>/`. Features and missing features sections are automatically added to the generated category pages based on what category a feature belongs to in `features.yml`. c.f. [Project Management](/solutions/agile-delivery/) (and auto-generated page from the [`body` section in `categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml#L148)) with [Continuous Integration](/features/continuous-integration/) (a [custom page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/features/continuous-integration/index.html.haml).)
+- `body`: content added in markdown will be [auto-generated](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/config.rb#L133) and turned into a page at `/product/<category>/`. Features and missing features sections are automatically added to the generated category pages based on what category a feature belongs to in `features.yml`. c.f. [Project Management](https://about.gitlab.com/solutions/agile-delivery/) (and auto-generated page from the [`body` section in `categories.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/categories.yml#L148)) with [Continuous Integration](/features/continuous-integration/) (a [custom page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/features/continuous-integration/index.html.haml).)
 - `opportunity`: values can be `Core`, `Adjacent`, `Distant` - is this category considered part of our existing `Core` DevOps platform, a directly `Adjacent` set of capabilities or a `Distant` vision for future breadth.
 - `differentiation`: values can be `Winning`,`Compelling`,`Minimal` - is this category sufficiently differentiated from competitors to be considered capable of consistently `winning`, providing an `compelling` additive component to our single platform value or adding only `minimal` differentiated value.
 - `ux_scorecard_score`: value should be a letter score, following the [grading rubric](/handbook/product/ux/ux-scorecards/#grading-rubric)
@@ -377,10 +374,10 @@ All features and capabilities are listed in a single yaml file
 ([`features.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/features.yml)) under the `features` section.
 It is the single source of truth for multiple pages across the website including:
 
-- [Product pages](/stages-devops-lifecycle/) e.g. [code review](/stages-devops-lifecycle/create/)
+- [Product pages](https://about.gitlab.com/stages-devops-lifecycle/) e.g. [code review](https://about.gitlab.com/stages-devops-lifecycle/create/)
 - [Pricing](https://about.gitlab.com/pricing/)
 - [Features](https://about.gitlab.com/features/)
-- [Solutions](/solutions/)
+- [Solutions](https://about.gitlab.com/solutions/)
 - [Platform](/platform/)
 
 To add a new feature, add a feature block to under the `features:` section of the page. Add the following attributes:
@@ -450,7 +447,7 @@ Copy and paste this template:
 
 ### Updating content on GitLab Learn
 
-The underlying data shown on the [GitLab Learn](/learn/) page is available in [https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml)
+The underlying data shown on the [GitLab Learn](https://about.gitlab.com/learn/) page is available in [https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml)
 
 To update the course content data:
 1. Open an MR to the [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) file. Follow the existing syntax in the file. For ease of adding a new course, we recommend copying an existing entry and updating the values based on the new course being added, populating every field.

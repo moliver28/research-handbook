@@ -162,7 +162,7 @@ If possible, avoid time critical work. Great intern projects tend to be items wh
 
 ### Make your strategy and onboarding public
 
-At GitLab, we make our [strategy]({{< ref "/handbook/company/strategy" >}}) and [OKRs]({{< ref "/handbook/company/okrs" >}}) (objectives and key results) public, and offer copious context on the question of "[What's it like to work at GitLab?]({{< ref "candidate-faq" >}})" This shows respect for job seekers, and it ensures that those who apply resonate with our [values]({{< ref "values" >}}).
+At GitLab, we make our [strategy](/handbook/company/strategy) and [OKRs](/handbook/company/okrs) (objectives and key results) public, and offer copious context on the question of "[What's it like to work at GitLab?]({{< ref "candidate-faq" >}})" This shows respect for job seekers, and it ensures that those who apply resonate with our [values]({{< ref "values" >}}).
 
 Hiring remote interns is hard. An organization shouldn't make it harder by concealing their vision and values until *after* an intern is hired. Given the remarkably short duration of the internship experience, it's vital to act [transparently]({{< ref "values#transparency" >}}) in order to create as much pre-start alignment as possible.
 
@@ -185,7 +185,7 @@ If you don't hire your remote intern/s at the end of their internship experience
 1. Acknowledge intern contributions in team meetings, issues, company calls, 1-1 meetings.
 1. Send a gift or a swag bag to commemorate their contributions.
 
-Don't forget to gather information they are willing to share such as their email address, LinkedIn profile, or handles for other social channels so you can stay in touch. Who knows...maybe a [position at GitLab](/jobs) will come available that you can hire them for!
+Don't forget to gather information they are willing to share such as their email address, LinkedIn profile, or handles for other social channels so you can stay in touch. Who knows...maybe a [position at GitLab](https://about.gitlab.com/jobs) will come available that you can hire them for!
 
 ## Contribute your lessons
 

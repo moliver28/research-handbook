@@ -13,17 +13,17 @@ aliases:
 
 
 ## What is advocacy?
-Advocacy creates a human connection with buyers and consumers to technology way beyond typical content marketing, with a face and a name relaying the story, expressing an opinion, and ultimately influencing a decision. 
+Advocacy creates a human connection with buyers and consumers to technology way beyond typical content marketing, with a face and a name relaying the story, expressing an opinion, and ultimately influencing a decision.
 
 Many people believe Guy Kawasaki, the former chief evangelist of Apple Computer, to be the father of advocacy.
 
-Sources: 
-* [https://www.forbes.com/sites/theopriestley/2015/08/28/why-every-tech-company-needs-a-chief-evangelist/](https://www.forbes.com/sites/theopriestley/2015/08/28/why-every-tech-company-needs-a-chief-evangelist/)  
-* [https://en.wikipedia.org/wiki/Evangelism_marketing](https://en.wikipedia.org/wiki/Evangelism_marketing)  
+Sources:
+* [https://www.forbes.com/sites/theopriestley/2015/08/28/why-every-tech-company-needs-a-chief-evangelist/](https://www.forbes.com/sites/theopriestley/2015/08/28/why-every-tech-company-needs-a-chief-evangelist/)
+* [https://en.wikipedia.org/wiki/Evangelism_marketing](https://en.wikipedia.org/wiki/Evangelism_marketing)
 
 ### Who can be an advocate?
 
-**Everybody in the wider GitLab Community can be an advocate.** Whether you work in marketing ops or infrastructure engineering, you have a point of view on the work you do and the ecosystem of open source enterprise technology. 
+**Everybody in the wider GitLab Community can be an advocate.** Whether you work in marketing ops or infrastructure engineering, you have a point of view on the work you do and the ecosystem of open source enterprise technology.
 
 ### Stages of advocacy
 1. Beginner - when you start following the right accounts on Twitter, peruse HN regularly, and respond to people
@@ -31,7 +31,7 @@ Sources:
 3. Pro - when you are invited to give talks that have over 200 attendees, when your content sometimes goes viral, often snagging over 500 views. You regularly contribute to the GitLab blog and other community blogs, podcasts, other content channels.
 
 ### Benefits of being an advocate
-* Beginners: Joining the conversation about our ecosystem is a great way to develop a more nuanced perspective of your job. That leads to new and better ideas. Being aware of the various points of view in the industry also helps jumpstart the strategic brain juices which will help you contribute more deeply in work discussions. 
+* Beginners: Joining the conversation about our ecosystem is a great way to develop a more nuanced perspective of your job. That leads to new and better ideas. Being aware of the various points of view in the industry also helps jumpstart the strategic brain juices which will help you contribute more deeply in work discussions.
 
 * Enthusiast: As an enthusiast you showcase your expertize in the public arena. This means you and your company benefit from the material and you start building name recognition that leads to new opportunities. This is also a good spot to be in if you want to pivot your career towards a new expertize.
 
@@ -59,8 +59,8 @@ Our KPIs and processes follow industry best practices. We regularly iterate on n
 
 ## <i class="fa fa-external-link" aria-hidden="true"></i> Useful links
 
-1. [GitLab Speakers Bureau](/handbook/marketing/developer-relations/developer-evangelism/speakers-bureau/)
-1. [Developer Advocates on Social Media](/handbook/marketing/developer-relations/developer-evangelism/social-media/)
-1. [How to submit a successful conference proposal](/handbook/marketing/developer-relations/developer-evangelism/writing-cfps/)
+1. [GitLab Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/)
+1. [Developer Advocates on Social Media](/handbook/marketing/developer-relations/developer-advocacy/social-media/)
+1. [How to submit a successful conference proposal](/handbook/marketing/developer-relations/developer-advocacy/writing-cfps/)
 1. [Consortia we work with](/handbook/marketing/developer-relations/community-programs/opensource-program)
 1. [Speaking resources](/handbook/marketing/corporate-communications/speaking-resources/)

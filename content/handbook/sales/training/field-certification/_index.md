@@ -15,12 +15,12 @@ description: "To support and scale GitLab’s continued growth and success, the 
 
 During [Sales Quick Start](/handbook/sales/onboarding/), every GitLab field team member is trained on [customer value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers) and GitLab’s value-based messaging framework (see the [Command of the Message](/handbook/sales/command-of-the-message/) page). Once new team members complete SQS, they will begin their role-based certifiction program.
 
-To improve efficiency & predictability with a consistent and scalable customer engagement, the Field Enablement Team has developed a role based accreditation program that includes functional, soft skills, and [product training](/handbook/sales/training/product-certification/) for field team members.  
+To improve efficiency & predictability with a consistent and scalable customer engagement, the Field Enablement Team has developed a role based accreditation program that includes functional, soft skills, and [product training](/handbook/sales/training/product-certification/) for field team members.
 
 The Accreditations align to the customer's journey and the [field functional competencies](/handbook/sales/training/field-functional-competencies/) that address the critical knowledge, skills, role-based behaviors, processes, and tools to successfully execute customer engagements.
 
 
-Note: This accreditation program is different from resources like other [GitLab Certifications](/learn/certifications/public/) that focus on how to *use GitLab* or tied to GitLab competencies (though we encourage field team members to take these as well)!
+Note: This accreditation program is different from resources like other [GitLab Certifications](https://about.gitlab.com/learn/certifications/public/) that focus on how to *use GitLab* or tied to GitLab competencies (though we encourage field team members to take these as well)!
 
 
 ### Purpose of the Field Accreditation Program
@@ -36,8 +36,8 @@ The goal of the Field Accreditation Program is to validate that:
 
 The Field Accreditation Program will include functional and soft skills training for:
 - [Strategic Account Leaders](/handbook/sales/training/field-certification/sal/)
-- [Account Executives](/handbook/sales/commercial/enablement/required7/)  
-- [Solution Architects](/handbook/sales/training/field-certification/sa/)  
+- [Account Executives](/handbook/sales/commercial/enablement/required7/)
+- [Solution Architects](/handbook/sales/training/field-certification/sa/)
 - [Customer Success Managers](/handbook/sales/training/field-certification/csm/)
 - [Partners](/handbook/resellers/training/)
 
@@ -87,7 +87,7 @@ Currently available courses include the following:
 
 #### Continuous Integration (CI)
 
-- Access the [Continuous Integration Customer Use Case learning path](https://gitlab.edcast.com/pathways/continuous-integration-customer-use-case)  
+- Access the [Continuous Integration Customer Use Case learning path](https://gitlab.edcast.com/pathways/continuous-integration-customer-use-case)
 
 #### DevSecOps
 

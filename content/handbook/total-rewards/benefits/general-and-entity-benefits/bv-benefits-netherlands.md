@@ -80,7 +80,7 @@ work, this portion of the plan continues to pay part or all of the pension contr
 **Voluntary Pension Plan Summary:**
 
 - Extra Pension: Team members can make additional voluntary contributions to have extra funds to purchase a retirement pension and a partner's pension that pays benefits upon their death after retirement.
-- Extra Death Benefits: Team members with a partner have the option of insuring an extra partner's pension upon their death prior to the retirement date. The following [doc](https://drive.google.com/file/d/1NGD1MNEqYI-acKECh7xNR73su_c-xesK/view?usp=sharing) outlines additional information on how the voluntary ANW-gap pension works.
+- Extra Death Benefits: Team members with a partner have the option of insuring an extra partner's pension upon their death prior to the retirement date. The following [2024 doc](https://docs.google.com/document/d/1vHUp7koRsOMVZk87uMGIpU8QJ0NhRE7x/edit) outlines additional information on how the voluntary ANW-gap pension works.
 
 **Individual value transfer:**
 

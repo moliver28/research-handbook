@@ -194,6 +194,10 @@ Simply add all your filters as described above in the LinkedIn Recruiter sourcin
 
 You can download several profiles in bulk in an XLS file and you can run your searches in the spreadsheet. For this, click on the blue “Export” button on the top of your search results in the “All candidates” section of a search result tab.
 
+#### Greenhouse CRM
+
+In today’s talent market, a CRM enables us to efficiently and quickly engage with talent that opted into learning and potentially growing at GitLab. Learn more about how to use our Greenhouse CRM [here](https://docs.google.com/document/d/16DzE9bsgeflGiRMntncdhMTc6CpHjE5hlQqOnLBQpwo/edit).
+
 #### DIB Enablement
 
 Examples of searches:
@@ -263,7 +267,7 @@ the candidate and add them to Greenhouse. You can check the Talent Acquisition a
 If you want to reach out to a sourced candidate directly, you should discuss your communication strategy with your
 recruiting partner beforehand in order to avoid duplication and/or poor candidate experience.
 
-Take a look at the [Content library - life at GitLab]({{< ref "/handbook/people-group/employment-branding/content-library" >}}) for the latest team member count, employer awards, blog posts, and more facts about working at GitLab. These resources are meant to help guide your outreach to potential candidates.
+Take a look at the [Content library - life at GitLab](/handbook/people-group/employment-branding/content-library) for the latest team member count, employer awards, blog posts, and more facts about working at GitLab. These resources are meant to help guide your outreach to potential candidates.
 
 **Upgrading Your LinkedIn Account to Hiring Manager**
 

@@ -11,7 +11,7 @@ For more details about the vision for this area of the product, see the
 [Plan stage] page.
 
 [Product Planning]: /handbook/product/categories/#product-planning-group
-[Plan stage]: /direction/plan/
+[Plan stage]: /handbook/engineering/development/dev/plan/
 
 ### Team members
 
@@ -19,27 +19,20 @@ For more details about the vision for this area of the product, see the
 
 ### Stable counterparts
 
-{{% stable-counterparts manger-role="Engineering Manager(.*)Plan:Product Planning" role="[,&] (Planning(.*:)|Plan:Product Planning)" %}}
+{{% stable-counterparts manager-role="Fullstack Engineering Manager(.*)Plan:Product Planning" role="(.*)Plan:Product Planning$|Product Manager(.*)Plan Stage|Security(.*)Plan|Engineering(.*)Plan$|Principal(.*)Plan$|Group(.*)Plan" %}}
 
 ### Hiring chart
 
-Check out our [jobs page](/jobs/) for current openings.
+Check out our [jobs page](https://about.gitlab.com/jobs/) for current openings.
 
 ### Team metrics dashboard
 
 We have a [metrics dashboard][dashboard] intended to
 track against some of the [Development Department KPIs][kpis], particularly
 those around merge request creation and acceptance. From that dashboard, the
-following chart shows [MR Rate].
+following chart shows [MR Rate]. Please reference the dashboard section below.
 
-{{< sisense-with-filters dashboard="681347" chart="9159032" team_group="product planning" >}}
-
-The following chart shows the MR Rate of the Dev section as a whole, for the
-identification of trends:
-
-{{< sisense-with-filters dashboard="681347" chart="9159032" sub_department="dev" >}}
-
-[dashboard]: https://app.periscopedata.com/app/gitlab/681347/Development-Embedded-Dashboard
+[dashboard]: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard
 [kpis]: /company/kpis/#development-department-kpis
 [MR Rate]: /handbook/engineering/performance-indicators/#engineering-mr-rate
 
@@ -191,15 +184,29 @@ This avoids the rush to provide documentation that often accompanies the release
 
 ### Dashboards
 
-{{% cross-functional-dashboards filters="Product Planning" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="product planning" >}}
+{{< /tableau >}}
 
-More detail is available on our [metrics page].
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="product planning" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="product planning" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="product planning" >}}
+{{< /tableau >}}
+
+Detailed metrics are available on the [Engineering Metrics page].
 
 Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification] section of the metrics page.
 
 Note: MR Type may differ from issue type. For example, a ~"maintenance::dependency" change that supports a new ~"feature::enhancement".
 
-[metrics page]: https://about.gitlab.com/handbook/engineering/metrics/dev/plan/product-planning/#mr-types-dashboard
+[Engineering Metrics page]: https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/
 [Work Type Classification]: https://about.gitlab.com/handbook/engineering/metrics/#work-type-classification
 
 ### Picking something to work on
@@ -256,7 +263,7 @@ When you pick something to work on, please:
 [iteration]: /handbook/values/#iteration
 
 [request for it to be scheduled]: /handbook/engineering/workflow/#requesting-something-to-be-scheduled
-[issue bash]: /community/issue-bash/
+[issue bash]: https://about.gitlab.com/community/issue-bash/
 
 ## Useful links
 

@@ -5,7 +5,7 @@ description: "The Product Analytics group works on the tools that enable custome
 ---
 ## Vision
 
-The Product Analysis Group is part of the [Analytics section](/handbook/product/categories/analytics/).
+The Product Analytics Group is part of the [Analytics section](/handbook/product/categories/analytics/).
 
 How we work:
 - We work in accordance with our [GitLab values](/handbook/values/).
@@ -63,6 +63,8 @@ We have dedicated Slack channels for the Product Analytics group:
 * All analytics meetings can be found by searching for the `Analytics Shared` meeting room in Google calendar and all GitLab team members are welcome to join.
 
 ## How we work
+
+We base our workflow on the company's [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
 
 ### Estimation
 

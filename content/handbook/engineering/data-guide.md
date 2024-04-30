@@ -12,6 +12,7 @@ Dive into our analytics by exploring the specific data sources that underpin our
 
 - [GitLab.com](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/saas-gitlab-com/) data is used for reporting on metrics like MR Rate & Performance KPIs
 - [Workday](Workday) is GitLab’s current central HRIS and we use this data to determine which group a team member is a part of.
+- [Zendesk](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/) data is used to fuel Customer Support metrics.
 
 ## Data Models
 
@@ -62,11 +63,37 @@ In this section, we share commonly used data models that fuel many of our dashbo
 - **Granularity**: One row per MR rate per month per granularity level (department, group)
 - **Documentation**: [DBT docs](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.issues_history)
 
-
 ### workspace_engineering.open_merge_request_review_time
 - **Description**: A model containing merge request rate by department and group.
-- **Granularity**: 
+- **Granularity**: One row per day per MR
 - **Documentation**: [DBT docs](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.open_merge_request_review_time)
+
+## Zendesk Data
+
+### PREP.zendesk.zendesk_ticket_audits_source
+- **Description**: SLA policies and priority per ticket
+- **Granularity**: One row per audit
+- **Documentation**: [DBT docs](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.zendesk_ticket_audits_source)
+
+### PREP.zendesk.zendesk_tickets_source
+- **Description**: Zendesk ticket data
+- **Granularity**: One row per audit
+- **Documentation**: [DBT docs](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.zendesk_tickets_source)
+
+### PREP.zendesk.zendesk_ticket_metrics_source
+- **Description**: Zendesk ticket data
+- **Granularity**: One row per audit
+- **Documentation**: [DBT docs](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.zendesk_ticket_metrics_source)
+
+### PREP.zendesk.zendesk_sla_policies_source
+- **Description**: SLA policies
+- **Granularity**: One row per audit
+- **Documentation**: [DBT docs](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.zendesk_sla_policies_source)
+
+### workspace_engineering.zendesk_frt
+- **Description**: A model built to calculate First Reply Time (FRT) metric.
+- **Granularity**: One row per Zendesk ticket
+- **Documentation**: [DBT docs](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.zendesk_frt)
 
 ## Additional Resources
 - [Data governance](https://handbook.gitlab.com/handbook/sales/field-operations/data-intelligence/data-governance/)

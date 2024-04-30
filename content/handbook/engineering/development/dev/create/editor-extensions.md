@@ -97,13 +97,26 @@ and follows the Technical Writing [triage process](/handbook/product/ux/technica
 
 ### Estimates
 
-We use three weights to give a rough estimate of the issue's complexity. The weight represents a time estimate:
+We use three weights to give a rough estimate of the issue's complexity. The weight is made out of two parts:
+
+#### Base weight
+
+These are estimates for someone familiar with the codebase/system.
 
 - `1` - day or two of effort
 - `2` - week of effort
 - `3` - week and a half of effort
 
-Everything above weight `3` should be a spike that will result in one or more issues with estimated weight.
+Everything with a base weight above `3` should be a spike that will result in one or more issues with estimated weight.
+
+#### Subjective weight
+
+You can add extra weight `1` or `2` to the base weight if you are new to the team/codebase/system.
+
+Examples:
+
+- Bob is new to the team, they are picking up an issue with weight `1` (i.e. simple). They know the technologies, but not our system. They'll add `2` subjective weight making the final weight `3`.
+- Alice is familiar with the system but is picking up an issue (weight `2`) that touches authentication. She's unfamiliar with our authentication patterns and adds `1` subjective weight to have enough time to review the existing approaches. That makes the final weight `3`.
 
 ### Development Workflow
 
@@ -152,4 +165,18 @@ Check out our [jobs page](https://about.gitlab.com/jobs/) for current openings.
 
 ## Engineering metrics
 
-{{% cross-functional-dashboards filters="editor extensions" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="editor extensions" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="editor extensions" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="editor extensions" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="editor extensions" >}}
+{{< /tableau >}}

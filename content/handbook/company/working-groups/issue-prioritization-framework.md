@@ -14,7 +14,7 @@ status: active
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1oBWNxBSOJKrh3ubHwN5pI8243vBjJ-Y_Cax17A5abII/edit) (only accessible from within the company) |
 | Docs            | [Handbook Page](/handbook/product/product-processes/customer-issues-prioritization-framework) |
 | Related Issue   | [Adding context to customer's requests](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues/907) |
-| Associated OKRs | [Increase TMAU and Paid TMAU](https://gitlab.com/gitlab-com/chief-of-staff-team/cos-team/-/issues/80) |
+| Associated OKRs | [Increase TMAU and Paid TMAU](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues/80) |
 
 ## Problem To Solve
 

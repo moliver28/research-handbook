@@ -2,7 +2,7 @@
 title: "LEGACY: Privacy Statement"
 ---
 
-## LEGACY: Privacy Statement (Effective Dates June 10, 2022 - February 2024)
+## LEGACY: Privacy Statement (Effective Dates June 10, 2022 - March 18, 2024)
 
 ### Introduction
 
@@ -167,11 +167,11 @@ You have the right to access, correct, restrict or delete your Personal Data, an
 
 You may exercise your choices and rights as follows:
 
-*To opt out of email marketing:* You may opt-out of email marketing by clicking the “unsubscribe” link located at the bottom of any marketing email you receive or by visiting our [preference center[(https://about.gitlab.com/company/preference-center/)] and unsubscribing. You may continue to receive transactional email messages about your account and the Service after you have unsubscribed.
+*To opt out of email marketing:* You may opt-out of email marketing by clicking the “unsubscribe” link located at the bottom of any marketing email you receive or by visiting our [preference center](https://about.gitlab.com/company/preference-center/) and unsubscribing. You may continue to receive transactional email messages about your account and the Service after you have unsubscribed.
 
 *To opt-out of Interest-based advertising:* If you wish to opt-out of interest-based advertising, please visit the Cookie Policy to see your options.
 
-*Request a copy of your information:* You may [request a copy of the Personal Data](https://about.gitlab.com/handbook/gdpr/) that GitLab has about you.
+*Request a copy of your information:* You may [request a copy of the Personal Data](https://handbook.gitlab.com/handbook/gdpr/) that GitLab has about you.
 
 *Update your Information:*  If you already have an account, you may access, update, or alter your user profile information by logging into your account and updating profile settings.
 

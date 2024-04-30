@@ -1,0 +1,4 @@
+- source: /content\/(.+?)\/_?index\.md/  # content/path/to/_index.md
+  public: '\1.html'  # path/to.html
+- source: /content\/(.+)\.md/  # content/path/to/subpage.md
+  public: '\1.html'  # path/to/subpage.html

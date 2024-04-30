@@ -7,10 +7,6 @@ description: IT Business Technology
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 ## On this page
-{:.no_toc .hidden-md .hidden-lg}
-
-- TOC
-{:toc .hidden-md .hidden-lg}
 
 # <i id="biz-tech-icons" class="fas fa-map-marked-alt fa-fw"></i> Quick Links
 
@@ -55,23 +51,9 @@ The broader Finance and Business Technology team is focused on the principles of
 
 ![it](/handbook/business-technology/it-vision.png)
 
-## IT Strategy for FY24
+## Business Technology Strategy and Organization Structure for FY25
 
-### Team
-- Upskill, Identify Gaps, Hire Key Roles
-- Expansion through low cost geo model
-- Centralize IT - starting with sales and finance applications
-
-### Process
-- FY24 SOX program
-- IT Governance & Compliance
-- IT Portfolio Management
-
-### Technology
-
-- Project Execution & Delivery to align with company top 5
-- Application Health Check & Enterprise Architecture
-
+<a href="https://docs.google.com/presentation/d/1MdMvsm_gTqCnBYbcfPEvpeUbJf44fqFk8BljVeLonK0/edit#slide=id.p" class="btn btn-purple" style="width:200px;margin:5px;">Business Technology FY25 Deck</a>
 
 ## IT FY24-25 Execution Plan (WORK IN PROGRESS)
 

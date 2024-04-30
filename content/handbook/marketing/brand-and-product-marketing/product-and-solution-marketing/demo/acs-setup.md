@@ -81,7 +81,7 @@ Encrypt. Then we use `helm` to install all the necessary components.
 > - *Note, if you're using a non-trial account, we recommend dropping `redisDedicatedStorage=false,postgresDedicatedStorage=false` which will isolate your database disks.*
 >
 > **Alternate instructions for GitLab EE**
-> - Go to [/free-trial/](/free-trial/) and enter in your info to request a trial license for GitLab EE
+> - Go to [/free-trial/](https://about.gitlab.com/free-trial/) and enter in your info to request a trial license for GitLab EE
 > - Wait for email
 > - Download license to `~/.gitlab-license`
 > - Install helm chart, adding the gitlab and gitlabEELicense options:

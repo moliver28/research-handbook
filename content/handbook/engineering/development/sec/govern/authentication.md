@@ -4,6 +4,65 @@ title: "Authentication Group"
 
 ### Govern:Authentication{#welcome}
 
+#### Mission
+
+Our mission is to empower GitLab system administrators with the toolkit they need to create their desired balance of security and accessibility for their GitLab experience. Authentication is the first impression any new customer has when they configure their shiny new GitLab instance, and we aim to make it as seamless as possible: from that moment of first logging in, to onboarding users, to managing the basic security rules for their instance in a secure, flexible and scalable manner.
+
+
+#### Top Priorities for FY25
+
+Our detailed priority list can be found at the [direction page](https://about.gitlab.com/direction/govern/authentication/#priorities) however on a higher level the focus would be on:
+
+1. GCP integration
+2. Cells readiness
+3. Service accounts MVC features
+4. Passwordless authentication
+5. Enterprise user admin controls and policies management
+6. Bringing Credentials inventory to GitLab.com
+7. Reducing the number of flakey tests, older FFs, S3 bugs and manual handing of support/CSM questions.
+8. Group SCIM Sync support
+9. Service accounts UI and enhanced capabilities
+10. Token management enhancements
+11. Credential Manager enhancements
+
+
+#### Customer Outcomes we are driving for Gitlab
+
+As a result of the above roadmap items, we aim to driver the following outcomes for our customers:
+- By supporting Cells work, customers should experience improved reliability and compartmentalization of disruptions on GitLab.com  
+- Expanding Service accounts will reduce the human touch points around credentials setup for automation use cases, bolstering customer's security posture and efficiency when using GitLab. At the same time, new Service account UI will allow them to easily setup, manage and revoke these higher privilege accounts providing better transparency and audit-ability. Combined with token management enhancements, customers will be able to confidently manage, enforce and mitigate access token related risks.
+- Additional Enterprise user admin controls will result in reduced workload and improved security policy management for organizations while migration of Credential Inventory to SaaS will provide all administrators better visibility and control around credentials in use. 
+- We aim to improve and unify user provisioning setup for customers by expanding SCIM group sync support such that they don't need to rely on both SAML and SCIM for user provisioning and access management.
+
+#### List of OKRs
+
+Our OKRs are focused on:
+- [Improving support and help request experience](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5858)
+- [Reducing the number of flaky or slow tests](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5853)
+- [Career growth of Authentication team members](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5643)
+- [Adopting Cells and sharing lessons from investigation spikes](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6280)
+- [Roadmap completion around GCP Integration](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6186)
+ 
+
+#### Metrics the team tracks
+
+In order to ensure we manage our technical debt while making progress on our roadmap, and addressing security vulernabilities or bugs in time, the team tracks the following metrics:
+
+- Engineering productivity metrics
+  - MR rates across team to ensure changes are being delivered iteratively 
+  - S1, S2 and S3 bugs and burndown rates to ensure that we are moving towards a downward trend on all 3. Currently no S1 are open, with a very small number of S2s.
+  - Vulnerability due dates, in particular any that run the risk of hitting SLOs
+  - Error rates for Authentication API, workers and web workflows
+  - Infradev issues SLOs
+  - Maintainer-ship status for the group.
+  - Domain knowledge areas and coverage across each one for bus factor tracking.
+  - Feature flags associated with the group
+  - Flakey test attributed to the group
+
+- Product metrics
+  - Adoption of auth integrations such as SAML, Identity providers, Group sync
+  - Enterprise users claimed
+
 #### What makes us different?
 
 The Authentication group is a central piece to the GitLab product! While many groups focus on single area - like the repository view, or the merge request view, this group has a much broader impact on many areas. Because of this, there are some key topics that we keep on our mind more than other groups might:
@@ -19,7 +78,7 @@ Because this group works on components of the application that have a [far-reach
 
 1. Our team's merge requests should be assigned to another Auth team member for first review in order to build more institutional knowledge across the team. This review should be done as a [reviewer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer). The Auth approval counts as the approval matching the role of the Auth Reviewer, e.g. having a Backend Review from Auth counts as a Backend Review. Once approved, the Auth Reviewer should request a review from a Maintainer from the appropriate [maintainer category](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines).
 1. Auth merge requests will include a comment that needs answered before merging, "Should this be behind a feature flag?" This is an effort to remind engineers about feature flag usage, but also to challenge reasoning as to why changes do not need to be behind a feature flag.
-1. Auth related merge requests require a review by an [Auth Engineer](https://gitlab.com/groups/gitlab-org/manage/authentication/approvers/-/group_members?with_inherited_permissions=exclude). This is guarded by using the `CODEOWNERS` feature of GitLab.
+1. Auth related merge requests require a review by an [Auth Engineer](https://gitlab.com/groups/gitlab-org/govern/authentication/approvers/-/group_members?with_inherited_permissions=exclude). This is guarded by using the `CODEOWNERS` feature of GitLab.
 
 
 ### How we work

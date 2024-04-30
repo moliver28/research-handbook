@@ -56,9 +56,10 @@ In Mid-Market, Solutions Architects are pooled so they are not aligned with spec
 
 - Trusted strategic advisor to the customer
 - [Responsible](/handbook/customer-success/csm/#high-level-responsibilities-of-a-csm) for the post-sales customer journey
-   - [Onboarding]](/handbook/customer-success/csm/onboarding/)
+   - [Onboarding](/handbook/customer-success/csm/onboarding/)
    - [Success Planning](/handbook/customer-success/csm/success-plans/)
    - [Stage adoption & expansion](/handbook/customer-success/csm/stage-enablement-and-expansion/)
+   - [Organizing Workshops and Enablement Sessions for Use-case Enablement & Expansion](https://handbook.gitlab.com/handbook/customer-success/csm/workshops/)
    - [Executive Business Reviews](/handbook/customer-success/csm/ebr/)
    - [Risk Mitigation](/handbook/customer-success/csm/risk-mitigation/)
    - [Renewal Discussions](/handbook/customer-success/csm/renewals/)
@@ -88,7 +89,7 @@ Account teams may choose to include the [Sales Development Representative (SDR)]
 
 ### Tools to Use During the Meeting
 
-- [Working Agreement](/handbook/customer-success/solutions-architects/processes/#working-agreements)
+- [Working Agreement](/handbook/solutions-architects/processes/#working-agreements)
 - Salesforce
 - Gainsight
 - [Customer collaboration project](/handbook/customer-success/csm/customer-collaboration-project/)

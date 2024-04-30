@@ -720,7 +720,7 @@ Utilize these to comment on a request when a validation check has failed.
 > As such, we will not be able to proceed on this request and will now close
 > the issue.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"
@@ -738,7 +738,7 @@ Utilize these to comment on a request when a validation check has failed.
 > As such, we will not be able to proceed on this request and will now close
 > the issue.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"
@@ -756,7 +756,7 @@ Utilize these to comment on a request when a validation check has failed.
 > As such, we will not be able to proceed on this request and will now close
 > the issue.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"
@@ -823,7 +823,7 @@ Utilize these to comment on a request when a validation check has failed.
 > We are seeing the Gratis Support status for this customer has already expired
 > and cannot be extended at this time.
 >
-> You might want to reach out in #spt_managers to speak to a support manager
+> You might want to reach out in #support_leadership to speak to a support manager
 > bout other options that may be able to be used for this account.
 >
 > /label ~"SupportOps::Blocked"

@@ -169,7 +169,7 @@ No application or customer data flows through these network peers.
 
 #### DNS & WAF
 
-We host our DNS with Cloudflare (gitlab.com, gitlab.net) and route53 (gitlab.io and others).
+GitLab leverages Cloudflare's Web Application Firewall (WAF). We host our Domain Name Service (DNS) with Cloudflare (gitlab.com, gitlab.net) and Amazon Route 53 (gitlab.io and others).
 For more information about CloudFlare see the [runbook](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/README.md) and the [architecture overview](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/6f92124563835415e5c6e59f40b32e7307d3fb67/cloudflare/README.md#with-cloudflare).
 
 

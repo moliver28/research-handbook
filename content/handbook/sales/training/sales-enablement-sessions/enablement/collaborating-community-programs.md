@@ -126,7 +126,7 @@ Details on the Support workflow for Community Programs are in the [Support](/han
 
 Important points:
 
-- Program members do not receive Ultimate support with subscriptions granted through community programs. They are able to open a support ticket via the [GitLab Support Portal](/support/#issues-with-billing-purchasing-subscriptions-or-licenses) with errors involving the Community Self-checkout Portal on CustomersDOT or any errors relating to their subscription.
+- Program members do not receive Ultimate support with subscriptions granted through community programs. They are able to open a support ticket via the [GitLab Support Portal](https://about.gitlab.com/support/#issues-with-billing-purchasing-subscriptions-or-licenses) with errors involving the Community Self-checkout Portal on CustomersDOT or any errors relating to their subscription.
 
 - If GitLab for Education applicants are having issues during the application or verification stages, they first contact SheerID as indicated in the [Support table](/handbook/marketing/developer-relations/community-programs/automated-community-programs/).
 

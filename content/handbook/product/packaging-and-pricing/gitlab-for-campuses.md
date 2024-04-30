@@ -57,7 +57,7 @@ Qualifying educational institutions may purchase a campus-wide enterprise licens
 - A named single point of contact is provided for each college, school, or division within the institution. This reach expands to those units that serve as a primary tier administrative level for the institution. For example, the College of Engineering may have a named contact but the 8 individual departments within the College do not have a named support contact. Named support limits for Ultimate tier apply.
 - The named contacts must be provided to GitLab and included in the support database. The account owner has the primary discretion to include or not include provided named support contacts based on the definitions below.
 - Individual students, faculty, and staff outside of the named single point of contact for each primary division cannot directly contact GitLab support.
-- Please refer customers to the GitLab Support process for [Managing Support contacts and handling details](/support/managing-support-contacts/) in order to seed a list of named support contacts.
+- Please refer customers to the GitLab Support process for [Managing Support contacts and handling details](https://about.gitlab.com/support/managing-support-contacts/) in order to seed a list of named support contacts.
 
 
 ### Tiers
@@ -93,7 +93,7 @@ The GitLab for Campuses Order form must be used for all GitLab for Campuses quot
 
 #### Resellers
 
-GitLab for Campuses can be sold through GitLab resellers. The specific language regarding the size of the institution from the GitLab for Campuses Order Form must be added to the Reseller Order Form.  
+GitLab for Campuses can be sold through GitLab resellers. The specific language regarding the size of the institution from the GitLab for Campuses Order Form must be added to the Reseller Order Form.
 
 ### GitLab for Campuses Agreeement
 
@@ -124,7 +124,7 @@ Individual institutions may be part of a larger state, regional, or national uni
 
 **For-Profit Units**: Individual non-profit institutions may have directly affiliated entities that are managed and operated by a for-profit entity or mechanism with a separate tax status than the parent University. This may include online program managers (for-profit online programs), endowment money managers, startup incubators, etc. For-profit units are excluded from the enterprise education offering unless specifically agreed upon by GitLab and indicated on the order form.
 
-**Educationally Related Entities**: any entity that does not meet the qualifying criteria, such as code academies, massive open online course providers, bootcamps, and professional training centers, do not qualify for the GitLab for Campuses enterprise offering.  
+**Educationally Related Entities**: any entity that does not meet the qualifying criteria, such as code academies, massive open online course providers, bootcamps, and professional training centers, do not qualify for the GitLab for Campuses enterprise offering.
 
 
 

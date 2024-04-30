@@ -27,7 +27,21 @@ Our priorities should follow [overall guidance for Product](/handbook/product/pr
 | priority::3 | **Normal**: incremental improvements to existing features. These are important iterations, but deemed non-critical. | ~50% |
 | priority::4 | **Low**: stretch issues that are acceptable to postpone into a future release. | ~25% |
 
-{{% cross-functional-dashboards filters="optimize" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="optimize" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="optimize" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="optimize" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="optimize" >}}
+{{< /tableau >}}
 
 As a general guideline, we try to plan each release in this way:
 - **Bugs**: 25%
@@ -148,6 +162,7 @@ The following is an example of an implementation approach from [https://gitlab.c
 1. *(if feature flag enabled)* Update the `Projects::CreateService` and `Groups::CreateService` to update newly created projects and sub-groups with the main groups setting
 1. *(if feature flag enabled)* Update the Groups API to show the settings value
 1. Tests tests and more tests :muscle:
+1. Create a seed script to generate data
 
 ~frontend
 
@@ -155,6 +170,7 @@ The following is an example of an implementation approach from [https://gitlab.c
 1. Create new Vue app to render the contents of the section
 1. Create new setting and submission process to save the value
 1. Tests tests and more tests :muscle:
+1. Update storybook stories for new and existing components
 ```
 
 The DRI is **highly** recommended to ping a relevant counterpart or domain expert if an issue covers multiple
@@ -188,7 +204,7 @@ Issues labelled `Stretch` are stretch goals for delivering in the current milest
 
 ##### Community contributions
 
-Issues that have previously been agreed upon and labelled as `Community contribution` should be [triaged](/handbook/engineering/quality/issue-triage/) to ensure they have:
+Issues that have previously been agreed upon and labelled as `Community contribution` should be [triaged](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/) to ensure they have:
 
 - A clear [implementation plan](/handbook/engineering/development/dev/create/ide/community-contributions/#treat-wider-community-as-primary-audience).
 - A relevant weight estimate.
@@ -242,17 +258,17 @@ The need for a proof-of-concept MR may signal that parts of our codebase or prod
 
 #### Issue triage
 
-We generally follow the [Issue Triage](/handbook/engineering/quality/issue-triage) guidelines.
+We generally follow the [Issue Triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage) guidelines.
 
 Expectations by role:
 
 - PM is the DRI for `type::feature`
 - EM is the DRI for `type::bug`
-- UX supports the decision around severity labels for issues with `UX`, `UX debt`, and `SUS`
-  - Where the UX severity and PM/EM severity is different, we take the [higher severity of the two](/handbook/engineering/quality/issue-triage/#examples-of-severity-levels).
+- UX supports the decision around severity labels for issues with `UX`, `Deferred UX`, and `SUS`
+  - Where the UX severity and PM/EM severity is different, we take the [higher severity of the two](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#examples-of-severity-levels).
 - Engineers are encouraged to participate
 
-On a weekly basis, we aim to triage as many issues as possible. We strive to perform a [complete triage](/handbook/engineering/quality/issue-triage/#complete-triage) on issues requiring triage.
+On a weekly basis, we aim to triage as many issues as possible. We strive to perform a [complete triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#complete-triage) on issues requiring triage.
 
 ### Working on unscheduled issues
 
@@ -290,6 +306,10 @@ Documentation is a crucial part of our [definition of done](https://docs.gitlab.
 
 Features within the Optimize scope require appropriate data in order to verify functionality and test during development. Data seeding scripts should be created and/or updated as part of our development process.
 
+Considerations for data seeding scripts:
+- Ensure scripts are parameterized allowing specification of group or project ID where relevant
+- Ensure scripts can be run repeatedly without failure
+
 ## Meetings
 
 Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place in Manage are:
@@ -313,11 +333,6 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 The following people are permanent members of the group:
 
 {{< stable-counterparts role="Plan.+Optimize" >}}
-
-## Dashboards
-
-- [Feature usage](https://app.periscopedata.com/app/gitlab/779829/Manage:Optimize-Feature-Usage)
-
 
 ## Links and resources {#links}
 

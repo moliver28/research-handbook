@@ -379,7 +379,7 @@ We group related issues together using parent [epics](https://docs.gitlab.com/ee
 
 ### Issues
 
-When creating an issue, use the [linked template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Analytics Instrumentation Issue) and follow its instructions.
+When creating an issue, use the [linked template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Analytics%20Instrumentation%20Issue) and follow its instructions.
 
 In case the issue is not created for the [GitLab project](https://gitlab.com/gitlab-org/gitlab), copy the template's content into the appropriate project.
 
@@ -433,7 +433,21 @@ If you would like to propose a new knowledge session for a topic you want to lea
 
 ## Development metrics
 
-{{% cross-functional-dashboards filters="Analytics Instrumentation" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="analytics instrumentation" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="analytics instrumentation" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="analytics instrumentation" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="analytics instrumentation" >}}
+{{< /tableau >}}
 
 ## Error budget
 
@@ -462,6 +476,6 @@ All new team members to the Analytics Instrumentation teams are provided an onbo
 | [Analytics Instrumentation Monitoring and Troubleshooting](./monitoring_troubleshooting.html) | Information around Troubleshooting Analytics Instrumentation infrastructure|
 | [Analytics Instrumentation Infrastructure](./infrastructure.html) | Information about the infrastructure we run |
 | [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/)     | An implementation guide for Service Ping      |
-| [Privacy Policy](/privacy/)        | Our privacy policy outlining what data we collect and how we handle it     |
+| [Privacy Policy](https://about.gitlab.com/privacy/)        | Our privacy policy outlining what data we collect and how we handle it     |
 | [Analytics Instrumentation Direction](https://about.gitlab.com/direction/analytics/analytics-instrumentation/)  | The roadmap for Analytics Instrumentation at GitLab  |
 | [GitLab Performance Snowplow Dashboards ](./gitlab_com_performance_dashboard.html) | Performance dashboards for GitLab.com via Snowplow  |

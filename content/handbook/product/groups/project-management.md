@@ -28,8 +28,8 @@ In GitLab issues, questions should start by mentioning the Product Manager (`@gw
 
 #### Customer Value
 
-- [Paid Monthly Active Users (Paid GMAU)](https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard?widget=9980295&udv=0)
-- [Monthly Active Users](https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard?widget=9967544&udv=0)
+- [Paid Monthly Active Users (Paid GMAU)](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/3315ab7c-ed1d-4053-bba8-cb8fc870af2b/AllGMAU?:iid=1)
+- [Monthly Active Users](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/97aea9ea-11af-4f4e-8e6b-21db9738de2b/PaidGMAU?:iid=1)
 - [Team Planning and Planning Analytics Category Maturity](https://about.gitlab.com/direction/maturity/#plan)
 - System Usability Score (SuS) - Decrease the count of detractors attributable to the Project Management product surface area on a rolling quarterly basis
 
@@ -43,11 +43,11 @@ In GitLab issues, questions should start by mentioning the Product Manager (`@gw
 - Open MR Age (OMA)
 - Open MR Review Time (OMRT) 
 - Merge Request Rate - Average MRs per engineer on a rolling monthly basis
-- [Lead Time](https://app.periscopedata.com/app/gitlab/792261/Product-Development-Flow-Analytics?widget=10931440&udv=1229216) - The median number of days it takes for an issue to flow throw `workflow::validation backlog` to `closed`.
-- [Validation Track Cycle Time](https://app.periscopedata.com/app/gitlab/792261/Product-Development-Flow-Analytics?widget=10511078&udv=1229216) - The median number of days it takes for an issues to flow through `workflow::validation backlog` to `workflow::planning breakdown`.
-- [Build Track Phase 1 Cycle Time](https://app.periscopedata.com/app/gitlab/792261/Product-Development-Flow-Analytics?widget=10511078&udv=1229216) - The median number of days it takes for an issues to flow through `workflow::planning breakdown` to `workflow::ready for development`.
-- [Build Track Phase 2 Cycle Time](https://app.periscopedata.com/app/gitlab/792261/Product-Development-Flow-Analytics?widget=10511078&udv=1229216) - The median number of days it takes for an issues to flow through `workflow::ready for development` to `closed`.
-- [Adoption of Product Development Flow workflow labels](https://app.periscopedata.com/app/gitlab/792261/Product-Development-Flow-Analytics?widget=10931863&udv=1229216)
+- Lead Time - The median number of days it takes for an issue to flow throw `workflow::validation backlog` to `closed`.
+- Validation Track Cycle Time - The median number of days it takes for an issues to flow through `workflow::validation backlog` to `workflow::planning breakdown`.
+- Build Track Phase 1 Cycle Time - The median number of days it takes for an issues to flow through `workflow::planning breakdown` to `workflow::ready for development`.
+- Build Track Phase 2 Cycle Time - The median number of days it takes for an issues to flow through `workflow::ready for development` to `closed`.
+- Adoption of Product Development Flow workflow labels
 
 ### History of Process Improvement Efforts
 

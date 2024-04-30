@@ -78,7 +78,7 @@ This workflow is used to determine if a blocked or a banned user can be reinstat
     - The [GitLab user lookup app](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app) in Zendesk will show the admin notes for the user if they have contacted support using the email address associated with their account.  Alternatively -
     - If you have access to ChatOps you can use the below command in any chatops enabled Slack channel to read admin notes for the user
         > `/chatops run user find <username or email>`
-1. If the Admin Note is `User deleted own account on {timestamp}`(this means the user initiated the self-serve deletion):
+1. If the Admin Note is `User deleted own account on {timestamp}`(this means the user initiated the self-serve deletion) [**Unblocking the account will cancel the account deletion**](https://gitlab.com/gitlab-org/modelops/anti-abuse/team-tasks/-/issues/423):
     1. If the user is Free, the user needs to wait 7 days, starting the day of the deletion request, to create a new account with the same email address or username. Use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro.
     1. If the user is not part of a paid namespace but needs to be added to a paid namespace (user or top-level group owner creates the ticket), then they can request immediate deletion.
         - Use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro and ask for explicit permission from the user to bypass the 7d wait period and delete the account.
@@ -95,6 +95,15 @@ This workflow is used to determine if a blocked or a banned user can be reinstat
 1. Send the [`Support::SaaS::Gitlab.com::Blocked Accounts::Escalated-TrustAndSafety`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Escalated-TrustAndSafety.md?ref_type=heads) macro for the initial response to the user.
 1. If established it is not a Trust and Safety block, or is blocked as a result of a SM-to-SaaS migration (conducted with or without Professional Services), a paid account can be unblocked with authorization from a user with the Owner role in the top level namespace. Free accounts can be unblocked at the discretion of the Support Engineer.
 1. If account is unblocked, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Account Reinstated- Success`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Account%20Reinstated-%20Success.md?ref_type=heads) macro to notify the user the account has been unblocked. Otherwise, provide the reasoning from the Unblock Request as to why their account will remain blocked.
+
+## Banned accounts
+
+1. Only proceed with the next steps if any of the following scenarios is true:
+    1. The email address the user has used to raise their request matches an email address associated with the account the request is intended for.
+    1. The user account is classified as an [Enterprise user]({{< ref "gitlab-com_overview.md#enterprise-users" >}}) and an owner of the top-level group raises the ticket.
+1. Complete the `Trust and Safety` [Account Reinstatement Request](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/TS_Operations/account-reinstatements/-/issues/new?issuable_template=Account%20Reinstatement) template in the Trust and Safety Operations tracker. A security member of the team will review the request within 24 hours. If the request is urgent, please reach out in the #abuse Slack channel.
+1. Send the [`Support::SaaS::Gitlab.com::Blocked Accounts::Escalated-TrustAndSafety`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Escalated-TrustAndSafety.md?ref_type=heads) macro for the initial response to the user.
+1. If account is restored, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Account Reinstated- Success`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Account%20Reinstated-%20Success.md?ref_type=heads) macro to notify the user the account has been restored. Otherwise, provide the reasoning from the Reinstatement Request as to why their account will remain banned.
 
 ---
 

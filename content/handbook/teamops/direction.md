@@ -12,12 +12,12 @@ images:
 
 ## Objectives and Key Results
 
-Although TeamOps has been practiced since the beginning of GitLab, it wasn't consolidated into a replicable framework until 2022. In FY2024, the Chief of Staff Team (CoST) in GitLab built a business model around TeamOps with the following objectives:
+Although TeamOps has been practiced since the beginning of GitLab, it wasn't consolidated into a replicable framework until 2022. In FY2024, the Office of the CEO in GitLab built a business model around TeamOps with the following objectives:
 
 - Internally optimize workforce awareness and universal application of the TeamOps model to standardize organizational behavior
 - Externally monetize and market the TeamOps model through professional services to monetize our non-tech thought leadership
 
-The future of TeamOps as an internal operational and as a revenue model is based on the following principles. (See also: [Workplace Handbook]({{< ref "workplace" >}}), [TeamOps Handbook]({{< ref "/handbook/teamops" >}}))
+The future of TeamOps as an internal operational and as a revenue model is based on the following principles. (See also: [Workplace Handbook]({{< ref "workplace" >}}), [TeamOps Handbook](/handbook/teamops))
 
 - TeamOps is an evolution of the Managing So Everyone Can Contribute (MECC) management model. It is based on the philosophy of using information to stay aligned, instead of shared time or location (proximity).
 - TeamOps is **not** exclusively for remote work or distributed teams, but it does enable more schedule and workplace flexibility for every team structure.
@@ -38,7 +38,7 @@ To evolve TeamOps from a management philosophy into an operational framework, La
 - Coordinated the design and activation of all TeamOps operational systems and assets, including legal contracts, accounts payable invoices, procurement SKUs, tech stack ARs, etc.
 
 **Changes from FY23 Roadmap**
-The TeamOps project was originally opened in FY23-Q4 with plans to scale quickly. However, due to headcount adjustments in the CoST at the end of FY2023, TeamOps scaling goals were reduced and some adjustments to the TeamOps FY2024 roadmap were made to optimize efficiency and sustainability.
+The TeamOps project was originally opened in FY23-Q4 with plans to scale quickly. However, due to headcount adjustments in the Office of the CEO at the end of FY2023, TeamOps scaling goals were reduced and some adjustments to the TeamOps FY2024 roadmap were made to optimize efficiency and sustainability.
 
 - Changing the original enrollment goal (100k learners) to a revenue goal (breakeven/$200k)
 - Deprioritizing All-Remote evangelism to boost TeamOps (messaging about how we work instead of where we work)
@@ -65,7 +65,7 @@ During its research and development phase, TeamOps offered the following trainin
 - *Change Management Workshops* - Designed as a supplemental learning resource for the LevelUp course, this group workshop equips teams to analyze their current success status of TeamOps adoption, and deep dive into a collaborative optimization of specific action tenets.
 - *TeamOps for Leaders Workshop* - What is the role of a business manager in the future of work? How does virtual-first leadership differ from traditional management? This workshop is designed to guide your leadership team through the critical mindset and responsibility changes needed in TeamOps work environments.
 
-Additionally, as part of TeamOps research and development, the CoST maintained (and/or iterates on) the following current projects and responsibilities. All have now been suspended, but can be revived in the future if future investment in TeamOps is confirmed:
+Additionally, as part of TeamOps research and development, the Office of the CEO maintained (and/or iterates on) the following current projects and responsibilities. All have now been suspended, but can be revived in the future if future investment in TeamOps is confirmed:
 
 - Publicly market and evangelize GitLab’s ways of working (TeamOps)
 - Internally measure and optimize TeamOps to equalize employee experience
@@ -101,4 +101,4 @@ TeamOps has grown through 5 quarters of research and development:
 
 **TeamOps: Future (3 Year Plan)**
 
-- FY25 and beyond = Future investment and development in TeamOps will be informed by revenue, demand, net promoter scores, and completion rates of the TeamOps certifications in LevelUp. Progress is monitored by Education Services and reported to the CoST quarterly.
+- FY25 and beyond = Future investment and development in TeamOps will be informed by revenue, demand, net promoter scores, and completion rates of the TeamOps certifications in LevelUp. Progress is monitored by Education Services and reported to the Office of the CEO quarterly.

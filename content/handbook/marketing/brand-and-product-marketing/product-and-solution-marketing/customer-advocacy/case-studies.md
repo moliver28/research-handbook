@@ -16,9 +16,9 @@ The goal of the customer case studies program is to share and market the success
 them craft their story in a way that makes them proud and excited to talk about their success with GitLab.
 
 Examples:
-- [Goldman Sachs](/customers/goldman-sachs/)
-- [Worldline](/customers/worldline/)
-- [European Space Agency](/customers/european-space-agency/)
+- [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/)
+- [Worldline](https://about.gitlab.com/customers/worldline/)
+- [European Space Agency](https://about.gitlab.com/customers/european-space-agency/)
 
 ### Objectives:
 
@@ -28,7 +28,7 @@ Examples:
 - Develop and grow organizational relationships: speak at events on our behalf, promote their business
 
 A formal case study produces a polished, finished document or video published on our
-[customers page](/customers/). Case studies can include multiple formats, including
+[customers page](https://about.gitlab.com/customers/). Case studies can include multiple formats, including
 a web page, video, downloadable PDF, and associated blog posts.
 
 A customer story is a blog post about how a customer solved a particular problem or
@@ -46,7 +46,7 @@ Once you have a customer who either (1) has an excellent use case or (2) has com
 1. Content: Schedule an interal discovery meeting between AE and writer to discuss the use case, angle, and identify potential metrics.
 1. Both: Set timeline for engagement and deliverables.
 
-*If you included a case study as part of a deal, great! Set up a call with the content marketing team and the customer to go over how they plan to use GitLab and metrics the customer is willing to track. Set a follow up call in 3 months and again in 6 months.  
+*If you included a case study as part of a deal, great! Set up a call with the content marketing team and the customer to go over how they plan to use GitLab and metrics the customer is willing to track. Set a follow up call in 3 months and again in 6 months.
 
 **Customer discovery**
 
@@ -124,7 +124,7 @@ Following approval from the customer, the Design team should be sent a doc of th
 - Blog Post - Blog post to launch customer case study
 - Keywords for SEO etc.
 
-Case studies should put the spotlight on our customers and tell a story about the ways in which they help their own customers. In telling that story, we should detail how GitLab helps them get that job done. Case studies should include metrics, but a compelling story can be told without them if there aren't any available. If metrics are unavailable, consider including the customer's overarching results, such as increased collaboration or stronger relationships between developers and operations.  
+Case studies should put the spotlight on our customers and tell a story about the ways in which they help their own customers. In telling that story, we should detail how GitLab helps them get that job done. Case studies should include metrics, but a compelling story can be told without them if there aren't any available. If metrics are unavailable, consider including the customer's overarching results, such as increased collaboration or stronger relationships between developers and operations.
 
 ## SLA
 

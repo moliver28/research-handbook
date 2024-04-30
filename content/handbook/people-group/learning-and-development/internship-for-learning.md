@@ -46,7 +46,7 @@ If at the end of your internship, you are interested in transferring teams pleas
 
 Please create a new issue in the [Training project](https://gitlab.com/gitlab-com/people-ops/Training/issues/new), choose the `internship_for_learning` template, and fill out the placeholders.
 
-No internship for learning should be approved without both managers having a conversation and agreeing upon the percentage of time the team member will be spending on the internship. Also, the team member's manager has discretion not to approve the internship for learning if there are team member performance issues.
+No internship for learning should be approved without both managers having a conversation and agreeing upon the percentage of time the team member will be spending on the internship. In order to be eligible for an internship for learning, the team member needs to be meeting performance expectations in their current role.
 
 Once you've agreed upon the internship goals, both managers should inform their respective groups' People Business Partner.
 

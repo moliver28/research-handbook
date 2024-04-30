@@ -14,7 +14,6 @@ Working hours: 9am - 6pm Eastern
 1. The DEX team is spread across North American time zones. Regular working hours span from 6am - 5:30pm Pacific (Convert to local timezone [here](https://www.timeanddate.com/worldclock/converter.html)).
 2. If you experience any issues related to our CMS that require immediate attention, please post in [#digital-experience-team](https://gitlab.enterprise.slack.com/archives/CN8AVSFEY)
     1. Please tag the following people:
-        1. [Michael Preuss](https://gitlab.enterprise.slack.com/archives/D04DV868ZAA)
         2. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
         3. [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4)
         4. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
@@ -38,7 +37,6 @@ Working hours: 9am - 6pm Eastern
     2. Central Timezone (UTC−6):
         1. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
     3. Pacific Timezone (UTC−8):
-        1. [Michael Preuss](https://gitlab.enterprise.slack.com/archives/D04DV868ZAA)
         2. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
 3. If the issue occurs outside of our working hours, please refer to our CMS Troubleshooting Playbook.
     1. GitLab team members who may be able to assist via Slack include:
@@ -52,8 +50,7 @@ Working hours: 9am - 6pm Eastern
 In order (numbers are in Slack profiles):
 
 1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
-2. [Michael Preuss](https://gitlab.enterprise.slack.com/archives/D04DV868ZAA)
-3. [Carrie Maynard](https://gitlab.enterprise.slack.com/archives/D03RZD1F2JV)
+1. [Carrie Maynard](https://gitlab.enterprise.slack.com/archives/D03RZD1F2JV)
 
 _Call on the phone if no response within 15 minutes_
 

@@ -42,7 +42,11 @@ The following people are permanent members of the Secure Sub-Department:
 
 Team Page: [Composition Analysis](composition-analysis/)
 
-{{< team-by-manager-role role="Manager(.*)Engineering(.*)Secure:Composition Analysis" team="Engineer" >}}
+{{< team-by-departments departments="Secure:Composition Analysis BE Team"  >}}
+
+{{< team-by-departments departments="Secure:Composition Analysis FE Team" >}}
+
+
 
 ### Static Analysis
 
@@ -162,7 +166,7 @@ See [QA Process](qa_process.html) for more info.
 
 ##### Automation
 
-We use the [security-triage-automation](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation) tool in cunjunction with [scheduled pipelines in the release project](https://gitlab.com/gitlab-org/security-products/release/-/blob/master/.gitlab/ci/security-triage-automation.yml?ref_type=heads) to handle the following tasks:
+We use the [security-triage-automation](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation) tool in conjunction with [scheduled pipelines in the release project](https://gitlab.com/gitlab-org/security-products/release/-/blob/master/.gitlab/ci/security-triage-automation.yml?ref_type=heads) to handle the following tasks:
 
 1. [Create security issues for FedRAMP vulnerabilities (Container Scanning results only) still detected on the default branch ](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#process-vulnerabilities-for-a-given-project), executed at least once, on the first day of the month to match with FedRAMP compliance report cadence.
 Note that we do not yet automatically create security issues for non-FedRAMP vulnerabilities. Please see the [Non-FedRAMP vulnerabilities section](#non-fedramp-vulnerabilities) for more details.
@@ -170,48 +174,57 @@ Note that we do not yet automatically create security issues for non-FedRAMP vul
 
 [The Vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper) also provides some [automation to vulnerability management](/handbook/security/threat-management/vulnerability-management/#automation) like:
 
-1. adding labels to security issues to further classify the fix availability (fix_available, fix_unavailable, will_not_be_fixed, etc.).
-1. creating Deviation Request issues for FedRAMP related security issues that should have one.
+1. Adding labels to security issues to further classify the fix availability (fix_available, fix_unavailable, will_not_be_fixed, etc.).
+1. Creating Deviation Request issues for FedRAMP related security issues that should have one.
 
 Note: Our goal is to centralize automation for vulnerability management in the [Vulnmapper tool in the nearest future](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) and standardize our processes across the company. However, so far we're following the existing process based on the [security-triage-automation tool](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation).
 
+##### Automation failures
+
+It's possible that our security automation tooling may [fail](https://gitlab.com/gitlab-org/security-products/release/-/pipelines?page=1&scope=all&status=failed).
+If this occurs, and the issue cannot be immediately resolved, open an issue to
+track the error. Then, announce the failure in `#s_secure` to raise awareness,
+and follow the manual security triage process outlined below.
+
 <details>
-  <summary>View manual process fallback when automation fails</summary>
-  
-  #### Manually reviewing and resolving vulnerabilities
+<summary>View manual process fallback when automation fails</summary>
 
-  On a weekly basis: review the vulnerability report to resolve no longer detected ones and close related issues. Note: It is not necessary to investigate vulnerabilities that are no longer detected.
+#### Manually reviewing and resolving vulnerabilities
 
-  1. Visit `Vulnerability Report Dashboards` to verify that there are vulnerabilities that can be resolved.
-  2. Execute the `security-triage-automation` tool to [resolve vulnerabilities and close their issues](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#resolve-vulnerabilities-and-close-their-issues). This tool must be executed separately for each project that have vulnerabilities to resolve.
-  3. Verify in `Vulnerability Report Dashboards` that vulnerabilities have been resolved.
+On a weekly basis: review the vulnerability report to resolve no longer detected ones and close related issues. Note: It is not necessary to investigate vulnerabilities that are no longer detected.
 
-  #### Manually creating security issues for FedRAMP vulnerabilities
+1. Visit `Vulnerability Report Dashboards` to verify that there are vulnerabilities that can be resolved.
+2. Execute the `security-triage-automation` tool to [resolve vulnerabilities and close their issues](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#resolve-vulnerabilities-and-close-their-issues). This tool must be executed separately for each project that have vulnerabilities to resolve.
+3. Verify in `Vulnerability Report Dashboards` that vulnerabilities have been resolved.
 
-  Last working day before the 1<sup>st</sup> of the month, `create` security issues for FedRAMP vulnerability of the CONTAINER_SCANNING type and CRITICAL, HIGH, MEDIUM, LOW, and UNKNOWN severity levels by executing the `security-triage-automation` tool to [process vulnerabilities for a given project](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#process-vulnerabilities-for-a-given-project) (please make sure to adjust CLI options accordingly). This tool must be executed separately for each project.
+#### Manually creating security issues for FedRAMP vulnerabilities
 
-  #### Manually creating FedRAMP issues
+Last working day before the 1<sup>st</sup> of the month, create security issues
+for FedRAMP vulnerabilities of the `CONTAINER_SCANNING` type, and `CRITICAL`, `HIGH`,
+`MEDIUM`, `LOW`, and `UNKNOWN` severity levels by executing the `security-triage-automation`
+tool to [process vulnerabilities for a given project](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#process-vulnerabilities-for-a-given-project)
+(please make sure to adjust CLI options accordingly). This tool must be executed
+separately for each project.
 
-  In cases where automation fails, you must create the [Deviation Requests](/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/) manually before the issues reach SLA.
-  To do so, use the following procedure.
+#### Manually creating deviation requests for FedRAMP vulnerabilities
 
-  1. Open a DR issue with the [operational requirement template](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues/new?issuable_template=operational_requirement_template).
-      1. Update the `Vulnerability Details` section with a link to the advisory (RedHat tracker usually), CVE ID, severity, and CVSS score.
-      1. Update the `Justification Section` with:
+In cases where automation fails, you must create the [Deviation Requests](/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/) manually before the issues reach SLA.
+To do so, use the following procedure.
 
-      > The OS vendor has published an updated advisory for <CVE_ID>, indicating that package <PACKAGE_NAME> has not yet had a fix released for this vulnerability. Until a fix is available for the package, this vulnerability cannot practically be remediated.
+1. Open a DR issue with the [operational requirement template](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues/new?issuable_template=operational_requirement_template).
+    1. Update the `Vulnerability Details` section with a link to the advisory (RedHat tracker usually), CVE ID, severity, and CVSS score.
+    1. Update the `Justification Section` with:
+        > The OS vendor has published an updated advisory for <CVE_ID>, indicating that package <PACKAGE_NAME> has not yet had a fix released for this vulnerability. Until a fix is available for the package, this vulnerability cannot practically be remediated.
+    1. Update the `Attached Evidence` section with:
+        > As this operational requirement represents a dependency on a vendor-published package to address this vulnerability, no additional evidence has been supplied. Please refer to the linked vendor advisory in the above justification.
+    1. Link it to the security issue: `/relate <issue_id>`
+1. Update the security issue accordingly
 
-      1. Update the `Attached Evidence` section with:
+    ```
+    /label ~"FedRAMP::Vulnerability" ~"FedRAMP::DR Status::Open"
+    /milestone %Backlog
+    ```
 
-      > As this operational requirement represents a dependency on a vendor-published package to address this vulnerability, no additional evidence has been supplied. Please refer to the linked vendor advisory in the above justification.
-
-      1. Link it to the security issue: `/relate <issue_id>`
-    1. Update the security issue accordingly
-
-      ```
-      /label ~"FedRAMP::Vulnerability" ~"FedRAMP::DR Status::Open"
-      /milestone %Backlog
-      ```
 </details>
 
 ###### FedRAMP vulnerabilities
@@ -220,7 +233,7 @@ To ensure compliance, the management of FedRAMP vulnerabilities is handled by [a
 
 ###### Non-FedRAMP vulnerabilities
 
-We do not yet have the same automation in place for non-FedRAMP vulnerabilities since it represents a too important volume to manage for our teams and some necessary [improvements in the vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) are required prior to enabling this. 
+We do not yet have the same automation in place for non-FedRAMP vulnerabilities since it represents a too important volume to manage for our teams and some necessary [improvements in the vulnmapper tool](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper/-/milestones/4#tab-issues) are required prior to enabling this.
 In the meantime, we favor a more specialized approach for these vulnerabilities and there is no standardized process across the groups.
 
 #### Error Monitoring
@@ -374,38 +387,7 @@ The author of changes should announce broadly the changes made on these componen
 
 ### Development of new analyzers
 
-We occasionally need to build out new analyzer projects to support new frameworks and tools.
-In doing so we should follow [our engineering Open Source guidelines](/handbook/engineering/open-source/),
-including licensing and [code standards](https://docs.gitlab.com/ee/development/go_guide).
-
-In addition, to write a custom analyzer that will integrate into the GitLab application
-a minimal featureset is required:
-
-#### Checklist
-
-##### Underlying tool
-
-- [ ] Has [permissive software license](/handbook/engineering/open-source/#using-open-source-software)
-- [ ] Headless execution (CLI tool)
-- [ ] Bundle-able dependencies to be packaged as a Docker image, to be executed using GitLab Runner's [Linux or Windows Docker executor](https://docs.gitlab.com/runner/executors/docker.html)
-- [ ] Compatible projects can be detected based on filenames or extensions
-- [ ] Offline execution (no Internet access) or can be configured to use custom proxies and/or CA certificates
-
-##### Dockerfile
-
-The `Dockerfile` should use an unprivileged user with the name `gitlab`. The reason this is necessary is to provide compatibility with Red Hat OpenShift instances, which don't allow containers to run as an admin (root) user. There are certain limitations to keep in mind when running a container as an unprivileged user, such as the fact that any files that need to be written on the Docker filesystem will require the appropriate permissions for the `gitlab` user. Please see the following merge request for more details: [Use gitlab user instead of root in Docker image](https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium/-/merge_requests/130).
-
-##### Minimal vulnerability data
-
-Please see [our security-report-schemas](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/src/security-report-format.json) for a full list of required fields.
-
-The [security-report-schema](https://gitlab.com/gitlab-org/security-products/security-report-schemas) repository contains JSON schemas that list the required fields for each report type:
-
-- [Container Scanning](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/dist/container-scanning-report-format.json)
-- [DAST](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/dist/dast-report-format.json)
-- [Dependency Scanning](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/dist/dependency-scanning-report-format.json)
-- [SAST](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/dist/sast-report-format.json)
-- [Secret Detection](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/dist/secret-detection-report-format.json)
+For a complete guide about developing a new analyzer please refer to our [user documentation](https://docs.gitlab.com/ee/development/sec/analyzer_development_guide.html#development-of-new-analyzers)
 
 ## Technical Documentation
 
@@ -431,7 +413,7 @@ NB: we use to have a sub-department wide retrospective whose issues are still ac
 
 The Secure group reviews analytics to help understand customers and their usage of the tools. This data helps drive product and technical decisions.  The following links show usage of Secure functionality.
 
-- https://app.periscopedata.com/app/gitlab/895813/Secure-Scan-metrics
+[Secure Scan Metrics Dashboard](https://10az.online.tableau.com/t/gitlab/views/PDSecureScanMetrics_17090087673440/SecureScanMetrics)
 
 ## Cross-functional Backlog
 

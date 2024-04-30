@@ -1,21 +1,18 @@
 ---
-title: Govern Stage
+title: Govern Sub-department
 layout: single
 ---
 
-The Govern engineering groups are responsible for the [Govern Stage](/handbook/product/categories/#govern-stage) of the product.
+The Govern sub-department teams are the engineering teams in the [Govern Stage](/handbook/product/categories/#govern-stage) of the product.
 
 ## Vision
 
-Help users manage security vulnerabilities, policies, and compliance across their organization.
-
-The stage vision is captured on the [Govern product direction](https://about.gitlab.com/direction/govern/) pages.
+To support GitLab's product vision through alignment with the [Govern stage](https://about.gitlab.com/direction/govern/) product direction.
 
 ## Groups
 
-- [Anti-abuse](anti-abuse/)
 - [Authentication](authentication/)
-- [Authorization](authorization/)
+- [Authorization](authorization/) and [Anti-abuse](anti-abuse/)
 - [Compliance](compliance/)
 - [Security Policies](security-policies/)
 - [Threat Insights](threat-insights/)
@@ -29,31 +26,35 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 - [Authorization](https://about.gitlab.com/direction/govern/authorization/#priorities)
 - [Compliance](https://about.gitlab.com/direction/govern/compliance/tactical-priorities.html#priorities)
 - [Security Policies](https://about.gitlab.com/direction/govern/security_policies/#priorities)
-- [Threat Insights](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html#priorities)
+- [Threat Insights](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html#priorities) [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#priorities)
 
+### Product Documentation Links
 
-## Stage development people leaders
+- [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/)
+- [Vulnerability Pages](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/)
+- [Security scanner integration](https://docs.gitlab.com/ee/development/integrations/secure.html)
+- [Secure and Govern terminology](https://docs.gitlab.com/ee/user/application_security/terminology/)
+- [Govern testing priorities](https://about.gitlab.com/direction/govern/testing_priorities.html)
 
-{{< team-by-manager-slug manager="pcalder" role="Govern" >}}
+## Sub-department development people leaders
 
-To contact Govern stage development people leaders leaders use the following aliases:
+{{< team-by-manager-slug manager="pcalder" role="Govern" team="Engineering Manager(.*)Govern" >}}
+
+To contact Govern sub-department development people leaders leaders use the following aliases:
 
 - GitLab: `@gitlab-org/govern/managers`
 - Slack: `@s_govern_managers`
+- Slack channel: `#govern-development-people-leaders`
 
 ## All Team Members
-
-### Anti-abuse
-
-{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Anti-Abuse" %}}
 
 ### Authentication
 
 {{% team-by-manager-slug manager="adil.farrukh" team="Engineer(.*)Govern:Authentication" %}}
 
-### Authorization
+### Authorization and Anti-abuse
 
-{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Authorization" %}}
+{{% team-by-manager-slug manager="jayswain" team="Engineer(.*)Govern:Authorization|Govern:Anti-Abuse" %}}
 
 ### Compliance
 
@@ -67,13 +68,50 @@ To contact Govern stage development people leaders leaders use the following ali
 
 {{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Govern:Threat Insights" %}}
 
-{{% team-by-manager-slug manager="kniechajewicz" team="Engineer(.*)Govern:Threat Insights" %}}
+{{% team-by-manager-slug manager="pcalder" team="end Engineer(.*)Govern:Threat Insights" %}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{% stable-counterparts role="Govern" other-manager-roles="Engineering Manager(.*)Govern:Authorization and Anti-abuse|Engineering Manager(.*)Govern:Authentication|Engineering Manager(.*)Govern:Compliance|Engineering Manager(.*)Govern:Security Policies|Engineering Manager(.*)Govern:Threat Insights|Engineering Manager(.*)Growth and Govern:Threat Insights|Director of Engineering for Secure(.*)Govern(.*)and Growth|Senior Manager(.*)Govern" %}}
+{{% stable-counterparts role="Govern" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
+
+## Govern staff meeting
+
+The Govern stage engineering department leaders meet weekly to discuss stage and group topics in the `Govern staff meeting`. This meeting is open to all team members and is published on the Govern stage calendar.
+
+Meetings have an agenda and are async-first, where the aim is to resolve discussions async and leave time in the meeting to deep dive into topics that require more discussion.
+
+We use the [Govern Sub-department Board](https://gitlab.com/gitlab-com/govern-sub-department/-/boards/4833026) to better organize our discussions.
+
+### Weekly updates
+
+The Govern development teams provide [weekly status updates](https://gitlab.com/groups/gitlab-com/-/epics/2126) using an issue template and CI scheduled job.
+As priorities change, engineering managers update the [template](https://gitlab.com/gitlab-com/govern-sub-department/-/blob/main/.gitlab/issue_templates/govern_stage_weekly_update.md) to include areas of interest such as priorities, opportunities, risks, and security and availability concerns. The updates are GitLab internal.
+
+### Quarterly review updates
+
+Every quarter, an engineering manager for each group in the Govern Sub-department prepares the quarterly review update using the issue template and records approximately 5 minutes to summarize the last quarter from the engineering perspective and present a high-level plan for the group for the next one to respond to quarterly Product strategy and explain our goals for next quarter.
+
+We aim to foster collaboration and communication between engineering managers in the Govern Sub-department, align groups on product priorities for the next quarter, and celebrate our successes together.
+
+Quarterly review update template can be found [here](https://gitlab.com/gitlab-com/govern-sub-department/-/blob/main/.gitlab/issue_templates/govern_stage_quarterly_review.md)).
+
+### OKR planning
+
+Our OKRs are a mixture of top down, aligned with Company-wide, Product, or Engineering Division OKRs, and bottom up engineering-led initiatives driven by our team members in Govern. Any team member can propose an OKR for Govern by creating a [proposal issue](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&or%5Blabel_name%5D%5B%5D=Sub-Department%3A%3AGovern&or%5Blabel_name%5D%5B%5D=devops%3A%3Agovern&search=Govern%20%28proposal%29&first_page_size=100) in our internal OKR project. The issue can be used to collaborate and discuss the proposal. When we are ready to commit, we can create or align to an existing Objective, and add specific key results to track through the quarter.
+
+Labels:
+
+- `Sub-Department::Govern` - for top-level sub-department Objectives.
+- `devops::govern` - for Objectives and key results for the stage, and stage groups
+- `group::` - for Objectives and key results for a specific group
+
+Each Objective and Key Result should have an assignee who is DRI for providing status updates throughout the quarter. Regular updates are preferred. At a minimum these should be updated
+- By end of day, the second Friday of every month
+- Ay the end of the quarter 
+
+OKRs can be changed or closed during the quarter if they are completed, or as our goals change. This ensures we are focusing on areas that are revelant to our current and future priorities.
 
 ## Skills
 
@@ -88,48 +126,11 @@ Because we have a wide range of domains to cover, it requires a lot of different
 | SQL (PostgreSQL)  | _Various_            |
 | Docker/Kubernetes | Threat Detection     |
 
-{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "STAGE_LABEL"="govern" >}}
-{{< /tableau >}}
-
-{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "STAGE_LABEL"="govern" >}}
-{{< /tableau >}}
-
-### Product Documentation Links
-
-- [Security Dashboard](https://docs.gitlab.com/ee/user/application_security/security_dashboard/)
-- [Vulnerability Pages](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/)
-- [Security scanner integration](https://docs.gitlab.com/ee/development/integrations/secure.html)
-- [Secure and Govern terminology](https://docs.gitlab.com/ee/user/application_security/terminology/)
-
-## Engineering Managers
-
-We meet bi-weekly synchronously to discuss stage and group wide topics. We primarily try to use Epics/Issues to initiate discussions and maintain transparency. We use the
-[Govern Compartment Board](https://gitlab.com/gitlab-com/govern-compartment/-/boards/4833026) to better organize our discussions.
-
-### Engineering Leadership - Backup Plans and Escalation
 
 
-The following table lists the Govern Stage management [backup plan](/handbook/engineering/management/#engineering-manager-backup).
 
-| Team Member                                 | Covered by                                  | Escalation                               |
-|---------------------------------------------|---------------------------------------------|------------------------------------------|
-| {{< member-by-name "Phil Calder" >}}        | {{< member-by-name "Wayne Haber" >}}        | {{< member-by-name "Bartek Marnane" >}}  |
-| {{< member-by-gitlab "alan" >}}             | {{< member-by-name "Nathan Rosandich" >}}   | {{< member-by-name "Phil Calder" >}}     |
-| {{< member-by-name "Nathan Rosandich" >}}   | {{< member-by-gitlab "alan" >}}             | {{< member-by-name "Phil Calder" >}}     |
-| {{< member-by-name "Kamil Niechajewicz" >}} | {{< member-by-name "Neil McCorrison" >}}    | {{< member-by-name "Phil Calder" >}}     |
-| {{< member-by-name "Neil McCorrison" >}}    | {{< member-by-name "Kamil Niechajewicz" >}} | {{< member-by-name "Phil Calder" >}}     |
-| {{< member-by-name "Jay Swain" >}}          | {{< member-by-name "Adil Farrukh" >}}       | {{< member-by-name "Phil Calder" >}}     |
-| {{< member-by-name "Adil Farrukh" >}}       | {{< member-by-name "Jay Swain" >}}          | {{< member-by-name "Phil Calder" >}}     |
 
-Team members should contact any Govern Engineering Manager by mentioning in `#sd_govern_engineering` or `#sec-growth-development-people-leaders` if they need management support for a problem that arises, such as a production incident or feature change lock, when their direct manager is not available. The Govern manager can provide guidance and coordination to ensure that the team member receives the appropriate help.
 
-The Engineering Manager will allocate open issues and merge requests to another engineer, ideally in the same [group](#all-team-members), if an engineer is absent.
-
-Some people management tasks, including [Workday](/handbook/people-group/workday/workday-guide) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide), may require for escalation or delegation.
-
-In the event that one or more team members become unavailable for any reason, this can serve as the foundation for a business continuity plan (BCP) and serve as a basic guide for Managing Engineering continuity.
 
 ### PTO
 
@@ -138,8 +139,8 @@ To support our teams, and commitments made to internal and external customers, t
 The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](https://handbook.gitlab.com/handbook/paid-time-off/) policy.
 
 We use an internal issue tracker as team member PTO is not public information, and a PTO template
-- [PTO issue list](https://gitlab.com/gitlab-com/govern-compartment/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=PTO&first_page_size=20)
-- [New PTO issue template](https://gitlab.com/gitlab-com/govern-compartment/-/issues/new?issuable_template=ooo_template)
+- [PTO issue list](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=PTO&first_page_size=20)
+- [New PTO issue template](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/new?issuable_template=ooo_template)
 
 When a team-member takes some time off, it is important that their work is still being followed up on if needed. We want to make sure that any MR that lands in staging and production environments while we are out gets proper attention and is verified by a counterpart. Therefore, when getting close to our time-off period, we should do the following:
 
@@ -148,30 +149,22 @@ When a team-member takes some time off, it is important that their work is still
 
 Keep in mind that, while we strongly recommend following this process when taking some time off, it might not be relevant all the time. For example, if our time-off period is going to be short and/or our active MRs are minor enough, it might make sense to ignore these recommendations and follow up when we're back.
 
-## Weekly updates
+#### Engineering Leadership - PTO or unavailable
 
-The Govern development teams provide [weekly status updates](https://gitlab.com/groups/gitlab-com/-/epics/2126) using an issue template and CI scheduled job.
-As priorities change, engineering managers update the template to include areas of interest.
+Team members should contact any Govern Engineering Manager by mentioning in `#sd_govern_engineering` or `#govern-development-people-leaders` if they need management support for a problem that arises, such as a production incident or feature change lock, when their direct manager is not available. The Govern manager can provide guidance and coordination to ensure that the team member receives the appropriate help.
 
-An example template highlighting priorities, opportunities, risks, and security and availability concerns is:
+Some people management tasks, including [Workday](/handbook/people-group/workday-guide) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide), may require for escalation or delegation.
 
-Weekly update template can be found [here](https://gitlab.com/gitlab-com/govern-compartment/-/blob/main/.gitlab/issue_templates/govern_stage_weekly_update.md).
 
-## Quarterly review updates
+## Metrics
 
-Every quarter, an engineering manager for each group in the Govern Compartment prepares the quarterly review update using the issue template and records approximately 5 minutes to summarize the last quarter from the engineering perspective and present a high-level plan for the group for the next one to respond to quarterly Product strategy and explain our goals for next quarter.
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "STAGE_LABEL"="govern" >}}
+{{< /tableau >}}
 
-We aim to foster collaboration and communication between engineering managers in the Govern Compartment, align groups on product priorities for the next quarter, and celebrate our successes together.
-
-Quarterly review update template can be found [here](https://gitlab.com/gitlab-com/govern-compartment/-/blob/main/.gitlab/issue_templates/govern_stage_quarterly_review.md)).
-
-## Govern staff meeting
-
-The Govern stage engineering department leaders meet every two weeks to discuss stage and group topics in the `Govern staff meeting`,
-and optionally every week in the `Expansion Development` staff  and `Secure/Govern senior leaders development` staff meetings.
-
-Meetings have an agenda and are async-first, where the aim is to resolve discussions async and leave time in the meeting to deep dive into topics that require more discussion.
-
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "STAGE_LABEL"="govern" >}}
+{{< /tableau >}}
 
 ## Links and resources
 

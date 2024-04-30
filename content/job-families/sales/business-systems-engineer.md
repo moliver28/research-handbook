@@ -104,9 +104,9 @@ The Manager, Business Systems Engineer is a [grade 8](/handbook/total-rewards/co
 ## Performance Indicators
 
 - nARR vs Plan
-- [% of team who self-classify as diverse](/handbook/business-technology/metrics/#percent--of-team-who-self-classify-as-diverse)
-- [Cost Actual vs Plan](/handbook/business-technology/metrics/#cost-actual-vs-plan)
-- [System roll out vs plan](/handbook/business-technology/metrics/#system-roll-out-vs-plan)
+- [% of team who self-classify as diverse](https://internal.gitlab.com/handbook/it/it-performance-indicators/#percent--of-team-who-self-classify-as-diverse)
+- [Cost Actual vs Plan](https://internal.gitlab.com/handbook/it/it-performance-indicators/#cost-actual-vs-plan)
+- [System roll out vs plan](https://internal.gitlab.com/handbook/it/it-performance-indicators/#system-roll-out-vs-plan)
 
 ## Career Ladder
 

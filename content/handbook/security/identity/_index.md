@@ -69,7 +69,7 @@ GitLab Identity v1 was managed using Tech Ops practices by the Infrastructure an
 
 ### GitLab Identity v2
 
-GitLab Identity v2 is what we do today and have been doing since 2018 with [baseline entitlements](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/baseline-entitlements/) and [access requests](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). See the [Access Management Policy](/handbook/security/access-management-policy/) to learn more.
+GitLab Identity v2 is what we do today and have been doing since 2018 with [baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/) and [access requests](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). See the [Access Management Policy](/handbook/security/access-management-policy/) to learn more.
 
 The processes that we do today meets audit and compliance requirements, however the processes are mostly manual that results in internal inefficiency. It takes a lot of labor hours to manage onboarding, access requests, access reviews, and offboarding processes.
 

@@ -59,6 +59,18 @@ controlled_document: true
 
 ```
 
+Some pages might not need the warning banner which can optionally be disabled using the `controlled_document_banner_disabled` attribute.
+
+```markdown
+---
+title: "Public document without banner"
+description: "..."
+controlled_document: true
+controlled_document_banner_disabled: true
+---
+
+```
+
 ## Page Types (Layouts)
 
 **Note:** To keep the handbook consistent, we discourage overriding the page `type` (aka layout).

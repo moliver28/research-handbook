@@ -127,7 +127,7 @@ You have to be more intentional about [cultivating](https://about.gitlab.com/blo
 
 - While this is an obstacle for all-remote companies, colocated organizations should be deliberate about documenting their culture as well.
 - All-remote organizations should document everything, including [values]({{< ref "values" >}}), and ensure that they are easily accessible to all.
-- GitLab demonstrates this with its [Handbook]({{< ref "/handbook" >}}), a living document that is [continually iterated on]({{< ref "about#count-handbook-pages" >}}) by team members. We encourage all-remote organizations to glean from this and develop their own handbook.
+- GitLab demonstrates this with its [Handbook](/handbook), a living document that is [continually iterated on]({{< ref "about#count-handbook-pages" >}}) by team members. We encourage all-remote organizations to glean from this and develop their own handbook.
 
 ## Remote work challenges and solutions for teams
 

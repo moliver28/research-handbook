@@ -14,7 +14,7 @@ twitter_creator: "@gitlab"
 
 ## Introduction
 
-The GitLab.tv Events Channel will act as an educational platform that highlights and supports GitLab's [live and virtual events](/events/). Our audience of tech managers and leaders from a variety of industries will find informative content including demos, keynotes, and interviews on the GitLab events channel.
+The GitLab.tv Events Channel will act as an educational platform that highlights and supports GitLab's [live and virtual events](https://about.gitlab.com/events/). Our audience of tech managers and leaders from a variety of industries will find informative content including demos, keynotes, and interviews on the GitLab events channel.
 
 Ultimately, the GitLab.tv Events Channel will promote brand awareness and thought leadership as well as offer educational opportunities for our audience of developers, engineers and those looking to get started with DevOps and/or GitLab.
 
@@ -31,7 +31,7 @@ These goals are measured as traffic from YouTube to key Event pages, as outlined
 
 GitLab.tv Events Channel allows the wider GitLab community as well as individuals and companies from all industries interested in DevOps and/or GitLab to engage with the company's outward-facing virtual and live events, webinars as well as thought leadership content in the area of DevOps. The audience for this channel consists of a wide range of individuals from individual developers and full-time engineers to managers and tech stakeholders. For the purposes of this channel, we split the audience into two main groups:
 
- **Regular GitLab users:** This segment of the audience is the most likely to binge on this channel's event and thought leadership content because they are already engaged and locked into the GitLab community.  
+ **Regular GitLab users:** This segment of the audience is the most likely to binge on this channel's event and thought leadership content because they are already engaged and locked into the GitLab community.
 
  **People who are looking to get started with DevOps and/or GitLab:** This segment of the audience is either interested in GitLab as a corporate or individual user, but may not have interfaced with the tool just yet. They may also be doing research on DevOps, and found GitLab along the way. Webinars and instructional event content may be of most interest to these folks as the channel will likely be more of an educational outlet for this segment of the audience.
 
@@ -58,12 +58,12 @@ Start with the [Go Live decision tree](/handbook/marketing/virtual-events/#decis
 Uploading criteria:
 
 - **Title:** The title of your video should describe exactly what you are showing in the video. For example, “GitLab Commit 2020 Product Roadmap”
-- **Description:** Repeat the title of the video followed by 3-5 sentences explaining what the viewer is going to experience or learn from the video. If the video is longer than 10 minutes, please include timestamps. If the video is referencing a previously approved sharable contribution, please link to the merge request.  
+- **Description:** Repeat the title of the video followed by 3-5 sentences explaining what the viewer is going to experience or learn from the video. If the video is longer than 10 minutes, please include timestamps. If the video is referencing a previously approved sharable contribution, please link to the merge request.
 - **Call to action (CTA):** Event videos should include a link to an event and/or campaign associated with the video that is being posted.
 - **UTM codes:** Please be sure to add a UTM code to your CTA in the video description when uploading your videos to YouTube. This **required** action is needed to track your video's performance. For event-related videos, the UTM code should follow this sequence: `?&utm_medium=social&utm_source=youtube&utm_campaign=events&utm_content={{video}}`
 1. Right before the question mark at the start of the UTM code, please put the URL to the campaign/landing page to which your CTA is driving, i,e. if this is a video for Commit, the URL added before the question mark should take you to the Commit landing page. For example: `https://about.gitlab.com/events/commit/?&utm_medium=social&utm_source=youtube&utm_campaign=events&utm_content={{video}}`
 2. Please use a URL shortener, like [bit.ly](https://bitly.com/), once you add the campaign URL to the top of the UTM code sequence in order to avoid posting a clunky web address for your CTA.
-- **Meta Tags:** Tag your video with the appropriate meta tags, including the keyword of the video. Other tags you might include on a how-to video are: open source, beginner, coding, DevOps, GitLab, events, (whatever event name it is, i.e. Commit, Contribute, etc. both the singular name as well as GitLab Contribute GitLab Commit, etc).  
+- **Meta Tags:** Tag your video with the appropriate meta tags, including the keyword of the video. Other tags you might include on a how-to video are: open source, beginner, coding, DevOps, GitLab, events, (whatever event name it is, i.e. Commit, Contribute, etc. both the singular name as well as GitLab Contribute GitLab Commit, etc).
 
 PLEASE NOTE: **We cannot post videos or presentations that we do not have written consent to share. This applies to content from other companies and individuals as well as presentations done by GitLab.** Please contact events@gitlab.com to confirm permissions.
 

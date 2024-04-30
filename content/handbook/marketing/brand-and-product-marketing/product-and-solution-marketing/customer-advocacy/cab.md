@@ -14,7 +14,7 @@ title: "Customer Advisory Boards"
 
 **Meeting Recordings** Meetings are recorded for internal and member use. Members can seek these recordings by emailing CAB@gitlab.com
 
-**Recurring Content** Our content plan for the CABs is determined by customer feedback on specific requests/topics as relayed via regular member surveys. We will frequently ask for GitLab Product Managers to join to [present the vision for their assigned DevOps stage](/stages-devops-lifecycle/). Typical CAB's include customer breakout sessions, birds of a feather discussions and customer presentations, we aim for 80:20 customer driven conversations.  The CAB Manager will follow up CAB's with an email to members that includes a link to watch the recording and review meeting notes.
+**Recurring Content** Our content plan for the CABs is determined by customer feedback on specific requests/topics as relayed via regular member surveys. We will frequently ask for GitLab Product Managers to join to [present the vision for their assigned DevOps stage](https://about.gitlab.com/stages-devops-lifecycle/). Typical CAB's include customer breakout sessions, birds of a feather discussions and customer presentations, we aim for 80:20 customer driven conversations.  The CAB Manager will follow up CAB's with an email to members that includes a link to watch the recording and review meeting notes.
 
 **Recorded CAB meetings** Due to the private nature of the Customer Advisory Board, video recordings and presentations are not linked here. If you are a GitLab employee, please join our internal CAB slack channel (#cab-shared-internal) or email CAB@gitlab.com.
 

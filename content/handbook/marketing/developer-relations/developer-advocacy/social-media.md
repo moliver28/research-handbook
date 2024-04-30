@@ -25,7 +25,7 @@ Topics:
 
 ### UTM Tracking
 
-Developer Advocates at GitLab are encouraged to add [UTMs for URL tagging and tracking](/handbook/marketing/developer-relations/developer-evangelism/#utms-for-url-tagging-and-tracking) to provide analytics and insights on how well content shares are performing. This method helps to verify [KPI metrics](/handbook/marketing/developer-relations/developer-evangelism/metrics/).
+Developer Advocates at GitLab are encouraged to add [UTMs for URL tagging and tracking](/handbook/marketing/developer-relations/developer-advocacy/#utms-for-url-tagging-and-tracking) to provide analytics and insights on how well content shares are performing. This method helps to verify [KPI metrics](/handbook/marketing/developer-relations/content-effectiveness/).
 
 ## Target Platforms
 
@@ -37,8 +37,8 @@ LinkedIn and Twitter are the target platforms. Both platforms have different tar
 
 Experimental platforms:
 
-- Mastodon (requires an account on a specific instance in the Fediverse). [Evaluation issue](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/de-tmm-meta/-/issues/123).
-- Bluesky Social (invite only). [Evaluation issue](https://gitlab.com/gitlab-com/marketing/community-relations/dev-evangelism/de-tmm-meta/-/issues/277).
+- Mastodon (requires an account on a specific instance in the Fediverse). [Evaluation issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/de-tmm-meta/-/issues/123).
+- Bluesky Social (invite only). [Evaluation issue](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/de-tmm-meta/-/issues/277).
 
 ### General Social Media Tips
 
@@ -74,7 +74,7 @@ Use the social card validators to verify the social preview of included URLs bef
 
 [Raycast](https://www.raycast.com/) is a productivity app and can replace Spotlight on macOS. Open Raycast with your preferred shortcut (`option + space` by default) and start typing `emoji`, press `enter` and type the emoji name. You can also assign a shortcut to the emoji view by opening the extensions settings. Open Raycast and type `extensions` and select `Extensions Raycast Settings` in the prompt. Search for `emoji` and assign a keyboard shortcur, for example `cmd 2`.
 
-![Raycast extensions: Emoki keyboard shortcut](/images/handbook/marketing/developer-relations/developer-evangelism/social-media/raycast_extensions_settings_emojis_keyboard_shortcut.png)
+![Raycast extensions: Emoki keyboard shortcut](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/raycast_extensions_settings_emojis_keyboard_shortcut.png)
 
 If you are using Alfred on macOS, you can use [Alfred's Powerpack with the emoji workflow](https://dev.to/dnsmichi/emojis-everywhere-supercharged-with-alfred-workflows-1o3n) to quickly access common emojis for tweets.
 
@@ -89,19 +89,19 @@ LinkedIn provides [groups](https://www.linkedin.com/help/linkedin/answer/a540824
 - [DevOps and SRE discussions](https://www.linkedin.com/groups/6585254/): 137,000 members as of 2023-07-04
 - [Artificial Intelligence (AI), Digital Transformation, Data Science, Automation, Machine Learning, and Analytics Group](https://www.linkedin.com/groups/4376214/): 101,000 members as of 2023-07-04
 
-Benefits: Increase reach of content shares (e.g. the [GitLab blog](https://about.gitlab.com/blog/)), attract new followers using the [creator mode profile](/handbook/marketing/developer-relations/developer-evangelism/social-media/#linkedin-use-creator-mode-profile).
+Benefits: Increase reach of content shares (e.g. the [GitLab blog](https://about.gitlab.com/blog/)), attract new followers using the [creator mode profile](/handbook/marketing/developer-relations/developer-advocacy/social-media/#linkedin-use-creator-mode-profile).
 
 Some groups require moderators to approve the posts. Please follow these guidelines:
 
 - Ensure that the post is helpful, provides a short summary of the linked article
-- Check the [social card preview](/handbook/marketing/developer-relations/developer-evangelism/social-media/#social-card-validators) and replace them with screenshots or [GIFs](/handbook/product/making-gifs/) that make folks stop scrolling.
+- Check the [social card preview](/handbook/marketing/developer-relations/developer-advocacy/social-media/#social-card-validators) and replace them with screenshots or [GIFs](/handbook/product/making-gifs/) that make folks stop scrolling.
 - Do not spam the groups with messages every day. Be thoughtful about shares and help the group owners to create a helpful stream of free learning content.
 
 Example: The [GitLab CLI announcement post by Michael](https://www.linkedin.com/posts/dnsmichi_everyonecancontribute-activity-7006375881359130624-1812) which shows the CLI interface with CI/CD pipelines, job traces, and CLI API calls as attached screenshots created 92 likes, and 5,200 impressions in 24 hours. The [same post](https://www.linkedin.com/feed/update/urn:li:activity:7006803920949755904) to the [DevOps group on LinkedIn](https://www.linkedin.com/groups/2825397/), once approved, got 40 likes and 9000 impressions in 9 hours.
 
 #### LinkedIn: Use Creator Mode Profile
 
-LinkedIn defaults to connections between users, and everyone uses a different strategy to manage connections, i.e. only having met in person, etc. Sometimes users want to follow and engage with your content, without the direct need of a LinkedIn connection. This is a great strategy to share thought leadership content on LinkedIn too, for example [automated schedules](/handbook/marketing/developer-relations/developer-evangelism/social-media/#sharing-content) in the same way as Twitter.
+LinkedIn defaults to connections between users, and everyone uses a different strategy to manage connections, i.e. only having met in person, etc. Sometimes users want to follow and engage with your content, without the direct need of a LinkedIn connection. This is a great strategy to share thought leadership content on LinkedIn too, for example [automated schedules](/handbook/marketing/developer-relations/developer-advocacy/social-media/#sharing-content) in the same way as Twitter.
 
 LinkedIn provides the [Creator Mode](https://www.linkedin.com/help/linkedin/answer/a522537/creator-mode) for profiles which brings multiple benefits:
 
@@ -118,7 +118,7 @@ LinkedIn provides the [Creator Mode](https://www.linkedin.com/help/linkedin/answ
 
 Example profile from [Michael Friedrich](https://www.linkedin.com/in/dnsmichi/) with Creator Mode enabled:
 
-![LinkedIn Profile with creator mode enabled: Michael Friedrich](/images/handbook/marketing/developer-relations/developer-evangelism/social-media/linkedin_creator_mode_profile_michael_friedrich.png)
+![LinkedIn Profile with creator mode enabled: Michael Friedrich](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_creator_mode_profile_michael_friedrich.png)
 
 #### LinkedIn: QR Code Connect on Mobile
 
@@ -127,15 +127,15 @@ When attending events, networking and connecting to new folks often is a thing. 
 1. Open the LinkedIn mobile app on iOS or Android.
 2. Tap into the search bar.
 
-![LinkedIn iOS app: Search bar](/images/handbook/marketing/developer-relations/developer-evangelism/social-media/linkedin_mobile_app_qr_code_connect_01_search_bar.png)
+![LinkedIn iOS app: Search bar](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_01_search_bar.png)
 
 3. This action brings up the QR code icon on the right side of the search bar.
 
-![LinkedIn iOS app: Search bar, QR Icon](/images/handbook/marketing/developer-relations/developer-evangelism/social-media/linkedin_mobile_app_qr_code_connect_02_search_bar_qr_icon.png)
+![LinkedIn iOS app: Search bar, QR Icon](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_02_search_bar_qr_icon.png)
 
 4. Tap on the QR code icon to bring up the QR code to share.
 
-![LinkedIn iOS app: QR Code view](/images/handbook/marketing/developer-relations/developer-evangelism/social-media/linkedin_mobile_app_qr_code_connect_03_qr_code_view.png)
+![LinkedIn iOS app: QR Code view](/images/handbook/marketing/developer-relations/developer-advocacy/social-media/linkedin_mobile_app_qr_code_connect_03_qr_code_view.png)
 
 5. The QR Code view also has a tab to scan other QR codes. If you don't want to grant access to the camera to the LinkedIn app, you can also scan the QR code using your mobile camera and open the LinkedIn app from the scanned profile URL.
 
@@ -161,7 +161,7 @@ Note: be cautious of phishing, spam, and other undesirable messages arriving via
     - Metatext on [iOS](https://apps.apple.com/de/app/metatext/id1523996615?l=en)
 1. A Tweetdeck alternative is built into the Mastodon web interface.
     - Navigate into [`Preference > Appearance`](https://docs.joinmastodon.org/user/preferences/) and select `enable advanced web interface`.
-1. Mastodon does not track post impressions. **Always** use [UTM tracking with short URLs](/handbook/marketing/developer-relations/developer-evangelism/social-media/#utm-tracking) for GitLab owned content.
+1. Mastodon does not track post impressions. **Always** use [UTM tracking with short URLs](/handbook/marketing/developer-relations/developer-advocacy/social-media/#utm-tracking) for GitLab owned content.
 
 ## Content
 
@@ -174,7 +174,7 @@ The composer features of Twitter, Linked, Mastodon, etc. are available for posti
 - Mastodon: Log into your instance and use the composer form. The [Mastodon scheduler](https://www.scheduler.mastodon.tools/) allows to schedule posts.
 - Bluesky Social: Log into the app and post content.
 
-Paid platforms provide more features, such as scheduling content shares with calendar views, threads on Twitter, live sharing across multiple social media platforms, etc. You can use [Buffer](/handbook/marketing/developer-relations/developer-evangelism/tools/#buffer) to create scheduling queues from browser extensions, mobile apps, and managed campaigns for LinkedIn, Twitter and Mastodon. In July 2023, Twitter announced a [new Tweetdeck feature exclusively for Twitter Blue subscribers](https://www.theverge.com/2023/7/3/23783092/twitter-tweetdeck-new-preview-force-legacy-apis) and deprecated the old free versions.
+Paid platforms provide more features, such as scheduling content shares with calendar views, threads on Twitter, live sharing across multiple social media platforms, etc. You can use [Buffer](/handbook/marketing/developer-relations/developer-advocacy/tools/#buffer) to create scheduling queues from browser extensions, mobile apps, and managed campaigns for LinkedIn, Twitter and Mastodon. In July 2023, Twitter announced a [new Tweetdeck feature exclusively for Twitter Blue subscribers](https://www.theverge.com/2023/7/3/23783092/twitter-tweetdeck-new-preview-force-legacy-apis) and deprecated the old free versions.
 
 _2023-07-01:_ Twitter [announced rate limits](https://techcrunch.com/2023/07/01/twitter-imposes-limits-on-the-number-of-tweets-users-can-read-amid-extended-outage/) for all users on the platform, and only authenticated users can see tweets. This introduces an accessibility problem: Website-embedded tweets and previews are visible, but additional engagement requires a Twitter account and login. According to Twitter, these limits are temporary.
 
@@ -237,7 +237,7 @@ General topics
 
 ## Analytics
 
-Please see [Metrics Collection & Analysis](/handbook/marketing/developer-relations/developer-evangelism/metrics/) for our methods and tools.
+Please see [Content Effectivness](/handbook/marketing/developer-relations/content-effectiveness/) for our methods and tools.
 
 ## Thought Leadership Strategy
 
@@ -298,12 +298,12 @@ When you find something interesting to be shared with our brand account, please 
 
 The following tips evolved from @dnsmichi experimenting with thought leadership strategies and efficiency.
 
-- Follow [thought leaders](/handbook/marketing/developer-relations/developer-evangelism/social-media/#thought-leader-examples) and engineers who share thoughts and interesting content.
+- Follow [thought leaders](/handbook/marketing/developer-relations/developer-advocacy/social-media/#thought-leader-examples) and engineers who share thoughts and interesting content.
   - Eventually users follow back - the more invisible benefit is that the Twitter and LinkedIn algorithms will show you more content you potentially like to see.
 - Repurpose everyone's content and use it as a way to learn and educate.
-- Subscribe to the [newsletters](/handbook/marketing/developer-relations/developer-evangelism/social-media/#content-sources) and extract your focus topics and content.
+- Subscribe to the [newsletters](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content-sources) and extract your focus topics and content.
 - Do not immediately retweet/reshare tweets or content you see in your social streams. Collect them in a GitLab issue, Markdown file in Git, etc.
-  - Evaluate potential trending topics and prioritize the [scheduled tweets queue](/handbook/marketing/developer-relations/developer-evangelism/social-media/#sharing-content).
+  - Evaluate potential trending topics and prioritize the [scheduled tweets queue](/handbook/marketing/developer-relations/developer-advocacy/social-media/#sharing-content).
 - Collect all blog articles, tweets, and tools for daily use and compile them into a monthly blog post or newsletter issue.
   - Create 1-2 sentences sharing your thoughts on the article, its content, what you liked, what you see as a emerging trend, etc.
   - Publish the newsletter / blog post and tag all folks who contributed to your success in a Twitter thread / LinkedIn post. This shows appreciation and helps with engagement and reshares. Example: Dotan appreciated his talk being shared, and [reshared the newsletter post](https://www.linkedin.com/posts/horovits_how-much-observability-is-enough-activity-6935487128235569152-beqn/).
@@ -335,9 +335,9 @@ Workflow:
 - Developer Advocates review the release blog post draft.
   - Use the review app.
   - Add feedback and suggestions to the merge request before release day.
-  - Add interesting items with social text examples into the release evangelism epic. 
-- Developer advocates share and/or schedule their favorite features on release day. 
-  - Use the short URLs from the campaign manager to track release evangelism impressions. 
+  - Add interesting items with social text examples into the release evangelism epic.
+- Developer advocates share and/or schedule their favorite features on release day.
+  - Use the short URLs from the campaign manager to track release evangelism impressions.
   - Use the existing media (images, videos) from the release blog post, or create new screenshots/videos.
   - Link to the documentation, or the release post anchor if already released. **Never link to the review app.**
 
@@ -376,7 +376,7 @@ Workflow:
   - Add the URLs to the release evangelism issue
 - Ask Sid in the [#ceo Slack channel](https://gitlab.slack.com/archives/C3MAZRM8W) to engage with the MVP shares
   - Suggested actions: Reshare/like, add a comment thanking for the contributions. Follow the [CEO voice](/handbook/ceo/#ceo-voice) to suggest a text to copy.
-  - For efficient copy/paste of suggested texts, add a comment in the Slack thread containing only the comment text. 
+  - For efficient copy/paste of suggested texts, add a comment in the Slack thread containing only the comment text.
   - Check the shares for comments, and engagement metrics
 
 #### Release Evangelism Examples
@@ -467,11 +467,11 @@ KPIs:
 
 Move social shares into product channels, be it good feedback or additional experts required to answer. Tag GitLab team members and encourage them to respond/discuss on social media when they can benefit from the conversation. For heated discussions, stay within a small group of social media DRIs.
 
-For incoming questions and involving more experts, Developer Advocates can help in Slack in [#dev-evangelism-and-technical-marketing](https://gitlab.slack.com/archives/CMELFQS4B).
+For incoming questions and involving more experts, Developer Advocates can help in Slack in [#dev-advocacy-team](https://gitlab.slack.com/archives/CMELFQS4B).
 
 #### Release Management
 
-Example tweets for [GitLab 12.9](/releases/2020/03/22/gitlab-12-9-released/):
+Example tweets for [GitLab 12.9](https://about.gitlab.com/releases/2020/03/22/gitlab-12-9-released/):
 
 - Pick a nice title and encourage everyone to try to create a new release: `Have you created your first release through the in @gitlab yet? Let's do this!`
 - Go to your demo environment and create 1-4 screenshots, including guiding steps (make this a mini tutorial)

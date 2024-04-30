@@ -13,7 +13,7 @@ GitLab Support will use this instance.
 
 - Accessible by: Everyone
 - Support portal address: <https://support.gitlab.com>
-- Sandbox address: <https://gitlab1545832369.zendesk.com/agent/>
+- Sandbox address: <https://gitlab1707170878.zendesk.com/agent/>
 
 #### Zendesk Government
 

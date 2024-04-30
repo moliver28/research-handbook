@@ -26,7 +26,7 @@ These principles will guide our benefit strategies and decisions.
 ### Strategy
 
 - Given Benefits vary by country, we do not offer the same benefits globally, instead we take a **country specific approach.** We will transparently outline why we do or do not offer benefits.  
-- Country specific appraoch based on **statutory requirements, entity status, headcount, and market practice**
+- Country specific approach based on **statutory requirements, entity status, headcount, and market practice**
 - To provide **equitable programs** for team members within the **same country location** when possible.
 - To continuously improve the **team member experience**
 

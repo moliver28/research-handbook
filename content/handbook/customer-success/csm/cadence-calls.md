@@ -64,7 +64,7 @@ The following items are to be covered/completed in your initial cadence call/kic
 - Share our [support offerings](https://about.gitlab.com/support/)
 - If the customer is on a self-managed subscription:
   - Strongly advise that they sign-up for security alerts, which they can do by entering their email address in the "Sign up for security notices" section of [this page](https://about.gitlab.com/company/contact/)
-  - Share the [Communication Preference Center link](https://about.gitlab.com/company/preference-center/) so that customers can manage the emails they get from GitLab 
+  - Share the [Communication Preference Center link](https://about.gitlab.com/company/preference-center/) so that customers can manage the emails they get from GitLab
 - If the customer is on a SaaS subscription:
   - Share [Status](https://status.gitlab.com/) and [Communications Preferences](/handbook/company/preference-center/) pages with customer and advise that they opt-in to security alerts
   - Subscribe the GitLab Admin to Status page updates
@@ -81,7 +81,7 @@ Prior to the call, review the following items:
 - Renewal date to be aware of upcoming renewal
 - License utilization - if it is lower and the customer is in the second half of their annual contract, discuss the trends around this and expected behavior; if it is above or close to their purchased amount, ensure they are aware and loop in your SAE/AE
 - Use case scoring, identifying areas where the customer is not green - discuss one or two on the call and include the value of adoption these areas and suggest enablement opportunities
-- Has the customer signed up for security alerts? It's critical to ensure that customers (especially those that are self-managed) sign up for GitLab security alerts, which they can do by entering their email address in the "Sign up for security notices" section of [this page](https://about.gitlab.com/company/contact/). CSMs can monitor whether or not their customers are signed up for security alerts by looking at the relevant SFDC reports for [contacts](https://gitlab.my.salesforce.com/00O8X000008RTyM) (most customers will fall into this category) and [leads](https://gitlab.my.salesforce.com/00O8X000008RTyg). It is recommended to save versions of those SFDC reports with your preferred filters in your Personal Custom Reports folder in SFDC for efficiency and to avoid accidentally modifying the original reports. You can do this by opening the report,selecting "Save As", renaming the report, and saving it to "My Personal Custom Reports". From there, you can modify the report to include your desired filters. If a customer does not sign up for security alerts in between the kickoff call and the first cadence call, CSMs should revisit this topic in subsequent conversations and emphasize that opting in to these notifications will ensure the customer is aware of any action they may need to take to keep their instance(s) secure. 
+- Has the customer signed up for security alerts? It's critical to ensure that customers (especially those that are self-managed) sign up for GitLab security alerts, which they can do by entering their email address in the "Sign up for security notices" section of [this page](https://about.gitlab.com/company/contact/). CSMs can monitor whether or not their customers are signed up for security alerts by looking at the relevant SFDC reports for [contacts](https://gitlab.my.salesforce.com/00O8X000008RTyM) (most customers will fall into this category) and [leads](https://gitlab.my.salesforce.com/00O8X000008RTyg). It is recommended to save versions of those SFDC reports with your preferred filters in your Personal Custom Reports folder in SFDC for efficiency and to avoid accidentally modifying the original reports. You can do this by opening the report,selecting "Save As", renaming the report, and saving it to "My Personal Custom Reports". From there, you can modify the report to include your desired filters. If a customer does not sign up for security alerts in between the kickoff call and the first cadence call, CSMs should revisit this topic in subsequent conversations and emphasize that opting in to these notifications will ensure the customer is aware of any action they may need to take to keep their instance(s) secure.
 
 With every customer call, always be sure to have an agenda prepared and share it with the customer in advance. Here is [a template](https://docs.google.com/document/d/1sAt4dFCnPm0vupfFEpZT9dCFLfhgdfCdcj0nOjCM9SI/edit) that some CSMs use to prepare agendas for customer meetings.
 
@@ -193,12 +193,12 @@ These are suggestions that can be used at any time on customer calls.
 - Discuss if their users have any feedback, pain points, or blockers
 - Ask if there is anything the CSM can assist on towards resolution (feature requests, support tickets, etc.)
 - Ask about any gaps in or outdated information in Gainsight (watch an [8 minute video](https://youtu.be/yk95b6u26So) for recommendations!)
-- If self-managed, review their current version, planned upgrades, and if they need [Upgrade Assistance](/support/scheduling-upgrade-assistance/#how-do-i-schedule-upgrade-assistance)
+- If self-managed, review their current version, planned upgrades, and if they need [Upgrade Assistance](https://about.gitlab.com/support/scheduling-upgrade-assistance/#how-do-i-schedule-upgrade-assistance)
 - If self-managed, review if there are any planned, upcoming, or ongoing deployment changes (e.g. Geo, HA, etc.) and ensure they are familiar with support
 - If self-managed, discuss their backup/recovery plans and if they have recently tested restoring from a backup
 - If self-managed, discuss if they have [signups enabled](https://docs.gitlab.com/ee/administration/settings/sign_up_restrictions.html)
 - If self-managed, raise the importance of GitLab Security patches and use it as an additional argument to enable usage/service ping reports of GitLab
-- If self-managed, emphasize the importance of opting-in to security alerts 
+- If self-managed, emphasize the importance of opting-in to security alerts
 - If using a collaboration project, the CSM can configure a scheduled job to create agenda issues on a monthly frequency. Instructions for that are in each collaboration project's [instructions file](https://gitlab.com/gitlab-com/account-management/templates/customer-collaboration-project-template/-/blob/master/PLEASE-READ-THESE-INSTRUCTIONS.md).
 
 ### Ephemeral Suggestions

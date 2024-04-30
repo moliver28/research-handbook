@@ -181,7 +181,7 @@ Should you need to reschedule, please @ mention the EBA to the CEO in the `#eba-
 
 **Six Mondays** before the start of the fiscal quarter, the CEO and Chief of Staff (CoS) to the CEO initiate the OKR process.
 
-The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/e-group-weekly/) which is **five weeks** before the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or CoST.
+The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/e-group-weekly/) which is **five weeks** before the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO.
 
 **Four Mondays** before the start of the quarter, the CoS to the CEO will share the company OKRs draft with E-Group.
 
@@ -219,7 +219,7 @@ Executives shift their focus to finalizing OKRs to their team.
 
 This is also the opportunity to create team OKRs in GitLab and add them to the relevant CEO and executive OKR.
 
-Through the quarter, regular updates by the relevant DRI for CEO KRs are expected ahead of [E-group monthly touchpoint meetings]({{< relref "../offsite/_index.md#monthly-touch-point-meetings" >}}). Exact dates for when updates are due are shared in the `#okrs` Slack channel with reminders set 7 days and 1 day before the due date.
+Through the quarter, regular updates by the relevant DRI for Company KRs are expected ahead of [E-group monthly touchpoint meetings](../offsite/_index.md#monthly-touch-point-meetings). Exact dates for when updates are due are shared in the `#okrs` Slack channel with reminders set 7 days and 1 day before the due date.
 
 ### Dependency Commitments
 
@@ -240,7 +240,7 @@ GitLab entries should include the following fields:
 
 ### The quarter begins
 
-The Chief of Staff to the CEO takes company OKRs and updates the OKR handbook page for the current quarter to be active. Each objective and KR should include the related GitLab link. The CoST for the CEO should also create the handbook page for the following quarter and document the OKR process timeline.
+The Chief of Staff to the CEO takes company OKRs and updates the OKR handbook page for the current quarter to be active. Each objective and KR should include the related GitLab link. The Office of the CEO should also create the handbook page for the following quarter and document the OKR process timeline.
 
 The CoS to the CEO shares the handbook update MR in the #okr channel in Slack and @ mentioned e-group. .
 
@@ -254,14 +254,14 @@ We value [iteration](/handbook/values/#iteration). We can change an objective or
 
 Please note that iteration **does not** mean [changing or lowering goal posts](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/), because it looks like we can't meet what were ambitious but agreed upon key results.
 
-It is better to update an objective or KR than continue to work toward a goal that is not best aligned with desired business [results](/handbook/values/#results). In instances where CEO KRs are being updated in the spirit of iteration, flag the GitLab change in the #okrs Slack channel and tag the CEO and Chief of Staff to the CEO and the CEO for approval. Approval of the change indicates that the revised goal has been agreed upon. At this point, you can also update any associated issues and epics that exist.
+It is better to update an objective or KR than continue to work toward a goal that is not best aligned with desired business [results](/handbook/values/#results). In instances where Company KRs are being updated in the spirit of iteration, flag the GitLab change in the #okrs Slack channel and tag the CEO and Chief of Staff to the CEO and the CEO for approval. Approval of the change indicates that the revised goal has been agreed upon. At this point, you can also update any associated issues and epics that exist.
 
 In the event that a functional objective that is captured in GitLab needs to be updated, please note the change in the #okrs Slack channel and tag the CEO and Chief of Staff to the CEO for approval. Approval of the change indicates that the revised goal has been agreed upon.
 
 
 ## Format of OKR on the Handbook Page
 
-Top level CEO KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](/handbook/documentation/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
+Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](/handbook/documentation/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
 
 Functional leaders are responsible for updating their objectives and KRs in GitLab before each [Key Review](/handbook/key-review/#automated-kpi-slides).
 
@@ -278,7 +278,8 @@ To add new objectives in GitLab, follow the steps below:
 
 1. In the [GitLab OKRs project](https://gitlab.com/gitlab-com/gitlab-OKRs), navigate to OKRs by selecting **Issues** on the left sidebar.
 1. In the top right corner of the **Issues** screen, select the down arrow next to **New issue** in the top right corner and then select **New objective** from the menu. Next, select the **New objective** button to [create an Objective](https://docs.gitlab.com/ee/user/okrs#create-an-objective).
-1. Enter a short but descriptive title for the objective then click **Create objective**
+1. Enter a short but descriptive title for the objective then click **Create objective**.
+    1. When referring to a division, use the division name, not the e-group leader's position. For example, use "Marketing OKRs" (not "CMO OKRs").
 1. Select the objective from the list to open in an editable view and add more details:
     1. Identify the owner for the objective and assign them.
          1. Ensure that only one [DRI](/handbook/people-group/directly-responsible-individuals/) is assigned to the objective. If there is a case of multi-ownership, it's likely that the OKR/KR can be simplified or broken down further.
@@ -301,7 +302,8 @@ To add new key results in GitLab, follow the steps below:
 
 1. Navigate to the the objective that you want to add a child key result to by opening the [GitLab OKRs project](https://gitlab.com/gitlab-com/gitlab-OKRs), selecting **Issues** on the left sidebar, then clicking on the target objective.
 1. [Add new key result](https://docs.gitlab.com/ee/user/okrs#add-a-child-key-result) by clicking **Add** in the **Child objectives and key results** section of an objective and then select **New key result**. Use the [SAFE framework](/handbook/legal/safe-framework/) to determine whether it needs to have limited access.
-1. Enter a short but descriptive title for the key result then click **Create key result**
+1. Enter a short but descriptive title for the key result then click **Create key result**.
+    1. When referring to a division, use the division name, not the e-group leader's position. For example, use "Marketing KR" (not "CMO KR").
 1. Select the key result from the list in the **Child objectives and key results** section to open in an editable view and add more details:
     1. Identify the owner for the key result and assign them.
         1. Ensure that only one [DRI](/handbook/people-group/directly-responsible-individuals/) is assigned to the KR. If there is a case of multi-ownership, it's likely that the OKR/KR can be simplified or broken down further.
@@ -322,79 +324,79 @@ Watch this video for a demo on how to create objectives and key results:
 ### Cascading OKRs and how to Align Division OKRs to the company OKRs
 
 Cascading is the process by which top-level company OKRs cascade down from company-level to division, department, team, and sometimes individual level.
-The OKRs that are directly aligned with CEO KRs should be tied to the CEO KRs in such a way as to allow scoring.
+The OKRs that are directly aligned with Company KRs should be tied to the Company KRs in such a way as to allow scoring.
 
 At GitLab, we typically create OKRs at each level where some OKRs align with the levels above, but not all.
 
 Based on the current methodology and feature set in the product, there are two ways to align OKRs to company OKRs:
 
 1. [Add relevant OKRs as related items](#method-1-add-relevant-okrs-as-related-items). Most of the time, this is what teams use.
-1. [Have all relevant OKRs as children of a CEO KR](#method-2-add-all-okrs-as-children-of-ceo-kr).
+1. [Have all relevant OKRs as children of a Company KR](#method-2-add-all-okrs-as-children-of-company-kr).
 
 The second method should be used only if *all* relevant OKRs can be added as children, because **Progress** is automatically scored based on the children if any exist.
 
 In the future, when [manual scoring is available](https://gitlab.com/gitlab-org/incubation-engineering/okr/meta/-/issues/38), a mix of the two methods can be used for a single KR.
 
-If an OKR is related, but does not score towards the CEO KR, edit the description to add a note.
+If an OKR is related, but does not score towards the Company KR, edit the description to add a note.
 
 #### Creating company OKRs
 
-To allow for division, department, or team objectives to be added as child objectives or KRs, the CEO key results should be created as an objective, not as a key result, as GitLab functionality doesn’t allow for a KR to have child OKRs.
+To allow for division, department, or team objectives to be added as child objectives or KRs, the Company key results should be created as an objective, not as a key result, as GitLab functionality doesn’t allow for a KR to have child OKRs.
 
-The Chief of Staff Team to the CEO does the following:
+The Office of the CEO does the following:
 
-1. Create the CEO objective.
-1. Create the CEO key results as child objectives of the CEO objective.
+1. Create the Company objective.
+1. Create the Company key results as child objectives of the Company objective.
 
 Once company OKRs are created, other divisions and departments following one of the two methods *for team OKRs that score towards company OKRs*.
 
 #### Method 1: Add relevant OKRs as related items
 
 Typically at GitLab, divisions create OKRs to automatically have progress score towards division objectives.
-To indicate that a division KR should also show progress of a CEO KR, add the division KR as a related item of the CEO KR following these instructions:
+To indicate that a division KR should also show progress of a Company KR, add the division KR as a related item of the Company KR following these instructions:
 
-1. Click on the [relevant CEO KR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&label_name%5B%5D=CEO%20OKR) to [add related items](https://docs.gitlab.com/ee/user/okrs.html#linked-items-in-okrs).
+1. Click on the [relevant Company KR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&label_name%5B%5D=CEO%20OKR) to [add related items](https://docs.gitlab.com/ee/user/okrs.html#linked-items-in-okrs).
 1. Click **Add** in the **Linked items** section.
 1. Click inside of **the following item(s)** text field.
-1. Find (enter text to filter) and select 1 or more objective(s) or KR(s) that should score to the CEO KR.
+1. Find (enter text to filter) and select 1 or more objective(s) or KR(s) that should score to the Company KR.
 1. Click **Add** to add the selected OKR(s).
 
 Do this for all OKRs that contribute to company OKRs.
-However, be careful not to link an OKR to multiple CEO KRs.
+However, be careful not to link an OKR to multiple Company KRs.
 
-When this method is used, the Chief of Staff Team to the CEO will update the score manually based on the scoring of all related items.
+When this method is used, the Office of the CEO will update the score manually based on the scoring of all related items.
 
-A hypothetical example where division KRs score directly to division objectives, and should also progress a CEO KR:
+A hypothetical example where division KRs score directly to division objectives, and should also progress a Company KR:
 
-1. CEO Objective: Retain and grow top talent -- automatically scores from KRs including KR1
+1. Company Objective: Retain and grow top talent -- automatically scores from KRs including KR1
    1. KR 1: Have 10% of managers enrolled in leadership program -- manually scored based on related items
-      1. Related: CRO OKR: Have 10% of managers enrolled in leadership program -- child of and automatically scores to CRO Objective
-      1. Related: CMO OKR: Have 10% of managers enrolled in leadership program -- child of and automatically scores to CMO Objective
+      1. Related: Sales OKR: Have 10% of managers enrolled in leadership program -- child of and automatically scores to CRO Objective
+      1. Related: Marketing OKR: Have 10% of managers enrolled in leadership program -- child of and automatically scores to CMO Objective
 
-##### Method 2: Add all OKRs as children of CEO KR
+##### Method 2: Add all OKRs as children of Company KR
 
-This method should only be used if all OKRs that will score towards the CEO KR can be children of the KR,
-because the CEO KR progress is automatically scored based on its children.
+This method should only be used if all OKRs that will score towards the Company KR can be children of the KR,
+because the Company KR progress is automatically scored based on its children.
 The hierarchy looks similar to this:
 
-1. CEO objective
-    1. CEO KR (a GitLab objective)
+1. Company objective
+    1. Company KR (a GitLab objective)
         1. Division objective
             1. Division KR
             1. Division KR
 
-To add the division OKRs as children of the relevant CEO KR:
+To add the division OKRs as children of the relevant Company KR:
 
-1. Click on the CEO KR you want to be the new parent for an objective/key result.
-1. Click **Add** in the **Child objectives and key results** section of the CEO KR.
-1. Create team objective or KR as a child objective of the relevant CEO KR (CEO KR will be a GitLab objective).
+1. Click on the Company KR you want to be the new parent for an objective/key result.
+1. Click **Add** in the **Child objectives and key results** section of the Company KR.
+1. Create team objective or KR as a child objective of the relevant Company KR (Company KR will be a GitLab objective).
 1. If the team objectives or KRs already exist, [find the objective or key result for alignment](https://docs.gitlab.com/ee/user/okrs#child-objectives-and-key-results) by typing the name of the OKR in the search bar that appears in the **Child objectives and key results** section. See [documentation to add a child objective](https://docs.gitlab.com/ee/user/okrs#add-a-child-objective).
 1. If applicable, add the team key results as children inside of the team objective.
 1. Ensure they have an assignee, labels, etc. [following guidelines on Creating Key Results](#creating-key-results).
 
 A hypothetical example where division OKRs score directly to a company OKR:
 
-1. CEO Objective: Retain and grow top talent -- automatically scores from KRs including KR1
+1. Company Objective: Retain and grow top talent -- automatically scores from KRs including KR1
    1. KR 1: Have 10% of managers enrolled in leadership program -- automatically scores from child OKRs
       1. CRO OKR: Have 10% of managers enrolled in leadership program
       1. CMO OKR: Have 10% of managers enrolled in leadership program
@@ -431,7 +433,7 @@ Company OKR progress will be shared in the first week of the month in the  follo
 
 ## Scoring OKRs
 
-Since we set OKRs that are aspirational, we [don't expect 100% achievement](/okrs/#criteria-for-key-results) across KRs. We score individual KRs to note our achievement against our stated goal. This is the scoring framework.
+Since we set OKRs that are aspirational, we [don't expect 100% achievement](/handbook/company/okrs/#criteria-for-key-results) across KRs. We score individual KRs to note our achievement against our stated goal. This is the scoring framework.
 
 | Achievement against targets | Score |
 | ------ | ------ |

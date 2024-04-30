@@ -117,7 +117,8 @@ There are four departments within the Engineering Division:
 ### People Management
 
 - [Engineering Compensation Roadmaps](/handbook/engineering/compensation-roadmaps/)
-- [Engineering Career Development](/handbook/engineering/career-development/)
+- [Engineering Career Development](/handbook/engineering/careers/)
+- [Engineering Career Mobility Principles](/handbook/engineering/careers/#mobility-principles)
 - [Engineering Internship](/handbook/engineering/internships/)
 - [Engineering Secondments](/handbook/engineering/secondments/)
 - [Engineering Management](/handbook/engineering/management/)
@@ -149,8 +150,7 @@ is the responsibility of the Engineering Manager for the [General Squad](/handbo
 1. SaaS Metrics Review
    1. Include screenshots of the following graphs in the [agenda](https://docs.google.com/document/d/164hNObllaLWosG110-A0UouYlcaqOxbPpHATFD38_Gw/edit#heading=h.59wtcja0o8t7).
      - [Alert Volume Review](https://nonprod-log.gitlab.net/app/dashboards#/view/cca06cf0-cd56-11ec-b3a6-472d0398dd6e?_g=(filters:!(('$state':(store:globalState),meta:(alias:!n,disabled:!f,index:b35d9ca0-6c67-11eb-968b-c18082d502f4,key:type,negate:!f,params:(query:pagerduty),type:phrase),query:(match_phrase:(type:pagerduty))),('$state':(store:globalState),meta:(alias:!n,disabled:!f,index:b35d9ca0-6c67-11eb-968b-c18082d502f4,key:status,negate:!f,params:(query:acknowledged),type:phrase),query:(match_phrase:(status:acknowledged)))),refreshInterval:(pause:!t,value:0),time:(from:now-2M,to:now-1h)))
-     - [Incidents by Severity](https://app.periscopedata.com/app/gitlab/793517/Infrastructure-Incident-Data?widget=12314258&udv=0)
-     - [Corrective Actions](https://app.periscopedata.com/app/gitlab/1135629/Corrective-Actions---Infrastructure)
+     - [Corrective Actions](https://10az.online.tableau.com/t/gitlab/views/DraftInfrastructureEmbeddedDashboard/CAOverviewDashboard)
 
 #### Development Items
 

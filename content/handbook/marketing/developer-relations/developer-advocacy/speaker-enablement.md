@@ -13,7 +13,7 @@ aliases:
 
 ## Speaker Resources
 
-The Developer Advocate team is always happy to help at any stage of talk preparation, there is also a [speakers resources page](/handbook/marketing/corporate-communications/speaking-resources/) where you can find helpful guides and tips. 
+The Developer Advocate team is always happy to help at any stage of talk preparation, there is also a [speakers resources page](/handbook/marketing/corporate-communications/speaking-resources/) where you can find helpful guides and tips.
 
 ## Speakers Lean Coffee Chats
 

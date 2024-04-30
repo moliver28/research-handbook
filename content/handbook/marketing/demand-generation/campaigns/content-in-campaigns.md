@@ -78,6 +78,16 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 
 ## Landing Page: (add when live)
 
+## UTMs for [insert epic title here]:
+**Example utm structure:**
+* `utm_campaign=autosd`
+* `utm_content=awssecurityvideo`
+* `utm_asset_type=video`
+* `utm_budget=cmp`
+
+- :nerd: Read about our UTM strategy in [this handbook page](https://about.gitlab.com/handbook/marketing/utm-strategy/).
+- :link: Build a link with UTMs through this [UTM builder googlesheet](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=2043976569).
+
 ## Pathfactory link: (add when live)
 
 #### :key: Key Details
@@ -87,16 +97,16 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 * **Official Content Type:**
 * **Primary Campaign:**
 * **Primary Sales Segment:**
-   - [ ] Enterprise
-   - [ ] Mid-Market
-   - [ ] SMB
+   - [x] Enterprise
+   - [x] Mid-Market
+   - [x] SMB
    - [ ] PubSec
-         * [ ] Civilian (CIV)
-         * [ ] Department of Defense (DOD)
-         * [ ] Federal Systems Integrators (FSI)
-         * [ ] National Security Group (NSG)
-         * [ ] PUBSEC General Nurture
-         * [ ] State, Local and Education (SLED)
+     - [ ] Civilian (CIV)
+     - [ ] Department of Defense (DOD)
+     - [ ] Federal Systems Integrators (FSI)
+     - [ ] National Security Group (NSG)
+     - [ ] PUBSEC General Nurture
+     - [ ] State, Local and Education (SLED)
 * **Primary Buying Stage:**
    - [ ] Awareness
    - [ ] Consideration
@@ -137,7 +147,7 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 [Use the workback timeline calculator to assign correct due dates based off of launch date](https://docs.google.com/spreadsheets/d/1RvYLEUJvh9QZJZX1uXiKJPcOOSGd7dEeNneqyA2bt3A/edit#gid=969067029)
 
 **Required Issues:**
-* [ ] :calendar: Not an issue, but an action item for content owner: Add to [SSoT Marketing Calendar](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit#gid=571560493)
+* [ ] :calendar: Not an issue, but an action item for content owner: Add to [SSoT Marketing Calendar](https://docs.google.com/spreadsheets/d/1Tk5fVSwpsEZVFbKOtuaPAItTpAE2PjPeyZ4jKoDe42w/edit#gid=571560493)
 * [ ] Asset Copy Issue (open based on which team is content owner)
    * [Content Asset Copy Issue](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/content-marketing/-/issues/new?issuable_template=content-resource-request) - Content
    * [PMM Asset Copy Issue](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/new) - PMM (no issue template)
@@ -274,7 +284,7 @@ Adjust list as applicable for each report activation. [Use the workback timeline
 * [ ] Open issue for executive social sharing
 
 **Campaign Manager** `@DRI`
-* [ ] Add to [SSoT Marketing Calendar](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493)
+* [ ] Add to [SSoT Marketing Calendar]https://docs.google.com/spreadsheets/d/1Tk5fVSwpsEZVFbKOtuaPAItTpAE2PjPeyZ4jKoDe42w/edit#gid=571560493)
 * [ ] [Open Pathfactory upload Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-upload)
 * [ ] [Open Nurture Email Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=add-to-intelligent-email-nurture)
 * [ ] [Open Resource Page Addition Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-resource-page-addition)

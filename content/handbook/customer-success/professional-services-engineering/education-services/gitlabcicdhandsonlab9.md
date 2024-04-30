@@ -1,11 +1,9 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Security Scanning"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through using SAST to find and fix a security vulnerability in your code."
 ---
 
 > Estimate time to complete: 15 - 20 minutes
-
-> **We are transitioning to the latest version of this course.** If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab9.md).
 
 ## Objectives
 
@@ -24,8 +22,8 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
     ```python
     import subprocess
 
-    in = input("Enter your server ip: ")
-    subprocess.run(["ping", in])
+    ip = input("Enter your server ip: ")
+    subprocess.run(["ping", ip])
 
     print("Attempting to connect to the server")
     print("Application authentication was successful")
@@ -37,7 +35,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 1. Click **Commit changes**.
 
-    > Note: This file has a command injection vulnerability, which can lead to security breaches. We are going to use the SAST Scanner to detect issues in our code.
+    > This file has a command injection vulnerability, which can lead to security breaches. We are going to use the SAST Scanner to detect issues in our code.
 
 ### Task B. Creating and Running a SAST Scan
 
@@ -56,7 +54,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 1. Navigate to the pipeline that was started by this change and click the `semgrep-sast` job to ensure that it's running. 
 
-    > Note: It might take a minute or two for the `Build` stage to complete first.
+    > It might take a minute or two for the `Build` stage to complete first.
 
 1. To view the results of the SAST scan, click **Secure > Vulnerability Report** in the left-hand navigation pane. In the **Tool** drop-down list, select **SAST**. Click on any vulnerabilities to learn more about them.
 
@@ -77,7 +75,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
     ```python
     # main.py Line 4
-    subprocess.run(["ping", in])
+    subprocess.run(["ping", ip])
     ```
 
     > The problem is that these lines use user input to run a system command. In this situation, a user could craft an input that causes the application to execute an unintended command. To resolve this, you can either remove the command, or remove the user input from the command.
@@ -91,7 +89,7 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 1. In the commit field, type `Fix changes as suggested by SAST scan`, leave the **Target Branch** set to `main`, and click **Commit changes**
 
-    > Note: The SAST scan will need to run again in order to update the changes.
+    > The SAST scan will need to run again in order to update the changes.
 
 1. Once the pipeline has finished running, click **Secure > Vulnerability Report** in the left-handed navigation pane. In the **Tool** drop-down list, select **SAST**. Review to see if the security issues have been remediated.
 

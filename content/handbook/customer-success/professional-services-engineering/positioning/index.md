@@ -15,7 +15,7 @@ title: "Positioning Professional Services"
 
 Most professional service engagements happen during the onboarding, implementation, and adoption phases of the [customer journey](/handbook/customer-success/vision/).
 
-![GitLab Customer Journey](/handbook/customer-success/vision/images/customer-journey.jpeg "GitLab Customer Journey")
+![GitLab Customer Journey](https://handbook.gitlab.com/handbook/customer-success/customer-success-vision/images/customer-journey.png "GitLab Customer Journey")
 
 When opportunities are approaching closed/won and planning for these stages is occurring, its a good idea to consider bringing in professional services to help expedite the customer's transition to using gitlab to enable them to [realize value faster](/handbook/customer-success/vision/#time-to-value-kpis).
 

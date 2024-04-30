@@ -1,3 +1,4 @@
+<!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators -->
 {{ .Page.Store.Set "hastableau" true -}}
 {{- $data := slice }}
 {{- $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/performance_indicators/%s.yml" (.Get 0) }}

@@ -235,9 +235,9 @@ need to attend a customer call
 1. In Google Calendar **Other calendars > + > Subscribe to calendar**,
    start typing the name of your colleague and
    click on their auto-completed name to subscribe.
-1. In Calendly, navigate to **Account > Calendar Connections > Configuration > Check for conflicts**
+1. In Calendly, [navigate](https://calendly.com/app/personal/availability/connected_calendars) to **Account > Calendar Sync > Configuration > Check for conflicts**
    and click the **Edit** button.
-1. Select your colleague's calendar via their `…@gitlab.com` entry.
+1. Add your colleague's calendar to the availability check via their `…@gitlab.com` entry.
 1. After the call has been scheduled, remove that entry again.
 
 ## Suggestions

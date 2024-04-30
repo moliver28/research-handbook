@@ -50,6 +50,13 @@ We are the team that designs, builds and maintains the complex ecosystem of inte
 
 Workato is low code - no code integrtaion platform in which we can create automations, integrations and APIs for all the integration needs. For more please visit the platform [page](https://www.workato.com/)
 
+
+### Integration, Automation & Architecture Projects
+
+[Projects](https://docs.google.com/presentation/d/1R19SJtEEulZyU-3j1clK6sloyTg1ZdP1EgARmqqfVuE)
+- [Integration and Architecture Details](https://docs.google.com/spreadsheets/d/1mGeG2ClY8GHz2RZUpu-5FN0wUPCaw1o2bWEGtS0qLXE)
+- [RPA Automation Details](https://docs.google.com/spreadsheets/d/1kwFLeAi_5Ts6Q7rQhMVo2nUo9yI7CkwYS0iakpp5LmQ)
+
 ### Capabilities & Offerings
 
 #### System Integrations and APIs

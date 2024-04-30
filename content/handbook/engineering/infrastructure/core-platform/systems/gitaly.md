@@ -300,8 +300,8 @@ Issues with `Infradev` label are typically [Corrective Actions or other followup
 SLO tracking. They will be scheduled through either of the above paths, by EM
 and/or PM polling these dashboards:
 
-[Infradev issue details](https://app.periscopedata.com/app/gitlab/899982/InfraDev?widget=12327718&udv=0)
-[Past due Infradev issues](https://app.periscopedata.com/app/gitlab/899982/InfraDev?widget=13349849&udv=0)
+[Infradev Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftInfrastructureEmbeddedDashboard/InfradevDashboard?:iid=1)
+[Past due Infradev issues](https://10az.online.tableau.com/#/site/gitlab/views/DraftInfrastructureEmbeddedDashboard/InfrastructureEmbeddedDashboard?:iid=1)
 
 1. EM+PM: Poll the dashboards at least weekly. Triage and schedule these issues so that SLOs can be met. If needed, move the issue to the Gitaly tracker, or file a proxy issue there so that it shows up on work boards, and mark it as blocking. Drag issues to the top of the workflowready for development column.
 
@@ -350,12 +350,28 @@ after the 18th that issue will be used to discuss what was brought up.
 
 ### Useful links
 
-* [Actual pending Infradev issues](https://app.periscopedata.com/app/gitlab/899982/InfraDev?widget=12327718&udv=0) (sort by group, focus on gitaly)
-* [Out of SLO Infradev issues](https://gitlab.okta.com/app/periscopedata/exk3fzi3sc0TkcYSj357/sso/saml)
+* [Actual pending Infradev issues](https://10az.online.tableau.com/#/site/gitlab/views/DraftInfrastructureEmbeddedDashboard/InfrastructureEmbeddedDashboard?:iid=1) (sort by group, focus on gitaly)
+* [Out of SLO Infradev issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2219735/views)
 * [Error budget](https://dashboards.gitlab.net/d/stage-groups-detail-gitaly/stage-groups-gitaly-group-error-budget-detail?orgId=1&from=now-28d%2Fm&to=now)
 * [MR review workload](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitaly)
 
-{{% cross-function-dashboard filters="Gitaly" %}}
+### Dashboards
+
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="gitaly" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="gitaly" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="gitaly" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="gitaly" >}}
+{{< /tableau >}}
 
 ## Team development
 

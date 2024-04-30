@@ -3,9 +3,9 @@ title: "Team Member Relations at GitLab"
 description: "The Team Member Relations team at GitLab ensures that team members feel safe and have a point of contact for all confidential discussions."
 ---
 
-## Team Member Relations Specialist
+## Team Member Relations
 
-The team member relations specialist is responsible for facilitiating and resolving all people matter related team member issues. They will also assist in creating and informing team members of policies that are fair and consistent for all GitLab team members. As part of the people group the team member relations specialist works with both the manager and team member in an intermediary function to understand and help resolve workplace issues. The team member relations specialist can also help coach and advise managers and team members on policies and processes.
+The Team Member Relations team is responsible for facilitiating and resolving all people matter related team member issues. They will also assist in creating and informing team members of policies that are fair and consistent for all GitLab team members. As part of the People group the Team Member Relations team works with both the manager and team member in an intermediary function to understand and help resolve workplace issues. The Team Member Relations team can also help coach and advise managers and team members on policies and processes.
 
 Team member relation issues can range from simple coaching questions to serious code of conduct violations. We classify these different level of team member cases by tiers. Example of issues/cases by tier level:
 
@@ -30,11 +30,11 @@ Team member relation issues can range from simple coaching questions to serious 
 - Retaliation
 - Any Code of Conduct Violation
 
-All Tier 3 cases will be managed together with Legal and the TMR specialist.
+All Tier 3 cases will be managed together with Legal and the TMR team.
 
 ### Discussing Private Concerns
 
-Team members who would like to discuss a private matter should send an email requesting support from our Team Member Relations Specialist to teammemberrelations@gitlab.com.  Please include the following in your email:
+Team members who would like to discuss a private matter should send an email requesting support from our Team Member Relations team to teammemberrelations@gitlab.com.  Please include the following in your email:
 
  - Subject Line should be  "New Request for assistance"
  - Name of Team member requesting support (Name of the person sending the email)
@@ -46,11 +46,11 @@ Team members who would like to discuss a private matter should send an email req
  - Department
  - Brief description of type support needed. Example - I am looking for guidance for managing a team members' performance.
 
-The Team Member Relations Specialist will reach out within 24 hours from when the request was sent via email during the business week.
+The Team Member Relations team will reach out within 24 hours from when the request was sent via email during the business week.
 
 GitLab also offers a [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing) that any team member may use to document any instance of any type of workplace harassment. Simply copy the form, fill it out with your information and send it to our Team Member Relations Specialist at `teammemberrelations@gitlab.com`.
 
-Team members and the team member relations specialist should both respond to questions or queries via slack or email within 24 hours to continue making progress on the issue and get to a timely resolution. For US team members relations, GitLab has a US-based Team Member Relations Specialist. For EMEA and APAC team members relations, GitLab has an EMEA-based Team Member Relations Specialist.
+Team members and the TMR should both respond to questions or queries via slack or email within 24 hours to continue making progress on the issue and get to a timely resolution.
 
 For urgent requests that need immediate attention please ask for urgent assistance by sending a message marked URGENT to `teammemberrelations@gitlab.com` and in the #people-connect Slack channel. If you do not receive support in a timely manner, below is the escalation path:
 
@@ -59,9 +59,17 @@ For urgent requests that need immediate attention please ask for urgent assistan
 
 An urgent request would be something that needs immediate attention like team members safety or a code of conduct violation.
 
+## Raising Communication Concerns
+
+1. We ask all GitLab team members to follow our [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines).
+   - These guidelines highlight the expectation that everyone assumes positive intent, exercises kindness, and expresses your thoughts responsibly and inclusively.
+2. If there is an issue to raise regarding someone’s communication or conduct, team member’s should raise their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly.
+3. Managers can email Team Member Relations (teammemberrelations@gitlab.com) to express concerns with a team member’s communication if they believe intervention is needed.
+   - If a team member is in violation of the effective & responsible communication guidelines, the Team Member Relations team will reach out to the manager and disciplinary action could be taken.
+
 ## Team Member Relations Philosophy
 
-GitLab believes in preserving the dignity of each team member and expects everyone to treat others with fairness, respect, and transparency.  We encourage mutual responsibility for constructive work relationships and communication, information sharing, problem solving and a safe neutral processs through which differences can be resolved.  Direct and honest communication is strongly encouraged between all team members regardless of title or level and per our values we [do not pull rank]({{< ref "values#dont-pull-rank" >}}). Such communication is likely to enhance understanding, avoid misunderstandings and create rapid solutions to concerns.
+GitLab believes in preserving the dignity of each team member and expects everyone to treat others with fairness, respect, and transparency.  We encourage mutual responsibility for constructive work relationships and communication, information sharing, problem solving and a safe neutral process through which differences can be resolved.  Direct and honest communication is strongly encouraged between all team members regardless of title or level and per our values we [do not pull rank]({{< ref "values#dont-pull-rank" >}}). Such communication is likely to enhance understanding, avoid misunderstandings and create rapid solutions to concerns.
 
 We have built this philosophy to focus on these 4 pillars in line with our values:
 
@@ -77,7 +85,7 @@ We have built this philosophy to focus on these 4 pillars in line with our value
 
 ## Team Member Relations Function
 
-To support our team members, GitLab has established a [Team member relations group]({{< ref "/handbook/people-group#team-member-relations-specialist" >}}) to assist team members and their leaders with resolving work related issues.  The Team Member Relations Specialist (TMR) respects the privacy of all team members and treats discussions with the fullest degree of confidentiality possible.  We have incorporated our [Values]({{< ref "values" >}}) and the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) into our team member relations practices and philosophy.  We believe that by communicating with each other directly and transparently, we can continue to resolve any difficulties that may arise and continue to make GitLab a great place to work.
+To support our team members, GitLab has established a [Team member relations group](/handbook/people-group#team-member-relations-specialist) to assist team members and their leaders with resolving work related issues.  The Team Member Relations team (TMR) respects the privacy of all team members and treats discussions with the fullest degree of confidentiality possible.  We have incorporated our [Values]({{< ref "values" >}}) and the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) into our team member relations practices and philosophy.  We believe that by communicating with each other directly and transparently, we can continue to resolve any difficulties that may arise and continue to make GitLab a great place to work.
 
 ### For Team Members
 
@@ -89,7 +97,7 @@ The team member relations function provides all GitLab team members an avenue to
 
 ### For Managers
 
-Team member relations provides guidance to managers in their efforts to improve team member performance or to correct unacceptable personal behaviors.  Managers are responsible for setting priorities and motivating their team members.  They are also responsible for ensuring the care of their team members as well as meeting GitLab's goals.  These two things can be done simultaneously.  As managers it is considered one of your primary responsibilities to understand GitLab's [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), [Values]({{< ref "values" >}}) and [People Group]({{< ref "/handbook/people-group" >}}) policies and processes.  People managers are responsible for upholding compliance on the their teams and considering the best interest of the business.  If a manager is made aware of a situation that potentially runs afoul of the Code of Conduct, Values and People Group processes or policy they should immediately reach out to the [team member relations specialist]({{< ref "/handbook/people-group#team-member-relations-specialist" >}}).  If uncertain about a specific policy or procedure, the manager should reach out to a leader, their [aligned PBP]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}) or the Team member relation specialist for further clarification.  When in doubt, it is always best to ask.
+Team member relations provides guidance to managers in their efforts to improve team member performance or to correct unacceptable personal behaviors.  Managers are responsible for setting priorities and motivating their team members.  They are also responsible for ensuring the care of their team members as well as meeting GitLab's goals.  These two things can be done simultaneously.  As managers it is considered one of your primary responsibilities to understand GitLab's [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), [Values]({{< ref "values" >}}) and [People Group](/handbook/people-group) policies and processes.  People managers are responsible for upholding compliance on the their teams and considering the best interest of the business.  If a manager is made aware of a situation that potentially runs afoul of the Code of Conduct, Values and People Group processes or policy they should immediately reach out to the [team member relations specialist](/handbook/people-group#team-member-relations-specialist).  If uncertain about a specific policy or procedure, the manager should reach out to a leader, their [aligned PBP](/handbook/people-group#people-business-partner-alignment-to-division) or the Team member relation specialist for further clarification.  When in doubt, it is always best to ask.
 
 ## Team Member Performance Improvement Management Guiding Principles
 
@@ -133,7 +141,7 @@ For Tier 2 level concerns, the Manager should reach out and discuss with the tea
 - Harassment
 - Severe and/or pervasive language or conduct that could be perceived as discriminatory or creating a hostile work environment
 
-Since situations differ, managers should immediately reach out to a team member relations specialist for guidance before taking any action.  If unable to contact the team member relations specialist directly, please follow the [escalation path listed in the handbook]({{< ref "/handbook/people-group" >}})
+Since situations differ, managers should immediately reach out to a team member relations specialist for guidance before taking any action.  If unable to contact the team member relations specialist directly, please follow the [escalation path listed in the handbook](/handbook/people-group)
 
 Please review the [underperformance]({{< ref "underperformance" >}}) page in the handbook for further information regarding managing team member performance.
 

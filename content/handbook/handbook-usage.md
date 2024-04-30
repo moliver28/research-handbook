@@ -109,6 +109,26 @@ See the [Searching GitLab like a pro](/handbook/tools-and-tips/searching/) page 
 1. When you submit a merge request, make sure that it gets merged quickly. Making single, small changes quickly will ensure your branch doesn't fall far behind master, creating merge conflicts. Aim to make and merge your update on the same day. Mention people in the merge request or reach them via Slack. If you get a suggestion for a large improvement on top of the existing one consider doing that separately. Create an issue, get the existing MR merged, then create a new merge request.
 1. If you have to move content have a merge request that moves it and does nothing else. If you want to clean it up, summarize it, or expand on it do that after the moving MR is merged. This is much easier to review.
 1. Try to **add the why of a handbook process**, what is the business goal, what is the inspiration for this section. Adding the why makes processes easier to change in the future since you can evaluate if the why changed.
+1. When adding or changing a process in the [engineering workflow](/handbook/engineering/workflow), consider scheduling a retro `X` months out. The retro is an opportunity to [consider the effects](/handbook/handbook-usage/#considerations-when-adding-an-additional-process) of the new process and determine if it needs further iteration or can be removed.
+
+#### Considerations when adding an additional process
+
+While not a requirement, it can be useful to schedule an async retro MR/issue `X` months out after the introduction of a new process.
+
+Consider identifying an improvement target and timeframe to determine what success is. You can use the retro MR/issue to transparently communicate expectations as well to provide a means to iterate or remove the new process.
+
+The creation of the retro MR/issue is an opportunity to think through:
+
+1. What do we hope this new process accomplishes?
+1. Is there a metric we can use to measure the effect of the new process?
+1. Are there outcomes of the new process that would prompt us to roll it back?
+
+The retro itself is an opportunity to document:
+
+1. How do the participants in the process think things are going?
+1. What additional costs are associated with the new process?
+1. Were there any unforeseen side effects of the new process?
+1. Do the participants have suggestions for ways to mitigate any costs realized by the new process, or further improvements in general?
 
 ### Information architecture
 
@@ -225,13 +245,13 @@ Being a maintainer gives you access to much more than just the ability to merge.
 
 ### Granting others maintain access
 
-Do not grant people maintainer access without an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/). As a maintainer you have the ability to grant others maintainer access. Don’t do so without following the Access Request process to garner the appropriate approvals and create the necessary documentation.
+Do not grant people maintainer access without an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). As a maintainer you have the ability to grant others maintainer access. Don’t do so without following the Access Request process to garner the appropriate approvals and create the necessary documentation.
 
 ### Description Templates for Issues and Merge Requests
 
 The [description templates](https://docs.gitlab.com/ee/user/project/description_templates.html) for issues and merge requests in the various projects are respectively located in the `.gitlab/issue_templates` and `.gitlab/merge_request_templates` directories, and can be edited and changed with a new merge request.
 
-Changes to the default templates in `Default.md` require review by the [Chief of Staff Team to the CEO](/handbook/ceo/chief-of-staff-team/) or the [CEO](/handbook/ceo/). See `.gitlab/CODEOWNERS` for the current list of approvers.
+Changes to the default templates in `Default.md` require review by the [Office of the CEO](/handbook/ceo/office-of-the-ceo/) or the [CEO](/handbook/ceo/). See `.gitlab/CODEOWNERS` for the current list of approvers.
 
 ## The Internal handbook
 

@@ -109,7 +109,7 @@ Interested reviewers for the projects below should complete the listed tasks in 
 Tips:
 
 - If you'd like a dashboard limited to just reviews where you applied the `~"database::reviewed"` label,
-  reach out to the database group manager to get one. ([Example](https://app.periscopedata.com/app/gitlab/1150689/Database-Reviewers-and-Maintainers?widget=16991435&udv=0))
+  reach out to the database group manager to get one. 
 
 #### Project maintainer process for [`gitlab-components`](https://gitlab.com/components)
 
@@ -328,15 +328,15 @@ Use this lightweight template as a starting point for defining your project's ma
 
 ### Maintainer ratios
 
-We aim to keep the engineer : maintainer ratio under 6, for both frontend and backend. We track this in the [Engineer : Maintainer Ratio dashboard][dashboard]:
+We aim to keep the engineer : maintainer ratio under 6, for both frontend and backend. We track this in the Engineer : Maintainer Ratio dashboard:
 
-{{< sisense dashboard="475647" >}}
+https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1
 
 ### Maintainer Demand
 
-We can gauge demand by looking at the [Maintainership Demand dashboard](https://app.periscopedata.com/app/gitlab/1055628/Maintainership-Demand?widget=15440601&udv=1762708), which can be filtered by month, project and technology:
+We can gauge demand by looking at the Maintainership Demand dashboard, which can be filtered by month, project and technology:
 
-{{< sisense dashboard="1055628" >}}
+https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1 
 
 #### About this dashboard
 
@@ -383,9 +383,9 @@ To add a custom target to an area using the `maintainer_custom_targets` Sisense 
 
 ### Maintainer/Reviewer Availability
 
-We aim to have enough reviewers and maintainers across timezones to ensure that there are people available to review MRs in a timely manner while keeping review load at a reasonable level. We track this in the [Reviewer/Maintainer Availability and Capacity dashboard](https://app.periscopedata.com/app/gitlab/1028635/Reviewer-Maintainer-Availability-and-Capacity):
+We aim to have enough reviewers and maintainers across timezones to ensure that there are people available to review MRs in a timely manner while keeping review load at a reasonable level. We track this in the [Reviewer/Maintainer Availability and Capacity dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ReviewermaintainerAvailabilityandCapacity/Reviewermaintaineravailabilityandcapacity?:iid=1):
 
-{{< sisense dashboard="1028635" >}}
+https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views 
 
 ## Leading Organizations
 
@@ -518,8 +518,8 @@ When you are assigned to review an MR and you are not able to get to it within t
 As the author of an MR you should reassign to another reviewer or maintainer if the `Review-response` SLO has not been met and you have been unable to contact the assignee.
 
 [1:1 meetings]: /handbook/leadership/1-1/
-[dashboard]: https://app.periscopedata.com/app/gitlab/475647/Engineer-:-Maintainer-Ratio
-[ratio]: https://app.periscopedata.com/app/gitlab/655064/Merge-Requests:-MR-Count-and-Ratio-by-FE-BE-DB
+[dashboard]: https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1
+[ratio]: https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/Maintainers
 
 ## Code Owner approvals
 
@@ -532,5 +532,5 @@ CODEOWNERS @gitlab-org/development-leaders @gitlab-org/tw-leadership
 ```
 
 There are two ways to update the Code Owner(s) of the `CODEOWNERS` file:
-1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 1. Open a merge request to update the relevant lines. An existing Code Owner will have to approve the merge request. You are also encouraged to ping a security compliance team member for visibility.

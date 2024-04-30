@@ -93,11 +93,11 @@ The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](htt
 but there are some differences worth noting.
 
 A PCL is manually enforced once the following requirements are met:
-1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created. 
+1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created.
 2. An MR updating the scheduled PCLs table is approved by the SaaS Platforms Engineering Director
 3. Customer changes via Switchboard are prevented for the duration of the PCL.
 
-The following dates are currently scheduled PCLs. 
+The following dates are currently scheduled PCLs.
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
@@ -109,10 +109,10 @@ As opposed to GitLab.com [PCL](https://about.gitlab.com/handbook/engineering/inf
 
 ##### Hard PCL
 
-Hard PCLs include all code deploys and infrastructure changes, including automated maintenance in UAT, Preprod and Production environments, and customer changes via Switchboard. New customers will not be onboarded during Hard PCLs. 
+Hard PCLs include all code deploys and infrastructure changes, including automated maintenance in UAT, Preprod and Production environments, and customer changes via Switchboard. New customers will not be onboarded during Hard PCLs.
 
-In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discretion to make the decision to apply the changes necessary to mitigate or resolve the incident in order to keep service availability. 
-Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken. 
+In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discretion to make the decision to apply the changes necessary to mitigate or resolve the incident in order to keep service availability.
+Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken.
 
 Changes not associated to any incident must have an exemption approval by the GitLab Dedicated engineering Leadership.
 
@@ -139,6 +139,33 @@ Access will only be provided to:
 To gain access, please create:
 1. [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Use `GitLab Dedicated Logs (Production)` as the system.
 1. An issue in the [GitLab Dedicated tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=log_access_rotation) using the `Log rotation access` template.
+
+## Working across GitLab
+
+### Communicating with GitLab Dedicated customers
+
+If you need to urgently contact one or more GitLab Dedicated customers, engage the
+[GitLab Dedicated Communications Manager On-Call (CMOC)](/handbook/support/workflows/dedicated_cmoc/).
+
+Non-urgent communication should be handled through the customer's Customer Success Manager (CSM).
+
+### Getting product fixes into GitLab Dedicated quicker
+
+{{% alert title="Note" color="info" %}}
+
+This section should be moved into the GitLab Dedicated incident management process page when it
+becomes available.
+{{% /alert %}}
+
+Sometimes, a product fix is introduced to resolve a GitLab Dedicated incident or
+[customer escalation](#escalation-policy). There can be a significant delay between when the
+product fix is merged and when it is deployed to GitLab Dedicated environments due to our
+[upgrade policy](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#upgrades).
+
+In such cases, we should evaluate the impact of the delay and, if justified, use the
+[backport request process](/handbook/engineering/releases/backports/) to request that the product
+fix be backported to a GitLab version that can be deployed to GitLab Dedicated environments in an
+acceptable timeframe.
 
 ## How we work
 
@@ -345,8 +372,7 @@ GitLab Dedicated team respects the Company principle of [everything starting wit
 
 1. All Merge Requests (MRs) must go through the review process.
 1. It is expected that MR author assigns reviewers once the MR is ready to go.
-1. Unless otherwise explicitly noted in the MR description itself, it is expected from a first approver to also merge the MR they just approved for efficiency. Add `**This MR should be approved by all approvers, last approver should merge.**` as the first line in MR description to state the intention clearly.
-1. Resolution of an open thread may be done by the author or any reviewer, based on their good-faith understanding that the comment has been adequately addressed; an approval while leaving open threads unresolved means the author or other reviewers are expected to manage those threads to completion.
+1. Reviewers should review the change and leave comments with questions or suggestions. Please follow the [merge request reviewer guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#merge-request-reviewers) and the [resolving threads guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#resolving-threads-on-a-merge-request) documented below.
 
 The MR approval rule settings for all projects should be:
 
@@ -373,22 +399,30 @@ When a red build in the default branch is detected, the first course of action i
 
 #### Merge request reviewers
 
-Assign all developers of the [relevant Dedicated team](#gitlab-group-hierarchy) to all of the MRs that are due for review. Typically it is not necessary to assign the whole `@gitlab-dedicated` group, so choose the appropriate group such as `@gitlab-dedicated/environment-automation` or `@gitlab-dedicated/switchboard` depending on the project. As the team grows this helps with determining signal vs noise. While it is OK for only two people to get the MR to the merged state (author + 1 reviewer), assigning everybody gives more exposure to the work in progress and gives a chance for more parties to provide feedback, leading to better quality overall. If the MR sits more than 1 day without receiving meaningful comments for review, MR author is encouraged to assign a particular reviewer to the MR with the aim to speed up the review process.
+GitLab Dedicated follows the same pattern for author/reviewer assignment as the standard GitLab practice, documented in the [Code Review Guidelines documentation](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature).
+
+The process can be summarized as:
+
+1. The MR author will assign a reviewer and a maintainer to an MR that is ready for review.
+     - Check that pipelines are passing before requesting reviews.
+     - The MR author can choose who to assign for review. To spread workload and knowledge it is recommended to use the [Environment Automation Reviewer Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=environment-automation).
+     - Unless otherwise explicitly noted in the MR description itself, Maintainers are expected to also merge the MR they just approved for efficiency. Add **This MR should be approved by all approvers, last approver should merge.** as the first line in MR description to state the intention clearly.
+     - If the change is a significant one, considering mentioning the appropriate group such as `@gitlab-dedicated/environment-automation` or `@gitlab-dedicated/switchboard` in the MR description to help with knowledge sharing.
+2. Reviewers will review the MR and leave comments with questions or comments.
+    - To help us keep projects moving, please respond to review requests within one working day, and aim to complete the review within two working days.
+    - If a reviewer is unable to meet the timelines, or has too many other review requests it's ok to ask someone else to take on the review.
 
 #### Resolving threads on a merge-request
 
 As the merge request author, please don’t mark discussions resolved until the reviewer has had a chance to respond. In general, if the reviewer has not yet approved the MR, and the thread is non-trivial, don’t mark their comments as resolved, let the reviewer review your response and resolve accordingly during the next round of view. If they have approved the MR, but comments remain unresolved, it's generally fine to resolve comments before merging.
 
-#### Merge Request Review Assignees
+#### Maintainer training
 
-GitLab Dedicated follows the same pattern for author/reviewer assignment as the standard GitLab practice, documented in the [Code Review Guidelines documentation](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature).
+New Dedicated team members work with their manager to decide when to begin Maintainer training. Usually this will be around the third month in the team.
 
-This can be summarized as follows:
+A [Maintainer training issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=maintainer_training) will be created using the `maintainer_training` template and a training buddy will assigned to support the training.
 
-> - Merge request authors and DRIs stay as Assignees
-> - Authors request a review from Reviewers when they are expected to review
-> - Reviewers remove themselves after they’re done reviewing/approving
-> - The last approver stays as Reviewer upon merging
+After training is complete, the new Maintainer will be added to the Environment Automation Maintainers pool.
 
 ### Temporary workarounds
 
@@ -448,7 +482,7 @@ There are three other workflow labels of importance:
 
 #### Support labels
 
-Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance via the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index.html#gitlab-dedicated).
+Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance via the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated).
 
 | State Label | Description |
 | ----------- | ----------- |

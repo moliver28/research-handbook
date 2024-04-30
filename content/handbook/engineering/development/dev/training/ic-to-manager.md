@@ -119,8 +119,8 @@ While resources are valuable in their own right, having an experienced Manager a
 
 1. Participation is voluntary for both Managers and Aspiring Managers.
 1. Managers may directly mentor up to 4 Aspiring Managers at a time.
-1. Manager / Aspiring Manager mentorships are coordinated within the [manager_mentorship.yml](/data/manager_mentorship.yml) file.
-1. Aspiring Managers should locate a Manager that has an opening available in [manager_mentorship.yml](/data/manager_mentorship.yml) and contact them directly.
+1. Manager / Aspiring Manager mentorships are coordinated within the [manager_mentorship.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/manager_mentorship.yml) file.
+1. Aspiring Managers should locate a Manager that has an opening available in [manager_mentorship.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/manager_mentorship.yml) and contact them directly.
 1. Manager and Aspiring Managers should check in at least every 6 weeks. This could happen async or via [Coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats).
 1. Discussion topics would be completely flexible based on needs and interests.
 

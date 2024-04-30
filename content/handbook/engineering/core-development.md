@@ -94,18 +94,6 @@ The following members of other functional teams are our stable counterparts:
 
 <%= stable_counterparts(role_regexp: /[,&] Development/, direct_manager_role: 'VP of Development') %> -->
 
-## Team Composition
-
-This is the breakdown of our department by section and by stage.
-
-{{< sisense chart="8817664" dashboard="673088" >}}
-
-{{< sisense chart="8817717" dashboard="673088" >}}
-
-This is the stack-up of our engineers, by level.
-
-{{< sisense chart="8737993" dashboard="673088" >}}
-
 ## Development-Specific People Processes
 
 ### Promotion Process
@@ -192,9 +180,10 @@ Here are some curated resources to get you started:
 
 ### Cross-Functional Metrics
 
-[Link to dashboard](https://app.periscopedata.com/app/gitlab/1008238/Next-Prioritization---VP-of-Development)
+[Link to dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2203014/views)
 
-{{< sisense dashboard="1008238" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/IssueTypesDetail/OpenIssuesDashboard" >}}
+{{< /tableau >}}
 
 {{% include "includes/cross-functional-prioritization.md" %}}
 
@@ -366,8 +355,9 @@ The shared services and components below are extracted from the GitLab [product 
 | Container Registry |  | Centralized with Specific Team | @dcroft | Package |  |
 | Email - Inbound |  |  |  |  |  |
 | Email - Outbound |  |  |  |  |  |
+| Elasticsearch | | Centralized with Specific Team | @changzhengliu | Global Search | |
 | GitLab K8S Agent |  | Centralized with Specific Team | @nicholasklick | Configure |  |
-| GitLab Pages |  | Centralized with Specific Team | @johnhope | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
+| GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | GitLab Shell |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) | [Reference](/handbook/product/categories/#source-code-group-1) |
 | HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations.html) |  |
@@ -512,7 +502,8 @@ These are the stakeholders:
 | [Create:IDE](/handbook/engineering/development/dev/create/ide)                                                                         | Owns the WebIDE ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-web-ide&mode=show&hidden=reviewer))  |
 | [Editor Extensions](/handbook/engineering/development/dev/create/editor_extensions/)                                                   | Maintains the GitLab Workflow VS Code Extension ([maintainers](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitlab-vscode-extension&mode=show&hidden=reviewer)), [Jetbrains](https://gitlab.com/groups/gitlab-org/-/epics/6349), [Neovim](https://gitlab.com/groups/gitlab-org/-/epics/10739), [Visual Studio](https://gitlab.com/groups/gitlab-org/-/epics/10668) extensions and the [language server](https://gitlab.com/groups/gitlab-org/-/epics/2431). Also contributes with UX improvements for Code Suggestions within GitLab Workflow. |
 | [Enablement:Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/) (`@mkaeppler`, `@nmilojevic1`) | AI-Assissted for Self-Managed |
-| [AI Framework](/handbook/engineering/development/data-science/ai-framework/)                                                           | GitLab Chat / Abstraction Layer and GitLab Chat for VSCode and WebIDE|
+| [AI Framework](/handbook/engineering/development/data-science/ai-powered/ai-framework/)                                                           | Abstraction Layer for GitLab Chat, Code Suggestions and other AI capabilities |
+| [Duo Chat](/handbook/engineering/development/data-science/ai-powered/duo-chat/)                                                           | GitLab Chat for VSCode and WebIDE|
 | [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/)                                                    | Code Suggestions |
 | [AI Model Validation Group](/handbook/engineering/development/data-science/ai-assisted/)                                               | Suggested Reviewer, Code Suggestions AI Gateway functionality, Evaluating and tuning ML Models |
 | [Infrastructure](/handbook/engineering/infrastructure/)                                                                                | Code Suggestions AI Gateway scalability |

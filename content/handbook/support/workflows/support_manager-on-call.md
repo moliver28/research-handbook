@@ -75,7 +75,7 @@ You can use [Support Team Skills by Subject](https://gitlab-com.gitlab.io/suppor
 
 A very high percentage of starred tickets involve licenses and renewals. For guidance in handling these, please see the [Workflow for handling Plan/License Ticket Attention Requests](/handbook/support/license-and-renewals/workflows/managers_working_with_extensions).
 
-**NOTE:** GitLab team members may attempt to draw attention to tickets in regular support Slack channels (`#support_self-managed`, `#support_gitlab-com`, `#spt_managers`). Redirect the team member by responding to their post with **only the `:escalate:` emoji**, which will send an automated and anonymous reply describing the correct process.
+**NOTE:** GitLab team members may attempt to draw attention to tickets in regular support Slack channels (`#support_self-managed`, `#support_gitlab-com`, `#support_leadership`). Redirect the team member by responding to their post with **only the `:escalate:` emoji**, which will send an automated and anonymous reply describing the correct process.
 
 **NOTE:** There are two other distinct situations, not discussed on this page:
 
@@ -154,7 +154,7 @@ When GitLab experiences a [security incident](/handbook/security/security-operat
 If you will be unable to handle on-call for a few hours on a weekday due to being engaged in a customer call or otherwise, arrange for another manager to handle on-call responsibilities temporarily:
 
 1. Ask a specific manager to cover; if that doesn't work,
-1. Post a request in `#spt_managers` for any manager to volunteer to cover.
+1. Post a request in `#support_leadership` for any manager to volunteer to cover.
 
 To swap your on-call duty with someone, follow the steps listed under [Swapping on-call duty](/handbook/support/on-call/#swapping-on-call-duty).
 

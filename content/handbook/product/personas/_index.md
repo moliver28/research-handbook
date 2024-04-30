@@ -71,8 +71,10 @@ We describe the following personas in terms of the jobs they do, their motivatio
   1. [Isaac, Infrastructure Security Engineer](/handbook/product/personas/#isaac-infrastructure-security-engineer)
   1. [Alex, Security Operations Engineer](/handbook/product/personas/#alex-security-operations-engineer)
   1. [Cameron, Compliance Manager](/handbook/product/personas/#cameron-compliance-manager)
+  1. [Daphne, Data Scientist](/handbook/product/personas/#daphne-data-scientist)
+  1. [Mia, ML Engineer](/handbook/product/personas/#mia-ml-engineer)
 
-#### Personas across stages
+#### User Personas across stages
 
 Our personas span across stages (see table below for a depiction of how our user personas map across stages). Understanding how our personas map across stages helps us understand how to collaborate cross-functionally to support their needs.
 
@@ -81,6 +83,14 @@ Our personas span across stages (see table below for a depiction of how our user
 </figure>
 
 *Note: To change the table above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1IVDu5RIlywcRCqpkXzdSG7lW8dNiE_XHq54GdI7lkfk/edit?usp=sharing).*
+
+#### User Personas across Use Cases
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQU1Lm4fyZvEk4TrkQ-kNDZWA5MVb9fNuqaDPzXaZjCE3PYL8BQ0nSD5Hfw34fSNq_of3E-U3G6fyRL/embed?start=false&loop=false&delayms=15000" frameborder="0" width="1220" height="620" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+
+*Note: To change the tables above, team members can edit the [Google Slide deck](https://docs.google.com/presentation/d/1iit_S9U81iVdLuIc9hgrG68ewlr5U0bSGQLsbQNGMOc/edit?usp=sharing).*
 
 #### Parker (Product Manager)
 
@@ -573,6 +583,65 @@ I’m in charge of ensuring that our organization’s use of third-party softwar
 - It’s challenging to compile data in a format that’s efficient and valuable to my internal audit or compliance team.
 - It’s challenging to build custom tooling and services every time we identify a gap in the compliance posture of our tools.
 
+#### Daphne (Data Scientist)
+
+- **Alternative Job Titles:** Data Analyst, Machine Learning Engineer
+
+##### Job Summary
+
+I collect, preprocess, and analyze data to derive insights and build predictive models. 
+
+##### Jobs to be done
+
+- Collect and gather data from multiple sources.
+- Clean, transform, and preprocess data for analysis.
+- Explore and analyze data to derive insights.
+- Build predictive models to solve business problems or make data-driven predictions.
+- Update models with new training data to maintain their relevance.
+- Collaborate with ML Engineers to deploy models and maintain data pipelines.
+
+##### Motivations
+
+- As a data scientist, my focus is on analyzing data and building effective models, rather than software development.
+- I aim to create models that provide practical solutions and drive business value.
+
+##### Frustrations
+
+- Data access
+- Lack of computational resources
+- Lack of data and/or ML/AI literacy in the organization
+- Lack of streamlined processes and automations 
+- Lack of data governance and ambiguity around policies, data ownership and data stewardship.
+
+#### Mia (ML Engineer)
+
+- **Alternative Job Titles:** MLOps Engineer, ModelOps Engineer
+
+##### Job Summary
+
+I am responsible for building, optimizing, and deploying machine learning models into production environments. 
+
+##### Jobs to be done
+
+- Build, optimize and experiment with machine learning models.
+- Deploy models into production environments and integrate with other software systems.
+- Monitor deployed models, detect performance issues and drift. Retrain and update models as needed.
+- Optimize ML systems for scalability, performance, and efficiency.
+- Develop and maintain data pipelines and infrastructure to support end-to-end model and machine learning lifecycles.
+- Work closely with data scientist, software engineers and other stakeholders to deliver ML solutions.
+
+##### Motivations
+
+- Build scalable, operatable ML systems.
+- Turn data insights into products.
+
+##### Frustrations
+
+- Lack of automation and reproducibility
+- Limited compute resources
+- Lack of Expertise and Knowledge Sharing
+- Lack of organizational buy-in to adopt MLOps and ModelOps
+
 ### Internal personas
 
 Internal personas reflect the workflow, needs, and challenges faced by GitLab team members. These personas support and influence the work of GitLab groups that serve internal use cases.
@@ -623,3 +692,4 @@ My goal is to deeply understand the lifecycle of data from various sources and m
 - It can be difficult to know exactly how to approach analysis, when my colleagues are not clear about the questions they have and why they want to explore certain aspects of the data.
 - It’s hard to trust the integrity of data, when inconsistent tracking results in missing context for key events.
 - It’s difficult to answer big picture questions about feature usage and user retention, when feature parameters and usage criteria aren’t completely defined.
+

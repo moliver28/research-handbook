@@ -3,6 +3,21 @@
     [ "markdownlint-cli2-formatter-codequality" ],
     [ "markdownlint-cli2-formatter-pretty" ]
   ],
+  "config": {
+    "default": true,
+    "blanks-around-lists": false,
+    "heading-increment": false,
+    "line-length": false,
+    "no-bare-urls": false,
+    "no-duplicate-heading": { "siblings_only": true, "allow_different_nesting": true },
+    "no-emphasis-as-heading": false,
+    "no-inline-html": false,
+    "no-multiple-blanks": false,
+    "no-trailing-punctuation": false,
+    "table-column-count": false,
+    "table-pipe-style": false,
+    "ul-indent": false
+  },
   "fix": false,
   "ignores": [
     "content/handbook/markdown-guide/**/*.md",

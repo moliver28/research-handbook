@@ -67,7 +67,7 @@ Follow these steps to obtain legal approval and enter into a CLA on behalf of Gi
 
 Contributions to a third-party project on behalf of GitLab should be made using your @gitlab.com email address. We are continuing to develop our policy and workflow around CLAs on behalf of GitLab contributors. [See related issue here](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/general/-/issues/238). For any questions in the meantime, please post to the [#legal](https://gitlab.slack.com/app_redirect?channel=C78E74A6L) Slack channel.
 
-Alternatively, if looking for information on contributing to GitLab see [here](/community/contribute/dco-cla/).
+Alternatively, if looking for information on contributing to GitLab see [here](https://about.gitlab.com/community/contribute/dco-cla/).
 
 ## GPL Cooperation Commitment
 

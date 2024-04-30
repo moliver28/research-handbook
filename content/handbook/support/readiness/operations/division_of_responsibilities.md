@@ -44,7 +44,7 @@ The current division of responsibilities is:
 |                     | [Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                                             | @jcolyer         | @lyle            |
 | Slack               | [SGG Slackbot](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot)                                                         | @avilla4         | @jcolyer         |
 |                     | [Workflows](https://gitlab.com/gitlab-com/support/support-ops/other-software/slack-workflows)                                                         | @jcolyer         | @nabeel.bilgrami |
-| Status.io           | [Provisioning]((https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/))                                                           | @jcolyer         | @lyle            |
+| Status.io           | [Provisioning](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/)                                                           | @jcolyer         | @lyle            |
 | Support Ops Project | [Issues](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/)                                                                      | Everyone         | Everyone         |
 | Ticket work         |                                                                                                                                                       | Everyone         | Everyone         |
 | Zapier              | Support Ops Zap management                                                                                                                            | @jcolyer         | @secole          |
@@ -56,7 +56,6 @@ The current division of responsibilities is:
 |                     | [Forms and Fields](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/ticket-forms-and-fields)                                          | @jcolyer         | @nabeel.bilgrami |
 |                     | [Explore](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/explore)                                                                   | @nabeel.bilgrami | @avilla4         |
 |                     | [Macros](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros)                                                                     | Everyone         | Everyone         |
-|                     | [Organizations](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations)                                                       | @dtragjasi       | @avilla4         |
 |                     | [Priority Prospects](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)                                              | @jcolyer         | @secole          |
 |                     | Procurement                                                                                                                                           | @jcolyer         | @lyle            |
 |                     | [Salesforce Cases](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/salesforce-cases)                                                 | @jcolyer         | @nabeel.bilgrami |

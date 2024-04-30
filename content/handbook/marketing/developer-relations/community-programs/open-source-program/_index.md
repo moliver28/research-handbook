@@ -51,16 +51,16 @@ To qualify for the program, every project in an applicant's namespace must carry
 
 We make the following exceptions to our eligibility criteria:
 
-**Federal Exception Policy**  
+**Federal Exception Policy**
 Unfortunately, we are not able to accept all open source projects that are affiliated with the US Federal government.
 Projects that are affiliated must work with a Sales representative to see if they qualify.
 
-**Private Project Exceptions**  
+**Private Project Exceptions**
 In some cases, we allow program members to host a small number of private projects if those projects contain sensitive data.
 Members should send an email to `opensource@gitlab.com` in order to discuss this exemption.
 Program members must obtain written permission from the GitLab Open Source Program team in order to use their licenses outside of program requirements.
 
-**Strategic Qualification Exceptions**  
+**Strategic Qualification Exceptions**
 We may make strategic exceptions to our program requirements.
 A GitLab Sales team member must make this request on behalf of an open source project.
 To request an execption, [create an issue in the GitLab for Open Source Program project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/gitlab-for-open-source/-/issues/new?issuable_template=program-qualification-exception-request) using the `program-qualification-exception-request` template.
@@ -139,7 +139,7 @@ When seeking to edit the GitLab for Open Source application page, find the appro
 #### Managing the program support queue
 
 Members of the [Community Programs team](/handbook/marketing/developer-relations/community-programs/) use GitLab Service Desk to manage program members' support requests.
-Because these requests often contain sensitive data and personally identifying information, we file them as issues in [a private project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support). 
+Because these requests often contain sensitive data and personally identifying information, we file them as issues in [a private project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/open-source-program-support).
 
 * When a new request arrives, Service Desk will label the issue as `OS Program Support::Intake`.
 * When the ticket is under active review and remediation with a team member, that team member should assign it to themselves and add the `OS Program Support::Open` label.
@@ -232,9 +232,9 @@ Partners should use this template to format their requests:
 ```
 Subject: Open Source Partner (Application/Renewal)
 Subscription Term: 36
-Number of seats you are requesting: 
-The license type to be issued (Self-Managed or SaaS): 
-List any change of ownership to the account: 
+Number of seats you are requesting:
+The license type to be issued (Self-Managed or SaaS):
+List any change of ownership to the account:
 (If account ownership details change, please send the new account holder's name, email address, and contact's mailing address)
 ```
 
@@ -310,7 +310,7 @@ Participating in consortia enhances GitLab's brand—and helps align GitLab's en
 
 #### How does GitLab participate in consortium activities?
 
-While select consortium memberships fall within the purview (and budget) of GitLab's open source program, the [Developer Advocacy team](/handbook/marketing/developer-relations/developer-evangelism/) focuses on consortium marketing, working to integrate GitLab's overall community message and technical perspective into the most appropriate and effective industry conversations.
+While select consortium memberships fall within the purview (and budget) of GitLab's open source program, the [Developer Advocacy team](/handbook/marketing/developer-relations/developer-advocacy/) focuses on consortium marketing, working to integrate GitLab's overall community message and technical perspective into the most appropriate and effective industry conversations.
 
 #### How can I recommend GitLab get involved in a consortium?
 
@@ -346,12 +346,12 @@ Note that because this project contains sensitive data and personally identifyin
 
 #### Elections for Board of Directors opportunities
 
-Some of the consortia in which we participate allow members to run for their respective Boards of Directors. 
+Some of the consortia in which we participate allow members to run for their respective Boards of Directors.
 Anyone interested in becoming more involved in any of the consortia GitLab supports should visit the `Consortium Memberships` [project](https://gitlab.com/gitlab-com/marketing/community-relations/opensource-program/consortium-memberships) and open an issue.
 
 Review the information below if you're thinking of seeking nomination for (or election to) consortium positions.
 
-**Internal nominations**  
+**Internal nominations**
 The Developer Relations team tracks consortium board elections closely.
 In the event that an election opportunity arises, the team will create a confidential issue in the `Consortium Memberships` [project](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/consortium-memberships) to discuss it.
 The team will determine which GitLab team member(s) could serve effectively in the elected position.
@@ -365,13 +365,13 @@ The team will connect individually with the top candidate it feels would best su
 Candidates should consider the required time investment and their capacity for attending board meetings and representing GitLab at consortium events.
 Should the candidate wish to serve, the team will confirm the selection with the marketing organization leadership, then work with the nominee to prepare all requisite paperwork and craft a nomination statement.
 The team maintains a list of [candidacy statements](https://gitlab.com/gitlab-com/marketing/developer-relations/open-source-program/consortium-memberships/-/blob/master/resources/sample-election-candidate-statements.md) for reference and aid in this process.
-Should the candidate defer due to time or other constraints, the team will connect with the next person on the priority list given the above criteria. 
+Should the candidate defer due to time or other constraints, the team will connect with the next person on the priority list given the above criteria.
 
-**Campaigning**  
+**Campaigning**
 Once GitLab candidates are nominated, the Developer Relations team can help them campaign for their positions.
 We'll make other GitLab team members aware of the election and equip them to assist your campaign, too (e.g., by announcing the campaign on the `#whats-happening-at-gitlab` Slack channel).
 
-**Promoting**  
+**Promoting**
 The social media team is able to promote elections notification news.
 They simply need a place to point people, preferably an updated webpage that lists the board of directors or a social media post from the organization that mentions the election results.
 

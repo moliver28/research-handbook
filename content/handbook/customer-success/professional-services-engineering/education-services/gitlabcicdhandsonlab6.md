@@ -1,13 +1,12 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Job Policy Patterns"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through working with CI/CD jobs with the rules keyword."
 ---
 
 
 
 > Estimate time to complete: 25 - 30 minutes
 
-> **We are transitioning to the latest version of this course.** If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab6.md).
 
 ## Objectives
 
@@ -60,7 +59,7 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
       script:
         - echo "Deploy to a production environment"
       rules:
-        - if: '$CI_COMMIT_REF_NAME != "main" && $CI_COMMIT_TAG'
+        - if: $CI_COMMIT_TAG =~ /^v.*/
           when: manual
       environment:
         name: production
@@ -82,7 +81,7 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
 1. In full, you will have the following `.gitlab-ci.yml` file upon completion:
 
     ```yml
-    stages:
+   stages:
       - test
       - build
       - review
@@ -97,7 +96,7 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
       stage: build
       script:
         - echo "I am a build image!"
-
+        
     deploy review:
       stage: review
       script:
@@ -116,10 +115,11 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
       script:
         - echo "Deploy to a production environment"
       rules:
-        - if: '$CI_COMMIT_REF_NAME != "main" && $CI_COMMIT_TAG'
+        - if: '$CI_COMMIT_TAG' =~ /^v.*/
           when: manual
       environment:
         name: production
+
 
     deploy staging:
       stage: deploy
@@ -139,7 +139,7 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
 
 1. Click the widgets to see what environment the pipeline is deploying the code to. In the left sidebar, click **Operate > Environments** to see the environments that have been created. 
 
-    > Note: You will see that `deploy staging` is the only one of the three jobs that executed, based on the rules that were defined for each job.
+    > You will see that `deploy staging` is the only one of the three jobs that executed, based on the rules that were defined for each job.
 
 1. **Optional:** Experiment with triggering pipelines using different branches and tags. Can you get different pipeline runs to execute the **deploy release**, **deploy review**, and **deploy staging** jobs?
 
@@ -149,9 +149,9 @@ Job Policy patterns allow the pipeline to control when and if jobs run using the
 
 ### Task B1: Running the `deploy review` Job:
 
-1. Review the rules specified in the deploy review's `rules` section. It will only run when A) The branch name (represented by `$COMMIT_REF_NAME`) is not equal to `main`, and B) there is no tag on the branch (represented by `$COMMIT_REF_TAG`). 
+1. Review the rules specified in the deploy review's `rules` section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is not equal to `main`, and B) there is no tag on the branch (represented by `$CI_COMMIT_TAG`). 
 
-    > Note: a variable used with an if keyword on its own is checking if said variable has any value associated with it. If it has any value, regardless of what that value is, the statement is true. This includes values that would be considered false in other programming languages, such as `False`. If there is no value, the statement is false. A variable with whitespace as its value is considered false as well.
+    > A variable used with an if keyword on its own is checking if said variable has any value associated with it. If it has any value, regardless of what that value is, the statement is true. This includes values that would be considered false in other programming languages, such as `False`. If there is no value, the statement is false. A variable with whitespace as its value is considered false as well.
 
 1. Create a new branch by clicking on `Code > Branches`.
 
@@ -171,15 +171,15 @@ Your `deploy review` job should be the only job that should be running.
 
 ### Task B2: Running the `deploy release` Job
 
-1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy release `rules` section. It will only run when A) The branch name (represented by `$COMMIT_REF_NAME`) is not equal to `main`, and B) there is a tag on the branch (represented by `$COMMIT_REF_TAG`)
+1. Open your .gitlab-ci.yml file and review the rules specified in the deploy release rules section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is not equal to main, and B) there is a tag on the branch (represented by `$CI_COMMIT_TAG`)
 
-1. We will need to make a tag for this job to run. To make a tag, click on **Code > Tags**.
+1. We will need to make a tag for this job to run. To make a tag, click on **Code > Tags.**
 
 1. Click on the **New tag** button.
 
-1. Type in `1.0` into the **Tag name** section.
+1. Type in `v1.0` into the Tag name section.
 
-1. Change the **Create from** option to display **Dev** instead.
+1. Change the **Create from** option to display Dev instead.
 
 1. Click the **Create tag** button.
 
@@ -187,15 +187,17 @@ Your `deploy review` job should be the only job that should be running.
 
 1. Click on the **Run Pipeline** button.
 
-1. Under **Run for branch name or tag**, make sure **Dev** is selected.
+1. Under Run for branch name or tag, make sure **Dev** is selected.
 
 1. Click on the **Run Pipeline** button.
 
-1. Your `deploy release` job should be the only job available. Since the job has been set to `manual`, it will not run until you explicitly start it. Click on the arrow next to the job to start the job.
+1. Your deploy release job should be the only job available. Since the job has been set to manual, it will not run until you explicitly start it. Click on the arrow next to the job to start the job.
+
+
 
 ### Task B3: Running the `deploy staging` job
 
-1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy release `rules` section. It will only run when A) The branch name (represented by `$COMMIT_REF_NAME`) is equal to `main`.
+1. Open your `.gitlab-ci.yml` file and review the rules specified in the deploy release `rules` section. It will only run when A) The branch name (represented by `$CI_COMMIT_REF_NAME`) is equal to `main`.
 
 1. In the top left corner, click on the button that says **Dev**, and set the option to be **main** instead.
 

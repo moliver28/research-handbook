@@ -156,7 +156,7 @@ Newsletter requests should be submitted no less than 5 business days before the 
 
 The community newsletter is managed by the [Developer Relations] team, dedicated to sharing relevant developer content, highlighting contribution opportunities, and updating community members on upcoming events. We aim to keep our contributors involved and connected with the wider community. This newsletter will not be used to drive or generate leads.
 
-To submit to the newsletter, please follow the [handbook instructions](/handbook/marketing/developer-relations/developer-evangelism/community-newsletter/#submissions).
+To submit to the newsletter, please follow the [handbook instructions](/handbook/marketing/developer-relations/developer-advocacy/community-newsletter/#submissions).
 
 ### Sponsorship
 
@@ -181,7 +181,7 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 - `cmo-staff`: (Private) CMO's private staff discussion room
 - `#content`: Questions about blog posts, webcasts, the newsletter or other [marketing content][Content]? This is the place to ask.
 - `#developer-relations`: A channel for the [developer relations](/handbook/marketing/developer-relations/) team to collaborate.
-- `#dev-evangelism-and-technical-marketing`: Discuss the latest tech in DevSecOps and Cloud-Native with the [Developer Advocate](/handbook/marketing/developer-relations/developer-evangelism/) tea. You can request speakers and ask for technical content collaboration and guidance.
+- `#dev-advocacy-team`: Discuss the latest tech in DevSecOps and Cloud-Native with the [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/) tea. You can request speakers and ask for technical content collaboration and guidance.
 - `#digital-experience-team`: Channel for connecting with the [website development and design teams][Digital experience]
 - `#digital-marketing`: Channel for all advertising, website analytic and general digital programs.
 - `#external-comms`: To collaborate with our external PR (public relations) agency, discuss GitLab media mentions, and evaluate speaking/podcasting/commentary opportunities.
@@ -200,7 +200,7 @@ We use Slack internally as a communication tool. The Marketing channels are as f
 
 Automated channels with feeds from different sources:
 
-- `#developer-evangelism-updates`: [Zapier workflows](/handbook/marketing/developer-relations/workflows-tools/zapier/) automatically post GitLab blog posts, Developer Relations social shares, competitive insights, Common Room updates, etc.
+- `#developer-advocacy-updates`: [Zapier workflows](/handbook/marketing/developer-relations/workflows-tools/zapier/) automatically post GitLab blog posts, Developer Relations social shares, competitive insights, Common Room updates, etc.
 - `hn-mentions`: Hacker News post feed, automated with [Zapier](/handbook/marketing/developer-relations/workflows-tools/zapier/) and maintained by the Developer Relations team.
 - `social_media_posts`: Automated social media post feed.
 
@@ -399,7 +399,7 @@ This front page of the Marketing Handbook is intended to serve as the external f
 [Education Program]: /handbook/marketing/developer-relations/community-programs/education-program/
 [Open Source Program]: /handbook/marketing/developer-relations/community-programs/opensource-program/
 [Startup Program]: /handbook/marketing/developer-relations/community-programs/startups-program/
-[Developer Advocacy]: /handbook/marketing/developer-relations/developer-evangelism/
+[Developer Advocacy]: /handbook/marketing/developer-relations/developer-advocacy/
 [Inbound Marketing]: /handbook/marketing/inbound-marketing/
 [Field Marketing]: /handbook/marketing/field-marketing/
 [Account Based Marketing]: /handbook/marketing/account-based-marketing/

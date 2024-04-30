@@ -4,19 +4,19 @@ title: "The GitLab Content Style Guide"
 twitter_image: '/images/tweets/handbook-marketing.png'
 ---
 
-The GitLab content style guide is for everyone who creates content on behalf of GitLab. It governs the way we write — including our voice, tone, vocabulary, grammar, punctuation, and formatting — and ensures consistency across all of our content. 
+The GitLab content style guide is for everyone who creates content on behalf of GitLab. It governs the way we write — including our voice, tone, vocabulary, grammar, punctuation, and formatting — and ensures consistency across all of our content.
 
 ## Brand voice
 
-GitLab’s brand voice represents and expresses who we are as a brand. It is a core part of our brand identity, informed by our brand values. Our brand voice should come through clearly and consistently in all of our communications. 
+GitLab’s brand voice represents and expresses who we are as a brand. It is a core part of our brand identity, informed by our brand values. Our brand voice should come through clearly and consistently in all of our communications.
 
 Maintaining a consistent brand voice helps us:
-1. Increase awareness, recognition, and trust in our brand 
+1. Increase awareness, recognition, and trust in our brand
 1. Communicate our unique value
 1. Differentiate from our competitors
 1. Express our personality
 
-_____ 
+_____
 
 Our brand voice comprises the following personality traits:
 
@@ -34,7 +34,7 @@ We are thoughtful, collaborative, and considerate, as well as approachable and i
 
 **3. Intentional**
 
-We are purposeful, direct, and transparent. We communicate with clarity and focus to create a reliable experience for our customers. 
+We are purposeful, direct, and transparent. We communicate with clarity and focus to create a reliable experience for our customers.
 
 > _Example: Our monthly release post_
 
@@ -75,14 +75,14 @@ These guidelines will help you incorporate the GitLab brand voice into your writ
 **Tips for creating _empathetic_ content:**
 
 - Meet readers where they are — don't assume they know the technology or topics you're covering.
-- Explain but don't patronize. 
+- Explain but don't patronize.
 - Be [inclusive](https://handbook.gitlab.com/handbook/marketing/blog/#diversity-inclusion-and-belonging-dib-checklist-for-blog-writers) in your writing.
 
 
 **Examples:**
 
 > - Blog: [Quickstart guide for GitLab Remote Development workspaces](https://about.gitlab.com/blog/2023/06/26/quick-start-guide-for-gitlab-workspaces/)
-> - Blog: [The ultimate guide to SBoMs](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/) 
+> - Blog: [The ultimate guide to SBoMs](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/)
 > - Handbook: [CEO handbook page](https://handbook.gitlab.com/handbook/ceo/)
 > - Handbook: [Communication handbook page](https://handbook.gitlab.com/handbook/communication/)
 > - Handbook: [Values handbook page](https://handbook.gitlab.com/handbook/values/)
@@ -104,7 +104,7 @@ These guidelines will help you incorporate the GitLab brand voice into your writ
 **Examples:**
 
 > - Blog: [New pricing for GitLab Premium](https://about.gitlab.com/blog/2023/03/02/gitlab-premium-update/)
-> - Blog: [Upcoming changes to user limits on Free tier of GitLab SaaS](https://about.gitlab.com/blog/2022/03/24/efficient-free-tier/)
+> - Blog: [Upcoming changes to user limits on Free tier of GitLab.com](https://about.gitlab.com/blog/2022/03/24/efficient-free-tier/)
 > - Blog: [GitLab’s first ESG and DIB reports: Here’s what to know](https://about.gitlab.com/blog/2023/07/26/gitlab-first-esg-and-dib-reports/)
 > - Website: [GitLab Duo solution page](https://about.gitlab.com/gitlab-duo/)
 
@@ -122,7 +122,7 @@ If you only use an acronym or initialism once in a piece of content, you probabl
 Only capitalize the words that make up an acronym or initialism if it’s a proper noun.
 
 > ✅ _Dynamic application security testing (DAST)_ examines applications for vulnerabilities like these in deployed environments.
-> 
+>
 > ✅ _GitLab Dynamic Application Security Testing (DAST)_ includes the following analyzers.
 
 
@@ -131,7 +131,7 @@ We favor contractions (_can’t, didn’t, it’s, we’re_) to sound more human
 
 #### Lists
 If a numbered or bulleted list reads as a continuous sentence, don’t capitalize the first letter of each item in the list, and don’t include punctuation at the end of each item.
-	
+
 > ✅ GitLab Duo is unique because we:
 > * do not use your content to train models
 > * are transparent about all AI models used by GitLab Duo
@@ -139,7 +139,7 @@ If a numbered or bulleted list reads as a continuous sentence, don’t capitaliz
 
 
 If each item in the list reads as its own sentence, capitalize and punctuate as you would free-standing sentences.
-	
+
 > ✅ Here are three reasons GitLab Duo is unique:
 > * GitLab Duo features do not use your content to train models.
 > * Our publicly available documentation describes all AI models used by GitLab Duo.
@@ -150,7 +150,7 @@ If each item in the list reads as its own sentence, capitalize and punctuate as 
 Unless referring to someone in particular, use gender-neutral pronouns (_they, them_).
 
 > ✅ With GitLab, a developer can integrate security into _their_ workflow.
-> 
+>
 > ❌ With GitLab, a developer can integrate security into _his/her_ workflow.
 
 
@@ -162,9 +162,9 @@ Include periods and commas inside ending quotation marks.
 Any punctuation that is part of the quotation should be included inside of the quotation marks. Any punctuation that is not part of the quotation (aside from periods and commas, as noted above) should be outside of the quotation marks.
 
 > ✅ Recently, an article was published stating, “Software is eating the world.”
-> 
+>
 > ✅ What do you think of the claim, “Software is eating the world”?
-> 
+>
 > ✅ “Do you agree that software is eating the world?” wrote the author.
 
 
@@ -181,7 +181,7 @@ We use American English by default on the GitLab blog and marketing site. Please
 Generally, use [active voice](https://www.grammarly.com/blog/active-vs-passive-voice/) where possible. Using active voice ensures that your sentence includes a clear subject and verb.
 
 > ✅ The GitLab community submitted 1 million merge requests in March 2019
-> 
+>
 > ❌ One million merge requests were submitted in March 2019.
 
 
@@ -197,23 +197,19 @@ Ensure you style brand names according to the company’s brand guidelines.
 If the word the forms part of a brand or publication's name, capitalize it. Omit _The_ if including it would make the sentence awkward.
 
 > ✅ We spoke to a reporter from _The Wall Street Journal_.
-> 
+>
 > ✅ We spoke to a _Wall Street Journal_ reporter.
 
 
 #### GitLab feature names
-All GitLab feature names are capitalized. If referring to a feature as a general concept, use lower case.
-
-> ✅ _GitLab Issue Boards_ are a powerful project management and collaboration tool.
-> 
-> ✅ The editorial team uses _issues_ to track the progress of blog posts.
+Generally, GitLab feature names are lowercase, but there are exceptions. Refer to the [recommended word list in the documentation](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html) if you're unsure.
 
 
 #### GitLab functions, departments, and teams
 Capitalize the name of the element, but not the word after (_team, department_, etc.).
 
 > ✅ Engineering team, Security department
-> 
+>
 > ❌ Engineering Team, security department
 
 
@@ -221,14 +217,14 @@ Capitalize the name of the element, but not the word after (_team, department_, 
 Use lowercase for job titles in sentences, regardless of whether they appear before or after a person's name.
 
 > ✅ John Smith, director of engineering, led the project.
-> 
+>
 > ❌ John Smith, Director of Engineering, led the project.
 
 
 Capitalize the title when the person’s name and title appear as a standalone (such as in the lower third of a video, a nametag, or attribution on a pull quote).
 
 > ✅ John Smith, Director of Engineering, XYZ Corporation
-> 
+>
 > ❌ John Smith, director of engineering, XYZ Corporation
 
 
@@ -236,7 +232,7 @@ Capitalize the title when the person’s name and title appear as a standalone (
 Generally, use sentence case (capitalize only the first word and any proper nouns) for all headlines, titles, and subheads. There may be exceptions where title case is preferred from a design standpoint.
 
 > ✅ Remediating vulnerabilities with GitLab's security insights and AI
-> 
+>
 > ❌ Remediating Vulnerabilities with GitLab's Security Insights and AI
 
 
@@ -246,9 +242,9 @@ Generally, use sentence case (capitalize only the first word and any proper noun
 For external-facing content, spell out the month and use a comma before the year. If the sentence continues after the year, also include a comma after the year. When you are only stating the month and the year, you don’t need a comma after the month.
 
 > ✅ Release date: November 16, 2023
-> 
+>
 > ✅ On November 16, 2023, we released GitLab 16.6.
-> 
+>
 > ✅ We released Gitlab 16.6 in November 2023.
 
 
@@ -276,17 +272,17 @@ Ampersands may be used sparingly where character counts are very tight, such as 
 If a colon is used to introduce a complete sentence (including a question), capitalize the first word after the colon.
 
 > ✅ AI isn’t just another fad: It’s seeing real adoption among practitioners.
-> 
+>
 > ❌ AI isn’t just another fad: it’s seeing real adoption among practitioners.
 
 
 > ✅ We aimed to explore several topics: Where are things improving, and where are teams still running into roadblocks?
-> 
+>
 > ❌ We aimed to explore several topics: where are things improving, and where are teams still running into roadblocks?
 
 
 > ✅ One thing stood out in the survey responses: the importance of security.
-> 
+>
 > ❌ One thing stood out in the survey responses: The importance of security.
 
 
@@ -296,7 +292,7 @@ Always capitalize the first word after a colon in a title, even if it’s not a 
 Our default is to use serial (Oxford) commas. In content geared towards a specific region, feel free to use what is most common in that region.
 
 > ✅ AI can help DevSecOps teams write code, resolve security vulnerabilities, accelerate code review, and improve collaboration.
-> 
+>
 > ❌ AI can help DevSecOps teams write code, resolve security vulnerabilities, accelerate code review and improve collaboration.
 
 
@@ -341,7 +337,7 @@ Numbers with four or more digits should include a comma (_2,000; 100,000_). If y
 Generally, avoid abbreviations for large numbers, such as _k_ (meaning “thousand”) and _M_ or _mil_. Use these abbreviations only where space is very limited, such as a callout box with a tight character limit.
 
 #### Currencies
-In contexts where the dollar symbol ($) may refer to non-US currencies, be sure to clearly identify the currency you are writing about (_US$, CA$, AU$_).
+In contexts where currencies are mentioned, be sure to denote them in the format <NUMBER> <CURRENCY_CODE> by using the code from the [ISO 4217 standard](https://en.wikipedia.org/wiki/ISO_4217#Active_codes_(list_one)) (e.g. 10 USD, 15 EUR, 30 CAD, 30,000 JPY, 29.99 CHF).
 
 #### Percentages
 Use % instead of _percent_ at all times, unless the number is spelled out, in which case also spell out _percent_.

@@ -31,7 +31,7 @@ These 20 to 30 minute interviews with [GitLab's Head of Remote](https://gitlab.c
 
 We invite guests to surface challenges and examples as points of discussion. Post-interview, and where applicable, we will iterate on relevant handbook pages to document questions and solutions.
 
-GitLab is a very [transparent]({{< ref "values#transparency" >}}) company and many things that are normally confidential can be found in our [handbook]({{< ref "/handbook" >}}), available online. Please consider looking at the following pages prior to the meeting.
+GitLab is a very [transparent]({{< ref "values#transparency" >}}) company and many things that are normally confidential can be found in our [handbook](/handbook), available online. Please consider looking at the following pages prior to the meeting.
 
 1. [GitLab's All-Remote Culture]({{< ref "_index.md" >}})
     1. [Defining "all-remote"]({{< ref "./terminology" >}})

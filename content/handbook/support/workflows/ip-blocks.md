@@ -99,7 +99,7 @@ A failed pull will look like the following in Kibana.
 
 #### `gitlab-ci-token` Pulls
 
-The `gitlab-ci-token` user is exempted from [rate-limitting](https://docs.gitlab.com/ee/user/gitlab_com/#git-and-container-registry-failed-authentication-ban).
+The `gitlab-ci-token` user is exempted from [rate-limiting](https://docs.gitlab.com/ee/user/gitlab_com/#git-and-container-registry-failed-authentication-ban).
 
 ### LFS
 
@@ -157,6 +157,17 @@ An IP can become rate-limited if a customer attempts to export or download proje
 - `json.action`: `download_export`
 
 - `json.path`: `/namespace/project/download_export`
+
+### Email verification process
+
+In certain cases, when the customer is using a shared user account to run pipelines, a signing sign in from a new IP address will trigger [Account email verifiation](https://docs.gitlab.com/ee/security/email_verification.html). this will block the account, and all tokens, until the signing is verify. This could cause enough `401` errors to trigger an [IP block](https://docs.gitlab.com/ee/user/gitlab_com/index.html#ip-blocks).
+
+#### Useful Fields
+
+- `json.details.custom_message` : `User access locked - sign in from untrusted IP address`
+- `json.custom_message`: `User access locked - sign in from untrusted IP address`
+- `json.entity_path` - The user name of the account
+
 
 ### Handling GitLab.com "Access Denied" errors (CloudFlare Block)
 

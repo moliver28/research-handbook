@@ -7,31 +7,30 @@ description: "This page is an overview of the search team alignment and the tale
 
 | Department                    | Recruiter   | Candidate Experience Specialist    |
 |--------------------------|-----------------|-------------------------------------|
-| Executive          | Rich Kahn    | Michelle Jubrey  |
-| Executive          | Zach Choquette   | Michelle Jubrey  |
-| Enterprise Sales, AMER | Kevin Rodrigues |Sarah Lynch |
+| Executive          | Rich Kahn    | Sruthy Menon  |
+| Executive          | Zach Choquette   | Sruthy Menon  |
+| Enterprise & Commercial Sales, AMER | Kevin Rodrigues |Sruthy Menon |
 | Enterprise Sales, EMEA | Joanna Tourne | Lerato Thipe |
-| Customer Success & Solutions Architect | Ornella Miles | Lerato Thipe |
+| Customer Success & Solutions Architects, EMEA | Ornella Miles | Lerato Thipe |
 | Commercial Sales/R&D, EMEA | Ben Cowdry | Lerato Thipe |
-| Sales, AMER | Marcus Carter | Michelle Jubrey |
-| Sales | Kelsey Hart  | Fernando Khubeir |
-| Customer Success, AMER | Barbara Dinoff |  Sarah Lynch |
-| All Business, APAC | Yas Priatna  | Lerato Thipe |
-| Marketing/ G&A, Global | Steph Sarff | Michelle Jubrey |
-| Marketing, BDR/SDR/G&A (Global)| Caroline Rebello |  Michelle Jubrey |
-| G&A | Hannah Stewart  | Sarah Lynch |
-| G&A | Jenna VanZutphen  | Fernando Khubeir |
-| G&A | Aiste Juozaponyte  | TBD |
-| Engineering, Development | Sara Currie, Matt Angell, Chux Ugorji | Alice Crosbie |
-| Engineering, Development | Heather Tarver | Fernando Khubeir |
-| Engineering, Development | Joe Guiler, Seema Anand, Anna Kioukis | Teranay Dixon |
+| Global Services & Field Operations | Kelsey Hart  | Fernando Khubeir |
+| Customer Success & Solutions Architects, AMER | Barbara Dinoff |  Jazmin Armstrong |
+| All Business, APAC | Yas Priatna  | Sruthy Menon |
+| G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
+| G&A/EBA/Marketing (Global Sales Development, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
+| G&A/Marketing (Developer Relations, Growth, IT) | Hannah Stewart  | Jazmin Armstrong |
+| G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Fernando Khubeir |
+| G&A/Marketing (Accounting, Integrated Marketing, Internal Audit, Marketing Ops, Tax) | Aiste Juozaponyte  | Fernando Khubeir |
+| Engineering, Development | Matt Angell | Alice Crosbie |
+| Engineering, Development | Sara Currie, Chux Ugorji | Jazmin Armstrong |
+| Engineering, Development | Joe Guiler, Heather Tarver, Seema Anand | Teranay Dixon |
 | Engineering, Infrastucture   | Maxx Snow | Teranay Dixon  |
-| Engineering, Infrastucture   | Michelle A. Kemp | Sarah Lynch  |
-| Engineering, Infrastucture   | Aziz Quadri | Alice Crosbie  |
+| Engineering, Infrastucture   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
 | Customer Support | Joanna Michniewicz  |  Alice Crosbie |
 | Product Management | Holly Nesselroad | Fernando Khubeir |
 | Security | Holly Nesselroad | Fernando Khubeir |
 | Design/UX  | Riley Smith | Lerato Thipe  |
+| Emerging Talent  | Justin Smith | Michelle Jubrey  |
 
 
 For urgent requests of the Candidate Experience Specialist team, we encourage you to contact them by also tagging @CES in Slack messages and CC'ing CES@gitlab.com on emails.
@@ -46,12 +45,12 @@ For urgent requests of the Candidate Experience Specialist team, we encourage yo
 | Talent Acquisition (EMEA and APAC Sales) | Jake Foster |
 | Talent Acquisition (Marketing & G&A) | Steph Sarff + Jake Foster |
 | Talent Acquisition (G&A) | Steph Sarff + Jake Foster |
-| Talent Acquisition (Development) | Ursela Knezevic |
-| Talent Acquisition (Specialty Tech): | Jake Foster & Ursela Knezevic |
-| Talent Acquisition (R&D: Infrastructure) | Ursela Knezevic |
+| Talent Acquisition (Development) | TBA |
+| Talent Acquisition (Specialty Tech): | Jake Foster |
+| Talent Acquisition (R&D: Infrastructure) | TBA |
 | Talent Acquisition (Executive) | Rich Kahn |
 | Enablement | Marissa Farris |
-| Candidate Experience | Ale Ayala + Marissa Farris |
+| Candidate Experience | Marissa Farris |
 
 ## Talent Acquisition Platform Directly Responsible Individual
 

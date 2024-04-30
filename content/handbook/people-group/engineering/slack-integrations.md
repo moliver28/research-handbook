@@ -86,5 +86,5 @@ creation did not pick up a given template. This will show exactly what path the 
 
 ### GitLab Usernames
 
-Often times, team members won't follow the procedure outlined on the [tools and tips page]({{< ref "/handbook/tools-and-tips#change-your-username-at-gitlabcom" >}}) to change their GitLab username. This leads to inaccurate or outdated data in Workday.
+Often times, team members won't follow the procedure outlined on the [tools and tips page](/handbook/tools-and-tips#change-your-username-at-gitlabcom) to change their GitLab username. This leads to inaccurate or outdated data in Workday.
 To remedy this situation, every Wednesday, we audit all GitLab usernames stored on Workday (`GitLab Username` field) and verify that those usernames are members of the [gitlab-com group](https://gitlab.com/groups/gitlab-com/-/group_members). When a Workday `GitLab Username` is not in the group, a message is automatically sent in `#peopleops-alerts` on Slack.

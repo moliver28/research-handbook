@@ -17,7 +17,6 @@ While compliance is certainly a company-wide effort, it is as importantly the in
 
 Listed below are GitLab's policies and procedures, as well as guidance and other resources. This list will be updated, as needed, in order for GitLab to address the constantly evolving worldwide regulatory landscape, and partner with GitLab customers to allow them to meet their own regulatory requirements.
 
-**Policies and Procedures**
 
 - [Acceptable Use Policy](https://about.gitlab.com/handbook/legal/acceptable-use-policy/)
 - [Anti-Corruption Policy](https://about.gitlab.com/handbook/legal/anti-corruption-policy/)
@@ -46,6 +45,10 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [UK Modern Slavery Act Transparency Statement](https://drive.google.com/file/d/11Yne51yOV5_9EBnGbfvMIrq06Z_OxUEM/view?usp=sharing)
 - [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk)
 
+### Policy Translations
+
+Certain policies are now available [here](https://handbook.gitlab.com/handbook/people-policies/#translations) in Dutch, French, and German.
+
 ### Guidelines and Other Resources
 
 - [AI Ethics Principles for Product Development](/handbook/legal/ethics-compliance-program/ai-ethics-principles/)
@@ -57,6 +60,10 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [Materials Legal Review Process](https://about.gitlab.com/handbook/legal/materials-legal-review-process/)
 - [Trade Controls relating to Russia, Belarus, and Ukraine - Sales](https://docs.google.com/document/d/1oT8fj0z313iYcaVxFBo3MtDm5R2KECYmYbWcGFODHKE/edit)
 - [FAQ](https://docs.google.com/document/d/1oT8fj0z313iYcaVxFBo3MtDm5R2KECYmYbWcGFODHKE/edit)
+
+### Policy Change Management
+
+We anticipate the need for policy amendments and new policies and procedures, as GitLab continues to respond to the ever-evolving laws and regulations that our policies are designed to address. Team members who wish to implement new policies and/or amendments to policies identified [here](https://docs.google.com/spreadsheets/d/1tY5LEMsB8r7T4bcL7ZnBo5nuyyIg_ptO047hTlmAqYA/edit#gid=728066571) must document all necessary approvals (including DRI and Board, when necessary) using this [issue template](https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/policy-requests.md?ref_type=heads) prior to that policy’s implementation. Using this process allows GitLab to drive consistency across our policies and procedures and maintain approvals in one central location.
 
 ## Training
 

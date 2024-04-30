@@ -37,7 +37,7 @@ Note that everyone's needs are different, so consider the following as a list of
 - Meet and get to know each other
 - Answer general questions
 - Talk about your “schedule” and how you work every day - walk them through a few example days
-- Talk about how to use tools like Slack, Expensify, etc.
+- Talk about how to use tools like Slack, Navan, etc.
 - Show them some helpful Slack channels
 - Which Slack channels to keep track of daily
 - Which Google docs to keep track of (SWIR, etc.)

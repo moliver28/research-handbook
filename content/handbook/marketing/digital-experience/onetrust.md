@@ -28,7 +28,7 @@ For any OneTrust related request, please create a new issue under [Marketing Ope
 
 ## Access
 
-To access OneTrust, please create an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/). OneTrust is provisioned through Okta SSO via a Google group. A user is added via the Google group which is directly connected to Okta SSO and OneTrust. All users are added as a `Project Manager`. Please specify the role needed in OneTrust in the access request so it can be updated once you have access. [See system default roles](#system-default-roles) available below.
+To access OneTrust, please create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). OneTrust is provisioned through Okta SSO via a Google group. A user is added via the Google group which is directly connected to Okta SSO and OneTrust. All users are added as a `Project Manager`. Please specify the role needed in OneTrust in the access request so it can be updated once you have access. [See system default roles](#system-default-roles) available below.
 
 ## Training
 

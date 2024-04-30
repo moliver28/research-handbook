@@ -123,8 +123,7 @@ The [`populate_ssat` job](https://gitlab.com/gitlab-com/support/readiness/suppor
 
 To run this job:
 
-1. Create a new pipeline by going to CI/CD -> Pipelines -> Run Pipeline
-1. Click the "Play" button on the manual `populate_ssat` job
+1. [Run a manual pipeline] (https://docs.gitlab.com/ee/ci/pipelines/#run-a-pipeline-manually) and run the `populate_ssat` job.
 
 You can safely re-run this task as many times as you'd like as it will append to the issue.
 

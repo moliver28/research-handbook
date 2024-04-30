@@ -58,7 +58,7 @@ We anticipate that our initial entry to this market will be a set of open-source
 
 The APM group's mission is to help our customers decrease the frequency and severity of their production issues. As such, we've defined the team's Performance Indicator (PI) to be the total number of metrics and log views. The decision to use this NSM is the following:
 
-- [Metric views are the entry point to monitoring](https://app.periscopedata.com/app/gitlab/636549/APM---CUSTOMER-USAGE-(Logs-+-Metrics)?widget=8437765&udv=989280)- The more useful our dashboards are, the more likely users are to come back and not default to some other tool to help them understand what is happening in their system.
+- Metric views are the entry point to monitoring - The more useful our dashboards are, the more likely users are to come back and not default to some other tool to help them understand what is happening in their system.
 - Log views - Logs help teams correlate an event to the system's internal logs as part of the Triage workflow. The more views we'll have, the more likely that teams are resolving their production issues using our tools.
 
 Since the PI is a single metric, we've decided to combine those two metrics into a single one, representing the team's PI.

@@ -1,6 +1,6 @@
 ---
-title: "Paid NPS"
-description: "The Paid NPS (Paid Net Promoter Score) is a performance indicator we use to measure the customer satisfaction of our product."
+title: "Paid NPS (Deprecated)"
+description: "The Paid NPS (Paid Net Promoter Score) was a survey metric previously used by the Product Division to measure customer satisfaction. This survey has been deprecated as of FY24 Q4 and replaced by the Customer Satisfaction (CSAT) survey."
 ---
 
 ## Paid NPS survey (PNPS)
@@ -89,6 +89,7 @@ For past reports, we have gotten requests to answer additional questions about t
 
 #### FY24
 
+- [Q4 FY24](https://docs.google.com/presentation/d/16Pp-0luW72Yi2GnDvzVLqxwSKlUo5zjqzvLDXpZDaas/edit#slide=id.g2313fc6cf8e_0_0)
 - [Q3 FY24](https://docs.google.com/presentation/d/1-ku4U2NUZAQrSCSeH2mvZVaTkKajFa012uFSlLMKgvw/edit#slide=id.g2313fc6cf8e_0_0)
 - [Q2 FY24](https://docs.google.com/presentation/d/1zAYvC2tehCsbTQ3WrED6q2jbg84-nv4NTj93VE0Eh6o/edit#slide=id.g2313fc6cf8e_0_0)
 - [Q1 FY24](https://docs.google.com/presentation/d/1s3uVhZSdo5An0z3utSgrLdCiFLO-2H59WDyqSbhvGkM/edit#slide=id.g59bfc474c5_2_145)

@@ -1,7 +1,10 @@
 ---
 
-title: "Sales Development Tools and Manager Resources"
+title: Sales Development Tools and Manager Resources
+description: This page walks you through all the tools we use in the Sales Dev org.
+
 ---
+
 # Sales Development Tools
 
 This page is to act as your guide to the many tools and best practices that the Sales Development Organization uitlizes.
@@ -11,8 +14,6 @@ This page is to act as your guide to the many tools and best practices that the 
 [Salesforce](https://www.salesforce.com/) is our CRM of record. It integrates with all of the other applications in our business tech stack. Salesforce stores prospect, customer, and partner information. This includes contact information, products purchased, bookings, support tickets, and invoices, among other information.
 
 ### Salesforce Training Resources
-
-
 
 ### Lead and Contact Views
 
@@ -24,11 +25,13 @@ This page is to act as your guide to the many tools and best practices that the 
 
 #### BDR Lead Views
 
-* **B1 View** - [MQL’s](/handbook/marketing/marketing-operations/marketo/#mql-and-lead-scoring) and Hot leads that require quick follow up
-* **B2 View** - Leads associated with “Actively Working” accounts where you are the BDR Assigned
-* **B3 View** - Needs to be sequenced. They’re leads you chose to move into your name but they have not yet been sequenced
-* **B4 View** - Active HT sequenced leads that have a phone number - to help with call downs
-* **B5 View** - Qualifying leads. These are leads that you are actively qualifying in a back and forth conversation either by email or through phone calls. Each lead needs to either be active in a follow up sequence, have an active task or have a future meeting scheduled which can be seen in a future “last activity” date
+* **FY25 B1 - My Leads, Action Neeeded** - Includes any leads that we have committed to follow up on ASAP. These are our highest converting leads and are a mix between High Priority and[MQL’s](/handbook/marketing/marketing-operations/marketo/#mql-and-lead-scoring) PTP is now part of our scoring so there may be leads in there that have MQLd due to PTP so you'll have to click into the lead to see more. **High Priority leads belong to a High Priority campaign** - you can find which one at the bottom of the page in the campaigns section.
+* **FY25 B2 - AWA leads w/ LIM** - Includes leads in your name and that match to your Actively Working Accounts. It's best to sort these by Last Interesting Moment Date and consider the Lead Classification Score when deciding which to sequence. We do not surface leads that were sequenced in the last 14 days.
+* **FY25 B3 - Change Owner AWA's (Clone)** - These leads are now in your name automatically (not leads you've necessarily chosen and moved into your name, the old B3 view had to be cloned which is no longer needed). This view however allows you to see leads that may not have been moved into your name because at the time, they did not meet criteria. These could be bc: the leads were in lead statuses of: Accepted, MQL, or Qualifying when you moved the account into Actively Working since leads with those statuses should stay with the owner. Leads that were in disqualified or ineligible are also not moved into your name. This view will allow you to get eyes on any leads that are not in your name. You then can review any LIM dates and decide to put leads into your name if no one is reaching out. Keep sorted by LIM Date.
+* **FY25 B4 - My HT Leads W/ Phone** - This view should be used when either you do not have enough daily call tasks in Outreach to hit your daily KPI or when your team wants to do a call blitz etc. It allows you to easily pull into Outreach and create additional call tasks for your leads currently in high touch sequences.
+* **FY25 B5 - My Qualifying Leads** - These are leads in qualifying status which means some sort of two way engagement happened between you two. Please review this section of our handbook for best converting follow up practices.
+* **FY25 B6 - 6QA imported leads** -  You can find any leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.
+* **FY25 B7 - BDR Prospecting Last 7 Days** - This view will surface leads that you created or refreshed from ZoomInfo or Cognism. (Please note that there is also a contacts view you will need to check should the person already be a contact in our system)
 
 
 #### BDR Contact Views
@@ -56,7 +59,7 @@ This page is to act as your guide to the many tools and best practices that the 
  A user created series of touchpoints (calls, emails, LinkedIn) in order to communicate with a prospect and automate the user's workflow
 
 * **Primary Sequence:** a sequence created by SDR leadership that should be used by all reps to follow up with inbound leads
-* High touch and low touch sequences: a high touch sequence should be used for higher-quality leads. High touch sequences require you to add in more personalization and have more touch points across a longer period of time, including phone calls and LinkedIn Connect requests. Low touch sequences are typically automated and run for a shorter period of time. We define higher quality leads based on the volume of inbound you have to manage as well as whether the lead has has 1-2 of the following for MM/Large accounts:
+* **High Touch and Low Touch sequences:** a high touch sequence should be used for higher-quality leads. High touch sequences require you to add in more personalization and have more touch points across a longer period of time, including phone calls and LinkedIn Connect requests. Low touch sequences are typically automated and run for a shorter period of time. We define higher quality leads based on the volume of inbound you have to manage as well as whether the lead has has 1-2 of the following for MM/Large accounts:
     * Valid company email domain or company name
     * Phone number
     * Title related to our buying/influencer personas
@@ -99,86 +102,7 @@ Content created for BDRS and SDRs to use to create hyper-personalized sequences,
 * **Common Snippet Examples**
      - [Objection Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=objection)
      - [Support Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=Support)
-
-### Outreach Sequence Creation Process
-
-#### Prior to Building a New Sequence
-
-Please review the BDR or SDR process and conceptualize what iteration does a new sequence bring to our existing library, from the moment you have clarified your intent please [follow the steps here](/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation) to request a new sequence, we'll work with you to develop the best possible iteration we can.
-
-#### Building a New Sequence, Prior to Setting it Live
-As you begin building your new sequence, make sure you are following the proper guidelines:
-
-* **Naming Convention** - all sequences should use the approved naming convention:
-    -   **Year** (FY24)
-    -   **Team** (IB)
-    -   **Region** (Worldwide - WW, AMER, APAC, EMEA, LATAM)
-    -   **Segment** (SMB SDR, LARGE MM SDR)
-    -   **Target/Reason for Sequence** (Trial, Contact Request, Event, etc)
-    -   **Touch Level** (High Touch - HT, Low Touch - LT)
-    -   **Language** (English - EN, Spanish - SP, Portuguese - POR, French - FR, German - GER, Dutch - DUT, Russian - RUS, Korean - KOR, Japanese - JP)
-
-**Example** - FY24 IB WW SMB SDR Free to Paid HT EN
-
-* **Sequence Settings**:
-    - **Sequence Type** - Steps by day interval
-	- **Delivery Schedule** - Weekday Business Hours
-	- **Interval Type** - Schedule Days
-	- **Tags** - always add “SDR” or "BDR" and “Inbound” or "Outbound" along with any other applicable tags such as the Region, Team, and Touch Level
-	- **Collections** - choose the appropriate collection based on team and purpose
-	- **Shared with Org?** - Others can see it and use it
-	- **When the primary prospect replies** - Finish sequence
-	- **When non-primary prospects reply** - Finish sequence
-	- **Prospect Throttling** - Enabled
-	- **Max active prospects per user** - 1000
-	- **Auto-activate prospects** - Yes - activate based on throttles
-	- **Max adds per user every 24 hours** - 100
-	- **Sequence Ruleset**:
-        - **Default** - Does not make tasks on your behalf. Prospects can be added to these sequences more than once, if not already active. prospects are not able to be added to other exclusive sequences, but can be added to a non-exclusive sequence. Updates prospects to appropriate stages. Resumes out of office prospects after 5 days.
-        - **Campaign** - Follows the same rules as the default settings except out of office are resumed 1 day after.
-        - **Create Call Task** - Follows same rules as the default except it will create call tasks on opened emails. Minimum email opens needed: 2
-        - **Event** - Prospects can only be added to this sequence once. They are not exclusive to this sequence. Out of office are resumed 1 day after.
-        - **Follow Up Sequences** - This ruleset is specifically designed for prospects who are already in qualifying stage as once you add them, their lead status will stay in qualifying rather than going back to accepted.
-        - **Saas Trial** - for following up with trial leads
-
-* **Email Settings**:
-    - **Click Tracking** on all emails
-    - **Open Tracking** on all emails
-    - Appropriate variable template syntax
-
-* **Email Messaging**:
-    - For each email step in your sequence, send yourself a test email to ensure formatting is appropriate and all variables are set correctly.
-
-Once you have set your sequence up with the proper name, structure, settings and email messaging, return to the issue and tag your manager for approval. **If your manager rejects your sequence, you will need to make the necessary changes to gain their approval. If they have responded with their approval, you are cleared to move forward with setting your sequence live.**
-
-#### Setting a Sequence Live
-Go into the sequence settings and toggle the bar in the upper left from gray (paused) to green (active). You are now ready to use your sequence.
-
-#### _For Managers_
-
-#### Approving the Build of a New Sequence
-* When deciding whether to approve or deny the creation of a new sequence, use your best judgment to decide whether this sequence really needs to be built, or if what the rep is looking for can be accomplished with an A/B test or by utilizing one of the existing ops-approved sequences. Is the sequence/step that is being replaced actually underperforming?
-* If creation of the new sequence meets with your approval, go to the issue and add your approval. If you don’t approve, leave a comment explaining why the sequence has been denied.
-
-#### Approving the Activation of a New Sequence
-When deciding whether to approve or deny the activation of a new sequence, make sure the sequence follows all proper guidelines, including:
-* Naming Convention
-* Structure
-* Sequence Settings
-* Email Settings
-    - Click/Open Tracking
-    - Variable template syntax
-* Sequence messaging is appropriate and acceptable
-
-If all of these conditions are met, go back to the issue and add your approval. If the rep needs to revise anything before they can set it live, leave a comment explaining what they still need to do before they can begin using their sequence.
-
-Managers then need to add a tag of “manager approved” on the sequence in Outreach
-
-
-#### Post Sequence Live
-30 day check - is the sequence meeting performance benchmarks?
-
-
+     
 
 ## ZoomInfo
 
@@ -217,6 +141,33 @@ Managers then need to add a tag of “manager approved” on the sequence in Out
 * [6Sense Account Identification Guide](https://6sense.com/platform/account-matching/the-guide-to-account-identification/)
 * [6Sense Persona Identification Guide](https://6sense.com/guides/how-to-identify-and-influence-the-entire-buying-team/)
 
+### 6Sense 6QA Automations
+
+We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC. 
+
+Specifically:
+
+- We have three segments (SMB, MM, ENTG) saved on folder 9a of 6Sense. Each of these segments tries to identify the top accounts we currently have on SFDC that are not being worked by our team.
+- Through 6Sense Orchestrations, we will automatically update these accounts weekly.
+     - We aim for 200 records to be enriched every week.
+     - We aim for a 90 day buffer period between records being enriched.
+     - The SFDC field `Sales Dev Automation` will be enriched with the value of the respective segment (SMB, MM, ENTG)
+- From the moment these accounts get enriched by 6Sense, they will automatically show up on our pre-saved searches on ZoomInfo, one for each segment. 
+
+     - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+     - [MM Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWkiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+     - [ENTG](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiVlBfRVhFQ1VUSVZFUyxESVJFQ1RPUiIsInJwcCI6MjUsImRlcGFydG1lbnRzIjoiSW5mb3JtYXRpb24gVGVjaG5vbG9neSxFbmdpbmVlcmluZyAmIFRlY2huaWNhbCIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWMiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
+
+- These saved searches will pull the relevant decision-makers per segment, and through ZoomInfo workflows do the following:
+
+     - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
+     - Automatically add MM/ENTG accounts to the [SFDC dashboard here.] (https://gitlab.my.salesforce.com/01ZPL000000kAPN)
+     - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B6 - My 6QA Leads.`
+         
+## Qualified 
+
+[Qualified](https://www.qualified.com/) is the Sales Dev Org's tool we use to chat with visitors on the GitLab website. Currently the SDR teams primarily respond to inbound chats and visitors using Qualified. The BDRs also have the ability to initiate chats with known leads from their actively working accounts. 
+
 ## Chorus
 
 Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywords, provides analytics, and transcribes calls into both Salesforce and Outreach. Chorus will be used to onboard new team members, provide ongoing training and development for existing team members, provide non-sales employees with access to sales calls, and allow sales reps to recall certain points of a call or demo. At this time, US Sales, US Customer Success, US SDRs will be considered recorders. Non-US Commercial and Non-US SDRs can request recorder access once they have completed the GDPR training course. Non-US recorders will also need access to the EMEZ Zoom Group. Everyone else can access the tool as a listener if they wish.
@@ -226,6 +177,12 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 * Chorus: [Tips for Getting Start](https://docs.chorus.ai/hc/en-us/articles/115009183547-Tips-on-Getting-Started-with-Chorus)
 * GitLab Edcast: [Chorus Overview](https://gitlab.edcast.com/journey/week)
 * GitLab Edcast: [Sample Chorus IQM Calls](https://gitlab.edcast.com/insights/sample-chorus)
+
+## Crayon Competitive Messaging Resources
+
+[Crayon](https://app.crayon.co/intel/gitlab/battlecards/) hosts competitive messaging resources that are maintained by GitLab's product marketing team. 
+
+This is where you can find messaging related to GitLab vs some of our competiors such as GitHub, Atlassian, and Azure DevOps
 
 # Sales Dev Manager Resources
 
@@ -250,17 +207,16 @@ The BDR process that we have defined here in GitLab is meant to provide a repeat
 
 The BDR Process is explained step-by-step in the [main SDR handbook page here](/handbook/marketing/revenue-marketing/sdr/#bdr-outbound-process)
 
-For a newcoming manager, we provide the [Watch and Help Dashboards](/handbook/marketing/sales-development/sales-development-tools/#tracking--monitoring-resources) that will be your main tool in understanding where your team is aligned to our BDR process, and where they need assistance.
+For a newcoming manager, we provide the [Manager attention needed boards](/handbook/marketing/sales-development/sales-development-tools/#tracking--monitoring-resources) that will be your main tool in understanding where your team is aligned to our BDR process, and where they need assistance.
 
 To help structure your usage of the above, you can follow the steps below during your first month at GitLab while [the document here will be your main go-to resource](https://docs.google.com/document/d/18k1_jDHVgNzy2SzcPZ7GAOdJ6zb9i37Z4-V1-dEFKiU/edit#)
 
 | Action | Benefit |
 | ------ | ------- |
-| Clone the W&H Dashboard and edit each report to be exclusive to your team's names | Gives you a SSoT that you and your team can easily reference |
+| Clone the Action Needed Dashboard and edit each report to be exclusive to your team's names | Gives you a SSoT that you and your team can easily reference |
 | Review the dashboard with your team, and discuss how the data on it connect to the [BDR KPIs](/handbook/marketing/revenue-marketing/sdr/#sdrbdr-roe-and-inbound-lead-management) | Allows you to understand your team's level of maturity and each team member's current level of alignment to existing processes |
 | Take note of any discrepancies or points of feedback from the team, either transcribe them to 1:1s for individual conversations or to the SDR Issue board for org-wide improvements | Enables you to filter between discrepancies that are caused because of a team member's lack of diligence that should be improved upon by the individual OR for discrepancies that were caused by an org-wide operational shortcoming that should be improved upon on a global scale. |
 | Set realistic expectations with the team about adherance to org KPIs and set a review mechanism to go over them on a reccuring basis | Helps maintain a repeatable structure of accountability for your entire team |
-
 
 ## General Sales Development Leadership Resources
 
@@ -303,20 +259,18 @@ To help structure your usage of the above, you can follow the steps below during
 | :----: | :-----: |
 |  [SDR Issue Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691)  | Used to track GitLab issues involving the SDR team. This is a global issue board. |
 |  [SDR Event Tracker Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1718115) | Used to follow upcoming events globally |
-|  [SDR Sisense Dashboard](https://app.periscopedata.com/app/gitlab/641469/WIP:-SDR-Metrics-Update) | Dashboard to monitor SDR leads and meetings  |
-|  [MQL & SAO Performance vs. Target Sisense Dashboard](https://app.periscopedata.com/app/gitlab/628196/Revised-Marketing-Metrics) | Monitoring MQL and SAO performance in comparison to our goals  |
+|  [SDR Sisense Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=1) | SalesDev Analytics Hub Dashboard  |
 
 |  [Lead View Descriptions](/handbook/marketing/sales-development/#lead-and-contact-views) | There are Manager Lead views in SFDC mirroring the SDR and BDR views which are described on the linked Handbook page on the left. These views need to be checked regularly by managers to ensure all necessary leads are being worked.
 
-##  Watch and Help Boards
+## Action Needed Boards
 
 | Teams | Boards |
 | :----: | :-----: |
-|  **AMER ENTERPRISE TEAMS**  | [AMER ENTERPRISE DAILY BOARD](https://gitlab.my.salesforce.com/01ZPL00000069v3) -  [AMER ENTERPRISE MONTHLY BOARD](https://gitlab.my.salesforce.com/01ZPL00000069VF) |
-|  **EMEA and APAC ENTERPRISE TEAMS**  | [EMEA/APAC ENTERPRISE DAILY BOARD](https://gitlab.my.salesforce.com/01Z4M000000soBO) -  [EMEA/APAC ENTERPRISE MONTHLY BOARD](https://gitlab.my.salesforce.com/01ZPL0000006ABB) |
-|  **MM TEAMS**  | [MM TEAMS DAILY BOARD](https://gitlab.my.salesforce.com/01Z4M000000snjZ) -  [MM TEAMS MONTHLY BOARD](https://gitlab.my.salesforce.com/01ZPL0000006AW9) |
-|  **PubSec Team**  | [PubSec Team BOARD](https://gitlab.my.salesforce.com/01Z4M000000sney) |
-|  **SDR Inbound Teams**  | [SDR Inbound Teams BOARD](https://gitlab.my.salesforce.com/01Z4M000000soBT) |
+|  **AMER BDR TEAMS**  | [AMER BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL00000069v3) -  [AMER BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL00000069VF) |
+|  **EMEA BDR TEAMS**  | [EMEA BDR Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBO) -  [EMEA BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL0000006ABB) |
+|  **APAC BDR TEAMS**  | [APAC BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL000000bkbl) -  [APAC BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000cUJd) |
+|  **Global SDR Inbound Teams**  | [SDR Global Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBT) - [SDR Global Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000pryL)  |
 
 ## Sales_Dev_fyi Channel Information
 
@@ -450,4 +404,41 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 ### Manager Offboarding Checklist
 
 * The people team will create an [offboarding issue](/handbook/people-group/offboarding/#offboarding), complete all ‘Manager’ tasks on the issue. If you have any questions use the #managers #people-connect slack channels. You can also reach out to the assigned people ops team member on the issue.
+
+### Sales Dev Handover Issue
+
+* When a teamember is either leaving GitLab, leaving the Sales Dev Org, or transferring to another BDR team the departing team's manager must created a [Sales Dev Handover Issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Exit_handover_template.md?ref_type=heads)
+
+## Sequence Creation
+
+* We follow the process outlined [here](https://handbook.gitlab.com/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+
+### Sequence needs to be a globally applicable
+
+- Only sequences that could be used by any team member globally can be added to the Good Collection. 
+- If a regionalized sequence can be translated to English, then the English copy of it will be added to the GC while the local variant will be added to the Team Collection.
+- Field Marketing event sequences and any other similar type will not be considered for the Good Collection.
+
+### Sequence needs to have completed the requirements set out on the issue descrption.
+
+- At least 200 people enrolled and/or having completed the sequence on a timely manner. 
+- ( Sequence has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Sequence has over 5% meeting set rate.
+
+### Things to look out for when reviewing a sequence as a Manager. 
+
+- Does the messaging of the sequence follow Command Of the Message? 
+     - Are all emails formatted appropriately with pain-probing questions and value propositions?
+     - Are the relevant value drivers for the personas targeted by this sequence used?
+- Is there a proper mix of automated and manual touches?
+     - Are 1-2 highly personalized emails used for High-Touch sequences?
+     - Are there at least 4 call steps for High-Touch sequences?
+     - For Low-Touch/Awareness campaigns are all touchpoints automated?
+- Are proper Outreach elements used?
+     - Are automated variables used all on all emails?
+     - Are manual personalisation variables used on manual emails?
+- Is the purpose of the sequence clearly articulated on the issue description?
+     - Are there other sequences that are proven to work that could be used instead?
+     - Is there a valid reason for this campaign? Will it contribute to results in terms of SAOs or awareness?
+     - Is the target demographic clearly thought out?
+
 

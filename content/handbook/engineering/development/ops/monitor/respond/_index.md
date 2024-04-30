@@ -22,7 +22,7 @@ You can follow along with the team's accomplishments by reading the [latest week
 
 ## Stable counterparts
 
-{{< stable-counterparts role="Monitor|Observability" >}}
+{{< stable-counterparts role="" >}}
 
 ## Communication
 
@@ -149,7 +149,7 @@ Links
 
 ### Interacting with community contributors
 
-Community contributions are encouraged and prioritized at GitLab. Please check out the [Contribute page](/community/contribute/) on our website for guidelines on contributing to GitLab overall.
+Community contributions are encouraged and prioritized at GitLab. Please check out the [Contribute page](https://about.gitlab.com/community/contribute/) on our website for guidelines on contributing to GitLab overall.
 
 Within the Monitor stage, Product Management will assist a community member with questions regarding priority and scope. If a community member has technical questions on implementation, Engineering Managers will connect them with [MR coaches](/job-families/expert/merge-request-coach) within the team to collaborate with.
 

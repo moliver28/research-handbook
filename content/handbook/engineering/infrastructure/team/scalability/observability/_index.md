@@ -74,6 +74,7 @@ Between these different signals, we have a relatively (im)precise view into the 
 
 We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work). In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Scalability:Observability.
 
+
 ### Issue management
 
 While we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues), there are other projects under the `gl-infra` group team members are working on.

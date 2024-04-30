@@ -144,6 +144,39 @@ Each week the Product Designer hosts a design pairing session with the team on T
 
 If there are no topics, the meeting can be cancelled for the week.
 
+#### Engineering Pair Meeting
+
+Due to high distrubtion and full calendars, we can have one of these for as many
+regions for which we have a DRI.
+
+##### AMER
+
+DRI: `@hustewart`
+
+Time: Tuesdays at 6:00pm UTC.
+
+Goal: Solve problems together and build trust/rapport.
+
+[Calendar event](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2xxMm5kOGYwOXB2YzloZTBvZWg4bGhwczQgZ2l0bGFiLmNvbV9rbmFpZmY3YmNwZzNxa3FydWJka2Y0aXYxMEBn&tmsrc=gitlab.com_knaiff7bcpg3qkqrubdkf4iv10%40group.calendar.google.com)
+
+What we'll do:
+- Introductions for people who don't know each other.
+- Pick a problem to solve.
+- Pair.
+- Document what we learn.
+
+Feel free to submit a topic beforehand (notes are on calendar event), or simply show up.
+
+All team members are welcome.
+
+##### EMEA/APAC
+
+DRI: `@andrei.zubov`
+
+Time: Every second Tuesday at 8:00am UTC.
+
+[Calendar event](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDIyOG9rNWxhbTU3ZXJoYTVxYmlrcmt2ZW1fMjAyNDAzMjZUMDgwMDAwWiBnaXRsYWIuY29tX2tuYWlmZjdiY3BnM3FrcXJ1YmRrZjRpdjEwQGc&tmsrc=gitlab.com_knaiff7bcpg3qkqrubdkf4iv10%40group.calendar.google.com&scp=ALL)
+
 ### Team issue tracker
 
 - We use [team issues tracker](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/general/-/issues) for internal discussions such as: milestone planning issues, events planning, etc...
@@ -242,7 +275,7 @@ In every milestone plan, we compile a list of bugs due in the coming milestone b
 In addition to the self-scheduling of feature development, the manager will from time to time assign bugs, or other work deemed important, directly to a team member.
 
 On top of the official issue-triaging process, when severity labels are assigned/changed, we aim to set the issue due date at the same time. If there are bugs with a severity label and without a deadline,
-everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/quality/issue-triage/#severity-slos).
+everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
 
 #### Say-do ratio
 
@@ -274,28 +307,37 @@ Team members should use their best judgment to determine whether to assign the f
 - Does the MR require a lot of dev environments setup that team members outside the Environments group are likely to not have?
 - Is the MR part of a larger effort for which a specific team member already has all the context?
 
-### Handling UX Debt
+As team members and domain experts, both the MR author and initial reviewer are encouraged to share the broader context before, during, and throughout the review process to assist maintainers in conducting efficient reviews. This context may cover:
+
+- Known limitations;
+- Edge cases;
+- Implementation reasoning;
+- Links to relevant references.
+
+Providing context helps streamline the review process and invites a broader pool of maintainers to our domain  ([example](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/147280#note_1819842941)).
+
+### Handling Deferred UX
 
 Team members should make their best effort to resolve UX issues as they come up
 during MR reviews. However, there are times where the changes requested or
 feedback given would significantly slow down velocity. For the sake of
-efficiency and iteration, a UX debt issue must be opened to follow up on the
+efficiency and iteration, a Deferred UX issue must be opened to follow up on the
 feedback.
 
 In these instances, the engineer who authored the original MR should assign
 themselves the issue and become the DRI to evaluate the UX feedback. This may
 mean reaching out to the team's Product Designer to ensure the feedback is
 actionable and resolving the debt is prioritized appropriately during the
-following milestone planning. For example, for UX debt issues opened in the 16.3
+following milestone planning. For example, for Deferred UX issues opened in the 16.3
 milestone, engineers should evaluate and ensure appropriate prioritization of
 the issue during the planning of the 16.4 milestone. This does not mean that the
 issue must be resolved during the 16.4 milestone, but that the issue is placed
 into the appropriate step of our [product development
 flow](/handbook/product-development-flow), or closed if appropriate.
 
-This helps to ensure that UX debt issues are resolved in a timely manner,
+This helps to ensure that Deferred UX issues are resolved in a timely manner,
 keeping with the overall goals of the group and adherence to broader
-[engineering workflows](/handbook/engineering/workflow#ux-debt).
+[engineering workflows](/handbook/engineering/workflow#deferred-ux).
 
 ### Epic Ownership
 

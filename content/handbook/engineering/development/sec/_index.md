@@ -86,31 +86,31 @@ description: >-
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .diagramwrapper .box {
         width: calc(100% - 240px);
         padding: 10px;
         display: flex;
         background-color: #fff;
     }
-    
+
     .diagramwrapper .box svg {
         width:100%;
     }
-    
+
     .diagramwrapper .stages {
         display: flex;
         width: 210px;
         margin-left: 30px;
         flex-wrap: wrap;
     }
-    
+
     .diagramwrapper .stage {
         display: flex;
         width: 210px;
         margin: auto 0;
     }
-    
+
     .diagramwrapper .circle {
         width: 80px;
         height: 80px;
@@ -121,13 +121,13 @@ description: >-
         background-color: #fff;
         padding: 0;
     }
-    
+
     .diagramwrapper .circle svg {
         fill: #524684;
         width: 50px;
         margin: 15px;
     }
-    
+
     .diagramwrapper .stagename {
         display: inline-block;
         font-family: Source Sans Pro,sans-serif;
@@ -152,6 +152,7 @@ The following teams comprise the sub-department:
   - Composition Analysis group - [handbook](/handbook/engineering/development/sec/secure/composition-analysis/)
   - Dynamic Analysis group - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/)
   - Static Analysis group - [handbook](/handbook/engineering/development/sec/secure/static-analysis/)
+  - Secret Detection group - [handbook](/handbook/engineering/development/sec/secure/secret-detection/)
   - Vulnerability Research group - [handbook](/handbook/engineering/development/sec/secure/vulnerability-research/)
   - API Security - [handbook](/handbook/engineering/development/sec/secure/api-security)
 
@@ -240,6 +241,7 @@ Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues
   - sec-govern-security-policies
   - sec-govern-compliance
   - sec-secure-static-analysis
+  - sec-secure-secret-detection
   - sec-secure-dynamic-analysis
   - sec-secure-composition-analysis
 

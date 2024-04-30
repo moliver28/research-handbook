@@ -42,7 +42,7 @@ In areas where defined working hours are required by the role or client, great r
 
 ### 3. Is most communication about work done asynchronously?
 
-There are [valid reasons]({{< ref "./asynchronous#best-practices-guidelines-and-async-feature-set" >}}) to work synchronously. Communicating *about work* is best done asynchronously. This includes status updates, FYIs, process documentation (e.g. how to [alert your security team about a suspected phishing attempt]({{< ref "/handbook/security#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}})). It also includes *meeting about a meeting*.
+There are [valid reasons]({{< ref "./asynchronous#best-practices-guidelines-and-async-feature-set" >}}) to work synchronously. Communicating *about work* is best done asynchronously. This includes status updates, FYIs, process documentation (e.g. how to [alert your security team about a suspected phishing attempt](/handbook/security#what-to-do-if-you-suspect-an-email-is-a-phishing-attack)). It also includes *meeting about a meeting*.
 
 Prerequisites for this to work well are below.
 
@@ -86,7 +86,7 @@ Quarterly or bi-annual retreats, annual company-wide gatherings, in-person onboa
 
 ### 11. Do you hire, praise, and promote on values alignment and results?
 
-Great remote organizations actively work against [proximity bias](https://www.protocol.com/workplace/proximity-bias-hybrid-work) by utilizing praise and promotion tactics rooted in [values alignment]({{< ref "values#culture-fit-is-a-bad-excuse" >}}). A boring solution to encourage this is the use of a [promotion document]({{< ref "/handbook/people-group/promotions-transfers#general-promotion-document-template" >}}) which requires a manager detail how an individual has exemplified company values.
+Great remote organizations actively work against [proximity bias](https://www.protocol.com/workplace/proximity-bias-hybrid-work) by utilizing praise and promotion tactics rooted in [values alignment]({{< ref "values#culture-fit-is-a-bad-excuse" >}}). A boring solution to encourage this is the use of a [promotion document](/handbook/people-group/promotions-transfers#general-promotion-document-template) which requires a manager detail how an individual has exemplified company values.
 
 ### 12. Do you fund individual workspaces and reimburse for out-of-home office use?
 

@@ -6,7 +6,7 @@ description: How GitLab team members can work with and best ways to contact Supp
 
 ## Overview
 
-The purpose of this page is to direct GitLab team members outside of Support on what GitLab Support does, how to get in contact with us, and where to direct common requests that require our involvement. **Are you a customer looking for technical support? If so, please visit the [Support Page](/support/) instead.**
+The purpose of this page is to direct GitLab team members outside of Support on what GitLab Support does, how to get in contact with us, and where to direct common requests that require our involvement. **Are you a customer looking for technical support? If so, please visit the [Support Page](https://about.gitlab.com/support/) instead.**
 
 ## Quick reference
 
@@ -27,7 +27,7 @@ This is not an exhaustive list. For anything else you believe the Support team c
 
 ## GitLab Support's Purpose
 
-GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/business-technology/team-member-enablement/self-help-troubleshooting/).
+GitLab Support provides technical support for GitLab.com and Self-Managed GitLab customers. We do **not** provide support for GitLab team members who are experiencing IT (1Password, Slack, Mac, etc.) issues. If you require assistance with issues of that nature, please contact [Team Member Enablement](/handbook/business-technology/end-user-services/self-help-troubleshooting/).
 
 ## Should I Contact GitLab Support?
 
@@ -49,7 +49,7 @@ If your customer contacts you requiring technical support, the following options
 
 1. When directing your customer to the **GitLab Support Portal**, please inform them that they should ensure they have been [added as a support contact](https://about.gitlab.com/support/managing-support-contacts/) for their organization otherwise their tickets may be auto-closed (except for Licensing and Renewals tickets). Aligned with this, if your customer requires their colleagues to be able to also submit a support ticket then will also need to provide a list of managed contacts. A customer can add or manage support contacts by following the inscriptions in [Managing contacts](https://about.gitlab.com/support/managing-support-contacts/). Please note that encouraging customers to have a valid support portal account will help streamline the support process and ensure a smoother experience for both the customers and our support team.
 
-1. To request adjustments to licenses, subscriptions, renewals, trials, trial extensions, temp licenses, etc., you can [open an Internal Request](#internal-requests) on behalf of the customer (more details [below](#internal-requests)).  
+1. To request adjustments to licenses, subscriptions, renewals, trials, trial extensions, temp licenses, etc., you can [open an Internal Request](#internal-requests) on behalf of the customer (more details [below](#internal-requests)).
     - **Note:** If the customer already has a license/subscription, and is getting errors while applying it, it's best for the customer to open a Support ticket directly with us.
     - **Note:** To submit the form you must have a [Zendesk Light Agent account](#requesting-a-zendesk-light-agent-account), which all GitLab team members can request. The account also enables team members to see customer tickets in Zendesk, and leave notes for the Support team.
 
@@ -139,8 +139,8 @@ You can request Support to contact GitLab.com users on your behalf. Here are som
 | ---------- | ------------------------------------------------------------ | ---------------------- |
 | Contact a user during an incident | [Open a confidential infra issue, assign it to the current CMOC](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=confidential_incident_data), use `confidential_incident_data` template | #support_gitlab-com |
 | Contact a single user | [Open an issue](https://gitlab.com/gitlab-com/support/internal-requests/issues/new?issuable_template=Contact%20Request) using the `Contact Request` template | #support_gitlab-com |
-| Prepare Support for changes (with or without contacting select users) | [Open a Support Readiness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Support%20Readiness) | #spt_managers |
-| I need to reach out to many users | [Open a Marketing-Ops issue](/handbook/support/workflows/sending_notices/#mass-emails-through-marketing-department) | #spt_managers |
+| Prepare Support for changes (with or without contacting select users) | [Open a Support Readiness issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/new?issuable_template=Support%20Readiness) | #support_leadership |
+| I need to reach out to many users | [Open a Marketing-Ops issue](/handbook/support/workflows/sending_notices/#mass-emails-through-marketing-department) | #support_leadership |
 
 **Please note**: This is not for marketing or sales related contact. This channel is only for communication with users regarding important items that might affect their usage of GitLab SaaS.
 
@@ -388,9 +388,10 @@ All the billable members are also currently displayed on the group billing page 
 Zendesk has the ability to store Organization and User notes. Using Zendesk
 triggers, we put these into each ticket submitted by that organization or
 user. If there is important information you wish to have included in tickets
-for an organization or user, please [create an issue under the
-organizations project](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new).
-template. Please be sure to indicate whether the information is only valid
+for an organization or user, please create an MR by searching for the organization's ID
+(you can locate this by copying the ID from the organization's URL in Zendesk) [here](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations)
+and making the required changes to the relevant organization's file.
+Please be sure to indicate whether the information is only valid
 for a specific period of time so that we may include that fact in the notes.
 
 Examples of some notes you might want added:

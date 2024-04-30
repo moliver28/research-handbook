@@ -410,7 +410,7 @@ graph TD;
     id6 --> id11(Govern - 28%)
 ```
 
-- The percentage here is defined as % of monthly active paid ultimate-tier self-managed instances that adopted that stage. The data is captured directly in the [Golden Journey Paths Sisense chart](https://app.periscopedata.com/app/gitlab/897587/Golden-Journey-Paths) (select only Ultimate - Self-Managed).
+- The percentage here is defined as % of monthly active paid ultimate-tier self-managed instances that adopted that stage. The data is captured directly in the Golden Journey Paths chart (which has been deprecated).
 - The Golden Journey: The bolded path is the "Golden Journey" where we observe as the most common stages adopted by paid customers and serve as foundation to adopt other stages: it starts from Create, then goes to Verify and Release. If the Golden Journey is complete, all stages of GitLab are available for use. Our biggest opportunity is to improve Verify to Release adoption rate.
 
 Note: There are numerous potential variants to this adoption journey, but it's important to keep this representation simple and consistent. Please check with David DeSanto first before making any changes to the adoption journey image.
@@ -599,7 +599,7 @@ With this in mind, below are some product guidelines to consider:
 
 #### Avoid plugins and commercial marketplaces
 
-_Note_ - We intend to provide a place where everyone can contribute, such as [code snippets](https://gitlab.com/gitlab-examples), [project templates](https://docs.gitlab.com/ee/development/project_templates.html) and CI/CD [templates](https://docs.gitlab.com/ee/ci/examples/#cicd-templates). Marketplaces are traditionally transaction based, where users are purchasing solutions. GitLab CI/CD templates on the other hand, will offer an in product experience for consuming templates for YAML configuration from a library of GitLab maintained templates.
+_Note_ - We intend to provide a place where everyone can contribute, such as [code snippets](https://gitlab.com/gitlab-examples), [project templates](https://docs.gitlab.com/ee/development/project_templates.html) and CI components in the [CI/CD Catalog](https://docs.gitlab.com/ee/ci/components/#cicd-catalog). Marketplaces are traditionally transaction based, where users are purchasing solutions. GitLab CI/CD components on the other hand, will offer an in product experience for consuming components for YAML configuration from a library of [GitLab maintained components](https://gitlab.com/components).
 
 Closed source software vendors commonly depend on plugins and commercial marketplaces because:
 
@@ -623,7 +623,7 @@ And for **developers of GitLab** including the third parties, this has significa
 1. Community effort is not wasted on developing multiple plugins that all ultimately do the same thing and compete with each other for usage.
 1. Developers don't have to sacrifice [velocity in favor of predictability](/handbook/engineering/development/principles/#velocity-over-predictability), since they don't have to worry about breaking the plugin API.
 
-Overall, we believe that this approach creates the best possible experience for both the users of and the contributors to GitLab, and to that end we encourage people to [contribute functionality to GitLab directly](/community/contribute/).
+Overall, we believe that this approach creates the best possible experience for both the users of and the contributors to GitLab, and to that end we encourage people to [contribute functionality to GitLab directly](https://about.gitlab.com/community/contribute/).
 
 If adding code directly to GitLab isn't an option, we encourage third-parties to integrate through our [APIs](https://docs.gitlab.com/ee/api/).
 

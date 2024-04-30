@@ -50,7 +50,7 @@ Both the legacy click-through demos and the new sim demos are available from the
 - Open the demo executable
 - If you have macOS Catalina - follow the steps in the next section, then come back here and continue
 - Click Present Demo
-- If you need help with the sim demo, contact TMM either by Slack channel #dev-evangelism-and-technical-marketing or by opening a [Product and Solution Marketing Request issue](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/new?issuable_template=A-SM-Support-Request).
+- If you need help with the sim demo, contact TMM either by Slack channel #dev-advocacy-team or by opening a [Product and Solution Marketing Request issue](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/new?issuable_template=A-SM-Support-Request).
 
 #### MacOS Catalina
 

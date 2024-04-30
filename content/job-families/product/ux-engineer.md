@@ -51,7 +51,7 @@ The UX Engineer is a [grade 6](/handbook/total-rewards/compensation/compensation
 - **Iteration**: Practice iteration by breaking down design and development efforts to fit the release cadence of your group(s).
 - **Design system**: Be a primary contributor to the [Pajamas Design System](https://design.gitlab.com/) by building components, helping maintain the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771/component-library), and ensuring that components fit together visually and functionally.
 - **Design reviews**: Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews) by giving and receiving feedback in an appropriate way.
-- **UX debt**: Understand UX debt and make improvements directly to the product.
+- **Deferred UX**: Understand Deferred UX and make improvements directly to the product.
 - **Recruiting**: Help evaluate candidates during the interview process by participating on the interview panel.
 
 #### Requirements
@@ -75,7 +75,7 @@ The Senior UX Engineer is a [grade 7](http://about.gitlab.com/handbook/total-rew
 - **Iteration**: Practice iteration by breaking down design and development efforts to fit the release cadence of your group(s).
 - **Design system**: Be a primary contributor to the [Pajamas Design System](https://design.gitlab.com/) by building components, helping maintain the [Pajamas UI Kit](https://www.figma.com/community/file/781156790581391771/component-library), and ensuring that components fit together visually and functionally. Help organize and drive participation in Pajamas Migration Days and Hackathons.
 - **Design reviews**: Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews) and model best practices for giving and receiving feedback.
-- **UX debt**: Help reduce the creation of additional UX debt with MVCs and advocating the importance of releasing value to users within your group(s). Identify and influence the prioritization to fix UX debt when it occurs. Directly address UX debt by making improvements in the product.
+- **Deferred UX**: Help reduce the creation of additional Deferred UX with MVCs and advocating the importance of releasing value to users within your group(s). Identify and influence the prioritization to fix Deferred UX when it occurs. Directly address Deferred UX by making improvements in the product.
 - **Public presence**: Help promote GitLab publicly by writing blog articles, giving talks, publishing videos to GitLab Unfiltered, or responding on social media, where appropriate.
 - **Cross-stage collaboration**: Support your Product Design Manager and Product Manager in identifying dependencies between groups and stages, and advocating for cross-stage collaboration when needed.
 - **Mentoring**: Mentor other members of the UX department, both inside and outside of your group(s) on how to make changes directly in the product that help accelerate implementing design system components in the product, or to address usability issues.
@@ -89,7 +89,7 @@ The Senior UX Engineer role extends the UX Engineer role and is expected to exec
 
 - [Pajamas component migrations](http://about.gitlab.com/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
 - [SUS-impacting issues](http://about.gitlab.com/handbook/product/ux/performance-indicators/#sus-impacting-issues-openedclosed-each-month)
-- [UX debt](http://gitlab.com/handbook/product/ux/performance-indicators/#ux-debt)
+- [Deferred UX](http://gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
 
 ## Hiring Process
 

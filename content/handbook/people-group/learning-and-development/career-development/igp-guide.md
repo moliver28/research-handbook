@@ -93,9 +93,9 @@ The IGP is a dynamic tool to help support your growth and development. Workday w
 
 1. Select a format to track your progress. Consider [these examples]({{< ref "career-development#tracking-your-progress" >}}).
 1. Have at least one quarterly [career conversation]({{< ref "career-development#having-career-conversations" >}}) with your manager during a 1:1.
-1. Review your IGP before completing the [Engagement Survey]({{< ref "/handbook/people-group/engagement#cultureamp-engagement-survey-overview" >}}) to incorporate in your feedback on career growth.
+1. Review your IGP before completing the [Engagement Survey](/handbook/people-group/engagement#cultureamp-engagement-survey-overview) to incorporate in your feedback on career growth.
 1. Review before engaging in the [360 feedback program]({{< ref "360-feedback" >}}). Ask for feedback on your specific development areas.
-1. Include your lessons learned and growth opportunities in your [Talent Assessments]({{< ref "/handbook/people-group/talent-assessment" >}}).
+1. Include your lessons learned and growth opportunities in your [Talent Assessments](/handbook/people-group/talent-assessment).
 
 Below is a sample timeline that you may want to follow when it comes to tracking, reflecting and iterating on your IGP, aligning with each half of the fiscal year.
 
@@ -117,3 +117,6 @@ Below is a sample timeline that you may want to follow when it comes to tracking
 1. Listen to team members speak about non-linear careers at GitLab:
 
 {{< youtube "ttQv6tCaDD0" >}}
+
+1. An [Engineering specific IGP Template](https://docs.google.com/spreadsheets/d/1hYkaQrPYhnp8V_8woCrig4cqIiL0G7eEzlwBS-7wGPk/edit). This templates combines multiple resources such as the [Engineering Career Framework](https://handbook.gitlab.com/handbook/engineering/careers/matrix/), [Career Conversation Meeting Template](https://docs.google.com/document/d/1ugfwvhOcX6xPuxsn_oqZi7HV8364nQ5VnGO42IDlZkU/edit), and [Job Framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0)
+

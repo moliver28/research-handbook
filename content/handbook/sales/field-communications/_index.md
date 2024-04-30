@@ -4,12 +4,6 @@ title: "Field Communications"
 description: "The Field Communications team is responsible for creating effective, timely, and easily consumable communications with Sales and Customer Success audiences"
 ---
 
-
-
-
-
-
-
 ## Welcome to the Field Communications Page
 
 This team is responsible for creating effective, timely, and easily consumable communications with the Field team (Sales, Customer Success, Channel, Alliances, Revenue Strategy, Operations & Enablement). Our goal is to help the field sell better, faster, and smarter with communication programs that keep them better informed of organizational/business updates that impact their roles, as well as useful resources that will enable day-to-day work.
@@ -72,7 +66,7 @@ This update highly impacts the Field’s current priorities and/or day-to-day wo
 
 **Considerations**:
    1. **Due to the complexity, all Tier 1 announcements require at least 1-2 months notice to the Field Communicatiosn team.** As a general best practice, there should only be 2-3 Tier 1 updates per quarter to keep the Field focused on driving revenue.
-   1. Field Communications will enforce a blackout period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
+   1. Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
 
 ## Tier 2 Update
 
@@ -82,7 +76,7 @@ This update moderately impacts the Field’s current priorities and/or day-to-da
 
 **Considerations**:
    1. **Due to the complexity, all Tier 2 announcements require at least 1 month notice to the Field Communicatiosn team.**
-   1. Field Communications will enforce a blackout period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
+   1. Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
 
 ## Tier 3 Update
 
@@ -91,7 +85,7 @@ This update highly impacts the Field’s current priorities and/or day-to-day wo
 **Use Cases**: Process changes that require reps to change a behavior, major competitive intelligence that impacts GitLab’s position in the market, major Channel & Alliance partner updates, major Field organization changes, training or enablement.
 
 **Considerations**:
-   1. Field Communications will enforce a blackout period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
+   1. Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
 
 ## Tier 4 Update
 
@@ -101,7 +95,7 @@ This update moderately impacts the Field’s current priorities and/or day-to-da
 
 **Considerations**:
    1. Field Communications will limit the number of Field survey requests to one per month. Survey requests will be assessed and scheduled based on this cadence, and exceptions will be made on a case-by-case basis.
-   1. Field Communications will enforce a blackout period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
+   1. Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business.
 
 ## Tier 5 Update
 
@@ -133,9 +127,11 @@ Once you've reviewed the playbook above and would like to request Field Communic
       - Field Announcement::Tier 6
    1. Note: If the announcement request includes a request to survey some or all Field team members, the `Field Survey` tag will be applied to the issue and Field Communications will work with the requestor to determine if request fits within the survey limits set each month or if plans should be adjusted.
 3. Field Communications will collaborate with the requester on the announcement details and copy directly in the issue to finalize the roll-out plan and timeline.
-   - Field Communications will enforce a blackout period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business. Exceptions will be made on a case-by-case basis for urgent announcements that require the Field’s immediate attention (system outage, critical update affecting customers and/or closing business).  The blackout periods for FY24 & FY25 are as follows:
-      - Q3-FY24: 2023-10-17 - 2023-11-01
-      - Q4-FY24: 2024-01-17 - 2024-01-31
+
+### Field Comms Quiet Periods
+
+Field Communications will enforce a quiet period in the final two weeks of each quarter to limit distractions and allow the Field to focus on closing business. Exceptions will be made on a case-by-case basis for urgent announcements that require the Field’s immediate attention (system outage, critical update affecting customers and/or closing business).  The quiet periods for FY25 are as follows:
+
       - Q1-FY25: 2024-04-16 - 2024-04-30
       - Q2-FY25: 2024-07-17 - 2024-07-31
       - Q3-FY25: 2024-10-17 - 2024-10-31
