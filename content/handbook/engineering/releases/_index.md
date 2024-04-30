@@ -274,7 +274,6 @@ If you need any additional help please ask the Release Managers in the [#release
 [semver]: https://semver.org
 [canary]: /handbook/engineering#canary-testing
 [development month]: /handbook/engineering/workflow/#product-development-timeline
-[auto deploy transition]: https://gitlab.com/gitlab-org/release/docs/blob/21cbd409dd5f157fe252f254f3e897f01908abe2/general/deploy/auto-deploy-transition.md#transition
 [maintenance policy]: https://docs.gitlab.com/ee/policy/maintenance.html
 [gitlab-org/gitlab]: https://gitlab.com/gitlab-org/gitlab
 [release-tools]: https://gitlab.com/gitlab-org/release-tools
@@ -292,19 +291,11 @@ If you need any additional help please ask the Release Managers in the [#release
 [process-planned-patch-release]: /handbook/engineering/releases/patch_releases#planned-patch-release-process
 [process-unplanned-critical-patch-release]: /handbook/engineering/releases/patch_releases#unplanned-critical-patch-release-process
 [GitLab Security]: https://gitlab.com/gitlab-org/security/
-[security issue template]: https://gitlab.com/gitlab-org/security/gitlab/issues/new?issuable_template=Security+developer+workflow
-[security release backports]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md#backports
 [Hot patch]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/post-deployment-patches.md
 [pre.gitlab.com]: /handbook/engineering/infrastructure/environments/#pre
 [release.gitlab.net]: /handbook/engineering/infrastructure/environments/#release
-[How to fix a broken stable branch]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/how-to-fix-broken-stable-branch.md
-[post-deploy migrations]: https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html
-[post-deploy migration pipeline documentation]: https://gitlab.com/gitlab-org/release/docs/-/tree/master/general/post_deploy_migration
-[internal-pilot-question]: #where-i-can-learn-more-about-the-internal-patch-release-pilot-for-gitlab-engineers
 [backporting to versions outside the maintenance policy]: https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases
-[patch release documentation]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/process.md
 [patch release runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/engineers.md
-[patch release runbook for release managers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/release_managers.md
 [patch release policy]: https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases
 [release date]: https://about.gitlab.com/releases/
 [pre environment]: https://about.gitlab.com/handbook/engineering/infrastructure/environments/#pre
