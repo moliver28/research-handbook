@@ -88,7 +88,7 @@ Considerations include:
 
 #### Engineering Quarterly Achievers Nominations
 
-Prior to the start of the quarter, a call for nominations will go out. You may nominate as many people as you wish, provided they meet the [selection criteria](#selection-criteria).
+Prior to the start of the quarter, a call for nominations will go out. You may nominate as many people as you wish, provided they meet the [selection criteria](#selection-criteria). Add all relevant information to the text of your nomination – adding a link as SSOT is great, but ideally a nomination shouldn't require clicking through to anything to be understood and evaluated. Be aware that the text (but not your name!) may be shared with the nominee.
 
 ## Engineering Quarterly Achievers Past Winners
 
@@ -135,6 +135,7 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 ## Engineering Quarterly Achievers Process
 
 This process is followed by a delegate of the CTO Leads team at least 2 weeks before the end of the quarter, and is completed before the first all hands of the quarter.
+
 ### Accepting Nominations
 
 1. Create a copy of the `Engineering Quarterly Achievers Nomination Form - Template` in the [`Awards [Quarterly]` folder](https://drive.google.com/drive/search?q=type:folder%20%22achievers%20quarterly%22) on Drive. If you do not have access, ask the CTO's EBA for access.
@@ -164,5 +165,6 @@ This process is followed by a delegate of the CTO Leads team at least 2 weeks be
 
 For the next All-Hands, incorporate the final slides into primary deck! After All-hands, update this page with names of winners. Wooo! You're done until next quarter.
 
+##### Inform Nominees
 
-
+After winners have been announced, inform everyone who was nominated to spread awareness and happiness. Nominees should be informed privately, and without mentioning who nominated them.
