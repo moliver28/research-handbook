@@ -609,12 +609,9 @@
 /.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.gitignore @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/.idea/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.markdownlint-cli2.jsonc @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.vale.ini @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/.nova/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.vale/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/.vscode/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /config/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /content/_index.html @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /content/featured-background.png @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
