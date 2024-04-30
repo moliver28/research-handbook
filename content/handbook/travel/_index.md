@@ -14,7 +14,7 @@ In an emergency, International SOS (ISOS) can provide quick medical, safety, and
 
 Your coverage as a GitLab team member is automatic and is year-round. There are several ways to interact with ISOS, depending on your preference:
 
-- Team members can download the [ISOS emergency app](https://https://my.internationalsos.com/LP=8890?_ga=2.54701099.1827787566.1652889843-59998074.1652889840) — it’s the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address. Please use a unique password and not the same as your existing GitLab credentials.
+- Team members can download the [ISOS emergency app](https://www.internationalsos.com/subscriber/assistance-app) — it’s the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address. Please use a unique password and not the same as your existing GitLab credentials.
 Note that this is not a GitLab application and is managed by ISOS. You can read more about the app here.
 - If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS’s closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
 - If team members prefer not to download the app, we encourage you to follow this [link](https://myportal.internationalsos.com/WebPortal/MyOrganisation) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.

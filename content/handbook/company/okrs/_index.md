@@ -433,7 +433,7 @@ Company OKR progress will be shared in the first week of the month in the  follo
 
 ## Scoring OKRs
 
-Since we set OKRs that are aspirational, we [don't expect 100% achievement](/okrs/#criteria-for-key-results) across KRs. We score individual KRs to note our achievement against our stated goal. This is the scoring framework.
+Since we set OKRs that are aspirational, we [don't expect 100% achievement](/handbook/company/okrs/#criteria-for-key-results) across KRs. We score individual KRs to note our achievement against our stated goal. This is the scoring framework.
 
 | Achievement against targets | Score |
 | ------ | ------ |

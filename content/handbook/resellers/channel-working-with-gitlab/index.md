@@ -420,7 +420,8 @@ Authorized GitLab Partner fills out the NFR License Request Form which can be fo
 
 
 1. Partner Operations review the request and work with the Partner if additional information is needed.
-2. Once activated the requestor will receive a license key via email.
+2. Partner Operations submits a in Internal Support ticket for the NFR license to be provisioned. 
+2. Once provisioned the requestor will receive a license key via email for Self-Managed, or via their customer portal for SaaS. 
 
 
 ##### NFR Renewals
@@ -443,7 +444,7 @@ Request your license by logging in to the [Partner Portal](https://www.partners.
 
 Please allow two (2) business days for processing your request.
 
-*Partner Operations manage all NFR requests that fall within the NFR program rules. Any requests outside the program need to be requested, managed, and tracked through the account manager.
+*Partner Operations manage all NFR requests that fall within the NFR program rules. Any requests outside the program need to be requested, managed, and tracked through the account manager. Account managers should obtain approvals from their manager and from the Partner Programs team. Once received, they can email partnersupport@gitlab.com to request that the NFR exception be provisioned.
 
 
 ##### NFR Program Eligibility
@@ -476,6 +477,10 @@ To be eligible for the NFR Program, Partners must:
 
 [Support](https://about.gitlab.com/support) will be provided by the GitLab Support team. GitLab Solution Architects may also be available to help Partners build out training, testing, and lab environments.
 
+##### Add-ons to NFR Subscriptions
+
+- If you would like to purchase any add-on to your NFR license (CI minutes, Storage, Duo Pro, etc), please reach out to your Partner Account Manager for assistance in placing the order. If partners attempt to purchase NFR add-ons through their customer portal, their subscription will be downgraded to free. If you have been downgraded to free already, please contact [GitLab Support](https://about.gitlab.com/support/) for assistance.
+- Duo Pro is not yet available on NFR subscriptions; however we can provide a 30-day Duo-Pro trial. Please work with your Partner Account Manager and Solutions Architect to get this setup.
 
 #### Technical Support
 

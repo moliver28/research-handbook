@@ -22,7 +22,7 @@ These policies apply to all GitLab team members, contractors, advisors, and cont
 
 ## Translations
 
-There are translations available of many of our policies, for reference purposes, currently in Dutch, French and German, with further additions planned during FY25. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).
+There are translations available of many of our policies, for reference purposes, currently in Dutch, French, German and Spanish, with further additions planned during FY25. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).
 
 ## General Employment Practices
 

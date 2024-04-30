@@ -26,8 +26,8 @@ Product Security Engineering will take potential work from several areas:
 To reach the Product Security Engineering team, team members can:
 
 - Ask in `#sec-product-security-engineering` on Slack
-- Mention `@gitlab-com/gl-security/product-security-engineering` on GitLab
-- Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues)
+- Mention `@gitlab-com/gl-security/product-security/product-security-engineering` on GitLab
+- Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues)
 
 ## Workflow
 
@@ -43,7 +43,7 @@ Depending on the nature of the work it is added either to:
 When we take on work:
 
 1. Add the {{< label name="team::Product Security Engineering" color="#7d6b37" >}} label
-1. For internal issues: ensure it meets the criteria defined in [Automation Request template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/blob/main/.gitlab/issue_templates/automation_request.md) for automation work, or
+1. For internal issues: ensure it meets the criteria defined in [Automation Request template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/blob/main/.gitlab/issue_templates/automation_request.md) for automation work, or
 1. For product issues:
     1. Identify the relevant PM/EM are based on `group::` labels. If there are no `group::` labels, make a best effort to figure out what group it would be relevant to.
     1. Ping the group's PM/EMs. Say that we're working on this issue, do your best to align with any existing efforts, and highlight that after release it will belong to their team (similar to a community contribution).
@@ -141,7 +141,7 @@ The Product Security Engineering team defaults to using the namespaces of the st
 
 - For contributions to GitLab assets, we contribute to the relevant repositories where other work is performed
 - For AppSec related work, we use the [AppSec tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling) unless there is a compelling reason not to
-- For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/tooling)
+- For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/tooling)
 
 ## Milestone Planning
 
@@ -149,7 +149,7 @@ The Product Security Engineering team plans its work on a cadence based around [
 
 ### Milestone Planning Issue
 
-For each Milestone, a [Milestone Planning issue](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues/?label_name[]=Milestone Planning) is created in the Product Security Engineering team repository. The purpose of this issue is to:
+For each Milestone, a [Milestone Planning issue](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/?label_name[]=Milestone Planning) is created in the Product Security Engineering team repository. The purpose of this issue is to:
 
 - Identify potential work to perform
 - Identify refinement gaps and determine how to address them
@@ -160,7 +160,7 @@ This issue is the single source of truth for all planning related discussions an
 
 ### Milestone Planning Process
 
-1. An issue will be created using [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues/new?issuable_template=milestone_planning)
+1. An issue will be created using [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new?issuable_template=milestone_planning)
     1. The issue will be created immediately after planning is finished for the current Milestone
     1. Throughout the current Milestone, Product Security Engineering team members can add work to the upcoming Milestone's Parking Lot
 1. The Product Security Engineering manager will be responsible for completing the checklist items in the Planning Checklist section of the Milestone Planning issue
