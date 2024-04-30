@@ -9,7 +9,7 @@ Empowering GitLab with actionable insights to keep our organization and customer
 
 Help GitLab make informed, intelligence-driven decisions that keep our company and customers secure, while setting a new standard for transparency and collaboration across the industry.
 
-### Our Mission Statement
+## <i class="fas fa-compass" id="biz-tech-icons"></i> Our Mission Statement
 
 We will provide timely, relevant, and actionable intelligence that integrates into our security operations and broader business decision-making.
 
