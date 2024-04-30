@@ -33,11 +33,11 @@ The planned security release includes all security fixes ready at the time of re
     - All checkboxes checked to show all steps have been completed.
     - An AppSec and Maintainer approved MR targeting the default branch.
     - A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.
-    - The `~"security-target"` label is applied. This will automatically review the issue and link it to the security release tracking issue if it is ready.
+    - The {{< label name="security-target" color="#dc143c" >}} label is applied. This will automatically review the issue and link it to the security release tracking issue if it is ready.
 - **Step 2: Security release** - Release Managers start working on a security release several days ahead of the planned due date.
 Release Managers coordinate the release steps to make sure that all prepared fixes are safely released. Deployments to GitLab.com run in parallel. A release has the following phases:
     - **Step 3: First steps** - Release preparation begins when release managers run the `prepare` chatops command to create the new release task issue to guide the security release. From here they follow the checklist to complete the initial set up and communication issues needed to prepare the release.
-    - **Step 4: Early Merge Phase** - One to two days before the release due date the Release Managers deploy fixes to GitLab.com. Fixes with the `~"security-target"` label that are linked to the security release tracking issue will have the MR targeting the default branch merged. This allows fixes to be deployed to GitLab.com before they are released to self-managed users.
+    - **Step 4: Early Merge Phase** - One to two days before the release due date the Release Managers deploy fixes to GitLab.com. Fixes with the {{< label name="security-target" color="#dc143c" >}} label that are linked to the security release tracking issue will have the MR targeting the default branch merged. This allows fixes to be deployed to GitLab.com before they are released to self-managed users.
     - **Step 5: Release preparation** - the day before the release due date, Release Managers merge backports onto stable branches. Everything included must be deployed to GitLab.com, and backports must apply to all stable branches. Anything preventing this leads to fixes missing the release, or the release becoming delayed. When all fixes are merged, the Release Managers prepare and test the packages. If all tests pass, the packages can be published and an AppSec-prepared blog post is merged. At this point, the release is available to all users.
 - **Step 6: Resync the security and canonical repos**. To complete the release we re-sync the default branches, stable branches and tags to return to our default state of working in the open.
 
@@ -58,7 +58,7 @@ security release is needed the AppSec engineer will work with Release Managers t
     - All checkboxes checked to show all steps have been completed.
     - An AppSec and Maintainer approved MR targeting the default branch.
     - A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.
-    - The `~"security-target"` label is applied. This will automatically review the issue and link it to the security release tracking issue if it is ready.
+    - The {{< label name="security-target" color="#dc143c" >}} label is applied. This will automatically review the issue and link it to the security release tracking issue if it is ready.
 - **Step 2: Security release** - Release Managers start working on an Unplanned critical security release once a fix is available, and on the agreed timeline.
 Release Managers coordinate the release steps to make sure that all prepared fixes are safely released. Deployments to GitLab.com run in parallel. A release has the following phases:
     - **Step 3: First steps** - Release preparation begins when release managers run the `prepare` chatops command to create the new release task issue to guide the security release. From here they follow the checklist to complete the initial set up and communication issues needed to prepare the release.

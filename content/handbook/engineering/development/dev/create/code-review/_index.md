@@ -36,7 +36,7 @@ The Code Review group is responsible for the following product categories:
 
 ## Work
 
-In general, we use the standard GitLab [engineering workflow]. To get in touch with the Create:Code Review team, it's best to create an issue in the relevant project (typically [GitLab]) and add the `~"group::code review"` label, along with any other appropriate labels (`~devops::create`, `~section::dev`). Then, feel free to ping the relevant Product Manager and/or Engineering Manager as listed above.
+In general, we use the standard GitLab [engineering workflow]. To get in touch with the Create:Code Review team, it's best to create an issue in the relevant project (typically [GitLab]) and add the {{< label name="group::code review" color="#A8D695" light="true" >}} label, along with any other appropriate labels (`~devops::create`, `~section::dev`). Then, feel free to ping the relevant Product Manager and/or Engineering Manager as listed above.
 
 For more urgent items, feel free to use [#g_create_code_review] on Slack.
 

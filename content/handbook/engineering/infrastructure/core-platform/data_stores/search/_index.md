@@ -55,7 +55,7 @@ Whenever possible, we prefer to communicate asynchronously using issues, merge r
 
 ## Work
 
-We follow the general workflow and principles defined in [Product Development Flow](/handbook/product-development-flow/) and [Engineering Workflow](/handbook/engineering/workflow/). To bring an issue to our attention, please create an issue in the relevant project. Add the `~"group::global search"` label and any other suitable labels. If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/infrastructure/core-platform/data_stores/search/#stable-counterparts) section above.
+We follow the general workflow and principles defined in [Product Development Flow](/handbook/product-development-flow/) and [Engineering Workflow](/handbook/engineering/workflow/). To bring an issue to our attention, please create an issue in the relevant project. Add the {{< label name="group::global search" color="#a8d695" light="true" >}} label and any other suitable labels. If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/infrastructure/core-platform/data_stores/search/#stable-counterparts) section above.
 
 Below are a few guidelines the team follows in the day-to-day work.
 

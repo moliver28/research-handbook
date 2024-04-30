@@ -21,7 +21,7 @@ As defined in our [Product Development Timeline](/handbook/engineering/workflow/
 
 ## Bug Prioritization triage report
 
-An automated [Bug Prioritization triage report](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/template/group/bug-prioritization.yml.erb) is created for each group on a monthly basis containing the Top 10 open issues of `~"type::bug"`. The report is generated with issues that are prioritized based on the below conditions:
+An automated [Bug Prioritization triage report](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/template/group/bug-prioritization.yml.erb) is created for each group on a monthly basis containing the Top 10 open issues of {{< label name="type::bug" color="#cc0000" >}}. The report is generated with issues that are prioritized based on the below conditions:
   1. Severity based on label `severity::*`
   1. Security vulnerabilities based on label `bug::vulnerability`
   1. Customer issues based on label `customer`

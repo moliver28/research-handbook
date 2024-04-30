@@ -88,7 +88,7 @@ Check out the
 to better understand what this flow means in practice.
 
 If your issue/MR doesn't belong to a particular stage, you can remove the stage
-label and add the `~"automation:devops-mapping-disable"` label to prevent this
+label and add the {{< label name="automation:devops-mapping-disable" color="#FFECDB" light="true" >}} label to prevent this
 automation from happening in the future.
 
 ## Triage reports
@@ -167,7 +167,7 @@ If your team has enabled this, you will receive a list of up to 100 items that h
 
 ##### Feature proposals
 
-This section contains issues with the `~"type::feature"` label without a milestone. It is divided further into issues with and without `~"customer"`
+This section contains issues with the {{< label name="type::feature" color="#009966" >}} label without a milestone. It is divided further into issues with and without {{< label name="customer" color="#ad4363" >}}
 
 * Triage owner: Product Manager(s) for that group.
 * Triage actions:
@@ -177,7 +177,7 @@ This section contains issues with the `~"type::feature"` label without a milesto
 
 ##### Frontend bugs
 
-This section contains issues with the `~"type::bug"` and `~"frontend"` labels without priority and severity. It is divided further into issues with and without `~"customer"`
+This section contains issues with the {{< label name="type::bug" color="#cc0000" >}} and {{< label name="frontend" color="#3cb371" >}} labels without priority and severity. It is divided further into issues with and without {{< label name="customer" color="#ad4363" >}}
 
 * Triage owner: Frontend Engineering Manager(s) for that group.
 * Triage actions:
@@ -188,7 +188,7 @@ This section contains issues with the `~"type::bug"` and `~"frontend"` labels wi
 
 ##### Non-frontend bugs (likely backend)
 
-This section contains issues with the `~"type::bug"` label without priority and severity. It is divided further into issues with and without `~"customer"`
+This section contains issues with the {{< label name="type::bug" color="#cc0000" >}} label without priority and severity. It is divided further into issues with and without {{< label name="customer" color="#ad4363" >}}
 
 * Triage owner: Backend Engineering Manager(s) for that group.
 * Triage actions:
@@ -203,7 +203,7 @@ This section contains bugs which has past our targeted SLO based on the severity
 
 ##### Heatmap for ~customer bugs
 
-This section contains a table displaying the open issues for a group labelled with `~"customer"` and `~"bug"`. There is a breakdown by the assigned severity and priority labels
+This section contains a table displaying the open issues for a group labelled with {{< label name="customer" color="#ad4363" >}} and `~"bug"`. There is a breakdown by the assigned severity and priority labels
 
 #### Group level merge requests that may need attention
 
@@ -244,7 +244,7 @@ The feature flag triage reports are generated in a [quality toolbox scheduled pi
 
 #### Group level Bug Prioritization report
 
-This report contains [group](/handbook/product/categories/) level the Top 10 open issues of  `~"type::bug"` which needs to be prioritized for the upcoming milestone. It is divided further into issues with `~"severity::`, `~"bug::vulnerability"` and `~"customer"` labels and listed based on the oldest age of the issues
+This report contains [group](/handbook/product/categories/) level the Top 10 open issues of  {{< label name="type::bug" color="#cc0000" >}} which needs to be prioritized for the upcoming milestone. It is divided further into issues with `~"severity::`, {{< label name="bug::vulnerability" color="#CC0000" >}} and {{< label name="customer" color="#ad4363" >}} labels and listed based on the oldest age of the issues
 
 * Triage owner: Product Manager(s) and Engineering Manager(s) for that group.
 * Triage frequency: On 2nd of every month.
@@ -258,7 +258,7 @@ An example report: [2023-11-01 - Bugs Prioritization for "group::source code" fo
 
 #### Auto closure of triage reports
 
-Reports open for more than 2 weeks with the `~"triage report"` label will be closed automatically with the [close old triage reports](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/close-reports/close-old-triage-reports.yml) automation.
+Reports open for more than 2 weeks with the {{< label name="triage report" color="#34495E" >}} label will be closed automatically with the [close old triage reports](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/close-reports/close-old-triage-reports.yml) automation.
 
 ## Reactive workflow automation
 
@@ -505,7 +505,7 @@ about why it should not be added, and alternatives will be provided.
 
 #### Add customer label whenever a customer associated link is added
 
-The `~"customer"` label is applied when a customer associated link is applied.
+The {{< label name="customer" color="#ad4363" >}} label is applied when a customer associated link is applied.
 
 The following URLs are considered customer associated links:
 
@@ -517,7 +517,7 @@ The following URLs are considered customer associated links:
 Whenever a subtype label is added, the corresponding type label is added.
 Current type labels with subtype labels are:
 
-* `~"type::feature"`
+* {{< label name="type::feature" color="#009966" >}}
 * `~"type::tooling"`
 
 #### Merge request type label copy from related issues
@@ -724,22 +724,22 @@ Issues which have a severity label and missed the [SLO target](/handbook/enginee
 
 #### Bug priority label inference
 
-Bugs which have a severity 1 or severity 2 label without a priority label will be labeled with the equal priority label. For example, a `~severity::1` `~"type::bug"` without a priority label will have `~priority::1` applied.
+Bugs which have a severity 1 or severity 2 label without a priority label will be labeled with the equal priority label. For example, a `~severity::1` {{< label name="type::bug" color="#cc0000" >}} without a priority label will have `~priority::1` applied.
 
 * Automation conditions:
-  - `~"type::bug"` issue with `~severity::1` or `~severity::2` without a `~priority::*` label.
+  - {{< label name="type::bug" color="#cc0000" >}} issue with `~severity::1` or `~severity::2` without a `~priority::*` label.
 * Automation actions:
   * Apply the `~priority::*` label of the same level
 * Policy: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/hygiene/set-priority-from-severity.yml>
 
 #### Master broken categorization
 
-Issues or merge requests that have a label of `~"master:broken"` will have labels of `~"priority::1"` and `~"severity::1"` applied. This ensures that requests which break master are sufficiently categorized for reporting.
+Issues or merge requests that have a label of {{< label name="master:broken" color="#FF0000" >}} will have labels of {{< label name="priority::1" color="#cc0000" >}} and {{< label name="severity::1" color="#cc0000" >}} applied. This ensures that requests which break master are sufficiently categorized for reporting.
 
 * Automation conditions:
-  - Open issue or merge request with `~"master:broken"` label.
+  - Open issue or merge request with {{< label name="master:broken" color="#FF0000" >}} label.
 * Automation actions:
-  * The `~"priority::1"` and `~"severity::1"` labels are applied.
+  * The {{< label name="priority::1" color="#cc0000" >}} and {{< label name="severity::1" color="#cc0000" >}} labels are applied.
 * Example: <https://gitlab.com/gitlab-org/gitlab-ee/issues/12363>
 * Policy: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/hygiene/label-reminders.yml#L27-45>
 
@@ -751,7 +751,7 @@ This automation identifies potential and popular proposals using upvotes. This h
   * Issues with 10 or more upvotes are identified as potential
   * Issues with 50 or more upvotes are identified as popular
 * Automation actions:
-  * The label `~"potential proposal"` or `~"popular proposal"` is applied depending on the condition.
+  * The label {{< label name="potential proposal" color="#FFECDB" light="true" >}} or {{< label name="popular proposal" color="#FFECDB" light="true" >}} is applied depending on the condition.
 * Examples:
   * Potential: <https://gitlab.com/gitlab-org/gitlab-ce/issues/62067#note_ca6949d26c3d121c421b4f8b20f7e5dc2028c0a6>
   * Popular: <https://gitlab.com/gitlab-org/gitlab-ce/issues/55638#note_b15ea9cbc76b8dea82963d7f14a4a65da52c2b09>
@@ -762,14 +762,14 @@ This automation identifies potential and popular proposals using upvotes. This h
 GitLab values the time spent by contributors on reporting bugs. However, if a bug remains inactive for a very long period, it will qualify for auto-closure.
 The following is the policy for identification and auto-closure of inactive bugs.
 
-- If a `~"severity::3"` or `~"severity::4"` `~"type::bug"` issue is inactive for at least 12 months, it will be
+- If a {{< label name="severity::3" color="#fff600" light="true" >}} or {{< label name="severity::4" color="#008000" >}} {{< label name="type::bug" color="#cc0000" >}} issue is inactive for at least 12 months, it will be
 identified as eligible for auto-closure. At this point, the following actions occur:
-    - Application of `~"vintage"` to indicate the issue has been inactive for a year.
-    - Application of `~"stale"` to indicate that it is currently being identified for auto-closure.
+    - Application of {{< label name="vintage" color="#D5CABD" light="true" >}} to indicate the issue has been inactive for a year.
+    - Application of {{< label name="stale" color="#D5CABD" light="true" >}} to indicate that it is currently being identified for auto-closure.
     - Comment by GitLab Bot to the author to check whether the reported bug still persists and to comment accordingly within the next 7 days.
 - After 7 days, one of the below mentioned actions happen:
     - Issues which have not received a comment will be closed and the `~"auto-closed"` is applied.
-    - Issues with a comment from anyone other than the gitlab-bot in the last 7 days are considered active and `~"stale"` is removed
+    - Issues with a comment from anyone other than the gitlab-bot in the last 7 days are considered active and {{< label name="stale" color="#D5CABD" light="true" >}} is removed
 - Policy: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/hygiene/close-stale-bugs.yml>
 
 #### Prompt for Tier labels on issues
@@ -808,7 +808,7 @@ Type labels ensure that issues are present in the [group triage report](#group-l
 Bugs have a severity label that indicates the [SLO for a fix](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity). This automated policy aims to prompt managers about bugs in their group that are approaching the SLO threshold
 
 * Automation conditions:
-  - Open issue labelled `~"type::bug"` and has a `~severity::1` or `~severity::2`
+  - Open issue labelled {{< label name="type::bug" color="#cc0000" >}} and has a `~severity::1` or `~severity::2`
   - Time since current severity label was applied and today is over 75% towards the SLO threshold
 * Automation actions:
   *  Mention EM and PM on the issue to make them aware of the impending SLO breach
@@ -821,17 +821,17 @@ Issues with the ~infradev label should have a [severity label](/handbook/enginee
 
 * Automation conditions:
   - Open issue labelled `~infradev` and has no severity label, or no priority label, or no milestone set
-  - Issue doesn't have the `~"automation:infradev-missing-labels"` set
+  - Issue doesn't have the {{< label name="automation:infradev-missing-labels" color="#FFECDB" light="true" >}} set
 * Automation actions:
-  * The label `~"automation:infradev-missing-labels"` is applied
+  * The label {{< label name="automation:infradev-missing-labels" color="#FFECDB" light="true" >}} is applied
   * A message is posted to ask for a severity label, a priority label, and a milestone to be set on the issue
 *  Example: <TBD>
 *  Policy: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/hygiene/ask-severity-priority-for-infradev-issues.yml>
 
 Note:
 
-1. The `~"automation:infradev-missing-labels"` is automatically removed when a severity label, a priority label, and a milestone are set on the issue.
-1. The `~"automation:infradev-missing-labels"` is automatically removed after two weeks, leading to a new message being posted if the Automation Conditions above are still met.
+1. The {{< label name="automation:infradev-missing-labels" color="#FFECDB" light="true" >}} is automatically removed when a severity label, a priority label, and a milestone are set on the issue.
+1. The {{< label name="automation:infradev-missing-labels" color="#FFECDB" light="true" >}} is automatically removed after two weeks, leading to a new message being posted if the Automation Conditions above are still met.
    This effectively ensures that a reminder is posted on the issue every two weeks.
 ## Resources
 

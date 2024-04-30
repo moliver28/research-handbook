@@ -108,7 +108,7 @@ Interested reviewers for the projects below should complete the listed tasks in 
 
 Tips:
 
-- If you'd like a dashboard limited to just reviews where you applied the `~"database::reviewed"` label,
+- If you'd like a dashboard limited to just reviews where you applied the {{< label name="database::reviewed" color="#336791" >}} label,
   reach out to the database group manager to get one. 
 
 #### Project maintainer process for [`gitlab-components`](https://gitlab.com/components)

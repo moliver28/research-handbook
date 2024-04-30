@@ -13,7 +13,7 @@ This page is intended for helping find resources during emergencies. If this isn
 
 1. Label your issue to be triaged by the right team:
   - For operational or configuration issues, label them `~"team::Database Reliability"`
-  - For issues related to the packaged Postgres in Omnibus/Charts, label them `~"group::distribution"`
+  - For issues related to the packaged Postgres in Omnibus/Charts, label them {{< label name="group::distribution" color="#a8d695" light="true" >}}
   - For application issues, label them for the team responsible for that feature.
   - If you're not sure, take a look at the guide below for help identifying the right team.
 1. If the issue is blocking or you need to escalate:

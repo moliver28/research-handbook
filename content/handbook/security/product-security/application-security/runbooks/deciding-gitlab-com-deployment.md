@@ -2,7 +2,7 @@
 title: "Deciding which type of deployment is needed to fix a GitLab.com security issue"
 ---
 
-The following chart is intended for `~"severity::1"` issues. Other issues should follow the regular security release process.
+The following chart is intended for {{< label name="severity::1" color="#cc0000" >}} issues. Other issues should follow the regular security release process.
 
 ```mermaid
 flowchart TD

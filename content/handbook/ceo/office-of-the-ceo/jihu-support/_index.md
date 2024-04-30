@@ -82,7 +82,7 @@ There are times where [`main-jh` branch](https://jihulab.com/gitlab-cn/gitlab) i
 
 1. JiHu team will open an upstream MR with the resolution
 1. JiHu Engineering DRI will notify GitLab Inc with a message in [#main-jh-broken](https://gitlab-jh.slack.com/archives/C026EBMTRRB) to identify that the MR is escalated to the GitLab maintainers
-1. GitLab Facilitator will apply `~"JiHu Broken Pipeline"` label to the merge request and solicit a review from the appropriate domain (backend, frontend).
+1. GitLab Facilitator will apply {{< label name="JiHu Broken Pipeline" color="#ff0000" >}} label to the merge request and solicit a review from the appropriate domain (backend, frontend).
 1. GitLab Facilitator will notify GitLab Inc team members in the #jihu-engineering channel.
 1. JiHu will add the MR and root cause of the failure to <https://gitlab.com/gitlab-jh/gitlab-jh-enablement/-/issues/215>
 

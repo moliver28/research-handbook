@@ -185,7 +185,7 @@ Time: Every second Tuesday at 8:00am UTC.
 
 ### Issue refinement
 
-Every week the [refinement bot](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/refinement) assigns a team member as the refinement DRI, who is responsible for refining **some issues from the top of the `~"workflow::refinement"` list** (the list is prioritised top to bottom) in the [Milestone Board](#milestone-board) **and another issue of their choice** with a ping to the EM and/or PM explaining the reasoning.
+Every week the [refinement bot](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/refinement) assigns a team member as the refinement DRI, who is responsible for refining **some issues from the top of the {{< label name="workflow::refinement" color="#428BCA" >}} list** (the list is prioritised top to bottom) in the [Milestone Board](#milestone-board) **and another issue of their choice** with a ping to the EM and/or PM explaining the reasoning.
 
 The refinement process is described in the [issue template](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/refinement/-/blob/main/templates/default.erb).
 
@@ -235,8 +235,8 @@ The issues scheduled for a milestone can be tracked at [Milestone Board](https:/
 
 This board contains all the necessary columns to track the workflow of the team, in particular:
 
-- `~"workflow::refinement"` the list of issues that needs to be refined before they can be assigned.
-- `~"workflow::ready for development"` the list of issues that are ready to be worked on, both assigned and not assigned to the milestone.
+- {{< label name="workflow::refinement" color="#428BCA" >}} the list of issues that needs to be refined before they can be assigned.
+- {{< label name="workflow::ready for development" color="#428BCA" >}} the list of issues that are ready to be worked on, both assigned and not assigned to the milestone.
 - One or more Milestone columns containing the planned work for the given milestone.
 
 All the columns are prioritised top to bottom.

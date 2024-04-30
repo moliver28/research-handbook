@@ -82,7 +82,7 @@ Hence we strive to use group-level labels and boards to get the entire picture.
 
 #### Labels
 
-All issues pertaining to our team have the `~"team::Scalability-Observability"` label.
+All issues pertaining to our team have the {{< label name="team::Scalability-Observability" color="#5843ad" >}} label.
 
 All issues that are within scope of current work have a `~board::build` or `~board::planning` label.
 This is a measure to cut through noise on the tracker and allows us to get a view on what's currently important to us.

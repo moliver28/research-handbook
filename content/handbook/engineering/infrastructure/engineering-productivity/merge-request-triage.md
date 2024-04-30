@@ -26,7 +26,7 @@ We define three levels of triage.
 
 A merge request is considered initially triaged when it has a:
 
-- `~"Community contribution"` label applied
+- {{< label name="Community contribution" color="#a8d695" light="true" >}} label applied
 - "Thank you" message posted by [`@gitlab-bot`](https://gitlab.com/gitlab-bot) with more details on the process
 
 The initial triage is automated by the [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/) via the [Community contribution thank you note](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#community-contribution-thank-you-note) reactive triage automation.
@@ -36,7 +36,7 @@ The initial triage is automated by the [Contributor Success team](/handbook/mark
 A merge request is considered partially triaged when it has a:
 
 - [type label](https://docs.gitlab.com/ee/development/labels/index.html#type-labels) applied.
-  - (For `~"type::bug"` and `~"Deferred UX"`) It has a [severity label](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) applied.
+  - (For {{< label name="type::bug" color="#cc0000" >}} and {{< label name="Deferred UX" color="#7f8c8d" >}}) It has a [severity label](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) applied.
 - [stage label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) applied.
 - [group label](https://docs.gitlab.com/ee/development/labels/index.html#group-labels) applied (e.g. `~"group:editor"`). If no group label exists, the stage label is enough.
 
@@ -63,7 +63,7 @@ A merge request is considered completely triaged when it has:
 
 A merge request is considered completely triaged when it has a:
 
-- milestone set if the merge request with the `~"Community contribution"` label is merged.
+- milestone set if the merge request with the {{< label name="Community contribution" color="#a8d695" light="true" >}} label is merged.
 
 This triage process is automated by the [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/) via the [Add milestone to community contributions on Triage Operations](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#add-milestone-to-community-merge-requests) scheduled triage automation.
 

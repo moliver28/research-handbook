@@ -237,9 +237,9 @@ Links to previous examples. Discussions on prior art. Notice examples of the sim
 1. Update associated issues to be linked, marking as blocked where appropriate.
 1. Add a weight based on our definition ([see below](#estimation))
 1. Update the `~workflow::*` label to the appropriate status, e.g.
-    - `~"workflow::design"` if further design refinement is needed, and let the designer know.
-    - `~"workflow::ready for development"` when refinement is completed and a weight has been applied, signaling that it's ready for implementation and the issue can now be prioritized.
-    - `~"workflow::planning breakdown"` if extensive investigation and/or research is needed, the status does not move, and the PM and EMs should be informed. An issue remains in this workflow status while collaborating with others to clarify minor aspects of the issue.
+    - {{< label name="workflow::design" color="#428BCA" >}} if further design refinement is needed, and let the designer know.
+    - {{< label name="workflow::ready for development" color="#428BCA" >}} when refinement is completed and a weight has been applied, signaling that it's ready for implementation and the issue can now be prioritized.
+    - {{< label name="workflow::planning breakdown" color="#428BCA" >}} if extensive investigation and/or research is needed, the status does not move, and the PM and EMs should be informed. An issue remains in this workflow status while collaborating with others to clarify minor aspects of the issue.
 1. Unassign themselves from the issue when they are done refining and weighing the issue.
 
 #### Splitting issues
