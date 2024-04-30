@@ -47,6 +47,10 @@ The following can be used as a guide on what actions could be taken before your 
 
 - Move any important Google Docs from your personal [My Drive](https://drive.google.com/drive/my-drive) to a [Shared Drive](https://drive.google.com/drive/shared-drives) so that they will be available to your team and manager after you exit.
 
+### Google Calendar
+
+- Clear off any recurring meeting entries by deleting any that you host and ask someone from your team to create new ones moving forward. This is best practice as your Zoom account will no longer be licensed after your last day, any Zoom recordings will not be saved.
+
 ### Other accounts
 
  Set up accounts that you'll need access to after your last day. Ensure your personal email address is up to date with these accounts. They may include:
