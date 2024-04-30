@@ -52,6 +52,16 @@ At the outset, it's important to note the diverse composition of our marketing s
 <td>Significant performance issues</td>
 <td></td>
 </tr>
+<tr>
+<td>During working hours: Post in #digital-experience slack channel</td>
+<td>During working hours: Post in #digital-experience slack channel</td>
+<td>During working hours: Post in #digital-experience slack channel</td>
+</tr>
+<tr>
+<td>Outside of working hours: Follow the [steps outlined below] ( Link to the section #outside-of-digital-experience-team-working-hours)</td>
+<td>Outside of working hours: Create an issue and post in #digital-experience-team</td>
+<td>Outside of working hours: Create an issue and post in #digital-experience-team</td>
+</tr>
 </tbody>
 </table>
 
