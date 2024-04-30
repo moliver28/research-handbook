@@ -43,6 +43,8 @@ All reports, regardless of type, will always:
   - How well is GitLab prepared to deal with this threat today?
   - What steps is GitLab taking to better handle this threat?
 
+The specific reports types we offer are described below.
+
 #### Flash Reports
 
 Flash Reports are delivered on an ad-hoc basis, in response to a rapidly emerging threat. They focus on a single topic - generally a specific threat actor, campaign, or vulnerability.
