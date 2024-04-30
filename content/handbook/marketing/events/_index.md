@@ -22,13 +22,14 @@ There are 3 groups within marketing who handle external events. Each group has a
 
 
 
-### Legal verbiage that should be included in all event contracts thoughout FY22
+### Legal verbiage that should be included in all event contracts
 
 - This language is what we should be adding to supplier agreements (when agreeing on their template):
   - "Termination for Convenience. GitLab may terminate this Agreement, any SOW or Order, or all at any time, for no reason or for any reason, upon notice to Vendor. Upon receipt of notice of such termination, Vendor shall inform GitLab of the extent to which it has completed performance as of the date of the notice, and Vendor will collect and deliver to GitLab whatever Work Product then exists, if applicable. GitLab will pay Vendor for all Work acceptably performed through the date of notice of termination, provided that GitLab will not be obligated to pay any more than the payment that would have become due had Vendor completed and GitLab had accepted the Work. GitLab will have no further payment obligation in connection with any termination. Upon termination or expiration of this Agreement, Vendor shall return or destroy any GitLab Confidential Information and provide certification thereof."
 - In the event that any supplier does not accept the termination for convenience language here, then, we can following up with this option
   - "Neither party shall be liable to the other for delays or failures in performance resulting from causes beyond the reasonable control of that party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties (“Force Majeure”).
 - In the event of a Force Majeure impact on the performance of either party, then the parties are immediately relieved of obligation to perform. From notice to supplier, GitLab is relieved of the payment obligation. As soon as is practical, but not more than sixty (60) days from GitLab’s notice to supplier, GitLab shall receive from supplier a pro-rata refund of, any fees previously paid, from the date of notice to supplier to the end of the term."
+- Required details for leads shared include: first name, last name, company, title, email 
 
 ## Which events is GitLab already sponsoring?
 
@@ -202,7 +203,7 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 1. PR
    - Start issue using the [announcement template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=announcement) in the Corporate Marketing project for any company, partner or product news that is expected to be announced/timed around  the event. More details on the Request for External Announcements process can be found in the Corporate Communications handbook [here](/handbook/marketing/corporate-communications/#requests-for-external-announcements).
 1. Design
-   1. For the latest approved booth design & messaging, email `events@gitlab.com`.
+   1. For the latest approved booth design & messaging, [please see here](https://www.figma.com/file/pJvEWjV5ajSycyAlV1l69I/FY25-Final-Event-Booth-Creative-Chart?type=design&node-id=0-1&mode=design&t=cuVT3bWxORR2QUNu-0). 
    1. Open issue in the `Corporate Marketing` project for booth design. Assign to Design team and provide booth spec and due date. Provide as much notice as possible.
    1. For any content or major layout changes, tag Product and Solution Marketing and Design in the related booth design issue created in the `Corporate Marketing` project.
 1. Digital

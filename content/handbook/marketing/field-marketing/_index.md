@@ -400,7 +400,6 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - **Contract Requests:** 3 business days
 - **Plan to WIP Requests** - 5 business days
 - **Copy to FMCs for Review** - 24 hours
-- **Triage Request to Triage Manager** - 24 hours
 - **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) (not including the day the triage request is sent)
 
 ## Items required by FMM to request moving an issue from Plan to WIP
@@ -689,14 +688,20 @@ If you are interested in ordering new swag, please open a [Swag Request Issue](h
 
 ## EMEA Field Marketing Swag
 
-The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/#project-management) to source, fulfill, ship and store (European adn Uk warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://www.tenandone.com) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics.
+The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://www.tenandone.com) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
 
-**Invoicing:** All invoices for Field Marketing are required to include the campaign's Allocadia ID to allow for proper finance coding.
+- **Budget Allocation:** 
+     * If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event. 
+     * If swag is required from the bulk order (e.g AWS, GCP, smaller events) the FMM should assign budget and move it to All EMEA per Quarter. 
+     * If the event e.g Connect Day is handled by Ten & One as an all-in budget under the contract with Ten & One this should be included in that event sponsorship line item within the FMM's regional plan.
+Please note shipping cost to be included in the SWAG cost that you budget per event.
+
+- **Invoicing:** All invoices for Field Marketing are required to include the campaign's Allocadia ID to allow for proper finance coding.
 
 - **Existing Items:** Item descriptions and quantities are listed on the Reachdesk portal, please reach out to `@helenadixon` for current inventory levels.
 - **New Items and Designs:** Requests for new swag items not already available require management approval. Any new swag designs must be approved by the brand team for brand consistency. You can suggest new designs in the swag slack channel or more formally in an issue in the [Swag Project](https://gitlab.com/gitlab-com/swag_suggestions).
 - **Large Orders:** For orders over 500 pieces, contact `@helenadixon` for assistance.
-- **Shipping:** Please make sure to specify all shipping requirements and deadlines when ordering your items.
+- **Shipping:** Please make sure to specify all shipping requirements and deadlines when ordering your items and include in the swag section of the relevent issue.
 - **Lead Times:** Please be aware that ordering newly designed swag or placing reorders for existing items requires adequate lead time. Timeframes vary greatly based on the items selected and design approval. General Lead Times: 6 weeks to produce a new item and 2-3 weeks to reorder current designs.
 - **Stickers:** For sticker orders, please utilize our [Sticker Mule](https://www.stickermule.com/) account or contact `@helenadixon` for assistance with ordering.
 Delivery options and timelines are provided during the ordering process. Any new sticker designs must be approved by the brand team for brand consistency. You can suggest new designs in the swag slack channel or more formally in an issue in the [Swag Project](https://gitlab.com/gitlab-com/swag_suggestions).
@@ -1123,17 +1128,19 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 
 ## FMM/CAM alignment
 
-| Region | FMM | CAM |
+| Region | FMM | PTM |
 | ------ | ------ | -------------- |
-| AMER East & Canada | Beth Parker | Maria Henry |
-| AMER South Central & LATAM | Jonathan Santiago | Rodrigo Rios - LATAM and Joe McAninch - Central |
-| AMER North Central | Julie Wyatt | Joe McAninch - Central |
-| AMER Southwest & Northwest | Lisa Rom | TBD |
+| AMER East & Canada Enterprise| Beth Parker | Jay Bahar |
+| AMER South Central & LATAM Enterprise| Jonathan Santiago | Rodrigo Rios - LATAM and Joe McAninch - Central |
+| AMER North Central Enterprise| Julie Wyatt | Joe McAninch - Central |
+| AMER Southwest & Northwest Enterprise | Lisa Rom | Kyle Olsen |
+| AMER ALL Commercial | Beth Parker, Jonathan Santiago, Julie Wyatt and Lisa Rom | Lisa Cartegna - AMER Commerical NAMED|
+| AMER ALL Commercial | Beth Parker, Jonathan Santiago, Julie Wyatt and Lisa Rom | Maria Henry- AMER Commerical |
 | AMER Public Sector | Kira Aubrey | Chris Novello|
 | APAC | Kate Baker | Dirk de Vos |
 | APAC - Japan | Shu Kawaguchi |  |
-| EMEA Southern Europe | Marcus Hall (Juliette Francon on Mat Leave) | Tristan Ouin |
-| EMEA MEA | Marcus Hall (Juliette Francon on Mat Leave) | TBD |
+| EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
+| EMEA MEA | Marcus Hall & Juliette Francon | TBD |
 | EMEA Northern Europe | Neha Pujari| Michal Kulakowski |
 | EMEA UK/I | Neha Pujari | TBD |
 | EMEA Central Europe | Sarina Kraft | Ilaria Pazienza |

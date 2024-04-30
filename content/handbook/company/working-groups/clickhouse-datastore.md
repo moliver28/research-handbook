@@ -68,7 +68,7 @@ This Working Group has the following goals:
 | [Develop a ClickHouse rollout strategy and plan](https://gitlab.com/groups/gitlab-com/-/epics/2077) | 2023-01-05 | | 60% | Sam Goldstein |
 | [Develop Recommendation for ClickHouse Ownership Model](https://gitlab.com/groups/gitlab-com/-/epics/2094) | | | 0% | |
 | [Develop and implement a communication plan for the working group](https://gitlab.com/groups/gitlab-com/-/epics/2078) | 2023-01-18 | | 0% | Nicole Williams |
-| [Complete production readiness through to GA](https://gitlab.com/groups/gitlab-com/-/epics/2316) | 2023-08-04 | | 50% | Nathan Rosandich |
+| [Complete production readiness through to GA](https://gitlab.com/groups/gitlab-com/-/epics/2316) | 2023-08-04 | | 75% | Nathan Rosandich |
 
 ### Current and Planned Use Cases
 

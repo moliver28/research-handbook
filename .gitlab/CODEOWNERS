@@ -66,7 +66,7 @@
 ^[Company-culture]
 /content/handbook/company/culture/ @streas
 /content/handbook/company/culture/all-remote/ @streas
-/content/handbook/company/culture/contribute/ @akramer
+/content/handbook/company/culture/summit/ @akramer
 /content/handbook/company/culture/cross-culture-collaboration-guide.md @glucchesi @wendybarnes
 /content/handbook/company/culture/gitlab-101.md @chrisweber44 @streas
 /content/handbook/company/culture/inclusion/ @wendybarnes
@@ -545,7 +545,7 @@
 /content/handbook/security/security-operations/security-logging/ @mcoons
 /content/handbook/security/threat-management/ @smanzuik @estrike
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
-/content/handbook/security/threat-management/red-team/ @cmoberly
+/content/handbook/security/security-operations/red-team/ @cmoberly
 /content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila
 /content/job-families/chief-information-security-officer.md @robin @fofungwu
 
@@ -609,12 +609,9 @@
 /.editorconfig @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.gitignore @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.gitlab-ci.yml @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/.idea/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.markdownlint-cli2.jsonc @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.vale.ini @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/.nova/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /.vale/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
-/.vscode/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /config/ @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend
 /content/_index.html @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
 /content/featured-background.png @gitlab-com/content-sites @gitlab-com/content-sites/handbook-backend @gitlab-com/egroup
