@@ -32,7 +32,7 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::ThreatModel | Indicates the work was associated to the AppSec threat model duties |
 | AppSecWorkType::JihuMRreview | Indicates the work was associated to the AppSec JiHu merge request reviews duties |
 | AppSecWorkType::AppSecReview | Indicates the work was associated to the AppSec reviews duties |
-| AppSecWorkType::okr | Indicates the work was associated to the AppSec OKR/KR duties |
+| AppSecWorkType::KR | Indicates the work was associated to the AppSec OKR/KR duties |
 | AppSecWorkType::SecurityReleaseRotation | Indicates the work was associated to the AppSec Security release task issue duties |
 | AppSecWorkType::VulnFixVerification | Indicates the work was associated to the AppSec stable counterpart duties |
 | AppSecWorkType::HackerOneRotation | Indicates the work was associated to the AppSec HackerOne duties |
