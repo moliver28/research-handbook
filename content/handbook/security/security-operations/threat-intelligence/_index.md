@@ -33,7 +33,7 @@ By executing on this mission, we will:
 
 ### Threat Intelligence Reports
 
-Reports are the foundation of our Threat Intelligence program and will always be actionable. We use GitLab.com to write the reports - this makes collaboration easy and allows us to directly link the intelligence to the results it drives.
+Reports are the foundation of our Threat Intelligence program and will always be actionable. We use GitLab.com to write the reports - this makes collaboration easy and allows us to directly link to recommendations and results.
 
 All reports, regardless of type, will always:
 
