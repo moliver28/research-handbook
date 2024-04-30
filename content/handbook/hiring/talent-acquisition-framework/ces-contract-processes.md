@@ -681,7 +681,7 @@ To initiate the process to submit the contract for e-signatures via DocuSign:
 
 1. CES will ensure that the start date is either a Monday, or the 1st or 16th of the month
 1. CES will send German Contract Step 1 template email via Greenhouse
-1. Offer can be sent through Greenhouse and DocuSign. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/  #entity-contract-signatories)
+1. Offer can be sent through Greenhouse and DocuSign. Please use the signatories listed against the German Entity as per this [table](https://handbook.gitlab.com/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
 1. Download a copy of the unsigned contract on your desktop (*additional steps below).
 1. Initiate the background check. Please use the Germany Package from the drop down in Sterling.
 
