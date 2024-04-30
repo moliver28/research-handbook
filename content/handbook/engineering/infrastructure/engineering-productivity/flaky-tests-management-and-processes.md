@@ -68,6 +68,10 @@ You can leave any feedback about this process in the [dedicated issue](https://g
 - Define acceptable thresholds for action like quarantining/focus on refactoring
 - Step towards unlocking [Merge train](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/195)
 
+### Flaky tests management in end-to-end tests
+
+The end-to-end tests follow a separate process of automatically quarantining flaky tests as [outlined here](/handbook/engineering/infrastructure/test-platform/blocking-tests/#managing-test-failures).
+
 ## Additional resources
 
 - [Flaky tests technical documentation](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html)
