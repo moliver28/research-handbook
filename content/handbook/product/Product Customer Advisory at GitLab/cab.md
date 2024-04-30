@@ -1,5 +1,4 @@
 ---
-aliases: /
 title: "Product Customer Advisory Boards"
 ---
 ### GitLab Product Customer Advisory Boards
