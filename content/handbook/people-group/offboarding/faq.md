@@ -33,7 +33,7 @@ The following can be used as a guide on what actions could be taken before your 
 - If you feel comfortable, send a message in the [#team-member-updates](https://gitlab.slack.com/archives/CL55Q4U0K) Slack channel notifying everyone of your departure.
 -
 
-## Laptop and IT-related steps
+## Your Laptop and Account steps
 
 ### GitLab.com
 
@@ -46,6 +46,10 @@ The following can be used as a guide on what actions could be taken before your 
 ### Google Drive
 
 - Move any important Google Docs from your personal [My Drive](https://drive.google.com/drive/my-drive) to a [Shared Drive](https://drive.google.com/drive/shared-drives) so that they will be available to your team and manager after you exit.
+
+### Google Calendar
+
+- Delete any recurring meeting entries hosted by you and ask someone from your team to create new ones moving forward if needed. This is best practice as your Zoom account will no longer be licensed after your last day, any Zoom recordings will not be saved.
 
 ### Other accounts
 
