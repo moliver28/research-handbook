@@ -37,7 +37,7 @@ The end-to-end process consists on the following stages:
     the current commit running on GitLab.com. Pending GitLab.com availability, a different commit might be choosen, this means that the availability and
     stability of GitLab.com deployments will determine the cutoff date for inclusion in the release. This commit is announced in multiple Slack engineering channels, including
     [#releases], [#development], [#backend] and [#frontend].
-1 **Release candidate** - A test release candidate (RC) is created, along with a stable branch for the targeted [semver] version. The release candidate package is built,
+1. **Release candidate** - A test release candidate (RC) is created, along with a stable branch for the targeted [semver] version. The release candidate package is built,
     tested and deployed to the [pre environment]. A successful outcome indicates this package can be used as the final version. At this point [release managers] will
     announce the final commit to be included in the release.
 1. **Tag** - Release managers tag the final version of the release based on the release candidate. The release is built and deployed to the [Release environment].
@@ -274,7 +274,6 @@ If you need any additional help please ask the Release Managers in the [#release
 [semver]: https://semver.org
 [canary]: /handbook/engineering#canary-testing
 [development month]: /handbook/engineering/workflow/#product-development-timeline
-[auto deploy transition]: https://gitlab.com/gitlab-org/release/docs/blob/21cbd409dd5f157fe252f254f3e897f01908abe2/general/deploy/auto-deploy-transition.md#transition
 [maintenance policy]: https://docs.gitlab.com/ee/policy/maintenance.html
 [gitlab-org/gitlab]: https://gitlab.com/gitlab-org/gitlab
 [release-tools]: https://gitlab.com/gitlab-org/release-tools
@@ -292,19 +291,11 @@ If you need any additional help please ask the Release Managers in the [#release
 [process-planned-patch-release]: /handbook/engineering/releases/patch_releases#planned-patch-release-process
 [process-unplanned-critical-patch-release]: /handbook/engineering/releases/patch_releases#unplanned-critical-patch-release-process
 [GitLab Security]: https://gitlab.com/gitlab-org/security/
-[security issue template]: https://gitlab.com/gitlab-org/security/gitlab/issues/new?issuable_template=Security+developer+workflow
-[security release backports]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md#backports
 [Hot patch]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/post-deployment-patches.md
 [pre.gitlab.com]: /handbook/engineering/infrastructure/environments/#pre
 [release.gitlab.net]: /handbook/engineering/infrastructure/environments/#release
-[How to fix a broken stable branch]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/how-to-fix-broken-stable-branch.md
-[post-deploy migrations]: https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html
-[post-deploy migration pipeline documentation]: https://gitlab.com/gitlab-org/release/docs/-/tree/master/general/post_deploy_migration
-[internal-pilot-question]: #where-i-can-learn-more-about-the-internal-patch-release-pilot-for-gitlab-engineers
 [backporting to versions outside the maintenance policy]: https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases
-[patch release documentation]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/process.md
 [patch release runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/engineers.md
-[patch release runbook for release managers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/release_managers.md
 [patch release policy]: https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases
 [release date]: https://about.gitlab.com/releases/
 [pre environment]: https://about.gitlab.com/handbook/engineering/infrastructure/environments/#pre
