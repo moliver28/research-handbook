@@ -33,7 +33,9 @@ By executing on this mission, we will:
 
 ### Threat Intelligence Flash Reports
 
-...
+Flash Reports are delivered on an ad-hoc basis, in response to a rapidly emerging threat. They focus on a single topic - generally a specific threat actor, campaign, or vulnerability.
+
+These reports help GitLab make quick decisions to protect our customers and our organization.
 
 ### Scheduled Threat Briefings
 
