@@ -1,11 +1,11 @@
 ---
 
-title: Sales Development Vault
-description: Use this page to find all the other complementary processes we use in the Sales Development org, like creating a new sequence or booking time off. Additionally, research all the additional knowledge that we've documented that can help you perfect your craft.
+title: Sales Development Knowledge Vault
+description: Information and knowledge that can help to improve your skills. Includes managerial-level processes, manager or team member onboarding, and tool walkthroughs.
 
 ---
 
-## Sales Development Vault
+## Sales Development Knowledge Vault
 
 This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to be the in-depth knowledge base of our org. The content below is sourced from the input of many past team members and is here for you to perfect your inbound and outbound sales development skills. 
 
