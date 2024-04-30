@@ -33,7 +33,7 @@ The following can be used as a guide on what actions could be taken before your 
 - If you feel comfortable, send a message in the [#team-member-updates](https://gitlab.slack.com/archives/CL55Q4U0K) Slack channel notifying everyone of your departure.
 -
 
-## Laptop and IT-related steps
+## Your Laptop and Account steps
 
 ### GitLab.com
 
