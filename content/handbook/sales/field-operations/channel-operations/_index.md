@@ -420,15 +420,15 @@ _The Partner Portal is hosted by Impartner and has SSO enabled with Vartopia, th
 The partner submits a Partner Sourced Deal Registration and then the following occurs:
 1. An email is sent to the partner acknowledging that the deal registration has been successfully created and submitted. The registration is also viewable in the deal registration section of the partner’s portal account.
 2. The system creates a Registration record on the Registration object in SFDC that includes all the details of the registration.
-3. The system notifies the Managed Services team to review the registration.
+3. Partner Operations review the registration in SFDC.
 
-**Managed Services Team**
+**Partner Operations**
 
-The Managed Services team reviews the registration after it is submitted by the partner (`DR-Status` = “Submitted”). If there is:
+Partner Operations team reviews the registration after it is submitted by the partner (`DR-Status` = “Submitted”). If there is:
 - *an existing customer account in SFDC*, they will link the account and contact to the registration, assign the appropriate Partner Manager, then submit the registration for Partner Manager approval.
-- *no existing customer account in SFDC*, they will create the account, link the account and contact to the registration, then hold for SFDC to assign the account territory and owner in an overnight update. The Managed Services team will assign the appropriate Partner Manager to the registration after customer account assignments are completed by system, then submit the registration for Partner Manager approval.
+- *no existing customer account in SFDC*, they will create the account, link the account and contact to the registration, then hold for SFDC to assign the account territory and owner in an overnight update. Partner Operations team will assign the appropriate Partner Manager to the registration after customer account assignments are completed by system, then submit the registration for Partner Manager approval.
 
-The Partner Manager on the registration is automatically assigned as the `Account Owner` of the Partner Account in SFDC. GitLab’s Managed Services team will reassign the registration to the correct Partner Manager as part of their review in cases where adjustment is required to align the appropriate Partner Manager based on customer account territory or ownership. The Managed Services team has a 2 hour SLA to action registrations within their working hours of 8am to 6pm ET, Monday through Friday.
+The Partner Manager on the registration is automatically assigned as the `Account Owner` of the Partner Account in SFDC. Partner Operations will reassign the registration to the correct Partner Manager as part of their review in cases where adjustment is required to align the appropriate Partner Manager based on customer account territory or ownership. 
 
 **GitLab Partner Manager**
 
@@ -444,7 +444,7 @@ Alliance marketplace and OEM partners, and GSI partners do source opportunities 
 
 The steps below outline how a Partner Sourced Deal Registration is submitted on behalf of an alliance or GSI partner to initiate the Deal Registration process:
 1. The GitLab Partner Manager opens the [Alliance and GSI Partner Sourced Deal Registration](https://docs.google.com/document/d/16wTiDbwBoomUmnu2y4OmAAdC4VpvMIUGL1k4vdSrl2Y/edit?usp=sharing) document and follows the instructions to submit a Registration via the google form.
-2. The Managed Services team uses the data provided in the google form to submit a formal Partner Sourced Deal Registration via Vartopia on behalf of the partner.
+2. Partner Operations team uses the data provided in the google form to submit a formal Partner Sourced Deal Registration via Vartopia on behalf of the partner.
 3. The standard Partner Sourced Deal Registration process is then followed beginning with the “Partner” paragraph at the top of this handbook section.
 
 *Note, Partner Sourced Deal Registration incentives do not apply to alliance partners, as our alliance partner agreements supersede these programmatic incentives.*
@@ -503,7 +503,7 @@ Follow the steps below to process a Partner Sourced Deal Registration for a resa
 
 #### Partner Manager for first review and action
 
-1. The Managed Services Team:
+1. Partner Operations Team:
    - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Manager review while in `DR-Status` = *Submitted*.
    - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Manager to review and action the registration.
 2. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
@@ -548,7 +548,7 @@ Follow the steps below to process a Partner Sourced Deal Registration for an MSP
 
 #### Partner Manager for first review and action
 
-1. The Managed Services Team:
+1. Partner Operations Team:
    - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Manager review while in `DR-Status` = *Submitted*.
    - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Manager to review and action the registration.
 2. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
@@ -594,7 +594,7 @@ Follow the steps below to process a Partner Sourced Deal Registration for a Refe
 
 #### Partner Manager for first review and action
 
-1. The Managed Services Team:
+1. Partner Operations Team:
    - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Manager review while in `DR-Status` = *Submitted*.
    - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Manager to review and action the registration.
 2. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
@@ -639,7 +639,7 @@ Follow the steps below to process a Service Attached Registration for an applica
 
 #### Partner Manager for first review and action
 
-1. The Managed Services Team:
+1. Partner Operations Team:
    - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Manager review while in `DR-Status` = *Submitted*.
    - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Manager to review and action the registration.
 2. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
