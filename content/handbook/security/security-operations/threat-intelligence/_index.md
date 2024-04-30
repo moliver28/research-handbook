@@ -57,4 +57,4 @@ By executing on this mission, we will:
 
 ## <i class="fas fa-link" id="biz-tech-icons"></i> Additional Resources
 
-...
+- [Threat Intelligence Templates](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates): Public template repository for reports, RFIs, etc.
