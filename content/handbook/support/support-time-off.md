@@ -151,7 +151,7 @@ If they want to pause, put the ticket on-hold. Otherwise:
    process to arrange for others to take care of your tickets in your absence.
 1. To ensure you're not auto-assigned to GDPR requests:
 
-   - Update the corresponding `yaml` file for yourself here: https://gitlab.com/gitlab-com/support/team/-/tree/master/data/agents?ref_type=heads
+   - Update the corresponding `yaml` file for yourself here: `https://gitlab.com/gitlab-com/support/team/-/tree/master/data/agents?ref_type=heads`
    - Change `works_account_deletion: true` to `works_account_deletion: false`
    - Assign the MR to your manager.
    - Make sure to undo this change when you return from OOO.
