@@ -49,7 +49,7 @@ The following can be used as a guide on what actions could be taken before your 
 
 ### Google Calendar
 
-- Clear off any recurring meeting entries by deleting any that you host and ask someone from your team to create new ones moving forward. This is best practice as your Zoom account will no longer be licensed after your last day, any Zoom recordings will not be saved.
+- Delete any recurring meeting entries hosted by you and ask someone from your team to create new ones moving forward if needed. This is best practice as your Zoom account will no longer be licensed after your last day, any Zoom recordings will not be saved.
 
 ### Other accounts
 
