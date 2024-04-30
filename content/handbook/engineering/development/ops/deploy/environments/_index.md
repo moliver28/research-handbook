@@ -312,8 +312,7 @@ Best practices for managing multi-part bug issues:
   - Except for severity and priority, Labels should be copied over.
   - Due dates should keep in mind the due date of the epic, which is based on
     severity and priority.
-  - Deliverable should be applied in accordance with the deliverability of the
-    epic.
+  - Deliverable labels should be applied if the epic is deliverable.
   - DRI can use the Milestone Planning issue and/or reach out to relevant team
     members to ask if there's availability within the Due Date. cc your
     engineering manager so they can give a high level thumbs up/thumbs down
