@@ -31,13 +31,25 @@ By executing on this mission, we will:
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
-### Flash Reports
+### Threat Intelligence Reports
+
+Reports are the foundation of our Threat Intelligence program and will always be actionable. We use GitLab.com to write the reports - this makes collaboration easy and allows us to directly link the intelligence to the results it drives.
+
+All reports, regardless of type, will always:
+
+- Include linked issues with clearly defined next-steps to address each topic covered
+- Answer the following questions for each threat addressed:
+  - How is this relevant to GitLab?
+  - How well is GitLab prepared to deal with this threat today?
+  - What steps is GitLab taking to better handle this threat?
+
+#### Flash Reports
 
 Flash Reports are delivered on an ad-hoc basis, in response to a rapidly emerging threat. They focus on a single topic - generally a specific threat actor, campaign, or vulnerability.
 
 These reports help GitLab make quick decisions to protect our customers and our organization.
 
-Flash Reports are always actionable and are leveraged for activities like:
+Recommendations linked to Flash Reports are often time-sensitive and critical. They are leveraged for activities like:
 
 - Rapid iterations to security controls and detection capabilities
 - Threat hunting
@@ -46,17 +58,18 @@ Flash Reports are always actionable and are leveraged for activities like:
 
 Flash Reports use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/flash_report.md?ref_type=heads).
 
-### Threat Briefings
+#### Threat Briefings
 
 Threat Briefings offer regular, high-level updates on the evolving threat landscape. They highlight the most relevant trends, actors, and campaigns that could affect GitLab in coming weeks or months.
 
 These reports help team members stay informed, vigilant, and prepared.
 
-Threat Briefings will specify whether or not action is required and will always answer the following questions:
+Recommendations links to Threat Briefings are not as time-sensitive as those from a Flash Report. They are leveraged for activities like:
 
-- How is this relevant to GitLab?
-- How well is GitLab prepared to deal with this threat today?
-- What steps is GitLab taking to better handle this threat?
+- Product roadmap and prioritization
+- Standard iterations to security controls and detection capabilities
+- Training on security awareness and job-specific skills
+- Purchasing decisions and vendor evaluations
 
 Threat Briefings use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/threat_briefing.md?ref_type=heads).
 
