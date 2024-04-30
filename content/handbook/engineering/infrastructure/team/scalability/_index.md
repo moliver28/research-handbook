@@ -244,6 +244,8 @@ In order to make others aware of the work we have done, we should advertise chan
       1. `#infrastructure-lounge`
       1. `#infra-staff`
 
+When collaborating on the announcement text, consider using a threaded discussion on the relevant epic, issue, or change request. 
+
 Documentation or tutorial videos should also be added to the [README.md](https://gitlab.com/gitlab-com/gl-infra/scalability/-/blob/master/README.md)
 in our team repository.
 
