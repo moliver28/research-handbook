@@ -115,7 +115,7 @@ Inspired by GitLab's [collaboration value](/handbook/values/#collaboration), the
 | Product   | [Michael Friedrich](https://gitlab.com/dnsmichi)   | [AI-powered](https://about.gitlab.com/direction/ai-powered/), [Dev](/handbook/product/categories/features/#dev-section), [CI](/handbook/product/categories/features/#ci-section): [Monthly CI Section Field Sync (internal)](https://gitlab.com/gitlab-com/Product/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Field%20Sync&label_name%5B%5D=section%3A%3Aci&first_page_size=20), Ops: [Monitor:Observability direction](https://about.gitlab.com/direction/monitor/observability/), [Sec section](/handbook/product/categories/features/#sec-section): [Secure, Govern](https://about.gitlab.com/direction/govern/) |
 | Product & Alliances & Engineering & Sales | [Itzik Gan-Baruch](https://gitlab.com/iganbaruch) | DevSecOps platform, AI/ML, CI |
 | Product & Alliances & Engineering & Sales | [Fernando Diaz](https://gitlab.com/fjdiaz) | DevSecOps platform, AI/ML, Security, Kubernetes |
-| Product & Alliances & Engineering & Sales | [William Arias](https://gitlab.com/warias) | DevSecOps platform, AI/ML |
+| Product & Alliances & Engineering & Sales | [William Arias](https://gitlab.com/warias) | DevSecOps platform, AI/ML, MLOps, Data Science |
 | Product & Alliances & Engineering & Sales | [Cesar Saavedra](https://gitlab.com/csaavedra1) | DevSecOps platform, AI/ML, CD, GitOps, Kubernetes |
 | Product & Alliances & Engineering & Sales | [Fatima Sarah Khalid](https://gitlab.com/sugaroverflow) | DevSecOps platform, AI/ML |
 
