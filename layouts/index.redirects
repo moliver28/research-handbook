@@ -56,5 +56,8 @@
 /handbook/customer-success/solutions-architects/* /handbook/solutions-architects/*
 /handbook/customer-success/solutions-architects/ /handbook/solutions-architects/
 
+# Domain level redirects
+https://handbook.gitlab.com/handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars
+
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
