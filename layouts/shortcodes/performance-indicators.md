@@ -1,7 +1,7 @@
 <!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators -->
 {{ .Page.Store.Set "hastableau" true -}}
 {{- $data := slice }}
-{{- $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/performance_indicators/%s.yml" (.Get 0) }}
+{{- $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/ddieulivol-explain_pipeline_duration_dashboard_bugfix/data/performance_indicators/%s.yml" (.Get 0) }}
 {{- with resources.GetRemote $dataURL }}
   {{- with .Err}}
     <h2>Unable to fetch performance indicator Data</h2>
