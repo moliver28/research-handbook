@@ -117,7 +117,13 @@ Considerations include:
 
 In the next All-Hands, announce winners! Wooo! You're done until next quarter.
 
+##### Document Winners
 
+After winners have been announced, document them in the handbook to serve as a permanent record of our recognition and as a reference on what particular contributions were previously recognized.
+
+##### Inform Nominees
+
+After winners have been announced, inform everyone who was nominated to spread awareness and happiness. Nominees should be informed privately, and without mentioning who nominated them.
 
 
 #### Engineering Quarterly Achievers Nominations
