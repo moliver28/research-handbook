@@ -91,7 +91,7 @@ it doesn't exist) or updated (if it does exist).
 After doing so, the issue is updated with a success message, pinging the DRI
 within Support Readiness to notify them of the next steps.
 
-The DRI will then add the email address that requested the change to the 
+The DRI will then add the email address that requested the change to the
 [okta-zendeskglobal-users](https://groups.google.com/a/gitlab.com/g/okta-zendeskglobal-users/members)
 Google group. After doing so, the DRI will update the issue confirming the
 requester has been added to the Google group (and they will close the issue).
