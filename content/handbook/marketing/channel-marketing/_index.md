@@ -4,12 +4,6 @@ title: "Global Channel Marketing"
 description: "Global Channel supports global channel sales objectives and provides support to the GitLab channel partner community and customers."
 ---
 
-
-
-
-
-
-
 # Our Team
 
 Global Channel Marketing team is a team of professionals whose job is to build marketing plans to grow the channel business worldwide. We think about our Channel Marketing program in terms of marketing to the channel partners, marketing through the channel partners, and marketing with the channel partners.
@@ -80,6 +74,30 @@ The goal is that we eventually have our partners aligned to our planning cycle, 
    - Communication about the campaign should happen in the epics, this Google slide deck is for the purpose of the QBR and high-level plan sharing. Allocadia,the epics and issues are the SSOT.
    - While it is our goal to avoid mid-execution timed campaigns, it is possible to submit for approval mid-planning cycle. Should that be the case, you do not need to go back into your QBR deck and add the activity.
 6. On a bi-annual basis (every 6 months) our CMMs are responsible for creating a [scorecard](https://docs.google.com/spreadsheets/d/1MuyKcDYMeIdfIcRGSzfLgy0SmGUG8ASPrhb4W0iHxkk/edit#gid=0&range=A1) with our partners. We have this scorecard in order to align around what's mutually important to the success of both of our business and to help with goal setting for future quarters. This should be built in collaboration with the Marketing-Ready Channel partner.
+
+### Requirements and SLAs for MDF budget approvals
+1. Requirements for an MDF budget review:
+   * Complete FY Partner Business Plan (provided by the Partner Account Manager/Partner Territory Manager)
+   * A joint value proposition with the partner (worked out jointly with the PAM/PTM and Channel Partner)
+   * A list of mapped accounts that we are targeting with this Channel Partner (provided by PAM/PTM)
+   * A complete marketing ready issue and Channel Partner scorecard (completed by CMMs)
+   * A complete MDF request epic with all tactic details (submitted by CMMs)
+   * A strategic marketing plan with the partner (included in the partner buisiness plan by CMMs)
+2. SLAs
+   * All the above elements should be completed, prior to the CMM creating an MDF Request approval epic. We aim to approve the MDF budget requests within 7 working days of submission date by the CMM, however if the above requirements are missing or incomplete this time frame will be extended until all elements are received in full.
+   * Once CMM obtained budget approval for the campaign, it is the Partner Program Manager's responsibility to approve the tactic in SFDC within 48 hours.
+   * For easier tracking and enhanced transparency between the involved teams, the CMM is to apply due dates to MDF Request Epics.
+4. Flexi-budget requests
+On occasion we may consider supporting partners outside the [target markets](https://internal.gitlab.com/handbook/marketing/fy25-strategy/#target-markets-and-segments). For this we can leverage 5% of the overall quarterly MDF budget for the specific region. To gain approval for these tactics:
+   * The CMM opens a flexi-budget issue, [example](https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/1039). 
+   * The justification for using funds outside the focus countries will have to be provided by the CAM
+   * The Regional Director of Channel reviews and vets the request
+   * Approval is granted by Regional Marketing Lead and the Global Director of Channel & Field Marketing if deemed appropriate
+   * The Regional FM Lead is responsible for tracking the MDF budget spend for all flexi budget requests in the region. SLAs for approving MDF flexi-budget requests differ case by case depending on the complexity of the request.
+   
+#### Approval status of MDF campaigns:
+   * [EMEA channel marketing board](https://gitlab.com/groups/gitlab-com/marketing/-/epic_boards/48005?label_name%5B%5D=Channel%20Marketing&label_name%5B%5D=EMEA%20Channels) (GitLab internal)
+   * [APAC channel marketing board](https://gitlab.com/groups/gitlab-com/marketing/-/epic_boards/48005?label_name%5B%5D=Channel%20Marketing&label_name%5B%5D=EMEA%20Channels) (GitLab internal)
 
 ### Team Roles and Responsibilities
 - **Channel Marketing Manager (CMMs)** - Responsible for building and driving the marketing strategy with the Marketing-Ready partners, including the usage of MDF & proposing which partners are ready to run campaigns WITH the Field Marketing team. The CMMs are regionally aligned, to collaborate with PAMs and PTMs in specific geographies.
