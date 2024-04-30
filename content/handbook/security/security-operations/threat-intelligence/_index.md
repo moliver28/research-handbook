@@ -64,7 +64,7 @@ Threat Briefings offer regular, high-level updates on the evolving threat landsc
 
 These reports help team members stay informed, vigilant, and prepared.
 
-Recommendations links to Threat Briefings are not as time-sensitive as those from a Flash Report. They are leveraged for activities like:
+Recommendations linked to Threat Briefings are not as time-sensitive as those from a Flash Report. They are leveraged for activities like:
 
 - Product roadmap and prioritization
 - Standard iterations to security controls and detection capabilities
