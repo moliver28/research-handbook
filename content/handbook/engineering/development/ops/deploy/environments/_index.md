@@ -285,7 +285,7 @@ following:
 
 - A bias for action on deciding if we will fix a bug or not.
 - A bias for action on scheduling work to fix bugs we've decided to fix.
-- Not maintaining a bug backlog. 
+- Not maintaining a bug backlog.
 
 As a result of the above principle, all bug reports should end up in one of the following destinations:
   - They are verified as a bug we will fix, becoming part of the next
@@ -296,7 +296,6 @@ As a result of the above principle, all bug reports should end up in one of the 
 
   - They determined not to be bugs. The `~type::bug` label is removed and the
     issue is closed, re-triaged as a feature or maintenance issue.
-
 
 ###### Process details
 
@@ -329,21 +328,6 @@ to verify that the behavior is actually a bug.
 
 If it's not clear that the reported behavior is a bug, partner with the product
 manager.
-
-##### Deciding not to fix a bug
-
-In each case we will need to partner with the product manager and compare the
-effort required to the value delivered. This is then also taken into
-consideration alongside other objectives.
-
-Engineers can partner well with the product manager thinking through this loose
-criteria:
-
-- What are the severity and priority labels saying about the impact of this bug?
-- How much effort does this bug require to fix?
-- How much risk is involved in fixing this bug?
-- Is this bug part of something that will be deprecated soon?
-- Are there existing workarounds to mitigate the undesired behavior?
 
 #### Say-do ratio
 
