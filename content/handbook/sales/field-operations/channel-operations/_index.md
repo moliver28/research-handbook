@@ -855,14 +855,14 @@ The following departments/people will be tagged for gathering this information:
 The following departments/people will be tagged for FYI/Additional Input:
 
 - **Partner Operations:** Nick Scala, Niles Jamshaid
-- **Channel Programs**: David Forsch
+- **Partner Programs**: David Forsch, Ed Cepulis
 - **Deal Desk**: Jesse Rabbits
 - **PubSec Channel**: Pilar Meija
 
 After all product approvals are complete, Partner Operations will request approval in the same issue from the following Channel Teams/Individuals:
 
-- **Channel & Alliances**: Nick Scala
-- **Programs:** Ed Cepulis
+- **Partner Operations**: Nick Scala
+- **Partner Programs:** Ed Cepulis
 - **Public Sector**: Chris Novello
 
 Please reach out to the #partner-programs-ops Slack channel for assistance.
