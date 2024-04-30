@@ -741,14 +741,3 @@ The PathFactory Google Chrome Extension will only de-anonymize users who view co
 1. When they submit an email address address which is in the group, they will get the confirmation message and will need to navigate to their email inbox where they will find an email from support (`support@pathfactory.com`) with the link to access the content track.
 1. The visitor must click this link to validate that they are the owner of the email address. Once they click the link in the email they will gain access to the content track.
 1. If they enter an email address that is not in the access protection group(s) you've selected, they will get the warning message you set in the configuration and will have the ability to try again.
-
-<! --- ## Using Drift with PathFactory
-
-You can use Drift within your PathFactory tracks to incorporate a "white glove" experience on a high-value campaign. For available Drift playbooks, [see the Drift handbook page](/handbook/marketing/marketing-operations/drift/#playbooks).
-
-To set up Drift on your PathFactory track:
-
-1. Select the `MOps: Drift` external code snippet on the `External Code` field within your track settings.
-1. Click `Update`.
-1. [Create a Drift campaign request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=Drift_Campaign_Request) and provide the PathFactory track link in the issue. Add the `PathFactory` issue label and cc `@MihaiConteanu`. 
-1. Once the Drift campaign request issue is complete, document your PathFactory track and associated Drift playbook in the [PathFactory changelog](https://docs.google.com/document/d/1qd9X-V0WNBTklCKNYVRmjJtiOcPu6dZYkfJ2uuQt_Co/edit) with relevant links. -->
