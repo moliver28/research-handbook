@@ -43,6 +43,45 @@ Manager, Accounting, Global Consolidation & Reporting is a grade [8].
 - Efficiencies in the process with automation
 - Clean intercompany balances
 
+### Global Consolidation & Reporting Manager
+
+This role report to Director or Senior Director, International Accounting
+
+#### Global Consolidation & Reporting Manager
+
+Manager, Accounting, Global Consolidation & Reporting is a grade [8].
+
+#### Global Consolidation & Reporting Manager Responsibilities
+
+- Will be directly responsible for all aspects of accounting for our international subsidiaries, intercompany transactions and consolidations
+- Will Lead process improvement initiatives in Financial Close, Consolidation and Reporting areas and provide recommendations based on Financial Close & Consolidations leading practices
+- Oversee the monthly financial statement consolidation process (including foreign currency re-measurement, translation and allocations, etc)
+- Collect business requirements and apply financial concepts to translate them into solution design and proposes recommendations for changes and improvements to accounting policies/procedures
+- Responsible for the timely and accurate preparation and reporting of financial information and ensuring that information adheres to GAAP and internal company policies
+- Responsibilities include closing the books under generally accepted accounting principles, performing accounting research, preparing/reviewing SEC financial reporting, developing audit procedures and controls
+- Having knowledge and insight special accounting functions such as mergers and acquisitions. And helping get the accounting and entries correct.
+- Participate in the preparation of monthly and quarterly management slide deck
+- Guides and controls the teams' general accounting activities, including recording company transactions, classifications, and reconciliation of account balances in accordance with GAAP and company policy
+- Implements new accounting policies and ensures those policies are communicated to team as well as the business
+- Guides and partners with cross-functional teams to develop and implement approved changes
+- Prepares and/or reviews reports supporting internal and external audits
+- Works with internal and external audit as needed
+
+#### Manager, Accounting, Global Consolidation & Reporting Responsibilities Accounting Requirements
+
+- 7+ years of progressive growth in financial management roles in high growth companies, Software/SaaS industry experience is preferred
+- 2+ years in a finance international role, leading various finance operations functions
+- Knowledge of Netsuite is required
+- You share our values, and work in accordance with those values
+- Leadership at GitLab
+- Ability to use GitLab
+
+#### Manager, Accounting, Global Consolidation & Reporting Performance Indicators
+
+- Stat audit status
+- Efficiencies in the process with automation
+- Clean intercompany balances
+
 ### Director, International Accounting
 
 The Director, International Accounting  is responsible for the leadership, strategy, and execution of International Accounting, including developing policies and procedures to enable the attainment of key corporate and business objectives.
