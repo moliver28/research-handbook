@@ -32,7 +32,7 @@ Share our values, and work in accordance with those values.
 - Exposes the work of the sub department and their business impact internally.
 - Knowledgeable in all specialities practiced within the Department or Sub Department
 - Participate in either Tier 2 or Tier 3 weekday and weekend and occasional night [on-call rotations](/handbook/engineering/development/processes/Infra-Dev-Escalation/process.html) to assist troubleshooting product operations, security operations, and urgent engineering issues **OR** the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
-- Interview engineers in support of hiring initiatives for the department, as either a technical interviewer or participate in the behavioral interview process for their teams.
+- Complete [Interview Training](/hiring/conducting-a-gitlab-interview/#interviewer-training-requirements) in support of hiring efforts for the department. Participation as either a technical interviewer or part of their team's interview panel may be expected from hiring managers, given ongoing hiring needs.
 
 ## Career Ladder
 
