@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through enabling sign-up restriction
 
 ## Objectives
 
-This lab will help you improve your instance's security by enabling the option to send a confirmation email on signup, and ensure that signups are only allowed from your company's domain. 
+This lab will help you improve your instance's security by enabling the option to send a confirmation email on signup, and ensure that signups are only allowed from your company's domain. To read more about sign-up restrictions, click [here](https://docs.gitlab.com/ee/administration/settings/sign_up_restrictions.html).
 
 ### Task A. Add Sign-up Restrictions
 
