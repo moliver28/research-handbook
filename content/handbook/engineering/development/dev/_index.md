@@ -17,7 +17,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
     - [Manage:Foundations](/handbook/engineering/development/dev/manage/foundations/)
     - [Manage:Import and Integrate](/handbook/engineering/development/dev/manage/import-and-integrate)
 1. [Plan](/handbook/product/categories/#plan-stage)
-    - [Plan:Project Management](/handbook/engineering/development/dev/plan-project-management/)
+    - [Plan:Project Management](/handbook/engineering/development/dev/plan/project-management/)
     - [Plan:Product Planning](/handbook/engineering/development/dev/plan/product-planning/)
     - [Plan:Optimize](/handbook/engineering/development/dev/plan/optimize)
     - [Plan:Editor](/handbook/engineering/development/dev/plan/editor/)
