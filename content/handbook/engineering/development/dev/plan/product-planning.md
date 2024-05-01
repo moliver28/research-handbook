@@ -62,7 +62,7 @@ FY23-Q4 OKRs were conducted in Ally.io and are no-longer available.
 See the [Plan stage page] and the [Plan:Project Management backend team page].
 
 [Plan stage page]: /handbook/product/categories/#plan-stage
-[Plan:Project Management backend team page]: /handbook/engineering/development/dev/plan-project-management/
+[Plan:Project Management backend team page]: /handbook/engineering/development/dev/plan/project-management/
 
 ### Capacity Planning
 
