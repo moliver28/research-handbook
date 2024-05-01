@@ -41,6 +41,11 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::FedAppSecRelCert | Indicates the work was associated to the AppSec Federal AppSec release certification and merge monitor review duties |
 | AppSecWorkType::SecurityMRReview | Indicates the work was associated to the AppSec merge request security reviews (non stable counterpart MR reviews) duties |
 | AppSecWorkType::TriageRotation | Indicates the work was associated to the AppSec Triage Rotation |
+| AppSecWorkType::CustomerEscalation | Indicates the work was associated to a customer escalating a security issue |
+| AppSecWorkType::SIRTandSecurityComms | Indicates the work was associated to a SIRT incidents and/or Security communications work |
+| AppSecWorkType::ToolingsAndMaintenance | Indicates the work was associated to our tools and automation |
+| AppSecWorkType::CrossTeamCollaboration | Indicates the work was associated to cross-team help/collaboration |
+| AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
 
 #### Who assigns this label and when?
 
