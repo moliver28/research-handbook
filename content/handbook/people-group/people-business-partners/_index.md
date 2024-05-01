@@ -26,7 +26,7 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 | Anjali Kaufmann   | People Goup | CPO, DIB, Engagement, PBPs, People Operations, Talent Acquisition, Total Rewards  |
 | Anjali Kaufmann   | Legal | CLO, Corporate Affairs, Legal  |
 | Anjali Kaufmann   | Finance | CFO, Accounting, Corporate IT, Data, Enterprise Applications, Finance, Internal Audit, Procurement, Tax  |
-| Carlie Russell    | Sales | Alliances and Channel, CSM, Customer Success  |
+| Carlie Russell    | Sales | Customer Success, Engineering and Renewals, Partner Sales, and Solutions Architects  |
 | Carolyn Bednarz   | Sales | CRO, Enterprise Sales |
 | Denise Parsonage  | Marketing | Account-Based Marketing, Brand Campaigns, Brand Design, Campaigns, CMO Executive, Communications, Community Relations, Content Marketing, Corporate Events, Digital Experience, Digital Marketing, Field Marketing, Growth, Marketing Ops, Marketing Strategy and Analytics, Partner Marketing, Product Marketing, Sales Development, Search Marketing |
 | Giuliana Lucchesi | Product | CPO, Product Management, UX  |
