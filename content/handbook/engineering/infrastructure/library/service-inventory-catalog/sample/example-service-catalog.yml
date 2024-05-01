@@ -35,7 +35,7 @@ teams:
                      # and escalation policy
   oncall_schedule:   # Link to pagerduty oncall schedule
 - name: plan-project-management-be
-  url: /handbook/engineering/development/dev/plan-project-management/
+  url: /handbook/engineering/development/dev/plan/project-management/
   manager_slug: sean-m
   slack_channel: g_plan
   engagement_policy: # Link to doc that talks about engagement

@@ -3047,7 +3047,7 @@ engineering/development/growth/activation/index.html.md.erb
 engineering/development/growth/sisense_alert.html.md
 engineering/development/growth/index.html.md.erb
 engineering/development/secure-coding/index.html.md.erb
-engineering/development/dev/plan-project-management/index.html.md.erb
+engineering/development/dev/plan/project-management/index.html.md.erb
 engineering/development/dev/plan/plan-fe/internship/index.html.md.erb
 engineering/development/dev/plan/plan-fe/index.html.md.erb
 engineering/development/dev/plan/product-planning/index.html.md.erb
@@ -3072,7 +3072,7 @@ engineering/development/dev/plan/_product_planning_planning_rotation.md.erb
 engineering/development/dev/plan/_capacity_planning.md.erb
 engineering/development/dev/plan/_scalability_targets.md.erb
 engineering/development/dev/plan/knowledge/index.html.md.erb
-engineering/development/dev/plan/plan-project-management-be/index.html.md.erb
+engineering/development/dev/plan/project-management/index.html.md.erb
 engineering/development/dev/plan/_product_planning_backend_okrs.md.erb
 engineering/development/dev/plan/_project_management_dashboard.md.erb
 engineering/development/dev/plan/_historical_capacity.md.erb
