@@ -67,16 +67,15 @@ Manager, Accounting, Global Consolidation & Reporting is a grade [8].
 - Prepares and/or reviews reports supporting internal and external audits
 - Works with internal and external audit as needed
 
-#### Manager, Accounting, Global Consolidation & Reporting Responsibilities Accounting Requirements
+#### Global Consolidation & Reporting Manager Responsibilities Accounting Requirements
 
 - 7+ years of progressive growth in financial management roles in high growth companies, Software/SaaS industry experience is preferred
 - 2+ years in a finance international role, leading various finance operations functions
 - Knowledge of Netsuite is required
 - You share our values, and work in accordance with those values
-- Leadership at GitLab
 - Ability to use GitLab
 
-#### Manager, Accounting, Global Consolidation & Reporting Performance Indicators
+#### Global Consolidation & Reporting Manager Performance Indicators
 
 - Stat audit status
 - Efficiencies in the process with automation
