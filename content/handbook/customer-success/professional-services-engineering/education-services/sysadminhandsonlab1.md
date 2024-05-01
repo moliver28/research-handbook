@@ -5,6 +5,8 @@ description: "This Hands-On Guide walks you through installing GitLab on a virtu
 
 > Estimated time to complete: 30 minutes
 
+## Objectives
+
 In this lab, you will install GitLab and its necessary dependencies on a virtual machine using the command line.
 Before you get started, complete the following:
 

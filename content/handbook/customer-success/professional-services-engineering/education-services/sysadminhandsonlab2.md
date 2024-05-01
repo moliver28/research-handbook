@@ -5,6 +5,10 @@ description: "This Hands-On Guide walks you through using GitLab command gitlab-
 
 > Estimated time to complete: 30 minutes
 
+## Objectives
+
+The objective of this lab is to show various gitlab-ctl commands you can use to manage your GitLab instance via the CLI. These commands can be ran after installation. For a full list of all the commands you can use with gitlab-ctl, please click [here](https://docs.gitlab.com/omnibus/maintenance/).
+
 ### Task A. Run basic service status commands
 
 1. From a terminal prompt, SSH into your training virtual machine if not already logged in.

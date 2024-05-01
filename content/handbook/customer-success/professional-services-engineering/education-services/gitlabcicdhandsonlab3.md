@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through creating and running a .gitl
 
 > Estimate time to complete: 15 - 20 minutes
 
-
 ## Objectives
 
 The `.gitlab-ci.yml` file allows you to define the stages and jobs for your CI/CD process. In this lab, you will learn how to modify your `.gitlab-ci.yml` file.
