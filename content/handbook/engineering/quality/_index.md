@@ -4,89 +4,6 @@ description: >-
   The Quality Department in Engineering Division
 ---
 
-## Mission
-
-GitLab's Quality is everyone's responsibility. The Quality Department ensures that everyone is aware of what the Quality of the product is, empirically.
-In addition, we empower our teams to ship world class enterprise software at scale with quality & velocity.
-
-## Our principles
-
-- **Foster an environment where Quality is Everyone's responsibility.**
-    - We enable product teams in baking quality early in the product development flow process.
-    - We are a sounding-board for our end users by making feedback known to product teams.
-    - We are a champion of good software design, testing practices and bug prevention strategies.
-- **Improve test coverage and leverage tests at all [levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html).**
-    - We work to ensure that the right tests run at the right places.
-    - We enable product teams' awareness of their test coverage with fast, clear and actionable reporting.
-    - We continuously refine test efficiency, refactor duplicate coverage, and increase stability.
-- **Make Engineering teams efficient, engaged and productive.**
-    - We build automated solutions to improve workflow efficiency and productivity.
-    - We ensure reliability in our tooling and tests.
-    - We ensure that continuous integration pipelines are efficient, stable with optimal coverage.
-- **Metrics driven.**
-    - We provide data driven insights into defects, test stability, efficiency and team execution health.
-    - We ensure the data is actionable and is available transparently to the company and the wider community.
-    - We use data to make informative next steps and continuously improve with metrics-driven optimizations.
-
-## FY23 Direction
-
-In FY23 we will be focused on contributor success & customer results while delivering impact to the company's bottomline via alignment to [top cross-functional initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives). Key directional highlights; be more customer centric in our work, execute on 10x contributor strategy jointly with Marketing, provide timely operational analytics insights & improve team member engagement. In FY23 we anticipate a large increase of cross-functional activity within the company. Fostering an open-collaborative environment is more important than ever for us to deliver results.
-
-### Customer Centric Quality
-
-- Expand & improve upon deploy with confidence work foundation.
-- Outreach to understand user's needs of reference architecture.
-- Improve maturity of reference architectures, its components and validation.
-- Expand the capability of staging environments according to engineers' needs.
-- Increase customer empathy by participating in activities that highlights their pain points.
-
-### Increase Contributions
-
-- Execute funnel approach strategy with Marketing division.
-- Reduce review and merge time of contributions with a focus on per product group analysis.
-- Increase MR Coaches prioritizing product groups that are more popular with contributors.
-- Identify, recognize and retain regular contributors.
-- Setup community teams to foster contributor sense of belonging.
-- Increase type & frequency of community awards.
-
-### Customer Contributions
-
-- Reach out to large customers to understand their needs for contribution.
-- Establish predictable customer realized time-to-value for their contributions.
-- Increase [MRARR](/handbook/engineering/quality/performance-indicators/#mrarr).
-- Implement customer contribution recognition.
-- Collaborate with Marketing on Customer Contribution Strategy.
-
-### Productivity
-
-- Reduce manual burden for SET and EP engineers on-call.
-- Reduce time to first failure of GitLab pipelines.
-- Reduce duration of GitLab pipelines.
-- Maintain high-stability of GitLab master pipeline.
-- Increase MR Rate.
-
-### Analytics Driven
-
-- Implement key data & metrics for Engineering in a timely fashion.
-- Improve format and delivery of Engineering performance indicators.
-- Ensure all Engineering teams have real-time awareness of their engineering metrics big-picture.
-- Provide work allocation insights between Engineering teams & departments.
-- Empower teams to take action on quality in their areas via data.
-
-### Team Growth & Engagement
-
-- Provide geo-diverse department activity and presence.
-- Provide clear actionable career paths for all job-families.
-- Provide learning & growing opportunities for the management team.
-- Collaborate with recruitment to ensure timely hiring.
-- Grow Contributor Success & Engineering Analytics to their full capacity.
-- Every manager understands their team's MR Rate.
-
-## OKRs
-
-Objectives and Key Results (OKRs) help align our department towards what really matters. These happen quarterly and are based on [company OKRs](/handbook/company/okrs/). We check in on the status of our progress routinely throughout the quarter to determine whether we are on track or need to pivot in order to accomplish or change these goals. At the end of the quarter, we do a [final scoring](/handbook/company/okrs/#scoring-okrs) which includes a [retrospective](/handbook/engineering/#okr-retrospection) on how the quarter went according to these OKRs.
-
-Infrastructure & Quality OKRs are captured [here](/handbook/engineering/infrastructure-quality/okrs/).
 
 ## Staffing planning
 
@@ -119,25 +36,6 @@ We staff our department with the following gearing ratios:
 - **Primary Ratio**: 1 Quality Engineering Manager per [Product Section](/handbook/product/categories/#hierarchy).
   - This ratio is captured as a department [performance indicator](/handbook/engineering/quality/performance-indicators/#quality-engineering-manager-gearing-ratio).
 - Secondary Ratio: Approximately a 1:1 ratio of Quality Engineering Manager to Development Department Directors.
-
-## Communication
-
-In addition to GitLab's [communication guidelines](/handbook/communication) and [engineering communication](/handbook/engineering/#communication), we communicate and collaborate actively across GitLab in the following venues:
-
-- [Group Conversation](#group-conversation)
-- [Week-in-review](#week-in-review)
-- [Department meetings](#department-meetings)
-- [Engineering-wide retrospective](#engineering-wide-retrospective)
-
-### Week-in-review
-
-By the end of the week, we populate the **Engineering Week-in-Review document** with relevant updates from our department. The agenda is internal only, please search in Google Drive for 'Engineering Week-in-Review'.
-Every Monday a reminder is sent to all of engineering in the [#eng-week-in-review](https://gitlab.slack.com/messages/CJWA4E9UG) slack channel to read summarize updates in the google doc.
-
-### Engineering-wide retrospective
-
-The Quality team holds an asynchronous retrospective for each release.
-The process is automated and notes are captured in [Quality retrospectives](https://gitlab.com/gl-retrospectives/quality/) (GITLAB ONLY)
 
 ## Engineering Metrics task process
 
@@ -209,25 +107,6 @@ The cut-line also serves as a healthy discussion between engineers and their man
 - [Quality Management Team](https://gitlab.com/groups/gitlab-org/quality/-/boards/4518177)
 
 The boards serve as a single pane of glass view for each team and help in communicating the overall status broadly, transparently and asynchronously.
-
-## Quality Department on-call rotations
-
-### Pipeline triage
-
-Every member in the Quality Department shares the responsibility of analyzing the daily QA tests against `master` and `staging` branches.
-More details can be seen [here](/handbook/engineering/infrastructure/test-platform/oncall-rotation)
-
-### Incident management
-
-Every manager and director in the Quality Department shares the responsibility of monitoring new and existing incidents
-and responding or mitigating as appropriate. Incidents may require review of test coverage, test planning, or updated
-procedures, as examples of follow-up work which should be tracked by the DRI.
-
-The Quality Department has a rotation for incident management. The rotation can be seen [here](/handbook/engineering/infrastructure/test-platform/oncall-rotation).
-
-**Please note**: Though there is a rotation for DRI, any manager or director within Quality can step in to help in an
-urgent situation if the primary DRI is not available. Don't hesitate to reach out in the Slack channel
-`#quality-managers`.
 
 ## Refinement processes
 
