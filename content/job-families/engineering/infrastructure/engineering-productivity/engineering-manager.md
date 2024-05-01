@@ -7,13 +7,13 @@ As our Engineering Productivity Manager/Senior Manager, you'll play a pivotal ro
 
 ## Levels
 
-### Engineering Manager, Engineering Productivity 
+### Engineering Manager, Engineering Productivity
 
 #### Engineering Manager, Engineering Productivity Job Grade
 
 The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Engineering Manager, Engineering Productivity Responsibilities 
+#### Engineering Manager, Engineering Productivity Responsibilities
 - Lead a team of engineers focused on improving development efficiency and streamlining workflows.
 - Analyze engineering processes and identify areas for improvement.
 - Develop and implement strategies to enhance developer velocity, scalability, and overall team productivity.
@@ -25,7 +25,7 @@ The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calcul
 - Conduct performance reviews and career development planning for team members.
 - Foster collaboration between the Engineering Productivity team and other engineering teams.
 
-#### Requirements 
+#### Requirements
 
 - 5+ years of experience in software engineering with a strong understanding of development methodologies and best practices.
 - 2+ years of experience leading and managing a team.
@@ -35,7 +35,7 @@ The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calcul
 - Experience with developer tooling and infrastructure is a plus.
 - Experience working in working in a remote environment.
 
-### Senior Engineering Manager, Engineering Productivity 
+### Senior Engineering Manager, Engineering Productivity
 
 #### Senior Engineering Manager, Engineering Productivity Job Grade
 
