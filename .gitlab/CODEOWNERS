@@ -12,9 +12,11 @@
 #    If there is an optional and required section for a group of pages, ensure the required one comes after.
 # For more information see https://docs.gitlab.com/ee/user/project/codeowners/
 #
-# Controlled documents must be listed in the Controlled Documents section, the last section of this document.
-# Additionally you must add `@gitlab-com/content-sites` and `@gitlab-com/egroup` to any controlled document codeowner group.
-# Please review the relevant information https://gitlab.com/gitlab-com/content-sites/handbook/blob/main/content/handbook/editing-handbook/frontmatter.md#controlled-documents
+# ^ denotes an optional set of CodeOwners. Remove it to make approvals required for all MRs to these pages.
+#    Please make sure that @gitlab-com/content-sites and @gitlab-com/egroup groups are included for all required entries.
+#    If there is an optional and required section for a group of pages, ensure the required one comes after.
+#    Controlled documents must be listed in the Controlled Documents section, the last section of this document. See also https://gitlab.com/gitlab-com/content-sites/handbook/blob/main/content/handbook/editing-handbook/frontmatter.md#controlled-documents
+# For more information on codeowners, see https://docs.gitlab.com/ee/user/project/codeowners/
 #
 #####
 
