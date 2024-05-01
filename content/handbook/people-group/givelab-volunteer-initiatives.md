@@ -5,27 +5,18 @@ description: "Discover GitLab's volunteering opportunities with GiveLab"
 
 ## About GiveLab
 
-Throughout the course of the year, GitLab encourages team members to take part in various sponsorship and volunteer initiatives that support and ultimately uplift their local communities.  As with our unique ways of working, GitLab and its team members have identified and sought out opportunities for impact that speak back not only to our [values]({{< ref "values" >}}) but our [all-remote](/handbook/company/culture/all-remote/guide/) nature.
+GiveLab is GitLab’s Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](https://handbook.gitlab.com/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab’s overall [ESG strategy](https://handbook.gitlab.com/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
 
-Along with documenting our active programs within the handbook team members can create awareness and initiate a call to action through the `#givelab` Slack Channel, extending awareness to our team member community which spans over sixty-five countries!
+GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers. 
 
-## Global Volunteer Month
+To learn more about GiveLab, please visit the [ESG handbook page](https://handbook.gitlab.com/handbook/legal/esg/#givelab).
 
-Though many of the GiveLab initiatives are ongoing, December is `Global Volunteer Month` at GitLab and an opportunity for everyone to contribute in a socially meaningful way.
+## Historical GiveLab and Related Activities
 
-Team members are encouraged to take part in an initiative within their local community whether it be serving at a local soup kitchen; offering to support the build of a website for a non-profit organisation; arranging the clean-up of your nearest park or compiling a small box of much needed items for children in an underprivileged community.
-
-### Taking Part
-
-1. If you would like to take part in `Global Volunteer Month` please be sure to join the `#givelab` Slack Channel by mid-November and share information around the initiative you have in mind.
-1. Be sure to highlight the location of the inititative along with the unique needs that may apply - once you have posted, be sure to share the thread in your location channel if one is available (this is a great way to gather support and additional hands).
-1. Communicate with your Manager! Be sure to let your team know when you will be OOO (Out of Office) supporting your cause.
-1. Showcase the initiative and your contributions by sharing feedback and images both in #givelab and on social media - it is important to tag `@gitlab` and use `#givelab` when doing so though as posts may be shared from time-to-time taking into account current demands.
-1. Give yourself a pat on the back. Thank you for taking part and helping to spread some love!
 
 ## GitLab Donation Drives
 
-The first `GitLab Donation Drive` in 2020 started as an internal challenge to GitLab team members to donate 5,000 meals to [US Food Banks](https://www.feedingamerica.org/find-your-local-foodbank) over the course of a week. This initiative quickly gained traction and saw over 100,000 meals being donated across 19 countries. 2021's campaign expanded to include any type of donation, including donations of time as part of [Global Volunteer Month](#global-volunteer-month).
+The first `GitLab Donation Drive` in 2020 started as an internal challenge to GitLab team members to donate 5,000 meals to [US Food Banks](https://www.feedingamerica.org/find-your-local-foodbank) over the course of a week. This initiative quickly gained traction and saw over 100,000 meals being donated across 19 countries. 2021's campaign expanded to include any type of donation, including donations of time as part of Global Volunteer Month.
 
 ## Upstream Diversity Working Group
 
