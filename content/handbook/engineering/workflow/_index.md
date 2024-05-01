@@ -169,6 +169,7 @@ When an incident is attributed to a group, a notification will be sent to the tr
       /label ~"master-broken::failed-to-pull-image"
       /label ~"master-broken::gitlab-com-overloaded"
       /label ~"master-broken::job-timeout"
+      /label ~"master-broken::multi-version-db-upgrade"
       /label ~"master-broken::undetermined"
       ```
 1. (Optional) Pre-resolution
