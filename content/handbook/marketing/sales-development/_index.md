@@ -41,7 +41,7 @@ Please follow the table below to quickly find the most relevant place for what y
 | Page | What you'll find|
 | --------- | ---------- |
 | [How-Tos Page](https://handbook.gitlab.com/handbook/marketing/sales-development/how-tos/) | Quick information on finding your leads and accounts, actioning your inbound/outbound pipeline, creating SAOs, and any other main process that you'll work with on your day-to-day. | 
-| [RoE, FAQ and KPIs Page](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/) | Answers to the most common questions around career progression, rules of engagement, general expectations from the role, opportunity credit and compensation. |
+| [RoE, FAQ and KPIs Page](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/) | Answers to the most common questions around career progression, rules of engagement, general expectations from the role, opportunity credit, ramping periods, lead routing and compensation. |
 | [Tanuki Tech Page](https://handbook.gitlab.com/handbook/marketing/sales-development/tanuki-tech/) | Anything related to your ongoing enablement as part of the Sales Dev team. |
 | [The Sales Dev Knowledge Vault](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-vault/) | Information and knowledge that can help to improve your skills. Includes managerial-level processes, manager or team member onboarding, and tool walkthroughs. | 
 
