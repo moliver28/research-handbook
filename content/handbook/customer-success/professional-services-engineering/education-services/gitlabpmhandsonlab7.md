@@ -4,7 +4,6 @@ description: "This Hands-On Guide walks you through creating and managing an iss
 ---
 > Estimated time to complete: 30 minutes
 
-
 ## Objectives
 
 To help you plan, organize, and visualize a workflow, you can utilize an issue board.

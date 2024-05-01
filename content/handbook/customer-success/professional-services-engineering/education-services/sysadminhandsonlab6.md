@@ -5,6 +5,10 @@ description: This Hands-On Guide walks you through managing GitLab logs on a vir
 
 > Estimated time to complete: 30 minutes
 
+## Objectives
+
+
+
 ### Task A. View active logs
 
 The `gitlab-ctl` command allows you to tail all GitLab log files as well as filter by GitLab service.
