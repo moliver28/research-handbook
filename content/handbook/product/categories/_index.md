@@ -293,7 +293,6 @@ Maybe we should make our features easier to search to replace the section below.
 ### Other functionality in [Plan](/handbook/product/categories/#plan-stage) stage
 
 #### [Project Management group](/handbook/product/categories/#project-management-group)
-- markdown functionality
 - assignees
 - milestones
 - due dates
@@ -303,6 +302,11 @@ Maybe we should make our features easier to search to replace the section below.
 - email notifications
 - to-do list
 - Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
+
+#### [Knowlege group](/handbook/product/categories/#knowledge-group)
+
+- markdown functionality
+- rich text editor
 
 ### Other functionality in [Create](/handbook/product/categories/#create-stage) stage
 
