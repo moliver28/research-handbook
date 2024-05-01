@@ -11,7 +11,7 @@ For more details about the vision for this area of the product, see the
 [Plan stage] page.
 
 [Knowledge]: /handbook/product/categories/#knowledge-group
-[Plan stage]: /direction/plan/
+[Plan stage]: /handbook/engineering/development/dev/plan/
 
 ### Team members
 
