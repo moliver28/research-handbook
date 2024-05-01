@@ -4,7 +4,7 @@ title: "Patch Releases"
 
 ## Patch release overview
 
-Patch releases act in accordance of the [GitLab Maintenance Policy]:
+Patch releases are performed according to the [GitLab Maintenance Policy]:
 
 * Backport bug fixes to the current stable released version of GitLab.
 * Backport security fixes to the current, and previous two GitLab Versions.
@@ -37,14 +37,14 @@ the second and fourth Wednesdays, around the monthly release week. These are bes
 be subject to change.
 
 The patch release includes all bug and security fixes ready at the time of the patch release preparation. Bug fixes are
-worked on the canonical GitLab repositories, while security fixes are worked on in the mirrored GitLab security repositories
+worked on in the canonical GitLab repositories, while security fixes are worked on in the mirrored GitLab security repositories
 to avoid revealing vulnerabilities before the release.
 
 Security vulnerabilities in GitLab and its dependencies are to be addressed following the [Security Remediation SLAs].
 
-The end-to-end process consists on the following stages:
+The end-to-end process consists of the following stages:
 
-![Planned security release overview](planned-patch-release-overview.jpg)
+![Planned patch release overview](planned-patch-release-overview.jpg)
 
 - [Diagram source - internal](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 
@@ -80,8 +80,8 @@ A patch release has the following phases:
 
 ### Unplanned critical patch release process
 
-Unplanned critical patch releases are used to immediately patch and
-mitigate a high-severity vulnerability in order to meet the [Security Remediation SLAs]
+Unplanned critical patch releases are ad-hoc processes used to immediately patch and
+mitigate a high-severity vulnerability in order to meet the [Security Remediation SLAs].
 
 Following the [GitLab Maintenance Policy], the vulnerability will be
 fixed in all supported versions following [Security Remediation SLAs].
