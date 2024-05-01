@@ -26,7 +26,7 @@ Runway is maintained by the [Scalability:Practices](/handbook/engineering/infras
 
 ## Documentation
 
-[Documentation Issue](https://gitlab.com/gitlab-com/gl-infra/platform/runway/team/-/issues/50)
+[Runway Documentation](https://docs.runway.gitlab.com/)
 
 ### Is Runway suitable for my service?
 
