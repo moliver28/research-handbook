@@ -79,4 +79,4 @@ The `EBA` team is responsible for moderating the following calls on a rotational
 
 The teams will assist with moderating calls where the audience is applicable to all GitLab team members. In the event that a separate meeting needs to be scheduled on the team calendar with only a specified invitee list, the host or the EBA for the host's organization will be responsible for moderating the call.
 
-Recording or commencement of live stream should not be started without alignment with the host. Moderator should check with host for readiness at the scheduled start time before hitting record. 
+Recording or commencement of live stream should not be started without alignment with the host. Moderator should check with host for readiness at the scheduled start time before hitting record.
