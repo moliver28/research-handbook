@@ -366,4 +366,5 @@ Slugs
 Uploading media?
 Create a new localized blog post on the video? Walk through the process.
 Do we have a french blog landing page? 
-
+Things to be careful about when localizing an EN blog post.
+And if there is a specific process to follow when updating localized content.
