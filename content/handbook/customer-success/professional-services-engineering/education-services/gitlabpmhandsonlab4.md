@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through creating issues and labels i
 
 > Estimated time to complete: 45 minutes
 
-
 ## Objectives
 
 Issues are a core building block in GitLab that enable collaboration, discussions, planning and tracking of work. Issues are defined in the scope of a **Project**, **not** a Group. You can read more about them in the [documentation](https://docs.gitlab.com/ee/user/project/issues/).

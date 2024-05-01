@@ -6,17 +6,15 @@ description: "This Hands-On Guide walks you through using inline, project, and g
 
 > Estimate time to complete: 15 - 20 minutes
 
-
-
 ## Objectives
 
 To customize your CI/CD process, you can define your own environment variables. In this lab, you will learn how to define inline global variables, inline local variables, and group and project level variables. 
 
 ### Task A: Add Inline Variables 
 
-> There are two types of inline variables we will explore in this section: global inline variables and job scoped inline variables. These variables are defined only for the `.gitlab-ci.yml` file they are declared in.
+There are two types of inline variables we will explore in this section: global inline variables and job scoped inline variables. These variables are defined only for the `.gitlab-ci.yml` file they are declared in.
 
-> Variables in GitLab CI/CD have a precedence, which means variables at a higher 'level' will override the values of a lower 'level'. This can lead to unintended results, so re-use of variable names should be monitored carefully. For more information, click [here](https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence).
+Variables in GitLab CI/CD have a precedence, which means variables at a higher 'level' will override the values of a lower 'level'. This can lead to unintended results, so re-use of variable names should be monitored carefully. For more information, click [here](https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence).
 
 1. Open your **CICD Demo** project from previous labs.
 

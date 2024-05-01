@@ -5,8 +5,6 @@ description: "This Hands-On Guide walks you through the variables used inside a 
 
 > Estimate time to complete: 15 - 20 minutes
 
-
-
 ## Objectives
 
 When a job is executed in a pipeline, it runs inside of an environment. To ensure that environments are set up to run a job successfully, a pipeline defines various environment variables. In this lab, you will learn how to display the environment variables for your pipeline.

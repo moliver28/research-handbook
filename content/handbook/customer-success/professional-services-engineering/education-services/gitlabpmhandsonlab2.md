@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through creating groups, projects, a
 
 > Estimated time to complete: 30 minutes
 
-
 ## Objectives
 
 In GitLab, projects and subgroups help you organize your codebases and effectively manage your projects. In this lab, you will learn how to create an organizational subgroup, how to create a project, and how to add a user to a project.
