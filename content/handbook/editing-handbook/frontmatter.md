@@ -71,6 +71,8 @@ controlled_document_banner_disabled: true
 
 ```
 
+In addition to this formatting for individual pages, controlled documents and their codeowners must be listed in the Controlled Documents section of the [CODEOWNERS file](/.gitlab/CODEOWNERS), in the last section of this document. You must add `@gitlab-com/content-sites` and `@gitlab-com/egroup` to any controlled document codeowner group.
+
 ## Page Types (Layouts)
 
 **Note:** To keep the handbook consistent, we discourage overriding the page `type` (aka layout).
