@@ -355,3 +355,16 @@ It's important to note that while we wait for Contentful to release locale-speci
 Publishing a blog post without an English-language equivalent follows the same process as "Translating an English blog post to other languages," with one minor difference. Contentful mandates that required fields cannot be left empty in English. To circumvent this requirement, a '#' character can be inserted into the English Title and Blog Body fields. This informs our system that the English-language blog post does not exist and should not generate a web page for it.
 
 Contentful is currently developing a solution to address this workaround, which is expected to be available by Fall 2024.
+
+How to kick off translations
+How to publish blog post that isn’t in English
+How the localization feature works in Contentful + things to be careful about
+Live previews/changing languages
+Content updates
+Draft states?
+Slugs
+Uploading media?
+Create a new localized blog post on the video? Walk through the process.
+Do we have a french blog landing page? 
+Things to be careful about when localizing an EN blog post.
+And if there is a specific process to follow when updating localized content.
