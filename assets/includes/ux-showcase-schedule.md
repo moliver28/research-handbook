@@ -2,13 +2,13 @@
 |------------|----------------------|------------------------|------------------------|------------------------|
 | 2024-04-17 | Chris Micek          | Austin Regnery         | Taylor Vanderhelm      | Sunjung Park           |
 | 2024-05-01 | Andy Volpe           | Gina Doyle             | Camellia X Yang        |                        |
-| 2024-05-15 | Emily Sybrant        | Nick Leonard           | Becka Lippert          |                        |
+| 2024-05-15 | Emily Sybrant        | Nick Leonard           | Becka Lippert          | Amelia Bauerly         |
 | 2024-05-29 | Paul Wright          | Pedro Moreira da Silva | Jeremy Elder           |                        |
 | 2024-06-05 | Marcel van Remmerden | Veethika Mishra        | Sascha Eggenberger     | Katie Macoy            |
 | 2024-06-26 | APAC                 | Libor Vanc             | Bonnie Tsang           |                        |
 | 2024-07-03 | Taurie Davis         | Tim Noah               | Austin Regnery         | Graham Bachelder       |
 | 2024-07-24 | Rayana Verissimo     | Mike Nichols           | Gina Doyle             |                        |
-| 2024-08-07 | Jacki Bauer          | Amelia Bauerly         | Michael Fangman        | Ian Gloude             |
+| 2024-08-07 | Jacki Bauer          | Michael Fangman        | Ian Gloude             |                        |
 | 2024-08-21 | Justin Mandell       | Chad Lavimoniere       | Dan Mizzi-Harris       | Ilonah Pelaez          |
 | 2024-09-04 | Chris Micek          | Lina Fowler            | Becka Lippert          |                        |
 | 2024-09-18 | Andy Volpe           | Nick Leonard           | Camellia X Yang        |                        |
