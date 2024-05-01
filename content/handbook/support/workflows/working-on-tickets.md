@@ -126,10 +126,7 @@ handling. Exceptions should be made only under the following conditions:
 
 #### Using the cross region handover form
 
-The Slack Handover Form is designated for tickets with high weight values,
-streamlining the process for urgent transfers and allowing Support Engineers to
-manage lower-priority tickets autonomously. To ensure a smooth handover, follow
-these steps:
+The Slack Handover Form is designated for tickets with high weight values, high priority, or those that are business critical. This streamlines the process for urgent transfers, allowing Support Engineers to manage lower-priority tickets autonomously. To ensure a smooth handover, follow these steps:
 
 - **Select the Appropriate Form:** Choose a handover form from the Handovers
    folder in your SGG channel, based on the ticket's target region (e.g.,
