@@ -1,15 +1,7 @@
 ---
-
 title: Issue Triage
 description: "Guidelines for triaging new issues opened on GitLab.com projects"
 ---
-
-
-
-
-
-
-
 
 GitLab believes in [Open Development][open-development], and we encourage the community to file issues and open merge requests for our projects on [GitLab.com](https://gitlab.com/groups/gitlab-org). Their contributions are valuable, and we should handle them as effectively as possible. A central part of this is triage - the process of categorization according to type and severity.
 
@@ -22,31 +14,31 @@ We rely on a combination of [self triage](https://gitlab.com/gitlab-org/quality/
 
 ### Partial Triage checklist
 
-- Issue is spam:
-  - [Report the issue](https://docs.gitlab.com/ee/user/report_abuse.html#report-abuse-from-an-issue).
-  - Make the issue confidential.
-  - Post a link to the issue in the `#abuse` slack channel.
-- Issue is request for help:
-  - Post the [support message](#support-issue-message) and close the issue.
-  - Alternatively, ask for more information and apply the ~"awaiting feedback" label.
-- Issue is [duplicate](#duplicates):
-  - Post the [duplicate message](#duplicate-issue-message).
-  - Call the `/duplicate` action to create the link to the original and close the issue.
-- Assign a [type label](#type-labels).
-  - If it is unclear whether the issue is a bug or a support request, tag the PM/EM for the [group](#group-labels) and ask for their opinion.
-- {{< label name="type::bug" color="#cc0000" >}}: assign a [severity label](#severity).
-  - If ~"severity::1" or ~"severity::2": mention the PM/EM from the [group](#group-labels)
-- Assign a [group label](#group-labels).
-  - If there is no suitable group label: assign a [stage ("devops") label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels).
-- Optionally tag relevant [domain experts](/handbook/company/structure/#expert).
+-   Issue is spam:
+    -   [Report the issue](https://docs.gitlab.com/ee/user/report_abuse.html#report-abuse-from-an-issue).
+    -   Make the issue confidential.
+    -   Post a link to the issue in the `#abuse` slack channel.
+-   Issue is request for help:
+    -   Post the [support message](#support-issue-message) and close the issue.
+    -   Alternatively, ask for more information and apply the ~"awaiting feedback" label.
+-   Issue is [duplicate](#duplicates):
+    -   Post the [duplicate message](#duplicate-issue-message).
+    -   Call the `/duplicate` action to create the link to the original and close the issue.
+-   Assign a [type label](#type-labels).
+    -   If it is unclear whether the issue is a bug or a support request, tag the PM/EM for the [group](#group-labels) and ask for their opinion.
+-   {{< label name="type::bug" color="#cc0000" >}}: assign a [severity label](#severity).
+    -   If {{< label name="severity::1" color="#cc0000" >}} or {{< label name="severity::2" color="#ff8800" light="true" >}}: mention the PM/EM from the [group](#group-labels)
+-   Assign a [group label](#group-labels).
+    -   If there is no suitable group label: assign a [stage ("devops") label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels).
+-   Optionally tag relevant [domain experts](/handbook/company/structure/#expert).
 
 ## Complete Triage
 
 An issue is considered completely triaged when all of the following criteria are met:
 
-- It is partially triaged.
-- It has a milestone set.
-- It has a [priority label](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) applied for {{< label name="type::bug" color="#cc0000" >}} and {{< label name="Deferred UX" color="#7f8c8d" >}}.
+-   It is partially triaged.
+-   It has a milestone set.
+-   It has a [priority label](https://docs.gitlab.com/ee/development/labels/index.html#priority-labels) applied for {{< label name="type::bug" color="#cc0000" >}} and {{< label name="Deferred UX" color="#7f8c8d" >}}.
 
 ## Type Labels
 
@@ -62,16 +54,16 @@ The [Features by Group](/handbook/product/categories/features) listing can help 
 
 The priority label is used to indicate the importance and guide the scheduling of the issue. Priority labels are expected to be set based on the circumstances of the market, product direction, IACV impact, number of impacted users and capacity of the team. [DRIs](/handbook/people-group/directly-responsible-individuals/) for prioritization are based on work type:
 
-* Feature - Product Manager (PM)
-* Maintenance - Engineering Manager (EM)
-* Bug - Quality Engineering Manager (QEM)
+-   Feature - Product Manager (PM)
+-   Maintenance - Engineering Manager (EM)
+-   Bug - Quality Engineering Manager (QEM)
 
-| Priority | Importance | Intention | DRI |
-| -------- | ---------- | --------- | --- |
-| {{< label name="priority::1" color="#cc0000" >}} | Urgent | We will address this as soon as possible regardless of the limit on our team capacity. Our target resolution time is 30 days.                 | PM, EM, or QEM of that product group, based on work type |
-| {{< label name="priority::2" color="#ff8800" light="true" >}} | High   | We will address this soon and will provide capacity from our team for it in the next few releases. This will likely get resolved in 60-90 days. | PM, EM, or QEM of that product group, based on work type |
-| {{< label name="priority::3" color="#fff600" light="true" >}} | Medium | We want to address this but may have other higher priority items. This will likely get resolved in 90-120 days.                               | PM, EM, or QEM of that product group, based on work type |
-| {{< label name="priority::4" color="#008000" >}} | Low    | We don't have visibility when this will be addressed. No timeline designated.                                          | PM, EM, or QEM of that product group, based on work type |
+| Priority                                                      | Importance | Intention                                                                                                                                       | DRI                                                      |
+| ------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| {{< label name="priority::1" color="#cc0000" >}}              | Urgent     | We will address this as soon as possible regardless of the limit on our team capacity. Our target resolution time is 30 days.                   | PM, EM, or QEM of that product group, based on work type |
+| {{< label name="priority::2" color="#ff8800" light="true" >}} | High       | We will address this soon and will provide capacity from our team for it in the next few releases. This will likely get resolved in 60-90 days. | PM, EM, or QEM of that product group, based on work type |
+| {{< label name="priority::3" color="#fff600" light="true" >}} | Medium     | We want to address this but may have other higher priority items. This will likely get resolved in 90-120 days.                                 | PM, EM, or QEM of that product group, based on work type |
+| {{< label name="priority::4" color="#008000" >}}              | Low        | We don't have visibility when this will be addressed. No timeline designated.                                                                   | PM, EM, or QEM of that product group, based on work type |
 
 ## Severity
 
@@ -81,55 +73,55 @@ Note: Theses severity definitions apply to issues only. Please see [Severity Lev
 
 [Severity labels](https://docs.gitlab.com/ee/development/labels/index.html#severity-labels) help us determine urgency and clearly communicate the impact of a {{< label name="type::bug" color="#cc0000" >}} on users. There can be multiple categories of a {{< label name="type::bug" color="#cc0000" >}}.
 
-The presence of bug category labels {{< label name="bug::availability" color="#CC0000" >}}, {{< label name="bug::performance" color="#CC0000" >}}, {{< label name="bug::vulnerability" color="#CC0000" >}}, and `~UX` denotes to use the severity definition in that category. When a {{< label name="type::bug" color="#cc0000" >}} correspond to multiple categories, the severity to apply should be the higher, for example, if an issue has a {{< label name="severity::2" color="#ff8800" light="true" >}} for {{< label name="bug::availability" color="#CC0000" >}} and a {{< label name="severity::1" color="#cc0000" >}} for {{< label name="bug::performance" color="#CC0000" >}} then the severity assigned to the issue should be {{< label name="severity::1" color="#cc0000" >}}.
+The presence of bug category labels {{< label name="bug::availability" color="#CC0000" >}} {{< label name="bug::performance" color="#CC0000" >}} {{< label name="bug::vulnerability" color="#CC0000" >}} and {{< label name="UX" color="#D10069" >}} denotes to use the severity definition in that category. When a {{< label name="type::bug" color="#cc0000" >}} correspond to multiple categories, the severity to apply should be the higher, for example, if an issue has a {{< label name="severity::2" color="#ff8800" light="true" >}} for {{< label name="bug::availability" color="#CC0000" >}} and a {{< label name="severity::1" color="#cc0000" >}} for {{< label name="bug::performance" color="#CC0000" >}} then the severity assigned to the issue should be {{< label name="severity::1" color="#cc0000" >}}.
 
 Once you've determined a severity for an issue add a note that explains in summary why you selected the severity you did. This will help future team members understand your rationale so they will know how to proceed with acting upon the issue.
 
-| Type of {{< label name="type::bug" color="#cc0000" >}} | {{< label name="severity::1" color="#cc0000" >}}: Blocker | {{< label name="severity::2" color="#ff8800" light="true" >}}: Critical | {{< label name="severity::3" color="#fff600" light="true" >}}: Major  | {{< label name="severity::4" color="#008000" >}}: Low | Triage DRI |
-|----------------|--------------------------|---------------------------|-------------------------|----------------------|------------|
-| General bugs   | Broken feature with no workaround or any data-loss. | Broken feature with an unacceptably complex workaround. | Broken feature with a workaround. | Functionality is inconvenient. | [SET](/handbook/engineering/quality/#individual-contributors), [QEM](/handbook/engineering/quality/#management-team), or [EM](/handbook/engineering/management/) for that product group. |
-| {{< label name="bug::performance" color="#CC0000" >}} Response time <br> (API/Web/Git)[^1] | Above 9000ms to timing out | Between 2000ms and 9000ms | Between 1000ms and 2000ms | Between 200ms and 1000ms | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/) |
-| {{< label name="bug::performance" color="#CC0000" >}} Browser Rendering <br> ([LCP](https://web.dev/lcp/))[^2] | Above 9000ms to timing out | Between 4000ms and 9000ms | Between 3000ms and 4000ms | Between 3000ms and 2500ms | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/) |
-| {{< label name="bug::performance" color="#CC0000" >}} Browser Rendering <br> ([TBT](https://web.dev/tbt/))[^2] | Above 9000ms to timing out | Between 2000ms and 9000ms | Between 1000ms and 2000ms | Between 300ms and 1000ms | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/) |
-| `~bug::ux` User experience problem [&sup3;](#ux) | "I can't figure this out." Users are blocked and/or likely to make risky errors due to poor usability, and are likely to ask for support. | "I can figure out why this is happening, but it's really painful to solve." Users are significantly delayed by the available workaround. | "This still works, but I have to make small changes to my process." Users are self sufficient in completing the task with the workaround, but may be somewhat delayed. |  "There is a small inconvenience or inconsistency." Usability isn't ideal or there is a small cosmetic issue. | [Product Designers](/handbook/product/ux/product-design/) of that Product group |
-| {{< label name="bug::availability" color="#CC0000" >}} of GitLab SaaS | See [Availability section](#availability) | See [Availability section](#availability) | See [Availability section](#availability) | See [Availability section](#availability) | |
-| {{< label name="bug::vulnerability" color="#CC0000" >}} Security Vulnerability | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | AppSec team |
-| Global Search | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | |
-| `~test` Bugs blocking end-to-end test execution | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | [Test Platform Sub-Department](/handbook/engineering/infrastructure/test-platform/) |
-| `~GitLab.com Resource Saturation` Capacity planning warnings | Mean forecast shows Hard SLO breach within 3 months. | | | | Scalability Engineering Manager (who will hand over to EM that owns the resource) |
+| Type of {{< label name="type::bug" color="#cc0000" >}}                                                         | {{< label name="severity::1" color="#cc0000" >}} Blocker                                                                                                           | {{< label name="severity::2" color="#ff8800" light="true" >}} Critical                                                                                             | {{< label name="severity::3" color="#fff600" light="true" >}} Major                                                                                                   | {{< label name="severity::4" color="#008000" >}} Low                                                                                                               | Triage DRI                                                                                                                                                                               |
+| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| General bugs                                                                                                   | Broken feature with no workaround or any data-loss.                                                                                                                 | Broken feature with an unacceptably complex workaround.                                                                                                             | Broken feature with a workaround.                                                                                                                                      | Functionality is inconvenient.                                                                                                                                      | [SET](/handbook/engineering/quality/#individual-contributors), [QEM](/handbook/engineering/quality/#management-team), or [EM](/handbook/engineering/management/) for that product group. |
+| {{< label name="bug::performance" color="#CC0000" >}} Response time <br> (API/Web/Git)[^1]                     | Above 9000ms to timing out                                                                                                                                          | Between 2000ms and 9000ms                                                                                                                                           | Between 1000ms and 2000ms                                                                                                                                              | Between 200ms and 1000ms                                                                                                                                            | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/)                                                                    |
+| {{< label name="bug::performance" color="#CC0000" >}} Browser Rendering <br> ([LCP](https://web.dev/lcp/))[^2] | Above 9000ms to timing out                                                                                                                                          | Between 4000ms and 9000ms                                                                                                                                           | Between 3000ms and 4000ms                                                                                                                                              | Between 3000ms and 2500ms                                                                                                                                           | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/)                                                                    |
+| {{< label name="bug::performance" color="#CC0000" >}} Browser Rendering <br> ([TBT](https://web.dev/tbt/))[^2] | Above 9000ms to timing out                                                                                                                                          | Between 2000ms and 9000ms                                                                                                                                           | Between 1000ms and 2000ms                                                                                                                                              | Between 300ms and 1000ms                                                                                                                                            | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/)                                                                    |
+| {{< label name="bug::ux" color="#9400d3" >}} User experience problem [&sup3;](#ux)                                                               | "I can't figure this out." Users are blocked and/or likely to make risky errors due to poor usability, and are likely to ask for support.                           | "I can figure out why this is happening, but it's really painful to solve." Users are significantly delayed by the available workaround.                            | "This still works, but I have to make small changes to my process." Users are self sufficient in completing the task with the workaround, but may be somewhat delayed. | "There is a small inconvenience or inconsistency." Usability isn't ideal or there is a small cosmetic issue.                                                        | [Product Designers](/handbook/product/ux/product-design/) of that Product group                                                                                                          |
+| {{< label name="bug::availability" color="#CC0000" >}} of GitLab SaaS                                          | See [Availability section](#availability)                                                                                                                           | See [Availability section](#availability)                                                                                                                           | See [Availability section](#availability)                                                                                                                              | See [Availability section](#availability)                                                                                                                           |                                                                                                                                                                                          |
+| {{< label name="bug::vulnerability" color="#CC0000" >}} Security Vulnerability                                 | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas)                    | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas)                    | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas)                       | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas)                    | AppSec team                                                                                                                                                                              |
+| Global Search                                                                                                  | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search)    | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) |                                                                                                                                                                                          |
+| {{< label name="test" color="#69D100" light="true" >}} Bugs blocking end-to-end test execution                                                                | See [Blocked tests section](#blocked-tests)                                                                                                                         | See [Blocked tests section](#blocked-tests)                                                                                                                         | See [Blocked tests section](#blocked-tests)                                                                                                                            | See [Blocked tests section](#blocked-tests)                                                                                                                         | [Test Platform Sub-Department](/handbook/engineering/infrastructure/test-platform/)                                                                                                      |
+| {{< label name="GitLab.com Resource Saturation" color="#CC0033" >}} Capacity planning warnings                                                   | Mean forecast shows Hard SLO breach within 3 months.                                                                                                                |                                                                                                                                                                     |                                                                                                                                                                        |                                                                                                                                                                     | Scalability Engineering Manager (who will hand over to EM that owns the resource)                                                                                                        |
 
 ### Severity SLOs
 
-The severity label also helps us define the time a ~"type::bug" or ~"corrective action" of that severity should be completed.
+The severity label also helps us define the time a {{< label name="type::bug" color="#cc0000" >}} or {{< label name="corrective action" color="#428BCA" >}} of that severity should be completed.
 This indicates the expected timeline & urgency which is used to measure our SLO targets.
 
-| **Severity**   | Incident root cause analysis `~corrective action` SLO | {{< label name="type::bug" color="#cc0000" >}} resolution SLO | {{< label name="GitLab.com Resource Saturation" color="#CC0033" >}} resolution SLO | Security `~vulnerability` SLO |
-|----------------|---------|--------------------------------------------------------------------------------| ----|-----|
-| {{< label name="severity::1" color="#cc0000" >}} | 1 week  | The current release + next available deployment to GitLab.com (within 30 days) | Within 2 months | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) |
-| {{< label name="severity::2" color="#ff8800" light="true" >}} | 30 days | The next release (60 days)                                                   |  | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas)  |
-| {{< label name="severity::3" color="#fff600" light="true" >}} | 60 days | Within the next 3 releases (approx one quarter or 90 days) |  | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) |
-| {{< label name="severity::4" color="#008000" >}} | 90 days | Anything outside the next 3 releases (more than one quarter or 120 days).    |  |  See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas)  |
+| **Severity**                                                  | Incident root cause analysis {{< label name="corrective action" color="#428BCA" >}} SLO | {{< label name="type::bug" color="#cc0000" >}} resolution SLO                  | {{< label name="GitLab.com Resource Saturation" color="#CC0033" >}} resolution SLO | Security `~vulnerability` SLO                                                                                         |
+| ------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| {{< label name="severity::1" color="#cc0000" >}}              | 1 week                                                | The current release + next available deployment to GitLab.com (within 30 days) | Within 2 months                                                                    | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) |
+| {{< label name="severity::2" color="#ff8800" light="true" >}} | 30 days                                               | The next release (60 days)                                                     |                                                                                    | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) |
+| {{< label name="severity::3" color="#fff600" light="true" >}} | 60 days                                               | Within the next 3 releases (approx one quarter or 90 days)                     |                                                                                    | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) |
+| {{< label name="severity::4" color="#008000" >}}              | 90 days                                               | Anything outside the next 3 releases (more than one quarter or 120 days).      |                                                                                    | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) |
 
 #### Examples of severity levels
 
 If a issue seems to fall between two severity labels, assign it to the higher severity label.
 
-- Example(s) of {{< label name="severity::1" color="#cc0000" >}}
-  - Data corruption/loss.
-  - Security breach.
-  - Unable to create an issue or merge request.
-  - Unable to add a comment or thread to the issue or merge request.
-  - An error message displays (that looks like a blocker) when the message should instead be informational.
-  - Unclear instructions in the UI that lead to irreversible changes.
-- Example(s) of {{< label name="severity::2" color="#ff8800" light="true" >}}
-  - Cannot submit changes through the web IDE, but the command line works.
-  - A status widget on the merge request page is not working, but information can be seen in the test pipeline page.
-  - A workaround is available but it requires the use of the [Rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html), making it unacceptably complex.
-- Example(s) of {{< label name="severity::3" color="#fff600" light="true" >}}
-  - Can create merge requests only from the Merge Requests list view, not from an Issue page.
-- Example(s) of {{< label name="severity::4" color="#008000" >}}
-  - Incorrect colors.
-  - Misalignment.
+-   Example(s) of {{< label name="severity::1" color="#cc0000" >}}
+    -   Data corruption/loss.
+    -   Security breach.
+    -   Unable to create an issue or merge request.
+    -   Unable to add a comment or thread to the issue or merge request.
+    -   An error message displays (that looks like a blocker) when the message should instead be informational.
+    -   Unclear instructions in the UI that lead to irreversible changes.
+-   Example(s) of {{< label name="severity::2" color="#ff8800" light="true" >}}
+    -   Cannot submit changes through the web IDE, but the command line works.
+    -   A status widget on the merge request page is not working, but information can be seen in the test pipeline page.
+    -   A workaround is available but it requires the use of the [Rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html), making it unacceptably complex.
+-   Example(s) of {{< label name="severity::3" color="#fff600" light="true" >}}
+    -   Can create merge requests only from the Merge Requests list view, not from an Issue page.
+-   Example(s) of {{< label name="severity::4" color="#008000" >}}
+    -   Incorrect colors.
+    -   Misalignment.
 
 ## Re-evaluating closed issues
 
@@ -146,14 +138,14 @@ We categorize these issues based on the impact to GitLab.com's customer business
 
 The prioritization scheme adheres to our [product prioritization](/handbook/product/product-processes/#prioritization) where security and availability work are prioritized over feature velocity.
 
-The presence of these severity labels modifies the standard severity labels({{< label name="severity::1" color="#cc0000" >}}, {{< label name="severity::2" color="#ff8800" light="true" >}}, {{< label name="severity::3" color="#fff600" light="true" >}}, {{< label name="severity::4" color="#008000" >}}) by primarily taking into account the impact to users. The severity of these issues may change depending on the re-analysis of the impact to GitLab.com users.
+The presence of these severity labels modifies the standard severity labels({{< label name="severity::1" color="#cc0000" >}} {{< label name="severity::2" color="#ff8800" light="true" >}} {{< label name="severity::3" color="#fff600" light="true" >}} {{< label name="severity::4" color="#008000" >}}) by primarily taking into account the impact to users. The severity of these issues may change depending on the re-analysis of the impact to GitLab.com users.
 
-| Severity | Availability impact | Time to mitigate (TTM)(1) | Time to resolve (TTR)(2) | Minimum priority |
-|-|-|-|-|-|
-| {{< label name="severity::1" color="#cc0000" >}} | Problem on GitLab.com blocking the typical user's workflow<br/><br/>Impacts 20% or more of users without an available workaround<br/><br/>**AND/OR**<br/><br/>Any roadblock that puts the [guaranteed self-managed release date](/handbook/engineering/releases/#timelines) at risk (use ~backstage label)<br /><br/>**AND/OR**<br/><br/>Any data loss directly impacting customers | Within 8 hrs | Within 48 hrs | {{< label name="priority::1" color="#cc0000" >}} |
-| {{< label name="severity::2" color="#ff8800" light="true" >}} | Problem on GitLab.com blocking the typical user's workflow<br/><br/>Impacts 20% or more of users, but a reasonable workaround is available.<br/><br/>Impacts between 5%-20% of users without an available workaround | Within 24 hrs | Within 7 days |  {{< label name="priority::1" color="#cc0000" >}} |
-| {{< label name="severity::3" color="#fff600" light="true" >}} | Broad impact on GitLab.com and minor inconvenience to typical user's workflow. No workaround needed.<br/><br/>Impacts up to 5% of users | Within 72 hrs | Within 30 days | {{< label name="priority::2" color="#ff8800" light="true" >}} |
-| {{< label name="severity::4" color="#008000" >}} | Minimal impact on GitLab.com typical user's workflow to less than 5% of users <br/><br/>May also include incidents with no impact, but with importance to resolve to prevent future risk| Within 7 days | Within 60 days | {{< label name="priority::3" color="#fff600" light="true" >}} |
+| Severity                                                      | Availability impact                                                                                                                                                                                                                                                                                                                                                                 | Time to mitigate (TTM)(1) | Time to resolve (TTR)(2) | Minimum priority                                              |
+| ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------ | ------------------------------------------------------------- |
+| {{< label name="severity::1" color="#cc0000" >}}              | Problem on GitLab.com blocking the typical user's workflow<br/><br/>Impacts 20% or more of users without an available workaround<br/><br/>**AND/OR**<br/><br/>Any roadblock that puts the [guaranteed self-managed release date](/handbook/engineering/releases/#timelines) at risk (use ~backstage label)<br /><br/>**AND/OR**<br/><br/>Any data loss directly impacting customers | Within 8 hrs              | Within 48 hrs            | {{< label name="priority::1" color="#cc0000" >}}              |
+| {{< label name="severity::2" color="#ff8800" light="true" >}} | Problem on GitLab.com blocking the typical user's workflow<br/><br/>Impacts 20% or more of users, but a reasonable workaround is available.<br/><br/>Impacts between 5%-20% of users without an available workaround                                                                                                                                                                | Within 24 hrs             | Within 7 days            | {{< label name="priority::1" color="#cc0000" >}}              |
+| {{< label name="severity::3" color="#fff600" light="true" >}} | Broad impact on GitLab.com and minor inconvenience to typical user's workflow. No workaround needed.<br/><br/>Impacts up to 5% of users                                                                                                                                                                                                                                             | Within 72 hrs             | Within 30 days           | {{< label name="priority::2" color="#ff8800" light="true" >}} |
+| {{< label name="severity::4" color="#008000" >}}              | Minimal impact on GitLab.com typical user's workflow to less than 5% of users <br/><br/>May also include incidents with no impact, but with importance to resolve to prevent future risk                                                                                                                                                                                            | Within 7 days             | Within 60 days           | {{< label name="priority::3" color="#fff600" light="true" >}} |
 
 (1) - Mitigation uses non-standard work processes, eg. hot-patching, critical code and configuration changes. Owned by Infrastructure department, leveraging available escalation processes (dev-escalation and similar)
 
@@ -163,12 +155,12 @@ The presence of these severity labels modifies the standard severity labels({{< 
 
 The priority of an availability issue is tied to severity in the following manner:
 
-| Issue with the labels  | Allowed priorities | **Not-allowed priorities** |
-|-|-|-|
-| {{< label name="bug::availability" color="#CC0000" >}} {{< label name="severity::1" color="#cc0000" >}}  | {{< label name="priority::1" color="#cc0000" >}} only | {{< label name="priority::2" color="#ff8800" light="true" >}}, {{< label name="priority::3" color="#fff600" light="true" >}}, and {{< label name="priority::4" color="#008000" >}} |
-| {{< label name="bug::availability" color="#CC0000" >}} {{< label name="severity::2" color="#ff8800" light="true" >}}  | {{< label name="priority::1" color="#cc0000" >}} only | {{< label name="priority::2" color="#ff8800" light="true" >}}, {{< label name="priority::3" color="#fff600" light="true" >}}, and {{< label name="priority::4" color="#008000" >}} |
-| {{< label name="bug::availability" color="#CC0000" >}} {{< label name="severity::3" color="#fff600" light="true" >}}  | {{< label name="priority::2" color="#ff8800" light="true" >}} as baseline, {{< label name="priority::1" color="#cc0000" >}} allowed | {{< label name="priority::3" color="#fff600" light="true" >}}, and {{< label name="priority::4" color="#008000" >}} |
-| {{< label name="bug::availability" color="#CC0000" >}} {{< label name="severity::4" color="#008000" >}}  | {{< label name="priority::3" color="#fff600" light="true" >}} as baseline, {{< label name="priority::2" color="#ff8800" light="true" >}} and {{< label name="priority::1" color="#cc0000" >}} allowed | {{< label name="priority::4" color="#008000" >}} |
+| Issue with the labels                                                                                                | Allowed priorities                                                                                                                                                                                    | **Not-allowed priorities**                                                                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| {{< label name="bug::availability" color="#CC0000" >}} {{< label name="severity::1" color="#cc0000" >}}              | {{< label name="priority::1" color="#cc0000" >}} only                                                                                                                                                 | {{< label name="priority::2" color="#ff8800" light="true" >}} {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}} |
+| {{< label name="bug::availability" color="#CC0000" >}} {{< label name="severity::2" color="#ff8800" light="true" >}} | {{< label name="priority::1" color="#cc0000" >}} only                                                                                                                                                 | {{< label name="priority::2" color="#ff8800" light="true" >}} {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}} |
+| {{< label name="bug::availability" color="#CC0000" >}} {{< label name="severity::3" color="#fff600" light="true" >}} | {{< label name="priority::2" color="#ff8800" light="true" >}} as baseline, {{< label name="priority::1" color="#cc0000" >}} allowed                                                                   | {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}}                                                                |
+| {{< label name="bug::availability" color="#CC0000" >}} {{< label name="severity::4" color="#008000" >}}              | {{< label name="priority::3" color="#fff600" light="true" >}} as baseline, {{< label name="priority::2" color="#ff8800" light="true" >}} and {{< label name="priority::1" color="#cc0000" >}} allowed | {{< label name="priority::4" color="#008000" >}}                                                                                                                                   |
 
 ### Merge requests experience
 
@@ -187,15 +179,15 @@ These product groups also have a high sensitivity to GMAU. This product groups w
 
 #### Merge requests experience prioritization
 
-We need an elevated sense of action in this area. If a bug is related to the merge request experience it should have the labels `~UX` `~merge requests`.
+We need an elevated sense of action in this area. If a bug is related to the merge request experience it should have the labels {{< label name="UX" color="#D10069" >}} {{< label name="merge requests" color="#428bca" >}}.
 Priority is tied to severity in the following manner:
 
-| MR UX bug severity | Allowed priorities | **Not-allowed priorities** |
-|-|-|-|
-| {{< label name="severity::1" color="#cc0000" >}} | {{< label name="priority::1" color="#cc0000" >}} only | {{< label name="priority::2" color="#ff8800" light="true" >}}, {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}} |
-| {{< label name="severity::2" color="#ff8800" light="true" >}} | {{< label name="priority::1" color="#cc0000" >}} only | {{< label name="priority::2" color="#ff8800" light="true" >}}, {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}} |
-| {{< label name="severity::3" color="#fff600" light="true" >}} | {{< label name="priority::1" color="#cc0000" >}} or {{< label name="priority::2" color="#ff8800" light="true" >}} | {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}} |
-| {{< label name="severity::4" color="#008000" >}} | {{< label name="priority::1" color="#cc0000" >}} or {{< label name="priority::2" color="#ff8800" light="true" >}} or {{< label name="priority::3" color="#fff600" light="true" >}} | {{< label name="priority::4" color="#008000" >}} |
+| MR UX bug severity                                            | Allowed priorities                                                                                                                                                                 | **Not-allowed priorities**                                                                                                                                                        |
+| ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| {{< label name="severity::1" color="#cc0000" >}}              | {{< label name="priority::1" color="#cc0000" >}} only                                                                                                                              | {{< label name="priority::2" color="#ff8800" light="true" >}} {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}} |
+| {{< label name="severity::2" color="#ff8800" light="true" >}} | {{< label name="priority::1" color="#cc0000" >}} only                                                                                                                              | {{< label name="priority::2" color="#ff8800" light="true" >}} {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}} |
+| {{< label name="severity::3" color="#fff600" light="true" >}} | {{< label name="priority::1" color="#cc0000" >}} or {{< label name="priority::2" color="#ff8800" light="true" >}}                                                                  | {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}}                                                                |
+| {{< label name="severity::4" color="#008000" >}}              | {{< label name="priority::1" color="#cc0000" >}} or {{< label name="priority::2" color="#ff8800" light="true" >}} or {{< label name="priority::3" color="#fff600" light="true" >}} | {{< label name="priority::4" color="#008000" >}}                                                                                                                                  |
 
 ### Blocked tests
 
@@ -206,15 +198,15 @@ We must ensure coverage is stable and active by quickly resolving issues that ca
 
 To promote awareness of bugs blocking end-to-end test execution, newly opened ~test ~"type::bug" issues will be announced in several Slack channels:
 
-- All newly opened bugs blocking end-to-end test execution should be announced in [#quality](https://gitlab.slack.com/archives/C3JJET4Q6) channel.
-- A newly opened bug blocking end-to-end test execution that is a product bug should also be announced in [#development](https://gitlab.slack.com/archives/C02PF508L) and [#vp-development](https://gitlab.slack.com/archives/CRC0B18UX) channels with the appropriate EM and PM tagged.
+-   All newly opened bugs blocking end-to-end test execution should be announced in [#quality](https://gitlab.slack.com/archives/C3JJET4Q6) channel.
+-   A newly opened bug blocking end-to-end test execution that is a product bug should also be announced in [#development](https://gitlab.slack.com/archives/C02PF508L) and [#vp-development](https://gitlab.slack.com/archives/CRC0B18UX) channels with the appropriate EM and PM tagged.
 
 Priority is tied to severity in the following manner:
 
-| Type of test blocked | Bug severity | Allowed priorities | **Not-allowed priorities** |
-|-|-|-|-|
-| Smoke end-to-end test | {{< label name="severity::1" color="#cc0000" >}} | {{< label name="priority::1" color="#cc0000" >}} only | {{< label name="priority::2" color="#ff8800" light="true" >}}, {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}} |
-| Non-smoke end-to-end test | {{< label name="severity::2" color="#ff8800" light="true" >}} | {{< label name="priority::2" color="#ff8800" light="true" >}} as baseline, {{< label name="priority::1" color="#cc0000" >}} allowed | {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}} |
+| Type of test blocked      | Bug severity                                                  | Allowed priorities                                                                                                                  | **Not-allowed priorities**                                                                                                                                                        |
+| ------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Smoke end-to-end test     | {{< label name="severity::1" color="#cc0000" >}}              | {{< label name="priority::1" color="#cc0000" >}} only                                                                               | {{< label name="priority::2" color="#ff8800" light="true" >}} {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}} |
+| Non-smoke end-to-end test | {{< label name="severity::2" color="#ff8800" light="true" >}} | {{< label name="priority::2" color="#ff8800" light="true" >}} as baseline, {{< label name="priority::1" color="#cc0000" >}} allowed | {{< label name="priority::3" color="#fff600" light="true" >}} and {{< label name="priority::4" color="#008000" >}}                                                                |
 
 ### Performance
 
@@ -222,18 +214,17 @@ Priority is tied to severity in the following manner:
 We encourage performance improvements to be broken down. Improve where we can and then re-evaluate the next appropriate level of severity & priority based on the new response time.
 
 [^1]: Our current response time targets for APIs, Web Controllers and Git calls are based on the TTFB P90 results of the [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance) being run against a [10k-user reference environment](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html) under lab like conditions. This run happens nightly and results are outputted to the [wiki on the GPT project](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/Latest/10k).
-
 [^2]: Our current Browser Rendering targets for [Largest Contentful Paint (LCP)](https://web.dev/lcp/) and [Total Blocking Time (TBT)](https://web.dev/tbt/) are based on results of [SiteSpeed](https://gitlab.com/gitlab-org/quality/performance-sitespeed) being run against a [10k-user reference environment](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html) under lab like conditions. This run happens nightly and results are outputted to the [wiki on the GPT project](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/SiteSpeed/10k).
 
 ### UX
 
 #### UX bugs
 
-Some UX-related issues are known to impact our [System Usability Scale (SUS) score](/handbook/product/ux/performance-indicators/system-usability-scale/), which is a focus in our [three-year strategy](/handbook/company/strategy/#three-year-strategy). We particularily target issues *with* the label `bug::ux`. These issues will have a severity label applied and they follow the [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and [SLOs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) for `type::bug` issues.
+Some UX-related issues are known to impact our [System Usability Scale (SUS) score](/handbook/product/ux/performance-indicators/system-usability-scale/), which is a focus in our [three-year strategy](/handbook/company/strategy/#three-year-strategy). We particularily target issues _with_ the label {{< label name="bug::ux" color="#9400d3" >}}. These issues will have a severity label applied and they follow the [severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) and [SLOs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) for `type::bug` issues.
 
 #### Deferred UX
 
-Issues labeled as `~Deferred UX` also have a severity (and additionally [priority](#priority)) label applied *without* an accompanying {{< label name="type::bug" color="#cc0000" >}} label. [Deferred UX](/handbook/engineering/workflow/#deferred-ux) results from the decision to release a user-facing feature that needs refinement, with the intention to improve it in subsequent iterations. Because it is an intentional decision, `~Deferred UX` should not have a severity higher than {{< label name="severity::3" color="#fff600" light="true" >}}, because [MVCs](/handbook/values/#minimal-viable-change-mvc) should not intentionally have obvious bugs or significant usability problems. If you find yourself creating a Deferred UX issue that is higher than {{< label name="severity::3" color="#fff600" light="true" >}}, please talk to your stage group team about reincorporating that issue into the MVC.
+Issues labeled as {{< label name="Deferred UX" color="#7f8c8d" >}}  also have a severity (and additionally [priority](#priority)) label applied _without_ an accompanying {{< label name="type::bug" color="#cc0000" >}} label. [Deferred UX](/handbook/engineering/workflow/#deferred-ux) results from the decision to release a user-facing feature that needs refinement, with the intention to improve it in subsequent iterations. Because it is an intentional decision, {{< label name="Deferred UX" color="#7f8c8d" >}}  should not have a severity higher than {{< label name="severity::3" color="#fff600" light="true" >}} because [MVCs](/handbook/values/#minimal-viable-change-mvc) should not intentionally have obvious bugs or significant usability problems. If you find yourself creating a Deferred UX issue that is higher than {{< label name="severity::3" color="#fff600" light="true" >}} please talk to your stage group team about reincorporating that issue into the MVC.
 
 ### Transient bugs
 
@@ -241,9 +232,9 @@ A transient bug is unexpected, unintended behavior that does not always occur in
 
 Transient bugs give users conflicting impressions about what is happening when they take action, may not consistently occur, and last for a short period of time. While these bugs may not block a user's workflow and are usually resolved by a total page refresh, they are detrimental to the user experience and can build a lack of trust in the product. Users can become unsure about whether the data they are seeing is stale, fresh, or has even updated after they took an action. Examples of transient behaviors include:
 
-- Clicking the "Apply Suggestion" button and the page not getting updated with the applied suggestion
-- Updating the milestone of an issue by using a quick action, but the sidebar not updating to reflect the new milestone
-- Merging a merge request and the merge request page still showing as "Open"
+-   Clicking the "Apply Suggestion" button and the page not getting updated with the applied suggestion
+-   Updating the milestone of an issue by using a quick action, but the sidebar not updating to reflect the new milestone
+-   Merging a merge request and the merge request page still showing as "Open"
 
 In order to define an issue as a "transient bug," use the {{< label name="bug::transient" color="#CC0000" >}} label
 
@@ -259,16 +250,14 @@ In order to define an issue as related to limits add the labels {{< label name="
 
 Severity should be assessed using the following table:
 
-| Severity | Availability impact |
-|-|-|
-| {{< label name="severity::1" color="#cc0000" >}} | Absence of this limit enables a single user to negatively impact availablity of GitLab |
-| {{< label name="severity::2" color="#ff8800" light="true" >}} | Absence of this limit poses a risk to reduced availability of GitLab |
+| Severity                                                      | Availability impact                                                                                 |
+| ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| {{< label name="severity::1" color="#cc0000" >}}              | Absence of this limit enables a single user to negatively impact availablity of GitLab              |
+| {{< label name="severity::2" color="#ff8800" light="true" >}} | Absence of this limit poses a risk to reduced availability of GitLab                                |
 | {{< label name="severity::3" color="#fff600" light="true" >}} | Absence of this limit has a negative impact on ability to manage cost, performance, or availability |
-| {{< label name="severity::4" color="#008000" >}} | A limit could be applied, but it's absences does not pose availability risk |
+| {{< label name="severity::4" color="#008000" >}}              | A limit could be applied, but it's absences does not pose availability risk                         |
 
 These issues follow the established [severity SLOs for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
-
-
 
 ## Triaging Issues
 
@@ -276,18 +265,18 @@ Initial triage involves (at a minimum) labelling an issue appropriately, so un-t
 
 Follow one of these links:
 
-- [GitLab][issues-query]
-- [GitLab Omnibus][omnibus-issues-query]
-- [GitLab.com Support Tracker][support-issues-query]
+-   [GitLab][issues-query]
+-   [GitLab Omnibus][omnibus-issues-query]
+-   [GitLab.com Support Tracker][support-issues-query]
 
 Pick an issue, with preference given to the oldest in the list, and evaluate it with a critical eye, bearing the [issue triage practices](#issue-triage-practices) below in mind. Some questions to ask yourself:
 
-- Do you understand what the issue is describing?
-- What labels apply? Particularly consider [type, stage and severity](https://docs.gitlab.com/ee/development/labels/index.html) labels.
-- How critical does it seem? Does it need to be escalated to a product or engineering manager, or to the security team?
-- Would the {{< label name="bug::vulnerability" color="#CC0000" >}} label be appropriate?
-- Should it be made confidential? It's usually the case for {{< label name="bug::vulnerability" color="#CC0000" >}} issues or
-  issues that contain private information.
+-   Do you understand what the issue is describing?
+-   What labels apply? Particularly consider [type, stage and severity](https://docs.gitlab.com/ee/development/labels/index.html) labels.
+-   How critical does it seem? Does it need to be escalated to a product or engineering manager, or to the security team?
+-   Would the {{< label name="bug::vulnerability" color="#CC0000" >}} label be appropriate?
+-   Should it be made confidential? It's usually the case for {{< label name="bug::vulnerability" color="#CC0000" >}} issues or
+    issues that contain private information.
 
 Apply each label that seems appropriate. Issues with a security impact should be treated specially - see the [security disclosure process](/handbook/support/channels/#security-disclosures).
 
@@ -328,12 +317,12 @@ If you are triaging one of these issues as a GitLab engineer or as a quality dep
 
 You can ask yourself these questions when picking a group:
 
-- Does the group directly lists this area in their product categories?
-- Does the group works with the underlying technologies of the issue at hand?
-- Have they done similar work in the past?
-- Are they a foundational group that regularly engages in similar cross-cutting features?
-- Can you identify the affected file and use git blame to see who was the author of the last change?
-- Can you identify the Code Owners of the file?
+-   Does the group directly lists this area in their product categories?
+-   Does the group works with the underlying technologies of the issue at hand?
+-   Have they done similar work in the past?
+-   Are they a foundational group that regularly engages in similar cross-cutting features?
+-   Can you identify the affected file and use git blame to see who was the author of the last change?
+-   Can you identify the Code Owners of the file?
 
 To help with initially narrowing down the list of possible groups, you may review the [Product Categories](/handbook/product/categories/) page or the [Stage Groups Ownership Index](https://gitlab-com.gitlab.io/gl-infra/platform/stage-groups-index/) page.
 
@@ -353,10 +342,7 @@ As the DRI you should consider take additional steps to ensure the continued sup
 
 If as a result of the triage process a group is identified as qualified and willing to take ownership on a permanent basis, product and engineering leaders should officially document the type of ownership model and the team in the [shared services components](/handbook/engineering/development/#shared-services-and-components) section of the Development handbook. Multiple groups may permanently share ownership of the same component if deemed appropriate.
 
-
 It is important to keep in mind that throughout this process, as a leader in your group, you are deemed the initial Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) until the issue is resolved or someone else agrees to take over. Simply removing your group label without further triage conversations with other groups is not an acceptable or helpful action to take in this process. This aligns with our value of [Results: global optimization](/handbook/values/#global-optimization).
-
-
 
 ### Outdated issues
 
@@ -368,10 +354,10 @@ If they respond at any point in the future, the issue can be considered for reop
 
 To find duplicates:
 
-- Open the issue tracker for the project the issue is for.
-- Enter relevant keywords from the issue.
-- Scan through the first page of the result list.
-- Check both open and closed issues.
+-   Open the issue tracker for the project the issue is for.
+-   Enter relevant keywords from the issue.
+-   Scan through the first page of the result list.
+-   Check both open and closed issues.
 
 Use the issue with the better title, description, or more comments and positive reactions as the canonical version. If you can't decide, keep the earlier issue.
 
@@ -379,13 +365,11 @@ Use the issue with the better title, description, or more comments and positive 
 
 If the issue is really a support request for help, you can post this message:
 
-```
+```md
 Hey {{author}} thanks for reaching out, but it looks like this might be a request for support. The issue tracker is for new bug reports and feature proposals. For support requests we have several resources that you can use to find help and support from the Community, including:
 
 * [Technical Support for Paid Tiers](https://about.gitlab.com/support/)
-
 * [Community Forum](https://forum.gitlab.com/)
-
 * [Reference Documents and Videos](https://about.gitlab.com/get-help/#references)
 
 Please refer to our [Support page](https://about.gitlab.com/support/) for more information.
@@ -413,8 +397,8 @@ Don't make any forward looking statements around milestone targets that the dupl
 
 We simply can't satisfy everyone. We need to balance pleasing users as much as possible with keeping the project maintainable.
 
-- If the issue is a bug report without reproduction steps or version information, close the issue and ask the reporter to provide more information.
-- If we're definitely not going to add a feature/change, say so and close the issue.
+-   If the issue is a bug report without reproduction steps or version information, close the issue and ask the reporter to provide more information.
+-   If we're definitely not going to add a feature/change, say so and close the issue.
 
 ### Label issues as they come in
 
@@ -458,12 +442,12 @@ The original issue about these policies is [#17693][17693]. We'll be working to 
 
 The following projects, resources, and blog posts were very helpful in crafting these policies:
 
-- [CodeTriage][code-triage]
-- [How to be an open source gardener][open-source-gardener]
-- [Managing the Deluge of Atom Issues][atom-issues]
-- [Handling Large OSS Projects Defensively][handling-big-projects]
-- [My condolences, you’re now the maintainer of a popular open source project][my-condolences]
-- [The Art of Closing][art-of-closing]
+-   [CodeTriage][code-triage]
+-   [How to be an open source gardener][open-source-gardener]
+-   [Managing the Deluge of Atom Issues][atom-issues]
+-   [Handling Large OSS Projects Defensively][handling-big-projects]
+-   [My condolences, you’re now the maintainer of a popular open source project][my-condolences]
+-   [The Art of Closing][art-of-closing]
 
 [open-development]: /blog/2015/12/16/improving-open-development-for-everyone/
 [issues-query]: https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=None&assignee_id=None
