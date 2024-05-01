@@ -413,26 +413,26 @@ There can only be one Partner Sourced Deal Registration approved for an opportun
 
 ### Partner Sourced Deal Registration: How it Works
 
-_The Partner Portal is hosted by Impartner and has SSO enabled with Vartopia, the partner-facing Deal Registration system. GitLab uses a third-party managed services team to help manage the administrative process for Deal Registration.*
+The Partner Portal is hosted by Impartner and has SSO enabled with Vartopia, the partner-facing Deal Registration system.
 
-**Partner****
+**Partner**
 
 The partner submits a Partner Sourced Deal Registration and then the following occurs:
 1. An email is sent to the partner acknowledging that the deal registration has been successfully created and submitted. The registration is also viewable in the deal registration section of the partner’s portal account.
 2. The system creates a Registration record on the Registration object in SFDC that includes all the details of the registration.
-3. Partner Operations review the registration in SFDC.
+3. The system notifies the Partner Operations team to review the registration.
 
 **Partner Operations**
 
-Partner Operations team reviews the registration after it is submitted by the partner (`DR-Status` = “Submitted”). If there is:
-- *an existing customer account in SFDC*, they will link the account and contact to the registration, assign the appropriate Partner Manager, then submit the registration for Partner Manager approval.
-- *no existing customer account in SFDC*, they will create the account, link the account and contact to the registration, then hold for SFDC to assign the account territory and owner in an overnight update. Partner Operations team will assign the appropriate Partner Manager to the registration after customer account assignments are completed by system, then submit the registration for Partner Manager approval.
+The Partner Operations team reviews the registration after it is submitted by the partner (`DR-Status` = “Submitted”). If there is:
+- *an existing customer account in SFDC*, they will link the account and contact to the registration, assign the appropriate Partner Territory Manager, then submit the registration for Partner Territory Manager approval.
+- *no existing customer account in SFDC*, they will create the account, link the account and contact to the registration, then hold for SFDC to assign the account territory and owner in an overnight update. Partner Operations will assign the appropriate Partner Territory Manager to the registration after customer account assignments are completed by system, then submit the registration for Partner Territory Manager approval.
 
-The Partner Manager on the registration is automatically assigned as the `Account Owner` of the Partner Account in SFDC. Partner Operations will reassign the registration to the correct Partner Manager as part of their review in cases where adjustment is required to align the appropriate Partner Manager based on customer account territory or ownership. 
+The Partner Territory Manager on the registration is automatically assigned as the `Account Owner` of the Partner Account in SFDC. Partner Operations will reassign the registration to the correct Partner Territory Manager as part of their review in cases where adjustment is required to align the appropriate Partner Territory Manager based on customer account territory or ownership. The Partner Operations team has a 2 hour SLA to action registrations within their working hours, Monday through Friday.
 
 **GitLab Partner Manager**
 
-The Partner Manager receives an email notification to review the Partner Sourced Deal Registration once the Managed Services Team has actioned the registration and submitted it for approval (`DR-Status` = “Pending Sales Review”). Partner Managers can also view registrations in their list view within the SFDC Registration tab. The Partner Manager is responsible for reviewing the registration and communicating with the applicable GitLab Sales Rep and ASM during this process. The Partner Manager must either approve, reject, or return the registration for additional information after completing their review. If they approve, it will automatically be sent to the appropriate ASM for final review.
+The Partner Manager receives an email notification to review the Partner Sourced Deal Registration once the Partner Oprations Team has actioned the registration and submitted it for approval (`DR-Status` = “Pending Sales Review”). Partner Managers can also view registrations in their list view within the SFDC Registration tab. The Partner Manager is responsible for reviewing the registration and communicating with the applicable GitLab Sales Rep and ASM during this process. The Partner Manager must either approve, reject, or return the registration for additional information after completing their review. If they approve, it will automatically be sent to the appropriate ASM for final review.
 
 **GitLab Area Sales Manager (ASM)**
 
