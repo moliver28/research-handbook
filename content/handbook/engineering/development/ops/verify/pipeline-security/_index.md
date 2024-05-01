@@ -91,7 +91,12 @@ We use a [release planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-s
 #### Issue weighting and refinement
 Before issues can be moved from the `workflow::planning breakdown` status into the  `workflow::ready for development` status, they must have a weight greater than 0 applied to the issue.
 
-In order to help the PM schedule issues according to capacity, the EM will add an estimate weight to issues. The PM will then schedule the issue to a specific milestone. During the first two weeks of the milestone prior to implementing the issue, engineers will be assigned to refine and adjust weight.
+We will apply a two-step estimating process: 
+
+- Phase 1: High-level/Rough estimate. Our intention here is to enable the PM to schedule issues according to capacity multiple milestones in advance, the EM will add a high-level estimated weight to issues. The PM will then schedule the issue to a specific milestone. 
+- Phase 2: Refinement/Validated estimate. Engineers will be assigned to refine and adjust the estimated weight (if necessary) during the first two weeks of the milestone prior to the issue's scheduled milestone.
+
+The intention of this phased process is to enable agile planning and reduce the burden of our engineers in frequent context-switching required to investigate and refine issues throughout each milestone. Additionally, this provides our team a quarterly look ahead in the group's direction. 
 
 #### Issue weight system
 An issue weight is determined based on the complexity in the following criteria:
