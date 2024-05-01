@@ -68,7 +68,7 @@ Our team focuses on areas aligning with the company's areas of interest includin
 
 The [FY25 Marketing Strategy](https://internal.gitlab.com/handbook/marketing/fy25-strategy/#marketing--the-customer-journey) (internal only) shows a Customer Journey with five stages: Awareness, Consideration, Conversion, Expansion, and Evangelism.
 
-We impact each level of the funnel through the content we create, the events we support, and the other activities that help us reach more developers. The KPIs we use to measure our impact on these two stages are:
+While our team can influence people at each stage, our key focus is on Awareness, Consideration, and Evangelism. The KPIs we use to measure our impact on these stages are:
 - views from content published across owned and earned channels
 - developers engaged through webinars, workshops, and industry events
 
