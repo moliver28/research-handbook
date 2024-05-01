@@ -73,7 +73,7 @@ Please work with the Corporate Marketing Events team on planning these large sca
 
 # Additional Virtual Event Details
 
-For more information on Virtual Event type comparisons, promotion, Zoom capabilities, participant engagement, etc. please visit the Virtual Events page [HERE](/handbook/marketing/virtual-events/).
+For more information on Virtual Event type comparisons, promotion, Zoom capabilities, participant engagement, etc., please visit the Virtual Events page [HERE](/handbook/marketing/virtual-events/). For best practices and instructions on how to set up and run your event using Zoom, please visit the Self-Service Virtual Events page [HERE](handbook/marketing/virtual-events/self-service-virtual-events/).
 
 # Closed Captioning
 
