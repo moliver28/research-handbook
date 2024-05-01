@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through creating and storing job art
 
 > Estimate time to complete: 20 - 25 minutes
 
-
 ## Objectives
 
 Artifacts in GitLab are files that that are created in a job, and then passed to other jobs in later stages. An artifact in one stage cannot be passed to a job in the same stage. You can later access and download any artifacts created in a pipeline. For more information, click [here](https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html).
@@ -86,7 +85,7 @@ In this lab, you will learn how to create an artifact with your `.gitlab-ci.yml`
 
 1. When the `build app` job finishes, click it to review the job's output log. 
 
-    > Note: If the job fails with a message about being unable to find `go.mod`, retry the job until it passes. This is an intermittent Go build bug.
+    > If the job fails with a message about being unable to find `go.mod`, retry the job until it passes. This is an intermittent Go build bug.
 
 1. In the **Job artifacts** panel on the right of the page, click **Browse** and notice that the `app` artifact created by the **build app** pipeline job is available for download. 
 

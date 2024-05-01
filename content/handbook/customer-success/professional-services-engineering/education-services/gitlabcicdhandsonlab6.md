@@ -7,7 +7,6 @@ description: "This Hands-On Guide walks you through working with CI/CD jobs with
 
 > Estimate time to complete: 25 - 30 minutes
 
-
 ## Objectives
 
 Job Policy patterns allow the pipeline to control when and if jobs run using the `rules` keyword. In this lab, you will learn how to create jobs with rules. You will see the impact of these rules on a pipeline and learn how to use variables with pipeline rules.

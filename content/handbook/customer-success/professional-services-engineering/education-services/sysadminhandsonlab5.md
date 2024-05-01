@@ -5,7 +5,11 @@ description: "This Hands-On Guide walks you through enabling sign-up restriction
 
 > Estimated time to complete: 30 minutes
 
+## Objectives
+
 This lab will help you improve your instance's security by enabling the option to send a confirmation email on signup, and ensure that signups are only allowed from your company's domain. 
+
+### Task A. Add Sign-up Restrictions
 
 1. Log into your GitLab web instance with your `root` user and password from Lab 1.
 
