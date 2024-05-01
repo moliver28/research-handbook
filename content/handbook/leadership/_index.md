@@ -197,7 +197,7 @@ Folks who are escalating an issue should avoid surprising folks in the managemen
 
 There may be some exceptions to first notifying managers or peers. For example, a team member [feels unsafe]({{< ref "psychological-safety" >}}) in voicing a concern to a manager or their peers and feels that they can't effectively escalate with standard notification without retribution. While exceptions may be appropriate, they should be rare.
 
-After a team member escalates an issue, it is OK if they [disagree, commit, and disagree]({{< ref "values#disagree-commit-and-disagree" >}}) with the decisions made by the person they escalated to.
+After a team member escalates an issue, it is OK if they [disagree, commit, and disagree]({{< ref "values#disagree-and-commit" >}}) with the decisions made by the person they escalated to.
 
 ## Process gets a bad rep
 
