@@ -15,7 +15,7 @@ The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calcul
 
 #### Engineering Manager, Engineering Productivity Responsibilities
 
-Lead a team of engineers focused on improving development efficiency and streamlining workflows.
+- Lead a team of engineers focused on improving development efficiency and streamlining workflows.
 - Analyze engineering processes and identify areas for improvement.
 - Develop and implement strategies to enhance developer velocity, scalability, and overall team productivity.
 - Collaborate with engineering leadership to define and prioritize the Engineering Productivity team's roadmap.
