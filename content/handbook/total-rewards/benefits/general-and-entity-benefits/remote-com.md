@@ -514,6 +514,15 @@ Employees in Mexico are covered by the Social Security Law, under IMSS who is re
 
 - Life insurance cover provided via Remote. Effective January 1, 2024, all Team Members will be enrolled in the Remote Global Life Insurance plan with a cover level of 200,000 USD at no cost to the team member.
 
+### Monthly Remote Working Allowances
+
+- Internet and electricity monthly allocation of 1,100 MXN to support remote work. These reimbursements are tax-exempt and will be reflected as a separate line item on your payslips to cover for the remote working expense. If the team member is finding that their remote work related expenses for internet and electricity are greater than the 1,100 MXN allowance they can expense the difference which will be  paid as an additional allowance. Team Member's will need to upload all receipts for proper reimbursment. 
+- Use Expense code: `Work From Home` for the additional expenses 
+
+### Ergonomic Chair Allowance
+- Team members are entitled to a one-time claim up to 3000 MXN for the purchase of an ergonomic chair to support their comfort and health while working remotely. 
+- Follow the reimbursement procedure outlined in the NAVAN policy for reimbursement 
+
 ### Christmas Bonus (Aguinaldo)
 
 - GitLab offers 30 working days pay (which includes total earnings + taxable allowances + commissions)
