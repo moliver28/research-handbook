@@ -11,8 +11,8 @@ The mission of the Production Engineering Foundations team at GitLab is to own t
 
 The Foundations teams North Star consists of two pieces:
 
-1. **Creating a platform that drives vertical ownership of engineering services.** We will to this by providing the rest of engineering the resources and tools needed for them to manage their infrastructure and core services in a way that makes it easy for other teams to adopt the best practices and conventions as defined by our team. By pushing towards centralized sets of tooling for all GitLab instances and all services to work from, we will create a culture of scalablility for the future of GitLab infrastructure.
-1. **Sustainable toil.** Toil is a given in SRE work. We will adopt processes and policies that create a balance between what can be automated and what can be done manually so as GitLab grows, the toil involved in running it is maintained at a reasonable level for the team. 
+1. **Creating a platform that drives vertical ownership of engineering services.** We will do this by providing the rest of engineering the resources and tools needed for them to manage their infrastructure and core services in a way that makes it easy for other teams to adopt the best practices and conventions defined by our team. By moving towards centralized sets of tooling for all GitLab instances and all services to work from, we will create a culture of scalability for the future of GitLab infrastructure.
+1. **Sustainable toil.** Toil is a given in SRE work. We will adopt processes and policies that create a balance between what is automated and is done manually so as GitLab grows, the toil involved in running it is maintained at a minimal level for the team. 
 
 ## Responsibilities
 
