@@ -1,9 +1,9 @@
 ---
 title: "Customer Success Leadership"
-description: "The Customer Success Leadership team focuses on the themes of align, enable, and expand."
+description: "The Customer Success Leadership roles are Director and above roles in the customer success organization."
 ---
 
-The Customer Success Leadership team focuses on the themes of align, enable, and expand... [deatils to be added]
+The Customer Success Leadership team is responsible for leading a cross-cuntional team of customer success team members with an emphasis on the themes of align, enable, and expand.
 
 ## Levels
 
@@ -60,7 +60,7 @@ The Senior Director of Customer Success reports to the [VP of Customer Success](
 
 #### Senior Director of Customer Success Job Grade
 
-The Director of Customer Success is a job grade [level 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Director of Customer Success is a job grade [level 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Director of Customer Success Responsibilities
 
@@ -107,26 +107,26 @@ The Vice President of Customer Success is a job grade [level 12](/handbook/total
 
 ## Specialties
 
-### Public Sector Customer Success Manager (CSM)
+### Public Sector Customer Success Leader
 
-#### Public Sector CSM Responsibilities
+#### Public Sector Customer Success Leader Responsibilities
 
-- Extends the corresponding Customer Success Manager level responsibilities, working exclusively with Public Sector customers
+- Extends the corresponding Customer Success Leadership level responsibilities, working exclusively with Public Sector customers
 
-#### Public Sector CSM Requirements
+#### Public Sector Customer Success Leader Requirements
 
-In addition to the corresponding Customer Success Manager level requirements:
+In addition to the corresponding Customer Success Leadership level requirements:
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
 
 ## Performance Indicators
 
 - net ARR (i.e., retention and expansion)
-- [CSM-related metrics](/handbook/customer-success/csm/).
+- [CS-related metrics](/handbook/customer-success/csm/).
 
 ## Career Ladder
 
-Team members in the Customer Success Management job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Architect or Solutions Architect.  
+Team members in the Customer Success Leadership job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Professional Services or Solutions Architect.  
 
 ## Hiring Process
 
