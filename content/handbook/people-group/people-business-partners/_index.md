@@ -28,13 +28,13 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 | Anjali Kaufmann   | Finance | CFO, Accounting, Corporate IT, Data, Enterprise Applications, Finance, Internal Audit, Procurement, Tax  |
 | Carlie Russell    | Sales | Customer Success, Engineering and Renewals, Partner Sales, and Solutions Architects  |
 | Carolyn Bednarz   | Sales | CRO, Enterprise Sales |
+| Lauren Tepper     | Sales | Commercial Sales, Field Operations, Field Ops - Child   |
 | Denise Parsonage  | Marketing | Account-Based Marketing, Brand Campaigns, Brand Design, Campaigns, CMO Executive, Communications, Community Relations, Content Marketing, Corporate Events, Digital Experience, Digital Marketing, Field Marketing, Growth, Marketing Ops, Marketing Strategy and Analytics, Partner Marketing, Product Marketing, Sales Development, Search Marketing |
 | Giuliana Lucchesi | Product | CPO, Monetization, Dev & Analytics, CI/CD Core Platforms & SaaS Delivery, Sec & Data Science, UX Research, Product Design, Technical Writing  |
 | Giuliana Lucchesi | Security | CISO, Corporate Security, Product Security, Security Assurance, Security Operations   |
 | Jess Durbin       | Engineering | Core Development, Expansion  |
 | Kristina Bullock       | Chief of Staff | Chief of Staff |
 | Kristina Bullock  | Engineering | CTO, Customer Support, Core Infrastructure |
-| Lauren Tepper     | Sales | Commercial Sales, Field Operations, Field Ops - Child   |
 
 Remaining Divisions : Departments:  
 
