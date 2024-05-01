@@ -55,7 +55,7 @@ aliases:
 
 ## <i class="fa fa-map-marker" aria-hidden="true"></i> Mission
 
-To support, grow, and engage the wider [GitLab community](/communication/#writing-style-guidelines) through collaboration, content, and conversations.
+To support, grow, and engage the wider [GitLab community](https://handbook.gitlab.com/handbook/communication/#writing-style-guidelines) through collaboration, content, and conversations.
 
 ## <i class="fas fa-map-marked-alt"></i> Strategy
 Developer relations and developer advocacy is an evolving, complex field.
