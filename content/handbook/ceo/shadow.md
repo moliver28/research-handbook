@@ -148,8 +148,8 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-08-12 | 2024-08-16 |  OPEN | OPEN | REMOTE - PT |
 | 2024-08-19 | 2024-08-23 |  OPEN | OPEN | REMOTE - PT - limited week (M-W)|
 | 2024-08-26 | 2024-08-30 |  OPEN | OPEN | REMOTE - PT |
-| 2024-09-02 | 2024-09-06 |  OPEN | OPEN | REMOTE - PT |
-| 2024-09-09 | 2024-09-13 |  OPEN | OPEN | REMOTE - PT - limited week due to conference / f&f day |
+| 2024-09-02 | 2024-09-06 |  [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| OPEN | REMOTE - PT |
+| 2024-09-09 | 2024-09-13 |  OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
 | 2024-09-16 | 2024-09-20 |  OPEN | OPEN | REMOTE - PT |
 | 2024-09-23 | 2024-09-27 |  VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
 | 2024-09-30 | 2024-10-04 |  OPEN | OPEN | REMOTE - PT |
