@@ -20,6 +20,7 @@ stages:
   - test
   - notify
   - cleanup
+  - maintenance
 
 .assume_role: &assume_role
   - >
@@ -168,20 +169,6 @@ deploy s3:
 ##
 ####################################
 
-modules:tidy:
-  image: registry.gitlab.com/pages/hugo/hugo_extended:0.123.7
-  needs: []
-  stage: test
-  rules:
-    - if: $CI_MERGE_REQUEST_IID
-  script:
-    - apk update
-    - apk upgrade
-    - apk add go
-    - hugo mod tidy
-    - echo "If this job failed, please commit changes to the go.mod and go.sum files"
-    - git diff --exit-code go.mod go.sum
-
 markdownlint:
   image:
     name: davidanson/markdownlint-cli2:v0.12.1
@@ -275,3 +262,21 @@ secret_detection:
   rules:
     - <<: *security-scanning-rules
 
+####################################
+##
+## MAINTENANCE STAGE
+##
+####################################
+
+modules:tidy:
+  image: registry.gitlab.com/pages/hugo/hugo_extended:0.123.7
+  needs: []
+  stage: maintenance
+  when: manual
+  script:
+    - apk update
+    - apk upgrade
+    - apk add go
+    - hugo mod tidy
+    - echo "If this job failed, please commit changes to the go.mod and go.sum files"
+    - git diff --exit-code go.mod go.sum
