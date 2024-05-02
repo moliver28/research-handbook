@@ -86,7 +86,7 @@ Here is a [great video](https://www.youtube.com/watch?v=MwHHErfX9hI) that illust
 
 #### Iteration speed and product excellence 
 
-To ensure that our efforts consistently deliver value to our users each iteration must adhere to the following guidelines:
+To ensure that our efforts consistently deliver value to our users, each iteration must adhere to the following guidelines:
 
   1. Define Expected Impact: Clearly articulate the expected measurable positive impact of the iteration on users, ensuring alignment with our overall product direction and guided by a vision that has been informed by user research
   1. Establish Metrics for Success: Identify specific metrics that will be used to evaluate the success of the iteration post-launch. These should be concrete, measurable indicators that directly relate to the intended outcomes of the iteration.
