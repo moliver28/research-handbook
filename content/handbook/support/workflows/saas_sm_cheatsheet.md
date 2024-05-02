@@ -86,3 +86,20 @@ Use the [Admin Area docs](https://docs.gitlab.com/ee/administration/admin_area.h
 |Self-managed| Self-managed runners are [deployed](https://docs.gitlab.com/runner/install/index.html) to customer-owned infrastructure and [registered](https://docs.gitlab.com/runner/register/index.html) to the self-managed GitLab instance.|
 |DotCom| [GitLab-hosted runners](https://docs.gitlab.com/ee/ci/runners/index.html) are available to all projects stored on GitLab.com. Self-managed runners can also be registered to GitLab.com. |
 |Dedicated| [GitLab-hosted runners (beta)](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#hosted-by-gitlab) can be provisioned for Dedicated customers. Self-managed runners can also be registered to Dedicated environments. |
+
+
+### Rails console
+
+|      |       |
+|:----:| ----- |
+|Self-managed| Rails console commands can be run by [starting the rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html) on any of the rails nodes. |
+|DotCom| On GitLab.com, rails console can be accessed by creating an [internal request](/handbook/support/workflows/internal_requests/#gitlabcom-console-escalation). |
+|Dedicated| Rails console is not available for dedicated. In urgent matters please create a [request for help with dedicated team](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new). |
+
+### Feature flags
+
+|      |       |
+|:----:| ----- |
+|Self-managed| Instance adminsitrator can [enable feature flags through the rails console](https://docs.gitlab.com/ee/administration/feature_flags.html).|
+|DotCom| On GitLab.com some features flags [can be enabled through chatops](https://handbook.gitlab.com/handbook/support/workflows/saas_feature_flags/). |
+|Dedicated| Feature Flags are not available for dedicated until the feature flab is enabled by default. |
