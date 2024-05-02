@@ -63,7 +63,7 @@ Minimal Valuable Change (MVC) is the GitLab path to delivering the smallest meas
 Our approach requires four pillars: 
 
   - Relentless customer focus and commitment to understanding their workflows, using research and validation 
-  - Measurable outcomes that use established metrics for success in tracking adoption, usage, or other business outcomes to reflect on current iteration and to inform future iterations 
+  - Measurable outcomes that use established metrics for success in tracking adoption, usage, or other business outcomes.
   - Product functionality that adheres to criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/experiment-beta-support.html)  
   - Future vision to expand the MVC beyond the initial release 
 
