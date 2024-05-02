@@ -31,10 +31,12 @@ Results from our scanners are accepted for review as long as [you have triaged t
 
 If you are using third-party security scanners, we ask that you provide the following information for each vulnerability submitted to us:
 
- - An assessment and analysis of the vulnerability
+ - An assessment and analysis of the vulnerability.
  - Provide a step-by-step guide for the vulnerability to show how it may be exploited in your instance and environment.
 
 Please be sure to add any helpful context to your requests including environment details and specific security risks that you're concerned about. For each risk identified, please provide some explanation and reasoning to help us better understand your concerns so that we can respond in an effective manner.
+
+The format needs to be in an editable file format, for example in CSV, JSON or in an internal spreadsheet.
 
 ### Will GitLab review scanner results for vulnerabilities of all severity? {#review-scanner-results}
 
