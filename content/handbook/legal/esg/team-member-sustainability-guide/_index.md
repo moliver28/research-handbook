@@ -1,7 +1,9 @@
 ---
 aliases: /handbook/legal/ESG/Team-Member-Sustainability-Guide
 title: "Team Member Sustainability Guide"
-description: "GitLab's Team Member Sustainability Guide"
+description: "GitLab's Team Member Sustainability Guide for Remote Work"
+
+[Please contribute your ideas to this guide](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2072)
 
 ---
 ## Introduction
