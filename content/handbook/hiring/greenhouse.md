@@ -322,6 +322,21 @@ If you have specific roles, regions, or processes that you would like to create 
 
 If you have a suggestion for a new or existing REVIEWED email template for the Recruitment team, please submit an [issue](https://gitlab.com/gl-talent-acquisition/operations/-/issues/new) describing the email template you wish to create with the title "Greenhouse Email Template Suggestion" and tag @cchiodo. For reference, all REVIEWED templates are linked [here](https://docs.google.com/document/d/1tAoi3PgqAB-0EouWSqKYB0-dNzAYpvLIO0NRCgFcyqc/edit?usp=sharing).
 
+### Creating and updating offer templates
+
+To create a new offer template or update an existing one in Greenhouse, follow these steps: 
+
+- Download the template as a Word document from the [internal handbook](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
+- In Greenhouse, navigate to Settings > Offer Templates > Upload New Template.
+- Enter the name of the Offer template, and include any additional instructions for CES (add initials, checkbox, textbox etc),  then upload the Word document. Click "Save Template".
+- Test the new template by clicking the "Test" button. This will check if all tokens in the document are functioning correctly. If the test is successful, click "OK."
+- If the test fails, indicating one or more tokens are incorrect:
+    - Return to the document to identify and correct the faulty token.
+    - Re-upload the corrected document to Greenhouse.
+    - Notify the Legal team about the incorrect token so they can update their master template.
+- If replacing an existing template, remove the old template in Greenhouse by clicking the three dots next to it and selecting "Delete."
+
+
 ### Updating requisition and offer approval flows
 
 This can be done by Enablement only. For instructions, see the [internal handbook](https://internal.gitlab.com/handbook/people-group/talent-acquisition/enablement-team/#greenhouse-admin-instructions) for more information.
