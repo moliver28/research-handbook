@@ -165,6 +165,6 @@ This process is followed by a delegate of the CTO Leads team at least 2 weeks be
 
 For the next All-Hands, incorporate the final slides into primary deck! After All-hands, update this page with names of winners. Wooo! You're done until next quarter.
 
-##### Inform Nominees
+#### Inform Nominees
 
 After winners have been announced, inform everyone who was nominated to spread awareness and happiness. Nominees should be informed privately, and without mentioning who nominated them.
