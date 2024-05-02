@@ -45,9 +45,10 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::SIRTandSecurityComms | Indicates the work was associated to a SIRT incidents and/or Security communications work |
 | AppSecWorkType::ToolingsAndMaintenance | Indicates the work was associated to our tools and automation |
 | AppSecWorkType::CrossTeamCollaboration | Indicates the work was associated to cross-team help/collaboration |
-| AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
 | AppSecWorkType::TeamProjects | Indicates the work was associated to team projects |
 | AppSecWorkType::CriticalProjects | Indicates the work was associated to [critical projects](https://handbook.gitlab.com/handbook/security/critical-projects/) |
+| AppSecWorkType::HackerAdmin | Indicates the work was associated to HackerOne administration |
+| AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
 
 #### Who assigns this label and when?
 
