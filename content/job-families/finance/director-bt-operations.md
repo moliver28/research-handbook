@@ -34,7 +34,7 @@ The Director, Business Technology Operations is a [level 10](/handbook/total-rew
 - Proactively communicates with leadership about progress and outcomes and how strategy and contributions support higher-level priorities and initiatives.
 - Focuses the team’s communication and productivity.
 
-#### Director, IT Operations Requirements
+#### Director, Business Technology Operations Requirements
 
 - Bachelor's degree in IT, Computer Science, or related field
 - 10+ years of IT management and leadership experience
@@ -49,15 +49,15 @@ The Director, Business Technology Operations is a [level 10](/handbook/total-rew
 - Change management knowledge and ability to operate effectively in fast paced environment.
 - Demonstrated experience in vendor management and capacity planning in a fast growth environment.
 
-### Sr. Director, IT Operations
+### Sr. Director, Business Technology Operations
 
-The Sr. Director, IT Operations reports to the [VP, Information Technology](/job-families/finance/vp-information-technology/)
+The Sr. Director, Business Technology Operations reports to the [VP, Information Technology](/job-families/finance/vp-information-technology/)
 
-#### Sr. Director, IT Operations Job Grade
+#### Sr. Director, Business Technology Operations Job Grade
 
-The Sr. Director, IT Operations is a [level 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Sr. Director, Business Technology Operations is a [level 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Sr. Director, IT Operations Responsibilities
+#### Sr. Director, Business Technology Operations Responsibilities
 
 - Extends that of the Director of IT Operations responsibilities.
 - Provides leadership and develops direction and strategy through directors and/or senior managers within the Department.
@@ -70,7 +70,7 @@ The Sr. Director, IT Operations is a [level 11](/handbook/total-rewards/compensa
 - Uses financial information to keep Department on budget and focused on right business priorities.
 - Champions change and reinvent business practices or processes aligned to the scale of the organization.
 
-#### Sr. Director, IT Operations Requirements
+#### Sr. Director, Business Technology Operations Requirements
 
 - Extends that of the Director of IT Operations requirements.
 - 15+ years of experience at Director or Senior Director level in an IT Leadership role.
@@ -87,7 +87,7 @@ The Sr. Director, IT Operations is a [level 11](/handbook/total-rewards/compensa
 
 ## Career Ladder
 
-The next step in the IT Systems Engineer job family is to move to the [VP, IT](/job-families/finance/vp-information-technology/) job family.
+The next step in the Director Business Technology job family is to move to the [VP, IT](/job-families/finance/vp-information-technology/) job family.
 
 ## Hiring Process
 
