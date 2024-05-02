@@ -127,10 +127,9 @@ advance, if possible.
 
 #### If your absence will be less than three business days
 
-Is a customer waiting on you? Check with them. If your PTO will prevent a
-timely update, ask the customer whether they would prefer to pause the
-ticket till your return or have someone else step in to work with them.
-If they want to pause, put the ticket on-hold. Otherwise:
+If your PTO will prevent a timely update, ask the customer whether
+they would prefer to pause the ticket with the `on-hold` status or
+have someone else step in.
 
 1. Use the [OOO Ticket Summary](https://gitlab.com/search?search=360080271299&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar)
    macro, providing the same information as described in the
