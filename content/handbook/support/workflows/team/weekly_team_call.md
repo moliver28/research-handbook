@@ -17,6 +17,7 @@ upcoming events, and ask questions.
 
 | Weekday  | Region | Meeting Name             | Agenda |
 | :------: | :----: | :----------------------: | :----: |
+| Tuesday  | AMER   | Support Team Call (AMER) | [Google Doc](https://docs.google.com/document/d/1Kcr_kZLlnYoJXIKw_KzHeZA9UngLK_4QEeioHR7GGbM/edit?usp=sharing)|
 | Tuesday  | APAC   | Support Team Call (APAC) | [Google Doc](https://docs.google.com/document/d/1jwj5g0BIq3kTepw2-ZD9VSETs7Isf6YDHGzmYxmTt50/edit#) |
 | Thursday | EMEA   | Support Team call (EMEA) | [Google Doc](https://docs.google.com/document/d/1oyi9BtoaNwZE99KNHC-9HiYX7g2bCLu986kjzJL9dO4/edit#) |
 
@@ -60,6 +61,8 @@ creates a comment and assigns it to the appropriate person.
 
 If the notetaker is not available and has not picked a substitute, follow the
 rotation to the first person who is on the call to determine a replacement.
+
+During the AMER team call, [notetaking](https://handbook.gitlab.com/handbook/company/culture/all-remote/live-doc-meetings/#notetaking-and-structure-during-the-meeting) follows GitLab Meeting Best Practices on [Live Doc Meetings](https://handbook.gitlab.com/handbook/company/culture/all-remote/live-doc-meetings/). Anyone not speaking is encouraged to help take notes.
 
 ## Agenda sections
 
