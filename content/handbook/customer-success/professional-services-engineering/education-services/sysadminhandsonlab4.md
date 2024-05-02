@@ -5,6 +5,10 @@ description: "This Hands-On Guide walks you through backing up a GitLab instance
 
 > Estimated time to complete: 30 minutes
 
+## Objectives
+
+The objective of this lab is to demonstrate how to back up a Gitlab instance on a virtual machine, and restore said instance to a previous state. For more information about backing up/restoring a GitLab instance, click [here](https://docs.gitlab.com/ee/administration/backup_restore/).
+
 ### Task A. Configure backup settings
 
 1. Open an SSH session on your GitLab instance server.
