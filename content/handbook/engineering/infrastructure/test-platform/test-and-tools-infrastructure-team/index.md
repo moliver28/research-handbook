@@ -63,6 +63,9 @@ Every quarter, the team reviews its Roadmap and [Objectives and Key Results (OKR
   - [FY25 Roadmap - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2315)
   - [FY25 Q1 OKR - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2317#note_1730107488)
 
+## Metrics & Dashboards
+The dashboards, owned by Test and Tools Infrastructure team, can be found in the [Test Platform Dashboards](../dashboards.md).
+
 ## How we work
 
 - We prioritize asynchronous communication and a handbook-first approach, in line with GitLab's all-remote, timezone-distributed structure.
@@ -132,6 +135,3 @@ The team currently works cross-functionally, and our task ownership spans multip
 | [`quality/toolbox`](https://gitlab.com/gitlab-org/quality/toolbox) | A collection of scripts for pipeline automation and analysis. Co-owned by the Engineering Productivity team |
 | [`gitlab-qa-resources`](https://gitlab.com/gitlab-org/quality/engineering-productivity-infrastructure) | Collection of terraform resources for Test Platform related infrastructure management. Co-owned by the Engineering Productivity team |
 | [`gitlab-junior-toy-app`](https://gitlab.com/gitlab-org/quality/technical-interviews/gitlab-junior-toy-app) | A toy app used for technical interviews while recruiting for the Software Engineer in Test (SET) position. Internal to the Test Platform sub department |
-
-## Performance Indicators
-TBD
