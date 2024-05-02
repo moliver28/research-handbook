@@ -6,7 +6,7 @@ description: Using the customer console for internal requests is only for specia
 
 ## Overview
 
-Sometime customers would have trouble accessing their account.
+Sometimes customers have trouble accessing their account.
 CustomersDot email and password log in has been deprecated.
 Customers can instead [follow these steps](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#sign-in-to-customers-portal) to log in using a one-time sign-in link.
 
