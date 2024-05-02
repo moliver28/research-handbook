@@ -136,3 +136,7 @@ Common or custom functions can be found in the [support runbooks](https://gitlab
 For update, create, and delete actions, it's essential to carefully review the request and think about the impact of these actions. Remember, update and delete actions can be risky. When writing custom commands or scripts, it's crucial to calibrate them based on the potential risks and the situation's specifics. Unless the situation is urgent, get another set of eyes in your code to confirm what you want to achieve.
 
 If you're not completely sure about the specifics of the script or commands, test them out in your test instance first. And if needed, get feedback from developers who know that area of codebase before using them in the production console. This approach helps reduce risks when doing console tasks in production.
+
+## CI Catalog Badge requests
+
+To be actioned by the Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com, and require and a GitLab.com administrator account to be used with the [upcoming REST API](https://gitlab.com/gitlab-org/gitlab/-/issues/451509) to apply this badge to a namespace.
