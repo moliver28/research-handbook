@@ -155,8 +155,8 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-09-30 | 2024-10-04 |  OPEN | OPEN | REMOTE - PT |
 | 2024-10-07 | 2024-10-11 |  OPEN | OPEN | REMOTE - PT |
 | 2024-10-14 | 2024-10-18 |  OPEN | OPEN | REMOTE - PT - very limited week due to multiple conferences |
-| 2024-10-21 | 2024-10-25 |  OPEN | OPEN | REMOTE - PT |
-| 2024-10-28 | 2024-11-01 |  OPEN | OPEN | REMOTE - PT |
+| 2024-10-21 | 2024-10-25 |  [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
+| 2024-10-28 | 2024-11-01 |  OPEN | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
