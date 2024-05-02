@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through creating a .gitlab-ci.yml fi
 
 > Estimate time to complete: 15 - 20 minutes
 
-
 ## Objectives
 
 In this lab, you'll enabled CI/CD for a GitLab project. After creating your first `.gitlab-ci.yml` file, you will explore the CI/CD pipeline to better understand jobs and stages. Finally, you will learn how to install, run, and register a runner with a GitLab instance.
