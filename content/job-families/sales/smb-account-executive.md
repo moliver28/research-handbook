@@ -4,7 +4,7 @@ RoleName: "SMB Advocate"
 description: "Learn more about SMB Advocate roles at GitLab including requirements, responsibilities and more."
 ---
 
-# SMB Advocate
+## SMB Advocate
 
 ## Job Grade
 
@@ -42,12 +42,15 @@ The SMB Advocate is a [grade 6](/handbook/total-rewards/compensation/compensatio
 
 
 ## SMB Advocate Team Lead
+
 The SMB Advocate Team Lead reports to the Digital SMB Regional Manager.
 
 ### SMB Advocate Team Lead Job Grade
+
 The SMB Advocate Team Lead is a grade 6.
 
 ### SMB Advocate Team Lead Responsibilities
+
 The SMB Advocate Team Lead role extends the responsibilities of the SMB Advocate role, with the addition of new official responsibilities that support the productivity of the Advocate team as a whole and representing our SMB customers. These are:
 - Help design and run the onboarding process for new starters
 - Help support/coach colleagues and run team enablement sessions
@@ -60,6 +63,7 @@ The SMB Advocate Team Lead role extends the responsibilities of the SMB Advocate
 - Be a subject matter expert in at least one core skill of the SMB Advocate role (“core skills to be added to HB”)
 
 ### SMB Advocate Team Lead Requirements
+
 - Extends those of the SMB Advocate requirements
 - Minimum of 9 months in the SMB Advocate role
 - Achieve benchmark KPIs cumulatively for a period of 6 months
