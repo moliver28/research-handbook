@@ -10,7 +10,7 @@ images:
 ![GitLab TeamOps collaboration illustration](/teamops/images/teamops-illustration_collaboration_purple.png)
 
 {{% alert color="primary" %}}
-This page is about one of the four Guiding Principles of TeamOps: Shared Reality. To learn more about the other three principles, return to the main TeamOps page for a [complete overview of TeamOps](/teamops/), or enroll in the free [TeamOps Course](https://levelup.gitlab.com/learn/course/teamops).
+This page is about one of the four Guiding Principles of TeamOps: Shared Reality. To learn more about the other three principles, return to the main TeamOps page for a [complete overview of TeamOps](/teamops/), or enroll in the free [TeamOps Course](https://university.gitlab.com/learn/course/teamops/introduction-to-teamops/introduction).
 {{% /alert %}}
 
 *While other management philosophies prioritize the speed of knowledge **transfer**, TeamOps optimizes for the speed of knowledge **retrieval** in company-wide documentation.*
