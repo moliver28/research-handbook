@@ -196,13 +196,13 @@ The Solutions Architect judgment indicator (SA Judgment) is a metric used to gau
 The key aspects to take into consideration:
 
 1. Technical statement
-  1. Customer knowledge: current state well documented (internal)
-  1. Clear use cases. Identified pains.
-  1. Product-match. Identified capabilities to close the gap.
+   1. Customer knowledge: current state well documented (internal)
+   1. Clear use cases. Identified pains.
+   1. Product-match. Identified capabilities to close the gap.
 1. Customer implication (_customer provides the right resources to scope the project, treats the project with the right priority_)
-  1. Access to development, information security and operations. Technical/lead developer involved with the right skills
-  1. Connection to the technical validator/buyer
-  1. Established communication channel and responsiveness
+   1. Access to development, information security and operations. Technical/lead developer involved with the right skills
+   1. Connection to the technical validator/buyer
+   1. Established communication channel and responsiveness
 
 The overall score will be tracked in the existing `SA Validated Tech Eval Close Details` in SFDC with the following structure: `[COLOR] + One line qualitative comment` with `[COLOR]` equals to:
 
