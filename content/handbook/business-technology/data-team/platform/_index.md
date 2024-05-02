@@ -577,7 +577,7 @@ To use our credit consumption effectively, we try to minimize the amount of ware
 | `transforming_s`     | These are for production dbt jobs                                                               | 180                 |
 | `transforming_l`     | These are for production dbt jobs                                                               | 240                 |
 | `transforming_xl`    | These are for production dbt jobs                                                               | 180                 |
-| `transforming_4xl`   | For refreshing Snowplow models                                                                  | 120                 |
+| `transforming_2xl`   | For refreshing Snowplow models                                                                  | 120                 |
 | `transforming_4xl`   | This is for the Airflow dag: `dbt_full_refresh`                                                 | 120                 |
 | `usage_ping`         | This is used for the service_ping and service_ping_backfill load.                               | 120                 |
 
