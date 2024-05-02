@@ -72,7 +72,7 @@ Some past short term options have been:
 
 ### Long term
 
-1. Follow the [flowchart]({{< ref "deciding-gitlab-com-deployment" >}}) to decide which type of release is best suited for the current issue.
+1. Handle it like you normally would for a [critical security release](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/security-engineer.md##critical-security-releases).
 1. Open an [RCA issue](https://gitlab.com/gitlab-com/gl-security/rcas/-/issues/) to start the RCA process.
 
 ## Handoff
