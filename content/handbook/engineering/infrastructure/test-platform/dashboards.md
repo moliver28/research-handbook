@@ -7,7 +7,7 @@ description: "This handbook page serves as a central repository for all our Test
 
 ## Dashboards
 
-| Category                | Link                                 | Description                                                   | DRI              |
+| Category                | Link (Internal Only)                                | Description                                                   | DRI              |
 |-------------------------|--------------------------------------|---------------------------------------------------------------|------------------|
 | Test Health             | [E2E Test Status](https://dashboards.quality.gitlab.net/d/tR_SmBDVk/main-runs)                             | Comprehensive overview of test suite health and status.       | [Test Engineering](test-engineering-team)       |
 | Test Tooling            | [E2E Test Execution Time](https://10az.online.tableau.com/#/site/gitlab/views/E2ETestRuntimes_17111139395120/E2Etestruntimemetrics/58847ec0-78b4-4d7c-aa30-e1db9fe87e22/aac170e4-8270-4cf7-89b3-4b9a7d32e10d) | Metrics and trends on end-to-end test execution times.        | [Test and Tools Infrastructure](test-and-tools-infrastructure-team)      |
