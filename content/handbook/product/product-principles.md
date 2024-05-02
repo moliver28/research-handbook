@@ -6,9 +6,6 @@ description: "These are core principles we believe world class product organizat
 
 
 
-
-
-
 {{% include "includes/product-handbook-links.md" %}}
 
 ## Our Product Principles
@@ -59,31 +56,18 @@ in isolation.
 
 As a single-application for the entire DevOps lifecycle GitLab strives to enable you to bring ideas to production rapidly. We will do so AND avoid demonstrating our capabilities with toy app demos and simple trivial examples. That's because we understand that [building a prototype is easy, but building a production line is hard](https://www.businessinsider.com/elon-musk-says-building-factory-100-times-harder-than-making-car-2019-3).
 
-### The Minimal Viable Change (MVC)
+### The Minimal Valuable Change (MVC)
 
-We only ship in a [Minimal Viable Product](http://ask.leanstack.com/en/articles/902991-what-is-a-minimum-viable-product-mvp) (MVP) style. We call it Minimal Viable Change (MVC) because our business model is focused on adding additional value to our integrated product suite instead of building separate, new products.
+Minimal Valuable Change (MVC) is the GitLab path to delivering the smallest measurable improvement for our users, customers, and the wider community. 
 
-MVC means we deliver the smallest possible solution that **offers value** to our users. To avoid [feature bloat](https://www.productplan.com/glossary/feature-bloat/), we rely on user research to validate whether our idea addresses a market need in a desirable way. This approach sets us up to expend the smallest possible amount of effort to build new capabilities, while learning more about how to best add additional functionality over time.
+Our approach requires four pillars: 
 
-While an MVC may not have the robust functionality of a fully developed feature, it should still address fundamental user needs through a bug-free and highly usable experience. The minimal viable change should not be a [broken feature](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp).
+  - Relentless customer focus and commitment to understanding their workflows, using research and validation 
+  - Measurable outcomes that use established metrics for success in tracking adoption, usage, or other business outcomes to reflect on current iteration and to inform future iterations 
+  - Product functionality that adheres to criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/experiment-beta-support.html)  
+  - Future vision to expand the MVC beyond the initial release 
 
-Advantages of an MVC approach:
-
-- It prevents over-engineering.
-- It forces everyone involved to look for the simplest solution to a problem,
-which is often the best solution.
-- It forces working towards an 80/20 solution. While competing products might cater
-to the last 20% of the market, a minimal viable solution is _good enough_ for 80%.
-- A bigger change is harder to review.
-- A bigger change is harder to roll back.
-- The bigger the change, the larger the risk of a conflict with someone else's contribution.
-- The bigger the change, the longer it takes before everyone can benefit from the change.
-- Further changes or enhancements to the change are driven by feedback from
-actual users. This is a much more informative mechanism than the intuition
-of a product person (this doesn't mean we should just build
-whatever feedback tells us, however.)
-
-When considering how to scope a feature for a release, remember that it is ok to ship an "incomplete" feature to customers, assuming that it still offers value, is not broken, does not hurt usability, for UI changes (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
+When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
 
 MVC means reducing the scope so we can ship quickly. It doesn’t mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/experiment-beta-support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
 
@@ -96,9 +80,25 @@ There are scenarios when an MVC approach is not advised. These include:
 
 ### Iteration
 
-An MVC approach is a byproduct of our spirit of iteration. That means we [break problems down](/handbook/product-development-flow/#build-phase-1-plan) as [small as possible](/handbook/values/#make-small-merge-requests), use [merge request rate as a performance indicator](/handbook/engineering/development/performance-indicators/#development-department-mr-rate), and focus on [reduced cycle time](/handbook/values/#reduce-cycle-time). Thinking iteratively is not always intuitive, and breaking certain topics or projects down can be challenging. Here's a helpful [video](https://www.youtube.com/watch?v=zwoFDSb__yM) from our CEO with guidance on how to think more iteratively.
+An MVC approach is a byproduct of our spirit of iteration. That means we [break problems down](/handbook/product-development-flow/#build-phase-1-plan) as [small as possible](/handbook/values/#make-small-merge-requests), and focus on [reduced cycle time](/handbook/values/#reduce-cycle-time). Thinking iteratively is not always intuitive, and breaking certain topics or projects down can be challenging. Here's a helpful [video](https://www.youtube.com/watch?v=zwoFDSb__yM) from our CEO with guidance on how to think more iteratively.
 
 Here is a [great video](https://www.youtube.com/watch?v=MwHHErfX9hI) that illustrates how to build MVCs using Iteration. It shows Lego climbing obstacles. The first design fails. The second one can climb a book and so on. It also illustrates how modularity and good interfaces help with iteration as things get complex.
+
+#### Iteration speed and product excellence 
+
+To ensure that our efforts consistently deliver value to our users each iteration must adhere to the following guidelines:
+
+  1. Define Expected Impact: Clearly articulate the expected measurable positive impact of the iteration on users, ensuring alignment with our overall product direction and guided by a vision that has been informed by user research
+  1. Establish Metrics for Success: Identify specific metrics that will be used to evaluate the success of the iteration post-launch. These should be concrete, measurable indicators that directly relate to the intended outcomes of the iteration.
+
+Success of an initiative is not measured by the deployment of a change or the completion of an iteration. True success is determined by whether the iteration achieved its predefined objectives, as evidenced by tangible business and product metrics.
+
+Example: 
+   - Effort: Reduce latency in Service A.
+   - Iteration A: Implement regional upgrades in key locations.
+   - Success Metrics: Evaluate the iteration's success by measuring increased usage and user satisfaction with Service A. Relevant metrics might include service usage rates, user adoption levels, repeat usage statistics, and revenue increases following the upgrade.
+
+We celebrate achievements when we can clearly see that an iteration or launch has resulted in tangible value for our users.
 
 #### Subtractive thinking
 
