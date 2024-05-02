@@ -76,3 +76,17 @@ All GitLab.com Duo Pro trials can be located using this query: https://customers
 1. Locate an order that has plan `saas-gitlab-duo-pro-trial-plan-id`.
 1. If you have GitLab.com Admin access, verify the GitLab group has Duo Pro by [checking the Usage Quotas page](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#for-gitlabcom).
    - **NOTE**: Always check the **start and end date** of the Duo Pro.
+
+### Troubleshooting AI
+
+While we have customer facing [troubleshooting documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/troubleshooting.html), there are other sources of information for troubleshoot in the following group and projects:
+
+- http://gitlab.com/gitlab-org/editor-extensions
+- http://gitlab.com/gitlab-org/gitlab-vscode-extension
+  - i.e: https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/tree/main/docs/user?ref_type=heads
+- http://gitlab.com/gitlab-org/gitlab-web-ide
+
+When troubleshooting make sure to get debug logs for [the relevant extension](http://gitlab.com/gitlab-org/editor-extensions).
+You can [get help from Dev section](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help/#list-of-development-sections-and-corresponding-links-to-the-projects-for-requesting-help).
+
+Feel free to open issues for how AI team can collaborate with support team in the editor extensions Team issue tracker https://gitlab.com/gitlab-org/editor-extensions/meta/-/issues
