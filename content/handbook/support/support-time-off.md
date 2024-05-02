@@ -130,6 +130,7 @@ advance, if possible.
 If your PTO will prevent a timely update, ask the customer whether
 they would prefer to pause the ticket with the `on-hold` status or
 have someone else step in.
+For high priority tickets, tend towards a handing over to someone else:
 
 1. Use the [OOO Ticket Summary](https://gitlab.com/search?search=360080271299&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar)
    macro, providing the same information as described in the
