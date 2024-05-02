@@ -5,8 +5,6 @@ description: "This Hands-On Guide walks you through creating metadata for issues
 
 > Estimated time to complete: 45-60 minutes
 
-
-
 ## Objectives
 
 To help you manage your issues, GitLab provides metadata for each issue. Metadata allows you to define details for an issue such as weight, and due dates. In this lab, you will learn how to view and manage issue metadata.

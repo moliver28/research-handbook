@@ -5,6 +5,10 @@ description: This Hands-On Guide walks you through managing GitLab logs on a vir
 
 > Estimated time to complete: 30 minutes
 
+## Objectives
+
+The objective of this lab is to guide you on managing your GitLab logs via the `gitlab-ctl` and `sed` commands. For more information on GitLab logging, click [here](https://docs.gitlab.com/ee/administration/logs/).
+
 ### Task A. View active logs
 
 The `gitlab-ctl` command allows you to tail all GitLab log files as well as filter by GitLab service.

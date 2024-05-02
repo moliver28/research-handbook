@@ -5,7 +5,9 @@ description: "TThis Hands-On Guide walks you through troubleshooting GitLab serv
 
 > Estimated time to complete: 30 minutes
 
-For this lab exercise, refer to GitLab's [application architecture](https://docs.gitlab.com/ee/development/architecture.html#simplified-component-overview) to review GitLab's major services and interactions.
+## Objectives
+
+The purpose of this lab is to show how to troubleshoot the GitLab server by using the `gitlab-ctl` command. For this lab exercise, refer to GitLab's [application architecture](https://docs.gitlab.com/ee/development/architecture.html#simplified-component-overview) to review GitLab's major services and interactions.
 
 ### Task A. Troubleshoot NGINX
 
