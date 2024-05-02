@@ -324,7 +324,7 @@ If you have a suggestion for a new or existing REVIEWED email template for the R
 
 ### Creating and updating offer templates
 
-To create a new offer template or update an existing one in Greenhouse, follow these steps: 
+To create a new offer template or update an existing one in Greenhouse, follow these steps:
 
 - Download the template as a Word document from the [internal handbook](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
 - In Greenhouse, navigate to Settings > Offer Templates > Upload New Template.
