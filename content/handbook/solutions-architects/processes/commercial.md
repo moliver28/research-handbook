@@ -147,7 +147,7 @@ The key aspects to take into consideration:
   - Customer knowledge: current state well documented (internal)
   - Clear use cases. Identified pains.
   - Product-match. Identified capabilities to close the gap.
-2. Customer implication (_customer provides the right resources to scope the project, treats the project with the right priority_)
+1. Customer implication (_customer provides the right resources to scope the project, treats the project with the right priority_)
   - Access to development, information security and operations. Technical/lead developer involved with the right skills
   - Connection to the technical validator/buyer
   - Established communication channel and responsiveness
@@ -158,7 +158,7 @@ The overall score will be tracked in the existing `SA Validated Tech Eval Close 
  - `[YELLOW]`: Suggests moderate risk or some concerns in the opportunity's presales forecast. This could include minor technical hurdles, scope creep, or potential resource constraints.
  - `[GREEN]`: Signifies low risk or favorable conditions in the opportunity's presales forecast. This indicates that the technical aspects are well-understood, resources are adequate, and the forecast is on track.
 
-_Example: [RED] No access to technical buyers, no clear use case._ 
+_Example: [RED] No access to technical buyers, no clear use case._
 
 Solutions Architect are required to fill out in their judgment on all opportunities meeting these criteria:
 
