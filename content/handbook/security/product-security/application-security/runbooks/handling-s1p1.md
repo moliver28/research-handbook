@@ -71,7 +71,7 @@ Here are some examples of short term options we've used in the past:
 
 ### Releasing to self-managed customers
 
-Since moving to a bi-weekly release schedule the need for [critical security releases](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/security-engineer.md##critical-security-releases) is much lower.
+Since moving to a bi-weekly release schedule the need to follow the [critical security releases workflow](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/security-engineer.md##critical-security-releases) to patch critical vulnerabilities is much lower.
 To decide between including a patch in the regular patch release or a critical security release many factors have to be considered.
 Those factors include but are not limited to:
 
@@ -82,7 +82,7 @@ Those factors include but are not limited to:
 - How impactful is the vulnerability?
 
 This is handled on a case by case basis and will need to be evaluated with all the stake holders each time the situation arises.
-Some scenarios where we would be very likely to opt for a critical security release would be:
+Some scenarios where we would be very likely to opt for an ad-hoc critical security release would be:
 
 - Unpatched critical severity vuln (CVSS 9+) being exploited in the wild
 - Unpatched critical severity vuln (CVSS 9+) with PoC/exploitation code publicly available
