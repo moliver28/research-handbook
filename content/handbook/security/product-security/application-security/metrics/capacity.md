@@ -46,6 +46,8 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::ToolingsAndMaintenance | Indicates the work was associated to our tools and automation |
 | AppSecWorkType::CrossTeamCollaboration | Indicates the work was associated to cross-team help/collaboration |
 | AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
+| AppSecWorkType::TeamProjects | Indicates the work was associated to team projects |
+| AppSecWorkType::CriticalProjects | Indicates the work was associated to [critical projects](https://handbook.gitlab.com/handbook/security/critical-projects/) |
 
 #### Who assigns this label and when?
 
