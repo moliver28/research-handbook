@@ -23,8 +23,7 @@ This group is open to all members of the GitLab community.
 
 ## Leads
 
-- [April Marks](/handbook/company/team/#aprilmarks)
-- [Marcus Carter](/handbook/company/team/#marcusbriancarter)
+- [Erran Carey](/handbook/company/team/#erran)
 - [Madou Coulibaly](/handbook/company/team/#madou)
 
 ## Executive Sponsors
