@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through creating epics, iterations, 
 
 > Estimated time to complete: 45-60 minutes
 
-
 ## Objectives
 
 To help you organize your work, GitLab provides epics, iterations, and milestones. In this lab, you will learn how to create, configure, and manage epics, iterations, and milestones in your projects.

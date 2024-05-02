@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through using SAST to find and fix a
 
 ## Objectives
 
-> SAST, an optional feature on CI/CD pipelines, analyzes your source code for known vulnerabilities. GitLab’s Vulnerability Report then shows any old or new vulnerabilities found with each pipeline run. In this lab, you will learn the process of enabling SAST scans in your CI/CD pipelines. You can learn more about SAST scanner by clicking [here](https://docs.gitlab.com/ee/user/application_security/sast/).
+SAST, an optional feature on CI/CD pipelines, analyzes your source code for known vulnerabilities. GitLab’s Vulnerability Report then shows any old or new vulnerabilities found with each pipeline run. In this lab, you will learn the process of enabling SAST scans in your CI/CD pipelines. You can learn more about SAST scanner by clicking [here](https://docs.gitlab.com/ee/user/application_security/sast/).
 
 ### Task A. Creating a Test File
 
