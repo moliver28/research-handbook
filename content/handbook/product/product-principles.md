@@ -100,7 +100,6 @@ Example:
 
 We celebrate achievements when we can clearly see that an iteration or launch has resulted in tangible value for our users.
 
-
 #### Subtractive thinking
 
 Humans tend to [favor solutions that add features than solutions that remove them, even when removing features is more efficient](https://www.nature.com/articles/d41586-021-00592-0) - great PMs recognize this bias and utilize subtractive thinking to create great user experiences. Customers will tell us when we’re missing something they need, but they’re unlikely to explicitly tell us when we’re overwhelming them with unwanted features. However, we do have evidence that this challenge is already a consideration for us, as reflected consistently in our [System Usability Scale verbatims](/handbook/product/ux/performance-indicators/system-usability-scale/). Here is [an episode on the Hidden Brain podcast](https://hiddenbrain.org/podcast/do-less/) that explores this bias further.
