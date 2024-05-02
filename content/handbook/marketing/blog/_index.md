@@ -356,15 +356,37 @@ Publishing a blog post without an English-language equivalent follows the same p
 
 Contentful is currently developing a solution to address this workaround, which is expected to be available by Fall 2024.
 
-How to kick off translations
-How to publish blog post that isn’t in English
-How the localization feature works in Contentful + things to be careful about
-Live previews/changing languages
-Content updates
-Draft states?
-Slugs
-Uploading media?
-Create a new localized blog post on the video? Walk through the process.
-Do we have a french blog landing page? 
+### How to kick off translations
+
+Starting the process of getting a blog post translated is easy. Follow these steps: 
+
+1. Create a translation request issue in the Localization project. Pro tip - add the URL for the blog post & a direct link to the Contentful entry. It will be super helpful to you as you track the project.
+2. Argo will export the enlish blog post JSON and inport the translated JSON back into Contentful. Then you'll be pinged in the issue when it's ready for review. 
+3. Hop into the entry for the Blog post and review the translated content. 
+4. Cordinate with @sandra on publishing the translated post
+5. Once published, always verify that it's working as expected on about.gitlab.com/blog
+6. Celebrate your translated blog post by posting it in Slack. 
+
+Here's a video walk thru of the fullprocess from creating the translation request to publishing on production. 
+
+- TOBE recorded
+- Create issue
+- Argo rountrip
+- Translation show up in Contentful
+- Review the translations
+- Live previews/changing languages
+- Publish
+
+### Gotcahs When Localizing an EN blog post 
 Things to be careful about when localizing an EN blog post.
-And if there is a specific process to follow when updating localized content.
+
+- Dont change the slug! 
+- If a post in process of being translating, slap the "localiztion-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed. IMPORTANT - remove and apply local lable to languages the post is translated into. 
+- If you make changes to translated content in the Contentful blog space, note your changes in this spreadsheet. (need link to sheet)
+| Tag | Definition | How to use |
+|----|----|----|
+| translation-in-progress | Notes when a blog post is currently be translated and reviewed | Apply when translation request is opened. Remove when post is published | 
+| language_de-DE | Marks entry that is in German | Apply to blog post that is translated into German | 
+| language_fr-FR | Marks entry that is in French | Apply to blog post that is translated into French | 
+| language_ja-JP | Marks entry that is in Japanese | Apply to blog post that is translated into Japanese | 
+
