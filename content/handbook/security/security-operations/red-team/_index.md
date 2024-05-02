@@ -67,6 +67,10 @@ We maintain [public issue templates](https://gitlab.com/gitlab-com/gl-security/s
 
 By using these templates, everyone on the team knows where we are at and what comes next. This helps us to operate asynchronously and to iterate on our processes based on how well the templates work.
 
+### Red Team Day to Day Workflow
+
+... 
+
 ### Red Team Report Delivery
 
 All operations end with a final report. We use an issue template which is [shared publicly here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/red-team-issue-templates).
