@@ -134,38 +134,6 @@ On-site requests should primarily be driven by the desire of the customer. No on
 - Meeting with executives in a room to help discuss their initiatives and cast a vision for GitLab within their organization.
 - Conducting a [Day In The Life of A Developer](/handbook/solutions-architects/sa-practices/day-in-the-life/) assessment
 
-#### Solutions Architect Judgement Indicator
-
-The Solutions Architect judgement indicator (SA Judgment) is a metric used to gauge the technical perception and feedback about current opportunities will help to make informed decisions and effectively manage the sales pipelines. This indicator has two main objectives:
-
-- Increase precision of forecasting, having a way to validate AE judgment based on the assumption of the technical seller.
-- Generate discussion during deal reviews & pipeline analysis by easily highlighting potential misalignments.
-
-The key aspects to take into consideration:
-
-1. Technical statement
-  - Customer knowledge: current state well documented (internal)
-  - Clear use cases. Identified pains.
-  - Product-match. Identified capabilities to close the gap.
-1. Customer implication (_customer provides the right resources to scope the project, treats the project with the right priority_)
-  - Access to development, information security and operations. Technical/lead developer involved with the right skills
-  - Connection to the technical validator/buyer
-  - Established communication channel and responsiveness
-
-The overall score will be tracked in the existing `SA Validated Tech Eval Close Details` in SFDC with the following structure: `[COLOR] + One line qualitative comment` with `[COLOR]` equals to:
-
- - `[RED]`: Indicates high risk or significant issues present in the opportunity's presales forecast. These issues might include technical challenges, unclear requirements, or insufficient resources allocated.
- - `[YELLOW]`: Suggests moderate risk or some concerns in the opportunity's presales forecast. This could include minor technical hurdles, scope creep, or potential resource constraints.
- - `[GREEN]`: Signifies low risk or favorable conditions in the opportunity's presales forecast. This indicates that the technical aspects are well-understood, resources are adequate, and the forecast is on track.
-
-_Example: [RED] No access to technical buyers, no clear use case._
-
-Solutions Architect are required to fill out in their judgment on all opportunities meeting these criteria:
-
-- EMEA COMM Business Unit
-- Net ARR >$50K
-- Stage: 3+ (potentially 2+)
-
 ##### Pre-Requisites for On-site Engagements
 
 Any customer on-site must have the following:
@@ -220,6 +188,35 @@ This review process aims to help ensure on-site engagements have the highest lev
 - GitLab is fortunate enough to have a strong community of contributors where you can search for ideas and issues within the GitLab [Forum](https://forum.gitlab.com/) or moderated [subreddit](https://www.reddit.com/r/gitlab/).
 - With transparency being a value of ours, we strive to push content daily to both the [GitLab Youtube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg) and [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). You will find How-Tos and Daily Engineering conversations in these channels.
 - If you need engineering assistance, please [create a support ticket](https://support.gitlab.com/hc/en-us). Your team has ["Standard Support"](https://about.gitlab.com/support/#standard-support) which means "Next Day" or 24-hour support Monday thru Friday.
+
+#### Solutions Architect Judgment Indicator
+
+The Solutions Architect judgment indicator (SA Judgment) is a metric used to gauge the technical perception and feedback about current opportunities will help to make informed decisions and effectively manage the sales pipelines. This indicator will ncrease precision of forecasting, having a way to validate AE judgment based on the assumption of the technical seller and generate discussion during deal reviews & pipeline analysis by easily highlighting potential misalignments.
+
+The key aspects to take into consideration:
+
+1. Technical statement
+   1. Customer knowledge: current state well documented (internal)
+   1. Clear use cases. Identified pains.
+   1. Product-match. Identified capabilities to close the gap.
+1. Customer implication (_customer provides the right resources to scope the project, treats the project with the right priority_)
+   1. Access to development, information security and operations. Technical/lead developer involved with the right skills
+   1. Connection to the technical validator/buyer
+   1. Established communication channel and responsiveness
+
+The overall score will be tracked in the existing `SA Validated Tech Eval Close Details` in SFDC with the following structure: `[COLOR] + One line qualitative comment` with `[COLOR]` equals to:
+
+- `[RED]`: Indicates high risk or significant issues present in the opportunity's presales forecast. These issues might include technical challenges, unclear requirements, or insufficient resources allocated.
+- `[YELLOW]`: Suggests moderate risk or some concerns in the opportunity's presales forecast. This could include minor technical hurdles, scope creep, or potential resource constraints.
+- `[GREEN]`: Signifies low risk or favorable conditions in the opportunity's presales forecast. This indicates that the technical aspects are well-understood, resources are adequate, and the forecast is on track.
+
+> Example: _[RED] No access to technical buyers, no clear use case_.
+
+Solutions Architects are required to fill out in their judgment on all opportunities meeting these criteria:
+
+- EMEA COMM Business Unit
+- Net ARR >$50K
+- Stage: 3+ (potentially 2+)
 
 #### Other Considerations
 
