@@ -134,6 +134,38 @@ On-site requests should primarily be driven by the desire of the customer. No on
 - Meeting with executives in a room to help discuss their initiatives and cast a vision for GitLab within their organization.
 - Conducting a [Day In The Life of A Developer](/handbook/solutions-architects/sa-practices/day-in-the-life/) assessment
 
+#### Solutions Architect Judgement Indicator
+
+The Solutions Architect judgement indicator (SA Judgment) is a metric used to gauge the technical perception and feedback about current opportunities will help to make informed decisions and effectively manage the sales pipelines. This indicator has two main objectives:
+
+- Increase precision of forecasting, having a way to validate AE judgment based on the assumption of the technical seller.
+- Generate discussion during deal reviews & pipeline analysis by easily highlighting potential misalignments.
+
+The key aspects to take into consideration:
+
+1. Technical statement
+  - Customer knowledge: current state well documented (internal)
+  - Clear use cases. Identified pains.
+  - Product-match. Identified capabilities to close the gap.
+1. Customer implication (_customer provides the right resources to scope the project, treats the project with the right priority_)
+  - Access to development, information security and operations. Technical/lead developer involved with the right skills
+  - Connection to the technical validator/buyer
+  - Established communication channel and responsiveness
+
+The overall score will be tracked in the existing `SA Validated Tech Eval Close Details` in SFDC with the following structure: `[COLOR] + One line qualitative comment` with `[COLOR]` equals to:
+
+ - `[RED]`: Indicates high risk or significant issues present in the opportunity's presales forecast. These issues might include technical challenges, unclear requirements, or insufficient resources allocated.
+ - `[YELLOW]`: Suggests moderate risk or some concerns in the opportunity's presales forecast. This could include minor technical hurdles, scope creep, or potential resource constraints.
+ - `[GREEN]`: Signifies low risk or favorable conditions in the opportunity's presales forecast. This indicates that the technical aspects are well-understood, resources are adequate, and the forecast is on track.
+
+_Example: [RED] No access to technical buyers, no clear use case._
+
+Solutions Architect are required to fill out in their judgment on all opportunities meeting these criteria:
+
+- EMEA COMM Business Unit
+- Net ARR >$50K
+- Stage: 3+ (potentially 2+)
+
 ##### Pre-Requisites for On-site Engagements
 
 Any customer on-site must have the following:
