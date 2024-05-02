@@ -30,7 +30,7 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
 | **[GitLab Engagement Survey](/handbook/people-group/engagement)**                  |  | Task: Engagement Survey kicks off               | Task: Engagement Survey results review & Divisional Action planning   |
 | **[Talent Assessment](/handbook/people-group/talent-assessment)** |   |   Task: [Mid-Year Check In](https://handbook.gitlab.com/handbook/people-group/talent-assessment/#timeline-1)                       |                     |
 | **[Career Development Conversations]({{< ref "career-development" >}})**          |                         |      | Task: (Optional) Kick off your Individual Growth Plan in Workday                     |
-| **[360 feedback]({{< ref "360-feedback#timeline-fy24" >}})** |  |  |      Task: Sign up window for 360 Feedback                    |
+  |
 
 
 ### FY25 Q3
