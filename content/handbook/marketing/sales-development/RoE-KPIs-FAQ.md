@@ -16,6 +16,18 @@ This page is part of the Sales Development team's handbook [page](https://handbo
 **No:** It is worked by the SDR team <br>
 **Yes:** Check the BDR Prospecting Status
 
+1. Is the Account an existing customer?
+
+**No:** Move on to the next step
+**Yes:** Is there an existing renewal opportunity?
+
+**Next Steps:** If yes, align with the sales [RoE for renewals](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#crediting--splits) and check whether the lead is involved in an upcoming renewal, check in with the Account Executive and your Regional Manager to determine what's the best course of action for this person. 
+
+Some outcomes could be:
+
+- Consider converting the person to the account as a contact and notify the AE team.
+- Move on to the the next step of this guide and consider adding the account to your growth OB pipeline.
+
 2. Is the Account in “Actively Working” Status?
 
 **No:** It is worked by the SDR team <br>
@@ -43,6 +55,8 @@ When you modify this report based on company name and email domain, do you see a
 6. Is the Account in “Restricted” Status?
 
 **Yes:** It should be routed to the BDR assigned. The BDR assigned will chatter the SAE about whether they’d like them to reach out or whether they would like to own that responsibility. The AE should respond within 48 hours.
+
+**Next Steps:**
 
 - If they reply back that the BDR can work, the BDR will continue with the prospect as a lead record and take action.
 
