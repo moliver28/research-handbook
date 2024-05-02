@@ -484,9 +484,18 @@
 
 - avoid:
   - GitLab SaaS
-  - SaaS (when referring to GitLab.com or Dedicated)
+  - SaaS (when referring to GitLab.com, Dedicated, or Dedicated for U.S. Government)
   use_instead:
   - GitLab.com or .com
   - GitLab Dedicated or Dedicated
+  - GitLab Dedicated for U.S. Government, Dedicated for U.S. Government, or Dedicated USG
   reason: Both GitLab.com and GitLab Dedicated are delivered as SaaS applications, which as a group we refer to SaaS.
   exclude_from_exports: false
+
+- avoid:
+  - FedRAMP (when referring to the SaaS offering GitLab Dedicated for U.S. Government)
+  - use_instead: 
+    - GitLab Dedicated for U.S. Government, Dedicated for U.S. Government, or Dedicated USG
+  reason: FedRAMP refers to a U.S. Federal Government cybersecurity regulation and the associated compliance function within GitLab Inc. If we are talking about our product, the FedRAMP-authorized SaaS offering, we should instead refer to it by the actual name (see above).
+  exclude_from_exports: true
+  
