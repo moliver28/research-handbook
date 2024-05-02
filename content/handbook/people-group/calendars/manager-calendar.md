@@ -41,7 +41,8 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
 | **[Promotion Effective date & Communication]({{< ref "promotions-transfers#quarterly-promotion-calibration-process--timeline" >}})**  |  Effective date for Q3 Promotions. Task: Communicate Q3 promotions                           |                     |  |
 | **[Talent Assessment](/handbook/people-group/talent-assessment)**                        |
 |**[Career Development Conversations]({{< ref "career-development" >}})**                |Task: (Optional) Kick off your Individual Growth PLan in Workday                    | Task: Prodiving continued support on IGP actions of your team members | Task: Providing continued support on IGP actions of your team members
-| **[360 feedback]({{< ref "360-feedback#timeline-fy24" >}})** | Task: Nomination and Feedback phase | Task: Review and discussion phase
+
+
 
 
 ### FY25 Q4
