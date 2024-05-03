@@ -28,11 +28,13 @@ For a brief video overview of the tools used to monitor Snowplow usage, please c
 Our alerts can either be found in [Monte Carlo](https://getmontecarlo.com/settings/notifications2/audiences/f61407c9-6b9f-4cef-8fb8-fbd8a6051919) if they are based on data from Snowflake,
 or in [AWS Cloud Watch](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#alarmsV2:) if they are related to Snowplow AWS infrastructure.
 
+Enable notifications for the `#g_analytics_instrumentation_alerts` Slack channel to be immediately informed about incoming alerts.
+
 #### Amount of Bad Events Violation
 
 ##### Symptoms
 
-You will be alarmed via a [Monte Carlo alert](https://getmontecarlo.com/monitors/c8e6772d-39dd-4dd7-946d-7daeec72dbe4) that is sent to `#g_analytics_instrumentation` Slack channel that the amount of bad events as compared to good events is higher than usual for the last day.
+You will be alarmed via a [Monte Carlo alert](https://getmontecarlo.com/monitors/c8e6772d-39dd-4dd7-946d-7daeec72dbe4) that is sent to `#g_analytics_instrumentation_alerts` Slack channel that the amount of bad events as compared to good events is higher than usual for the last day.
 
 ##### Locating the problem
 
@@ -67,7 +69,7 @@ You can use `echo '<base_64_request>' | base64 -D` to decode the request and loo
 
 ##### Symptoms
 
-You will be alarmed via a [Monte Carlo alert](https://getmontecarlo.com/monitors/c16474d8-4660-4be2-9be6-5af3be25bd48) that is sent to `#g_analytics_instrumentation` Slack channel that the amount of newly received Snowplow events is below a feasible threshhold.
+You will be alarmed via a [Monte Carlo alert](https://getmontecarlo.com/monitors/c16474d8-4660-4be2-9be6-5af3be25bd48) that is sent to `#g_analytics_instrumentation_alerts` Slack channel that the amount of newly received Snowplow events is below a feasible threshhold.
 
 ##### Locating the problem
 
