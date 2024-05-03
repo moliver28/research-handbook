@@ -82,11 +82,11 @@ Sales Systems refreshes the [SFDC staging environment](/handbook/sales/field-ope
 
 ## Forms
 
-Nearly all the forms on our website (`about.gitlab.com`) are Marketo embedded forms. Marketing Operations is responsible for maintaining existing forms and creating any new forms. 
+Nearly all the forms on our website (`about.gitlab.com`) are Marketo embedded forms. Marketing Operations is responsible for maintaining existing forms and creating any new forms.
 
-We primarily use Global forms, which means the form is used on multiple landing pages and the automation for the form is handled on the individual Marketo programs. If you need fields that are not avaiable on the global forms, you need to request a custom form. 
+We primarily use Global forms, which means the form is used on multiple landing pages and the automation for the form is handled on the individual Marketo programs. If you need fields that are not avaiable on the global forms, you need to request a custom form.
 
-A few examples of when you need a custom form: 
+A few examples of when you need a custom form:
 - Adding a field that is not visible on a current form
 - Using a single landing page and collect registrations for multiple related events
 - Addition of drop downs or checkboxes for specific event dates
@@ -97,7 +97,7 @@ If you aren't sure if your program requires a custom form but your program requi
 
 If you need a new custom form created, please open a [form creation issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_request). The general timeline for form creation and complex automation is 2 weeks.
 
-If you are using an existing form on a NEW page in Contentful, please [enter a request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_processing) so that we can build the automation behind the form. If there is no automation created for the form, the person filling out the form will enter Marketo, but will not be processed into a campaign or sent for follow up. 
+If you are using an existing form on a NEW page in Contentful, please [enter a request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=form_processing) so that we can build the automation behind the form. If there is no automation created for the form, the person filling out the form will enter Marketo, but will not be processed into a campaign or sent for follow up.
 
 Form documentation can be found [here](https://docs.google.com/spreadsheets/d/1cV_hI2wAzLxYYDI-NQYF5-FDDPXPXH0VV5qRBUJAQQk). It contains all of our current forms, as well as standardized country and state picklists.
 
@@ -233,10 +233,10 @@ WIP
 
 | Auto-MQL Behavior | Campaign Description | Points Assigned | Schedule/Flow Limit |
 | ------ | ------ | ------ | ------|
-|   Follow Up Requested  | Follow Up Requested, <br> Conference > Meeting Attended   | +100 | Everytime | 
-|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](https://handbook.gitlab.com/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day | 
-| [PTP Score]((https://internal.gitlab.com/handbook/sales/propensity_models/))  |Newly assigned a 4 or 5 score via the Propensity Model alongside being assigned an `A` or `B` ranking via Lead Score Classification.<br> See [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252) or handbook for details <br>  | +100 | 1/90 days |
-| Web Chat - <br>Qualified  |Web chat interaction or meeting scheduled | +100 | 1/day | 
+|   Follow Up Requested  | Follow Up Requested, <br> Conference > Meeting Attended   | +100 | Everytime |
+|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](https://handbook.gitlab.com/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day |
+| [PTP Score](https://internal.gitlab.com/handbook/sales/propensity_models/)  |Newly assigned a 4 or 5 score via the Propensity Model alongside being assigned an `A` or `B` ranking via Lead Score Classification.<br> See [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252) or handbook for details <br>  | +100 | 1/90 days |
+| Web Chat - <br>Qualified  |Web chat interaction or meeting scheduled | +100 | 1/day |
 |* Inbound - Med|Inbound form, not above |    +100|1/day|
 
 #### Behavior Scoring
