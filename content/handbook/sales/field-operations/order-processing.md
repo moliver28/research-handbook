@@ -13,7 +13,6 @@ description: "This page outlines the Quote to Cash process, starting from accoun
 
 
 **Welcome to the Sales Order Processing page!**
-{:.gitlab-purple .no_toc}
 
 This page outlines the Quote to Cash process. Topics include account and opportunity creation, quote configuration and approvals, opportunity booking requirements, and closing an opportunity. This page will also cover common questions that may arise after an opportunity has been closed.
 
