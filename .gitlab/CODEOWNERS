@@ -255,7 +255,7 @@
 
 # CODEOWNER approvals are required for Source Code to support dogfooding approvals
 [Eng-SourceCode]
-/content/handbook/engineering/development/dev/create/source-code-be/ @sean_carroll @robotmay_gitlab @igor.drozdov @vyaklushin @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/development/dev/create/source-code-be/ @sean_carroll @igor.drozdov @vyaklushin @gitlab-com/egroup @gitlab-com/content-sites
 
 # CODEOWNER approvals are required for Code Review to support dogfooding approvals
 [Eng-CodeReview]
@@ -481,7 +481,7 @@
 /content/handbook/resellers/ @ecepulis
 /content/handbook/resellers/training.md @chrisweber44  @ecepulis
 /content/handbook/sales/ @chrisweber44  @jakebielecki @james_harrison
-/content/handbook/sales/account-planning/ @lschoenfeld @RobbieB @chrisweber44  @emelier @kgavalas
+/content/handbook/sales/account-planning/ @lschoenfeld @chrisweber44  @emelier @kgavalas
 /content/handbook/sales/assistance-from-investors.md @james_harrison
 /content/handbook/sales/build-value-with-customers.md @chrisweber44
 /content/handbook/sales/channel/ @ecepulis
