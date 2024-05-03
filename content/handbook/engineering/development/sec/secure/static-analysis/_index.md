@@ -9,7 +9,6 @@ The Static Analysis group at GitLab is charged with developing the [Static Appli
 ## Static Analysis Team
 
 {{< team-by-departments departments="Secure:Static Analysis BE Team" >}}
-{{< team-by-departments departments="Secure:Static Analysis FE Team >}}
 
 
 ## Common Links
