@@ -27,7 +27,7 @@ Together, we protect GitLab and our customers by staying one step ahead of the r
 
 ### Threat Intelligence Reports
 
-Reports form the foundation of our Threat Intelligence program and are always actionable. We use GitLab.com to write the reports, facilitating collaboration and allowing direct linking to recommendations and results.
+Reports are the foundation of our Threat Intelligence program and are always actionable. We use GitLab.com to write the reports, facilitating collaboration and allowing direct linking to recommendations and results.
 
 All reports, regardless of type, consistently:
 
