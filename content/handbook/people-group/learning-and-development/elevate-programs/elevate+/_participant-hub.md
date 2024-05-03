@@ -86,28 +86,6 @@ During Module 2, you will:
 
 </details>
 
-<details>
-<summary>As leaders, we all wear many different hats:</summary>
-
-- Mentor, SME, decision-maker, coach, collaborator, director of work, role model, steward, planner, expert… and the list goes on…
-- Multiple hats can emerge for each of us in one day - even in one conversation
-- Our goal as leaders of leaders is to be clear about the hat we put on in conversations with our teams, and intentional about using a hat that’s appropriate for the moment
-
-</details>
-
-<details>
-<summary>Modeling a Culture of Feedback</summary>
-
-As leaders with expanded scope, there are a number of required skills and behaviors in order to model a culture of feedback:
-- Solicits and is open to feedback for one’s self
-- Providing ongoing feedback that is frequent, actionable and done in real-time
-- Creates a welcoming environment that enables team members to value open discussions and debates, where they continually learn from one another
-- Knows the mechanics of giving feedback and the value of giving feedback
-- Recognizes that frequent, actionable feedback helps reduce turnover, raise performance levels and increase employee engagement
-- Provides both positive and constructive comments
-
-</details>
-
 
 **Key Links**
 
@@ -117,19 +95,24 @@ As leaders with expanded scope, there are a number of required skills and behavi
 
 In Module 3, create a shared understanding around the importance for your team members to understand how they each contribute to driving results for customers by:
 
-1. Learning from each other about GitLab's core business, revenue streams, and customer profiles
-2. Identifing how each of your teams contribute to GitLab's success and and beating our competition
-3. Providing tools, language, and resources for you to lead a conversation with your team members
+1. Learn from each other about GitLab's core product, revenue streams, and customers
+1. Understand why this knowledge is critical for leading to empower and leading for results
+1. Provide tools, language, and resources for you to lead a conversation with your team members
+
 
 **Key Links**
 
 1. [Module 3 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfmNnaI8C57ua1uRygJ7YlfbHKmmzaYqqD6mypZw5RlWe0cIQ/viewform?usp=sf_link)
 
 
-
 ## Module 4:
 
-*More information to be added soon.*
+In Module 4, increase your cross-functional effectiveness in order to clear the way for your team to get results. 
+
+1. Share your team’s highest order purpose and alignment to GitLab’s overall goals  
+1. Map your cross-functional partners within and outside GitLab 
+1. Learn skills for building and repairing relationships with key partners
+
 
 **Key Links**
 
