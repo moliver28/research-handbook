@@ -195,7 +195,7 @@ The Product Security Engineering manager is responsible for:
 
 ## Metrics
 
-The Product Security Engineering currently tracks the following metrics:
+The Product Security Engineering team currently tracks the following metrics:
 
 - [Team velocity, measured in total weight of issues closed per week](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/Sheet1?:iid=1)
 
