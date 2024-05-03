@@ -97,7 +97,7 @@ GitLab team members can view the model [here](https://gitlab.com/gitlab-com/gl-s
 
 #### Adoption Rate
 
-A successful Red Team program strengthens an organization's security through recommendations delivered during and after an exercise. We track the lifecycle of these recommendations through to implementation using GitLab.com, calling this metric our "Adoption Rate."
+A successful Red Team program strengthens an organization's security through recommendations. We track the lifecycle of these recommendations through to implementation using GitLab.com, calling this metric our "Adoption Rate."
 
 Recommendations start as GitLab.com issues in the project closest to the team that can address them. We classify recommendations using labels:
 
@@ -107,9 +107,12 @@ Recommendations start as GitLab.com issues in the project closest to the team th
 
 We track what happens after a recommendation is delivered by adding a secondary label to the issue with its current status or final outcome:
 
-- Accepted and fully implemented (`RecOutcome::Implemented`)
-- Accepted and actively being worked on (`RecOutcome::In-Progress`)
-- Accepted but stalled or backlogged (`RecOutcome::Stalled`)
+- Under review (`RecOutcome::UnderReview`)
+- Accepted and actively being worked on (`RecOutcome::InProgress`)
+- Accepted but backlogged (`RecOutcome::Backlogged`)
+- Accepted but blocked (`RecOutcome::Blocked`)
+- Fully implemented (`RecOutcome::Implemented`)
+- Partially implemented (`RecOutcome::PartiallyImplemented`)
 - Rejected - will not be implemented (`RecOutcome::Rejected`)
 
 An outcome label is added to the issue within one week of delivering the recommendation. A scheduled CI pipeline checks issues with classification labels to ensure they have an outcome.
