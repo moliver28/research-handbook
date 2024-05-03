@@ -26,14 +26,18 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 
 - Finish remaining Go-To GA efforts
   - [Remove beta label for CI/CD Catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/454306) (Complete)
+  - [Remove beta label for catalog resource toggle](https://gitlab.com/gitlab-org/gitlab/-/issues/460260) (In-Review)
   - [Release Process Refinements](https://gitlab.com/groups/gitlab-org/-/epics/12338) for GA 
     - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (Complete)
   - [Details page](https://gitlab.com/groups/gitlab-org/-/epics/12336) for GA
     - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914) (Complete)
     - [Fix images not rendering on ReadMe tab](https://gitlab.com/gitlab-org/gitlab/-/issues/455516) (In-Dev)
-- Finishing remaining badges work
+      - NOTE: This will be a backend fix with a follow-up in `17.1` post-GA.
+- Finishing remaining initial loading badges work
   - [Set verification_level on publish and fix enum mismatch](https://gitlab.com/gitlab-org/gitlab/-/issues/455530) (Complete)
-  - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) (In-Dev)
+  - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) (Complete)
+  - [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509)
+  - NOTE: Initial badge load has been initiated via [request](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17746)
 
 ### Blockers:
 
@@ -42,13 +46,8 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 ### Milestone 17.1 (May 11, 2024 - June 14, 2024)
 
 #### Goals:
-- Post-GA prioritized follow-up work (to be defined shortly by team)
+- Post-GA prioritized follow-up [work](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&label_name[]=candidate%3A%3A17.1&label_name[]=Category%3AComponent%20Catalog)
 - [Support loading components in batches](https://gitlab.com/gitlab-org/gitlab/-/issues/402993)
-- Remaining badges work
-  - [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509)
-- Start Post-GA implementation work 
-  - [Update include syntax with a variable](https://gitlab.com/gitlab-org/gitlab/-/issues/446050)
-  - [Allow interpolation to use local context data](https://gitlab.com/gitlab-org/gitlab/-/issues/438275)
 
 ### Milestone 17.2 (June 15, 2024 - July 12, 2024)
 
@@ -57,6 +56,9 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 - Admin [capabilities](https://gitlab.com/groups/gitlab-org/-/epics/12713) in CI/CD Catalog - span multiple milestones
   - [Allow administrators to restrict users from publishing a component to a catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/423015)
 - Analytics dashboards/Design Sprint [outcomes](https://gitlab.com/groups/gitlab-org/-/epics/12221) - span multiple milestones
+- Start Post-GA implementation work 
+  - [Update include syntax with a variable](https://gitlab.com/gitlab-org/gitlab/-/issues/446050)
+  - [Allow interpolation to use local context data](https://gitlab.com/gitlab-org/gitlab/-/issues/438275)
 
 ### Milestone 17.3 (July 13, 2024 - August 9, 2024)
 
