@@ -60,7 +60,7 @@ These internal Slack channels may be helpful to join.
   * [#infrastructure-department](https://gitlab.slack.com/archives/C02GR2DV5QT) - general department channel
   * [#test-platform](https://gitlab.slack.com/messages/C3JJET4Q6) - general sub-department channel
   * [#test-platform-lounge](https://gitlab.slack.com/archives/CGZQCTU8J) - channel where the Test Platform sub-department hangs out and posts their weekly updates
-  * [#quality_maintainers](https://gitlab.slack.com/archives/C0437FV9KBN) - channel for quality maintainers to request. Can be used to request expedited maintainer reviews when required
+  * [#test-platform-maintainers](https://gitlab.slack.com/archives/C0437FV9KBN) - channel for test platorm maintainers to request. Can be used to request expedited maintainer reviews when required
   * [#infrastructure-managers](https://gitlab.slack.com/archives/C017BFF9CJU) - channel to communicate and collaborate with all engineering managers in Infrastructure
   * [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM) - channel with end-to-end test results on master pipeline
   * [#qa-nightly](https://gitlab.slack.com/messages/CGLMP1G7M) - channel with end-to-end test results against FIPS nightly package

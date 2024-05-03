@@ -143,8 +143,8 @@ Below are the specific areas of responsibility within the Dedicated team:
 | Customer Success (CS) | [Define onboarding PS package](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/1316), outline CS engagement post-sales | `@rwedmore` |
 | Environment Automation Roadmap  | Updating direction page, prioritization changes etc. | `@awthomas` consulting and collaborating with `@o-lluch` |
 | Switchboard Roadmap  | Updating direction page, prioritization changes etc. | `@fzimmer` consulting and collaborating with `@marin` |
-| PRE deal Customer interactions | Meeting with customer prospects, customer qualification, steps 1-6 in [onboarding process](https://internal.gitlab.com/handbook/engineering/horse/#new-customer-process) Supporting customers until CS packages are defined | `@awthomas` |
-| POST deal onboarding management | steps 7-9 in in [onboarding process](https://internal.gitlab.com/handbook/engineering/horse/#new-customer-process); until CS package defined | `@rwedmore` or `@fzimmer` |
+| PRE deal Customer interactions | Meeting with customer prospects, customer qualification, steps 1-6 in [onboarding process](https://internal.gitlab.com/handbook/engineering/dedicated/#new-customer-process) Supporting customers until CS packages are defined | `@awthomas` |
+| POST deal onboarding management | steps 7-9 in in [onboarding process](https://internal.gitlab.com/handbook/engineering/dedicated/#new-customer-process); until CS package defined | `@rwedmore` or `@fzimmer` |
 | [Automate manual onboarding tasks](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/56) | Includes driving documentation changes.  | `@awthomas`  |
 | Drive cross-product feature requests needed for Dedicated | examples include Maintenance mode prometheus metric, silent mode | `@awthomas` |
 | [Go to market definition](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/482) | PMM and PM to define the remaining GTM items, rest in cross-functional workstream coordination, | `@awthomas`|

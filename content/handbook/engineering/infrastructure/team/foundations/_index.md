@@ -141,11 +141,6 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 - We have weekly synchronous meetings in two different time zones to encourage discussion, give status updates, triage incoming requests, and connect as a team.
   - [Agenda](https://docs.google.com/document/d/1T5LIBt3RZR5TBLzkmRd08oMwfwiNFAr5ImPD5NP7lOw/edit?usp=sharing)
   - [Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqWfqy6IhKlVDUbk-f9NnmR).
-- We have monthly retrospective meetings in two different time zones.
-  - We celebrate our wins and look for ways we can improve team processes.
-  - These meetings are not recorded to create a safe space for sharing transparently.
-  - We use an online tool, teleretro.com, which allows for running retros across multiple time zones, enabling brainstorming without being able to see others responses, merging of related topics, and voting for what to discuss in more depth.
-  - Action items for iterative improvements on processes are brought back to the team syncs following the monthly retro meetings.
 
 ### Standup
 
@@ -158,6 +153,10 @@ We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_found
   - Friday questions include:
     - How did your week go?
     - What were your wins this week?
+
+### Retros
+
+We have a quarterly async retro that aligns with the company fiscal quarters and OKRs. In addition to reflecting on our quarter in general, we take a set of actions to try the next quarter and revisit how successful they were in the next retro.
 
 ### Prioritization of work
 

@@ -4,12 +4,6 @@ title: Debugging Failing Tests and Test Pipelines
 description: Guidelines for investigating end-to-end test pipeline failures
 ---
 
-
-
-
-
-
-
 ## Overview
 
 These guidelines are intended to help you to investigate [end-to-end test](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/index.html) pipeline failures so that they can be properly addressed. This will involve analyzing each failure and creating an issue to report it. It might also involve [fixing tests](#fixing-the-test), [putting them in quarantine](#quarantining-tests), or [reporting bugs in the application](#bug-in-the-application).
@@ -148,7 +142,7 @@ The test pipelines run on a scheduled basis, and their results are posted to Sla
 | [GitLab `master`'s `e2e:package-and-test-ce`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)     | Full                          | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CE](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test-ce/master/index.html) |
 | [GitLab `master`'s `e2e:package-and-test-nightly`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)           | Full                          | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master Nightly](https://gitlab-qa-allure-reports.s3.amazonaws.com/nightly/master/index.html) |
 | [GitLab `master`'s `e2e:test-on-gdk`](https://gitlab.com/gitlab-org/gitlab/-/pipelines?ref=master&source=schedule)     | Smoke, Blocking      | When the `e2e:test-on-gdk` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master GDK](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-gdk/master/index.html) |
-| [GitLab `master`'s `e2e:test-on-cng`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | Smoke | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CNG](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-cng/master/index.html) |
+| [GitLab `master`'s `e2e:test-on-cng`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | Full | When the `e2e:test-on-cng` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CNG](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-cng/master/index.html) |
 
 #### Emoji used
 For each pipeline there is a notification of success or failure (except for `master` pipelines, which only report failures).
@@ -159,7 +153,7 @@ If there's a failure, we use emoji to indicate the state of its investigation:
 - The :fire_engine: emoji ![:fire_engine:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-small/1f692@2x.png ":fire_engine: emoji"), when a failure is already reported.
 - The :retry: emoji ![:retry:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-small/1f504@2x.png ":retry: emoji"), when there's a system failure (e.g., Docker or runner failure).
 
-Note that while the configuration for each pipeline is in the `.gitlab-ci.yml` file in the relevant projects, pipeline schedules are configured via the UI and CI/CD variables are entered in project/group settings. Quality maintainers should have access to all the relevant configuration and settings. If you are the pipeline triage on-call DRI and you need to change settings but you don't have access, you can ask for assistance in the #quality_maintainers and #development Slack channels.
+Note that while the configuration for each pipeline is in the `.gitlab-ci.yml` file in the relevant projects, pipeline schedules are configured via the UI and CI/CD variables are entered in project/group settings. Quality maintainers should have access to all the relevant configuration and settings. If you are the pipeline triage on-call DRI and you need to change settings but you don't have access, you can ask for assistance in the `#test-platform-maintainers` and `#development` Slack channels.
 
 ## How to triage a QA test pipeline failure
 

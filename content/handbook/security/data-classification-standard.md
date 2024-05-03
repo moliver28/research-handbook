@@ -77,7 +77,7 @@ Examples include:
 - Open security incidents, vulnerabilities and risks
 
 {{% alert title="Personal Data Exception" %}}
-While Personal Data is classified as Orange, there is an exception for GitLab Team Member names and their work email addresses, which are classified as Yellow. These two Personal Data elements are not considered high-risk or sensitive types of Personal Data. Given GitLab's value of [transparency](/handbook/values/#transparency) and because GitLab is [public by default](/handbook/values/#public-by-default), most Team Member names are available [publicly](/handbook/company/team/#close-modal). As they are often processed in support of everyday corporate operations, the application of Orange-level controls for these lower risk data elements would disproportionately inhibit GitLab's business functions.
+While Personal Data is classified as Orange, there is an exception for GitLab Team Member names, their work email addresses, and their GitLab usernames, which are classified as Yellow. These two Personal Data elements are not considered high-risk or sensitive types of Personal Data. Given GitLab's value of [transparency](/handbook/values/#transparency) and because GitLab is [public by default](/handbook/values/#public-by-default), most Team Member names are available [publicly](/handbook/company/team/#close-modal). As they are often processed in support of everyday corporate operations, the application of Orange-level controls for these lower risk data elements would disproportionately inhibit GitLab's business functions.
 {{% /alert %}}
 
 {{% alert title="Personal Data and Team Member Safety" %}}
