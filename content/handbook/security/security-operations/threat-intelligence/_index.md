@@ -10,7 +10,7 @@ Empower GitLab to make informed, intelligence-driven decisions that keep our com
 
 Our mission is to provide actionable intelligence that empowers our organization to stay ahead of emerging threats.
 
-When a new threat makes headlines, we're already prepared with answers. We assess our risk, evaluate our ability to detect and prevent an attack, and provide recommendations for immediate action.
+When a new threat makes headlines, we're already prepared with answers. We assess our risk, evaluate our ability to detect and prevent an attack, and provide recommendations for a rapid response.
 
 We achieve this by continuously monitoring the threat landscape, analyzing risks, and delivering clear, concise reports that recommend immediate actions. Our deep understanding of our product's architecture and our organization's infrastructure allows us to identify the most relevant threats and provide targeted recommendations.
 
