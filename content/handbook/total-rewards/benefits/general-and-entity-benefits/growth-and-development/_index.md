@@ -18,13 +18,14 @@ The Growth and Development fund is managed by the [Learning and Development team
 To be eligible for the Growth and Development Fund, you must meet the following criteria:
 
 - Team members who are full-time and have been employed for three months can participate in this fund.
+- Team members should be meeting performance expectations in their current role. (Not on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance)
 - If you are a part-time GitLab team member, you may still be eligible to participate in this fund but your reimbursement might be reduced.
 - Team members who are currently on "leave" status will not be eligible to use the growth and development fund.
-- Team members who are meeting performance expectations in their current role. (Should not be on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance)
+
 
 ## How to Apply for the Growth and Development Fund
 
-Here is a step by step guide on G&D applications:
+Here is a step by step guide on how to apply for G&D applications:
 
 **Step 1:** Have a [career development conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It's important to discuss timing, team member capacity, and application timeline for both the program and fund processing. This conversation should allow time for you to apply for the program and your manager to ensure team capacity.
 
@@ -58,11 +59,11 @@ Before attempting to claim reimbursement, please ensure you've read through and 
 - Claim your expenses via [Navan Expense](/handbook/finance/expenses/#-introduction):
   - In your Navan Expense report, choose the Expense type `G&D (Growth and Development)`.
   - Include a screenshot of your approved Growth & Development issue & add a link to the issue to the description.
-    - If reimbursing for an Academic or Course/Certificate program, include a screenshot of your final grade report/transcript/certificate (see)
+  - If reimbursing for an Academic or Course/Certificate program, include a screenshot of your final grade report/transcript/certificate.
   - Please make sure the issue matches your Navan Expense claim amount. Your Navan Expense claim will be audited against the Growth & Development issue amount.
-- Please claim conference and workshop meals and lodging per receipt via [Navan Expense](/handbook/finance/expenses/#-introduction).
+- Please claim conference and workshop meals and lodging per receipt via [Navan Expense](/handbook/finance/expenses/#-introduction). Travel should be expensed in a separate Navan claim, as detailed [here](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#workshops-and-conferences). When submitting your travel claim, please add a link to your G&D issue in the description.
 
-You may close the issue once you have received reimbursement for the program.
+Please go back and close your G&D issue once you have received reimbursement for the program.
 
 ### Notes on Reimbursement
 
@@ -89,7 +90,7 @@ If you voluntarily terminate employment with GitLab prior to completing twelve c
 
 The Growth and Development policy is meant to further team members' learning and growth. Company-directed learning opportunities, such as mandatory conferences or training that are required to fulfill their job duties, are not within the scope of the Growth and Development policy and should be budgeted for outside the policy. Such expenses will not be deducted from the team member's annual Growth and Development limit and should be paid for by GitLab rather than reimbursed to the team member.
 
-### Tax Implications
+## Tax Implications
 
 In some countries, the Growth and Development Fund may be considered as taxable income and can be (partially) exempted from personal income taxes or subject to employer withholding taxes. Check [the tax table]({{< ref "tax" >}}) for any tax implications in your country.
 
@@ -108,8 +109,6 @@ Please contact [Payroll](mailto:payroll@gitlab.com) for any tax-related question
 The course must be from a credentialed college or university and must be relevant to your career development goals and development. If the education provider does not allow for tuition/payment deferment and this would cause financial strain, you can request to receive 50% of the reimbursement up front and the other 50% upon successful completion of the course/program. The relevance of the classes taken for each semester will be subject to the approval of the manager. The grade must be equivalent to a “B”.
 
 **Eligibility for Reimbursement:** A final grade report or transcript is required to receive reimbursement. If the opportunity costs more than $1,000, you can expense 50% of the cost up front, and 50% upon completion.
-
-**Approver (above $1,000 USD):** Manager, E-Group Member
 
 ### Your 4th Trimester Coaching
 
@@ -137,8 +136,6 @@ Apply for a coach via Coaching Right Now by opening an issue using the [coaching
 
 Coaching Right Now is our preferred and vetted coaching partner. If for some reason the coaches offered via Coaching Right Now do not fit your needs, please open an issue using the [Other G&D Types (Under $300 USD) template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/new?issuable_template=other-GD-under). After approvals, team members will provide a paid invoice to GitLab as proof for reimbursement.
 
-**Approver (above $1,000 USD):** Manager, E-Group Member
-
 ### English Language Courses
 
 **Description:** As GitLab expands globally, we want to support our team members where English may not be their first language. Managers are encouraged to recommend this to team members whose engagement as a part of GitLab and/or performance may be improved by further developing their English language skills.
@@ -148,9 +145,7 @@ Examples of English Language Courses:
 - [Coursera](https://www.coursera.org/browse/language-learning/learning-english) offers a wide variety of online English courses in partnership with various reputable colleges and universities, like the [Business English for Non-Native Speakers course](https://www.coursera.org/specializations/business-english-speakers) and the [Improve your English Communication Skills Specialization](https://www.coursera.org/specializations/improve-english) . Their courses range from improving your English language skills to more specialized courses that focus on English for STEM or career development.
 - [Cambridge C2 Exam Prep Course](https://www.kaplaninternational.com/exam-preparation-courses/cambridge-c2-exam-preparation-course) is a program to consider if preparring to take the Cambridge English Qualification. This is an internationally recognized test and qualification of English language ability. More prep course materials can be found [here](https://www.cambridgeenglish.org/exams-and-tests/proficiency/preparation/) or via [International House London](https://www.ihlondon.com/course/cambridge-c2-proficiency-online)
 
-**Eligibility for Reimbursement:** Courses offered in-person or online by a credential college or university or an English language school are eligible for reimbursement. Invoice/receipt when submitting through Navan Expense. If the opportunity costs more than $1,000, you can expense 50% of the cost up front, and 50% upon completion.
-
-**Approver (above $1,000 USD):** Course amount aren't likely to exceed $1,000 USD. If this does exceed $1,000 USD, the academic study criteria would apply.
+**Eligibility for Reimbursement:** Courses offered in-person or online by a credential college or university or an English language school are eligible for reimbursement. Reimbursement should happen upon course completion. If the opportunity costs more than $1,000, you can expense 50% of the cost up front, and 50% upon completion.
 
 ### Professional Development/Certifications/Licenses
 
@@ -158,39 +153,37 @@ Examples of English Language Courses:
 
 **Eligibility for Reimbursement:** Certifications and licenses related to your career development goals. For reimbursements above $1,000 USD, a final grade report or satisfactory certificate of completion will be required to receive reimbursement. For reimbursements above $1,000, you can expense 50% of the cost up front, and 50% upon completion.
 
-**Approver (above $1,000 USD):** Manager, E-Group Member
-
 ### Professional Dues/Membership
 
 **Description:** Any professional development membership or dues that will be relevant to your growth and development.
 
-**Eligibility for Reimbursement:** Professional membership to an accredited organization that aligns with your role. Professional dues needed in order to continue members in an accredited organization. An invoice for the dues/membership is required.
+**Eligibility for Reimbursement:** Professional membership to an accredited organization that aligns with your role. Professional dues needed in order to continue members in an accredited organization. An invoice for the dues/membership is required. Since there's no specific date of completion for this type of opportunity, it can be reimbursed after it has been purchased.
 
 **Approver (above $1,000 USD):** Manager, E-Group Member
 
 ### Workshops and Conferences
 
-**Description:** Work-related conferences including registration, lodging, and meals. The costs for travelling to and from an event should be expensed separately from the training budget following the [existing travel expense policy](/handbook/finance/expenses/), with your manager approval. We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [Corporate Communications](/handbook/marketing/corporate-communications/speaking-resources/) page. We suggest to the attendees bring and share a post or document about the news and interesting items that can bring value to our environment.
+**Description:** Work-related conferences including registration, lodging, and meals. The costs for travelling to and from an event should be expensed separately from the training budget following the [existing travel expense policy](/handbook/finance/expenses/), with your manager's approval.
 
-**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After manager approval, the team member needs to submit a [Growth & Development issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits). Once all parties approve the issue, they can schedule travel. Please review current [GitLab travel policy]({{< ref "travel" >}}) for the most up-to-date information about booking and planning conference travel and determine if travel is [business essential]({{< ref "travel" >}}). For reimbursements above $1,000, you can expense 50% of the cost up front, and 50% upon completion.
+We encourage people to be speakers in conferences. More information for people interested in speaking can be found on our [GitLab Speaker Resources](/handbook/marketing/corporate-communications/speaking-resources/).
 
-**Approver (above $1,000 USD):** Manager, E-Group Member
+**Eligibility for Reimbursement:** Before scheduling any travel or time off to attend a conference, please discuss your request with your manager. The manager will approve the request if the conference is work-related and the timing doesn't interfere with GitLab deliverables. After discussing with your manager, create a [Growth & Development issue](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#how-to-apply-for-growth-and-development-benefits). Once all required approvals are given on the issue, travel can be scheduled. Please review current [GitLab travel policy]({{< ref "travel" >}}) for the most up-to-date information about booking and planning conference travel.
+
+Reimbursement should be applied for after the conference, with proof of attendance submitted as part of the Navan claim. When claiming back travel via Navan, you should add a link to your G&D issue in the description.
+
+For reimbursements above $1,000, you can expense 50% of the cost up front, and 50% upon completion.
 
 ### Self-Service Learning (Skillserve, Coursera, LinkedIn Learning Others)
 
 **Description:** GitLab supports team members who wish to continue their growth within their professional career. The course must be related to your career development goal, Individual Growth Plan (IGP), and/or serves the [mission]({{< ref "mission" >}}) of GitLab as a company.
 
-**Eligibility for Reimbursement:** A final grade report or satisfactory certificate of completion are required to receive reimbursements over $1,000 USD. For reimbursements above $1,000, you can expense 50% of the cost up front, and 50% upon completion.
-
-**Approver (above $1,000 USD):** Manager, E-Group Member
+**Eligibility for Reimbursement:** A final grade report or satisfactory certificate of completion are required to receive reimbursement. If paying for an ongoing license, this will likely be inexpensive (under $1000 per annum), and can be reimbursed monthly. For reimbursements above $1,000, you can expense 50% of the cost up front, and 50% upon completion.
 
 ### Code Based Learning
 
 **Description:**The company will pay for courses related to learning how to code (for example Learning Rails on Codecademy), and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
 
 **Eligibility for Reimbursement:** The course must be related code based learning. A final grade report or satisfactory certificate of completion are required to receive reimbursements over $1,000 USD. For reimbursements above $1,000, you can expense 50% of the cost up front, and 50% upon completion.
-
-**Approver (above $1,000 USD):** Manager, E-Group Member
 
 ### Mentorship
 
@@ -200,25 +193,3 @@ Examples of where to connect with mentors:
 
 1. [MentorCruise](https://mentorcruise.com/)
 1. [Locelle](https://locelle.com/)
-
-## Processing documentation for the Learning & Development team
-
-### Administration of Your 4th Trimester
-
-1. If the team member lives in a country where this benefit is considered taxable income (currently only in Australia and some cases in Belgium), notify payroll.
-1. Total Rewards will send an introductory email to Your 4th Trimester to the team member and Barbara Palmer `barbara@your4thtrimester.com` outlining the expected leave date, expected return to work date and date of birthing event. Barbara will conduct the intake with the team member and communicate directly for any coaching throughout the program.
-
-**Billing:**
-
-Your 4th Trimester will bill GitLab quarterly with 50% at intake and 50% at the completion of the coaching program per participant. If there are more than 5 participants in a quarter, there will be a discount on the bill. If there are any tax implications for the GitLab team member, Total Rewards will work with payroll to ensure this is reported compliantly.
-
-### Recoupment of Growth & Development Reimbursements
-
-Process for Learning and Development team for recouping Growth & Development reimbursements of over $1,000 USD:
-
-- Check when the reimbursement was processed (via payroll changes sheets)
-- Ask payroll for the pay stubs
-- Fill out a [Recoupment Notice Form](https://docs.google.com/document/d/1gKJlcLbQ-Y9KZZniYHRptG6qIOzleyDaCdbQWEkswTA/edit?ts=6033d0b3)
-- Have the form audited by someone in the Total Learning & Development team
-- Stage the document in DocuSign
-- Fill out the Growth & Development Recoupment Log

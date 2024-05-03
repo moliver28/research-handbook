@@ -24,6 +24,12 @@ This page is populated from the following filterable views.
 #### Filtering your data
 To ensure the accuracy of the presented data, please use the convenient filtering options (**'Group'**, **'Section'**, or **'Stage'**) at the top of the dashboard to tailor the displayed information to your group, section, or stage's metrics.
 
+#### Why your team is not listed in the dashboard filters
+
+We use [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) as the SSOT for group, section, and stage information. In order for your group/section/stage to be listed in the dashboard filter, there must be a match between what's listed in this file vs how it's shown in the label. We do this to avoid any error or random values in our filters. Here are a couple of examples:
+- The Data Science section is listed as `data-science` in [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) and the associated label is `section::data-science`. Since both values match, our dashboard filters will pick this up as a valid filter.
+- The Data Science section is listed as `data-science` in [stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) and the associated label is `section::data_science`. Since both values do not match, our dashboard filters will not pick this up as a valid filter.
+
 #### Save your settings
 
 If you find yourself frequently accessing data specific to your group, section, or stage, we recommend embedding the following code to save your preferred settings.

@@ -6,7 +6,7 @@ description: "Guidelines for automation with project/group tokens or service acc
 
 ## Overview
 
-Token management is crucial in providing authentication and authorization within various systems and subsystems used by GitLab. The [token overview](https://docs.gitlab.com/ee/security/token_overview.html#gitlab-token-overview) will assist in identifying the tokens used in GitLab. Refer to the [Token Management Standard](/handbook/security/token-management-standard.html) for approved token usage and distribution.
+Token management is crucial in providing authentication and authorization within various systems and subsystems used by GitLab. The [token overview](https://docs.gitlab.com/ee/security/token_overview.html#gitlab-token-overview) will assist in identifying the tokens used in GitLab. Refer to the [Token Management Standard](/handbook/security/token-management-standard) for approved token usage and distribution.
 
 ## Guidelines for automation and access tokens
 

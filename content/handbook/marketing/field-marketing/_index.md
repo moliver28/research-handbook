@@ -129,6 +129,7 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 * [Tactic Details](/handbook/marketing/field-marketing/#meeting-setting)
 * [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#conference)
 * [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Meeting_Setting_Template)
+* [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#meeting-setting)
 
 ## Content Syndication
 * [Tactic Details](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
@@ -399,7 +400,6 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - **Contract Requests:** 3 business days
 - **Plan to WIP Requests** - 5 business days
 - **Copy to FMCs for Review** - 24 hours
-- **Triage Request to Triage Manager** - 24 hours
 - **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) (not including the day the triage request is sent)
 
 ## Items required by FMM to request moving an issue from Plan to WIP
@@ -423,7 +423,7 @@ Once the FMM has submitted the Contract Request to their FMC and the remaining a
    - [In-Person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
    - [External Virtual Events](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
    - [GitLab Hosted Zoom Webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- FMC adds the event to the [GitLab Events Page](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents), if applicable (specified by the FMM in the FMC Checklist section of the issue)
+- FMC adds the event to the [GitLab Events Page](https://about.gitlab.com/events/) utilizing [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents), if applicable (specified by the FMM in the FMC Checklist section of the issue)
 - When all the above tasks have been completed, the FMC will ping the FMM in the main issue to confirm completion of the above tasks and will move the issue label `mktg-status::plan` to `mktg-status::wip`.
 - FMC and FMM to follow the [Copy Deadline Process](/handbook/marketing/field-marketing/#field-marketing-event-copy-deadline-process) for any assets the FMM has requested in the main issue's FMC Checklist.
 - FMC and FMM to follow the [Lead List Deadline Process](/handbook/marketing/field-marketing/#lead-list-deadline-process) for lead list upload process and SLAs.
@@ -466,20 +466,20 @@ For all other event types (including in-person workshops), please see instructio
 
 ### FMM Tasks
 
-- FMM to update the new date(s) in the Allocadia sub-category and adjust the forecasted amount (if over the prepaid $5k threshold and if the new date falls in a new month).
+- FMM to ping the FMC and staff/DRIs in the main Field Marketing issue to communicate the updated date(s).
 - FMM to obtain an addendum/updated contract from the venue with the new date(s) (if applicable). The FMM will then re-open the original contract request and ping the FMC with new date(s) and addendum/updated contract.
 - FMM to update the date with any additional vendors (such as Boundless, PizzaTime, etc.).
-- FMM to ping the FMC and staff/DRIs in the main Field Marketing issue to communicate the updated date(s).
 - If utilizing their personal Zoom for the event, FMM to make the date change in the Zoom account where the event was set up. Make sure to check the `Notify registrants about changes to this meeting` checkbox so registrants gets the date change email notification with their unique join link from Zoom.
 - If there are registrations for the event, please either notify the registrants of the date change directly, or ask your FMC to create a date change email issue and provide copy in the copy doc. Note that this email must follow the [MOps SLA](/handbook/marketing/marketing-operations/campaign-operations/#slas).
 
 ### FMC Tasks
 
+- FMC to update the new date(s) in the Allocadia sub-category and adjust the forecasted amount (if over the prepaid $5k threshold and if the new date falls in a new month).
 - The FMC will update the event listing in the [Marketing Calendar](/handbook/marketing/#marketing-calendar) with the updated date(s).
 - The FMC will update the date(s) in the appropriate Google calendar for the event invite.
 - The FMC will update the epic details and sub-issue due dates (and issue titles), as well as make the necessary changes to any upcoming asset send dates. If there are any emails scheduled to send, the FMC will ping MOps specically in those issues to have them unschedule the sends first.
 - The FMC will re-open the Marketo LP issue and request the date be changed in the LP. This will most likely change the LP URL as well, in which case, the FMC will update the LP link in the epic and notify the FMM of the changed link (to communicate to the sales team).
-- The FMC will submit an MR to update the date for the event listing and the new LP URL on the [Events Page](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) (if applicable).
+- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents) to update the date of the event on the [Events Page](https://about.gitlab.com/events/) (if applicable).
 - Allocadia: FMC to change the ISO date in the SFDC campaign name to the new start date.
 - SFDC: FMC to change the ISO date in the SFDC campaign name to the new date and update the start and end date fields.
 - Marketo: FMC to change the ISO date in the Marketo program to the new date and update the `event date` and `UTM tokens`. Also update [asset expiration](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-setting-landing-page--smart-campaign-expiration-asset-expiration).
@@ -489,18 +489,18 @@ For all other event types (including in-person workshops), please see instructio
 
 ### FMM Tasks
 
-- FMM to update Allocadia showing the event as canceled by going to the event sub-category panel and selecting `Yes` to the `Campaign Canceled?` dropdown. FMM to also add in `CANCELED` to the event sub-category title and to the `Official Event/Campaign Name` field so the title in the main issue stays updated.
-- FMM to remove any planned/forecasted costs in Allocadia accordingly.
-- FMM to update the cancellation status with any additional vendors (such as Boundless, PizzaTime, etc.).
 - FMM to ping the FMC and staff/DRIs in the main Field Marketing issue to communicate the cancelation and close out the issue.
+- FMM to update the cancellation status with any additional vendors (such as Boundless, PizzaTime, etc.).
 - If utilizing their personal Zoom for the event, FMM to delete the event from the Zoom account where the event was set up. Make sure to check the `Send meeting cancellation email to registrants` checkbox so registrants gets the cancellation email notification from Zoom. You will also be able to edit the cancellation message in the body of the email.
 - If there are registrations for the event, please either notify the registrants of the cancelation directly, or ask your FMC to create a cancelation email issue and provide copy in the copy doc. Note that this email must follow the [MOps SLA](/handbook/marketing/marketing-operations/campaign-operations/#slas).
 
 ### FMC Tasks
 
+- FMC to update Allocadia showing the event as canceled by going to the event sub-category panel and selecting `Yes` to the `Campaign Canceled?` dropdown. FMC to also add in `CANCELED` to the event sub-category title and to the `Official Event/Campaign Name` field so the title in the main issue stays updated.
+- FMC to remove any planned/forecasted costs in Allocadia accordingly.
 - The FMC will update the [Marketing Calendar](/handbook/marketing/#marketing-calendar) by selecting the event line item and adding a strikethrough to indicate the event has been canceled.
 - The FMC will delete the Google calendar invite in the appropriate calendar.
-- The FMC will submit an MR to delete the event listing on the [Events Page](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) (if applicable).
+- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents) to delete the event from the [Events Page](https://about.gitlab.com/events/) (if applicable)
 - The FMC will comment regarding the cancelation in all open sub-issues and close out the issues. If there are any emails scheduled to send, the FMC will ping MOps specifically in those issues to have them unschedule the sends first.
 - If applicable, FMC to ping procurement and finance in the Coupa req to notify them that the event has been canceled.
 - If the FMM is not sending their own cancelation email to registrants and would like to send a Marketo cancelation email, create an [issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/request_email_invite.md) for the request and triage to Marketing Ops. Please Note: This email must be scheduled and sent BEFORE the rest of the steps below can be completed.
@@ -620,6 +620,10 @@ Once the report is downloaded (or the event/tactic has ended and all swag has be
 
 # Field Marketing Swag
 
+## Brand Details for Swag and Event Assets
+
+For information regarding Brand support, please visit the [Brand Creative Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand--marketing-design-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
+
 ## AMER Field Marketing Swag
 
 The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Boundless](https://www.boundlessnetwork.com/), and their contracted warehouse, [A51 Logistics](https://a51logistics.weebly.com/) for all of our swag and event asset requirements. Boundless is available to produce, ship and store swag and event assets.
@@ -658,7 +662,7 @@ It is the FMM’s responsibility to not only ship assets to events, but to also 
 
 **PLEASE NOTE:** Trash should not be put into the return shipping boxes. All event assets are to be packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Do not send small numbers of swag back to the warehouse if the items were bundled. Only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be rebundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
 
-### A51 Logistics Warehouse Address
+#### A51 Logistics Warehouse Address
 
 A51 Logistics
 Account: GitLab
@@ -668,7 +672,11 @@ Las Vegas, NV 89118
 
 ### Stickers
 
-For sticker orders, please utilize our [Stickermule](https://www.stickermule.com/) account. The login for Stickermule can be found in the Marketing 1pass. Delivery options and timelines are provided during the ordering process. Any new sticker designs must be approved by the Brand team for brand consistency. For new sticker design requests, please open a design issue using the design issue template [here](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general). Please note that we are currently not producing specialty Tanuki designs at this time.
+For sticker orders, please utilize our [Stickermule](https://www.stickermule.com/) account. The login for Stickermule can be found in the Marketing 1pass. Delivery options and timelines are provided during the ordering process. Any new sticker designs must be approved by the Brand team for brand consistency. For new sticker design requests, please open a design issue using the design issue template [here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request). Please note that we are currently not producing specialty Tanuki designs at this time.
+
+#### Sticker Budgeting and Tracking
+
+The AMER Field Marketing Team has a blanket PO for all Stickermules orders. The FMM placing the order will log into Stickermule (utilizing the Marketing 1pass), add the stickers needed to the cart, then contact their FMC to provide the total cost of the order. The FMC will then provide the Coupa Card information to use for payment (receipt is not required). The FMC will then add the total cost of the order to the appropriate month's forecast in the Stickermule Blanket PO line item in the ALL AMER plan in Allocadia (2505376).
 
 ### Print Collateral
 
@@ -680,14 +688,20 @@ If you are interested in ordering new swag, please open a [Swag Request Issue](h
 
 ## EMEA Field Marketing Swag
 
-The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/#project-management) to source, fulfill, ship and store (European adn Uk warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://www.tenandone.com) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics.
+The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://www.tenandone.com) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
 
-**Invoicing:** All invoices for Field Marketing are required to include the campaign's Allocadia ID to allow for proper finance coding.
+- **Budget Allocation:** 
+     * If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event. 
+     * If swag is required from the bulk order (e.g AWS, GCP, smaller events) the FMM should assign budget and move it to All EMEA per Quarter. 
+     * If the event e.g Connect Day is handled by Ten & One as an all-in budget under the contract with Ten & One this should be included in that event sponsorship line item within the FMM's regional plan.
+Please note shipping cost to be included in the SWAG cost that you budget per event.
+
+- **Invoicing:** All invoices for Field Marketing are required to include the campaign's Allocadia ID to allow for proper finance coding.
 
 - **Existing Items:** Item descriptions and quantities are listed on the Reachdesk portal, please reach out to `@helenadixon` for current inventory levels.
 - **New Items and Designs:** Requests for new swag items not already available require management approval. Any new swag designs must be approved by the brand team for brand consistency. You can suggest new designs in the swag slack channel or more formally in an issue in the [Swag Project](https://gitlab.com/gitlab-com/swag_suggestions).
 - **Large Orders:** For orders over 500 pieces, contact `@helenadixon` for assistance.
-- **Shipping:** Please make sure to specify all shipping requirements and deadlines when ordering your items.
+- **Shipping:** Please make sure to specify all shipping requirements and deadlines when ordering your items and include in the swag section of the relevent issue.
 - **Lead Times:** Please be aware that ordering newly designed swag or placing reorders for existing items requires adequate lead time. Timeframes vary greatly based on the items selected and design approval. General Lead Times: 6 weeks to produce a new item and 2-3 weeks to reorder current designs.
 - **Stickers:** For sticker orders, please utilize our [Sticker Mule](https://www.stickermule.com/) account or contact `@helenadixon` for assistance with ordering.
 Delivery options and timelines are provided during the ordering process. Any new sticker designs must be approved by the brand team for brand consistency. You can suggest new designs in the swag slack channel or more formally in an issue in the [Swag Project](https://gitlab.com/gitlab-com/swag_suggestions).
@@ -1114,17 +1128,19 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 
 ## FMM/CAM alignment
 
-| Region | FMM | CAM |
+| Region | FMM | PTM |
 | ------ | ------ | -------------- |
-| AMER East & Canada | Beth Parker | Maria Henry |
-| AMER South Central & LATAM | Jonathan Santiago | Rodrigo Rios - LATAM and Joe McAninch - Central |
-| AMER North Central | Julie Wyatt | Joe McAninch - Central |
-| AMER Southwest & Northwest | Lisa Rom | TBD |
+| AMER East & Canada Enterprise| Beth Parker | Jay Bahar |
+| AMER South Central & LATAM Enterprise| Jonathan Santiago | Rodrigo Rios - LATAM and Joe McAninch - Central |
+| AMER North Central Enterprise| Julie Wyatt | Joe McAninch - Central |
+| AMER Southwest & Northwest Enterprise | Lisa Rom | Kyle Olsen |
+| AMER ALL Commercial | Beth Parker, Jonathan Santiago, Julie Wyatt and Lisa Rom | Lisa Cartegna - AMER Commerical NAMED|
+| AMER ALL Commercial | Beth Parker, Jonathan Santiago, Julie Wyatt and Lisa Rom | Maria Henry- AMER Commerical |
 | AMER Public Sector | Kira Aubrey | Chris Novello|
 | APAC | Kate Baker | Dirk de Vos |
 | APAC - Japan | Shu Kawaguchi |  |
-| EMEA Southern Europe | Marcus Hall (Juliette Francon on Mat Leave) | Tristan Ouin |
-| EMEA MEA | Marcus Hall (Juliette Francon on Mat Leave) | TBD |
+| EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
+| EMEA MEA | Marcus Hall & Juliette Francon | TBD |
 | EMEA Northern Europe | Neha Pujari| Michal Kulakowski |
 | EMEA UK/I | Neha Pujari | TBD |
 | EMEA Central Europe | Sarina Kraft | Ilaria Pazienza |
@@ -1551,11 +1567,49 @@ Please note that there is a limit of $75 USD annually per person on customer spe
 
 ## Field Marketing Contract Requests
 
-In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC. SLA for FMC to complete the Contract Request issue is 3 business days from the date all needed info is filled out by the FMM in the Contract Request issue. FMM to leave a note if turnaround is urgent (FMCs have been averaging 1-2 business days currently).
+In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC. 
 
-## Field Marketing Procurement Details
+### SLAs
+The SLA for your FMC to submit your request to Zip/Coupa is **3 business days** from when they are assigned the contract request issue. Please keep in mind it generally takes a week+ to obtain all approvals and/or signatures during the procurement process (longer for more complicated contracts that may require redlines from legal), so please plan accordingly.
 
-[The Field Marketing Contract Request Template](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) noted above has detailed information regarding numerous aspects of the procurement process. Please make sure to reference this template with any questions. If you have any additional concerns or special cases not covered in the template's details, please reach out to your FMC to discuss in advance of submitting your contract request.
+### Document Review
+Please make sure you have reviewed your document carefully and have pre-filled the contract details required in the agreement *before* assigning the issue to your FMC. Below are some items to keep in mind when both the FMMs and FMCs are reviewing contracts...
+- Correct [GitLab entity](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information) that needs to be utilized, along with the correct address associated with that entity
+- GitLab company name spelled correctly (capital L!)
+- Lead specifics - What contact information will be provided and when?
+- Correct event dates, cost, and sponsorship level
+- Clear vendor goals and if the vendor fails to deliver against T&Cs/goals, a detailed make-good clause
+- If a room block is involved, accurate attrition requirements have been included
+
+### Month Close
+Please Note: AP typically closes out the month by the third business day **before** the last day of the month (Day -3). Once AP closes the month, any charges under $5k (under $50k for swag/shipping) occuring via a credit card or invoice approvals will be reconciled the following month. The month close date will be announced each month in the `#allocadia_mktg-budget-holders` Slack channel and will also be added to the [Marketing Finance Dates Calendar](https://calendar.google.com/calendar/embed?src=c_j581mpq4tcn6bjojs1bqnl4eg0%40group.calendar.google.com&ctz=America%2FDenver).
+
+### Prepaid Policy
+Please make sure you have reviewed our company's [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and have forecasted your cost(s) correctly in Allocadia. 
+
+### Signature Authority
+GitLab team members DO NOT have [signature authority](/handbook/company/authorization-matrix/expenses-and-signatures/#signature-authority---sales-and-vendor-contracts). This means that FMMs are not allowed to sign any legal documents pertaining to quotes, orders, contracts, BEOs, etc. If you have a document that requires a signature, please submit it in a contract request to your FMC to process through procurement.
+
+### Coupa Card Versus Navan Card
+This template is to be utilized for all contracts/orders/invoices that either require a signature/acceptance of terms and conditions and/or are over $5,000 in cost. If your order does not require a contract/signature and is under $5,000, you may utilize your [Navan credit card](/handbook/finance/accounts-payable/corp-credit-cards/) for payment. 
+
+### Coupa Card Limits
+Please be aware that your Coupa card limit is directly associated to the approved PO amount. We have a 10% overage on the card and if you try to charge more than 10% over the PO amount, the card will decline. If you require additional funds be added to the card limit, you will need to request your FMC submit a [PO Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change) to increase the PO total and the card limit.  
+
+#### Coupa Card Max (Onboarding New Vendors)
+Please also note, we can only use Coupa cards for POs up to $25,000. Anything over $25,000 requires ACH payment and onboarding the vendor through Zip/Coupa. If you know you have an upcoming contract/payment over $25,000, please contact your FMC in advance so they can check to see if the vendor is currently in Zip/Coupa and if not, they can request the vendor be onboarded in advance by submitting a [Zip request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-request-a-new-vendor). No contract is required to submit this request and an estimated cost can be provided. Please note in the title of the submission that the request is for new vendor onboarding only. For any questions, please reach out to your FMC. 
+
+### Invoices Under $5k
+If you have an [invoice under $5k](/handbook/finance/procurement/#-what-are-the-exceptions-to-the-po-policy) that does NOT require a signature or [procurement review](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#when-is-legal-involved), we do not need to process through Zip/Coupa. In these cases, your FMC can simply submit the invoice directly via email to `ap@gitlab.com` for ACH payment (please note, the vendor must be in the system to process payment). Items that must be included in the email to AP: Approver name (FMC), Allocadia ID, and Department (Field Marketing). An example of this would be Boundless invoices under $5k. Boundless has been onboarded in our finance system, they do not require a signature on their invoices, and these invoices do not require a procurement review as they are under $5k. If you are unsure if your invoice falls under this category, please ask your FMC.
+
+### Various Charges on Coupa Card
+If you are submitting various charges for approval on a Coupa virtual card, please make sure you either provide the PDF contract/order/quote or, if ordering through an online portal, please include a screenshot of the items you need to order. Each separate order requires a supporting PDF or screenshot that shows the vendor name, items being ordered, and total cost. These requests will be reviewed during the procurement process and if approved, the Coupa card issued will cover all costs submitted. Only one Allocadia line item is required per Coupa card approved. For example, if you submit a contract request for booth, AV, and IT charges for a show that equal $3,000, you only need one Allocadia line item ID for all three charges and your plan/forecast number would equal $3,000.
+
+### F&B/AV/Additional Event Charges
+Since we often don't have the exact headcount for an event in advance, additional costs (such as AV, F&B, etc.) can be estimated for initial procurement approval. If your additional costs are included in the initial venue contract, please ask the venue to provide pricing for your estimated headcount in the contract (especially for F&B costs, so that you are not only submitting your F&B minimum). This will give us a baseline cost estimate for approval and your FMC will adjust the PO amount as needed, based on final cost (a PO change request will be issued for charges above 10% over the original PO amount). If your additional costs (catering, AV, etc.) are being provided by different vendors from the venue, please make sure you have separate Allocadia line items for those charges and also submit separate contract requests (if a contract is required by the vendors). If the vendor does not require a contract and charges are under $5,000, you can pay with your Navan card.
+
+### Contract Request Issue Re-use
+If you have an event that requires multiple contract requests, feel free to re-use your original contract request issue! Simply re-open the original request, copy the appropriate section that is needed for your new request, and add those fields with new details in a comment to your FMC. Please do not erase the original details from the request, though, as those details are often referenced.
 
 ## Sourcing New Field Marketing Vendors
 

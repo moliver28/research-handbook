@@ -16,7 +16,7 @@ The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while 
 
 **Product, Design & Quality**
 
-{{% stable-counterparts manager-role="Engineering Manager(.*)AI Framework" role="AI Framework" %}}
+{{% stable-counterparts manager-role="Engineering Manager(.*)Duo Chat" role="Duo Chat" %}}
 
 
 ## 🔗 Other Useful Links

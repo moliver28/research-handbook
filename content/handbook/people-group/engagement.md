@@ -181,18 +181,18 @@ In addition, Managers can create an Engagement Survey Action Issue that links to
 - [Legal & Corporate Affairs](https://gitlab.com/groups/gitlab-com/-/epics/2223)
 - [CISO](https://gitlab.com/groups/gitlab-com/-/epics/2196)
 
-### Pre-Summit Pulse Survey Overview
+### Summit Pulse Surveys Overview
 
 The goal of the Summit is to build trust through social connections. This trust should lead to higher individual and team motivation, leading to higher productivity and retention. Higher trust between individuals and teams fuels collaboration and leads to stronger results.
 
 To best determine how effective we are at achieving the goal of Summit is to gauge team member perceptions before and after the event.
 
-#### We will run two surveys:
+#### We ran two surveys:
 
-- Pre-Summit: Scheduled from January 9, 2024 to January 19 2024
-- Post-Summit: To be scheduled in March 2024 (Exact dates TBD)
+- Pre-Summit: January 9, 2024 to January 19, 2024
+- Post-Summit: March 15, 2024 to April 5, 2024
 
-This will help us gain valuable insights into any shifts in sentiments among team members, allowing us to assess the true impact of the summit, satisfaction and engagement.
+This will helped us gain valuable insights into any shifts in sentiments among team members, allowing us to assess the true impact of the summit, satisfaction and engagement.
 This is an abbreviated version of our engagement survey, and it also includes a few Summit related questions.
 
 ### Survey Confidentiality
@@ -201,12 +201,7 @@ In an effort to ensure team member confidentiality is upheld, only managers with
 
 ### Survey Results
 
-A link to survey results will be added at the conclusion of each survey.
-
-- Pre-Summit results: To be added
-- Post-Summit results: To be added
-
-
+Team members can access Summit Pulse Survey results [here](https://docs.google.com/presentation/d/1OPOwu9JZxq4CoAiUAOMPZ-yXH99TPMPXObfzVMIWlto/edit#slide=id.g1d24c3e4ddd_5_252)
 
 
 

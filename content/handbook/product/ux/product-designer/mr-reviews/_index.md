@@ -48,10 +48,6 @@ Single Engineer Group (SEG) MRs should be reviewed by the design DRI of the grou
 
 If a SEG MR belongs to a stage group that does not have a designer, we are unable to accomodate MR reviews at this time due to lack of capacity.
 
-### UX Paper Cuts MRs
-
-MRs created by the UX Paper Cuts team will be handled by the UX Paper Cuts team. If the team is out of office, then the [GitLab Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/) will be utilized to help distribute MR reviews across the Product Design subdepartment.
-
 ## Workload and response times
 
 MR review requests are the [number one priority for Product Designers](/handbook/product/ux/product-designer/#priorities). Respond to them per our [review-response Service-Level Objective](/handbook/engineering/workflow/code-review/#review-response-slo).

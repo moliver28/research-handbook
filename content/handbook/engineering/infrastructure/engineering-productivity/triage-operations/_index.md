@@ -833,6 +833,23 @@ Note:
 1. The `~"automation:infradev-missing-labels"` is automatically removed when a severity label, a priority label, and a milestone are set on the issue.
 1. The `~"automation:infradev-missing-labels"` is automatically removed after two weeks, leading to a new message being posted if the Automation Conditions above are still met.
    This effectively ensures that a reminder is posted on the issue every two weeks.
+
+#### Reminder on ~customer ~type::bug issues to set severity label
+
+Issues with the ~customer and ~type::bug labels should have a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) set. This automated policy aims to prompt team members to set a severity so that ~customer bugs are triaged in a timely fashion.
+
+* Automation conditions:
+  - Open issue labelled `~customer` and `~type::bug` which has no severity label set
+  - Issue does not have the `~"automation:customer-bug-missing-labels"` set
+* Automation actions:
+  * The label `~"automation:customer-bug-missing-labels"` is applied
+  * A message is posted to ask for a severity label to be set on the issue
+*  Policy: <https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/hygiene/ask-severity-for-customer-bug-issues.yml>
+
+Note:
+
+1. The `~"automation:customer-bug-missing-labels"` is automatically removed when a severity label is set on the issue.
+
 ## Resources
 
 * [Issue Triage Policies](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/).

@@ -33,8 +33,8 @@ For a detailed list of SQS Learning Objectives, please visit [this page](/handbo
 
 | DATES | GEO | LOCATION | ISSUE |
 | ------ | ------ | ------ | ------ |
-| April 15th - 26th, 2024  | AMER / EMEA | Virtual | [SQS 38 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2424) |
-| June 3rd - 14th, 2024  | AMER / EMEA | Virtual | [SQS 39 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2425) |
+| June 7th - 24th, 2024  | AMER / EMEA | Virtual | [SQS 39 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2425) |
+| July 22nd - August 2nd, 2024  | AMER / EMEA | Virtual | [SQS 40 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2660) |
 
 
 
@@ -42,6 +42,7 @@ For a detailed list of SQS Learning Objectives, please visit [this page](/handbo
 
 | DATES | GEO | LOCATION | ISSUE |
 | ------ | ------ | ------ | ------ |
+| April 15th - 26th, 2024  | AMER / EMEA | Virtual | [SQS 38 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2424) |
 | February  26th - March 8th, 2024  | AMER / EMEA | Virtual | [SQS 37 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2423) |
 | January 8th - 23rd, 2024  | AMER / EMEA | Virtual | [SQS 36 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2318) |
 | October 9th - 20th, 2023  | AMER / EMEA | Virtual | [SQS 35 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2236) |
@@ -92,10 +93,9 @@ Click on a link below to begin your role based journey.
 - Enterprise Strategic Account Executive - [Enterprise Sales Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/enterprise-sales-onboarding-journey)
 - Commercial Account Executive - [Commercial Sales - Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/commercial-sales-onboarding-journey)
 - Renewals Manager: [Renewals Manager (RM) Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/learning-path/renewals-manager-onboarding-journey)
-- Solutions Architect - [Solutions Architect: 30-60-90 Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/solutions-architect-30-60-90-onboarding-journey)
+- Solutions Architect - [Solutions Architect (SA) Onboarding Journey](https://university.gitlab.com/learn/learning-path/solutions-architect-sa-onboarding-journey)
 - Customer Success Management: [CSM Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/technical-account-manager-tam-onboarding)
 - Customer Success Management: [CSE Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)
-- Inside Sales - [Inside Sales: Onboarding Learner Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/inside-sales-onboarding-learner-journey)
 - Sales Development - [Inbound (SDR)](https://university.gitlab.com/pages/sales-development?labels=%5B%22Sales%20Development%22%5D&values=%5B%22Inbound%20(SDR)%22%5D) or [Outbound (BDR)](https://university.gitlab.com/pages/sales-development?labels=%5B%22Sales%20Development%22%5D&values=%5B%22Outbound%20(BDR)%22%5D)
 - Channel - [Channel Sales Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/channel-sales-on-boarding)
 - All Other Roles (Field Ops) - [Sales Quick Start](https://levelup.gitlab.com/learn/course/sales-quick-start)

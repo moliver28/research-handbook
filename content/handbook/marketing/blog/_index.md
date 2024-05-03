@@ -6,7 +6,7 @@ description: "Everything you need to know about suggesting and publishing a post
 
 Welcome to the GitLab Blog handbook! The [GitLab Blog](https://about.gitlab.com/blog/) is managed by the Content Marketing team. The managing editor of the blog is Sandra Gittlen (@sgittlen).
 
-## What is a blog post
+## What is a blog post?
 
 At GitLab, blog posts largely focus on sharing helpful information with the audience ([DevSecOps professionals](/handbook/product/personas/)). When you suggest or write a blog post, always consider what it offers the reader. If the post is more internal-focused or a personal essay of sorts, it is likely not a fit for the blog (but could go on your personal LinkedIn page).
 
@@ -26,7 +26,7 @@ Blogs fall into the following categories:
 
 Partner, alliance, and customer contributor guidelines can be found [here](https://docs.google.com/document/d/10Xb4qnZNedhPzNNRTByH7fgvNzlo5Bc5Rz1TiuHtPxE/edit?usp=sharing).
 
-## How to suggest a blog idea - NEW PROCESS
+## How to suggest a blog idea - NEW PROCESS {#how-to-suggest-a-blog-post}
 
 Please create an issue using the [blog submission template](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/blog/-/issues/new?issuable_template=blog-post-submission).
 
@@ -304,3 +304,54 @@ Animated GIFs are very useful to illustrate short dynamic processes, which might
 There are a few ways to create animated GIFs, one of them is using [Giphy Capture], a light-weight app for Mac.
 
 Avoid GIFs with a huge file size, they will be difficult to load for users with bad internet connection. In those cases, you can either cut the GIFs in smaller pieces, or record a video, or use a sequential image.
+
+#### Creating `Author` entries in the CMS
+
+Here's a set of recommendations when creating an `Author` entry in the CMS.
+
+##### `Name` field
+
+This is a required field.
+
+1. Author's name should be a combination of first and last name only, including composed names. Please avoid adding a job description (use the `Role` field for this task) or alpha-numeric combinations into this field. 
+1. No double authors (eg. `/authors/<author1>-<author2>`). We can add multiple single authors to blog posts. We should create individual authors and then add them all to other content types as a one-to-many relationship.
+1. Same as above, no multiple authors for a single blog post (eg. `/authors/<author1>-<author2>-<author3>-and-<author4>`).
+
+##### `Role` field
+
+Current working position or job description
+
+##### `Bio` field
+
+Biography
+
+##### `GitLab handle` field
+
+It corresponds to Author's GitLab username in lowercase format. This field has to be unique. 
+
+##### `Social media handles` fields
+
+Optional fields for social media handles
+
+## Localizing blog posts in Contentful
+
+We can publish blog posts in languages other than English. We currently support the following languages: 
+
+| Language | URL structure| 
+|---------|----------|
+| French |`/fr-fr/blog/YERAR/MONTH/DAY/Title/` |
+| German |`/de-de/blog/YERAR/MONTH/DAY/Title/` |
+| Japanese |`/ja-jp/blog/YERAR/MONTH/DAY/Title/` |
+
+
+### Translating an English-language blog post to other languages
+
+Translating an English-language blog post into another language is straightforward. Contentful offers a feature called "Field level localization," which allows us to specify the fields on the blog post that we want to translate. In the right-hand navigation while on a blog post, there's a "Localization" section. By selecting locales in that section, we can show or hide localized fields based on the currently selected locales. Once these fields have been completed, simply click "Publish" and the changes will go live on production in approximately five minutes.
+
+It's important to note that while we wait for Contentful to release locale-specific publishing (Spring 2024), any draft content, regardless of language, will also be published.
+
+### Publishing a blog post with no English-language equivalent
+
+Publishing a blog post without an English-language equivalent follows the same process as "Translating an English blog post to other languages," with one minor difference. Contentful mandates that required fields cannot be left empty in English. To circumvent this requirement, a '#' character can be inserted into the English Title and Blog Body fields. This informs our system that the English-language blog post does not exist and should not generate a web page for it.
+
+Contentful is currently developing a solution to address this workaround, which is expected to be available by Fall 2024.

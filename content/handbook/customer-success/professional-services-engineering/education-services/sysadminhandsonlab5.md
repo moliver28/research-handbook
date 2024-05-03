@@ -1,14 +1,15 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Implement Sign-Up Restrictions"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "This Hands-On Guide walks you through enabling sign-up restrictions in GitLab."
 ---
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson5.md).
+## Objectives
 
+This lab will help you improve your instance's security by enabling the option to send a confirmation email on signup, and ensure that signups are only allowed from your company's domain. To read more about sign-up restrictions, click [here](https://docs.gitlab.com/ee/administration/settings/sign_up_restrictions.html).
 
-This lab will help you improve your instance's security by enabling the option to send a confirmation email on signup, and ensure that signups are only allowed from your company's domain. 
+### Task A. Add Sign-up Restrictions
 
 1. Log into your GitLab web instance with your `root` user and password from Lab 1.
 

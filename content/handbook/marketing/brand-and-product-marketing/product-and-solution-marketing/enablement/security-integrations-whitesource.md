@@ -41,7 +41,7 @@ WhiteSource will launch a press release on 14 January 2020 to accompany GitLab C
 Supporting [issue](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/1157)  
 
 - [Press release](https://www.prnewswire.com/news-releases/whitesource-enhances-gitlab-integration-with-support-for-gitlab-ultimate-300986560.html)  
-- [WhiteSource integration page](https://www.whitesourcesoftware.com/gitlab/)  
+- [WhiteSource integration page](https://www.mend.io/gitlab/)  
 - [GitLab partner page](https://about.gitlab.com/partners/#security)
 - [Introductory Blog](https://docs.google.com/document/d/1nu8ddhEcrQ6iP5ebdYSuY-MQsjCUvOnQbRxd8PEbXf4/edit)  
 - [Documentation](https://whitesource.atlassian.net/wiki/spaces/WD/pages/806191420/WhiteSource+for+GitLab+Core)

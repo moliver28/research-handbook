@@ -36,11 +36,18 @@ Internal mobility opportunities are dependent on [employee eligibility](/handboo
 
 At times, the business may need to change job attributes such as the direct manager or department. These changes may be a result of consolidating teams, creating new departments, or moving team members to report to a new manager. These types of changes are specified as job attribute changes and don’t meet the definition of internal mobility, and can be initiated by the current manager via Workday.  
 
+#### Engineering Internal Mobility
+
+For Engineering, please see [Engineering Mobility Principles](/handbook/engineering/careers/#mobility-principles) for additional guidelines and justification.
+
 ### Promotions
 
 **In-Cycle Promotions:**  An in-cycle promotion is any individual that is within the same job family, and has a similar but increased job scope. A promotion is not necessarily defined with a new grade due to differences in job families. This process does not require interview(s), does not create backfill headcount and occurs semi-annually through the calibrated promotion process. All in-cycle promotions are processed in **Workday and not in Greenhouse.**  
 
 **Internal Mobility Promotions:**  Internal Mobility promotions occur when a team member applies for an open position and accepts a role at a higher grade/job responsibilities when compared to their current role.  
+
+- In order for promotions through internal mobility to occur, approval from the skip-level leader is required.
+- Additionally, the aligned People Business Partner should be consulted for alignment and visibility.
 
 ## Promotion Philosophy
 
@@ -86,41 +93,9 @@ At GitLab, we promote on a twice per year basis. This means that there is **one 
 
 *Please note that the Calibration timeline for Senior Director+ promotions will differ slightly from the timelines indicated above, as Senior Director+ promotions are calibrated twice per year at the [E-group offsite]({{< ref "offsite#schedule" >}}).*
 
-### FY24-Q1
+### FY25-Q1 (1st Half)
 
-*Status:* Completed. Aligned with [Annual Compensation Cycle]({{< ref "compensation-review-cycle#annual-compensation-review-timeline" >}})
-
-- Planning: 2022-12-20 to 2023-01-06
-- Calibrations: 2023-01-09 to 2023-01-20
-- Processing: 2023-01-23 to 2023-02-01 (Promotions must be added to Workday by 2023-01-20)
-    - Effective date for promotions: 2023-02-01.
-    - Communication: In conjunction with [annual compensation review raises]({{< ref "compensation-review-cycle#february" >}}). After communicating 1:1 with individuals, updates can be posted publicly in #team-member-updates.
-
-### FY24-Q2
-
-*Status:* Completed.
-
-- Planning: 2023-03-15 to 2023-04-01
-- Calibrations: 2023-04-01 to 2023-04-15
-- Processing: 2023-04-15 to 2023-05-01 (promotions must be added to Workday by 2023-04-20)
-    - Effective date for promotions: 2023-05-01.
-    - Communication: After fully approved in either Greenhouse or Workday
-    - After communicating 1:1 with individuals **on or after 2023-04-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
-
-### FY24-Q3
-
-*Status:* Completed.
-
-- Planning: 2023-06-12 to 2023-06-23
-- Calibrations: 2023-06-26 to 2023-07-14
-- Processing: 2023-07-17 to 2023-08-01 (promotions must be added to HRIS by 2023-07-20)
-    - Effective date for promotions: 2023-08-01.
-    - Communication: After fully approved in either Greenhouse or Workday
-    - After communicating 1:1 with individuals **on or after 2023-07-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
-
-### FY25-Q1
-
-*Status:* Upcoming. Aligned with [Annual Compensation Cycle]({{< ref "compensation-review-cycle#annual-compensation-review-timeline" >}})
+*Status:* Completed
 
 - Planning: 2023-12-01 to 2023-12-15
 - Calibrations: 2023-12-18 to 2024-01-08
@@ -129,6 +104,15 @@ At GitLab, we promote on a twice per year basis. This means that there is **one 
     - Effective date for promotions: 2024-02-01.
     - Communication: In conjunction with [annual compensation review raises]({{< ref "compensation-review-cycle#february" >}}). After communicating 1:1 with individuals, updates can be posted publicly in #team-member-updates.
          - There will be a window from 2024-02-21 to 2024-02-29 for manager to proactively communicate promotion approval and new job titles.
+
+### FY25-Q3 (2nd Half)
+
+- Planning: 2024-06-10 to 2024-06-21
+- Calibrations: 2024-06-24 to 2024-07-12
+- Processing: 2024-07-15 to 2024-08-01 (promotions must be added to HRIS by 2024-07-20)
+    - Effective date for promotions: 2024-08-01.
+    - Communication: After fully approved in either Greenhouse or Workday
+    - After communicating 1:1 with individuals **on or after 2023-07-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
 ## Planning
 
@@ -150,8 +134,10 @@ In-line promotion documents should demonstrate values alignment, business need f
 When creating promotion documents, remember:
 
 - Promotions are based on performance, not growth potential.
+- GitLab considers both individual readiness and business need when we think about promotions. Managers are responsible for completing the business justification section of the promotion document to include what justifies the need for the team members skills and work to be completed at the higher level. Possible business justifications typically include for example: more complex projects, additional scope of work required as the team scales, additional responsibility due to XYZ business reason.
 - Promotion documents should not exceed 3 pages total.
 - Please reference the [job frameworks]({{< ref "structure#job-frameworks" >}}) in the handbook for guidance pertaining to expectations at the various levels at GitLab. The job levels should help guide data chosen to be included in the promotion document, in addition to discussion during calibration sessions.
+- Please review our guidance on [DIB behaviours](https://handbook.gitlab.com/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](https://handbook.gitlab.com/handbook/values/#diversity-inclusion)
 - Please be sure that the promotion document has “comment” access enabled to ‘Anyone at GitLab who has the link!’ to ensure the review and approval process is not delayed. Please delete the instructions associated with each section of the promotion document below before submitting the promotions.
 - If you find yourself struggling to articulate your accomplishments, your manager can help support you and provide feedback. You can also consider reaching out to stakeholders for feedback, or meeting with a trusted colleague or mentor to brainstorm.
 - It should not include Talent Assessment ratings, such as "Exceeding Performance", as these must remain confidential and only discussed in confidential settings such as [Promotion Calibration]({{< ref "promotions-transfers#calibration" >}}), talent assessment calibrations, and within reporting structures.
@@ -370,7 +356,7 @@ This section describes the approval chain after the People Business Partner subm
 
 ### Interim
 
-As part of the career development structure within the Engineering division, interim and acting role opportunities occasionally arise. For more information on how interim and acting roles fit into Engineering career development, please reference the [Engineering career development handbook page](/handbook/engineering/career-development/). For information on the interim and acting processes, please continue reading below.
+As part of the career development structure within the Engineering division, interim and acting role opportunities occasionally arise. For more information on how interim and acting roles fit into Engineering career development, please reference the [Engineering career development handbook page](/handbook/engineering/careers/). For information on the interim and acting processes, please continue reading below.
 
 #### Beginning Interim Period
 
@@ -716,7 +702,7 @@ A [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-oper
 
 Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
-Or, if the team member already has access to the systems and tools needed, the manager can open 'Becoming a GitLab Manager' and 'Interview Training' issues that are housed within the [Traininig Project](https://gitlab.com/gitlab-com/people-group/Training/-/issues/?sort=created_date&state=opened&first_page_size=100) in GitLab.
+Or, if the team member already has access to the systems and tools needed, the manager can open 'Becoming a GitLab Manager' and 'Interview Training' issues that are housed within the [Training Project](https://gitlab.com/gitlab-com/people-group/Training/-/issues/?sort=created_date&state=opened&first_page_size=100) in GitLab.
 - To open the 'Becoming a GitLab Manager' and 'Interview Training' issues visit the Training project in GitLab -> Issues -> New Issue.
 - Under 'Description' select the specified project template and then select Create Issue at the bottom.
 

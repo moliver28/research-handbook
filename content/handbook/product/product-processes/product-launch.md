@@ -21,7 +21,7 @@ Launching features into our current product set is a well understood [process](/
 
 ## Step 1) Business Sponsor /  program manager should be assigned to launch the product/service or SKU.
 
-A Business Sponsor should request a new product, service, or SKU. The business sponsor can be the DRI to drive the SKU launch if it is smaller in scope. If the scope is larger, a program manager will be assigned to execute, and launch the product, service or SKU. A program manager can be assigned from the Product division, or if necessary from the Chief of Staff team. SKU additions or modifications for professional services can be program managed by the Professional services team.
+A Business Sponsor should request a new product, service, or SKU. The business sponsor can be the DRI to drive the SKU launch if it is smaller in scope. If the scope is larger, a program manager will be assigned to execute, and launch the product, service or SKU. A program manager can be assigned from the Product division, or if necessary from the Office of the CEO. SKU additions or modifications for professional services can be program managed by the Professional services team.
 
 To initiate the work (and proceed to steps 2 to 7) provide a three sentence proposal to the Pricing Steering Committee to kick off steps 2 to 4. The committee meets monthly and will review and provide any necessary feedback, and ensure the team is aligned on supporting the follow up work.
 

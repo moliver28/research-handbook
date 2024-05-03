@@ -38,22 +38,19 @@ Please allow a minimum of 10 working days for review.
 
 Once all necessary approvals have been documented for your charitable contribution, if the donation is >$5,000, we will need to set the recipient up in Coupa and follow the PO process in order to issue payment. Please [create a purchase request](/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip) in Zip to get the organization registered and to process payment. If the donation is <$5,000, please contact AP@gitlab.com to process payment as an exception to the PO process. Please note that if it is a new recipient that we have not paid before, an invitation to register in Coupa will be sent to the main contact on file to get their payment & tax information set up in the system.
 
-#### Team Member Volunteerism
+#### GiveLab
 
-Through the GitLab Volunteer Program, GitLab team members are able to organize volunteer activities in their local community or virtually. If you would like to submit a request to organize a volunteer activity with a Registered Nonprofit Organization, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
+GiveLab is GitLab’s Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](https://handbook.gitlab.com/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab’s overall [ESG strategy](https://handbook.gitlab.com/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
 
-**SuitUp Volunteer Opportunities**
+GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers.
 
-In Q3 FY24, GitLab and [SuitUp](https://www.volunteersuitup.com/) partnered to provide virtual volunteer opportunities for team members to make an impact on students around the world.
+Team members may self organize volunteer events at any point throughout the year. To submit a request for a team volunteer activity with a Registered Nonprofit Organization, please go to the [Philanthropic Requests epic](https://gitlab.com/groups/gitlab-com/-/epics/2145) and open a new issue using the [Volunteer_Support Template](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support).
 
-SuitUp is a 501c3 nonprofit that helps students prepare for life beyond the classroom and increase career readiness by partnering with businesses and schools to develop, organize, and implement engaging innovative business plan competitions in communities. SuitUp empowers students to discover their passions through experiential learning opportunities and mentorship alongside corporate volunteers.
+Team members can also request support from the ESG Team to organize local or virtual volunteer opportunities on their behalf by reaching out to the ESG team in the #givelab slack channel.
 
-Below are summaries of the events we held in August and October 2023.
+All team members and volunteer activities must adhere to the [GitLab Philanthropy Policy](https://handbook.gitlab.com/handbook/legal/philanthropy-policy/).
 
-1. College & Career Panel:
-     - On August 2nd, we hosted a panel for students from We Lead Ours, a school in Oakland, CA. GitLab panelists shared what it's like to work at GitLab and in tech, their own career journeys, and discussed resources to help support the students’ journeys into the corporate world.
-1. Virtual Competitions:
-      - On October 11th, we held two virtual competitions with students from Kingsley Academy and Girls Inc of Alameda County. Coached by GitLab volunteers, students role played as CEOs of the company tasked with creating a new initiative with an accompanying marketing campaign that encouraged young professionals to begin their careers at GitLab. Each team pitched their ideas to a panel of GitLab judges and the winning teams came away with prizes.
+As with our unique ways of working, GitLab and its team members have identified and sought out opportunities for impact that speak not only to our [values](https://handbook.gitlab.com/handbook/values/) but also to our [all-remote](https://handbook.gitlab.com/handbook/company/culture/all-remote/guide/) nature. To review previous opportunities that team members participated in, visit the [historical activities page](https://handbook.gitlab.com/handbook/people-group/givelab-volunteer-initiatives/#gitlab-donation-drives).
 
 
 #### In Kind Support
@@ -136,7 +133,7 @@ NOTE: For any request(s) that require payment, please be certain to follow appli
 
 Six key topics were identified in GitLab’s materiality assessment. These key topics will drive GitLab’s ESG strategy and program development. This page will continue to be updated as we make progress towards developing plans and programs to advance our ESG goals.
 
-![2023 Materiality Matrix](/handbook/legal/ESG/GitLab_2022_MaterialityMatrix_062123.PNG)
+![2023 Materiality Matrix](/handbook/legal/esg/2022-materiality-matrix-062123.png)
 
 Here are GitLab’s current key topics with their drivers:
 

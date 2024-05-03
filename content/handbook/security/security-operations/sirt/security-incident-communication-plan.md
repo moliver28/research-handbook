@@ -119,7 +119,7 @@ In the cases of incidents that are on-going and require constant communication t
 
 ## Communicating externally
 
-External communications should happen as soon as possible after the scope and impact of the security incident is determined, using concise and clear language. The first external communications are directed to affected parties. Examples include: Affected customers and third parties (including [JiHu](/handbook/ceo/chief-of-staff-team/jihu-support/)), providers of products, services or organizations involved in the supply chain for system components as related to the incident. Regulatory authorities are contacted based on incident scope, regulatory and legal requirements.
+External communications should happen as soon as possible after the scope and impact of the security incident is determined, using concise and clear language. The first external communications are directed to affected parties. Examples include: Affected customers and third parties (including [JiHu](/handbook/ceo/office-of-the-ceo/jihu-support/)), providers of products, services or organizations involved in the supply chain for system components as related to the incident. Regulatory authorities are contacted based on incident scope, regulatory and legal requirements.
 
 ### Turnaround on customer messaging
 

@@ -1,28 +1,30 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Configure GitLab Runners"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "This Hands-On Guide walks you through installing and managing a GitLab Runner on a virtual machine."
 ---
 
 
 > Estimated time to complete: 40 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson3.md).
+## Objectives
+
+The objective of this lab is to demonstrate how to create and register a GitLab Runner on a server. For more information about GitLab Runners, click [here](https://docs.gitlab.com/runner/).
 
 ### Task A. Install the gitlab-runner package
 
 1. Use your assigned IP address and SSH key file to log into your **GitLab Runner** server (*not* your Omnibus server).
 
-  ```bash
-  ssh -i YOUR_ASSIGNED_SSH_KEYFILE ec2-user@YOUR_RUNNER_SERVER_PUBLIC_IP
-  ```
+```bash
+ssh -i <YOUR_ASSIGNED_SSH_KEYFILE> ec2-user@<YOUR_RUNNER_SERVER_PUBLIC_IP>
+```
 
 1. If your system displays an authentication warning, type `yes` and press <kbd>Enter</kbd>
 
 1. Add the GitLab Runner installation repository.
 
-  ```bash
-  curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh" | sudo bash
-  ```
+```bash
+curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh" | sudo bash
+```
 
 4. Install the GitLab Runner agent.
 

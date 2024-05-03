@@ -28,7 +28,7 @@ Know someone who might be a great fit for our team? Please refer them to the job
 - When supporting a customer, any issue, incident or loss is *GitLab's loss*.
   - When a customer experiences trouble or downtime, take action with the same urgency you'd have if GitLab were experiencing downtime.
   - When a customer is losing productivity, take action with the same urgency you'd have if GitLab were losing productivity.
-  - A customer with 2,500 users whose instance is down, gets the same urgency as if GitLab were losing $1,000,000 per day. This treatment is equal regardless of how much they are paying us.
+  - A customer with 2,500 users whose instance is down, gets the same urgency as if GitLab were losing $1,000,000 per day.
 - Escalate early. Visibility across GitLab, up to and including the CEO, is always better earlier rather than later. Ensure all resources needed are on the case for customers early.
 
 Remember, as members of the support team we are the first to interact with someone when they have a problem or question. As such it is up to us to represent the company and make sure we present ourselves properly. Therefore we are expected to:
@@ -103,7 +103,7 @@ If you go through the responsibilities for each role in Support you can piece to
 
 - Support Engineers help solve customer problems via tickets, merge requests, and other customer facing activities.
 - Managers help solve Support Engineer problems by removing obstacles, joining in on customer facing activities, and working with support engineers to build systems that work to reduce friction and enable results and efficiency.
-- Senior Managers help resolve and avoid scaling problems by addressing team performance to KPIs, prioritizing initiatives and being responsible for the achievement of global results.
+- Senior Leaders help resolve and avoid scaling problems by addressing team performance to KPIs, prioritizing initiatives and being responsible for the achievement of global results.
 - VP of Support helps resolve and avoid company wide problems, by identifying growth and team design challenges, and reporting on progress to the Executives and Board.
 
 This simple list helps to give an easy way to set expectations and align problem solving in different roles.
@@ -121,7 +121,7 @@ We review these KPIs weekly in the [Support Week-in-Review](/handbook/support/#s
 In service of achieving our KPIs and OKRs, there are three key pillars that we must balance to achieve success:
 
 - People: Continue to hire excellent engineers and managers, at the right time, and the right places. Support our existing engineers and work with each team member towards realizing their full potential through professional development and smart tooling.
-- Process: Iterate on existing processes and develop new, simplified processes that enable global scaling
+- Process: Iterate on existing processes and develop new, simplified processes that enable global scaling.
 - Performance: People understand how their contributions help the global team attain our results, with guidance on what these contributions look like in practice.
 
 At various times it's easy to over-optimize on one of the pillars to solve a problem, but considering all three is key to avoiding short-sighted decision making.

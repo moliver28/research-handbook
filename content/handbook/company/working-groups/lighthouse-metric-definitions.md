@@ -67,7 +67,7 @@ Note that these goals are aspirational so we set a high bar (and potentially ach
 | Member - Enterprise Data                     | Amie Bright                   | VP of Enterprise Data and Analytics                        |
 | Member - Enterprise Data                     | Jong Lee                      | Data Analyst                                               |
 | Member - Enterprise Data                     | Naheil McAvinue               | Senior Manager, Data                                       |
-| Member - Chief of Staff Team (CoST)          | David Tuan                    | Director, Strategy and Operations                          |
+| Member - Office of the CEO                   | David Tuan                    | Director, Strategy and Operations                          |
 
 ## Jobs to be done by the Working Group
 

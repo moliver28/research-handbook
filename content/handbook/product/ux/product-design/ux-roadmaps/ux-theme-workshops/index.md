@@ -10,13 +10,11 @@ This document will serve as a helpful guide for navigating a team through the UX
 ## Preparing the workshop
 
 1. Create an issue in the GitLab Design Project using the UX Theme Workshop Template.
-1. Fill out the information in the issue template and assign it to yourself and the participants.
-1. Send a two-hour meeting invite to the participants (UX Theme workshop for <stage:group>
-    1. Add meeting invite details
+1. Fill out the information in the issue template and assign it to yourself and the participants that will be joining you.
+1. Send a two-hour meeting invite to the participants (Subject: UX Theme workshop for <stage:group>)
     1. Link to issue in the meeting invite
-    1. Copy the agenda into the meeting invite
     1. Link to the homework section of the issue in the meeting invite.
-    1. Change the due date to reflect the dates from the workshop issue.
+        1. Change the due date to reflect the dates from the workshop issue.
 
 Below is a template comment you can use for the meeting invite.
 
@@ -41,7 +39,7 @@ Theme clustering (45 min)
 Theme refinement (45 min)
 Playback & wrap-up (5 min)
 
-Note: The session may not take the entire time, though it is recommended to come prepared in the event it goes the entire 2 hours.
+Note: The session may not take the entire time, though it is recommended to come prepared in the event it goes the entire 2 hours. Please no multitasking, be prepared to focus on the workshop for the entire duration of the session.
 ```
 
 Once the Product Manager and Designer have supplied the required information move on to the next step. Note: You may have to remind the participants to supply the information if they have yet to do so in a timely manner. **The workshop cannot be conducted unless this information is provided.**
@@ -50,7 +48,7 @@ Once the Product Manager and Designer have supplied the required information mov
 
 The activities will take place entirely in FigJam. Only `Step 1 - Warm-up: UX vision definition` and `Step 2 - Cluster inputs into theme bundles` require setup before the workshop.
 
-1. Use [this FigJam template](https://www.figma.com/file/uu5scvnjO2iaGeaiGLYc5T/Template-UX-Theme-workshop-stagegroup_2023-08-23_11-13-15?type=whiteboard&t=0OCWWn7IaFbfH2we-1) and place it into the team's or stage's room.
+1. Use [this FigJam template](https://www.figma.com/file/uu5scvnjO2iaGeaiGLYc5T/Template-UX-Theme-workshop-stagegroup_2023-08-23_11-13-15?type=whiteboard&t=0OCWWn7IaFbfH2we-1) and move it into the team's or stage's room.
 1. Change <stage:group> to the stage group the workshop is for.
 
 #### Section 1 setup
@@ -84,15 +82,15 @@ Follow the links provided by the PM for the relevant feature issues. **Only** co
 1. Copy and paste each issue title into a sticky note on the FigJam board at the top of Section 2.
 1. Change the color of the stickies to yellow following the key in FigJam.
 1. Select all of the issues and arrange them into a grid.
-1. Copy and paste SUS-Impacting issues and change their color to match the key in FigJam.
-1. Copy and paste Deferred UX  issues and change their color to match the key in FigJam.
+1. Copy and paste any UX bug issues and change their color to match the key in FigJam.
+1. Copy and paste Deferred UX issues and change their color to match the key in FigJam.
 1. Arrange these stickies into a grid and place them adjacent to the feature stickies.
 
 Next: Follow the links provided by the Design DRI for relevant insights and JTBD.
 
 1. Copy and paste each actionable insight issue title into a sticky note. Change their color to match the key in FigJam.
 1. Copy and paste each JTBD into a sticky note. Change their color to match the key in FigJam.
-1. Arrange these stickies into a grid and place them adjacent to the feature, sus-impacting, and Deferred UX stickies.
+1. Arrange these stickies into a grid and place them adjacent to their respective issue types.
 
 *When complete, the FigJam should look like this:*
 
@@ -101,6 +99,8 @@ Next: Follow the links provided by the Design DRI for relevant insights and JTBD
 #### Make the FigJam board available to team members
 
 This [handbook page](/handbook/product/ux/product-designer/#figma--figjam) has information on how to set the appropriate level of access for your FigJam boards.
+
+Note: If a participant does not have a Figma license they will not be able to edit content on the FigJam unless the FigJam owner has set it to be an [Open Session](https://help.figma.com/hc/en-us/articles/4410786053911-Invite-visitors-to-an-open-session). Open sessions only last 24 hours. You will need to communicate this to your workshop participants and reset it as needed. You can reset the Open Session as many times as necessary.
 
 ## Facilitating the Workshop
 
@@ -122,7 +122,7 @@ Welcome everyone to the workshop; introduce yourself and anyone acting as a co-f
 
 Share your screen and walk through the itinerary in the workshop issue. When complete, stop sharing your screen allowing the participants to focus back on their screens of the FigJam board.
 
-#### 3. Wrap-up the introduction
+#### 3. Step 1: Wrap-up the introduction
 
 *Before we get started, are there any questions?*
 
@@ -130,7 +130,7 @@ Share your screen and walk through the itinerary in the workshop issue. When com
 
 Ask everyone to open the FigJam file (share the link over the Zoom chat), and introduce the first exercise.
 
->💡 This exercise is part warm-up, to get everyone talking and part exercise for creating UX Themes.
+>💡 This exercise is part warm-up, to get everyone talking and part exercise preparing everyone for UX Theme creation.
 
 >💡 Teams may struggle with this, but it is okay. All that is required is statements on sticky notes so they can complete the goal/vision statements after the workshop.
 
@@ -144,6 +144,8 @@ Ask everyone to open the FigJam file (share the link over the Zoom chat), and in
 
 *“Does that make sense, any questions?” okay, I will start the timer now.”*
 
+>💡 Try not to get too bogged down in this step. The goal is for the workshop participants to walk away with an understsanding of the group's direction and goals for the year as this will be the anchor for the rest of the workshop steps. It's ok if it's not the most perfectly written statement.
+
 ⏲️ **In FigJam Start the timer for 10 minutes**
 
 #### 2. Observe and keep participants on track
@@ -151,7 +153,7 @@ Ask everyone to open the FigJam file (share the link over the Zoom chat), and in
 - Ensure participants are talking
 - Ensure statements are being added to the stickies
 
-ℹ️ Watch as statements are added and ask probing questions, “Why is that important, tell me more about…” etc
+ℹ️ Watch as statements are added and ask probing questions, “Why is that important, tell me more about…” etc.
 
 #### 3. Wrap-up the activity
 
@@ -165,7 +167,7 @@ Based on the number of stickies generated, you'll get a sense that more time is 
 
 🟢 Move on to the next activity
 
-### Clustering theme inputs (45 minutes +)
+### Step 2: Clustering theme inputs (45 minutes + more if necessary)
 
 ℹ️ **This is the most critical part of the workshop** as generating themes relies on this activity to be done carefully. If teams have mutually exclusive and collectively exhaustive theme bundles, you'll know this was successful.
 
@@ -182,16 +184,18 @@ Based on the number of stickies generated, you'll get a sense that more time is 
 - Ensure participants are working together and not independently.
 - Prompt participants when clusters are beginning to form:
   - Ask if any other inputs could fit into that cluster.
-  - Ask if any JTBD or insights relate to the cluster.
+  - Ask if any JTBD, Defferred UX, UX Bugs, or Actionable Insights relate to the cluster.
   - Inquire about clusters that are formed and prompt participants to answer questions about the problem it is solving.
 
-As clusters start to form, you or the co-facilitator should copy and paste the `Beneficiary, Job, Outcome` text block below so teams can begin filling out that information.
+As clusters start to form, you or the co-facilitator should copy and paste the `Beneficiary, Job, Outcome` text blocks below each bundle (see this steps instructions section near the bottom) so teams can begin filling out that information.
 
 ℹ️ Watch out for large clusters. Also, ensure the participants are keeping the scope in mind. (Design work can be completed within (1-3) milestones, including solution validation).
 
 ℹ️ Watch out for inputs within clusters that aren't solving the same problem.
 
 ℹ️ If teams are struggling, propose using the job map template as a guide for the exercise.
+
+ℹ️ The team may find it helpful to add a name/title above the group that helps explain what that grouping represents.
 
 #### 3. Wrap-up the activity
 
@@ -207,7 +211,7 @@ A team will rarely complete this activity within 45 minutes. Once the time is up
 ❗️ If you reached the end of the additional 30 minutes and the team has not finished:
 - **DO NOT CONTINUE.** It is unlikely that they will finish all of the workshop exercises; this is okay. Your goal as the facilitator has now changed from completing the exercise to showing the team how to complete the remaining exercises independently.
   - Move on to Step 3.
-  - Take a theme bundle and go through step #3 to give the team a better understanding of the process they will continue on their own.
+  - Take a theme bundle from Step 2, copy it over to the Step 3 working area, and go through Step #3 to give the team a better understanding of the process they will continue on their own.
 
 ---
 
@@ -219,19 +223,19 @@ This can be an intense process, and participant engagement will fade as the sess
 
 🟢 Move on to the next activity or continue the prior activity if incomplete.
 
-### Refining clusters into Themes (45 minutes)
+### Step 3: Refining clusters into Themes (45 minutes)
 
 #### 1. Set the scene for the activity
 
 📖 Read the Step 3 instruction in FigJam out loud and ask if there are any questions.
 
-⏲️ **In FigJam Start the timer for 45 minutes** or however much time remains, ensuring to reserve at least 5 minutes at the end for a recap and next step directions.
+⏲️ **In FigJam Start the timer for 45 minutes** or however much time remains in the 2 hour workshop, ensuring to reserve at least 5 minutes at the end for a recap and next step guidance.
 
 #### 2. Observe and keep participants on track
 
 **Theme statement**: DO THIS LAST for every theme. You will need all the other info before constructing the theme statement.
 
-ℹ️ To help with theme statements, Ask, "If I know nothing about this product area, would I be able to tell what this theme is addressing at a glance?"
+ℹ️ To help with theme statements, Ask, "If I know nothing about this product area, would I be able to tell what this theme is addressing at a glance by reading this?"
 
 **Business objective**: ensure teams don't get caught up in this aspect. This can be filled in after the Theme issue is created; however, it is still an essential part of the process.
 
@@ -243,8 +247,8 @@ Have the team look over the themes once they are done.
 
 Ask:
 - Are these mutually exclusive?
-- Are these collectively exhaustive as they relate to the goals & vision?
-- Are these appropriately scooped?
+- Are these collectively exhaustive as they relate to the goals & vision (See Step 1)?
+- Are these appropriately scoped (i.e. can be completed in 1-3 milestones)?
 
 ### Conclude
 
@@ -258,5 +262,5 @@ Briefly summarize the activities in the workshop, and celebrate the team's progr
 
 ### Following up
 
-We advise following up with the team in the workshop issue a few days after the workshop has concluded. We want to ensure the activities and concepts are fresh so teams won't have to recall every instruction from the workshop; The more time passes, the harder it will be for a team to complete their themes.
+We advise following up with the team in the workshop issue a few days after the workshop has concluded reminding everyone of the next steps. We want to ensure the activities and concepts are fresh so teams won't have to recall every instruction from the workshop; The more time passes, the harder it will be for a team to complete their themes.
 

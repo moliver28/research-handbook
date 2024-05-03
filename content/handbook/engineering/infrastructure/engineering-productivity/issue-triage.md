@@ -124,6 +124,7 @@ If a issue seems to fall between two severity labels, assign it to the higher se
 - Example(s) of `~"severity::2"`
   - Cannot submit changes through the web IDE, but the command line works.
   - A status widget on the merge request page is not working, but information can be seen in the test pipeline page.
+  - A workaround is available but it requires the use of the [Rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html), making it unacceptably complex.
 - Example(s) of `~"severity::3"`
   - Can create merge requests only from the Merge Requests list view, not from an Issue page.
 - Example(s) of `~"severity::4"`

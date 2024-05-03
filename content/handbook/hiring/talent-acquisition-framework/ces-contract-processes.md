@@ -39,7 +39,7 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
 | GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
-| PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Ferber |
+| PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
 ### Send the contract through Greenhouse
 
@@ -299,8 +299,8 @@ A contractor requests a modification to their contract due to a name change/comp
 
 If for some reason a candidate declines an offer after they have been hired into the system, whoever receives that information needs to make sure `@ces` is tagged in the Greenhouse profile and is made aware that the candidate will no longer be starting at GitLab. Please note that the steps below are assuming that the person will not be working for GitLab; if you are hoping to just amend their offer after they've been marked as hired, please view the Resend process above.
 
-If they have been hired in Greenhouse and exported to BambooHR, Enablement will need to follow these steps:
-1. Unhire the candidate in Greenhouse if the req is still open. If the req is closed, Enablement will need to be brought in to unhire.
+If they have been hired in Greenhouse and exported to BambooHR and Workday, the team will need to follow these steps:
+1. Unhire the candidate in Greenhouse if the req is still open by clicking the "unhire" button on the candidate's offer. If the req is closed, ask Enablement to unhire.
 1. Ask the Recruiter to reject them in Greenhouse; add reasons in notes, you may add the email that was sent by the candidate. Click ‘reject and don’t send email’.
 1. Cancel any scheduled emails in Greenhouse.
 1. Tag the VP, People Operations in the `#people-group-confidential` Slack channel and ask to remove the profile from BambooHR and @ mention the People Connect team for visibility. Only a BambooHR owner (at GitLab this is the VP, People Operations) can remove the profile, this is why this step is so important. Note: This isn't a typo---BambooHR is still collecting profiles even though we have migrated to WorkDay.
@@ -308,6 +308,15 @@ If they have been hired in Greenhouse and exported to BambooHR, Enablement will 
 1. Message IT, People Connect, and the Sr. Background Check Specialist in the #peopleops-alerts-private channel to let them know to cancel any laptop orders, onboarding issues, background checks, and remove from Workday.
 1. If the Recruiter has not already tagged the FP&A approver in the Greenhouse notes, please tag them to let them know that the candidate has withdrawn.
 1. If the Recruiter has not done so already, add a candidate tag of `Rescinded Acceptance` to the candidate's profile.
+
+**Enablement steps:**
+1. Make a note on the Approvals tab and tag each job approver who approved the job last. Note the date approved and let them know that no action is needed, that you are not adding additional headcount, and that you will be reapproving on their behalf as they have already approved.
+1. Open a draft opening through the Approvals tab with "TEMP" in all empty mandatory fields.
+1. Approve on behalf of Total Rewards (job approval step 1).
+1. Mark the candidate unhired on their candidate profile.
+1. Remove the temporary opening on the approvals page. This will happen in two steps: first, you'll need to close the opening (using the same process you used to open it), save, and then go back in again to delete the record of the opening. There is a bug in Greenhouse that impacts pop-ups during this stage, so you may need to resize your browser if you're not seeing confirmation messages.
+1. Approve the final approvals on behalf of those who originally approved.
+1. Inform any involved parties of the unhiring status who will be taking next steps.
 
 ## Job Change Letter
 
@@ -394,9 +403,9 @@ It is common for Dutch employers to offer a second temporary contract when the f
 The process for New Hires is as follows:
 
 1. The offer is made by the recruiter per the [hiring process](/handbook/hiring).
-1. If the BSN and date of birth are not filled out and cannot be found in a reference check form, the Candidate Experience Specialist can use the emails the email template Contract Info Request - the Netherlands from GreenHouse and send to the candidate.
+1. If the date of birth is not filled out and cannot be found in a reference check form, the Candidate Experience Specialist can use the emails the email template Contract Info Request - the Netherlands from GreenHouse and send to the candidate.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
-1. The Candidate Experience Specialist will update the GreenHouse Offer Details with BSN and Date of Birth when the new team member provides the necessary details and then generates the "IT BV Employee Temporary - the Netherlands" contract out of GreenHouse.
+1. The Candidate Experience Specialist will update the GreenHouse Offer Details with the Date of Birth when the new team member provides the necessary details and then generates the "IT BV Employee Temporary - the Netherlands" contract out of GreenHouse.
 1. The Candidate Experience Specialist will stage the contract for signature via DocuSign, CC the hiring manager, and CC the HRSavvy group email. This will ensure our payroll provider in this location can start their onboarding, well ahead of ours.
 1. Please note that you should *not* be running a criminal background check for the Netherlands, because they'll be doing a different process (Certificate of Good Conduct/VoGS) instead. Please select the Netherlands background check package which only includes employment verification and an extended global sanctions search.
 
@@ -681,7 +690,7 @@ To initiate the process to submit the contract for e-signatures via DocuSign:
 
 1. CES will ensure that the start date is either a Monday, or the 1st or 16th of the month
 1. CES will send German Contract Step 1 template email via Greenhouse
-1. Offer can be sent through Greenhouse and DocuSign. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/  #entity-contract-signatories)
+1. Offer can be sent through Greenhouse and DocuSign. Please use the signatories listed against the German Entity as per this [table](https://handbook.gitlab.com/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
 1. Download a copy of the unsigned contract on your desktop (*additional steps below).
 1. Initiate the background check. Please use the Germany Package from the drop down in Sterling.
 

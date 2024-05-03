@@ -14,8 +14,10 @@ This handbook page is meant to cover who we are and why we exist at GitLab. On t
 
 ## People Analytics Handbook Contents
 
-- [People Analytics Data Guide]({{< ref "./data-guide.md" >}})
-- [People Analytics Tableau Dashboard Overview]({{< ref "people-tableau" >}})
+- [People Analytics Data Guide]({{< ref "./data-guide.md" >}}) - If you are an analyst trying to use People data sets, this guide will help you get started with our data models.
+- [People Data Governance]({{< ref "data-governance" >}}) - This is an overview of how we ensure quality of our People data.
+- [People Analytics Tableau Dashboard Overview]({{< ref "people-tableau" >}}) - This page covers how we use Tableau to share data and insights at GitLab. It includes some of our commonly used dashboards.
+- [People Analytics Survey Support]({{< ref "survey-support" >}}) - We help build employee surveys in Culture Amp. This page covers some of the details we need to help administer a survey and the additional support the People Analytics team can provide.
 
 ## What is People Analytics?
 

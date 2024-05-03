@@ -4,7 +4,7 @@ aliases: /handbook/solutions-architects/sa-practices/value-stream-assessments
 ---
 
 
-When working with GitLab, many prospects and customers have software delivery performance improvements as critical business outcomes. Unfortunately, due to the inherent and increasing complexity in the software delivery process, an organization's software delivery value streams often consist of dozens, if not hundreds, of manual configuration touch points and handoffs. Typically, there is a lack of visibility and understanding into the current process, making it challenging to identify and measure software delivery improvements. Without understanding the current software development value streams, organizations risk putting time, effort and money into areas that will not improve their software delivery capability in any meaningful way.
+When working with GitLab, many prospects and customers have software delivery performance improvements as critical business outcomes. Unfortunately, due to the inherent and increasing complexity in the software delivery process, an organization's software delivery value streams often consist of dozens, if not hundreds, of manual configuration touch points and handoffs. Typically, there is a lack of visibility and understanding into the current process, making it challenging to identify and measure software delivery improvements. Without understanding the current software development value streams, organizations risk putting time, effort, and money into areas that will not improve their software delivery capability in any meaningful way.
 
 GitLab account teams should offer to assist prospects and customers in helping to provide an overview and understanding of their value stream(s).
 

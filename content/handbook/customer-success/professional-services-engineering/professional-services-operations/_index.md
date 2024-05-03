@@ -66,7 +66,6 @@ For staffing requirements or questions, add the details to the Project Schedulin
 If a Team Member would like to have time blocked on their schedule to allow time for non-customer project related items, certifications, or ramp up,
 a request should be submitted via a comment and tag the PC on either Internal Projects:
 
-- PS Time Tracking Creditable
 - PS Time Tracking Non-Creditable
 
 Comment should be added to the activity page to include the following:
@@ -218,7 +217,7 @@ Accurate time tracking records of hours is essential to ensure revenue can be re
 - Billable hours represent work hours that a staff member reports as being aligned to a specific SOW. The format for daily time tracking for each team member is shown below, and is reviewed weekly by PS Operations and Manager
 - Hours for PTO, Holidays and Family and Friends day are no longer required to be submitted in the weekly time sheet
 - If a team member did not work the time allocated for the week, then hours would be added to the PTO feature in Kantata
-- Notes are required for the PS Time Tracking Creditable and PS Time Tracking Non Credit projects only, not on customer projects
+- Notes are required for the PS Time Tracking Non Credit projects only, not on customer projects
   
   - PTO should be submitted in the time off feature in Kantata, and also follow the company guidelines, [time off process](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
   - Holidays along with Family and Friends day are scheduled on the Kantata calendar
@@ -232,7 +231,6 @@ Accurate time tracking records of hours is essential to ensure revenue can be re
 
 Internal projects are set up to track internal time that is not customer project related. Below is the project name along with tasks and examples.
 
-- [PS Time Tracking Creditable](https://gitlab.mavenlink.com/workspaces/34595705/tracker/position?usingDefaultFilters=true&mode=info)
 - [PS Time Tracking Non- Creditable](https://gitlab.mavenlink.com/workspaces/34595955/?tab=project-workspace)
 
 ****Customer consulting projects****
@@ -259,14 +257,11 @@ Professional Services has a hard close at each month end.
 
 Our agreed schedule with finance is [Monthly/ Quarterly/ Year End Time Lines](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0)
 
-   - By Noon ET, Time Sheets will need to be submitted on -3 working day from the last business day of the month
-     - Time would include hours for that day along with an estimate of hours for the final 2 business days of the month
+   - By Noon ET, Time Sheets will need to be submitted on the agreed date with finance
+     - Time would include hours for that day along with an estimate of hours for the final days of the month 
      - If corrections need to be made for the final 3 days of the month, that would be included in the following weeks time sheet
-   - By 2PM ET, Time Sheets will need to be approved by the Project Managers and Coordinators on -3 working day from the last business day of the month
-   - By 6 PM ET, the Operations Manager will have gone through the review process and submit reporting to Finance on -3 working day from the last business day of the month
-
-Here is a link of an overview of the [December Process](https://www.loom.com/share/28eea56141164bca8865112f255d48fa?sharedAppSource=personal_library)
-
+   - By 1 PM ET, Time Sheets will need to be approved by the Project Managers and Coordinators 
+   - By 6 PM ET, the Operations Teams will have gone through the review process and submit reporting to Finance 
 
 Time sheets would be submitted by the team and then approved by the project lead on the cutoff date.  Then an additional project line would be added to finish out the remainder of the week, and follow the normal end of the week process.
 
@@ -350,13 +345,6 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
    - How is the customer feeling about the project? Happy, frustrated, engaged, disengaged
    - The project could be status of red for scope, schedule, etc. and the customer is still happy
 
-### Partner Staffing
-
-TO DO
-
-#### Partner SOW
-
-TO DO
 
 #### New Supplier Request Form
 - For new partners/vendors only

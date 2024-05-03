@@ -1,5 +1,5 @@
 ---
-title: CEO and CoST Team
+title: CEO and Office of the CEO
 Description: Migration report for moving the handbooks ceo section
 ---
 

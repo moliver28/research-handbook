@@ -172,16 +172,17 @@ graph LR
 
 We track our work on the following issue boards:
 
-- [Data Stores:Tenant Scale milestone prioritization](https://gitlab.com/groups/gitlab-org/-/boards/5548886)
-- [Data Stores:Tenant Scale cross-functional prioritization](https://gitlab.com/groups/gitlab-org/-/boards/4424394)
-- [Data Stores:Tenant Scale planning](https://gitlab.com/gitlab-org/gitlab/-/boards/3782673)
-- [Data Stores:Tenant Scale validation](https://gitlab.com/gitlab-org/gitlab/-/boards/4403984)
-- [Data Stores:Tenant Scale build](https://gitlab.com/groups/gitlab-org/-/boards/2594854)
-- [Data Stores:Tenant Scale bug](https://gitlab.com/gitlab-org/gitlab/-/boards/4620745)
-- [Data Stores:Tenant Scale release posts](https://gitlab.com/gitlab-org/gitlab/-/boards/4908764)
-- [Data Stores:Tenant Scale milestones](https://gitlab.com/groups/gitlab-org/-/boards/5549104)
-- [Data Stores:Tenant Scale team members](https://gitlab.com/groups/gitlab-org/-/boards/5549106)
-- [Data Stores:Tenant Scale important](https://gitlab.com/groups/gitlab-org/-/boards/1438588)
+- [Core Platform:Tenant Scale milestone prioritization](https://gitlab.com/groups/gitlab-org/-/boards/5548886?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale cross-functional prioritization](https://gitlab.com/groups/gitlab-org/-/boards/4424394?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale planning](https://gitlab.com/groups/gitlab-org/-/boards/7487616?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale validation](https://gitlab.com/groups/gitlab-org/-/boards/7487708?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale development workflow](https://gitlab.com/groups/gitlab-org/-/boards/2594854?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale bugs](https://gitlab.com/groups/gitlab-org/-/boards/7487700?label_name[]=group%3A%3Atenant%20scale&label_name[]=type%3A%3Abug)
+- [Core Platform:Tenant Scale release posts](https://gitlab.com/groups/gitlab-org/-/boards/7487687?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale milestones](https://gitlab.com/groups/gitlab-org/-/boards/5549104?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale team members](https://gitlab.com/groups/gitlab-org/-/boards/5549106?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale important](https://gitlab.com/groups/gitlab-org/-/boards/1438588?label_name[]=group%3A%3Atenant%20scale)
+- [Core Platform:Tenant Scale community contributions](https://gitlab.com/groups/gitlab-org/-/boards/7487739?label_name[]=group%3A%3Atenant%20scale&label_name[]=Community%20contribution)
 
 ### Capacity Planning
 

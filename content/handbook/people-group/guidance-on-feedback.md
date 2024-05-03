@@ -109,7 +109,7 @@ It's safer to give and receive feedback from those with whom you have already es
 
 ## Giving Feedback
 
-![Feedback Image](/images/Training/Feedback_Image.png)
+![Feedback Image](/images/handbook/Training/Feedback_Image.png)
 
 1. Have positive intent
    - If you have the intent to hurt someone and not to help them, reconsider giving the feedback.

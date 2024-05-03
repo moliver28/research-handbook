@@ -1,11 +1,9 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Using Artifacts"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through creating and storing job artifacts."
 ---
 
 > Estimate time to complete: 20 - 25 minutes
-
-> **We are transitioning to the latest version of this course.** If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab7.md).
 
 ## Objectives
 
@@ -87,7 +85,7 @@ In this lab, you will learn how to create an artifact with your `.gitlab-ci.yml`
 
 1. When the `build app` job finishes, click it to review the job's output log. 
 
-    > Note: If the job fails with a message about being unable to find `go.mod`, retry the job until it passes. This is an intermittent Go build bug.
+    > If the job fails with a message about being unable to find `go.mod`, retry the job until it passes. This is an intermittent Go build bug.
 
 1. In the **Job artifacts** panel on the right of the page, click **Browse** and notice that the `app` artifact created by the **build app** pipeline job is available for download. 
 

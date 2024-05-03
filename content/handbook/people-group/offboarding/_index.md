@@ -42,21 +42,13 @@ For any other offboarding questions, please reach out to People Connect via `peo
 ### Termination
 
 1. **Manager:** Once the resignation has been approved you will receive a prompt in your Workday Inbox to terminate the team member in the system by following the steps documented in the following [job aid](https://docs.google.com/document/d/1Fr1G1i1kssfADgDf3D6LbZHR8RZmWKZYDNV8AfduZ1c/edit) alternatively you can do so from within the team members Workday Profile by selecting `Actions` followed by `Job Change` and finally `Terminate Employee`.
+   - **Note**: Submitting the termination in Workday does not immediately terminate access. The offboarding issue, which is opened on the team members termination date, initiates the deprovisioning process for terminated team members.
    - **Note**: If the team member is currently on a leave of absence, please reach out to `leaves@gitlab.com` so they can close out the LOA process.
 1. **Manager:** You will be prompted to indicate whether the termination is regrettable or non-regrettable and whether the team member would be eligible for re-hire in future or not i.e. with review unless specifically relating to [conduct](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) or [job abandonment]({{< ref "people-policies#job-abandonment" >}}) in which case they would not be eligible:
     - Regrettable: The team members departure has a significant negative impact on the company, its customers, its projects or the team - the team member was a good and consistent performer both in terms of results and behaviours specifically upholding the GitLab values.
     - Non-Regrettable i.e. The team members departure has a minimal impact on the company, its customers, its projects or the team - the team member has not been meeting expectations due to conduct, culture or values misalignment or performance concerns.
 1. **People Business Partner:** You will receive a prompt in your Workday Inbox to review the termination particlars submitted by the Manager if you are satisfied with the details enclosed and aligned with the Manager on the final date of employment click `Approve`.  In the instance that you feel further discussion is required a sync with the Manager and/or Team Member should be arranged and the particulars can be sent back for further review.
 1. **People Connect:** Once the transaction has been fully approved the team will receive a notification of the termination within the Workday Inbox.
-
-#### Statutory Holiday Allowance
-
-1. **Payroll:** If the team member is located in a country with statutory holiday allowance their balances at the time of resignation should be shared and confirmed with both the manager and team member via email - this email should be uploaded to the departing team members Workday Profile within the [documents tab](https://docs.google.com/document/d/1ao_d_JxvqvZdqxlt4mBoHe1GcAhYT7B6YQoBgDxPdRE/edit).
-1. **Payroll:** Once this action has been completed an Acknowledgement Letter can be prepared the format for which will depend on the **location** and **employment status** of the team member e.g. [GitLab Ltd (UK) Resignation Acknowledgement](https://docs.google.com/document/d/1zV1qnZmjQaNZ3QUjrLOtod-FbboNCPmYdqCLIAc7aos/edit) and [GitLab BV (Netherlands) Resignation Acknowledgement](https://docs.google.com/document/d/1-9hCL2Xs5po4lZ19L2vrcmGxQIYRD-Emyci3F63kt0c/edit).
-1. **Payroll:** The Acknowledgement Letter should be released for signature via DocuSignand once complete should also be uploaded to the respective team members Workday Profile.
-
-**Note:** GitLab UK team members, payroll can pay up to and including the 5th day of the following month. For example, if a team member's last day is February 2nd, the team member can receive their final pay for this in January's payroll.
-
 
 ### Offboarding
 

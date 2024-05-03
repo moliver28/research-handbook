@@ -44,17 +44,17 @@ Note: You can also watch a recorded screencast:
 1. Go to the Google Sheet "Developer Relations Swag Coupon Codes & Delivery Tracking".
 1. Go to the tab "One-time Coupon codes"
 1. Add the `Email recipient` to a code of the corresponding price Tier.
-  *  See [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contacting-contributors) how to obtain this information.
+   *  See [Finding Community Member Contact information](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#contacting-contributors) how to obtain this information.
 1. Select a `Prize` level.
-  * First MR Merged
-  * Grand Prize (Event result link required)
-  * Second Prize (Event result link required)
-  * Participation Prize (Event result link required)
-  * MVP
-  * Notable Contributor
-  * Undefined
+   * First MR Merged
+   * Grand Prize (Event result link required)
+   * Second Prize (Event result link required)
+   * Participation Prize (Event result link required)
+   * MVP
+   * Notable Contributor
+   * Undefined
 1. Select `GitLab` at the top of the menu bar
-  - Note you will need to grant authorization in your Gmail account and may receive a warning to proceed
+   * Note you will need to grant authorization in your Gmail account and may receive a warning to proceed
 1. Click `Send Email`
 1. Enter the row you would want the system to process and verify & confirm the email to be sent out.
 1. Verify the coupon code matches the correct prize Tier (e.g. T3XXXX -> Tier 3, etc)

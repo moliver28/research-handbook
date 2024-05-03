@@ -18,6 +18,11 @@ As a Solutions Architect, it is important to be continuously learning more about
 
 Proof of Value (POV), formerly known as Proof of Concept, is conducted during the Technical Evaluation stage with Solutions Architects by  prospects or existing customers to assess the required capabilities based on a set of criteria and value drivers. A POV is a collaboration between GitLab and the prospective or existing customer for evaluating GitLab. Information on the POV guidelines, POV types and process can be found on the [Proof of Value (POV) Guidelines](/handbook/solutions-architects/tools-and-resources/pov/) page.
 
+### Asking help from Support Engineering
+
+In case Support required during the pre-sales cycle (for example in case of a POV excercise or in case of potential new deal with an existing customer) Solution Achitects should use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to open an internal request with Support. In any other cases with existing customers, SAs are advised to ask the customers to open a support ticket themselves.
+
+
 ### SaaS Trials for Existing Customers
 
 Paid customers must set up a new namespace on SaaS when trialing Ultimate.  There are two primary reasons for this:

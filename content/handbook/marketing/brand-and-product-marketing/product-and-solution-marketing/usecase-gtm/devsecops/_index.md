@@ -206,10 +206,10 @@ In addition, enjoy these benefits of Ultimate:
 
 We partner with key industry vendors to extend GitLab's ability to address customer needs and fulfil the market requirements.
 
-One of the first partners to [integrate their scan results](https://docs.gitlab.com/ee/development/integrations/secure.html) into the GitLab Security Dashboard and the GitLab CI pipeline is [WhiteSource](https://www.whitesourcesoftware.com).
+One of the first partners to [integrate their scan results](https://docs.gitlab.com/ee/development/integrations/secure.html) into the GitLab Security Dashboard and the GitLab CI pipeline is [WhiteSource](https://www.mend.io/).
 
-- They extend scanning language support to [nearly 200 additional languages](https://www.whitesourcesoftware.com/whitesource-languages/) and provide deeper dependency insight.
-- Learn more about [how to use WhiteSource within GitLab](https://www.whitesourcesoftware.com/gitlab/) and [more](https://about.gitlab.com/blog/2020/01/14/whitesource-gitlab-security-integration/);
+- They extend scanning language support to [nearly 200 additional languages](https://www.mend.io/blog/is-one-programming-language-more-secure/) and provide deeper dependency insight.
+- Learn more about [how to use WhiteSource within GitLab](https://www.mend.io/gitlab/) and [more](https://about.gitlab.com/blog/2020/01/14/whitesource-gitlab-security-integration/);
 - Watch [![Dependency Scanning with GitLab and WhiteSource](../../images/youtube_social_icon_red-32x23.png) Dependency Scanning with GitLab and WhiteSource](https://www.youtube.com/watch?v=yJpE_ACt9og) to get started.
 
 A more complete list of technology partners can be found on our [security partners page](https://about.gitlab.com/partners/technology-partners/#security).

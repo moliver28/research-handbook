@@ -91,16 +91,16 @@ There are a number of different slack channels to serve the different needs of t
 
 | Slack Channel | Description | Topic | Audience | Posting Permissions |
 | ------ | ------ | ------ | ------ | ------ |
-| partner-fyi | Updates to the Channel & Sales teams on Channel program, operations, enablement and marketing. Questions from team members should be posted on the #partner-programs-ops or #channel-sales | *blank* | any | Channel Operations, Channel Programs, Nima Badiey
+| ~~~partner-fyi~~~ | Updates to the Channel & Sales teams on Channel program, operations, enablement and marketing. Questions from team members should be posted on the #partner-programs-ops or #channel-sales | *blank* | any | Channel Operations, Channel Programs, Nima Badiey
 | partner-program-ops | Questions and comments about channel programs and operations | https://about.gitlab.com/handbook/resellers/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
 | channel-sales |  Questions and comments about opportunities, partner connections, field engagement, and other channel sales questions |  | any | any |
 | channels-emea | A channel for the EMEA channels team and stakeholders to collaborate |  | any | any |
 | channels-amer | A channel for the AMER channels team and stakeholders can collaborate |  | any | any |
 | pub-sec-channels | A channel for the Pubsec channels team and stakeholders to collaborate |  | any | any |
-| apac_partners | A channel for the APAC channels team and stakeholders can collaborate |  | any | any |
+| ~~~apac_partners~~~ | A channel for the APAC channels team and stakeholders can collaborate |  | any | any |
 | channel-services | Questions and comments about channel services program, enablement and field engagement |  | any | any |
-| alliances | A channel for collaboration with the alliances Team | https://about.gitlab.com/handbook/alliances/ | any | any |
-| alliance_sales_ops | Questions and comments about alliance operations | https://about.gitlab.com/handbook/alliances/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
+| #cloud-aws and #cloud-gcp| A channel for collaboration with the alliances Team | https://about.gitlab.com/handbook/alliances/ | any | any |
+| ~~~alliance_sales_ops~~~ | Questions and comments about alliance operations | https://about.gitlab.com/handbook/alliances/ and https://about.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
 
 
 
@@ -195,7 +195,7 @@ GitLab is building out a global Authorized Distributor network similar to many o
 - Open Partners located in regions/countries with active Authorized GitLab Distributors must purchase GitLab via those distributors
 - Select Partners may choose to transact directly with GitLab (excluding certain regions) or via the region's authorized distributor(s)
 - In NORTH AMERICA, Partners transact with [Climb Solutions](https://www.climbcs.com/) via `sales@climbcs.com` and `sales@climbcs.ca` in the US and Canada, respectively
-- In EMEA: Partners transact with Amazic via `gitlab@amazic.com`
+- In EMEA: Partners transact with [Amazic](https://distribution.amazic.com/) via `gitlab@amazic.com`
   - In META (Middle East, Turkey, and Africa): Partners may also choose to transact with [Mindware](https://www.mindware.net/contact-us) via `sales@mindware.net`
 - In APAC (several countries):  Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html) via `GitLab.APJ@techdata.com`
   - In India: Partners may also choose to transact with Redington via `gitlab@redington.co.in`
@@ -268,7 +268,7 @@ Partners and GitLab Sellers frequently ask questions on how to collaborate with 
 - **PTM/PAM Notes**: PTMs and PAMs enter partner opportuity notes and next steps here
 - **Alliance Partner Opp ID**: PTMs and PAMs enter the cloud partner(AWS or GCP) co-sell registration ID here
 - **Platform Partner**:  Customer's platform that GitLab is being deployed
-- **Hyperscaler Engaged**: The customer's cloud service provider
+- **Hyperscaler Engaged**: PTMs and PAMs can select the cloud partner (AWS or GCP) engaged on early stage marketplace deals to identify the opportuity for forecasting in Clari. Refer to [Clari Cheat Sheet](https://docs.google.com/presentation/d/1MzRR0Y5y4J9OCyAxoPzvxsY8cnzeQlPJp0C5_r4oaZ4/edit#slide=id.g133719dda83_2_102) for more details
 
     ![Partner_Contribution](image-11.png)
 
@@ -979,14 +979,14 @@ The following partner forecast dashboards have been published for FY25. Please u
 
 All forecasting for the partner organization is done in Clari. Please use the following enablement guides to learn how to naivgate the tool and understand the forecasting process.
 - [Clari Partner Handbook](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#partner-forecasting)
-- [Clari Cheat Sheet and Enablement Deck](https://docs.google.com/presentation/d/1uEJR85CGuwUSSoKtLx4X-CSz6u3hKxZtL3QznemoUOE/edit#slide=id.g28468b8eaf0_0_36)
-- [Clari Demo](https://youtu.be/tmLr-ssdgHQ) - open link -> click your profile icon in upper right hand corner -> click Switch Account -> select GitLab Unfiltered
+- [Clari Cheat Sheet and Enablement Deck](https://docs.google.com/presentation/d/1MzRR0Y5y4J9OCyAxoPzvxsY8cnzeQlPJp0C5_r4oaZ4/edit#slide=id.g28468b8eaf0_0_36)
+- [Clari Demo](https://gitlab.zoom.us/rec/play/7ZHwgYej0z7TGLDn_-Gi8NpUz0Adx0c8Z2mu0mVnyFF7pyKIvIpYvwrAP_Zx95AXQBen2SPcEPR4gZIM.MjCFFXOxTc8aPfO8) 
 
 
 ## Alliances and OEMs
 
 Please visit the [Alliances Handbook](/handbook/alliances/) for an overview of the GitLab Alliance Team. If you are a GitLab employee, the [Private Alliance Handbook](https://internal.gitlab.com/handbook/alliances/) is another available resource. The [Alliances Salesforce Dashboard](https://gitlab.my.salesforce.com/01Z4M000000oYAp) is also available.
-For any questions regarding our Alliance partners, please reach out to the #alliances Slack channel. If your inquiry is deal-specific, please use one of these Slack channels: **#a_gcp_deal_registration, #a_aws_deal_registration, #a_ibm_deal_registration**.
+For any questions regarding our Alliance partners, please reach out to the #cloud-aws or #cloud-gcp Slack channel. If your inquiry is deal-specific, please use one of these Slack channels: **#a_gcp_deal_registration, #a_aws_deal_registration, #a_ibm_deal_registration**.
 
 ### Opportunity Tagging for Marketplace Deals
 
@@ -1059,4 +1059,4 @@ The executed compensation letter should be the approved and legal source of trut
 
 [Sales Commissions Internal Handbook](https://internal.gitlab.com/handbook/sales/sales-commission/?redirected-from=internal-handbook.gitlab.io)
 
-[FY24 Partner Comp Exception Process](https://docs.google.com/document/d/1sUVZDDua5JB1omVUbqBkxA1NAhSed66sjzfIBaVIkGg/edit?usp=sharing)
+[FY25 Partner Comp Exception Process](https://internal.gitlab.com/handbook/sales/sales-commission/#request-for-splits-additional-credits-new-logo-exception-lam-dev-count-override-or-churn-exception)

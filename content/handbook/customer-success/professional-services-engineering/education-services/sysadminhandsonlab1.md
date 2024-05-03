@@ -1,11 +1,11 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Install GitLab"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "This Hands-On Guide walks you through installing GitLab on a virtual machine."
 ---
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson2.md).
+## Objectives
 
 In this lab, you will install GitLab and its necessary dependencies on a virtual machine using the command line.
 Before you get started, complete the following:

@@ -53,6 +53,7 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
+| 2024 April | 99.95% | |
 | 2024 March | 100% | |
 | 2024 February | 99.86% | |
 | 2024 January | 100% | |
@@ -161,7 +162,7 @@ Need access to add a dashboard? Ask any team lead within the [infrastructure tea
 We have a set of monitoring dashboards designed for [each stage group](/handbook/product/categories/#devops-stages). These dashboards are designed to give an insight, to everyone working in a feature category, into how their code operates at GitLab.com scale. They are grouped per stage group to show the impact of feature/code changes, deployments, and feature-flag toggles.
 
 1. [List of dashboards for each stage group (GitLab team members only)](https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups).
-1. [Guide to getting started with dashboards for stage groups](https://docs.gitlab.com/ee/development/stage_group_dashboards.html)
+1. [Guide to getting started with dashboards for stage groups](https://docs.gitlab.com/ee/development/stage_group_observability/dashboards/)
 1. [YouTube video introducing the stage group dashboards](https://youtu.be/xB3gHlKCZpQ)
 
 The dashboards for stage groups are at a very early stage. All contributions are welcome. If you have any questions or suggestions, please submit an issue in the [Scalability Team issues tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/new).

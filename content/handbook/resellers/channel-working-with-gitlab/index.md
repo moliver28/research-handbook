@@ -255,7 +255,9 @@ Partners purchasing GitLab for their own internal production use and add-on lice
 - Services Attach Rebate – Partners can receive an incentive paid as a rebate for Partner-delivered services provided to end customers related to their use of their Premium and Ultimate GitLab software licenses. Applicable services are reviewed in the [Channel Services Catalog](/handbook/resellers/services/services-catalog/). The Services Attach incentive is based on a percentage of a customer's net annual recurring revenue (net ARR) of a linked software sale made within the last six (6) months. To reward Partners that have made an investment in developing GitLab expertise, this incentive is only available to GitLab Professional Services Partners.
 - Referral Fees – Referral fees are paid to Partners for identifying new GitLab software sales opportunities that are not being resold by a Partner. To qualify for a referral fee, Partners must enter a referral fee deal registration in the GitLab Partner Portal. Each registration received by GitLab is considered a "Qualified Referral," provided that the referral is a GitLab sales opportunity that is new to GitLab, and the customer/prospect is willing to enter into a binding written agreement with GitLab to use GitLab products and services.
     - Opportunities identified by a Channel Partner but transacted through a Cloud Marketplace qualify for the referral fee.
+    - All referral deal registrations must be in Vartopia prior to quarter end to qualify for a rebate.
     - All referral deal registrations must be approved by GitLab before becoming eligible for a referral fee. Referral fees are paid out no later than 45 days after the end of each quarter, if you have connected with GitLab in Coupa and provided your banking information.
+    - To ensure fairness and maintain a streamlined process for all parties involved, we have established a specific timeframe for disputing rebates. Partners are entitled to submit disputes regarding their rebate payouts within a 15-day window. This dispute period begins immediately following the conclusion of the 45-day payout window. It is crucial for partners to adhere to this timeframe, as disputes submitted outside of the 15-day window will not be eligible for consideration. We encourage all partners to review their rebate details promptly and reach out to us within the designated period should any discrepancies arise.
 - Services Resale – Partners can earn discounts on Partner-sold services delivered by the GitLab Professional Services team. Partners are able to resell complete GitLab services offerings or include GitLab services as part of their own customer statement of work.
 - Subscription Renewals – At the end of their GitLab license subscription, customers must be renewed to continue with the program subscription. At renewal, Partners can earn a renewal discount for licenses renewed at the same subscription level, although no discounts are available for Starter/Bronze product tier renewals. If a customer adds additional licenses, those new licenses are discounted at the standard Partner-sourced discount levels. If a customer upgrades their subscription level (e.g., Premium to Ultimate), the entire deal qualifies for the standard Partner-sourced discount.
 
@@ -418,7 +420,8 @@ Authorized GitLab Partner fills out the NFR License Request Form which can be fo
 
 
 1. Partner Operations review the request and work with the Partner if additional information is needed.
-2. Once activated the requestor will receive a license key via email.
+2. Partner Operations submits a in Internal Support ticket for the NFR license to be provisioned. 
+2. Once provisioned the requestor will receive a license key via email for Self-Managed, or via their customer portal for SaaS. 
 
 
 ##### NFR Renewals
@@ -441,7 +444,7 @@ Request your license by logging in to the [Partner Portal](https://www.partners.
 
 Please allow two (2) business days for processing your request.
 
-*Partner Operations manage all NFR requests that fall within the NFR program rules. Any requests outside the program need to be requested, managed, and tracked through the account manager.
+*Partner Operations manage all NFR requests that fall within the NFR program rules. Any requests outside the program need to be requested, managed, and tracked through the account manager. Account managers should obtain approvals from their manager and from the Partner Programs team. Once received, they can email partnersupport@gitlab.com to request that the NFR exception be provisioned.
 
 
 ##### NFR Program Eligibility
@@ -474,6 +477,10 @@ To be eligible for the NFR Program, Partners must:
 
 [Support](https://about.gitlab.com/support) will be provided by the GitLab Support team. GitLab Solution Architects may also be available to help Partners build out training, testing, and lab environments.
 
+##### Add-ons to NFR Subscriptions
+
+- If you would like to purchase any add-on to your NFR license (CI minutes, Storage, Duo Pro, etc), please reach out to your Partner Account Manager for assistance in placing the order. If partners attempt to purchase NFR add-ons through their customer portal, their subscription will be downgraded to free. If you have been downgraded to free already, please contact [GitLab Support](https://about.gitlab.com/support/) for assistance.
+- Duo Pro is not yet available on NFR subscriptions; however we can provide a 30-day Duo-Pro trial. Please work with your Partner Account Manager and Solutions Architect to get this setup.
 
 #### Technical Support
 

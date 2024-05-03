@@ -24,20 +24,6 @@ The Enterprise Data Platform captures, processes, and stores [data collected fro
 
 ## Standard
 
-### Sisense
-
-We deploy a Role-Based Data Access Scheme in Sisense:
-
-- User Access is managed with Okta
-- Data Access is managed with Roles
-- Each user is assigned a Sisense Role and this enables Data Access to dashboards and reports
-- The Sisense scheme interacts with the Snowflake Data Access schema to ensure a user does not have a "back door" into data from either system
-
-Additional controls include:
-
-- Unused Dashboards Are Archived
-- System Access is managed with an API Key
-
 ### Snowflake
 
 We deploy a Role-Based Data Access Scheme in Snowflake:
@@ -116,16 +102,6 @@ Here is a sample checklist of activities:
           OR
           - The Airflow account is the only user and no downstream models depend on it.
      - A review of tables flagged for removal will be done by the analytics community before being dropped. This will allow for any tables wrongly flagged to be kept.
-
-#### Sisense
-
-- Deactivate off-boarded employees from Sisense.
-     - All Sisense accounts from GitLab team members that are off-boarded, should be deactivated from the day they are off-boarded. This activity checks for any active accounts for off-boarded GitLab team members. Subsequently any active account will be deactivated. To compare off-boarded employees with the actual users, 2 sources needs to be combined. This is done to extract the list of users from Sisense and load this via sheetload into Snowflake. The queries and details for this process are in the [template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Platform%3A%20Quarterly%20Data%20Health%20and%20Security%20Audit.md).
-- Deactivate any account, that has not logged-in within the past 90 days from the moment of performing an audit, from Sisense.
-     - Any Sisense account that hasn't logged-in for more than 90 days will be deactivated. If a GitLab team member wants to have access provisioned back again, a regular AR needs to be created. After manager approval the account will be activated.
-- Deprovision `SAFE Dashboard` Space access after 90 days not logged-in within the past 90 days from the moment of performing an audit.
-     - Any GitLab Team Member with access to the `SAFE Dashboard` Space that hasn't logged-in for more than 90 days will be deprovisioned from the `SAFE Dashboard` Space. If a GitLab team member wants to have access provisioned back again, a new AR needs to be created and all approvals need to be obtained again.
-- Check and set all refresh schedules for `Skip if unused`. This setting is contributional to make efficient use of our resources. All dashboards in all spaces should have this option set to true.
 
 #### Trusted Data
 

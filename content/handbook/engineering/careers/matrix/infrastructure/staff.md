@@ -39,7 +39,7 @@ Staff-level engineers in infrastructure significantly drive the department's res
 ## Team building
 
 1. Creates and maintains team culture by exhibiting the [CREDIT](/handbook/values/#credit) values in their behavior and helping other teams to do the same. Proposes improvements to our values and company culture where possible.
-1. Proactively builds relationships and partners with EMs providing in-depth technical opinion where [necessary](/handbook/values/#disagree-commit-and-disagree).
+1. Proactively builds relationships and partners with EMs providing in-depth technical opinion where [necessary](/handbook/values/#disagree-and-commit).
 1. Works closely with the team's EM and PM (where available) to bring a technical lens to team and product discussions. Helps to bridge the gap between technical and less-technical people for a shared understanding of the team's work and goals.
 1. Helps others to grow through championing, mentoring, and providing timely feedback directly, and into promotion processes.
 1. Builds and maintains relationships with teams across the department and beyond to identify potential future opportunities and to keep current work unblocked.

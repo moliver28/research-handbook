@@ -52,7 +52,7 @@ Embracing inclusion may increase the **sense of belonging**. Team members become
 
 We believe in empowering team members to get their work done efficiently and collaboratively by establishing clear [DRIs]({{< ref "directly-responsible-individuals" >}}) for all our work. [DRIs do not owe anyone an explanation for their decisions]({{< ref "directly-responsible-individuals#empowering-dris-no-explanation-needed" >}}), but DRIs can still acknowledge input by closing an issue and marking it `Won't Do` or commenting on an issue acknowledging that they have read all the comments.
 
-All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree]({{< ref "values#disagree-commit-and-disagree" >}})- but everyone can contribute and it is on the DRI to acknowledge those.
+All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree]({{< ref "values#disagree-and-commit" >}})- but everyone can contribute and it is on the DRI to acknowledge those.
 Some other ways we actively cultivate a sense of Belonging at GitLab include creating and cultivating allies, welcoming family members in the background of a call, and sharing [negative feedback in 1-1 settings]({{< ref "values#negative-feedback-is-1-1" >}}).
 
 **A good way to look at Diversity, Inclusion & Belonging is:**
@@ -362,8 +362,6 @@ GitLab team members are distributed across the globe, giving us access to an arr
 We encourage collaboration with global organizations and programs that support underrepresented individuals in the tech industry.
 GitLab also provides additional support through the [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/).
 We offer funds to help support the event financially, and if the event is in a city we have a GitLab team member, we get hands-on by offering to coach and/or give a talk whenever possible.
-
-Community members from all backgrounds are encouraged to join our [First Look](https://about.gitlab.com/community/gitlab-first-look/) UX research participant panel. Feedback from our community is what makes GitLab lovable and anyone is [able to sign up](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) to our research program for invites to usability tests, user interviews, surveys, and more.
 
 We encourage organizers of events that are supported through our [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/) to share [this sign up link](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) with attendees. Everyone can contribute.
 

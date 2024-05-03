@@ -345,8 +345,8 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 {{% panel header="**Coding**" header-bg="green" %}}
 - **Expense Type / Navan Policy Category:** Other
-- **GL Code NON-COGS:** 6076 - Co Working Space
-- **GL Code COGS:** 5076 - Co Working Space COGS
+- **GL Code NON-COGS:** 6076 - Coworking Space
+- **GL Code COGS:** 5076 - Coworking Space COGS
 {{% /panel %}}
 
 #### Conferences
@@ -400,7 +400,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Baby gifts are not reimbursable, as the GitLab People team already sends team members a congratulatory gift.
 - The cost of the gifts and flowers provided to GitLab Team Members will be allocated to the senders departmental budget. The allowable cost for gifts is up to $125 USD (including shipping) per gift.
 - If you would like to buy holiday gifts for your team, these need to be done personally and should not be expensed.
-- People Managers are to use their own personal card for expense reimbursement. People Managers will need to be sure to use Team MemberGiftsFlowers and the account 6028 in Navan Expense for the expense.
+- People Managers are to use their own personal card for expense reimbursement. People Managers will need to be sure to use Team `EmployeeGiftsFlowers` and the account 6028 in Navan Expense for the expense.
 - For further questions regarding expensing of gifts and flowers, please reach out to the AP team via the #expense-reporting-inquiries Slack channel or through email (expenses@gitlab.com).
 
 {{% panel header="**Coding**" header-bg="green" %}}
@@ -520,7 +520,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 - No software subscriptions are reimbursable.
 - Team Members that would like to purchase software will need to go through the Procurement process.
-- Please follow the Guidance from the [Individual Use Software Handbook Page](/handbook/finance/procurement/personal-use-software/).
+- Please follow the Guidance from the [Individual Use Software Handbook Page](/handbook/finance/procurement/individual-use-software/).
 
 ### Swag
 
@@ -531,16 +531,16 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Building
 
 - To be used for team activities and food/beverages associated with special team events. Amount allowed is dependent on their department budget for the year.
-- In FY24, each EGroup member has been allocated a budget per quarter for FY24-Q2 to FY24-Q4 for team building events.
+- In FY25, each EGroup member has been allocated a budget per quarter for FY25-Q2 to FY25-Q4 for team building events.
 - Each EGroup member can use their discretion when using the budget.
 - The budget should be used within the quarter the funds are allocated and unused funds cannot be moved to a different quarter.
 - This budget should cover leadership offsites, Team Members get togethers, the holiday party and other virtual fun events.
-- In Navan, the Team Member must code any related expense to GL code "Team events & meals" and Classification (under optional details) "FY24 Team Building Budget".
+- In Navan, the Team Member must code any related expense to GL code "Team events & meals" and Classification (under optional details) "FY25 Team Building Budget".
 - The expense needs to be submitted in the same month as the event or if not possible due to the timing of the event, the latest acceptable submission will be before the end of the fiscal quarter that the event took place.
 
 {{% panel header="**Coding**" header-bg="green" %}}
 - **Expense Type / Navan Policy Category:** Team events & meals
-- **Classification:** FY24 Team Building Budget
+- **Classification:** FY25 Team Building Budget
 {{% /panel %}}
 
 ### Training/Tuition

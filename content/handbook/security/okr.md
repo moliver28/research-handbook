@@ -14,7 +14,7 @@ From FY24 Q1 forward all Security OKRs are documented in the [GitLab OKR project
 Larger initiatives that span the scope of multiple teams or projects may require a [Working Group](/handbook/company/working-groups).
 
 {{% alert title="Note" color="primary" %}}
-[Critical Projects](https://internal.gitlab.com/handbook/security/critical_projects) occur somewhat regularly and take priority over OKRs.
+[Critical Projects](https://handbook.gitlab.com/handbook/security/critical-projects/) occur somewhat regularly and take priority over OKRs.
 {{% /alert %}}
 
 #### Alignment to CEO OKRs
@@ -23,7 +23,7 @@ The security division exists to enable the business to iterate on its OKRs. This
 
 #### Within the context of OKRs, what is a priority?
 
-A prioritized OKR objective directly contributes to the elimination, mitigation, or transference of a [Top-5 risk](/handbook/security/security-assurance/security-risk/storm-program/#top-5-risks) and is generally aligned with our [multi-year strategy](https://internal.gitlab.com/handbook/security/information_security_goals_and_priorities/) (internal link).
+A prioritized OKR objective directly contributes to the elimination, mitigation, or transference of a [Top-5 risk](/handbook/security/security-assurance/security-risk/storm-program/#top-5-risks) and is generally aligned with our [multi-year strategy](https://internal.gitlab.com/handbook/security/information_security_goals_and_priorities/) (internal link). As such, each security sub-department may not issue their own OKRs in a given quarter. For example, [Security Assurance](https://handbook.gitlab.com/handbook/security/security-assurance/) output results in the creation of our Top 5 risks and the execution of compliance activities. As such, a focus on business as usual may be prioritized.
 
 #### Given an agreed-upon priority, how do functional areas align?
 

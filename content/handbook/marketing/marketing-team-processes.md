@@ -240,7 +240,7 @@ Figuring out how where and how to create a board, epic, label can be confusing. 
 
 **Please Note:** We are transitioning from the use of Campaign Tags to Allocadia IDs for campaign expense tracking purposes. As a result, we are still detailing out the process below by referencing both Allocadia IDs and Campaign Tags at this time, but eventually we'll be deprecating the use of Campaign Tags.
 
-Marketing Managers track costs associated with campaigns - such as events, content, webcasts, etc. Allocadia IDs/Campaign Tags can be applied to Expensify reports, Coupa PO's, corporate credit card charges, and vendor bills processed by Accounts Payable. Campaign expenses that are incurred by independent contractors should be clearly noted with the appropriate ID/tag and included in their invoices to the company. We then use these accumulated costs for budget to actual analysis as well as to update the Salesforce campaigns with actual costs.
+Marketing Managers track costs associated with campaigns - such as events, content, webcasts, etc. Allocadia IDs/Campaign Tags can be applied to Navan reports, Coupa PO's, corporate credit card charges, and vendor bills processed by Accounts Payable. Campaign expenses that are incurred by independent contractors should be clearly noted with the appropriate ID/tag and included in their invoices to the company. We then use these accumulated costs for budget to actual analysis as well as to update the Salesforce campaigns with actual costs.
 
 ### Allocadia IDs
 
@@ -268,7 +268,7 @@ Once you have created your Campaign Tag, follow [these instructions](/handbook/m
 
 1. Marketing Managers and Field Marketing Coordinators request the creation of an Allocadia ID or Campaign Tag in [this tracker](https://docs.google.com/spreadsheets/d/1wBqvCvmou4afnb0p8lBXVvFmsl-j0IehS7GdfJybGzg/edit?usp=sharing). They will add all requested details outlined in the tracker.
    * The GL accounting team will create the IDs/tags at the end of each day. 
-   * The ID/tag is created in NetSuite and syncs with Expensify and Coupa.
+   * The ID/tag is created in NetSuite and syncs with Navan and Coupa.
 1. The Allocadia ID/Campaign Tag must be noted in the Coupa requisition and in the main tactic issue (for Field Marketing, this information lives under the Event Details section in the main issue). Additional details on the Allocadia > Coupa integration can be found [here](/handbook/marketing/strategy-performance/allocadia/#coupa).
 1. Information on utilizing Allocadia IDs for SFDC campaign creation can be found [here](/handbook/marketing/strategy-performance/allocadia/#salesforcecom-sfdc).
    * For the MCM team, additional details can be found in the campaign epic. 
@@ -279,7 +279,7 @@ If your event or tactic gets postponed to a new date, you only need to request a
 
 ### Travel Costs
 
-Travel expenses (food, hotel stays, arline tickets, etc.) must also be tracked utilizing Allocadia IDs/Campaign Tags. You will include the Allocadia ID/Campaign Tag in the `classification` field in Expensify when you are completing your expense report. The instructions for how to request the Allocadia ID/Campaign Tag be created in NetSuite > Expensify can be found [here](/handbook/marketing/#how-to-create-and-manage-allocadia-idscampaign-tags). Additional information regarding travel can be found [here](/handbook/travel/).
+Travel expenses (food, hotel stays, arline tickets, etc.) must also be tracked utilizing Allocadia IDs/Campaign Tags. You will include the Allocadia ID/Campaign Tag in the `classification` field in Navan when you are completing your expense report. The instructions for how to request the Allocadia ID/Campaign Tag be created in NetSuite > Navan can be found [here](/handbook/marketing/#how-to-create-and-manage-allocadia-idscampaign-tags). Additional information regarding travel can be found [here](/handbook/travel/).
 
 # <i class="fas fa-forward fa-fw color-orange font-awesome"></i> Marketing Rapid Response Process
 

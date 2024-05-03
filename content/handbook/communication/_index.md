@@ -29,7 +29,9 @@ Embracing asynchronous communication and learning to use it effectively requires
 
 ### Everyone is a moderator
 
-If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format. If you are not comfortable reaching out to the individual directly, please reach out to your direct manager or People Business Partner to discuss.
+If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format.
+
+If there is an issue to raise regarding someone’s communication or conduct, team members should follow the process for [raising communication concerns](/handbook/people-group/team-member-relations/#raising-communication-concerns) by sharing their concern with their manager or, if preferred, email Team Member Relations (teammemberrelations@gitlab.com) directly.
 
 ### Asynchronous communication
 
@@ -181,7 +183,7 @@ Content guidelines across the industry support avoiding FAQs:
 
 1. https://www.plainlanguage.gov/guidelines/web/avoid-faqs/
 1. https://digital.gov/2015/04/27/are-faqs-still-relevant/
-1. https://content-guide.18f.gov/our-approach/structure-the-content/
+1. https://guides.18f.gov/content-guide/our-approach/structure-the-content/
 1. https://gds.blog.gov.uk/2013/07/25/faqs-why-we-dont-have-them/
 1. https://thegood.com/insights/faq-pages/
 1. https://alistapart.com/article/no-more-faqs-create-purposeful-information-for-a-more-effective-user-experi/
@@ -345,7 +347,7 @@ When possible, it's best practice to start a discussion with a [Merge Request (M
 1. If your comment or answer contains separate topics, write separate comments for each, so others can address topics independently using the [Reply to comment](https://docs.gitlab.com/ee/user/discussions/#start-a-discussion-by-replying-to-a-standard-comment) button.
 1. If you have received any feedback or questions on your MR, try to acknowledge comments as [that's how we ensure we create an environment of belonging for all team members](/handbook/company/culture/inclusion/#gitlabs-definition-of-diversity-inclusion--belonging). Merging your MR as-is without giving an answer or any response makes the commenters feel their opinions are unheard. If you are the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals/) (DRI) who does not have to make a fast decision, you can choose not to change your MR, but you should acknowledge the comments or feedback, consider if they warrant a change to your MR, and [say why, not just what](/handbook/values/#say-why-not-just-what).
    If there are many comments, you can choose to summarize key feedback areas and share your response at a high level. We appreciate that [if you force a DRI to explain too much, you'll create incentives to ship projects under the radar. The fear of falling into a perpetual loop of explaining can derail a DRI, and cause people to defer rather than working with a bias for action](/handbook/people-group/directly-responsible-individuals/#empowering-dris). This is something we want to avoid.
-   When fast decisions are needed, [we'll have to accept that people listened to us but don't owe us an explanation to have fast decisions based on everyone's input](/handbook/leadership/#making-decisions). The goals are to be transparent and collaborative--not to lose efficiency. Not everyone will agree, but we expect all people to [disagree, commit, and disagree](/handbook/values/#disagree-commit-and-disagree).
+   When fast decisions are needed, [we'll have to accept that people listened to us but don't owe us an explanation to have fast decisions based on everyone's input](/handbook/leadership/#making-decisions). The goals are to be transparent and collaborative--not to lose efficiency. Not everyone will agree, but we expect all people to [disagree, commit, and disagree](/handbook/values/#disagree-and-commit).
 1. For GitLab, the product merge request guidelines are in the [Contribution
    guide](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#merge-request-guidelines) and code review guidelines for reviewers and maintainers are described in our [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html).
 1. Even when something is not done, share it internally so people can comment early and prevent rework.
@@ -362,7 +364,7 @@ Some merge requests that involve a big decision or change tend to collect a larg
 ```text
 ### Manager Mention MR
 
-This MR is a Manager Mention MR. Contributors should tag their manager when adding a comment. If managers are tagged they should either respond to the question or summarize and tag their manager.
+This MR is a [Manager Mention MR](https://handbook.gitlab.com/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Contributors should tag their manager when adding a comment. If managers are tagged they should either respond to the question or summarize and tag their manager.
 ```
 
 Additionally, add the `~"Manager Mention MR"` label to the merge request. This will make future analytics on Manager Mention merge requests more easily identifiable. It also enables managers to subscribe to the label to be notified when an MR has elected the Manager Mention MR designation.
@@ -549,6 +551,7 @@ Consider the following best practice when taking notes in meetings:
 
 1. If at the start of the meeting, it does not look like all team members will contribute to note-taking, identify a set of note-takers who will be responsible for this activity within the meeting
 1. Note-taking can be a lot for a single person to stay on top of--especially when there is a fast moving conversation with many speakers. Team members should still feel empowered to contribute by helping with notes as needed, even if there is someone assigned.
+   - Another good reference is the CEO Shadow [handbook page tips section](https://handbook.gitlab.com/handbook/ceo/shadow/#taking-notes:~:text=in%20a%20meeting.-,Tips,-%3A), specifically `It’s helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
 1. Ask others to scribe answers in real-time to allow the person who asked the question to focus on the answer. Touch up the answer when the conversation has moved on to something less relevant.
 1. It can be hard to keep up with the dialog and capture quality notes when there's fast back and forth conversation. Lead by example and write when you're not talking, expect others will write when you're talking.
 1. Focus on noting speakers and their key points over capturing all words said. Extensive note-taking should not happen at the expense of correct note-taking.
@@ -1151,7 +1154,7 @@ There is a lot of information pertaining to Slack, as it is a critical part of G
 1. Everyone can contribute, and while opinions are important to provide perspective, we value [proposals](/handbook/values/#make-a-proposal) and [iteration](/handbook/values/#iteration). If the subject is of value to the wider community, consider commenting on an existing issue or opening a new [merge request](#start-with-a-merge-request) instead.
 1. Use the `:white_check_mark:` emoji or similar to indicate an inquiry has been answered. Anyone can add the emoji. If you're not sure, then feel free to leave it up to the person who asked. An emoji indicator is particularly helpful in channels where lots of questions are posted, such as `#questions`, and `#git-help`.
 1. In general, you can think of emoji reactions as equivalent to body-language responses we use in real-life conversations, such as nodding your head as encouragement when a verbal (or in Slack, written) response might be too much. However, please be aware that use and understanding of emoji, like body-language, is not universal. Others may not communicate via those means the same way that you do, particularly those who are Autistic or otherwise neurodivergent. If in doubt, you can use text to clarify.
-1. In public channels, [threads](https://get.slack.help/hc/en-us/articles/115000769927-Message-threads) are valuable for keeping conversations together. If you want to respond to a question or comment in a channel, please start a thread instead of responding below them in the channel. This helps to keep the discussion in one place where it is easy to follow, and reduces noise as each message in a thread does not result in an unread message for everyone in the channel.
+1. In both public and private channels, [threads](https://get.slack.help/hc/en-us/articles/115000769927-Message-threads) are valuable for keeping conversations together. If you want to respond to a question or comment in a channel, please start a thread instead of responding below them in the channel. This helps to keep the discussion in one place where it is easy to follow, and reduces noise as each message in a thread does not result in an unread message for everyone in the channel.
 1. Unless you're in an active chat, don't break up a topic into multiple messages as each one will result in a notification which can be disruptive. Use [threads](https://get.slack.help/hc/en-us/articles/115000769927-Message-threads) if you want to provide extra info to the question/comment you posted.
 1. If you are having a hard time keeping up with messages, you can update your preferences to have Slack email you all notifications. To change the setting, go to `Preferences > Notifications > When I'm not active on desktop...` and "send me email notifications."
 1. If you agree in a message to start a video call (typically by asking "Call?") the person that didn't leave the last comment starts the call. So either respond to the "Call?" request with a video link or say "Yes" and let the other person start it. Do not say "Yes" and start a call 5 seconds later since it is likely you'll both be creating a video call link at the same time.
@@ -1214,7 +1217,7 @@ Earlier in our history, 50% of all communication *was* in public channels.
 
 **Note:** Some of these charts require data from a sheetload file that needs to be manually updated. To self-serve data for a chart with missing data, please visit Slack's [workspace administration page](https://slack.com/intl/en-gb/help/articles/218407447-View-your-Slack-analytics-dashboard#pro-and-business+-1). It provides guidance on how to access Slack's analytics dashboard for a particular workspace. If this data is required in the charts below, you can ping the #data channel for a refresh. If this becomes a common request, we may choose for the manual step to become regularly scheduled.
 
-<iframe class="dashboard-embed" src="https://app.periscopedata.com/shared/770f45e7-ca4d-417f-a3db-9dfc4403e24d?embed=true" height="700"> </iframe>
+{{< tableau height="700px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/GitLabSlack/ofMessagesnotDMsRolling3Months" />}}
 
 ### Use public channels
 
@@ -1270,11 +1273,11 @@ For additional questions, please address in the [issue](https://gitlab.com/gitla
 
 To use the "Slack Down!" group chat on Zoom:
 
-1. In the Zoom desktop app go to the *Contacts* tab
+1. In the Zoom desktop app go to the `Team Chat` tab
 1. Click `+`
-1. Click "Join a Channel"
-1. Search "Slack down!"
-1. Click "Join"
+1. Click `Join a Channel`
+1. Search `Slack down!`
+1. Click `Join``
 
 Once service is restored, go back to Slack.
 
@@ -1488,7 +1491,7 @@ If you would like to improve your skills or expand your knowledge on topics rela
 **Skills and behavior of applying effective communication as a Team Member**:
 
 - Effectively practices communication via text.
-- Uses asynchronous communication when possible: merge requests (preferred) or issues.
+- Uses asynchronous communication when possible: [merge requests](/handbook/communication/#start-with-a-merge-request) (preferred) or [issues](/handbook/communication/#issues).
 - Directs all communication to the appropriate channels (Slack, GitLab, email).
 - Recognises when synchronous communication is the more appropriate option.
 - Directs all decisions and discussions to the Handbook as a single source of truth.

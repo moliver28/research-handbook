@@ -35,7 +35,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Distribution:Build
 
-{{< team-by-manager-slug manager="david-mountney" team="Build" >}}
+{{< team-by-manager-slug manager="sissiyao" team="Build" >}}
 
 ### Distribution:Deploy
 

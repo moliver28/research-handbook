@@ -261,8 +261,6 @@ When creating an [individual/bulk access request](https://gitlab.com/gitlab-com/
 
 ### Useful tools
 
-- [license decoder](https://gitlab.com/gitlab-com/support/toolbox/license-decoder)
-  -- Ruby script to decode `.gitlab-license` files.
 - [slic - Subscription and License Information Copier](https://gitlab.com/rverschoor/punk/-/tree/main/slic)
   -- browser userscript to copy and format CustomersDot information
   into internal notes.

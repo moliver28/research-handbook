@@ -379,7 +379,7 @@ We group related issues together using parent [epics](https://docs.gitlab.com/ee
 
 ### Issues
 
-When creating an issue, use the [linked template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Analytics Instrumentation Issue) and follow its instructions.
+When creating an issue, use the [linked template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Analytics%20Instrumentation%20Issue) and follow its instructions.
 
 In case the issue is not created for the [GitLab project](https://gitlab.com/gitlab-org/gitlab), copy the template's content into the appropriate project.
 
