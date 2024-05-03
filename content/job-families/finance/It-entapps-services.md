@@ -25,7 +25,7 @@ The Manager, Enterprise Applications Services is a [grade 8](/handbook/total-rew
 
 #### Requirements
 
-- Bachelor's degree in computer science, information technology or a related field or relevant work experience.- 
+- Bachelor's degree in computer science, information technology or a related field or relevant work experience.
 - 2 or more years leading an IT support related role (Analyst, engineering or servicedesk)
 - Excellent written and verbal communication.
 - Knowledge of key project management terminology and phases.
