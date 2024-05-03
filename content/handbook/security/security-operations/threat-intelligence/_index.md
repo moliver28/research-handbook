@@ -27,11 +27,11 @@ Together, we protect GitLab and our customers by staying one step ahead of the r
 
 ### Threat Intelligence Reports
 
-Reports are the foundation of our Threat Intelligence program and will always be actionable. We use GitLab.com to write the reports - this makes collaboration easy and allows us to directly link to recommendations and results.
+Reports form the foundation of our Threat Intelligence program and are always actionable. We use GitLab.com to write the reports, facilitating collaboration and allowing direct linking to recommendations and results.
 
-All reports, regardless of type, will always:
+All reports, regardless of type, consistently:
 
-- Include linked issues with clearly defined next-steps to address each topic covered
+- Include linked issues with clearly defined next steps to address each topic covered
 - Answer the following questions for each threat addressed:
   - How is this relevant to GitLab?
   - How well is GitLab prepared to deal with this threat today?
@@ -41,7 +41,7 @@ The specific reports types we offer are described below.
 
 #### Flash Reports
 
-Flash Reports are delivered on an ad-hoc basis, in response to a rapidly emerging threat. They focus on a single topic - generally a specific threat actor, campaign, or vulnerability.
+Flash Reports are delivered on an ad-hoc basis in response to rapidly emerging threats. They focus on a single topic, generally a specific threat actor, campaign, or vulnerability.
 
 These reports help GitLab make quick decisions to protect our customers and our organization.
 
@@ -56,7 +56,7 @@ Flash Reports use [this template](https://gitlab.com/gitlab-com/gl-security/secu
 
 #### Threat Briefings
 
-Threat Briefings offer regular, high-level updates on the evolving threat landscape. They highlight the most relevant trends, actors, and campaigns that could affect GitLab in coming weeks or months.
+Threat Briefings offer regular, high-level updates on the evolving threat landscape. They highlight the most relevant trends, actors, and campaigns that could affect GitLab in the coming weeks or months.
 
 These reports help team members stay informed, vigilant, and prepared.
 
@@ -71,15 +71,15 @@ Threat Briefings use [this template](https://gitlab.com/gitlab-com/gl-security/s
 
 ### Threat Actor Tracking
 
-This is an ongoing effort, where we closely monitor the threat actors that pose the greatest risk to GitLab. By continuously monitoring their activities, tactics, and techniques, we develop a better understanding of their motivations and capabilities.
+Threat Actor Tracking is an ongoing effort where we closely monitor the threat actors that pose the greatest risk to GitLab. By continuously monitoring their activities, tactics, and techniques, we develop a better understanding of their motivations and capabilities.
 
-This intelligence helps us anticipate their next move and proactively strengthen our defenses. It also helps us attribute early indicators to these groups, giving us a heads up they are actively targeting us.
+This intelligence helps us anticipate their next moves and proactively strengthen our defenses. It also helps us attribute early indicators to these groups, giving us a heads-up when they are actively targeting us.
 
 Threat Actor Tracking is done inside our Threat Intelligence Platform (TIP).
 
-### Requests For Information
+### Requests For Information (RFI)
 
-We're here to help you analyze threats and make intelligence-informed decisions. GitLab team members can [open an issue in our tracker using the RFI template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence/threat-intelligence-issue-tracker/-/issues/new).
+RFIs allow GitLab team members to request our help in analyzing threats and making intelligence-informed decisions. Team Members can [open an issue in our tracker using the RFI template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence/threat-intelligence-issue-tracker/-/issues/new).
 
 Some examples where an RFI can provide value:
 
