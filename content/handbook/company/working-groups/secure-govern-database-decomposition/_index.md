@@ -161,7 +161,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 | DRI - Ops Section                        |||
 | DRI - Infrastructure                     |||
 | DRI - Database                           |||
-| DRI - Analytics                          |||
+| DRI - Data                          |||
 | DRI - Threat Insights                    |||
 | Member                                   | Dylan Griffith                  | Principal Engineer, Create |
 | Member                                   |||
