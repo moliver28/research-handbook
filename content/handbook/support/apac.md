@@ -117,8 +117,7 @@ each financial quarter.
   <summary markdown="span">Historical & current data</summary>
 
   The following shows:
-   - the number for the Cliff of Definite Underperformance (CoDU) as observed for the 12 month period 
-   concluding prior to the listed quarter.
+   - the number for the Cliff of Definite Underperformance (CoDU) as observed for the 12 month period concluding prior to the listed quarter.
    - a link to the notification issue when the number was reviewed for that period.
 
 | **Quarter** | **Cliff Number** | **Notification Issue**  |
