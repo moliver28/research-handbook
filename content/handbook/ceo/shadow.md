@@ -6,7 +6,7 @@ description: "At GitLab, being a CEO Shadow is not a job title, but a temporary 
 ## Overview
 
 At GitLab, being a CEO Shadow is not a job title, but a temporary assignment to shadow the CEO.
-The shadows will be present at [all meetings of the CEO]({{< ref "ceo#ceo-meeting-cadence" >}}) during their rotation.
+The shadows will be present at [all meetings of the CEO](_index.md#ceo-meeting-cadence) during their rotation.
 GitLab is an [all-remote](/handbook/company/culture/all-remote/) company, but the CEO has in-person meetings with external organizations.
 Unless you're joining the program during one of our [remote rotations](#remote-shadow-rotations), you will stay in San Francisco during the entire [rotation](#rotation-rhythm) and travel with the CEO.
 
