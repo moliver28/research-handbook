@@ -1,10 +1,10 @@
 {
-  "name": "internal-handbook",
+  "name": "handbook",
   "private": true,
-  "description": "View the internal handbook at <https://internal-handbook.gitlab.io>",
+  "description": "View the handbook at <https://handbook.gitlab.com>",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/internal-handbook/internal-handbook.gitlab.io.git"
+    "url": "git+ssh://git@gitlab.com/content-sites/handbook.git"
   },
   "scripts": {
     "sync-data": "./scripts/sync-data.sh",
