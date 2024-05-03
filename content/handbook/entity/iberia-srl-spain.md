@@ -65,7 +65,24 @@ Overtime, if appropriate, _must be expressly and previously authorized in writin
 
 ## Payroll Details
 
-Payroll information will be added in duwe course - please hold tight!
+**Pay Dates:**
+[Pay date](https://internal.gitlab.com/handbook/finance/payroll/#pay-dates) is on the 28th of the month. If 28th falls on a weekend or public holiday payment will be done on the prior working day. For December salary payment payroll team will make an announcement.
+
+**Payslip Access:**
+All team members will be accessing payslips though Papaya SSO available in team members OKTA. Access will be activated with the first payslip.
+
+
+For payslip access issue please contact payroll through [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/)
+
+
+**Time tracking**
+Each Team Member has an individual folder created [here](https://drive.google.com/open?id=1KE26t6n3dC0FXY9IxhsD-l2E1SaenmLj&usp=drive_fs). Access to folders is monitored and reviewed by the Payroll team. Please use a copy of the timesheet in English or Spanish and create records for each month separately. Please refer to [time tracking](https://gitlab.com/gitlab-com/content-sites/handbook/-/edit/main/content/handbook/entity/iberia-srl-spain.md#timekeeping) rules as per policy.
+
+For new hires – Payroll Team will create a folder for each new hire and validate access and visibility. Access will be shared during team member onboarding period and notification will be sent through HelpLab.
+
+**Payroll queries:**
+For any payroll query please follow the [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/) guide.
+
 
 ## Spain-Specific Team Member Benefits
 
