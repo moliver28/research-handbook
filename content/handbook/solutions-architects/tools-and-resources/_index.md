@@ -20,7 +20,7 @@ Proof of Value (POV), formerly known as Proof of Concept, is conducted during th
 
 ### Asking help from Support Engineering
 
-In case of Support required during the pre-sales cycle (for example in case of a POV excercise) or in case of potential new deal with an existing customer, Solution Achitects can use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to open an internal request with Support. In any other cases with existing customers, SAs are advised to ask the customers to open a support ticket themselves.
+In case Support required during the pre-sales cycle (for example in case of a POV excercise or in case of potential new deal with an existing customer) Solution Achitects should use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to open an internal request with Support. In any other cases with existing customers, SAs are advised to ask the customers to open a support ticket themselves.
 
 
 ### SaaS Trials for Existing Customers
