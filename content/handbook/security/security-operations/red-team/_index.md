@@ -39,7 +39,7 @@ You can read more about this process in [Purple Teaming at GitLab]({{< ref "purp
 
 Opportunistic attacks are conducted outside the context of a formalized operation. They can be done at any time, from any source IP address, and against any GitLab-managed asset without prior approval or notification.
 
-This type of work generally involves active attacks against real GitLab systems. It should always support our primary objective to improve the security of GitLab, with a goal to provide [properly labeled recommendations](#recommendations) or merge requests that solve security issues.
+This type of work generally involves active attacks against real GitLab systems. It should always support our primary objective to improve the security of GitLab, with a goal to provide [properly labeled recommendations](#adoption-rate) or merge requests that solve security issues.
 
 Opportunistic attacks are documented in issues that are visible to all team members. We do this work to test hypotheses, prove risks, and generally pursue improvements in a manner that is less structured than a formalized operation.
 
@@ -85,24 +85,34 @@ We will then share the following in `#whats-happening-at-gitlab` and cross-post 
 
 By doing this, we help foster a culture of security awareness throughout the organization and ensure that everyone can benefit from our work.
 
+### Red Team Maturity Model
+
+We use a custom maturity model to measure our progress and help guide our decisions. This is loosely based on the [Capabilities Maturity Model (CMM)](https://en.wikipedia.org/wiki/Capability_Maturity_Model). Our model contains five stages of maturity, each with very specific behaviors we strive to demonstrate and states we hope to achieve.
+
+We built this using a GitLab issue board, with each maturity level being a list and each item being an issue. We can collaborate inside the issues, discussing our progress and providing links to related issues and merge requests. As we work on specific items, we will add custom labels to indicate an item is in progress, established, or replaced by an item in a latter maturity level.
+
+GitLab team members can view the model [here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-maturity-model).
+
 ### Red Team Metrics
 
-#### Recommendations
+#### Adoption Rate
 
- We are currently tracking the recommendations we provide across the organization and breaking them into the following three categories:
+A successful Red Team program strengthens an organization's security through recommendations delivered during and after an exercise. We track the lifecycle of these recommendations through to implementation using GitLab.com, calling this metric our "Adoption Rate."
 
-- Detections & Alerts (using the label `RTRec::Detection`)
-- Security Controls (using the label `RTRec::Control`)
-- Processes and Procedures (using the label `RTRec::Process`)
+Recommendations start as GitLab.com issues in the project closest to the team that can address them. We classify recommendations using labels:
 
-This is done by opening individual issues for each recommendation generated during an operation or opportunistic attack and tagging those issues with specific labels. We can then look back and see the time and effort put into each category and how the recommendations were received and acted upon.
+- Detections & Alerts (`RTRec::Detection`)
+- Security Controls (`RTRec::Control`)
+- Processes and Procedures (`RTRec::Process`)
 
-The following issue boards provide a consolidated view of these recommendations. Most issues will be confidential and visible only to GitLab team members:
+We track what happens after a recommendation is delivered by adding a secondary label to the issue with its current status or final outcome:
 
-- [Red Team Recommendations: gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/5351140)
-- [Red Team Recommendations: gitlab-com](https://gitlab.com/groups/gitlab-com/-/boards/5350979)
+- Accepted and fully implemented (`RecOutcome::Implemented`)
+- Accepted and actively being worked on (`RecOutcome::In-Progress`)
+- Accepted but stalled or backlogged (`RecOutcome::Stalled`)
+- Rejected - will not be implemented (`RecOutcome::Rejected`)
 
-We will not measure our team's performance based on simply counting the number of recommendations over a specific time period. Instead, we will try to understand how the recommendations ultimately impact the organization and what we can do to become a more effective Red Team.
+An outcome label is added to the issue within one week of delivering the recommendation. A scheduled CI pipeline checks issues with classification labels to ensure they have an outcome.
 
 #### MITRE ATT&CK Mapping
 
@@ -124,13 +134,12 @@ That same ATT&CK Flow file is imported into our ATT&CK Navigator project, which 
 
 This is s great way to visualize the types of attack techniques we've emulated, and to help us understand areas we should focus on in future operations.
 
-#### Red Team Maturity Model
+### Recommendations Issue Boards
 
-We use a custom maturity model to measure our progress and help guide our decisions. This is loosely based on the [Capabilities Maturity Model (CMM)](https://en.wikipedia.org/wiki/Capability_Maturity_Model). Our model contains five stages of maturity, each with very specific behaviors we strive to demonstrate and states we hope to achieve.
+The following issue boards provide a consolidated view of open recommendations. Most issues will be confidential and visible only to GitLab team members:
 
-We built this using a GitLab issue board, with each maturity level being a list and each item being an issue. We can collaborate inside the issues, discussing our progress and providing links to related issues and merge requests. As we work on specific items, we will add custom labels to indicate an item is in progress, established, or replaced by an item in a latter maturity level.
-
-GitLab team members can view the model [here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-maturity-model).
+- [Red Team Recommendations: gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/5351140)
+- [Red Team Recommendations: gitlab-com](https://gitlab.com/groups/gitlab-com/-/boards/5350979)
 
 ### "Assumed Breach" First
 
