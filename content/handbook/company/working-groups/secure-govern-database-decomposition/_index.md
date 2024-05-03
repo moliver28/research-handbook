@@ -20,11 +20,11 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 | End Date        |  |
 | Slack           | [#wg_secure-govern-database-decomposition](https://gitlab.slack.com/archives/C01NB475VDF) (only accessible from within the company) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1HB_mDNugJjk5dmwagNs8xvYj-oBfPX5qXn0zhTARl4Q/edit) (only accessible from within the company) |
-| Issue Board     | [Sharding:Build Board](https://gitlab.com/groups/gitlab-org/-/boards/2594854?scope=all&utf8=%E2%9C%93&label_name[]=group%3A%3Asharding&label_name[]=sharding%3A%3Aactive)             |
+| Issue Board     |              |
 
 ### Exit Criteria
 
-The charter of this working group is to succesfully decompose the Secure/Govern datasets to a separate database in order to reduce pressure on the primary GitLab.com DB and assist in future scalability and stability concerns.
+The charter of this working group is to successfully decompose the Secure/Govern datasets to a separate database in order to reduce pressure on the primary GitLab.com DB and assist in future scalability and stability concerns.
 
 ### Glossary
 
@@ -56,25 +56,18 @@ There is high impetus within GitLab to reduce pressure on the primary GitLab dat
 
 Decomposition of the Secure/Govern dataset is a significant engineering effort due to the magnitude of the data interactions related to these features. The domain accounts for 25% of all database write traffic, and is only set to grow as we expand our feature set and grow our customer base. Further statistics and technical details can be found on the associated [epic](https://gitlab.com/groups/gitlab-org/-/epics/13043).
 
-As this has become a scalability and stability concern for all of GitLab.com, as well as significantly constraining the abiltiy of the Secure/Govern stages to implement new features due to continously growing performance concerns, it is necessary to form an organised effort to effectively achieve this project.
+As this has become a scalability and stability concern for all of GitLab.com, as well as significantly constraining the ability of the Secure/Govern stages to implement new features due to continuously growing performance concerns, it is necessary to form an organised effort to effectively achieve this project.
 
-We have the benefit of being able to lean heavily on the prior art and experience of the database-scalability working group who decomposed the CI database to achieve this goal.However, some key challenges we may face is the scale of the existing Secure/Govern codebase, and the need to maintain ongoing operations with (no/minimal) disruption to our customer base. A full GitLab.com downtime is heavily disfavoured due to our uptime SLA agreemens with customers, but the scale of our operations may mean that some processes for this kind of decomposition may not be feasible.
+We have the benefit of being able to lean heavily on the prior art and experience of the database-scalability working group who decomposed the CI database to achieve this goal. However, some key challenges we may face is the scale of the existing Secure/Govern codebase, and the need to maintain ongoing operations with (no/minimal) disruption to our customer base. A full GitLab.com downtime is heavily disfavoured due to our uptime SLA agreements with customers, but the scale of our operations may mean that some processes for this kind of decomposition may not be feasible.
 
-### Possible Solutions
-
-#### Logical Replication
-
-#### Physical Replication
-
-#### Application Replication
 
 ### Benefits
 
 1. Reduce write pressure on the GitLab.com primary Write database.
     1. Especially if achieved before Cells 2.0
-2. Improve stability of GitLab operations, but preventing Secure/Govern features from crippling the primary database.
+2. Improve stability of GitLab operations, by isolating the primary database from Secure/Govern feature pressure
 3. General performance improvement for both the Core and Secure/Govern feature sets due to seperation of concerns.
-4. Re-enable feature development without significant concern for compromising stability of the platform.
+4. Improve iteration speed of Secure/Govern feature development without significant concern for compromising stability of the platform.
 
 ### Risks
 
@@ -100,9 +93,9 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 1. Draw Working Group Interest/Volunteers
 2. Kick-off working group: handbook, agenda, meeting
 3. Await results of Logical Replication Production test to determine the viability of this as a migration path.
-4. Depending on the results of the production test, formulate a path for the safe migration of the Secure/Govern dataset to a new phsyical database. These may take the form of the following headings.
+4. Depending on the results of the production test, formulate a path for the safe migration of the Secure/Govern dataset to a new physical database. These may take the form of the following headings.
 
-#### Logical Replication
+#### Proposal A: Logical Replication
 
 1. Research and test the possiblity of a staged logical replication in which we migrate small subsets of the Secure/Govern featureset at a time, such as SBOM.
     1. If a staged rollout is possible
@@ -125,7 +118,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 2. Cleanup legacy data from the GitLab core database.
 
 
-#### Phsycial Replication
+#### Proposal B: Physical Replication
 
 1. Determine acceptability of a full downtime for GitLab, or a temporary suspension of use for the entire Secure/Govern featureset to prevent dataloss. (Alternatively, notify users that there will be dataloss related to this featureset after a certain Date and Time)
     1. Begin communicating with customers ahead of time to minimise disatisfaction as a result of this disruption.
@@ -138,7 +131,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
     8. Cleanup legacy Secure/Govern data from the GitLab Core database.
     9. Cleanup legacy Core data from the new Secure/Govern database.
 
-#### Application Replication
+#### Proposal C: Application Replication
 
 1. As a staged rollout is possible, identify the highest value feature subset to decompose.
 2. Plan a decomposition strategy to separate only that feature to achieve a production benefit sooner.
