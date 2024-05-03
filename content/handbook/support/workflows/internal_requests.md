@@ -63,7 +63,7 @@ Sales team members will typically open this on behalf of their prospects in orde
 
 ## Ask for Support as a Solution Architect
 
-Solution Architects would typically use the [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) in case support is needed in pre-sales state (for example in case of a POV excercise) or in case of potential new deal with an existing customer. In any other cases SAs would ask the customers to open a support ticket themselves for clear and efficient communication.
+Solution Architects should use the [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) only when support is needed during **pre-sales** (for example: a POV exercise, or a potential new deal with an existing customer). In any other cases, SAs should advise the customer to open a support ticket themselves, for clear and efficient communication.
 
 ## Inactive Namespace Request
 
