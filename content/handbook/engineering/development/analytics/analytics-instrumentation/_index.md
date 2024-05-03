@@ -32,7 +32,7 @@ Please reach out to the [Analytics Instrumentation Group EM/PM](/handbook/engine
 
 We define incidents as a deviation from the intended process that significantly disrupts the reporting of metrics to the point that immediate action is required. These reasons should lead to the creation of an incident:
 
-1. Any SEV-1 Monte Carlo alert posted into #g_monitor_analytics_instrumentation that's not directly associated with an exisiting incident.
+1. Any SEV-1 Monte Carlo alert posted into #g_analytics_instrumentation_alerts that's not directly associated with an exisiting incident.
 2. Any suspected loss or delay of analytics data that might affect metrics with a `performance_indicator_type` and could be originating in the Analytics Instrumentation domain.
 Examples of incidents
 1. [High severity incidents](https://gitlab.com/gitlab-org/gitlab/-/issues/442875)
@@ -50,16 +50,18 @@ alert)_
 1. Add appropriate label using the below guideline
     - `~"Analytics Instrumentation::Incident-High Severity"` for impending loss of data for many metrics or moderate to severe loss in business critical metrics that have a performance_indicator_type value.
     - `~"Analytics Instrumentation::Incident-Medium Severity"` for data delay.
+    - Add an appropriate bug severity as per the [definition](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
     - For cases when there is minimal impact on data and manual steps or correction is needed, please raise a bug rather than an incident.
 1. Assign the issue to [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members).
 1. Post in the [#g_analyze_analytics_instrumentation](https://gitlab.slack.com/archives/CL3A7GFPF) slack channel and tag [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members).
+1. Notify these slack channels [#g_analyze_product_analytics](https://gitlab.slack.com/archives/C03M4R74NDU), [#data_rd_fusion](https://gitlab.slack.com/archives/C02C82WDP0U), [#data](https://gitlab.slack.com/archives/C8D1LGC23) with link to the issue.
 1. Depending on your own experience either take on the role of resolution DRI, or actively tag EM and engineers in slack to find DRI for incident.
 
 ### Incident Resolution
 _(DRI: To be identified by EM of the Analytics Instrumentation group)_
 
-1. EM to review severity assigned by detection DRI and add a bug severity if needed.
 1. DRI to work on resolving the issue as quickly as possible. The first priority is to find a fix, even if that is a temporary one, before working on a long term resolution.
+1. EM to review severities assigned by detection DRI.
 1. In case of a ~"Analytics Instrumentation::Incident-High Severity" issue:
     - DRI to create a temporary channel for the incident in Slack and invite the whole group including PM and relevant stakeholders based on the incident.
     - EM (or DRI if EM not available) to announce a feature change lock specific to the analytics instrumentation group.
