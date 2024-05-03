@@ -35,6 +35,8 @@ stages:
   - export AWS_SESSION_TOKEN="${STS[2]}"
 
 include:
+  - template: Jobs/Dependency-Scanning.gitlab-ci.yml
+  - component: gitlab.com/components/sast/sast@~latest
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
   - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
 
@@ -106,7 +108,7 @@ pages-review:
     name: review/$CI_COMMIT_REF_SLUG
     # There is no predefined CI variable that is formatted quite right
     # neither $CI_PAGES_URL nor $CI_JOB_URL have /-/ directly after the hostname
-    # TODO @dnsmichi improve and make review apps work https://gitlab.com/groups/gitlab-com/content-sites/-/epics/11 
+    # TODO @dnsmichi improve and make review apps work https://gitlab.com/groups/gitlab-com/content-sites/-/epics/11
     url: https://gitlab-com.gitlab.io/-/content-sites/handbook/-/jobs/$CI_JOB_ID/artifacts/public/
     on_stop: stop-pages-review
   variables:
