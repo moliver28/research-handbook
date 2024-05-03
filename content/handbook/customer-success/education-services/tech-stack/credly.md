@@ -14,7 +14,7 @@ The Implementation of this system took place in May/June of 2022 as all digital 
 
 ### System Diagram
 
-The Credly digital credentialing system is a SaaS app and is integrated with the [Thought Industries LMS]((https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
+The Credly digital credentialing system is a SaaS app and is integrated with the [Thought Industries LMS](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 
 ```mermaid
 graph TD
@@ -37,7 +37,7 @@ C --> E[Credly issues digital credential to user via email]
 
 ### Integrations
 
-The Credly digital credentialing system is a SaaS app and is integrated with the [Thought Industries LMS]((https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
+The Credly digital credentialing system is a SaaS app and is integrated with the [Thought Industries LMS](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 
 ### Key Reports / Dashboards
 
