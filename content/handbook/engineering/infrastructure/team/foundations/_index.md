@@ -142,6 +142,26 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
   - [Agenda](https://docs.google.com/document/d/1T5LIBt3RZR5TBLzkmRd08oMwfwiNFAr5ImPD5NP7lOw/edit?usp=sharing)
   - [Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqWfqy6IhKlVDUbk-f9NnmR).
 
+### Demos
+
+Demos are encouraged for team members to share what they've been working on. This invites:
+
+- An easy way to request and provide feedback
+- Sharing of knowledge among the team
+- Collaboration on work and ways to develop ideas together
+- A general sense that you are not working and solving problems in isolation
+
+Demos can happen in two ways:
+
+1. A demo can be recorded and shared in slack or the weekly team sync agenda. 
+1. A demo can be scheduled to be done live in a team sync meeting. The recording of that portion of the meeting can then be shared in slack so the whole team has the opportunity to participate.
+
+Each has their pros and cons as some people like working through a demo live so questions can be asked along the way. The main thing is that in both cases, there is an async option for everyone to partipate in.
+
+#### OKR syncs
+
+Sometimes a project being worked on may benefit from a dedicated sync. The most common example is when the project includes cross-team engagement. The sync allows for the multiple teams to get some face time together. When scheduling such meetings it may make sense to have more than one session rotating between timezones.
+
 ### Standup
 
 We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel. 
