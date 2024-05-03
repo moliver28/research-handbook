@@ -4,7 +4,7 @@
         <li>{{- $value | plainify -}}</li>
     {{- else if eq (printf "%T" $value) "map[string]interface {}" -}}
         {{- range $mapKey, $mapValue := $value -}}
-            <li>{{- $mapKey }}: {{- $mapValue | plainify -}}</li>
+            <li>{{- $mapKey | plainify }}: {{- $mapValue | plainify -}}</li>
         {{- end -}}
     {{- end -}}
 {{- end -}}
