@@ -4,7 +4,7 @@ title: Threat Intelligence Team
 
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Our Vision
 
-Help GitLab make informed, intelligence-driven decisions that keep our company and customers secure, while setting a new standard for transparency and collaboration across the industry.
+Empower GitLab to make informed, intelligence-driven decisions that keep our company and customers secure, while setting a new standard for transparency and collaboration across the industry.
 
 ## <i class="fas fa-compass" id="biz-tech-icons"></i> Our Mission Statement
 
