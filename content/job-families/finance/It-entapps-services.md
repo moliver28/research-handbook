@@ -17,15 +17,28 @@ The Manager, Enterprise Applications Services is a [grade 8](/handbook/total-rew
 
 #### Responsibilities
 
-- 
+- Have good understanding of how Enteprise Applications work and how they relate and integrate with other applications
+- Work with cross-functional teams to identity ingress and egress processes and lead the team in delivering tasks that require coordination
+- Hold the team accountable to service level agreements on incident or service request delivery
+- Build the Enteprise Applications Services team by working with PeopleOps and IT Enterprise Applications management by hiring, developing, growing and promoting its members.
+- Establish coaching and 1 on 1 sessions with their team members
 
 #### Requirements
 
-- 
+- Bachelor's degree in computer science, information technology or a related field or relevant work experience.- 
+- 2 or more years leading an IT support related role (Analyst, engineering or servicedesk)
+- Excellent written and verbal communication.
+- Knowledge of key project management terminology and phases.
+- Can demonstrate good leadership qualities and show empathy and ability to motivate others
+- Has good understanding of key performance indicators that drive high quality support experience
 
 #### Performance Indicators (PI)
 
-- 
+- Team's average handling time to meet established targets
+- Drive mean-time-to-acknowledge and mean-time-to-resolve metrics for service desk tickets
+- First contact resolution
+- Ticket Quality Compliance
+- Customer Satisfaction Servey or Net Promoter Score
 
 ### Senior Manager, Enterprise Applications Services
 
@@ -36,16 +49,23 @@ The Senior Manager, Enterprise Applications Services is a [grade 9](/handbook/to
 #### Senior Manager, Enterprise Applications Services Responsibilities
 
 - Extends the Manager, Enterprise Applications Services responsibilities
-- 
+- Be a business partner by bridging strategy and direction from IT senior leadership to the IT Enterprise Applications Services team and aligning key performance indicators to overall business goals.
+- Work closely with peers to calibrate their team's service delivery performance.
+- Identify process improvement or automation solutions to drive volume of identified problems down.
+- Participate in annual project planning
 
 #### Senior Manager, Enterprise Applications Services Requirements
 
 - Extends the Manager, Enterprise Applications Services requirements
+- 2+ years professional experience managing an IT Support team (Analyst, engineering or servicedesk)
+- Demonstrable PMP, Six Sigma, ITSM or ITIL knowledge (Certification a huge plus)
 
 
 #### Performance Indicators (PI)
 
-- 
+- Quantifiable savings through process improvement (hours or cost avoidance)
+- On-time project completion
+- On-time hiring of funded requisitions
 
 ## Career Ladder
 
