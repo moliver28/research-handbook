@@ -10,8 +10,7 @@ The password standard sets the requirements for constructing secure passwords an
 
 ## 1Password
 
-1Password is a password manager that can be used in two different ways - as a standalone application
-(by purchasing a standalone license) or as a hosted service (by subscribing). GitLab uses 1Password for Teams which is a hosted service.
+1Password is a password manager that can be used in two different ways - as a standalone application (by purchasing a standalone license) or as a hosted service (by subscribing). GitLab uses 1Password for Business which is a hosted service.
 
 
 **Important:** Any personal Passwords stored in your GitLab vault will be inaccessible upon separation with GitLab. Please use the complimentry 1Passsword Families membership subscription that comes with your business account to store any personal passwords. This account will stay with you even in the event that you stop working with GitLab.
@@ -23,8 +22,7 @@ for every site for which you have a login.
 
 GitLab requires all team members to use [Okta](/handbook/business-technology/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
 
-If you want to use 1Password for your private passwords not related to your work
-at GitLab, [there are a few options](#1password-for-your-private-passwords).
+If you want to use 1Password for your private passwords not related to your work at GitLab, [there are a few options](#1password-for-your-private-passwords).
 
 Please note our 1Password for Business license agreement [includes the 1Password for Families feature](https://support.1password.com/link-family/), which you can share with up to 5 family members.
 
@@ -33,7 +31,7 @@ For your Okta password and other passwords that you won't store in Okta, use [1P
 - Keep your Master Password a secret. No other team members
   should know it, including admins. If the Master Password is known or
   disclosed to someone else, it should be changed immediately.
-- Post a message in #it-ops if you forget your Master Password.
+- Post a message in #it_help if you forget your Master Password.
 - Consider using a generated Master Password. Most human-created passwords
   are easy to guess. Let 1Password create a strong Master Password. But: you *will*
   need to memorize this Master Password.
@@ -63,10 +61,8 @@ using throughout.
 method to your 1Password account for convenience.
 1. When traveling, consider using 1Password in "Travel Mode", see more on that [below](#travel-mode).
 1. Do not share credentials via email, issue comments, chat etc. This includes
-   email addresses to login and API keys. Use 1Password vaults for this.
-1. If you do not have access to a vault that is part of the baseline entitlements
-  for your role and team, mention `gitlab-com/business-ops/itops` in your onboarding
-  issue or in #it-ops on slack. For all other access, create an
+   email addresses to login and API keys. Use 1Password vaults for this and if sharing a one-off password, the built-in "Share" feature.
+1. If you do not have access to a vault create an
   [access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new).
 1. Use Watchtower to find passwords that need to be changed. Watchtower tells
 users about password breaches and other security problems on the websites they
@@ -86,7 +82,7 @@ truthfully since that is easy to research. Make up an answer and write both the
 question and answer in 1Password. Consider using the Password Generator function
 in 1Password for this.
 1. During offboarding, your 1Password account is deleted, which includes the
-**Private** vault in the GitLab team account. If you want to keep your personal
+**Employee** vault in the GitLab team account. If you want to keep your personal
 passwords, please copy/move them to your **Primary** vault which you will have
 if you signed up for an [individual account](#1password-for-your-private-passwords) before
 joining the GitLab Team account.
@@ -102,9 +98,9 @@ joining the GitLab Team account.
 1Password for Teams stores all **Vaults** on the 1Password servers and allows
 for sharing between multiple people on the same team. Every GitLab team member who needs access to a shared vault should consult their departments for any shared vault information.
 
-Each member of the team has a vault called **Private** which *only you can see*, and allows you to store personal credentials *within the GitLab team's account*.
+Each member of the team has a vault called **Employee** which *only you can see*, and allows you to store personal credentials *within the GitLab team's account*.
 
-To really get the full benefit of 1Password, you'll need to hook our Teams
+To really get the full benefit of 1Password, you'll need to hook our Business
 account up to one of the native apps.
 
 #### Adding the GitLab team to a 1Password app
@@ -120,7 +116,7 @@ version. If you use 1Password 6 without a 1Password.com account, make note of
 please follow the instructions for [updating 1Password](#updating-1password-to-support-the-teams-feature).
 
 Now you'll need the **Emergency Kit** PDF that 1Password told you to save when
-you registered your **Teams** account. Note: Store the Emergency Kit safely.
+you registered your **Business** account. Note: Store the Emergency Kit safely.
 Store a copy of the Emergency Kit on a USB flash drive or print a copy and store
 it in a vault at home or safe deposit box — somewhere not online or accessible
 by anyone other than yourself.
@@ -154,30 +150,6 @@ may have access to others.
 1. In general, 1Password items should be self-documenting. This is especially important for items in team vaults such as those to which a team member gains access once part of the GitLab team or they are granted access via their baseline entitlements issue. Always make sure the `title`, `username`, and `notes` fields are meaningful.
 1. Deleting items is fine as they are kept in the "recently deleted" tab indefinetely. It's also fine to leave them in their respective vault but delete the account on the system associated with the item. In the second case, and in order to prevent confusing team members, edit the title (e.g. `[Deleted on 2024-02-14]`) to reflect the purposeful deletion of the account and explain briefly who and why removed it in the notes.
 
-#### Updating 1Password to support the Teams feature {#1password-update}
-
-*Read this section only if you could not follow the instructions in "Adding
-the GitLab Team to a 1Password app" section.*
-
-1. At the prompt, choose "I'm a new user". *Note:* This is one source of
-   confusion. "I created my Teams account, I'm not new!" Just go with it.
-1. Enter a master password, confirmation, and hint. This can (and should) be
-   different from the password you used for our **Teams** account. This password
-   gates access to your **local, private** Vault on your computer and/or phone.
-1. Skip over the remaining dialogs (syncing, newsletter, etc.)
-1. You should now have an empty vault called **Primary**.
-
-Because the Teams feature is not available in your current version of 1Password,
-we need to update the app to the latest version:
-
-1. Go to **Preferences**
-1. Go to **Updates**
-1. Click **Check Now**
-1. Install the update and relaunch
-1. After relaunch, go to **Preferences** again
-1. Go to **Accounts**
-1. Click the **+** icon
-
 #### Vaults
 
 Click the **Vault Selector** in the upper-left corner of the window:
@@ -187,11 +159,11 @@ Click the **Vault Selector** in the upper-left corner of the window:
 </div>
 <br>
 
-GitLab team members have access to a **Private** vault by default, which is your *hosted, private* vault that is part of the GitLab 1Password for Teams account. Since the Private vault is part of the
-GitLab Teams account, it should be thought of as company property (like the
+GitLab team members have access to a **Employee** vault by default, which is your *hosted, private* vault that is part of the GitLab 1Password for Teams account. Since the Employee vault is part of the
+GitLab Business account, it should be thought of as company property (like the
 @gitlab.com email account), however the vault *cannot* be viewed by anyone
 else on the team, including admins. If you choose to store truly personal
-information in the Private vault, it opens up the possibility that you would
+information in the Employee vault, it opens up the possibility that you would
 be separated from this information if you offboard. Such truly personal
 information is therefore better to store in your **Primary** vault, which is
 associated with you instead of with the GitLab Teams account, assuming that you
@@ -326,7 +298,7 @@ As stated in the [GitLab Password Standards]({{< ref "password-standard" >}}), t
 
 Okta is configured such that it only supports the use of WebAuthn. 1Password TOTP should only be used when WebAuthn is unavailable.
 
-A FIDO2/WebAuthn hardware token can be used as a secure and convenient 2-factor authentication method for Okta, Google Workspace, GitLab instances, and many other sites. If you do not have one, you may consider [purchasing one](/handbook/spending-company-money/). GitLab's standard is Yubico's YubiKey. For more information on FIDO2/WebAuthn, visit the [Tools and Tips page](/handbook/tools-and-tips/#fido2webauthn-devices).
+A FIDO2/WebAuthn hardware token can be used as a secure and convenient 2-factor authentication method for Okta, Google Workspace, GitLab instances, and many other sites. If you do not have one, you may request one via the [Yubibot](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/yubikey/). GitLab's standard is Yubico's YubiKey. For more information on FIDO2/WebAuthn, visit the [Tools and Tips page](/handbook/tools-and-tips/#fido2webauthn-devices).
 
 If shared access to a single account is required by multiple team members, for example, a social media account, an Okta [new application setup Issue](https://gitlab.com/gitlab-com/business-technology/change-management/issues/new?issuable_template=change_management_okta&_gl=1*hvl1g4*_ga*ODQwNzAxNjM0LjE2NjYwNDc2Njc.*_ga_ENFH3X7M5Y*MTY4Njk0MTkzOC43MDIuMS4xNjg2OTQyMTc4LjAuMC4w) should be created. The credentials will be stored and shared via Okta.
 
