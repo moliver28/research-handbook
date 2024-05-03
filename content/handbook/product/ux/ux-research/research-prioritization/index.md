@@ -46,7 +46,7 @@ Optional: As research issues are created throughout the quarter, teams can use a
 
 **Step 2: Use the Research Priority Calculator**
 
-The UX Researcher and Product Manager will use the [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1sE-Eia73HnvavfwNMHTJdKrvIkNxP9N3xtzpd4JUalo/copy) (search Research Priority Calculator TEMPLATE in Google Drive to access) to determine the priorities of identified research projects each quarter. For a detailed legend on each criteria, see the second tab in the [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1sE-Eia73HnvavfwNMHTJdKrvIkNxP9N3xtzpd4JUalo/copy) labeled "Criteria Legend."
+The UX Researcher and Product Manager will use the [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1RoT5YJ1g7mA09gMicKHobW54iykdqmB-3dYhhUqKjJ4/copy) (search [Template] UX Research Prioritization Calculator in Google Drive to access) to determine the priorities of identified research projects each quarter. For a detailed legend on each criteria, see the second tab in the [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1RoT5YJ1g7mA09gMicKHobW54iykdqmB-3dYhhUqKjJ4/copy) labeled "Criteria Legend."
 
 1. UX Researcher: Make a copy of the calculator template and create line items for each research project identified in the quarterly planning issue and include any projects from the previous quarter that still require work.
 1. UX Researcher or Product Managers: Fill in the values for each of the columns in the calculator to get a sense of the scores for the projects.
@@ -76,7 +76,7 @@ The last step is to bring the results from the calculator to the quarterly resea
 
 ## About the Research Priority Calculator
 
-The [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1sE-Eia73HnvavfwNMHTJdKrvIkNxP9N3xtzpd4JUalo/copy) (search Research Priority Calculator TEMPLATE in Google Drive to access) is a tool meant to provide recommendations on which research projects to prioritize and what level of support is needed from the UX Researcher. The calculator takes into account the following areas. Each criteria receives a score according to the table below and then is summed and divided by 30 (total possible score):
+The [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1RoT5YJ1g7mA09gMicKHobW54iykdqmB-3dYhhUqKjJ4/copy) (search [Template] UX Research Prioritization Calculator in Google Drive to access) is a tool meant to provide recommendations on which research projects to prioritize and what level of support is needed from the UX Researcher. The calculator takes into account the following areas. Each criteria receives a score according to the table below and then is summed and divided by 30 (total possible score):
 
 | Criteria  | Description| Score/Weight |
 | ------ | ------ | ------ |
