@@ -151,7 +151,6 @@ Please reference this page for an overview of the areas your CSM will engage wit
 
 - [CSM Process Changelog](https://docs.google.com/document/d/1xyaxc37iCDtfeabo2NXCRV31pNOdvieXoVDxJw_aXoM/edit#heading=h.h09e4t2jbjoh)
 - [Gainsight Changelog](https://docs.google.com/spreadsheets/d/1QknfSfX50JFOhkHZoz2VjovREWK2fJkYBxr5HEjkT9Q/edit#gid=0)
--
 
 ### CSM Learning & Development
 
