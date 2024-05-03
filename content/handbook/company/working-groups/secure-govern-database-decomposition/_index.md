@@ -155,8 +155,8 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 ## Roles and Responsibilities
 
 | Executive Stakeholder                    | Bartek Marnane                  | VP, Expansion |
-| Facilitator/DRI                          | Lucas Charles                   | Principal Software Engineeer |
-| Functional Lead                          | Gregory Havenga                 | Senior Backend Engineer, Threat Insights  |
+| Facilitator/DRI                          | Gregory Havenga               | Senior Backend Engineer, Threat Insights  |
+| Functional Lead                          | Lucas Charles                 | Principal Software Engineer, Secure & Govern |
 | DRI - Distribution                       |||
 | DRI - Ops Section                        |||
 | DRI - Infrastructure                     |||
