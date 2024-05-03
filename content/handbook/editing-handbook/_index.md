@@ -211,7 +211,19 @@ When you encounter content in a shortcode and want to edit it:
    - If there is no comment, you can post in `#handbook` to get help, and make a MR to add it.
 1. [Edit the file](#use-the-web-ide-to-edit-the-handbook), being careful to match the existing formatting.
 
-## Failing pipelines
+## Troubleshooting
+
+### 404 errors with edit action
+
+When clicking on `Edit this page` in the upper right corner on a handbook page in your browser, you might get a `404` error in the GitLab Web IDE.
+
+As a team member, this problem can be related to an expired SAML session for your GitLab.com profile. In order to mitigate and solve the problem, click on `View page source` to trigger the SAML authentication with Okta again.
+
+Alternatively, navigate into our GitLab.com profile into [your To-Do list](https://gitlab.com/dashboard/todos), or try to open a confidential issue, to trigger the authentication.
+
+It can also be browser related: Try clearing the cache, open an incognito window (on macOS: `cmd shift n`), or use a different browser to test.
+
+### Failing pipelines
 
 To see why your pipeline is failing, there are two main places to look:
 
