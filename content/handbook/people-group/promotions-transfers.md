@@ -109,7 +109,7 @@ At GitLab, we promote on a twice per year basis. This means that there is **one 
 
 - Planning: 2024-06-10 to 2024-06-21
 - Calibrations: 2024-06-24 to 2024-07-10
-- Approvals: 2024-07-16 to 2024-07-18
+- Approvals & Workday input: 2024-07-16 to 2024-07-18
 - Communication: 2024-07-24 to 2024-08-01
     - Effective date for promotions: 2024-08-01
     - Communication: After fully approved in Workday
