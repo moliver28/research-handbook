@@ -8,19 +8,16 @@ Help GitLab make informed, intelligence-driven decisions that keep our company a
 
 ## <i class="fas fa-compass" id="biz-tech-icons"></i> Our Mission Statement
 
-We will provide timely, relevant, and actionable intelligence that integrates into our security operations and broader business decision-making.
+Our mission is to provide actionable intelligence that empowers our organization to stay ahead of emerging threats.
 
-When a new threat makes headlines, we'll already have answers. We'll know if GitLab is at risk, how well we can detect and prevent an attack, and what we're doing to prepare for one.
+When a new threat makes headlines, we're already prepared with answers. We assess our risk, evaluate our ability to detect and prevent an attack, and provide recommendations for immediate action.
 
-This starts with proactively identifying and assessing threats and risks most relevant to our customers, our product, and our organization. We will deliver this information in clear and concise formats, adding context and recommending immediate actions to protect against emerging threats.
+We achieve this by continuously monitoring the threat landscape, analyzing risks, and delivering clear, concise reports that recommend immediate actions. Our deep understanding of our product's architecture and our organization's infrastructure allows us to identify the most relevant threats and provide targeted recommendations.
 
-Our team will develop and maintain relationships with industry peers, keeping a pulse on trends and helping to secure the industry as a whole.
+By building and maintaining relationships with industry peers, we gain access to timely, unique insights that are not otherwise available. These human connections and the trust they foster are essential to our success in staying ahead of threats.
 
-By executing on this mission, we will:
+Together, we protect GitLab and our customers by staying one step ahead of the rapidly evolving threat landscape.
 
-- Foster a culture of threat awareness and intelligence sharing across the organization.
-- Build and maintain the trust and confidence of our customers and team members.
-- Help meet the broader objectives of our security organization by adapting rapidly to changes in the threat landscape.
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> The Team
 
