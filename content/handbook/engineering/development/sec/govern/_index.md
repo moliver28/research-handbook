@@ -155,6 +155,7 @@ At GitLab our goal is that [everyone can contribute](https://handbook.gitlab.com
 
 - [Quick wins](https://gitlab.com/dashboard/issues?sort=updated_desc&state=opened&label_name[]=quick+win&label_name[]=devops::govern)
 
+If the contributor needs an EE license, we can point towards the [Contributing to the GitLab Enterprise Edition (EE)](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contributing-to-the-gitlab-enterprise-edition-ee) section on the Community contributors workflows page.
 
 ## Metrics
 
