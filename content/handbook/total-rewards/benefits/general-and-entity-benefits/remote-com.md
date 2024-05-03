@@ -518,12 +518,13 @@ Employees in Mexico are covered by the Social Security Law, under IMSS who is re
 
 Team members in Mexico will receive a monthly allocation of 1100 MXN for internet and electricity to support their remote work. These reimbursements are tax-exempt and will be reflected as a separate line item on your payslips to cover remote working expenses such as internet and electricity.
 
-- If remote work related expenses for internet and electricity are greater than the 1100 MXN allowance team members can expense the difference for reimbursement. For expenses over the allowance team member's will need to upload all receipts for proper reimbursement. 
+- If remote work related expenses for internet and electricity are greater than the 1100 MXN allowance team members can expense the difference for reimbursement. For expenses over the allowance team member's will need to upload all receipts for proper reimbursement.
 - Use Expense code: `Work From Home` for the additional expenses.
 
 ### Ergonomic Chair Allowance
-- Team members are entitled to a one-time claim up to 3000 MXN for the purchase of an ergonomic chair to support their comfort and health while working remotely. 
-- Follow the reimbursement procedure outlined in the [NAVAN policy](https://handbook.gitlab.com/handbook/finance/expenses/#equipment) for reimbursement 
+
+- Team members are entitled to a one-time claim up to 3000 MXN for the purchase of an ergonomic chair to support their comfort and health while working remotely.
+- Follow the reimbursement procedure outlined in the [NAVAN policy](https://handbook.gitlab.com/handbook/finance/expenses/#equipment) for reimbursement.
 
 ### Christmas Bonus (Aguinaldo)
 
