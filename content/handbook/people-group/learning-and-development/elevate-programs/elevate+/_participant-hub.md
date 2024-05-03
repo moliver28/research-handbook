@@ -107,10 +107,10 @@ In Module 3, create a shared understanding around the importance for your team m
 
 ## Module 4:
 
-In Module 4, increase your cross-functional effectiveness in order to clear the way for your team to get results. 
+In Module 4, increase your cross-functional effectiveness in order to clear the way for your team to get results.
 
 1. Share your team’s highest order purpose and alignment to GitLab’s overall goals  
-1. Map your cross-functional partners within and outside GitLab 
+1. Map your cross-functional partners within and outside GitLab
 1. Learn skills for building and repairing relationships with key partners
 
 
