@@ -53,7 +53,6 @@ Team Page: [Composition Analysis](composition-analysis/)
 Team Page: [Static Analysis](static-analysis/)
 
 {{< team-by-departments departments="Secure:Static Analysis BE Team" >}}
-{{< team-by-departments departments="Secure:Static Analysis FE Team" >}}
 
 
 ### Dynamic Analysis
