@@ -97,39 +97,22 @@ GitLab team members can view the model [here](https://gitlab.com/gitlab-com/gl-s
 
 #### Adoption Rate
 
-A successful Red Team program should strengthen the security of an organization. This generally happens through recommendations that are delivered during and after an exercise.
+A successful Red Team program strengthens an organization's security through recommendations delivered during and after an exercise. We track the lifecycle of these recommendations through to implementation using GitLab.com, calling this metric our "Adoption Rate."
 
-We don't want to simply provide recommendations and then move on. We want to follow the lifecycle of those recommendations all the way through to implementation. We make this happen by using GitLab.com for everything - from providing that recommendation, to collaborating on a solution, to actually making changes to code or processes that make it a reality.
-
-We call this metric our "Adoption Rate" and it involves the following two stages:
-
-##### Phase One - Classification
-
-All recommendations start as an issue on GitLab.com, opened in the project closest to the team that can do something about it. We use labels to classify the recommendation as one of the following:
+Recommendations start as GitLab.com issues in the project closest to the team that can address them. We classify recommendations using labels:
 
 - Detections & Alerts (`RTRec::Detection`)
 - Security Controls (`RTRec::Control`)
 - Processes and Procedures (`RTRec::Process`)
 
-##### Phase Two - Outcome
-
-This is the part that really matters - what happens after a recommendation is delivered? How long did it take? Are there any identifiable trends based on recommendation type or target?
-
-This is done by adding a secondary label to the issue with its current status or final outcome. We use the following:
+We track what happens after a recommendation is delivered by adding a secondary label to the issue with its current status or final outcome:
 
 - Accepted and fully implemented (`RecOutcome::Implemented`)
 - Accepted and actively being worked on (`RecOutcome::In-Progress`)
 - Accepted but stalled or backlogged (`RecOutcome::Stalled`)
 - Rejected - will not be implemented (`RecOutcome::Rejected`)
 
-An outcome label must be added to the issue within one week of delivering the recommendation. We use a scheduled CI pipeline to check all issues with classification labels and ensure they are compliant.
-
-##### Recommendations Issue Boards
-
-The following issue boards provide a consolidated view of these recommendations. Most issues will be confidential and visible only to GitLab team members:
-
-- [Red Team Recommendations: gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/5351140)
-- [Red Team Recommendations: gitlab-com](https://gitlab.com/groups/gitlab-com/-/boards/5350979)
+An outcome label is added to the issue within one week of delivering the recommendation. A scheduled CI pipeline checks issues with classification labels to ensure they have an outcome.
 
 #### MITRE ATT&CK Mapping
 
@@ -150,6 +133,13 @@ For each completed operation, we build a flow chart to visualize the attack path
 That same ATT&CK Flow file is imported into our ATT&CK Navigator project, which generates a heatmap visualizing our coverage across the ATT&CK matrix. We maintain a single heatmap for each operation, as well as a combined heatmap for all previous operations.
 
 This is s great way to visualize the types of attack techniques we've emulated, and to help us understand areas we should focus on in future operations.
+
+### Recommendations Issue Boards
+
+The following issue boards provide a consolidated view of open recommendations. Most issues will be confidential and visible only to GitLab team members:
+
+- [Red Team Recommendations: gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/5351140)
+- [Red Team Recommendations: gitlab-com](https://gitlab.com/groups/gitlab-com/-/boards/5350979)
 
 ### "Assumed Breach" First
 
