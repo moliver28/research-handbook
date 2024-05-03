@@ -153,7 +153,7 @@ If there's a failure, we use emoji to indicate the state of its investigation:
 - The :fire_engine: emoji ![:fire_engine:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-small/1f692@2x.png ":fire_engine: emoji"), when a failure is already reported.
 - The :retry: emoji ![:retry:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-small/1f504@2x.png ":retry: emoji"), when there's a system failure (e.g., Docker or runner failure).
 
-Note that while the configuration for each pipeline is in the `.gitlab-ci.yml` file in the relevant projects, pipeline schedules are configured via the UI and CI/CD variables are entered in project/group settings. Quality maintainers should have access to all the relevant configuration and settings. If you are the pipeline triage on-call DRI and you need to change settings but you don't have access, you can ask for assistance in the #quality_maintainers and #development Slack channels.
+Note that while the configuration for each pipeline is in the `.gitlab-ci.yml` file in the relevant projects, pipeline schedules are configured via the UI and CI/CD variables are entered in project/group settings. Quality maintainers should have access to all the relevant configuration and settings. If you are the pipeline triage on-call DRI and you need to change settings but you don't have access, you can ask for assistance in the `#test-platform-maintainers` and `#development` Slack channels.
 
 ## How to triage a QA test pipeline failure
 
