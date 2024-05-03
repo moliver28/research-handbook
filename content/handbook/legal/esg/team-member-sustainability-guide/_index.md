@@ -1,9 +1,10 @@
 ---
 aliases: /handbook/legal/ESG/Team-Member-Sustainability-Guide
 title: "Team Member Sustainability Guide"
-description: "GitLab's Team Member Sustainability Guide"
-
+description: "GitLab's Team Member Sustainability Guide for Remote Work"
 ---
+Please contribute your ideas to this guide [here.](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2072)
+
 ## Introduction
 
 Welcome to the first iteration of GitLab’s Team Member Sustainability Guide. As a fully remote workforce without daily commutes or physical offices, we don’t have the typical environmental footprint that many other companies have, but that doesn’t mean we don’t have an environmental impact.
