@@ -32,7 +32,7 @@ Occasionally an AMA might be held for a smaller audience. It is encouraged for a
 
 This guidance is primarily for the person or people who will be answering questions at a given AMA.
 
-Adding context to the AMA agenda and using the first 1-2 minutes of an AMA to ensure the audience understands how the time will be used has shown to lead to more engaging AMAs. 
+Adding context to the AMA agenda and using the first 1-2 minutes of an AMA to ensure the audience understands how the time will be used has shown to lead to more engaging AMAs.
 
 Ensure the following items are added to the AMA agenda and follow these steps to set your AMA up for success:
 
