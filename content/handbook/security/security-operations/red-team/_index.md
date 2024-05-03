@@ -39,7 +39,7 @@ You can read more about this process in [Purple Teaming at GitLab]({{< ref "purp
 
 Opportunistic attacks are conducted outside the context of a formalized operation. They can be done at any time, from any source IP address, and against any GitLab-managed asset without prior approval or notification.
 
-This type of work generally involves active attacks against real GitLab systems. It should always support our primary objective to improve the security of GitLab, with a goal to provide [properly labeled recommendations](#recommendations) or merge requests that solve security issues.
+This type of work generally involves active attacks against real GitLab systems. It should always support our primary objective to improve the security of GitLab, with a goal to provide [properly labeled recommendations](#phase-one---classification) or merge requests that solve security issues.
 
 Opportunistic attacks are documented in issues that are visible to all team members. We do this work to test hypotheses, prove risks, and generally pursue improvements in a manner that is less structured than a formalized operation.
 
