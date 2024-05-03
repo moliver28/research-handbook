@@ -51,7 +51,7 @@ The [pay date](https://internal.gitlab.com/handbook/finance/payroll/#pay-dates) 
 
 All team members will be accessing payslips though Papaya SSO available as a tile in OKTA. Access will be activated with the first payslip. For any payslip access or general payroll issues please contact payroll in HelpLab by following the [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/) guide.
 
-## Timekeeping
+## Timekeeping Policies
 
 It is mandatory for every Spanish company to register the working day of its employees and these timekeeping records must be kept for four years.
 
@@ -73,9 +73,9 @@ Between work days, team members are entitled to an uninterrupted rest period of 
 
 Overtime, if appropriate, _must be expressly and previously authorized in writing by GitLab_. If GitLab has _not_ required or authorized overtime work, then team members should not exceed the normal daily working hours and such time worked in excess will not be considered overtime for any purposes.
 
-## Time Tracking
+## Time Sheets
 
-Each Team Member will be expected to fill out a monthly time sheet. Team members have an individual folder created [here](https://drive.google.com/open?id=1KE26t6n3dC0FXY9IxhsD-l2E1SaenmLj&usp=drive_fs). Access to folders is monitored and reviewed by the Payroll team. Please use a copy of the timesheet in English or Spanish and create records for each month separately. Please refer to [timekeeping](/handbook/entity/iberia-srl-spain.md#timekeeping) rules and policies.
+Each Team Member will be expected to fill out a monthly time sheet. Team members have an individual folder created [here](https://drive.google.com/open?id=1KE26t6n3dC0FXY9IxhsD-l2E1SaenmLj&usp=drive_fs). Access to folders is monitored and reviewed by the Payroll team. Please use a copy of the timesheet in English or Spanish and create records for each month separately. Please refer to the [timekeeping policies](/handbook/entity/iberia-srl-spain.md#timekeeping-policies).
 
 For new hires, Payroll Team will create a folder for each new hire and validate access and visibility. Access will be shared during the team member's onboarding period and notification will be sent through HelpLab.
 
