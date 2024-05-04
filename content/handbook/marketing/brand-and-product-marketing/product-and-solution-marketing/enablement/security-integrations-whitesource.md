@@ -28,7 +28,7 @@ What type of integration - [Technical, Inbound](/handbook/alliances/#technology-
 WhiteSource will launch a press release on 14 January 2020 to accompany GitLab Commit SFO event.
 
 **How to implement**  
-[Documentation](https://whitesource.atlassian.net/wiki/spaces/WD/pages/806191420/WhiteSource+for+GitLab+Core)  
+[Documentation](https://mend-io.atlassian.net/wiki/spaces/WD/pages/806191420/Mend+for+GitLab)  
 
 **Who to contact at GitLab**  
 - Joint selling questions - @mayanktahil  
@@ -44,7 +44,7 @@ Supporting [issue](https://gitlab.com/gitlab-com/marketing/product-marketing/iss
 - [WhiteSource integration page](https://www.mend.io/gitlab/)  
 - [GitLab partner page](https://about.gitlab.com/partners/#security)
 - [Introductory Blog](https://docs.google.com/document/d/1nu8ddhEcrQ6iP5ebdYSuY-MQsjCUvOnQbRxd8PEbXf4/edit)  
-- [Documentation](https://whitesource.atlassian.net/wiki/spaces/WD/pages/806191420/WhiteSource+for+GitLab+Core)
+- [Documentation](https://mend-io.atlassian.net/wiki/spaces/WD/pages/806191420/Mend+for+GitLab)
 - [Datasheet](https://docs.google.com/document/d/1Rlvv6etH6tkk7xtCmmGLapCI98G82NRsyrpTFJXo8gk/edit?usp=sharing)
 - [FAQ](https://docs.google.com/document/d/1RmPCa0Ap_J_70F_NzbaiTbaIhvod4_7JwNaR8P3hMYk/edit?usp=sharing)
 - Demo:  coming soon  
