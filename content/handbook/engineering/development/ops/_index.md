@@ -124,14 +124,12 @@ Each team created a staffing justification based on the breakdown of sustaining 
 
 ### Sustaining work
 
-Sustaining work refers to the most important security, availability, scalability and performance, essential for _keeping the lights on_ for the feature categories the team supports. Capacity planning for sustaining work was based on meeting the SLO/SLAs of these types of issues.  The labels for sustaining work include:
+Sustaining work refers to the most important security, availability, scalability and performance, essential for _keeping the lights on_ for the feature categories the team supports. Capacity planning for sustaining work was based on meeting the SLO/SLAs of these types of issues.  The labels for sustaining work include, but are not limited to:
 - `bug::vulnerability` (note: specifically this label, as an issue with only a `security` label does not make it a security vulnerability)
 - `bug::availability`
 - `bug::performance`
 - `infradev`
-- `Scaling`
 
-Specific initiatives in the team's backlog may have their own labels that qualify as _sustaining work_, such as `ci::scaling` in Verify.
 
 ### Non-Sustaining work
 
