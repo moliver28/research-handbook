@@ -4,8 +4,6 @@ title: "Core Team"
 
 ## Becoming a Core Team member
 
-WE ROCK!
-
 A new member can be added to the [Core Team](https://about.gitlab.com/community/core-team/) at any time through the following steps:
 
 1. Any Core Team member or GitLab Team member can nominate a new member from the wider community at any time using a confidential issue in [the Core Team group](https://gitlab.com/groups/gitlab-org/gitlab-core-team/-/issues) to limit any possible negative feedback in the smallest setting possible.
