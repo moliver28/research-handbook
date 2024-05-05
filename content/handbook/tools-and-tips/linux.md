@@ -287,9 +287,11 @@ Some caveats apply to this workaround.
 - This workaround must be applied at each login.
 
 ### Common issues
-
-- Here's a list of common situations that prove to be problematic on Linux.
-  You'll want to ensure these components work as desired:
+Here's a list of common situations that prove to be problematic on Linux.
+- You'll want to ensure these components work as desired:
   - Audio through various types of headphones
   - Video capturing - Zoom video and Zoom screen sharing
   - Display - screen resolution or video card related issues
+- When having problems with Okta under Linux, make sure to:
+  - To use the latest Chrome (not Chromium) and your Yubi-Key or a phone without a custom ROM
+  - Install SentinelOne and DirectStrike after your start as soon as possible
