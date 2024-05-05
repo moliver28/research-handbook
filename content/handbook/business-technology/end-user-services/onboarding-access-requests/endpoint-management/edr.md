@@ -264,5 +264,6 @@ sudo sentinelctl management status
    If this is not your result, reach out for assistance in the
    [`#sentinelone`](https://gitlab.slack.com/archives/C043PF9TU4X) channel.
 
+### Common Issues
 
-
+- When installing the SentinelOne agent under Linux, one can receive the error message `N: Download is performed unsandboxed as root as file /x/y/z couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)`. Although the agents seem to work fine despite the error message, you can avoid it by adapting the access rights accordingly for the `_apt` user or just moving the installer to `/tmp` and installing the agent from there.
