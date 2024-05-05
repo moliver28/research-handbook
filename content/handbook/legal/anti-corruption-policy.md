@@ -154,6 +154,4 @@ I have read and understand the Anti-Corruption Policy (the “***Anti-Corruption
     - I shall not pay, offer, promise to pay (or authorize any payment or offer of) money or anything of value, directly or indirectly, to any government employee or official in order to wrongfully influence the government official, obtain or retain business, direct business to any person, induce a government official to use his or her influence to affect or influence any act or decision, or receive an improper advantage.
 1. Should I ever obtain information giving me reason to believe that any Team Member, agent, individual, or entity acting on behalf of GitLab may have engaged in conduct that violates the FCPA or the Anti-Corruption Policy, I undertake to report that information promptly to the Chief Legal Officer of the Company.
 
-I have engaged in or observed the following incidents of potential non-compliance:
-
 I understand that a false, misleading or incomplete statement in this certification of compliance or other violation of the Anti-Corruption Policy may be grounds for termination of employment or of the business relationship.
