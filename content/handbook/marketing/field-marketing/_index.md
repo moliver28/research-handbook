@@ -1140,11 +1140,11 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 | APAC | Kate Baker | Dirk de Vos |
 | APAC - Japan | Shu Kawaguchi |  |
 | EMEA Southern Europe | Marcus Hall & Juliette Francon | Tristan Ouin |
-| EMEA MEA | Marcus Hall & Juliette Francon | TBD |
+| EMEA META | Marcus Hall & Juliette Francon | Adham Alattar |
 | EMEA Northern Europe | Neha Pujari| Michal Kulakowski |
-| EMEA UK/I | Neha Pujari | TBD |
-| EMEA Central Europe | Sarina Kraft | Ilaria Pazienza |
-| EMEA CEE | Sarina Kraft | Ilaria Pazienza |
+| EMEA UK/I | Neha Pujari | Aaron Burgess |
+| EMEA DACH | Sarina Kraft | Ilaria Pazienza |
+| EMEA CEE | Sarina Kraft | Michal Kulakowski  |
 
 ## Field Marketing initiated and funded campaigns
 
