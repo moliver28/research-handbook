@@ -131,53 +131,27 @@ Feel free to complete the assigned training and consider it as taking an extra s
 
 ## How to identify a basic phishing attack
 
-When you receive an email with a link, hover your mouse over the link or view
+- When you receive an email with a link, hover your mouse over the link or view
 the source of the email to determine the link's true destination.
 
-If you hover your mouse cursor over a link in Google Chrome it will show you
+- If you hover your mouse cursor over a link in Google Chrome it will show you
 the link destination in the status bar at the bottom left corner of your browser
 window.
-
-![Hover Example](/images/phishing/hover-status-bar-example-chrome.png)
-
-In Safari the status bar must be enabled to view the true link destination
+- In Safari the status bar must be enabled to view the true link destination
 (View -> Show Status Bar).
 
-Some examples or methods used to trick users into entering sensitive data into
+- Some examples or methods used to trick users into entering sensitive data into
 phishing forms include:
 
-- Using HTTP(S) with a hostname that begins with the name of a trusted
+  - Using HTTP(S) with a hostname that begins with the name of a trusted
 site but ends with a malicious site.
 
-![Malicious Domain](/images/phishing/malicious-domain.png)
-
-- Using a username or password inside the request that corresponds to the name
+  - Using a username or password inside the request that corresponds to the name
 of a trusted domain and assuming the viewer won't view the whole URL.
 
-![Trick Username](/images/phishing/username-password.png)
+  - Using a data URI scheme instead of HTTP(S) is a particularly devious means of tricking users. Data schemes allow the embedding of an entire web page inside the URI itself. Data schemes will not show the typical green lock in the address bar of a browser that is customarily associated with a verified SSL connection.
 
-- Using a data URI scheme instead of HTTP(S) is a particularly devious means of
-tricking users. Data schemes allow the embedding of an entire web page inside
-the URI itself. Data schemes will not show the typical green lock in the address
-bar of a browser that is customarily associated with a verified SSL connection.
-
-![Data Scheme](/images/phishing/data-scheme.png)
-
-When viewing the source of an HTML email it is important to remember that the
-text inside the "HREF" field is the actual link destination/target and the text
-before the `</A>` tag is the text that will be displayed to the user.
-
-`<a href="http://evilsite.example.org">Google Login!</a>`
-
-In this case, "Google Login!" will be displayed to the user but the
-actual target of the link is "evilsite.example.org".
-
-After clicking on a link always look for the green lock icon and "secure" label
-that signify a validated SSL service. This icon alone is not enough to verify the
-authenticity of a website, however the lack of the green icon does mean you
-should never enter sensitive data into that website.
-
-![Green Lock Example](/images/phishing/green-lock-example.png)
+  - When viewing the source of an HTML email it is important to remember that the text inside the "HREF" field is the actual link destination/target and the text before the `</A>` tag is the text that will be displayed to the user. `<a href="http://evilsite.example.org">Google Login!</a>` In this case, "Google Login!" will be displayed to the user but the actual target of the link is "evilsite.example.org". After clicking on a link always look for the green lock icon and "secure" label that signify a validated SSL service. This icon alone is not enough to verify the authenticity of a website, however the lack of the green icon does mean you should never enter sensitive data into that website.
 
 ### What to do if you suspect an email is a phishing attack
 
