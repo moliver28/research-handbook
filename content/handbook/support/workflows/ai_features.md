@@ -79,14 +79,12 @@ All GitLab.com Duo Pro trials can be located using this query: https://customers
 
 ### Troubleshooting AI
 
-While we have customer facing [troubleshooting documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/troubleshooting.html), there are other sources of information for troubleshoot in the following group and projects:
+While we have customer facing [troubleshooting documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/troubleshooting.html), you can also look for more information in Kibana `pubsub-mlops-inf-gprd-*` index. Use one of the following keywords to search:
 
-- http://gitlab.com/gitlab-org/editor-extensions
-- http://gitlab.com/gitlab-org/gitlab-vscode-extension
-  - i.e: https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/tree/main/docs/user?ref_type=heads
-- http://gitlab.com/gitlab-org/gitlab-web-ide
+- `json.jsonPayload.gitlab_host_name`, the value for GitLab.com is `gitlab.com`.
+- `json.jsonPayload.url`, `https://codesuggestions.gitlab.com/` for GitLab Code Suggestion and `https://cloud.gitlab.com/v1/chat/agent` for GitLab Duo chat.
 
 When troubleshooting make sure to get debug logs for [the relevant extension](http://gitlab.com/gitlab-org/editor-extensions).
-You can [get help from Dev section](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help/#list-of-development-sections-and-corresponding-links-to-the-projects-for-requesting-help).
+You can [get help from Dev section](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help/#list-of-development-sections-and-corresponding-links-to-the-projects-for-requesting-help) using the [Editor Extensions](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/blob/main/.gitlab/issue_templates/SupportRequestTemplate-EditorExtensions.md) or [AI Framework](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/blob/main/.gitlab/issue_templates/SupportRequestTemplate-aiframework.md?ref_type=heads).
 
-Feel free to open issues for how AI team can collaborate with support team in the editor extensions Team issue tracker https://gitlab.com/gitlab-org/editor-extensions/meta/-/issues
+Feel free to open issues for how AI team can collaborate with support team in the editor extensions Team issue tracker https://gitlab.com/gitlab-org/editor-extensions/meta/-/issues.
