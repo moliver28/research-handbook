@@ -58,9 +58,9 @@ Depending on the context here are the most appropriate ways to reach out to the 
    - **When:** Every other Thursday, alternating between 11:00 AM GMT+1 and 18:00 PM GMT+1
    - **What:** This meeting is dedicated to the engineering team for the purpose of syncing up on progress, discussing technical challenges, and planning upcoming sprints.
 
-3. **Monthly Sync Retro**
+3. **Think BIG sessions**
    - **When:** Once a month
-   - **What:** This meeting is for our team retrospectives. We reflect on the past month, discuss what went well and what could be improved.
+   - **What:** This session will alternate between EMEA/AMER and APAC regions every other month, focusing on broad discussions about group dynamics and strategic planning.
 
 ### Shared calendars
 
