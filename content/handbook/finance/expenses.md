@@ -367,7 +367,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Existing Team Members will get a yearly refresh of 500 USD (or equivalent local currency) to purchase upgrades, replacements, or enhancements to your home office setup. This only applies to Team Members who have been employed the entire previous fiscal year. This excludes laptops - please connect with the IT team if you require a replacement laptop.
 - We want you to set up your office the way you want it. Although we don't want to put any restrictions regarding which office equipment you may purchase, we would like to outline what is covered under the term Office Equipment.
 - What's included - Essential items which you will need to ensure you are able to perform your role in GitLab should include chair, desk, monitor, Laptop (provided), headset, external mic, external keyboard and external mouse.
-- Further to this, items like additional monitors, laptop stand, external webcam, supplementary lighting, laptop bag/case, can also be considered and expensed using the Stipend/Allowance.
+- Further to this, items like additional monitors, laptop stand, external webcam, supplementary lighting, laptop bag/case, UPS (Uninterruptible Power Supply), can also be considered and expensed using the Stipend/Allowance.
 - Any items outside this will fall under an exception to the policy and will be subjected to review.
 - In addition the following items are **not reimbursable**: Phones, watches, smart speakers and tablets.
 - If you have any doubts please connect with the Expense Team on expenses@gitlab.com. Please note that these purchases are still reviewed by your manager and accounting teams, and any misappropriation of these funds will be flagged.
