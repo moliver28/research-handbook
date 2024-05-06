@@ -36,7 +36,7 @@ stages:
 
 include:
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
-  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
+#  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
 
 default:
   interruptible: true # All jobs are interruptible by default
