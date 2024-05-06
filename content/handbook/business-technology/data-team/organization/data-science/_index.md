@@ -260,10 +260,12 @@ Our current platform consists of:
 ### Feast: Feature Store Implementation
 
 We are using Feast as an open-source Feature Store for our machine learning models.
-Configuration can be found on the Feast project repository, updating the feature store is done via GitLab CI/CD and the web UI is published in a VM on GCP.
+Configuration can be found on [the Feast project repository](https://gitlab.com/gitlab-data/data-science-projects/feast-poc), updating the feature store is done via GitLab CI/CD and the web UI is published in a VM on GCP.
 
-You can find more details on this implementation on the [Feast - Feature Store Implementation](https://internal.gitlab.com/handbook/enterprise-data/platform/data-science/) Internal handbook section.
+You can use the following pages to find more details on:
 
+1. How to use [Feast to fetch features to train and deploy Machine Learning models](/handbook/business-technology/data-team/platform/feast/).
+1. [Feast - Feature Store Implementation](https://internal.gitlab.com/handbook/enterprise-data/platform/data-science/) Internal handbook section.
 
 
 ### CI/CD Pipelines for Data Science
