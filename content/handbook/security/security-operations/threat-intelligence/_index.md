@@ -133,7 +133,9 @@ This helps us understand which of our services are are providing the most valuab
 
 ## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging Threat Intelligence
 
-...
+Please follow our [RFI process](#requests-for-information-rfi) to contact the team.
+
+For a less formal discussion, you can find us in Slack in the `#g_security_threat_intel` channel.
 
 ## <i class="fas fa-link" id="biz-tech-icons"></i> Additional Resources
 
