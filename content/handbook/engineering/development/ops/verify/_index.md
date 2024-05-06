@@ -77,7 +77,7 @@ The Verify stage is made up of:
 
 ### Verify:CI Platform
 
-{{< team-by-manager-role "Senior Engineering Manager(.*)Verify" team="Verify:CI Platform">}}
+{{< team-by-manager-role "Senior Engineering Manager(.*)Verify" team="Verify:CI Platform" >}}
 
 ### Verify Leadership
 
