@@ -275,6 +275,11 @@ By maintaing a Single Source of Truth (SSoT) we give the best possible forum for
 
 - The same video also showcases the [Auto Follow Up](https://app1a.outreach.io/sequences/9543) to Book a Meeting Sequence SDRs and BDRs can use when a prospect responds to one of their sequences.
 
+### Move High Priority Leads Sequence
+
+[Use this sequence](https://web.outreach.io/sequences/11757/overview) when you have a lead stuck in your S1/B1 view that is in High Priority status, but you do not want to actually reach out to the prospect. There are rare cases such as your AE already being in communication with this lead or a deal closing soon where you might want to move these leads out of high priority status without sequencing them
+
+
 ### White Glove Event Follow Up Sequence (SAEs Included)
 
 For more personal events, such as Executive Roundtables, there many be more detailed Last Event Notes that have an ask to include the people who interacted with the prospect at the event. For these situations we have a [specialized white glove sequence.](https://app1a.outreach.io/sequences/12883)
