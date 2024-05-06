@@ -16,6 +16,9 @@ To learn more about Field Ops releases, see the [RSOE Release Schedule handbook 
 
 ## Q2-FY25
 
+### 2024-05-20 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/548))
+
+
 ### 2024-05-06 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/512))
 
 **[New Activity Dropdown for "Customer Onsite"](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5232)**
