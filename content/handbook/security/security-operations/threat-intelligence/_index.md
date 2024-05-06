@@ -118,8 +118,6 @@ We track what happens after a recommendation is delivered by adding a secondary 
 
 An outcome label is added to the issue within one week of delivering the recommendation. A scheduled CI pipeline checks issues with classification labels to ensure they have an outcome.
 
-
-
 ### Attribution
 
 Attribution is another key metric for our threat intelligence program. It measures how often our intelligence on specific threat actors and their tactics, techniques, and procedures (TTPs) is successfully used to identify, prevent, or respond to actual threats targeting our organization.
