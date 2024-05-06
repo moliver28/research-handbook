@@ -24,13 +24,12 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| May 2  | Partner e-Marketplace | Partner Team  |
 | May 9 | New CSE Workflow Overview | CS Team  |
-| May 16 | TBD |  |
+| May 16 | GitLab Ultimate vs. GitHub Advanced Security Comparison | Competitive Intelligence |
 | May 23 | Analyst Relations Update | AR Team  |
 | May 30 | TBD |  |
 | Jun 6 | TBD |  |
-| Jun 13 | TBD |  |
+| Jun 13 | GitLab 17 Launch  | Product Marketing |
 | Jun 20 | TBD |  |
 | Jun 27 | TBD |  |
 | Jul 4 | TBD |  |
@@ -47,6 +46,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-05-02  | **[New GitLab x Google Cloud Integrations](https://drive.google.com/file/d/1wd8d5lVVsLUeOkbScmlp-eZTAokgxqqx/view?usp=drive_link)** | Private  |
 | 2024-04-18 | **[GitLab Duo AI + Competitive Update](https://drive.google.com/file/d/1tHoBhnRyGooHduEryOUPfXJwVpesZcG4/view?usp=drive_link)** | Private |
 | 2024-04-11 | **[FY25-Q1 - GitLab Cloud Partnerships Update](https://drive.google.com/file/d/1hcoGgS7u_Ea_h93aprWhHezRVoEOxood/view?usp=drive_link)** | Private |
 | 2024-03-27 | **[Success Plan Services](https://drive.google.com/file/d/1R3aA-aOMSwoMYAIG8B-plxoS-QJYi76u/view?usp=drive_link)** | Private  |
