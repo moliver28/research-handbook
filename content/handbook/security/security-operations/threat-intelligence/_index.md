@@ -25,7 +25,7 @@ The team is currently made up of cross-function participants from other groups. 
 
 | | |
 |---|---|
-| Chris Moberly | Security Manager |
+| Chris Moberly | [Security Manager](https://handbook.gitlab.com/job-families/security/red-team/#manager-red-team) |
 | Leslie Anzures | [Senior Security Engineer](https://handbook.gitlab.com/job-families/security/security-incident-response-team/#security-incident-response-team-engineer-intermediate) |
 | Laurens van Dijk | [Senior Security Engineer](https://handbook.gitlab.com/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer) |
 | Yunus Khan | [Senior Security Engineer](https://handbook.gitlab.com/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer) |
@@ -120,9 +120,9 @@ We track what happens after a recommendation is delivered by adding a secondary 
 - Accepted and actively being worked on (RecOutcome::InProgress)
 - Accepted but backlogged (RecOutcome::Backlogged)
 - Accepted but blocked (RecOutcome::Blocked)
-- Fully implemented (RecOutcome::Adopted)
-- Partially implemented (RecOutcome::PartiallyAdopted)
-- Rejected - will not be implemented (RecOutcome::NotAdopted)
+- Fully adopted (RecOutcome::Adopted)
+- Partially adopted (RecOutcome::PartiallyAdopted)
+- Rejected - will not be adopted (RecOutcome::NotAdopted)
 
 An outcome label is added to the issue within one week of delivering the recommendation. A scheduled CI pipeline checks issues with classification labels to ensure they have an outcome.
 
