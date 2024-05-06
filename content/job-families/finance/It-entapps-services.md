@@ -9,7 +9,7 @@ The IT Enterprise Services Job Family is responsible for optimal delivery of ser
 
 ### Manager, Enterprise Applications Services (Intermediate)
 
-The Manager, Enterprise Applications Services may report to the [Senior Manager, Enterprise Applications Services](/job-families/finance/it-entapps-services/#senior-manager-data) or to the [Director/Senior Director, Business Technology Operations](/job-families/finance/director-bt-operations).
+The Manager, Enterprise Applications Services may report to the [Senior Manager, Enterprise Applications Services](/job-families/finance/it-entapps-services/#senior-manager-enterprise-applications-services) or to the [Director/Senior Director, Business Technology Operations](/job-families/finance/director-bt-operations).
 
 #### Job Grade
 
