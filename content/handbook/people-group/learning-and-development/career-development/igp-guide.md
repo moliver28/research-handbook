@@ -93,9 +93,9 @@ The IGP is a dynamic tool to help support your growth and development. Workday w
 
 1. Select a format to track your progress. Consider [these examples]({{< ref "career-development#tracking-your-progress" >}}).
 1. Have at least one quarterly [career conversation]({{< ref "career-development#having-career-conversations" >}}) with your manager during a 1:1.
-1. Review your IGP before completing the [Engagement Survey]({{< ref "/handbook/people-group/engagement#cultureamp-engagement-survey-overview" >}}) to incorporate in your feedback on career growth.
+1. Review your IGP before completing the [Engagement Survey](/handbook/people-group/engagement#cultureamp-engagement-survey-overview) to incorporate in your feedback on career growth.
 1. Review before engaging in the [360 feedback program]({{< ref "360-feedback" >}}). Ask for feedback on your specific development areas.
-1. Include your lessons learned and growth opportunities in your [Talent Assessments]({{< ref "/handbook/people-group/talent-assessment" >}}).
+1. Include your lessons learned and growth opportunities in your [Talent Assessments](/handbook/people-group/talent-assessment).
 
 Below is a sample timeline that you may want to follow when it comes to tracking, reflecting and iterating on your IGP, aligning with each half of the fiscal year.
 

@@ -166,7 +166,7 @@ Do not collect data just to have it available for a non-specific purpose. For ex
 - Report any compromised data (see [GitLab’s data classification](/handbook/security/data-classification-standard/#data-classification-levels)) by creating a [security incident](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call).
 - Remember to follow [GitLab’s privacy policy](https://about.gitlab.com/privacy/).
 - Participants may request
-  - **To be removed from the panel:** Remove them, and then reach out to a Research Operations team member to ensure they are removed from other active panels such as First Look and other communications.
+  - **To be removed from the panel:** Remove them, and then reach out to a Research Operations team member to ensure they are removed from other active panels and other communications.
   - **To see their personal data:** They can submit a [Personal data request](/handbook/gdpr/) to see which lists they are subscribed to. Reach out to a Research Operations team member to help with this request.
 
 ### What is an example of a panel in action at GitLab?

@@ -35,7 +35,7 @@ Based on these needs, the Data Team is organized in the following way:
 | ------------------------- | -------------------- | -------------------------------------- | --------------- | -------------- |
 | Enterprise Metrics        |  @nmcavinue          | @lisvinueza @chrissharp                | @annie-analyst  |                |
 | Customer Intelligence     |  @nmcavinue          | @snalamaru                             | @jonglee1218      |                |
-| Customer Product Adoption |  @iweeks             | @mdrussell @michellecooper @utkarsh060 |                 |                |
+| Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 |                 |                |
 
 ## Analytics Engineering - Business Stable Counterpart Assignments
 

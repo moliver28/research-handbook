@@ -2,6 +2,7 @@
 REPORT=markdownlint-cli2-codequality.json
 ERRORS=()
 MSG=""
+REPO_URL="https://gitlab.com/gitlab-com/content-sites/handbook"
 
 generate_message() {
     MSG+="## ⚠️ Pipeline Failure - Linting Errors\n\n"
@@ -20,7 +21,7 @@ generate_table() {
       URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#$ERROR"
       FILE=$(yq ".[$i].location.path" $REPORT -o yaml)
       LINE=$(yq ".[$i].location.lines.begin" $REPORT -o yaml)
-      LOC="https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
+      LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
       ERRORS+=( $ERROR )
       if [[ $ERROR == "Missing CODEOWNER entry" ]]; then
         MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |  |\n"

@@ -19,11 +19,11 @@ Your access will be deactivated on your last day at 4pm (local time) on Monday-T
 
 Departing team members are encouraged to work with their Manager to compile and release an announcement in the #team-member-updates channel.  This should only take place once there is complete alignment with your leadership around the timelines involved and the impacted team/stakeholders have been informed.
 
-A guideline and template for managers has been provided in the [Communicating Departures Company-Wide]({{< ref "/handbook/people-group/offboarding#communicating-departures-company-wide" >}}) section of the Offboarding Guidelines which highlights options to add a little color to the announcement e.g. favourite contribution to the handbook in addition to outlining what [information should and should not]({{< ref "/handbook/people-group/offboarding#what-do-we-share" >}}).
+A guideline and template for managers has been provided in the [Communicating Departures Company-Wide](/handbook/people-group/offboarding#communicating-departures-company-wide) section of the Offboarding Guidelines which highlights options to add a little color to the announcement e.g. favourite contribution to the handbook in addition to outlining what [information should and should not](/handbook/people-group/offboarding#what-do-we-share).
 
 ### When will I receive access to the Slack Channel `#gitlab-alumni`?
 
-If you are [eligible]({{< ref "/handbook/people-group/offboarding#gitlab-alumni-program" >}}) for the Alumni channel, the People Connect team will submit a Access Request during the offboarding process. A team member will receive an email within 3 business days after offboarding.
+If you are [eligible](/handbook/people-group/offboarding#gitlab-alumni-program) for the Alumni channel, the People Connect team will submit a Access Request during the offboarding process. A team member will receive an email within 3 business days after offboarding.
 
 ### Is there anything I need to do before my last day?
 
@@ -33,7 +33,7 @@ The following can be used as a guide on what actions could be taken before your 
 - If you feel comfortable, send a message in the [#team-member-updates](https://gitlab.slack.com/archives/CL55Q4U0K) Slack channel notifying everyone of your departure.
 -
 
-## Laptop and IT-related steps
+## Your Laptop and Account steps
 
 ### GitLab.com
 
@@ -47,10 +47,13 @@ The following can be used as a guide on what actions could be taken before your 
 
 - Move any important Google Docs from your personal [My Drive](https://drive.google.com/drive/my-drive) to a [Shared Drive](https://drive.google.com/drive/shared-drives) so that they will be available to your team and manager after you exit.
 
+### Google Calendar
+
+- Delete any recurring meeting entries hosted by you and ask someone from your team to create new ones moving forward if needed. This is best practice as your Zoom account will no longer be licensed after your last day, any Zoom recordings will not be saved.
+
 ### Other accounts
 
  Set up accounts that you'll need access to after your last day. Ensure your personal email address is up to date with these accounts. They may include:
-  - ADP (payroll): https://workforcenow.adp.com
   - Fidelity (US 401(k)): https://www.fidelity.com
   - E-Trade (RSU): http://www.etrade.com
   - Carta (Stock options): https://login.app.carta.com/credentials/login/
@@ -63,7 +66,10 @@ Under **no circumstance** should you be wiping your own laptop. Laptop wipes mus
 
 ### Can I keep my laptop?
 
+If you are returning your laptop to IT please purchase a cardboard box and packing foam before your last day and expense it in Navan under [Office supplies & consumables](https://handbook.gitlab.com/handbook/finance/expenses/#office-supplies--consumables). IT will be sending a prepaid shipping label to return the laptop.
+
 Please refer to the Laptop Buy Back Policy [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-buy-back-policy).
+
 
 ## Compensation - Payroll
 
@@ -118,7 +124,7 @@ Yes. Payroll processes ESPP reimbursements during payroll cycles with terminatio
 
 ### What happens to my Growth and Development Benefit?
 
-More information can be found in the [Growth and Development]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#recoupment-of-growth-and-development-reimbursements" >}}) Reimbursement section, which states that if you voluntarily terminate employment with GitLab, any expenses or reimbursement related to this benefit will be refunded to GitLab.
+More information can be found in the [Growth and Development](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development#recoupment-of-growth-and-development-reimbursements) Reimbursement section, which states that if you voluntarily terminate employment with GitLab, any expenses or reimbursement related to this benefit will be refunded to GitLab.
 
 ## USA
 
@@ -160,4 +166,4 @@ If you move, please email `people-connect@gitlab.com` so that the People Conne
 
 ### Do I need to return previously expensed Home Office Items?
 
-Please read about the laptop guidelines [here]({{< ref "/handbook/people-group/offboarding/faq#can-i-purchase-my-laptop-from-gitlab" >}}). [Home Office Items](/handbook/finance/procurement/office-equipment-supplies/#-home-office-items) under $1000 USD per item don't need to get returned and are okay for you to keep. If you make a purchase that will cost GitLab $1000 USD per item (or over), this is classed as company property and you will be required to return the item(s) if you leave the company.
+Please read about the laptop guidelines [here](/handbook/people-group/offboarding/faq#can-i-purchase-my-laptop-from-gitlab). [Home Office Items](/handbook/finance/procurement/office-equipment-supplies/#-home-office-items) under $1000 USD per item don't need to get returned and are okay for you to keep. If you make a purchase that will cost GitLab $1000 USD per item (or over), this is classed as company property and you will be required to return the item(s) if you leave the company.

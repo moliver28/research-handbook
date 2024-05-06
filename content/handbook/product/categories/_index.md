@@ -236,6 +236,7 @@ When changing the name of a group, make sure to go through the following steps:
 - Share MR in #product, #development, #g_engineering_analytics and relevant #s_, #g_, and #f_ Slack channels
 - Review direction pages, groups, projects, epics, issues, templates and documentation to ensure the name change is applied consistently.
 - Rename Slack channels to reflect the new group name
+- Update the event and metric definitions belonging to the group by following [this guide](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_lifecycle.html#group-name-changes)
 
 ### Changing category name
 
@@ -292,7 +293,6 @@ Maybe we should make our features easier to search to replace the section below.
 ### Other functionality in [Plan](/handbook/product/categories/#plan-stage) stage
 
 #### [Project Management group](/handbook/product/categories/#project-management-group)
-- markdown functionality
 - assignees
 - milestones
 - due dates
@@ -302,6 +302,11 @@ Maybe we should make our features easier to search to replace the section below.
 - email notifications
 - to-do list
 - Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
+
+#### [Knowlege group](/handbook/product/categories/#knowledge-group)
+
+- markdown functionality
+- rich text editor
 
 ### Other functionality in [Create](/handbook/product/categories/#create-stage) stage
 

@@ -39,7 +39,9 @@ Once an objective has been fully defined, one or more initiatives are created as
 
 ### Pre-sales
 
-The success plan starts during the pre-sales phase, driven by the [Solutions Architect](/handbook/customer-success/account-team/#solutions-architect-sa). Throughout the product evaluation process the SA and the [Account Executive](/handbook/customer-success/account-team/#strategic-account-executive-sae--account-executive-ae) define customer objectives, and use these to demonstrate GitLab value aligned to these objectives. The SA documents these [objectives](#customer-objectives) in the [success plan slide deck](#success-plan-slide-deck) with all of the requisite details. This information is part of what is used for a [Proof of Value](/handbook/customer-success/solutions-architects/tools-and-resources/pov/), and ensures that we have a clear understanding of the customer’s needed business outcomes.
+The success plan starts during the pre-sales phase, driven by the [Solutions Architect](/handbook/customer-success/account-team/#solutions-architect-sa). Throughout the product evaluation process the SA and the [Account Executive](/handbook/customer-success/account-team/#strategic-account-executive-sae--account-executive-ae) define customer objectives, and use these to demonstrate GitLab value aligned to these objectives. The SA documents these [objectives](#customer-objectives) in the [success plan slide deck](#success-plan-slide-deck) with all of the requisite details. This information is part of what is used for a [Proof of Value](/handbook/solutions-architects/tools-and-resources/pov/), and ensures that we have a clear understanding of the customer’s needed business outcomes.
+
+To understand the full process between Pre-sales and Post-sales, please read about the [mutual customer success plan process](/handbook/solutions-architects/sa-practices/customer-success-plan/).
 
 ### Post-sales transition
 

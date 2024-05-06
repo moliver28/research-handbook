@@ -68,30 +68,33 @@ Cases are automatically created when;
 The cases that will be auto created, are split into 5 distinct categories;
 
 Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab.  The cases are labeled as High Priority. 
+- Email to Case (customer emails sent to smallbusiness@)
 - Contact Sales Request
 - Hand-Raise PQL
 - Support Ticket
 - SDR Created
 
 Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption. The cases are labeled as Medium Priority. 
-- Underutilization
-- High PtC
+
 - Auto Renew recently turned off
+- Renewal with Payment Failure
 
 Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. The cases are labeled as Medium Priority.  
 - FO Opp
 - FO Opp (Startup)
-- High PtE
-- 6Sense Growth Signal
-- Overage with QSRs turned off
+- QSRs with Payment Failure
 - Customer MQL
+- Duo Trial Started
 
 Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate. The cases are labeled as Medium Priority. 
 - PO Renewal (includes partner & alliance renewals)
 - EoA Renewal w/ >25 users
 - Multiyear Renewal
+- Renewal Risk: Will Churn
 - Auto Renewal due to fail
-- Overdue Renewals
+- Free User Limit Sales-Assist
+- Renewal with Duo
+- Missing Renewal Opportunity Case
 
 High Value - These are only created for the highest spending accounts in the segment. 
 - High Value Account
@@ -107,10 +110,12 @@ The case logic, context behind the case, and CTA can be viewed on the Case Trigg
 
 If a GitLab team member needs to loop in the Advocate team on a customer Account, they must create a case.  (Chatter messages sent to the AMER/ APAC/ EMEA Sales Users are not monitored).  
 
-- Navigate to the *Account* in Salesforce.
+[Case Creation How-to Video](https://drive.google.com/file/d/1cExv6WlzM4RBkOBDJlSWG56o5BsRGnns/view?usp=drive_link)
+
+- Navigate to the end user *Account* in Salesforce.
 - Hover over *Cases*, and select *New Case*.
 - Select *SMB Sales Case*, from the Record Type dropdown.
-- Add the *Contact*, to the Contact Name lookup field. (A lead can also be added.)
+- Add the *Contact*, to the Contact Name lookup field. (A Lead can also be added, instead of a Contact, however in this scenario, the Account the Lead is matched to must also be manually added to the case.  To find the matched account, view the *Traction Complete Leads: Account* field)
 - Add the *Opportunity*, to the Opportunity lookup field (if relevant). 
 - Describe the ask of the AE in the case *Description* box. Include any relevant links or resources. (Once the case has been created, you can also upload files e.g. a PO, in the *Google Docs & Attachments* section at the bottom of the case record).
 - Select a *Type* that most closely matches the origin of your request. (e.g if you are in Support, select *Inbound Request via Support*)
@@ -125,7 +130,8 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
 - Select a *Case Reason* based on the customers needs.
 - **Check the *Assign using active assignment rules* checkbox, and click *Save*.If this is not done, the case will not enter the SMB Team queue, and will not be actioned**
 - This Case will now drop into the SMB Sales Queue, and will be actioned by a SMB Advocate.
-- Note: if an open SMB Case already exists on the account, do not check the *Assign using active assignment rules* box.  Instead, once you have saved the case, change the *Case Owner* to whoever owns the current open case on the account. 
+- Note: if an open SMB Case already exists on the account, do not check the *Assign using active assignment rules* box.  Instead, once you have saved the case, change the *Case Owner* to whoever owns the current open case on the account, and send them a chatter message on the case.
+- If a case has not been actioned as per the stated SLA, please chatter the regions [ASM](https://gitlab.my.salesforce.com/00OPL000000rpxF2AQ) on the case to escalate. 
 
 ## Tracking Cases you have created
 
@@ -227,6 +233,30 @@ Closed - N/A
 - All other scenarios. 
 
 ## Use Case Specifics
+
+### Email to Case
+
+SMB customers are able to email smallbusiness@ in order to speak to an Advocate.
+
+When they do so, an SMB Case will automatically be created and will drop in the AMER or EMEA Teams queue. 
+
+The subject of the email will displated in the **Case Subject** field, and the email body will appear in the **Case Description** field. 
+
+**FAQ**
+
+Q. As an Advocate, I can see a case in the queue, but there is no contact/ account/ lead attached to the case.  How do I know if the case falls into my region?
+
+A. If a customer emails smallbusiness@ and they do not exist in Salesforce as a contact, the contact and account fields will not be populated on the case.  When this happens, we have no way of knowing which region the customer resides in, therefore the case will appear in both the AMER and EMEA case queues.
+
+Upon viewing the case, an Advocate should check the **Web Email** field to see the customer email domain. Based on the domain, they should manually search for the Account in Salesforce, and add it to the case.  This will move the case to the relevant queue. 
+
+Q. If I pick up a case, but the customer continues to email smallbusiness@, how will I know?
+
+A.  Once you have picked up the case, any future emails from the customer in the same thread will trigger a notification to be sent to the case owner.  All emails in the thread are also attached to the case.
+
+Q. If a customer has a new request, but the send an email to smallbusiness@ via an old thread, will a new case be created?
+
+A. No.  Unfortunately, the email will be attached to the prior case which is likley to have been closed.  In this scenario, the owner of the prior closed case (who will receive a notification of the customers emial), should either ask the customer to initiate a new request (by sending a new email to smallbusiness@.  This will create a new case, and start a new thread. Or, the Advocate can create a new case on the customers behalf, and work that case.
 
 ### High Value Cases
 
@@ -366,7 +396,7 @@ Due to the high case volume, it is imperative that the Required 10 is followed, 
 - Q. There is no opportunity linked to the case, but I have identified a Growth/ Add On opportunity, what do I do?
 - A. If you discover a Growth opportunity, you should manually create a Growth/ Add On opp and link it to the case via the Opportunity field. If an opp is already attached to the case (Renewal or QSR opp), this opp should be updated to reflect the possible growth. 
 - Q. If I am working a case, and the customer advises they are looking to expand but not for 6 months, should I close out the case?
-- A. No, update the Next Steps stating that the customer is open to conversation in 6 months.  Also change the Next Steps Date to 6 month from todays date.  Finaly click the Edit buton on the case, and check the *Asign using active assignment rules*. The case will subsequently drop back into the queue in 6 months time. 
+- A. No, update the Next Steps stating that the customer is open to conversation in 6 months.  Also change the Next Steps Date to 6 month from todays date, and update the stage of the case to Open.  Finaly click the Edit buton on the case, and check the *Assign using active assignment rules*. The case will subsequently drop back into the queue in 6 months time. 
 - Q. I am an AE not in the SMB Org, and a former customer has reached out to me.  This customer is now owned by an SMB Sales User.  How do I hand this customer over to the SMB Sales Team?
 - A. Follow this [process](https://docs.google.com/document/d/1Bc9N0Cvc65NjWHSVoliUp6injZNlbkjEEEZ0dYQm_Ck/edit#heading=h.wmdr1tkj670j). 
 - Q. I just closed won on opp for a SMB Customer, which took them above the $30k CARR threshold.  How do I hand this over to MM?

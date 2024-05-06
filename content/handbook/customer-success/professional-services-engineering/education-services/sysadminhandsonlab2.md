@@ -1,11 +1,13 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Use GitLab Administration Commands"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "This Hands-On Guide walks you through using GitLab command gitlab-ctl to control GitLab services"
 ---
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson2.md).
+## Objectives
+
+The objective of this lab is to show various gitlab-ctl commands you can use to manage your GitLab instance via the CLI. These commands can be ran after installation. For a full list of all the commands you can use with gitlab-ctl, please click [here](https://docs.gitlab.com/omnibus/maintenance/).
 
 ### Task A. Run basic service status commands
 

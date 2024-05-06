@@ -265,12 +265,12 @@ Growth: Analytics and Experimentation Engineers build, maintain, and integrate w
 - Experience with Snowplow
 - Frontend experience including HTML, CSS, and JavaScript frameworks (Vue.js preferred).
 
-### Product Intelligence
+### Analytics Instrumentation
 
-Senior Backend Engineers in the Product Intelligence group play a key role in implementing analytics and data collection tools within the GitLab product in a privacy-focused manner.
+Senior Backend Engineers in the Analytics Instrumentation group play a key role in implementing analytics and data collection tools within the GitLab product in a privacy-focused manner.
 The group focuses on providing GitLab's team with data-driven product insights to build a better GitLab.
 
-The Senior Backend Engineer for Product Intelligence extends the Senior Backend Engineer requirements with these additional requirements and responsibilities.
+The Senior Backend Engineer for Analytics Instrumentation extends the Senior Backend Engineer requirements with these additional requirements and responsibilities.
 
 #### Requirements
 
@@ -282,13 +282,15 @@ The Senior Backend Engineer for Product Intelligence extends the Senior Backend 
 - Experience with dbt, or other related data engineering tools.
 - Experience with Snowflake and Snowpipe.
 - Experience with Snowplow collector.
+- Experience with Go and/or Python.
 - Frontend experience including HTML, CSS, and JavaScript frameworks (Vue.js preferred).
 
 #### Responsibilities
 
-- Build tooling to collect metrics from GitLab.com and self managed instances.
+- Build tooling to collect events and metrics from GitLab.com, Self-Managed and
+  other GitLab and customer services.
 - Work closely with GitLab's Data team to analyse data pipelines.
-- Build automation to ensure the quality of our collected metrics.
+- Build automation to ensure the quality of our collected metrics and events.
 - Build monitoring to ensure the reliability of our data pipelines.
 
 ### Engineering Productivity

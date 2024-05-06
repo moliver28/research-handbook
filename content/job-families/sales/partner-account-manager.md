@@ -2,7 +2,7 @@
 title: "Partner Account Manager"
 ---
 
-A strong partner ecosystem is crucial in the success and growth of  GitLab’s business. Partners are a strategic imperative for GitLab’s continued growth and market expansion. As customer requirements become more complex we need partners with capability and capacity to help customers implement, support and grow their usage of GitLab.  We work closely with cross functional leadership to ensure partners are integrated throughout the sales cycle both pre and post sales. Partner Account Managers are critical in recruiting and building relationships with partners. Partner Account Managers also work with partners to establish and measure goals and performance including pipeline, revenue generation and growing their overall GitLab practice.  
+A strong partner ecosystem is crucial in the success and growth of  GitLab’s business. Partners are a strategic imperative for GitLab’s continued growth and market expansion. As customer requirements become more complex we need partners with capability and capacity to help customers implement, support and grow their usage of GitLab.  We work closely with cross functional leadership to ensure partners are integrated throughout the sales cycle both pre and post sales. Partner Account Managers are critical in recruiting and building relationships with partners. Partner Account Managers also work with partners to establish and measure goals and performance including pipeline, revenue generation and growing their overall GitLab practice.
 
 ## Levels
 
@@ -75,7 +75,7 @@ The Associate Partner Account Manager is responsible for the following with sign
     - GitLab practice capacity
     - GitLab-specific solutions
     - Customer success stories
-- Attain KPI’s to ensure that the goals are met.  
+- Attain KPI’s to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
 - Produce weekly forecasts for assigned partners.
@@ -174,7 +174,7 @@ The Partner Account Manager (Intermediate)  is responsible for the following wit
     - GitLab practice capacity
     - GitLab-specific solutions
     - Customer success stories
-- Attain KPI’s to ensure that the goals are met.  
+- Attain KPI’s to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
 - Produce weekly forecasts for assigned partners.
@@ -272,7 +272,7 @@ Represent GitLab at partner events.
     - GitLab practice capacity
     - GitLab-specific solutions
     - Customer success stories
-- Attain KPI’s to ensure that the goals are met.  
+- Attain KPI’s to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
 - Produce weekly forecasts for assigned partners.
@@ -370,7 +370,7 @@ The Staff Partner Account Manager is responsible for the following with minimal 
     - GitLab practice capacity
     - GitLab-specific solutions
     - Customer success stories
-- Attain KPI’s to ensure that the goals are met.  
+- Attain KPI’s to ensure that the goals are met.
 - Deliver GitLab pipeline and revenue through and with assigned partners.
 - Maintain pipeline and dashboards that communicate assigned partner contributions to GitLab.
 - Produce weekly forecasts for assigned partners.
@@ -591,6 +591,6 @@ Candidates for this position can expect the hiring process to follow the order b
 - Video Interview with the Hiring Manager
 - Team Interviews with 1-4 team members
 
-Additional details about our process can be found on our [hiring page]({{< ref "/handbook/hiring" >}}).
+Additional details about our process can be found on our [hiring page](/handbook/hiring).
  content/job-families/sales/channel-program-manager.md → content/job-families/sales/partner-sales/partner-program-manager.md
 

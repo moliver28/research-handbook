@@ -22,7 +22,7 @@ The [Temporary Service Providers>Lifecycle Management project](https://gitlab.co
 
 1. [Vendor Access Request](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=)
 
-Usage guidelines for each of the access templates is outlined on the [Team Member enablement's handbook page](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+Usage guidelines for each of the access templates is outlined on the [Team Member enablement's handbook page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 These templates should be used during the [onboarding process](/handbook/people-group/general-onboarding/) and throughout the employment tenure of a GitLab Team Member. Access required as part of the team member's onboarding should be requested using the [New Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or if applicable, one of the available [Role-based entitlements templates](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates/role_baseline_access_request_tasks).
 

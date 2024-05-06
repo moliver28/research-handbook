@@ -247,9 +247,9 @@ from PM or UX.
 
 ### Working with Security
 
-The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.
+The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.
 
-An [Application Security Review](/handbook/security/product-security/application-security/appsec-reviews.html) should be requested when the issue or MR might have security implications. These include, but aren't limited to, issues or MRs which:
+An [Application Security Review](/handbook/security/product-security/application-security/appsec-reviews/) should be requested when the issue or MR might have security implications. These include, but aren't limited to, issues or MRs which:
 - falls under the threat model
 - handles binary files (downloading, decompressing, extracting, moving, deleting)
 - modifies or uses file manipulation services
@@ -387,9 +387,8 @@ Below is an overview of topics that are overseen by a tech lead:
 
 | Topic | Tech Lead | Topic Link | Notes |
 | ------ | ------ | ------ | ------ |
-| FLC for #17057 | Carla Drago| [FCL issue](https://gitlab.com/gitlab-com/feature-change-locks/-/issues/43) | - |
-| Direct Transfer Q4 OKR | George Koltsov | [Key Result 1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5027), [Key Result 2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5029) | |
-| GitHub Q4 OKR | Luke Duncalfe | [Key Result](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5028) | |
+| Direct Transfer - User contribution mapping | Rodrigo Tomonari | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/12378) | - |
+| Improve the efficiency of developer contributions to the importers | James Nutt | [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6658) | - |
 | Congregate | tbd | https://gitlab.com/gitlab-org/gitlab/-/issues/428657 | |
 | GitHub Actions | tbd | https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17652 | |
 |  | | |  |
@@ -525,6 +524,10 @@ Learn more about error budgets with these resources:
   - Daily standups [#g_manage_import_and_integrate_daily](https://gitlab.slack.com/archives/C04UYQV7716)
 - Issue boards
   - [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
+- Contribution guides
+  - [Principles of importer design](https://docs.gitlab.com/ee/development/import/principles_of_importer_design/)
+  - [Contributing to Direct Transfer](https://docs.gitlab.com/ee/development/bulk_imports/contributing)
+    - [Feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/456468)
 - Onboarding videos (GitLab Unfiltered Youtube)
   - [Direct Transfer](https://www.youtube.com/watch?v=vVQ6Ex9fSl8) (formerly known as GitLab Migration)
   - [Introduction to GitHub Importer](https://www.youtube.com/watch?v=TxHopzXop5s)

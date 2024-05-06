@@ -52,3 +52,4 @@ Once you have your card created:
 Recommended sites:
 
 - [Ella Cards](https://www.ellacard.com/)
+- [Kudoboard Cards](https://www.kudoboard.com/)

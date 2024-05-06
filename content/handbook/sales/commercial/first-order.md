@@ -181,7 +181,7 @@ The Alliances team can assist with connecting you to the Alliance Partner sales 
 
 1. Get yourself familiar with the [Alliances](https://gitlab-com.gitlab.io/alliances/alliances-internal/) team, what they do and how they can help
 1. Select a list of your top 10 accounts where you know they are using one of our Alliances Partners
-1. Schedule time with the Alliances Manager in your region and bring up that you’d like to be introduced to the Partner representative from the 10 selected accounts. To get in contact with the right Alliances Manager post a new message to the #alliances Slack channel with a brief description of the request. The alliance team member(s) managing the partnership will follow-up with next steps
+1. Schedule time with the Alliances Manager in your region and bring up that you’d like to be introduced to the Partner representative from the 10 selected accounts. To get in contact with the right Alliances Manager post a new message to the #cloud-aws or #cloud-gcp Slack channel with a brief description of the request. The alliance team member(s) managing the partnership will follow-up with next steps
 1. The Alliances Manager is responsible for bringing you in contact with the dedicated customer teams from the Partner (AWS, GCP etc) and set up the meetings
 1. Leverage Alliances help you to break into new accounts where there is already a warm relationship with the Alliances Partner who can help to warm introduce you to the right people in the company
 1. Make sure you understand what the benefit for the Alliances Partner is to introduce you. Always make sure you understand how we can help them and the customer and align your GitLab proposal to this.

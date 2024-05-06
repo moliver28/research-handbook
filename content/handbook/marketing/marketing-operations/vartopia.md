@@ -1,6 +1,6 @@
 # Vartopia Overview
 
-Vartopia is a partner lead sharing and deal registration system designed to maximize the value of [GitLab partner program](/handbook/resellers/) for channel partners. Vartopia offers multiple module including Prospects, Deal Registration, Account Mapping and Campaign. Partner lead sharing is part of the Prospects module, while deal registration is part of the New Registration and Registrations module. Watch [this video](https://youtu.be/BmmiH_ctALk) for step-by-step instructions on where partners can view, accept, reject, assign and convert leads to deal registration.
+Vartopia is a partner lead sharing and deal registration system designed to maximize the value of [GitLab partner program](/handbook/resellers/) for channel partners. Vartopia offers multiple module including Prospects, Deal Registration, Account Mapping and Campaign. Partner lead sharing is part of the Prospects module, while deal registration is part of the New Registration and Registrations module. Watch [this video](https://vimeo.com/819610456) for step-by-step instructions on where partners can view, accept, reject, assign and convert leads to deal registration.
 
 # Prospects Module
 
@@ -39,12 +39,40 @@ Here are the steps to resolve the sync fail.
 
 If all these are submitted correctly, then submit a Vartopia support ticket with a list of the failed sync and its `Vartopia Prospect Id`. The `Vartopia Prospect Id` (ex. L-555555) is a unique lead number identified populated by SFDC that shows in Vartopia and SFDC. We can use this as a non-PII identifier in both systems.
 
+### Prospects to Deal Registration
+
+We can link the Prospect to the DR so long as it’s in Prospect Share Status = `Accepted`, and there is either a matching domain and/or an exact match on the email address. Partners will be prompted with a pop-up to link the Prospect upon DR creation. When the DR is created, Partner Prospect Status will automatically be updated to `Converted to DR`.
+
+[See](https://youtu.be/ktZikNBMOpk) how this works.
+
 ## Notifications
 
 The `Partner Prospect Admin` will receive an email notification when leads are shared them via Vartopia. Vartopia does not offer the functionality to send alerts, thus the main workflows are built and sent from Marketo:
 
 - [Free Trial](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC33938B2ZN19)
 - [List Import](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC34955C3ZN19)
+
+## Prospects Module for Carahsoft
+
+We allow Carahsoft access to the Prospects module through the `Partner Placeholder Pubsec` partner account, which will allow them to receive leads from joint GitLab - Partner marketing campaigns. 
+
+To access the Prospect module, Carahsoft will log into the Partner Placeholder PubSec profile from Impartner, then SSO into Vartopia. The access to the Prospects module is limited to only Marketing users. Should the Sales users wish to create a Deal Registration, they will have to create the deal through their log in to the Distributor account.
+
+In short, only Marketing will use the Prospects through the Partner Placeholder Pubsec, and Sales will continue to create deal registration through the Distributor profile for Carahsoft.
+
+### Internal Process
+
+1. Account - Add marketing email alias  to the Prospect Admin
+2. Campaign/Marketo Setup Process will remain the same in Allocadia, Salesforce, and Marketo.
+3. Attribution - add campaign to smartsheet so it's displayed in the Distributor Marketing Campaign dropdown.
+4. List Import/UTM - when importing the list the CRM Partner ID needs to be assigned to Partner Placeholder PubSec (Account ID (18) = `0014M00001sDPJWQA4`)
+
+### External Process for Carahsoft
+
+1. Log into the Partner Portal using marketing email alias 
+2. Access Vartopia via Deal tabs
+3. Click on Prospects to receive shared leads
+4. Bulk accepts leads so they can be links from Prospect to DR, when DR is created.
 
 ## Partner Recall 
 
@@ -247,6 +275,27 @@ In comparison to the main process, we are required to create a child campaign pe
 7. Marketo - import the leads from POP to the child campaign -  leads must already be assigned to partners on import.
 8. Vartopia - when a partner converts the lead to DR, Vartopia will recognize there's a campaign linked to the account, and display a dropdown to select the campaign name.
 9. Salesforce - see the deal registration that's created and update the metrics on the campaign.
+
+### Carahsoft
+
+#### Distributor Marketing Campaign
+
+On the second page of the DR form, we will have a new campaign field called: `Distributor Marketing Campaign` dropdown when the Distributor Account is selected. The campaigns are collected via a smartsheet which Gabby will be responsible for keeping up to date. When a new entry is submitted to the smartsheet, Vartopia is responsible for adding that campaign to the Distributor Marketing Campaign dropdown.
+
+Then, they will no longer need to use the GitLab Marketing Campaign on the deal registration form.
+
+This will allow the Distributor to tie the DR to the campaign, HOWEVER, we’ll still need to use the Partner Placeholder Pubsec reseller account.
+
+This process is still a work in progress, follow along in this [epic](https://gitlab.com/groups/gitlab-com/-/epics/2249) for the next iteration.
+
+#### Value-Add Campaign
+
+The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI.
+
+1. Gabby - Create a Marketing Ops issue assigned to Salina requesting to have the SFDC campaign created and provide the name of the campaign.
+2. Salina - Create the SFDC campaign, and Salina will provide Gabby with the Salesforce Campaign ID
+3. Gabby - Add Campaign name and info to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1)
+4. This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
 
 # Field Glossary
 

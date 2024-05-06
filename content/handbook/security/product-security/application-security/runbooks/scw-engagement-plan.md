@@ -40,7 +40,7 @@ Developer = Backend + Frontend Engineers. See [Org Chart](https://comp-calculato
 ## Engagement Plan
 
 - Integrating Secure Code Warrior into [new hire onboarding template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_development.md ) as a checklist item that needs to be finished within the first 3 months of starting at GitLab
-   - An Access Request (AR) would be created automatically requesting the new hire access to Secure Code Warrior and the request would ping the `@gitlab-com/gl-security/appsec` DL on the AR issue. The AppSec person on triage rotation picks up the AR.
+   - An Access Request (AR) would be created automatically requesting the new hire access to Secure Code Warrior and the request would ping the `@gitlab-com/gl-security/product-security/appsec` DL on the AR issue. The AppSec person on triage rotation picks up the AR.
 - Monthly Slack announcements calling out the top 3 vulnerabilities seen in our last Security Release, announcement to be made by the AppSec Primary for that release (see [Release Managers](https://about.gitlab.com/community/release-managers/)), and, how developers can learn to identify and fix them
 - Integrating Secure Code Warrior with GitLab CI would greatly help drive continuous engagement
 - Kick-off tournament open to all Development engineers at GitLab. Prizes would be given for the top 3 players of the tournament.

@@ -14,8 +14,7 @@ description: "The Field Update Tickers are a weekly summary of all relevant upda
 
 The Field Update Tickers serve as a weekly summary of all relevant information posted in #field-fyi and/or information directly relevant to each team member’s role segment (Enterprise, Commercial, Customer Success, Field Operations and Channel & Alliances). The information is prioritized based on required action needed and high customer/business impact. The purpose of each Update Ticker is to provide more targeted, focused and action-based communications to team members in each segment. The Update Ticker is not inclusive of all internal communications and team members should continue to use company-wide Slack channels (#company-fyi, #whats-happening-at-gitlab and other Slack channels as appropriate) to stay informed.
 
-The [Enterprise Update Ticker](https://docs.google.com/document/d/18SfdalBZDQyhnN0X7LwCRQmSfv3iiK59JPuj85f6Zkc/edit?usp=sharing) and [Commercial Update Ticker](https://docs.google.com/document/d/1B72XVov_xZN7ESqKL6wbykHDBivw_mygmeQ2AXdBFyE/edit?usp=sharing) are currently operational. Future iterations include the scoping and operationalizing of dedicated Channel & Alliancdes, Customer Success and Field Operations
-Update Tickers.
+The [Enterprise Update Ticker and Commercial Update Ticker](https://baton.fyi/r/#/) are currently operational. Future iterations include the scoping and operationalizing of dedicated Partner, Pre- and Post-Sales and Revenue Strategy, Operations and Enablement (RSOE) Update Tickers.
 
 ## Target Audience
 
@@ -23,7 +22,7 @@ The updates and any associated action include in each Update Ticker is geared to
 
 ## Delivery Mechanism
 
-Each Update Ticker is created and maintained in a Google Doc and also accessible in Highspot via each segment’s dedicated Spot. In the spirit of Iteration and Efficiency, Field Communications will continue to explore new tools to support the Update Tickers.
+Each Update Ticker is created and maintained in Baton and sent via email. In the spirit of Iteration and Efficiency, Field Communications will continue to explore new tools to support the Update Tickers.
 
 ## Individual Contributors: How to Use the Update Ticker
 

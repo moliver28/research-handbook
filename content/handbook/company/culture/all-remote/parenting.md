@@ -192,11 +192,11 @@ From family time to unforgettable adventures, there are many great stories of ho
 
 ### Crucial Conversations resources
 
-- [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}})video entitled `How Working Moms can Do it All`:
+- [Crucial Conversations](/handbook/leadership/crucial-conversations)video entitled `How Working Moms can Do it All`:
 
 {{< youtube "IRvsi-zsKvM" >}}
 
-- [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}) video entitled `How Working Moms can Ask for Help at Home`
+- [Crucial Conversations](/handbook/leadership/crucial-conversations) video entitled `How Working Moms can Ask for Help at Home`
 
 {{< youtube "6CHPChKAsBE" >}}
 

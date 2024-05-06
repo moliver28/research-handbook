@@ -61,32 +61,57 @@ We are also [exploring ideas, existing issues and user feedback](https://gitlab.
 
 ### Current focus
 
+#### Multiple external participants
+
+[External participants](https://gitlab.com/groups/gitlab-org/-/epics/3758) can be invited to an issue and can only interact with it via email. They receive Service Desk notification emails like the external author of a Service Desk ticket. This feature enables customers to have more than one external participant on a Service Desk ticket or regular issue. Part of this feature is to automatically include `CC`ed email addresses on a Service Desk ticket, manage them via quick actions and allow them to individually unsubscribe.
+
+#### Quality of Life improvements
+
+Additionally to bigger features and initiatives we're trying to always include at least once quality of life improvement for Service Desk customers in every release.
+
+#### Former Respond group categories
+
+The Service Desk SEG is also the DRI for the [former Respond group](/handbook/engineering/development/ops/monitor/respond/) categories
+[Service Desk](https://about.gitlab.com/direction/service_management/service_desk/),
+[incident management](https://about.gitlab.com/direction/service_management/incident_management/) and
+[on-call schedule management](https://about.gitlab.com/direction/service_management/on-call_schedule_management/). 
+Service Desk remains the focus.
+
+### Released features
+
+#### Create Service Desk tickets from the UI and API
+
+**Released in GitLab 16.10**
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/ibUGNc2wifQ" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+Not GitLab users can create Service Desk tickets from The UI using the quick action `/convert_to_ticket user@example.com`
+on a regular issue. Using the issues and notes API you can also create Service Desk tickets programmatically.
+This allows customers to build custom integration and intake forms.
+
+See the [feature issue](https://gitlab.com/gitlab-org/gitlab/-/issues/433376) and the
+[documentation](https://docs.gitlab.com/ee/user/project/service_desk/using_service_desk.html#convert-a-regular-issue-to-a-service-desk-ticket)
+for details.
+
 #### Customizable e-mail address on a per-project basis
 
-**Custom email address for Service Desk is planned to be released in Beta in GitLab 16.4 and is already available on GitLab SaaS.**
+**Custom email address for Service Desk has been released in Beta in GitLab 16.4.**
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/_moD5U3xcQs" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Right now GitLab does not support a fully customized and professional e-mail experience throughout the
-communication with the customer. You can add e-mail forwarding from your own e-mail address to the Service Desk
-intake e-mail address, but the sender of the inquiry will always receive answers from the default GitLab
-instance address. That is especially a show-stopper for gitlab.com customers as they do not want to have
-GitLab e-mail addresses in their customer communication.
+Configure a custom email address to show as the sender of your support communication. Maintain brand identity and
+instill confidence among support requesters with a domain they recognize.
 
-We are actively working on [bringing configurable e-mail addresses on a per-project basis to GitLab Service Desk](https://gitlab.com/gitlab-org/gitlab/-/issues/329990).
-The [proposed solution](https://gitlab.com/gitlab-org/gitlab/-/issues/329990#note_1192437371) will involve little changes to existing
-functionality and we will iterate on that to make it even easier to use in the future.
+The feature requires customers to set up email forwarding from their custom email address to the generated Service Desk
+email address. They then provide SMTP credentials for the custom email address so GitLab can send Service Desk emails
+on their behalf.
 
-Customers will need to configure e-mail forwarding from their desired Service Desk e-mail address to the
-provided Service Desk intake e-mail address by the GitLab instance. They will then add SMTP credentials for that address so
-the GitLab instance will be able to send e-mails on behalf of that configured e-mail address.
-We will also allow `Reply-To` e-mail headers to use the configured e-mail address to deliver a complete package.
-
-If you have questions or would like to share feedback, see [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/329990).
-
-### Released features
+If you have questions or would like to share feedback, see [this feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/329990)
+or the [feature issue](https://gitlab.com/gitlab-org/gitlab/-/issues/329990).
 
 #### Native attachments for Service Desk emails
 
@@ -121,6 +146,7 @@ the new domain.
 ### Other resources
 
 - ["Introducing GitLab Service Desk" product overview video](https://www.youtube.com/watch?v=LDVQXv3I5rI)
+- ["Create Service Desk tickets from the UI and API" feature walkthrough video](https://www.youtube.com/watch?v=ibUGNc2wifQ)
 - ["Reopen Service Desk issues when an external participant comments" feature walkthrough video](https://www.youtube.com/watch?v=163wDM1e43o)
 - [Replace `mail_room` email ingestion with scheduled Sidekiq jobs](https://docs.gitlab.com/ee/architecture/blueprints/email_ingestion/)
 - [Custom email address for Service Desk (Overview)](https://youtu.be/_moD5U3xcQs)

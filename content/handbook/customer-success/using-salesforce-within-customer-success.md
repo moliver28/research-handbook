@@ -136,7 +136,7 @@ Once the above questions have been reviewed, the PS Engagement can be marked `Co
 
 ### Proof of Value (POV) objects
 
-Please visit [this page](/handbook/customer-success/solutions-architects/tools-and-resources/pov) for POV documentation.
+Please visit [this page](/handbook/solutions-architects/tools-and-resources/pov) for POV documentation.
 
 ## Salesforce - Customer Success Automations
 

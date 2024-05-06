@@ -2,43 +2,52 @@
 title: Enterprise Applications
 ---
 
-## Manager, CRM Systems
+## CRM Systems, Manager & SFDC Architect
 
-The Manager, CRM Systems reports to the Director, CRM Systems and leads a team of highly-collaborative and results-oriented IT staff tasked with delivering global, high value IT applications across the company. The Manager has the skills, experience, drive and passion to ensure that GitLab has the appropriate IT applications to achieve/exceed corporate objectives; to ensure business alignment with team members and sponsors; and to anticipate the needs of the business and scale the team to stay ahead of the curve. This position has deep technical skills in Salesforce (and ideally Zuora) and can contribute to roadmap discussions across the organization. This team member must be motivated and successful at mentoring by building and sustaining professional relationships at all levels of an organization. The Manager has solid problem solving and decision making skills, is agile and adaptable, and can effectively manage change. This function is both strategic and tactical, can influence adoption, is results oriented, and has a strong client service orientation
+The CRM Systems, Manager (SFDC Architect) reports to the CRM Systems, Director and leads a team of highly-collaborative and results-oriented teams tasked with delivering global, high value Enterprise applications across the company. The Manager has the skills, experience, drive and passion to ensure that GitLab has the appropriate IT applications to achieve/exceed corporate objectives; to ensure business alignment with team members and sponsors; and to anticipate the needs of the business and scale the team to stay ahead of the curve. This role involves defining the business and technology architectures, guiding large project deliveries, and ensuring the successful integration of Salesforce within our organization. The ideal candidate would have a profound knowledge of top of the funnel Marketing Technology, CPQ, CLM, License Management, Billing, and ERP, best practices in engineering, and enterprise architecture standards. complemented by robust leadership and communication abilities.
 
 ### Job Grade
 
-The Manager, CRM Systems is a [grade 8](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [Director, CRM Systems](https://handbook.gitlab.com/job-families/finance/senior-director-enterprise-applications/#director-crm-systems)
+CRM Systems, Manager is a [grade 8](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and reports to the [CRM Systems, Director](https://handbook.gitlab.com/job-families/finance/senior-director-enterprise-applications/#crm-systems-director)
 
 ### Responsibilities
 
 - Business Partnership: Works with leadership within the cross-functional team and assists in roadmap planning.
-- Business Operations: Analyze and plan improvements in technical implementations to continue to deliver value to business partners.
-- Document related processes and technical configurations in the GitLab handbook.
-- Technical Delivery: Provide hands-on, expert-level technical assistance to delivery teams. Drives adoption of technology and process changes. Drive end to end delivery on large, complex, cross-functional projects across multiple systems or integrations with minimal oversight. Proactively provides recommendations for system improvements.
-- Project Management: Run the technical implementation of small and large-sized projects Manage intake and prioritization process for functional areas of expertise.
-- Mentorship: Build and manage global teams. Guide and coach team members. Mentor junior team members and model GitLab values for the team. Ability to delegate key tasks within the team to improve team efficiency and throughput.
-- Measure, monitor, and maintain team’s ability to meet or exceed Service Level Agreements (SLA), Objectives and Key Results (OKRs), and Key Performance Indicators (KPIs). Experience and comfort working in a culture of measurement.
-- Provide critical input to develop and manage the plan of record for the IT Applications portfolio; while driving culture of delivery to commitments.
-- The Manager is expected to identify critical areas of improvement, offer recommended solutions, and drive execution of those solutions.
+- Salesforce Architecture & Foundations: Ascertain and communicate the company's Salesforce requirements. Craft business and technology architecture in sync with our organizational objectives. Supervise the design and deployment of solutions, adhering to Salesforce best practices guidelines.
+- User Experience & Platform Engagement: Propel user experience and design strategies throughout the enterprise to foster platform adoption.
+- Technical & Functional Guidance: Work Closely with Business stakeholders, understand requirements and translate them to actionable solutions. Offer counsel and mentorship to Salesforce team members on technical and functional delivery.
+- System Design & Oversight: Head Salesforce system design deliberations involving multiple teams, presenting alternative options, potential trade-offs, and impact assessments. Prioritize and implement enduring solutions that align with organizational goals.
+- Development Practices & Integration: Maintain Enterprise Architecture standards and functional/technical solution architecture, encompassing environment management, testing, and Salesforce Platform utilization.
+- Technical Delivery: Provide hands-on, expert-level technical assistance to delivery/engineering teams. Drives adoption of technology and process changes. Drive end to end delivery on large, complex, cross-functional projects across multiple systems or integrations with minimal oversight. Proactively provides recommendations for system improvements.
+- Risk Mitigation & Issue Resolution: Proactively pinpoint and oversee risk zones across Salesforce landscape and ensure the Org is in good standing with best practices. Demonstrate commitment to issue resolution, ensuring program longevity and success.
+- Strategic Alignment & Regulatory Adherence: Guarantee adherence to all governing regulations, organizational policies, and procedural guidelines like FEDRamp, GDPR, SOX etc.
+- Mentorship: Build and manage global teams. Guide and coach team members. Mentor junior team members and model GitLab values for the team. Ability to delegate key tasks within the team to improve team efficiency and throughput
+- Measure, monitor, and maintain team’s ability to meet or exceed Service Level Agreements (SLA), Objectives and Key Results (OKRs), and Key Performance Indicators (KPIs). Experience and comfort working in a culture of measurement
+
 
 ### Requirements
 
-- Bachelor’s degree, preferably in Computer Science, Information Technology, Computer Engineering, or related IT discipline; or equivalent experience. 5-7 years of experience implementing, configuring, customizing and integrating SaaS software Eg: SalesForce, Zuora Billing, Zuora Revenue, DocuSign CLM, Netsuite, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
-- 5-7 years’ experience in IT, with 5+ years’ experience leading and managing an IT organization or Applications group at a fast growing high technology company.
+- Bachelor’s degree in Computer Science, Information Technology, or a related discipline. A Master’s degree is advantageous.
+- 5-7 years of experience implementing, configuring, customizing and integrating SaaS software for Lead to Cash Eg: Salesforce, Zuora Billing, Zuora Revenue, DocuSign CLM, Netsuite, Xactly etc.
+- Application specific skills :
+    - Salesforce : Development experience with advanced Salesforce.com development tools and techniques (e.g. LWC, Apex Class, Triggers, Aura Components,  Lightning Design System (LDS), Visualforce Pages, JavaScript, SOAP and REST APIs, SOQL, SOSL, Platform Events, Flows,
+      Profiles, Roles, Lightning Pages etc.,)
+    - Billing Systems: CPQ, Billing, Revenue (Zuora, NetSuite, etc.)
+    - CLM: DocuSign CLM, Ironclad
+    - Middleware : Workato/Mulesoft/Dell Boomi etc.,
+- Salesforce certifications such as Salesforce Certified Technical Architect or Salesforce Certified Application Architect/System Architect, CPQ Specialist is highly desirable.
+- Exhibit strong security and confidentiality practices with systems that handle sensitive data. Experience partnering with internal information security and compliance teams. SOX experience is preferred.
+- In-depth understanding of enterprise architecture standards, superior engineering practices, and the capabilities of the Salesforce platform.
+- Exceptional communication skills, coupled with mentorship and problem-solving abilities.
+- Flexibility to adapt to shifting priorities and the capability to deliver results in a dynamic setting.
 - Be a self-starter, and thrive in a fast paced environment, customer centric and have the interpersonal skills necessary to manage business and technology relationships.
 - Exceptional time management and prioritization skills, resilient under pressure, able to meet deadlines and able to work in a constantly changing environment.
-- Exhibit strong security and confidentiality practices with systems that handle sensitive data. Experience partnering with internal information security and compliance teams. SOX experience is preferred.
-- Strong understanding of LTC business processes in a Zuora environment.
-- Industry certifications a plus: Salesforce, Zuora, PMP, ITIL, CISSP or similar certifications.
-- Proven ability to effectively lead and meet business objectives in a global, collaborative and high performance work environment.
-- Change management knowledge and ability to operate effectively in fast paced environment.
-- Demonstrated experience in vendor management and capacity planning in a fast growth environment.
-- Comfortable with ambiguity and fast change with an ability to adapt quickly and easily.
-- Candidate must have proven ability to consistently and collaboratively resolve issues, mitigate roadblocks, and meet all financial and management goals on time. Will be a self-starter who maps own direction to succeed.
-- Application specific skills:
-   - Salesforce: Development experience with advanced Salesforce.com development tools and techniques (e.g. Apex language, Force.com custom development, triggers, controllers, JavaScript, Force.com SOAP and REST APIs, JSON, AngularJS, jQuery, JavaScript, sObjects, SOQL, SOSL, Chatter APIs, outbound messaging, Bootstrap, Lightning Design System (LDS), Lightning Components and Visualforce pages).
-   - Billing Systems: CPQ, Billing, Revenue (Zuora, NetSuite, etc.).
+- Proven ability to effectively lead and meet business objectives in a global, collaborative and high performance work environment
+- Change management knowledge and ability to operate effectively in fast paced environment
+- Demonstrated experience in vendor management and capacity planning in a fast growth environment
+- Comfortable with ambiguity and fast change with an ability to adapt quickly and easily
+- Candidate must have proven ability to consistently and collaboratively resolve issues, mitigate roadblocks, and meet all financial and management goals on time. Will be a self-starter who maps own direction to succeed
+
 
 ## Director, CRM Systems
 
@@ -220,11 +229,11 @@ The Senior Director, Enterprise Applications is a [grade 11](/handbook/total-rew
 
 ## Performance Indicators (PI)
 
-- [New Hire Location Factor < 0.69](/handbook/business-technology/metrics/#new-hire-location-factor--069)
-- [% of team who self-classify as diverse](/handbook/business-technology/metrics/#percent--of-team-who-self-classify-as-diverse)
-- [Discretionary bonus per employee per month > 0.1](/handbook/business-technology/metrics/#discretionary-bonus-per-employee-per-month--01)
-- [Cost Actual vs Plan](/handbook/business-technology/metrics/#cost-actual-vs-plan)
-- [System roll out vs plan](/handbook/business-technology/metrics/#system-roll-out-vs-plan)
+- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
+- [% of team who self-classify as diverse](https://internal.gitlab.com/handbook/it/it-performance-indicators/#percent--of-team-who-self-classify-as-diverse)
+- [Discretionary bonus per employee per month > 0.1](https://internal.gitlab.com/handbook/it/it-performance-indicators/#discretionary-bonus-per-employee-per-month--01)
+- [Cost Actual vs Plan](https://internal.gitlab.com/handbook/it/it-performance-indicators/#cost-actual-vs-plan)
+- [System roll out vs plan](https://internal.gitlab.com/handbook/it/it-performance-indicators/#system-roll-out-vs-plan)
 
 ## Hiring Process
 

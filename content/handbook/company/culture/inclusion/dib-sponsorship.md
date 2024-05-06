@@ -22,7 +22,7 @@ This page outlines what sponsorship is and the pathway to creating a successful 
 
 ### Mentorship
 
-Mentorship is defined in our [Mentoring handbook page:]({{< ref "/handbook/people-group/learning-and-development/mentor#what-is-mentoring" >}}) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development.
+Mentorship is defined in our [Mentoring handbook page:](/handbook/people-group/learning-and-development/mentor#what-is-mentoring) Mentor relationships are an opportunity for individuals to learn from someone's personal experience, background, and perspective. These relationships build trust on a team, provide safe space to make mistakes, and encourage both personal and professional development.
 
 [Harvard Business Review](https://hbr.org/2019/08/a-lack-of-sponsorship-is-keeping-women-from-advancing-into-leadership) defines the difference between sponsors versus mentors: “While a mentor is someone who has knowledge and will share it with you, a sponsor is a person who has power and will use it for you.”
 

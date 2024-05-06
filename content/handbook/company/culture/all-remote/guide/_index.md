@@ -151,7 +151,7 @@ Not every remote job is created equal. Learn more about [considerations and ques
 
 ## Getting started in a remote role
 
-Learn more about [considerations and tips for starting a new remote role](https://about.gitlab.com./getting-started/).
+Learn more about [considerations and tips for starting a new remote role](https://handbook.gitlab.com/handbook/company/culture/all-remote/getting-started/).
 
 ## Management
 

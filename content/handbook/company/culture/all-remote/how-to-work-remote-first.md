@@ -57,7 +57,7 @@ When your chat tool(s) expire messages after 90 days, it renders it useful for o
 
 In all-remote settings, [informal communication]({{< ref "./informal-communication" >}}) must be structured. The beauty of using a tool like Slack purely for this purpose is it enables even more genuine and intimate conversations than you'd typically experience in a colocated space.
 
-For example, GitLab has group, location, section, values feed, and social group [channels]({{< ref "/handbook/communication/chat" >}}). This enables people to openly converse about informal topics such as parenting, fitness, travel, music, and mental health.
+For example, GitLab has group, location, section, values feed, and social group [channels](/handbook/communication/chat). This enables people to openly converse about informal topics such as parenting, fitness, travel, music, and mental health.
 
 #### Using GitLab for remote collaboration
 
@@ -125,7 +125,7 @@ This added burden forces team members to consider approaching work [asynchronous
 
 > I think [documentation]({{< ref "./management#scaling-by-documenting" >}}) has to be [instilled as a value]({{< ref "values#write-things-down" >}}). It has to start there, and the whole leadership team in an organization has to be onboard.
 >
-> All of [leadership]({{< ref "/handbook/leadership" >}}) needs to understand the importance of documentation — not just with lip service. A true, genuine understanding of its value. If they *truly* understand the value of it, they'll emanate that to their direct reports.
+> All of [leadership](/handbook/leadership) needs to understand the importance of documentation — not just with lip service. A true, genuine understanding of its value. If they *truly* understand the value of it, they'll emanate that to their direct reports.
 >
 > For companies looking to transition to fully remote, a helpful step for leadership is to say: "OK, we're going to be remote-first as a start." This means that a company in transition would optimize everything in its physical office space to be remote-first. Instead of optimizing conference rooms with lots of tables, for instance, you have each employee sit in their own office and wear headsets all day. This is how you prevent remote employees from feeling [disconnected and isolated]({{< ref "./hybrid-remote#disadvantages-to-hybrid-remote" >}}).
 >
@@ -199,7 +199,7 @@ You can do a [deep dive on remote-work challenges and solutions]({{< ref "./draw
 
 ## GitLab Knowledge Assessment: How to use Forcing Functions to Work Remote-First
 
-Anyone can test their knowledge on How to use forcing functions to work remote-first by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSePE1Aii5nQ_Xvz_hInlb2FZsvFkyQduUeMmeJ-vu6CNBqSzg/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Anyone can test their knowledge on How to use forcing functions to work remote-first by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSePE1Aii5nQ_Xvz_hInlb2FZsvFkyQduUeMmeJ-vu6CNBqSzg/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

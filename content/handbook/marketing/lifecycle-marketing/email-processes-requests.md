@@ -187,20 +187,33 @@ _Submit final email for QA and scheduling_
 - Step 3: Build the program and email in Marketo by referring to our [email marketing best practices](https://docs.google.com/presentation/d/1j6F-3ZOFtFM9Tjz1srzbqLjSA56sK7lR2LPdKSl57Vo/edit?usp=sharing) and segment the email accordingly.
 - Step 4: Include a link to the Marketo program while submitting an [Email issue request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email).
 - Step 5: Send a sample for lifecycle to QA
-    - Global/AMER/Newsletters/Corporate = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
-    - APAC/EMEA/Intelligent Nurture = reviewed by [Luis](mailto:ldambrosio@gitlab.com)
+    - Global/AMER/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
+    - APAC/EMEA/PubSec and Localized Nurtures = reviewed by [Luis](mailto:ldambrosio@gitlab.com)
 - Step 6: Make revisions & schedule the email. Can be done by lifecycle or campaigns team member.
 
 #### Field Marketing QA process
 <!-- DO NOT CHANGE THIS ANCHOR -->
 _Request for MOps to build the email_
-- Step 1: Submit an email issue as normal with requested send time and date. Assign to lifecycle marketing for advanced visibility.
-- Step 2: Create copy and tag Lifecycle - within existing SLA of 5 days before send:
-    - [Copy doc](https://docs.google.com/document/d/1ZhHihX1tSoMkio2-qN-iH7lX_2WQuudVOBacd5tiHIk/edit?usp=sharing) filled in (including UTMs - only necessary for internal links)
-    - Images 
-    - Requested segmentation
-- Step 3: MOps will build the email and send to FMM & Lifecycle to review within 24 hours
-- Step 4: MOps makes any corrections and will schedule the email
+1. FMC/Etc puts in the issue request (per usual) 
+2. Mops reviews and puts in Triage if all pieces are in place (per usual)
+3. When in triage, Mops adds a new label for `Lifecycle Copy Review`
+4. Lifecycle reviews the copy, makes suggestions and does the back/forth with submittor
+5. Once approved, Lifecycle adds the `Lifecycle Copy Approved` Label
+6. Marketing Ops will then start to build the email
+7. Once build, Mops will mark needing review for layout/format
+8. Lifecycle approves layout/format
+9. Mops deploys
+
+Notes:
+- Lifecycle does not approve emails that we have a prebuilt template for (workshops, etc.)
+- For follow-up emails, lifecycle will still do a quick review of the copy in the new pre-built templates 
+
+*Important note on 3rd party conferences/tradeshows*
+We only send emails for 3rd party conferences/tradeshows if they meet the following criteria:
+1. They have a GitLab specific CTA (can be our own landing page, book a meeting link, activation registration page)
+2. When we have a blind list account list or previous attendee audience to send the email to. 
+
+For more information on why we do this, please visit [this issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/4047).
 
 #### Corporate Marketing QA process
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -374,7 +387,6 @@ For additional context, please see the [issue here](https://gitlab.com/gitlab-co
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Process for monthly newsletter
-{: #newsletter-process}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Open an issue using the [Newsletter Request Template](https://gitlab.com/gitlab-com/marketing/lifecycle-marketing/-/issues/new?issuable_template=request-email-newsletter), including the newsletter send date
@@ -388,7 +400,7 @@ Open an issue using the [Newsletter Request Template](https://gitlab.com/gitlab-
 A day or two before the issue due date, create the newsletter draft. It's easiest to clone the last newsletter in Marketo:
 
 1. Go to Marketing Activities > Master Setup > Outreach > Newsletter & Security Release
-1. Select the newsletter program template `YYYYMMDD_Newsletter Template`, right click and select `Clone`.
+1. Select the newsletter program template `[YYY.MM.DD] - New blog newsletter template`, right click and select `Clone`.
 1. Clone to `A Campaign Folder`.
 1. In the `Name` field enter the name following the newsletter template naming format `YYYYMMDD_Newsletter Name`.
 1. In the `Folder` field select `Newsletter & Security Release`. You do not need to enter a description.
@@ -494,7 +506,6 @@ The Lifecycle Marketing Manger is responsible for coordinating execution of Free
 * Lifecycle Marketer provides status updates to Free User Efficiency Project
 
 #### Workback Timeline
-{: #workback-timeline}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The workback timeline is to be created by the Lifecycle Marketer to organize the execution of a new campaign. The workback is a starting point, to be discussed and agreed with the teams involved.
@@ -502,7 +513,6 @@ The workback timeline is to be created by the Lifecycle Marketer to organize the
 [Workback Template](https://docs.google.com/spreadsheets/d/1Mrp0xNkpbfS_kvqDB-kFhhBqD-sNK86trx3qswOe6B0/edit?usp=sharing)
 
 #### Epic Code
-{: #epic-code}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ***The Lifecycle Marketer will create the epic with the following structure. Issues will be created an related to this overarching epic to organize execution action items.***

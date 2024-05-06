@@ -11,7 +11,7 @@ description: "The GitLab Learning Restructure Working Group aims to create a pla
 | End Date | 2022-01-05 |
 | Slack           | [#wg-learning restructure](https://join.slack.com/share/zt-whs6k6s0-RFQOqiPuY0tKYDnWKcmwdg) (only accessible from within the company) |
 | Google Doc      | [Learning Restructure Working Group Agenda](https://docs.google.com/document/d/1P-TEi3yXtRum2pV8KDHON4EIn-mYoH72YpDMJGClFR4/edit#heading=h.3f77vfk6c3o1) (only accessible from within the company) |
-| Related Epics and Issues | [Learning Restructure Issue](https://gitlab.com/gitlab-com/chief-of-staff-team/cos-team/-/issues/147) and [GitLab Education Content Management Epic](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/epics/1277)         |
+| Related Epics and Issues | [Learning Restructure Issue](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues/147) and [GitLab Education Content Management Epic](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/epics/1277)         |
 
 ## Business Goal
 

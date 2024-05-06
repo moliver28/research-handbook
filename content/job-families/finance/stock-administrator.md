@@ -125,7 +125,7 @@ The Director, Stock Adminstrator is a [grade 10](/handbook/total-rewards/compens
 - Provide the information for filing of section 16 filings (e.g., Form 4s) for section 16 officers and directors
 - Oversee and manage relationships with external equity trading platform (E*TRADE) and transfer agent (Computershare)
 - Collaborate and partner with internal teams on all equity-related matters to ensure accurate dataflow, provide support for reporting needs, and respond to ad hoc requests
-- Work with our E*TRADE platform as instructed from the Legal team on the list of employees affected by trading blackout periods, pre-clearance, and enforce insider trading policy restrictions, including coordination with brokers on Rule 10b5-1 trading plans,
+- Work with our E*TRADE platform as instructed from the Legal team on the list of employees affected by trading blockout periods, pre-clearance, and enforce insider trading policy restrictions, including coordination with brokers on Rule 10b5-1 trading plans,
 - Prepare equity-related materials for the Board and Compensation Committee meetings, working with our Team Resources
 - Maintain compliance with the terms and condition of global equity plans and internal processes and procedures related to equity administration
 - Support employee understanding of equity awards programs and policies through the preparation of training materials, employee communications, and providing training to employees
@@ -168,7 +168,7 @@ The Senior Director, Stock Adminstrator is a [grade 11](/handbook/total-rewards/
 - Provide the information for filing of section 16 filings (e.g., Form 4s) for section 16 officers and directors
 - Oversee and manage relationships with external equity trading platform (E*TRADE) and transfer agent (Computershare)
 - Collaborate and partner with internal teams on all equity-related matters to ensure accurate dataflow, provide support for reporting needs, and respond to ad hoc requests
-- Work with our E*TRADE platform as instructed from the Legal team on the list of employees affected by trading blackout periods, pre-clearance, and enforce insider trading policy restrictions, including coordination with brokers on Rule 10b5-1 trading plans,
+- Work with our E*TRADE platform as instructed from the Legal team on the list of employees affected by trading blockout periods, pre-clearance, and enforce insider trading policy restrictions, including coordination with brokers on Rule 10b5-1 trading plans,
 - Prepare equity-related materials for the Board and Compensation Committee meetings, working with our Team Resources
 - Maintain compliance with the terms and condition of global equity plans and internal processes and procedures related to equity administration
 - Support employee understanding of equity awards programs and policies through the preparation of training materials, employee communications, and providing training to employees

@@ -50,13 +50,13 @@ The projects are further ordered into Sub-Groups by region:
 - Sharing service ping metrics, graphics, and Usage metrics guides via PDF, CSV with GitLab from the Customer ([configure Collab project for LFS](https://docs.gitlab.com/ee/user/project/settings/index.html#configure-project-visibility-features-and-permissions)).
 - Storing EBR and other meeting recordings ([configure Collab project for LFS](https://docs.gitlab.com/ee/user/project/settings/index.html#configure-project-visibility-features-and-permissions)).
 - Store Meeting Minutes.
-- Providing the [GitLab Support Team](/handbook/support/) and their Architecture Diagrams app access to the [Infrastructure Diagram](/handbook/support/workflows/looking_up_customer_technical_details.html#architecture-diagram-and-customer-success-project)
+- Providing the [GitLab Support Team](/handbook/support/) and their Architecture Diagrams app access to the [Infrastructure Diagram](/handbook/support/workflows/looking_up_customer_technical_details/#architecture-diagram-and-customer-success-project)
 - GitLab exploration. Allowing the customer access to an Ultimate tier namespace can come in handy for exploration of uses they may not have access to in their own instance. Also, it exposes them to our use of issues/epics/boards and may drive some interest in expanding their own use of these features.
 - Issue Boards with [scoped labels](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels) as [workflow states](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels-examples).
 - Provide:
   - Training recommendations.
   - Important links & resources.
-- The use cases of Pre-Sales assets are described in this [Handbook Page: Solutions Architecture Collaboration Project](/handbook/customer-success/solutions-architects/processes/collaboration-project/)
+- The use cases of Pre-Sales assets are described in this [Handbook Page: Solutions Architecture Collaboration Project](/handbook/solutions-architects/processes/collaboration-project/)
 
 ### Setup a Customer Collaboration Project for Customer Success Managers
 

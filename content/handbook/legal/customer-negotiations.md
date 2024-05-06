@@ -191,7 +191,7 @@ Order Form Process for Sales:
 
 ### Request for a Trial or Evaluation Agreement
 
-All customers that desire free access to GitLab Software should be directed to initiate a [free trial](https://gitlab.com/-/trials/new) for access to the GitLab Software, which is subject to and governed by GitLab’s Subscription Agreement.  A free trial is typically used by a customer for internal evaluation, and, as applicable, may also support a more involved [proof of value](/handbook/customer-success/solutions-architects/tools-and-resources/pov/) guided by GitLab.
+All customers that desire free access to GitLab Software should be directed to initiate a [free trial](https://gitlab.com/-/trials/new) for access to the GitLab Software, which is subject to and governed by GitLab’s Subscription Agreement.  A free trial is typically used by a customer for internal evaluation, and, as applicable, may also support a more involved [proof of value](/handbook/solutions-architects/tools-and-resources/pov/) guided by GitLab.
 
 If a customer declines the trial process and is adamant to have a separate Evaluation Agreement, the sales team member or solutions architect should open a Legal Request to request an Evaluation Agreement with Request Form. The Legal Request should first include a request for approval from the Area Sales Manager or higher and also set forth applicable details to fill out the Request Form, such as customer contact information, length of evaluation, number of users, etc.
 
@@ -242,10 +242,11 @@ If the net ARR threshold requirements are met, a Sales team member must open a L
 
 ### Business Associate Agreements (BAAs)
 
-1. Why will GitLab not sign a BAA?
-    -GitLab is transparent with respect to information it requires, or does not require, in order to provide our products and services.
-    -GitLab does not require, nor is it  designed to be used to store, Protected Health Information (PHI). In addition, GitLab, as an organization, does not desire or need to receive, process, store, transact or otherwise possess PHI in order to provide our products and services. Please view [Section 14.3](/handbook/legal/subscription-agreement/#14-security--data-protection) of the Subscription Agreement, which specifically highlights that GitLab should not receive PHI. As such, GitLab does not meet, and has no intention of meeting, the definition of a "Business Associate" as defined under the Health Insurance Portability and Accountability Act (HIPAA).
-    -In the event a customer questions "incidental disclosures," please highlight the HIPAA definition itself, which states: “Business associate functions or activities on behalf of a covered entity include claims processing, data analysis, utilization review, and billing. Business associate services to a covered entity are limited to legal, actuarial, accounting, consulting, data aggregation, management, administrative, accreditation, or financial services. **However, persons or organizations are not considered business associates if their functions or services do not involve the use or disclosure of protected health information, and where any access to protected health information by such persons would be incidental, if at all.**”
+Why will GitLab not sign a BAA?
+
+- GitLab is transparent with respect to information it requires, or does not require, in order to provide our products and services.
+- GitLab does not require, nor is it  designed to be used to store, Protected Health Information (PHI). In addition, GitLab, as an organization, does not desire or need to receive, process, store, transact or otherwise possess PHI in order to provide our products and services. Please view [Section 14.3](/handbook/legal/subscription-agreement/#14-security--data-protection) of the Subscription Agreement, which specifically highlights that GitLab should not receive PHI. As such, GitLab does not meet, and has no intention of meeting, the definition of a "Business Associate" as defined under the Health Insurance Portability and Accountability Act (HIPAA).
+- In the event a customer questions "incidental disclosures," please highlight the HIPAA definition itself, which states: “Business associate functions or activities on behalf of a covered entity include claims processing, data analysis, utilization review, and billing. Business associate services to a covered entity are limited to legal, actuarial, accounting, consulting, data aggregation, management, administrative, accreditation, or financial services. **However, persons or organizations are not considered business associates if their functions or services do not involve the use or disclosure of protected health information, and where any access to protected health information by such persons would be incidental, if at all.**”
 
 ### Data Privacy, Security and the GitLab Data Processing Addendum
 

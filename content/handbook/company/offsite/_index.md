@@ -145,7 +145,7 @@ The following dates were previous E-Group offsites (starting dates):
 
 ## Monthly touch point meetings
 
-We have a monthly, remote touchpoint meeting for months that falls between offsite meetings. These happen between 8:30am and 12:30pm PST. They usually happen on a Monday or Tuesday. In them, we review OKR and [Yearly progress](/handbook/company/yearlies/), discuss key business priorities, and connect on other issues of importance. [E-Group Weeklies](/handbook/e-group-weekly/) will be cancelled during this week. The agenda will be finalized 1.5 weeks in advance of these meetings by the CoS in collaboration with the CEO. The CoST and E-Group is expected to prioritize these discussions.
+We have a monthly, remote touchpoint meeting for months that falls between offsite meetings. These happen between 8:30am and 12:30pm PST. They usually happen on a Monday or Tuesday. In them, we review OKR and [Yearly progress](/handbook/company/yearlies/), discuss key business priorities, and connect on other issues of importance. [E-Group Weeklies](/handbook/e-group-weekly/) will be cancelled during this week. The agenda will be finalized 1.5 weeks in advance of these meetings by the CoS in collaboration with the CEO. The Office of the CEO and E-Group is expected to prioritize these discussions.
 
 ## Offsite topic calendar
 
@@ -157,7 +157,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. Start [**Yearlies**](/handbook/company/yearlies/) (50 minutes)
 1. Start review of [**Three Year Strategy**](/handbook/company/strategy/) (0.5 day)
 1. Non-product **Engineering** review, e.g. architecture, infrastructure
-1. [**CEO Assessment** from the Board](/handbook/ceo/chief-of-staff-team/#ceo-performance-evaluation) (2x session per year, 25 min per session)
+1. [**CEO Assessment** from the Board](/handbook/ceo/office-of-the-ceo/#ceo-performance-evaluation) (2x session per year, 25 min per session)
 
 **Q2 Offsite**
 1. E-Group Offsite Month: June
@@ -174,7 +174,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. Go-to-market (**GTM**) learnings
 1. Finish [**Yearlies**](/handbook/company/yearlies/) for the next year(1.5 hrs)
 1. **Org** design
-1. [**CEO Assessment** from the Board](/handbook/ceo/chief-of-staff-team/#ceo-performance-evaluation) (2x session per year, 25 min per session)
+1. [**CEO Assessment** from the Board](/handbook/ceo/office-of-the-ceo/#ceo-performance-evaluation) (2x session per year, 25 min per session)
 
 **Q4 Offsite**
 1. E-Group Offsite Month: January
@@ -343,7 +343,7 @@ The CoS to the CEO will moderate the call.
 
 The CoS to the CEO is responsible for meeting material. The CoS to the CEO will share the meeting recap material no later than 72 business hours after the offsite concludes and at least 48 hours in advance of the mettig. Material will include an event summary and may include a highlight video message from the CEO or others. All materials will be signed off on by the Legal Team in advance of sharing.
 
-A version of the notes shared with Functional Leaders may be shared with all team members within 4 business days of a Functional Leader eeting. The CoST to the CEO prepares materials excluding Functional Leadering Meeting Q&A or any [material non-public information](/handbook/product/product-safe-guidance/#materially-non-public-information) and shares them in the #company-fyi-private Slack Channel. Functional Leaders are encouraged to discuss relevant information within their teams. You can think of the materials shared with all team members as a "Meeting in a Box."
+A version of the notes shared with Functional Leaders may be shared with all team members within 4 business days of a Functional Leader eeting. The Office of the CEO prepares materials excluding Functional Leaders Meeting Q&A or any [material non-public information](/handbook/product/product-safe-guidance/#materially-non-public-information) and shares them in the #company-fyi-private Slack Channel. Functional Leaders are encouraged to discuss relevant information within their teams. You can think of the materials shared with all team members as a "Meeting in a Box."
 
 ## Content Choice
 

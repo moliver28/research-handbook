@@ -1,11 +1,13 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Configure Instance Monitoring"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "This Hands-On Guide walks you through accessing and using Prometheus configurations and metrics."
 ---
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson7.md).
+## Objectives
+
+The purpose of this lab is to walk you through using Prometheus Service, and how to view Prometheus metrics. To learn more about Prometheus, click [here](https://docs.gitlab.com/ee/administration/monitoring/prometheus/).
 
 ### Task A. Access the Prometheus Service
 

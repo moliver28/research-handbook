@@ -17,9 +17,9 @@ Thirdly, PaC enhances auditing, accountability, and scalability within organizat
 
 ## How and where does Security Compliance implement policy-as-code at GitLab?
 
-Security Compliance is planning to implement Policy as Code (PaC) through the utilization of existing tools, often involving code analysis and scanning Infrastructure-as-Code (IaC) tools like [SAST]("https://docs.gitlab.com/ee/user/application_security/sast/") and Checkov.
+Security Compliance is planning to implement Policy as Code (PaC) through the utilization of existing tools, often involving code analysis and scanning Infrastructure-as-Code (IaC) tools like [SAST](https://docs.gitlab.com/ee/user/application_security/sast/) and Checkov.
 
-To further solidify this approach, focusing on [dogfooding]("https://handbook.gitlab.com/handbook/values/#dogfooding") and leveraging GitLab as a tool becomes imperative. By embracing GitLab to its full potential, the organization can design a proven and scalable concept that streamlines the implementation of PaC, fosters collaboration and enhances visibility into security practices.
+To further solidify this approach, focusing on [dogfooding](/handbook/values/#dogfooding) and leveraging GitLab as a tool becomes imperative. By embracing GitLab to its full potential, the organization can design a proven and scalable concept that streamlines the implementation of PaC, fosters collaboration and enhances visibility into security practices.
 
 This comprehensive integration of tools and practices not only strengthens the Security Compliance efforts but also establishes a robust foundation for proactive risk management and continuous improvement in security posture.
 
@@ -38,4 +38,4 @@ Please see our confidential epic (internal only) to see how we are rolling out t
 - Email
    - `security-compliance@gitlab.com`
 - Here are our team's GitLab.com [subgroups and projects](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance)
-- Interested in joining our team? Check out more [here]({{< ref "/job-families/security/security-assurance-job-family" >}})!
+- Interested in joining our team? Check out more [here](/job-families/security/security-assurance-job-family)!

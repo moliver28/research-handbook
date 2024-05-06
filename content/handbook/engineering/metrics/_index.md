@@ -8,7 +8,7 @@ Several dashboards have been published to the Engineering project in the Tableau
 
 ### Centralized Engineering Metrics
 
-Please refer to our Centralized Engineering Metrics page [here](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/). 
+Please refer to our Centralized Engineering Metrics page [here](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/).
 
 ### Tableau Dashboards
 
@@ -89,30 +89,30 @@ We use the following type labels to classify our Issues and Merge Requests.
 The 3 types (Bug, Feature & Maintenance) is key to our report to industry analysts. It is important for GitLab to communicate effort spent into a format that is easily understandable widely in the industry. We provide this [metric](https://app.periscopedata.com/app/gitlab/976817/Merge-Request-Types) to our leadership reporting and improve the accuracy with subtypes categorization. The 3 top level types can be applied without having to apply a sub-category type.
 
 1. `~"type::bug"`: Defects in shipped code and fixes for those defects. Read more about [features vs bugs](/handbook/product/product-processes/#issues).
-  - `~"bug::performance"`: Performance defects or response time degradation
-  - `~"bug::availability"`: Defects related to GitLab SaaS availability. See [the definition](/handbook/engineering/quality/issue-triage/#availability) for more guidance.
-  - `~"bug::vulnerability"`: Defects related to Security Vulnerabilities
-  - `~"bug::mobile"`: Defects encountered on Mobile Devices
-  - `~"bug::functional"`: Functional defects resulting from feature changes
-  - `~"bug::ux"`: Unexpected and unintended behavior that is detrimental to the user experience.
-  - `~"bug::transient"`: Defects that are transient.
-  - _Note:_ **New** documentation or **new** feature flags that relate to `~"type::bug"` are considered `~"type::bug"`.
+   - `~"bug::performance"`: Performance defects or response time degradation
+   - `~"bug::availability"`: Defects related to GitLab SaaS availability. See [the definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) for more guidance.
+   - `~"bug::vulnerability"`: Defects related to Security Vulnerabilities
+   - `~"bug::mobile"`: Defects encountered on Mobile Devices
+   - `~"bug::functional"`: Functional defects resulting from feature changes
+   - `~"bug::ux"`: Unexpected and unintended behavior that is detrimental to the user experience.
+   - `~"bug::transient"`: Defects that are transient.
+   - _Note:_ **New** documentation or **new** feature flags that relate to `~"type::bug"` are considered `~"type::bug"`.
 1. `~"type::feature"`: Effort to deliver new features, feature changes & improvements. Read more about [features vs bugs](/handbook/product/product-processes/#issues).
-  - `~"feature::addition"`: The first MVC that gives GitLab users a foundation of new capabilities that were previously unavailable. Includes [good user value, usability, and tests](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/). For example, these issues together helped create the first MVC for our Reviewer feature: [Create a Reviewers sidebar widget](https://gitlab.com/gitlab-org/gitlab/-/issues/237921), [Show which reviewers have commented on an MR](https://gitlab.com/gitlab-org/gitlab/-/issues/10294), [Add reviewers to MR form](https://gitlab.com/gitlab-org/gitlab/-/issues/216054), [Increase MR counter on navbar when user is designated as reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/255102)
-  - `~"feature::enhancement"`: Subsequent user-facing improvements that refine the initial MVC by adding additional capabilities that make it more useful. Includes [good user value, usability, and tests](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/). For example, these issues enhance the existing Reviewer feature: [Show MRs where user is designated as a Reviewer on the MR list page](https://gitlab.com/gitlab-org/gitlab/-/issues/237922), [Display which approval rules match a given reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/233736), [Add Reviewers quick action](https://gitlab.com/gitlab-org/gitlab/-/issues/241244)
-  - `~"feature::consolidation"`: Merging a feature into an existing feature for simplification. For example, [Workspace project: (Consolidate Groups and Projects)](https://gitlab.com/groups/gitlab-org/-/epics/6473) and [Combine Top Navigation Menu](https://gitlab.com/groups/gitlab-org/-/epics/5645) are good examples of such work.
-  - _Note:_ **New** documentation or **new** feature flags that relate to `~"type::feature"` are considered `~"type::feature"`.
+   - `~"feature::addition"`: The first MVC that gives GitLab users a foundation of new capabilities that were previously unavailable. Includes [good user value, usability, and tests](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/). For example, these issues together helped create the first MVC for our Reviewer feature: [Create a Reviewers sidebar widget](https://gitlab.com/gitlab-org/gitlab/-/issues/237921), [Show which reviewers have commented on an MR](https://gitlab.com/gitlab-org/gitlab/-/issues/10294), [Add reviewers to MR form](https://gitlab.com/gitlab-org/gitlab/-/issues/216054), [Increase MR counter on navbar when user is designated as reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/255102)
+   - `~"feature::enhancement"`: Subsequent user-facing improvements that refine the initial MVC by adding additional capabilities that make it more useful. Includes [good user value, usability, and tests](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/). For example, these issues enhance the existing Reviewer feature: [Show MRs where user is designated as a Reviewer on the MR list page](https://gitlab.com/gitlab-org/gitlab/-/issues/237922), [Display which approval rules match a given reviewer](https://gitlab.com/gitlab-org/gitlab/-/issues/233736), [Add Reviewers quick action](https://gitlab.com/gitlab-org/gitlab/-/issues/241244)
+   - `~"feature::consolidation"`: Merging a feature into an existing feature for simplification. For example, [Workspace project: (Consolidate Groups and Projects)](https://gitlab.com/groups/gitlab-org/-/epics/6473) and [Combine Top Navigation Menu](https://gitlab.com/groups/gitlab-org/-/epics/5645) are good examples of such work.
+   - _Note:_ **New** documentation or **new** feature flags that relate to `~"type::feature"` are considered `~"type::feature"`.
 1. `~"type::maintenance"`: Upkeeping efforts & catch-up corrective improvements that are not Features nor Bugs. This includes removing or altering feature flags, removing whole features, merge requests that only include new specs or tests, documentation updates/changes (not including new documentation), restructuring for long-term maintainability, stability, reducing technical debt, improving the contributor experience, or upgrading dependencies and packages. For example: [Refactoring the CI YAML config parser](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/15060), [Updating software versions in our tech stack](https://gitlab.com/gitlab-org/ci-cd/codequality/-/issues/22), [Recalculating UUIDs for vulnerabilities using UUIDv5](https://gitlab.com/gitlab-org/gitlab/-/issues/212322)
-  - `~"maintenance::refactor"`: Simplifying or restructuring existing code or documentation
-  - `~"maintenance::removal"`: Deprecation and removal of a functionality when it's no longer needed.
-  - `~"maintenance::dependency"`: Dependency updates and their version upgrades
-  - `~"maintenance::scalability"`: Modification to improve the scalability of GitLab that is not a user facing change or performance improvement. For example changing a column from INT to BIGINT.
-  - `~"maintenance::usability"`: General improvements to product usability that are unrelated to feature prioritization. For example, [UI component](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80903) and [UI text](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80457) updates for consistency with Pajamas and [usability improvements](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/79888).
-  - `~"maintenance::test-gap"`: Test coverage improvements that were not included in feature prioritization.
-  - `~"maintenance::pipelines"`: Pipeline related changes.
-  - `~"maintenance::workflow"`: Improvements of the engineering tooling like Danger, RuboCop, linters, issue templates, etc.
-  - `~"maintenance::performance"`: Non-defect performance improvements such as load time for a specific page or component, or run time for a specific process.
-  - `~"maintenance::release"`: Release management related changes.
+   - `~"maintenance::refactor"`: Simplifying or restructuring existing code or documentation
+   - `~"maintenance::removal"`: Deprecation and removal of a functionality when it's no longer needed.
+   - `~"maintenance::dependency"`: Dependency updates and their version upgrades
+   - `~"maintenance::scalability"`: Modification to improve the scalability of GitLab that is not a user facing change or performance improvement. For example changing a column from INT to BIGINT.
+   - `~"maintenance::usability"`: General improvements to product usability that are unrelated to feature prioritization. For example, [UI component](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80903) and [UI text](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/80457) updates for consistency with Pajamas and [usability improvements](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/79888).
+   - `~"maintenance::test-gap"`: Test coverage improvements that were not included in feature prioritization.
+   - `~"maintenance::pipelines"`: Pipeline related changes.
+   - `~"maintenance::workflow"`: Improvements of the engineering tooling like Danger, RuboCop, linters, issue templates, etc.
+   - `~"maintenance::performance"`: Non-defect performance improvements such as load time for a specific page or component, or run time for a specific process.
+   - `~"maintenance::release"`: Release management related changes.
 
 
 If these labels are missing, it will be tracked in the `undefined` bucket instead.
@@ -209,9 +209,9 @@ The guidelines for inclusion in the `is_part_of_product` lists are:
 Follow these steps to request a new project to be tracked:
 
 1. Create a merge request to the GitLab.com or ops.gitlab.net project list from above.
-1. Assign the merge request to the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#team-members) Engineering Manager.
-1. The Manager of the Engineering Productivity team will work with the [Engineering Analytics Team](/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) to determine the changes to MR Rate metrics and provide validation for the projects. For self-service, team members can validate changes to the MR Rate using [this dashboard](https://app.periscopedata.com/app/gitlab/794887/Scratch-Engineering-Metrics:-MR-Rates-for-Proposals).
-1. The [Director of Engineering Productivity](@dcroft) is the DRI to approve and merge the list of projects.
+2. Assign the merge request to the [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/#team-members) Engineering Manager.
+3. The Manager of the Engineering Productivity team will work with the [Engineering Analytics Team](/handbook/engineering/quality/engineering-analytics/#counterpart-assignments) to determine the changes to MR Rate metrics and provide validation for the projects.
+4. The [Director of Engineering Productivity](https://gitlab.com/yanguo1) is the DRI to approve and merge the list of projects.
 
 There is no need to remove archived projects from the `is_part_of_product` list. Removal of projects will remove historical merge requests from metrics and reduce Merge Request rates.
 

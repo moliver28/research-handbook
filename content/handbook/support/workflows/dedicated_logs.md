@@ -10,6 +10,8 @@ Support can access GitLab Dedicated tenant logs through our [OpenSearch](https:/
 
 When working on a GitLab Dedicated ticket, prioritize asking for information that will help identify applicable log entries. It is best to start collecting this information as early in the ticket as possible. The specific kinds of information will vary depending on the problem you are trying to solve but username, project path, project ID, exact date and time with time zone, [correlation ID](https://docs.gitlab.com/ee/administration/logs/tracing_correlation_id.html) and outgoing IP address are all good examples.
 
+The logs in OpenSearch will all be presented in the UTC time zone, regardless of the customer's time zone.
+
 ## Identifying tenants
 
 Each customer has a dedicated set of credentials needed for examining logs in OpenSearch. The credentials and the URL for that customer's OpenSearch instance are stored in the `GitLab Dedicated - Support` [1Password vault](/handbook/security/#vaults). Each customer is noted by a customer number in the vault, so you must refer to the `<tenant name>` to identify the proper credentials to use for a customer. This is used as part of the accessible URL, such as: `opensearch.<tenant name>.gitlab-dedicated.com`.

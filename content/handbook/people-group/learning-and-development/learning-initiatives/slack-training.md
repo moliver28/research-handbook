@@ -5,9 +5,7 @@ description: "Outline of the GitLab in-app Slack training to train team members 
 
 ## Sign-up
 
-Please review the learning objectives, requirements, and training details before signing up.
-
-Sign up for the Communicate at GitLab: Slack Training by completing [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSe1pBLLFYOuoAyKssl9BtVGNlQXP08YYcudrlsKu0lic6apWQ/viewform?usp=sf_link). The Learning and Development team will enroll you in the cohort you indicate in the form and notify you ~3 business days before the training starts.
+This training is not currenlty running for GitLab team members.
 
 ## Testimonials
 

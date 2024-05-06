@@ -56,7 +56,7 @@ When possible, avoid doing a job interview in a room with other people or in a p
 
 You can have great technology, but if you fail to connect or stay connected during your interview, it can make it difficult to have a productive conversation. Be sure to reset, check, and test your internet connection especially prior to an interview.
 
-If you have challenges with connectivity in your home office, consider asking your interviewer or recruiter whether the company offers [interview accommodations]({{< ref "/handbook/hiring/interviewing#adjustments-to-our-interview-process" >}}) such as reimbursing the cost to rent a private office or call booth for the interview.
+If you have challenges with connectivity in your home office, consider asking your interviewer or recruiter whether the company offers [interview accommodations](/handbook/hiring/interviewing#adjustments-to-our-interview-process) such as reimbursing the cost to rent a private office or call booth for the interview.
 
 ## How do you conduct a remote interview?
 
@@ -81,7 +81,7 @@ Pick a neutral location that is quiet and comfortable. That way, neither you nor
 
 ### Practice
 
-To help make a great first impression, prepare by researching the company and reviewing their [handbook and values]({{< ref "/handbook" >}}). Practice answering some [sample interview questions]({{< ref "/handbook/hiring/interviewing#what-to-expect-during-an-interview-with-a-recruiter" >}}) live with a peer or by recording yourself or practicing in a mirror.
+To help make a great first impression, prepare by researching the company and reviewing their [handbook and values](/handbook). Practice answering some [sample interview questions](/handbook/hiring/interviewing#what-to-expect-during-an-interview-with-a-recruiter) live with a peer or by recording yourself or practicing in a mirror.
 
 ## What traits do remote interviewers look for?
 

@@ -315,14 +315,23 @@ Rest of the World
 
 #### Lead and Contact Record Ownership
 
-Contact Ownership follows the rules as laid out below:
+Contact Ownership follows the rules as laid out below. Contact ownership cannot be updated as it is maintained by an [automated process in Salesforce](https://handbook.gitlab.com/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#contact-ownership) which means that the ownership will revert in the nightly run.
 - Large Accounts
-   - BDR (If present otherwise AE)
-- MM & SMB Accounts
-   - Customer Accounts
-      - AE
+   - BDR (If present, otherwise AE)
+   - If AE, should own all contact follow up then the BDR Prospecting Status needs to be in Restricted.
+- MM Accounts (Sales Segment = MM)
+   - Customer Accounts and BDR Prospecting Status not equal to Actively Working
+      - AE, (Actively Working, BDR)
    - Non-Customer Accounts
       - BDR (If present otherwise AE)
+- SMB Accounts (Sales Segment = SMB)
+    - AE 
+
+AE’s should use the following views to manage their contacts:
+
+- [My MQLs](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZF7&rolodexIndex=-1&page=1)(showcases any contacts in your name that are in MQL status. You should move these to accepted when you’re working them. Other statuses can be used to showcase you’ve seen the MQL and dispositioned accordingly. These should not stay in MQL status)
+- [My Contacts w/ new LIM](https://gitlab.my.salesforce.com/003?fcf=00B4M000004taHN&rolodexIndex=-1&page=1)( showcases contacts in other statuses -not MQL - with a new Last Interesting Moment)
+- [My Contacts in Qualifying](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZFC&rolodexIndex=-1&page=1)(showcases contacts who have been in sequence and then engaged, should help with follow up)
 
 When an BDR is assigned to an Account to support and assist with outreach, the BDR will be added in the `BDR Assigned` lookup field to the account in Salesforce.
 This field then populates down to the related Contact records.

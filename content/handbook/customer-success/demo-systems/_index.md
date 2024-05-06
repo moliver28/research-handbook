@@ -230,7 +230,7 @@ For demo and sandbox use cases requiring an older version, you can deploy a GitL
 
 Historically, there has not been a consistent set of demo data. Each of our Solutions Architects are responsible for creating their own demo data or forking projects from other team members.
 
-See the handbook page for [Demo Readiness](/handbook/customer-success/solutions-architects/demonstrations/#demo-readiness) and [Existing Demonstrations](/handbook/customer-success/solutions-architects/demonstrations/#existing-demonstrations) to get started.
+See the handbook page for [Demo Readiness](/handbook/solutions-architects/demonstrations/#demo-readiness) and [Existing Demonstrations](/handbook/solutions-architects/demonstrations/#existing-demonstrations) to get started.
 
 Please see the <a href="https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/issues">Solutions Architecture Initiatives issue tracker</a> for more information on the crowd sourced OKRs that are in progress and the development of our [Communities of Practice](/handbook/customer-success/initiatives/communities-of-practice.html).
 

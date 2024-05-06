@@ -7,13 +7,13 @@ The GitLab Legal Commercial team is responsible for all contracting matters at G
 
 ## How to work with GitLab Legal Commercial
 
-<a href="{{< ref "/handbook/legal/customer-negotiations" >}}"  class="btn btn-secondary btn-lrg my-4 px-5">
+<a href="/handbook/legal/customer-negotiations"  class="btn btn-secondary btn-lrg my-4 px-5">
 <img src="blog.png" alt="GitLab Marketing - Demand Generation - Icon" class="my-4" height="96" width="96"><br>
 Sales Guide</a>
-<a href="{{< ref "/handbook/legal/procurement-guide-collaborating-with-gitlab-legal" >}}" class="btn btn-secondary btn-lrg  mx-1 my-4 px-5">
+<a href="/handbook/legal/procurement-guide-collaborating-with-gitlab-legal" class="btn btn-secondary btn-lrg  mx-1 my-4 px-5">
 <img src="swag_shop.png" alt="GitLab Marketing - Design - Icon"  class="my-4" height="96" width="96"><br>
 Procurement Guide</a>
-<a href="{{< ref "/handbook/legal/nda" >}}" class="btn btn-secondary btn-lrg my-4 px-5">
+<a href="/handbook/legal/nda" class="btn btn-secondary btn-lrg my-4 px-5">
 <img src="location.png" alt="GitLab Marketing - Developer Relations - Icon"  class="my-4" height="96" width="96"><br>
 NDA Process</a>
 

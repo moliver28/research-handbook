@@ -10,7 +10,7 @@ description: "Test and Tools Infrastructure Team in Test Platform sub-department
 | **GitLab Team Handle**  | [`@gl-quality/tp-test-tools-infrastructure`](https://gitlab.com/gl-quality/tp-test-tools-infrastructure) |
 | **Slack Channel**               | [`#test-tools-infrastructure-team`](https://gitlab.slack.com/archives/C064M4D2V37) |
 | **Slack Handle**               | `@test-tools-infrastructure` |
-| **Team Boards**         | [`Team Planning Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti%3A%3Asupport-request&not%5Blabel_name%5D%5B%5D=failure%3A%3A*&label_name%5B%5D=team%3A%3ATest%20and%20Tools%20Infrastructure)  [`Support & Maintenance Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369206?not%5Blabel_name%5D%5B%5D=type::feature&label_name%5B%5D=team::Test%20and%20Tools%20Infrastructure&label_name%5B%5D=type::*)  |
+| **Team Boards**         | [`Milestone Planning Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369197?not%5Blabel_name%5D%5B%5D=tti::support-request&not%5Blabel_name%5D%5B%5D=failure::*&label_name%5B%5D=team::Test%20and%20Tools%20Infrastructure) <br> [`Support Board`](https://gitlab.com/groups/gitlab-org/-/boards/7369206?label_name%5B%5D=tti::support-request)  |
 | **Issue Tracker**       | [`quality/team-tasks`](https://gitlab.com/gitlab-org/quality/team-tasks/issues/) |
 
 ## Vision
@@ -63,6 +63,9 @@ Every quarter, the team reviews its Roadmap and [Objectives and Key Results (OKR
   - [FY25 Roadmap - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2315)
   - [FY25 Q1 OKR - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2317#note_1730107488)
 
+## Metrics & Dashboards
+The dashboards, owned by Test and Tools Infrastructure team, can be found in the [Test Platform Dashboards](../dashboards.md).
+
 ## How we work
 
 - We prioritize asynchronous communication and a handbook-first approach, in line with GitLab's all-remote, timezone-distributed structure.
@@ -75,8 +78,8 @@ Every quarter, the team reviews its Roadmap and [Objectives and Key Results (OKR
 
 | Event                           | Cadence                              | Agenda                                                                                                                                                                                                                                        |
 |---------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standup notes                   | Twice a week (Tuesday and Thursday)  | Share progress/blockers in `#test-tools-infrastructure-team` via Geekbot updates                                                                                                                                                               |
-| End-of-Week progress update     | Every Thursday EOD | Summarize status, progress, ETA, and areas needing support in the weekly update in each OKR issue. Examples: [FY25-Q1 Test Platform OKR 2.2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5916#note_1763638654), [FY25-Q1 TTI OKR 6](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6079#note_1764535829)        |
+| Standup notes                   | Once a week (Tuesday)  | Share progress/blockers in `#test-tools-infrastructure-team` via Geekbot updates                                         (                                                                                                                      |
+| End-of-Week progress update     | Once a week (Thursday) | Summarize status, progress, ETA, and areas needing support in the weekly update in each OKR issue. Examples: [FY25-Q1 Test Platform OKR 2.2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5916#note_1763638654), [FY25-Q1 TTI OKR 6](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6079#note_1764535829)        |
 | Team meetings and demos         | Bi-weekly on Tuesday <br> 2:30 pm UTC               | [Agenda](https://docs.google.com/document/d/1gtghZCYeg42cMbQ8mWnjBcsu4maMO4OFA0xcQ8MfRHE/edit?usp=sharing)|
 | Monthly retrospective           | Monthly                              | Contribute to [retrospectives](https://gitlab.com/gl-retrospectives/quality)                                                                                                                                                               |
 | Quarterly Business Report       | Quarterly                            | Contribute to [team's success, learnings, innovations and improvement opportunities for each business quarter](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/61)                                               |
@@ -132,6 +135,3 @@ The team currently works cross-functionally, and our task ownership spans multip
 | [`quality/toolbox`](https://gitlab.com/gitlab-org/quality/toolbox) | A collection of scripts for pipeline automation and analysis. Co-owned by the Engineering Productivity team |
 | [`gitlab-qa-resources`](https://gitlab.com/gitlab-org/quality/engineering-productivity-infrastructure) | Collection of terraform resources for Test Platform related infrastructure management. Co-owned by the Engineering Productivity team |
 | [`gitlab-junior-toy-app`](https://gitlab.com/gitlab-org/quality/technical-interviews/gitlab-junior-toy-app) | A toy app used for technical interviews while recruiting for the Software Engineer in Test (SET) position. Internal to the Test Platform sub department |
-
-## Performance Indicators
-TBD

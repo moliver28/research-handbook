@@ -22,13 +22,14 @@ There are 3 groups within marketing who handle external events. Each group has a
 
 
 
-### Legal verbiage that should be included in all event contracts thoughout FY22
+### Legal verbiage that should be included in all event contracts
 
 - This language is what we should be adding to supplier agreements (when agreeing on their template):
   - "Termination for Convenience. GitLab may terminate this Agreement, any SOW or Order, or all at any time, for no reason or for any reason, upon notice to Vendor. Upon receipt of notice of such termination, Vendor shall inform GitLab of the extent to which it has completed performance as of the date of the notice, and Vendor will collect and deliver to GitLab whatever Work Product then exists, if applicable. GitLab will pay Vendor for all Work acceptably performed through the date of notice of termination, provided that GitLab will not be obligated to pay any more than the payment that would have become due had Vendor completed and GitLab had accepted the Work. GitLab will have no further payment obligation in connection with any termination. Upon termination or expiration of this Agreement, Vendor shall return or destroy any GitLab Confidential Information and provide certification thereof."
 - In the event that any supplier does not accept the termination for convenience language here, then, we can following up with this option
   - "Neither party shall be liable to the other for delays or failures in performance resulting from causes beyond the reasonable control of that party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties (“Force Majeure”).
 - In the event of a Force Majeure impact on the performance of either party, then the parties are immediately relieved of obligation to perform. From notice to supplier, GitLab is relieved of the payment obligation. As soon as is practical, but not more than sixty (60) days from GitLab’s notice to supplier, GitLab shall receive from supplier a pro-rata refund of, any fees previously paid, from the date of notice to supplier to the end of the term."
+- Required details for leads shared include: first name, last name, company, title, email 
 
 ## Which events is GitLab already sponsoring?
 
@@ -202,7 +203,7 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 1. PR
    - Start issue using the [announcement template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=announcement) in the Corporate Marketing project for any company, partner or product news that is expected to be announced/timed around  the event. More details on the Request for External Announcements process can be found in the Corporate Communications handbook [here](/handbook/marketing/corporate-communications/#requests-for-external-announcements).
 1. Design
-   1. For the latest approved booth design & messaging, email `events@gitlab.com`.
+   1. For the latest approved booth design & messaging, [please see here](https://www.figma.com/file/pJvEWjV5ajSycyAlV1l69I/FY25-Final-Event-Booth-Creative-Chart?type=design&node-id=0-1&mode=design&t=cuVT3bWxORR2QUNu-0). 
    1. Open issue in the `Corporate Marketing` project for booth design. Assign to Design team and provide booth spec and due date. Provide as much notice as possible.
    1. For any content or major layout changes, tag Product and Solution Marketing and Design in the related booth design issue created in the `Corporate Marketing` project.
 1. Digital
@@ -400,7 +401,7 @@ The above planning list is not exhaustive - see planning issue template in field
 - We lean towards those who might be thought leaders, specialists, or more social for a specific show - i.e. if we are sponsoring an AWS show, we would like for a GitLab + AWS expert to staff the event.
 - We aim to bring minimal team members to keep costs and disruption to normal workflow low. We take into account what value everyone will provide as well as coverage balance. Please check with the event DRI if you personally would like to attend or if you would like to suggest someone participate in an event.
 - Once you have agreed to attend an event, you are not able to back out unless there is a customer facing obligation you need to tend to. We have this in place to avoid unnecessary rework on the event DRI’s behalf.
-- A lot of times a technical sales resource needs to also be assigned to attend an event. In order to do so, please review the SA handbook for [instructions](/handbook/customer-success/solutions-architects/#when-and-how-to-engage-a-solutions-architect) on how to secure one of our awesome SA's. Tag the issue with technical-staff::required and once staffing attained change to label technical-staff::complete.
+- A lot of times a technical sales resource needs to also be assigned to attend an event. In order to do so, please review the SA handbook for [instructions](/handbook/solutions-architects/#when-and-how-to-engage-a-solutions-architect) on how to secure one of our awesome SA's. Tag the issue with technical-staff::required and once staffing attained change to label technical-staff::complete.
 - All those attending will need their manager's approval.
 - If you have been approved by the DRI and your manager to help staff an event, all your travel will be included during the time for the event/ expo days. You need to be onsite and ready to help out as soon as the first expo hall shift opens up and you may book travel any time after the expo hall closes. We will cover the night of lodging before the expo hall opens through to the night it closes. Any additional nights will need to be covered by the individual.
 - Event staffing list will close 2 weeks for **field** events or 3 weeks for **corporate** events before commencement of the event.
@@ -408,7 +409,7 @@ The above planning list is not exhaustive - see planning issue template in field
 
 ### Requesting Technical Staffing
 
-Some events require technical staffing (Solutions Architects and/or others from the Customer Success team). To request technical staffing, please [follow this process](/handbook/customer-success/solutions-architects/processes/#requesting-an-sa-to-support-events).
+Some events require technical staffing (Solutions Architects and/or others from the Customer Success team). To request technical staffing, please [follow this process](/handbook/solutions-architects/processes/#requesting-an-sa-to-support-events).
 
 ### COVID-19 Event Outreach
 

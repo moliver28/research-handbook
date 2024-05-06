@@ -27,7 +27,7 @@ Each process of the maturity model is presented by an issue with a short title a
 #### Maturity levels
 
 The `~Maturity Level::*` label reflects the level of the process and is **mandatory**.
-There are five levels defined along the continuum of the model (see the ["Capability Maturity Model" wikipedia page] for more details):
+There are five levels defined along the continuum of the model (see the ["Capability Maturity Model" wikipedia page](https://en.wikipedia.org/wiki/Capability_Maturity_Model) for more details):
 
 - `~Maturity Level::Initial (1)`
 - `~Maturity Level::Repeatable (2)`
@@ -47,6 +47,4 @@ The `~Maturity::*` label reflects the current state of the process and is **opti
 
 ## Resources
 
-- ["Capability Maturity Model" wikipedia page]
-
-["Capability Maturity Model" wikipedia page]: (https://en.wikipedia.org/wiki/Capability_Maturity_Model)
+- ["Capability Maturity Model" wikipedia page](https://en.wikipedia.org/wiki/Capability_Maturity_Model)

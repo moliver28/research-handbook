@@ -159,5 +159,5 @@ Candidates for this position can expect the hiring process to follow the order b
 - After that, candidates will be invited to schedule a 50 minute interview with a current Program Manager
 - Finally, candidates will be invited to schedule a 50 minute interview with a [Senior Director, People Business Partner](https://handbook.gitlab.com/job-families/people-group/people-business-partner/#senior-director-people-business-partner)
 
-Additional details about our process can be found on our [hiring page]({{< ref "/handbook/hiring" >}}).
+Additional details about our process can be found on our [hiring page](/handbook/hiring).
 

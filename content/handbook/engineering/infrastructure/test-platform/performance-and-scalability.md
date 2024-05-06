@@ -75,7 +75,7 @@ High-level GPT pipeline overview:
 #### Test Results
 
 Information on the testing results can be found over on the
-[Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/#testing-process-and-results).
+[Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/#validation-and-test-results).
 
 #### Performance results comparison of different GitLab versions
 

@@ -24,7 +24,7 @@ Installing software with known vulnerabilities carries inherent risk. Do not all
 
 That is not the intent of this page. The intent of this page is to educate both team members and those in the community who are interested in learning about security.
 
-GitLab's disclosure policy is to make patched vulnerabilities public after 30 days. See our [process for disclosing security issues]({{< ref "/handbook/security#process-for-disclosing-security-issues" >}}). These disclosed issues include steps to reproduce, often include videos or screenshots, and links to the code that patches the issue.
+GitLab's disclosure policy is to make patched vulnerabilities public after 30 days. See our [process for disclosing security issues](/handbook/security#process-for-disclosing-security-issues). These disclosed issues include steps to reproduce, often include videos or screenshots, and links to the code that patches the issue.
 
 Disclosed vulnerabilities, including those listed here, are already publicly accessible [in our issue tracker](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=bug%3A%3Avulnerability). This page will never give more assistance or more detail than already exists in those public issues.
 
@@ -116,7 +116,7 @@ We took multiple steps to holistically address this vulnerability:
 
 - We escaped the first and last name in the following patch: <https://gitlab.com/gitlab-org/gitlab/-/commit/e61e9b9434e2198c4c1d5cf6b4531eb4323c3575>
 - We made AppSec required approvers of subsequent changes to the affected files in <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/88419>
-- We added SemGrep rules to detect and comment on MRs which might introduce XSS with <https://gitlab.com/gitlab-com/gl-security/appsec/sast-custom-rules/-/blob/main/appsec-pings/rules.yml#L65-84>
+- We added SemGrep rules to detect and comment on MRs which might introduce XSS with <https://gitlab.com/gitlab-com/gl-security/product-security/appsec/sast-custom-rules/-/blob/main/appsec-pings/rules.yml#L65-84>
 {{% /details %}}
 
 #### Links
@@ -124,7 +124,7 @@ We took multiple steps to holistically address this vulnerability:
 - GitLab Issue: <https://gitlab.com/gitlab-org/gitlab/-/issues/363293>
 - Patch: <https://gitlab.com/gitlab-org/gitlab/-/commit/e61e9b9434e2198c4c1d5cf6b4531eb4323c3575>
 - Release Post: <https://about.gitlab.com/releases/2022/06/01/critical-security-release-gitlab-15-0-1-released>
-- CVSS and Bounty: [CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/#vector=CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N&range=new) (8.7 High / $13,950.00)
+- CVSS and Bounty: [CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/#vector=CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N&range=new) (8.7 High / $13,950.00)
 - CVE: <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1948>
 - Learn more about XSS:
   - <https://owasp.org/www-community/attacks/xss/>
@@ -203,7 +203,7 @@ Once you've reproduced the bug, have a go at fixing it locally. Then compare you
 
 - GitLab Issue: <https://gitlab.com/gitlab-org/gitlab/-/issues/340449>
 - Release Post: <https://about.gitlab.com/releases/2021/12/06/security-release-gitlab-14-5-2-released/#regular-expression-denial-of-service-via-user-comments>
-- CVSS and Bounty: [CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L](https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/#vector=CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L&range=old) (4.3 Medium / $610.00 / old bounty range)
+- CVSS and Bounty: [CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/#vector=CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L&range=old) (4.3 Medium / $610.00 / old bounty range)
 - CVE: <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39933>
 - Learn more about Denial of Service:
   - <https://owasp.org/www-community/attacks/Denial_of_Service>
@@ -220,7 +220,7 @@ Everyone can contribute to this page - that includes you! You can start by click
 
 First, find an interesting publicly disclosed vulnerability by looking at our [public and closed vulnerability issue list](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=bug%3A%3Avulnerability&first_page_size=20) or our [security release blog posts](https://about.gitlab.com/releases/categories/releases/). Choose a vulnerability that was fixed in any release *prior* to the latest security release.
 
-Open a Merge Request to this page, mention `@gitlab-com/gl-security/appsec`. It should include:
+Open a Merge Request to this page, mention `@gitlab-com/gl-security/product-security/appsec`. It should include:
 
 - A title and non-revealing summary of the vulnerability
 - Steps to install the vulnerable version

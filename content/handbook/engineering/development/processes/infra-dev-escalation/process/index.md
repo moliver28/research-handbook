@@ -170,9 +170,13 @@ The on-call spreadsheet(internal only) can be found by searching [Google Drive f
 
 #### Eligibility
 
-All development backend and fullstack engineers who have been with the company for at least 3 months.
+All backend and fullstack engineers within Core Development, Expansion Development, or Core Platform who have been with the company for at least 3 months, with the exception of team members in:
+- ModelOps: AI Model Validation
+- Secure: Composition Analysis
+- Distribution: Build
+- Infra: DB Reliability Team
 
-Exceptions: (i.e. exempted from on-call duty)
+Other general exceptions: (i.e. exempted from on-call duty)
 
 - Distinguished engineers and above.
 - Intern and Associate engineers.

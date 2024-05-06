@@ -1,27 +1,16 @@
 ---
 title: AI Model Validation Group
-description: "The Model Validation group is focused on how to extend GitLab functionality to provide additional value by leveraging ML/AI."
+description: "The Model Validation group is focused on supporting GitLab teams to make data-driven feature development decisions leveraging ML/AI."
 aliases: /handbook/engineering/development/data-science/model-validation
 ---
 
-## Vision
+## Mission
 
-The Model Validation group is focused on how to extend GitLab functionality to provide additional value by leveraging ML/AI. This group will build on existing successful GitLab categories and features to make them smarter, easier to use, and more intelligent.
-
-[Commit Virtual 2021: What the ML is up with DevOps and AI? A ModelOps Overview](https://www.youtube.com/watch?v=7mUgGFgab4E)
-
-## How we work
-
-- We work in accordance with our [GitLab values](/handbook/values/).
-- We work [transparently](/handbook/values/#transparency), keeping nearly everything public.
-- We get a chance to work on the things we want to work on.
-- We have a [bias for action](/handbook/values/#bias-for-action).
-- We make data-driven decisions.
-- Everyone can contribute to our work.
+The AI Model Validation team mission is to support and improve the integrity, reliability, and effectiveness of Generative AI solutions thorough evaluation, validation, and research science processes. We offer a centralized evaluation framework that promotes data-driven decision-making and pragmatic refinement of AI features.
 
 ## Direction
 
-[Group direction](https://about.gitlab.com/direction/modelops/ai_assisted/)
+[Group direction](https://about.gitlab.com/handbook/engineering/development/data-science/ai-powered/model-validation/)
 
 ## Team members
 
@@ -29,107 +18,91 @@ The following people are permanent members of the Model Validation Group:
 
 | Who | Role |
 | --- | --- |
-| [Hongtao Yang](/handbook/company/team/#hongtaoyang) | Backend Engineer |
-| [Andras Herczeg](/handbook/company/team/#andrasherczeg) | Backend Engineer |
-| [Stephan Rayner](/handbook/company/team/#srayner) | Senior Backend Engineer |
-| [Tan Le](/handbook/company/team/#tle_gitlab) | Senior Fullstack engineer |
+| [Hongtao Yang](/handbook/company/team/#hongtaoyang) | ML Engineer |
+| [Andras Herczeg](/handbook/company/team/#andrasherczeg) | Senior Backend Engineer |
+| [Stephan Rayner](/handbook/company/team/#srayner) | Senior ML Engineer |
+| [Tan Le](/handbook/company/team/#tle_gitlab) | Senior ML Engineer |
 | [Monmayuri Ray](/handbook/company/team/#mon) | Engineering Manager |
-| [Susie Bitters](/handbook/company/team/#susie.bee) | Product Manager |
-| [Katie Macoy](/handbook/company/team/#kmacoy) | Senior Product Designer |
-| [Taylor McCaslin](/handbook/company/team/#tmccaslin) | Group Product Manager |
+| [Susie Bitters](/handbook/company/team/#susie.bee) | Senior Product Manager |
 
 ## How to contact us
 
 - Tag a team member in a merge request or issue
 - Post a message in the #g_ai_model_validation Slack channel (internal only)
 
-##  Responsibilities
+## Customer outcomes we are driving for GitLab
 
-Team responsibilities include:
+If you are a team building or seeking to build an AI solution, you are our customer.
+Additionally, we provide dashboards, insights, and guidance to empower you to
+confidently communicate with YOUR customers using data throughout the process.
+Some examples might include:
+- How did you select the appropriate model for a use case?
+- How did you systematically evaluate your AI solution AT SCALE as a proxy to
+production?
+- What measures were taken for various prompt engineering techniques?
+- Could you explain some of the benchmark datasets you used for evaluation?
+- Do we have insight into whether RAG or the AI Agent is truly effective, and how?
 
-- Creating, testing, and tuning ML models
-- Creating PoCs for AI features, all in accordance with the product roadmap and alignment between the AI Assisted and AI Framework teams. The PoC proves the concept. It doesn't need to implement non-functional requirements such as performance, availability, maintainability, observability, etc.  A PoC may also be written a different language than what is implemented in production (Python to Ruby or vice-versa).  This is similar to how [the vulnerability research and secure development teams operate](/handbook/engineering/development/sec/secure/vulnerability-research/#how-we-work).
-- Turning these PoCs over to the relevant product group (such as AI Framework formerly called AI Enablement) to be productized and supported long-term. This is a similar to how the [vulnerability research team](/handbook/engineering/development/sec/secure/vulnerability-research/) operates (examples of the transition process followed for [LicenseDB](https://docs.google.com/document/d/1NQwdmgngmFLS-0iA5DhywKf_8H7w0oJQfmWRPyKG5i0/edit#heading=h.xr5pzhtyxvhi) and [VET](https://docs.google.com/presentation/d/1VAtshsRQaF9PRSNGL-A9uDQUm38k7tBxDrhRqGrWqzc/edit#slide=id.p)).
+And a lot more!
+
+Our current customers include:
+
+1. AI Powered: Duo-Chat team
+2. Create: Code Creation team
+3. Govern:Threat Insights `Vulnerability explanation` team
+
+##  Top FY25 Priorities
+
+Data Driven evaluated AI Solutions with every code change.
+
+We encompass two categories on AI Evaluation and AI Research. Our goal is to empower each team building AI features to confidently deliver meaningful and relevant features for GitLab customers. As a long-term initiative, we aim to expand our Centralized Evaluation Framework to assess various models, AI features, and components based on quality, cost, and latency. The primary decision factors for AI content quality are:
+
+- Is it honest? (consistent with facts)
+- Is it harmless? (not include content that might offend and harm)
+- Is it helpful? (accomplishing the end goal of the user)
+
+We also aim for AI Engineers to leverage the Centralized Framework for experimenting and expanding from prompt engineering, RAG, Agent, to model tuning.
+This can be achieved through the Framework's API for the Prompt Library, recognizing that every code change significantly impacts the input and output of LLMs.
+
+Further there are novel research topics and we would love GitLab presented in the AI Research community by publishing our approaches on Evaluation!!
+
+## Metrics we love
+
+#### Similarity Score
+
+This metric evaluates the degree of similarity between an answer generated by a point solution and those produced by other LLMs,
+such as Claude-2, Text-Bison, and GPT-4, response to the same question or to ground truth.
+
+#### LLM Judge
+
+This metric involves soliciting evaluations from LLM Judges to assess the quality of answers provided given a specific question and context.
+Judges are tasked with assigning scores based on three key aspects: correctness, comprehensiveness, and readability.
+To enhance the credibility of these scores, multiple LLMs can participate as judges. For instance, if three judges unanimously agree that an answer is subpar, we can confidently conclude its quality.
+
+#### Collective Judge
+
+This metric operates similarly to the "LLM Judge" metric but consolidates all answers generated by each answering model into a single prompt.
+Judges are then tasked with comparing these consolidated responses and assigning scores accordingly.
 
 ## Short term priorities
 
-- Improving the user acceptance rate of code suggestions.
-- Custom evaluation pipelines (prompt library) - [Epic](https://gitlab.com/groups/gitlab-org/modelops/applied-ml/code-suggestions/-/epics/10)
+Our OKRs can be viewed [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=closed_at_desc&state=opened&label_name%5B%5D=group%3A%3Aai%20model%20validation&type%5B%5D=objective&first_page_size=100) (GitLab internal)
 
-## Project management process
 
-Our team uses a hybrid of Scrum for our project management process. This process follows GitLab's [monthly milestone release cycle](/handbook/marketing/blog/release-posts/#schedule).
+### Issues
 
-### Workflow
+Our team works across GitLab project including:
 
-Our team use the following workflow stages defined in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
+- [Prompt library ](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Aai%20model%20validation&first_page_size=20)
+- [Announcements - Weekly updates](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/annoucements/-/issues/?label_name%5B%5D=weekly%20update)
+- [GitLab project](https://gitlab.com/groups/gitlab-org/-/boards/7476573?label_name[]=group%3A%3Aai%20model%20validation) issue board
 
-### Epic roadmap
-
-We use an epic roadmap to track epic progress on a quarterly basis.
-
-### Issue boards
-
-We use issue boards to track progress to track issue progress. Issue boards are our single source of truth for the status of our work. Issue boards should be viewed at the highest group level for visibility into all nested projects in a group.
-
-Currently, we have two boards for two different initiatives:
-
-- [Code Suggestions](https://gitlab.com/groups/gitlab-org/-/boards/5885823?label_name%5B%5D=Category%3ACode%20Suggestions) - collaboration across AI Assisted and AI Framework groups
-- [AI Assisted Research](https://gitlab.com/groups/gitlab-org/-/boards/5929371?label_name[]=Category%3ACode%20Suggestions&label_name[]=group%3A%3Aai%20assisted)
-
-### Iteration
-
-We follow the [iteration process](/handbook/engineering/development/principles/#iteration) outlined by the Engineering function.
-
-### Weekly refinement
-
-Refinement is the responsibility of every team member. Every Friday, Slack will post a refinement reminder in our group channel. During refinement, we make sure that every issue on the issue board is kept up to date with the necessary details and next steps.
-
-Each engineer is expected to provide a quick async issue update by commenting on their assigned issues using the following template:
-
-```markdown
-<!---
-Please be sure to update the workflow labels of your issue to one of the following (that best describes the status)"
-- ~"workflow::In dev"
-- ~"workflow::In review"
-- ~"workflow::verification"
-- ~"workflow::complete"
-- ~"workflow::blocked"
--->
-### Async issue update
-1. Please provide a quick summary of the current status (one sentence).
-1. When do you predict this feature to be ready for maintainer review?
-1. Are there any opportunities to further break the issue or merge request into smaller pieces (if applicable)?
-1. Were expectations met from a previous update? If not, please explain why.
-```
-
-We do this to encourage our team to be more async in collaboration and to allow the community and other team members to know the progress of issues that we are actively working on.
-
-### Milestone Planning and Timeline
-
-Our team follows the [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline) as our group is dependent on the [GitLab self-managed release cycle](https://about.gitlab.com/upcoming-releases/). Here is a our [Milestone progress for Suggested Reviewer](https://gitlab.com/groups/gitlab-org/modelops/applied-ml/review-recommender/-/boards/4228790)
-
-### Issue labels
-
-We use issue labels to keep us organized. Every issue has a set of required labels that the issue must be tagged with. Every issue also has a set of optional labels that are used as needed.
 
 **Required labels**
 
-- Stage: `~devops::modelops`
-- Group: `~group::AI Assisted`
+- Group: `~group::ai model validation`
 
-### Merge request labels
-
-MR labels can mirror issue labels (which is automatically done when created from an issue), but only certain labels are required for correctly [measuring engineering performance](#measuring-engineering-performance).
-
-**Required labels**
-
-- Stage: `~devops::modelops`
-- Group: `~group::AI Assisted`
-
-### Milestones
-
-We tag each issue and MR with the planned milestone or the milestone at time of completion.
+<!--
 
 ## Team Meetings
 
@@ -178,4 +151,4 @@ We periodically showcase demos, and if there is any specific demo on Machine lea
   {{< tableau/filters "GROUP_LABEL"="ai model validation" >}}
 {{< /tableau >}}
 
-<!-- <%# TBD Mon to update as the dashboads are empty %> -->
+-->

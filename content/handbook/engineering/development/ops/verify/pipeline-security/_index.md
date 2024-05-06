@@ -90,8 +90,15 @@ We use a [release planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-s
 
 #### Issue weighting and refinement
 Before issues can be moved from the `workflow::planning breakdown` status into the  `workflow::ready for development` status, they must have a weight greater than 0 applied to the issue.
-The Product Manager (PM) and/or Engineering Manager (EM) will tag the approriate team member to provide input for issues that need to be weighed in advance of the target milestone.
-We would like to give engineers one full milestone to refine and weight the issues.
+
+We will apply a two-step estimating process: 
+
+- Phase 1: High-level/Rough estimate. Our intention here is to enable the PM to schedule issues according to capacity multiple milestones in advance, the EM will add a high-level estimated weight to issues. The PM will then schedule the issue to a specific milestone. 
+- Phase 2: Refinement/Validated estimate. Engineers will be assigned to refine and adjust the estimated weight (if necessary) during the first two weeks of the milestone prior to the issue's scheduled milestone.
+
+The intention of this phased process is to enable agile planning and reduce the burden of our engineers in frequent context-switching required to investigate and refine issues throughout each milestone. Additionally, this provides our team a quarterly look ahead in the group's direction. 
+
+#### Issue weight system
 An issue weight is determined based on the complexity in the following criteria:
 - Code change - How difficult is it to make the required code changes?
 - Interaction and dependency on other teams - How much interaction with other teams are needed?
@@ -144,8 +151,8 @@ The [Pipeline Security group Error Budget dashboard](https://dashboards.gitlab.n
 
 The engineering manager will review the error budget dashboard weekly to determine whether we're exceeding our budget, determine what (if anything) is contributing to our error budget spend, and create issues addressing root cause for product manager prioritization. Issues created to address error budget spend should be created using appropriate labels and prioritized according to our [technical debt process](#prioritizing-technical-debt). Other issues may be created as a result of the [Ops Section SaaS Reviews](/handbook/product/performance-indicators/#verify-verifytesting---error-budget-for-gitlabcom) and also prioritized using the technical debt process.
 
-#### Prioritizing technical and UX debt
-We follow the [company guidance](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in how we prioritize technical debt and [UX debt](/handbook/product/ux/performance-indicators/#ux-debt). In order to manage this effectively we have decided to keep track of technical and UX debt and feature maintenance issues that are ready to be worked on in the "~workflow::scheduling" column, prioritized by Product, but informed by the impact these issues will have on our future velocity. We will try to dedicate a certain percentage (~30%) of our capacity by weight in each milestone to paying down technical and UX debt. We do not consider bugs to be debt, and they are prioritized as part of the remaining capacity by weight.
+#### Prioritizing technical debt and deferred UX
+We follow the [company guidance](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in how we prioritize technical debt and [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux). In order to manage this effectively we have decided to keep track of technical debt, Deferred UX, and feature maintenance issues that are ready to be worked on in the "~workflow::scheduling" column, prioritized by Product, but informed by the impact these issues will have on our future velocity. We will try to dedicate a certain percentage (~30%) of our capacity by weight in each milestone to paying down technical debt and deferred UX. We do not consider bugs to be debt, and they are prioritized as part of the remaining capacity by weight.
 
 #### Deliverables in a Milestone
 Engineering managers apply the `Deliverable` label on issues that meet the following criteria:

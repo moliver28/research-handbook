@@ -4,6 +4,8 @@ RoleName: "SMB Advocate"
 description: "Learn more about SMB Advocate roles at GitLab including requirements, responsibilities and more."
 ---
 
+## SMB Advocate
+
 ## Job Grade
 
 The SMB Advocate is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
@@ -39,12 +41,39 @@ The SMB Advocate is a [grade 6](/handbook/total-rewards/compensation/compensatio
 {{% job-families/sales/performance %}}
 
 
+## SMB Advocate Team Lead
+
+The SMB Advocate Team Lead reports to the Digital SMB Regional Manager.
+
+### SMB Advocate Team Lead Job Grade
+
+The SMB Advocate Team Lead is a grade 6.
+
+### SMB Advocate Team Lead Responsibilities
+
+The SMB Advocate Team Lead role extends the responsibilities of the SMB Advocate role, with the addition of new official responsibilities that support the productivity of the Advocate team as a whole and representing our SMB customers. These are:
+- Help design and run the onboarding process for new starters
+- Help support/coach colleagues and run team enablement sessions
+- Cover team manager’s absence, on request for some specific tasks (team meetings, forecasts and team weekly check-ins)
+- Participate in cross-functional initiatives to drive the SMB strategy, and represent the SMB Advocate team
+- Meet with fellow SMB Advocate Team Leads to develop global initiatives
+- Amplify the voice of the customer and encourage a culture of customer-centricity
+- Participate in the recruitment process of new team members
+- Support team-bonding and identity-building initiatives, while encouraging team participation and contribution
+- Be a subject matter expert in at least one core skill of the SMB Advocate role (“core skills to be added to HB”)
+
+### SMB Advocate Team Lead Requirements
+
+- Extends those of the SMB Advocate requirements
+- Minimum of 9 months in the SMB Advocate role
+- Achieve benchmark KPIs cumulatively for a period of 6 months
+- Complete all assigned SMB advocate specific Level-up trainings and Technical Certification
+- Led or participated in at least 2 project initiatives to improve team performance
+- The Team Lead role is based on business need and is at management’s discretion
 
 
 
 
-
--
 
 ## Career Ladder
 

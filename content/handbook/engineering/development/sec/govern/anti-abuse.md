@@ -119,7 +119,7 @@ We tag each issue and MR with the planned milestone or the milestone at time of 
 
 Our group holds synchronous meetings to gain additional clarity and alignment on our async discussions. We aspire to [record](/handbook/tools-and-tips/zoom/) all of our meetings as our team members are spread across several time zones and often cannot attend at the scheduled time.
 
-We have a weekly team sync meeting with rotating [EMEA/AMER](https://drive.google.com/drive/folders/1nm7FRZ0f9T4ajbmJvz4LYLVWl5cXiXiQ?usp=sharing) and [AMER/APAC](https://drive.google.com/drive/folders/1wLdWWi3f6Aho6E2m4Xbhv1Nuoy_ZSC1e?usp=sharing) friendly time slots: Weds 14:30 UTC and Thurs 00:00 UTC.
+We have a weekly team sync meeting with rotating [AMER](https://drive.google.com/drive/folders/1ZPjzqSaMslSQXe7ZA0IHK4gbCTv25MYC?usp=sharing) and [AMER/APAC](https://drive.google.com/drive/folders/1wLdWWi3f6Aho6E2m4Xbhv1Nuoy_ZSC1e?usp=sharing) friendly time slots: Tues 18:30 UTC and Weds 00:00 UTC.
 
 We have a weekly refinement session Friday 00:00 UTC.
 
