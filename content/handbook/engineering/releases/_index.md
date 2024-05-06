@@ -301,5 +301,5 @@ If you need any additional help please ask the Release Managers in the [#release
 [pre environment]: https://about.gitlab.com/handbook/engineering/infrastructure/environments/#pre
 [release managers]: https://about.gitlab.com/community/release-managers/
 [Release environment]: https://about.gitlab.com/handbook/engineering/infrastructure/environments/#release
-[security runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#guides-by-role
-[patch release section]: /handbook/engineering/releases/patch_releases
+[security runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md
+[patch release section]: /handbook/engineering/releases/patch-releases
