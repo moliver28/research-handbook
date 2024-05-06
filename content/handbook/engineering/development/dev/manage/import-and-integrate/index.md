@@ -160,7 +160,7 @@ Anything larger than 5 should be broken down if possible.
 
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for the extra rigor of the
-[security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md).
+[patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
 In particular, the fix usually needs more-careful consideration, and must also
 be backported across several releases.
 

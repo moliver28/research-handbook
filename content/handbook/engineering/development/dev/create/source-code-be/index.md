@@ -236,7 +236,7 @@ When a spike is scheduled, the engineer performs research on what needs to be do
 
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for additional work and backports in the
-[security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md).
+[patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
 
 #### Planning issue review
 
