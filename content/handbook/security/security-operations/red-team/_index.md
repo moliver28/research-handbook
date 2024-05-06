@@ -97,7 +97,7 @@ GitLab team members can view the model [here](https://gitlab.com/gitlab-com/gl-s
 
 #### Adoption Rate
 
-A successful Red Team program strengthens an organization's security through recommendations. We track the lifecycle of these recommendations through to implementation using GitLab.com, calling this metric our "Adoption Rate."
+A successful Red Team program strengthens an organization's security through recommendations that are adopted, (i.e. accepted and ultimately implemented) by the organization. We track the lifecycle of these recommendations through to implementation using GitLab.com, calling this metric our "Adoption Rate."
 
 Recommendations start as GitLab.com issues in the project closest to the team that can address them. We classify recommendations using labels:
 
