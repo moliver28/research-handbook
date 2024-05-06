@@ -40,19 +40,6 @@ As engineers in Verify we know our customers because we _are_ our customers, and
 
 We take ownership of the things we build, with a focus on stability and availability. We do this by having a deep technical understanding of the operation and performance characteristics of our platform, and a proactive perspective to future growth.
 
-## Who we are
-
-The Verify stage is made up of 4 groups:
-
-1. [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
-1. [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
-1. [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
-1. [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
-
-## UX Strategy
-
-Coming soon.
-
 ### Jobs to be done (JTBD)
 
 A [Job to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) is a framework, or lens, for viewing products and solutions in terms of the jobs customers are trying to achieve.
@@ -62,28 +49,39 @@ A [Job to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) is a framework,
 * [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/)
 * [Verify:Pipeline Security JTBD](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
 
-### Pipeline Authoring and Pipeline Execution Collaboration
+## Who we are
 
-Pipeline Authoring and Pipeline Execution are closely related but they also represent different stages in the cycle of a user's interaction with a pipeline. At a very high-level, this image illustrates the main focus of each group and how they can both support a better pipeline experience.
+The Verify stage is made up of:
 
-![Verify Groups](/handbook/product/categories/verify_groups_banner.jpg)
-
-
-### Verify:Pipeline Execution
-
-{{< team-by-manager-role "Engineering Manager(.*)Verify:Pipeline Execution" >}}
+1. [Verify:Pipeline Authoring](/handbook/engineering/development/ops/verify/pipeline-authoring/)
+1. [Verify:Pipeline Execution](/handbook/engineering/development/ops/verify/pipeline-execution/)
+1. [Verify:Pipeline Security](/handbook/engineering/development/ops/verify/pipeline-security/)
+1. [Verify:Runner](/handbook/engineering/development/ops/verify/runner/)
+1. Verify:CI Platform - TBD
 
 ### Verify:Pipeline Authoring
 
 {{< team-by-manager-role "Engineering Manager(.*)Verify:Pipeline Authoring" >}}
 
-### Verify:Runner
+### Verify:Pipeline Execution
 
-{{< team-by-manager-role "Engineering Manager(.*)Verify:Runner" >}}
+{{< team-by-manager-role "Engineering Manager(.*)Verify:Pipeline Execution" >}}
 
 ### Verify:Pipeline Security
 
 {{< team-by-manager-role "Engineering Manager(.*)Verify:Pipeline Security" >}}
+
+### Verify:Runner
+
+{{< team-by-manager-role "Engineering Manager(.*)Verify:Runner" >}}
+
+### Verify:CI Platform
+
+{{< team-by-manager-role "Senior Engineering Manager(.*)Verify" team="Verify:CI Platform">}}
+
+### Verify Leadership
+
+{{< team-by-manager-role "Senior Engineering Manager(.*)Verify" team="Engineering Manager" >}}
 
 ## How we work
 
@@ -161,7 +159,7 @@ or no issues were found by the Verify maintainer.
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="[,&] Verify" manager-role="Senior Manager(.*)Engineering(.*)Verify" other-manager-roles="Engineering Manager(.*)Verify:Pipeline Authoring|Engineering Manager(.*)Verify:Pipeline Execution|Engineering Manager(.*)Verify:Runner|Engineering Manager(.*)Verify:Pipeline Security" >}}
+{{< stable-counterparts role="[,&] Verify" manager-role="Senior Manager(.*)Engineering(.*)(Verify|Runner)" other-manager-roles="Engineering Manager(.*)Verify:Pipeline Authoring|Engineering Manager(.*)Verify:Pipeline Execution|Engineering Manager(.*)Verify:Runner|Engineering Manager(.*)Verify:Pipeline Security" >}}
 
 ### Async Work Week
 
@@ -273,10 +271,11 @@ As part of our GitLab values, we strive to be [inclusive to those in regions wit
 ### Slack Channels
 
 * Verify [#s_verify](https://gitlab.slack.com/archives/C0SFP840G)
-  * Verify:Pipeline Execution [#g_pipeline-execution](https://gitlab.slack.com/archives/CPCJ8CCCX)
   * Verify:Pipeline Authoring [#g_pipeline-authoring](https://gitlab.slack.com/archives/C019R5JD44E)
-  * Verify:Runner [#g_runner](https://gitlab.slack.com/archives/CBQ76ND6W)
+  * Verify:Pipeline Execution [#g_pipeline-execution](https://gitlab.slack.com/archives/CPCJ8CCCX)
   * Verify:Pipeline Security [#g_pipeline-security](https://gitlab.slack.com/archives/CPANF553J)
+  * Verify:Runner [#g_runner](https://gitlab.slack.com/archives/CBQ76ND6W)
+  * Verify:CI Platform [#g_ci-platform](https://gitlab.slack.com/archives/C06URHZUTBP/p1714956051987039)
 * Verify Engineering Management [#s_verify-em](https://gitlab.slack.com/archives/C014UTH4W02)
 * Verify Frontend Engineering [#s_verify_fe](https://gitlab.slack.com/archives/CUYH1MP0Q)
 * CI/CD UX [#ux_ci-cd](http://gitlab.slack.com/archives/CL9STLJ06)
