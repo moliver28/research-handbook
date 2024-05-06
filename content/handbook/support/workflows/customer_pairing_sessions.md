@@ -1,17 +1,23 @@
 ---
-title: Customer calls
+title: Customer pairing sessions
 category: Handling tickets
-description: "Workflow for conducting customer calls in Support Engineering"
+description: "Workflow for conducting customer pairing sessions in Support Engineering"
 ---
 
 ## Introduction
 
 This page presents the workflows to be used in Support Engineering to schedule,
-prepare for, manage and follow-up on customer calls.
+prepare for, manage and follow-up on customer pairing sessions.
+
+## What is a "Customer Pairing Session"?
+
+A customer pairing session is a live troubleshooting session between one or more support engineers and one or more representatives of a customer where the participants collaborate together and share their collective knowledge and experience to gather data, guide and perform actions or otherwise research, investigate and resolve problems customers are encountering.
+
+We use the term "customer pairing session" intentionally over "customer calls" to draw the parallel between pairing sessions that happen between support engineers. Customer pairing sessions aren't significantly different: you're working with skilled peers to take next steps in solving a problem.
 
 ## Emotional Headwinds
 
-We [hire smart humans to provide smart support](/handbook/support/workflows/how-to-respond-to-tickets#smart-humans-provide-smart-support). Humans have *feelings*. It is important to recognize that there are emotional headwinds that can make it harder to schedule or be in calls. During a call you're putting yourself into a situation where you have to manage:
+We [hire smart humans to provide smart support](/handbook/support/workflows/how-to-respond-to-tickets#smart-humans-provide-smart-support). Humans have *feelings*. It is important to recognize that there are emotional headwinds that can make it harder to schedule or be in customer pairing sessions. During these types of calls you're putting yourself into a situation where you have to manage:
 
 - your own feelings
 - the customer's experience
@@ -19,7 +25,7 @@ We [hire smart humans to provide smart support](/handbook/support/workflows/how-
 - technical troubleshooting
 - time, efficiency and your own energy
 
-Calls can be a vulnerable experience that hit on core human fears:
+Any kind of live interactions can be a vulnerable experience that hit on core human fears:
 
 **Ignored (Opposite of Significant)**
 
@@ -56,9 +62,9 @@ Be mindful as well that customers likely have pressures from their business or f
 1. [Understanding the Customer Intro](https://www.youtube.com/watch?v=krnLqcSrZNs&list=PL05JrBw4t0Kq13oaMq0DCl2gUz_g1u29o&index=42) - introduces the idea of understanding what forces are acting upon the customer
 1. [Understanding the Customer Discussion](https://www.youtube.com/watch?v=CIMKLG8D5jQ&list=PL05JrBw4t0Kq13oaMq0DCl2gUz_g1u29o&index=43) - presents a discussion of many examples of those forces
 
-## When should a ticket go to a call?
+## When should a ticket go to a customer pairing session?
 
-Feelings aside, it can be difficult to sort out how to balance the demands of asynchronous ticket work and real-time support. There's a cost to customer calls in terms of preparation, running the call and doing the post-call work summarizing any findings and passing along next steps.
+Feelings aside, it can be difficult to sort out how to balance the demands of asynchronous and real-time pairing. There's a cost to customer pairing sessions in terms of preparation, running the session and doing the post-work summarizing any findings and passing along next steps.
 
 Various pieces of the Handbook can be used to justify a range of behaviors:
 
@@ -88,21 +94,21 @@ Our customer-facing [Statement of Support section on video calls](https://about.
 
 **As a Support Engineer you are charged to act in the best interest of the customer.** Customer calls are a tool in your toolbox. When used well, customer calls will allow you to be more efficient, build relationships and resolve tickets faster.
 
-### Markers for when you should consider moving to a call
+### Markers for when you should consider moving towards a customer pairing session
 
-1. **The customer asks for a call**: One of the fastest ways to get a negative SSAT rating is to flat out refuse a call. You don't have to immediately jump to a call. However, you should strongly consider communicating your availability and how to gather and upload any information that will make the call effective.
+1. **The customer asks for a call**: One of the fastest ways to get a negative SSAT rating is to flat out refuse a customer request. You don't have to immediately jump to pair. However, you should strongly consider communicating your availability and how to gather and upload any information that will make the time spent worth the mutual investment.
 1. **The ticket has failed to progress after several interactions**: If a customer isn't providing needed data, is having trouble describing the problem or is signalling that our urgency isn't matching their urgency in resolving the problem you should strongly consider moving to a call.
 1. **The ticket has received a [STAR](/handbook/support/internal-support/support-ticket-attention-requests)**: STARred tickets represent situations that have been highlighted where SSAT has been threatened by some factors within or outside of our control. Moving to a call may help restore the relationship. Providing quick, high quality counsel may calm customer concerns.
 1. **There's a critical missing element between the customer's reported experience and your reproduction**: Sometimes a customer leaves out an important contextual detail that isn't within your immediate troubleshooting tree. Moving to a call can help make sure you're both starting from the same spot.
 1. **The customer's tone within the ticket has shifted negatively**: Sometimes offering and initiating a call can show our commitment to solving the customer's problem. Talking with a technical peer helps build trust and empathy on both sides.
 1. **The next steps in the ticket are complex or have a branching decision tree**: There can be points in the troubleshooting process where it's best to switch into the more highly interactive communications mode of a call so that you can provide direction, observe results and provide real-time feedback until it makes sense to go back to async.
-1. **A Support manager has recommended a call**: When reviewing a ticket, a Support manager will often take the points above into consideration along with possible outside context from the customer or other GitLab team members, and recommend moving to a call.
+1. **A Support manager has recommended moving to synchronous**: When reviewing a ticket, a Support manager will often take the points above into consideration along with possible outside context from the customer or other GitLab team members, and recommend moving to a customer pairing session.
 
-## Types of calls
+## Types of customer pairing sessions
 
-Feel free to adjust the length, timing and agenda of your calls to suit the needs of the ticket and customer. The following are examples of call types that Support Engineers have found useful in the past.
+Feel free to adjust the length, timing and agenda of your sessions to suit the needs of the ticket and customer. The following are examples of types that Support Engineers have found useful in the past.
 
-To the extent you can, try not to exceed the length of call you've arranged with the customer as this can set up unrealistic expectations for future Support Engineers working with the customer. If you feel that you're close to a resolution or need more time to collect info always pause and verify with the customer that they have the time to continue and note how much time you have left to continue.
+To the extent you can, try not to exceed the length of session you've arranged with the customer as this can set up unrealistic expectations for future Support Engineers working with the customer. If you feel that you're close to a resolution or need more time to collect info always pause and verify with the customer that they have the time to continue and note how much time you have left to continue.
 
 ### Discovery calls
 
@@ -145,17 +151,17 @@ Premium Support customers may request a call as a part of upgrade assistance. Re
 
 30 minutes
 
-## Taking Calls
+## How to pair with customers
 
-### Scheduling the call
+### Scheduling the session
 
-When you know a ticket is ready for a call, start by determining who will lead
-the call:
+When you know a ticket is ready for a customer pairing session, start by determining who will lead
+the it:
 
 ```mermaid
 graph TD
     A{Does the customer want to<BR>meet during my work hours?}
-    A --> |Yes| B{Am I comfortable leading the call?}
+    A --> |Yes| B{Am I comfortable pairing on this ticket with this customer?}
     A --> |No| C(Find someone in the appropriate<BR>region of your group who is<BR>willing to take the ticket,<BR>preferably but not necessarily<BR>with the needed expertise.<BR>The new SE can pair with another<BR>person in their region if necessary.)
     B --> |Yes| D("Proceed to<BR>#quot;Providing the call link#quot;")
     B --> |No| E(Pair with an SE who has the right expertise)
@@ -169,7 +175,7 @@ graph TD
 ### Providing the call link
 
 Start by using the
-[`General::Invite customer call`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360013199280)
+[`General::Invite customer pairing session`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360013199280)
 macro in Zendesk. Be sure to change `PERSONAL_CALENDLY_LINK` to be your own personal
 Calendly link.
 
@@ -184,15 +190,15 @@ When sending a customer a call link:
 - Make sure your calendly event includes a required Invitee Question asking
   for the Zendesk ticket number.
 - If you know your availability is limited, or you need additional backup,
-  check with another SE to see if they might also be available to take the call.
+  check with another SE to see if they might also be available to pair with the customer.
 
 ### Removing the need for a call before it even starts
 
-It's important to remember that customers also don't want to waste time on calls. The primary reason most customers *want* a call is because they believe it's the best use of time for them in making progress towards the resolution of their issue. In the interval between offering a call and hosting the call you have an opportunity to deflect the need for the call completely. **It's prudent to shift into a more rapid response mode as you center in towards a call.**
+It's important to remember that customers also don't want to waste time on synchronous sessions. The primary reason most customers *want* to pair with you is because they believe it's the best use of time for them in making progress towards the resolution of their issue. In the interval between offering a call and hosting the call you have an opportunity to deflect the need for the call completely. **It's prudent to shift into a more rapid response mode as you center in towards a call.**
 
-Having a customer engaged in forming the agenda for the call will help you do research and be well prepared. Ask the customer for (or prepare your own set of) questions that will need to be answered during the call. Once you have a list, (to the extent that time allows) answer them prior to the call within the ticket or provide instructions for how the customer can answer them for you.
+Having a customer engaged in forming the desired outcomes of the pairing session will help you do research and be well prepared. Ask the customer for (or prepare your own set of) questions that will need to be answered during the call. Once you have a list, (to the extent that time allows) answer them prior to the call within the ticket or provide instructions for how the customer can answer them for you.
 
-For each item on your call agenda, seek to find a way to shift towards an async workflow to complete it prior to the call. For example, if the customer wants a call to demonstrate an issue: ask them to record their screen while reproducing the issue and tailing logs, and then attach the recording and relevant logs.
+For each item on your agenda, seek to find a way to shift towards an async workflow to complete it prior to the call. For example, if the customer wants a call to demonstrate an issue: ask them to record their screen while reproducing the issue and tailing logs, and then attach the recording and relevant logs.
 
 This will (potentially):
 
@@ -210,10 +216,10 @@ Remember: you don't have to solve everything while you're on the call. It is oka
 ### Pre-call email
 
 Please consider sending a pre-call email. This helps set expectations to the call regarding goals, duration, and
-the people required to be on the call for effective troubleshooting. You can use the [`Support::Self-Managed::Pre customer call`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360086318253) macro in Zendesk
+the people required to be on the call for effective troubleshooting. You can use the [`Support::Self-Managed::Pre customer pairing session`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360086318253) macro in Zendesk
 for that, please modify it as you see fit.
 
-### Tips to keep calls within the scheduled time
+### Tips to keep within the scheduled time
 
 - Set expectations (again) at the start of the call:
    1. Call duration will be X
@@ -234,20 +240,20 @@ Example:
 
 > Today we're going to be looking at the configuration of your object storage for attachments. In the ticket you were able to provide the `values.yaml` for the deployment and we were able to capture some errors for viewing attachments. We were also able to verify that attachments were correctly being stored in S3. We haven't been able to verify if the IAM roles you're using have appropriate permissions to retrieve objects. We're going to spend 30 min. today running through a few scenarios that I've detailed in the ticket.
 
-## Tips for making calls successful
+## Tips for making customer pairing sessions successful
 
-1. **Come prepared**: do your research, have a plan for how the call should go
+1. **Come prepared**: do your research, have a plan for how you want the pairing session to unfold 
 1. **Be curious**: Sometimes things don't go according to plan and you'll have to adapt your plan, or end the call early and come up with a new plan.
-1. **Treat customers as technical peers**: Be courteous and professional, and be human and try to connect with the other humans on the call.
+1. **Treat customers as technical peers**: Be courteous and professional, and be human and try to connect with the other humans on the call as you collaborate on moving towards resolution.
 1. **If you don't know, say you don't know (and what you'll do to find the answer)**: customers don't expect you to know the intimate details of every configuration of GitLab live. If you don't know, that's okay - it's better to be transparent and explain what the path forward is. You can:
    - look things up in the docs live on the call
    - move async to [request help from development](/handbook/support/workflows/how-to-get-help#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) or a peer
    - try something in your own environment or (if it's safe) in the customer's environment
 1. **Adapt your tactics to the situation**: Large calls with many teams represented require a different level of formality and precision than a single engineer on a lower priority case.
 
-### Ending calls gracefully
+### Ending pairing sessions gracefully
 
-Setting context and expectations before you start the call is the best way to a graceful exit. Review [tips to keep calls within the scheduled time](#tips-to-keep-calls-within-the-scheduled-time) for some tips on handling the overall call flow.
+Setting context and expectations before you start is the best way to a graceful exit. Review [tips to keep calls within the scheduled time](#tips-to-keep-calls-within-the-scheduled-time) for some tips on handling the overall call flow.
 
 Some calls *can* be difficult to exit though:
 
@@ -283,15 +289,15 @@ There are many reasons that a customer may not be able to join a call. If a cust
 
 Congratulations! You made it through the call. Unfortunately, your work is not yet over (even if the issue was solved).
 
-### Call summary
+### Summary
 
-The call summary is important for confirming with the customer what was said
+The summary is important for confirming with the customer what was said
 and done during the call, and documenting for them and for us the agreed-upon
 action plan.
 
 **Immediately** following your call you should construct the call summary in
 the Zendesk ticket using the macro
-[`Support::Self-Managed::Post Customer Call`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360028010274).
+[`Support::Self-Managed::Post Customer Pairing Session`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360028010274).
 The macro provides a template to structure the summary and applies ticket tags
 used to track work involving customer calls.
 
@@ -324,7 +330,7 @@ https://gitlabmeetings.webex.com/meet/gitlabsupport
 
 WebEx allows you to see the customer's desktop and to control it on request. It also gives the customer the possibility to join via phone and us the possibility to use our computer audio connection.
 
-### If a customer wants to record a support call
+### If a customer wants to record a pairing session
 
 Frequently during screenshare sessions plaintext secrets or other sensitive information can be displayed. To ensure sure that any recordings that inadvertantly contain this information stay within customer's security boundary, you should ask that customers initiate and store any recordings.
 
@@ -332,7 +338,7 @@ If a customer wishes to record the session, then transfer the ownership of the c
 
 If you're not comfortable having the call recorded, please involve your manager in the discussion with the customer.
 
-## Audio and Video Guidelines for Support Engineers on Customer Calls
+## Audio and Video Guidelines for Support Engineers on Customer Pairing Sessions
 
 ### Video
 
