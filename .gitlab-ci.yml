@@ -36,7 +36,8 @@ stages:
 
 include:
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
-  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
+# disabling danger bot/reviewer roulette until we resolve #238
+#  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
 
 default:
   interruptible: true # All jobs are interruptible by default
