@@ -116,7 +116,7 @@ Patch release information, including targeted versions, scheduled date and statu
 
 ### A security issue was assigned to me, where should I start?
 
-See the [Security process as Developer] documentation for more information.
+See the [Security process as Engineer] documentation for more information.
 
 ### Why wasn't my security fix included in the Patch Release?
 
@@ -154,7 +154,7 @@ For more information, see [How to Mitigate Bugs Introduced by Security Merge Req
 [remediation SLA]: https://handbook.gitlab.com/handbook/security/product-security/vulnerability-management/#remediation-slas
 [security backports]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md#backports
 [security implementation issue]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology
-[Security process as Developer]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md
+[Security process as Engineer]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md
 [Security Remediation SLAs]: https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas
 [security runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#guides-by-role
 [Security repository]: https://gitlab.com/gitlab-org/security/
