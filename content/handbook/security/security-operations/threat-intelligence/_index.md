@@ -75,7 +75,7 @@ Recommendations linked to Threat Briefings are not as time-sensitive as those fr
 - Training on security awareness and job-specific skills
 - Purchasing decisions and vendor evaluations
 
-Threat Briefings use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/threat_briefing.md?ref_type=heads).
+Threat Briefings are produced monthly using [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/threat-intelligence-public/resources/threat-intelligence-templates/-/blob/main/.gitlab/issue_templates/threat_briefing.md?ref_type=heads) and include a live presentation with a Q&A session.
 
 ### Threat Actor Tracking
 
