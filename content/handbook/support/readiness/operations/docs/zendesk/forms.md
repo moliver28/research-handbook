@@ -170,7 +170,7 @@ team.
 | Name               | ID             | Visibility | Category |
 |--------------------|----------------|------------|----------|
 | Support            | 360000446511   | Public     | Support  |
-| GitLab Dedicated   | 26347526042004 | Public     | Support  |\
+| GitLab Dedicated   | 26347526042004 | Public     | Support  |
 | Upgrade Assistance | 360001434131   | Public     | Support  |
 | Support Ops        | 360001421052   | Public     | Support  |
 | L&R                | 360001421072   | Public     | Support  |
