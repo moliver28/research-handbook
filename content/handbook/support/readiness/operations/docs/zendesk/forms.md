@@ -167,14 +167,15 @@ team.
 
 ## Current Zendesk US Federal forms
 
-| Name               | ID           | Visibility | Category |
-|--------------------|:------------:|------------|----------|
-| Support            | 360000446511 | Public     | Support  |
-| Upgrade Assistance | 360001434131 | Public     | Support  |
-| Support Ops        | 360001421052 | Public     | Support  |
-| L&R                | 360001421072 | Public     | Support  |
-| Emergency          | 360001421112 | Public     | Support  |
-| License Issue      | 360001803151 | Internal   | Support  |
+| Name               | ID             | Visibility | Category |
+|--------------------|----------------|------------|----------|
+| Support            | 360000446511   | Public     | Support  |
+| GitLab Dedicated   | 26347526042004 | Public     | Support  |\
+| Upgrade Assistance | 360001434131   | Public     | Support  |
+| Support Ops        | 360001421052   | Public     | Support  |
+| L&R                | 360001421072   | Public     | Support  |
+| Emergency          | 360001421112   | Public     | Support  |
+| License Issue      | 360001803151   | Internal   | Support  |
 
 ## Positioning
 
