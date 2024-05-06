@@ -2,11 +2,11 @@
 title: "Pre-receive secret detection monitoring"
 ---
 
-> _NOTE: This is still an **early draft**, more information will be added as the dashboard is created soon._
+> _NOTE: This is still an **early draft**, more information will be added as the dashboard evolves._
 
 ### When to use this runbook?
 
-This runbook is intended to be used when monitoring the [pre-receive secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards and how to improve them:
+This runbook is intended to be used when monitoring the [pre-receive secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive/index.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards below and how to improve them:
 
 * [Pre-receive Secret Detection – Overview Dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1)
 
@@ -14,7 +14,9 @@ This runbook is intended to be used when monitoring the [pre-receive secret dete
 
 While the feature, in its [current form](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/#high-level-architecture), doesn't have any external components and is entirely encapsulated within the application server as a dependency, it does interact with a number of components as can be seen in this [push event sequence diagram](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/#push-event-detection-flow). Those components are:
 
-* Workhorse:
+* GitLab Shell (Git over SSH):
+    * `git-receive-pack`
+* GitLab Workhorse (Git over HTTP/S):
     * `git-receive-pack`
 * Gitaly:
     * `PostReceivePack`
@@ -38,13 +40,16 @@ As discussed above, the functionality spans a number of components. Therefore, a
         * `pubsub-rails-inf-gstg`
         * `pubsub-gitaly-inf-gstg`
         * `pubsub-workhorse-inf-gstg`
+        * `pubsub-shell-inf-gstg`
     * [Production](https://log.gprd.gitlab.net)
         * `pubsub-rails-inf-gprd`
         * `pubsub-gitaly-inf-gprd`
         * `pubsub-workhorse-inf-gprd`
+        * `pubsub-shell-inf-gprd`
 * Prometheus/Grafana (Metrics)
     * [Internal API](https://dashboards.gitlab.net/dashboards/f/internal-api/internal-api)
     * [Gitaly](https://dashboards.gitlab.net/dashboards/f/gitaly/gitaly-service)
+    * [GitLab Shell](https://dashboards.gitlab.net/d/git-main/git3a-overview)
 * Sentry (Error Tracking)
     * [Gitlab.com](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitlabcom)
     * [Gitaly](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitaly)
@@ -56,11 +61,21 @@ This runbook focuses primarly on the Prometheus metrics available in Grafana, bu
 
 The [overview dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1) is the main dashboard we have built to monitor the feature. That's where anyone should start to look when trying to identify reliability or performance issues.
 
-The dashboard itself is split into 3 rows (or sections), with each containing a number of panels as below.
+The dashboard itself is split into 4 rows (or sections), with each containing a number of panels as below.
 
-#### Workhorse
+#### GitLab Shell (Git over SSH)
 
-This section monitors the stability of `workhorse` in general and is used to ensure there are no performance degradations related to `git-receive-pack` operations.
+This section monitors the stability of certain operations related to the feature within `Gitlab Shell`, which is a set of executables created to handle Git SSH sessions. The tool itself does not handle SSH directly, but instead the SSH server/daemon [`gitlab-sshd`](https://docs.gitlab.com/ee/development/gitlab_shell/gitlab_sshd.html) maintain all connections with clients and calls up Rails via GitLab Shell to perform authorization or access checks. Please check [this diagram](https://docs.gitlab.com/ee/development/gitlab_shell/index.html#git-push-over-ssh) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture.html#ssh-request-22) for more information on how that works.
+
+The section can be used to ensure there are no performance degradations related to `git-receive-pack` operations when a git push operation is carried out over SSH.
+
+#### GitLab Workhorse (Git over HTTP/S)
+
+This section monitors the stability of certain operations related to the feature within `Workhorse`, which is a smart reverse proxy intended to handle resource-intensive and long-running requests. It intercepts all HTTP requests and either propagates them without changing or handles them itself by performing additional logic. Please check [this diagram](https://docs.gitlab.com/ee/development/workhorse/handlers.html#git-push) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture.html#web-request-80443) for more information on how that works.
+
+https://docs.gitlab.com/ee/development/workhorse/handlers.html#git-push
+
+The section can be used to ensure there are no performance degradations related to `git-receive-pack` operations when a git push operation is carried out over HTTP/S.
 
 **Processed `git-receive-pack` Requests**
 
@@ -121,7 +136,24 @@ This panel displays the average latency (duration) in seconds for the `/.git/git
 
 #### Gitaly
 
-Placeholder, will be added soon.
+This section monitors the stability of `gitaly`, more specifically the hooks and RPCs used by the feature. This can be used to ensure there are no performance degradations related to any of those hooks and RPCs.
+
+The section is divided into two sub-areas as follows, with most focus being on latency.
+
+1. Workhorse <=> Gitaly:
+    * `PostReceivePack`.
+1. Gitaly <=> Rails API:
+    * Gitaly / Before `/internal/allowed`:
+        * `PreReceiveHook`.
+    * Gitaly / During `/internal/allowed`:
+        * `ListAllBlobs()` RPC
+        * `ListBlobs()` RPC
+        * `GetTreeEntries()` RPC
+
+Interesting Metrics:
+
+- Gitaly GitLab API Latency Sum / Count (gitaly_gitlab_api_latency_seconds_sum/gitaly_gitlab_api_latency_seconds_count)
+- Gitaly Total bytes of git-pack-objects served (gitaly_pack_objects_served_bytes_total)
 
 #### Rails
 
