@@ -58,7 +58,7 @@ the [developer documentation][dev-doc].
 
 Read the [developer security documentation][sec-doc] prior to working on a security issue.
 
-[sec-doc]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md
+[sec-doc]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md
 
 ### Quality
 

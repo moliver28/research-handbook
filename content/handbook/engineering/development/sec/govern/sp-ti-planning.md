@@ -148,8 +148,7 @@ Note the following differences when refining bugs:
 
 #### Refinement for Security Issues
 
-The [Security Release Process for
-Developers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md#security-releases-critical-non-critical-as-a-developer)
+The [Security Developer process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md)
 can be daunting for first-timers. As part of refinement, ask for a volunteer to act as a "Security
 Issue Release Buddy".
 

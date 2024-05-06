@@ -70,7 +70,7 @@ The Authentication group is a central piece to the GitLab product! While many gr
 
 #### Security vulnerability issues
 
-Bypassing permissions and authentication mechanisms are, by nature, common security targets. We closely watch new security vulnerability issues and schedule them as quickly as possible based on their [due date](/handbook/security/engaging-with-security/#due-date-on-security-issues). For planning security issues we use [the (filtered) milestone planning issue board](https://gitlab.com/gitlab-org/gitlab/-/boards/4260654?label_name%5B%5D=sec%3A%3Agovern&label_name%5B%5D=group%3A%3Aauthentication&label_name%5B%5D=bug%3A%3Avulnerability). We expect all team members to be able to resolve security issues following the [security release process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md#security-releases-critical-non-critical-as-a-developer).
+Bypassing permissions and authentication mechanisms are, by nature, common security targets. We closely watch new security vulnerability issues and schedule them as quickly as possible based on their [due date](/handbook/security/engaging-with-security/#due-date-on-security-issues). For planning security issues we use [the (filtered) milestone planning issue board](https://gitlab.com/gitlab-org/gitlab/-/boards/4260654?label_name%5B%5D=sec%3A%3Agovern&label_name%5B%5D=group%3A%3Aauthentication&label_name%5B%5D=bug%3A%3Avulnerability). We expect all team members to be able to resolve security issues following the [security developer workflow](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md#security-releases-critical-non-critical-as-a-developer).
 
 #### Code Review
 
@@ -183,7 +183,7 @@ Engineers should assign issues to themselves based on the [current release](http
 1. `workflow::in review` - a merge request has been submitted and reviews have been requested
 1. `workflow::verification` - the work has merged, and needs to be verified
 1. `workflow::complete` - the work has been verified by the personed assigned to verify; verifier will close the issue and apply label
-1. `workflow::awaiting security release` - (security MRs only) the work is complete, just pending [backports](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md#backports).
+1. `workflow::awaiting security release` - (security MRs only) the work is complete, just pending [backports](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineers.md#backports).
 
 Development should not begin on an issue before it's been estimated and given a weight.
 
