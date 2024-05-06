@@ -36,6 +36,7 @@ stages:
 
 include:
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
+# disabling danger bot/reviewer roulette until we resolve #238
 #  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@~latest
 
 default:
