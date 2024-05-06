@@ -12,7 +12,7 @@ High-level workflow:
 
 ## What is unplanned upgrade stop?
 
-Unplanned upgrade stop is an upgrade error that was detected outside of recommended GitLab [upgrade path](https://docs.gitlab.com/ee/update/index.html#upgrade-paths).
+Unplanned upgrade stop is an error that requires an administrator to install a version of GitLab not on their [upgrade path](https://docs.gitlab.com/ee/update/index.html#upgrade-paths).
 
 ### Unplanned upgrade types
 
