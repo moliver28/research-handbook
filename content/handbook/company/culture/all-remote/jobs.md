@@ -115,6 +115,7 @@ While there are myriad job boards that curate part-time and freelance gigs which
 
 Here's a [list](https://www.ryrob.com/remote-jobs-websites/) of 60 remote jobs sites in 2020, including:
 
+1. [DailyRemote](https://dailyremote.com/)
 1. [Real Work From Anywhere](https://realworkfromanywhere.com/)
 1. [Remote jobs in AR/VR and Mixed Reality](https://www.arvrok.com/location/remote)
 1. [Startup Jobs](https://startup.jobs/remote-jobs)
