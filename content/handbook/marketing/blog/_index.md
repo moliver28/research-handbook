@@ -20,11 +20,11 @@ Blogs fall into the following categories:
 - Feature/change/etc. announcement
 - Guest blog to highlight partnerships/alliances 
 
-## Who can publish content to the GitLab blog?
+## Who can publish content to the GitLab Blog?
 
 [Everyone can contribute at GitLab](/handbook/company/mission/#mission). For the blog, this means we welcome your blog suggestions, ideas, and drafts. However, the [main blog](https://about.gitlab.com/blog/) is one of the many official voices of GitLab – meaning content that is published there must be carefully vetted to ensure we are accurately representing GitLab – both the company and the product. The Blog Managing Editor and the Director of Global Content Marketing are the [directly responsible individuals (DRIs) for the official GitLab blog](/handbook/people-group/directly-responsible-individuals/) and are tasked with this responsibility.
 
-Partner, alliance, and customer contributor guidelines can be found [here](https://docs.google.com/document/d/10Xb4qnZNedhPzNNRTByH7fgvNzlo5Bc5Rz1TiuHtPxE/edit?usp=sharing).
+If you have questions about the GitLab Blog, please reach out to [sgittlen@gitlab.com](mailto:sgittlen@gitlab.com).
 
 ## How to suggest a blog idea - NEW PROCESS {#how-to-suggest-a-blog-post}
 
@@ -35,6 +35,22 @@ Please create an issue using the [blog submission template](https://gitlab.com/g
 * For corporate/comms requests or blogs on a tight turnaround, please submit an issue and reach out to @sgittlen directly.
 
 The blog editor will review the pitch and either a) greenlight the post, b) offer suggestions for improvements, or c) explain why the idea might not be a fit for the blog and offer other ideas for getting the message out.
+
+### External contributions
+
+**Note:** GitLab does not accept unsolicited blog submissions. If you are a GitLab partner or community member and would like to pitch a blog post idea for consideration, please [email sgittlen@gitlab.com](mailto:sgittlen@gitlab.com). Please DO NOT SEND drafts of your blogs with your pitch.
+
+Pitch ideas must be relevant to the GitLab Blog and our readers and include the following information:
+* What will your blog be about? Please be as specific as possible.
+* Which of the following best describes your blog? (Please check at least one box.)
+- [ ] tutorial/how-to on how best to use a feature/capability
+- [ ] best practices for how to use the GitLab platform
+- [ ] the open source community and GitLab
+- [ ] tutorial/how-to for a feature/capability
+- [ ] partner/alliance integration
+- [ ] other - please explain
+
+**All blog pitch ideas and submissions will be vetted and reviewed by GitLab team members.**
 
 ## How to submit a blog draft once your idea is approved
 
