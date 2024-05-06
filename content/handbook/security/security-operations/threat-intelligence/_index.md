@@ -91,6 +91,37 @@ Requests for Information use [this template](https://gitlab.com/gitlab-com/gl-se
 
 ## <i class="fas fa-chart-simple" id="biz-tech-icons"></i> How We Measure Success
 
+### Adoption Rate
+
+A key principle of our program is that all intelligence must be actionable. We make this happen with concrete recommendations. The program's impact can be measured by the extent to which these recommendations are accepted and ultimately implemented.
+
+We call this our "Adoption Rate".
+
+Recommendations start as GitLab.com issues in the project closest to the team that can address them. We classify recommendations using labels:
+
+- Detections & Alerts (TIRec::Detection)
+- Security Controls (TIRec::Control)
+- Processes and Procedures (TIRec::Process)
+- Threat Hunting (TIRec::Hunting)
+- Communications (TIRec::Comms)
+- Training (TIRec::Training)
+
+We track what happens after a recommendation is delivered by adding a secondary label to the issue with its current status or final outcome:
+
+- Under review (RecOutcome::UnderReview)
+- Accepted and actively being worked on (RecOutcome::InProgress)
+- Accepted but backlogged (RecOutcome::Backlogged)
+- Accepted but blocked (RecOutcome::Blocked)
+- Fully implemented (RecOutcome::Adopted)
+- Partially implemented (RecOutcome::PartiallyAdopted)
+- Rejected - will not be implemented (RecOutcome::NotAdopted)
+
+An outcome label is added to the issue within one week of delivering the recommendation. A scheduled CI pipeline checks issues with classification labels to ensure they have an outcome.
+
+
+
+### Attribution
+
 ...
 
 ## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging Threat Intelligence
