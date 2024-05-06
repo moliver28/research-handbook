@@ -47,6 +47,7 @@ To obtain marketing development funds (MDF), please complete the following steps
 
 ### MDF Request
 - Partners can access the MDF Request Form from [the GitLab Partner Portal home page](https://partners.gitlab.com/). Navigate to Marketing and select “MDF Request.” Upon selecting MDF Request, complete the first part of the form to create a fund request. Once completed, click “submit it”.
+- Please check this [how-to video](https://www.youtube.com/watch?v=fF1YyrYn_3E) on how to submit an MDF Fund Request.
 - All MDF requests should be submitted at least 10 business days prior to the activity start date
 - You should have a marketing plan in please by working with your designated Channel Marketing Manager & Channel Account Manager and all MDF activities should be agreed to prior to submitting the request form in the portal.
 - Our goal is to have the approval (or rejection) of your MDF request back to the partner within 5 business days.
@@ -119,17 +120,7 @@ For partners who are claiming reimbursement for the **first time** only: <br/>
    - In this case, CMMs are to submit contract to the MDF Program Owner and they will open a Zip request to get approval done.
 - Once internal approvals have been completed, CMMs communicate to Partners activities that are approved.
 - Partners are responsible for submitting an MDF request through the Partner Portal.
-- MDF Program Owner creates Epic (internal): [FY24 MDF Planning Activities and Initiative](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3523)
-- This Epic contains all sub regional issues in order to provide visibility to everyone in the Channel organization of all the MDF requests for the year.
-- Under the epic we have 4 H1 issues (H1 stands for first half) - available internally:
 
-   - [FY24 H1 MDF - EMEA](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/issues/806)
-   - [FY24 H1 MDF - AMER](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/issues/803)
-   - [FY24 H1 MDF - PUB SEC](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/issues/804)
-   - [FY24 H1 MDF - APAC](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/issues/805)
-
-- We use these issues as a place to communicate to the CMMs, add the links to Salesforce. Channel Account Managers and Channel Leadership also are informed
-- We also confirm on the issues that the MDF request was created by the partner, but linking the MDF number to the table, and from there we working on processing it internally.
 
 #### Phase 2: Processing MDF
 
