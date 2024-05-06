@@ -1,5 +1,8 @@
 ---
 title: Plan:Project Management Team
+aliases:
+- /handbook/engineering/development/dev/plan/project-management/
+- /handbook/engineering/development/dev/plan-project-management/
 ---
 
 ## Plan:Project Management Team
