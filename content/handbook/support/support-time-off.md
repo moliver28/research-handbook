@@ -149,7 +149,7 @@ If they want to pause, put the ticket on-hold. Otherwise:
       sessions - to make up for not taking new tickets of your own.
 1. Follow the [OOO Ticket Management](/handbook/support/workflows/ooo-ticket-management)
    process to arrange for others to take care of your tickets in your absence.
-1. To ensure you're not auto-assigned to GDPR requests:
+1. To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):
 
    - Update the corresponding `yaml` file for yourself in the [Support Team project](https://gitlab.com/gitlab-com/support/team/-/tree/master/data/agents?ref_type=heads).
    - Change `works_account_deletion: true` to `works_account_deletion: false`
