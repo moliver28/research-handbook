@@ -290,7 +290,7 @@ modules:tidy:
   image: $HUGO_IMAGE
   needs: []
   stage: maintenance
-  when: manual
+  allow_failure: true
   script:
     - apk update
     - apk upgrade
