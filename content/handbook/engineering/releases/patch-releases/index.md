@@ -84,10 +84,10 @@ Unplanned critical patch releases are ad-hoc processes used to immediately patch
 mitigate a high-severity vulnerability in order to meet the [Security Remediation SLAs].
 
 Following the [GitLab Maintenance Policy], the vulnerability will be
-fixed in all supported versions following [Security Remediation SLAs].
+fixed in all supported versions following the [Security Remediation SLAs].
 
 The AppSec team is responsible for assessing the vulnerability and working with development to decide on the best approach to resolve it. If an unplanned critical
-patch release is needed the AppSec engineer will work with Release Managers to agree on a timeline for the release.
+patch release is needed, the AppSec engineer will work with Release Managers to agree on a timeline for the release.
 
 ![Unplanned critical security release overview](unplanned-critical-patch-release-overview.jpg)
 
@@ -152,9 +152,9 @@ For more information, see [How to Mitigate Bugs Introduced by Security Merge Req
 [patch release runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/engineers.md
 [release dashboard]: https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1
 [remediation SLA]: https://handbook.gitlab.com/handbook/security/product-security/vulnerability-management/#remediation-slas
-[security backports]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md#backports
+[security backports]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md#backports
 [security implementation issue]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology
-[Security process as Developer]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md
+[Security process as Developer]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md
 [Security Remediation SLAs]: https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas
 [security runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#guides-by-role
 [Security repository]: https://gitlab.com/gitlab-org/security/
