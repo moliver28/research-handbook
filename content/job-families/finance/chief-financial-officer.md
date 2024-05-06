@@ -9,7 +9,7 @@ title: "Chief Financial Officer"
 - Work collaboratively with CEO to develop and execute financing plan
 - Develop, define and ensure validity of key operating metrics
 - Create and execute international tax strategy and compliance in all jurisdictions
-- Financial diligence and negotiation of potential M&A transactions
+- Financial diligence of potential M&A transactions
 - Oversee accounting and billing system that can scale with company growth
 - Accurate, timely, detailed, and easy-to-access metrics on sales, sales enablement, customer success and adoption, peopleops, marketing, engineering, product, and finance.
 
