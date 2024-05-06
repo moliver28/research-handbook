@@ -132,6 +132,18 @@ GitLab's brand approved colors can be found [here](https://design.gitlab.com/dat
   <color>#2B2934</color>
   </color-palette>
 
+  <color-palette name="GitLab Oranges Purples Greys" type="regular">
+  <color>#e24329</color>
+  <color>#FCA326</color>
+  <color>#fc6d26</color>
+  <color>#7759c2</color>
+  <color>#b693f0</color>
+  <color>#54448A</color>
+  <color>#B3B1B6</color>
+  <color>#171321</color>
+  <color>#45404B</color>
+  </color-palette>
+
   </preferences>
   </workbook>
   ```
