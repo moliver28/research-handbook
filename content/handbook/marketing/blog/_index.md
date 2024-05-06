@@ -46,7 +46,6 @@ Pitch ideas must be relevant to the GitLab Blog and our readers and include the 
 - [ ] tutorial/how-to on how best to use a feature/capability
 - [ ] best practices for how to use the GitLab platform
 - [ ] the open source community and GitLab
-- [ ] tutorial/how-to for a feature/capability
 - [ ] partner/alliance integration
 - [ ] other - please explain
 
