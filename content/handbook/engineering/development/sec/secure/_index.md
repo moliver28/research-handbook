@@ -58,7 +58,7 @@ Team Page: [Static Analysis](static-analysis/)
 
 Team Page: [Dynamic Analysis](dynamic-analysis/)
 
-{{< team-by-manager-slug manager="thomaswoodham" team="Secure:Dynamic Analysis" >}}
+{{< team-by-manager-role role="Engineering(.*)Manager(.*)Secure:Dynamic Analysis" team="Engineer" >}}
 
 ### Vulnerability Research
 
