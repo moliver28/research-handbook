@@ -7,7 +7,6 @@ aliases:
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-# Customer Success Architect (CSA)
 At GitLab, we understand that our customers' success is our success. That's why we have introduced the Customer Success Architect (CSA) role, our highest-rated technical product experts within Customer Success designed to provide you with the top-tier level of support and guidance throughout your journey with GitLab.
 
 ## What can you expect from a Customer Success Architect?
@@ -24,7 +23,7 @@ At GitLab, we understand that our customers' success is our success. That's why 
 
 At GitLab, our Customer Success Architects are dedicated to helping you achieve your goals and maximize the value of your investment in our products and services. With their deep technical expertise, extensive GitLab tenure, and unwavering commitment to your success, your CSA will be your trusted partner, guiding you towards success and helping you unlock the full potential of GitLab's platform.
 
-# How are you assigned a Customer Success Architect (CSA)?
+## How are you assigned a Customer Success Architect (CSA)?
 A Customer Success Architect (CSA) is a premium Customer Success service available to customers who have purchased GitLab's Success Plan Services (SPS). SPS is a bundled service offering that combines the expertise of a CSA with an [Assigned Support Engineer (ASE)](/handbook/support/workflows/assigned-support-engineer) and comprehensive Education services, including an instructor-led course and 120 certification vouchers. This holistic approach ensures that you have access to the technical guidance, support, and training resources you need to achieve success with GitLab's products and services.
 
 To be assigned a CSA, you must procure the Success Plan Services through the same sales channels as GitLab's licensing SKUs. Your GitLab sales representative will work with you to understand your specific needs and requirements and help you determine if the Success Plan Services are the right fit for your organization. Once you have purchased the SPS bundle, a dedicated CSA will be assigned to your account, ensuring that you have a consistent, knowledgeable, and experienced point of contact throughout your journey with GitLab. Your CSA will work closely with your Assigned Support Engineer (ASE) and Education services team to provide you with a comprehensive and coordinated support experience, helping you maximize the value of your investment in GitLab's products and services.
