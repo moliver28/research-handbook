@@ -78,8 +78,8 @@ Each week the team EM provides a Weekly Status update issue which aims to captur
 Our workflow process for our [board](https://gitlab.com/groups/gitlab-org/-/boards/7346017?label_name[]=group%3A%3Aai%20framework) is outlined below.
 
 1. **Open** 📝: This list includes all identified issues. An engineering manager will be assigned if either the Milestone or the "workflow::ready for development" label is missing.
-2. **workflow::refinement** 🧪: Issues in this stage are undergoing engineering refinement to ensure the proposed solution meets all requirements. Once refined, the "ready for development" label is applied.
-3. **workflow::design** ✏️: During this phase, issues undergo design refinement. After design considerations are integrated, the "ready for development" label is applied.
+2. **workflow::design** ✏️: During this phase, issues undergo design refinement. After design considerations are integrated, the "ready for development" label is applied.
+3. **workflow::refinement** 🧪: Issues in this stage are undergoing engineering refinement to ensure the proposed solution meets all requirements. Once refined, the "ready for development" label is applied.
 4. **workflow::ready for development** 🎯: Issues that are prioritized and assigned to a specific milestone are moved to this list, and the "ready for development" label is applied.
 5. **workflow::in dev** 👩‍💻: When a developer begins work on an issue, they should move it to this list and apply the "in dev" label.
 6. **workflow::in review** 👀: After development is complete, the issue moves to this list, and the "in review" label is applied.
@@ -126,6 +126,7 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 - Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
 - Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
 - The issue should have a weight, milestone and workflow label assigned.
+- Design and frontend engineering use one issue. The same issues moves from workflow::design to workflow::refinement to workflow::ready for development. This ensures that there is a single source of truth for customer-facing issues. If a design issue is too large to be implemented, it may be promoted to an epic.
 
 It's okay to create specific engineering-driven implementation issues for more complex features. These would be called **Child Issues** and they should always link back to their parent. If one issue would spawn many child issues, consider creating an Epic.
 
