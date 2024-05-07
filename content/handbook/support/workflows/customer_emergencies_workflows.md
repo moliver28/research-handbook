@@ -69,6 +69,8 @@ We [assume positive intent](/handbook/values/#assume-positive-intent) and use ou
 | ...needs more information to allow us to determine whether it qualifies as an emergency, | `General::Emergency::Needs more info` | ...that you [will proceed asynchronously](#communicating-that-you-need-more-info) until that determination can be made. |
 | ...does not meet the criteria for an [emergency](https://about.gitlab.com/support/definitions/#severity-1) or an [exception](/handbook/support/workflows/emergency_exception_workflow#exception-criteria), | `General::Emergency::Not an Emergency` and `Downgrade emergency ticket` | ...that their situation does not qualify for emergency service. Follow the section [Handling an emergency downgrade](#handling-an-emergency-downgrade). |
 
+At this point, if the emergency does not meet the specified criteria, which includes verifying that there is no impact on the customer's business, it is advisable to consult with the on-call manager for a thorough assessment. Once this consultation has been completed and confirmed, you may proceed with the necessary communication.
+
 #### Communicating that you need more info
 
 When an emergency request ticket does not contain information sufficient to
