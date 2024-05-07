@@ -52,8 +52,9 @@ issue template or contact Data team on slack via #data.
 
 Support uses Zendesk Explore for SSOT instead of Tableau. We do that because of the following reasons:
 
-1. Zendesk Explore refresh data on Hourly basis unlike Tableau which refreshes only at 04:00 AM UTC so no data lag.
+1. Zendesk Explore refresh data on Hourly basis unlike Tableau which refreshes only at 04:00 AM UTC so no data lag. However sync can take upto two hours so maximum difference possible is 3 hours from last refresh.
 1. Zendesk Explore has some built-in metrics which are unavailable in Tableau.
 1. Zendesk Explore reflects Data on event based updates. For example, priority switching is almost directly reportable in Zendesk Explore.
+1. Zendesk Explore does not include Deleted Tickets. Only Tableau can have deleted tickets in the reports. If you want reporting which includes deleted tickets in Explore, it is only possible using `Support: Updates history` dataset with `Deletion` metric.
 
 Due to aforementioned reasons, if you need a report based on Support Metrics or based on real-time support analytics, please contact #support_operations on Slack.
