@@ -50,6 +50,6 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
 | **Action**                                 | **November**                | **December**        | **January**                            |
 |:---------------------------------------------:|:---------------------------:|:-------------------:|:-------------------:|
 **[OKR Planning & Execution](/handbook/company/okrs)** | Task: Track Q4 OKR progress | Task: Track Q4 OKR progress                                | Task: Score Q4 OKRs by 2025-01-31 and submit FY26 Q1 OKRs by 2025-01-13   |
-| **[Promotion Effective date & Communication]({{< ref "promotions-transfers#quarterly-promotion-calibration-process--timeline" >}})**  |  | | Task: Plan promostions for Q1 and calibrate with leadership
+| **[Promotion Effective date & Communication]({{< ref "promotions-transfers#quarterly-promotion-calibration-process--timeline" >}})**  |  | | Task: Plan promotions for Q1 and calibrate with leadership
 | **[Talent Assessment](/handbook/people-group/talent-assessment)**                        | Task: Write Talent Assessment review for your team members| Task: Calibrate ratings with leadership| Task: Talent Assessment (Review) with your team
 | **[Annual Compensation Review and Calibration](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/)**          | Task: Add in recommendations for compensation changes for your team. Task: Calibrate the recommendations with your leader.
