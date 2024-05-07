@@ -345,8 +345,8 @@
     links:
      - name: Sarbanes-Oxley (SOX) Compliance
        url: sarbanes-oxley
-  - name: Stock Options
-    url: /handbook/stock-options
+  - name: Equity Compensation
+    url: /handbook/total-rewards/stock-options
 - name: Product
   icon: fa-solid fa-comments
   url: /handbook/product
