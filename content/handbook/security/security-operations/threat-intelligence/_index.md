@@ -107,12 +107,12 @@ We call this our "Adoption Rate".
 
 Recommendations start as GitLab.com issues in the project closest to the team that can address them. We classify recommendations using labels:
 
-- Detections & Alerts (TIRec::Detection)
-- Security Controls (TIRec::Control)
-- Processes and Procedures (TIRec::Process)
-- Threat Hunting (TIRec::Hunting)
-- Communications (TIRec::Comms)
-- Training (TIRec::Training)
+- Detections & Alerts (`TIRec::Detection`)
+- Security Controls (`TIRec::Control`)
+- Processes and Procedures (`TIRec::Process`)
+- Threat Hunting (`TIRec::Hunting`)
+- Communications (`TIRec::Comms`)
+- Training (`TIRec::Training`)
 
 We track what happens after a recommendation is delivered by adding a secondary label to the issue with its current status or final outcome:
 
