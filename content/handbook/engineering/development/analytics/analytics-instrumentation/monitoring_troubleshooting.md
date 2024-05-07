@@ -141,7 +141,11 @@ Events can be incorrectly marked as "bad" because of incorrect events emitting. 
 Such events can be recovered by reprocessing them.
 
 1. Choose the way to emit events. If the amount of data is a few Gigabytes, it's possible to use local machine. Another option is to use a EC2
-   instance in the same region as Snowplow collector to speed up the process as the amount of http requests will be significant.
+   instance in the same region as Snowplow collector to speed up the process as the amount of http requests will be significant. If chosen to use E2 instance
+   consider at least `x2.large` instance as concurrent events processing is relatively CPU heavy. Uncompressed events take about 70% more space than
+   downloaded zipped files, consider at least 300Gb HDD volume.
+
+   In order to install gem dependencies on Linux, extra packages might be required. For example, Ubuntu will need `build-essential` for gcc and make.
 2. Download events from `enriched-bad` S3 folder using `aws` CLI `aws s3 cp s3://gitlab-com-snowplow-events/enriched-bad/{year}/{day}/{day} {local_folder} --recursive` and un-archive them `gunzip -r .`.
 3. Checkout [snowplow anonymizer repository](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/snowplow-pseudonymization). It contains classes necessary to de-serialize binary base64 encoded payload.
 4. Create a processing script to fix the payloads and re-submit data. An few important moments to consider:
