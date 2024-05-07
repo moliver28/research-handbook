@@ -121,7 +121,7 @@ each financial quarter.
    - a link to the notification issue when the number was reviewed for that period.
 
 | **Quarter** | **Cliff Number** | **Notification Issue**  |
-|------------| -------- |------|--------------------------|
+|-------------| ---------------- | ------------------------|
 | FY25-Q2 (Current) | 8 | [STM#6046](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6046) |
 | FY25-Q1 | 9 | [STM#5821](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5821) |
 | FY24-Q4 | 8 | [STM#5672](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5672) |
