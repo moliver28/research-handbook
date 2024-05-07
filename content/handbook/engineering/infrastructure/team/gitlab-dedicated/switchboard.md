@@ -295,7 +295,7 @@ Video Walkthrough from Product:
 * [ ] DRI identified
 * [ ] Roll out plan agreed
 * [ ] External customer communication plan defined
-* [ ] Copy Requirements are hightlighted to the Technical Writer
+* [ ] Copy Requirements are highlighted to the Technical Writer
 * [ ] UX Requirements are highlighted UX Designer
 * [ ] Issue created to track Documentation requirements
 * [ ] Outstanding Questions captured in threads for resolution
