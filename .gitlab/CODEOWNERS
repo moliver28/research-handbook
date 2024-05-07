@@ -27,8 +27,7 @@
 # Handbook section needs to be near the top as it includes the fallback
 ^[handbook]
 /content/ @sytses @streas @gitlab-com/egroup
-/content/handbook/handbook-usage.md @sytses @streas @gitlab-com/content-sites
-/content/handbook/style-guide.md @gitlab-com/content-sites
+/content/handbook/about/handbook-usage.md @sytses @streas @gitlab-com/content-sites
 /content/handbook/about/ @gitlab-com/content-sites
 /content/handbook/content-websites/ @gitlab-com/content-sites
 /content/handbook/editing-handbook/ @gitlab-com/content-sites
@@ -46,23 +45,23 @@
 /content/handbook/business-technology/data-team/ @amiebright
 
 ^[ceo-and-company]
-/content/handbook/amas.md @sytses @streas
 /content/handbook/being-a-public-company.md @sytses
-/content/handbook/e-group-weekly.md @sytses @streas @gitlab-com/egroup
-/content/handbook/faq-gitlab-licensing-technology-to-independent-chinese-company.md @sytses @streas @yyugitlab
 /content/handbook/inspired-by-gitlab.md @sytses @gitlab-com/egroup
 /content/handbook/only-healthy-constraints.md @sytses
 /content/handbook/board-meetings/ @sytses @streas
 /content/handbook/ceo/ @sytses
 /content/handbook/ceo/shadow.md @jrotenberry @gitlab-com/office-of-the-ceo
 /content/handbook/company/ @sytses @streas @gitlab-com/egroup
+/content/handbook/company/amas.md @sytses @streas
+/content/handbook/company/e-group-weekly.md @sytses @streas @gitlab-com/egroup
+/content/handbook/company/faq-gitlab-licensing-technology-to-independent-chinese-company.md @sytses @streas @yyugitlab
 /content/handbook/company/history.md @sytses
 /content/handbook/company/okrs/ @streas
 /content/handbook/company/quote-to-cash.md @justinfarris @ofernandez2 @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @csouthard @rhardarson @isandin @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @andrew_murray @msubramanian
 /content/handbook/company/stewardship.md @sytses
 /content/handbook/company/strategy.md @sytses
-/content/handbook/group-conversations.md @streas
-/content/handbook/key-review.md @streas
+/content/handbook/company/group-conversations.md @streas
+/content/handbook/company/key-review.md @streas
 /content/handbook/leadership/ @sytses @streas
 /content/job-families/board-of-directors/ @sytses @robin
 /content/job-families/chief-executive-officer @sytses @streas
@@ -102,12 +101,12 @@
 /content/handbook/eba/ @jrotenberry @lsimonot
 
 ^[engineering]
-/content/handbook/developer-onboarding.md @sabrinafarmer @timzallmann @bmarnane
-/content/handbook/on-call.md @jfuentes2 @meks @jscarborough
 /content/handbook/engineering/ @sabrinafarmer
 /content/handbook/engineering/cross-functional-prioritization.md @sabrinafarmer @david
+/content/handbook/engineering/developer-onboarding.md @sabrinafarmer @timzallmann @bmarnane
 /content/handbook/engineering/metrics/ @meks @lmai1 @rymai
 /content/handbook/engineering/open-source/ @rymai @meks @nick_vh
+/content/handbook/engineering/on-call.md @jfuentes2 @meks @jscarborough
 /content/handbook/engineering/performance.md @timzallmann
 /content/job-families/engineering/ @sabrinafarmer
 /content/job-families/engineering/incubation/ @bmarnane
@@ -274,9 +273,9 @@
 /content/handbook/finance/financial-planning-and-analysis/sales-finance/gtm-analytics-hub.md @james.shen @jakebielecki @christinelee @alex.cohen @james_harrison
 /content/handbook/finance/growth-and-development/cfo-shadow-program.md @brobins @dtadich
 /content/handbook/finance/procurement/ @RendiMiller @emannix @brobins
+/content/handbook/finance/spending-company-money.md @brobins
 /content/handbook/finance/timekeeping/ @cgudgenov @simon-mundy
 /content/handbook/internal-audit/ @bjoshi2 @atoomer
-/content/handbook/spending-company-money.md @brobins
 /content/handbook/tax/ @jgladen
 /content/job-families/finance/ @brobins
 
@@ -288,11 +287,11 @@
 
 ^[legal]
 /content/handbook/esg.md @robin @slcline
-/content/handbook/gdpr.md @lasayers @emccrann
 /content/handbook/legal/ @robin
 /content/handbook/legal/esg/ @robin @slcline @kbuncle
 /content/handbook/legal/esg/esg-training.md @robin @slcline @kbuncle
 /content/handbook/legal/gitlab-code-of-business-conduct-and-ethics.md @robin
+/content/handbook/legal/privacy/gdpr.md @lasayers @emccrann
 
 # This is the required approvals LACA section
 [Legal-and-Corporate-Affairs-approval-required]
@@ -405,7 +404,7 @@
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/ @fjdiaz @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/ @csaavedra1 @dsteer
 /content/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/ @warias @dsteer
-/content/handbook/use-cases.md @dsteer
+/content/handbook/marketing/use-cases.md @dsteer
 
 ^[Marketing-Integrated-Marketing]
 /content/handbook/marketing/field-marketing/ @cmaynard1 @lblanchard
@@ -416,34 +415,34 @@
 /content/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-reporting.md @award4
 
 ^[People]
-/content/handbook/anti-harassment.md @anjali_kaufmann @wendybarnes
 /content/handbook/company/family-and-friends-day.md @pegan
 /content/handbook/company/structure.md @wendybarnes @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell
-/content/handbook/competencies.md @wendybarnes @glucchesi @pegan @cbednarz
-/content/handbook/incentives.md @wendybarnes @shristikauffman @Rkole
-/content/handbook/leadership/underperformance.md @wendybarnes @pegan @cbednarz @glucchesi
-/content/handbook/organizational-change-management.md @wendybarnes @rallen3
-/content/handbook/paid-time-off.md @lyndemeiers
-/content/handbook/stock-options.md @wendybarnes @glucchesi @pegan @cbednarz
-/content/handbook/using-gitlab-at-gitlab.md @wendybarnes @glucchesi @pegan @cbednarz
 /content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @r_kahn
 /content/handbook/labor-and-employment-notices/ @pegan @wendybarnes @cgudgenov @streas @sytses
+/content/handbook/leadership/underperformance.md @wendybarnes @pegan @cbednarz @glucchesi
+/content/handbook/organizational-change-management.md @wendybarnes @rallen3
 /content/handbook/people-group/ @wendybarnes @pegan @cbednarz @rallen3 @mpatel8 @cgudgenov
-/content/handbook/people-group/people-business-partners/_index.md @cbednarz @anjali_kaufmann
+/content/handbook/people-group/anti-harassment.md @anjali_kaufmann @wendybarnes
 /content/handbook/people-group/celebrations.md @wendybarnes @mpatel8
+/content/handbook/people-group/competencies.md @wendybarnes @glucchesi @pegan @cbednarz
 /content/handbook/people-group/contracts-probation-periods.md @mpatel8 @shensiek @alex_venter @Mowry @nutaurus
 /content/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
 /content/handbook/people-group/employment-branding/people-communications.md @kaylagolden @drogozinski @rallen3
 /content/handbook/people-group/employment-solutions.md @pegan @hdevlin
 /content/handbook/people-group/engineering/ @anechan
 /content/handbook/people-group/general-onboarding/ @mpatel8 @Mowry @alex_venter @anechan @ashjammers @nutaurus
+/content/handbook/people-group/incentives.md @wendybarnes @shristikauffman @Rkole
 /content/handbook/people-group/offboarding/ @wendybarnes @mpatel8
+/content/handbook/people-group/paid-time-off.md @lyndemeiers
+/content/handbook/people-group/people-business-partners/_index.md @cbednarz @anjali_kaufmann
 /content/handbook/people-group/people-compliance/ @cgudgenov
 /content/handbook/people-group/promotions-transfers.md @wendybarnes @mpatel8
 /content/handbook/people-group/pronouns.md @klang @ahanselka @lmcnally1
 /content/handbook/people-group/relocation.md @wendybarnes @pegan @mpatel8
+/content/handbook/people-group/stock-options.md @wendybarnes @glucchesi @pegan @cbednarz
 /content/handbook/people-group/talent-assessment.md @wendybarnes @glucchesi @pegan @cbednarz
 /content/handbook/people-group/team-member-relations.md @pegan @atisdale
+/content/handbook/people-group/using-gitlab-at-gitlab.md @wendybarnes @glucchesi @pegan @cbednarz
 /content/handbook/people-policies/ @emilyplotkin @pegan @wendybarnes
 /content/handbook/people-policies/leave-of-absence/ @lyndemeiers @pegan @cgudgenov
 /content/handbook/people-policies/leave-of-absence/us.md @lyndemeiers @pegan @cgudgenov
@@ -474,7 +473,6 @@
 /content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @gitlab-com/egroup @hbenson @dfrhodes @tichen @tmccaslin
 
 ^[product-dev-flow]
-/content/handbook/product-development-budgeting.md @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista
 /content/handbook/product-development-flow/ @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista
 
 ^[sales]
@@ -588,7 +586,6 @@
 /content/handbook/teamops/partners.md @jmoverley @nshah19
 
 ^[Technical-Writing]
-/content/handbook/documentation.md @susantacker @dianalogan @kpaizee @david
 /content/handbook/product/ux/technical-writing/ @susantacker @dianalogan @kpaizee @david
 
 ^[total-rewards]

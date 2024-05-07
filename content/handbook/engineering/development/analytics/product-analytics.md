@@ -28,7 +28,7 @@ Learn more about what we work on and the problems we are solving on our public [
 
 ## Onboarding engineer? Start here.
 
-Welcome! Start by familiarizing yourself with the [developer onboarding guide](/handbook/marketing/developer-relations/developer-onboarding/). After that you'll need to set up a few things specific to the Product Analytics team.
+Welcome! Start by familiarizing yourself with the [developer onboarding guide](/handbook/engineering/developer-onboarding/). After that you'll need to set up a few things specific to the Product Analytics team.
 
 ### Docker
 
