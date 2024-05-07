@@ -111,9 +111,9 @@ We track what happens after a recommendation is delivered by adding a secondary 
 - Accepted and actively being worked on (`RecOutcome::InProgress`)
 - Accepted but backlogged (`RecOutcome::Backlogged`)
 - Accepted but blocked (`RecOutcome::Blocked`)
-- Fully adopted (`RecOutcome::Adopted`)
-- Partially adopted (`RecOutcome::PartiallyAdopted`)
-- Rejected - will not be adopted (`RecOutcome::NotAdopted`)
+- Fully adopted and closed (`RecOutcome::Adopted`)
+- Partially adopted and closed (`RecOutcome::PartiallyAdopted`)
+- Not adopted and closed (`RecOutcome::NotAdopted`)
 
 An outcome label is added to the issue within one week of delivering the recommendation. A scheduled CI pipeline checks issues with classification labels to ensure they have an outcome.
 
