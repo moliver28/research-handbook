@@ -48,6 +48,8 @@ When we take on work:
     1. Identify the relevant PM/EM are based on `group::` labels. If there are no `group::` labels, make a best effort to figure out what group it would be relevant to.
     1. Ping the group's PM/EMs. Say that we're working on this issue, do your best to align with any existing efforts, and highlight that after release it will belong to their team (similar to a community contribution).
     1. If we can't figure it out an owner, don't ping anybody.
+1. Apply the appropriate `ProdSecEngMetric::` label based on the definitions listed in the Metrics labels table
+    1. If unsure what the appropriate label is at this point, add the `~ProdSecEngMetric::Pending` label
 
 ### Removing work items from the backlog
 
@@ -171,7 +173,7 @@ This issue is the single source of truth for all planning related discussions an
 1. The Product Security Engineering team will work together to add new items to the Milestone Work table
     1. Each item being added must be refined before it can be formally committed to
     1. The team member likely to take on the work should review and agree with the Weight, if it wasn't them who refined the issue.
-    1. Once we have refined and committed to the work, the relevant issue needs to be updated with the Milestone and Assignee(s)
+    1. Once we have refined and committed to the work, the relevant issue needs to be updated with the Milestone, Assignee(s), and Metrics label
 1. The Milestone Planning issue should be finalized at least 3 days before the Milestone Start Date
     1. The Product Security Manager will use threads in the Milestone Planning issue to work with each Product Security Engineering team member to finalize their workload
     1. Once finalized, the Planning Issue should be closed and an issue for the next Milestone should be opened
@@ -190,3 +192,27 @@ The Product Security Engineering manager is responsible for:
 - Creating, updating, and maintaining the Milestone Planning issue
 - Collaborating with Product Security Engineering team members to discuss potential work, identify refinement gaps, and assemble the Milestone Work table
 - Coordinating the finalization of the Milestone Planning issue
+
+## Metrics
+
+The Product Security Engineering team currently tracks the following metrics:
+
+- [Team velocity, measured in total weight of issues closed per week](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/Sheet1?:iid=1)
+
+We are working to track the following metrics that indicate adherence to our team's charter:
+
+- Number of Merge Requests into GitLab products directly related to implementing the functionality required by Product Security teams
+- Number of Merge Requests for creating security enhancements, defense in depth measures, and paved roads
+- The percentage of distinct value propositions in current in-house custom tools that have been contributed to the product
+
+### Metrics Labels
+
+Labels are a driving force behind our metrics collection. The appropriate label must be applied to the relevant issue, merge request, or epic.
+
+| Type of Work | Label | Where to apply label |
+| --- | --- | --- |
+| Product Security team requirement: Functionality required by GitLab Product Security teams | `~ProdSecEngMetric::ProdSecRequirement` | Issues and Merge Requests, sometimes Epics |
+| Defense in Depth: an MR that modifies existing non-vulnerable functionality to be more robust if an "earlier" security control fails | `~ProdSecEngMetric::Defense in Depth` | Issues and Merge Requests, sometimes Epics |
+| Paved Road: a new tool, method, class, check that, gives GitLab's contributors an easier way to perform an activity securely | `~ProdSecEngMetric::Paved Road` | Issues and Merge Requests, sometimes Epics |
+| Tooling Integration: work done as part of the effort to integrate functionality from custom in-house tooling into a GitLab product | `~ProdSecEngMetric::Tooling Integration` | Epics |
+| Pending: the work type isn't entirely clear yet, but we don't want to block progress for now | `~ProdSecEngMetric::Pending` | Issues, Merge Requests, and Epics |
