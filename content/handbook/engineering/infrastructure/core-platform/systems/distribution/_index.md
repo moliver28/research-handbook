@@ -361,7 +361,7 @@ The following GitLab Handbook areas are key in maintaining a healthy work/life b
 
 - [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second)
 - [Combating burnout, isolation, and anxiety in the remote workplace](/handbook/company/culture/all-remote/mental-health/)
-- [Recognizing Burnout](/handbook/paid-time-off/#recognizing-burnout)
+- [Recognizing Burnout](/handbook/people-group/paid-time-off/#recognizing-burnout)
 
 ## How to work with Distribution
 

@@ -60,7 +60,7 @@ Work with your [Sales Development team member](/handbook/marketing/sales-develop
 Work with your Sales Development team member to:
 - Decide which format of approach is best (email, linkedin, phone), and what your cadence will be:
 - Customize the [Prospecting Sequences for AEs](https://docs.google.com/document/d/1ksEGBsDVjQGkSeq8ESKf9Jdy-N7wREq_stnLutJBPTo/edit#heading=h.ufep756p4z4j) template or create your own.
-- Organize the [qualifying questions](/handbook/sales/qualification-questions/) and [customer use cases](/handbook/use-cases/) that might be relevant.
+- Organize the [qualifying questions](/handbook/sales/qualification-questions/) and [customer use cases](/handbook/marketing/use-cases/) that might be relevant.
 - **Practice your elevator pitch.** Both you and your SD teammate need to practice your pitches together to make sure you’re aligned on what you want the customer or prospect to hear. Really work on your tone of voice. You know you’re ready if you can easily tweak it based on who you’re talking to and what’s relevant to them.
 
 **Work with partners:** Work with your Channel Account Manager (CAM), talk to your peers, or use the [Partner Directory](https://partners.gitlab.com/English/directory/) to identify if there is a partner that supports specific accounts and can provide insight into target contacts or stakeholders.
@@ -103,7 +103,7 @@ Teams at GitLab find success when they dedicate time to prospecting and customer
   - Be available to show customer-centricity as ONE team
 
 **Exceptions:**
-Outbound Wednesdays are not a mandate; however, a recommendation for our Americas Enterprise teams to use their best efforts only to pre-book customer and partner meetings. For managers, this would include customers, partners, and recruiting. They can still happen if we need to have same-day internal discussions on a Wednesday. There will be the time in people’s calendars for same-day meetings.  
+Outbound Wednesdays are not a mandate; however, a recommendation for our Americas Enterprise teams to use their best efforts only to pre-book customer and partner meetings. For managers, this would include customers, partners, and recruiting. They can still happen if we need to have same-day internal discussions on a Wednesday. There will be the time in people’s calendars for same-day meetings.
 
 The goal is to avoid scheduling such meetings in advance. By doing this together as a “ONE AMER ENT Team”, we will find that it will help to provide an environment where customer-centric collaboration can more easily happen. By striving to reduce internal meetings on Wednesdays, we should be [taking the initiative to operate asynchronously with team members whenever possible](/handbook/values/#bias-towards-asynchronous-communication). We can follow up with an internal discussion on subsequent days where synchronous collaboration is needed to clarify any misunderstandings.
 
@@ -134,7 +134,7 @@ Holding hurts our prospective customers because while they’re sitting there, t
 
 - [Sales discovery and qualifying questions handbook page](/handbook/sales/qualification-questions/)
 - [Effective discovery handbook page](/handbook/sales/playbook/discovery/)
-- [Most common customer use cases handbook page](/handbook/use-cases/)
+- [Most common customer use cases handbook page](/handbook/marketing/use-cases/)
 
 #### Training
 

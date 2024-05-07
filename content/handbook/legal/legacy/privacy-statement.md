@@ -171,7 +171,7 @@ You may exercise your choices and rights as follows:
 
 *To opt-out of Interest-based advertising:* If you wish to opt-out of interest-based advertising, please visit the Cookie Policy to see your options.
 
-*Request a copy of your information:* You may [request a copy of the Personal Data](https://handbook.gitlab.com/handbook/gdpr/) that GitLab has about you.
+*Request a copy of your information:* You may [request a copy of the Personal Data](https://handbook.gitlab.com/handbook/legal/privacy/gdpr/) that GitLab has about you.
 
 *Update your Information:*  If you already have an account, you may access, update, or alter your user profile information by logging into your account and updating profile settings.
 

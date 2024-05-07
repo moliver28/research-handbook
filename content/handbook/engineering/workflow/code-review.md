@@ -109,7 +109,7 @@ Interested reviewers for the projects below should complete the listed tasks in 
 Tips:
 
 - If you'd like a dashboard limited to just reviews where you applied the `~"database::reviewed"` label,
-  reach out to the database group manager to get one. 
+  reach out to the database group manager to get one.
 
 #### Project maintainer process for [`gitlab-components`](https://gitlab.com/components)
 
@@ -336,7 +336,7 @@ https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/Engi
 
 We can gauge demand by looking at the Maintainership Demand dashboard, which can be filtered by month, project and technology:
 
-https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1 
+https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1
 
 #### About this dashboard
 
@@ -385,7 +385,7 @@ To add a custom target to an area using the `maintainer_custom_targets` Sisense 
 
 We aim to have enough reviewers and maintainers across timezones to ensure that there are people available to review MRs in a timely manner while keeping review load at a reasonable level. We track this in the [Reviewer/Maintainer Availability and Capacity dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ReviewermaintainerAvailabilityandCapacity/Reviewermaintaineravailabilityandcapacity?:iid=1):
 
-https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views 
+https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views
 
 ## Leading Organizations
 
@@ -503,7 +503,7 @@ on these other statuses, please refer to the [code review](https://docs.gitlab.c
 page in the developer documentation.
 
 Of course, if you are out of office and have
-[communicated](/handbook/paid-time-off/#communicating-your-time-off)
+[communicated](/handbook/people-group/paid-time-off/#communicating-your-time-off)
 this through your GitLab.com Status, authors are expected to realize this and
 find a different reviewer themselves.
 

@@ -4,7 +4,8 @@ title: Group Conversations
 description: >-
   Everything you need to know about GitLab's daily, recurring Group
   Conversations
-weight: -10
+aliases:
+- /handbook/group-conversations/
 ---
 
 ## Introduction
@@ -77,7 +78,7 @@ Please see [the agenda](https://docs.google.com/document/d/1yBZnT5KCz1iprjpsY2L-
 
 Use presentations to document everything people should know about your group. If the GC is for a group that didn't have a Key Review, and are preparing new slides, the slides should start with the top 3-5 highlights or top of mind updates that are relevant across functions, followed by additional information. These presentations are for attendees to review and generate questions from for the call, and attendees will often have [low context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication) around your function or team.
 
-Functions with Key Reviews should not create a new deck for a Group Conversation but should use their [Key Review deck](/handbook/key-review/#group-conversations-and-key-review-metrics) for the Group Conversation. If the Key review deck has MNPI, then a copy without MNPI should be created.
+Functions with Key Reviews should not create a new deck for a Group Conversation but should use their [Key Review deck](/handbook/company/key-review/#group-conversations-and-key-review-metrics) for the Group Conversation. If the Key review deck has MNPI, then a copy without MNPI should be created.
 
 You can also record and upload a [YouTube video](/handbook/marketing/marketing-operations/youtube/) if there is additional context that would be beneficial to supplement the slides.
 

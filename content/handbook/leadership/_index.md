@@ -41,7 +41,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. When a scheduled meeting agenda is complete 10 minutes before the call is set to end, an attendee ends the call early.
 1. A people leader hires a new team member that demonstrates our [CREDIT values]({{< ref "values" >}}).
 1. Before asking for others' time to discuss a topic, they dedicate time to process their thoughts and [make a proposal]({{< ref "values#make-a-proposal" >}}).
-1. A manager of one prioritizes wellbeing by blocking their calendars for fitness, meals, [paid time off](/handbook/paid-time-off/), and personal appointments.
+1. A manager of one prioritizes wellbeing by blocking their calendars for fitness, meals, [paid time off](/handbook/people-group/paid-time-off/), and personal appointments.
 1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public]({{< ref "values#public-by-default" >}}) and with a [low level of shame]({{< ref "values#low-level-of-shame" >}}).
 
 {{< youtube "d0x-JH3aolM" >}}
@@ -237,7 +237,7 @@ Watch the replay of our conversation with [Jeb Hurley, Co-founder and Managing P
 
 {{< youtube "te3ZfJgFRxI" >}}
 
-**Skills and behavior of [building high performing teams competency](/handbook/competencies/#list) for Managers**:
+**Skills and behavior of [building high performing teams competency](/handbook/people-group/competencies/#list) for Managers**:
 
 - Models and encourages teamwork by fostering collaboration, communication, [trust]({{< ref "building-trust" >}}), shared goals, mutual accountability and support
 - Fosters an environment where results are balanced with time management of multiple assignments and [Direct Responsible Individuals (DRI's)](/handbook/people-group/directly-responsible-individuals/) on important topics

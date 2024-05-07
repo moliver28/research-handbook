@@ -242,7 +242,7 @@ We'd rather use inline links, such as `[Text to display](link)`, as they are eas
 
 Use relative links when referring to links found on [about.gitlab.com](https://about.gitlab.com/). For example, a link to our blog handbook should look like this `/handbook/marketing/blog/` and **not** this `https://about.gitlab.com/handbook/marketing/blog/`. Remove everything from the `https` through `about.gitlab.com`, but retain the forward slash after `.com`.
 
-Learn more in the [Markdown Guide](/handbook/style-guide/#links).
+Learn more in the [Markdown Guide](/handbook/about/style-guide/#links).
 
 For links to GitLab.com or anywhere else you must use the entire link, including the `http:`.
 

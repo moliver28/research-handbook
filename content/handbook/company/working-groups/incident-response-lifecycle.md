@@ -47,7 +47,7 @@ description: "The Incident Response Lifecyle working group is intended to docume
    - [Incident Response Guidance](/handbook/security/threat-management/vulnerability-management/incident-response-guidance.html)
    - [Engaging Security Engineer On-Call]({{< ref "engaging-security-on-call" >}})
    - [GitLab SIRT On-Call Guide]({{< ref "secops-oncall" >}})
-1. [On-call](/handbook/on-call/)
+1. [On-call](/handbook/engineering/on-call/)
 1. Reliability
    - [Incident Management](/handbook/engineering/infrastructure/incident-management/)
 1. Support

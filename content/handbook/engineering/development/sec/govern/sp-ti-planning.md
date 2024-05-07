@@ -27,7 +27,7 @@ Questions to be answered:
 1. Are requirements clear enough to understand intent of request?
 2. Do we know the boundaries of work to be accomplished?
 
-If the answer is “No” to either of these questions, discussion continues with the PM to improve the team's understanding of the request. If necessary, the discussion will continue asynchronously in the Epic or Issue and is brought back to a future weekly meeting. 
+If the answer is “No” to either of these questions, discussion continues with the PM to improve the team's understanding of the request. If necessary, the discussion will continue asynchronously in the Epic or Issue and is brought back to a future weekly meeting.
 
 If the answer is "Yes" to these questions the team estimates **whether or not the issue
 can be delivered in a single iteration** (ignoring any other work that may be in that same
@@ -37,9 +37,9 @@ delivered in an iteration, are independent "slices" of value that can be used by
 mocked UIs or backend-only work that is inaccessible), and when all delivered will completely
 fulfill the original issue's requirements.
 
-* EM output: Once all of the above requirements have been satisfied the EMs assign a frontend and backend engineer as respective [DRI](#epic-engineering-dri)s to create Implementation Issues under the MVC epic(s). The Design issue created by UX is also closed at this point by the EM. 
+* EM output: Once all of the above requirements have been satisfied the EMs assign a frontend and backend engineer as respective [DRI](#epic-engineering-dri)s to create Implementation Issues under the MVC epic(s). The Design issue created by UX is also closed at this point by the EM.
 
-* Engineering output: Frontend and backend DRIs [create implementation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Implementation)s following the [Implementation template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Implementation.md) available for the `gitlab-org` project issues. Once they are done, they unassign themself and move issues to the `workflow::refinement` state. 
+* Engineering output: Frontend and backend DRIs [create implementation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Implementation)s following the [Implementation template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Implementation.md) available for the `gitlab-org` project issues. Once they are done, they unassign themself and move issues to the `workflow::refinement` state.
 
 ### Refinement
 
@@ -49,7 +49,7 @@ Engineers assigned to refine issues are encouraged to ask questions and push bac
 
 We assign issues for refinement to ensure we have focus on the highest-priority items, as determined by Product Management.  This is **not** an assignment to work on the issue.
 
-* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/engineering/metrics/#work-type-classification). 
+* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/engineering/metrics/#work-type-classification).
 
 ### Release Scope final & kickoff!
 By the week prior to the completion of the current milestone, the scope of the next release is finalized by EMs and PMs.
@@ -105,7 +105,7 @@ The goal of the refinement process is to ensure an issue is ready to be worked o
    * If you think that we should use the feature flag for a given issue, add ~"feature flag" label
      and add in the description a section called **Feature Flag** with the proposed name.
    * Create a [feature flag rollout](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Roll%20Out) issue to track the multiple stages of releasing with a feature flag.
-   * Consider creating a [feature flag clean up](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Cleanup) issue if the removal of the feature flag will occur in a subsequent milestone. 
+   * Consider creating a [feature flag clean up](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Cleanup) issue if the removal of the feature flag will occur in a subsequent milestone.
 1. Encourage Community Contributions.
    * If the scope of the issue is well defined and there are no dependencies, consider adding
      [contribution Labels](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#labels).
@@ -209,9 +209,9 @@ When writing verification steps for a feature or bug fix, it's important to incl
 The issue verification should be done by someone else other than the MR author[^4].
 
 1. All implementation issues should have verification steps in the description. Our [implementation issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Implementation) conveniently provides this section.
-1. When an engineer has merged their work, they should move their issue into the verification status, indicated by the `~workflow:verification` label and wait until they receive notification that their work has been deployed on staging via the release issue email. 
+1. When an engineer has merged their work, they should move their issue into the verification status, indicated by the `~workflow:verification` label and wait until they receive notification that their work has been deployed on staging via the release issue email.
 1. If possible, after the engineer has received the notification and verified their work in staging, they leave a comment summarizing the testing that was complete.
-1. After the change is available on .com/production (make sure the MR has the `~workflow:verification` label, so it's available with GitLab Next turned off), the engineer should verify again, leave a comment summarizing the testing that was completed, and unassign themselves from the issue. Also provide a link to a project or page, if applicable.  
+1. After the change is available on .com/production (make sure the MR has the `~workflow:verification` label, so it's available with GitLab Next turned off), the engineer should verify again, leave a comment summarizing the testing that was completed, and unassign themselves from the issue. Also provide a link to a project or page, if applicable.
 1. Unassigned issues in the `~workflow:verification` state are are assigned randomly by the triage bot based on the [verification policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/assign_dev_for_verification.rb) to an applicable team engineer. This engineer should then additionally verify the issue.
 1. Once the issue has been verified in production by both engineers, add the `workflow::complete` label and close the issue.
 
@@ -220,7 +220,7 @@ The issue verification should be done by someone else other than the MR author[^
 
 ## Planning for PTO
 
-We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 ## Epic Engineering DRI
 

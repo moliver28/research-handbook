@@ -265,7 +265,7 @@ Product Leadership is responsible for building the capacity and capability of th
 1. Our global [Product KPIs](/handbook/company/kpis/#product-kpis)
 1. Job satisfaction of the team members who report to them (as measured by annual employee engagement survey)
 1. Hiring versus plan and [new hire location factor](/handbook/product/performance-indicators/#new-hire-location-factor)
-1. IACV attained by assigned [use case](/handbook/use-cases/#specific-use-cases) as designated in `Why GitLab` of opportunity [Command Plans](/handbook/sales/command-of-the-message/command-plan/) ([Dashboard](https://app.periscopedata.com/app/gitlab/705822/Product-Management-+-Sales-Opportunity-Feedback)).
+1. IACV attained by assigned [use case](/handbook/marketing/use-cases/#specific-use-cases) as designated in `Why GitLab` of opportunity [Command Plans](/handbook/sales/command-of-the-message/command-plan/) ([Dashboard](https://app.periscopedata.com/app/gitlab/705822/Product-Management-+-Sales-Opportunity-Feedback)).
 
 In addition, some roles have role-specific activities and performance indicators.
 

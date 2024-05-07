@@ -236,8 +236,8 @@ the APAC region's support hours.
 
 #### Zuora
 
-Zuora is considered the [single source of truth](/handbook/handbook-usage/#single-source-of-truth)
-or [system of record](/handbook/handbook-usage/#system-of-record)
+Zuora is considered the [single source of truth](/handbook/about/handbook-usage/#single-source-of-truth)
+or [system of record](/handbook/about/handbook-usage/#system-of-record)
 for many subscription and renewal-related items, such as product SKUs,
 subscriptions and invoices. See the
 [Transition to Zuora as the SSOT issue](https://gitlab.com/groups/gitlab-org/-/epics/4664)

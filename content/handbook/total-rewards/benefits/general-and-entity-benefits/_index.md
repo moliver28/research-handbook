@@ -44,7 +44,7 @@ GitLab will [pay for the items you need to get your job done](https://about.gitl
 
 ## Equity Compensation
 
-[Equity Compensation](/handbook/stock-options/) is offered to most GitLab team members. We strongly believe in team member ownership in our Company. We are in business to create value for our shareholders and we want our team members to benefit from that shared success.
+[Equity Compensation](/handbook/total-rewards/stock-options/) is offered to most GitLab team members. We strongly believe in team member ownership in our Company. We are in business to create value for our shareholders and we want our team members to benefit from that shared success.
 
 ## Life Insurance
 
@@ -138,9 +138,9 @@ GitLab offers an Employee Assistance Program to all team members via [Modern Hea
 
 The following incentives are available for GitLab team members:
 
-- [Discretionary Bonuses](/handbook/incentives/#discretionary-bonuses)
-- [Referral Bonuses](/handbook/incentives/#referral-bonuses)
-- [Visiting Grant](/handbook/incentives/#visiting-grant)
+- [Discretionary Bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses)
+- [Referral Bonuses](/handbook/total-rewards/incentives/#referral-bonuses)
+- [Visiting Grant](/handbook/total-rewards/incentives/#visiting-grant)
 
 ## All-Remote
 
