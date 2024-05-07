@@ -105,7 +105,7 @@ Learn about our Product Leadership Team and learn about them via their personal 
 - [**Data for Product Managers**](/handbook/business-technology/data-team/programs/data-for-product-managers/)
 - [**Internal Product Handbook**](https://internal.gitlab.com/handbook/product/) (must access through OKTA)
 - [**Learning and Development for Product Management**](/handbook/product/product-manager-role/learning-and-development/)
-- [**Product Budgeting Process**](/handbook/product/product-development-budgeting/)
+- [**Product Budgeting Process**](/handbook/product-development-flow/product-development-budgeting/)
 - [**Product Development Flow**](/handbook/product-development-flow/)
 - [**Product Development Timeline**](/handbook/engineering/workflow/#product-development-timeline)
 - [**Analytics Instrumentation Guide**](/handbook/product/analytics-instrumentation-guide/)
