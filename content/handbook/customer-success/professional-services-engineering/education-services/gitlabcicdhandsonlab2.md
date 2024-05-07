@@ -250,13 +250,13 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 1. Under the **Project runners** section, click the **New project runner** button.
 
-1. Select your operating system (Linux, MacOS, or Windows).
-
 1. Under **Tags**, select **Run untagged jobs**. Leave the rest of the options blank.
 
     > An untagged runner will run any jobs. To control the jobs that a runner can run, you can define tags for the runner. To learn more about this process, click [here](https://docs.gitlab.com/ee/ci/runners/configure_runners.html#use-tags-to-control-which-jobs-a-runner-can-run)
 
 1. Click the **Create runner** button.
+
+1. Select your operating system (Linux, MacOS, or Windows).
 
 1. From the next page presented, copy the command under **Step 1** to your clipboard.
 
