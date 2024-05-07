@@ -31,65 +31,30 @@ In addition to the [Fulfillment Product Direction](https://about.gitlab.com/dire
 
 ## Team members
 
-### Fulfillment Sub-department People Leaders
+See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section for a list of team members for the Fulfillment section and sub-groups. 
 
-{{< members-by-role role="Engineering Manager, Fulfillment|Director of Engineering, Fulfillment" >}}
-
-### Fulfillment:Subscription Management Team
-
-{{< members-by-role role="Fulfillment:Subscription Management Team" >}}
-
-### Fulfillment:Purchase Team
-
-{{< team-by-departments "Fulfillment:Purchase Team" >}}
-
-### Fulfillment:Provision Team
-
-{{< team-by-departments "Fulfillment:Provision Team" >}}
-
-### Fulfillment:Utilization Team
-
-{{< team-by-departments "Fulfillment:Utilization Team" >}}
-
-### Fulfillment:Fulfillment Platform Team
-
-{{< team-by-departments "Fulfillment:Fulfillment Platform Team" >}}
 
 ## Stable counterparts
 
-The following members of other functional teams are our stable counterparts.
+### Sales & Go-To-Market
 
-{{< stable-counterparts role="Fulfillment|Fulfillment:" manager-role="Senior Engineering Manager, Fulfillment, Interim Strategy and Operations Lead, China|Fullstack Engineering Manager, Fulfillment:Fulfillment Platform|Fullstack Engineering Manager, Fulfillment:Provision|Fullstack Engineering Manager, Fulfillment:Utilization" manager-role="Backend Engineering Manager, Gitaly|Fullstack Engineering Manager (Interim), Fulfillment:Purchase|Fullstack Engineering Manager, Fulfillment:Subscription Management Team" >}}
+{{< member-and-role-by-gitlab "cnodari" "jrabbits" "gsodhi" "james_harrison" >}}
 
-### Fulfillment Security
+### Finance & IT
 
-{{< member-and-role-by-gitlab "ankelly" >}}
-
-### Enterprise Applications
-
-{{< member-and-role-by-gitlab "jesssalcido" >}}
-
-### Sales & Go-To-Market (GTM)
-
-{{< member-and-role-by-gitlab "asipala" >}}
-
-The Sales & Go-To-Market stable counterpart will serve as the GTM DRI for strategic cross-functional intiatives, new feature and system updates, and bug resolution. They will ensure that an end-to-end approach is taken into account when communicating with the field and users. Fulfillment PMs can engage the counterpart for new GTM work by using @mention in GitLab as the primary method to submit and prioritize tasks.
-
-### Billing and Accounts Receivable
-
-{{< member-and-role-by-gitlab "s_mccauley" "annapiaseczna" >}}
-
-### Customer Success
-
-{{< member-and-role-by-gitlab "dsakamoto" >}}
+{{< member-and-role-by-gitlab "s_mccauley" "annapiaseczna" "andrew_murray" "smundy" "lmendonca2" "achampagne1" >}}
 
 ### Support Engineering
 
-{{< member-and-role-by-gitlab jlyttle mdunninger kslaats >}}
+{{< member-and-role-by-gitlab "jlyttle" "mdunninger" "kslaats" >}}
 
 ### Office of the CEO
 
 {{< member-and-role-by-gitlab "ipedowitz" >}}
+
+### Product Technical Program Management
+
+{{< member-and-role-by-gitlab "cersoz" >}}
 
 ## Project management process
 
