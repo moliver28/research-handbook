@@ -633,16 +633,16 @@ Current and select new datasource for the Replacement and select ok
 
 ## View Performance
 
-Apdex is a standard measure of load performance. It is calculated by classifying each load event into one of three catagories: Satisfied, Tolerating, Frustrated,  based on two duration parameters: Target Time and Tolerable Time. 
+Apdex is a standard measure of load performance. It is calculated by classifying each load event into one of three categories: Satisfied, Tolerating, Frustrated. It is based on two duration parameters: Target Time and Tolerable Time. 
 
-We use a target time of 5 seconds and follow the recomndation that the Tolerable time be four times that, 20 seconds.  
+We use a target time of 5 seconds and follow the recommendation that the Tolerable time be four times that, 20 seconds.  
 
 
 The index itself is a weighted average, values range between 0 and 1, of the count of loads in each category which is then classified into five ratings: Excellent, Good, Fair, Poor, Unacceptable.
 
 | Apdex Value Range | Rating |
-| 0.94 to 1.00 | Excelent |
+| 0.94 to 1.00 | Excellent |
 | 0.85 to 0.93 | Good |
 | 0.70 to 0.84 | Fair |
 | 0.50 to 0.69 | Poor |
-| 0.00 to 0.49 | Unaceprtable |
+| 0.00 to 0.49 | Unacceptable |
