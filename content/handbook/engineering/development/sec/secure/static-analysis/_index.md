@@ -6,6 +6,11 @@ title: "Static Analysis Group"
 
 The Static Analysis group at GitLab is charged with developing the [Static Application Security Testing (SAST)](https://about.gitlab.com/direction/secure/static-analysis/sast/) feature category for customer software repositories.
 
+## Static Analysis Team
+
+{{< team-by-departments departments="Secure:Static Analysis BE Team" >}}
+
+
 ## Common Links
 
 - Slack channel: #g_secure-static-analysis

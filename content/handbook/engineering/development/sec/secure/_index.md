@@ -52,7 +52,8 @@ Team Page: [Composition Analysis](composition-analysis/)
 
 Team Page: [Static Analysis](static-analysis/)
 
-{{< team-by-manager-role role="Engineering(.*)Manager(.*)Secure:Static Analysis" team="Engineer" >}}
+{{< team-by-departments departments="Secure:Static Analysis BE Team" >}}
+
 
 ### Dynamic Analysis
 
@@ -64,7 +65,8 @@ Team Page: [Dynamic Analysis](dynamic-analysis/)
 
 Team Page: [Vulnerability Research](vulnerability-research/)
 
-{{< team-by-manager-slug manager="waynehaber" team="Vulnerability Research" >}}
+{{< team-by-departments departments="Secure:Vulnerability Research BE Team" >}}
+
 
 ## Stable Counterparts
 
