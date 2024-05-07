@@ -98,10 +98,10 @@ Switchboard team process to refine epics:
 1. Identify any missing requirements
    - All team members ask questions in the comments of this issue to drive out any edge cases
 1. DRI labels the epic as ~"workflow-infra::Ready"
-1. DRI ensures Epic Kick-Off is complete - see [Epic Template](#epic_template)
+1. DRI ensures Epic Kick-Off is complete - see [Epic Template](#epic-template)
 1. Assign Due Date & Start Date
    - DRI, EM & PM work together to assign due date based on team capacity, external deadlines and amount of work involved
-1. DRI identifies at least one demo that will be delivered with the epic and adds a brief outline to the epic description (see [Switchboard Demos](#switchboard_demos)).
+1. DRI identifies at least one demo that will be delivered with the epic and adds a brief outline to the epic description (see [Switchboard Demos](#switchboard-demos)).
 1. EM or DRI labels individual issues as ~"workflow-infra::Triage"
 1. DRI enables issues to be worked on in parallel where possible so that multiple engineers can contribute to a single epic
 1. If the epic involves both Frontend and Backend implementation the issues should be labelled accordingly
@@ -295,7 +295,7 @@ Video Walkthrough from Product:
 * [ ] DRI identified
 * [ ] Roll out plan agreed
 * [ ] External customer communication plan defined
-* [ ] Copy Requirements are hightlighted to the Technical Writer
+* [ ] Copy Requirements are highlighted to the Technical Writer
 * [ ] UX Requirements are highlighted UX Designer
 * [ ] Issue created to track Documentation requirements
 * [ ] Outstanding Questions captured in threads for resolution
