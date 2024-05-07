@@ -207,17 +207,21 @@ When creating a new project, all settings should be left to the default options,
    - `Settings -> General -> Visibility, project features, permissions -> Issues`
       - `Disabled`
 
-   Issues should be created in the [groups/gitlab-org issue tracker](https://gitlab.com/groups/gitlab-org/-/issues) instead, for the following reasons:
+   Issues should be created in the [groups/gitlab-org issue tracker](https://gitlab.com/groups/gitlab-org/-/issues) instead.
 
-   - Using a single, centralized issue tracker improves the visibility of issues and aligns with our value of [transparency](https://handbook.gitlab.com/handbook/values/#transparency).
+   Using a single, centralized issue tracker over per-project issue trackers has the following advantages:
 
-     For example, it's very easy for community members to use the `groups/gitlab-org` issue tracker to discover [GitLab issues seeking community contributions](https://gitlab.com/groups/gitlab-org/-/issues?sort=due_date_desc&state=opened&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=20).
+      - It improves the visibility of issues and aligns with our value of [transparency](https://handbook.gitlab.com/handbook/values/#transparency).
 
-   - Having a single source for [issue boards](https://gitlab.com/groups/gitlab-org/-/boards) makes it much easier for milestone planning, versus being spread across multiple projects.
+        For example, it's very easy for community members to use the `groups/gitlab-org` issue tracker to discover [GitLab issues seeking community contributions](https://gitlab.com/groups/gitlab-org/-/issues?sort=due_date_desc&state=opened&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=20).
 
-   - Having all issues in a single place makes it easier to write automated scripts, such as using the [Security triage automation](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation/) tool to create/modify vulnerabilities.
+      - Existing tools and infrastructure are used, such as having `triage-ops` and other bots executed against issues, without any additional configuration.
 
-   - There are some issues that apply to multiple projects. If each project has their own issue tracker, we'd need to figure out which issue tracker should "own" an issue that applies to multiple projects.
+      - It provides a more consistent experience, since all labels and dissue templates will be the same.
+
+      - It's easier to write automated scripts, such as using the [Security triage automation](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation/) tool to create/modify vulnerabilities.
+
+      - There are some issues that apply to multiple projects. If each project has their own issue tracker, we'd need to figure out which issue tracker should "own" an issue that applies to multiple projects.
 
    Having said that, there are currently some limitiations related to using a single, centralized issue tracker, for example [resolving threads in new issues doesn't work](https://gitlab.com/gitlab-org/gitlab/-/issues/220535).
 
