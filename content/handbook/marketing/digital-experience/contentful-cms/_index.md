@@ -23,6 +23,28 @@ As the GitLab marketing team and the marketing site evolves, we need a collabora
 - Entry: An Entry is considered one piece of content in a content type. For example, there are many Cards across the marketing site, but the Free card on the pricing page is one example of a Card Entry.
 - Field: Even the most basic Content Type typically has multiple fields. For example, a Button may seem small, but some fields it contains include the url it points to, the text on the button, perhaps an icon, maybe some tracking data. Each of these are considered Fields of the Button Content Type. 
 
+## Which pages on our marketing site draw from the CMS?
+
+Some pages still draw content from our Buyer Experience git repository due to page complexity and/or strict page ownership. Most of the content for our marketing site will be found in Contentful.
+
+| Subdirectory | Source |
+| ------ | ------ |
+| /blog | Contentful |
+| /releases | GitLab |
+| Marketing campaign flows (ex-Pathfactory) | Contentful |
+| /pricing | GitLab |
+| /support | Contentful |
+| /customers | Contentful |
+| /press | Contentful |
+| /solutions | Contentful |
+| /topics | Contentful |
+| /events | Contentful |
+| Navigation | Contentful |
+| /company | Contentful |
+| /partners | Contentful |
+| Homepage, /features, /platform, /gitlab-duo, etc | GitLab |
+
+
 ## How do we make changes to the marketing site with the CMS?
 
 As owners of the marketing website, the digital experience team handles most large changes in order to drive business goals. However, we are not necessarily the subject matter experts and will defer to various teams when it comes to editing content. In general, these are the processes we try to adhere to:
