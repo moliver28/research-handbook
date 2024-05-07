@@ -27,22 +27,23 @@ As the GitLab marketing team and the marketing site evolves, we need a collabora
 
 Some pages still draw content from our Buyer Experience git repository due to page complexity and/or strict page ownership. Most of the content for our marketing site will be found in Contentful.
 
-| Subdirectory | Source |
-| ----------   | ------ |
-| /blog        | Contentful |
-| /releases    | GitLab |
-| Marketing campaign flows (ex-Pathfactory) | Contentful |
-| /pricing | GitLab |
-| /support | Contentful |
-| /customers | Contentful |
-| /press | Contentful |
-| /solutions | Contentful |
-| /topics | Contentful |
-| /events | Contentful |
-| Navigation | GitLab |
-| /company | Contentful |
-| /partners | Contentful |
-| Homepage, /features, /platform, /gitlab-duo, /diversity-inclusion-and-belonging, etc | GitLab |
+| Subdirectory                                                | Source      |
+| ---------------------------------------------------------- | ----------- |
+| /blog                                                      | Contentful |
+| /releases                                                  | GitLab     |
+| Marketing campaign flows (ex-Pathfactory)                  | Contentful |
+| /pricing                                                   | GitLab     |
+| /support                                                   | Contentful |
+| /customers                                                 | Contentful |
+| /press                                                     | Contentful |
+| /solutions                                                 | Contentful |
+| /topics                                                    | Contentful |
+| /events                                                    | Contentful |
+| Navigation                                                 | Contentful     |
+| /company                                                   | Contentful |
+| /partners                                                  | Contentful |
+| Homepage, /features, /platform, /gitlab-duo, /diversity-inclusion-and-belonging, etc | GitLab     |
+
 
 ## How do we make changes to the marketing site with the CMS?
 
