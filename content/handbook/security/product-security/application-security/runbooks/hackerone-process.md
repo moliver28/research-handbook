@@ -222,7 +222,7 @@ Some vulnerabilities will only work on certain Ruby versions. In order to reprod
    - `gitlab-development-kit/.tool-versions`
    - `gitlab-development-kit/gitlab/.tool-versions`
 1. You may be asked to run `asdf install ruby <required-version>`. Run it.
-1. Run `gem install gitlab-development-kit`. 
+1. Run `gem install gitlab-development-kit`.
 1. Go into the `gitlab-development-kit/gitlab` directory, and run `bundle install`.
 1. Verify the Ruby version by running `gdk restart`.
 
