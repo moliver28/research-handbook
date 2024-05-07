@@ -16,7 +16,7 @@ description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 
 ## Our Approach to Using CI/CD For Data Science
 
-When it comes to training and scoring machine learning models, there are trade-offs to using your local machine vs. CI. Our approach is flexible to allow a user to do both.
+When it comes to training and scoring machine learning models, there are trade-offs to using your local machine vs. CI. Our approach is flexible to allow users to do both.
 
 - When executing training or scoring runs on your local machine, users will be able to:
   - Execute training or scoring code using local resources and python builds specific to the machine
@@ -26,12 +26,12 @@ When it comes to training and scoring machine learning models, there are trade-o
 
 - When executing training or scoring runs remotely using GitLab CI/CD, users will be able to:
   - Select CPU or GPU compute instance based on the needs of the model
-  - Automatically detect and rebuild the model image based on changes to the Dockerfile or requirements.txt
+  - Automatically detect and rebuild the model image based on changes to **Dockerfile** or **requirements.txt**
   - Log, view, and retrieve experiments in your preferred experiment tracker
   - Upload and download model artifacts directly to the GitLab package registry
   - Automatically report model metrics and performance in the merge request for review by others.
-  - Commit changes to the repository and automatically trigger the training CI pipeline based on a specific commit message
-     - Training CI pipeline only executes with the following commit message: `train <path/to/notebook/your_notebook.ipynb>`
+  - Commit changes to the repository and automatically trigger training CI pipelines based on a specific commit message
+     - Training CI pipelines only execute with the following commit message: `train <path/to/notebook/your_notebook.ipynb>`
      - Allows the pipeline to execute just the desired notebook
   - Commit changes to the repository and automatically trigger the scoring CI pipeline based on a specific commit message
      - Scoring CI pipeline only executes with the following commit message: `score <path/to/notebook/your_notebook.ipynb>`
@@ -58,8 +58,8 @@ This section covers, in detail, the mechanisms behind how these pipelines is cre
 
 ### Key Repository Files
 
-Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following:
-- **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that will be run in each pipeline. This is pulled from the [CI/CD Component Catelog](https://gitlab.com/explore/catalog/gitlab-data/ds-component-pipeline), with only a few variables needed to be specified by the user.
+Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following key files:
+- **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that will be run in each pipeline. The actual pipelines are pulled from the [CI/CD Component Catelog](https://gitlab.com/explore/catalog/gitlab-data/ds-component-pipeline), with only the variables that need specified by the user set in this .yml.
 - **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU  
 - **requirements.txt**: The python packages to install in the docker container
 - **config.yaml**: Configuration for training notebook
@@ -90,16 +90,16 @@ Let's take a detailed look at the repository (**Code -> Repository**):
   - `notebook_dir = 'notebooks'`: The directory of the training notebooks. This value is the same locally as it is the CI pipeline.
 - To see exactly how the CI pipeline changes these values, now let's view [.gitlab-ci.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/.gitlab-ci.yml). Because we are using a component from the CI/CD catelog, we actaully want to look at the [Data Science ML Component Pipeline](https://gitlab.com/gitlab-data/ds-component-pipeline/-/blob/main/templates/ds-pipeline/template.yml?ref_type=heads). In this file, search for `train-commit-activated`. This is the most important stage in the CI pipeline. A few things to note:
   - `image: $CONTAINER_IMAGE`: The training job will use the container created in the build job (as defined by `build-ds-image`), using the [Dockerfile](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/Dockerfile) and [requirements.txt](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/requirements.txt) files in the repository.
-  - `tags: Determines which runner to use. In this case, we want to be able to change the runner based on the project we are working on, so this gets specified by `TRAIN_RUNNER` and `SCORE_RUNNER` in [.gitlab-ci.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/.gitlab-ci.yml) located back in our project repository
-  - `script:
+  - `tags`: Determines which runner to use. In this case, we want to be able to change the runner based on the project we are working on, so this gets specified by `TRAIN_RUNNER` in [.gitlab-ci.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/.gitlab-ci.yml) located back in our project repository
+  - `script`:
         ...
-        - papermill -p is_local_development False -p tree_method 'gpu_hist' $notebookName -`: Tells papermill to override the variable values defined in the first cell of the notebook with the values shown when utlizing a the GPU runner.
+        - `papermill -p is_local_development False -p tree_method 'gpu_hist' $notebookName -`: Tells papermill to override the variable values defined in the first cell of the notebook with the values shown when utlizing a the GPU runner.
 - Finally, let's look at the [config.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/config.yml). Here we can configure certain variables for training our model:
   - `outcome`: Our outcome/target/dv variable. The example notebook is using the breast cancer dataset from scikit-learn and the outcome field in that dataset is named `target`
   - `optuna` configurations: The example notebook runs an xgboost model with [Optuna](https://optuna.org/). There are *a lot* of customizations that are possible with this setup, but to keep it simple, we have only included:
     - `n_trials`: Number of trails to run in the Optuna study
     - `model_file_name`: The output name of the joblib model file
-  - `mlflow': There are a few configurations you can make here if you like, but the defaults will also work fine
+  - `mlflow`: There are a few configurations you can make here if you like, but the defaults will also work fine
     - `experiment_name`: Name of your MLFlow Experiment
     - `run_name`: ID or name of the MLFlow Experiment Run
 
@@ -128,13 +128,13 @@ Let's take a detailed look at the repository (**Code -> Repository**):
      - Edit **Dockerfile**, replacing the maintainer value with your GitLab handle and commit the change to your branch. ![Edit Dockerfile](edit_dockerfile.png)
 1. Configure your runners:
      - GPU runners are available at the Premium and Ultimate tiers. If enabled, edit `.gitlab-ci.yml` and change the value of `TRAIN_RUNNER` to GPU runner (i.e. `saas-linux-medium-amd64-gpu-standard`). 
-     - The default `saas-linux-small-amd64` will work for all account types.
+     - The default value, `saas-linux-small-amd64`, will work for all account types.
 1. Edit **config.yaml**
      - Change `n_trials` to a new value between `10` and `20`.
      - For the commit message enter `train notebooks/training_example.ipynb`. This will tell the GitLab that you want to execute the training CI pipeline on the **training_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](edit_config.png)
-1. Click "Create merge request". Make sure you are merging into your local fork and click "Create merge request" once again. This should activate the training CI pipeline for the newly created MR.
-1. Click on "Pipelines" and you should see the training pipeline running. Click into the pipeline to see which which stage the pipeline is in.
-   - ***Note:*** If you did not set up Write Model Metrics to Merge Request above, then the `cml` job will fail. The pipeline will still pass with warnings ![Pipeline Jobs](pipeline_jobs.png)
+1. Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the training CI pipeline for the newly created MR.
+1. Click on "**Pipelines**" and you should see the training pipeline running. Click into the pipeline to see which which stage the pipeline is in.
+   - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Training Pipeline Jobs](training-pipeline-jobs.png)
 1. Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request).
    - <img src="model_metrics.png" width="700">
 1. Now let's look at the experiment run we just completed with our CI pipeline (**Analyze -> Model Experiments**)
@@ -152,15 +152,32 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 1. **Build** 
    - **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to score the model. Ideally, this should be the same image that was used to train the model.
 2. **Score**
-   - **score-commit-activated**: To manually execute a scoring pipeline. Activated by using the `score <path/to/notebook/your_notebook.ipynb>` in the commit message
-   - **score-scheduled**: To execute a scoring pipeline based on a defined schedule using [Scheduled pipeliens](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
+   - **score-commit-activated**: To manually execute a scoring pipeline. Activated by using `score <path/to/notebook/your_notebook.ipynb>` in the commit message
+   - **score-scheduled**: To execute a scoring pipeline based on a defined schedule using [Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
 3. **Notify** (Optional)
    - **publish-metrics-comment**: Write model performance metrics as a comment on the merge request. This is executed after a scoring run is performed via commit message.
-   - **write-to-wiki**: Write model performance metrics and job details to the project wiki. Only executes for scheduled jobs that use `score-scheduled` 
+   - **write-to-wiki**: Write model performance metrics and job details to the project wiki. The CI configuration it set up to only execute for scheduled jobs that use `score-scheduled` 
 
 ![CI Jobs](ci-pipelines.png)
 
 ### Productionalization Setup
+Let's take a detailed look at the repository (**Code -> Repository**):
+
+- In the **notebooks** directory, open [scoring_example.ipynb](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/notebooks/scoring_example.ipynb). We do not need to change anything in here, but note the first cell of the notebook. [Papermill](https://papermill.readthedocs.io/en/latest/#) will be used to execute this notebook in the CI pipeline and this cell has been tagged as `parameters` to allow Papermill to change these values. There are 3 variables with preset values:
+  - `is_local_development = True`: The default assumption is that the notebook is being run locally. The CI pipeline will modify this value to `False` automatically so the notebook can be optimized to run in CI
+  - `notebook_dir = 'notebooks'`: The directory of the scoring notebook (can be the same directory as the training notebooks). This value is the same locally as it is the CI pipeline.
+- To see exactly how the CI pipeline changes these values, now let's view [.gitlab-ci.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/.gitlab-ci.yml). Because we are using a component from the CI/CD catelog, we actaully want to look at the [Data Science ML Component Pipeline](https://gitlab.com/gitlab-data/ds-component-pipeline/-/blob/main/templates/ds-pipeline/template.yml?ref_type=heads). In this file, search for `score-commit-activated`. A few things to note:
+  - This job will manually trigger when `score <path/to/notebook/your_notebook.ipynb>` is passed in the commit message. 
+  - `image: $CONTAINER_IMAGE`: The scoring job will use the container created in the build job (as defined by `build-ds-image`), using the [Dockerfile](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/Dockerfile) and [requirements.txt](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/requirements.txt) files in the repository.
+  - `tags`: Determines which runner to use. In this case, we want to be able to change the runner based on the project we are working on, so this gets specified by `SCORE_RUNNER` in [.gitlab-ci.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/.gitlab-ci.yml) located back in our project repository
+  - `script`:
+        ...
+        - `papermill -p is_local_development False $notebookName -`: Tells papermill to override the variable values defined in the first cell of the notebook with the values shown when running in CI.
+- There is also a `score-scheduled` job
+   - This will trigger the scoring notebook at a set time, using [Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
+   - This job will also trigger the `write-to-wiki` job, which will publish model metrics to the project wiki
+- Finally, let's look at the [scoring_config.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/scoring_config.yml). Here we can configure certain variables for training our model:
+  - **ADD SCORING CONFIGURATIONS HERE**
 
 
 ### Scoring and Productionalization Step-by-Step Instructions
