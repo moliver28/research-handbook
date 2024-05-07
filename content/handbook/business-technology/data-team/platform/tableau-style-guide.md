@@ -144,6 +144,10 @@ GitLab's brand approved colors can be found [here](https://design.gitlab.com/dat
   <color>#45404B</color>
   </color-palette>
 
+  <color-palette name="Transparent" type="regular">
+  <color>#FFFFFF00</color>
+  </color-palette>
+
   </preferences>
   </workbook>
   ```
