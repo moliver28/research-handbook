@@ -470,6 +470,8 @@ Tweet storm examples:
 
 There are three types of meetings on the CEO's calendar: GitLab meetings, Valley meetings, and personal meetings. Please note that the program's continued success depends on the participants respecting confidentiality during the program, after the program, and after they leave GitLab.
 
+For Valley meetings and personal meetings you may be invited to, it may be helpful to know context on the attendees in advance. CEO Shadows have created a [document](https://drive.google.com/drive/search?q=CEO%20non-GitLab%20meetings) (limited access) that they can use to provide context to future CEO Shadows on these folks. CEO Shadows may update this document while they are shadowing.
+
 #### GitLab Meetings
 
 You will attend all GitLab meetings of the CEO, including but not limited to:
