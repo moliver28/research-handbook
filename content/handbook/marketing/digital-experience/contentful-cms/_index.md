@@ -47,7 +47,8 @@ Some pages still draw content from our Buyer Experience git repository due to pa
 | /platform |  Contentful | Moving to GitLab ([issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3696)) |
 | /gitlab-duo| GitLab | ------ |
 | /free-trial | Contentful | ------ |
-| /solutions/code-suggestions/| Contentful | ------ |
+| /diversity-inclusion-belonging/|  Contentful | Moving to GitLab (Issue TBD) |
+| /faster-together/ | Contentful | ------ |
 
 
 ## How do we make changes to the marketing site with the CMS?
