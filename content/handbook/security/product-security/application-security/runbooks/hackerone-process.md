@@ -218,12 +218,11 @@ Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use 
 
 Some vulnerabilities will only work on certain Ruby versions. In order to reproduce them locally using GDK, here is how you can change your Ruby version:
 
-1. Update the Ruby version inside the following files to the required version:
+1. Update the Ruby version inside the following file to the required version:
    - `gitlab-development-kit/.tool-versions`
-   - `gitlab-development-kit/gitlab/.tool-versions`
-1. You may be asked to run `asdf install ruby <required-version>`. Run it.
-1. Run `gem install gitlab-development-kit`.
-1. Go into the `gitlab-development-kit/gitlab` directory, and run `bundle install`.
+1. Run `asdf install ruby <required-version>` while inside the GDK directory.
+1. Run `gem install gitlab-development-kit` while inside the GDK directory.
+1. Go into the `./gitlab` directory inside the GDK direcory, and run `bundle install`.
 1. Verify the Ruby version by running `gdk restart`.
 
 ## Triaging deprecated features
