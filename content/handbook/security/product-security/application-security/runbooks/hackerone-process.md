@@ -214,6 +214,18 @@ Pay attention to the full report to determine the `Attack Complexity`. The word 
 
 Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use `~no-cve` when importing) as they are [patched in regular releases](https://docs.gitlab.com/ee/administration/feature_flags.html#risks-when-enabling-features-still-in-development), not security releases.
 
+## Triaging issues in lower Ruby versions
+
+Some vulnerabilities will only work on certain Ruby versions. In order to reproduce them locally using GDK, here is how you can change your Ruby version:
+
+1. Update the Ruby version inside the following files to the required version:
+   - `gitlab-development-kit/.tool-versions`
+   - `gitlab-development-kit/gitlab/.tool-versions`
+1. You may be asked to run `asdf install ruby <required-version>`. Run it.
+1. Run `gem install gitlab-development-kit`.
+1. Go into the `gitlab-development-kit/gitlab` directory, and run `bundle install`.
+1. Verify the Ruby version by running `gdk restart`.
+
 ## Triaging deprecated features
 
 Vulnerabilities in deprecated features are triaged normally. [See discussion](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/336) for more information.
