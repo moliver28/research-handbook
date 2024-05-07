@@ -476,6 +476,23 @@ using established, popular tech will ensure a more stable and more familiar expe
 Make a conscious effort to **recognize** the constraints of others within the team.
 For example, sales is hard because you are dependent on another organization, and development is hard because you have to preserve the ability to quickly improve the product in the future.
 
+##### Just Enough Engineering
+
+The amount of engineering invested in a solution should take many factors into account. For instance:
+
+- How critical would this solution be?
+- How often would this solution be run?
+- Can we afford this solution to be "slow", and if so, how slow?
+- What would be the impact if this solution breaks?
+- Do we plan on extending this solution often? When we do, how painful would it be?
+- ...
+
+Incorrectly identifying factors could lead to over-engineered or under-engineered solutions. We shouldn't ideally spend days on a solution to a minor problem that happens once a year. Likewise, we should spend all the time necessary to solve a problem that will be critical for our customers.
+
+Applying just enough engineering gives solutions to problems that are between over-engineering and under-engineering. It solves the problem with the simplest solution possible, without sacrificing any requirements. This idea plays well with [boring solutions](#boring-solutions).
+
+[See an example](https://gitlab.com/gitlab-org/quality/engineering-productivity/snowflake-dashboard-sql/-/merge_requests/43#note_1882127345).
+
 ##### Self-service and self-learning
 
 Team members should first [search for their own answers](/handbook/company/culture/all-remote/self-service/) and, if an answer is not readily found or the answer is not clear, ask in public as we all should have a [low level of shame](#low-level-of-shame). [Write down any new information discovered](#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
