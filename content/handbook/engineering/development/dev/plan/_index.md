@@ -4,7 +4,7 @@ title: "Plan Stage"
 
 Plan teams:
 
-- [Plan:Project Management Team](/handbook/engineering/development/dev/plan-project-management/)
+- [Plan:Project Management Team](/handbook/engineering/development/dev/plan/project-management/)
 - [Plan:Product Planning Team](/handbook/engineering/development/dev/plan/product-planning/)
 - [Plan:Optimize Team](/handbook/engineering/development/dev/plan/optimize/)
 - [Plan:Knowledge Team](/handbook/engineering/development/dev/plan/knowledge/)
