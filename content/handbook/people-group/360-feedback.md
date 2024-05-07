@@ -101,7 +101,7 @@ During this 360 Feedback cycle we will be using the Individual Effectiveness 360
 
 To help guide team members in giving feedback, CultureAmp is offering options under the Start, Continue and Stop questions. When giving feedback you can select up to three options that you would say are applicable. If there are no options that match your feedback please use the option "Other". From there, you can elaborate in the comments section.
 
-The options shown align with [GitLab Competencies](/handbook/competencies/#list):
+The options shown align with [GitLab Competencies](/handbook/people-group/competencies/#list):
 
 - Collaboration: Working effectively with a range of people from across the business.
 - Results: Producing high quality work. Providing practical solutions to problems and finding ways to make improvements. Taking the lead and showing ownership of issues. Demonstrating a bias for action.
@@ -122,7 +122,7 @@ The options shown align with [GitLab Competencies](/handbook/competencies/#list)
 
 #### Manager Feedback
 
-Direct reports of managers that participate in the 360 feedback process will be asked to rate where their manager should better focus their efforts in order to support the team. Specific areas for rating are related to GitLab's [manager and leadership competencies](/handbook/competencies/#manager-and-leadership-competencies). The rating scale is a normalized, 5-point scale from "much less focus" to "much more focus," with an option for additional comment.
+Direct reports of managers that participate in the 360 feedback process will be asked to rate where their manager should better focus their efforts in order to support the team. Specific areas for rating are related to GitLab's [manager and leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies). The rating scale is a normalized, 5-point scale from "much less focus" to "much more focus," with an option for additional comment.
 
 ### Culture Amp Resources For Coaches
 

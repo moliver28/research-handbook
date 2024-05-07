@@ -91,7 +91,7 @@ Test infrastructure provides stability, dependability, and testing continuity fo
 
 ### Test Coverage
 
-Given rapidly evolving technologies and our drive to provide a world class experience for GitLab users, Test Platform sub-department strives to meet the increasing demands of efficient, intelligent test coverage and confidence at scale. We aim to test the right things at the right time. We focus on exploring several new testing types and visibility improvements to increase the actionability, speed, and sophistication of our various test suites. 
+Given rapidly evolving technologies and our drive to provide a world class experience for GitLab users, Test Platform sub-department strives to meet the increasing demands of efficient, intelligent test coverage and confidence at scale. We aim to test the right things at the right time. We focus on exploring several new testing types and visibility improvements to increase the actionability, speed, and sophistication of our various test suites.
 
 - Machine learning for test gap recognition, failure analysis and classification, and failing fast.
 - New testing types: visual regression testing, chaos testing, contract testing, permissions testing.
@@ -212,11 +212,11 @@ GitLab is an all-remote, timezone distributed company as such we optimize for as
 
 ### Group Conversation
 
-[Group Conversations](/handbook/group-conversations/) take the information from the Key Review (plus any additional topics) and shared with all of GitLab. All Team Members are invited to participate in Group Conversations by adding questions and comments in the Group Conversation Agenda.
+[Group Conversations](/handbook/company/group-conversations/) take the information from the Key Review (plus any additional topics) and shared with all of GitLab. All Team Members are invited to participate in Group Conversations by adding questions and comments in the Group Conversation Agenda.
 
 Coordination of Infrastructure Group Conversation materials and facilitation of the discussion is a rotating role among the managers within the department.
 
-Group Conversation DRI [Schedule](/handbook/group-conversations/#current-schedule).
+Group Conversation DRI [Schedule](/handbook/company/group-conversations/#current-schedule).
 
 ### Week-in-review
 

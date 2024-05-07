@@ -1,13 +1,13 @@
 ---
 
 title: Elevate
-aliases: 
+aliases:
 - /handbook/people-group/learning-and-development/elevate/elevate
 ---
 
 Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
-The handbook provides guidance on GitLab [leadership competencies](/handbook/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
+The handbook provides guidance on GitLab [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
 
 At this time, Elevate is only available for current People Leaders, People Business Partners, and members of the Team Member Relations team.
 
@@ -26,12 +26,12 @@ In FY24, 85% of people leaders will complete Elevate and earn the GitLab Elevate
 
 ## What is Elevate
 
-Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values]({{< ref "values" >}}), [leadership competencies](/handbook/competencies/#manager-and-leadership-competencies), and [mission]({{< ref "mission" >}}).
+Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values]({{< ref "values" >}}), [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies), and [mission]({{< ref "mission" >}}).
 
 In Elevate, participants will:
 
 1. Learn what it means to lead at GitLab
-1. Practice the [Manager & Leadership competencies](/handbook/competencies/#manager-and-leadership-competencies)
+1. Practice the [Manager & Leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies)
 1. Build cross-functional relationships with coaching cohort members
 1. Demonstrate leadership competency by completing the Elevate Leadership Certification
 

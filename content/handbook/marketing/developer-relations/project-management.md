@@ -17,32 +17,32 @@ Merged updates to the handbook are posted to the [#community-relations-fyi](http
 
 MRs must be tagged with the `Developer Relations` labeled *before being merged* in order to be posted to Slack. When you create a new MR, be sure to add the label upon creation so this step isn't forgotten. If you are assigned to merge an MR, ensure the label is added prior to merging.
 
-## Developer Relations Roadmap 
+## Developer Relations Roadmap
 
-The Developer Relations team conducts project and content planning via the [Roadmap in the Developer Relations Group](https://go.gitlab.com/community-roadmap). 
+The Developer Relations team conducts project and content planning via the [Roadmap in the Developer Relations Group](https://go.gitlab.com/community-roadmap).
 
-### Epics 
+### Epics
 
-Work items that fit into our team strategy, including events and content plans, are tracked in the roadmap by using Epics and Child Epics. 
+Work items that fit into our team strategy, including events and content plans, are tracked in the roadmap by using Epics and Child Epics.
 
-Please use this template when creating Epics for activities that should appear in the Developer Relations team roadmap: 
+Please use this template when creating Epics for activities that should appear in the Developer Relations team roadmap:
 
 ```
 <!--  Epic Title Formatting Guide:
 
-Dates should be using ISO dates, see https://about.gitlab.com/handbook/communication/#writing-style-guidelines 
+Dates should be using ISO dates, see https://about.gitlab.com/handbook/communication/#writing-style-guidelines
 
-Event: Event Name, Location, Date 
+Event: Event Name, Location, Date
 Content: Title, Date
 Others: Title, Date
 
-Reminder: Start and due dates are required in order for this Epic to display correctly in the team roadmap. 
+Reminder: Start and due dates are required in order for this Epic to display correctly in the team roadmap.
 -->
 
 ## Activity Summary
 
 
-## Goal or expected outcome 
+## Goal or expected outcome
 
 
 
@@ -54,20 +54,20 @@ Reminder: Start and due dates are required in order for this Epic to display cor
 
 
 
-<!-- Example 
+<!-- Example
 
-/label ~"Community::Events" ~"Region::AMER" ~"FY24-Q1" 
+/label ~"Community::Events" ~"Region::AMER" ~"FY24-Q1"
 
 Note: These are samples for guidance, please add relevant labels for activity region, type, quarter or any other labels relevant to your team/program. Please include additional relevant labels here.  -->
 
 <!--Link to parent epic where necessary -->
-/parent_epic URL 
+/parent_epic URL
 
 <!-- Link to Child epic where necessary -->
-/child_epic URL 
+/child_epic URL
 
 <!-- Mention team members that should be aware of the epic -->
-/cc 
+/cc
 
 ```
 
@@ -126,7 +126,7 @@ Note: These are samples for guidance, please add relevant labels for activity re
 
 ## Developer Relations Group Conversation
 ### What is a Group Conversation (GC)?
-GitLab teams update the rest of the company on what they are achieving and working on through [Group Conversations](/handbook/group-conversations/). Group Conversations are an important way to make sure the rest of the organization is aware of what each team is up to, has an opportunity to ask questions, and have a collection of links and information for reference.
+GitLab teams update the rest of the company on what they are achieving and working on through [Group Conversations](/handbook/company/group-conversations/). Group Conversations are an important way to make sure the rest of the organization is aware of what each team is up to, has an opportunity to ask questions, and have a collection of links and information for reference.
 
 ### Old Group Conversation decks
 The Developer Relations team's previous decks are in our [Google drive](https://drive.google.com/drive/folders/11c011VkzvSIcS3ko98AbvEP4UcZJmfBk?usp=sharing) (GitLab employees only). It's useful when putting together the next GC deck to look at the last one to make sure that items on the calendar edge don't get missed or included a second time.

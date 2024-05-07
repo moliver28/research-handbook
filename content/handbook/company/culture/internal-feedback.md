@@ -465,7 +465,7 @@ our work is public so we can talk about it, and our ability to create new proces
 #### What we’re wondering about & the answers to our thoughts
 
 1. Stock options: terms, conditions
-    - Does the handbook answer your questions? (/handbook/stock-options). Please feel free to ask Paul.
+    - Does the handbook answer your questions? (/handbook/total-rewards/stock-options/). Please feel free to ask Paul.
 1. What the company will look like 3, 6, 12 months from now? (community-ish, enterprise-ish)
     - The community and people using GitLab will keep growing. 12 months from now
     we'll answer all questions from the community on all platforms (from forum to

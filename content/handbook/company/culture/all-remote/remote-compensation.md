@@ -94,7 +94,7 @@ As many other organizations do, GitLab provides equity grants in the form of Inc
 
 The difference in these two types of grants are, generally, as follows: ISOs are issued to US employees and carry a special form of tax treatment recognized by the US Internal Revenue Service (IRS). NSOs are granted to contractors and non-US employees.
 
-You can learn more in the [Stock Options section of the Handbook](/handbook/stock-options/).
+You can learn more in the [Stock Options section of the Handbook](/handbook/total-rewards/stock-options/).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

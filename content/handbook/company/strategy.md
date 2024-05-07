@@ -24,7 +24,7 @@ As we execute on our strategy, it is important to use our financial targets as g
 1. Reach: go for a broad reach, no focus on business verticals or certain programming languages.
 1. Seed then nurture: [plant seeds and nurture the product to build out depth](#seed-then-nurture).
 1. Speed: ship every change in the next release to maximize responsiveness and learning.
-1. Life balance: we want people to stay with us for a long time, so it is important to [take time off](/handbook/paid-time-off/) and work on life balance; being [all-remote](/handbook/company/culture/#all-remote-work) is a large part of the solution.
+1. Life balance: we want people to stay with us for a long time, so it is important to [take time off](/handbook/people-group/paid-time-off/) and work on life balance; being [all-remote](/handbook/company/culture/#all-remote-work) is a large part of the solution.
 1. Open Source Stewardship: be a good [steward of GitLab](/handbook/company/stewardship/) and [collaborate with the wider community](https://about.gitlab.com/community/contribute/) to [improve the product together](/handbook/engineering/development/performance-indicators/#mr-rate).
 
 ### Seed then nurture
