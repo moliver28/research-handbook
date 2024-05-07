@@ -120,8 +120,6 @@ It is useful to have the following dashboards bookmarked and easily accessible
 
 1. [Google Cloud](https://console.cloud.google.com/home/dashboard?project=gitlab-production&pli=1)
 1. [Amazon Web Services](https://console.aws.amazon.com/console/home?region=us-east-1#)
-1. [DigitalOcean ](https://cloud.digitalocean.com/dashboard)
-1. [Azure](https://portal.azure.com)
 
 ### Monitoring tools
 
