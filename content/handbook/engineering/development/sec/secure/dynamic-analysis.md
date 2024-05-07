@@ -225,11 +225,21 @@ To complete this mapping, product priority-based issues or epics should be creat
   - Links to polished epics for each product priority
     - Flush out as many child epics and issues tagged to milestones as possible
 
-### Weekly Sync
+### Weekly Huddles & Reaction Coordination
 
-Every Tuesday, a calendar event with an attached agenda exists for a synchronous group meeting.
+#### Monday's Developers Huddle
 
-Each Tuesday, the group will assign a new Reaction Coordinator, discuss any unresolved and significant impediments blocking the team, and host general discussions valuable to a synchronous team meetup.
+Every Monday, a calendar event with an attached agenda exists for a synchronous development group meeting. This meeting is developer focused and includes all of the engineers on the team and the engineering manager. The purpose of the meeting is to discuss development efforts, strategies, tooling, active MRs, and to guide each other's coding efforts. Additionally, the team will discuss all of the active blueprinting items defined in the milestone planning issue, using this time to discuss implementation plans, spikes, and architectural decisions; all in hope of establishing epics and issues for work in the next milestone.
+
+#### Tuesday's General Huddle
+
+Every Tuesday, a calendar event with an attached agenda exists for a synchronous general group meeting.
+
+Each Tuesday, the group will assign a new Reaction Coordinator, discuss any unresolved and significant impediments blocking the team, and host general discussions valuable to a synchronous team meetup with our product manager.
+
+#### Wednesday's Support Huddle
+
+
 
 #### Reaction Coordinator
 
