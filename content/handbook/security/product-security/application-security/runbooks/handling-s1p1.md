@@ -49,31 +49,44 @@ If a vulnerability requires using features listed above for successfuly exploita
 
 ## Mitigate
 
-Sometimes the fix is very simple, sometimes it's not. If the impact to users is greater than the time it takes to apply the long-term fix, you will need to consider a [short term solution](#short-term) as well as the [long term](#long-term) one. Otherwise, if you and the development team are confident the fix is straightforward and simple, then you only need to do the long term fix and roll it out in a critical security release.
+Mitigation of critical security issues has to strike a balance between securing GitLab and our users as fast as possible and doing it in a reliable way that will not require another patch shortly after.
+The patch will first be deployed to GitLab-managed environments (.com, Dedicated, etc.) and then will be released to our self-managed users.
 
-### Short term
-
-1. Collaborate with the development, security, and SRE/infrastructure teams to brainstorm short term solutions until a long term patch can be released.
-  - Be sure to consider both GitLab SaaS and GitLab Dedicated
+1. Collaborate with all the relevant teams (development team owning the feature, infrastructure, SIRT, etc.) to come up with a solution for the vulnerability.
 1. Analyze the impact for each option.
-  - How effective is it at solving the problem?
-  - How many customers are affected by this decision?
-  - How exactly are they affected?
-  - What's the magnitude?
-  - What other positive and negative consequences are there?
+    - How effective is it at solving the problem?
+    - Are we patching a symptom or are we fixing the root cause?
+    - How many customers are affected by this decision?
+    - How exactly are they affected?
+    - What's the magnitude?
+    - What other positive and negative consequences are there?
 1. Choose the solution that best balances the concerns above with the concerns of participating teams.
-1. Approval is not required, but clear communication of decision is necessary. Notify the Director of Security, Directory of Infrastructure, and any other parties involved with the proposals and decision.
-1. Once the short term solution has been delivered, validate that the fix was effective.
+1. Once the solution has been delivered, validate that the fix was effective.
 
-Some past short term options have been:
+Occasionnaly, we'll need a quick fix before a good patch can be thoroughly developed and reviewed.
+Here are some examples of short term options we've used in the past:
 - Cloudflare rule to block certain endpoints.
 - Disable a specific feature using feature flags or application configuration.
 - Deploy a [hotpatch](https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/post-deployment-patches.md).
 
-### Long term
+### Releasing to self-managed customers
 
-1. Follow the [flowchart]({{< ref "deciding-gitlab-com-deployment" >}}) to decide which type of release is best suited for the current issue.
-1. Open an [RCA issue](https://gitlab.com/gitlab-com/gl-security/rcas/-/issues/) to start the RCA process.
+Since moving to a bi-weekly release schedule the need to follow the [critical security releases workflow](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/security-engineer.md##critical-security-releases) to patch critical vulnerabilities is much lower.
+To decide between including a patch in the regular patch release or a critical security release many factors have to be considered.
+Those factors include but are not limited to:
+
+- How easily can this vulnerability be exploited?
+- Does the vulnerability require a user account?
+- Is the vulnerability being exploited in the wild?
+- Is the exploit automatable and easily exploitable at scale?
+- How impactful is the vulnerability?
+
+This is handled on a case by case basis and will need to be evaluated with all the stake holders each time the situation arises.
+Some scenarios where we would be very likely to opt for an ad-hoc critical security release would be:
+
+- Unpatched critical severity vuln (CVSS 9+) being exploited in the wild
+- Unpatched critical severity vuln (CVSS 9+) with PoC/exploitation code publicly available
+- CVSS 10.0 vulns (e.g. unauth RCE or admin account takeover)
 
 ## Handoff
 
