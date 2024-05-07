@@ -145,6 +145,6 @@ If you have an announcement that is relevant *only* for the external partner aud
 
 ## Sharing Feedback
 
-Ongoing feedback and participation from the Field is imperative to the success of the Field Communications team and its programs. Field Communications incorporates surveys and other opportunities for feedback directly into [key communication programs](/handbook/sales/field-communications/#key-field-communications-programs). Team members are encouraged to provide ongoing feedback via these avenues.
+Ongoing feedback and participation from the Field is imperative to the success of the Field Communications team and its programs. Field Communications incorporates surveys and other opportunities for feedback directly into [primary communication programs](/handbook/sales/field-communications/#primary-field-communications-programs). Team members are encouraged to provide ongoing feedback via these avenues.
 
 In addition, Field Communications provides team members an opportunity to provide feedback about their Field Communications experience in annual Field and/or company surveys.
