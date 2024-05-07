@@ -45,7 +45,7 @@ Some pages still draw content from our Buyer Experience git repository due to pa
 | Homepage | Contentful | Moving to GitLab ([issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3694)) |
 | /features | Contentful | Moving to GitLab ([issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3695)) |
 | /platform |  Contentful | Moving to GitLab ([issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3696)) |
-| /gitlab-duo| GitLab | Never in Contentful |
+| /gitlab-duo| GitLab | ------ |
 | /free-trial | Contentful | ------ |
 | /solutions/code-suggestions/| Contentful | ------ |
 
