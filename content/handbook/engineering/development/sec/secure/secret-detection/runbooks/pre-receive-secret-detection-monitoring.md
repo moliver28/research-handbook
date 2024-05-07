@@ -2,11 +2,11 @@
 title: "Pre-receive secret detection monitoring"
 ---
 
-> _NOTE: This is still an **early draft**, more information will be added as the dashboard is created soon._
+> _NOTE: This is still an **early draft**, more information will be added as the dashboard evolves._
 
 ### When to use this runbook?
 
-This runbook is intended to be used when monitoring the [pre-receive secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards and how to improve them:
+This runbook is intended to be used when monitoring the [pre-receive secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive/index.html) feature to identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com. The runbook can also be used to understand more about relevant dashboards below and how to improve them:
 
 * [Pre-receive Secret Detection – Overview Dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1)
 
@@ -14,7 +14,9 @@ This runbook is intended to be used when monitoring the [pre-receive secret dete
 
 While the feature, in its [current form](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/#high-level-architecture), doesn't have any external components and is entirely encapsulated within the application server as a dependency, it does interact with a number of components as can be seen in this [push event sequence diagram](https://docs.gitlab.com/ee/architecture/blueprints/secret_detection/#push-event-detection-flow). Those components are:
 
-* Workhorse:
+* GitLab Shell (Git over SSH):
+    * `git-receive-pack`
+* Workhorse (Git over HTTP/S):
     * `git-receive-pack`
 * Gitaly:
     * `PostReceivePack`
@@ -38,13 +40,16 @@ As discussed above, the functionality spans a number of components. Therefore, a
         * `pubsub-rails-inf-gstg`
         * `pubsub-gitaly-inf-gstg`
         * `pubsub-workhorse-inf-gstg`
+        * `pubsub-shell-inf-gstg`
     * [Production](https://log.gprd.gitlab.net)
         * `pubsub-rails-inf-gprd`
         * `pubsub-gitaly-inf-gprd`
         * `pubsub-workhorse-inf-gprd`
+        * `pubsub-shell-inf-gprd`
 * Prometheus/Grafana (Metrics)
     * [Internal API](https://dashboards.gitlab.net/dashboards/f/internal-api/internal-api)
     * [Gitaly](https://dashboards.gitlab.net/dashboards/f/gitaly/gitaly-service)
+    * [GitLab Shell](https://dashboards.gitlab.net/d/git-main/git3a-overview)
 * Sentry (Error Tracking)
     * [Gitlab.com](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitlabcom)
     * [Gitaly](https://new-sentry.gitlab.net/organizations/gitlab/projects/gitaly)
@@ -56,11 +61,188 @@ This runbook focuses primarly on the Prometheus metrics available in Grafana, bu
 
 The [overview dashboard](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1) is the main dashboard we have built to monitor the feature. That's where anyone should start to look when trying to identify reliability or performance issues.
 
-The dashboard itself is split into 3 rows (or sections), with each containing a number of panels as below.
+The dashboard itself is split into 4 rows (or sections), with each containing a number of panels as below.
 
-#### Workhorse
+#### GitLab Shell (Git over SSH)
 
-This section monitors the stability of `workhorse` in general and is used to ensure there are no performance degradations related to `git-receive-pack` operations.
+This section monitors the stability of certain operations related to the feature within `Gitlab Shell`, which is a set of executables created to handle Git SSH sessions. The tool itself does not handle SSH directly, but instead the SSH server/daemon [`gitlab-sshd`](https://docs.gitlab.com/ee/development/gitlab_shell/gitlab_sshd.html) maintain all connections with clients and calls up Rails via GitLab Shell to perform authorization or access checks. Please check [this diagram](https://docs.gitlab.com/ee/development/gitlab_shell/index.html#git-push-over-ssh) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture.html#ssh-request-22) for more information on how that works.
+
+The section can be used to ensure there are no performance degradations related to `git-receive-pack` operations when a git push operation is carried out over SSH. It is dividend into two rows/sections as follows.
+
+**Note**: Most of available metrics for both `gitlab-shell` and `gitlab-sshd` aren't aggregated by the command used, so for a more better overview of the performance of `git-receive-pack` operation, take a look at the Kibana logs in those sections instead.
+
+##### gitlab-shell
+
+**[RPS (Requests Per Seconds)](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=17)**
+
+This panel displays average number of requests per second (RPS) made to gitlab-shell over time. The panel can be used to monitor request rates and understand if there's a performance or scalability issue. Use the link for more detailed overview of this metric. Note: this isn't specific to `git-receive-pack` command.
+
+*Panel Information*
+
+* Metric: `gitlab_component_ops:rate_5m`
+* Label Filters:
+  * `component` = `gitlab_shell`
+  * `env` = `gprd`
+  * `monitor` = `global`
+  * `stage` = `main`
+  * `type` = `git`
+* Operations:
+  * Average over Time: `range | $__interval`
+* Legend:
+  * RPS
+
+**[Total Established Gitaly Connections](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=15)**
+
+This panel displays the total number of Gitaly connections that have been established by gitlab-shell at a given time. This panel can be used to determine if there's a sudden drop in connections between both components, which may indicate a performance or an availability issue. Note: this isn't specific to `git-receive-pack` command.
+
+*Panel Information*
+
+* Metric: `gitlab_shell_gitaly_connections_total`
+* Label Filters:
+  * `env` = `gprd`
+  * `stage` = `main`
+* Operations:
+  * Count:
+    * Label: `status`
+* Legend:
+  * Auto
+
+**[Established SSH Sessions](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=22)**
+
+This panel displays the minimum number of established SSH sessions at a given time. The panel can be used to understand if there's an availability issue together with the panel adjacent to it which shows how the maximum number of SSH sessions that failed to establish at a given time. Note: this isn't specific to `git-receive-pack` command.
+
+*Panel Information*
+
+* Metric: `gitlab_sli:shell_sshd_sessions:total`
+* Label Filters:
+  * `env` = `gprd`
+  * `stage` = `main`
+  * `type` = `git`
+* Operations:
+  * Min
+* Legend:
+  * Auto
+
+**[Failed SSH Sessions](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=19)**
+
+This panel displays the maximum number of failed SSH sessions at a given time. The panel can be used to understand if there's an availability issues together with the panel adjacent to it which shows how the minimum number of SSH sessions established over a given time. Note: this isn't specific to `git-receive-pack` command.
+
+*Panel Information*
+
+* Metric: `gitlab_sli:shell_sshd_sessions:errors_total`
+* Label Filters:
+  * `env` = `gprd`
+  * `stage` = `main`
+  * `type` = `git`
+* Operations:
+  * Max by:
+    * Label: `app`
+* Legend:
+  * Auto
+
+**[Established Session Average Duration](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=27)**
+
+This panel displays the average duration of establish SSH sessions summed up over a range of 24 hours. The panel can be used to determine if there's an increase in the duration of a git pull/push over SSH which may indicate a performance or availability issue. Note: this isn't specific to `git-receive-pack` command.
+
+*Panel Information*
+
+* Metrics:
+    * `gitlab_shell_sshd_session_established_duration_seconds_sum`
+    * `gitlab_shell_sshd_session_established_duration_seconds_count`
+* Label Filters:
+  * `env` = `gprd`
+  * `stage` = `main`
+  * `type` = `git`
+* Operations:
+  * Divison: `/`
+  * Rate: `range | 24h`
+  * Sum
+* Legend:
+  * `{{label_name}}`
+
+**[All Sessions Average Duration](https://dashboards.gitlab.net/d/fdk7i56zibv28d/pre-receive-secret-detection-e28093-overview?orgId=1&viewPanel=20)**
+
+This panel displays the average duration of all SSH sessions (whether established or failed) summed up over a range of 24 hours. The panel can be used to determine if there's an increase in the duration of a git pull/push over SSH which may indicate a performance or availability issue. Note: this isn't specific to `git-receive-pack` command.
+
+*Panel Information*
+
+* Metrics:
+    * `gitlab_shell_sshd_session_duration_seconds_sum`
+    * `gitlab_shell_sshd_session_duration_seconds_count`
+* Label Filters:
+  * `env` = `gprd`
+  * `stage` = `main`
+  * `type` = `git`
+* Operations:
+  * Divison: `/`
+  * Rate: `range | 24h`
+  * Sum
+* Legend:
+  * `{{label_name}}`
+
+##### gitlab-sshd
+
+**SLI Apdex**
+
+This panel displays the application performance index (Apdex) for the gitlab-sshd SSH daemon/server. This Service Level Indicator (SLI) averages close to 99.9%, most of the time but a drop in the indicator could point to an outage or degradation. Use the link for more detailed overview of this metric. Note: this isn't specific to `git-receive-pack` command.
+
+*Panel Information*
+
+* Metric: `gitlab_component_apdex:ratio_5m`
+* Label Filters:
+  * `component` = `gitlab_sshd`
+  * `env` = `gprd`
+  * `monitor` = `global`
+  * `stage` = `main`
+  * `type` = `git`
+* Operations:
+  * Min over time: `range | $__interval`
+* Legend:
+  * Apdex
+
+**SLI Error Ratio**
+
+This panel displays the max ratio of errors clamped to maximum value received for the `gitlab-sshd` SSH daemon/server. This Service Level Indicator (SLI) averages close to 0.01%, most of the time but an increase in the indicator could point to an outage or degradation. Use the link for more detailed overview of this metric. Note: this isn't specific to `git-receive-pack` command.
+
+*Panel Information*
+
+* Metric: `gitlab_component_errors:ratio_5m`
+* Label Filters:
+  * `component` = `gitlab_sshd`
+  * `env` = `gprd`
+  * `monitor` = `global`
+  * `stage` = `main`
+  * `type` = `git`
+* Operations:
+  * Clamp max:
+    * Maximum Scalar: `1`
+    * Max over time: `range | $__interval`
+* Legend:
+  * Error %
+
+**SLI RPS (Requests Per Second)**
+
+This panel displays average number of requests per second (RPS) made to `gitlab-sshd` SSH daemon/server over time. The panel can be used to monitor request rates and understand if there's a performance or scalability issue. Use the link for more detailed overview of this metric. Note: this isn't specific to `git-receive-pack` command.
+
+* Metric: `gitlab_component_ops:ratio_5m`
+* Label Filters:
+  * `component` = `gitlab_sshd`
+  * `env` = `gprd`
+  * `monitor` = `global`
+  * `stage` = `main`
+  * `type` = `git`
+* Operations:
+  * Average over Time: `range | $__interval`
+* Legend:
+  * Error %
+
+#### Workhorse (Git over HTTP/S)
+
+This section monitors the stability of certain operations related to the feature within `Workhorse`, which is a smart reverse proxy intended to handle resource-intensive and long-running requests. It intercepts all HTTP requests and either propagates them without changing or handles them itself by performing additional logic. Please check [this diagram](https://docs.gitlab.com/ee/development/workhorse/handlers.html#git-push) and [this description of a request cycle](https://docs.gitlab.com/ee/development/architecture.html#web-request-80443) for more information on how that works.
+
+https://docs.gitlab.com/ee/development/workhorse/handlers.html#git-push
+
+The section can be used to ensure there are no performance degradations related to `git-receive-pack` operations when a git push operation is carried out over HTTP/S.
 
 **Processed `git-receive-pack` Requests**
 
@@ -68,8 +250,8 @@ This panel displays the number of HTTP requests that have been processed by `wor
 
 *Panel Information*
 
-* Metric used: `gitlab_workhorse_git_http_requests`
-* Labels:
+* Metric: `gitlab_workhorse_git_http_requests`
+* Label Filters:
   * `exported_service` = `git-receive-pack`
   * `env` = `gprd`
   * `stage` = `main`
@@ -88,8 +270,8 @@ This panel displays the total number of `Gitaly` connections that have been esta
 
 *Panel Information*
 
-* Metric used: `gitlab_workhorse_gitaly_connections_total`
-* Labels:
+* Metric: `gitlab_workhorse_gitaly_connections_total`
+* Label Filters:
   * `env` = `gprd`
   * `stage` = `main`
 * Operations:
@@ -104,16 +286,16 @@ This panel displays the average latency (duration) in seconds for the `/.git/git
 
 *Panel Information*
 
-* Metrics used:
+* Metrics:
     * `gitlab_workhorse_http_request_duration_seconds_sum`
     * `gitlab_workhorse_http_request_duration_seconds_count`
-* Labels:
+* Label Filters:
   * `env` = `gprd`
   * `stage` = `main`
   * `route` = `^/.+\\.git/git-receive-pack\\z` (double escaping is used for backslash )
 * Operations:
   * Divison: `/`
-  * Rate: `range | 1h`
+  * Rate: `range | 24h`
   * Sum:
     * Label: `node`
 * Legend:
@@ -121,7 +303,24 @@ This panel displays the average latency (duration) in seconds for the `/.git/git
 
 #### Gitaly
 
-Placeholder, will be added soon.
+This section monitors the stability of `gitaly`, more specifically the hooks and RPCs used by the feature. This can be used to ensure there are no performance degradations related to any of those hooks and RPCs.
+
+The section is divided into two sub-areas as follows, with most focus being on latency.
+
+1. Workhorse <=> Gitaly:
+    * `PostReceivePack`.
+1. Gitaly <=> Rails API:
+    * Gitaly / Before `/internal/allowed`:
+        * `PreReceiveHook`.
+    * Gitaly / During `/internal/allowed`:
+        * `ListAllBlobs()` RPC
+        * `ListBlobs()` RPC
+        * `GetTreeEntries()` RPC
+
+Interesting Metrics:
+
+- Gitaly GitLab API Latency Sum / Count (gitaly_gitlab_api_latency_seconds_sum/gitaly_gitlab_api_latency_seconds_count)
+- Gitaly Total bytes of git-pack-objects served (gitaly_pack_objects_served_bytes_total)
 
 #### Rails
 
@@ -150,8 +349,8 @@ A few sentences describing what the panel does and what it could be used for to 
 
 _Panel Information_
 
-* Metric used: `NAME_OF_METRIC_USED`
-* Labels:
+* Metric: `NAME_OF_METRIC_USED`
+* Label Filters:
   * `LIST_OF_LABELS_USED_TO_FILTER_BY_IN_KEY_AND_VALUE`
 * Operations:
   * `LIST_OF_OPERATIONS_APPLIED_ON_DATA`
