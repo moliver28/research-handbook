@@ -153,6 +153,7 @@ For more information, see [How to Mitigate Bugs Introduced by Security Merge Req
 [release dashboard]: https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1
 [remediation SLA]: https://handbook.gitlab.com/handbook/security/product-security/vulnerability-management/#remediation-slas
 [security backports]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md#backports
+[security issue template]: https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Security%20developer%20workflow.md
 [security implementation issue]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology
 [Security process as Engineer]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md
 [Security Remediation SLAs]: https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas
