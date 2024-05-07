@@ -43,12 +43,11 @@ Each team member employeed by Oxeye Ltd will be required to report their actual 
 
 ### Daily Work Time
 
-Team members will generally render their services on a full-time basis, noting that the standard working days and hours will be in accordance with applicable legislation and team member's employment contracts. Currently they are 5 days a week between Sunday and Thursday, four days of 9 gross hours (including lunch and rest breaks) per day and one shorter day of 8 gross hours including breaks. 
+Team members will generally render their services on a full-time basis, noting that the standard working days and hours will be in accordance with applicable legislation and team member's employment contracts. Currently they are 5 days a week between Sunday and Thursday, four days of 9 gross hours (including lunch and rest breaks) per day and one shorter day of 8 gross hours including breaks.
 
 ### Rest Periods
 
-Each team member is entitled to a rest period of at least 8 hours between work days and to
-36 continuous off-hours per week, including their rest day. The regular weekly rest day is Saturday. 
+Each team member is entitled to a rest period of at least 8 hours between work days and to 36 continuous off-hours per week, including their rest day. The regular weekly rest day is Saturday.
 
 ### Overtime
 
@@ -72,6 +71,7 @@ All team members in Israel are enrolled in the Pension Arrangement. In general t
 - Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
 
 #### Enrollment & Administration of the Pension Plan
+
 During onboarding Total Rewards team will connect team members with our broker, Shaldan, to set up their pension arrangement. Shaldan will work with the Payroll accountant who will deduct the employee contributions and fund the pensions appropriately.
 
 Shaldan is the operating agent who is responsible for ensuring funds are received by the pension accounts.
@@ -170,7 +170,7 @@ Full-time team members returing to work after the end of maternity leave are ent
 
 ### Fertility Treatment Leave
 
-Team members undergoing fertility treatment may be entitled to a leave from work (similar in nature to sick leave) during the term of the treatment, if they have received their doctor's approval that the treatment requires so, and subject to notifying GitLab in advance. 
+Team members undergoing fertility treatment may be entitled to a leave from work (similar in nature to sick leave) during the term of the treatment, if they have received their doctor's approval that the treatment requires so, and subject to notifying GitLab in advance.
 
 ### Bereavement Leave
 
@@ -183,3 +183,4 @@ Team members should enter the time away into Time off by Deel by selecting the l
 In Israel, team members serving on reserve duty must still be paid by their employer. Military service is mandatory in Israel.
 
 Team members should enter the time away into Time Off by Deel by selecting the label `Mandatory Civilian Service`.
+
