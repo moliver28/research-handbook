@@ -25,7 +25,7 @@ CHANGEME
    - [ ] Division: If the update affects your division, share the MR in your division Slack channel
    - [ ] Company: If the update affects all (or the majority of) GitLab team members, post an update in [#whats-happening-at-gitlab][whats-happening-at-gitlab-slack] linking to this MR
       - For high-priority company-wide announcements work with the [internal communications][internal-communications] team to post the update in [#company-fyi][company-fyi-slack] and align on a plan to circulate in additional channels like the ["While You Were Iterating" Newsletter][engagement-channels]
-- [ ] This MR changes a file path or `#` heading and I have searched for existing links/anchors in [our `gitlab-org`](https://gitlab.com/search?group_id=9970&project_id=&repository_ref=&scope=blobs&search=%22%2Fpath%2Ffile.md%22+or+%22%23old-anchor%22) & [`gitlab-com` groups](https://gitlab.com/search?group_id=6543&project_id=&repository_ref=&scope=blobs&search=%22%2Fpath%2Ffile.md%22+or+%22%23old-anchor%22). If there are any, I'll [create (a) new dependent merge request(s)](https://docs.gitlab.com/ee/user/project/merge_requests/dependencies.html#create-a-new-dependent-merge-request).
+- [ ] This MR changes a file path or `#` heading and I have followed the advice at https://handbook.gitlab.com/docs/development/#redirects.
 
 ## Commits
 
