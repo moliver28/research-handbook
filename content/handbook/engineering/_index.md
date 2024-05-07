@@ -92,7 +92,7 @@ There are four departments within the Engineering Division:
 
 ### Workflows
 
-- [Developer onboarding](/handbook/marketing/developer-relations/developer-onboarding/)
+- [Developer onboarding](/handbook/engineering/developer-onboarding/)
 - [Engineering Demo Process](/handbook/engineering/demos/)
 - [Engineering Workflow](/handbook/engineering/workflow/)
     - [Code Review](/handbook/engineering/workflow/code-review/)
