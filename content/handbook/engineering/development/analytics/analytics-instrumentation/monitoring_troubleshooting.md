@@ -134,6 +134,84 @@ Could we get assistance to fix the delay?
 Thank you!
 ```
 
+##### Recovering events incorrectly marked as "bad"
+
+Events can be incorrectly marked as "bad" because of accidentally incorrect events being emitted. This is most likely to to happen after an event schema update
+like in this [example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17782) where new properties were added to contexts.
+Such events can be recovered by reprocessing them.
+
+1. Choose the way to emit events:
+   1. If the amount of data is a few gigabytes, it's possible to use local machine. 
+   2. Another option is to use an EC2 instance in the same region as the Snowplow collector to speed up the process as the amount of http requests will be significant. 
+      Consider at least  an `x2.large` instance as concurrent events processing is relatively CPU heavy. 
+      Uncompressed events take about 70% more space than downloaded zipped files, consider at least 300Gb HDD volume.
+      In order to install gem dependencies on Linux, extra packages might be required. For example, Ubuntu will need `build-essential` for gcc and make.
+2. Download events from `enriched-bad` S3 folder using `aws` CLI `aws s3 cp s3://gitlab-com-snowplow-events/enriched-bad/{year}/{day}/{day} {local_folder} --recursive` and un-archive them `gunzip -r .`.
+3. Checkout [snowplow anonymizer repository](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/snowplow-pseudonymization). It contains classes necessary to de-serialize binary base64 encoded payload.
+4. Create a processing script to fix the payloads and re-submit data. An important point to consider:
+`collector_tstamp` will be different after re-submitting the events. This field likely will have to be set `dvce_sent_tstamp` in the DW
+   to avoid data corruption.
+
+Example script:
+```ruby
+require "base64"
+require "json"
+require "thrift-base64"
+require 'net/http'
+require 'uri'
+require 'async'
+require 'async/semaphore'
+require './lib/snowplow/bad_event'
+require "./lib/snowplow/event_thrift_model"
+
+required_text = 'feature_enabled_by_namespace_ids'
+
+uri = URI.parse("https://snowplowstg.trx.gitlab.net/com.snowplowanalytics.snowplow/tp2")
+
+semaphore = Async::Semaphore.new(50) # maximum amount of the concurrent requests
+
+Async do
+  Dir.glob("{requred_directiry}/**/*") do |file_path|
+    next unless File.file?(file_path)
+
+    # Select all the events with the required error
+    file_contents = File.read(file_path).split("\n").select { |line| line.include?(required_text) }
+
+    file_contents.each do |text|
+      event = Snowplow::BadEvent.new(text)
+
+      json_o = Snowplow::EventThriftModel.deserialize(event.event_record_hash["line"])
+
+      next if json_o.body.nil? || !json_o.body.include?('"aid":"gitlab"') # process only events from Gitlab.com
+
+      body = JSON.parse(json_o.body)
+
+      body["data"].each do |d|
+        d["aid"] = "gitlab-reprocess" # change aid to perform additional data cleaup in the DW if needed
+        cx = Base64.decode64(d["cx"])
+        # your line here to update the context and fix the problem
+        d["cx"] = Base64.encode64(cx)
+      end
+
+      semaphore.async do
+        http = Net::HTTP.new(uri.host, uri.port)
+        http.use_ssl = true
+        http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+
+        http.post(
+          uri.path,
+          JSON.generate(body),
+          'Content-type' => 'application/json; charset=UTF-8',
+        )
+      end
+    rescue => e
+      pp e
+    end
+  end
+end
+```
+
+
 ## Service Ping
 
 ### Monitoring
