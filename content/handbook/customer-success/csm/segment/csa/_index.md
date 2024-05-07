@@ -1,3 +1,12 @@
+---
+
+title: "Customer Success Architects (CSA)"
+aliases:
+- /handbook/customer-success/csm/segment/csa/
+---
+
+View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
+
 # Customer Success Architect (CSA)
 At GitLab, we understand that our customers' success is our success. That's why we have introduced the Customer Success Architect (CSA) role, our highest-rated technical product experts within Customer Success designed to provide you with the top-tier level of support and guidance throughout your journey with GitLab.
 
