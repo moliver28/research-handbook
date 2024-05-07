@@ -139,16 +139,16 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT |
 | 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success | [Emilio Salvador](@esalvadorp) - VP Developer Relations & Community | In Person - East Coast |
 | 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
-| 2024-07-08 | 2024-07-12 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | limited week/travel in EMEA |
-| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
+| 2024-07-08 | 2024-07-12 | NO SHADOW | NO SHADOW | travel in EMEA |
+| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | REMOTE - PT |
 | 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - PT |
 | 2024-07-29 | 2024-08-02 |  Ivan French - CEO, Sijbrandij Foundation | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
 | 2024-07-29 | 2024-08-02 |  OPEN | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
 | 2024-08-05 | 2024-08-09 |  OPEN | OPEN | REMOTE - CT - limited week due to MS conference |
 | 2024-08-12 | 2024-08-16 |  OPEN | OPEN | REMOTE - PT |
 | 2024-08-19 | 2024-08-23 |  OPEN | OPEN | REMOTE - PT - limited week (M-W)|
-| 2024-08-26 | 2024-08-30 |  OPEN | OPEN | REMOTE - PT |
-| 2024-09-02 | 2024-09-06 |  [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| OPEN | REMOTE - PT |
+| 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
+| 2024-09-02 | 2024-09-06 |  [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
 | 2024-09-09 | 2024-09-13 |  OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
 | 2024-09-16 | 2024-09-20 |  OPEN | OPEN | REMOTE - PT |
 | 2024-09-23 | 2024-09-27 |  VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
