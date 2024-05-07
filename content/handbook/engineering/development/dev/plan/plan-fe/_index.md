@@ -55,7 +55,7 @@ For more urgent items, feel free to also share the issue in [#s_plan] on Slack.
 
 [Intern]: /handbook/engineering/development/dev/fe-plan/internship
 [Plan stage page]: /handbook/product/categories/#plan-stage
-[backend team]: /handbook/engineering/development/dev/plan-project-management/
+[backend team]: /handbook/engineering/development/dev/plan/project-management/
 [engineering workflow]: /handbook/engineering/workflow/
 [GitLab]: https://gitlab.com/gitlab-org/gitlab
 
