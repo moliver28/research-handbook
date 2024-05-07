@@ -25,6 +25,7 @@ CHANGEME
    - [ ] Division: If the update affects your division, share the MR in your division Slack channel
    - [ ] Company: If the update affects all (or the majority of) GitLab team members, post an update in [#whats-happening-at-gitlab][whats-happening-at-gitlab-slack] linking to this MR
       - For high-priority company-wide announcements work with the [internal communications][internal-communications] team to post the update in [#company-fyi][company-fyi-slack] and align on a plan to circulate in additional channels like the ["While You Were Iterating" Newsletter][engagement-channels]
+- [ ] This MR changes a file path or `#` heading and I have followed the advice at https://handbook.gitlab.com/docs/development/#redirects.
 
 ## Commits
 
