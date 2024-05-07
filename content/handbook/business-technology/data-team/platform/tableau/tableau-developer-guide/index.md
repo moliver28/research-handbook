@@ -681,3 +681,19 @@ Current and select new datasource for the Replacement and select ok
 1. Check that the all of the fields swapped over to the new datasource are working and not showing an error- some may have a `!` next to them and require replacing.  Any manual field aliases may also need to be reapplied.
 1. Right click on the datasource to be replaced and select close (to reduce un-needed clutter).
 1. Publish the workbook.
+
+## View Performance
+
+Apdex is a standard measure of load performance. It is calculated by classifying each load event into one of three categories: Satisfied, Tolerating, Frustrated. It is based on two duration parameters: Target Time and Tolerable Time. 
+
+We use a target time of 5 seconds and follow the recommendation that the Tolerable time be four times that, 20 seconds.  
+
+
+The index itself is a weighted average, values range between 0 and 1, of the count of loads in each category which is then classified into five ratings: Excellent, Good, Fair, Poor, Unacceptable.
+
+| Apdex Value Range | Rating |
+| 0.94 to 1.00 | Excellent |
+| 0.85 to 0.93 | Good |
+| 0.70 to 0.84 | Fair |
+| 0.50 to 0.69 | Poor |
+| 0.00 to 0.49 | Unacceptable |
