@@ -29,7 +29,6 @@ Current (September 2023 - Present) committee members:
 - [Janina Roppelt](https://gitlab.com/jroppelt)
 - [Greg Myers](https://gitlab.com/greg)
 - [James Hebden](https://gitlab.com/jhebden)
-- [Sofia Duarte](https://gitlab.com/sofiadas)
 
 Previously nominated committee members (July 2022 - September 2023):
 
