@@ -175,7 +175,7 @@ Announcement Channels
 ### Sales Development Credit Matrix
 
 | Products Considered | Who | Order Type | Segment | Opportunities |
-| ---------- | -------- | ------- | --------- | -------------- | ---------------- |
+| ---------- | -------- | ------- | --------- | -------------- |
 | GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) |
 | GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro)
 | GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 |
