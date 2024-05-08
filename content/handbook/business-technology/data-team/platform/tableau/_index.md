@@ -64,25 +64,26 @@ description: "Tableau at GitLab"
 
 Having completed the migration to Tableau in FY25-Q1, we are now focused 
 
-- FY25-Q2 - Establish the framework for  
-    - Run an assessment of our Tableau environment
-        - Data sources (number of data sources that exist, custom SQL vs. table-based, commonly used tables, etc.)
+- FY25-Q2 - Establish the framework for the Future State of Tableau, with input from Functional teams
+    - Run an assessment of our Tableau environment, using quantitative and qualitative measures 
+        - Data sources (number of data sources that exist, custom SQL vs. table-based, commonly used tables that may indicate an opportunity for data source consolidation, etc.)
         - Dashboards (number of dashboards that exist, distribution of usage, average user views per dashboard, etc.)
         - Users (login frequency, etc.)
-    - Publish the Executive Landing Page to drive users towards critical dashboards
     - Document an approach to data source creation that promotes single-source-of-truth reporting
+    - Publish the Executive Landing Page to drive users towards critical dashboards
     - Document the domain areas that require a single-source-of-truth data source
     - Document an archival policy & process to remove unused dashboards and remove clutter from our environment
     - Document a user deprovisioning policy to free up unused licenses on a set cadence
-    - Facilitate the publication of X dashboards from Development to Production
-- FY25-Q3 - Achieve the following targets (specific numbers will be updated in Q2, and informed by findings from Q2 assessment)
+    - Facilitate the publication of X dashboards from Development to Production (target to be updated)
+- FY25-Q3 - Achieve the following targets (specific numbers will be updated in Q2, and will be informed by findings from Q2 assessment)
+    - Stand up the BI Enablement charter with programs & materials to support the Tableau community at GitLab
     - Refresh assessment of Tableau environment
-    - Define and calculate quantitative metrics for Tableau health - examples below, but will be iterated on and updated:
+    - Define, calculate, and publish quantitative metrics for Tableau health to be viewed on-demand, and potentially incorporated into the quarterly Data Key Review. Examples below, but will be iterated on and updated:
         - % of published dashboards in the Production environment 
         - Average user views per dashboard
         - Average # dashboards per published data source
         - etc.
-    - Implement archival & deprovisioning policies
+    - Implement unused dashboard archival & inactive user deprovisioning policies
     - Publish X certified data sources for critical domain areas that require single-source-of-truth data sources
     - Repoint and/or archive X dashboards to leverage those certified data sources
     - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of archiving unused dashboards
