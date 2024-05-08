@@ -1,13 +1,13 @@
 ---
 
 title: "Tableau Developer Guide"
-description: "Giltab's Tableau Developer guide"
+description: "GitLab's Tableau Developer guide"
 ---
 
 
 ## Data Source Approach
 
-Our approach to creating data sources in Tableau is to create all joins in dbt/Snowflake to materialize a final mart and/or rpt table that can be directly consumed by Tableau for the dashboard with no further joins, relationships, or calculations required in the BI layer.
+Our approach to creating data sources in Tableau is to create all joins in dbt/Snowflake to materialize a final mart and/or rpt table that can be directly consumed by Tableau for the dashboard with no further joins, relationships, or calculations required in the BI layer. 
 
 During the Tableau implementation, we experimented with the approach of bringing fct & dim tables into Tableau and creating the joins and relationships there. However, we prefer to create the data structures in dbt/Snowflake instead for the following reasons:
 - This approach keeps all joins & reporting logic under version control via the dbt/git integration.
