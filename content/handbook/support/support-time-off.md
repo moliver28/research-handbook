@@ -154,7 +154,7 @@ If they want to pause, put the ticket on-hold. Otherwise:
    - Change `works_account_deletion: true` to `works_account_deletion: false`
    - Assign the MR to your manager.
    - Make sure to undo this change when you return from OOO.
-1. After coming back, make sure to follow the guidelines for [catching up after a scheduled time off](#catching-up-after-a-scheduled-time-off)
+1. After coming back, make sure to follow the guidelines for [catching up after a scheduled time off](#catching-up-after-a-scheduled-time-off).
 
 ## How Support Handles Family and Friends Days
 
