@@ -396,3 +396,9 @@ Here are some suggestions:
 - Use `pubsub-sidekiq-inf-gprd` (Sidekiq) with the filters `json.class: "WebHookWorker"` and `json.meta.project : "path/to/project"` to identify webhook events.
 - Use `pubsub-rails-inf-gprd-*` (Rails) with the filters `json.message : "Webhook rate limit exceeded"` and `json.meta.project : "path/to/project"` to identify webhooks that failed to send due to rate limiting.
   - You can filter between Group and Project hooks by using `json.meta.related_class : "GroupHook"` or `json.meta.related_class : "ProjectHook"`.
+
+#### Undelivered OTP during registration
+
+When a user reports not receiving OTP during registration, there should be a log from Telesign. To search for failed verification through mobile
+
+- User `pubsub-rails-inf-gprd-*` with the filters `json.message: "IdentityVerification::Phone"` AND `json.username:"$username"` where `$username` can be found through the User Lookup
