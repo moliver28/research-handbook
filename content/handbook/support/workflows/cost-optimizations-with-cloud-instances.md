@@ -8,7 +8,7 @@ Cloud services are a valuable resource in support and give us the ability to hos
 
 Although highly beneficial cloud services come with a cost that can be hourly or on a per-term basis.  At first glance these costs can appear to be minimal however they can easily balloon to thousands of dollars per month.
 
-The purpose of this page is to provide a workflow that will ensure we [spend company money as if it's our own](/handbook/spending-company-money/#guidelines) while maintaining minimal impact on existing support workflows.
+The purpose of this page is to provide a workflow that will ensure we [spend company money as if it's our own](/handbook/finance/spending-company-money/#guidelines) while maintaining minimal impact on existing support workflows.
 
 #### Definition of "cloud service"
 

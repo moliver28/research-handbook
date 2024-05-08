@@ -21,7 +21,7 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [Acceptable Use Policy](https://about.gitlab.com/handbook/legal/acceptable-use-policy/)
 - [Anti-Corruption Policy](https://about.gitlab.com/handbook/legal/anti-corruption-policy/)
 - [Anti-Fraud Policy](https://about.gitlab.com/handbook/legal/anti-fraud-policy/)
-- [Anti-Harassment Policy](https://about.gitlab.com/handbook/anti-harassment/)
+- [Anti-Harassment Policy](https://about.gitlab.com/handbook/people-group/anti-harassment/)
 - [Anti-Retaliation Policy](https://about.gitlab.com/handbook/legal/anti-retaliation-policy/)
 - [Authorization Matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/)
 - [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
@@ -83,7 +83,7 @@ Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/medi
 
 ### Reporting Workplace Harassment (Non-Anonymous Only)
 
-Team members who are comfortable doing so may report workplace harassment concerns, **non-anonymously**, using GitLab’s [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing). Simply complete and send it to our Team Member Relations Specialists at <teammemberrelations@gitlab.com>. Read our [Anti-Harassment Policy](https://about.gitlab.com/handbook/anti-harassment/#types-of-harassment) to understand the different shapes that harassment may take and to understand the alternative reporting avenues that are available, such as [GitLab’s Chief People Officer](mailto:wbarnes@gitlab.com), [GitLab’s Chief Legal Officer](mailto:CLO@gitlab.com), the [Team Member Relations Team](https://about.gitlab.com/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](https://about.gitlab.com/handbook/people-group/#people-business-partner-alignment-to-division).
+Team members who are comfortable doing so may report workplace harassment concerns, **non-anonymously**, using GitLab’s [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing). Simply complete and send it to our Team Member Relations Specialists at <teammemberrelations@gitlab.com>. Read our [Anti-Harassment Policy](https://about.gitlab.com/handbook/people-group/anti-harassment/#types-of-harassment) to understand the different shapes that harassment may take and to understand the alternative reporting avenues that are available, such as [GitLab’s Chief People Officer](mailto:wbarnes@gitlab.com), [GitLab’s Chief Legal Officer](mailto:CLO@gitlab.com), the [Team Member Relations Team](https://about.gitlab.com/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](https://about.gitlab.com/handbook/people-group/#people-business-partner-alignment-to-division).
 
 ### Reporting Concerns about Team Member Relations (Anonymously OR Non-Anonymously)
 

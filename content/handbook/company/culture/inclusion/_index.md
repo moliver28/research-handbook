@@ -131,7 +131,7 @@ By having no offices and allowing each GitLab team member to work and live where
 
 - All-remote means that you [will not sacrifice career advancement](/handbook/people-group/learning-and-development) by working outside of the office, as even GitLab executives are fully remote.
 - All-remote creates a workplace where caregivers, individuals with physical disabilities, etc. are not disadvantaged for being unable to regularly commute into an office.
-- GitLab's approach to [Spending Company Money](/handbook/spending-company-money/) enables all team members to create a work environment uniquely tailored for them.
+- GitLab's approach to [Spending Company Money](/handbook/finance/spending-company-money/) enables all team members to create a work environment uniquely tailored for them.
 - All-remote enables those who must relocate frequently for family and personal reasons to take their career with them.
 - All-remote allows movement and relocation to physical settings that contribute to an individual's health (e.g. moving to a location with an improved air quality index).
 

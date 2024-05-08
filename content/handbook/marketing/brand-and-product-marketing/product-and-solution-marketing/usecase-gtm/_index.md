@@ -12,7 +12,7 @@ title: Solutions Go-to-market
 
 Solutions are a product or suite or products and services that business purchase to solve business problems. They are typically categorized into 3 buckets that address
 
-1. Market segment requirements (e.g. DevOps platform solution). Ours are outlined below with more details [here](/handbook/use-cases/)
+1. Market segment requirements (e.g. DevOps platform solution). Ours are outlined below with more details [here](/handbook/marketing/use-cases/)
 1. Industries/verticals requirements (e.g. Pub Sec, High Tech, Retail)
 1. Business segment requirements (e.g. enterprise vs SMB)
 

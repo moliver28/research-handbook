@@ -241,7 +241,7 @@ Select and set up your presentation space. Pick a spot with good wifi, and we re
 
 ### Before the Presentation
 {: #speaker-before-presentation .no_toc}
-Try to get a good sleep the night before, and, if the presentation is in the morning, wake up early enough to run through your notes at least once. Review our [Positioning FAQ](/handbook/positioning-faq/), or keep the page handy in case you are asked in the Q&A about how GitLab compares to our competitors.
+Try to get a good sleep the night before, and, if the presentation is in the morning, wake up early enough to run through your notes at least once. Review our [Positioning FAQ](/handbook/marketing/positioning-faq/), or keep the page handy in case you are asked in the Q&A about how GitLab compares to our competitors.
 
 ## Technical Demo Series
 {: #technical-demo-series .gitlab-purple} <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -251,14 +251,14 @@ Demo series run on a bi-weekly cadence as live or pre-recorded sessions on On24 
 
 **Key objectives:**
 * **Pipeline Acceleration:** Increase conversion from Marketing Qualified Leads (MQL) to Sales Accepted Opportunities (SAO).
-* **Prospect and Customer Education:** Inform our prospects and existing customers about the value offered by GitLab's features. 
+* **Prospect and Customer Education:** Inform our prospects and existing customers about the value offered by GitLab's features.
 
 ### Technical demo landing pages
 {: #technical-demo-landing-pages .gitlab-purple} <!-- DO NOT CHANGE THIS ANCHOR -->
 
-Technical Demo Series are managed by Marketing Campaign team, in collaboration with DevRel and Solution Architects who deliver the content. 
+Technical Demo Series are managed by Marketing Campaign team, in collaboration with DevRel and Solution Architects who deliver the content.
 
-Global Campaign Managers are responsible for creating technical demo bundles as a pivotal element within the overarching Go-To-Market (GTM) Campaign strategy. Regional Campaign Managers are responsible for activation in the region as integral part of the regional demand generation plans.   
+Global Campaign Managers are responsible for creating technical demo bundles as a pivotal element within the overarching Go-To-Market (GTM) Campaign strategy. Regional Campaign Managers are responsible for activation in the region as integral part of the regional demand generation plans.
 
 Regional Campaign Managers are responsible for updating the technical demo page through our CMS platform - Contentful:
 

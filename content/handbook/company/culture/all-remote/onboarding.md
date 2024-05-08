@@ -151,7 +151,7 @@ At GitLab, [the first thirty days](https://gitlab.com/gitlab-com/people-group/pe
 
 Onboarding is the first impression a new hire gets of your organization. It's critical to invest the time to do it well so that your new team members get to know you, understand what is expected of them, introduces them to co-workers and teammates, and sets them up to succeed.
 
-At GitLab, we document to create a [single source of truth]({{< ref "values#single-source-of-truth" >}}) so we can operate [handbook-first](/handbook/handbook-usage#why-handbook-first) and value [transparency]({{< ref "values#transparency" >}}) by making the handbook [publicly accessible to all](/handbook).
+At GitLab, we document to create a [single source of truth]({{< ref "values#single-source-of-truth" >}}) so we can operate [handbook-first](/handbook/about/handbook-usage/#why-handbook-first) and value [transparency]({{< ref "values#transparency" >}}) by making the handbook [publicly accessible to all](/handbook).
 
 ## Remote onboarding tips
 

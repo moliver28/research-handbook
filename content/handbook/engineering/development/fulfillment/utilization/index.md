@@ -51,9 +51,9 @@ All team members are encouraged to add topics to the [weekly agenda](https://doc
 
 Engineers are responsible for providing async issue updates on active, assigned issues when progress is made. Following the [template and guidance](/handbook/engineering/development/fulfillment/#weekly-async-issue-updates) for async updates for the entire Fulfillment Sub-department, updates should be made at least weekly. These updates help keep collaborators, stakeholders, and community contributors informed on the progress of an issue.
 
-In addition to weekly issue updates, we ask that engineeering DRIs also provide a weekly status update for the bodies of work where they're focussed. 
+In addition to weekly issue updates, we ask that engineeering DRIs also provide a weekly status update for the bodies of work where they're focussed.
 
-- **When**: We aim to provide these updates every Tuesday 
+- **When**: We aim to provide these updates every Tuesday
 - **Who**: Anyone who is listed as a DRI against our current milestone priority projects
 - **What**: The updates should include accomplishments, any blockers and a sense of how the work is progressing against the timeline. As an added bonus, a link to a demo that has been posted in the #s_fulfillment_demo Slack channel would also be beneficial.
 - **Where**: Please provide them in the comments of the primary/parent epic of your work and tag Alex and Chase when you do so.
@@ -67,10 +67,10 @@ An example template to use in these updates looks like:
 * **% Complete**: X% (Y weight closed / Z total weight)
 * **Blockers**: None
 * **Accomplishments**:
-  * 3 MRs created 
+  * 3 MRs created
   * 1 issue closed
 
-cc/ @alex_martin @csouthard 
+cc/ @alex_martin @csouthard
 ```
 
 Initially we are using the following formula for `% Complete`, rounded down to the nearest multiple of 5:
@@ -107,13 +107,13 @@ Current OKRs: [Work Items Labeled with Utilization](https://gitlab.com/gitlab-co
 
 ### Taking Time Off (PTO)
 
-It is important to [take time off](/handbook/paid-time-off/#paid-time-off) so that you can rest, reset, avoid burnout, take care of loved ones, etc. You are encouraged to take time for yourself or your family following our operating principle of [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second). Guidance is to communicate your PTO intention with your manager with [twice the number of days](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) that you are taking off.
+It is important to [take time off](/handbook/people-group/paid-time-off/#paid-time-off) so that you can rest, reset, avoid burnout, take care of loved ones, etc. You are encouraged to take time for yourself or your family following our operating principle of [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second). Guidance is to communicate your PTO intention with your manager with [twice the number of days](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) that you are taking off.
 
-When going out of office, please be sure to [clearly communicate](/handbook/paid-time-off/#communicating-your-time-off) your availability with other people. The following steps are required when submitting a PTO notification.
+When going out of office, please be sure to [clearly communicate](/handbook/people-group/paid-time-off/#communicating-your-time-off) your availability with other people. The following steps are required when submitting a PTO notification.
 
-1. In [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel), select a role as your backup during your PTO. Please assign the team slack channel #g_utilization as your backup to help distribute the workload. Consider if your current work in progress requires a substitute DRI and assign a single person for those specific issues.
+1. In [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel), select a role as your backup during your PTO. Please assign the team slack channel #g_utilization as your backup to help distribute the workload. Consider if your current work in progress requires a substitute DRI and assign a single person for those specific issues.
 
-2. Add the Fulfillment Shared Calendar to your Time Off by Deel settings so your PTO events are visible to everyone in the team. The calendar ID is: `gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com` Read more about [PTO](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) in the handbook.
+2. Add the Fulfillment Shared Calendar to your Time Off by Deel settings so your PTO events are visible to everyone in the team. The calendar ID is: `gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com` Read more about [PTO](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) in the handbook.
 
 3. Update your GitLab.com status with your out of office dates by clicking on your profile picture and selecting "Edit Status." For Example: `OOO Back on yyyy-mm-dd` Adding `OOO` to your status message will keep you from appearing in the [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette).
 

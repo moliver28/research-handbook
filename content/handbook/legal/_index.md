@@ -40,7 +40,7 @@ The Corporate Development Team prospects, pursues and integrates acquisitions to
 
 The Employment Legal Team collaborates with GitLab People Group on a broad range of matters across the entire arc of the employment relationship, from recruiting to onboarding, compensation, performance management, leave management, separation, and where necessary, litigation.
 
-### [Environment, Social, and Governance (ESG)](/handbook/legal/ESG/)
+### [Environment, Social, and Governance (ESG)](/handbook/legal/esg/)
 
 The ESG Team creates and maintains GitLab’s Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab’s social and environmental goals, and creating partnerships with non-profit organizations that support GitLab’s values and mission.
 
@@ -60,7 +60,7 @@ The Risk Management and Dispute Resolution team addresses dispute resolution acr
 
 - [Anti-Corruption Policy](/handbook/legal/anti-corruption-policy/)
 - [Anti-Fraud Policy](/handbook/legal/anti-fraud-policy/)
-- [Anti-Harassment Policy](/handbook/anti-harassment/)
+- [Anti-Harassment Policy](/handbook/people-group/anti-harassment/)
 - [Anti-Retaliation Policy](/handbook/legal/anti-retaliation-policy/)
 - [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 - [Corporate Communication Policy](/handbook/legal/corporate-communications/)

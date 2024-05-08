@@ -1,6 +1,8 @@
 ---
 title: AMAs
 description: What you need to know about Ask Me Anything (AMA)
+aliases:
+- /handbook/amas/
 ---
 
 An AMA (Ask Me Anything) is a session for team members to ask a specific individual or group of individuals questions either generally or on a specific topic.
@@ -43,7 +45,7 @@ We suggest each person attend via their own device to avoid [hybrid meetings](/h
 
 ### Host
 
-The Host of a Zoom call is the person leading the conversation, usually the [DRI](/handbook/group-conversations/#schedule--dri), subject matter expert, and overseer of any slides created for a call (another term for the role is Presenter).
+The Host of a Zoom call is the person leading the conversation, usually the [DRI](/handbook/company/group-conversations/#schedule--dri), subject matter expert, and overseer of any slides created for a call (another term for the role is Presenter).
 
 Questions will generally be directed to the Host, and they will usually answer them unless they feel that another team member has more information or expertise to offer. The Host/Presenter makes sure that questions are asked in the order they are listed in the agenda document.
 

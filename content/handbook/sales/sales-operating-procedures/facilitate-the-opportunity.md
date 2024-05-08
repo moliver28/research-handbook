@@ -103,7 +103,7 @@ Your job is to call out the specific key pain points and show the customer how t
 
 The next component of the pitch deck is showing how GitLab can help. This will require you to understand the customer’s specific use case. You discovery calls should have provided much of the data to define the problem, but going further you must do the following:
 
-- Research [Customer Use Cases](/handbook/use-cases/)
+- Research [Customer Use Cases](/handbook/marketing/use-cases/)
 - Align the customer’s pain point to a typical customer use case
 - Explain what GitLab does in relation to the associated customer use case
 

@@ -132,7 +132,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 
 ## FY25 Vision & Strategy -3 Pillars
  - [Vision & Strategy Deck](https://docs.google.com/presentation/d/1qIBbUYoclOGSplOeUAvRwBJGKNwlo41Z7Z2fnu8bZgA/edit?usp=sharing)  (Internal - GitLab Only)
- - Success At Scale 
+ - Success At Scale
  - Use Case Adoption
  - Success Plan Services
 
@@ -262,7 +262,7 @@ Next steps for you:
 - [Customer Success' FAQ](/handbook/customer-success/faq/)
 - [Using Salesforce within Customer Success](/handbook/customer-success/using-salesforce-within-customer-success/)
 - [Customer Success Vision](/handbook/customer-success/vision/)
-- [GitLab Positioning](/handbook/positioning-faq/)
+- [GitLab Positioning](/handbook/marketing/positioning-faq/)
 - [Product Stages and the POCs for each](/handbook/product/categories/#devops-stages)
 - [How to Provide Feedback to Product](/handbook/product/how-to-engage/#feedback-template)
 - [Sales handbook](/handbook/sales/)

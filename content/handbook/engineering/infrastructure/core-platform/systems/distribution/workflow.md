@@ -160,7 +160,7 @@ will be assigned directly and deadlines set by the EM.
 
 ## Distribution DRI
 
-In order to minimize disruption and context switching for team members, Distribution designates one engineer on a weekly rotation basis (DRI, Directly Responsible Individual), who will be responsible for the following duties during their normal office hours. For urgent requests outside of those hours, it will be handled via the [on call process](/handbook/on-call/).
+In order to minimize disruption and context switching for team members, Distribution designates one engineer on a weekly rotation basis (DRI, Directly Responsible Individual), who will be responsible for the following duties during their normal office hours. For urgent requests outside of those hours, it will be handled via the [on call process](/handbook/engineering/on-call/).
 
 ### Expectation
 

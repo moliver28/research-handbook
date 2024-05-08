@@ -16,7 +16,7 @@ Please make sure to review and understand the following content with regards to 
 - [LevelUp Training: GitLab Total Rewards Compensation Fundamentals](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/total-rewards-compensation-fundamentals-training)
 - [Compensation Calculator](https://comp-calculator.gitlab.net/users/sign_in)
 - [Annual Compensation Review Cycle](/handbook/total-rewards/compensation/compensation-review-cycle/#determining-cash-compensation-increases)
-- [Equity Refresh Program](https://about.gitlab.com/handbook/stock-options)
+- [Equity Refresh Program](https://about.gitlab.com/handbook/total-rewards/stock-options/)
 - [Talent Assessment at GitLab](/handbook/people-group/talent-assessment/)
 
 ## Total Compensation Statements
@@ -83,7 +83,7 @@ This section provides and overview of potential compensation conversation scenar
         - ***A team member's New hire equity grant was significant***.  "You are meeting performance expectations at this time (if applicable), however, with proposing equity refresh grants we review holdings against hire date and peers for equality. Based on that extensive review, we feel you are well positioned from an equity perspective for your role compared to peers in the organization.
 1. ***Team member was hired after the cut-off date:*** "At GitLab we review compensation (cash + equity + benefits) on a yearly basis. Due to your hire date you were not eligible to receive additional compensation at this time. You will be eligible for the next Annual Compensation Review where we will review both your cash and equity compensation."
 1. ***Team member is receiving either just a compensation adjustment or just an equity grant*** Please refer to the guidance above to explain to a team member why they may be receiving either just a compensation adjustment or just an equity grant.
-1. ***Team member is receiving a (cash compensation increase/equity refresh grant) while on Leave:*** Our recommendation is to send this via email to the team members GitLab email address, but team members are not required to respond.  
+1. ***Team member is receiving a (cash compensation increase/equity refresh grant) while on Leave:*** Our recommendation is to send this via email to the team members GitLab email address, but team members are not required to respond.
 
     Sample Email:
 

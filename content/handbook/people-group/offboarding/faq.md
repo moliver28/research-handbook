@@ -97,7 +97,7 @@ Please follow the process as listed on the Expense Handbook [page](/handbook/fin
 
 - Please review our Loan Policy in the [GitLab Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) if it applies to you. Please also note that in the event that a loan is approved, a legal contract, in accordance to the team member's state, local or federal laws regarding loans and repayment of loans during employment, will be created by the Legal team. It will lay out the complete loan terms, repayment and refunding policy if applicable. If you leave GitLab with any loan balance not yet repaid, it will be refunded to GitLab, if applicable and legally allowed, as laid out in the terms of the original contract and with support from the Payroll team.
 - Please review our [Unpaid Leave]({{< ref "paid-time-off#unpaid-leave-of-absence" >}}) section regarding payments in error.
-- Please review our policy regarding [Repurchasing Unvested Shares](/handbook/stock-options/#exercising-your-options).
+- Please review our policy regarding [Repurchasing Unvested Shares](/handbook/total-rewards/stock-options/#exercising-your-options).
 
 ## Total Rewards - Benefits
 
@@ -107,7 +107,7 @@ Typically, benefits coverage ends at the end of the month during which you leave
 
 ### How will my stock options be managed? What will happen to my stock options if I have been at GitLab less than a year at my date of departure?
 
-All information is on the [Stock Options](/handbook/stock-options/) handbook page, specifically the [Exercise Window after Termination](/handbook/stock-options/#exercise-window-after-termination) section.
+All information is on the [Stock Options](/handbook/total-rewards/stock-options/) handbook page, specifically the [Exercise Window after Termination](/handbook/total-rewards/stock-options/#exercise-window-after-termination) section.
 
 ### What if I am a designated Insider?
 

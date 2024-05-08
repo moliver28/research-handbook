@@ -25,7 +25,7 @@ Team members are DRIs for their own tasks and report into their home teams, per 
 ## How we work
 
 ### Collaborate with us
-<a href="https://gitlab.com/gitlab-com/marketing/smb-marketing/activity"><img style="padding-right: 10px; padding-bottom: 10px" src="/images/all-remote/gitlab-value-tanukis_collaberation.svg" alt="Collaboration" title="Collaboration" height="40"></a>[SMB Marketing's GitLab project](https://gitlab.com/gitlab-com/marketing/smb-marketing/activity) helps to manage [our own issues](https://gitlab.com/gitlab-com/marketing/smb-marketing/-/boards), while we work across many teams. We [dogfood](/handbook/values/#dogfooding) GitLab to collaborate on ideas, gather feedback, and manage projects, including our [use of the Handbook](/handbook/handbook-usage/#why-handbook-first).
+<a href="https://gitlab.com/gitlab-com/marketing/smb-marketing/activity"><img style="padding-right: 10px; padding-bottom: 10px" src="/images/all-remote/gitlab-value-tanukis_collaberation.svg" alt="Collaboration" title="Collaboration" height="40"></a>[SMB Marketing's GitLab project](https://gitlab.com/gitlab-com/marketing/smb-marketing/activity) helps to manage [our own issues](https://gitlab.com/gitlab-com/marketing/smb-marketing/-/boards), while we work across many teams. We [dogfood](/handbook/values/#dogfooding) GitLab to collaborate on ideas, gather feedback, and manage projects, including our [use of the Handbook](/handbook/about/handbook-usage/#why-handbook-first).
 
 ### GitLab Team Member resources
 Some resources are only available to GitLab team members, like our Slack channel, call notes, or status reports.

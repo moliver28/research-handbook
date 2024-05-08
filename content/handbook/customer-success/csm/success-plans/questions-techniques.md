@@ -27,7 +27,7 @@ Asking open-ended questions is the most effective way to get clarity from the cu
 
 The most straightforward and open-ended approach to starting a conversation about stage adoption, growth, and strategic objectives is something to the effect of:
 
-> "So I know right now you're using [[use cases](/handbook/use-cases/) in use, such as SCM, CI, etc.] - where can we go from here to maximize your success and value?"
+> "So I know right now you're using [[use cases](/handbook/marketing/use-cases/) in use, such as SCM, CI, etc.] - where can we go from here to maximize your success and value?"
 
 This question creates an opening to explore driving additional value for the customer, with the customer leading.  From here, we can explore with the customer use cases or features they're interested in knowing more about, business problems they could solve using GitLab, or anything else related to GitLab or DevSecOps. This one question also sets you up for more targeted follow-ups.
 
