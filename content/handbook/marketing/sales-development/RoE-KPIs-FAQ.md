@@ -174,16 +174,16 @@ Announcement Channels
 
 ### Sales Development Credit Matrix
 
-| Products Considered | Who | Order Type | Segment | Opportunities | ASP/pipeline |
+| Products Considered | Who | Order Type | Segment | Opportunities |
 | ---------- | -------- | ------- | --------- | -------------- | ---------------- |
-| GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) | NA |
-| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro) | NA |
-| GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 | FO ASP for GitLab, growth ASP for Duo Pro |
-| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 | Growth ASP for GitLab, growth for Duo Pro |
-| Additional seats in current customer department | BDR | Growth | Comm/Ent | 1 | Growth ASP |
-| Tier upgrade | BDR | Growth | Comm/Ent | 1 | Growth ASP |
-| GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) | See above for license ASP |
-| Professional services | everyone | All motions | All segments | 0 | NA |
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) |
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro)
+| GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 |
+| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 | 
+| Additional seats in current customer department | BDR | Growth | Comm/Ent | 1 |
+| Tier upgrade | BDR | Growth | Comm/Ent | 1 |
+| GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) |
+| Professional services | everyone | All motions | All segments | 0 |
 
 ### Sales Development Org Compensation Breakdown
 
