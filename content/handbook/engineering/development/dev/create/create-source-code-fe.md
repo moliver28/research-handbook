@@ -37,13 +37,13 @@ Support all our counterparts with frontend engineering expertise, including impl
 
 The following people are permanent members of the Create:Source Code FE Team:
 
-{{< team-by-manager-role role="Engineering(.*)Manager(.*)Create:Source Code" team="Create:Source Code" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Code Review" team=".*Frontend.*Create:Source Code" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts manager-role="Engineering(.*)Manager(.*)Create:Source Code" role="[,&] \(Create(.*)|Create:Source Code|Create \(Source Code|Director(.*)Create|Principal(.*)Create|Group(.*)Create" >}}
+{{< stable-counterparts role="(Product Manager|Backend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
 
 ## Core Responsibilities
 
