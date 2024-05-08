@@ -62,7 +62,7 @@ Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-d
 - **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that will be run in each pipeline. The actual pipelines are pulled from the [CI/CD Component Catelog](https://gitlab.com/explore/catalog/gitlab-data/ds-component-pipeline), with only the variables that need specified by the user set in this .yml.
 - **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU  
 - **requirements.txt**: The python packages to install in the docker container
-- **config.yaml**: Configuration for training notebook
+- **training_config.yaml**: Configuration for training notebook
 - **scoring_config.yaml**: Configuration for scoring notebook
 - **notebooks/training_example.ipynb**: training notebook used for this example
 - **notebooks/scoring_example.ipynb**: scoring code productionalization notebook used for this example
@@ -94,7 +94,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
   - `script`:
         ...
         - `papermill -p is_local_development False -p tree_method 'gpu_hist' $notebookName -`: Tells papermill to override the variable values defined in the first cell of the notebook with the values shown when utlizing a the GPU runner.
-- Finally, let's look at the [config.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/config.yml). Here we can configure certain variables for training our model:
+- Finally, let's look at the [training_config.yaml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/training_config.yaml). Here we can configure certain variables for training our model:
   - `outcome`: Our outcome/target/dv variable. The example notebook is using the breast cancer dataset from scikit-learn and the outcome field in that dataset is named `target`
   - `optuna` configurations: The example notebook runs an xgboost model with [Optuna](https://optuna.org/). There are *a lot* of customizations that are possible with this setup, but to keep it simple, we have only included:
     - `n_trials`: Number of trails to run in the Optuna study
@@ -129,7 +129,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 1. Configure your runners:
      - GPU runners are available at the Premium and Ultimate tiers. If enabled, edit `.gitlab-ci.yml` and change the value of `TRAIN_RUNNER` to GPU runner (i.e. `saas-linux-medium-amd64-gpu-standard`). 
      - The default value, `saas-linux-small-amd64`, will work for all account types.
-1. Edit **config.yaml**
+1. Edit **training_config.yaml**
      - Change `n_trials` to a new value between `10` and `20`.
      - For the commit message enter `train notebooks/training_example.ipynb`. This will tell the GitLab that you want to execute the training CI pipeline on the **training_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](edit_config.png)
 1. Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the training CI pipeline for the newly created MR.
@@ -176,7 +176,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 - There is also a `score-scheduled` job
    - This will trigger the scoring notebook at a set time, using [Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
    - This job will also trigger the `write-to-wiki` job, which will publish model metrics to the project wiki
-- Finally, let's look at the [scoring_config.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/scoring_config.yml). Here we can configure certain variables for training our model:
+- Finally, let's look at the [scoring_config.yaml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/scoring_config.yaml). Here we can configure certain variables for training our model:
   - **ADD SCORING CONFIGURATIONS HERE**
 
 
