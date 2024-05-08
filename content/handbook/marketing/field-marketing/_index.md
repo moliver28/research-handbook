@@ -996,7 +996,39 @@ The below epic is for tracking venues we would like to utilize for future events
 - [USGIF](https://usgif.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [NASTD](https://www.nastd.org/home) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Haley McComber for details.
 
-# What's currently scheduled in my region?
+# Getting started with Regional Marketing
+
+Whether you’ve just joined GitLab or want to jog your memory on certain processes and best practices, the below kick-start ‘manual’ will provide you with everything you need (including quick links) to get yourself collaborating with the Regional Marketing teams in a fast and most efficient manner.
+
+Issue First is the rule to follow when it comes to collaborating with Regional Marketing. All the relevant information is held in an issue (and relating sub-issues or epics). Collaborating directly in an issue aids transparency, clarity and avoids too much noise or things being missed in emails or slack channels.
+
+### Swag (also known as giveaways, customer freebies, etc.)
+
+**There are 2 options:**
+
+1. If you are attending one of the Field Marketing organised events, the team will ensure to have enough giveaways to cover the event. We also tend to equip most of the attending staff with stickers to bring along to the event. If you are attending and don’t have a set of stickers, please reach out to the regional Field Marketing Coordinator in advance of the event date.
+1. If you are visiting customers or would like to send a thank you gift to an advocate within a prospect account, please refer to [this process](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/). to order the giveaways yourself. This part is not budgeted by Regional Marketing. 
+
+### Who, what, when, where - Event Calendars, DRIs and more
+
+**Who is responsible for what?**
+
+Field Marketing
+Channel Marketing
+Corporate Marketing
+Campaign Management
+Account Based Marketing (ABM)
+Digital Marketing
+Brand and user experience
+Developer Evangelism
+
+### SSoT Calendar 
+The marketing team utilizes a single all-marketing calendar [SSoT](https://docs.google.com/spreadsheets/d/1Tk5fVSwpsEZVFbKOtuaPAItTpAE2PjPeyZ4jKoDe42w/edit#gid=571560493) for all global marketing tactics. (Please use filters views to drill down to your region)
+
+### What’s happening in my region - Field Marketing Boards
+
+
+# [What's currently scheduled in my region?](https://docs.google.com/spreadsheets/d/1Tk5fVSwpsEZVFbKOtuaPAItTpAE2PjPeyZ4jKoDe42w/edit#gid=571560493&range=A1:F1)
 
 | Region | FM DRI | GitLab User ID | Slack Channel |
 | ------ | ------ | -------------- | -------------- |
