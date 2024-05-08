@@ -219,7 +219,7 @@ When creating a new project, all settings should be left to the default options,
 
       - It leverages existing tools and infrastructure, such as having `triage-ops` and other bots executed against issues, without any additional configuration.
 
-      - It provides a more consistent experience, since all labels and dissue templates will be the same.
+      - It provides a more consistent experience, since all labels and issue templates will be the same.
 
       - It's easier to write automated scripts, such as using the [Security triage automation](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation/) tool to create/modify vulnerabilities.
 
