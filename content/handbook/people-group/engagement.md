@@ -88,6 +88,7 @@ Overall survey ranges anywhere from 40 to 50 questions. The format of the survey
 
 
 ## FY'25 Engagement Survey
+
 Our Engagement Survey for FY'25 is scheduled to run from 2024-06-17 to 2024-06-28. Survey will be open to all team members hired before 2024-05-31.
 
 ### Summit Pulse Surveys Overview
