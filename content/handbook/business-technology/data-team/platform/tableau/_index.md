@@ -60,26 +60,40 @@ description: "Tableau at GitLab"
 
 ## Roadmap
 
-### FY24 Tableau Deployment Roadmap
+### FY25 Tableau Roadmap
 
-We follow the nomenclature found in the [GitLab Docs](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) and will stand-up the Tableau Production program using Experimental, Beta, and Generally Available dashboards. A more complete version of the Tableau implementation roadmap can be found at [this Data Team epic](https://gitlab.com/groups/gitlab-data/-/epics/895).
+Having completed the migration to Tableau in FY25-Q1, we are now focused 
 
-- FY24-Q1 - Experimental Dashboards
-    - Ready Tableau Online environment for Production Releases
-    - Move the CFO and Headcount Dashboards to full Production
-    - Develop a list of Top SSOT Dashboards for GTM and Finance
-    - Develop project plan for deprecating the legacy schema in Snowflake
-- FY24-Q2 - Experimental and Beta Dashboards
-    - GTM and Finance teams to begin migrating key content to Tableau Production
-    - Design Spike: Test Tableau embedding capabilities for 1 Engineering KPI Public Handbook embedding use case
-- FY24-Q3 - Generally Available Dashboards
-    - Develop additional data models for R&D to support Tableau migration in Q3
-    - Bring R&D, People, and the rest of the Enterprise into focus
-    - Establish, communicate, and initiate the process for cutting over KPI charts in the handbook
-- FY24-Q4 - Generally Available Dashboards
-    - All Business departments to migrate key content
-    - Complete the cutover of all KPI charts in the handbook
-    - Complete Tableau migration efforts
+- FY25-Q2 - Establish the framework for  
+    - Run an assessment of our Tableau environment
+        - Data sources (number of data sources that exist, custom SQL vs. table-based, commonly used tables, etc.)
+        - Dashboards (number of dashboards that exist, distribution of usage, average user views per dashboard, etc.)
+        - Users (login frequency, etc.)
+    - Publish the Executive Landing Page to drive users towards critical dashboards
+    - Document an approach to data source creation that promotes single-source-of-truth reporting
+    - Document the domain areas that require a single-source-of-truth data source
+    - Document an archival policy & process to remove unused dashboards and remove clutter from our environment
+    - Document a user deprovisioning policy to free up unused licenses on a set cadence
+    - Facilitate the publication of X dashboards from Development to Production
+- FY25-Q3 - Achieve the following targets (specific numbers will be updated in Q2, and informed by findings from Q2 assessment)
+    - Refresh assessment of Tableau environment
+    - Define and calculate quantitative metrics for Tableau health - examples below, but will be iterated on and updated:
+        - % of published dashboards in the Production environment 
+        - Average user views per dashboard
+        - Average # dashboards per published data source
+        - etc.
+    - Implement archival & deprovisioning policies
+    - Publish X certified data sources for critical domain areas that require single-source-of-truth data sources
+    - Repoint and/or archive X dashboards to leverage those certified data sources
+    - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of archiving unused dashboards
+    - Publish X dashboards from Development to Production
+- FY25-Q4 - Achieve the following targets (specific numbers will be updated in Q3) 
+    - Refresh assessment of Tableau environment and quantative metrics for Tableau health
+    - Accelerate data source creation with support from Functional Analytics teams, publishing X certified data sources
+    - Repoint and/or archive X dashboards to leverage certified data sources
+    - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of archiving unused dashboards
+    - Publish X dashboards from Development to Production
+
 
 ## Governance Model
 
