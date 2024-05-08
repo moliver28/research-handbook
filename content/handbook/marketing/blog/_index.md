@@ -369,7 +369,7 @@ Starting the process of getting a blog post translated is easy. Follow these ste
 
 Here's a video walk thru of the fullprocess from creating the translation request to publishing on production. 
 
-- TOBE recorded
+- Video recording comming soon that demonstrates the following
 - Create issue
 - Argo rountrip
 - Translation show up in Contentful
