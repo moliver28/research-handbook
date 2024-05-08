@@ -253,6 +253,7 @@ If an amendment needs to be made and the previous contract was never active, the
 
 ### Amendments to contracts for new hires with planned relocations
 
+#### If within the same country  
 1. Candidate Experience Specialist will ensure that there is verbiage clearly stating the terms of the compensation changes for relocation after the new hire’s start date and ensure that the Total Rewards team has approved both compensations.
 1. If you are unsure about the Total Rewards approval, CES will ping the Total Rewards team in the Approval Notes.
     - Navigate to the bottom of the candidate’s GH profile
@@ -282,6 +283,9 @@ If an amendment needs to be made and the previous contract was never active, the
 1. Add tokens back in after changing signing order
 1. Send
 1. When the contract is completed, message People Connect to make sure they note the relocation.
+
+#### If to another country OR there's no date for the relocation OR the move is to or from a country with a bi-lingual employment template
+If a team member plans to relocate to another country, _or_ there's not date for the relocation _or_ a proposed move is to or from a country with a bi-lingual employment template, it should be confimred that the relocation has been approved in advance by leadership for the relevant team, _and_ the hire has been made aware that there's an approximate 6 week lead time for a relocation process along with _any other changes that would be required_, including that a new and separate contract for the new country will be required, any compensation change, whether there would be a change to a definite term contract from an indefinite for example etc. The recruiter could share the fact of the approval with the candidate by email. If there are any concerns, please reach out to legal-employment @gitlab.com for any additional guidance or contract language.
 
 ### Amendments after starting with GitLab:
 
