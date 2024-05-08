@@ -1,8 +1,8 @@
 ---
 title: GitLab Environmental, Social, and Governance
 description: "An overview of corporate sustainability at GitLab."
-canonical_path: "/handbook/esg/"
-weight: -10
+aliases:
+- /handbook/esg/
 ---
 
 ## GitLab Fiscal Year 2023 (FY23) ESG Report
@@ -87,7 +87,7 @@ GitLab’s current key topics are listed below:
 
 In developing our ESG strategy, we have aligned our efforts to the [United Nations Sustainable Development Goals (“UN SDGs”)](https://sdgs.un.org/goals). The UN SDGs provide a shared blueprint for peace and prosperity for people and the planet, now and into the future. To that end, our ESG efforts align with five of the seventeen UN SDGs, and we seek to drive progress on the goals within our operations. We will continue to revisit and deepen our alignment as we make progress on our ESG strategy. Throughout this report we include the relevant UN SDG number in each section.
 
-![5_SDGs](/handbook/esg/All_5_Icons.png)
+![5_SDGs](/handbook/company/esg/All_5_Icons.png)
 
 ### Social
 
@@ -237,7 +237,7 @@ Part of doing responsible business means minimizing our environmental footprint.
 
 GitLab is a fully remote company without direct emissions from company owned facilities or direct energy consumption. Accordingly, our GHG inventory measures Scope 3 emissions only, specifically the emissions associated with remote work, purchased goods and services, cloud services, and business travel. Teams across GitLab including Finance, Procurement, People Analytics, Engineering, and Infrastructure, collaborated with the ESG team to collect data for the inventory.
 
-![GHG_Inventory](/handbook/esg/GHG_Inventory.png)
+![GHG_Inventory](/handbook/company/esg/GHG_Inventory.png)
 
 The results of our first GHG inventory are also available in the [Performance Data Table](https://about.gitlab.com/documents/PERFORMANCE_DATA_TABLE.pdf) and our third-party assurance letter is available [here](https://about.gitlab.com/documents/GitLab_FY2023_Verification_Opinion.pdf).
 

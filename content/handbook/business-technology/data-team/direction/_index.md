@@ -15,7 +15,7 @@ title: "Data Team Direction"
 
 ## Strategy
 
-As an important step towards achieving our [mission](/handbook/business-technology/data-team/#mission), meeting our [responsibilities](/handbook/business-technology/data-team/#responsibilities), and helping GitLab [become a successful public company](/handbook/being-a-public-company/), we are creating an Enterprise Data Platform (EDP), a single unified data and analytics stack, along with a broad suite of Data Programs such as Self-Serve Data and Data Quality. The EDP will power GitLab's KPIs, cross-functional reporting and analysis, and in general, allow all team members to make better decisions with trusted data. Over time, the EDP will further accelerate GitLab's analytics capabilities with features such as data publishing and products - enriched and aggregated data integrated into business systems or into the GitLab product for use by our customers. This acceleration happens through the development of "Data Flywheels", much like GitLab's [Open Core and Development Spend](/handbook/company/strategy/#dual-flywheels) flywheels.
+As an important step towards achieving our [mission](/handbook/business-technology/data-team/#mission), meeting our [responsibilities](/handbook/business-technology/data-team/#responsibilities), and helping GitLab [become a successful public company](/handbook/company/being-a-public-company/), we are creating an Enterprise Data Platform (EDP), a single unified data and analytics stack, along with a broad suite of Data Programs such as Self-Serve Data and Data Quality. The EDP will power GitLab's KPIs, cross-functional reporting and analysis, and in general, allow all team members to make better decisions with trusted data. Over time, the EDP will further accelerate GitLab's analytics capabilities with features such as data publishing and products - enriched and aggregated data integrated into business systems or into the GitLab product for use by our customers. This acceleration happens through the development of "Data Flywheels", much like GitLab's [Open Core and Development Spend](/handbook/company/strategy/#dual-flywheels) flywheels.
 
 ### 1) Customer Centricity
 
@@ -98,7 +98,7 @@ graph BT;
 ```
 
 ## Our Data Platform Vision
-These ambitions are set to be a guiding vision for GitLab's data platform. 
+These ambitions are set to be a guiding vision for GitLab's data platform.
 
 ### Makes it Easier to Contribute
 Contributing to GitLab's Data Platform is easy and using the platform is intuitive
@@ -107,9 +107,9 @@ Contributing to GitLab's Data Platform is easy and using the platform is intuiti
 * All data transformations are implemented in dbt
 * CI/CD is seamless, intuitive, automated for contributors and reviewers
 * Data state is derivative from sources and transformations
-* Data pipelines are idempotent 
+* Data pipelines are idempotent
 
-### Is Reliable 
+### Is Reliable
 The data plaform along with the data it delivers is consitent in availability and accuracy
 
 * All breaking changes are testable in Dev and/or Staging Environments
@@ -120,15 +120,15 @@ The data plaform along with the data it delivers is consitent in availability an
 The Data Platform doesn't put people at risk
 
 * Data is only accisible to those authorized by documented approvals
-* The GitLab data team will stick with the [Principle of Least Privilege](https://handbook.gitlab.com/handbook/security/access-management-policy/#principle-of-least-privilege) regarding the authorization and authentication  
+* The GitLab data team will stick with the [Principle of Least Privilege](https://handbook.gitlab.com/handbook/security/access-management-policy/#principle-of-least-privilege) regarding the authorization and authentication
 ### Is Secure
 The Data Platform doesn't put people at risk
 
 * Data is only accessible to those authorized by documented approvals
 
-### Is Maintainable 
+### Is Maintainable
 
-* The Data Platform component will be created with considering the good engineering practices for the [ease of maintainability](https://en.wikipedia.org/wiki/Maintainability). It means tracking of maintainability is intended to help reduce or reverse a system's tendency toward "code entropy" or degraded integrity 
+* The Data Platform component will be created with considering the good engineering practices for the [ease of maintainability](https://en.wikipedia.org/wiki/Maintainability). It means tracking of maintainability is intended to help reduce or reverse a system's tendency toward "code entropy" or degraded integrity
 
 ### Benefits a Larger Community
 GitLab's Data Platform is relevant to a community larger than GitLab's and depends on a larger community of engineers.

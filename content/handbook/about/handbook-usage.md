@@ -289,7 +289,7 @@ Remember that, like virtually everything we do, our handbook is [open source](ht
 
 ### Inspired by GitLab
 
-If your company has been inspired by GitLab's handbook, we would love to know what inspired you. Please see our [Inspired by GitLab page](/handbook/inspired-by-gitlab/).
+If your company has been inspired by GitLab's handbook, we would love to know what inspired you. Please see our [Inspired by GitLab page](/handbook/company/inspired-by-gitlab/).
 
 ### Make it worthwhile
 
