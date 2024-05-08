@@ -10,7 +10,7 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
  Lab Guide | Link 
 -----------|------------
  Getting Started with GitLab Duo| [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab1)
- Lab Code Generation with GitLab Duo| [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab2)
+ Code Generation with GitLab Duo| [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab2)
  Working with Issues and Merge Requests| [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab3)
  Using GitLab Duo to Write New Code| [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab4)
  Working with Security Vulnerabilities| [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab5)
