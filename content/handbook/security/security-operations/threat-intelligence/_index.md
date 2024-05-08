@@ -99,13 +99,17 @@ Requests for Information use [this template](https://gitlab.com/gitlab-com/gl-se
 
 ## <i class="fas fa-chart-simple" id="biz-tech-icons"></i> How We Measure Success
 
-### Adoption Rate
+We measure the success of our threat intelligence program using three key metrics: Adoption Rate, Attribution, and Impact. We track these metrics using GitLab.com issues and custom labels.
 
-A key principle of our program is that all intelligence must be actionable. We make this happen with concrete recommendations. The program's impact can be measured by the extent to which these recommendations are accepted and ultimately implemented.
+1. Adoption Rate: Measures the extent to which our intelligence-driven recommendations are accepted and implemented.
+2. Attribution: Measures the accuracy, relevance, and source of our intelligence by tracking how often it is validated by real-life events.
+3. Impact: Measures how often our intelligence helps prevent incidents, detect attacks, and improve response times.
 
-We call this our "Adoption Rate".
+Monitoring these metrics helps us continually refine our services, prioritize high-impact activities, and demonstrate the value of our program.
 
-Recommendations start as GitLab.com issues in the project closest to the team that can address them. We classify recommendations using labels:
+### Metric Labels
+
+**Recommendation Classification Labels:**
 
 - Detections & Alerts (`TIRec::Detection`)
 - Security Controls (`TIRec::Control`)
@@ -114,7 +118,7 @@ Recommendations start as GitLab.com issues in the project closest to the team th
 - Communications (`TIRec::Comms`)
 - Training (`TIRec::Training`)
 
-We track what happens after a recommendation is delivered by adding a secondary label to the issue with its current status or final outcome:
+**Recommendation Outcome Labels:**
 
 - Under review (`RecOutcome::UnderReview`)
 - Accepted and actively being worked on (`RecOutcome::InProgress`)
@@ -124,22 +128,14 @@ We track what happens after a recommendation is delivered by adding a secondary 
 - Partially adopted and closed (`RecOutcome::PartiallyAdopted`)
 - Not adopted and closed (`RecOutcome::NotAdopted`)
 
-An outcome label is added to the issue within one week of delivering the recommendation. A scheduled CI pipeline checks issues with classification labels to ensure they have an outcome.
-
-### Attribution
-
-Attribution is another key metric for our threat intelligence program. It measures how often our intelligence on specific threat actors and their tactics, techniques, and procedures (TTPs) is successfully used to prevent, detect, or respond to actual threats targeting our organization.
-
-When an attribution event occurs, we apply one of the following labels to the related issue:
+**Attribution Labels (source of validated intelligence):**
 
 - Threat Briefings (`TIAttribution::ThreatBriefing`)
 - Flash Reports (`TIAttribution::FlashReport`)
 - Threat Actor Tracking (`TIAttribution:ThreatActorTracking`)
 - Request for Information (`TIAttribution::RFI`)
 
-This helps us understand which of our services are are providing the most valuable intelligence.
-
-We apply another set of labels which tells us the impact of the attribution:
+**Impact Labels:**
 
 - Intelligence prevented an incident (`TIImpact::Prevention`)
 - Intelligence allowed us to identify an attempted attack (`TIImpact::Detection`)
