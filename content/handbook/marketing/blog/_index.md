@@ -51,7 +51,7 @@ Pitch ideas must be relevant to the GitLab Blog and our readers and include the 
 
 **All blog pitch ideas and submissions will be vetted and reviewed by GitLab team members.**
 
-Blog editors, please add the following two sentences at the beginning of contributed articles.
+Blog editors, please add the following two sentences at the beginning of contributed articles:
 
 ***Editor's note: From time to time, we invite members of the community to contribute to the GitLab Blog. Thanks to [entity name] for co-creating with us.***
 
