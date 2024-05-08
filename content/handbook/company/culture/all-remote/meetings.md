@@ -35,8 +35,8 @@ We're thoughtful about how we run meetings, because, when done right, they are f
    1. If you are unsure, it is always ok to ask for a reminder on how to pronounce a team member's name.
    1. If your name is mispronounced, one can always say: "Thank you for attempting to pronounce my name, it's actually pronounced #{name}".
    1. Ensure your [Slack profile name pronunciation has been completed](../../../tools-and-tips/slack.md#profile).
-   1. Consider adding a link to the pronunciation of your name to the agenda doc in the attendee section. 
-   1. Consider adding it to your email signature/Gmail profile. 
+   1. Consider adding a link to the pronunciation of your name to the agenda doc in the attendee section.
+   1. Consider adding it to your email signature/Gmail profile.
 1. **Avoid presenting in most meetings.** Valuable synchronous time should not be used to present in [most cases]({{< ref "communication#few-meetings-with-presentations" >}}). Instead, recorded presentations make content accessible, prevent confusion, and increase participation for team members that prefer consuming content asynchronously. It is OK to present spontaneously to share unplanned material during a meeting, but stop sharing once the point is made. This ensures that the video stream is preserved for team members to engage and interact with each other.
 1. **Be intentional about introductions (or not).** Some meetings may benefit from introductions, so be intentional about either doing introductions or not. If you are going to do introductions, make sure participants are aware beforehand so they are prepared. Create a [list of people]({{< ref "communication#meeting-introduction-guidelines" >}}) with their roles, and use that for guiding the introduction sequence. Let each individual introduce themselves so that Zoom emphasizes the speaker’s video stream.
 1. **Provide verbal cues.** If you’re going through an agenda document, then add context: “bullet 3c, Sam, you added that point, can you verbalize it for us?” Similarly use slide numbers when going through a presentation to ensure that all attendees are tracking on the content.
