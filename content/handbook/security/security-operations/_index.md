@@ -17,6 +17,7 @@ Our department consists of:
  - [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) - Security detection engineering and incident response
  - [Trust & Safety]({{< ref "trustandsafety" >}}) - Prevention and mitigation of abuse of the GitLab.com platform
  - [Red Team]({{< ref "red-team" >}}) - Adversary emulation
+ - [Threat Intelligence]({{< ref "threat-intelligence" >}}) - Actionable insights on real-world threats
 
 
 ## Contacting Security Operations
