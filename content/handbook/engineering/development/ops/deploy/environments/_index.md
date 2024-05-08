@@ -270,7 +270,7 @@ While diligently pursuing our objectives, we also recognize the significance of 
 
 #### Bug fixing and prioritized work
 
-Team members self-schedule feature development. The EM may assign bugs or other important work directly to a team member.
+In every milestone plan, we compile a list of bugs due in the coming milestone based on the severity SLA.
 
 When severity labels are assigned/changed on a `~type::bug` issue, we aim to set/adjust the issue due date at the same time.
 everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
@@ -331,8 +331,6 @@ The entire bug resolution process includes the following phases in order:
    activity to `p4` and remove the due date.
 
 ###### Putting the process together
-
-The general guidelines for making the process work is this:
 
 - Bug must be refined a milestone before it is due. This is done by the
   refinement DRI.
