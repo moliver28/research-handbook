@@ -15,13 +15,13 @@ We interface with the Gitaly and Code Review teams, and work closely with the [C
 
 The following people are permanent members of the Create:Source Code BE Team:
 
-{{% team-by-manager-role "Backend Engineering Manager(.*)Create:Source Code" %}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Code Review" team=".*Backend.*Create:Source Code" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Create:Source Code|Technical Writer(.*)Source Code|Director(.*)Create|Principal(.*)Create|Group(.*)Create" manager-role="Backend Engineering Manager(.*)Create:Source Code"  >}}
+{{< stable-counterparts role="(Product Manager|Frontend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
 
 ## Sisense & KPIs
 
@@ -156,7 +156,7 @@ Create Source Code UX planning takes inputs from the following sources:
 
 ##### Planning Issue
 
-Each month a planning issue is created by the PM, using the [Source code template](https://gitlab.com/gitlab-org/create-stage/-/blob/master/.gitlab/issue_templates/source-code-planning.md).
+Each month a planning issue is created by one of the EMs, using [automated tools](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/blob/main/doc/planning/index.md)based on the [Source Code issue template](https://gitlab.com/gitlab-org/create-stage/-/blob/master/.gitlab/issue_templates/source-code-planning.md).
 
 ##### Planning Board
 
