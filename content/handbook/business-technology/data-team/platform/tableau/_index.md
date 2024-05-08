@@ -72,7 +72,7 @@ Having completed the migration to Tableau in FY25-Q1, we are now focused
     - Document an approach to data source creation that promotes single-source-of-truth reporting
     - Publish the Executive Landing Page to drive users towards critical dashboards
     - Document the domain areas that require a single-source-of-truth data source
-    - Document an archival policy & process to remove unused dashboards and remove clutter from our environment
+    - Document an archival policy & process to remove unused dashboards/data sources and remove clutter from our environment
     - Document a user deprovisioning policy to free up unused licenses on a set cadence
     - Facilitate the publication of X dashboards from Development to Production (target to be updated)
 - FY25-Q3 - Achieve the following targets (specific numbers will be updated in Q2, and will be informed by findings from Q2 assessment)
@@ -83,7 +83,7 @@ Having completed the migration to Tableau in FY25-Q1, we are now focused
         - Average user views per dashboard
         - Average # dashboards per published data source
         - etc.
-    - Implement unused dashboard archival & inactive user deprovisioning policies
+    - Implement unused dashboard/data source archival & inactive user deprovisioning policies
     - Publish X certified data sources for critical domain areas that require single-source-of-truth data sources
     - Repoint and/or archive X dashboards to leverage those certified data sources
     - Archive X unused dashboards, and increase the average user views per dashboard by Y as a byproduct of archiving unused dashboards
