@@ -51,6 +51,11 @@ Pitch ideas must be relevant to the GitLab Blog and our readers and include the 
 
 **All blog pitch ideas and submissions will be vetted and reviewed by GitLab team members.**
 
+Blog editors, please add the following two sentences at the beginning of contributed articles:
+
+***Editor's note: From time to time, we invite members of the community to contribute to the GitLab Blog. Thanks to [entity name] for co-creating with us.***
+
+
 ## How to submit a blog draft once your idea is approved
 
 Once a blog pitch is approved, the author will use the [Blog Submission template](https://docs.google.com/document/d/1iWk0a5T14dG5fvIxvG4doqqRxx0pyv3ej_aMDqYXjgA/template/preview) (Google Doc) to write the blog, ensuring the Google Doc is linked in the issue. **All fields in the template will have to be completed for the blog team to accept the submission.**
