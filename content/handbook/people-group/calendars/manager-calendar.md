@@ -33,6 +33,6 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
   |
 
 
-### FY25 Q3 and FY25 Q4 
-We are still updating dates for Q3 and Q4, we will make changes to this calendar once complete.
+### FY25 Q3 and FY25 Q4
 
+We are still updating dates for Q3 and Q4, we will make changes to this calendar once complete.
