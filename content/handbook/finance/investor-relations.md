@@ -82,7 +82,17 @@ The timeline for each quarter is as follows. A detailed calendar with DRIs and p
 
 ## Trading Window
 
-We anticipate that our quarterly trading window will open the third trading day after the announcement of our quarterly results and that it will close again immediately prior to the last four weeks of the fiscal quarter, as indicated by an announcement made by the CLO. However, it is important to note that any quarterly trading window may be cut short if the CLO determines that material nonpublic information exists in such a fashion that it would make trades by directors, employees, and consultants inappropriate.
+We anticipate that our quarterly trading window will open the third trading day after the announcement of our quarterly results and that it will close again immediately prior to the last four weeks of the fiscal quarter, as indicated by an announcement made by the CLO.
+
+The window can be _approximately_ expected to be open from the first week until the last week of the last month of each fiscal quarter.
+For each quarter, these months are:
+
+- Q1: March
+- Q2: June
+- Q3: September
+- Q4: December
+
+It is important to note that any quarterly trading window may be cut short if the CLO determines that material nonpublic information exists in such a fashion that it would make trades by directors, employees, and consultants inappropriate.
 
 ## Investor Meetings
 
