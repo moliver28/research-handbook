@@ -18,9 +18,9 @@ Responsibility: The creation of the planning issue is overseen by the engineerin
 ## Planning and Triage Process
 
 - **Objective**: This process is not for issue resolution but for preparation and estimation for the upcoming milestone.
-- **Issue Assignment**: During the current milestone, each engineer is assigned 1-2 upcoming issues that are likely to be included in the next milestone. 
-- **Due Date**: The triage process should be complete at least one week before the end of the current milestone. 
-- **Time Management**: Engineers are to dedicate no more than one hour per issue for review and preparation. 
+- **Issue Assignment**: During the current milestone, each engineer is assigned 1-2 upcoming issues that are likely to be included in the next milestone.
+- **Due Date**: The triage process should be complete at least one week before the end of the current milestone.
+- **Time Management**: Engineers are to dedicate no more than one hour per issue for review and preparation.
     - **Review Criteria**: Engineers review the title and description of assigned issues to ensure the scope of work is clearly defined.
     - **Estimation and Comments**: If the issue is well-defined, engineers add an estimate. If additional details are needed, they should leave a comment accordingly.
     - **Issue Readiness**: Issues that are ready for development receive the "ready for development" label. Issues deemed no longer valid should be closed.
@@ -35,7 +35,7 @@ A weight of 5 generally indicates the problem is not clear or a solution should 
 
 ## Capacity Planning for the Next Milestone
 
-- **Capacity Review**: When planning the next milestone, the engineering manager evaluates the team's available capacity, taking into account [PTO](https://handbook.gitlab.com/handbook/paid-time-off/) schedules and other commitments.
+- **Capacity Review**: When planning the next milestone, the engineering manager evaluates the team's available capacity, taking into account [PTO](https://handbook.gitlab.com/handbook/people-group/paid-time-off/) schedules and other commitments.
 - **Issue Selection**: The EM selects top-priority issues until the capacity target is met, using the ["Deliverable" label](https://handbook.gitlab.com/handbook/product-development-flow/#required-labels) to mark committed issues.
 
 ## Prioritization and Execution of Work

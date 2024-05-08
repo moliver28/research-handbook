@@ -518,7 +518,7 @@ TODO: None of these are set up for the Web IDE category and `webide-workflow::*`
 [hb-create]: /handbook/engineering/development/dev/create/
 [hb-dev]: /handbook/engineering/development/dev/
 [hb-categories]: https://about.gitlab.com/direction/create/#categories-in-create
-[paid-time-off]: /handbook/paid-time-off/#paid-time-off
+[paid-time-off]: /handbook/people-group/paid-time-off/#paid-time-off
 [product-development-flow]: /handbook/product-development-flow/
 [workflow-labels]: https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#labels
 [gdoc]: https://docs.google.com/document/d/1b-dgL0ElBf_I3pbBUFISTYBG9VN02F1b3TERkAJwJ20/edit#

@@ -24,7 +24,7 @@ The mission of the Data Science Team is to facilitate ***making better decisions
 
 ## Handbook First
 
-At GitLab we are [Handbook First](/handbook/handbook-usage/#why-handbook-first) and promote this concept by ensuring the data science team page remains updated with the most accurate information regarding data science objectives, processes, and projects. We also strive to keep the handbook updated with useful resources and our data science toolset.
+At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) and promote this concept by ensuring the data science team page remains updated with the most accurate information regarding data science objectives, processes, and projects. We also strive to keep the handbook updated with useful resources and our data science toolset.
 
 ## Learning About Data Science
 
@@ -63,7 +63,7 @@ AMAs:
 - **Regression** - a statistical method for predicting an outcome. For example, predicting a person's income, or how likely a customer is to churn
 - **Scoring** -  process of generating predictions for the new dataset
 - **Training** -  process of applying an algorithm to data to create a model
-- **Test Dataset** - deliberately excluding some observations from training the model so they can be used to verify how well the model predicts  
+- **Test Dataset** - deliberately excluding some observations from training the model so they can be used to verify how well the model predicts
 - **Weight** - numerical value assigned to feature that determines it's strength
 
 ## Data Science Responsibilities
@@ -96,14 +96,14 @@ The Data Science flywheel is focused on improving business efficiency and KPIs b
 
 ```mermaid
 graph BT;
-   id1(Faster, More Accurate Predictions)-->id2(Increased Business Understanding) & id5(Continuous Feedback) 
-   id2-->id3(More Revenue & Users) 
+   id1(Faster, More Accurate Predictions)-->id2(Increased Business Understanding) & id5(Continuous Feedback)
+   id2-->id3(More Revenue & Users)
    id5-->id1
    id3-->id4(More Data)
    id4-->id1
 ```
 
-## How to request Data Science project? 
+## How to request Data Science project?
 
 To request a new Data Science project, please fill out the [Opportunity Canvas](https://gitlab.com/gitlab-data/analytics/-/issues/new). In the description choose `[New Request] Create Opportunity Canvas`. The `Problem Statement` and `Stakeholders` sections should be completed. You can tag a data science team member with whom you discussed the project with or share an issue in #bt-data-science slack channel. During the quarterly planning process, requests will be reviewed and priortisied accordingly by the Data Leadership Forum.
 
@@ -200,7 +200,7 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Plans for next iteration: Self-managed segmentation
 - Slack Channel (internal only): [#namespace-segmentation](https://app.slack.com/client/T02592416/C0341FPNB1C)
 - Repositories (internal only): [Namespace Segmentation](https://gitlab.com/gitlab-data/data-science-projects/namespace-segmentation)
-- Read-outs (internal only):  
+- Read-outs (internal only):
    - [Namespace Segmentation Deck](https://docs.google.com/presentation/d/1Pmm0g1mUquBR6P_aguGkOiGBVqO1ZtDzIyRrbR-r9jA/edit#slide=id.g29a70c6c35_0_68)
 - Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
    - Future sources: # of consecutive days of product/stage usage
@@ -275,7 +275,7 @@ We are in the process of fully moving over the training and scoring of our machi
 ### Current State Data Flows
 
 ```mermaid
-graph 
+graph
     A[Enterprise Data Warehouse: Raw and Normalized Data Sources]
     B[JupyterLab & GitLab CI/CD: Model Training, Tuning, and Selection]
     C(GitLab CI/CD & Pipeline Schedules: Batch scoring with Papermill)

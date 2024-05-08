@@ -1,6 +1,7 @@
 ---
 title: "Key Reviews"
-weight: -10
+aliases:
+- /handbook/key-review/
 ---
 
 ## Purpose
@@ -97,7 +98,7 @@ Also see [First Post is a badge of honor](/handbook/communication/#first-post-is
 
 ### Group Conversations and Key Review Metrics
 
-Function DRIs are expected to use and share their function's Key Review deck, meeting notes and recordings for their scheduled [Group Conversations](/handbook/group-conversations/#fy23-q2--q3-schedule). Any MNPI in the Key Review decks should be removed. Async Group Conversations should follow Key Reviews. The goal for these meetings are to discuss what is important and the decks should be the same. You can add additional slides to the Key Review to give more context, not all slides have to relate to KPIs and OKRs. The difference between the two meetings is the audience, the GCs are for a wider audience of the entire company.
+Function DRIs are expected to use and share their function's Key Review deck, meeting notes and recordings for their scheduled [Group Conversations](/handbook/company/group-conversations/#fy23-q2--q3-schedule). Any MNPI in the Key Review decks should be removed. Async Group Conversations should follow Key Reviews. The goal for these meetings are to discuss what is important and the decks should be the same. You can add additional slides to the Key Review to give more context, not all slides have to relate to KPIs and OKRs. The difference between the two meetings is the audience, the GCs are for a wider audience of the entire company.
 
 ### Recordings
 
@@ -153,7 +154,7 @@ Here is an example of the VP of Development presenting the [Development Departme
 
 {{< youtube "8C9oniGinYM" >}}
 
-This method is ideal, as it is [handbook-first](/handbook/handbook-usage/#why-handbook-first) and makes it easy for [everyone to contribute](/handbook/company/strategy/).
+This method is ideal, as it is [handbook-first](/handbook/about/handbook-usage/#why-handbook-first) and makes it easy for [everyone to contribute](/handbook/company/strategy/).
 Commentary can be added via an MR to the [data/performance_indicators.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/performance_indicators.yml) file.
 The executive summary section can help consumers of the information understand where to dig in futher.
 

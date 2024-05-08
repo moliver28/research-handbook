@@ -14,7 +14,7 @@ description: "Successful management includes onboarding, reviewing Command Plans
 
 Welcome to the Enterprise Area Sales Manager Handbook. You can use the [Enterprise Area Sales Manager Playbook](https://docs.google.com/presentation/d/1HmzgSsau959CSZxEOoXCHdFS9h6a0vvvtDMVsFX57yo/edit?usp=sharing) for a 1-page view of what's on this page. It includes key activities an Enterprise Area Sales Manager leads as they manage their team and area. Think of it as a guide (not hard and fast mandates) to help you manage your business and optimize results.
 
-The below detail offers additional guidance on how responsibilities and activities are managed, and has been sourced from experienced GitLab Enterprise ASMs and leaders. When thinking about 'what good looks like' in this department, refer to your [job family](/job-families), the [field competencies](/handbook/sales/training/field-functional-competencies/), our [manager and leadership competencies](/handbook/competencies/#manager-and-leadership-competencies), and our [GitLab values](/handbook/values/).
+The below detail offers additional guidance on how responsibilities and activities are managed, and has been sourced from experienced GitLab Enterprise ASMs and leaders. When thinking about 'what good looks like' in this department, refer to your [job family](/job-families), the [field competencies](/handbook/sales/training/field-functional-competencies/), our [manager and leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies), and our [GitLab values](/handbook/values/).
 
 ## Quick links
 
@@ -53,7 +53,7 @@ High-level account plans are often shared using a [strategic account plan templa
 
 ## Reviews and consults
 
-#### Quarterly Business Reviews (QBRs)  
+#### Quarterly Business Reviews (QBRs)
 
 [QBRs](/handbook/sales/qbrs/#best-practices-for-rdsasmssalsaes) happen during the first two weeks of each quarter for the previous quarter. Preparation usually starts about two weeks before that. QBR decks are stored in our [Google Drive (GitLab internal only)](https://drive.google.com/drive/u/0/folders/1QAWFYxT2-NzWpOUodepbl0O6zfsMxJGL).
 

@@ -56,7 +56,7 @@ Team members can use this [checklist](https://docs.google.com/document/d/1NCf6Nc
 
 ### State-Specific Leaves
 
-Each US state varies when it comes to types of leave employers are required to allow employees to take. Employees of GitLab Inc. are eligible for our paid time off policy and our Sick Time policy; which will run concurrently with any State or FMLA leave entitlement. Please refer to the [Sick Time Procedures - USA](/handbook/paid-time-off/#sick-time-procedures---usa) or [Paid Time Off](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) policy for more information.
+Each US state varies when it comes to types of leave employers are required to allow employees to take. Employees of GitLab Inc. are eligible for our paid time off policy and our Sick Time policy; which will run concurrently with any State or FMLA leave entitlement. Please refer to the [Sick Time Procedures - USA](/handbook/people-group/paid-time-off/#sick-time-procedures---usa) or [Paid Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) policy for more information.
 
 ### The Family Medical Leave Act (FMLA)
 

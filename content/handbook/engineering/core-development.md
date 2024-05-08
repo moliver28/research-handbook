@@ -175,7 +175,7 @@ In [this handbook page](./processes/hiring-contractors.html) we document the pro
 Welcome to GitLab! We are excited for you to join us.
 Here are some curated resources to get you started:
 
-- [Joining as an Engineer](/handbook/developer-onboarding/)
+- [Joining as an Engineer](/handbook/engineering/developer-onboarding/)
 - [Joining as an Engineering Manager](/handbook/engineering/development/onboarding/manager/)
 
 ### Cross-Functional Metrics
@@ -533,7 +533,7 @@ Remind GitLab team members in Slack to update the status of items they are the D
 
 ## Books
 
-Note: books in this section [can be expensed](/handbook/spending-company-money/).
+Note: books in this section [can be expensed](/handbook/finance/spending-company-money/).
 
 Interested in reading this as part of a group? We occasionally self-organize [book](/handbook/leadership/book-clubs/)
 clubs around these books and those listed on our [Leadership page](/handbook/leadership/#books).

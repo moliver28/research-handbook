@@ -1,6 +1,8 @@
 ---
 title: "Competencies"
 description: "GitLab has competencies as a common framework to learn things. This page is a Single Source of Truth (SSoT) resource for our competencies."
+aliases:
+- /handbook/competencies/
 ---
 
 GitLab has competencies as a common framework to learn things. This page is a [Single Source of Truth (SSoT)](https://docs.gitlab.com/ee/development/documentation/styleguide/#why-a-single-source-of-truth) resource for our competencies.

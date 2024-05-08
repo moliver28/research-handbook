@@ -83,7 +83,7 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [Strategy](/handbook/company/strategy/)
 1. [3-year product direction strategy](https://about.gitlab.com/direction/#3-year-strategy)
 1. [Long range outlook](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro)
-1. [Restricted stock unit vesting](/handbook/stock-options/#vesting) after cliff of six months is passed
+1. [Restricted stock unit vesting](/handbook/total-rewards/stock-options/#vesting) after cliff of six months is passed
 1. Average retention of team members is around 3 years
 
 
@@ -104,8 +104,8 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
 1. [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff)
 1. [Earnings activities](/handbook/finance/investor-relations/)
-1. [Key Reviews](/handbook/key-review/)
-1. [Group Conversations](/handbook/group-conversations/)
+1. [Key Reviews](/handbook/company/key-review/)
+1. [Group Conversations](/handbook/company/group-conversations/)
 
 ## Month
 
@@ -117,7 +117,7 @@ These reviews ensure that elements reflect current priorities and do not get sta
 ## Week
 
 1. [1-1 cadence with reports](/handbook/leadership/1-1/)
-1. [E-Group Weekly](/handbook/e-group-weekly/)
+1. [E-Group Weekly](/handbook/company/e-group-weekly/)
 
 ## Gantt Chart
 

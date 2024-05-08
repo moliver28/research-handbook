@@ -324,5 +324,5 @@ Processing for the United Arab Emirates could take up to a month, so we recommen
 - [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
 - [GitLab talent ambassador]({{< ref "gitlab-ambassadors" >}})
 - [Onboarding]({{< ref "general-onboarding" >}})
-- [Stock options](https://about.gitlab.com/handbook/stock-options)
+- [Stock options](https://about.gitlab.com/handbook/total-rewards/stock-options/)
 - [Visas]({{< ref "visas" >}})

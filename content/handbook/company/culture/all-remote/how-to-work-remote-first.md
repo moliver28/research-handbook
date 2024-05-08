@@ -86,7 +86,7 @@ An easy way to force this toxic cloud of taboo out of your team is to use a digi
 
 GitLab's verbiage is below.
 
-> Hi there! Have you thought about what days you may take off this month? 🌴⛰️ We want to make sure you stay healthy! If you feel like you can’t reasonably take time off, feel welcome to add this note to your next 1:1 with your manager and discuss further. Learn more about paid time off at GitLab: `https://about.gitlab.com/handbook/paid-time-off/`
+> Hi there! Have you thought about what days you may take off this month? 🌴⛰️ We want to make sure you stay healthy! If you feel like you can’t reasonably take time off, feel welcome to add this note to your next 1:1 with your manager and discuss further. Learn more about paid time off at GitLab: `https://about.gitlab.com/handbook/people-group/paid-time-off/`
 
 This remote-first behavior triggers a healthy reminder for people to chat about travel or spending time in their community — informal communication that is centered about prioritizing [mental health]({{< ref "./mental-health" >}}).
 

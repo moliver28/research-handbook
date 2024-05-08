@@ -19,7 +19,7 @@ GitLab reimburses ground transport to all team members to get out of the locatio
 
 ### Time Off From Work
 
-Team members should focus on the safety of their families and themselves first and leverage GitLab's [time off policy](/handbook/paid-time-off/). Your manager may contact you on a relatively frequent basis while you are out, just to ensure you have everything you need during this time.
+Team members should focus on the safety of their families and themselves first and leverage GitLab's [time off policy](/handbook/people-group/paid-time-off/). Your manager may contact you on a relatively frequent basis while you are out, just to ensure you have everything you need during this time.
 
 ### Team member resources
 
