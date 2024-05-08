@@ -51,19 +51,21 @@ looks to be accurate and correct, no action is needed. If you see **anything**
 that seems amiss, add the tag `do_not_delete` to the organization to ensure said
 organization is not deleted.
 
-- [ ] [Thing 1 to check](#thing-1-to-check)
-- [ ] [Thing 2 to check](#thing-2-to-check)
-- [ ] [Thing 3 to check](#thing-3-to-check)
+- [ ] [No tickets created within 6 months](#no-tickets-created-within-6-months)
+- [ ] [No open opportunities in SFDC](#no-open-opportunities-in-sfdc)
+- [ ] [Thing 3 TBD](#thing-3-tbd)
 
-#### Thing 1 to check
+#### No tickets created within 6 months
 
-TBD
+Check the organization in question for any tickets that have been created within
+the last 6 months. If there are any, this organization should not be deleted.
 
-#### Thing 2 to check
+#### No open opportunities in SFDC
 
-TBD
+Check the SFDC account tied to the organization for any open opportunities. If
+you see any, this organization should not be deleted.
 
-#### Thing 3 to check
+#### Thing 3 TBD
 
 TBD
 
