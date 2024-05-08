@@ -119,6 +119,7 @@ For partners who are claiming reimbursement for the **first time** only: <br/>
 - If an MDF activity requires a contract signed or has a specific contract for that particular event, such as sponsorships or conferences, contracts need to be **reviewed and approved by Legal** before the approval is communicated to the Partner.
    - In this case, CMMs are to submit contract to the MDF Program Owner and they will open a Zip request to get approval done.
 - Once internal approvals have been completed, CMMs communicate to Partners activities that are approved.
+- If the MDF activity is a sponsorship and it does not have a specific contract from the partner legal will create one once communcated to them within the Zip approval process. This will then follow the same legal process as listed above.  
 - Partners are responsible for submitting an MDF request through the Partner Portal.
 
 
