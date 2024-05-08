@@ -188,15 +188,153 @@ In general, we want to keep as few projects in `security-products` as necessary.
 
 There may be projects that should belong in `secure` or `govern` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `govern` but were unsuccessful.
 
-### Other settings
+### Recommended settings
 
-Due to https://gitlab.com/gitlab-org/gitlab/-/issues/220535, we may choose to leave the Issue
-tracker enabled in the new project. In these cases, please consider these to avoid abandoned
-issues:
+When creating a new project, all settings should be left to the default options, except for the following which are specific to the secure stage:
 
-1. Make the tracker private.
-1. Add an issue template with instructions.
-1. Ensure there's a triage process in place.
+1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners) file to the project, for example:
+
+   ```shell
+   [Maintainers]
+   * @gitlab-org/maintainers/container-scanning
+
+   ^[Reviewers]
+   * @gitlab-org/secure/static-analysis
+   ```
+
+   We recommend creating a [dedicated group of maintainers](https://gitlab.com/groups/gitlab-org/maintainers) for use in the `CODEOWNERS` file.
+
+1. Disable the project [issue tracker](https://docs.gitlab.com/ee/user/project/issues/).
+
+   - `Settings -> General -> Visibility, project features, permissions -> Issues`
+      - `Disabled`
+
+   Issues should be created in the [groups/gitlab-org issue tracker](https://gitlab.com/groups/gitlab-org/-/issues) instead. See step `3.` below to configure this.
+
+   Using a single, centralized issue tracker over per-project issue trackers has the following advantages:
+
+      - It improves the visibility of issues and aligns with our value of [transparency](https://handbook.gitlab.com/handbook/values/#transparency).
+
+        For example, it's very easy for community members to use the `groups/gitlab-org` issue tracker to discover [GitLab issues seeking community contributions](https://gitlab.com/groups/gitlab-org/-/issues?sort=due_date_desc&state=opened&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=20).
+
+      - It leverages existing tools and infrastructure, such as having `triage-ops` and other bots executed against issues, without any additional configuration.
+
+      - It provides a more consistent experience, since all labels and dissue templates will be the same.
+
+      - It's easier to write automated scripts, such as using the [Security triage automation](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation/) tool to create/modify vulnerabilities.
+
+      - There are some issues that apply to multiple projects. If each project has their own issue tracker, we'd need to figure out which issue tracker should "own" an issue that applies to multiple projects.
+
+   Having said that, there are currently some limitiations related to using a single, centralized issue tracker, for example [resolving threads in new issues doesn't work](https://gitlab.com/gitlab-org/gitlab/-/issues/220535).
+
+   Until this issue has been resolved, we may choose to leave the Issue tracker enabled in the new project.
+
+   In these cases, please consider these to avoid abandoned issues:
+
+   1. Make the tracker private.
+   1. Add an issue template with instructions.
+   1. Ensure there's a triage process in place.
+
+1. Configure a [custom issue tracker](https://docs.gitlab.com/ee/user/project/integrations/custom_issue_tracker.html)
+
+   - `Settings -> Integrations -> Custom issue tracker -> Configure`
+      - `Enable integration`
+         - `Active`
+      - `Project URL`
+         - `https://gitlab.com/gitlab-org/gitlab/issues`
+      - `Issue URL`
+         - `https://gitlab.com/gitlab-org/gitlab/issues/:id`
+      - `New issue URL`
+         - `https://gitlab.com/gitlab-org/gitlab/issues/new`
+
+1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/):
+
+   - `Settings -> General -> Visibility, project features, permissions -> Additional options -> Users can request access`
+      - `Allowed to merge`
+         - `Maintainers`
+      - `Allowed to push and merge`
+         - `No one`
+      - `Allowed to force push`
+         - `Disabled`
+      - `Code owner approval`
+         - `Enabled`
+   - `Settings -> Repository -> Protected branches`
+      - `Allowed to merge`
+         - `Maintainers`
+      - `Allowed to push and merge`
+         - `No one`
+      - `Allowed to force push`
+         - `Disabled`
+      - `Code owner approval`
+         - `Enabled`
+   - `Settings -> Merge Requests`
+      - `Squash commits when merging`
+         - `Require`
+      - `Approval settings`
+         - `Prevent approval by author`
+         - `Prevent editing approval rules in merge requests`
+         - `Remove approvals by Code Owners if their files changed`
+      - `Merge request approvals -> Approval rules`
+         - `Approvers`
+            - `All eligible users`
+         - `Target branch`
+            - `All branches`
+         - `Approvals required`
+            - `1`
+      - `Merge checks`
+         - `All threads must be resolved`
+         - `Pipelines must succeed`
+      - `Merge commit message template`
+         ```markdown
+         Merge branch '%{source_branch}' into '%{target_branch}'
+
+         %{title}
+
+         %{issues}
+
+         See merge request %{url}
+
+         Merged-by: %{merged_by}
+         %{approved_by}
+         %{reviewed_by}
+         %{co_authored_by}
+         ```
+      - `Default description template for merge requests`
+         ```markdown
+         ## What does this MR do?
+
+         <!--
+         Describe in detail what your merge request does, why it does that, etc.
+
+         Please also keep this description up-to-date with any discussion that takes
+         place so that reviewers can understand your intent. This is especially
+         important if they didn't participate in the discussion.
+
+         Make sure to remove this comment when you are done.
+         -->
+
+         ## What are the relevant issue numbers?
+
+         ## Does this MR meet the acceptance criteria?
+
+         - [ ] Changelog entry added
+         - [ ] [Documentation created/updated for GitLab EE](https://docs.gitlab.com/ee/development/documentation/feature-change-workflow.html), if necessary
+         - [ ] Documentation created/updated for this project, if necessary
+         - [ ] Documentation reviewed by technical writer *or* follow-up review issue [created](https://gitlab.com/gitlab-org/gitlab-ee/issues/new?issuable_template=Doc%20Review)
+         - [ ] [Tests added for this feature/bug](https://docs.gitlab.com/ee/development/testing_guide/index.html)
+         - [ ] Job definition updated, if necessary
+           - [ ] [Auto-DevOps template](https://gitlab.com/gitlab-org/gitlab-foss/tree/master/lib/gitlab/ci/templates)
+           - [ ] [Job definition example](https://docs.gitlab.com/ee/ci/examples/sast.html)
+           - [ ] [CI Templates](https://gitlab.com/gitlab-org/security-products/ci-templates/tree/master/includes)
+         - [ ] Ensure the report version [matches the equivalent schema version](https://gitlab.com/gitlab-org/security-products/security-report-schemas/-/blob/master/CHANGELOG.md)
+         - [ ] Conforms to the [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html)
+         - [ ] Conforms to the [Go guidelines](https://docs.gitlab.com/ee/development/go_guide/index.html)
+         - [ ] Security reports checked/validated by reviewer
+
+         /label ~"devops::secure" ~"Category:" ~"group::" ~"backend"
+         ```
+
+When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](https://handbook.gitlab.com/handbook/security/gitlab_projects_baseline_requirements) for more details.
 
 ## Performance Indicators
 
