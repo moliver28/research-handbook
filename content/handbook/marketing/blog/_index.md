@@ -381,6 +381,7 @@ Here's a video walk thru of the fullprocess from creating the translation reques
 Things to be careful about when localizing an EN blog post.
 
 - Dont change the slug! 
+- Until Contentful introduces the async field publishing feature, we'll need to release all translations simultaneously
 
 ### Tags to keep organized
 - If a post in process of being translating, slap the "translation-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed.
