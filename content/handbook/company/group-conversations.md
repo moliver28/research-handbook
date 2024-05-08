@@ -28,7 +28,7 @@ It's common to wonder what the difference is between these two meetings. General
 | **Tone** | Formal | Informational |
 | **Discussion** | High-context | [Low-context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication) |
 
-The [Key Review](/handbook/key-review) is intended for senior leadership to ask questions. The Group Conversation is open to the entire GitLab team to ask questions. We have both to give the senior leaders enough time to ask questions since the Group Conversations often have general questions unrelated to slide deck. Both are also a good place for sharing news and explaining initiatives. The same deck is generally used for both events, except that the Group Conversation one will have any material non-public information (MNPI) removed. Here's a brief discussion of why we have both meetings, and how they can operate effectively:
+The [Key Review](/handbook/company/key-review/) is intended for senior leadership to ask questions. The Group Conversation is open to the entire GitLab team to ask questions. We have both to give the senior leaders enough time to ask questions since the Group Conversations often have general questions unrelated to slide deck. Both are also a good place for sharing news and explaining initiatives. The same deck is generally used for both events, except that the Group Conversation one will have any material non-public information (MNPI) removed. Here's a brief discussion of why we have both meetings, and how they can operate effectively:
 <figure class="video_container"><iframe src="https://www.youtube.com/embed/tLOMA3663XM"></iframe></figure>
 
 ## For Attendees
@@ -118,7 +118,7 @@ The Group Conversation schedule is set quarterly. The schedule is finalized the 
 The Scheduling DRI for each GC is encouraged to remind the DRI.
 
 There is a [rotating schedule](#schedule--dri) with each Department having a conversation on a regular interval.
-We usually do not have Group Conversations or Company calls during the last two weeks of December. We also tend to cancel these during [Contribute](/handbook/company/culture/contribute/).
+We usually do not have Group Conversations or Company calls during the last two weeks of December. We also tend to cancel these during [Contribute](/handbook/company/culture/summit/).
 
 Please note: the frequency of Group Conversations does not recur on a specific cadence, but rather an estimated time (ex: the Portfolio Marketing GC could happen every other month, but does not happen specifically on the 4th Wednesday every other month). Groups Conversations without Key Reviews are optional, and these can be swapped with other groups without Key Reviews, or scheduled during an open day on the [schedule](#current-schedule).
 

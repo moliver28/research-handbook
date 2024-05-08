@@ -116,7 +116,7 @@ Currently, a rotation is two weeks:
 
 The shadow should be available for the full two weeks.
 
-When the CEO has a week or more of paid time off, or during [Summit (Contribute)](/handbook/company/culture/contribute/_index.md), the program will pause, one shadow will "see one" before the break and "teach one" after the break.
+When the CEO has a week or more of paid time off, or during [Summit (Contribute)](/handbook/company/culture/summit/_index.md), the program will pause, one shadow will "see one" before the break and "teach one" after the break.
 The rotations with breaks of one or more weeks without a shadow are great if you can't be away from home for more than one week at a time.
 
 This program is not limited to long-term GitLab team members.

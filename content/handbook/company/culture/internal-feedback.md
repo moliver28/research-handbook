@@ -298,7 +298,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. More face-to-face meetings and ability to meet up with GitLab team-members close by.
     - Please expense travel to visit GitLab team-members as described in [Spending Company Money](https://about.gitlab.com/handbook/spending-company-money).
 1. Adjust the team call format to include more regular functional group updates.
-    - The [team call](/handbook/communication/#team-call) now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates](/handbook/group-conversations) are separate events.
+    - The [team call](/handbook/communication/#team-call) now has weekend updates every two weeks, a separate call for APAC GitLab team-members to give their weekend update, and [functional group updates](/handbook/company/group-conversations/) are separate events.
 1. Have more employee agreements instead of contractor agreements.
     - People Ops will be working to establish new entities/payrolls in more countries as we grow. Once this is completed we can transfer contractors to employees.
 1. Hire in departments that need more GitLab team-members.

@@ -6,7 +6,7 @@ description: Guidelines for how time off applies to Support team members and wha
 
 ## Support Team Member Time Off
 
-The Support Team follows [GitLab's paid time off policy](https://about.gitlab.com/handbook/paid-time-off).
+The Support Team follows [GitLab's paid time off policy](https://about.gitlab.com/handbook/people-group/paid-time-off/).
 We balance that with the need to deliver support to our customers every day.
 This page is intended to provide all Support Team Members with an understanding
 of what we need to do to achieve that balance, making it possible for all to

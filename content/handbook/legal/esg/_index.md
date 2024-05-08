@@ -73,7 +73,7 @@ Nonprofits accepted into the program will be provided a free Ultimate license fo
 
 GitLab supports Registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that align with our [Values](/handbook/values/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal or national government.
 
-GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab’s social and environmental key topics that were defined in GitLab’s [2022 materiality assessment](/handbook/legal/ESG/). GitLab’s current social and environmental key topics are:
+GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab’s social and environmental key topics that were defined in GitLab’s [2022 materiality assessment](/handbook/legal/esg/). GitLab’s current social and environmental key topics are:
 
 - Diversity, Inclusion, and Belonging
 - Talent Management & Engagement
@@ -198,7 +198,7 @@ Please read our [ESG report](/handbook/company/esg/) to learn about our progress
 
 ## ESG Training
 
-To learn more about ESG at GitLab, please take our ESG Training course available on [LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/esg-training) and in the [Handbook](/handbook/legal/ESG/ESG-Training/).
+To learn more about ESG at GitLab, please take our ESG Training course available on [LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/esg-training) and in the [Handbook](/handbook/legal/esg/ESG-Training/).
 
 ## Measuring Results
 

@@ -78,7 +78,7 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 | MR | Merge Request  |
 | MVC| [Minimum Viable Change](/handbook/values/#minimal-viable-change-mvc) (not related to Model-View-Controller)|
 | OKRs | [Objectives & Key Results](/handbook/company/okrs) |
-| PTO | [Paid Time Off](/handbook/paid-time-off) |
+| PTO | [Paid Time Off](/handbook/people-group/paid-time-off/) |
 | SIRT | [Security Incident Response Team](/handbook/security/security-operations/sirt) |
 | TMRG | [Team Member Resource Group](/handbook/company/culture/inclusion/#tmrgs---team-member-resource-groups) |
 

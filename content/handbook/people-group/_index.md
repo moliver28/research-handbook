@@ -198,7 +198,7 @@ GitLab does not actively search for LinkedIn profiles that have inaccurate infor
 - If the team member cannot confirm the profile, team members should reach out to the People Connect Team in the #people-connect Slack channel with the LinkedIn profile in question.
 - The People Connect Team member will confirm in Workday that they are not/have not been a team member.
 - The People Connect Team member will confirm with talent acquisition to confirm if they have ever been interviewed, made an offer or were declined.
-- The People Connect Team member will reach out to the [Developer Relations team](/handbook/marketing/community-relations/) to confirm if they are an active wider community member via the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel, using the `@devrel-team` tag.
+- The People Connect Team member will reach out to the [Developer Relations team](/handbook/marketing/developer-relations/) to confirm if they are an active wider community member via the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel, using the `@devrel-team` tag.
 - If they are a confirmed member of the wider community but not a team member, the Developer Relations team will reach out the profile and ask them to change their profile to match their GitLab involvement.
 - If they are not a current member of the wider community and talent acquisition has confirmed they do not have a profile in Greenhouse, talent acquisition will create a Do Not Hire profile.
 - The People Connect Team member will report the account to LinkedIn via the [Reporting Inaccurate Information on Another Member's Profile](https://www.linkedin.com/help/linkedin/answer/30200?src=or-search&veh=www.google.com%7Cor-search)
