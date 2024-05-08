@@ -196,18 +196,20 @@ When creating a new project, all settings should be left to the default options,
 
    ```shell
    [Maintainers]
-   * @user1 @user2
+   * @gitlab-org/maintainers/container-scanning
 
    ^[Reviewers]
    * @gitlab-org/secure/static-analysis
    ```
+
+   We recommend creating a [dedicated group of maintainers](https://gitlab.com/groups/gitlab-org/maintainers) for use in the `CODEOWNERS` file.
 
 1. Disable the project [issue tracker](https://docs.gitlab.com/ee/user/project/issues/).
 
    - `Settings -> General -> Visibility, project features, permissions -> Issues`
       - `Disabled`
 
-   Issues should be created in the [groups/gitlab-org issue tracker](https://gitlab.com/groups/gitlab-org/-/issues) instead.
+   Issues should be created in the [groups/gitlab-org issue tracker](https://gitlab.com/groups/gitlab-org/-/issues) instead. See step `3.` below to configure this.
 
    Using a single, centralized issue tracker over per-project issue trackers has the following advantages:
 
@@ -215,7 +217,7 @@ When creating a new project, all settings should be left to the default options,
 
         For example, it's very easy for community members to use the `groups/gitlab-org` issue tracker to discover [GitLab issues seeking community contributions](https://gitlab.com/groups/gitlab-org/-/issues?sort=due_date_desc&state=opened&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=20).
 
-      - Existing tools and infrastructure are used, such as having `triage-ops` and other bots executed against issues, without any additional configuration.
+      - It leverages existing tools and infrastructure, such as having `triage-ops` and other bots executed against issues, without any additional configuration.
 
       - It provides a more consistent experience, since all labels and dissue templates will be the same.
 
@@ -233,10 +235,29 @@ When creating a new project, all settings should be left to the default options,
    1. Add an issue template with instructions.
    1. Ensure there's a triage process in place.
 
+1. Configure a [custom issue tracker](https://docs.gitlab.com/ee/user/project/integrations/custom_issue_tracker.html)
+
+   - `Settings -> Integrations -> Custom issue tracker -> Configure`
+      - `Enable integration`
+         - `Active`
+      - `Project URL`
+         - `https://gitlab.com/gitlab-org/gitlab/issues`
+      - `Issue URL`
+         - `https://gitlab.com/gitlab-org/gitlab/issues/:id`
+      - `New issue URL`
+         - `https://gitlab.com/gitlab-org/gitlab/issues/new`
+
 1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/):
 
    - `Settings -> General -> Visibility, project features, permissions -> Additional options -> Users can request access`
-      - `Disabled`
+      - `Allowed to merge`
+         - `Maintainers`
+      - `Allowed to push and merge`
+         - `No one`
+      - `Allowed to force push`
+         - `Disabled`
+      - `Code owner approval`
+         - `Enabled`
    - `Settings -> Repository -> Protected branches`
       - `Allowed to merge`
          - `Maintainers`
@@ -312,6 +333,8 @@ When creating a new project, all settings should be left to the default options,
 
          /label ~"devops::secure" ~"Category:" ~"group::" ~"backend"
          ```
+
+When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](https://handbook.gitlab.com/handbook/security/gitlab_projects_baseline_requirements) for more details.
 
 ## Performance Indicators
 
