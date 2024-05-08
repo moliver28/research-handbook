@@ -156,7 +156,7 @@ Create Source Code UX planning takes inputs from the following sources:
 
 ##### Planning Issue
 
-Each month a planning issue is created by the PM, using the [Source code template](https://gitlab.com/gitlab-org/create-stage/-/blob/master/.gitlab/issue_templates/source-code-planning.md).
+Each month a planning issue is created by one of the EMs, using [automated tools](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/blob/main/doc/planning/index.md)based on the [Source Code issue template](https://gitlab.com/gitlab-org/create-stage/-/blob/master/.gitlab/issue_templates/source-code-planning.md).
 
 ##### Planning Board
 
