@@ -43,7 +43,7 @@ The People Group works together as one team, made up of five departments: People
 | Department | Teams |
 | ---------- | ----- |
 | People Operations | People Connect, Employment Solutions, People Compliance, People Tools & Technology, People Analytics, Team Member Relations |
-| Talent and Engagement | Talent Acquisition; Candidate Experience, Talent Acquisition Operations and Insights, Sourcing, Talent Brand<br>Engagement; Learning & Development, Engagement |
+| Talent and Engagement | Talent Acquisition; Candidate Experience, Talent Acquisition Operations and Insights, Sourcing, Talent Brand<br>Engagement; Talent Development, Engagement, Talent Management |
 | Total Rewards | Global Compensation, Benefits, and Equity Strategy |
 | People Business Partners | Aligned to Engineering, Product, Sales, Marketing, and G&A |
 | DIB |  |
