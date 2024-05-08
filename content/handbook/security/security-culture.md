@@ -70,7 +70,7 @@ The security culture committee has [an issue template available for creating new
 
 ### Current Committee Projects
 
-We are tracking our efforts in this issue: https://gitlab.com/gitlab-com/gl-security/security-culture/-/issues/13
+We are tracking our efforts in this issue: https://gitlab.com/gitlab-com/gl-security/security-culture/-/issues/33
 
 ### Previous Security Committee Formation Documentation
 
