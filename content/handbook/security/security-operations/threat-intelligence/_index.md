@@ -21,15 +21,7 @@ Together, we protect GitLab and our customers by staying one step ahead of the r
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> The Team
 
-The team is currently made up of cross-function participants from other groups. This includes:
-
-| | |
-|---|---|
-| Chris Moberly | [Security Manager](https://handbook.gitlab.com/job-families/security/red-team/#manager-red-team) |
-| Leslie Anzures | [Senior Security Engineer](https://handbook.gitlab.com/job-families/security/security-incident-response-team/#security-incident-response-team-engineer-intermediate) |
-| Laurens van Dijk | [Senior Security Engineer](https://handbook.gitlab.com/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer) |
-| Yunus Khan | [Senior Security Engineer](https://handbook.gitlab.com/job-families/security/security-incident-response-team/#senior-security-incident-response-team-engineer) |
-| Paul McCarty | [Staff Security Engineer](https://handbook.gitlab.com/job-families/security/red-team/#staff-red-team-engineer) |
+The team is currently made up of cross-function participants from other groups, including SIRT and Red Team.
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
