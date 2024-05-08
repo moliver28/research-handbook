@@ -128,7 +128,7 @@ From the 4th day onwards, the team member is entitled to 100.00% of their regula
 
 Under the Sick Pay Law amendment an team member suffering from a malignant disease (i.e cancer) or a condition that requires regular dialysis treatments, or who recovered from such a disease, is eligible for full sick pay (100%) from the first day of absence, if on leave from work to receive care or undergo periodic examinations for that condition. (up to a maximum of 90 days). Team members must provide a medical certificate from a medical professional confirming the necessity of treatment or examination because of the condition.
 
-Sick Leave runs concurrently with GitLab's Sick Leave policy. Team members must notify their manager of any sick time usage, and then enter the time away into Time Off by Deel by selecting the label `Out Sick`.  If a team member is out sick for more than 5 working days, they must contact the Absence Management Team (leaves@gitlab.com).
+If eligible, sick Leave runs concurrently with GitLab's Sick Leave policy and offers supplemental wages for the first 25 working days. Team members must notify their manager of any sick time usage, and then enter the time away into Time Off by Deel by selecting the label `Out Sick`.  If a team member is out sick for more than 5 working days, they must contact the Absence Management Team (leaves@gitlab.com).
 
 ### Maternity Leave
 
@@ -138,7 +138,7 @@ Team members who have worked for the company for less than one year are entitled
 
 - A team member may extend their maternity leave entitlement by three weeks in the case of multiple or complicated births.
 
-- In the unfortunate circumstance that a mother loses her child after the birth, she may take unpaid maternity leave up to 60 days after the birth.
+- In the unfortunate circumstance that a mother loses her child after the birth or after the 22nd week of pregnancy, she is still eligible for maternity leave.
 
 Team members must take at least 7 weeks of maternity leave after the child is born.  After the 7th week of leave, the mother can choose to return to work and transfer the remaining maternity leave period to her spouse.
 
