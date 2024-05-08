@@ -256,9 +256,9 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 1. Click the **Create runner** button.
 
-1. Select your operating system (Linux, MacOS, or Windows).
+1. From the next page presented, select your operating system (Linux, MacOS, or Windows).
 
-1. From the next page presented, copy the command under **Step 1** to your clipboard.
+1. Copy the command under **Step 1** to your clipboard.
 
 1. Back in your terminal, paste and run the command you copied in the previous step. Press `Enter` for the instance URL and `Enter` for the runner name to use the default values. (You can give this a custom name if desired).
 
