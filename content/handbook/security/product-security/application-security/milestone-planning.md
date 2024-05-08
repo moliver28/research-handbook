@@ -67,9 +67,8 @@ Any issue being worked on by an Application Security team member must include:
 
 | Label | Purpose |
 | --- | --- |
-| `workflow::ready for development` | Indicates that work has not begun, or the rotation has not yet started |
-| `workflow::in dev` | Indicates the issue is actively being worked on, or the rotation is in progress |
-| `workflow::complete` | Indicates the work is done, or the rotation has finished |
+| `workflow::planned` | Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone |
+| `workflow::in-progress` | Indicates the issue is actively being worked on, or the rotation is in progress |
 
 ### Rotations
 
