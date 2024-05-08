@@ -121,7 +121,7 @@ pages:
     - if: $CI_MERGE_REQUEST_IID
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
-        ENVIRONMENT: development
+        ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 # TODO @dnsmichi: What does this job do?
