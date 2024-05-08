@@ -100,7 +100,7 @@ In truth, [managing a remote company]({{< ref "./management" >}}) is much like m
 
 Remote forces you to do the things you should be doing [way earlier and better](https://nohq.co/blog/sid-sijbrandij-people-dont-want-to-commute-they-ju). It forces discipline that sustains culture and efficiency [at scale](./scaling), particularly in areas which are easily deprioritized in small colocated companies.
 
-It's important to not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asynchronous communication]({{< ref "./management#asynchronous" >}}), be [handbook-first](/handbook/handbook-usage#why-handbook-first), design an [optimal workspace]({{< ref "./workspace" >}}), and understand the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
+It's important to not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asynchronous communication]({{< ref "./management#asynchronous" >}}), be [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), design an [optimal workspace]({{< ref "./workspace" >}}), and understand the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
 
 Leaders should ensure that new remote hires read a [getting started guide]({{< ref "./getting-started" >}}), and make themselves available to answer questions throughout one's journey with the company.
 

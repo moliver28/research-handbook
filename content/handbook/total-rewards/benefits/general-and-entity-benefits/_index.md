@@ -91,7 +91,7 @@ The [Growth and Development page]({{< ref "growth-and-development" >}}) covers i
 GitLab Summit (formerly known as Contribute) is our annual GitLab team event where we get together to interact with one another and cultivate our community. Since our team is scattered all over the globe, we try to plan a different location each year. Summit is an optional event, so team members should not feel pressured to attend.
 
 From our first Summit in Serbia to our virtual event in 2020, team members from around the world have built friendships and experienced the values in person.
-For more information and compilations of our past events check out our [previous Contributes](/handbook/company/culture/contribute/previous/).
+For more information and compilations of our past events check out our [previous Contributes](/handbook/company/culture/summit/previous/).
 
 ## Business Travel Emergency Assistance Program
 

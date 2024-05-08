@@ -121,7 +121,7 @@ This added burden forces team members to consider approaching work [asynchronous
 
 {{< youtube "3HHyjAV3hYE?start=581" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/handbook-usage#why-handbook-first)" approach to companywide documentation.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
 
 > I think [documentation]({{< ref "./management#scaling-by-documenting" >}}) has to be [instilled as a value]({{< ref "values#write-things-down" >}}). It has to start there, and the whole leadership team in an organization has to be onboard.
 >

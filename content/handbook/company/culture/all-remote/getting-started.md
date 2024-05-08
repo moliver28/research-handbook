@@ -244,7 +244,7 @@ As aptly stated in [Basecamp's Handbook](https://basecamp.com/handbook), **there
 
 Remote work enables a great deal of flexibility, freedom, and autonomy. It also requires adaptability when it comes to communication, and may require experimentation by the team member to reach peak enjoyment.
 
-It can be tempting for new remote workers to simply implement tactics used in colocated spaces, but from their home or a co-working space. For example, learning to search for answers within [documentation](/handbook/documentation) rather than tapping someone on the shoulder and asking a question.
+It can be tempting for new remote workers to simply implement tactics used in colocated spaces, but from their home or a co-working space. For example, learning to search for answers within [documentation](/handbook/product/ux/technical-writing/documentation/) rather than tapping someone on the shoulder and asking a question.
 
 This also applies to more nuanced aspects of work, including employee perception. Whereas working from a unique place or doing things differently may be discouraged in a colocated space, consider celebrating such diversity in a remote space.
 

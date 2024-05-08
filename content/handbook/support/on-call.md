@@ -54,7 +54,7 @@ If another support engineer joins your emergency call, feel free to assign them 
 
 ### Take care of yourself
 
-Make a real effort to de-stress during your on-call shift. After being on-call, consider taking time off, as noted in the [main GitLab Handbook](https://about.gitlab.com/handbook/paid-time-off). Just being available for emergencies and outages causes stress, even if there are no pages. Resting is critical for proper functioning. Just let your team know.
+Make a real effort to de-stress during your on-call shift. After being on-call, consider taking time off, as noted in the [main GitLab Handbook](https://about.gitlab.com/handbook/people-group/paid-time-off/). Just being available for emergencies and outages causes stress, even if there are no pages. Resting is critical for proper functioning. Just let your team know.
 
 When you get a notification from PagerDuty give yourself a few minutes to prepare.
 - Get to someplace comfortable and quiet where you can devote your attention to the emergency.
