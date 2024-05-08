@@ -128,16 +128,22 @@ An outcome label is added to the issue within one week of delivering the recomme
 
 ### Attribution
 
-Attribution is another key metric for our threat intelligence program. It measures how often our intelligence on specific threat actors and their tactics, techniques, and procedures (TTPs) is successfully used to identify, prevent, or respond to actual threats targeting our organization.
+Attribution is another key metric for our threat intelligence program. It measures how often our intelligence on specific threat actors and their tactics, techniques, and procedures (TTPs) is successfully used to prevent, detect, or respond to actual threats targeting our organization.
 
 When an attribution event occurs, we apply one of the following labels to the related issue:
 
-- TIAttribution::ThreatBriefing
-- TIAttribution::FlashReport
-- TIAttribution:ThreatActorTracking
-- TIAttribution::RFI
+- Threat Briefings (`TIAttribution::ThreatBriefing`)
+- Flash Reports (`TIAttribution::FlashReport`)
+- Threat Actor Tracking (`TIAttribution:ThreatActorTracking`)
+- Request for Information (`TIAttribution::RFI`)
 
 This helps us understand which of our services are are providing the most valuable intelligence.
+
+We apply another set of labels which tells us the impact of the attribution:
+
+- Intelligence prevented an incident (`TIImpact::Prevention`)
+- Intelligence allowed us to identify an attempted attack (`TIImpact::Detection`)
+- Intelligence allowed us to respond to an incident (`TIImpact::Response`)
 
 ## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging Threat Intelligence
 
