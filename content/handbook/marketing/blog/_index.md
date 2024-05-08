@@ -381,7 +381,11 @@ Here's a video walk thru of the fullprocess from creating the translation reques
 Things to be careful about when localizing an EN blog post.
 
 - Dont change the slug! 
-- If a post in process of being translating, slap the "localiztion-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed. IMPORTANT - remove and apply local lable to languages the post is translated into. 
+
+### Tags to keep organized
+- If a post in process of being translating, slap the "translation-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed.
+- Remove and apply local label to languages the post is translated into.
+- Here's a [direct link to the Contentful Blog space](https://app.contentful.com/spaces/r9o86ar0p03f/environments/master/views/entries?searchText=&contentTypeId=&contentTypeIds=&displayedFieldIds=name&displayedFieldIds=contentType&displayedFieldIds=updatedAt&displayedFieldIds=author&displayedFieldIds=metadata.tags&displayedFieldIds=status&order.direction=descending&order.fieldId=updatedAt&filters.0.key=metadata.tags.sys.id&filters.0.op=in&filters.0.val=translation-in-progress) to see all posts currently being translated. 
 - If you make changes to translated content in the Contentful blog space, note your changes in this spreadsheet. (need link to sheet)
 | Tag | Definition | How to use |
 |----|----|----|
