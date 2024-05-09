@@ -66,6 +66,7 @@ Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-d
 - **scoring_config.yaml**: Configuration for scoring notebook
 - **notebooks/training_example.ipynb**: training notebook used for this example
 - **notebooks/scoring_example.ipynb**: scoring code productionalization notebook used for this example
+- **xgb_model.json**: The saved model from training that will be used for scoring (Note: in future iterations this will be pulled directly from the [Model Registry](https://docs.gitlab.com/ee/user/project/ml/model_registry/))
 
 ## Model Training with CI/CD
 
@@ -98,7 +99,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
   - `outcome`: Our outcome/target/dv variable. The example notebook is using the breast cancer dataset from scikit-learn and the outcome field in that dataset is named `target`
   - `optuna` configurations: The example notebook runs an xgboost model with [Optuna](https://optuna.org/). There are *a lot* of customizations that are possible with this setup, but to keep it simple, we have only included:
     - `n_trials`: Number of trails to run in the Optuna study
-    - `model_file_name`: The output name of the joblib model file
+    - `model_file_name`: The output name of the model file
   - `mlflow`: There are a few configurations you can make here if you like, but the defaults will also work fine
     - `experiment_name`: Name of your MLFlow Experiment
     - `run_name`: ID or name of the MLFlow Experiment Run
@@ -120,7 +121,6 @@ Let's take a detailed look at the repository (**Code -> Repository**):
        - Create the following new CI Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
          - `REPO_TOKEN`: For the value, enter the project access token value created above.
          - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches ![Create CI Variables](create_ci_variables.png)
-
 1. Now, let's make some changes to activate our training pipeline:
 1. Create a new branch (**Code -> Branches -> New Branch**)
      - <img src="new_branch.png" width="500">
@@ -141,7 +141,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - Click on your experiment name.
    - You should see a new run logged from the CI Pipeline. Click into that run.
    - Run details are displayed, including a link to the CI job, the merge request, various parameters and metrics, and model artifacts. ![Experiment Tracker](experiment.png)
-   - Click on "Artifacts". This will take you to the Package Registry, where all the artifacts associated with that particular model run are stored. You should see the joblib model file and a requirements.txt. These can be used later to deploy your model. ![Artifacts](artifacts.png)
+   - Click on "Artifacts". This will take you to the Package Registry, where all the artifacts associated with that particular model run are stored. You should see the .json model file and a requirements.txt. These can be used later to deploy your model. ![Artifacts](artifacts.png)
 1. Finally, let's look at the container that was used to train the model (**Deploy -> Container Registry**)
    - This container will be used in subsequent runs of the model and will only get rebuilt when **Dockerfile** or **requirements.txt** are modified. ![Container](container.png)
 
@@ -173,15 +173,41 @@ Let's take a detailed look at the repository (**Code -> Repository**):
   - `script`:
         ...
         - `papermill -p is_local_development False $notebookName -`: Tells papermill to override the variable values defined in the first cell of the notebook with the values shown when running in CI.
-- There is also a `score-scheduled` job
+- There is also a `score-scheduled` job.
    - This will trigger the scoring notebook at a set time, using [Scheduled pipelines](https://docs.gitlab.com/ee/ci/pipelines/schedules.html)
    - This job will also trigger the `write-to-wiki` job, which will publish model metrics to the project wiki
 - Finally, let's look at the [scoring_config.yaml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/scoring_config.yaml). Here we can configure certain variables for training our model:
-  - **ADD SCORING CONFIGURATIONS HERE**
-
+  - **model_file**: The model file created during training. This can be pulled directly from the Model Registry or the repository. For simplicity, we are including it in the repository
+  - **fields**: List of the model fields. This is useful if the model is using only a subset of fields in a dataframe. In this example, all the fields in the dataframe are being used.
+  - **decile_cuts**: Sometimes it's useful to include decile cuts from the validation dataset used during training. In this example, we included quintile cuts to illustrate how they can be used.
 
 ### Scoring and Productionalization Step-by-Step Instructions
 
+1. Optional (but recommended) Wiki Configurations:
+   - This allows you to log your scheduled runs to the GitLab [Project Wiki](https://docs.gitlab.com/ee/user/project/wiki/).
+   - Create a new CI Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
+         - `API_ENDPOINT`: For the value, use the GitLab API endpoint (will be similar to the `MLFLOW_TRACKING_URI` set up during training) using the following format: `https://gitlab.com/api/v4/projects/<your_project_id>`. Project ID can be found in **Settings -> General**
+         - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches
+1. Configure your runner:
+     - GPU runners are available at the Premium and Ultimate tiers. If enabled, edit `.gitlab-ci.yml` and change the value of `SCORE_RUNNER` to GPU runner (i.e. `saas-linux-medium-amd64-gpu-standard`). 
+     - The default value, `saas-linux-small-amd64`, will work for all account types.
+1. Now lets score our model using CI/CD
+   - You can either create a new branch of the repository or use the same one as used above for training the model.
+   - Make a change to the `notebooks/scoring_example.ipynb` so that we have something to commit. This could be as simple as adding a line to one of the cells.
+   - For the commit message enter `score notebooks/scoring_example.ipynb`. This will tell the GitLab that you want to execute the score-commit CI pipeline on the **scoring_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](edit_config.png)
+   -. Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the scoring CI pipeline for the newly created MR.
+   - Click on "**Pipelines**" and you should see the scoring pipeline running. Click into the pipeline to see which which stage the pipeline is in.
+   - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings **IMAGE OF SCORING PIPELINES HERE**
+   - Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request). This is the same process you would have seen during training, except it is now writting out descriptives about the scored dataset.
+1. We can also set the model to score at a defined time using Pipeline Schedules
+   - Nagivate to **Build -> Pipeline schedules -> New schedule**
+   - Give your pipeline a description 
+   - Set when you want it to run. In the example below, the pipeline is scheduled to run every day at noon.
+   - Target branch: `main` will work for this example.
+   - Variables: We only need to setup one variable, `SCORING_NOTEBOOK` with the location of the notebook we want to schedule `notebooks/scoring_example.ipynb`
+   - Tick "Activated" and save the changes. ![Pipeline Schedule](Pipeline_schedule.png)
+1. The next time the schedule pipeline runs, it will output the results to the Project Wiki
+   - Nagivate to **Plan -> Wiki** and you will see a list by timestamp of all the times the scheduled pipeline has run, with links to the job logs and model metrics. ![Wiki](wiki.png)
 
 ## Slack Notifications (optional)
 - In Slack, add the GitLab for Slack app
