@@ -11,15 +11,24 @@ The Career Enablement Team Member Advocacy Group champions corporate literacy, p
 
 The group supports all GitLab team members including, but not limited to: folks new to remote work, the technology industry or the workforce; team members seeking to advance their professional skills; managers learning to work with emerging talent; team members aiming to invest time in their career and more.group.
 
-## Leadership
+## Structure
 
-Lead: @kpdoespr
+### Leads
 
-Co-lead: @akulks
+- [Amruta Kulkarni](/handbook/company/team/#akulks)
 
-Executive sponsor: @cmestel
+### Executive Sponsor
 
-Advisors & allies: Could be you!
+- [Craig Mestel](/handbook/company/team/#cmestel)
+
+### Members
+
+- Sign up to get meeting invites by joining the [GitLab Pride Google Group](https://groups.google.com/a/gitlab.com/g/careerenablementtmag)
+- Join the #career-enablement-tmag Slack channel
+
+### Project
+
+- [GitLab Career Enablement Issue Board](https://gitlab.com/gitlab-com/career-enablement-tmag/)
 
 ## Responsibilities of the Group
 
@@ -34,10 +43,3 @@ Advisors & allies: Could be you!
 - Career development
 - Networking
 - Continued learning/education
-
-## Where to reach us
-
-- Join our Slack channel #career-enablement-tmag
-- Issue label: Early-Career-TMDG
-- Email: earlycareertmdg@gitlab.com
-- Sign up to get meeting invites by joining the GitLab [Early Career Professionals Google Group](https://groups.google.com/a/gitlab.com/g/earlycareertmdg)
