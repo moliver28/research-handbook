@@ -4,62 +4,151 @@ title: "Data Guide to People Data Analysis"
 
 ## Objectives for this page
 
-This handbook page is intended to provide a high-level overview of the most common data models used by the People Analytics team. If you are in need of using People Data for dashboard development and reporting, this page will help you determine the best models to use. If you have any questions please don't hesitate to reach out to someone from the team for help.
+This handbook page provides an overview of data definitions and data models used by the People Analytics team. Use this page for clarification on terminology, calculations, or models that use People data. If you have any questions please don't hesitate to reach out to someone from the team for help.
 
 ## Helpful places to start
 
 - [DBT Docs](https://dbt.gitlabdata.com/#!/overview) - This resource contains comprehensive documentation on all available dbt models. This is a great starting point to understanding our models. For specific People Models, please reference the **Commonly Used Data Models** section below for a starting point.
-- [Definitive guides to data subject areas](/handbook/business-technology/data-team/data-catalog/#definitive-guides) managed by the Data team.
+- [Definitive guides to data subject areas](/handbook/business-technology/data-team/data-catalog/) managed by the Data team.
 - [Documentation on data pipelines](/handbook/business-technology/data-team/platform/pipelines/) for the technically curious analyst. This page goes into each data source and extraction details.
 - [People Group Tech Stack Guide]({{< ref "tech-stack-guide-workday" >}}) for overview of all the integrations that go into and out of our HR systems and all the tools we use.
 
-## Key Terms
+## People Group Data Dictionary
 
-**BambooHR** - BambooHR was the HRIS used by GitLab until 2022-06-16
+### Employment Data
 
-**Workday** - Workday is the HRIS used by GitLab since 2022-06-16
+Data pertaining to the worker and employment at GitLab once hired
 
-## Team Members
+<details><summary>Click to expand</summary>
 
-**Employee ID** - Unique number that has been assigned to each individual team member within the company
+| Name | Description | Calculation | Is Sensitive |
+|---|---|---|---|
+| Team Member | A person that worked for GitLab at any point in time, has an employee id in one of our Human Resource Management Systems (HRMS), and is not a temporary (contingent) worker or intern |  |  |
+| Employee ID | Unique ID assigned in our HRMS upon hire to track team member's employment with GitLab |  | Yes |
+| Hire Date | The first day of employment with GitLab as a team member |  |  |
+| Termination Date | The first day a team member is no longer employed with GitLab as a team member | termination effective date in HRMS + 1 day | Yes, if future-dated |
+| [Employee Type](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab) | The employment type for a team member's primary position. We typically exclude "Consultants" and "Interns" from reporting |  |  |
+| [Company / Entity](/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) | Company used to employ or contract team members that is location-specific. These can be in the form of entities or professional Employer Organizations (PEO) |  |  |
+| [Termination Type](/handbook/people-group/offboarding/) | Business process reason category associated with the termination business process. Can be either Voluntary or Involuntary |  | Yes |
+| [Exit Impact](/handbook/people-group/offboarding/#offboarding:~:text=Regrettable%3A%20The%20team,or%20performance%20concerns.) | If worker is specified as regrettable termination on the termination transaction they are considered a "regrettable" termination. Otherwise they are considered a "non-regrettable" termination |  | Yes |
+| Headcount | The total number of team members employed at GitLab on a particular date |  |  |
+| Begin Headcount | Used for Average Headcount calculation. The number of team members active at the beginning of each period in a date range. This is usually the first day of the month. |  |  |
+| End Headcount | Used for Average Headcount calculation. The number of team members active at the end of each period in date range. This is usually the last day of the month. |  |  |
+| Average Headcount | The average number of team members in a specified date range. This is used to standardize rates across business areas. | (sum of all Begin Counts in period / # of periods observed + sum of all End Counts in period / # of periods observed) / 2 |  |
+| Net Growth | Metric to show growth based only on the difference between hires and terminations in a selected period | # of Hires in period - # of Terminations in period |  |
+| Turnover / Attrition | The percentage of employees who leave an organisation over a specific period, typically on a rolling 12 month basis | # of Terminations / Average Headcount | Yes, Internal Only |
+| Retention | The percentage of employees that remain with an organisation over a given period. | 1 - Turnover | Yes, Internal Only |
+| Voluntary Turnover | Portion of turnover that is Voluntary termination type | # of Voluntary Terminations / Average Headcount | Yes, Internal Only |
+| Involuntary Turnover | Portion of turnover that is Involuntary termination type | # of Involuntary Terminations / Average Headcount | Yes, Internal Only |
+| Regrettable Turnover | Portion of turnover that is regrettable terminations | # of Regrettable Terminations / Average Headcount | Yes, Internal Only |
+| Non-Regrettable Turnover | Portion of turnover that is non-regrettable terminations | # of Non-Regrettable Terminations / Average Headcount | Yes, Internal Only |
 
-**Team Member** - Full time individuals working for GitLab. Team members can be hired through an entity, PEO or direct contract. Individuals are considered team members in the warehouse when on an indefinite term contract with GitLab. Temporary Service Providers or Contingent Workers (working for GitLab for a limited period of time) are not tracked in Workday, therefore their records don't exist in Snowflake
+</details>
 
-## Teams
+### Diversity, Inclusion, and Belonging (DIB)
 
-**Organization** - An organization refers to a grouping used to organize team members or other organizations
+Data pertaining to the demographics of a worker and how they choose to identify
 
-**Team ID** - The unique organization identifier
+<details><summary>Click to expand</summary>
 
-**Team Superior ID** Organization's superior team ID
+| Name | Description | Calculation | Is Sensitive |
+|---|---|---|---|
+| [Underrepresented Group (URG)](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) | While there are many types of underrepresented groups (URGs), in reporting URGs are based on ethnicity and we consider any ethnicity that is not White, Asian, or Did Not Identify as URG. This metric is now measured globally instead of country-specific. |  | Yes |
+| Non-URG | In reporting, Non-URG is considered White or Asian ethnicities |  | Yes |
+| Gender | The gender of the worker which is used in reporting. Can currently be marked as Male, Female or left unindentified |  | Yes |
+| Gender Identity | The gender identification of the individual. Examples include transgender, cisgender, genderfluid, genderqueer, non-binary |  | Yes |
 
-**Department** - The second level of the GitLab organization hierarchy
+</details>
 
-**Division** - The top level of the GitLab organization hierarchy
+### Position
 
-**Cost Center** - The reported top level cost center for the team member
+Information related to the position a team member holds at GitLab
 
-## Data Sources
+<details><summary>Click to Expand</summary>
 
-### BambooHR
+| Name | Description | Calculation | Is Sensitive |
+|---|---|---|---|
+| Management Level | The management level for the job profile. |  |  |
+| Leadership | A grouping of management levels that are director or higher (Director, Vice President, Leader, Chief Executive Officer) |  |  |
+| Management | A grouping of management levels that are manager or higher (Manager, Director, Vice President, Leader, Chief Executive Officer) |  |  |
+| [Job Grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) | The job level for the job profile. |  | Yes |
+| People Managers | Any team members that have direct reports assigned to them in Workday |  |  |
+| [Layers](/handbook/company/structure/#layers) | The number of layers between a team member and the CEO where layer 1 is the CEO |  |  |
+| Direct Reports | The group of team members that report to a people manager |  |  |
+| [Span of Control](/handbook/company/structure/#management-group) | The number of direct reports that are assigned to a people manager |  |  |
+| Average Span of Control | The number of direct reports on average assigned to people managers | # of Direct Reports / # of People Managers |  |
+| [Location Factor](/handbook/total-rewards/compensation/compensation-calculator/#location-factor) | Location Factor is calculated using multiple data sources to conduct a market analysis of compensation rates globally: Economic Research Institute (ERI), Comptryx, Radford. This is not a cost of living analysis, but instead a cost of labor market evaluation compared to San Francisco |  | Yes |
+| [Compa-Ratio](/handbook/total-rewards/compensation/compensation-calculator/#compa-ratio) | Compa-ratio is a measurement of pay that compares an employee's salary to the median compensation for similar positions within a company or a target market. | Divide the employee's salary by the market rate compensation midpoint | Yes |
+| [Discretionary Bonus](/handbook/incentives/#discretionary-bonuses) | An additional bonus amount that is awarded at the discretion of the company management. It is separate from standard bonus plans and is not based on specific performance metrics. Discretionary bonuses allow companies flexibility to reward standout employees. |  |  |
+| Discretionary Bonus Rate | Percentage of Team members that receive a discretionary bonus from the population. For KPIs this is reported as a rolling 3 month average. | # of Discretionary Bonuses / Average Headcount |  |
+| [Promotion](/handbook/people-group/promotions-transfers/#promotions) | A promotion is counted if the business process type submitted in our HRMS is "Promote Employee Inbound" |  |  |
+| [Lateral Transfer](/handbook/people-group/promotions-transfers/) | A lateral move is counted if the business process category submitted in our HRMS is "Lateral Move" and there was a change in job title |  |  |
+| [Internal Mobility Rate](/handbook/people-group/promotions-transfers/#internal-mobility) | Internal Mobility Rate refers to the frequency at which employees change positions within an organization, indicating the internal movement and career progression opportunities available to staff, as well as the company’s ability to retain talent by offering growth paths. | # Lateral Transfers and Promotions / Average Headcount |  |
 
-BambooHR was used by GitLab to store all team member information in one central location.
+</details>
 
-### Greenhouse
+### Paid Time Off and Absence
 
-GitLab’s ATS (Applicant Tracking System). All hiring managers and interviewers will use Greenhouse to review resumes, provide feedback, communicate with candidates, and more. Please refer to the [hiring handbook](/handbook/hiring/greenhouse/) for additional information.
+Information related to Paid Time Off and Absence
 
-### Time Off by Deel
+<details><summary>Click to expand</summary>
 
-A slack application used to request, track, approve and analyze time off.
+| Name | Description | Calculation | Is Sensitive |
+|---|---|---|---|
+| Paid Time Off (PTO) | Time off that is submitted and approved in the Absence Management System, does not fall on a weekend, does not exceed 25 days in a single request, and excludes PTO types like Extended Leave, CEO Shadow Program, and Conference. |  |  |
+| Out Sick - Extended PTO Type | PTO submission that is listed as "Out Sick" but is for 5+ days so is reclassified in reporting |  |  |
+| Average PTO Days | Average number of days in period that are PTO days. This calculation normalizes PTO usage for all team members to account for those who have not worked all days in the reporting period. | (# PTO Days Used / # Days Worked) * # Days in Period |  |
+| Full-Cycle Tenure Group | Team members who have worked all days in a reporting period so normalized PTO matches actual PTO used |  |  |
+| In/Out Tenure Group | Team members who have not worked all days in a reporting period so normalized PTO will reflect number of days used for the full period based on actual usage in that period |  |  |
 
-### Workday
+</details>
 
-[Workday](/handbook/people-group/tech-stack-guide-workday/) is GitLab's current central HRIS.
+### Recruiting and Onboarding
 
-### CultureAmp
+Data pertaining to the Onboarding process and Recruiting metrics used by Talent Acquisition
 
-The application we use to conduct surveys within GitLab.
+<details><summary>Click to expand</summary>
+
+| Name | Description | Calculation | Is Sensitive |
+|---|---|---|---|
+| Onboarding Satisfaction (OSAT) Score | Average rating on a 1-5 scale for all questions in the Week One onboarding survey in Culture Amp. Usually calculated as a rolling 3-month average. | (Average of All Month 1 Onboarding Responses + Average of All Month 2 Onboarding Responses + Average of All Month 3 Onboarding Responses) / 3 |  |
+| Starts | External applicants who have accepted an offer with GitLab and have a start date scheduled in the HRMS |  |  |
+| External Applicants | Applicants whose source is not "Internal Applicant". They are not employed through GitLab at the time when the application is submitted |  |  |
+| Internal Applicants | Applicants whose source is "Internal Applicant". They are employed through GitLab at the time when the application is submitted |  |  |
+| Time to Hire / Candidate Throughput | Days between the application submitted date and the date an application moved in the "Hire" stage if they also have an accepted offer. |  |  |
+| Verbal Accepted Offer % | Applications that moved into the Offer stage and accepted / # Moved into the Offer stage and resolved | # of Applications moved into Offer Stage and Accepted Offers / # of Applications moved into the Offer Stage and Accepted or Rejected Offers |  |
+| Written Offer Accept % | Offers that resolved in a date range. # of accepted offers / # of resolved offers. | # of Applications that Accepted Offers / # of Applications that Accepted or Rejected Offers |  |
+| Internal Mobility Rate % | Offers that resolved in a date range. # of accepted offers from internal applicants / # of accepted offers | # of Internal Applications that Accepted Offers / # of Applications that Accepted Offers |  |
+| Source Rate | % of applications submitted in a date range that were sourced (Sourcing Strategy is "Prospecting" and Source is not "SocialReferral") and candidate was from a diverse source (based on candidate tags) as a percentage of all sourced applications | # of Sourced Applications submitted with Diverse Candidate Tags / # of Sourced Applications |  |
+| Source Mix | % of accepted offers by external sourcing strategies (not internal applicants or acquisitions) with a resolved date in date range | # of External Applications with Accepted Offers in Specific Sourcing Strategy / # of External Applications with Accepted Offers |  |
+| Conversion Rate | # of Applications submitted in a date range and what stages of the recruiting process that have gone through. It is the flow of applications between stages of the recruiting process showing what percent of applications from the previous step move into the next step (ex- if 10 applications were in Initial Interview and 2 made it to Team Interview phase, conversion rate for the Initial Interview would be 20%) | # of Applications in Second Stage / # of Applications in First Stage |  |
+| Pending Offers | Offers that have been sent but not accepted or rejected |  |  |
+| Time to Fill | Days between an Opening opened date and closed date for Openings that closed in a specified date range and list a hired application |  |  |
+| Time to Start | Days between an Opening opened date and the expected start date for a hired application |  |  |
+| Requisition Aging | Average days that Openings were open at any point in a date range. This calculation averages days open for all days in the reporting period. |  |  |
+
+</details>
+
+### Systems
+
+Systems used by the People Group
+
+<details><summary>Click to expand</summary>
+
+| Name | Description | Calculation | Is Sensitive |
+|---|---|---|---|
+| [R (Language)](/handbook/business-technology/data-team/platform/rstudio/)   | A programming language and software environment used for statistical analysis, graphical representation, and reporting, popular in data analysis and scientific research. |  |  |
+| [Tableau](/handbook/business-technology/data-team/platform/tableau/) | Primary data visualization tool at GitLab |  |  |
+| [Workday](/handbook/people-group/tech-stack-guide-workday/) | Current Human Resource Management Systems (HRMS) and the SSoT for all team member related data on or after 2022-06-16 |  |  |
+| BambooHR | Former Human Resource Management Systems (HRMS) and the SSoT for all team member related data prior to 2022-06-16 |  |  |
+| [Greenhouse](/handbook/hiring/greenhouse/) | Current Applicant Tracking System (ATS) at GitLab and the SSOT for all recruiting metrics |  |  |
+| Time Off by Deel | Current absence management tool at GitLab integrated with BambooHR. SSoT for time-off related data |  |  |
+| Sisense (formerly Periscope) | Former data visualization tool at GitLab |  |  |
+| FiveTran | Fivetran is the automated data movement platform moving data out of Workday and into Snowflake |  |  |
+| [SnowFlake](/handbook/business-technology/data-team/platform/snowflake/) | Snowflake is our Enterprise Data Warehouse (EDW) and is the core technology in our Enterprise Data Platform. |  |  |
+| [Level Up / GitLab University](/handbook/people-group/learning-and-development/level-up/) | Training platform created by Thought Industries for continuing education and career development |  |  |
+
+</details>
 
 ## Data Models
 
