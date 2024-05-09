@@ -164,6 +164,7 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 | DRI - Data                          |||
 | DRI - Threat Insights                    |||
 | Member                                   | Dylan Griffith                  | Principal Engineer, Create |
+| Member                                   | Thong Kuah                      | Principal Engineer, Data Stores |
 | Member                                   |||
 | Member                                   |||
 
