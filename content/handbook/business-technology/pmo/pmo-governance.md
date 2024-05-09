@@ -210,6 +210,3 @@ The Program Manager should work with the Business Lead to draft the communicatio
 ### Post implementation support
 
 There should be a plan for post-implementation support as well given that a new system can lead to an increase in volume of questions. This should be staffed by the Subject Matter Expert (SME) teams.
-
-
-{::options parse_block_html="false" /}

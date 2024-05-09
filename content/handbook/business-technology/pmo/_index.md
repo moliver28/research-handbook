@@ -350,7 +350,3 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 The IT PMO team primarily uses the below groups and projects on GitLab:
 
 - [Program Management Office](https://gitlab.com/gitlab-com/business-technology/program-management-office) group: main group for the IT PMO team.
-
-
-
-{::options parse_block_html="false" /}

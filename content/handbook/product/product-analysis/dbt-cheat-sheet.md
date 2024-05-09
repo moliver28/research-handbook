@@ -4,15 +4,7 @@ title: "dbt Cheat Sheet"
 description: "data build tool (dbt) Cheat Sheet for Functional Analysts"
 ---
 
-
-
-
-
-
-
 ## Objective of this page
-
-
 
 This page is intended to be a cheat sheet or quick start guide to dbt for functional analysts.
 There is a wealth of documentation available in the [Data Team dbt Guide](/handbook/business-technology/data-team/platform/dbt-guide/),
@@ -421,20 +413,14 @@ access, you need to run [❄️ Snowflake > 🔑grant_clones](/handbook/business
 
 ![grant_clones on pipelines page](/handbook/product/product-analysis/dbt-cheat-sheet/images/grant_clones_on_pipelines_page.png)
 
-
-
-<div class="panel panel-info">
-**IMPORTANT**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**IMPORTANT**" header-bg="info" %}}
 1. This job only creates grants on existing objects and will not apply to any additional
 models created after the job runs. Be sure to clone and build all required models _before_
 running the job.
 1. This job only creates grants on objects that already exist in PREP or PROD (i.e., existing
 models). If it is a net-new model, you still need to ping a DE to grant access to the new
 model in the MR database.
-</div>
-</div>
+{{% /panel %}}
 
 This job requires a single variable, `GRANT_TO_ROLE` to specify the Snowflake role you want
 to grant SELECT access to. Snowflake roles are usually first initial + last name (ex: Jane

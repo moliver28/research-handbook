@@ -4,18 +4,9 @@ title: "Enterprise Applications Team"
 description: "The Enterprise Applications Team implements and supports specialized applications that support our business processes within GitLab."
 ---
 
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
 # <i class="fas fa-users" id="biz-tech-icons"></i> Who We Are
-
 
 The **Enterprise Applications Team** implements and supports specialized applications that support our business processes within GitLab.
 
@@ -219,15 +210,9 @@ Issue weight is an estimate of how much time is required to complete the request
 | XL | > 4 weeks | 13 | The problem statement has been defined but it's a significant change that has dependencies and the requirements are probably not fully understood or known. It's unlikely we would resolve this in just one issue and the preference would be to further clarify requirements and/or break into smaller issues. <br><br> **Example:** <br>- A new system or module implementation.<br> - [E-Disty Epic](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/financeops/-/epics/16), which involves multiple changes, and has been broken down into smaller issues. |
 
 
-<div class="panel panel-warning">
-**Consideration**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Consideration**" header-bg="warning" %}}
 For issues that are added to a milestone with [8+ points/weights](/handbook/business-technology/enterprise-applications/#issue-weights), the expectation is that by the end of the 2 weeks milestone, the problem statement has been defined but a solution might require extra investigation in order to be identified and implemented. Surprises are expected, different teams might have to be involved and so the issue will be carried over to the following milestone.
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Project Weights
 
@@ -296,5 +281,3 @@ Following an activity-based estimate, beginning with the requirements of the pro
 - `#bt-finance-operations`
 - `#financesystems_help`
 - `#bt-integrations`
-
-{::options parse_block_html="false" /}

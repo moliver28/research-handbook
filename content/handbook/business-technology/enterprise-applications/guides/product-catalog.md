@@ -4,15 +4,7 @@ title: "Product Catalog Guide"
 description: "How to request the creation or modification of a SKU."
 ---
 
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
 
 ## Change Management and SDLC Process
 
@@ -24,11 +16,7 @@ For SOX/audit purposes, all changes to the Zuora Billing product catalog must be
 
 There are 3 issue templates in [this directory](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#) that the Business Sponsor can choose from to help log their SKU request.
 
-<div class="panel panel-success">
-**Common Use Cases**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Common Use Cases**" header-bg="success" %}}
 1. To **create** or **update** a **Professional Services SKU**:
     - Open an issue in [this directory](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#) using the `CM: Add_New_PS_SKU` template
     - Follow the steps from the [How to Create New or Update a SKU](#how-to-create-new-or-update-a-sku) section of this handbook page
@@ -38,9 +26,7 @@ There are 3 issue templates in [this directory](https://gitlab.com/gitlab-com/bu
 3. To **retire** an **existing SKU**:
     - Open an issue in [this directory](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#) using the `CM: Retire_SKU` template
     - Follow the steps from the [How to Retire a SKU](#how-to-retire-a-sku) section of this handbook page
-
-</div>
-</div>
+{{% /panel %}}
 
 ## How to Create New or Update a SKU
 
@@ -173,17 +159,11 @@ Assign the Issue to the management approvers in Step 4. It is the Business Spons
 The required approvals will differ depending on whether it is a Professional Services SKU or a Non-Professional Services SKU request and how to reach each approver can be found in the applicable SKU issue template.
 {: .alert .alert-warning}
 
-<div class="panel panel-success">
-**Next Steps**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Next Steps**" header-bg="success" %}}
 - After all above steps are complete and required approval have been obtained, remove the ~"SKU - Gathering Requirements" label and tag `@gitlab-com/business-technology/enterprise-apps/financeops` for intake and prioritization of the SKU request so that it can be configured in the Zuora Billing product catalog and made quotable in Salesforce. Please note that all changes must follow the [Business Technology Change Management](/handbook/business-technology/change-management/) for SOX/Audit purposes.
 - If the SKU will be sold through the channel, assign the issue to the `Sales Operations Analyst` listed in Step 6 to add the SKU to the quarterly update issue, the upcoming Pricebook and any other necessary information
 - If the SKU requires a service description, it is the Business Sponsor's responsibility to complete step 7
-
-</div>
-</div>
+{{% /panel %}}
 
 ## Post Go Live SKU Modifications
 
@@ -264,5 +244,4 @@ Please note that all changes must follow the [Business Technology Change Managem
     - Unfortunately, no. For SOX/audit purposes, all changes to the Zuora Billing product catalog must be properly tested, adhering to [Business Technology Change Management](/handbook/business-technology/change-management/) policies and the [Software Development Lifecycle Process for Finance Systems](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/financeops/-/wikis/SDLC-for-Finance-Systems).
 7. **I only want to update the name/description of an existing SKU, do I need to go through this entire process?**
     - If you are not changing the charge type, unit of measure, charge model, charge timing or list price then you can simply submit an issue in [this directory](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#) using the template `CM: Configuration Change [Generic]` and fill out the `Requestor` section.
-
-{::options parse_block_html="false" /}
+    
