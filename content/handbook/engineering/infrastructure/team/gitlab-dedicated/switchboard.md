@@ -259,38 +259,47 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 <details><summary>Epic Template</summary>
 
 ```
-DRI:
+### DRI :levitate:
+- TBC
 
-### Participants
-*
+### Participants :busts_in_silhouette:
+-
 
-### Problem to solve
+### Problem to solve :thinking:
 
-Video Walkthrough from Product:
+### Video Walkthrough from Product :video_camera:
 
-### Intended users
+### Intended users :bust_in_silhouette:
 
-
-### User experience goal
-
-
-### Proposal
+### User experience goal :goal:
 
 
-### Open Questions
+<!-- Overview of user experience goal -->
 
+### UX Design Spec :paintbrush:
+- Figma Link:
+- Dev mode:
+- Any other details
 
-### Further details
+### Proposal :bulb:
 
+### Open Questions :question:
+| Question | Added by | Discussion thread |
+|----------|----------|-------------------|
+|  |  |  |
 
-### Permissions and Security
+### Further details :mag:
 
+Dependencies :link:
 
-### Documentation
+### Permissions and Security :link:
+
+### Documentation :book:
 
 * Publicly Accessible Documentation:
 
-### Epic Kick-Off
+### Epic Kick-Off :ballot_box_with_check:
+
 * [ ] Video walkthrough from Product outlining expectations
 * [ ] DRI identified
 * [ ] Roll out plan agreed
@@ -300,8 +309,7 @@ Video Walkthrough from Product:
 * [ ] Issue created to track Documentation requirements
 * [ ] Outstanding Questions captured in threads for resolution
 
-### Roll out Plan
-
+### Roll out Plan :speaker:
 <!--
 If visible to external customers please provide the following information:
     - What communication is required ahead of release?
@@ -311,11 +319,12 @@ If visible to external customers please provide the following information:
     - Will this be rolled out to customers in pieces as implemented or available internally first?
 -->
 
-### Links / references
+
+### Links / references :books:
 
 *
 
-### Demo Description
+## Demo Description :movie_camera: #
 
 Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/#switchboard-demos
 
@@ -331,6 +340,7 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 ### Status YYYY-MM_DD
 
 1.
+
 </details>
 
 /label ~"team::Switchboard" ~"workflow-infra::Triage"
