@@ -44,14 +44,14 @@ TT102: The People of Technology
 > 3 credit hours
 
 TT103: Calls and Credit
-> Teaches cold call best practices and what it means to make a cold call here. As part of this class we do two mock calls: one for a director of engineering (target buyer) and one for an application architect (technical influencer).
+> Teaches cold call best practices and what it means to make a cold call here. As part of onboarding we do two mock calls: one for a director of engineering (target buyer) and one for an application architect (technical influencer). Also covers quota and compensation.
 >
 > 3 credit hours
 
 TT104: Sales Development Processes
-> This two-part course covers tooling and process for new team members. The curriculum covers Salesforce, Outreach, data tools, and best practices.
+> Teaches both the SDR and BDR roles from a process perspective. Also covers best practices for navigating the handbook, using Slack, etc.
 >
-> 3 credit hours
+> 4 credit hours
 
 TT105: Audit Process
 > In this class, we will go through the monthly sales development audit process. This class ends with a short quiz for credit.
@@ -204,7 +204,7 @@ To qualify for promotions, sales development team members are required to keep u
 
 | Tenure         | SDR         | BDR         |
 | -------------- | ----------- | ----------- |
-| First month    | TT100, TT101, TT102, TT103, TT104, TT110, onboarding checklist | TT100, TT101, TT102, TT103, TT110, onboarding checklist |
+| First month    | TT100, TT101, TT102, TT103, TT104, TT110, onboarding checklist | TT100, TT101, TT102, TT103, TT104, TT110, onboarding checklist |
 | Third month    | TT105, Inbound (SDR), Sales Quick Starts | TT105, Outbound (BDR), Sales Quick Starts |
 | Second quarter | TT120, TTT201, T210, TT211, TT251 | TT120, TT201, TT210, TT211, TT251 |
 | Third quarter  | TT200, TT220, TT252, TT300 | TT200, TT220, TT252, TT300 |
