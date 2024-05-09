@@ -139,7 +139,7 @@ Choose the method below that feels most comfortable and have the following infor
        ```
 
     1. Start a middleman dev server in the `uncategorized` site:
-    
+
        ```bash
        cd sites/uncategorized
        NO_CONTRACTS=true bundle exec middleman 
