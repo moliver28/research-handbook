@@ -68,7 +68,7 @@ To contact Govern sub-department development people leaders leaders use the foll
 
 {{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Govern:Threat Insights" %}}
 
-{{% team-by-manager-slug manager="pcalder" team="end Engineer(.*)Govern:Threat Insights" %}}
+{{% team-by-manager-slug manager="ryaanwells" team="end Engineer(.*)Govern:Threat Insights" %}}
 
 ## Stable Counterparts
 
