@@ -138,7 +138,8 @@ Choose the method below that feels most comfortable and have the following infor
        bundle exec rake build:team_yml
        ```
 
-    1. Start a middleman dev server in the `uncategorized` site: 
+    1. Start a middleman dev server in the `uncategorized` site:
+    
        ```bash
        cd sites/uncategorized
        NO_CONTRACTS=true bundle exec middleman 
