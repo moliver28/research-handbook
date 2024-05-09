@@ -46,7 +46,7 @@ The below epics detail the work required to move each respective category to the
 * [Epic with links to all current maturity targets](https://gitlab.com/groups/gitlab-org/-/epics/2972)
 * [Container Registry](https://gitlab.com/groups/gitlab-org/-/epics/2899)
 * [Package Registry](https://gitlab.com/groups/gitlab-org/-/epics/2891)
-* [Dependency Proxy](https://gitlab.com/groups/gitlab-org/-/epics/2920)
+* [Virtual registries](https://gitlab.com/groups/gitlab-org/-/epics/2920)
 
 ### OKRs
 
@@ -74,7 +74,7 @@ These dashboards are all internal and can be only accessed by GitLab Team member
 - [Container Registry](https://log.gprd.gitlab.net/goto/e7b62a23a5a9cdc88aa1de3cdb392758) (Kibana)
 - [Container Registry garbage collection details](https://dashboards.gitlab.net/d/registry-gc/registry-garbage-collection-detail?orgId=1&from=now-30d&to=now&var-PROMETHEUS_DS=Global&var-environment=pre&var-cluster=pre-gitlab-gke&var-stage=main&var-namespace=gitlab&var-Deployment=gitlab-registry) (Grafana)
 - [Cleanup policies for Container Images](https://log.gprd.gitlab.net/goto/b03da1dcaf2ac281994f72687347f40a) (Kibana)
-- [Dependency Proxy](https://log.gprd.gitlab.net/goto/3d363d13eaf8133a4216149e335ab1b9) (Kibana)
+- [Virtual registries for container images](https://log.gprd.gitlab.net/goto/3d363d13eaf8133a4216149e335ab1b9) (Kibana)
 - [Package: Costs](https://10az.online.tableau.com/#/site/gitlab/workbooks/2269240/views) (Tableau)
 
 ### Error Budget
@@ -607,7 +607,7 @@ There are times during the development lifecycle that changes need to be communi
 * [Community office hours epic](https://gitlab.com/groups/gitlab-org/-/epics/2957)
 * [Package Registry documentation](https://docs.gitlab.com/ee/user/packages/package_registry/)
 * [Container Registry documentation](https://docs.gitlab.com/ee/user/packages/container_registry/)
-* [Dependency Proxy documentation](https://docs.gitlab.com/ee/user/packages/dependency_proxy/)
+* [Virtual registry documentation](https://docs.gitlab.com/ee/user/packages/dependency_proxy/)
 
 
 ### Roadmap
@@ -644,13 +644,13 @@ There are times during the development lifecycle that changes need to be communi
 - [Use the API to delete all tags except *](https://youtu.be/Hi19bKe_xsg)
 - [How to view all of the images and tags in your group](https://youtu.be/9IxoGYnTIaI)
 
-#### Dependency Proxy
-- [Maven dependency proxy demo](https://www.youtube.com/watch?v=9NPTXObsSrE)
+#### Virtual Registries
+- [Maven virtual registry MVC demo](https://www.youtube.com/watch?v=9NPTXObsSrE)
 - [Enable TTL policies from within the UI](https://youtu.be/gX2npIF9gCY)
 - [View a list of tags in the cache in the UI](https://youtu.be/uYEY75qz7Jg)
 - [How to use GraphQL to set TTL policies](https://www.youtube.com/watch?v=ujzicvPt8i8)
-- [Authenticate with deploy tokens when using the dependency proxy](https://youtu.be/uPNpa6BDs6A)
-- [Use the GitLab Dependency Proxy to proxy and cache images from DockeHub](https://youtu.be/fNTfL55fh5c)
+- [Authenticate with deploy tokens when using virtual registries for container images](https://youtu.be/uPNpa6BDs6A)
+- [Use virtual registries for container images to proxy and cache images from DockeHub](https://youtu.be/fNTfL55fh5c)
 - [Automatically authenticate using pre-defined environment variables](https://youtu.be/8qhT55e780g)
 
 #### Dependency Firewall
