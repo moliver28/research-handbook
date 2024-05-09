@@ -20,6 +20,12 @@ CDF reviews should result in actionable improvement focus areas for the product 
 
 We use KPIs by function in the CDF. These KPIs feature a guideline for results that are meant to be suggested indicators for ideal behaviors for Product teammates at GitLab. These are target results and are not meant to be an exhaustive list for Product teammate performance. As a manager and individual contributor, have a dialogue about the right measures of success and define those at the beginning of each performance cycle. Keep the KPIs consistent as you measure them over each CDF review for the best comparative results of growth. 
 
+### Company-wide Resources
+
+While the CDF is Product Management specific, we also have company-wide frameworks to help differentiate levels and understand and calibrate readiness to advance to the next level. The CDF is meant to work in conjunction with other artifacts for a more specific Product Management oriented approach, but should not replace company-wide resources. 
+
+When discussing next level readiness and promotion, team members and managers should reference the [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) as a resource to ensure alignment. 
+
 ### Selecting a Focus Area
 
 In each CDF review, it's recommended to select an improvement area to focus on until the next CDF review. This could be anywhere from 1 to 3 improvement areas that you and your manager select together. Once selected, the teammate and manager check in on those focus areas in each 1:1 reviewing progress, discussing feedback, and adjusting any plans for the quarter to continue to improve. Selecting a focus provides a structure to say "no" to other areas that may not be as timely, critical, or worth the additional focus. 
