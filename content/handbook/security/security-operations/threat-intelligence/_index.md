@@ -12,12 +12,9 @@ Our mission is to provide actionable intelligence that empowers our organization
 
 When a new threat makes headlines, we're already prepared with answers. We assess our risk, evaluate our ability to detect and prevent an attack, and provide recommendations for a rapid response.
 
-We achieve this by continuously monitoring the threat landscape, analyzing risks, and delivering clear, concise reports that recommend immediate actions. Our deep understanding of our product's architecture and our organization's infrastructure allows us to identify the most relevant threats and provide targeted recommendations.
+We achieve this by continuously monitoring the threat landscape, analyzing risks, and building and maintaining relationships with industry peers. These connections give us access to timely, unique insights that are not otherwise available. We focus on extracting the most relevant information to our organization, allowing us to deliver clear, concise reports that recommend immediate actions.
 
-By building and maintaining relationships with industry peers, we gain access to timely, unique insights that are not otherwise available. These human connections and the trust they foster are essential to our success in staying ahead of threats.
-
-Together, we protect GitLab and our customers by staying one step ahead of the rapidly evolving threat landscape.
-
+By staying proactive and providing targeted intelligence, we enable GitLab to make informed decisions and take quick, decisive action to protect our platform and customers.
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> The Team
 
