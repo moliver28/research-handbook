@@ -134,7 +134,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
      - For the commit message enter `train notebooks/training_example.ipynb`. This will tell the GitLab that you want to execute the training CI pipeline on the **training_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](edit_config.png)
 1. Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the training CI pipeline for the newly created MR.
 1. Click on "**Pipelines**" and you should see the training pipeline running. Click into the pipeline to see which which stage the pipeline is in.
-   - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Training Pipeline Jobs](training-pipeline-jobs.png)
+   - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Training Pipeline Jobs](training_pipeline_jobs.png)
 1. Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request).
    - <img src="model_metrics.png" width="700">
 1. Now let's look at the experiment run we just completed with our CI pipeline (**Analyze -> Model Experiments**)
@@ -194,7 +194,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 1. Now lets score our model using CI/CD
    - You can either create a new branch of the repository or use the same one as used above for training the model.
    - Make a change to the `notebooks/scoring_example.ipynb` so that we have something to commit. This could be as simple as adding a line to one of the cells.
-   - For the commit message enter `score notebooks/scoring_example.ipynb`. This will tell the GitLab that you want to execute the score-commit CI pipeline on the **scoring_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](edit_config.png)
+   - For the commit message enter `score notebooks/scoring_example.ipynb`. This will tell the GitLab that you want to execute the score-commit CI pipeline on the **scoring_example.ipynb** notebook found in the notebooks directory. Commit the change.
    -. Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the scoring CI pipeline for the newly created MR.
    - Click on "**Pipelines**" and you should see the scoring pipeline running. Click into the pipeline to see which which stage the pipeline is in.
    - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings **IMAGE OF SCORING PIPELINES HERE**
@@ -205,15 +205,17 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - Set when you want it to run. In the example below, the pipeline is scheduled to run every day at noon.
    - Target branch: `main` will work for this example.
    - Variables: We only need to setup one variable, `SCORING_NOTEBOOK` with the location of the notebook we want to schedule `notebooks/scoring_example.ipynb`
-   - Tick "Activated" and save the changes. ![Pipeline Schedule](Pipeline_schedule.png)
+   - Tick "Activated" and save the changes. 
+   - <img src="Pipeline_schedule.png" width="700"> 
 1. The next time the schedule pipeline runs, it will output the results to the Project Wiki
-   - Nagivate to **Plan -> Wiki** and you will see a list by timestamp of all the times the scheduled pipeline has run, with links to the job logs and model metrics. ![Wiki](wiki.png)
+   - Nagivate to **Plan -> Wiki** and you will see a list by timestamp of all the times the scheduled pipeline has run, with links to the job logs and model metrics. 
+   - <img src="wiki.png" width="700">
 
 ## Slack Notifications (optional)
 - In Slack, add the GitLab for Slack app
 - Follow the instructions in the [Gitlab For Slack app documentation](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html)
 - We’ve setup our slack notifications so that notifications are sent to the #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
-![Slack Notifications Config](slack_notifications.png)
+- <img src="slack_notifications.png" width="700"> 
 
 
 **And that's it! Feel free to modify these pipelines and notebooks to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/business-technology/data-team/organization/data-science/). Happy pipelining!**
