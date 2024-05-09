@@ -256,6 +256,14 @@ For anyone hired **before** 2020-03-23: Upon offboarding - IT Operations will up
 
 Access to all systems including GitLab accounts should be removed through the offboarding process to mitigate the risk of off-boarded employees retaining access to our systems and confidentail information. In line with our SOX requirements, please refer to our [SOX ITGC Compliance HB page](/handbook/business-technology/it-compliance/ITGC.html) control LA.2 for additional information related to our ITGC controls.
 
+### Segregation of Duties
+
+Incompatible duties/access levels that should not be held by a single team member are a part of segregation of duties (SOD) reviews and monitoring performed as a part of business control [ELC.16 Segregation of Duties Analysis](https://gitlab.auditboardapp.com/workspace/2/controls/control/240). The review involves a semi-annual analysis of the existing segregation of duties ruleset that is performed by the VP, IT and the Corporate Controller. The review is focused around [SOX relevant applications/controls](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls#2-gitlab-sox-in-scope-applications) and key financial risks are taken in to consideration when identifying sets of access that would cause a violation. The ruleset itself is reviewed and then access in SOX relevant applications are reviewed to ensure no violations identified in the SOD ruleset are present. If conflicting access is identified as a part of the review, existing business controls are mapped to mitigate the risk and/or access is downgraded if required.
+
+Further, SOD as it relates to separation of access rights for developers to develop and push code to production is tested annually for financially relevant SOX systems in [ITGC PC.1](https://gitlab.auditboardapp.com/sh/cycles/2/list) Access to Migrate and for non-SOX relevant systems in GCF Control [CM-5 Access Restrictions for Change](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls/e164e350-b623-11ee-948e-8edee0eeb41d). Both controls test that there are logical access restrictions to ensure that changes to production can only be made by appropriately qualified and authorized individuals.
+
+Additionally, all GitLab Team Member access is reviewed as a part of the [Access Review Procedure](https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/access-reviews/) and any unneeded/inappropriate access that could result in additional SOD violations is removed during the reviews.
+
 ## Exceptions
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "_index.md#information-security-policy-exception-management-process" >}}).
