@@ -101,8 +101,8 @@ All business related flights need to be booked through Navan, and will be paid b
 #### Advance Purchase
 
 - Team Members should make air reservations as early as possible, in order to take advantage of discounted fares. Travelers will ideally book:
-   - Domestic: At least 14 days in advance
-   - International: At least 21 days in advance
+   - Flights under 8 hours: At least 14 days in advance
+   - Flights over 8 Hours : At least 21 days in advance
 
 The airfare policy in Navan is set up as a “Dynamic Policy” which calculates a fair market price for every search based on travel dates and destinations. Any purchases that are over 20% of the Dynamic Policy will be flagged for further review by your manager. Also note that anything booked outside of Navan will flag as “Out of Policy”, and will need to be reviewed by your manager and the AP team.
 
@@ -110,14 +110,21 @@ The airfare policy in Navan is set up as a “Dynamic Policy” which calculates
 
 - One class of upgrade is permitted with Manager approval for team members over 6'5”/2m in height.
 
-#### Domestic Flights
+#### Selected Travelers Definition
 
-- **Flights over 5 hours of consecutive flight time** - For domestic flights with a duration greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
+- Selected Travelers are intended to be frequent travelers and customer facing, and must be designated as such by the appropriate E-group leader. The E-Group will review the Selected Travelers each quarter.
 
-#### International Flights
+#### Flight Policy for Flight Duration under 5 hours
 
-- **Flights greater than 5 hours of consecutive flight time** - For international flights with a duration greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
-- **Flights exceeding 8 hours of consecutive flight time** - For those who travel frequently, defined as 3 or more trips per quarter internationally on flights of 8 hrs+ continuous flight time (6 flight segments of 8+ hours continuous flight time), for a meeting with customers, a speaking engagement, or representing GitLab at a conference; business class is permitted.
+**Flights over 5 hours of consecutive flight time** - For domestic flights with a duration of greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
+
+**For E-Group Selected Travelers**, in the US, selected travelers can book first class.  For other areas around the world, we recognize different fare classes exist for different geographies. For flights less than 5 hours, when traveling within Europe and other places in the world, these Selected Travelers may book premium or business.  Intended to be the next class of service above economy plus/economy premium.
+
+#### Flight Policy for Flight Duration over 5+ hours  
+
+**Flights greater than 5 hours of consecutive flight time** - For out of country flights with a duration of greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
+
+**For E- Group Selected Travelers, for all flights over 8 hours of consecutive flight time**, team members are authorized to book the highest class available including business class, as long as it is below first class.
 
 #### Frequent Flyer Programs
 
@@ -181,6 +188,7 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 ### Hotels
 
 - To be booked in Navan. When booked outside Navan - approval required by Manager and AP Admin.
+- E-Group Selected Travelers can book outside of Navan without manager approval, but details of their hotel booking must be sent to expenses@gitlab.com.
 - When you book Hotels through Navan Travel, the costs will need to be charged to a personal credit card.
 - For business related bookings, you can submit the costs for reimbursement via the Navan Expense reimbursement tool.
 - Please attach the Navan Reservation email confirmation to the claim.
@@ -704,4 +712,4 @@ These instructions apply if a team member is unable to purchase required items, 
 
 ### Expense Reimbursement for Terminated Team Members
 
-If a team member whom you manage has left GitLab and comes to you with final expenses that are valid for reimbursement, please verify that they were not already processed in Navan and then contact Accounts Payable. You must submit valid receipts and a completed copy of the [Expense Reimbursement template](https://docs.google.com/spreadsheets/d/1D0kWlqol7jBjqn7yDY6uc7UCWSIcUmiF/edit?usp=sharing&ouid=108533621432009168804&rtpof=true&sd=true) along with your approval. Please note that we may also ask the terminated team member to provide valid banking details in order to process the payment to them. AP will do their best to process and pay the reimbursement to the individual within 1 week.
+If a team member whom you manage has left GitLab and comes to you with final expenses that are valid for reimbursement, please verify that they were not already processed in Navan and then contact Accounts Payable. You must submit valid receipts and a completed copy of the [Expense Reimbursement template](https://docs.google.com/spreadsheets/d/1TiSbp1C3-7WERqDanfBKTxdm5VevQ5QDOAiI_GaizBg/edit#gid=1450348181) along with your approval. Please note that we may also ask the terminated team member to provide valid banking details in order to process the payment to them. AP will do their best to process and pay the reimbursement to the individual within 1 week.
