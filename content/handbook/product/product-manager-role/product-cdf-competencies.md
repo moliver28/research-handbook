@@ -22,7 +22,7 @@ We use KPIs by function in the CDF. These KPIs feature a guideline for results t
 
 ### Company-wide Resources
 
-While the CDF is Product Management specific, we also have company-wide frameworks to help differentiate levels and understand and calibrate readiness to advance to the next level. The CDF is meant to work in conjunction with this artifacts for a more specific Product Management oriented approach, but should not replace company-wide resources. 
+While the CDF is Product Management specific, we also have company-wide frameworks to help differentiate levels and understand and calibrate readiness to advance to the next level. The CDF is meant to work in conjunction with other artifacts for a more specific Product Management oriented approach, but should not replace company-wide resources. 
 
 When discussing next level readiness and promotion, team members and managers should reference the [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) as a resource to ensure alignment. 
 
