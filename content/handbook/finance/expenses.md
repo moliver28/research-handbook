@@ -116,15 +116,16 @@ The airfare policy in Navan is set up as a “Dynamic Policy” which calculates
 
 #### Flight Policy for Flight Duration under 5 hours
 
-Flights over 5 hours of consecutive flight time  - For domestic flights with a duration of greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
+**Flights over 5 hours of consecutive flight time** - For domestic flights with a duration of greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
 
-For E-Group Selected Travelers, in the US, selected travelers can book first class.  For other areas around the world, we recognize different fare classes exist for different geographies. For flights less than 5 hours, when traveling within Europe and other places in the world, these Selected Travelers may book premium or business.  Intended to be the next class of service above economy plus/economy premium.
+**For E-Group Selected Travelers**, in the US, selected travelers can book first class.  For other areas around the world, we recognize different fare classes exist for different geographies. For flights less than 5 hours, when traveling within Europe and other places in the world, these Selected Travelers may book premium or business.  Intended to be the next class of service above economy plus/economy premium.
 
 #### Flight Policy for Flight Duration over 5+ hours  
 
-Flights greater than 5 hours of consecutive flight time  - For out of country flights with a duration of greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
+**Flights greater than 5 hours of consecutive flight time** - For out of country flights with a duration of greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
 
-For E- Group Selected Travelers, for all flights over 8 hours of consecutive flight time, team members are authorized to book the highest class available including business class, as long as it is below first class.
+**For E- Group Selected Travelers, for all flights over 8 hours of consecutive flight time**, team members are authorized to book the highest class available including business class, as long as it is below first class.
+
 #### Frequent Flyer Programs
 
 - Participation in frequent flyer programs must not influence airfare selection if it results in an out-of-policy option.
