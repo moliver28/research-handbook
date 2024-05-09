@@ -79,7 +79,7 @@ Teams should feel encouraged to tailor this process to what works best for them.
 #### Transition Process
 
 1. Engineering Manager (EM) or Product Manager (PM) creates an issue to request support from a Software Engineer in Test (SET) for a new `~priority::1` project, and tags the Test Engineering manager and respective SETs for that stage.
-2. An SET is assigned to the project for coaching and test platform needs.
+2. A SET is assigned to the project for coaching and test platform needs.
 3. SET reviews project requirements and creates a test planning issue to collaborate with EM, PM, UX and the developers who will be DRIs for the project to define new test cases and determine where existing tests need to be updated.
    - With [Defining a criteria on when to write E2E tests](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2359), we will be reinventing the way we think about E2E test coverage. While the full details are still being decided, below are a few ways teams can get started with this new approach:
      - Engage with key DRIs listed above to define [persona](/handbook/product/personas) use cases, with the goal of illustrating how different customers will use these new features.
@@ -92,7 +92,7 @@ Teams should feel encouraged to tailor this process to what works best for them.
 5. SET is assigned to any E2E testing issues, and EM also assigns the appropriate developer(s).
 6. The developer can reach out to this SET as their coaching buddy for pairings, questions and reviews while they develop / update the E2E tests.
 7. If there is a change mid-project in implementation or direction that would affect the previously planned E2E test changes, it is the responsibility of the developer to update the test issues and notify the SET to keep them in the loop.
-8. After E2E test(s) are merged, if SET is assigned a failure issue, they should also assign to the developer that developed the E2E test. The SET can then help guide the developer through troubleshooting and supporting them with test maintenance.
+8. After E2E test(s) are merged, if a test failure is encountered within a merge request, it is the responsibility of the author to investigate. If a SET creates or is assigned to a failure issue from a scheduled pipeline, the SET will also assign the issue to the relevant developer. The SET can then help guide the developer through troubleshooting and supporting them with test maintenance.
 
 [Core Development]: /handbook/engineering/core-development/
 [Expansion Development]: /handbook/engineering/expansion-development/
