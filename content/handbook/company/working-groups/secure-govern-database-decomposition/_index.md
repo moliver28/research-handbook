@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Securce Govern Decomposition Working Group"
+title: "Secure Govern Decomposition Working Group"
 description: "The charter of this working group is to succesfully decompose the Secure/Govern dataset within GitLab"
 canonical_path: "/company/team/structure/working-groups/secure-govern-database-decomposition/"
 ---
