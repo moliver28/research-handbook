@@ -17,6 +17,7 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 | Property        | Value           |
 |-----------------|-----------------|
 | Date Created    | 1 May 2024 |
+| Start Date      | 13 May 2024 |
 | End Date        |  |
 | Slack           | [#wg_secure-govern-database-decomposition](https://gitlab.slack.com/archives/C01NB475VDF) (only accessible from within the company) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1HB_mDNugJjk5dmwagNs8xvYj-oBfPX5qXn0zhTARl4Q/edit) (only accessible from within the company) |
