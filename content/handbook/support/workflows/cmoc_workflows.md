@@ -308,16 +308,11 @@ Click the pencil next to `Affected Infrastructure`, check the boxes next to the 
 
 ![Change affected infrastructure](/images/support/cmoc_update_infra.png)
 
-#### Create Zendesk Tag
+#### Zendesk Tag
 
-In order to track tickets submitted through Zendesk that relate to an incident, we need to create a [tag](https://support.zendesk.com/hc/en-us/articles/4408888664474-About-tags). To create a tag:
+In order to track tickets submitted through Zendesk that relate to an incident, a zendesk tag is automatically added to all tickets that mention the incident issue.
 
-1. Create or edit a ticket.
-1. Start typing the name of the new tag in the `Tags` field.
-1. Hit `Enter`.
-1. Submit the ticket, either with a response included or not.
-
-The tag will now be available to use on other tickets. All tags that relate to incidents should be in the format `com_incident_####` with `####` being the incident number, which can be found in the incident issue.
+The tag is available for use on other tickets. All tags that relate to incidents are in the format `gitlab-com_gl-infra_production_issues_#####` with `#####` being the incident number, which can be found in the incident issue.
 
 #### Monitor Zendesk
 
