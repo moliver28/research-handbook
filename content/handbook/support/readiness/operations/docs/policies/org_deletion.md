@@ -53,7 +53,7 @@ organization is not deleted.
 
 - [ ] [No tickets created within 6 months](#no-tickets-created-within-6-months)
 - [ ] [No open opportunities in SFDC](#no-open-opportunities-in-sfdc)
-- [ ] [Thing 3 TBD](#thing-3-tbd)
+- [ ] [No recent chatter indicating renewal](#no-recent-chatter-indicating-renewal)
 
 #### No tickets created within 6 months
 
@@ -65,9 +65,11 @@ the last 6 months. If there are any, this organization should not be deleted.
 Check the SFDC account tied to the organization for any open opportunities. If
 you see any, this organization should not be deleted.
 
-#### Thing 3 TBD
+#### No recent chatter indicating renewal
 
-TBD
+Check the chatter log on the SFDC account tied to the organization for any
+indicators that a renewal is upcoming. If you see any, this organization should
+not be deleted.
 
 ## Organizaton deletions
 
