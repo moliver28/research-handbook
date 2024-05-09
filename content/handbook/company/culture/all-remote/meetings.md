@@ -30,7 +30,7 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 1. **Give audio and video feedback.** If you are unable to see or hear someone, let them know so they can address and correct.
 1. **Name pronunciation.** Consider these tips to ensure name pronunciation during the meeting:
    1. Ask all participants what is your name or nickname? Example: “My name is pronounced….you can call me….”
-   1. Ask all participants what are your preferred pronouns?
+   1. Introduce yourself, and mention your pronouns and pronunciation, before asking participants to introduce themselves. Reminder that pronouns can be set in [applications we use for collaborating](https://handbook.gitlab.com/handbook/people-group/pronouns/#setting-your-pronouns-in-applications)
    1. Adding team members name pronunciation in agenda.
    1. If you are unsure, it is always ok to ask for a reminder on how to pronounce a team member's name.
    1. If your name is mispronounced, one can always say: "Thank you for attempting to pronounce my name, it's actually pronounced #{name}".
