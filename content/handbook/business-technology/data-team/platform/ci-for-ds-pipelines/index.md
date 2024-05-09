@@ -197,7 +197,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - For the commit message enter `score notebooks/scoring_example.ipynb`. This will tell the GitLab that you want to execute the score-commit CI pipeline on the **scoring_example.ipynb** notebook found in the notebooks directory. Commit the change.
    -. Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the scoring CI pipeline for the newly created MR.
    - Click on "**Pipelines**" and you should see the scoring pipeline running. Click into the pipeline to see which which stage the pipeline is in.
-   - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings **IMAGE OF SCORING PIPELINES HERE**
+   - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Scoring Pipeline Jobs](scoring_pipeline_jobs.png)
    - Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request). This is the same process you would have seen during training, except it is now writting out descriptives about the scored dataset.
 1. We can also set the model to score at a defined time using Pipeline Schedules
    - Nagivate to **Build -> Pipeline schedules -> New schedule**
