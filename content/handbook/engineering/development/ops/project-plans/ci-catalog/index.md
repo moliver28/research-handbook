@@ -18,7 +18,6 @@ CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https:/
 
 ### Milestone 17.0 (April 13, 2024 - May 10, 2024)
 
-NOTE:
 All deliverables for CI Catalog GA are now complete.
 
 - Finish remaining Go-To GA efforts
@@ -34,10 +33,6 @@ All deliverables for CI Catalog GA are now complete.
   - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) (Complete)
   - [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509)
   - NOTE: Initial badge load has been initiated via [request](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17746)
-
-### Blockers:
-
-- No blockers at this time.
 
 ### Milestone 17.1 (May 11, 2024 - June 14, 2024)
 
