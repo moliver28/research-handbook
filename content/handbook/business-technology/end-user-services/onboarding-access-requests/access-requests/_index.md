@@ -26,7 +26,7 @@ If you have any access requests related questions, please reach out to #it_help 
 
 {{% panel header="**Instructions:**" header-bg="success" %}}
 
-1. Title the issue `Full Name, System(s), Role` using the details of the person requesting access information. If bulk access is being requested then `Bulk Access, System(s), Role`
+Title the issue `Full Name, System(s), Role` using the details of the person requesting access information. If bulk access is being requested then `Bulk Access, System(s), Role`
 
 **Step 1. Personal Information**
 1. *Personal Information:* Please provide a list of people who are requesting access. Include the relevant information.
@@ -36,11 +36,10 @@ If you have any access requests related questions, please reach out to #it_help 
 1. Remove or add lines for the systems you need access to. **Make sure to follow the format from the template (also included below)**. Be as specific as possible with the access you are requesting by adding the role, vault, group, channel or project you are requesting access to.
 1. If administrative access is being granted, add the label admin-access. Request the least amount of access you need as per the [least privilege review](/handbook/security/access-management-policy.html#principle-of-least-privilege) and explain why you need access in the rationale section.
 1. If the request involves access to systems owned by the Infrastructure team (according to the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml), mention @gitlab-com/gl-infra/managers and ask them to approve by adding the ~InfrastructureApproved label.
-
-```
-- [ ] System name: Which vault, which group, which channel, which project, which role?
-  - Justification for this access: Please explain why this access is needed.
-```
+   ```
+   - [ ] System name: Which vault, which group, which channel, which project, which role?
+   - Justification for this access: Please explain why this access is needed.
+   ```
 
 **Step 3: Assign to Manager for approval**
 1. If you are a manager requesting access for one of your reports, please skip to step 4.
