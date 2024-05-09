@@ -164,8 +164,7 @@
 /content/handbook/engineering/development/sec/secure/ @twoodham
 /content/handbook/engineering/development/sec/secure/composition-analysis.md @thiagocsf @gonzoyumo @fcatteau
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
-/content/handbook/engineering/development/sec/secure/static-analysis @tkopel @rvider
-
+/content/handbook/engineering/development/sec/secure/static-analysis/ @tkopel @rvider
 /content/handbook/engineering/expansion-development.md @bmarnane @jeromezng @pcalder
 /content/handbook/engineering/frontend/ @timzallmann
 /content/handbook/engineering/workflow/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
