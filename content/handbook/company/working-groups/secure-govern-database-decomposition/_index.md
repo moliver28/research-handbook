@@ -159,7 +159,6 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 | Facilitator/DRI                          | Gregory Havenga               | Senior Backend Engineer, Threat Insights  |
 | Functional Lead                          | Lucas Charles                 | Principal Software Engineer, Secure & Govern |
 | DRI - Distribution                       |||
-| DRI - Ops Section                        |||
 | DRI - Infrastructure                     |||
 | DRI - Database                           | Jon Jenkins | Senior Backend Engineer, Database |
 | DRI - Data                          |||
