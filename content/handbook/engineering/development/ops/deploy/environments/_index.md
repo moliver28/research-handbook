@@ -336,6 +336,8 @@ The entire bug resolution process includes the following phases in order:
   refinement DRI.
 - Bug fix must be planned for a milestone that ends before the bug's due date.
   This takes place on the milestone planning issue.
+- Reprioritazation will have a dedicated section in the milestone planning
+  issue.
 - Outdated bugs are closed in accordance with [the existing handbook
   practice](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#outdated-issues)
 
