@@ -184,11 +184,11 @@ Candidates for this position can expect the hiring process to follow the order b
 </details>
 <br>
 
-1. Selected candidates will be invited to schedule a 30-min [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters or the Hiring Manager. In this call we will discuss your experience, understand what you are looking for in a UX Research role, discuss your compensation expectations, reasons why you want to join GitLab and answer any questions you have.
+- Selected candidates will be invited to schedule a 30-min [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters or the Hiring Manager. In this call we will discuss your experience, understand what you are looking for in a UX Research role, discuss your compensation expectations, reasons why you want to join GitLab and answer any questions you have.
 
-2. The next step will be a 45-min meeting to cover some scenario-based questions where will look to understand how you handle common situations that UX Researchers find.
+- The next step will be a 45-min meeting to cover some scenario-based questions where will look to understand how you handle common situations that UX Researchers find.
 
-3. After that, we'll invite you to record a case study walkthrough video. The recording is expected to be **20-minutes in duration** and returned **within ten days** of your screening call and scenario-based interview being completed.
+- After that, we'll invite you to record a case study walkthrough video. The recording is expected to be **20-minutes in duration** and returned **within ten days** of your screening call and scenario-based interview being completed.
 
 <figure class="video_container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TPMAjrCxJik?si=M-Ww_p4Y_KkpyQMj" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -250,11 +250,11 @@ Once again, thank you for showing your interest, and all the best with your job 
 
 - We will schedule the next stages if the recording indicates your past experiences will lead to your success in a role at GitLab.
 
-4. Candidates will be invited to 2 seperate 50-minute interviews:
+- Candidates will be invited to 2 seperate 50-minute interviews:
     - One with a UX Researcher. Overall, this interview aims to understand how you choose your research methods, how you present results, how you work with a wider team of counterparts, and how you determine whether your research resulted in a meaningful business impact. This interview will also look to understand the softer skills you have as a researcher and how you apply those in the real world.
     - The other with the UX Research Manager where we'll focus on your experience researching Developers and working with global team members in an Agile setting. You will also discuss your career, your experiences as a UX Researcher, and the role of UX Research at GitLab.
 
-5. Next up are a couple of 50-minute interviews, one with either a Product Design Manager or Product Designer, and the other with a Product Manager. In these interviews, we'll focus on how you collaborate with cross-functional stakeholders and mentor non-researchers in successfully conducting research. These interviews are opportunities for you to understand the the stage you will be a part of in more detail, hear a different perspective on the stable counterpart relationship, and ask any questions you have.
+- Next up are a couple of 50-minute interviews, one with either a Product Design Manager or Product Designer, and the other with a Product Manager. In these interviews, we'll focus on how you collaborate with cross-functional stakeholders and mentor non-researchers in successfully conducting research. These interviews are opportunities for you to understand the the stage you will be a part of in more detail, hear a different perspective on the stable counterpart relationship, and ask any questions you have.
 
 - Successful candidates will subsequently be made an offer via Zoom.
 
