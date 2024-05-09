@@ -4,14 +4,6 @@ title: "Data Team - How We Work"
 description: "GitLab Data Team Workflow"
 ---
 
-
-
-
-
-
-
-
-
 ---
 ### <i class="fas fa-map-marked-alt fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Quick Links
 
@@ -342,7 +334,6 @@ Each variables will be scored 1 to 3.
   </tr>
 </tbody>
 </table>
-{::options parse_block_html="false" /}
 
 | Risk Score | Outcome |
 | ---------- | ------- |

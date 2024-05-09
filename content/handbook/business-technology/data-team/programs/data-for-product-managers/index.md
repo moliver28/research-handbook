@@ -1,16 +1,5 @@
 ---
-
 title: "Data For Product Managers"
----
-
-
-
-
-
-
-
-
-
 ---
 
 This page is intended to help Product Managers at GitLab understand what data is available to them and how they can use it to understand how their product is used. This page primarily covers two topics: _how_ to consume data, and _what_ data is available.
@@ -170,11 +159,7 @@ The data you have instrumented is useful only if it can be visualized in a chart
   - [`legacy.snowplow_page_views_all`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.snowplow_page_views_all): contains ALL page views
   - [`legacy.snowplow_unstructured_events_all`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.snowplow_unstructured_events_all): contains ALL unstructured events (including click events, form submissions, etc).
 
-<div class="panel panel-info">
-**PRO TIP: Optimizing queries**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**PRO TIP: Optimizing queries**" header-bg="info" %}}
 To make your query faster, use a date filter in your `WHERE` statement.
 
 Example query:
@@ -188,10 +173,7 @@ WHERE  derived_tstamp > CURRENT_DATE-30
 GROUP BY 1
 ORDER BY 2 DESC
 ```
-
-</div>
-</div>
-
+{{% /panel %}}
 
 #### Some Issues and Merge Requests examples
 

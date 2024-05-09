@@ -92,13 +92,7 @@ If you wish to add further privacy and security to your home network, you can fu
 
 ### How do I install the SentinelOne agent on Linux?
 
-
-
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Note**" header-bg="info" %}}
 If you are using Advanced Intrusion Detection Environment (AIDE) to monitor file integrity and detect intrusions, you will need to create an exclusion in AIDE. When both AIDE and the SentinelOne Agent are running together, AIDE is not able to update its database correctly. AIDE tries to scan a SentinelOne Directory and cannot scan it.
 
 To create an exclusion for SentinelOne, edit `/etc/aide.conf` and add
@@ -107,9 +101,7 @@ To create an exclusion for SentinelOne, edit `/etc/aide.conf` and add
 ```shell
 echo '!/opt/sentinelone/mount' | sudo tee -a /etc/aide.conf
 ```
-
-</div>
-</div>
+{{% /panel %}}
 
 1. Make sure you are using an approved [Linux distribution](/handbook/it/operating-systems/).
 1. [Download](https://gitlab.com/gitlab-com/it/security/sentinelone-installers)
@@ -187,11 +179,7 @@ echo '!/opt/sentinelone/mount' | sudo tee -a /etc/aide.conf
              └─298045 s1-perf "" "" "" "" "" "" "" "" "" "" ""
    ```
 
-   <div class="panel panel-info">
-   **You don't see the previous outputs?**
-   {: .panel-heading}
-   <div class="panel-body">
-
+   {{% panel header="**You don't see the previous outputs?**" header-bg="info" %}}
    If you don't see the previous outputs, it means that SentinelAgent was not
    installed correctly, most probably it didn't take into account the configuration
    file, or you didn't set it up correctly. In that case, you must first uninstall
@@ -208,9 +196,7 @@ echo '!/opt/sentinelone/mount' | sudo tee -a /etc/aide.conf
      ```shell
      sudo apt purge sentinelagent
      ```
-
-   </div>
-   </div>
+   {{% /panel %}}
 
 1. Wait five minutes, and then verify connectivity:
 
