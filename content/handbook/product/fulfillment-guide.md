@@ -881,10 +881,6 @@ Team members in our Sales and Customer Success groups should escalate first via 
 
 This section outlines top provisioning bugs and when they were resolved or are expected to be fixed. You can also refer to the `group::provision` [bug board](https://gitlab.com/groups/gitlab-org/-/boards/5164901?label_name[]=group%3A%3Aprovision&label_name[]=type%3A%3Abug) for a quick view of planned bug work by milestone.
 
-#### Why do we need this page?
-The provisioning process touches every customer who purchases or trials a GitLab subscription. This process has become complex over time as GitLab has scaled. Unfortunately, this has resulted in a significant number of process bugs. Our team has published this page as a resource for both customers and internal stakeholders interested in the status of these bugs.
-
-
 #### Resolved Bugs
 
 | SM or GitLab.com? |  Category    | Description of Bug         | Related Issue Link(s) |  Version Resolved |
