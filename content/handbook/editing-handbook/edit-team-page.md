@@ -138,7 +138,13 @@ Choose the method below that feels most comfortable and have the following infor
        bundle exec rake build:team_yml
        ```
 
-    1. Follow the preview directions in [development.md](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/development.md#preview-direction).
+    1. Start a middleman dev server in the `uncategorized` site: 
+       ```bash
+       cd sites/uncategorized
+       NO_CONTRACTS=true bundle exec middleman 
+       ```
+
+    1. Open the team page and search for your name `http://localhost:4567/company/team`
 1. After validating your changes, commit your changes to the branch of www-gitlab-com that you created in step 4, with a comment *Add FirstName LastName to team page* and push your branch. You may need to set the remote as upstream or you can use `--set-upstream` option and specify remote as upstream.
 1. [Create a Merge Request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created and assign your manager as reviewer.
 
