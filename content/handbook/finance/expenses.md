@@ -110,20 +110,21 @@ The airfare policy in Navan is set up as a “Dynamic Policy” which calculates
 
 - One class of upgrade is permitted with Manager approval for team members over 6'5”/2m in height.
 
+#### Selected Travelers Definition
+
+- Selected Travelers are intended to be frequent travelers and customer facing, and must be designated as such by the appropriate E-group leader. The E-Group will review the Selected Travelers each quarter.
+
 #### Flight Policy for Flight Duration under 5 hours
 
-Flights under 5 hours of consecutive flight time should be booked as standard economy.
+Flights over 5 hours of consecutive flight time  - For domestic flights with a duration of greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
 
-For E-Group Selected Travelers, for flights under 5 hours of consecutive flight time, we do recognize different fare classes exist for different geographies. When flying within the US, these travelers may book first class. When traveling within Europe, these travelers may book premium or business.
+For E-Group Selected Travelers, in the US, selected travelers can book first class.  For other areas around the world, we recognize different fare classes exist for different geographies. For flights less than 5 hours, when traveling within Europe and other places in the world, these Selected Travelers may book premium or business.  Intended to be the next class of service above economy plus/economy premium.
 
-#### Flight Policy for Flight Duration over 5 hours
+#### Flight Policy for Flight Duration over 5+ hours  
 
-Flights over 5 hours of consecutive flight time -team members are authorized to book the next class up from standard economy, as long as it is below business class.
-
-#### Flight Policy for Flight Duration of 8 hours or longer
+Flights greater than 5 hours of consecutive flight time  - For out of country flights with a duration of greater than 5 hours of consecutive flight time, team members are authorized to book the next class up from standard economy as long as it is below business class.
 
 For E- Group Selected Travelers, for all flights over 8 hours of consecutive flight time, team members are authorized to book the highest class available including business class, as long as it is below first class.
-
 #### Frequent Flyer Programs
 
 - Participation in frequent flyer programs must not influence airfare selection if it results in an out-of-policy option.
@@ -186,7 +187,7 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 ### Hotels
 
 - To be booked in Navan. When booked outside Navan - approval required by Manager and AP Admin.
-- Selected Travelers can book outside of Navan without manager approval, but details of their hotel booking must be sent to expenses@gitlab.com.
+- E-Group Selected Travelers can book outside of Navan without manager approval, but details of their hotel booking must be sent to expenses@gitlab.com.
 - When you book Hotels through Navan Travel, the costs will need to be charged to a personal credit card.
 - For business related bookings, you can submit the costs for reimbursement via the Navan Expense reimbursement tool.
 - Please attach the Navan Reservation email confirmation to the claim.
