@@ -242,9 +242,7 @@ Announcement Channels
 | - We aim for 45 touchpoints per day using the various methods above. This is a broad expectation and may vary per team given the segment, functionality, and strategy of the team manager. |
 
 
-### Company Address Based Routing Information 
 
-In **[this video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered)**, a member of the Marketing Ops team goes over the Company address fields and how they are used for Accounting Routing and Opp assignment. 
 
 ### Sales Dev Career Path
 

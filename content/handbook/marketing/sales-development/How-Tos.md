@@ -72,13 +72,19 @@ As part of your SDR responsibilities, you are expected to perform due diligence 
 | 3    | Check the `Matched Account Info` section on the lead record.                                                                                       |
 | 3a    | - For SMB leads, if there's a matched account where the type is `Customer`, please press the `Convert` button at the top of the lead page and match this lead to the existing account.                                       |
 |  3b    | - If there's not a customer record but you find an existing open opportunity, update the `Lead Status` to `Recycle` and `Recycle Reasons` to `Evaluating.`                |
-|  3c    | - For Universities/Education leads (non-US Pub Sec), work as regular lead if technical contact.                                         |
+|  3c    | - For Universities/Education leads (non-US Pub Sec), work as regular lead if technical contact.                                         | 
 | 3d    | - If there's a matched account, check if the field `BDR Prospecting Status` is `Actively Working` and, if so, reroute the lead to the team mentioned on the `BDR Assigned` field.                                                               |
 |  3e    | - If the existing account is not marked as `Actively Working`, check for duplicate leads or contacts and merge if necessary while keeping the oldest `Initial Source`.                            |
+| 3f | - If the `Company Address` fields on the lead record do not match your research online of the company, please update the `Admin Company Override fields` that are found in the `Lead/Contact Review Admin` section. As a further fail-safe step, you'll be asked to verify that this due diligence is done prior to converting this person to a new account. |
 | 4    | If there's no matched account, but there's another lead at same company that has the `MQL` status, assign both leads to the owner with the earliest `MQL Date`.                                                 |
 |  4a    | - If there's no matched account, but there's another lead that has the `Accepted` or `Qualifying` status, assign the new MQL to the owner of the accepted/qualifying leads.                                |
 | 5    | BDRs receiving leads not associated with `Actively Working` accounts must assign back to SDR team or chatter mktgops support. |
-| 10   | Qualified leads associated with “Actively Working” accounts are routed to BDR assigned to the Actively Working Account.                |
+| 6   | Qualified leads associated with “Actively Working” accounts are routed to BDR assigned to the Actively Working Account.                |
+
+
+### Company Address Based Routing Information 
+
+In **[this video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered)**, a member of the Marketing Ops team goes over the Company address fields and how they are used for Accounting Routing and Opp assignment. 
 
 If you need to do edits to the database by merging leads together for any of the above steps, please reference the videos below for an explanation. 
 
@@ -130,7 +136,7 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 | 2    | Research the appropriate outreach collections for relevant collateral to be used. Most typically our [High-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc) or [Low-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc) collections. | 
 | 
 
-### Cold-Calling and Email Checklist
+### Cold-Calling and Email Checkbox
 
 Before calling any Lead or Contact, BDRs must ensure that the `Do Not Call` box is unchecked.  If you speak to any anyone, including prospects and existing contacts, who ask you not to call them again, you must check this box. However, please do not delete the number as we need to know which number requested not to be called again. For any individuals who are opted-in to email, you may ask them if they wish to be called. If they express a desire to be called, you are then permitted to uncheck the `Do Not Call` box if it was previously checked.  Also, if an individual expresses independently via email a wish to be called, you may uncheck the `Do Not Call` box.  This email must be present in SFDC as proof of your authority to uncheck this box.  You cannot send email requests to individuals not opted-in to email asking whether they would like to be called.
 
@@ -147,53 +153,6 @@ An unsubscribe link must be included on every email sent by a BDR, including res
 ### Do Not Call and Do Not Email Automations
 
 Leads with certain criteria will be automatically labeled as **Do Not Call** and or **Do Not Email** shortly after loading into our database. It's understandable this can be frustrating for certain territories. Please keep in mind, the criteria behind this automation has been set in order to follow local law. Please see the [Internal GitLab handbook](https://internal.gitlab.com/handbook/marketing/marketing-strategy-and-platforms/marketing-operations/do-no-contact) for more information on the triggers.
-
-### Decision Maker Discovery
-
-The questions below are suggestions to be used while doing a discovery call, in order to identify the decision making process, and to meet the outbound accepted SAO as per the guidelines [here](/handbook/sales/field-operations/gtm-resources/#criteria-for-outbound-sales-accepted-opportunity-sao)
-
-* Who gets involved while evaluating a tool at {{company}}?
-* Would you expect anyone to challenge your initiative, and if so can I help by connecting with anyonse else on your end?
-* If you as a {{title}} wanted to purchase GitLab, what process internally would you have to follow, and how can we help you navigate it?
-* What challenges do you expect to face when trying to pitch this change internally? Who has a say in this and what do they care about the most?
-
-### Email Writing Cheat Sheet
-
-The table below shows the Command of the Message Email Writing Checklist.
-
-It aims to outline the structure of the emails we write to prospects. Emails should be written in each person’s language and tone and make sure to include the CoM frameworks as per the outline below. You can find additional resources [here](https://docs.google.com/document/d/1-DF6bEtS9QF9idqBcK77RiLL04CKiFMuc0LDEM5N6RA/edit)
-
-| Subject Line                                  |                                                                                                                                                                                                                                                                                                      |
-|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Personalized                                  | Quote Familiar Names: Use Prospect’s name, Company name, or colleague’s name. Relate to their situation: Use recent company initiatives, technologies they use, Projects they have planned etc.                                                                                                      |
-| Curiosity and Urgency                         | Provide an image of their future situation: Guide the reader to imagine how their situation could change. Use compelling events to give a clear image of where they are currently.                                                                                                                            |
-| CoM                                           | Proof Points: Quote Case Studies or other customers. How We Do it Better: Make use of our defensible differentiators.                                                                                                                                                                                |
-| Opening Line                                  |                                                                                                                                                                                                                                                                                                      |
-| Avoid cliches                                 | Stand out: Avoid losing email real-estate with cliche phrases like “just following up” or “hope all is well”.  Brand yourself: Demonstrate that you have an understanding of the reader’s current situation and a clear idea of his required solutions.                                                   |
-| CoM                                           | Before Scenarios: Paint a clear image of their current situation and how that is causing them professional or personal pain. Ater Scenarios/PBOs: Tie the current situation with a clear image of a future situation that’s beneficial for the business and the individual.                          |
-| Main Body                                     |                                                                                                                                                                                                                                                                                                      |
-| Addressing Questions and Information provided | No Free Consulting: Answer questions just enough to give a narrative to your email and tie into the CTA. No Transactional Answers: Don’t make the reader feel like he’s interacting with an online form, a robot, or a sleazy salesman that doesn’t care.                                             |
-| CoM                                           | Discovery Questions: determine which discovery questions tie into their current situation, questions asked or information provided. Trap-Setting Questions: if competitor technology or objections come up, use trap-setting questions to guide the reader into understanding our differentiators.   |
-| CTA                                           |                                                                                                                                                                                                                                                                                                      |
-| Clear Next Step, Agenda and benefit           | Valuable: phrase your CTA in a way that’s clearly valuable to the reader and his specific situation. Defined: outline what will happen in the next step and how long will it take                                                                                                                    |
-| CoM                                           | Measurable: present metrics or PBOs that will be covered in the next step
-
-
-Additionally, you can use the matrix below as a quick-cheet to determine what datapoints can be used for personalization.
-
-
-| Location | Information |
-|--------- | ----------- |
-| LinkedIn | Have they recently been promoted? - What are the specific responsibilities stated on their page you are trying to help them with? |
-| Company strategy from website | What are the company's strategic initiatives? (become more agile?, improve internal business systems?, focus on speed to market on delivery? Streamlining expenditure? |
-| Google search name of contact | Do they have any blogs? Have they featured in any articles?, Have they any personal achievements celebrated?, Do they have any side projects? |
-| Keyword search company | “COMPANY” AND (“Agile” OR “digital transformation” OR “DevOps” OR “business process improvement” OR “Cloud” OR “digital strategy”) |
-| Leadership Focus | Find articles of leadership through boolean searches and ask propose how we can help them achieve these goals |
-| Company News | Celebrate company achievements |
-| Check support tickets | Are they experiencing issues that upgrading deployment options could help resolve? |
-| Mutual Contacts | Do you have mutual contacts on LinkedIn you can talk about? |
-| Use cases on website | Do they have the same customers as us? How do they help them? |
-| Speak to a user of the tool to create personalised message to decision maker | Speak to someone who uses out tools everyday to uncover pain-poin
 
 
 ### How to enroll to outreach
@@ -487,7 +446,7 @@ If the opportunity is for a new group of users in a Large account where sales is
 | **Creating Opportunities:** | |
 | 1. Identify and Relate Communications | Identify relevant two-way communications with the prospect, such as email exchanges, call records, or LI messages. Ensure that these are properly logged in SFDC associated with the `person, company, and opportunity records` as needed. To do this, select the specific activity records highlighting your involvement and press `related to`. Afterwards select the corresponding Opportunity and press Save.Select specific activity records highlighting your involvement and press `related to` Select the corresponding Opportunity and press Select specific activity records highlighting your involvement and press `related to` Select the corresponding Opportunity and press save. save.   |
 | 3. Verify Sales Organization RoE | - On ZoomInfo, or other established sources if needed, verify the parent/child segmentation and the HQ of the company or ultimate user. <br> - If discrepancies exist, communicate with the appropriate personnel for resolution. |
-| 3a. Overriding Incorrect Account Assignments | - Navigate to the Lead/Contact Review Admin section in Salesforce to input correct information. <br> - If unsuccessful, communicate with the Sales Dev Director for assistance in updating account records. |
+| 3a. Overriding Incorrect Account Assignments | - Navigate to the `Lead/Contact Review Admin` section in Salesforce to input correct information. <br> - After making sure that the information is properly reflected on the `Company Address` fields (ie: **Company Address: Street**), please tick the `Company Address Checked` checkbox on the lead level. If this step is not completed, then you will receive a message to remind you on Salesforce when you try to convert the lead. <br> - If unsuccessful, communicate with the Sales Dev Director for assistance in updating account records.|
 | 5. Schedule IQM | - For booking meetings, use [Outreach Meetings](https://www.outreach.io/resources/blog/meetings-pr) to expedite the experience for prospects. <br> - Make sure to give a 24 hour notice to the AEs. <br> - Having sent a meeting invitation, ask the prospect to accept while on the phone/meeting with them. |
 | 6. AE Review | - Expect AEs to verify that they reviewed the opportunity beforehand. <br> - If needed, review the specifics of the call, responsibilities, and send meeting reminders. |
 | 7. Attending the IQM | - Please make sure that both AE and SDR show up on time or up to 5 minutes beforehand with Cameras on. <br> - Please ensure that the location is quiet and indoors for AE and SDR. |
