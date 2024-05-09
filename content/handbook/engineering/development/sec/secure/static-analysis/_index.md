@@ -15,7 +15,7 @@ The Static Analysis group at GitLab is charged with developing the [Static Appli
 
 - Slack channel: #g_secure-static-analysis
 - Slack alias: @secure_static_analysis_team
-- Google groups: static-analysis-be@gitlab.com
+- Google groups: sec-secure-static-analysis@gitlab.com
 
 ## How We Work
 
