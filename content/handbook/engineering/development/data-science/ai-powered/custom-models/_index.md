@@ -121,9 +121,11 @@ The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_t
 
 The [issue triage report](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/17099) highlights issues which need a milestone assignment.
 
-## Shared calendars
+## Blog Posts
 
-TBD
+Blog posts written by Custom Model's team members
+
+- [Developing GitLab Duo: How we validate and test AI models at scale](https://about.gitlab.com/blog/2024/05/09/developing-gitlab-duo-how-we-validate-and-test-ai-models-at-scale/) [@susie.bee](https://gitlab.com/susie.bee)
 
 ## Communication
 
