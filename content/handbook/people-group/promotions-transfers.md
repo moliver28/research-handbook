@@ -125,17 +125,50 @@ The [promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGm
 
 As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role.
 
-In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are:
+In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are: Promotion Summary, Values Alignment, Business Results, and Business Justification.
 
-1. Promotion Summary
-1. Values Alignment
-1. Business Results
-1. Business Justification
+##### Promotion Summary
+
+This section is a high-level summary (3-5 sentences) of achievements that demonstrate how the team member has the capability to perform at the next level.
+
+##### Values Alignment
+
+Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Promotion documents should include 1-3 core points per value of evidence supporting values alignment.
+
+##### Business Results
+
+As our most important [value](https://handbook.gitlab.com/handbook/values/#hierarchy), results are at the core of everything we do.
+
+Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member’s performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0).
+
+For each result, please use the following structure:
+- Project/accomplishment
+    - Example: Creation of the company-wide Org Design Playbook
+- Team member role
+    - Example: Lead the playbook creation from inception to publishing in the handbook in partnership with two other People Business Partners
+- Brief (2-3 sentence) description of project/accomplishment and business relevance/importance
+    - Example: One of our [FY25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies) is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member's velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
+- Project/accomplishment impact
+    - Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
+- Business result
+    - Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook's creation.
+
+Business relevance refers to why the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.). Impact refer to how the project/accomplishment will help drive us in the direction we need to go as an organization. Business result refers to the direct result seen from the team members' contribution.
+
+We ask that the structure above be followed for business results consistently to ensure that we:
+
+1. **Highlight impact**: Directly connect our accomplishments to business goals and ties impact and role in projects to next level performance expectations.
+2. **Cross-functionally understandable**: The story-telling structure facilitates more cross-functional understanding of what the team member did, why it matters, and the impact it drove for the business.
+3. **Add objectivity**: Adds objectivity through focus on the contribution, impact, and relevance, in a consistent format, decreasing opportunity for unconscious bias.
+
+
+##### Business Justification
+
+GitLab considers both individual readiness and business need when we think about promotions. Managers are responsible for completing the business justification section of the promotion document to include what justifies the need for the team members skills and work to be completed at the higher level. Possible business justifications typically include: more complex projects, additional scope of work required as the team scales, and/or additional responsibility due to XYZ business reason.
 
 When creating promotion documents, remember:
 
 - Promotions are based on performance, not growth potential.
-- GitLab considers both individual readiness and business need when we think about promotions. Managers are responsible for completing the business justification section of the promotion document to include what justifies the need for the team members skills and work to be completed at the higher level. Possible business justifications typically include for example: more complex projects, additional scope of work required as the team scales, additional responsibility due to XYZ business reason.
 - Promotion documents should not exceed 3 pages total.
 - Please reference the [job frameworks]({{< ref "structure#job-frameworks" >}}) in the handbook for guidance pertaining to expectations at the various levels at GitLab. The job levels should help guide data chosen to be included in the promotion document, in addition to discussion during calibration sessions.
 - Please review our guidance on [DIB behaviours](https://handbook.gitlab.com/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](https://handbook.gitlab.com/handbook/values/#diversity-inclusion)
