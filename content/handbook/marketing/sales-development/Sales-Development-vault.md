@@ -634,7 +634,7 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 ## Sequence Creation
 
-* We follow the process outlined [here](https://handbook.gitlab.com/handbook/marketing/sales-development/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+* We follow the process outlined [here](https://handbook.gitlab.com/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
 
 ### Sequence needs to be a globally applicable
 
