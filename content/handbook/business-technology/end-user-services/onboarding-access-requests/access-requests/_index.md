@@ -25,7 +25,6 @@ If you have any access requests related questions, please reach out to #it_help 
 *You can use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) to request access for individuals or multiple people, as long as all the people are requesting access to the same systems. Create multiple issues using this same template if multiple people require access to different systems. When access is being requested for multiple people who report to different managers but are part of the same department or division, approval can be obtained by the manager at the highest level; that is, the Director, Vice President, or Executive of the department or division.*
 
 {{% panel header="**Instructions:**" header-bg="success" %}}
-
 Title the issue `Full Name, System(s), Role` using the details of the person requesting access information. If bulk access is being requested then `Bulk Access, System(s), Role`
 
 **Step 1. Personal Information**
@@ -57,7 +56,6 @@ Title the issue `Full Name, System(s), Role` using the details of the person req
 1. If administrative access is being granted, add the label admin-access to this request so Security Operations knows who has admin access.
    - If admin access is being granted to GitLab.com ensure the user is added to the GitLab Instance Administrators group
    - Inform the user 2fa is required and they will be locked out if it is not immediately setup
-
 {{% /panel %}}
 
 ---
@@ -65,7 +63,6 @@ Title the issue `Full Name, System(s), Role` using the details of the person req
 #### Shared Account Access Request
 
 {{% panel header="**Instructions:**" header-bg="success" %}}
-
 **Prior to submitting this Issue Request**
 1. Please review our [Access Control Policy and Procedures](/handbook/security/#access-control-policy-and-procedures) to ensure that your request is in line with GitLab's policies and procedures. If after review you feel that a shared account is still needed, complete submit the issue using the template. **Note that systems with PCI data is not allowed shared accounts.**
 1. Please note that shared account request(s) will need to be reviewed and approved by IT Ops and the listed Tech Stack Owner.
@@ -80,7 +77,6 @@ After the Exception Length, you will be required to submit another Exception Req
 1. If you are the manager of this person, add the labels `AR-Approval::Manager Approved` and `ready for provisioning` to the issue; if you are the one asking for access, then you have to assign to *your* manager for approval and they must add the labels `AR-Approval::Manager Approved` and `ready for provisioning`.
 1. After approval, then YOU MUST **assign the issue to the system provisioner** [listed in the tech stack.](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 1. Close the issue when it's complete.
-
 {{% /panel %}}
 
 ##### Instructions and Guidance for IT for Shared Accounts
@@ -122,7 +118,6 @@ While this application automation will take place in Okta, "true" system provisi
 *You can use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=slack_googlegroup_1Passwordgroupvault) to request access for individuals or multiple people, as long as all the people are requesting access to the same systems. Create multiple issues using this same template if multiple people require access to different systems. When access is being requested for multiple people who report to different managers but are part of the same department or division, approval can be obtained by the manager at the highest level; that is, the Director, Vice President, or Executive of the department or division.*
 
 {{% panel header="**Instructions:**" header-bg="success" %}}
-
 1. **Title** issue "Full Name - System - Role" (ex: Laura Croft Google Group: adventurer)
 1. **Remove or add rows** for the access you need.
 1. Assign to your manager to get approval by label **if** this request is for (they must apply labels `AR-Approval::Manager Approved` and `ReadyForProvisioning`:
@@ -131,7 +126,6 @@ While this application automation will take place in Okta, "true" system provisi
    - access to a slack group for a non-internal person, including shared Slack channels
    - Please note if a non-internal person has been removed from a slack channel and is requesting access again they will need a new access request and manager approval
 1. **Close** the issue when it's complete.
-
 {{% /panel %}}
 
 ---
@@ -141,10 +135,8 @@ While this application automation will take place in Okta, "true" system provisi
 *You can use [this template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/Name_change_request.md) when your name changes.*
 
 {{% panel header="**Instructions:**" header-bg="success" %}}
-
 1. Title the issue `Full Previous Name to Full New Name - Name Change Request`.
 1. Please complete all applicable sections as described in the issue template.
-
 {{% /panel %}}
 
 ---
@@ -159,7 +151,6 @@ While this application automation will take place in Okta, "true" system provisi
 - Departments can check their outstanding access request issues by viewing their board below.
 
 {{% panel header="**AR boards: to-do:**" header-bg="success" %}}
-
 1. [Data](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1319045)
 1. [Finance](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1319048)
 1. [Infra](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1262513)
@@ -171,7 +162,6 @@ While this application automation will take place in Okta, "true" system provisi
 1. [Sales](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1262518)
 1. [Security](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1319052)
 1. [Support](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/boards/1319053)
-
 {{% /panel %}}
 
 ## Adding Access Request Process for a new item in the Tech Stack
