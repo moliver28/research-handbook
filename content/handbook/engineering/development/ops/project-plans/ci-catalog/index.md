@@ -12,36 +12,27 @@ The following page may contain information related to upcoming products, feature
 
 CI Catalog GA Epic: [https://gitlab.com/groups/gitlab-org/-/epics/12153](https://gitlab.com/groups/gitlab-org/-/epics/12153)
 
-### Important Upcoming Tentative Dates
-
-| Milestone | Dates | Deliverable |
-|---------- | ----- | ----------- |
-|  ~17.0     | 2024-04-13 to 2024-05-10 | CI Catalog, Inputs, Components GA |
-
 ### Overall GA progress
 
 - Go-To GA [dashboard](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_12153)
 
 ### Milestone 17.0 (April 13, 2024 - May 10, 2024)
 
+All deliverables for CI Catalog GA are now complete.
+
 - Finish remaining Go-To GA efforts
   - [Remove beta label for CI/CD Catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/454306) (Complete)
-  - [Remove beta label for catalog resource toggle](https://gitlab.com/gitlab-org/gitlab/-/issues/460260) (In-Review)
+  - [Remove beta label for catalog resource toggle](https://gitlab.com/gitlab-org/gitlab/-/issues/460260) (Complete)
   - [Release Process Refinements](https://gitlab.com/groups/gitlab-org/-/epics/12338) for GA 
     - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (Complete)
   - [Details page](https://gitlab.com/groups/gitlab-org/-/epics/12336) for GA
     - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914) (Complete)
-    - [Fix images not rendering on ReadMe tab](https://gitlab.com/gitlab-org/gitlab/-/issues/455516) (In-Dev)
-      - NOTE: This will be a backend fix with a follow-up in `17.1` post-GA.
+    - [Fix images not rendering on ReadMe tab](https://gitlab.com/gitlab-org/gitlab/-/issues/455516) (Complete)
 - Finishing remaining initial loading badges work
   - [Set verification_level on publish and fix enum mismatch](https://gitlab.com/gitlab-org/gitlab/-/issues/455530) (Complete)
   - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) (Complete)
   - [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509)
   - NOTE: Initial badge load has been initiated via [request](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17746)
-
-### Blockers:
-
-- No blockers at this time.
 
 ### Milestone 17.1 (May 11, 2024 - June 14, 2024)
 
