@@ -11,7 +11,7 @@ ESG stands for Environmental, Social and Governance and is a framework designed 
 - Watch [What is ESG](https://www.linkedin.com/learning/search?keywords=esg&u=2255073) training module from LinkedIn Learning
 
 Examples of ESG Issues:
-- Enviornmental: Environmental: The ‘E’ takes into account a company’s use of natural resources and the impact of the company’s operations on the environment, both in its direct operations and its supply chain. Examples of specific environmental issues include greenhouse gas emissions, energy use, water use, waste management and the environmental impact of the company’s products and services.
+- Environmental: Environmental: The ‘E’ takes into account a company’s use of natural resources and the impact of the company’s operations on the environment, both in its direct operations and its supply chain. Examples of specific environmental issues include greenhouse gas emissions, energy use, water use, waste management and the environmental impact of the company’s products and services.
 
 - Social: The ‘S’ takes into account how a company manages its relationships with its employees and the communities in which it operates, both in its direct operations and its supply chain. Examples of specific social issues include diversity of its workforce and its suppliers, employee work/life balance, employee pay equity, talent management and engagement, community engagement and the social impact of the company’s products and services.
 
