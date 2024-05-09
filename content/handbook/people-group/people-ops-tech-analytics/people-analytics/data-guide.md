@@ -16,6 +16,7 @@ This handbook page provides an overview of data definitions and data models used
 ## People Group Data Dictionary
 
 ### Employment Data
+
 Data pertaining to the worker and employment at GitLab once hired
 
 <details><summary>Click to expand</summary>
@@ -45,6 +46,7 @@ Data pertaining to the worker and employment at GitLab once hired
 </details>
 
 ### Diversity, Inclusion, and Belonging (DIB)
+
 Data pertaining to the demographics of a worker and how they choose to identify
 
 <details><summary>Click to expand</summary>
@@ -59,6 +61,7 @@ Data pertaining to the demographics of a worker and how they choose to identify
 </details>
 
 ### Position
+
 Information related to the position a team member holds at GitLab
 
 <details><summary>Click to Expand</summary>
@@ -85,6 +88,7 @@ Information related to the position a team member holds at GitLab
 </details>
 
 ### Paid Time Off and Absence
+
 Information related to Paid Time Off and Absence
 
 <details><summary>Click to expand</summary>
@@ -100,6 +104,7 @@ Information related to Paid Time Off and Absence
 </details>
 
 ### Recruiting and Onboarding
+
 Data pertaining to the Onboarding process and Recruiting metrics used by Talent Acquisition
 
 <details><summary>Click to expand</summary>
@@ -125,6 +130,7 @@ Data pertaining to the Onboarding process and Recruiting metrics used by Talent 
 </details>
 
 ### Systems
+
 Systems used by the People Group
 
 <details><summary>Click to expand</summary>
