@@ -18,6 +18,7 @@ To learn more about Field Ops releases, see the [RSOE Release Schedule handbook 
 
 ### 2024-05-20 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/548))
 
+**[LinkedIn Sales Insights Discontinuation](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/552)**
 
 ### 2024-05-06 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/512))
 
