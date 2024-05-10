@@ -90,6 +90,9 @@ outputformats:
 
 markup:
   goldmark:
+    renderHooks:
+      link:
+        enableDefault: true
     parser:
       attribute:
         block: true
