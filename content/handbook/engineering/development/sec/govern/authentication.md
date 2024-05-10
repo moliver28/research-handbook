@@ -31,7 +31,7 @@ Our detailed priority list can be found at the [direction page](https://about.gi
 As a result of the above roadmap items, we aim to driver the following outcomes for our customers:
 - By supporting Cells work, customers should experience improved reliability and compartmentalization of disruptions on GitLab.com  
 - Expanding Service accounts will reduce the human touch points around credentials setup for automation use cases, bolstering customer's security posture and efficiency when using GitLab. At the same time, new Service account UI will allow them to easily setup, manage and revoke these higher privilege accounts providing better transparency and audit-ability. Combined with token management enhancements, customers will be able to confidently manage, enforce and mitigate access token related risks.
-- Additional Enterprise user admin controls will result in reduced workload and improved security policy management for organizations while migration of Credential Inventory to SaaS will provide all administrators better visibility and control around credentials in use. 
+- Additional Enterprise user admin controls will result in reduced workload and improved security policy management for organizations while migration of Credential Inventory to SaaS will provide all administrators better visibility and control around credentials in use.
 - We aim to improve and unify user provisioning setup for customers by expanding SCIM group sync support such that they don't need to rely on both SAML and SCIM for user provisioning and access management.
 
 #### List of OKRs
@@ -42,14 +42,14 @@ Our OKRs are focused on:
 - [Career growth of Authentication team members](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5643)
 - [Adopting Cells and sharing lessons from investigation spikes](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6280)
 - [Roadmap completion around GCP Integration](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6186)
- 
+
 
 #### Metrics the team tracks
 
 In order to ensure we manage our technical debt while making progress on our roadmap, and addressing security vulernabilities or bugs in time, the team tracks the following metrics:
 
 - Engineering productivity metrics
-  - MR rates across team to ensure changes are being delivered iteratively 
+  - MR rates across team to ensure changes are being delivered iteratively
   - S1, S2 and S3 bugs and burndown rates to ensure that we are moving towards a downward trend on all 3. Currently no S1 are open, with a very small number of S2s.
   - Vulnerability due dates, in particular any that run the risk of hitting SLOs
   - Error rates for Authentication API, workers and web workflows

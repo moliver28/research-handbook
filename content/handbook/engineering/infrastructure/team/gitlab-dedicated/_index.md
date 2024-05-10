@@ -253,7 +253,7 @@ click I "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/
 click J "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/298"
 ```
 
-*Note* If you are not seeing the diagram, make sure that you have accepted all cookies.
+_Note_ If you are not seeing the diagram, make sure that you have accepted all cookies.
 
 #### Epic Owners
 

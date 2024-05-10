@@ -47,8 +47,8 @@ Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/658
 
 #### Iterations
 
-- We plan our work in 2 weeks long iterations
-- We maintain and regularly update [Test Engineering team board](https://gitlab.com/groups/gitlab-org/-/boards/7364900?not[label_name][]=failure%3A%3A*&label_name[]=team%3A%3ATest%20Engineering). This board reflect the actual status of the ongoing work
+* We plan our work in 2 weeks long iterations
+* We maintain and regularly update [Test Engineering team board](https://gitlab.com/groups/gitlab-org/-/boards/7364900?not[label_name][]=failure%3A%3A*&label_name[]=team%3A%3ATest%20Engineering). This board reflect the actual status of the ongoing work
 
 #### Issue weights
 
@@ -63,10 +63,10 @@ We estimate every task during iteration planning. Our weighting strategy is base
 | 8         | X-Large     | ~2 weeks          | TBD |
 | 13+    | XXL         | >>2 weeks          | TBD |
 
-- Approximate  time estimate - is time spent actively working on the issue: from design to requesting the review
-- It is not manadatory to create Trivial tasks
-- Consider breaking down Large tasks into smaller items
-- XL and XXL tasks has to be broken down into smaller tasks and might require creating Spike issue first
+* Approximate  time estimate - is time spent actively working on the issue: from design to requesting the review
+* It is not manadatory to create Trivial tasks
+* Consider breaking down Large tasks into smaller items
+* XL and XXL tasks has to be broken down into smaller tasks and might require creating Spike issue first
 
 
 [Core Development]: /handbook/engineering/core-development/

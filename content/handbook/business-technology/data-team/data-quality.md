@@ -31,7 +31,7 @@ In an effort to improve data quality at GitLab, the Central Data Team is creatin
 
 1. The DRI of the epic can validate that the newly linked issues are related.
 
-1. If there is no epic opened that addresses the problem, then the issue requires further validation to determine if a governance plan is needed. If the issue relates to one of the detection rules [in a Data Quality Scorecard Detection framework, which is coming in the future], then the triager can refer the issue to the R&D Data Fusion Team manager for next steps. If the issue does not relate to one of the detection rules, then the triager should follow the business as usual triage process.  
+1. If there is no epic opened that addresses the problem, then the issue requires further validation to determine if a governance plan is needed. If the issue relates to one of the detection rules [in a Data Quality Scorecard Detection framework, which is coming in the future], then the triager can refer the issue to the R&D Data Fusion Team manager for next steps. If the issue does not relate to one of the detection rules, then the triager should follow the business as usual triage process.
 
 **Governance Plan Runbook**
 
@@ -338,7 +338,7 @@ The Data Quality Detection Rules that have currently been identified for Product
 |4|Subscriptions with Self-Managed plans having License Start dates in the future||
 |5|Subscriptions with Self-Managed plans having License Start date greater than License Expire date||
 |6|Expired License IDs with Subscription End Dates in the Past||
-|7|SaaS Subscriptions with missing Namespace IDs|
+|7|SaaS Subscriptions with missing Namespace IDs||
 
 ## Additional Resources
 

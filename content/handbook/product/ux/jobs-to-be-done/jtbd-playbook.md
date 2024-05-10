@@ -115,9 +115,9 @@ When possible, collaborate with your Section's UX Researcher as experience in qu
 If possible, it is recommended to have both a moderator and a notetaker during each interview. This will allow you to create a Job Map for each session and get feedback from the participant.
 
 1. Start with a blank slate in Figjam and capture every step the participant mentions using a sticky. Try to maintain chronological order and don't worry about other aspects of your JTBD, such as job stages or small jobs.
-    * **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards by reviewing your notes and videos.
+    - **Note:** If you are unable to include a notetaker during your interview sessions, perform this step afterwards by reviewing your notes and videos.
 1. Once all Job Steps have been discussed, walk through the Job Map with the interviewee for feedback and verification. Make adjustments as needed.
-    * **Note:** If you are not creating the Job Map during the interview with the help of a notetaker, skip this step.
+    - **Note:** If you are not creating the Job Map during the interview with the help of a notetaker, skip this step.
 1. After the interview, rewrite each Job Step to ensure it is functional and follows [guidance for how to write a Job Step](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done).
 
 After all interviews:
@@ -135,7 +135,7 @@ Continuing with your interview syntheses, move on to gathering Outcome Statement
 1. Parse your notes looking for references to how the Job Performer would measure the success of completing the Main Job. Add a sticky for every potential Outcome. Remove duplicates along the way.
 1. Rewrite each Outcome Statement to ensure it follows [guidance for properly formatted Outcome statements](/handbook/product/ux/jobs-to-be-done/#Outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done).
 
-**Note:** Your Main Job can have between 50 - 100 Outcome Statements which will be validated through an [Outcome Opportunity Score survey](#Outcome-opportunity-scores-survey). This survey can be done in parallel with the rest of your JTBD Canvas work.
+**Note:** Your Main Job can have between 50 - 100 Outcome Statements which will be validated through an [Outcome Opportunity Score survey](#outcome-opportunity-scores-survey). This survey can be done in parallel with the rest of your JTBD Canvas work.
 
 #### Exercies 3: Synthesize Emotional and Social Aspects
 

@@ -14,13 +14,13 @@ Some blogs from previous shadows:
 1. [My Week as a Development Director Shadow at GitLab](https://www.linkedin.com/pulse/my-week-development-director-shadow-gitlab-jamie-strachan) from [Jamie Strachan](https://www.linkedin.com/in/jamiestrachan/).
 1. [Observations from GitLab's Development Director Shadow Program](https://www.linkedin.com/pulse/observations-from-gitlabs-development-director-shadow-davis-bickford) from [Davis Bickford](https://www.gitlab.com/dbickford)
 1. [My experience shadowing GitLab's Director of Engineering](https://www.linkedin.com/pulse/my-experience-shadowing-gitlabs-director-engineering-odumade) from [Olubunmi "Boomie" Odumade](https://www.linkedin.com/in/odumade)
-1. [My experience as a GitLab Hero in Developer Director Shadow Program ](https://siddharthasthana.dev/blog/my%20experience%20as%20a%20gitlab%20hero%20in%20developer%20director%20shadow%20program%20/) from [Siddharth Asthana](https://gitlab.com/edith007)
+1. [My experience as a GitLab Hero in Developer Director Shadow Program](https://siddharthasthana.dev/blog/my%20experience%20as%20a%20gitlab%20hero%20in%20developer%20director%20shadow%20program%20/) from [Siddharth Asthana](https://gitlab.com/edith007)
 1. [My experience shadowing an Engineering Director for a week](https://mkapade.medium.com/my-experience-shadowing-an-engineering-director-for-a-week-22971d9b4020) - [Mrunal Kapade](https://linkedin.com/in/mrunalk)
 1. [What I Learned as a Development Director](https://awkwardferny.medium.com/what-i-learned-as-an-engineering-director-shadow-at-gitlab-1a783cb564d0) - [@fjdiaz](https://gitlab.com/fjdiaz)
 1. [The engineering director shadow experience at GitLab](https://about.gitlab.com/blog/2022/04/01/engineering-director-shadow/) - [@warias](https://gitlab.com/warias)
 1. [Exciting Experience at GitLab Shadow Program](https://www.linkedin.com/posts/palwasha-malik_pakistani-gitlab-gitlabshadowprogram-activity-7075930932083310592-RZLr/) - [Palwasha Malik](https://www.linkedin.com/in/palwasha-malik/)
 1. [Reflections from shadowing GitLab's Development Director](https://singhanshuman.hashnode.dev/reflections-from-shadowing-gitlabs-development-director) - [Anshuman Singh](https://www.linkedin.com/in/anshuman-singh-4537731a5/)
-1. [One week shadowing Wayne Haber, Director of Engineering at GitLab](https://marcaurele.brothier.org/articles/2024-shadow-gitlab-eng-director-wayne-haber/) - [Marc-Aurele Brothier](https://www.linkedin.com/in/marcaurele) 
+1. [One week shadowing Wayne Haber, Director of Engineering at GitLab](https://marcaurele.brothier.org/articles/2024-shadow-gitlab-eng-director-wayne-haber/) - [Marc-Aurele Brothier](https://www.linkedin.com/in/marcaurele)
 1. [Engineering Leadership at GitLab](https://www.linkedin.com/posts/perera-sameera_leadership-lessons-from-gitlab-activity-7165714252924702720-zvEq) from [Sameera Perera](https://www.linkedin.com/in/perera-sameera)
 
 

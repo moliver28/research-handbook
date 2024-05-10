@@ -334,16 +334,16 @@ oc-cluster up
 The GitLab plugin that we install to provision the storage and permissions looks like this:
 
 ```
-# Prefetch the Docker images so the demo is faster
+## Prefetch the Docker images so the demo is faster
 oc import-image gitlab-ce:8.13.0 --from=docker.io/ayufan/gitlab-i2p:latest --confirm
 oc import-image gitlab-ce-redis:3.2.3 --from=docker.io/redis:3.2.3-alpine --confirm
 oc import-image gitlab-ce-postgresql:9.4 --from=docker.io/centos/postgresql-94-centos7:latest --confirm
 oc import-image gitlab-ce-runner:1.7.0 --from=docker.io/gitlab/gitlab-runner:alpine-v1.7.0-rc.2 --confirm
 
-# Allow all logged in users to use the anyuid security context
+## Allow all logged in users to use the anyuid security context
 oc adm policy add-scc-to-group anyuid system:authenticated --as=system:admin
 
-# Create 6 persistent volumes for storage
+## Create 6 persistent volumes for storage
 create-volume pv-gitlab-01
 create-volume pv-gitlab-02
 create-volume pv-gitlab-03

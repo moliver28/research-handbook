@@ -25,23 +25,28 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11015](https://gitlab.com/gr
 ### Milestone 16.4 (August 18, 2023 - September 17, 2023)
 
 #### Goals
+
 - [-] [Design and craft a container that will allow for the shell environment to exist](https://gitlab.com/gitlab-org/gitlab/-/issues/418261)
 - [x] [Add Pod Attach API to the cluster itnegration javascript client](https://gitlab.com/gitlab-org/cluster-integration/javascript-client/-/issues/2)
 
 #### Week of Aug 28-Sept 1
+
 - The bulk of the work is focused around updating the cluster javascript client, the DRI for this task had some PTO time
 - The focus has shifted towards a p1/s1 security issue that then revelaed to be less impactful and has been downgraded to p4/s4
 
 #### Week of Sept 4-8
+
 - [x] *forecast*: Updating the javascript client library to connect to the cluster is completed or close to completition
 - [-] *forecast*: The discussion around designing the container that will receive the connection proceeds and we have an initial tech proposal
 
 #### Week of Sept 11-15
+
 - [x] *forecast*: The discussion around designing the container that will receive the connection proceeds and we have an initial tech proposal
 
 ### Milestone 16.5 (September 17, 2023 - October 10, 2023)
 
 #### Goals
+
 - [x] [Design and craft a container that will allow for the shell environment to exist](https://gitlab.com/gitlab-org/gitlab/-/issues/418261)
 - [-] Add the web terminal interface behind a feature flag
 
@@ -69,6 +74,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11015](https://gitlab.com/gr
 ### Milestone 16.6 (October 17, 2023 - November 10, 2023)
 
 #### Goals
+
 - [x] Finalise [the Design Document](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/merge_requests/1137) for the Cluster Web Terminal
 
 #### Week of Oct 16-20
@@ -103,24 +109,29 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11015](https://gitlab.com/gr
 ### Milestone 16.8 (December 11, 2023 - January 12, 2024)
 
 #### Goals
+
 - The effort on this key project are going to be pause due to limited backend availability and other priorities
 
 ### Milestone 16.9 (January 15, 2024 - February 9, 2024)
 
 #### Goals
+
 - We should be able to resume the work on this project in this milestone, the expected MVC is due in 2 to 3 milestones.
 
 ### Milestone 16.10 (February 12, 2024 - March 8, 2024)
 
 #### Goals
+
 -
 
 ### Milestone 16.11 (March 11, 2024 - April 12, 2024)
 
 #### Goals
+
 -
 
 ### Milestone 17.0 (April 15, 2024 - May 10, 2024)
 
 #### Goals
+
 -

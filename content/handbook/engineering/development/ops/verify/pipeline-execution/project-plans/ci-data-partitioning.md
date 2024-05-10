@@ -8,6 +8,7 @@ description: "The CI Data Partitioning Weekly Project Plan - Pipeline Execution 
 ## CI Data Partitioning - Weekly Project Plan
 
 ### Milestones Goals
+
 - 16.6: ci_builds and ci_builds_metadata tables partitioned
 - 16.7: ci_builds and ci_builds_metadata second partitions in use
 - 16.9: ci_pipeline_variables table partitioned
@@ -32,6 +33,7 @@ description: "The CI Data Partitioning Weekly Project Plan - Pipeline Execution 
 #### Goals
 
 ##### ci_builds
+
 - [x] Merge [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/122919) to use routing table
 - [x] Merge [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/125002) fo ensure id uniqueness across partitions
 - [x] Confirm execution of [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/125002) on .com or retry in case of failure(autovacuum conflict is still an option)
@@ -46,6 +48,7 @@ description: "The CI Data Partitioning Weekly Project Plan - Pipeline Execution 
 #### Goals
 
 ##### ci_builds
+
 - [~] Fix caching issue blocking enabling use of routing table
 - [~] Reintroduce migration for self-managed for ensuring uniqueness of ids across partitions
 
@@ -66,6 +69,7 @@ description: "The CI Data Partitioning Weekly Project Plan - Pipeline Execution 
 #### Goals
 
 ##### ci_builds
+
 - [~] [Analyze partitioned parent tables on a schedule](https://gitlab.com/gitlab-org/gitlab/-/issues/423135)
 - [~] [Manually analyze `p_ci_builds` and `p_ci_builds_metadata`](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/129812#note_1527675793)
 - [~] Deploy the [table name switch to canary](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/129812) and confirm there are no more timeouts
@@ -79,6 +83,7 @@ description: "The CI Data Partitioning Weekly Project Plan - Pipeline Execution 
 #### Goals
 
 ##### ci_builds
+
 - [~] Fix caching issue blocking enabling use of routing table
 - [~] Enable query analyzers: [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/398134)
 
@@ -94,6 +99,7 @@ description: "The CI Data Partitioning Weekly Project Plan - Pipeline Execution 
 #### Goals
 
 ##### ci_builds
+
 - [x] [Manually analyze `p_ci_builds` and `p_ci_builds_metadata`](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/129812#note_1527675793)
 - [x] Deploy the [table name switch to canary](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/129812) and confirm there are no more timeouts
 
@@ -107,10 +113,12 @@ description: "The CI Data Partitioning Weekly Project Plan - Pipeline Execution 
 #### Goals
 
 ##### ci_builds
+
 - [~] [Analyze partitioned parent tables on a schedule](https://gitlab.com/gitlab-org/gitlab/-/issues/423135)
 - [~] Enable query analyzers: [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/398134)
 
 ### Week of October 2, 2023
+
 #### Team Capacity
 
 - 1 BE
@@ -121,10 +129,13 @@ This week we aim to complete the tooling adaptations to allow query analyzers fo
 schedule. This will allow us to ensure the autovacuum process runs on partitioned tables.
 
 ##### ci_builds
+
 - [~] [Analyze partitioned parent tables on a schedule](https://gitlab.com/gitlab-org/gitlab/-/issues/423135)
 
 ### Week of October 9, 2023
+
 #### Team Capacity
+
 - 1 BE
 
 #### Goals
@@ -138,14 +149,18 @@ significantly negatively impacted. We will continue to work on MRs to update fil
 We are still coordinating with infrastructure to switch the table name. Hopefully next week this can be completed.
 
 #### Task List
+
 ##### ci_builds
+
 - [~] Switch the table name on the entire fleet
 - [~] Enable query analyzers for ci_builds: [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/398134) (blocked by table name change)
 - [x] Enable query analyzers for ci_builds_metadata.
 - [x] Start adding partition_id filters to necessary related queries
 
 ### Week of October 16, 2023
+
 #### Team Capacity
+
 - 1 BE
 
 #### Goals
@@ -157,7 +172,9 @@ significantly negatively impacted. We will continue to work on MRs to update fil
 
 
 #### Task List
+
 ##### ci_builds
+
 - [x] Switch the table name on the entire fleet
 - [x] [Analyze partitioned parent tables on a schedule](https://gitlab.com/gitlab-org/gitlab/-/issues/423135)
 - [~] Enable query analyzers for ci_builds: [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/398134) (blocked by table name change)
@@ -171,7 +188,9 @@ The table name got switched on production, so we are able to move forward with t
 
 
 ### Milestone 16.6 (October 17, 2023 - November 10, 2023)
+
 #### Team Capacity
+
 - 1 BE
 
 #### Milestone Goals
@@ -186,56 +205,74 @@ We will enable the use of the partitions in self-managed for ci_builds.
 
 
 ### Week of October 23, 2023
+
 #### Team Capacity
+
 - 1 BE
 
 #### Goals
+
 Now that we have the table name switched over in production we are moving forward with enabling the query analyzers.
 We will continue working on query updates.
 
 
 #### Task List
+
 ##### ci_builds
+
 - [x] Enable query analyzers for ci_builds: [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/398134)
 
 
 ### Week of October 30, 2023
+
 #### Team Capacity
+
 - 1 BE
 
 #### Goals
+
 We plan to start updating the queries to include the partition_id in filtering for ci_builds and ci_builds_metadata.
 
 
 #### Task List
+
 ##### ci_builds
+
 - [x] start adding partition_id filters to related queries [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/423054)
 - [~] Switch writes to second partition: [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/387810)
 - [~] Reintroduce migration for self-managed for ensuring uniqueness of ids across partitions
 
 ##### ci_builds_metadata
+
 - [~] Switch writes to second partition: [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/387810)
 
 
 ### Week of November 06, 2023
+
 #### Team Capacity
+
 - 1 BE
 
 #### Goals
+
  This week we aim to have the partitioning enabled for self-manage.
  We also plan to have the required queries updated so that we can fully take advantage of partitioning for ci_builds and ci_builds_metadata.
 
 #### Task List
+
 ##### ci_builds
+
 - [ ] Complete adding partition_id filters to related queries
 - [ ] Enable for self-managed
 
 ##### ci_builds_metadata
+
 - [ ] Complete adding partition_id filters to related queries
 
 </details>
 
 ### Milestone 16.7 (November 13, 2023 - December 15, 2023)
+
 #### Team Capacity
 
 - 4 BE
@@ -255,6 +292,7 @@ We have made significant progress on the partitioning for ci_pipeline_variables.
 We have also started work on ci_job_artifacts and ci_stages.
 
 ### Milestone 16.8 (December 18, 2023 - January 12, 2024)
+
 #### Team Capacity
 
 - 4.5 BE
@@ -265,16 +303,19 @@ We plan to continue making incremental progress towards the partitioning of all 
 This is a light milestone due to year end PTO.
 
 ### Week of December 18, 2023
+
 #### Team Capacity
 
 - 4 BE
 
 #### Update
+
 We may be able to start work on ci_pipelines as soon as this milestone. We need to swap the primary key on the table before we can start the
 partitioning effort. Originally we planned to wait until a backfill of foreign keys on ci_builds was complete to do the PK swap. After consulting
 with the database team we plan to move ahead with the swap prior to completion.
 
 ### Week of December 25, 2023
+
 #### Team Capacity
 
 - 0 BE
@@ -285,6 +326,7 @@ Resting - Team members are on much deserved PTO.
 
 
 ### Week of January 1, 2024
+
 #### Team Capacity
 
 - 0 BE
@@ -295,6 +337,7 @@ Resting - Team members are on much deserved PTO.
 
 
 ### Week of January 8, 2024
+
 #### Team Capacity
 
 - 4 BE
@@ -305,7 +348,9 @@ Given the backfill was so close to completing, we decided to wait for it to comp
 
 
 ### Milestone 16.9 (January 15, 2024 - February 9, 2024)
+
 #### Team Capacity
+
 - 5 BE
 
 #### Goals
@@ -316,11 +361,13 @@ We will continue identifying and updating necessary sql queries to include parti
 We will flesh out work necessary for the time-decay mechanism and partition manager to dynamically create partitions.
 
 ### Week of January 15, 2024
+
 #### Team Capacity
 
 - 4 BE
 
 #### Update
+
 We realized there are more indexes that need to be rebuilt for ci_pipelines on ci_builds before we are able to swap the primary keys.
 As a result, we do not think we will be able to pull in the timeline for ci_pipelines partitioning any more than currently planned.
 We also ran into a potential roadblock for re-distributing the existing large partitions into smaller ones. We may need to wait until the PG15 upgrade is complete.
@@ -328,6 +375,7 @@ Other planned work is continuing. Some team capacity is helping with regular Pip
 
 
 ### Week of January 22, 2024
+
 #### Team Capacity
 
 - 4 BE
@@ -336,6 +384,7 @@ Other planned work is continuing. Some team capacity is helping with regular Pip
 
 
 ### Week of January 29, 2024
+
 #### Team Capacity
 
 - 5 BE
@@ -345,6 +394,7 @@ Other planned work is continuing. Some team capacity is helping with regular Pip
 #### Task List
 
 ### Week of February 5, 2024
+
 #### Team Capacity
 
 - 5 BE
@@ -353,7 +403,9 @@ Other planned work is continuing. Some team capacity is helping with regular Pip
 
 
 ### Milestone 16.10 (February 12, 2024 - March 8, 2024)
+
 #### Team Capacity
+
 - 6 BE
 
 #### Goals
@@ -364,17 +416,22 @@ We will continue identifying and updating necessary sql queries to include parti
 
 
 ### Milestone 16.11 (March 11, 2024 - April 12, 2024)
+
 #### Team Capacity
+
 - 6 BE
 
 #### Goals
+
 Incremental work will continue towards partitioning of ci_job_artifacts, ci_stages, and ci_pipelines.
 Work will continue on the tiem decay mechanism and partition manager.
 We will continue identifying and updating necessary sql queries to include partition_id.
 
 
 ### Milestone 17.0 (April 15, 2024 - May 10, 2024)
+
 #### Team Capacity
+
 - 6 BE
 
 #### Goals
@@ -384,16 +441,20 @@ We will continue identifying and updating necessary sql queries to include parti
 
 
 ### Milestone 17.1 (May 13, 2024 - June 14, 2024)
+
 #### Team Capacity
+
 - 6 BE
 
 #### Goals
+
 Incremental work will continue towards partitioning of ci_pipelines.
 We will make efforts to clean up any remaining tech debt that we have created - we've been tracking it as we go.
 
 ### Milestone 17.2 (June 17, 2024 - July 12, 2024)
 
 #### Team Capacity
+
 - 3 BE
 
 #### Goals
@@ -405,9 +466,11 @@ We will make efforts to clean up any remaining tech debt that we have created - 
 ### Milestone 17.3 (July 15, 2024 - Aug 9, 2024)
 
 #### Team Capacity
+
 - 3 BE
 
 #### Goals
+
 We will start using the second partition of ci_pipelines, ci_pipeline_variables, ci_job_artifacts, and ci_stages.
 We will start rebalancing the existing partitions now that the 6 target tables have been partitioned.
 At this point it is unclear how long the rebalancing will take, but as we get closer we will update the
@@ -417,6 +480,7 @@ We will make efforts to clean up any remaining tech debt that we have created - 
 ### Milestone 17.4 (Aug 12, 2024 - Sep 13, 2024)
 
 #### Team Capacity
+
 - 1 BE
 
 #### Goals
@@ -425,6 +489,7 @@ We will make efforts to clean up any remaining tech debt that we have created - 
 ### Milestone 17.5 (Sep 16, 2024 - Oct 11, 2024)
 
 #### Team Capacity
+
 - 1 BE
 
 #### Goals
@@ -432,6 +497,7 @@ We will make efforts to clean up any remaining tech debt that we have created - 
 ### Milestone 17.6 (Oct 14, 2024 - Nov 15, 2024)
 
 #### Team Capacity
+
 - 1 BE
 
 #### Goals
@@ -439,9 +505,11 @@ We will make efforts to clean up any remaining tech debt that we have created - 
 ### Milestone 17.6 (Nov 18, 2024 - Dec 13, 2024)
 
 #### Team Capacity
+
 - 1 BE
 
 #### Goals
+
 We can start rebalancing old partitions using functionality in PG15 - [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/438394).
 [GitLab Postgres Upgrade Cadence](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/postgresql-upgrade-cadence/)
 

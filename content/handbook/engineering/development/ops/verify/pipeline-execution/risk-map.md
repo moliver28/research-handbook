@@ -22,11 +22,11 @@ Utilise the Risk Map as a tool to:
 ### General Risk Map
 
 #### Map key
-* Impact - what happens if the risk is not mitigated or eliminated
-* Impact level - Rate 1 (LOW) to 5 (HIGH)
-* Probability - Rate 1 (LOW) to 5 (HIGH)
-* Priority - Impact x Probability. Address highest score first.
-* Mitigation - what could be done to lower the impact or probability
+- Impact - what happens if the risk is not mitigated or eliminated
+- Impact level - Rate 1 (LOW) to 5 (HIGH)
+- Probability - Rate 1 (LOW) to 5 (HIGH)
+- Priority - Impact x Probability. Address highest score first.
+- Mitigation - what could be done to lower the impact or probability
 
 | Risk Area | Risk Description | Impact | Impact level (1 LOW  to 5 HIGH) | Probability (1 LOW to 5 HIGH) | Priority | Mitigation |
 | --- | --- | --- | --- | --- | --- | --- |

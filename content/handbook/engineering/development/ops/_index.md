@@ -28,9 +28,9 @@ The following teams comprise the Ops sub-department:
 
 Teams in the Ops Sub-Department map to several Product Sections.  Product direction can be found on the following direction pages:
 
-* [CI Section Direction](https://about.gitlab.com/direction/ci)
-* [CD Section Direction](https://about.gitlab.com/direction/cd)
-* [Observability Direction](direction/analytics/observability/)
+- [CI Section Direction](https://about.gitlab.com/direction/ci)
+- [CD Section Direction](https://about.gitlab.com/direction/cd)
+- [Observability Direction](direction/analytics/observability/)
 
 ## Slack channels
 
@@ -125,7 +125,7 @@ To be clear, this is not a required process, if your group's approach is working
 - **Impact** should also be highlighted (quantifiable where possible), with examples such as:
   - customer-facing impact (CMAU, ARR growth, retention, adoption, etc)
   - improvements in efficiency, team process or other team metrics
-- Examples demonstrating leadership, ownership and accountability (going _above and beyond_ for your current role):
+- Examples demonstrating leadership, ownership and accountability (going *above and beyond* for your current role):
   - Your role on a project or initiative ("how did you successfully help deliver X?", "what role did you play in this Working Group?")
   - MR Review efforts (your role as a maintainer for your team or for the rest of the department in your domain)
   - Collaborating with your team's stable counterparts
@@ -367,5 +367,5 @@ and would benefit from additional visibility, please post a link with a short de
 When teams are asked to triage support requests for customers on GitLab Dedicated and engineers need access to their logs, a sync can be arranged between the engineer and the assigned Support Engineer for a screensharing session.
 However, when further troubleshooting is needed by the engineering team or async collaboration is preferred, follow these steps to request access:
 1. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) (AR) and list the engineers who require access.  (Note that EMs can create this issue and provide `Manager Approval` on behalf of the engineers)
-1. Assign the AR to the EM and PM of the [Dedicated group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) for _read-only_ log access.
+1. Assign the AR to the EM and PM of the [Dedicated group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) for *read-only* log access.
 1. Reference the AR issue in the support tracker issue so that the Support Engineer is aware.

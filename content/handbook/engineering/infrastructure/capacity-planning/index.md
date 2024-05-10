@@ -150,12 +150,12 @@ Each issue has saturation labels, indicating which thresholds it exceeds and how
 
 The Scalability:Frameworks team uses capacity planning issues to drive prioritization. By taking saturation data as an input into the planning process, Frameworks team can identity potential projects to balance proactive and reactive work streams.
 
-The prioritization framework uses an [Eisenhower Matrix](https://todoist.com/productivity-methods/eisenhower-matrix), a 2x2 matrix based on _urgency_ and _importance_:
+The prioritization framework uses an [Eisenhower Matrix](https://todoist.com/productivity-methods/eisenhower-matrix), a 2x2 matrix based on *urgency* and *importance*:
 
 |                                                                                                                                         |                                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Quadrant 1: Do**<br>_Urgent, Important_<br>Reactive: Non-horizontally scalable resources forecasted to saturate 100% in 90 days.      | **Quadrant 2: Decide**<br>_Less Urgent, Important_<br>Proactive: Non-horizontally scalable resources forecasted to violate hard SLO in 90 days. |
-| **Quadrant 3: Delegate**<br>_Urgent, Less Important_<br>Reactive: Horizontally scalable resources forecasted to saturate 100% in 90 days. | **Quadrant 4: Deny**<br>_Less Urgent, Less Important_<br>Proactive: Horizontally scalable resources forecasted to violate hard SLO in 90 days.  |
+| **Quadrant 1: Do**<br>*Urgent, Important*<br>Reactive: Non-horizontally scalable resources forecasted to saturate 100% in 90 days.      | **Quadrant 2: Decide**<br>*Less Urgent, Important*<br>Proactive: Non-horizontally scalable resources forecasted to violate hard SLO in 90 days. |
+| **Quadrant 3: Delegate**<br>*Urgent, Less Important*<br>Reactive: Horizontally scalable resources forecasted to saturate 100% in 90 days. | **Quadrant 4: Deny**<br>*Less Urgent, Less Important*<br>Proactive: Horizontally scalable resources forecasted to violate hard SLO in 90 days.  |
 
 
  **Urgent** is based on forecast threshold (e.g. `100% saturation` vs. `hard SLO violation`) and **important** is based on scalable resources (e.g. `non_horizontal` vs. `horizontal`). The following resources are available for prioritization:
@@ -268,6 +268,7 @@ More general Tamland development is managed through [Tamland's issue tracker](ht
 ## Examples of Capacity Issues
 
 In this section, we discuss a few capacity planning issues and describe how we applied the process above when addressing them.
+
 ### redis-cache / redis_primary_cpu potential saturation
 
 [gitlab-com/gl-infra/capacity-planning#364](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/364)
@@ -293,38 +294,38 @@ If we hadn't had the capacity planning step in there, we may have noticed this p
 
 [gitlab-com/gl-infra/capacity-planning#42](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/42)
 
-- The Tamland report showed that this component would likely saturate within the next 30 days.
-- The engineer reviewing the issue saw that the trend lines indicated a problem.
-- The engineer contacted the Engineering Manager for the team responsible for this component.
-- The responsible team worked to correct the problem.
-- When the team was satisfied with their changes, we confirmed that this component was no longer showing in the report.
-- We also confirmed through source metrics that this component was no longer likely to saturate.
+* The Tamland report showed that this component would likely saturate within the next 30 days.
+* The engineer reviewing the issue saw that the trend lines indicated a problem.
+* The engineer contacted the Engineering Manager for the team responsible for this component.
+* The responsible team worked to correct the problem.
+* When the team was satisfied with their changes, we confirmed that this component was no longer showing in the report.
+* We also confirmed through source metrics that this component was no longer likely to saturate.
 
 ### redis-cache / redis_memory potential saturation
 
 [gitlab-com/gl-infra/capacity-planning#45](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/45)
 
-- The Tamland report showed that this component might saturate in the next few months.
-- The engineer reviewing the issue determined that this saturation point was an artificial limit. It is expected for this component to hover around its maximum without causing problems.
-- The team worked to [exclude these components from the Tamland process](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1746).
-- The issue was resolved.
+* The Tamland report showed that this component might saturate in the next few months.
+* The engineer reviewing the issue determined that this saturation point was an artificial limit. It is expected for this component to hover around its maximum without causing problems.
+* The team worked to [exclude these components from the Tamland process](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1746).
+* The issue was resolved.
 
 ### redis-cache / node_schedstat_waiting potential saturation
 
 [gitlab-com/gl-infra/capacity-planning#144](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/144)
 
-- The Tamland report showed potential saturation.
-- The engineer reviewing this problem could see that outliers in the data (due to an incident) impacted the forecast.
-- The engineer silenced the alerts and explained why this issue could be closed.
+* The Tamland report showed potential saturation.
+* The engineer reviewing this problem could see that outliers in the data (due to an incident) impacted the forecast.
+* The engineer silenced the alerts and explained why this issue could be closed.
 
 ### git / kube_pool_max_nodes potential saturation
 
 [gitlab-com/gl-infra/capacity-planning#31](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/31) and [gitlab-com/gl-infra/capacity-planning#108](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/108)
 
-- The Tamland report showed potential saturation.
-- The responsible team was contacted and they made changes to address the problem.
-- They believed they had done enough to prevent the saturation from occurring so they closed the issue.
-- When Tamland produced its next report, [the item was still included](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/108).
-- The responsible team picked up the issue again and found that the metrics reporting the problem had been broken with the previous change.
-- The team confirmed that the saturation problem was definitely fixed and corrected the metrics to reflect the change.
-- This example shows that Tamland will continue to notify us of a capacity issue until the metrics show that it is resolved.
+* The Tamland report showed potential saturation.
+* The responsible team was contacted and they made changes to address the problem.
+* They believed they had done enough to prevent the saturation from occurring so they closed the issue.
+* When Tamland produced its next report, [the item was still included](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/108).
+* The responsible team picked up the issue again and found that the metrics reporting the problem had been broken with the previous change.
+* The team confirmed that the saturation problem was definitely fixed and corrected the metrics to reflect the change.
+* This example shows that Tamland will continue to notify us of a capacity issue until the metrics show that it is resolved.

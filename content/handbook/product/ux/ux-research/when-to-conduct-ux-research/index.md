@@ -66,7 +66,7 @@ While research tends to be the most useful towards the beginning of the double d
 
 When considering the level of confidence you may have on a solution or any foundational research, risk needs to also be taken into account. To help with that, let's walk through how each are defined and pose some questions that should be thought about.
 
-**Confidence** - _how confident you are that your design won't negatively impact the UX?_
+**Confidence** - *how confident you are that your design won't negatively impact the UX?*
 
 Some questions to ask yourself to help gauge your level of confidence:
 
@@ -75,7 +75,7 @@ Some questions to ask yourself to help gauge your level of confidence:
 - Have you conducted a [UX Scorecard](/handbook/product/ux/ux-scorecards/)? If so, what was the outcome and what was done as a result of it?
 - Why do you think your design won't result in a negative user experience?
 
-**Risk** - _what would happen if the design negatively impacted the UX?_
+**Risk** - *what would happen if the design negatively impacted the UX?*
 
 Some questions to ask yourself to help weigh risk:
 

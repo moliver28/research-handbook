@@ -31,7 +31,7 @@ From a GitLab capabilities point of view - it includes DevOps essentials like SC
 
 Source Code Management is one part of the Software Delivery Automation solution. See how Source Code Management fits into the overall [Software Delivery Automation](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/) solution.
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Source Code Management (SCM)
 
@@ -144,7 +144,7 @@ Market Requirements is a collection of capabilites we recognize are present in t
 | **Secure Development** | The solution allows for security practices to be enabled at the creation phases of the project | Dependency scanning, SAST, License compliance scanning, DAST, Container scanning | Increasing resilience to external attacks, internal threats and ability to resume activity promptly |
 
 
-# The GitLab Solution
+## The GitLab Solution
 
 ## How GitLab Meets the Market Requirements
 

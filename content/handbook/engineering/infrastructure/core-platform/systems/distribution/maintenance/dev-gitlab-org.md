@@ -106,6 +106,7 @@ using the instance.
     ```bash
     sudo apt-mark hold gitlab-ce
     ```
+
     and verify the hold is in place.
 
     ```bash

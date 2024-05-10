@@ -5,12 +5,12 @@ title: "Scalability"
 
 **Scalability is a strategic practice**. We need
 
-*  A framework to evaluate technical scalability-related decisions in context
+* A framework to evaluate technical scalability-related decisions in context
 * Best practices guidelines to lead our scalability design and implementation
 
 
 
-# The framework
+## The framework
 
 Frameworks help contextualize our thinking around a problem by breaking it into manageable conceptual parts, providing vantage points from which we can *evaluate* choices in both the present and the future. Our design becomes more predictable, our discussions more focused, our decisions likely more accurate and correct. We can make tradeoffs more visible, and, hopefully, easier to understand and reason about.
 
@@ -30,12 +30,12 @@ Frameworks help contextualize our thinking around a problem by breaking it into 
 
 Under this model, the axes represent the following scalability strategies:
 
-- **`X`**-axis: **cloning**
-  - cloning of services and data without bias (i.e., "*like*" workers, duplicating entire datasets)
-- **`Y`**-axis: **componentization**
-  - separation of work responsibility based on type of data and/or work performed
-- **`Z`**-axis: **federation**
-  - separation based on customer or requestor bias
+* **`X`**-axis: **cloning**
+  * cloning of services and data without bias (i.e., "*like*" workers, duplicating entire datasets)
+* **`Y`**-axis: **componentization**
+  * separation of work responsibility based on type of data and/or work performed
+* **`Z`**-axis: **federation**
+  * separation based on customer or requestor bias
 
 These are well-known strategies we are intuitively familiar with. The power of formally adopting the framework lies in that we can now contextualize these strategies and potentially *consider* several moves ahead in a systematic fashion. The following figure (source: https://upload.wikimedia.org/wikipedia/commons/5/5f/Scale_Cube.png) depicts these axes:
 
@@ -64,7 +64,7 @@ A [recent analysis](https://gitlab.com/gitlab-com/gl-infra/infrastructure/-/issu
 
 
 
-# Scalability Best Practices
+## Scalability Best Practices
 
 This section collects scalability best practices, gathered over time through experience (ours and others’). They are **guidelines, not rules**, that we apply to work through these problems in a structured fashion, leveling the cognitive playing field.
 
@@ -90,9 +90,9 @@ Componentization provides scale by creating headroom throughout the freed up res
 
 Componentization is not free:
 
-- Data comes from a separate subsystem and thus a separate runtime scope, so data mappers and data composers are required to compose the data we need. The application must now take over some of those responsibilities, which had been previously delegated to the datastore.
-- Internal latencies will increase, so caching enters the equation; cross-indexing may be required
-- Failure modes become more diffuse: a complete component failure may be straightforward to detect, but when results are returned, we must be able to ascertain said results are the full set of results expected, or be able to understand when partial results are being returned.
+* Data comes from a separate subsystem and thus a separate runtime scope, so data mappers and data composers are required to compose the data we need. The application must now take over some of those responsibilities, which had been previously delegated to the datastore.
+* Internal latencies will increase, so caching enters the equation; cross-indexing may be required
+* Failure modes become more diffuse: a complete component failure may be straightforward to detect, but when results are returned, we must be able to ascertain said results are the full set of results expected, or be able to understand when partial results are being returned.
 
 Componentization can (and should) adhere to efficient iteration. **Componentization** entails breaking up GitLab into logical components such as repositories (already somewhat there: Gitaly, which has in fact also been federated through hashed paths), issues, comments, pipelines, etc. We must place a sensible cap on the number of components allowed (AMF). **Federation** entails vertical axes (tenants, for instance).
 
@@ -130,14 +130,14 @@ Since federation is based on customer or requestor bias, it enables the activati
 
 Sometimes, it makes sense to split a given component in terms of time. Pipelines and related data, for instance, is one example of a potential time-split. Perhaps we keep all configuration and schedules in a fast, relational database, but we move 6-month old data to a separate, perhaps slower database.
 
-# Workflow
+## Workflow
 
 ## Performance Indicators
 
 Performance indicators are scalability-related instrumentation that enables us to understand component and application scalability limits. They’re currently being worked on by the Scalability Team:
 
-- [**https://docs.google.com/document/d/1lZ7RKtv7yCkV7MVx-7UfZZMvEB9lzLrrFDUw0oVFxXA/edit#heading=h.ibm29qjhrqeb**](https://docs.google.com/document/d/1lZ7RKtv7yCkV7MVx-7UfZZMvEB9lzLrrFDUw0oVFxXA/edit#heading=h.ibm29qjhrqeb)
-- https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/382
+* [**https://docs.google.com/document/d/1lZ7RKtv7yCkV7MVx-7UfZZMvEB9lzLrrFDUw0oVFxXA/edit#heading=h.ibm29qjhrqeb**](https://docs.google.com/document/d/1lZ7RKtv7yCkV7MVx-7UfZZMvEB9lzLrrFDUw0oVFxXA/edit#heading=h.ibm29qjhrqeb)
+* https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/382
 
 Performance indicators allow prioritization of scalability work.
 

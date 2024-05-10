@@ -15,7 +15,7 @@ title: "Channel Programs Operations"
 This page documents the operational information and processes for managing the Channel Program Operations.  This page does not include transactional processes, which are available on the [Channel Operations Handbook page](/handbook/sales/field-operations/channel-operations/).
 
 
-# Partner Contracts
+## Partner Contracts
 
 Partners register to join the GitLab Partner Program by registering at partners.gitlab.com.  You can find more details about the registration process on the [Channel Operations Handbook](/handbook/sales/field-operations/channel-operations/#partner-applicant-approval--denial---granting-portal-access) page.  As part of that process, partners are able to review and approve the GitLab partner program agreement.  For partners that do not agree to all the terms of the agreement, the Legal Request process is available to negotiate contact terms.
 
@@ -33,7 +33,7 @@ Copies of the contract templates can be found [here](https://drive.google.com/dr
 
 Partner agreements are limited to a single region (Americas, EMEA, APAC, Public Sector), unless otherwise approved by Channel leadership.
 
-# Partner Portal Administration
+## Partner Portal Administration
 
 Members of the Channel team are granted access to the Partner Portal Admin Console.  This console enables team members to track partner engagement and view partner data.  Partner data is synched between the Partner Portal and Salesforce, so GitLab team members that have access to Salesforce can find all the partner data there.
 
@@ -132,7 +132,7 @@ The Admin console capabilities include:
 
 ** **
 
-# Partner Support Questions
+## Partner Support Questions
 
 Where do partners and CAMs submit questions?
 
@@ -152,7 +152,7 @@ Where do partners and CAMs submit questions?
 The Partner Help Desk team has compiled a list of issues and solutions to the most common Partner Portal, application and data questions into an [FAQ doc](https://docs.google.com/document/d/1rygv7btm5dl-iQrVD30zOYWq98R0dsGYNjIHTBmczGY/edit?usp=sharing).  Please start here to address any issues. This document also includes some of the PHD current state internal processes.
 
 
-# Partner Services Program Management
+## Partner Services Program Management
 
 
 ## Help Your Partners Become a GitLab Designated Professional Services Partner (PSP)
@@ -208,7 +208,7 @@ When a partner annual audit identifies a non-compliant PSP, the monthly report w
 
 
 
-# Internal NFR Request Processes
+## Internal NFR Request Processes
 
 **General NFR Request Process**
 

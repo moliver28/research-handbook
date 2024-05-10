@@ -18,7 +18,7 @@ It is a living document, and is reviewed & updated regularly in [cadence calls](
 
 ## How a success plan is used
 
-The success plan is part of most interactions with the customer, and as an anchor point for GitLab team planning. 
+The success plan is part of most interactions with the customer, and as an anchor point for GitLab team planning.
 
 ### Customer objectives
 

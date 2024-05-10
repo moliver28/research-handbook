@@ -19,6 +19,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/10866](https://gitlab.com/gr
 ### Milestone 16.5 (September 17, 2023 - October 13, 2023)
 
 #### Goals
+
 - [-] [Agree on the implementation plan with the Verify Team]
 - [x] [Prepare a POC of the functionality](https://gitlab.com/gitlab-org/gitlab/-/issues/427389)
 
@@ -32,6 +33,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/10866](https://gitlab.com/gr
 ### Milestone 16.6 (October 17, 2023 - November 10, 2023)
 
 #### Goals
+
 - [ ] Agree on the implementation plan with the Verify Team
 - [ ] [Add CI job state for waiting for external action](https://gitlab.com/gitlab-org/gitlab/-/issues/415736) Is completed.
 
@@ -55,15 +57,18 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/10866](https://gitlab.com/gr
 ### Milestone 16.7 (November 13, 2023 - December 8, 2023)
 
 #### Goals
+
 - We do not forsee any ability for the team to work on this effort in this milestone due to concurrent priorities
 
 ### Milestone 16.8 (December 11, 2023 - January 12, 2024)
 
 #### Goals
+
 - We do not forsee any ability for the team to work on this effort in this milestone due to concurrent priorities
 
 
 ### Milestone 16.9 (January 15, 2024 - February 9, 2024)
 
 #### Goals
+
 - We do not forsee any ability for the team to work on this effort in this milestone due to concurrent priorities

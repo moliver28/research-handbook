@@ -131,6 +131,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 </table>
 
 ## FY25 Vision & Strategy -3 Pillars
+
  - [Vision & Strategy Deck](https://docs.google.com/presentation/d/1qIBbUYoclOGSplOeUAvRwBJGKNwlo41Z7Z2fnu8bZgA/edit?usp=sharing)  (Internal - GitLab Only)
  - Success At Scale
  - Use Case Adoption
@@ -223,7 +224,7 @@ Landing Zones
 - [CSM Promotion Template](https://docs.google.com/document/d/1UOcfUtrseaucIbnFmJkL8XsQwz4xKfj0IQcYbcRGSvI/edit) (GitLab Internal)
 
 
-- - -
+---
 
 
 ## CSM Tools

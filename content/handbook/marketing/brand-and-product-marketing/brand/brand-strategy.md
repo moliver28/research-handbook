@@ -11,7 +11,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 
 
-# The GitLab Brand Strategy team
+## The GitLab Brand Strategy team
 
 The Brand Strategy team is responsible for accelerating GitLab’s path to market by creating awareness, trust, and affinity for the GitLab brand.
 
@@ -23,7 +23,7 @@ The Brand Strategy team is responsible for accelerating GitLab’s path to marke
 
 We’re part of the broader [Brand and Product Marketing team](/handbook/marketing/brand-and-product-marketing/) at GitLab, and we’re close counterparts of the Brand Creative team. Looking for design-related resources? Check out the [Brand Creative handbook](/handbook/marketing/brand-and-product-marketing/design/).
 
-# What we do
+## What we do
 
 Our team's work falls into four pillars:
 
@@ -38,7 +38,7 @@ In FY24, our goal is to establish a global, always-on digital presence with brea
 
 Want to learn more about our current projects, objectives, and key results? GitLab team members can find the Brand Strategy team’s OKRs [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Abrandstrategy&first_page_size=100).
 
-# How to work with us
+## How to work with us
 
 ## Requesting support
 
@@ -89,7 +89,7 @@ If the vendor has met the above criteria, please [submit an issue](https://gitla
 - [ ] E-group member for organization using the vendor (all reference requests except logo use)
 - [ ] Legal ([Legal Materials Review Process](/handbook/legal/materials-legal-review-process/))
 
-# Additional brand resources
+## Additional brand resources
 
 ## Brand guidelines
 

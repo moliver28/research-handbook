@@ -65,8 +65,8 @@ Once the SA leader(s) has identified a suitable location (city) for the team off
 
 Consider reviewing COVID-19 restrictions and requirements during regular team meetings as well as through asynchronous communication methods.
 
-    - US regions: Work within the COVID-19 requirements for dommestic travel
-    - EMEA / APAC regions: Review countries incoming travel requirements as a team and try to understand mandatory pre-arrival PCR or Rapid Antigen Tests needs
+- US regions: Work within the COVID-19 requirements for dommestic travel
+- EMEA / APAC regions: Review countries incoming travel requirements as a team and try to understand mandatory pre-arrival PCR or Rapid Antigen Tests needs
 
 1. As the SA leader, ensure appropriate calendar placeholders have been put in place for the team members
 1. Start by communicating with Sales and Channels Management around the offsite dates

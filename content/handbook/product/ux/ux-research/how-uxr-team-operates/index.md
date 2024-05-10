@@ -16,7 +16,7 @@ To maximize research output and growth opportunities, we have established two wo
 
 #### Single UX Researcher support working model
 
-This model has a single UX Researcher working on a given UX research project and/or stage. Most likely, the UX Researcher is the assigned UX Researcher for the stage or stage group the UX research project is associated with. 
+This model has a single UX Researcher working on a given UX research project and/or stage. Most likely, the UX Researcher is the assigned UX Researcher for the stage or stage group the UX research project is associated with.
 
 #### Collaborative UX Researcher working model
 
@@ -24,11 +24,11 @@ This model is defined as having two UX Researchers working together on a single 
 
 Applying this model at scale means we can systematically explore rotation options to facilitate individual growth of the UX Researchers, and enable all UX Researchers to learn more areas across the product so as to identify more cross-stage research opportunities.
 
-Note that additional time and planning may be required with this model due to the increased collaboration. 
+Note that additional time and planning may be required with this model due to the increased collaboration.
 
 #### UX Researcher pairing
 
-UX Researchers, no matter which working model they adopt, can participate in [UX Resaercher pairing](/handbook/product/ux/ux-research/ux-researcher-pairings/), where they pair up with another UX Researcher so they can provide and receive feedback from each other. This is an opt-in offering and the UX Researchers can self organise. 
+UX Researchers, no matter which working model they adopt, can participate in [UX Resaercher pairing](/handbook/product/ux/ux-research/ux-researcher-pairings/), where they pair up with another UX Researcher so they can provide and receive feedback from each other. This is an opt-in offering and the UX Researchers can self organise.
 
 UX Research pairings gives UX Researchers a consistent partner to share ideas with on research approaches, addressing challenges, reviewing test plans and reports, and gaining experience in delivering feedback. It also gives UX Researchers exposure to product areas outside of their own.
 
@@ -57,7 +57,6 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 [Danika Teverovsky]: https://gitlab.com/dteverovsky
 [Anne Lasch]: https://gitlab.com/alasch
 [Karen Li]: https://gitlab.com/karenyli
-[Will Leidheiser]: https://gitlab.com/wleidheiser
 
 ## How UX Researchers work
 
@@ -65,7 +64,7 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 1. We follow a [priortization process](/handbook/product/ux/ux-research/research-prioritization/) that helps us distribute our time effectively across the research projects occurring within our stage groups.
 1. Like other departments at GitLab, UX Researchers follow the [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline) and use milestones to schedule their work. Milestones change monthly ([find out the dates for upcoming milestones](https://gitlab.com/groups/gitlab-org/-/milestones)).
 
-Note that UX Researchers adopting the Collaborative UX Research working model can operate in a number of ways. The UX Researchers who are working in this model will work closely with each other and with the stakeholders in the product stage to determine the most suitable way to operate, particularly on who the go-to person should be, and for what, and how to initiate, respond to, and work on research projects. The flexibility here is intentional since teams often work differently with unique goals. 
+Note that UX Researchers adopting the Collaborative UX Research working model can operate in a number of ways. The UX Researchers who are working in this model will work closely with each other and with the stakeholders in the product stage to determine the most suitable way to operate, particularly on who the go-to person should be, and for what, and how to initiate, respond to, and work on research projects. The flexibility here is intentional since teams often work differently with unique goals.
 
 ## How UX Researchers decide what to research
 
@@ -162,7 +161,7 @@ Below is an example of the formatting:
 
 Since the UX Research team works so closely with their stage groups and participants, it's important to have a plan in place when we're on PTO to keep research projects moving along - even when we're taking time off. Such an approach allows us to support each other, as a team.  The following steps outline the process the UX Research team follows, regarding PTO:
 
-1. Enter the PTO dates in _Time Off by Deel_ **and** within the [UXR team availability calendar](https://docs.google.com/spreadsheets/d/1lU8DeJmXNkUZm-zQVFrirthZyZz2lBIVQ8Z_RVVRj9g/edit#gid=0) (internal link). When documenting your time in Deel, assign auto-replies to the `#ux_research_lounge` Slack channel or to your manager.
+1. Enter the PTO dates in *Time Off by Deel* **and** within the [UXR team availability calendar](https://docs.google.com/spreadsheets/d/1lU8DeJmXNkUZm-zQVFrirthZyZz2lBIVQ8Z_RVVRj9g/edit#gid=0) (internal link). When documenting your time in Deel, assign auto-replies to the `#ux_research_lounge` Slack channel or to your manager.
 2. Note any overlapping PTO dates with other team members. This is ok - as long as there isn't a business impact.
 3. Create a [coverage issue](https://gitlab.com/gitlab-org/ux-research/-/issues/new#) to address ongoing projects with timely business impact.
 4. Ensure your backups: 1) are not on PTO, and 2) agree to be a backup for you.

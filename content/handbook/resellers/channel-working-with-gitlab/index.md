@@ -420,8 +420,8 @@ Authorized GitLab Partner fills out the NFR License Request Form which can be fo
 
 
 1. Partner Operations review the request and work with the Partner if additional information is needed.
-2. Partner Operations submits a in Internal Support ticket for the NFR license to be provisioned. 
-2. Once provisioned the requestor will receive a license key via email for Self-Managed, or via their customer portal for SaaS. 
+1. Partner Operations submits a in Internal Support ticket for the NFR license to be provisioned.
+1. Once provisioned the requestor will receive a license key via email for Self-Managed, or via their customer portal for SaaS.
 
 
 ##### NFR Renewals

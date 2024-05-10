@@ -48,6 +48,7 @@ The Production Readiness process is authored by the DRI of the work that is bein
 [The issue template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md?ref_type=heads) will guide you though preparing your merge request and how to use the approriate labels to keep your review moving through the process.
 
 The template also contains information about what is expected for Experimental, Beta, and Generally Available features and services.
+
 ## Guidelines for the author
 
 - If this is a review for the next maturity level for an existing feature, create an MR that modifies the existing review document.
@@ -87,10 +88,7 @@ Following this, the issue will be closed and the change can be applied in produc
 
 
 [new issue]: https://gitlab.com/gitlab-com/gl-infra/readiness/-/issues/new?issuable_template=production_readiness
-[readiness project]: https://gitlab.com/gitlab-com/gl-infra/readiness
 [issue template]: https://gitlab.com/gitlab-com/gl-infra/readiness/blob/master/.gitlab/issue_templates/production_readiness.md
-[example template]: https://gitlab.com/gitlab-com/gl-infra/readiness/blob/master/.gitlab/issue_templates/production_readiness.md#readiness-mr-template
 [maturity levels]: https://docs.gitlab.com/ee/policy/experiment-beta-support.html
 [google sre engagement]: https://sre.google/sre-book/evolving-sre-engagement-model/
 [architecture workflow]: https://about.gitlab.com/handbook/engineering/architecture/workflow/
-[issue board]: https://gitlab.com/gitlab-com/gl-infra/readiness/-/boards/5177836

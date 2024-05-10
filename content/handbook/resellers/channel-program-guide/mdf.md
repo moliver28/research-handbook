@@ -46,6 +46,7 @@ Proof of performance (POP) includes partner-generated invoice AND at least one o
 To obtain marketing development funds (MDF), please complete the following steps prior to any activity being performed or expense incurred. Any activity that does not follow the process below and has the appropriate approvals will not eligible for reimbursement.
 
 ### MDF Request
+
 - Partners can access the MDF Request Form from [the GitLab Partner Portal home page](https://partners.gitlab.com/). Navigate to Marketing and select “MDF Request.” Upon selecting MDF Request, complete the first part of the form to create a fund request. Once completed, click “submit it”.
 - Please check this [how-to video](https://www.youtube.com/watch?v=fF1YyrYn_3E) on how to submit an MDF Fund Request.
 - All MDF requests should be submitted at least 10 business days prior to the activity start date
@@ -60,6 +61,7 @@ To obtain marketing development funds (MDF), please complete the following steps
  - You must get formal approval before proceeding with your activity.
 
 ### Timeframe for Completing Activity
+
 - Partners must complete the activity within the quarter that the request has been approved for. If at any point within the funding quarter you decide the allocated funds will not be used for the approved activity, you must notify your Channel Marketing Manager.
 
 #### Canceling and Reallocating Funds for an Activity
@@ -75,6 +77,7 @@ Upon your submission of the lead list, GitLab will pass those leads back to you 
 Instructions on how to accept/reject/reassign a lead or register a deal and submit to GitLab for approval can be found via [this video](https://www.youtube.com/watch?v=BmmiH_ctALk) or in the [partner portal](https://partners.gitlab.com/English/).
 
 ### Funds reimbursement Requirements
+
 - Submission of a payment claim (invoice) within 30 calendar days of completion of the activity via the MDF Reimbursement Request form on the GitLab Partner Portal.
 - Supporting documentation based on the activity, [documented here](/handbook/resellers/Channel-Program-Guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities) <br/>
 **AND**<br/>
@@ -146,6 +149,7 @@ To better track the POP we have created a [MDF Operations Board](https://gitlab.
 - After that Zip approval will take 4 business days.
 
 #### Phase 3: Payment
+
 - Three automated emails are sent to partners notifying them to submit their claims.
 - Email 1: sent a day after the activity end date
 - Email 2: 14-day after the activity end date has passed

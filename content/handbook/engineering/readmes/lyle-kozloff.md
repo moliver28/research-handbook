@@ -5,6 +5,7 @@ description: "Personal readme page for Lyle Kozloff, Director, Support Engineeri
 job: "Director of Support, Global Readiness"
 ---
 ### My Job
+
 My job is to clear obstacles, set context, and build process. In general: to make your (work)
 life easier, clearer and less stressful.
 
@@ -12,6 +13,7 @@ More, I have the privilege of helping you get better at things. I do this by hel
 set goals, providing feedback and acting as a voice of accountability.
 
 ### My Availability
+
 Precious few things are more important than talking to you if you want to talk to me.
 If you need to talk, let's talk. I'm here to enable your success - use me for that.
 
@@ -21,6 +23,7 @@ it's 100% okay to send me a message. I *expect* that you will also control your 
 Nothing on my calendar is urgent unless specifically noted as such.
 
 ### Communication preferences
+
 1. **GitLab**: I'm very responsive on GitLab issues when pinged, and have notifications turned on for most trackers
 in `gitlab-com/support`.
 1. **Slack**: I prefer Slack for most short interactions and questions. Avoid private messages when you can.
@@ -40,6 +43,7 @@ in `gitlab-com/support`.
 1. General notifications from GitLab (subscribed issues and such)
 
 #### Other meetings
+
 I'm open to ad-hoc meetings with anyone who wants to chat - whether you're in my department
 but report to someone else, or in a totally different department.
 
@@ -52,6 +56,7 @@ but report to someone else, or in a totally different department.
 - **We'll tell each other if there's something we could have done better**
 
 ### Greatest Strengths / Greatest Weaknesses
+
 **I'm a collaborative leader and accept input readily.** At its best, this means
 you'll feel empowered. At its worst it means that you'll feel like I don't have a
 vision for what I want.
@@ -87,6 +92,7 @@ I misjudge the complexity or length of a task.
 
 
 ### Your development
+>
 > *From the time you were very little, you've had people who have smiled you into
 > smiling, people who have talked you into talking, sung you into singing, loved
 > you into loving.*
@@ -106,6 +112,7 @@ I want to help you grow. I can / will / have:
 - cheer you on and broadcast your successes
 
 #### Your development as a leader
+
 One of the most important pieces of my job is to help you grow as a leader. Some of
 you may be people leaders, some of you may lead as individual contributors - but
 your ability to influence decisions will be a determining factor you in your
@@ -113,6 +120,7 @@ immediate and future success. I will do my best to lend strength to your voice,
 and help your ideas find their way into results.
 
 ### Feedback
+
 As with most managers, feedback is an area that I never feel like I give enough of.
 If you're looking for feedback and I'm not offering it, it means I think
 that you're doing just fine.
@@ -131,18 +139,21 @@ This will help me give clear, timely feedback that will make a difference instea
 "You're doing great!"
 
 #### Behaviours I value
+
 - Initiative: you see a problem, formulate a solution and act on it, asking for input if only when necessary
 - Humility: you do excellent work which draws attention to itself
 - Consistency: you do what you say you'll do most (if not all) of the time
 - Vulnerability: if you don't know, you ask (and in so doing, create an atmosphere where it's okay to not know and ask)
 
 #### Feedback for me
+
 Like you, I rely on feedback to improve. If you feel there is something I could do better,
 please tell me! If I get salty, defensive or react negatively: call me on it.
 
 If you don't feel comfortable addressing this with me directly, please tell my boss.
 
 ### 1<>1 Meetings
+
 This is your meeting and your time: you set the agenda and determine what we talk about.
 My most effective 1:1s have an agenda that builds up through the week, but I've had some
 really great free-form ones as well. Don't feel bad if you don't come with something prepared.
@@ -160,6 +171,7 @@ I like hearing about situations in your week because:
 **Don't save urgent matters for a 1-1**
 
 ### Strength of Feeling Scale
+
 Somtimes I'll express an opinion with a strength qualifier. The scale is 1-10.
 1 - Strongly opposed
 5 - True Neutral
@@ -169,6 +181,7 @@ Confusingly, I may be strongly **for** a negative. For example: "No, I'm like a 
 Strictly following my own system, I should say "2"... but I think it's more easily understood phrased like that.
 
 ### Other
+
 - My expectations are sometimes expressed softly. If there is any doubt about whether
 something I say is an expectation, a suggestion or an idea please ask.
 - Please feel free to correct me in public channels if I'm wrong about something. I appreciate opportunities to model

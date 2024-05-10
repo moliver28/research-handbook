@@ -256,6 +256,7 @@ When uploading a manifest, if `reference` is a tag (can be a digest as well), we
 When the registry receives the manifest `B`, it finds out that another manifest, `A`, is already tagged with `latest` in the repository. In this situation, the registry will remove the `latest` tag from `A` and point it to `B` instead. Because of this, manifest `A` may now be eligible for deletion if no other tag points to it.
 
 To account for this we need to insert all blobs referenced by manifest `A` into the `blob_review_queue`.
+
 #### Consuming the blob review queue
 
 We implement a background job system that consumes entries from `blob_review_queue` and performs GC checks and actions. This can be done with go-routines and synchronization on `blob_review_queue` can be implemented with `SELECT ... FOR UPDATE SKIP LOCKED` mechanics.

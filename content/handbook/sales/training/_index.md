@@ -10,7 +10,7 @@ description: "GitLab's sales learning framework and sales training resources"
 
 
 
-# GitLab Sales Learning Framework
+## GitLab Sales Learning Framework
 
 GitLab field team members are expected to be knowledgeable and proficient across a variety of topics, skills, behaviors, and processes. For ease of consumption, sales training resources are organized in 6 categories below. If you are looking for more immediate access to resources to support your selling efforts, please check out the [Sales Resources](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7) page.
 
@@ -136,15 +136,15 @@ To optimize productivity, GitLab field team members must be able to consistently
 | Other | - [Things I Wish I Knew During My First Few Quarters at GitLab](https://youtu.be/3gprWrDTEQM) video (Aug 2019, 25.5 minutes) <br> - Sessions (presentations, videos) from [GitLab Sales Kickoff 2021](https://gitlab.edcast.com/channel/sales-kickoff-sko-2021) <br> - Sessions from [GitLab Sales Kickoff 2020](/handbook/sales/training/SKO/#sales-kickoff-2020) |
 | Where can I go to learn more? | - Bookmark the [GitLab Sales Handbook](/handbook/sales/) <br> - [Upcoming and past Level Up sales enablement webcasts](/handbook/sales/training/sales-enablement-sessions/) <br> - [Customer Success Skills Exchange GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KorkxIFgZGnzzxjZRCGROt_) on YouTube <br> - Check out past [Customer Success meetings](/handbook/customer-success/#customer-success-meetings) where new features from recent product releases are discussed and/or demo'ed  |
 
-# Field Enablement Spotlight Sessions
+## Field Enablement Spotlight Sessions
 
 Live sales enablement sessions are held every Thursday from 12:00-12:30pm ET with the exception of the last two weeks of every quarter. Sessions are recorded and published to [Highspot](https://gitlab.highspot.com/items/6480e56aff37cbf397ac752f?lfrm=srp.2), made available for on-demand playback, and added to the inventory above. [Learn more here](/handbook/sales/training/sales-enablement-sessions/).
 
-# Customer Success Skills Exchange
+## Customer Success Skills Exchange
 
 Live customer success enablement videocasts are held roughly every other Wednesday. Learn more by visiting the [Customer Success Skills Exchange Sessions](/handbook/sales/training/customer-success-skills-exchange/#past-sessions) Handbook page and/or check out the [Customer Success Skills Exchange playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KorkxIFgZGnzzxjZRCGROt_) on GitLab Unfiltered to watch past sessions at a location and time of your choosing.
 
-# **Additional Notes**
+## **Additional Notes**
 - Learn about GitLab customer training on the [GitLab Training Tracks site](https://about.gitlab.com/learn/)
 - Learn about the [weekly GitLab Field Enablement Spotlight series](/handbook/sales/training/sales-enablement-sessions/)
 - Learn about the [weekly GitLab SDR Enablement webcast series](/handbook/sales/training/sales-enablement-sessions/)

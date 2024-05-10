@@ -51,17 +51,17 @@ GitLab's Chief Product Officer shares insights on what makes an opportunity canv
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f8k1jWejojA" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
 
-####  Overview and Example Canvases by Stage Maturity
+#### Overview and Example Canvases by Stage Maturity
 
-* [Opportunity Canvas Overview](/handbook/product/product-processes/#opportunity-canvas)
-* Minimal: [Translating alerts into actionable incidents is challenging](https://docs.google.com/document/d/1-sJoVFr3ND_-N3EtXUNYF6oVROfhE4rcjVqpnQd5N6U/edit#heading=h.bjrjegyjyv9f)
-* Complete: [Remote and Virtual Package Repositories](https://docs.google.com/document/d/1HxStNvY5i4Qn6c_AvhsKNV2WOEqbAivEjZqFPwhKej8/edit#heading=h.4mt5fmtn0ax4)
-* Loveable: [Plan: Project Management, Fix Groups and Projects](https://docs.google.com/document/d/1a2xuEMAsWzPK-cb_wnS9DWh9YHXZLs34Lp7jdetODR4/edit#heading=h.4mt5fmtn0ax4)
+- [Opportunity Canvas Overview](/handbook/product/product-processes/#opportunity-canvas)
+- Minimal: [Translating alerts into actionable incidents is challenging](https://docs.google.com/document/d/1-sJoVFr3ND_-N3EtXUNYF6oVROfhE4rcjVqpnQd5N6U/edit#heading=h.bjrjegyjyv9f)
+- Complete: [Remote and Virtual Package Repositories](https://docs.google.com/document/d/1HxStNvY5i4Qn6c_AvhsKNV2WOEqbAivEjZqFPwhKej8/edit#heading=h.4mt5fmtn0ax4)
+- Loveable: [Plan: Project Management, Fix Groups and Projects](https://docs.google.com/document/d/1a2xuEMAsWzPK-cb_wnS9DWh9YHXZLs34Lp7jdetODR4/edit#heading=h.4mt5fmtn0ax4)
 
 ##### "Lite" Opportunity Canvas
 
-* [When and how to use an Opportunity Canvas "Lite"](/handbook/product/product-processes/#opportunity-canvas-lite)
-* [Example: Opportunity Canvas Lite: Parent-child pipelines default behavior change](https://gitlab.com/gitlab-com/Product/-/issues/2030)
+- [When and how to use an Opportunity Canvas "Lite"](/handbook/product/product-processes/#opportunity-canvas-lite)
+- [Example: Opportunity Canvas Lite: Parent-child pipelines default behavior change](https://gitlab.com/gitlab-com/Product/-/issues/2030)
 
 ##### Example Videos of Canvas Reviews
 
@@ -152,6 +152,7 @@ GitLab reimburses its team members the yearly Reforge membership fees as long as
 If you are part of the Product team and are interested in a Reforge membership, we are planning to set up a **team plan** for a discounted rate, see details in https://gitlab.com/gitlab-com/Product/-/issues/5135.
 
 ## General Product Management learning content
+
 [This content is also available in a trackable format in Level Up](https://levelup.gitlab.com/pages/product-management-hub).
 
 This content is divided into five key competencies for Product Managers.
@@ -257,6 +258,7 @@ This content is divided into five key competencies for Product Managers.
 - [LinkedIn Learning: UX Research: Lean Experimentation](https://www.linkedin.com/learning/ux-research-lean-experimentation/)
 
 ##### Books
+
 - [Eric Ries: The Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
 - [Jake Knapp: Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days](https://www.amazon.com/Sprint-Solve-Problems-Test-Ideas/dp/1442397683)
 - [Ash Maurya: Running Lean: Iterate from Plan A to a Plan That Works](https://www.amazon.com/Running-Lean-Iterate-Plan-Works/dp/1449305172)

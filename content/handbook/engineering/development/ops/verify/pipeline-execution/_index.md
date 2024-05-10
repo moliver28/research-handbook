@@ -403,9 +403,9 @@ Engineers will:
 1. Split a backend issue out from the main issue if backend work needs to be completed before frontend work can begin.
 1. Add a [weight based on the definitions](#weighting-issues).
 1. Update the `~workflow::` label to the appropriate status, e.g.
-   * ~"workflow::design" if further design refinement is needed, and let the designer know.
-   * ~"workflow::ready for development" when refinement is completed and a weight has been applied, signaling that it's ready for implementation and the issue can now be prioritized
-   * ~"workflow::blocked" if more investigation and research is needed. Create a [refinement "~spike" issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Pipeline%20Execution%20Refinement%20Spike) and ping the PM and EM.
+   - ~"workflow::design" if further design refinement is needed, and let the designer know.
+   - ~"workflow::ready for development" when refinement is completed and a weight has been applied, signaling that it's ready for implementation and the issue can now be prioritized
+   - ~"workflow::blocked" if more investigation and research is needed. Create a [refinement "~spike" issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Pipeline%20Execution%20Refinement%20Spike) and ping the PM and EM.
 1. Remove the "~needs weight" label if weighting was completed.
 1. Unassign themselves from the issue when they are done refining and weighting the issue.
 
@@ -497,6 +497,7 @@ We use a series of labels to indicate the highest priority issues in the milesto
 Following the  `Verify::P*` priorities, the `ready for development` column on the [Pipeline Execution Workflow issue board][workflow-board] will be curated, so that each team member can pull items from this column as they choose.
 
 ##### Setting the Milestone
+
 When DRIs select issues, they will assign themselves to the issue and also add the milestone that they believe the issue will most likely be shipped, which may not be the current milestone. The DRI may work on issues which are in future milestones. If the milestone is set to a future milestone or not set, and you are sure it will be shipped in the current milestone, reset the milestone to the current one. This is also a good time to re-evaluate the weight and proposal, especially if the DRI picking up the issue was not the same individual who originally weighted and refined the issue. Aspirationally, we strive to iterate and want to break down the efforts to ship as much value in the milestone for our users as possible. This means if you see a more efficient way forward when you start working on a new issue, you are free to raise a comment and update the proposal to deliver more iterative value.
 
 #### Working Right to Left to reduce WIP
@@ -548,7 +549,7 @@ In order to keep our stakeholders informed of work in progress, we provide updat
 
 ##### Issue Health Status
 
-For issues in the current milestone, we use the [Issue Health Status feature](https://docs.gitlab.com/ee/user/project/issues/#health-status) to indicate probability that an issue will ship in the current milestone. This status is updated by the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) as soon as they recognize the probability has changed. If there is no change to the status, a comment to indicate that it has been the status of the issue has been _assessed_ would be helpful.
+For issues in the current milestone, we use the [Issue Health Status feature](https://docs.gitlab.com/ee/user/project/issues/#health-status) to indicate probability that an issue will ship in the current milestone. This status is updated by the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) as soon as they recognize the probability has changed. If there is no change to the status, a comment to indicate that it has been the status of the issue has been *assessed* would be helpful.
 
 The following are definitions of the health status options:
 
@@ -559,7 +560,7 @@ The following are definitions of the health status options:
 Examples of how status updates are added:
 
 1. If the health status changes from `On Track` to `Needs attention` or `At Risk`, we recommend that the DRI add a short comment stating the reason for the change in an [issue status update](#issue-status-updates).
-1. If an issue continues to be `On Track`, the DRI could provide a comment to indicate solutions (whatever it may be) continue to be implemented, and it's still _on track_ to be delivered in the same milestone.
+1. If an issue continues to be `On Track`, the DRI could provide a comment to indicate solutions (whatever it may be) continue to be implemented, and it's still *on track* to be delivered in the same milestone.
 
 ##### Issue status updates
 
@@ -582,7 +583,7 @@ Expectations for DRIs when providing updates for work in progress:
 
 - Status updates are provided once per week, barring special circumstances (e.g. PTO)
 - Ideally updates are made at a logical part of a DRI's workflow to minimize disruption, and not necessarily at the same time/day each week
-  - Generally when there is a logical time to leave an update, such as a _change in issue health status_, that is the best time to do so
+  - Generally when there is a logical time to leave an update, such as a *change in issue health status*, that is the best time to do so
   - Can be used to present some technical findings or information relevant to other stakeholders
 
 ##### Tracking Inactive Issues
@@ -678,7 +679,7 @@ Note: A good practice when only wanting to inform rather than requesting a direc
 
 A top priority for us is usability, and one way to effectively evaluate our [JTBDs](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/) is with periodic [UX Scorecards](/handbook/product/ux/ux-scorecards/). For technical tasks that require infrastructure support, such as a functional cluster or provisioned environment with a `.gitlab-ci.yml` file, the Product Designer and the Product Manager can work with the Engineering Manager and Quality stable counterparts to craft a project based on the scenarios to test for the JTBDs. Some guidelines for working together in this case:
 
-- Be sure to schedule _at least_ a full milestone in advance, so there is enough lead time for the stable counterparts
+- Be sure to schedule *at least* a full milestone in advance, so there is enough lead time for the stable counterparts
 - Create an overall epic and add issues for task tracking for infrastructure creation
 - Schedule a kick off or record a walkthrough of the scenarios for everyone to have a shared understanding of the JTBD that are being evaluated
 

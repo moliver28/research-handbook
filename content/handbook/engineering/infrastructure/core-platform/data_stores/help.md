@@ -75,7 +75,7 @@ If the application (or component a major component ex: Sidekiq) is down or unres
 The easiest way is using `git`, from the gitlab repository, run:
 
 ```sh
-$ git log --first-parent {path/to/migration.rb}
+git log --first-parent {path/to/migration.rb}
 ```
 
 That should give you an output that includes a link to the merge request where the migration was added.

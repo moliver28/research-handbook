@@ -14,17 +14,19 @@ aliases:
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM/CSE-related handbook pages.
 
 ---
+
 ## CSE Team Customer Engagement Types
 
 There are several different ways that the CSE team engages with customers, including:
-1. [Targeted campaigns run from Gainsight](#targeted-campaigns) 
+1. [Targeted campaigns run from Gainsight](#targeted-campaigns)
 
 1. [Monthly Webinars and Labs](#monthly-webinars-and-hands-on-labs)
 1. [GitLab Onboarding Cohorts](#cse-onboarding-cohorts)
-1. [Sales Driven CSE Engagement Request](#cse-engagement-request-process) 
+1. [Sales Driven CSE Engagement Request](#cse-engagement-request-process)
 
 
 ### Targeted Campaigns
+
 Customer Success Operations and CS leaders determine, based on various GitLab health metrics, a set of outreach campaigns to drive customer interactions that will help improve GitLab adoption and usage.  Examples of campaigns are:
  - 21 day check in
  - 90 day low license utilization
@@ -44,16 +46,16 @@ The host of the webinar should download the recording from [Webinar Master Recor
 
 1.Download Mp4 to your computer the day before session starts.
 1. Start practice session. You'll get a reminder email one day and one hour before the webinar starts and can click on that link. You can join the webinar anytime before it starts in a practice session in order to test the video playback.
-1. Mute yourself and turn off video. The customer will only see the pre-recorded presenter, at no time should they see the panelists. 
-1. Press "Share Screen" > Advanced > Video **DE-Select "Optimize for video clip"** Share > Select the Mp4 file of the recording 
+1. Mute yourself and turn off video. The customer will only see the pre-recorded presenter, at no time should they see the panelists.
+1. Press "Share Screen" > Advanced > Video **DE-Select "Optimize for video clip"** Share > Select the Mp4 file of the recording
 
 The host and Q&A panelist should start/join the webinar at least 10 minutes before the webinar start time so that they can test the video sharing and ensure everything is set for the webinar.  There is no need for the host to say any opening remarks prior to playing the video.  All housekeeping items are handled as part of the recording.
 
-For the webinars, we collect feedback from attendees through a Zoom Poll. 
+For the webinars, we collect feedback from attendees through a Zoom Poll.
 At the end of the webinar, the host should launch the poll for the attendees. The default poll is already configured and saved in Zoom. To access it, follow the steps below:
 
 1. In Zoom, while presenting the video, click on the **More** button in the bottom menu.
-2. Select **Polls**, then click on the **Feedback Poll**. 
+2. Select **Polls**, then click on the **Feedback Poll**.
 3. Check the questions and click on the **Launch** button to launch the poll for all attendees.
 
 ![example-zoom-polls-webinars-cse](/handbook/customer-success/csm/segment/cse/zoom-polls-cse.gif)
@@ -66,7 +68,7 @@ Here is a quick video guide on how to host the webinar, including steps for shar
 
 #### Preparing for and Delivering a Hands-on Lab
 
-The upcoming month's hands-on labs are added to an issue in the [Customer Success Operations Project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/?label_name%5B%5D=CSOps%20-%20Scale) (separate from the webinar schedule) and the CSE team is asked to sign up as Presenter or Q&A support. 
+The upcoming month's hands-on labs are added to an issue in the [Customer Success Operations Project](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/?label_name%5B%5D=CSOps%20-%20Scale) (separate from the webinar schedule) and the CSE team is asked to sign up as Presenter or Q&A support.
 
 The Presenter should add the lab to the [FY23 and FY24 Lab Schedule issue](https://gitlab.com/gitlab-com/customer-success/demo-engineering/workshop-library/demo-engineering-workshop-issues/-/issues/8) in the Demo Engineering Workshop Issues Project.  This should be added at least one week before the lab to give the Demo Engineering team enough time to prepare the lab environment.  Then add a comment mentioning @sgrahamgl to let him know you added your lab.
 
@@ -108,7 +110,7 @@ The onboarding cohort will have a duration of 4 weeks, starting at the beginning
 - Week 3: [GitLab Security & Compliance](https://docs.google.com/presentation/d/11kBdYaW7b_2FiZZUOJNp7OQ9qRQzD_LaWiqRJ_YJJtQ/edit?usp=sharing)
 - Week 4: [AI in DevSecOps](https://docs.google.com/presentation/d/1G6uFXNG3U1VD13BM8rj1MZf_VMH99j9R2lFqG_09R2Y/edit?usp=sharing)
 
-All customers participating will complete their training using a sandbox sub-group on gitlab.com [provisioned via gitlabdemo.com](https://gitlabdemo.com/login). 
+All customers participating will complete their training using a sandbox sub-group on gitlab.com [provisioned via gitlabdemo.com](https://gitlabdemo.com/login).
 
 ### CSE Engagement Request Process
 

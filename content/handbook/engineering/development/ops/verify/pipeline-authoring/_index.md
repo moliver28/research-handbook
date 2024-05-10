@@ -89,6 +89,7 @@ Issues are refined and weighted prior to assigning them to a milestone. We use `
 We create a [planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/blob/master/.gitlab/issue_templates/Planning_issue_PA.md) as part of our milestone planning process and the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started) is the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)) for current and upcoming work. Product is the DRI in prioritizing work, with input from Engineering, UX, and Technical Writers. The planning issue is used to discuss questions and team capacity. Prior to the beginning of each milestone, issues identified in the planning issue will be assigned to that milestone and engineers can assign prioritized issues to themselves from the top of the `workflow::ready for development` column in the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started).
 
 #### Finding issues that need refinement
+
 All issues that need refining will have the `~workflow::planning breakdown` label applied to them to show that the issues are ready to be weighted.
 You can access all these issues using this [issue filter](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started).
 It's never too early to refine an issue, but we should prioritise the issues closest to starting.  We should also apply the `~workflow::refinement` label when there are still technical discussions that need to take place before weighting can occur during `~workflow::planning breakdown`.
@@ -120,9 +121,9 @@ Engineers will:
 1. Go through the checklist above for refining issues they assign to themselves prior to each milestone.
 1. Add a [weight based on the definitions](#weighting-issues).
 1. Update the `~workflow::` label to the appropriate status, for example:
-   * ~"workflow::design" if further design refinement is needed, and let the designer know.
-   * ~"workflow::ready for development" when refinement is complete and a weight has been applied, signaling that it's ready for implementation and the issue can be scheduled accordingly.
-   * ~"workflow::planning breakdown" if more investigation or research is needed, the status does not move, and the PM and EMs should be pinged.
+   - ~"workflow::design" if further design refinement is needed, and let the designer know.
+   - ~"workflow::ready for development" when refinement is complete and a weight has been applied, signaling that it's ready for implementation and the issue can be scheduled accordingly.
+   - ~"workflow::planning breakdown" if more investigation or research is needed, the status does not move, and the PM and EMs should be pinged.
 1. Unassign themselves from the issue when they are done refining and weighting the issue.
 
 #### Weighting Issues
@@ -147,9 +148,9 @@ If an issue requires a feature flag rollout plan, consider increasing the weight
 
 Sometimes, issues that were originally weighted need to be updated to give a more accurate reflection of what the true work was.
 When this happens, team members are encouraged to:
-* Provide comments explaining why the weight is changing as the task is being implemented
-* Update the weight of the issue as limitations are realized during implementation, and validate that the weight is correct upon completion of the task
-* Note in the current milestone retrospective of this change as this will provide valuable context for historical reference of how much effort was involved with this work
+- Provide comments explaining why the weight is changing as the task is being implemented
+- Update the weight of the issue as limitations are realized during implementation, and validate that the weight is correct upon completion of the task
+- Note in the current milestone retrospective of this change as this will provide valuable context for historical reference of how much effort was involved with this work
 
 ### Syntax deprecation process
 
@@ -173,7 +174,7 @@ To encourage more transparency and collaboration amongst the team and additional
 
 ### Quad-planning
 
-Similar to the [Three Amigos](https://www.agilealliance.org/glossary/three-amigos) process, Quad-planning is leveraging our "Quad" (Product, UX, Engineering and Quality) to help inform planning of work for the team. It also ensures a shared understanding about the scope of work in a milestone. The _Quad_ is invited to provide feedback on a Planning Issue to ensure that issues have been properly refined. Unlike the [regular product development workflow that details the Quad-planning process](/handbook/product-development-flow/#build-phase-1-plan), Engineering is not only represented by Engineering Management, but the Engineer DRIs as well. The SET counterpart representing Quality will also provide feedback earlier in the process following the [Quality department's guidelines for Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/#process), by working asynchronously and reviewing the issues in the Planning issue.
+Similar to the [Three Amigos](https://www.agilealliance.org/glossary/three-amigos) process, Quad-planning is leveraging our "Quad" (Product, UX, Engineering and Quality) to help inform planning of work for the team. It also ensures a shared understanding about the scope of work in a milestone. The *Quad* is invited to provide feedback on a Planning Issue to ensure that issues have been properly refined. Unlike the [regular product development workflow that details the Quad-planning process](/handbook/product-development-flow/#build-phase-1-plan), Engineering is not only represented by Engineering Management, but the Engineer DRIs as well. The SET counterpart representing Quality will also provide feedback earlier in the process following the [Quality department's guidelines for Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/#process), by working asynchronously and reviewing the issues in the Planning issue.
 
 The Product Manager will label relevant issues from the milestone planning issue with the `quad-planning:ready` label. Supplying these distinct viewpoints at this early stage of planning is valuable to informing the feasibility of the effort, as well as refining any unclear requirements or scope. Once acceptance criteria is agreed upon, the `quad-planning:complete` label is applied by the SET on each of the issues.
 
@@ -229,10 +230,10 @@ Issue descriptions shall always be maintained as the single source of truth. Iss
 Each member of the team can choose which issues to work on during a milestone by assigning the issue to themselves.  When the milestone is well underway and we find ourselves looking for work, we default to working **right to left** on the **issue board** by pulling issues in the right-most column. If there is an issue that a team member can help with on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to, if they feel that they can add value and help move the issue along to completion.
 
 Specifically, this means our work is prioritized in the following order:
- * Any verification on code that is in `workflow::verification` or `workflow::production` - **NOTE:** If an issue has the `workflow::feature-flagged label`, this means the feature is behind a feature flag that has not  been turned on by default.
- * Conducting code reviews on issues that are `workflow::in review`
- * Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
- * Then, lastly, picking from the top of the `workflow::ready for development` for development column
+ - Any verification on code that is in `workflow::verification` or `workflow::production` - **NOTE:** If an issue has the `workflow::feature-flagged label`, this means the feature is behind a feature flag that has not  been turned on by default.
+ - Conducting code reviews on issues that are `workflow::in review`
+ - Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
+ - Then, lastly, picking from the top of the `workflow::ready for development` for development column
 
 The goal of this process is to reduce the amount of work in progress (WIP) at any given time. Reducing WIP forces us to "Start less, finish more", and it also reduces cycle time. Engineers should keep in mind that the DRI for a merge request is **the author(s)**, to reflect the importance of teamwork without diluting the notion that having a [DRI is encouraged by our values](/handbook/people-group/directly-responsible-individuals/#dris-and-our-values).
 
@@ -275,6 +276,7 @@ On the last week of the milestone, the DRI ([directly responsible individual](/h
 - `At Risk` - The issue is **unlikely** to be completed in the current milestone and will probably miss the release due dates.
 
 Please note that if an issue happens to roll over to the next milestone, the DRI should clear the health status once the next milestone begins to ensure the health status is accurate.
+
 #### Issue status updates
 
 When the DRI is actively working on an issue  (workflow status is `workflow::in dev`, `workflow::in review` or `workflow::verification` in the current milestone), they will add a comment into the issue with a status update, detailing:
@@ -295,7 +297,7 @@ Expectations for DRIs when providing updates for work in progress:
 
 - Status updates are provided once per month, barring special circumstances (e.g. PTO)
 - Ideally updates are made at a logical part of a DRI's workflow to minimize disruption, and not necessarily at the same time/day each week
-  - Generally when there is a logical time to leave an update, such as a _change in issue health status_, that is the best time to do so
+  - Generally when there is a logical time to leave an update, such as a *change in issue health status*, that is the best time to do so
   - Can be used to present some technical findings or information relevant to other stakeholders
 
 #### Issues in `workflow::design`
@@ -409,10 +411,10 @@ Note: A good practice when only wanting to inform rather than requesting a direc
 
 We suggest using the below steps to reach the best results in the shortest time:
 
-* Once, through user research, we have identified a user need and have generated the big idea to meet that need, Product Designer drives the process of moving that idea into a solution prototype involving PM and Engineering Team early and often.
-* We take that prototype through a user testing to validate it is solving the original problem.
-* When the solution is validated with users - it is time to break the big solution down into smaller issues involving a whole team (PM, Engineers, Product Designer, QA and Technical Writer).
-* Engineers, Product Designer, EM and PM are expected to work closely together to find the most technically feasible and smallest feature set to deliver value to early customers and provide feedback for future product development. Check out [iteration strategies](#iteration-strategies) for help.
+- Once, through user research, we have identified a user need and have generated the big idea to meet that need, Product Designer drives the process of moving that idea into a solution prototype involving PM and Engineering Team early and often.
+- We take that prototype through a user testing to validate it is solving the original problem.
+- When the solution is validated with users - it is time to break the big solution down into smaller issues involving a whole team (PM, Engineers, Product Designer, QA and Technical Writer).
+- Engineers, Product Designer, EM and PM are expected to work closely together to find the most technically feasible and smallest feature set to deliver value to early customers and provide feedback for future product development. Check out [iteration strategies](#iteration-strategies) for help.
 
 We aim to design broadly for an epic or full feature at least one milestone ahead of time and then break the big solution into smaller issues to pick up in the next milestones.
 Suppose working one milestone ahead to design the big solution is not possible. In that case, Engineering and Product Designer will define the first most technically feasible and smallest feature set ([MVC](/handbook/values/#minimal-viable-change-mvc)) to satisfy early customers that will be implemented in the same milestone.
@@ -438,9 +440,9 @@ If we find that solutions are consistently not matching the agreed upon design, 
 
 #### Avoiding crunch times between UX and Engineering
 
-* Ideally, the Product Manager works ahead of time with a Product Designer to validate the problem and work on the solution. See [Validation track](/handbook/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
-* Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement - we can have a put a direction on the board - see [Solution Validation phase](/handbook/product-development-flow/#validation-phase-4-solution-validation) for details.
-* Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development-flow/#build-track) to avoid unplanned changes.
+- Ideally, the Product Manager works ahead of time with a Product Designer to validate the problem and work on the solution. See [Validation track](/handbook/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
+- Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement - we can have a put a direction on the board - see [Solution Validation phase](/handbook/product-development-flow/#validation-phase-4-solution-validation) for details.
+- Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development-flow/#build-track) to avoid unplanned changes.
 
 #### Iteration on UX and Engineering collaboration process
 

@@ -130,6 +130,7 @@ List of frontend collaborations:
 The frontend roadmap items above are broken down into specific epics and issues, and they can also be labelled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
 
 ### Increasing Efficiency through Documenting Decisions
+
 Documenting development decisions is another way to increase efficiency.  These decisions can be either in an issue explicitly stating that we will not work on this issue, the product category page for your group or a more formal decision log in your group's section of the handbook.  Whatever your chosen desitination, each group should try to maintain a [single source of truth](/handbook/values/#single-source-of-truth) for the decisions.  A recent example (without mentioning specific product name) had a development team researching an open source product to accelerate development time only to find out later that this research had been previously completed and the product was eliminated from consideration.  If this decision had been discoverable via documentation or issue it would have saved precious development time.
 
 We have started creating decision logs to benefit our internal development team as well as our greater GitLab community.  It is up to each group to determine the best location for decision logs to be discoverable.  For example, the Database team has a decision log for [Sharding GitLab with CitusDB](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus.html) in the Core Platform/Database section of the handbook and a decision log for the [Sharding Working Group](/handbook/company/working-groups/sharding/#outcome---closed) in the working group section of the handbook.
@@ -137,11 +138,13 @@ We have started creating decision logs to benefit our internal development team 
 For issues, a clear decision is when an issue is successfully closed.  However, if an issue is closed because we "won't do it" it may not be immediately clear.  We are adopting the `~won't do` label for those issues.  Often the pattern is to just stash these issues in the `~backlog`.  This can be misleading to those watching the issue and frustrating to the original author, especially if they are a community contributor.  When we apply a `won't do` label to an issue, we are making a clear decision.  If there is no pushback on the `won't do` label then we made the right decision.  If there is pushback and we need to reprioritize the issue, then that is a good outcome as well.
 
 ### How Do We Interview Candidates
+
 We hold our bar high when it comes to hiring. Our goal is to hire the best candidates who will make GitLab successful meanwhile ensuring that the candidates are also set up for success at GitLab. With that in mind, our interview panels consist of a minimum of 4 interviewers (a.k.a. 4 scorecards), and there is no upper bound if needed. However, typically it won't go beyond 6 interviewers in total. Our interview panels are designed so that multiple data points are available from different interviewers for a specific factor, such as technical competency. This lets us confidently make decisions by cross referencing interview feedback in order to avoid the risk of single data source.
 
 To bring the best possible candidate experience and stay competitive, we schedule all interviews at once and try to fit all in a small time window. This means the interviews are not serial and the scheduling of an interview doesn't depend on the outcome of another one. On the other hand, we will give candidates advanced notice that the interview process can halt at any time and we will notify them if the case. This is to respect the candidates' time when we believe the candidate is a better fit for other opportunities.
 
 #### Individual Contributors
+
 1. Technical Assessment Interview
    1. Typically the general frontend, backend, full-stack, or Go technical assessment
    1. The Distribution team has designed a technical assessment specific to their needs, as the above does not apply to its domain.
@@ -171,6 +174,7 @@ Additional Guidelines:
    1. The Product Manager interview is **required** for Staff and above candidates
 
 #### Engineering Managers
+
 1. Hiring Manager Interview
 1. Peer Manager Interview - an EM who will be the peer of the candidate. Usually, it is an Engineering Manager within the same Stage or who collaborates closely with this role
 1. Team Member Interview - an individual contributor who will report to this role
@@ -179,6 +183,7 @@ Additional Guidelines:
 1. Other interviews if needed - when the interview team finds out they need additional data for a particular topic(s), where the topic can be any item required for the scorecards or more clarification/drilldown to the answers that candidates provided. For Engineering Manager roles, it can also include additional skip-level manager interviews to provide additional input
 
 #### Requirements for Qualified Candidates
+
 1. There are at least two `Strong Yes` scorecards, excluding the recruiting call
 1. All `must-haves` assessed and positive (`Yes` or `Strong Yes`)
 1. Majority (e.g. 5 out of 9) of `nice-to-haves` assessed and positive
@@ -189,6 +194,7 @@ Additional Guidelines:
 1. Justification scorecard must score `must-haves` and `nice-to-haves` the same way as required in #2 and #3. The ratings should reflect the hiring manager's evaluation of the candidate based on all feedback. They are **not** an average of scores given by the interview panel.
 
 ## Software Subscriptions
+
 The Core Platform teams leverage the following software or SaaS services to deliver our products. For general information of procurement, checkout the [procurement team page](/handbook/finance/procurement/). For procurement questions, bring to [#procurement](https://gitlab.slack.com/archives/CPTMP6ZCK). To make new Purchase Order (PO), create a new [procurement issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/new?issuable_template=software_vendor_contract_request).
 
 | Software | Vendor Link | Term    | Renewal Date | Team Impacted | Comments |

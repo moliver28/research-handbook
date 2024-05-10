@@ -12,7 +12,7 @@ twitter_creator: "@gitlab"
 
 
 
-# General SLAs for video production
+## General SLAs for video production
 
 - All video requests must be made using the video-request issue template.
 - Requests must be made no less than ten weeks in advance for event videography.
@@ -37,7 +37,7 @@ twitter_creator: "@gitlab"
 
 The following is an overview of how to prepare an Illustrator file for import into After Effects for animation.
 
-# Processes
+## Processes
 
 ## Preparing Illustrator Files for Import into After Effects
 

@@ -16,6 +16,7 @@ We track progress through the skills required to be a product manager at all lev
 ---
 
 ### What is the expected outcome of a CDF Review?
+
 CDF reviews should result in actionable improvement focus areas for the product manager. When conducting a CDF review, managers should consider drilling into specific items within the PM's purview to highlight where the team member can focus on improving. [PM competencies](/handbook/product/product-manager-role/learning-and-development) are also valuable for identifying improvement areas.
 
 We use KPIs by function in the CDF. These KPIs feature a guideline for results that are meant to be suggested indicators for ideal behaviors for Product teammates at GitLab. These are target results and are not meant to be an exhaustive list for Product teammate performance. As a manager and individual contributor, have a dialogue about the right measures of success and define those at the beginning of each performance cycle. Keep the KPIs consistent as you measure them over each CDF review for the best comparative results of growth.
@@ -25,6 +26,7 @@ We use KPIs by function in the CDF. These KPIs feature a guideline for results t
 In each CDF review, it's recommended to select an improvement area to focus on until the next CDF review. This could be anywhere from 1 to 3 improvement areas that you and your manager select together. Once selected, the teammate and manager check in on those focus areas in each 1:1 reviewing progress, discussing feedback, and adjusting any plans for the quarter to continue to improve. Selecting a focus provides a structure to say "no" to other areas that may not be as timely, critical, or worth the additional focus.
 
 ## CDF for Individual Contributor Product Managers
+
 Below, you'll find the CDF framework and potential discussion topics for [Product Managers](/job-families/product/product-manager/).
 
 ### Competencies
@@ -186,11 +188,11 @@ Responsibilities outlined in the [Group Manager of Product Job Family page](/job
 
 ##### Group Manager
 
-* Coaching of team members on validation track skills
-* Strategic research
-* Driving cross-group connections in service of a single-app experience
-* Adoption Funnel across product groups
-* Partnership with GTM via Use Case assignment
+- Coaching of team members on validation track skills
+- Strategic research
+- Driving cross-group connections in service of a single-app experience
+- Adoption Funnel across product groups
+- Partnership with GTM via Use Case assignment
 
 #### Role Expectations
 
@@ -210,11 +212,11 @@ Responsibilities outlined in the [Group Manager of Product Job Family page](/job
 
 ##### Group Manager
 
-* Coaching of team members on business skills
-* Acquisitions
-* Deep understanding, synthesis, and communication of competitive landscape and emergent solutions
-* Business Cases for new investment
-* Direction updates
+- Coaching of team members on business skills
+- Acquisitions
+- Deep understanding, synthesis, and communication of competitive landscape and emergent solutions
+- Business Cases for new investment
+- Direction updates
 
 #### Role Expectations
 
@@ -234,8 +236,8 @@ Responsibilities outlined in the [Group Manager of Product Job Family page](/job
 
 ##### Group Manager
 
-* Presenting broader GitLab Roadmap
-* Represent GitLab at Conferences
+- Presenting broader GitLab Roadmap
+- Represent GitLab at Conferences
 
 #### Role Expectations
 
@@ -255,15 +257,15 @@ Responsibilities outlined in the [Group Manager of Product Job Family page](/job
 
 ##### Group Manager
 
-* Partnership with Design leadership
-* High-performing team
-* Enabling direct reports to be more efficient
-* Shared understanding of team goals and targets
-* Hiring and at managing underperformance.
-* Caring personally for team members.
-* Candid real-time feedback.
+- Partnership with Design leadership
+- High-performing team
+- Enabling direct reports to be more efficient
+- Shared understanding of team goals and targets
+- Hiring and at managing underperformance.
+- Caring personally for team members.
+- Candid real-time feedback.
 
-** Note ** Aligning Teams with Values includes People Management Skills
+**Note** Aligning Teams with Values includes People Management Skills
 
 #### Role Expectations
 
@@ -273,11 +275,13 @@ Responsibilities outlined in the [Group Manager of Product Job Family page](/job
 
 
 ## Evaluating Product Manager's potential
+
 When evaluating a product manager's potential, in addition to the [generic information](/handbook/people-group/talent-assessment/#what-is-potential) outlined, we also want to evaluate potential based on the unique and outsized impact PMs can have. We acknowledge that the evaluation will remain more qualitative than quantitative, but rather than shy away from making an evaluation, we will lean in using the information below.
 
 We can think about the Product Manager's potential primarily on two axis: value creation and leadership.
 
 ### Value Creation
+
 Product managers are in the business of creating value, measurable by [Product KPIs](/handbook/product/performance-indicators/#structure). They prioritize the most important thing to unlock the most value at the intersection of the business and the user or buyer. At GitLab, Product Managers are often the [business owner](https://www.svpg.com/product-managers-vs-business-owners/) of their segment and outputs are not just in the delivery of features to production, rather can include go-to-market, sales enablement, partner/channel/alliances relationships, and understanding revenue impact of the product offering.
 
 We expect product managers to create value across the business by excelling at execution in at least the following levels. When thinking of a PM's potentials, consider their capacity to expand their influence beyond their current level.
@@ -292,6 +296,7 @@ We expect product managers to create value across the business by excelling at e
 | **VP and up**    | company-wide or new business/industry |
 
 ### Leadership
+
 As product managers grow in experience and seniority, they are tasked with shaping alignment, producing results, and leading with increasing responsibilities. Understanding how to set the tone with vision and strategy, and knowing how to control output in a system comprised of people, culture, technology, and process is how product managers lead.
 
 We expect product managers to be a leader at the following levels. When evaluating potential, consider the PM's capacity to be a leader with more scope.
@@ -305,6 +310,7 @@ We expect product managers to be a leader at the following levels. When evaluati
 | **VP**                     | company-wide |
 
 ### A framework for evaluating potential
+
 It can be challenging objectively evaluating product managers for categorization of Low, Medium and High potential as suggested in the [Performance/Potential Matrix](/handbook/people-group/talent-assessment/#the-performancepotential-matrix). Consider using the following framework to rank a PM's potential. Assign a ranking, 1 (Low) - 5 (High) to each attribute below. Add up the rankings for a total score. A score between 5-11 is low potential, 12-18 is medium potential, 19-25 is high potential.
 
 | Attribute                 | Reasoning |
@@ -316,6 +322,7 @@ It can be challenging objectively evaluating product managers for categorization
 | Self-awareness            | A large part of leadership is knowing where you are not strong and building relationships to fill in the gaps. |
 
 #### Make evaluating potential actionable
+
 Product managers are typically driven and high performing individuals, and we often overestimate our own abilities relative to others. Seeing even a medium potential may be disappointing to many PMs. It should be made clear that a perceived lower than desired potential does not mean the PM is not valued and not performing to expectation. Managers should use a CDF Review to discuss the scoring of the potential. The outcome should be to identify opportunities for the PM to grow and areas for the manager to mentor and coach the PM.
 
 ## Supporting a Product Manager's Career
