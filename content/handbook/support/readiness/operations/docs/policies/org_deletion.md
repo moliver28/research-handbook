@@ -54,7 +54,7 @@ that seems amiss, add the tag `do_not_delete` to the organization to ensure said
 organization is not deleted. You should also remove the tag `to_be_deleted` to
 clean up the organization.
 
-- [ ] [No tickets created within 6 months](#no-tickets-created-within-6-months)
+- [ ] [No tickets created within 120 days](#no-tickets-created-within-120-days)
 - [ ] [No open opportunities in SFDC](#no-open-opportunities-in-sfdc)
 - [ ] [No recent chatter indicating renewal](#no-recent-chatter-indicating-renewal)
 
