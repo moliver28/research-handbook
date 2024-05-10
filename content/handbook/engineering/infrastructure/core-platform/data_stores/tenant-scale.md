@@ -67,12 +67,9 @@ limited to that area and they also work in other areas as needed.
 
 | Project | DRI |
 | ------ | ------ |
-| [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex, Abdul, Rutger, Peter, Zack Cuddy |
-| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Manoj, Tiger Watson |
-| Cells Services: [HTTP Routing](https://gitlab.com/groups/gitlab-org/-/epics/12491) | Thong, Steve, Omar, Bojan |
-| Cells Services: [SSH Routing](https://gitlab.com/groups/gitlab-org/-/epics/12708) | Igor Drozdov, Bojan |
-| Cells Services: [Global Service](https://gitlab.com/groups/gitlab-org/-/epics/13153) | Kamil, Omar, Rutger |
-| [Database sequences](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/97) | Prabakaran Murugesan, Diogo Frazão |
+| [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex |
+| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Manoj |
+| [Cells Services](https://gitlab.com/groups/gitlab-org/-/epics/13164) | Thong |
 
 ## Meetings
 
