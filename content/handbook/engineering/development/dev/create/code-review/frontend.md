@@ -37,13 +37,13 @@ Support all our counterparts with frontend engineering expertise, including impl
 
 The following people are permanent members of the Create:Code Review FE Team:
 
-{{< team-by-manager-role role="Frontend Engineering Manager(.*)Create:Code Review" team="Create:Code Review" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Code Review" team=".*(Frontend|Fullstack).*Create:Code Review" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Create:Code Review$|Technical Writer(.*)Code Review|Director(.*)Create|Principal(.*)Create|Group(.*)Create" manager-role="Frontend Engineering Manager(.*)Create:Code Review"  >}}
+{{< stable-counterparts manager-role="Senior Engineering Manager(.*)Create:Code Review" role="(Product Manager|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Code Review|Create \(Code)|Dev\:Create|Code Review" >}}
 
 ## Core Responsibilities
 
