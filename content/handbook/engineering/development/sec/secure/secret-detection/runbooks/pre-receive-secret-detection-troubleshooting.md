@@ -13,9 +13,9 @@ detection](https://docs.gitlab.com/ee/user/application_security/secret_detection
 | Setting | Type | Level | Visibility |
 |---------|------|-------|------------|
 | `pre_receive_secret_detection_beta_release` | Feature Flag | Instance | Not visible, has to be toggled via `ChatOps`. |
-| `pre_receive_secret_detection_enabled` | Database | Instance | Only in a **Dedicated instance**, or with **`pre_receive_secret_detection_beta_release` enabled** and only when the feature is **licensed (in Ultimate)**. |
+| `pre_receive_secret_detection_enabled` | Database Setting | Instance | Only in a **Dedicated instance**, or with **`pre_receive_secret_detection_beta_release` enabled** and only when the feature is **licensed (in Ultimate)**. |
 | `pre_receive_secret_detection_push_check` | Feature Flag | Project | Not visible, has to be toggled via `ChatOps`. |
-| `pre_receive_secret_detection_enabled` | Database Setting | Project | Being worked on in https://gitlab.com/groups/gitlab-org/-/epics/13151. |
+| `pre_receive_secret_detection_enabled` | Database Setting | Project | Only in a **Dedicated instance**, or with **`pre_receive_secret_detection_enabled` enabled** and only when the feature is **licensed (in Ultimate)**. |
 
 # Monitoring
 
@@ -89,10 +89,15 @@ pre_receive_secret_detection_push_check false`
 With the `pre_receive_secret_detection_push_check` feature flag on for a
 given project, pre-receive secret detection can be toggled for the
 project through the security configuration page for the project.
-Instructions can be found in the [implementing MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/149167#screenshots-or-screen-recordings),
+Instructions can be found in this [in-progress documentation MR](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#enable-pre-receive-secret-detection-for-a-specific-project),
 but will eventually be added to the docs.
 
 When both the feature flag and the setting are on, git pushes to the
 project should be stopped when they contain a secret. As a test,
 `glpat-12345678901234567890` should be prevented when pushing
 (from the terminal, the Web IDE, etc.)
+
+# Resolving and skipping blocked pushes
+
+[Resolving a blocked push]([in-progress documentation MR](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#resolve-a-blocked-push)) and [Skipping secret detection]([in-progress documentation MR](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#skip-secret-detection))
+are both documented in the in-progress documentation MR.
