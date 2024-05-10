@@ -3,8 +3,8 @@ title: "GitLab Modern Slavery Act Transparency Statement"
 description: "This is the current Modern Slavery Act Transparency Statement"
 ---
 
-<!-- Update permissions to allow this file to be embedded and then reach out to @kristentesh
-<embed src="https://drive.google.com/file/d/11Yne51yOV5_9EBnGbfvMIrq06Z_OxUEM/view" style="width:100%;" height="900"
+<!-- Update permissions to allow this file to be embedded and then reach out to @ktesh
+<embed src="https://drive.google.com/file/d/16tfuZuDCVB2y14phwZ9SXDYaUJx7syH2/view?usp=sharing" style="width:100%;" height="900"
  type="application/pdf">
 -->
 
