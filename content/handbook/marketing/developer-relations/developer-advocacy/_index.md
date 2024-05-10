@@ -105,19 +105,6 @@ We are members of the [Developer Relations team](/handbook/marketing/developer-r
 | [Michael Friedrich](/handbook/company/team/#dnsmichi) <br/> Senior Developer Advocate | DevSecOps with a focus on AI and CI/CD efficiency | English, German, Austrian | [CI/CD components maintainer](https://gitlab.com/components) | DevSecOps, AI, CI/CD, Observability, Python, Go, C/C++, Rust, Ruby | [Talks](https://dnsmichi.at/talks/), [Portfolio](https://dnsmichi.at/talks/) |
 | [William Arias](/handbook/company/team/#warias) <br/> Senior Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish |  | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
 
-### Main points of contact
-
-Members of the Developer Advocacy team serve as points of contact for specific activities. When you [engage](/handbook/marketing/developer-relations/developer-advocacy/workflow/) the Developer Advocacy team, based on availability, you may or may not be matched to the team member specialized in a specific activity. The following table lists the specific activities for members of the Developer Advocacy team:
-
-| Main point of contact | Activities |
-|--------------------|------------|
-| [Abubakar Siddiq Ango](https://gitlab.com/abuango) | [Infrastructure Meetings](/handbook/engineering/infrastructure/#meetings), [Alliances](/handbook/alliances/) |
-| [Michael Friedrich](https://gitlab.com/dnsmichi)   | [AI-powered](https://about.gitlab.com/direction/ai-powered/), [Dev](/handbook/product/categories/features/#dev-section), [CI](/handbook/product/categories/features/#ci-section): [Monthly CI Section Field Sync (internal)](https://gitlab.com/gitlab-com/Product/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Field%20Sync&label_name%5B%5D=section%3A%3Aci&first_page_size=20), Ops: [Monitor:Observability direction](https://about.gitlab.com/direction/monitor/observability/), [Sec section](/handbook/product/categories/features/#sec-section): [Secure, Govern](https://about.gitlab.com/direction/govern/) |
-| [Itzik Gan-Baruch](https://gitlab.com/iganbaruch) | DevSecOps platform, AI/ML, CI |
-| [Fernando Diaz](https://gitlab.com/fjdiaz) | DevSecOps platform, AI/ML, Security, Kubernetes |
-| [William Arias](https://gitlab.com/warias) | DevSecOps platform, AI/ML, MLOps, Data Science |
-| [Cesar Saavedra](https://gitlab.com/csaavedra1) | DevSecOps platform, AI/ML, CD, GitOps, Kubernetes |
-| [Fatima Sarah Khalid](https://gitlab.com/sugaroverflow) | DevSecOps platform, AI/ML |
 
 ## <i class="fa fa-tasks" aria-hidden="true"></i> What we do
 
