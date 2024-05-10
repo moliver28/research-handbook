@@ -25,14 +25,17 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 
 ### Exit Criteria
 
-The charter of this working group is to successfully decompose the Secure/Govern datasets to a separate database in order to reduce pressure on the primary GitLab.com DB and assist in future scalability and stability concerns.
+The charter of this working group is to:
+- Successfully decompose the Secure/Govern datasets to a separate database in order to reduce pressure on the primary GitLab.com DB and assist in future scalability and stability concerns.
+- Evaluate the impact of the decomposition on Self-Managed instances regarding feature parity, performance/hardware requirement, improvements for different size of DBs, and admin's effort to support.
+- Provide an effective migration guide and/or tooling to assist Self-Managed instances in the decomposition of their local CI and Secure/Govern databases in alignment with GitLab.com
 
 ### Glossary
 
 | Preferred Term | What Do We Mean | Terms Not To Use | Examples |
 |----------------|-----------------|------------------|----------|
 | Cluster | A database cluster is a collection of interconnected database instances that replicate data. | | The PostgreSQL cluster of GitLab.com (managed by Patroni) that hosts the main logical database and consists of the primary database instance along with its read-only replicas. |
-| Decomposition | Feature-owned database tables are on many logical databases on multiple database servers. The application manages various operations (ID generation, rebalancing etc.) | Y-Axis, Vertical Sharding | All Secure/Govern tables in a separate logical database. [Design illustration](https://gitlab.com/groups/gitlab-org/-/epics/5883#design-overview) |
+| Decomposition | Feature-owned database tables are on many logical databases on multiple database instances. In terms of GitLab.com, our desired decomposition outcome includes the separation of these instance to different database servers as well. The application manages various operations (ID generation, rebalancing etc.) | Y-Axis, Vertical Sharding | All Secure/Govern tables in separate logical database from Core tables. [Design illustration](https://gitlab.com/groups/gitlab-org/-/epics/5883#design-overview) |
 | Instance | A database instance is comprised of related processes running in the database server. Each instance runs its own set of database processes. | Physical Database | |
 | Logical database  | A logical database groups database objects logically, like schemas and tables. It is available within a database instance and independent of other logical databases. | Database | GitLab's rails database.  |
 | Node | Equivalent to a Database Server in the context of this working group. | Physical Database | |
@@ -155,18 +158,36 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 
 ## Roles and Responsibilities
 
+| Working Group Role                       | Name                            | Title |
+| -----------                              | -----------                     | ----------- |
 | Executive Stakeholder                    | Bartek Marnane                  | VP, Expansion |
-| Facilitator/DRI                          | Gregory Havenga               | Senior Backend Engineer, Threat Insights  |
-| Functional Lead                          | Lucas Charles                 | Principal Software Engineer, Secure & Govern |
-| DRI - Distribution                       |||
-| DRI - Infrastructure                     |||
-| DRI - Database                           | Jon Jenkins | Senior Backend Engineer, Database |
-| DRI - Data                          |||
-| DRI - Threat Insights                    |||
+| Facilitator/DRI                          | Gregory Havenga                 | Senior Backend Engineer, Govern: Threat Insights  |
+| Functional Lead                          | Lucas Charles                   | Principal Software Engineer, Secure & Govern |
+| DRI - Distribution                       |                                 ||
+| DRI - Infrastructure                     |                                 ||
+| DRI - Database                           | Jon Jenkins                     | Senior Backend Engineer, Database |
+| DRI - Data                               |                                 ||
+| DRI - Secure: Composition Analysis       |                                 ||
+| DRI - Secure: Dynamic Analysis           |                                 ||
+| DRI - Secure: Static Analysis            |                                 ||
+| DRI - Secure: Secret Detection           |                                 ||
+| DRI - Govern: Security Policies          |                                 ||
+| DRI - Govern: Compliance                 |                                 ||
+| DRI - Govern: Anti Abuse                 |                                 ||
+| DRI - Govern: Authentication             |                                 ||
+| DRI - Govern: Authorization              |                                 ||
+| DRI - QE                                 |                                 ||
+| DRI - Reference Architecture             |                                 ||
 | Member                                   | Dylan Griffith                  | Principal Engineer, Create |
 | Member                                   | Thong Kuah                      | Principal Engineer, Data Stores |
-| Member                                   | Arpit Gogia | Backend Engineer - Secure, Dynamic Analysis |
-| Member                                   |||
+| Member                                   | Arpit Gogia                     | Backend Engineer - Secure, Dynamic Analysis |
+| Member                                   |                                 ||
+
+## Useful References
+
+| Reference | Description |
+| ---       | ---         |
+| [Link](https://gitlab.com/gitlab-org/omnibus-gitlab/-/blob/master/doc/architecture/multiple_database_support/index.md) | Proposal for support levels for multiple databases in GitLab deployment architecture.  |
 
 ## Thanks
 
