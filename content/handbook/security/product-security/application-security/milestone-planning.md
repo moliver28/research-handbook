@@ -94,8 +94,7 @@ These issues must be labeled with the appropriate AppSecRotation label:
 
 ### Unplanned work
 
-Sometimes high-priority and/or urgent work comes up after a milestone starts. When an unplanned
-issue is added after the milestone began:
+Sometimes high-priority and/or urgent work comes up after a milestone starts. When an unplanned issue is added after the milestone began:
 
 - Document why the work needs to be prioritized in the issue
 - Apply the `Unplanned` label
