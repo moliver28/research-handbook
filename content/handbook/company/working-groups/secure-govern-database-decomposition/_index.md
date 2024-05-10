@@ -56,7 +56,7 @@ The charter of this working group is to:
 
 ### Overview
 
-There is high impetus within GitLab to reduce pressure on the primary GitLab database server. The Database and Scalability teams have been taking a variety of steps to mitigate the ongoing pressure on the database server to maintain the growth and stabiltiy of GitLab in the long term. One such endeavour is Cells, however, there is desire to provide further mitigation in the short to medium term. Decomposition of the Secure/Govern dataset from the primary database was identified as a strong possible solution, similar to how the CI decomposition aided in this regard in the past.
+There is high impetus within GitLab to reduce pressure on the primary GitLab database server. The Database and Scalability teams have been taking a variety of steps to mitigate the ongoing pressure on the database server to maintain the growth and stability of GitLab in the long term. One such endeavour is Cells, however, there is desire to provide further mitigation in the short to medium term. Decomposition of the Secure/Govern dataset from the primary database was identified as a strong possible solution, similar to how the CI decomposition aided in this regard in the past.
 
 Decomposition of the Secure/Govern dataset is a significant engineering effort due to the magnitude of the data interactions related to these features. The domain accounts for 25% of all database write traffic, and is only set to grow as we expand our feature set and grow our customer base. Further statistics and technical details can be found on the associated [epic](https://gitlab.com/groups/gitlab-org/-/epics/13043).
 
@@ -75,7 +75,7 @@ We have the benefit of being able to lean heavily on the prior art and experienc
 
 ### Risks
 
-1. Significant developer committment for a currently unknown duration.
+1. Significant developer commitment for a currently unknown duration.
 2. Increased database maintenance requirement for the new decomposed database and it's associated replicas.
 3. Possibly unable to be delivered prior to the delivery of Cells 2.0
 4. May require a full downtime of GitLab.com, which may be difficult to arrange with our customers.
