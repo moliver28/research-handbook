@@ -45,7 +45,7 @@ The solution validation phase starts once the problem statement is clearly defin
 
 The goals of solution validation align with these goals: *“**High confidence in the proposed solution**: Confidence that the jobs to be done outlined within the problem statement can be fulfilled by the proposed solution.”*
 
-### Don’t stop here - there’s more UX Research to do!
+### Don’t stop here - there’s more UX Research to do
 
 Once the feature is released to users, it’s important to continue to gather qualitative and quantitative feedback from them in order to continuously improve the experience. This is what the “Improve Phase” of GitLab’s Development workflow, specifically the [Build track](/handbook/product-development-flow/#build-track), encapsulates.
 

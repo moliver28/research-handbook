@@ -324,7 +324,7 @@ The content of these updates varies by individual and role:
     1. Projects & Priorities (progress, blockers, key decisions, etc.)
 
 
-### To create a weekly async update:
+### To create a weekly async update
 
 1. Create a GitLab issue in any project.
 2. Apply the label `~OpsSection::AsyncUpdate`.  (The label `~OpsSection::Weekly-Update` can also be used for backwards compatibility reasons.)
@@ -335,14 +335,14 @@ The content of these updates varies by individual and role:
 1. Begin any paragraph in your update with the text `HIGHLIGHT:`
 1. These paragraphs will automatically be copied into the Highlights & Accomplishments section of the monthly Director's update.
 
-### To review Ops weekly async updates:
+### To review Ops weekly async updates
 
 1. All issues with the `~OpsSection::AsyncUpdate` or `~OpsSection::Weekly-Update` label are summarized in weekly issues in the [Ops Status Updates](https://gitlab.com/gitlab-com/ops-sub-department/ops-status-updates/-/issues) project.
 1. All team members are encouraged to comment and ask questions in weekly async update issues.  This provides useful feedback to the author and opportunities to collaborate.
 1. Director reviews all updates weekly (from the prior week) and provides feedback.
 1. Senior EMs reviews all updates from their teams weekly (from the prior week) and provides feedback.
 
-### Benefits of reporting and reviewing status async vs. synchronously in meetings:
+### Benefits of reporting and reviewing status async vs. synchronously in meetings
 
 1. Collaboration - By sharing announcements, achievements, goals, and plans we are empowering team members with the information they need to make sound decisions and succeed in their roles.
 1. Results - Async updates provide an important channel for sharing accomplishments and progress.

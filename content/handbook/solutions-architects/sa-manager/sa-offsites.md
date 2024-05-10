@@ -29,7 +29,7 @@ The following list of considerations could be valuable for the SA leaders to go 
     - Consider organising team dinners on-site in the hotel as well as on other days outside of the hotel. It is recommended to work with the hotel event organizer for guidance on suitable restaurants as the hotel can arrange for appropriate transportation as well
 1. Once Finance Approval has been obtained - advise the team to start booking initial travel arrangements to secure the most cost-effective travel
 
-#### Additional Tips:
+#### Additional Tips
 
 1. Collaboration within the team is critical when planning the offsite to ensure an enjoyable and inclusive environment for all team members.
 1. When planning team building activities, consider that team members interests may vary deeply and ensure everyone's comfort level is paramount (also that no activity is mandatory).
@@ -51,7 +51,7 @@ Once the SA leader(s) has identified a suitable location (city) for the team off
     - Step 4: Work with supplier to seek appropriate invoices for PO
 
 
-#### Additional Tips:
+#### Additional Tips
 
 - Do not underestimate the value of constantly accessible coffee, tea and water, as well as healthy snacks - cordinating with the event organizer
 - Consider the conference rooms carefully - you'll be spending a lot of time in them

@@ -71,7 +71,7 @@ Apply one of the following templates:
   - Slack: `@infra-foundations`
   - GitLab: `@gitlab-org/production-engineering/foundations`
 
-We rotate triage duties weekly between team members as part of our [interrupt rotation](#interrupt-rotation). 
+We rotate triage duties weekly between team members as part of our [interrupt rotation](#interrupt-rotation).
 
 ### Priority Levels for Requests
 
@@ -86,7 +86,7 @@ We rotate triage duties weekly between team members as part of our [interrupt ro
 
 We endeavor to triage incoming requests twice per week. If you have an issue that is very urgent and requires immediate attention (i.e. Priority 1), please also send us a link to the request issue in our Slack channel: [#g_infra_foundations](https://gitlab.slack.com/archives/C0313V3L5T6).
 
-## Considerations for tooling and maintaining our services.
+## Considerations for tooling and maintaining our services
 
 - We support [dogfooding](/handbook/engineering/development/principles/#dogfooding) when it makes sense to do so.
   - We consider the scale at which we run gitlab.com and the additional engineering effort required to dogfood, weighed against the capacity and other priorities of the team.
@@ -144,8 +144,8 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 
 ### Standup
 
-We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel. 
-  - Monday questions include: 
+We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel.
+  - Monday questions include:
     - What are your top priorities this week?
     - What did you accomplish last week?
     - What else is on your todo list for the week?
@@ -208,7 +208,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2" 
+/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2"
 \`\`\`
 
 ## References

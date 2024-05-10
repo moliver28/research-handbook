@@ -308,7 +308,7 @@ The specific application of this timeline to the Analytics Instrumentation Miles
 | Planning & Breakdown Phase  | 4th - 17th of month N|
 | Development Phase   | 18th of month N - 17th of month N+1 |
 
-#### 1. Planning & Breakdown Phase:
+#### 1. Planning & Breakdown Phase
 
 - **Timeline**: 4th - 17th of month N
 
@@ -334,7 +334,7 @@ The specific application of this timeline to the Analytics Instrumentation Miles
     1. EM & PM: Add or remove issues based on weights and capacity.
     1. EM: Prioritizes issues in the [Issue Board by Milestone](https://gitlab.com/groups/gitlab-org/-/boards/2774881) based on the planning issue.
 
-#### 2. Development Phase:
+#### 2. Development Phase
 - **Timeline**: 18th of month N – 17th of month N+1.
 
 - **Tasks**:

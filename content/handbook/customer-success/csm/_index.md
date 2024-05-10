@@ -132,7 +132,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 
 ## FY25 Vision & Strategy -3 Pillars
  - [Vision & Strategy Deck](https://docs.google.com/presentation/d/1qIBbUYoclOGSplOeUAvRwBJGKNwlo41Z7Z2fnu8bZgA/edit?usp=sharing)  (Internal - GitLab Only)
- - Success At Scale 
+ - Success At Scale
  - Use Case Adoption
  - Success Plan Services
 
@@ -210,7 +210,7 @@ Landing Zones
 - [Workshops and/or Lunch-and-Learns](/handbook/customer-success/csm/workshops/)
 
 
-##### Digital Customer Programs:
+##### Digital Customer Programs
 
 - [Digital Customer Programs Handbook Page](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
   - [CSM Assigned Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/index.html#csm-assigned-account-programs)

@@ -6,7 +6,7 @@ description: "A success plan is a roadmap that connects a customer's desired bus
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 
 ## Purpose of a success plan
 

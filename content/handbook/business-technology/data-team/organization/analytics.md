@@ -12,7 +12,7 @@ description: "GitLab Data Analytics Team Handbook"
 
 
 
-----
+---
 
 # Data Analytics at GitLab
 

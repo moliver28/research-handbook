@@ -371,20 +371,20 @@ While the AARRR framework is commonly used to drive overall active users, it is 
 ``` mermaid
 classDiagram
   Acquistion --|> Activation
-	Acquistion : Are users aware of the product or feature set?
-	Acquistion: Measurement (Insert Metric)
+    Acquistion : Are users aware of the product or feature set?
+    Acquistion: Measurement (Insert Metric)
   Activation --|> Retention
-	Activation : Are users applying the feature?
-	Activation: Measurement (Insert Metric)
+    Activation : Are users applying the feature?
+    Activation: Measurement (Insert Metric)
   Retention --|> Revenue
-	Retention : Are users applying the feature over time?
-	Retention: Measurement (Insert Metric)
+    Retention : Are users applying the feature over time?
+    Retention: Measurement (Insert Metric)
   Revenue --|> Referral
-	Revenue : Are users paying for the features?
-	Revenue: Measurement (Insert Metric)
+    Revenue : Are users paying for the features?
+    Revenue: Measurement (Insert Metric)
   Referral --|> Acquistion
-	Referral : Are users encouraging others to use the feature?
-	Referral: Measurement (Insert Metric)
+    Referral : Are users encouraging others to use the feature?
+    Referral: Measurement (Insert Metric)
 ```
 
 Add AARRR funnels for your stage or group's Product Performance Indicators directly with mermaid markdown. It's easy if you use this [live editor](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG4gIEFjcXVpc3Rpb24gLS18PiBBY3RpdmF0aW9uXG5cdEFjcXVpc3Rpb24gOiBBcmUgdXNlcnMgYXdhcmUgb2YgdGhlIHByb2R1Y3Qgb3IgZmVhdHVyZSBzZXQ_ICAgIFxuXHRBY3F1aXN0aW9uOiBNZWFzdXJlbWVudCAoSW5zZXJ0IE1ldHJpYykgXG4gIEFjdGl2YXRpb24gLS18PiBSZXRlbnRpb25cblx0QWN0aXZhdGlvbiA6IEFyZSB1c2VycyBhcHBseWluZyB0aGUgZmVhdHVyZT9cblx0QWN0aXZhdGlvbjogTWVhc3VyZW1lbnQgKEluc2VydCBNZXRyaWMpIFx0XHRcdFx0XG4gIFJldGVudGlvbiAtLXw-IFJldmVudWVcblx0UmV0ZW50aW9uIDogQXJlIHVzZXJzIGFwcGx5aW5nIHRoZSBmZWF0dXJlIG92ZXIgdGltZT9cblx0UmV0ZW50aW9uOiBNZWFzdXJlbWVudCAoSW5zZXJ0IE1ldHJpYykgXG4gIFJldmVudWUgLS18PiBSZWZlcnJhbFxuXHRSZXZlbnVlIDogQXJlIHVzZXJzIHBheWluZyBmb3IgdGhlIGZlYXR1cmVzP1xuXHRSZXZlbnVlOiBNZWFzdXJlbWVudCAoSW5zZXJ0IE1ldHJpYykgXG4gIFJlZmVycmFsIC0tfD4gQWNxdWlzdGlvblxuXHRSZWZlcnJhbCA6IEFyZSB1c2VycyBlbmNvdXJhZ2luZyBvdGhlcnMgdG8gdXNlIHRoZSBmZWF0dXJlP1xuXHRSZWZlcnJhbDogTWVhc3VyZW1lbnQgKEluc2VydCBNZXRyaWMpICIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9).

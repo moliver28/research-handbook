@@ -22,7 +22,7 @@ twitter_creator: '@gitlab'
 {: #responsibilities}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-Global Campaigns Managers are responsible for building integrated marketing campaigns including the strategy, execution and analytics. They work in a cross-functional manner to gain alignmnent with internal stakeholders and inter-departmental dependencies. Building a Global Campaign may consist of the following: Target Audience segementation, campaign journey, asset and content recommendations, marketing message, email nurture, recommeded marketing channels for promotion (both organic and paid), top funnel events (virtual and in-person), and Alliance partnership (Technology Partners). 
+Global Campaigns Managers are responsible for building integrated marketing campaigns including the strategy, execution and analytics. They work in a cross-functional manner to gain alignmnent with internal stakeholders and inter-departmental dependencies. Building a Global Campaign may consist of the following: Target Audience segementation, campaign journey, asset and content recommendations, marketing message, email nurture, recommeded marketing channels for promotion (both organic and paid), top funnel events (virtual and in-person), and Alliance partnership (Technology Partners).
 
 Regional campaigns managers are responsible for localizing and activating global campaign bundles, prioritizing program mix and delivery channels to support regional revenue goals. They partner with paid digital, ABM, lifecycle, field marketing, product marketing, customer marketing, SDR/BDR and regional sales teams to create integrated go-to-market plans.
 
@@ -101,7 +101,7 @@ Host monthly enablement sessions on global campaign updates and new LIVE assets
 **Timothy Tran** _Marketing Campaign Manager_
 
 - **Campaign strategy for All Sales Segments, APAC***
-  - Plan, organize, implement, and optimize campaign strategy for all segments in APAC 
+  - Plan, organize, implement, and optimize campaign strategy for all segments in APAC
   - Analyze and share results/findings of full-funnel attribution reporting for all segments in APAC
   - Organize execution schedule, timeline, and DRIs for tactics aligned to top-funnel APAC campaign plans, including email nurture, virtual events, digital ads, etc. aimed primarily at driving Inquiries + MQLs (with consideration of SAO attribution)
   - Support email marketing initiatives with Lifecycle Marketing focused on email marketing
@@ -110,11 +110,11 @@ Host monthly enablement sessions on global campaign updates and new LIVE assets
 **Indre Kryzeviciene** _Sr. Marketing Campaign Manager_
 
 - **Campaign strategy for All Segments, *EMEA***
-  - Plan, organize, implement, and optimize campaign strategy for all segments in EMEA 
+  - Plan, organize, implement, and optimize campaign strategy for all segments in EMEA
   - Analyze and share results/findings of full-funnel attribution reporting for all segments in EMEA
   - Organize execution schedule, timeline, and DRIs for tactics aligned to top-funnel EMEA campaign plans, including email nurture, virtual events, digital ads, etc. aimed primarily at driving Inquiries + MQLs (with consideration of SAO attribution)
   - Support email marketing initiatives with Lifecycle Marketing focused on email marketing
-  - Campaigns DRI for localization (translation of assets with Smartling) 
+  - Campaigns DRI for localization (translation of assets with Smartling)
   - Campaigns DRI for UTM strategy
   - Campaigns DRI for Weekly tech demo series
 
@@ -156,7 +156,7 @@ Whenever team members are out of the office for more than 7 business days, they 
 
 ### Half-yearly Field Marketing & Campaigns Planning Workshop
 
-Every 6 months, Regional campaigns managers will conduct a joint planning workshop with their Sr Manager/Manager, Field marketing counterparts (below): 
+Every 6 months, Regional campaigns managers will conduct a joint planning workshop with their Sr Manager/Manager, Field marketing counterparts (below):
 
 | Region | Campaign Manager | Sr Manager/Manager, Field Marketing|
 | ------ | ------ |-----|
@@ -164,7 +164,7 @@ Every 6 months, Regional campaigns managers will conduct a joint planning worksh
 |    EMEA    |  Indre Kryzeviciene      | Kristine Setchin   |
 |    APAC   |   Timothy Tran     |  Kate Baker  |
 
-#### Collaboration Timeline/Deliverables:
+#### Collaboration Timeline/Deliverables
 - **X week before planning session:**  Manager/Sr Manager of field marketing shares next quarter planned field marketing events with regional campaign managers.
 - **By planning session:** Regional campaign manager to pull invite list for each planned event.
 - **During planning session:** Manager/Sr Manager of field marketing & campaign manager reviews invite list. If invite list for a particular planned event is too small, collectively decide if FMM should change the event venue or work with their regional campaign manager on a strategy to grow the invite list via paid or organic channels.
@@ -324,7 +324,7 @@ Shortcut issue comments for project management (RETIRED)
 **When a team member is picking up an issue from the backlog:**
 
 ```
-/label ~"mktg-status::wip" 
+/label ~"mktg-status::wip"
 /assign @
 /milestone %Mktg:2021-
 ```

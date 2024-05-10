@@ -13,7 +13,7 @@ description: "Learn about the various aspects of Cost Management"
 
 
 
-----
+---
 
 ## Vendor Specific Learning
 [GCP](/handbook/engineering/infrastructure/cost-management/learning/gcp){:.btn .btn-purple}

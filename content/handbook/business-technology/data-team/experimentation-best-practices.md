@@ -19,7 +19,7 @@ For example, here are a couple of commonly made mis-steps while conducting exper
 1. Peeking (article [here](https://gopractice.io/blog/peeking-problem/)): If we do not lock down the testing time period ahead of time, we end up with the peeking problem where we have side effects from checking the results and taking action before the A/B test is over. The more often you look at the intermediate results of the A/B testing with the readiness to make a decision, the higher the probability is that the criterion will show a statistically significant difference when there is none.
     1. 2 peeking cases double the p-value;
     2. 5 peeking sessions increase the p-value by a factor of 3.2;
-2. Simpson’s Paradox: This can occur when we change the test group allocations in a disproportionate manner mid-test-flight. The latent segments in the test groups change their proportions when we change allocation percentages, inserting error into the results. More formally, [Simpson’s Paradox](https://plato.stanford.edu/entries/paradox-simpson/) is a statistical phenomenon where an association between two variables in a population emerges, disappears or reverses when the population is divided into subpopulations.  
+2. Simpson’s Paradox: This can occur when we change the test group allocations in a disproportionate manner mid-test-flight. The latent segments in the test groups change their proportions when we change allocation percentages, inserting error into the results. More formally, [Simpson’s Paradox](https://plato.stanford.edu/entries/paradox-simpson/) is a statistical phenomenon where an association between two variables in a population emerges, disappears or reverses when the population is divided into subpopulations.
 
 To ensure we can maximize the value from our experimentation practices and reduce inaccuracy of decisions at GitLab, we recommend  following best practices across all experiments at GitLab. This document outlines the best practices to adopt at GitLab.
 
@@ -74,12 +74,12 @@ Before launching an experiment:
 
 ### Experimentation set up plan:  How to setup the test
 
-- Determine the # of variants needed to help answer the business question we want to learn from the experiments (eg: A/B/n or MVT (multivariate) set up)  
+- Determine the # of variants needed to help answer the business question we want to learn from the experiments (eg: A/B/n or MVT (multivariate) set up)
 - Document the analysis plan including what hypothesis question can and can’t be answered.
 - Define instrumentation needed (the additional tracking data you need on top of what's already available).
     - Specify tracking needs as critical or nice to have so developers can discuss and implement the new tracking based on effort and performance impact.
 - Define the population you are testing on, including segmentation or exclusion criteria
-- Document when you want to run the experiment in **the experiment calendar** and checks for conflicts  
+- Document when you want to run the experiment in **the experiment calendar** and checks for conflicts
 - Define the launch weights and ramp-up plan if experimenting in a critical path or impacts a large user base
     - When ramping for high-risk test in a critical area, go from 1% to 5%/10% and then 50%
         - Beware of the Simpson’s paradox and only analyze test periods where the weight allocation is proportional and comparable.
@@ -158,7 +158,7 @@ Before launching an experiment:
 
 
 
-## Experiment Verification:
+## Experiment Verification
 
 
 ### Experiment Validation Pre-Launch: Check that everything is in place
@@ -180,7 +180,7 @@ Before launching an experiment:
     - The above will not apply for the 1% since the 1% test is not intended to get a read impact created by the experimental experience.
 
 
-## Experimentation Analysis and Communication:
+## Experimentation Analysis and Communication
 
 - Ensure there is no bias in the assignment or experiment data
     - When possible, automate these validations like assignment population bias
@@ -197,7 +197,7 @@ Before launching an experiment:
 - For PM: Ensure the experiment is rolled out or retired from code as per final result conclusions.
 
 
-## Institutionalize Insights from Experimentation:
+## Institutionalize Insights from Experimentation
 
 - Along with business partners, present the detailed results in a broader org group to spur conversations on how others can benefit from learning and what actions other teams can take/collaborate to maximize value.
 - Ensure all results are documented and searchable by function or product tag to ensure we don't repeat the same failed ideas. This enables us to do meta-analysis from multiple experiments to gather broader insights.
@@ -207,7 +207,7 @@ Before launching an experiment:
     - Growth team already documents [experiments results](/handbook/marketing/growth/) in a centralized handbook page. We should adopt this practice across GitLab in a centralized page.
 
 
-## Experimentation Governance:
+## Experimentation Governance
 
 - Automated alert system:
     - Enable an automated alert system to monitor significant negative impact to primary metrics from experiments. This helps to avoid the need for results peeking.
@@ -218,7 +218,7 @@ Before launching an experiment:
 - Create an experiment calendar, to enable conflict management and understand volume and velocity of experiments.
 
 
-## Opportunity Action Items for Consideration:
+## Opportunity Action Items for Consideration
 
 Note: Short term - means hours/days worth of effort. Long term means weeks/months worth of effort
 
@@ -229,7 +229,7 @@ Based on initial feedback and observations on current experiment platform capabi
 - **Ensure result dashboard incorporate significance and confidence level (Priority H)**
     - Short term: Incorporate significance calculation and confidence interval directly into Tableau Experiment analysis framework using Z test formulas or Python functions.
 - **Ability to split test results by dimensions with adjusted P-value threshold: (Priority M)**
-    - Long-term: Explore alternative tools or data tracking to enable unrestricted metric/funnel/dimension evaluation for Experiments and split analysis by dimensions and filters.  
+    - Long-term: Explore alternative tools or data tracking to enable unrestricted metric/funnel/dimension evaluation for Experiments and split analysis by dimensions and filters.
 - **Solve for Sample size problems (Priority H)**
     - Short term: Ensure we define experiment sample size analysis using one-tail or two-tail to better accommodate for smaller sample sizes in experiments.
     - Short term: Leverage secondary metrics to build confidence in directional read on primary metrics.
@@ -248,14 +248,14 @@ Based on initial feedback and observations on current experiment platform capabi
     - Long term: We have a single system to record all the experiments running across the organization and the duration of experiments. Enable automated validation against actual test assignment data.
 
 
-## Tools Created for Analytics Use:
+## Tools Created for Analytics Use
 
 - [Sample size calculator using power and varying confidence level](https://docs.google.com/spreadsheets/d/1KP_rDB3e6pJuOJwA59HcAUVpWUuzoPveaJiTH_PSviM/edit?usp=sharing)
 
 
-## References:
+## References
 
-- [Growth Experiments page:](/handbook/marketing/growth/)<span style="text-decoration:underline;"> </span>Growth is already documenting experiment results in a centralized page.  
+- [Growth Experiments page:](/handbook/marketing/growth/)<span style="text-decoration:underline;"> </span>Growth is already documenting experiment results in a centralized page.
 - [7 Step A/B testing process](https://blog.optimizely.com/2016/08/10/7-step-ab-testing-process/) Need to invest time on planning, Design and QA
 - [A/B testing for a low traffic website](https://blog.optimizely.com/2016/05/17/ab-testing-for-low-traffic-websites/)
 - [Importance of test planning](https://optinmonster.com/ab-testing-best-practices/)

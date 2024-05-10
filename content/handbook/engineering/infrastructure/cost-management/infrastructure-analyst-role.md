@@ -13,7 +13,7 @@ description: "Defines role and responsibilities of infra analyst"
 
 
 
-----
+---
 
 ### Responsibilities
 - Optimize infra spend through committed spend programs and supporting enterprise contract deals

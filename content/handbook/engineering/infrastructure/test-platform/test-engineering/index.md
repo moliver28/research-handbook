@@ -46,19 +46,19 @@ At [release kickoff](/handbook/engineering/workflow/#kickoff) we highlight some 
 
 The following guidelines provide more detail, as well as suggested responsibilities for various roles.
 
-##### As a feature issue author:
+##### As a feature issue author
 
 
 * Use the issue to discuss how the change could affect the quality of the product and impact our users.
   * Start the discussion by answering the questions in the Testing section of the [feature proposal template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md). Note that those questions are not exhaustive.
   * [Optional] See the [Test Plan](#test-plan) section for advice on when a test plan might be useful.
 
-##### As a Product Manager, Product Designer, Engineer (of any type), user, or anyone else involved in the change:
+##### As a Product Manager, Product Designer, Engineer (of any type), user, or anyone else involved in the change
 
 
 * Continue the discussion of quality and risk that was started in the issue description. Share any insights that you have that could help guide testing efforts.
 
-##### As an Engineer who will implement the change, or a Software Engineer in Test contributing to the change:
+##### As an Engineer who will implement the change, or a Software Engineer in Test contributing to the change
 
 
 * Use the issue to start a discussion about test strategy, to come up with clear test deliverables for tests at different levels.
@@ -68,14 +68,14 @@ The following guidelines provide more detail, as well as suggested responsibilit
 * If a feature requires an end-to-end test, add a `Requires e2e tests` label to the feature issue or merge request.
   * Before merging the feature merge request, ensure the end-to-end test merge request is linked to the feature merge request.
 
-##### As a merge request author (i.e., the Engineer who will implement the test):
+##### As a merge request author (i.e., the Engineer who will implement the test)
 
 
 * Complete the test deliverables.
  * End-to-end tests should be included in the feature merge request where possible, but can be in a separate merge request (e.g., if being written by a different engineer).
  * All lower-level tests **must** be included in the feature merge request.
 
-##### As a Software Engineer in Test:
+##### As a Software Engineer in Test
 
 
 * Help guide the discussions in issues and merge requests, and ensure that we complete the test coverage as planned before the feature is merged into `master` and released to production.

@@ -15,7 +15,7 @@ description: "The goal of this page is to identify blockers and highlight the va
 
 > To date, at GitLab, we've called it our "_marketing website_." As a $1B company about to go public we need to elevate our main marketing tool and operationalize our efforts by developing a "_digital marketing platform_." Currently, we do not have foundational elements in place to make this change. As such, we must mature our toolset and upgrade our technology.
 
-#### The goal of this page is to identify blockers and highlight the value of unlocking our team.
+#### The goal of this page is to identify blockers and highlight the value of unlocking our team
 
 | MAIN ISSUES | BLOCKERS |
 | ----------- | -------- |

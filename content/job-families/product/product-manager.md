@@ -112,7 +112,7 @@ It is not sufficient to just know the problems. It is also insufficient to have 
 
 [Stage Monthly Active Users](/handbook/product/performance-indicators/)
 
-----
+---
 
 ## Career paths
 
@@ -401,7 +401,7 @@ solving customers problems on a daily basis make great fits for Customer Success
 - **General Management**: As a result of their exposure to a wide variety of functions, Product Managers often make a
 transition from Product Management to General Management.
 
-----
+---
 
 ## Specialties
 

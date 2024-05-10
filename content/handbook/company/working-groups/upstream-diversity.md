@@ -11,7 +11,7 @@ description: "This working group will design and launch a program to harness the
 | Target Date  | October 31, 2020 |
 | Slack        | [#wg_upstream_diversity](https://gitlab.slack.com/archives/C017XNA4LDA) (internal only) |
 | Google Doc   | [Upstream Diversity Working Group Agenda](https://docs.google.com/document/d/15m8If-AcX6DTnOHt89kzIetOeu8OhCzpC7Uk2OpP50E/edit) (internal only) |
-| Epic.        | [WG: Upstream Diversity Epic](https://gitlab.com/groups/gitlab-com/-/epics/824)
+| Epic.        | [WG: Upstream Diversity Epic](https://gitlab.com/groups/gitlab-com/-/epics/824) |
 
 ## Business Goal
 

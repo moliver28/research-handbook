@@ -16,7 +16,7 @@ Maintaining a consistent brand voice helps us:
 1. Differentiate from our competitors
 1. Express our personality
 
-_____
+---
 
 Our brand voice comprises the following personality traits:
 

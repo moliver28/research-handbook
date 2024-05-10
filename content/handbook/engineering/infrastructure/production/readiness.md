@@ -27,7 +27,7 @@ The **readiness review issue** is used to coordinate among stakeholders who will
 |--------------|-------------|
 | [Readiness Planning Board](https://gitlab.com/gitlab-com/gl-infra/readiness/-/boards/7418781) | [Readiness Status Board](https://gitlab.com/gitlab-com/gl-infra/readiness/-/boards/5177836) |
 | Readiness currently being prepared. | Readiness actively in review. |
-| ![Triage](../team/scalability/img/label-triage.png)	<br/>![Proposal](../team/scalability/img/label-proposal.png) <br/>![Ready](../team/scalability/img/label-ready.png) | ![Ready](../team/scalability/img/label-ready.png) <br/>![In Progress](../team/scalability/img/label-in_progress.png) <br/>![Stalled](../team/scalability/img/label-stalled.png) <br/>![Blocked](../team/scalability/img/label-blocked.png) <br/>![Cancelled](../team/scalability/img/label-cancelled.png) <br/>![Done](../team/scalability/img/label-done.png)|
+| ![Triage](../team/scalability/img/label-triage.png)    <br/>![Proposal](../team/scalability/img/label-proposal.png) <br/>![Ready](../team/scalability/img/label-ready.png) | ![Ready](../team/scalability/img/label-ready.png) <br/>![In Progress](../team/scalability/img/label-in_progress.png) <br/>![Stalled](../team/scalability/img/label-stalled.png) <br/>![Blocked](../team/scalability/img/label-blocked.png) <br/>![Cancelled](../team/scalability/img/label-cancelled.png) <br/>![Done](../team/scalability/img/label-done.png)|
 
 ## Criteria for starting a Production Readiness Review
 
@@ -45,9 +45,9 @@ The Production Readiness process is authored by the DRI of the work that is bein
 1. [Create an issue][new issue] using the issue template in the [readiness project](https://gitlab.com/gitlab-com/gl-infra/readiness). The title of the issue should be a descriptive name of change.
 2. Follow the Readiness Checklist in the template.
 
-[The issue template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md?ref_type=heads) will guide you though preparing your merge request and how to use the approriate labels to keep your review moving through the process. 
+[The issue template](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/.gitlab/issue_templates/production_readiness.md?ref_type=heads) will guide you though preparing your merge request and how to use the approriate labels to keep your review moving through the process.
 
-The template also contains information about what is expected for Experimental, Beta, and Generally Available features and services. 
+The template also contains information about what is expected for Experimental, Beta, and Generally Available features and services.
 ## Guidelines for the author
 
 - If this is a review for the next maturity level for an existing feature, create an MR that modifies the existing review document.

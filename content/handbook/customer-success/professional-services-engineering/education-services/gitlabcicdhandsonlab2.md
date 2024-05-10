@@ -19,9 +19,9 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Select **Provision Training Environment**.
 
-    >  The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
+    >  The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs.
 
-### Self-Paced Training:
+### Self-Paced Training
 
 1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
 
@@ -29,7 +29,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. In the resulting dropdown, you will see a value starting with `@`. This is your GitLab username.
 
-1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided. 
+1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided.
 
 1. Select **Provision Training Environment**.
 
@@ -47,7 +47,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Continue to Task B.
 
-### Instructor-led Training:
+### Instructor-led Training
 
 1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
 
@@ -56,7 +56,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 1. Click on **GitLab Dashboard** or the GitLab URL.
 
 1. Login with your temporary GitLab Credentials.
-  
+
     > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
 
 1. Click on the '**Create a project tile**.
@@ -85,7 +85,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Click the **Create project** button.
 
-### Task C. Add a `.gitlab-ci.yml` File 
+### Task C. Add a `.gitlab-ci.yml` File
 
 > To use GitLab CI/CD, you start with a `.gitlab-ci.yml` file at the root of your project. The `.gitlab-ci.yml` file contains the configurations for your CI/CD pipeline. In this section, you will create a simple `gitlab-ci.yml` file.
 
@@ -93,7 +93,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. In the **Filename** field, type `.gitlab-ci.yml`
 
-1. Select the `Bash` template from the `Apply a template` dropdown. This will pre-populate the file. 
+1. Select the `Bash` template from the `Apply a template` dropdown. This will pre-populate the file.
 
 1. To create a minimal `.gitlab-ci.yml` file:
    * Delete all lines above `build1`.
@@ -103,7 +103,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
     ```yml
     stages:
-      - build 
+      - build
       - test
     ```
 
@@ -144,7 +144,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
 
 >  The order of execution for stages generally reads left to right. In this example, the `build` stage is the leftmost column, since it is the first stage to execute.
 
-1. Click each of the two jobs to see the output in a web terminal. Identify the gitlab-runner for each job 
+1. Click each of the two jobs to see the output in a web terminal. Identify the gitlab-runner for each job
 
     > Hint: it’s listed near the top of each job’s output.
 
@@ -165,7 +165,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
     ```sh
     gitlab-runner status
     ```
-     
+
    * In a **Windows** PowerShell window:
 
     ```powershell
@@ -181,7 +181,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
 
 #### Linux
 
-1. Follow **steps 1 and 2 only** in [this documentation](https://docs.gitlab.com/runner/install/linux-repository.html#installing-gitlab-runner). 
+1. Follow **steps 1 and 2 only** in [this documentation](https://docs.gitlab.com/runner/install/linux-repository.html#installing-gitlab-runner).
 
 1. Verify that the gitlab-runner service has started by running this command:
 
@@ -217,11 +217,11 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 1. Open an elevated PowerShell window:
    1. Click **Start**.
- 
+
    1. Type `PowerShell`
- 
+
    1. Right-click **Windows PowerShell**.
- 
+
    1. Click **Run as administrator**.
 
 1. From the elevated PowerShell window, install and start the gitlab-runner service:
@@ -237,7 +237,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
     ```powershell
     .\gitlab-runner.exe status
     ```
-    
+
 If you see `Service is running` in the output, the gitlab-runner service is working as expected.
 
 ### Task G. Register a Specific Runner Dedicated to your Project
@@ -270,13 +270,13 @@ If you see `Service is running` in the output, the gitlab-runner service is work
        ```sh
        sudo gitlab-runner list
        ```
-     
+
     * In a **macOS** terminal:
 
        ```sh
        gitlab-runner list
        ```
-     
+
      * In a normal (not elevated) **Windows** PowerShell window:
 
         ```powershell
@@ -286,22 +286,22 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 
 >  If your runner is registered correctly, you should see an output like this: </br>`gitlab-runner run Executor=shell Token=your-gl-token URL=https://gitlab.com`
-  
+
 11. If you’re on Windows, follow these additional instructions to configure your gitlab-runner to use the right command to start PowerShell:
     1. Open `C:\GitLab-Runner\config.toml` in a text editor.
-    
+
     1. Change this line:
 
         ```toml
         shell = "pwsh"
         ```
-       
+
        to this:
-    
+
         ```toml
         shell = "powershell"
         ```
-    
+
     1. Save the file.
 
 ## Lab Guide Complete

@@ -109,7 +109,7 @@ Depending on the complexity of an issue, it may be necessary to break down or pr
 
 If none of the above applies, then the issue is probably fine as-is! It's likely then that the weight of this issue is quite low, e.g., 1-2.
 
-##### Managing discussions, information, decisions, and action items in an issue.
+##### Managing discussions, information, decisions, and action items in an issue
 
 As part of [breaking down or promoting issues](#breaking-down-or-promoting-issues), you may find that there are a significant number of threads and comments in a given issue.
 

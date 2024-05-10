@@ -17,13 +17,13 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
 
 ### Milestone 16.3 (June 18, 2023 - July 17, 2023)
 
-#### Goals:
+#### Goals
 - Building instructions for manual install of the metadata database
 - Planning discussions on how to breakdown the project into Experimental and Beta phases
 - Milestone plan: [https://gitlab.com/gitlab-org/gitlab/-/issues/416110#container-registry](https://gitlab.com/gitlab-org/gitlab/-/issues/416110#container-registry)
 
 #### Week of Aug 14-18
-- Completed: 
+- Completed:
     - Updated the [architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/container_registry_metadata_database_self_managed_rollout/) with a new table structured for our feature based rollout approach: [https://gitlab.com/gitlab-org/gitlab/-/merge_requests/128824](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/128824)
     - Completed the POC for installing the database using Helm and Omnibus for new installations.  Demo videos are posted in the [issue](https://gitlab.com/gitlab-org/container-registry/-/issues/1065) for both installation paths.
     - Implemented Headway automation. All issues and MRs marked with the `~headway-self-managed-registry-db label` will be added to tables in the [epic](https://gitlab.com/groups/gitlab-org/-/epics/5521).
@@ -31,7 +31,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
 
 ### Milestone 16.4 (August 18, 2023 - September 17, 2023)
 
-#### Goals:
+#### Goals
 - Continue to develop walkthroughs and demos for manual database installation [https://gitlab.com/gitlab-org/container-registry/-/issues/1068](https://gitlab.com/gitlab-org/container-registry/-/issues/1068)
 - Evaluate options for installing the database through Omnibus and Helm Charts [https://gitlab.com/gitlab-org/container-registry/-/issues/1102](https://gitlab.com/gitlab-org/container-registry/-/issues/1102)
 - Weekly forecasts for this project will be determined over the course of this milestone.  This project is just getting started and will initially be reactive to research findings and user feedback.
@@ -55,7 +55,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - Coordinate with our Support Liason to prepare for user interaction.
 - Completed:
   - Created issues for communication with users regarding [beta interest](https://gitlab.com/gitlab-org/gitlab/-/issues/379240) and [feedback](https://gitlab.com/gitlab-org/gitlab/-/issues/423459).  Discussions are in progress with a potential first user for the beta program.
-  - Through testing, the team discovered a problem with persisting database configuration which will need to be fixed in 16.4 before the beta user can start the installation. 
+  - Through testing, the team discovered a problem with persisting database configuration which will need to be fixed in 16.4 before the beta user can start the installation.
 
 #### Week of Sept 4-8
 - Plan:
@@ -76,14 +76,14 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
 
 ### Milestone 16.5 (September 17, 2023 - October 10, 2023)
 
-#### Goals:
+#### Goals
 - Open the Beta program for the container registry and start getting customer feedback about the docs and migration.
 - Provision a Container Registry database for Omnibus installations ([issue](https://gitlab.com/gitlab-org/container-registry/-/issues/1074))
 - Add observability metric in service ping to identify use of the new database in self-managed installs.
 - Test offline migration runtime with test registries of different sizes and storage backends
 
 #### Week of Sept 18-22
-- Plan: 
+- Plan:
   - With the 16.4 release, the fix for persisting database settings will be available to self-managed and users can begin testing for the beta program.
   - Define detailed project delivery goals
 - Completed:
@@ -111,16 +111,16 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - Completed observability metric work and created a dashboard for tracking db usage.
 
 #### Week of Oct 9-13
-- Plan: 
+- Plan:
   - Refine issues for addressing first phase of beta feedback
-  - Research methods for testing data migration in an environment with Geo  
+  - Research methods for testing data migration in an environment with Geo
 - Completed:
   - Added support for a layer media type a user had trouble importing ([issue](https://gitlab.com/gitlab-org/container-registry/-/issues/1137))
   - Prevent offline gc from running if the database is in use ([issue](https://gitlab.com/gitlab-org/container-registry/-/merge_requests/1459))
 
 ### Milestone 16.6 (October 17, 2023 - November 10, 2023)
 
-#### Goals:
+#### Goals
 - Implement issues related to feedback from first phase of beta users
 - [Add registry migration subcommand to Omnibus gitlab-ctl](https://gitlab.com/gitlab-org/container-registry/-/issues/1108)
 - Create import guides specific to omnibus
@@ -133,7 +133,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - Add registry database migrate command in omnibus is working in test environment
   - Additional testing in migration of large registries
 
-#### Week of Oct 23-27 
+#### Week of Oct 23-27
 - Plan:
   - Deprecating OSS and Swift storage drivers: [issue](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/134819)
   - Store Unknown Layer Blobs as Generic Media Types Rather than failing: [issue](https://gitlab.com/gitlab-org/container-registry/-/issues/1140)
@@ -144,7 +144,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - Omnibus registry database migrate subcommand in review with Distribution [MR](https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/7140)
   - Wrapped up current scope of performance tests
 #### Week of Oct 30-Nov 3 (Q3 ends on Oct 31)
-- Plan: 
+- Plan:
   - Several interactions with users in beta issue to address.
   - Continue progress on Omnibus registry database migrate command MR.
 - Completed:
@@ -170,27 +170,27 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
 
 ### Milestone 16.7 (November 13, 2023 - December 21, 2023)
 
-#### Goals:
+#### Goals
 - Engage with beta users after 16.6 release improvements and gather feedback from self-managed installations.
 - Create imported image validation command [issue](https://gitlab.com/gitlab-org/container-registry/-/issues/1159)
 
-#### Week of Nov 20-24 
-- Plan: 
+#### Week of Nov 20-24
+- Plan:
   - Finalize the MR for Omnibus registry database migrate command.
 - Completed:
   - Engage with users and customers who are running the importer on large repositories.  Responding to feedback.
 
 #### Week of Nov 27-Dec 1
-- Plan: 
+- Plan:
   - Finalize progress bar and UX improvements for the importer.
   - Continue communication with beta customers who are testing the import process.
-- Completed: 
+- Completed:
   - [Discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/431701) regarding regarding expansion of usage ping metrics.
   - Draft of importer progress bar is ready for review.
-  
+
 
 #### Week of Dec 4-8
-- Plan: 
+- Plan:
   - Evaluate options for validating images after they are imported.
   - Respond to feedback in Omnibus MR to add the import command.
 - Completed:
@@ -207,29 +207,29 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - Evaluate tools for validating images after import. ([issue](https://gitlab.com/gitlab-org/container-registry/-/issues/1159))
 ### Milestone 16.8 (December 22, 2023 - January 18, 2024)
 
-#### Goals:
+#### Goals
 - Implement issues related to feedback from second phase of beta users
 - [Validate Self-Managed Imports](https://gitlab.com/gitlab-org/container-registry/-/issues/938)
 - Utility support for registry database commands, such as in gitlab-ctl, equivalent to what is already present for offline garbage collection for charts
 
 #### Week of Dec 18-22
-- Plan: 
+- Plan:
   - Working with major registry user who will do their data migration over the holiday break.  Most of the container registry team is unavailable this week.
 
 #### Week of Dec 25-29
--  Plan: 
+-  Plan:
   - Continue working with major registry user on setup and migration of their registry database.  Most of the container registry team is unavailable this week.
-- Completed: 
+- Completed:
   - Migration for this user was a huge success!  We'll address the follow-up issues in our next milestone.
 
 #### Week of Jan 1-5
-- Plan: 
+- Plan:
   - Catching up after holidays and continued engagement with beta users.
 - Completed:
   - Reviewed customer migration successes and concerns, and developed follow-up issues.
 
 #### Week of Jan 8-12
-- Plan: 
+- Plan:
   - Release issues related to feedback from second phase of beta users.
   - Develop next steps plan and a communcation campaign to increase visibility.
 - Completed:
@@ -237,12 +237,12 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
 
 ### Milestone 16.9 (January 13, 2024 - February 15, 2024)
 
-#### Goals:
+#### Goals
 - Create import guides specific to charts
 - Test: [Ensure container registry doesn't lose Geo support](https://gitlab.com/gitlab-org/gitlab/-/issues/247139)
 
 #### Week of Jan 22-26
-- Plan: 
+- Plan:
   - Start testing Geo support
   - Continue testing and documentation for manual Charts migration
 - Completed:
@@ -250,15 +250,15 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - Merged Omnibus documentation [docs](https://docs.gitlab.com/ee/administration/packages/container_registry_metadata_database.html)
 
 #### Week of Jan 29-Feb 2
-- Plan: 
+- Plan:
   - Continue testing Geo support
   - Continue Charts migration documentation
 
 ### Milestone 16.10 (February 16, 2024 - March 21, 2024)
 
-#### Goals:
+#### Goals
 - Automatically apply DB migrations during upgrades with Charts. (blocked)
 - [Importer: Retry Entire Step on Transient Error](https://gitlab.com/gitlab-org/container-registry/-/issues/72)
-- [Importer: Pass on ErrDigestUnsupported](https://gitlab.com/gitlab-org/container-registry/-/issues/977) 
+- [Importer: Pass on ErrDigestUnsupported](https://gitlab.com/gitlab-org/container-registry/-/issues/977)
 - [Importer: Disable the Blob Descriptor Cache](https://gitlab.com/gitlab-org/container-registry/-/issues/970)
 - [Importer: Reconsider the Clean Database Option](https://gitlab.com/gitlab-org/container-registry/-/issues/943)

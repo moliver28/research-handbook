@@ -15,7 +15,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 The Brand Strategy team is responsible for accelerating GitLab’s path to market by creating awareness, trust, and affinity for the GitLab brand.
 
-## Meet the team:
+## Meet the team
 
 - Rebecca Clayman: Director of Brand Strategy - `@rclayman`
 - Matthew Jordan: Senior Brand Manager - `@jmatthewj`
@@ -46,7 +46,7 @@ If you have a question or request that isn’t outlined on this page, you can re
 
 ### Creative requests
 
-Have a creative request for the Brand team? Please [open an issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general) to get started.  
+Have a creative request for the Brand team? Please [open an issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=request-design-general) to get started.
 
 ### Swag requests
 

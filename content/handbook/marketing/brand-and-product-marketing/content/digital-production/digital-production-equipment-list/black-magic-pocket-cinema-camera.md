@@ -1,7 +1,7 @@
 ---
 
 title: "Digital Production Equipment List: Equipment Use and Operation"
-description: A guide for use of the Digital Production Equipment. 
+description: A guide for use of the Digital Production Equipment.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
@@ -16,7 +16,7 @@ twitter_creator: "@gitlab"
 
 The Blackmagic Pocket Cinema is a camera designed for professional quality video recording. It is used by GitLab employees who require expanded features for recording video or making higher end calls.
 
-#### External Resource:
+#### External Resource
 
 **[Blackmagic Pocket Cinema Manual](https://www.bhphotovideo.com/lit_files/452872.pdf)**
 
@@ -87,7 +87,7 @@ This will help you add enchanced color to have a nice look in your webcam presen
 
 #### Connecting a Lavalier Microphone
 
-The wireless lavalier kit contains a transmittor and a receiver. The transmittor can by identified by the mute switch located on the top.  
+The wireless lavalier kit contains a transmittor and a receiver. The transmittor can by identified by the mute switch located on the top.
 
 1. Attach the microphone to the transmittor and the three pronged XLR cable to the receiver.
 1. Turn on both the microphone and the transmittor by opening the front facing panel and holding the **ON/OFF button** until the screen turns on.

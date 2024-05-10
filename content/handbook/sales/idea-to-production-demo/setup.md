@@ -312,7 +312,7 @@ oc-cluster plugin-uninstall gitlab
 oc-cluster plugin-install gitlab
 ```
 
-### Restart OpenShift after the server has been restarted:
+### Restart OpenShift after the server has been restarted
 
 Once again the environment variables need to be set:
 

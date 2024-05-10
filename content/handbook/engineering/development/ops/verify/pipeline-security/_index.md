@@ -7,7 +7,7 @@ description: "The GitLab Verify:Pipeline Security Group Handbook page"
 
 We provide security in the software supply chain process, ensuring the right level of visibility to pipelines and jobs. This enables organizations to operate their CI pipelines securely.
 
-Our team is responsible for devliering on the following categories: 
+Our team is responsible for devliering on the following categories:
 
 - [Build Artifacts](https://about.gitlab.com/direction/verify/build_artifacts/)
 - [Secrets Management](https://about.gitlab.com/direction/verify/secrets_management/)
@@ -16,11 +16,11 @@ The current and planned category maturity can be found on the [Maturity page](ht
 
 ## Mission
 
-Our mission is to give organizations features which enable secure pipeline operations, in an operationally efficient and highly secure way at scale. 
+Our mission is to give organizations features which enable secure pipeline operations, in an operationally efficient and highly secure way at scale.
 
 ## Performance Indicators
-We measure the value we contribute by using a [Product Performance Indicator](/handbook/product/performance-indicators/). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success. 
-<!-- Our current PI for the Pipeline Security group is the [GMAU (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifytesting---gmau---count-of-active-users-engaging-with-the-test-summary-mr-widget). This is a rolling count of unique users who have triggered a pipeline that uploads a test or coverage report. This is not currently instrumented and we are tracking progress of instrumentation in [gitlab&4528](https://gitlab.com/groups/gitlab-org/-/epics/4528). --> 
+We measure the value we contribute by using a [Product Performance Indicator](/handbook/product/performance-indicators/). One of the PI process goals is to ensure that, as a product team, we are focused on strategic and operational improvements to improve leading indicators, precursors of future success.
+<!-- Our current PI for the Pipeline Security group is the [GMAU (internal handbook)](https://internal.gitlab.com/handbook/company/performance-indicators/product/ops-section/#verifytesting---gmau---count-of-active-users-engaging-with-the-test-summary-mr-widget). This is a rolling count of unique users who have triggered a pipeline that uploads a test or coverage report. This is not currently instrumented and we are tracking progress of instrumentation in [gitlab&4528](https://gitlab.com/groups/gitlab-org/-/epics/4528). -->
 
 ### Error Budgets
 
@@ -91,12 +91,12 @@ We use a [release planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-s
 #### Issue weighting and refinement
 Before issues can be moved from the `workflow::planning breakdown` status into the  `workflow::ready for development` status, they must have a weight greater than 0 applied to the issue.
 
-We will apply a two-step estimating process: 
+We will apply a two-step estimating process:
 
-- Phase 1: High-level/Rough estimate. Our intention here is to enable the PM to schedule issues according to capacity multiple milestones in advance, the EM will add a high-level estimated weight to issues. The PM will then schedule the issue to a specific milestone. 
+- Phase 1: High-level/Rough estimate. Our intention here is to enable the PM to schedule issues according to capacity multiple milestones in advance, the EM will add a high-level estimated weight to issues. The PM will then schedule the issue to a specific milestone.
 - Phase 2: Refinement/Validated estimate. Engineers will be assigned to refine and adjust the estimated weight (if necessary) during the first two weeks of the milestone prior to the issue's scheduled milestone.
 
-The intention of this phased process is to enable agile planning and reduce the burden of our engineers in frequent context-switching required to investigate and refine issues throughout each milestone. Additionally, this provides our team a quarterly look ahead in the group's direction. 
+The intention of this phased process is to enable agile planning and reduce the burden of our engineers in frequent context-switching required to investigate and refine issues throughout each milestone. Additionally, this provides our team a quarterly look ahead in the group's direction.
 
 #### Issue weight system
 An issue weight is determined based on the complexity in the following criteria:
@@ -208,7 +208,7 @@ If there are no more `Deliverable` issues that a team member can "pull from the 
 ##### Priority
 We use a series of labels to indicate the highest priority issues in the milestone.
 
-* The highest priorities for a given milestone would be issues labeled as `Deliverable` and `Verify::P1` issues. 
+* The highest priorities for a given milestone would be issues labeled as `Deliverable` and `Verify::P1` issues.
 * If there are `Deliverable` issues with the `bug::vulnerability` label as well, those should take top priority over other deliverables.
 * We use the `Verify::P2` and `Verify::P3` labels to prioritize issues planned for future milestone deliverables.
 
@@ -227,7 +227,7 @@ As part of the code review process, when an MR makes a user-facing change (no ma
 
 For iterations on features behind feature flags, even when the changes won't be user-facing right away, involve a Product Designer. If they feel that it would be more efficient to do so, the Product Designer may choose to defer their review of the feature-flagged feature until it is closer to being complete. This option gives them the flexibility to prioritize their workload as they see fit and avoid some of the noise generated by the MR review process.
 
-#### Issue Health Status Definitions:
+#### Issue Health Status Definitions
 - **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
 - **Needs Attention** - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back `On Track` within the week.
    - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
@@ -332,7 +332,7 @@ Instead of waiting until the end of the milestone to add items to the retrospect
 ### On issues
 Issues worked on by the Pipeline Security group have a group label of ~"group::pipeline security". Issues that contribute to the verify stage of the DevOps toolchain have the ~"devops::verify" label.
 
-You can tag a team member with `@mention` in the issue if you have someone specific to address. If you need to call the attention of the entire group, you can tag `@gitlab-com/pipeline-security-group` which notifies the entire team. 
+You can tag a team member with `@mention` in the issue if you have someone specific to address. If you need to call the attention of the entire group, you can tag `@gitlab-com/pipeline-security-group` which notifies the entire team.
 
 ## Developer Onboarding
 

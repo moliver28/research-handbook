@@ -13,19 +13,19 @@ On this page, you'll find an overview as well as links to helpful resources for 
 <br>
 We track progress through the skills required to be a product manager at all levels via the Product Management Career Development Framework (CDF). The single source of truth for that framework is the table below but you can use this [CDF template](https://docs.google.com/document/d/1MT_Xks-oF-D-2R_N380h4Phg_9s7BbO0U8k0eP-u8EI/edit) to track your career development with your manager. We are transitioning the CDF to include the company-wide standard of evaluating performance per the [Performance/Growth Matrix](/handbook/people-group/talent-assessment/#the-performancepotential-matrix). In this model, performance will be considered in categories of Developing, Performing, and Exceeding, alongside evaluation of Developing, Growing, and Exceeding in [Growth Output](/handbook/people-group/talent-assessment/#growth-output) instead of using Growing, Learning, Thriving, and Expert categories of the [compa-ratio](/handbook/total-rewards/compensation/compensation-calculator/#compa-ratio).
 
-***
+---
 
 ### What is the expected outcome of a CDF Review?
 CDF reviews should result in actionable improvement focus areas for the product manager. When conducting a CDF review, managers should consider drilling into specific items within the PM's purview to highlight where the team member can focus on improving. [PM competencies](/handbook/product/product-manager-role/learning-and-development) are also valuable for identifying improvement areas.
 
-We use KPIs by function in the CDF. These KPIs feature a guideline for results that are meant to be suggested indicators for ideal behaviors for Product teammates at GitLab. These are target results and are not meant to be an exhaustive list for Product teammate performance. As a manager and individual contributor, have a dialogue about the right measures of success and define those at the beginning of each performance cycle. Keep the KPIs consistent as you measure them over each CDF review for the best comparative results of growth. 
+We use KPIs by function in the CDF. These KPIs feature a guideline for results that are meant to be suggested indicators for ideal behaviors for Product teammates at GitLab. These are target results and are not meant to be an exhaustive list for Product teammate performance. As a manager and individual contributor, have a dialogue about the right measures of success and define those at the beginning of each performance cycle. Keep the KPIs consistent as you measure them over each CDF review for the best comparative results of growth.
 
 ### Selecting a Focus Area
 
-In each CDF review, it's recommended to select an improvement area to focus on until the next CDF review. This could be anywhere from 1 to 3 improvement areas that you and your manager select together. Once selected, the teammate and manager check in on those focus areas in each 1:1 reviewing progress, discussing feedback, and adjusting any plans for the quarter to continue to improve. Selecting a focus provides a structure to say "no" to other areas that may not be as timely, critical, or worth the additional focus. 
+In each CDF review, it's recommended to select an improvement area to focus on until the next CDF review. This could be anywhere from 1 to 3 improvement areas that you and your manager select together. Once selected, the teammate and manager check in on those focus areas in each 1:1 reviewing progress, discussing feedback, and adjusting any plans for the quarter to continue to improve. Selecting a focus provides a structure to say "no" to other areas that may not be as timely, critical, or worth the additional focus.
 
 ## CDF for Individual Contributor Product Managers
-Below, you'll find the CDF framework and potential discussion topics for [Product Managers](/job-families/product/product-manager/). 
+Below, you'll find the CDF framework and potential discussion topics for [Product Managers](/job-families/product/product-manager/).
 
 ### Competencies
 
@@ -120,7 +120,7 @@ _Example outcomes: Say/Do, MR Rate, Validation Track Cycle Time and Build Track 
 
 \* Example behaviors are intended to complement rather than replace the above CDF role expectations. These behaviors illustrate examples of the differences between various levels; however, as the needs and circumstances of each role are unique, not all of these behaviors will be necessary for every role. Additionally, exibiting all the behaviors of a given role does not guarantee a promotion into that role (see the section below on [typical requirements for promotion](#typical-requirements-for-promotions)).
 
-## CDF for Individual Contributor Pricing Managers 
+## CDF for Individual Contributor Pricing Managers
 
 Below, you'll find the CDF framework and potential discussion topics for [Pricing Product Managers](/job-families/product/pricing/).
 
@@ -131,7 +131,7 @@ This competency is about setting and attaining the product direction as defined 
 _Example outcomes: Pricing, packaging and data analytics strategies aligned with product and business objectives (e.g. user adoption, cost savings, revenue monetization, etc.) and Pricing and packaging aligned to product value drivers (clear articulation of customer’s perceived value and how monetization is aligned with perceived value)._
 
 | [Pricing Analyst](/job-families/product/pricing/#pricing-analyst)| [Senior Pricing Analyst](/job-families/product/pricing/#senior-pricing-analyst)| [Principal Pricing Manager](/job-families/product/pricing/#principal-pricing-manager) |
-| -------- |-- | -- | 
+| -------- |-- | -- |
 | Adept at establishing processes and analytical methods to measure success metrics for pricing initiatives. Adept at communicating data insights. Skilled at creating dashboards to inform team members on success metrics. Partners with Product and Pricing Managers to understand project goals and develop a data strategy to support overall initiative. Light-weight project management of data analytic initiatives. Adept at identifying root drivers of problem statements. Skilled in analyzing data to validate connection between root drivers to problem statements. Adept in sourcing data used to validate problem statements. Skilled in using data to clarify problem statements. Adept in using data to refine solution options. | Excellent at establishing processes and analytical methods to measure success metrics for pricing initiatives. Excellent at communicating data insights. Skilled at determining the right dashboards to create that allows team members to review performance of initiatives against success metrics. Partners with Product and Pricing Managers to understand project goals and develop a data strategy to support overall initiative. Advanced project management of data analytic initiatives. Skilled at identifying root drivers of problem statements and analyzing data to validate connection between root drivers to problem statements. Skilled in sourcing and analyzing data to derive key insights to support/drive pricing initiatives. Skilled in using data to clarify problem statements and refine solution options. | Expert at setting success metrics for pricing initiatives and communicating business value of pricing projects. Expert at aligning GitLab's Go-to-market activities and business model with pricing. Expert at identifying monetization drivers and incorporating findings into pricing recommendations. Partners with Product Managers and Sales to understand product vision and sales challenges to build pricing and packaging intiatives. Leads pricing and packaging intiatives. Expert at identifying root drivers of problem statement, forming solution hypotheses, and identifying research needed to validate potential solutions. Skilled at qualitative customer and sales interviewing. Skilled at creating surveys for quantitative analysis. Expert at aggregating data and insights to form a cohesive pricing and packaging recommendation. Capable of teaching pricing validation techniques to others.|
 
 ### Sensing Mechanisms
@@ -141,7 +141,7 @@ This competency is about being able to balance and understand the various inputs
 _Example outcomes: Uses appropriate methods of customer interviewing, competitive landscape, customer/sales data and market research as basis for Product Direction._
 
 | [Pricing Analyst](/job-families/product/pricing/#pricing-analyst)| [Senior Pricing Analyst](/job-families/product/pricing/#senior-pricing-analyst)| [Principal Pricing Manager](/job-families/product/pricing/#principal-pricing-manager) |
-| -------- |-- | -- | 
+| -------- |-- | -- |
 |Basic understanding of pricing research methodologies. Adept in analyzing data gathered from different pricing surveys to drive insights. Adept at identifying, collecting, and analyzing customer, product usage and sales data to form insights used to drive pricing decisions. | Basic understanding of pricing research methodologies and skilled in analyzing data gathered from different pricing surveys to drive insights. Skilled at identifying, collecting and analyzing customer, product usage and sales data to form insights used to drive pricing decisions. Skilled at consolidating data and insights to form a comprehensive story. | Expert at incorporating customer options (build, buy and partner) into pricing and packaging recommendations. Be able to clearly articulate the customer’s next best alternatives and how it impacts PnP recommendations. Excellent in the understanding of pricing research methodologies and being able to identify appropriate method(s) to be used for a given situation: basic survey questions on interests/needs, Van Westdorp, Gabor-Granger, Max-Diff, Conjoint, etc.|
 
 ### Thought Leadership
@@ -151,7 +151,7 @@ This competency is about the recognition of having technical ownership and being
 _Example outcomes: Participation in Webinars, Prospect calls, #thanks shoutouts by others, engagement in social with community._
 
 | [Pricing Analyst](/job-families/product/pricing/#pricing-analyst)| [Senior Pricing Analyst](/job-families/product/pricing/#senior-pricing-analyst)| [Principal Pricing Manager](/job-families/product/pricing/#principal-pricing-manager) |
-| -------- |-- | -- | 
+| -------- |-- | -- |
 | Adept at identifying data needs in order to support/drive pricing initiatives. Adept at driving improvements to data collection and analysis methods when data gaps are identified. Adept at driving data infrastructure improvements when required. Trusted resource for internal teams to provide pricing insights based on data. | Skilled at identifying data needs in order to support/drive pricing initiatives. Skilled at identifying data gaps and developing the data infrastructure to provide the required insights. Trusted resource for internal teams to provide pricing insights based on data. | Recognized as a thought leader internally and externally. Escalates issues cleanly to appropriate levels of authority when decisions or progress are blocked. Excellent presentation skills at all levels of the company. Expert in the relevant product domain(s). Capable of coaching others on the pricing frameworks, discount methodologies, and sales operations based on in-depth knowledge of the relevant product domain’s value proposition. |
 
 ### Aligning Teams with Values
@@ -161,7 +161,7 @@ This competency is about the teammate facilitates the team execution and perform
 _Example outcomes: Say/Do, MR Rate, Validation Track Cycle Time and Build Track Cycle Time, OKR Attainment (70-85% is success, 100% means place for improvement), 360 feedback from counterparts, Values demonstration per our Company Competencies_
 
 | [Pricing Analyst](/job-families/product/pricing/#pricing-analyst)| [Senior Pricing Analyst](/job-families/product/pricing/#senior-pricing-analyst)| [Principal Pricing Manager](/job-families/product/pricing/#principal-pricing-manager) |
-| -------- |-- | -- | 
+| -------- |-- | -- |
 | Responsible for the health of working relationships with peers in the stage. Familiar and comfortable with using iteration methologies and collaborating across the product group. | Skilled at applying agile development methodologies. Able to elevate performance of the Group through excellent PM outputs. Skilled at applying iteration methodologies and managing with influence while collaborating across the product stage. | Expert at applying agile development methodologies. Able to elevate performance of the peers in the stage. Expert at applying iteration methodologies and managing with influence while collaboration across the product section. |
 
 ## CDF for Product Leadership
@@ -212,7 +212,7 @@ Responsibilities outlined in the [Group Manager of Product Job Family page](/job
 
 * Coaching of team members on business skills
 * Acquisitions
-* Deep understanding, synthesis, and communication of competitive landscape and emergent solutions 
+* Deep understanding, synthesis, and communication of competitive landscape and emergent solutions
 * Business Cases for new investment
 * Direction updates
 
@@ -235,7 +235,7 @@ Responsibilities outlined in the [Group Manager of Product Job Family page](/job
 ##### Group Manager
 
 * Presenting broader GitLab Roadmap
-* Represent GitLab at Conferences 
+* Represent GitLab at Conferences
 
 #### Role Expectations
 
@@ -259,9 +259,9 @@ Responsibilities outlined in the [Group Manager of Product Job Family page](/job
 * High-performing team
 * Enabling direct reports to be more efficient
 * Shared understanding of team goals and targets
-* Hiring and at managing underperformance. 
-* Caring personally for team members. 
-* Candid real-time feedback. 
+* Hiring and at managing underperformance.
+* Caring personally for team members.
+* Candid real-time feedback.
 
 ** Note ** Aligning Teams with Values includes People Management Skills
 
@@ -278,7 +278,7 @@ When evaluating a product manager's potential, in addition to the [generic infor
 We can think about the Product Manager's potential primarily on two axis: value creation and leadership.
 
 ### Value Creation
-Product managers are in the business of creating value, measurable by [Product KPIs](/handbook/product/performance-indicators/#structure). They prioritize the most important thing to unlock the most value at the intersection of the business and the user or buyer. At GitLab, Product Managers are often the [business owner](https://www.svpg.com/product-managers-vs-business-owners/) of their segment and outputs are not just in the delivery of features to production, rather can include go-to-market, sales enablement, partner/channel/alliances relationships, and understanding revenue impact of the product offering. 
+Product managers are in the business of creating value, measurable by [Product KPIs](/handbook/product/performance-indicators/#structure). They prioritize the most important thing to unlock the most value at the intersection of the business and the user or buyer. At GitLab, Product Managers are often the [business owner](https://www.svpg.com/product-managers-vs-business-owners/) of their segment and outputs are not just in the delivery of features to production, rather can include go-to-market, sales enablement, partner/channel/alliances relationships, and understanding revenue impact of the product offering.
 
 We expect product managers to create value across the business by excelling at execution in at least the following levels. When thinking of a PM's potentials, consider their capacity to expand their influence beyond their current level.
 
@@ -325,7 +325,7 @@ We want Product Managers to succeed in their careers at GitLab and beyond. Produ
 ### Typical Requirements for Promotions
 
  Promotions follow the [standard promotion process](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline) and adhere to the [promotion philosophy](/handbook/people-group/promotions-transfers/#promotion-philosophy). When reviewing a proposed promotion, we consider: 1) readiness of the individual, and 2) business justification/opportunity. Team members should already be demonstrating some of the next level job frameworks levels before promotion and a [promotion document](/handbook/people-group/promotions-transfers/#promotion-document) should be completed. For promotions to take effect, the budget needs to be available and approved. If there is not a business need substantial enough to justify a promotion opportunity, it is possible that otherwise qualified individuals may not be able to be promoted until an opportunity becomes available.
- 
+
  Unless there is a justifiable exception, the requirements below are also typically required to be met for individual contributor promotions within the Product department:
 
 | **Levels**                      | Intermediate | Senior | Principal | Senior Principal |

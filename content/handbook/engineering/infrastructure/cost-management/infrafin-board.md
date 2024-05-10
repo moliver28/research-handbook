@@ -11,7 +11,7 @@ description: "Infrafin Board"
 
 
 
-----
+---
 
 ## Criteria
 While we would like each team to be as efficient as possible, it is not scalable or realistic for us to talk to each individual about one server or a few servers they are spinning up. For that reason we provide learning resources for those individuals to try and price out their own resources and then we define the following minimum requirements for something to be considered as part of the infrafin board. If the issue meets any of the following criteria and it is within our scope of control (part of central billing that we have visibility into) it can be added as a potential infrafin issue.

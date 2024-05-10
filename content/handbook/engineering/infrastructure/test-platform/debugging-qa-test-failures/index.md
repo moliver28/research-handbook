@@ -50,9 +50,9 @@ flowchart TB
         fix_tests(fix tests if possible)
         quarantine_tests(quarantine tests if necessary)
         monitor_incident(participate in incident process)
-    		tag_issue_for_report(add your emoji to issue for the DRI gem)
-		    publish_results(publish your results to the triage issue with the DRI gem)
-		    dri_handoff(handoff to next DRI anything that is still in flight)
+            tag_issue_for_report(add your emoji to issue for the DRI gem)
+            publish_results(publish your results to the triage issue with the DRI gem)
+            dri_handoff(handoff to next DRI anything that is still in flight)
 
         %% external links
         click failed_pipeline "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#review-the-failure-logs"
@@ -68,52 +68,52 @@ flowchart TB
         click eyes "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
         click fire_engine "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
         click boom "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
-      	click tag_issue_for_report "https://gitlab.com/gitlab-org/ruby/gems/dri#configuration"
-			  click publish_results "https://gitlab.com/gitlab-org/ruby/gems/dri#4-publish"
+          click tag_issue_for_report "https://gitlab.com/gitlab-org/ruby/gems/dri#configuration"
+              click publish_results "https://gitlab.com/gitlab-org/ruby/gems/dri#4-publish"
         click notify_incident "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#failure-needs-escalation"
         click update_incident "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#notify-group-in-all-cases"
 
         %% diagram
         slack_channels -->|failed pipeline run| eyes
-			  slack_channels -->|no failed pipeline runs| next_channel
+              slack_channels -->|no failed pipeline runs| next_channel
 
-				open_incident --> next_channel
-   			another_failure -->|no| next_channel
+                open_incident --> next_channel
+               another_failure -->|no| next_channel
         incident -->|yes| notify_incident
 
-				next_channel --> investigate
-				next_channel --> publish_results
+                next_channel --> investigate
+                next_channel --> publish_results
 
-				subgraph report the failure
-				  eyes --> failed_pipeline
-				  failed_pipeline --> existing_issue
+                subgraph report the failure
+                  eyes --> failed_pipeline
+                  failed_pipeline --> existing_issue
           existing_issue -->|new failure| new_issue
-				  existing_issue -->|existing issue| fire_engine
-					new_issue --> boom
-					boom --> notify_groups
-					notify_groups --> incident
-	    		incident -->|no| tag_issue_for_report
-		    	tag_issue_for_report --> tag_pipeline
+                  existing_issue -->|existing issue| fire_engine
+                    new_issue --> boom
+                    boom --> notify_groups
+                    notify_groups --> incident
+                incident -->|no| tag_issue_for_report
+                tag_issue_for_report --> tag_pipeline
 
-					fire_engine --> tag_issue_for_report
-					tag_pipeline --> another_failure
-					another_failure -->|yes| failed_pipeline
-				end
+                    fire_engine --> tag_issue_for_report
+                    tag_pipeline --> another_failure
+                    another_failure -->|yes| failed_pipeline
+                end
 
-				subgraph escallate issue
-				  notify_incident --> open_incident
-				  open_incident --> update_incident
+                subgraph escallate issue
+                  notify_incident --> open_incident
+                  open_incident --> update_incident
           update_incident --> monitor_incident
-				end
+                end
 
-				subgraph follow up on test failures
-				  investigate --> fix_tests
-					investigate --> quarantine_tests
-				end
+                subgraph follow up on test failures
+                  investigate --> fix_tests
+                    investigate --> quarantine_tests
+                end
 
-				subgraph end of your day
-			    publish_results --> dri_handoff
-				end
+                subgraph end of your day
+                publish_results --> dri_handoff
+                end
 ```
 
 ### QA test pipelines
@@ -460,7 +460,7 @@ If you suspect that certain test is failing due to the `gitlab/gitlab-{ce|ee}-qa
 
 #### Investigating orchestrated test failure
 
-##### Verify the reconfigure logs for the GitLab container in the pipeline artefacts.
+##### Verify the reconfigure logs for the GitLab container in the pipeline artefacts
 
 Each orchestrated job has a log file attached as artifacts called
 - `<container_name>-reconfigure-logs.txt` - if the container runs successfully on 1st attempt, or

@@ -11,7 +11,7 @@ title: "Proposed Usecase: Data Science"
 
 # The Market Viewpoint
 
-## Data Science — AKA DataOps, MLOps, etc.
+## Data Science — AKA DataOps, MLOps, etc
 
 #### Common challenges
 

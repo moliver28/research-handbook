@@ -13,7 +13,7 @@ description: "Learn about various aspects of cost management for GCP"
 
 
 
-----
+---
 
 ## Resource Links
 - [Cost Optimization Principles](https://cloud.google.com/blog/topics/cost-management/principles-of-cloud-cost-optimization)

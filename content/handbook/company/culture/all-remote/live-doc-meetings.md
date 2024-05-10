@@ -101,6 +101,6 @@ Live doc meetings are usually held in the host's time zone. However, leaders sho
 
 Live doc meetings can happen fully in-person, fully online, or a on hybrid call — which is a blend of both. It's best to have everyone on a level playing field for communication and discussion, so [hybrid calls should be avoided]({{< ref "./meetings#avoid-hybrid-calls" >}}). If a hybrid call is necessary, have participants use their own equipment (camera, headset, screen) to avoid audio problems from delays and feedback.
 
-- - -
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

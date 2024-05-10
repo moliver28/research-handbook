@@ -23,14 +23,14 @@ under the [`qa/specs/features/browser_ui/7_configure`](https://gitlab.com/gitlab
 #### Non-quarantined test execution environments
 The `Configure AutoDevOps Templates template: express|rails|spring works with Auto DevOps` test is a tagged to run only in the [`:staging`](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines) environment and therefore runs in :
 - [`staging`](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines)
-	-`qa-triggers-browser_ui-7_configure`
+    -`qa-triggers-browser_ui-7_configure`
 
 #### Quarantined tests
 The following tests, if they are tagged `quarantine`, will run in these environments:
 
 `Configure AutoDevOps Templates template: express|rails|spring works with Auto DevOps`
 - [`staging`](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines)
-	- `qa-triggers-browser_ui-quarantine`
+    - `qa-triggers-browser_ui-quarantine`
 
 
 ## Configure your GDK to run the tests

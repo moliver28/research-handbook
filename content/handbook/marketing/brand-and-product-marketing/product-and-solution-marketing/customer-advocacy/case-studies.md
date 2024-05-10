@@ -20,7 +20,7 @@ Examples:
 - [Worldline](https://about.gitlab.com/customers/worldline/)
 - [European Space Agency](https://about.gitlab.com/customers/european-space-agency/)
 
-### Objectives:
+### Objectives
 
 - Illustrate successful and measurable improvements in the customer’s business
 - Show other users how customers are using GitLab
@@ -75,7 +75,7 @@ Once you have a customer who either (1) has an excellent use case or (2) has com
 6. Once the case study has been reviewed and approved by the customer, follow the publishing process below to add to the marketing site.
 
 
-### Collecting Metrics:
+### Collecting Metrics
 
 Possible quantitative metrics that the customer can be asked to share with GitLab include:
 - Reduced cycle time
@@ -92,7 +92,7 @@ Other sections in the case study can be found on the customer's website or by se
 
 Following approval from the customer, the Design team should be sent a doc of the case study to include in the case study design template. The case study can then be published on our website.
 
-## Case Study Format:
+## Case Study Format
 
 *Headline:* The name of the customer and the benefit they gained from implementing our solution
 

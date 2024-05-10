@@ -4,7 +4,6 @@ title: "Data Science Project Development Approach"
 description: "GitLab Data Science Team Approach to Model Development"
 ---
 
- 
 
 
 
@@ -12,14 +11,15 @@ description: "GitLab Data Science Team Approach to Model Development"
 
 
 
-----
+
+---
 
 # Our Approach
 
 The Data Science Team approach to model development is centered around GitLab's value of [iteration](/handbook/values/#iteration) and the [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) standard. Our process expands on some of the 6 phrase outlined in CRISP-DM in order to best address the needs of our specific business objectives and data infrastructure:
 
 ```mermaid
-graph 
+graph
     A[Requirements Gathering]
     B[Review of Prior Analyses]
     C[Review Data Sources and Exploratory Data Analysis]
@@ -30,7 +30,7 @@ graph
     I[Operationalize Model]
     J[Model Monitoring]
     K[Project Retrospective]
-    A --> B 
+    A --> B
     B --> C
     C --> D
     D --> E
@@ -117,7 +117,7 @@ _**Iterative with 3b & 3c***
 **Tasks:**
 - Understand if we have data available to measure the intended outcome/target of the project.
    - This is the most critical element to establish before continuing. If we cannot quantify and measure the outcome, we cannot predict future instances of it.
-   - E.g. Churn requires an examination of historical revenue figures to determine when a customer reduced spend. Therefore, historical snapshots of ARR data would need to exist for a sufficient period in order to build predictions. As a general rule, at least twice the amount of historical data will need to exist as your prediction timeframe. For example, if you are predicting churn in the next 12 months, then at least 24 months of revnue data will need to exist (12 months for your prediction window and 12 months prior to that window to capture predictors/features).  
+   - E.g. Churn requires an examination of historical revenue figures to determine when a customer reduced spend. Therefore, historical snapshots of ARR data would need to exist for a sufficient period in order to build predictions. As a general rule, at least twice the amount of historical data will need to exist as your prediction timeframe. For example, if you are predicting churn in the next 12 months, then at least 24 months of revnue data will need to exist (12 months for your prediction window and 12 months prior to that window to capture predictors/features).
 - Determine if there are sufficient instances of the outcome/target that would make it reasonable to build a model on.
    - A *very, very* general rule of thumb: At least 1,000 instances of the outcome/target
 - Review all relevant data sources that you intend to use for modeling
@@ -127,7 +127,7 @@ _**Iterative with 3b & 3c***
    - Are there are potential risks for [data leakage](https://en.wikipedia.org/wiki/Leakage_(machine_learning)) from the lookback window into the prediction window by using this data source?
 
 **Considerations**:
-- It is not necessary to go too deep into creating features at this phase. What is important is to get a sense if the data source will be useful and proper for modeling the outcome/target.  It may also be helpful to start constructing the framework your ETL code (most likely SQL) during this phase. 
+- It is not necessary to go too deep into creating features at this phase. What is important is to get a sense if the data source will be useful and proper for modeling the outcome/target.  It may also be helpful to start constructing the framework your ETL code (most likely SQL) during this phase.
 
 **Completion Criteria:**
 - Generate syntax for outcome/target and verify sufficient count exists for modeling
@@ -139,7 +139,7 @@ _**Iterative with 3b & 3c***
    - Solicit feedback regarding fields that are being created as potential features of the model. Stakeholders may suggest addition datasources, features, or rollups that are not currently being considered.
    - This will likely be an iterative process. As you uncover insights, it may unearth additional questions/comments/concerns from stakeholders.
 
-## 3b: Feature Engineering  
+## 3b: Feature Engineering
 
 _**Iterative with 3a & 3c**_
 
@@ -279,7 +279,7 @@ In the project issue, document the following:
    - If the numbers are not aligning up, it is most likely due to an issue with your scoring code. The best way to check this is to look at the descriptives of the features. Look at the descriptive right before they get scored in the training code and in the scoring code. If one or more features are off, then you have most likely located the issue.
 - Now you can run your code with your scoring dataset. Be sure update your sql code so it is parameterized to use the most current data available.
 - Examine the model decile distribution of your scored records. They should be roughly equal. If they are wildly off, or if they vary widely in each scoring run, it could be a sign that your model is overfit/underfit and cannot generalize beyond the training dataset.
-- Add .sql file, parameters.yml, model artifacts, and jupyter notebook to a production directory in your repo. 
+- Add .sql file, parameters.yml, model artifacts, and jupyter notebook to a production directory in your repo.
 - Create a new issue using the [Scheduling Notebook Request](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Data%20Science%3A%20Project%20Process.md) template, follow any additional steps, and tag `@gitlab-data/engineers` when ready to operationalize
 
 **Considerations**:
@@ -297,11 +297,11 @@ In the project issue, document the following:
 
 **Sizing:** Medium
 
-**Purpose:** The purpose of setting up dashboards for your model are two-fold: 1) Monitor model performance and lift "in the wild" and; 2) Provide an easy point of access to end-users to consume and understand model outputs. As we migrate to a new data visualization and data observability tools, we hope to streamline, automate, and simplify creating model dashboards.  
+**Purpose:** The purpose of setting up dashboards for your model are two-fold: 1) Monitor model performance and lift "in the wild" and; 2) Provide an easy point of access to end-users to consume and understand model outputs. As we migrate to a new data visualization and data observability tools, we hope to streamline, automate, and simplify creating model dashboards.
 
 **Tasks:**
 - Create an "Inspector" dashboard that is targeted towards end-users/consumers of the model outputs.
-- Create a "Results" dashboard to track model performance over time. 
+- Create a "Results" dashboard to track model performance over time.
 
 **Considerations**:
 - This process will hopefully become more streamlined as we shift to a new analytics visualization solution
@@ -316,7 +316,7 @@ In the project issue, document the following:
 **Purpose:** The purpose of the retrospective is to help the data science team learn and improve as much as possible from every project.
 
 **Tasks:**
-- Create retrospective issue. 
+- Create retrospective issue.
 - Invite and solicit feedback from everyone involved in the project (stakeholders, contributors, etc.). Specifically, we want to know:
    1. What praise do you have for the group?
    1. What went well with this project?

@@ -21,7 +21,7 @@ Due to the size and complexity of our vision, we may split this SEG into three s
 
 **Monitor APM:Agent**
 
-Use the open-source DataDog agent to collect metrics from production applications.  The DataDog agent is written in Go and will need to be integrated with our preferred storage solution to send metrics and events in a periodic batch payload. 
+Use the open-source DataDog agent to collect metrics from production applications.  The DataDog agent is written in Go and will need to be integrated with our preferred storage solution to send metrics and events in a periodic batch payload.
 
 **Monitor APM:Storage**
 
@@ -42,7 +42,7 @@ What we've learned since that makes this particular strategy challenging are the
 
 We are intentionally shifting our strategy to account for what we learned:
 
-1. Start with [SaaS first](https://about.gitlab.com/direction/#saas-first), even for self-managed instances. 
+1. Start with [SaaS first](https://about.gitlab.com/direction/#saas-first), even for self-managed instances.
 1. Leverage open-source agents for auto-instrumentation. Our previous attempts at using OpenTelemetry did not succeed due to limited platform availability and low number of collected metrics, so we're aiming to use the open-source Datadog agent.
 1. Move away from Prometheus (and things like Cortex) for storage in favor or Clickhouse.  Our previous attempts at using Prometheus caused delays and resulted in a product that did not meet customer needs.
 1. Use an open-source visualisation tool such as iFraming Grafana, rather than building out manual charts ourselves with E-charts.
@@ -70,21 +70,21 @@ We expect to track the journey of users through the following funnel:
 ``` mermaid
 classDiagram
   Acquistion --|> Activation
-	Acquistion : Are users aware of the product or feature set?
-	Acquistion: Measurement (Total Count of metrics and log Views)
+    Acquistion : Are users aware of the product or feature set?
+    Acquistion: Measurement (Total Count of metrics and log Views)
   Activation --|> Retention
-	Activation : Are users applying the feature?
-	Activation: Measurement (Count of Projects with active Prometheus)
+    Activation : Are users applying the feature?
+    Activation: Measurement (Count of Projects with active Prometheus)
   Activation: Measurement (Count of Projects with active Elastic stack)
   Retention --|> Revenue
-	Retention : Are users applying the feature over time?
-	Retention: Measurement (Count of projects where custom dashboards are been created)
+    Retention : Are users applying the feature over time?
+    Retention: Measurement (Count of projects where custom dashboards are been created)
   Revenue --|> Referral
-	Revenue : Are users paying for the features?
-	Revenue: Measurement (Total count of projects with multiple Prometheus)
+    Revenue : Are users paying for the features?
+    Revenue: Measurement (Total count of projects with multiple Prometheus)
   Referral --|> Acquistion
-	Referral : Are users encouraging others to use the feature?
-	Referral: Measurement (TBD)
+    Referral : Are users encouraging others to use the feature?
+    Referral: Measurement (TBD)
 ```
 
 ### Glossary

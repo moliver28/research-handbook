@@ -42,7 +42,7 @@ This series included a mix of 5 internal and external speakers. The session reco
 | 2022-03-24 | [Internal Panel - Cross-Cultural Communication at GitLab](https://www.youtube.com/watch?v=XS4H_hVLF7o&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=4) |
 | 2022-04-13 | [Managing Information Overload with Joana Pais Afonso](https://www.youtube.com/watch?v=77-oNJnaTEo&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=6) |
 
-### FY22 Series:
+### FY22 Series
 
 | Date | Session Title + Link |
 | ----- | ----- |
@@ -51,7 +51,7 @@ This series included a mix of 5 internal and external speakers. The session reco
 | 2021-12-13 | [Managing Burnout with Skylyte](https://www.youtube.com/watch?v=2XmmGYlsEP8&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=7) |
 | 2021-12-14 | [Wellbeing Week with Krystal Wilkinson](https://www.youtube.com/watch?v=m-GBiLbfTVk&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=7) |
 
-### FY21 Series:
+### FY21 Series
 
 | Date | Session Title + Link |
 | ----- | ----- |

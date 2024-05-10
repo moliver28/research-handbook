@@ -6,7 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
- 
+
 
 
 
@@ -24,31 +24,31 @@ Although this event type is no officially available, the details below do provid
 This section pulls all the pertinent best practices from the step-by-step instructions into a quickly reviewable format, separated by various stages of the process.
 
 **General Best Practices:**
-* Users expect a great experience and have a lot of options to choose from. We need every event to be immersive and pack a punch to keep people attending and coming back for future events. Customers are getting Zoom fatigue so take time to really strategize on the right subject, right speakers and right time. If planning a 2-3 hour virtual event, add some fun, sprinkle some silly questions into the learning to keep people feeling positive. 
-* Deliver a visually strong landing page that provides professional looking graphics, event overview and agenda. 
+* Users expect a great experience and have a lot of options to choose from. We need every event to be immersive and pack a punch to keep people attending and coming back for future events. Customers are getting Zoom fatigue so take time to really strategize on the right subject, right speakers and right time. If planning a 2-3 hour virtual event, add some fun, sprinkle some silly questions into the learning to keep people feeling positive.
+* Deliver a visually strong landing page that provides professional looking graphics, event overview and agenda.
 * Block calendars for all hosts and panelists starting 30 minutes before the event start time.
 * Ensure there are 2 co-hosts for a Zoom webcast to avoid any recording disruptions (i.e should one person lose internet connection).
 * Presenters and Q&A moderators to log in as host so everyone can see them.
 * If possible, keep sessions to a maximum of 2 hours long to decrease the drop-off rate.
 * Monitor your registration numbers throughout your promotion. Attendance rates can range from 30-50%, meaning you should not exceed 400 registrants for self-service style events to avoid a large number of people from being blocked.
-* Identify a strong moderator who is comfortable interrupting speakers to keep them on time or interject questions from the audience. Work within your teams to find engaging speakers who can deliver the content in a clear and exciting manner. 
-* Develop an outline of the content, identify the presenters and create milestone dates for content development. Schedule a practice session for all hosts and panelists in the week prior to the event. Make a copy of the [dry run template/script](https://docs.google.com/document/d/1uo6Hghm4cPqzAWjvPyIWSpNVn0ulYC4DcpAKCj4j5Pk/edit#heading=h.qv152nkfuvce) to facilitate and ensure everyone knows the flow and technology being used. Preparation is key, test everything. 
+* Identify a strong moderator who is comfortable interrupting speakers to keep them on time or interject questions from the audience. Work within your teams to find engaging speakers who can deliver the content in a clear and exciting manner.
+* Develop an outline of the content, identify the presenters and create milestone dates for content development. Schedule a practice session for all hosts and panelists in the week prior to the event. Make a copy of the [dry run template/script](https://docs.google.com/document/d/1uo6Hghm4cPqzAWjvPyIWSpNVn0ulYC4DcpAKCj4j5Pk/edit#heading=h.qv152nkfuvce) to facilitate and ensure everyone knows the flow and technology being used. Preparation is key, test everything.
 * Enabling the chat, Q&A and polling features in smaller events to fuel questions, distribute collateral and field questions is a great way to keep engagement high. If there is a large audience, ensure there are dedicated team members monitoring the chat so questions can be answered while speakers are presenting. Schedule adequate time for Q&A.
-  * Have a minimum of 2 Q&A moderators (1 verbalizing questions and the other typing answers) who are efficient, knowledgeable and have an understanding of the most important questions to verbalize during the sessions and the questions to dismiss (inappropriate in nature). 
+  * Have a minimum of 2 Q&A moderators (1 verbalizing questions and the other typing answers) who are efficient, knowledgeable and have an understanding of the most important questions to verbalize during the sessions and the questions to dismiss (inappropriate in nature).
   * Route questions to the Q&A queue and create an internal google doc to allow the team supporting the event to collaborate on the question to make sure we have the right answers. Then paste the answers from the doc back into the Zoom Q&A queue for the attendees to see.
-  * Suggest shutting down chat during presentation (not labs) for larger events but ensuring that the chat feature is still enabled for the panelists to speak back and forth. 
+  * Suggest shutting down chat during presentation (not labs) for larger events but ensuring that the chat feature is still enabled for the panelists to speak back and forth.
   * Chat feature could be used to help gamify event.
   * Provide information (on a slide) on how attendees should use Zoom chat and the Q&A feature.
 * Provide a slide featuring the team and their contact details.
 * Add a feedback survey on the last slide when thanking people for coming, capturing them right away may yield more responses.
-    * when planning the feedback survey/form ensure you have clear objectives/goals 
+    * when planning the feedback survey/form ensure you have clear objectives/goals
     * limited the amount of questions
     * the survey should be anonymous
 * Posting event bundle with prezos, recording and thank you tends to stir up new meetings/conversations.
 * Download the usage report within 24 hours of event close and deliver to Marketing Ops via list upload [issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=general-list-import-request).
 
 
-Review GitLab's general [virtual events best practices](/handbook/marketing/virtual-events/#best-practices) for additional suggestions on how to make your virtual event a success. 
+Review GitLab's general [virtual events best practices](/handbook/marketing/virtual-events/#best-practices) for additional suggestions on how to make your virtual event a success.
 
 **Basic Zoom Settings:** *These settings should be updated in your personal zoom account settings by logging into the [Zoom](https://zoom.us/) web client*
 * Deactivate `play sound when participants join or leave`
@@ -64,7 +64,7 @@ Review GitLab's general [virtual events best practices](/handbook/marketing/virt
 * Check `record meeting automatically` if the event is being recorded
 * `REQUIRE` registration for any event that you'd like to add registrants/attendees to Marketo/SFDC after the event
 * Add alternate hosts to help support your event
-* `Close registration after event date` 
+* `Close registration after event date`
 * Check `Only authenticated users can join`
 * To allow the ability to run a practice session, check `enable waiting room`. NOTE: This means you have to accept people into the meeting on the live event date unless you toggle this off after your practice session
 * Once your event is created, scroll to the bottom of the event and see Polls tab *Pro-tip: you should only one question per poll. If you add multiple questions per poll, you must answer all questions at once*
@@ -75,7 +75,7 @@ Review GitLab's general [virtual events best practices](/handbook/marketing/virt
 
 ### Self-service virtual event promotion guide
 
-Using personal channels to self-promote your event comes with many benefits: it’s an authentic way for you to build your personal audience, reach people beyond GitLab’s corporate channels, and boosts your credibility online. This page outlines everything that you'll need to promote your own virtual event. `This checklist should take less than 2 hours`. 
+Using personal channels to self-promote your event comes with many benefits: it’s an authentic way for you to build your personal audience, reach people beyond GitLab’s corporate channels, and boosts your credibility online. This page outlines everything that you'll need to promote your own virtual event. `This checklist should take less than 2 hours`.
 
 Please consider reviewing and applying our [GitLab Team Member Social Media Guidelines](/handbook/marketing/team-member-social-media-policy/) prior to promoting your own event. Specifically, review our [GitLab Voice information](/handbook/marketing/team-member-social-media-policy/#gitlab-voice).
 
@@ -85,9 +85,9 @@ Please consider reviewing and applying our [GitLab Team Member Social Media Guid
 * [ ]  Getting the word out
 
 #### How to write copy for your self-service virtual event
-1. Gather a list of handles and hashtags to include in your social copy 
-   * Your event topic is already a hashtag: #DevOps, #security, #RemoteWork, etc. Integrate these into your sentences naturally. 
-   * Do you have a guest speaker? Talking about a company, person, or brand that would have a Twitter or LinkedIn page? Include the handle (@name) in the Twitter post - and tag the appropriate page on LinkedIn. 
+1. Gather a list of handles and hashtags to include in your social copy
+   * Your event topic is already a hashtag: #DevOps, #security, #RemoteWork, etc. Integrate these into your sentences naturally.
+   * Do you have a guest speaker? Talking about a company, person, or brand that would have a Twitter or LinkedIn page? Include the handle (@name) in the Twitter post - and tag the appropriate page on LinkedIn.
 
 * Do’s
    * DO use 1-3 hashtags in your posts, across social channels
@@ -96,14 +96,14 @@ Please consider reviewing and applying our [GitLab Team Member Social Media Guid
       * Example: 🗣Everyone is talking about #remote #DevOps and at @GitLab it’s all I work on. 💻 Join me for a webinar to learn how we make it all work.
 * Don’ts
     * DON’T hashtags the predicate, object, or complements in a sentence unless it’s a direct topic of your event.
-      * Example: So #excited to #announce our new #event on #remote #DevOps… #GitLab #Tech #Webcast 
+      * Example: So #excited to #announce our new #event on #remote #DevOps… #GitLab #Tech #Webcast
 
-2. Top-Level messaging to aid in copy 
-   * Write 3 sentences answering these questions: 
+2. Top-Level messaging to aid in copy
+   * Write 3 sentences answering these questions:
       * What topic is your virtual event about?
-      * What is something that attendees will walk away with that provides them value? / Why should someone attend your virtual event? 
+      * What is something that attendees will walk away with that provides them value? / Why should someone attend your virtual event?
       * Why are you the person to listen to about this topic? / What makes you the authority?
-   * Use the answer to these three questions to write all copy for your promotions. 
+   * Use the answer to these three questions to write all copy for your promotions.
       * A "tweetable" (280 characters or less) event description - add this to your event landing page and use this as your copy for all social promo for your first post on Twitter and LinkedIn
       * Write actual social copy with your hashtags, handles, and the answers to the questions above. (If there are no handles that's okay. But there is always a hashtaggable topic. Lost? Ask #social_media on Slack)
 
@@ -112,7 +112,7 @@ Because this is a self-service virtual event, you'll also be creating your own i
 
 Here's what you'll need to do:
 
-* Use [GitLab's Virtual Events Promotional Templates on Canva](https://www.canva.com/design/DAEOD5yTT_8/Vp8aqPPHdLVuvpNLlv9jzA/view?utm_content=DAEOD5yTT_8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview). Select which of these two styles you'd like to use and follow the instructions in the template. 
+* Use [GitLab's Virtual Events Promotional Templates on Canva](https://www.canva.com/design/DAEOD5yTT_8/Vp8aqPPHdLVuvpNLlv9jzA/view?utm_content=DAEOD5yTT_8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview). Select which of these two styles you'd like to use and follow the instructions in the template.
 * Follow the directions on the first slide of the template.
 * Once your image is made, click the "share" button, followed by the "download" button, and you've made your promotional image!
 
@@ -121,44 +121,44 @@ The GitLab Canva Virtual Events Promotional Templates are a small series of "bla
 #### Getting the word out - Launching your self-service virtual event promotion
 Now that you’ve put together the copy and creative needed to promote your event, it’s time to get the word out. Depending on how much time there is until your webcast, you may be able to promote your event more than what we’ve outlined in this section. There are more details below on a more sustained promotion for events with more than 3 days of time between promotion launch and webcast.
 
-We recommend doing all of the following: 
+We recommend doing all of the following:
 
 ##### 1. Share your event on your social media channels
-Promote your event on Twitter and LinkedIn. You may also do this on Facebook or other channels, but know that Twitter and LinkedIn are key. Take the copy + creative you made and send them out to your social followers. Be sure to “convert” your @handles from Twitter to tagging people and companies on LinkedIn. While you start with “@” like all social channels, you’ll want to make sure that you select the right person or company on LinkedIn. Here is how to try this out (https://www.linkedin.com/help/linkedin/answer/34936/mention-people-in-your-posts?lang=en). 
+Promote your event on Twitter and LinkedIn. You may also do this on Facebook or other channels, but know that Twitter and LinkedIn are key. Take the copy + creative you made and send them out to your social followers. Be sure to “convert” your @handles from Twitter to tagging people and companies on LinkedIn. While you start with “@” like all social channels, you’ll want to make sure that you select the right person or company on LinkedIn. Here is how to try this out (https://www.linkedin.com/help/linkedin/answer/34936/mention-people-in-your-posts?lang=en).
 
 ##### 2. Share your social media posts on GitLab Slack Channels related to your topic, Ask for team members to amplify your posts
-Building personal credibility and extending reach for your event promotions is a critical part of success. Team members who work in the same space as your topic would be more likely to share on their channels than others. Here’s how to do it while living up to our values around informal communication: 
-Example: Your webcast is the same from our examples above, about remote DevOps. One of the topics to focus on is `remote work`. In addition to being a hashtag in your social posts, `remote work` is also the topic for a GitLab Slack channel, `remote`. Team members in this channel share stories and opinions on your webcast topic. 
+Building personal credibility and extending reach for your event promotions is a critical part of success. Team members who work in the same space as your topic would be more likely to share on their channels than others. Here’s how to do it while living up to our values around informal communication:
+Example: Your webcast is the same from our examples above, about remote DevOps. One of the topics to focus on is `remote work`. In addition to being a hashtag in your social posts, `remote work` is also the topic for a GitLab Slack channel, `remote`. Team members in this channel share stories and opinions on your webcast topic.
 
-After sending out your first social media posts on Twitter and LinkedIn, copy the links to both posts. Here’s how to copy a link to your post on LinkedIn (https://www.linkedin.com/help/linkedin/answer/108024/finding-the-url-for-shared-content?lang=en). Here’s how to copy a link to your tweet on Twitter (https://help.twitter.com/en/using-twitter/tweet-and-moment-url). 
+After sending out your first social media posts on Twitter and LinkedIn, copy the links to both posts. Here’s how to copy a link to your post on LinkedIn (https://www.linkedin.com/help/linkedin/answer/108024/finding-the-url-for-shared-content?lang=en). Here’s how to copy a link to your tweet on Twitter (https://help.twitter.com/en/using-twitter/tweet-and-moment-url).
 
-Take the links to your social media posts and add them to a Slack channel message. Send a variation of this message to the channel: 
+Take the links to your social media posts and add them to a Slack channel message. Send a variation of this message to the channel:
 
 > Hi Everyone,
-> 
+>
 > I’m hosting a webcast on remote DevOps later this week. I would appreciate your support by retweeting or sharing my social posts.
-> 
+>
 > Retweet My Tweet (make this a clickable link to your tweet)
-> 
+>
 > Share My LinkedIn Post (make this a clickable link to your LinkedIn post)
-> 
+>
 > Please let me know if you have any questions or would like to contribute to the webcast.
 
-While sharing on your social media channels and other digital spaces should occur more than once if time allows, please do not message GitLab Slack channels more than once about your webcast promotion. Please feel free to provide an update to the slack channel about what worked well or how many people attended following the end of your webcast. 
+While sharing on your social media channels and other digital spaces should occur more than once if time allows, please do not message GitLab Slack channels more than once about your webcast promotion. Please feel free to provide an update to the slack channel about what worked well or how many people attended following the end of your webcast.
 
 ##### 3. Consider your other affiliations for promotion
-Are you a part of a tech-focused nonprofit? Do you have former coworkers who would be interested in your webcast? Are you a part of group chats, Facebook or LinkedIn groups, or some other channel where members might be interested in your topic? Share it with them as well. 
+Are you a part of a tech-focused nonprofit? Do you have former coworkers who would be interested in your webcast? Are you a part of group chats, Facebook or LinkedIn groups, or some other channel where members might be interested in your topic? Share it with them as well.
 
 It’s important to note that you should be aware of sharing practices in your groups - some groups have a strict “no advertising” policy. For all Facebook and LinkedIn groups, consider reviewing any group rules and don’t get in trouble with the moderators.
 
 ##### Extra: Add to the events page
-Add your virtual event to about.gitlab events page by following [instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) for adding to event master.yml 
+Add your virtual event to about.gitlab events page by following [instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) for adding to event master.yml
 
 ##### Extra: Specific Twitter options
 While we’re not suggesting that you spam your audiences, Twitter is not used in the same way LinkedIn is. On the day of your webcast, consider tweeting a photo of you prepping the webcast, tweeting a “thank you” to everyone that attended, and even consider linking to a recording (if available) for those who could not join live. It’s completely acceptable for a list of tweets on the day of your webcast to include 3-5 tweets. Ultimately, if you have something else to say, say it on Twitter.
 
 ##### Extra: Getting the word out - More than one-day of promotion
-If you’re planning a webcast and have more than 3 days between your first day of promotion and the actual webcast, you have time to add additional posts to your promotion. 
+If you’re planning a webcast and have more than 3 days between your first day of promotion and the actual webcast, you have time to add additional posts to your promotion.
 
 Do not promote your event more than once a day, at most. Remember, this is your network, don’t spam them.
 
@@ -190,11 +190,11 @@ Make sure these settings are enabled in your personal zoom account settings as n
 
 **Creating the event in Zoom**
 
-1. Login to zoom via the web interface. 
+1. Login to zoom via the web interface.
 2. Click `schedule a meeting` on the top right navigation.
-3. Fill in the `Topic` in the recommended format (this will be in the subject line for confirmation emails): 
-     * For One-time (non-recurring) event: `Event title` - DD Month, 2020 - Local time (e.g: Deploy AWS Lambda applications with ease - April 9, 2020, 9 am PT). 
-     * For Recurring event: `Event title` (e.g: Deploy AWS Lambda applications with ease). 
+3. Fill in the `Topic` in the recommended format (this will be in the subject line for confirmation emails):
+     * For One-time (non-recurring) event: `Event title` - DD Month, 2020 - Local time (e.g: Deploy AWS Lambda applications with ease - April 9, 2020, 9 am PT).
+     * For Recurring event: `Event title` (e.g: Deploy AWS Lambda applications with ease).
 
 4. Fill in the `Description` with a description of what the event is about. *Note: this will be in the body for confirmation emails and landing page (if you set registration as required in step 9).
 5. Fill in `When` with the event date and time.
@@ -211,8 +211,8 @@ Make sure these settings are enabled in your personal zoom account settings as n
 12. Specify if you want the Host and/or Participant’s video `on` or `off`.
 13. Make sure audio is set to `BOTH` telephone and computer audio.
 14. For meeting options configurations:
-15. Check “Enable join before host` option if you want to allow participants to join before the host(s). 
-16. **(Recommended)** Check `Mute participants upon entry` to prevent disruption whenever someone joins mid-presentation. 
+15. Check “Enable join before host` option if you want to allow participants to join before the host(s).
+16. **(Recommended)** Check `Mute participants upon entry` to prevent disruption whenever someone joins mid-presentation.
 17. **(Recommended)** Check the `Enable waiting room` option if you’d like to choose some participants to join prior to others . This is useful to allow a final dry run between host and the other presenters right before the event. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/).
 18. Check `Only authenticated users can join` to restrict meeting only to participants that have logged in to zoom using their email address. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/) but may impact registration due to its restrictive nature (forcing registrants to sign up for zoom before completing registration).
 19. Check the `Breakout room pre-assign` if you’d like to pre-assign participants to the breakout sessions prior to the meeting. Please note that only participants/hosts with @gitlab email domain can be pre-assigned via the web interface. Participants with non @gitlab email addresses need to have zoom installed in their machine to be pre-assigned, and pre-assigning for this scenario can only be done through a CSV upload.
@@ -282,7 +282,7 @@ Make sure these settings are enabled in your personal zoom account settings as n
 
 Note: Although we can leverage this functionality for a semi-live virtual event, the audience will be able to tell that you are playing a video for them so it is good to share that information (be transparent) with them upfront.
 
-#### Post event:
+#### Post event
 
 **[Optional] Downloading the registration list**
 

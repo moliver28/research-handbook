@@ -100,7 +100,7 @@ Gender transition is a process of changing to align more closely with one's gend
 
 The enduring pattern of emotional, romantic, and/or sexual attraction (or lack of attraction) to other people. Sexual orientation is an inherent, unchanging attribute (i.e. not a preference or a choice.) People do change how they describe and/or understand their own sexual orientation.
 
-### Some common terms to describe Sexual orientation include:
+### Some common terms to describe Sexual orientation include
 
 #### Homosexual
 
