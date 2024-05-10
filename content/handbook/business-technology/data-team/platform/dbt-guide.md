@@ -145,18 +145,22 @@ This command enables zero copy cloning using DBT selections syntax to clone enti
 **Usage:**
 
 To use the new `clone-dbt-select-local-user-noscript` command, you have to specify a `DBT_MODELS` variable. For example, to clone only the `dim_subscription` model, you would execute the following command:
+
 ```
 make DBT_MODELS="dim_subscription" clone-dbt-select-local-user-noscript
 ```
+
 This will clone the DBT model from the `prod` branch into your local user database (i.e., `{user_name}_PROD`). You can use dbt selectors: @, +, etc to select the entire lineage that you want to copy over your local database.
 
 **Tips:**
 
 - If you encounter an error as below:
+
 ```
 Compilation Error
   dbt found 7 package(s) specified in packages.yml, but only 0 package(s) installed in dbt_packages. Run "dbt deps" to install package dependencies.
 ```
+
   - Run `make dbt-deps` from the root of the analytics folder and retry the command.
 
 **Transition Note:**

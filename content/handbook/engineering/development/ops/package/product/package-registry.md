@@ -33,7 +33,7 @@ This is to promote knowledge sharing and prevent siloing.
 
 #### Experiment
 
-In this state, the new Package Registry must be tested on staging. 
+In this state, the new Package Registry must be tested on staging.
 This is the time to test as many scenarios as possible. During these, all the moving pieces (frontend, backend, background jobs) should be checked for errors or bad behaviors.
 
 1. Push a small package (including duplicated packages if allowed).
@@ -43,12 +43,12 @@ This is the time to test as many scenarios as possible. During these, all the mo
 1. Pull a package (including some of the duplicated ones).
 1. Check any additional command implemented. For example, packages search or view all the versions available for a given package.
 1. Check if overall, there is any option or endpoint that is custom to GitLab. Look for a clear reason why we need that additional aspect.
-1. Re-run the above scenarios with all the supported token types. 
+1. Re-run the above scenarios with all the supported token types.
 Usually, in the MVC, we support: [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), [deploy tokens](https://docs.gitlab.com/ee/user/project/deploy_tokens/) and [CI job tokens](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html).
 
 If an issue is discovered during this testing, it should be documented in the feature flag rollout issue and a new issue describing the problem should be opened and scheduled.
 
-Optionally, the [documentation](https://docs.gitlab.com/ee/user/packages/package_registry/) could be updated with a dedicated page for this new Package Registry. 
+Optionally, the [documentation](https://docs.gitlab.com/ee/user/packages/package_registry/) could be updated with a dedicated page for this new Package Registry.
 This way, interested self-managed users have the instructions on how to enable and use the new Package Registry.
 This page should clearly state that the Package Registry is an Experiment and thus, not ready for production use.
 
@@ -68,6 +68,6 @@ When we resolve all blocking issues, we can move the Package Registry to the nex
 #### Generally Available
 
 We fully release the Package Registry. For this state, we have a few things to take care of:
-* Update the documentation accordingly.
-* Update the feature flag so that the Package Registry is released to self-managed users.
-* Communicate accordingly about the Package Registry release.
+- Update the documentation accordingly.
+- Update the feature flag so that the Package Registry is released to self-managed users.
+- Communicate accordingly about the Package Registry release.

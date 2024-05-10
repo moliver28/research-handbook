@@ -47,7 +47,7 @@ This series included a mix of 5 internal and external speakers. The session reco
 | Date | Session Title + Link |
 | ----- | ----- |
 | 2021-06-01 | [Buildng your Rest Ethic with John Fitch Session 1](https://www.youtube.com/watch?v=acVRU5UjJEo&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=12) and [Session 2](https://www.youtube.com/watch?v=uklTuJeiTDo&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=10) |
-| 2021-11-18 | [Building Internal Culture with Google Team Members](https://www.youtube.com/watch?v=fFHadx3J3oA&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=9&t=321s)
+| 2021-11-18 | [Building Internal Culture with Google Team Members](https://www.youtube.com/watch?v=fFHadx3J3oA&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=9&t=321s) |
 | 2021-12-13 | [Managing Burnout with Skylyte](https://www.youtube.com/watch?v=2XmmGYlsEP8&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=7) |
 | 2021-12-14 | [Wellbeing Week with Krystal Wilkinson](https://www.youtube.com/watch?v=m-GBiLbfTVk&list=PL05JrBw4t0KqIkyb73z690h7l2nULHOnh&index=7) |
 
@@ -55,7 +55,7 @@ This series included a mix of 5 internal and external speakers. The session reco
 
 | Date | Session Title + Link |
 | ----- | ----- |
-| 2020-11-19 | [Building Trust with Remote Teams Learning Speaker Series](https://www.youtube.com/watch?v=hHMDY77upAE&feature=youtu.be)
+| 2020-11-19 | [Building Trust with Remote Teams Learning Speaker Series](https://www.youtube.com/watch?v=hHMDY77upAE&feature=youtu.be)|
 | 2020-12-10 | [Managing Burnout with Time Off with John Fitch](/handbook/company/culture/all-remote/mental-health/#rest-and-time-off-are-productive)|
 
 ### Hosting a Learning Speaker Series call

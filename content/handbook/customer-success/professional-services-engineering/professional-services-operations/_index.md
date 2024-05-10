@@ -347,11 +347,13 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
 
 
 #### New Supplier Request Form
+
 - For new partners/vendors only
 - Partner/vendor must be approved in Coupa prior to submitting a Professional Services Request and Purchase Request forms
 - [How to Request a New Supplier Instructions](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-request-a-new-supplier)
 
 #### New Professional Services Request Form
+
 - Refer to the [Coupa handbook page](/handbook/business-technology/enterprise-applications/guides/coupa-guide/) for instructions on using Coupa, GitLab's vendor invoicing sys
 - This initiates the New Purchase Request form
 - [How to Create a Requisition](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-create-a-requisition)
@@ -413,6 +415,7 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
 - If work is ongoing past the Service End Date and invoices are processed on a monthly basis, the PO will remain open.  If for any reason the PO is systematically closed, a request via Accounts Payable Slack Channel #accountspayable will need to be sent to A/P to have the PO re-opened.
 
 #### Purchase Order Process
+
 - After all approvers approve the purchase request, an associated Coupa PO will be created.
 - Partner/vendor invoice(s) will be filed against the PO.
 - Comments section: @ mention the partner invoicing A/R PoC to send invoice submission reminder
@@ -433,6 +436,7 @@ CURRENT PROCESS VIA COUPA:
 - Project Coordinator updates the partner invoice funds tracking sheet to include the invoice number, date, and amount and saves a copy of the invoice in the Partner Folder.
 
 #### Sending Invoice Reminder to the Partner - each month end
+
 - Within Kantata, go to Insights > Time & Expense Admin- Partners and then go to the Time Approvals by Project report.
 - Enter the Date Range and filter the GitLab User Type field for the partner that you wish to view.
 - Run the report, and export the report in Excel format by clicking on the gear icon on the top, right-hand side of the page and select Export to XLSX.
@@ -443,15 +447,18 @@ CURRENT PROCESS VIA COUPA:
 #### Making Engagement Epic and Issues Partner Accessible
 
 ##### Background
+
 - [PS automation](https://gitlab.com/services-calculator/services-calculator.gitlab.io) creates engagement epics in [Professional-Services-Group](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/epics) and issues in [PS-Plan](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/issues).
 - It's useful to move the epics of engagements that require partner access to [Professional-Servies-Group > Consulting Delivery](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/ww-consulting/-/epics)
 
 ##### Notes
+
 - Epics can not currently be moved so instead we recreate the epic in the new location, move the subordinate issues to the new location and close the original epic as described in *Directions* below.
 - The original and new epics are linked via their issue move audit entries.
 - The directions do not use a [bulk edit](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#bulk-edit-issues-from-a-project) due to [this epic search issue](https://gitlab.com/gitlab-org/gitlab/-/issues/233729).
 
 ##### Directions
+
 - Open the to-be-recreated epic in a browser tab
 - Open the [destination epics list UI](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/ww-consulting/-/epics) in another browser tab
   - *New Epic*

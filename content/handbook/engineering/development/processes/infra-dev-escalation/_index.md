@@ -32,6 +32,7 @@ This new process will need development engineers on-call based on a rotation sch
 
 
 ## Goals
+
 The on-call process was designed with the following goals in mind -
   * Clear expectations, responsibility, and accountability.
   * Full 24x7 coverage to shadow the Infrastructure team.
@@ -42,11 +43,13 @@ The on-call process was designed with the following goals in mind -
   * Leaving engineers in control of their own working schedules
 
 ## Success Criteria
+
   * Meet development’s SLO of timely response to infrastructure escalations.
   * No on-call engineer is burned out.
   * Planned development work is minimally impacted.
 
 ## Implementation
+
 Refer to the Process section above for how to get started and keep running. In the spirit of iteration, the process will be continuously tuned and improved as we learn through practice.
 
 An async retro issue will be registered and every participant is encouraged to enter feedback in the issue any time. A review will be held at 3-month checkpoint then determine next steps.
@@ -61,6 +64,7 @@ The reasons for doing this:
 * Doing this manually vs. via automation makes it more personalized and shows genuine appreciation.
 
 ## Q&A
+
 **Q: Why do we need development engineers on-call?**
 
 **A:** In the investigation of recent performance degradation incident, it became apparent that deeper product knowledge is necessary to root cause the issue and develop sound solutions. Although infrastructure engineers are good at dealing with most incidents, it is the development engineers who are able to suggest the best short term workaround or temporary fix quickly when the issue involves deep insight into the implementation details.

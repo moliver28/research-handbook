@@ -9,9 +9,9 @@ title: "DEPRECATED-Demos"
 
 
 
-# About Demos
+## About Demos
 
-# THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE
+## THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE
 
 ## The new version of this page is at https://about.gitlab.com/learn
 
@@ -25,7 +25,7 @@ These demos come in different formats:
 - [Sim demos](./sim-demos/) - good for disconnected situations (like conferences) and for interactive self demos
 - Live (instructions for how to set up and run demos live) - enables everyone (especially GitLab sales) to set up and run through the demo live on their own system resources. Allows for spontaneous deep diving - not always a good thing).
 
-# Videos
+## Videos
 
 ## Foster Collaboration with GitOps (GitLab 13.2) (July 2020)
 
@@ -171,7 +171,7 @@ These demos come in different formats:
  <iframe width="560" height="315" src="https://www.youtube.com/embed/gcWfUw_Cau4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </figure>
 
-# Click-throughs
+## Click-throughs
 
 Click-through demos can be run in multiple ways:
 - [Run them off-line](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/off-line-click-throughs/) (for conferences, practice on the airplane, etc)
@@ -246,7 +246,7 @@ Click-through demos can be run in multiple ways:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRjhO2VvKf_gWbObwi5APm18gxQrzQk5vvAARD-4vLQeT0NbkrSuP3t4sTVylRYZOD6kINLr37HmtHA/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 [G-slides file](https://docs.google.com/presentation/d/1Ejnho9pqXPj-OHNU2q51cC0xCG5c8pVLmvg-maIA7BQ/edit?usp=sharing)
 
-# Live (instructions)
+## Live (instructions)
 
 ## [Planning to Monitoring (formerly i2p)](i2p/)
 
@@ -260,6 +260,6 @@ Provides a more in-depth look at GitLab CI/CD pipelines.
 
 Demonstrations which highlight integrations between GitLab and common tools such as Jira issues and Jenkins pipelines.
 
-# Conference Booth Setup
+## Conference Booth Setup
 
 We've started using iPad's to run click-through demos at conferences, and also we now have a main screen video to loop that shows our key slides and product clips. You can find details about both of these on the [conference booth setup page](conference-booth-setup/).

@@ -173,6 +173,7 @@ WHERE  derived_tstamp > CURRENT_DATE-30
 GROUP BY 1
 ORDER BY 2 DESC
 ```
+
 {{% /panel %}}
 
 #### Some Issues and Merge Requests examples

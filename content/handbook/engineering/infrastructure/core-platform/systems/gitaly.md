@@ -267,15 +267,15 @@ This workflow is similar to what Git for Windows uses and can be implemented via
 script:
 
 ```shell
-# Update origin, pulling in new changes for origin/master
+## Update origin, pulling in new changes for origin/master
 $ git fetch origin
-# Switch to the topic branch
+## Switch to the topic branch
 $ git switch topic
-# Find the current root of the topic branch. This could either be the last fake-merge
+## Find the current root of the topic branch. This could either be the last fake-merge
 $ base=$(git rev-parse ':/Start the merging-rebase')
-# Or it could be the merge-base of origin/master and your topic branch
+## Or it could be the merge-base of origin/master and your topic branch
 $ base=$(git merge-base origin/master topic)
-# Rebase the topic branch onto origin/master
+## Rebase the topic branch onto origin/master
 $ ./shears.sh --merging --onto origin/master $base
 ```
 
@@ -322,10 +322,10 @@ coordination with all the teams consuming Gitaly. The DRI on Consumer side is Ig
 
 The Gitaly consumers are:
 
-* [GitLab Rails](https://gitlab.com/gitlab-org/gitlab)
-* [GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell)
-* [GitLab Workhorse](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/workhorse/index.md)
-* [GitLab Elasticsearch Indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer)
+- [GitLab Rails](https://gitlab.com/gitlab-org/gitlab)
+- [GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell)
+- [GitLab Workhorse](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/workhorse/index.md)
+- [GitLab Elasticsearch Indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer)
 
 ## Gitaly Deprecations
 
@@ -343,17 +343,17 @@ after the 18th that issue will be used to discuss what was brought up.
 
 ### On gitlab.com
 
-* [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=created_date&state=all&label_name%5B%5D=Service%3A%3AGitaly&label_name%5B%5D=incident&first_page_size=100) (not all pages are incidents)
-* [Pages](https://nonprod-log.gitlab.net/goto/2e1a9f00-f006-11ed-bb50-33eb1f5eb489)
-* [Global Apdex](https://dashboards.gitlab.net/d/gitaly-main/gitaly-overview?orgId=1&viewPanel=3357097446)
-* [Alerts](https://log.gprd.gitlab.net/goto/17c536b0-efd0-11ed-8afc-c9851e4645c0) (S1/S2 are paging, S3/S4 are not)
+- [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=created_date&state=all&label_name%5B%5D=Service%3A%3AGitaly&label_name%5B%5D=incident&first_page_size=100) (not all pages are incidents)
+- [Pages](https://nonprod-log.gitlab.net/goto/2e1a9f00-f006-11ed-bb50-33eb1f5eb489)
+- [Global Apdex](https://dashboards.gitlab.net/d/gitaly-main/gitaly-overview?orgId=1&viewPanel=3357097446)
+- [Alerts](https://log.gprd.gitlab.net/goto/17c536b0-efd0-11ed-8afc-c9851e4645c0) (S1/S2 are paging, S3/S4 are not)
 
 ### Useful links
 
-* [Actual pending Infradev issues](https://10az.online.tableau.com/#/site/gitlab/views/DraftInfrastructureEmbeddedDashboard/InfrastructureEmbeddedDashboard?:iid=1) (sort by group, focus on gitaly)
-* [Out of SLO Infradev issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2219735/views)
-* [Error budget](https://dashboards.gitlab.net/d/stage-groups-detail-gitaly/stage-groups-gitaly-group-error-budget-detail?orgId=1&from=now-28d%2Fm&to=now)
-* [MR review workload](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitaly)
+- [Actual pending Infradev issues](https://10az.online.tableau.com/#/site/gitlab/views/DraftInfrastructureEmbeddedDashboard/InfrastructureEmbeddedDashboard?:iid=1) (sort by group, focus on gitaly)
+- [Out of SLO Infradev issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2219735/views)
+- [Error budget](https://dashboards.gitlab.net/d/stage-groups-detail-gitaly/stage-groups-gitaly-group-error-budget-detail?orgId=1&from=now-28d%2Fm&to=now)
+- [MR review workload](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitaly)
 
 ### Dashboards
 

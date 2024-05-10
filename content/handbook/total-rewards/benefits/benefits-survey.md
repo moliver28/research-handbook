@@ -745,8 +745,8 @@ By demographic:
     | Visiting grant | 21% | 20% | 0% |
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | n/a | 3% | 0% |
     | Medical/Health coverage | 0% | 0% | n/a |
-    | Dental/Vision | 0% | n/a | n/a | n/a |
-    | 401(k) Match | 1% | n/a | n/a | n/a |
+    | Dental/Vision | 0% | n/a | n/a |
+    | 401(k) Match | 1% | n/a | n/a |
 
 
 - EMEA
@@ -763,8 +763,8 @@ By demographic:
     | Stock options | 0% | 0% | 0% | 0% | 13% | 0% | 0% | 0% | 0% | 0% | 0% |
     | Visiting grant | 17% | 12% | 12% | 0% | 13% | 0% | 25% | 14% | 17% | 0% | 0% |
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | 13% | 8% | 0% | 14% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
-    | Medical/Health coverage | n/a | n/a | 4% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-    | Pension | n/a | n/a | 0% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+    | Medical/Health coverage | n/a | n/a | 4% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+    | Pension | n/a | n/a | 0% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 
 
 - APAC
@@ -817,8 +817,8 @@ By demographic:
     | Stock options | 87% | 84% | 69% | 62% | 100% | 100% | 83% | 86% | 100% | 80% | 80% |
     | Visiting grant | 0% | 40% | 22% | 38% | 60% | 50% | 17% | 14% | 17% | 0% | 40% |
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | 13% | 12% | 6% | 10% | 0% | 33% | 8% | 0% | 0% | 20% | 20% |
-    | Medical/Health coverage | n/a | n/a | 37% | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-    | Pension | n/a | n/a | 59% | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+    | Medical/Health coverage | n/a | n/a | 37% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+    | Pension | n/a | n/a | 59% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 
 
 - APAC

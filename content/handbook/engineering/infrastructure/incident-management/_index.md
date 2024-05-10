@@ -174,7 +174,7 @@ If a second incident zoom is desired, choose which incident will move to the new
 EOCs are responsible for responding to alerts even on the weekends.  Time should not be spent mitigating the incident _unless_ it is a `~severity::1` or `~severity::2`.  Mitigation for `~severity::3` and `~severity::4` incidents can occur during normal business hours, Monday-Friday.  If you have any questions on this please reach out to an [Infrastructure Engineering Manager](https://gitlab.com/gitlab-com/gl-infra/managers).
 
 If a `~severity::3` and `~severity::4` occurs multiple times and requires weekend work, the multiple incidents should be combined into a single `severity::2` incident.
-If assistance is needed to determine severity, EOCs and Incident Managers are encouraged to contact [Reliability Leadership via PagerDuty ](https://gitlab.pagerduty.com/schedules#P12EH0Z)
+If assistance is needed to determine severity, EOCs and Incident Managers are encouraged to contact [Reliability Leadership via PagerDuty](https://gitlab.pagerduty.com/schedules#P12EH0Z)
 
 #### Infrastructure Leadership Escalation
 
@@ -183,6 +183,7 @@ During a verified Severity 1 Incident the IM will page for Infrastructure Leader
 1. Overall evaluation of the incident and further validation of Severity.
 1. Assistance with further support from other teams, including those outside of Engineering (as appropriate)
 1. Posting a notice to e-group slack channel. This notice does not have to be expedited, but should occur once there is a solid understanding of user impact as well as the overall situation and current response activities.  The e-group notice should be in this format
+
 ```
 :s1: **Incident on GitLab.com**
 **— Summary —**
@@ -195,6 +196,7 @@ During a verified Severity 1 Incident the IM will page for Infrastructure Leader
  Main incident: (link to the incident)
  Slack Channel: (link to incident slack channel)
 ```
+
 1. After posting the notice, continue to engage with the incident as needed and also post updates to a thread of the e-group notification when there are material/significant updates.
 
 Further support is available from the Scalability and Delivery Groups if required. Scalability leadership can be reached
@@ -665,6 +667,7 @@ There are [related issue links] on the incident template that should be used to 
 
     D -.-> |for review-requested incidents| E(Incident::Review-Completed)
 ```
+
 - As soon as an incident transitions to `Incident::Resolved` the incident issue will be closed
 - All `Severity::1` incidents will automatically be labeled with `review-requested`
 

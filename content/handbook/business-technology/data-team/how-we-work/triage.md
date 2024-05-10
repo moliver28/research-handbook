@@ -63,7 +63,7 @@ Steps to uplevel triaging process:
 |                   | R&D Data Fusion | | `@utkarsh060` |  | `@Chris Sharp`  | `@snalamaru`  |   |
 | `@PeopleAnalyticsTriage` | People Analytics | |  | | | `@Adrian Pérez` `@rakhireddy` | |
 |                   | G&A Data Fusion | | `@Peter Empey` | `@lisvinueza`  | | | |
-| `@EngineeringAnalyticsTriage` | Engineering Analytics |  |  | `@Raul Rendon` | |  `@lily` |
+| `@EngineeringAnalyticsTriage` | Engineering Analytics |  |  | `@Raul Rendon` | |  `@lily` | |
 |                   | Engineering Data Fusion |  | `@Peter Empey`  | `@lisvinueza` |  |     |     |
 | `@DataPlatformTriage` | Data Platform | | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation |
 | `@TableauTriage` | Analytics & Insights |  | `@Peter Empey`  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
@@ -125,7 +125,7 @@ Data triagers are the first responders to requests and problems for the Data Pro
 We will iterate on triage responsibilities to include additional activities such as extract refresh failure review, job failure review, etc. as the team expands.
 - For more information on responsibilities of a triager watch the [Data Engineer triage training session video](https://www.youtube.com/watch?v=0eGpgaQgEGg).
 
-```
+```text
 Data Analysts
 - Respond to #data questions and assign to right Triage group
 - Respond to new unassigned issues in our project and assign to the right team
@@ -319,7 +319,7 @@ In this section we state down common issues and resolutions
 
 In a situation when gitlab_dotcom postgres replica snapshot is not built correctly, the task `check_replica_snapshot` inside the extract DAG's fail for MAIN and/or CI db, which indicates either that the replica snapshot is not rebuilt/accessible or the `pg_last_xact_replay_timestamp` value was not present.The error message generated from task failure would indicate errors with the replica database connectivity or database system starting up and the error in the task would look something similar like this:
 
-```
+```console
 [2023-07-15 13:04:48,022] INFO - b'psycopg2.OperationalError: could not connect to server: Connection refused\n'
 [2023-07-15 13:04:48,022] INFO - b'\tIs the server running on host "{db_instance_ip}" and accepting\n'
 [2023-07-15 13:04:48,022] INFO - b'\tTCP/IP connections on port {port}?
@@ -341,7 +341,9 @@ In this example, we have used Zuora `subscription` table, but this could be appl
 
 #### Step 1:- Rename existing table with the date suffix to identity the backup, recommended format YYYYMMDD
 
+```sql
     ALTER TABLE "RAW"."ZUORA_STITCH"."SUBSCRIPTION" RENAME TO "RAW"."ZUORA_STITCH"."SUBSCRIPTION_20210903";
+```
 
 #### Step 2:- Pause the regular integration
 
@@ -365,17 +367,23 @@ In the newly created table `"RAW"."ZUORASUBSCRIPTION"."SUBSCRIPTION"` cross-chec
 
 Move the newly loaded data to `ZUORA_STITCH` schema because the new integration will create the table in the `ZUORASUBSCRIPTION` as stated above in the image.
 
+```sql
     CREATE TABLE "RAW"."ZUORA_STITCH"."SUBSCRIPTION" CLONE  "RAW"."ZUORASUBSCRIPTION"."SUBSCRIPTION";
 **Note:** Check for the primary key present in the table post clone or not if not check for the primary key in the [link](https://www.stitchdata.com/docs/integrations/saas/zuora#subscription) and add the constraints on those columns.
+```
 
 #### Step 7:- Make records count check to ensure we don't have fewer records in the new table
 
+```sql
     select count(*) from "RAW"."ZUORA_STITCH"."SUBSCRIPTION_20210903" where deleted = 'FALSE';
     select count(*) from "RAW"."ZUORA_STITCH"."SUBSCRIPTION" ;
+```
 
 #### Step 8:- Drop the new schema
 
+```sql
     DROP SCHEMA "RAW"."ZUORASUBSCRIPTION"  CASCADE ;
+```
 
 #### Step 9:- Delete temp Zuora-Subscription integration and enable regular integration
 
@@ -384,10 +392,12 @@ Move the newly loaded data to `ZUORA_STITCH` schema because the new integration 
 This is to ensure that error observed previously to the table is gone and data is getting populated in the table.
 Check on duplicate ids due to 2 different extractors, to ensure the data is getting populated in the table correctly.
 
+```sql
     select id, count(*) from "RAW"."ZUORA_STITCH"."SUBSCRIPTION"
     group by id
     having count(*) > 1
 **Note** Refer to the [MR (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/10065#note_668365681) for more information.
+```
 
 ### Source freshness errors
 
@@ -417,7 +427,7 @@ See the [source contact spreadsheet](https://docs.google.com/spreadsheets/d/1VKv
 
 When got an error for model `version_usage_data_unpacked` and error looks like:
 
-```
+```console
 [2022-01-26 11:56:32,233] INFO - b'\x1b[33mDatabase Error in model version_usage_data_unpacked (models/legacy/version/xf/version_usage_data_unpacked.sql)\x1b[0m\n'
 [2022-01-26 11:56:32,233] INFO - b' 000904 (42000): SQL compilation error: error line 241 at position 12\n'
 [2022-01-26 11:56:32,233] INFO - b" invalid identifier '{metrics_name}'\n"
@@ -437,7 +447,7 @@ Sometimes Zuora Revenue source system as part of a certain release modify the so
 
 For example, there was 3 additional column added to table `BI3_RC_POB` which lead to the below error message.
 
-```
+```console
 [2022-03-21, 13:26:48 UTC] INFO - sqlalchemy.exc.ProgrammingError: (snowflake.connector.errors.ProgrammingError) 100080 (22000): 01a31326-0403-d02c-0000-289d37f10d4e: Number of columns in file (102) does not match that of the corresponding table (99), use file format option error_on_column_count_mismatch=false to ignore this error
 [2022-03-21, 13:26:48 UTC] INFO -   File 'RAW_DB/staging/BI3_RC_POB/BI3_RC_POB_12.csv', line 3, character 1
 [2022-03-21, 13:26:48 UTC] INFO -   Row 1 starts at line 2, column "BI3_RC_POB"[102]
@@ -450,7 +460,7 @@ Below are set of steps that will guide you to resolve this.
 
 **Step 1:-**  Download the first file from the storage to local to view the additional column. For any file, only the file name and folder name should be modified.
 
-```
+```console
 gsutil cp  gs://zuora_revpro_gitlab/RAW_DB/staging/BI3_RC_POB/BI3_RC_POB_1.csv .
 ```
 
@@ -458,7 +468,7 @@ For any other file, only the file name and folder name should be modified. For e
 
 **Step 2:-** Once the file is downloaded look for the header of the file using the below command
 
-```
+```console
 head -1 BI3_RC_POB_1.csv
 ```
 
@@ -478,7 +488,7 @@ Deploy the modified SQL.
 
 **Step 4:-** Move the log file from the process folder to the staging folder of the table.
 
-```
+```console
 gsutil cp gs://zuora_revpro_gitlab/RAW_DB/processed/22-03-2022/BI3_RC_POB/BI3_RC_POB_22-03-2022.log  gs://zuora_revpro_gitlab/RAW_DB/staging/BI3_RC_POB/
 ```
 
@@ -518,4 +528,3 @@ Yes, the benefit of our presence is that we have a wide overage of hours. If the
 e.g. For cleaning up Airflow logs:
 
 `^(?!.*(Failure in test|Database error)).*$`
-

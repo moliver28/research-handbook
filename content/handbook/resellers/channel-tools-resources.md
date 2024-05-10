@@ -4,15 +4,6 @@ title: "Channel Partner Tools and Resources"
 description: "Channel Partner tools and resources to help grow your GitLab business."
 ---
 
-GitLab Channel Partners are the primary audience for this Handbook page.
-
-
-
-
-
-
-# Channel Partner Tools and Resources
-  
 **We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
 
 ## **GitLab Partner Portal**

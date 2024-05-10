@@ -7,7 +7,7 @@ description: "Reachdesk is a direct mail provider that we use for sales and mark
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 
-# About Reachdesk
+## About Reachdesk
 Reachdesk is a global giting plaform used to land and accelerate deals to fuel pipeline progression using personalized gifts.
 Contact: Customer Success Manager - Aoife Sweeney - aoife@reachdesk.com
 
@@ -23,7 +23,7 @@ Please watch the video walk through showcasing how to fully utilize Reachdesk's 
 ### Reporting and Dashboard
 Utilise the **Insight** tab on the platform. Customised reports can be created upon request, on a monthly/biweekly basis. Please send email to aoife@reachdesk.com
 
-# Setting up users and teams
+## Setting up users and teams
 Users can be assigned to different roles.
 1. Admins - has full access to the platform
 1. Campaign Manager - can create and manage campaigns and has very limited org management access
@@ -33,7 +33,7 @@ To view these roles go to Organisation > Users > Refer to Role column
 
 ## How to use
 
-# Building Campaigns
+## Building Campaigns
 ### Creating Reachdesk Campaigns
 First off click **New Campaign**. You can then select one of four options:
 1. Bundle - using items from our warehouses (currently UK, EU, APAC warehouses)
@@ -63,13 +63,13 @@ Reachdesk marketplace allows you to choose from a range of confectionary, flower
 
 Please refer to GitLab's policies related to Gifts and Contributions [here](/handbook/legal/policies/gifts-contributions/)
 
-# How to send a campaign
+## How to send a campaign
 
 1. Please click the ‘Send Engage +’  button and select the campaign/gift you need to send to a prospect.
 1. After selecting the campaign, you need to add personal details, this webpage will be different in case you are sending an e-gift or a physical gift.
 1. Check the status of your gifts from the sends tab. E-gifts will be sent out immediately, like an ordinary email. In case of physical gifts you will have a 30 mins window to cancel or edit your orders. After that window expires please reach out to us at support@reachdesk.com in case of further assistance.
 
-# Tracking Sends
+## Tracking Sends
 - On your sends tab in Reachdesk, you'll see a full list of sends and status'.
 - For physical items these are Sent, waiting for address confirmation, address confirmed, shipped, Delivered. You'll also get an email notification when they get delivered.
 
@@ -77,7 +77,7 @@ Please refer to GitLab's policies related to Gifts and Contributions [here](/han
 You can also see the status of sends under the contact you've sent to in your chosen CRM.
 - Go to the activity of the contact, and see [Reachdesk] *status* *campaign name*
 
-# Shipping
+## Shipping
 Reachdesk can ship to over 160 countries around the world.
 - Europe warehouse (EU-Ireland) ships to: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Lativa Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.
 Also items can be shipped from the Eu warehouse from the countries listed [here](https://docs.google.com/document/d/1ntR-DEd3h6VLCAB2nzHvKXN5m5gtueQS7QMLnPXSa84/edit)
@@ -98,7 +98,7 @@ Here is a link to the campaign [planning form](https://form.asana.com/?k=hvl00Yj
 1. This image should be 600x80 pxl in Jpeg/Png format
 1. The branding tab under 'Organization' only needs to be completed once, and is for address confirmation emails
 
-# Creating a Triggered Campaign
+## Creating a Triggered Campaign
 
 ### Trigger Reachdesk sends through Salesforce
 1. Go to Triggered Campaign > Create Triggered Campaign. Then under Campaign Trigger, select Connector (Salesforce).
@@ -109,7 +109,7 @@ Here is a link to the campaign [planning form](https://form.asana.com/?k=hvl00Yj
 1. Click Next and Save campaign
 TIP: it's advisable to `Pause` triggered campaigns until it's ready to go live/active.
 
-# Creating a Landing Page
+## Creating a Landing Page
 
 This is one link that can be sent to multiple recipients, and the gifts will be automatically fulfilled via this page. The Landing page can be customised, here are some examples :
 
@@ -126,7 +126,7 @@ PLEASE NOTE: Do not tick `Ask recipient to confirm their address` for  campaigns
 1. Always state `Yes` for question `Would you like approval on submissions?`
 1. Revisions will require additional turnaround time, so please allow 5 - 7 days prior to the launch date
 
-# Shipping to Events
+## Shipping to Events
 Reachdesk can ship items from our warehouses to events!
 1. Complete this [form](https://form.asana.com/?k=zkc-EX_KMUccxk6U5sq1RQ&d=1193162279639741) to submit an event shipping request
 1. All requests must be submitted **2 weeks prior to the event** - but the more notice, the better! After your request is received a member of the reachdesk team will reach out within 24 business hours.
@@ -135,7 +135,7 @@ Reachdesk can ship items from our warehouses to events!
 1. Please partner with the reachdesk project manager for any ship to event requests.
 
 
-# SDR/BDR
+## SDR/BDR
 ### Integrations
 - In Reachdesk, first go to Settings > Integrations and click "Linked Account" next to applicable CRMs (you'll know it's worked as the button will change from blue to grey).
 Download the Reachdesk Chrome Extension [here](https://chrome.google.com/webstore/detail/reachdesk/hdckbmdejcmfjjklcjmkdncblfjhfnke?hl=en) so you can use RD within your CRM.
@@ -148,7 +148,7 @@ Link to the [Sales Development Playbook](https://app.hubspot.com/documents/54652
 
 
 
-# How to request an invoice for more credit
+## How to request an invoice for more credit
 
 1. Go to: Organizations > Balances
 1. Click on Add Credit on the top right of the page

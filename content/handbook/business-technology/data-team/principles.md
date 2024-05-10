@@ -82,6 +82,7 @@ graph TD
 
 
 ### Additional beliefs held by the Data Team include
+
 - Everything can and should be defined in code and version controlled
 - Data implementations should integrate best practices from DevOps into their workflow
 - Partner with each Business function while having a high-quality, maintainable code base

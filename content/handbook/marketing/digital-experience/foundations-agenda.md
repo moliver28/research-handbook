@@ -24,11 +24,11 @@ description: "The goal of this page is to identify blockers and highlight the va
 | **High likelihood of human error**<br>[⏱️ Efficiency](/handbook/values/#efficiency) | - No automated build process<br>- No weekly or bi-weekly review of automated or user generated data<br>- Will enable us to shorten our iterations and cycle time |
 | **Hard to consistently stick to our plan**<br>[📈 Results](/handbook/values/#results) | - Without an operationalized approach it's harder keep a bias towards action against competing forces |
 
-- - -
+---
 
 ### 🎯 We need to have plan that we're confident in, stick to, and consistently deliver results
 
-- - -
+---
 
 | WHAT NEEDS TO HAPPEN | VALUE |
 | -------------------- | ----- |

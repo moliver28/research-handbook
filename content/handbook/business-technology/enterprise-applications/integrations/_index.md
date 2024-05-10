@@ -60,6 +60,7 @@ Workato is low code - no code integrtaion platform in which we can create automa
 ### Capabilities & Offerings
 
 #### System Integrations and APIs
+
 - Connecting System A to System B
 - Understanding APIs and building custom connections between systems
 - Evaluating Native connectors

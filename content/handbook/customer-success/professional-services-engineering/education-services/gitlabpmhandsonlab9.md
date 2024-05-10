@@ -89,7 +89,7 @@ In this lab you'll configure a Scrum board and populate it with the same issues 
 
 1. Click **Create board**.
 
-   >  We will now create three new lists for the board: a list with a **Status::Sprint Backlog** label, a list with a **Status::WIP** label, and a list with a **Status::QA** label.
+   > We will now create three new lists for the board: a list with a **Status::Sprint Backlog** label, a list with a **Status::WIP** label, and a list with a **Status::QA** label.
 
 1. In the top right corner, click **Create list**.
 

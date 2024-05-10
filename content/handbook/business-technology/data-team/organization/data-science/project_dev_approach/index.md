@@ -141,7 +141,7 @@ _**Iterative with 3b & 3c***
 
 ## 3b: Feature Engineering
 
-_**Iterative with 3a & 3c**_
+***Iterative with 3a & 3c***
 
 **Sizing:** Large
 
@@ -167,7 +167,7 @@ _**Iterative with 3a & 3c**_
 
 ## 3c: Modeling & Implementation Plan
 
-_**Iterative with 3a & 3b**_
+***Iterative with 3a & 3b***
 
 **Sizing:** Medium
 

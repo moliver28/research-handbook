@@ -42,7 +42,7 @@ Below are the GitLab and US-specific leave policies available to US team members
 |:---:|:---:|
 | Parental Leave | 100% paid by GitLab (minus any State Disability and/or Paid Family Leave benefits) |
 | [Family Medical Leave Act<br>(FMLA - Own Condition)](#payroll-processing-during-fmla) | 66.67% (STD) + 33.3% paid by GitLab per week<br>After 12 weeks:  <br>     66.67% (LTD) per month |
-| [Family Medical Leave Act<br>(FMLA - Care for a Family Member)](#the-family-medical-leave-act-fmla) | 100% for up to 25 working days
+| [Family Medical Leave Act<br>(FMLA - Care for a Family Member)](#the-family-medical-leave-act-fmla) | 100% for up to 25 working days |
 | California Family Rights Act<br>(CFRA) | First 8 weeks:  60% (SDI/PFL) + 6.66% (STD) + 33.3% paid by GitLab<br>8-12 weeks:  60% (SDI - if applicable) + 6.66% (STD) + 33.3% paid by GitLab<br>After 12 weeks:  66.67% LTD paid by Cigna monthly (if eligible) |
 | [Military Leave (USERRA)](#us-military-leave) | First 25 days:  paid 100% by GitLab<br>After 25 days:  Unpaid |
 

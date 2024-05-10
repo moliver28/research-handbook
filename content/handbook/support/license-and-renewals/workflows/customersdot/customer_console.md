@@ -397,7 +397,7 @@ irb(main):021:0> unlink_customer(0000000)
 
 | Name | Required | Details |
 | ------ | ------ | ------ |
-| `:uid` | *Yes* |GitLab.com UID which may have been linked to multiple cdot accounts
+| `:uid` | *Yes* |GitLab.com UID which may have been linked to multiple cdot accounts |
 
 #### Sample
 

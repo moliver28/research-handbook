@@ -9,7 +9,7 @@ title: "Reddit response workflow"
 
 
 
-# Overview
+## Overview
 
 The [r/gitlab](https://www.reddit.com/r/gitlab/) subreddit is a place for questions, discussion, and support on all things GitLab.  To request user flair for the GitLab subreddit, ping `@devrel-team` in the `#developer-relations` Slack channel, and include your Reddit username. Your flair will read `GitLab Staff`.
 
@@ -60,7 +60,7 @@ Misinformation:
 * [r/Python](https://www.reddit.com/r/Python/)
 * [r/selfhosted](https://www.reddit.com/r/selfhosted/)
 
-# Moderation
+## Moderation
 
 As a moderator on the GitLab subreddit, you have the ability to review spam, flagged posts or comments, and close issues. You can take actions in the [moderation queue](https://www.reddit.com/r/mod/about/unmoderated/).
 

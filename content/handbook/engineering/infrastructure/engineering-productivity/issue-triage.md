@@ -62,9 +62,9 @@ The [Features by Group](/handbook/product/categories/features) listing can help 
 
 The priority label is used to indicate the importance and guide the scheduling of the issue. Priority labels are expected to be set based on the circumstances of the market, product direction, IACV impact, number of impacted users and capacity of the team. [DRIs](/handbook/people-group/directly-responsible-individuals/) for prioritization are based on work type:
 
-* Feature - Product Manager (PM)
-* Maintenance - Engineering Manager (EM)
-* Bug - Quality Engineering Manager (QEM)
+- Feature - Product Manager (PM)
+- Maintenance - Engineering Manager (EM)
+- Bug - Quality Engineering Manager (QEM)
 
 | Priority | Importance | Intention | DRI |
 | -------- | ---------- | --------- | --- |

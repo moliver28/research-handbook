@@ -86,7 +86,7 @@ The Metrics Dictionary was [introduced](https://gitlab.com/gitlab-org/gitlab/-/i
 
 ## Instrumenting Metrics and Events
 
-Get started with our **[Quick Start Instrumentation Guide ](/handbook/product/analytics-instrumentation-guide/getting-started/)**, which is a single page with links to documentation for the entire instrumentation process flow.
+Get started with our **[Quick Start Instrumentation Guide](/handbook/product/analytics-instrumentation-guide/getting-started/)**, which is a single page with links to documentation for the entire instrumentation process flow.
 
 ### Implementing xMAU metrics
 
@@ -94,7 +94,7 @@ Get started with our **[Quick Start Instrumentation Guide ](/handbook/product/an
 |---|---|---|
 |1. xMAU level|Determine the level at which the metric should be measured: <br><br> 1. User level - [UMAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/#unique-monthly-active-users-umau) <br> 2. Stage level - [SMAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/#stage-monthly-active-users-smau), [Paid SMAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/#paid-stage-monthly-active-users-paid-smau), Other PI <br> 3. Group level - [GMAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/#group-monthly-active-users-gmau), [Paid GMAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/#paid-group-monthly-active-users-paid-gmau), Other PI  | |
 |2. Collection framework | There are two main tools that we use for tracking users data: [Service Ping](https://docs.gitlab.com/ee/development/service_ping/) and [Snowplow](https://docs.gitlab.com/ee/development/snowplow/index.html).|We strongly recommend using Service Ping for xMAU as your metrics will be available on both SaaS and self-managed.|
-|3. Instrumentation | Work with your engineering team to instrument tracking for your xMAU.  <br><br>- Utilize our [Quick start instrumentation guide ](/handbook/product/analytics-instrumentation-guide/getting-started/) to find the documentation needed for the instrumentation process. |Additional reference:<br><br> - [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/)<br> - [Snowplow Guide](https://docs.gitlab.com/ee/development/snowplow/index.html) |
+|3. Instrumentation | Work with your engineering team to instrument tracking for your xMAU.  <br><br>- Utilize our [Quick start instrumentation guide](/handbook/product/analytics-instrumentation-guide/getting-started/) to find the documentation needed for the instrumentation process. |Additional reference:<br><br> - [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/)<br> - [Snowplow Guide](https://docs.gitlab.com/ee/development/snowplow/index.html) |
 |4. Data Availability | Plan instrumentation with sufficient lead time for data availability.   <br><br> 1. Merge your metrics into the next self-managed release as early as possible since users will have to upgrade their instance version to start reporting your instrumented metrics. <br><br> 2. Wait for your metrics to be released onto production GitLab.com. These releases currently happen on a daily basis.<br><br> 3. Service Pings are generated on GitLab.com on a weekly basis. An issue is created each milestone associated with [this epic](https://gitlab.com/groups/gitlab-org/-/epics/6000), to track the weekly SaaS Service Ping generation. You can find successful payloads and failures in these issues. Verify your new metrics are present in the GitLab.com Service Ping payload.<br><br> 4. Wait for the Versions database to be imported into the data warehouse.<br><br> 5. Check the dbt model [version_usage_data_unpacked](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.version_usage_data_unpacked#columns) to ensure the database column for your metric is present.<br><br> 6. Check [Sisense](http://app.periscopedata.com/app/gitlab/) to ensure data is available in the data warehouse.<br>|Timeline <br><br> 1. [Self-managed releases](/upcoming-releases/) happen [every month](/handbook/engineering/releases/) month (+30 days) <br><br> 2. Wait at least a week for customers to upgrade to the new release and for a Service Ping to be generated (+7 days)<br><br> 3. Service Pings are collected in the Versions application. The Versions application's database is automatically imported into the Snowflake Data Warehouse every day (+1 day).<br><br> 4. In total, plan for up to 38 day cycle times. Cycle times are slow with monthly releases and weekly pings, so, implement your metrics early.|
 |5. Dashboard|Create a Sisense dashboard.  Instructions for creating dashboards are [here](/handbook/business-technology/data-team/programs/data-for-product-managers/#how-to-consume-data-at-gitlab).|
 
@@ -110,11 +110,13 @@ Note: We now enable you to deduplicate aggregated metrics implemented via Redis 
 | Deduplicated Aggregated | Metric contains a rolled-up value where each unit is counted once. | UMAU is a deduplicated aggregated metric but TPV is not. |
 
 ## Finding Reporting Dependencies on Metrics
+
 Although PMs commonly use Service Ping metrics to measure feature health and product usage, that is not the only use for Service Ping metrics. For instance, the Product Data Insights team relies on Service Ping metrics for xMAU reporting. Additionally, the Customer Success Operations team relies on Service Ping metrics to generate [health scores](/handbook/customer-success/customer-health-scoring/) for customers.
 
 For a [variety of reasons](https://www.youtube.com/watch?v=qgnWYIynDF4), we [recommend not changing](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_lifecycle.html#change-an-existing-metric) the calculation of metrics that are used for reporting once implemented. If you do need to change a metric that is being used, please coordinate with the customer success team before doing so so that they can update their models and health scores accordingly. To identify metrics that are relied upon for reporting, follow these directions.
 
 ### xMAU Reporting
+
 1. Go to the [Metrics Dictionary](https://metrics.gitlab.com)
 2. Click "Customize table" and select "Performance indicator type"
 3. Search for a metric and view the **performance indicator type** values.
@@ -122,6 +124,7 @@ For a [variety of reasons](https://www.youtube.com/watch?v=qgnWYIynDF4), we [rec
     - If the field is not blank, there are xMAU reporting dependencies on this metric. Please reach out to the [Product Data Insights](/handbook/product/product-analysis/) to understand how changing metric calculations would impact downstream dependencies.
 
 ### Customer Health Scoring
+
 1. Go to [this CSV](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/data/health_score_metrics.csv), which is the SSOT for metrics that are used for health scoring.
 2. If the metric of interest is in this CSV, then is it being used for customer health scoring. Please reach out to [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations/) to understand how changing metric calculations would impact downstream dependencies.
 

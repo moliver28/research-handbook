@@ -3,9 +3,9 @@ title: Innovation Pitch Competion
 description: Information and guidelines about the Innovation Pitch Competition
 ---
 
-- - -
+---
 
-# Innovation Pitch Competition
+## Innovation Pitch Competition
 
 ## Concept & Goals
 
@@ -88,7 +88,7 @@ description: Information and guidelines about the Innovation Pitch Competition
       * Dave Steer, VP, Brand & Product Marketing
       * Lis Vinueza, Analytics Engineer
 
-# Results and Winners
+## Results and Winners
 
 ## Participation Overview
 
@@ -117,7 +117,7 @@ description: Information and guidelines about the Innovation Pitch Competition
 * Public Vote Prizes: 3 Tier-3 GitLab swag packages for the first 3
 * GitLab had the option to provide winning projects with additional support or benefits beyond the prize money at its discretion. Winning projects were considered for additional support of up to $100,000 USD in value. Should any extra support be given, it would be managed under a separate agreement, independent of the competition's official rules.
 
-# Feedback and Observations
+## Feedback and Observations
 
 ## Participant Feedback
 
@@ -147,7 +147,7 @@ Evaluating a submission and scoring it was less obvious for a few key reasons:
 * The marketing package significantly boosted visibility within the DevPost community. Announcing through DevPost mailings led to a marked increase in traffic to the competition's website.
 * During the competition, a few minor miscommunications and unforeseen adjustments arose. Notably, a significant confusion occurred with the public vote announcement—publishing all legal and non-spam submissions, a number far exceeding those actually eligible. Clarifying the difference between "accepted" and "validated" submissions is essential, as it shapes the public voting process and the distribution of public prizes.
 
-# Impact Assessment
+## Impact Assessment
 
 ## Achievement of Objectives: Evaluate whether the competition met its intended goals
 
@@ -156,7 +156,7 @@ Evaluating a submission and scoring it was less obvious for a few key reasons:
 * Strategic learning and future preparedness: This edition was intentionally designed to maximize our learning experience, laying the groundwork for future editions. Alongside documenting internal processes, we meticulously analyzed topics of interest, participant profiles, and communication channels.
 * Evidence of success: Considering the impressive participation of 916 individuals, the influx of 482 new users who had never engaged with GitLab before, and the validation of 69 submissions, we confidently declare this edition a resounding success. Additionally, the quality of eligible submissions, heightened activity across various channels, and a remarkable 50% increase in contributions to the CI/CD catalog further reinforce this achievement.Details are available via a [separate document](https://docs.google.com/document/d/1f1P0mGEkgtwboUe5UJRolnyDUJ3WQ7q3wBTiUJQUK-k/edit?usp=sharing)
 
-# Future Recommendations
+## Future Recommendations
 
 ## Improvements
 
@@ -208,7 +208,7 @@ Projects poised to deliver significant benefits to the wider community, with str
     * Create components aimed at achieving a more equitable distribution of intellectual property rights or providing assistance to the unbanked and uninsured.
 * **Beyond the Platform** initiatives that transcend the traditional boundaries of a coding community. For example advice on healthier living, tips to manage mental stress, and guidance for career growth. GitLab is not just about code and contributions; it’s about caring for you as a human being (see also: ‘Social Impact Specials’ above). This approach aligns perfectly with the GitLab ethos and is not a radical shift but a natural progression.
 
-# Closing
+## Closing
 
 ## Key points
 

@@ -74,7 +74,7 @@ Additionally to bigger features and initiatives we're trying to always include a
 The Service Desk SEG is also the DRI for the [former Respond group](/handbook/engineering/development/ops/monitor/respond/) categories
 [Service Desk](https://about.gitlab.com/direction/service_management/service_desk/),
 [incident management](https://about.gitlab.com/direction/service_management/incident_management/) and
-[on-call schedule management](https://about.gitlab.com/direction/service_management/on-call_schedule_management/). 
+[on-call schedule management](https://about.gitlab.com/direction/service_management/on-call_schedule_management/).
 Service Desk remains the focus.
 
 ### Released features

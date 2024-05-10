@@ -22,7 +22,7 @@ twitter_creator: "@gitlab"
 
 [See calendar glossary here](/handbook/marketing/virtual-events/#calendar-glossary)
 
-# Overview
+## Overview
 {: #overview .gitlab-purple} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 There are four types of GitLab-hosted webcasts and workshops using the Zoom webcast license and On24, with differing DRIs depending on the webcast goal and owner.
@@ -199,7 +199,7 @@ Virtual Workshops are managed and moderated by Field Marketing, working closely 
 
 For details regarding Virtual Workshops, please visit the [Field Marketing Page](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1).
 
-# Best Practices
+## Best Practices
 {: #webcast-best-practices .gitlab-purple} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 `Marketing Programs to review and update against "general virtual events best practices" page`
@@ -266,7 +266,7 @@ Regional Campaign Managers are responsible for updating the technical demo page 
 
 Instructions video on adding/removing the technical demos from landing page are available [here](https://youtu.be/yhPGuyRkTno).
 
-# Logistical Setup
+## Logistical Setup
 {: #logistical-setup .gitlab-purple} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ## Adding your webcasts into the calendar

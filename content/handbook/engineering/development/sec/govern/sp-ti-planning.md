@@ -52,6 +52,7 @@ We assign issues for refinement to ensure we have focus on the highest-priority 
 * Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/engineering/metrics/#work-type-classification).
 
 ### Release Scope final & kickoff
+
 By the week prior to the completion of the current milestone, the scope of the next release is finalized by EMs and PMs.
 
 * EM output: `Deliverable` labels are applied to issues we are committing to deliver. It's up to the EM's discretion what issues receive this label which is used in the calculation of our [Say Do Ratio](/handbook/engineering/development/performance-indicators/#say-do-ratios). Factors include: confidence that the issue will be completed in the milestone, completion of issues rolled over from the previous milestones, commitments with other groups or stakeholders.
@@ -157,10 +158,10 @@ Issue Release Buddy".
 
 An issue should fail refinement if it can not be worked on without additional information or
 decisions to be made. To fail an issue:
-1.  Leave a comment on the issue that it can not be worked on, and highlights what still needs to
+1. Leave a comment on the issue that it can not be worked on, and highlights what still needs to
     be done.
-2.  Unassign yourself if you can not contribute further to issue at the current time.
-3.  Assign the `workflow::blocked` label.
+2. Unassign yourself if you can not contribute further to issue at the current time.
+3. Assign the `workflow::blocked` label.
 
 
 ### Weights
@@ -183,8 +184,8 @@ We are using the Fibonacci sequence for issue weights. Definitions of each numer
 Setting a `frontend-weight` or `backend-weight` label on an issue is optional, but ensure you set the **Weight** property on the issue during refinement.
 
 Examples of when it may be appropriate to set a weight label instead of / as well as setting the issue weight include:
-- On newly drafted issues, where we haven't yet fully determined the scope or if both frontend and backend are needed.
-- On bugs, where we don't directly assign a weight. The label can help provide guidance on complexity.
+* On newly drafted issues, where we haven't yet fully determined the scope or if both frontend and backend are needed.
+* On bugs, where we don't directly assign a weight. The label can help provide guidance on complexity.
 
 ## Implementation Plan
 
@@ -206,6 +207,7 @@ The purpose of the issue verification procedures is to aid in better understandi
 When writing verification steps for a feature or bug fix, it's important to include both positive and negative scenarios. This helps ensure that the feature or fix only works when specific criteria are met and not in every situation. For example, when verifying MR Approval Policies, you should provide a scenario where approval is required when the policy is violated, and another scenario where approval is not needed when the policy is not violated. This approach allows for a more thorough and accurate testing process.
 
 ## Verification
+
 The issue verification should be done by someone else other than the MR author[^4].
 
 1. All implementation issues should have verification steps in the description. Our [implementation issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Implementation) conveniently provides this section.
@@ -216,7 +218,6 @@ The issue verification should be done by someone else other than the MR author[^
 1. Once the issue has been verified in production by both engineers, add the `workflow::complete` label and close the issue.
 
 [^4]: To minimize cycle time between engineers, it's preferable that the writing engineer verify their work, as they will be able to start working on the issue again immediately if it turns out that the issue has not been sufficiently resolved. Waiting for another engineer to find obvious failures will increase turn around time.
-[^4]: When the engineer who writes the code is the only one verifying it, it increases the chance of defects getting into production because when that engineer tests in a new environment, they are likely to try all the same attempts to break it as they did during writing the code, which does not bring any value. If a person who did not write the code verifies the resolution in a deployed environment, they will come in with a different perspective and is more likely to cover more test cases.
 
 ## Planning for PTO
 
@@ -260,9 +261,9 @@ issues. An exception is when a single engineer agrees to work on both tech stack
 **Q:** What's the meaning of the emoji in issues?
 
 **A:** we use them to communicate certain steps in our process.
-- 🥕 you have reviewed an issue in preparation for [Planning
+* 🥕 you have reviewed an issue in preparation for [Planning
   Breakdown](#planning-breakdown).
-- 🥒 request to add a specification using [Gherkin
+* 🥒 request to add a specification using [Gherkin
   Keyworks](https://cucumber.io/docs/gherkin/reference/#keywords) (when life gives you a cucumber,
   you pickle it).
 

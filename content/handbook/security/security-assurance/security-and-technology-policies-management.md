@@ -15,7 +15,7 @@ This policy applies to security and technology policies that fall within the sco
 
 | Role  | Responsibility |
 |-----------|-----------|
-| Security Governance Team | Responsible for conducting annual controlled documents review and enforcing this policy
+| Security Governance Team | Responsible for conducting annual controlled documents review and enforcing this policy |
 | Security Assurance Management (Code Owners) | Responsible for approving changes to this policy |
 
 ## Policy

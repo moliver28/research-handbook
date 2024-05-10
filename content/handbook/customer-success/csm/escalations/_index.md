@@ -11,7 +11,7 @@ title: Customer Success Escalations Process
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-- - -
+---
 
 ## Background
 

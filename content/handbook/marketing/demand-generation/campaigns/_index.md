@@ -12,7 +12,7 @@ twitter_creator: '@gitlab'
 
 
 
-# <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Campaigns Team
+## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Campaigns Team
 
 ## What our team does
 {: #goals .gitlab-purple}

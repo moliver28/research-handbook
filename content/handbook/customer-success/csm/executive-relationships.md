@@ -11,7 +11,7 @@ title: CSM Executive Relationships
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-- - -
+---
 
 
 At GitLab, successful partnerships between our Customer Success Managers and their customer executives are crucial to the success of our customers and our business. As CSMs position themselves to be more strategic and reach Director, VP, and CISO personas, we have to adjust our communication styles and consider how to cater them to executives. This page provides guidance on how CSMs can effectively partner with executives to drive value for our customers.

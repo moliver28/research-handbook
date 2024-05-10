@@ -34,18 +34,18 @@ I'm passionate about life itself. I love learning new things, preferably on a da
 * My most recent passion is Carpentry :hammer:; I really feel like human beings are meant to construct their own structures. I love setting out time to plan, design and build practical things, from chairs, tables and shelfs all the way to small houses and shelers.
 
 * Here are a couple of things I like doing _every day_:
-  - Going for a walk :runner:
-  - Writing :orange_book:
-  - Spending time alone in silence :thought_balloon:
-  - At least one deep, meaningful conversation with someone I love :speech_balloon:
-  - Some deep, focused work :godmode:
-  - A good night's sleep :zzz:
+  * Going for a walk :runner:
+  * Writing :orange_book:
+  * Spending time alone in silence :thought_balloon:
+  * At least one deep, meaningful conversation with someone I love :speech_balloon:
+  * Some deep, focused work :godmode:
+  * A good night's sleep :zzz:
 
 ## Personally
 
-- I currently live in the beautiful Netherlands, but I'm originally from Brazil.
-- I am a 'sea' person. I'm the happiest version of myself when on walking distance from a seashore.
-- Two of my best friends are actually not human. I spend dumb amounts of time with my two dogs, Kiss and Ravi:
+* I currently live in the beautiful Netherlands, but I'm originally from Brazil.
+* I am a 'sea' person. I'm the happiest version of myself when on walking distance from a seashore.
+* Two of my best friends are actually not human. I spend dumb amounts of time with my two dogs, Kiss and Ravi:
 
 ![Kiss and Ravi](img/kiss-and-ravi.jpg "Kiss and Ravi")
 

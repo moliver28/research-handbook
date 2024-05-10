@@ -32,8 +32,8 @@ The key objective of the POV is to validate the value of the shift left security
 | SAST security test review | Scan for all detected languages | Shift left developer's experience with real time feedback | SAST analyzers; MR SAST widget; Vulnerability Dashboard |
 | Dependency Scanning | Scan for all detected languages | Shift left developer's experience with real time feedback | SCA analyzers; MR SCA widget; Vulnerability Dashboard; SBOM and Dependency Tree |
 | Container Scanning for Clound Native | Scan and block known vulnerable images | Recommendation and auto-remediation | Container analyzers; MR Container widget; Vulnerability Dashboard; Auto-remediation via MR |
-| API Security Test | GitLab to review API fuzzing project | Shift left pen test like capability to dev + QA
-| DAST API; API Fuzzing |
+| API Security Test | GitLab to review API fuzzing project | Shift left pen test like capability to dev + QA | |
+| DAST API; API Fuzzing | | | |
 
 This tends to be most common POVs for new logos and uptier to ultimate. Ensure you engage the application security team at the customer.
 

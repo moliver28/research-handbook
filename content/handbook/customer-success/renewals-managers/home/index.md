@@ -1,17 +1,12 @@
 ---
-
-title: Renewals Managers 
+title: Renewals Managers
 ---
-
-
-
-
-
 
 
 ![Global Renewals Organiztion](images/GitLab_GR_BLK.gif)
 
 Global Renewals Organization
+
 ---
 
 View the Renewals Manager handbook pages:
@@ -19,10 +14,11 @@ View the Renewals Manager handbook pages:
 - [What we do](/handbook/customer-success/renewals-managers/what) - Information about what tasks and activities renewals managers perform.
 
 Renewals Managers (more resources)
---> Visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/)
---> Contribute to the Global Renewals Organization issue [board](https://gitlab.com/gitlab-com/customer-success/global-renewals-organization/-/boards/5465302?label_name[]=Global%20Renewals)
+- Visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/)
+- Contribute to the Global Renewals Organization issue [board](https://gitlab.com/gitlab-com/customer-success/global-renewals-organization/-/boards/5465302?label_name[]=Global%20Renewals)
 
 ---
+
 The Global Renewals Organization is part of the [GitLab Customer Success](/handbook/customer-success/) function. We partner with Customer Success, field sales, our ecosystem of partners, support and marketing organizations to deliver maximum value to GitLab customers throughout their subscription lifecycle.
 
 The Global Renewals Organization is made up of *renewals managers*. A renewals manager looks after a customers entire existing book of renewable business and manages those renewal opportuntities in Salesforce from inception (day one after a new sale) to renewal booking. A renewals manager is aligned to a territory and supports customers within that territory by working in coordination with an account team (typically made up of a Customer Success Manager/Engineer, a Solutions Architect, and an Account Executive).

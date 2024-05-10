@@ -13,7 +13,8 @@ description: "OKR issue tracking for the Ops Sub-Dept"
  In FY24 we are dogfooding the new GitLab OKR tool.  Since the tool is in it's early stages use the links below to access the OKRs for each group.  New functionality is being release constantly and this manually generated list will likely become obsolete in the near future.
 
 
-### Links to OKRs 
+### Links to OKRs
+
 - [Development Department](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&assignee_username%5B%5D=clefelhocz1&milestone_title=FY24-Q1)
   - [Ops Sub-Department](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&assignee_username%5B%5D=sgoldstein&milestone_title=FY24-Q1)
     - [Configure](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?state=opened&assignee_username%5B%5D=nmezzopera&label_name%5B%5D=group%3A%3Aconfigure)

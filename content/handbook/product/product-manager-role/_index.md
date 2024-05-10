@@ -72,14 +72,14 @@ planned, not come up with every idea or change.
 
 ### Where should you look when you need help?
 
-- The first thing you should do is read this page carefully and the pages linked from this page.
-- Most answers can also be found in the [handbook](/handbook/). If you can't find the answer, please add a proposal!
-- You can ask questions related to Product in the `#product` Slack channel.
-- General questions should be asked in `#questions`.
-- Specific Git related questions should be asked in `#git-help`.
-- If you have problems with a MR, ask in `#mr-buddies`.
-- HR questions should be asked in `#people-connect`.
-- Anything Release Post related can be found in the [Release Post handbook](/handbook/marketing/blog/release-posts/#pm-contributors) and `#release-post`
+* The first thing you should do is read this page carefully and the pages linked from this page.
+* Most answers can also be found in the [handbook](/handbook/). If you can't find the answer, please add a proposal!
+* You can ask questions related to Product in the `#product` Slack channel.
+* General questions should be asked in `#questions`.
+* Specific Git related questions should be asked in `#git-help`.
+* If you have problems with a MR, ask in `#mr-buddies`.
+* HR questions should be asked in `#people-connect`.
+* Anything Release Post related can be found in the [Release Post handbook](/handbook/marketing/blog/release-posts/#pm-contributors) and `#release-post`
 
 ### Job Requirements
 
@@ -119,12 +119,12 @@ Also see [Product Development Timeline](/handbook/engineering/workflow/#product-
 The product team is responsible for iteration on most of GitLab's products and
 projects:
 
-- GitLab CE and EE
-- GitLab.com
-- about.gitlab.com
-- customers.gitlab.com
-- version.gitlab.com
-- license.gitlab.com
+* GitLab CE and EE
+* GitLab.com
+* about.gitlab.com
+* customers.gitlab.com
+* version.gitlab.com
+* license.gitlab.com
 
 This includes the entire stack and all its facets. The product team needs to weigh and prioritize not only bugs, features, regressions, and performance, but also architectural changes and other aspects required for ensuring GitLab's excellence. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/engineering/metrics/#work-type-classification) are considered as [each has a different DRI](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs).
 

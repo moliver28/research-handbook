@@ -139,5 +139,3 @@ To understand the specific challenges faced by the UX Department, we hold an asy
 - [Emily Bauman](https://gitlab.com/emilybauman/about-me/-/blob/master/README.md) - Senior Product Designer
 - [Will Leidheiser](https://gitlab.com/wleidheiser/about-will/-/blob/main/README.md) - Staff UX Researcher
 
-[pajamas]: https://design.gitlab.com
-[seeking-community-contributions]: https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name[]=Seeking+community+contributions&assignee_id=0&sort=weight

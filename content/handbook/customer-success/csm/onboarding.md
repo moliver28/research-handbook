@@ -74,7 +74,7 @@ In addition to the above questions, make sure to review the [tasklist for the fi
 
 One of the most important action items coming out of the kickoff call is [establishing the cadence call](/handbook/customer-success/csm/cadence-calls/). The CSM should have the ongoing cadence call schedule determined with the customer by the end of the kickoff call, as well as a plan for the [first cadence call](#1st-cadence-call-future-growth-discussion--checklist).
 
-####  CSM Journey Spreadsheet
+#### CSM Journey Spreadsheet
 
 CSMs are welcome to use a [Customer Journey Spreadsheet](https://docs.google.com/spreadsheets/d/1H6gGlsCAZoHKy27kPhJfZE8v4039_lI6pW9nif-um-A) (internal only) to identify the customer's entry point and better identify the enablement needed. The spreadsheet aims to cover the multiple onboarding steps we see as CSMs, from the infrastructure build review, to the required migration steps and expansion to DevSecOps. Scale and Growth CSMs are not recommended to create and maintain these spreadsheets.
 

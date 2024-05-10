@@ -10,8 +10,8 @@ To meet evolving customer needs and to continue GitLab’s growth, partners are 
 | -- | - |
 | [Associate Partner Territory Manager](#associate-partner-territory-manager) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Partner Territory Manager](#partner-territory-manager-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Partner Territory Manager](#senior-partner-territory-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Staff Partner Territory Manager](#staff-partner-territory-manager) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Senior Partner Territory Manager](#senior-partner-territory-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Staff Partner Territory Manager](#staff-partner-territory-manager) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Partner Territory Management](#senior-manager-partner-territory-management) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Director, Partner Territory Management](#director-partner-territory-management) | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
