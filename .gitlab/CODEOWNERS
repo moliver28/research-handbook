@@ -557,7 +557,7 @@
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/security-operations/red-team/ @cmoberly
 /content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila
-/content/job-families/chief-information-security-officer.md @robin @fofungwu
+/content/job-families/chief-information-security-officer.md @joshlemos @fofungwu
 
 ^[solutions-architects]
 /content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
