@@ -185,6 +185,8 @@ Announcement Channels
 | GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) |
 | Professional services | everyone | All motions | All segments | 0 |
 
+- **NOTE** If an account only has bought CI minutes, the SDR/BDR will still get credit for a first order Opportunity if the account purchases Premium or Ultimate licenses. 
+
 ### Sales Development Org Compensation Breakdown
 
 
