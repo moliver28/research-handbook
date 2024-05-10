@@ -533,6 +533,123 @@ Scoped workaround labels are intended to track temporary workarounds applied to 
 | ----------- | ----------- |
 | ![workaround active](./img/workaround-active.png) | This label is applied to issues describing workarounds applied to tenant instances |
 
+### Capacity Planning
+
+We operate a Capacity Planning rotation,
+which switches on a fortnightly basis amongst all on-call SRES,
+with the schedule managed in [PagerDuty](https://gitlab.pagerduty.com/schedules#PAP8TMH).
+The goal is to give ourselves the best chance of resolving impending saturation events
+*before* they become a customer-impacting incident
+It is based on statistical modelling and human interpretation,
+and is not expected to be perfect in every situation.
+Do your best,
+and understand that the process is inherently imprecise and fuzzy at the edges.
+
+The Dedicated capacity process process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/)
+
+The overall flow of work is to assess any new reported saturation risks,
+and re-review any which are due to be looked at again.
+If there is an apparent risk of saturation,
+initiate further assessment for potential remediation action,
+and actively manage any such ongoing issues that are assigned to you.
+
+At the start of your shift review the
+[handover issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Handover)
+from the prior shift and close it when you are up to speed.
+
+At the start of each work week while you are on duty:
+
+1. Review the capacity planning issues that are:
+   1. In the Open column of the [board](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/boards/7536402).
+   1. [Previously assessed](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?label_name%5B%5D=violation%3Asaturation) but now and therefore in need of a new look.
+   * Use the labels auto-populated on the issue to help prioritize if necessary.
+     `violation:hard` is more important than `violation:soft`,
+     and `severity::` provides additional signal.
+1. For each saturation issue that is up for review,
+   evaluate the prediction given in the issue:
+   * Check the tips below for suggestions on quickly assessing predictions as false positives;
+     this is a good way to quickly reduce the number of issues requiring more work
+   * If evaluation requires non-trivial investigation over more than a day calendar time,
+     label it `capacity-planning:investigate` and investigate as you have time.
+   * If you assess that it warrants active action in the near future and is not already `capacity-planning::in-progress`:
+      1. Label it `~capacity-planning:in-progress`,
+      1. Add or update the due date to next week, and
+      1. Create a remediation [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=saturation_risk)
+      * Take into consideration whether we have existing remediation options
+        (e.g performance-based overlays, or entire reference architecture upsizing)
+        or if we will need to add capabilities to handle the particular saturation problem.
+        Err on the side of raising an issue for further discussion;
+        we can always close it and return to monitoring status.
+   * If it's in `capacity-planning::in-progress` check on the remediation issue and ensure it is making progress,
+     and update the due-date to be 1 week in the future.
+     If remediation has completed,
+     move the issue to `capacity-planning::verification`
+     or, if results are already clearly sufficient, close it.
+   * If it is in `capacity-planning::verification`,
+     check if the remediation results can be considered sufficient,
+    and if so close the issue.
+    If not, update the due date to next week for further review.
+   * If the prediction has a wide-range and there is no indication that it will breach any time soon,
+     or the lead time is sufficient that there is no urgency (e.g. 3+ months for Gitaly disk saturation),
+     label the issue with `~capacity-planning::monitor`
+     and update the due-date to just before the start of the next shift
+     for review by the incoming duty engineer.
+   * If a metric is of a nature (perhaps for reasons specific to Dedicated)
+     that predictions are consistently unusable across all customers for that metric,
+     or if the prediction is plausibly useful but needs tuning:
+      1. Label it `capacity-planning::tune-model`,
+      1. Update the due-date to 2 weeks in the future,
+      1. Work on the tamland
+         [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
+        to exclude or tweak the specific saturation signal.
+      * The [Scalability:Observability](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/observability/) team
+        can offer advice on the finer details of the tamland configuration.
+1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
+   The pipeline should run successfuly every day.
+   Investigate and fix any errors or failures.
+1. Check if there are new production tenants not [listed](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/blob/main/tenants.yaml).
+   Update the list as necessary and create corresponding `tenant::` [labels](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/labels?subscribed=&sort=relevance&search=tenant%3A%3A).
+
+When your shift comes to an end,
+create a [handover issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=capacity_planning_handover&issue[title]=Capacity Planning Triage%20handover%20notes%20YYYY-MM-DD)
+assign it to the incoming duty engineer and populate with any information that the incoming shift should know about.
+Let comments/discussions on the specific issues speak for mundane and routine matters, to be reviewed on their due date, but consider noting:
+
+1. Any metrics that were coming close to being a concern but didn't warrant remediation just yet,
+   or that are in some way unusual
+2. Brief comment on any ongoing remediations.
+   Reassign the remediation implementation issues to the incoming duty engineer,
+   unless you want to finish them up yourself or they are assigned to someone else for specific reasons.
+
+Remember to record updates and status comments on each capacity-planning issue when necessary or useful,
+just like you would on a team issue.
+
+Some tips:
+
+1. Forecasts may take several months to become predictable on new tenants.
+   As long as the literal numbers aren't too high,
+   do not be alarmed if the predicted range is wide and tamland is being overly cautious.
+   Putting into `capacity-planning::monitor` state is a good course of action in this situation
+1. Sometimes Tamland will generate alerts for services whose saturation forcast is generally trending downwards,
+   but which Tamland's confidence interval (the light blue area in prediction graphs) still includes the possibility of saturation.
+   Unless you have specific reasons to suspect a real saturation risk,
+   strongly consider tagging the issue as `capacity-planning::monitor` and moving its due date out by 2+ weeks.
+1. Try to get ahead of obvious gradual growth with enough time to take calm action.
+   For example, 1 month of warning for something like Gitaly or Opensearch disk usage is sufficient to schedule an expansion of the storage volumes during upcoming maintenance windows,
+   not in a hurry in response to a pager alert
+1. For items that need to be monitored it is encouraged to attach the current forecast in the comment;
+   the forecast will likely change in place over the following weeks, and the history can be useful.
+1. Look for the component / alert name in the
+   [Capacity Planning Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-tracker/gitlab-dedicated/-/issues) can be a good source of information,
+   as some recurring saturation forecast share the same or similar causes,
+   or just to gain some insight into how these issues have been investigated and resolved in the past.
+1. Trust your instincts.
+   If it looks concerning, raise a remediation issue; they are free, and can easily be closed again after additional input.
+   If it looks fine it probably is,
+   and even if it isn't then there's a rotating schedule of other engineers in the following weeks who can spot something you missed.
+   This process is designed to get warning of things that are coming when possible,
+   not to be a perfect predictor in all cases.
+
 ### Resources
 
 Resources used by the team to conduct work are described on the [Development Resources Page](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/engineering/Dev-resources.md).
