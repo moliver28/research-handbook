@@ -15,11 +15,22 @@ At the outset, it's important to note the diverse composition of our marketing s
 
 1. www-gitlab-com, Buyer Experience, and the Blog generate pages during the build process and upload these artifacts to a single GCP bucket. Upon pipeline execution, all artifacts are consolidated within the `/public` directory on our GCP bucket.
 
-### Alerting
 
-1. The Digital Experience Team receives automatic alerts for 404 incidents flagged by Quantum Metric in our [#dex-alerts](https://app.slack.com/client/E03N1RJJX7C/C04N3EBAR36) Slack channel.
+### What level is this incident?
 
-2. An automated job runs every Friday, generating a issue for all broken links. [Example issue](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3676).
+The following are the questions to consider when determining incident severity:
+
+1. What's the impact level of the marketing site outage?
+1. Have you monitored the #digital-experience-team or #dex-alerts Slack channels for any ongoing incidents?
+1. How extensive is the incident? It's crucial to assess beyond the number of affected individuals, considering:
+    -The total number of impacted users.
+    - The potential impact on various categories of our key stakeholders.
+    - Whether the incident affects significant customers or partners, regardless of the scale.
+1. Are any affected individuals influential among our key audiences or stakeholders?
+1. Does the incident directly affect our core business operations?
+1. Have we encountered a similar incident in the past? In essence, is this a recurring issue for the company?
+1. Is the incident linked to broader industry challenges or trends? Are competitors or others facing similar issues?
+1. Are [vital business pages](https://gitlab-com.gitlab.io/content-sites/handbook/mr5699/handbook/marketing/digital-experience/contentful-cms/#for-top-10-most-visitedimpactful-pages) currently accessible?
 
 ## Incident Matrix
 
@@ -53,62 +64,19 @@ At the outset, it's important to note the diverse composition of our marketing s
 <td></td>
 </tr>
 <tr>
-<td>During working hours: Post in #digital-experience slack channel</td>
-<td>During working hours: Post in #digital-experience slack channel</td>
-<td>During working hours: Post in #digital-experience slack channel</td>
-</tr>
-<tr>
-<td>Outside of working hours: Follow the [steps outlined below] ( Link to the section #outside-of-digital-experience-team-working-hours)</td>
-<td>Outside of working hours: Create an issue and post in #digital-experience-team</td>
-<td>Outside of working hours: Create an issue and post in #digital-experience-team</td>
+<td>See <a href="#reporting-an-incident">reporting an incident below.</a></td>
+<td>Create an issue and post in #digital-experience Slack channel</td>
+<td>Create an issue and post in #digital-experience Slack channel</td>
 </tr>
 </tbody>
 </table>
 
+## Reporting an incident
 
-### What level is this incident?
+**Point person:** [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4) - Working hours: 9am - 6pm Eastern
 
-The following are the questions to consider when determining incident severity:
-
-1. What's the impact level of the marketing site outage?
-1. Have you monitored the #digital-experience-team or #dex-alerts Slack channels for any ongoing incidents?
-1. How extensive is the incident? It's crucial to assess beyond the number of affected individuals, considering:
-  1. The total number of impacted users.
-  1. The potential impact on various categories of our key stakeholders.
-  1. Whether the incident affects significant customers or partners, regardless of the scale.
-1. Are any affected individuals influential among our key audiences or stakeholders?
-1. Does the incident directly affect our core business operations?
-1. Have we encountered a similar incident in the past? In essence, is this a recurring issue for the company?
-1. Is the incident linked to broader industry challenges or trends? Are competitors or others facing similar issues?
-1. Are vital business pages currently accessible?
-
-## During Digital Experience Team Working Hours
-
-**Point person:** [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4)
-
-Eastern Timezone (UTC−5)
-
-Working hours: 9am - 6pm Eastern
-
-1. The DEX team is spread across North American time zones. Regular working hours span from 6am - 5:30pm Pacific (Convert to local timezone [here](https://www.timeanddate.com/worldclock/converter.html)).
-2. If you experience any issues related to our CMS that require immediate attention, please post in [#digital-experience-team](https://gitlab.enterprise.slack.com/archives/CN8AVSFEY) and tag the following people:
-    1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
-    2. [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4)
-    3. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
-    4. [Laura Duggan](https://gitlab.enterprise.slack.com/archives/D01H18BBUTW)
-3. You can expect a response within minutes.
-4. All marketing site incidents related issues will be an immediate priority.
-
-## Outside Of Digital Experience Team Working Hours
-
-**Point person:** [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4)
-
-Eastern Timezone (UTC−5)
-
-Working hours: 9am - 6pm Eastern
-
-1. The DEX team is spread across North American time zones. Regular working hours span from 6am - 5:30pm Pacific (Convert to local timezone [here](https://www.timeanddate.com/worldclock/converter.html)).
-2. If your issue occurs +/- 2hrs of our working hours, please text (phone numbers are available in Slack profiles) the following people based on timezone
+1. Post in the #digital-experience Slack channel and tag @digital-experience.
+1. If there is no response within five minutes, please text or phone the following people:
     1. Eastern Timezone (UTC−5):
         1. [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4)
         2. [Laura Duggan](https://gitlab.enterprise.slack.com/archives/D01H18BBUTW)
@@ -116,12 +84,6 @@ Working hours: 9am - 6pm Eastern
         1. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
     3. Pacific Timezone (UTC−8):
         1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
-3. If the issue occurs outside of our working hours, please post in our Slack channel at #digital-experience-team
-    1. GitLab team members who may be able to assist via Slack include:
-        1. [Hanif Smith-Watson](https://gitlab.enterprise.slack.com/team/U014T1XSKT6) (UK, UTC +0)
-        2. [Gonzalo Servat](https://gitlab.enterprise.slack.com/team/U02QHDGTTD2) (Australia, UTC+10)
-        3. [Nick Veenhof](https://gitlab.enterprise.slack.com/team/U03BDC9MVKR) (Belgium, UTC +1)
-4. If you have to wait for a Digital Experience team member to come online, you could create an issue using this template that details the problem which will get a headstart: https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new
 
 ## If there is a critical stop business 
 
@@ -131,3 +93,10 @@ Please text the following in order (numbers are in Slack profiles):
 1. [Carrie Maynard](https://gitlab.enterprise.slack.com/archives/D03RZD1F2JV)
 
 _Call on the phone if no response within 15 minutes_
+
+## **Coming soon** - PagerDuty + GitLab Incidents
+
+1. Post in the #digital-experience Slack channel and tag @digital-experience.
+2. If there is no response within five minutes, report an incident by typing `/dex incident` anywhere in Slack.
+3. This will create an incident and notify PagerDuty to alert members of the Digital Experience team.
+4. PagerDuty will continuously escalate until contact with a team member has been made.
