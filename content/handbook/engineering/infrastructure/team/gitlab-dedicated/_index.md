@@ -533,7 +533,7 @@ Scoped workaround labels are intended to track temporary workarounds applied to 
 
 We operate a Capacity Planning rota,
 which switches on a fortnightly basis amongst all on-call SRES,
-with the schedule managed in [PagerDuty](https://gitlab.pagerduty.com/schedules#PTODO).
+with the schedule managed in [PagerDuty](https://gitlab.pagerduty.com/schedules#PAP8TMH).
 The goal is to give ourselves the best chance of resolving impending saturation events
 *before* they become a customer-impacting incident
 It is based on statistical modelling and human interpretation,
@@ -570,7 +570,7 @@ At the start of each work week while you are on duty:
    * If you assess that it warrants active action in the near future and is not already `capacity-planning::in-progress`:
       1. Label it `~capacity-planning:in-progress`,
       1. Add or update the due date to next week, and
-      1. Create a remediation [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=saturation_risk) - TODO: create template, and labels.
+      1. Create a remediation [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=saturation_risk)
       * Take into consideration whether we have existing remediation options
         (e.g performance-based overlays, or entire reference architecture upsizing)
         or if we will need to add capabilities to handle the particular saturation problem.
@@ -607,7 +607,7 @@ At the start of each work week while you are on duty:
    Update the list as necessary and create corresponding `tenant::` [labels](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/labels?subscribed=&sort=relevance&search=tenant%3A%3A).
 
 When your shift comes to an end,
-create a [handover issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/new?issuable_template=Handover&issue[title]=Triage%20handover%20notes%20YYYY-MM-DD) (TODO: create template),
+create a [handover issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=capacity_planning_handover&issue[title]=Capacity Planning Triage%20handover%20notes%20YYYY-MM-DD)
 assign it to the incoming duty engineer and populate with any information that the incoming shift should know about.
 Let comments/discussions on the specific issues speak for mundane and routine matters, to be reviewed on their due date, but consider noting:
 
