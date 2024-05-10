@@ -106,7 +106,7 @@ markup:
 
 security:
   funcs:
-    getenv: [ "^HUGO_", "PERISCOPE_EMBED_API_KEY", "PRODUCT_ANALYTICS_APP_KEY", "PRODUCT_ANALYTICS_HOST" ]
+    getenv: [ "^HUGO_", "PERISCOPE_EMBED_API_KEY", "PRODUCT_ANALYTICS_APP_KEY", "PRODUCT_ANALYTICS_HOST", "PUBLIC_HANDBOOK_REF" ]
 
 canonifyURLs: true
 pluralizeListTitles: false
