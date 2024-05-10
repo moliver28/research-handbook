@@ -15,7 +15,7 @@ We interface with the Gitaly and Code Review teams, and work closely with the [C
 
 The following people are permanent members of the Create:Source Code BE Team:
 
-{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Code Review" team=".*Backend.*Create:Source Code" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*Backend.*Create:Source Code" >}}
 
 ## Stable Counterparts
 
