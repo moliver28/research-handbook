@@ -531,7 +531,7 @@ Scoped workaround labels are intended to track temporary workarounds applied to 
 
 ### Capacity Planning
 
-We operate a Capacity Planning rota,
+We operate a Capacity Planning rotation,
 which switches on a fortnightly basis amongst all on-call SRES,
 with the schedule managed in [PagerDuty](https://gitlab.pagerduty.com/schedules#PAP8TMH).
 The goal is to give ourselves the best chance of resolving impending saturation events
