@@ -23,14 +23,14 @@ The following are the questions to consider when determining incident severity:
 1. What's the impact level of the marketing site outage?
 1. Have you monitored the #digital-experience-team or #dex-alerts Slack channels for any ongoing incidents?
 1. How extensive is the incident? It's crucial to assess beyond the number of affected individuals, considering:
-  1. The total number of impacted users.
-  1. The potential impact on various categories of our key stakeholders.
-  1. Whether the incident affects significant customers or partners, regardless of the scale.
+    -The total number of impacted users.
+    - The potential impact on various categories of our key stakeholders.
+    - Whether the incident affects significant customers or partners, regardless of the scale.
 1. Are any affected individuals influential among our key audiences or stakeholders?
 1. Does the incident directly affect our core business operations?
 1. Have we encountered a similar incident in the past? In essence, is this a recurring issue for the company?
 1. Is the incident linked to broader industry challenges or trends? Are competitors or others facing similar issues?
-1. Are vital business pages currently accessible?
+1. Are [vital business pages](https://gitlab-com.gitlab.io/content-sites/handbook/mr5699/handbook/marketing/digital-experience/contentful-cms/#for-top-10-most-visitedimpactful-pages) currently accessible?
 
 ## Incident Matrix
 
@@ -64,7 +64,7 @@ The following are the questions to consider when determining incident severity:
 <td></td>
 </tr>
 <tr>
-<td>See [reporting an incident](https://handbook.gitlab.com/handbook/marketing/digital-experience/incident-response-playbook/#reporting-an-incident) below.</td>
+<td>See <a href="https://handbook.gitlab.com/handbook/marketing/digital-experience/incident-response-playbook/#reporting-an-incident">reporting an incident below.</a></td>
 <td>Create an issue and post in #digital-experience Slack channel</td>
 <td>Create an issue and post in #digital-experience Slack channel</td>
 </tr>
@@ -79,7 +79,7 @@ The following are the questions to consider when determining incident severity:
 1. If there is no response within five minutes, report an incident by typing `/gitlab incident declare` anywhere in Slack.
 2. Inside the pop-up, select the `gitlab-com/marketing/digital-experience/buyer-experience` project from the dropdown, and fill in the required fields.
 3. This will create an incident and notify PagerDuty to alert members of the Digital Experience team.
-4. PagerDuty will continuely escalate until contact with a team member has been made.
+4. PagerDuty will continuously escalate until contact with a team member has been made.
 
 ## If there is a critical stop business 
 
