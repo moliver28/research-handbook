@@ -547,7 +547,7 @@ The overall flow of work is to assess any new reported saturation risks,
 and re-review any which are due to be looked at again.
 If there is an apparent risk of saturation,
 initiate further assessment for potential remediation action,
-and manage any such ongoing efforts during your shift.
+and actively manage any such ongoing issues that are assigned to you.
 
 At the start of your shift review the
 [handover issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Handover)
