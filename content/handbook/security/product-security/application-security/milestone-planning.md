@@ -67,8 +67,9 @@ Any issue being worked on by an Application Security team member must include:
 
 | Label | Purpose |
 | --- | --- |
-| `workflow::planned` | Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone |
-| `workflow::in-progress` | Indicates the issue is actively being worked on, or the rotation is in progress |
+| `AppSecWorkflow::planned` | Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone |
+| `AppSecWorkflow::in-progress` | Indicates the issue is actively being worked on, or the rotation is in progress |
+| `AppSecWorkflow::complete` | Indicates the work is done, or the rotation has finished |
 
 ### Rotations
 
