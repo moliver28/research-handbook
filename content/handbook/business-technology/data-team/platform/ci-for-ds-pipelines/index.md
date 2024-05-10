@@ -116,11 +116,11 @@ Let's take a detailed look at the repository (**Code -> Repository**):
       - Create the following new CI Variables (**Settings -> CI/CD -> Variables -> Add New Variable**):
          - `MLFLOW_TRACKING_TOKEN`: For the value, enter the project access token value created above.
          - `MLFLOW_TRACKING_URI`: For the value, use the GitLab API MLFlow endpoint as outlined in the MLFlow instructions above. It should look something like: `https://gitlab.com/api/v4/projects/<your_project_id>/ml/mlflow`. Project ID can be found in **Settings -> General**
-         - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches
+         - ***Note:*** For all varibles, untick the "Protect Variable" flag to enable experiment tracking on unprotected branches. Tick "Mask variable" to prevent the value from showing in the logs.
     - Write Model Metrics to Merge Request
        - Create the following new CI/CD Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
-         - `REPO_TOKEN`: For the value, enter the project access token value created above.
-         - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches ![Create CI Variables](create_ci_variables.png)
+         - `REPO_TOKEN`: For the value, enter the project access token value created above. 
+         - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches. Tick "Mask variable" to prevent the value from showing in the logs. ![Create CI Variables](create_ci_variables.png)
 1. Now, let's make some changes to activate our training pipeline:
 1. Create a new branch (**Code -> Branches -> New Branch**)
      - <img src="new_branch.png" width="500">
@@ -186,8 +186,8 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 1. Optional (but recommended) Wiki Configurations:
    - This allows you to log your scheduled runs to the GitLab [Project Wiki](https://docs.gitlab.com/ee/user/project/wiki/).
    - Create a new CI/CD Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
-         - `API_ENDPOINT`: For the value, use the GitLab API endpoint (will be similar to the `MLFLOW_TRACKING_URI` set up during training) using the following format: `https://gitlab.com/api/v4/projects/<your_project_id>`. Project ID can be found in **Settings -> General**
-         - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches
+      - `API_ENDPOINT`: For the value, use the GitLab API endpoint (will be similar to the `MLFLOW_TRACKING_URI` set up during training) using the following format: `https://gitlab.com/api/v4/projects/<your_project_id>`. Project ID can be found in **Settings -> General**.
+      - **Note:** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches
 1. Configure your runner:
      - GPU runners are available for Premium and Ultimate users. If enabled, edit `.gitlab-ci.yml` and change the value of `SCORE_RUNNER` to a GPU runner (i.e. `saas-linux-medium-amd64-gpu-standard`). 
      - The default value, `saas-linux-small-amd64`, will work for all account types.
@@ -197,7 +197,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - For the commit message enter `score notebooks/scoring_example.ipynb`. This will tell the GitLab that you want to execute the `score-commit-activated`` CI pipeline on the **scoring_example.ipynb** notebook found in the notebooks directory. Commit the change.
    - Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the scoring CI pipeline for the newly created MR.
    - Click on "**Pipelines**" and you should see the scoring pipeline running. Click into the pipeline to see which which stage the pipeline is in.
-   - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Scoring Pipeline Jobs](scoring_pipeline_jobs.png)
+   - **Note:** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Scoring Pipeline Jobs](scoring_pipeline_jobs.png)
    - Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request). This is the same process you would have seen during training, except it is now writting out descriptives about the scored dataset.
 1. We can also set the model to score at a defined time using Pipeline Schedules
    - Nagivate to **Build -> Pipeline schedules -> New schedule**
