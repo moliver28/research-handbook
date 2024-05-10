@@ -258,17 +258,11 @@ This team member will have the following responsibilities for the milestone in a
 
 #### Rotation Schedule
 
+** Program Paused **
+
 | Milestone | Front-line Responder | Refinement Coordinator | Community Coordinator |
 | --------- | -------------------- | ---------------------- | --------------------- |
-| 16.11 | Panos | Max | José |
-| 17.0 | Tian | Marius | Panos |
-| 17.1 | Drew | Payton | Hordur |
-| 17.2 | Allison | Drew | Marius |
-| 17.3 | Payton | José | Drew |
-| 17.4 | Hordur | Allison | Payton |
-| 17.5 | Marius | Panos | Max |
-| 17.6 | Max | Tian | Allison |
-| 17.7 | José | Hordur | Tian |
+
 
 
 ## Stable Counterparts
