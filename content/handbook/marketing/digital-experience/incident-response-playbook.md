@@ -64,7 +64,7 @@ The following are the questions to consider when determining incident severity:
 <td></td>
 </tr>
 <tr>
-<td>See <a href="https://handbook.gitlab.com/handbook/marketing/digital-experience/incident-response-playbook/#reporting-an-incident">reporting an incident below.</a></td>
+<td>See <a href="#reporting-an-incident">reporting an incident below.</a></td>
 <td>Create an issue and post in #digital-experience Slack channel</td>
 <td>Create an issue and post in #digital-experience Slack channel</td>
 </tr>
@@ -76,10 +76,14 @@ The following are the questions to consider when determining incident severity:
 **Point person:** [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4) - Working hours: 9am - 6pm Eastern
 
 1. Post in the #digital-experience Slack channel and tag @digital-experience.
-1. If there is no response within five minutes, report an incident by typing `/gitlab incident declare` anywhere in Slack.
-2. Inside the pop-up, select the `gitlab-com/marketing/digital-experience/buyer-experience` project from the dropdown, and fill in the required fields.
-3. This will create an incident and notify PagerDuty to alert members of the Digital Experience team.
-4. PagerDuty will continuously escalate until contact with a team member has been made.
+1. If there is no response within five minutes, please text or phone the following people:
+    1. Eastern Timezone (UTC−5):
+        1. [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4)
+        2. [Laura Duggan](https://gitlab.enterprise.slack.com/archives/D01H18BBUTW)
+    2. Central Timezone (UTC−6):
+        1. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
+    3. Pacific Timezone (UTC−8):
+        1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
 
 ## If there is a critical stop business 
 
@@ -89,3 +93,10 @@ Please text the following in order (numbers are in Slack profiles):
 1. [Carrie Maynard](https://gitlab.enterprise.slack.com/archives/D03RZD1F2JV)
 
 _Call on the phone if no response within 15 minutes_
+
+## **Coming soon** - PagerDuty + GitLab Incidents
+
+1. Post in the #digital-experience Slack channel and tag @digital-experience.
+2. If there is no response within five minutes, report an incident by typing `/dex incident` anywhere in Slack.
+3. This will create an incident and notify PagerDuty to alert members of the Digital Experience team.
+4. PagerDuty will continuously escalate until contact with a team member has been made.
