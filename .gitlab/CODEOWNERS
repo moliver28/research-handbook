@@ -32,7 +32,6 @@
 /content/handbook/about/ @gitlab-com/content-sites
 /content/handbook/content-websites/ @gitlab-com/content-sites
 /content/handbook/editing-handbook/ @gitlab-com/content-sites
-/content/handbook/markdown-guide/ @gitlab-com/content-sites
 
 ^[Acquisitions]
 /content/handbook/acquisitions/ @eliran.mesika
