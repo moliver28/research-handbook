@@ -154,13 +154,13 @@
 /content/handbook/engineering/development/ops/verify/pipeline-security/ @shampton
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
 /content/handbook/engineering/development/sec/ @twoodham @pcalder
-/content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @pcalder
+/content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @pcalder @ryaanwells
 /content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
 /content/handbook/engineering/development/sec/govern/authentication.md @adil.farrukh
 /content/handbook/engineering/development/sec/govern/authorization.md @jayswain
 /content/handbook/engineering/development/sec/govern/compliance.md @nrosandich
 /content/handbook/engineering/development/sec/govern/security-policies/ @alan
-/content/handbook/engineering/development/sec/govern/threat-insights.md @nmccorrison @pcalder
+/content/handbook/engineering/development/sec/govern/threat-insights.md @nmccorrison @ryaanwells
 /content/handbook/engineering/development/sec/secure/ @twoodham
 /content/handbook/engineering/development/sec/secure/composition-analysis.md @thiagocsf @gonzoyumo @fcatteau
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
