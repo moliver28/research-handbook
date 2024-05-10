@@ -82,7 +82,13 @@ The timeline for each quarter is as follows. A detailed calendar with DRIs and p
 
 ## Trading Window
 
-We anticipate that our quarterly trading window will open the third trading day after the announcement of our quarterly results and that it will close again immediately prior to the last four weeks of the fiscal quarter, as indicated by an announcement made by the CLO. However, it is important to note that any quarterly trading window may be cut short if the CLO determines that material nonpublic information exists in such a fashion that it would make trades by directors, employees, and consultants inappropriate.
+We anticipate that our quarterly trading window will open the third trading day after the
+announcement of our quarterly results and that it will close again immediately prior to the last
+four weeks of the fiscal quarter, as indicated by an announcement made by the CLO. However, it is
+important to note that any quarterly trading window may be cut short if the CLO determines that
+material nonpublic information exists in such a fashion that it would make trades by directors,
+team members, and consultants inappropriate. Historical financial result release dates can be
+located on our [Investor Relations page](https://ir.gitlab.com/financial-information/quarterly-results).
 
 ## Investor Meetings
 
