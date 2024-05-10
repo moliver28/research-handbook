@@ -11,14 +11,14 @@ description: "How to Engage with Infrastructure Analyst"
 
 
 
-----
+---
 
 ## Overview
 
 [Infrafin Board](https://gitlab.com/groups/gitlab-com/-/boards/1502173?label_name%5B%5D=infrafin)
 {:.btn .btn-purple}
 
-[#infrafin slack channel](https://gitlab.slack.com/messages/infrafin/) 
+[#infrafin slack channel](https://gitlab.slack.com/messages/infrafin/)
 {:.btn .btn-purple}
 
 ## Overview
@@ -33,4 +33,4 @@ This is great to hear! Please start by first doing some initial work on your own
 Once you have done that, reach out in #infrafin or schedule a 1hr intro call directly with an infrastructure analyst. We may not use the whole hour, but we want as much time as possible in the first meeting to go over all the various aspects of the product and start narrowing down how we want to go about understanding the cost. From this meeting we will come up with an action plan for you to get the insights you need.
 
 ### I would like to see a new group or service level cost metric
-Open an issue on the engineering metrics board or ask in #infrafin slack channel and mention an infrastructure analyst. They will work with you to get the requirements for the metric. If the data is already available the work will mostly just require collaboration around solidfying the metric definition. If the data does not exist, a longer process will be required to first make creating the metric possible, such as potentially labelling the infrastructure or somehow enabling better tracking in the product to see the metric. 
+Open an issue on the engineering metrics board or ask in #infrafin slack channel and mention an infrastructure analyst. They will work with you to get the requirements for the metric. If the data is already available the work will mostly just require collaboration around solidfying the metric definition. If the data does not exist, a longer process will be required to first make creating the metric possible, such as potentially labelling the infrastructure or somehow enabling better tracking in the product to see the metric.

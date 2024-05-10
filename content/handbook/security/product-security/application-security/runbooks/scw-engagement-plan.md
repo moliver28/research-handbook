@@ -33,7 +33,7 @@ Developer = Backend + Frontend Engineers. See [Org Chart](https://comp-calculato
 - 25% of developers participate in the semi-annual tournament
 - 50% of developer accounts are spending at least an hour in the platform each month
 
-### Later:
+### Later
 
 - 75% of developers in high risk teams ("high risk" is defined as teams or groups that see the most amount of vulnerabilities reported in their part of the application in a given year) have completed one course, per year, in SCW
 

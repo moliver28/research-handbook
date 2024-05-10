@@ -70,7 +70,7 @@ To find our stable counterparts, look at the Pipeline Authoring [product categor
 
 #### Cross-functional prioritisation
 
-UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation. 
+UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation.
 
 #### Design Collaboration
 
@@ -261,7 +261,7 @@ If an issue misses the milestone, it is automatically assigned the `missed` labe
 the issue was originally targeting a later milestone. Be sure to leave a comment explaining why the label was removed.
 Additionally, if the team member is confident it will make the next milestone, they can update the milestone to match, even if it has not started yet.
 
-#### Using Verify::Cancel label when an issue is canceled.
+#### Using Verify::Cancel label when an issue is canceled
 
 Sometimes, we have issues that were originally created to be worked on and after analysis or change in direction of the issue, we decide that the issue is no longer needed. Additionally, we may also encounter issues that were addressed previously in other MRs. In these cases, use the `Verify::Cancel` label to make it clear that the issue was closed due to no longer being desired or needed, not due to being completed.
 

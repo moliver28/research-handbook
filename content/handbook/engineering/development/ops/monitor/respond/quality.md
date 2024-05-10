@@ -10,7 +10,7 @@ title: Group Respond - GitLab End-to-End (E2E) Testing for group Respond
 
 
 
-## Overview:
+## Overview
 
 The goal of this page is to summarize how Respond group can use our existing
 [GitLab QA framework](https://gitlab.com/gitlab-org/gitlab-qa) to run and/or implement
@@ -48,7 +48,7 @@ in our CI (MR pipelines, and pipelines for E2E tests against master - see [#qa-m
 **Note:** Orchestrated tests are not run in dotcom(s) because we cannot control the configuration of these
 environments.
 
-## FAQ:
+## FAQ
 
 #### 1. How to run orchestrated test?
 

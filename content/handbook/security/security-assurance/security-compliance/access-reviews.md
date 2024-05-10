@@ -7,7 +7,7 @@ controlled_document: true
 
 GitLab's user access review is an important control activity required for internal and external IT audits, helping to minimize threats and provide assurance that the right people have the right access to critical systems and infrastructure. This procedure details process steps and provides control owner guidance for access reviews.
 
-### Benefits to the organization:
+### Benefits to the organization
 
 - Reduces security risk
 - Identifies dormant and/or disabled accounts
@@ -61,7 +61,7 @@ In the event access is identified to no longer be required, open an [Access Remo
 
 If you have any questions or require assistance with completing an access review, please [contact the GitLab Security Compliance team]({{< ref "../security-compliance" >}}).
 
-### Annual Access Review Cadence:
+### Annual Access Review Cadence
 
 - Tier 1
     - Quarterly Terminated User Access Reviews
@@ -152,7 +152,7 @@ The following fields are the most comprehensive to assist in performing a thorou
 - If a query was used to generate the list, please provide the query along with a screenshot of system used to pull data, e.g. PostgreSQL query window, making sure screenshot evidences date/time query was run and raw row count. This will be used to evidence completeness of the population.
 - To evidence completeness and accuracy, where technically feasible, include a row count or a screen shot of the row count or the generated file hash.
 
-#### How to provide a desktop timestamp screenshot:
+#### How to provide a desktop timestamp screenshot
 
 1. Please make sure that your workstation system clock (date and time) is visible in your screenshots.
 

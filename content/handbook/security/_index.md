@@ -136,7 +136,7 @@ Security Program Management is responsible for complete overview and driving sec
 
 In keeping with our [core values]({{< ref "values" >}}) and the belief that [everyone can contribute]({{< ref "mission#everyone-can-contribute" >}}), the Security Division is committed to [dogfooding]({{< ref "values#dogfooding" >}}) and contributing to the development of the GitLab product.
 
------
+---
 
 ### <i id="biz-tech-icons" class="fas fa-users"></i> Contacting the Team
 
@@ -208,7 +208,7 @@ handled by the Security Division.
 
 For an overview of the communication and response process for a suspected ransomware attack, please see our [Responding to Ransomware]({{< ref "responding-to-ransomware" >}}) page.
 
------
+---
 
 ### Important topics
 

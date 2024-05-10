@@ -18,7 +18,7 @@ The Field Security team is tasked with providing high levels of security assuran
 - Providing recommendations based on customer security concerns in support of revenue growth through the annual [Field Security Study]({{< ref "field-security-study" >}}) and participation in the [Quarterly Business Review](https://about.gitlab.com/handbook/sales/qbrs/) Process.
 - Building the GitLab Security brand by improving internal and external awareness of GitLab's security practices and the security of our platform. Engaging with customers and prospects through [Evangelism Activities]({{< ref "evangelism" >}}) and with internal stakeholders via the [Field Security Sales Training Program]({{< ref "fsstp" >}}).
 
-----
+---
 
 ## <i id="biz-tech-icons" class="fas fa-tasks"></i>Metrics and Measures of Success
 

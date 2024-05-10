@@ -1117,7 +1117,7 @@ This has been implemented by creating 4 main DAGs (one per schedule) consisting 
 
 The code for the dags can be found in the [Sales Analytics Dags in the gitlab-data/analytics project](https://gitlab.com/gitlab-data/analytics/-/tree/master/dags/sales_analytics).
 
-#### Example:
+#### Example
 
 Currently, under the `/daily/` notebooks we have [one sample notebook and its corresponding query](https://gitlab.com/gitlab-data/analytics/-/tree/master/sales_analytics_notebooks/daily).
 

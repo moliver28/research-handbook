@@ -150,7 +150,7 @@ Meanings and usage
     - Is used to denote the status of an issue as being reviewed to go into the working pipeline
     - Does not denote the timeline it will be worked on
 - `mktg-status::plan`
-    - Is used to denote the status of an issue as having being reviewed for all details needed 
+    - Is used to denote the status of an issue as having being reviewed for all details needed
     - No milestone nor assignee attached to the issue
     - Does not denote the timeline it will be worked on
 - `mktg-status::WIP`
@@ -161,7 +161,7 @@ Meanings and usage
                 - A weight of one is *half a day*
                 - As weights start to get bigger than 4,  we recommend chunking it down further
             - One Asignee
-                - We actively encourage only assigning one person to an issue. You may tag other affected parties within the issue itself by using @username within the issue thread. 
+                - We actively encourage only assigning one person to an issue. You may tag other affected parties within the issue itself by using @username within the issue thread.
 - `mktg-status::blocked`
     - Is used to denote the status of an issue as not having enough information to proceed
     - Does not denote the timeline it will be worked on
@@ -284,7 +284,7 @@ This is how we work with Issues and their scope
 
 ## Issue Templates
 
-#### External:
+#### External
 
 (outside of Inbound Marketing):
 
@@ -300,7 +300,7 @@ This is how we work with Issues and their scope
     - Template has auto-assignees
     - Links to Handbook page for additional information
 
-#### Internal:
+#### Internal
 
 (inside of Inbound Marketing):
 

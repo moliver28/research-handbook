@@ -29,9 +29,9 @@ I'm passionate about life itself. I love learning new things, preferably on a da
 
 * Whenever I'm not behind a computer, I try to find any excuse to be outdoors, living life dynamically in many different ways. I like :palm_tree: [Slacklining](https://en.wikipedia.org/wiki/Slacklining), :surfer: [Kitesurfing](https://en.wikipedia.org/wiki/Kiteboarding), :dog: :snowboarder: [Dogsurfing](https://vimeo.com/258229614), :mount_fuji: [Climbing](https://en.wikipedia.org/wiki/Climbing). I'm an adept of the :monkey: [Movement Culture](http://www.idoportal.com/).
 
-* I have many :musical_note: musical instruments, and try to find time in between all other activities to explore musicality as much as I can. 
+* I have many :musical_note: musical instruments, and try to find time in between all other activities to explore musicality as much as I can.
 
-* My most recent passion is Carpentry :hammer:; I really feel like human beings are meant to construct their own structures. I love setting out time to plan, design and build practical things, from chairs, tables and shelfs all the way to small houses and shelers. 
+* My most recent passion is Carpentry :hammer:; I really feel like human beings are meant to construct their own structures. I love setting out time to plan, design and build practical things, from chairs, tables and shelfs all the way to small houses and shelers.
 
 * Here are a couple of things I like doing _every day_:
   - Going for a walk :runner:
@@ -45,15 +45,15 @@ I'm passionate about life itself. I love learning new things, preferably on a da
 
 - I currently live in the beautiful Netherlands, but I'm originally from Brazil.
 - I am a 'sea' person. I'm the happiest version of myself when on walking distance from a seashore.
-- Two of my best friends are actually not human. I spend dumb amounts of time with my two dogs, Kiss and Ravi: 
+- Two of my best friends are actually not human. I spend dumb amounts of time with my two dogs, Kiss and Ravi:
 
 ![Kiss and Ravi](img/kiss-and-ravi.jpg "Kiss and Ravi")
 
-## Things I don't care about you:
+## Things I don't care about you
 
 Your age, skin color, political beliefs, religious beliefs, sexual orientation, alma mater, past mistakes, how much you earn.
 
-## Things I care about you:
+## Things I care about you
 
 Your integrity, who you are today, whether you try to make society a better place, the things you care about.
 

@@ -65,10 +65,10 @@ If you like, you may assign a priority label to your request. A geo team member 
 
 | Priority | Typically used for | Expected first response time |
 | ---      | ---   |  ------  |
-| P4 		 | General questions that can't be answered on slack by Geo engineers of the top of their heads and will require a bit more investigation. | 2-3 days |
-| P3 		 | Customer problems that are not time sensitive (i.e. they have an easy work around) or scheduling time to engage with the customer in the future for them to achieve their goals. | 1 day |
-| P2 		 | Customer problems that are somewhat time sensitive and are blocking decisions or progress to be made on the customer side. | 1/2 day |
-| P1 		 | Fires and emergencies that the customer is experiencing | 1-2 hours |
+| P4          | General questions that can't be answered on slack by Geo engineers of the top of their heads and will require a bit more investigation. | 2-3 days |
+| P3          | Customer problems that are not time sensitive (i.e. they have an easy work around) or scheduling time to engage with the customer in the future for them to achieve their goals. | 1 day |
+| P2          | Customer problems that are somewhat time sensitive and are blocking decisions or progress to be made on the customer side. | 1/2 day |
+| P1          | Fires and emergencies that the customer is experiencing | 1-2 hours |
 
 \* Response times are based on weekdays (excluding holidays) within regular business hours in the time zones that team members are located.
 

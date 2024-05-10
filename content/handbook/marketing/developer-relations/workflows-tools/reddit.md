@@ -13,7 +13,7 @@ title: "Reddit response workflow"
 
 The [r/gitlab](https://www.reddit.com/r/gitlab/) subreddit is a place for questions, discussion, and support on all things GitLab.  To request user flair for the GitLab subreddit, ping `@devrel-team` in the `#developer-relations` Slack channel, and include your Reddit username. Your flair will read `GitLab Staff`.
 
-## Subreddit Flairs:
+## Subreddit Flairs
 
 There are 3 post flairs in the GitLab subreddit - general question, support, and project.
 

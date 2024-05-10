@@ -239,7 +239,7 @@ In order to rank accounts each Enterprise Sales rep would update the 'Account Ra
 
 [The Account Ranking Guide](https://docs.google.com/document/d/1u2Dg_jorRi_tgcC_2L-FjAmEqnMya76bvZ6WmAt4qGA/edit) can be used to help the Strategic Account Executive focus on a cadence to target each Account Rank.
 
-#### Definitions for Enterprise Account Ranking:
+#### Definitions for Enterprise Account Ranking
 
 - **Rank 1** highest priority accounts that require both sales focus, sales development, and marketing support in the next quarter. These are the accounts reviewed in QBR's each quarter by sales and include both Land and Expand accounts.
 - **Rank 2** accounts that match our ICP and should be a focus for sales and marketing in the current FY but are not a Rank 1 account. Should include both Land and Expand.
@@ -325,7 +325,7 @@ Contact Ownership follows the rules as laid out below. Contact ownership cannot 
    - Non-Customer Accounts
       - BDR (If present otherwise AE)
 - SMB Accounts (Sales Segment = SMB)
-    - AE 
+    - AE
 
 AE’s should use the following views to manage their contacts:
 

@@ -4,7 +4,7 @@ description: Support Operations policies page for labels and issue boards
 canonical_path: "/handbook/support/readiness/operations/docs/policies/labels_and_issue_boards"
 ---
 
-## How we use GitLab Labels:
+## How we use GitLab Labels
 
 The Support Readiness-Operations team uses labels to help us categorize and manage our work.
 

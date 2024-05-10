@@ -114,7 +114,7 @@ ESPP Calendar for Offering periods can be found at [ESPP Training Deck](https://
 
 On the respective Purchase Dates at the end of each Purchase Period. Only whole shares can be purchased.  Purchase dates are normally May 31 and November 30 of each year.
 
-### Other ESPP references:
+### Other ESPP references
 
 - [ESPP FAQs](https://docs.google.com/document/d/1Be1gz-_iGGNjuOku7N4ipnEFhGLfbxOZp68PEcoXUYU/edit)
 - [ESPP/RSU Vesting AMA](https://docs.google.com/document/d/1ELjTI_X29KKpmO1AuI8IMXW8oNqnKexy2jRs8T-SiLE/edit#)
@@ -181,7 +181,7 @@ For trading in an open trading window, please find the following instructions fo
 If you would like to purchase GTLB shares, this must be done through your E*TRADE retail account during an open trading window. We would ask that you send us a message at stockadmin@gitlab.com as we will need to get consent from you to track your GTLB retail shares.
 
 
-## Questions about your stock plan or retail account:
+## Questions about your stock plan or retail account
 
 ### E-TRADE Securities Customer Service 12 a.m. Monday to 11:59 p.m. Friday ET   Closed holidays  (800-838-0908)
 

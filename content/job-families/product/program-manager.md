@@ -4,11 +4,11 @@ description: "This role supports cross-division initaitives across PM, UX, Engin
 ---
 ## Technical Program Management Context and Mission
 
-### Context:
+### Context
 
 As we incorporate more program management functions at GitLab, we want to ensure our role, vision, and responsibilities are clear. There are currently Program Managers in Product, IT, Infrastructure within the R&D, along with other areas of the business. We want to ensure there are clear boundaries for each of these program managers and work cross-functionally to align on best practices, process, and overall efficiency across the various programs.
 
-### Mission:
+### Mission
 
 Our mission as program managers is to own the execution of cross-functional initiatives that are critical to the business. We lead programs from start to finish to help GitLab meet our organizational goals.
 Program managers develop strategies, evaluate the performance of projects, keep teams organized, and allocate budgets and resources across projects. Program managers may oversee several different teams, all working toward different goals and separate work schedules. We take the lead on tracking project progress, aligning team members, and strategizing program outcomes.
@@ -59,7 +59,7 @@ The role of TPM can mean different things at different organizations. At GitLab,
 
 * Understands organizational systems, architecture, and applications and how they fit together into an enterprise tech stack
 * Connects the dots between upstream decisions and downstream impacts to people, process, and technology
-* Has and or creates domain expertise  
+* Has and or creates domain expertise
 * Applies program management methodologies and best practices, but knows how and when to flex to the project rather than simply following rigid standards.
 
 ## Division Structure

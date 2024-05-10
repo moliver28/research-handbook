@@ -152,12 +152,12 @@ So, good idioms must be consciously acquired.
 While *(almost)* any kind of magic is possible with Python, the most explicit and straightforward manner is preferred. Keep it simple and smart.
 
 ```python
-## Bad!
+## Bad
 def foo(*args):
     x, y = args
     return dict(**locals())
 
-## Good!
+## Good
 def bar(x, y):
     return {'x': x, 'y': y}
 ```
@@ -194,7 +194,7 @@ def foo(a, b, c):
     return x  # One single exit point for the returned value x will help
               # when maintaining the code.
 
-## Good!
+## Good
 def bar(a, b, c):
     res = None
     if not a:
@@ -226,21 +226,21 @@ for index, item in enumerate(foo_list):
 You can use this to swap variables as well:
 
 ```python
-# Good!
+# Good
 a, b = b, a
 ```
 
 Nested unpacking works fine as well:
 
 ```python
-# Good!
+# Good
 a, (b, c) = 1, (2, 3)
 ```
 
 New method of extended unpacking was introduced by `PEP 3132`:
 
 ```python
-## Good!
+## Good
 a, *rest = [1, 2, 3]
 # a = 1, rest = [2, 3]
 a, *middle, c = [1, 2, 3, 4]
@@ -250,13 +250,13 @@ a, *middle, c = [1, 2, 3, 4]
 Ignored variable `_` can be part of unpacking as well:
 
 ```python
-## Bad!
+## Bad
 a, _ , c = [1, 2, 3, 4] # This will raise an error
 
 ## Good! This will work (* is going before _)
 a, *_ , c = [1, 2, 3, 4]
 
-## Good!
+## Good
 _, *rest = [1, 2, 3]
 # rest = [2, 3]
 ```
@@ -267,11 +267,11 @@ _, *rest = [1, 2, 3]
 ## Bad! (if you have more than 3 values)
 a, b, c, d = 1, 2, 3, 4
 
-# Good!
+# Good
 a, b, c = 1, 2, 3
 d = 4
 
-# Better!
+# Better
 a = 1
 b = 2
 c = 3
@@ -287,14 +287,14 @@ This section should expose effective techniques to deal with conventions and how
 It is not needed to explicitly compare a value to True, or None, or 0 – you can just add it to the if statement. See Truth Value Testing for a list of what is considered false.
 
 ```python
-## Bad!
+## Bad
 if attr == True:
     print('True!')
 
 if attr == None:
     print('attr is None!')
 
-## Good!
+## Good
 # Just check the value
 if attr:
     print('attr is truthy!')
@@ -307,7 +307,7 @@ if not attr:
 if attr is None:
     print('attr is None!')
 
-# same goes for dict, list sets:
+# same goes for dict, list sets
 check_list = []
 if check_list:
     print('This is not empty list.')
@@ -323,15 +323,15 @@ There are many ways to do string concatenation. Here is just a short exercise on
 string1 = 'Python'
 string2 = 'Guideline'
 
-## Bad!
+## Bad
 print(string1 + " " + string2)
 # Python Guideline
 
-## Good!
+## Good
 print('{} {}'.format(string1, string2))
 # Python Guideline
 
-## Better!
+## Better
 print(f"{string1} {string2}")
 # Python Guideline
 ```
@@ -343,15 +343,15 @@ As you noticed here, the result is the same, but details make a difference. In t
 string1 = 'Python'
 int1 = 2 # now, this is int
 
-## Bad!
+## Bad
 # print(string1 + " " + int1)
 # TypeError: can only concatenate str (not "int") to str
 
-## Good!
+## Good
 print('{} {}'.format(string1, int1))
 # Python 2
 
-## Better!
+## Better
 print(f"{string1} {int1}")
 # Python 2
 ```
@@ -364,11 +364,11 @@ See why it is better to use placeholders instead of simple string concatenation 
 - `Generator expressions` follows almost the same syntax as list comprehensions but returns a generator instead of a list. This is crucial to remember: performance and memory matter, and it is a great consideration to understand the leverage of using generators where it is appropriate.
 
 ```python
-## Bad!
+## Bad
 # will return a list first and then do the max calculation, the trick is as [] stands for the list
 foo = max([(student.id, student.name) for student in graduates])
 
-## Good!
+## Good
 # will return a generator object first and then do the max calculation till the generator exhausted, the trick is as () stands for the generator object
 bar = max((student.id, student.name) for student in graduates)
 ```
@@ -399,8 +399,8 @@ output_list = [output_exp for var in input_list if (var satisfies this condition
 There are plenty of ways to filter an iterables. Let see some of them and how they fit in a high coding standards.
 
 ```python
-## Bad!
-# Never remove items from a list while you are iterating through it.
+## Bad
+# Never remove items from a list while you are iterating through it
 
 # Filter elements greater than 4
 foo = [3, 4, 5]
@@ -408,14 +408,14 @@ for i in foo:
     if i > 4:
         foo.remove(i)
 
-# Bad!
-## Don’t make multiple passes through the list.
+# Bad
+## Don’t make multiple passes through the list
 
 while i in foo:
     foo.remove(i)
 
-## Good!
-# Use a list comprehension or generator expression.
+## Good
+# Use a list comprehension or generator expression
 
 # comprehensions create a new list object
 filtered_values = [value for value in sequence if value != x]
@@ -423,7 +423,7 @@ filtered_values = [value for value in sequence if value != x]
 # generators don't create another list
 filtered_values = (value for value in sequence if value != x)
 
-## Good!
+## Good
 # you can use function as a filter
 sequence= [1, 2, 3]
 
@@ -441,7 +441,7 @@ As an alternative, `map` | `filter` | `reduce` functions can be used for this pu
 Remember that assignment never creates a new object. If two or more variables refer to the same list, changing one of them changes them all.
 
 ```python
-# Add three to all list members.
+# Add three to all list members
 list_a = [3, 4, 5]
 list_b = list_a  # list_a and list_b refer to the same list object
 
@@ -474,7 +474,7 @@ list_a = [i + 3 for i in list_a]
 Use `enumerate()` keep a count of your place in the list.
 
 ```Python
-## Good!
+## Good
 foo = [3, 4, 5]
 for i, item in enumerate(foo):
     print(i, item)
@@ -491,13 +491,13 @@ for i, item in enumerate(foo):
 Always good advice is to use `context manager` over value assigning when loading data from a file. This approach will automatically close a file for you.
 
 ```python
-## Bad!
+## Bad
 f = open('file.txt')
 a = f.read()
 print(a)
 f.close() # we always forgot something like this.
 
-## Good!
+## Good
 with open('file.txt') as f:
     for line in f:
         print(line)
@@ -509,7 +509,7 @@ with open('file.txt') as f:
 When a logical line of code is longer than the accepted limit, you need to split it over multiple physical lines. The Python interpreter will join consecutive lines if the last character of the line is a backslash. This is helpful in some cases, but should usually be avoided because of its fragility: a white space added to the end of the line, after the backslash, will break the code and may have unexpected results
 
 ```python
-## Bad!
+## Bad
 my_very_big_string = """When a logical line of code is longer than the accepted limit, \
     you need to split it over multiple physical lines. \
     The Python interpreter will join consecutive lines if the last character of the line is a backslash.”"""
@@ -517,7 +517,7 @@ my_very_big_string = """When a logical line of code is longer than the accepted 
 from some.deep.module.inside.a.module import a_nice_function, another_nice_function, \
     yet_another_nice_function
 
-## Good!
+## Good
 my_very_big_string = (
     "When a logical line of code is longer than the accepted limit, "
     "you need to split it over multiple physical lines. "
@@ -534,7 +534,7 @@ Following [PEP8](https://www.python.org/dev/peps/pep-0008/#blank-lines) we recom
 When starting a `for` loop or `if/else` block, add a new line above the section to give the code some breathing room. Newlines are cheap - [brain time is expensive](https://blog.getdbt.com/write-better-sql-a-defense-of-group-by-1/).
 
 ```python
-## Bad!
+## Bad
 def foo(input_number:int) -> int:
     """
     Do some simple comparing
@@ -545,7 +545,7 @@ def foo(input_number:int) -> int:
     else:
          return res ** 2
 
-## Good!
+## Good
 def bar(input_number:int) -> int:
     """
     Do some simple comparing
@@ -573,7 +573,7 @@ def foo(x, y):
 
     return x + y
 
-## Good!
+## Good
 def foo(x: int, y: int) -> int:
     """
     Add two numbers together and return.
@@ -596,7 +596,7 @@ def bar(some_str: str) -> None:
 Imports should follow the [PEP8](https://www.python.org/dev/peps/pep-0008/#imports) rules and furthermore should be ordered with any `import ...` statements coming before `from .... import ...`
 
 ```python
-## Bad!
+## Bad
 from os import environ
 import logging
 
@@ -609,7 +609,7 @@ import sys
 ```
 
 ```python
-## Good!
+## Good
 import logging
 import sys
 from os import environ
@@ -629,7 +629,7 @@ Also, linters should help you with this issue: `iSort`, `mypy`, `flake8`, `pylin
 - Docstrings should use triple double-quotes and use complete sentences with punctuation.
 
 ```python
-## Good!
+## Good
 def foo(x: int, y: int) -> int:
     """
     Add two numbers together and return the result.
@@ -647,7 +647,7 @@ def bar(some_str: str) -> None:
     print(some_str)
     return
 
-## Better! Have Docstring on a module level.
+## Better! Have Docstring on a module level
 """
 This is a Docstrings on a module level.
 Should be handy to describe a purpose of your module
@@ -674,7 +674,7 @@ This allows you to pass in any dictionary and have it be compatible while also n
 import os
 from typing import Dict
 
-## Bad!
+## Bad
 def foo(x: int) -> int:
     """
     Add two numbers together and return.
@@ -683,7 +683,7 @@ def foo(x: int) -> int:
     return x + os.environ["y"]
 foo(1)
 
-## Good!
+## Good
 env_vars = os.environ.copy() # The copy method returns a normal dict of the env vars.
 def bar(some_str: str, another_string: str) -> None:
     """
@@ -694,7 +694,7 @@ def bar(some_str: str, another_string: str) -> None:
 
 bar("foo", env_vars["bar"])
 
-## Better!
+## Better
 def bar(some_str: str, env_vars: Dict[str, str]) -> None:
     """
     Print two strings concatenated together.
@@ -711,10 +711,10 @@ bar("foo", env_vars)
 Ideally, never hardcode the date format using datetime.strptime unless absolutely necessary in cases where the format is very unusual. A better solution is to use the generic date parser in the dateutil library, as it handles a large variety of formats very reliably:
 
 ```python
-## Bad !
+## Bad
 datevar = datetime.strptime(tstamp, timestamp_format = "%Y-%m-%dT%H:%M:%S%z")
 
-## Good !
+## Good
 from dateutil import parser as date_parser
  ...
 datevar = date_parser.parse(tstamp)
@@ -750,15 +750,15 @@ def bar(some_str: str, another_string: str) -> None:
     print(some_str + another_string)
     return
 
-## Good!
+## Good
 bar(some_str="foo", another_string="bar")
 
-## Better!
+## Better
 some_str = "foo"
 another_string = "bar"
 bar(some_str, another_string)
 
-## But Bad!
+## But Bad
 bar(some_str=some_str, another_string=another_string)
 ```
 
@@ -805,13 +805,13 @@ When writing a python class to extract data from an API it is the responsibility
 Avoid use of general `try/except` blocks as it is too broad, and will be difficult to find the real error:
 
 ```python
-## Bad!
+## Bad
 try:
    print("Do something")
 except:
    print("Caught every type of exception")
 
-# Good!
+# Good
 while maximum_backoff_sec > (2 ** n):
     try:
         print("Do something")

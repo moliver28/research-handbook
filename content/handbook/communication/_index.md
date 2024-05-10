@@ -1277,7 +1277,7 @@ To use the "Slack Down!" group chat on Zoom:
 1. Click `+`
 1. Click `Join a Channel`
 1. Search `Slack down!`
-1. Click `Join``
+1. Click `Join`
 
 Once service is restored, go back to Slack.
 
@@ -1325,11 +1325,11 @@ To our knowledge, it is not possible to set the default to **Can Edit** and you 
 | **GitLab (Recommended Default)** | This is the recommended default as it allows anyone within GitLab to easily discover documents via searching for their name within Drive.                                                                 |
 | Restricted                | When the document contains highly sensitive or private information such as 1:1s with direct reports                                                                                                                                    |
 | **Searchable Setting**                    | **Effect**                                                                                                                                                                                             |
-| --------------                        |
+| --------------                        | --------- |
 | Can find in search results. | makes the file available to anyone with a PeppGitLaberdine Google account and discoverable within GitLab Google Drive's search feature. |
 | Must have link to access | makes the file available to anyone with a GitLab Google account who has the link. |
 | **Access Setting**                    | **Use Cases**                                                                                                                                                                                             |
-| --------------                        | ---------                                                                                                                                                                                                 |
+| --------------                        | ---------   |
 | Editor                              | Anyone that can view the document can edit it. This is the recommended setting when **On - GitLab** is enabled for the document                                                                           |
 | Commenter                           | Anyone that can view the document can add a comment but cannot edit the document. This is ideal if you want to provide visibility but retain more fine-grained control of document editing.               |
 | Viewer                                  | Individuals with access to the document will only be able to view it.                                                                                                                                     |

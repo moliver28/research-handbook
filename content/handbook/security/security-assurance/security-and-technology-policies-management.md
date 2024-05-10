@@ -11,7 +11,7 @@ This policy is intended to establish requirements for the creation and managemen
 
 This policy applies to security and technology policies that fall within the scope of GitLab's security compliance audits and assessments.
 
-## Roles & responsibilities:
+## Roles & responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|

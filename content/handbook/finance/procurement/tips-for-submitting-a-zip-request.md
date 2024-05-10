@@ -64,7 +64,7 @@ A Contractor or an Independent Contractor (IC) **is an individual** (not an enti
    - Please make a copy of this tab (if not filled out during a formal RFP), have the vendor complete, and attach in the documents section of your Zip Request for IT review.
 1. If you have any questions regarding the IT Questionnaire, please contact the Enterprise Applications team in the #enterprise-apps slack channel.
 
-#### Other tips for submitting requests:
+#### Other tips for submitting requests
 
 1. Will a virtual card be used to pay this vendor?
    - This applies to instances where the supplier only accepts online credit card payments or for one-time vendor use such as events. More info on allowed uses [here](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/)

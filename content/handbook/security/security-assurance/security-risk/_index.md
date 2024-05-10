@@ -8,7 +8,7 @@ To drive security risk treatment at GitLab by empowering teams to make informed 
 
 ## <i class="far fa-lightbulb" style="color:rgb(110,73,203)" aria-hidden="true"></i> Core Competencies{#core-competencies}
 
-----
+---
 
 ### <i class="fas fa-shield-alt" style="color:rgb(253,109,38)" aria-hidden="true"></i> Security Operational Risk Management (StORM) Program{#storm}
 
@@ -37,7 +37,7 @@ The output of the BIA is the designation of a [Critical System Tier](/handbook/s
 
 Establishing a complete and accurate inventory of assets is key to the success of GitLab's Risk Program. As such, the Security Risk Team collaborates closely with IT and Business Owners to ensure new systems are added to the [Tech Stack](/handbook/business-technology/tech-stack-applications/#roles-and-responsibilities).
 
-----
+---
 
 ## <i class="fas fa-users" style="color:rgb(110,73,203)" aria-hidden="true"></i> Team Members{#team-members}
 

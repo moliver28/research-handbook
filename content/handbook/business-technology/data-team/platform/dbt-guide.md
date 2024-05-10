@@ -1193,7 +1193,7 @@ Steps to follow in order to run the tests you implemented in the data-tests proj
 4. You should see some logs, which also show the revision data-tests was installed from, where you should see your branch
 5. From where you currently are (which should be the `snowflake-dbt` directory) run the corresponding command for testing your own model
 
-#### Example:
+#### Example
 
 To run the `zuora_revenue_revenue_contract_line_source` rowcount tests, we can use the following command, which should work without any issues:
 

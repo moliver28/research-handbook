@@ -193,7 +193,7 @@ The Director, Revenue Programs role is a [grade 10](/handbook/total-rewards/comp
 - Bachelor or University Degree, or relevant work experiences
 - Over achievement in a quota-carrying sales role strongly preferred
 
-**********************************
+---
 
 ## Performance Indicators
 

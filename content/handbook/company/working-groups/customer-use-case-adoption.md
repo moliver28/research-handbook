@@ -14,11 +14,11 @@ This working group is charged with driving the necessary cross-functional alignm
 1. Mature **existing and new use cases and measures**, including thresholds
 1. Build use cases as input into **actions** to drive the business
 
-#### FY25 Scope: CI and Security & Compliance
+### FY25 Scope: CI and Security & Compliance
 
 [FY 25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/) have specific goals around both CI and Security & Compliance adoption, and this working group is re-aligning to support and service both use cases.
 
-#### FY24 Refocusing of Working Group on CI Adoption
+### FY24 Refocusing of Working Group on CI Adoption
 
 Effective 2023-08-17, the focus of the Customer Use Case Adoption working group pivoted explicitly to CI Adoption and driving the cross-functional workstreams required to achieve CI Adoption ARR of 50% by the end of FY24-Q4. Given the workstreams aligned upon, CI was the only Use Case focused on by this working group for the remainder of FY24.
 

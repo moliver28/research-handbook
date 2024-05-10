@@ -220,7 +220,7 @@ Incubation-adjusted TL;DR:
 1. Vim
 1. GitLab Web IDE
 
-### How do I...
+### How do I
 
 #### Add a new API endpoint?
 

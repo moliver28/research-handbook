@@ -267,15 +267,15 @@ This workflow is similar to what Git for Windows uses and can be implemented via
 script:
 
 ```shell
-# Update origin, pulling in new changes for origin/master.
+# Update origin, pulling in new changes for origin/master
 $ git fetch origin
-# Switch to the topic branch.
+# Switch to the topic branch
 $ git switch topic
-# Find the current root of the topic branch. This could either be the last fake-merge:
+# Find the current root of the topic branch. This could either be the last fake-merge
 $ base=$(git rev-parse ':/Start the merging-rebase')
-# Or it could be the merge-base of origin/master and your topic branch:
+# Or it could be the merge-base of origin/master and your topic branch
 $ base=$(git merge-base origin/master topic)
-# Rebase the topic branch onto origin/master.
+# Rebase the topic branch onto origin/master
 $ ./shears.sh --merging --onto origin/master $base
 ```
 

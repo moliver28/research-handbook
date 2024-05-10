@@ -152,7 +152,7 @@ At the beginning of the Milestone, Deliverable issues will automatically be upda
 
 At specific points through the milestone the Health Status will be automatically degraded if the issue fails to progress. Assignees can override this setting any time if they disagree. The policy that manages this automation is [here](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/hygiene/adjust-health-status.yml). It can be disabled for any individual issue by adding the ~"Untrack Health Status" label.
 
-#### Health Status Definitions for Plan :
+#### Health Status Definitions for Plan
 
 - _On Track_ - We are confident this issue will be completed and live for the current milestone
 - _Needs Attention_ - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back On Track
@@ -304,7 +304,7 @@ _One-line description of the regression in behavior._
 
 Please reassure the participants that the purpose is not to apportion blame but to gather data, identify causal factors and implement corrective actions - but ask for a swift and brief response while the information is still fresh.
 
-### UX 
+### UX
 
 The Plan UX team supports [Product Planning](/handbook/product/categories/#product-planning-group), [Project Management](/handbook/product/categories/#project-management-group) and [Optimize](handbook/product/categories/#optimize-group). Product Planning and Project Management are focused on the work items architecture architecture effort. This page focuses mainly on the specifics of how we support this, since it requires alignment and cross-group collaboration.
 
@@ -396,7 +396,7 @@ After the quad decides the work item architecture is suitable, the Product Desig
 
 ##### Research Process for Work Items
 
-We use the methods and tools in the [UX Research handbook](/handbook/product/ux/ux-research/). 
+We use the methods and tools in the [UX Research handbook](/handbook/product/ux/ux-research/).
 
 In addition to these, we're working on gaining an efficiency bonus by using a common screener and building a mini-database of qualified participants aligned to our research needs.
 

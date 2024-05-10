@@ -16,7 +16,7 @@ Maximize GitLab's long-term valuation by enabling eGroup and FP&A to plan, prior
 1. Ensure sound data-driven decision support
 1. Ensure our public company narrative aligns with operating strategy
 
-## How GitLab’s FP&A plans to get there….
+## How GitLab’s FP&A plans to get there…
 
 1. Manage the budget and planning processes for GitLab's Board Plan
 1. Build and maintain a [long-term financial model](#long-range-outlook-lro) that identifies long-term strategy and financial targets
@@ -51,7 +51,7 @@ FP&A comprises five different sub-teams to support our FP&A goals:
 - [#month-end-close-and-gl-team](https://gitlab.slack.com/archives/C02JHRNENE7)
 - [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX)
 
-----
+---
 
 ## FP&A Processes
 
@@ -336,7 +336,7 @@ The close timeline for each quarter follows the timeline above for monthly close
 
 As a public company we share financial results publicly after the close of each fiscal quarter or fiscal year. The purpose, timeline, and deliverables can be found on our Investor Relations page [here]({{< ref "../investor-relations" >}}).
 
-----
+---
 
 ## Headcount Forecast and Hiring Plan
 
@@ -537,7 +537,7 @@ The Finance Business Partners and Talent Acquisition Managers collaborate to pro
 
 The inputs loaded into Adaptive are then used to provide the CFO a weekly P&L snapshot in order to facilitate in-quarter spending decisions and ensure the company tracks vs.  guidance and consensus expectations.
 
-----
+---
 
 ## Expense Controls
 
@@ -546,7 +546,7 @@ The inputs loaded into Adaptive are then used to provide the CFO a weekly P&L sn
 1. The second mechanism is the budget vs actual review to determine reasons for variances vs plan. See the section on [Variance Meeting with CFO](#variance-meeting-with-cfo)
  and [Variance Analysis](#variance-and-flux-analysis).
 
-----
+---
 
 ## Adaptive Planning
 

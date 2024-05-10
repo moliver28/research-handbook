@@ -72,11 +72,11 @@ The Senior Security Engineer role extends the [Intermediate Security Engineer](#
 - Great written and verbal communication skills
 - Interview security candidates during hiring process
 
-***
+---
 
 A Senior Security Engineer may decide to pursue the [security engineering management track](/job-families/security/security-leadership/) at this point, should they wish to. See [Engineering Career Development](/handbook/engineering/career-development/) for more detail on the tracks available for Senior Engineers.
 
-***
+---
 
 #### Job Grade
 

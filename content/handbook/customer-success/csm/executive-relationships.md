@@ -106,7 +106,7 @@ It's recommended for each CSM to speak with an executive stakeholder at least an
 
 - WIP - to be added
 
-### Additional Resources:
+### Additional Resources
 
 The below resources are internal-only:
 - [Strategic Customer Engagement Workshop Recording](https://www.youtube.com/watch?v=IiScOF3bwFo)

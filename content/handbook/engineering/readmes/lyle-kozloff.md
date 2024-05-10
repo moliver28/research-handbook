@@ -18,7 +18,7 @@ If you need to talk, let's talk. I'm here to enable your success - use me for th
 I snooze my Slack notifications when I'm not available. If you think of something at 2 a.m.
 it's 100% okay to send me a message. I *expect* that you will also control your notifications.
 
-Nothing on my calendar is urgent unless specifically noted as such. 
+Nothing on my calendar is urgent unless specifically noted as such.
 
 ### Communication preferences
 1. **GitLab**: I'm very responsive on GitLab issues when pinged, and have notifications turned on for most trackers
@@ -40,7 +40,7 @@ in `gitlab-com/support`.
 1. General notifications from GitLab (subscribed issues and such)
 
 #### Other meetings
-I'm open to ad-hoc meetings with anyone who wants to chat - whether you're in my department 
+I'm open to ad-hoc meetings with anyone who wants to chat - whether you're in my department
 but report to someone else, or in a totally different department.
 
 ### My Assumptions
@@ -61,7 +61,7 @@ and that my apparent indecision is blocking progress.
 
 **I reprioritize constantly.** At its best, this means that important and impactful
 things get done quickly. At its worst, it means that I miss a deliverable that
-you were waiting on from me. 
+you were waiting on from me.
 
  - **What to do if it's the worst**: Give me a firm deadline for when you need something
 by. Check in on progress. I don't mind being managed up; if what I'm prioritizing
@@ -69,25 +69,25 @@ doesn't match your priorities I should be able to articulate what's blocking me.
 
 **I operate my teams with a high degree of trust**: At its best, this means that
 you are free to prioritize the tasks that you feel are the most impactful. At its
-worst this means you may feel like I don't care what you're working on. 
+worst this means you may feel like I don't care what you're working on.
 
- - **What to do if it's the worst**: Generally, I will only step in if you can't find 
+ - **What to do if it's the worst**: Generally, I will only step in if you can't find
 a solution, you need my help or you've hit a blocker. Keep me informed, and be
 clear if you're in one of the above states.
 
-**I try and protect my teams from crappy work by doing it myself**: At its best, 
-you'll be shielded from the small, annoying tasks that crop up. 
-At its worst, I'll be drowning in these tasks and I'll ask you to do something 
+**I try and protect my teams from crappy work by doing it myself**: At its best,
+you'll be shielded from the small, annoying tasks that crop up.
+At its worst, I'll be drowning in these tasks and I'll ask you to do something
 that's (at best) half-done and probably overdue.
 
  - **What to do if it's the worst**: If I'm setting myself up as a blocker, call me
 on it. I try and build process after I have a full understanding of the problem
 set, but sometimes I need a nudge before I feel its ready to hand off. Sometimes
-I misjudge the complexity or length of a task. 
+I misjudge the complexity or length of a task.
 
 
 ### Your development
-> *From the time you were very little, you've had people who have smiled you into 
+> *From the time you were very little, you've had people who have smiled you into
 > smiling, people who have talked you into talking, sung you into singing, loved
 > you into loving.*
 >
@@ -108,8 +108,8 @@ I want to help you grow. I can / will / have:
 #### Your development as a leader
 One of the most important pieces of my job is to help you grow as a leader. Some of
 you may be people leaders, some of you may lead as individual contributors - but
-your ability to influence decisions will be a determining factor you in your 
-immediate and future success. I will do my best to lend strength to your voice, 
+your ability to influence decisions will be a determining factor you in your
+immediate and future success. I will do my best to lend strength to your voice,
 and help your ideas find their way into results.
 
 ### Feedback
@@ -117,7 +117,7 @@ As with most managers, feedback is an area that I never feel like I give enough 
 If you're looking for feedback and I'm not offering it, it means I think
 that you're doing just fine.
 
-I do look for opportunities to compliment wins, but I miss things. If you're proud of 
+I do look for opportunities to compliment wins, but I miss things. If you're proud of
 something, please bring it up!
 
 If you're not getting feedback and you want some, please ask for feedback in a *specific* area:
@@ -130,7 +130,7 @@ and let me know how I did?"
 This will help me give clear, timely feedback that will make a difference instead of a bumbling
 "You're doing great!"
 
-#### Behaviours I value:
+#### Behaviours I value
 - Initiative: you see a problem, formulate a solution and act on it, asking for input if only when necessary
 - Humility: you do excellent work which draws attention to itself
 - Consistency: you do what you say you'll do most (if not all) of the time
@@ -149,7 +149,7 @@ really great free-form ones as well. Don't feel bad if you don't come with somet
 
 If we don't have anything on the agenda, please expect me to try and get to know you better.
 
-If you're struggling for topics, please include items that you've worked on this week. 
+If you're struggling for topics, please include items that you've worked on this week.
 
 I like hearing about situations in your week because:
 - I always learn something
@@ -165,12 +165,12 @@ Somtimes I'll express an opinion with a strength qualifier. The scale is 1-10.
 5 - True Neutral
 10 - Strongly for
 
-Confusingly, I may be strongly **for** a negative. For example: "No, I'm like a 9 against that." 
+Confusingly, I may be strongly **for** a negative. For example: "No, I'm like a 9 against that."
 Strictly following my own system, I should say "2"... but I think it's more easily understood phrased like that.
 
 ### Other
 - My expectations are sometimes expressed softly. If there is any doubt about whether
 something I say is an expectation, a suggestion or an idea please ask.
-- Please feel free to correct me in public channels if I'm wrong about something. I appreciate opportunities to model 
+- Please feel free to correct me in public channels if I'm wrong about something. I appreciate opportunities to model
 humility and my commitment to being a life-long learner.
 

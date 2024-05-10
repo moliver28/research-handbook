@@ -187,7 +187,7 @@ Accredo is Cigna's specialty pharmacy. For more information on managing your spe
 
 **Team Member Costs:**
 
-##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck.
+##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | HDHP-HSA | EPO  | PPO  |
 |--------------------------|:---:|:----:|:----:|
@@ -284,7 +284,7 @@ Please see the [2024 Disclosure Part 2 form for Kaiser CA Plans](https://drive.g
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck.
+##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | HMO CA North | HMO CA South | HMO HI |
 |--------------------------|:------------:|:------------:|:------:|
@@ -367,7 +367,7 @@ When submitting a claim, you can mail it to Cigna Dental PO Box 188037 Chattanoo
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck.
+##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | DPPO Base | DPPO Buy Up
 |--------------------------|----|-----|
@@ -417,7 +417,7 @@ When submitting a claim, you can mail it to Cigna Vision PO Box 385018 Birmingha
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck.
+##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | Vision Base | Vision Buy Up
 |--------------------------|------|------|

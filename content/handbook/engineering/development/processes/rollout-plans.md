@@ -34,22 +34,22 @@ At a minimum, your rollout plan should:
 Here are some things to consider including in your rollout plan:
 
 1. Expectations
-	* Define what the expected outcome should be when the rollout plan is complete. How should things function? What will the user see? What details or metrics should the system provide?
-	* Prepare for any _unexpected_ outcomes by documenting what might happen if the rollout is unsuccessful. What signs can you look for to know? How can you reduce the risk of having these unexpected outcomes?
-	* Document steps to take if things go wrong. This might include multiple tasks, such as engaging with the SRE team in a specific Slack channel or disabling a feature flag. This may also be a full rollback plan.
+    * Define what the expected outcome should be when the rollout plan is complete. How should things function? What will the user see? What details or metrics should the system provide?
+    * Prepare for any _unexpected_ outcomes by documenting what might happen if the rollout is unsuccessful. What signs can you look for to know? How can you reduce the risk of having these unexpected outcomes?
+    * Document steps to take if things go wrong. This might include multiple tasks, such as engaging with the SRE team in a specific Slack channel or disabling a feature flag. This may also be a full rollback plan.
 1. Metrics to observe
-	* Provide links to data that can be monitored to understand whether your expectations are being met. Data could be based on predefined searches from tools like Sentry, Sitespeed, Grafana, Kibana, or some of our other [monitoring tools](/handbook/engineering/monitoring/#monitoring).
+    * Provide links to data that can be monitored to understand whether your expectations are being met. Data could be based on predefined searches from tools like Sentry, Sitespeed, Grafana, Kibana, or some of our other [monitoring tools](/handbook/engineering/monitoring/#monitoring).
 1. Testing scenarios
-	* Define manual tests you can take during the rollout to confirm the rollout is working as expected.
-	* Engage with counterparts to ensure that necessary automated testing is passing.
+    * Define manual tests you can take during the rollout to confirm the rollout is working as expected.
+    * Engage with counterparts to ensure that necessary automated testing is passing.
     * For changes with a wide impact on the product, engage relevant product groups to gather test cases.
-	* Account for different states of data during rollout, such as cached data or data that was in a previously valid state.
-	* Include a pre-check list to ensure you are [supporting multi-version compatibility / backwards compatibility](https://docs.gitlab.com/ee/development/multi_version_compatibility.html).
+    * Account for different states of data during rollout, such as cached data or data that was in a previously valid state.
+    * Include a pre-check list to ensure you are [supporting multi-version compatibility / backwards compatibility](https://docs.gitlab.com/ee/development/multi_version_compatibility.html).
 1. Communication
-	* Include a communication plan that includes relevant stakeholders - such as other stage groups, departments, or by [engaging with Support](/handbook/support/managers/change-management.html) to communicate changes to users.
-	* Outline in the rollout plan locations to communicate or look for signals of an unsuccessful rollout - such as the #production Slack channel or new issues list.
+    * Include a communication plan that includes relevant stakeholders - such as other stage groups, departments, or by [engaging with Support](/handbook/support/managers/change-management.html) to communicate changes to users.
+    * Outline in the rollout plan locations to communicate or look for signals of an unsuccessful rollout - such as the #production Slack channel or new issues list.
 1. Staging and Production checks
-	* Include any specific checks that need to be done when your changes are released on staging and production.
+    * Include any specific checks that need to be done when your changes are released on staging and production.
     * Include any checks specifically needed for self-managed instances. This may involve testing the change on a [reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/) before release.
 1. The rollout process itself
    * Describe what must happen in preparation for the rollout

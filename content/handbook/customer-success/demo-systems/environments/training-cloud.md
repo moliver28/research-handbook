@@ -27,7 +27,7 @@ This has moved to [handbook/customer-success/demo-systems/#invitation-code-creat
 
 This process has moved to [handbook/customer-success/demo-systems/#invitation-code-creation] and [handbook/customer-success/demo-systems/#workshop-preparation].
 
-#### Test your invitation code and sample projects.
+#### Test your invitation code and sample projects
 
 This process has moved to [handbook/customer-success/demo-systems/#invitation-code-redemption] and [handbook/customer-success/demo-systems/#workshop-preparation].
 

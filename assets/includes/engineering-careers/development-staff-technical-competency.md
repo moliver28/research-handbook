@@ -1,4 +1,5 @@
 ##### Development
+
 * Advocates for quality and makes sure it is everyone's responsibility.
 * Mentors others on how to maintain and continue to raise the level of quality in everything we produce.
 * Holds MRs to the high standards of [our definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done) and collaborate with others to improve their implementation, tests and prevent any future regressions.

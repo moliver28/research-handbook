@@ -5,7 +5,7 @@ description: >-
   GitLab product: UX Research, Product Design, Technical Writing, and Foundations
 ---
 
-## Hello!
+## Hello
 
 We're the GitLab User Experience (UX) department. We comprise four areas to support designing and building the GitLab product.
 

@@ -259,46 +259,46 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 <details><summary>Epic Template</summary>
 
 ```
-### DRI :levitate:
+### DRI :levitate
 - TBC
 
-### Participants :busts_in_silhouette:
+### Participants :busts_in_silhouette
 -
 
-### Problem to solve :thinking:
+### Problem to solve :thinking
 
-### Video Walkthrough from Product :video_camera:
+### Video Walkthrough from Product :video_camera
 
-### Intended users :bust_in_silhouette:
+### Intended users :bust_in_silhouette
 
-### User experience goal :goal:
+### User experience goal :goal
 
 
 <!-- Overview of user experience goal -->
 
-### UX Design Spec :paintbrush:
+### UX Design Spec :paintbrush
 - Figma Link:
 - Dev mode:
 - Any other details
 
-### Proposal :bulb:
+### Proposal :bulb
 
-### Open Questions :question:
+### Open Questions :question
 | Question | Added by | Discussion thread |
 |----------|----------|-------------------|
 |  |  |  |
 
-### Further details :mag:
+### Further details :mag
 
 Dependencies :link:
 
-### Permissions and Security :link:
+### Permissions and Security :link
 
-### Documentation :book:
+### Documentation :book
 
 * Publicly Accessible Documentation:
 
-### Epic Kick-Off :ballot_box_with_check:
+### Epic Kick-Off :ballot_box_with_check
 
 * [ ] Video walkthrough from Product outlining expectations
 * [ ] DRI identified
@@ -309,7 +309,7 @@ Dependencies :link:
 * [ ] Issue created to track Documentation requirements
 * [ ] Outstanding Questions captured in threads for resolution
 
-### Roll out Plan :speaker:
+### Roll out Plan :speaker
 <!--
 If visible to external customers please provide the following information:
     - What communication is required ahead of release?
@@ -320,7 +320,7 @@ If visible to external customers please provide the following information:
 -->
 
 
-### Links / references :books:
+### Links / references :books
 
 *
 

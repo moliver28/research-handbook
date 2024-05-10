@@ -5,8 +5,8 @@ description: "Self-Managed Platform team in Test Platform sub-department"
 
 ## Common Links
 
-| S.No 	| Section     	          |
-|------	|-------------------------|
+| S.No     | Section                   |
+|------    |-------------------------|
 | **GitLab Team Handle** | [`@gl-quality/tp-self-managed-platform`](https://gitlab.com/gl-quality/enablement-qe) |
 | **Team Boards** | [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/978354) |
 | **Self-Managed Platform Team Projects** | [Tools Page](/handbook/engineering/infrastructure/test-platform/self-managed-excellence/) |
@@ -17,16 +17,16 @@ Engineers in this team support the product sections supported by the [Core Platf
 
 Engineering Manager: Kassandra Svoboda
 
-| S.No 	| Section     	          | Stage/ Group/ Tool         | SET Counterpart    |
-|------	|-------------------------|----------------------------|--------------------|
-| 1    	| [Core Platform]    	  | [Data Stores]              | John McDonnell     |
+| S.No     | Section                   | Stage/ Group/ Tool         | SET Counterpart    |
+|------    |-------------------------|----------------------------|--------------------|
+| 1        | [Core Platform]          | [Data Stores]              | John McDonnell     |
 | 2     | [Core Platform]         | [Tenant Scale]             | Andy Hohenner      |
 | 3     | [Core Platform]         | [Systems]                  | Vishal Patel       |
 | 4     | [Core Platform]         | [Geo]                      | Nick Westbury      |
-| 5    	| [SaaS Platforms]        | [GitLab Dedicated]         | Brittany Wilkerson |
-| 6    	| [SaaS Platforms]        | [US Public Sector Services] | Jim Baumgardner    |
-| 7    	|          -              | [GitLab Environment Toolkit] & [Reference Architectures]  | Grant Young    |
-| 8    	|          -              | [GitLab Performance Tool]   | Nailia Iskhakova    |
+| 5        | [SaaS Platforms]        | [GitLab Dedicated]         | Brittany Wilkerson |
+| 6        | [SaaS Platforms]        | [US Public Sector Services] | Jim Baumgardner    |
+| 7        |          -              | [GitLab Environment Toolkit] & [Reference Architectures]  | Grant Young    |
+| 8        |          -              | [GitLab Performance Tool]   | Nailia Iskhakova    |
 
 ## OKRs
 
@@ -120,18 +120,18 @@ The following weights are available based on the Fibonacci Series with 8 being t
 
 Anything that would be assigned a weight of 8 or larger should be broken down.
 
-### Status Updates 
+### Status Updates
 - By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
      - Format for weekly update:
           - Date of Update (YYYY-MM-DD)
           - Brief update (~sentence or couple bullets) for each of these four bullets:
-               - Status update - Progress has been updated to X %.    
+               - Status update - Progress has been updated to X %.
                - What was done :white_check_mark: - Unblocked blockers, any other progress acheived
-               - Next steps :construction_worker: 
+               - Next steps :construction_worker:
                - Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
-- ASYNC Standup on Tuesdays and Thursdays - Reply to GeekBot questionaire on Slack. 
+- ASYNC Standup on Tuesdays and Thursdays - Reply to GeekBot questionaire on Slack.
 
-## Test Platform process across product sections:
+## Test Platform process across product sections
 
 Overall we follow the same process as [defined](/handbook/engineering/infrastructure/test-platform/#how-we-work) in our Test Platform handbook across all groups in Core Platform and SaaS Platform
 except for a few exceptions curated to fit the needs of specific groups.

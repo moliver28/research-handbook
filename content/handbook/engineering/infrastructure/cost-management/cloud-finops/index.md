@@ -32,18 +32,18 @@ The workflow follows a data transformation pipeline pattern:
 
 The combined P&L mappings consolidate all the individual mapping logic into a single model for simplicity.
 
-| Mapping	| Source | 	Metric Used	| Scope |
+| Mapping    | Source |     Metric Used    | Scope |
 |-----------|--------|--------------|------|
-|build_artifacts_pl_daily	|GitLab API|	Build artifacts usage per namespace in gigabyte per day |	Storage for build artifacts
-|ci_runners_pl_daily	|GitLab API|	CI consumption in ci.minutes per runner type |	CI/CD runner usage
-|container_registry_pl_daily	|GitLab API|	Container registry usage per namespace in gigabyte per day |	Storage for container registries
-|folder_pl|	GCP hierarchy|	Folder path |	GCP projects by parent folder
-|haproxy_backend_pl|	HAproxy metrics from Thanos |	Network usage per backend in gigabyte per day |	Load balancer egress
-|haproxy_backend_ratio_daily |	HAproxy metrics |	Percentage of network usage per backend	| Splits load balancer costs by backend
-|infralabel_pl | Config |	Infrastructure labels |	GCP resources by infrastructure label
-|namespace_pl_daily|	GitLab API |	Namespace plan data |	Namespace allocation
-|projects_pl|	Config |	GCP project ID |	Specific GCP project costs
-|repo_storage_pl_daily |  GitLab API|	Repo storage usage per namespace in gigabyte per day |	Storage for Git repositories
+|build_artifacts_pl_daily    |GitLab API|    Build artifacts usage per namespace in gigabyte per day |    Storage for build artifacts
+|ci_runners_pl_daily    |GitLab API|    CI consumption in ci.minutes per runner type |    CI/CD runner usage
+|container_registry_pl_daily    |GitLab API|    Container registry usage per namespace in gigabyte per day |    Storage for container registries
+|folder_pl|    GCP hierarchy|    Folder path |    GCP projects by parent folder
+|haproxy_backend_pl|    HAproxy metrics from Thanos |    Network usage per backend in gigabyte per day |    Load balancer egress
+|haproxy_backend_ratio_daily |    HAproxy metrics |    Percentage of network usage per backend    | Splits load balancer costs by backend
+|infralabel_pl | Config |    Infrastructure labels |    GCP resources by infrastructure label
+|namespace_pl_daily|    GitLab API |    Namespace plan data |    Namespace allocation
+|projects_pl|    Config |    GCP project ID |    Specific GCP project costs
+|repo_storage_pl_daily |  GitLab API|    Repo storage usage per namespace in gigabyte per day |    Storage for Git repositories
 
 #### rpt_gcp_billing_infra_mapping_day
 
@@ -81,7 +81,7 @@ The combined P&L mappings consolidate all the individual mapping logic into a si
 ##### Mission, objective, inputs, granularity
 
 - **Mission:** Calculate daily GCP billing data by Profit & Loss categories.
-- **Objective:** Provide a daily overview of GCP costs by pl_category for reporting and cost analysis. 
+- **Objective:** Provide a daily overview of GCP costs by pl_category for reporting and cost analysis.
 - **Granularity:** Daily
 - **Inputs:** rpt_gcp_billing_pl_day_combined, combined_pl_mapping
 
@@ -147,7 +147,7 @@ The combined P&L mappings consolidate all the individual mapping logic into a si
 ##### Mission, objective, inputs, granularity
 
 - **Mission:** Applies the combined mappings to the billing data
-- **Objective:** Provide a daily overview of GCP costs by pl_category for reporting and cost analysis. 
+- **Objective:** Provide a daily overview of GCP costs by pl_category for reporting and cost analysis.
 - **Granularity:** Daily
 - **Inputs:** rpt_gcp_billing_infra_mapping_day, combined_pl_mapping
 
@@ -173,7 +173,7 @@ The combined P&L mappings consolidate all the individual mapping logic into a si
 
 
 ##### Links
-  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_pl_day_combined) 
+  - [Model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_gcp_billing_pl_day_combined)
 
 #### build_artifacts_pl_daily
 
@@ -199,12 +199,12 @@ The combined P&L mappings consolidate all the individual mapping logic into a si
 
 ##### Examples
 
-    
+
     SELECT snapshot_day, finance_pl, SUM(build_artifacts_gb) as total_gb
     FROM prod.workspace_engineering.build_artifacts_pl_daily
     GROUP BY snapshot_day, finance_pl
     ORDER BY date_day desc;
-    
+
 
 Description: This query aggregates build artifacts usage data by P&L category for each snapshot day. It provides a sum of build artifacts size in gigabytes (GB), grouped by the P&L category, giving an insight into the storage requirements and cost allocation for different P&L categories.
 
@@ -233,12 +233,12 @@ Description: This query aggregates build artifacts usage data by P&L category fo
 
 ##### Examples
 
-    
+
     SELECT reporting_day, pl, SUM(total_ci_minutes) as total_minutes
     FROM prod.workspace_engineering.ci_runners_pl_daily
     GROUP BY reporting_day, pl
     ORDER BY reporting_day DESC;
-    
+
 
 Description: This query summarizes the total CI minutes used by each P&L category on a given day. It helps in understanding the distribution and usage of CI runners across different P&L categories.
 
@@ -270,12 +270,12 @@ Description: This query summarizes the total CI minutes used by each P&L categor
 
 ##### Examples
 
-    
+
     SELECT date_day, from_mapping, pl_category, AVG(pl_percent) as average_pl_percent
     FROM prod.workspace_engineering.combined_pl_mapping
     GROUP BY date_day, from_mapping, pl_category
     ORDER BY date_day DESC;
-    
+
 
 Description: This query provides an average percentage allocation of P&L categories for each mapping by day. It showcases how costs are distributed among different P&L categories based on infrastructure labels.
 
@@ -303,12 +303,12 @@ Description: This query provides an average percentage allocation of P&L categor
 
 ##### Examples
 
-    
+
     SELECT snapshot_day, finance_pl, AVG(container_registry_gb) as average_gb
     FROM prod.workspace_engineering.container_registry_pl_daily
     GROUP BY snapshot_day, finance_pl
     ORDER BY snapshot_day DESC, finance_pl DESC;
-    
+
 
 Description: This query provides an average percentage allocation of P&L categories for each infrastructure label by day. It showcases how costs are distributed among different P&L categories based on infrastructure labels.
 
@@ -335,11 +335,11 @@ Description: This query provides an average percentage allocation of P&L categor
 
 ##### Examples
 
-    
+
     SELECT metric_backend, TYPE, AVG(ALLOCATION) as average_allocation
     FROM prod.workspace_engineering.haproxy_backend_pl
     GROUP BY metric_backend, TYPE;
-    
+
 
 Description: This query averages the allocation percentages for each HAproxy backend type. It provides insight into how network usage is distributed across different backend types for P&L categorization.
 
@@ -358,7 +358,7 @@ Description: This query averages the allocation percentages for each HAproxy bac
 
     date_day: timestamp_ntz - Date of the record
     backend_category: varchar - Backend category identifier
-    usage_in_gib: float - Usage in Gib 
+    usage_in_gib: float - Usage in Gib
 
 
 ##### Links
@@ -366,11 +366,11 @@ Description: This query averages the allocation percentages for each HAproxy bac
 
 ##### Examples
 
-    
+
     SELECT date_day, backend_category, AVG(usage_in_gib) as average_usage_ratio
     FROM prod.workspace_engineering.haproxy_backend_ratio_daily
     GROUP BY date_day, backend_category;
-    
+
 
 Description: This query calculates the average daily usage ratio for each backend category. It's useful for analyzing the distribution of network costs among different backends on a daily basis.
 
@@ -398,11 +398,11 @@ Description: This query calculates the average daily usage ratio for each backen
 
 ##### Examples
 
-    
+
     SELECT infra_label, type, AVG(allocation) as average_allocation
     FROM prod.workspace_engineering.infralabel_pl
     GROUP BY infra_label, type;
-    
+
 
 Description: This query provides an average allocation value for each infrastructure label and type. It helps in understanding how different infrastructure components are categorized into P&L categories.
 
@@ -430,11 +430,11 @@ Description: This query provides an average allocation value for each infrastruc
 
 ##### Examples
 
-    
+
     SELECT date_day, finance_pl, COUNT(dim_namespace_id) as total_namespaces
     FROM prod.workspace_engineering.namespace_pl_daily
     GROUP BY date_day, finance_pl;
-    
+
 
 Description: This query counts the number of namespaces per P&L category on a given day. It's useful for tracking the usage and distribution of namespaces across different P&L categories.
 
@@ -461,11 +461,11 @@ Description: This query counts the number of namespaces per P&L category on a gi
 
 ##### Examples
 
-    
+
     SELECT date_day, finance_pl, COUNT(dim_namespace_id) as total_namespaces
     FROM prod.workspace_engineering.namespace_pl_daily
     GROUP BY date_day, finance_pl;
-    
+
 
 Description: This query counts the number of namespaces per P&L category on a given day. It's useful for tracking the usage and distribution of namespaces across different P&L categories.
 
@@ -493,11 +493,11 @@ Description: This query counts the number of namespaces per P&L category on a gi
 
 ##### Examples
 
-    
+
     SELECT snapshot_day, finance_pl, SUM(repo_size_gb) as total_gb
     FROM prod.workspace_engineering.repo_storage_pl_daily
     GROUP BY snapshot_day, finance_pl;
-    
+
 
 Description: This query aggregates the total repository storage usage in GB by P&L category for each day. It helps in understanding the storage requirements and cost allocation for repository storage across different P&L categories.
 

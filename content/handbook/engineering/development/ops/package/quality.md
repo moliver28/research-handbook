@@ -53,20 +53,20 @@ In the [GitLab repository](https://gitlab.com/gitlab-org/gitlab), the End-to-End
 
 To test against your local GDK, first make sure:
 - Environment variables are correctly set
-	- `QA_DEBUG` is set to **true** so the debug logs are enabled
-	- `WEBDRIVER_HEADLESS` is set to **false** so you can see the test run in an automated browser
+    - `QA_DEBUG` is set to **true** so the debug logs are enabled
+    - `WEBDRIVER_HEADLESS` is set to **false** so you can see the test run in an automated browser
 - GDK is up and running
-	- and using a [loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#create-loopback-interface-for-gdk) to be able to use a runner in a docker container
-	- [hostname mapped to the loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#set-up-gdktest-hostname)
+    - and using a [loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#create-loopback-interface-for-gdk) to be able to use a runner in a docker container
+    - [hostname mapped to the loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#set-up-gdktest-hostname)
 
 To run the tests:
 1. On the terminal, go to `path-to-your-gdk/gitlab/qa`
 1. Make sure that you have all the necessary gems installed: `bundle install`
 1. Issue the command:
-	1. To run all the tests for free features: `bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/browser_ui/5_package --tag orchestrated --tag packages`
-	1. To run all the tests for paid features: `bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/ee/browser_ui/5_package --tag orchestrated --tag packages` (currently there are no tests for paid features)
-	1. To run all the API tests for free features: *currently there are API tests for free features **at the End-to-End level** but they run only in Staging and Preprod environments*
-	1. To run all the API tests for free features: *currently there are no API tests for paid features **at the End-to-End level***
+    1. To run all the tests for free features: `bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/browser_ui/5_package --tag orchestrated --tag packages`
+    1. To run all the tests for paid features: `bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/ee/browser_ui/5_package --tag orchestrated --tag packages` (currently there are no tests for paid features)
+    1. To run all the API tests for free features: *currently there are API tests for free features **at the End-to-End level** but they run only in Staging and Preprod environments*
+    1. To run all the API tests for free features: *currently there are no API tests for paid features **at the End-to-End level***
 
 **Note:** The command above is targeting `http://gdk.test:3000` which should be changed according to your hostname mapped to the loopback interface.
 
@@ -106,11 +106,11 @@ Using the `QA_SKIP_PULL=true` means that the framework will skip pulling the lat
 
 Applies to all tests tagged with the `:packages` metadata. Configures a GitLab instance to have the Package Registry enabled.
 
-* Run the command: `gitlab-qa Test::Instance::Image EE --omnibus-config packages` 
+* Run the command: `gitlab-qa Test::Instance::Image EE --omnibus-config packages`
 
 #### Scenario - Run all tests from the Package group against an Object Storage provider
 
-Applies to all tests in the `5_package` folder tagged with the `:object_storage` metadata. 
+Applies to all tests in the `5_package` folder tagged with the `:object_storage` metadata.
 
 * Run the command to test against **AWS**: `gitlab-qa Test::Instance::Image EE --omnibus-config object_storage_aws`
 * Run the command to test against **GCP**: `gitlab-qa Test::Instance::Image EE --omnibus-config object_storage_gcp`
@@ -138,7 +138,7 @@ There are two kinds of Container Registry scenarios.
 
 #### TLS Enabled Registry
 
-* Run the command: `GITLAB_TLS_CERTIFICATE=$(cat /path/to/certificate.crt) gitlab-qa Test::Integration::RegistryTLS EE` 
+* Run the command: `GITLAB_TLS_CERTIFICATE=$(cat /path/to/certificate.crt) gitlab-qa Test::Integration::RegistryTLS EE`
 
 The TLS certificate used can be found on the GitLab QA [tls_certificates folder](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/tls_certificates/gitlab/gitlab.test.crt).
 
@@ -184,7 +184,7 @@ Note: Staging, PreProd, and Production use `ipfilteredby` set to `gcp`. This con
 * Run the command: `gitlab-qa Test::Integration::Registry EE -- qa/specs/features/browser_ui/5_package/dependency_proxy/dependency_proxy_spec.rb --tag registry`
 
 
-#### Scenario - Run Dependency Proxy on a SAML Group SSO enabled 
+#### Scenario - Run Dependency Proxy on a SAML Group SSO enabled
 
 * Run the command: `CI=true gitlab-qa Test::Integration::GroupSAML EE -- qa/specs/features/browser_ui/5_package/dependency_proxy/dependency_proxy_sso_spec.rb --tag group_saml`
 
@@ -195,9 +195,9 @@ More information on how to run tests using the gitlab-qa gem can be found on [Wh
 #### How can I have access to the GitLab QA Vault in 1Password?
 There are important variables to run several scenarios listed above. Also when running tests against different environments these variables
 are necessary. To have access to this vault please create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to the 1Password GitLab QA Vault.
- 
+
 #### I triggered package-and-qa. Where do I find the tests?
-If you have an MR and want to make sure it is running the End-to-End tests, please trigger the manual `package-and-qa` job on the pipeline of your MR. After the pipeline runs there will be a note on your MR titled "Allure report" with a `package-and-qa` test report link. 
+If you have an MR and want to make sure it is running the End-to-End tests, please trigger the manual `package-and-qa` job on the pipeline of your MR. After the pipeline runs there will be a note on your MR titled "Allure report" with a `package-and-qa` test report link.
 It is also possible to see which jobs failed in the `package-and-qa` pipeline, just follow the downstream pipelines, and within the `gitlab-qa-mirror` pipeline, access the `packages` job to inspect the result. We also have relevant Package tests running in `object_storage` and `registry` jobs.
 
 In Staging, or other environments [that run full tests](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines), all the

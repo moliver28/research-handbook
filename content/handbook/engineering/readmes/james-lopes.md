@@ -7,7 +7,7 @@ job: "Support Engineering Manager (AMER)"
 ### About Me
 My name is James Lopes (surname pronounced similar to canta**loupes**, not like Jennifer Lopez) and I am one of the support managers here in the AMER region. To learn more about me you can reference my [team page](/handbook/company/team/?department=support-department#JamesLopes) and/or schedule a coffee chat on my calendar, I look forward to meeting new people and learning more about how we can collaborate!
 
-## Connect with me!
+## Connect with me
 GitLab User: [@JamesRLopes](https://gitlab.com/jamesrlopes)
 
 ### Communication Modes
@@ -25,7 +25,7 @@ GitLab User: [@JamesRLopes](https://gitlab.com/jamesrlopes)
 As a support manager I believe my most important role is enabling my reports and the rest of the support team to be successful in their tasks and goals. I came up through the support engineer role at past companies and I will often reflect back on my experiences, both positive and negative, to make decisions that will benefit the entire team as well as the customer base.
 
 ## Management Style
-I've found there is no one-size-fits-all management style or technique that works for every individual. I do my best to understand the needs of each person who reaches out to me and try to be easily approachable, judgement free, and leave the interaction feeling as though a difference has been made. 
+I've found there is no one-size-fits-all management style or technique that works for every individual. I do my best to understand the needs of each person who reaches out to me and try to be easily approachable, judgement free, and leave the interaction feeling as though a difference has been made.
 
 ## Weaknesses
 - I'm useless in the mornings before I've had a cup (or three) of coffee

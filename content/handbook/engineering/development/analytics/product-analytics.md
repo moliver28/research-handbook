@@ -26,7 +26,7 @@ Learn more about what we work on and the problems we are solving on our public [
 
 {{< stable-counterparts role="Monitor:Product Analytics|Group(.*)Analytics" >}}
 
-## Onboarding engineer? Start here.
+## Onboarding engineer? Start here
 
 Welcome! Start by familiarizing yourself with the [developer onboarding guide](/handbook/developer-onboarding/). After that you'll need to set up a few things specific to the Product Analytics team.
 

@@ -13,7 +13,7 @@ description: "Learn about various aspects of cost management for AWS"
 
 
 
-----
+---
 
 ## Resource Links
 - [Cost Optimization](https://wa.aws.amazon.com/wat.pillar.costOptimization.en.html)

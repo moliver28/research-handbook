@@ -19,14 +19,14 @@ Engineers in this team support the product sections supported by the [Core Devel
 
 Engineering Manager: Ksenia Kolpakova
 
-| S.No 	| Department            | Section     	          | Stage         | SET Counterpart    |
+| S.No     | Department            | Section                   | Stage         | SET Counterpart    |
 |-------|-----------------------|-------------------------|---------------|--------------------|
-| 1    	| [Core Development]      | [Dev section]    	      | [Create]      | Jay McCure         |
-| 2     | [Core Development]      | [Dev section]      	  | [Plan]        | Désirée Chevalier  |
-| 3    	| [Core Development]      | [CI section]    	      | [Verify]      | Tiffany Rea, Joy Roodnick |
-| 4    	| [Core Development]      | [CI section]     	      | [Package]     | Tiffany Rea       |
-| 5    	| [Core Development]      | [CD section]     	      | [Deploy]      | -                  | 
-| 6     | [Expansion Development] | [Sec section]    	      | [Secure]      | Will Meek          |
+| 1        | [Core Development]      | [Dev section]              | [Create]      | Jay McCure         |
+| 2     | [Core Development]      | [Dev section]            | [Plan]        | Désirée Chevalier  |
+| 3        | [Core Development]      | [CI section]              | [Verify]      | Tiffany Rea, Joy Roodnick |
+| 4        | [Core Development]      | [CI section]               | [Package]     | Tiffany Rea       |
+| 5        | [Core Development]      | [CD section]               | [Deploy]      | -                  |
+| 6     | [Expansion Development] | [Sec section]              | [Secure]      | Will Meek          |
 | 7     | [Expansion Development] | [Sec section]           | [Govern]      | Harsha Muralidhar  |
 | 8    | [Expansion Development] | [Fulfillment section]   | [Fulfillment] | Valerie Burton     |
 | 9    | [Expansion Development] | [Fulfillment section]   | [Fulfillment] | Richard Chong      |
@@ -35,37 +35,37 @@ Engineering Manager: Ksenia Kolpakova
 
 * FYI - There are no hiring plans for SETs in FY25.
 
-## OKRs 
+## OKRs
 
 Every quarter, the team commits to [Objectives and Key Results (OKRs)](/handbook/company/okrs/). The below shows current quarter OKRs and is updated regularly as the quarter progresses.
 
 Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6583) of our current Test Engineering OKRs.
 
-## How we work 
+## How we work
 
 ### Project management
 
 #### Iterations
 
 - We plan our work in 2 weeks long iterations
-- We maintain and regularly update [Test Engineering team board](https://gitlab.com/groups/gitlab-org/-/boards/7364900?not[label_name][]=failure%3A%3A*&label_name[]=team%3A%3ATest%20Engineering). This board reflect the actual status of the ongoing work 
+- We maintain and regularly update [Test Engineering team board](https://gitlab.com/groups/gitlab-org/-/boards/7364900?not[label_name][]=failure%3A%3A*&label_name[]=team%3A%3ATest%20Engineering). This board reflect the actual status of the ongoing work
 
-#### Issue weights 
+#### Issue weights
 
-We estimate every task during iteration planning. Our weighting strategy is based on [Test Platform Weighting](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/#weights) 
+We estimate every task during iteration planning. Our weighting strategy is based on [Test Platform Weighting](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/#weights)
 
-| Weight | Description | Approximate time | Example issues | 
+| Weight | Description | Approximate time | Example issues |
 |--------|-------------|------------------|----------------|
-| 1    	 | Trivial     | ~1 hour    	  | TBD | 
+| 1         | Trivial     | ~1 hour          | TBD |
 | 2      | Small       | ~0.5-1 day       | TBD |
-| 3    	 | Medium      | ~3 days    	  | TBD |
-| 5    	 | Large       | ~1 week    	  | TBD |
-| 8    	 | X-Large     | ~2 weeks    	  | TBD |
-| 13+    | XXL         | >>2 weeks    	  | TBD |
+| 3         | Medium      | ~3 days          | TBD |
+| 5         | Large       | ~1 week          | TBD |
+| 8         | X-Large     | ~2 weeks          | TBD |
+| 13+    | XXL         | >>2 weeks          | TBD |
 
-- Approximate  time estimate - is time spent actively working on the issue: from design to requesting the review   
-- It is not manadatory to create Trivial tasks 
-- Consider breaking down Large tasks into smaller items 
+- Approximate  time estimate - is time spent actively working on the issue: from design to requesting the review
+- It is not manadatory to create Trivial tasks
+- Consider breaking down Large tasks into smaller items
 - XL and XXL tasks has to be broken down into smaller tasks and might require creating Spike issue first
 
 

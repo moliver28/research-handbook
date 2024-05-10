@@ -70,7 +70,7 @@ After your access request as been approved, team members should follow these ste
 - You should then land in the learner dashboard where you can start scrolling through courses and exams. Click any title to begin.
 - For support, please log a ticket at [trainingsupport.linuxfoundation.org](http://trainingsupport.linuxfoundation.org/)
 
-### FAQs:
+### FAQs
 
 **How many exams can I take?**
 

@@ -109,7 +109,7 @@ Patch releases are scheduled twice a month on the second and fourth Wednesdays, 
 
 Patches fix regressions in the current self-managed release and vulnerabilities in the current and previous two GitLab versions.
 
-If you're a GitLab engineer looking: 
+If you're a GitLab engineer looking:
 - To include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers].
 - To include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers].
 
@@ -266,7 +266,7 @@ Depending on the bug details, follow one of the following processes:
 | Maintenance Policy | [Link](https://docs.gitlab.com/ee/policy/maintenance.html) |
 | Reaching us | [How to find us](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team) |
 
-___________
+---
 
 If you need any additional help please ask the Release Managers in the [#releases] Slack channel.
 

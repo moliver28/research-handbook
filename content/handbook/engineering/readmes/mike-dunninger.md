@@ -16,7 +16,7 @@ description: "Personal readme page for Mike Dunninger, Support Engineering Manag
 - Be available for you to lean on me
 - Give you many opportunities to stand on your own two feet
 
-### I Expect...
+### I Expect
 - **honesty, integrity and professionalism**
 - that you share and will act in accordance with [GitLab's Values](/handbook/values/)
 - understanding of GitLab's business and goals
@@ -31,7 +31,7 @@ description: "Personal readme page for Mike Dunninger, Support Engineering Manag
 - respect for each other, our company, and our customers
 - for all of us to have fun
 
-### I Believe...
+### I Believe
 
 - in the individual
 - in the team
