@@ -134,6 +134,25 @@ Could we get assistance to fix the delay?
 Thank you!
 ```
 
+##### Recovering events incorrectly marked as "bad"
+
+Events can be incorrectly marked as "bad" because of accidentally incorrect events being emitted. This is most likely to to happen after an event schema update
+like in this [example issue](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17782) where new properties were added to contexts.
+Such events can be recovered by reprocessing them.
+
+1. Choose the way to emit events:
+   1. If the amount of data is a few gigabytes, it's possible to use local machine.
+   2. Another option is to use an EC2 instance in the same region as the Snowplow collector to speed up the process as the amount of http requests will be significant.
+      Consider at least  an `x2.large` instance as concurrent events processing is relatively CPU heavy.
+      Uncompressed events take about 70% more space than downloaded zipped files, consider at least 300Gb HDD volume.
+      In order to install gem dependencies on Linux, extra packages might be required. For example, Ubuntu will need `build-essential` for gcc and make.
+2. Download events from `enriched-bad` S3 folder using `aws` CLI `aws s3 cp s3://gitlab-com-snowplow-events/enriched-bad/{year}/{day}/{day} {local_folder} --recursive` and un-archive them `gunzip -r .`.
+3. Checkout [snowplow anonymizer repository](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/snowplow-pseudonymization). It contains classes necessary to de-serialize binary base64 encoded payload.
+4. Create a processing script to fix the payloads and re-submit data. An important point to consider:
+`collector_tstamp` will be different after re-submitting the events. This field likely will have to be set `dvce_sent_tstamp` in the DW
+   to avoid data corruption. [Example script](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/internal/-/blob/master/scripts/bad_events_reprocessing.rb).
+
+
 ## Service Ping
 
 ### Monitoring
