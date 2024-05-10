@@ -37,7 +37,7 @@ Support all our counterparts with frontend engineering expertise, including impl
 
 The following people are permanent members of the Create:Source Code FE Team:
 
-{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Code Review" team=".*Frontend.*Create:Source Code" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*Frontend.*Create:Source Code" >}}
 
 ## Stable Counterparts
 
