@@ -36,29 +36,20 @@ used in cases where the feature is causing significant performance degradition.
 
 ## Other properties that can be enabled/disabled
 
-### The `pre_receive_secret_detection_beta_release` flag
+### Enabling/Disabling for a project
 
-The `pre_receive_secret_detection_beta_release` flag will be used to
-enable the [Secret Detection section in the Security and Compliance Admin
-section](https://gitlab.com/admin/application_settings/security_and_compliance
-) (https://gitlab.com/admin -> Settings -> Security and Compliance)
-, but _**turning the flag on does not turn on pre-receive secret
-detection**_. Conversely, turning the flag off does not turn
-the feature off.
+This can only be changed by a Maintainer, or above, for the project and is the preferred method for disabling a project.
 
-Check the status of the `pre_receive_secret_detection_beta_release`
-feature flag:
+With the `pre_receive_secret_detection_push_check` feature flag on for a
+given project, pre-receive secret detection can be toggled for the
+project through the security configuration page for the project.
+Instructions can be found in this [in-progress documentation MR](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#enable-pre-receive-secret-detection-for-a-specific-project),
+but will eventually be added to the docs.
 
-`/chatops run feature get pre_receive_secret_detection_beta_release`
-
-Enable the feature flag:
-
-`/chatops run feature set pre_receive_secret_detection_beta_release true`
-
-Disable the feature flag:
-
-`/chatops run feature set pre_receive_secret_detection_beta_release
-false`
+When both the feature flag and the setting are on, git pushes to the
+project should be stopped when they contain a secret. As a test,
+`glpat-12345678901234567890` should be prevented when pushing
+(from the terminal, the Web IDE, etc.)
 
 ### The `pre_receive_secret_detection_push_check` feature flag
 
@@ -84,20 +75,31 @@ Disable for a project:
 `/chatops run feature set --project=the-namespace/of-the-project
 pre_receive_secret_detection_push_check false`
 
-### Project pre-receive secret detection setting
+### The `pre_receive_secret_detection_beta_release` flag
 
-With the `pre_receive_secret_detection_push_check` feature flag on for a
-given project, pre-receive secret detection can be toggled for the
-project through the security configuration page for the project.
-Instructions can be found in this [in-progress documentation MR](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#enable-pre-receive-secret-detection-for-a-specific-project),
-but will eventually be added to the docs.
+The `pre_receive_secret_detection_beta_release` flag will be used to
+enable the [Secret Detection section in the Security and Compliance Admin
+section](https://gitlab.com/admin/application_settings/security_and_compliance
+) (https://gitlab.com/admin -> Settings -> Security and Compliance)
+, but _**turning the flag on does not turn on pre-receive secret
+detection**_. Conversely, turning the flag off does not turn
+the feature off.
 
-When both the feature flag and the setting are on, git pushes to the
-project should be stopped when they contain a secret. As a test,
-`glpat-12345678901234567890` should be prevented when pushing
-(from the terminal, the Web IDE, etc.)
+Check the status of the `pre_receive_secret_detection_beta_release`
+feature flag:
 
-# Resolving and skipping blocked pushes
+`/chatops run feature get pre_receive_secret_detection_beta_release`
 
-[Resolving a blocked push]([in-progress documentation MR](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#resolve-a-blocked-push)) and [Skipping secret detection]([in-progress documentation MR](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#skip-secret-detection))
+Enable the feature flag:
+
+`/chatops run feature set pre_receive_secret_detection_beta_release true`
+
+Disable the feature flag:
+
+`/chatops run feature set pre_receive_secret_detection_beta_release
+false`
+
+## Resolving and skipping blocked pushes
+
+[Resolving a blocked push](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#resolve-a-blocked-push)) and [Skipping secret detection](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#skip-secret-detection))
 are both documented in the in-progress documentation MR.
