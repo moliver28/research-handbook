@@ -29,7 +29,7 @@ detection](https://docs.gitlab.com/ee/user/application_security/secret_detection
 
 To **disable the feature across all of Gitlab.com**, disable pre-receive
 secret detection, [as described in the
-docs](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive/index.html#enable-pre-receive-secret-detection). This will require a change access request ([staging example](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17838)), as it requires administrator access.
+docs](https://docs.gitlab.com/ee/user/application_security/secret_detection/pre_receive/index.html#enable-pre-receive-secret-detection). This will require a change access request ([production example](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/1790)), as it requires administrator access.
 
 This will disable the feature for all Gitlab.com users and should be
 used in cases where the feature is causing significant performance degradition.
@@ -101,5 +101,5 @@ false`
 
 ## Resolving and skipping blocked pushes
 
-[Resolving a blocked push](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#resolve-a-blocked-push)) and [Skipping secret detection](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#skip-secret-detection))
+[Resolving a blocked push](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#resolve-a-blocked-push) and [Skipping secret detection](https://gitlab.com/gitlab-org/gitlab/-/blob/05d3748d29a047946b173af51141137fafb049a8/doc/user/application_security/secret_detection/pre_receive/index.md#skip-secret-detection)
 are both documented in the in-progress documentation MR.
