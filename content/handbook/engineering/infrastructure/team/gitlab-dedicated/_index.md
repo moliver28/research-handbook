@@ -541,7 +541,7 @@ and is not expected to be perfect in every situation.
 Do your best,
 and understand that the process is inherently imprecise and fuzzy at the edges.
 
-The Dedicated capacity process process is built on top of [Tamland].(/handbook/engineering/infrastructure/team/scalability/observability/tamland/)
+The Dedicated capacity process process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/)
 
 The overall flow of work is to assess any new reported saturation risks,
 and re-review any which are due to be looked at again.
