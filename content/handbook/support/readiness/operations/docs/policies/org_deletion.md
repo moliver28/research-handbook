@@ -32,9 +32,11 @@ Zendesk.
 
 Once a week, on Monday, the Organization Deletion project for the corresponding
 Zendesk instance will make a Slack post within the channel
-[support_ops-audit-events](https://gitlab.enterprise.slack.com/archives/C04A6E1KB89)
+[#support_ops-audit-events](https://gitlab.enterprise.slack.com/archives/C04A6E1KB89)
 (private channel) with information about organizations slated for deletion in
-that week's upcoming Friday (if there are any to report on).
+that week's upcoming Friday (if there are any to report on). The script
+reporting on this will omit reporting organizations have tickets within the last
+120 days or have an open SFDC opportunities.
 
 To prevent any organizations from being added to the search criteria in the time
 when this report is run and when the deletions occur, an organization tag of
@@ -49,16 +51,17 @@ deleting organizations actually valid for it (and ensure no tooling mistakes).
 When reviewing the list, be sure to check all the below areas. If everything
 looks to be accurate and correct, no action is needed. If you see **anything**
 that seems amiss, add the tag `do_not_delete` to the organization to ensure said
-organization is not deleted.
+organization is not deleted. You should also remove the tag `to_be_deleted` to
+clean up the organization.
 
-- [ ] [No tickets created within 6 months](#no-tickets-created-within-6-months)
+- [ ] [No tickets created within 120 days](#no-tickets-created-within-120-days)
 - [ ] [No open opportunities in SFDC](#no-open-opportunities-in-sfdc)
 - [ ] [No recent chatter indicating renewal](#no-recent-chatter-indicating-renewal)
 
-#### No tickets created within 6 months
+#### No tickets created within 120 days
 
 Check the organization in question for any tickets that have been created within
-the last 6 months. If there are any, this organization should not be deleted.
+the last 120 days. If there are any, this organization should not be deleted.
 
 #### No open opportunities in SFDC
 
