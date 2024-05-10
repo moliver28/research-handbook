@@ -292,6 +292,9 @@ that need to be regularly completed:
 
 Schedule for Docs project maintenance tasks:
 
+- August, 2024: {{< member-by-name "Jon Glassman" >}}
+- July, 2024: {{< member-by-name "Ashraf Khamis" >}}
+- June, 2024: {{< member-by-name "Evan Read" >}}
 - May, 2024: {{< member-by-name "Lorena Ciutacu" >}}
 - April, 2024: {{< member-by-name "Lysanne Pinto" >}}
 - March, 2024: {{< member-by-name "Amy Qualls" >}}
@@ -302,9 +305,6 @@ Schedule for Docs project maintenance tasks:
 - October, 2023: {{< member-by-name "Russell Dickenson" >}}
 - September, 2023: {{< member-by-name "Evan Read" >}}
 - August, 2023: {{< member-by-name "Kati Paizee" >}}
-- July, 2023: {{< member-by-name "Diana Logan" >}}
-- June, 2023: {{< member-by-name "Ashraf Khamis" >}}
-- May, 2023: {{< member-by-name "Fiona Neill" >}}
 
 ## Reviews
 
