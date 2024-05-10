@@ -97,7 +97,7 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 1. To mark the merge request ready to merge, click the **Mark as ready** button. This removes `Draft:` from your MR’s title.
 
-    >  You now have an active merge request for merging the `new-feature` branch into the `master` branch. The page you are on shows the details of that merge request, including the status of the last pipeline that was run on the `new-feature` branch (you might have to refresh the page to see the pipeline status). GitLab will run a new pipeline every time you commit to the `new-feature` branch.
+    > You now have an active merge request for merging the `new-feature` branch into the `master` branch. The page you are on shows the details of that merge request, including the status of the last pipeline that was run on the `new-feature` branch (you might have to refresh the page to see the pipeline status). GitLab will run a new pipeline every time you commit to the `new-feature` branch.
 
 1. The Auto DevOps pipeline automatically executes with your merge request. This pipeline contains various stages and jobs. As the pipeline runs, you will see new sections appear inside of your MR. Once the pipeline completes, refresh the page to see the results.
 
@@ -111,11 +111,11 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 - The **test** stage, which runs various tests on your application code to ensure it is secure and high quality. A few of the jobs are explained below:
 
-    * The License Compliance scan will scan to detect any new licenses added to the project. Select **Full report** in the License Compliance section to see the scan details. After viewing the report, return to the pipeline.
+    - The License Compliance scan will scan to detect any new licenses added to the project. Select **Full report** in the License Compliance section to see the scan details. After viewing the report, return to the pipeline.
 
-    * The Code Quality scan will scan to detect if the code quality has changed between the main and the merge request code. If any code quality issues exist, they will be flagged in this section.
+    - The Code Quality scan will scan to detect if the code quality has changed between the main and the merge request code. If any code quality issues exist, they will be flagged in this section.
 
-    * The Security Scanning section will check if any new vulnerabilities have been introduced in the code. Select **View all pipeline findings** in the Security Scanning section to see the scan details.
+    - The Security Scanning section will check if any new vulnerabilities have been introduced in the code. Select **View all pipeline findings** in the Security Scanning section to see the scan details.
 
 - The **dast** stage, which uses a running version of your application to check if there are any known vulnerabilities that it can find by running API calls on your application. Since we did not configure a live environment for the DAST job to scan, we do not need to worry about this job.
 

@@ -300,7 +300,7 @@ If you, as a GitLab team member, would like to add a vendor aligned with the cri
 
 ### Snipe-IT
 
-The End User Services Team has been busy iterating and setting up [Snipe-IT open source asset management](https://snipeitapp.com/). As of April 2021, GitLab has an asset-tracking application that is the source of truth for all GitLab hardware! 
+The End User Services Team has been busy iterating and setting up [Snipe-IT open source asset management](https://snipeitapp.com/). As of April 2021, GitLab has an asset-tracking application that is the source of truth for all GitLab hardware!
 
 How does it work exactly?
 
@@ -374,7 +374,7 @@ IT Ops has an automated workflow that triggers upon a notification from PeopleOp
 - The FTM’s account will be moved to NoGSuiteLicense OU
 - The Google Workspace License is removed from the account
 
-#### The following notifications will be sent out to the FTM’s manager and IT over Slack.
+#### The following notifications will be sent out to the FTM’s manager and IT over Slack
 
 **Immediate Slack notification:**
 

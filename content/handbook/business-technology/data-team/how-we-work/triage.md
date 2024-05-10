@@ -28,7 +28,7 @@ Steps to uplevel triaging process:
 
 ### Enterprise Data Triage Groups
 
-| Triage Group Name   | Triage Slack Alias  | Triage Group Members  |  
+| Triage Group Name   | Triage Slack Alias  | Triage Group Members  |
 | -------------- | ------------------- | -------------------- |
 | Go To Market Analytics Triage | `@GTMAnalyticsTriage` |  Sales Strategy & Analytics Team, Marketing Strategy and Performance Team, Business Insights and Analytics Team, GTM Data Fusion Team |
 | R&D Analytics Triage | `@R&DAnalyticsTriage` | Product Data Insights Team, R&D Data Fusion Team |
@@ -39,7 +39,7 @@ Steps to uplevel triaging process:
 
 ### Enterprise Data GitLab Projects
 
-| Link to GitLab Data Projects |  
+| Link to GitLab Data Projects |
 | -------------- |
 | [Data Team](https://gitlab.com/gitlab-data/analytics) |
 | [Sales Strategy and Analytics](https://gitlab.com/gitlab-com/sales-team/field-operations/analytics) |
@@ -61,12 +61,12 @@ Steps to uplevel triaging process:
 |                   | GTM Data Fusion | | `@Peter Empey` |  |  |    | `@Michelle Cooper` |
 | `@R&DAnalyticsTriage` | Product Data Insights |  | `@Matthew Petersen` `@Carolyn Braza` | `@Dave Peterson` | `@Emma Neuberger` | `@Nicole Hervas` | `@Neil Raisinghani` |
 |                   | R&D Data Fusion | | `@utkarsh060` |  | `@Chris Sharp`  | `@snalamaru`  |   |
-| `@PeopleAnalyticsTriage` | People Analytics | |  | | | `@Adrian Pérez` `@rakhireddy` | | 
-|                   | G&A Data Fusion | | `@Peter Empey` | `@lisvinueza`  | | | |  
-| `@EngineeringAnalyticsTriage` | Engineering Analytics |  |  | `@Raul Rendon` | |  `@lily` | 
+| `@PeopleAnalyticsTriage` | People Analytics | |  | | | `@Adrian Pérez` `@rakhireddy` | |
+|                   | G&A Data Fusion | | `@Peter Empey` | `@lisvinueza`  | | | |
+| `@EngineeringAnalyticsTriage` | Engineering Analytics |  |  | `@Raul Rendon` | |  `@lily` | |
 |                   | Engineering Data Fusion |  | `@Peter Empey`  | `@lisvinueza` |  |     |     |
 | `@DataPlatformTriage` | Data Platform | | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation |
-| `@TableauTriage` | Analytics & Insights |  | `@Peter Empey`  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation | 
+| `@TableauTriage` | Analytics & Insights |  | `@Peter Empey`  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
 
 
 #### Data Platform weekly rotation schedule
@@ -84,7 +84,7 @@ Because of public holidays or unforeseen circumstances (Family and Friends day e
 
 #### Tableau weekly rotation schedule
 
-For days that show `Weekly rotation` on the Tableau triage schedule, i.e. Tuesday - Friday, the triage responsibilities will be rotated between Enterprise Data Analysts. 
+For days that show `Weekly rotation` on the Tableau triage schedule, i.e. Tuesday - Friday, the triage responsibilities will be rotated between Enterprise Data Analysts.
 
 ### Enterprise Data Program Triage Instructions
 
@@ -116,7 +116,7 @@ Data triagers are the first responders to requests and problems for the Data Pro
        - A standing issue or incident could not be solved by the triager and triager need help from other Data Platform Team members.
        - Monitoring #data-prom-alerts:
           - The #data-prom-alerts slack channel is used for the most urgent breaking events, which requires **immediate** action. It is the responsibility of all Data Platform Team members to ensure action is taken in time after office hours of the triager.
-       - Assistance from the Data Platform Team is needed by other GitLab Team members and this is outside of the office hours of the triager.  
+       - Assistance from the Data Platform Team is needed by other GitLab Team members and this is outside of the office hours of the triager.
     - Monte Carlo incidents are posted in the `#data-pipelines` Slack channel (except schema changes). Because Monte Carlo only initially notifies an incident, checking the Monte Carlo Incident page is needed to avoid missing any incidents. **Schema changes** are filtered out using [this link](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach), because these don't require action (and are also not reported in the Slack channel). **All Monte Carlo incidents need to be given an appropriate resolution status or linked to an assigned GitLab issue end of day.**
       - Note: Currently there is a large backlog of unclassified incidents in MonteCarlo. We currently focus only on the last 7 days.
 - The Analytics Engineer triager is primarily responsible for resolving `dbt-test` and `dbt-run` errors. Issues created from these errors should use the [AE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/issues/new?issuable_template=Triage%20Errors%20AE).
@@ -125,7 +125,7 @@ Data triagers are the first responders to requests and problems for the Data Pro
 We will iterate on triage responsibilities to include additional activities such as extract refresh failure review, job failure review, etc. as the team expands.
 - For more information on responsibilities of a triager watch the [Data Engineer triage training session video](https://www.youtube.com/watch?v=0eGpgaQgEGg).
 
-```
+```text
 Data Analysts
 - Respond to #data questions and assign to right Triage group
 - Respond to new unassigned issues in our project and assign to the right team
@@ -238,7 +238,7 @@ The following actions are performed by Data Team Triager:
       - A new issue is opened in the `GitLab Data Team project`, assigned to the correct DRI and linked to the original MR.
       - Impact will be determined in the issue.
       - Any MRs will be created to overcome loading issues, downstream dbt processing and Tableau usage.
-         - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change. 
+         - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change.
       - According to the Merge of the GitLab.com MR, merge will be planned.
    - If the `MR` does not contains the label `group::product intelligence` and it concerns changes to `SQL` structure:
       - Check if it will break the operation / data pipeline, following the Determination matrix below.
@@ -250,7 +250,7 @@ The following actions are performed by Data Team Triager:
       - A new issue is opened in the `GitLab Data Team project`, assigned to the correct DRI and linked to the original MR.
       - Impact will be determined in the issue.
       - Any MRs will be created to overcome loading issues, downstream dbt processing and Tableau usage.
-         - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change. 
+         - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change.
       - According to the Merge of the GitLab.com MR, merge will be planned.
       - All stakeholders will be informed.
 
@@ -267,14 +267,14 @@ flowchart TD
        CLABEL
        CHANGE_LABEL_I
        CHECK_DDL
-    end 
+    end
     CHECK_BOARD(Check MRs on the board) --> ADDITIONAL_LABEL{Does MR has a label: `group::product intelligence`}
     ADDITIONAL_LABEL --Yes--> CHECK_ORIGINAL_ISSUE_PI{{Check code in the original MR}}
     ADDITIONAL_LABEL --No--> CHECK_DDL{Will DDL break in the operation}
     CHECK_DDL --Yes--> CHANGE_LABEL_I(Change label to `Data Warehouse::Impacted`)
     CHECK_DDL --No-->CLABEL(Changed label to `Data Warehouse::Not Impacted`)
     CHANGE_LABEL_I-->OI(Open an new issue is opened in the `GitLab Data Team project`)
-    subgraph "Data team project" 
+    subgraph "Data team project"
        OI-->IM(Impact will be determined in the issue)
        IM-->CHECK(Check downstream dbt processing and Tableau usage)
        CHECK-->PL(Plan MR)
@@ -284,7 +284,7 @@ flowchart TD
     CLABEL-->END
     OK_SQL--Yes-->CLABEL
     OK_SQL--No-->CHANGE_LABEL_I
-    subgraph "group::product intelligence" 
+    subgraph "group::product intelligence"
         CHECK_ORIGINAL_ISSUE_PI -->SQL[(Find and execute SQL statement)]
         SQL--Execute-->OK_SQL{Is SQL executed properly}
 
@@ -309,7 +309,7 @@ Determination matrix: **
 
 *We are not loading all the tables and columns by default. Thus if new tables or columns are added, we only will load these tables if there is a specific business request. Any change to the current structure that causes a potential break of operation needs to be determined.
 
-** Determination matrix is not extensive. Every MR should be checked carefully.  
+** Determination matrix is not extensive. Every MR should be checked carefully.
 
 ## Triage common issues
 
@@ -319,7 +319,7 @@ In this section we state down common issues and resolutions
 
 In a situation when gitlab_dotcom postgres replica snapshot is not built correctly, the task `check_replica_snapshot` inside the extract DAG's fail for MAIN and/or CI db, which indicates either that the replica snapshot is not rebuilt/accessible or the `pg_last_xact_replay_timestamp` value was not present.The error message generated from task failure would indicate errors with the replica database connectivity or database system starting up and the error in the task would look something similar like this:
 
-```
+```console
 [2023-07-15 13:04:48,022] INFO - b'psycopg2.OperationalError: could not connect to server: Connection refused\n'
 [2023-07-15 13:04:48,022] INFO - b'\tIs the server running on host "{db_instance_ip}" and accepting\n'
 [2023-07-15 13:04:48,022] INFO - b'\tTCP/IP connections on port {port}?
@@ -341,41 +341,49 @@ In this example, we have used Zuora `subscription` table, but this could be appl
 
 #### Step 1:- Rename existing table with the date suffix to identity the backup, recommended format YYYYMMDD
 
+```sql
     ALTER TABLE "RAW"."ZUORA_STITCH"."SUBSCRIPTION" RENAME TO "RAW"."ZUORA_STITCH"."SUBSCRIPTION_20210903";
+```
 
-#### Step 2:- Pause the regular integration.
+#### Step 2:- Pause the regular integration
 
 ![Pause Regular integration](/images/Stitch_table_reset/Stitch_2.png "Stitch_int_2")
 
-#### Step 3:- Create a new integration Zuora-Subscription in Stitch.
+#### Step 3:- Create a new integration Zuora-Subscription in Stitch
 
 While setting it up setup the extraction frequency to 30 minutes and date from extraction to 1st Jan 2012 to ensure all data gets pulled through.
 
 ![With only the subscription table to replicate](/images/Stitch_table_reset/Stitch_1.png "Stitch_int_1")
 
-#### Step 4:- Run the newly created integration..
+#### Step 4:- Run the newly created integration
 
 Try running the newly created integration manually and wait for it to complete. Once completed then and it shows on the home page successfully. Once done Pause the newly integration task because we don't want any misaligned data while we follow the next steps.
 
-#### Step 5:- Check for the records.
+#### Step 5:- Check for the records
 
 In the newly created table `"RAW"."ZUORASUBSCRIPTION"."SUBSCRIPTION"` cross-check the number of rows showing as loaded in the integration UI in stitch and loaded in the table is same.
 
-#### Step 6:- Create the table in the main schema.
+#### Step 6:- Create the table in the main schema
 
 Move the newly loaded data to `ZUORA_STITCH` schema because the new integration will create the table in the `ZUORASUBSCRIPTION` as stated above in the image.
 
+```sql
     CREATE TABLE "RAW"."ZUORA_STITCH"."SUBSCRIPTION" CLONE  "RAW"."ZUORASUBSCRIPTION"."SUBSCRIPTION";
 **Note:** Check for the primary key present in the table post clone or not if not check for the primary key in the [link](https://www.stitchdata.com/docs/integrations/saas/zuora#subscription) and add the constraints on those columns.
+```
 
-#### Step 7:- Make records count check to ensure we don't have fewer records in the new table.
+#### Step 7:- Make records count check to ensure we don't have fewer records in the new table
 
+```sql
     select count(*) from "RAW"."ZUORA_STITCH"."SUBSCRIPTION_20210903" where deleted = 'FALSE';
     select count(*) from "RAW"."ZUORA_STITCH"."SUBSCRIPTION" ;
+```
 
 #### Step 8:- Drop the new schema
 
+```sql
     DROP SCHEMA "RAW"."ZUORASUBSCRIPTION"  CASCADE ;
+```
 
 #### Step 9:- Delete temp Zuora-Subscription integration and enable regular integration
 
@@ -384,10 +392,12 @@ Move the newly loaded data to `ZUORA_STITCH` schema because the new integration 
 This is to ensure that error observed previously to the table is gone and data is getting populated in the table.
 Check on duplicate ids due to 2 different extractors, to ensure the data is getting populated in the table correctly.
 
+```sql
     select id, count(*) from "RAW"."ZUORA_STITCH"."SUBSCRIPTION"
     group by id
     having count(*) > 1
 **Note** Refer to the [MR (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/10065#note_668365681) for more information.
+```
 
 ### Source freshness errors
 
@@ -417,7 +427,7 @@ See the [source contact spreadsheet](https://docs.google.com/spreadsheets/d/1VKv
 
 When got an error for model `version_usage_data_unpacked` and error looks like:
 
-```
+```console
 [2022-01-26 11:56:32,233] INFO - b'\x1b[33mDatabase Error in model version_usage_data_unpacked (models/legacy/version/xf/version_usage_data_unpacked.sql)\x1b[0m\n'
 [2022-01-26 11:56:32,233] INFO - b' 000904 (42000): SQL compilation error: error line 241 at position 12\n'
 [2022-01-26 11:56:32,233] INFO - b" invalid identifier '{metrics_name}'\n"
@@ -437,7 +447,7 @@ Sometimes Zuora Revenue source system as part of a certain release modify the so
 
 For example, there was 3 additional column added to table `BI3_RC_POB` which lead to the below error message.
 
-```
+```console
 [2022-03-21, 13:26:48 UTC] INFO - sqlalchemy.exc.ProgrammingError: (snowflake.connector.errors.ProgrammingError) 100080 (22000): 01a31326-0403-d02c-0000-289d37f10d4e: Number of columns in file (102) does not match that of the corresponding table (99), use file format option error_on_column_count_mismatch=false to ignore this error
 [2022-03-21, 13:26:48 UTC] INFO -   File 'RAW_DB/staging/BI3_RC_POB/BI3_RC_POB_12.csv', line 3, character 1
 [2022-03-21, 13:26:48 UTC] INFO -   Row 1 starts at line 2, column "BI3_RC_POB"[102]
@@ -450,7 +460,7 @@ Below are set of steps that will guide you to resolve this.
 
 **Step 1:-**  Download the first file from the storage to local to view the additional column. For any file, only the file name and folder name should be modified.
 
-```
+```console
 gsutil cp  gs://zuora_revpro_gitlab/RAW_DB/staging/BI3_RC_POB/BI3_RC_POB_1.csv .
 ```
 
@@ -458,8 +468,8 @@ For any other file, only the file name and folder name should be modified. For e
 
 **Step 2:-** Once the file is downloaded look for the header of the file using the below command
 
-```
-head -1 BI3_RC_POB_1.csv 
+```console
+head -1 BI3_RC_POB_1.csv
 ```
 
 **Step 3:-** Pull out the current table definition from snowflake using the below query
@@ -478,7 +488,7 @@ Deploy the modified SQL.
 
 **Step 4:-** Move the log file from the process folder to the staging folder of the table.
 
-```
+```console
 gsutil cp gs://zuora_revpro_gitlab/RAW_DB/processed/22-03-2022/BI3_RC_POB/BI3_RC_POB_22-03-2022.log  gs://zuora_revpro_gitlab/RAW_DB/staging/BI3_RC_POB/
 ```
 
@@ -486,7 +496,7 @@ The point to consider in this command is the date in the path and the log file n
 
 Validate in [GCS storage](https://console.cloud.google.com/storage/browser/zuora_revpro_gitlab/RAW_DB/staging?project=gitlab-analysis&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false) that the log file is present for the respective table.
 
-**Step 5:-** Re-run the task from the airflow by clearing the task.  
+**Step 5:-** Re-run the task from the airflow by clearing the task.
 
 
 ## Triage FAQ
@@ -518,4 +528,3 @@ Yes, the benefit of our presence is that we have a wide overage of hours. If the
 e.g. For cleaning up Airflow logs:
 
 `^(?!.*(Failure in test|Database error)).*$`
-

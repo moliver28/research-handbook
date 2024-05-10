@@ -213,7 +213,7 @@ We understand that working remotely leads to mostly work-related conversations w
 
 It's a great chance to get to know who you work with, talk about everyday things and share a coffee, tea, or your favorite beverage. We want you to make friends and build relationships with the people you work with to create a more comfortable, well-rounded environment.
 
-#### Scheduling a Coffee Chat
+### Scheduling a Coffee Chat
 
 GitLab Team Members can easily schedule a Coffee Chat in Google Calendar and link it to Zoom, with a 1-click link to the video call. When scheduling coffee chats with executive leadership, please reach out to their EBA to find a mutually available time. If they are not on the list in the [EBA Handbook]({{< ref "eba#executive-business-administrator-team" >}}), please follow the steps below:
 
@@ -226,7 +226,7 @@ Watch this [short video](https://youtu.be/zbbEn_PznK0) to see how it's done.
 
 Google Calendar will warn you if the time is outside the other person's working hours, and you can select from a list of suggested times.
 
-#### Diversifying your Coffee Chats
+### Diversifying your Coffee Chats
 
 Coffee Chats are a fantastic opportunity to intentionally broaden your perspective at GitLab. Some suggestions on intentional Coffee Chats:
 
@@ -445,6 +445,6 @@ In this section, we'll spotlight tips and advice from other experts and companie
 
 Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

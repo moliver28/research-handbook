@@ -415,7 +415,7 @@ access, you need to run [❄️ Snowflake > 🔑grant_clones](/handbook/business
 
 {{% panel header="**IMPORTANT**" header-bg="info" %}}
 1. This job only creates grants on existing objects and will not apply to any additional
-models created after the job runs. Be sure to clone and build all required models _before_
+models created after the job runs. Be sure to clone and build all required models *before*
 running the job.
 1. This job only creates grants on objects that already exist in PREP or PROD (i.e., existing
 models). If it is a net-new model, you still need to ping a DE to grant access to the new

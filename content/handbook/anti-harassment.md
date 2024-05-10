@@ -243,7 +243,7 @@ In addition to the prohibitions listed above, team members are prohibited from a
 1. Where the employee is unhappy with the outcome of the formal investigation, they have the right to appeal against the outcome if they can demonstrate why they believe a particular aspect of the investigation has materially affected the outcome. Appeals must be submitted within 10 working days of receiving the outcome of the complaint.
 1. If an appeal is submitted, the People Business Partner will arrange a meeting to take place with the appeal chair within a reasonable time period. The appeal chair’s decision will be final and there is no further right of appeal. The appeal chair will be independent of the investigation.
 
-### GitLab Ireland Ltd.
+### GitLab Ireland Ltd
 
 **Complaint Procedure and Contacts**
 

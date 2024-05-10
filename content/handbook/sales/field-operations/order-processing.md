@@ -241,7 +241,7 @@ During the Sales process, a customer who would not otherwise be exempt from Auto
 3. Once approved, generate a PDF. That PDF will include legal language in the "Notes" section that opts the customer out of the applicable SuperSonics Feature.
   - Any subsequent Add-Ons will maintain the contractual opt-out.
 
-#### How To Temporarily Pause Auto-Renewal, Quarterly Subscription Reconciliation, and Operational Data:
+#### How To Temporarily Pause Auto-Renewal, Quarterly Subscription Reconciliation, and Operational Data
 
 During the Sales process, there may be a need for Sales to "pause" an upcoming Auto-Renewal or Quarterly Subscription Reconciliation while negotiating with the customer. Every pause will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If a pause is requested and approved, that feature will be temporarily disabled for the subscription in question until the next renewal occurs. A pause is not possible for Cloud Licensing.
 
@@ -392,7 +392,7 @@ A video tutorial can be found [**HERE**](https://www.youtube.com/watch?v=CIWdsqR
 
 You may contact Legal directly in Slack via #Legal
 
-#### Request editable version of GitLab Template:
+#### Request editable version of GitLab Template
 
 Within the Customer Opportunity:
 1. Click "Legal Request" (located at the top of the Opportunity SFDC layout)
@@ -429,7 +429,7 @@ NOTE: The above process may be used to also engage Contract Managers / Legal Mem
 
 **All communications, and versions of Agreements, should be kept in the Contract Request Case**
 
-#### Request GitLab Partner Agreement:
+#### Request GitLab Partner Agreement
 
 Within the Customer Opportunity:
 1. Click "Legal Request" (located at the top of the Opportunity SFDC layout)
@@ -452,7 +452,7 @@ Within the Customer Opportunity:
 <details>
 <summary markdown="span"><b>Creating legal dashboards or filing executed contracts</b></summary>
 
-#### Creating your own Legal Request Dashboard:
+#### Creating your own Legal Request Dashboard
 
 1. Creating your own Legal Request Dashboard will enable you to see all Open and Closed Legal Requests that have been created.
 1. The steps to do so are highlighted below, and also found in the recording located [here](https://gitlab.zoom.us/rec/share/--dWJbirp39Lf8_fyU7lY_E4D7zvX6a823IY8vtYyk4ReS25B7mI3HrdLUM8PXat)
@@ -592,7 +592,7 @@ The quoting system will provide visibility into the correct programmatic partner
 
 ### Service Attach Quote Approval
 
-#### Enterprise Service Attach Opportunity Criteria (All Products):
+#### Enterprise Service Attach Opportunity Criteria (All Products)
 
 IF:
 
@@ -605,7 +605,7 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $15,000
 
-#### Enterprise Service Attach Opportunity Criteria (Ultimate Only):
+#### Enterprise Service Attach Opportunity Criteria (Ultimate Only)
 
 Note: If the below criteria are met, this requirement will supersede the above "All Products" requirement.
 
@@ -621,7 +621,7 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $20,000
 
-#### Mid-Market Service Attach Opportunity Criteria:
+#### Mid-Market Service Attach Opportunity Criteria
 
 IF:
 
@@ -633,18 +633,18 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $15,000
 
-#### Service Attach Quoting Process:
+#### Service Attach Quoting Process
 
 If an opportunity meets the criteria listed above, the Minimum Professional Services Amount must be attached to the opportunity. Services can be attached using one of two methods:
 
 1. Add standard SKU professional services (i.e. Admin Training) totaling or exceeding the Minimum Professional Services Amount to the quote. Note: Custom services requiring a signed SOW must be quoted separately on a standalone opportunity - see below.
 2. Link a separate, standalone professional services opportunity with services totaling or exceeding the Minimum Professional Services Amount via the "PS Opportunity" field.
 
-#### Service Attach Exceptions/Approval Requirements:
+#### Service Attach Exceptions/Approval Requirements
 
 If an opportunity meets the criteria listed above, but does not meet the Minimum Professional Services Amount, or does not have a linked opportunity that meets the Minimum Professional Services Amount, the quote will require approval to sell the subscription deal without the minimum Service Attach.
 
-#### Service Attach Quote Approval Process:
+#### Service Attach Quote Approval Process
 
 1. Populate the "ProServ Exception Approval Notes" field on the quote with the following information:
   - What use cases are they adopting?
@@ -862,7 +862,7 @@ To send a digital copy of an Order Form to the customer via DocuSign:
  - You will receive email notifications to your GitLab email address when the document has been viewed, and when it has been signed.
 2. **When the document has been fully signed, it will automatically be attached to the opportunity.**
 
-#### Learning Resources:
+#### Learning Resources
 
 **Internal Resources:**
 - For a visual demo of GitLab’s DocuSign instance, review this [LevelUP Webinar from 2021-05-13](https://youtu.be/Dch4zaUQOeg)
@@ -1333,7 +1333,7 @@ graph LR;
 
 To view the status of an opportunity after it has been submitted for approval, **review the [7-Closing Stage Dashboard](https://gitlab.my.salesforce.com/01Z4M000000xeww).**
 
-#### Common errors when submitting an opportunity for approval:
+#### Common errors when submitting an opportunity for approval
 
 - Be sure to submit an opportunity for approval *on the opportunity* level, not the quote level.
 - Once submitted, the opportunity’s stage will update to “7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
@@ -1367,7 +1367,7 @@ Licensing emails sent to customers are captured and stored in Salesforce as an A
 
 Look for Task title: `Email: Your GitLab License File` of `Email: Your GitLab Activation Code`
 
-#### My customer didn't receive the License File or Activation Code! Help!
+#### My customer didn't receive the License File or Activation Code! Help
 
 Check out our [License & Renewal Workflows page](/handbook/support/license-and-renewals/workflows/)
 
@@ -1426,7 +1426,7 @@ The deal has closed, but the customer has questions, or worse, *problems*. You d
 
 Go to the right team who can support you with your request. **NOTE** It is so important to go directly to the correct team, they are often the only ones who can resolve the issue!
 
-#### When to contact Sales-Support:
+#### When to contact Sales-Support
 
 Be sure to review the [common questions after a deal has closed](### Post Sale Information) section. If you still have questions, tag Sales-Support on the relevant Closed Won opportunity.
 
@@ -1438,7 +1438,7 @@ Sales-support does not have the ability to:
     *Resolve Zendesk tickets or open Support issues
     * Access the LicenseApp - **we can't send trials, new licenses, or activation codes**
 
-#### When to contact Customer Support:
+#### When to contact Customer Support
 
 The customer support team is here to resolve technical errors related to the customers subscription. [**DO NOT GO TO CUSTOMER SUPPORT** for License issues until you have read this page](/handbook/support/internal-support/#should-i-contact-gitlab-support)
 

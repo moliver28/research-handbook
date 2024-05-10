@@ -4,13 +4,13 @@ title: "Field Functional Competencies"
 description: "GitLab field functional competencies define the critical skills, behaviors, and attitudes that GitLab field team members must demonstrate to successfully deliver desired outcomes. They provide a common language and consistent expectations for what good looks like for the GitLab field organization."
 ---
 
-# Field Functional Competencies  
+## Field Functional Competencies
 
 
 
 
 
-# What are Field Functional Competencies?
+## What are Field Functional Competencies?
 
 GitLab field functional competencies provide a common language and consistent expectations for “what good looks like” for the GitLab field organization (inclusive of Sales and Customer Success roles). They are intended to complement [GitLab’s values](/handbook/values/) and are comprised of specific behaviors that GitLab team members in a field role need to demonstrate consistently to be successful. These critical field skills and behaviors are not meant to be role or job-specific (as each role or job may have additional unique requirements), and how each competency is expressed or demonstrated may vary by role (e.g. by technical depth, engagement in different stages of the customer journey, team-specific expectations, etc.).
 
@@ -55,14 +55,14 @@ To drive efficiency, field team members should leverage the tools and processes 
 | Account Planning & Management | Creates and implements effective long-term account expansion strategies by leveraging standard processes, tools, and content (including customer use cases and sales plays) |
 | Resource Orchestration | Engages partners and internal resources and leverages tools at the right time and in the right manner to move the customer forward while prioritizing time and resources. |
 
-# Proficiency Levels
+## Proficiency Levels
 
 Competency proficiency rating levels align with GitLab’s enterprise-wide performance categories:
 - [Developing](/handbook/people-group/talent-assessment/#developing)
 - [Performing](/handbook/people-group/talent-assessment/#performing)
 - [Exceeding](/handbook/people-group/talent-assessment/#exceeding)
 
-# Practical Application
+## Practical Application
 
 Field team members and their managers are encouraged to have regular coaching and development conversations to assess individual and team strengths and areas of opportunity across all competencies and the supporting/example skills and behaviors. More specifically, managers in the field organization should:
 1. Encourage team members to conduct their own self-assessment to

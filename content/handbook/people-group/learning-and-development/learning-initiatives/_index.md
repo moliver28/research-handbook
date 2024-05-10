@@ -130,7 +130,7 @@ After the Call:
 1. Embed video on the related Handbook page.
 1. Edit page with new content, create sub-page, send MR in the `#CEO` channel with a proposal for an interactive handbook discussion.
 
-### List of CEO Handbook Learning Sessions:
+### List of CEO Handbook Learning Sessions
 
 1. [Common misperceptions about Iteration](https://www.youtube.com/watch?v=nXfKtnVUhvQ)
 1. [No Matrix Organization](https://www.youtube.com/watch?v=E_wegGRv4mA)

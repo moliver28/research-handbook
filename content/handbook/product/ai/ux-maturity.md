@@ -40,6 +40,5 @@ See [guidelines for AI solution validation](/handbook/product/ux/ux-research/res
 
 It's also important to include AI response accuracy in your success metrics. AI-powered features can generate a response or output that is incorrect, irrelevant, or harmful. The risk of an incorrect response depends on the feature. It's important to test the AI system's responses as part of a formative evaluation. For example, you can have one or more expert evaluators (internal or external) test different scenarios to assess the AI responses.
 
-[ai-uxr-handbook]: /handbook/product/ux/ux-research/research-in-the-AI-space/
 [experiment-beta-ga-docs]: https://docs.gitlab.com/ee/policy/alpha-beta-support.html
 [prod-dev-flow]: /handbook/product-development-flow/

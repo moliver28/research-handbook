@@ -242,7 +242,7 @@ The Candidate Experience Specialist who initiated the contract process is expect
 
 Contract amendments or modifications are processed by the Candidate Experience Specialist if the team member has not started or by the People Connect Team member if they have.
 
-### Amendments prior to starting with GitLab:
+### Amendments prior to starting with GitLab
 
 If an amendment needs to be made and the previous contract was never active, the Candidate Experience Specialist should:
 
@@ -283,7 +283,7 @@ If an amendment needs to be made and the previous contract was never active, the
 1. Send
 1. When the contract is completed, message People Connect to make sure they note the relocation.
 
-### Amendments after starting with GitLab:
+### Amendments after starting with GitLab
 
 A contractor requests a modification to their contract due to a name change/company incorporation (Example: The individual recently incorporated a company, and would like to invoice GitLab through their company versus individually)
 
@@ -643,7 +643,7 @@ If there are any questions, these should be directed to help@remote.com.
 1. Click submit
 1. Your candidate has been submitted successfully. You will be redirected to the papaya homepage
 
-## Once the candidate is upload onto the Papaya platform:
+## Once the candidate is upload onto the Papaya platform
 
 1. Once you submit the candidate, an alert will be sent to Papaya to inform them of the new project
 1. Katie Taylor - KatieTa@papayaglobal.com (Customer Success Manager at Papaya who looks after GitLab) will reach out to the CES to confirm that she has received the alert. Should she ask for permission to contact the candidate directly - please confirm this ASAP. Papaya will validate the information submitted into the platform and reach out to CES or the candidate should there be any immediate questions regarding the contract information shared

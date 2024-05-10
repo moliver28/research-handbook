@@ -98,18 +98,21 @@ graph BT;
 ```
 
 ## Our Data Platform Vision
-These ambitions are set to be a guiding vision for GitLab's data platform. 
+
+These ambitions are set to be a guiding vision for GitLab's data platform.
 
 ### Makes it Easier to Contribute
+
 Contributing to GitLab's Data Platform is easy and using the platform is intuitive
 
 * Documentation is complete and relevant for users and contributors
 * All data transformations are implemented in dbt
 * CI/CD is seamless, intuitive, automated for contributors and reviewers
 * Data state is derivative from sources and transformations
-* Data pipelines are idempotent 
+* Data pipelines are idempotent
 
-### Is Reliable 
+### Is Reliable
+
 The data plaform along with the data it delivers is consitent in availability and accuracy
 
 * All breaking changes are testable in Dev and/or Staging Environments
@@ -117,20 +120,18 @@ The data plaform along with the data it delivers is consitent in availability an
 * Every component of the platform can and should be defined in code and version controlled
 
 ### Is Secure
+
 The Data Platform doesn't put people at risk
 
 * Data is only accisible to those authorized by documented approvals
-* The GitLab data team will stick with the [Principle of Least Privilege](https://handbook.gitlab.com/handbook/security/access-management-policy/#principle-of-least-privilege) regarding the authorization and authentication  
-### Is Secure
-The Data Platform doesn't put people at risk
+* The GitLab data team will stick with the [Principle of Least Privilege](https://handbook.gitlab.com/handbook/security/access-management-policy/#principle-of-least-privilege) regarding the authorization and authentication
 
-* Data is only accessible to those authorized by documented approvals
+### Is Maintainable
 
-### Is Maintainable 
-
-* The Data Platform component will be created with considering the good engineering practices for the [ease of maintainability](https://en.wikipedia.org/wiki/Maintainability). It means tracking of maintainability is intended to help reduce or reverse a system's tendency toward "code entropy" or degraded integrity 
+* The Data Platform component will be created with considering the good engineering practices for the [ease of maintainability](https://en.wikipedia.org/wiki/Maintainability). It means tracking of maintainability is intended to help reduce or reverse a system's tendency toward "code entropy" or degraded integrity
 
 ### Benefits a Larger Community
+
 GitLab's Data Platform is relevant to a community larger than GitLab's and depends on a larger community of engineers.
 
 * Relevant Platform code is open sourced

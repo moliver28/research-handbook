@@ -57,7 +57,7 @@ If you have 2-3 navigation designs with distinct differences, and you want to se
 
 **Recommended testing platform:** UserTesting for unmoderated,  Zoom for moderated
 
-## How to run a comparative usability test:
+## How to run a comparative usability test
 
 - Test 2-3 designs max. Testing more than 3 designs may be overwhelming for participants and you may not have enough time in the sessions to cover them all with discussion.
 - Test designs that have obvious differences to ensure that participants can distinguish them from each other.

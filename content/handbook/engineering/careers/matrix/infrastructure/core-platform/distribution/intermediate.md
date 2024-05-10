@@ -44,7 +44,7 @@ title: "Core Platform Career Framework: Intermediate Distribution Engineer"
 - Develops documentation and instructions explaining how to configure, install and manage GitLab service components.
 - Able to install and review GitLab installations in multiple deployment configurations.
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 

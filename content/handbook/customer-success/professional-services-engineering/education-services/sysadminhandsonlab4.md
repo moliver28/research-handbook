@@ -33,7 +33,8 @@ The objective of this lab is to demonstrate how to back up a Gitlab instance on 
     sudo sed -i '606s@\/var\/opt\/gitlab\/backups@\/tmp\/backups@' /etc/gitlab/gitlab.rb
     sudo sed -i '606s/#//' /etc/gitlab/gitlab.rb
     ```
-    > Here, we are using the sed command to do text replacements inside the gitlab.rb file without having to use a text editor like vim. 
+
+    > Here, we are using the sed command to do text replacements inside the gitlab.rb file without having to use a text editor like vim.
 
 6. Reconfigure to apply the changes.
 

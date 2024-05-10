@@ -32,7 +32,6 @@
 /content/handbook/about/ @gitlab-com/content-sites
 /content/handbook/content-websites/ @gitlab-com/content-sites
 /content/handbook/editing-handbook/ @gitlab-com/content-sites
-/content/handbook/markdown-guide/ @gitlab-com/content-sites
 
 ^[Acquisitions]
 /content/handbook/acquisitions/ @eliran.mesika
@@ -93,7 +92,7 @@
 /content/handbook/ceo/office-of-the-ceo/readmes/yyugitlab.md @yyugitlab
 
 ^[customer-success]
-/content/handbook/customer-success/ @spatching @christiaanconover @mrleutz
+/content/handbook/customer-success/ @spatching @mrleutz
 /content/handbook/customer-success/csm/segment/cse/ @afrusciano @esivak @ofalk
 /content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake
 /content/handbook/customer-success/professional-services-engineering/education-services/ @scottcosentinogitlab @nshah19

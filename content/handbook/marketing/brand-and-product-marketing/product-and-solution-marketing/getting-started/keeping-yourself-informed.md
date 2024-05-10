@@ -17,7 +17,7 @@ Our most important communication channels are issues, boards, and GitLab itself,
 
 Below are the parts of GitLab and Slack that are used most in Product and Solution Marketing.
 
-### GitLab trackers, boards, handbook, etc.
+### GitLab trackers, boards, handbook, etc
 
 Copy in from [/product-marketing](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/).
 

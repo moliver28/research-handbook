@@ -11,7 +11,7 @@ From time to time, you will run into cases where customer has a multi-year subsc
 
 1. Multi-year subscriptions on a legacy license are automatically generated for the **first year only**. Multi-year subscriptions on [cloud licensing](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/) and offline cloud licensing are [generated for the full subscription term](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4816). Read more at [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/#i-purchased-a-multi-year-subscription-why-is-my-license-only-for-1-year).
 
-----
+---
 
 ## Workflows
 

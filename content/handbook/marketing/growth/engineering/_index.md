@@ -167,13 +167,13 @@ Async issue update
 
 **YYYY-MM-DD Update**
 
-#### Please provide a quick summary of the current status (one sentence).
+#### Please provide a quick summary of the current status (one sentence)
 
 #### When do you predict this feature to be ready for maintainer review?
 
 #### Are there any opportunities to further break the issue or merge request into smaller pieces (if applicable)?
 
-#### Were expectations met from a previous update? If not, please explain why.
+#### Were expectations met from a previous update? If not, please explain why
 
 ```
 

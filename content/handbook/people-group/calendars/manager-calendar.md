@@ -33,6 +33,12 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
   |
 
 
-### FY25 Q3 and FY25 Q4
+### FY24 Q4
 
-We are still updating dates for Q3 and Q4, we will make changes to this calendar once complete.
+| **Action**                                    | **November**                | **December**        | **January**                            |
+|:---------------------------------------------:|:---------------------------:|:-------------------:|:-------------------:|
+| **[OKR Planning & Execution](/handbook/company/okrs)** | Task: Track Q4 OKR progress | Task: Track Q4 OKR progress                                | Task: Score Q4 OKRs by 2024-01-31 and submit FY25-Q1 OKRs by 2024-01-08   |
+| **[Promotion Planning, Calibration & Communication]({{< ref "promotions-transfers#quarterly-promotion-calibration-process--timeline" >}})**          |                  |  |  |
+| **[Promotion Effective date & Communication]({{< ref "promotions-transfers#quarterly-promotion-calibration-process--timeline" >}})**  |                             |                     | Task: Plan Promotions for Q1 and Calibrate with Leadership by 2024-01-15 |
+| **[Talent Assessment](/handbook/people-group/talent-assessment)**                         | Task: Write Talent Assessment review for your team members | Task: Calibrate ratings with leadership | Task: Talent Assessment (Review) Discussions with your team |
+| **[Annual Comp Calibration]({{< ref "compensation-review-cycle" >}})**                   |Task: Add in recommendations for compensation changes for your team, Task: Calibrate the recommendations with your leader, Key date: Final recommendation to be entered in Workday by 2024-01-15 (tbc)                    |  |  |

@@ -213,6 +213,6 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 GitLab believes that all-remote is the future of work, and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a merge request and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "../_index.md" >}}).

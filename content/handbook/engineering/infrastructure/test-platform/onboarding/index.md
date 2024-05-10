@@ -99,16 +99,16 @@ When starting something new, the goal is to discover unknowns and learn them qui
 
 [Organizational psychology](https://en.wikipedia.org/wiki/Industrial_and_organizational_psychology) is the study of human behavior and motivations as it relates to work.
 
-- [WorkLife podcast by Adam Grant](https://podcasts.apple.com/us/podcast/worklife-with-adam-grant/id1346314086?mt=2)
-- [Heartbeat podcast by Claire Lew](https://knowyourteam.com/blog/podcast/)
-- [HBR IdeaCast podcast](https://hbr.org/2018/01/podcast-ideacast)
-- [Dear HBR podcast](https://hbr.org/2018/01/podcast-dear-hbr)
-- [Know Your Team blog](https://knowyourteam.com/blog/) - [most popular articles](https://knowyourteam.com/blog/our-most-popular-articles/)
+* [WorkLife podcast by Adam Grant](https://podcasts.apple.com/us/podcast/worklife-with-adam-grant/id1346314086?mt=2)
+* [Heartbeat podcast by Claire Lew](https://knowyourteam.com/blog/podcast/)
+* [HBR IdeaCast podcast](https://hbr.org/2018/01/podcast-ideacast)
+* [Dear HBR podcast](https://hbr.org/2018/01/podcast-dear-hbr)
+* [Know Your Team blog](https://knowyourteam.com/blog/) - [most popular articles](https://knowyourteam.com/blog/our-most-popular-articles/)
 
 #### People to follow on social media
 
-- [Adam Grant](https://twitter.com/AdamMGrant) - Organizational psychologist professor from Wharton
-- [Dan Pink](https://twitter.com/DanielPink) - author of [Drive: The surprising truth about what motivates us](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805)
-- [Camille Fournier](https://twitter.com/skamille)
-- [Claire Lew](https://twitter.com/clairejlew) - CEO of Know Your Team.
-- [Dan Ariely](https://twitter.com/danariely) - more behavioral economics than organizational psychology
+* [Adam Grant](https://twitter.com/AdamMGrant) - Organizational psychologist professor from Wharton
+* [Dan Pink](https://twitter.com/DanielPink) - author of [Drive: The surprising truth about what motivates us](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805)
+* [Camille Fournier](https://twitter.com/skamille)
+* [Claire Lew](https://twitter.com/clairejlew) - CEO of Know Your Team.
+* [Dan Ariely](https://twitter.com/danariely) - more behavioral economics than organizational psychology

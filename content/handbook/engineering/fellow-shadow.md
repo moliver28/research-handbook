@@ -53,5 +53,5 @@ If you have questions, please join and post in the [#ef-shadow](https://gitlab.s
 | 2020-02-03 | 2020-02-07 | [Jason Plum](https://gitlab.com/warheadsse) | @dzaporozhets | Kharkiv, Ukraine | [Document](https://docs.google.com/document/d/1yR0oGiPXsQYUNlW4F5SKy8co1oOwCSBzHiMsuBovRF4/edit) |
 | 2020-01-27 | 2020-01-31 | [Imre Farkas](https://gitlab.com/ifarkas) | @dzaporozhets | Kharkiv, Ukraine | [Document](https://docs.google.com/document/d/1LGtf6W1ESzr8U_DDzgvh7AoFfu3yBVTWVo9gNQcvx10/edit) |
 | 2019-12-09 | 2019-12-13 | [Sam Beckham](https://gitlab.com/samdbeckham)  | @dzaporozhets | Limassol, Cyprus | [Video Interview](https://www.youtube.com/watch?v=lVKqsB2gePU&feature=youtu.be), [Document](https://docs.google.com/document/d/1CnlwGIGvlzXmLq4Fy1iLNvFedEC1EQI2y0t_AARDfMU/edit) |
-| 2019-11-04 | 2019-11-08 | [Tetiana Chupryna ](https://gitlab.com/brytannia) | @dzaporozhets | Kharkiv, Ukraine | [Document](https://docs.google.com/document/d/1crPEyjISN03zqV0HTjCCjI419SNGRH1sU0xxkglGHFM/edit?usp=sharing) |
+| 2019-11-04 | 2019-11-08 | [Tetiana Chupryna](https://gitlab.com/brytannia) | @dzaporozhets | Kharkiv, Ukraine | [Document](https://docs.google.com/document/d/1crPEyjISN03zqV0HTjCCjI419SNGRH1sU0xxkglGHFM/edit?usp=sharing) |
 

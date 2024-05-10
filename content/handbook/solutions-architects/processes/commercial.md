@@ -39,7 +39,7 @@ _Self-assignment does not happen without first discussing the opportunity and th
 
 ###### #2: Triage within One Business Day
 
-*It doesn’t need to be within an hour.  You can eat lunch first*
+_It doesn’t need to be within an hour.  You can eat lunch first_
 
 - Totally Acceptable Circle Behavior:  A new opportunity is created and sits for 3 hours because the Circle is busy with demos and life.
 - Totally Acceptable Circle Behavior: A new opportunity is created, and someone in the Circle-slack channel says “hey there is a new opp and I would like to discuss” and that Circle follow-up discussion doesn’t come for 2, or even 4 hours, because the rest of the Circle is busy with other things.  This is still okay.  The wait period is not a diss to anyone, the Circle will get to it when they can, in natural pauses of the day.
@@ -47,7 +47,7 @@ _Self-assignment does not happen without first discussing the opportunity and th
 
 ###### #3: Better Triage Happens with a Second Review
 
-*If possible, two team members review a Command Plan before assignment*
+_If possible, two team members review a Command Plan before assignment_
 
 - Some days, this may not be possible.  If 1/2 the team is on PTO and the other 1/2 is slammed, then perhaps in the Slack circle-region channel we might to eachother, after a request for a Circle review, “don’t have time for 2eyes, if you have the capacity and feel fully comfortable with the 4 questions being fulfilled, then assign it to yourself”.  The key is, to get here, as a Circle, we communicated on Triage.
   - The Circle’s Reporting Managers are considered a very valued 2nd person to review, when directly requested.
@@ -149,14 +149,14 @@ Prior to conducting any on-site engagement, approval from the Solutions Architec
 
 To facilitate the review process, the following information should be provided by submitting an issue:
 
-- Customer SFDC Opportunity Link: *The link to the customer opportunity being pursued with updated `Help` inside of `Command Plan` listing out Technical Details of what is needed for an on-site.*
-- Estimated Cost: *The amount expected for travel and lodging (not including meals) for on-site engagement.*
-- GitLab Team On-Site Attendees: *The team members required to attend the on-site engagement. If a Customer Success Manager is aligned to the account, please make sure there is collaboration.*
-- Summary of Customer Engagement To Date: *An overview of the ongoing activities with the customer.*
-- Customer Stakeholders/Teams: *A list of key stakeholders who will be present during the engagement, along with any outstanding or pending activities on-site.*
-- On-Site Proposed Date(s): *The proposed timeline and agenda for the on-site engagement.*
-- On-Site Agenda: *The proposed agenda for the on-site on each given day*
-- Outstanding Activities Prior to Scheduling: *What needs to be completed prior to the event*
+- Customer SFDC Opportunity Link: _The link to the customer opportunity being pursued with updated `Help` inside of `Command Plan` listing out Technical Details of what is needed for an on-site._
+- Estimated Cost: _The amount expected for travel and lodging (not including meals) for on-site engagement._
+- GitLab Team On-Site Attendees: _The team members required to attend the on-site engagement. If a Customer Success Manager is aligned to the account, please make sure there is collaboration._
+- Summary of Customer Engagement To Date: _An overview of the ongoing activities with the customer._
+- Customer Stakeholders/Teams: _A list of key stakeholders who will be present during the engagement, along with any outstanding or pending activities on-site._
+- On-Site Proposed Date(s): _The proposed timeline and agenda for the on-site engagement._
+- On-Site Agenda: _The proposed agenda for the on-site on each given day_
+- Outstanding Activities Prior to Scheduling: _What needs to be completed prior to the event_
 
 This review process aims to help ensure on-site engagements have the highest level of professionalism and that they deliver the intended value to the customer.
 

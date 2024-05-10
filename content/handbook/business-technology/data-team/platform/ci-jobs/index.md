@@ -195,21 +195,21 @@ Should the changes made fall outside the default selection of this job, it can b
 <details markdown="1">
 <summary>Cross-Walk</summary>
 
-|Change Examples |	Previous CI Process |	New CI Process|
+|Change Examples |    Previous CI Process |    New CI Process|
 | --- | --- | --- |
 | Add column to small table or view | <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗🛺️run_changed_models_sql</li></ol> | <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li></ul></ol> |
-| Update column description	| <ol><li>📚✏️generate_dbt_docs</li></ol> |	<ol><li>📚✏️generate_dbt_docs</li></ol> |
-| Update or create a small dbt snapshot	| <ol><li>🥩clone_raw_full</li><li>🐭🥩specify_raw_model</li><ul><li>DBT_MODELS : snapshot_name</li></ul></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li></ul></ol> |
-| Add or update a seed |	<ol><li>🌱specify_csv_seed</li><ul><li>DBT_MODELS : seed_name</li></ul></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>FULL_REFRESH : True</li></ul></ol> |
-| Update a model and test downstream impact |	<ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>DEPENDANT_TYPE : +</li><li>ANCESTOR_TYPE: +1</li></ul><li>🏗🛺️run_changed_models_sql</li><ul><li>DEPENDANT_TYPE : +</li></ul></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>DOWNSTREAM : +</li></ul></ol> |
-| Update a model and test specific models	| <ol><li>🔆⚡️clone_model_dbt_select</li><ul><li>DBT_MODELS : 1+specific_models+1</li></ul><li>🐭specify_model</li><ul><li>DBT_MODELS : specific_models+1</li></ul></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>SELECTION : specific_models+1</li></ul></ol> |
-| Make a chance to an incremental model without full refresh |	<ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗️🛺🐘run_changed_models_sql_xl</li><ul><li>REFRESH : ' ' </li></ul></ol>| <ol><li>🏗️🏭build_changes</li></ul></ol> |
-| Make a chance to an incremental model with full refresh |	<ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗️🛺🐘run_changed_models_sql_xl</li></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>FULL_REFRESH : True</li></ul></ol>|
-| Update a model and test downstream impact. skipping specific model	 | <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>DEPENDANT_TYPE : +</li><li>ANCESTOR_TYPE: +1</li></ul><li>🐘specify_xl_model</li><ul><li>DBT_MODELS : specific_model+ --exclude other_model</li></ul></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>EXCLUDE : other_model</li><li>DOWNSTREAM : +</li></ul></ol> |
-| Change a model that needs vars |	NA	| <ol><li>🏗️🏭build_changes</li><ul><li>VARS : "key1":"value1","key2":"value2"</li></ul></ol> |
-| Make a change and see all errors |	<ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗🛺️run_changed_models_sql</li></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>FAIL_FAST : False</li></ul></ol> |
-| Make a changes to or useing a Selector |	<ol><li>➕🐘🏭⛏specify_selector_build_xl</li><ul><li>DBT_SELECTOR : customers_source_models</li></ul></ol> |	<ol><li>🎛️custom_invocation</li><ul><li>STATEMENT : build --selector customers_source_models</li></ul></ol> |
-| Add a model built on a new Sheetload in the same MR |	<ol><li>❄️ Snowflake: clone_raw_sheetload</li><li>Extract: sheetload</li><li>specify_raw_model</li><ul><li>DBT_MODELS : sheetload_file_name_source</li></ul></ol> |	<ol><li>❄️ Snowflake: clone_raw_sheetload</li><li>Extract: sheetload</li><li>🏗️🏭build_changes</li><ul><li>RAW_DB : Dev</li></ul></ol> |
+| Update column description    | <ol><li>📚✏️generate_dbt_docs</li></ol> |    <ol><li>📚✏️generate_dbt_docs</li></ol> |
+| Update or create a small dbt snapshot    | <ol><li>🥩clone_raw_full</li><li>🐭🥩specify_raw_model</li><ul><li>DBT_MODELS : snapshot_name</li></ul></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li></ul></ol> |
+| Add or update a seed |    <ol><li>🌱specify_csv_seed</li><ul><li>DBT_MODELS : seed_name</li></ul></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>FULL_REFRESH : True</li></ul></ol> |
+| Update a model and test downstream impact |    <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>DEPENDANT_TYPE : +</li><li>ANCESTOR_TYPE: +1</li></ul><li>🏗🛺️run_changed_models_sql</li><ul><li>DEPENDANT_TYPE : +</li></ul></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>DOWNSTREAM : +</li></ul></ol> |
+| Update a model and test specific models    | <ol><li>🔆⚡️clone_model_dbt_select</li><ul><li>DBT_MODELS : 1+specific_models+1</li></ul><li>🐭specify_model</li><ul><li>DBT_MODELS : specific_models+1</li></ul></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>SELECTION : specific_models+1</li></ul></ol> |
+| Make a chance to an incremental model without full refresh |    <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗️🛺🐘run_changed_models_sql_xl</li><ul><li>REFRESH : ' ' </li></ul></ol>| <ol><li>🏗️🏭build_changes</li></ul></ol> |
+| Make a chance to an incremental model with full refresh |    <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗️🛺🐘run_changed_models_sql_xl</li></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>FULL_REFRESH : True</li></ul></ol>|
+| Update a model and test downstream impact. skipping specific model     | <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>DEPENDANT_TYPE : +</li><li>ANCESTOR_TYPE: +1</li></ul><li>🐘specify_xl_model</li><ul><li>DBT_MODELS : specific_model+ --exclude other_model</li></ul></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>EXCLUDE : other_model</li><li>DOWNSTREAM : +</li></ul></ol> |
+| Change a model that needs vars |    NA    | <ol><li>🏗️🏭build_changes</li><ul><li>VARS : "key1":"value1","key2":"value2"</li></ul></ol> |
+| Make a change and see all errors |    <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗🛺️run_changed_models_sql</li></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>FAIL_FAST : False</li></ul></ol> |
+| Make a changes to or useing a Selector |    <ol><li>➕🐘🏭⛏specify_selector_build_xl</li><ul><li>DBT_SELECTOR : customers_source_models</li></ul></ol> |    <ol><li>🎛️custom_invocation</li><ul><li>STATEMENT : build --selector customers_source_models</li></ul></ol> |
+| Add a model built on a new Sheetload in the same MR |    <ol><li>❄️ Snowflake: clone_raw_sheetload</li><li>Extract: sheetload</li><li>specify_raw_model</li><ul><li>DBT_MODELS : sheetload_file_name_source</li></ul></ol> |    <ol><li>❄️ Snowflake: clone_raw_sheetload</li><li>Extract: sheetload</li><li>🏗️🏭build_changes</li><ul><li>RAW_DB : Dev</li></ul></ol> |
 
 
 </details>
@@ -276,6 +276,7 @@ INFO:root: <tableau resource type> : <name of tableau resource> - : <monte_carlo
 ValueError: Check these models before proceeding!
 ERROR: Job failed: command terminated with exit code 1
 ```
+
 More implementation details can be found in the issue [here](https://gitlab.com/gitlab-data/analytics/-/issues/19885).
 
 #### `🛃dbt_sqlfluff`
@@ -286,7 +287,7 @@ Runs the SQLFluff linter on all changed `sql` files within the `transform/snowfl
 
 In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/business-technology/data-team/how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state. If your MR fails this job it will likely either need to be audited and verified to be without change MNPI data and have the appropriate exception tags added, or models may need to be migrated to the appropriate restricted schema
 
-#### `🔍macro_name_check`:
+#### `🔍macro_name_check`
 
 Automatically runs when making changes in the snowflake-dbt/macros folder and checks if the newly created macros match the correct name format.
 
@@ -383,7 +384,7 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
     - To override, pass in a string value like so `USERS_TO_ADD: username_to_add1 username_to_add2`
 5. `IS_DEV_DB`:
     - Defaults to `False`, but accepts `True`.
-    -  If True, will create development databases for each username in `usernames_to_add`.
+    - If True, will create development databases for each username in `usernames_to_add`.
 
 Note: `USERS_TO_REMOVE` argument is not available for this job because all deactivated users will be removed in Snowflake via separate airflow job.
 </details>
