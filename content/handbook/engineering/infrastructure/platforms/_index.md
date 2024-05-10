@@ -73,8 +73,8 @@ The Platforms section builds and maintains various tools to help deploy, operate
 
 ### OKR
 
-We use objective and key results to set goals in alignment with [OKRs at GitLab](handbook/company/okrs/).
-[Our OKR process](handbook/engineering/infrastructure/platforms/okrs/) is shared between all teams in Saas Platforms.
+We use objective and key results to set goals in alignment with [OKRs at GitLab](/handbook/company/okrs/).
+[Our OKR process](/handbook/engineering/infrastructure/platforms/okrs/) is shared between all teams in Saas Platforms.
 
 ### Hiring
 
