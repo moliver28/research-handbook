@@ -235,7 +235,7 @@ For new OS release, Distribution team aims to provide Linux package support per 
 
 ## Interviews
 
-See the [`hiring-process`](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/Platforms/Distribution)
+See the [`hiring-process`](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/CorePlatforms/Distribution)
 project for information on conducting interviews for positions on the Distribution team.
 
 [SLO]: https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#service-level-objective
