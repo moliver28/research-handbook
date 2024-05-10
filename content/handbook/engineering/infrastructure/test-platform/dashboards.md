@@ -19,6 +19,7 @@ description: "This handbook page serves as a central repository for all our Test
 | Performance Testing     | [GPT Results](https://gitlab.com/gitlab-org/quality/performance/-/wikis/home)                             | GitLab Performance Tool test results from automated reference environment pipelines         | [Self-Managed Platform](self-managed-platform-team)   |
 | Bug Tracking            | [Customer Bugs](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/CustomerBugsDashboard?:iid=1) | Dynamic tracking of Customer bugs            | [Test Engineering](test-engineering-team) |
 |                         | [Bug Prioritization](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard?:iid=1) | Bug prioritization based on burndown trends | [Test Engineering](test-engineering-team) |
+|Team Productivity| [Productivity Trends](https://10az.online.tableau.com/#/site/gitlab/views/TeamProductivityMetricsforTTI/TeamProductivityMetricsforTestPlatformDashboard?:iid=2) | This dashboard is designed to give us a deeper understanding of Test Pltaform sub-department's operational effectiveness over time | [Test and Tools Infrastructure](test-and-tools-infrastructure-team) | 
 
 
 ## Contributing to the Dashboards
