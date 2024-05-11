@@ -52,7 +52,7 @@ We are actively iterating on the NPI process. You can use the [`#npi-process-wor
 
 This phase happens before the NPI process officially launches with cross-functional stakeholders.
 
-### Step 1: Assign a DRI and Program Manager to launch the product/service or SKU.
+### Step 1: Assign a DRI and Program Manager to launch the product/service or SKU
 
 The project should have both a DRI and a Program Manager. **The DRI** drives the feature or service strategy and is the primary business owner. This is the person requesting a new product, service, or SKU. The person is responsible for delivering the initial business plan, and ensuring that the launch meets business goals.
 

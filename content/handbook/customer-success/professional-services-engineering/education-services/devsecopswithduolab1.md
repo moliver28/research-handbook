@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 ## Objectives
 
-GitLab Duo allows you to use AI-assisted features across GitLab. To get started with GitLab Duo, you will need to first generate a lab environment to work in. This lab environment will provide you with all the GitLab Duo features demonstrated in this course. 
+GitLab Duo allows you to use AI-assisted features across GitLab. To get started with GitLab Duo, you will need to first generate a lab environment to work in. This lab environment will provide you with all the GitLab Duo features demonstrated in this course.
 
 ## Task A. Access your Training Group Create a project
 

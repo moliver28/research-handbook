@@ -16,7 +16,7 @@ GitLab submits applications for R&D Tax Credits in a number of jurisdictions tha
 The role of the SME is twofold:
 
 * Collect data on time spent on R&D by team-members located in that jurisdiction during the tax period.
-* Compile information on qualifying R&D projects. 
+* Compile information on qualifying R&D projects.
 
 The tax agent will be available for regular meetings to clarify each of these tasks. Specifics will differ by jurisdiction.
 
@@ -29,7 +29,7 @@ That can be done by engaging with managers of those team-members. However, this 
 * **Engineers** who spent the full year in the role will typically have a high level of time-spend. Since almost all GitLab categories [qualify](#qualifying-rd-projects), as "R&D", and feature, bug, maintenance and code review work contributes to these, the majority of their time will qualify also. It's not unusual to see time-spend at 95% for engineers, with 5% removed for training and mentoring.
 * **UX** and **Product Design** while, a highly technical role at GitLab, qualifies only in research and not in design work, unless it informs the technical implementation of the feature. It's common to see figures as low as 5-10%, although those have been higher at GitLab.
 * **Technical Writers** typically do not contribute time-spend. Exceptions would be where a feature is documentation-based and the TW made direct contributions to the novelty of the feature.
-* **Managers** located in the territory contribute an amount proportionate to the number of reports they had in the territory over the time in qualifying roles, plus their own contributions. For example, if a manager managed 10 engineers with only one in the territory for half the year, and spent 20% of their time making contributions directly, they would be considered to have spent for 24% of their time on qualifying activities (8% for one report, divided by 2 for half of the year, plus 20%). 
+* **Managers** located in the territory contribute an amount proportionate to the number of reports they had in the territory over the time in qualifying roles, plus their own contributions. For example, if a manager managed 10 engineers with only one in the territory for half the year, and spent 20% of their time making contributions directly, they would be considered to have spent for 24% of their time on qualifying activities (8% for one report, divided by 2 for half of the year, plus 20%).
 * **Directors** contribute 0% of their time to qualifying activities. This may vary depend on the team members' specific responsibilities.  Consult with the tax advisor for your jurisdiction.
 
 
@@ -47,11 +47,11 @@ What qualifies as "R&D" will differ in nuance between territories and the tax ag
 
 GitLab's standard process for [product development](/handbook/product-development-flow/) meets the criteria in most cases. As a result, it is typically *not* necessary to compile a list of R&D projects worked on.  Instead you can use a summary of Release notes as the list of R&D projects, and set team member allocations based on their participation in GitLab's standard process for [product development](/handbook/product-development-flow/).
 
-An issue can be opened using the script in the [R&D Tax Credit Automation](https://gitlab.com/gitlab-org/ci-cd/r-and-d-tax-credit-automation/) project, which will be populated with the features released during that tax year. This can then be used as a basis for drafting the report. 
+An issue can be opened using the script in the [R&D Tax Credit Automation](https://gitlab.com/gitlab-org/ci-cd/r-and-d-tax-credit-automation/) project, which will be populated with the features released during that tax year. This can then be used as a basis for drafting the report.
 
 In some jurisdictions, such as the UK, it's enough to detail 3-5 projects along with the contributions by team-members in that territory, then to list the rest. Other jurisdictions will require a different approach. The tax agent can advise as they will draft the final submission.
 
-### Precedents 
+### Precedents
 
 | Year | Territory | Link | DRI |
 |---   | ---       | ---  | --- |

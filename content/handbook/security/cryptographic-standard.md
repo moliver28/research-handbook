@@ -16,7 +16,7 @@ The Cryptography Standard applies to all GitLab team members, contractors, consu
 
 This is required for coding best practices as well as client and server configurations involving cryptography for the GitLab product itself. Currently, there are numerous efforts internally by numerous Engineering teams ensuring these standards are met and maintained. The scope includes third party modules and software settings where cryptographic settings are required. Basically if it touches GitLab or GitLab customer data, the standard applies.
 
-## Roles & Responsibilities:
+## Roles & Responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|

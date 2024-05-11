@@ -108,7 +108,7 @@ The expectation is that all team members are provided coaching and feedback prio
 
 Managers are expected to address performance concerns (skill-based or will-based) in a timely manner. Managers should address concerns verbally during one-on-one meetings or in impromptu private coaching sessions with their team members. These conversations must be documented by the manager and shared with the team member so that both have access  to the record of the discussion and are in alignment on where improvements need to be made and within a specified timeframe. Documentation should be brief (a few key bullet points or a paragraph), and will normally be sent via email to the team member following the verbal discussion. See the example coaching email below:
 
-----
+---
 
 Dear (Team member name)
 
@@ -119,7 +119,7 @@ Please know that I am fully committed to working with you in addressing these is
 Thanks,
 (Manager name)
 
-----
+---
 
 Underperformance feedback should be included on your [1-1 agenda]({{< ref "suggested-agenda-format" >}}). Helping GitLab team members understand clearly how their performance is below the expected standard expected quickly is very important to foster immediate improvement and continued success.  Managers should be as specific as possible and provide clear examples of where the team member is falling short. Make sure the team member has the opportunity to respond to your concerns  and give them the time to explain their performance.  Keep an open mind, listen actively, and ask open questions when you want to find out more.  When discussing performance, it’s important that the manager and team member are aligned on the expectations moving forward.  It is best practice for the manager to meet with their team member at least once a week to monitor and discuss their performance.be critical.
 

@@ -274,7 +274,7 @@ Unless otherwise specifically set forth herein, capitalized terms used in this R
 Pursuant to the terms of the Agreement, this Reseller Partnership Exhibit (“Reseller Exhibit”) describes the terms and conditions under which Partner will Resell (as defined herein) Products and Services.
 
 
-#### **1. DEFINITIONS**.
+#### **1. DEFINITIONS**
 
 Unless otherwise specifically set forth herein, capitalized terms used in this Reseller Exhibit shall have the meaning defined within the Agreement.
 

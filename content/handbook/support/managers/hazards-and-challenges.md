@@ -12,7 +12,7 @@ description: Hazards, Challenges, and possible solutions to consider to solve th
 |----------------------------|-----------------------------------------|
 | Ticket volume is too high | Build (and adjust) hiring model based on the best data available, hire as quickly as possible while keeping quality up. |
 | Team knowledge doesn't match ticket difficulty | Develop training materials, provide time for professional development, encourage specializations.  |
-| We aren't hitting our SLOs | Hire and train as per above. Add regularity to scheduling and encourage efficient work patterns.
+| We aren't hitting our SLOs | Hire and train as per above. Add regularity to scheduling and encourage efficient work patterns. |
 | Leadership breaks trust    | Communicate in public channels, alert early and often of potential discussions, engender the GitLab value of Transparency. |
 | Fear of conflict results in poor decisions | Provide focus on meta-issues by triaging issues in the [Active Now](/handbook/support/index.html#improving-our-processes---active-now-issue-board) board. Encourage buy-in and bravery. Truly listen and respond. Explicitly overrule: state reasoning and thank everyone for voicing opinions. |
 | Team lacks commitment to results or implementing decisions | Ensure voices are heard. Re-enforce "disagree and commit". Build accountability. |

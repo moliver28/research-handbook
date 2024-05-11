@@ -248,7 +248,7 @@ We are growing rapidly and continuously expanding our hiring capabilities in oth
 
 Learn more at our [Country Hiring Guidelines](/handbook/people-group/employment-solutions#country-hiring-guidelines) section in the [Employment Solutions (International Expansion & Relocations)](/handbook/people-group/employment-solutions) handbook page.
 
-### Handling local regulations, risks, entities, etc.
+### Handling local regulations, risks, entities, etc
 
 Rather than attempting to incorporate in every country where an all-remote company has even a single employee, organizations must weigh the benefits of creating a legal entity with other options. There are four means of engagement with GitLab. These are commonly used arrangements that can be considered by other all-remote companies.
 

@@ -346,6 +346,6 @@ Anyone can test their knowledge on Being a great remote manager by completing th
 
 We believe that remote managers can learn from one another, and direct reports who admire their remote manager can inform others on how to manage well. If you have an anecdote, tip, or experience to share that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

@@ -67,15 +67,15 @@ We monitor our features using different dashboards. It is recommended to check t
 
 These dashboards are all internal and can be only accessed by GitLab Team members.
 
-- [Package Registry Dashboard](https://dashboards.gitlab.net/d/stage-groups-package_registry/stage-groups-package-registry-group-dashboard) (Grafana)
-- [Container Registry Dashboard](https://dashboards.gitlab.net/d/stage-groups-container_registry/stage-groups-container-registry-group-dashboard?orgId=1 (Grafana)
-- [Package Registry Error Budgets (7 days)](https://dashboards.gitlab.net/d/stage-groups-detail-package_registry/stage-groups-package-registry-group-error-budget-detail?from=now-7d&to=now&orgId=1) (Grafana)
-- [Container Registry Error Budgets (7 days)](https://dashboards.gitlab.net/d/stage-groups-detail-container_registry/stage-groups-container-registry-group-error-budget-detail?from=now-7d&to=now&orgId=1) (Grafana)
-- [Container Registry](https://log.gprd.gitlab.net/goto/e7b62a23a5a9cdc88aa1de3cdb392758) (Kibana)
-- [Container Registry garbage collection details](https://dashboards.gitlab.net/d/registry-gc/registry-garbage-collection-detail?orgId=1&from=now-30d&to=now&var-PROMETHEUS_DS=Global&var-environment=pre&var-cluster=pre-gitlab-gke&var-stage=main&var-namespace=gitlab&var-Deployment=gitlab-registry) (Grafana)
-- [Cleanup policies for Container Images](https://log.gprd.gitlab.net/goto/b03da1dcaf2ac281994f72687347f40a) (Kibana)
-- [Virtual registries for container images](https://log.gprd.gitlab.net/goto/3d363d13eaf8133a4216149e335ab1b9) (Kibana)
-- [Package: Costs](https://10az.online.tableau.com/#/site/gitlab/workbooks/2269240/views) (Tableau)
+* [Package Registry Dashboard](https://dashboards.gitlab.net/d/stage-groups-package_registry/stage-groups-package-registry-group-dashboard) (Grafana)
+* [Container Registry Dashboard](https://dashboards.gitlab.net/d/stage-groups-container_registry/stage-groups-container-registry-group-dashboard?orgId=1 (Grafana)
+* [Package Registry Error Budgets (7 days)](https://dashboards.gitlab.net/d/stage-groups-detail-package_registry/stage-groups-package-registry-group-error-budget-detail?from=now-7d&to=now&orgId=1) (Grafana)
+* [Container Registry Error Budgets (7 days)](https://dashboards.gitlab.net/d/stage-groups-detail-container_registry/stage-groups-container-registry-group-error-budget-detail?from=now-7d&to=now&orgId=1) (Grafana)
+* [Container Registry](https://log.gprd.gitlab.net/goto/e7b62a23a5a9cdc88aa1de3cdb392758) (Kibana)
+* [Container Registry garbage collection details](https://dashboards.gitlab.net/d/registry-gc/registry-garbage-collection-detail?orgId=1&from=now-30d&to=now&var-PROMETHEUS_DS=Global&var-environment=pre&var-cluster=pre-gitlab-gke&var-stage=main&var-namespace=gitlab&var-Deployment=gitlab-registry) (Grafana)
+* [Cleanup policies for Container Images](https://log.gprd.gitlab.net/goto/b03da1dcaf2ac281994f72687347f40a) (Kibana)
+* [Virtual registries for container images](https://log.gprd.gitlab.net/goto/3d363d13eaf8133a4216149e335ab1b9) (Kibana)
+* [Package: Costs](https://10az.online.tableau.com/#/site/gitlab/workbooks/2269240/views) (Tableau)
 
 ### Error Budget
 
@@ -122,10 +122,10 @@ The process of making sure that there are issues to evaluate and break down is t
 
 Issues for Package group can be found in the following projects:
 
-- [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=group%3A%3Apackage) - any issues for GitLab the product, this means all work and category issues.
-- [gitlab-com/www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&state=opened&label_name[]=group%3A%3Apackage) - issues for any changes in handbook or blog
-- Inside gitlab-org [package-stage/package](https://gitlab.com/gitlab-org/ci-cd/package-stage/package/-/issues) - any issues related to team organization, team styles, how we work, etc.
-- [package-combined-team/team](https://gitlab.com/package-combined-team/team/-/issues) (private) - any issues that don't fit in the previous ones, and for major reasons, example, psychologically safe environment, we want to keep private to just the Package team members. Examples could be issues similar to retrospectives
+* [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=group%3A%3Apackage) - any issues for GitLab the product, this means all work and category issues.
+* [gitlab-com/www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&state=opened&label_name[]=group%3A%3Apackage) - issues for any changes in handbook or blog
+* Inside gitlab-org [package-stage/package](https://gitlab.com/gitlab-org/ci-cd/package-stage/package/-/issues) - any issues related to team organization, team styles, how we work, etc.
+* [package-combined-team/team](https://gitlab.com/package-combined-team/team/-/issues) (private) - any issues that don't fit in the previous ones, and for major reasons, example, psychologically safe environment, we want to keep private to just the Package team members. Examples could be issues similar to retrospectives
 
 To plan, visualize and organize better our work, we use the following [issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html#issue-boards):
 
@@ -159,10 +159,10 @@ the [group retrospectives handbook page](../../../management/group-retrospective
 Often times during a retrospective (monthly or weekly), there are suggestions on how to improve a given process. However, there are times
 where suggestions are lost and no action is taken. Consider the following possible action items that can be created so that the issues are eventually addressed:
 
-- [Everything starts with a Merge Request](/handbook/communication/#start-with-a-merge-request)! No matter if it is a small or big change, in the MR, you will have the opportunity to discuss the things you are suggesting with the rest of the team. Add the label `~Retrospective follow-up` and relate the MR to the retrospective issue.
-- For any other follow-up that cannot be resolved through an MR, open an issue in the [Package retrospective issue tracker](https://gitlab.com/gl-retrospectives/package/-/issues) and apply the `~follow-up` label. Assign a due-date to the next month. Link the issue back to the retrospective that prompted the action.
-- Consider bringing some of the [follow-up issues](https://gitlab.com/gl-retrospectives/package/-/issues/?label_name%5B%5D=follow-up) into the weekly retrospective for discussion.
-- Follow the same process for issues raised during the weekly retrospective.
+* [Everything starts with a Merge Request](/handbook/communication/#start-with-a-merge-request)! No matter if it is a small or big change, in the MR, you will have the opportunity to discuss the things you are suggesting with the rest of the team. Add the label `~Retrospective follow-up` and relate the MR to the retrospective issue.
+* For any other follow-up that cannot be resolved through an MR, open an issue in the [Package retrospective issue tracker](https://gitlab.com/gl-retrospectives/package/-/issues) and apply the `~follow-up` label. Assign a due-date to the next month. Link the issue back to the retrospective that prompted the action.
+* Consider bringing some of the [follow-up issues](https://gitlab.com/gl-retrospectives/package/-/issues/?label_name%5B%5D=follow-up) into the weekly retrospective for discussion.
+* Follow the same process for issues raised during the weekly retrospective.
 
 #### Missed deliverables retrospectives
 
@@ -185,17 +185,18 @@ The purpose of daily updates is to inspect progress and adapt upcoming planned w
 The async daily update communicates the progress and confidence using an issue comment and the milestone health status using the Health Status field in the issue. A daily update may be skipped if there was no progress. It's preferable to update the issue rather than the related merge requests, as those do not provide a view of the overall progress.
 
 When communicating the health status, the options are:
-- `on track` - when the issue is progressing as planned
-- `needs attention` - when the issue requires attention or intervention to keep it on schedule
-- `at risk` - when there is a risk the issue will not be completed according to schedule
+* `on track` - when the issue is progressing as planned
+* `needs attention` - when the issue requires attention or intervention to keep it on schedule
+* `at risk` - when there is a risk the issue will not be completed according to schedule
 
 The async update comment should include:
-- what percentage complete the work is, in other words, how much work is done to put all the required MRs in review
-- the confidence of the person that their estimate is correct
-- notes on what was done and/or if review has started
-- it could be good to include whether this is a front end or back end update if there are multiple people working on it
+* what percentage complete the work is, in other words, how much work is done to put all the required MRs in review
+* the confidence of the person that their estimate is correct
+* notes on what was done and/or if review has started
+* it could be good to include whether this is a front end or back end update if there are multiple people working on it
 
 Example:
+
 ```
 Complete: 80%
 Confidence: 90%
@@ -206,6 +207,7 @@ Concern: ~frontend
 Include one entry for each associated MR
 
 Example:
+
 ```
 Issue status: 20% complete, 75% confident
 
@@ -229,17 +231,17 @@ Slackbot has been configured to send reminders to `#s_package`
 The epic updates communicate a high level view of progress and status for quarterly goals using an epic comment. It does not need to have issue or MR level granularity because that is part of each issue updates.
 
 The weekly update comment should include:
-- Status: ok, so-so, bad? Is there something blocked in the general effort?
-- How much of the total work is done? How much is remaining? Do we have an ETA?
-- What's your confidence level on the completion percentage?
-- What is next?
-- Is there something that needs help/support? (tag specific individuals so they know ahead of time)
+* Status: ok, so-so, bad? Is there something blocked in the general effort?
+* How much of the total work is done? How much is remaining? Do we have an ETA?
+* What's your confidence level on the completion percentage?
+* What is next?
+* Is there something that needs help/support? (tag specific individuals so they know ahead of time)
 
 ##### Examples
 
 Some good examples of epic updates that cover the above aspects:
-- https://gitlab.com/groups/gitlab-org/-/epics/8628#note_1090732793
-- https://gitlab.com/groups/gitlab-org/-/epics/5152#note_1029337901
+* https://gitlab.com/groups/gitlab-org/-/epics/8628#note_1090732793
+* https://gitlab.com/groups/gitlab-org/-/epics/5152#note_1029337901
 
 ### Workflow
 
@@ -262,12 +264,12 @@ Issues that we're expecting to work on in the milestone will have the `workflow:
 
 #### Milestone Planning
 
-- Our Product Manager, Product Designer, and Engineering Manager develop a plan for upcoming milestones.
-- The PM creates an issue for milestone planning that includes the goals, priorities and work for the milestone. The milestone planning issues can be found in our [Milestone Planning Epic](https://gitlab.com/groups/gitlab-org/-/epics/3591).
-- Everyone can contribute and collaborate in the milestone issue to propose work, raise concerns and clarify topics.
-- To identify work and their priority, issues are assigned to the milestone and labelled as `Package:P1` or `Package:P2` according to their priority. Our prioritization model can be found below in the section [Priorities](/handbook/engineering/development/ops/package/#milestone-priorities).
-- Before commiting to the work for the milestone, engineers perform [refinement](/handbook/engineering/development/ops/package/#refinement) and confirm all issues are ready for development.
-- We commit to the `Package:P1` work in the milestone by having an engineer add the `workflow::ready for development` label and then having the engineering manager add the `Deliverable` label. We measure our predictability and commitments with Say/Do ratios.
+* Our Product Manager, Product Designer, and Engineering Manager develop a plan for upcoming milestones.
+* The PM creates an issue for milestone planning that includes the goals, priorities and work for the milestone. The milestone planning issues can be found in our [Milestone Planning Epic](https://gitlab.com/groups/gitlab-org/-/epics/3591).
+* Everyone can contribute and collaborate in the milestone issue to propose work, raise concerns and clarify topics.
+* To identify work and their priority, issues are assigned to the milestone and labelled as `Package:P1` or `Package:P2` according to their priority. Our prioritization model can be found below in the section [Priorities](/handbook/engineering/development/ops/package/#milestone-priorities).
+* Before commiting to the work for the milestone, engineers perform [refinement](/handbook/engineering/development/ops/package/#refinement) and confirm all issues are ready for development.
+* We commit to the `Package:P1` work in the milestone by having an engineer add the `workflow::ready for development` label and then having the engineering manager add the `Deliverable` label. We measure our predictability and commitments with Say/Do ratios.
 
 #### Refinement
 
@@ -294,26 +296,26 @@ Before the milestone is finished:
 
 Refinement guidelines:
 
-- Identify and resolve outstanding questions or discussions.
-    - Does the issue has a clear, updated, and confirmed design associated?
-    - Does the issue contains all the data necessary to start implementation?
-- Identify missing dependencies.
-    - Is the issue dependent on any other issue in the milestone, or the dependency is explicitly communicated, noted in the description and the issue is linked?
-    - The GraphQL API or the REST API contains all the data necessary to implement the UI?
-    - The GraphQL API or the REST API implements all the necessary filters, sorting, and pagination to implement the UX?
-    - The GraphQL API or the REST API contains all the necessary mutation/actions to implement the UX?
-- Raise any questions, concerns, or alternative approaches.
-    - Could this issue be resolved in different ways?
-    - What is the biggest risk?
-- Involve stable counterparts.
-    - The impact on QA and Feature tests of this issue is clear and, if necessary, the SET stable counterpart is involved in reviewing them?
-    - The impact on security of this issue is clear, and if necessary, a stable counterpart is involved?
-- Outline an implementation plan.
-    - What is the smallest thing possible to do?
-    - Should we use a feature flag?
-- Assign labels.
-- Assign a weight to the issue according to [weighting guidelines](/handbook/engineering/development/ops/package/#issue-weighting).
-- Create any follow-up issues that come out of refinement
+* Identify and resolve outstanding questions or discussions.
+    * Does the issue has a clear, updated, and confirmed design associated?
+    * Does the issue contains all the data necessary to start implementation?
+* Identify missing dependencies.
+    * Is the issue dependent on any other issue in the milestone, or the dependency is explicitly communicated, noted in the description and the issue is linked?
+    * The GraphQL API or the REST API contains all the data necessary to implement the UI?
+    * The GraphQL API or the REST API implements all the necessary filters, sorting, and pagination to implement the UX?
+    * The GraphQL API or the REST API contains all the necessary mutation/actions to implement the UX?
+* Raise any questions, concerns, or alternative approaches.
+    * Could this issue be resolved in different ways?
+    * What is the biggest risk?
+* Involve stable counterparts.
+    * The impact on QA and Feature tests of this issue is clear and, if necessary, the SET stable counterpart is involved in reviewing them?
+    * The impact on security of this issue is clear, and if necessary, a stable counterpart is involved?
+* Outline an implementation plan.
+    * What is the smallest thing possible to do?
+    * Should we use a feature flag?
+* Assign labels.
+* Assign a weight to the issue according to [weighting guidelines](/handbook/engineering/development/ops/package/#issue-weighting).
+* Create any follow-up issues that come out of refinement
 
 
 #### Milestone Priorities
@@ -365,9 +367,9 @@ The whole process can take a few minutes to several hours (or even days). The as
 
 If a bug investigation takes more time than intended, it's better to:
 
-- Stop the investigation.
-- Post the current situation in the issue.
-- Inform the Engineering Manager and the Product Manager that will plan more time for the investigation.
+* Stop the investigation.
+* Post the current situation in the issue.
+* Inform the Engineering Manager and the Product Manager that will plan more time for the investigation.
 
 ### Bug detection
 
@@ -411,9 +413,9 @@ This tactic also creates an environment to ask for early review on a WIP merge r
 ### UI or Technical Writing Review
 
 When a merge request needs to be reviewed for the experience or for the copy in the user interface, there are a few suggestions to ensure that the review process is quick and effecient:
-- When the MR has a UX or copy review, we suggest initating that part of the review process first to avoid experience changes in the middle of code reviews.
-- A Product Designer will review the UX and UI text, following the [MR review guidelines](/handbook/product/ux/product-designer/mr-reviews/). If there is substantial change, the Product Designer may bring in a Technical Writer for a more thorough copy/content related review.
-- If the Technical Writer is unavailable and the MR is being slowed down, it is possible to [create a follow up issue](https://docs.gitlab.com/ee/development/documentation/workflow.html#post-merge-reviews) for the copy or documentation to be reviewed post-merge. This should be avoided when possible.
+* When the MR has a UX or copy review, we suggest initating that part of the review process first to avoid experience changes in the middle of code reviews.
+* A Product Designer will review the UX and UI text, following the [MR review guidelines](/handbook/product/ux/product-designer/mr-reviews/). If there is substantial change, the Product Designer may bring in a Technical Writer for a more thorough copy/content related review.
+* If the Technical Writer is unavailable and the MR is being slowed down, it is possible to [create a follow up issue](https://docs.gitlab.com/ee/development/documentation/workflow.html#post-merge-reviews) for the copy or documentation to be reviewed post-merge. This should be avoided when possible.
 
 ### Quality
 
@@ -433,9 +435,9 @@ The Package team has a goal of shipping enterprise grade software with a focus o
 
 If a community contributor wants to pick up an issue, or create an issue and a follow up merge request for it, please ping `@gitlab-org/ci-cd/package-stage` or an individual [team member](https://gitlab.com/groups/gitlab-org/ci-cd/package-stage/-/group_members?with_inherited_permissions=exclude) on the issue itself before starting the work, this ensures that:
 
-- The issue will not conflict with other work of the team
-- The issue will have feedback and advice from a team member
-- The issue is well defined enough to be used as a validation of the merge request
+* The issue will not conflict with other work of the team
+* The issue will have feedback and advice from a team member
+* The issue is well defined enough to be used as a validation of the merge request
 
 Additionally, the Package team can help set realistic review/merge times based on the scope of the work.
 
@@ -467,6 +469,7 @@ A Package group member will adopt the community contribution with the following 
 * Make sure that the reviews are happening. The team member can even suggest reviewers.
 
 #### Prioritisation
+
 * Effort to support community contributions can range from weekly check ins to active contribution. As an organisation, GitLab values our community and the idea that everyone can contribute. As such, effort contributed to community contributions can range from simply checking in with the author to contributing actively. While this effort doesn't prevent us from delivering on our `Package:P1` issues, we should invest the time necessary to make sure the author is able to contribute.
 
 #### Scheduling
@@ -521,11 +524,11 @@ committing to delivering it in a specific time frame.
 It can be overwhelming to come back to work after taking time off. Remember to review the [returning from PTO](/handbook/paid-time-off/#returning-from-pto)
 section of our time-off policy, especially the key points:
 
-- It is OK to take your time to catch up. You can consider blocking your calendar to do so.
-- Taking time off doesn't mean that you need to work extra hours before or after your vacation.
-- It is [impossible to know everything](/handbook/values/#its-impossible-to-know-everything) (AKA some things can be ignored).
-- Consider scheduling a coffee chat or sync with other team members to help ease your way back.
-- Consider asking in [#s_package](https://gitlab.slack.com/archives/CAGEWDLPQ) for a summary of what happened while you were gone.
+* It is OK to take your time to catch up. You can consider blocking your calendar to do so.
+* Taking time off doesn't mean that you need to work extra hours before or after your vacation.
+* It is [impossible to know everything](/handbook/values/#its-impossible-to-know-everything) (AKA some things can be ignored).
+* Consider scheduling a coffee chat or sync with other team members to help ease your way back.
+* Consider asking in [#s_package](https://gitlab.slack.com/archives/CAGEWDLPQ) for a summary of what happened while you were gone.
 
 ### Technical Knowledge Sharing Sessions
 
@@ -539,9 +542,9 @@ These sessions are applicable to all development specialties (backend, frontend,
 
 #### Process
 
-- While there is no strict frequency requirement, team members are encouraged to hold at least one session per month for the entire team.
-- To ensure efficiency and engagement, each session should be timeboxed to 30 minutes.
-- Any team member can volunteer to present on a topic of their choice.
+* While there is no strict frequency requirement, team members are encouraged to hold at least one session per month for the entire team.
+* To ensure efficiency and engagement, each session should be timeboxed to 30 minutes.
+* Any team member can volunteer to present on a topic of their choice.
 
 When hosting a session, the team member should:
 
@@ -580,8 +583,8 @@ For any other communication tailored to only certain members, we ping them indiv
 
 There are times during the development lifecycle that changes need to be communicated to the [Infrastructure teams](/handbook/engineering/infrastructure/#teams). For example:
 
-- If your work will impact rate-limits as in [GitLab-#778](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/778)
-- If you are considering adjusting the existing [Package limits](https://docs.gitlab.com/ee/administration/instance_limits.html#package-registry-limits)
+* If your work will impact rate-limits as in [GitLab-#778](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/778)
+* If you are considering adjusting the existing [Package limits](https://docs.gitlab.com/ee/administration/instance_limits.html#package-registry-limits)
 
 
 
@@ -611,64 +614,62 @@ There are times during the development lifecycle that changes need to be communi
 
 
 ### Roadmap
-- [Package roadmap review - March 2022](https://youtu.be/gsSWEqX4dOA)
-- [Package roadmap review - January 2023](https://youtu.be/O-4kMmQBb34)
+* [Package roadmap review - March 2022](https://youtu.be/gsSWEqX4dOA)
+* [Package roadmap review - January 2023](https://youtu.be/O-4kMmQBb34)
 
 ### Demos & Speedruns
 
 #### Package Registry
-- [npm registry walk through](https://youtu.be/yvLxtkvsFDA)
-- [Helm Chart repository demo](https://youtu.be/B6K373-pAgw)
-- [GitLab Package Registry + Usage quotas Speedrun](https://youtu.be/5FYMSl-QYg4)
-- [Conan Repository Demo](https://youtu.be/7NYgJWg-w5w)
-- [Remote hierarchy for the Package Registry (project vs. group vs. instance level)](https://youtu.be/lVXfMKerZnQ)
-- [How to host all your packages in a single project](https://youtu.be/ui2nNBwN35c)
-- [How to add and remove tags to the GitLab NPM Registry](https://www.youtube.com/watch?v=8FMZ9J9WPk0&feature=youtu.be)
-- [Use GitLab metadata to verify and troubleshoot packages](https://youtu.be/Af3T_QEXrls)
-- [Fetch packages from npmjs.org when the package is not available in the GitLab NPM Registry](https://youtu.be/Do-5bmgvHOU)
-- [Display more robust build data in the Package Registry](https://youtu.be/mo6q7mWmlfA)
-- [Publish and share Composer dependencies](https://youtu.be/e_HqOOWuRoI)
-- [Package details list view](https://youtu.be/9xUvQoANA-E)
-- [Delete packages from your group](https://youtu.be/B6cAtch1xSU)
-- [Quickly find and view generic packages](https://youtu.be/XwMtzWf9DKw)
-- [Testing the Packages API with deploy tokens](https://youtu.be/43iHv6tbOec)
-- [Package Registry cleanup policies](https://youtu.be/uAWnlA7BLS4)
-- [Import npm packages from Artifactory](https://www.youtube.com/watch?v=IEQmc7nqnwc)
-- [Import NuGet packages from Artifactory](https://www.youtube.com/watch?v=kgUVjbudfv4)
-- [Import Maven packages from Artifactory](https://www.youtube.com/watch?v=Br3TO0dMYAY)
-- [Pull npm packages from your group or sub-group](https://youtu.be/-5Wm61x4Y5k)
+* [npm registry walk through](https://youtu.be/yvLxtkvsFDA)
+* [Helm Chart repository demo](https://youtu.be/B6K373-pAgw)
+* [GitLab Package Registry + Usage quotas Speedrun](https://youtu.be/5FYMSl-QYg4)
+* [Conan Repository Demo](https://youtu.be/7NYgJWg-w5w)
+* [Remote hierarchy for the Package Registry (project vs. group vs. instance level)](https://youtu.be/lVXfMKerZnQ)
+* [How to host all your packages in a single project](https://youtu.be/ui2nNBwN35c)
+* [How to add and remove tags to the GitLab NPM Registry](https://www.youtube.com/watch?v=8FMZ9J9WPk0&feature=youtu.be)
+* [Use GitLab metadata to verify and troubleshoot packages](https://youtu.be/Af3T_QEXrls)
+* [Fetch packages from npmjs.org when the package is not available in the GitLab NPM Registry](https://youtu.be/Do-5bmgvHOU)
+* [Display more robust build data in the Package Registry](https://youtu.be/mo6q7mWmlfA)
+* [Publish and share Composer dependencies](https://youtu.be/e_HqOOWuRoI)
+* [Package details list view](https://youtu.be/9xUvQoANA-E)
+* [Delete packages from your group](https://youtu.be/B6cAtch1xSU)
+* [Quickly find and view generic packages](https://youtu.be/XwMtzWf9DKw)
+* [Testing the Packages API with deploy tokens](https://youtu.be/43iHv6tbOec)
+* [Package Registry cleanup policies](https://youtu.be/uAWnlA7BLS4)
+* [Import npm packages from Artifactory](https://www.youtube.com/watch?v=IEQmc7nqnwc)
+* [Import NuGet packages from Artifactory](https://www.youtube.com/watch?v=kgUVjbudfv4)
+* [Import Maven packages from Artifactory](https://www.youtube.com/watch?v=Br3TO0dMYAY)
+* [Pull npm packages from your group or sub-group](https://youtu.be/-5Wm61x4Y5k)
 
 #### Container Registry
-- [Control access to the container registry](https://youtu.be/UyGEOLp_4E4)
-- [How to remove Docker images using CI/CD (speedrun)](https://youtu.be/jDlFCrH9H7g)
-- [Use the API to delete all tags except *](https://youtu.be/Hi19bKe_xsg)
-- [How to view all of the images and tags in your group](https://youtu.be/9IxoGYnTIaI)
+* [Control access to the container registry](https://youtu.be/UyGEOLp_4E4)
+* [How to remove Docker images using CI/CD (speedrun)](https://youtu.be/jDlFCrH9H7g)
+* [Use the API to delete all tags except *](https://youtu.be/Hi19bKe_xsg)
+* [How to view all of the images and tags in your group](https://youtu.be/9IxoGYnTIaI)
 
 #### Virtual Registries
-- [Maven virtual registry MVC demo](https://www.youtube.com/watch?v=9NPTXObsSrE)
-- [Enable TTL policies from within the UI](https://youtu.be/gX2npIF9gCY)
-- [View a list of tags in the cache in the UI](https://youtu.be/uYEY75qz7Jg)
-- [How to use GraphQL to set TTL policies](https://www.youtube.com/watch?v=ujzicvPt8i8)
-- [Authenticate with deploy tokens when using virtual registries for container images](https://youtu.be/uPNpa6BDs6A)
-- [Use virtual registries for container images to proxy and cache images from DockeHub](https://youtu.be/fNTfL55fh5c)
-- [Automatically authenticate using pre-defined environment variables](https://youtu.be/8qhT55e780g)
+* [Maven virtual registry MVC demo](https://www.youtube.com/watch?v=9NPTXObsSrE)
+* [Enable TTL policies from within the UI](https://youtu.be/gX2npIF9gCY)
+* [View a list of tags in the cache in the UI](https://youtu.be/uYEY75qz7Jg)
+* [How to use GraphQL to set TTL policies](https://www.youtube.com/watch?v=ujzicvPt8i8)
+* [Authenticate with deploy tokens when using virtual registries for container images](https://youtu.be/uPNpa6BDs6A)
+* [Use virtual registries for container images to proxy and cache images from DockeHub](https://youtu.be/fNTfL55fh5c)
+* [Automatically authenticate using pre-defined environment variables](https://youtu.be/8qhT55e780g)
 
 #### Dependency Firewall
-- [POC: Pipelines for packages](https://youtu.be/KCtOC8kLDRQ)
+* [POC: Pipelines for packages](https://youtu.be/KCtOC8kLDRQ)
 
 #### Nexus Repository OSS (competitor product)
-- [Introduction](https://youtu.be/QOMF2EWC5B8)
-- [Installation](https://youtu.be/lhBJWDLO_IM)
-- [UI overview](https://youtu.be/3Z-TgTrrXDU)
-- [Proxy a repository](https://youtu.be/sumoWwqKoik)
-- [Group repositories](https://youtu.be/js4ibAL7kyk)
-- [Publish to a private repository](https://youtu.be/NNMQ8d-68es)
-- [Closing remarks](https://youtu.be/W8X1eain51c)
+* [Introduction](https://youtu.be/QOMF2EWC5B8)
+* [Installation](https://youtu.be/lhBJWDLO_IM)
+* [UI overview](https://youtu.be/3Z-TgTrrXDU)
+* [Proxy a repository](https://youtu.be/sumoWwqKoik)
+* [Group repositories](https://youtu.be/js4ibAL7kyk)
+* [Publish to a private repository](https://youtu.be/NNMQ8d-68es)
+* [Closing remarks](https://youtu.be/W8X1eain51c)
 
 
 [product vision]: /direction/package/
-[Package stage]: /handbook/product/categories/#package-stage
-[package-infradev-board]: https://gitlab.com/gitlab-org/gitlab/-/boards/3143028?label_name[]=group%3A%3Apackage&label_name[]=infradev
 [Package backend board]: https://gitlab.com/groups/gitlab-org/-/boards/892745
 [#s_package]: https://gitlab.slack.com/archives/s_package
 [youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KoPiSySNHTfvxC20i0LppMf

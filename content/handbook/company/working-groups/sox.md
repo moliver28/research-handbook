@@ -10,7 +10,7 @@ description: "Here you can find information relating to GitLab's SOX PMO. Learn 
 | Date Created | March 11, 2019 |
 | Date Ended   | TBD |
 | Slack        | [#wg_SOX- PMO](https://gitlab.slack.com/messages/CGV47EU85) (only accessible from within the company) |
-| Google Doc   | [SOX Working Group Agenda](https://docs.google.com/presentation/d/1PS_eHsoJAsjOq2cwYG7I3iSLz8sG9Upck-o6JSr8sDQ/edit?usp=sharing) (only accessible from within the company)
+| Google Doc   | [SOX Working Group Agenda](https://docs.google.com/presentation/d/1PS_eHsoJAsjOq2cwYG7I3iSLz8sG9Upck-o6JSr8sDQ/edit?usp=sharing) (only accessible from within the company) |
 
 
 ## Business Goals

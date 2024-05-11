@@ -15,7 +15,7 @@ description: "This page serves as the Partner Operations team page and includes 
 
 
 
-# Welcome to the Partner Operations Page!
+# Welcome to the Partner Operations Page
 
 ### Vision
 
@@ -702,7 +702,7 @@ For more information on quoting or the Partner Program, please visit:
 - [Partner Program](/handbook/resellers/)
 - [Channel Discount Matrices for GitLab Team Members](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit?usp=sharing).
 
-## Partner Influence 
+## Partner Influence
 
 Partners can influence GitLab opportunities without sourcing or transacting the deal. The Partner Sales team is required to submit an internal Partner Influence Registration which must be approved by the ASM to receive influence credit for an opportunity.
 
@@ -715,7 +715,7 @@ Qualifying partner influence activities include customer executive engagement an
 - Deliver customer strategy that recommends GitLab
 - Advise GitLab acct. Team on customer strategy/use case/pain points
 
-Partner Influence Registration should only be submitted and approved for: 
+Partner Influence Registration should only be submitted and approved for:
 1. a partner that did not source and/or transact the opportunity
 2. one partner (i.e., one approved Influence Registration/Partner per opportunity). Only the first approved record will qualify if multiple influence registrations are submitted and/or approved for one opportunity.
 
@@ -730,8 +730,8 @@ Follow the steps below to register partner influence on an opportunity:
 1. Add a partner to the `Influence Partner` field using the lookup button
 1. Select the applicable `Influence Type`:
     - Customer executive engagement and advocacy
-    - Working side by side with GitLab on customer pursuit. 
-1. Select one or more applicable partner influence activities using `Influence Details`: 
+    - Working side by side with GitLab on customer pursuit.
+1. Select one or more applicable partner influence activities using `Influence Details`:
    - Introduction to a customer decision maker or C-Suite
    - Host or participate in exec briefing advocating for GitLab
    - Trusted exec or technical advisor proactively advocating for GitLab
@@ -743,7 +743,7 @@ Follow the steps below to register partner influence on an opportunity:
 1. Do not edit `Opportunity Owner`, `ASM`, `Partner Territory Manager` and `Customer Account`. These will auto-populate upon save
 1. `Save` the Influence Partner Record
     ![Alt text](image-1.png)
-1. Attach any supporting documentation that highlights the partner's influence on the opportunity via `Google Docs, Notes, & Attachments` section. 
+1. Attach any supporting documentation that highlights the partner's influence on the opportunity via `Google Docs, Notes, & Attachments` section.
 1. Click `Submit for Approval` to route the Influence Registration to the ASM for final review and action
     ![Alt text](image-2.png)
 
@@ -980,7 +980,7 @@ The following partner forecast dashboards have been published for FY25. Please u
 All forecasting for the partner organization is done in Clari. Please use the following enablement guides to learn how to naivgate the tool and understand the forecasting process.
 - [Clari Partner Handbook](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#partner-forecasting)
 - [Clari Cheat Sheet and Enablement Deck](https://docs.google.com/presentation/d/1MzRR0Y5y4J9OCyAxoPzvxsY8cnzeQlPJp0C5_r4oaZ4/edit#slide=id.g28468b8eaf0_0_36)
-- [Clari Demo](https://gitlab.zoom.us/rec/play/7ZHwgYej0z7TGLDn_-Gi8NpUz0Adx0c8Z2mu0mVnyFF7pyKIvIpYvwrAP_Zx95AXQBen2SPcEPR4gZIM.MjCFFXOxTc8aPfO8) 
+- [Clari Demo](https://gitlab.zoom.us/rec/play/7ZHwgYej0z7TGLDn_-Gi8NpUz0Adx0c8Z2mu0mVnyFF7pyKIvIpYvwrAP_Zx95AXQBen2SPcEPR4gZIM.MjCFFXOxTc8aPfO8)
 
 
 ## Alliances and OEMs
@@ -1049,7 +1049,7 @@ Just as our partners register opportunities with GitLab, Partner Managers should
 AWS registrations can be received and submitted directly through your SFDC opportunity using the Labra Referrals and Labra Leads tools. Instructions can be found in this [Labra Process Guide](https://docs.google.com/document/d/1wdru-IPPj-lKnq4n25XQGPH3d06Z1xClxXnNdHE7LwU/edit#heading=h.rfec1j50uxik).
 
 #### Google Cloud
-GCP registrations are submitted on GitLab's behalf by the GCP team. To register a new opportunity with GCP, please click the following link and fill out the form. 
+GCP registrations are submitted on GitLab's behalf by the GCP team. To register a new opportunity with GCP, please click the following link and fill out the form.
 
 [New GitLab Opportunity Registration for GCP](https://docs.google.com/forms/d/e/1FAIpQLScEsVcfRBILkrSs73vUeqkzfi_nTuK4Tluv-HBUw230pWuRXw/viewform)
 

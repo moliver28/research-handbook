@@ -18,7 +18,7 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
 |:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|:--------------------------------------:|
 | **[OKR Planning & Execution](/handbook/company/okrs)**                              | Task: Track Q1 OKR progress | Task: Track Q1 OKR progress                                | Task: Score Q1 OKRs by 2024-04-30 and submit Q2 OKRs by 2024-04-22   |
 | **[Annual Compensation Review and Calibration](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/)**          | Task: Annual Comp Review  | Task: Managers communicate comp decisions to all impacted team members. Promotions and new comp visible to team members in Workday 2024-03-13                                 | |
-| **[Talent Assessment](/handbook/people-group/talent-assessment)** | Task: Performance Review Discussion with Managers                            |                  |
+| **[Talent Assessment](/handbook/people-group/talent-assessment)** | Task: Performance Review Discussion with Managers                            |                  |  |
 
 
 ### FY25 Q2
@@ -30,9 +30,14 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
 | **[GitLab Engagement Survey](/handbook/people-group/engagement)**                  |  | Task: Engagement Survey kicks off               | Task: Engagement Survey results review & Divisional Action planning   |
 | **[Talent Assessment](/handbook/people-group/talent-assessment)** |   |   Task: [Mid-Year Check In](https://handbook.gitlab.com/handbook/people-group/talent-assessment/#timeline-1)                       |                     |
 | **[Career Development Conversations]({{< ref "career-development" >}})**          |                         |      | Task: (Optional) Kick off your Individual Growth Plan in Workday                     |
-  |
 
 
-### FY25 Q3 and FY25 Q4
+### FY24 Q4
 
-We are still updating dates for Q3 and Q4, we will make changes to this calendar once complete.
+| **Action**                                    | **November**                | **December**        | **January**                            |
+|:---------------------------------------------:|:---------------------------:|:-------------------:|:-------------------:|
+| **[OKR Planning & Execution](/handbook/company/okrs)** | Task: Track Q4 OKR progress | Task: Track Q4 OKR progress                                | Task: Score Q4 OKRs by 2024-01-31 and submit FY25-Q1 OKRs by 2024-01-08   |
+| **[Promotion Planning, Calibration & Communication]({{< ref "promotions-transfers#quarterly-promotion-calibration-process--timeline" >}})**          |                  |  |  |
+| **[Promotion Effective date & Communication]({{< ref "promotions-transfers#quarterly-promotion-calibration-process--timeline" >}})**  |                             |                     | Task: Plan Promotions for Q1 and Calibrate with Leadership by 2024-01-15 |
+| **[Talent Assessment](/handbook/people-group/talent-assessment)**                         | Task: Write Talent Assessment review for your team members | Task: Calibrate ratings with leadership | Task: Talent Assessment (Review) Discussions with your team |
+| **[Annual Comp Calibration]({{< ref "compensation-review-cycle" >}})**                   |Task: Add in recommendations for compensation changes for your team, Task: Calibrate the recommendations with your leader, Key date: Final recommendation to be entered in Workday by 2024-01-15 (tbc)                    |  |  |

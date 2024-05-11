@@ -23,7 +23,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
     > Note: The AI generation feature for issue descriptions will only display in plain text editing mode. If you do not see the Tanuki button, you are likely in rich text editing mode.
 
-1. In the Description box, select the Tanuki button, then select **Generate issue description**. 
+1. In the Description box, select the Tanuki button, then select **Generate issue description**.
 
 1. In the issue description generation box, type the prompt: `We want to make our "hello world" application more visually appealing for the end user. We want to incorporate the Go Figure module into our application to print out more exciting text.`
 
@@ -110,7 +110,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 > Uh-oh! You may have noticed that our pipeline failed.
 
-1. From the MR, click on the most recent pipeline run that failed. 
+1. From the MR, click on the most recent pipeline run that failed.
 
 1. Click on the job that failed.
 
@@ -118,7 +118,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Select **Generate root cause analysis**
 
-1. This will generate a explanation on why the job failed an example fix. It will say something along the lines of a missing module. Try to implement the suggested fix in your `.gitlab-ci.yml` file by adding an additional `go` command in the `build app` job. 
+1. This will generate a explanation on why the job failed an example fix. It will say something along the lines of a missing module. Try to implement the suggested fix in your `.gitlab-ci.yml` file by adding an additional `go` command in the `build app` job.
 
 1. Return to your Merge Request
 
@@ -128,7 +128,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. In the `script` section of your `build app` job, add the script to pull the `go-figure` dependency.
 
-    Your configuration file should look like the file below: 
+    Your configuration file should look like the file below:
 
     ```yml
     stages:
@@ -143,6 +143,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
         - go get github.com/common-nighthawk/go-figure
         - go run main.go
     ```
+
     This will fix the pipeline and in the output you should see a fun version of hello world printed in the job log!
 
 1. Select Source Control from the left sidebar.

@@ -30,6 +30,6 @@ Below a few examples of the GitLab 101 calls
 
 ### Frequently Asked Questions about the GitLab Culture
 
-##### All previously asked questions have been integrated into our [handbook](/handbook)
+#### All previously asked questions have been integrated into our [handbook](/handbook)
 
 Future questions will be added to this FAQ section.

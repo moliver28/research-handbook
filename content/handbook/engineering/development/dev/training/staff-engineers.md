@@ -28,6 +28,7 @@ Another difference is the gap between Staff and Principal - a Staff engineer is 
 
 
 ### New job requirements
+
 - [Creating your own OKRs](/handbook/engineering/development/dev/create/engineering-managers/okrs/#okr-authors) each quarter outside of small issues or Deliverables
 - [Become an Incident Manager on-call](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/#who-are-the-incident-managers)
 

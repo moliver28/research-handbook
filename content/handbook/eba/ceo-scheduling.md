@@ -128,15 +128,15 @@ If people want advice on open source, remote work, or other things related to Gi
 > Thanks for being interested in GitLab. If we schedule a meeting it will follow GitLab's [Pick Your Brain format](/handbook/ceo/#pick-your-brain-interviews). Are you able to submit a draft post with us within 48 hours of interview?
 >
 > GitLab is a very transparent company and many things that are normally confidential can be found in our handbook, available online. Please consider looking at the following pages prior to our meeting.
->   - [Company strategy](/handbook/company/strategy/)
->   - [Our Objectives and Key Results per quarter](/handbook/company/okrs/)
->   - [All team members and numbers per department](/handbook/company/team/)
->   - [Handbook with all our processes](/handbook/)
->   - [Pricing plans](https://about.gitlab.com/pricing/)
->   - [Pricing strategy](/handbook/company/pricing/)
->   - [History](/handbook/company/history/)
->   - [About](/handbook/company/)
->   - [All Remote](/handbook/company/culture/all-remote/)
+> - [Company strategy](/handbook/company/strategy/)
+> - [Our Objectives and Key Results per quarter](/handbook/company/okrs/)
+> - [All team members and numbers per department](/handbook/company/team/)
+> - [Handbook with all our processes](/handbook/)
+> - [Pricing plans](https://about.gitlab.com/pricing/)
+> - [Pricing strategy](/handbook/company/pricing/)
+> - [History](/handbook/company/history/)
+> - [About](/handbook/company/)
+> - [All Remote](/handbook/company/culture/all-remote/)
 
 1. If we receive a positive answer we schedule a 50 minute YouTube public livestream. For an example of an interview, see [this one about stress in remote work](https://www.youtube.com/watch?v=23XIx6n9SsQ).
 1. Within 48 hours you share a draft post with us in a Google Doc with suggestion or edit rights for anyone that knows the URL.

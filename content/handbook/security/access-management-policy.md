@@ -26,7 +26,7 @@ Usage guidelines for each of the access templates is outlined on the [Team Membe
 
 These templates should be used during the [onboarding process](/handbook/people-group/general-onboarding/) and throughout the employment tenure of a GitLab Team Member. Access required as part of the team member's onboarding should be requested using the [New Access Requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) or if applicable, one of the available [Role-based entitlements templates](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/tree/master/.gitlab/issue_templates/role_baseline_access_request_tasks).
 
-## Roles & Responsibilities:
+## Roles & Responsibilities
 
 | Role | Responsibility |
 | --- | --- |

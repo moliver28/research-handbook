@@ -11,9 +11,9 @@ title: "DevOps Solution Resource: DevSecOps"
 
 
 
-# Looking for a customer-facing overview of GitLab's DevSecOps capabilities? See the [DevSecOps Solution](https://about.gitlab.com/solutions/dev-sec-ops).
+## Looking for a customer-facing overview of GitLab's DevSecOps capabilities? See the [DevSecOps Solution](https://about.gitlab.com/solutions/dev-sec-ops)
 
-# GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information
+## GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
@@ -23,7 +23,7 @@ The page below is intended to align GitLab sales and marketing efforts with a si
 | ------------------------ | ------------------------- |
 | Brian Mason ( @BrianMason )  | Fernando Diaz ( @fjdiaz ) |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## DevSecOps
 
@@ -93,7 +93,7 @@ The key to winning their hearts is to focus on **Simplicity and control**
 | Works with existing and diverse tools| Security scanners must integrate into an existing environment that may use third party CI and/or security scanners. | APIs and Plug-ins | Allows continued use of existing investments and avoids a rip-n-replace scenario. |
 
 
-# The GitLab Solution
+## The GitLab Solution
 
 ## How GitLab Meets the Market Requirements
 
@@ -217,7 +217,7 @@ A more complete list of technology partners can be found on our [security partne
 If you or your customer has a third party they'd like to see integrated into GitLab, send them to the [partner integration page](https://about.gitlab.com/partners/technology-partners/integrate/) for instructions.
 
 
-# Selling the DevSecOps Solution
+## Selling the DevSecOps Solution
 
 ## Customer Facing Slides
 - [Security customer presentation](https://docs.google.com/presentation/d/1WHTyUDOMuSVK9uK7hhSIQ_JbeUbo7k5AW3D6WwBReOg/edit?usp=sharing)

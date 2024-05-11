@@ -10,11 +10,13 @@ description: >-
 The group is part of [Create Stage][hb-create] in the [Dev Sub-department][hb-dev]. We focus on multiple [categories][hb-categories]: `Remote Development` and the `Web IDE`.
 
 ### 👌 Group OKRs
+
 <span id="-team-okrs" data-message="alias anchor for old links"></span>
 
 If you're interested in the group's Objectives and Key Results (OKRs), you can find them on [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Aide&first_page_size=20).
 
 ### 🤴 Group Principles
+
 <span id="-team-principles" data-message="alias anchor for old links"></span>
 
 [Create:IDE Principles][principles]: What Are the Create:IDE Group Principles?
@@ -32,6 +34,7 @@ The following people are permanent members of the IDE Engineering Group:
 {{< stable-counterparts role="Create:IDE" manager-role="Engineering Manager(.*)Create:IDE" >}}
 
 ### ☕ Category DRIs
+
 <span id="-team-category-dris" data-message="alias anchor for old links"></span>
 
 | Category                 | DRI                                     |
@@ -51,6 +54,7 @@ Depending on the context here are the most appropriate ways to reach out to the 
 [Create::IDE Group Metrics Tableau Workbook](https://10az.online.tableau.com/#/site/gitlab/workbooks/2067787/views)
 
 ### 📆 Group Meetings
+
 <span id="-team-meetings" data-message="alias anchor for old links"></span>
 
 **❗️Important**: For every meeting, the [IDE group's meeting document][gdoc] should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
@@ -88,6 +92,7 @@ These are regular meetings in which most team members will participate. Also, pl
 - **What:** In this meeting, we will review the team's backlog and the current iteration status. We'll estimate and prioritize work for the next one or two iterations. The meeting will alternate between APAC and EMEA time zones to accommodate different regions. For more information, see ["Iteration Planning Meeting"](#-iteration-planning-meeting).
 
 ## 📦 Group Processes
+
 <span id="-team-processes" data-message="alias anchor for old links"></span>
 
 ### 🖖 Weekly EM Updates
@@ -123,6 +128,7 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 It's okay to create specific engineering-driven implementation issues for more complex features. These would be called **Child Issues** and they should always link back to their parent. If one issue would spawn many child issues, consider creating an Epic.
 
 ## 🤖 Planning Process
+
 <span id="-category-specific-planning-processes" data-message="alias anchor for old links"></span>
 
 The IDE group has decided to use an alternate planning process for the following reasons:
@@ -136,6 +142,7 @@ The IDE group has decided to use an alternate planning process for the following
 Even though the Web IDE category does not have all these constraints (e.g. it is based on VS Code and is not greenfield code, and has fewer unknowns), the Web IDE category will follow a similar process in order reduce the cognitive overhead of the entire group.
 
 ### Planning Process Overview
+
 <span id="-remote-development-planning-process" data-message="alias anchor for old links"></span>
 <span id="remote-development-planning-process-overview" data-message="alias anchor for old links"></span>
 
@@ -341,6 +348,7 @@ Then, based on the dates of calculated iterations, we can reassign the issues fr
    then the issue is closed, and moved to the `~(rd|webide)-workflow::done` list.
 
 ### Relationship of Issues to MRs
+
 <span id="1-to-1-relationship-of-issues-to-mrs" data-message="alias anchor for old links"></span>
 
 We want to enforce that:
@@ -359,11 +367,13 @@ the first line of the issue should have the format: `MR: <...>`:
 1. Once an MR is created for the issue and work is started, the first description line of the issue should be: `MR: <MR link with trailing +>`,
    and the first description line of the MR should be `Issue: <Issue link with trailing +>`.
 1. If the work for an issue was iteratively split into multiple MR's, the first description line of the issue should be:
+
    ```
    MR:
      - <MR link with trailing +>
      - <MR link with trailing +>
    ```
+
    Each description line of the MR's in this list should be `Issue: <Issue link with trailing +>`. **Please note:** If breaking out an issue's implementation
    into multiple MR's unexpectedly increases the scope of the work, please consider creating a new weighted and prioritized issue to
    capture the extra scope. This is important in order to accurately reflect scope increases, and their impact on reporting and velocity.
@@ -413,6 +423,7 @@ Some issues are large in scope to start implementing, and/or still has too many 
 1. Once the investigation and breakdown into smaller issues is complete, then the weight can be removed and the issue closed.
 
 ### 🍨 Handling Issues Outside the Process
+
 <span id="-handling-remote-development-issues-outside-the-process" data-message="alias anchor for old links"></span>
 
 Certain `group::ide` issues may be categorized under the `(rd|webide)-workflow::ignored` label. These categories include:
@@ -519,8 +530,6 @@ TODO: None of these are set up for the Web IDE category and `webide-workflow::*`
 [hb-dev]: /handbook/engineering/development/dev/
 [hb-categories]: https://about.gitlab.com/direction/create/#categories-in-create
 [paid-time-off]: /handbook/paid-time-off/#paid-time-off
-[product-development-flow]: /handbook/product-development-flow/
-[workflow-labels]: https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#labels
 [gdoc]: https://docs.google.com/document/d/1b-dgL0ElBf_I3pbBUFISTYBG9VN02F1b3TERkAJwJ20/edit#
 [slack]: https://gitlab.slack.com/archives/CJS40SLJE
 [youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KrRQhnSYRNh1s1mEUypx67-

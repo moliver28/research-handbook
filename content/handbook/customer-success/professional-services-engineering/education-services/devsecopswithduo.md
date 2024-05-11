@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 ## Lab Guides
 
- Lab Guide | Link 
+ Lab Guide | Link
 -----------|------------
  Getting Started with GitLab Duo| [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab1)
  Code Generation with GitLab Duo| [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab2)

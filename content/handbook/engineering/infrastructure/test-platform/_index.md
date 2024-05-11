@@ -91,7 +91,7 @@ Test infrastructure provides stability, dependability, and testing continuity fo
 
 ### Test Coverage
 
-Given rapidly evolving technologies and our drive to provide a world class experience for GitLab users, Test Platform sub-department strives to meet the increasing demands of efficient, intelligent test coverage and confidence at scale. We aim to test the right things at the right time. We focus on exploring several new testing types and visibility improvements to increase the actionability, speed, and sophistication of our various test suites. 
+Given rapidly evolving technologies and our drive to provide a world class experience for GitLab users, Test Platform sub-department strives to meet the increasing demands of efficient, intelligent test coverage and confidence at scale. We aim to test the right things at the right time. We focus on exploring several new testing types and visibility improvements to increase the actionability, speed, and sophistication of our various test suites.
 
 - Machine learning for test gap recognition, failure analysis and classification, and failing fast.
 - New testing types: visual regression testing, chaos testing, contract testing, permissions testing.
@@ -166,6 +166,7 @@ graph TD
     click C "/handbook/engineering/infrastructure/test-platform/test-engineering-team"
     click D "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team"
 ```
+
 ### Engage with us
 
 Feel free to reach out to us by opening an issue on the [Quality Team Tasks project](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues) or contacting us in one of the Slack channels listed below.
@@ -251,9 +252,9 @@ The area a QEM is responsible for is defined in the [Product Stages and Groups](
 
 Milestones (product releases) are one of our [planning horizons](/handbook/product/product-processes/#planning-horizons), where prioritization is a collaboration between Product, Development, UX, and Quality. [DRIs](/handbook/people-group/directly-responsible-individuals/) for prioritization are based on work type:
 
-* Feature - PM
-* Maintenance - EM
-* Bug - QEM
+- Feature - PM
+- Maintenance - EM
+- Bug - QEM
 
 We use [type labels](/handbook/engineering/metrics/#work-type-classification) to track: feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types.
 

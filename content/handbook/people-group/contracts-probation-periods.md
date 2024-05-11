@@ -107,7 +107,7 @@ If an exception request is made to end a probation period early, this should be 
 
 {{< entities-with-probation >}}
 
-### Locations without Probation Periods:
+### Locations without Probation Periods
 
 {{< entities-without-probation >}}
 

@@ -119,7 +119,7 @@ Many logs are JSON formatted by default. Admins may wish to configure text forma
 1. Check the current log formats for Gitaly.
 
     ```bash
-    sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb 
+    sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb
     ```
 
     > This command will find the start of the gitaly configuration with grep, then display the 20 lines that follow using the `-A20` flag. This will show the full configuration of the Gitaly configuration file
@@ -144,26 +144,26 @@ Many logs are JSON formatted by default. Admins may wish to configure text forma
 
     ```bash
     sudo sed -i '2588s/json/text/' /etc/gitlab/gitlab.rb
-    sudo sed -i '2574s/# //' /etc/gitlab/gitlab.rb 
+    sudo sed -i '2574s/# //' /etc/gitlab/gitlab.rb
     sudo sed -i '2588s/# //' /etc/gitlab/gitlab.rb
-    sudo sed -i '2585s/# //' /etc/gitlab/gitlab.rb 
-    sudo sed -i '2591s/# //' /etc/gitlab/gitlab.rb 
+    sudo sed -i '2585s/# //' /etc/gitlab/gitlab.rb
+    sudo sed -i '2591s/# //' /etc/gitlab/gitlab.rb
     sudo sed -i '2591s/,/ }/' /etc/gitlab/gitlab.rb
     ```
 
     > With this sed commands, you are first replacing the JSON format with text. Next, you are removing the comments in front of the format and Gitaly configuration blocks to enable them.
 
-4. Rerun your `grep` command to view your configuration: `sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb `. The end result will look similar to below:
+4. Rerun your `grep` command to view your configuration: `sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb`. The end result will look similar to below:
 
 ```bash
 gitaly['configuration'] = {
 ...
    logging: {
-#     dir: "/var/log/gitlab/gitaly",
-#     level: 'warn',
+##     dir: "/var/log/gitlab/gitaly",
+##     level: 'warn',
       format: 'text'
-#     sentry_dsn: 'https://<key>:<secret>@sentry.io/<project>',
-#     sentry_environment: 'production',
+##     sentry_dsn: 'https://<key>:<secret>@sentry.io/<project>',
+##     sentry_environment: 'production',
 }}
 ```
 

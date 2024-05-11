@@ -30,7 +30,7 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 | Kristina Bullock  | Engineering: CTO, Customer Support, Quality/Infrastructure, Chief of Staff   |
 | Jess Durbin       | Engineering: Core Development and Expansion  |
 
-## How to partner with PBPs to foster high performance in your team:
+## How to partner with PBPs to foster high performance in your team
 
 ### Team Structure and Organizational Health
 
@@ -38,7 +38,7 @@ People Business Partners partner with senior leadership to drive organizational 
 
 Additionally, PBPs support team member engagement in each division using sentiment data from our engagement surveys and driving action planning in the divisions. You can also talk to your PBP about specific retention concerns or strategies as needed.
 
-#### For more information:
+#### For more information
 
 1. [Organizational Design](https://handbook.gitlab.com/handbook/people-group/organizational-design/)
 1. GitLab Job Frameworks
@@ -48,7 +48,7 @@ Additionally, PBPs support team member engagement in each division using sentime
 
 PBPs collaborate with Talent Management, Talent Development, Total Rewards,and all People Group teams to execute talent programs in each division.  Where appropriate, PBPs contribute to project teams to ensure talent programs meet specific business needs.
 
-#### For more information:
+#### For more information
 
 1. [Talent Assessment programs](https://handbook.gitlab.com/handbook/people-group/talent-assessment/) including promotion and career development
 1. [Succession planning](https://handbook.gitlab.com/handbook/people-group/talent-assessment/#succession-planning)
@@ -58,7 +58,7 @@ PBPs collaborate with Talent Management, Talent Development, Total Rewards,and a
 
 PBPs can provide invaluable leadership coaching on a range of issues such as team cohesion, team member development, team performance challenges, retention, and more. When needed, PBPs can act as an unbiased third party to discuss issues or problems and possible ideas for next steps.
 
-#### For more information:
+#### For more information
 
 1. Support in leveraging leadership development tools for specific growth opportunities such as [360s for people leaders](https://handbook.gitlab.com/handbook/people-group/360-feedback/) and [external coaching](https://handbook.gitlab.com/handbook/leadership/coaching/)
 1. For direct manager support on underperformance, please refer to [Team Member Relations](https://handbook.gitlab.com/handbook/people-group/team-member-relations/)

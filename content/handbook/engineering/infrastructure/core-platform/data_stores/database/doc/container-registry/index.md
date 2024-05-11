@@ -64,19 +64,19 @@ This naturally leads to deduplicating records, as they are not physically tied t
 
 ##### Drawbacks
 
-###### Drawback 1: There is no common partitioning key.
+###### Drawback 1: There is no common partitioning key
 
 There is [no natural partitioning key](https://gitlab.com/gitlab-org/gitlab/-/issues/234255#note_393239553) in this model. There are a couple of patterns how the tables are being access. Given all models are first-class citizens, there's no common dimension all tables (or a large enough subset of tables) are being accessed by.
 
 This renders it problematic if not impossible to find a meaningful partitioning scheme. This has potential to lead to performance problems down the road, when tables become large.
 
-###### Drawback 2: The model naturally leads to dangling records.
+###### Drawback 2: The model naturally leads to dangling records
 
 The nature of this model is to treat all entities as first class citizens. This helps to deduplicate records, but also allows for a state where an entity doesn't have any references anymore but still exists in the database.
 
 This means that we'll have to have a garbage collection algorithm to clean those entries up.
 
-###### Drawback 3: Garbage collection is expensive.
+###### Drawback 3: Garbage collection is expensive
 
 Since the model allows records to become "dangling", we'll have to implement a GC algorithm to find those and eventually delete them. Let's look at the example of dangling manifests: This is a manifest that is not being referenced by any repository. We can find a batch of up to `N=100` dangling manifests like so:
 
@@ -95,7 +95,7 @@ This is an anti-join across the full relation, which can be executed as a scan o
 
 We have a [good example for anti-join runtime characteristics](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/40717#note_404570149). Here, runtime varies from a few milli-seconds (best case - many "dangling records" or "dangling records" at the beginning of the scan) to about 30s (no dangling records).
 
-###### Drawback 4: Reference tables are expected to become large.
+###### Drawback 4: Reference tables are expected to become large
 
 The many-to-many reference tables are the ones that would become large, because they are effectively connecting `N` repositories with `M` manifests, for example (one record per connection).
 
@@ -256,6 +256,7 @@ When uploading a manifest, if `reference` is a tag (can be a digest as well), we
 When the registry receives the manifest `B`, it finds out that another manifest, `A`, is already tagged with `latest` in the repository. In this situation, the registry will remove the `latest` tag from `A` and point it to `B` instead. Because of this, manifest `A` may now be eligible for deletion if no other tag points to it.
 
 To account for this we need to insert all blobs referenced by manifest `A` into the `blob_review_queue`.
+
 #### Consuming the blob review queue
 
 We implement a background job system that consumes entries from `blob_review_queue` and performs GC checks and actions. This can be done with go-routines and synchronization on `blob_review_queue` can be implemented with `SELECT ... FOR UPDATE SKIP LOCKED` mechanics.

@@ -17,6 +17,7 @@ Use this runbook for:
 ### Running GPT tests
 
 #### Manual testing
+
 Get the url and password for the `root` user from 1password by searching for Static Analysis in the Engineering Vault. Please don't delete projects, groups, or users, but feel free to create any of those, or anything else you'd like to test with.
 
 #### Running automated tests (via GCP VM)
@@ -40,6 +41,7 @@ Running the tests:
 * To run all the tests: `ACCESS_TOKEN=glpat-REDACTED SD_PUSH_CHECK_ENABLED=true ./bin/run-k6 --environment gcp-2k.json --options 60s_40rps.json`
 
 #### Running automated tests (via Docker)
+
 * Get the glpat token (ACCESS_TOKEN) from 1password by searching for Static Analysis in the Engineering Vault
 * GPT tests can be ran from any directory that contains an `environments` directory
 * Open a local terminal and `git clone https://gitlab.com/gitlab-org/quality/performance.git`
@@ -99,6 +101,7 @@ Steps to add a new $GCP_ENV_PREFIX:
 * Run `ansible-playbook -i environments/$GCP_ENV_PREFIX/inventory playbooks/all.yml`
 * After logging in to the instance, if the Ultimate license doesn't apply, you may have to manually upload the license
 * Make the instance a "Dedicated instance" by logging in to the rails console and running:
+
 ```ruby
 a = ApplicationSetting.first
 a.gitlab_dedicated_instance = true
@@ -123,6 +126,7 @@ a.save!
 * Split the importing of data into the following two steps
 
 Horizontal data:
+
 ```
 docker run -it \
   -e ACCESS_TOKEN=glpat-REDACTED \
@@ -138,6 +142,7 @@ This command will most likely time out, but if it shows as importing in
 the browser, just wait for it to finish importing.
 
 Vertical data:
+
 ```
 docker run -it \
   -e ACCESS_TOKEN=glpat-REDACTED \
@@ -170,11 +175,12 @@ files necessary to make this work are as follows:
 * ansible/environments/dashboards.yaml
 * ansible/environments/datasources.yaml
 
-These files can be found in [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4). 
+These files can be found in [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4).
 
-See the [Custom Tasks section](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_advanced.md#custom-tasks) of the GET docs for more info. 
+See the [Custom Tasks section](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_advanced.md#custom-tasks) of the GET docs for more info.
 
 ### Resources/Acronyms
+
 * [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 * [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
 * [The Static Analysis GCP Project: dev-sast-prereceive-8a4574ec](https://console.cloud.google.com/welcome?project=dev-sast-prereceive-8a4574ec)
@@ -187,6 +193,7 @@ Most examples throughout the runbook have been added using the `gcp-2k`
 environment as their basis.
 
 #### Rails console and checking feature flags
+
 * SSH in to a rails server: `gcloud compute ssh --zone us-west1-c gcp-2k-gitlab-rails-1 --project dev-sast-prereceive-8a4574ec`
 
 * Launch a rails console: `sudo gitlab-rails console` (it will take a bit to connect)
@@ -197,6 +204,7 @@ environment as their basis.
 
 * Via the web, enable the feature instance-wide by navigating to `/admin/application_settings/security_and_compliance`
 * Via the rails console:
+
 ```ruby
 a = ApplicationSetting.first
 a.pre_receive_secret_detection_enabled = true

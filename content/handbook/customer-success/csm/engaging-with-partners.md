@@ -7,11 +7,11 @@ title: "Engaging with Partners"
 
 
 
-### Pre-Customer Kick-Off or 1st Engagement:
+### Pre-Customer Kick-Off or 1st Engagement
 
 1. GitLab Partner team introduces CSM & SAE/AE to Partner - ideally before sale closes to not slow down post-sales implementation
 
-1. CSM and SAE/AE connects with Partner to align on the role the Partner will play post-sale.  
+1. CSM and SAE/AE connects with Partner to align on the role the Partner will play post-sale.
 
    - If the Partner has an ongoing engagement with the customer, CSM & Partner to align on post-sale Kick-Off call, collaborating on the Kick-Off deck content and ownership/roles for the call
 
@@ -23,7 +23,7 @@ title: "Engaging with Partners"
 
 
 
-### Customer Onboarding:
+### Customer Onboarding
 
 1. [GitLab's process and metrics for successful onboarding can be found here](/handbook/customer-success/csm/onboarding/#time-to-first-value).
 
@@ -31,7 +31,7 @@ title: "Engaging with Partners"
 
 
 
-### Ongoing Cadence Calls:
+### Ongoing Cadence Calls
 
 1. The CSM team follows these [guidelines in holding cadence calls with customers](/handbook/customer-success/csm/cadence-calls/). The CSM is to work with the Partner to align on how they can collaborate in regard to touchpoints with the customer, creating a seamless customer experience
 

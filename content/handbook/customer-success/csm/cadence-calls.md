@@ -10,7 +10,7 @@ title: Cadence Calls
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-- - -
+---
 
 ## Overview
 
@@ -33,7 +33,7 @@ An effective cadence call involves more than just the call itself. There are sev
 
 Leading up to a cadence call, the CSM should prepare a meeting agenda. This is the foundation of an effective call, and should be collaborated on by all attendees. The agenda should be made available to everyone at least a few days in advance of the call.
 
-#### Recommended details to include in the agenda include:
+#### Recommended details to include in the agenda include
 
 - Attendees, both from GitLab and from the customer
 - Advance materials or read-only items

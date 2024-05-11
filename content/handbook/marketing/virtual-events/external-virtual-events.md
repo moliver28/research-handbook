@@ -6,12 +6,12 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
- 
 
 
 
 
-# Overview
+
+## Overview
 {: #overview .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 ---
@@ -24,7 +24,7 @@ External virtual events are, by definition, not owned and hosted by GitLab. They
 * [Executive Roundtable](/handbook/marketing/virtual-events/external-virtual-events/#executive-roundtables):  hosted on an external vendor platform, this is a gathering of high level CxO attendees run as an open discussion between the moderator/host, GitLab expert and delegates. There usually aren't any presentations, but instead a discussion where anyone can chime in to speak. The host would prepare questions to lead discussion topics and go around the room asking delegates questions to answer. The goal of an executive roundtable is net new leads - we do not promote to our existing database as it is a paid activity.
 * [Vendor Arranged Meetings](/handbook/marketing/virtual-events/external-virtual-events/#vendor-arranged-meetings): hosted by an external vendor, the vendor organizes one-to-one meetings with prospect or customer accounts. This does not include meetings set internally by GitLab team members. An example would be a "speed dating" style meeting setup where a vendor organizes meetings with prospects of interest to GitLab. The goal of a venor arranged meeting is to generate meetings with accounts of interest that we are finding challenging to break into directly - we do not promote to our existing database as it is a paid activity.
 
-# Partner Webinars
+## Partner Webinars
 {: #partner-hosted-webinars .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 ---
@@ -67,29 +67,29 @@ The project owner is responsible for following the steps below to create the epi
 
 - [ ] Once date is finalized, add to [All Marketing Calendar](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit?usp=sharing)
 
-## :notepad_spiral: Key Details 
+## :notepad_spiral: Key Details
 * **Slack channel:** <!-- add slack channel # -->
 * **[Meeting Notes]()** <!-- to be added by Partner Marketing -->
 * **Speaker(s) and Moderator:** <!-- add gitlab handle and company -->
 * **CAM:** <!-- add gitlab handle -->
 * **Partner Marketing DRI:** <!-- add gitlab handle -->
-* **Other GitLab Sponsors:** <!-- add gitlab handle(s) --> 
+* **Other GitLab Sponsors:** <!-- add gitlab handle(s) -->
 * **Partner's Marketing Liaison:** <!-- add gitlab handle / name -->
 * **Marketo Program Type:** Webinar (Partner)
 * **Organizer/Webinar hosting:** <!-- add who is hosting the webinar -->
-* **Landing Page/Registration URL:** 
+* **Landing Page/Registration URL:**
 * **Persona (choose one):** `Practitioner, Manager, or Executive`
 * **Sales Segment:** `Large` (GCP's focus)
 * **Sales Region:** `AMER, EMEA, APAC`
-* **Topic:** 
+* **Topic:**
 * **Event Name:** <!-- official name TBD -->
 * **Event Date:** YYYY-MM-DD
 * **Duration:**  (X min content + X min Q/A)
-* **GTM Motion (choose primary):** `CI/CD, DevOps Platform, GitOps` 
-* **Vertical (optional, if specific):** 
+* **GTM Motion (choose primary):** `CI/CD, DevOps Platform, GitOps`
+* **Vertical (optional, if specific):**
 * **Goal:** `Please be specific on the metric this is meant to impact.`
-* **Total Cost:** 
-* **MDF Requested:** 
+* **Total Cost:**
+* **MDF Requested:**
 
 ## Program Tracking <!-- Delete if not receiving leads -->
 * [ ] [main SFDC campaign](tbd)
@@ -113,22 +113,22 @@ The project owner is responsible for following the steps below to create the epi
 * [ ] [Organic social promotion issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=social-gtm-organic) (optional)
 * [ ] [Paid digital promotion issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/issues/new?issuable_template=mktg-promotion-template) (optional)
 
-## If partner is sharing leads:
+## If partner is sharing leads
 - [ ] GitLab and partner to determine first touch and follow up
    - Best practice: joint lead follow up: Partner does 3 touches within 2 weeks following the event (a touch is a voicemail and email).  Qualified leads with immediate opportunity will be deal reg as they come in.  After 14 day follow up, full list with follow up notes will be provided to GitLab for list upload and further nurturing by GL
 - [ ] [Program tracking issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-program-tracking)
 - [ ] [List clean & upload request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=event-clean-upload-list). (In lead upload, record the opt-in T&Cs used in the upload Issue and in the upload template, set Opt-in = True.
 * [ ] [Add to nurture issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-add-nurture)
 
-## If receiving recording and have distribution of webinar:
+## If receiving recording and have distribution of webinar
 * [ ] [Pathfactory upload issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-upload) (only open if we receive and can use recording, webinar DRI responsible for upload)
 * [ ] [Pathfactory track issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-track) (only open if we receive and can use recording)
 
-## Post event tasks:
+## Post event tasks
 - [ ] [Ordering a swag appreciation gift](/handbook/marketing/developer-relations/contributor-success/community-appreciation/) for speakers
 - [ ] [Request add to Resources](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-resource-page-addition)
 
-#### Opt in language applicable to all scenarios below and all geographies:
+#### Opt in language applicable to all scenarios below and all geographies
 _By registering for this GitLab and [partner name] event, you agree that GitLab and [Partner name] may email you about their products, services and events. You may opt-out at any time by unsubscribing in future emails or visiting the relevant company's preference center._
 
 In order to mark leads as Opt-in = TRUE, a record of the terms and conditions the leads agreed to upon having their data collected must be recorded. Check the terms of service wording has been recorded in the upload issue before opting in leads to receive marketing communications. No ToS, no Opt-in. Period. To find the appropriate language, refer to Marketing Rules and Consent Language
@@ -139,7 +139,7 @@ Leave Opt-In empty if no other option is available
 
 ```
 
-# Sponsored Webinars
+## Sponsored Webinars
 {: #sponsored-webinars .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 ---
@@ -170,21 +170,21 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
-## :notepad_spiral: Key Details 
-* **Project Owner:** 
-* **FMC/FMS:** 
+## :notepad_spiral: Key Details
+* **Project Owner:**
+* **FMC/FMS:**
 * **Type:** Sponsored Webcast
-* **Official Name:** 
-* **Registration URL:** 
+* **Official Name:**
+* **Registration URL:**
 * **Persona (choose one):** `Practitioner, Manager, or Executive`
 * **Use Case (choose primary):** `CI, VC&C, DevSecOps, Other` (FY21-22 focus on CI and VC&C)
 * **Sales Segment (choose primary):** `Large, Mid-Market, or SMB`
 * **Sales Region (choose one):** `AMER, EMEA, APAC`
-* **Sales Territory (optional, if specific):** 
+* **Sales Territory (optional, if specific):**
 * **Goal:** `Please be specific on the metric this is meant to impact.`
-* **Budget:** 
-* **Campaign Tag:**  
-* **Launch Date:**  [YYYY-MM-DD] 
+* **Budget:**
+* **Campaign Tag:**
+* **Launch Date:**  [YYYY-MM-DD]
 * [ ] [main salesforce program]()
 * [ ] [main marketo campaign]()
 * [ ] Campaign UTM - Project Owner/FM to fill in (Format: campaign tag - change to all lowercase, no spaces, hyphens, underscores, or special characters)
@@ -196,18 +196,18 @@ The project owner is responsible for following the steps below to create the epi
 [Project Owner/FMM add whatever additional notes are relevant here]
 
 ## Issue creation
-If you are Field Marketer, see next section below for the issues you need to create. 
+If you are Field Marketer, see next section below for the issues you need to create.
 
 * [ ] Program Tracking
   - [If tactic owner is Campaigns Team](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-program-tracking)
 * [ ] [Write copy issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=write-copy)
-* [ ] [Follow up email issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup) 
+* [ ] [Follow up email issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup)
 * [ ] [List clean and upload issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list)
 * [ ] [Add to nurture issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-add-nurture)
-* [ ] [Pathfactory Upload issue created](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-upload) (*optional*) 
+* [ ] [Pathfactory Upload issue created](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-upload) (*optional*)
 
-## Issue Creation for Field Marketing 
-Please delete the generic issue creation section above if you are a FMC creating this. 
+## Issue Creation for Field Marketing
+Please delete the generic issue creation section above if you are a FMC creating this.
 * [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=program-tracking) - FMC creates, assigns to FMC
 * [ ] [Write copy issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=write-copy) - FMC creates, assigns to FMM
 * [ ] [Follow Up Email issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=request_email_followup) - FMC creates, assigns to FMM (issue will be triaged)
@@ -215,14 +215,14 @@ Please delete the generic issue creation section above if you are a FMC creating
 * [ ] [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) - FMC creates, assigns to FMM and MOps
 * [ ] [Optional: FM Pathfactory Asset Upload and Track Creation Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Pathfactory_Request_Template) - FMM creates, assigns to FMC
 
-Add the team label to indicate the team running the event (Example: Field Marketing, Corporate Marketing)   
+Add the team label to indicate the team running the event (Example: Field Marketing, Corporate Marketing)
 
-/label ~"mktg-status::wip" ~"Webcast - Sponsored" 
+/label ~"mktg-status::wip" ~"Webcast - Sponsored"
 ```
 
 ☝️ *Note on campaign utm format: we avoid using special characters due to issues in the past passing UTMs from Bizible to SFDC, the basis for attribution reporting.*
 
-# Virtual Conferences
+## Virtual Conferences
 {: #virtual-conferences .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 ---
@@ -258,19 +258,19 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
-## :notepad_spiral: Key Details 
-* **Corp Events/Field Marketing Manager/Requester:** 
-* **Field Marketing Coordinator:** 
+## :notepad_spiral: Key Details
+* **Corp Events/Field Marketing Manager/Requester:**
+* **Field Marketing Coordinator:**
 * **Type:** Conference
-* **Official Name:** 
-* **Date(s):**  [YYYY-MM-DD] 
-* **Registration URL:** 
+* **Official Name:**
+* **Date(s):**  [YYYY-MM-DD]
+* **Registration URL:**
 * **Sales Segment (choose primary):** `Large, Mid-Market, or SMB`
 * **Sales Region (choose one):** `AMER, EMEA, APAC`
-* **Sales Territory (optional, if specific):** 
+* **Sales Territory (optional, if specific):**
 * **Goal:** `Please be specific on the KPI this is meant to impact.`
-* **Budget:** 
-* **Campaign Tag:**  
+* **Budget:**
+* **Campaign Tag:**
 * [ ] [main salesforce program]()
 * [ ] [main marketo campaign]()
 * [ ] Campaign UTM - Project Owner to fill in (Format: campaign tag - change to all lowercase, no spaces, hyphens, underscores, or special characters)
@@ -282,17 +282,17 @@ The project owner is responsible for following the steps below to create the epi
 [Project owner add whatever additional notes are relevant here]
 
 ## Issue creation
-If you are a Field Marketer, see below for issue creation. 
+If you are a Field Marketer, see below for issue creation.
 * [ ] Program Tracking
   - [If tactic owner is Campaigns Team](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-program-tracking)
 * [ ] [Write copy issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=write-copy)
-* [ ] [Follow up email issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup) 
+* [ ] [Follow up email issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup)
 * [ ] [List clean and upload issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list)
 * [ ] [Add to nurture issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-add-nurture)
 * [ ] [Pathfactory Upload issue created](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-upload) (*optional*)
 
-## Issue Creation for Field Marketing 
-Please delete the generic issue creation section above if you are a FMC creating this. 
+## Issue Creation for Field Marketing
+Please delete the generic issue creation section above if you are a FMC creating this.
 * [ ] [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=program-tracking) - FMC creates, assigns to FMC
 * [ ] [Write copy issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=write-copy) - FMC creates, assigns to FMM
 * [ ] [Follow Up Email issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=request_email_followup) - FMC creates, assigns to FMM (issue will be triaged)
@@ -312,35 +312,35 @@ Please delete the generic issue creation section above if you are a FMC creating
 
 **Everything with an * is optional: create the optional issues only if we plan to use those outbound activation channels*
 
-Add the team label to indicate the team running the event (Example: Field Marketing, Corporate Marketing)    
+Add the team label to indicate the team running the event (Example: Field Marketing, Corporate Marketing)
 
-/label ~"mktg-status::wip" ~"Virtual Conference" 
+/label ~"mktg-status::wip" ~"Virtual Conference"
 ```
 
-### Event Requirements/ Best Practices:
+### Event Requirements/ Best Practices
 **The large conferencing tool is best if:**
-* You need multiple breakout groups/ stages 
+* You need multiple breakout groups/ stages
 * You need an expo hall
-* You want more networking options beyond a zoom call 
+* You want more networking options beyond a zoom call
 * You have more than 500 people
-* The event is more than 3 hours 
-* The event has multiple breakouts or tracks 
+* The event is more than 3 hours
+* The event has multiple breakouts or tracks
 * and You need to capture attendee info
-**Note:** Many of the elements included in tool are flexible and can be used for multiple purposes. Discuss with an account admin your options. 
+**Note:** Many of the elements included in tool are flexible and can be used for multiple purposes. Discuss with an account admin your options.
 **Additional Notes for organizer:**
-* Hopin pricing model is based on support, admin seats, features and registration numbers. We have 6,000 attendee slots for the year. Be mindful fo event goals before exceeding this number. 
-* We pay hourly for event support. 
+* Hopin pricing model is based on support, admin seats, features and registration numbers. We have 6,000 attendee slots for the year. Be mindful fo event goals before exceeding this number.
+* We pay hourly for event support.
 
-### Platform and Bandwidth Restrictions: 
+### Platform and Bandwidth Restrictions:
 * We can only host one a day/ in a 24 hour period
-* We only have 10 hopin licenses for the whole org. The events team will grant you access on a per event basis. Once the event is over your seat will likley be reallocated to accommodate the next event. 
+* We only have 10 hopin licenses for the whole org. The events team will grant you access on a per event basis. Once the event is over your seat will likley be reallocated to accommodate the next event.
 * You will need at least two full time support staff to run the event (both need ot be GitLab Hopin admins)
 * Only suggested for events 3+ hours or more (due to complexity of setup)
 * Suggested for events targeting groups of 500+ or for initiatives that are in line with OKRs
-* This event is best executed with more than one person and moderators. 
-* Your event has a budget of $5k or more in budgeted spend. You must budget for Hopin event suport at $150/ hr. You need to budget for support for all live event hours as well as dry run hours. 
+* This event is best executed with more than one person and moderators.
+* Your event has a budget of $5k or more in budgeted spend. You must budget for Hopin event suport at $150/ hr. You need to budget for support for all live event hours as well as dry run hours.
 
-### Steps:
+### Steps
 **Step 1: Start a [hosted vistual conference request issue]() in the digital marketing programs project.**
 *  Please use the [`Event_Request.md` issue template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/.gitlab/issue_templates/Event-Request.md)
 *  Please put the target LIVE date of the event as the due date
@@ -351,7 +351,7 @@ Add the team label to indicate the team running the event (Example: Field Market
 
 **Step 2: DRI needs to create the Hosted virtual conference EPIC**
 *  This step should only be taken once you have confirmed the date with an Campaign Manager and have an additional Hopin admin to staff. If needed have kick off call with stakeholders.
-* When "status:wip" is on the issue and necessary elements are documented, and the speakers and webcast dates are secured, the event project is officially in motion. The DRI creates epic for the conference and tags corresponding Campaign Manager. 
+* When "status:wip" is on the issue and necessary elements are documented, and the speakers and webcast dates are secured, the event project is officially in motion. The DRI creates epic for the conference and tags corresponding Campaign Manager.
 *  Naming convention: [Conference Title] - [3-letter Month] [Date], [Year]
 *  DRI copy/pastes code below into the epic
 
@@ -370,7 +370,7 @@ Add the team label to indicate the team running the event (Example: Field Market
 * **Use Case (choose primary):** `CI, VC&C, DevSecOps, Other` (FY21-22 focus on CI and VC&C)
 * **Sales Segment (choose primary):** `Large, Mid-Market, or SMB`
 * **Sales Region (choose one):** `AMER, EMEA, APAC`
-* **Sales Territory (optional, if specific):** 
+* **Sales Territory (optional, if specific):**
 * **Goal:** `Please be specific on the metric this is meant to impact.`
 * [ ] [main salesforce campaign]()
 * [ ] [main marketo program]()
@@ -395,10 +395,10 @@ Add the team label to indicate the team running the event (Example: Field Market
 
 ### Project Planning
 DRI will immediately:
-1. Create the necessary epic and campaigns team request issues as outlined above. 
+1. Create the necessary epic and campaigns team request issues as outlined above.
 2. Campaign Manager to ensure the webcast Dry Run and Live dates are added to the Virtual Events Google Calendar by sending over a Gcal invite from there to the webcast execution team. ***Note: This is an important step to make sure no overlapping virtual evenst are scheduled over the desired date/timeslot resulting in a conflict due to the shared hopin license and aupport requrements.***
 3. If one or more speakers are external, set up a kick off call with the external speakers. Set timelines, due dates nd share slide deck templates with the speakers. Add dry runs to their caledar(s).
-4. Clone and fill out [this Conference GANTT template](https://docs.google.com/spreadsheets/d/1VTrWNX9qfY99b2TnrX93P39aXiRoNnChB6tduTvmysA/edit#gid=1899924336). 
+4. Clone and fill out [this Conference GANTT template](https://docs.google.com/spreadsheets/d/1VTrWNX9qfY99b2TnrX93P39aXiRoNnChB6tduTvmysA/edit#gid=1899924336).
 
 Due dates for each action item and DRIs are outlined on the [Conference Planning Template](https://docs.google.com/spreadsheets/d/1VzLTQW3lYDGcVdwnUq81I_gPGUFl_D_jXjZGhFuFhbU/edit?usp=sharing).
 
@@ -431,7 +431,7 @@ Select and set up your presentation space. Pick a spot with good wifi, and we re
 
 Try to get a good sleep the night before, and, if the presentation is in the morning, wake up early enough to run through your notes at least once. Review our [Positioning FAQ](/handbook/positioning-faq/), or keep the page handy in case you are asked in the Q&A about how GitLab compares to our competitors.
 
-### Logistical Set up 
+### Logistical Set up
 
 #### Adding your talk/ event into the calendar
 
@@ -439,29 +439,29 @@ The [virtual event calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLm
 
 **DRI for adding to webcast calendar: Campaign Manager executing the webcast.**
 
-##### Planned Hosted Virtual Events:
+##### Planned Hosted Virtual Events
 
 1. As soon as an issue is created for a virtual conference request, add the planned event to the virtual event calendar by creating an event on the day you plan to host the event. For events that are still in planning, use the following naming convention `[Hold WC Hosted] Webcast title` (e.g: `[Hold VC Hosted] Mastering CI`) and create it as an all-day event (no time slot selected). Make sure to also include the link to the issue in the calendar description.
 2. Please also add the planned webcast to the virtual conference planning issue. When adding to the issue, please use :asterisk: emoji prior to the webcast name to indicate this is still in planning.
 
-##### Confirmed Virtual Hosted Conferences:
+##### Confirmed Virtual Hosted Conferences
 
 1. Once the date/time of the conference has been confirmed, go to your calendar event and remove `Hold` from the event title `[VC Hosted] Webcast title` (e.g: `[VC Hosted] Mastering CI`). Specify the time on the calendar event and swap the issue link in the calendar description with the Epic link. *Note: In the spirit of efficiency, please be sure to add all presenters (GitLab team members and external speakers), the epic or issue (if you have one) and your event invite info to the calendar invite so you're not having to create multiple calendar invites.*
 2. On the planning issue, please also update the webcast as confirmed by switching out the :asterisk: emoji with :white_check_mark: emoji.
 3. Make sure to also add dry runs to the virtual events calendar. When creating the dry run event(s), please use the following naming convention `[DR WC Hosted] Event title` (e.g: `[DR WC Hosted] Mastering CI`) and specify the date/time on the calendar event.
 
 ### Creating the Event Registration page
-* see the steps on how to set up an event with Hopin below. 
+* see the steps on how to set up an event with Hopin below.
 
 ##### Add the conference to the /events page
 *  To add the webcast to the /events page follow this [step by step guide](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents).
 
 ## Setting up an Event with Hopin- for hopin Admin only
-* You need admin access to do so. Only 5 accounts are held internally and shared bwteen the marketing team. 
-* Login to your account, find our organization and Create a new event. 
-  * See [planning sheet](https://docs.google.com/spreadsheets/d/1VzLTQW3lYDGcVdwnUq81I_gPGUFl_D_jXjZGhFuFhbU/edit#gid=739236632) for additional steps on setup + screen shots on setup 
+* You need admin access to do so. Only 5 accounts are held internally and shared bwteen the marketing team.
+* Login to your account, find our organization and Create a new event.
+  * See [planning sheet](https://docs.google.com/spreadsheets/d/1VzLTQW3lYDGcVdwnUq81I_gPGUFl_D_jXjZGhFuFhbU/edit#gid=739236632) for additional steps on setup + screen shots on setup
   * See our internal guide on using and setting up [Hopin](https://docs.google.com/document/d/1-wLl03mF4pzI3WVBqTQgObxMLZtHhV2kUbpRwbCbfbQ/edit#)
-* A GitLab Hopin admin wioll be able to support you with event setup but Hopin also have some great guides on their [best practices](https://support.hopin.to/en/collections/1480288-using-hopin-as-an-organiser) 
+* A GitLab Hopin admin wioll be able to support you with event setup but Hopin also have some great guides on their [best practices](https://support.hopin.to/en/collections/1480288-using-hopin-as-an-organiser)
 
 ##### Set up the event program in Marketo and SFDC
 Needs updating to be confernece specific:
@@ -491,7 +491,7 @@ Needs updating to be confernece specific:
       * Webinar Topic
       * Q&A
       * Poll
-      
+
 ##### Test your set up
 
 1. Submit a test lead using your gitlab email on the LIVE landing page to make sure the registration is tracked appropriately in the Marketo program and you get a confirmation email from zoom.
@@ -502,13 +502,13 @@ Needs updating to be confernece specific:
 2. Update email `Outbound -attendees` and email `Outbound -no shows` with content with relevant copies related to the webcast.
 3. On the Follow-up - Attendees and Follow up - No Shows email programs, update the `{{my.CTA..}}` tokens to point to the correct offers and use them in the hyperlinks.
 4. Approve copy and send samples to the requestor, and the presenter (if different from requestor).
-5. Once you get approval for the sample copy, schedule email sends within follow-up no show and follow-up attended email programs. 
+5. Once you get approval for the sample copy, schedule email sends within follow-up no show and follow-up attended email programs.
 
 ##### Converting the event content to an On-Demand gated asset
 
 1. Upload the recording to our main GitLab channel, fill in the title with the event title, and fill in the description with a short paragraph of what the webcast is about. Make sure the video set as `Unlisted` so only people with the URL to the video can find it.
 2. Once the recording has been uploaded, copy the video link on the right.
-3. **Login to PathFactory.** Add the copied youtube link to Pathfactory as a new content by following the instructions outlined [here](/handbook/marketing/marketing-operations/pathfactory/#how-to-upload-content). 
+3. **Login to PathFactory.** Add the copied youtube link to Pathfactory as a new content by following the instructions outlined [here](/handbook/marketing/marketing-operations/pathfactory/#how-to-upload-content).
 4. **Login to Marketo.** Create the [listening campaign](/handbook/marketing/marketing-operations/pathfactory/#listening-campaigns) in Marketo by cloning this [program template](https://app-ab13.marketo.com/#PG3875A1). In the  `PF - Listening (Triggered)` smart campaign nested to the program, modify the `PathFactory Content Journey` filter to reflect your asset's Pathfactory custom url slug in the following format `[your assets custom url slug]`. Activate the smart campaign and then set up the Salesforce campaign sync for the listening campaign.
 5. **Login to Salesforce.** Find the subsequent SFDC campaign for the listening campaign. Add the subsequent webcast campaign to the `Parent Campaign` field. Set the `Enable Bizible Touchpoints` field to `Include only "Responded" Campaign Members`.
 6. **Navigate back to:  www-gitlab-com/data/webcast.yml.**
@@ -522,19 +522,19 @@ Needs updating to be confernece specific:
 11. Click Submit Merge Request.
 12. You’ve now created the Merge Request.
 14. **Login to Marketo.** Go to the webcast program and update the `{{my.ondemandUrl}}` token with the webcast PathFactory link.
-15. Go to the assets folder within your webcast program and update the `On-demand Autoresponder` email with relevant copies related to the webcast. 
+15. Go to the assets folder within your webcast program and update the `On-demand Autoresponder` email with relevant copies related to the webcast.
 16. Navigate to the `Viewed On Demand` Smart campaign within your webcast program.
 17. Modify the webpage link with the webcast landing page url without the https (e.g: `about.gitlab.com/webcast/securing-serverless/`), then activate the `Viewed On Demand` smart campaign.
 18. Deactivate the `Attended` ,`Registration from Landing Page`, and `Registration From Zoom` smart campaigns within your webcast program.
 19. **Go back to your MR.** Once the pipeline passes and if everything looks okay in the review app remove WIP and merge (if you have merge access). If you don't have merge access, ping @jgragnola or @aoetama in the MR comment to merge.
 20. Add your webcast to the /resources page by following the instructions [outlined here](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/).
 
-# Executive Roundtables
+## Executive Roundtables
 {: #executive-roundtables .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 ---
 
-*An executive roundtable is a gathering of high level CxO attendees run as an open discussion between the moderator/host, GitLab expert and delegates. There usually aren't any presentations, but instead a discussion where anyone can chime in to speak. The host would prepare questions to lead discussion topics and go around the room asking delegates questions to answer. The project owner (field marketing) is responsible for creating the epic and related issue creation, and keeping timelines and DRIs up-to-date. Mareting Ops is responsible for uploading the list to our database.* 
+*An executive roundtable is a gathering of high level CxO attendees run as an open discussion between the moderator/host, GitLab expert and delegates. There usually aren't any presentations, but instead a discussion where anyone can chime in to speak. The host would prepare questions to lead discussion topics and go around the room asking delegates questions to answer. The project owner (field marketing) is responsible for creating the epic and related issue creation, and keeping timelines and DRIs up-to-date. Mareting Ops is responsible for uploading the list to our database.*
 
 ### Process in GitLab to organize epic & issues
 {: #executive-roundtable-project-management}
@@ -561,20 +561,20 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
-## :notepad_spiral: Key Details 
-* **Project Owner/Field Marketing Manager:** 
-* **FMC/FMS:** 
-* **Type:** Executive Roundtable 
-* **Official Name:** 
-* **Date(s):** 
-* **Registration URL:** 
+## :notepad_spiral: Key Details
+* **Project Owner/Field Marketing Manager:**
+* **FMC/FMS:**
+* **Type:** Executive Roundtable
+* **Official Name:**
+* **Date(s):**
+* **Registration URL:**
 * **Sales Segment (choose primary):** `Large, Mid-Market, or SMB`
 * **Sales Region (choose one):** `AMER, EMEA, APAC`
-* **Sales Territory (optional, if specific):** 
+* **Sales Territory (optional, if specific):**
 * **Goal:** `Please be specific on the metric this is meant to impact.`
-* **Budget:** 
-* **Campaign Tag:**  
-* **Launch Date:**  [YYYY-MM-DD] 
+* **Budget:**
+* **Campaign Tag:**
+* **Launch Date:**  [YYYY-MM-DD]
 * [ ] [main salesforce program]()
 * [ ] [main marketo campaign]()
 * [ ] Campaign UTM - Project Owner/FM to fill in (Format: campaign tag - change to all lowercase, no spaces, hyphens, underscores, or special characters)
@@ -598,12 +598,12 @@ The project owner is responsible for following the steps below to create the epi
 /label ~"mktg-status::wip" ~"Field Marketing" ~"Executive Roundtable"
 ```
 
-# Vendor Arranged Meetings
+## Vendor Arranged Meetings
 {: #vendor-arranged-meetings .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 ---
 
-*A vendor arranged meeting is used for campaigns where a third party vendor is organizing one-to-one meetings with prospect or customer accounts, ideally connecting our team with target accounts that are challenging to set meetings with directly. This does not include meetings set internally by GitLab team members. An example would be a "speed dating" style meeting setup where a vendor organized meetings with prospects of interest to GitLab. The project owner (field marketing commonly) is responsible for creating the epic and related issue creation, and keeping timelines and DRIs up-to-date. Mareting Ops is responsible for uploading the list to our database.* 
+*A vendor arranged meeting is used for campaigns where a third party vendor is organizing one-to-one meetings with prospect or customer accounts, ideally connecting our team with target accounts that are challenging to set meetings with directly. This does not include meetings set internally by GitLab team members. An example would be a "speed dating" style meeting setup where a vendor organized meetings with prospects of interest to GitLab. The project owner (field marketing commonly) is responsible for creating the epic and related issue creation, and keeping timelines and DRIs up-to-date. Mareting Ops is responsible for uploading the list to our database.*
 
 ### Process in GitLab to organize epic & issues
 {: #vendor-arranged-meeting-project-management}
@@ -630,19 +630,19 @@ The project owner is responsible for following the steps below to create the epi
 
 ## [Copy document >>]() - [template](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit)
 
-## :notepad_spiral: Key Details 
-* **Project Owner:** 
-* **FMC/FMS:** 
-* **Type:** Vendor Arranged Meetings 
-* **Official Name:** 
-* **Registration URL:** 
+## :notepad_spiral: Key Details
+* **Project Owner:**
+* **FMC/FMS:**
+* **Type:** Vendor Arranged Meetings
+* **Official Name:**
+* **Registration URL:**
 * **Sales Segment (choose primary):** `Large, Mid-Market, or SMB`
 * **Sales Region (choose one):** `AMER, EMEA, APAC`
-* **Sales Territory (optional, if specific):** 
+* **Sales Territory (optional, if specific):**
 * **Goal:** `Please be specific on the metric this is meant to impact.`
-* **Budget:** 
-* **Campaign Tag:**  
-* **Launch Date:**  [YYYY-MM-DD] 
+* **Budget:**
+* **Campaign Tag:**
+* **Launch Date:**  [YYYY-MM-DD]
 * [ ] [main salesforce program]()
 * [ ] [main marketo campaign]()
 * [ ] Campaign UTM - Project Owner/FM to fill in (Format: campaign tag - change to all lowercase, no spaces, hyphens, underscores, or special characters)
@@ -659,7 +659,7 @@ The project owner is responsible for following the steps below to create the epi
 * [ ] [Write copy issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=write-copy) - FMC creates, assigns to FMM
 * [ ] [Follow Up Email issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=request_email_followup) - FMC creates, assigns to FMM (issue will be triaged)
 * [ ] [Add to Nurture](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=request_add_nurture) - FMC creates, assigns to FMM (issue will be triaged)
-* [ ] [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) - FMC creates, assigns to FMM and MOps 
+* [ ] [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) - FMC creates, assigns to FMM and MOps
 * [ ] [Optional: FM Pathfactory Asset Upload and Track Creation Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Pathfactory_Request_Template) - FMM creates, assigns to FMC
 
 **Optional: create the optional issues only if we have rights to recording and content is worth gating*
@@ -704,7 +704,7 @@ The recording meets all of the following criterias:
 2. Content solidifies GitLab use case or existing campaign messaging.
 3. Future gated page has an omni-channel (min 2, 1 out of the  2 has to be paid) promotion plans. The issue for the  promotion plans has to be linked to the gating request.
 
-OR  
+OR
 
 Ungated video garners 550 youtube views within the first 7 days of posting.
 

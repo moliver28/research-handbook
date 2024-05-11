@@ -121,6 +121,6 @@ Video contributions that meet the playbook criteria will be uploaded to the GitL
 1. [GitLab Guide to All-Remote](/handbook/company/culture/all-remote/guide/)
 1. [GitLab Remote Playbook](http://learn.gitlab.com/all-remote/remote-playbook)
 
-----
+---
 
 Return to the main [Growth Marketing Handbook](/handbook/marketing/inbound-marketing/).

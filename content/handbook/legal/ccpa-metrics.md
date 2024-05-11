@@ -21,7 +21,7 @@ Average days to respond:  22
 *Some requests were not completed due to various factors such as a request was not able to pass verification of identity, the request was withdrawn, or where we did not have any personal data associated with the requestor*
 
 
-----
+---
 
 
 #### Request to Access Data
@@ -34,7 +34,7 @@ Requests Denied:     5
 
 Average days to respond:  18
 
-----
+---
 
 For the reporting period, we provided consumers with information about the controls and choices they can use to opt-out through third-party tools for which we do not keep metrics.
 

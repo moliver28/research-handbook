@@ -87,7 +87,7 @@ You’d think that for a salesperson, talking a lot about their product would be
 
 Yet one of sales’ biggest ironies is that the more you talk about your product, the less likely you are to actually sell it. While speaking with your prospects is absolutely necessary to close sales, it’s all too easy to slip from talking to them into talking at them. The five signs below are easy-to-spot indicators that it’s time to let your prospect take center stage.
 
-#### 1. You talk for more than half of each conversation.
+#### 1. You talk for more than half of each conversation
 
 In general, listening is more valuable to salespeople than talking. It’s the best, and in the early stages of a sales conversation, the only way to assess your prospect’s business pain, whether they’re being truthful, and their level of proficiency in implementing your product.
 
@@ -99,7 +99,7 @@ Haven’t fully grasped the root causes of your prospect’s business pain? You 
 
 If you’re sensing a trend here, you’re right. Not listening enough severely limits your ability to sell successfully. It’s like trying to score a goal without knowing which team you play for.
 
-#### 2. You’re telling more than asking.
+#### 2. You’re telling more than asking
 
 But it’s not just how much you talk, but also what you say that’s important. It’s crucial to get your prospect talking as much as possible so you’re familiar with their personalities and problems. And this is hard to do if you’re not asking questions.
 
@@ -107,7 +107,7 @@ Of course, eventually you’ll have to talk more than you ask. Once you get a cl
 
 Dive deep into areas that are important for your prospect and make sure to clarify anything you don’t understand. This style lends itself to a slower sales process than showing up with a pitch ready, but you’ll set yourself up for success in the long run by building a foundational understanding of your prospect from day one.
 
-#### 3. Your prospect isn’t engaging with you.
+#### 3. Your prospect isn’t engaging with you
 
 You (hopefully) wouldn’t continue to send email after email after email to a prospect who’d never opened or responded to a single message. And that principle applies to conversations as well.
 
@@ -115,7 +115,7 @@ If your prospect’s gone quiet, there’s a reason. Maybe they’re confused. M
 
 Make a habit of pausing every few minutes to ask your prospect if they understand or simply give them an opening to speak. Taking your prospect’s temperature every so often is invaluable to making sales conversations helpful for them, and ultimately boosts your chances of closing the deal.
 
-#### 4. Your statements could apply to any prospect.
+#### 4. Your statements could apply to any prospect
 
 Q: Why are conversations about the weather so boring to us?
 
@@ -125,7 +125,7 @@ If you find that you’re making generic statements and struggling to resonate, 
 
 If it's the latter, dig deeper. While many of your sales conversations will run along the same lines, the nuances and minutia of every situation will vary. If you can’t get right to the heart of your prospect’s concerns, take a beat to circle back to discovery.
 
-#### 5. You can’t define your prospect’s problem.
+#### 5. You can’t define your prospect’s problem
 
 Another way to check whether your sales conversations are productive for your prospect is to quiz yourself. Can you explain the deal to someone else on your team?
 
@@ -180,7 +180,7 @@ Modern reps are committed to providing guidance, information, and value to buyer
 
 Here are six easy ideas as to how you can provide value with each sales email you send.
 
-#### 1. Attach a piece of content.
+#### 1. Attach a piece of content
 
 The easiest way to provide value to a buyer in a sales email is to include a piece of helpful content. Remember: The goal of an initial sales email is to not try to convert a buyer into a customer instantly, but to give them something that will truly interest them, and get a conversation going.
 
@@ -194,7 +194,7 @@ Saw you sent out a tweet about [subject] and thought I’d pass along this blog 
 
 All the best,
 
-#### 2. Reference a mutual connection.
+#### 2. Reference a mutual connection
 
 Having a mutual connection in common with a buyer can go a long way. In fact, a prospect is five times more likely to engage with a seller when they share a connection.
 
@@ -210,7 +210,7 @@ Maybe all three of us can get together some time. Talk to you soon.
 
 All the best,
 
-#### 3. Offer a customer review.
+#### 3. Offer a customer review
 
 Simply put, customers love reviews. How often do you check out Yelp before you make a decision on where to eat? How deep in the reviews do you go? I know I scan for a while, and I’m willing to bet you do too.
 
@@ -232,7 +232,7 @@ In these reviews, customers go into depth about how the product works and what t
 
 If you have any other questions, let me know. Talk to you soon.
 
-#### 4. Send over a case study.
+#### 4. Send over a case study
 
 A case study can add instant value to a sales email. If the prospect is in a difficult spot and unsure how to proceed, sharing a story about a customer in a similar situation that describes how they solved their problem can be incredibly helpful.
 
@@ -246,7 +246,7 @@ I attached their story to this email. It’s an interesting take, and I think it
 
 All the best,
 
-#### 5. Provide a tactical suggestion.
+#### 5. Provide a tactical suggestion
 
 If you notice an area of weakness in the buyer's business that you think you can help improve, let the prospect know. Offering insights not only strengthens your relationship, but it builds your credibility in their eyes.
 
@@ -266,7 +266,7 @@ If you’re not sure what I mean, just give me a shout. Great post, by the way. 
 
 All the best,
 
-#### 6. Just respond.
+#### 6. Just respond
 
 Simply responding to a question, voicemail, tweet, or email is the easiest way of all to provide value. And keep in mind that you don’t have to give the final answer right away. A simple “I’m looking into this for you” will assure the prospect that you’re on the case.
 
@@ -305,27 +305,27 @@ Say three short words:
 
 While some reps might be afraid to say these words and reveal a chink in their “trusted advisor” armor, let me make the case for why this is the best option when you’re truly stumped.
 
-#### “I don’t understand” allows you to clarify.
+#### “I don’t understand” allows you to clarify
 
 Understanding exactly what your prospect is saying allows you to avoid deal-disrupting miscommunications down the road. With this opening, the prospect can explain the question further so you can gather as much information as possible before responding.
 
-#### "I don't understand" provides an opportunity to follow up.
+#### "I don't understand" provides an opportunity to follow up
 
 In the event you get stumped with a prospect, saying you don’t know but will pursue the information with someone who does creates a perfect opportunity to follow up after the call is over. You can add value to your follow up by providing the requested information, while impressing the prospect with your diligence and commitment.
 
-#### "I don't understand" allows you to gain new knowledge.
+#### "I don't understand" allows you to gain new knowledge
 
 From now on you’ll know how to properly inform prospects seeking similar information. A knowledgeable sales rep is a trustworthy sales rep, and any opportunity you have to gain information is one you want to take advantage of.
 
-#### "I don't understand" helps you become more likable.
+#### "I don't understand" helps you become more likable
 
 Recent studies suggest that being honest makes you more likable. Instead of feeling like you don’t know what you’re talking about, a prospect will likely be impressed with a sales rep who admits that they don’t understand something. This proves your honesty and your willingness to be up front.
 
-#### "I don't understand" enables you to ask better questions.
+#### "I don't understand" enables you to ask better questions
 
 Instead of just moving on to the next part of the call, use “I don’t understand” to gather more information about your prospect and gain insight on how to refine your questions. Asking the right questions can help prospects paint a clear picture of their business, their plan, and their pain. With additional information, you can adjust your strategy to fit exactly what the buyer is looking for.
 
-#### “I don’t understand” prompts them to use their own words.
+#### “I don’t understand” prompts them to use their own words
 
 Instead of trying to rephrase the prospect’s question for them, prompting them with “I don’t understand” gives the prospect the freedom to explain their situation and pain point in their own words. The rep can now get insight into how this prospect views their pain points, which is incredibly valuable when trying to tailor a solution and sell value.
 
@@ -396,7 +396,7 @@ Here are some examples of calls-to-action reps can include in their sales emails
 
 The introductory email sets the tone for the relationship. Before you reach out, ask yourself these six questions to determine whether or not you’re fully prepared to send that email. If you can’t answer all of these questions, hit the reset button and get back to the drawing board.
 
-### Bill Cates from Hubspot wrote [a great article about "The Art of Asking Open-Ended Questions.”](http://blog.hubspot.com/sales/the-art-of-asking-open-ended-questions) Here are some highlights.
+### Bill Cates from Hubspot wrote [a great article about "The Art of Asking Open-Ended Questions.”](http://blog.hubspot.com/sales/the-art-of-asking-open-ended-questions) Here are some highlights
 
 {: #art}
 
@@ -428,25 +428,25 @@ However, while a great meeting with a prospect can set you apart from your compe
 
 So how does a rep avoid this scenario? Below are four avoidable sales presentation mistakes to keep in mind for your next meeting.
 
-#### 1. Being overly general.
+#### 1. Being overly general
 
 Not personalizing the presentation is a mistake because every buyer is different. Each buyer has a unique pain point, and is in need of a unique solution. By failing to customize the presentation, the buyer can’t see themselves using your product. All the buyer knows is that the product works in general, or a different business used it and had success.
 
 When we tell stories, the people listening feel as if what’s happening to the protagonist is happening to them too, according to studies. By personalizing the message, a sales rep can put the potential buyer into the shoes of another customer who has experienced success using the product, and help them visualize how the offering could help their company as well.
 
-#### 2. Listing too many benefits.
+#### 2. Listing too many benefits
 
 Speaking about too many benefits can turn a prospect off because our brains can only process so much information at once. In fact, recent studies have found that consuming too much information can distract a person, resulting in a negative impact on personal well-being and decision making, among other things.
 
 Instead of bragging about everything your product can do, sales reps should focus on three to four benefits that will solve a very specific pain point for the prospect. Studies have found that humans retain information best when they find it useful. By highlighting a few key, relevant benefits in your presentation, the prospect is more likely to retain the information, which will be critical when they make a decision.
 
-#### 3. Slipping into autopilot.
+#### 3. Slipping into autopilot
 
 Beginning a presentation with a monotone voice, bad body language, or an obviously scripted intro can kill your momentum in a hurry. According to Sherrie Bourg Carter, emotions are contagious. So if a sales rep lacks energy and enthusiasm during their presentation, this lackluster mood will likely wear off on the stakeholders in attendance.
 
 There are a multitude of ways to avoid autopilot. By giving the presentation beforehand to coworkers, reps can discover where they need to improve and where the information could be strengthened. Another trick is to have a cup of coffee or work out the morning before the presentation to raise your energy. If you’re full of energy and enthusiastic about your product, these feelings can spread to your audience.
 
-#### 4. Dodging questions.
+#### 4. Dodging questions
 
 Dodging questions after a sales presentation is a bad idea because it doesn’t allow the audience to clarify information, and according to 24Slides, can weaken your credibility. When prospects aren’t able to have specific questions answered, they can’t learn about what matters most to them. Instead of leaving the presentation feeling great about the product, the prospect is likely to leave with more questions than answers, which defeats the whole purpose of the presentation.
 
@@ -518,7 +518,7 @@ Recognize that there’s a fine line between being annoying and tenacious. The s
 
 Below is a proven two-step formula that can help you handle any pricing (or any other) objection, for those times when your ounce of prevention may not be 100% foolproof….
 
-#### Step 1: Count to three!
+#### Step 1: Count to three
 
 Whenever you’re faced with a difficult question or objection, the first thing you need to do is take a deep breath, make eye contact with your prospect and silently count to three.
 
@@ -532,7 +532,7 @@ This seemingly minor transaction was a great demonstration of the power of silen
 
 Whenever a client tells you your price is too high, just breathe and be quiet. You will find that around 40% of all prospects will fill that silence with information you can use to move the sale forward.
 
-#### Step 2: Ask questions.
+#### Step 2: Ask questions
 
 Step 2 is to ask questions. You can ask up to three questions before you have to answer an objection – provided you ask the right questions in the right way.
 
@@ -546,7 +546,7 @@ Once you’ve paid the client a compliment, ask them a question that is both dir
 
 ##### OBJECTION: “Your price is too high!”
 
-##### RESPONSES:
+##### RESPONSES
 
 - Thanks for sharing that. How much too high are we?
 - I appreciate your telling me that. Have you found a less expensive product?
@@ -559,24 +559,24 @@ Once you’ve paid the client a compliment, ask them a question that is both dir
 - What do you suggest we do?
 - Thanks for letting me know. I’m curious, how much were you expecting to invest?
 
-##### OBJECTION: We don’t have any budget.
+##### OBJECTION: We don’t have any budget
 
-##### RESPONSES:
+##### RESPONSES
 
 - Budget?
 - Oh! I appreciate that makes it difficult to buy. When does your budget come up for renewal or review?
 - Thanks for letting me know. Is your budget renewed annually or quarterly?
 - Does not having a budget mean we will never get a chance to do business together this year?
 
-##### OBJECTION: I need a discount!
+##### OBJECTION: I need a discount
 
-##### RESPONSES:
+##### RESPONSES
 
 - Discount?
 - It’s good of you to be looking for the best deal. How much of a discount do you need? Why that much?
 - Making sure you’re getting the best deal for your company is a good idea. If we can’t budge on the price, does that mean it’s over between us?
 
-#### Echo! Echo!
+#### Echo! Echo
 
 Another option for asking questions is to use the ECHO technique.
 
@@ -654,7 +654,7 @@ As is often the case in B2B sales, you may have a technology, size, or geography
 
 If there’s one common thread in all these tips, it’s that the most successful sales reps put their customers’ needs first. Add value, be honest and respectful, and offer information -- not a sales pitch. If you can put all of these sales call techniques into use, you’ll be crushing your meeting quota in no time.
 
-### Dan Tyre wrote [a great article about "How to Create a Sales Plan"](http://blog.hubspot.com/sales/ultimate-guide-creating-sales-plan?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=26033406)<a name="buyingplan"></a>.  Here are some highlights.
+### Dan Tyre wrote [a great article about "How to Create a Sales Plan"](http://blog.hubspot.com/sales/ultimate-guide-creating-sales-plan?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=26033406)<a name="buyingplan"></a>.  Here are some highlights
 
 First, I would like to change our thinking from being a sales plan to a buying plan.  This puts us in the mindset of the buyer and helps us use words focused on them and not us. The purpose of a buying plan is to help the process move forward.  To avoid inertia.  Time kills deals so we putting a plan in place that moves the conversation and process forward is essential.
 
@@ -662,7 +662,7 @@ To determine if you need a buying plan at all or how comprehensive it should be,
 
 This question is crucial. If this is the first time they’ve ever bought something like your offering, your plan needs to outline how to buy in the first place. You’ll need to walk them through how to get internal buy-in and how to evaluate if your product is a good solution, working closely with them throughout.
 
-#### Your Buying Plan needs to have Goal-Related Questions:
+#### Your Buying Plan needs to have Goal-Related Questions
 
 1. What are your goals?
     - People who don’t have goals don’t make good customers. Your job is to find great prospects who will also make great customers.
@@ -676,7 +676,7 @@ This question is crucial. If this is the first time they’ve ever bought someth
 4. If you don’t know the answers to these questions, do you know who to ask to find out?
     - This is crucial as it brings in additional "champions" to the discussion.
 
-#### Your Buying Plan needs to have Process-Related Questions:
+#### Your Buying Plan needs to have Process-Related Questions
 
 1. Who’s responsible for buy-in?
     - Knowing who will be impacted by using the product, where the budget will come from as well as impacted by the change in moving to GitLab is essential.
@@ -691,7 +691,7 @@ This question is crucial. If this is the first time they’ve ever bought someth
 1. What’s your personal goal?
     - Know whether my prospect has skin in the game. This informs you of the motivating levers you can pull to move the deal ahead and forces the prospect to revisit exactly why this deal is important to them. The closer you get to the end of a sales cycle, the higher the chance that your prospect will be fatigued. Refocusing them on the prize is crucial.
 
-#### Now that you have created the Buying Plan, what to do after.
+#### Now that you have created the Buying Plan, what to do after
 
 1. Ask the prospect to review it. Formally present it if you need to and ask how you can help them get buy-in.
 

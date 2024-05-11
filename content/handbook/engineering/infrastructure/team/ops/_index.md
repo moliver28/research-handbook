@@ -141,6 +141,6 @@ All our welcome to participate in the process of identifying trends.  EOCs, espe
 
 ## Common Links
 
-- Ops Epic List: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176 
+- Ops Epic List: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176
 - Issue Board: [All issue by priority](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/3993753?label_name[]=team%3A%3AOps)
 - Slack Channel: #g_infra_ops

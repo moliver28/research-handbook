@@ -25,7 +25,8 @@ Below is a guide to help other product groups understand how to work on these ar
 This section is modeled after the engineering handbook version of [ownership of shared services and components](/handbook/engineering/development/#ownership-of-shared-services-and-components).
 
 ### Existing Cross-Stage Capabilities
-- [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/) - also see [collaboration process](/handbook/product/cross-stage-features/merge-requests) 
+
+- [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/) - also see [collaboration process](/handbook/product/cross-stage-features/merge-requests)
 - [Define your CI/CD pipelines directly in your repository](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html)
 - [Releases associated to milestones](https://docs.gitlab.com/ee/user/project/releases/#associate-milestones-with-a-release)
 - [Generate a Release from .gitlab-ci.yml](https://docs.gitlab.com/ee/ci/yaml/#release)
@@ -40,4 +41,5 @@ This section is modeled after the engineering handbook version of [ownership of 
 - [Associate job artifacts, or a generic package to a Release](https://docs.gitlab.com/ee/user/project/releases/)
 
 ### Planned Cross-Stage Improvements
+
 - [Software Supply Chain Security](https://about.gitlab.com/direction/supply-chain/)

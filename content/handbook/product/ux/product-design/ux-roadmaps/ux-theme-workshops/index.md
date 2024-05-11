@@ -29,7 +29,7 @@ Hello! You are invited to participate in creating a UX Theme workshop for <Stage
 
 👉  <PM Name & Designer Name>: As the Product & Design DRIs, we need your help gathering a few links prior to the session. Please review the (Homework section) for more details.
 
-__________________________________
+---
 
 Workshop itinerary
 Introduction (5 min)

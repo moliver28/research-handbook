@@ -86,7 +86,7 @@ This step impacts all activities of the framework and must be re-evaluated regul
 
 A value among: `Green`, `Yellow`, `Orange`, or `Red`.
 
-##### Resources:
+##### Resources
 
 1. The [Data Classification
    Standard]({{< ref "data-classification-standard" >}}) handbook page
