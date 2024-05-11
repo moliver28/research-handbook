@@ -7,14 +7,14 @@ Preference testing help you choose between design variations (icons, one page mo
 
 It is important to note that you should not use this method to test workflows, usability, or anything that requires interaction. It can be used in conjunction with an open-ended question to ask about **why** participants made their selections to understand the reasons behind preferences. A moderated format would work best for that; as the moderator can ask more follow-up questions.
 
-### Tips for creating Preference Tests:
+### Tips for creating Preference Tests
 
 - Any visuals used must contain the full context for the design to be accurately assessed.
 - Screenshots must be large enough to be clearly viewed and read easily.
 - These tests are commonly used to measure aesthetic appeal, but participants can be instructed to judge designs based on their trustworthiness or how well they communicate a specific message or idea.
 
 
-### How to run a preference test in Qualtrics:
+### How to run a preference test in Qualtrics
 
 **Step 1:** After logging into Qualtrics, click on "Create a new project" that appears in the bottom left of the side panel that is called "Welcome to XM".
 

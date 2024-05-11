@@ -10,9 +10,9 @@ Enable the delivery of quality products and Programs on time by driving team ali
 ## Mission
 
 - Drive cross-functional directions and strategies.
-- Identify risks, opportunities and dependencies in the engineering initiatives and organizations. 
-- Work cross-functionally to build solutions. 
-- Enable teams to make decisions via objective and sustainable frameworks. 
+- Identify risks, opportunities and dependencies in the engineering initiatives and organizations.
+- Work cross-functionally to build solutions.
+- Enable teams to make decisions via objective and sustainable frameworks.
 
 ## Roles and Responsibilities
 
@@ -29,7 +29,7 @@ Enable the delivery of quality products and Programs on time by driving team ali
 - Create self-serve tools and processes to scale program planning, execution, and reporting.
 - Manage cross-functional partnerships (e.g., PM, Eng, SRE) cross Infrastructure and GitLab.
 - Manage the internal infrastructure roadmap and interaction with internal customers.  
-- Provide temporary leadership for Engineering teams - in times of transition.   
+- Provide temporary leadership for Engineering teams - in times of transition.
 - Drive operations: process improvements, OKR planning, program reviews, compliance, bug SLO, etc.
 - Hold regular retrospectives on what processes work well across the organization and look to normalize and support adoption across groups to increase productivity and decrease cognitive overhead.
 
@@ -48,6 +48,7 @@ Enable the delivery of quality products and Programs on time by driving team ali
 - Self-serve is a good option in some cases.  When we cannot provide TPM support, we will offer suggestions for how you can take the initiative forward on yourself - with some oversight from us.
 
 ## Team
+
 ### Members
 
 {{< team-by-manager-role "Director, Infrastructure Technical Program Management" >}}
@@ -55,10 +56,10 @@ Enable the delivery of quality products and Programs on time by driving team ali
 ## Projects
 
 The TPM team drives complex cross functional programs at GitLab. The list below contains programs run by Infrastructure TPM team, ordered based on aligned priorities.
- 
+
  | Program  | TPM |
 | -------  | ----- |
-| [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/) | Ethan Guo | 
+| [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/) | Ethan Guo |
 | [Engineering Productivity](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/#projects) | Ethan Guo |
 | [Disaster Recovery](https://gitlab-com.gitlab.io/-/content-sites/internal-handbook/-/jobs/6193598265/artifacts/public/handbook/engineering/disaster-recovery.html) | Ethan Guo|
 

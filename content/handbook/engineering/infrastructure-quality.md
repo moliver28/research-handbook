@@ -3,7 +3,7 @@ title: "Infrastructure and Quality department"
 description: ""
 ---
 
-# Vision
+## Vision
 
 Our vision is to be a world-class Infrastructure & Tools department that enables GitLab to meet & exceed our customers’ needs.
 
@@ -14,11 +14,11 @@ We:
 1. Provide and maintain best practice tools and methodologies that create a platform for engineering teams to do their work productively.
 1. Enable GitLab Engineering & Product teams to run services effectively using our tools, to meet business needs & SLOs.
 
-# Direction
+## Direction
 
 Direction is set within the [Infrastructure](/handbook/engineering/infrastructure/#direction), and the [Quality](/handbook/engineering/quality/#fy23-direction) direction pages. With the ongoing consolidation of the departments, separate direction pages will become obsolete.
 
-# Working with us
+## Working with us
 
 With the consolidation of previously separate departments (Infrastructure, Quality), we are in the process of also consolidating previously separate handbook pages:
 
@@ -58,7 +58,7 @@ graph TD
     click E "/handbook/engineering/infrastructure/engineering-productivity"
 ```
 
-# Communication
+## Communication
 
 In addition to GitLab's [communication guidelines](/handbook/communication) and [engineering communication](/handbook/engineering/#communication), we communicate and collaborate actively across GitLab in the following venues:
 
@@ -144,8 +144,8 @@ Quick checklist for the host (time order):
 Historical preparation for Quality sub-department is in [the issue tracker](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues?label_name%5B%5D=group-conversation) with a `group-conversation` label.
 
 
-# Performance Indicators
+## Performance Indicators
 
-* [Performance Indicators](/handbook/engineering/infrastructure-quality/performance-indicators/)
+- [Performance Indicators](/handbook/engineering/infrastructure-quality/performance-indicators/)
 
-# Common Links
+## Common Links

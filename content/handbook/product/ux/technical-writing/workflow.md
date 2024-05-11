@@ -457,7 +457,7 @@ To review and triage documentation feedback and improvement issues for your grou
 This section outlines a process that we have not yet used or implemented in the Technical Writing team. We plan to experiment with stage leads in Q1 and Q2 of 2024. This process is subject to change.
 {{% /alert %}}
 
-Some Technical Writers are assigned as _stage leads_ for a given DevOps stage.
+Some Technical Writers are assigned as *stage leads* for a given DevOps stage.
 
 Stage leads might work across an entire stage, or a subset of groups in the stage.
 They support other Technical Writers assigned to groups in the stage.
@@ -465,7 +465,7 @@ They support other Technical Writers assigned to groups in the stage.
 Stage leads:
 
 - Assume the same [responsibilities](/job-families/product/technical-writer/#responsibilities) as Technical Writers, but with a more targeted focus on proactively creating and improving
-documentation for their assigned stage. 
+documentation for their assigned stage.
 - Spend approximately 30% of their time supporting technical writers in the stage to work on issues and review merge requests authored by developers for [new features and enhancements](#documentation-for-a-product-change). Issues and merge requests where they support other technical writers are labeled `tw-lead`.
   The remaining merge requests are reviewed by the supporting Technical Writers assigned to the groups in the stage.
 - Spend the remainder of their time creating and refining content to address documentation needs and gaps for their assigned stage.

@@ -7,7 +7,7 @@ description: "GitLab's Tableau Developer guide"
 
 ## Data Source Approach
 
-In general, our recommended approach to creating data sources in Tableau is to create all joins in dbt/Snowflake to materialize a final mart and/or rpt table that can be directly consumed by Tableau for the dashboard with no further joins, relationships, or calculations required in the BI layer. 
+In general, our recommended approach to creating data sources in Tableau is to create all joins in dbt/Snowflake to materialize a final mart and/or rpt table that can be directly consumed by Tableau for the dashboard with no further joins, relationships, or calculations required in the BI layer.
 
 During the Tableau implementation, we experimented with the approach of bringing fct & dim tables into Tableau and creating the joins and relationships there. However, we prefer to create the data structures in dbt/Snowflake where possible for the following reasons:
 - By keeping business logic in the enterprise data warehouse as a rule and simply publishing the final mart/rpt tables for consumption, we avoid applying contradictory business logic in custom SQL across Tableau data sources.
@@ -15,7 +15,7 @@ During the Tableau implementation, we experimented with the approach of bringing
 - This approach makes the final data source query-able using SQL; this makes it easier for an Analyst to compare the results in the dashboard and the final dataset against upstream tables, and makes it more accessible for an Analyst to troubleshoot logic when a dashboard is showing unexpected results.
 - This enables the same dataset to easily be used in a Tableau dashboard as well as an ad-hoc query, one-off export/analysis, or pulled into another downstream tool if needed (i.e. a Jupyter notebook).
 
-For the same reasons, our approach to creating calculated fields is to create them in dbt/Snowflake rather than in Tableau when possible. One notable exception is for ratio metrics (for example, gross profit % would be calculated in Tableau so that it could be dynamically weighted as filters are applied to that metric; however, the numerator & denominator should both be defined in dbt/Snowflake with only the simple division occuring in Tableau). 
+For the same reasons, our approach to creating calculated fields is to create them in dbt/Snowflake rather than in Tableau when possible. One notable exception is for ratio metrics (for example, gross profit % would be calculated in Tableau so that it could be dynamically weighted as filters are applied to that metric; however, the numerator & denominator should both be defined in dbt/Snowflake with only the simple division occuring in Tableau).
 
 This approach is intended to fulfill the majority of data source use cases, and Tableau developers are encouraged to try this approach first rather than creating joins & relationships in Tableau. If you find an instance that this approach does not support, please submit an MR to update this handbook guidance to share the scenarios where an alternate approach would be better.
 
@@ -27,7 +27,7 @@ Due to the unique challenges of having a fiscal year start date in February and 
 
 ### Date Unification
 
-If you have more than one data source in your workbook, the first thing to do is to unify the dates around a date spine. This means using a calendar table. If you are at GitLab, you can find the dim_date table in the common schema of the prod database. Join each of the tables that you need to use to the dim_date table on the date you want to use for the date spine using `dim_date.date_actual = your_table.your_date`. [Click here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_date) to see documentation on the dim_date table. 
+If you have more than one data source in your workbook, the first thing to do is to unify the dates around a date spine. This means using a calendar table. If you are at GitLab, you can find the dim_date table in the common schema of the prod database. Join each of the tables that you need to use to the dim_date table on the date you want to use for the date spine using `dim_date.date_actual = your_table.your_date`. [Click here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_date) to see documentation on the dim_date table.
 
 Even if you are not using multiple tables/ dates, it is still recommended to use the dim_date table, because it contains useful information about dates which can be used for filters and controls. For example, if you wanted to use a standard filtering method of comparing the quarter of a date with today's date to filter out any data from a previous quarter, you might use:
 `Current Period: DATETRUNC('quarter',Date Actual) = DATETRUNC('quarter',TODAY())`.
@@ -41,13 +41,13 @@ However, this will truncate your data down to the non-fiscal quarter, such as tr
 
 Many times, end-users would appreciate being able to change "today" in their reports. For example, they may want to be able to view a report as of the last day of the previous quarter. The addition of a date parameter called `report date` can improve your user experience in this area. However, this creates issues when you need to compare your report date to your `date_actual` from the calendar table, because you do not have the built in date information for your report date that you do for the `date_actual` field. Here is what the parameter creation looks like: ![](images/image-1.png)
 
-There is a simple fix to this issue, which is similar to how Row Level Security works (which can be found later in thie guide). To add date information such as `Fiscal_quarter_name` and `First_day_of_fiscal_quarter` for the `Report Date parameter`, follow the following steps to re-join and then filter a second iteration of the `dim_date` table onto the regular data model. 
+There is a simple fix to this issue, which is similar to how Row Level Security works (which can be found later in thie guide). To add date information such as `Fiscal_quarter_name` and `First_day_of_fiscal_quarter` for the `Report Date parameter`, follow the following steps to re-join and then filter a second iteration of the `dim_date` table onto the regular data model.
 
 #### Create a New Dim_Date Table
 
 1. First, open up your Data Source pane in your workbook and in the left-hand connections bar and navigate to the `dim_date` table. ![](images/image.png)
 
-2. Add `dim_date` to the data model, you can use a relationship, but make sure to join it to the same table that contains your primary date information (such as `date_actual`). Tableau will automatically name the new table `DIM_DATE1`. You need to create a relationship (or join if you choose to use a physical join) that will evaluate as true all the time. Since you are working with a limited number of date fields, one option is to use your `First_Day_of_Year` and `Last_Day_of_Year` fields. 
+2. Add `dim_date` to the data model, you can use a relationship, but make sure to join it to the same table that contains your primary date information (such as `date_actual`). Tableau will automatically name the new table `DIM_DATE1`. You need to create a relationship (or join if you choose to use a physical join) that will evaluate as true all the time. Since you are working with a limited number of date fields, one option is to use your `First_Day_of_Year` and `Last_Day_of_Year` fields.
 
 3. To create a custom relationship calculation, click on the noodle that connects the two tables, and in the dropdown where you would normally select the field, click on the bottom where it says "Create Relationship Calculation" ![](images/image-2.png)
 
@@ -85,7 +85,7 @@ However, this is not a foolproof solution. There are many instances where using 
 Instead, you can create one date axis which automatically updates depending on your date granularity. Assuming you have already joined `dim_date` to your data model, take the following steps.
 
 1. Create the Select Time Period Parameter. ![](images/image-10.png)
-2. Use the following code in a calculated field called **Axis Dates**: 
+2. Use the following code in a calculated field called **Axis Dates**:
 
 <details markdown=1>
 
@@ -108,16 +108,16 @@ END
 
 </details>
 
-3. You now have a simple date axis which you can use with bar charts and line charts. 
+3. You now have a simple date axis which you can use with bar charts and line charts.
 4. One issue you may encounter, however, is that the dates will sort themselves alphabetically. If you are using the `dim_date` table, there is a simple solution to this as well. There is a field called `date_id` in the dim_date table which gives every day a unique id, counting upwards. So the date_id of tomorrow will always be one greater than today.
-5. Bring the `Axis Dates` field out onto Rows or Columns, and then access the Sort option by right clicking on the field and finding "Sort...". Then change the default to sort "By Field", find "Date id", and then use an aggregation such as "Average". 
+5. Bring the `Axis Dates` field out onto Rows or Columns, and then access the Sort option by right clicking on the field and finding "Sort...". Then change the default to sort "By Field", find "Date id", and then use an aggregation such as "Average".
 ![](images/image-11.png)
 
 
-Now you have a date axis which will dynamically allow you and your end-user to switch between date granularities on the same worksheet, while maintaining maximal control over the way the view looks and functions. 
+Now you have a date axis which will dynamically allow you and your end-user to switch between date granularities on the same worksheet, while maintaining maximal control over the way the view looks and functions.
 
 
-### Date Filtering 
+### Date Filtering
 
 The addition of a `Dim_Date` table and consideration of a dynamic date axis creates an opportunity to use dynamic date filtering. A date filter can be created by leveraging the dim_date table with the Select Time Period parameter.
 
@@ -150,7 +150,7 @@ END
 
 #### Current and Previous Period Calculations
 
-To add onto the date filter, if you create T/F fields called `Current Period` and `Previous Period`, then you can use these in conjunction with measures and dimensions to create fields such as `Current Period Sales`. This can then be used in Tooltips, Big Numbers, to create fixed Period over Period fields, and for analytics lines. 
+To add onto the date filter, if you create T/F fields called `Current Period` and `Previous Period`, then you can use these in conjunction with measures and dimensions to create fields such as `Current Period Sales`. This can then be used in Tooltips, Big Numbers, to create fixed Period over Period fields, and for analytics lines.
 
 There are two ways to create these calculations. The first option is to cut the data off at the current day of the fiscal period (month/quarter/year), so that you are comparing the time periods evenly. For example, comparing the first 13 days of this quarter to only the first 13 days of lasrt quarter. This is what these calculations would look like:
 
@@ -253,7 +253,7 @@ A use-case you may find for using each of these on the same sheet is when you wa
 
 ### Additional Tricks
 
-These tricks are non-essential to this method of date handling, but might help you improve the UI of the workbook, or at least save time with creating filters. 
+These tricks are non-essential to this method of date handling, but might help you improve the UI of the workbook, or at least save time with creating filters.
 
 #### Non-additive or Semi-additive Data
 
@@ -305,7 +305,7 @@ This can be used for every non-additive KPI, which will make creating and mainta
 
 #### Enabling Year Over Year Table Calculations for a Full Date Range
 
-If you would like to create a table or chart with Period over Period calculations involved, then Tableau will only be able to use the data that is in the view (on the worksheet) to perform those table calculations. For further documentation on table calculations, check [here](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) ***This means that your leading values in the table will not have any data available to them to create the table calculations. ***
+If you would like to create a table or chart with Period over Period calculations involved, then Tableau will only be able to use the data that is in the view (on the worksheet) to perform those table calculations. For further documentation on table calculations, check [here](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) ***This means that your leading values in the table will not have any data available to them to create the table calculations.***
 
 Let's say you wanted to make a bar chart of `Sales`, but you wanted to embed the `Period over Period` information into the tooltips. If you only include one year's worth of data in the filter, then Tableau will not be able to calculate ***any*** year over year calculations, because it cannot "see" the prior year's data. There are ways to hard code around this, but there is a simple solution that you can use to "trick" Tableau into allowing the period over period calculations you want, at any date granularity.
 
@@ -394,16 +394,19 @@ END
 <summary><b>Time Period Table Calculations</b></summary>
 
 **Sales -1**
+
 ```
 (ZN(SUM([Sales])) - LOOKUP(ZN(SUM([Sales])), -1)) / ABS(LOOKUP(ZN(SUM([Sales])), -1))
 ```
 
 **Sales -4**
+
 ```
 (ZN(SUM([Sales])) - LOOKUP(ZN(SUM([Sales])), -4)) / ABS(LOOKUP(ZN(SUM([Sales])), -4))
 ```
 
 **Sales -12**
+
 ```
 (ZN(SUM([Sales])) - LOOKUP(ZN(SUM([Sales])), -12)) / ABS(LOOKUP(ZN(SUM([Sales])), -12))
 ```
@@ -411,11 +414,13 @@ END
    2. Now create the Period over Period calculations:
 
 **Sales MoM**
+
 ```
 IF [Select Time Period] = 'month' THEN [Sales -1] END
 ```
 
 **Sales QoQ**
+
 ```
 IF [Select Time Period] = 'month' THEN [Sales -4]
 ELSEIF [Select Time Period] = 'quarter' THEN [Sales -1]
@@ -424,6 +429,7 @@ END
 
 
 **Sales YoY**
+
 ```
 IF [Select Time Period] = 'month' THEN [Sales -12]
 ELSEIF [Select Time Period] = 'quarter' THEN [Sales -4]
@@ -440,19 +446,22 @@ END
 <summary><b>Labels</b></summary>
 
 **MoM Label**
+
 ```
 IF [Select Time Period] = 'month'  THEN ", and the month over month change was: " // "MoM change: "
 END
 ```
 
 **QoQ Label**
+
 ```
 IF [Select Time Period] = 'month' OR [Select Time Period] = 'quarter' THEN ", the quarter over quarter change was: " // "QoQ Change: "
 END
 ```
 
 5. To put those together, the tooltip would have the following code, centered and formatted:
-``` 
+
+```
 In <Axis Dates> the Sales were <SUM(Sales)>.
 The Year over Year change was <AGG(Sales YoY)><ATTR(QoQ Label)><AGG(Sales QoQ)><ATTR(MoM label)><AGG(Sales MoM)>.
 ```
@@ -462,6 +471,7 @@ The Year over Year change was <AGG(Sales YoY)><ATTR(QoQ Label)><AGG(Sales QoQ)><
 The output of this tooltip would look like this: ![](images/image-13.png)![](images/image-14.png)
 
 ## Connection Types in Workbooks
+
 When you are publishing a workbook or data source, there are a few Authentication options. The default options will allow you to publish your work, but you will soon be getting:
 1. Messages from users that the OAuth token has expired and they are unable to access a workbook
 1. If you schedule an extract, you will get emails that the extract has failed.
@@ -527,14 +537,16 @@ For embedding in the handbook, views will embed better than dashboards will, so 
   - For embedding in the public handbook each workbook must have the `Public` tag.
 
 #### Data Source
-If you are not using an extract, like when your extract is going to be over 10 million rows, then you will need to use the Data Team Service Account's credentials. Reach out to the data team to get set up with those credentials. 
 
-Be mindful when you are embedding your credentials in the data source while publishing either internal or external views. Using an extract with your role embedded will be the clearest way to make sure that users can always view the data and will not experience an authorization expiration error. 
+If you are not using an extract, like when your extract is going to be over 10 million rows, then you will need to use the Data Team Service Account's credentials. Reach out to the data team to get set up with those credentials.
+
+Be mindful when you are embedding your credentials in the data source while publishing either internal or external views. Using an extract with your role embedded will be the clearest way to make sure that users can always view the data and will not experience an authorization expiration error.
 
 Make sure that if you do use the Data Team's credentials to publish the workbook, when you make any changes to the workbook it retains those credentials. You will need to embed passwords in the data source for the views to show correctly. This box may come unchecked when you are making changes. ![The box that needs checking](box-checking.png)
 
 #### Public Tag
-If your view is public and embedded in the public handbook (aka, people do not need to sign-in to view it), then it needs to be on the Public GitLab Tableau Cloud site due to the viewer license agreements. To tag a workbook as public, click on the workbook. On the main page for the workbook where you can see each of the views, next to the name, there is a "more settings" option '...'. Select that, and find "Tag...". Here, you can add "Public" as a tag. 
+
+If your view is public and embedded in the public handbook (aka, people do not need to sign-in to view it), then it needs to be on the Public GitLab Tableau Cloud site due to the viewer license agreements. To tag a workbook as public, click on the workbook. On the main page for the workbook where you can see each of the views, next to the name, there is a "more settings" option '...'. Select that, and find "Tag...". Here, you can add "Public" as a tag.
 
 It will take about a day for the URL to show up in [this list](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding). Once it does, copy that URL and use it in the embedding information. If your view has not shown up after a day or so, it is likely because one of your data sources is not following the guidelines of A) being an extracted connection or B) using the data team's service account's credentials.
 
@@ -553,21 +565,21 @@ When publishing workbooks to our Tableau Cloud site for the first time please na
 
 Publishing to the [Development](https://10az.online.tableau.com/#/site/gitlab/projects/300844) project:
 
-All workbooks published to the Development project will be attached the _Draft_ and their department tags to indicate that they are in development mode and not a workbook that has been peer reviewed and intended to serve as the single source of truth (SSOT) for a use case. The BI team will leverage the Tags functionality available in Tableau Cloud to better organize workbooks by department and publishing status. For example, this workbook below is assigned the _Draft_ and _Data Team_ tags:
+All workbooks published to the Development project will be attached the *Draft* and their department tags to indicate that they are in development mode and not a workbook that has been peer reviewed and intended to serve as the single source of truth (SSOT) for a use case. The BI team will leverage the Tags functionality available in Tableau Cloud to better organize workbooks by department and publishing status. For example, this workbook below is assigned the *Draft* and *Data Team* tags:
 
 ![](images/tags.png)
 
-To add tags to the workbook select on the ellipse symbol to the right of that workbook and click on _Tag..._:
+To add tags to the workbook select on the ellipse symbol to the right of that workbook and click on *Tag...*:
 
 ![](images/to_tag.png)
 
-Once in the Tag window, add in the _Draft_ and department tags for the workbook:
+Once in the Tag window, add in the *Draft* and department tags for the workbook:
 
 ![](images/add_tags.png)
 
 Publishing to the [Ad-hoc](https://10az.online.tableau.com/#/site/gitlab/projects/361929) or [Production](https://10az.online.tableau.com/#/site/gitlab/projects/361859) project:
 
-When publishing workbooks to the Ad-hoc or Production project, if the workbook is being published for the first time, please select **Move** and then remove the _Draft_ by navigating to the ellipse to the right of the workbook, select _Tag..._ and then clicking on the _X_ within the tag label. If publishing over / updating a workbook that is already in Ad-hoc or Production with a newer version from Development in Tableau Cloud, then select **Edit Workbook**, click on **Publish As**. Please make sure to name the workbook JUST AS it is currently named:
+When publishing workbooks to the Ad-hoc or Production project, if the workbook is being published for the first time, please select **Move** and then remove the *Draft* by navigating to the ellipse to the right of the workbook, select *Tag...* and then clicking on the *X* within the tag label. If publishing over / updating a workbook that is already in Ad-hoc or Production with a newer version from Development in Tableau Cloud, then select **Edit Workbook**, click on **Publish As**. Please make sure to name the workbook JUST AS it is currently named:
 
 ![](images/remove_tags.png)
 
@@ -580,22 +592,23 @@ Once in the Workbooks section, click on the **Tags** dropdown to filter content 
 ![](images/filter_tags.png)
 
 
-### Performance Indicators 
+### Performance Indicators
 
-The full code for embedding performance indicators into the handbook is typcially not found on the same page as where the actual indicators are displayed. Instead, you might find something like this: 
+The full code for embedding performance indicators into the handbook is typcially not found on the same page as where the actual indicators are displayed. Instead, you might find something like this:
+
 ```Performance Indicator Shortcode
 {{/% performance-indicators "developer_relations_department" /%}}
 ```
 
-In order to update the performance indicator, you need to find the yml file which is associated with the performance indicators seen, and you can update from there. In order to locate the yml file, look at the name of the file that you see in the shortcode. In the example above, you would be looking for developer_relations_department, which is the title contained within " ". 
+In order to update the performance indicator, you need to find the yml file which is associated with the performance indicators seen, and you can update from there. In order to locate the yml file, look at the name of the file that you see in the shortcode. In the example above, you would be looking for developer_relations_department, which is the title contained within " ".
 
 To find this file, you are going to go to the GitLab-com repository, which is a repo "for the public-facing marketing website of GitLab, including improvements to the docs and the handbook". From [the repository](https://gitlab.com/gitlab-com/www-gitlab-com), find "Find File" and then paste in the name of the file you are looking for. In this example, you would paste developer_relations_department.
 
-This will bring you to the yml file which you are looking for. From here, you can follow the instructions below to modify the file to include the Tableau view (dashboard or sheet) which you are looking for. Be sure to follow the [Embedding Instructions](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/#embedding-in-the-handbook) when embedding views. 
+This will bring you to the yml file which you are looking for. From here, you can follow the instructions below to modify the file to include the Tableau view (dashboard or sheet) which you are looking for. Be sure to follow the [Embedding Instructions](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/#embedding-in-the-handbook) when embedding views.
 
-Two reminders, first - _make sure that any public views (does not need login access) that are embedded into the public handbook are coming from the public Tableau site_. This means that the workbook they come from has been tagged "Public", and you are getting the URL from the [views available for embedding](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding) page. More information on this process can be found on the [Handbook Embedding Demonstration Page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/embed-demo/).
+Two reminders, first - *make sure that any public views (does not need login access) that are embedded into the public handbook are coming from the public Tableau site*. This means that the workbook they come from has been tagged "Public", and you are getting the URL from the [views available for embedding](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding) page. More information on this process can be found on the [Handbook Embedding Demonstration Page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/embed-demo/).
 
-Second, _if you are embedding a non-public view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page_.
+Second, *if you are embedding a non-public view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page*.
 
 #### YML
 
@@ -622,6 +635,7 @@ The `data/performance_indicators.yml` file in the handbook repositories is the b
 For additional clarity, the exact syntax of this code block is very important so that it can be read like JSON data. Sometimes you might be updating an existing handbook yml file with everything filled out, except the chart is currently a Sisense chart. To replace the Sisense chart, replace the lines of code which point to the Sisense chart. You can leave everything else in the file as-is.
 
 If you just want to embed a chart without any height, filter, or parameter specifications you would use the following:
+
 ```yml
   tableau_data:
     charts:

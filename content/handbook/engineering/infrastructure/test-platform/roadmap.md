@@ -88,6 +88,7 @@ Issue: [End-to-end visual regression validation](https://gitlab.com/gitlab-org/q
 1. Real 10,000 user reference architecture with customer reference traffic load testing.
 
 ### Security tests
+
 1. XSS functional tests.
 
 ### Mutation tests
@@ -214,12 +215,14 @@ Work involving metrics that will allow us to make good data-driven decisions and
 ## [Releases track](https://gitlab.com/groups/gitlab-org/-/epics/1463) ([roadmap view](https://gitlab.com/groups/gitlab-org/-/epics/1463#roadmap))
 
 Work that helps in validating the release process.
+
 ### Scheduling
 
 1. Milestone refinement introduction [When a milestone ends, close expired milestone and bulk reschedule unfinished work (Issues& MRs) to the next milestone](https://gitlab.com/gitlab-com/www-gitlab-com/issues/3555) => Done
 1. [Next iteration of closing milestones and moving issues and MRs to the next milestone](https://gitlab.com/gitlab-com/www-gitlab-com/issues/4593)
 
 ### Review apps
+
 1. [Improve review apps reliability](https://gitlab.com/groups/gitlab-org/-/epics/605)
 1. Make review app a mandatory testing gate with smoke tests.
 1. Shift QA tests to completely run against review apps, only orchestrated test run in the package-and-test job.

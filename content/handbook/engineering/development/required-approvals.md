@@ -16,7 +16,7 @@ There are specific scenarios we are identifying that will require additional app
 
 ### Approval Process
 
-Each section requiring approvals will have a considerations section. If you answered yes to all of the questions in the considerations section, then you will need to get approval for your proposal before proceeding with implementation. Steps for the approval process: 
+Each section requiring approvals will have a considerations section. If you answered yes to all of the questions in the considerations section, then you will need to get approval for your proposal before proceeding with implementation. Steps for the approval process:
 
 * Submit an issue with your design proposals
 * Make the issue visible to the CEO - [Sid Sijbrandij](/handbook/company/team/#sytses) and all Fellow Engineers: [Stan Hu](/handbook/company/team/#stanhu), [Dmitriy 'DZ' Zaporozhets](/handbook/company/team/#dzaporozhets) and [Gerir Lopez Fernandez](/handbook/company/team/#glopezfernandez).
@@ -32,11 +32,11 @@ As we've learned from our discussions around [defining the container registry da
 
 ##### Considerations
 
-- Was the feature written in a completely separate code base?  Again, using the Container Registry example, this was written in Go and is separate from the main GitLab Rails application.
-   - Only do a separate database when it has a completely separate codebase, and that is the only codebase querying the data. For example, [Analytics Instrumentation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/27730) isn't fit for it since the Rails codebase touches it.
-- Will the feature incur a heavy write load?  Writes are harder to scale than reads who can be scaled with replicas.
-- Will the feature not need any access to the main Rails database?  Example, the data is completely isolated from the main Rails database and will not need to share data across databases.
-- Are there existing APIs that we need to support?  For example, the container registry has a full set of APIs (https://docs.docker.com/registry/spec/api/) that we already use in the existing GitLab Rails application to retrieve tags, etc.
+* Was the feature written in a completely separate code base?  Again, using the Container Registry example, this was written in Go and is separate from the main GitLab Rails application.
+   * Only do a separate database when it has a completely separate codebase, and that is the only codebase querying the data. For example, [Analytics Instrumentation](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/27730) isn't fit for it since the Rails codebase touches it.
+* Will the feature incur a heavy write load?  Writes are harder to scale than reads who can be scaled with replicas.
+* Will the feature not need any access to the main Rails database?  Example, the data is completely isolated from the main Rails database and will not need to share data across databases.
+* Are there existing APIs that we need to support?  For example, the container registry has a full set of APIs (https://docs.docker.com/registry/spec/api/) that we already use in the existing GitLab Rails application to retrieve tags, etc.
 
 #### Proposing the creation of microservices
 

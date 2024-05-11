@@ -91,7 +91,7 @@ During Module 2, you will:
 
 1. [Module 2 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScCWql9i6Oi8js9zDnNawZKX-V1NOhQG3aSD8fFSew-29mn4g/viewform?usp=sf_link)
 
-## Module 3:
+## Module 3
 
 In Module 3, create a shared understanding around the importance for your team members to understand how they each contribute to driving results for customers by:
 
@@ -105,11 +105,11 @@ In Module 3, create a shared understanding around the importance for your team m
 1. [Module 3 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfmNnaI8C57ua1uRygJ7YlfbHKmmzaYqqD6mypZw5RlWe0cIQ/viewform?usp=sf_link)
 
 
-## Module 4:
+## Module 4
 
 In Module 4, increase your cross-functional effectiveness in order to clear the way for your team to get results.
 
-1. Share your team’s highest order purpose and alignment to GitLab’s overall goals  
+1. Share your team’s highest order purpose and alignment to GitLab’s overall goals
 1. Map your cross-functional partners within and outside GitLab
 1. Learn skills for building and repairing relationships with key partners
 
@@ -120,7 +120,7 @@ In Module 4, increase your cross-functional effectiveness in order to clear the 
 
 
 
-## Module 5:
+## Module 5
 
 *More information to be added soon.*
 

@@ -148,20 +148,14 @@ If you activate the `runs` toggle you will have annotations with links to all fu
 <!-- GitLab Snippets -->
 [GitLab Snippet 1662597]: https://gitlab.com/snippets/1662597
 <!-- Grafana links -->
-[grafana issue list]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce_issues&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana gitlab issue list]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_issues&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana 4058]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_issues_4058&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana 9546]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_merge_requests_9546&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana pipeline 9360254]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_pipelines_9360254&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana ce repo]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana ce boards]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce_boards&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana gitlab boards]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_boards&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana ce pipelines]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce_pipelines&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana gitlab pipelines]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_pipelines&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana gitlab explore]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_explore&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana ce repository]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce_tree_master&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana gitlab repository]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_tree_master&var-browser=chrome&var-connectivity=cable&var-function=median
-[grafana ce single file repository]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab-ce_blob_master_app_assets_javascripts_main_js&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana gitlab single file repository]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab_blob_master_app_assets_javascripts_main_js&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana snippet]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_snippets_1662597&var-browser=chrome&var-connectivity=cable&var-function=median
 [grafana gitlab project]: https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-group=gitlab_com&var-page=_gitlab-org_gitlab&var-browser=chrome&var-connectivity=cable&var-function=median
@@ -171,6 +165,7 @@ If you activate the `runs` toggle you will have annotations with links to all fu
 ## Steps
 
 ### Web Request
+
 {: #flow-of-web-request}
 
 All items that start with the tachometer (<i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>) symbol represent a step in the flow that we _measure_. Wherever possible, the tachometer icon links to the relevant dashboard in our [monitoring](/handbook/engineering/monitoring/). Each step in the listing below links back to its corresponding entry in the [goals table](#web-goals-table).
@@ -438,33 +433,26 @@ Timing history for First Byte are listed in the table below (click on the tachom
 
 <!-- issue links -->
 [GitLab CE #4058]: https://gitlab.com/gitlab-org/gitlab-ce/issues/4058
-[3693]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-06-27-08-18-14/pages/gitlab.com/gitlab-org/gitlab-ce/issues/4058/index.html
-[1874]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-10-09-12-10-12/pages/gitlab.com/gitlab-org/gitlab-ce/issues/4058/index.html
 [857]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/issues/4058/index.html
 <!-- MR links -->
 [GitLab CE !9546]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546
-[6347]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-06-27-08-18-14/pages/gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546/index.html
-[11547]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-10-09-12-10-12/pages/gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546/index.html
 [18673]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/merge_requests/9546/index.html
 <!-- Pipeline links -->
-[GitLab CE pipe 9360254]: https://gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254
-[2987]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-06-27-08-18-14/pages/gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254/index.html
-[1512]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-10-09-12-10-12/pages/gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254/index.html
 [1529]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/pipelines/9360254/index.html
 <!-- Repo links -->
 [GitLab CE repo]: https://gitlab.com/gitlab-org/gitlab-ce/tree/master
-[1071]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-06-29-07-44-06/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html
-[1096]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-10-09-12-10-12/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html
 [1076]: http://207.154.197.115/gl/sitespeed-result/gitlab.com/2017-12-27-19-26-37/pages/gitlab.com/gitlab-org/gitlab-ce/tree/master/index.html
 
 
 ### Internal
+
 {: #first-byte-internal}
 
 To go a little deeper and measure performance of the application & infrastructure without consideration for frontend and network aspects, we look at "transaction timings" [as recorded by Unicorn](#unicorn2various). These timings can be seen on the
 [Rails Controller dashboard](https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-controller=Projects::MergeRequestsController&var-action=show) _per URL that is accessed_ .
 
 ## Availability and Performance labels
+
 {: #availability-performance-labels}
 
 ### Availability

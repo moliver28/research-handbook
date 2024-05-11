@@ -39,8 +39,8 @@ Ordered alphabetically to avoid the perception that any TMRG is more important t
 | [GitLab API - Asia Pacific Islander]({{< ref "tmrg-gitlab-api" >}}) | [Christopher Wang](https://gitlab.com/cs.wang), [Steve Xu](https://gitlab.com/steve_xu), [Sheela Viswanathan](https://gitlab.com/sheelaviswanathan) | #api-tmrg | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/api-tmrg) | [API Agenda](https://docs.google.com/document/d/17zJuZlWVg40mPjcybnGlj_mK2f4SEpRdrjq3s3Cseow/edit?usp=sharing) | David Sakamoto |
 | [GitLab Disability and Neurodivergence]({{< ref "erg-gitlab-diversability" >}}) | [Kaitlyn Chappell](https://gitlab.com/kchappell), [James Hebden](https://gitlab.com/jhebden), [Dominique Top](https://gitlab.com.dlectronique) | #diverse_ability | [Sign up for future meetings (google form)](https://forms.gle/5g2wVB577Lr7M3CH7) | [DiversABILITY Agenda](https://docs.google.com/document/d/130LH9QPewms025z4OFxNNUYnjcQ53D1049EZOL2WdWc/edit?usp=sharing) | Rob Allen |
 | [Career Enablement](https://groups.google.com/a/gitlab.com/g/careerenablementtmag) | [Kristi Piechnik](https://gitlab.com/kpdoespr) and [Amruta Kulkarni](https://gitlab.com/akulks) | #career-enablement-tmag | [Sign up for future meetings with Google Group](https://groups.google.com/a/gitlab.com/g/careerenablementtmag) | TBD | Craig Mestel |
-| [GitLab Generational Understanding]({{< ref "tmrg-gitlab-generational-understanding" >}}) | Miles Russell, Terri Chu, Darwin Sanoy | #generational_understanding | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) | [Generational Understanding Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit?usp=sharing) | TBC
-| [Global Voices]({{< ref "tmrg-global-voices" >}}) | [Eliran Mesika](https://gitlab.com/eliran.mesika), [Charlie Ablett](https://gitlab.com/cablet) | #global-voices-tmrg | |  |
+| [GitLab Generational Understanding]({{< ref "tmrg-gitlab-generational-understanding" >}}) | Miles Russell, Terri Chu, Darwin Sanoy | #generational_understanding | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) | [Generational Understanding Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit?usp=sharing) | TBC |
+| [Global Voices]({{< ref "tmrg-global-voices" >}}) | [Eliran Mesika](https://gitlab.com/eliran.mesika), [Charlie Ablett](https://gitlab.com/cablet) | #global-voices-tmrg | |  | |
 | [GitLab Gente]({{< ref "tmrg-gitlab-gente" >}}) | [Pilar Mejia](https://gitlab.com/pmejia), [Romer Gonzalez](https://gitlab.com/romerg), [Samara Souza](https://gitlab.com/samarasouza)  | #gente | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/latinxtmrg) | [Gente Agenda](https://docs.google.com/document/d/12dYSDjiVvFt-c6UO9y350pFbrrK5Iq2o/edit) | [Josh Lemos](https://gitlab.com/joshlemos) |
 | [Black @ GitLab]({{< ref "tmrg-gitlab-black" >}}) | [April Marks](https://gitlab.com/aprilmarks), [Marcus Carter](https://gitlab.com/marcusbriancarter), [Madou Coulibaly](https://gitlab.com/madou), [Mam Joof](https://gitlab.com/mjoof1) | #black-at-gitlab |  [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/black-tmrg) | [Black @ GitLab Agenda](https://docs.google.com/document/d/1G9Be3e3hjj3gexLmrmR1bqzaEErP-4BfDgJR4q_jUTw/edit#heading=h.vf9sdppkn4e0) | [David DeSanto](https://gitlab.com/david) |
 | [GitLab Pride]({{< ref "tmrg-gitlab-pride" >}}) | [Alex Hanselka](https://gitlab.com/ahanselka) and [Helen Mason](https://gitlab.com/hmason) | #lgbtq | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/pride-tmrg) | [Pride Agenda](https://docs.google.com/document/d/11D-Izm5mbopEUCY036Qr0bHx6UePMyfkzhUfNDE-mnk/edit?usp=sharing) | Robin Schulman |
@@ -271,7 +271,7 @@ Straight for Equality](https://ctb.ku.edu/en/table-of-contents/culture/cultural-
 
 ## TMRG Leads
 
-### Selection Criteria:
+### Selection Criteria
 
 - The team member must be performing in their role and not part of any performance management process as confirmed by the People Group.
 - Must be a full-time GitLab team member. This includes PEO and full-time contractor team members.
@@ -288,7 +288,7 @@ Straight for Equality](https://ctb.ku.edu/en/table-of-contents/culture/cultural-
 - The DIB team will consult with existing TMRG members, Leads, The People Team, Executive Sponsors and Managers to decide who will take the leadership position. This is to ensure the best person for the TMRG program is selected and diversity of departments, geography and URGs are properly represented.
 
 
-### Qualities of a TMRG leader:
+### Qualities of a TMRG leader
 
 - Interest, passion and time to devote their time to the TMRG
 - Possesses facilitation, team-building, and collaboration skills
@@ -303,11 +303,11 @@ All TMRG Leads should either watch the video or read through the slides of this 
 
 ## Roles Within the Group
 
-#### Team Member Resource Group Members
+### Team Member Resource Group Members
 
 At GitLab we all contribute!  Everyone has an opportunity to lead and provide feedback within the group.
 
-#### Executive Sponsor
+### Executive Sponsor
 
 An executive GitLab team member who is responsible and accountable for strategic support of the group
 
@@ -318,7 +318,7 @@ An executive GitLab team member who is responsible and accountable for strategic
 - Partner with TMRG leads on issues, concerns, and resource needs of the community
 - May provide additional budget
 
-#### TMRG Lead
+### TMRG Lead
 
 A GitLab team member or team members who are responsible and accountable for strategic direction and operations of the TMRG.
 
@@ -425,7 +425,7 @@ A team member who provides meaningful interactions with the TMRG through decisio
 
 This does not take away the need for synchronous meetings but allows everyone to contribute in the way they feel most comfortable and is inclusive of all geographies.
 
-### Guidance/Suggestions for Encouraging Participation:
+### Guidance/Suggestions for Encouraging Participation
 
 Use tools that work alongside sync meetings that encourage participation in the meetings.
 
@@ -447,7 +447,7 @@ Use tools that work alongside sync meetings that encourage participation in the 
 
 You can see full agenda notes here: (insert google doc) feel free to add any further thoughts in this slack thread.
 
-### Measure:
+### Measure
 
 Keep a track of engagement across the different methods so you can understand where the most engagement happens. This can be very useful in determining what is best for your particular TMRG.
 
@@ -571,7 +571,7 @@ When submitting expenses for reimbursement, please add the “TMRG” classifica
 
 ## Key Milestones for TMRGs (Suggested)
 
-### Develop membership via:
+### Develop membership via
 
 - DIB Monthly Call
 - Slack Channels
@@ -581,7 +581,7 @@ When submitting expenses for reimbursement, please add the “TMRG” classifica
     - Other TMRGs channels
     - Any other channels that seem relevant
 
-### Hold your first call:
+### Hold your first call
 
 Discuss the 4 Pillars of the TMRGs
 Discuss the mission of the TMRG

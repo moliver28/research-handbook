@@ -46,8 +46,8 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
   - There are weekly AI Exec meetings where non-MNPI read outs will be shared. Read outs and feedback from leadership will be included in the AI Monthly.
   - For senior leaders, EMs and PMs across the primary AI teams to make sure they have a place to align with each other, we use `#ai-leads`.
   - To include the quads, engineers, designers, testers, infra, our key Marketing stakeholders, etc that are working on AI, we use `#ai-portfolio`. This will help us provide a SSoT avenue for communication so we don’t confuse groups or disseminate information separately.
-  - In this way, we will avoid multiple downward communications or conflicting messages,  keep discussions inside issues, and be able to retain autonomy on the roadmap according to Roadmap Review & Revision. 
-- **Blocking work**: 
+  - In this way, we will avoid multiple downward communications or conflicting messages,  keep discussions inside issues, and be able to retain autonomy on the roadmap according to Roadmap Review & Revision.
+- **Blocking work**:
   - Our teams respond to inquiries with ETA to resolve within the designated time frame below:
     - High priority - within 1 business day
     - Medium priority - <= 5 business days
@@ -60,7 +60,7 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 
 # Stage Meetings
 
-Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). 
+Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls).
 
 Some regular meetings that take place for all AI teams on the shared AI-Powered Stage Calendar (Calendar ID: c_n5pdr2i2i5bjhs8aopahcjtn84@group.calendar.google.com) are:
 

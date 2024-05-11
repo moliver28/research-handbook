@@ -557,13 +557,13 @@ Mid-Market AEs work closely in tandem with the business development team and sal
 The Commercial Sales Team follows the [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement)
 This section provides step by step clarity on how to follow the **ROE**.
 
-### Process to follow:
+### Process to follow
 
 Account will be organized into the following two categories:
 1. Accounts who were customers before February 1st of the fiscal year
 1. Accounts who became customers on or after February 1st of the fiscal year
 
-#### Accounts who became customers before February 1st of the fiscal year will follow this process:
+#### Accounts who became customers before February 1st of the fiscal year will follow this process
 
 It is the responsibility of the Account Executive who owns the account to qualify how many employees the account has prior to February 1st.
 Accounts who have less than 100 employees on or before February 1st will be owned by SMB for the fiscal year

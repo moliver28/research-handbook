@@ -4,6 +4,7 @@ description: "The Respond Group a part of the Monitor Stage of the DevOps lifecy
 ---
 
 ## Respond
+
 The **Respond** group at GitLab is responsible for building tools that enable DevOps teams to respond to, triage and remediate errors and IT alerts for the systems and applications they maintain. We aim to provide a streamlined Operations experience within GitLab that enables the individuals who write the code, to maintain it at the same time.
 
 This team maps to the [Respond Group](/handbook/product/categories/#respond-group) category and focuses on:
@@ -26,14 +27,14 @@ You can follow along with the team's accomplishments by reading the [latest week
 
 ## Communication
 
-- Slack channel: [#g_respond](https://gitlab.slack.com/archives/C02SHPPGZS5)
-- Slack alias: [@monitor-respond-group](https://app.slack.com/client/T02592416/C02SHPPGZS5/user_groups/SLFUX86HF)
-- Our Google groups are organized like this:
-  - [Monitor Respond Group](mailto:monitor-respond-group@gitlab.com) (whole team)
-    - [monitor-respond_be](mailto:monitor-respond-be@gitlab.com) (backend team)
-    - [monitor-respond-fe](mailto:monitor-respond-fe@gitlab.com) (frontend team)
-- The Respond group team meetings are scheduled on our [Monitor Stage team calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV8xbGMyZHFpbjFoMXQ2MHFoNnJmcjJjZTE5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-  - The team holds a [weekly sync meeting](https://docs.google.com/document/d/1_z-VJYnobq5UN0PbFoABWLK3PNn9IXlDo8WO51DF2Ls), alternating between 2 timezone groups (Thu @ 06:00 UTC and Thu @ 14:00 UTC) and [meetings are recorded](https://drive.google.com/drive/u/0/folders/11oEDabI5blfcHz0P9dOZY6Oj_dHd0-wx). We generally try to keep our process pretty light on meetings.
+* Slack channel: [#g_respond](https://gitlab.slack.com/archives/C02SHPPGZS5)
+* Slack alias: [@monitor-respond-group](https://app.slack.com/client/T02592416/C02SHPPGZS5/user_groups/SLFUX86HF)
+* Our Google groups are organized like this:
+  * [Monitor Respond Group](mailto:monitor-respond-group@gitlab.com) (whole team)
+    * [monitor-respond_be](mailto:monitor-respond-be@gitlab.com) (backend team)
+    * [monitor-respond-fe](mailto:monitor-respond-fe@gitlab.com) (frontend team)
+* The Respond group team meetings are scheduled on our [Monitor Stage team calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV8xbGMyZHFpbjFoMXQ2MHFoNnJmcjJjZTE5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+  * The team holds a [weekly sync meeting](https://docs.google.com/document/d/1_z-VJYnobq5UN0PbFoABWLK3PNn9IXlDo8WO51DF2Ls), alternating between 2 timezone groups (Thu @ 06:00 UTC and Thu @ 14:00 UTC) and [meetings are recorded](https://drive.google.com/drive/u/0/folders/11oEDabI5blfcHz0P9dOZY6Oj_dHd0-wx). We generally try to keep our process pretty light on meetings.
 
 ## Dashboards
 
@@ -143,9 +144,9 @@ Weekly update flow:
    1. (human) Close the issue, share a link to it in the #g_respond Slack channel.
 
 Links
-- [Past weekly update issues](https://gitlab.com/gitlab-org/monitor/respond/-/issues/?sort=created_date&state=all&label_name%5B%5D=OpsSection%3A%3AWeekly-Update&first_page_size=100)
-- [Automation README](https://gitlab.com/gitlab-org/monitor/respond/-/blob/master/weekly_update/README.md)
-- [Issue template](https://gitlab.com/gitlab-org/monitor/respond/-/blob/master/.gitlab/issue_templates/weekly-update.md?plain=1)
+* [Past weekly update issues](https://gitlab.com/gitlab-org/monitor/respond/-/issues/?sort=created_date&state=all&label_name%5B%5D=OpsSection%3A%3AWeekly-Update&first_page_size=100)
+* [Automation README](https://gitlab.com/gitlab-org/monitor/respond/-/blob/master/weekly_update/README.md)
+* [Issue template](https://gitlab.com/gitlab-org/monitor/respond/-/blob/master/.gitlab/issue_templates/weekly-update.md?plain=1)
 
 ### Interacting with community contributors
 
@@ -232,6 +233,7 @@ Downsides to this approach:
    1. Mitigation: reporting of Say Do ratio in the Ops sub-department is moving to the monthly PI review instead of relying on a dashboard.
 
 ## Repos we own or use
+
 * [Prometheus Ruby Mmap Client](https://gitlab.com/gitlab-org/ruby/gems/prometheus-client-mmap) - The ruby Prometheus instrumentation lib we built, which we used to instrument GitLab
 * [GitLab](https://gitlab.com/gitlab-org/gitlab) - Where much of the user facing code lives
 * [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab) and [Charts](https://gitlab.com/charts/charts.gitlab.io), where a lot of the packaging related work goes on. (We ship GitLab fully instrumented along with a Prometheus instance)
@@ -267,48 +269,50 @@ The following people are owners of this account and can [grant access](https://z
 For more information on how to use Zoom see theirs [guides](https://marketplace.zoom.us/docs/guides) and [API reference](https://marketplace.zoom.us/docs/api-reference/introduction).
 
 ## Labels
+
 The Respond team uses labels for issue tracking and to organize issue boards.  Many of the labels we use also drive reporting for Product Management and Engineering Leadership to track delivery metrics.  It's important that labels be applied correctly to each issue so that information is easily discoverable.
 
 ### Issue Labels
 
-- **Stage**: required. Identifies which stage of GitLab an issue is assigned to.
-  - `~devops::monitor`
-- **Group**: required. Identifies which team this issue belongs to. This triggers new issues to appear in the weekly triage report for the team's Product and Engineering managers.
-  - `~group::respond`
-- **Team**: required. Identifies which team (or both) will develop a solution.
-  - `~frontend`
-  - `~backend`
-- **Category**: optional. Identifies the correct [Monitor category](https://about.gitlab.com/direction/monitor/#categories-in-monitor) the issue falls under.
-  - `~Category:Runbooks`
-  - `~Category:Incident Management`
-  - `~Category:On-call Schedule Management`
-  - `~Category:GitLab Self Monitoring`
-  - `~Category:Error Tracking`
-  - `~Category:Synthetic Monitoring`
-  - `~Category:Product Analytics`
-- **Milestone**: optional. While technically not a label, if the issue is being worked on immediately, add the current milestone.  If you know when the issue needs to be scheduled (such as follow-up work), add the future milestone that it should be scheduled in.  Otherwise, leave it empty.
-- **Issue Type**: required.
-  - `~"type::feature"`: [Feature Issues](/handbook/product/product-processes/#feature-issues)
-  - `~"type::bug"`: [Bug Issues](/handbook/product/product-processes/#bug-issues)
-  - `~technical debt` : [Technical Debt](/handbook/engineering/workflow/#technical-debt)
-- **Workflow**: required.
-  - `workflow::refinement`: Issues that need further input from team members in order for it to be `workflow::ready for development`.
-  - `workflow::blocked`: Waiting on external factors or another issue to be completed before work can resume.
-  - `workflow::ready for development`: The issue is refined and ready to be scheduled in a current or future milestone.
-  - `workflow::in dev`: Issues that are actively being worked on by a developer.
-  - `workflow::in review`: Issues that are undergoing code review by the development team.
-  - `workflow::verification`: Everything has been merged, waiting for verification after a deploy.
+* **Stage**: required. Identifies which stage of GitLab an issue is assigned to.
+  * `~devops::monitor`
+* **Group**: required. Identifies which team this issue belongs to. This triggers new issues to appear in the weekly triage report for the team's Product and Engineering managers.
+  * `~group::respond`
+* **Team**: required. Identifies which team (or both) will develop a solution.
+  * `~frontend`
+  * `~backend`
+* **Category**: optional. Identifies the correct [Monitor category](https://about.gitlab.com/direction/monitor/#categories-in-monitor) the issue falls under.
+  * `~Category:Runbooks`
+  * `~Category:Incident Management`
+  * `~Category:On-call Schedule Management`
+  * `~Category:GitLab Self Monitoring`
+  * `~Category:Error Tracking`
+  * `~Category:Synthetic Monitoring`
+  * `~Category:Product Analytics`
+* **Milestone**: optional. While technically not a label, if the issue is being worked on immediately, add the current milestone.  If you know when the issue needs to be scheduled (such as follow-up work), add the future milestone that it should be scheduled in.  Otherwise, leave it empty.
+* **Issue Type**: required.
+  * `~"type::feature"`: [Feature Issues](/handbook/product/product-processes/#feature-issues)
+  * `~"type::bug"`: [Bug Issues](/handbook/product/product-processes/#bug-issues)
+  * `~technical debt` : [Technical Debt](/handbook/engineering/workflow/#technical-debt)
+* **Workflow**: required.
+  * `workflow::refinement`: Issues that need further input from team members in order for it to be `workflow::ready for development`.
+  * `workflow::blocked`: Waiting on external factors or another issue to be completed before work can resume.
+  * `workflow::ready for development`: The issue is refined and ready to be scheduled in a current or future milestone.
+  * `workflow::in dev`: Issues that are actively being worked on by a developer.
+  * `workflow::in review`: Issues that are undergoing code review by the development team.
+  * `workflow::verification`: Everything has been merged, waiting for verification after a deploy.
 
 ## Respond PTO
+
 Just like the rest of the company, we use [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel) to track when team members are traveling, attending conferences, and taking time off. The easiest way to see who has upcoming PTO is to run the `/time-off-deel whosout` command in the `#g_respond_standup` slack channel. This will show you the upcoming PTO for everyone in that channel.
 
 ## Reading list
 
 A list of interesting content related to the areas of the Respond group:
 
-- **On-Call**
-  - [Google's SRE Workbook, Chapter 8 - On-Call](https://sre.google/workbook/on-call/)
-- **Incident Response**
-  - [Google's SRE Workbook, Chapter 9 - Incident Response](https://sre.google/workbook/incident-response/)
-- **Postmortem Culture: Learning from Failure**
-  - [Google's SRE Workbook, Chapter 9 - Incident Response](https://sre.google/workbook/postmortem-culture/)
+* **On-Call**
+  * [Google's SRE Workbook, Chapter 8 - On-Call](https://sre.google/workbook/on-call/)
+* **Incident Response**
+  * [Google's SRE Workbook, Chapter 9 - Incident Response](https://sre.google/workbook/incident-response/)
+* **Postmortem Culture: Learning from Failure**
+  * [Google's SRE Workbook, Chapter 9 - Incident Response](https://sre.google/workbook/postmortem-culture/)

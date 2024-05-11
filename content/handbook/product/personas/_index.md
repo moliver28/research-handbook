@@ -589,7 +589,7 @@ I’m in charge of ensuring that our organization’s use of third-party softwar
 
 ##### Job Summary
 
-I collect, preprocess, and analyze data to derive insights and build predictive models. 
+I collect, preprocess, and analyze data to derive insights and build predictive models.
 
 ##### Jobs to be done
 
@@ -610,7 +610,7 @@ I collect, preprocess, and analyze data to derive insights and build predictive 
 - Data access
 - Lack of computational resources
 - Lack of data and/or ML/AI literacy in the organization
-- Lack of streamlined processes and automations 
+- Lack of streamlined processes and automations
 - Lack of data governance and ambiguity around policies, data ownership and data stewardship.
 
 #### Mia (ML Engineer)
@@ -619,7 +619,7 @@ I collect, preprocess, and analyze data to derive insights and build predictive 
 
 ##### Job Summary
 
-I am responsible for building, optimizing, and deploying machine learning models into production environments. 
+I am responsible for building, optimizing, and deploying machine learning models into production environments.
 
 ##### Jobs to be done
 

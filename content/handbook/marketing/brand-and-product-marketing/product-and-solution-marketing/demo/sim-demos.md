@@ -9,15 +9,15 @@ title: "Simulation demos"
 
 
 
-# Summary
+## Summary
 
 This page covers how to use and create simulation demos.
 
-# What is a simulation (sim) demo?
+## What is a simulation (sim) demo?
 
 There are certain times when slides, video or other such media just will not do. When you are with a customer or on a trade show stage, a live product demonstration is far superior to slides or videos. Live demos, however, can be fraught with challenges, from technical issues to poor content or delivery. Sim demos ensure every demo presentation, with groups small or large, is done perfectly every time, eliminating technical and content challenges. Sim demos are reliable, easy to present and give the audience a life-like demonstration EVERY TIME.
 
-# What is the difference between sim demo and a click-through demo?
+## What is the difference between sim demo and a click-through demo?
 
 Our definition for the legacy offline demos is a click-through demos. Click-through demos are Google Slides presentations, and they help to demonstrate product features or usecases. Each slide contains a product screenshot, annotations, and some bullets.
 
@@ -27,7 +27,7 @@ Both click-through and sim demos look and feel like live demos, the audience of 
 
 Both the legacy click-through demos and the new sim demos are available from the [Learn@GitLab page](https://about.gitlab.com/learn/).
 
-# Using click-through and sim demos
+## Using click-through and sim demos
 
 ### Who can use click-through and sim demos?
 
@@ -59,7 +59,7 @@ Both the legacy click-through demos and the new sim demos are available from the
 |  A new dialog will appear,  click Open.   | ![GitLab Repository](/images/tech-pmm/dialogopencatalina.png){: .margin-right20 .margin-left20 .margin-top20 .margin-bottom20 .image-width80pct } |
 
 
-# Creating sim demos
+## Creating sim demos
 
 ### Who can create sim demos
 
@@ -81,7 +81,7 @@ To plan a winning demo
 1. Prepare your browser, hide bookmarks and notifications.
 1. Hide OS notifications.
 1. Use the following script to resize Chrome to the required resolution.
-1. Open Script Editor in your MacBook and paste this script to it  
+1. Open Script Editor in your MacBook and paste this script to it
 
 ```
 set theApp to "Google Chrome"

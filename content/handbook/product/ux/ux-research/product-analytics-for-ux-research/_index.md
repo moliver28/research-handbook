@@ -3,7 +3,7 @@ title: "Product Analytics for UX Research"
 description: "This page provides useful information and best practices for team members interested in using product analytics as part of user experience research projects."
 ---
 
-This page aims to serve as a resource for team members interested in leveraging data we collect about GitLab usage in order to perform or inform user experience research. It provides background information on what GitLab’s internal structures are, what data is available and where, and some best practices and tips to help team members get started. 
+This page aims to serve as a resource for team members interested in leveraging data we collect about GitLab usage in order to perform or inform user experience research. It provides background information on what GitLab’s internal structures are, what data is available and where, and some best practices and tips to help team members get started.
 
 While the information here is meant as a shortcut for people doing UX Research, it only scratches the surface of GitLab’s capabilities with data. For more in-depth information, see the [Data team’s handbook](https://handbook.gitlab.com/handbook/business-technology/data-team/).
 
@@ -26,16 +26,17 @@ _In order of most to least relevant to UX Researchers:_
 - [Tableau handbook page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/) (The GitLab handbook page on Tableau)
 - [Analytics relevant to each product stage](https://handbook.gitlab.com/handbook/product/product-analysis/crash-course/#learn-about-analytics-relevant-product-stage-topics-grouped-by-section) (A GitLab handbook page for product stage resources)
 - [GitLab Metrics Dictionary](https://metrics.gitlab.com/) (A website listing all the metrics we collect from Service Ping and Snowplow)
-- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) (Internal handbook page with examples of commonly used data models) 
+- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) (Internal handbook page with examples of commonly used data models)
 - [DBT](https://dbt.gitlabdata.com/#!/overview) (Explains the underlying code and column definitions of all GitLab data sets)
 
 ![Simplified usage data stack](datastack_simple.png)
 The above illustration shows a simplified version of GitLab's usage data stack, based on [this document.](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#i-classfas-fa-cubes-fa-fw-stylecolorrgb25210938-font-size85em-aria-hiddentrueiour-data-stack)
 
 #### Getting Access
-Complete an [access request to use Tableau](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#tableau-online-access). Some UX Researchers have Explorer roles, and some have Viewer roles - if you want to see the differences in capabilities between the two roles, [check this handbook page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#capabilities). 
 
-To view some dashboards and data, you will need SAFE access, but others are available without. If you do find yourself unable to access information you need, complete a [SAFE-related access request](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/safe-data/#accessing-a-safe-dashboard) for Tableau. 
+Complete an [access request to use Tableau](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#tableau-online-access). Some UX Researchers have Explorer roles, and some have Viewer roles - if you want to see the differences in capabilities between the two roles, [check this handbook page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#capabilities).
+
+To view some dashboards and data, you will need SAFE access, but others are available without. If you do find yourself unable to access information you need, complete a [SAFE-related access request](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/safe-data/#accessing-a-safe-dashboard) for Tableau.
 
 NOTE: Obtaining SAFE access to user data will put you on the [designated insiders list](https://handbook.gitlab.com/handbook/legal/publiccompanyresources/#designated-insiders), which will require you to obtain pre-clearance in order to sell any GitLab shares you own, as well as restrict the trading window in which you can do so.
 
@@ -66,15 +67,15 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
 
 #### Common metrics and segments that GitLab tracks
 
-- Monthly active users (MAU) 
+- Monthly active users (MAU)
   - Examples: MAU per stage, per group, per section
 - Performance indicators (PI)
   - Examples: MAU, conversion rate, category maturity advancement
 - User segments
   - Examples: Geo Region, # of seats, industry vertical
-- Product tiers 
+- Product tiers
   - Examples: Free, Premium, Ultimate
-- Product sections: 
+- Product sections:
   - Examples: Analytics, CD, CI, Dev, Sec
 - Delivery
   - Examples: SaaS, Paid SaaS, Self-Managed
@@ -90,7 +91,7 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
   - Which user criteria / segment?
   - Which metrics?
   - Which components or features (if applicable)?
-3. **Check with your PM (and/or your PDI counterpart) to determine:** 
+3. **Check with your PM (and/or your PDI counterpart) to determine:**
   - Is this tracked today?
     - This can be difficult to determine, try asking in #data or by working with your PM and PDI counterpart.
     - If not, consider reaching out to the Analytics Instrumentation team or ask in #data.
@@ -108,7 +109,7 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
 
 - Finding quantitative data to triangulate with qualitative research findings (e.g., prioritizing active, commonly used flows; understanding scale and scope of usage).
   - Example: [What % of new users are software developers vs. other job titles?](https://10az.online.tableau.com/#/site/gitlab/views/Gitlab_comUserSignups/GrowthMetrics?:iid=1)
-- How many (or what percent) of users (Monthly Active Users, MAU) did X action? 
+- How many (or what percent) of users (Monthly Active Users, MAU) did X action?
   - Example: [How many (and %) of SaaS - Ultimate accounts (not users), used code review features within the last 3 months?](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTMetricsDemographics/AccountDemographicDashboard2?:iid=1)
 - How many (or what percent) of users went from point A to point B? (i.e., funnel analysis)
   - Example: [GitLab .com registration funnel analysis](https://10az.online.tableau.com/#/site/gitlab/views/SaaSRegistrationFunnel/RegistrationFunnelAnalyses?:iid=1)

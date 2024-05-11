@@ -10,8 +10,8 @@ The Partner Program Manager will be responsible for the design, management & exe
 | -- | - |
 | [Associate Partner Program Manager](#associate-partner-program-manager) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Partner Program Manager](#partner-program-manager) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Partner Program Manager](#senior-partner-program-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Lead Partner Program Manager](#lead-partner-program-manager) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Senior Partner Program Manager](#senior-partner-program-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Lead Partner Program Manager](#lead-partner-program-manager) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Manager, Partner Programs](#manager-partner-programs) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, partner Program](#senior-manager-partner-programs) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Director, Partner Programs](#director-partner-programs) | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
@@ -78,7 +78,7 @@ The Sr. Partner Program Manager will be responsible for the design, management &
 - Design program guides that detail requirements and benefits, terms and conditions, etc.
 - Develop playbooks to help partner development and PAM engagement with partners
 - Together with Partner Operations, lead the overall partner experience including design changes for the partner portal.  Help operationalize internal partner sales and services transactions and activities.
-- Manage communications to the channel via portal, newsletters, webcasts, social channels.  
+- Manage communications to the channel via portal, newsletters, webcasts, social channels.
 - Document policies and processes to support all aspects of the program, including field / Services / partner rules of engagement and enable global execution
 - Design & launch field enablement on Partner Program, Rules of Engagement, Deal Reg, How to Partner, etc.  Collaborate with with Field Enablement in the development of enablement materials
 - Collect and manage feedback from channel partners into the ongoing roadmap for the Partner Program.
@@ -106,7 +106,7 @@ The Lead Partner Program Manager is a [grade 8](/handbook/total-rewards/compensa
 
 The Lead Partner Program Manager will set the direction and roadmap for the overall Partner Program.  They will define and lead key initiatives and program changes to increase the program value to partners and GitLab.
 - Responsible for the design, management & execution of GitLab’s global sales and services Partner Programs.
-- Manage deal registration, sales and/or services engagement and partner success programs and support partner events.  
+- Manage deal registration, sales and/or services engagement and partner success programs and support partner events.
 - Collaborate at senior levels of the Sales, Finance, Marketing and other organizations and drive alignment around specific channel programs with those organizations.
 - Collaborate across Channels & Alliances teams to gather requirements for Programs, working closely with regional Partner team Directors on program execution.
 - Design, build and manage Partner Programs including incentive programs, MDF Program, Reseller, Services, Alliances, Deal Registration Program, etc.
@@ -157,7 +157,7 @@ The Sr. Manager, Partner Programs will manage a team of Partner Program Managers
 - The Sr. Manager, Partner Programs will set the direction and roadmap for the overall Partner Program.  They will define and lead key initiatives and program changes to increase the program value to partners and GitLab.
 - The Sr. Manager, Partner Programs will set the direction and roadmap for the overall Partner Partner Program.  They will define and lead key initiatives and program changes to increase the program value to partners and GitLab.
 - Responsible for the design, management & execution of GitLab’s global sales and services Partner Programs.
-- Manage deal registration, sales and/or services engagement and partner success programs and support partner events.  
+- Manage deal registration, sales and/or services engagement and partner success programs and support partner events.
 - Collaborate at senior levels of the Sales, Finance, Marketing and other organizations and drive alignment around specific channel programs with those organizations.
 - Collaborate across Channels & Alliances teams to gather requirements for Programs, working closely with regional Partner team Directors on program execution.
 - Design, build and manage Partner Programs including incentive programs, MDF Program, Reseller, Services, Alliances, Deal Registration Program, etc.

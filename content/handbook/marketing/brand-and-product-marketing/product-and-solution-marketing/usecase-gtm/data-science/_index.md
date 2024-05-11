@@ -9,9 +9,9 @@ title: "Proposed Usecase: Data Science"
 
 
 
-# The Market Viewpoint
+## The Market Viewpoint
 
-## Data Science — AKA DataOps, MLOps, etc.
+## Data Science — AKA DataOps, MLOps, etc
 
 #### Common challenges
 
@@ -87,7 +87,7 @@ Internal to GitLab:
 |  **Open Source; Everyone Can Contribute**  | Open core development model allows anyone to contribute to the functionality of the product. Uniquely transparent product development process engaging customers, partners, and the community. Strong and growing community - thousands of organizations and millions of users.  | Over 3,000 active community code contributors. [Siemens](https://about.gitlab.com/blog/2018/12/18/contributor-post-siemens) needed to improve and enhance their developer tools, and actively contribute to GitLab project with upstream commits.  |
 |  **Deploy Your Software Anywhere**  | Deploy and manage your models in any environment, including any cloud with support for GCP, AWS, Azure, OpenShift, VMWare, On Prem, Bare Metal, etc. Gain workflow portability - one deployment workflow regardless of destination. Provides a complete DevOps platform that allows teams to have the same productivity metrics, governance, and other connective tissue, no matter what cloud they use.  |  [Ask Media Group](https://www.askmediagroup.com/microservices-in-practice/) found it difficult to manage the process of building and deploying microservices. With GitLab Premium, their developers can immediately begin to contribute a new service that can be deployed to AWS as soon as they start.  [Gartner's 2019 Hype Cycle for Infrastructure and Operations Automation](https://www.gartner.com/en/documents/3947548/hype-cycle-for-i-o-automation-2019): GitLab helped to define the market, and is recognized as a relevant vendor for both Continuous Delivery and Toolchain Orchestration.  |
 
-# The GitLab Solution
+## The GitLab Solution
 
 ## Competitive Comparison
 

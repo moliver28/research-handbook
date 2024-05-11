@@ -19,7 +19,7 @@ aliases:
 
 
 
-***
+---
 
 ## <i class="fas fa-map-signs"></i> QuickLinks
 
@@ -51,7 +51,7 @@ aliases:
 - [<i class="far fa-edit"></i>Request Community Response support](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=community-response-plan)
 - [<i class="far fa-edit"></i> Request Content](/handbook/marketing/developer-relations/content-request/#how-to-work-with-the-developer-advocate-team)
 
-***
+---
 
 ## <i class="fa fa-map-marker" aria-hidden="true"></i> Mission
 

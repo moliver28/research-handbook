@@ -147,7 +147,7 @@ Once renewal opportunities are identified at the monthly renewal meeting, the SA
 
 #### 4.3.1 Discovery Call Meetings
 
-#### Use the Command Plan within Salesforce to capture the following information for the renewal opportunity.
+#### Use the Command Plan within Salesforce to capture the following information for the renewal opportunity
 
 - Engage regularly with the CTO to re-validate top priorities
 - Review the 18-24 month plan and align the plan as necessary to the customer’s priorities

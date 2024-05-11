@@ -24,6 +24,7 @@ The intent of this review and collaboration workflow is not to "block" but to he
 - support from Product Operations for successful rollout to and adoption by the Product team
 
 #### Product Management Meeting (Bi-weekly)
+
 **DRI:** [Product Operations](/handbook/company/team/#fseifoddini) and [Chief Product Officer](/handbook/company/team/#david)
 
 - **What:** A bi-weekly team meeting for Product. All team members can add items to the agenda either as a Read-Only, or as a discussion item.
@@ -44,6 +45,7 @@ The intent of this review and collaboration workflow is not to "block" but to he
 All product team members are encouraged to add agenda items. The Chief Product Officer will prioritize the discussion items, and any items we can't get to in the allotted 50 min will be moved to the following meeting. If you are a Product team member and are unable to attend the call, you may add items for `READ-ONLY` to the agenda.
 
 #### Product Leadership Meeting (Weekly)
+
 **DRI:** [Chief Product Officer](/handbook/company/team/#david) and  [EBA to Chief Product Officer](/handbook/company/team/#gschwam)
 
 The Chief Product Officer and their direct reports track our highest priority Product Team initiatives. If one of those initiatives needs to be discussed synchronously the assigned individual should add it to the meeting's [GoogleDoc agenda](https://docs.google.com/document/d/1yN2n1ei24HiM5G7tBxaqK4yNPYreKpLZ3CG3nsEFOR4/edit#heading=h.384zmpcao5l6). Directors can delegate and coordinate cross-product initiatives as needed based on the issues in this board.
@@ -53,6 +55,7 @@ As part of this Product Leadership Meeting we also [review progress towards our 
 Non-public items for discussion should be added directly to the [agenda document](https://docs.google.com/document/d/1yN2n1ei24HiM5G7tBxaqK4yNPYreKpLZ3CG3nsEFOR4/edit#heading=h.384zmpcao5l6) for the meeting.
 
 #### Section Performance Indicator Review (Monthly)
+
 **DRI:** Appropriate [Product Section](/handbook/product/categories) Leader & [Senior Director, Product Monetization](/handbook/company/team/#justinfarris)
 
 - **What:** A monthly meeting for [Product  Sections](/handbook/product/categories/#devops-stages) to provide updates on  Performance Indicators, inclusive of their Stages and Groups and the cross-functional team. The main deliverable from the team is for each group to clearly show what they are doing in the next month to drive their metrics in the right direction.

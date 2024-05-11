@@ -26,7 +26,7 @@ Changes, in the context of this policy, are defined as **modifications** to the 
 While Tier 4 Administrative systems are not subject to the scope of this policy, team members are encouraged to proactively adopt the requirements established by this policy across all systems, especially if there is a good probability that a system may move from a `Tier 4 Administrative` system to a [higher system tier]({{< ref "critical-systems" >}}) handbook page.
 {{% /note %}}
 
-### Applicable Change Management Procedures:
+### Applicable Change Management Procedures
 
 In conjunction with this policy, supplemental change management procedures are formally documented to describe the standard operating procedure/workflow for executing changes in accordance with this policy and the [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}}). GitLab's current change management procedures are listed below for reference, including a brief statement on the applicable scope for each change procedure. Additional information on scope is provided directly on each respective procedure's handbook page:
 

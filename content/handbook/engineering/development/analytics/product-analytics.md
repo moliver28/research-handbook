@@ -22,11 +22,12 @@ How we design:
 - We dogfood Product Analytics to measure and test the impact of each product iteration.
 
 Learn more about what we work on and the problems we are solving on our public [direction page](https://about.gitlab.com/direction/analytics/product-analytics/).
+
 ## Team members
 
 {{< stable-counterparts role="Monitor:Product Analytics|Group(.*)Analytics" >}}
 
-## Onboarding engineer? Start here.
+## Onboarding engineer? Start here
 
 Welcome! Start by familiarizing yourself with the [developer onboarding guide](/handbook/developer-onboarding/). After that you'll need to set up a few things specific to the Product Analytics team.
 
@@ -52,15 +53,15 @@ Follow the [GDK documentation](https://gitlab.com/gitlab-org/gitlab-development-
 
 We have dedicated Slack channels for the Product Analytics group:
 
-* `#g_monitor_product_analytics` for general posts.
-* `#g_monitor_product_analytics_daily` for our daily asynchronous stand-ups.
-* `#g_monitor_product_analytics_frontend` for the monthly frontend retrospective and kickoff.
-* `#g_monitor_product_analytics_infra_alerts` for infrastructure alerts.
+- `#g_monitor_product_analytics` for general posts.
+- `#g_monitor_product_analytics_daily` for our daily asynchronous stand-ups.
+- `#g_monitor_product_analytics_frontend` for the monthly frontend retrospective and kickoff.
+- `#g_monitor_product_analytics_infra_alerts` for infrastructure alerts.
 
 ### Meetings
 
-* Our weekly sync meeting switches fortnightly on Tuesdays between EMEA/AMER (1400UTC) and AMER/APAC (1930UTC) friendly times. Attendance is not mandatory (although encouraged, if you are available) and the meeting is recorded on GitLab Unfiltered. You can find the meeting link in the `#g_monitor_product_analytics` channel.
-* All analytics meetings can be found by searching for the `Analytics Shared` meeting room in Google calendar and all GitLab team members are welcome to join.
+- Our weekly sync meeting switches fortnightly on Tuesdays between EMEA/AMER (1400UTC) and AMER/APAC (1930UTC) friendly times. Attendance is not mandatory (although encouraged, if you are available) and the meeting is recorded on GitLab Unfiltered. You can find the meeting link in the `#g_monitor_product_analytics` channel.
+- All analytics meetings can be found by searching for the `Analytics Shared` meeting room in Google calendar and all GitLab team members are welcome to join.
 
 ## How we work
 

@@ -111,7 +111,7 @@ My roadmap and vision can be found [here](https://gitlab.com/groups/gitlab-com/g
 
 These tools make my day, every single day. I would have a really hard time working without:
 
-#### Alfred:
+#### Alfred
 
 [Alfred](https://www.alfredapp.com/) is a productivity app for mac. It's a blazing-fast application
 launcher with some nice extra features. The best is the [clipboard

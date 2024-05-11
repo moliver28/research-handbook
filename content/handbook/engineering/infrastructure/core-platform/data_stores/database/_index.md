@@ -75,7 +75,7 @@ We decided to use merge request count as an issue weight for a few reasons:
 
 1. Add the count as a weight. For example, if you think there could be one to gitlab for database changes, one for new functionality, one for documentation changes, and one to omnibus - you would assign `/weight 4`
 
-#### Timeline for implementation:
+#### Timeline for implementation
 
 15.4 - 15.7: We'll ping each issue in the milestone without a weight and ask folks to add one to collect data
 15.8 +: TBD

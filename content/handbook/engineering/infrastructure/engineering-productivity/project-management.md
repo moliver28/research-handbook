@@ -89,6 +89,7 @@ The async update comment should include:
 - it could be good to specify the relevant dependencies in the update, if there are multiple people working on it
 
 Example:
+
 ```
 **Status**: 20% complete, 75% confident
 
@@ -98,6 +99,7 @@ Expecting to go into review tomorrow.
 Include one entry for each associated MR
 
 Example:
+
 ```
 **Issue status**: 20% complete, 75% confident
 

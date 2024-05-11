@@ -27,6 +27,7 @@ In my professional life I am interested in all things related to agile and lean 
 - [Coaching and mentoring](/handbook/people-group/learning-and-development/mentor/)
 
 ### More about me
+
 - [LinkedIn profile](https://www.linkedin.com/in/sanderbrienen/)
 - [GitLab profile](https://gitlab.com/sbrienen)
 

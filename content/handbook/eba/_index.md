@@ -15,7 +15,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
 | [Finance](/handbook/finance/) | **Darci Tadich**<br>Staff EBA |  Brian Robins (CFO) |
 | [Finance](/handbook/finance/) | **OPEN**<br> EBA| Erin Mannix (Chief Accounting Officer)<br>Jim Gladen (VP of Tax)<br>Brijen Joshi (VP of Internal Audit) |
-| [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations)
+| [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations) |
 | [Legal](/handbook/legal/) | **Sharlene Seemungal**<br>Staff EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
 | [Legal](/handbook/legal/)  | **Lauren Lopez**<br>EBA  | Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (Sr. Director of Legal & Corporate Affairs, Corporate)<br>Stacy Cline (Sr. Director of ESG)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
 | [Marketing](/handbook/marketing/)| **Laura Vickerman**<br> Sr EBA | Ashley Kramer (CMSO) |
@@ -25,7 +25,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) |
 | [Product](/handbook/product/) | **Jennifer Garcia**<br>EBA | Justin Farris (VP of Product Management)<br>Hillary Benson (Sr Director of Product Management)<br>Mike Flouton (VP of Product Management) |
 | [Sales](/handbook/sales/) | **Alexa Schrauth**<br>Staff EBA | Chris Weber (CRO) |
-| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) | <br> Kevin Lake (VP of Professional Services & Education)
+| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
 | [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Jake Bielecki (VP of Field Operations) <br> Patty Cheung (VP of WW Channels & Alliances) |
 | [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of Public Sector Sales) <br> Darren Moffett (VP of AMER Sales) |
 | [Security](/handbook/security/) | **Marisa Carlson**<br>Sr EBA  | Josh Lemos (CISO) |
@@ -218,7 +218,7 @@ More information can be found [here](/job-families/people-group/executive-busine
 
 ## Signature Request procedure
 
-### When requesting a wet signature for a document(s) please have the following questions answered in advance.
+### When requesting a wet signature for a document(s) please have the following questions answered in advance
 
 1. Is there an issue? If there is more than two documents you may want to consider creating an issue to track progress
 1. What is this for?
@@ -233,13 +233,13 @@ More information can be found [here](/job-families/people-group/executive-busine
 1. When is this due?
 1. Where should the originals be sent? Include the recipient's name, company name, address and phone number.
 
-### Specific directions for signature request:
+### Specific directions for signature request
 
 - Indicate page numbers of document where signature is required, per document. For example Jane Doe is required to sign pages 3, 5 in two places and 8.
 - If there is more than one signature line on the signature page without details (name / company name) please indicate where to sign.
 - Should the document be dated? If yes, are we using the date the document is actually signed or different date? If we are using a different date please explain why.
 
-### Directions for executed documents:
+### Directions for executed documents
 
 - Scan and upload to Google drive?
 - Scan and email?

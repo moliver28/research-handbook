@@ -25,7 +25,7 @@ The agenda should include discussions that are:
 
 While attendees will include this list of folks, there will be conversations that are most relevant to a sub-set of people. In these cases, calendars will specify who is "recommended" and who is "optional." In some instances, E-Group members may be among the list of optional attendees.
 
-#### Roles
+### Roles
 
 **Executives** are committed to working through difficult discussions and problems during the event.
 They commit to being active participants by proposing topics to the agenda before hand and being executive sponsors for those discussion topics.
