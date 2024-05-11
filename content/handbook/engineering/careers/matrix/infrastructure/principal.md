@@ -23,7 +23,7 @@ Principal-level engineers in infrastructure are significantly driving the depart
 
 1. Collaboratively leads the group's technical direction, making use of GitLab features and the team's technical experience to maintain a visible path that connects teams to the department direction. Actively invites feedback to generate the best possible solution.
 1. Significantly contributes to company success by proposing practical group objectives that are pragmatic and move towards the company direction. Works with teams, EMs and Directors to gain buy-in and agree on effective implementation plans. 
-1. Uses hands-on tasks to live and help improve the department's processes around async communication and documentation to continually drive department efficiency. 
+1. Uses hands-on tasks to help improve the department's processes around async communication and documentation to continually drive department efficiency. 
 1. Recognises and maintains high engineering standards within the department by using their own work to demonstrate what "good" looks like, setting review standards and contributing to wider technical discussions and decisions. 
 1. Helps teams to understand the current application, tools, and processes, and pragmatically leads the group towards the department's strategic goals with useful iterations of work. Creates [dogfooding](/handbook/values/#dogfooding) opportunities where possible, documents the gaps and engages with Engineering and Product DRI's where not. 
 1. Continues to grow technical skills and looks outside of GitLab to understand and contribute to industry best practices and common challenges. 
