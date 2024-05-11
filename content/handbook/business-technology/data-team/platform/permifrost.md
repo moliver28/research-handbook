@@ -41,23 +41,23 @@ Permifrost is a Python tool for managing permissions on a Snowflake data warehou
     * That is, if entire roles are removed from the `roles.yml` file, it will **not** delete them from Snowflake
 
 
-## Contributing 
+## Contributing
 
 ### Development
 
 Follow these steps to create and prepare your virtual environment.
 
 ```bash
-# create a virtualenv
+## create a virtualenv
 python -m venv ~/.venv/permifrost
 
-# activate your virtualenv
+## activate your virtualenv
 source ~/.venv/permifrost/bin/activate
 
-# install dependencies
+## install dependencies
 pip install -r requirements.txt
 
-# pip3 install all the development dependencies
+## pip3 install all the development dependencies
 pip install -e '.[dev]'
 ```
 
@@ -76,7 +76,7 @@ We set a goal to release a new version of Permifrost at least twice per year. Me
 
 #### Versioning
 
-Permifrost uses [Semantic Versioning 2.0.0](https://semver.org/) as its version number scheme. 
+Permifrost uses [Semantic Versioning 2.0.0](https://semver.org/) as its version number scheme.
 
 #### Workflow
 
@@ -99,14 +99,14 @@ graph TD
         RFC--Create an issue-->ISSUE[Issue]
         MR[Merge request]
         MRD[Work is done]
-    end  
+    end
     subgraph Permifost maintainer
         VAL[Validate issue]
         APR{Code is approved?}
         APR_YES--Release-->PyPi[PyPi]
         PyPi--share info about new release-->END
     end
-    
+
 ```
 
 

@@ -17,7 +17,7 @@ This document is concerned with the `Deprecate and remove analyzers` step. All t
 
 ### Analyzer Deprecation
 
-#### 1. Deprecate the analyzer job in `SAST.latest.gitlab-ci.yml` 
+#### 1. Deprecate the analyzer job in `SAST.latest.gitlab-ci.yml`
 
 Submit an MR to update the [`SAST.latest.gitlab-ci.yml`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST.latest.gitlab-ci.yml) file by substituting the analyzer's entry with a placeholder. The placeholder message should provide a notice about when the analyzer's deprecation was announced and when it was removed. Be sure to include a hyperlink directing users to the corresponding deprecation issue for further details. Additonally, ensure the placeholder never runs by adding `when: never` to `rules`.
 
@@ -54,7 +54,7 @@ Example of analyzer removal from documentation: https://gitlab.com/gitlab-org/gi
 
 #### 2. Add analyzer to ".End of supported analyzers" section of SAST documentation
 
-All analyzers that are no longer supported should be listed in the [end-of-supported-analyzers](https://docs.gitlab.com/ee/user/application_security/sast/#end-of-supported-analyzers) section of the SAST documentation. 
+All analyzers that are no longer supported should be listed in the [end-of-supported-analyzers](https://docs.gitlab.com/ee/user/application_security/sast/#end-of-supported-analyzers) section of the SAST documentation.
 
 #### 3. Update the analyzer projects README.md
 
@@ -67,7 +67,7 @@ This analyzer is currently in terminal maintenance mode. No new major versions w
 We've migrated this analyzer's scanning coverage to the GitLab SAST [Semgrep-based analyzer](https://gitlab.com/gitlab-org/security-products/analyzers/semgrep).
 ```
 
-#### 4. Remove the analyzer job in `SAST.gitlab-ci.yml` 
+#### 4. Remove the analyzer job in `SAST.gitlab-ci.yml`
 
 Submit an MR to update the [`SAST.gitlab-ci.yml`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST.gitlab-ci.yml) file by substituting the analyzer's entry with a placeholder. The placeholder message should provide a notice about when the analyzer's deprecation was announced and when it was removed. Additionally, be sure to include a hyperlink directing users to the corresponding deprecation issue for further details.
 
@@ -77,4 +77,4 @@ Example analyzer removal MR: https://gitlab.com/gitlab-org/gitlab/-/merge_reques
 
 #### 5. Resolve all current vulnerabilities
 
-Vulnerabilities created by an analyzer that has been removed should have their state set to resolved. 
+Vulnerabilities created by an analyzer that has been removed should have their state set to resolved.

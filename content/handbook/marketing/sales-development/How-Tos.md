@@ -10,14 +10,14 @@ While the contents below are meant to get you up to speed quickly, we also have 
 
 ## Where to find your leads and accounts
 
-Inbound leads get automatically imported to SFDC by the Sales Operations team, you can find links to their handbook pages on our [main page](https://handbook.gitlab.com/handbook/marketing/sales-development). 
+Inbound leads get automatically imported to SFDC by the Sales Operations team, you can find links to their handbook pages on our [main page](https://handbook.gitlab.com/handbook/marketing/sales-development).
 
 To find and access your leads, please:
 
- 1. Navigate to SFDC's homepage 
- 2. Click on the `Leads` tab.  
- 
- You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/). 
+ 1. Navigate to SFDC's homepage
+ 2. Click on the `Leads` tab.
+
+ You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/).
 
 ### SDR Lead Views
 
@@ -58,7 +58,7 @@ To find and access your leads, please:
 | B2 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
 | B3 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
 | B4 - BDR Recycle Date Past due (Clone)       | Show AWA accounts where the Recycle Date is in the past two weeks.                                                                                |
-| B5 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date.     
+| B5 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date.
 
 ## How to do Lead Database Management
 
@@ -72,7 +72,7 @@ As part of your SDR responsibilities, you are expected to perform due diligence 
 | 3    | Check the `Matched Account Info` section on the lead record.                                                                                       |
 | 3a    | - For SMB leads, if there's a matched account where the type is `Customer`, please press the `Convert` button at the top of the lead page and match this lead to the existing account.                                       |
 |  3b    | - If there's not a customer record but you find an existing open opportunity, update the `Lead Status` to `Recycle` and `Recycle Reasons` to `Evaluating.`                |
-|  3c    | - For Universities/Education leads (non-US Pub Sec), work as regular lead if technical contact.                                         | 
+|  3c    | - For Universities/Education leads (non-US Pub Sec), work as regular lead if technical contact.                                         |
 | 3d    | - If there's a matched account, check if the field `BDR Prospecting Status` is `Actively Working` and, if so, reroute the lead to the team mentioned on the `BDR Assigned` field.                                                               |
 |  3e    | - If the existing account is not marked as `Actively Working`, check for duplicate leads or contacts and merge if necessary while keeping the oldest `Initial Source`.                            |
 | 3f | - If the `Company Address` fields on the lead record do not match your research online of the company, please update the `Admin Company Override fields` that are found in the `Lead/Contact Review Admin` section. As a further fail-safe step, you'll be asked to verify that this due diligence is done prior to converting this person to a new account. |
@@ -82,11 +82,11 @@ As part of your SDR responsibilities, you are expected to perform due diligence 
 | 6   | Qualified leads associated with “Actively Working” accounts are routed to BDR assigned to the Actively Working Account.                |
 
 
-### Company Address Based Routing Information 
+### Company Address Based Routing Information
 
-In **[this video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered)**, a member of the Marketing Ops team goes over the Company address fields and how they are used for Accounting Routing and Opp assignment. 
+In **[this video](https://www.youtube.com/watch?v=QT-oOceFU6k&ab_channel=GitLabUnfiltered)**, a member of the Marketing Ops team goes over the Company address fields and how they are used for Accounting Routing and Opp assignment.
 
-If you need to do edits to the database by merging leads together for any of the above steps, please reference the videos below for an explanation. 
+If you need to do edits to the database by merging leads together for any of the above steps, please reference the videos below for an explanation.
 
 ### Merging Leads
 
@@ -95,13 +95,13 @@ If you need to do edits to the database by merging leads together for any of the
 | [How to Merge Leads Together](https://www.youtube.com/watch?v=Q_EyDQdaLZw&ab_channel=GitLabUnfiltered)                     |
 | [How to Merge a Lead and a Contact Together](https://www.youtube.com/watch?v=qHrCyKiNwDQ&ab_channel=GitLabUnfiltered)      |
 
-### Chatter Guide for Troubleshooting 
+### Chatter Guide for Troubleshooting
 
-If you'd like the assistance of another person or team, you can use SFDC chatter on the lead record. Please reference the guide below: 
+If you'd like the assistance of another person or team, you can use SFDC chatter on the lead record. Please reference the guide below:
 
 | Problem                                                | Who to Chatter                                                                   |
 |--------------------------------------------------------|----------------------------------------------------------------------------------|
-| A SMB/MM Contact Request and the account is a customer | Chatter the Account Owner and inform them of the context of the message.          |                                                      
+| A SMB/MM Contact Request and the account is a customer | Chatter the Account Owner and inform them of the context of the message.          |
 | A BDR receives an MQL Lead that is not from an Actively Working Account | Chatter @mktops                                                        |
 | If you feel a lead has been misrouted                 | Chatter @mktops                                                                  |
 | There is a Duplicate Account                           | Chatter Sales Support and ask them to merge the accounts.                         |
@@ -130,11 +130,11 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 
 | Step | Notes |
 |------|--------------|
-| 1    | Determine if the lead qualifies for a high touch or low touch sequence. | 
-| 1a | - High touch sequences are for higher-quality leads and require more personalization and touch points, including phone calls and LinkedIn Connect requests. This should be the majority of your pipeline. | 
+| 1    | Determine if the lead qualifies for a high touch or low touch sequence. |
+| 1a | - High touch sequences are for higher-quality leads and require more personalization and touch points, including phone calls and LinkedIn Connect requests. This should be the majority of your pipeline. |
 | 1b | - Low touch sequences are typically automated and run for a shorter period of time. You can use Low-touch for leads where a phone number cannot be found online or in our databases, or where their contact information is incomplete and cannot be enriched by our tools, or through manual research. Low touch should only be reserved as the last resort. |
-| 2    | Research the appropriate outreach collections for relevant collateral to be used. Most typically our [High-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc) or [Low-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc) collections. | 
-| 
+| 2    | Research the appropriate outreach collections for relevant collateral to be used. Most typically our [High-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc) or [Low-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc) collections. |
+|
 
 ### Cold-Calling and Email Checkbox
 
@@ -170,12 +170,12 @@ Leads with certain criteria will be automatically labeled as **Do Not Call** and
 | 7 | If you are not working on qualifying this lead further, manually change the status to `Recycle` so that this lead is back in Marketing recycle and isn’t stuck in your `My Qualifying` view. If you have spoken to the lead by phone and are qualifying them, manually change the status from `Accepted` to `Qualifying`. |
 | 8 | When looking at your qualifying view, sequence leads that have no recent last activity + no active tasks + are not actively being sequenced into one of our follow up sequences that have the `Follow up Ruleset Sequences`. |
 | 9.   | Tasks and your pipeline can be then managed via the Outreach [360 view.](https://support.outreach.io/hc/en-us/articles/214806328-Navigating-the-360-View-Dashboard) |
-| 10.   | In the 360 View, review the list of inbound leads assigned to you by navigating to the bottom left of the screen and pressing Start tasks.                                             |   
+| 10.   | In the 360 View, review the list of inbound leads assigned to you by navigating to the bottom left of the screen and pressing Start tasks.                                             |
 | 19 | If a lead finishes an Outreach sequence without responding, the lead status will automatically change to `Unresponsive` or `Recycle` in seven days if there is still no response. |
 | 20 | If a lead responds, schedule a call/meeting using Outreach’s meetings feature. |
 | 21 | Manually change lead status if you don’t use an Outreach sequence to reach out to someone or if you need to unqualify a lead for bad data etc. |
 | 22 | If you check the Inactive lead or Inactive contact checkbox, signifying that this person no longer works at the company, any running sequence will automatically be marked as finished. |
-| 23 | If you notice your leads are being reassigned to Inquiry Queue, that’s due to a scheduled clean up job in Traction that updated `Status = Inquiry` to Inquiry Queue. To resolve this, add your leads to an Outreach sequence. Note: The scheduled clean up runs daily at 10:30 PM EST/EDT. | 
+| 23 | If you notice your leads are being reassigned to Inquiry Queue, that’s due to a scheduled clean up job in Traction that updated `Status = Inquiry` to Inquiry Queue. To resolve this, add your leads to an Outreach sequence. Note: The scheduled clean up runs daily at 10:30 PM EST/EDT. |
 
 ### Outreach Collections
 
@@ -193,7 +193,7 @@ Ways to organize similar sequences and snippets
 
 A method of distinguishing sequences and snippets from others. Use tags to help narrow down which sequences you should be using in a particular situation
 
-#### Common Tag Examples:
+#### Common Tag Examples
 
 * **Primary-** a sequence created by SDR leadership that should be used by all reps to follow up with inbound leads
 * **High Touch/Low Touch-** Distinguish if the sequence is high or low touch
@@ -211,7 +211,7 @@ Content created for BDRS and SDRs to use to create hyper-personalized sequences,
      - [Objection Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=objection)
      - [Support Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=Support)
 
-### New Outreach Sequence/Workflow creation.
+### New Outreach Sequence/Workflow creation
 
 In an effort to better iterate, and refresh, our outreach content and workflows, we have a structured process for BDRs to create/measure new Outreach sequences.
 
@@ -260,7 +260,7 @@ The FO Outbound process is split in four phases, which should be followed on a w
 
 ### Planning Phase (4-5 hours/week)
 
-**1A. Create a set of achievable objectives** 
+**1A. Create a set of achievable objectives**
 
 These goals should be based on what you know you can achieve when focusing on First Order accounts. It is particularly important to know your equation so you can map your activities to specific outcomes and goals in a predictable way.
 
@@ -385,7 +385,7 @@ To determine which prospects to enroll per account, please follow the steps belo
 - Determine which personas would most benefit from the specific value drivers by using our CoM documentation on HighSpot.
 - Run queries for the specific titles on ZoomInfo, and export to CRM.
 
-You should explore the specific personas you intend to target, such as: VPs, Directors, Developers, Security, Architecture, DevOps, DevSecOps, Procurement Officers, and IT Buyers. 
+You should explore the specific personas you intend to target, such as: VPs, Directors, Developers, Security, Architecture, DevOps, DevSecOps, Procurement Officers, and IT Buyers.
 
 Determine the number of prospects you plan to add to sequences, with a minimum of 25 per day. Utilize LinkedIn Sales Navigator, ZoomInfo or Cognism to identify these personas within your target companies.
 
@@ -403,9 +403,9 @@ Use the format found on this template
 Copy-Paste the Structure to the BDR Account Research field and populate accordingly.
 Populate the BDR Next Step Date to be at the end of the account’s sequence length (typically one month out)
 
-### 6. Maintaining a clean pipeline, and using BDR fields for cross-functional collaboration.
+### 6. Maintaining a clean pipeline, and using BDR fields for cross-functional collaboration
 
-To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Watch and Help. 
+To review your current pipeline, along with any leads with next steps, please refer to your segments dashboards by going to SFDC > Dashboards and searching for Watch and Help.
 
 Team specific variants of these dashboard components will also be found on your team’s dashboard. These dashboards will give you a bird’s eye view of what actions are required from to maintain a clean pipeline, in terms of: i. Accounts with BDR fields past due ii. Prospects with sequence steps past due iii. Prospects that have been moved to Qualifying status but have not had any outreach since.
 
@@ -456,7 +456,7 @@ If the opportunity is for a new group of users in a Large account where sales is
 
 ### Trial Extensions and Ultimate to Premium Downgrades
 
-To submit a trial extension ticket for a prospect you will navigate [to this internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and fill it out the form using the **"GitLab L&R internal request for global customers"** option and then select extend a gitlab.com trial. Keep in mind it only works for SaaS and not self-managed. 
+To submit a trial extension ticket for a prospect you will navigate [to this internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) and fill it out the form using the **"GitLab L&R internal request for global customers"** option and then select extend a gitlab.com trial. Keep in mind it only works for SaaS and not self-managed.
 
 You are also able to downgrade a Trial from Ultimate to Premium through the internal request form. You just have to choose "Change existing GitLab.com Trial plan"
 
@@ -466,7 +466,7 @@ In an effort to increase transparency as well as consistency in terms of credit 
 
 Participating and completing the audit on time is mandatory.
 
-Guiding principles: 
+Guiding principles:
 
 1. All activities must be logged and documented in Salesforce. <br>
 2. Timestamps for such activities will be audited and cannot be modified after the fact
@@ -475,14 +475,14 @@ Sourcing cases must be clearly documented. <br>
 
 **Mandatory SLA:** Audit and XDR response must be completed by the first day of the following month. Rulings will be completed by the management team by the end of the second day.  Invitations and pairing will be sent to the entire Sales Dev team the first week of the month. It is the responsibility of the team member to find a backfill to do their audit if they are unable to complete the audit within set timelines.
 
-### XDR'S RESPONSIBILITY:
+### XDR'S RESPONSIBILITY
 
-1. All activities must be logged in Salesforce. 
+1. All activities must be logged in Salesforce.
 Pro-actively flag opportunities with questions or created outside the standard process in the monthly [Audit Doc.](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0). Please note that there's a separate audit worksheet specific to the PubSec team that is shared separately for compliance reasons.
 
 Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, duplicate opp
 
-### AUDITOR'S RESPONSIBILITY:
+### AUDITOR'S RESPONSIBILITY
 
 1. Auditor needs to review all notes and time stamps related to the opportunity
 2. Auditor needs to log an activity #Audited on the activity record of the opportunity as mentioned below, this way we can track completion of monthly audit.
@@ -492,37 +492,37 @@ Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, 
 ensuring that the [RoE](https://handbook.gitlab.com/handbook/marketing/sales-development/#rules-of-engagement-quick-guide) was followed
 6. Flag in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0), any questions related to the audited opportunities.
 
-### AUDIT PROCESS:
+### AUDIT PROCESS
 
-Each month you will be assigned one of your peers to Audit. We will share a report with all the S1 opportunities created that month. SDRs will audit SDRs and BDRs will audit BDRs. We will do our best to pair people from the same segment however it is possible that you end up auditing someone from another segment. 
+Each month you will be assigned one of your peers to Audit. We will share a report with all the S1 opportunities created that month. SDRs will audit SDRs and BDRs will audit BDRs. We will do our best to pair people from the same segment however it is possible that you end up auditing someone from another segment.
 
-Once you’ve audited an opp, you will create a task by logging a call, choose “other” as type, and write “#Audited” in the subject line. If an opp needs more research, write “#Audited - Pending Review” and add this opp into the Audit Review spreadsheet. 
+Once you’ve audited an opp, you will create a task by logging a call, choose “other” as type, and write “#Audited” in the subject line. If an opp needs more research, write “#Audited - Pending Review” and add this opp into the Audit Review spreadsheet.
 
 [**Audit Process Video Walkthrough**](https://www.youtube.com/watch?v=ef8gFx0lR48)
 
-### AUDIT REVIEW (what to look for): 
+### AUDIT REVIEW (what to look for):
 
-| Action | Rationale | Coaching Opportunity | 
+| Action | Rationale | Coaching Opportunity |
 | ------ | ------ | ------ |
 | Opp creator    |    Our standard is to get to credited for creating opportunities that meet the qualification criteria.    |   When you set up a conversation with an AE, you should create the opportunity. If we see that an opp was created by an AE but has the SQS = Sales Dev Generated, there will need to be evidence of meaningful engagement by the Sales Dev rep prior to the opp being created.   |
-| For Web Direct opportunities, check timestamp and for two way meaningful engagement prior to the purchase       | Web Direct opportunities are people that bought directly from the store themselves without necessarily having being influenced by us.       |  Explain that our role in this company is to directly influence purchasing decisions through positive and purposeful interactions with prospects. Requesting credit when we have not added specific value to a prospect's journey diminishes the credibility of our team. | 
+| For Web Direct opportunities, check timestamp and for two way meaningful engagement prior to the purchase       | Web Direct opportunities are people that bought directly from the store themselves without necessarily having being influenced by us.       |  Explain that our role in this company is to directly influence purchasing decisions through positive and purposeful interactions with prospects. Requesting credit when we have not added specific value to a prospect's journey diminishes the credibility of our team. |
 | Check to see whether opportunity qualification fields are populated. | Marketing and Sales are expected to collaborate to move prospects down the funnel based on specific qualifiers. When it comes to Stage-0 opportunities these are the opportunity qualification fields. | It's common that individuals do not fill these fields in the name of agility. This however does not create accountability in progressing these prospects down the funnel in a predictable manner. |
-| Check the date of opportunity creation. | Creation of the opportunity should occur when you're engaged with the prospect and have begun the qualification process. There will sometimes be a child or related opp that needs to  be created based on needs discovered during the IQM with AE. Should that be the case, the created child/related opp should have the IQM activity as a related task on it. | Explain that creating opps as soon as engagement occurs will lead to better management of a BDRs/SDRs pipeline. | 
+| Check the date of opportunity creation. | Creation of the opportunity should occur when you're engaged with the prospect and have begun the qualification process. There will sometimes be a child or related opp that needs to  be created based on needs discovered during the IQM with AE. Should that be the case, the created child/related opp should have the IQM activity as a related task on it. | Explain that creating opps as soon as engagement occurs will lead to better management of a BDRs/SDRs pipeline. |
 | Check to see if there is a contact associated to the opp and that there's meaningful engagement prior to the opp being created. | Our standard process requires that we work specific leads and that we convert the main contact person to a contact/opportunity upon qualification. | Explain that this best practice will help with measuring and moving an opportunity further down the pipeline because of accurately being able to communicate the decision-making team from the prospect's side. |
 | If activity shows up on the record, and the activity is a connected call with notes, verify that the activity matches in Outreach. | Activities on SFDC can be edited freely and therefore questioned by our audit team. | Explain that Outreach is a SSoT that can be used as irrefutable proof of outreach. Even if other systems fail, Outreach is always used as the last back-up. |
 | If activity matches, check that activity happened in accordance with our Actively Working Rules Of Engagement (RoE). | Team members from both Sales and Marketing are expected to contribute pipeline only within their assigned territory. | Explain that making sure that being aligned to the RoE will not create any contigencies when measuring pipeline. |
 
-#### Typical Red Flags:
+#### Typical Red Flags
 
-1. Opportunity Source: Sales Qualified Source should be SDR generated if not validate that there is a sourcing case documented. 
-2. Created by: The XDR should create the opportunity, if not, there should be a written explanation 
+1. Opportunity Source: Sales Qualified Source should be SDR generated if not validate that there is a sourcing case documented.
+2. Created by: The XDR should create the opportunity, if not, there should be a written explanation
 3. Did the XDR set and complete a meeting on the same day without previous activity?
 4. Are there duplicate opportunities?
 5. Is NetARR missing?
 
 _Directors, Ops and JB will select random opps each month to audit and ensure audit process is being followed_
 
-#### Best practices to ensure credit for SAO:
+#### Best practices to ensure credit for SAO
 
 1. Sequence all leads if you’re reaching out
 2. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.

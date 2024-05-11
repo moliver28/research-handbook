@@ -116,7 +116,7 @@ Coaches meet with the entire cohort for either a specific session or multiple se
 | Sarah Bailey      | Sophia Manicor   |
 | Corina Patachia   | Christian Nnachi |
 
-#### How to Get Engaged with the Program!
+#### How to Get Engaged with the Program
 
 **If you are looking to coach or mentor Associate SAs** that are going through the program you can do so by helping the Associate SAs understand
 the value of different [GitLab categories within our stages](/handbook/product/categories/#hierarchy). Upon completion of Demo2Win, every week, the team is assigned a new Category to learn about and

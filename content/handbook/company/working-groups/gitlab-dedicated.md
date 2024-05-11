@@ -110,7 +110,7 @@ In addition to the [status process from Dedicated team page](/handbook/engineeri
 
 Below are the functional areas involved in this Cross-Functional Initiative as well as the Functional DRI representing that functional area.
 
-| Working Group Functions (alphabetical)  | Team Member        | Title
+| Working Group Functions (alphabetical)  | Team Member        | Title  |
 |-----------------------------------------|--------------------|--------------------------------------------------|
 | Functional Lead: Channel Partners       | Honora Duncan      | Senior Channel Services Manager                  |
 | Functional Lead: Comms & PMM            | Saumya Upadhyaya   | Principal Product Marketing Manager              |

@@ -172,6 +172,6 @@ Hash-based partitioning instead allows us to create a fixed number of partitions
 
 Hash-based partitioning is a static approach in context of partition creation and handling. As such, it is simpler to manage because we can simply create all partitions ahead of time and as part of the static database schema.
 
-------
+---
 
 Author: [Andreas Brandl](https://gitlab.com/abrandl)

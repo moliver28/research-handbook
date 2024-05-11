@@ -34,7 +34,7 @@ The historical spreadsheets (deprecated on 2020-10-16 and 2021-03-03) can be fou
 |IT Business Technology| Code Owners of Tech Stack; Advise Business and Technical Owners in supporting systems.
 |Security Risk|Help facilitate Tech Stack updates, including the [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis.html#business-impact-analysis) for new and existing systems.|
 
-## Tech Stack Definitions:
+## Tech Stack Definitions
 
 - **Business Owner**: The Business Owner is the individual(s) responsible for all budget and decision making around the tool. They should define how the tool is used and by whom. This person(s) usually has login access to the tool as `Owner` but login access isn't necessary in all cases. Please make sure you list individual people in this field, rather than teams.
 - **Technical Owner**: This may be the same as the Business Owner based on the nature of the system, for instance, if the system isn't centrally managed and or/requires little to no configuration. For systems that are centrally managed and/or heavily configured, the Technical Owner is someone with understanding of the application's architecture, functionality (including types of data involved), and overall criticality/impact to GitLab. Technical Owner(s) are typically `administrators` of a tool. This includes everyone with the administrative clearance to provision and deprovision access of a tool and/or as the technical expertise needed to manage it.
@@ -170,7 +170,7 @@ The main template is divided into two sections.  The first section is the [Offbo
 The second section is the [Tech Stack System Deprovisioning / Offboarding](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md#tech-stack-system-deprovisioning-offboarding-tasks-that-need-to-be-completed-within-5-days) section.  Update this section with the new system being added to the Tech Stack.  Use the format below to make the update:
 
 ```
-## Department that owns the new system. If new system is owned by multiple departments, list the department the main deprovisioner belongs to. Please make sure the department does not already exist within the template. If it does, ignore this header and just add the following information underneath the existing department header.
+## Department that owns the new system. If new system is owned by multiple departments, list the department the main deprovisioner belongs to. Please make sure the department does not already exist within the template. If it does, ignore this header and just add the following information underneath the existing department header
 
 #### <summary>Name of deprovisioner @usernameofdeprovisioner, Name of deprovisioner 2 @usernameofdeprovisioner2, etc. </summary>
 

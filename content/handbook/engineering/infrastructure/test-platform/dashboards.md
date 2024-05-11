@@ -3,7 +3,7 @@ title: "Test Platform Dashboards"
 description: "This handbook page serves as a central repository for all our Test Platform dashboard details"
 ---
 
-> In pursuit of a resilient, efficient, and fortified platform, our Test Platform sub-department provides instrumental support through the creation and maintenance of an array of dashboards. These critical tools capture detailed test health across the environments, flag performance anomalies, and contribute to rigorous test infrastructure. 
+> In pursuit of a resilient, efficient, and fortified platform, our Test Platform sub-department provides instrumental support through the creation and maintenance of an array of dashboards. These critical tools capture detailed test health across the environments, flag performance anomalies, and contribute to rigorous test infrastructure.
 
 ## Dashboards
 

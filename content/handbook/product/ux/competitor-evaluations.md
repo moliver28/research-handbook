@@ -34,7 +34,7 @@ To help determine the maturity of a category across industry more accurately, ou
 
 ## How to get started
 
-Start by creating a new issue using the [competitor evaluation issue template](https://gitlab.com/gitlab-org/competitor-evaluations/-/blob/master/.gitlab/issue_templates/Competitor%20Evaluation.md?ref_type=heads). The issue template includes a list of steps, as well as helpful links on how to go about completing an evaluation. 
+Start by creating a new issue using the [competitor evaluation issue template](https://gitlab.com/gitlab-org/competitor-evaluations/-/blob/master/.gitlab/issue_templates/Competitor%20Evaluation.md?ref_type=heads). The issue template includes a list of steps, as well as helpful links on how to go about completing an evaluation.
 
 ## Legal considerations
 

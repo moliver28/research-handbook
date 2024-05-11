@@ -147,12 +147,12 @@ We use a T-Shirt sizing approach for quickly sizing the work required to deliver
 
 | Size | Dedicated Person Time | Weight (issue points) | Examples |
 | :--: | :--: | :-- | :-- |
-| XS | 1/2 Day | 1 | Update existing handbook page. #data research/response. New Trusted Data Test. Opening AR to get access to a data source.
-| S | 1 Day | 2-3 | New handbook page; typical triage issue. New dashboard on top of existing models. Align on data scope for new data source.
-| M | 1 Week | 5-8 | New dashboard requiring new models. New data source with Stitch or Fivetran.
-| L | 2-3 Weeks | 13 | New fact table implementation & testing. Full XMAU solution.
-| XL | 1-2 Months | 26 | New Data Pump to new system. New Data Source with complex source API.
-| XXL | 2-4 Months | 52+ | New Dimensional Model subject area with New Data Sources.
+| XS | 1/2 Day | 1 | Update existing handbook page. #data research/response. New Trusted Data Test. Opening AR to get access to a data source. |
+| S | 1 Day | 2-3 | New handbook page; typical triage issue. New dashboard on top of existing models. Align on data scope for new data source. |
+| M | 1 Week | 5-8 | New dashboard requiring new models. New data source with Stitch or Fivetran. |
+| L | 2-3 Weeks | 13 | New fact table implementation & testing. Full XMAU solution. |
+| XL | 1-2 Months | 26 | New Data Pump to new system. New Data Source with complex source API. |
+| XXL | 2-4 Months | 52+ | New Dimensional Model subject area with New Data Sources. |
 
 ## Work Breakdowns
 

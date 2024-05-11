@@ -104,9 +104,9 @@ In case you need to change or reschedule your focus time, please notify your reg
 | ------------| -------------- | --------| ----------| ---------| -------|
 | Asmaa Hassan| 1:00 - 3:00 PM |  | | | 1:00 - 3:00 PM |
 | Katrin | | | | all day | |
-| Niklas |
-| Julius |
-| Paul |
+| Niklas | | | | | |
+| Julius | | | | | |
+| Paul | | | | | |
 | Olivier | 7:00 - 11:00 AM|||||
 
 **AMER Focus Time:**
@@ -115,11 +115,11 @@ In case you need to change or reschedule your focus time, please notify your reg
 | ------------| -------------- | --------| ----------| ---------| -------|
 | Harish | |  | | |  |
 | Davin Walker | | | | | |
-| Caleb Williamson |
-| Alejandro Guerrero |
-| Bo Carbonell |
-| Jio Castillo |
-| Jessie Lee |
+| Caleb Williamson | | | | | |
+| Alejandro Guerrero | | | | | |
+| Bo Carbonell | | | | | |
+| Jio Castillo | | | | | |
+| Jessie Lee | | | | | |
 
 **APAC Focus Time:**
 
@@ -127,6 +127,6 @@ In case you need to change or reschedule your focus time, please notify your reg
 | ------------| -------------- | --------| ----------| ---------| -------|
 | Matthew Badeau | | | 06:00 - 09:00 AM | 06:00 - 09:00 AM | |
 | James Reed | | | | | |
-| Shaik Azhar |
-| Sam Hewitt |
-| Justin Farmiloe |
+| Shaik Azhar | | | | | |
+| Sam Hewitt | | | | | |
+| Justin Farmiloe | | | | | |

@@ -44,11 +44,11 @@ Use a project issue and workflow to consistently capture **requests** and manage
 
 ```mermaid
 graph TD
-	A(["New Request &#128229;"]):::Open --> B(["Backlog &#129300;"]):::Open
-	B --> C(["Assigned &#129418;"]):::Open
-	C --> D["Completed &#128076;"]:::Close
-	A --> E["Transferred &#128666;"]:::Close
-	A --> F["Declined &#128721;"]:::Close
+    A(["New Request &#128229;"]):::Open --> B(["Backlog &#129300;"]):::Open
+    B --> C(["Assigned &#129418;"]):::Open
+    C --> D["Completed &#128076;"]:::Close
+    A --> E["Transferred &#128666;"]:::Close
+    A --> F["Declined &#128721;"]:::Close
   C --> G["Canceled &#128533;"]:::Close
   B --> G
 
@@ -113,13 +113,13 @@ The issue template, both describes the information that is needed to understand 
 
 ```mermaid
 sequenceDiagram
-	Requestor->>+Team: Can you support this
+    Requestor->>+Team: Can you support this
   participant Requestor
     Note right of Requestor: ::new_Request
-	Team->>Team: What is the priority of this request?
+    Team->>Team: What is the priority of this request?
     participant Team
     Note right of Team: ::Backlog
-	Team->>-DRI: Here is an item to work on!
+    Team->>-DRI: Here is an item to work on!
     participant Team
     Note right of Team: ::Assigned
   DRI-->>Requestor: I'm working on it

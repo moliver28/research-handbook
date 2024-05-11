@@ -14,7 +14,7 @@ description: "GitLab Data Team Organization"
 
 ---
 
-# Data Team Organization
+## Data Team Organization
 
 The Data Team Organization model is guided by three primary business needs:
 
@@ -29,6 +29,7 @@ Based on these needs, the Data Team is organized in the following way:
 1. **[Analytics Engineering](handbook/business-technology/data-team/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
 1. **[Data Platform & Engineering Team](/handbook/business-technology/data-team/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
 1. **[Data Science Team](/handbook/business-technology/data-team/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
+
 ## Data Pod Assignments
 
 | POD                       | Data Product Manager | Analytics Engineer                     | Data Analyst    | Data Scientist |
@@ -39,25 +40,25 @@ Based on these needs, the Data Team is organized in the following way:
 
 ## Analytics Engineering - Business Stable Counterpart Assignments
 
-| Department       | Functional Analytics Team         | Analytics Engineer      | 
-| ---------------- | --------------------------------- | ----------------------- | 
-| Sales            |  Revenue Strategy and Analytics   |  @snalamaru             | 
-| Marketing        |  Marketing Strategy and Analytics |  @snalamaru             | 
-| Finance          |  FP&A Analytics                   |  @chrissharp            | 
-| Customer Success |  CS Strategy and Analytics        |  @mdrussell             | 
-| Product          |  Product Data Insights            |  @mdrussell             | 
-| Engineering      |  Engineering Analytics            |  @michellecooper        | 
-| Security         |  Engineering Analytics            |  @michellecooper        | 
-| Support          |  N/A                              |  @michellecooper        | 
-| People           |  People Analytics                 |  @rakhireddy (ramping)  | 
+| Department       | Functional Analytics Team         | Analytics Engineer      |
+| ---------------- | --------------------------------- | ----------------------- |
+| Sales            |  Revenue Strategy and Analytics   |  @snalamaru             |
+| Marketing        |  Marketing Strategy and Analytics |  @snalamaru             |
+| Finance          |  FP&A Analytics                   |  @chrissharp            |
+| Customer Success |  CS Strategy and Analytics        |  @mdrussell             |
+| Product          |  Product Data Insights            |  @mdrussell             |
+| Engineering      |  Engineering Analytics            |  @michellecooper        |
+| Security         |  Engineering Analytics            |  @michellecooper        |
+| Support          |  N/A                              |  @michellecooper        |
+| People           |  People Analytics                 |  @rakhireddy (ramping)  |
 
 ## Data Platform Team Stable Counterpart Assignments
 
 | POD | Data Engineer |
 | --- | ------------- |
 | Enterprise Metrics | @juwong |
-| Customer Intelligence | @rigerta | 
-| Customer Product Adoption | @rbacovic | 
+| Customer Intelligence | @rigerta |
+| Customer Product Adoption | @rbacovic |
 
 ### Manager, Data
 
@@ -88,14 +89,14 @@ The stable counterpart is expected to participate in the following meetings asyn
 1. Data Pod Iteration Planning Meetings.
 1. Data Pod Team Meetings.
 
-# Data Program Recruiting
+## Data Program Recruiting
 
 Recruiting great people is critical to our success and we've invested much effort into making the process efficient. Here are some reference materials we use:
 - a [GitLab Data Recruiting](https://youtu.be/4DlwsBIPxUw) video to say "Hi" and give you some insight into how we work and what we work on. Enjoy!
 - [Data Roles and Career Development](/handbook/business-technology/data-team/organization/#data-roles-and-career-development) to help existing team members and prospects understand growth opportunities
 - a [Take Home Test](/handbook/business-technology/data-team/organization/#data-roles-and-career-development) that we ask each candidate to complete; this test is good for the candidate and for us because it represents the type of work we perform regularly and if the candidate is not interested in this work it helps them make a more informed decision about their application
 
-# Data Roles and Career Development
+## Data Roles and Career Development
 
 ## Data Internships
 

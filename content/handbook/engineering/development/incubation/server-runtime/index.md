@@ -141,6 +141,7 @@ sequenceDiagram
     IDE ->> Sidecar Proxy: HTML/JS/Websockets
     Sidecar Proxy ->> User: Display IDE
 ```
+
 ### Handling event reconciliation and drift detection
 
 Coming soon!

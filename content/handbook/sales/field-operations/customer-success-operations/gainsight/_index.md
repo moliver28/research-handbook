@@ -22,14 +22,14 @@ description: "This page shows the data structure, integrations, and other techni
 
 All teams should use the `#gainsight-users` Slack Channel for questions or issues with Gainsight for quick attention. Customer Success Operations provides support for all Customer Success teams.
 
-#### Guidelines for CSOps teams assisting in addressing questions/concerns on the `#gainsight-users' channel:
+#### Guidelines for CSOps teams assisting in addressing questions/concerns on the `#gainsight-users' channel
 
 - For general Gainsight questions, start by exploring in system to see if you can find an obvious reason; some exaples include: simple setup questions, adding a filter or column to a report, straightforward reasons for a rule failing, etc.
 - For product usage reporting questions, loop in the SME who can usually support/address the concerns directly; the product usage reporting SME can decide if / when to loop in other team member as needed. SME: @nk312
 - For questions about Digital Customer Programs, please reach out to the SMEs: @mharris3 and @jgamboa;
 - For questions about Scale programs, process, operations, please reach out to Scale SME: @rgorbanescu
 
-#### What items can be handled via channel vs. an issue:
+#### What items can be handled via channel vs. an issue
 
 - Any questions that will take minimal amount of time to sort out (15-30 min) can be handled directly via the channel
 - If troubleshooting time piles up, ask to have an issue created

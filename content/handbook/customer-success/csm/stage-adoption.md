@@ -12,7 +12,7 @@ title: "Stage Adoption Metrics"
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-- - -
+---
 
 **2023-06-15 Note:** The approach described below is no longer in active use. The [Use Case Adoption Scoring](/handbook/customer-success/product-usage-data/use-case-adoption/) page should be referenced for thresholds and information on the methodology CSMs use for measuring adoption of use cases.
 {: .alert .alert-warning}

@@ -4,7 +4,7 @@ description: Support Operations policies page for labels and issue boards
 canonical_path: "/handbook/support/readiness/operations/docs/policies/labels_and_issue_boards"
 ---
 
-## How we use GitLab Labels:
+## How we use GitLab Labels
 
 The Support Readiness-Operations team uses labels to help us categorize and manage our work.
 
@@ -31,7 +31,8 @@ The table below provides a summary of all labels used by the Support Readiness t
 | ~"SupportOps::Completed" | Progress Label | Issue Tracker Project | Support Ops has completed the issue/MR |
 | ~"SupportOps::Blocked" | Progress Label | Issue Tracker Project | Support Ops is blocked from working the issue/MR |
 | ~"SupportOps::Backlog" | Progress Label | Issue Tracker Project | Support Ops has determined the issue/MR is needed, but is not able to prioritize it at this time |
-| ~"SupportOps::Triaged" | Progress Label |  Issue Tracker Project | The ticket has been triaged but still needs a progress label || ~"SupportOps::Needs Attention" | Group Label | Progress Label | Issue Tracker Project | The issue/MR is missing a progress label |
+| ~"SupportOps::Triaged" | Progress Label |  Issue Tracker Project | The ticket has been triaged but still needs a progress label |
+| ~"SupportOps::Needs Attention" | Group Label | Issue Tracker Project | The issue/MR is missing a progress label |
 | ~"Support-Ops-Priority::Urgent" | Priority| Issue Tracker Project | This is a system critical issue. The expected SLO for this is 3 days |
 | ~"Support-Ops-Priority::High" | Priority | Issue Tracker Project | The expected SLO for this is 7 days |
 | ~"Support-Ops-Priority::Normal" | Priority | Issue Tracker Project | The expected SLO for this is 14 days |

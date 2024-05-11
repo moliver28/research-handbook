@@ -3,7 +3,7 @@
 title: Level Up
 ---
 
-## Welcome to Level Up!
+## Welcome to Level Up
 
 This handbook page is meant to support both learners and administrators in Level Up. Thought Industries is the provider of the Level Up platform and is mentioned often in this documentation.
 

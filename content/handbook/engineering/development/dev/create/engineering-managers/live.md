@@ -22,12 +22,12 @@ The Create Engineering Managers lead by example.  This page shares how the EMs l
 
 - Development and implementation of Quarterly OKRs
 - Planning Sprints with Product Managers
-- Manage Employee Development 
+- Manage Employee Development
 - Propose Cross Team or Cross stage Initiatives
 - Strive for 70-80% Create Say / Do  Metrics
 - Participation in Working Groups
 - Regularly Review Dashboards
-- Host Team Retrospectives 
+- Host Team Retrospectives
 - Continuously refine and improve team processes based on feedback from Retrospectives, [Skip Level Meetings](/handbook/engineering/development/dev/create/engineers/skip-level/), 1-1’s, 360 Feedback and [Employee Engagement Surveys](/handbook/engineering/development/dev/create/engineers/engagement-survey/)
 - Support Team Members in their Employee Development
 
@@ -75,7 +75,7 @@ The Create Engineering Managers lead by example.  This page shares how the EMs l
 - Online Diversity Training for Engineering Managers (5+ hours)
 - [GitLab Diversity Inclusion And Belonging Certification & Training](/handbook/company/culture/inclusion/dib-training/)
 - [Bias toward Async communication](/handbook/company/culture/all-remote/asynchronous/)
-- Make Family feel welcome through activities such as [Family and Friends Day](/handbook/company/family-and-friends-day/), and  Create Team Day 
+- Make Family feel welcome through activities such as [Family and Friends Day](/handbook/company/family-and-friends-day/), and  Create Team Day
 
 ## Iteration
 

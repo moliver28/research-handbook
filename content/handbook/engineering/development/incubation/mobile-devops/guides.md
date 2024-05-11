@@ -15,7 +15,7 @@ A collection of simple guides to help getting started with Mobile DevOps.
 1. Click the `+` button next to `Identifiers`
 1. Select `App IDs`, and click `Continue`
 1. Click on the `App` type, and click `Continue`
-1. Input a description for the app, i.e. `My Sample App` 
+1. Input a description for the app, i.e. `My Sample App`
 1. Input an Explicit Bundle ID, i.e. `com.gitlab.my-sample-app`
 1. Select any `Capabilities` or `App Services` if your app needs them
 1. Click `Continue`
@@ -24,12 +24,12 @@ A collection of simple guides to help getting started with Mobile DevOps.
 ## How to create an App entry in App Store Connect
 
 1. Login to Apple App Store Connect and go to [https://appstoreconnect.apple.com/apps](https://appstoreconnect.apple.com/apps)
-1. Click the `+` button next to `Apps` and select `New App` 
+1. Click the `+` button next to `Apps` and select `New App`
 1. On the pop up, select the app's platform(s)
 1. Input the name of the app (must be unique), i.e. `My Sample App 123`
 1. Select the primary language
 1. Select the Bundle ID from the list
-1. A SKU is required, and can be any value you like 
+1. A SKU is required, and can be any value you like
 1. Select the User Access level, and click `Create`
 1. Once the app has been created, you'll be redirect to the app configuration page. This page contains all the details about the app, and additional configuration options.
 

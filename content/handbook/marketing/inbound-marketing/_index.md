@@ -12,7 +12,7 @@ twitter_creator: '@gitlab'
 
 
 
-# Inbound Marketing Overview
+## Inbound Marketing Overview
 
 
 Inbound Marketing exists to build, grow, and protect the business value created at the top of GitLab's marketing funnel. Through organic engagement with our content, both on the GitLab website and through other channels, we work to establish mindshare and relationships with existing and potential GitLab customers.
@@ -54,7 +54,7 @@ An inquiry is defined as:
     - Trial - GitLab.com
     - Inbound
 
-# Planning
+## Planning
 
 Inbound Marketing planning activities are organized in [this epic](https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/30). We currently plan on an annual and quarterly cadence, and are moving toward [planning two quarters in advance for H2 FY22](https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/362).
 
@@ -90,7 +90,7 @@ The brand and design team is now the Brand Activation team under Corporate Marke
 - [Requesting a video upload](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/digital-production/-/issues/new?issuable_template=upload-request)
     - Process documetation link placeholder
 
-# How we use GitLab
+## How we use GitLab
 
 ## Boards
 
@@ -150,7 +150,7 @@ Meanings and usage
     - Is used to denote the status of an issue as being reviewed to go into the working pipeline
     - Does not denote the timeline it will be worked on
 - `mktg-status::plan`
-    - Is used to denote the status of an issue as having being reviewed for all details needed 
+    - Is used to denote the status of an issue as having being reviewed for all details needed
     - No milestone nor assignee attached to the issue
     - Does not denote the timeline it will be worked on
 - `mktg-status::WIP`
@@ -161,7 +161,7 @@ Meanings and usage
                 - A weight of one is *half a day*
                 - As weights start to get bigger than 4,  we recommend chunking it down further
             - One Asignee
-                - We actively encourage only assigning one person to an issue. You may tag other affected parties within the issue itself by using @username within the issue thread. 
+                - We actively encourage only assigning one person to an issue. You may tag other affected parties within the issue itself by using @username within the issue thread.
 - `mktg-status::blocked`
     - Is used to denote the status of an issue as not having enough information to proceed
     - Does not denote the timeline it will be worked on
@@ -284,7 +284,7 @@ This is how we work with Issues and their scope
 
 ## Issue Templates
 
-#### External:
+#### External
 
 (outside of Inbound Marketing):
 
@@ -300,7 +300,7 @@ This is how we work with Issues and their scope
     - Template has auto-assignees
     - Links to Handbook page for additional information
 
-#### Internal:
+#### Internal
 
 (inside of Inbound Marketing):
 
@@ -319,9 +319,9 @@ This is how we work with Issues and their scope
     - Comment Close Issue that the project epic has been created
     - Build out necessary Issues in project, Associate with Epic, assign Issues and update Epic Description as needed with additional brief information
 
-# Process
+## Process
 
-# Video Playlists
+## Video Playlists
 
 In an effort to make async communication and collaboration as effective as possible, below are relevant playlists created by the Inbound Marketing teams. We welcome suggestions for additional playlists and videos that would help your team. Please request in our [slack channel](https://gitlab.com/gitlab-com/marketing/inbound-marketing)
 
@@ -331,14 +331,14 @@ In an effort to make async communication and collaboration as effective as possi
 - [Digital Experience Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba)
 - [Global Content Updates](https://www.youtube.com/playlist?list=PL05JrBw4t0KrzoCLxdlF5eJjh0JDgn4Qs)
 
-# Budget
+## Budget
 
 ## Budget Management
 
 - Allocadia is our SSoT for the budget
 - The budget is quarterized per team
 
-# Vendor Management
+## Vendor Management
 
 ### Vendor recruitment
 
@@ -413,6 +413,6 @@ If you know of a brand or digital vendor, whether “an agency of one” (aka fr
 - **Monthly vendor work report**
     - Add spend to Monthly Vendor Work Report and distribute to stakeholders for awareness. Stakeholders include Inbound leadership, Finance, and Marketing team leads working with vendors.
 
-- - -
+---
 
 Return to the main [Marketing Handbook](/handbook/marketing/).

@@ -3,9 +3,9 @@ title: Innovation Pitch Competion
 description: Information and guidelines about the Innovation Pitch Competition
 ---
 
-- - -
+---
 
-# Innovation Pitch Competition
+## Innovation Pitch Competition
 
 ## Concept & Goals
 
@@ -57,8 +57,8 @@ description: Information and guidelines about the Innovation Pitch Competition
 ## Competition marketing
 
 * GitLab made use of a [marketing package](https://docs.google.com/document/d/1TD12y4nptAuYbh9GSrTr7n-UZPzmHxytH4HuJKBSy9c) offered by DevPost.
-* GitLab social media strategy 
-* GitLab description marketing campaign 
+* GitLab social media strategy
+* GitLab description marketing campaign
 
 ## Judging Criteria and Process
 
@@ -71,7 +71,7 @@ description: Information and guidelines about the Innovation Pitch Competition
       * Feasibility
   * Extra informative criterion given to the jury members: Evaluate the contributor's ability to advance, execute, and potentially scale the project. It's crucial they possess the coding skills needed to further develop the proof of concept (POC) for additional funding.
   * Judges were given 5 working days (2024-02-29 - 2024-03-06) to evaluate the entries via a spreadsheet.
-  * The judging process occured in two phases. 
+  * The judging process occured in two phases.
       * In the first wave, nine judges with diverse backgrounds assessed the submissions. Their evaluations determined the initial selection, resulting in an initial ranking.
       * Following this initial wave, entries underwent further evaluation. The Chief Marketing Officer (CMO) and the VP of Developer Relations conducted an async voting session with the Director of Contributor Success to score these submissions.
       * The final scores were calculated by aggregating the assessments from all jury members.
@@ -88,7 +88,7 @@ description: Information and guidelines about the Innovation Pitch Competition
       * Dave Steer, VP, Brand & Product Marketing
       * Lis Vinueza, Analytics Engineer
 
-# Results and Winners
+## Results and Winners
 
 ## Participation Overview
 
@@ -98,9 +98,9 @@ description: Information and guidelines about the Innovation Pitch Competition
         1. Full Stack Developer (46.1%)
         2. Data Scientist (13.3%)
         3. Front-end and Back-end developers (both 9%)
-    * Main participants submissions topics: 
-        4. Social Impact (34.8%) 
-        5. AI (26.1%) 
+    * Main participants submissions topics:
+        4. Social Impact (34.8%)
+        5. AI (26.1%)
         6. CI/CD catalog (24.6%)
 
 ## Winner Announcement
@@ -117,7 +117,7 @@ description: Information and guidelines about the Innovation Pitch Competition
 * Public Vote Prizes: 3 Tier-3 GitLab swag packages for the first 3
 * GitLab had the option to provide winning projects with additional support or benefits beyond the prize money at its discretion. Winning projects were considered for additional support of up to $100,000 USD in value. Should any extra support be given, it would be managed under a separate agreement, independent of the competition's official rules.
 
-# Feedback and Observations
+## Feedback and Observations
 
 ## Participant Feedback
 
@@ -126,10 +126,10 @@ description: Information and guidelines about the Innovation Pitch Competition
 
 ## Judges' Insights
 
-Evaluating a submission and scoring it was less obvious for a few key reasons: 
+Evaluating a submission and scoring it was less obvious for a few key reasons:
 
 * A lack of specific product (hashtag) expertise.
-* No scheduled team collaboration during the judging period. 
+* No scheduled team collaboration during the judging period.
 * The complexity of measuring the 'impact' criterion. Some entries align perfectly with our current goals, while others could be influential if we shift our focus. How to fairly assess these varying potentials?
 
 ## Organizational Learnings
@@ -138,25 +138,25 @@ Evaluating a submission and scoring it was less obvious for a few key reasons:
 * The competition's launch was delayed, primarily due to unforeseen legal complexities. Given it was the event's first edition, these hurdles weren't attributable to any oversight. The legal framework's completion exceeded expectations in time, as aspects such as prize distribution, intellectual property rights, participant eligibility, licensing, and the overall procedural wording presented new challenges for GitLab.
 * Despite their high quality, the 4 AMA video sessions achieved limited success, marking the effort-to-value ratio as suboptimal.
 * Securing feedback and movie clips from jury members proved challenging. In the future, informing them to schedule more time for these additional tasks well in advance is advisable.
-* The final week of the competition, marked by jury scoring, deciding on winners, and orchestrating the GitLab Pitch Show, turned into an exceptionally intense period. The unique pressures of this first-time event, compounded by unforeseen circumstances, heightened the challenge. Amid this whirlwind and the GitLab Team's preparations for a team offsite, the stress reached a peak, leading to a minor hiccup in announcing the winners — a small misstep in an otherwise nail-biting week. 
+* The final week of the competition, marked by jury scoring, deciding on winners, and orchestrating the GitLab Pitch Show, turned into an exceptionally intense period. The unique pressures of this first-time event, compounded by unforeseen circumstances, heightened the challenge. Amid this whirlwind and the GitLab Team's preparations for a team offsite, the stress reached a peak, leading to a minor hiccup in announcing the winners — a small misstep in an otherwise nail-biting week.
 * At the time of writing the results of the Deep Dives are unknown.
 
-## Feedback of fulfillment partner DevPost:
+## Feedback of fulfillment partner DevPost
 
 * Overall very helpful.
 * The marketing package significantly boosted visibility within the DevPost community. Announcing through DevPost mailings led to a marked increase in traffic to the competition's website.
 * During the competition, a few minor miscommunications and unforeseen adjustments arose. Notably, a significant confusion occurred with the public vote announcement—publishing all legal and non-spam submissions, a number far exceeding those actually eligible. Clarifying the difference between "accepted" and "validated" submissions is essential, as it shapes the public voting process and the distribution of public prizes.
 
-# Impact Assessment
+## Impact Assessment
 
-## Achievement of Objectives: Evaluate whether the competition met its intended goals.
+## Achievement of Objectives: Evaluate whether the competition met its intended goals
 
 * Community engagement and innovation showcase initiative: This program was meticulously crafted to actively involve our community, ignite innovation, and spotlight creativity within our industry. It represents a significant milestone in our ongoing commitment to nurturing talent and acknowledging exceptional contributions.
 * Initial intent and adaptation: Originally, we aimed to establish Key Performance Indicators (KPIs). However, given that this was the inaugural edition, we lacked a baseline for comparison. Consequently, we made the deliberate decision not to set KPIs for this iteration.
 * Strategic learning and future preparedness: This edition was intentionally designed to maximize our learning experience, laying the groundwork for future editions. Alongside documenting internal processes, we meticulously analyzed topics of interest, participant profiles, and communication channels.
 * Evidence of success: Considering the impressive participation of 916 individuals, the influx of 482 new users who had never engaged with GitLab before, and the validation of 69 submissions, we confidently declare this edition a resounding success. Additionally, the quality of eligible submissions, heightened activity across various channels, and a remarkable 50% increase in contributions to the CI/CD catalog further reinforce this achievement.Details are available via a [separate document](https://docs.google.com/document/d/1f1P0mGEkgtwboUe5UJRolnyDUJ3WQ7q3wBTiUJQUK-k/edit?usp=sharing)
 
-# Future Recommendations
+## Future Recommendations
 
 ## Improvements
 
@@ -206,13 +206,13 @@ Projects poised to deliver significant benefits to the wider community, with str
     * Advancing company documentation by creating tools (guardrails) that detect bias or employ AI to refine search capabilities.
     * Leverage the power of AI to reduce carbon footprint or to improve the yield of alternative energy sources.
     * Create components aimed at achieving a more equitable distribution of intellectual property rights or providing assistance to the unbanked and uninsured.
-* **Beyond the Platform** initiatives that transcend the traditional boundaries of a coding community. For example advice on healthier living, tips to manage mental stress, and guidance for career growth. GitLab is not just about code and contributions; it’s about caring for you as a human being (see also: ‘Social Impact Specials’ above). This approach aligns perfectly with the GitLab ethos and is not a radical shift but a natural progression. 
+* **Beyond the Platform** initiatives that transcend the traditional boundaries of a coding community. For example advice on healthier living, tips to manage mental stress, and guidance for career growth. GitLab is not just about code and contributions; it’s about caring for you as a human being (see also: ‘Social Impact Specials’ above). This approach aligns perfectly with the GitLab ethos and is not a radical shift but a natural progression.
 
-# Closing
+## Closing
 
 ## Key points
 
-* The primary objective of the inaugural edition was to enhance contributor engagement on the platform, with a specific emphasis on the CI/CD component store, artificial intelligence, and social impact. 
+* The primary objective of the inaugural edition was to enhance contributor engagement on the platform, with a specific emphasis on the CI/CD component store, artificial intelligence, and social impact.
 * The competition achieved success in terms of both submission quality and quantity, establishing robust groundwork for subsequent editions and positioning GitLab favorably within the competitive landscape.
 
 ## Special thank you

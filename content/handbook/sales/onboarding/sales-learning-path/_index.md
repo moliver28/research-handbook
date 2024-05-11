@@ -17,7 +17,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 <details>
 <summary markdown="span">1. Welcome to GitLab Sales!</summary>
 
-### 1. Welcome to GitLab Sales!
+### 1. Welcome to GitLab Sales
 - **ACTIVITY: Let's Git To Know Each Other! (Assignment, 5 minutes, 1 Point - Pre Work)**
    - Please complete this brief [google form](https://docs.google.com/forms/d/e/1FAIpQLScXH3QSAcqUP4mRJsqUWbn7BUJS_SYJVjFg2oXqOoOwzBMzLA/viewform) to introduce yourself.
 - **What is GitLab? (Material - Video, 31 Minutes)**
@@ -394,7 +394,7 @@ Please take a moment to answer the questions in this short [quiz.](https://docs.
 
 ### 15. CSMs Only: Certifications to Complete and Lifecycle Processes
 
-#### Certifications:
+#### Certifications
 
 1. Success Plans
 1. Executive Business Reviews

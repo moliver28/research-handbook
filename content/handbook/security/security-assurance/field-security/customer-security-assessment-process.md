@@ -5,7 +5,7 @@ title: "GitLab's Customer Assurance Activities"
 
 If you would like to request security collateral which are under NDA, (such as SOC 2 Type 2, Pentest executive summary, etc.) please visit the [Trust Center](https://trust.gitlab.com/) and click on the request access button at the top right-hand corner.
 
-## Submit a Request!
+## Submit a Request
 
 
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/field-security-team/customer-assurance-activities/caa-servicedesk/-/issues/new?issuable_template=main_template" class="btn bg-primary text-white btn-lg">Customer Call Request</a>

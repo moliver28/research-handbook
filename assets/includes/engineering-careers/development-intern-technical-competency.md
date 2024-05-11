@@ -1,4 +1,5 @@
 ##### Development
+
 * Writes [tests](https://docs.gitlab.com/ee/development/testing_guide/best_practices.html) with every MR and works to uplift the quality of the code.
 * Proactively partners with mentor to solve technical challenges.
 * Asks for help when an Issue is taking longer to implement, works with the team to split the Issue into smaller Issues.

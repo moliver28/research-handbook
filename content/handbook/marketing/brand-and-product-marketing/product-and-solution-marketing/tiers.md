@@ -20,7 +20,7 @@ title: "GitLab tiers"
 1. License: open source vs. source-available, for example moving a feature from a source-available tier to an open-source tier.
 1. [Distribution](#history-of-ce-and-ee-distributions): self-managed CE vs. EE, for example you can have a EE distribution but in the Free tier.
 1. Version: the [release of GitLab](https://about.gitlab.com/releases/), for example asking what version a user is on.
-1. [Product Category](https://internal.gitlab.com/handbook/sales/deal-desk/product_category/_productcategory/): An internal field that identifies the primary product sold on an opportunity. 
+1. [Product Category](https://internal.gitlab.com/handbook/sales/deal-desk/product_category/_productcategory/): An internal field that identifies the primary product sold on an opportunity.
 
 ## Types of Users
 
@@ -84,7 +84,7 @@ See the [Tier Messaging](#tier-messaging) section for how to talk about GitLab, 
 
 Community Edition (CE) and Enterprise Edition (EE) refer to software distributions of GitLab. We used to encourage customers to use the EE distribution since it provided the least painful upgrade path if/when users discovered they needed commercial features. If you aren't talking specifically about the distribution packages, then don't use these terms, [you are probably using them incorrectly](/handbook/communication/top-misused-terms/#enterprise_edition).
 
-### Don't use CE/EE to refer to non-paid/paid **users**.
+### Don't use CE/EE to refer to non-paid/paid **users**
 
 Users can be on the EE distribution for free. Distribution doesn't imply if a user is a customer or not.
 
@@ -96,7 +96,7 @@ Users can be on the EE distribution for free. Distribution doesn't imply if a us
 
 ✅ Correct: "Let's run a marketing campaign to encourage Free users to upgrade to a paid tier."
 
-### Don't use CE/EE to refer to **tiers**.
+### Don't use CE/EE to refer to **tiers**
 
 GitLab has 3 tiers: Free, Premium, and Ultimate. Distribution doesn't imply which tier a user is on.
 

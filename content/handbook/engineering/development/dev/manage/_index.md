@@ -9,7 +9,7 @@ Manage is made up of multiple groups, each with their own features and areas of 
 
 * I have a question. Who do I ask?
 
-In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [product category](/handbook/product/categories/#manage-stage). 
+In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [product category](/handbook/product/categories/#manage-stage).
 
 GitLab team members can also use [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX).
 
@@ -53,10 +53,10 @@ This section lists relevant experience areas for individual contributors interes
 
 **Expert hiring manager**
 
-- Experience with behavioral interviews
-- Screening candidates for your team
-- Identifying cultural answers or clarifying vague answers
-- Identifying a headcount need in advance
+* Experience with behavioral interviews
+* Screening candidates for your team
+* Identifying cultural answers or clarifying vague answers
+* Identifying a headcount need in advance
 
 </details>
 
@@ -65,11 +65,11 @@ This section lists relevant experience areas for individual contributors interes
 
 **Performance management**
 
-- Crucial conversations
-- Performance improvement plans
-- Coaching on improvement areas
-- Giving feedback
-- Identifying underperformance
+* Crucial conversations
+* Performance improvement plans
+* Coaching on improvement areas
+* Giving feedback
+* Identifying underperformance
 
 </details>
 
@@ -78,8 +78,8 @@ This section lists relevant experience areas for individual contributors interes
 
 **Communicating company decisions**
 
-- Annual review, calibration sessions, compensation discussions
-- Motivating team members on opportunities that come with negatives (borrow requests, engineering allocations, feature change locks)
+* Annual review, calibration sessions, compensation discussions
+* Motivating team members on opportunities that come with negatives (borrow requests, engineering allocations, feature change locks)
 
 </details>
 
@@ -88,13 +88,13 @@ This section lists relevant experience areas for individual contributors interes
 
 **Product area**
 
-- Triage reports
-- Define and monitor productivity metrics, take action if necessary
-- Collaborative planning
-- Proactively identifying issues or recommending engineering allocations
-- Leading an incident in your area
-- Proposing and driving a borrow request (reactive)
-- Shared OKRs and delivery
+* Triage reports
+* Define and monitor productivity metrics, take action if necessary
+* Collaborative planning
+* Proactively identifying issues or recommending engineering allocations
+* Leading an incident in your area
+* Proposing and driving a borrow request (reactive)
+* Shared OKRs and delivery
 
 </details>
 
@@ -103,12 +103,12 @@ This section lists relevant experience areas for individual contributors interes
 
 **Team success**
 
-- Career growth development leading to promotions, mentors, technical interviews, maintainers
-- Setting goals based on 360 feedback and career aspirations
-- Smooth onboarding process
-- Frequent and transparent handbook updates
-- Identifying performance indicators for the team
-- Becoming a mentor
+* Career growth development leading to promotions, mentors, technical interviews, maintainers
+* Setting goals based on 360 feedback and career aspirations
+* Smooth onboarding process
+* Frequent and transparent handbook updates
+* Identifying performance indicators for the team
+* Becoming a mentor
 
 </details>
 
@@ -117,11 +117,11 @@ This section lists relevant experience areas for individual contributors interes
 
 **Achieving consensus**
 
-- Facilitating a working group
-- Participating in stage, sub-department, skip level, and/or engineering manager discussions
-- Coordinating the dev on-call
-- Experience with being Incident Manager On-Call ([IMOC](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities))
-- Collaboration with the full product group [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/)
+* Facilitating a working group
+* Participating in stage, sub-department, skip level, and/or engineering manager discussions
+* Coordinating the dev on-call
+* Experience with being Incident Manager On-Call ([IMOC](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities))
+* Collaboration with the full product group [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/)
 
 </details>
 
@@ -130,22 +130,22 @@ This section lists relevant experience areas for individual contributors interes
 
 **Personal growth**
 
-- Receiving feedback
-- Continued learning, identifying new growth opportunities, and building a personal growth plan
-- Seeking a mentor
+* Receiving feedback
+* Continued learning, identifying new growth opportunities, and building a personal growth plan
+* Seeking a mentor
 
 </details>
 
 
 #### Trainings offered by GitLab for EMs
 
-- [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate/)
-- [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
+* [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate/)
+* [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
 
 #### Other resources
 
-- Slack [#aspiring-managers](https://gitlab.slack.com/archives/C029TEKMDQ8) channel
-- [Handbook page](/handbook/engineering/development/dev/training/ic-to-manager/) dedicated to growing leadership skills for ICs
+* Slack [#aspiring-managers](https://gitlab.slack.com/archives/C029TEKMDQ8) channel
+* [Handbook page](/handbook/engineering/development/dev/training/ic-to-manager/) dedicated to growing leadership skills for ICs
 
 ### Staff Engineers
 
@@ -190,7 +190,7 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Dashboards
 
-- [Performance indicator overview](/handbook/engineering/metrics/dev/manage/)
+* [Performance indicator overview](/handbook/engineering/metrics/dev/manage/)
 
 ## Links and resources
 

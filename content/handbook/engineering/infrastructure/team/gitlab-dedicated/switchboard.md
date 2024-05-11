@@ -68,6 +68,7 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 ### Tracking & Planning Work
 
 #### Resources
+
 - [Switchboard team roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/roadmap?state=all&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=team::Switchboard&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=false)
 - [Switchboard team top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1048)
 - [Switchboard team issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard)
@@ -130,6 +131,7 @@ Switchboard team process to refine issues:
 1. If the implementation cannot be done in parallel, or there is a likely to be a meaningful delay between backend and frontend implementations, or if the backend can deliver value independently the issue should be split and the relationship clearly identified by linking the issues
 
 #### Issue & Epic tracking
+
 1. Engineers use Progress Threads to share progress in an async fashion
 1. At the beginning of the Switchboard Sync the team will check in on epics labelled ~"workflow-infra::In Progress" or ~"workflow-infra::Triage" to ensure due dates are appropriate and highlight any blockers
 1. Epic DRIs update the status in the Epic Description every Wednesday in preparation for the [Grand Review](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review)
@@ -188,14 +190,15 @@ the [Dedicated group principles](/handbook/engineering/infrastructure/team/gitla
 As the Switchboard team is currently small, we use an 'Approve and Merge' approach:
 
 1. When you're ready to have your merge request reviewed, select one or more [Switchboard reviewers](https://gitlab.com/groups/gitlab-dedicated/switchboard/reviewers/-/group_members).
-   * If you're not certain about who to choose, you can use the [reviewer roulette](#reviewer-roulette) to randomly select a reviewer.
-   * If the issue is labelled `technical writing` add the Switchboard technical writer as a reviewer
+   - If you're not certain about who to choose, you can use the [reviewer roulette](#reviewer-roulette) to randomly select a reviewer.
+   - If the issue is labelled `technical writing` add the Switchboard technical writer as a reviewer
 1. Reviewers will perform a review based on [reviewing a merge request guidelines](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request).
 1. If satisfied, a reviewer will approve and merge unless other reviewers have questions or suggestions that are not addressed.
 1. If the merge request contains the required approvals, the reviewer will trigger a pipeline and set auto-merge.
-   * If the reviewer does not have merge permission, they should seek out a maintainer for merging.
+   - If the reviewer does not have merge permission, they should seek out a maintainer for merging.
 
 ##### Additional UI Review Process
+
 In addition to the above when a change is being proposed to the UI the following extra steps should be followed:
 
 **UI changes visible to internal GitLab users:**
@@ -250,8 +253,8 @@ Reviewer roulette is an internal tool for use on GitLab.com projects that random
 
 There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab.com/gitlab-dedicated/switchboard):
 
-* All Switchboard team members are included in the `Reviewer` group.
-* When a team member is fully onboarded and feel confident in their knowledge of the codebase they are invited to the Maintainer group.
+- All Switchboard team members are included in the `Reviewer` group.
+- When a team member is fully onboarded and feel confident in their knowledge of the codebase they are invited to the Maintainer group.
 
 
 #### Epic Template
@@ -259,46 +262,46 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 <details><summary>Epic Template</summary>
 
 ```
-### DRI :levitate:
+### DRI :levitate
 - TBC
 
-### Participants :busts_in_silhouette:
+### Participants :busts_in_silhouette
 -
 
-### Problem to solve :thinking:
+### Problem to solve :thinking
 
-### Video Walkthrough from Product :video_camera:
+### Video Walkthrough from Product :video_camera
 
-### Intended users :bust_in_silhouette:
+### Intended users :bust_in_silhouette
 
-### User experience goal :goal:
+### User experience goal :goal
 
 
 <!-- Overview of user experience goal -->
 
-### UX Design Spec :paintbrush:
+### UX Design Spec :paintbrush
 - Figma Link:
 - Dev mode:
 - Any other details
 
-### Proposal :bulb:
+### Proposal :bulb
 
-### Open Questions :question:
+### Open Questions :question
 | Question | Added by | Discussion thread |
 |----------|----------|-------------------|
 |  |  |  |
 
-### Further details :mag:
+### Further details :mag
 
 Dependencies :link:
 
-### Permissions and Security :link:
+### Permissions and Security :link
 
-### Documentation :book:
+### Documentation :book
 
 * Publicly Accessible Documentation:
 
-### Epic Kick-Off :ballot_box_with_check:
+### Epic Kick-Off :ballot_box_with_check
 
 * [ ] Video walkthrough from Product outlining expectations
 * [ ] DRI identified
@@ -309,7 +312,7 @@ Dependencies :link:
 * [ ] Issue created to track Documentation requirements
 * [ ] Outstanding Questions captured in threads for resolution
 
-### Roll out Plan :speaker:
+### Roll out Plan :speaker
 <!--
 If visible to external customers please provide the following information:
     - What communication is required ahead of release?
@@ -320,7 +323,7 @@ If visible to external customers please provide the following information:
 -->
 
 
-### Links / references :books:
+### Links / references :books
 
 *
 
@@ -346,5 +349,6 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 /label ~"team::Switchboard" ~"workflow-infra::Triage"
 
 ```
+
 </details>
 

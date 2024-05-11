@@ -113,6 +113,6 @@ The remote community welcomes outreach from others working remotely. If you view
 
 To find remote-focused events that GitLab is hosting or participating in,  please check the main [GitLab Events](https://about.gitlab.com/events/) page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

@@ -5,13 +5,13 @@ title: "Scalability Group Project Management"
 
 ## Project Management
 
-The majority of our [project management process is described at the Platforms level](/handbook/engineering/infrastructure/platforms/project-management/)  and is shared between all SaaS Platform teams. 
-Please read this first. 
+The majority of our [project management process is described at the Platforms level](/handbook/engineering/infrastructure/platforms/project-management/)  and is shared between all SaaS Platform teams.
+Please read this first.
 
-This page describes the additions to the process described on the Platforms page. 
+This page describes the additions to the process described on the Platforms page.
 
 The single source of truth for all work is [Scaling GitLab SaaS Platforms epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148).
-We often refer to this as our top-level epic. 
+We often refer to this as our top-level epic.
 
 Epics that are added as children to the top-level epic are used to describe projects that the team undertakes.
 
@@ -56,7 +56,7 @@ planning board will move to the build board immediately.
 |--------------|-------------|
 | [Planning Board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697168) | [Build Board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160) |
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
-| ![Triage](img/label-triage.png)	<br/>![Proposal](img/label-proposal.png) <br/>![Ready](img/label-ready.png) | ![Ready](img/label-ready.png) <br/>![In Progress](img/label-in_progress.png) <br/>![Under Review](img/label-under_review.png) <br/>![Verify](img/label-verify.png) <br/>![Done](img/label-done.png)|
+| ![Triage](img/label-triage.png)    <br/>![Proposal](img/label-proposal.png) <br/>![Ready](img/label-ready.png) | ![Ready](img/label-ready.png) <br/>![In Progress](img/label-in_progress.png) <br/>![Under Review](img/label-under_review.png) <br/>![Verify](img/label-verify.png) <br/>![Done](img/label-done.png)|
 
 ## Labels
 

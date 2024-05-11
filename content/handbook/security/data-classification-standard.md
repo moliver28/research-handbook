@@ -11,7 +11,7 @@ The Data Classification Standard defines data type and categories and provides t
 
 The Data Classification Standard applies to all GitLab team members, contractors, consultants, vendors and other service providers that handle, manage, store or transmit GitLab data.
 
-## Roles & Responsibilities:
+## Roles & Responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|
@@ -110,7 +110,7 @@ Examples include:
 - Public announcements
 - [Public product information](https://docs.gitlab.com/ee/)
 
-### Data Classification Standards:
+### Data Classification Standards
 
 #### Credentials and access tokens are classified at the same level as the data they protect
 

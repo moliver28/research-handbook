@@ -4,7 +4,6 @@ description: The Manage Foundations team is responsible for foundational Fronten
 ---
 
 <!-- Common Links -->
-[engineering workflow]: /handbook/engineering/workflow/
 [GitLab]: https://gitlab.com/gitlab-org/gitlab
 [GitLab UI]: https://gitlab.com/gitlab-org/gitlab-ui
 [Pajamas]: https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com
@@ -24,7 +23,7 @@ We hope it's a good entry point to learn more about who we are and what we do.
 
 ## What do we work on?
 
- -  **Design System** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/design_system/))
+ - **Design System** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/design_system/))
 
     We are currently focused on integrating our design system, [Pajamas], into the GitLab product.
 
@@ -48,6 +47,7 @@ For more urgent items or if you are unsure who to ask, ping `@gitlab-org/manage/
 ### Capacity Planning
 
 In general, we use the standard GitLab [Product Development Flow](/handbook/product-development-flow/). Here are some specific workflows we use:
+
 #### How we weight issues
 
 We use a Fibonacci scale and in terms of complexity, we use [this table](https://www.scrum.org/resources/blog/practical-fibonacci-beginners-guide-relative-sizing) from Practical Fibonacci.

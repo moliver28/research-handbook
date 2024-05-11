@@ -40,7 +40,7 @@ It is important to note that Gainsight brings the entire account team onto a sin
 - SAs are not the DRIs of a customer’s initial account plan. By the time the opportunity reaches the Account Planning stage, basic account details should have been entered into Salesforce. Thus, the main purpose of completing the Account Profile section of the account plan,should be to capture important details about the customer or prospect, including information about the organization's business, strategic objectives, goals, motivations, competitive landscape, pertinent technology stack details, etc. The account profile should be all about the customer (not GitLab).
 
 
-## FAQs:
+## FAQs
 
 - **How is Gainsight different from Troops and SFDC?**
   - Gainsight is a platform that enables collaboration between SAE, SA & CSMs. SA are expected to collaborate during Account Planning. SAs should own the objective of creating a technical win plan during account planning. Troops is used for day to day activity capture for meetings.
@@ -69,7 +69,7 @@ It is important to note that Gainsight brings the entire account team onto a sin
 - [Account Planning for SAs](https://gitlab.edcast.com/pathways/gainsight-for-solutions-architects-sas)
 - [Using Gainsight in Team Meetings](https://www.youtube.com/watch?v=gT_pz9PoHHg)
 
-## Additional Reading:
+## Additional Reading
 
 - Documentation about Gainsight Go-To-Market Technical Documentation is located [here](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
 - More information about how Sales uses Gainsight can be found on the Using [Gainsight within Sales page](/handbook/sales/gainsight/account-planning/)

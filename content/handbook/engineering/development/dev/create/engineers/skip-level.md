@@ -128,7 +128,7 @@ The Senior Manager will use this opportuntity to say thank you to the team membe
 - Has anyone gone well above and beyond lately? What did they do?
 - Who on your team makes those around them better? How do they do it?
 - Is there a recent example would you like to share with me where you feel like your manager did a great job?
- 
+
 
 **Your Manager**
 

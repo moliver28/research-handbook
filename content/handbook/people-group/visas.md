@@ -155,7 +155,7 @@ Occupations with a minimum annual remuneration of €32,000 for a restricted num
 All occupations with a minimum annual remuneration of over €64,000, other than those on the [Ineligible List of Occupations for Employment Permits](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Ineligible-Categories-of-Employment/) or which are contrary to the public interest. A non-EEA national who does not have a degree qualification or higher, must have the necessary level of experience.
 The prospective employee concerned must have secured a 2-year job offer in respect of the eligible occupation from the prospective employer.
 
-#### Further criteria include:
+#### Further criteria include
 
 The prospective employee concerned must possess the relevant qualifications, skills and experience that are required for the employment.
 An employment permit will not be granted to companies unless 50% or more of the employees in the firm are EEA nationals at the time of application. However, this restriction may be waived in respect of start-up companies within 2 years of their establishment (that is, registered as an employer with Revenue) and which are supported by the enterprise development agencies, Enterprise Ireland, or IDA Ireland (this applies to client companies of Enterprise Ireland or IDA Ireland only).

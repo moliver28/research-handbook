@@ -297,7 +297,7 @@ The section can be used to ensure there are no performance degradations related 
 
 This panel displays the number of HTTP requests that have been processed by `workhorse` over time, increasing in range of 24 hours. The panel partitions these requests by the HTTP verb/method and response code. This panel can be used to determine if the amount of `git-receive-pack` requests with a response code that isn't `200` had increased recently, indicating an issue with processing such requests.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitlab_workhorse_git_http_requests`
 * Label Filters:
@@ -317,7 +317,7 @@ This panel displays the number of HTTP requests that have been processed by `wor
 
 This panel displays the total number of `Gitaly` connections that have been established by `workhorse` at a given time. This panel can be used to determine if there's a sudden drop in connections between both components, which may indicate a performance or an availability issue.
 
-*Panel Information*
+_Panel Information_
 
 * Metric: `gitlab_workhorse_gitaly_connections_total`
 * Label Filters:
@@ -333,7 +333,7 @@ This panel displays the total number of `Gitaly` connections that have been esta
 
 This panel displays the average latency (duration) in seconds for the `/.git/git-receive-pack` request for all nodes running `workhorse`. This panel can be used to determine if there is an increase in response times for that specific request, which could indicate performance degradation issue if it surpassed a certain thershold.
 
-*Panel Information*
+_Panel Information_
 
 * Metrics:
     * `gitlab_workhorse_http_request_duration_seconds_sum`

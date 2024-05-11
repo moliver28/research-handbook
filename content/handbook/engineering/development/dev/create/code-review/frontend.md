@@ -82,5 +82,5 @@ This is scheduled ad-hoc within the first 5-10 days of the milestone.
 
 ### Issues
 
-- 2020 April: [Frontend: Iteration Retrospective (Source Code)](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/22)
-- 2020 December: [Merge Request Architecture Walkthrough](https://gitlab.com/gitlab-org/gitlab/-/issues/291035/designs/gl_mr_architecture_boxes.png)
+* 2020 April: [Frontend: Iteration Retrospective (Source Code)](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/22)
+* 2020 December: [Merge Request Architecture Walkthrough](https://gitlab.com/gitlab-org/gitlab/-/issues/291035/designs/gl_mr_architecture_boxes.png)

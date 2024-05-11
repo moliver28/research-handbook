@@ -91,7 +91,7 @@ Jenkins to GitLab
      - [Monthly Webinar Calendar](/handbook/customer-success/csm/segment/scale/webinar-calendar/)
 
 
-## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption:
+## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption
 
  1. CI Component Catalog: https://docs.gitlab.com/ee/ci/components/
     - Quick demo on how the CI Component Catalog Works [VIDEO](https://youtu.be/nijvYhAPKsM)

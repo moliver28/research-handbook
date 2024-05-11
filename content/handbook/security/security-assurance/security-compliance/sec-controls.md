@@ -304,6 +304,7 @@ This control family covers physical access to devices and facilities, and the mi
 | Control | Title | Description |
 |---------|-------------|---------------|
 |     PE-1     |     Policy and Procedures          |     Establishment of physical and environmental protection policy and procedures that address the controls in the PE family implemented within systems and organizations.     |
+
  {{% /details %}}
 
 {{% details summary="Planning (PL)" %}}

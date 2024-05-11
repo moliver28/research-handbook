@@ -22,6 +22,7 @@ This page is populated from the following filterable views.
 - [Security Embedded Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/appsectest2rawdata/AppSec-ApplicationandContainerVulnerabilityDashboard)
 
 #### Filtering your data
+
 To ensure the accuracy of the presented data, please use the convenient filtering options (**'Group'**, **'Section'**, or **'Stage'**) at the top of the dashboard to tailor the displayed information to your group, section, or stage's metrics.
 
 #### Why your team is not listed in the dashboard filters

@@ -29,7 +29,7 @@ GitLab Professional Education Services manages the certification process for all
 **Step 3**: Complete each item listed in the Candidate Tasks section of the issue description. As you work through the tasks, reach out to the training coordinator listed in the issue to schedule your shadowing and evaluation sessions. Here are the key tasks you will need to complete.
 - Review the train-the-trainer (T3) resources.
 - Shadow a certified trainer delivering the course to customers
-- Attend a live session and/or review T3 materials asynchronously 
+- Attend a live session and/or review T3 materials asynchronously
 - Pass the end-user certification assessments for the course
 - Schedule and deliver a one-hour live "dry-run" of the course
 - Deliver a subset of the course to a customer with a certified trainer observing, and receive an average rating of at least 4 out of 5 on the Candidate Observation Form
