@@ -11,6 +11,7 @@ The Dynamic Analysis group at GitLab is charged with developing solutions which 
 To support the success of GitLab by developing highly usable, hiqh quality tools for customers to build more secure software. The Dynamic Analysis group at GitLab is charged with developing solutions which perform API Security Testing, Dynamic Analysis Software Testing (DAST) and Fuzzing.
 
 ### Top Priorities (FY25)
+
 **Theme: Increase adoption**
 
 - **Unify DAST offerings** - Reduce confusion by removing proxy-based DAST and maturing browser-based DAST by adding active checks and improving performance

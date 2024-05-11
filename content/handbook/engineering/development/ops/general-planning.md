@@ -25,7 +25,7 @@ Teams can customize this process to meet needs specific to their team as long as
 * PM: Set the Planning Issue milestone based on the current working milestone (e.g. Planning Issue 12.10 goes in milestone 12.9).
 * PM: update **Goals for the Milestone** in Planning Issue description.
 * PM: assign the Planning Issue to the PM, Engineering Managers, Product Designer, and Software Engineer in Test.
-* PM: ask for feedback on the **Goals for the Milestone** by adding comments for the product group members and other teams' group members if cross-team collaboration is required. 
+* PM: ask for feedback on the **Goals for the Milestone** by adding comments for the product group members and other teams' group members if cross-team collaboration is required.
 
 #### ~3 weeks before start of milestone
 

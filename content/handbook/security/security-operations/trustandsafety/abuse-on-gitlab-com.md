@@ -15,7 +15,7 @@ title: "Abuse on GitLab.com"
    - The form will require you to enter information describing the type abuse you are reporting.
    - Reports with insufficient information, cannot be reviewed and will therefore be closed, more detailed reports can be sent to `abuse@gitlab.com`.
 
-#### Reporting Merge Requests, Issues and Comments.
+#### Reporting Merge Requests, Issues and Comments
 
 1. Reporting **Comments/Issues/Merge Requests** using the `Report abuse to admin` button.
    1. You can report abuse by using the **report abuse to admin** dropdown at the top right of the corner of the issue/comment/MR.
@@ -31,9 +31,9 @@ title: "Abuse on GitLab.com"
 
 1. Requests to have your reinstated can be done by reaching out to our Support Team.
 
-### Exceptions:
+### Exceptions
 
-#### Malware for Research Purposes.
+#### Malware for Research Purposes
 
 Making use of GitLab.com services to deliver malicious executables or as attack infrastructure is prohibited under the [GitLab Acceptable Use Policy] [link to be added once AUP has been launched].
 We do however understand that making such technical details available for research purposes can benefit the wider community, and as such it will be allowed as an exception to our <Acceptable Use Policy> if the content meets the following criteria:

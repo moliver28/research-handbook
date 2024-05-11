@@ -34,7 +34,7 @@ This will require close collaboration with all parts of the People and Marketing
 As we build GitLab into one of the world’s best workplaces, we will look to increasingly educate candidates and team members about 3 themes that set us apart from other workplaces.
 
 
-#### GitLab is a place where...
+#### GitLab is a place where
 
 1. **Everyone can contribute**
     - We’ve got big ambitions to make GitLab the [top DevSecOps platform](https://about.gitlab.com/solutions/devops-platform/) and need skilled contributors to get us there.

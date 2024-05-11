@@ -49,8 +49,8 @@ The Highspot team creates GitLab Issue Templates within the Enablement Project f
 1. **SmartPage** - SmartPages are similar to landing pages. Content Owners can create SmartPages to display curated content and provide instructions and CTAs for field members.
 1. **Lists & List Groups** - Lists work as filters, and make it easier to find the content you need. Lists can then be collected under list groups for further organization.
 1. **Role: Field User** - Field users, or Contributors, have the ability to pitch items to prospects and customers, view pitch performance analytics, and submit content to Highspot Spot Owners for reivew and publishing. This is the access level that most GitLab GTM team members will have.
-1. **Role: Content Owners** - Content owners, or Publishers, have the ability to add and manage content, design and build SmartPages, and create and manage lists and Spots. Content Owners are responsible for the management of content in Highspot in one or more spots. They can also make high-level changes to the search structure as needed. Note that all content owners will need to complete the [Content Contributor Training](/handbook/sales/field-communications/gitlab-highspot/#highspot-trainings) prior to being provisioned access to contribute to a spot. 
-1. **Role: Spot Owner** - Spot Owners are the Directly Responsible Individual (DRI) for a Spot, and oversee content governance and usage performance for the Spot and its users. Note that all spot owners will need to complete the [Content Contributor Training](/handbook/sales/field-communications/gitlab-highspot/#highspot-trainings) prior to being provisioned access to contribute to a spot. 
+1. **Role: Content Owners** - Content owners, or Publishers, have the ability to add and manage content, design and build SmartPages, and create and manage lists and Spots. Content Owners are responsible for the management of content in Highspot in one or more spots. They can also make high-level changes to the search structure as needed. Note that all content owners will need to complete the [Content Contributor Training](/handbook/sales/field-communications/gitlab-highspot/#highspot-trainings) prior to being provisioned access to contribute to a spot.
+1. **Role: Spot Owner** - Spot Owners are the Directly Responsible Individual (DRI) for a Spot, and oversee content governance and usage performance for the Spot and its users. Note that all spot owners will need to complete the [Content Contributor Training](/handbook/sales/field-communications/gitlab-highspot/#highspot-trainings) prior to being provisioned access to contribute to a spot.
    1. The key difference between Owners/Co-Owners and Editors is that Owners/Co-Owners can delete a spot while Editors cannot.
 1. **Role: Analyst** - Analysts have the ability to create reports within the Analytics section of Highspot and view reports in the Analytics Spot. All Field Managers and above have Analyst permissions so they can view team-level reporting.
 1. **Contribution Status: Locked** - Only Spot Editors (i.e. Content Owners) can contribute content to these spots. All can view.
@@ -82,10 +82,10 @@ The Highspot team creates GitLab Issue Templates within the Enablement Project f
 
 Teams with access to Highspot include:
 1. Sales
-1. Customer Success Management 
-1. Renewals 
+1. Customer Success Management
+1. Renewals
 1. Professional Services
-1. Partner 
+1. Partner
 1. Revenue Strategy, Operations & Enablement (RSOE)
 1. Sales Development
 1. Strategic Marketing (Product Marketing, Customer Reference, Analyst Relations, Competitive Intelligence)
@@ -95,14 +95,14 @@ Teams with access to Highspot include:
 
 Non-active users, such as team members who have left the company, will be removed from Highspot on a regular basis in order to open seats within the tool.
 
-Access to the tool is provisioned via SSO in Okta. To access Highspot, please navigate through the Highspot tile in your Okta dashboard. If you do not have access via your Okta dashboard, please submit an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request). Please take special note of the available [Highspot trainings](/handbook/sales/field-communications/gitlab-highspot/#highspot-trainings) and plan to complete one or both depending on your scope of access in the platform. 
+Access to the tool is provisioned via SSO in Okta. To access Highspot, please navigate through the Highspot tile in your Okta dashboard. If you do not have access via your Okta dashboard, please submit an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request). Please take special note of the available [Highspot trainings](/handbook/sales/field-communications/gitlab-highspot/#highspot-trainings) and plan to complete one or both depending on your scope of access in the platform.
 
 ### Highspot Trainings
 
-There are two training courses for Highspot available in the GitLab Level Up platform: 
+There are two training courses for Highspot available in the GitLab Level Up platform:
 
-1. [Highspot User Training](https://university.gitlab.com/learn/course/highspot-user/main/highspot-user-training?client=internal-team-members) - Foundational knowledge that all Highspot users should possess to get the most out of the platform. This includes a brief tour of the tool, how to search and discover content, how to share content for buyer engagement and how to leverage Highspot for personal organization and efficiency. All new Field team members should complete this course as a part of the [Sales Quick Start](/handbook/sales/onboarding/) training program in onboarding. Non-Field team members who gain access to Highspot via an [access request](/handbook/sales/field-communications/gitlab-highspot/#availability-and-access-requests) will be highly encouraged to complete this training upon being provisioned access. 
-1. [Highspot Content Contributor Training ](https://university.gitlab.com/learn/course/highspot-content-contributor-training/main/highspot-content-contributor-training) - All Content Owners and Content Contributors in Highspot are required to complete this training prior to being provisioned edit access to any spot. This ensures that all contributors are trained to uphold GitLab's Highspot governance best-practices to support the best end user experience. 
+1. [Highspot User Training](https://university.gitlab.com/learn/course/highspot-user/main/highspot-user-training?client=internal-team-members) - Foundational knowledge that all Highspot users should possess to get the most out of the platform. This includes a brief tour of the tool, how to search and discover content, how to share content for buyer engagement and how to leverage Highspot for personal organization and efficiency. All new Field team members should complete this course as a part of the [Sales Quick Start](/handbook/sales/onboarding/) training program in onboarding. Non-Field team members who gain access to Highspot via an [access request](/handbook/sales/field-communications/gitlab-highspot/#availability-and-access-requests) will be highly encouraged to complete this training upon being provisioned access.
+1. [Highspot Content Contributor Training ](https://university.gitlab.com/learn/course/highspot-content-contributor-training/main/highspot-content-contributor-training) - All Content Owners and Content Contributors in Highspot are required to complete this training prior to being provisioned edit access to any spot. This ensures that all contributors are trained to uphold GitLab's Highspot governance best-practices to support the best end user experience.
 
 # Guidance for Field Team
 
@@ -346,7 +346,7 @@ Once these steps are complete, you will see your custom signature included under
         - Disable pitch tracking.
    - Learn more: [View Pitch Activity](https://help.highspot.com/hc/en-us/articles/216042403-View-pitch-activity-)
 
-### How to create Pitches using existing Pitch Style and Pitch Template combos:
+### How to create Pitches using existing Pitch Style and Pitch Template combos
 
 *Note:* For more information on the differences betweeen Pitch Styles and Pitch Templates, refer to the previous section or the following link: [Pitch Templates vs Pitch Styles](https://help.highspot.com/hc/en-us/articles/360048380134-Pitch-Templates-vs-Pitch-Styles)
 
@@ -406,7 +406,7 @@ There is one spot in which all team members can upload content in Highspot that 
 
 **How do I request to become a content owner?**
 
-Please request access from the owner of the spot where you would like to gain access. Note that all content contributors will need to complete the [Content Contributor Training](/handbook/sales/field-communications/gitlab-highspot/#highspot-trainings) prior to being provisioned access to contribute to a spot. 
+Please request access from the owner of the spot where you would like to gain access. Note that all content contributors will need to complete the [Content Contributor Training](/handbook/sales/field-communications/gitlab-highspot/#highspot-trainings) prior to being provisioned access to contribute to a spot.
 
 **How do I determine the owner(s) of a spot?**
 
@@ -452,7 +452,7 @@ Not at this time. All content must be manually added to Highspot via designated 
 
 **Is it possible to see the speaker notes when viewing a Google Slide?**
 
-This is not a Highspot capability at this time due to limitations with Google’s API. The Highspot team is aware that this is a needed feature and are hoping to offer it soon. In addition to speaker notes, there are other limitations to Google Slides in Highspot that include supporting gifs or slide animations as well as skipped slides. This means that animations will not display and skipped slides will show by default in Highspot or when sharing with a customer. Please take this into consideration when building slide content for Highspot. 
+This is not a Highspot capability at this time due to limitations with Google’s API. The Highspot team is aware that this is a needed feature and are hoping to offer it soon. In addition to speaker notes, there are other limitations to Google Slides in Highspot that include supporting gifs or slide animations as well as skipped slides. This means that animations will not display and skipped slides will show by default in Highspot or when sharing with a customer. Please take this into consideration when building slide content for Highspot.
 
 **How does Highspot differ from the Handbook?**
 

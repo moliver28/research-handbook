@@ -30,7 +30,7 @@ To accurately communicate and effectively mitigate negative impact of a security
 
 When assessing if a GitLab vulnerability impacts GitLab Dedicated, consider the following features that are [**not available** in GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available):
 
-#### Application Features that are Unavailable in GitLab Dedicated:
+#### Application Features that are Unavailable in GitLab Dedicated
 
 - [ ]  LDAP, Smartcard, or Kerberos authentication
 - [ ]  Multiple login providers

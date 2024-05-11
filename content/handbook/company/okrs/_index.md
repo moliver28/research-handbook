@@ -211,7 +211,7 @@ The agenda for this meeting is structured as follows:
 
 If additional action needs to be taken by the functional leader, the GitLab link should be re-shared in the #okrs channel in Slack when it's ready for final review.
 
-### Cascade!
+### Cascade
 
 Now that Executive (function-level) OKRs are set
 (as set as things are at GitLab; everything is always in Draft!),
@@ -465,7 +465,7 @@ Watch this video for a demo on how to updated progress in OKR management:
 Everyone is welcome to a suggestion to improve any OKR.
 To update please make a merge request and post a link to the MR in the #okrs channel in Slack and at-mention the Chief of Staff to the CEO. If commenting on a functional objective or KR, comment directly on the OKR in GitLab.
 
-## OKR resources:
+## OKR resources
 
 - [With Goals, FAST beats SMART](https://sloanreview.mit.edu/article/with-goals-fast-beats-smart/)
 - [Measure What Matters by John Doerr](https://www.whatmatters.com)

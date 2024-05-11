@@ -27,7 +27,7 @@ We celebrate that GitLab enables any team member, and in many cases even communi
 
 We do not, at this time have a process for ingesting, reviewing, or including assets like these. While we consider adding additional metadata and process, you might already find some in the inventory.
 
-## In due course - there have been several changes to the team recently, so this part may no longer be applicable but saving just in case.
+## In due course - there have been several changes to the team recently, so this part may no longer be applicable but saving just in case
 
 {{% panel header="**Update the inventory**" header-bg="info" %}}
 New assets should be added to the inventory as part of our definition of done for SM Support Request Issues, i.e. as part of finishing the asset itself. We'll explore use of the template and whether we can provide useful links and e.g. require checking a particular box that in this issue, assets were either not created or were inventoried.

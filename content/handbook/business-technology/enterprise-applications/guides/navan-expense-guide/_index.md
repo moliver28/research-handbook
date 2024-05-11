@@ -215,7 +215,7 @@ There are several ways to submit for reimbursement, and all manual expenses can 
 - **Receipt Import:** Email Navan (*receipts@navan.com*) a copy of your receipt(s) and they will automatically be added to an existing Navan Expense transaction or created as a transaction draft.
 
 {{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
-- Receipts need to be forwarded from your GitLab email to _receipts@navan.com_ in order to be attached to your Navan Expense account. After sending the email, the receipt should show up within a few minutes to a few hours.
+- Receipts need to be forwarded from your GitLab email to *receipts@navan.com* in order to be attached to your Navan Expense account. After sending the email, the receipt should show up within a few minutes to a few hours.
 {{% /panel %}}
 
 <br>

@@ -125,4 +125,4 @@ During this call, we also do a quick **Retrospective review** going through the 
 
 ### Issues
 
-- April 2020: [Frontend: Iteration Retrospective (Source Code)](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/22)
+* April 2020: [Frontend: Iteration Retrospective (Source Code)](https://gitlab.com/gl-retrospectives/create-stage/source-code/-/issues/22)

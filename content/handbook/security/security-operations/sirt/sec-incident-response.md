@@ -33,7 +33,7 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 
 ## Procedure
 
-### Incident Response Process - this guide covers the following activities for all identified security incidents:
+### Incident Response Process - this guide covers the following activities for all identified security incidents
 
 1. Detection
     - The SIRT, other internal, or external entity identifies a Security or Privacy Event that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may the result of an innocent error

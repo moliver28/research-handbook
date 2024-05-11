@@ -75,13 +75,13 @@ These categories are grouped by data source and subject area.
 
 </details>
 
-#### Good to Know!
+#### Good to Know
 
 
 <details markdown="1"><summary>Click to expand</summary>
 
 - [Categories of data collected: Subscription, Operational, Optional](/handbook/legal/privacy/customer-product-usage-information/index.html.md#what-are-the-data-collection-services-that-constitute-product-usage-data)
-  - [Operational metrics](https://metrics.gitlab.com/?q=operational)  
+  - [Operational metrics](https://metrics.gitlab.com/?q=operational)
   - [Optional metrics](https://metrics.gitlab.com/?q=optional)
 
 - Installations are randomly assigned a day of week to generate service pings, but that assignment is persistent over time. For example, if an installation is assigned Tuesdays to generate pings, it will always generate pings on Tuesdays. We generate and load service ping on different days to distribute the payload load evenly over the entire week.

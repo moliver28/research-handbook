@@ -8,7 +8,7 @@ title: Solutions Go-to-market
 
 
 
-# Solutions and Value Plays
+## Solutions and Value Plays
 
 Solutions are a product or suite or products and services that business purchase to solve business problems. They are typically categorized into 3 buckets that address
 
@@ -77,7 +77,7 @@ Understanding which solution to apply where requires consideration of the person
 | **Highspot page** | [Automated Software Delivery]() | [Software Security]() | [Software Compliance]() | [DevSecOps Platform]() |
 
 
-# Use cases
+## Use cases
 
 Within the core DevOps solutions, are use cases. These topics may be hot in the market (like Security), or associated use cases with GitLab (like SCM). They may attract interest for a conversation with a prospect. Conversations about these capabilities may open the door (as a wedge) to broader conversations that align to value plays - typically leading to either the platform solution or Automated Software Delivery solution.
 
@@ -126,7 +126,7 @@ Externally, solutions GTM should drive:
 - Solutions pages (from Home page drop-down)
 
 
-# Buyer's journey and typical collateral
+## Buyer's journey and typical collateral
 
 As a prospect is determining that they have a specific problem to solve, they typically go through several stages of a [buyer's journey](/handbook/marketing/brand-and-product-marketing/content/#content-stage--buyers-journey-definitions) which we hope ultimately leads them to selecting GitLab as their solution of choice.
 

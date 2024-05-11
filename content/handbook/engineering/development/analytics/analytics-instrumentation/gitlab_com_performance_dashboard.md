@@ -108,7 +108,7 @@ This can be used to determine:
 
 - When is this page slow (by day, by hour, by hour of the day, by day of the week)?
 - What are some examples that were slow that can be analyzed to determine the causes as to why?
- 
+
 
 ## Snowplow metrics
 

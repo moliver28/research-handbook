@@ -291,31 +291,31 @@ In order to help the Sec section come to resolution on defining approaches to se
 we have formed an Architectural Council. This group comprises tech leads (and SMEs to provide context)
 in order to keep the team small and nimble. The group is a non-authoritative, supportive group whose members provide representative insights from their respective teams.
 
-* Tech leads will serve as the representative for their team
-* An issue should be created to capture the discussion that covers:
-  * What is the issue at hand and what is the preferred action
-  * What are the potential solutions and their associated pros/cons
-  * What approach was decided and why
-  * 2-business day [SLO](/handbook/engineering/workflow/code-review/#review-response-slo)
-    * We need to know when to start the clock on these as some issues can exist for months before being brought to the council. In this case, we should define within the issue when the clock does start.
-* There will be a DRI assigned to the issue that is being discussed
-* The DRI will be decided by either who has to address the issue first or where the code change is occurring the most (in that order)
-* The issue will be discussed and the DRI will be the ultimate decision-maker for the approach taken
-* Issues will be tackled on a First-In-and-First-Out (FIFO) order. Attempts to minimize SLA overlap should be made to prevent scheduling conflicts between member’s time
+- Tech leads will serve as the representative for their team
+- An issue should be created to capture the discussion that covers:
+  - What is the issue at hand and what is the preferred action
+  - What are the potential solutions and their associated pros/cons
+  - What approach was decided and why
+  - 2-business day [SLO](/handbook/engineering/workflow/code-review/#review-response-slo)
+    - We need to know when to start the clock on these as some issues can exist for months before being brought to the council. In this case, we should define within the issue when the clock does start.
+- There will be a DRI assigned to the issue that is being discussed
+- The DRI will be decided by either who has to address the issue first or where the code change is occurring the most (in that order)
+- The issue will be discussed and the DRI will be the ultimate decision-maker for the approach taken
+- Issues will be tackled on a First-In-and-First-Out (FIFO) order. Attempts to minimize SLA overlap should be made to prevent scheduling conflicts between member’s time
 
 #### Considerations when determining the approach
 
-* Simplicity and elegance
-* Portability and/or modularity
-* Supportability
-* Maintainability
-* Scalability
-* Extensibility
-* Reliability
-* Security
-* Cost (will it impact .com for large customers)
-* Performance (speed and accuracy)
-* Consistency (Fit with existing code base)
+- Simplicity and elegance
+- Portability and/or modularity
+- Supportability
+- Maintainability
+- Scalability
+- Extensibility
+- Reliability
+- Security
+- Cost (will it impact .com for large customers)
+- Performance (speed and accuracy)
+- Consistency (Fit with existing code base)
 
 #### Capturing Resolved/Discovered Standards
 

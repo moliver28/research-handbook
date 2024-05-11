@@ -22,7 +22,7 @@ This guide serves as a toolkit for fostering a supportive work culture where tea
 - Reflect: What are other ways “burnout” might show up beyond "fatigue"?
 
 
-### Understanding Burnout:
+### Understanding Burnout
 
 Here are some  team member considerations inspired by GitLab’s culture, values, and ways of working. You’ll see some tips, but we’ll share more advice and talking points below:
 - **On & Offline:**-  When working in a remote, heavily asynchronous, collaborative team environment you may not always see and hear early signs of fatigue or burnout. Make it a point to reserve time in regular connections to see how team members are managing workload and boundaries. Even asking directly in a Slack message can be helpful.
@@ -53,12 +53,12 @@ Here are some  team member considerations inspired by GitLab’s culture, values
 - **Longer-Term Solutions:** Encourage participation in wellness programs, explicitly communicate with teams about GitLabs culture of flexible work, and review job/role descriptions for potential stressors and opportunities to address scope.
 - **Dogfood:** Managers must model healthy/balanced working behaviors! Taking time away, sharing challenges and success around effectively managing workload, storytelling centered on output as a result of effective workload management.
 
-#### Resource to share with team members:
+#### Resource to share with team members
 
 [Combating burnout, isolation, and anxiety in the remote workplace](/handbook/company/culture/all-remote/mental-health/)
 Burnout Index: [Yerbo’s Risk Check](https://methods.yerbo.co/burnout-index/)
 
-----
+---
 
 ### Where to ask questions
 

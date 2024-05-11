@@ -128,7 +128,7 @@ Monday December 25th
 Monday January 1st
 
 If you have an urgent request, please reach out to us via slack in the #it_help channel.
- 
+
 #### IT Ops
 
 - IT Ops will work with Security, the People Group, and Business Technology to develop automated on-boarding and off-boarding processes.

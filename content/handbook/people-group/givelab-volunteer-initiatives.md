@@ -55,6 +55,6 @@ GitLab encourages team members to set time aside to take part in local volunteer
 
 Hack for She, a completely virtual hackathon aimed to find solutions to Women’s problems.
 
-----
+---
 
 Return to the [People Group Handbook](/handbook/people-group).

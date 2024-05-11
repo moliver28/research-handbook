@@ -34,7 +34,7 @@ Internal Contractors/TSPs (with a GitLab email address) and external Contractors
 
 Internal contractors/TSPs will be assigned training via ProofPoint. External contractors/TSPs will be sent an email with a training video and handbook links to review.
 
-##### Training exceptions:
+##### Training exceptions
 
 - Contractors/TSPs that do **NOT** have access to any internal systems or sensitive data are **NOT** required to complete GitLab's annual training. However, they must complete training during onboarding.
 - Contractors/TSPs that have been offboarded are not required to complete training, but an [offboarding issue](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues) must be provided as proof of termination.

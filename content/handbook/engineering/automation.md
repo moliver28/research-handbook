@@ -33,9 +33,9 @@ It also increases the number of changes required if the token is revoked.
 
 By default, and when possible, create a new [project access token](https://docs.gitlab.com/ee//user/project/settings/project_access_tokens) for any API automation, and follow these guidelines:
 
-- Create a suitable name for the access token. Keep in mind that this is also the name of the bot user created for the token.
-- Always set an expiration date for the token, even if this is for temporary automation.
-- Give the token the minimum scopes your automation requires (usually the `api` scope).
+* Create a suitable name for the access token. Keep in mind that this is also the name of the bot user created for the token.
+* Always set an expiration date for the token, even if this is for temporary automation.
+* Give the token the minimum scopes your automation requires (usually the `api` scope).
 
 Project access tokens have [a few known limitations](https://gitlab.com/gitlab-org/gitlab/-/issues/213536), but dogfooding them can only help us improve the feature.
 
@@ -56,14 +56,14 @@ that will be owned by a specific team.
 
 GitLab uses automation to streamline engineering processes, such as:
 
-- [Danger bot](https://docs.gitlab.com/ee/development/dangerbot) for merge request hygiene. We use the [Danger bot](https://gitlab.com/group_9970_bot1) group access token.
-- [Triage ops](https://gitlab.com/gitlab-org/quality/triage-ops) for automated:
-  - Scheduled reminders and reports of issues and merge requests. Requires a service account.
-  - Real-time reaction to events on issues and merge requests. Requires a service account.
-- Allure test reports. We use the [End-to-end tests Allure report](https://gitlab.com/project_278964_bot5) project access token to post Allure test report on merge requests that run end-to-end tests against their Review App.
-- Asynchronous retrospective generation. Can use a project access tokens unless fetching confidential issues.
-- GitLab Runner releases. Requires a service account.
-- [Repository mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror). Requires a service account.
+* [Danger bot](https://docs.gitlab.com/ee/development/dangerbot) for merge request hygiene. We use the [Danger bot](https://gitlab.com/group_9970_bot1) group access token.
+* [Triage ops](https://gitlab.com/gitlab-org/quality/triage-ops) for automated:
+  * Scheduled reminders and reports of issues and merge requests. Requires a service account.
+  * Real-time reaction to events on issues and merge requests. Requires a service account.
+* Allure test reports. We use the [End-to-end tests Allure report](https://gitlab.com/project_278964_bot5) project access token to post Allure test report on merge requests that run end-to-end tests against their Review App.
+* Asynchronous retrospective generation. Can use a project access tokens unless fetching confidential issues.
+* GitLab Runner releases. Requires a service account.
+* [Repository mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror). Requires a service account.
 
 ## Current and potential GitLab.com service accounts
 
@@ -80,15 +80,15 @@ Previously, we had a single `@gitlab-bot` service account that we used for almos
 
 This had two main drawbacks:
 
-- If the bot [hit the API rate limit](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/907), we had to disable the rate limit.
+* If the bot [hit the API rate limit](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/907), we had to disable the rate limit.
   This meant that an infinite-loop script could [lead to a DoS (denial-of-service) against our own API](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/4655).
-- It caused security concerns:
-  - Reusing the same token everywhere creates a lot of disruption if
+* It caused security concerns:
+  * Reusing the same token everywhere creates a lot of disruption if
     [the token is leaked and needs to be rotated](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations/-/issues/1451).
-  - The service account credentials were accessible to the whole Engineering division.
+  * The service account credentials were accessible to the whole Engineering division.
     Anyone could log into the bot's account and create their own access token.
 
 We are in the process of:
 
-- [Moving the `@gitlab-bot` service account credentials to an Engineering Productivity 1Password vault](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations/-/issues/1082), to stop the self-service of creating tokens.
-- [Migrating the current `@gitlab-bot`'s tokens](https://gitlab.com/groups/gitlab-org/quality/-/epics/17) to project access tokens where possible, and to specific service accounts for the other cases.
+* [Moving the `@gitlab-bot` service account credentials to an Engineering Productivity 1Password vault](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations/-/issues/1082), to stop the self-service of creating tokens.
+* [Migrating the current `@gitlab-bot`'s tokens](https://gitlab.com/groups/gitlab-org/quality/-/epics/17) to project access tokens where possible, and to specific service accounts for the other cases.

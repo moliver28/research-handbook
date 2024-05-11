@@ -145,18 +145,22 @@ This command enables zero copy cloning using DBT selections syntax to clone enti
 **Usage:**
 
 To use the new `clone-dbt-select-local-user-noscript` command, you have to specify a `DBT_MODELS` variable. For example, to clone only the `dim_subscription` model, you would execute the following command:
+
 ```
 make DBT_MODELS="dim_subscription" clone-dbt-select-local-user-noscript
 ```
+
 This will clone the DBT model from the `prod` branch into your local user database (i.e., `{user_name}_PROD`). You can use dbt selectors: @, +, etc to select the entire lineage that you want to copy over your local database.
 
 **Tips:**
 
 - If you encounter an error as below:
+
 ```
 Compilation Error
   dbt found 7 package(s) specified in packages.yml, but only 0 package(s) installed in dbt_packages. Run "dbt deps" to install package dependencies.
 ```
+
   - Run `make dbt-deps` from the root of the analytics folder and retry the command.
 
 **Transition Note:**
@@ -1193,7 +1197,7 @@ Steps to follow in order to run the tests you implemented in the data-tests proj
 4. You should see some logs, which also show the revision data-tests was installed from, where you should see your branch
 5. From where you currently are (which should be the `snowflake-dbt` directory) run the corresponding command for testing your own model
 
-#### Example:
+#### Example
 
 To run the `zuora_revenue_revenue_contract_line_source` rowcount tests, we can use the following command, which should work without any issues:
 

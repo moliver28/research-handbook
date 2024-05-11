@@ -102,7 +102,7 @@ The observation program is a key input to the [StORM program]({{< ref "storm-pro
 - An observation in an entity level control
 - When multiple observations share root cause and are grouped in an [observation epic]({{< ref "observation-remediation-procedure#root-cause-observation-epics" >}}). Observation epics are a group of observations spanning multiple systems that have shared root cause and remediation paths.
 
-### Security Compliance Workflow:
+### Security Compliance Workflow
 
 ```mermaid
 graph TD
@@ -116,7 +116,7 @@ graph TD
     E --> I[Work with risk on collaborative remediation<br>for both Tier 2 and Tier 3 issues]
 ```
 
-### Security Risk Workflow:
+### Security Risk Workflow
 
 ```mermaid
 flowchart TD

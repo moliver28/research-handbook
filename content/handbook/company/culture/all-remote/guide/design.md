@@ -64,6 +64,6 @@ Disruptions can cause consternation and unease, but there’s a flip side as wel
 
 As design teams move to an all-remote environment, it’s important to double down on effort to engage with other departments, e.g. finance, people operations, marketing, sales, etc. What once was taken for granted as every day interactions must now be purposely built into interdepartmental communications. To the extent possible, design team leaders should implement 360 degree feedback loops among key stakeholders in other departments to ensure smooth, efficient operations.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "../_index.md" >}}).

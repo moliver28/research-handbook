@@ -24,7 +24,7 @@ title: "Customer Advocacy at GitLab"
 - Nicole Smith — Director, Product Marketing, Customer Advocacy
 - Steve George — Product Marketing Manager, Customer Advocacy
 
-# Programs we drive and support
+## Programs we drive and support
 
 **Evergreen customer story creation**
 
@@ -88,7 +88,7 @@ To formally recognize members of our revenue organization who partner with marke
 
   FY23 Q4 Winner: April Marks, Enterprise AE
 
-# How do I work with the team?
+## How do I work with the team?
 
 
 **Make a request**
@@ -100,7 +100,7 @@ This process is evolving. While we’re under construction, please [nominate an 
 **Ask a question**
 Find us on Slack at #customer-advocacy-and-references.
 
-# How do I find a customer story?
+## How do I find a customer story?
 
   [**HighSpot**](https://gitlab.highspot.com/spots/636e91aed5e577c7525c583a)
 
@@ -124,7 +124,7 @@ Find us on Slack at #customer-advocacy-and-references.
 
 
 
-# KPIs
+## KPIs
 
 - Number of stories, including case studies, blogs, videos, and podcast episodes
   - Content metrics including traffic, CTR, time on page, conversion, etc.
@@ -142,14 +142,14 @@ Find us on Slack at #customer-advocacy-and-references.
   - Survey feedback / NPS
   - Associated pipeline
 
-# Approved Customer Logos for promotion
+## Approved Customer Logos for promotion
 
 We are actively working on a single source of truth document. In the meantime, please contact the advocacy team for any logo inquiries.
 
-# Which customer reference team member should I contact?
+## Which customer reference team member should I contact?
 
 While the team is growing, please start in the #customer-advocacy-and-references channel and your question will be triaged.
 
-# Base Customer Advocacy Platform
+## Base Customer Advocacy Platform
 
 Base is a B2B Customer Marketing & Advocacy automation platform that uses AI to enable marketers to streamline engagement, generate customer references, gain insights, capture VoC, and scale advocacy. The team is currently working to implement Base. Stay tuned on this page for more info soon. If you have questions, feel free to reach out on #customer-advocacy-and-references slack channel.

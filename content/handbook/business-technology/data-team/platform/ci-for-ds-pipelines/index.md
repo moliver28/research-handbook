@@ -4,7 +4,6 @@ title: "Getting Started With CI/CD for Data Science Pipelines"
 description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 ---
 
- 
 
 
 
@@ -12,7 +11,8 @@ description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 
 
 
-----
+
+---
 
 ## Our Approach to Using CI/CD For Data Science
 
