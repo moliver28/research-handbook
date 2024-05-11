@@ -11,8 +11,8 @@ A strong partner ecosystem is crucial in the success and growth of  GitLab’s b
 | -- | - |
 | [Associate Partner Account Manager](#associate-partner-account-manager) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Partner Account Manager](#partner-account-manager-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Partner Account Manager](#senior-partner-account-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Staff Partner Account Manager](#staff-partner-account-manager) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Senior Partner Account Manager](#senior-partner-account-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Staff Partner Account Manager](#staff-partner-account-manager) | [Grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Partner Account Management](#senior-manager-partner-account-management) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Director, Partner Account Management](#director-partner-account-management) | [Grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 

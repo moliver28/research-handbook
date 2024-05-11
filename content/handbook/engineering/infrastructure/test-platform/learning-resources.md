@@ -35,6 +35,7 @@ GitLab has [book clubs](/handbook/leadership/book-clubs/). Considering joining o
 - [Crucial Conversations Training](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
 
 ### Books
+
 - Peopleware: Productive Projects and Teams by Tom DeMarco, Tim Lister
 - Drive by Daniel Pink
 - Remote by Jason Fried, David Heinemeier Hansson

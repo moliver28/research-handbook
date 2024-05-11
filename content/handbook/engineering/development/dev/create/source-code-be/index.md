@@ -56,9 +56,6 @@ For more urgent items, feel free to use `#g_create_source_code` on Slack.
 
 [Take a look at the features we support per category here.](/handbook/product/categories/features/#createsource-code-group)
 
-[engineering workflow]: /handbook/engineering/workflow/
-[GitLab]: https://gitlab.com/gitlab-org/gitlab
-[#g_create_source_code]: https://gitlab.slack.com/archives/g_create_source-code
 
 ### Working with the Product Team
 
@@ -181,7 +178,7 @@ The EM then applies the ~Deliverable label to each issue in the Release and assi
 
 Urgent issues are tentatively assigned to a release to ensure other teams have visibility.
 
-At this point the issues are _Candidate_ issues, and the milestone does not confirm that they will be definitely scheduled. Issues move from _Candidate_ status to confirmed during the [Issue selection](#issue-selection) process.
+At this point the issues are *Candidate* issues, and the milestone does not confirm that they will be definitely scheduled. Issues move from *Candidate* status to confirmed during the [Issue selection](#issue-selection) process.
 
 #### Key Dates
 
@@ -189,7 +186,7 @@ At this point the issues are _Candidate_ issues, and the milestone does not conf
 | ------ | ------ | ------ |
 | The Monday of the week the milestone ends |**PM** creates planning board and pings EMs in the Planning Issue for review & weighting.<br><br> **EMs** calculate capacity, add to Planning Issue.<br><br>**PM** submits RPIs for reviews.|
 | Monday to Friday of the week the milestone ends |**EMs** & **ICs** add weights to issues in the planning board|
-| The Friday the milestone ends | **EMs** add ~Deliverable labels to issues so that they appear on the Build board _as a draft_<br><br>Release Post: **EMs**, **PMs**, and **PDs** contribute to MRs for Usability, Performance Improvements, and Bug Fixes|
+| The Friday the milestone ends | **EMs** add ~Deliverable labels to issues so that they appear on the Build board *as a draft*<br><br>Release Post: **EMs**, **PMs**, and **PDs** contribute to MRs for Usability, Performance Improvements, and Bug Fixes|
 | The Friday the milestone ends | **EMs** adjust ~Deliverable labels for slippage and make final assignments<br><br>**PMs** review final plan for milestone on Build board<br><br>**EMs** merge RPI MRs for features that have been merged.|
 | The third Thursday of the month | Release |
 
@@ -255,7 +252,7 @@ Approximately 5-10 business days before the start of a new release, the EM will 
 - Upcoming on-call slots
 - Potential time spent on another teams deliverables
 
-Availability is a percentage calculated by _(work days available / work days in release) * 100_.
+Availability is a percentage calculated by *(work days available / work days in release) * 100*.
 
 All individual contributors start with a "weight budget" of 10, meaning they are capable (based on historical data) of completing a maximum number of issues worth 10 weight points total (IE: 2 issues which are weighted at 5 and 5, or 10 issues weighted at 1 each, etc.) Then, based on their availability percentage, weight budgets are reduced individually. For example, if you are 80% available, your weight budget becomes 8.
 
@@ -292,7 +289,7 @@ You will begin to collect follow-up issues when you've worked on something in a 
 
 - Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
 - Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&search=source+code+group+planning)
- 
+
 You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
 
 If there are many follow-up issues, consider creating an epic.

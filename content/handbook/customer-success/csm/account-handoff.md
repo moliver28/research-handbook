@@ -11,7 +11,7 @@ title: "Account Handoff CSM-to-CSM Checklist"
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 
 CSMs will need to occasionally transfer accounts they have been working with to another CSM (e.g. a CSM changes territories, a realignment occurs in Sales, a need to equalize books of business, etc.), and they should use this handbook page to help guide them through important questions and topics during the handoff.
 
@@ -120,7 +120,7 @@ While not all customer calls are recorded, many are, and they can be a wealth of
 
 Thoroughly understand the main technical issues the customer cares about and has had problems with. Take note of critical open tickets and collaborate with support as needed, and review any key technical issues the customer experienced in the past; for example, migrations, integrations, major upgrades, etc.
 
-As the new CSM is finally responsible for knowing about important support tickets and its status, its recommended to subscribe yourself (in "CC") to all support tickets, the old CSM was watching. This will ensure, that the new CSM gets notified (as the old CSM will remove herself from the CC list).  
+As the new CSM is finally responsible for knowing about important support tickets and its status, its recommended to subscribe yourself (in "CC") to all support tickets, the old CSM was watching. This will ensure, that the new CSM gets notified (as the old CSM will remove herself from the CC list).
 
 ### Installation
 

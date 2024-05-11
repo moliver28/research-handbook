@@ -6,7 +6,7 @@ description: "A success plan is a roadmap that connects a customer's desired bus
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 
 ## Purpose of a success plan
 
@@ -18,7 +18,7 @@ It is a living document, and is reviewed & updated regularly in [cadence calls](
 
 ## How a success plan is used
 
-The success plan is part of most interactions with the customer, and as an anchor point for GitLab team planning. 
+The success plan is part of most interactions with the customer, and as an anchor point for GitLab team planning.
 
 ### Customer objectives
 

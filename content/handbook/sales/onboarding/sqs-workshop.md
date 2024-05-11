@@ -23,7 +23,7 @@ title: "Sales Quick Start (SQS) Workshop"
 This [SQS 2024 Agenda sheet](https://docs.google.com/spreadsheets/d/1f64fZCKbrz7JEydEIkUeGZ16nQuLxNgD6RXEM2zEgws/edit?usp=sharing) contains the most up to date agenda for our in-person Sales Quick Start Workshop. Please check the tabs at the bottom of this document to see each day's agenda. This agenda is subject to change based on the individual needs of the class and the availability of SMEs, but we will make every effort to surface those changes in this document.
 
 
-## Sales Quick Start Remote Agenda:
+## Sales Quick Start Remote Agenda
 
 
 ### SQS 39 - June 2024

@@ -113,6 +113,7 @@ Staging-Canary is an environment subset or deployment "stage" in the Staging env
 on canary stage environments](/handbook/engineering/infrastructure/environments/canary-stage/).
 
 Staging-Canary deployments precede Staging deployments as described in [releases](/handbook/engineering/releases), with deployments occurring with the same frequency of Staging. It is important to note that there are two sets of blocking `smoke` test suite that are executed on deployment. One set of tests targets Staging-Canary specifically. The other set targets Staging. **Both sets of tests must pass** for the Staging-Canary deployment to succeed. This is designed specifically to help flush out issues that occur from mixed version deployment environments. You can determine which environment tests are failing in by examining the Downstream QA pipelines.
+
 ### Staging Ref
 
 | **Name** | **Short Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |

@@ -95,7 +95,7 @@ see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs
 
 You can enable a feature flag by sending an API request to the review app using a tool such as `curl` or [Postman](https://www.postman.com).
 
-### Help!
+### Help
 
 If you get stuck using any of these methods, follow the tips below in order. Don't
 struggle on your own and, when in doubt, ping a UX member to facilitate finding

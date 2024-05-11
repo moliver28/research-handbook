@@ -4,15 +4,15 @@ description: "GitLab Data Team Platform"
 controlled_document: true
 ---
 
-# Purpose
+## Purpose
 
 The Data Platform is used for data analytics purposes. This document conceptually describes on high level the components which all together are defined as the Data Platform.
 
-# Scope
+## Scope
 
 This document is limited to describe the Data Platform conceptually. There are other resources that describe it in more detail (i.e. the Data Pipelines and the [infrastructure](/handbook/business-technology/data-team/platform/infrastructure/)/
 
-# Roles & Responsibilities
+## Roles & Responsibilities
 
 | Role | Responsibility |
 | ---- | -------------- |
@@ -20,7 +20,7 @@ This document is limited to describe the Data Platform conceptually. There are o
 | Data Platform Team Members | Responsible for implementing and executing data use cases based on this standard |
 | Data Management Team | Responsible for approving significant changes and exceptions to this standard |
 
-# Standards
+## Standards
 
 ## <i class="fas fa-map-marked-alt fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Quick Links
 
@@ -448,6 +448,7 @@ The rest of the section will do two things:
 1. For convenience, provide custom templates that represent common values currently used in `roles.yml`
 
 To illustrate how templates work, let's start with an example. This is the default *roles template*:
+
 ```json
 {
   "{{ username }}": {
@@ -466,6 +467,7 @@ This is valid JSON, but note that it is **templated**. That is, `{{ username }}`
 Now, an example of when we want to override the default value above. What happens if for the next batch of users, we want them to also have `dev_m` warehouse?
 
 Within the CI job, we could pass in a custom template to override the default value like so:
+
 ```
 ROLES_TEMPLATE: {"{{username}}": {"member_of": ["snowflake_analyst"],"warehouses": ["dev_xs", "dev_m"]}}
 ```
@@ -490,6 +492,7 @@ This section is meant to provide custom templates (non-default values) that repr
 
 - Default: None, no databases are added
 - Common: CI job argument to create a personal prep/prod database for each user:
+
     ```sh
     DATABASES_TEMPLATE: [{"{{ prod_database }}": {"shared": false}}, {"{{ prep_database }}": {"shared": false}}]
     ```
@@ -497,10 +500,13 @@ This section is meant to provide custom templates (non-default values) that repr
 ##### Roles
 
 - Default:
+
     ```sh
     ROLES_TEMPLATE: {"{{ username }}": {"member_of": ["snowflake_analyst"], "warehouses": ["dev_xs"]}}
     ```
+
 - Common- CI job argument to create a role for a data engineer:
+
     ```sh
     ROLES_TEMPLATE: {"{{ username }}": {"member_of": ["engineer","restricted_safe"],"warehouses": ["dev_xs","dev_m","loading","reporting"],"owns": {"databases": ["{{ prep_database }}","{{ prod_database }}"],"schemas": ["{{ prep_schemas }}","{{ prod_schemas }}"],"tables": ["{{ prep_tables }}","{{ prod_tables }}"]},"privileges": {"databases": {"read": ["{{ prep_database }}","{{ prod_database }}"],"write": ["{{ prep_database }}","{{ prod_database }}"]},"schemas": {"read": ["{{ prep_schemas }}","{{ prod_schema }}"],"write": ["{{ prep_schemas }}","{{ prod_schema }}"]},"tables": {"read": ["{{ prep_tables }}","{{ prod_tables }}"],"write": ["{{ prep_tables }}","{{ prod_tables }}"]}}}}
     ```
@@ -508,9 +514,11 @@ This section is meant to provide custom templates (non-default values) that repr
 ##### Users
 
 - Default:
+
     ```sh
     USERS_TEMPLATE: {"{{ username }}": {"can_login": true, "member_of": ["{{ username }}"]}}
     ```
+
 - Common: N/A. There are no other templates that we currently use for users
 
 </details>
@@ -529,7 +537,7 @@ The PAT value is saved within 1Pass, and also as a CI environment variable so th
 
 #### Provisioning permissions to external tables to user roles
 
-Provisioning USAGE permissions for external tables to user roles inside snowflake is not handled by permifrost in the moment. If you have to provision access for an external table to a user role, then it must be granted manually via GRANT command in snowflake(docs)[https://docs.snowflake.com/en/sql-reference/sql/grant-privilege] using a `securityadmin` role. This implies that the user role already has access to the schema and the db in which the external table is located, if not add them to the [roles.yml](https://gitxlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
+Provisioning USAGE permissions for external tables to user roles inside snowflake is not handled by permifrost in the moment. If you have to provision access for an external table to a user role, then it must be granted manually via GRANT command in snowflake[docs](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege) using a `securityadmin` role. This implies that the user role already has access to the schema and the db in which the external table is located, if not add them to the [roles.yml](https://gitxlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
 
 #### Logging in and using the correct role
 
@@ -1117,7 +1125,7 @@ This has been implemented by creating 4 main DAGs (one per schedule) consisting 
 
 The code for the dags can be found in the [Sales Analytics Dags in the gitlab-data/analytics project](https://gitlab.com/gitlab-data/analytics/-/tree/master/dags/sales_analytics).
 
-#### Example:
+#### Example
 
 Currently, under the `/daily/` notebooks we have [one sample notebook and its corresponding query](https://gitlab.com/gitlab-data/analytics/-/tree/master/sales_analytics_notebooks/daily).
 
@@ -1189,11 +1197,11 @@ The Snowflake API user has been created following the steps in the official Snow
 
 We created a runbook with a step-by-step guide on how to create the user and role for this purpose - [link to the Snowflake API User](https://gitlab.com/gitlab-data/runbooks/-/tree/main/snowflake_api_user) runbook.
 
-# Exceptions
+## Exceptions
 
 Exceptions to this standard will be tracked as per the Information Security Policy Exception Management Process.
 
-# References
+## References
 
 The platform [infrastructure](/handbook/business-technology/data-team/platform/infrastructure/).
 

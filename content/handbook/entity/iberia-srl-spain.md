@@ -11,7 +11,7 @@ Bienvenido! This Handbook is for team members employed by GitLab Iberia s.r.l an
 
 These standards apply to all GitLab team members hired through GitLab Iberia s.r.l., which has a registered address at Avenida Concha Espina 39B, 28016 Madrid.
 
-### Roles & Responsibilities:
+### Roles & Responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|
@@ -114,7 +114,7 @@ No medical questionnaire required (pre existing illness will be accepted, except
 
 **Life Event Enrollment**
 
-Other than during enrollment, Team Members can add dependents during certain life events such as birth or marriage, with an effective date of the life event. Please fill out the [Life Event Form](https://docs.google.com/forms/d/e/1FAIpQLSd8YRqlEqfvlZgqUFm2fZ8A6JC5hKrm2JlZKInkUl_nQD3nww/viewform?usp=sf_link) to enroll your dependent.  
+Other than during enrollment, Team Members can add dependents during certain life events such as birth or marriage, with an effective date of the life event. Please fill out the [Life Event Form](https://docs.google.com/forms/d/e/1FAIpQLSd8YRqlEqfvlZgqUFm2fZ8A6JC5hKrm2JlZKInkUl_nQD3nww/viewform?usp=sf_link) to enroll your dependent.
 
 The Team Member portion of the dependent cost will be deducted from their paycheck on a monthly basis. The Benefit in Kind amount will be reported on a monthly basis and team members will be taxed on the value of the benefit.
 

@@ -39,7 +39,7 @@ The below table outlines the requirements for each maturity level:
 | Viable         | Internal users who are dogfooding | **C** (Average). This is the same grading system from the UX Scorecard grading rubric. / The path for the primary JTBD is well established, intentional in design, and clear in the outcome it enables users to reach.                       | Meets 100% of GitLab design standards         | (not required)                        |
 | Minimal        | (not required)                    | **D** (Poor). This is the same grading system from the UX Scorecard grading rubric. / The path for the primary JTBD is established, intentional in design, and nearing a clear outcome for users to reach.                            | Meets at least 80% of GitLab design standards | (not required)                        |
 
-Refer to the [Category Maturity](https://about.gitlab.com/direction/maturity/) page to understand scoring of a Category Maturity Scorecard study. 
+Refer to the [Category Maturity](https://about.gitlab.com/direction/maturity/) page to understand scoring of a Category Maturity Scorecard study.
 
 Previously completed Category Maturity Scorecards can be found in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/6930).
 

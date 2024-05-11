@@ -49,21 +49,25 @@ For example, here is the link to run a manual GitLab QA pipeline [against Stagin
 ## Running end-to-end test pipelines using code from a specific GitLab-QA branch
 
 ### Running from a specific GitLab-QA branch against a live environment
+
 It is often needed to test the impact of changes in the [GitLab-QA codebase](https://gitlab.com/gitlab-org/gitlab-qa) on
 [`gitlab-org/gitlab` nightly schedule pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules), [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines),
-[Pre-Prod](https://ops.gitlab.net/gitlab-org/quality/preprod/-/pipelines), [Canary](https://ops.gitlab.net/gitlab-org/quality/canary/-/pipelines) 
+[Pre-Prod](https://ops.gitlab.net/gitlab-org/quality/preprod/-/pipelines), [Canary](https://ops.gitlab.net/gitlab-org/quality/canary/-/pipelines)
 or [Production](https://ops.gitlab.net/gitlab-org/quality/production/-/pipelines) pipelines.
 This can be achieved by manually triggering a pipeline in any of these projects and setting the `QA_BRANCH` variable to the branch name you are working on in the [GitLab-QA project](https://gitlab.com/gitlab-org/gitlab-qa).
 As a result, the pipeline will checkout the specified branch and build the `gitlab-qa` gem instead of using the latest published gem.
 
-### Running from a specific GitLab-QA branch against a GitLab branch MR 
+### Running from a specific GitLab-QA branch against a GitLab branch MR
+
 You can checkout a test branch and edit the `Gemfile` to change the `gitlab-qa` line to install via the GitLab-QA branch.
 
 For example in the `qa/gemfile`:
+
 ```
 gem 'gitlab-qa', git: 'https://gitlab.com/gitlab-org/gitlab-qa.git', branch: '<GitLab-QA-branch>'
 ```
-Make sure to also `bundle install` and commit the `Gemfile.lock` as well. 
+
+Make sure to also `bundle install` and commit the `Gemfile.lock` as well.
 Doing so successfully will allow the `gitlab-qa` gem to be built from a custom branch.
 
 ## Determine the version, revision, branch and package deployed in GitLab environments

@@ -101,6 +101,7 @@ To create an exclusion for SentinelOne, edit `/etc/aide.conf` and add
 ```shell
 echo '!/opt/sentinelone/mount' | sudo tee -a /etc/aide.conf
 ```
+
 {{% /panel %}}
 
 1. Make sure you are using an approved [Linux distribution](/handbook/it/operating-systems/).
@@ -196,6 +197,7 @@ echo '!/opt/sentinelone/mount' | sudo tee -a /etc/aide.conf
      ```shell
      sudo apt purge sentinelagent
      ```
+
    {{% /panel %}}
 
 1. Wait five minutes, and then verify connectivity:

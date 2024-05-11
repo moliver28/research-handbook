@@ -20,7 +20,7 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 
 ### Audit Committee Earnings Meeting Calendar
 
-### Disclaimer - We anticipate covering the following topics and additional topics will be added as needed. The frequency may also change as needed.
+### Disclaimer - We anticipate covering the following topics and additional topics will be added as needed. The frequency may also change as needed
 
 #### Accounting and Reporting
 
@@ -131,7 +131,7 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 | 7 |Privacy, Product & IP                      |Annual |     |  X  |     |     |    |
 | 8 |Employment                                 |Annual |     |  X  |     |     |    |
 | 9 |Corporate & Compliance                     |Annual |     |  X  |     |     |    |
- 10 |Risk Management & Dispute Resolution       |Annual |     |  X  |     |     |    |
+| 10 |Risk Management & Dispute Resolution       |Annual |     |  X  |     |     |    |
 | 11 |Commercial                                |Annual |     |  X  |     |     |    |
 |12 |Approval of Minutes                      |Quarterly |  X  |  X  |  X  |  X  |     |
 |13 |Other Topics                                         |As needed |     |    |     |     |  X  |
@@ -151,7 +151,7 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 
 |#|Topics                                 | Frequency | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
 |:---:|:-------------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: |:---:  |
-| 1 | Finance Application System Reviews (ITGC)        |Semi Annual |  X    |    |   X  |     |     ||
+| 1 | Finance Application System Reviews (ITGC)        |Semi Annual |  X    |    |   X  |     |     |
 | 2 |Other Topics                                         |As needed |     |    |     |     |  X  |
 
 

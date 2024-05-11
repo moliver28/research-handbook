@@ -103,8 +103,8 @@ guidelines for said video:
 #### Playlists
 
 There are 2 playlist in general:
-- [Incubation Engineering](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
-- [Incubation Engineering - Latest](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
+* [Incubation Engineering](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
+* [Incubation Engineering - Latest](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
 
 And then there are the SEG specific playlists, you might need to make one and follow the naming convention:
 `Incubation Engineering - <SEG>`
@@ -119,17 +119,17 @@ Incubation Engineering team members may discover issues for upcoming events, and
 
 The following issue boards are to be used to discover upcoming events:
 
-- [Field & Corporate, EMEA](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933459?label_name[]=EMEA)
-- [Field & Corporate, Central Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438243?label_name[]=Central%20Europe&label_name[]=EMEA)
-- [Field & Corporate, UK/I](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?label_name[]=UK%2FI)
+* [Field & Corporate, EMEA](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933459?label_name[]=EMEA)
+* [Field & Corporate, Central Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438243?label_name[]=Central%20Europe&label_name[]=EMEA)
+* [Field & Corporate, UK/I](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?label_name[]=UK%2FI)
 
 Highlighting EMEA because majority of Incubation Engineers reside here. Other regions can be discovered in the Boards dropdown by searching for "Field & Corporate {region_name}".
 
 Additionally, Field Marketing has active Slack channels where events are planned and prepped for. If useful, please consider joining:
 
-- #emea_northern_europe_fieldmarketing
-- #emea_central_europe_fieldmarketing
-- #emea_southern_europe_fieldmarketing
+* #emea_northern_europe_fieldmarketing
+* #emea_central_europe_fieldmarketing
+* #emea_southern_europe_fieldmarketing
 
 ...on Slack. Other relevant channels may be discovered via Slack search.
 
@@ -148,11 +148,11 @@ Those comfortable with external interactions may offer their services to the Fie
 
 ### Quality & Support Guidelines for Incubation Projects
 
-- Is your feature behind a feature flag? It's preferrable that it is.
-- Can your feature be visually labeled as an `incubation` or `experimental` feature without distracting / taking away from the GitLab user experience?
-- Error messages  / stack traces / logs may indicate that this is an `incubation` feature.
-- Before feature flag roll-out, is the feature documented in sufficient detail? Documentation is the first resource for users and support agents working with the feature.
-- Pro-actively reach out and make introductions before feature roll-out / general availability.
+* Is your feature behind a feature flag? It's preferrable that it is.
+* Can your feature be visually labeled as an `incubation` or `experimental` feature without distracting / taking away from the GitLab user experience?
+* Error messages  / stack traces / logs may indicate that this is an `incubation` feature.
+* Before feature flag roll-out, is the feature documented in sufficient detail? Documentation is the first resource for users and support agents working with the feature.
+* Pro-actively reach out and make introductions before feature roll-out / general availability.
 
 ### Security Guidelines for Incubation Projects
 
@@ -160,9 +160,9 @@ Incubation Engineers should familiarize themselves with the [GitLab AppSec Revie
 
 Incubation Engineers are often required to create prototypes or demo applications as they are iterating on ideas and gathering feedback. Below are some security guidelines to keep in mind while building these applications:
 
-- Code for prototypes and demo projects should be hosted in the Incubation Engineering specific `gitlab-incubation-engineering-demos`. This is preferred because projects in a subgroup will inherit configurations from the parent group ([group access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) or [group CI variables](https://docs.gitlab.com/ee/ci/variables/#add-a-cicd-variable-to-a-group) for example), which can result in unintended behavior when an project hasn't accounted for the inherited configurations appropriately.
-- Prototypes and demo projects should follow GitLab's [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
-- Use of [Personal Access Tokens is discouraged](/handbook/security/#tokens), Project Access Tokens are often sufficient.
+* Code for prototypes and demo projects should be hosted in the Incubation Engineering specific `gitlab-incubation-engineering-demos`. This is preferred because projects in a subgroup will inherit configurations from the parent group ([group access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) or [group CI variables](https://docs.gitlab.com/ee/ci/variables/#add-a-cicd-variable-to-a-group) for example), which can result in unintended behavior when an project hasn't accounted for the inherited configurations appropriately.
+* Prototypes and demo projects should follow GitLab's [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
+* Use of [Personal Access Tokens is discouraged](/handbook/security/#tokens), Project Access Tokens are often sufficient.
 
 ### UX Engagement with Incubation Projects
 
@@ -220,7 +220,7 @@ Incubation-adjusted TL;DR:
 1. Vim
 1. GitLab Web IDE
 
-### How do I...
+### How do I
 
 #### Add a new API endpoint?
 

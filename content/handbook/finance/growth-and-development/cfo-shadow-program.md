@@ -24,7 +24,7 @@ To benefit the most from the types of meetings that the CFO attends, it's recomm
 1. Assign your manager and ask them to approve (**but not to merge**) the merge request
 1. Once your manager approves the merge request, assign the merge request to the [Sr EBA to the CFO]({{< ref "eba#e-group-member-ebas" >}})
 
-## Additional Preparation:
+## Additional Preparation
 
 ### Confidentiality
 

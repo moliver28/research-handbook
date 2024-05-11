@@ -152,12 +152,12 @@ So, good idioms must be consciously acquired.
 While *(almost)* any kind of magic is possible with Python, the most explicit and straightforward manner is preferred. Keep it simple and smart.
 
 ```python
-## Bad!
+## Bad
 def foo(*args):
     x, y = args
     return dict(**locals())
 
-## Good!
+## Good
 def bar(x, y):
     return {'x': x, 'y': y}
 ```
@@ -194,7 +194,7 @@ def foo(a, b, c):
     return x  # One single exit point for the returned value x will help
               # when maintaining the code.
 
-## Good!
+## Good
 def bar(a, b, c):
     res = None
     if not a:
@@ -214,11 +214,11 @@ def bar(a, b, c):
 If you know the length of a list or tuple, you can assign names to its elements with unpacking. For example, since `enumerate()` will provide a tuple of two elements for each item in list:
 
 ```python
-# Bad! - can be difficult to read and maintain
+## Bad! - can be difficult to read and maintain
 for index in range(0:len(foo_list)):
     # do something with foo_list[index]
 
-# Good! - this is optimized way to use for loop
+## Good! - this is optimized way to use for loop
 for index, item in enumerate(foo_list):
     # do something with index and item
 ```
@@ -226,39 +226,39 @@ for index, item in enumerate(foo_list):
 You can use this to swap variables as well:
 
 ```python
-# Good!
+## Good
 a, b = b, a
 ```
 
 Nested unpacking works fine as well:
 
 ```python
-# Good!
+## Good
 a, (b, c) = 1, (2, 3)
 ```
 
 New method of extended unpacking was introduced by `PEP 3132`:
 
 ```python
-## Good!
+## Good
 a, *rest = [1, 2, 3]
-# a = 1, rest = [2, 3]
+## a = 1, rest = [2, 3]
 a, *middle, c = [1, 2, 3, 4]
-# a = 1, middle = [2, 3], c = 4
+## a = 1, middle = [2, 3], c = 4
 ```
 
 Ignored variable `_` can be part of unpacking as well:
 
 ```python
-## Bad!
+## Bad
 a, _ , c = [1, 2, 3, 4] # This will raise an error
 
 ## Good! This will work (* is going before _)
 a, *_ , c = [1, 2, 3, 4]
 
-## Good!
+## Good
 _, *rest = [1, 2, 3]
-# rest = [2, 3]
+## rest = [2, 3]
 ```
 
 > **Note:** bad praxis is to unpack more than 3 values. Yes, it is allowed to do that, but will rapidly decrease code readability.
@@ -267,11 +267,11 @@ _, *rest = [1, 2, 3]
 ## Bad! (if you have more than 3 values)
 a, b, c, d = 1, 2, 3, 4
 
-# Good!
+## Good
 a, b, c = 1, 2, 3
 d = 4
 
-# Better!
+## Better
 a = 1
 b = 2
 c = 3
@@ -287,27 +287,27 @@ This section should expose effective techniques to deal with conventions and how
 It is not needed to explicitly compare a value to True, or None, or 0 – you can just add it to the if statement. See Truth Value Testing for a list of what is considered false.
 
 ```python
-## Bad!
+## Bad
 if attr == True:
     print('True!')
 
 if attr == None:
     print('attr is None!')
 
-## Good!
-# Just check the value
+## Good
+## Just check the value
 if attr:
     print('attr is truthy!')
 
-# or check for the opposite
+## or check for the opposite
 if not attr:
     print('attr is falsey!')
 
-# or, since None is considered false, explicitly check for it
+## or, since None is considered false, explicitly check for it
 if attr is None:
     print('attr is None!')
 
-# same goes for dict, list sets:
+## same goes for dict, list sets
 check_list = []
 if check_list:
     print('This is not empty list.')
@@ -323,17 +323,17 @@ There are many ways to do string concatenation. Here is just a short exercise on
 string1 = 'Python'
 string2 = 'Guideline'
 
-## Bad!
+## Bad
 print(string1 + " " + string2)
-# Python Guideline
+## Python Guideline
 
-## Good!
+## Good
 print('{} {}'.format(string1, string2))
-# Python Guideline
+## Python Guideline
 
-## Better!
+## Better
 print(f"{string1} {string2}")
-# Python Guideline
+## Python Guideline
 ```
 
 As you noticed here, the result is the same, but details make a difference. In the example above, we dealt with strings, but what will gonna happen when we introduce more data types within the same code.
@@ -343,17 +343,17 @@ As you noticed here, the result is the same, but details make a difference. In t
 string1 = 'Python'
 int1 = 2 # now, this is int
 
-## Bad!
-# print(string1 + " " + int1)
-# TypeError: can only concatenate str (not "int") to str
+## Bad
+## print(string1 + " " + int1)
+## TypeError: can only concatenate str (not "int") to str
 
-## Good!
+## Good
 print('{} {}'.format(string1, int1))
-# Python 2
+## Python 2
 
-## Better!
+## Better
 print(f"{string1} {int1}")
-# Python 2
+## Python 2
 ```
 
 See why it is better to use placeholders instead of simple string concatenation (ie. `a + b`).
@@ -364,12 +364,12 @@ See why it is better to use placeholders instead of simple string concatenation 
 - `Generator expressions` follows almost the same syntax as list comprehensions but returns a generator instead of a list. This is crucial to remember: performance and memory matter, and it is a great consideration to understand the leverage of using generators where it is appropriate.
 
 ```python
-## Bad!
-# will return a list first and then do the max calculation, the trick is as [] stands for the list
+## Bad
+## will return a list first and then do the max calculation, the trick is as [] stands for the list
 foo = max([(student.id, student.name) for student in graduates])
 
-## Good!
-# will return a generator object first and then do the max calculation till the generator exhausted, the trick is as () stands for the generator object
+## Good
+## will return a generator object first and then do the max calculation till the generator exhausted, the trick is as () stands for the generator object
 bar = max((student.id, student.name) for student in graduates)
 ```
 
@@ -399,39 +399,39 @@ output_list = [output_exp for var in input_list if (var satisfies this condition
 There are plenty of ways to filter an iterables. Let see some of them and how they fit in a high coding standards.
 
 ```python
-## Bad!
-# Never remove items from a list while you are iterating through it.
+## Bad
+## Never remove items from a list while you are iterating through it
 
-# Filter elements greater than 4
+## Filter elements greater than 4
 foo = [3, 4, 5]
 for i in foo:
     if i > 4:
         foo.remove(i)
 
-# Bad!
-## Don’t make multiple passes through the list.
+## Bad
+## Don’t make multiple passes through the list
 
 while i in foo:
     foo.remove(i)
 
-## Good!
-# Use a list comprehension or generator expression.
+## Good
+## Use a list comprehension or generator expression
 
-# comprehensions create a new list object
+## comprehensions create a new list object
 filtered_values = [value for value in sequence if value != x]
 
-# generators don't create another list
+## generators don't create another list
 filtered_values = (value for value in sequence if value != x)
 
-## Good!
-# you can use function as a filter
+## Good
+## you can use function as a filter
 sequence= [1, 2, 3]
 
 def dummy_filter(member: int) -> bool:
  return member != 2
 
 filtered_values = [value for value in sequence if dummy_filter(value)]
-# [1, 3]
+## [1, 3]
 ```
 
 As an alternative, `map` | `filter` | `reduce` functions can be used for this purpose. Handy link is [**Map, Filter and Reduce**](https://book.pythontips.com/en/latest/map_filter.html)
@@ -441,18 +441,18 @@ As an alternative, `map` | `filter` | `reduce` functions can be used for this pu
 Remember that assignment never creates a new object. If two or more variables refer to the same list, changing one of them changes them all.
 
 ```python
-# Add three to all list members.
+## Add three to all list members
 list_a = [3, 4, 5]
 list_b = list_a  # list_a and list_b refer to the same list object
 
 for i in range(len(list_a)):
     list_a[i] += 3 # list_b[i] also changes
 
-# for copying a list, use .copy() method
+## for copying a list, use .copy() method
 list_a = [1, 2, 3]
 
 list_b = list_a.copy()
-# extend list_b as list_a will stay in a original shape
+## extend list_b as list_a will stay in a original shape
 list_b.extend(list_b)
 
 print(F"list_a: {list_a}")
@@ -467,21 +467,21 @@ It’s safer to create a new list object and leave the original alone.
 list_a = [3, 4, 5]
 list_b = list_a
 
-# assign the variable "list_a" to a new list without changing "list_b"
+## assign the variable "list_a" to a new list without changing "list_b"
 list_a = [i + 3 for i in list_a]
 ```
 
 Use `enumerate()` keep a count of your place in the list.
 
 ```Python
-## Good!
+## Good
 foo = [3, 4, 5]
 for i, item in enumerate(foo):
     print(i, item)
-# prints
-# 0 3
-# 1 4
-# 2 5
+## prints
+## 0 3
+## 1 4
+## 2 5
 ```
 
 > **Note:** The `enumerate()` function has better readability than handling a counter manually. Moreover, it is better optimized for iterators.
@@ -491,17 +491,17 @@ for i, item in enumerate(foo):
 Always good advice is to use `context manager` over value assigning when loading data from a file. This approach will automatically close a file for you.
 
 ```python
-## Bad!
+## Bad
 f = open('file.txt')
 a = f.read()
 print(a)
 f.close() # we always forgot something like this.
 
-## Good!
+## Good
 with open('file.txt') as f:
     for line in f:
         print(line)
-# This approach will close a file for you
+## This approach will close a file for you
 ```
 
 ##### Line Continuations/Line Length
@@ -509,7 +509,7 @@ with open('file.txt') as f:
 When a logical line of code is longer than the accepted limit, you need to split it over multiple physical lines. The Python interpreter will join consecutive lines if the last character of the line is a backslash. This is helpful in some cases, but should usually be avoided because of its fragility: a white space added to the end of the line, after the backslash, will break the code and may have unexpected results
 
 ```python
-## Bad!
+## Bad
 my_very_big_string = """When a logical line of code is longer than the accepted limit, \
     you need to split it over multiple physical lines. \
     The Python interpreter will join consecutive lines if the last character of the line is a backslash.”"""
@@ -517,7 +517,7 @@ my_very_big_string = """When a logical line of code is longer than the accepted 
 from some.deep.module.inside.a.module import a_nice_function, another_nice_function, \
     yet_another_nice_function
 
-## Good!
+## Good
 my_very_big_string = (
     "When a logical line of code is longer than the accepted limit, "
     "you need to split it over multiple physical lines. "
@@ -534,7 +534,7 @@ Following [PEP8](https://www.python.org/dev/peps/pep-0008/#blank-lines) we recom
 When starting a `for` loop or `if/else` block, add a new line above the section to give the code some breathing room. Newlines are cheap - [brain time is expensive](https://blog.getdbt.com/write-better-sql-a-defense-of-group-by-1/).
 
 ```python
-## Bad!
+## Bad
 def foo(input_number:int) -> int:
     """
     Do some simple comparing
@@ -545,7 +545,7 @@ def foo(input_number:int) -> int:
     else:
          return res ** 2
 
-## Good!
+## Good
 def bar(input_number:int) -> int:
     """
     Do some simple comparing
@@ -573,7 +573,7 @@ def foo(x, y):
 
     return x + y
 
-## Good!
+## Good
 def foo(x: int, y: int) -> int:
     """
     Add two numbers together and return.
@@ -596,7 +596,7 @@ def bar(some_str: str) -> None:
 Imports should follow the [PEP8](https://www.python.org/dev/peps/pep-0008/#imports) rules and furthermore should be ordered with any `import ...` statements coming before `from .... import ...`
 
 ```python
-## Bad!
+## Bad
 from os import environ
 import logging
 
@@ -609,7 +609,7 @@ import sys
 ```
 
 ```python
-## Good!
+## Good
 import logging
 import sys
 from os import environ
@@ -624,12 +624,13 @@ from another_local_module import something
 Also, linters should help you with this issue: `iSort`, `mypy`, `flake8`, `pylint`.
 
 ##### Docstrings
+
 - Docstrings should be used in every single file.
 - Docstrings should be used in every single function. Since we are using type hints in the function signature there is no requirement to describe each parameter.
 - Docstrings should use triple double-quotes and use complete sentences with punctuation.
 
 ```python
-## Good!
+## Good
 def foo(x: int, y: int) -> int:
     """
     Add two numbers together and return the result.
@@ -647,7 +648,7 @@ def bar(some_str: str) -> None:
     print(some_str)
     return
 
-## Better! Have Docstring on a module level.
+## Better! Have Docstring on a module level
 """
 This is a Docstrings on a module level.
 Should be handy to describe a purpose of your module
@@ -674,7 +675,7 @@ This allows you to pass in any dictionary and have it be compatible while also n
 import os
 from typing import Dict
 
-## Bad!
+## Bad
 def foo(x: int) -> int:
     """
     Add two numbers together and return.
@@ -683,7 +684,7 @@ def foo(x: int) -> int:
     return x + os.environ["y"]
 foo(1)
 
-## Good!
+## Good
 env_vars = os.environ.copy() # The copy method returns a normal dict of the env vars.
 def bar(some_str: str, another_string: str) -> None:
     """
@@ -694,7 +695,7 @@ def bar(some_str: str, another_string: str) -> None:
 
 bar("foo", env_vars["bar"])
 
-## Better!
+## Better
 def bar(some_str: str, env_vars: Dict[str, str]) -> None:
     """
     Print two strings concatenated together.
@@ -711,10 +712,10 @@ bar("foo", env_vars)
 Ideally, never hardcode the date format using datetime.strptime unless absolutely necessary in cases where the format is very unusual. A better solution is to use the generic date parser in the dateutil library, as it handles a large variety of formats very reliably:
 
 ```python
-## Bad !
+## Bad
 datevar = datetime.strptime(tstamp, timestamp_format = "%Y-%m-%dT%H:%M:%S%z")
 
-## Good !
+## Good
 from dateutil import parser as date_parser
  ...
 datevar = date_parser.parse(tstamp)
@@ -750,15 +751,15 @@ def bar(some_str: str, another_string: str) -> None:
     print(some_str + another_string)
     return
 
-## Good!
+## Good
 bar(some_str="foo", another_string="bar")
 
-## Better!
+## Better
 some_str = "foo"
 another_string = "bar"
 bar(some_str, another_string)
 
-## But Bad!
+## But Bad
 bar(some_str=some_str, another_string=another_string)
 ```
 
@@ -805,13 +806,13 @@ When writing a python class to extract data from an API it is the responsibility
 Avoid use of general `try/except` blocks as it is too broad, and will be difficult to find the real error:
 
 ```python
-## Bad!
+## Bad
 try:
    print("Do something")
 except:
    print("Caught every type of exception")
 
-# Good!
+## Good
 while maximum_backoff_sec > (2 ** n):
     try:
         print("Do something")
@@ -865,7 +866,7 @@ New testing file names should follow the pattern `test_*.py` so they are found b
 New testing files should be placed in a directory named `test`, usually under the current working folder. The test directory should share the same parent directory as the file that is being tested. For instance, you are working on integration `xyz`, probably you should have folder structure like following:
 
 ```bash
-# a typical folder structure for xyz integration
+## a typical folder structure for xyz integration
 |-- xyz
     |-- src
         | -- __init__.py
@@ -889,20 +890,20 @@ In the future, additional directories may be added to the `PythonPath` for ease 
 When create a test case, keep it simple and clear. The main point is to have small test cases be able to keep it consistent and easy to maintain..
 
 ```python
-# example when test passed
+## example when test passed
 import pytest
 
 def test_example_pass():
     assert 1 == 1
-# test.py::test_example_pass PASSED
+## test.py::test_example_pass PASSED
 
-# example when test failed
+## example when test failed
 import pytest
 
 def test_example_failed():
     assert 1 == 2
 
-# test.py::test_example_failed FAILED
+## test.py::test_example_failed FAILED
 ```
 
 ##### Using Pytest Fixtures
@@ -917,15 +918,15 @@ def myfixture():
     # define some boring repeatable task needed for test cases
     return "This is my fixture"
 
-# this will pass
+## this will pass
 def test_example(myfixture):
     assert myfixture == "This is my fixture"
-# test.py::test_example PASSED
+## test.py::test_example PASSED
 
-# this will also pass as myfixture is reused
+## this will also pass as myfixture is reused
 def test_example_additional(myfixture):
     assert type(myfixture) == str
-# test.py::test_example_additional PASSED
+## test.py::test_example_additional PASSED
 ```
 
 ##### Parametrized Test Functions
@@ -938,15 +939,15 @@ This enables us to test different scenarios, all in one function. We make use of
 ```python
 import pytest
 
-# here is the magic word to parametrize more than one scenario
+## here is the magic word to parametrize more than one scenario
 import pytest
 
 @pytest.mark.parametrize("test_value, expected_value", [("1+1", 2), ("2+3", 5), ("6*9", 54)])
 def test_eval(test_value, expected_value):
     assert eval(test_value) == expected_value
-# test.py::test_eval[1+1-2] PASSED                                         [ 33%]
-# test.py::test_eval[2+3-5] PASSED                                         [ 66%]
-# test.py::test_eval[6*9-54] PASSED                                        [100%]
+## test.py::test_eval[1+1-2] PASSED                                         [ 33%]
+## test.py::test_eval[2+3-5] PASSED                                         [ 66%]
+## test.py::test_eval[6*9-54] PASSED                                        [100%]
 ```
 
 In other words, you can think of this decorator behaving as a `zip*` function and returning a tuple for the 2 list for more scenarios.
@@ -968,6 +969,7 @@ markers =
     network_access: requires network access
     local_test: can run locally
 ```
+
 - Create a test file
 
 ```python
@@ -981,20 +983,22 @@ def test_network():
 def test_local():
     assert 1 == 1
 ```
+
 - run just `network_access` test(s):
 
 ```bash
-# will fail, just to recognize what we run
+## will fail, just to recognize what we run
 ╰─$ pytest test.py -m network_access
 ...
 collected 2 items / 1 deselected / 1 selected
 
 test.py F
 ```
+
 - run just `local_test` test(s):
 
 ```bash
-# this will pass
+## this will pass
 ╰─$ pytest test.py -m local_test                                                                                                                                                                                                                                                    1 ↵
 ...
 collected 2 items / 1 deselected / 1 selected
@@ -1023,6 +1027,7 @@ def test_slowest():
     sleep(3)  # make it sleep 3s
     assert 1 == 1
 ```
+
 - Calling `pytest`:
 
 ```bash
@@ -1050,9 +1055,9 @@ def test_namespace_file_error(usage_ping):
     with pytest.raises(FileNotFoundError):
         get_meta_data_from_file(file_name="THIS_DOES_NOT_EXITS.json")
 
-# in case this file doesn't exist, the function will raise an exception, and test will pass
+## in case this file doesn't exist, the function will raise an exception, and test will pass
 
-# Also, the handy option is to enrich pytest.raises with match statement
+## Also, the handy option is to enrich pytest.raises with match statement
     with pytest.raises(ValueError, match="Raising error to.*"):
         run_metric_checks()
 ```
@@ -1069,7 +1074,7 @@ import pytest
 import requests
 import responses
 
-# define fake response, use fixture mechanism
+## define fake response, use fixture mechanism
 @pytest.fixture(name="fake_response")
 def mocked_responses():
     """
@@ -1079,7 +1084,7 @@ def mocked_responses():
     yield rsps
 
 
-# test fake response
+## test fake response
 def test_convert_response_to_json(fake_response):
     """
     Test function: convert_response_to_json
@@ -1097,7 +1102,7 @@ def test_convert_response_to_json(fake_response):
 
     assert resp == expected
 
-# Let's combine unitest.mock and pytest.raises
+## Let's combine unitest.mock and pytest.raises
 def test_get_response(utils):
     """
     Force fake url and raise a Connection Error
@@ -1133,14 +1138,14 @@ black .
 If you want to check all files *(without formatting)* in the entire repo or any particular folder of rile using `black`, run:
 
 ```bash
-# for the entire repo, run
+## for the entire repo, run
 $ jump analytics
 $ run black --check .
 
-# for particular folder, run
+## for particular folder, run
 $ run black --check extract/
 
-# for particular folder, run
+## for particular folder, run
 $ run black --check extract/saas_usage_ping/usage_ping.py
 ```
 
@@ -1151,7 +1156,7 @@ $ run black --check extract/saas_usage_ping/usage_ping.py
 > Mypy is an optional static type checker for `Python` that aims to combine the benefits of dynamic *(or `duck`)* typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs.
 
 ```bash
-# Run mypy for extract/ folder
+## Run mypy for extract/ folder
 mypy extract/ --ignore-missing-imports
 ```
 
@@ -1174,7 +1179,7 @@ flake8 . --ignore=E203,E501,W503,W605
 `Pylint` is highly configurable and permits to write plugins in order to add your own checks *(for example, for internal libraries or an internal rule)*. Pylint also has an ecosystem of existing plugins for popular frameworks and third party libraries.
 
 ```bash
-# we use pylint and exclude some of check to reduce the noise (ie. line-too-long)
+## we use pylint and exclude some of check to reduce the noise (ie. line-too-long)
 pylint extract/ --ignore=analytics/dags --disable=line-too-long,E0401,E0611,W1203,W1202,C0103,R0801,R0902,W0212
 ```
 

@@ -22,7 +22,7 @@ To view the FY23 Marketing Plan, go here: [https://about.gitlab.com/handbook/mar
 The purpose of this handbook page is to align our marketing team on a single FY22 marketing plan. This page and the FY22 plan are intended to be an ongoing work-in-progress, contributed to by the entire team throughout FY22 to foster collaboration and focus.
 
 Everyone can contribute. See something you'd like to discuss or iterate on? Start an MR and tag @jgragnola, @lblanchard, or @darawarde to assist with merging!
-### Marketing Strategy:
+### Marketing Strategy
 
 - Create the DevOps Platform Category
 - Support sales in land and expand motion:
@@ -30,13 +30,13 @@ Everyone can contribute. See something you'd like to discuss or iterate on? Star
    - Tops down with purpose tops down marketing to owners of DevOps Tools, CTO, CIO, CISO, VP of Application Development
    - Land and expand requires both bottoms up and tops down
 
-#### Marketing Pillars:
+#### Marketing Pillars
 
 1. Elevate our brand messaging and product positioning
-1. Increase Funnel Volume to drive Pipeline 
-1. Maintain team member delight through strong collaboration and prioritization 
+1. Increase Funnel Volume to drive Pipeline
+1. Maintain team member delight through strong collaboration and prioritization
 
-### Goal of FY23 Marketing Plan:
+### Goal of FY23 Marketing Plan
 {: #goal}
 
 <!-- DO NOT CHANGE ANCHOR -->
@@ -80,10 +80,10 @@ Internal only - search for `GTM Slides - w Data`
 <!-- DO NOT CHANGE ANCHOR -->
 
 * Quarterly Epic to present a proposed set of sales plays to deliver across the 3 GTM Motions
-    - PMMs list their proposed sales plays along with expected delivery dates in the Epic 
-    - Sales Enablement (@dcsomers @tanuja) review the proposed delivery dates and add expected dates for enablement sessions. 
-    - Sales Leadership (@mpyle @ronell) review the proposed plays and approve or provide input/requests on changes. 
-    - If plans/priorities change they will be communicated at minimum via a comment in the issue/Epic as the SSoT. 
+    - PMMs list their proposed sales plays along with expected delivery dates in the Epic
+    - Sales Enablement (@dcsomers @tanuja) review the proposed delivery dates and add expected dates for enablement sessions.
+    - Sales Leadership (@mpyle @ronell) review the proposed plays and approve or provide input/requests on changes.
+    - If plans/priorities change they will be communicated at minimum via a comment in the issue/Epic as the SSoT.
 * Once agreed between sales and marketing, add campaign and enablement dates to [calendar](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1300837366) as the SSoT
 
 ### TOPO Marketing Model
@@ -109,7 +109,7 @@ All FY22 Marketing budgets are loaded into Allocadia. Please refer to the [Alloc
 - <b>[GTM Motion Core Team](/handbook/marketing/plan-fy22/#core-teams)</b>: a group of marketers as functional DRIs for specific GTM strategies, campaigns, and aligned Sales Plays
 - <b>[Theme](/handbook/marketing/plan-fy22/#themes)</b>: time-bound "push" in marketing calendar (example: focus on Partner Showcase in a specific month)
 - <b>[Solution GTM Strategy](/handbook/marketing/plan-fy22/#solution-gtm-strategy)</b>: a document that describes what problem the solution solves for customers, buyer personas, messaging, positioning, and relevant competitive points. This doc is used to inform content for the Sales Play (sales audience) and the GTM Motion campaign (marketing audience).
-- <b>[Sales Play](/handbook/marketing/plan-fy22/#sales-plays)</b>: A repeatable set of steps a sales rep can take to drive revenue. The Sales Play document includes background information such as which company profiles and personas to target, messaging and positioning, and resources to utilize along with the specific steps to take. 
+- <b>[Sales Play](/handbook/marketing/plan-fy22/#sales-plays)</b>: A repeatable set of steps a sales rep can take to drive revenue. The Sales Play document includes background information such as which company profiles and personas to target, messaging and positioning, and resources to utilize along with the specific steps to take.
 - <b>[GTM Motion Campaign](/handbook/marketing/plan-fy22/#gtm-motion-campaign)</b>: campaign briefing document used to communicate relevant info to internal and external marketing teams to generate demand for solutions (aka GTM Motions) (aligned to sales playbooks).
 - <b>[GTM 4x2](/handbook/marketing/plan-fy22/#gtm-4x2)</b>: document used to ensure that sales and marketing are aligned on all aspects of the strategy for different market segments
 - <b>[Prescriptive Buyer Journey](/handbook/marketing/prescriptive-buyer-journeys/)</b>: content aligned to buyer journey stages, leveraged in email nurture, digital marketing, and more
@@ -185,7 +185,7 @@ May include:
 
 A sales play's intended audience is sales (SAEs, SAs, CSMs, SDR as applicable) to arm the sales teams as a part the outbound motion. In some cases, there will also be inbound marketing campaign component. The playbook prepares the sales person with both prescriptive actions to take as part of the outbound motion, as well as how to respond in the case of a supporting inbound marketing campaign.
 
-The Sales Play should include (at minimum):  
+The Sales Play should include (at minimum):
 - Context (promise/offer)
 - Who to meet with
 - What to say
@@ -236,7 +236,7 @@ Campaigns and Sales Plays.
 {: #roles-responsibilities}
 <!-- DO NOT CHANGE ANCHOR -->
 
-* **Team Captain:** Scrum Leader for the team Responsible for project planning and backlog refinement. Provides updates and participates in the scrum of scrums. Responsible for ensuring that due dates and timelines are defined and committed to by team members performing the work.  
+* **Team Captain:** Scrum Leader for the team Responsible for project planning and backlog refinement. Provides updates and participates in the scrum of scrums. Responsible for ensuring that due dates and timelines are defined and committed to by team members performing the work.
 * **Product Marketing:** Responsible for the Solution GTM Strategy including narrative, messaging, and positioning. DRI for sales plays. Marketing DRI for Sales and SDR enablement . DRI for buyer and influencer personas. Responsible for fostering participation of the entire team in the research, positioning, messaging, general strategy.
 * **Marketing Campaigns:** DRI for marketing campaigns, both for overall GTM motions and campaigns related to Sales Plays. Responsible for the production of lead generation campaigns and rallying relevant teams and team members to deliver integrated marketing plans.
 * **Technical Marketing:** Responsible for technical narrative and value proposition. DRI for practitioner personas. DRI for Customers Success enablement including SAs, CSMs, and Support. Responsible for technical content production such as demos, blogs, workshops, webinars, etc.
@@ -316,7 +316,7 @@ These events are a great opportunity to test new messaging, discuss new product 
 * Define survey questions, when necessary for virtual booths
 
 **Responsibilities: Campaigns Team**
-* Email communication and invitation strategy 
+* Email communication and invitation strategy
 * Review email communications, including invitations and follow up, for conversion best practices (subject lines, format, CTAs, design)
 * Define follow up strategy via lead nurturing to heat up to MQL
 * (Verticurl Agency) Tactical email setup in Marketo

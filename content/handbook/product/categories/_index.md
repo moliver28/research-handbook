@@ -107,7 +107,7 @@ Capabilities can refer to stages, categories, or features, but not solutions.
 Adding more layers to the hierarchy would give it more fidelity but would hurt
 usability in the following ways:
 
-1. Harder to keep the [interfaces](#Interfaces) up to date.
+1. Harder to keep the [interfaces](#interfaces) up to date.
 1. Harder to automatically update things.
 1. Harder to train and test people.
 1. Harder to display more levels.
@@ -293,6 +293,7 @@ Maybe we should make our features easier to search to replace the section below.
 ### Other functionality in [Plan](/handbook/product/categories/#plan-stage) stage
 
 #### [Project Management group](/handbook/product/categories/#project-management-group)
+
 - assignees
 - milestones
 - due dates
@@ -334,9 +335,11 @@ Maybe we should make our features easier to search to replace the section below.
 ### Other functionality in [Manage](/handbook/product/categories/#manage-stage) stage
 
 ### Other functionality in [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
+
 - [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
 ### Other functionality in [Test Platform](/handbook/engineering/infrastructure/test-platform/)
+
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
@@ -348,6 +351,7 @@ Internal Customers: [Gitaly](#gitalycluster-group), [Core Platform section](#cor
 ### Other functionality in [Analytics](/handbook/product/categories/#analytics-stage)
 
 #### [Product Analytics group](/handbook/product/categories/#product-analytics-group)
+
 - [Analytics Dashboards](https://docs.gitlab.com/ee/user/product_analytics/#product-analytics-dashboards) - used by many groups to add visualizations or provide pre-configured dashboards to users
 
 ### Facilitated functionality
@@ -363,8 +367,8 @@ While the mental models for these areas are maintained by specific stage groups,
 
 If you encounter an issue falling into a facilitated area:
 
-* For issues that relate to updating the guidelines, apply the `group::category` label for the facilitating group.
-* For issues that relate to adding content related to a facilitated area, apply the `group::category` label for the most closely related group. For example, when adding a new setting related to Merge Requests, apply the `group::source code` label.
+- For issues that relate to updating the guidelines, apply the `group::category` label for the facilitating group.
+- For issues that relate to adding content related to a facilitated area, apply the `group::category` label for the most closely related group. For example, when adding a new setting related to Merge Requests, apply the `group::source code` label.
 
 ### Shared responsibility functionality
 

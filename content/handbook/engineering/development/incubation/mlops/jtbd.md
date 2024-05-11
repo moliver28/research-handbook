@@ -19,7 +19,7 @@ While MLOps goals is the exact same as DevOps, the JTBD are a result of the diff
 
 When working with software that includes Machine Learning, I want be able to iterate on the models with confidence, so that I can deliver the most value to my users.
 
-## MLOps JTBD per stage     
+## MLOps JTBD per stage
 
 ### Plan
 

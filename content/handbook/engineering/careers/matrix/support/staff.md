@@ -3,7 +3,7 @@ title: "Support Career Framework: Staff Support Engineer"
 ---
 
 ## Support Staff Support Engineer
- 
+
  {{% include "includes/engineering-careers/support-career-nav.md" %}}
 
 **Staff Support Engineers at GitLab are expected to exhibit the following competencies:**
@@ -28,6 +28,6 @@ title: "Support Career Framework: Staff Support Engineer"
 - Frequently submits fixes for customer-impacting issues
 - Creates tooling to improve the efficacy of GitLab Support
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}

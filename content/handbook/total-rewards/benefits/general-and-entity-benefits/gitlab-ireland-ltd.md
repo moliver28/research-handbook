@@ -7,7 +7,7 @@ description: "Discover GitLab's benefits for team members in Ireland"
 
 GitLab offers a private medical plan through VHI which gives you access to cutting-edge medical treatments, health screenings and protection against the high medical costs of private care. GitLab covers 100% of the premiums for team members and eligible dependents.
 
-Please see the [brochure](https://drive.google.com/file/d/1s2Wa8K1tJm9E720ml5r1eJehjkQjIx-p/view?usp=sharing) to help guide you through the range of benefits and services available.  
+Please see the [brochure](https://drive.google.com/file/d/1s2Wa8K1tJm9E720ml5r1eJehjkQjIx-p/view?usp=sharing) to help guide you through the range of benefits and services available.
 
 For a full breakdown of plan descriptions please review the following [Company Plan Plus Level 1.3 details](https://drive.google.com/file/d/1pnyWAp71MMYzdsUm1rk0o4gq7k8cdvJO/view?usp=sharing) and [Table of Benefits](https://drive.google.com/file/d/1-0cfnrKSTyQIyAEro3wR7i2aBLHsvXEv/view?usp=sharing).
 
@@ -168,9 +168,9 @@ Team Members may also be eligible for Ireland's [Illness Benefit](https://www.ci
 
 Relevant parents can take paternity leave. These are:
 
-    - The father of the child
-    - The partner (spouse, civil partner or cohabitant) of the mother of the child
-    - The parent of a donor-conceived child
+- The father of the child
+- The partner (spouse, civil partner or cohabitant) of the mother of the child
+- The parent of a donor-conceived child
 
 **Parent’s Leave:** All team members who qualify as [“relevant parents”](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/parents_leave.html) can take up to 7 weeks of Parent's Leave during the first 2 years of their child's life, or within 2 years of the adoption event. Leave may be taken in one continuous period, or in several periods of not less than one week.
 

@@ -72,43 +72,43 @@ We have four main processes:
 
 ##### Stage-wide GTM & Strategy Positioning
 
-* **Frequency**: Twice a year
-* **Audience**: Internal
-* **Assets Produced**: Deck, Recording, and Issue Boards
-* **Goal**:  Deliver a 30-minute recording that aligns the half-year product strategy of the stage with the GTM sales motion and competitive landscape. Include any assets that will be helpful to sales teams for pitches and product managers for early selling in prospect calls.
+- **Frequency**: Twice a year
+- **Audience**: Internal
+- **Assets Produced**: Deck, Recording, and Issue Boards
+- **Goal**:  Deliver a 30-minute recording that aligns the half-year product strategy of the stage with the GTM sales motion and competitive landscape. Include any assets that will be helpful to sales teams for pitches and product managers for early selling in prospect calls.
 
 We recently conducted our first joint stage-wide PMM and Product Positioning for F[Y22 1H](https://youtu.be/B03ke3WlnaE), alongside a [deck](https://docs.google.com/presentation/d/1K0QXBtW48UbG7uQMaTa83X99RIbDXuY0tFYynSyuSGo/edit).
 
 ##### Sales Enablement
 
-* **Frequency**: Quarterly
-* **Audience**: Internal
-* **Assets Produced**: Deck and Recording
-* **Goal**:  Deliver 10-30 minute recordings on various product topics for use in field enablement.
+- **Frequency**: Quarterly
+- **Audience**: Internal
+- **Assets Produced**: Deck and Recording
+- **Goal**:  Deliver 10-30 minute recordings on various product topics for use in field enablement.
 
 We recently participated in a discussion of building the bench for technical topics via [cs-skill#116](https://gitlab.com/gitlab-com/sales-team/cs-skills-exchange/-/issues/116). These types of sessions would then be used in partnership with PMM to help build compelling stories for the Field.
 
 ##### Roadmap Alignment for Product Group
 
-* **Frequency**: Quarterly
-* **Audience**: External
-* **Assets Produced**: Recording
-* **Goal**:  Deliver 10-30 minute recordings on various product topics for use in webinars, partner calls, or whitepapers.
+- **Frequency**: Quarterly
+- **Audience**: External
+- **Assets Produced**: Recording
+- **Goal**:  Deliver 10-30 minute recordings on various product topics for use in webinars, partner calls, or whitepapers.
 
 These are intended to help guide themes and present opportunities to build stories in the market and not commitments, otherwise, these would be scheduled for a milestone.
 
 ##### Release Post & Market Postioning for Features
 
-* **Frequency**: Monthly
-* **Audience**: External
-* **Assets Produced**: Copy/text
-* **Goal**:  Deliver written communication in Merge Requests with Product Manager in the Release Post Items or blog posts.
+- **Frequency**: Monthly
+- **Audience**: External
+- **Assets Produced**: Copy/text
+- **Goal**:  Deliver written communication in Merge Requests with Product Manager in the Release Post Items or blog posts.
 
 We sometimes ship feature specific blog posts such as [Moving CI to Lovable...again](https://about.gitlab.com/blog/2021/02/22/continuously-improving-ci-lovability/) or this expose on [the Pipeline Editor](https://about.gitlab.com/blog/2021/02/22/pipeline-editor-overview/). These are great opportunities to include PMM alongside the [Release Post review and positioning](/handbook/marketing/blog/release-posts/#pmm-reviewers).
 
 #### Customer Success & Renewal Engagement
 
-We have a CS <> Product feedback loop for Customer Success (SA/CSM) and Product Managers to sync on product feedback from prospects and customers. On a monthly cadence, we meet to discuss problems to solve as captured in issues created in the [cs-product-feedback ](https://gitlab.com/gitlab-com/cs-product-feedback) project and consolidated on this [issue board](https://gitlab.com/gitlab-com/cs-product-feedback/-/boards).
+We have a CS <> Product feedback loop for Customer Success (SA/CSM) and Product Managers to sync on product feedback from prospects and customers. On a monthly cadence, we meet to discuss problems to solve as captured in issues created in the [cs-product-feedback](https://gitlab.com/gitlab-com/cs-product-feedback) project and consolidated on this [issue board](https://gitlab.com/gitlab-com/cs-product-feedback/-/boards).
 
 #### Alliances Engagement
 

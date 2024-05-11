@@ -13,6 +13,7 @@ This document covers architectures that support GitLab.com functions, but are no
 
 
 ## dev.gitlab.org
+
 {: #dev-gitlab-org}
 
 Dev.gitlab.org is a GitLab instance hosted in Azure. The instance is running a vanilla GitLab Community Edition package, from a [nightly build] built from main branch of all GitLab components. The instance is automatically upgraded daily using the cron defined in the [gitlab-server] cookbook with a role override set in the [chef-repo][chef-repo dev] role (GitLab internal only).
@@ -40,6 +41,7 @@ These backups are automatically uploaded to an AWS S3 bucket configured in the s
 [Source](https://drive.google.com/file/d/1tG8rxbv7xRxShXdJGQEX1hBzW-mRel6J/view?usp=sharing), GitLab internal use only
 
 ## ops.gitlab.net
+
 {: #ops-gitlab-net}
 
 Ops.gitlab.net is a GitLab instance hosted in GCP. The instance is running a vanilla GitLab EE package, from the [official release channel][ee repo]. The instance is automatically upgraded using the cron defined in the [gitlab-server] cookbook with a role override set in the [chef-repo][chef-repo ops] role (GitLab internal only).

@@ -43,9 +43,9 @@ The [Snowflake Quick Tour of the Web Interface](https://docs.snowflake.com/en/us
 
 ### ABORT_DETACHED_QUERY
 
-[ABORT_DETACHED_QUERY](https://docs.snowflake.com/en/sql-reference/parameters#abort-detached-query) parameter is set on account level to `True`. 
+[ABORT_DETACHED_QUERY](https://docs.snowflake.com/en/sql-reference/parameters#abort-detached-query) parameter is set on account level to `True`.
 
-We often have cases where the connectivity was lost and the query keeps trying to run and still does not complete. It is meaningless for the query to keep running in these cases and adds no value. There is a grace period of 5 mins. If the connectivity isn’t fixed in 5 mins now, it stops the execution after the 5 mins so the warehouses won’t be running unnecessarily. 
+We often have cases where the connectivity was lost and the query keeps trying to run and still does not complete. It is meaningless for the query to keep running in these cases and adds no value. There is a grace period of 5 mins. If the connectivity isn’t fixed in 5 mins now, it stops the execution after the 5 mins so the warehouses won’t be running unnecessarily.
 
 ## Snowflake SNS integration for snowflake snowpipe and task for failure
 

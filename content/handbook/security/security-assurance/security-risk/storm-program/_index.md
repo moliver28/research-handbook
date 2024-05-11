@@ -388,6 +388,7 @@ In the cases where a risk owner has opted to pursue a risk acceptance, the follo
 |-----|-----|
 |VERY HIGH|Risk Owner + VP Level Approval* + E-group Level Approval|
 |HIGH/MODERATE|Risk Owner + VP Level Approval*|
+
 `*` If the Risk Owner is a VP, no additional VP level approval is required
 
 By accepting the risk, the Risk Owner and risk acceptance approvers (if separate from Risk Owner), agree to reassess the risk on an annual basis to determine whether risk acceptance is the best response option for the respective risk. If risk acceptance is appropriate based on the annual assessment, approvals will be re-obtained based on the risk and approval requirements noted in the table above. Additionally, the Risk Owner will be on point for remediation in the event the risk is realized or risk acceptance is no longer appropriate.

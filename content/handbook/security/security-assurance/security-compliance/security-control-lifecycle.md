@@ -73,7 +73,7 @@ Controls that are tested with no observations noted during that testing activity
 
 Controls in an operating state will still need to be re-tested annually or quarterly (as determined by the risk rating of the control) to ensure no substantive changes have occured which would impact the design or operating effectiveness of that control; controls move from the operating state back into the preparation state to prepare the control for the next iteration of testing.
 
-##### *For a listing of application/systems that are currently in-scope for Security Compliance Testing, reference [FY24 Security Compliance Audit Schedule](https://docs.google.com/spreadsheets/d/16Bd5bYG61RDw5t77_Tte8ykG4YARJa5stK2qcdm2CbI/edit#gid=0). Even though [transparency is one of our values]({{< ref "values#transparency" >}}), we are unable to share this document [publicly]({{< ref "confidentiality-levels#not-public" >}}).
+##### *For a listing of application/systems that are currently in-scope for Security Compliance Testing, reference [FY24 Security Compliance Audit Schedule](https://docs.google.com/spreadsheets/d/16Bd5bYG61RDw5t77_Tte8ykG4YARJa5stK2qcdm2CbI/edit#gid=0). Even though [transparency is one of our values]({{< ref "values#transparency" >}}), we are unable to share this document [publicly]({{< ref "confidentiality-levels#not-public" >}})
 
 ## Exceptions
 

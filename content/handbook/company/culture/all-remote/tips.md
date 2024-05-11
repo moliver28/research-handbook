@@ -234,6 +234,6 @@ Here's how you can participate:
 - [Create an issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues) if you have any questions or if you see an inconsistency.
 - Help spread the word about all-remote organizations by sharing it on social media.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).
