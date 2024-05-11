@@ -470,7 +470,7 @@
 /content/job-families/product/ux-researcher.md @asmolinski2
 
 [product-ai]
-/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @gitlab-com/egroup @hbenson @dfrhodes @tichen @tmccaslin
+/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @hbenson @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[product-dev-flow]
 /content/handbook/product-development-budgeting.md @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista

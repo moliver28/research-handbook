@@ -45,7 +45,7 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 1.7 “**Free Software**” means Software provided by GitLab to an End User, Partner, or any other third party: (i) at no, or a greatly reduced, cost, and (ii) for the sole purpose(s) of evaluation, demonstration, piloting, testing, NFR (Not-For-Resale), and/or other elements non “commercial related”. “Commercial related” shall include, but not be limited to, internal use, resale, and/or distribution of the Software.
 
-1.8 “**Order Form**” means a transactional document agreed to between the Parties which states the Products and Services being purchased, term of use, price, and other applicable transaction details.
+1.8 “**Order Form**” means a transactional document agreed to between the Parties which states the Products and Services being purchased, term of use, price, and other applicable transaction details.  
 
 1.9 “**Partner Portal**” means GitLab Partner website located at <https://partners.gitlab.com/>, which contains relevant Partner Program information, documents, guidelines and terms.
 
@@ -139,7 +139,7 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 8.1.3 use, distribute, copy, duplicate, or otherwise reproduce all or any part of the Products and Services other than as permitted, and in strict accordance with, the terms of this Agreement and the Exhibits; and/or
 
-8.1.4 use any GitLab Confidential Information or GitLab intellectual property to create, distribute, sell, license, market or promote any Partner technology or service or any third-party technology without the prior written approval from GitLab.
+8.1.4 use any GitLab Confidential Information or GitLab intellectual property to create, distribute, sell, license, market or promote any Partner technology or service or any third-party technology without the prior written approval from GitLab.  
 
 8.2 Partner represents, warrants and covenants that it shall not, nor will it permit others to, take any action that is intended, or would reasonably be expected, to harm GitLab or its reputation or which would reasonably be expected to lead to unwanted or unfavorable publicity to GitLab.
 
@@ -278,11 +278,11 @@ Pursuant to the terms of the Agreement, this Reseller Partnership Exhibit (“Re
 
 Unless otherwise specifically set forth herein, capitalized terms used in this Reseller Exhibit shall have the meaning defined within the Agreement.
 
-1.1 “**Authorized Distributor**” means an entity with a binding agreement with GitLab under which it is authorized to distribute Products and Services to Authorized Resellers directly or through an Authorized Marketplace, within the Authorized Distributor’s Territory. For the avoidance of doubt, without GitLab’s prior written consent, Authorized Distributors are not entitled to promote, sell, and/or distribute the Products and Services on any unauthorized marketplaces or any third-party service.
+1.1 “**Authorized Distributor**” means an entity with a binding agreement with GitLab under which it is authorized to distribute Products and Services to Authorized Resellers directly or through an Authorized Marketplace, within the Authorized Distributor’s Territory. For the avoidance of doubt, without GitLab’s prior written consent, Authorized Distributors are not entitled to promote, sell, and/or distribute the Products and Services on any unauthorized marketplaces or any third-party service.  
 
 1.2 “**Authorized Marketplace**” means an electronic marketplace operated by an Authorized Distributor or other GitLab partner under which it is authorized to distribute Products and Services to Authorized Resellers through such electronic marketplace as set forth in a written agreement between GitLab and such Authorized Distributor and/or GitLab partner.
 
-1.3 “**Authorized Reseller**” means an entity with a binding agreement with GitLab under which it is authorized to Resell Products and Services to End Users, within the Authorized Reseller’s Territory. For the avoidance of doubt, Authorized Resellers do not have the right to Resell Products and Services to, (i) other Authorized Resellers or third parties other than an End User, and/or (ii) on any unauthorized marketplace or any third-party service.
+1.3 “**Authorized Reseller**” means an entity with a binding agreement with GitLab under which it is authorized to Resell Products and Services to End Users, within the Authorized Reseller’s Territory. For the avoidance of doubt, Authorized Resellers do not have the right to Resell Products and Services to, (i) other Authorized Resellers or third parties other than an End User, and/or (ii) on any unauthorized marketplace or any third-party service.  
 
 1.4 “**GitLab Customer**” means an existing customer of GitLab’s Products and Services, or a known potential customer of GitLab, as evidenced by inclusion in GitLab’s internal customer relationship management system or such other tools as may be used by GitLab to track such information.
 
@@ -345,7 +345,7 @@ Unless otherwise specifically set forth herein, capitalized terms used in this R
 
 3.1 Partner may notify GitLab through a submission on the Partner Portal of the Resell Opportunity within the Territory (“**Deal Registration Form**”). GitLab will respond to the Deal Registration Form and provide written confirmation that it wishes to authorize the Resale of Products and Services (at its sole discretion) (“**Approval**”). GitLab will use commercially reasonable efforts to provide rejection or Approval. In the event of Approval, GitLab shall provide information regarding whether the opportunity will be treated as a Partner Sourced Opportunity or Partner Co-Sell Opportunity. Rejection of a Resell Opportunity may be caused by, but not limited to: (i) the Resell Opportunity already being actively pursued by GitLab, (ii) an End User that GitLab does not wish to be associated, including but not limited to, entities located in proscribed countries or which may represent a potential export, trade or legal risk to GitLab; or (iii) written Approval is not communicated by GitLab.
 
-3.2 Upon receipt of an Approval, GitLab will enter into either: (i) an Order Form with an Authorized Distributor for the applicable Products and Services to be provided to Partner, or (ii) an Order Form with Partner for the applicable Products and Services if being purchased directly from GitLab. The Order Form between GitLab and Partner will include reference to: (i) the Agreement and Reseller Exhibit, (ii) the name and address of the End User, (iii) the Products and Services to be Resold by Partner including: (a) quantity, (b) price, and (c) term of the Products and Services. In addition, the Order Form will state any other specific terms and conditions to be entered into between the Parties. Any terms stated by Partner in a purchase order (or similar document) provided by Partner in connection with the Resale of any Products and Services shall be null and void, and are expressly rejected by the Parties.
+3.2 Upon receipt of an Approval, GitLab will enter into either: (i) an Order Form with an Authorized Distributor for the applicable Products and Services to be provided to Partner, or (ii) an Order Form with Partner for the applicable Products and Services if being purchased directly from GitLab. The Order Form between GitLab and Partner will include reference to: (i) the Agreement and Reseller Exhibit, (ii) the name and address of the End User, (iii) the Products and Services to be Resold by Partner including: (a) quantity, (b) price, and (c) term of the Products and Services. In addition, the Order Form will state any other specific terms and conditions to be entered into between the Parties. Any terms stated by Partner in a purchase order (or similar document) provided by Partner in connection with the Resale of any Products and Services shall be null and void, and are expressly rejected by the Parties.  
 
 3.3 Once an Order Form has been entered into, GitLab will issue the applicable Products and Services, including applicable software license key, to the End User.
 
