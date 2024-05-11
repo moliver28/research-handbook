@@ -32,7 +32,6 @@
 /content/handbook/about/ @gitlab-com/content-sites
 /content/handbook/content-websites/ @gitlab-com/content-sites
 /content/handbook/editing-handbook/ @gitlab-com/content-sites
-/content/handbook/markdown-guide/ @gitlab-com/content-sites
 
 ^[Acquisitions]
 /content/handbook/acquisitions/ @eliran.mesika
@@ -93,7 +92,7 @@
 /content/handbook/ceo/office-of-the-ceo/readmes/yyugitlab.md @yyugitlab
 
 ^[customer-success]
-/content/handbook/customer-success/ @spatching @christiaanconover @mrleutz
+/content/handbook/customer-success/ @spatching @mrleutz
 /content/handbook/customer-success/csm/segment/cse/ @afrusciano @esivak @ofalk
 /content/handbook/customer-success/professional-services-engineering/ @bryan-may @klake
 /content/handbook/customer-success/professional-services-engineering/education-services/ @scottcosentinogitlab @nshah19
@@ -471,7 +470,7 @@
 /content/job-families/product/ux-researcher.md @asmolinski2
 
 [product-ai]
-/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @gitlab-com/egroup @hbenson @dfrhodes @tichen @tmccaslin
+/content/handbook/product/ai/continuity-plan.md @robin @ktesh @m_taylor @hbenson @dfrhodes @tichen @tmccaslin @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[product-dev-flow]
 /content/handbook/product-development-budgeting.md @david @sabrinafarmer @timzallmann @justinfarris @hbenson @mflouton @steve-evangelista

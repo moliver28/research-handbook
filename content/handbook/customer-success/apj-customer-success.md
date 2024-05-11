@@ -99,7 +99,7 @@ The CS team has also been building out a web-application to visualise the inform
 
 - Podcasts
 
-# Meetings & Structure
+## Meetings & Structure
 
 Our open-door policy encourages any discussion point, concern, suggestion, proposal and/or idea to be brought forward in any APJ Customer Success meeting in a positive and open manner.
 

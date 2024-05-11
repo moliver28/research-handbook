@@ -8,7 +8,7 @@ title: "Access Requests (AR) FAQs"
 - Please @ mention `@gitlab-com/business-technology/end-user-services` in the issue, with no particular SLA.
 - If your request is urgent, @ mention `it-help`in the #it_help channel in slack with a note on why it is urgent.
 
-## I need access!
+## I need access
 
 #### My AR request has been open for a while, how can I get traction on it?
 
@@ -32,7 +32,7 @@ title: "Access Requests (AR) FAQs"
 1. If you need help, please ask IT-Ops in the slack channel #it-help with a link to the issue you need help with.
 1. Only ask for the least amount of access to do the work.
 
-#### Do I need manager approval? Sometimes!
+#### Do I need manager approval? Sometimes
 
 You don't need manager approval if you are requesting the following:
 
@@ -57,7 +57,7 @@ You might already have it: [Test if you have a dev account.](https://dev.gitlab.
 
 You don't need to open an access request for Zendesk light access. [Follow the instructions to get access by email](/handbook/support/internal-support/#viewing-support-tickets)
 
-#### I need to add an email alias, or name change.
+#### I need to add an email alias, or name change
 
 Please use the [`slack_googlegroup_1password` AR template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/issues/new?issuable_template=slack_googlegroup_1Passwordgroupvault) for any email alias additions or name changes.
 There are no restrictions on what can be requested, or how many, but please include a short explanation for the addition or change. Some alias requests may be denied if deemed inappropriate or at the discretion of operations.

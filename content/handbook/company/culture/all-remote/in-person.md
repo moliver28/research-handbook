@@ -165,6 +165,6 @@ Leadership should be mindful of personal strain placed on team members when they
 
 Anyone can test their knowledge on considerations for in-person interactions in a remote company by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSdJF6Gdal_o6g4a3qAwwas9glPMOQAiPDvPNbz3GQI5E5cvaw/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

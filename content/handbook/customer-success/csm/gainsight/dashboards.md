@@ -121,7 +121,7 @@ This dashboard is a means for the CSMs to easily answer: 'how I am doing towards
 
 ---
 
-#### 1st Section Reports:
+#### 1st Section Reports
 
 1. **Account Breakdown by CSM and Priority**
     1. Count of P1, P2 and P3 customers per CSM

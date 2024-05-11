@@ -192,6 +192,6 @@ Each of these platforms support search via hashtag. Be aware that many results w
 
 Working in an all-remote environment is unique. Be sure to read over the distinct [benefits]({{< ref "remote-benefits" >}}) and [drawbacks]({{< ref "./drawbacks" >}}) when considering if such a setting is ideal for you.
 
-- - -
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

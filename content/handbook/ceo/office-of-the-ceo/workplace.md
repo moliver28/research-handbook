@@ -482,6 +482,6 @@ For a good template to roll this out for your team, see the [Growth team's plann
 
 - Slack: Find us in `#remote`, `#teamops`, and `#ceo-chief-of-staff-team`
 
-----
+---
 
 Return to the [Office of the CEO Handbook]({{< ref office-of-the-ceo >}}).

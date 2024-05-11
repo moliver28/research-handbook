@@ -62,15 +62,15 @@ In line with our [Collaboration](https://handbook.gitlab.com/handbook/values/#co
 
 **Note**: Goal is not to solve the problems we have in the meeting, rather to discuss and share ideas and thoughts. For deep discussions, follow-up meetings should be scheduled with interested Team Members.
 
-### Meeting Cadence:
+### Meeting Cadence
 
 We strive to meet every three weeks, alternating between AMER and APAC time zones to facilitate consistent knowledge sharing and collaboration across functional analysts.
 
-### Sign Up for Presenters:
+### Sign Up for Presenters
 
 We will collect sign ups and coordinate meeting schedules & facilitators in this [sheet](https://docs.google.com/spreadsheets/d/1L1oFCzmjUT6HWi1DNOa31WISqVfHOMXp924e__Ao4Pg/edit#gid=1615918759)
 
-### Meeting Documentation:
+### Meeting Documentation
 
 - **[Agenda](https://docs.google.com/document/d/1H1AI-rwcubZ2UYuf8JGUiMUb7gLoeDXuPQ6Kmfyc2iE/edit#heading=h.2e7gftq6eevx)**
   - We collect notes, presentations, and Q&A during sessions.

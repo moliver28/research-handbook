@@ -29,7 +29,7 @@ title: "Dev Career Framework: Staff Frontend Engineer"
 - Improve engineering standards, tooling, and processes
 - Identify, analyze, and fix slow and frontend code architecture and implementation
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-staff-values-competency.md" %}}

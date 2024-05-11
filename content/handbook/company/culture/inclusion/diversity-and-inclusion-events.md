@@ -62,7 +62,7 @@ On this page you will be provided an overview of the Diversity, Inclusion & Belo
 |          | [GitLab DiversABILITY]({{< ref "erg-gitlab-diversability" >}}) launched                                  |
 |          | [GitLab Women]({{< ref "tmrg-gitlab-women" >}}) launched                                         |
 |          | [DIB Advisory Group launched]({{< ref "advisory-group-members" >}})                                    |
-| Sep | [DIB Advisory Group Guidelines]({{< ref "influencer-group-guide" >}}) published
+| Sep | [DIB Advisory Group Guidelines]({{< ref "influencer-group-guide" >}}) published |
 |          | [Published TMRG Guidelines]({{< ref "erg-guide" >}})                                       |
 |          | [DIB Framework](https://docs.google.com/presentation/d/1OMgmYc52J02PWacw72ZM_c-R6FYni-BibAhfV514KcQ/edit?usp=sharing)                                                  |
 | Oct | [Slack Channels for all TMRGs and DIB Advisory Group added]({{< ref "inclusion#ergs---employee-resource-groups" >}})       |

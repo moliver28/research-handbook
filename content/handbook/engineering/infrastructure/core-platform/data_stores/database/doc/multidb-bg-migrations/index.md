@@ -103,6 +103,7 @@ This is the only "decision" which is really a hard requirement. Individual backg
 There are a couple ways this could work in practice depending on the scenario:
 
   - The job uses migration-specific models that inherit from the correct base class for the intended database(s).
+
     ```ruby
     class ExplicitMigrationJob
       class SecurityScan < Gitlab::Database[:main]
@@ -122,7 +123,9 @@ There are a couple ways this could work in practice depending on the scenario:
       end
     end
     ```
+
   - The job is designed to be generic and can use `SharedModel` (either as base class or to retreive a connection) which is already configured by the execution framework for the correct context.
+
     ```ruby
     class GenericMigrationJob
       def perform(source_table, target_table, start_id, end_id)

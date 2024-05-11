@@ -24,7 +24,7 @@ The Data Team follows the GitLab SAFE [Framework](/handbook/legal/safe-framework
 
 Access to Tableau dashboards is based on license type (see Tableau Licenses in our [Tableau](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/) handbook page), which can be prioritized by job roles, and governed by the [SAFE Data Access Framework](/handbook/legal/safe-framework/). In Tableau, we apply the SAFE security framework using [User Groups](/handbook/business-technology/data-team/platform/tableau/#user-groups). There are four primary projects/folders where dashboards can exist - Development, Production, Ad-hoc, and Resources. The Development, Production, and Ad-hoc folders each have a sub-folder for various teams at GitLab, such as Finance and Sales. Within each team's folder there are generally two main folders to which content can be published: General, and SAFE.
 - The General folders contain data that can be viewed by anyone at GitLab.
-- The SAFE folders contain any dashboards with material non-public information (MNPI) and are only accessible by users belonging to the General SAFE Access user group. 
+- The SAFE folders contain any dashboards with material non-public information (MNPI) and are only accessible by users belonging to the General SAFE Access user group.
 
 The development workflow for Tableau Creators that work with data meeting [GitLab's SAFE criteria](/handbook/legal/safe-framework/#safe-flowchart) is to publish into the SAFE folder in their department's Development project. Should the Creator want to publish the workbook outside of the SAFE folder within the development project, they should open an [issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) using the `All Requests` template in the Tableau project and request a review of the content by the BI Platform team. The BI Platform team will provide a yes or no decision on whether it is SAFE to publish the content outside of the SAFE folder in the development project.
 
@@ -44,7 +44,7 @@ To gain access to SAFE dashboards:
 1. Create an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284) for Tableau - SAFE Access - [Requestor Name].
 2. Request approval from your immediate manager and your Departmental VP (or equivalent). Approval is needed if it concerns a new Access Request(/issue).
 3. Once the request is approved, follow the instructions in the tech_stack.yml file for provisioning.
-4. After processing is complete you will be able to log in to Tableau and access your requested SAFE dashboard and all other dashboards which require SAFE access. 
+4. After processing is complete you will be able to log in to Tableau and access your requested SAFE dashboard and all other dashboards which require SAFE access.
 
 Please see the [Accessing](/handbook/business-technology/data-team/platform/#warehouse-access) SAFE Data in Snowflake for instructions on to access the SAFE data in Snowflake.
 

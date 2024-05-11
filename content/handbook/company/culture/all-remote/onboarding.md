@@ -220,6 +220,6 @@ The onboarding process should be empowering. At GitLab, if a new hire gets stuck
 
 Learn more about our approach to [All-Remote Learning and Development]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}).
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

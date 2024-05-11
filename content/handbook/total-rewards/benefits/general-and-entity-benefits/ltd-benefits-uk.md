@@ -260,7 +260,7 @@ Read about all these investment options, and the funds available, on the [workpl
 
 Changing your investment approach or funds could adversely affect your retirement income. Get advice, such as from [Oakley Financial](#contacts).
 
-#### Selecting funds online.
+#### Selecting funds online
 
 This is an advanced feature that carries significant risk. For team-members comfortable with this, it's not obvious how to enable it.
 
@@ -317,7 +317,7 @@ This section details the statutory maternity, paternity, parental, and adoption 
 
 **Statutory Paternity Leave:** Team members can take up to 2 weeks of Paternity Leave or up to 50 weeks of [Shared Parental Leave](https://www.gov.uk/shared-parental-leave-and-pay).  Paternity Leave *cannot* be taken after Shared Parental Leave.
 
-- Eligibility:  
+- Eligibility:
 You must be taking time off to look after the child and be one of the following:
 
     - the father

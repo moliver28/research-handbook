@@ -3,7 +3,7 @@ title: "FedRAMP Vulnerability Deviation Request Procedure"
 controlled_document: true
 ---
 
-## Submit a Request!
+## Submit a Request
 
 <div class="d-grid gap-2 my-4">
 <a href="https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance/poam-deviation-requests/-/issues" class="btn bg-primary text-white btn-lg">Click here to submit a Deviation Request!</a>

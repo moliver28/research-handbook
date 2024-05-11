@@ -10,7 +10,7 @@ The [`group::foundations` team](/handbook/product/categories/#foundations-group)
 ## What is navigation?
 
 Navigation refers to elements that aid users in moving around GitLab, which includes their organization and wayfinding clues. The navigation experience directly impacts the usability and discoverability of our features. This document describes how we can collectively evolve the navigation while still [meeting our goals](https://about.gitlab.com/direction/manage/foundations/navigation_settings/#navigation).
- 
+
 ## Why do we need to be careful when changing the navigation?
 
 In the past, teams added items to highlight new features. However, this created an overwhelming navigation structure that makes it challenging for users to find what they need. Our [quarterly GitLab SUS survey](https://gitlab.com/groups/gitlab-org/-/epics/1455) continues to highlight these recurring themes:
@@ -21,17 +21,17 @@ In the past, teams added items to highlight new features. However, this created 
 
 ## What kind of navigation changes require approval?
 
-While Gitlab's UX allows users to navigate across the product in different ways, the focus of the approval process is on the left-side navigation. This area serves both as navigation and as a feature discovery point for users. As the navigation evolves, it's crucial that we maintain a balance between a focus on core workflows and feature visibility. 
+While Gitlab's UX allows users to navigate across the product in different ways, the focus of the approval process is on the left-side navigation. This area serves both as navigation and as a feature discovery point for users. As the navigation evolves, it's crucial that we maintain a balance between a focus on core workflows and feature visibility.
 
 To help maintain this balance, we ask for everyone to use this process when proposing changes to the left-side navigation:
 
-- First, second, and third-level navigation additions
-- Renaming a navigation item
-- Removing a navigation item
-- Changing the sort order of navigation items
-- Changing navigation functionality or features
-- Launching an [Experiment](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) or [Beta](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) feature
-- Changing the viewership of a navigation item (e.g. moving from disabled by default to enabled by default)
+* First, second, and third-level navigation additions
+* Renaming a navigation item
+* Removing a navigation item
+* Changing the sort order of navigation items
+* Changing navigation functionality or features
+* Launching an [Experiment](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) or [Beta](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) feature
+* Changing the viewership of a navigation item (e.g. moving from disabled by default to enabled by default)
 
 ## When to change the navigation
 
@@ -39,8 +39,8 @@ We only make new additions to the GitLab navigation structure through a delibera
 
 Therefore, we **do not add new items** to:
 
-- Improve discoverability of new features. Instead, look for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery) throughout the product.
-- Optimize for the potential future. We should be forward thinking without over optimizing. As features are developed and added, we can look into what changes may need to occur to support a growing feature.
+* Improve discoverability of new features. Instead, look for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery) throughout the product.
+* Optimize for the potential future. We should be forward thinking without over optimizing. As features are developed and added, we can look into what changes may need to occur to support a growing feature.
 
 ## How do I evaluate navigation changes?
 

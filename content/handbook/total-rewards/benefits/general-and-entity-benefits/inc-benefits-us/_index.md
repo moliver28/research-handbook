@@ -187,7 +187,7 @@ Accredo is Cigna's specialty pharmacy. For more information on managing your spe
 
 **Team Member Costs:**
 
-##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck.
+##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | HDHP-HSA | EPO  | PPO  |
 |--------------------------|:---:|:----:|:----:|
@@ -284,7 +284,7 @@ Please see the [2024 Disclosure Part 2 form for Kaiser CA Plans](https://drive.g
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck.
+##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
 | Tier                     | HMO CA North | HMO CA South | HMO HI |
 |--------------------------|:------------:|:------------:|:------:|
@@ -351,7 +351,7 @@ When submitting a claim, you can mail it to Cigna Dental PO Box 188037 Chattanoo
 
 **Coverages:**
 
-| Plan Details                         | [DDPO 2024 Base](https://drive.google.com/file/d/1JKKaGIudKjGWwikOztQ0-m60HjKnBA-K/view?usp=sharing) | [DDPO 2024 Buy Up](https://drive.google.com/file/d/1f0ZvigwP_eG4HQnh0O6Cs61jJIqkqE6d/view?usp=sharing)
+| Plan Details                         | [DDPO 2024 Base](https://drive.google.com/file/d/1JKKaGIudKjGWwikOztQ0-m60HjKnBA-K/view?usp=sharing) | [DDPO 2024 Buy Up](https://drive.google.com/file/d/1f0ZvigwP_eG4HQnh0O6Cs61jJIqkqE6d/view?usp=sharing) |
 |--------------------------------------|----------|-----|
 | Deductible (Single/Family)                          | $50/$150 | $50/$150 |
 | Maximum Benefit                      | $2,000     | $3000 |
@@ -367,9 +367,9 @@ When submitting a claim, you can mail it to Cigna Dental PO Box 188037 Chattanoo
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck.
+##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
-| Tier                     | DPPO Base | DPPO Buy Up
+| Tier                     | DPPO Base | DPPO Buy Up |
 |--------------------------|----|-----|
 | Team Member Only         | $0   | $14 |
 | Team Member + Spouse     | $14  | $40 |
@@ -417,9 +417,9 @@ When submitting a claim, you can mail it to Cigna Vision PO Box 385018 Birmingha
 
 The following costs are monthly rates which would be deducted from your paycheck.
 
-##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck.
+##### *2024 Rates*: The following costs are monthly rates which would be deducted from your paycheck
 
-| Tier                     | Vision Base | Vision Buy Up
+| Tier                     | Vision Base | Vision Buy Up |
 |--------------------------|------|------|
 | Team Member Only         | $0     | $4 |
 | Team Member + Spouse     | $4  | $10 |
@@ -711,7 +711,7 @@ Team Members can only make changes to their FSA contributions during a Qualifyin
 
 Note that if you increase the amount of your FSA, you will only be able to use the additional funds for claims that incur on or after the your Qualifying Life Event. See Example Below:
 
-| Scenario                     | Resolution | Example
+| Scenario                     | Resolution | Example |
 |--------------------------|------|------|
 | A participant gets married       | The participant can only increase their election amount.     | A participant originally elected $500. They get married and update their election amount to $2,000 as of the date of the qualifying life event. Note: The participant can only be reimbursed up to $500 for claims with dates of service between the plan effective date and the date of the qualifying life event.|
 

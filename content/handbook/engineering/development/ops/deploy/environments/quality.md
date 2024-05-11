@@ -28,21 +28,21 @@ The testing strategy for [this level of the pyramid](https://docs.gitlab.com/ee/
 ### Where are they
 
 In the [GitLab repository](https://gitlab.com/gitlab-org/gitlab), the End-to-End tests for the Environments group are located at:
-- `qa/qa/specs/features/api/7_configure/` 
+- `qa/qa/specs/features/api/7_configure/`
 - `qa/qa/specs/features/browser_ui/7_configure/`
 - `qa/qa/specs/features/ee/api/7_configure/`
 - `qa/qa/specs/features/ee/browser_ui/7_configure/`
 
 ### Limitations
 
-End-to-End tests for Environments are running only in staging and staging-canary environments. 
+End-to-End tests for Environments are running only in staging and staging-canary environments.
 It is not possible to run these kind of tests against your local GDK without directly tweaking the test code.
 
 ### FAQ
- 
+
 #### I triggered the e2e:package-and-test job. Where do I find the tests?
 
-If you have an MR and want to make sure it is running the End-to-End tests, please trigger the manual `e2e:package-and-test` job on the pipeline of your MR. After the pipeline runs there will be a note on your MR titled "Allure report" with a test report link. 
+If you have an MR and want to make sure it is running the End-to-End tests, please trigger the manual `e2e:package-and-test` job on the pipeline of your MR. After the pipeline runs there will be a note on your MR titled "Allure report" with a test report link.
 It is also possible to see which jobs failed in the `e2e:package-and-test` pipeline directly.
 
 **Note:** Currently, the tests most relevant for Environments run only on staging and staging canary environments.
@@ -52,8 +52,8 @@ It is also possible to see which jobs failed in the `e2e:package-and-test` pipel
 Tests running in [staging](https://ops.gitlab.net/gitlab-org/quality/staging/-/pipelines) need access to https://ops.gitlab.net/gitlab-org/quality/staging/.
 The results of test runs can be found also in the `#qa-staging` Slack channel. The jobs in the staging pipeline that are relevant to Environments are:
 
-* `ee-qa-api`
-* `qa-browser_ui-7_configure`
+- `ee-qa-api`
+- `qa-browser_ui-7_configure`
 
 
 #### Which resources tests use and where can they be found?

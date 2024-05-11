@@ -3,7 +3,7 @@ title: "Support Career Framework: Associate Support Engineer"
 ---
 
 ## Associate Support Engineer
- 
+
  {{% include "includes/engineering-careers/support-career-nav.md" %}}
 
 **Associate Support Engineers at GitLab are expected to exhibit the following competencies:**
@@ -21,7 +21,7 @@ title: "Support Career Framework: Associate Support Engineer"
 ### Technical Competencies
 
 - Customer Support Experience and a desire to grow Customer Support skills.
-- Ability to communicate basic technical topics to customers and coworkers. 
+- Ability to communicate basic technical topics to customers and coworkers.
 - Interest or familiarity with the following:
   - DevOps methodologies and software deployment and development process.
   - Ruby on Rails, Go, Javascript, Terraform, Ansible, Git and CI/CD.
@@ -33,6 +33,6 @@ title: "Support Career Framework: Associate Support Engineer"
 - Suggest improvements to Support workflows.
 
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}

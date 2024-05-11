@@ -85,7 +85,7 @@ At GitLab, we promote on a twice per year basis. This means that there is **one 
 | ---------- | ----- |
 | [Planning]({{< ref "promotions-transfers#planning" >}}) | Managers and leaders to review their respective teams to determine promotion readiness, business need, and timeline for the upcoming quarters and project promotions. |
 | [Calibration]({{< ref "promotions-transfers#calibration" >}}) | The calibration exercise is an opportunity for leaders (sync or async) to review projected promotions on a twice per year basis. This is an opportunity to create visibility and ensure consistency in who we are promoting and why. |
-| [Processing]({{< ref "promotions-transfers#process-for-managers-requesting-a-promotion" >}}) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse).
+| [Processing]({{< ref "promotions-transfers#process-for-managers-requesting-a-promotion" >}}) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse). |
 
 **Managers do not need to submit promotions that are part of the twice per year calibration process via Workday or Greenhouse. These will be processed by the PBP, Total Rewards, and People Connect team following calibration and Division leader approval.** Below is the timeline for FY24:
 
@@ -486,7 +486,7 @@ To easily access a report for what current job title specialties are for your te
 - Type "My Team Job Title Specialties" in the search bar
 - Click "OK" for your organization
 
-#### For Development, Infrastructure, and Quality departments:
+#### For Development, Infrastructure, and Quality departments
 
 - Who should have a specialty:
     - ICs: Job grade 11 and below should  should have Stage and/or primary group (if applicable)
@@ -500,7 +500,7 @@ To easily access a report for what current job title specialties are for your te
         - Note: In situations where there are two groups, pick the primary group.
     - Ensure all specialty information is in the `Job Title Specialty` field as opposed to the `Job Title Specialty (Multi-Select)` field.
 
-#### For Customer Support department:
+#### For Customer Support department
 
 - Who should have a specialty:
   - ICs: Job Grade 9 and below to indicate the focus of the role being Global, Federal or Readiness (if applicable)
@@ -709,22 +709,22 @@ This section describes the steps required for promoting or transferring employee
 
 **Note** These steps are in addition to all other steps required for promotions and transfers in partnership with the People team.
 
-#### For the Current Sales Managers:
+#### For the Current Sales Managers
 
 1. Determine the right path for the promotion and/or transfer. Our [promotion process]({{< ref "promotions-transfers" >}}) can be found in the handbook. For transfers, please confirm if there is an open role with your Sales recruiting team. Ensure necessary stakeholders and processes are followed in advance of processing a promotion and/or transfer.
 1. Open a [Territory Change Request issue](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/issues/new?issuable_template=Territory_Change_Request) to inform Sales Operations of the change so they can update Salesforce and the Territory Mapping SSOT.
 
-#### For Sales Recruiting:
+#### For Sales Recruiting
 
 1. Open a [Utilizing Backfill Headcount issue](https://gitlab.com/gitlab-headcount/sales-headcount/-/blob/master/.gitlab/issue_templates/utilizing_backfill_headcount.md) to inform Sales Finance of the promotion/transfer so they can update Adaptive.
 1. Tag the appropriate members of the Sales Finance and Sales Commissions team as indicated in the 'Approval' section of the issue template.
 
-#### For Sales Finance:
+#### For Sales Finance
 
 1. Update the team member's profile in Adaptive to account for the promotion/transfer.
 1. Partner with leadership and the People team on whether we need to open a requisition to backfill the empty role from which the team member was promoted/transferred.
 
-#### For Sales Commissions:
+#### For Sales Commissions
 
 1. Every month, identify new hires, promotions, and transfers in Workday.
 1. Create a monthly issue to notify the Sales Strategy and Analytics team of headcount changes. The Sales Strategy and Analytics team assigns quotas[^1] to sales employees within 4 weeks of the employee's hire/promotion/transfer date.

@@ -1,7 +1,7 @@
 ---
 
 title: Elevate
-aliases: 
+aliases:
 - /handbook/people-group/learning-and-development/elevate/elevate
 ---
 
@@ -189,7 +189,7 @@ Refer to the table below to align on language used to talk about Elevate.
 | Round | Collection of cohorts starting Elevate at the same time - used for internal reference only |
 | Cohort | Groups of 10-12 participants organized by timezone who meet together for Group Coaching - used with participants |
 | Manager+ Path | Elevate content for Managers and Senior Managers |
-| Director+ Path | Elevate content for Directors, Senior Directors, and VPs
+| Director+ Path | Elevate content for Directors, Senior Directors, and VPs |
 | Pilot | First group of ~45 managers involved in Elevate |
 | Round 1 | Manager+ Path running from April-August 2023 - 100 participants |
 | Round 2 | Manager+ Path running from June-January 2024 - 60 participants |

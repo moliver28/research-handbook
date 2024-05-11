@@ -16,8 +16,8 @@ The Customer Success Architect (CSA) team focuses on hands-on technical enableme
 | Role | Grade |
 | -- | - |
 | [Customer Success Architect](#customer-success-architect-csa-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Customer Success Architect](#senior-customer-success-architect-csa) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Staff Customer Success Architect](#staff-customer-success-architect-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Senior Customer Success Architect](#senior-customer-success-architect-csa) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Staff Customer Success Architect](#staff-customer-success-architect-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Manager, Customer Success Architects](#manager-customer-success-architects-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Customer Success Architects](#senior-manager-customer-success-architects-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
@@ -170,7 +170,7 @@ In addition to the corresponding Customer Success Architect level requirements:
 
 ## Career Ladder
 
-Team members in the Customer Success Architect job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Manager or Solutions Architect.  
+Team members in the Customer Success Architect job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Manager or Solutions Architect.
 
 ## Hiring Process
 

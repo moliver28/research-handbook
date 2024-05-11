@@ -197,7 +197,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Peer mentality, even at the highest level of management
 1. The company is flat enough to encourage true collaboration which is vital to growth
 
-#### What would make you leave (what should we avoid in the future if possible)? If the following were to happen, I would consider leaving GitLab:
+#### What would make you leave (what should we avoid in the future if possible)? If the following were to happen, I would consider leaving GitLab
 
 1. Stagnation of career path, no opportunities to advance
 1. Pay decrease, not paid appropriately, below market pay
@@ -226,7 +226,7 @@ Here is a summary of the responses from 91 team members (57%) who participated.
 1. Job becomes unstable
 1. Communication no longer one of our strong points
 
-#### Other Comments or Concerns (broken down by categories):
+#### Other Comments or Concerns (broken down by categories)
 
 ##### Compensation
 

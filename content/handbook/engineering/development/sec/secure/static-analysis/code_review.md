@@ -25,7 +25,7 @@ While all team members are encouraged to review merge requests, the ability to m
 To quote from the [Engineering Review Workflow](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer):
 
 > Great engineers are often also great reviewers, but code review is a skill in and of itself and not every engineer, no matter their seniority, will have had the same opportunities to hone that skill. It's also important to note that a big part of being a good maintainer comes from knowing the existing product and codebase extremely well, which lets them spot inconsistencies, edge cases, or non-obvious interactions with other features that would otherwise be missed easily.
->  
+> 
 > To protect and ensure the quality of the codebase and the product as a whole, people become maintainers only once they have convincingly demonstrated that their reviewing skills are at a comparable level to those of existing maintainers.
 
 As with regular reviewers, maintainers can be found on the team page, or on the list of [GitLab Engineering Projects](/handbook/engineering/projects/).

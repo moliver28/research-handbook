@@ -4,7 +4,6 @@ title: "Getting Started With CI/CD for Data Science Pipelines"
 description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 ---
 
- 
 
 
 
@@ -12,7 +11,8 @@ description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 
 
 
-----
+
+---
 
 # Our Approach to Using CI/CD For Data Science
 
@@ -35,7 +35,7 @@ When it comes to training models, there are trade-offs to training on your local
   - Commit changes to the repository and automatically trigger the training CI pipeline based on a specific commit message
   - Training CI pipeline only executes with the following commit message: `train <path/to/notebook/your_notebook.ipynb>`
   - Allows the pipeline to execute just the desired notebook
-  
+
 ### Advantages of Using CI for Training Data Science Models
 
   - Reproducibility
@@ -52,7 +52,7 @@ This section covers, in detail, the mechanisms behind how this pipeline is creat
 
 Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following:
 - **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that should be run in the pipeline
-- **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU  
+- **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU
 - **requirements.txt**: The python packages to install in the docker container
 - **config.yaml**: Configuration for training notebook
 - **notebooks** directory: contains training notebook

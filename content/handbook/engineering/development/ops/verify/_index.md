@@ -138,9 +138,9 @@ To help with prioritizing within the list of available `Verify candidate` issues
 
 Across Verify we value [Transparency](/handbook/values/#transparency), we live our values of [Inclusion](/handbook/values/#bias-towards-asynchronous-communication), and we expect [Efficiency](/handbook/values/#write-things-down) by dogfooding using Issue Health Statuses and providing regular updates on active issues. Each team in the Verify Stage will define the cadence of updates and specific defintion of the statuses, but generally the expectation is a weekly update on in progress issues with the following Health Statuses:
 
-- On Track
-- Needs Attention
-- At Risk
+* On Track
+* Needs Attention
+* At Risk
 
 These updates are an opportunity for the engineer to add detail to the status and are not expected to provide a justification for why something is behind or will miss a milestone. We encourage [blameless problem solving](/handbook/values/#blameless-problem-solving) and [kindness](/handbook/values/#kindness) at all times.
 
@@ -153,15 +153,15 @@ By considering MR Rate as a measure of throughput, product management is focused
 Since April 2023, code changes to Verify code require approval from a Verify maintainer since Continuous Integration platform overall is a critical GitLab feature.
 In order to [track quality of the approval process](https://gitlab.com/gitlab-org/gitlab/-/issues/411559)
 we ask Verify maintainers to apply one of the following labels to a merge request changing Verify code:
-- `~"verify-review::impacted"` for merge requests where the maintainer was able to identify near miss bugs, inefficiencies and tech debt.
-- `~"verify-review::not impacted"` for merge requests where the change was trivial
+* `~"verify-review::impacted"` for merge requests where the maintainer was able to identify near miss bugs, inefficiencies and tech debt.
+* `~"verify-review::not impacted"` for merge requests where the change was trivial
 or no issues were found by the Verify maintainer.
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="[,&] Verify" manager-role="Senior Manager(.*)Engineering(.*)Verify" other-manager-roles="Engineering Manager(.*)Verify:Pipeline Authoring|Engineering Manager(.*)Verify:Pipeline Execution|Engineering Manager(.*)Verify:Runner|Engineering Manager(.*)Verify:Pipeline Security" >}}
+{{< stable-counterparts role="[,&] Verify" manager-role="Senior Manager(._)Engineering(._)Verify" other-manager-roles="Engineering Manager(._)Verify:Pipeline Authoring|Engineering Manager(._)Verify:Pipeline Execution|Engineering Manager(._)Verify:Runner|Engineering Manager(._)Verify:Pipeline Security" >}}
 
 ### Async Work Week
 

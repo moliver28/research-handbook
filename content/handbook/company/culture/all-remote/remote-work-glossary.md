@@ -84,6 +84,6 @@ As teams grapple with [transitioning]({{< ref "./transition" >}}) from a colocat
 
 Learn more on the phases of remote adaptation [here]({{< ref "./phases-of-remote-adaptation" >}}).
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

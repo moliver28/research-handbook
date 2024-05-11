@@ -38,7 +38,7 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 |Sean Gillespie|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
 |Yunus Khan|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
 
-## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide:
+## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
 1. Reactive - Services design to respond to active incident handling, including but not limited to
     - Incident analysis

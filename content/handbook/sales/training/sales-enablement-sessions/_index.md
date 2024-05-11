@@ -1,7 +1,7 @@
 ---
 
 title: "Field Enablement Spotlight: Continuous Education at GitLab"
-description: "Continuous education webcast series for GitLab sales team members" 
+description: "Continuous education webcast series for GitLab sales team members"
 ---
 
 
@@ -12,7 +12,7 @@ description: "Continuous education webcast series for GitLab sales team members"
 
 
 
-----
+---
 
 # Field Enablement Spotlight Sessions
 
@@ -313,15 +313,15 @@ Field Enablement Spotlight sessions are scheduled on the [Sales Enablement calen
 
     ```
     ---
-    
+
     title: "Title goes here"
     ---
 
-    
-    
 
-    
-    
+
+
+
+
 
     ## Title goes here
     ```

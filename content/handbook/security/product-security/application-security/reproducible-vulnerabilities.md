@@ -32,7 +32,7 @@ Disclosed vulnerabilities, including those listed here, are already publicly acc
 
 If you discover a security issue that still affects current versions of GitLab, for example an incomplete fix, please follow the steps in our [Responsible Disclosure Policy](https://about.gitlab.com/security/disclosure/).
 
-----
+---
 
 ## Reproducible Vulnerabilities
 

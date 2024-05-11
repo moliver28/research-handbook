@@ -212,4 +212,4 @@ The GitLab UI does not rely on a uniform text editor but instead offeres a mix o
 
 ### Reading List
 
-* [Hybrid Anxiety and Hybrid Optimism: The Near Future of Work](https://future.a16z.com/hybrid-anxiety-optimism-future-of-work/)
+- [Hybrid Anxiety and Hybrid Optimism: The Near Future of Work](https://future.a16z.com/hybrid-anxiety-optimism-future-of-work/)

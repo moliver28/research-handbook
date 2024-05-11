@@ -13,9 +13,10 @@ description: "Defines role and responsibilities of infra analyst"
 
 
 
-----
+---
 
 ### Responsibilities
+
 - Optimize infra spend through committed spend programs and supporting enterprise contract deals
 - Ad Hoc Analysis of Infrastructure hosting spend
 - Dashboard and chart creation to improve observability into infrastructure costs
@@ -33,9 +34,11 @@ Therefore, if requesting help or a review from an infrastructure analyst you sho
 If one or more of these is not known, then you should partner with the infrastructure analyst so you can define these together.
 
 ### Infra Analyst Board
+
 The infrastructure analyst role is now part of the centralized engineering analytics team, and serves as a stable counterpart for Infrastructure Department. To open a request for infra analyst please open an issue under [engineering metrics board](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/1942495?label_name[]=Engineering%20Metrics)
 
 ### Learning Track
+
 This section will go through the general skills that are needed to succeed as an infrastructure analyst. The skillset requires a mix of understanding that dips into three main areas: engineering, finance, and data.
 
 - Understanding of major cloud vendors, how they bill, and how to analyze the bill.
