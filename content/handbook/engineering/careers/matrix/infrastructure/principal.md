@@ -33,7 +33,7 @@ Principal-level engineers in infrastructure are significantly driving the depart
 
 ## Autonomy
 
-1. Manages time and workflow to identify and prioritize the most important tasks to help the group and department achieve their goals. Delegates work, and proactively shares priority changes to manage expectations both within and outside the teams. 
+1. Manages time and workflow to identify and prioritize the most important tasks to help the group and department achieve their goals. Prioritization is done in collaboration with the EM and PM. Delegates work, and proactively shares priority changes to manage expectations both within and outside the teams. 
 1. Sets and upholds standards for teams within the group, making sure that each team is maintaining epics and issues for visibility and to promote self-service and self-learning. Mentors others to assess and communicate impact, timelines, and dependencies.
 1. Works to understand the department and GitLab's current and upcoming priorities and works with teams within the group to prioritize suitable projects according to wider priorities.
 1. Proactively looks for ways to improve individual and team workflows and capabilities across the department. 
