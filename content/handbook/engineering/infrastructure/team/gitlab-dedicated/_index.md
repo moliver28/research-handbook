@@ -541,7 +541,7 @@ and is not expected to be perfect in every situation.
 Do your best,
 and understand that the process is inherently imprecise and fuzzy at the edges.
 
-The Dedicated capacity process process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/)
+The Dedicated capacity process process is built on top of [Tamland](/handbook/engineering/infrastructure/team/scalability/observability/tamland/).
 
 The overall flow of work is to assess any new reported saturation risks,
 and re-review any which are due to be looked at again.
@@ -566,7 +566,7 @@ At the start of each work week while you are on duty:
    * Check the tips below for suggestions on quickly assessing predictions as false positives;
      this is a good way to quickly reduce the number of issues requiring more work
    * If evaluation requires non-trivial investigation over more than a day calendar time,
-     label it `capacity-planning:investigate` and investigate as you have time.
+     label it `capacity-planning:investigate` and investigate when you have dealt with higher priority capacity planning issues
    * If you assess that it warrants active action in the near future and is not already `capacity-planning::in-progress`:
       1. Label it `~capacity-planning:in-progress`,
       1. Add or update the due date to next week, and
@@ -598,7 +598,7 @@ At the start of each work week while you are on duty:
       1. Work on the tamland
          [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
         to exclude or tweak the specific saturation signal.
-      * The [Scalability:Observability](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/observability/) team
+         * The [Scalability:Observability](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/observability/) team
         can offer advice on the finer details of the tamland configuration.
 1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
    The pipeline should run successfuly every day.
