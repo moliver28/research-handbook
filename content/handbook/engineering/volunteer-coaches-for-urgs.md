@@ -63,7 +63,7 @@ GitLab Contact: [Greg Myers](https://gitlab.com/greg)
 
 | Volunteer                                      | Start      | End | Topic                                                                   |
 | ---------------------------------------------- | ---------- | --- | ----------------------------------------------------------------------- |
-| [Wayne Haber](/handbook/company/team/#whaber)           | March 2021 | TBD | Technical career advice                                                 |
+                                        |
 | [Greg Myers](/handbook/company/team/#greg)              | March 2021 | TBD | HTML/CSS, Project feedback, Technical career advice, Tutorials & Guides |
 | [Gerardo Gutierrez](/handbook/company/team/#ggutierrez5) | March 2021 | TBD | HTML/CSS, Python, Español, Javascript                                   |
 | [Daniel Parker](/handbook/company/team/#dparker)       | March 2021 | TBD | Javascript, Python, HTML/CSS, Project feedback, Technical career advice |
