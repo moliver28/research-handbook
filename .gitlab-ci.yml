@@ -53,6 +53,8 @@ default:
       - stuck_or_timeout_failure
 
 variables:
+  # Needed for the markdownlint job output to appear in color
+  FORCE_COLOR: 1
   # NOTE: The following PERFORMANCE and RELIABILITY variables are optional, but may
   #       improve performance of larger repositories, or improve reliability during
   #       brief problems with CI/CD infrastructure availability
