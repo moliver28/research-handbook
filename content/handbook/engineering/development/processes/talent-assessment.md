@@ -76,7 +76,7 @@ To increase efficiency within the department, we will be implementing a "pre" ca
 The small groups are responsible for calibrating Associate, Intermediate, Senior, and Staff level individual contributor outliers across their respective teams. Engineering Manager level outliers and Principal+ individual contributors will be calibrated in larger sessions with all of the department leadership present. When determining groups we took timezone, group size, and cross-functional alignment (I.E. not in the same reporting chain) into account. Group assignments are as follows:
 
 - **Group 1:** Cheryl Li and Michelle Gill
-- **Group 2:** James Lopez, Nicole Williams, and Wayne Haber
+- **Group 2:** James Lopez, Nicole Williams
 - **Group 3:** Crystal Poole, Dennis Tang, and Darva Satcher
 - **Group 4:** Phil Calder and Jerome Ng
 - **Group 5:** John Hope and Chun Du

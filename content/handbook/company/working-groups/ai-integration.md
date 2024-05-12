@@ -82,7 +82,6 @@ The following criteria should be met for the group to disband:
 | Executive Stakeholder   | @hbenson        | [Hillary Benson](/handbook/company/team/#hbenson)       | Senior Director, Product Management - Sec, Data Science & Monitor              |
 | Executive Stakeholder   | @timzallmann    | [Tim Zallmann](/handbook/company/team/#timzallmann)       | Senior Director of Engineering, Dev                             |
 | Facilitator             | @tmccaslin  | [Taylor McCaslin](/handbook/company/team/#tmccaslin)   | Group Manager, Product - Data Science                    |
-| Facilitator             | @wayne  | [Wayne Haber](/handbook/company/team/#wayne)   | Director of Engineering |
 | Functional Lead - AI Model Validation      | @mray  | [Monmayuri Ray](https://gitlab.com/mray2020)   | Engineering Manager AI Model Validation |
 | Functional Lead - UX             | @jmandell  | [Justin Mandell](/handbook/company/team/#jmandell)   | Product Design Manager: Analytics, Govern, ModelOps, and Secure |
 | Functional Lead - UX             | @pedroms  | [Pedro Moreira da Silva](/handbook/company/team/#pedroms)   | Staff Product Designer |

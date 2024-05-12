@@ -703,8 +703,6 @@ If there is a licensing issue (from support or sales) that requires escalation t
 
 Fulfillment leaders in product management and engineering will subscribe to the `License Issue High ARR` label so they can be aware of them when they are created.  This can be done in via a [label search](https://gitlab.com/gitlab-com/support/internal-requests/-/labels?subscribed=&search=license%20issue%20high%20arr) and then clicking on 'subscribe' for the `License Issue High ARR' label.
 
-The Program Manager, Cloud Licensing (currently Wayne Haber) will be primarily responsible for making the e-group aware in #e-group of licensing issues that may have a high ARR impact.  The backup for the Program Manager, Cloud Licensing will be the Group Product Manager, Fulfillment (currently Jerome Ng).
-
 ### Retrospectives
 
 #### Monthly retrospectives
