@@ -114,7 +114,7 @@ When you have to use office applications, always use [G Suite applications](http
 
 ### Communicating with the Team
 
-- The Sales team primarily communicates via Slack in our day-to-day work. Our main team channels are **#sales**, our general channel, and **#field-fyi**, our read-only channel for official field team announcements.
+- The Sales team primarily communicates via Slack in our day-to-day work. Our main team channels are **#sales**, our general channel, and [**#field-fyi**](https://gitlab.enterprise.slack.com/archives/C013X9Z6892), our read-only channel for official field team announcements.
    - Email is used in some segments where customer privacy dictates additional security measures.
    - For a full breakdown of all Field Slack groups and the hierarchy of our Google Groups, see the [Communicating with the Field Handbook page](/handbook/sales/sales-google-groups/).
 - Please reference the [Sales Support and Sales Operation Handbook page](/handbook/sales/field-operations/sales-operations) for a summary of how to engage with deal desk resources.
