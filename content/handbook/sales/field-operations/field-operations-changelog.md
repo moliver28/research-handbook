@@ -61,9 +61,9 @@ To learn more about Field Ops releases, see the [RSOE Release Schedule handbook 
 
 **[Sales Tech Stack Strategy & DRI](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/385)**
 
-**[Sales Tools License Usage Policy](https://gitlab.com/internal-handbook/internal-handbook.gitlab.io/-/merge_requests/3686)**
+**[Sales Tools License Usage Policy](https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests/3686)**
 
-**[Clari Session Timeout](https://gitlab.com/internal-handbook/internal-handbook.gitlab.io/-/merge_requests/3686)**
+**[Clari Session Timeout](https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests/3686)**
 
 **[Clari Product Update - Forecasting Quick Submit](https://clari.my.site.com/customer/s/article/Forecasting-Quick-Submit)**
 
