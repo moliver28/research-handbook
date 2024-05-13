@@ -201,6 +201,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 [Kamil Trzciński](https://gitlab.com/ayufan)
 </td>
 <td>
+ 
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
 </tr>
