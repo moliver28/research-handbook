@@ -15,7 +15,7 @@
 ###################################
 
 stages:
-  - prepare
+  - build
   - deploy
   - test
   - notify
@@ -76,10 +76,9 @@ variables:
 .security-scanning: &security-scanning-rules
     if: '$CI_MERGE_REQUEST_IID || $CI_COMMIT_TAG'
 
-.hugo:
+build:
   image: registry.gitlab.com/pages/hugo/hugo_extended:0.123.7
-  stage: deploy
-  needs: []
+  stage: build
   script:
     - apk update
     - apk upgrade
@@ -88,8 +87,6 @@ variables:
     - npm ci
     - hugo --enableGitInfo
     - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/${PAGES_PREFIX}\/content-sites\/handbook\/${PAGES_PREFIX}/content-sites\/handbook\/${PAGES_PREFIX}/g" {} +
-  rules:
-    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
   artifacts:
     paths:
       - public
@@ -101,7 +98,7 @@ variables:
 ###################################
 
 pages:
-  extends: [.hugo]
+  stage: deploy
   environment:
     # tracking DORA deployment frequency
     name: $ENVIRONMENT
