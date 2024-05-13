@@ -73,6 +73,7 @@ To ensure these reactions are picked up by Pairify, you should add these reactio
 Pairify can be used in the following Slack channels:
 
 - [`#spt_pairing`](https://gitlab.enterprise.slack.com/archives/C03UW0HPBGD)
+- [`#spt_us-government`](https://gitlab.enterprise.slack.com/archives/C03RTN3JEJ2)
 - [`#support_team-chat`](https://gitlab.enterprise.slack.com/archives/CCBJYEWAW)
 - [Support Pod](https://gitlab.com/gitlab-com/support/support-pods) channels
 - [Support Global Group](https://handbook.gitlab.com/handbook/support/support-global-groups/) channels
