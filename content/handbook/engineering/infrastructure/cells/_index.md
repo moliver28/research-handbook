@@ -185,13 +185,16 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <table>
 <tr>
 <td>
+ 
 **Work stream**
 </td>
 <td>
+ 
 **Engineering DRI**
 </td>
 
 <td>
+ 
 **PM DRI**
 </td>
 </tr>
@@ -211,9 +214,11 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Architecture</td>
 <td>
+ 
 [Kamil Trzciński](https://gitlab.com/ayufan)
 </td>
 <td>
+ 
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
 </tr>
@@ -221,9 +226,11 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Cells Services  (includes Router and Topology services)</td>
 <td>
+ 
 [Thong Kuah](https://gitlab.com/tkuah)
 </td>
 <td>
+ 
 [Christina Lohr](https://gitlab.com/lohrc)
 </td>
 </tr>
@@ -231,19 +238,24 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 
 <td>Cell lifecycle automation and management</td>
 <td>
+ 
 [Steve Xuereb](https://gitlab.com/sxuereb)
 </td>
 <td>
+ 
 [Christina Lohr](https://gitlab.com/lohrc)
 </td>
 </tr>
 
 <tr>
+ 
 <td>Observability</td>
 <td>
+ 
 [Rachel Nienaber](https://gitlab.com/rnienaber)
 </td>
 <td>
+ 
 [Christina Lohr](https://gitlab.com/lohrc)
 </td>
 </tr>
@@ -251,9 +263,11 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Application Deployment</td>
 <td>
+ 
 [Dave Smith](https://gitlab.com/dawsmith)
 </td>
 <td>
+ 
 [Sam Wiskow](https://gitlab.com/swiskow)
 </td>
 </tr>
@@ -261,9 +275,11 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Production readiness</td>
 <td>
+ 
 [Chun Du](https://gitlab.com/cdu1)
 </td>
 <td>
+ 
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
 </tr>
@@ -271,9 +287,11 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 
 <td>Operations</td>
 <td>
+ 
 [Rick Mar](https://gitlab.com/rmar1)
 </td>
 <td>
+ 
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
 </tr>
@@ -281,9 +299,11 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Performance validation of Cells</td>
 <td>
+ 
 [Andy Hohenner](https://gitlab.com/AndyWH)
 </td>
 <td>
+ 
 [Christina Lohr](https://gitlab.com/lohrc)
 </td>
 </tr>
