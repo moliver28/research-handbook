@@ -105,34 +105,6 @@ We are members of the [Developer Relations team](/handbook/marketing/developer-r
 | [Michael Friedrich](/handbook/company/team/#dnsmichi) <br/> Senior Developer Advocate | DevSecOps with a focus on AI and CI/CD efficiency | English, German, Austrian | [CI/CD components maintainer](https://gitlab.com/components) | DevSecOps, AI, CI/CD, Observability, Python, Go, C/C++, Rust, Ruby | [Talks](https://dnsmichi.at/talks/), [Portfolio](https://dnsmichi.at/talks/) |
 | [William Arias](/handbook/company/team/#warias) <br/> Senior Developer Advocate | DevSecOps with a focus on AI/ML, Sec and Data | English, Spanish |  | CI/CD, AI/ML, Kubernetes, Security, Python, C |  |
 
-### Stable counterparts
-
-Inspired by GitLab's [collaboration value](/handbook/values/#collaboration), the Developer Advocate team has chosen to align ourselves as [stable counterparts](/handbook/leadership/#stable-counterparts) with divisions outside of Marketing. The alignment is as follows:
-
-| Division  | Stable counterpart | Activities |
-|-----------|--------------------|------------|
-| Alliances & Infrastructure | [Abubakar Siddiq Ango](https://gitlab.com/abuango) | [Infrastructure Meetings](/handbook/engineering/infrastructure/#meetings), [Alliances](/handbook/alliances/) |
-| Product   | [Michael Friedrich](https://gitlab.com/dnsmichi)   | [AI-powered](https://about.gitlab.com/direction/ai-powered/), [Dev](/handbook/product/categories/features/#dev-section), [CI](/handbook/product/categories/features/#ci-section): [Monthly CI Section Field Sync (internal)](https://gitlab.com/gitlab-com/Product/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Field%20Sync&label_name%5B%5D=section%3A%3Aci&first_page_size=20), Ops: [Monitor:Observability direction](https://about.gitlab.com/direction/monitor/observability/), [Sec section](/handbook/product/categories/features/#sec-section): [Secure, Govern](https://about.gitlab.com/direction/govern/) |
-| Product & Alliances & Engineering & Sales | [Itzik Gan-Baruch](https://gitlab.com/iganbaruch) | DevSecOps platform, AI/ML, CI |
-| Product & Alliances & Engineering & Sales | [Fernando Diaz](https://gitlab.com/fjdiaz) | DevSecOps platform, AI/ML, Security, Kubernetes |
-| Product & Alliances & Engineering & Sales | [William Arias](https://gitlab.com/warias) | DevSecOps platform, AI/ML, MLOps, Data Science |
-| Product & Alliances & Engineering & Sales | [Cesar Saavedra](https://gitlab.com/csaavedra1) | DevSecOps platform, AI/ML, CD, GitOps, Kubernetes |
-| Product & Alliances & Engineering & Sales | [Fatima Sarah Khalid](https://gitlab.com/sugaroverflow) | DevSecOps platform, AI/ML |
-
-As stable counterparts, Developer Advocates are expected to actively engage with the divisions to identify collaboration opportunities and act as the primary point of contact for requests for Developer Advocate support for a specific activity from these divisions.
-
-Collaboration examples in FY24 and FY25 that source from stable counterpart activities:
-
-- [Support the GitLab Duo Code Suggestions launch](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/248)
-- [Support the GitLab Duo Chat launch: Internal, Beta, GA](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/344)
-- [Support the Explain/Mitigate this Vulnerability GA launch - GitLab Duo](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/363)
-- [Support the CI/CD Components launch](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/230)
-- [Support the CI Steps launch](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/349)
-- [Support Observability feature launch in GitLab](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/350)
-- [Blog/Videos - Remote Development awareness in FY24](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/190)
-- [Support Web IDE Beta Launch, 2022-12-19](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/185)
-- [Support the Flux integration into GitLab's GitOps feature (configure stage, agent for Kubernetes)](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/207)
-
 
 ## <i class="fa fa-tasks" aria-hidden="true"></i> What we do
 
