@@ -17,7 +17,7 @@ The responsibilities of the Infrastructure Product Manager are [documented in th
 
 ### Inbound Requests
 
-The Infra PM can help triage and prirotize *inbound* requests to Infrastructure from internal teams and GitLab.com customers.
+The Infra PM can help triage and prioritize *inbound* requests to Infrastructure from internal teams and GitLab.com customers.
 
 Types of requests:
 
