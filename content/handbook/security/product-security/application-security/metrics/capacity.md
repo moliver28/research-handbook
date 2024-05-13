@@ -62,12 +62,12 @@ The effort classification is an estimate of the level of effort required to reso
 
 | Label    | Classification | Description | Estimation Guide | Example |
 | -------- | ------- | ------- | ------- | ------- |
-| AppSecWeight::1 | Trivial | Very little effort required | Immediate or near immediate change to resolve the issue | Trivial documentation update |
-| AppSecWeight::2  | Small | Straight forward change, minimal investigation | ~0.5 - 1 days  | |
-| AppSecWeight::3 | Medium | Some investigation and/or collaboration needed  | ~1-3 days | |
-| AppSecWeight::5 | Large | Signficant investigation and collaboration needed | ~3-5 days | |
-| AppSecWeight::8 | XLarge | Very complex and requires a major portion of the milestone to resolve | ~5-10 days | |
-| AppSecWeight::13 | Needs Refinement | The issue is overly complex and needs to be promoted to an Epic or broken down into smaller issues | N/A | |
+| AppSecWeight::trivial | Trivial | Very little effort required | Immediate or near immediate change to resolve the issue | Trivial documentation update |
+| AppSecWeight::small  | Small | Straight forward change, minimal investigation | ~0.5 - 1 days  | |
+| AppSecWeight::medium | Medium | Some investigation and/or collaboration needed  | ~1-3 days | |
+| AppSecWeight::large | Large | Signficant investigation and collaboration needed | ~3-5 days | |
+| AppSecWeight::XLarge | XLarge | Very complex and requires a major portion of the milestone to resolve | ~5-10 days | |
+| AppSecWeight::Needs Refinement | Needs Refinement | The issue is overly complex and needs to be promoted to an Epic or broken down into smaller issues | N/A | |
 
 #### Who assigns this label and when?
 
