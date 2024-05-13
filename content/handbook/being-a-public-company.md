@@ -28,7 +28,7 @@ Market capitalization (stock price x shares outstanding) will be the result of a
 
 1. Size of [total addressable market](/handbook/sales/tam/)
 1. Consistency of execution
-1. [Competitive position](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#introduction)
+1. [Competitive position](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#introduction)
 1. Clarity of [value proposition](/handbook/company/strategy/#organization)
 1. Perception of management [team](/handbook/company/team/)
 
