@@ -43,7 +43,7 @@ NDA Request(s): [NDA Process](/handbook/legal/procurement-guide-collaborating-wi
 
 Negotiating Terms and Conditions: [Negotiating Terms](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#negotiating-terms)
 
-Use of competitors' services: [Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/?redirected-from=internal-handbook.gitlab.io#guidelines-for-use-of-competitors-services-to-gain-competitive-intelligence) (Internal only)
+Use of competitors' services: [Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/) (Internal only)
 
 ## NDA Process
 
