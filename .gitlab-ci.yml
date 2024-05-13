@@ -110,6 +110,8 @@ pages:
     HUGO_BASEURL: https://handbook.gitlab.com/
   pages:
     path_prefix: "$PAGES_PREFIX"
+  script:
+    - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"    
   rules:
     # Only run the deploy on the default branch. If you want to deploy from Merge Request branches,
     # you can use Review Apps: https://docs.gitlab.com/ee/ci/review_apps
