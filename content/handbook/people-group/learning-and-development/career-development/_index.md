@@ -163,8 +163,6 @@ Watch: interview with a GitLab team member who's used the Individual Growth Plan
 
 Some call it a "brag sheet". Some call it a CREDIT Tracker. Either way, it's a great place to collect your accomplishments and feedback. Utizlize the accomplishment tracker in conjunction with the IGP and GitLab Epics.
 
-{{< youtube "oVd3jN76b5c" >}}
-
 1. Make a copy of the [Accomplishment Tracker Template](https://docs.google.com/document/d/1tBjEbX-p4MYinEsdU-91KDQ_BJkihwrBKZ0n9yfdLjo/edit?usp=sharing) + save to your drive
 1. Start filling it out (check out the video below for a walkthrough) with links, notes, and screenshots
 1. Set a weekly or monthly calendar reminder to continuously add to your tracker
@@ -326,8 +324,6 @@ What do managers ask about when it comes to having career conversations with the
 
 *Career Conversation Acknowledgements happen at a division basis. Check with your People Business Partner if your division is doing this.*
 
-Career development is a key factor in team member engagement and role satisfaction. As part of the FY'20 GitLab annual [engagement survey results](/handbook/people-group/engagement) it was clear that team members want to have meaningful conversations with their managers on an annual basis or even more frequently.
-
 ### Cadence
 
 This process is just an acknowledgement by the team member that they have had career conversations. Aligned with the Performance/Potential [matrix cadence](/handbook/people-group/talent-assessment), formal career conversations will ideally happen twice per year:
@@ -352,15 +348,9 @@ The bi-annual cadence is not required, but recommended. Some team members may pr
 
 ## E-Group Performance Enablement Review
 
-Effective FY21, each member of the E-Group will have a performance conversation with their direct manager, the [CEO](/handbook/company/team/#sytses), at the beginning of the new fiscal year. These conversations will assess alignment to each of our [credit values]({{< ref "values#credit" >}}), performance and personal development.
+Each member of the E-Group will have a performance conversation with their direct manager, the [CEO](/handbook/company/team/#sytses), at the beginning of the new fiscal year. These conversations will assess alignment to each of our [credit values]({{< ref "values#credit" >}}), performance and personal development.
 
 The E-Group will follow a similar process to our GitLab team member process with the additional requirement of a [self review](https://docs.google.com/document/d/1pi-nv6NtMejosVOXlr1O4rZGxmGUzuN01OMnXn5dxKU/edit#).
-
-**Performance Factors**
-
-1. Developing in role, i.e., you are new to company / new to role or there is performance development required
-1. Performing in role, i.e., you are meeting all requirements
-1. Exceeding in role, i.e., you are knocking it out of the park
 
 **Compensation Reviews**
 
