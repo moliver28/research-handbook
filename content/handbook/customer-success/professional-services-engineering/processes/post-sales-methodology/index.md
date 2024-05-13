@@ -106,12 +106,13 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 
 1. During the training planning meeting, be sure to discuss and document all of the event logistics listed in the [Training Event Plan Template](https://docs.google.com/document/d/1huNauyfhFPvLCuo-9T7Ol3FtBDYowYxiP_T5ItP2FN4/edit?usp=sharing). The Project Coordinator will create a draft of the Training Event Plan prior to the meeting and update the document during the training planning meeting.  
    - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.  
-      - [GitLab with Git Fundamentals course outline](https://about.gitlab.com/services/education/git-fundamentals/)  
-      - [GitLab CI/CD course course outline](https://about.gitlab.com/services/education/gitlab-ci/)  
-      - [GitLab Agile Portfolio Management course outline](https://about.gitlab.com/services/education/pm/)  
-      - [GitLab Security Essentials course outline](https://about.gitlab.com/services/education/security-essentials/)  
-      - [GitLab System Administration course outline](https://about.gitlab.com/services/education/admin/)  
-      - [System Requirements](https://about.gitlab.com/services/education/prereq/)  
+      - [GitLab with Git Fundamentals course outline](https://university.gitlab.com/pages/gitlab-fundamentals-training)  
+      - [GitLab CI/CD course course outline](https://university.gitlab.com/pages/ci-cd-training)  
+      - [GitLab Agile Portfolio Management course outline](https://university.gitlab.com/pages/agile-training)  
+      - [GitLab Security Essentials course outline](https://university.gitlab.com/pages/security-training)  
+      - [GitLab System Administration course outline](https://university.gitlab.com/pages/system-admin-training)  
+      - [GitLab Duo Principles course outline](https://university.gitlab.com/pages/duo-training)
+      - [System Requirements](https://university.gitlab.com/pages/gitlab-ilt-sysreq)  
 
 1. The Project Coordinator will set up a Zoom Meeting or Webinar session for each session using [these set up instructions](/handbook/customer-success/professional-services-engineering/remote-training-session-setup/) and add the registration link(s) to the issue. You will receive an email message with your unique link to join the Zoom Meeting or Webinar session. Make sure to locate the Zoom information within the email message and familiarize yourself with the Zoom functionality. Here is a useful Zoom article for [Managing Attendees and Panelists in a Webinar](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-attendees-and-panelists-in-a-webinar). Depending on your Zoom set up, you may want to log into https://zoom.us, go to Join a Meeting, and enter the meeting ID/webinar ID to start the Zoom session.
 
