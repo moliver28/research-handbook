@@ -41,6 +41,12 @@ WG members meet for sync call every Thursday at 14:30 UTC to discuss the actions
 
 Updates are being tracked in [&11777](https://gitlab.com/groups/gitlab-org/-/epics/11777) (updated every Monday).
 
+This Working Group has the following exit criteria:
+
+1. A working Epic Work Item Type is delivered to, and in use by, all customers.
+1. The implementation is sustainable for up to 12 months.
+1. A plan is in place to clean up technical debt within 12 months.
+
 #### Stage 1 - Achieving Feature Parity between Epics and Work Items
 
 |Task|Progress|DRI (group or individual)|
