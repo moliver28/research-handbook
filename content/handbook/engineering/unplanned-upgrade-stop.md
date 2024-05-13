@@ -2,7 +2,7 @@
 title: Unplanned Upgrade Stop Workflow
 ---
 
-Unplanned upgrade stop is disruptive for customers as it requires to perform rollback and additional maintenance work for performing the upgrade. Unplanned stop should be treated as an incident. The process below outlines the different stages of the incident resolution process and the steps to be taken by the corresponding teams and Directly Responsible Individuals (DRIs).
+An unplanned upgrade stop is disruptive for customers as it requires to perform rollback and additional maintenance work for performing the upgrade. Unplanned stops should be treated as incidents. The process below outlines the different stages of the incident resolution process and the steps to be taken by the corresponding teams and Directly Responsible Individuals (DRIs).
 
 High-level workflow:
 
@@ -12,7 +12,7 @@ High-level workflow:
 
 ## What is unplanned upgrade stop?
 
-Unplanned upgrade stop is an error that requires an administrator to install a version of GitLab not on their [upgrade path](https://docs.gitlab.com/ee/update/index.html#upgrade-paths).
+An unplanned upgrade stop happens when we fail to communicate the necessity of this upgrade stop in our [upgrade path](https://docs.gitlab.com/ee/update/index.html#upgrade-paths). For more information, read what an [unplanned upgrade stop is](https://docs.gitlab.com/ee/development/avoiding_required_stops.html).
 
 ### Unplanned upgrade types
 
