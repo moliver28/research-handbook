@@ -11,7 +11,7 @@ canonical_path: "/handbook/product/packaging-and-pricing/gitlab-for-campuses/"
 
 ---
 
-# GitLab for Campuses
+## GitLab for Campuses
 
 ## Overview
 
@@ -30,7 +30,7 @@ Qualifying educational institutions may receive an Academic Discount of 20% off 
 - The academic discount is not currently available to be purchased directly in the GitLab Customers Portal.
 
 
-# GitLab for Campuses: Enterprise Offering
+## GitLab for Campuses: Enterprise Offering
 
 Qualifying educational institutions may purchase a campus-wide enterprise license.
 

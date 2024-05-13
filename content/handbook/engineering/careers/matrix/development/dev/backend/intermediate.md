@@ -36,7 +36,7 @@ title: "Dev Career Framework: Intermediate Backend Engineer"
 - Able to debug issues that occur in the Production Environment
 - Develops documentation and instructions explaining how to work with GitLab Products
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-intermediate-values-competency.md" %}}

@@ -30,7 +30,7 @@ Examples of areas and tasks, some of which are determined by deal structure and 
 
 1. It is important that the new team members know who to contact with questions and it is also important for there to be "one voice" communicating with the new team members. Pre-closing, that "one voice" is the deal lead, and post-closing it is a team comprised of the applicable team members who are the subject matter experts or leads. Using the "one voice" approach helps ensure all communications are coordinated, and the messages are consistent and timely. In the case of pre-closing and closing matters, the deal lead works, as appropriate and permissible, with the target company's CEO and other senior management in communicating with the target company employees as part of the deal announcement.
 1. The deal lead is responsible for working with the target company in connection with coordinating (as appropriate and permissible) communications and messages to the target company's customers. The timing and nature of the communications depends on the structure of the transaction and the terms related to customer communications set forth in the deal documents.
-1. See the [Acquisition Process Communications Handbook Page](/handbook/acquisitions/acquisition-process/acquisition-process-communications/) for further direction. 
+1. See the [Acquisition Process Communications Handbook Page](/handbook/acquisitions/acquisition-process/acquisition-process-communications/) for further direction.
 
 ### Strategic Objectives and Performance Tracking
 
@@ -89,20 +89,23 @@ Examples of areas and tasks, some of which are determined by deal structure and 
 
 Sales and marketing of the target company product(s) covers three different areas, which are:
 
-    1. Messaging
+##### 1. Messaging
+
 The GitLab Field and Marketing organizations have aligned on a go-to-market approach based on a standard and consistent customer value-based messaging framework. As such, the Acquisition Integration team should partner with Product Marketing and document the following:
 
 1. What [**customer value driver(s)**](/handbook/sales/command-of-the-message/#customer-value-drivers) does this acquisition augment and how?
 1. How does this acquisition augment [**GitLab's differentiators**](/handbook/sales/command-of-the-message/#gitlab-differentiators) and/or introduce new ones?
 1. How does this acquisition augment our existing [**customer use cases**](/handbook/use-cases/)?
 
-    2. Role-based learning objectives
+##### 2. Role-based learning objectives
+
 After the value-based messaging has been completed, partner with the Field Enablement team to define role-based learning objectives. To get started, the team should answer the below questions for Sales Development Reps and each field role (e.g. Account Executive / Strategic Account Executive, Channel Sales Manager, Solution Architect, Customer Success Manager, Professional Services Engineer) as it relates to the acquisition:
 
 1. **Knowledge gaps**: What does that role need to KNOW that they may not know today?
 1. **Behavior gaps**: What does that role need to be able to DO, ARTICULATE, and/or SHOW that they may not be able to today?
 
-    3. Enablement Development
+##### 3. Enablement Development
+
 Once the above is completed, the team proceeds to enablement development and execution. Below is our standard enablement assets for acquisitions. The acquisition team should evaluate the list below and any changes or additions to it specific to the acquisition at hand.
 
 1. **Snapshot video** - Ahead of the announcement, the Product champion will record a short video (up to 10 minutes) which will be included as part of the PR for the acquisition as well as a resource for enablement for the GitLab team. The video should cover the following points:

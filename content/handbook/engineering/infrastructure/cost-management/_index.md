@@ -13,7 +13,7 @@ description: "GitLab Cost Management"
 
 
 
-- - -
+---
 
 ## Quick Links
 

@@ -1,17 +1,6 @@
 ---
-
 title: "dbt Guide"
 description: "data build tool (dbt) Guide"
----
-
-
-
-
-
-
-
-
-
 ---
 
 ## Quick Links
@@ -156,18 +145,22 @@ This command enables zero copy cloning using DBT selections syntax to clone enti
 **Usage:**
 
 To use the new `clone-dbt-select-local-user-noscript` command, you have to specify a `DBT_MODELS` variable. For example, to clone only the `dim_subscription` model, you would execute the following command:
+
 ```
 make DBT_MODELS="dim_subscription" clone-dbt-select-local-user-noscript
 ```
+
 This will clone the DBT model from the `prod` branch into your local user database (i.e., `{user_name}_PROD`). You can use dbt selectors: @, +, etc to select the entire lineage that you want to copy over your local database.
 
 **Tips:**
 
 - If you encounter an error as below:
+
 ```
 Compilation Error
   dbt found 7 package(s) specified in packages.yml, but only 0 package(s) installed in dbt_packages. Run "dbt deps" to install package dependencies.
 ```
+
   - Run `make dbt-deps` from the root of the analytics folder and retry the command.
 
 **Transition Note:**
@@ -295,16 +288,9 @@ Add this in your `settings.json` file:
 }
 ```
 
-<div class="panel panel-warning">
-**Note**
-{: .panel-heading}
-
-  <div class="panel-body">
-
-    If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
-
-  </div>
-</div>
+{{% panel header="**Note**" header-bg="warning" %}}
+If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
+{{% /panel %}}
 
 - Edit `DBT_PROFILES_DIR` so that it points to your `~/.dbt/` folder (it seems that path must be relative and pointing to your `~/.dbt` folder, from the `/analytics` folder)
 - Restart VScode and re-open the analytics workspace
@@ -323,17 +309,10 @@ dbt.exceptions.RuntimeException: Runtime Error
 ```
 
   - then change the target profile used by dbt: navigate to dbt-power-user extension settings (Extensions > dbt-power-user > cog > Extension settings) and edit the setting called `Dbt: Run Model Command Additional Params` (same for build)
-<div class="panel panel-warning">
-**Note**
-{: .panel-heading}
 
-  <div class="panel-body">
-
-    When running/building/testing a model from VS code UI, the terminal window popping is only a log output. Cmd+C does not stop the job(s), nor clicking the Trash icon in VS code. If you want to stop a job started via VScode, go through the Snowflake UI and your job list and kill the job(s) from there.
-
-  </div>
-</div>
-
+{{% panel header="**Note**" header-bg="warning" %}}
+When running/building/testing a model from VS code UI, the terminal window popping is only a log output. Cmd+C does not stop the job(s), nor clicking the Trash icon in VS code. If you want to stop a job started via VScode, go through the Snowflake UI and your job list and kill the job(s) from there.
+{{% /panel %}}
 
 ### Configuration for contributing to dbt project
 
@@ -367,37 +346,23 @@ As we transition to a more Kimball-style warehouse, we are improving how we orga
 The following sections will all be top-level directories under the `models` directory, which is a dbt default.
 This structure is inspired by how Fishtown Analytics [structures their projects](https://discourse.getdbt.com/t/how-we-structure-our-dbt-projects/355).
 
-<div class="panel panel-warning">
-**Legacy Structure**
-{: .panel-heading}
+{{% panel header="**Legacy Structure**" header-bg="warning" %}}
+Prior to our focus on Kimball dimensional modeling, we took inspiration from the BEAM\* approach to modeling introduced in ["Agile Data Warehouse Design" by Corr and Stagnitto](https://books.google.com/books/about/Agile_Data_Warehouse_Design.html?id=TRWFmnv8jP0C&source=kp_book_description).
+Many of the existing models still follow that pattern.
+The information in this section is from previous iterations of the handbook.
 
-  <div class="panel-body">
-
-  Prior to our focus on Kimball dimensional modeling, we took inspiration from the BEAM\* approach to modeling introduced in ["Agile Data Warehouse Design" by Corr and Stagnitto](https://books.google.com/books/about/Agile_Data_Warehouse_Design.html?id=TRWFmnv8jP0C&source=kp_book_description).
-  Many of the existing models still follow that pattern.
-  The information in this section is from previous iterations of the handbook.
-
-  - The goal of a (final) `_xf` dbt model should be a `BEAM*` table, which means it follows the business event analysis & model structure and answers the who, what, where, when, how many, why, and how question combinations that measure the business.
-  - `base models`- the only dbt models that reference the source table; base models have minimal transformational logic (usually limited to filtering out rows with data integrity issues or actively flagged not for analysis and renaming columns for easier analysis); can be found in the `legacy` schema; is used in `ref` statements by `end-user models`
-  - `end-user models` - dbt models used for analysis. The final version of a model will likely be indicated with an `_xf` suffix when it’s goal is to be a `BEAM*` table. It should follow the business event analysis & model structure and answer the who, what, where, when, how many, why, and how question combinations that measure the business. End user models are found in the `legacy` schema.
+- The goal of a (final) `_xf` dbt model should be a `BEAM*` table, which means it follows the business event analysis & model structure and answers the who, what, where, when, how many, why, and how question combinations that measure the business.
+- `base models`- the only dbt models that reference the source table; base models have minimal transformational logic (usually limited to filtering out rows with data integrity issues or actively flagged not for analysis and renaming columns for easier analysis); can be found in the `legacy` schema; is used in `ref` statements by `end-user models`
+- `end-user models` - dbt models used for analysis. The final version of a model will likely be indicated with an `_xf` suffix when it’s goal is to be a `BEAM*` table. It should follow the business event analysis & model structure and answer the who, what, where, when, how many, why, and how question combinations that measure the business. End user models are found in the `legacy` schema.
 
 Look at the [Use This Not That](https://docs.google.com/spreadsheets/d/1yr-J4ztkyl9vmJ6Euj58gczDLTIss7xIher5SV-1VDY/edit?usp=sharing) mapping to determine which new Kimball model replaces the legacy model.
+{{% /panel %}}
 
-  </div>
-</div>
+{{% panel header="**FY21-Q4 Model Migration**" header-bg="success" %}}
+In FY21-Q4 the `prod` and `prep` databases were introduced to replace the `analytics` database. These 2 new databases will fully replace the `analytics` database.
 
-<div class="panel panel-success">
-**FY21-Q4 Model Migration**
-{: .panel-heading}
-
-  <div class="panel-body">
-
-  In FY21-Q4 the `prod` and `prep` databases were introduced to replace the `analytics` database. These 2 new databases will fully replace the `analytics` database.
-
-  Local development was also switched from custom schemas to custom databases.
-
-  </div>
-</div>
+Local development was also switched from custom schemas to custom databases.
+{{% /panel %}}
 
 #### Sources
 
@@ -1232,7 +1197,7 @@ Steps to follow in order to run the tests you implemented in the data-tests proj
 4. You should see some logs, which also show the revision data-tests was installed from, where you should see your branch
 5. From where you currently are (which should be the `snowflake-dbt` directory) run the corresponding command for testing your own model
 
-#### Example:
+#### Example
 
 To run the `zuora_revenue_revenue_contract_line_source` rowcount tests, we can use the following command, which should work without any issues:
 

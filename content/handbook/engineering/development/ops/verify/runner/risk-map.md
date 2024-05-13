@@ -26,11 +26,11 @@ Utilise the Risk Map as a tool to:
 
 #### Map key
 
-* Impact - what happens if the risk is not mitigated or eliminated
-* Impact level - Rate 1 (LOW) to 5 (HIGH)
-* Probability - Rate 1 (LOW) to 5 (HIGH)
-* Priority - Impact x Probability. Address highest score first.
-* Mitigation - what could be done to lower the impact or probability                  |
+- Impact - what happens if the risk is not mitigated or eliminated
+- Impact level - Rate 1 (LOW) to 5 (HIGH)
+- Probability - Rate 1 (LOW) to 5 (HIGH)
+- Priority - Impact x Probability. Address highest score first.
+- Mitigation - what could be done to lower the impact or probability                  |
 
 | Risk Area              | Risk Description                                        | Impact                                      | Impact Level | Probability | Priority | Mitigation                                                       |
 |------------------------|---------------------------------------------------------|---------------------------------------------|--------------|-------------|----------|------------------------------------------------------------------|
@@ -43,8 +43,8 @@ Utilise the Risk Map as a tool to:
 | Quality/Infrastructure | Ability to effectively test at release                  | Escaped bugs   |   |   |    | Reference platforms and standard test harness                    |
 | Feature/Dependencies   | Bugs in third party dependencies                        | Bugs triage, escaped bugs, Failure to execute pipelines  | | | | Sufficient test coverage against latest supported version |
 | Feature/Compatibility  | Changes in third party dependencies                     | Bugs triage, escaped bugs, Failure to execute pipelines  | | | | Testing against multiple dependency versions |
-| Feature/Function       | Functional requirements not met for teams at scale      | Low customer satisfaction for key customers | | |          
-| Team/Workload          | Toil work     | Small tasks that should take a few minutes take hours, putting a backlog on reviews/deliverables |              |             | 
+| Feature/Function       | Functional requirements not met for teams at scale      | Low customer satisfaction for key customers | | |
+| Team/Workload          | Toil work     | Small tasks that should take a few minutes take hours, putting a backlog on reviews/deliverables |              |             |
 | Team/Scaling           | Slow pipelines                            | Take a long time to get feedback on a pipeline and for maintainers to merge something  |              |             |
 | Feature/Delivery       | Technical debt                            | When we have so much technical debt it's hard to deliver a feature on time.  |              |             |||
 | Feature/Delivery       | Slow deployment process                   | Context switching on a feature that you merged weeks ago |              |             | | |

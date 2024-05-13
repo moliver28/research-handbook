@@ -151,7 +151,7 @@ The L&D team uses GitLab issue boards to track priorities, organize collaboratio
 
 Additional planning and notes around the sprint board can be found in [this issue.](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/111)
 
-#### Best practices for using sprint boards and issues:
+#### Best practices for using sprint boards and issues
 
 - Apply a burn-down chart with milestones to track time spent.
 - Create the issue in the sprint where the work starts.

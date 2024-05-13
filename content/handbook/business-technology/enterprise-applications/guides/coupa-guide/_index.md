@@ -4,15 +4,7 @@ title: "Coupa End Users Guide"
 description: "Coupa End Users Guide"
 ---
 
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
 
 ## Business Need
 
@@ -47,16 +39,9 @@ If your job function requires you to manage budget and management approvals, pur
 1. **After the AR is approved, you must review the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and follow the instructions for provisioning (either assign to the provisioner, add the correct labels or both if not clearly stated) to avoid any provisioning delays.**
 1. If you require immediate Coupa access, please ping in the `#coupa_help` Slack channel.
 
-<div class="panel panel-success">
-**Best Practices**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Best Practices**" header-bg="success" %}}
 Due to the limited number of licenses available for Coupa, it is recommended that each department identify power users responsible for managing requisition budget and management approvals, purchase orders and invoice approvals on the team’s behalf.
-
-
-</div>
-</div>
+{{% /panel %}}
 
 ## How to Use Coupa for Purchasing
 
@@ -139,7 +124,6 @@ Effective 2023-02-01, all purchase requisitions will be created in `Zip`. To lea
 
 ### How to Review a Requisition in Coupa
 
-
 **REQUISITION HEADER LEVEL**
 
 ![coupa-image-42](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa42.png)
@@ -150,7 +134,6 @@ Effective 2023-02-01, all purchase requisitions will be created in `Zip`. To lea
 - c) Hide Price *(optional)*<br>
    - Used by Procurement to hide Purchase Order price from the Vendor.
 - d) Attachments *(synced from `Zip`)*<br>
-
 
 If an invoice is attached, it will also need to be emailed to **ap@gitlab.com** for processing.
 {: .alert .alert-warning}
@@ -168,7 +151,6 @@ If an invoice is attached, it will also need to be emailed to **ap@gitlab.com** 
 
 **REQUISITION LINE LEVEL**
 
-
 ![coupa-image-43](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa43.png)
 
 - The above information is synced from `Zip` or updated by FP&A Team if falls under [Coupa Prepaid Automation Process](/handbook/business-technology/enterprise-applications/guides/coupa-prepaid/).
@@ -176,7 +158,6 @@ If an invoice is attached, it will also need to be emailed to **ap@gitlab.com** 
 <br>
 
 ### Punchout Requisition
-
 
 ![coupa-image-48](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa48.png)
 
@@ -188,17 +169,11 @@ If an invoice is attached, it will also need to be emailed to **ap@gitlab.com** 
 1. Once in Coupa "Review Cart screen", **populate the required information such as the Commodity and Billing Account**.
 1. Review completeness of the requisition and click Submit for Approval.
 
-<div class="panel panel-info">
-**NOTES**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**NOTES**" header-bg="info" %}}
 - Cart Checkout and returning to Coupa “Review Cart” screen depends on the Punchout site.
 - It is recommended that users purchase via punchouts as often as possible.
 - Don’t add multiple punchout suppliers to one requisition.
-
-</div>
-</div>
+{{% /panel %}}
 
 <br>
 
@@ -262,24 +237,16 @@ There are several ways to approve transactions in Coupa:
    Once Slack notifications are activated you can choose what type of notifications you want to receive via slack.
    To specify notifications that should be received in slack please go to Settings - Notifications - mark "IM" boxes.
 
-
    Below is an example of the approval notification in Slack:
 
  ![coupa-image-27](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa27.png)  
 
-
-<div class="panel panel-info">
-**NOTE**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**NOTE**" header-bg="info" %}}
 - If your requisition status is "Pending Buyer Action", it is in Procurement's To Do List and is being reviewed by the procurement team who will respond as soon as possible, no longer than 1-2 business days. If there are any issues, Procurement will add comments to the requisition and you will receive notification via email, Slack or in your To Do List (depending on your notification setup in Coupa).
 - If you see "Onboarding" next to the Supplier's name on the line items of your requisition (see below screenshot), the Supplier has not completed the onboarding process. Suppliers have to complete their onboarding in Coupa before the requisition can be finalized.
 
 ![coupa-image-25](/handbook/business-technology/enterprise-applications/guides/coupa-guide/Coupa25.png)
-
-</div>
-</div>
+{{% /panel %}}
 
 <br>
 
@@ -292,17 +259,11 @@ Provided that a Purchase Requisition has not been fully approved and flipped int
 1. Go to “Recent Activity” or “Activity” section.
 1. Find the Purchase Request on “Pending Approval” status and click on the “withdraw requisition” icon (Red Arrow).
 
-<div class="panel panel-warning">
-**NOTES**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**NOTES**" header-bg="warning" %}}
 - On “Activity”, select the “Pending Approval” view.
 - If a Requisition has already been flipped into an Order, it cannot be withdrawn. A [Purchase Order Change Request](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-do-a-purchase-order-change-request) will have to created.
-
-</div>
-</div>
-
+{{% /panel %}}
+<div class="panel panel-warning">
 
 ### How to Receive an Order
 
@@ -316,33 +277,20 @@ Receiving is only required for an item-based (quantity) requisition.
 1. Save the receipt by clicking on the "Submit" icon.
    - A message indicating successful receipt is displayed.
 
-<div class="panel panel-warning">
-**NOTES**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**NOTES**" header-bg="warning" %}}
 - The requestor can receive partially OR the entire quantity.
 - Receiving of goods (quantity) related purchases is required for the vendor to be paid due to 3-Way match rules.
 - Adding receipt date and attachments is also possible.
-
-</div>
-</div>
-
+{{% /panel %}}
 
 ### How to Void a Receipt
 
 There may be scenarios where a receipt needs to be voided (e.g. an incorrect receipt was made).
 
-<div class="panel panel-danger">
-**IMPORTANT NOTES**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**IMPORTANT NOTES**" header-bg="danger" %}}
 - Only an ADMIN and Central Receiver will have the ability to void receipts.
 - A receipt cannot be voided if the PO is already soft-closed or hard-closed (this will occur once a PO is fully received and invoiced).
-
-</div>
-</div>
+{{% /panel %}}
 
 As **Central Receiver**, follow the below steps:
 
@@ -355,32 +303,23 @@ As **Central Receiver**, follow the below steps:
 
 ### How to do a Purchase Order Change Request
 
-
 Effective 2023-02-01, all purchase order change requests will be submitted in `Zip`. To learn more about `Zip`, check the [`Zip Handbook page`](/handbook/business-technology/enterprise-applications/guides/zip-guide).
 
 <br>
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
 **With the implementation of `Zip` effective 2023-02-01, all New Supplier Requests and Updates to Suppliers Requests will be created by the Procurement Team in Coupa.**
-
-</div>
-</div>
+{{% /panel %}}
 
 ### How to Request a New Supplier
 
 A supplier must exist in `Zip` prior to submitting a requisition for that supplier. To learn more about requesting a new supplier, check the [`Zip Handbook page`](/handbook/business-technology/enterprise-applications/guides/zip-guide).
-
 
 To complete a New Supplier Request form:
 - Click on the `Forms` dropdown on the Home page
 - Select `PROC: New Supplier`
 
 ![coupa-image-41](/handbook/business-technology/enterprise-applications/guides/coupa-guide/coupa41.png)
-
 
 - Complete the form details and click the "Review" button (located at the bottom of the page/screen).
    - Review the information and if any changes need to be made, click the "Edit" button (located at the bottom of the page/screen) to make necessary changes.
@@ -390,11 +329,9 @@ To complete a New Supplier Request form:
 - After supplier submission, the external form will be routed to the Accounts Payable Approval Group for review and approval.
 - After approval, the Supplier details will be integrated to NetSuite and it will flow back to Coupa to complete the New Supplier creation. By then, the Supplier should be available in `Zip` when creating Purchase Requests.
 
-
 ### How to Request Updates to a Supplier
 
 To learn how to request updates to a supplier, check the [training video](https://www.loom.com/share/21201b257967414793aec40656959bc5).
-
 
 ## How to Use Coupa for Invoicing and Payments
 
@@ -402,12 +339,10 @@ For further instructions on the invoicing and payment modules in Coupa, please v
 - [Invoicing in Coupa](/handbook/finance/accounting/#invoicing-in-coupa)
 - [Payments in Coupa](/handbook/finance/accounting/#processing-payment-for-invoices-in-coupa)
 
-
 ## How to Request a Coupa Virtual Card
 
 To learn more about requesting a Virtual Card, check the
 [Coupa Virtual Card Guide](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/).
-
 
 ## Coupa Support
 
@@ -417,5 +352,3 @@ If your request involves a change to the current business process, either the Pr
 {: .alert .alert-info}
 
 If you have an urgent issue, send a message to the `#coupa_help` Slack Channel explaining your issue.
-
-{::options parse_block_html="false" /}

@@ -51,6 +51,11 @@ Pitch ideas must be relevant to the GitLab Blog and our readers and include the 
 
 **All blog pitch ideas and submissions will be vetted and reviewed by GitLab team members.**
 
+Blog editors, please add the following two sentences at the beginning of contributed articles:
+
+***Editor's note: From time to time, we invite members of the community to contribute to the GitLab Blog. Thanks to [entity name] for co-creating with us.***
+
+
 ## How to submit a blog draft once your idea is approved
 
 Once a blog pitch is approved, the author will use the [Blog Submission template](https://docs.google.com/document/d/1iWk0a5T14dG5fvIxvG4doqqRxx0pyv3ej_aMDqYXjgA/template/preview) (Google Doc) to write the blog, ensuring the Google Doc is linked in the issue. **All fields in the template will have to be completed for the blog team to accept the submission.**
@@ -370,3 +375,43 @@ It's important to note that while we wait for Contentful to release locale-speci
 Publishing a blog post without an English-language equivalent follows the same process as "Translating an English blog post to other languages," with one minor difference. Contentful mandates that required fields cannot be left empty in English. To circumvent this requirement, a '#' character can be inserted into the English Title and Blog Body fields. This informs our system that the English-language blog post does not exist and should not generate a web page for it.
 
 Contentful is currently developing a solution to address this workaround, which is expected to be available by Fall 2024.
+
+### How to kick off translations
+
+Starting the process of getting a blog post translated is easy. Follow these steps: 
+
+1. Create a translation request issue in the Localization project. Pro tip - add the URL for the blog post & a direct link to the Contentful entry. It will be super helpful to you as you track the project.
+2. Argo will export the enlish blog post JSON and inport the translated JSON back into Contentful. Then you'll be pinged in the issue when it's ready for review. 
+3. Hop into the entry for the Blog post and review the translated content. 
+4. Cordinate with @sandra on publishing the translated post
+5. Once published, always verify that it's working as expected on about.gitlab.com/blog
+6. Celebrate your translated blog post by posting it in Slack. 
+
+Here's a video walk thru of the fullprocess from creating the translation request to publishing on production. 
+
+- Video recording comming soon that demonstrates the following
+- Create issue
+- Argo rountrip
+- Translation show up in Contentful
+- Review the translations
+- Live previews/changing languages
+- Publish
+
+### Gotcahs When Localizing an EN blog post 
+Things to be careful about when localizing an EN blog post.
+
+- Dont change the slug! 
+- Until Contentful introduces the async field publishing feature, we'll need to release all translations simultaneously
+
+### Tags to keep organized
+- If a post in process of being translating, slap the "translation-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed.
+- Remove and apply local label to languages the post is translated into.
+- Here's a [direct link to the Contentful Blog space](https://app.contentful.com/spaces/r9o86ar0p03f/environments/master/views/entries?searchText=&contentTypeId=&contentTypeIds=&displayedFieldIds=name&displayedFieldIds=contentType&displayedFieldIds=updatedAt&displayedFieldIds=author&displayedFieldIds=metadata.tags&displayedFieldIds=status&order.direction=descending&order.fieldId=updatedAt&filters.0.key=metadata.tags.sys.id&filters.0.op=in&filters.0.val=translation-in-progress) to see all posts currently being translated. 
+- If you make changes to translated content in the Contentful blog space, note your changes in this spreadsheet. (need link to sheet)
+| Tag | Definition | How to use |
+|----|----|----|
+| translation-in-progress | Notes when a blog post is currently be translated and reviewed | Apply when translation request is opened. Remove when post is published | 
+| language_de-DE | Marks entry that is in German | Apply to blog post that is translated into German | 
+| language_fr-FR | Marks entry that is in French | Apply to blog post that is translated into French | 
+| language_ja-JP | Marks entry that is in Japanese | Apply to blog post that is translated into Japanese | 
+

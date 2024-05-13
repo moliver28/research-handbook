@@ -1,28 +1,18 @@
 ---
-
 title: Product Development Flow Success Metrics
 description: "This page surfaces metrics related to the product development flow"
 canonical_path: "/handbook/product-development-flow/success-metrics/"
 ---
 
-
-
-<div class="panel panel-gitlab-orange">
-
-**Product Development Flow Success Metrics**
-{: .panel-heading}
-
-<div class="panel-body">
-
-### Quarterly Survey Results
+## Quarterly Survey Results
 
 [Product Development Flow Survey Q2 2020](https://docs.google.com/presentation/d/1BxUVcoPyjYkR7MOHn1aZGllMCqlH5eb27JKM_bb_uDA/edit#slide=id.g59bfc474c5_2_145)
 
-### Cycle Time Metrics in Sisense
+## Cycle Time Metrics in Sisense
 
 [Dashboard](https://app.periscopedata.com/app/gitlab/793576/WIP:-Product-Development-Flow-adoption-and-cycle-time)
 
-### Q4 2020 Before vs. After Comparison
+## Q4 2020 Before vs. After Comparison
 
 An initial quantitative analysis was done for the first major update of the PDF in December 2020 looking at:
 

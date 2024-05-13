@@ -264,7 +264,7 @@ We do the smallest thing possible and get it out as quickly as possible. The val
 
 By making information public, we can reduce the threshold to contribution and make collaboration easier. The value award for [Transparency]({{< ref "values#transparency" >}}) should be awarded to a team member that contributed or displayed transparency through for example: determining what is not public, use of a single source of truth and saying why not what.
 
-#### Criteria for value awards:
+#### Criteria for value awards
 
 - Significant contribution or display of GitLab Value in this Fiscal year.
 - The contribution or display of GitLab Value led to tangible results.
@@ -277,7 +277,7 @@ By making information public, we can reduce the threshold to contribution and ma
 
 All team members can make nominations for both The DZ Award and Values Awards. When you submit a nomination, the People Communications & Engagement DRI will create a document looping in your manager and Department Head. Ultimately each Department Head can bring forward 1 nomination for the DZ Award and 1 nomination per value. The Department Head should loop in their People Business Partner to review the final nominations. The People Communications and Engagement DRI will coordinate the nominations for both awards and ultimately nominations will be calibrated at the E-Group level.
 
-#### Overview of the nomination process:
+#### Overview of the nomination process
 
 - When the nomination window opens all team members can submit both Values Award and DZ Award nominations through [this form](https://docs.google.com/forms/d/e/1FAIpQLScMHXjXKpolimXKnhunMGPcPQ55NvKByqTSKwEhY6M03iejrw/viewform).
 - The People Communications and Engagement DRI will create a document looping in the nominator's manager and Department Head to review the nomination.

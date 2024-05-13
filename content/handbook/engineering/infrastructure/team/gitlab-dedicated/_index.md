@@ -187,6 +187,10 @@ The team does have a set of regular synchronous calls:
 - `Team call` - During this call, we are sharing important information for team-members day-to-day, as well as project items requiring a sync discussion
 - 1-1s between the Individual Contributors and Engineering Managers
 
+The group has a set of regular synchronous calls for PMs and EMs to ensure alignment:
+- `GitLab Dedicated Product <> Eng Sync` - This call is weekly on Mondays and Thursdays for PMs and EMs to align
+- `Dedicated Managers Sync` - This call is every two weeks for Dedicated EMs to sync and ensure alignment
+
 Impromptu Zoom meetings for discussing GitLab Dedicated work between individuals are created as needed.
 It is expected that these meetings are private streamed, or recorded(1*), and then uploaded to [GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqC5FfUVPyndvLvTWifWbfB).
 The outcome of the call is shared in a persistent location (Slack is not persistent). This is especially important as the team grows, because any decisions that are made in the early stage have will be questioned in the later stages when the team is larger.
@@ -249,7 +253,7 @@ click I "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/
 click J "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/298"
 ```
 
-*Note* If you are not seeing the diagram, make sure that you have accepted all cookies.
+_Note_ If you are not seeing the diagram, make sure that you have accepted all cookies.
 
 #### Epic Owners
 

@@ -20,7 +20,7 @@ These are assigned to the SRE when they start. This will guide them
 through different areas of the system, starting off with some simple
 tasks and help both the SRE and the SRE manager through various access issues.
 
-There is a third issue template for [oncall onboarding](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/master/.gitlab/issue_templates/onboarding-oncall.md), 
+There is a third issue template for [oncall onboarding](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/master/.gitlab/issue_templates/onboarding-oncall.md),
 which should be completed after the first two and will probably take at least 3 months from the start date to complete.
 
 ## GitLab.com Infrastructure Management
@@ -120,8 +120,6 @@ It is useful to have the following dashboards bookmarked and easily accessible
 
 1. [Google Cloud](https://console.cloud.google.com/home/dashboard?project=gitlab-production&pli=1)
 1. [Amazon Web Services](https://console.aws.amazon.com/console/home?region=us-east-1#)
-1. [DigitalOcean ](https://cloud.digitalocean.com/dashboard)
-1. [Azure](https://portal.azure.com)
 
 ### Monitoring tools
 
@@ -157,35 +155,35 @@ The list may not be up to date.  If something is missing, please add it.
 1. [ops.GitLab.net](https://ops.gitlab.net) account
 1. Chef access
 1. Cloud Providers
-  - Amazon Web Services
-  - Azure
-  - Digital Ocean
-  - Google Cloud
+  * Amazon Web Services
+  * Azure
+  * Digital Ocean
+  * Google Cloud
 
-# Slack Channels
+## Slack Channels
 
-- Oncall-related channels:
-  - `production`
-  - `incident-management`
-  - `alerts`
-  - `announcements`
-  - `dev-escalation`
-  - `feed_alerts-general`
-  - `cloud-provider-alerts`
-- Infrastructure channels:
-  - `sre_standup`
-  - `infrastructure-lounge`
-  - `infra-lounge-social`
-  - `infra-read-feed`
-  - `g_delivery`
-  - `g_scalability`
-  - `infra_capacity-planning`
-  - `reliability-lounge`
-  - `ansible`
-  - `kubernetes`
-  - `terraform`
+* Oncall-related channels:
+  * `production`
+  * `incident-management`
+  * `alerts`
+  * `announcements`
+  * `dev-escalation`
+  * `feed_alerts-general`
+  * `cloud-provider-alerts`
+* Infrastructure channels:
+  * `sre_standup`
+  * `infrastructure-lounge`
+  * `infra-lounge-social`
+  * `infra-read-feed`
+  * `g_delivery`
+  * `g_scalability`
+  * `infra_capacity-planning`
+  * `reliability-lounge`
+  * `ansible`
+  * `kubernetes`
+  * `terraform`
 
-# Zendesk
+## Zendesk
 
 Every SRE should register for a “Light Agent” account in ZenDesk. Often times incidents are generated from customer reports, and it’s useful to see their submission and the back and forth with support. You can also leave internal notes for support engineers so that they can gather more information for troubleshooting purposes. See ['Light Agent' Zendesk accounts available for all GitLab staff](/handbook/support/internal-support/#viewing-support-tickets)
 
@@ -216,11 +214,13 @@ Nice to have
 1. macOS doesn't have bash completion feature by default, to install it: `brew install bash-completion` and enable it: `echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bashrc`
 1. fzf used for fuzzy completion in shell, e.g. history search or filepaths, (`brew install fzf` + `echo "[ -f ~/.fzf.bash ] && source ~/.fzf.bash" >> ~/.bashrc`)
 1. the default length of bash history on macOS is 500, to extend the number of entries kept and save the timestamp you can add to your .bashrc for example:
+
 ```
 export HISTFILESIZE=2000000
 export HISTSIZE=1000000
 export HISTTIMEFORMAT="%d/%m/%y %T "
 ```
+
 1. helm - "Kubernetes package manager" (`brew install kubernetes-helm`)
 1. minikube (`brew install minikube`) and virtualbox (`https://www.virtualbox.org/wiki/Downloads`)
 1. GCP cli [gcloud quickstart macos](https://cloud.google.com/sdk/docs/quickstart-macos)

@@ -4,18 +4,9 @@ title: "Enterprise Applications Team"
 description: "The Enterprise Applications Team implements and supports specialized applications that support our business processes within GitLab."
 ---
 
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-# <i class="fas fa-users" id="biz-tech-icons"></i> Who We Are
-
+## <i class="fas fa-users" id="biz-tech-icons"></i> Who We Are
 
 The **Enterprise Applications Team** implements and supports specialized applications that support our business processes within GitLab.
 
@@ -32,7 +23,7 @@ Our Enterprise Applications team is made up of a combination of roles to best su
   <a href="/handbook/business-technology/enterprise-applications/integrations/" class="btn btn-purple-inv" style="width:25%;height:100%;margin:1px;display:flex;justify-content:center;align-items:center;">Integrations Engineering</a>
 </div>
 
-# <i class="fas fa-bullseye" id="biz-tech-icons"></i> Our Vision
+## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Our Vision
 
 - To enable end to end business processes within the enterprise applications that seamlessly hand off to each other and ensure it provides a great user experience to our business partners
 - Ensure data integrity between systems  and security of that data
@@ -41,21 +32,25 @@ Our Enterprise Applications team is made up of a combination of roles to best su
 - IT Audit and Compliance - Ensuring that all customer / business data is secure and can pass key audits for attestations and compliance with SOX, SOC, etc.
 
 
-# <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Services We Offer
+## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Services We Offer
 
 ### Business Process Improvements
+
 - Being business process first, means that the Enterprise Applications team will firm up requirements, use cases, and process flows as we implement systems, enhance them or deliver fixes.   Learn more [here](/handbook/business-technology/enterprise-applications/bsa/).
 
 ### Application Evaluations & Implementations
+
 - We provide templates for vendor evaluations, can help write and review your user stories, and are happy to participate in tool evaluations that integrate with other applications or intersect with multiple departments. Once an application is selected, our team will align with vendor teams to implement Enterprise Applications that are coming on board. We follow a process that ensures we keep multiple groups aligned as we iterate to get the systems up quickly and efficiently. Learn more [here](/handbook/business-technology/enterprise-applications/bsa/#system-implementations).
 
 ### Finance Systems Administration
+
 - Enterprise Applications supports all of the core finance systems with experienced admins that streamline and enhance current processes, turn on new features, and improve end to end process cycle time.
 
 ### Integrations Engineering
+
 - Our integration team manages all of the integrations between Enterprise Applications at GitLab.  Focusing on building out failover, redundant and auditable integrations that are constantly monitored. Learn more [here](/handbook/business-technology/enterprise-applications/integrations/).
 
-# <i class="fas fa-database" id="biz-tech-icons"></i>  Applications We Own
+## <i class="fas fa-database" id="biz-tech-icons"></i>  Applications We Own
 
 1. [Zuora](/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)
 1. [Zuora Revenue (RevPro)](/handbook/finance/accounting/finance-ops/revenue-accounting/tech-stack-guide-zuora-revenue/)
@@ -74,7 +69,7 @@ Our Enterprise Applications team is made up of a combination of roles to best su
 1. Mavenlink
 1. DocuSign
 
-# <i class="fas fa-file-alt" id="biz-tech-icons"></i>  Services We Support: Finance Systems Service Desk
+## <i class="fas fa-file-alt" id="biz-tech-icons"></i>  Services We Support: Finance Systems Service Desk
 
 ### New SKU Request
 
@@ -110,7 +105,7 @@ Open a [NetSuite Sandbox Refresh request issue](https://gitlab.com/gitlab-com/bu
 
 Open a [Zuora Central Sandbox Refresh request issue](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new) using the `Sandbox - Zuora Central Refresh Template` template.
 
-# <i class="fas fa-tasks" id="biz-tech-icons"></i>  Our Intake Process
+## <i class="fas fa-tasks" id="biz-tech-icons"></i>  Our Intake Process
 
 <div class="center">
 
@@ -219,15 +214,9 @@ Issue weight is an estimate of how much time is required to complete the request
 | XL | > 4 weeks | 13 | The problem statement has been defined but it's a significant change that has dependencies and the requirements are probably not fully understood or known. It's unlikely we would resolve this in just one issue and the preference would be to further clarify requirements and/or break into smaller issues. <br><br> **Example:** <br>- A new system or module implementation.<br> - [E-Disty Epic](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/financeops/-/epics/16), which involves multiple changes, and has been broken down into smaller issues. |
 
 
-<div class="panel panel-warning">
-**Consideration**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Consideration**" header-bg="warning" %}}
 For issues that are added to a milestone with [8+ points/weights](/handbook/business-technology/enterprise-applications/#issue-weights), the expectation is that by the end of the 2 weeks milestone, the problem statement has been defined but a solution might require extra investigation in order to be identified and implemented. Surprises are expected, different teams might have to be involved and so the issue will be carried over to the following milestone.
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Project Weights
 
@@ -287,7 +276,7 @@ Following an activity-based estimate, beginning with the requirements of the pro
 | ~"FinSys::Service Desk" | Finance Systems Service Desk issues, 72 hour SLA |
 | ~"BT Integrations::Kanban" | Business Technology Integrations issue |
 
-# <i class="fas fa-headset" id="biz-tech-icons"></i> Contact Us
+## <i class="fas fa-headset" id="biz-tech-icons"></i> Contact Us
 
 ### Slack Channels
 
@@ -296,5 +285,3 @@ Following an activity-based estimate, beginning with the requirements of the pro
 - `#bt-finance-operations`
 - `#financesystems_help`
 - `#bt-integrations`
-
-{::options parse_block_html="false" /}

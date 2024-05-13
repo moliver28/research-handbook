@@ -295,7 +295,7 @@ The nomenclature can be adjusted for each job family to ensure the appropriate l
 
 GitLab job grades aid in mapping a role for internal equity with respect to cash and equity. For example, if there is a stock option update, this mapping can act as a reference to update the compensation calculator for the various roles to ensure alignment. Job Grades can also provide an alternative path to finding the current number of options offered without having to fill out the compensation calculator.
 
-#### Job Grades:
+#### Job Grades
 
 *Note: This table excludes Enterprise Sales, Commercial Sales, Channel Sales, and Sales Development. Grading can be seen in the table below.*
 
@@ -315,7 +315,7 @@ GitLab job grades aid in mapping a role for internal equity with respect to cash
 
 Dual career tracks can be added to each job family (regardless of division) when supported by data. Each individual contributor level above senior (grade 7) will have links to market examples of that level in the relevant section of the job family.
 
-##### Sales/Sales Development:
+##### Sales/Sales Development
 
 | Grade    | Management      | Individual Contributor          |
 |-------|-----------------|---------------------------------|
@@ -330,7 +330,7 @@ Dual career tracks can be added to each job family (regardless of division) when
 | 6            |                 | SMB                            |
 | 5            |                 | SDR/BDR  |
 
-##### Customer Success:
+##### Customer Success
 
 | Grade    | Management       | Individual Contributor    |
 |-------|------------------|---------------------------|

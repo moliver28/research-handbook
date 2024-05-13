@@ -9,7 +9,7 @@ description: "GitLab Enterprise Data & Insights Team Operating Principles Handbo
 
 
 
-----
+---
 
 ## Data Management Principles
 
@@ -43,8 +43,8 @@ There are three **Data Team Operating Principles**:
 ```mermaid
 graph TD
   A[Data Team Operating Principles]
-  A --> B[Build A Better Team] 
-  A --> C[Deliver Results That Matter] 
+  A --> B[Build A Better Team]
+  A --> C[Deliver Results That Matter]
   A --> D[Create Trusted & Scalable Data Solutions]
 ```
 
@@ -81,7 +81,8 @@ graph TD
 - Automated tests are the best tests and we implement tests at every step of the data delivery process
 
 
-### Additional beliefs held by the Data Team include:
+### Additional beliefs held by the Data Team include
+
 - Everything can and should be defined in code and version controlled
 - Data implementations should integrate best practices from DevOps into their workflow
 - Partner with each Business function while having a high-quality, maintainable code base

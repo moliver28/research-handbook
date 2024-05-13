@@ -13,7 +13,7 @@ Self-Organized - A TMRG, Team Members, Managers can organized a roundtable to di
 
 ## Starting a roundtable
 
-### Diversity, Inclusion & Belonging Team Programmed:
+### Diversity, Inclusion & Belonging Team Programmed
 
 The DIB Team will organize DIB Roundtables on a quarterly basis with a maximum of two roundtables in a quarter.
 
@@ -41,7 +41,7 @@ The DIB Team will ask for a volunteer or are elect group facilitator for each gr
 | TBC | Microaggressions | TBC | NA |
 
 
-### Self-organized:
+### Self-organized
 
 First, identify a group of team members who would like to participate. This can be done via slack, with your direct team or other avenues.
 
@@ -58,7 +58,7 @@ First, identify a group of team members who would like to participate. This can 
 
 
 
-### Manager Organized:
+### Manager Organized
 
 A manager can request the DIB Team organize a DIB Roundtable for their team. They will help facilitate the roundtable and will organize other activities specific to the needs of the team.
 
@@ -66,9 +66,9 @@ If you are a manager, request a DIB roundtable by using this issue [template](ht
 
 A DIB Team Member will set up a time to discuss with the manager the function of the DIB Roundtable and suggest activities and exercises to achieve the aim of the Roundtable.
 
-## The Roundtable:
+## The Roundtable
 
-### Set the ground rules:
+### Set the ground rules
 
 - This is a closed session and a safe space.  However if something arises as part of the conversation that needs investigation, the roundtable facilitator will reach out to their [PBP](/handbook/people-group#people-business-partner-alignment-to-division) to discuss.
 - [Assume positive intent]({{< ref "values#assume-positive-intent" >}}), share and express with a higher intent
@@ -91,7 +91,7 @@ A DIB Team Member will set up a time to discuss with the manager the function of
 - Team members will be able to investigate and discuss what groups may have limited access to what privileges and effect that lack of access may have on an individual.
 - In the activity you have a list of privileges, you do not have any of these privileges, for the purpose of this exercise.
 
-### Roundtable Questions:
+### Roundtable Questions
 
 - What are some of your most important values?
     - What resonates with you?

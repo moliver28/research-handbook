@@ -21,7 +21,7 @@ I’ve set my working hours for early mornings and late afternoons to help provi
 ## My management philosophy
 
 * I believe in [Servant Leadership](https://en.wikipedia.org/wiki/Servant_leadership) and am here to help you be successful and do your best work.
-* I see my role as solving people problems, and trust my team to solve the engineering ones. 
+* I see my role as solving people problems, and trust my team to solve the engineering ones.
 * I know we won’t work together forever, and I want to support you to grow your career wherever it may take you.  Aligning projects and responsibilities to your interests and future goals is important to me.
 * GitLab’s [values](/handbook/company/culture/all-remote/values/) are one of the reasons it is such a successful company.  Results is at the top, and I’ll often ask teams to reflect on the customer value they are delivering.
 

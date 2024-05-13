@@ -6,7 +6,7 @@ description: >-
   and more in this handbook.
 ---
 
-# Overview
+## Overview
 
 ### 🙌 Purpose
 
@@ -35,17 +35,17 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 
 ## Scope
 
-Our team leads the GitLab's digital marketing platform, or simply the “Marketing Site" refers to `https://about.gitlab.com`. 
-**We own the following repositories:** 
+Our team leads the GitLab's digital marketing platform, or simply the “Marketing Site" refers to `https://about.gitlab.com`.
+**We own the following repositories:**
 - [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience)
 - [GitLab Blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog)
 - [Navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation)
-- [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui) 
+- [Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui)
 
-**Our team strengths & core capabilities:** 
+**Our team strengths & core capabilities:**
 - Engineering and UX desing for about.gitlab.com
-- Cross collaboration 
-- Speed and delivery 
+- Cross collaboration
+- Speed and delivery
 - Customer journey maps
 
 **Our team supports:**
@@ -60,9 +60,9 @@ Our team leads the GitLab's digital marketing platform, or simply the “Marketi
 - [Handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
 - [Internal handbook](https://gitlab.com/gitlab-com/content-sites/internal-handbook)
 - Content copwriting or edits
-- Cloudflare server infrastructure 
+- Cloudflare server infrastructure
 
-**Teams we work closely with:** 
+**Teams we work closely with:**
 - SEO
 - Analytics
 - Product Marketing
@@ -74,7 +74,7 @@ Our team leads the GitLab's digital marketing platform, or simply the “Marketi
 - Events
 - Competitve Intelligence
 
-# OKRs
+## OKRs
 
 We collaboratively define OKRs as a team with cross functional partners in advance of each quarter. Once OKR candidates are complete we review, size/scope them and align on which best help achieve our business objectives.
 
@@ -82,11 +82,11 @@ We collaboratively define OKRs as a team with cross functional partners in advan
 
 [FY25Q1 Digital Experience Quarterly Plan & OKRs](https://gitlab.com/groups/gitlab-com/marketing/digital-experience/-/epics/367)
 
-# Iteration Process
+## Iteration Process
 
 We release every 2 weeks, always on a Wednesday. We can push MRs at any time but for collaborative work initiatives, we plan a package for delivery to ensure we’re consistently improving our prospective customer’s experience.
 
-We start iteration a Monday. The following Wednesday is async release day, although we are releasing throughout the iteration. On the thursday a week after our Monday iteration planning, we come together for a syncrornous meeting to share what we've released. This meetings are recorded and can be viewed in our [#digita-experience YouTube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba). 
+We start iteration a Monday. The following Wednesday is async release day, although we are releasing throughout the iteration. On the thursday a week after our Monday iteration planning, we come together for a syncrornous meeting to share what we've released. This meetings are recorded and can be viewed in our [#digita-experience YouTube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba).
 
 <figure class="video_container">
 <iframe src="https://calendar.google.com/calendar/embed?src=c_g97ibfb3lq183mphm8mnbjfk34%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -359,7 +359,7 @@ Watch our team in action on YouTube!
 [Digital Experience](https://www.youtube.com/playlist?list=PL05JrBw4t0KrakNGW0ruM5UL7DDlrMBba)
 
 
-## Requesting Support 
+## Requesting Support
 
 ### Things we don't do
 

@@ -72,7 +72,6 @@ Navigate to career development resources located throughout the GitLab handbook:
     <a href="{{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}" class="btn btn-primary" style="margin:5px;">Chief of Staff to CEO Shadow</a>
     <a href="https://about.gitlab.com/handbook/finance/growth-and-development/cfo-shadow-program/" class="btn btn-primary" style="margin:5px;">CFO Shadow</a>
     <a href="https://about.gitlab.com/handbook/marketing/cmo-shadow/" class="btn btn-primary" style="margin:5px;">CMO Shadow</a>
-    <a href="https://about.gitlab.com/handbook/engineering/development/shadow/director-shadow-program.html" class="btn btn-primary" style="margin:5px;">Development Director Shadow</a>
     <a href="https://about.gitlab.com/handbook/engineering/fellow/shadow/" class="btn btn-primary" style="margin:5px;">Engineering Fellow</a>
     <a href="{{< ref "security-shadow" >}}" class="btn btn-primary" style="margin:5px;">Security Team Shadow</a>
     <a href="https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Shadow%20Program.md" class="btn btn-primary" style="margin:5px;">Support Team Shadow</a>
@@ -115,7 +114,7 @@ You are encouraged to learn and develop skills without pressure to in turn seek 
 | Topic | Definition | Examples |
 | ----- | ----- | ----- |
 | Development | Choosing and building a career path that accelerates professional growth. | Learn new skills, complete a course, be a mentee |
-| Mobility | Career mobility involves both lateral (promotions) and horizontal (transfers) movement along a career path. Mobility involves applying experience and skills as leverage for a new role. | Mentor to learn leadership skills with the intention of applying for a manager role; Complete a job shadow or internship and upskill to transfer to a new team.
+| Mobility | Career mobility involves both lateral (promotions) and horizontal (transfers) movement along a career path. Mobility involves applying experience and skills as leverage for a new role. | Mentor to learn leadership skills with the intention of applying for a manager role; Complete a job shadow or internship and upskill to transfer to a new team. |
 
 ### Career Development and Wellbeing
 

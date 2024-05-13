@@ -7,11 +7,11 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 
 ## Objectives
 
-To get started with GitLab Duo, we will test out some of the basic code generation features. Code generation allows you to prompt GitLab Duo for code that solves a specific programming problem. 
+To get started with GitLab Duo, we will test out some of the basic code generation features. Code generation allows you to prompt GitLab Duo for code that solves a specific programming problem.
 
 ## Task A. Generating some Simple Code
 
-> In this task, we are going to generate a basic hello world program in Go using GitLab Duo. This task will help you get familiar with the process of creating code in a project with GitLab Duo. 
+> In this task, we are going to generate a basic hello world program in Go using GitLab Duo. This task will help you get familiar with the process of creating code in a project with GitLab Duo.
 
 1. Navigate to your GitLab Duo project
 
@@ -71,13 +71,13 @@ You have now created a simple hello world program in Go! In the next section, yo
 
 ## Task D. Add a `.gitlab-ci.yml` File
 
-> The last step of this lab is to create a `.gitlab-ci.yml` file to build our Go application. 
+> The last step of this lab is to create a `.gitlab-ci.yml` file to build our Go application.
 
 1. In the project repository, create a new file in the main branch by clicking **(+) > This directory > New file.**
 
 1. In the **Filename** field, type `.gitlab-ci.yml`.
 
-1. Copy the yaml below into the file. 
+1. Copy the yaml below into the file.
 
     ```yml
     stages:
@@ -92,9 +92,10 @@ You have now created a simple hello world program in Go! In the next section, yo
         - go run main.go
 
     ```
-    > This `.gitlab-ci.yml` file has one stage `build` with a job `build app` that runs as part of the stage. This job runs our main.go app. You can view the output of the job to view the executed code. 
 
-    > Again, feel free to highlight the yaml and use `/explain` in GitLab Duo chat to explain the CI pipeline! 
+    > This `.gitlab-ci.yml` file has one stage `build` with a job `build app` that runs as part of the stage. This job runs our main.go app. You can view the output of the job to view the executed code.
+
+    > Again, feel free to highlight the yaml and use `/explain` in GitLab Duo chat to explain the CI pipeline!
 
 1. In the **Commit message**, type any appropriate message
 

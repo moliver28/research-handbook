@@ -425,39 +425,13 @@ This template is a guideline and feel free to alter it to specific project needs
 
 2. **% Complete**: `X%`
 
-<!--
-The following calculations can help inform this %.
-
-Open this page and filter for your epic: https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=all&first_page_size=100
-
-// Numerator: Calculate total weight of closed issues (use `defaultWeight` for issues without weight)
-let defaultWeight = 0;
-[...document.querySelectorAll('.issue.closed')].reduce((memo, el) => {
-    const weightText = el.querySelector('.issuable-weight')?.innerText;
-    return memo + (Number(weightText) || defaultWeight);
-}, 0);
-
-// Denominator: Calculate total weight of open and closed issues (use `defaultWeight` for issues without weight)
-let defaultWeight = 0;
-[...document.querySelectorAll('.issue')].reduce((memo, el) => {
-    const weightText = el.querySelector('.issuable-weight')?.innerText;
-    return memo + (Number(weightText) || defaultWeight);
-}, 0);
-
-// Finds open issues with missing weight
-[...document.querySelectorAll('.issue')].filter(el => {
-    return !el.classList.contains('closed') && !el.querySelector('.issuable-weight');
-}).length;
--->
-
 3. **Status**: `On Track or Behind` (this is determined based on your how your % complete is trending to your key dates -- are you far enough along to hit your key dates?)
 
 4. **Key Dates**:
-    | Event | Estimated Timing | Additional Details | % Complete |
-    |---|---|---|---|
-    | Design complete |  |  |  |
-    | Development complete |  |  |  |
-    | Rolled out in production |  |  |  |
+
+ * Design complete - Milestone XX.X
+ * Development complete - Milestone XX.X
+ * Rolled out in production - XXXX-XX-XX
 
 ### Risks & Blockers
 
@@ -693,8 +667,6 @@ These dashboards are designed to give an insight, to everyone working in a featu
 If there is a licensing issue (from support or sales) that requires escalation to product management or engineering, please create an issue via the process documented on the [support handbook page](/handbook/support/internal-support/#regarding-licensing-and-subscriptions) under `Assistance with License Issue`.  Please do this instead of escalating in Slack or other methods.
 
 Fulfillment leaders in product management and engineering will subscribe to the `License Issue High ARR` label so they can be aware of them when they are created.  This can be done in via a [label search](https://gitlab.com/gitlab-com/support/internal-requests/-/labels?subscribed=&search=license%20issue%20high%20arr) and then clicking on 'subscribe' for the `License Issue High ARR' label.
-
-The Program Manager, Cloud Licensing (currently Wayne Haber) will be primarily responsible for making the e-group aware in #e-group of licensing issues that may have a high ARR impact.  The backup for the Program Manager, Cloud Licensing will be the Group Product Manager, Fulfillment (currently Jerome Ng).
 
 ### Retrospectives
 

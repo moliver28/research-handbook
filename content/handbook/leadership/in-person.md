@@ -24,7 +24,7 @@ After your team `onsite`, we hope you'll feel:
 1. Connected with shared understanding and trust
 1. Trusting and connected with those with whom you work most closely
 
-### Let us help you plan your onsite!
+### Let us help you plan your onsite
 
 The GitLab Talent Engagement team is here to support your onsite planning. We can help you plan activities and make suggestions on how you can best spend this time together in person. To request this custom support, please [open an issue here using the `onsite-support` template](https://gitlab.com/gitlab-com/people-group/learning-development/custom-ld-engagement/-/issues/new).
 

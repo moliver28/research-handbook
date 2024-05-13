@@ -126,8 +126,8 @@ GitLab PSP Designations are reviewed annually: <br>1\.Non-compliant partners at 
 
 #### Maintaining PSP Designation
 
-GitLab Partner program will review the GitLab Professional Service Partners’ service attach registrations and practitioner certification status each year in the quarter the partner was originally granted certification. Partners at risk for non-compliance will receive an audit warning email 30 days prior to their removal of their PSP designation. This will allow partners and their account managers time to create a plan to return to compliance. 
-- If partners becomes compliant during the 30-day warning period, they will not have their PSP designation removed. 
+GitLab Partner program will review the GitLab Professional Service Partners’ service attach registrations and practitioner certification status each year in the quarter the partner was originally granted certification. Partners at risk for non-compliance will receive an audit warning email 30 days prior to their removal of their PSP designation. This will allow partners and their account managers time to create a plan to return to compliance.
+- If partners becomes compliant during the 30-day warning period, they will not have their PSP designation removed.
 - If partners remain inelligible after the 30-day warning period, their PSP designation will be removed, their PSP badge will no longer be shown on the partner locator, and they will be notified via email. Partners are encouraged to work with their GitLab Partner Account Manager (PAM) to create a plan for obtaining and maintaining designation.  When a partner regains PSP elligibility, their badge will be re-issued within 7 business days.
 
 
@@ -138,7 +138,7 @@ The [GitLab Channel Partner Program Guide](https://partners.gitlab.com/prm/api/o
 ### Contact Us
 
 
-## All authorized GitLab resellers are invited to the GitLab #resellers Slack channel. This Slack channel allows you to reach out to our sales and marketing team in a timely manner, as well as other resellers.
+## All authorized GitLab resellers are invited to the GitLab #resellers Slack channel. This Slack channel allows you to reach out to our sales and marketing team in a timely manner, as well as other resellers
 
 
 ## Additionally, you can email the GitLab Partner Support Team at partnersupport@gitlab.com

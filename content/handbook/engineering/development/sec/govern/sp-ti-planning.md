@@ -27,7 +27,7 @@ Questions to be answered:
 1. Are requirements clear enough to understand intent of request?
 2. Do we know the boundaries of work to be accomplished?
 
-If the answer is “No” to either of these questions, discussion continues with the PM to improve the team's understanding of the request. If necessary, the discussion will continue asynchronously in the Epic or Issue and is brought back to a future weekly meeting. 
+If the answer is “No” to either of these questions, discussion continues with the PM to improve the team's understanding of the request. If necessary, the discussion will continue asynchronously in the Epic or Issue and is brought back to a future weekly meeting.
 
 If the answer is "Yes" to these questions the team estimates **whether or not the issue
 can be delivered in a single iteration** (ignoring any other work that may be in that same
@@ -37,9 +37,9 @@ delivered in an iteration, are independent "slices" of value that can be used by
 mocked UIs or backend-only work that is inaccessible), and when all delivered will completely
 fulfill the original issue's requirements.
 
-* EM output: Once all of the above requirements have been satisfied the EMs assign a frontend and backend engineer as respective [DRI](#epic-engineering-dri)s to create Implementation Issues under the MVC epic(s). The Design issue created by UX is also closed at this point by the EM. 
+* EM output: Once all of the above requirements have been satisfied the EMs assign a frontend and backend engineer as respective [DRI](#epic-engineering-dri)s to create Implementation Issues under the MVC epic(s). The Design issue created by UX is also closed at this point by the EM.
 
-* Engineering output: Frontend and backend DRIs [create implementation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Implementation)s following the [Implementation template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Implementation.md) available for the `gitlab-org` project issues. Once they are done, they unassign themself and move issues to the `workflow::refinement` state. 
+* Engineering output: Frontend and backend DRIs [create implementation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Implementation)s following the [Implementation template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Implementation.md) available for the `gitlab-org` project issues. Once they are done, they unassign themself and move issues to the `workflow::refinement` state.
 
 ### Refinement
 
@@ -49,9 +49,10 @@ Engineers assigned to refine issues are encouraged to ask questions and push bac
 
 We assign issues for refinement to ensure we have focus on the highest-priority items, as determined by Product Management.  This is **not** an assignment to work on the issue.
 
-* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/engineering/metrics/#work-type-classification). 
+* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/engineering/metrics/#work-type-classification).
 
-### Release Scope final & kickoff!
+### Release Scope final & kickoff
+
 By the week prior to the completion of the current milestone, the scope of the next release is finalized by EMs and PMs.
 
 * EM output: `Deliverable` labels are applied to issues we are committing to deliver. It's up to the EM's discretion what issues receive this label which is used in the calculation of our [Say Do Ratio](/handbook/engineering/development/performance-indicators/#say-do-ratios). Factors include: confidence that the issue will be completed in the milestone, completion of issues rolled over from the previous milestones, commitments with other groups or stakeholders.
@@ -72,7 +73,7 @@ The goal of the refinement process is to ensure an issue is ready to be worked o
 * Outline an implementation plan.
 * Assign a weight to the issue.
 
-### Refinement steps for Engineers:
+### Refinement steps for Engineers
 
 1. Issues you need to refine will be assigned to you by your EM. Note the
    differences for [bugs](#bug-diagnosis) and [spikes](#refinement-for-spikes).
@@ -105,7 +106,7 @@ The goal of the refinement process is to ensure an issue is ready to be worked o
    * If you think that we should use the feature flag for a given issue, add ~"feature flag" label
      and add in the description a section called **Feature Flag** with the proposed name.
    * Create a [feature flag rollout](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Roll%20Out) issue to track the multiple stages of releasing with a feature flag.
-   * Consider creating a [feature flag clean up](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Cleanup) issue if the removal of the feature flag will occur in a subsequent milestone. 
+   * Consider creating a [feature flag clean up](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20Flag%20Cleanup) issue if the removal of the feature flag will occur in a subsequent milestone.
 1. Encourage Community Contributions.
    * If the scope of the issue is well defined and there are no dependencies, consider adding
      [contribution Labels](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#labels).
@@ -148,20 +149,19 @@ Note the following differences when refining bugs:
 
 #### Refinement for Security Issues
 
-The [Security Release Process for
-Developers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md#security-releases-critical-non-critical-as-a-developer)
+The [Security Developer process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md)
 can be daunting for first-timers. As part of refinement, ask for a volunteer to act as a "Security
 Issue Release Buddy".
 
 
-### Failing Refinement:
+### Failing Refinement
 
 An issue should fail refinement if it can not be worked on without additional information or
 decisions to be made. To fail an issue:
-1.  Leave a comment on the issue that it can not be worked on, and highlights what still needs to
+1. Leave a comment on the issue that it can not be worked on, and highlights what still needs to
     be done.
-2.  Unassign yourself if you can not contribute further to issue at the current time.
-3.  Assign the `workflow::blocked` label.
+2. Unassign yourself if you can not contribute further to issue at the current time.
+3. Assign the `workflow::blocked` label.
 
 
 ### Weights
@@ -184,8 +184,8 @@ We are using the Fibonacci sequence for issue weights. Definitions of each numer
 Setting a `frontend-weight` or `backend-weight` label on an issue is optional, but ensure you set the **Weight** property on the issue during refinement.
 
 Examples of when it may be appropriate to set a weight label instead of / as well as setting the issue weight include:
-- On newly drafted issues, where we haven't yet fully determined the scope or if both frontend and backend are needed.
-- On bugs, where we don't directly assign a weight. The label can help provide guidance on complexity.
+* On newly drafted issues, where we haven't yet fully determined the scope or if both frontend and backend are needed.
+* On bugs, where we don't directly assign a weight. The label can help provide guidance on complexity.
 
 ## Implementation Plan
 
@@ -207,17 +207,17 @@ The purpose of the issue verification procedures is to aid in better understandi
 When writing verification steps for a feature or bug fix, it's important to include both positive and negative scenarios. This helps ensure that the feature or fix only works when specific criteria are met and not in every situation. For example, when verifying MR Approval Policies, you should provide a scenario where approval is required when the policy is violated, and another scenario where approval is not needed when the policy is not violated. This approach allows for a more thorough and accurate testing process.
 
 ## Verification
+
 The issue verification should be done by someone else other than the MR author[^4].
 
 1. All implementation issues should have verification steps in the description. Our [implementation issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Implementation) conveniently provides this section.
-1. When an engineer has merged their work, they should move their issue into the verification status, indicated by the `~workflow:verification` label and wait until they receive notification that their work has been deployed on staging via the release issue email. 
+1. When an engineer has merged their work, they should move their issue into the verification status, indicated by the `~workflow:verification` label and wait until they receive notification that their work has been deployed on staging via the release issue email.
 1. If possible, after the engineer has received the notification and verified their work in staging, they leave a comment summarizing the testing that was complete.
-1. After the change is available on .com/production (make sure the MR has the `~workflow:verification` label, so it's available with GitLab Next turned off), the engineer should verify again, leave a comment summarizing the testing that was completed, and unassign themselves from the issue. Also provide a link to a project or page, if applicable.  
+1. After the change is available on .com/production (make sure the MR has the `~workflow:verification` label, so it's available with GitLab Next turned off), the engineer should verify again, leave a comment summarizing the testing that was completed, and unassign themselves from the issue. Also provide a link to a project or page, if applicable.
 1. Unassigned issues in the `~workflow:verification` state are are assigned randomly by the triage bot based on the [verification policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/assign_dev_for_verification.rb) to an applicable team engineer. This engineer should then additionally verify the issue.
 1. Once the issue has been verified in production by both engineers, add the `workflow::complete` label and close the issue.
 
 [^4]: To minimize cycle time between engineers, it's preferable that the writing engineer verify their work, as they will be able to start working on the issue again immediately if it turns out that the issue has not been sufficiently resolved. Waiting for another engineer to find obvious failures will increase turn around time.
-[^4]: When the engineer who writes the code is the only one verifying it, it increases the chance of defects getting into production because when that engineer tests in a new environment, they are likely to try all the same attempts to break it as they did during writing the code, which does not bring any value. If a person who did not write the code verifies the resolution in a deployed environment, they will come in with a different perspective and is more likely to cover more test cases.
 
 ## Planning for PTO
 
@@ -261,9 +261,9 @@ issues. An exception is when a single engineer agrees to work on both tech stack
 **Q:** What's the meaning of the emoji in issues?
 
 **A:** we use them to communicate certain steps in our process.
-- 🥕 you have reviewed an issue in preparation for [Planning
+* 🥕 you have reviewed an issue in preparation for [Planning
   Breakdown](#planning-breakdown).
-- 🥒 request to add a specification using [Gherkin
+* 🥒 request to add a specification using [Gherkin
   Keyworks](https://cucumber.io/docs/gherkin/reference/#keywords) (when life gives you a cucumber,
   you pickle it).
 

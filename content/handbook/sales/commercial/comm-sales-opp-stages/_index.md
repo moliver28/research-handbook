@@ -28,7 +28,7 @@ To view these stages in Google sheet format please [click this link](https://doc
 
 ![comm-sales-stages-exit-criteria](/handbook/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
 
-----
+---
 
 
 ### 0-Pending Acceptance
@@ -57,7 +57,7 @@ It is important to note that Sales Development opportunities could come from inb
 - Validation by SAE/AE of the information collected by the Sales Development team member
 - Agreed upon next step
 
-----
+---
 
 ### 1-Discovery
 
@@ -94,7 +94,7 @@ It is important to note that Sales Development opportunities could come from inb
 - Scoping meeting scheduled
 - Provide an estimate for the Expected Number of Users and the Expected Product for the Opportunity. This information is used to help the Customer Success team to predict their future workload as well as to help them with their hiring plans.
 
-----
+---
 
 ### 2-Scoping
 
@@ -134,7 +134,7 @@ It is important to note that Sales Development opportunities could come from inb
 - Channel and/or Alliances partner(s) engaged (if applicable)
 - Establish [two engagement approaches](/handbook/sales/commercial/#custom-deck-requirements) to evaluation ([Two-Lane Selling](https://docs.google.com/document/d/1h7DCIRAQ1pRiqDF6Aebl354uoMXiXbSVLaC_XefzM6w/edit))
 
-----
+---
 
 ### 3-Technical Evaluation
 
@@ -174,7 +174,7 @@ It is important to note that Sales Development opportunities could come from inb
 - Professional Services identified and sourced (Partner or internal) if applicable
 - [MEDDPPICC](/handbook/sales/meddppicc/#economic-buyer): Decision Criteria, Decision Process, Paper Process
 
-----
+---
 
 ### 4-Proposal
 
@@ -210,7 +210,7 @@ It is important to note that Sales Development opportunities could come from inb
 - Implementation strategy confirmed
 - [MEDDPPICC](/handbook/sales/meddppicc/#economic-buyer) - paper process
 
-----
+---
 
 ### 5-Negotiating
 
@@ -239,7 +239,7 @@ It is important to note that Sales Development opportunities could come from inb
 - Quote & Agreement ready to be routed for signature
 - AE has a clear timeline for when the OA will be signed and returned and implementation start date
 
-----
+---
 
 ### 6-Awaiting Signature
 
@@ -260,7 +260,7 @@ It is important to note that Sales Development opportunities could come from inb
 - Complete vendor registration process
 - [EULA](/handbook/legal/subscription-agreement/#subscription-agreement) (End User License Agreement) accepted by end-user
 
-----
+---
 
 ### 7-Closing
 
@@ -283,7 +283,7 @@ It is important to note that Sales Development opportunities could come from inb
 
 - Once Deal Desk and Billing approve the opp and change the Approval Status to Approved, the system automatically moves it to Closed Won
 
-----
+---
 
 ### Closed Won
 
@@ -301,7 +301,7 @@ It is important to note that Sales Development opportunities could come from inb
 - Initiate customer onboarding or premium support onboarding (accts with no CSM)
 - [First Order handoff](/handbook/sales/commercial/#first-order-handoff-process) to Named Account AE
 
-----
+---
 
 ### 8-Closed Lost
 
