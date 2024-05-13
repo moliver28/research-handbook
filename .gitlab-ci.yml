@@ -76,10 +76,9 @@ variables:
 .security-scanning: &security-scanning-rules
     if: '$CI_MERGE_REQUEST_IID || $CI_COMMIT_TAG'
 
-.hugo:
+build:
   image: registry.gitlab.com/pages/hugo/hugo_extended:0.123.7
-  stage: deploy
-  needs: []
+  stage: prepare
   script:
     - apk update
     - apk upgrade
@@ -88,11 +87,11 @@ variables:
     - npm ci
     - hugo --enableGitInfo
     - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/${PAGES_PREFIX}\/content-sites\/handbook\/${PAGES_PREFIX}/content-sites\/handbook\/${PAGES_PREFIX}/g" {} +
-  rules:
-    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
   artifacts:
     paths:
       - public
+  rules:
+    - when: always
 
 ###################################
 #
@@ -101,7 +100,7 @@ variables:
 ###################################
 
 pages:
-  extends: [.hugo]
+  stage: deploy
   environment:
     # tracking DORA deployment frequency
     name: $ENVIRONMENT
@@ -113,6 +112,8 @@ pages:
     HUGO_BASEURL: https://handbook.gitlab.com/
   pages:
     path_prefix: "$PAGES_PREFIX"
+  script:
+    - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"    
   rules:
     # Only run the deploy on the default branch. If you want to deploy from Merge Request branches,
     # you can use Review Apps: https://docs.gitlab.com/ee/ci/review_apps
@@ -125,7 +126,7 @@ pages:
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 # TODO @dnsmichi: What does this job do?
-deploy s3:
+deploy-s3:
     stage: deploy
     needs:
       - pages
