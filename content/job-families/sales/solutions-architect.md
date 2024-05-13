@@ -16,7 +16,7 @@ Level role responsibilities and requirements may be extended or overlayed by [Sp
 
 ### Performance Indicators
 
-As with all roles in the Sales Department, the Solutions Architect participates in a subset of the [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary). Key priorities of these roles are to drive new (i.e., new logos) and growth bookings and contribute to sales efficiency.
+As with all roles in the Sales Department, the Solutions Architect participates in a subset of the [Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary). Key priorities of these roles are to drive new (i.e., new logos) and growth bookings and contribute to sales efficiency.
 
 ## Levels
 
@@ -469,7 +469,7 @@ GitLab’s Director, Alliances & Channels Solution Architects provides strategic
 
 ## Performance Indicators
 
-As with all roles in the Sales Department, the Solutions Archtiect job family participates in a subset the [Sales KPIs](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary).
+As with all roles in the Sales Department, the Solutions Archtiect job family participates in a subset the [Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary).
 
 - [Net ARR versus Plan](https://internal-handbook.gitlab.io/handbook/sales/performance-indicators/#net-arr-vs-plan)
 
