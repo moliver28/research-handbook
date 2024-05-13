@@ -56,9 +56,8 @@ To find and access your leads, please:
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | B1 - My BDR Assigned accounts (clone)        | Customize to show accounts where you are the BDR assigned. Use to mass update 'BDR Strategy' and 'BDR Prospecting Status'.                          |
 | B2 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
-| B3 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
-| B4 - BDR Recycle Date Past due (Clone)       | Show AWA accounts where the Recycle Date is in the past two weeks.                                                                                |
-| B5 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date.
+| B3 - BDR Recycle Date Past due (Clone)       | Show AWA accounts where the Recycle Date is in the past two weeks.                                                                                |
+| B4 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date.
 
 ## How to do Lead Database Management
 
