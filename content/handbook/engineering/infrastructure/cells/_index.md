@@ -21,6 +21,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <table>
 <tr>
 <td>
+ 
 [Cells 1.0](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-1.0.html)
 </td>
 <td>
