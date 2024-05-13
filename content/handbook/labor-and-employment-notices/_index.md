@@ -41,7 +41,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Arkansas
 
-- [Minimum Wage, Overtime, Child Labor, Wage Collection Notice](https://www.labor.arkansas.gov/wp-content/uploads/2020/09/POSTER-FINAL-2019.pdf)
+- [Minimum Wage, Overtime, Child Labor, Wage Collection Notice](https://www.labor.arkansas.gov/wp-content/uploads/Poster2023-Notice-to-EmployerEmployee.pdf)
 - [How to Claim Unemployment Insurance](https://dws.arkansas.gov/wp-content/uploads/Employer_poster_on_how_to_file_UI_v09142021_LPS.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1UyrBwZhl9vlTgL-FwuzWGVaLAUQh3PTp/view?usp=sharing)
 
