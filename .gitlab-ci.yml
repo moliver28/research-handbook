@@ -16,8 +16,8 @@
 
 stages:
   - prepare
-  - deploy
   - test
+  - deploy
   - notify
   - cleanup
 
@@ -218,6 +218,12 @@ hugolint:
     reports:
       codequality: linkcheck.json
 
+secret_detection:
+  needs: []
+  dependencies: [] # Don't download artifacts, especially `./public/`
+  rules:
+    - <<: *security-scanning-rules
+
 ####################################
 ##
 ## NOTIFY STAGE
@@ -240,9 +246,4 @@ post_comment_on_failure:
   rules:
   - <<: *security-scanning-rules
 
-secret_detection:
-  needs: []
-  dependencies: [] # Don't download artifacts, especially `./public/`
-  rules:
-    - <<: *security-scanning-rules
 
