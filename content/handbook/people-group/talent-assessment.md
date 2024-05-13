@@ -625,11 +625,11 @@ Goals of the Mid-Year check in are:
 
 ### Eligibility
 
-To participate in the mid-year check in we recommend that team members have at least 3 months of tenure so accomplishments and improvement areas are able to be clearly outlined with examples. As our mid-year review kicks off on 2023-06-12, team members who started *on or before 2023-03-12 would be eligible to participate*.
+To participate in the mid-year check in we recommend that team members have at least 3 months of tenure so accomplishments and improvement areas are able to be clearly outlined with examples. As our mid-year review kicks off on 2024-06-10, team members who started *on or before 2024-03-10 would be eligible to participate*.
 
 ### Process
 
-Recommended process for our FY'24 Q2 cycle will be as follows:
+Recommended process for our FY'25 Q2 cycle will be as follows:
 
 1. *Team Member Led: Team member provides a self-assessment on their own performance in their [1:1 document]({{< ref "1-1" >}})*
 
@@ -673,11 +673,11 @@ Recommended process for our FY'24 Q2 cycle will be as follows:
 
 Mid-Year Check In launch:
 
-- 2023-06-12
+- 2024-06-10
 
 Mid-Year Check In end:
 
-- 2023-07-21
+- 2024-07-19
 
 We have intentionally provided a longer timeline to ensure different business group priorities are accommodated.
 
