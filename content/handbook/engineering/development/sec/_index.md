@@ -215,7 +215,7 @@ When creating a new project, all settings should be left to the default options,
 
       - It improves the visibility of issues and aligns with our value of [transparency](https://handbook.gitlab.com/handbook/values/#transparency).
 
-        For example, it's very easy for community members to use the `groups/gitlab-org` issue tracker to discover [GitLab issues seeking community contributions](https://gitlab.com/groups/gitlab-org/-/issues?sort=due_date_desc&state=opened&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=20).
+        For example, it's very easy for community members to [filter the issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date_desc&state=opened&label_name%5B%5D=quick%20win&first_page_size=100) in the `groups/gitlab-org` tracker to discover [GitLab issues seeking wider community contributions](https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions).
 
       - It leverages existing tools and infrastructure, such as having `triage-ops` and other bots executed against issues, without any additional configuration.
 
@@ -225,7 +225,7 @@ When creating a new project, all settings should be left to the default options,
 
       - There are some issues that apply to multiple projects. If each project has their own issue tracker, we'd need to figure out which issue tracker should "own" an issue that applies to multiple projects.
 
-   Having said that, there are currently some limitiations related to using a single, centralized issue tracker, for example [resolving threads in new issues doesn't work](https://gitlab.com/gitlab-org/gitlab/-/issues/220535).
+   Having said that, there are currently some limitations related to using a single, centralized issue tracker, for example [resolving threads in new issues doesn't work](https://gitlab.com/gitlab-org/gitlab/-/issues/220535).
 
    Until this issue has been resolved, we may choose to leave the Issue tracker enabled in the new project.
 
