@@ -56,9 +56,12 @@
 /handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat
 /handbook/customer-success/solutions-architects/ /handbook/solutions-architects/
 
-# Domain level redirects
+# CSM redirect - remove 2025-05-01
 /handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars
 /handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars
+
+# Markdown guide - remove 2025-05-13
+/handbook/markdown-guide/ /docs/markdown-guide/
 
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
