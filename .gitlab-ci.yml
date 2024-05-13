@@ -15,7 +15,7 @@
 ###################################
 
 stages:
-  - prepare
+  - build
   - test
   - deploy
   - notify
@@ -78,7 +78,7 @@ variables:
 
 build:
   image: registry.gitlab.com/pages/hugo/hugo_extended:0.123.7
-  stage: prepare
+  stage: build
   script:
     - apk update
     - apk upgrade
