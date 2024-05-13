@@ -32,7 +32,7 @@ In conjunction with this policy, supplemental change management procedures are f
 
 - [Infrastructure Change Management Procedure](/handbook/engineering/infrastructure/change-management/), for changes made to environments and cloud infrastructure services directly supporting the `GitLab.com SaaS product`
 - [Business Technology Change Management Procedure](/handbook/business-technology/change-management/), for changes made to production systems/tools/infrastructure that `do not` directly support the `GitLab.com SaaS product`
-- [Organizational Change Management Procedure](/handbook/organizational-change-management/), for organization-wide impacting changes, such as significant team restructures, revisions to hot button policies, etc.
+- [Organizational Change Management Procedure](/handbook/people-group/organizational-change-management/), for organization-wide impacting changes, such as significant team restructures, revisions to hot button policies, etc.
 - [Security Change Management Procedure]({{< ref "security-change-management-procedure" >}}) for changes made to systems and applications owned by Security and processes owned by Security sub-departments.
 
 ## Roles & Responsibilities

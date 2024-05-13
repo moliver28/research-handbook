@@ -65,7 +65,7 @@ GitLab.com and customers.gitlab.com are hosted on Google Cloud Platform. Dedicat
 
 1. Unavailability of support staff in case of a customer emergency.
     - Effect: emergency response times are greater than intended.
-    - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by *any* person who is in the [on-call rotation](/handbook/on-call/). The on-call load is distributed at many levels, service engineers, production engineers, and even developers can be summoned when we have an outage or a customer incident. Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company. There is also an ongoing effort to publish our [runbooks](https://gitlab.com/gitlab-com/runbooks), explaining how we manage our infrastructure and how we deal with outage cases.
+    - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by *any* person who is in the [on-call rotation](/handbook/engineering/on-call/). The on-call load is distributed at many levels, service engineers, production engineers, and even developers can be summoned when we have an outage or a customer incident. Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company. There is also an ongoing effort to publish our [runbooks](https://gitlab.com/gitlab-com/runbooks), explaining how we manage our infrastructure and how we deal with outage cases.
 
 1. Disruption of service of ZenDesk.
     - Effect: support workflows are disrupted. New tickets cannot be created,

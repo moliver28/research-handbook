@@ -40,7 +40,7 @@ Additionally, the **Data Analytics Team** supports the following responsibilitie
 
 ## Handbook First on the Data Analytics Team
 
-At GitLab we are [Handbook First](/handbook/handbook-usage/#why-handbook-first) and drive this by:
+At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) and drive this by:
 1. Helping our Business Partners (all GitLab team members) update the handbook with the most up-to-date and accurate information.
 1. Reviewing content and ensure that the information in the handbook best represents the data, taking into account data sensitivity and security.
 1. Updating the Data Team handbook section

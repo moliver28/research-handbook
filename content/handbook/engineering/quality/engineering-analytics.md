@@ -70,7 +70,7 @@ Please open a new issue in [our team project](https://gitlab.com/gitlab-com/qual
 
 ## Key Reviews
 
-Key Reviews are meetings a department has with other GitLab team members to discuss any progress or updates related to KPIs & OKRs with the rest of the organization. More information can be found on the [Key Review Handbook Page](/handbook/key-review/)
+Key Reviews are meetings a department has with other GitLab team members to discuss any progress or updates related to KPIs & OKRs with the rest of the organization. More information can be found on the [Key Review Handbook Page](/handbook/company/key-review/)
 
 In Engineering our key reviews are handbook driven. Each department's KPIs are defined in www-gitlab-com repo under data/performance-indicators, & metrics are in handbook with URL structure like engineering/department/performance-indicators. For example, Infrastructure's [full URL](/handbook/engineering/infrastructure/performance-indicators) is https://about.gitlab.com/handbook/engineering/infrastructure/performance-indicators.
 
@@ -128,7 +128,7 @@ Aside from the below listed scheduled meetings, the team will also have schedule
 
 #### Engineering Key Reviews
 
-Each Engineering department has a monthly or bi-monthly [key review](/handbook/key-review/) where e-group goes over the department's metrics and can ask the department heads any general questions regarding the department's progress towards its goals. Analysts are expected to go to their stable counterpart's key meeting & participate if needed, & are encouraged to attend other department key reviews as time permits.
+Each Engineering department has a monthly or bi-monthly [key review](/handbook/company/key-review/) where e-group goes over the department's metrics and can ask the department heads any general questions regarding the department's progress towards its goals. Analysts are expected to go to their stable counterpart's key meeting & participate if needed, & are encouraged to attend other department key reviews as time permits.
 
 - If stable counterpart department head has delegated you as DRI for a particular metric, provide updates during meeting for those metrics.
 - Support department heads in metric preparation ahead of reviews

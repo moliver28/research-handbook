@@ -201,7 +201,7 @@ In addition to Coaching, please see additional Modern Health Manager Resources:
 - You have unlimited access to your coach over text and/or email.
 - Coaching and therapy sessions are held over video/phone.
 - If you need to miss a scheduled session please let your coach/therapist know at least 24 hours before your appointment. If you cancel after that time, or miss the session, it will count towards your total covered sessions.
-- Remember that the [GitLab PTO policy](/handbook/paid-time-off/) and a [non-linear workday structure](/handbook/company/culture/all-remote/non-linear-workday/) are meant to enable you to make time for your mental health. Team members should feel empowered to make an appointment for therapy in the middle of the day or take time off to attend an appointment.
+- Remember that the [GitLab PTO policy](/handbook/people-group/paid-time-off/) and a [non-linear workday structure](/handbook/company/culture/all-remote/non-linear-workday/) are meant to enable you to make time for your mental health. Team members should feel empowered to make an appointment for therapy in the middle of the day or take time off to attend an appointment.
 
 **What do I do if I need support in between sessions?**
 

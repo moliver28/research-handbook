@@ -111,7 +111,7 @@ The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_t
 | Planning Board | Milestone, `~group::custom models`, `~planning priority` | `~type::bug`, `~type::maintenance`, `~type::feature` |
 | Build Board    | Milestone, `~group::custom models`, `~Deliverable` | `~workflow::ready for development`, `~workflow::in dev`, `~workflow::in review`, `~workflow::awaiting security release`, `~workflow::blocked` |
 | Next 1-3 Milestones | `%Next 1-3 Milestones` | `~workflow::problem validation`, `~workflow::problem validation`, `~workflow::design`, `~workflow::solution validation`, `~workflow::planning breakdown`, `~workflow::ready for development`     |
-| Next 4-6 Milestones | `%Next 4-6 Milestones` | Same as `Next 1-3 Milestones`     |  
+| Next 4-6 Milestones | `%Next 4-6 Milestones` | Same as `Next 1-3 Milestones`     |
 
 ### Issue Milestones
 
@@ -150,7 +150,7 @@ If you are pinged by name in either Slack or GitLab, please acknowledge the ping
 
 ## Time Off
 
-Team members should add any [Paid Time Off](https://handbook.gitlab.com/handbook/paid-time-off/) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
+Team members should add any [Paid Time Off](https://handbook.gitlab.com/handbook/people-group/paid-time-off/) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
 
 It is recognised there can always be last-minute, unplanned PTO needs. Please take any time you need, but enter it into PTO Deel and communicate with the EM as soon as you can.
 
@@ -175,8 +175,3 @@ We operate using async communication by default. There are times when a sync dis
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="custom models" >}}
 {{< /tableau >}}
-
-<!-- LINKS START -->
-
-
-<!-- LINKS END -->

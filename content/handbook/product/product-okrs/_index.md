@@ -51,7 +51,7 @@ This page provides an overview of the Product Division OKR workflow. All departm
 ### When to update the status of Product OKRs
 
 1. For all Product team OKRs, the KR owners are responsible for keeping the status of their KRs in [GitLab](/handbook/company/okrs/#how-to-use-gitlab-for-okrs) up to date
-     - Team members who **own** specific OKRs will update [the score (% complete) in GitLab](/handbook/company/okrs/#scoring-okrs) monthly and ping any relevant stakeholders as needed. For example, since FY23-Q1 begins February 1, KR owners will provide score updates by February 15,  March 15 and April 15. We follow this mid-month cycle to ensure there are accurate OKR status updates for [Key Reviews](/handbook/key-review/) which typically happen around the 20th of each month.
+     - Team members who **own** specific OKRs will update [the score (% complete) in GitLab](/handbook/company/okrs/#scoring-okrs) monthly and ping any relevant stakeholders as needed. For example, since FY23-Q1 begins February 1, KR owners will provide score updates by February 15,  March 15 and April 15. We follow this mid-month cycle to ensure there are accurate OKR status updates for [Key Reviews](/handbook/company/key-review/) which typically happen around the 20th of each month.
 2. **Owners** of KRs will get pinged with reminders update their KRs via Slack around the 5th of each month.
 3. **Owners** of KRs will also get pinged in the [Product Key Review issue](https://gitlab.com/gitlab-com/Product/-/issues/2919) as needed to update the Product Key Review slides around the 18th of each month based on what is in GitLab.
 

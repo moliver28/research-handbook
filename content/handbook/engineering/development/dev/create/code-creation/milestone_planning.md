@@ -35,7 +35,7 @@ A weight of 5 generally indicates the problem is not clear or a solution should 
 
 ## Capacity Planning for the Next Milestone
 
-- **Capacity Review**: When planning the next milestone, the engineering manager evaluates the team's available capacity, taking into account [PTO](https://handbook.gitlab.com/handbook/paid-time-off/) schedules and other commitments.
+- **Capacity Review**: When planning the next milestone, the engineering manager evaluates the team's available capacity, taking into account [PTO](https://handbook.gitlab.com/handbook/people-group/paid-time-off/) schedules and other commitments.
 - **Issue Selection**: The EM selects top-priority issues until the capacity target is met, using the ["Deliverable" label](https://handbook.gitlab.com/handbook/product-development-flow/#required-labels) to mark committed issues.
 
 ## Prioritization and Execution of Work

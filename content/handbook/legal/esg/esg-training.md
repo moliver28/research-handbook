@@ -99,13 +99,13 @@ By ensuring that good ESG practices are embedded into the organization, this wil
 
 ## GitLab Philanthropy
 
-In 2023, GitLab launched its first philanthropy policy. The goal of this policy is to provide guidance for GitLab’s philanthropic giving and activities to Registered Nonprofit Organizations that align with GitLab’s [Values](/handbook/values/), environmental, social, and governance [(ESG) strategy](/handbook/legal/ESG/), and help advance GitLab’s [mission](/handbook/company/mission/) to make it so that everyone can contribute.
+In 2023, GitLab launched its first philanthropy policy. The goal of this policy is to provide guidance for GitLab’s philanthropic giving and activities to Registered Nonprofit Organizations that align with GitLab’s [Values](/handbook/values/), environmental, social, and governance [(ESG) strategy](/handbook/legal/esg/), and help advance GitLab’s [mission](/handbook/company/mission/) to make it so that everyone can contribute.
 
-To learn more about how GitLab supports and encourages team members to support Nonprofit Organizations, please review our [policy](/handbook/legal/philanthropy-policy/#gitlab-inc-philanthropy-policy) and [program information,](/handbook/legal/ESG/#esg-request-process) including how to request support.
+To learn more about how GitLab supports and encourages team members to support Nonprofit Organizations, please review our [policy](/handbook/legal/philanthropy-policy/#gitlab-inc-philanthropy-policy) and [program information,](/handbook/legal/esg/#esg-request-process) including how to request support.
 
 ## Responding to customer requests for ESG information
 
-- If a customer reaches out to you for information on our ESG practices, please direct them to our [handbook page](/handbook/legal/ESG/) or provide them with [our report](/handbook/esg/). Please also advise them that we utilize [EcoVadis](https://ecovadis.com/) for ESG reporting and they can request a full copy of our ESG report.
+- If a customer reaches out to you for information on our ESG practices, please direct them to our [handbook page](/handbook/legal/esg/) or provide them with [our report](/handbook/company/esg/). Please also advise them that we utilize [EcoVadis](https://ecovadis.com/) for ESG reporting and they can request a full copy of our ESG report.
 
 ## Responding to ESG questions in RFPs
 
@@ -117,7 +117,7 @@ To learn more about how GitLab supports and encourages team members to support N
 
 ## Where to get more info
 
- - Learn more about GitLab’s current progress on [ESG initiatives](/handbook/legal/ESG/) and read our first ESG report [here](/handbook/esg/). Follow #ESG on slack.
+ - Learn more about GitLab’s current progress on [ESG initiatives](/handbook/legal/esg/) and read our first ESG report [here](/handbook/company/esg/). Follow #ESG on slack.
 
 
 

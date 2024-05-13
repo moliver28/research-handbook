@@ -103,7 +103,7 @@ Consider asking if notes are captured using an online collaborative suite (Offic
 
 ### Q: How is informal communication encouraged and enabled?
 
-Remote companies must be intentional about [informal communication]({{< ref "./informal-communication" >}}). When some or all team members are not able to foster relationships in person, a company must take deliberate steps. Consider asking for specific [examples](/handbook/incentives/#visiting-grant) of how a company has created an atmosphere where team members are [encouraged to connect as humans](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release/), not just colleagues.
+Remote companies must be intentional about [informal communication]({{< ref "./informal-communication" >}}). When some or all team members are not able to foster relationships in person, a company must take deliberate steps. Consider asking for specific [examples](/handbook/total-rewards/incentives/#visiting-grant) of how a company has created an atmosphere where team members are [encouraged to connect as humans](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release/), not just colleagues.
 
 ### Q: What percentage of your team was hired without an in-person meeting?
 

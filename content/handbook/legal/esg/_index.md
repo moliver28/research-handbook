@@ -12,7 +12,7 @@ Environmental, social, and governance (ESG) practices, although newly formalized
 
 In December 2022, we conducted an ESG materiality assessment to determine which ESG topics are most important to our business and our stakeholders. Through engagement with both internal and external stakeholders, we explored which ESG topics have the greatest impact on GitLab’s business, and where we have the potential to have the greatest impact on the environment, society, and our global communities. Our materiality matrix was finalized in January 2023.
 
-In 2023, we released our inaugural [FY23 ESG Report](/handbook/esg/) in the Handbook. The report includes information on our key ESG focus areas, our programs and policies, acheivements to date, metrics and targets, and plans for the future.
+In 2023, we released our inaugural [FY23 ESG Report](/handbook/company/esg/) in the Handbook. The report includes information on our key ESG focus areas, our programs and policies, acheivements to date, metrics and targets, and plans for the future.
 
 ## ESG Request Process
 
@@ -73,7 +73,7 @@ Nonprofits accepted into the program will be provided a free Ultimate license fo
 
 GitLab supports Registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that align with our [Values](/handbook/values/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal or national government.
 
-GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab’s social and environmental key topics that were defined in GitLab’s [2022 materiality assessment](/handbook/legal/ESG/). GitLab’s current social and environmental key topics are:
+GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab’s social and environmental key topics that were defined in GitLab’s [2022 materiality assessment](/handbook/legal/esg/). GitLab’s current social and environmental key topics are:
 
 - Diversity, Inclusion, and Belonging
 - Talent Management & Engagement
@@ -194,11 +194,11 @@ Here are GitLab’s current key topics with their drivers:
 
 ## Our Progress
 
-Please read our [ESG report](/handbook/esg/) to learn about our progress.
+Please read our [ESG report](/handbook/company/esg/) to learn about our progress.
 
 ## ESG Training
 
-To learn more about ESG at GitLab, please take our ESG Training course available on [LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/esg-training) and in the [Handbook](/handbook/legal/ESG/ESG-Training/).
+To learn more about ESG at GitLab, please take our ESG Training course available on [LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/esg-training) and in the [Handbook](/handbook/legal/esg/ESG-Training/).
 
 ## Measuring Results
 
@@ -213,11 +213,11 @@ Email: ESG@GitLab.com.
 
 **Q: Does GitLab calculate its carbon emissions?**
 
-A: Yes, GitLab completed its first greenhouse gas (GHG) inventory covering emissions from FY23. Please view the results of our inventory [here](/handbook/esg/#climate-action-and-greenhouse-ghg-emissions) and our third-party assurance letter [here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://about.gitlab.com/documents/GitLab_FY2023_Verification_Opinion.pdf).
+A: Yes, GitLab completed its first greenhouse gas (GHG) inventory covering emissions from FY23. Please view the results of our inventory [here](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions) and our third-party assurance letter [here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://about.gitlab.com/documents/GitLab_FY2023_Verification_Opinion.pdf).
 
 **Q: Has GitLab set a Science Based Target (SBT)?**
 
-A: Not yet. GitLab completed its first [GHG inventory](/handbook/esg/#climate-action-and-greenhouse-ghg-emissions) and will use the results to inform a reduction plan and target.
+A: Not yet. GitLab completed its first [GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions) and will use the results to inform a reduction plan and target.
 
 **Q: Does GitLab track employment by gender and ethnicity?**
 

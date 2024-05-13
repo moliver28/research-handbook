@@ -18,7 +18,7 @@ Our Customer Assurance Package contains documents such as our SOC2 report, ISO 2
 
 ### GitLab's Trust Center
 
-Our [Trust Center](https://about.gitlab.com/security/) outlines the various compliance and assurance credentials that GitLab maintains. This page also contains links to important security, legal & privacy, and availability resources, such as an [overview of our security practices]({{< ref "_index.md#security-practices" >}}), our [Environmental, Social, and Governance strategy](/handbook/legal/ESG/), and our [production architecture](/handbook/engineering/infrastructure/production/architecture/).
+Our [Trust Center](https://about.gitlab.com/security/) outlines the various compliance and assurance credentials that GitLab maintains. This page also contains links to important security, legal & privacy, and availability resources, such as an [overview of our security practices]({{< ref "_index.md#security-practices" >}}), our [Environmental, Social, and Governance strategy](/handbook/legal/esg/), and our [production architecture](/handbook/engineering/infrastructure/production/architecture/).
 
 ## Frequently asked questions
 
