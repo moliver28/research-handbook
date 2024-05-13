@@ -61,10 +61,6 @@ The following members of other functional teams are our stable counterparts.
 
 {{< stable-counterparts role="Fulfillment|Fulfillment:" manager-role="Senior Engineering Manager, Fulfillment, Interim Strategy and Operations Lead, China|Fullstack Engineering Manager, Fulfillment:Fulfillment Platform|Fullstack Engineering Manager, Fulfillment:Provision|Fullstack Engineering Manager, Fulfillment:Utilization" manager-role="Backend Engineering Manager, Gitaly|Fullstack Engineering Manager (Interim), Fulfillment:Purchase|Fullstack Engineering Manager, Fulfillment:Subscription Management Team" >}}
 
-### Fulfillment Security
-
-{{< member-and-role-by-gitlab "ankelly" >}}
-
 ### Enterprise Applications
 
 {{< member-and-role-by-gitlab "jesssalcido" >}}
