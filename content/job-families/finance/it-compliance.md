@@ -85,7 +85,7 @@ All the responsibilities of an IT Compliance Engineer, plus:
 - Direct external audits
 - Build and maintain security controls that map to GitLab security compliance requirements and provide implementation recommendations
 - Peer review control test worksheets and provide feedback and guidance to Security Compliance Engineers
-- Identify manual security compliance controls that can be improved through automation
+- Identify manual IT/security compliance controls that can be improved through automation
 - Design requirements for security compliance automation tasks
 - Recommend new security compliance metrics and automate reporting of existing metrics
 
