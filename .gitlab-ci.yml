@@ -15,8 +15,8 @@
 ###################################
 
 stages:
-  - build
   - test
+  - build
   - deploy
   - notify
   - cleanup
