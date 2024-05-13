@@ -197,6 +197,11 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
  
 **PM DRI**
 </td>
+ 
+<td>
+ 
+**TPM DRI**
+</td>
 </tr>
 
 <tr>
@@ -208,6 +213,10 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <td>
  
 [Josh Lambert](https://gitlab.com/joshlambert)
+</td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
 
@@ -221,6 +230,10 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
  
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
+</td>
 </tr>
 
 <tr>
@@ -233,6 +246,10 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
  
 [Christina Lohr](https://gitlab.com/lohrc)
 </td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
+</td>
 </tr>
 <tr>
 
@@ -244,6 +261,10 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <td>
  
 [Christina Lohr](https://gitlab.com/lohrc)
+</td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
 
@@ -258,6 +279,10 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
  
 [Christina Lohr](https://gitlab.com/lohrc)
 </td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
+</td>
 </tr>
 
 <tr>
@@ -269,6 +294,10 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <td>
  
 [Sam Wiskow](https://gitlab.com/swiskow)
+</td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
 
@@ -282,6 +311,10 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
  
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
+</td>
 </tr>
 <tr>
 
@@ -294,6 +327,10 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
  
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
+</td>
 </tr>
 
 <tr>
@@ -305,6 +342,10 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <td>
  
 [Christina Lohr](https://gitlab.com/lohrc)
+</td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
 </table>
