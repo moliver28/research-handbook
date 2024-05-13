@@ -221,7 +221,7 @@ The CoS to the CEO enables and manages this group.
 
 ## Maintaining the Mitigating Concerns
 
-We outline our [Mitigating Concerns](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/) in the handbook.
+We outline our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/) in the handbook.
 The CoS to the CEO is responsible for maintaining this list.
 There is an issue to also [add DRIs and review the mitigations](https://gitlab.com/gitlab-com/cos-team/-/issues/20).
 

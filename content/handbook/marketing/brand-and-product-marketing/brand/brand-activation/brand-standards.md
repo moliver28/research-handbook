@@ -47,7 +47,7 @@ GitLab's official brand guidelines can be found at **[design.gitlab.com](https:/
 
 ### Business cards
 
-- [Ordering business cards](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/?redirected-from=internal-handbook.gitlab.io#ordering-business-cards)
+- [Ordering business cards](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/frequently_requested/)
 
 ### Color palette
 
