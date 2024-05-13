@@ -198,6 +198,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Application’s Cell readiness</td>
 <td>
+ 
 [Kamil Trzciński](https://gitlab.com/ayufan)
 </td>
 <td>
