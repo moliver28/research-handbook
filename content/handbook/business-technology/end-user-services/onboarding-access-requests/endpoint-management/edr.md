@@ -228,7 +228,12 @@ Expect SentinelOne to use less than 10% of total CPU power (for example, display
 2. Reproduce the scenario that caused the issue, or run it for a few minutes. It will run in the background. You will not see output.
 3. Collect the metric log:
 `sudo sentinelctl profiler stop`
-4. Analyze the data as below, and then if needed share the file with #sentinelone and we will get a ticket open with SentinelOne support.
+4. You should see a notification in the top right on your screen indicating a report is being generated. 
+![S1 Report Generation](/content/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/S1ReportProgress.png)
+5. After some time a report will finish and you will see another notification from SentinelOne that a log file was completed. Click the notification and you may be required to allow the SentinelAgent access to files on your Desktop folder. The file will then download to your Desktop folder.
+![S1 Completion](/content/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/S1ProfileComplete.png)
+![S1 Allow Desktop Folder](/content/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/S1AllowDesktop.png)
+6. Analyze the data that the report generates, and if needed share the file in the #sentinelone Slack channel and we will get a ticket open with SentinelOne support.
 
 ### My SentinelOne agent is offline
 
