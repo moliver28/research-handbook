@@ -91,7 +91,8 @@ build:
     paths:
       - public
   rules:
-  - <<: *security-scanning-rules      
+  - <<: *security-scanning-rules
+  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH  
   # rules:
   #   - when: always
 
