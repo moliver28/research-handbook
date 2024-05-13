@@ -270,6 +270,7 @@ group is [`group::distribution`](https://gitlab.com/groups/gitlab-org/-/labels?u
 - `usage_driver_score`: the Product Usage Driver score, used on [/handbook/product/investment](https://internal.gitlab.com/handbook/product/investment/)
 - `asp_driver_score`: the ASP score, used on [/handbook/product/investment](https://internal.gitlab.com/handbook/product/investment/)
 - `sam_driver_score`: the Served Addressable Market score, used on [/handbook/product/investment](https://internal.gitlab.com/handbook/product/investment/)
+- `group_link`: the link to the group section on the [/handbook/product/categories](https://handbook.gitlab.com/handbook/product/categories) page, e.g. `product/categories/#activation-group`
 - `pi_gmau`: A link to the dashboard that displays GMAU for this group
 - `pi_pgmau`: A link to the dashboard that displays _Paid_ GMAU for this group
 - `analyst_reports`: A link to a location where relevant analyst reports are available
