@@ -120,7 +120,7 @@ If you need to file a claim, kindly reach out to the Payroll Team or email nonus
 
 ### On-Call (Engineering only)
 
-Certain groups in the Engineering division are expected to participate in on-call for business continuity and/or customer support. For more details on the on-call procedure, please reference the [on-call page](/handbook/on-call/). The purpose of this section is to provide an overview of **time in lieu that will be offered for the Development and Infrastructure departments effective February 1, 2021.** We will continue to review and implement to other departments within Engineering iteratively.
+Certain groups in the Engineering division are expected to participate in on-call for business continuity and/or customer support. For more details on the on-call procedure, please reference the [on-call page](/handbook/engineering/on-call/). The purpose of this section is to provide an overview of **time in lieu that will be offered for the Development and Infrastructure departments effective February 1, 2021.** We will continue to review and implement to other departments within Engineering iteratively.
 
 With our global team, we strive for a "follow the sun" model for on-call rotation. This way, team members can participate in on-call during their daytime rather than their nighttime in their respective regions (APAC, EMEA and AMER). In APAC, the majority of the team members are located in Australia. We want to ensure engineers in Australia are 1) eligible for on-call shifts, and 2) stay aligned with local laws to ensure proper rest/recovery time after on-call shifts.
 
@@ -399,7 +399,7 @@ added to the policy within three months of the child’s birth. Congenital condi
 ### New Hires
 
 Eligible New Hires will be given a link and code to access the portal and enroll in the plan during their onboarding issue
-Total Rewards will also send a monthly report to WTW with new hires as a backup (This process will soon be replaced by automated notifications from Workday)  
+Total Rewards will also send a monthly report to WTW with new hires as a backup (This process will soon be replaced by automated notifications from Workday)
 WTW will have Southern Cross email the eligible new hire with enrollment instructions.
 
 ### Leavers

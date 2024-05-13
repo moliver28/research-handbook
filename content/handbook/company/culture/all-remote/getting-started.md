@@ -108,7 +108,7 @@ Or, you may find that [working with other nomads in a foreign location](https://
 
 People [adopt a remote lifestyle]({{< ref "./people" >}}) for many reasons. It's important to consider unique work environments if you're new to a remote role. If you've been forced into an office for your entire career, you may not instinctively know which work environment is best for you. By experimenting and asking for advice from others who have worked remotely before, you may discover a side of yourself that's finally able to flourish due to newfound flexibility.
 
-At GitLab, team members are allowed to [expense costs](/handbook/spending-company-money/) associated with coworking spaces or external offices, as we recognize that working out of one's home is not always ideal or desired. If you're new to a remote role, ask your manager if external office space is reimbursable.
+At GitLab, team members are allowed to [expense costs](/handbook/finance/spending-company-money/) associated with coworking spaces or external offices, as we recognize that working out of one's home is not always ideal or desired. If you're new to a remote role, ask your manager if external office space is reimbursable.
 
 ## Prioritize ergonomics
 
@@ -116,7 +116,7 @@ Whether it's in your home office, at a coffee shop, a coworking space, or elsewh
 
 Pay close attention to seating and posture, as well as repetitive stress on arms and wrists. It's worth investing in equipment designed to help you work healthier. Cutting corners in this area now can lead to chronic pains in the future.
 
-At GitLab, team members are [allowed to spend company money as they would their own](/handbook/spending-company-money/). If you're new to a remote role, ask your manager if ergonomic equipment is reimbursable.
+At GitLab, team members are [allowed to spend company money as they would their own](/handbook/finance/spending-company-money/). If you're new to a remote role, ask your manager if ergonomic equipment is reimbursable.
 
 ## Procure the right equipment for working remotely
 
@@ -126,7 +126,7 @@ Items such as standing/treadmill desks, standing mats, external keyboard/mice, h
 
 ## Do remote employers provide work equipment?
 
-Not all remote employers provide work equipment. This is an important question to ask during your interview process. However, at GitLab, team members are [allowed to spend company money](/handbook/spending-company-money/) as they would their own, with [guidance provided](/handbook/finance/expenses/#-setting-up-a-home-office-for-the-first-time) for various types of equipment.
+Not all remote employers provide work equipment. This is an important question to ask during your interview process. However, at GitLab, team members are [allowed to spend company money](/handbook/finance/spending-company-money/) as they would their own, with [guidance provided](/handbook/finance/expenses/#-setting-up-a-home-office-for-the-first-time) for various types of equipment.
 
 ## How to connect with people when starting a remote job
 

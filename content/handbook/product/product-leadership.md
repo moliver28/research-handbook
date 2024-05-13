@@ -60,7 +60,7 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 
 ## Product Key Review Leader Rotation
 
-The Product [Key Review](/handbook/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
+The Product [Key Review](/handbook/company/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
@@ -73,9 +73,9 @@ The Product [Key Review](/handbook/key-review/) is hosted by a member of the [Pr
 
 ## Product Group Conversation Leader Rotation
 
-The Product [Group Conversation](/handbook/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
+The Product [Group Conversation](/handbook/company/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
 
-For more details, visit the Group Conversations [handbook page](/handbook/group-conversations/#additional-consideration-for-functional-presentations)
+For more details, visit the Group Conversations [handbook page](/handbook/company/group-conversations/#additional-consideration-for-functional-presentations)
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |

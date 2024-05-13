@@ -182,7 +182,7 @@ A: Depending on where you are located, you can find the payroll cut off dates [h
 
 **Q: I have preplanned vacations or commitments, how should I handle this upon starting and ensuring the PTO?**
 
-A: That's absolutely okay. You'll want to make sure to talk with your manager as soon as you can about the days to make sure appropriate coverage is there and then once you get access to Slack, you'll be able to submit your time off in [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel).
+A: That's absolutely okay. You'll want to make sure to talk with your manager as soon as you can about the days to make sure appropriate coverage is there and then once you get access to Slack, you'll be able to submit your time off in [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel).
 
 **Q: How long do I have to enroll in benefits?**
 
@@ -200,7 +200,7 @@ A: You will receive the dollar figure listed on your contract, however the numbe
 
 **Q: Where can I find information about ESPP (Employee Stock Purchase Program)?**
 
-A: You can read about our ESPP program [here](/handbook/stock-options/#employee-stock-purchase-plan-espp).
+A: You can read about our ESPP program [here](/handbook/total-rewards/stock-options/#employee-stock-purchase-plan-espp).
 
 ### Access
 

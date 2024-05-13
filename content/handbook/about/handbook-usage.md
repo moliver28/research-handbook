@@ -1,6 +1,8 @@
 ---
 title: "GitLab Handbook Usage"
-weight: -10
+description: "About how GitLab uses the handbook."
+aliases:
+- /handbook/handbook-usage/
 ---
 
 ## Flow structure
@@ -47,7 +49,7 @@ When asked during an [INSEAD](http://insead.edu/) case study interview (shown ab
 
 The handbook is focused on any content that GitLab team members need to do their job. For other content that might be useful, link to the other source.
 
-- All documentation that also applies to code contributions from the wider community should be in the GitLab project (for example in [Contributing](https://docs.gitlab.com/ee/development/contributing/) or the [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html)), not the Handbook, which is only for team members. Read more in the [Documentation](/handbook/documentation/) section of the Handbook.
+- All documentation that also applies to code contributions from the wider community should be in the GitLab project (for example in [Contributing](https://docs.gitlab.com/ee/development/contributing/) or the [code review guidelines](https://docs.gitlab.com/ee/development/code_review.html)), not the Handbook, which is only for team members. Read more in the [Documentation](/handbook/product/ux/technical-writing/documentation/) section of the Handbook.
 - For user facing company information, there's the main marketing [website](/handbook/marketing/digital-experience/), and the [blog](/handbook/marketing/blog/).
 - The handbook is for things concerning current and future GitLab team-members only. If something concerns users of GitLab, it should be documented in the [GitLab documentation](https://docs.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), the [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
@@ -68,7 +70,7 @@ Please follow these guidelines and remind others of them.
 
 #### Screenshot the handbook instead of creating a presentation
 
-Presentations are great for ephemeral content like [group conversations](/handbook/group-conversations/) and board presentations. [Evergreen content](https://www.thebalance.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) like a [leadership training](/handbook/leadership/#training) should be based on the handbook. This is an important element of [working handbook-first](/handbook/company/culture/all-remote/handbook-first/).
+Presentations are great for ephemeral content like [group conversations](/handbook/company/group-conversations/) and board presentations. [Evergreen content](https://www.thebalance.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) like a [leadership training](/handbook/leadership/#training) should be based on the handbook. This is an important element of [working handbook-first](/handbook/company/culture/all-remote/handbook-first/).
 
 In the creation of presentations for evergreen content, please screenshot the handbook and provide links to displayed pages rather than copy and pasting content (or formatting a slide specifically to mirror handbook information). This approach shows a [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication), and rationale for this is below.
 
@@ -80,7 +82,7 @@ In the creation of presentations for evergreen content, please screenshot the ha
 1. The content is integrated with the rest of our processes and shown in context
 1. Many more people will consume the content on a webpage than a presentation because it is easier to search and link
 1. You're helping other organizations and students around the work by giving them an example how we do it
-1. Also see some of the [advantages of using our handbook](/handbook/handbook-usage/)
+1. Also see some of the [advantages of using our handbook](/handbook/about/handbook-usage/)
 
 The presentation will look less polished, but the advantages outweigh that concern.
 
@@ -109,7 +111,7 @@ See the [Searching GitLab like a pro](/handbook/tools-and-tips/searching/) page 
 1. When you submit a merge request, make sure that it gets merged quickly. Making single, small changes quickly will ensure your branch doesn't fall far behind master, creating merge conflicts. Aim to make and merge your update on the same day. Mention people in the merge request or reach them via Slack. If you get a suggestion for a large improvement on top of the existing one consider doing that separately. Create an issue, get the existing MR merged, then create a new merge request.
 1. If you have to move content have a merge request that moves it and does nothing else. If you want to clean it up, summarize it, or expand on it do that after the moving MR is merged. This is much easier to review.
 1. Try to **add the why of a handbook process**, what is the business goal, what is the inspiration for this section. Adding the why makes processes easier to change in the future since you can evaluate if the why changed.
-1. When adding or changing a process in the [engineering workflow](/handbook/engineering/workflow), consider scheduling a retro `X` months out. The retro is an opportunity to [consider the effects](/handbook/handbook-usage/#considerations-when-adding-an-additional-process) of the new process and determine if it needs further iteration or can be removed.
+1. When adding or changing a process in the [engineering workflow](/handbook/engineering/workflow), consider scheduling a retro `X` months out. The retro is an opportunity to [consider the effects](/handbook/about/handbook-usage/#considerations-when-adding-an-additional-process) of the new process and determine if it needs further iteration or can be removed.
 
 #### Considerations when adding an additional process
 
@@ -185,7 +187,7 @@ Preference contributable diagrams over uploading images or other less contributa
 
 ## Handbook First Competency
 
-In an all-remote, asynchronous organization, each team member should practice handbook first. For more information on what it means to be handbook first, please refer to the [why handbook first](/handbook/handbook-usage/#why-handbook-first) section of this page.
+In an all-remote, asynchronous organization, each team member should practice handbook first. For more information on what it means to be handbook first, please refer to the [why handbook first](/handbook/about/handbook-usage/#why-handbook-first) section of this page.
 
 **Skills and behaviors of handbook first as a Team Member**:
 
@@ -203,7 +205,7 @@ In an all-remote, asynchronous organization, each team member should practice ha
 
 ## Management
 
-It is each department and team member's responsibility to ensure the handbooks (public handbook, and internal handbook) stay current. The content in the handbook should be accurate and follow the same format as outlined in the [Guidelines](/handbook/handbook-usage/#handbook-guidelines). For questions on who to submit a merge request to, or assistance with the handbook, please reach out on the `#handbook` Slack channel.
+It is each department and team member's responsibility to ensure the handbooks (public handbook, and internal handbook) stay current. The content in the handbook should be accurate and follow the same format as outlined in the [Guidelines](/handbook/about/handbook-usage/#handbook-guidelines). For questions on who to submit a merge request to, or assistance with the handbook, please reach out on the `#handbook` Slack channel.
 
 If you need permissions to directly commit changes to the handbook, please submit a [New Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests) issue and follow the process for access approval. Request a 'Maintainer' role for the appropriate handbook.
 

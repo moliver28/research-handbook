@@ -12,7 +12,7 @@ People Connect will review the following guidelines to ensure the correct amount
 1. Ensure that the current team member is eligible for a referral based upon the [requirements]({{< ref "referral-process#referral-bonus-eligibility" >}}).
 1. Review when the referral was submitted in Greenhouse
     - `Job` > `Application Review` > `Applied On YYYY-MMM-DD`
-    - Our current referral bonus amount as of **2023-11-20** is listed [here](/handbook/incentives/#referral-bonuses).
+    - Our current referral bonus amount as of **2023-11-20** is listed [here](/handbook/total-rewards/incentives/#referral-bonuses).
     - If the referral was submitted between **2022-06-01** and **2023-11-19**, then the following referral amounts apply:
         - $1,500 base referral bonus for a new hire.
         - $1,500 supplemental referral bonus for a hire from a ["select underrepresented group"](https://about.gitlab.com/culture/inclusion/#examples-of-select-underrepresented-groups).

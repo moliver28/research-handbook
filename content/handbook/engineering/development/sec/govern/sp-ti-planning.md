@@ -1,14 +1,7 @@
 ---
-aliases: /handbook/engineering/development/sec/govern/sp-ti-planning.html
-
 title: Security Policies and Threat Insights planning
+aliases: /handbook/engineering/development/sec/govern/sp-ti-planning.html
 ---
-
-# On this page
-
-
-
-
 
 ## How we do planning
 
@@ -221,7 +214,7 @@ The issue verification should be done by someone else other than the MR author[^
 
 ## Planning for PTO
 
-We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 ## Epic Engineering DRI
 

@@ -29,7 +29,7 @@ In FY'25, the dates for Family & Friends Day will be:
 1. 2023-12-29
 1. 2024-01-12
 
-We will look at scheduling future dates pending the global COVID-19 situation. Because we are living in unprecedented times and are trying to give our Team Members some extra space in their lives outside of work. In line with our [Paid Time Off](/handbook/paid-time-off/) policy, we encourage GitLab Team Members to continue to take additional days off, as needed. Family and Friends Day is a reminder to do this.
+We will look at scheduling future dates pending the global COVID-19 situation. Because we are living in unprecedented times and are trying to give our Team Members some extra space in their lives outside of work. In line with our [Paid Time Off](/handbook/people-group/paid-time-off/) policy, we encourage GitLab Team Members to continue to take additional days off, as needed. Family and Friends Day is a reminder to do this.
 
 ## Past Family and Friends Days
 
@@ -95,7 +95,7 @@ We encourage you to take off the next working day. If this day isn't an option, 
 
 ### How is this any different than our vacation policy?
 
-Nothing about our [Paid Time Off](/handbook/paid-time-off/) policy is changing. We wanted to designate a specific day in order to more proactively force a pause for team members. If most of the company isn't working, there is less pressure for you to do so.
+Nothing about our [Paid Time Off](/handbook/people-group/paid-time-off/) policy is changing. We wanted to designate a specific day in order to more proactively force a pause for team members. If most of the company isn't working, there is less pressure for you to do so.
 
 ### What about client or prospect meetings that conflict?
 
@@ -109,12 +109,12 @@ Feel better! Please work with your manager to find another day that works for yo
 
 Unless in circumstances described above (e.g., role requires you to work on a Family and Friends Day, the designated day falls on a non-working day), team members that want to benefit from Family and Friends Day should take the designated day off. This provides [different benefits from a regular PTO day](/handbook/company/family-and-friends-day/#how-is-this-any-different-than-our-vacation-policy).
 
-If you'd like to take a different day off for personal reasons, refer to the [Paid Time Off](/handbook/paid-time-off/) policy.
+If you'd like to take a different day off for personal reasons, refer to the [Paid Time Off](/handbook/people-group/paid-time-off/) policy.
 
 ### How do I communicate that I'm off that day?
 
 We'll assume that most people are off on Family and Friends Day, but we know that some people will take other days.
 
-Please update [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel) in Slack. You can select `Create an OOO Event` and find `Family and Friends Day` in the drop-down menu of `What type of OOO is this?`.
+Please update [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel) in Slack. You can select `Create an OOO Event` and find `Family and Friends Day` in the drop-down menu of `What type of OOO is this?`.
 
 Feel free to block your calendar with "Family and Friends Day" to share whatever day you take.

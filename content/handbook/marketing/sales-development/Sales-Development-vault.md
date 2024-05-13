@@ -615,8 +615,8 @@ A career mobility issue should be opened 2 weeks before the transition date by t
 
 If an SDR will be out for a prolonged period of time, please follow the proper processes and complete the SDR leave checklist.
 - [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)
-- [Emergency Situations](/handbook/paid-time-off/#communicating-time-off-for-emergency-situations)
-- [Unpaid leave](/handbook/paid-time-off/#unpaid-leave-of-absence)
+- [Emergency Situations](/handbook/people-group/paid-time-off/#communicating-time-off-for-emergency-situations)
+- [Unpaid leave](/handbook/people-group/paid-time-off/#unpaid-leave-of-absence)
 
 ### Manager Sales Development Leave Checklist
 -
@@ -647,7 +647,11 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 - At least 200 people enrolled and/or having completed the sequence on a timely manner.
 - ( Sequence has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Sequence has over 5% meeting set rate.
 
+<<<<<<< HEAD
 ### Things to look out for when reviewing a sequence as a Manager
+=======
+### Things to look out for when reviewing a sequence as a Manager.
+>>>>>>> 6537b84978 (Clean up top-level folder and nav)
 
 - Does the messaging of the sequence follow Command Of the Message?
      - Are all emails formatted appropriately with pain-probing questions and value propositions?
@@ -707,16 +711,13 @@ For BDRs and SDRs joining GitLab on the 15th or after of the month
 Quota and compensation will be assigned by the BDR/SDR Manager and discussed in the first 1:1. If a fully ramped BDR/SDR transfers BDR/SDR teams they will have a 50% ramp for month 1 and 100% quota for month 2.
 
 ## Sales Development Onboarding Resources
+
 - [Adding yourself to the team page](/handbook/editing-handbook/#add-yourself-to-the-team-page)
 - [Making changes/edits to the handbook](/handbook/editing-handbook/#editing-the-handbook)
 - Questions about a handbook edit? Use the slack channels #handbook or #mr-buddies
 - Questions about onboarding? Drop them in the #new_team_members slack channel
 
 ## Manager Responsibilities
+
 - [SDR New Hire 1:1 Template](https://docs.google.com/document/d/1hiIksiDQjZBYCevA36J5Tfa4_bItuDuDOisfIK93Ihw/edit?usp=sharing)
 - [BDR New Hire 1:1 Template](https://docs.google.com/document/d/1ymdIfeGhFzFLJkz0_1qZhzVlLMaTpNaiTowfdbVJEao/edit?usp=sharing)
-
-
-
-
-

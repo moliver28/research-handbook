@@ -213,11 +213,11 @@ GitLab is an all-remote, timezone distributed company as such we optimize for as
 
 ### Group Conversation
 
-[Group Conversations](/handbook/group-conversations/) take the information from the Key Review (plus any additional topics) and shared with all of GitLab. All Team Members are invited to participate in Group Conversations by adding questions and comments in the Group Conversation Agenda.
+[Group Conversations](/handbook/company/group-conversations/) take the information from the Key Review (plus any additional topics) and shared with all of GitLab. All Team Members are invited to participate in Group Conversations by adding questions and comments in the Group Conversation Agenda.
 
 Coordination of Infrastructure Group Conversation materials and facilitation of the discussion is a rotating role among the managers within the department.
 
-Group Conversation DRI [Schedule](/handbook/group-conversations/#current-schedule).
+Group Conversation DRI [Schedule](/handbook/company/group-conversations/#current-schedule).
 
 ### Week-in-review
 

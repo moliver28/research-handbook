@@ -24,7 +24,7 @@ The mission of the Data Science Team is to facilitate ***making better decisions
 
 ## Handbook First
 
-At GitLab we are [Handbook First](/handbook/handbook-usage/#why-handbook-first) and promote this concept by ensuring the data science team page remains updated with the most accurate information regarding data science objectives, processes, and projects. We also strive to keep the handbook updated with useful resources and our data science toolset.
+At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) and promote this concept by ensuring the data science team page remains updated with the most accurate information regarding data science objectives, processes, and projects. We also strive to keep the handbook updated with useful resources and our data science toolset.
 
 ## Learning About Data Science
 

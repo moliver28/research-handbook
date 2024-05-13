@@ -84,7 +84,7 @@ In addition to the [status process from Dedicated team page](/handbook/engineeri
 ## Key Review
 
 - Initiative DRI provides updates in Product Key Review as the Chief Product Officer is the executive sponsor of this initiative.
-- The [Product Key Review](/handbook/key-review/) occurs twice per quarter.
+- The [Product Key Review](/handbook/company/key-review/) occurs twice per quarter.
 
 ## Top Initiative Quarterly Meeting
 
