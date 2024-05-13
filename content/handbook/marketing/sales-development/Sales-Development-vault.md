@@ -647,11 +647,7 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 - At least 200 people enrolled and/or having completed the sequence on a timely manner.
 - ( Sequence has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Sequence has over 5% meeting set rate.
 
-<<<<<<< HEAD
 ### Things to look out for when reviewing a sequence as a Manager
-=======
-### Things to look out for when reviewing a sequence as a Manager.
->>>>>>> 6537b84978 (Clean up top-level folder and nav)
 
 - Does the messaging of the sequence follow Command Of the Message?
      - Are all emails formatted appropriately with pain-probing questions and value propositions?

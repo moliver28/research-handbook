@@ -72,16 +72,6 @@ planned, not come up with every idea or change.
 
 ### Where should you look when you need help?
 
-<<<<<<< HEAD
-* The first thing you should do is read this page carefully and the pages linked from this page.
-* Most answers can also be found in the [handbook](/handbook/). If you can't find the answer, please add a proposal!
-* You can ask questions related to Product in the `#product` Slack channel.
-* General questions should be asked in `#questions`.
-* Specific Git related questions should be asked in `#git-help`.
-* If you have problems with a MR, ask in `#mr-buddies`.
-* HR questions should be asked in `#people-connect`.
-* Anything Release Post related can be found in the [Release Post handbook](/handbook/marketing/blog/release-posts/#pm-contributors) and `#release-post`
-=======
 - The first thing you should do is read this page carefully and the pages linked from this page.
 - Most answers can also be found in the [handbook](/handbook/). If you can't find the answer, please add a proposal!
 - You can ask questions related to Product in the `#product` Slack channel.
@@ -90,7 +80,6 @@ planned, not come up with every idea or change.
 - If you have problems with a MR, ask in `#mr-buddies`.
 - HR questions should be asked in `#people-connect`.
 - Anything Release Post related can be found in the [Release Post handbook](/handbook/marketing/blog/release-posts/#pm-contributors) and `#release-post`
->>>>>>> 6537b84978 (Clean up top-level folder and nav)
 
 ### Job Requirements
 
