@@ -6,14 +6,6 @@ github.com/google/docsy v0.9.1/go.mod h1:saOqKEUOn07Bc0orM/JdIF3VkOanHta9LU5Y53b
 github.com/google/docsy/dependencies v0.7.2 h1:+t5ufoADQAj4XneFphz4A+UU0ICAxmNaRHVWtMYXPSI=
 github.com/google/docsy/dependencies v0.7.2/go.mod h1:gihhs5gmgeO+wuoay4FwOzob+jYJVyQbNaQOh788lD4=
 github.com/twbs/bootstrap v5.2.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.14 h1:iynu4nSkGM3+l4zl6ohQ0RoYNzFswq2JNouKR0pGoqI=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.14/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.15 h1:kars3M/P6EsRU4A0MWnDqAh1U0Vw0IQCablSgwwxIus=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.15/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.16 h1:MTM1lcidj742fU4iyOpWp2sjWo4akQQSumzwO3klzyQ=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.16/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.17 h1:XKC8o+bPcCJd2SnIj6eqj/y1rvtoqYBGyEKA6P+BhzI=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.17/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
 gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.18 h1:dqCYv3xvWunBytdxOwtFipypbh6LNSrvD2oEsz3j2A0=
 gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.18/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
 gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.19 h1:WdX/uJtlrAcEstlR39zQrq64ZFHN+G+zdeA1KFkQoi4=
