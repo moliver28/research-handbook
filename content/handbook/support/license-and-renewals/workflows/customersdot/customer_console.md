@@ -17,14 +17,14 @@ Refer to the [CustomersDot documentation page about Teleport](https://gitlab.com
 
 #### Production
 
-All requests to *production* require approval of the SRE(s) on shift, and you can view your request(s) in `#infrastructure-lounge` in slack.
+All requests to *production* require approval of the SRE(s) on shift, and you can view your request(s) in `#teleport-requests` in slack.
 
 **Note** The production system will automatically invoke the support console wrapper script upon login
 
 1. You will initiate the request via Teleport using `tsh login`.
    - Your command shell will hang until approval is given, but you can close the terminal or kill the process at any time, and then resume it using the `--request-id` option:
      - *e.g.* `tsh login --request-id=xxx ...`
-   - The ID is shown in your shell, and is also available in `#infrastructure-lounge` or the slack DM from Teleport-app
+   - The ID is shown in your shell, and is also available in `#teleport-requests` or the slack DM from Teleport-app
 1. Afer the request is approved, you will then use Teleport to SSH into the system with `tsh ssh`
 1. Requests generally remain approved for 8-12 hours.  You can resume that session anytime, again using `--request-id`
 
