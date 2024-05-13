@@ -110,7 +110,8 @@ pages:
     HUGO_BASEURL: https://handbook.gitlab.com/
   pages:
     path_prefix: "$PAGES_PREFIX"
-  needs: ["build"]
+  needs:
+    - build
   script:
     - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"    
   rules:
