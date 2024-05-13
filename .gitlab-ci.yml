@@ -257,7 +257,6 @@ secret_detection:
 
 modules:tidy:
   image: $HUGO_IMAGE
-  needs: []
   stage: maintenance
   allow_failure: true
   script:
