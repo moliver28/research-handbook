@@ -188,7 +188,7 @@ We do this on a best-effort basis, and acknowledge that not every tool may fit n
 
 For any functionality being built into the product, we need to communicate and collaborate with the development teams that will own and maintain it going forward. In order to accomplish this, we create tooling handover epics and add them as children to the appropriate tooling integration epics.
 
-These tooling integration epics will:
+These tooling handover epics will:
 
 - Be created as early in the process as possible
 - Establish a single source of truth for all handover coordination and decisions
