@@ -42,6 +42,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 - For more details, see [Organizations on Cells 1.0](https://docs.gitlab.com/ee/architecture/blueprints/organization/index.html#organizations-on-cells-10)
 </td>
 <td>
+ 
 - For existing/new customers of GitLab.com
 - Organizations are private
 - Existing users can interact with private Organizations on Secondary Cells
