@@ -8,7 +8,7 @@ aliases: /handbook/company/culture/inclusion/DIB-Sponsorship/
 
 ### Sponsorship
 
-Sponsorship is defined as using your influence and/or power to advocate and positively impact the growth and career advancement of a team member. A sponsor is a senior leader with significant influence and responsibilities. A sponsor will then use this influence to but not limited to;
+Sponsorship is defined as using your influence and/or power to advocate and positively impact the growth and career advancement of a team member. A sponsor is a senior leader with significant influence and responsibilities. A sponsor may then use this influence for activities such as:
 
 - Advocating for career advancement opportunities
 - Providing stretch opportunities to up skill via active projects
