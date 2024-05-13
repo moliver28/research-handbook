@@ -10,16 +10,16 @@ description: "Stage Working Group for Epics to Work Items migration plan and sta
 
 
 
-# Epic Work Items Migration
+# Epic Work Items Conversion
 
-Epics to Work Items migration plan and status
+Epics to Work Items conversion plan and status
 
 ## Attributes
 
 |Property|Value|
 |---|---|
 |Date Created|2023-10-02|
-|Target End Date|TBD|
+|Target End Date| 2024-07-12 |
 |Slack|#s_plan, #f_work-item, #g_product_planning (only accessible from within the company)|
 |Google Doc|[Agenda](https://docs.google.com/document/d/1Mh0U-cH0n9FqyAPn4_OMMvpTTJm74-WAmz5ewLVOuJM/edit) (only accessible from within the company)|
 |Epic|[&9290](https://gitlab.com/groups/gitlab-org/-/epics/9290)|
