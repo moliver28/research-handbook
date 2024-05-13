@@ -73,8 +73,20 @@ variables:
   RESTORE_CACHE_ATTEMPTS: 3
   EXECUTOR_JOB_SECTION_ATTEMPTS: 3
 
-.security-scanning: &security-scanning-rules
+.default-branch: &default-branch
+  if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH 
+
+.merge-request-only: &merge-request-only
   if: '$CI_MERGE_REQUEST_IID || $CI_COMMIT_TAG'
+
+.merge-request-or-tag: &merge-request-or-tag
+  if: '$CI_MERGE_REQUEST_IID || $CI_COMMIT_TAG'
+
+.scheduled-pipeline: &scheduled-pipeline
+  if: '$CI_PIPELINE_SOURCE == "schedule" && $SCHEDULED_DEPLOY == "true"'
+
+.build-and-test-only: &build-and-test-only
+  if: '$BUILD_AND_TEST_ONLY == "true"'
 
 build:
   image: registry.gitlab.com/pages/hugo/hugo_extended:0.123.7
@@ -91,10 +103,9 @@ build:
     paths:
       - public
   rules:
-  - <<: *security-scanning-rules
-  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH  
-  # rules:
-  #   - when: always
+  - <<: *merge-request-or-tag
+  - <<: *default-branch
+  - <<: *build-and-test-only
 
 ###################################
 #
@@ -120,35 +131,35 @@ pages:
   rules:
     # Only run the deploy on the default branch. If you want to deploy from Merge Request branches,
     # you can use Review Apps: https://docs.gitlab.com/ee/ci/review_apps
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-    - if: '$CI_PIPELINE_SOURCE == "schedule" && $SCHEDULED_DEPLOY == "true"'
-    - if: $CI_MERGE_REQUEST_IID
+    - <<: *default-branch
+    - <<: *scheduled-pipeline
+    - <<: *merge-request-only
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
-# # TODO @dnsmichi: What does this job do?
-# deploy-s3:
-#     stage: deploy
-#     needs:
-#       - pages
-#     image:
-#       name: amazon/aws-cli:latest
-#       entrypoint:
-#         - '/usr/bin/env'
-#     id_tokens:
-#         ID_TOKEN:
-#           aud: handbook_s3
-#     script:
-#       - *assume_role
-#       - aws s3 sync public/ s3://$S3_BUCKET
-#     rules:
-#       # Never try to deploy on merge requests.
-#       - if: $CI_MERGE_REQUEST_IID
-#         when: never
-#       - if: '$CI_SERVER_HOST == "gitlab.com" && $CI_PROJECT_NAMESPACE == "gitlab-com/content-sites" && $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH'
-#         when: on_success
+# TODO @dnsmichi: What does this job do?
+deploy-s3:
+    stage: deploy
+    needs:
+      - pages
+    image:
+      name: amazon/aws-cli:latest
+      entrypoint:
+        - '/usr/bin/env'
+    id_tokens:
+        ID_TOKEN:
+          aud: handbook_s3
+    script:
+      - *assume_role
+      - aws s3 sync public/ s3://$S3_BUCKET
+    rules:
+      # Never try to deploy on merge requests.
+      - <<: *merge-request-only
+        when: never
+      - if: '$CI_SERVER_HOST == "gitlab.com" && $CI_PROJECT_NAMESPACE == "gitlab-com/content-sites" && $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH'
+        when: on_success
 
 ####################################
 ##
@@ -167,7 +178,8 @@ markdownlint:
   script:
     - markdownlint-cli2 "content/**/*.md"
   rules:
-    - <<: *security-scanning-rules
+    - <<: *merge-request-or-tag
+    - <<: *build-and-test-only
   artifacts:
     when: always
     expire_in: 1 month
@@ -189,7 +201,8 @@ handbooklint:
   script:
     - bash ./scripts/handbook-lint.sh
   rules:
-    - <<: *security-scanning-rules
+    - <<: *merge-request-or-tag
+    - <<: *build-and-test-only
   artifacts:
     when: always
     expire_in: 1 month
@@ -202,9 +215,10 @@ hugolint:
   stage: test
   needs: []
   rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - <<: *build-and-test-only
+    - <<: *default-branch
       allow_failure: true
-    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+    - <<: *merge-request-or-tag
       allow_failure: true
   image:
     name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:latest
@@ -225,7 +239,8 @@ secret_detection:
   needs: []
   dependencies: [] # Don't download artifacts, especially `./public/`
   rules:
-    - <<: *security-scanning-rules
+    - <<: *build-and-test-only
+    - <<: *merge-request-or-tag
 
 ####################################
 ##
@@ -247,6 +262,6 @@ post_comment_on_failure:
     - glab auth login -t $MR_UPDATE_TOKEN
     - glab mr note --unique $CI_MERGE_REQUEST_IID -m "$(cat msg.txt)"
   rules:
-  - <<: *security-scanning-rules
+  - <<: *merge-request-or-tag
 
 
