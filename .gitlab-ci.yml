@@ -118,12 +118,12 @@ pages:
     # Only run the deploy on the default branch. If you want to deploy from Merge Request branches,
     # you can use Review Apps: https://docs.gitlab.com/ee/ci/review_apps
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-    - if: '$CI_PIPELINE_SOURCE == "schedule" && $SCHEDULED_DEPLOY == "true"'
-    - if: $CI_MERGE_REQUEST_IID
-      variables:
-        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
-        ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
-        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+    # - if: '$CI_PIPELINE_SOURCE == "schedule" && $SCHEDULED_DEPLOY == "true"'
+    # - if: $CI_MERGE_REQUEST_IID
+    #   variables:
+    #     PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+    #     ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
+    #     HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 # # TODO @dnsmichi: What does this job do?
 # deploy-s3:
