@@ -15,7 +15,7 @@
 ###################################
 
 stages:
-  - build
+  - prepare
   - deploy
   - test
   - notify
@@ -78,7 +78,7 @@ variables:
 
 build:
   image: registry.gitlab.com/pages/hugo/hugo_extended:0.123.7
-  stage: build
+  stage: prepare
   script:
     - apk update
     - apk upgrade
@@ -126,7 +126,7 @@ pages:
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 # TODO @dnsmichi: What does this job do?
-deploy s3:
+deploy-s3:
     stage: deploy
     needs:
       - pages
