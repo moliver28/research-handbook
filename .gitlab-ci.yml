@@ -90,6 +90,8 @@ build:
   artifacts:
     paths:
       - public
+  rules:
+    - when: always
 
 ###################################
 #
