@@ -534,6 +534,10 @@ Scoped workaround labels are intended to track temporary workarounds applied to 
 We operate a Capacity Planning rotation,
 which switches on a fortnightly basis amongst all on-call SRES,
 with the schedule managed in [PagerDuty](https://gitlab.pagerduty.com/schedules#PAP8TMH).
+While Capacity Planning should not require large effort most weeks,
+in the event of a Capacity Planning shift overlapping with an on-call shift,
+consider swapping your capacity planning shift with another engineer
+to ensure both tasks receive the necessary attention.
 The goal is to give ourselves the best chance of resolving impending saturation events
 *before* they become a customer-impacting incident
 It is based on statistical modelling and human interpretation,
@@ -553,7 +557,8 @@ At the start of your shift review the
 [handover issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Handover)
 from the prior shift and close it when you are up to speed.
 
-At the start of each work week while you are on duty:
+At the start of each work week while you are on duty,
+as a high priority task that is second only to active incidents:
 
 1. Review the capacity planning issues that are:
    1. In the Open column of the [board](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/boards/7536402).
