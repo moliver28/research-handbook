@@ -56,14 +56,9 @@ Please consider this handbook documentation to be the single source of truth ("S
 
 These shared environments are referred to as the Demo Cloud or Training Cloud. Historically, training users used the Demo Cloud so the names are used interchangably in some conversations.
 
-<div class="panel panel-warning">
-<div class="panel-heading">
-Demo Systems v1 Deprecation
-</div>
-<div class="panel-body">
-The <code>gitlab-core.us.gitlabdemo.cloud</code> instance was deprecated on 2021-04-20 and destroyed on 2021-06-03. No data back up is available. See <a href="#access-shared-omnibus-instances">Access Shared Omnibus Instances</a> instructions for accessing the <code>cs.gitlabdemo.cloud</code> instance (direct replacement).<br />
-</div>
-</div>
+{{% panel header="**Demo Systems v1 Deprecation**" header-bg="warning" %}}
+The <code>gitlab-core.us.gitlabdemo.cloud</code> instance was deprecated on 2021-04-20 and destroyed on 2021-06-03. No data back up is available. See <a href="#access-shared-omnibus-instances">Access Shared Omnibus Instances</a> instructions for accessing the <code>cs.gitlabdemo.cloud</code> instance (direct replacement).
+{{% /panel %}}
 
 - `cs.gitlabdemo.cloud` - This is the primary GitLab Omnibus instance that all team members have access to for creating groups, projects, and sandbox purposes on a self-managed Omnibus instance. Please keep in mind that this is a shared environment across all team members and you should treat the Admin areas as read-only.
 - `ilt.gitlabtraining.cloud` - This is used for instructor-led training classes. You should generate credentials for this instance if you are an instructor and need admin access to be able to import sample projects and/or see the groups for all of the students in a class.

@@ -32,10 +32,10 @@ Engineering refinement should be an ongoing activity for all engineers.
 Our aim is to have enough issues to fill two iterations ready to be scheduled.
 Unless specified differently for your team, every engineer should try to refine enough issues each week to result in a total weight of at least 6, and should do this following the weekly team meetings.
 
-*  [Composition Analysis][ca]
-*  [Dynamic Analysis][da]
-*  [Static Analysis][sa]
-*  [Frontend][frontend]
+- [Composition Analysis][ca]
+- [Dynamic Analysis][da]
+- [Static Analysis][sa]
+- [Frontend][frontend]
 
 
 [ca]:https://gitlab.com/gitlab-org/gitlab/issues?label_name%5B%5D=group%3A%3Acomposition+analysis&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name%5B%5D=backend&scope=all&sort=milestone&state=opened&utf8=%E2%9C%93&weight=None
@@ -45,20 +45,20 @@ Unless specified differently for your team, every engineer should try to refine 
 
 ## Steps
 
-1.  Assign yourself the issue
-2.  If an engineer is required for the issue, ensure the appropriate `~backend` or `~frontend` label is applied. Otherwise, remove any backend/frontend label, assign any relevant labels and you are done.
-3.  Check the issue for completeness.
-    *  Does it have the necessary designs?
-    *  Is the functionality clearly articulated and there is a consensus or decision on how it should function.
-    *  Are the technical details outlined? Has a consensus been reached or decision been made in areas of discussion?
-    *  Are there dependencies? Call those out.
+1. Assign yourself the issue
+2. If an engineer is required for the issue, ensure the appropriate `~backend` or `~frontend` label is applied. Otherwise, remove any backend/frontend label, assign any relevant labels and you are done.
+3. Check the issue for completeness.
+    - Does it have the necessary designs?
+    - Is the functionality clearly articulated and there is a consensus or decision on how it should function.
+    - Are the technical details outlined? Has a consensus been reached or decision been made in areas of discussion?
+    - Are there dependencies? Call those out.
 4. If the issue is not complete:
-    *  Tag the relevant people that can help complete the issue and outline what is needed. Tag the appropriate EM and PM, so they know that the item can not be fully groomed.
+    - Tag the relevant people that can help complete the issue and outline what is needed. Tag the appropriate EM and PM, so they know that the item can not be fully groomed.
 5. Ensure the issue is fully understood.
-    *  Update the issue description with the final description of what will be implemented.
-    *  Update the issue description with an [implementation plan](#implementation-plan).
-    *  Ensure the issue title is accurate for the work being done.
-    *  Open up new issues for 'follow-up' work, or work that was forced out of scope.
+    - Update the issue description with the final description of what will be implemented.
+    - Update the issue description with an [implementation plan](#implementation-plan).
+    - Ensure the issue title is accurate for the work being done.
+    - Open up new issues for 'follow-up' work, or work that was forced out of scope.
 6. Assign a [weight](#weights) and set the label `~workflow::scheduling`
 7. Assign a [work type classification label](/handbook/engineering/metrics/#work-type-classification) e.g. `/label ~"type::feature" ~"feature::enhancement"`
 8. Once refinement is done unassign yourself.
@@ -71,9 +71,9 @@ In order for someone to understand the issue and its implementation, they should
 ## Failing Refinement
 
 An issue should fail refinement if it can not be worked on without additional information or decisions to be made. To fail an issue:
-1.  Leave a comment on the issue that it can not be worked on, and highlights what still needs to be done.
-2.  Unassign yourself if you can not contribute further to issue at the current time.
-3.  Assign the `blocked` label.
+1. Leave a comment on the issue that it can not be worked on, and highlights what still needs to be done.
+2. Unassign yourself if you can not contribute further to issue at the current time.
+3. Assign the `blocked` label.
 
 
 ## Weights
@@ -102,7 +102,7 @@ as [velocity is more important than predictability](/handbook/engineering/develo
 
 ### Things to keep in mind when estimating
 
-* For tasks that involve making changes to the Rails codebase
+- For tasks that involve making changes to the Rails codebase
 
   Sometimes the most challenging part of working on a Rails codebase issue or bug is the difficulty of reproducing the problem locally and
   writing tests to demonstrate that the fix correctly solves the issue. When estimating, make sure to take into account the time required
@@ -127,10 +127,10 @@ as [velocity is more important than predictability](/handbook/engineering/develo
 
 ### Capacity planning documentation from other teams
 
-* [Plan:Project Management BE Team Capacity Planning](/handbook/engineering/development/dev/plan/project-management/#capacity-planning)
-* [Create: Source Code BE Team Weights](/handbook/engineering/development/dev/create/source-code-be/#weights)
-* [Geo Team Weights](/handbook/engineering/infrastructure/core-platform/systems/geo/process.html#weights)
-* [Enablement:Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/)
+- [Plan:Project Management BE Team Capacity Planning](/handbook/engineering/development/dev/plan/project-management/#capacity-planning)
+- [Create: Source Code BE Team Weights](/handbook/engineering/development/dev/create/source-code-be/#weights)
+- [Geo Team Weights](/handbook/engineering/infrastructure/core-platform/systems/geo/process.html#weights)
+- [Enablement:Cloud Connector](/handbook/engineering/infrastructure/core-platform/systems/cloud-connector/)
 
 ## Implementation Plan
 

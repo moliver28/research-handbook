@@ -132,7 +132,7 @@ The Total Rewards Analyst will review and initiate payment for all monthly healt
 
 The People Operations team will update the 'Benefits Group' in the HR system of record for Team Members when they are onboarded or relocated. The Benefits Group determines which plans team members are eligible for.
 
-##### Instructions on assigning a benefits group:
+##### Instructions on assigning a benefits group
 
 There are two parts of the Benefits Group: **1. The entity** and **2. The team member's location.**
 For example'Fed-FT-Colorado' would be the correct option for a GitLab Federal Team Member living in Colorado.

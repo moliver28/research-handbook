@@ -25,12 +25,12 @@ Team leads are invited and should join in case there are any specific issues rel
 
 The current on-call will update the document with a report link and items for discussion.
 
-### During the Meeting:
+### During the Meeting
 
 * Discuss items on the "GitLab Oncall Handover" document.
 * Review 7 day graphs on the current [on-call issue report](https://gitlab.com/gitlab-com/infrastructure/issues?scope=all&utf8=%E2%9C%93&state=closed&label_name[]=oncall%20report).
 * Assign all [open on-call issues](https://gitlab.com/gitlab-com/infrastructure/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=oncall) to the next on-call team.
 
-### After the Meeting:
+### After the Meeting
 
 The current on-call will close the report issue.

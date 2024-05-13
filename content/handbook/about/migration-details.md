@@ -3460,7 +3460,6 @@ engineering/readmes/craig-miskell/index.html.md
 engineering/readmes/ben-king/index.html.md
 engineering/readmes/_toc.html.haml
 engineering/readmes/savas-vedova/index.html.md
-engineering/readmes/wayne-haber/index.html.md
 engineering/readmes/katrin-leinweber/index.html.md
 engineering/readmes/lyle-kozloff/index.html.md
 engineering/readmes/mlunoe/index.html.md

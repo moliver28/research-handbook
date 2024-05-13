@@ -1,17 +1,8 @@
 ---
 
 title: 'Partner Training, Accreditations, and Enablement'
-description: >-
-  Learning program including functional, soft skills, and technical training for channel and alliances partners to support and scale GitLab's and our partners' growth and success
+description: "Learning program including functional, soft skills, and technical training for channel and alliances partners to support and scale GitLab's and our partners' growth and success"
 ---
-
-## Partner Training, Accreditations, and Enablement
-
-
-
-
-
-- - -
 
 GitLab offers global, role-based training and enablement to help you grow your skills and validate your expertise in GitLab. The GitLab Partner Enablement Team has created a robust program to support GitLab partners in selling, marketing, and providing services to GitLab customers. We offer training materials and prescriptive learning paths to support all roles within your organization including, accreditations for sales, pre-sales technical, and certifications for technical consulting services.
 
@@ -80,11 +71,11 @@ All enablement materials can be accessed via the GitLab Partner Portal. Job aide
 
 ## <span class="colour" style="color: rgb(56, 13, 117);">Enrolling in Accreditation and Certification Courses</span>
 
-## For Channel Partners ##
+## For Channel Partners
 
 To sign up for any of the courses listed on this page, please visit the training section on the [GitLab Partner Portal](https://partners.gitlab.com/prm/English/c/Training) and select Level Up. You do not require a separate login or credentials to access the GitLab Training Portal from the Partner Portal.
 
-## For Alliance Partners ##
+## For Alliance Partners
 
 To sign up for any of the courses listed on this page, please visit the [Alliance Partner Learning Dashboard](https://levelup.gitlab.com/alliance-partner) and enter the unique validation code provided to you via your SA and/or ABDM.
 

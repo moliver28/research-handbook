@@ -98,7 +98,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. Search for and select your instructor as the user you are inviting. If you are taking the self-paced course, enter your own email address.
 
-1. In the **Select a role** dropdown, select **Developer**. If you are taking the self-paced course, select **Owner**. 
+1. In the **Select a role** dropdown, select **Developer**. If you are taking the self-paced course, select **Owner**.
 
     > See the [permissions and roles docs](https://docs.gitlab.com/ee/user/permissions.html) to learn more about each role level.
 

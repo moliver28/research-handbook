@@ -35,7 +35,7 @@ Generate compelling customer stories by driving value for our customer's digital
 - Message House Completed and confirmed by Product Marketing
 - Pitch Deck Created
 
-#### Step 1:
+#### Step 1
 
 
 

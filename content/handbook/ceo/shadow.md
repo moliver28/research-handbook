@@ -6,7 +6,7 @@ description: "At GitLab, being a CEO Shadow is not a job title, but a temporary 
 ## Overview
 
 At GitLab, being a CEO Shadow is not a job title, but a temporary assignment to shadow the CEO.
-The shadows will be present at [all meetings of the CEO]({{< ref "ceo#ceo-meeting-cadence" >}}) during their rotation.
+The shadows will be present at [all meetings of the CEO](_index.md#ceo-meeting-cadence) during their rotation.
 GitLab is an [all-remote](/handbook/company/culture/all-remote/) company, but the CEO has in-person meetings with external organizations.
 Unless you're joining the program during one of our [remote rotations](#remote-shadow-rotations), you will stay in San Francisco during the entire [rotation](#rotation-rhythm) and travel with the CEO.
 
@@ -796,11 +796,11 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2021-11-30 | 2021-12-10 | [Amy Qualls](https://gitlab.com/aqualls) | Sr. Technical Writer | |
 | 2021-12-06 | 2021-12-17 | [James Heimbuck](https://gitlab.com/jheimbuck_gl) | Sr. Product Manager | |
 | 2021-12-13<br>2022-01-03 | 2021-12-17<br>2022-01-07 | [Cynthia Ng](https://gitlab.com/cynthia) | Sr. Support Engineer | [CEO Shadow Reflection](https://wp.me/pHQ83-1Id) |
-| 2022-01-10 | 2022-01-21 | [Marshall Cottrell](https://gitlab.com/marshall007) - Strategy and Operations (Technical) | |
+| 2022-01-10 | 2022-01-21 | [Marshall Cottrell](https://gitlab.com/marshall007) | Strategy and Operations (Technical) | |
 | 2022-01-04 | 2022-01-14 | [Josh Zimmerman](https://gitlab.com/Josh_Zimmerman) | Learning & Development Manager | [What I Learned From Shadowing the CEO of GitLab](https://www.linkedin.com/pulse/what-i-learned-from-shadowing-ceo-gitlab-josh-zimmerman/?trackingId=fNh8oCxzT9uxnuQffP%2Fd1A%3D%3D) |
 | 2022-01-18 | 2022-01-28 | [Cesar Saavedra](https://gitlab.com/csaavedra1) | Sr. Technical Marketing Manager | [Being a GitLab CEO Shadow](https://www.linkedin.com/pulse/being-gitlab-ceo-shadow-cesar-saavedra/?trackingId=y6tHk3NjTLyW1yPhu%2Bm7Zw%3D%3D) |
 | 2022-01-24<br>2022-02-14 | 2022-01-28<br>2022-02-17 | [Darby Frey](https://gitlab.com/darbyfrey) | Staff Fullstack Engineer |  |
-| 2022-02-14 | 2022-02-25 | [Mark Scheuber](https://gitlab.com/mscheuber)  - Sr. Strategic Account Executive |  |
+| 2022-02-14 | 2022-02-25 | [Mark Scheuber](https://gitlab.com/mscheuber)  | Sr. Strategic Account Executive |  |
 | 2022-02-22 | 2022-03-04 | [Jonathan Miller](https://gitlab.com/JonathanMiller) | FP&A Manager, R&D |  |
 | 2022-02-28 | 2022-03-11 | [Fiona O'Keeffe](https://gitlab.com/FionaOKeeffe) | Senior Reference Program Manager | |
 | 2022-03-07 | 2022-03-18 | [Byron Boots](https://gitlab.com/byronboots) | Senior Security Asssurance Engineer | |

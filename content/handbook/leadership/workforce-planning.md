@@ -5,7 +5,7 @@ description: Workforce planning and SWOT analysis
 
 Workforce planning is the strategic alignment of a division/deparments team members with its strategic goals.  It is a methodical process of analyzing the current team member role alignments, determining future team member needs, identifying the gap between the present and future, and implementing solutions so the division/departments can accomplish its mission, goals, and objectives. Simply stated it is a way to align the right team members and skills at the right place and time for the right business outcomes.
 
-## For Workforce planning to be strategic the efforts should:
+## For Workforce planning to be strategic the efforts should
 
 - Align with GitLab business strategy
 - Differentiate roles by their contribution to the overall achievement of the GitLab and Divison strategy

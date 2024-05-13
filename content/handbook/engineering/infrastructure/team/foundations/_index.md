@@ -5,19 +5,14 @@ title: "Production Engineering Foundations Team"
 
 ## Mission
 
-The mission of the Production Engineering Foundations team at GitLab is to Build, Run and Own the lifecycle of the core infrastructure for GitLab Saas instances.
-
-The team is focused on owning the reliability, scalability, and security of the core infrastructure. We seek to reduce the effort required to provide our core infrastructure services, and to enable other teams to self-serve core infrastructure that allows them to more efficiently and effectively run their services for GitLab.com.
-
-Given the integral nature of the services we own, the team is committed to close collaboration with other teams - for example Delivery, Scalability, Dedicated, InfraSec and others - to ensure alignment and coordination of efforts.
-
-We endeavor to contribute the lessons we learn from running at-scale production systems back to the product teams, and advocate for GitLab to contain features that would allow us to DogFood.
+The mission of the Production Engineering Foundations team at GitLab is to own the lifecycle of the core infrastructure for GitLab Saas instances and services. We seek to reduce the effort required to provide our core infrastructure services, and to enable other teams to self-serve core infrastructure that allows them to more efficiently and effectively run their services across all GitLab offerings.
 
 ## Vision
 
-The Foundations Team supports the rest of Infrastructure and Development by providing the resources that other teams build upon.
+The Foundations teams North Star consists of two pieces:
 
-We envision providing services that are delightfully simple for other teams to understand and use, through opinionated and clear interfaces, automation and excellent documentation.
+1. **Creating a platform that drives vertical ownership of engineering services.** We will do this by providing the rest of engineering the resources and tools needed for them to manage their infrastructure and core services in a way that makes it easy for other teams to adopt the best practices and conventions defined by our team. By moving towards centralized sets of tooling for all GitLab instances and all services to work from, we will create a culture of scalability for the future of GitLab infrastructure.
+1. **Sustainable toil.** Toil is a given in SRE work. We will adopt processes and policies that create a balance between what is automated and is done manually so as GitLab grows, the toil involved in running it is maintained at a minimal level for the team. 
 
 ## Responsibilities
 
@@ -71,7 +66,7 @@ Apply one of the following templates:
   - Slack: `@infra-foundations`
   - GitLab: `@gitlab-org/production-engineering/foundations`
 
-We rotate triage duties weekly between team members as part of our [interrupt rotation](#interrupt-rotation). 
+We rotate triage duties weekly between team members as part of our [interrupt rotation](#interrupt-rotation).
 
 ### Priority Levels for Requests
 
@@ -86,7 +81,7 @@ We rotate triage duties weekly between team members as part of our [interrupt ro
 
 We endeavor to triage incoming requests twice per week. If you have an issue that is very urgent and requires immediate attention (i.e. Priority 1), please also send us a link to the request issue in our Slack channel: [#g_infra_foundations](https://gitlab.slack.com/archives/C0313V3L5T6).
 
-## Considerations for tooling and maintaining our services.
+## Considerations for tooling and maintaining our services
 
 - We support [dogfooding](/handbook/engineering/development/principles/#dogfooding) when it makes sense to do so.
   - We consider the scale at which we run gitlab.com and the additional engineering effort required to dogfood, weighed against the capacity and other priorities of the team.
@@ -144,8 +139,8 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 
 ### Standup
 
-We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel. 
-  - Monday questions include: 
+We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel.
+  - Monday questions include:
     - What are your top priorities this week?
     - What did you accomplish last week?
     - What else is on your todo list for the week?
@@ -208,7 +203,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2" 
+/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2"
 \`\`\`
 
 ## References

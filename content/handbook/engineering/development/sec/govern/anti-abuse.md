@@ -8,6 +8,7 @@ description: "The Anti-Abuse group creates controls to prevent abuse of the GitL
 Our goal is to provide Insider Threat features for your applications as well as GitLab itself. We will help proactively identify malicious activity, accidental risk, compromised user accounts or infrastructure components, anomalous use of the GitLab platform, and various high-risk behaviors where actionable remediation steps are possible.
 
 ## How we work
+
 - We work in accordance with our [GitLab values](/handbook/values/).
 - We work [transparently](/handbook/values/#transparency) with nearly everything public.
 - We get a chance to work on the things we want to work on.

@@ -9,7 +9,7 @@ title: "GitLab IT 101"
 
 
 
-## Welcome To GitLab!
+## Welcome To GitLab
 
 Congratulations on joining GitLab! This page is dedicated to the IT onboarding experience, here at GitLab we use many applications and the latest hardware to enable you to complete your work to the best of your ability! While it may seen a little bit overwhelming at the start the Team member enablement team is here to make the process as easy as possible!
 
@@ -42,7 +42,7 @@ Tip: After setup, if you don’t see the Wi-Fi status icon in the menu bar, you 
 
 - **Enable Siri and “Hey Siri”**: You can turn on Siri and “Hey Siri” (so you can speak your Siri requests) during setup. To enable “Hey Siri,” speak several Siri commands when prompted. To learn how to turn on Siri and “Hey Siri” later and for information about using Siri on your Mac, see Siri on your Mac.
 
-- **Store files in iCloud**: iCloud has the ability to store desktop and documents in iCloud. As our Cloud Storage option is Google Drive, please make sure this feature is disabled. Anything of importance for work should be stored in Google Drive, a GitLab Issue, or the Handbook based on the type and [data classification](https://handbook.gitlab.com/handbook/security/data-classification-standard/) of the information. 
+- **Store files in iCloud**: iCloud has the ability to store desktop and documents in iCloud. As our Cloud Storage option is Google Drive, please make sure this feature is disabled. Anything of importance for work should be stored in Google Drive, a GitLab Issue, or the Handbook based on the type and [data classification](https://handbook.gitlab.com/handbook/security/data-classification-standard/) of the information.
 
 - **Choose an appearance**: Select Light, Dark, or Auto for your desktop appearance. If you want to change the choice you make during setup, open System Preferences, click General, then select an appearance option. You can also set other preferences here.
 

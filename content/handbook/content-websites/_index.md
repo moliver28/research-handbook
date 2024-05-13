@@ -74,8 +74,8 @@ Priority can apply to any type of issue.
 For bug issues, priority typically matches the [severity](#severity).
 Match the priority to the severity if uncertain.
 
-| Priority | Importance | Intention | DRI |
-| -------- | ---------- | --------- | --- |
+| Priority | Importance | Intention |
+| -------- | ---------- | --------- |
 | `~"hb-priority::1"` | Urgent | We will address this as soon as possible regardless of the limit on our team capacity. Our target resolution time is 30-60 days. |
 | `~"hb-priority::2"` | High   | We will address this soon and will provide capacity from our team for it. Our target resolution time is 60-120 days. |
 | `~"hb-priority::3"` | Medium | We want to address this but don't have visibility when this will be addressed. No timeline designated. |

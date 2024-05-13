@@ -36,10 +36,6 @@ To request to be a shadow: Post a message in the #cto Slack channel, indicate yo
 
 There is a program to find a mentor or to become a mentor at GitLab described on [this handbook page](/handbook/people-group/learning-and-development/mentor/).
 
-### Engineering director shadow program
-
-You can find more information on this experimental program on the [Development Director Shadow Program](/handbook/engineering/development/shadow/director-shadow-program.html) handbook page.
-
 ### Learning the customer experience
 
 Engineers can gain significant insight from observing customers while they use the portions of the product that those engineers develop. Engineers interested in doing this should contact their team's [assigned UX Researcher](/handbook/product/categories/) to get involved with upcoming customer sessions and access previously recorded sessions.

@@ -57,7 +57,7 @@ Our financial planning process includes setting a division's spend based on reve
 1. There are high expectations to do what you say. With our level of transparency people may not be used to how much we say, and we will be held to a new level of expectations on what we do.
 1. When we are required to publicly release quarterly financials, we may be required to adjust the timing of or level of detail associated with certain key metrics.
 
-#### Communicating With Shareholders & Team Members
+### Communicating With Shareholders & Team Members
 
 Investors will have multiple options for engaging and keeping up to date:
 

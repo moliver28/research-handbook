@@ -1,5 +1,4 @@
 ---
-
 title: "Product and Solution Marketing Asset Inventory"
 ---
 This page used to provide an inventory of assets created and maintained by the [Product and Solution Marketing](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) team. We have since updated the inventory so it includes all assets and it can now be found within [Marketing Strategy & Performance](/handbook/marketing/strategy-performance/)
@@ -8,42 +7,29 @@ We have kept the following info specific to the Product and Solution Marketing t
 
 </div>
 
-##### **Which assets belong to Strategic — edge cases**
+## Which assets belong to Strategic — edge cases
 
-{: .panel-heading}
-
-<div class="panel-body">
-
-##### Things Product and Solution Marketing doesn't own within GitLab, but contributes to
+### Things Product and Solution Marketing doesn't own within GitLab, but contributes to
 
 Product and Solution Marketing often makes significant contributions to assets that are owned by other GitLab teams. Examples include a product release post with a PMM messaging lead, or a Sales enablement resource that heavily relies on competitive research. This raises the question of whether certain assets "belong to" SM enough to be in our inventory. Our bias will be to include these assets.
 
 If we can identify an "SM DRI" and we made significant contributions, we will inventory the asset. We will also take care to not misrepresent that we wholly created or own the asset.
 
-##### Things GitLab doesn't own or manage, but contributes to
+### Things GitLab doesn't own or manage, but contributes to
 
 Product and Solution Marketing also contributes to assets that are owned or managed by others outside of GitLab, such as a recording of us speaking at a conference, or a piece we wrote in an industry publication. When those assets live somewhere GitLab does not manage, we will try to make a GitLab-owned and managed copy of the asset for internal use. Our bias will be to include assets like these in this inventory, even without our own copy of them.
 
-##### Things we just review and approve
+### Things we just review and approve
 
 We are interested in reviewing, vetting, and then including assets in the SM inventory even when our contributions are minimal or null, other than having reviewed and approved. Our motivations are first, to serve those searching for "everything related to X" and second, for this inventory to serve as a repository of high quality assets. As subject matter experts, SM team members are already, sometimes asked to review and approve of content or other assets. We want to multiply that value by inventorying what we've reviewed.
 
 We celebrate that GitLab enables any team member, and in many cases even community members, to contribute on the company web site, Unfiltered blog, handbook, Unfiltered YouTube channel, and so on. Those are great examples of GitLab values and culture in action, and it's indisputably generative. We also acknowledge, however that this can result in impedingly uneven asset quality, such as in tone, focus, or technical depth. As a result, it can be difficult for non-SMEs to know whether an asset they find is fit for reuse in contexts with higher quality requirements.
 
 We do not, at this time have a process for ingesting, reviewing, or including assets like these. While we consider adding additional metadata and process, you might already find some in the inventory.
-</div>
-</div>
 
+## In due course - there have been several changes to the team recently, so this part may no longer be applicable but saving just in case
 
-#### In due course - there have been several changes to the team recently, so this part may no longer be applicable but saving just in case.
-
-<div class="panel panel-info">
-
-**Update the inventory**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Update the inventory**" header-bg="info" %}}
 New assets should be added to the inventory as part of our definition of done for SM Support Request Issues, i.e. as part of finishing the asset itself. We'll explore use of the template and whether we can provide useful links and e.g. require checking a particular box that in this issue, assets were either not created or were inventoried.
 
 The team member who is the SM DRI for an asset — the primary creator, contributor, and/or decision maker from SM — is responsible for adding the asset to the inventory.
@@ -51,14 +37,9 @@ The team member who is the SM DRI for an asset — the primary creator, contribu
 Creating assets is often a collaboration between Product and Solution Marketing and other GitLab team members or community members. By inventorying an asset here, we're not indicating it's "owned" by SM v. other parts of the department or company, only whether SM has contributed enough to identify a DRI for our team and in our view, to warrant having it here.
 
 SM leadership will support team members in completion of the inventory, and they will support broader GitLab team members by serving as backup DRIs for their team's assets.
+{{% /panel %}}
 
-</div>
-
-##### **Lead a group conversation**
-
-{: .panel-heading}
-
-<div class="panel-body">
+### **Lead a group conversation**
 
 The SM group conversation lead could share this page and the inventory with the call, showing assets recently created. This handbook-first approach can reduce slides in the deck and relieve some of our six-week scramble to list all the things.
 
@@ -66,21 +47,13 @@ Since GC decks list both assets and activities, we'll need to either still list 
 
 Demonstrating the inventory briefly and regularly would also encourage self service, before asking if we have a thing, where it is, or for us to make it.
 
-</div>
-
-##### **Ask for help or suggest a change**
-
-{: .panel-heading}
-
-<div class="panel-body">
+### **Ask for help or suggest a change**
 
 To make a change request, or if you have questions or need help please open an [SM support request](https://gitlab.com/gitlab-com/marketing/product-marketing/issues/new?issuable_template=A-SM-Support-Request).
 
 You're also welcome to ask in our [#strategic_marketing Slack channel](https://gitlab.slack.com/archives/CPTKGRXHP), but remember it's ephemeral :)
 
 We have a [backlog of change requests](https://gitlab.com/dashboard/issues?scope=all&utf8=%E2%9C%93&state=all&assignee_username=brianglanz&milestone_title=SM%20-%20Backlog&search=Inventory) for the database, dashboard, and project.
-
-</div></div>
 
 ## Learn@GitLab Inventory
 

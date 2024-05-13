@@ -9,9 +9,9 @@ title: "DevOps Solution Resource: DevOps Platform"
 
 
 
-# Looking for a customer-facing overview of GitLab's DevOps Platform? See the [DevOps Platform Solution](https://about.gitlab.com/solutions/devops-platform/).
+## Looking for a customer-facing overview of GitLab's DevOps Platform? See the [DevOps Platform Solution](https://about.gitlab.com/solutions/devops-platform/)
 
-# GitLab field teams refer to this [DevSecOps Platform highspot page](https://gitlab.highspot.com/items/61f3f3d9fdce42ebbdf04f17) for latest information
+## GitLab field teams refer to this [DevSecOps Platform highspot page](https://gitlab.highspot.com/items/61f3f3d9fdce42ebbdf04f17) for latest information
 
 The page below is intended to align GitLab's sales and marketing efforts with a single source of truth for our go-to-market efforts around the benefits of a single DevOps Platform.
 

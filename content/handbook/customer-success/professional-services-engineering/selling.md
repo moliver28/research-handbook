@@ -53,7 +53,7 @@ If the customer only needs standard services from the service catalog, the SAE/I
 1. Choose the proper billing account. In the _Quote Type_ section Select `New Subscription`. Click `Next`.
 1. On the _Create New Subscription Quote_ screen, update required fields (e.g. _Start Date_) as needed. Click `Next`.
 1. On the _New Quote Flow_ screen, click the drop down box next to the _New Quote Flow_ and select `Add Add on Products`.
-1. In the Professional Services and Training Row, click the drop down that says `Select Plan` to see the current SKU offerings that can be added to the opportunity. Click `Next`. 
+1. In the Professional Services and Training Row, click the drop down that says `Select Plan` to see the current SKU offerings that can be added to the opportunity. Click `Next`.
 
 After following the above process steps, click `Generate PDF` to obtain an Order Form to share with the customer for signature.  The AE should meet with the customer to review the service deliverables, duration, and pricing and should confirm no customizations are needed. Again, they can pull in the EM for assistance if needed.
 

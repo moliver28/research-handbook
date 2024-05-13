@@ -47,7 +47,6 @@ Work on the [GitLab VS Code Extension] follows a simplified development process.
 [engineering workflow]: /handbook/engineering/workflow/
 [GitLab]: https://gitlab.com/gitlab-org/gitlab
 [#g_create_code_review]: https://gitlab.slack.com/archives/g_create_code-review
-[#g_create_code_review_fe]: https://gitlab.slack.com/archives/g_create_source-code-review-fe
 [GitLab VS Code Extension]: https://gitlab.com/gitlab-org/gitlab-vscode-extension
 [CONTRIBUTING.md]: https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/CONTRIBUTING.md
 

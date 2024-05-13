@@ -35,9 +35,9 @@ Retrospective feedback sessions should ideally consider 3 areas:
 
 The Solution Architecture team utilizes Postfacto as the main technology for agile retrospective feedback sessions. This is a digital whiteboard tool. The GitLab SA team has configured and implemented it internally. We run private retros which generally are password protected for teams. This Postfacto internal session is hosted within our internal environment and are not publically accessable. Since it is an internally hosted solution, it is available to all internal GitLab teams and not only restricted to the SA team.
 
-### Access instructions for our internal Postfacto instance:
+### Access instructions for our internal Postfacto instance
 
-#### How can I host a retrospective feedback session with Postfacto:
+#### How can I host a retrospective feedback session with Postfacto
 
 The summary steps are as follows:
 1. Use the Postfacto account to log in to the Postfacto panel.

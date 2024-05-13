@@ -68,7 +68,7 @@ description: "The Incident Response Lifecyle working group is intended to docume
 | Working Group Role  | Person           | Title                                  |
 |---------------------|------------------|----------------------------------------|
 | Facilitator         | [Anna Liisa Moter](@amoter)| Manager Reliability|
-| Exec Sponsor        | [Steve Loyd](@sloyd)      | VP Infrastructure         |                 |
+| Exec Sponsor        | [Steve Loyd](@sloyd)      | VP Infrastructure                          |
 | Member              | [Anthony Fappiano](@afappiano)          | Manager Reliability                   |
 | Development Functional Lead | [Dan Croft](@dcroft) | Senior Engineering Manager, Ops |
 | Member              | [Sam Goldstein](@sgoldstein) | Director of Engineering, Ops |

@@ -25,6 +25,7 @@ Working with Professional Service Pre-Sales to provide:
        - Approve SOW solutions including line item deliverables and corresponding level of effort
 
 ## Engage with an Architect
+
 - TA's are available for Scoping Calls when an opportunity has been identified and discovery of the techinical challenges and an estimate of days required is unclear for the estimation templates. To inclue a TA in the conversation please use the conventions below. Please try to limit the unclusion of a TA to neccasary calls only.
   - For calls please tag `@ps-ta` in the `#ps-ta-ama` channel with the time proposed.
   - For Scoping issues add the label `Scoping::Needs_TA_Assistance` to the related GitLab issue with a clear ask in the comments for them to follow up on. [Scoping Information](/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/)

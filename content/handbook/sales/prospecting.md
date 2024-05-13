@@ -103,7 +103,7 @@ Teams at GitLab find success when they dedicate time to prospecting and customer
   - Be available to show customer-centricity as ONE team
 
 **Exceptions:**
-Outbound Wednesdays are not a mandate; however, a recommendation for our Americas Enterprise teams to use their best efforts only to pre-book customer and partner meetings. For managers, this would include customers, partners, and recruiting. They can still happen if we need to have same-day internal discussions on a Wednesday. There will be the time in people’s calendars for same-day meetings.  
+Outbound Wednesdays are not a mandate; however, a recommendation for our Americas Enterprise teams to use their best efforts only to pre-book customer and partner meetings. For managers, this would include customers, partners, and recruiting. They can still happen if we need to have same-day internal discussions on a Wednesday. There will be the time in people’s calendars for same-day meetings.
 
 The goal is to avoid scheduling such meetings in advance. By doing this together as a “ONE AMER ENT Team”, we will find that it will help to provide an environment where customer-centric collaboration can more easily happen. By striving to reduce internal meetings on Wednesdays, we should be [taking the initiative to operate asynchronously with team members whenever possible](/handbook/values/#bias-towards-asynchronous-communication). We can follow up with an internal discussion on subsequent days where synchronous collaboration is needed to clarify any misunderstandings.
 
@@ -128,7 +128,7 @@ Meet with your team and get their help and feedback on validating what’s in yo
 Holding hurts our prospective customers because while they’re sitting there, they aren’t getting any real value from us (and likely to get more value from a competitor). It’s for their benefit that we push deals along or move them to close.
 
 
-----
+---
 
 ## Resources
 

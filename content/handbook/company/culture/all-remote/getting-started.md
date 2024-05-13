@@ -13,7 +13,7 @@ On this page, we're detailing considerations and tips for getting started in a n
 
 In an [all-remote]({{< ref "./hybrid-remote#all-remote-upgrade" >}}) organization, each individual is empowered to [work and live]({{< ref "./people" >}}) where they are most fulfilled. A remote job allows you to work from wherever you're most comfortable. That could be a coffee shop, your basement office, a coworking space, or even a different place every month!
 
-## During the interview phase, get an understanding of how the company defines remote work.
+## During the interview phase, get an understanding of how the company defines remote work
 
 Different companies will have [different approaches to remote work]({{< ref "./phases-of-remote-adaptation" >}}). Make sure you understand what your work environment will be like, and whether it matches your own working style.
 
@@ -264,6 +264,6 @@ We've created this [extensive list of resources for remote professionals, teams,
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

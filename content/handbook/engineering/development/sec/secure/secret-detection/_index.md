@@ -44,17 +44,17 @@ This workflow can summarized as follows:
 
 Below is a list of steps followed during the refinement process.
 
-* The refinement process is kicked off when a planning issue is finalized.
-* A bot or an automated script assigns a number of issues (e.g. 2-3) randomly to each engineer.
-* An engineer is responsible for refining their assigned issues, but could ask for help if needed.
-* Engineers would follow a certain [checklist](handbook/engineering/development/sec/secure/secret_detection/#checklist) to determine if an issue is refined and ready to be picked up.
-* The refinement process is time-boxed (e.g. one week), after which all issues ready for development is picked up.
-* When an engineer completes refining an issue, they pass it on to another engineer (a reviewer) for review.
-* The reviewer should follow the guidelines outlined in the checklist as much as possible:
-  * If the reviewer agrees with the engineer, the issue is marked as ready for development.
-  * If they are in disagreement, they should discuss the reason and find a way forward.
-  * If a disagreement cannot be resolved, the issue is brought to next team meeting for discussion.
-* Pending issues can continue to be refined, and depending on their status they may or may not be included in the milestone.
+- The refinement process is kicked off when a planning issue is finalized.
+- A bot or an automated script assigns a number of issues (e.g. 2-3) randomly to each engineer.
+- An engineer is responsible for refining their assigned issues, but could ask for help if needed.
+- Engineers would follow a certain [checklist](handbook/engineering/development/sec/secure/secret_detection/#checklist) to determine if an issue is refined and ready to be picked up.
+- The refinement process is time-boxed (e.g. one week), after which all issues ready for development is picked up.
+- When an engineer completes refining an issue, they pass it on to another engineer (a reviewer) for review.
+- The reviewer should follow the guidelines outlined in the checklist as much as possible:
+  - If the reviewer agrees with the engineer, the issue is marked as ready for development.
+  - If they are in disagreement, they should discuss the reason and find a way forward.
+  - If a disagreement cannot be resolved, the issue is brought to next team meeting for discussion.
+- Pending issues can continue to be refined, and depending on their status they may or may not be included in the milestone.
 
 ##### Checklist
 

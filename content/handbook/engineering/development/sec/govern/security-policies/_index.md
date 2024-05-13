@@ -26,9 +26,9 @@ The Security Policies group's mission is to provide security and compliance team
 
 ## Common Links
 
-- Slack channel: `#g_govern_security_policies`
-- Slack alias: @govern_security_policies_be, @govern_security_policies_fe
-- Google groups: sec-govern-security-policies@gitlab.com
+* Slack channel: `#g_govern_security_policies`
+* Slack alias: @govern_security_policies_be, @govern_security_policies_fe
+* Google groups: sec-govern-security-policies@gitlab.com
 
 ## How we work
 
@@ -75,19 +75,19 @@ Our current process on how we work on features is on the [Feature process page](
 We follow these guidelines when submitting MRs for review when the change is within the Security Policies domain:
 
 1. The initial review should be performed by a member of the team, stage, or section. This helps the team by:
-   - Faster reviews, as the reviewer is already familiar with the domain
-   - Additional awareness of changes taking place within the domain
-   - Identifying changes that don't align with what is happening with the domain
+   * Faster reviews, as the reviewer is already familiar with the domain
+   * Additional awareness of changes taking place within the domain
+   * Identifying changes that don't align with what is happening with the domain
 1. For GraphQL changes, the MR should be reviewed by a frontend engineer as soon as possible. This helps to validate the interface, and allows changes to be made before tests are written.
 
 ### Issue Boards
 
-- [Security Policies Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754674?milestone_title=Started)
-   - Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
-- [Security Policies Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420731?label_name%5B%5D=group%3A%3Asecurity%20policies)
-  - Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
-- [Security Policies EM Board](https://gitlab.com/groups/gitlab-org/-/boards/4738985)
-  - Engineer-centric board used by engineering management to gauge how heavy a load engineer is carrying. Judged by the number of issues assigned to them.
+* [Security Policies Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754674?milestone_title=Started)
+   * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
+* [Security Policies Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420731?label_name%5B%5D=group%3A%3Asecurity%20policies)
+  * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
+* [Security Policies EM Board](https://gitlab.com/groups/gitlab-org/-/boards/4738985)
+  * Engineer-centric board used by engineering management to gauge how heavy a load engineer is carrying. Judged by the number of issues assigned to them.
 
 #### Issue and Merge Requests labels
 
@@ -111,11 +111,11 @@ When creating a new issue, use the `/copy_metadata #373191` quick command to cop
 
 It is advisable to manually trigger the `Package and QA` downstream [E2E](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/) job in an MR and review the results when there are changes in:
 
-- GraphQL (API response, query parameters, schema etc)
-- Gemfile (version changes, adding/removing gems)
-- Vue files which contain "data-qa-selector" attribute because these are used in identifying UI elements in E2E tests
-- Database schema/query changes
-- Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
+* GraphQL (API response, query parameters, schema etc)
+* Gemfile (version changes, adding/removing gems)
+* Vue files which contain "data-qa-selector" attribute because these are used in identifying UI elements in E2E tests
+* Database schema/query changes
+* Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
 
 To manually trigger the QA job:
 
@@ -126,7 +126,7 @@ It's advisable to run the QA job on the latest pipeline at least once during the
 
 ## Monitoring
 
-- [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-security_policies/stage-groups-security-policies-group-dashboard?orgId=1)
+* [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-security_policies/stage-groups-security-policies-group-dashboard?orgId=1)
 
 ### Metrics the team tracks
 

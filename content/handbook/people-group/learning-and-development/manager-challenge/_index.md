@@ -131,7 +131,7 @@ Following the Manager Challenge, participants are encouraged to do the following
 | ------ | ------ | ------ |
 | Week 4 | 50 minutes | Post Program Office Hours: Discuss Lessons Learned, Growth Plans, and Actions for Next Phase of manger enablement |
 
-## Important Points To Remember:
+## Important Points To Remember
 
 1. You will be receiving a lot of calendar invites if you sign-up. Please plan to attend either the AM or PM sessions.
 1. All participants will be invited to a Slack Group for the Manager Challenge

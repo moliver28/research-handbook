@@ -8,12 +8,12 @@ description: IT Business Technology
 
 ## On this page
 
-# <i id="biz-tech-icons" class="fas fa-map-marked-alt fa-fw"></i> Quick Links
+## <i id="biz-tech-icons" class="fas fa-map-marked-alt fa-fw"></i> Quick Links
 
 - [How We Work](/handbook/business-technology/pmo/)
 - [IT Meetings](/handbook/business-technology/pmo/#it-governance)
 
-# <i id="biz-tech-icons" class="fas fa-users"></i> The team
+## <i id="biz-tech-icons" class="fas fa-users"></i> The team
 
 <div class="flex-row" markdown="0">
   <div>
@@ -39,7 +39,7 @@ description: IT Business Technology
   </div>
 </div>
 
-# <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Role of IT Business Technology
+## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Role of IT Business Technology
 
 Our department focuses on managing the framework of how GitLab procures, implements, integrates, secures, exports analytics, and supports our [tech stack applications](/handbook/business-technology/tech-stack-applications) while providing strategic enablement and integration support for all departments and team members that allows us to scale efficiently, [SAFE](/handbook/legal/safe-framework/)ly, and securely.
 
@@ -71,7 +71,7 @@ The broader Finance and Business Technology team is focused on the principles of
 | 8 | Sales Rep Usability | - Program to remove fields and clean up page layouts for key rep flows <br> - Reduce clicks. | -  TBD - not started |
 | 9 | Value Add in the System for Sales | - Identify 3 flows where reps get value in the system (e.g. request SA help or product meeting for my deal) | - TBD - can’t start until progress on 1-8 |
 
-# <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Work
+## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Work
 
 Refer to the [IT PMO](/handbook/business-technology/pmo/) page learn how the IT teams work.
 
@@ -107,7 +107,7 @@ The [Demo Systems](/handbook/customer-success/demo-systems/) provide an always-o
 
 The [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/), powered by [HackyStack](https://gitlab.com/gitlab-com/business-technology/engineering/tools/hackystack), automates the provisioning of AWS accounts, AWS IAM users, GCP projects, and GCP users. This has allowed us to automate a large portion of our AWS and GCP access requests.
 
-# <i class="fas fa-database" id="biz-tech-icons"></i>  Cross-Department System Owners
+## <i class="fas fa-database" id="biz-tech-icons"></i>  Cross-Department System Owners
 
 As GitLab has grown organically, several departments and functional groups have their own System Administrators ("System Owners") to handle day-to-day management of the tech stack applications that are specific to that department or functional group, within the framework of organization-wide compliance, infrastructure, and security best practices.
 
@@ -117,24 +117,24 @@ As a SaaS company, our Engineering division also has an [infrastructure SRE team
 
 ### System Owner Directory
 
-* [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations/)
-* [Customer Support Operations](https://handbook.gitlab.com/handbook/support/readiness/operations/)
-* [Engineering Infrastructure (Reliability SREs)](/handbook/engineering/infrastructure/)
-* [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
-* [Engineering Security](/handbook/security/)
-* [Finance Systems](/handbook/business-technology/enterprise-applications/financeops/)
-* [Marketing Operations](/handbook/marketing/marketing-operations/)
-* [People Connect](/handbook/people-group/people-connect/)
-* [People Group Engineering](/handbook/people-group/engineering/)
-* [Sales Systems](/handbook/sales/field-operations/sales-systems/)
+- [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations/)
+- [Customer Support Operations](https://handbook.gitlab.com/handbook/support/readiness/operations/)
+- [Engineering Infrastructure (Reliability SREs)](/handbook/engineering/infrastructure/)
+- [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
+- [Engineering Security](/handbook/security/)
+- [Finance Systems](/handbook/business-technology/enterprise-applications/financeops/)
+- [Marketing Operations](/handbook/marketing/marketing-operations/)
+- [People Connect](/handbook/people-group/people-connect/)
+- [People Group Engineering](/handbook/people-group/engineering/)
+- [Sales Systems](/handbook/sales/field-operations/sales-systems/)
 
 > Please create an MR if we missed a system owner team.
 
-# IT Job Families & Career Opportunities
+## IT Job Families & Career Opportunities
 
-You can see all of our IT Careers and job families in [this page]() to learn more about the career paths and opportunities in our department. All GitLab open positions can be found in [https://about.gitlab.com/jobs/](https://about.gitlab.com/jobs/).
+You can see all of our IT Careers and job families in this page to learn more about the career paths and opportunities in our department. All GitLab open positions can be found in [https://about.gitlab.com/jobs/](https://about.gitlab.com/jobs/).
 
-# <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
+## <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
 
 - Groups in GitLab
     - `@gitlab-com/business-technology`
