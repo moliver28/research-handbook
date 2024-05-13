@@ -32,6 +32,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 </tr>
 <tr>
 <td>
+ 
 - For internal customers only
 - Organizations are private
 - Users cannot interact with other Organizations (including GitLab Org)
