@@ -108,7 +108,7 @@ Subscriptions granted under the GitLab for Open Source Program **do not auto-ren
 
 We recommend that applicants begin the renewal process at least one month in advance of their renewal dates to ensure sufficient processing time.
 
-#### How does someone renew their membership in the GitLab for Open Soure Program?
+#### How does someone renew their membership in the GitLab for Open Source Program?
 
 Subscriptions granted under the GitLab for Open Source Program do not auto-renew.
 To request a renewal, program members should complete the [program application](https://about.gitlab.com/solutions/open-source/join/).
