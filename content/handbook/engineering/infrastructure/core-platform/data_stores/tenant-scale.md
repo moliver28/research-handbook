@@ -65,14 +65,14 @@ the project, ensuring clarity on objectives with the responsibility of looking
 forward 3-6 months to identify potential blocks or risks. Their work is not
 limited to that area and they also work in other areas as needed.
 
-| Project | DRI |
-| ------ | ------ |
-| [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex, Abdul, Rutger, Peter, Zack Cuddy |
-| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Manoj, Tiger Watson |
-| Cells Services: [HTTP Routing](https://gitlab.com/groups/gitlab-org/-/epics/12491) | Thong, Steve, Omar, Bojan |
-| Cells Services: [SSH Routing](https://gitlab.com/groups/gitlab-org/-/epics/12708) | Igor Drozdov, Bojan |
-| Cells Services: [Global Service](https://gitlab.com/groups/gitlab-org/-/epics/13153) | Kamil, Omar, Rutger |
-| [Database sequences](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/97) | Prabakaran Murugesan, Diogo Frazão |
+| Project | DRI | Team |
+| ------ | ------ | ------ |
+| [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Abdul, Rutger, Peter, Zack Cuddy |
+| [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Manoj | |
+| Cells Services: [HTTP Routing](https://gitlab.com/groups/gitlab-org/-/epics/12491) | Thong | Bojan, Filipe Santos |
+| Cells Services: [SSH Routing](https://gitlab.com/groups/gitlab-org/-/epics/12708) | Vasilii Iakliushin | |
+| Cells Services: [Topology Service](https://gitlab.com/groups/gitlab-org/-/epics/13153) | Thong | Omar, Manoj, David Leach, Jonathon Sisson |
+| Cells Services: [Database sequences](https://gitlab.com/groups/gitlab-org/-/epics/13155) | Prabakaran Murugesan | |
 
 ## Meetings
 
