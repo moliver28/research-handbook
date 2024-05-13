@@ -339,7 +339,7 @@ The following important areas of the GitLab Handbook impact how we work and are 
 - [Distribution workflow page](workflow.html)
 - [General engineering workflow page](/handbook/engineering/workflow/)
 - [How to reinforce our values](/handbook/values/#how-do-we-reinforce-our-values)
-- [Continue to serve smaller users](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns#serve-smaller-users) (internal only)
+- [Continue to serve smaller users](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#serve-smaller-users) (internal only)
 - [Promises to our Open Source community](/handbook/company/stewardship/#promises)
 - [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
 - [Principles of our company strategy](/handbook/company/strategy/#principles)
