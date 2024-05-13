@@ -58,6 +58,21 @@ clean up the organization.
 - [ ] [No open opportunities in SFDC](#no-open-opportunities-in-sfdc)
 - [ ] [No recent chatter indicating renewal](#no-recent-chatter-indicating-renewal)
 
+As you review a list item, add the :eyes: Slack emoji on the list item. This
+indicates you are reviewing the item. Once you are done reviewing the item, add
+the :white_check_mark: Slack emoji (and remove the :eyes: Slack emoji) on the
+item.
+
+If for any reason you cannot perform the review (such as not having access to
+the organization in Salesforce), do the following:
+
+1. Remove the :eyes: emoji from the list item
+1. Make a thread on the list item that:
+   - Ping @jcolyer and @lyle
+   - Explains why you could not perform the review
+
+One of the people pinged will manually review the item you made the thread on.
+
 #### No tickets created within 120 days
 
 Check the organization in question for any tickets that have been created within
