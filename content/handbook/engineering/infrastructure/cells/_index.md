@@ -50,6 +50,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 - For more details, see [Organizations on Cells 1.5](https://docs.gitlab.com/ee/architecture/blueprints/organization/index.html#organizations-on-cells-15)
 </td>
 <td>
+ 
 - Organizations are public or private
 - Users can interact with other Organizations
 - Groups and projects are private or public in the Organization
