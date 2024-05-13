@@ -1,5 +1,7 @@
 ---
 title: "Journeys"
+aliases:
+- /handbook/journeys/
 ---
 
 ## Introduction
