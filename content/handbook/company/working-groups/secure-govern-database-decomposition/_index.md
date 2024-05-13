@@ -42,7 +42,7 @@ The charter of this working group is to:
 | Replication    | Replication of data with no bias. | X-Axis, Cloning | What we do with our database clusters to enable splitting read traffic apart from write traffic.|
 | WAL (Write Ahead Log) | Write ahead logs are the mechanism by which Postgres records inserted data. WAL records are then processed to modify the stored dataset in a separate process. These logs can be replicated.  | | |
 | Logical Replication | Replication of data using the built-in Postgres replication processes to transfer WAL via a PUB-SUB model | | |
-| Phsyical Replication | Replication of data by copying the actual files on the written disk to a new Phsyical Database.| | |
+| Physical Replication | Replication of data by copying the actual files on the written disk to a new Phsyical Database.| | |
 | Application Replication | Replication of data to a separate database by the configuration of replication routines in GitLab itself. | | |
 | Schema |A database schema is a namespace that contains named database objects such as tables, views, indexes, data types, functions, stored procedures and operators.| | |
 | Server | A database server is a physical or virtual system running an operating system that is running one or more database instances. | Physical Database | |
