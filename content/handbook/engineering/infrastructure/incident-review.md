@@ -32,7 +32,7 @@ For the sake of expediency, you can complete areas of the review which highlight
 ### Process for Asynchronous Reviews
 
 1. In the incident issue, open a new Incident Review by clicking on the link in the section for "References and helpful link" in the incident summary.
-2. Assign the issue to the DRI. It is expected that the review will be completed **within seven working-days of the incident**.
+2. Assign the issue to the DRI. It is expected that the review will be completed **within 10 working-days of the incident**.
 
 ### Process for Synchronous Reviews
 
