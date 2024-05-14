@@ -205,13 +205,7 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
    - Future sources: # of consecutive days of product/stage usage
 
-### Project Structure
-
-The Data Science Team follows [Cross-Industry standard process for data mining (CRISP-DM)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
-- Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
-   - Future sources: # of consecutive days of product/stage usage
-
-### Project Structure
+## Project Structure
 
 The Data Science Team follows [Cross-Industry standard process for data mining (CRISP-DM)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining), which consists of 6 iterative phases:
 
@@ -241,7 +235,7 @@ The Data Science Team follows [Cross-Industry standard process for data mining (
 
     - Once the model has been approved it then gets deployed into the data science production pipeline. This process automatically updates, generates predictions, and monitors the model on a regular cadence.
 
-#### The GitLab approach
+### The GitLab approach
 
 The [Data Science Team approach to model development](/handbook/business-technology/data-team/organization/data-science/project_dev_approach/) is centered around GitLab's value of [iteration](/handbook/values/#iteration) and the CRISP-DM standard. Our process expands on some of the 6 phrase outlined in CRISP-DM in order to best address the needs of our specific business objectives and data infrastructure.
 
@@ -255,22 +249,6 @@ Our current platform consists of:
 - [Monte Carlo](https://getmontecarlo.com/) for drift detection
 - Tableau Server for model monitoring and on-going performance evaluation
 - [Feast](https://docs.feast.dev/) as a an open-source Feature Store for Machine Learning models
-
-
-### Feast: Feature Store Implementation
-
-We are using Feast as an open-source Feature Store for our machine learning models.
-Configuration can be found on [the Feast project repository](https://gitlab.com/gitlab-data/data-science-projects/feast-poc), updating the feature store is done via GitLab CI/CD and the web UI is published in a VM on GCP.
-
-You can use the following pages to find more details on:
-
-1. How to use [Feast to fetch features to train and deploy Machine Learning models](/handbook/business-technology/data-team/platform/feast/).
-1. [Feast - Feature Store Implementation](https://internal.gitlab.com/handbook/enterprise-data/platform/data-science/) Internal handbook section.
-
-
-### CI/CD Pipelines for Data Science
-
-We are in the process of fully moving over the training and scoring of our machine learning models to the native GitLab CI/CD capabilities. Please see [Getting Started With CI/CD for Data Science Pipelines](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/) for the most up-to-date information and instructions.
 
 ### Current State Data Flows
 
@@ -296,6 +274,21 @@ graph
 ```
 
 - For putting a model into production, please create an new [data issue](https://gitlab.com/gitlab-data/analytics/-/issues/new#) using the [Scheduling Notebook Request Template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Data%20Science%3A%20Scheduling%20Notebook%20Request.md)
+
+### Feast: Feature Store Implementation
+
+We are using Feast as an open-source Feature Store for our machine learning models.
+Configuration can be found on [the Feast project repository](https://gitlab.com/gitlab-data/data-science-projects/feast-poc), updating the feature store is done via GitLab CI/CD and the web UI is published in a VM on GCP.
+
+You can use the following pages to find more details on:
+
+1. How to use [Feast to fetch features to train and deploy Machine Learning models](/handbook/business-technology/data-team/platform/feast/).
+1. [Feast - Feature Store Implementation](https://internal.gitlab.com/handbook/enterprise-data/platform/data-science/) Internal handbook section.
+
+
+### CI/CD Pipelines for Data Science
+
+We are in the process of fully moving over the training and scoring of our machine learning models to the native GitLab CI/CD capabilities. Please see [Getting Started With CI/CD for Data Science Pipelines](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/) for the most up-to-date information and instructions.
 
 ### Data Science Tools at GitLab
 
