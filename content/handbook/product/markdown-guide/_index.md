@@ -538,7 +538,6 @@ compatibility: `.mp4`, `.ogg` and `.webm`.
 ```
 
 {{% panel header="**Output**" header-bg="info" %}}
-<div class="panel-body">
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="/images/default-blog-image.png">
     <source src="html5-demo.mp4" type="video/mp4">
