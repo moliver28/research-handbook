@@ -3,21 +3,7 @@ title: "Getting Started With CI/CD for Data Science Pipelines"
 description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 ---
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
----
-
-## Our Approach to Using CI/CD For Data Science
-=======
 Our Approach to Using CI/CD For Data Science
->>>>>>> b0676795cb (Update markdownlint and fix biztech folder)
 
 When it comes to training and scoring machine learning models, there are trade-offs to using your local machine vs. CI. Our approach is flexible to allow users to do both.
 
@@ -42,7 +28,10 @@ When it comes to training and scoring machine learning models, there are trade-o
   - Log pipeline results to [Project wiki](https://docs.gitlab.com/ee/user/project/wiki/)
   - Use [GitLab for Slack](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html) integration to monitor pipeline status
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5fda32f5d0 (Fix markdownlint errors)
 ### Advantages of Using CI for Training Data Science Models
 
   - Reproducibility
@@ -63,14 +52,18 @@ This section covers, in detail, the mechanisms behind how these pipelines is cre
 ### Key Repository Files
 
 Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following key files:
+
 - **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that will be run in each pipeline. The actual pipelines are pulled from the [CI/CD Component Catelog](https://gitlab.com/explore/catalog/gitlab-data/ds-component-pipeline), with only the variables that need specified by the user set in this .yml.
 - **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU
+<<<<<<< HEAD
 =======
 Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following:
 
 - **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that should be run in the pipeline
 - **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU
 >>>>>>> b0676795cb (Update markdownlint and fix biztech folder)
+=======
+>>>>>>> 5fda32f5d0 (Fix markdownlint errors)
 - **requirements.txt**: The python packages to install in the docker container
 - **training_config.yaml**: Configuration for training notebook
 - **scoring_config.yaml**: Configuration for scoring notebook
@@ -119,7 +112,10 @@ Let's take a detailed look at the repository (**Code -> Repository**):
     - `run_name`: ID or name of the MLFlow Experiment Run
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5fda32f5d0 (Fix markdownlint errors)
 ### Model Training Step-by-Step Instructions
 =======
 ## Step-by-Step Instructions
@@ -136,8 +132,13 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 <<<<<<< HEAD
          - `MLFLOW_TRACKING_URI`: For the value, use the GitLab API MLFlow endpoint as outlined in the MLFlow instructions above. It should look something like: `https://gitlab.com/api/v4/projects/<your_project_id>/ml/mlflow`. Project ID can be found in **Settings -> General**
          - ***Note:*** For all varibles, untick the "Protect Variable" flag to enable experiment tracking on unprotected branches. Tick "Mask variable" to prevent the value from showing in the logs.
+<<<<<<< HEAD
     - Write Model Metrics to Merge Request
        - Create the following new CI/CD Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
+=======
+   - Write Model Metrics to Merge Request
+      - Create the following new CI/CD Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
+>>>>>>> 5fda32f5d0 (Fix markdownlint errors)
          - `REPO_TOKEN`: For the value, enter the project access token value created above.
          - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches. Tick "Mask variable" to prevent the value from showing in the logs. ![Create CI Variables](create_ci_variables.png)
 =======
@@ -235,17 +236,28 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - Target branch: `main` will work for this example. (You could also set it to the branch are you are currently working in.)
    - Variables: We only need to setup one variable, `SCORING_NOTEBOOK` with the location of the notebook we want to schedule `notebooks/scoring_example.ipynb`
    - Tick "Activated" and save the changes.
+<<<<<<< HEAD
    - <img src="Pipeline_schedule.png" width="700">
 1. The next time the schedule pipeline runs, it will output the results to the Project Wiki
    - Navigate to **Plan -> Wiki** and you will see a list by timestamp of all the times the scheduled pipeline has run, with links to the job logs and model metrics.
    - <img src="wiki.png" width="700">
+=======
+   - <img src="Pipeline_schedule.png" width="700" alt="">
+1. The next time the schedule pipeline runs, it will output the results to the Project Wiki
+   - Navigate to **Plan -> Wiki** and you will see a list by timestamp of all the times the scheduled pipeline has run, with links to the job logs and model metrics.
+   - <img src="wiki.png" width="700" alt="">
+>>>>>>> 5fda32f5d0 (Fix markdownlint errors)
 
 ## Slack Notifications (optional)
+
 - In Slack, add the GitLab for Slack app
 - Follow the instructions in the [Gitlab For Slack app documentation](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html)
 - We’ve setup our slack notifications so that notifications are sent to our #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
+<<<<<<< HEAD
 - <img src="slack_notifications.png" width="700">
 
+=======
+- <img src="slack_notifications.png" width="700" alt="">
+>>>>>>> 5fda32f5d0 (Fix markdownlint errors)
 
 **And that's it! Feel free to modify these pipelines and notebooks to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/business-technology/data-team/organization/data-science/). If you you are experiencing any difficulty or if you have any suggestions to improve these pipelines, feel free to [open an issue with us](https://gitlab.com/gitlab-data/data-science-ci-example/-/issues/new). Happy pipelining!**
-
