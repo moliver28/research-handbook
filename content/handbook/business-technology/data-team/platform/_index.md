@@ -533,7 +533,7 @@ Inactive Snowflake users will be deprovisioned weekly via `snowflake_cleanup` DA
 
 All active Snowflake users/roles are declared within `roles.yml`. Therefore, if any users in Snowflake are missing within roles.yml, they are considered inactive and the process will drop them.
 
-These users will be removed by running the following [deprovision_user.sql](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/snowflake_provisioning_automation/provision_users/sql_templates/deprovision_user.sql?ref_type=heads) script.
+These users will be dropped by running the following [deprovision_user.sql](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/snowflake_provisioning_automation/provision_users/sql_templates/deprovision_user.sql?ref_type=heads) script.
 
 This process is not exposed via CI job due to its sensitive nature and because it is less time sensitive. Therefore, a weekly 'cleanup' task via Airflow will be run instead.
 
