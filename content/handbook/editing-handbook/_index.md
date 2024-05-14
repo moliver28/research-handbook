@@ -10,7 +10,7 @@ aliases:
 This page focuses on how to edit the handbook.
 Please see the [handbook usage page]({{< ref "handbook-usage" >}}) for how and why we use the handbook, and other [docs pages]({{< ref "docs" >}}) for further reference.
 
-This page is intended to be complementary to [Using GitLab at GitLab](/handbook/using-gitlab-at-gitlab/#using-gitlab-competency).
+This page is intended to be complementary to [Using GitLab at GitLab](/handbook/people-group/using-gitlab-at-gitlab/#using-gitlab-competency).
 We suggest you complete the [GitLab 101 Tool Certification](/handbook/people-group/learning-and-development/gitlab-101/) if you haven't already.
 
 **Have your own practical Handbook editing tips? Drop a video below!**
@@ -30,7 +30,7 @@ A typical workflow to edit the handbook:
 
 1. [Use the Web IDE to make changes](https://docs.gitlab.com/ee/user/project/web_ide/#use-the-web-ide).
 1. [Commit changes](https://docs.gitlab.com/ee/user/project/web_ide/#commit-changes).
-1. [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html), [assign reviewers](/handbook/handbook-usage/#when-to-get-approval).
+1. [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html), [assign reviewers](/handbook/about/handbook-usage/#when-to-get-approval).
 1. [Apply suggestions](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/suggestions.html#apply-suggestions) if any.
 1. Merge once all suggestions are resolved and you have the necessary approvals.
 
@@ -266,11 +266,11 @@ There is a special linter that validates links and anchors across the handbook. 
 1. It is a path to the file where the broken link was detected.
     (filepath - `sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/index.html.md`, line number: 87)
 1. It is an error message. An anchor `expense-reimbursement` is defined in the file path from step 1 but does not exist in the file path from step 3.
-1. It is a path where the header `Expense Reimbursement` needs to be defined. (file path - `sites/handbook/source/handbook/spending-company-money/index.html.md`)
+1. It is a path where the header `Expense Reimbursement` needs to be defined. (file path - `sites/handbook/source/handbook/finance/spending-company-money/index.html.md`)
 
 **How to fix the problem**
 
-Double-check that header `Expense Reimbursement` exists in `sites/handbook/source/handbook/spending-company-money/index.html.md`.
+Double-check that header `Expense Reimbursement` exists in `sites/handbook/source/handbook/finance/spending-company-money/index.html.md`.
 
 If it was moved or renamed, then update the link with the anchor to point to the correct location.
 

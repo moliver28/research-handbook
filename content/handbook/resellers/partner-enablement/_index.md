@@ -65,7 +65,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
 
 **Pitching GitLab and Technical Discovery**
 
-  - [Positioning GitLab - Handbook Page](/handbook/positioning-faq/) (Handbook)
+  - [Positioning GitLab - Handbook Page](/handbook/marketing/positioning-faq/) (Handbook)
     - Review this page to learn about how to position GitLab in the market. (10 min)
   - [GitLab Technical Discovery Guide](/handbook/sales/qualification-questions/#questions-for-selling-gitlab-premium-and-ultimate) (Handbook)
     - Discovery is a crucial skill for any Solutions Architect (SA).  Here is how GitLab SA’s do their Discovery (10 min)

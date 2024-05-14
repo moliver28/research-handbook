@@ -187,7 +187,7 @@ During calibration sessions, leaders should be prepared to discuss:
 1. Development areas: The promotion document outlines strengths, but we also want to highlight how we will support a team member's opportunity to develop at the next level.
 1. Cross-functional feedback: As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
 1. Performance against with the current and (some) next level expectations aligned with the [job framework]({{< ref "structure#job-frameworks" >}}).
-1. [Competencies](/handbook/competencies/#list): Where available and applicable.
+1. [Competencies](/handbook/people-group/competencies/#list): Where available and applicable.
 1. Most recent talent assessment (and any relevant changes since).
 
 Calibration should be aligned to the following levels of leaders and people managers:
@@ -332,7 +332,7 @@ At GitLab, we ensure that promotions are impactful from the compensation perspec
 ### Promotion Compensation Guidelines
 
 - When a team member is promoted from one level to the next in the same job family, it is typical to be brought between the minimum and median of the compensation range.
-- The Total Rewards Team typically recommends a 5%-10% increase as part of the promotion to cash compensation. Additional equity is fixed based on [equity for promotions](/handbook/stock-options/#promotions).
+- The Total Rewards Team typically recommends a 5%-10% increase as part of the promotion to cash compensation. Additional equity is fixed based on [equity for promotions](/handbook/total-rewards/stock-options/#promotions).
     - Benchmarking data relays that typically [4-8% of your population will be promoted](https://www.shrm.org/ResourcesAndTools/business-solutions/Documents/Human-Capital-Report-All-Industries-All-FTEs.pdf) annually with an average of a [4.1% increase to base salary](https://worldatwork.org/media/CDN/dist/CDN2/documents/pdf/resources/sbs/SBS2022-23_TopLevelData.pdf).
 - Any promotions with the following conditions will require additional justification to the Total Rewards team and executive approver. Please add the business justification as a comment in the promotion worksheet.
     1. An increase of more than 10%
@@ -463,7 +463,7 @@ In the event that a team member is working in an acting capacity in a role that 
 Demotions are not always considered a step backwards.  It may be an opportunity for a team member to acquire new skills or to move to a role that more closely aligns with their area of interest. To demote one of your direct reports, a manager should follow the following steps:
 
 - If the demotion is due to performance, the manager should discuss any performance issues or possible demotions with Team Member Relations.
-- Demotions should also include a review of [compensation]({{< ref "compensation" >}}) and [equity](/handbook/stock-options/#equity-incentive-plans) in the google doc. Managers should consult with Total Rewards team on these topics; and of course always adhere to the Global Compensation Calculator.
+- Demotions should also include a review of [compensation]({{< ref "compensation" >}}) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) in the google doc. Managers should consult with Total Rewards team on these topics; and of course always adhere to the Global Compensation Calculator.
 - Once agreement is reached on the demotion and changes (if any) in Team will act as the point of escalation to have any demotion reviewed and approved by the Compensation Group once the relevant google doc is complete.
 - Once approved, the manager informs the individual. Please cc 'peopleops@gitlab.com'  once the individual has been informed, so the changes can be processed in the relevant administrative systems. A [Job Change Letter](https://docs.google.com/document/d/12AscsmP3qnTqCC9h6cx1UpIVrnZUfoN6AvfMjf8guyg/editm) will then be created.
 - The People Connect team should then follow the process listed under the [For People Connect Team: Processing Promotions & Compensation Changes]({{< ref "promotions-transfers#for-people-connect-team-processing-promotions--compensation-changes" >}}).
@@ -572,7 +572,7 @@ For more information please visit our [Internal Hiring Process](/handbook/hiring
 - If the current manager needs to backfill the role in Engineering they should follow [this process](/handbook/engineering/#rd-new-headcount-ghpid-request-backfill--transfer-process). For other divisions they should work with their department leader, recruiter, and the Finance Business Partner to confirm that a backfill is available. When the transfer is confirmed, the current manager should work with recruiter and Finance Partner to obtain a [GHP ID](/handbook/finance/financial-planning-and-analysis/#headcount-and-the-talent-acquisition-single-source-of-truth) for the backfill and open the role in Greenhouse.
 - Before the offer is made the recruiter will confirm with the team member and the gaining manager that they have indeed reached out to the current manager. They will discuss the new opportunity and that an offer will be made to the team member.
 - Talent Acquisition team will ensure that, if applicable, the position has been posted for at least three business days before an offer is made.
-- [Compensation]({{< ref "compensation" >}}) and [equity](/handbook/stock-options/#equity-incentive-plans) may be reviewed during the hiring process to reflect the new level and position.
+- [Compensation]({{< ref "compensation" >}}) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) may be reviewed during the hiring process to reflect the new level and position.
 - If after interviews, the manager and the GitLab team member want to proceed with the transfer, internal references should be checked. While a manager cannot block a transfer, there is often good feedback that can help inform the decision. It is advised that the GitLab team member talk to their manager to explain their preference for the new team and to understand the feedback that will be given to the new manager. It should also be noted, that performance requirements are not always equal across roles, so if a GitLab team member struggles in one role, those weakness may not be as pronounced in the new role, and vice versa.
 - The Recruiter and Hiring Manager will review the offer details with the internal candidate and a [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) will be sent out by the Total Rewards team following the hiring process
 - If the team member is transferred, the new manager will announce in the `#team-member-updates` Slack Channel and begin any additional onboarding or offboarding necessary. Before the new manager makes the transfer announcement they must confirm with the team members current manager that the current team has been informed about the team members new position and transfer.
@@ -592,7 +592,7 @@ If you are interested in another position within your department and the manager
 - If the vacancy is advertised on the [jobs page](https://about.gitlab.com/jobs/all-jobs/), to be considered, you must submit an application. If there is no vacancy posting, one must be created and shared in the `#new-vacancies` channel so that everyone has the opportunity to apply and be considered.
 - The manager will assess the function requirements; each level should be defined in the vacancy description.
 - If approved, your manager will need to obtain approval from their manager, through the relevant chain of command.
-- [Compensation]({{< ref "compensation" >}}) and [equity](/handbook/stock-options/#equity-incentive-plans) will be reevaluated to ensure it adheres to the compensation calculator. Do not send the proposal until this part is included.
+- [Compensation]({{< ref "compensation" >}}) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) will be reevaluated to ensure it adheres to the compensation calculator. Do not send the proposal until this part is included.
 - If the team member is transferred, the manager will announce in the `#team-member-updates` Slack channel and begin any additional onboarding or offboarding necessary.
 
 ## Internal Transfer Start Date
@@ -640,7 +640,7 @@ While the [Career Mobility Issue](/handbook/people-group/promotions-transfers/#c
     - Click the Business Process with `Stock Grant` in the title and effective date of the promotion.
     - This will open a new page to view the event. Scroll down to the `Stock Grant Details` table to see the proposed amount.
 
-**Please Note**: Equity grants require board approval. When communicating, managers should highlight that this equity amount is the proposed amount, but will not be [officially approved](/handbook/stock-options/#grant-levels) until the next [board meeting](/handbook/board-meetings/#board-meeting-schedule).
+**Please Note**: Equity grants require board approval. When communicating, managers should highlight that this equity amount is the proposed amount, but will not be [officially approved](/handbook/total-rewards/stock-options/#grant-levels) until the next [board meeting](/handbook/board-meetings/#board-meeting-schedule).
 
 1. The `new manager` should post the announcement in the `#team-member-updates` Slack channel. This should ideally happen (timezone permitting) on the **same day that the candidate signs their** [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}).
 1. For cases where announcing on the same day the Job Change Letter is signed is not possible, the announcement should be no more than 24 hours after the candidate has signed.

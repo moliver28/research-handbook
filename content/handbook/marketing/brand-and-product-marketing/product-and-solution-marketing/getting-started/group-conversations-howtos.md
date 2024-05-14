@@ -11,7 +11,7 @@ title: "Product and Solution Marketing Group Conversations How-to"
 
 ## What is a Group Conversation (GC)?
 
-GitLab departments update the rest of the company on what they are achieving and working on through [Group Conversations](/handbook/group-conversations/). Group Conversations are an important way to make sure the rest of the organization is aware of what each team is up to, has an opportunity to ask questions, and have a collection of links and information for reference.
+GitLab departments update the rest of the company on what they are achieving and working on through [Group Conversations](/handbook/company/group-conversations/). Group Conversations are an important way to make sure the rest of the organization is aware of what each team is up to, has an opportunity to ask questions, and have a collection of links and information for reference.
 
 ## Old GC decks
 

@@ -42,7 +42,7 @@ The Data Scientist (Intermediate)  is a [grade 6](/handbook/total-rewards/compen
 - Apply data mining or NLP techniques to cleanse and prepare large data sets
 - Help grow the Data Science function by defining and socializing best practices, particularly within a [DataOps](https://en.wikipedia.org/wiki/DataOps) and [MLOps](https://en.wikipedia.org/wiki/MLOps) data ecosystem
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale database environment. Maintain and advocate for these standards through code review
-- Document every action in either issue/MR templates, the [handbook](https://about.gitlab.com/handbook/), or READMEs so your learnings turn into repeatable actions and then into automation following the GitLab tradition of [handbook first!](/handbook/handbook-usage/#why-handbook-first)
+- Document every action in either issue/MR templates, the [handbook](https://about.gitlab.com/handbook/), or READMEs so your learnings turn into repeatable actions and then into automation following the GitLab tradition of [handbook first!](/handbook/about/handbook-usage/#why-handbook-first)
 
 #### Data Scientist (Intermediate) Requirements
 

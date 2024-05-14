@@ -133,7 +133,7 @@ For a complete list of our Give Back Projects and other Onboarding assignments o
 
 ### Paid Time Off (PTO) and Results
 
-We have found following steps beneficial to make the process of time off easy for Sales and keep business continuity.  This does not serve as a replacement to the company wide [Guide to Paid Time Off](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) or add process for [Sick Time Policy](/handbook/paid-time-off/#sick-time---taking-and-reporting). This is the expanded approach to preparing yourself and the team for time off planned specific to the group.
+We have found following steps beneficial to make the process of time off easy for Sales and keep business continuity.  This does not serve as a replacement to the company wide [Guide to Paid Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) or add process for [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting). This is the expanded approach to preparing yourself and the team for time off planned specific to the group.
 
 - [ ] Inform Manager as in the GitLab team members guide to time off
 - [ ] Ask a regional team member for coverage and share planned time off

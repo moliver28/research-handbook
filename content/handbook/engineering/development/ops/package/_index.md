@@ -521,7 +521,7 @@ committing to delivering it in a specific time frame.
 
 ### Returning from PTO
 
-It can be overwhelming to come back to work after taking time off. Remember to review the [returning from PTO](/handbook/paid-time-off/#returning-from-pto)
+It can be overwhelming to come back to work after taking time off. Remember to review the [returning from PTO](/handbook/people-group/paid-time-off/#returning-from-pto)
 section of our time-off policy, especially the key points:
 
 * It is OK to take your time to catch up. You can consider blocking your calendar to do so.

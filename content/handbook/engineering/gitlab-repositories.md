@@ -98,4 +98,4 @@ If a job requires the usage of Windows, SaaS runners on Windows should be used. 
 
 ### Publishing a Project
 
-To publish a project to a package repository, please follow [these directions](/handbook/developer-onboarding/#ruby-gems).
+To publish a project to a package repository, please follow [these directions](/handbook/engineering/developer-onboarding/#ruby-gems).

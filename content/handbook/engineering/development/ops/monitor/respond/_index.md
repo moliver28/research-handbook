@@ -304,7 +304,7 @@ The Respond team uses labels for issue tracking and to organize issue boards.  M
 
 ## Respond PTO
 
-Just like the rest of the company, we use [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel) to track when team members are traveling, attending conferences, and taking time off. The easiest way to see who has upcoming PTO is to run the `/time-off-deel whosout` command in the `#g_respond_standup` slack channel. This will show you the upcoming PTO for everyone in that channel.
+Just like the rest of the company, we use [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel) to track when team members are traveling, attending conferences, and taking time off. The easiest way to see who has upcoming PTO is to run the `/time-off-deel whosout` command in the `#g_respond_standup` slack channel. This will show you the upcoming PTO for everyone in that channel.
 
 ## Reading list
 

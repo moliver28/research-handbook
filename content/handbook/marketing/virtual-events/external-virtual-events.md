@@ -1,15 +1,10 @@
 ---
-
 title: External Virtual Events
 description: An overview of external virtual events including virtual conferences where we sponsor a booth, and sponsored webinars with third party vendors.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
-
-
-
-
 
 ## Overview
 {: #overview .gitlab-purple}
@@ -429,7 +424,7 @@ Select and set up your presentation space. Pick a spot with good wifi, and we re
 
 ##### Before the Presentation
 
-Try to get a good sleep the night before, and, if the presentation is in the morning, wake up early enough to run through your notes at least once. Review our [Positioning FAQ](/handbook/positioning-faq/), or keep the page handy in case you are asked in the Q&A about how GitLab compares to our competitors.
+Try to get a good sleep the night before, and, if the presentation is in the morning, wake up early enough to run through your notes at least once. Review our [Positioning FAQ](/handbook/marketing/positioning-faq/), or keep the page handy in case you are asked in the Q&A about how GitLab compares to our competitors.
 
 ### Logistical Set up
 

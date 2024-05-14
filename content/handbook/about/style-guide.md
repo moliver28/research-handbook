@@ -1,5 +1,7 @@
 ---
 title: "Handbook Style Guide"
+aliases:
+- /handbook/style-guide/
 ---
 
 ## Introduction

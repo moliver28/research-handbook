@@ -1,8 +1,8 @@
 ---
 title: GitLab Environmental, Social, and Governance
 description: "An overview of corporate sustainability at GitLab."
-canonical_path: "/handbook/esg/"
-weight: -10
+aliases:
+- /handbook/esg/
 ---
 
 ## GitLab Fiscal Year 2023 (FY23) ESG Report
@@ -48,7 +48,7 @@ This Report was first published on July 20, 2023.
 
 *Key ESG topics identified during GitLab’s materiality assessment.
 
-For questions and information on GitLab’s ESG Team, please visit the [ESG handbook page](/handbook/legal/ESG/).
+For questions and information on GitLab’s ESG Team, please visit the [ESG handbook page](/handbook/legal/esg/).
 
 #### Our Approach to ESG
 
@@ -64,7 +64,7 @@ In December 2022, we completed an ESG materiality assessment to determine which 
 
 Six key topics, which drive GitLab’s ESG strategy and program development, were identified in GitLab’s materiality assessment.
 
-![Materiality_Matrix](/handbook/legal/ESG/GitLab_2022_MaterialityMatrix_062123.PNG)
+![Materiality_Matrix](/handbook/legal/esg/GitLab_2022_MaterialityMatrix_062123.PNG)
 
 GitLab’s current key topics are listed below:
 
@@ -87,7 +87,7 @@ GitLab’s current key topics are listed below:
 
 In developing our ESG strategy, we have aligned our efforts to the [United Nations Sustainable Development Goals (“UN SDGs”)](https://sdgs.un.org/goals). The UN SDGs provide a shared blueprint for peace and prosperity for people and the planet, now and into the future. To that end, our ESG efforts align with five of the seventeen UN SDGs, and we seek to drive progress on the goals within our operations. We will continue to revisit and deepen our alignment as we make progress on our ESG strategy. Throughout this report we include the relevant UN SDG number in each section.
 
-![5_SDGs](/handbook/esg/All_5_Icons.png)
+![5_SDGs](/handbook/company/esg/All_5_Icons.png)
 
 ### Social
 
@@ -188,11 +188,11 @@ As we look toward FY24, we will continue to iterate on our programs, our metrics
 
 (UN SDG #8)
 
-From the beginning, GitLab has been an [open source project](/handbook/company/stewardship/#:~:text=GitLab%20is%20open%20core%20built,Source%20As%20Part%20Of%20GitLab.) made possible by contributions from the [community](/handbook/marketing/community-relations/community-pathway/#how-community-fits-into-gitlabs-strategy). Our active worldwide community has been fundamental to the transparency of GitLab helping to build trust in the product, as decisions, changes, and the overall direction of the open source project are open for everyone to see.
+From the beginning, GitLab has been an [open source project](/handbook/company/stewardship/#:~:text=GitLab%20is%20open%20core%20built,Source%20As%20Part%20Of%20GitLab.) made possible by contributions from the [community](/handbook/marketing/developer-relations/community-pathway/#how-community-fits-into-gitlabs-strategy). Our active worldwide community has been fundamental to the transparency of GitLab helping to build trust in the product, as decisions, changes, and the overall direction of the open source project are open for everyone to see.
 
 Contributors to GitLab, the platform and the company, make up the GitLab community and are a critical part of GitLab’s strategy and mission to make it so that everyone can contribute.
 
-Our work with the wider community goes beyond code and can include blog posts, documentation, discussions on forums/social media, meetups, presentations, translations, collaboration on UX design, and more. The [Community Relations Team](/handbook/marketing/community-relations/) works with our GitLab community to ensure that all receive support and recognition for contributing to GitLab.
+Our work with the wider community goes beyond code and can include blog posts, documentation, discussions on forums/social media, meetups, presentations, translations, collaboration on UX design, and more. The [Community Relations Team](/handbook/marketing/developer-relations/) works with our GitLab community to ensure that all receive support and recognition for contributing to GitLab.
 
 We also support community programs aimed at organizations that align with our [values]({{< ref values >}}). We strive to help these organizations grow and thrive by putting GitLab’s most powerful features in the hands of communities that may not otherwise have the means to access them. Each program is unique in its organization and execution; however, in general, community programs offer GitLab customers benefits such as:
 
@@ -202,9 +202,9 @@ We also support community programs aimed at organizations that align with our [v
 
 GitLab community programs
 
-- The [GitLab for Education](/handbook/marketing/community-relations/community-programs/education-program/) program's mission is to facilitate and drive the adoption of GitLab at educational institutions around the globe and to build an engaged community of GitLab evangelists and contributors in the next generation of the workforce. As of January 2023, the GitLab for Education program has over 3 million seats of GitLab’s top-tier subscription plan at over 1,000 educational institutions in more than 65 countries.
+- The [GitLab for Education](/handbook/marketing/developer-relations/community-programs/education-program/) program's mission is to facilitate and drive the adoption of GitLab at educational institutions around the globe and to build an engaged community of GitLab evangelists and contributors in the next generation of the workforce. As of January 2023, the GitLab for Education program has over 3 million seats of GitLab’s top-tier subscription plan at over 1,000 educational institutions in more than 65 countries.
 - The [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/) program supports GitLab's mission to make the world a place where anyone can contribute. We help make GitLab the best place for open source projects to grow and thrive.
-- The [GitLab for Startups](/handbook/marketing/community-relations/community-programs/startups-program/) program launched early in 2023 and helps qualifying startups get access to our top tiers for free or at a deep discount for up to two years.
+- The [GitLab for Startups](/handbook/marketing/developer-relations/community-programs/startups-program/) program launched early in 2023 and helps qualifying startups get access to our top tiers for free or at a deep discount for up to two years.
 
 *“Community is core to who we are and what we do. Our mission is to help these communities experience GitLab’s vision of a world where everyone can contribute.”*
 -Emilio Salvador, GitLab Vice President of Developer Relations
@@ -236,7 +236,7 @@ Part of doing responsible business means minimizing our environmental footprint.
 
 GitLab is a fully remote company without direct emissions from company owned facilities or direct energy consumption. Accordingly, our GHG inventory measures Scope 3 emissions only, specifically the emissions associated with remote work, purchased goods and services, cloud services, and business travel. Teams across GitLab including Finance, Procurement, People Analytics, Engineering, and Infrastructure, collaborated with the ESG team to collect data for the inventory.
 
-![GHG_Inventory](/handbook/esg/GHG_Inventory.png)
+![GHG_Inventory](/handbook/company/esg/GHG_Inventory.png)
 
 The results of our first GHG inventory are also available in the [Performance Data Table](https://about.gitlab.com/documents/PERFORMANCE_DATA_TABLE.pdf) and our third-party assurance letter is available [here](https://about.gitlab.com/documents/GitLab_FY2023_Verification_Opinion.pdf).
 

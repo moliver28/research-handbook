@@ -1,5 +1,7 @@
 ---
 title: "GitLab Positioning FAQs"
+aliases:
+- /handbook/positioning-faq/
 ---
 
 ## What is GitLab?

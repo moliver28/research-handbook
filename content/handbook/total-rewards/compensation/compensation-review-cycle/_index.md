@@ -156,7 +156,7 @@ If there are any reasons as to why a team member should not receive the proposed
 
 Please review the handbook page on [promotions](/handbook/people-group/promotions-transfers) to understand the guidelines and philosophy when allocating an increase. Team members may still receive a performance increase if eligible for a promotion. Managers should review the final increase and salary based on the team member’s performance rating and new role when making the final recommendation.
 
-[Promotional RSU grants](/handbook/stock-options/#promotions) will be automatically calculated within the planning grid. Managers *are not* responsible for entering promotion RSU grants as part of entering promotions into Workday, they should only enter cash compensation increases. Grants are subject to approval at the next grant approval date.
+[Promotional RSU grants](/handbook/total-rewards/stock-options/#promotions) will be automatically calculated within the planning grid. Managers *are not* responsible for entering promotion RSU grants as part of entering promotions into Workday, they should only enter cash compensation increases. Grants are subject to approval at the next grant approval date.
 
 ### Equity
 

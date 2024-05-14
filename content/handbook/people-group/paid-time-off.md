@@ -1,5 +1,7 @@
 ---
 title: "Paid Time Off at GitLab"
+aliases:
+- /handbook/paid-time-off/
 ---
 
 ## Introduction
@@ -14,7 +16,7 @@ Taking time off is not a selfish behavior. Not only is time away from work align
 
 It is important to take time off to recharge batteries and refresh the mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
 
-This page is written with a focus on vacation. The below recommendations on communicating your time off apply to time off for all reasons where possible and avoid concerns of health, safety, or job abandonment. GitLab offers a Flexible PTO Policy, but team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental, please follow our [Sick Time Policy](/handbook/paid-time-off/#sick-time---taking-and-reporting).
+This page is written with a focus on vacation. The below recommendations on communicating your time off apply to time off for all reasons where possible and avoid concerns of health, safety, or job abandonment. GitLab offers a Flexible PTO Policy, but team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental, please follow our [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting).
 
 If you are taking Parental Leave, please see our [Parental Leave Policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
@@ -71,7 +73,7 @@ We recognize this list may not encompass all state or local public holidays, but
 
 1. If you decide to work on a holiday and then take another day off in lieu of the actual holiday date, we ask that you choose Public Holiday as a PTO category, and in the section `What is this OOO for?` please clarify that this day is taken in lieu of the actual holiday date.
 
-   ![picture-of-pto-ninja-OOO-request](/handbook/paid-time-off/pto_ninja_OOO.png)
+   ![picture-of-pto-ninja-OOO-request](/handbook/people-group/paid-time-off/pto_ninja_OOO.png)
 
 1. Please note that Public Holidays will be listed in Time Off by Deel with a Length of 0 days (0 hours).
 
@@ -108,7 +110,7 @@ Communicate broadly when you will be away so other people can manage time effici
     1. It may be useful to share your planned time off as an **FYI** on your team's Slack channel(s); especially if you lead a team. You can [schedule mesages in slack](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later) to remind your team of items that are due or projects that are pending while you are off. Here are some examples of remimders that could be scheduled:
         - > Hey team, just a reminder that I’m out today.  Please take a look at my open tickets. Thanks!
         - > Hello team, I am out of the office for the next several days. Please double check the pending tasks on our team's Google Doc for any upcoming deadlines.
-1. Please see the [On-Call](/handbook/on-call/) page for information on how to handle scheduled leave for someone from the On-Call team.
+1. Please see the [On-Call](/handbook/engineering/on-call/) page for information on how to handle scheduled leave for someone from the On-Call team.
 1. If you are a people manager, please complete the following:
     - Workday: set up a [delegate](https://docs.google.com/document/d/1BDME_47-mif1ZihO5Id-wejbjAU_-PLIr1dJ46z1F_c/edit) in Workday to be able to approve transactions on your behalf while you are away
     - Navan Expense: delegate expense approval to your back-up team member by following these steps:
@@ -335,7 +337,7 @@ We get it — life gets busy. So busy, in fact, that you may need a little nudge
 
 The reminder will read as follows.
 
-> Hi there! Have you thought about what days you may take off this month? 🌴⛰️ We want to make sure you stay healthy! If you feel like you can’t reasonably take time off, feel welcome to add this note to your next 1:1 with your manager and discuss further. Learn more about paid time off at GitLab: `/handbook/paid-time-off/`
+> Hi there! Have you thought about what days you may take off this month? 🌴⛰️ We want to make sure you stay healthy! If you feel like you can’t reasonably take time off, feel welcome to add this note to your next 1:1 with your manager and discuss further. Learn more about paid time off at GitLab: `/handbook/people-group/paid-time-off/`
 
 To subscribe or unsubscribe, follow the below instructions and [see an associated screenshot](/handbook/people-group/gitlab-slack-pto-reminder.png).
 

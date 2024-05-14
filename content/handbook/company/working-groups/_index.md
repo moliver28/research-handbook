@@ -112,7 +112,7 @@ All meetings should have an [agenda](/handbook/company/culture/all-remote/meetin
 
 ### Create a page in the handbook
 
-Working Groups should have a page in the handbook in the current `working-groups` folder and added to the [list of active working groups](#active-working-groups-alphabetic-order) below. If you inherited an existing Working Group, make sure that the page is up-to-date. This ensures that other team members have a place to go if they are looking to learn about what you are working on. At GitLab, we’re [public handbook first](/handbook/handbook-usage/#why-handbook-first), but if your work is [not public](/handbook/communication/confidentiality-levels/#internal), please use the [internal working groups folder](https://internal.gitlab.com/handbook/company/internal-working-groups/) to keep the content [SAFE](/handbook/legal/safe-framework/).
+Working Groups should have a page in the handbook in the current `working-groups` folder and added to the [list of active working groups](#active-working-groups-alphabetic-order) below. If you inherited an existing Working Group, make sure that the page is up-to-date. This ensures that other team members have a place to go if they are looking to learn about what you are working on. At GitLab, we’re [public handbook first](/handbook/about/handbook-usage/#why-handbook-first), but if your work is [not public](/handbook/communication/confidentiality-levels/#internal), please use the [internal working groups folder](https://internal.gitlab.com/handbook/company/internal-working-groups/) to keep the content [SAFE](/handbook/legal/safe-framework/).
 
 Items to cover on your handbook page should include:
 
@@ -123,7 +123,7 @@ Items to cover on your handbook page should include:
 1. Key milestones and their delivery timeline
 1. Who is involved. This should include who the DRI and Exec Sponsor (if there is one) are. Ensure that responsibilities for all participants are clearly documented and understood.
 
-When possible, we work [handbook first](/handbook/handbook-usage/#why-handbook-first) and start with a [Merge Request](/handbook/communication/#start-with-a-merge-request). Google Docs can be used for drafting a proposal in which multiple folks need to collaborate in real-time. It may also be something that you'd consider when material is [limited access](/handbook/communication/confidentiality-levels/#limited-access). Once the confidentiality concerns are addressed and real-time editing is less crucial, the content should be moved to a [Merge Request](/handbook/communication/#start-with-a-merge-request) and the Google Doc should be marked deprecated with a link to the Merge Request.
+When possible, we work [handbook first](/handbook/about/handbook-usage/#why-handbook-first) and start with a [Merge Request](/handbook/communication/#start-with-a-merge-request). Google Docs can be used for drafting a proposal in which multiple folks need to collaborate in real-time. It may also be something that you'd consider when material is [limited access](/handbook/communication/confidentiality-levels/#limited-access). Once the confidentiality concerns are addressed and real-time editing is less crucial, the content should be moved to a [Merge Request](/handbook/communication/#start-with-a-merge-request) and the Google Doc should be marked deprecated with a link to the Merge Request.
 
 ### Create issues and epics
 
@@ -178,7 +178,7 @@ If something isn't on our [Not Public list](/handbook/communication/confidential
 1. Preparation
     1. Determine an appropriate project name using [limited access naming conventions](/handbook/communication/confidentiality-levels/#limited-access).
     1. Create an overview page and add the link to [Active Working Groups](#active-working-groups-alphabetic-order). You can share limited information, but capture key team members, including the facilitator, executive stakeholder, and functional lead.
-    1. If working in the handbook, evaluate whether the page should be confidential or be housed in a new project with limited access. Consider working in the [staging handbook](/handbook/handbook-usage/#the-staging-handbook). We use this when information may need to be iterated on or MR branches may need to be created in staging before it is made public. Outside of E-Group, temporary access may be granted on a project-specific basis.
+    1. If working in the handbook, evaluate whether the page should be confidential or be housed in a new project with limited access. Consider working in the [staging handbook](/handbook/about/handbook-usage/#the-staging-handbook). We use this when information may need to be iterated on or MR branches may need to be created in staging before it is made public. Outside of E-Group, temporary access may be granted on a project-specific basis.
     1. Maintain a list of working group members and other folks who are participating in or informed of the project. This list should be available to all participating team members. Folks should not be added to this list until it is confirmed that they understand what can be communicated.
     1. Ensure that each working group team member understands what can be communicated externally and internally.
     1. Have private Slack channels that include folks who are directly working on the project.
@@ -188,7 +188,7 @@ If something isn't on our [Not Public list](/handbook/communication/confidential
 1. Proactively share information if the project is no longer limited access
     1. Notify widely of progress or exit outcomes when information can be shared more broadly.
     1. Evaluate which artifacts and communication material can be made internally available or public.
-        1. If you were working in the [staging handbook](/handbook/handbook-usage/#the-staging-handbook), follow instructions to make a merge request against the public repo.
+        1. If you were working in the [staging handbook](/handbook/about/handbook-usage/#the-staging-handbook), follow instructions to make a merge request against the public repo.
         1. Transition members to public Slack channels and archive private channels.
         1. Deprecate private agendas. Link this to a new agenda document.
         1. Consider making GitLab Groups and Projects public or avialable to a broader audience.

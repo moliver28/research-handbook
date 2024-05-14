@@ -96,7 +96,7 @@ The GitLab Field and Marketing organizations have aligned on a go-to-market appr
 
 1. What [**customer value driver(s)**](/handbook/sales/command-of-the-message/#customer-value-drivers) does this acquisition augment and how?
 1. How does this acquisition augment [**GitLab's differentiators**](/handbook/sales/command-of-the-message/#gitlab-differentiators) and/or introduce new ones?
-1. How does this acquisition augment our existing [**customer use cases**](/handbook/use-cases/)?
+1. How does this acquisition augment our existing [**customer use cases**](/handbook/marketing/use-cases/)?
 
 ##### 2. Role-based learning objectives
 

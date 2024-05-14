@@ -1,5 +1,5 @@
 ---
-aliases: /handbook/legal/ESG/Team-Member-Sustainability-Guide
+aliases: /handbook/legal/esg/Team-Member-Sustainability-Guide
 title: "Team Member Sustainability Guide"
 description: "GitLab's Team Member Sustainability Guide for Remote Work"
 ---
@@ -9,11 +9,11 @@ Please contribute your ideas to this guide [here.](https://gitlab.com/gitlab-com
 
 Welcome to the first iteration of GitLab’s Team Member Sustainability Guide. As a fully remote workforce without daily commutes or physical offices, we don’t have the typical environmental footprint that many other companies have, but that doesn’t mean we don’t have an environmental impact.
 
-[Climate Action and Greenhouse (GHG) Emissions](/handbook/legal/esg/#esg-materiality-matrix) are key focus areas identified in GitLab’s ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, and **emissions associated with remote work**.
+[Climate Action and Greenhouse (GHG) Emissions](/handbook/legal/esg/#esg-materiality-matrix) are key focus areas identified in GitLab’s ESG Materiality Assessment. Through our [annual GHG inventory](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions), we measure four emissions sources from our business; purchased goods and services (our suppliers), cloud services, business travel, and **emissions associated with remote work**.
 
 Working remotely comes with its own sustainability challenges and opportunities. For example, our laptops, monitors and lamps use energy that generates carbon emissions. The meals we eat during our work day generate waste that may end up in a landfill. The purpose of this guide is to provide actionable steps for team members to take at home to reduce individual environmental impact.
 
-We know that part of doing responsible business means minimizing our environmental footprint. That’s why we’re committed to analyzing and publishing our emissions along with any steps we’re taking to reduce our footprint in our annual [ESG report](/handbook/esg/#gitlab-fiscal-year-2023-fy23-esg-report).
+We know that part of doing responsible business means minimizing our environmental footprint. That’s why we’re committed to analyzing and publishing our emissions along with any steps we’re taking to reduce our footprint in our annual [ESG report](/handbook/company/esg/#gitlab-fiscal-year-2023-fy23-esg-report).
 
 We are a global team, and we know there are sustainability initiatives and offerings specific to where you live. Many of you have developed sustainable practices at home, and we would love to know more about them! Please [contribute here](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/2072) and help us crowdsource ideas for other team members in your area! Please share any feedback or questions in the issue or in slack #ESG.
 
