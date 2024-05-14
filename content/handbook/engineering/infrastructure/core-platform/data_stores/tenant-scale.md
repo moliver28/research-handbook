@@ -67,6 +67,7 @@ limited to that area and they also work in other areas as needed.
 
 | Project | DRI | Team |
 | ------ | ------ | ------ |
+| Application Readiness questions | Manoj | |
 | [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Abdul, Rutger, Peter, Zack Cuddy |
 | [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Manoj | |
 | Cells Services: [HTTP Routing](https://gitlab.com/groups/gitlab-org/-/epics/12491) | Thong | Bojan, Filipe Santos |
