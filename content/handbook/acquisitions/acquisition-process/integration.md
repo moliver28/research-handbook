@@ -17,6 +17,7 @@ our acquisitions approach visit our [acquisitions process](/handbook/acquisition
 Integration planning begins well before a transaction closes. At the appropriate time during the deal process, the Sr. Dir. Corporate Development, the DRI for the integration stage, will help facilitate the integration between the relevant divisions and functions involved. To accomplish that, an integration working group (IWG) will be established with representatives from divisions across GitLab (e.g., Finance, Legal, Product, Engineering, People, etc.).
 
 Importantly, each integration will have an executive sponsor from the E-Group as well as two additional DRIs:
+
 1. Roadmap DRI - the Product Champion for the acquisition, will be responsible the direction, impact, scope, and alignment of the integration
 1. Engagement DRI - the Engineering Champion for the acquisition, will be responsible for the implementation of the technical integration milestones and retention of the acquired team members within GitLab.
 

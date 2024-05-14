@@ -82,7 +82,7 @@ It is expected that Product Security Engineering team members will do refinement
 
 #### Step-by-step refinement process
 
-Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](https://handbook.gitlab.com/handbook/product-development-flow/), so that the work can be picked up by anyone.
+Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development-flow/), so that the work can be picked up by anyone.
 
 1. Choose an issue to refine
     1. Unrefined issues are labeled `~workflow::validation backlog` (or perhaps have no `~workflow::` label)
@@ -96,7 +96,7 @@ Below is a step-by-step process for team members to walk through when refining b
 1. Investigate what an ideal solution might look like and add potential solution information to that issue
     1. Consider timeboxing this effort
     1. If needed, consider applying the `~workflow::solution validation` label and engaging with the relevant product, engineering, or security teams to determine if the proposed solution addresses the requirements
-1. Add a [weight](https://handbook.gitlab.com/handbook/security/product-security/product-security-engineering/#weights) based on how much effort this will take to accomplish
+1. Add a [weight](/handbook/security/product-security/product-security-engineering/#weights) based on how much effort this will take to accomplish
 1. Add the `~workflow::ready for development` label to indicate that the issue has been refined
 
 ### Weights
@@ -147,7 +147,7 @@ The Product Security Engineering team defaults to using the namespaces of the st
 
 ## Milestone Planning
 
-The Product Security Engineering team plans its work on a cadence based around [GitLab Product Milestones](https://handbook.gitlab.com/handbook/product/milestones/). This section describes the planning process that we use to determine what work will be completed for each Milestone.
+The Product Security Engineering team plans its work on a cadence based around [GitLab Product Milestones](/handbook/product/milestones/). This section describes the planning process that we use to determine what work will be completed for each Milestone.
 
 ### Milestone Planning Issue
 

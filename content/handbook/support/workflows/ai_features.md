@@ -39,11 +39,14 @@ This table links to the epic name or production documentation, along with the re
 Purchased duo pro seats are added as **add-ons** in a customer's main subscription that has either Premium or Ultimate seats.
 
 For both Self-Managed and GitLab.com, impersonating the customer's account is the most straightforward method for checking if a subscription has Duo Pro seats:
+
 1. Locate the customer's CustomersDot account by searching using the customer's email domain in https://customers.gitlab.com/admin/customer.
 1. Impersonate the CustomersDot account that has a `Subscription` label and check the details for **Duo Pro seats**
+
   - NOTE: Always check the **start and end date** of the Duo Pro add-on seats
 
 Other optional methods are below:
+
 - For Self-Managed, follow the below steps until [Duo Pro seat count is displayed in Licenses page](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/9411) is implemented:
   1. Locate the customer's CustomersDot account by searching using the customer's email domain in https://customers.gitlab.com/admin/license.
   1. Click on the `i` icon to navigate to the license details page.

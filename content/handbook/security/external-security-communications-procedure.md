@@ -27,6 +27,7 @@ Security shared communications efforts: Corporate Marketing reviews and approves
 1. External notifications associated with Security certifications and initiatives such as SOC 2 and FedRAMP
 
 Security Consult - Corporate Marketing Owned
+
 1. Interviews / media engagement
 1. Contributed articles
 

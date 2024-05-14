@@ -11,7 +11,6 @@ description: "Provides an aggregated listing of popular and important links and 
 - [Coordinated Disclosure Process](https://about.gitlab.com/security/disclosure/)
 - [HackerOne Reporting Process]({{< ref "hackerone-process" >}})
 
-
 ### GitLab's Customer Assurance Package (CAP)
 
 Our Customer Assurance Package contains documents such as our SOC2 report, ISO 27001 certificate, penetration test executive summary, and pre-filled CAIQ and SIG questionnaires, among many other documents. Please see our [CAP page](https://about.gitlab.com/security/cap/) to request the package.

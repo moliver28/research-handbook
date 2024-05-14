@@ -96,4 +96,3 @@ The objective of theses sessions are to gather referrals, region-specific inform
 Each session will have a corresponding Issue linked and in that, we ask that you please add information regarding appropriate companies to source from, local meet-up groups, conferences, job boards to advertise on, and any other information you believe will be beneficial to our hiring efforts in your area.
 
 A Talent Acquisition Team Member will attend these sessions, so they be able to address any questions that arise on sourcing, LinkedIn, or Greenhouse.
-

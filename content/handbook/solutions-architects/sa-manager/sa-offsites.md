@@ -50,7 +50,6 @@ Once the SA leader(s) has identified a suitable location (city) for the team off
     - Step 3: If needed, raise a request for a [Virtual Credit Card](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/)
     - Step 4: Work with supplier to seek appropriate invoices for PO
 
-
 #### Additional Tips
 
 - Do not underestimate the value of constantly accessible coffee, tea and water, as well as healthy snacks - cordinating with the event organizer
@@ -85,7 +84,6 @@ As the organizer of the offsite, ensure that the purpose, objectives and vision 
 1. As the SA Leader, consider summarising the objectives, the agenda for the entire offsite, housekeepings overviews, daily breaks in a Powerpoint deck
 1. Have fun during the event
 
-
 ## Offsite Completion
 
 On the last day, cordinating with the event organizer to understand that all invoices have been covered and review additional charges.
@@ -93,4 +91,3 @@ On the last day, cordinating with the event organizer to understand that all inv
 1. Connect with the procurement team upon your return to your remote based location and ensure that all payment requests have been finalised in Coupa
 
 In the spirit of our company values, it is recommended to transparently share the success the of the Offsite with our SA team worldwide. Offering assistance and ideas for future events and don't forget to share picture via internal communications channels.
-

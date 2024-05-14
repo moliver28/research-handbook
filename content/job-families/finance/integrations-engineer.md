@@ -222,7 +222,6 @@ Extends that of the Senior Architect & Senior Integrations Engineer requirements
 - 5-7 years of experience in integration engineering role ideally with an enterprise SaaS software model company.
 - 5+ years of Enterprise Architect experience.
 
-
 ## Senior Manager, Enterprise Architecture & Integration Engineering
 
 ### Job Grade
@@ -254,6 +253,7 @@ Extends that of the Manger, Enterprise Architecture & Integration Engineering re
 ### Requirements
 
 Extends that of the Manger, Enterprise Architecture & Integration Engineering requirements:
+
 - 10+ years of experience in an integration engineering role ideally with an enterprise SaaS software model company.
 - 8-10 years of Enterprise Architect experience.
 - Demonstrated experience managing and integrating multiple Enterprise Business Platforms such as Marketo, Salesforce, Zuora Billing, Zuora Revenue, Netsuite, Workday, ServiceNow and the likes.

@@ -121,11 +121,3 @@ We will follow the agenda as closely as possible but ensuring that live answers 
 #### Communication
 
 All DIB council members will be added to our internal [Google Group](https://groups.google.com/a/gitlab.com/g/dib-council) for invitations and communication.
-
-
-
-
-
-
-
-

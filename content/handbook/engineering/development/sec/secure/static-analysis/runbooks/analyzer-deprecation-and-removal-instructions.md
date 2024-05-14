@@ -36,7 +36,7 @@ If we delete the entire job, this can break customer pipelines if they have prov
 #### 2. Deprecation Notification
 
 We're required to publish notices in advance of potentially-breaking changes.
-See [Deprecations, removals, and breaking changes](https://handbook.gitlab.com/handbook/product/gitlab-the-product/#deprecations-removals-and-breaking-changes) for details on the required process.
+See [Deprecations, removals, and breaking changes](/handbook/product/gitlab-the-product/#deprecations-removals-and-breaking-changes) for details on the required process.
 
 An example of a previous SAST analyzer deprecation notice is [the notice from 14.8](https://docs.gitlab.com/ee/update/deprecations.html#sast-analyzer-consolidation-and-cicd-template-changes).
 

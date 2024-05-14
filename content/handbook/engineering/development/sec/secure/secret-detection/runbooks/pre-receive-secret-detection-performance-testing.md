@@ -94,7 +94,7 @@ Steps to add a new $GCP_ENV_PREFIX:
 * Rename gcp_2k.gcp.yml and update both *.yml files as necessary
 * Copy over `monitor.yml` to `ansible/environments/$GCP_ENV_PREFIX/files/gitlab_tasks`
 * Nothing needs to change in `monitor.yml`, but be sure `grafana_password` is set in `vars.yml`
-* Acquire a new Ultimate license [following this process](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/policies/team_member_licenses/)
+* Acquire a new Ultimate license [following this process](/handbook/support/readiness/operations/docs/policies/team_member_licenses/)
 * Upload that license file to `/environments/$GCP_ENV_PREFIX/files`
 * From the root directory, follow the steps in [Installing Ansible with a Virtual Environment](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#installing-ansible-with-a-virtual-environment)
 * Cd to the `ansible` directory

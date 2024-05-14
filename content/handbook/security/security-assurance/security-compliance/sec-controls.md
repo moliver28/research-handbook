@@ -40,7 +40,6 @@ GCF security controls are assessed at the entity level or the system level depen
 
 GCF security controls assessed at system level are based upon the system's [critical system tiering]({{< ref "critical-systems" >}}). Dependent upon the system's tier, a subset of GCF controls are evaluated based upon overall risk and impact to the organization. This is broken out as follows:
 
-
 |Tier |     GCF Control Scope |     ZenGRC Link|
 |--|--|--|
 |Tier 0 Entity|Entity-Level Controls| [Link](https://gitlab.zengrc.com/sor/listing/controls?p=eyJzb3IiOnsicGFnZVNpemUiOjIwMCwiY29sdW1ucyI6WyJ0aXRsZSIsInNsdWciLCJkZXNjcmlwdGlvbiIsInRlc3RQbGFuIiwic3RhdHVzIiwiY2FfXzExMiIsImFzc2Vzc21lbnRzIl0sImNvbHVtblNpemVzIjpbeyJuYW1lIjoidGVzdFBsYW4iLCJzaXplIjozNzR9LHsibmFtZSI6Im1hcHBpbmdzLnByb2dyYW1zIiwic2l6ZSI6MzgxfV0sImZpbHRlcnMiOnsiQU5EIjpbeyJmIjoiY2FfXzM0MyIsIm8iOiI9IiwidiI6IlRpZXIgMCBFbnRpdHkifSx7ImYiOiJtYXBwaW5ncy5wcm9ncmFtcyIsIm8iOiI9IiwidiI6IlByb2dyYW06NDIifV19fX0%3D&page=1)|
@@ -408,7 +407,6 @@ This control family focuses on the assessment of system vulnerabilities and rele
 |     RA-9     |     Criticality Analysis          |     To identify critical system components and functions by performing a criticality analysis.     |
 
 {{% /details %}}
-
 
 {{% details summary="System and Services Acquisition (SA)" %}}
 > [<i class="fa-solid fa-file-lines"></i> System and Services Acquisition (SA)]({{< ref "../security-compliance" >}})

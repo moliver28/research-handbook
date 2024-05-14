@@ -602,7 +602,6 @@ By demographic:
 
 #### Entity Specific Questions
 
-
 1. The country-specific benefits provided by GitLab are comparable or better than what is offered by similar employers in my country.
 
     | GitLab                 | Australia Score | United States Score | Netherlands Score | Canada Score | India Score | United Kingdom Score | Germany Score | New Zealand Score |
@@ -748,7 +747,6 @@ By demographic:
     | Dental/Vision | 0% | n/a | n/a |
     | 401(k) Match | 1% | n/a | n/a |
 
-
 - EMEA
 
     | Response | Ireland (% of Respondents) | Netherlands (% of Respondents) | United Kingdom (% of Respondents) | Germany (% of Respondents) | Hungary (% of Respondents) | Austria (% of Respondents) | Poland (% of Respondents) | Romania (% of Respondents) | Russian Federation (% of Respondents) | Turkey (% of Respondents) | Ukraine (% of Respondents) |
@@ -765,7 +763,6 @@ By demographic:
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | 13% | 8% | 0% | 14% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
     | Medical/Health coverage | n/a | n/a | 4% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
     | Pension | n/a | n/a | 0% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-
 
 - APAC
 
@@ -802,7 +799,6 @@ By demographic:
     | Dental/Vision | 74% | n/a | n/a |
     | 401(k) Match | 73% | n/a | n/a |
 
-
 - EMEA
 
     | Response | Ireland (% of Respondents) | Netherlands (% of Respondents) | United Kingdom (% of Respondents) | Germany (% of Respondents) | Hungary (% of Respondents) | Austria (% of Respondents) | Poland (% of Respondents) | Romania (% of Respondents) | Russian Federation (% of Respondents) | Turkey (% of Respondents) | Ukraine (% of Respondents) |
@@ -819,7 +815,6 @@ By demographic:
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | 13% | 12% | 6% | 10% | 0% | 33% | 8% | 0% | 0% | 20% | 20% |
     | Medical/Health coverage | n/a | n/a | 37% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
     | Pension | n/a | n/a | 59% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-
 
 - APAC
 

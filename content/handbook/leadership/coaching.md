@@ -24,7 +24,6 @@ Review examples of why you might want to, or benefit from, meeting with a profes
 1. A team member wants to improve their communication style with a focus giving on open and honest feedback.
 1. A team member needs guidance in building a system to prioritize their work based on urgency and results.
 
-
 ## Selecting a coach
 
 There are various ways to find a coach at GitLab:

@@ -8,7 +8,6 @@ description: "Describes the role and responsibilities for the Support Operations
 
 The Support Readiness team mantains an on-call rotation for those members focused on Support Operations. This rotation ensures that the support team is always able to deliver support.
 
-
 ## Expectations for Support Ops On-call
 
 As part of [GitLab Support on-call](/handbook/support/on-call/), Support Readiness members focused on Operations serve in a rotation. The Support Ops on-call is responsible generally for:
@@ -28,4 +27,3 @@ Login to [gitlab.pagerduty.com](https://gitlab.pagerduty.com) and select **+ New
 - **Title**: Add a description here
 
 No other fields need to be filled out, therefore you may then click **Create Incident**
-

@@ -12,7 +12,6 @@ The Professional Services Project Coordinator reports to Manager, Professional S
 
 The Professional Services Project Coordinator is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-
 #### Professional Services Project Coordinator, Associate Responsibilities
 
 - Run weekly time reports to estimate revenue; identify any resource or revenue corrective actions that are required to meet/beat monthly target
@@ -243,7 +242,6 @@ The Professional Services Program Manager is a [grade 7](/handbook/total-rewards
 - Previous experience with establishing new processes and methodologies
 - 5+ years of Education Services and program management experience
 
-
 #### Consulting
 
 To be drafted as the need for this specialty arises
@@ -290,9 +288,7 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 - You share our values, and work in accordance with those values.
 - Ability to use GitLab
 
-
 ### Senior Manager, Professional Services Operations
-
 
 #### Senior Manager, Professional Services Operations Job Grade is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
@@ -337,7 +333,6 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 
 ### Senior Global Services Partners Manager
 
-
 #### Senior Global Services Partners Manager [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Senior Global Services Partners Manager Responsibilities
@@ -362,7 +357,6 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 - Cross-Functional Collaboration:
   - Work closely with various GitLab teams, including Consulting and Education Services and Channel, to ensure cohesive strategy and execution across GitLab's training offerings.
 
-
 #### Senior Global Services Partners Manager Requirements
 
 - Bachelor’s degree or the equivalent experience with demonstrated progressive experience in channel programs.
@@ -374,8 +368,6 @@ Works with finance, sales and the PS leadership to ensure effective use and adop
 - Strong Google including experience with pivot tables, analyzing and formatting data, use of filters, and creating charts and graphs
 - Excellent communication and presentation skills
 - Must have incredible attention to detail, be self-starting, and possess strong organizational skills
-
-
 
 ## Performance Indicator
 

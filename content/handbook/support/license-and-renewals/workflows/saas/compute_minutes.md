@@ -26,7 +26,7 @@ Support ChatOps documentation</a> for more information.
 ### Process for authorising additional compute minutes for customers as an act of goodwill
 
 - For an existing customer, Support is able to issue compute minutes as an act of goodwill in the following scenarios:
-  - requests from Sales AE during procurement delays as [per the Channel Ops handbook](https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/partner-faq/#post-sale).
+  - requests from Sales AE during procurement delays as [per the Channel Ops handbook](/handbook/sales/field-operations/channel-operations/partner-faq/#post-sale).
   - customer has encountered a product bug related to compute minutes
   - customer experienced an unplanned GitLab.com downtime.
 
@@ -53,7 +53,6 @@ the [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) channel
 
 - ([Example Ticket 1](https://gitlab.zendesk.com/agent/tickets/294974)
 | [Example Ticket 2](https://gitlab.zendesk.com/agent/tickets/391109))
-
 
 ### Process for authorizing additional compute minutes for GitLab Trial customers
 
@@ -82,7 +81,6 @@ To transfer compute minutes from a user's personal namespace to a group namespac
 ## Enable compute minutes
 
 ### Manual credit card validation for community contributors
-
 
 Qualifying requirements:
 

@@ -193,7 +193,6 @@ Beyond the [base requirements](#base-pm-requirements), Senior Product Manager re
 - Uses multiple sources of data (qualitatative, quantiative) and proactibvely monitors usage data and metrics to inform product direction
 - Appropriately influence, persuade, and collaborate closely with Product Design, User Research, Product Marketing, Data Analyst team, and Engineering Counterparts to build an ambitious but realistic plan across the stage
 
-
 #### Example Behaviors
 
 The unique needs and circumstances of individual roles may vary; however, the list below outlines some examples of behaviors that may be expected at this level:
@@ -256,7 +255,6 @@ Beyond the [base requirements](#base-pm-requirements) and Senior Product Manager
 - Strong storytelling skillset and ability to translate technical requirements into user needs
 - Coach and mentor to other Product Managers or active in career development for others
 - Recognized as thought leader in the industry (e.g. published author or regular speaker at conferences)
-
 
 #### Example Behaviors
 

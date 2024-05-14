@@ -109,6 +109,7 @@ leverage the Account Sales Territory in the Circle Slack Channel to determine an
 #### Async Slack support
 
 In some cases SA support might be required in early stage or not fully qualified opportunities. Slack can be used for answering narrowlly-scoped technical questions, providing additional customer outreach materials or helping an Account Executive with a narrowly-scoped customer inquiry. These requests can be served asynchronously via Slack:
+
  - AMER: `#cs-commercial-amer-support`
  - EMEA: `#cs-commercial-emea-support`
 
@@ -338,7 +339,6 @@ Quarterly review of wins and losses to identify patterns and things we can do to
   - 00:20 - 00:35 - Review Losses
   - 00:35 - 00:50 - Review Action Items
 
-
 ### Commercial SA Peer Review
 
 Commercial SA team holds [Peer Review sessions](/handbook/solutions-architects/sa-practices/deliberate-practice/#peer-reviews) every two weeks as a key activity in elevating the quality of pre-sales efforts, fostering collaboration, promoting continuous learning, and ultimately increasing the chances of successful client engagements.
@@ -350,11 +350,11 @@ Commercial SA team holds [Peer Review sessions](/handbook/solutions-architects/s
 - Two opportunities are reviewed during the session (10 minutes each)
 - Outcomes are documented and are stored in [Commercial SA / Reviews & Retros](https://drive.google.com/drive/folders/1Ye6Ks5aHMhVFEsDXbqvglzJMI4Kb_S5s)
 
-
 ## Paid Time Off
 
 Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
 To best support our customers, consider the following:
+
 1. Communicate your time off within your circle in case of coverage.
 2. Create a [PTO coverage issue](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/commercial/announcements/-/issues/new?issuable_template=PTO) A PTO coverage issue may not always be required but here are a couple guiding examples on when to create one:
    - Customers are running an active trial and may need technical guidance.

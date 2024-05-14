@@ -78,7 +78,6 @@ To raise an issue with a specific team, please use below most commonly used chan
 - **`#talent acquisition`**: For referrals based questions, candidate alignments, general talent acquisition etc
 - **`#total-rewards`**: For general questions on [Total Rewards](/handbook/total-rewards/) including compensation, benefits, and equity
 
-
 ### Channel Categories
 
 #### Account Channels (a_)

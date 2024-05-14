@@ -291,6 +291,7 @@ While we iterate with small changes, we strive for large, ambitious results. We 
 All GitLab team members should understand our customers’ needs, issues, and value propositions. We understand how they use GitLab and what they need from a platform in order to meet their goals. Internally facing teams consider the impact of their work as it pertains indirectly to GitLab's customers.
 
 We better understand customers and their needs through:
+
 - Reviewing public facing GitLab issues from our customers and users
 - [Dogfooding](#dogfooding) our product to understand the user experience
 - Reading customer stories from Marketing and Sales
@@ -300,7 +301,6 @@ We better understand customers and their needs through:
 ##### Co-create
 
 We create together with our customers. There is an open dialogue between GitLab and our customers so that we can better identify what they need. As a result of building a solution for them, we can also bring that solution to the world.
-
 
 ##### Keep end users in sight
 
@@ -348,10 +348,9 @@ When something breaks, doesn't work well, or needs improvement, we are more like
 
 We give people agency to focus on what they think is most beneficial. If a meeting doesn't seem interesting and someone's active participation is not critical to the outcome of the meeting, they can always opt to not attend, or during a video call they can work on other things if they want. Staying in the call may still make sense even if you are working on other tasks, so other peers can ping you and get fast answers when needed. This is particularly useful in multi-purpose meetings where you may be involved for just a few minutes.
 
-
 ##### Challenger mindset
 
-Challenging the status quo can lead to remarkable results - we must never stop. A [challenger mindset](https://books.forbes.com/author-articles/whats-a-challenger-mindset-and-why-adopt-it-in-2021/) requires that we continually ask ourselves bold, difficult questions about our business the problems we solve while resisting complacency. To succeed we must innovate and delight our customers with the value of the products we build. A challenger mindset requires a relentless persuit of excellence - we must be [tenacious](https://handbook.gitlab.com/handbook/values/#tenacity). Each win for our customers builds reputational capital we can use to earn the trust of prospects in a competitive market. While competition is a feature of capitalism internally as GitLab team members we must focus our efforts inwardly on achieving our very best results for customers to win market share.
+Challenging the status quo can lead to remarkable results - we must never stop. A [challenger mindset](https://books.forbes.com/author-articles/whats-a-challenger-mindset-and-why-adopt-it-in-2021/) requires that we continually ask ourselves bold, difficult questions about our business the problems we solve while resisting complacency. To succeed we must innovate and delight our customers with the value of the products we build. A challenger mindset requires a relentless persuit of excellence - we must be [tenacious](/handbook/values/#tenacity). Each win for our customers builds reputational capital we can use to earn the trust of prospects in a competitive market. While competition is a feature of capitalism internally as GitLab team members we must focus our efforts inwardly on achieving our very best results for customers to win market share.
 
 ##### Growth mindset
 
@@ -393,7 +392,6 @@ Expression of feedback is a way for everyone to grow and learn, and is [based on
 When you want to reopen the conversation on something, show that your argument is informed by previous conversations and [assume the decision was made with the best intent](#assume-positive-intent).
 You have to achieve results on every decision while it stands, even when you are trying to have it changed.
 You should communicate with the [DRI](/handbook/people-group/directly-responsible-individuals/) who can change the decision instead of someone who can't.
-
 
 ##### Escalate to unblock
 

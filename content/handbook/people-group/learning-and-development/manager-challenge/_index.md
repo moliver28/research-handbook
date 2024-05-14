@@ -86,7 +86,6 @@ Week 1 will be focused on developing your leadership style as a manager, differe
 | Week 1 | Async | Session 2 pre-work |
 | Week 1 | 1 hr 20 minutes | Session 2: Building High Performing Teams or Team Effectiveness Tools |
 
-
 ### Week 2 - Management Fundamentals
 
 Week 2 will be focused on management fundamentals, coaching team relationships, building trust, and aligning values to inspire motivation
@@ -268,7 +267,6 @@ For the pilot Manager Challenge program, the Learning & Development team held a 
 
 {{< youtube "v_ohUbaRFFw" >}}
 
-
 ## Pilot Program
 
 In September 2020, the L&D team piloted the Manager Challenge to a group of People Leaders in People Success, Engineering, and Product. Learn more about the pilot content by [reviewing the pilot epic](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/1).
@@ -290,4 +288,3 @@ Pilot Kickoff Video:
 - [2021 May Manager Challenge](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/38)
 - [2021 January Manager Challenge](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/26)
 - [2020 September Manager Challenge Pilot](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/1)
-

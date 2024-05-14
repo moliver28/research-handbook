@@ -138,4 +138,3 @@ The review aims to:
 1. Review projects and groups updates: Review `project.json` and `group.json` for changes, especially the visibility (public/private).
 
 The Merge Request will report a test coverage, corresponding to the ratio of projects categorized. Ideally, these review Merge Requests keep the same coverage, which means the new projects are categorized before getting merged.
-
