@@ -32,7 +32,7 @@ This procedure applies to all third party providers that access, store, process 
 | Business or System Owner |  [Describe the nature of the Third Party Relationship](/handbook/finance/procurement/#step-2-submit-your-zip-request) <br> Work with the Security Risk team to facilitate the TPRM review, to include remediation activities <br>* Ensure the responsiveness of the third party as part of the security review requirements |
 | Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
-## Security Recommendations for Vendor Selection
+## Security Considerations for Vendor Selection
 
 Security is a top priority in GitLab's vendor selection process and GitLab's stakeholders are committed to partnering with vendors who prioritize the protection of sensitive data and maintain robust security measures. As such, Security Risk thoroughly evaluates each vendor's security practices, including their adherence to industry standards, compliance with relevant regulations, and track record regarding data security incidents. GitLab's aim is to establish partnerships with vendors who share our commitment to maintaining the highest standards of security, safeguarding GitLab's data, and upholding the trust of our stakeholders. Below are some examples of the types of vendors Security Risk evaluates and some recommendations to ask the vendor before making a final determination for procuring services. 
 
