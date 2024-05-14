@@ -10,7 +10,7 @@ Once a potential severity::1/priority::1 issue is made known. The appsec enginee
 ## Triage
 
 1. Triage and verify the issue as you normally would [triage a report]({{< ref "hackerone-process" >}}).
-1. Finalize the CVSS on Bug Bounty council before engaging the SIRT team. Consider using a sync call or slack threads for the discussion due to the time sensitivity.
+1. Finalize the CVSS of the security issue with team member votes on Bug Bounty council before engaging the SIRT team. Consider using a sync call or slack threads for the discussion due to the time sensitivity.
 1. To help SecOps quickly determine impact and log analysis, comment in the security issue with the summarized reproduction steps (HTTP Requests, generated log messages, images, etc).
 1. After escalating, do an investigation to try to determine if there are other immediately vulnerable components or other impacts.
 
