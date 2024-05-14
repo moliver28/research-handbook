@@ -7,7 +7,7 @@ description: "Learn about GitLab's engineering internship program."
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 
-For all things Emerging Talent please visit [this page](https://handbook.gitlab.com/handbook/hiring/emerging-talent/).
+For all things Emerging Talent please visit [this page](/handbook/hiring/emerging-talent/).
 
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i>  About

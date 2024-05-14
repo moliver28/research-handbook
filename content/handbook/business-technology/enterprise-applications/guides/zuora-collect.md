@@ -6,17 +6,12 @@ description: "The business process behind the Zuora Collect module"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
 ## Business Need
 
 The business had identified the need to optimize the [cash collection process](/handbook/finance/accounting/finance-ops/billing-ops/#cash-collections) in order to reduce the Order to Cash cycle, thereby reducing our Days Sales Outstanding (DSO), increasing cash efficiency for the business and scaling for future growth since the current collections process was partly automated with automated dunning notices remitted in a cadence of 7, 20, and 30 days past due. From there, a manual collections process would begin.
 
 The Billing team was spending an average 31.5 hours per month/per person on accounts receivable activities totaling 157.5 hours per month for the team:
+
 - Average 2.5 Hours per week on Accounts Receivable Aging.
 - Average 2.5 Hours per week on Cases.
 - Average 2 Hours per week on Zendesk.
@@ -37,6 +32,7 @@ As a first iteration, the following features have been configured in our Zuora P
 - Notes
 
 To access these features:
+
 1. Login to your Zuora account (via Okta).
 1. On the left-bar, expand the `Marketplace` section.
    - Both `Collections Window` and `Notes` features should be listed.
@@ -91,6 +87,7 @@ The Accounts tab displays the accounts in collections based on the system condit
 > Filter the accounts by: All Accounts, My Accounts or Unassigned Accounts, by Agent or by Account Status.
 
 **Edit conditions:**
+
 - Click `Edit Conditions` on the top right.
 - In the pop up, modify the number of days overdue and the total invoice amount.
    - *The balance is in the home currency.*
@@ -124,7 +121,8 @@ On this page, the user can perform the following operations:
   <iframe src="https://www.youtube.com/embed/1dvwqmOF-io" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-5. Enter comments regarding the particular account to keep other agents informed of account transactions.
+1. Enter comments regarding the particular account to keep other agents informed of account transactions.
+
 > The user can add or reply to comments, or mention a particular user in comments.<br>
 > **Comments cannot be edited or deleted by design**.
 
@@ -153,7 +151,8 @@ On this page, the user can perform the following operations:
   <iframe src="https://www.youtube.com/embed/eOaj4vJeqF4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-4. Enter comments regarding the particular invoice to keep other agents informed of invoice transactions.
+1. Enter comments regarding the particular invoice to keep other agents informed of invoice transactions.
+
 > The user can add or reply to comments, or mention a particular user in comments.
 > **Comments cannot be edited or deleted by design**.
 
@@ -168,6 +167,7 @@ Collection tasks are managed in the `Tasks` tab from the Collections Window. It 
 > Collection tasks of this type (referred to as follow-up tasks) are not tied to workflows.
 
 To create a follow-up task:
+
 1. Open the `Tasks` tab from the Collections Window.
 1. Click `TASKS BETA` in the top-right corner of the page.
 1. Click on the plus sign icon to create a new task.
@@ -245,7 +245,6 @@ To export notes in the Notes feature:
 >
 > For a video tutorial, click [here](https://youtu.be/1dvwqmOF-io?t=11).
 
-
 1. Open the Collections Window and click on the `Accounts` tab.
 1. Search for the account that needs to be assigned and open it (by clicking on the account name).
    - The collections agent for the account is displayed on the top left of the account details page.<br>
@@ -258,7 +257,6 @@ To export notes in the Notes feature:
 >
 > For a video tutorial, click [here](https://youtu.be/1dvwqmOF-io?t=44).
 
-
 1. Open the Collections Window and click on the `Accounts` tab.
 1. Search for the account that you are looking for and open it (by clicking on the account name).
 1. The `View Contact Details`button is on the top right corner of the page.
@@ -266,7 +264,6 @@ To export notes in the Notes feature:
 ##### How to update the collection status of a particular account?
 >
 > For a video tutorial, click [here](https://youtu.be/1dvwqmOF-io?t=57).
-
 
 1. Open the Collections Window and click on the `Accounts` tab.
 1. Search for the account that you are looking for and open it (by clicking on the account name).
@@ -276,7 +273,6 @@ To export notes in the Notes feature:
 ##### How to search for a specific account?
 >
 > For a video tutorial, click [here](https://youtu.be/SUczIKlHs8g?t=46).
-
 
 1. Open the Collections Window and click on the `Accounts` tab.
 1. Find the magnifying glass on the top right and type the account name.
@@ -288,13 +284,11 @@ There are two ways to view invoice details:
 
 > For a video tutorial, click [here](https://youtu.be/1dvwqmOF-io?t=77).
 
-
 1. Open the Collections Window and click on the `Accounts` tab.
 1. Search for the account that you are looking for and open it (by clicking on the account name).
 1. In the `Invoices` tab, click on the action icon (the 3 dots on the left) and select `Show` to view the details of the invoice in the Collections window.
 
 > For a video tutorial, click [here](https://youtu.be/eOaj4vJeqF4?t=20).
-
 
 1. Open the Collections Window and click on the `Invoices` tab.
 1. Search for the invoice that you are looking for.
@@ -306,13 +300,11 @@ There are two ways to view invoices:
 
 > For a video tutorial, click [here](https://youtu.be/1dvwqmOF-io?t=95).
 
-
 1. Open the Collections Window and click on the `Accounts` tab.
 1. Search for the account that you are looking for and open it (by clicking on the account name).
 1. In the `Invoices` tab, click on the action icon (the 3 dots on the left) and select `Show in Billing` to open the Zuora Billing UI in a new tab.
 
 > For a video tutorial, click [here](https://youtu.be/eOaj4vJeqF4?t=20).
-
 
 1. Open the Collections Window and click on the `Invoices` tab.
 1. Search for the invoice that you are looking for.
@@ -321,7 +313,6 @@ There are two ways to view invoices:
 ##### How to add comments to an account?
 >
 > For a video tutorial, click [here](https://youtu.be/--ljeeigSjg).
-
 
 1. Open the Collections Window and click on the `Accounts` tab.
 1. Search for the account that you are looking for and open it (by clicking on the account name).
@@ -334,7 +325,6 @@ There are two ways to view invoices:
 ##### How to reply to comments on an account?
 >
 > For a video tutorial, click [here](https://youtu.be/--ljeeigSjg?t=49).
-
 
 1. Open the Collections Window and click on the `Accounts` tab.
 1. Search for the account that you are looking for and open it (by clicking on the account name).
@@ -349,7 +339,6 @@ There are two ways to view invoices:
 >
 > For a video tutorial, click [here](https://youtu.be/0YjRbhRur60).
 
-
 1. Open the Collections Window and click on the `Invoice` tab.
 1. Search for the invoice that you are looking for and open it (by clicking on the invoice number).
 1. Scroll down to the `Invoice Notes` section and click on the plus icon on the right.
@@ -360,7 +349,6 @@ There are two ways to view invoices:
 ##### How to reply to comments on an invoice?
 >
 > For a video tutorial, click [here](https://youtu.be/0YjRbhRur60?t=36).
-
 
 1. Open the Collections Window and click on the `Invoice` tab.
 1. Search for the invoice that you are looking for and open it (by clicking on the invoice number).
@@ -382,7 +370,6 @@ There are two ways to view invoices:
 ##### How to create a follow-up task?
 >
 > For a video tutorial, click [here](https://youtu.be/zoxbseZeUqs?t=13).
-
 
 1. Open the `Tasks` tab from the Collections Window.
 1. Click `TASKS BETA` in the top-right corner of the page.
@@ -408,7 +395,6 @@ There are two ways to view invoices:
 >
 > For a video tutorial, click [here](https://youtu.be/eKKLCe_CYFE).
 
-
 1. Open the `Users` tab from the Notes feature.
 1. Search for the user (using the magnifying glass on the right)).
 1. Click on the action icon (the 3 dots on the left) and select `Edit`.
@@ -422,7 +408,6 @@ There are two ways to view invoices:
 >
 > For a video tutorial, click [here](https://youtu.be/wdFSNcQshes).
 
-
 1. Open the `Users` tab from the Notes feature.
 1. Search for the user (using the magnifying glass on the right)).
 1. Click on the action icon (the 3 dots on the left) and select `Edit`.
@@ -433,7 +418,6 @@ There are two ways to view invoices:
 >
 > For a video tutorial, click [here](https://youtu.be/32do6ZkBLbY).
 
-
 1. Open the `Users` tab from the Notes feature.
 1. Search for the user (using the magnifying glass on the right)).
 1. Click on the action icon (the 3 dots on the left) and select `Edit`.
@@ -443,7 +427,6 @@ There are two ways to view invoices:
 ##### How to export notes?
 >
 > For a video tutorial, click [here](https://youtu.be/KPK5sHPRQw4).
-
 
 1. Open the `Export` tab from the Notes feature.
 1. Select a data source to export notes from.

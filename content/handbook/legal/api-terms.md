@@ -99,7 +99,6 @@ The GitLab APIs are subject to US global trade control laws and regulations, inc
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.2. The terms of these API Terms that by their nature are intended to continue indefinitely will continue to apply.
 
-
 ## 8. Governing Law
 
 These API Terms shall be construed and enforced in accordance with the laws of California, U.S.A., and you and GitLab submit to the jurisdiction of the State and Federal courts in San Francisco, California, without giving effect to any conflicts of laws principles.

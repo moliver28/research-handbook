@@ -7,7 +7,6 @@ description: "A strategic group of impactful team members whose purpose is to dr
 - Smaller tasks that influence the bigger goals such as OKRs or company yearlies
 - Measurable and deliverable on a focused issue
 
-
 ### Goals
 
 ### How/Goal

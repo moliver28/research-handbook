@@ -280,6 +280,7 @@ These other types of OOO categories do not count as PTO. These categories are an
 ### Unable to access Time Off by Deel
 
 If you receive an error message **"Uh-oh! It doesn't look like you have access to Time Off by Deel"** please attempt the following steps.
+
 1. Check to see if your email address (GitLab) in your slack profile matches your email address in BambooHR -  it is important to note in this instance that BambooHR is case sensitive and that the addresses must match exactly.
 1. If these two are not the same exact email then the application will not recognize you as a team member.
     - Update your Slack email - OR -

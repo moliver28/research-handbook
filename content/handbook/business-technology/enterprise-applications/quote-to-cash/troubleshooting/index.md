@@ -424,7 +424,7 @@ E.g. Customer in UK purchased web direct, at renewal (if sales assisted) the quo
 This is to make sure we ask for Tax ID or VAT ID which prevents a customer from paying tax or VAT charges.
 
 The following image reflects how inside the quote object you can change the entity to US.
-<img src="/handbook/business-technology/enterprise-applications/applications/troubleshooting/entity2.png" class="full-width">
+<img src="/handbook/business-technology/enterprise-applications/applications/troubleshooting/entity2.png" class="full-width" alt="">
 
 ## Checklists for quotes
 

@@ -213,9 +213,9 @@ When creating a new project, all settings should be left to the default options,
 
    Using a single, centralized issue tracker over per-project issue trackers has the following advantages:
 
-      - It improves the visibility of issues and aligns with our value of [transparency](https://handbook.gitlab.com/handbook/values/#transparency).
+      - It improves the visibility of issues and aligns with our value of [transparency](/handbook/values/#transparency).
 
-        For example, it's very easy for community members to [filter the issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date_desc&state=opened&label_name%5B%5D=quick%20win&first_page_size=100) in the `groups/gitlab-org` tracker to discover [GitLab issues seeking wider community contributions](https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions).
+        For example, it's very easy for community members to [filter the issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date_desc&state=opened&label_name%5B%5D=quick%20win&first_page_size=100) in the `groups/gitlab-org` tracker to discover [GitLab issues seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions).
 
       - It leverages existing tools and infrastructure, such as having `triage-ops` and other bots executed against issues, without any additional configuration.
 
@@ -334,7 +334,7 @@ When creating a new project, all settings should be left to the default options,
          /label ~"devops::secure" ~"Category:" ~"group::" ~"backend"
          ```
 
-When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](https://handbook.gitlab.com/handbook/security/gitlab_projects_baseline_requirements) for more details.
+When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements) for more details.
 
 ## Performance Indicators
 

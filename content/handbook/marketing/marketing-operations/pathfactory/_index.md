@@ -625,7 +625,7 @@ External forms in PathFactory will apply a Bizible touchpoints using JavaScript.
 
 `MOps: Form Submit-Bizible`: Applies a Bizible touchpoint upon form submit within a PathFactory track
 
-Learn more about [Bizible attribution with PathFactory](https://handbook.gitlab.com/handbook/marketing/marketing-operations/bizible/#amm-attribution-with-pathfactory)
+Learn more about [Bizible attribution with PathFactory](/handbook/marketing/marketing-operations/bizible/#amm-attribution-with-pathfactory)
 
 ## Custom PathFactory Fields
 

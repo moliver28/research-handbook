@@ -209,7 +209,6 @@ Once sign up has closed for the Sponsees, matching can begin. You should utilize
 - The sponsor should not be in the direct hierarchy of the sponsor
 - Utilize the sign up form to match similar goals and experiences for the sponsee sponsor pairing
 
-
 ### Begin the program
 
 #### Sponsorship Framework

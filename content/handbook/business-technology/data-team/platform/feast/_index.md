@@ -4,10 +4,6 @@ title: "Using Feast"
 description: "How to use Feast to train ML models"
 ---
 
----
-
-# Feast
-
 [Feast](https://docs.feast.dev/) is an open source feature store aimed to improve the process of obtaining, documenting and deploying features for data science (DS) models. In the DS Gitlab team we are currently focused on using the Offline Store (used for batch non-realtime predictions). The repository for Feast can be found [HERE](https://gitlab.com/gitlab-data/data-science-projects/feast-poc)
 
 The most important concepts to understand the Feast Offline Store are:
@@ -64,7 +60,7 @@ If you only want to interact with the Feature Store as described in the first op
 
 1. Set up the environment variables in your `~/.zshrc` file. These are the variables that are referenced in the `[credential_yaml_files]`:
 
-    ```
+    ```console
     # Feast Development variables
     export FEAST_DEV_SNOWFLAKE_ACCOUNT="GITLAB"
     export FEAST_DEV_SNOWFLAKE_USER="{USER}@gitlab.com"
@@ -86,7 +82,7 @@ If you only want to interact with the Feature Store as described in the first op
 5. Clone the repository into the `~/repos` directory and cd into it.
 6. Finally, run the following commands:
 
-    ```
+    ```console
     mkdir .venv
     pipenv install
     make run-feast-local
@@ -94,7 +90,7 @@ If you only want to interact with the Feature Store as described in the first op
 
     These commands set up the python virtual environment. **If you would also like to run the sample workbook make sure to also install the dev dependencies:**
 
-    ```
+    ```console
     pipenv install --dev
     ```
 
@@ -111,7 +107,7 @@ Currently we have the UI running in a VM that can be accessed by requesting perm
 
 ## Project Structure
 
-```
+```text
 ├── feature_repo
 │   └── product                             <- Feature definitions for product data.
 |   |   └── queries                         <- Helper SQL queries to be used in the product data sources definitions.
@@ -168,7 +164,6 @@ Workflow summary:
 Sample jupyter notebook can be found [HERE](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/sample_workflow/build_model.ipynb?ref_type=heads).
 
 Also, make sure to check out the current implementation of PtC, specifically [create_prod_models.ipynb](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-contract-and-churn/-/blob/main/dev/v04_feast/create_prod_models.ipynb?ref_type=heads) and [scoring_code.ipynb](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-contract-and-churn/-/blob/main/dev/v04_feast/prod_staging/scoring_code.ipynb?ref_type=heads), as it is a model fully created and moved to production CI using Feast.
-
 
 ## From Data Sources to serving features
 

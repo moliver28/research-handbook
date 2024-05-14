@@ -297,7 +297,6 @@ Chances are that if you work at GitLab, you have great friends and peers who wou
 
 We encourage and support [diversity]({{< ref "values#diversity-inclusion" >}}) on our team and in our hiring practices and encourage team members to consider whether their are potential candidates in their networks who identify as members of underrepresented groups in tech.
 
-
 Please note if the team member has a hire date effective **before 2023-11-20**, then the [previous](/handbook/hiring/referral-operations/#adding-a-referral-to-workday-people-connect-team) mentioned referral bonus amounts apply.
 
 ### How to make a referral

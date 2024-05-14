@@ -19,7 +19,6 @@ description: Home Page for Support's Ginkgo Group
    - **EMEA** -- John, Erika
    - **APAC** -- no alignment
 
-
 ## Ginkgo workflows and processes
 
 ### Daily status updates

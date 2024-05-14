@@ -37,7 +37,6 @@ The timeline for each quarter is as follows. A detailed calendar with DRIs and p
 - CFO will schedule blocks of time over the next several weeks to allow for at least 80 additional buy side callbacks.  After the 15th day of the third month of the quarter, GitLab will not be conducting individual meetings with investors until the next public earnings release.
 - Each callback will have an internal document that captures the questions and the prior dialogue with the investor
 
-
 ### Two weeks after quarter end
 
 1. Financials and metrics close
@@ -47,7 +46,6 @@ The timeline for each quarter is as follows. A detailed calendar with DRIs and p
 1. Once this press release is published, IR will contact sell side research analysts to schedule callbacks following the conclusion of the earnings webcast
 1. After the sell side callbacks are scheduled, IR will contact the largest institutional shareholders to schedule buy side callbacks.  The objective will be to speak with as many of the top 20 shareholders as possible on the day immediately following the earnings release
 1. IR will continue contacting the remaining top 50 shareholders to offer callback opportunities with the CFO.  Between the CFO and IR, the objective will be to conduct at least 100 meetings with current and prospective institutional shareholders each quarter
-
 
 ### Three weeks after quarter end
 

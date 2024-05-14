@@ -40,7 +40,6 @@ The Customer Success Manager(CSM) role at GitLab is expected to serve and operat
 | [Manager, Customer Success Managers](#manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Customer Success Managers](#senior-manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
-
 ### Associate Customer Success Manager
 
 The Associate Customer Success Manager (CSM) reports to the [Manager/Senior Manager, CSM](/job-families/sales/customer-success-management/#manager-of-customer-success-managers)
@@ -230,7 +229,6 @@ The Senior Manager, CSM is a job grade [level 9](/handbook/total-rewards/compens
 - Demonstrated progressive experience leading customer success managers, account management or sales teams with team sizes of 5+ people
 - Proven experience leading teams, driving software adoption, and building and scaling customer success management practices
 
-
 ## Specialties
 
 ### Public Sector Customer Success Manager (CSM)
@@ -242,6 +240,7 @@ The Senior Manager, CSM is a job grade [level 9](/handbook/total-rewards/compens
 #### Public Sector CSM Requirements
 
 In addition to the corresponding Customer Success Manager level requirements:
+
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
 

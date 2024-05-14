@@ -266,8 +266,6 @@ As part of this application, candidates can expect the following stages with foc
     - Transparency
     - Diversity inclusion and belonging
 
-
-
 ### Compensation
 
 Compensation information for this role can be found on our Sales Commissions handbook page. On this page, we have an overview of the standard OTE base and variable split for each Sales job family. Also listed on the page, is our quota ramp information by segment as well as our seasonality assumptions.

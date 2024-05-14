@@ -181,6 +181,7 @@ Feel welcome to study [GitLab's values]({{< ref "values" >}}), and learn more on
 ## What are some tips for working remote-first?
 
 We've gathered our top [5 tips for successful remote working]({{< ref "remote-work-starter-guide" >}}):
+
 1. Create a dedicated workspace (focus)
 1. Separate work from life (avoid burnout)
 1. Keep engaging with people (avoid loneliness)

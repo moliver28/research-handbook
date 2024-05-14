@@ -32,7 +32,6 @@ description: "This page is an overview of the search team alignment and the tale
 | Design/UX  | Riley Smith | Lerato Thipe  |
 | Emerging Talent  | Justin Smith | Michelle Jubrey  |
 
-
 For urgent requests of the Candidate Experience Specialist team, we encourage you to contact them by also tagging @CES in Slack messages and CC'ing CES@gitlab.com on emails.
 
 ## Talent Acquisition Leader Alignment

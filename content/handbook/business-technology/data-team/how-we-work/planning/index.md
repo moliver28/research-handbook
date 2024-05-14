@@ -31,6 +31,7 @@ LT = Leadership Team (`@amiebright`, `@iweeks`, `@dvanrooijen2`, `@nmcavinue`) <
 DT = Data team (Product Fusion Team, GTM Fusion Team, BI Platform Team, or Data Platform Team)
 
 The overall ambition is to **structure** why, when and what we are doing.
+
 - OKRs will lead to **why**
 - Work breakdown will lead to **what**
 - Iteration planning will lead to **when**
@@ -87,6 +88,7 @@ The timeline for Iteration planning is as follows:
 Data Team OKRs aspire to align with divisional and company OKRs as well as GitLab Yearlies. The Data Team also creates OKRs for [Data Platform](/handbook/business-technology/data-team/platform/) infrastructure development and these OKRs may not always map to immediate term Business Partner OKRs. Overall, OKRs constitute 60-75% of the Data Team's Quarterly Capacity, with Production Operations as the only established higher priority.
 
 Data Team OKRs are managed with [GitLab Plan](https://about.gitlab.com/direction/plan/) using a combination of Objectives, Key Results, Epics, and Issues using a standard naming scheme and structure and this approach:
+
 - enables async contributions and planning
 - clearly defines Data Team priorities
 - helps to keep Epic and Issue description content to a manageable level
@@ -157,11 +159,13 @@ We use a T-Shirt sizing approach for quickly sizing the work required to deliver
 ## Work Breakdowns
 
 Work breakdowns are always developed as a part of the Quarterly OKR Planning Drumbeat, but can also be leveraged to help scope and plan new initiatives, infrastructure projects, and similar multi-person or multi-week projects. The outcome of the work breakdown is a detailed description of the work to be performed, deliverables and responsibilities, and a high-level timeline.
+
 - As a part of the Quarterly OKR Planning Drumbeat, work breakdowns are embedded in the KR Description.
 - As a part of a stand-alone or ad-hoc initiative, work breakdowns are embedded in the appropriate Epic Description.
 - As an example of a Work Breakdown, see this [FY22-Q4 Data Platform Work Breakdown](https://gitlab.com/groups/gitlab-data/-/epics/372).
 
 Work Breakdowns consider the following inputs:
+
 1. Defined upcoming OKRs
 2. OKR Reviews
 3. New / forward looking insights

@@ -12,7 +12,7 @@ title: "Publish a video on YouTube"
    Contact the Brand team in the `#brand_video` Slack channel for any questions.
 
    WARNING:
-   You should never publish [**SAFE**](https://handbook.gitlab.com/handbook/legal/safe-framework/) data to any of these channels, and if you think it may be something confidential consult legal.
+   You should never publish [**SAFE**](/handbook/legal/safe-framework/) data to any of these channels, and if you think it may be something confidential consult legal.
 
 1. Login to the GitLab YouTube account where you would like to post a video.
    You should already have permission to do that from your GitLab login.

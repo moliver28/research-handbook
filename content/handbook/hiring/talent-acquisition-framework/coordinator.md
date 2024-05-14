@@ -35,6 +35,7 @@ The CES team utilizes [GitLab Service Desk](https://about.gitlab.com/stages-devo
 ### Screening
 
 No action is needed by the CES team on this step. For additional information:
+
 - Once a candidate is moved into the Screening stage, the candidate is automatically sent the GSIS.
 - When scheduling a candidate for a screening call with a recruiter, the Calendly link is to be used. We will no longer use the "Request Availability" option for screening calls as this creates unnecessary manual work
    - If the candidate is sourced, the sourcer should send the Calendly
@@ -85,14 +86,18 @@ To schedule a technical interview, CES should follow the process outlined below:
 The process below outlines the steps to be followed by the CES team in scheduling executive interviews while partnering with the Executive Business Administrator(EBA) team and executive recruiters. The Candidate Experience team and EBA team will adhere to a 24 hour working day SLA response time for scheduling interviews. Interview requests coming from Executive recruiters are to be scheduled in the executive calendar only.
 
 1. The CES desk receives the scheduling ticket from the recruiter.
+
 - CES refers to the EBA cheat sheet doc for executive interviewer preferences and contacts the respective EBA with interview details in the #EBA-team-interview-requests channel.
+
 1. CES adds the “Pending EBA label” to the ticket and the link to the EBA slack conversation in the scheduling ticket while awaiting response.
 
  **Note: Follow up SLA is 24 hours to check for time conflicts delaying scheduling. If the times do not match, CES may contact the candidate
    requesting more availability or suggest some times that works for the interviewer.**
+
 1. Once the EBA confirms the best time and date for the interview. CES sends the interview confirmation email through Guide to the candidate.
 
   **The email template used for the first time interview confirmation  - First Time Single Executive interview. Please use the "Updated Interview" or "Single Interview" email templates in Guide once the candidate progresses to the next level in the interview plan.**
+
 1. CES will schedule the interview through Prelude & send the calendar invite to the interviewer. Make sure the invite is always marked private.
 1. CES notifies EBA of scheduled interviews in the original slack message with a check mark emoji and close the ticket.
 
@@ -273,6 +278,7 @@ Our hiring process includes an **optional** step where candidates can request to
 All current TMRGs have agreed to take part in this process. You can find the group list [here](/handbook/company/culture/inclusion/erg-guide/).
 
 When a candidate requests to meet with a TMRG team member via the Reference Check Form, the Candidate Experience Specialist will do the following:
+
 1. Reach out to TMRG volunteers for this call in the dedicated #candidate_tmrg-call slack channel.
     - Select Shortcuts button - looks like a plus sign with lightening bolt
     - Fill in appropriate details
@@ -298,6 +304,7 @@ The [Candidate Experience Specialists](/job-families/people-group/candidate-expe
 Recruiters should make themselves familiar with the basic knowledge of the contract processes that can be found on the [CES Contract Processes]({{< ref "ces-contract-processes#framework-coord" >}}) page and the [Contracts, Probation Periods & PIAA]({{< ref "contracts-probation-periods#employment-agreements" >}}) page, as well as the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) page in the internal handbook.
 
 1. Check all aspects of the offer:
+
   - Do we have the new team members' legal name in their profile?
     - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening]({{< ref "people-policies#background-checks" >}}) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
   - Is the new team members' address listed on the details page?
@@ -306,6 +313,7 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
   - Is the start date one that is not a "no start date" and provides an adequate amount of time for People Connect and IT to have sufficient notice? Ideally, we are providing 10 days notice, but the teams can work with less if we let them know.
   - Has the signatory been determined by the Candidate Experience Specialist and updated?
   - Has the Entity been selected based on the New Hire's location? If the job title has Federal or PubSec included, please check with the Recruiter if they set up the contract as Inc rather than Federal LLC to confirm.
+
 1. [Generate the contract within Greenhouse]({{< ref "ces-contract-processes" >}}) using a template based on the details found in the offer package.
 1. Contact the recruiter or new team member to gather any missing pieces of information (note: the address can be found on the background screening information page).
 1. If the contract was created outside of Greenhouse, ensure that the contract has been reviewed and approved by a member of the Legal team.
@@ -317,7 +325,9 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
 1. The CES will mark the candidate as "Hired" in Greenhouse: *when prompted, select the option to close the req.* Please note, the new hire's Workday profile will be generated automatically.
 1. For internal hires ONLY - the CES will send the automated email template labeled "Internal Hiring Survey". You can also cancel the survey that will appear automatically when the candidate is marked as hired.
 1. The Candidate Experience Specialist will email the new team member the Welcome Email from Greenhouse with a cc to IT Ops, the Hiring Manager and the Recruiter.  For new team members in USA, use 'GitLab Welcome - US only' template.  For team members located outside the US, use 'GitLab Welcome - non US' template
+
   - Instructions on the [Notebook Ordering Process](/handbook/business-technology/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
+
 1. Should the start date change after the welcome email is sent please see the required steps [here]({{< ref "ces-contract-processes#how-to-update-a-start-date-after-the-contract-is-signed" >}}).
 1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Connect Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
 

@@ -109,7 +109,6 @@ The Staff Security Engineer role is a progression of the [Senior Security Engine
 - Possesses expert-level knowledge in their specialty field and the security technology stack
 - Demonstrates strong technical leadership, acknowledged by cross-functional peers and stakeholders
 
-
 #### Job Grade
 
 The Staff Security Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
@@ -148,7 +147,6 @@ The Principal Security Engineer is a [grade 9](/handbook/total-rewards/compensat
 
 The Distinguished Security Engineer role is a progression of the [Principal Security Engineer](#principal-security-engineer) role and typically reports to Director/Senior Director/VP.
 
-
 #### Responsibilities
 
 - Collaborate as a trusted advisor to Security Senior Leadership, providing visionary technical leadership that shapes the organization's long-term security strategic direction
@@ -160,7 +158,6 @@ The Distinguished Security Engineer role is a progression of the [Principal Secu
 - Identify and mitigate emerging threats before they impact the organization, designing and deploying advanced countermeasures
 - Shape the company's security strategy, influencing its direction and ensuring it remains at the forefront of industry best practices
 - Develop solutions addressing longer term strategic goals and objectives that have deep and broad impact both internally and externally
-
 
 #### Requirements
 
@@ -174,7 +171,6 @@ The Distinguished Security Engineer role is a progression of the [Principal Secu
 - Renowned for guiding, mentoring, and shaping not only domain experts but also the future generation of security leaders
 - Display exceptional adaptability when requirements, direction, or circumstances change
 - Exhibit exceptional conflict management skills to navigate and resolve complex and critical conflicts with far-reaching organizational impact
-
 
 #### Job Grade
 
@@ -292,7 +288,6 @@ Product Security Engineering Team Requirements
 - Strong development or scripting experience and skills, preferably significant professional experience with Ruby on Rails and/or Golang
 - Excellent understanding of application security issues and how to fix application security vulnerabilities
 - Track record of delivering results through the entire software development lifecycle
-
 
 ### SIRT - Security Incident Response Team
 

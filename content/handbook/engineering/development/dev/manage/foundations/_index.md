@@ -64,7 +64,7 @@ We use a Fibonacci scale and in terms of complexity, we use [this table](https:/
 
 ## Fifth week of focus
 
-With our [release schedule](https://handbook.gitlab.com/handbook/engineering/workflow/#product-development-timeline) our milestones are either four or five weeks long.
+With our [release schedule](/handbook/engineering/workflow/#product-development-timeline) our milestones are either four or five weeks long.
 To make planning more predictable and encourage experimentation, we treat the fifth week of any longer milestone as a week of focus.
 During this week, our engineers are encouraged to work on a project of their own choosing.
 It could be starting a proof-of-concept, learning a new skill, burning down neglected issues, writing a blog post, or something else.

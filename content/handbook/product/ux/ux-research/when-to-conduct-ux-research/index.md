@@ -71,7 +71,7 @@ When considering the level of confidence you may have on a solution or any found
 Some questions to ask yourself to help gauge your level of confidence:
 
 - Can you demonstrate why you have a high level of confidence? (ex: This could be the result of a Solution Validation study, looking at past related research, etc. Mainly, you'll want to identify some concrete justification vs. a gut feeling. Referring to competitor solutions as a justification can be tempting, yet risky, as it's unclear to what extent competitors conducted research themselves to inform their solution.)
-- Does your design follow the design [guidelines](https://design.gitlab.com/) and [tenets](https://handbook.gitlab.com/handbook/product/ux/product-designer/#product-design-process)? Have you reviewed the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)?
+- Does your design follow the design [guidelines](https://design.gitlab.com/) and [tenets](/handbook/product/ux/product-designer/#product-design-process)? Have you reviewed the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)?
 - Have you conducted a [UX Scorecard](/handbook/product/ux/ux-scorecards/)? If so, what was the outcome and what was done as a result of it?
 - Why do you think your design won't result in a negative user experience?
 
