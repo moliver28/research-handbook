@@ -85,6 +85,30 @@ In other words, Auto DevOps is an alternative to writing and using your own `.gi
 
 1. Click on the **Commit changes** button.
 
+After you commit these changes, a pipeline will run, and the test stage will fail. This is because the test cases no longer match the contents of the index file. To ensure that the tests in our pipeline run successfully, we will also need to update our tests to match the new index file. 
+
+1. In the list of repository files, click the `test` directory and then the `test.js` file.
+
+1. Click **Edit > Edit single file** and modify the line `.expect(/Welcome to Express/, done)` to `.expect(/GitLab welcomes you to Express/, done)`. After completing the edits, your code will look like this:
+
+    ```js
+    const request = require('supertest');
+    const app = require('../app');
+
+    describe('App', function() {
+      it('has the default page', function(done) {
+        request(app)
+        .get('/')
+        .expect(/GitLab welcomes you to Express/, done);
+      });
+    });
+    ```
+1. For **Commit message**, type `Update welcome message test`
+
+1. Leave **Target branch** set to `new-feature`
+
+1. Click on the **Commit changes** button.
+
 1. Once the change have been committed, click on the  **Create merge request** button.
 
 1. Click the **Mark as draft** checkbox to set the merge request to draft.
