@@ -32,7 +32,7 @@ behave equally "GitLabwide". For **GitLab.com**, **GitLab CE** and **GitLab EE**
 [CommonMarker]. Here you can find the [markdown style guide][gitlab-markdown] for them.
 
 This guide has been made to make it easier for everyone to use kramdown features and save a lot of time writing content for
-[about.gitlab.com], including handbook pages, website pages, blog posts and everything else within the project [www-GitLab-com].
+[about.gitlab.com], including handbook pages, website pages, blog posts and everything else within the project [www-gitlab-com].
 
 There are different possible syntaxes for most of the markups described below, but this guide is to be considered the
 standard for [about.gitlab.com].
