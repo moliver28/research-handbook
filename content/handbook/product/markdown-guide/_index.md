@@ -37,8 +37,9 @@ This guide has been made to make it easier for everyone to use kramdown features
 There are different possible syntaxes for most of the markups described below, but this guide is to be considered the
 standard for [about.gitlab.com].
 
-**Note:** this document is maintained by the [Technical Writing](../) Team.
-{:.note}
+{{% note %}}
+This document is maintained by the [Technical Writing](../) Team.
+{{% /note %}}
 
 ### Blog
 
@@ -56,34 +57,19 @@ For our [Blog], everything in this guide can be applied. Read through the [Blog 
 #### Heading h4
 ```
 
-
-
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 ## Heading h2
-
-{:.no_toc style="margin-top:0"}
 
 ### Heading h3
 
-
-
 #### Heading h4
-
-
-</div>
-</div>
+{{% /panel %}}
 
 Notes:
 
 - We don't use `h1` headings, as they already are displayed on every page as its title, and we should not apply more than one `h1` per page.
-  > *When you use a top level heading, or an <h1>, you’re setting up a semantic relationship between that heading and the remainder of the content on a page, describing what it is about. If you then use a second <h1> on the same page, you’re creating some potential confusion, because someone, or a search engine might see that as the ending of the semantic relationship between the content after the first <h1> and the start of this new <h1>.* [SEO Guide]
-- Always start with `h2` (`##`), and respect the order h2 &rarr; h3 &rarr; h4. Never skip the hierarchy level, such as h2 &rarr; h4.
+  > *When you use a top level heading, or an `<h1>`, you’re setting up a semantic relationship between that heading and the remainder of the content on a page, describing what it is about. If you then use a second `<h1>` on the same page, you’re creating some potential confusion, because someone, or a search engine might see that as the ending of the semantic relationship between the content after the first `<h1>` and the start of this new `<h1>`.* [SEO Guide]
+- Always start with `h2` (`##`), and respect the order `h2` &rarr; `h3` &rarr; `h4`. Never skip the hierarchy level, such as `h2` &rarr; `h4`.
   > *The six heading elements, H1 through H6, denote section headings. Although the order and occurrence of headings is not constrained by the HTML DTD, documents **should not skip levels** (for example, from H1 to H3), as converting such documents to other representations is often problematic.* [W3C]
 - Always leave a blank space between the hash `#` and the text next to it, otherwise it won't render properly.
 - For keeping the text clear and the markdown consistent, [jump a line](#jump-a-line) between any heading and its subsequent paragraph.
@@ -113,20 +99,12 @@ This won't be another paragraph, it will join the line above it.
 This will be another paragraph, as it has a blank line above it.
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 This text is a paragraph.
 This won't be another paragraph, it will join the line above it.
 
 This will be another paragraph, as it has a blank line above it.
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Additional breaks
 
@@ -141,21 +119,13 @@ Text A
 Text B
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 Text A
 
 <br>
 
 Text B
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Horizontal lines
 
@@ -170,21 +140,13 @@ Text
 Text
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 Text
 
 ----
 
 Text
-
-</div>
-</div>
+{{% /panel %}}
 
 ----
 
@@ -199,20 +161,11 @@ This is **bold** and this is _italic_.
 This is ***bold and italic***.
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 This is **bold** and this is *italic*.
 
 This is ***bold and italic***.
-
-</div>
-</div>
+{{% /panel %}}
 
 Markdown doesn't natively support underlined text. If necessary you can hardcode it with the
 HTML tag `ins` (`<ins>underlined text</ins>`), however, it is inadvisable to do so.
@@ -272,13 +225,7 @@ Place the identifiers at the end of the paragraph (or the section), arranging th
 
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 [Text to display][identifier] will display a link.
 
 [Another text][another-identifier] will do the same. Hover the mouse over it to see the title.
@@ -294,14 +241,11 @@ Place the identifiers at the end of the paragraph (or the section), arranging th
 [another-identifier]: https://example.com "This example has a title"
 [identifier]: http://example1.com
 [this link]: http://example2.com
+{{% /panel %}}
 
-</div>
-</div>
-
-Note:
-
-- {: #note-identifiers} Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
-
+{{% note %}}
+Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
+{{% /note %}}
 
 ----
 
@@ -322,8 +266,9 @@ Tip: don't leave blank lines **between the items**, unless you have a reason to 
 
 The [Writing Style Guide](/handbook/communication/#writing-style-guidelines) recommends using [ordered lists](#ordered-lists) when you have multiple items, because `Numbered lists are easier to reference during a discussion over bulleted lists`.
 
-**Note:** This guidance does not apply to product documentation.
-{: .note}
+{{% note %}}
+This guidance does not apply to product documentation.
+{{% /note %}}
 
 See the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/#lists) for other helpful tips.
 
@@ -341,13 +286,7 @@ Paragraph:
 2. Item two
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-
-<div class="panel-body">
+{{% panel header="**Output**" header-bg="info" %}}
 Paragraph:
 
 1. Item one
@@ -355,9 +294,7 @@ Paragraph:
    2. Sub item two
    3. Sub item three
 2. Item two
-
-</div>
-</div>
+{{% /panel %}}
 
 To be practical and avoid errors on the numbers, use "1" for all the items. The markdown engine will output them
 in the correct order.
@@ -372,13 +309,7 @@ Paragraph:
 1. Item three
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-
-<div class="panel-body">
+{{% panel header="**Output**" header-bg="info" %}}
 Paragraph:
 
 1. Item one
@@ -386,9 +317,7 @@ Paragraph:
    2. Sub item two
 1. Item two
 1. Item three
-
-</div>
-</div>
+{{% /panel %}}
 
 
 ### Unordered lists
@@ -406,13 +335,7 @@ Paragraph:
 - Item 4
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-
-<div class="panel-body">
+{{% panel header="**Output**" header-bg="info" %}}
 Paragraph:
 
 - Item 1
@@ -421,9 +344,7 @@ Paragraph:
   - Sub item 1
   - Sub item 2
 - Item 4
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Split lists
 
@@ -444,14 +365,7 @@ markup `^` to indicate the end of a list and the beginning of the next:
 - list three - item _ii_
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 - list one - item 1
 - list one - item 2
   - sub item 1
@@ -463,9 +377,7 @@ markup `^` to indicate the end of a list and the beginning of the next:
 ^
 - list three - item *i*
 - list three - item *ii*
-
-</div>
-</div>
+{{% /panel %}}
 
 ----
 
@@ -497,29 +409,20 @@ For clickable images, simply wrap the image markup into a [link markup](#links):
 [![Semantic description of image](/images/path/to/folder/image.png "Hello World")*My caption*][about.gitlab.com]
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
-[![Semantic description of image](/images/about-gitlab-com.png "Hello World")*My caption*][about.gitlab.com]
-
-</div>
-</div>
+{{% panel header="**Output**" header-bg="info" %}}
+[![Semantic description of image](https://about.gitlab.com/images/about-gitlab-com.png "Hello World")*My caption*][about.gitlab.com]
+{{% /panel %}}
 
 **Important notes:**
-{:#images-important-notes}
 
-- {: #image-shadow} Apply [shadow](#shadow) to your images!
-- {: #image-requirements} All images must be placed [under `/source/images/`][source-img], in an appropriate directory. Only screenshots
+- `{: #image-shadow}` Apply [shadow](#shadow) to your images!
+- `{: #image-requirements}` All images must be placed [under `/source/images/`][source-img], in an appropriate directory. Only screenshots
 and public domain images are permitted.
-- {: #image-alt-text} The text inside the square brackets is an image attribute called `ALT`, which stands for *alternative text*.
+- `{: #image-alt-text}` The text inside the square brackets is an image attribute called `ALT`, which stands for *alternative text*.
 [Including descriptive alt text][alt-text-best-practices] helps maintain accessibility for every visitor and should always be included with an image. When you add alt text be sure to describe the content and function of an image. In addition to the accessibility benefits, `ALT` is useful for SEO, and it is displayed when, for some reason, that image is not loaded by the browser.
-- {: #image-filename} For the same reasons, the image must contain a name related to it. Example: instead of `image-01.jpg`,
+- `{: #image-filename}` For the same reasons, the image must contain a name related to it. Example: instead of `image-01.jpg`,
 name it `black-dog.jpg`, if it's a photo of a black dog.
-- {: #image-title} It's also recommendable adding an image title, as the "Hello World" exemplified above.
+- `{: #image-title}` It's also recommendable adding an image title, as the "Hello World" exemplified above.
 
 ----
 
@@ -561,12 +464,7 @@ java ..> rocket
 ```
 ~~~
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
+{{% panel header="**Output**" header-bg="info" %}}
 ```plantuml
 !define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.1.0
 skinparam defaultTextAlignment center
@@ -583,8 +481,7 @@ FA5_ROCKET(rocket,Integrated,node) #White
 gitlab ..> java
 java ..> rocket
 ```
-</div>
-</div>
+{{% /panel %}}
 
 ## Videos
 
@@ -609,17 +506,11 @@ may not render properly)
 <!-- blank line -->
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
+{{% panel header="**Output**" header-bg="info" %}}
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-</div>
-</div>
+{{% /panel %}}
 
 ### Display local videos (HTML5)
 
@@ -646,26 +537,21 @@ compatibility: `.mp4`, `.ogg` and `.webm`.
 <!-- blank line -->
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
+{{% panel header="**Output**" header-bg="info" %}}
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="/images/default-blog-image.png">
     <source src="html5-demo.mp4" type="video/mp4">
   </video>
 </figure>
-</div>
-</div>
+{{% /panel %}}
 
-***Note:** in case you don't have all formats recommended by **w3schools**, you can use just one of them,
+{{% note %}}
+In case you don't have all formats recommended by **w3schools**, you can use just one of them,
 but your video most likely won't be supported in all devices and browsers. The video above (`.mp4` only)
 worked on Mozilla Firefox for macOS, Android, and Windows, and on Chrome for Android and for Windows.
 But it may not work on other devices/browser, such as Chrome for macOS and iOS, or Safari.
 In fact, the best option is using YouTube or Vimeo embed videos in `<iframe>` tags.*
-{: .note}
+{{% /note %}}
 
 ### Display other videos
 
@@ -682,17 +568,11 @@ replacing **only** the iframe URL with your own:
 <!-- blank line -->
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
+{{% panel header="**Output**" header-bg="info" %}}
 <figure class="video_container">
   <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-</div>
-</div>
+{{% /panel %}}
 
 ### Display multiple videos
 
@@ -773,9 +653,10 @@ but if you need pretty advanced table layouts, you are free to add them in HTML 
 As explained by John Gruber, the creator of markdown, it was not created to replace HTML,
 so there are situations we can't avoid using HTML. With complex tables, that's the case.
 
-**Note:** For very simple 2 column tables it is better to use [lists](#lists) with strong text in preference
+{{% note %}}
+For very simple 2 column tables it is better to use [lists](#lists) with strong text in preference
 to the complexity of using markdown tables.
-{: .note}
+{{% /note %}}
 
 The following table has a header (first line), then markup to define the desired alignment (dashes and colons),
 then the table body. You can go ahead and add separators to create subsequent table bodies.
@@ -800,13 +681,7 @@ a [custom class and/or a custom ID](#classes-ids-and-attributes) to the `<table>
 
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 | Default aligned | Left aligned | Center aligned  | Right aligned  |
 |-----------------|:-------------|:---------------:|---------------:|
 | First body part | Second cell  | Third cell      | fourth cell    |
@@ -818,9 +693,7 @@ a [custom class and/or a custom ID](#classes-ids-and-attributes) to the `<table>
 |-----------------+--------------+-----------------+----------------|
 | Third body      |              |                 | Foo            |
 {: .custom-class #custom-id}
-
-</div>
-</div>
+{{% /panel %}}
 
 <!-- ANOTHER CHANGE NECESSARY TO ADD TO CSS ^^ -->
 
@@ -908,19 +781,11 @@ There are a few options for displaying code blocks with kramdown. Most of them u
 
 This is an ``` `in-line` ``` code block.
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 *In-line*
 
 This is an `in-line` code block.
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Fenced
 
@@ -948,13 +813,7 @@ or
     {: .language-ruby}
 
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 *Fenced*
 
 ```
@@ -980,10 +839,7 @@ end
 ```
 
 {: .language-ruby}
-
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Indented
 
@@ -1000,14 +856,7 @@ Add 4 white spaces before every line:
         end
     {: .language-ruby}
 
-
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 *Indented*
 
     def hello
@@ -1020,9 +869,7 @@ Add 4 white spaces before every line:
        puts "Hello world!"
     end
 {: .language-ruby}
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Nested
 
@@ -1035,13 +882,7 @@ within a code block.
         end
         ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 *Nested*
 
     ```
@@ -1049,9 +890,7 @@ within a code block.
        puts "Hello world!"
     end
     ```
-
-</div>
-</div>
+{{% /panel %}}
 
 ### In lists
 
@@ -1069,13 +908,7 @@ and ident the code block in 5 white spaces:
 
     1.   Item 3
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 1. Item 1
 1. Item 2
 
@@ -1086,9 +919,7 @@ and ident the code block in 5 white spaces:
      ```
 
 1. Item 3
-
-</div>
-</div>
+{{% /panel %}}
 
 ----
 
@@ -1124,13 +955,7 @@ That may be lazy.
 > {: .language-ruby}
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 > This is a blockquote.
 > On multiple lines.
 That may be lazy.
@@ -1157,9 +982,7 @@ That may be lazy.
 >        puts "Hello world!"
 >      end
 > {: .language-ruby}
-
-</div>
-</div>
+{{% /panel %}}
 
 ----
 
@@ -1168,24 +991,16 @@ That may be lazy.
 ```md
 This is a regular paragraph.
 
-**Note:** a note is something that needs to be mentioned but is apart from the context.
+**Note:** A note is something that needs to be mentioned but is apart from the context.
 {: .note}
 ```
-
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 This is a regular paragraph.
 
-**Note:** a note is something that needs to be mentioned but is apart from the context.
-{: .note}
-
-</div>
-</div>
+{{% note %}}
+A note is something that needs to be mentioned but is apart from the context.
+{{% /note %}}
+{{% /panel %}}
 
 ----
 
@@ -1207,13 +1022,7 @@ completely ignored.
     <!-- This is accepted as a comment too -->
 {: .language-html}
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 This is a paragraph
 {::comment}
 This is a comment which is
@@ -1222,9 +1031,7 @@ completely ignored.
 ... paragraph continues here.
 
 <!-- This is accepted as a comment too -->
-
-</div>
-</div>
+{{% /panel %}}
 
 ----
 
@@ -1270,13 +1077,7 @@ And you can go further, such as the following.
 {: #tanuki-orange}
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 *Regular*
 
 ### <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzle Icon
@@ -1294,9 +1095,7 @@ And you can go further, such as the following.
 ### <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Orange GitLab Tanuki
 
 {: #tanuki-orange}
-
-</div>
-</div>
+{{% /panel %}}
 
 When doing something like this to a heading, it's important give it a custom ID (e.g., `{: #puzzle}`),
 otherwise the one automatically created by kramdown will sound very awkward.
@@ -1345,13 +1144,7 @@ This is a [link][google-es]{:hreflang="es"} in Spanish.
 [google-es]: https://google.es
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 Paragraph
 {: .class .class-1 .class-2}
 
@@ -1383,9 +1176,7 @@ This is a [link][google-es]{:hreflang="es"} in Spanish.
 
 [link]: https://google.com
 [google-es]: https://google.es
-
-</div>
-</div>
+{{% /panel %}}
 
 ### Special classes
 
@@ -1414,13 +1205,14 @@ markup:
 As [previously](#notes) explained, you can add the class `note` to paragraphs that
 you don't want to call attention to:
 
-**Note:** this is something I don't want to call attention to.
-{: .note}
+{{% note %}}
+This is something I don't want to call attention to.
+{{% /note %}}
 
 Markup:
 
 ```md
-**Note:** this is something I don't want to call attention to.
+**Note:** This is something I don't want to call attention to.
 {: .note}
 ```
 
@@ -1534,19 +1326,11 @@ Something in **markdown**.
 <p>Then an HTML tag with crazy **markup** _all over_ the place!</p>
 ```
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 Something in **markdown**.
 
 <p>Then an HTML tag with crazy **markup** _all over_ the place!</p>
-
-</div>
-</div>
+{{% /panel %}}
 
 You can close the markup parser tag at any point, if you want to:
 
@@ -1603,18 +1387,15 @@ My important paragraph.
 
 Blue panels render like:
 
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**Note**" header-bg="info" %}}
 NOTE DESCRIPTION
-</div>
-</div>
+{{% /panel %}}
 
 And blue alert boxes render like:
 
+{{% alert header="**Alert**" header-bg="info" %}}
 My important paragraph.
-{: .alert .alert-info}
+{{% /alert %}}
 
 If you want the text inside the alert box to be blue as well, we need to apply [custom styles](#styles)
 to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
@@ -1653,20 +1434,15 @@ My warning paragraph.
 
 Amber panels render like:
 
-<div class="panel panel-warning">
-**Warning**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Warning**" header-bg="warning" %}}
 WARNING DESCRIPTION
-
-</div>
-</div>
+{{% /panel %}}
 
 And amber alert boxes render like:
 
+{{% alert header="**Warning**" header-bg="warning" %}}
 My warning paragraph.
-{: .alert .alert-warning}
+{{% /alert %}}
 
 If you want the text inside the alert box to be amber as well, we need to apply [custom styles](#styles)
 to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
@@ -1705,18 +1481,15 @@ My danger paragraph.
 
 Red panels render like:
 
-<div class="panel panel-danger">
-**Danger**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**Danger**" header-bg="danger" %}}
 DANGER DESCRIPTION
-</div>
-</div>
+{{% /panel %}}
 
 And red alert boxes render like:
 
+{{% alert header="**Danger**" header-bg="danger" %}}
 My danger paragraph.
-{: .alert .alert-danger}
+{{% /panel %}}
 
 If you want the text inside the alert box to be red as well, we need to apply [custom styles](#styles)
 to the markdown document. They will override the existing ones. Add the following `style` tag to the end of your file.
@@ -1775,20 +1548,15 @@ NOT TO DO.
 
 By doing so, the green panels for "DO'S" will look like:
 
-<div class="panel panel-success">
-**Do's**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Do's**" header-bg="success" %}}
 THINGS TO DO
-
-</div>
-</div>
+{{% /panel %}}
 
 or, if you chose an alert box:
 
+{{% alert header="**Do's**" header-bg="success" %}}
 TO DO.
-{: .alert .alert-success}
+{{% /alert %}}
 
 If you want the text inside the alert box to be green as well,
 we need to apply [custom styles](#styles)
@@ -1805,20 +1573,15 @@ Add the following `style` tag to the end of your file.
 
 And for your "DON'TS" within red panels will look like:
 
-<div class="panel panel-danger">
-**Don'ts**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Don'ts**" header-bg="danger" %}}
 THINGS NOT TO DO
-
-</div>
-</div>
+{{% /panel %}}
 
 or, if you chose a red alert box:
 
+{{% alert header="**Don'ts**" header-bg="info" %}}
 NOT TO DO.
-{: .alert .alert-danger}
+{{% /alert %}}
 
 ### Custom alert panels and alert boxes
 
@@ -1833,13 +1596,9 @@ When using panels, don't forget to add to the beginning of your file the
 
 #### GitLab Orange Alert Panel
 
-<div class="panel panel-gitlab-orange">
-**Heading**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**Heading**" header-bg="orange" %}}
 Text in markdown.
-</div>
-</div>
+{{% /panel %}}
 
 Panel block markup:
 
@@ -1857,8 +1616,9 @@ Text in markdown.
 
 #### GitLab Orange Alert Box
 
+{{% alert header="**Alert**" header-bg="orange" %}}
 My text in an orange box.
-{: .alert .alert-gitlab-orange}
+{{% /alert %}}
 
 Box block markup:
 
@@ -1869,13 +1629,9 @@ My text in an orange box.
 
 #### GitLab Purple Alert Panel
 
-<div class="panel panel-gitlab-purple">
-**Heading**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**Heading**" header-bg="purple" %}}
 Text in markdown.
-</div>
-</div>
+{{% /panel %}}
 
 Panel block markup:
 
@@ -1893,8 +1649,9 @@ Text in markdown.
 
 #### GitLab Purple Alert Box
 
+{{% alert header="**Alert**" header-bg="purple" %}}
 My text in an purple box.
-{: .alert .alert-gitlab-purple}
+{{% /alert %}}
 
 Box block markup:
 
@@ -1961,15 +1718,10 @@ Hey! Hover the cursor over me and guess what?! :)
 
 Equals to:
 
-<div class="panel panel-info">
-
-**Output**
-{: .panel-heading}
-
-<div class="panel-body">
-
+{{% panel header="**Output**" header-bg="info" %}}
 Hey! Hover the cursor over me and guess what?! :)
 {: .purple}
+{{% /panel %}}
 
 </div>
 </div>
