@@ -757,8 +757,12 @@ Follow the steps below to register partner influence on an opportunity:
 
 _Please reach out to @Partner Operations via chatter if you have any questions or if the ASM approver needs to be reassigned._
 
-
-
+### Partner Influence: Reporting
+- [Global Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL0000036nh32AA/view?queryScope=userFolders)
+- [AMER Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003XZ6x2AG/view?queryScope=userFolders)
+- [APJ Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL0000036n7a2AA/view?queryScope=userFolders)
+- [EMEA Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003Xkoj2AC/view?queryScope=userFolders)
+- [PUBSEC Pending Influence Reg by ASM](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000003XkSA2A0/view?queryScope=userFolders)
 
 ## Channel Approvals
 
