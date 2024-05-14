@@ -361,28 +361,6 @@ All Cells 1.0 work is tracked under the [Cells 1.0 Epic](https://gitlab.com/grou
 - [Sharding Key migration work for Cells](https://cells-progress-tracker-gitlab-org-tenant-scale-g-f4ad96bf01d25f.gitlab.io/sharding_keys)
 - [Database schema migration](https://gitlab-org.gitlab.io/tenant-scale-group/cells-progress-tracker/schema_migration)
 
-### Cells 1.0 Milestones
-
-1. First Production Cell - Experiment
-   - label: [cells-1.0-milestone::Experiment](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=cells-1.0-milestone%3A%3Aexperiment&first_page_size=20)
-   - Production system with No customer data. We have an environment that covers testing needs of Test Platform and Development teams.
-   - Entering criteria: A cell is brought up so that development teams and Infra teams have an environment to test their changes, Test platform team has a place to run different kind of tests, including E2E, automation test and etc.
-   - Exit criteria: All the application feature gaps are filled, a Cell is provisioned using the cells lifecycle automation tools, and we run our existing E2E tests on Cells as part of our deployment pipeline
-1. First Production Cell - Beta
-   - label: [cells-1.0-milestone::Beta](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=cells-1.0-milestone%3A%3Abeta&first_page_size=20)
-   - We have a production instance that an internal or external customer can do functional and performance test on
-   - Entering criteria: Exit criteria of Experiment milestone
-   - Exit criteria: Customer discovered issues are addressed, we meet our GA requirements
-1. First Production Cell - General Availability
-   - label: [cells-1.0-milestone::GA](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=cells-1.0-milestone%3A%3Aga&first_page_size=20)
-   - We have a production instance that is ready for internal or external customer's production use
-   - Entering Criteria: Exit criteria of Beta
-
-### Cells 1.0 Timeline
-
-- 2024-11-30: Start of Beta
-- 2025-01-31: GA
-
 #### Cells 1.0 Development Phases
 
 The listed phases will be applied for both Staging then at a later stage to Production, if not stated otherwise. We use the `cells-1.0-milestone::Phase x` labels to categorize issues by phase.
@@ -417,6 +395,13 @@ The listed phases will be applied for both Staging then at a later stage to Prod
 1. [Phase 10](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=cells-1.0-milestone%3A%3APhase%210): Create an organization for a GitLab internal customer, for example Finance
    - Enable organization FF on Cell 3
    - Move the internal customer to Cell 3 with Direct Transfer
+
+### Cells 1.0 Timeline
+
+This timeline is intentionally ambitious, but feasible. As development progresses, confidence will on a delivery date will increase and dates will be adjusted as needed.
+
+- 2024-11-30: Phase 6 - Non-production use of Cell 2
+- 2025-01-31: Phase 10 - Internal production use of Cell 3
 
 ### Work Estimation
 
