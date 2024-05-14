@@ -43,7 +43,7 @@ When considering new software to address business needs and objectives, see belo
 
  - Does the vendor support Single Sign-On (SSO) to enable team members to authenticate using their network credentials? 
    - Security requires that software has the ability to integrate with Okta or Google Oauth for authentication. 
- - Does the vendor complete a recurring independent third party audit of their security controls to show adherence to industry standards and best practices?
+ - Does the vendor complete an annual independent third party audit of their security controls to show adherence to industry standards and best practices?
    - Security requires software vendors complete and share an annual independent third party audit of their security controls. Some examples of these are a [SOC 2 or ISO 27001 certification](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#acceptable-third-party-attestations). 
  - Does the vendor require an independent third party penetration test of their systems to identify and remediate vulnerabilities and weaknesses?
    - Security requires that vendors conduct annual independent penetration testing on all systems supporting their SaaS solution and attest to the remediation or mitigation of any High or Critical findings. 
