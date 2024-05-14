@@ -103,6 +103,7 @@ Switchboard team process to refine epics:
 1. Assign Due Date & Start Date
    - DRI, EM & PM work together to assign due date based on team capacity, external deadlines and amount of work involved
 1. DRI identifies at least one demo that will be delivered with the epic and adds a brief outline to the epic description (see [Switchboard Demos](#switchboard-demos)).
+1. For relevant topics, DRI creates and share draft technical documentation with team early if possible before development work starts.
 1. EM or DRI labels individual issues as ~"workflow-infra::Triage"
 1. DRI enables issues to be worked on in parallel where possible so that multiple engineers can contribute to a single epic
 1. If the epic involves both Frontend and Backend implementation the issues should be labelled accordingly
