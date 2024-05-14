@@ -50,6 +50,12 @@ The Manager, Data is a [grade 8](/handbook/total-rewards/compensation/compensati
 - [SLO Achievement](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source) for Tier 1 Data
 - Legacy Data Removal Iterations
 - Data Platform Performance and Security Audits
+- Contributions to the four [Data Team Impact Dimensions](/handbook/business-technology/data-team/#how-we-measure-impact)
+    1. Data Platform Stability
+    1. Data Quality & Governance
+    1. Data Adoption
+    1. Revenue/Efficiency Impact
+
 
 ### Senior Manager, Data
 
@@ -82,10 +88,14 @@ The Senior Manager, Data is a [grade 9](/handbook/total-rewards/compensation/com
 
 #### Performance Indicators (PI)
 
-- [% of team who self-classify as diverse](https://internal.gitlab.com/handbook/it/it-performance-indicators/#percent--of-team-who-self-classify-as-diverse)
-- [CSAT](https://internal.gitlab.com/handbook/it/it-performance-indicators/#customer-satisfaction-survey-csat)
-- [SLO Achievement per Data Source](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source)
-- WIP: % of queries supported by Enterprise Dimensional Model >= 75%
+- [SLO Achievement](https://internal.gitlab.com/handbook/it/it-performance-indicators/#slo-achievement-per-data-source) for Tier 1 Data
+- Legacy Data Removal Iterations
+- Data Platform Performance and Security Audits
+- Contributions to the four [Data Team Impact Dimensions](/handbook/business-technology/data-team/#how-we-measure-impact)
+    1. Data Platform Stability
+    1. Data Quality & Governance
+    1. Data Adoption
+    1. Revenue/Efficiency Impact
 
 ## Career Ladder
 
