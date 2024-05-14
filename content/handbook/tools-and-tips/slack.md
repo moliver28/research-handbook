@@ -12,7 +12,7 @@ description: "Slack usage and tips at GitLab"
 Fill in your Slack profile, as we use Slack profiles as our Team Directory to stay in touch with other team members. Important fields include:
 
 - Photo
-- Title (should be your GitLab job title)
+- Job Description (should be your GitLab job title, with the URL pointing to your [job family](https://handbook.gitlab.com/job-families/))
 - GitLab.com profile (set the Display text to your @gitlabusername so that people don't need to click the link to identify your username)
 - Time zone (useful for other GitLab team members to see when you're available)
 - Working hours (can help others to identify the times you are generally available)
