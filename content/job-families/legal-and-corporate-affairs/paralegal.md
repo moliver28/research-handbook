@@ -38,7 +38,6 @@ The Associate Paralegal is a [grade 5](/handbook/total-rewards/compensation/comp
 - Previous experience in a Global Start-up and remote first environment preferred.
 - Ability to use GitLab.
 
-
 ### Paralegal
 
 The Paralegal reports to the Director of Legal, or Senior Director of Legal.

@@ -1,9 +1,9 @@
 ---
-
 title: "Getting Started With CI/CD for Data Science Pipelines"
 description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 ---
 
+<<<<<<< HEAD
 
 
 
@@ -15,6 +15,9 @@ description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 ---
 
 ## Our Approach to Using CI/CD For Data Science
+=======
+Our Approach to Using CI/CD For Data Science
+>>>>>>> b0676795cb (Update markdownlint and fix biztech folder)
 
 When it comes to training and scoring machine learning models, there are trade-offs to using your local machine vs. CI. Our approach is flexible to allow users to do both.
 
@@ -39,7 +42,7 @@ When it comes to training and scoring machine learning models, there are trade-o
   - Log pipeline results to [Project wiki](https://docs.gitlab.com/ee/user/project/wiki/)
   - Use [GitLab for Slack](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html) integration to monitor pipeline status
 
-  
+
 ### Advantages of Using CI for Training Data Science Models
 
   - Reproducibility
@@ -56,11 +59,18 @@ This section covers, in detail, the mechanisms behind how these pipelines is cre
 
 **If you are just interested in getting your data science CI scoring pipeline up and running, skip directly to the [Scoring and Productionalization Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#scoring-and-productionalization-step-by-step-instructions)**
 
+<<<<<<< HEAD
 ### Key Repository Files
 
 Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following key files:
 - **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that will be run in each pipeline. The actual pipelines are pulled from the [CI/CD Component Catelog](https://gitlab.com/explore/catalog/gitlab-data/ds-component-pipeline), with only the variables that need specified by the user set in this .yml.
-- **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU  
+- **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU
+=======
+Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following:
+
+- **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that should be run in the pipeline
+- **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU
+>>>>>>> b0676795cb (Update markdownlint and fix biztech folder)
 - **requirements.txt**: The python packages to install in the docker container
 - **training_config.yaml**: Configuration for training notebook
 - **scoring_config.yaml**: Configuration for scoring notebook
@@ -72,6 +82,7 @@ Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-d
 
 ### Training Pipeline
 
+<<<<<<< HEAD
 1. **Build**
    - **build-ds-image**: activated whenever changes are made to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to train the model
 2. **Train**
@@ -82,6 +93,9 @@ Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-d
 ![CI Jobs](ci-pipelines.png)
 
 ### Training Setup
+=======
+### The Setup
+>>>>>>> b0676795cb (Update markdownlint and fix biztech folder)
 
 Let's take a detailed look at the repository (**Code -> Repository**):
 
@@ -104,8 +118,12 @@ Let's take a detailed look at the repository (**Code -> Repository**):
     - `experiment_name`: Name of your MLFlow Experiment
     - `run_name`: ID or name of the MLFlow Experiment Run
 
+<<<<<<< HEAD
 
 ### Model Training Step-by-Step Instructions
+=======
+## Step-by-Step Instructions
+>>>>>>> b0676795cb (Update markdownlint and fix biztech folder)
 
 1. [Fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) the public [GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example) repository. Forking will allow you to further customize the code to meet your own needs.
 1. Optional (but recommended) Configurations:
@@ -115,19 +133,29 @@ Let's take a detailed look at the repository (**Code -> Repository**):
           - ***Note***: Enabling group access tokens is a not available for SaaS Free accounts.  If using a Free account, you will need to fork the project into a personal (instead of a group) namespace ![Create Project Token](create_token.png)
       - Create the following new CI Variables (**Settings -> CI/CD -> Variables -> Add New Variable**):
          - `MLFLOW_TRACKING_TOKEN`: For the value, enter the project access token value created above.
+<<<<<<< HEAD
          - `MLFLOW_TRACKING_URI`: For the value, use the GitLab API MLFlow endpoint as outlined in the MLFlow instructions above. It should look something like: `https://gitlab.com/api/v4/projects/<your_project_id>/ml/mlflow`. Project ID can be found in **Settings -> General**
          - ***Note:*** For all varibles, untick the "Protect Variable" flag to enable experiment tracking on unprotected branches. Tick "Mask variable" to prevent the value from showing in the logs.
     - Write Model Metrics to Merge Request
        - Create the following new CI/CD Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
-         - `REPO_TOKEN`: For the value, enter the project access token value created above. 
+         - `REPO_TOKEN`: For the value, enter the project access token value created above.
          - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches. Tick "Mask variable" to prevent the value from showing in the logs. ![Create CI Variables](create_ci_variables.png)
+=======
+         - `MLFLOW_TRACKING_URI`: For the value, use the GitLab API MLFlow endpoint as outlined in the MLFlow instructions above. For example, `https://gitlab.com/api/v4/projects/<your_project_id>/ml/mlflow`. Project ID can be found in **Settings -> General**
+         - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches
+      - Write Model Metrics to Merge Request
+        - Create the following new CI Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
+          - `REPO_TOKEN`: For the value, enter the project access token value created above.
+          - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches ![Create CI Variables](create_ci_variables.png)
+
+>>>>>>> b0676795cb (Update markdownlint and fix biztech folder)
 1. Now, let's make some changes to activate our training pipeline:
 1. Create a new branch (**Code -> Branches -> New Branch**)
-     - <img src="new_branch.png" width="500">
+     - <img src="new_branch.png" width="500" alt="">
 1. First let's make sure the `build-ds-image` will get triggered, which will build the container our model will run in. This job of the pipeline is only activated when changes are detected in **Dockerfile** or **requirements.txt**. So let's make a change:
      - Edit **Dockerfile**, replacing the maintainer value with your GitLab handle and commit the change to your branch. ![Edit Dockerfile](edit_dockerfile.png)
 1. Configure your runners:
-     - GPU runners are available for Premium and Ultimate users. If enabled, edit `.gitlab-ci.yml` and change the value of `TRAIN_RUNNER` to a GPU runner (i.e. `saas-linux-medium-amd64-gpu-standard`). 
+     - GPU runners are available for Premium and Ultimate users. If enabled, edit `.gitlab-ci.yml` and change the value of `TRAIN_RUNNER` to a GPU runner (i.e. `saas-linux-medium-amd64-gpu-standard`).
      - The default value, `saas-linux-small-amd64`, will work for all account types.
 1. Edit **training_config.yaml**
      - Change `n_trials` to a new value between `10` and `20`.
@@ -136,7 +164,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 1. Click on "**Pipelines**" and you should see the training pipeline running. Click into the pipeline to see which which stage the pipeline is in.
    - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Training Pipeline Jobs](training_pipeline_jobs.png)
 1. Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request).
-   - <img src="model_metrics.png" width="700">
+   - <img src="model_metrics.png" width="700" alt="">
 1. Now let's look at the experiment run we just completed with our CI pipeline (**Analyze -> Model Experiments**)
    - Click on your experiment name.
    - You should see a new run logged from the CI Pipeline. Click into that run.
@@ -145,11 +173,11 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 1. Finally, let's look at the container that was used to train the model (**Deploy -> Container Registry**)
    - This container will be used in subsequent runs of the model and will only get rebuilt when **Dockerfile** or **requirements.txt** are modified. ![Container](container.png)
 
-
 ## Scoring and Productionalization with CI/CD
 
 ### Scoring Pipeline
-1. **Build** 
+
+1. **Build**
    - **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to score the model. Ideally, this should be the same image that was used to train the model.
 2. **Score**
    - **score-commit-activated**: To manually execute a scoring pipeline. Activated by using `score <path/to/notebook/your_notebook.ipynb>` in the commit message
@@ -161,13 +189,14 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 ![CI Jobs](ci-pipelines.png)
 
 ### Productionalization Setup
+
 Let's take a detailed look at the repository (**Code -> Repository**):
 
 - In the **notebooks** directory, open [scoring_example.ipynb](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/notebooks/scoring_example.ipynb). We do not need to change anything in here, but note the first cell of the notebook. [Papermill](https://papermill.readthedocs.io/en/latest/#) will be used to execute this notebook in the CI pipeline and this cell has been tagged as `parameters` to allow Papermill to change these values. There are 2 variables with preset values:
   - `is_local_development = True`: The default assumption is that the notebook is being run locally. The CI pipeline will modify this value to `False` automatically so the notebook can be optimized to run in CI
   - `notebook_dir = 'notebooks'`: The directory of the scoring notebook (can be the same directory as the training notebooks). This value is the same locally as it is the CI pipeline.
 - To see exactly how the CI pipeline changes these values, now let's view [.gitlab-ci.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/.gitlab-ci.yml). Because we are using a component from the CI/CD catelog, we actually want to look at the [Data Science ML Component Pipeline](https://gitlab.com/gitlab-data/ds-component-pipeline/-/blob/main/templates/ds-pipeline/template.yml?ref_type=heads). In this file, search for `score-commit-activated`. A few things to note:
-  - This job will manually trigger when `score <path/to/notebook/your_notebook.ipynb>` is passed in the commit message. 
+  - This job will manually trigger when `score <path/to/notebook/your_notebook.ipynb>` is passed in the commit message.
   - `image: $CONTAINER_IMAGE`: The scoring job will use the container created in the build job (as defined by `build-ds-image`), using the [Dockerfile](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/Dockerfile) and [requirements.txt](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/requirements.txt) files in the repository.
   - `tags`: Determines which runner to use. We want to be able to change the runner based on the project needs. This gets specified by `SCORE_RUNNER` in [.gitlab-ci.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/.gitlab-ci.yml) located back in our project repository
   - `script`:
@@ -189,7 +218,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
       - `API_ENDPOINT`: For the value, use the GitLab API endpoint (will be similar to the `MLFLOW_TRACKING_URI` set up during training) using the following format: `https://gitlab.com/api/v4/projects/<your_project_id>`. Project ID can be found in **Settings -> General**.
       - **Note:** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches
 1. Configure your runner:
-     - GPU runners are available for Premium and Ultimate users. If enabled, edit `.gitlab-ci.yml` and change the value of `SCORE_RUNNER` to a GPU runner (i.e. `saas-linux-medium-amd64-gpu-standard`). 
+     - GPU runners are available for Premium and Ultimate users. If enabled, edit `.gitlab-ci.yml` and change the value of `SCORE_RUNNER` to a GPU runner (i.e. `saas-linux-medium-amd64-gpu-standard`).
      - The default value, `saas-linux-small-amd64`, will work for all account types.
 1. Now lets score our model using CI/CD
    - You can either create a new branch of the repository or use the same one as used above for training the model.
@@ -201,21 +230,21 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request). This is the same process you would have seen during training, except it is now writting out descriptives about the scored dataset.
 1. We can also set the model to score at a defined time using Pipeline Schedules
    - Nagivate to **Build -> Pipeline schedules -> New schedule**
-   - Give your pipeline a description 
+   - Give your pipeline a description
    - Set when you want it to run. In the example below, the pipeline is scheduled to run every day at noon.
    - Target branch: `main` will work for this example. (You could also set it to the branch are you are currently working in.)
    - Variables: We only need to setup one variable, `SCORING_NOTEBOOK` with the location of the notebook we want to schedule `notebooks/scoring_example.ipynb`
-   - Tick "Activated" and save the changes. 
-   - <img src="Pipeline_schedule.png" width="700"> 
+   - Tick "Activated" and save the changes.
+   - <img src="Pipeline_schedule.png" width="700">
 1. The next time the schedule pipeline runs, it will output the results to the Project Wiki
-   - Navigate to **Plan -> Wiki** and you will see a list by timestamp of all the times the scheduled pipeline has run, with links to the job logs and model metrics. 
+   - Navigate to **Plan -> Wiki** and you will see a list by timestamp of all the times the scheduled pipeline has run, with links to the job logs and model metrics.
    - <img src="wiki.png" width="700">
 
 ## Slack Notifications (optional)
 - In Slack, add the GitLab for Slack app
 - Follow the instructions in the [Gitlab For Slack app documentation](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html)
 - We’ve setup our slack notifications so that notifications are sent to our #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
-- <img src="slack_notifications.png" width="700"> 
+- <img src="slack_notifications.png" width="700">
 
 
 **And that's it! Feel free to modify these pipelines and notebooks to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/business-technology/data-team/organization/data-science/). If you you are experiencing any difficulty or if you have any suggestions to improve these pipelines, feel free to [open an issue with us](https://gitlab.com/gitlab-data/data-science-ci-example/-/issues/new). Happy pipelining!**

@@ -110,8 +110,11 @@ For step by step processes please view [Billing Ops page.]({{< ref "./finance-op
 **Posting Swag Shop transactions in NetSuite**
 
 Transactions from the Swag Shop are remitted to the Comerica checking account daily and should be booked in NetSuite at the end of each month.
+
 1. In Shopify, download the transaction report in CSV format (found under Orders, then Export).
+
   - This report contains swag shop revenue and tax data to be recorded in NetSuite.
+
 1. In portal used for swag download the orders report which should include cost for swag sold.
 1. Record the revenue, tax, cost and cash received.  At times cost maybe estimated using a historical average.
 1. Record the tax collected in the Ava Tax Portal.
@@ -225,13 +228,13 @@ Coupa is a procure-to-pay system that streamlines the purchase request process, 
 > You can learn more about Coupa on our [FAQ Page]({{< ref "../procurement/coupa-faq" >}})
 
 **How vendors are added into Coupa:**
+
 1. Any Coupa user can request a new supplier using the New Supplier Request form.
    - Check [How to Request a New Supplier in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-request-a-new-supplier) for a detailed guide.
 1. Once the New Supplier Request is approved, an External Supplier Form will be automatically sent to the Supplier to gather additional information.
    - Supplier must complete the form and submit it back.
 1. After supplier submission, the external form will be routed to Accounts Payable Approval Group for review and approval.
 1. After approval, the Supplier details will be integrated to NetSuite. Once the supplier is successfully created in NetSuite, it will flow back to Coupa to complete the New Supplier creation. By then, the Supplier should be available when creating Purchase Requests and Invoices.
-
 
 {{% alert title="Note" color="primary" %}}
 If you are a GitLab recurring vendor and did not receive an onboarding email from Coupa, please reach out to *ap@gitlab.com*.
@@ -307,6 +310,7 @@ PO receipts notifications will enable users to "Create Receipt" by clicking on t
 Approval notifications will enable users to reject or approve invoices by clicking on the appropriate button.
 
 {{% panel header="**Top information to verify before approving an invoice**" header-bg="green" %}}
+
 - Verify invoice copy is attached
 - Verify correct PO is matched
 - Verify coding (Billing) is correct
@@ -316,7 +320,6 @@ Approval notifications will enable users to reject or approve invoices by clicki
 
 If there are issues with any of the above items, please tag `@Accounts Payable Approval Group` in the Comments section with details.
 {{% /panel %}}
-
 
 #### Disputing an Invoice in Coupa
 
@@ -381,9 +384,7 @@ After the supplier submits their supplier payment account information, it will t
 If the supplier is going through the SIM process, the approval for that supplier payment account will occur directly on the SIM External Form, and AP won't have to go into the supplier payment accounts to provide approval.
 {{% /alert %}}
 
-
 For more information regarding how to set up SPAs or Coupa Pay, please check out the lower section of our [Coupa FAQ page]({{< ref "../procurement/coupa-faq" >}}).
-
 
 #### Creating a Batch in Coupa
 
@@ -486,7 +487,6 @@ Please refer to GitLab's [Expense Policy]({{< ref "../expenses" >}}) for further
 
     Have new team member set up in Navan within 3 business days from team member start date.
 
-
 ### Travel and Expense Guidelines
 
 #### Spend reduction
@@ -550,7 +550,6 @@ Please see the [campaign expense guidelines in the Marketing handbook](/handbook
 Tracking expenses for company Contributes enables us to analyze our spend and find opportunities to iterate, and in turn, improve subsequent Contributes. To enable tracking we create an expense tag that will allow GitLab team-members to tag Contribute related expenses in Navan. This should be done prior to the announcement of each Contribute.
 
 - To categorize an expense under an expense tag to track a specific marketing campaign, contribute expense and/or any special project you will do this under the "classifications" tag in Navan.
-
 
 ## Property, Plant and Equipment
 
@@ -714,7 +713,6 @@ Once a purchase request makes it through the [company approval workflow]({{< ref
 
 Team member travel expenses are expensed in the period incurred. Costs related to third party vendors such as hotels, facilities, excursions are recorded to prepaid expenses and recognized as expense at the time of the event.
 
-
 ### Accrued Liabilities Policy
 
 **Purpose**
@@ -728,14 +726,18 @@ We require that all expenses be recorded where expense exceeds $5K USD or above,
 The following items should be accrued monthly as necessary (note: this list is not all-inclusive):
 
 1. Accounts Payable:
+
  - Contracts: Amounts due under contracts, including retainer fees. These items should be recorded as they become billable.
  - Professional Fees: This liability includes legal, tax, and audit consulting and other professional fees.
  - Legal Contingencies: Pending or threatened litigation, and actual or probable settlement. Legal contingencies should be determined with the help of GitLab’s VP of Legal - Commercial, IP & Compliance.
+
 1. Wages and Compensation:
+
  - Team Wages: This includes employee wages and independent contractor fees.
  - Commissions: Liabilities arising from commission obligations to team members who are eligible for commission compensation.
  - Bonuses: Liabilities related to bonus payments for GitLab team-members.
  - Taxes: All employment taxes required for statutory compliance that relate to the GitLab team.
+
 1. Any other material obligation not mentioned above that is a liability of GitLab
 
 **Timing**
@@ -760,7 +762,6 @@ The Finance team is responsible for having procedures in place to reconcile acco
 The Sr. Accounting Manager is responsible for performing an overall review of accrued liabilities, one to three business days after accounts payable closes each month, to help ensure that all expenses are captured accurately.
 
 **Please see [Procure-to-Pay](#procure-to-pay)**
-
 
 ### Foreign Currency Translation Policy
 
@@ -885,4 +886,3 @@ Once each reconciliation is reviewed/approved the account reconciliation is lock
 **Completeness Check**
 
 Once the period is officially closed the Senior Accounting Manager will ensure all recons are in approved, reviewed or in a auto-certified status before moving into the next period.
-

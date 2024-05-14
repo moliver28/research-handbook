@@ -20,7 +20,6 @@ The following diagram shows the Solution Architecture Retrospective Overview.
 
 Solution Architecture Retrospective feedback critically impacts customers and other cross-functional teams, including Product, Sales and Marketing. Based on the retrospection insights, Solution Architects can improve product alignment and prioritisation. Apart from the Solution Architecture team, many other cross-functional teams will benefit from Solution Architecture Retrospection Feedback and use it to improve internal alignment and enhance the customer-centric approach.
 
-
 ### What is an agile retrospective feedback session?
 
 Agile feedback retrospective sessions can end up in pointing out the flaws and challenges which teams encounter. However, it is important that team members also equally consider to bring up positive experiences and iterate on improvements which can increase productivity and efficiency in their roles.
@@ -40,6 +39,7 @@ The Solution Architecture team utilizes Postfacto as the main technology for agi
 #### How can I host a retrospective feedback session with Postfacto
 
 The summary steps are as follows:
+
 1. Use the Postfacto account to log in to the Postfacto panel.
 1. Create a retro for the retrospective feedback session you plan to host.
 1. Share the retro URL and the password with the participants before the retrospective feedback session.
@@ -49,7 +49,6 @@ For details, please refer to [this document](https://docs.google.com/document/d/
 A walk-through of setting up a new restrospective can be found in the video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NhZRkpmGVsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 ### What are the roles during an agile retrospective feedback session?
 
@@ -70,7 +69,6 @@ The host of the restrospective feedback session is encouraged to share the scree
 - Focus on actions to drive improvements within the team
 
 - A retro session does not need to run for more than 60 mins
-
 
 ### How do I participate in an agile retrospective feedback session?
 
@@ -105,9 +103,3 @@ There are a few ways to take the action items from the retro and integrate them 
 For small items changes can be made immediately, updating documents and handbook pages.
 
 When looking at larger changes to processes the best course of action is to integrate these action items into cross-functional OKRs. Especially in these cases with cross-functional process changes it is important to socialise these changes in the appropriate slack channels as well.
-
-
-
-
-
-

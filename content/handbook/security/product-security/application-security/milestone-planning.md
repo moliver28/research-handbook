@@ -91,4 +91,3 @@ These issues must be labeled with the appropriate AppSecRotation label:
 | Triage | `AppSecWorkType::TriageRotation` |
 | Security Release | `AppSecWorkType::ReleaseRotation` |
 | Federal AppSec VAT | `AppSecWorkType::VATRotation` |
-

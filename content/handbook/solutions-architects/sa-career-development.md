@@ -90,7 +90,6 @@ The content is supplemental to the [30/60/90 day onboarding](/handbook/solutions
 |**[SA-to-AE Coffee Chats](https://gitlab.com/gitlab-com/customer-success/solutions-architecture/associate-program/training/-/issues/new?issuable_template=SA-to-AE%20Coffee%20Chats)**||As the cohort becomes comfortable with demoing and taking the lead on calls, it is important to begin establishing relationships with the Account Executives they will support. |
 |**[Associate SA Reference Materials](https://drive.google.com/drive/folders/1NRp-a8WHdaY3nq_lLb6ejJt4Am0JEyG2)**||Associate SAs can refer to examples of demos leveraging Demo2win strategies along with the slide deck, as well as other supplemental materials. |
 
-
 #### Cohort Coaches
 
 Coaches meet with the entire cohort for either a specific session or multiple sessions.
@@ -140,8 +139,6 @@ Recognizing (and being recognized) by your peers is extremely fulfilling.  If an
 - The #wins-key-deals Slack Channel (When an SA is associated with a high profile win, they are automatically added to the details of the win within this channel. SA Leadership is working with Sales Ops to bring more attention to this notification.)
 - Various team meetings (At the start of most SA calls, there is a devoted section for expressing gratitude and appreciation.)
 - [Discretionary Bonuses](/handbook/incentives/#discretionary-bonuses-for-individuals) (If an SA has gone above and beyond and truly lived up to GitLab's CREDIT values, a discretionary bonus of $1000 US can be awarded. These nominations can come from anyone in the company and at any time.)
-
-
 
 ### Management Recognition
 

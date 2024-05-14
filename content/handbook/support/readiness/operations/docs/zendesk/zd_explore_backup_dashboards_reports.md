@@ -54,7 +54,6 @@ This is informative report in slide 7
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `count` inside table in Result Manipulation.
     1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
-
 ### Slide 8: Reports use combination of Sheets and Periscope so will be completed by Ilia
 
 ### Slide 9: Report 1: Month over Month Trend: SSAT (Customers)
@@ -188,7 +187,6 @@ This is main table in Slide 11
     1. Ticket ID should exclude `279135`
     1. Ticket Solved (Month) use Simple Date Range settings i.e. `Last 6 Months`
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" are present on every `cell` in Result Manipulation.
-
 
 ### Slide 12: Report 1: SM FRT SLAs Achieved Chart - No Plan
 
@@ -1056,8 +1054,6 @@ This is bottom right chart in Slide 26.
 
 ### Slide 27 is Federal US Slide so the access to Federal Explore is not possible
 
-
-
 ## Dashboards
 
 ### Support Metrics
@@ -1496,7 +1492,6 @@ aka IK - NRT SLA for .com/SM
     1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-
 ### FRT SLA % Achieved For .COM - Outdated Calculations
 
 ### NRT SLA % Achieved For .COM - Outdated Calculations
@@ -1577,7 +1572,6 @@ aka IK - FRT Achieved Per Preferred Region - Test
     1. SLA Update (Month) was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 months in the past` to "The end of" should have `1 months in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" showing in `Percentage` in every month on each cell.
 
-
 ## FRT Per Priority .COM/SM
 
 aka IK - Total Breached FRT % Month
@@ -1604,7 +1598,6 @@ aka IK - Total Breached FRT % Month
     1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and `Percentage` is shown on top of every bar in Result Manipulation.
 
-
 ### NRT Per Priority .COM/SM
 
 aka IK - Total Breached NRT % Month
@@ -1628,7 +1621,6 @@ aka IK - Total Breached NRT % Month
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and `Percentage` is shown on top of every bar in Result Manipulation.
-
 
 ### Median TTR SaaS/SM
 
@@ -1838,7 +1830,6 @@ aka IK - Poor CSAT For .COM Breakdown Per Month
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and and "Total" shows in percentage in columns inside every month for every reason in Result Manipulation.
 
-
 ### Poor SSAT Reason Breakdown For SM
 
 aka IK - Poor CSAT For SM Breakdown Per Month
@@ -2035,6 +2026,7 @@ aka IK - Linked Issues
 aka IK - Linked MR's
 
  Dataset used: Support ( Tickets )
+
 - Visualization type: Column
 - Metric used: \* SUM (% Linked MR)*\
 - Rows:
@@ -2103,7 +2095,6 @@ aka IK - Linked Total - Private
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `All History`.
     1. Make sure report should have "Sort" type `A-Z`.
-
 
 ### No Problem Type
 
@@ -2420,7 +2411,6 @@ aka IK - Opened On Weekend Breached
     1. Make sure report should have "Sort" type `A-Z` and Totals show `Sum` on top of every month in Result Manipulation.
     1. It also shows 2 trend lines which can be found in Chart Configuration menu.
 
-
 ### Regional Updates Per Hour Last 6 Months
 
 aka IK - Regional updates per hour - 2019/2020
@@ -2667,7 +2657,6 @@ aka IK - SSAT - Last 4 Weeks
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-
 ### FRT
 
 aka IK - Total FRT SLA - Last 4 Weeks
@@ -2760,7 +2749,6 @@ aka IK - Week Over Week SM SLA
     1. Result Metric calculation is used in Result Manipulation with name "week over week SLA" and formula used is ```(SUM(SLA % achieved this week)-SUM(SLA % achieved last week))/SUM(SLA % achieved last week)```.
     1. Make sure report should have "Sort" type `A-Z`.
 
-
 ### LK - Total FRT SLA - Last 4 Weeks + Priority
 
 aka LK - Total FRT SLA - Last 4 Weeks + Priority
@@ -2785,7 +2773,6 @@ aka LK - Total FRT SLA - Last 4 Weeks + Priority
     1. 2FA is custom attribute and `Not 2FA` needs to be selected.
     1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
-
 
 ### FRT SLA For SM - Last 3 Weeks
 
@@ -2883,7 +2870,6 @@ aka IK - NRT SLA For SM - This Week
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-
 ### SSAT For SM - Last 3 Weeks
 
 aka IK - SSAT For SM - Last 3 Weeks
@@ -2906,7 +2892,6 @@ aka IK - SSAT For SM - Last 3 Weeks
     1. Ticket Solved - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
-
 
 ## SSAT For SM - This Week
 
@@ -3113,7 +3098,6 @@ aka IK - NRT SLA For .COM - This Week
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-
 ### SSAT For .COM - Last 3 Weeks
 
 aka IK - SSAT For .COM - Last 3 Weeks
@@ -3136,7 +3120,6 @@ aka IK - SSAT For .COM - Last 3 Weeks
     1. Ticket Solved - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
-
 
 ## SSAT For .COM - This Week
 
@@ -3360,7 +3343,6 @@ aka IK - NRT SLA For L&R - This Week
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-
 ### SSAT For L&R - Last 3 Weeks
 
 aka IK - SSAT For L&R - Last 3 Weeks
@@ -3381,7 +3363,6 @@ aka IK - SSAT For L&R - Last 3 Weeks
     1. Ticket Solved - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
-
 
 ## SSAT For L&R - This Week
 
@@ -3460,7 +3441,6 @@ aka IK - L&R Incoming Tickets For Support Per Week
     1. Ticket Form filter should include `L&R` only.
     1. Ticket Created - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
     1. Make sure report should have "Sort" type `A-Z` and "Totals" show on top of every column and the priortiy percentage shows inside columns in Result Manipulation.
-
 
 ### Baseline comments SM
 
@@ -4080,7 +4060,6 @@ aka IK - Solved Tickets 90 Days - Main
 
     Special settings: None
 
-
 1. Has Plan Ticket Tags -SSAT (Incl L&R):
 
     Type: Standard Calculated Attribute
@@ -4365,7 +4344,6 @@ aka IK - Solved Tickets 90 Days - Main
 
     Special settings: None
 
-
 ### Custom Metrics
 
 1. % Achieved SLA tickets - 100% View:
@@ -4378,7 +4356,6 @@ aka IK - Solved Tickets 90 Days - Main
     ```
 
     Special settings: None
-
 
 1. SM Ticket Count:
 
@@ -4645,7 +4622,6 @@ aka IK - Solved Tickets 90 Days - Main
     ```
 
     Special settings:  None
-
 
 1. % Linked Issues
 

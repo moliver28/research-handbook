@@ -7,7 +7,7 @@ description: "Editing and making unique Solutions pages with Contentful and cust
 
 The Digital Experience team has selected the solutions pages (`/solutions/*`) to be managed and served within Contentful. This page is designed to allow users to create a new solutions page from scratch using Contentful as CMS.
 
-For in-depth information about Contentful CMS, please visit our [Resource Deep Dive page](https://handbook.gitlab.com/handbook/marketing/digital-experience/contentful-cms/#resource-deep-dive).
+For in-depth information about Contentful CMS, please visit our [Resource Deep Dive page](/handbook/marketing/digital-experience/contentful-cms/#resource-deep-dive).
 
 ## How to make a solutions industry page from scratch
 

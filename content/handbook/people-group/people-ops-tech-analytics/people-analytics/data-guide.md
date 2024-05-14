@@ -180,7 +180,6 @@ Underneath each model is a clean lineage of dimensions and facts that can also b
 | ------ | ------ | ------ | ------ | ------ |
 |mart_team_member_directory| Mart | One row per employee ID| Completed | [DBT docs](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_team_member_directory) |
 
-
 ## Model usage
 
 ### dim_team_member
@@ -206,7 +205,6 @@ GROUP BY
 
 </details>
 
-
 <details>
 <summary markdown="span">Query - Current team members total count</summary>
 
@@ -226,7 +224,6 @@ WHERE
 
 *key_talent_status is a masked field, only team members with the analyst_people role in Snowflake can query it*
 
-
 ```sql
 SELECT
   key_talent_status,
@@ -240,9 +237,7 @@ GROUP BY 1
 
 </details>
 
-
 ### dim_team
-
 
 **dim_team** contains team (organizations) information. It includes information regarding teams and their hierarchy. It is a [Type 2 SCD](/handbook/business-technology/data-team/platform/edw/#slowly-changing-dimensions--snapshots).
 
@@ -282,7 +277,6 @@ WHERE
 
 **fct_team_member_position** contains team members' job history, including any changes in their job profile or team. It provides a history of the team member's job profile in detail. The grain of this table is one row per employee_id, team_id, effective_date and date_time_initiated combination. It includes all team members, regardless of their current employment status.
 
-
 <details>
 <summary markdown="span">Query - Number of employees per entity</summary>
 
@@ -300,7 +294,6 @@ GROUP BY 1
 ```
 
 </details>
-
 
 <details>
 <summary markdown="span">Query - Number of employees per position/role </summary>
@@ -322,7 +315,6 @@ GROUP BY 1
 <details>
 <summary markdown="span">Query - Number of employees with a specific job specialty </summary>
 
-
 ```sql
 SELECT
   COUNT(*)
@@ -339,7 +331,6 @@ WHERE
 <summary markdown="span">Query - Team members with position = backend engineers in France </summary>
 
 *Entity is a masked field, only team members with the `analyst_people` role in Snowflake can query it*
-
 
 ```sql
 SELECT
@@ -365,7 +356,6 @@ The grain of this table is one row per employee_id, employment_status and status
 
 *Exit impact is a masked field, only team members with the `analyst_people` role in Snowflake can query it*
 
-
 ```sql
 SELECT
   COUNT(*)
@@ -382,7 +372,6 @@ WHERE
 
 *Termination type is a masked field, only team members with the `analyst_people` role in Snowflake can query it*
 
-
 ```sql
 SELECT
   COUNT(*)
@@ -398,7 +387,6 @@ WHERE
 <summary markdown="span"> Termination reason provided by employees whose departure was voluntary and caused an exit impact </summary>
 
 *Termination type, termination reason and exit impact are masked fields, only team members with the analyst_people role in Snowflake can query it*
-
 
 ```sql
 SELECT
@@ -417,12 +405,10 @@ WHERE
 
 This table is a derived fact from `fct_team_member_status` and `fct_team_member_position`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table only contains one change in the team member's position per effective date, as opposed to the `fct_team_member_position` table which contains all changes to a team member's position profile, regardless of whether they became effective or not. This table doesn't include future hires, only people working at GitLab as of today's date.
 
-
 <details>
 <summary markdown="span">Query - Active team members with position = backend engineers in France  </summary>
 
 *Entity is a masked field, only team members with the `analyst_people` role in Snowflake can query it*
-
 
 ```sql
 SELECT
@@ -442,7 +428,6 @@ WHERE
 
 *Termination type and termination reason are masked fields, only team members with the `analyst_people` role in Snowflake can query it*
 
-
 ```sql
 SELECT
   team_id,
@@ -461,7 +446,6 @@ GROUP BY 1;
 <summary markdown="span">Query - Number of regresignations (voluntary vs involuntary) per management level </summary>
 
 *Termination type and termination reason are masked fields, only team members with the `analyst_people` role in Snowflake can query it*
-
 
 ```sql
 SELECT
@@ -483,7 +467,6 @@ GROUP BY 1;
 This table is a derived fact from `fct_team_member_position` and `dim_team`. Sensitive columns are masked and only visible by team members with the `analyst_people` role assigned in Snowflake. This table will become a replacement of the legacy tables `employee_directory_*` once all the BambooHR data has been included in the upstream tables.
 
 The grain of this table is one row per employee per valid_from/valid_to combination.
-
 
 <summary markdown="span">Average location factor by division</summary>
 

@@ -21,7 +21,6 @@ The IT Compliance function at GitLab is here to ensure as a company we are ready
 
 IT Compliance works collaboratively with multiple functional teams throughout the GitLab organization. We partner with Management and our Business Teams to implement solutions. Our primary focus today is related to identifying and ensuring audit readiness for in scope SOX applications, however, there is a need to continue to expand the body of work into BCP planning, IAM advisory, and assist on other security initiatives.
 
-
 Our work can be tracked in the [IT Compliance GitLab Group](https://gitlab.com/gitlab-com/business-technology/it-compliance).
 
 ## Our Mission
@@ -48,8 +47,6 @@ Our [IT Compliance](https://gitlab.com/groups/gitlab-com/-/boards/1802558?label_
 - Facilitate SOX UARs for systems and key reports
 - Facilitate SOD reviews for key SOX financial applications
 
-
-
 #### [IT General Controls](/handbook/business-technology/it-compliance/ITGC.html)
 
 **Most Common:**
@@ -63,6 +60,7 @@ The most common ITGCs:
 - Computer operation controls
 
 **GitLab’s IT Complaince Function will focus on the following for the next 3 months:**
+
 - Continuing to mature our access and change management programs
 - System development life cycle controls
 - Program change management controls
@@ -75,6 +73,3 @@ IT Compliance works closely with our Security Compliance team to ensure that Git
 #### [Business Technology Change Management](/handbook/business-technology/change-management/)
 
 IT Compliance works closely with our internal business partners for all Enterprise Application Change Management. More information can be found in our [Business Technology Change Management](https://internal.gitlab.com/handbook/it/it-change-management/) handbook page.
-
-
-

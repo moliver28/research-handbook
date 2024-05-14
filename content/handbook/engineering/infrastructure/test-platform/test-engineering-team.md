@@ -52,7 +52,7 @@ Here is an [overview](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/658
 
 #### Issue weights
 
-We estimate every task during iteration planning. Our weighting strategy is based on [Test Platform Weighting](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/#weights)
+We estimate every task during iteration planning. Our weighting strategy is based on [Test Platform Weighting](/handbook/engineering/infrastructure/test-platform/#weights)
 
 | Weight | Description | Approximate time | Example issues |
 |--------|-------------|------------------|----------------|

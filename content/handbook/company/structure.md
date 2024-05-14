@@ -49,6 +49,7 @@ Having Job frameworks that managers and team members share will help us make thi
 ### How to use Job Frameworks
 
 We are using the Job Frameworks in the following programs:
+
 - [Promotion Process](/handbook/people-group/promotions-transfers/)
    - Here the review of the Job Framework will be required ahead of the quarterly Department Promotion Calibrations.
    - The Job Framework will help provide focus for the promotion document to ensure core areas of performance at the next level are captured consistently across the company
@@ -259,6 +260,7 @@ Directs-Group is a group made up of a senior leader from each function. These le
 #### Directs-Group Selection Criteria
 
 Each Directs-Group cohort must meet the following criteria:
+
 1. High growth and high performing team members in good standing
 1. Director + who are direct reports to an E-Group member
 1. Folks who consistently demonstrate [CREDIT Values](/handbook/values/)
@@ -331,6 +333,7 @@ Through monthly meetings and a Slack channel, this group will be engaged to:
 ### VP-Directs Group Management
 
 Initial management will include:
+
 1. Rotating E-Group sponsor: formal E-Group representative
 1. The Chief of Staff to the CEO: owns E-Group interlock, partners with sponsor
 1. VP of Talent and Engagement: Owns team engagement and partners with VP of Global comms on internal comms. VP of Global Comms owns broader communication where necessary.
@@ -378,6 +381,7 @@ Our groups operate on the principle of [stable counterparts](/handbook/leadershi
 For example, we have a Product Manager, Product Marketing Manager, Engineering Manager, Content Marketer, Backend Developers, Frontend Developers, and Product Designers that are all dedicated to a group called "Package". Collectively, these individuals form the "Package group". The word "Package" appears in their titles as a specialty, and in some cases, their team name.
 
 We distinguish between types of stable counterparts to these Product Groups with:
+
 - Primary Stable Counterparts - Team members assigned to our Product hierarchy (typically groups) from Product, Development, Product Design and Quality functions which we call the [Quad](/handbook/engineering/infrastructure/test-platform/quad-planning/).
 - Complete Stable Counterparts - All team members assigned to product hierarchy from functions outside of the primary functions and defined in our [product categories page](/handbook/product/categories/). For example - we assign stable counterparts from Support, Product Marketing and Customer Success who are all considered part of the complete stable counterparts.
 

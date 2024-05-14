@@ -139,6 +139,7 @@ Extends the Senior Architect responsibilities:
 ### Requirements
 
 Extends the Senior IT Architect requirements:
+
 - 5-8 years of enterprise architecture experience.
 - Working with Visio, Lucid Charts or EA tools preferred.
 - Multiple application & Integration certifications highly preferred.
@@ -213,7 +214,6 @@ Extends the Principal Architect requirements:
 - Working with Visio, Lucid Charts or EA tools preferred.
 - Multiple business systems & Integration certifications highly preferred.
 - Knowledge of enterprise architecture frameworks such as Zachman; TOGAF certification.
-
 
 ### Performance Indicators
 

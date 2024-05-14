@@ -86,7 +86,6 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [Restricted stock unit vesting](/handbook/stock-options/#vesting) after cliff of six months is passed
 1. Average retention of team members is around 3 years
 
-
 ## Year
 
 1. [Yearlies](/handbook/company/yearlies/) for setting annual company goals

@@ -30,11 +30,11 @@ The Sr EBA to the CFO is the DRI of scheduling the quarterly Audit Committee mee
 All Audit Committee materials being reviewed during the meeting will be uploaded into Boardvantage 5 business days prior to the Committee meeting by the Corporate Paralegal. Committee members will be notified of such by the Management DRI.
 
 Audit Committee meetings are attended by:
+
 - The Chairperson of the Audit Committee, Audit Committee Members, CLO, CFO and Finance Leadership are all required attendees
 - Other Team Members may be invited if needed or requested, depending on subject matter
 - External Auditors and Outside Counsel
 - All Board Members including the CEO are invited to all Committee meetings as optional attendees
-
 
 ### Compensation and Leadership Development Committee
 
@@ -62,15 +62,11 @@ Compensation and Leadership Development Committee meetings are attended by:
 - Outside Compensation Consultant and Outside Counsel
 - All Board Members including the CEO are invited to all Committee meetings as optional attendees
 
-
-
-
 ### Nominating and Corporate Governance Committee
 
 - **Chairperson:** Matthew Jacobson
 - **Members:** Sue Bostrom, Godfrey Sullivan
 - **Management DRI:** Chief Legal Officer
-
 
 > [Nominating and Corporate Governance Committee Charter]({{< ref "nomgov" >}})
 
@@ -91,7 +87,6 @@ Nominating and Corporate Governance Committee meetings are attended by:
 - Outside Counsel
 - All Board Members are invited to all Committee meetings as optional attendees
 
-
 ### Mergers and Acquisitions Committee
 
 - **Chairperson:**
@@ -99,7 +94,6 @@ Nominating and Corporate Governance Committee meetings are attended by:
 - **Management DRI:** Chief Product Officer
 
 > [Mergers and Acquisitions Committee Charter](https://drive.google.com/file/d/1_GG0JJ2NUq50djVx-yxwnrRJUhIYhs3D/view?usp=sharing)
-
 
 **Meeting Process**
 
@@ -193,7 +187,6 @@ This section is updated after every Board Meeting by the Staff EBA to the CFO fo
 1. 2024-07-01 - The Staff EBA to the CFO updates this section of the Handbook page with the timeline for the next Board meeting in September 2024.
 1. 2024-07-02 - The E-Group debriefs in the first E-Group Meeting after the Board Meeting.
 
-
 #### Board Materials
 
 GitLab uses Nasdaq’s Boardvantage (NBV) portal for the electronic dissemination and storage of materials relating to GitLab’s Board Meetings.
@@ -211,7 +204,6 @@ For a more detailed overview of navigating the NBV portal, please click here to 
    - The Administration Session for Board Committee readouts by the Committee Chairperson updating the Board as to the Committee’s activities and highlighting the items requiring Board approval, if any.
 1. Questions can be asked throughout the meeting. 30 minutes are reserved at the end of the General Session for Q&A / Discussion.
 1. At the conclusion of the General Session the E-Group, Observers, CoS to the CEO, Staff EBA, CEO Shadows depart the zoom meeting and the full Board shall meet for a Closed Session.
-
 
 ### Board Dinner
 
@@ -264,7 +256,6 @@ We don't include links to the handbook or full meeting notes as Board Recaps are
 ## Board Deep Dives
 
 Board Members may request additional time for a deep dive on a specific topic. This ask often occurs during a Board Meeting. In these instances, the E-Group owner most responsible for the topic is the DRI for preparing for and scheduling the follow up conversation. The Board Members who asked for the meeting should be in attendance. All Board Members should be added to the invite as optional. These meetings should usually be scheduled for 50 minutes. When appropriate, these meetings should be recorded and posted to the NBV portal. The loop should always be closed with a [Board Recap](#board-recaps) to the entire Board.
-
 
 ## Quarterly AMA with the Board
 
@@ -331,11 +322,13 @@ Board member onboarding from a GitLab orientation perspective:
 New Director will be be provided with:
 
 1. Links to relevant Handbook pages, including:
+
   - Committee Membership
   - Committee Charters
   - Code of Conduct
   - Related Party Transactions Policy
   - Bylaws
+
 1. Certificate of Incorporation
 1. Access to the Legal Board Drive
 1. Org chart
@@ -347,6 +340,7 @@ New Director will be be provided with:
 1. Add new Director to our team page and update relevant Handbook pages (stable counterpart page, committee members, etc.)
 1. Update Board distribution list with Board Member and support staff
 1. Send calendar invites to Board member and support staff for:
+
   - Board meetings as well as a Board calendar covering meetings for next fiscal year
   - Board dinners
   - Board Committee Meetings (as needed)
@@ -354,17 +348,21 @@ New Director will be be provided with:
   - Contribute
   - Sales Kickoff
   - President's Club
+
 1. Update Board Member contact information list and circulate to Board and support staff
 1. Schedule AMA with New Board member
 1. Schedule *Functional Reviews* within the first month:
 1. Corporate Strategy (CEO) - 50 mins
+
   - Materials for meeting: Most recent Board of Directors meeting presentation, Key Review slides, current quarter OKRs. Please do not generate new content. The Staff EBA to the CEO sends material to the new Director at least 72 hours in advance. The meeting is centered around the new Director's questions
   - [GitLab Strategy](/handbook/company/strategy/)
   - [3 year strategy](/handbook/company/strategy/#three-year-strategy)
   - [Company KPI's](/handbook/company/kpis/)
   - [Quarterly OKRs](/handbook/company/okrs/)
   - [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/)
+
 1. Finance (CFO) - 80 minutes suggested
+
   - Financing profile, liquidity, creditworthiness, credit ratings
   - Current issues, Board oversight issues
   - Risk assessment
@@ -375,6 +373,7 @@ New Director will be be provided with:
   - Current topics, Board oversight
   - Discuss separate meeting with Auditors
   - Audit Committee Overview
+
 1. Legal, Compliance, Regulatory, Governance (CLO)  - 50 minutes suggested
     - Legal matters, if any
     - Compliance and regulatory, generally

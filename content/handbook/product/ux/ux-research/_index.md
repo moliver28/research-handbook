@@ -125,7 +125,7 @@ Below is a full list of our UX Research team handbook content:
 
 ### Measures and processes the UX Research team is responsible for
 
-- [Product Customer Satisfaction (CSAT) Survey](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/csat/)
+- [Product Customer Satisfaction (CSAT) Survey](/handbook/product/ux/performance-indicators/csat/)
 - [System Usability Scale](/handbook/product/ux/performance-indicators/system-usability-scale/)
      - [System Usability Scale responder outreach](/handbook/product/ux/performance-indicators/system-usability-scale/sus-outreach/)
 - [Paid NPS (Deprecated)](/handbook/product/ux/performance-indicators/paid-nps/)

@@ -10,7 +10,6 @@ title: "Channel Partner Migration Services"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
 GitLab encourages our GitLab Partners to engage in and lead technical services such as migrating to GitLab. This page overviews different data sources that can be transferred to various GitLab destinations. For deeper technical understanding, engineers should enroll and learn from the GitLab University [GitLab Certified Migration Services Specialist Learning Path.](https://university.gitlab.com/learning-paths/gitlab-certified-migration-services-specialist-learning-path)
 
 See [Import and Migrate Groups and Projects](https://docs.gitlab.com/ee/user/project/import/) for a short technical overview of available paths to importing or migrating to GitLab.
@@ -20,9 +19,10 @@ See [Import and Migrate Groups and Projects](https://docs.gitlab.com/ee/user/pro
 _For the links in this section, login to our [GitLab Partner Portal](https://partners.gitlab.com/) first, then click the links:_
 
 GitLab Partners who are successful at performing customer-facing migrations often take this example path in client engagement:
+
 1. Scope/size of the migration: How many users? How many code repositories? Will the group structure remain intact, or is the migration an opportunity to 'clean up unused projects' within GitLab? Would a [GitLab Partner Led Optimization Service](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459892&renderMode=Collection) be a better first step?
 1. Understand the customer's business: What artifacts are needed to be migrated? Is an audit-compliance history of users, issues, and merge requests important to the company? Or is migrating just the git code repository sufficient? What data is your customer sensitive to migrating?
-1. Health check: Is the import data source healthy, or would a [Readiness Assessment](https://handbook.gitlab.com/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/readiness/) help provide the health of the GitLab source? Are some git repositories unable to be cloned, or require cleaning up? Are there any large code repositories with a long-lived history?
+1. Health check: Is the import data source healthy, or would a [Readiness Assessment](/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/readiness/) help provide the health of the GitLab source? Are some git repositories unable to be cloned, or require cleaning up? Are there any large code repositories with a long-lived history?
 1. Post-migration needs: Are there other consultative considerations like access control, and Single-Sign-On (SSO) that need to be configured as part of the migration and adoption towards GitLab or GitLab.com?
 
 After having a technical scoping/sizing conversation with your customer, GitLab Partners find our [GitLab Channel Service Packages](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) helpful. These contain templated Data Sheets, Statements of Work (SOWs), and Project Plans. GitLab Partners are welcome to take and use these GitLab Channel Service Packages as templates for your customer work. Rebranding and rewording towards your unique technical service offering is encouraged. The table also outlines the GitLab expectations for the certifications held by our partners under the `Aligned Partner Certification` column.
@@ -96,5 +96,3 @@ Important to note about Congregate:
 The GitLab Professional Services team has a [full-service catalog of offerings available](https://about.gitlab.com/services/catalog/) for direct customers. Partners may review the offerings for inspiration towards delivering similar Professional (consultative) Service offerings.
 
 The [GitLab Professional Services Migration Package](https://drive.google.com/file/d/1SK4iEg3XKx2nBWNo7xDlBbjLfOe1cFhB/view) is one popular offering.
-
-

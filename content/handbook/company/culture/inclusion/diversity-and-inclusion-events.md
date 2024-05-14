@@ -18,7 +18,6 @@ On this page you will be provided an overview of the Diversity, Inclusion & Belo
 | Jun | [Published DIB Advisory Group Goals]({{< ref "influencer-group-guide" >}}) |
 | Aug | Published 2021 DIB survey results to the company |
 
-
 ## Summary of Events for 2020
 
 | Month    | Events                                                          |
@@ -45,7 +44,6 @@ On this page you will be provided an overview of the Diversity, Inclusion & Belo
 | Oct      | DIB Training w/Certification                                    |
 |          | [Coming Out Day Panel Discussion - Hosted by GitLab Pride TMRG](https://www.youtube.com/watch?v=OUKWs6hkMQY&feature=youtu.be)   |
 |          | Hired additional DIB Team Member - [Liam McNally](/handbook/company/team/#lmcnally1)                             |
-
 
 ## Summary of Events for 2019
 

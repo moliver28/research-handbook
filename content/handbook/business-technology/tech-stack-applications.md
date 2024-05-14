@@ -31,7 +31,7 @@ The historical spreadsheets (deprecated on 2020-10-16 and 2021-03-03) can be fou
 |Role|Responsibilities|
 |----------|------------------------------|
 |Business and Technical Owners of Systems|Accountable for completeness and accuracy of Tech Stack data; Process [Tech Stack updates](/handbook/business-technology/tech-stack-applications/#tech-stack-updates); Primary contacts for system-related inquiries and administration.|
-|IT Business Technology| Code Owners of Tech Stack; Advise Business and Technical Owners in supporting systems.
+|IT Business Technology| Code Owners of Tech Stack; Advise Business and Technical Owners in supporting systems. |
 |Security Risk|Help facilitate Tech Stack updates, including the [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis.html#business-impact-analysis) for new and existing systems.|
 
 ## Tech Stack Definitions
@@ -86,12 +86,11 @@ Please ensure that whenever you update the tech stack, you follow the instructio
 
 To add a new system to the tech stack, you must start a merge request in the [tech stack yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and follow the steps below.
 
-
 **Step 1**
 
 Copy the content below (including the `-` before `title`) and please add your system to the stack in its appropriate alphabetical placement. Make sure you fill out anything that the 'MR Author and contributors' are responsible for according to [Tech Stack Data section](/handbook/business-technology/tech-stack-applications/#what-data-lives-in-the-tech-stack). Make sure to use the correct data type for each required field.
 
-```
+```yaml
 - title:
   team_member_baseline_entitlement:
   description:
@@ -148,6 +147,7 @@ Are you experiencing issues with an application/system? Visit our [Tech Stack YA
 ### Compliance
 
 Many applications listed in the Tech Stack are in-scope for regulatory or other compliance activities. For more information please reach out to the DRIs listed below:
+
 - FedRAMP: Corey Oas (@corey-oas), Security Compliance
 - GitLab SaaS SOC2: Liz Coleman (@lcoleman), Security Compliance
 - GitLab Dedicated SOC2: Corey Oas (@corey-oas), Security Compliance
@@ -158,8 +158,6 @@ Many applications listed in the Tech Stack are in-scope for regulatory or other 
 
 The offboarding templates need to be updated when a new system is added to the Tech Stack in order for GitLab to be compliant and remove Team Members from systems once they leave GitLab. There are two different ways to update the offboarding templates.  Pick the option which best suits the usage of the new system. Once the MR is ready to be merged, tag the People Connect team - `@gl-people-connect-team` - for approval and merge.
 
-
-
 <details>
 <summary markdown="span">Option 1: New system used by all/many Team Members, across multiple departments</summary>
 
@@ -169,7 +167,7 @@ The main template is divided into two sections.  The first section is the [Offbo
 
 The second section is the [Tech Stack System Deprovisioning / Offboarding](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md#tech-stack-system-deprovisioning-offboarding-tasks-that-need-to-be-completed-within-5-days) section.  Update this section with the new system being added to the Tech Stack.  Use the format below to make the update:
 
-```
+```markdown
 ## Department that owns the new system. If new system is owned by multiple departments, list the department the main deprovisioner belongs to. Please make sure the department does not already exist within the template. If it does, ignore this header and just add the following information underneath the existing department header
 
 #### <summary>Name of deprovisioner @usernameofdeprovisioner, Name of deprovisioner 2 @usernameofdeprovisioner2, etc. </summary>

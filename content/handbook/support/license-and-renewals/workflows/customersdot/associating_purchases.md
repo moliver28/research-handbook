@@ -120,7 +120,6 @@ We need **one** of the following in order to verify eligibility for the subscrip
    1. [Confirm that the subscription was purchased through a reseller](/handbook/support/license-and-renewals/workflows/working_with_reseller_related_requests#identifying-whether-a-customer-purchased-through-reseller)
    1. Verify that the email address domain used by the ticket requester matches the `Sold To` email domain of the `Invoice Owner` account in Zuora as detailed in the related [legal compliance issue](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/1564#note_1451657920). In cases where a customer has made a purchase through a series of resellers, the reseller matching the email domain identified in Zuora as the `Invoice owner` of the subscription should be used for verification confirmation.
 
-
 ### Fixing typos
 
 Support may receive an [Internal Request](/handbook/support/license-and-renewals/workflows/working_internal_requests/) to correct a typo in a customer's email address and resend the license or activation code to a valid address. Use the following workflow to validate such requests before making any changes:

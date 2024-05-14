@@ -7,7 +7,6 @@ description: "The Identity Platform manages the top-level of administrative acce
 You are viewing a preview of documentation for the future state of GitLab Identity v3 (mid 2024). See the <a href="/handbook/security/access-management-policy">Access Management Policy</a> for the GitLab Identity v2 current state with baseline entitlements and access requests. See the <a href="/handbook/security/identity/roadmap">Identity v3 roadmap</a> to learn more about the future state.
 {{% /alert %}}
 
-
 {{% alert title="Not the guide you are looking for?" color="info" %}}
 You are viewing the engineering deep-dive instructions for policy management. We also have specific guides for <a href="/handbook/security/identity/guide/manager">managers</a>, new and existing team member <a href="/handbook/security/identity/guide/user">end users</a>, <a href="/handbook/security/identity/guide/audit">auditors</a> and <a href="/handbook/security/identity/guide/change-mgmt">change management</a>, <a href="/handbook/security/identity/guide/app">tech stack application system owners</a>, and <a href="/handbook/security/identity/guide/onboarding">onboarding</a> and <a href="/handbook/security/identity/guide/offboarding">offboarding</a> guides for Identity, IT, People, and Security Operations team members.
 {{% /alert %}}
