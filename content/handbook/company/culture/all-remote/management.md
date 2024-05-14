@@ -23,7 +23,7 @@ In truth, managing an all-remote company is much like managing any other company
 
 Remote forces you to do the things you should be doing [way earlier and better](https://nohq.co/blog/sid-sijbrandij-people-dont-want-to-commute-they-ju). It forces discipline that sustains culture and efficiency [at scale](./scaling), particularly in areas which are easily deprioritized in small colocated companies.
 
-It's important to not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asynchronous communication]({{< ref "./management#asynchronous" >}}), be [handbook-first](/handbook/handbook-usage#why-handbook-first), design an [optimal workspace]({{< ref "./workspace" >}}), and understand the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
+It's important to not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asynchronous communication]({{< ref "./management#asynchronous" >}}), be [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), design an [optimal workspace]({{< ref "./workspace" >}}), and understand the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
 
 ## Get certified in remote management
 
@@ -123,7 +123,7 @@ Remote work is what led to the development of our publicly viewable [handbook](/
 
 Each department and team's quarterly goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs), are also clearly documented in our handbook for visibility across the company. We check in on these goals monthly, so there's as much transparency as possible around what each team is accomplishing.
 
-Our approach to [documentation](/handbook/documentation) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}), because everything they need to know is in one place.
+Our approach to [documentation](/handbook/product/ux/technical-writing/documentation/) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}), because everything they need to know is in one place.
 
 We also have an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) and we host a [GitLab 101](/handbook/company/culture/gitlab-101) for new hires to ask questions.
 

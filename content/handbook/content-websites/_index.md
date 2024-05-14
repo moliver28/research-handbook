@@ -33,7 +33,7 @@ This page further documents the scope and responsibilities of the DRI and their 
     1. `handbook.gitlab.com` is primarily backed by the [`gitlab-com/content-sites/handbook`](https://gitlab.com/gitlab-com/content-sites/handbook/)  project and repo.
     1. Data (yml) files currently resides in the [`gitlab-com/www-gitlab-com`](https://gitlab.com/gitlab-com/www-gitlab-com) repository.
 1. The ["Internal Handbook" at `internal.gitlab.com`](https://internal.gitlab.com/):
-    1. This website contains content that falls into the [not public](/handbook/communication/confidentiality-levels/#not-public) category. More details are available in [the Internal Handbook usage page](/handbook/handbook-usage#the-internal-handbook)
+    1. This website contains content that falls into the [not public](/handbook/communication/confidentiality-levels/#not-public) category. More details are available in [the Internal Handbook usage page](/handbook/about/handbook-usage/#the-internal-handbook)
     1. The Internal Handbook is backed by the [`gitlab-com/content-sites/internal-handbook`](https://gitlab.com/gitlab-com/content-sites/internal-handbook) project and repo.
 1. The theme for the handbook sites is in the [`gitlab-com/content-sites/docsy-gitlab`](https://gitlab.com/gitlab-com/content-sites/docsy-gitlab) project.
 
