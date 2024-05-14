@@ -494,7 +494,7 @@ Make sure the appropriate labels (such as `customer`) are applied so every issue
 
 ## Product Development Timeline
 
-[![](/handbook/engineering/workflow/gitlab-release-timelines.png)](https://gitlab.com/gitlab-org/gitlab/-/snippets/3670861)
+[![](gitlab-release-timelines.png)](https://gitlab.com/gitlab-org/gitlab/-/snippets/3670861)
 
 Teams (Product, UX, Development, Quality) continually work on issues according to their respective workflows.
 There is no specified process whereby a particular person should be working on a set of issues in a given time period.
