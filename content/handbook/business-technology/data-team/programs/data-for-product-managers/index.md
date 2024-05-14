@@ -32,12 +32,11 @@ Here are some useful links that we recommend for you to bookmark:
 - Dashboards are collections of charts and have a unique URL (like a "page").
 - If you have a Creator or Explorer license, you'll be able to create both of these.
 
-
 #### How do I know what tables are available?
 
 - The data team uses a tool called [dbt](https://www.getdbt.com/) for our data transformation layer. A nice feature of dbt is dbt docs, which automatically creates documentation for all of the models in our schema. Our dbt docs instance can be found [here](https://gitlab-data.gitlab.io/analytics/#!/overview).
     - Tableau will show a list of all tables available for querying when you form a connection to Snowflake in the Data Source pane.
-    - ![](/handbook/business-technology/data-team/programs/data-for-product-managers/schemas.png)
+    - ![''](/handbook/business-technology/data-team/programs/data-for-product-managers/schemas.png)
     - Table names are always prefixed by their source name. So the table that stores the ngroups table from the gitlab dotcom database is available at `legacy.gitlab_dotcom_groups`
 
 ##### How can I update or add more information to the dbt docs?
@@ -111,7 +110,6 @@ You can find details about those snippets on the [Product Manager Toolkit](/hand
 
 #### Examples
 
-
 ### Snowplow
 
 - Snowplow Analytics is an open-source enterprise event-level analytics platform that enables data collection from multiple platforms for advanced data legacy.
@@ -120,7 +118,6 @@ You can find details about those snippets on the [Product Manager Toolkit](/hand
 - We do not track `user_id` on any of the snowplow events, making all events functionally anonymous. This severely limits the utility of these events.
 - We have found the [Snowplow Inspector](https://chrome.google.com/webstore/detail/snowplow-inspector/maplkdomeamdlngconidoefjpogkmljm?hl=en) to be very useful in tracing and debugging events being sent through the browser.
 - Snowplow is not sending data from self-managed instances. If they deem it helpful, the instance administrator can [configure their own Snowplow endpoint](https://docs.gitlab.com/ee/development/snowplow/#enable-snowplow-tracking) for the events.
-
 
 #### What can Product Managers do?
 
@@ -153,6 +150,7 @@ Testing Snowplow events can be tricky. Snowplow doesn't have a proper testing in
 #### Visualize your events in Tableau
 
 The data you have instrumented is useful only if it can be visualized in a chart. Refer to the [Tableau section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/) of the handbook for information on creating charts.
+
 - Check if they are correctly stored in Snowflake in the [Snowplow Event Exploration Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2294309). You can use the filters to find your events. If you are not sure of the value of the different attributes, they should have been captured in your issue using [Snowplow event tracking template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Snowplow%20event%20tracking.md). If not, check with your engineering manager.
 - Once you have verified that your events is properly stored. You are ready to query and visualize the data! Please be aware that we are collecting several millions of events (page views, structured events) per month, so the whole dataset is quite slow to query. In order to make  it easy to explore this data source we have created several smaller and more compact tables:
   - [`legacy.snowplow_structured_events_all`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.snowplow_structured_events_all): contains ALL structured events

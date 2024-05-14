@@ -180,7 +180,6 @@ For trading in an open trading window, please find the following instructions fo
 
 If you would like to purchase GTLB shares, this must be done through your E*TRADE retail account during an open trading window. We would ask that you send us a message at stockadmin@gitlab.com as we will need to get consent from you to track your GTLB retail shares.
 
-
 ## Questions about your stock plan or retail account
 
 ### E-TRADE Securities Customer Service 12 a.m. Monday to 11:59 p.m. Friday ET   Closed holidays  (800-838-0908)
@@ -213,6 +212,7 @@ Tax law is complex and you should consult a tax attorney or other tax advisor wh
 ### US employees with Incentive Stock Options (ISOs)
 
 Taxation from the US perspective is not as straightforward as you might like. You aren’t taxed when you exercise your options. Tax is due on the gain or profit you make when you sell the stock. Depending on your holding period, the tax may be treated as ordinary income or capital gain. Moreover, when you hold the options long enough you may be subject to 0% capital gains tax. To outline the five possibilities of the different scenarios that may apply:
+
 1. Exercise your options to purchase shares, and hold.
 1. Exercise your options to purchase shares, and sell the shares within the same year.
 1. Exercise your options to purchase shares, and sell the shares in less than twelve months, but during the following year.

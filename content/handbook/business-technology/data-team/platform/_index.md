@@ -65,6 +65,7 @@ We currently use [Stitch](https://www.stitchdata.com) and [Fivetran](https://fiv
 Stitch and Fivetran handle the start of the data pipeline themselves. This means that Airflow does not play a role in the orchestration of the Stitch- and Fivetran schedules.
 
 Other solutions we use to extract data are:
+
 1. [Meltano](https://internal.gitlab.com/handbook/enterprise-data/platform/Meltano-Gitlab/)
 1. Custom pipelines built in [Python](/handbook/business-technology/data-team/platform/python-guide/) and orchestrated via [Airflow](/handbook/business-technology/data-team/platform/infrastructure/#airflow)
 1. Flows built in Tableau Prep and orchestracted by Tableau Cloud
@@ -79,6 +80,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 **The link in the pipeline column in the table below will bring you to the detailed page of the specific data pipeline if applicable.**
 
 **Key**
+
 - Pipeline: The technology we use to replicate data.
 - RF (Replication Frequency): How often we load new and updated data.
 - Raw Schema: The schema in the `RAW` database where data is stored.
@@ -150,7 +152,6 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Zuora Data Query](https://knowledgecenter.zuora.com/Zuora_Central_Platform/Query/Data_Query/A_Overview_of_Data_Query#Using_Data_Query)| Airflow | `zuora_query_api`| `zuora_query_api`|Finance | 24h / 48h | Yes | Tier 1 |
 | [Zuora Revenue](https://knowledgecenter.zuora.com/Zuora_Revenue) | Airflow | `zuora_revenue` | `zuora_revenue` | Finance | 24h / 48h | Yes | Tier 1 |
 
-
 ##### Source contacts
 
 See the [source contact spreadsheet](https://docs.google.com/spreadsheets/d/1VKvqyn7wy6HqpWS9T3MdPnE6qbfH2kGPQDFg2qPcp6U/edit) for who to contact if there are any external errors.
@@ -184,7 +185,6 @@ Sensitive data is locked down through the security paradigms listed below;
 - [Salesforce](https://youtu.be/KwG3ylzWWWo)
 - [Zendesk](https://drive.google.com/open?id=1oExE1ZM5IkXcq1hJIPouxlXSiafhRRua)
 
-
 ### Snowplow Infrastructure
 
 Refer to the [Snowplow Infrastructure page](/handbook/business-technology/data-team/platform/snowplow) for more information on our setup.
@@ -200,6 +200,7 @@ We currently use [Snowflake](https://docs.snowflake.net/manuals/index.html) as o
 #### Snowplow nullify columns
 
 In order not to extract geo data into Snowplow, the following columns were nullified:
+
 - `geo_zipcode`
 - `geo_latitude`
 - `geo_longitude`
@@ -244,6 +245,7 @@ All new loads in the `S3` bucket will go into the same folder as before `gitlab-
 ### Snowflake support portal access
 
 To get access to snowflake support portal, please follow the below steps.
+
 - Register using gitlab email id to [community portal](https://community.snowflake.com/CommunitiesSelfReg)
 - This registration will send a welcome email to gitlab mail with the subject `Welcome to the Snowflake Community`. In the mail it will ask you to finish the registration as part of that you will be asked to set your password for the community portal.
 - Once done login again to your snowflake community account and on the home page, click `submit case`. For the first time, the user who do not have access to submit a case with snowflake. It will ask you to fill in the form for access.
@@ -270,6 +272,7 @@ Snowflake can be used to perform analyses on the data that is available by writi
 
 In order to be granted access to Snowflake, an AR must be opened as [described](/handbook/business-technology/data-team/platform/#warehouse-access). A new user will be created with access to query the `PROD` database.
 There are 2 levels of data access:
+
 - General data --> Adding the Snowflake `snowflake_analyst` role to their account.
 - SAFE data (you must be or will become a designated insider) --> Adding the Snowflake `snowflake_analyst_safe` to their account. See the [SAFE Guide](handbook/business-technology/data-team/platform/safe-data/#snowflake) for the needed approvals.
 
@@ -364,9 +367,7 @@ graph LR
     A -->|Member of| C[Privileged Role: securityadmin]
 ```
 
-
 #### **Managing Roles for Snowflake**
-
 
 Here are the proper steps for provisioning a new user and user role:
 
@@ -393,7 +394,6 @@ Here are the proper steps for deprovisioning existing user:
 - Remove the user from `okta-snowflake-users` [Google Group](https://groups.google.com/my-groups)
 - Remove the user records in Snowflake [roles.yml](https://gitxlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml) permifrost config file (this file is automatically loaded every day at 12:00a.m. UTC)
 
-
 For more information, watch this [recorded pairing session](https://youtu.be/-vpH0aSeO9c) (must be viewed as GitLab Unfiltered).
 
 ## Snowflake Provisioning Automation
@@ -403,6 +403,7 @@ In FY25-Q1, we are moving towards semi-automating the above `Managing Roles for 
 All GitLab Team Members are encouraged to open a MR following this [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/snowflake_provisioning_automation/snowflake_provisioning_automation.md) if they need access to Snowflake.
 
 High-level description of the process:
+
 1. Open an Access Request and get the approvals in place
 1. Open an MR
 1. Run CI pipeline
@@ -410,8 +411,8 @@ High-level description of the process:
 
 The rest of the section is meant to describe the automated process in more detail.
 
-
 The main processes that have been automated are:
+
 1. create/remove users from Snowflake platform
 1. update `roles.yml` which is used by Permifrost to update Snowflake role/user permissions
 
@@ -444,6 +445,7 @@ Furthermore, the next section provides additional details on optional **template
 This is useful if you have many users that need a value different from the default. One option would be to run with the default values, and then manually update the MR, but depending on the number of users to update, a potentially better option is to pass in a custom values template.
 
 The rest of the section will do two things:
+
 1. Explain how templates work
 1. For convenience, provide custom templates that represent common values currently used in `roles.yml`
 
@@ -468,11 +470,12 @@ Now, an example of when we want to override the default value above. What happen
 
 Within the CI job, we could pass in a custom template to override the default value like so:
 
-```
+```plain
 ROLES_TEMPLATE: {"{{username}}": {"member_of": ["snowflake_analyst"],"warehouses": ["dev_xs", "dev_m"]}}
 ```
 
 Currently, these are the available template-able values that will be rendered:
+
 - `{{ username }}`
 - `{{ prod_db }}`
 - `{{ prep_db }}`
@@ -692,8 +695,8 @@ The source of truth for this is in the [`dbt_project.yml` configuration file](ht
 | workspaces/ | prod.workspace_`workspace` | Contains workspace models that aren't subject to SQL or dbt standards.  | Yes |
 | common/restricted | prod.restricted_`domain`_common | Top-level folder for restricted facts and dimensions. Equivalent of the regular common schema, but for restricted data. | Yes |
 | common_mapping/resticted | prod.restricted_`domain`_common_mapping | Contains restricted mapping, bridge, or look-up tables. Equivelement of regular common mapping schema, but for restricted data. | Yes |
-| marts/restricted | prod.restricted_`domain`*common*`marts` | Yes |
-| legacy/restricted | prod.restricted_`domain`_legacy | Contains restricted models built in a non-dimensional manner. Equivalent of the normal legacy schema, but for restricted data). | Yes |
+| marts/restricted | prod.restricted_`domain`*common*`marts` | Yes |  |
+| legacy/restricted | prod.restricted_`domain`_legacy | Contains restricted models built in a non-dimensional manner. Equivalent of the normal legacy schema, but for restricted data. | Yes |
 
 #### Static
 
@@ -737,7 +740,6 @@ The only exception to this rule is the use of pacific time to create date_id in 
 
 ### Snapshots
 
-
 We use the term snapshots in multiple places throughout the data team handbook and the term can be confusing depending on the context. Snapshots as defined by the dictionary is "a record of the contents of a storage location or data file at a given time". We strive to use this definition whenever we use the word.
 
 #### dbt
@@ -779,22 +781,23 @@ This can be data manipulation action done by a GitLab Team member or by services
 The vast majority of data in snowflake is copied or derived from copies of our [data sources](/handbook/business-technology/data-team/platform/#data-sources), which is all managed [idempotently](https://docs.getdbt.com/terms/idempotent) with **dbt** and so the most common procedure for data restoration or recovery is through recreating or refreshing objects using [dbt Full Refresh](/handbook/business-technology/data-team/platform/infrastructure/#dbt-full-refresh). For data in the `RAW` database, which comes from our extraction [pipelines](/handbook/business-technology/data-team/platform/pipelines/) we follow the appropriate [Data refresh procedure](/handbook/business-technology/data-team/platform/infrastructure/#data-refresh).
 
 However, there are some exceptions to this. Any data in snowflake which is not a result of idempotent processes or that cannot be refreshed in a practical amount of time should be backed up. For this we use Snowflake Time travel. Which includes:
+
 1. Storage in permanent (not transient) tables.
 1. [A data retention period](https://docs.snowflake.com/en/user-guide/data-time-travel.html#specifying-the-data-retention-period-for-an-object) of 30 days.
 
 The data retention period is set via dbt This should be implemented in code via a dbt post-hook [example](https://gitlab.com/gitlab-data/analytics/-/blob/b898087672bfeb3e6329d76696de220fc4b9b2a9/transform/snowflake-dbt/dbt_project.yml#L658).
 
 The following set of rules and guidelines applies to backing up data/using time travel:
+
 - **It is the responsibility of the [CODEOWNER](https://gitlab.com/gitlab-data/analytics/-/blob/master/CODEOWNERS) to ensure that the backup processes has been correctly implemented for the data that their code builds or maintains.**
 - Backups (via Time Travel)  need not be applied on dbt models by [default](https://docs.getdbt.com/reference/resource-configs/snowflake-configs#transient-tables) since these are idempotent **and** this would result in a huge increase of the storage costs in Snowflake.
 - The retention period is set to 30 days.
 
 At the moment the following snowflake objects are considered in scope for Time Travel recovery:
+
 - `RAW.SNAPSHOTS.*`
 
-
 Once a table is permanent with a retention period we are able to use [Time Travel (internal runbook)](https://gitlab.com/gitlab-data/runbooks/-/blob/main/data_restoration/time_travel.md) in the event we need to recover one of these tables.
-
 
 ##### Unavailability of the Snowflake environment
 
@@ -849,8 +852,6 @@ We use [dbt](https://www.getdbt.com/) for all of our transformations.
 See our [dbt guide](/handbook/business-technology/data-team/platform/dbt-guide) for more details on why and how we use this tool.
 
 ## <i class="fas fa-check-double fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Trusted Data Framework
-
-
 
 Data Customers expect Data Teams to provide data they can trust to make their important decisions. And Data Teams need to be confident in the quality of data they deliver. But this is a hard problem to solve: the [Enterprise Data Platform](/handbook/business-technology/data-team/direction/#a-complete-enterprise-data-platform) is complex and involves multiple stages of data processing and transformation, with tens to hundreds of developers and end-users actively changing and querying data 24 hours a day. The Trusted Data Framework (TDF) supports these quality and trust needs by defining a standard  framework for data testing and monitoring across data processing stages, accessible by technical teams *and business teams*. Implemented as a stand-alone module separate from existing data processing technology, the TDF fulfills the need for an independent data monitoring solution.
 
@@ -929,6 +930,7 @@ More to come.
 #### Row Count Test
 
 The row count tests reconciles the amount of rows between source database and target database by extracting data from source DB tables and load into Snowflake table and extract similar stats from Snowflake and perform comparison between source and target. Their is a challenge to have an exact match between source and target, because;
+
 - There is timing difference.
 - Data warehouse might keep history.
 - Deletions takes place on source database.
@@ -967,6 +969,7 @@ This is all orchestrated in the Data Pump [Airflow DAG](https://airflow.gitlabda
 **Step 1:** Create a data model [using dbt](/handbook/business-technology/data-team/platform/dbt-guide/#using-dbt) in `/marts/pumps` (or `/marts/pumps_sensitive` if the model contains [RED or ORANGE Data](/handbook/security/data-classification-standard.html#data-classification-levels)), following our [SQL](/handbook/business-technology/data-team/platform/sql-style-guide/) and [dbt](/handbook/business-technology/data-team/platform/dbt-guide/#style-and-usage-guide) style and documentation standards. Create an MR using dbt model changes template. Once this is merged and appears in Snowflake in `PROD.PUMPS` or `PROD.PUMPS_SENSITIVE` you are ready for steps two and three.
 
 **Step 2:** Add Model to [`pumps.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/pump/pumps.yml) using the 'Pump Changes' MR template with the following attributes:
+
 - model - the name of the model in dbt and snowflake
 - timestamp_column - the name of the column that should be used to batch the data (or `null` if there is none and the table is small)
 - sensitive - `True` if this model contains sensitive data and is in the pumps_sensitive directory and schema
@@ -987,7 +990,6 @@ This is all orchestrated in the Data Pump [Airflow DAG](https://airflow.gitlabda
 | pump_product_usage_free_user_metrics_monthly | Salesforce | 24h | No |
 | pump_daily_data_science_scores | Salesforce | 24h | Yes |
 | pump_churn_forecasting_scores | Salesforce | 24h | Yes |
-
 
 #### Data Science Data Pumps
 
@@ -1024,12 +1026,14 @@ To reprocess a Qualtrics Mailing List request file:
 ## <i class="fas fa-toggle-on" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Data Spigot
 
 A Data Spigot is a concept/methodology to give external systems, access to Snowflake data in a controlled manner.  To give external systems access to Snowflake, the following controls are in place:
+
 - A dedicated service account.
 - A dedicated view (or views) only exposing the minimum required data. No Personally Identifiable Information (PII) may be disclosed.
 - A dedicated role (or equivalent) with access to only the specified tables/views.
 - A dedicated XS warehouse to limit and monitor costs.
 
 The process for setting up a new Data Spigot is as follows:
+
 1. Comply to the controls that are in place, as described above.
 2. Add new Data Spigots to the table below:
 
@@ -1088,6 +1092,7 @@ Much like Google Drive all GitLab team members have access to Google's [Data Stu
 Google Data Studio is especially popular with Marketing with their use of Google Analytics. Though this resides outside of the platform described above, any data managed within Google's Data Studio must adhere to the same [Data Categorization and Management Policies](/handbook/security/data-classification-standard.html) as we do in the rest of our platform.
 
 There are 3 types of objects available in Google Data Studio:
+
 - Data Sources
   - This is a connection to data sources. **Currently there is no connection available/supported towards our Snowflake data warehouse.**
 - Reports
@@ -1099,12 +1104,12 @@ The sharing and access process in Data Studio is comparable to sharing in Google
 
 A GitLab Team Member that creates any artifacts in Google Studio owns the owner permissions of that particular object. With the ownership the GitLab Team Member holds responsibility to keep data [SAFE](/handbook/legal/safe-framework/) within GitLab and outside the organization. Google Data Studio currently doesn't provide an admin interface that can take over the ownership. Upon off-boarding any ownership of existing objects should be carried over to ensure business continuity by the respective object owner. Note that [Red Data](/handbook/security/data-classification-standard.html#red) should never be stored or transmitted within Google Data Studio.
 
-
 ## Sales Analytics Notebooks
 
 The [Sales Analytics](/handbook/sales/field-operations/sales-strategy/) have a couple (but expanding) list of regular update processes that will benefit from being able to be run automatically without human intervention.
 
 Some of those are:
+
 1. **X-Ray fitted curves calculation:** Quarterly process that create a table with fitted curves to historical coverage ratios. This data is used within the X-Ray dashboard.
 2. **QTD Pre-Aggregated data for X-Ray and SAE Heatmap:** Daily process to precalculate data aggregations at different levels. This process is much easier to run in Python than with SQL and we will be able to upload the data directly into `Snowflake`.
 
@@ -1205,4 +1210,3 @@ Exceptions to this standard will be tracked as per the Information Security Poli
 ## References
 
 The platform [infrastructure](/handbook/business-technology/data-team/platform/infrastructure/).
-

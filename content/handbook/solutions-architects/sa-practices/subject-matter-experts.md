@@ -22,6 +22,7 @@ The SME Program will initially focus on the following areas:
 - AI
 
 Other areas may be added in the future, depending on customer and SA demand, such as:
+
 - Security
 - Agile planning
 - Infrastructure

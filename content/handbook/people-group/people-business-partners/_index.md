@@ -53,7 +53,6 @@ PBPs collaborate with Talent Management, Talent Development, Total Rewards,and a
 1. [Talent Assessment programs](https://handbook.gitlab.com/handbook/people-group/talent-assessment/) including promotion and career development
 1. [Succession planning](https://handbook.gitlab.com/handbook/people-group/talent-assessment/#succession-planning)
 
-
 ### Leadership coaching and development
 
 PBPs can provide invaluable leadership coaching on a range of issues such as team cohesion, team member development, team performance challenges, retention, and more. When needed, PBPs can act as an unbiased third party to discuss issues or problems and possible ideas for next steps.
@@ -72,6 +71,3 @@ People Business Partners often collaborate with others in People Group or other 
 | Accountable  | PBP is not the enterprise program DRI, but is responsible for the execution in their client group. The program requires significant lift by team members/managers. In this type of project, a PBP is part of the core project team to bring business perspective to the build phase, helps develop a communication/change mgmt plan, and executes the program in their aligned client group, including any bespoke enablement needed. The PBP is often the face of this program for their client group, and recipient of team member feedback | Talent Assessment, Promotion, ACR    |
 | Consulted | PBP provides input on how the program can be most effectively communicated or embedded in their division, but may not have a direct role in execution. Engaging the assigned PBP in reviewing comms or supporting change management can help drive adoption deeper in the organization |Elevate   |
 | Informed    | PBPs should be made aware of the project as it will impact team members and questions may be directed toward the PBP team. If PBPs are given a preview of comms for final feedback and visibility before launch, they can help ensure the comms will meet the needs of their client group | Policy or benefit changes that impact team members    |
-
-
-

@@ -6,7 +6,6 @@ title: "Labor and Employment Notices"
 
 Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company we don't have a physical worksite or breakroom wall upon which to post important labor and employment notices, so this page is our version of that.
 
-
 {{% details summary="GitLab, Inc. & GitLab Federal LLC" %}}
 
 ### Alabama
@@ -102,7 +101,6 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - **City of West Hollywood**
   - [Minimum Wage - English](https://www.weho.org/home/showpublisheddocument/56165/638158711072630000)
   - [Minimum Wage - Spanish](https://www.weho.org/home/showpublisheddocument/56249/638168015412630000)
-
 
 ### Colorado
 

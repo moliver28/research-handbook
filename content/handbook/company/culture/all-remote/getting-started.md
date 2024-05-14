@@ -231,7 +231,6 @@ By taking a look at what you've been missing, you're able to more easily assembl
 
 Consider asking yourself what you'll do with the time you save by losing the commute. Perhaps you'll be inspired to embrace a daily fitness routine, cook at home, or spend additional time with friends, family, and community. There's nothing wrong with reclaiming that time and using it to bolster your overall wellness, from improving your sleep habits to furthering your education.
 
-
 ## Resist the urge to operate the same as before
 
 {{< youtube "cy6WGuzArgY" >}}

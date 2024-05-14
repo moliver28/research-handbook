@@ -256,7 +256,6 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Managing Remote Developer Teams: How Buffer Set the Gold Standard - Interview with Katie Womersley](https://codingsans.com/blog/managing-remote-developer-teams)
 - [What Is the Best Compensation Model?](https://www.remoter.com/what-is-the-best-compensation-model)
 
-
 ### Surveys and data
 
 - [The Remote Work Report by GitLab: The Future of Work is Remote]({{< ref "./remote-work-report" >}})
@@ -285,7 +284,6 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [TechSAV's Brown Bag Series: Working & Managing Remote](https://www.youtube.com/watch?v=IORw1YvSkmw)
 
 ### Threads and conversations
-
 
 - [We Work Remotely Slack community](http://bit.ly/wwr_slack)
 - [#remotechat - remote-focused Twitter chat every Wednesday](https://twitter.com/search?q=%23remotechat&src=typeahead_click&f=live)

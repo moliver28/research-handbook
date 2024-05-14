@@ -96,7 +96,6 @@ We also added some experimental pairings:
 - EMEA/AMER Maple Hour every 2 weeks on Mondays 14:00 UTC
 - Maple NRTea Party (EMEA) on Thursdays 12:00 UTC
 
-
 ### Sync Calls
 
 The purpose is to facilitate conversations on topics like continuous development of collaboration, psychological safety, group processes, responsibilities and group results/SLAs.

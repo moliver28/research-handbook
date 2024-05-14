@@ -72,7 +72,6 @@ If you are a manager with other managers reporting to you, you will see your ove
 
 Promotion budget will be included in the managers’ budget slate, but should only be utilized for FY25Q1 promotions. Managers will be responsible for entering the promotion and new role in the promotion tab, and should recommend a compensation increase aligned with our [promotion compensation guidelines](/handbook/people-group/promotions-transfers/#promotion-compensation-guidelines). The [promotion document](/handbook/people-group/promotions-transfers/#promotion-document) path should be included in the “Promotion Notes” section on the Promotion tab.
 
-
 #### Equity
 
 Equity refresh budget will be held at the Dir+ level. Managers below the Director level will not have an equity budget nor will they be able to plan for equity on the Stock tab in Workday. Managers should discuss recommendations for equity awards with their Directors to help inform recommendations as appropriate.
@@ -80,6 +79,7 @@ Equity refresh budget will be held at the Dir+ level. Managers below the Directo
 ### Annual Compensation Review Timeline
 
 **2024-01-09 - 2024-02-05:** Managers complete merit, promotion and equity recommendations. We recommend these general timelines for completion based on your level to enable department heads to review and finalize recommendations by the deadline.
+
 - Managers, Senior Managers, Director: Complete planning by 2024-01-17
 - Senior Directors, VPs: Complete planning by 2024-01-26
 

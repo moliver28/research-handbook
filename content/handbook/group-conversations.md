@@ -88,6 +88,7 @@ There are three layers of content in a presentation:
 - Feelings, this is the verbal and non-verbal communication in the video feed, how you feel about the take away, 'I'm proud of the band for picking up the pace'.
 
 Best practices for presentations:
+
 1. Save time and ensure asynchronous communication by writing information on the slides. Many people will not be able to participate in Group Conversations, either live or recorded, but can read through the slides.
 1. To better engage team members outside of your team or function, presentations should ideally assume [low context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication).
 1. Slides with a lot of text that can be read on their own with lots of links are appreciated.
@@ -139,7 +140,6 @@ If your Group Conversation is optional and you need to move the date, please wor
 | [IT](/handbook/business-technology/it) | Nabitha Rao | Yes | Quarterly | | EBA to VP of Business Technology |
 | [Data](/handbook/business-technology/data-team/) | Amie Bright | Yes | Quarterly | | EBA to VP of Business Technology |
 
-
 ## Current Schedule
 
 | Expected Posting Date | GC | DRI | Key Review Date? |
@@ -181,7 +181,6 @@ If your Group Conversation is optional and you need to move the date, please wor
 | Monday 2025-01-06 | Security | Josh Lemos | December 18 |
 | Thursday 2025-01-30 | Data | Amie Bright | January 23 |
 | Monday 2025-02-03 | Infrastructure & Quality | Mek Stittri | January 23 |
-
 
 ## Examples of Past Group Conversations
 

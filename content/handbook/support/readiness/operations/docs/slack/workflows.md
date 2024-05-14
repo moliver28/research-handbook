@@ -83,7 +83,6 @@ This section serves as a form of "backup" for the Slack workflows we manage, as
 the current implementation of Slack workflows does not allow an export/import
 option.
 
-
 #### Licensing  Internal Requests
 
 Locate at
@@ -337,7 +336,6 @@ Permissions:
   - Everyone in GitLab
 - Can copy this workflow
   - Workflow managers only
-
 
 #### Support Contact Management
 

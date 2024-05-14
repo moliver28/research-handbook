@@ -233,7 +233,6 @@ Similar to the engagement survey, we will provide a high level overview of the r
 - 2022-07-01 through 2022-07-15 Identify Working Groups for the Key themes/feedback.
 - Late July - Action planning commences
 
-
 ### Inclusive benefits
 
 We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--maternity-care" >}}) publicly so people don't have to ask for them during interviews. In addition GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}), a one-stop shop for all tools related to mental well-being and self-improvement.
@@ -364,7 +363,6 @@ GitLab also provides additional support through the [GitLab Diversity Sponsorshi
 We offer funds to help support the event financially, and if the event is in a city we have a GitLab team member, we get hands-on by offering to coach and/or give a talk whenever possible.
 
 We encourage organizers of events that are supported through our [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/) to share [this sign up link](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) with attendees. Everyone can contribute.
-
 
 ## Definitions
 

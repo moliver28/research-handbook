@@ -166,7 +166,6 @@ En cas de maladie ou d'accident pendant les jours de télétravail, le membre de
 
 En cas de conflit entre les versions en langue française et anglaise de la Charte, le texte en français prévaudra en toutes circonstances.
 
-
 ## English: GITLAB FRANCE S.A.S. REMOTE WORK CHARTER
 
 ### PREAMBLE
@@ -332,7 +331,3 @@ In the event of a conflict between the French and English version of the Charter
 A PDF of the current version of the Charter is available [here](https://drive.google.com/file/d/1wWR8BnRFwmZURjYLHFE5_zzHh_UJB28u/view?usp=drive_link). If/when the Charter is updated, PDFs of previous versions will be made available here for transparency.
 
 - [2021 version is available here](https://drive.google.com/file/d/1rIpcgcXNVDiAyhTPnBIDohItxUwzFb3D/view?usp=drive_link).
-
-
-
-

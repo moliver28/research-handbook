@@ -30,14 +30,11 @@ Are you an active participant in Elevate+? Click here to navigate to the Particp
   </div>
 </div>
 
-
-
 ## What concepts are taught in Elevate+?
 
 Elevate+ is organized into 5 learning modules. Read more about the skills covered in each module below:
 
 ![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplus.png)
-
 
 ## Time Committment
 
@@ -53,7 +50,6 @@ Elevate+ runs for a total of 6 months and is organized into 5 learning modules. 
 | 2 | 2, 3 | Asynchronous Intersession work (GitLab) | Asynchronous assignment to reinforce concepts learned in the Live Learning Session and support participants in advancing their identified business goals. Each assignment will include conversations led by participant with identified individuals in order to directly apply new concepts and a documented deliverable due prior to the Live Cohort Workshops | 75 minutes |
 | 3 | 4 | Live Cohort Workshop (Zoom) | Cross-functional synchronous cohort workshop sessions with ~8-10 other GitLab people leaders to review Intersession work, give and get feedback on application of concepts, and additional opportunities for practice | 80 minutes |
 | 4 | 5 | Share Module Feedback (Google Forms) | Share your perspective on the Elevate+ program by providing input about each module | 5 minutes |
-
 
 ## Certification
 
@@ -81,7 +77,6 @@ If none of the Live Learning sessions will work, you may use Option 2: Async Mak
 Async makeups will be shared with participants directly via Level Up. The include watching recordings from the Live Learning and responding to text-based discussion threads in Level Up.
 
 There is no async makeup option for Cohort Workshops.
-
 
 ## Measuring Success
 
@@ -155,8 +150,3 @@ Important things to note:
 1. Participants of current Elevate+ rounds might have also been nominated to take the assessment for their colleagues. This is expected - thanks for taking time to assess your fellow Elevate+ members!
 1. The People Analytics team will have access the the entire survey data set, including names, and will use this to pull aggregate themes from across all Elevate+ participants.
 1. If you're nominated to give feedback to someone that you feel you can't give adequate feedback to, based on your level of collaboration with them, please simply ignore the message from Culture Amp and any reminders.
-
-
-
-
-

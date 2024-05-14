@@ -49,14 +49,12 @@ Think big in this section. Do you want to become a manager? Are you growing as a
 
 ![infographic showing examples of non-linear careers at GitLab](../non-linear.png)
 
-
 ## Section 3: Set your Intention
 
 Done exploring for now? It’s time to populate section 3 of the IGP. Setting your eyes on the future, section 3 prompts you to think about your medium-term goals. Think about what you want your next career step to be (from section 2) and how you will know you are successful by answering the following 2 questions:
 
 1. What accomplishments would you like to achieve to help you reach your career objectives?
 1. How will you know that you have been successful?
-
 
 A few examples of how to answer those questions are below:
 
@@ -65,7 +63,6 @@ A few examples of how to answer those questions are below:
 | Lateral Career Move | I want to learn more about product management and what types of skills are needed to pursue product management as a career. | I will know I have been successful if I can clearly articulate whether I am interested in a career in product management in 6 months. |
 | Aspiring Manager | I would like to become a people manager as part of my journey to leading a functional area. | I will know I have been successful if I am managing a team of 3 team members. |
 | IC Growth | I would like to become a technical expert in data integrations. | I will know I have been successful if I am able to lead a data integration project for a key customer account. |
-
 
 ## Set Development Goals
 
@@ -106,7 +103,6 @@ Below is a sample timeline that you may want to follow when it comes to tracking
 | August | IGP Review/Iteration | [Workday User Guide - How to: Launch an Individual Growth Plan](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.4zqq3z25qo1i) |
 | September - January | Update your development goals as you make progress | [Workday User Guide - How to: Update Your Development Goals](https://docs.google.com/document/d/1qEqTHx_G1uIPQi8rIIbrHjJ6S0NYhKDoHeBOLXsjkNw/edit#heading=h.wje1pky1vhig) |
 
-
 ## Additional Resources
 
 1. [LinkedIn Learning Course: Building a Career Plan](https://www.linkedin.com/learning/how-to-develop-your-career-plan/introduction?autoplay=true&dApp=94866976&leis=LAA&u=2255073)
@@ -119,4 +115,3 @@ Below is a sample timeline that you may want to follow when it comes to tracking
 {{< youtube "ttQv6tCaDD0" >}}
 
 1. An [Engineering specific IGP Template](https://docs.google.com/spreadsheets/d/1hYkaQrPYhnp8V_8woCrig4cqIiL0G7eEzlwBS-7wGPk/edit). This templates combines multiple resources such as the [Engineering Career Framework](https://handbook.gitlab.com/handbook/engineering/careers/matrix/), [Career Conversation Meeting Template](https://docs.google.com/document/d/1ugfwvhOcX6xPuxsn_oqZi7HV8364nQ5VnGO42IDlZkU/edit), and [Job Framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0)
-

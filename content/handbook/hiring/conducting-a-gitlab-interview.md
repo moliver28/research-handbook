@@ -200,7 +200,6 @@ This scorecard feature will increase sharing of candidates that, for example, ma
 
 **Key Takeaways:** Overall, I think he was the best candidate I have seen thus far. Plus, he is a diverse candidate. He reminded me of myself in many aspects. He had a well thought out presentation that was easy to understand, but I wish his example was more detailed.
 
-
 **This is a poor example of feedback for a few reasons:**
 
 1. Mentions information about a protected class.

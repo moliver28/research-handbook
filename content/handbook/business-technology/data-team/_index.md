@@ -16,10 +16,12 @@ description: "The GitLab Enterprise Data Team is responsible for empowering ever
 
 * Our Vision is to **Contribute to GitLab's journey of becoming the leading AllOps platform by responsibly harnessing the power of data.**
 * In pursuit of our vision, we will focus on 4 outcomes:
+
 1. **Drive** company results by building trusted, reliable, and innovative data products and insights when and where needed.
 2. **Minimize** time from question to insight to action, enabling team members to move faster by implementing efficient processes and enabling self-service analytics.
 3. **Develop** and secure our data into a uniform, trusted asset through data protection & privacy, iterating on processes, people, and platforms.
 4. **Enable** every team member to contribute to initiatives responsibly and with trust, building a powerful data-driven culture.
+
 * Read our [Direction](/handbook/business-technology/data-team/direction/) page to learn _what_ we are doing to improve data at GitLab.
 * Our [Principles](/handbook/business-technology/data-team/principles/) inform how we accomplish our mission.
 * Watch our [Data Recruiting Video](https://youtu.be/4DlwsBIPxUw) to learn about the growing Data Program.
@@ -82,7 +84,6 @@ The **[Data Platform Team & Architecture Team](/handbook/business-technology/dat
 
 The [Analytics Engineering Team](/handbook/business-technology/data-team/organization/)** transforms raw data into clean, structure and usable formats for data decision-making. The Analytics Engineering team also drives Enterprise Data Program and supports the wider data community. The team focuses on inventorying, integrating, maintaining, and governing the data at an Enterprise level. This includes collaborating with the business units and data teams in establishing and facilitating commonly accepted guidelines around Enterprise data along with building [enterprise-wide data models](/handbook/business-technology/data-team/platform/edw/), supporting [Self-Service BI](/handbook/business-technology/data-team/direction/self-service/) and Analytical capabilities by providing Data Enablement and required training to the Users on Enterprise Data Models.
 
-
 ### The Enterprise Insights & Data Science Team
 
 The [Enterprise Insights & Data Science Team](/handbook/business-technology/data-team/organization/data-science/) utilize analytics and Machine Learning (ML) for insights into customer behavior and company performance. The Enterprise Insights & Data Science team focuses on delivering a complete view of the customer (Customer 360), predict customers that are likely to buy, expand or churn, develop models to predit the long-term value of customers, create detailed customer profiles, and deliver insights on company performance.  The Team acts as a Center of Excellence for predictive analytics and supports other teams in their data science endeavours by developing tooling, processes, and best practices for data science and machine learning. List of the current projects can be found in the [Data Science handbook page](/handbook/business-technology/data-team/organization/data-science/).
@@ -137,6 +138,7 @@ Our impact will be measured against 4 dimensions (these metrics will adjust as o
 
 First we have the evaluation criteria known as Dollar Value of our Results as calculated by the Data Value Calculator. We can use the [Data Team Value Calculator](/handbook/business-technology/data-team/how-we-work/#data-team-value-calculator) to calculate the dollar value of the initiatives we contribute to and the issues we complete.
 Additionally we want to shift to a more aspirational measurement which is to measure the ARR impact or efficiency gain from each of our data products. Our data science models will be measured in the following ways:
+
 * Propensity to Expand (PtE) and Purchase (PtP) - We will evaluate two metrics: 1) Incremental revenue impact 2) # of leads generated that are not currently in the sales funnel
 * Propensity to Churn (PtC) - We will evaluate two metrics: 1) # of high propensity to churn customers that didn't churn 2) Incremental revenue impact
 
@@ -205,7 +207,6 @@ You can tag the Data Team in GitLab using:
 | [Learning Library](/handbook/business-technology/data-team/learning-library/) | | |
 | [Tableau Guide](/handbook/business-technology/data-team/platform/tableau/) | | |
 | [Tableau Style Guide](/handbook/business-technology/data-team/platform/tableau-style-guide/) | | |
-
 
 ## Data Team Handbook Structure
 

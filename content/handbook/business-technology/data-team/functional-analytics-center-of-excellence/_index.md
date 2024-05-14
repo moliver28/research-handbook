@@ -56,6 +56,7 @@ In line with our [Collaboration](https://handbook.gitlab.com/handbook/values/#co
 **Overall Goal**: Encourage each of the analytic teams at GitLab to reach out to each other for data resources and ideas on how to solve reporting, statistical, and data science problems of various complexity levels.
 
 **General Guidelines for Discussions**
+
 1. Work does not need to be completed or in a finished state to be presented.
 2. Slides are not always necessary, unless that is easier for the presenter to share their thoughts.
 3. Active participation during sessions is what we’re striving for. Questions at the time of presentation can be very helpful for all, especially the presenter.
@@ -89,4 +90,3 @@ At times, presentations will contain data that is considered [SAFE](https://hand
 - Open an issue in our [Functional Analytics Center of Excellence](https://gitlab.com/gitlab-data/functional-analytics-center-of-excellence/) project
 - Join our biweekly meetings or monthly project turn and shares: ask in our Slack channel
 - Read our [meeting notes](https://docs.google.com/document/d/1fQ8zO1t4q_YkwatAlfSleFIG5iugQhx3pOiTxqCs4kk/edit?usp=sharing) and watch meeting recordings [access required]
-

@@ -114,7 +114,6 @@ If you want to make non-wording changes (renaming it, add/removing options, etc.
 If you want to create a new macro, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io) ‘Create a Zendesk macro’ option.
 To discuss a macro (but not actually action on anything), use a support-team-meta issue.
 
-
 ### Support Team page requests
 
 For changes to the support team page, you would file an issue in the

@@ -43,7 +43,6 @@ Before your scheduled on-call shift begins, check [the Customer Events calendar]
 
 **Note:** You may sometimes be required to contact GitLab users on behalf of another GitLab team (such as the SIRT team). Please follow the [Sending Notices workflow](/handbook/support/workflows/sending_notices) to action these requests.
 
-
 ### Ask for help when needed
 
 Rest assured: escalation is okay -- other GitLab team members are happy to help. Caring for our customers is a shared responsibility. Tag a Slack support-team Group if you haven't gotten help in your Slack thread. Tag the support managers if you need to escalate further.
@@ -57,6 +56,7 @@ If another support engineer joins your emergency call, feel free to assign them 
 Make a real effort to de-stress during your on-call shift. After being on-call, consider taking time off, as noted in the [main GitLab Handbook](https://about.gitlab.com/handbook/paid-time-off). Just being available for emergencies and outages causes stress, even if there are no pages. Resting is critical for proper functioning. Just let your team know.
 
 When you get a notification from PagerDuty give yourself a few minutes to prepare.
+
 - Get to someplace comfortable and quiet where you can devote your attention to the emergency.
 - Take care of any biological needs.
 - Grab a snack and some water.
@@ -173,6 +173,7 @@ When your on-call shift starts, you should get notification(s) that your shift i
 Before your shift ends, consider what tasks need to be handed over and make sure to proactively communicate them to the next engineer in the rotation.
 This may mean [engaging the next On-call Support Engineer](#engaging-the-next-on-call-support-engineer) and bringing them into an active troubleshooting call, or it may mean providing instructions or context for situations
 you have handled that have some follow-up action. For example:
+
    - if you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
      - once you anticipate an active call to spill over into the next shift, try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover – they might not be around already, but it's worth trying and can make it easier for you to end your shift on time
    - if a SaaS customer paged in looking for log analysis and we're waiting on the SIRT team, let the incoming on-call know and consider having them send a message in the ticket informing the customer of the handover
@@ -249,7 +250,6 @@ To page the current Support Engineer On-call, you can:
 
 If your shift has **not** ended yet and you want to coordinate with the *upcoming* Support Engineer on-call, see [determining the On-call Support Engineer](#determining-the-on-call-support-engineer-ceoc).
 
-
 ### Engaging the On-call Manager
 
 In some situations, you may need to engage the [Support Manager On-call](/handbook/support/workflows/support_manager-on-call) for assistance.
@@ -267,7 +267,6 @@ To page the current Support Manager On-call, you can:
 - Manually create a new incident from the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
 
 This is for engaging the *current* on-call manager. If you need to coordinate with the upcoming on-call manager, see [determining the On-call Manager](#determining-the-on-call-manager).
-
 
 ## Mobile phone service and data reimbursement
 
@@ -300,7 +299,6 @@ To make sure this stays separated from our normal PagerDuty notifications, we'll
 1. Add the email address, and use the "Test" button to send a test notification
 
 ![Adding a new notification email target in PagerDuty](/images/support/oncall-pagerduty-setup-new-notification-email.png)
-
 
 1. Change to the "Notication Rules" tab
 1. Your new email will already have been added in the "When a high-urgency incident is assigned to me" section – remove it from there, and also from any other sections it might have been added to

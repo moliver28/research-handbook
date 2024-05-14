@@ -81,7 +81,6 @@ For the following:
 
 1. Reach out to the team member that caused the leak, and educate them on keeping [vulnerability-related data](https://internal.gitlab.com/handbook/security/data_classification/#data-classification-index) SAFE.
 
-
 For the following:
 
 - Vulnerability issue wasn't made as confidential, or accidentally becomes visible to everyone

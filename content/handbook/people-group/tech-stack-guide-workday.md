@@ -51,7 +51,6 @@ Modules/functionality being implemented:
 | ------ |
 | Talent Assessment Tool, Compaas (Compensation planning tool), PlanSource, Internal Employment Automations |
 
-
 #### Phase 3
 
 **Go live date:** To be determined

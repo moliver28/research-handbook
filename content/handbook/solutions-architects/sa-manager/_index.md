@@ -7,7 +7,6 @@ description: "This page provides an overview on relevant SA Managers processes. 
 
 View the [SA Handbook homepage](/handbook/solutions-architects/) for additional SA-related handbook pages.
 
-
 ## Purpose
 
 This page provides an overview on relevant SA Managers processes. The SA Manager role is made up of pillars: Managing the Business and Managing the Team.
@@ -37,6 +36,7 @@ Meeting regularly with your ASM counterpart provides time to discuss SAE/ SA/ CS
 The SA Manager is responsible for developing and delivering a [Quarterly Business Review](/handbook/sales/qbrs/) for their team each quarter.
 
 SA Managers typically cover the following information:
+
 - Review past quarter
 - Assess current quarter
 - Review strategic initiatives
@@ -54,6 +54,7 @@ It is important to pland and schedule [Coginitive Bias](/handbook/solutions-arch
 SA Managers should always be recruiting! It is important that SA Managers always be on the lookout for talent and be conscientious in building a talent network. Make time to interview prospective candidates and be able to artiulate the value of a job at GitLab as outlined in the [Winning Top Talent](/handbook/sales/field-manager-development/#winning-top-talent) portion of the GitLab Field Manager Development Program.
 
 **Key Resources**
+
 - Success Profile
 - Interview Guide
 - Networking tools
@@ -64,7 +65,6 @@ SA Managers should always be recruiting! It is important that SA Managers always
 SA Managers should ensure the new SA team members are set up for success by working to make sure they have access to necessary tools and have an assigned onboarding buddy. Additionally, they should work with new SAs to set clear performance expectations and provide regular feedback during the onboarding process. SA Managers should encourage new SAs to complete their general GitLab onboarding issue and ensure that they actively participate in and complete [Sales Quick Start](/handbook/sales/onboarding/).
 
 Common slack channels within GitLab are #thanks and #deal-graditude are manual from an announcement and celebration point of view. The #wins-key-deals are automated listings and announcements. Those automated slack channels require a SFDC mapping of the team and organisational roll ups. SA Managers are encouraged to review the SFDC mapping on a quarterly basis to ensure consistency for new starters and existing team members (i.e. after promotions).
-
 
 ### Developing and Retaining
 
@@ -122,9 +122,8 @@ Recognition can also be realized in the form of [Discretionary Bonuses](https://
 ### Team Assessment
 
 Twice a year, SA Managers should conduct a team assessment to:
+
 - Identify at Risk and High Potential Team Members
 - Identify resource needs for the next 6-months
 - Determine succession plan
 - Update rolling 6 to 12 month promotion forecast
-
-

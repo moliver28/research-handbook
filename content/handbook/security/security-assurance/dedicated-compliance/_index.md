@@ -145,7 +145,6 @@ Process to close phases:
 1. Management then determines roadmap adjustments so that planned work in future phases remains realistic after shifting open work.
 1. Roadmap changes are shared in the next weekly sync.
 
-
 #### Issue Board
 
 Similar to the epic board, all issues tied to work on our roadmap should use the appropriate labels and be tracked on the [SecComp Dedicated Markets issue board](https://gitlab.com/groups/gitlab-com/-/boards/5913253?label_name[]=Sub-Department%3A%3ASecComp%20Dedicated%20Markets).

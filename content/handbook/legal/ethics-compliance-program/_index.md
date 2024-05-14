@@ -17,7 +17,6 @@ While compliance is certainly a company-wide effort, it is as importantly the in
 
 Listed below are GitLab's policies and procedures, as well as guidance and other resources. This list will be updated, as needed, in order for GitLab to address the constantly evolving worldwide regulatory landscape, and partner with GitLab customers to allow them to meet their own regulatory requirements.
 
-
 - [Acceptable Use Policy](https://about.gitlab.com/handbook/legal/acceptable-use-policy/)
 - [Anti-Corruption Policy](https://about.gitlab.com/handbook/legal/anti-corruption-policy/)
 - [Anti-Fraud Policy](https://about.gitlab.com/handbook/legal/anti-fraud-policy/)

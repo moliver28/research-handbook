@@ -28,6 +28,7 @@ If you are [eligible](/handbook/people-group/offboarding#gitlab-alumni-program) 
 ### Is there anything I need to do before my last day?
 
 The following can be used as a guide on what actions could be taken before your last day:
+
 - Prepare a handover document for your team / manager.
 - Notify customers and introduce them to the team member that will be assisting them going forward (if applicable).
 - If you feel comfortable, send a message in the [#team-member-updates](https://gitlab.slack.com/archives/CL55Q4U0K) Slack channel notifying everyone of your departure.
@@ -54,6 +55,7 @@ The following can be used as a guide on what actions could be taken before your 
 ### Other accounts
 
  Set up accounts that you'll need access to after your last day. Ensure your personal email address is up to date with these accounts. They may include:
+
   - Fidelity (US 401(k)): https://www.fidelity.com
   - E-Trade (RSU): http://www.etrade.com
   - Carta (Stock options): https://login.app.carta.com/credentials/login/
@@ -69,7 +71,6 @@ Under **no circumstance** should you be wiping your own laptop. Laptop wipes mus
 If you are returning your laptop to IT please purchase a cardboard box and packing foam before your last day and expense it in Navan under [Office supplies & consumables](https://handbook.gitlab.com/handbook/finance/expenses/#office-supplies--consumables). IT will be sending a prepaid shipping label to return the laptop.
 
 Please refer to the Laptop Buy Back Policy [here](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-buy-back-policy).
-
 
 ## Compensation - Payroll
 
@@ -120,7 +121,6 @@ If you decide to trade in GitLab’s stock or other securities prior to the 90th
 ### Will my ESPP contributions be reimbursed?
 
 Yes. Payroll processes ESPP reimbursements during payroll cycles with termination reports. You may receive your reimbursement on the pay period after your termination. Please make sure you unenroll from ESPP in [E*Trade](https://us.etrade.com/e/t/user/login) as well.
-
 
 ### What happens to my Growth and Development Benefit?
 

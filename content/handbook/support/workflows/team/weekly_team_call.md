@@ -35,8 +35,6 @@ The APAC team meets at 03:00am UTC:
 
 ### Role of the Chair
 
-
-
 The main role of the chair is to start the meeting, keep the meeting moving
 along, and end the meeting when appropriate. There is generally little
 preparation required, but depending on the meeting, the chair will include
@@ -53,8 +51,6 @@ If the chair is not available and has not picked a substitute, follow the
 rotation to the first person who is on the call to determine a replacement.
 
 ### Role of the Notetaker
-
-
 
 The notetaker should take notes during the meeting and if action is required,
 creates a comment and assigns it to the appropriate person.

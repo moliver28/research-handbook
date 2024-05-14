@@ -20,7 +20,7 @@ In `June of 2019`, we switched sending Snowplow events from a third party to sen
 
 When new application should be tracked by `Snowplow` here is the few things should be considered.
 
-![](images/new_app_id.png)
+![how to add app ID](images/new_app_id.png)
 
 The right `app_id`, and collector URL should be done in coordination with the data team.
 URL wil stay the same `snowplow.trx.gitlab.net`. Any `app_id` is fine if there are no other concerns around enabling tracking on `CustomersPortal` staging as well.
@@ -41,7 +41,6 @@ snowplow_page_views --> legacy.snowplow_page_views_*
 In order to add a new `app_id` to [snowplow_base_events](https://dbt.gitlabdata.com/#!/model/model.snowplow.snowplow_base_events) *(and downstream page view models)*, the `snowplow:app_ids`
 variable in the dbt package must be updated. Those values are set in the `dbt_project.yml`
 file. As an example, [here is an issue](https://gitlab.com/gitlab-data/analytics/-/issues/16552) to update the variable.
-
 
 #### GitLab Implementation
 
@@ -298,4 +297,4 @@ Our snowplow tracking configuration and particular implementations respect the [
 
 #### Duo data redaction
 
-We only keep Duo free form feedback for 60 days in snowflake. This is managed by the [duo_data_redaction DAG](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/duo_data_redaction.py), which runs daily, removing contents of the `extendedFeedback` attribute in the `contexts` column for all feedback response Snowplow events in `RAW` and `PREP`. This timeline allows for our full-refresh process to complete, updating all downstream data, within 90 days for compliance.  
+We only keep Duo free form feedback for 60 days in snowflake. This is managed by the [duo_data_redaction DAG](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/duo_data_redaction.py), which runs daily, removing contents of the `extendedFeedback` attribute in the `contexts` column for all feedback response Snowplow events in `RAW` and `PREP`. This timeline allows for our full-refresh process to complete, updating all downstream data, within 90 days for compliance.

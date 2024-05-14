@@ -34,7 +34,6 @@ All requests to *production* require approval of the SRE(s) on shift, and you ca
 - Accessing is the same as it is for production, except your `tsh login` will be approved immediately, and you can move on to `tsh ssh`
 - The wrapper script *is not* invoked upon login
 
-
 ## Scope
 
 The console will be for tasks which cannot be completed from the tools we have available.

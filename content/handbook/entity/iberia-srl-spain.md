@@ -99,6 +99,7 @@ Please note you will have 25 days to enroll your family with effective date as t
 No waiting periods except for the following procedures:
 
 12 months:
+
 - Urinary incontinence´s rehabilitation
 - Telemedicine Program: Children's Cognitive
 - Telerehabilitation (Guttmann)
@@ -125,6 +126,7 @@ The Team Member portion of the dependent cost will be deducted from their payche
 Life Insurance provides peace of mind for you and your loved ones in the event of your untimely death, helping to relieve financial concern during a time of grief. GitLab offers Life Insurance via Generali.
 
 Team Members are automatically enrolled into the benefit with an insured lump sum of 200% Gross Base Salary. This includes cover for the following:
+
 - Death by any cause,
 - Accidental Death (additional lump sum),
 - Total and Permanent Disability for the own occupation by any cause,
@@ -153,7 +155,6 @@ Legal heirs of the Insured
 To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/drive/folders/14KdAmwiUK9hwqRQsRA6RvG5D0I815ZhS) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
 
 </details>
-
 
 ### Administrative Details for Benefits Team
 
@@ -295,4 +296,3 @@ What's next in Spain? Any planned policy additions will be put on a roadmap here
 ## Transparency/Version control
 
 If/when country specific policies are added or updated, and where it is possible, previous versions of those policies will remain accessible internally and will be linked from current versions.
-

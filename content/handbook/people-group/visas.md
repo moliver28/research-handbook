@@ -65,6 +65,7 @@ Here is a [generally but not authoritative helpful guide](https://www.expatica.c
 The IND (Dutch immigration services) in general take about 4 to 6 weeks’ time to make a decision on the renewal application, but officially they have 90 days to decide.
 
 1. Some important notes before you arrange travel / depart to the Netherlands:
+
 - **A direct flight to the Netherlands is required, indirect travel may result in entry refusal**
 
 #### 30% Ruling in the Netherlands
@@ -244,8 +245,10 @@ If there is a change in employer within Germany and the blue card has been held 
 Everyone that meets the following requirements can request to immigrate and relocate to Germany, but you will also still need to pass the formal visa application process to qualify. The requirements are:
 
 1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the salary requirement for [Requirements to receive a Blue Card](https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card)
+
 - The following pay elements are not included in the salary criterion and can't be used to meet the minimum salary requirement: The value of payment made in kind; Uncertain, non-regular pay elements (for example overtime allowances, variable bonus and payments from funds).
 - *Note: This calculation should be based on what GitLab **would** pay the team member in Germany in accordance with the compensation calculator, **not** based on the team member's current salary.*
+
 1. You have been a team member at GitLab for one year.
 1. You are not on a Performance Improvement Plan (PIP).
 

@@ -88,6 +88,7 @@ Once you have enough information to make a determination, use one of the other m
 ##### Apply "Downgrade emergency ticket" macro
 
 Applying the macro will lead to the following changes:
+
 - Form will be set to Self-Managed.
 - Priority will be set to High.
 - Ticket stage will be set to NRT.

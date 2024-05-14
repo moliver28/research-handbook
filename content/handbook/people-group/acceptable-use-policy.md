@@ -52,11 +52,9 @@ Authorized Google Workspace Integrations and other approved Individual Use Softw
 
 To request approval for new Individual Use Software, please follow the [Individual Use Software](https://handbook.gitlab.com/handbook/finance/procurement/individual-use-software/#how-do-i-submit-a-request-for-new-individual-use-software) request process.
 
-
 {{% alert title="Note" %}}
 In order to abide by the [SAFE Framework](/handbook/legal/safe-framework/), to preempt third party processing of company data under permissive individual use licensing terms, or to prevent Team Member misuse of certain Third Party Software features, IT, Legal, Privacy and Security will generally err on the side of disallowing exceptions to enterprise level software, particularly if there is an enterprise option already in our [Tech Stack Applications](https://about.gitlab.com/handbook/business-technology/tech-stack-applications/) that achieves a similar purpose.
 {{% /alert %}}
-
 
 ### Unacceptable Use
 
@@ -132,6 +130,7 @@ As a reminder, Red Data may not be transmitted from an approved Red data source 
 Creating an account with, or using, a file sharing service other than Google Drive for sharing GitLab-related files with other team members or those external to GitLab is not permitted unless an exception has been granted. To obtain an exception create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) outlining the business case, and do not proceed until the exception has been granted.
 
 When creating an account with and using a file sharing service other that Google Drive, Team Members must:
+
 - Where available, use the `Sign in with Google` single sign-on option using a GitLab Google Workspace account, rather than creating an account using a GitLab (or other provider) email address and password.
 - Only upload files directly to shared folders created by those external to GitLab and do not upload files to the personal area of the file sharing service.
 - Remove all files and close the account when the file sharing service is no longer needed.

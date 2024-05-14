@@ -203,9 +203,6 @@ In an effort to ensure team member confidentiality is upheld, only managers with
 
 Team members can access Summit Pulse Survey results [here](https://docs.google.com/presentation/d/1OPOwu9JZxq4CoAiUAOMPZ-yXH99TPMPXObfzVMIWlto/edit#slide=id.g1d24c3e4ddd_5_252)
 
-
-
-
 <details>
   <summary markdown="span">Previous Years</summary>
 
@@ -314,7 +311,6 @@ GitLab was rated up to 3% higher than the industry benchmark i.e. New Tech (1,00
 | I believe action will take place as a result of this survey| 64% |
 
 GitLab scored 4% higher than the industry benchmark i.e. New Tech +1,000 2022 for the lowest scoring question surrounding positive actions, 9% higher than the benchmark regarding compensation and 2% higher regarding actions taken from the survey.
-
 
 ### FY'22 Pulse Engagement Survey
 

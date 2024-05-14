@@ -31,7 +31,6 @@ A Technical Close Plan is primarily focused on opportunity rigor by capturing cu
 
 As both are customer-centric, the Technical Close Plan can and should feed into a Customer Success Plan. See [Converting to a Customer Success Plan](https://handbook.gitlab.com/handbook/solutions-architects/sa-practices/customer-success-plan/#how-does-this-differ-from-a-technical-close-plan) for more information.
 
-
 ![Sales Process](sales-process.png)
 
 ## How to Build a Technical Close Plan
@@ -45,6 +44,7 @@ This [Google Drive Folder](https://drive.google.com/drive/folders/1nQaUD5l05eTN5
 The specific structure of a Technical Close Plan is not as relevant as the content and conversation.
 
 The primary focus areas should include:
+
 - [Business Outcomes](#business-outcomes) that describe what is valuable to the customer, using their terminology
 - [Key Stakeholders](#key-stakeholders) and how they align to the opportunity
 - [Notional Architecture](#notional-architecture) for the current and proposed state
@@ -74,6 +74,7 @@ Both notional architectures should reflect the customer's environment and how th
 ##### Current State
 
 A critical step in showing trust and empathy is knowing the current state of a customer. Capture the relevant information for their use case and their painpoints, which may include:
+
 - The value stream of a typical team showing issues like long vulnerability time to remediation
 - The typical application pipeline steps, or path to production, which includes inefficiencies or delays in releasing software
 - The different SDLC/DevOps/DevSecOps tools, how and when they're used, and how they're integrated, which show how developers need to context switch or operators manage many tools and integrations
@@ -84,6 +85,7 @@ Regardless of the focus for the current state notional architecture, the struggl
 ##### Proposed / Future State
 
 The proposed or future state notional architecture should be a deliberate contrast to the current state, and obviously highlight the outcomes the customer would realize if they adopted the recommendation. Some examples include:
+
 - Changing their value stream to identify a vulnerability at the point of change
 - A parallelized pipeline with a fail-fast mentality
 - Consolidated tooling that simplifies operations, reduces cognitive load, and enables reporting

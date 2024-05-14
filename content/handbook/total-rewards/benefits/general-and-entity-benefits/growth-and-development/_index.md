@@ -22,7 +22,6 @@ To be eligible for the Growth and Development Fund, you must meet the following 
 - If you are a part-time GitLab team member, you may still be eligible to participate in this fund but your reimbursement might be reduced.
 - Team members who are currently on "leave" status will not be eligible to use the growth and development fund.
 
-
 ## How to Apply for the Growth and Development Fund
 
 Here is a step by step guide on how to apply for G&D applications:
@@ -44,6 +43,7 @@ The application process is visible internally. If there is any reason that you w
 **Step 3:** Request approval on the issue. Depending on the cost of the application, different approval levels are required. In all instances, your direct manager should be the first approver in the issue.
 
 Cost Tiers Approval:
+
 - Manager Approval (with VP's made aware on the issue): $0-$1,000
 - Manager + VP Approval: $1,000.01 - $5,000
 - Manager + eGroup Approval for any spend $5,000.01 - $10,000 (Apart from Sales, where VPs can approve $5,000.01 - $10,000 spend)

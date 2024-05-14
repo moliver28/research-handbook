@@ -80,6 +80,7 @@ Where possible, a group of Communications Champions, made up of global team memb
 ### Communications Champion cohorts
 
 We’ll introduce two cohorts for FY25:
+
 1. All-company cohort: 10 team members who review all-company changes/messaging; this group consists of global team members at all levels.
 1. People manager cohort: 7-10 team members who reviews people-manager specific changes/messaging; this group consists of global people managers.
 
@@ -91,6 +92,7 @@ We’ll engage bi-weekly with planned or urgent information seeking.
 
 We’ll create a net-new slack channel for each group:
 Naming convention: #comms-champions-fy25-a
+
 - a is FY25 Q1/Q2 all-company
 - b is FY25 Q1/Q2 people manager
 - c is FY25 Q3/Q4 all-company
@@ -99,7 +101,6 @@ Naming convention: #comms-champions-fy25-a
 ### Nominations and selection
 
 People managers will nominate team members through a google form. After nominations, PBPs will review the list to ensure all are in good standing and collaborate on potential participants. People Comms & Engagement will make final selections.
-
 
 ## Determining Which Communication Forum To Use
 
@@ -284,7 +285,6 @@ As we continue to build on [inclusion](/handbook/values/#diversity-inclusion), r
 Add Values emoji reactions to thank you messages in the [`#thanks` slack channel](/handbook/communication/#say-thanks)
 or feel free to use them in GitLab.com, other slack channels and
 social media, when you see alignment to our values: [GitLab's values](/handbook/values/).
-
 
 | Emoji                        | Custom tanuki emoji      | Meaning                           |
 | ---------------------------- | ------------------------ | --------------------------------- |
@@ -697,6 +697,7 @@ name them after the topic, appended with a session number based on the order the
 Team members will see the meeting invites in their email or calendar in relation to their local time zone and can decide for themselves which session to attend, based on their working hours.
 
 Avoid:
+
 - Terms like `friendly` or `early` / `late`, as these terms are overly subjective.
   An early meeting for one team member might seem late for someone in a different time zone.
   Or a west coast AMER meeting might seem "APAC friendly", but not to someone in western APAC who is still asleep when the meeting starts.
@@ -776,7 +777,6 @@ On the other hand, not every part of a meeting is relevant, but it can sometimes
 If you only have one discussion point, if possible, try to reorder the meeting agenda to have your point first and then drop from the call.
 If you get asked a question when you're not paying attention, it is an okay use of time to repeat a question every now and then.
 If training is required for one's role, team members should plan to give the training full attention--especially if engagement in discussions or breakout rooms is required. If training is 'nice to learn' or 'optional' for team members, multi-tasking can be done at the team members discretion.
-
 
 We don't use the first 15 minutes of a meeting to read the materials like they [do at Amazon](https://www.forbes.com/sites/carminegallo/2019/06/18/how-the-first-15-minutes-of-amazons-leadership-meetings-sparks-great-ideas-and-better-conversations/#6be165bd54ca). You can use the start of a meeting to review the materials for the meeting if you need to, given you do not have to be paying attention, but that should not delay the start of the meeting for the people that already have questions based on the materials. [Meetings start on time at GitLab.](/handbook/communication/#scheduling-meetings)
 
@@ -880,7 +880,6 @@ This aligns with how we work since everything at GitLab is [public by default](/
 
 GitLab has a specific process to follow in crisis situations to ensure effective communications. Details can be found in the [internal handbook](https://internal.gitlab.com/handbook/company/daily-sync-escalation-process/).
 
-
 ## Presentations
 
 1. All presentations are made in Google Slides using [our templates](/handbook/tools-and-tips/#updating-your-existing-slide-deck-theme).
@@ -942,7 +941,6 @@ This list offers additional guidance for written communication at GitLab:
 1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `MR`, write `merge request (MR)`.
 1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
 1. If you don't know the meaning of an acronym, ask. It's always ok to [speak up](/handbook/values/#share).
-
 
 ### Communicating dates and time
 
@@ -1106,7 +1104,6 @@ Note to table contributors:
 ### Avoid using Git in Project Names
 
 Avoid using *Git* in the naming of internal and external company related programs (BagGit, GitFit, Gitty, GitIt, etc.). Referencing Git creates an inaccurate perception that GitLab has a narrow focus. While GitLab started as a source control platform, it has become [The DevOps Platform](https://about.gitlab.com/solutions/devops-platform/).
-
 
 ## Email
 

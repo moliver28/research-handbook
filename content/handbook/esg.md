@@ -206,7 +206,6 @@ GitLab community programs
 - The [GitLab for Open Source](https://about.gitlab.com/solutions/open-source/) program supports GitLab's mission to make the world a place where anyone can contribute. We help make GitLab the best place for open source projects to grow and thrive.
 - The [GitLab for Startups](/handbook/marketing/community-relations/community-programs/startups-program/) program launched early in 2023 and helps qualifying startups get access to our top tiers for free or at a deep discount for up to two years.
 
-
 *“Community is core to who we are and what we do. Our mission is to help these communities experience GitLab’s vision of a world where everyone can contribute.”*
 -Emilio Salvador, GitLab Vice President of Developer Relations
 

@@ -17,12 +17,9 @@ What are my rights and choices regarding Personal Data?
 U.S. State Privacy Rights
 Other important privacy information
 
-
 This Privacy Statement applies to the GitLab websites ("Websites"), GitLab.com ("SaaS"), Self-managed ("Self-managed"), and additional software products and services; collectively "Services.
 
-
 ## What Personal Data does GitLab collect about me?
-
 
 The categories of Personal Data collected by GitLab change depending on the Services you use and whether those Services are free or paid. We have described below which Services correlate with the processing in each Personal Data category.
 
@@ -109,7 +106,6 @@ GitLab uses your Personal Data for the following purposes:
 - To comply with our legal obligations;
 - To protect the rights, safety and property of GitLab, you, or any third-party; and
 - For other purposes, for which we obtain your consent.
-
 
 ### Legal Basis for the Processing of your Personal Data
 

@@ -443,7 +443,6 @@ When a user attribute value changes in Workday and pushes to Okta, the Identity 
 
 When we reach maturity, the scheduled jobs will run every hour and all attribute values and groups will be automatically calculated and programatically maintained without any human user intervention or day-to-day provisioning tasks. While we are in PoC/alpha/beta, the jobs run daily and created in a merge request that is reviewed by the Identity Ops team for accuracy to catch any bugs or unintended changes.
 
-
 ```mermaid
 graph LR
 
@@ -507,7 +506,6 @@ classDef violet fill:#c4b5fd,stroke:#7c3aed,stroke-width:1px;
 classDef fuchsia fill:#f0abfc,stroke:#c026d3,stroke-width:1px;
 end
 ```
-
 
 ## Configuration and Data Repositories
 
@@ -741,6 +739,7 @@ You may have already seen what's possible with GitLab Sandbox Cloud, Demo System
 We use a Docker image with the `accessctl` application with GitLab Runner to run Artisan Console commands that from Laravel actions. Each CI/CD job is usually related to ETL operations for (E)xtracting IAM/RBAC data from vendor APIs, (T)ransforming the API responses into standardized YAML and JSON array schemas, and (L)oading the data into the GitLab repositories (`accessctl-manifests`, `accessctl-auditlog` and `accessctl-policies` for system automation) and Google Sheets (for human use).
 
 The CI/CD pipeline has several stages:
+
 - [Manifests Stage](/handbook/security/identity/platform/manifests)
 - [Auditlog Stage](/handbook/security/identity/platform/auditlog)
 - [Provisioning Stage](/handbook/security/identity/provisioning)

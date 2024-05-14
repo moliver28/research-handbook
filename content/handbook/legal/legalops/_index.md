@@ -18,6 +18,7 @@ For information on GitLab’s Procurement Team, policies, and processes, visit t
 Use the [Procurement Guide: Collaborating with GitLab Legal](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/) to learn about how Legal assists and interacts with the procurement of products and services.
 
 **Processes:**
+
 - [Uploading executed contracts to ContractWorks](/handbook/legal/vendor-contract-filing-process/)
 
 ## Legal & Corporate Affairs Billing Process
@@ -42,6 +43,7 @@ The purpose of this process is to streamline receiving and tracking invoices and
 ### Legal & Corporate Affairs Expenditure Request Process
 
 This process is designed to enable LACA team members to submit requests related to attending events/conferences, furthering development, or purchasing tools/software funded by LACA. This process does not apply to [equipment](https://handbook.gitlab.com/handbook/finance/expenses/#equipment), [Individual Use Software](https://handbook.gitlab.com/handbook/finance/procurement/personal-use-software/) or other personal reimbursement requests.
+
 - All expenses / reimbursements must be in accordance with [GitLab's Travel & Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/).
 - Regardless of the type of expenditure, all requests for use of LACA funds require approval from applicable stakeholders within the LACA Expenditure Request Issue Template.
 - Requests must be submitted, (i) no less than ninety (90) days prior to the event/purchase request date, and (ii) no more than once per year.

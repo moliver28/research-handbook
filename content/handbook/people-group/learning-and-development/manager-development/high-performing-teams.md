@@ -19,6 +19,7 @@ leaders being a guide to help their team members understand how to use the tools
 1. [This article](https://hbr.org/2023/03/acing-your-self-appraisal-even-if-its-your-first) provides 4 straight forward concepts to assist in doing your self assessment: (1) separate yourself from your work (2) don’t shy away from self-critique (3) focus on the outcomes of your actions, and (4) ask and adjust.
 1. [This article](https://www.wsj.com/articles/10-performance-review-preparation-tips-11610125896) provides 10 useful tips to prepare for, and succeed in, your annual review from a performance perspective. What were your goals (personal, departmental, etc.), how did you contribute, and what were the results?
 1. [Performance v. Trust](https://www.youtube.com/watch?v=kJdXjtSnZTI)
+
   - Of course, performance (and results) are fundamental to a talent assessment, but trust is an often overlooked trait that should be cultivated to reach your maximum potential. At the end of the day, high trust leads to better growth.
 
 ### Using career ladders

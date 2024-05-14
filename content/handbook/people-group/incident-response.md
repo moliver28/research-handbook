@@ -30,10 +30,10 @@ If you have any questions about team member benefits coverage, please contact ou
 ### Actions to take as a Manager
 
 As a manager, when you receive a notification of a team member on your team that is possibly affected by a disaster or weather event, we recommend the following steps:
+
 1. Talk to your team member(s) after receiving the email. Take the time to listen: What are their concerns and their needs?
 1. Make them aware of our flexible work policy and [PTO policy]({{< ref "paid-time-off#paid-time-off" >}})
 1. Point them to our Employee Assistance Program, [Modern Health]({{< ref "modern-health" >}})
 1. GitLab has established a [Team Member Relief Program]({{< ref "general-and-entity-benefits#team-member-relief-program" >}}) to assist with financial hardship from disasters or other emergencies. Please ask them to visit the [GitLab Cares Portal](http://gitlab.e4erelief.org/) to easily determine if they're eligible for program assistance and to apply for assistance.
 1. If the team member wants to consider a permanent relocation as a result of being in an unsafe environment direct them to our process for [Dutch Work Permits]({{< ref "visas#dutch-work-permits" >}}). We have a [special consideration]({{< ref "visas#special-considerations-for-team-members-in-unsafe-environments" >}}) for team members in unsafe environments.
 1. Reference this Incident Response Page
-

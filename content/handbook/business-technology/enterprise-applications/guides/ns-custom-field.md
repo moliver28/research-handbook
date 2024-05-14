@@ -5,13 +5,7 @@ title: "NS Custom Field guide"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-# How to create custom fields in NetSuite
+## How to create custom fields in NetSuite
 
 Recording (private due to finance systems information): [https://youtu.be/7QEw0-E4dTQ](https://youtu.be/7QEw0-E4dTQ)
 
@@ -30,4 +24,3 @@ Recording (private due to finance systems information): [https://youtu.be/7QEw0-
     1. Insert before (pick an existing field)
     1. Default access level `View`
 1. You can then navigate to the entity and see if the new field is displaying
-

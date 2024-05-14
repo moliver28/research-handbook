@@ -11,7 +11,6 @@ The Privacy by Design approach is based on the principles of the processing purp
 
 Privacy Reviews and DPIAs should be used to ensure that our obligations in this area are met.
 
-
 ## What is a DPIA
 
 A Data Privacy Impact Assessment (DPIA) is a way to systematically and comprehensively analyze processing and minimize data protection risks. DPIAs should consider compliance risks, but also broader risks to the rights and freedoms of individuals, including the potential for any significant social or econimic disadvantage. The focus is on the potential for harm - to individuals or to society at large, whether it is physical, material or non-material. These types of risks may lead to discrimination, identity theft or fraud, financial loss, reputational damage and other significant economic or social disadvantages. Ultimately, a DPIA is required when the level of risk to the rights and freedoms of natural persons is deemed "high".

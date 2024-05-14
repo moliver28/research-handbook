@@ -23,7 +23,6 @@ The first time your MacBook Pro starts up, Setup Assistant walks you through the
 
 ![ALT](https://help.apple.com/assets/5F46CA8B094622AD463B4A64/5F46CA9D094622AD463B4A8A/en_US/cd2f81cf603fecfcc05525948f6f84fb.png)
 
-
 - Choose a country or region to set the language and time zone for your Mac. You can respond to all the prompts, or skip some and choose “Set up later” when you see that option.
 
 - Connect to a Wi-Fi network: Choose the network and enter a password, if necessary. (If you're using Ethernet, you can also choose Other Network Options.) To change the network later, click the Wi-Fi status icon  in the menu bar or in Control Center, click Other Networks, then choose a Wi-Fi network and enter the password. You can also choose to turn Wi-Fi on or off here.
@@ -82,7 +81,6 @@ It is essential to encrypt your laptops hard drive using Mac's FileVault or Linu
 
 - [MacBook Encryption](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration)
 - [Linux Encryption](/handbook/tools-and-tips/linux/#initial-installation)
-
 
 ## Need Help?
 

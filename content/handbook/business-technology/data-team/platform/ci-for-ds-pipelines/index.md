@@ -1,20 +1,9 @@
 ---
-
 title: "Getting Started With CI/CD for Data Science Pipelines"
 description: "How to Run Data Science Pipelines Using GitLab CI/CD"
 ---
 
-
-
-
-
-
-
-
-
----
-
-# Our Approach to Using CI/CD For Data Science
+Our Approach to Using CI/CD For Data Science
 
 ## Training Models
 
@@ -51,6 +40,7 @@ This section covers, in detail, the mechanisms behind how this pipeline is creat
 ### Repository Files
 
 Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example)** repository are the following:
+
 - **.gitlab-ci.yml**: This is the CI/CD configuration file that define the jobs that define the jobs that should be run in the pipeline
 - **Dockerfile**: Instructions for creating the docker image. Here we are using python 3.9 running on Ubuntu 22.04 with CUDA drivers for GPU
 - **requirements.txt**: The python packages to install in the docker container
@@ -62,7 +52,6 @@ Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-d
 1. **build-ds-image**: activated whenever changes are added to the **Dockerfile** or **requirements.txt** files. This will rebuild the image used to train the model
 1. **train-commit-activated**: To execute a training pipeline. Activated by using the `train <path/to/notebook/your_notebook.ipynb>` commit message
 1. **cml** (Optional): Write model metrics as a comment to the merge request.
-
 
 ### The Setup
 
@@ -88,8 +77,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
     - `experiment_name`: Name of your MLFlow Experiment
     - `run_name`: ID or name of the MLFlow Experiment Run
 
-
-# Step-by-Step Instructions
+## Step-by-Step Instructions
 
 1. [Fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html) the public [GitLab Data Science CI Example](https://gitlab.com/gitlab-data/data-science-ci-example) repository. Forking will allow you to further customize the code to meet your own needs.
 1. Optional (but recommended) Configurations:
@@ -101,14 +89,14 @@ Let's take a detailed look at the repository (**Code -> Repository**):
          - `MLFLOW_TRACKING_TOKEN`: For the value, enter the project access token value created above.
          - `MLFLOW_TRACKING_URI`: For the value, use the GitLab API MLFlow endpoint as outlined in the MLFlow instructions above. For example, `https://gitlab.com/api/v4/projects/<your_project_id>/ml/mlflow`. Project ID can be found in **Settings -> General**
          - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches
-    - Write Model Metrics to Merge Request
-       - Create the following new CI Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
-         - `REPO_TOKEN`: For the value, enter the project access token value created above.
-         - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches ![Create CI Variables](create_ci_variables.png)
+      - Write Model Metrics to Merge Request
+        - Create the following new CI Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
+          - `REPO_TOKEN`: For the value, enter the project access token value created above.
+          - ***Note:*** Untick the "Protect Variable" flag to enable experiment tracking on unprotected branches ![Create CI Variables](create_ci_variables.png)
 
 1. Now, let's make some changes to activate our training pipeline:
 1. Create a new branch (**Code -> Branches -> New Branch**)
-     - <img src="new_branch.png" width="500">
+     - <img src="new_branch.png" width="500" alt="">
 1. First let's make sure the `build-ds-image` will get triggered, which will build the container our model will run in. This job of the pipeline is only activated when changes are detected in **Dockerfile** or **requirements.txt**. So let's make a change:
      - Edit **Dockerfile**, replacing the maintainer value with your GitLab handle and commit the change to your branch. ![Edit Dockerfile](edit_dockerfile.png)
 1. If running from a Free account:
@@ -122,7 +110,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 1. Click on "Pipelines" and you should see the training pipeline running. Click into the pipeline to see which which stage the pipeline is in.
    - ***Note:*** If you did not set up Write Model Metrics to Merge Request above, then the `cml` job will fail. The pipeline will still pass with warnings ![Pipeline Jobs](pipeline_jobs.png)
 1. Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request).
-   - <img src="model_metrics.png" width="700">
+   - <img src="model_metrics.png" width="700" alt="">
 1. Now let's look at the experiment run we just completed with our CI pipeline (**Analyze -> Model Experiments**)
    - Click on your experiment name.
    - You should see a new run logged from the CI Pipeline. Click into that run.
@@ -132,4 +120,3 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - This container will be used in subsequent runs of the model and will only get rebuilt when **Dockerfile** or **requirements.txt** are modified. ![Container](container.png)
 
 **And that's it! Feel free to modify this pipeline and notebook to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/business-technology/data-team/organization/data-science/). Happy pipelining!**
-

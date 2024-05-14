@@ -75,12 +75,8 @@ We are a global team, and we know there are sustainability initiatives and offer
 - [Project Drawdown](https://drawdown.org/): the world’s leading resource for climate solutions
 - [Water’s Worth Saving](https://watersworthsaving.org.uk/): (UK-based): tips for saving water at home
 
-
-
-
-
-
 **Footnotes**
+
 1. https://www.energy.gov/energysaver/articles/how-stop-energy-vampires-attacking-your-home
 2. https://www.energy.gov/energysaver/energy-efficient-computers-home-office-equipment-and-electronics
 3. https://www.eia.gov/todayinenergy/detail.php?id=49816
@@ -90,5 +86,3 @@ We are a global team, and we know there are sustainability initiatives and offer
 7. https://www.energy.gov/energysaver/tankless-or-demand-type-water-heaters
 8. https://www.epa.gov/gmi/importance-methane
 9. https://ourworldindata.org/food-choice-vs-eating-local
-
-

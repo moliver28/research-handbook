@@ -371,6 +371,7 @@ In the cases where a risk owner has concluded that a risk is within [tolerance](
 #### Remediate the Risk
 
 When choosing to remediate the risk, a specific path must be selected:
+
 - Remediate by reducing the likelihood that the risk could occur
 - Remediate by reducing the impact to GitLab if the risk occurs
 - Remediate by sharing or transferring the risk with a third party

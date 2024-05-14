@@ -1,20 +1,7 @@
 ---
-
-title: "Data Platform Handbook"
+title: "Data Platform at GitLab"
 description: "GitLab Data Platform Team Handbook"
 ---
-
-
-
-
-
-
-
-
-
----
-
-# Data Platform at GitLab
 
 The mission of the Data Platform team is to build a secure and trusted data platform that makes it possible for **everyone to be an analyst** so that our *only* limitations are the data or analysts themselves. We do this **by means of our [GitLab values](/handbook/values/)** and our **[Data Team Principles](/handbook/business-technology/data-team/#data-team-principles)**
 

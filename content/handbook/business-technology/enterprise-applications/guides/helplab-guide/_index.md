@@ -35,6 +35,7 @@ The following teams are available through HelpLab:
 ### Accessing HelpLab
 
 HelpLab is available via Okta. To access the platform:
+
 1. Login to your [Okta home page](https://gitlab.okta.com/app/UserHome#).
 1. Search for HelpLab in the search bar.
 1. Click on the HelpLab button.

@@ -36,10 +36,7 @@ The SMB Advocate is a [grade 6](/handbook/total-rewards/compensation/compensatio
 - Focuses on continuously improving your professional skills with a focus on personal mastery and team learning through activities such as training, reading and seeking mentorship from others
 - Ability to travel if needed and comply with the company’s travel policy
 
-
-
 {{% job-families/sales/performance %}}
-
 
 ## SMB Advocate Team Lead
 
@@ -52,6 +49,7 @@ The SMB Advocate Team Lead is a grade 6.
 ### SMB Advocate Team Lead Responsibilities
 
 The SMB Advocate Team Lead role extends the responsibilities of the SMB Advocate role, with the addition of new official responsibilities that support the productivity of the Advocate team as a whole and representing our SMB customers. These are:
+
 - Help design and run the onboarding process for new starters
 - Help support/coach colleagues and run team enablement sessions
 - Cover team manager’s absence, on request for some specific tasks (team meetings, forecasts and team weekly check-ins)
@@ -71,11 +69,6 @@ The SMB Advocate Team Lead role extends the responsibilities of the SMB Advocate
 - Led or participated in at least 2 project initiatives to improve team performance
 - The Team Lead role is based on business need and is at management’s discretion
 
-
-
-
-
 ## Career Ladder
 
 The next step in the SMB Account Executive job family is to move to the [Mid Market Account Executive](/job-families/sales/account-executive) job family or the [Sales Management](/job-families/sales/area-sales-manager/) Job Family.
-

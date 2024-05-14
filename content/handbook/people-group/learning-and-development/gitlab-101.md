@@ -9,7 +9,6 @@ Welcome to the GitLab 101 page! Here you will find some basic info on how to use
 
 Everyone at GitLab needs to know how to use GitLab and be technical to some level. This training is geared toward GitLab team members who are in non-engineering roles (i.e. talent acquisition, peopleops, marketing, finance, etc) and/or have not used a DevOps tool like GitLab before. This can also be helpful for non-engineering people outside of GitLab wanting to learn how to use GitLab for personal projects.
 
-
 ## Objectives
 
 1. Learn common technical terms used at GitLab
@@ -152,7 +151,6 @@ To comment on a GitLab issue:
 1. If there are other comments, scroll to the bottom and add your comment there
 1. It is also possible that you may want to reply to someone's comment that is already on the issue. To do this, you will click the speech balloon on their comment (when you hover over it it will say "reply to comment") and it will add a box for you to type your reply.
 1. When you are done typing your comment, click the green "Comment" button to add it to the issue
-
 
 ### How to search for a GitLab Issue
 

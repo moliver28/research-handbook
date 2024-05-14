@@ -18,6 +18,7 @@ Annual Mandatory Indexation:  Each year Belgian’s Joint Industrial Committee 2
 ## Healthcare Allowance
 
 **Allowance: gross amount of 70 Euros Per month**
+
 - Healthcare Monthly Allowance will be paid by Payroll as an allowance to team members to help subsidize the cost for their own Healthcare plans.
 - Team Members will need to purchase their own healthcare plans. No documentation is needed to receive the allowance.
 - This amount will be paid on a monthly basis with the regular payroll and will be taxed accordingly.
@@ -83,6 +84,3 @@ Pursuant to article 13 of the law on paid public holidays, employers are obliged
 ***Note: GitLab has a global [`flexible paid time off policy`](/handbook/paid-time-off/#paid-time-off), which is the guideline for all GitLab employees globally. We highlight statutory requirements for some countries as well to ensure local compliance, but stress that our Paid Time Off policy is applicable for all GitLab team members globally irrespective of local policy.**-
 
 People Ops will consult with Vistra to ensure that the statute is met.
-
-
-

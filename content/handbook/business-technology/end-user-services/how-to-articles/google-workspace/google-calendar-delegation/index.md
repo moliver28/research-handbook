@@ -51,7 +51,6 @@ There are different [Levels of Permissions](https://support.google.com/a/users/a
 
 - `Make changes and manage sharing` - The team member will be able to edit your calendar events. They will also gain the ability to edit the event details. They will also gain the ability to change your calendar sharing settings.
 
-
 ## How To Access Google Calendar Delegation
 
 ### Using `calendar.google.com`

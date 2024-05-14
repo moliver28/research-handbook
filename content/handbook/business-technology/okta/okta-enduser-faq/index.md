@@ -62,6 +62,7 @@ Application Requests are managed via a [Change Management Issue](https://gitlab.
 [All new software must go through Procurement](/handbook/finance/procurement/new-software/) before being added to Okta.
 
 **Things to consider before opening a request:**
+
    - Has the Vendor Representative (AE, CSM) confirmed that SSO, SAML or SCIM is supported?
       - Please set up a call with a technical contact for the vendor and start an email thread to confirm available features for SSO and automated user management.
    - How should user creation, updates, and deactivation be processed?
@@ -229,4 +230,3 @@ There is capacity to do this, but further research is needed to understand the a
 ## For those of us who used our GitLab personal account when we were onboarded, what happens to my GitLab account when I am off-boarded? Does Okta change anything about this, or any policy changes around accounts that might make it important for me to use a company account name?
 
 We do not remove GitLab accounts currently for off-boarding, currently we remove users from GitLab groups. When offboarding happens, your Okta account and related accounts are Deactivated or Suspended.
-

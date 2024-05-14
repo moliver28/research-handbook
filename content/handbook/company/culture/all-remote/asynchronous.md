@@ -34,8 +34,6 @@ Unsurprisingly, providing those who are capable of being [managers of one]({{< r
 
 To further optimize this approach, consider adding a "[flexible time off policy]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}})", which means team members do not need to ask permission to step away from work.
 
-
-
 All-remote settings empower team members to [live and work where they're most fulfilled]({{< ref "./people" >}}). Increasingly, operating asynchronously is necessary even in colocated companies which have team members on various floors or offices, especially when multiple time zones are involved.
 
 *In this [GitLab Unfiltered video](https://youtu.be/cy6WGuzArgY), Emna G., founder and CEO at [Veamly](https://veamly.com/), speaks with GitLab's [Darren M.](https://twitter.com/darrenmurph) about the impact of defaulting to asynchronous as it applies to stress, anxiety, mental health, and overall wellbeing.*

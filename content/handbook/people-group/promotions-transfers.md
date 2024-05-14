@@ -137,7 +137,6 @@ Values are at the core of everything we do at GitLab. It is essential to tie tea
 
 - Please review our guidance on [DIB behaviours](https://handbook.gitlab.com/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](https://handbook.gitlab.com/handbook/values/#diversity-inclusion)
 
-
 ##### Business Results
 
 As our most important [value](https://handbook.gitlab.com/handbook/values/#hierarchy), results are at the core of everything we do.
@@ -145,6 +144,7 @@ As our most important [value](https://handbook.gitlab.com/handbook/values/#hiera
 Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member’s performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0).
 
 For each result, please use the following structure:
+
 - Project/accomplishment
     - Example: Creation of the company-wide Org Design Playbook
 - Team member role
@@ -163,7 +163,6 @@ We ask that the structure above be followed for business results consistently to
 1. **Highlight impact**: Directly connect our accomplishments to business goals and ties impact and role in projects to next level performance expectations.
 2. **Cross-functionally understandable**: The story-telling structure facilitates more cross-functional understanding of what the team member did, why it matters, and the impact it drove for the business.
 3. **Add objectivity**: Adds objectivity through focus on the contribution, impact, and relevance, in a consistent format, decreasing opportunity for unconscious bias.
-
 
 ##### Business Justification
 
@@ -237,6 +236,7 @@ Please review the [Compensation Program Budget]({{< ref "compensation-review-cyc
 ## Promotions Processed Outside of the Twice Per Year Promotion Calibration Process
 
 Certain types of promotions can be handled outside of the Twice Per Year Promotion Calibration process:
+
 1. Application to a new, approved headcount in Greenhouse:
     - Internal candidates go through an interview process as defined further in the Greenhouse Promotions/Transfers section.
 1. Promotions stemming from individuals in [interim/acting roles]({{< ref "promotions-transfers#interim-and-acting-roles" >}}).
@@ -458,7 +458,6 @@ In the event that a team member is working in an acting capacity in a role that 
   **Note:** If the Hiring Manager and acting team member mutually agree to move forward with consideration for the role, the position is at the same or lower [job grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) as their current role, the position is within the same division, and the position is not a people management position, a formal interview process may not be required. If the Hiring Manager prefers to not include an interview process, they must connect with their aligned People Business Partner (PBP) to ensure they are supportive. This interview exception possibility exists due to the unique experience team members in acting positions have to demonstrate their ability to be successful in the position over time.
 1. After the team member officially moves into the open role, a backfill position will be created.
 
-
 ## Demotions
 
 Demotions are not always considered a step backwards.  It may be an opportunity for a team member to acquire new skills or to move to a role that more closely aligns with their area of interest. To demote one of your direct reports, a manager should follow the following steps:
@@ -482,6 +481,7 @@ Job title specialties are used to indicate a stage, group and/or a specific focu
 Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they thing through job title specialties to ensure a consistent approach.
 
 To easily access a report for what current job title specialties are for your team, you can follow these steps:
+
 - Log into Workday
 - Type "My Team Job Title Specialties" in the search bar
 - Click "OK" for your organization
@@ -648,8 +648,6 @@ While the [Career Mobility Issue](/handbook/people-group/promotions-transfers/#c
 
 NOTE: Although the Total Rewards and People Connect Team may have visibility into promotions or transfers due to the administration of updating information as part of their roles, they should not communicate with the team member about their promotion/transfer until an announcement has been made._
 
-
-
 #### For People Success & Talent Acquisition Team
 
 Vacancies will be posted internally using the Greenhouse internal job board for at least 3 business days. If a role is not posted internally there must be a business case documented in the Workday documents of the team member who received the new role. See [Department Transfers]({{< ref "promotions-transfers#department-transfers" >}}) for additional details.
@@ -666,6 +664,7 @@ A [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-oper
 Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 Or, if the team member already has access to the systems and tools needed, the manager can open 'Becoming a GitLab Manager' and 'Interview Training' issues that are housed within the [Training Project](https://gitlab.com/gitlab-com/people-group/Training/-/issues/?sort=created_date&state=opened&first_page_size=100) in GitLab.
+
 - To open the 'Becoming a GitLab Manager' and 'Interview Training' issues visit the Training project in GitLab -> Issues -> New Issue.
 - Under 'Description' select the specified project template and then select Create Issue at the bottom.
 

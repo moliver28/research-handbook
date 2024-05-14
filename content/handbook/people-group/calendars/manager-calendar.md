@@ -20,7 +20,6 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
 | **[Annual Compensation Review and Calibration](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/)**          | Task: Annual Comp Review  | Task: Managers communicate comp decisions to all impacted team members. Promotions and new comp visible to team members in Workday 2024-03-13                                 | |
 | **[Talent Assessment](/handbook/people-group/talent-assessment)** | Task: Performance Review Discussion with Managers                            |                  |  |
 
-
 ### FY25 Q2
 
 | **Action**                                    | **May**                   | **June** | **July**        |
@@ -30,7 +29,6 @@ Each quarter a Slack reminder will go out in #people-manager-and-above channel t
 | **[GitLab Engagement Survey](/handbook/people-group/engagement)**                  |  | Task: Engagement Survey kicks off               | Task: Engagement Survey results review & Divisional Action planning   |
 | **[Talent Assessment](/handbook/people-group/talent-assessment)** |   |   Task: [Mid-Year Check In](https://handbook.gitlab.com/handbook/people-group/talent-assessment/#timeline-1)                       |                     |
 | **[Career Development Conversations]({{< ref "career-development" >}})**          |                         |      | Task: (Optional) Kick off your Individual Growth Plan in Workday                     |
-
 
 ### FY24 Q4
 

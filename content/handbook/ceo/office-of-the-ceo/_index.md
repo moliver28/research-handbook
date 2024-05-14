@@ -37,7 +37,6 @@ The Chief of Staff to the CEO and their team may work on projects that fit *any 
 1. projects that are so broad that they can't live within a function but are too much work for the CEO or Chief of Staff to the CEO
 1. projects that are important to the CEO
 
-
 This is not an exhaustive list of the types of work the Office of the CEO might do.
 
 #### Many Functional
@@ -48,6 +47,7 @@ In many cases, a member of the Office of the CEO will be the [directly responsib
 Whether it's a product feature proposal, a new initiative roll-out, or questions from the board, the Office of the CEO is the group that can be trusted to get things done, get them done quickly, and get them done right.
 
 Examples of a cross-functional project:
+
 - Helping shepherd KPI and/or OKR progress
 - Helping to launch a foreign entity
 - Supporting pricing and packaging change initiatives
@@ -63,6 +63,7 @@ A member of the Office of the CEO might help source candidates for a strategic h
 The team helps with work that other teams may not have the bandwidth to do but is important to the organization and/or the CEO.
 
 Examples of an under-resourced project:
+
 - Creating materials for a keynote the CEO will deliver in a rushed timeline
 - Supporting planning for a global conference
 - Supporting launch of a new SKU
@@ -199,6 +200,7 @@ In addition, the CoS to the CEO is responsible for preparing the CEO for offsite
 In Q1 of a new fiscal year, the Chairperson of the Compensation Committee conducts the annual CEO Evaluation. The Chairperson meets with all members of GitLab's Board and E-Group for their feedback on the CEO's performance over the past Fiscal Year. The Chairperson meets with the CEO for their self-assessment at the beginning of the evaluation cycle.
 
 The CEO's self-assessment is centered on three main areas
+
 1. Areas of Notable Success
 1. Areas of Disappointment
 1. Areas for Improvement and Focus in the next fiscal year
@@ -332,4 +334,3 @@ As of 2023-08 there's no automatic syncing between these groups so Office of the
 #### GitLab Project
 
 The primary project used by the Office of the CEO to track work specific to our team is [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team). Please file issues here as needed to track work being done.
-

@@ -87,7 +87,6 @@ There are several important things to keep in mind when sharing your opinions ab
     - An example of what we want to avoid: "Lost your job? Come work at GitLab!"
 1. If you're unsure how to communicate something, you can always reach out to the #talent-brand channel on slack.
 
-
 #### On LinkedIn
 
 - As you're sharing content on LinkedIn, use the hashtags `#LifeAtGitLab` and `#AllRemote` as you deem suitable. This will connect your post to a curated feed of content from our team members on [GitLab's "life" tab](https://www.linkedin.com/company/gitlab-com/life) on LinkedIn, and promote our remote culture.
@@ -101,7 +100,6 @@ There are several important things to keep in mind when sharing your opinions ab
   - > Join @gitlab and help build a product that enables over 50% of Fortune 100 organizations to deliver software faster with our AI-powered DevSecOps platform. We're hiring a [INSERT ROLE NAME]. Apply now: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Join a company that values transparency, collaboration, and iteration. @gitlab is hiring a [INSERT ROLE NAME]. Discover how our 6 CREDIT values drive our culture and learn more about this role: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Unlock a world of opportunities at @gitlab. We're looking for a [INSERT ROLE NAME] to join our diverse and passionate team. Explore your potential with us: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
-
 
 #### On X (formerly Twitter)
 
@@ -118,7 +116,6 @@ There are several important things to keep in mind when sharing your opinions ab
   - > Join @gitlab and help build a product that enables over 50% of Fortune 100 organizations to deliver software faster with our AI-powered DevSecOps platform. We're hiring a [INSERT ROLE NAME]. Apply now: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Join a company that values transparency, collaboration, and iteration. @gitlab is hiring a [INSERT ROLE NAME]. Discover how our 6 CREDIT values drive our culture and learn more about this role: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Unlock a world of opportunities at @gitlab. We're looking for a [INSERT ROLE NAME] to join our diverse and passionate team. Explore your potential with us: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
-
 
 #### Other platforms
 

@@ -90,6 +90,7 @@ CEO Shadow rotations will be reserved for [VP-Directs](/handbook/company/structu
 The CEO generally works from 8am to 6pm Pacific. This means that shadows from Pacific, Mountain, or Central time zones can participate without dramatic shifts to their usual working hours. To the degree possible, these folks should plan to clear their schedule during the CEO's working hours.
 
 If a person is applying from over 3 time zones from the Pacific time zones or has special considerations (for example, inflexible care duties), they can still participate. We ask that they:
+
 1. Commit to participating at least 6 hours a day between 8am and 6pm Pacific
 1. Confirm with their "See One" and "Teach One" partners that they can provide sufficient coverage during the times that the participant will not be participating
 
@@ -403,7 +404,6 @@ Score definitions:
 - `3`: reactions were neutral, or neutral on the balance, being a mix of positive and not positive
 - `4`: reactions were mostly positive
 - `5`: reactions were authentically positive
-
 
 #### When and how to speak up
 

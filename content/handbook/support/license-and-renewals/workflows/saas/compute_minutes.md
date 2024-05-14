@@ -54,7 +54,6 @@ the [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) channel
 - ([Example Ticket 1](https://gitlab.zendesk.com/agent/tickets/294974)
 | [Example Ticket 2](https://gitlab.zendesk.com/agent/tickets/391109))
 
-
 ### Process for authorizing additional compute minutes for GitLab Trial customers
 
 - All GitLab trial plans default to 400 minutes.  If a trial user reaches out to the support team requesting additional minutes, please refer them to their sales representative for further discussion.
@@ -82,7 +81,6 @@ To transfer compute minutes from a user's personal namespace to a group namespac
 ## Enable compute minutes
 
 ### Manual credit card validation for community contributors
-
 
 Qualifying requirements:
 

@@ -67,7 +67,6 @@ The Business System Analyst is a [grade 6](/handbook/total-rewards/compensation/
 - Nice to have: Experience with SaaS products.
 - Nice to have: Experience using GitLab/Git.
 
-
 ### Senior Business Systems Analyst
 
 #### Job Grade
@@ -93,6 +92,7 @@ The Senior Business Systems Analyst is a [grade 7](/handbook/total-rewards/compe
 #### Senior Business Systems Analyst Requirements
 
 Extends the Business Systems Analyst requirements plus:
+
 - 3+ years of experience in Business Analysis or a related field. This experience should include hands-on experience with business analysis techniques and processes.
 
 ### Staff Business Systems Analyst
@@ -104,6 +104,7 @@ The Staff Business Systems Analyst is a [grade 8](https://about.gitlab.com/handb
 #### Staff Business Systems Analyst Responsibilities
 
 Extends the Senior Business Systems Analyst responsibilities plus:
+
 - Ability to bridge the gap between business requirements and technical solutions while actively contributing to process improvement and organizational efficiency.
 - Identify opportunities for process optimization and automation.
 - Collaborate with third-party vendors and service providers to evaluate, select, and implement software solutions and services.
@@ -131,12 +132,14 @@ The Principal Business Systems Analyst is a [grade 9](https://about.gitlab.com/h
 #### Principal Business Systems Analyst Responsibilities
 
 Extends the Staff Business Systems Analyst responsibilities plus:
+
 - Participate in the development of the organization's technology and business strategies, aligning technology solutions with long-term goals.
 - Provide strategic input on technology investments and initiatives.
 
 #### Principal Business Systems Analyst Requirements
 
 Extends the Staff, Business Systems Analyst requirements plus:
+
 - 10+ years of experience in Business Analysis or a related field. This experience should include a proven track record of successfully leading and managing projects.
 - Strong leadership abilities, as Principal Business Systems Analysts often lead and mentor teams, oversee projects, and drive organizational change.
 - The ability to provide guidance, mentorship, and coaching to junior analysts and team members.
@@ -150,6 +153,7 @@ The Distinguished Business Systems is a [grade 10](https://about.gitlab.com/hand
 #### Distinguished Business Systems Responsibilities
 
 Extends the Principal Business Systems Analyst responsibilities plus:
+
 - Act as a key advisor to the IT executive team and board of directors on technology-related matters.
 - Establish and maintain effective communication channels with C-suite executives and other senior leaders, conveying complex technical concepts in a clear and understandable manner.
 - Develop and manage technology roadmaps, ensuring that technology investments align with the organization's strategic objectives.
@@ -157,6 +161,7 @@ Extends the Principal Business Systems Analyst responsibilities plus:
 #### Distinguished Business Systems Architect
 
 Extends the Principal, Business Systems Analyst requirements plus:
+
 - 12-15 years of experience in Business Analysis or a related field. This experience should include a proven track record of successfully leading and managing projects.
 - Proven leadership capabilities, including the ability to provide strategic vision and guidance to the organization.
 - A reputation as a thought leader in the field of business analysis, evidenced by contributions to industry conferences, publications, and the advancement of best practices.

@@ -49,7 +49,6 @@ When a manager approves a G&D request, they are communicating that the growth ex
 1. Manager AND eGroup Approval for any spend beyond $5000
     1. Sales: $5000+ approval by VP
 
-
 ### Managers should know what they are approving
 
 As a manager you are ultimately responsible for the performance and behaviours of your team members. Therefore, it's important that you understand the opportunities you are approving for your team members, and that you have discussed them during a career development conversation.

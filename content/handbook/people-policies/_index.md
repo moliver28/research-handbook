@@ -32,7 +32,6 @@ We encourage communication between team members at all levels of the organizatio
 
 If your manager cannot help you or answer your questions, your questions will be referred to someone who can. If you feel your particular question, concern, or suggestion cannot be discussed with your manager, you are encouraged to contact your manager's manager, your assigned People Business Partner or Team Member Relations. It is important to remember that a team member who takes these steps will not be subject to retaliation. You can expect to be treated fairly and with respect.
 
-
 ### Romantic and Family Relationships at Work
 
 **Hiring Significant Others or Family Members**
@@ -217,7 +216,6 @@ There are a number of GitLab Legal Policies which are important for GitLab team 
 - [Draft GitLab BV (Belgium) Work Regulations - English](https://docs.google.com/document/d/1HKxLs8AQ9TM-ud2y7EWS6R1ZJ982eeXR1UTKyIu9kPo/edit?usp=sharing)
 - [Comment book](https://docs.google.com/document/d/1UDsYcvkGPHJUF_--EZgxu_ONoiImFzxAavaAFkL5AtA/edit?usp=sharing)
 {{% /details %}}
-
 
 {{% details summary="GitLab BV (Netherlands)" %}}
 

@@ -68,6 +68,7 @@ Once you have the compiled audio:
 #### Notes on SSAT content
 
 The purpose of including SSAT content in the Support Week in Review is two-fold:
+
 1. To highlight behaviors and ways of interaction that customers value in their own voices.
 1. To highlight the excellent work on the part of individuals and groups of individuals that take place in ticket interactions.
 
@@ -76,6 +77,7 @@ We do not include every SSAT review every week, both for brevity and because not
 Depending on what the [SSAT Reviewing Manager](https://handbook.gitlab.com/handbook/support/workflows/how-to-respond-to-feedback/#who-is-responsible-for-reviewing-support-satisfaction-feedback) has populated the weekly SSAT issue with as a SWIR host you may need to edit the content.
 
 With the above purposes in mind, SSAT comments in the Support Week in Review should:
+
 - be truly positive! Avoid SSAT ratings that disparage other engineers, GitLab teams or are back-handed compliments that include a mix of praise and negative feedback.
 - have significant, thoughtful or interesting comments.
 - be from a mix of Engineers. Sometimes a particular engineer may have multiple positive reviews in a week: try to get a cross-section of the team included.

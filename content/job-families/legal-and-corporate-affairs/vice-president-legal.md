@@ -57,4 +57,3 @@ The Employment legal team collaborates with clients across GitLab on a broad ran
 #### Risk Mitigation & Dispute Resolution
 
 Risk Mitigation & Dispute Resolution is responsible for providing counsel and guidance related to litigation, claims, and dispute resolution.
-

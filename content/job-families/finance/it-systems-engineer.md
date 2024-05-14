@@ -133,7 +133,6 @@ The Staff IT Systems Engineer has all the same responsibilities as the ones outl
 
 ## Performance Indicators
 
-
 - Automation workflows created / GitLab Merge Requests
 - Handbook Merge Requests
 - [Number of days since last environment audit](https://internal.gitlab.com/handbook/it/it-performance-indicators/#number-of-days-since-last-environment-audit)

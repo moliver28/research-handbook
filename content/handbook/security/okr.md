@@ -28,6 +28,7 @@ A prioritized OKR objective directly contributes to the elimination, mitigation,
 #### Given an agreed-upon priority, how do functional areas align?
 
 Before the new quarter:
+
 - **Seven Mondays prior**: Boilerplate Google Doc with rough ideas is created and shared across [functional leaders](https://handbook.gitlab.com/handbook/company/structure/#functional-leaders)
 - **Six Mondays prior**: Functional leaders collaborate (async and sync) and determine objectives for the coming quarter. Each functional leader is responsible for proposing at least one objective or contributing to an already-proposed objective inclusive of up to 3 KRs per objective. Security functional leaders are to propose draft OKRs to the CISO.
   - KRs at this level should have clear, data-driven, quantitative targets. In some cases it's okay for KR to be centered around establishing a baseline KPI.
@@ -100,6 +101,7 @@ The DRI for the KR does not need to be a part of the department that owns the Ob
 #### Security KR Weekly Update
 
 Field updates:
+
 - Progress %
 - Health Status: On Track/Needs Attention/At Risk
 
@@ -125,6 +127,7 @@ With `YYYY-MM-DD` being the beginning of the week (Monday, even if this day if a
 
 **How do we share this, most simply, with other teams?**
 This presents a minimally viable model. If our sister organizations end up needing something differently, we can iterate.
+
 - **What we are working on “right now”** Well-architected Labels and supporting links to epics/etc
 - **What are your overarching strategic priorities?** CISO’s multiyear + functional strategy documents (example: Multi-year ProdSec Strategy)
 - **What is the security org focused on this year?** A bullet list of general priorities for the year:

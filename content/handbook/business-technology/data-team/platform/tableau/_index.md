@@ -96,6 +96,7 @@ Our Tableau self-governing model is administered and enforced in the [GitLab Tab
 The Project Architecture in Tableau Online is replicated and governed in the GitLab Tableau Project. Please see the [GitLab Tableau Project](https://gitlab.com/gitlab-data/tableau) for more details. Below are descriptions of the project folders and a sample of the project architecture found in Tableau online.
 
 The top-level folders in our Tableau Project, and their corresponding levels of governance, include:
+
 - `Development`: content in this folder intentionally includes no governance, in order to enable users to quickly prototype. As such it should be considered to be sandbox content.
 - `Ad Hoc`: content in this folder has been reviewed and approved by a sub-project leader, with traceability via an MR. (see [project-permission-structure](handbook/business-technology/data-team/platform/tableau/#biops-roles-and-responsibilities) for a list of sub-project leaders.)
 - `Production`: content in this folder has been reviewed and approved by sub-project leader(s) as well as project leader(s). This is the highest level of certification for Tableau content.
@@ -384,7 +385,6 @@ users:
 
 </details>
 
-
 #### Project Permission Structure
 
 User Groups are applied at the Project and Sub-Project levels. We have two types of User Groups that we apply, Administrator User Groups and Access Control User Groups. The Admistrator User Group gives permissions relating to what administrative tasks the user can do on the project such as moving content, deleting content, and changing permissions on the project. The Access Control User Group gives permissions relating to what access the user has such as viewing and publishing content.
@@ -471,7 +471,6 @@ Below are examples of Site Roles that we use. Individual users are assigned to s
 | Publish Data Source   |        |          | X       |
 | Use Data Flows        |        |          | X       |
 | Site Administration   |        |          | X       |
-
 
 <details markdown=1>
 
@@ -563,6 +562,7 @@ Once approved, the BI Platform team will then add the user to the `okta-tableau-
 Creators with an active license to Tableau Online is encouraged to use Tableau Desktop for development. Locally developed Data Sources or Workbooks can later be published to Tableau Online. All Creators will be assigned access to Tableau Online and Desktop. The BI Platform team will assign Dekstop keys from the [Licenses](https://customer-portal.tableau.com/s/my-keys) section of the [Tableau Customer Portal](https://customer-portal.tableau.com/s/). Those assigned a Desktop key can follow email instructions from Tableau to set up their client.
 
 One can download Tableau Desktop using the links below, or follow the link from the [Home Page](https://10az.online.tableau.com/#/site/gitlab/home) of Tableau Online.
+
 - [Tableau Desktop Releases Download](https://www.tableau.com/support/releases)
 - [Tableau Prep Builder Releases Download](https://www.tableau.com/support/releases/prep)
 
@@ -606,7 +606,7 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 
 1. Personal Space > New > Workbook
 2. Connect to Data > Files
-2. Drag and drop a file / Upload from computer
+3. Drag and drop a file / Upload from computer
 
 </details>
 
