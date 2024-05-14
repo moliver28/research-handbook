@@ -183,6 +183,7 @@ The Distribution DRI works on the following areas per the order of the list.
 #### Handover
 
 1. Close the existing meta issue.
+1. Update [the shift](https://docs.google.com/document/d/1ny8dB9N_jlt9cGCkNXlN5GpjTkOePUKvi-lnON2jBdA/edit#bookmark=id.nzrf04qngt3n).
 1. Create a new meta issue for the next team member on the duty, and assign them to it. The issue title should be `Distribution DRI rotation week of <starting date>`. Use the `Distribution-DRI` template to fill in the description.
     - If any request is still on going by the end of the week, the DRI should consider one of the following with their best judgement:
       1. Close the request with mitigation and open a follow-up issue to be triaged by our regular triage process.
