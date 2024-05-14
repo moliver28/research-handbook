@@ -21,7 +21,6 @@ Everyone at GitLab is welcomed and encouraged to submit an MR to create or sugge
 
 This procedure applies to all [controlled documents](#list-of-controlled-documents) developed in support of GitLab's statutory, regulatory and contractual requirements. Uncontrolled documents are dynamic in nature and not in scope of this procedure.
 
-
 ## Roles & Responsibilities
 
 | Role  | Responsibility |

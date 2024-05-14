@@ -65,6 +65,7 @@ Key components of GitLab’s OCM methodology:
 When rolling out an organization-wide change that will impact all team members, the first step is to develop an agile change plan. An agile change plan can be informal and the DRI for the change can do it asynchronously with others leading the change. You can draft the plan in a Google doc and use it as a starting point when planning for change. For OCM to work, it’s essential to have all the components documented as a source of record and plan for the change.
 
 When developing the agile change plan, there are a few important components to consider:
+
 1. **Leadership Engagement:** Visible leadership is the key to success on any large scale transformations at GitLab. Team members will be looking to leaders for cues on how to interpret the change and what actions to take. Depending on the scale of the change, its success will depend on leaders effectively sponsoring and ensuring readiness within their functional groups.
     - Leadership will drive team member engagement and adoption of the change
 1. **Leadership awareness and engagement plan:** As you start to develop an understanding of how to drive team member engagement with leaders, consider plotting out awareness activities you will do with leaders to get them bought in on the change. Communicate what you will do and why you need their support to drive adoption.

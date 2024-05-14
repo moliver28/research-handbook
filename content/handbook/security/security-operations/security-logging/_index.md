@@ -118,7 +118,6 @@ Please use the following labels for **general work only**:
 | `~"☁️ SecLog"`             | Team Label (to be included in every project-related issue)      |
 | `~"SecLog::Incoming-Requests"`       | For new issues which need to be triaged                         |
 
-
 ### Design Documents
 
 Before starting a new project, the team is **encouraged**

@@ -22,20 +22,21 @@ The Data Team follows the GitLab SAFE [Framework](/handbook/legal/safe-framework
 
 ### Tableau
 
-Access to Tableau dashboards is based on license type (see Tableau Licenses in our [Tableau](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/) handbook page), which can be prioritized by job roles, and governed by the [SAFE Data Access Framework](/handbook/legal/safe-framework/). In Tableau, we apply the SAFE security framework using [User Groups](/handbook/business-technology/data-team/platform/tableau/#user-groups). There are four primary projects/folders where dashboards can exist - Development, Production, Ad-hoc, and Resources. The Development, Production, and Ad-hoc folders each have a sub-folder for various teams at GitLab, such as Finance and Sales. Within each team's folder there are generally two main folders to which content can be published: General, and SAFE.
+Access to Tableau dashboards is based on license type (see Tableau Licenses in our [Tableau](/handbook/business-technology/data-team/platform/tableau/) handbook page), which can be prioritized by job roles, and governed by the [SAFE Data Access Framework](/handbook/legal/safe-framework/). In Tableau, we apply the SAFE security framework using [User Groups](/handbook/business-technology/data-team/platform/tableau/#user-groups). There are four primary projects/folders where dashboards can exist - Development, Production, Ad-hoc, and Resources. The Development, Production, and Ad-hoc folders each have a sub-folder for various teams at GitLab, such as Finance and Sales. Within each team's folder there are generally two main folders to which content can be published: General, and SAFE.
+
 - The General folders contain data that can be viewed by anyone at GitLab.
 - The SAFE folders contain any dashboards with material non-public information (MNPI) and are only accessible by users belonging to the General SAFE Access user group.
 
 The development workflow for Tableau Creators that work with data meeting [GitLab's SAFE criteria](/handbook/legal/safe-framework/#safe-flowchart) is to publish into the SAFE folder in their department's Development project. Should the Creator want to publish the workbook outside of the SAFE folder within the development project, they should open an [issue](https://gitlab.com/gitlab-data/tableau/-/issues/new) using the `All Requests` template in the Tableau project and request a review of the content by the BI Platform team. The BI Platform team will provide a yes or no decision on whether it is SAFE to publish the content outside of the SAFE folder in the development project.
 
-
 #### Accessing a GitLab General Access Dashboard
 
-General Access Dashboards are available to all GitLab Team members. An Access Request to gain access to Tableau (if a team member does not already have access) will be required, but no further Access Requests are required to view these general access dashboards. You can read more about permissions and access in the [Tableau Section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#permissions) of the handbook.
+General Access Dashboards are available to all GitLab Team members. An Access Request to gain access to Tableau (if a team member does not already have access) will be required, but no further Access Requests are required to view these general access dashboards. You can read more about permissions and access in the [Tableau Section](/handbook/business-technology/data-team/platform/tableau/#permissions) of the handbook.
 
 #### Accessing a SAFE Dashboard
 
-All SAFE dashboards are stored within various team's SAFE folders and permission is managed by the user's access group membership. Access to a single SAFE dashboard provides access to all SAFE Dashboards. Having  access to the SAFE project/folder will result in making the team member a [Designated Insider](https://handbook.gitlab.com/handbook/legal/publiccompanyresources/#sts=Designated%20Insiders) subject to our [Insider Trading Policy](https://drive.google.com/file/d/12H-H43vIf15fWADZDEf3FH2jneMmiLDH/view). Gaining access to a SAFE dashboard (and the space) via membership in the General SAFE Access user group requires:
+All SAFE dashboards are stored within various team's SAFE folders and permission is managed by the user's access group membership. Access to a single SAFE dashboard provides access to all SAFE Dashboards. Having  access to the SAFE project/folder will result in making the team member a [Designated Insider](/handbook/legal/publiccompanyresources/#sts=Designated%20Insiders) subject to our [Insider Trading Policy](https://drive.google.com/file/d/12H-H43vIf15fWADZDEf3FH2jneMmiLDH/view). Gaining access to a SAFE dashboard (and the space) via membership in the General SAFE Access user group requires:
+
 1. Your immediate manager's approval
 2. Departmental VP (or equivalent) approval
 
@@ -56,8 +57,7 @@ Every 90 days the Data Team runs a [Data Health and Security Audit](/handbook/bu
 
 #### Accessing Various Limited Access User Groups
 
-There are several variations of limited access user groups which you may want to access, such as internal audit-related data, or sales development SAFE data. You can read about the descriptions of these groups [here](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#limited-access-user-groups), as well as how to request access.
-
+There are several variations of limited access user groups which you may want to access, such as internal audit-related data, or sales development SAFE data. You can read about the descriptions of these groups [here](/handbook/business-technology/data-team/platform/tableau/#limited-access-user-groups), as well as how to request access.
 
 ### Snowflake
 

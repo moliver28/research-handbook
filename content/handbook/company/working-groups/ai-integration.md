@@ -122,7 +122,6 @@ The following criteria should be met for the group to disband:
 | Support | @ralfaro | [Ronnie Alphero](https://gitlab.com/ralfaro) | Support Engineering Manager |
 | Enablement | @cs.wang | [Christopher Wang](https://gitlab.com/cs.wang) | Sr. Manager, Enablement (Sales Development) |
 
-
 ## Engineering Groups
 
 We currently have two core AI Development groups at GitLab: AI Framework group and AI Model Validation group.

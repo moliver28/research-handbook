@@ -98,7 +98,6 @@ If you have a resource you'd like to include, please open a merge request and co
 | [The Harvard Gazette - Women less inclined to self-promote than men, even for a job](https://news.harvard.edu/gazette/story/2020/02/men-better-than-women-at-self-promotion-on-job-leading-to-inequities/) | Study finds female workers’ deep discomfort over touting skills, experience adds to gender gap in promotions, pay |
 | [Stanford Continuing Studies Department](https://continuingstudies.stanford.edu/) | Standford offers many continuing education programs in multiple diciplines including leadership, writing, and professional/personal development |
 
-
 ### Book Suggestions
 
 The following are books suggested by GitLab team members in the [#women Slack channel](https://app.slack.com/client/T02592416/C7V402V8X). Please open an merge request to add books to this page, and consider including a short review of the book from your perspective!

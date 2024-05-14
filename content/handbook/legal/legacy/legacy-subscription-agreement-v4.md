@@ -148,7 +148,6 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 (iii) GitLab reserves the right to remove, rename, or close inactive accounts at its discretion.
 
-
 ### 6. PAYMENT OF FEES
 
 6.1  With respect to purchases direct from GitLab, all web-portal purchase Fees shall be due and payable immediately.
@@ -272,7 +271,6 @@ This Subscription Agreement (“Agreement”) is between GitLab Inc. with office
 
 15.8 This Agreement will be governed by the laws of the State of California, U.S.A. without regard to its conflict of laws provisions.  The federal and state courts sitting in San Francisco County, California, U.S.A. will have proper and exclusive jurisdiction and venue with respect to any disputes arising from or related to the subject matter of this Agreement. The United Nations Convention on Contracts for the International Sale of Goods is expressly disclaimed by the Parties with respect to this Agreement and the transactions contemplated hereby.
 
-
 ## APPENDIX 1: GitLab Subscriptions
 
 Fees for the Subscriptions are based upon the number of Users and the applicable level of support and/or functionality of the Software, as set forth in the table below. In the event Customer does not reasonably comply with written specifications or instructions from GitLab’s service engineers, regarding any support issue or request (including without limitation, failure to make backups of Customer Content or versions of Software) (each, a “Support Issue”), GitLab may cease its support obligations to Customer with respect to such Support Issue upon fifteen (15) days written notice and Customer’s inability to cure such noncompliance within the notice period.
@@ -293,9 +291,8 @@ Fees for the Subscriptions are based upon the number of Users and the applicable
 **PRIORITY SUPPORT OVERVIEW:** https://about.gitlab.com/support/#priority-support
 
 **CUSTOMER SUCCESS SERVICES**
+
 - Customer Success Services include additional assistance with respect to Customer’s use of the GitLab Software. Customer Success Services are provided at no charge, an overview of the Customer Success Services can be found at https://about.gitlab.com/services/customer-success-services/. In order to receive Customer Success Service(s), Customer understands that additional data and information (“Operational Data”) will be collected. An overview of Operational Data can be found at: https://gitlab-org.gitlab.io/growth/product-intelligence/metric-dictionary/?data_category=operational.
-
-
 
 ## APPENDIX 2: Software as a Service (SaaS) Offering
 

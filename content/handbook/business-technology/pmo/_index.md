@@ -53,6 +53,7 @@ LinkedIn Profile: [/nicolas-sandoval-331900b3](https://www.linkedin.com/in/nicol
 ## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Our Mission
 
 The IT Program Management Office (PMO) mission is to provide:
+
 - A standard approach to project delivery across the IT department
 - Full and accurate visibility of IT project status
 - Effective prioritization of project management resources to support all IT initiatives
@@ -85,12 +86,14 @@ The [IT Project Prioritization tracker](https://docs.google.com/spreadsheets/d/1
 ### Resources & Capacity Planning
 
 Achieved by:
+
 - Identifying all resource on the team
 - Estimating capacity like Keeping the lights on (KTLO), Admin, Management and Projects
 
 ### Project Commits
 
 All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) have:
+
 - Resources assigned in order of priority
 - An appropriated label:
    - **Committed**: Projects that are in-flight / being worked on
@@ -100,6 +103,7 @@ All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.
 ### T-Shirt Sizing
 
 Consists in identifying the project's:
+
 - Estimated Level Of Effort (LOE)
 - Duration
 - Roles & Responsibilities
@@ -107,6 +111,7 @@ Consists in identifying the project's:
 ### Alignment & OKRs
 
 All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are part of the Business Technology [OKRs](https://about.gitlab.com/company/okrs/) for:
+
 - Awareness
 - Accountability
 - Value Generation
@@ -114,6 +119,7 @@ All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.
 ## Release Management
 
 The release management plan helps the IT team:
+
 - Set an agreed upon standard
 - Operationalize
 - Keep consistency & predictability
@@ -128,6 +134,7 @@ The release management plan helps the IT team:
 ## Governance and Program Management Methodology
 
 Visit the [Governance and IT Program Management](/handbook/business-technology/pmo/pmo-governance/) page to understand the methodology adopted by the IT PMO team for all GitLab IT programs aimed at achieving the following objectives:
+
 - Ensuring robust results and efficient execution.
 - Ensuring proper scoping aligned with our value of iteration.
 - Engaging appropriate stakeholders in line with our value of collaboration.
@@ -138,7 +145,7 @@ Visit the [Governance and IT Program Management](/handbook/business-technology/p
 Every week, the IT PMO Management team review the [IT-Intake-PMO](https://gitlab.com/groups/gitlab-com/-/boards/5982959?label_name[]=it-intake-pmo) board, with only a single outcome for the issues listed under the _Open_ list:
 
 - The issue is related to an ongoing project from the [IT Portfolio of Projects](/handbook/business-technology/pmo/#it-portfolio-of-projects) and it will be picked up by the IT Program Manager that is assigned to the project.
-   - IT PMO will add the appropriated [team label](/handbook/business-technology/pmo/#labels) and work with the business requestor to get all necessary information so the issue can be placed into the appropriated [EntApps Milestone]().
+   - IT PMO will add the appropriated [team label](/handbook/business-technology/pmo/#labels) and work with the business requestor to get all necessary information so the issue can be placed into the appropriated EntApps Milestone.
 - The issue **is not** related to an ongoing project from the [IT Portfolio of Projects](/handbook/business-technology/pmo/#it-portfolio-of-projects) and so it will be placed in the backlog in the [IT Prioritization tracker](/handbook/business-technology/pmo/#it-project-prioritization). The IT Prioritization tracker is reviewed during the [IT Portfolio Review (monthly) meeting](/handbook/business-technology/pmo/#it-portfolio-review-meetings-lead-to-cash-cro-and-ga)
    - The _it-pmo-backlog_ label will be added.
 
@@ -146,9 +153,7 @@ Every week, the IT PMO Management team review the [IT-Intake-PMO](https://gitlab
 
 When assigned to a project, the IT PMO team is responsible for creating and maintaining the project [Epic](https://docs.gitlab.com/ee/user/group/epics/index.html). A single parent Epic is created together with (up to) 5 [child Epics](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#multi-level-child-epics), each representing a distinct phase of the System Development Lifecycle (SDLC). [Issues](https://docs.gitlab.com/ee/user/project/issues/) are used as a means to collaborate on ideas, troubleshoot problems, and strategize for their tasks. By using issues, teams can share and discuss proposals internally or involve external collaborators in the process.
 
-
 To maintain uniformity across all PMO-led projects, the team follows the same [Epic templates](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/intake/-/issues/394).
-
 
 ### System Development Lifecycle (SDLC)
 
@@ -230,6 +235,7 @@ The IT PMO team takes the lead in initiating discussions regarding enablement an
 ## IT Quarter Planning Process
 
 There are several activities that take place to prepare for new OKRs / commits and report on the current ones:
+
 - **Project List & Priorities from Business**: The IT PMO team reaches out to Business stakeholders to get a list of projects and priorities for the upcoming quarter.
 - **Update OKR(s) progress**: The IT PMO works with IT Leadership to update the OKR(s) progress in gitlab.com.
 - **IT PMO & Leadership - Upcoming Quarter Priorities Review**: The IT PMO team reviews the business projects and priorities with IT Leadership to add initiatives to the upcoming commits tracker.
@@ -274,7 +280,6 @@ The IT Integrations team designed the Rolly Bot, a tool aimed at automating the 
 | **Change Request** | A change request is a formal proposal to modify the configuration of an IT service, system, or infrastructure in a controlled manner. It aims to introduce improvements, fix issues, implement new features, or make any other alterations that can potentially impact the existing environment. | Change requests involve making intentional changes to the IT environment, and they need to be carefully evaluated, planned, and implemented to avoid disruptions and minimize risks. Change management ensures that changes are controlled and align with business objectives. | Software upgrade, hardware replacement, infrastructure configuration change, service maintenance window, database schema modification, etc. |
 | **Incident** | An incident is an unplanned interruption or reduction in the quality of an IT service. It can also refer to the failure of a configuration item (CI) that has not yet impacted service but poses a significant risk of doing so in the future. | Incidents are unexpected events that disrupt normal service operations and require immediate attention to restore service to its normal state. Incident management focuses on minimizing the impact of incidents on users and business operations. | Network outage, application crash, server failure, data loss, email delivery problems, etc. |
 
-
 - **Project:** To be considered a project the request need to meet all the below criteria:
    - The work will taken more than 48hrs to be built and tested (end to end)
    - Involves 2 or more systems
@@ -282,7 +287,6 @@ The IT Integrations team designed the Rolly Bot, a tool aimed at automating the 
    - Involves 2 or more teams (even within IT so for example, EntApps LTC and EntApps Integrations)
 
 The main difference between a project and a change request in ITIL lies in their scope, nature, and the processes they follow. Projects are temporary, comprehensive efforts aimed at achieving specific goals, while change requests are smaller, routine or ad-hoc requests to modify existing IT services or configurations.
-
 
 ## <i class="fas fa-file-alt" id="biz-tech-icons"></i> Meetings
 

@@ -5,12 +5,6 @@ title: "End User Services"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
 ## <i class="far fa-paper-plane" id="biz-tech-icons"></i> How to reach out to us?
 
 <div class="flex-row" markdown="0" style="height:100px;justify-content:flex-start;">
@@ -73,7 +67,7 @@ New to GitLab and looking for some IT tips and tricks? This is the spot for you,
 
 - Are you or a direct report leaving the company? Please reference the [Offboarding](/handbook/business-technology/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
 
-# <i class="fas fa-tasks" id="biz-tech-icons"></i> Automations
+## <i class="fas fa-tasks" id="biz-tech-icons"></i> Automations
 
 ## IT-Help Slack Issue Creator
 
@@ -86,6 +80,7 @@ Reach out to the #it_help Slack channel as usual when assistance is needed. The 
 ### How it works
 
 The script scans the IT help Slack channel and performs the following actions:
+
 - Creates a new GitLab issue if a user adds an 👀 reaction to a message and the issue has not been created yet.
 - Closes the GitLab issue if a user adds a check mark (✔) reaction and the issue has been created but not closed.
 - Reopens the GitLab issue if it has been closed, but the check mark reaction is removed.
@@ -95,7 +90,6 @@ The script scans the IT help Slack channel and performs the following actions:
 
 To learn more on how this automation works, check the [IT-Help Slack Issue Creator wiki](https://gitlab.com/groups/gitlab-com/it/end-user-services/-/wikis/IT-Help-Slack-Issue-Creator/How-To-Use).
 {: .alert .alert-info}
-
 
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Mission Statement
 

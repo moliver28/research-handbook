@@ -26,7 +26,6 @@ The Field Security team is tasked with providing high levels of security assuran
 
 ## <i class="fas fa-id-card" style="color:rgb(110,73,203)" aria-hidden="true"></i> Contact the Team
 
-
 [Ayoub Fandi](/handbook/company/team/#ayofan), @ayofan, Staff Security Assurance Engineer, Field Security
 
 - [Customer Assurance Activities]({{< ref "customer-security-assessment-process" >}})
@@ -49,8 +48,6 @@ The Field Security team is tasked with providing high levels of security assuran
 - [Independent Security Assurance]({{< ref "independent_security_assurance" >}})
 - Contract Reviews
 - Trust Center administration and development (Knowledge Base, content, documents, integrations and metrics)
-
-
 
 {{% note %}}
 The areas above related to each team members primary responsibility. However, each team member is cross trained in all processes and provide back up to each other if applicable.

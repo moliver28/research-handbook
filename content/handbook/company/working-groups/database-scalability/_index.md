@@ -72,7 +72,6 @@ We explored [sharding]({{< ref "sharding" >}}) last year and scoped it to the da
 
 We are now kicking off a new iteration on this problem, where the scope is **expanded** from the database layer into the application itself, as we recognize this problem cannot be solved to meet our needs and requirements if we limit ourselves to the database: we must consider careful changes in the application to make it a reality.
 
-
 #### Data management as a discipline
 
 Deferring most, if not all, data management responsibities to the database has enabled us to offload decisions and rely on PostgreSQL's excellent capabilities to cope with application demands. While we have run into a few scalability limits (which were addressed through [`infradev`](/handbook/engineering/workflow/#infradev)), the database has, for the most part, held its ground, aided by copious amounts of hardware. This has provided specific fixes to very specific problems, and has afforded us development speed but blindsided us to long-term issues as the database grows. Spot fixes will not be sufficient to sustain growth on GitLab.com. This is now reflected in significant technical debt issues such as [`ci_builds`](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/52203), where the current schema and usage is making our ability to scale it difficult. Thus, we will need to take a more strategic view to provide a long-term, comprehensive solution, and adopt **data management as a full-fledged discipline**.

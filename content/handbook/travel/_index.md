@@ -60,9 +60,6 @@ For additional security specifically when traveling through an airport, the foll
 - If you are traveling through an [embargoed country](/handbook/sales/#export-control-classification-and-countries-we-do-not-do-business-in), do not bring any company-owned devices with you. If you must bring one, contact the legal department to discuss.
 - If you are aware of any circumstances with your travel that may present a unique security risk (such as traveling to speciality conferences like Defcon), you may request advice in the [#security-department](https://gitlab.slack.com/archives/CM74JMLTU) Slack channel.
 
-
 ### Expenses While Traveling
 
 Understand the guidelines of our [Global Travel and Expense Policy](/handbook/finance/expenses/) before you travel.
-
-

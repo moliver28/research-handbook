@@ -30,6 +30,7 @@ GitLab's headquarter mailing address is in scope and covers all sub organization
 ### Organizational Units
 
 Business functions included in the scope of the ISMS include:
+
 - Engineering - Chief Information Security Officer; Security Assurance sub-department; Application Security, Security Operations, Security Incident Response (SIRT), Infrastructure Security teams
 - Engineering - VP of Development
 - Engineering - VP of Infrastructure and Quality

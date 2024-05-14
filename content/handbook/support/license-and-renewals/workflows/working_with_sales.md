@@ -22,7 +22,9 @@ description: This page is about working with sales.
  > Please note that according to the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) we expect a reply from you on this chatter within 24 hours (excluding weekend, Family and Friends Day & global holidays) stating when/if you will contact the customer.
 
 1. Share the link to the Chatter message (right-click on timestamp) in an internal note on the ticket.
+
  - Note that you can only link to the original Chatter message, not to any of its comments.
+
 1. You may want to check the account owner's Slack status to see if they're
  currently taking time off work.
 1. If reaching out to the account owner on Slack (always on `#support_to_sales_escalation`
@@ -45,7 +47,7 @@ description: This page is about working with sales.
 
 ##### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
 
-- Follow this [process](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case, OR
+- Follow this [process](/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case, OR
 Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F98X000000oPQS) group in Salesforce.
   - Once a case is created, it will be picked up by an SMB Advocate.  Once picked up, the SMB Adovate will drop a note in the Zendesk ticket advising that the request is being actioned.
   - The case can then be tracked by viewing the `Case Status` field, and `Case Next Steps` field.

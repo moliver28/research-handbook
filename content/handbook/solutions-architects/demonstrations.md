@@ -29,7 +29,6 @@ Solutions Architects are occasionally called on at a moments notice to give a de
 
 Back in FY23-Q1 we've started an OKR to create a [repeatable process for maintenance of recording GitLab P2M-style demos](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/issues/89), which, in turn, resulted in a followup OKR in FY23-Q3 to [Document the repeatable process for maintenance of recording GitLab Flow-style demos](https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/issues/137).
 
-
 ### Setup the demo and environment
 
 All GitLab assets are available in [this group](https://gitlab.com/tanuki-workshops/emea-sa-tam/p2m), refer to the [README](https://gitlab.com/tanuki-workshops/emea-sa-tam/p2m/README/-/blob/main/README.md) for more information on how to Get Started.
@@ -42,6 +41,7 @@ All GitLab assets are available in [this group](https://gitlab.com/tanuki-worksh
 We should have a short presentation that acts as an intro and guides our viewers through the demo. [This presentation](https://docs.google.com/presentation/d/1wpxOE5Sq1fRE2bv_7x5uF3wLx0KJwTxVNDkCukEVEWY/edit?usp=sharing) (located in the [CS->Demo Script](https://drive.google.com/drive/folders/0B6HCxjyEpdXRR0FSQXMwVjI3bFE?resourcekey=0-IAm5RyKLwi-1uAZ4hgZcjQ&usp=sharing) folder in GDrive) could be used as a base for this.
 
 The main flow should be:
+
 - Introduction to the One GitLab Platform
 - Highlight of a select number of added capabilities and their value (if possible say thank you to the release MVP)
 - Demo of GitLab Flow

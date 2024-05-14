@@ -25,12 +25,3 @@ Current labels are marked as priority labels in the [Legal and Compliance Labels
 
 1. Category labels are used to designate the type of Legal request. These labels should be applied by the individual creating the issue. If the Category is uncertain, use the `Triage` label and Legal staff will designate it appropriately.
 1. Scoped labels are used by the Legal team for tasks that are longer term and have various stages. These labels will be applied by Legal staff as they move through the workflows.
-
-
-
-
-
-
-
-
-

@@ -263,6 +263,7 @@ expected to proceed with an interaction if levels of comfort or personal safety 
 [Adapted from Human Rights Campaign Establishing an Allies/Safe Zone Program, Human Rights Campaign](https://www.hrc.org/resources/establishing-an-allies-safe-zone-program)
 
 Additional resources on how to be an ally:
+
 - [Allyship at GitLab]({{< ref "ally-resources" >}})
 - [Live Learning Ally Training at GitLab](https://ctb.ku.edu/en/table-of-contents/culture/cultural-competence/be-an-ally/main)
 - [Chapter 27. Cultural Competence in a Multicultural World | Section 5. Learning to be an Ally for People from Diverse Gro…
@@ -286,7 +287,6 @@ Straight for Equality](https://ctb.ku.edu/en/table-of-contents/culture/cultural-
 - The nomination process will stay open for two weeks from the original slack message
 - A team member will nominate themselves for a lead role by completing the TMRG Lead Nomination Issue template
 - The DIB team will consult with existing TMRG members, Leads, The People Team, Executive Sponsors and Managers to decide who will take the leadership position. This is to ensure the best person for the TMRG program is selected and diversity of departments, geography and URGs are properly represented.
-
 
 ### Qualities of a TMRG leader
 
@@ -524,7 +524,6 @@ To help develop goals you may want to utilize goal setting activities to assist 
 
 - Backward Goal Setting: This is where you start with a large goal or objective. Then distilling this down to smaller goals & objectives to achieve the larger goal.
 - Success Goal Setting: Similar to the above, but you will define what success looks like, either with a measurable or an outlook. The set goals and objectives that will help get to that end state.
-
 
 ### Finance & Budgets for TMRGs
 

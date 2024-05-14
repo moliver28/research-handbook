@@ -19,4 +19,3 @@ Typically, Summit takes place over the course of a single week.
 During that time, there is a mix of general sessions, divisional sessions, unconference, excursions, and social time.
 
 Team members can find more details in the [relevant Summit project](https://gitlab.com/gitlab-com/marketing/corporate_marketing/contribute).
-

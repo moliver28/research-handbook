@@ -102,7 +102,6 @@ This activity is supported by a set of principles and tools. The artifacts (Arch
 and decisions) help to achieve the following activities. For example, a better understanding of the
 system helps to get started with the Threat Modeling activity.
 
-
 #### Define Target Environment
 
 #### Threat Modeling
@@ -118,7 +117,6 @@ infrastructure or our product inform the Security Research Team
 efforts.
 
 ## Additional resources and references
-
 
 [Security Assurance]: {{< ref "security-assurance" >}}
 [Security Architects]:{{< ref "../product-security/architecture" >}}

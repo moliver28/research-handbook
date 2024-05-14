@@ -48,5 +48,4 @@ classDef classC fill:#D6EAF8, stroke:#21618C
 classDef classD fill:#D7BDE2, stroke:#633974
 ```
 
-
 We are using this [Talent Development Program issue](https://gitlab.com/gitlab-com/people-group/General/-/issues/719) to work on the content and overall planning of this page and the program. Follow along and please contribute!

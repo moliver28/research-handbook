@@ -26,7 +26,6 @@ Navigate to career development resources located throughout the GitLab handbook:
   </div>
 </div>
 
-
 ### Career Growth Opportunities
 
 <div class="flex-row" markdown="0">
@@ -103,7 +102,6 @@ A live speaker series hosted in March 2022 with [Lavinia Mehedintu](https://www.
 1. 70% of your development should come from on-the-job and action learning.  This can include development experiences like managing a project, serving on a cross-functional team, taking on a new task, job shadowing, job rotation, etc.
 1. 20% of your development should come from interactions with others.  This includes having a mentor, being a mentor, coaching, participating in communities of practice, providing and receiving feedback, serving as a leader in your organization, etc.
 1. 10% of your development should come from training, including classes, seminars, webinars, podcasts, reading, conferences, etc. GitLab offers a [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) to help with this.
-
 
 ### Career Development versus Career Mobility
 
@@ -219,7 +217,6 @@ Team Members: Take the [Support your team with Career Conversations course in Le
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/support-your-team-with-career-conversations" class="btn btn-primary" style="width:200px;margin:5px;">Take the Course</a>
   </div>
 </div>
-
 
 #### Manager responsibilities
 

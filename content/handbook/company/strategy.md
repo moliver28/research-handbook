@@ -47,7 +47,6 @@ If we effectively seed and then nurture, we can fully activate GitLab's [two gro
 
 Please see our [pricing model](/handbook/company/pricing/) for details
 
-
 ## Dual flywheels
 
 GitLab has two flywheel strategies that reinforce each other: our open core flywheel and our development spend flywheel.
@@ -78,7 +77,6 @@ graph BT;
 | More Contributions | [Wider community contributions per release](/handbook/marketing/developer-relations/performance-indicators/#wider-community-merged-mrs-per-release) | Developer Relations and Engineering |
 | More Features | [Merge Requests per release per engineer in product development](/handbook/engineering/development/performance-indicators/#average-mrs-development-engineers-month) | Engineering and Product Management |
 | More Revenue | [IACV](/handbook/sales/#incremental-annual-contract-value-iacv) vs. plan | Sales and Marketing |
-
 
 ### Flywheel with two turbos
 
@@ -158,22 +156,27 @@ Our yearly plans are linked from the [relevant cadence section](/handbook/compan
 Activity
 
 Positioning and SWOT published in [internal handbook](https://internal.gitlab.com/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
+
 - May 15th eGroup review (Complete)
 
 eGroup capability gap exercise at eGroup offsite (prework)
+
 - Stella
 - Complete: Jun 28th
 
 Complete capability gap exercise at VP level to bring more input into the group
+
 - Directs Group
 - Drafts: July 12th
 - Final: July 19th
 
 Pull together comprehensive view of capabilities from eGroup and VP sessions
 Craig/Dave
+
 - July 24th
 
 eGroup June Virtual Offsite Sessions:
+
 - Decide on GTM, Ops and Product strategies
 - Decide on top capabilities for investment (feed into LRO)
 - Craig/Dave

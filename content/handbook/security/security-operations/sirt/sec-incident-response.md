@@ -164,7 +164,6 @@ In the event of a perceived major security incident (which may prove to not be o
 - **Do your best to stay professional**. However, be aware that security incidents are often stressful and we're all humans. People may raise their voice, or use wording that seems unnecessary, harsh or inappropriate. It's important to cut people some slack (no pun intended) during this stressful time, and raise/address any potentially erratic behavior with the relevant manager once the incident is over.
 - **Humor is your ally**. No, it really is.
 
-
 ### Incident Labels
 
 The correct use of dedicated [scoped incident labels](#incident-labels) is critical to the sanity of the data in the incident tracker and the subsequent metrics gathering from it.

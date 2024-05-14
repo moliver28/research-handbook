@@ -35,11 +35,11 @@ Team members ought to be classified under a professional group and level (by are
 
 ## Employment Policies
 
-In addition to the [People Policies](https://handbook.gitlab.com/handbook/people-policies/) page of the Handbook, which serves as a directory of relevant policies and also lists entity specific employment policies where they are applicable, there are Spanish language versions of many of the policies available for reference and they can be accessed from [here](https://handbook.gitlab.com/handbook/people-policies/#translations).
+In addition to the [People Policies](/handbook/people-policies/) page of the Handbook, which serves as a directory of relevant policies and also lists entity specific employment policies where they are applicable, there are Spanish language versions of many of the policies available for reference and they can be accessed from [here](/handbook/people-policies/#translations).
 
 ## Legal Policies
 
-In addition to the [Legal Policies](https://handbook.gitlab.com/handbook/legal/#gitlab-policies) page of the Handbook, there are Spanish language versions of many of the policies available for reference and they are accessible [here](https://handbook.gitlab.com/handbook/people-policies/#translations).
+In addition to the [Legal Policies](/handbook/legal/#gitlab-policies) page of the Handbook, there are Spanish language versions of many of the policies available for reference and they are accessible [here](/handbook/people-policies/#translations).
 
 ## Timekeeping
 
@@ -99,6 +99,7 @@ Please note you will have 25 days to enroll your family with effective date as t
 No waiting periods except for the following procedures:
 
 12 months:
+
 - Urinary incontinence´s rehabilitation
 - Telemedicine Program: Children's Cognitive
 - Telerehabilitation (Guttmann)
@@ -125,6 +126,7 @@ The Team Member portion of the dependent cost will be deducted from their payche
 Life Insurance provides peace of mind for you and your loved ones in the event of your untimely death, helping to relieve financial concern during a time of grief. GitLab offers Life Insurance via Generali.
 
 Team Members are automatically enrolled into the benefit with an insured lump sum of 200% Gross Base Salary. This includes cover for the following:
+
 - Death by any cause,
 - Accidental Death (additional lump sum),
 - Total and Permanent Disability for the own occupation by any cause,
@@ -154,7 +156,6 @@ To Update your Beneficiary please fill out the [beneficiary designation form](ht
 
 </details>
 
-
 ### Administrative Details for Benefits Team
 
 <details markdown="1">
@@ -171,7 +172,7 @@ Team Members are on leave whose salary is paid directly via the Spanish governme
 
 Team members will receive the monthly remote working allowance established under the CBA, which will be paid monthly, processed by payroll and will be listed on your payslip as **PLUS TELETRABAJO**.
 
-Any additional expenses will be reimbursed under the [GitLab Global Travel and Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/), up to any limits set by GitLab.
+Any additional expenses will be reimbursed under the [GitLab Global Travel and Expense Policy](/handbook/finance/expenses/), up to any limits set by GitLab.
 
 ### Spain-Specific Leave
 
@@ -295,4 +296,3 @@ What's next in Spain? Any planned policy additions will be put on a roadmap here
 ## Transparency/Version control
 
 If/when country specific policies are added or updated, and where it is possible, previous versions of those policies will remain accessible internally and will be linked from current versions.
-

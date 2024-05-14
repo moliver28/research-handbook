@@ -1,18 +1,18 @@
 ---
 
 title: RoEs, FAQs and KPIs
-description: Use this page to clarify any questions or expectations around Rules of Engagement (RoE), Key Performance Indicators (KPIs) or Service Level Agreements (SLAs).  
+description: Use this page to clarify any questions or expectations around Rules of Engagement (RoE), Key Performance Indicators (KPIs) or Service Level Agreements (SLAs).
 
 ---
 
 ## Frequently Asked Questions (FAQ) and Rules of Engagement (RoE)
 
-This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to help structure the expectations of SDR and BDR roles. Below you'll find the Key Performance Indicators (KPIs) and Service Level Agreements (SLAs) that we've designed to help you get results for customers as efficiently as possible. We additionally provide an explanation of our Rules of Engagement as well as a general Frequently Asked Questions (FAQ) section.
+This page is part of the Sales Development team's handbook [page](/handbook/marketing/sales-development/) and aims to help structure the expectations of SDR and BDR roles. Below you'll find the Key Performance Indicators (KPIs) and Service Level Agreements (SLAs) that we've designed to help you get results for customers as efficiently as possible. We additionally provide an explanation of our Rules of Engagement as well as a general Frequently Asked Questions (FAQ) section.
 
 ## Rules Of Engagement (RoE)
 
 1. Is the MQL from an Existing Account?
- 
+
 **No:** It is worked by the SDR team <br>
 **Yes:** Check the BDR Prospecting Status
 
@@ -77,7 +77,7 @@ If the related SDR relays information that was not picked up in the new SDR’s 
 **Q:** I can’t see certain Outreach collections!: <Br>
 **A:** You potentially were added to the incorrect Sales Dev Team in Outreach. Please reach out to Sales Dev Operations.
 
-**Q:** My version of Salesforce seems very basic…: <br> 
+**Q:** My version of Salesforce seems very basic…: <br>
 **A:** Make sure you are using the Sales version of Salesforce. To check, please go to the top right corner of your Salesforce window and click the blue button with the drop down window. From there select “Sales”.
 
 **Q:** I have not received access to all of my tools and it has been a week. <br>
@@ -86,20 +86,20 @@ If the related SDR relays information that was not picked up in the new SDR’s 
 **Q:** I have uploaded more leads from ZoomInfo than what are showing up in my Salesforce ZoomInfo Lead View. <br>
 **A:** This most likely due to these leads aleady being in our Salesforce. The problem is that they are listed as a contact in Salesforce and will only appear in your ZoomInfo Contacts view rather than your Zoominfo Lead view.
 
-**Q:** I do not know what this person did to score as an MQL. <br> 
+**Q:** I do not know what this person did to score as an MQL. <br>
 **A:** First check the last interesting moment description on Salesforce and then check the Scoring tab of the Marketo Sales Insight widget that is also on the Salesforce lead page. If no points were allocated to behavior and only to demographic type information please Slack the Marketing Ops group so they are aware that this lead did not take any new action.
 
 **Q:** I received a personal data subject request by a prospect. <Br>
 **A:** Our MOPs team has set up a process to address any data subject requests for deletion or access to data. If you receive a request for deletion or access to data, please re-direct inquiries to the [Personal Data Subject Request.](https://support.gitlab.io/account-deletion/) This messaging snippet can be [used and tailored.](https://web.outreach.io/snippets/1903)
 
-**Q:** Why are BDRs no longer the Account Owner in Outreach? <br> 
+**Q:** Why are BDRs no longer the Account Owner in Outreach? <br>
 **A:** BDRs are no longer listed as the account Owner in Outreach to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the ‘BDR Assigned’ field.
 
-**Q:** A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did? <br> 
+**Q:** A prospect said they were going to buy through our website (known as a Web Direct). How can I tell if they did? <br>
 **A:** SDRs get credit for opportunities where the SDR had meaningful two way communication with a prospect 60 days before they bought GitLab through our website. The best way to search for a web direct opportunity is to use [this report](https://gitlab.my.salesforce.com/00O4M000004dkX4). First, set the date range to the time you think the prospect would have bought. Next, find the opportunity that is tied to your prospect’s account. Then follow the process to request SAO credit.
 Note: Sometimes someone else from your prospect’s company actually made the GitLab purchase, leading to the opportunity being related to them instead
 
-**Q:** How do I request credit for a web direct opportunity? <br> 
+**Q:** How do I request credit for a web direct opportunity? <br>
 **A:** On the opportunity record in Salesforce, compose a new Chatter message that includes the following:
 1. Tag a member of the Operations Team (Ramona Elliott or Ed Bao) or the Director of Global Commercial Sales Development (Brian Tabbert). **Do not tag Sales Support Yourself**
 2. Include a link to the record in Salesforce that shows your related two-way activity in the past 60 days. If your related activity is a phone call, you must have entered the details of the phone call into the Qualification Notes field on the lead record at the time of the call in order for it to be considered. Qualification Notes entered after the Web Direct opportunity has been created will not be considered for credit.
@@ -114,14 +114,14 @@ The Operations team and/or Director will review the information and decide wheth
 **Q:** How do we resolve a dispute over SAO credit?<br>
 **A:** SDR and BDR first try to talk through a solution If no agreement: Managers will determine a solution If no agreement between the managers: Escalate to Senior Leadership Double credit nor double compensation will be given
 
-**Q:** Who will be handling inquiries from an SDR/BDR standpoint? <br> 
+**Q:** Who will be handling inquiries from an SDR/BDR standpoint? <br>
 **A:** Inquiries will go to an open queue. SDR’s will not work them. We want to give marketing time to progress these to MQLs. <br>
 **A:** BDR’s can work leads in all statuses if they are related to their “Actively working” accounts. Outreach to these leads would be part of their account strategy.
 
 **Q:** What if a prospect comes back directly to the BDR much delayed, when the account is not marked as “Actively Working” anymore, but resulting from personalized messaging? <br>
 **A:** Yes, if they email, reply via LI, or call the BDR directly, the BDR will need to check that the lead is in queue ownership. If so, they must move the account back to “Actively Working”, so that the lead can be put into their ownership.
 
-**Q:** Why are my leads being reassigned to Inquiry Queue? <br> 
+**Q:** Why are my leads being reassigned to Inquiry Queue? <br>
 **A:** Marketing Operations has a daily scheduled clean at 10:30 PM EST/EDT that update Status = Inquiry to Inquiry Queue. To prevent the reassignment, you’ll want to update the leads from Inquiry to Accepted or add to an Outreach sequence.
 
 **Q:** What should BDRs do when a prospect or contact responds with a complince related question or objects to being contacted? <br>
@@ -159,7 +159,7 @@ Announcement Channels
 | Team Slack Channels          | Important or Time Sensitive, but only related to that specific team    |
 
 
-## KPIs and SLAs 
+## KPIs and SLAs
 
 ### Ramping Periods and Lead Routing
 
@@ -179,13 +179,13 @@ Announcement Channels
 | GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) |
 | GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro)
 | GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 |
-| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 | 
+| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 |
 | Additional seats in current customer department | BDR | Growth | Comm/Ent | 1 |
 | Tier upgrade | BDR | Growth | Comm/Ent | 1 |
 | GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) |
 | Professional services | everyone | All motions | All segments | 0 |
 
-- **NOTE** If an account only has bought CI minutes, the SDR/BDR will still get credit for a first order Opportunity if the account purchases Premium or Ultimate licenses. 
+- **NOTE** If an account only has bought CI minutes, the SDR/BDR will still get credit for a first order Opportunity if the account purchases Premium or Ultimate licenses.
 
 ### Sales Development Org Compensation Breakdown
 
@@ -193,7 +193,7 @@ Announcement Channels
 | **Sales Development Org Compensation Breakdown** |
 | ------------------------------------------------ |
 | **Quota Components Depending on Sales Segment** |
-| [Sales Accepted Opportunities (SAOs)](https://handbook.gitlab.com/handbook/marketing/sales-development/how-tos/#how-to-get-sao-credit-and-create-opportunities) |
+| [Sales Accepted Opportunities (SAOs)](/handbook/marketing/sales-development/how-tos/#how-to-get-sao-credit-and-create-opportunities) |
 | [ARR](/handbook/sales/sales-term-glossary/arr-in-practice) pipeline component |
 | 2-way communication must be documented on the Contact in the Opportunity to receive credit. Opportunities missing this documentation will not be considered for compensation and will not retire quota. |
 | For BDRs and SDRs who have SAO/ARR goals, compensation is based on the SAO attainment. ARR attainment is a qualifier for accelerator payments. Our aim is to land net new logos and expand to new customer business units, SAOs being our quantity metric and ARR our quality metric. Our mission is to create good qualified pipeline for the company. SAO credit is given for licenses and not for PS Opportunities (for training, for example) nor pipeline minutes. |
@@ -326,9 +326,9 @@ In addition to the above, BDR team members are expected to:
 
 ### Sales Development Organization Time Off
 
-In accordance with the [Time Off Policy](https://handbook.gitlab.com/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off), you need give your manager a heads up early of your intended time off so that they can help arrange cover for your tasks, if necessary.
+In accordance with the [Time Off Policy](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off), you need give your manager a heads up early of your intended time off so that they can help arrange cover for your tasks, if necessary.
 
-We want to help our team members being able to fully unplug from work during their PTO, while not having to worry about their workload or target attainment. Based on this, we have created this PTO Territory Planning Issue that you can use to strategize your work and be aligned to the GitLab value of being a [Manager of One.](https://handbook.gitlab.com/handbook/leadership/#managers-of-one)
+We want to help our team members being able to fully unplug from work during their PTO, while not having to worry about their workload or target attainment. Based on this, we have created this PTO Territory Planning Issue that you can use to strategize your work and be aligned to the GitLab value of being a [Manager of One.](/handbook/leadership/#managers-of-one)
 
 To log a PTO Territory Planning request, please go to the Issue list on the SDR GitLab project [here](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/new#) and choose `PTO_Coverage_Template` from the Description drop-down list. All of these requests are then managed through the board here. and all next steps and guidelines are on the issue description.
 

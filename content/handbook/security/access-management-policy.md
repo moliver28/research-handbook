@@ -89,6 +89,7 @@ These templates should be used during the [onboarding process](/handbook/people-
 GitLab has an established RBAC via the formalization and maintainence of [Baseline Role-Based Entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/). RBAC is subject to continuous control monitoring by the Security Compliance team to ensure that GitLab meets its regulatory and compliance obligations related to user access to information. Additionally, as noted per the requirements in the role baseline template, changes to permissions on these documents are required to be reviewed and approved by the Director, Senior Leader or Manager of the team that the role belongs to. If an update is proposed by a Manager or above, it should be reviewed by another, more senior manager of the team that the role belongs to.
 
 The structure of the baseline role-based entitlements ensures that team members receive the appropriate access privileges when they join GitLab. These templates are based off one of the following:
+
 - A team member's title (excluding levels, such as Junior, Senior, etc.), as listed in their Workday employment profile
 - A combination of a team member's title (excluding levels, such as Junior, Senior, etc.) listed in their Workday employment profile **AND** their specific **job specialty**
    - **Example**: Team members within the Security Assurance sub-department all utilize the Security Assurance Engineer title, but there are job specialities in Compliance, Risk, Governance and Field Security, which have different role based access requirements. As such, the baseline role-based entitlements are named like so:
@@ -116,7 +117,6 @@ Specific instructions for the creation, review, and maintenance of these templat
   - All GitLab team-members listed on the Access Request have the same manager and the same level of access is being requested.
 
   Please note that the above use cases do not apply to **Admin**-level access, which needs to be submitted using the  **one** issue per GitLab team-member rule.
-
 
 ### Access Requests and Onboarding
 
@@ -169,7 +169,6 @@ GitLab operates its access management under the [principle of least privilege](h
 
 - As part of an access review, existing access may be modified or revoked. New access (not modification of existing access) requires the submission of a [New Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
 
-
 - An [access review]({{< ref "access-reviews" >}}) includes two parts:
   - review current access and access level appropriateness (e.g. Does the team member need access and are the system entitlements that they have appropriate?)
   - recertification of appropriateness of access and entitlements (e.g Approve continued access to the system at the same level.)
@@ -189,6 +188,7 @@ Please refer to the [Access reviews]({{< ref "access-reviews" >}}) page for addi
 ### Access Control Activities
 
 GitLab's access controls include the following control activities:
+
 1. user registration and de-registration
 1. user access provisioning
 1. removal of adjustment of user access rights
@@ -262,7 +262,7 @@ Incompatible duties/access levels that should not be held by a single team membe
 
 Further, SOD as it relates to separation of access rights for developers to develop and push code to production is tested annually for financially relevant SOX systems in [ITGC PC.1](https://gitlab.auditboardapp.com/sh/cycles/2/list) Access to Migrate and for non-SOX relevant systems in GCF Control [CM-5 Access Restrictions for Change](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls/e164e350-b623-11ee-948e-8edee0eeb41d). Both controls test that there are logical access restrictions to ensure that changes to production can only be made by appropriately qualified and authorized individuals.
 
-Additionally, all GitLab Team Member access is reviewed as a part of the [Access Review Procedure](https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/access-reviews/) and any unneeded/inappropriate access that could result in additional SOD violations is removed during the reviews.
+Additionally, all GitLab Team Member access is reviewed as a part of the [Access Review Procedure](/handbook/security/security-assurance/security-compliance/access-reviews/) and any unneeded/inappropriate access that could result in additional SOD violations is removed during the reviews.
 
 ## Exceptions
 

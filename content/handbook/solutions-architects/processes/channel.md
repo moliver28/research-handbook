@@ -60,4 +60,3 @@ Regionally the Channel SA's coordinate issues within the following projects:
 #### EMEA
 
 - https://gitlab.com/gitlab-com/channel/partners/emea/emea-internal
-

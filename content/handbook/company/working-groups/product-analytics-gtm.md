@@ -78,7 +78,6 @@ For a more extensive resource, see [GTM Product Analytics: Status, Gaps and the 
 
 Meeting notes are logged in the [Weekly Meeting Notes](https://docs.google.com/document/d/1riUXq1GdavnSWJklrebBeZnzcAl6XATyLod9tR6-AlQ/edit).
 
-
 ## Working Group Closure
 
 1. We've acheived our original exit criteria

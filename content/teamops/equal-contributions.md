@@ -42,11 +42,13 @@ Scaled across an organization, this meeting-free approach to making decisions en
 
 {{% details summary="Change management support for asynchronous workflows" %}}
 **Quick Start Tips:**
+
 - *Individual:* Confirm that your team has a dedicated channel on your company’s asynchronous communication platform (such as Slack, or Microsoft Teams). Build the habit of prioritizing that channel over all others and starting each work day by catching up on all new messages from your team members.
 - *Team:* Conduct a meeting audit – Are there certain topics that could be discussed asynchronously? Are there any attendees that could be marked as optional? Are there any unnecessary meetings that could be canceled?
 - *Company:* Update your company’s onboarding and continuing education programs to include training about asynchronous workflows.
 
 **Recommended TeamOps Partners:**
+
 - [Slack](https://slack.com/) (tool)
 - [Distribute Consulting](https://www.distributeconsulting.com/) (consultant)
 {{% /details %}}
@@ -69,6 +71,7 @@ A member of GitLab's Learning & Development team was responsible for [developing
 
 {{% details summary="Change Management Support for DRIs" %}}
 **Quick Start Tips:**
+
 - *Individual:* When assigned a task or project, confirm explicitly that you are the DRI. Confirm with the assigner exactly which decisions you are and aren’t able to make without approval.
 - *Team:* Create a field in your project management plan template for listing the DRI.
 - *Company:* Update your company’s onboarding and continuing education programs to include training about the responsibilities and expectations of DRIs.
@@ -96,6 +99,7 @@ The editable agenda document, which is attached to the company-wide calendar inv
 
 {{% details summary="Change management support for well-managed meetings" %}}
 **Quick Start Tips:**
+
 - *Individual:* Create a meeting agenda template and share team-wide (or company-wide).
 - *Team:* Announce and enforce a “no agenda, no attenda” rule.
 - *Company:* Update your company’s onboarding and continuing education programs to include training about well-managed meetings.
@@ -129,6 +133,7 @@ GitLab's Learning and Development team hosted a [livestreamed Group Conversation
 
 {{% details summary="Change management support for cross-functional collaboration" %}}
 **Quick Start Tips:**
+
 - *Individual:* Design and implement a personal plan for internal networking, such as participating in team member resource groups, scheduling coffee chats, attending local employee events, volunteering for cross-departmental working groups, or asking a mentor or sponsor for introductions.
 - *Team:* Create a field in your project management plan template for listing the project’s stable counterparts from other departments. Be sure to include their contact information, time zone, and expected level of contributions. (We recommend the [RACI matrix](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci).) Also include dates for Key Review Meetings.
 - *Company:* Assign each department director to schedule an open-invitation “Ask Me Anything” meeting (Group Conversation) for every quarter this year.
@@ -156,6 +161,7 @@ As a visual guide for when to use which tools in their digital infrastructure, f
 
 {{% details summary="Change management support for tool prioritization" %}}
 **Quick Start Tips:**
+
 - *Individual:* Audit your tool usage habits. If you tend to have conversations with team members in more than 1-2 channels throughout your workday, redirect as many as possible to be hosted on the default communication platform for your team.
 - *Team:* Whenever starting a new project, confirm what the default channel for communication will be. Agree to certain channel changes, words, or emojis that indicate that a message is a higher or lower priority than usual.
 - *Company:* Publish your team’s tool prioritization chart in your SSoT. Indicate which are default tools and what level of urgency they indicate.
@@ -193,6 +199,7 @@ During employee onboarding, [Help Scout](www.helpscout.com) teaches new team mem
 
 {{% details summary="Change management support for psychological safety" %}}
 **Quick Start Tips:**
+
 - *Individual:* Give positive feedback and use your team’s catchphrases for psychological safety often, so that others feel comfortable doing the same.
 - *Team:* Add a line item to all relevant agendas for collaborative support and questions.
 - *Company:* Confirm that your handbook includes protocols for how to report and resolve when a team member doesn’t feel psychologically safe at work.

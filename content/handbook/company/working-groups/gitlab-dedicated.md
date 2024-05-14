@@ -42,6 +42,7 @@ The exit criteria for GitLab Dedicated Top Cross-Functional Initiative are the s
 ### How We Work
 
 The GitLab Dedicated Initiative Working Group follows the [same processes as the GitLab Dedicated Engineering team](/handbook/engineering/infrastructure/team/gitlab-dedicated/#how-we-work) from the Dedicated Engineering team page. This includes:
+
 - [Epic management](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-hierarchy)
 - [Status updates](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates)
 - [Labels and usage](/handbook/engineering/infrastructure/team/gitlab-dedicated/#labels)

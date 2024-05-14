@@ -13,6 +13,7 @@ aliases:
 ## About the GitLab Strategy and Operations (Workplace) Team
 
 The GitLab Strategy and Operations (Workplace) Team evolved from the All-Remote Marketing team. It is responsible for:
+
 1. The creation, curation, and continued iteration of [GitLab's guide to all-remote](/handbook/company/culture/all-remote/guide/), a deep library of guides that covers every facet of how GitLab functions as a remote team.
 1. Stewarding, iterating, and evangelizing GitLab's management philosophy and people practice, [TeamOps]({{< ref teamops >}}).
 1. Building an overarching methodology for the modern workplace.
@@ -69,6 +70,7 @@ A TeamOps Trainer transitions through three stages of TeamOps understanding. 1) 
 In Q4-FY23, we are hosting TeamOps Trainer Pilot Workshops.
 
 The purpose of the first version of this program is to collect feedback and resources as part of a larger go to market strategy, including:
+
 - Focus Group – Content testing, feedback, and iteration as beta test before TeamOps is released to the public market with a more formal sales strategy.
 - Content/Model Prototyping – Test the viability of creating a network of TeamOps representatives for future phases of TeamOps growth. (“Train the Trainer”)
 - Content Creation – Scale content related to TeamOps by empowering all of GitLab to contribute blog posts and social threads.
@@ -77,8 +79,8 @@ Creation of and participation in this program also supports the [FY23-Q4 OKR to 
 
 Apply to become a TeamOps Trainer and learn more about the program in [this GitLab issue](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues/305).
 
-
 Requirements for [TeamOps Trainer: Level 1](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team/-/issues/305)
+
 1. Complete the [TeamOps practitioner course](https://levelup.gitlab.com/learn/course/teamops)
 1. Be able to answer questions (interview by existing trainer)
 1. Enthusiastic presentation of about 3-5 minutes on advantages of TeamOps on YouTube (GitLab Unfiltered)
@@ -431,6 +433,7 @@ We incorporate all-remote content on GitLab’s [social media](/handbook/marketi
 We are working with talent branding to surface relevant all-remote stories from GitLab team members to talent acquisition channels and review sites, such as Glassdoor, LinkedIn and Comparably.
 
 There are also a number of videos on GitLab's [YouTube channel](https://www.youtube.com/gitlab) that relate to working here:
+
 - [GitLab Unfiltered Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc)
 - [Everyone can contribute](https://youtu.be/V2Z1h_2gLNU)
 - [Working remotely at GitLab](https://youtu.be/NoFLJLJ7abE)
@@ -468,6 +471,7 @@ The pilot test was a big success, inspiring not just GitLab team members (see [S
 </div>
 
 We will continue Async Weeks as a regular process for 2022. Our challenge is to **reduce synchronous meetings, not to reschedule them.** If your meeting with an All-Remote team member is declined during an async week, we encourage you to:
+
 1. Consider whether the discussion can be conducted asynchronously instead
 1. Look for opportunities to combine this discussion with others in a single meeting
 1. Reschedule only if there are no workarounds

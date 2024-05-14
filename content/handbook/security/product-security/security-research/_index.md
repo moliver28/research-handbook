@@ -20,6 +20,7 @@ In order to secure GitLab the product and GitLab the company, security insight
 projects aim to identify, quantify, and communicate technical security risks.
 
 Examples include:
+
 - [Security testing of FOSS applications and dependencies used within GitLab](#gitlab-ecosystem-security-testing)
 - Introduction and practice of [threat modeling](/handbook/security/threat-modeling/)
 - Publishing of internal technical risk reports
@@ -30,6 +31,7 @@ Projects in the security capability development category aim to provide novel
 tools to enable others to innovate securely.
 
 Examples include:
+
 - [Package Hunter](#package-hunter)
 - [Untamper My Lockfile](https://gitlab.com/gitlab-org/frontend/untamper-my-lockfile)
 - Token leak tooling
@@ -42,6 +44,7 @@ Additionally, dedicated education projects seek to develop engaging security
 content to help raise awareness of security concepts.
 
 Examples include:
+
 - Blog posts
 - [GitLab Security Tech Notes](https://gitlab-com.gitlab.io/gl-security/security-tech-notes/)
 - Conference presentations
@@ -121,6 +124,7 @@ within the team, but will be performed at least once prior to the beginning
 of each quarter in order to participate in alignment with division OKRs.
 
 The general prioritization order is (from highest to lowest priority):
+
 - Projects in the [Product Integration](#product-integration) stage.
 - Projects in the [GitLab-internal Adoption](#gitlab-internal-adoption)
 stage.
@@ -133,6 +137,7 @@ criteria as defined below.
 ### Project Completion Criteria
 
 When a project is considered to be completed depends on the objectives of the project. The objectives for research projects are:
+
 - Idea validation
 - GitLab-internal adoption
 - GitLab Product integration
@@ -142,10 +147,12 @@ All (self-guided) projects start with idea validation and might be expanded to G
 #### Idea Validation
 
 Entry criteria:
+
 - Lightbulb issue
 - Alignment with focus area
 
 Exit criteria:
+
 - Research question answered
 - Research findings documented and communicated to potential stakeholders
 
@@ -154,27 +161,32 @@ The idea validation phase begins with formulating one or more research questions
 #### GitLab-internal Adoption
 
 Entry criteria:
+
 - Stakeholder from within the company exist.
 - Stakeholder commitment (e.g. willingness to maintain code, operate a service, or triage findings).
 - Project plan describing goals and implementation tasks.
 
 Exit criteria:
+
 - Project plan completed
 
 Once an idea has been validated, the research project can be extended to achieve GitLab-internal adoption and/or integration into GitLab’s products. If the project is extended, a new research proposal should be created and buy-in from stakeholders should be obtained. The expected deliverables should be documented. For example, internal adoption can be achieved by documenting research insights in the handbook or by implementing a software service.
 
 Factors to consider when scoping a project for internal adoption or product integration are:
+
 - The time and resources available to the researcher. If the researcher is working on a tight deadline or has limited resources, they may need to scale back the scope of the project or adjust their expectations for completion. In other words, a single person introducing a fundamentally new capability to the product is unrealistic.
 - If ongoing maintenance is required, which team will own the maintenance?
 
 #### Product Integration
 
 Entry criteria:
+
 - Stakeholder from Product exist.
 - Stakeholder commitment (e.g. engineering resources for implementation, maintenance, budget).
 - Project plan describing goals and implementation tasks.
 
 Exit criteria:
+
 - Project plan completed.
 
 | Project Goal | Idea validation | Internal Adoption | Product Integration |
@@ -267,7 +279,6 @@ In total there are ten projects in four different categories to pick from. The c
      - up/download handling
      - handling of secrets
 - Adoption within and beyond GitLab, how widely is the project used?
-
 
 When a project from this list gets assessed the spot on the list will be filled with another project to always keep the funnel filled.
 

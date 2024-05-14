@@ -25,7 +25,6 @@ For deep-dives on how GitLab's UX and design teams collaborate remotely, visit t
 1. [Running an asynchronous sketch workshop for UX](https://about.gitlab.com/blog/2020/03/27/async-sketching/)
 1. [Synchronous collaboration as a remote designer at GitLab](https://about.gitlab.com/blog/2020/04/01/synchronous-collaboration-as-a-remote-designer-at-gitlab/)
 
-
 ## What are the best online whiteboards with collaboration features?
 
 When looking for the right tool for you and your team, consider what's most important:

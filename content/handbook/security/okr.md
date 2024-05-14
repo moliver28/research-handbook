@@ -14,7 +14,7 @@ From FY24 Q1 forward all Security OKRs are documented in the [GitLab OKR project
 Larger initiatives that span the scope of multiple teams or projects may require a [Working Group](/handbook/company/working-groups).
 
 {{% alert title="Note" color="primary" %}}
-[Critical Projects](https://handbook.gitlab.com/handbook/security/critical-projects/) occur somewhat regularly and take priority over OKRs.
+[Critical Projects](/handbook/security/critical-projects/) occur somewhat regularly and take priority over OKRs.
 {{% /alert %}}
 
 #### Alignment to CEO OKRs
@@ -23,12 +23,13 @@ The security division exists to enable the business to iterate on its OKRs. This
 
 #### Within the context of OKRs, what is a priority?
 
-A prioritized OKR objective directly contributes to the elimination, mitigation, or transference of a [Top-5 risk](/handbook/security/security-assurance/security-risk/storm-program/#top-5-risks) and is generally aligned with our [multi-year strategy](https://internal.gitlab.com/handbook/security/information_security_goals_and_priorities/) (internal link). As such, each security sub-department may not issue their own OKRs in a given quarter. For example, [Security Assurance](https://handbook.gitlab.com/handbook/security/security-assurance/) output results in the creation of our Top 5 risks and the execution of compliance activities. As such, a focus on business as usual may be prioritized.
+A prioritized OKR objective directly contributes to the elimination, mitigation, or transference of a [Top-5 risk](/handbook/security/security-assurance/security-risk/storm-program/#top-5-risks) and is generally aligned with our [multi-year strategy](https://internal.gitlab.com/handbook/security/information_security_goals_and_priorities/) (internal link). As such, each security sub-department may not issue their own OKRs in a given quarter. For example, [Security Assurance](/handbook/security/security-assurance/) output results in the creation of our Top 5 risks and the execution of compliance activities. As such, a focus on business as usual may be prioritized.
 
 #### Given an agreed-upon priority, how do functional areas align?
 
 Before the new quarter:
-- **Seven Mondays prior**: Boilerplate Google Doc with rough ideas is created and shared across [functional leaders](https://handbook.gitlab.com/handbook/company/structure/#functional-leaders)
+
+- **Seven Mondays prior**: Boilerplate Google Doc with rough ideas is created and shared across [functional leaders](/handbook/company/structure/#functional-leaders)
 - **Six Mondays prior**: Functional leaders collaborate (async and sync) and determine objectives for the coming quarter. Each functional leader is responsible for proposing at least one objective or contributing to an already-proposed objective inclusive of up to 3 KRs per objective. Security functional leaders are to propose draft OKRs to the CISO.
   - KRs at this level should have clear, data-driven, quantitative targets. In some cases it's okay for KR to be centered around establishing a baseline KPI.
 - **Four Mondays prior**: In the days after the CEO shares OKRs with all of GitLab in the #okr channel, the CISO proposes OKRs for the Security Division in the OKR draft review meeting agenda for a maximum of 5 objectives.
@@ -100,6 +101,7 @@ The DRI for the KR does not need to be a part of the department that owns the Ob
 #### Security KR Weekly Update
 
 Field updates:
+
 - Progress %
 - Health Status: On Track/Needs Attention/At Risk
 
@@ -125,6 +127,7 @@ With `YYYY-MM-DD` being the beginning of the week (Monday, even if this day if a
 
 **How do we share this, most simply, with other teams?**
 This presents a minimally viable model. If our sister organizations end up needing something differently, we can iterate.
+
 - **What we are working on “right now”** Well-architected Labels and supporting links to epics/etc
 - **What are your overarching strategic priorities?** CISO’s multiyear + functional strategy documents (example: Multi-year ProdSec Strategy)
 - **What is the security org focused on this year?** A bullet list of general priorities for the year:

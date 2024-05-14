@@ -64,9 +64,7 @@ SQLFluff includes a `fix` command that will apply fixes to rule violations when 
 - selecting Key words, Data Types and Functions to always be upper case
 - require table aliases to be a minimum of four characters
 
-
 The configuration file that the Data Team uses can be found in the [GitLab Data Team repository](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/.sqlfluff).
-
 
 ### General Guidance
 
@@ -78,7 +76,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 - Be explicit. Defining something explicitly will ensure that it works the way you expect and it is easier for the next person, which may be you, when you are explicit in SQL.
 
-
 ### Best Practices
 
 - No tabs should be used - only spaces. Your editor should be setup to convert tabs to spaces - see our [onboarding template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md) for more details.
@@ -86,7 +83,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 - Wrap long lines of code, between 80 and 100, to a new line.
 
 - Do not use the `USING` command in joins because it produces inaccurate results in Snowflake. Create an account to view the [forum discussion on this topic.](https://community.snowflake.com/s/question/0D50Z00008WRZBBSA5/bug-with-join-using-)
-
 
 - Understand the difference between the following related statements and use appropriately:
   - `UNION ALL` and `UNION`
@@ -104,7 +100,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 - Prefer `WHERE` to `HAVING` when either would suffice.
 
-
 ### Commenting
 
 - When making single line comments in a model use the `--` syntax
@@ -115,7 +110,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 - Instead of leaving `TODO` comments, create new issues for improvement
 
 ### Naming Conventions
-
 
 - An ambiguous field name such as `id`, `name`, or `type` should always be prefixed by what it is identifying or naming:
 
@@ -233,7 +227,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 - Only use double quotes when necessary, such as columns that contain special characters or are case sensitive.
 
-
     ```sql
         -- Preferred
         SELECT 
@@ -305,7 +298,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
         ...
     ```
 
-
 ### Common Table Expressions (CTEs)
 
 - Prefer CTEs over sub-queries as [CTEs make SQL more readable and are more performant](https://www.alisa-in.tech/post/2019-10-02-ctes/):
@@ -349,7 +341,6 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
     - Avoid long names like `replace_sfdc_account_id_with_master_record_id` and prefer a shorter name with a comment in the CTE. This will help avoid table aliasing in joins.
 - CTEs with confusing or notable logic should be commented in file and documented in dbt docs.
 - CTEs that are duplicated across models should be pulled out into their own models.
-
 
 ### Data Types
 
@@ -510,8 +501,6 @@ SELECT *
 FROM final
 
 ```
-
-
 
 ### Other SQL Style Guides
 

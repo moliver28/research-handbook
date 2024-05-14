@@ -65,7 +65,7 @@ We have dedicated Slack channels for the Product Analytics group:
 
 ## How we work
 
-We base our workflow on the company's [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
+We base our workflow on the company's [Product Development Flow](/handbook/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
 
 ### Estimation
 
