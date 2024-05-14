@@ -34,7 +34,7 @@ This procedure applies to all third party providers that access, store, process 
 
 ## Security Considerations for Vendor Selection
 
-Security is a top priority in GitLab's vendor selection process and GitLab's stakeholders are committed to partnering with vendors who prioritize the protection of sensitive data and maintain robust security measures. As such, Security Risk thoroughly evaluates each vendor's security practices, including their adherence to industry standards, compliance with relevant regulations, and track record regarding data security incidents. GitLab's aim is to establish partnerships with vendors who share our commitment to maintaining the highest standards of security, safeguarding GitLab's data, and upholding the trust of our stakeholders. Below are some examples of the types of vendors Security Risk evaluates and some recommendations to ask the vendor before making a final determination for procuring services. 
+Security is a top priority in GitLab's vendor selection process and GitLab's stakeholders are committed to partnering with vendors who prioritize the protection of sensitive data and maintain robust security measures. As such, Security Risk thoroughly evaluates each vendor's security practices, including their adherence to industry standards, compliance with relevant regulations, and monitor BitSight regarding data security incidents. GitLab's aim is to establish partnerships with vendors who share our commitment to maintaining the highest standards of security, safeguarding GitLab's data, and upholding the trust of our stakeholders. Below are some examples of the types of vendors Security Risk evaluates and some recommendations to ask the vendor before making a final determination for procuring services. 
 
 </details> 
 
@@ -44,11 +44,11 @@ Security is a top priority in GitLab's vendor selection process and GitLab's sta
 When considering new software services to enhance GitLab's business needs and objectives, see below for some some high level recommendations to leverage while evaluating the software's capabilities and usabilities. 
  
  - Does the vendor have a Single Sign-On (SSO) authentication method to enables GitLab users to securely authenticate with multiple applications and websites by using just one set of credentials? 
-   - Security recommends the vendor have the ability to integrate using Okta or Google Oauth as the preferred SSO authentication method. 
+   - Security requires vendors have the ability to integrate using Okta or Google Oauth as the preferred SSO authentication method. 
  - Does the vendor adhere to industry standards and best practices by completing a independent third party audit of their security controls?
-   - Security recommends software vendors complete and share an annual independent third party audit of their security controls. Some examples of these are a [SOC 2 or ISO 27001 certification](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#acceptable-third-party-attestations). 
+   - Security requires software vendors complete and share an annual independent third party audit of their security controls. Some examples of these are a [SOC 2 or ISO 27001 certification](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#acceptable-third-party-attestations). 
  - Does the vendor require an independent third party penetration test of the their systems to identify and remediate vulnerabilities and weaknesses that could be exploited by malicious actors?
-   - Security recommends the vendor conduct annual independent penetration testing on all systems supporting their SaaS solution and provide remediation steps to address any open findings. 
+   - Security requires the vendor conduct annual independent penetration testing on all systems supporting their SaaS solution and provide remediation steps to address any open findings. 
 
 </details> 
 
@@ -60,9 +60,9 @@ When considering a new professional services provider, see below for some some h
  - How does the vendor intend to exchange or share GitLab sensitive data?
    - Security recommends using GitLab's Google Drive to share sensitive data with professional services vendors. Email attachments are not a recommended method for sharing data outside of GitLab's organization. 
  - Does the professional services vendor adhere to strict human resource security practices including acceptable use and data protection training, background screenings, and security awareness programs?
-   - Security recommends that all employees within the professional services team complete new hire background screenings, complete annual security trainings, and acknowledge employee acceptable use and information security policies. 
+   - Security requires that all employees within the professional services team complete new hire background screenings, recommends completing annual security trainings, and acknowledges employee acceptable use and information security policies. 
  - Does the professional services vendor allow contractors or consultants to perform work from personal devices?
-   - Security recommends that all contractors and consultants in a processional services engagement work from corporate devices with managed endpoint security controls. 
+   - Security requires that all contractors and consultants in a processional services engagement work from corporate devices with managed endpoint security controls. 
 
  </details> 
 
