@@ -65,7 +65,6 @@ From the root of the data science repo, this will find and correct and issues ac
 1. Run through the [auth_example notebook](https://gitlab.com/gitlab-data/data-science/-/blob/main/examples/auth_example.ipynb) in the repo to confirm that you have configured everything successfully. The first time you run it you will get a browser redirect to authenticate your snowflake credientials via Okta. After that, if you run the notebook again you should be able to query data from Snowflake.
 1. If you get an error then likely Snowflake is not properly configured on your machine. Please refer to the Snowflake and dbt sections of the [Data Onboarding Issue](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md). It is likely that your .dbt/profiles.yml is not setup correctly.
 
-
 ### Mounting a local directory
 
 By default, the local install will use the data-science folder as the root directory for jupyter. This is not terribly useful when your code, data, and notebooks are in other repositories on your computer. To change, this you will need to create and modify a jupyter notebook config file:
@@ -122,13 +121,12 @@ By default, rancher will allocate a small percentage of your machine's memory to
 1. In your GitLab profile, you will need to create a personal access token access token with api permissions
 1. Locate the project id for your project under `Settings -> General`
 1. On your local machine, you will need to create two new environment variables `MLFLOW_TRACKING_TOKEN` and `MLFLOW_TRACKING_URI`
-  1. Open up your shell resource file (`.zshrc`, for example) in your local machine home directory. 
-  1. Add the following line `export MLFLOW_TRACKING_TOKEN="your-access-token"`
-  1. Add the following line `export MLFLOW_TRACKING_URI="https://gitlab.com/api/v4/projects/your-project-id/ml/mlflow"`, but with your project id. Alternatively, you can also place this directly in your notebook.
-  1. Save the file
-  1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
+1. Open up your shell resource file (`.zshrc`, for example) in your local machine home directory.
+1. Add the following line `export MLFLOW_TRACKING_TOKEN="your-access-token"`
+1. Add the following line `export MLFLOW_TRACKING_URI="https://gitlab.com/api/v4/projects/your-project-id/ml/mlflow"`, but with your project id. Alternatively, you can also place this directly in your notebook.
+1. Save the file
+1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
 1. Launch Jupyter. You should now be able to initialize the experiment tracker via the `mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI'))`command in Jupyter
-
 
 **Note:* If looking to connect to the Model Experiments via CI, refer to [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
 

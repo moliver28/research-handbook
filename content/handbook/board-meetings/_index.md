@@ -360,6 +360,7 @@ New Director will be be provided with:
   - [Company KPI's](/handbook/company/kpis/)
   - [Quarterly OKRs](/handbook/company/okrs/)
   - [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/)
+
 1. Finance (CFO) - 80 minutes suggested
 
   - Financing profile, liquidity, creditworthiness, credit ratings
