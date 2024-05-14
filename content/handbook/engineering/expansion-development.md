@@ -116,7 +116,7 @@ In [this handbook page](/handbook/engineering/development/processes/hiring-contr
 Welcome to GitLab! We are excited for you to join us.
 Here are some curated resources to get you started:
 
-- [Joining as an Engineer](/handbook/developer-onboarding/)
+- [Joining as an Engineer](/handbook/marketing/developer-relations/developer-onboarding/)
 - [Joining as an Engineering Manager](/handbook/engineering/development/onboarding/manager/)
 
 ### Cross-Functional Metrics

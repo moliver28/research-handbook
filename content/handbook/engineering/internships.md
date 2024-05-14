@@ -66,6 +66,7 @@ The following criteria are considered required for candidates to be eligible for
 ### Nice to have
 
 Preference given to candidates with proven experience
+
 1. Contributing to open source projects
 1. Working with the GitLab product as a user or contributor
 
@@ -86,6 +87,7 @@ The intern can choose to relocate themselves to a region where there happens to 
 ### Internship day-to-day activities
 
 Below is an example of a 4-month internship program:
+
 1. Week 1: We expect an intern will:
     - Have completed key [Day 1-5 onboarding tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_intern_engineering.md)
     - Understand remote work and communication best practices
@@ -144,7 +146,7 @@ For intern candidates we are setting the bar high at the application stage and a
 After the internship the aim would be to hire the intern as an Associate Engineer (depending on previous experience).
 The timeline for hiring decisions in a 4 month program would be as follows:
 - Week 8: Check in on feedback with all hosting teams
-- Week 10: Performing performance/skills assessments with interns based on the Job Families and [Competencies](/handbook/competencies/#where-we-use-competencies)
+- Week 10: Performing performance/skills assessments with interns based on the Job Families and [Competencies](/handbook/people-group/competencies/#where-we-use-competencies)
 - Week 11: Sharing feedback with interns
 - Week 12: Aligning with Finance/Business on headcount/budget
 - Week 12: Making a decision on offers to interns

@@ -128,7 +128,7 @@ Privacy laws also limit the amount of information we can collect on our team mem
 
 <details>
   <summary markdown="span">Harassment</summary>
-Please review our [Anti-Harassment Policy](/handbook/anti-harassment/) to ensure that no team member should ever feel as if they are being harassed.
+Please review our [Anti-Harassment Policy](/handbook/people-group/anti-harassment/) to ensure that no team member should ever feel as if they are being harassed.
 </details>
 
 <details>
@@ -168,7 +168,7 @@ Work rules vary for team members across our organization based on their location
 
 <details>
   <summary markdown="span">PTO</summary>
-At GitLab, we have a [Flexible PTO policy](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off), but we ask that you do be transparent and intentional about the time that you take, and that you monitor your team members to ensure that:
+At GitLab, we have a [Flexible PTO policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off), but we ask that you do be transparent and intentional about the time that you take, and that you monitor your team members to ensure that:
 
 1. They’re taking enough time
 1. Coverage still exists when they take the time

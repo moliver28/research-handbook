@@ -41,7 +41,7 @@ This policy is not intended to limit team members from sharing their feedback or
 ### All other GitLab codes of conduct and policies also apply to our social media policy
 
 
-Please adhere to the [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/), [Anti-Harrassment Policy](/handbook/anti-harassment/), which includes sexual harrassment and discrimination policies, and our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d). These policies all apply to team member behavior within social media and in public online spaces.
+Please adhere to the [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/), [Anti-Harrassment Policy](/handbook/people-group/anti-harassment/), which includes sexual harrassment and discrimination policies, and our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d). These policies all apply to team member behavior within social media and in public online spaces.
 
 ##### Social Media sometimes generates press and media attention or legal questions. Please refer all inquires to the Communications Team in the #external-comms Slack channel
 
@@ -210,7 +210,7 @@ Never share anything to do with a legal issue, legal case, or attorneys without 
 
 ### Connecting with Team Members on Social Media
 
-In case you want to connect with fellow team members of GitLab on social media, you have to keep it professional. With this communication, we would like you to consider GitLab’s [Communication Guidelines](/handbook/communication/) at all times. Aligned with our [Anti-Harassment Policy](/handbook/anti-harassment/), it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times.
+In case you want to connect with fellow team members of GitLab on social media, you have to keep it professional. With this communication, we would like you to consider GitLab’s [Communication Guidelines](/handbook/communication/) at all times. Aligned with our [Anti-Harassment Policy](/handbook/people-group/anti-harassment/), it is expected that everyone will contribute to an inclusive and collaborative working environment and respect each other at all times.
 
 ### Mimicking the GitLab brand
 

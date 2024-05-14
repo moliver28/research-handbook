@@ -36,7 +36,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | **Field Operations Teams and Resources** | **Customer Success Resources** | **Helpful Sales Handbook Tips** | **Sales Resources Outside of the Sales Handbook** |
 |  ------ | ------ | ------ | ------ |
 | [Field Operations](/handbook/sales/field-operations/) | [Customer Success Groups](/handbook/customer-success/#customer-success-groups) | [FAQ from Prospects](/handbook/sales/faq-from-prospects/) |[Resellers Handbook](/handbook/resellers/) |
-| [Sales Operations](/handbook/sales/field-operations/sales-operations/) | [How to Engage a Solutions Architect](/handbook/solutions-architects#when-and-how-to-engage-a-solutions-architect) | [Client Use Cases](/handbook/use-cases/) | [Customer Reference Sheet](https://docs.google.com/a/gitlab.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit?usp=sharing) |
+| [Sales Operations](/handbook/sales/field-operations/sales-operations/) | [How to Engage a Solutions Architect](/handbook/solutions-architects#when-and-how-to-engage-a-solutions-architect) | [Client Use Cases](/handbook/marketing/use-cases/) | [Customer Reference Sheet](https://docs.google.com/a/gitlab.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit?usp=sharing) |
 | [Deal Desk](/handbook/sales/field-operations/sales-operations/deal-desk/) | [Account Planning Template for Large Accounts](https://docs.google.com/presentation/d/1yQ6W7I30I4gW5Vi-TURIz8ZxnmL88uksCl0u9oyRrew/edit?ts=58b89146#slide=id.g1c9fcf1d5b_0_24) | [Dealing with Security Questions From Prospects](/handbook/security/#security-questionnaires-for-customers) | [Customer Reference Case Study Dynamic Board](https://gitlab.com/gitlab-com/marketing/strategic-marketing/customer-reference-content/case-study-content/-/boards/1804878?scope=all&utf8=%E2%9C%93&) |
 | [Field Enablement](/handbook/sales/field-operations/field-enablement/) | [How to Engage a CSM/CSE](/handbook/customer-success/pre-sales-post-sales-transition/) | [How to conduct an executive meeting](https://www.youtube.com/watch?v=PSGMyoEFuMY&feature=youtu.be) | [GitLab Support Handbook](/handbook/support/) |
 | [Sales Strategy](/handbook/sales/field-operations/sales-strategy/) |  | [CEO Preferences when speaking w/ prospects/customers](/handbook/ceo/) | |
@@ -55,7 +55,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 | ------ | ------ | ------ | ------ |
 | [Opportunity Types](/handbook/sales/field-operations/gtm-resources/#opportunity-types) | [Submitting an Opportunity for Approval](/handbook/sales/field-operations/order-processing/#what-happens-when-you-submit-an-opportunity-for-approval) | [How to Amend a Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#amend-subscription-quote) | [Leadership Handbook](/handbook/leadership/) |
 | [Opportunity Naming Conventions](/handbook/sales/field-operations/gtm-resources/#opportunity-naming-convention)  | [How to Handle Vendor Setup Forms](/handbook/sales/field-operations/order-processing/#how-to-process-customer-requested-vendor-setup-forms) | [How to Renew a Subscription Quote](/handbook/sales/field-operations/sales-operations/deal-desk/#renew-subscription-quote) | [GitLab Values & Certification Process](/handbook/values/) |
-| [How to Create an Opportunity](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity) |  | [True Ups](/handbook/sales/sales-term-glossary/#true-up) | [GitLab Competencies & Certification Process](/handbook/competencies/) |
+| [How to Create an Opportunity](/handbook/sales/field-operations/gtm-resources/#how-to-create-an-opportunity) |  | [True Ups](/handbook/sales/sales-term-glossary/#true-up) | [GitLab Competencies & Certification Process](/handbook/people-group/competencies/) |
 | [MEDDPPICC Qualification](/handbook/sales/meddppicc/) |  | [Contract Resets](/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset) | [GitLab Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) |
 | [Sales Discovery & Qualification Questions](/handbook/sales/qualification-questions/) | [People Business Partner Alignment for Sales](/handbook/people-group/#people-business-partner-alignment-to-division) |
 | [GitLab ROI calculator](/handbook/sales/command-of-the-message/metrics/#economic-metrics) |  |  | [Women in Sales Mentorship Pilot Program](/handbook/people-group/women-in-sales-mentorship-pilot-program/) |
@@ -106,7 +106,7 @@ For information regarding the tech stack at GitLab, please visit the [Tech Stack
 
 ### Collaborating with the Team
 
-Please [use the Handbook](/handbook/handbook-usage/#why-handbook-first) as much as possible to document important information. You should also use the Handbook as a starting point for any questions. [Read here](https://docs.google.com/document/d/1l5mfHMck914I1aJMOCX4lU2J2sImrloUpSm3Nb5Pa9U/edit) for guidance on how we take notes on the GitLab Sales team.
+Please [use the Handbook](/handbook/about/handbook-usage/#why-handbook-first) as much as possible to document important information. You should also use the Handbook as a starting point for any questions. [Read here](https://docs.google.com/document/d/1l5mfHMck914I1aJMOCX4lU2J2sImrloUpSm3Nb5Pa9U/edit) for guidance on how we take notes on the GitLab Sales team.
 
 [Dogfood](/handbook/values/#dogfooding) GitLab whenever you can – to collaborate on ideas, gather feedback, organize projects, and more.
 
@@ -201,4 +201,4 @@ GitLab's Export Control Classification (or ECCN) is 5D992.c. As a consequence of
 
 ## Performance Indicators
 
-[Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary) are [Not Public](/handbook/communication/confidentiality-levels/#not-public) and documented in [the Internal handbook](/handbook/handbook-usage/#the-internal-handbook).
+[Sales KPIs](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary) are [Not Public](/handbook/communication/confidentiality-levels/#not-public) and documented in [the Internal handbook](/handbook/about/handbook-usage/#the-internal-handbook).

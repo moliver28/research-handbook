@@ -131,7 +131,7 @@ In some cases, a Written Performance Letter or Performance Improvement Plan may 
 
 ### Compensation Impact
 
-It is important to note that the team member may not be eligible for compensation increases from the [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/) or the [annual refresh grant program](/handbook/stock-options/#refresh-grants) if they are being actively performance managed.
+It is important to note that the team member may not be eligible for compensation increases from the [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/) or the [annual refresh grant program](/handbook/total-rewards/stock-options/#refresh-grants) if they are being actively performance managed.
 
 ### Internal Applications and Transfers during underperformance remediation
 

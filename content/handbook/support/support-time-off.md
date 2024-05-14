@@ -79,7 +79,7 @@ A little thoughtfulness on everybody's part will go a long way toward making it
 possible for everyone to take their desired days off. As you look to plan your
 time off, please:
 
-- ensure you know the [company wide paid time off guidelines](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
+- ensure you know the [company wide paid time off guidelines](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
 - consider a different time off schedule if your [regional capacity calendar](https://gitlab.com/gitlab-com/support/toolbox/support-calendar) shows that on any of the days you would be absent, the regional team would be short by 20% or more of its people
 - check the regional and global calendars for the groups you are part of (SGG/L&R/etc.) and coordinate with your group to ensure we have sufficient cover for days with low availability.\
 (In EMEA, the aim is to have at least 4 engineers (non L&R) per SGG and 3 engineers from L&R working on each normal business day)
@@ -210,7 +210,7 @@ Otherwise:
 ## General Tips
 
 In addition to the company-wide tips in
-[Communicating Your Time Off](/handbook/paid-time-off/#communicating-your-time-off),
+[Communicating Your Time Off](/handbook/people-group/paid-time-off/#communicating-your-time-off),
 take a look at these tips to increase your ability to disconnect from work,
 truly make the most of your time off, and make it easier to return to work:
 
@@ -249,4 +249,4 @@ Consider setting up a few coffee chats with teammates to simply reconnect with t
 
 Once you have taken the time to catch-up, update your availability using the [Out of Office](/handbook/support/readiness/operations/docs/zendesk/apps/#out-of-office) app in Zendesk showing you are no longer OOO. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make available` button on the row with your user information in it.
 
-For more tips, check [returning from pto](/handbook/paid-time-off/#returning-from-pto).
+For more tips, check [returning from pto](/handbook/people-group/paid-time-off/#returning-from-pto).

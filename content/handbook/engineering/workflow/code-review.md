@@ -503,7 +503,7 @@ on these other statuses, please refer to the [code review](https://docs.gitlab.c
 page in the developer documentation.
 
 Of course, if you are out of office and have
-[communicated](/handbook/paid-time-off/#communicating-your-time-off)
+[communicated](/handbook/people-group/paid-time-off/#communicating-your-time-off)
 this through your GitLab.com Status, authors are expected to realize this and
 find a different reviewer themselves.
 
