@@ -73,6 +73,8 @@ variables:
   RESTORE_CACHE_ATTEMPTS: 3
   EXECUTOR_JOB_SECTION_ATTEMPTS: 3
 
+  PAGES_PREFIX: ""
+
 .default-branch: &default-branch
   if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH 
 
@@ -121,7 +123,6 @@ pages:
     deployment_tier: production
     url: $HUGO_BASEURL
   variables:
-    PAGES_PREFIX: ""
     ENVIRONMENT: production
     HUGO_BASEURL: https://handbook.gitlab.com/
   pages:
