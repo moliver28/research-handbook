@@ -5,7 +5,7 @@ description: "GitLab's Policies & Processes in Relation to Team Member Relocatio
 
 ## Relocation / Address Change
 
-This process is managed by the People Connect team as the DRI.  For any questions not addressed below, please submit a [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/#accessing-helplab) ticket to the People Connect team.
+This process is managed by the People Connect team as the DRI.  For any questions not addressed below, please submit a request via [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/#accessing-helplab).
 
 Moving to a new location is an exciting adventure, and at GitLab, we want to encourage team members to utilize the flexibility that our relocation policy offers. However, there are multiple aspects to consider including eligibility, possible impact on compensation (including equity and benefit eligibility) and the impact on your role at GitLab.
 
