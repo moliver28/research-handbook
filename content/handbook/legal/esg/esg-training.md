@@ -105,7 +105,7 @@ To learn more about how GitLab supports and encourages team members to support N
 
 ## Responding to customer requests for ESG information
 
-- If a customer reaches out to you for information on our ESG practices, please direct them to our [handbook page](/handbook/legal/ESG/) or provide them with [our report](/handbook/esg/). Please also advise them that we utilize [EcoVadis](https://ecovadis.com/) for ESG reporting and they can request a full copy of our ESG report.
+- If a customer reaches out to you for information on our ESG practices, please direct them to our [handbook page](/handbook/legal/ESG/) or provide them with [our report](/handbook/company/esg/). Please also advise them that we utilize [EcoVadis](https://ecovadis.com/) for ESG reporting and they can request a full copy of our ESG report.
 
 ## Responding to ESG questions in RFPs
 
@@ -117,4 +117,4 @@ To learn more about how GitLab supports and encourages team members to support N
 
 ## Where to get more info
 
- - Learn more about GitLab’s current progress on [ESG initiatives](/handbook/legal/ESG/) and read our first ESG report [here](/handbook/esg/). Follow #ESG on slack.
+ - Learn more about GitLab’s current progress on [ESG initiatives](/handbook/legal/ESG/) and read our first ESG report [here](/handbook/company/esg/). Follow #ESG on slack.
