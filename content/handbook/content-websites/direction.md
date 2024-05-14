@@ -4,7 +4,7 @@ title: "Direction"
 
 ## Overview
 
-The [GitLab Handbook](/handbook/) is the single source of truth for how we operate at GitLab, including processes, policies, and product direction. In keeping with our [value of transparency](/handbook/values/#transparency), the GitLab Handbook is entirely open to the world. We welcome feedback from the community and hope that it serves as [inspiration](/handbook/inspired-by-gitlab/) for other current or future companies. The GitLab Handbook is also an incredible talent acquisition tool, providing candidates with valuable insight into how GitLab runs as a company.
+The [GitLab Handbook](/handbook/) is the single source of truth for how we operate at GitLab, including processes, policies, and product direction. In keeping with our [value of transparency](/handbook/values/#transparency), the GitLab Handbook is entirely open to the world. We welcome feedback from the community and hope that it serves as [inspiration](/handbook/company/inspired-by-gitlab/) for other current or future companies. The GitLab Handbook is also an incredible talent acquisition tool, providing candidates with valuable insight into how GitLab runs as a company.
 
 A sub-section of the [handbook.gitlab.com](https://handbook.gitlab.com) website, the GitLab Handbook specifically refers to content that is in the `/handbook/` namespace of the website. The overall user experience and architecture of the GitLab Handbook is a shared responsibility. Feedback and questions can be directed to the `#handbook` Slack channel.
 

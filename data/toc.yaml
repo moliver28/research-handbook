@@ -61,7 +61,7 @@
     - name: E-Group Weekly
       url: e-group-weekly
     - name: Environmental, Social, and Governance
-      url: /handbook/esg
+      url: /handbook/company/esg
 - name: Handbook
   icon: fa-solid fa-book
   url: handbook
