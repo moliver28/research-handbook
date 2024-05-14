@@ -205,7 +205,7 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
    - Future sources: # of consecutive days of product/stage usage
 
-### Project Structure
+## Project Structure
 
 The Data Science Team follows [Cross-Industry standard process for data mining (CRISP-DM)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining), which consists of 6 iterative phases:
 
@@ -235,7 +235,7 @@ The Data Science Team follows [Cross-Industry standard process for data mining (
 
     - Once the model has been approved it then gets deployed into the data science production pipeline. This process automatically updates, generates predictions, and monitors the model on a regular cadence.
 
-#### The GitLab approach
+### The GitLab approach
 
 The [Data Science Team approach to model development](/handbook/business-technology/data-team/organization/data-science/project_dev_approach/) is centered around GitLab's value of [iteration](/handbook/values/#iteration) and the CRISP-DM standard. Our process expands on some of the 6 phrase outlined in CRISP-DM in order to best address the needs of our specific business objectives and data infrastructure.
 
