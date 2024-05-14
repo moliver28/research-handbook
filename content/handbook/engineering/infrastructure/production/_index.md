@@ -105,7 +105,7 @@ If this issue is urgent for whatever reason, we should label them following the 
 
 ## On-Call Support
 
-For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/on-call/).
+For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/engineering/on-call/).
 
 ### On-Call escalation
 

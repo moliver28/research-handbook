@@ -15,7 +15,7 @@ If something isn't listed in the sections below we should make it available exte
 
 ### Internal
 
-Some things are **internal**, available internally but not externally. In instances where a topic should only be accessible to team members, but we would otherwise have a page in the public handbook, it can be added to GitLab's [internal handbook](https://internal.gitlab.com/). [Background on the internal handbook](/handbook/handbook-usage/#the-internal-handbook) can be found in the public handbook. It is okay to refer to the public handbook or the internal and public handbooks in aggregate as "the handbook." The internal handbook should always be referred to as the "internal handbook."
+Some things are **internal**, available internally but not externally. In instances where a topic should only be accessible to team members, but we would otherwise have a page in the public handbook, it can be added to GitLab's [internal handbook](https://internal.gitlab.com/). [Background on the internal handbook](/handbook/about/handbook-usage/#the-internal-handbook) can be found in the public handbook. It is okay to refer to the public handbook or the internal and public handbooks in aggregate as "the handbook." The internal handbook should always be referred to as the "internal handbook."
 
 The following items are internal:
 

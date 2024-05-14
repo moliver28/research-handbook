@@ -149,10 +149,10 @@ Offer details usually include:
 - Contract type and [employment type](/handbook/people-group/employment-solutions#team-member-types-at-gitlab)
 - [Onboarding process]({{< ref "general-onboarding#onboarding-at-gitlab" >}})
 - [Asynchronous communication](/handbook/company/culture/all-remote/asynchronous/)
-- [Stock options](/handbook/stock-options/)
+- [Stock options](/handbook/total-rewards/stock-options/)
 - [Unlimited paid-time-off]({{< ref "paid-time-off" >}})
 - [Incentives]({{< ref "incentives" >}})
-- [Office equipment/reimbursements](/handbook/spending-company-money/)
+- [Office equipment/reimbursements](/handbook/finance/spending-company-money/)
 - [Configuring your new laptop](/handbook/business-technology/end-user-services/onboarding-access-requests/#configuring-new-laptops--apple-ids)
 - [Employment Assistance Program]({{< ref "benefits" >}})
 

@@ -1,5 +1,7 @@
 ---
 title: "Spending Company Money"
+aliases:
+- /handbook/spending-company-money/
 ---
 
 **All team members and contractors must protect our Company assets, such as equipment, supplies, cash, and information. Treat Company assets with the same care you would if they were your own. No team member or contractor may commit theft, fraud or embezzlement, or misuse Company property.**

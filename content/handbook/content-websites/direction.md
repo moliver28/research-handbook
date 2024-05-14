@@ -20,7 +20,7 @@ A sub-section of the [handbook.gitlab.com](https://handbook.gitlab.com) website,
 
 ## Where we are Headed
 
-At GitLab, we encourage everyone to work [handbook first](/handbook/handbook-usage/#why-handbook-first) in order to promote asynchronous collaboration and documentation. Working this way has its challenges, not the least of which is the time and effort involved in making a change. While this extra investment can encourage contributors to be more considered and deliberate with their changes, at a certain point it discourages meaningful collaboration and works against our goals.
+At GitLab, we encourage everyone to work [handbook first](/handbook/about/handbook-usage/#why-handbook-first) in order to promote asynchronous collaboration and documentation. Working this way has its challenges, not the least of which is the time and effort involved in making a change. While this extra investment can encourage contributors to be more considered and deliberate with their changes, at a certain point it discourages meaningful collaboration and works against our goals.
 
 Our hope is that the GitLab Handbook is something that others want to emulate. To facilitate that, we want to ensure that any user can easily use and update the handbook. Ideally, the handbook has:
 
@@ -42,7 +42,7 @@ As there is no full time DRI, the following are on hold:
 
 We are not currently investigating a transition to a separate, external content management system or publishing platform.
 
-The needs of the GitLab Handbook [have outgrown what can be handled in a wiki](/handbook/handbook-usage/#wiki-handbooks-dont-scale) (or similar) product, so we are not planning to migrate any content into that format.
+The needs of the GitLab Handbook [have outgrown what can be handled in a wiki](/handbook/about/handbook-usage/#wiki-handbooks-dont-scale) (or similar) product, so we are not planning to migrate any content into that format.
 
 Since the content is [changing quite literally every day](https://gitlab.com/gitlab-com/content-sites/handbook/-/commits/main), we are not looking to generate a digital or printed book from the GitLab Handbook content.
 

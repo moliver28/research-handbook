@@ -69,8 +69,8 @@ To initiate your parental leave, submit your time off by selecting the `Parental
 
 ## GitLab France S.A.S. Paid Time Off (Vacation)
 
-- GitLab France S.A.S. team members can review [statutory requirements for paid time off in relation to vacation](/handbook/paid-time-off/#gitlab-sas-france).
-- Team members must always submit their leave via the [Mihi Platform](https://2.mihi.info/Account/Login?ReturnUrl=%2F) **as well as** [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel) in Slack.
+- GitLab France S.A.S. team members can review [statutory requirements for paid time off in relation to vacation](/handbook/people-group/paid-time-off/#gitlab-sas-france).
+- Team members must always submit their leave via the [Mihi Platform](https://2.mihi.info/Account/Login?ReturnUrl=%2F) **as well as** [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel) in Slack.
 
 Please be aware of your applicable statutory vacation categories in Mihi and use your balances in this order:
 

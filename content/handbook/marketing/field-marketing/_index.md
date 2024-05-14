@@ -1734,10 +1734,10 @@ Of those 1-3 items listed, do you need any roadblocks removed in order to accomp
 You will be notified via the Geekbot plug in on slack at 9 AM your local time on Mondays, as stated above. It is important to note, that unless you answer all questions in the Geekbot plug in, your answers will NOT be shared with your colleagues, so please be sure to complete all questions!
 
 ## Out of Office Processes
-We follow the processes documented in the [Communicating your time off section](/handbook/paid-time-off/#communicating-your-time-off) of our handbook page.
+We follow the processes documented in the [Communicating your time off section](/handbook/people-group/paid-time-off/#communicating-your-time-off) of our handbook page.
 
 Specifically:
-1. Add your OOO to [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel)
+1. Add your OOO to [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel)
 1. Add an OOO message for your email. Please ensure you are including a DRI in your OOO email response for people outside the company to contact.
 1. Turn on [Google Calendar's "out of office" setting](https://support.google.com/calendar/answer/7638168?hl=en) (scroll down to "Show when you’re out of office") to create an out of office event that will automatically decline new and existing meetings for you. Or, please ensure to manually cancel/decline/reschedule any meetings if you will not be in attendance.
 1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Time Off by Deel). If you’re traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly.
