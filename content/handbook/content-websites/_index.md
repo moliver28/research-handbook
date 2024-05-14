@@ -19,7 +19,7 @@ The maintainer of this page (as indicated in the sidebar) is considered the [DRI
 | Role | Owner | Current Individual(s) | Responsibilities |
 | ------ | ------ | ------ | ------ |
 | Issue triager | Office of the CEO | Cynthia (Arty) Ng | Triage and prioritize issues, Schedule work in consultation with Technical DRI |
-| Technical DRI | Incubation (Engineering) | Marshall Cottrell | Development work as needed, Code reviews/approvals |
+| Technical DRI | Incubation (Engineering) | Darby Frey | Development work as needed, Code reviews/approvals |
 | Content DRI | Office of the CEO | Stella Treas, Cynthia (Arty) Ng | Make decisions on handbook operations, Coordinate any major changes |
 | Keep pipeline green | Group of volunteers  | See [Escalation page](on-call#keep-main-green-group) | Help fix the pipeline if jobs are failing as needed  |
 | Code Maintainer | Group of volunteers | Technical DRI, plus [`@gitlab-com/content-sites/handbook-backend`](https://gitlab.com/gitlab-com/content-sites/handbook-backend/-/project_members?with_inherited_permissions=exclude) | Code reviews, escalation point for "Keep pipeline green" group, and as time allows, development work |
