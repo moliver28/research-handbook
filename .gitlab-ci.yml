@@ -126,6 +126,9 @@ pages:
     HUGO_BASEURL: https://handbook.gitlab.com/
   pages:
     path_prefix: "$PAGES_PREFIX"
+  artifacts:
+    paths:
+      - public    
   script:
     - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"    
   rules:
