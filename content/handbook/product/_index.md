@@ -34,11 +34,9 @@ description: "Most of the content in the product handbook talks about _how_ we d
 
 ## Contributing to the Product Handbook
 
-The product handbook is widely referenced by product managers and cross-functional team members. Therefore, we want to follow a consistent change management process so all affected collaborators are aligned and informed when there are changes (specially new requirements, processes, meetings, etc.) that affect their workflow. To help ensure awareness across teams, when suggesting a change to the product handbook, please use the `Change-Product-Handbook` [merge request description template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Change-Product-Handbook.md). 
+The product handbook is widely referenced by product managers and cross-functional team members. Therefore, we want to follow a consistent change management process so all affected collaborators are aligned and informed when there are changes (specially new requirements, processes, meetings, etc.) that affect their workflow.
 
-This template will also help you out by automatically adding labels and assigning required reviewers.
-
-You will also be asked to indicate which type of change you are suggesting:
+It is helpful to indicate which type of change you are suggesting:
 - Small improvement (typos, clarifications, etc.)
 - Adding a new section
 - Modifying existing section
