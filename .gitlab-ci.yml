@@ -75,7 +75,7 @@ variables:
   PAGES_PREFIX: ""
 
 .default-branch: &default-branch
-  if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $BUILD_AND_TEST_ONLY != "true"'
+  if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $BUILD_AND_TEST_ONLY != "true"
 
 .merge-request-only: &merge-request-only
   if: $CI_PIPELINE_SOURCE == 'merge_request_event'
