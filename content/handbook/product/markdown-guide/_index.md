@@ -247,7 +247,6 @@ Place the identifiers at the end of the paragraph (or the section), arranging th
 Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
 {{% /note %}}
 
-
 ----
 
 ## Lists
@@ -267,8 +266,9 @@ Tip: don't leave blank lines **between the items**, unless you have a reason to 
 
 The [Writing Style Guide](/handbook/communication/#writing-style-guidelines) recommends using [ordered lists](#ordered-lists) when you have multiple items, because `Numbered lists are easier to reference during a discussion over bulleted lists`.
 
+{{% note %}}
 **Note:** This guidance does not apply to product documentation.
-{: .note}
+{{% /note %}}
 
 See the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/#lists) for other helpful tips.
 
@@ -546,12 +546,13 @@ compatibility: `.mp4`, `.ogg` and `.webm`.
 </figure>
 {{% /panel %}}
 
+{{% note %}}
 ***Note:** in case you don't have all formats recommended by **w3schools**, you can use just one of them,
 but your video most likely won't be supported in all devices and browsers. The video above (`.mp4` only)
 worked on Mozilla Firefox for macOS, Android, and Windows, and on Chrome for Android and for Windows.
 But it may not work on other devices/browser, such as Chrome for macOS and iOS, or Safari.
 In fact, the best option is using YouTube or Vimeo embed videos in `<iframe>` tags.*
-{: .note}
+{{% /note %}}
 
 ### Display other videos
 
@@ -653,9 +654,10 @@ but if you need pretty advanced table layouts, you are free to add them in HTML 
 As explained by John Gruber, the creator of markdown, it was not created to replace HTML,
 so there are situations we can't avoid using HTML. With complex tables, that's the case.
 
+{{% note %}}
 **Note:** For very simple 2 column tables it is better to use [lists](#lists) with strong text in preference
 to the complexity of using markdown tables.
-{: .note}
+{{% /note %}}
 
 The following table has a header (first line), then markup to define the desired alignment (dashes and colons),
 then the table body. You can go ahead and add separators to create subsequent table bodies.
@@ -996,8 +998,9 @@ This is a regular paragraph.
 {{% panel header="**Output**" header-bg="info" %}}
 This is a regular paragraph.
 
+{{% note %}}
 **Note:** a note is something that needs to be mentioned but is apart from the context.
-{: .note}
+{{% /note %}}
 {{% /panel %}}
 
 ----
@@ -1203,8 +1206,9 @@ markup:
 As [previously](#notes) explained, you can add the class `note` to paragraphs that
 you don't want to call attention to:
 
+{{% note %}}
 **Note:** this is something I don't want to call attention to.
-{: .note}
+{{% /note %}}
 
 Markup:
 
