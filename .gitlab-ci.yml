@@ -105,9 +105,13 @@ build:
     paths:
       - public
   rules:
-  - <<: *merge-request-or-tag
   - <<: *default-branch
   - <<: *build-and-test-only
+  - <<: *merge-request-only
+    variables:
+      PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+      ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
+      HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"  
 
 ###################################
 #
