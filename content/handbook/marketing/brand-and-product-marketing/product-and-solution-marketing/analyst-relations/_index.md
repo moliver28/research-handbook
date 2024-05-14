@@ -70,7 +70,7 @@ Examples of how we engage with analysts include:
 
 ## Process for responding to industry analyst research comparing vendors and/or their products (e.g. Magic Quadrants (MQs), Waves, etc.)
 
-#### Before the questionnaire arrives:
+#### Before the questionnaire arrives
 
 - GitLab AR is aware of what industry analyst research comparing vendors and/or their products (e.g. Magic Quadrants (MQs), Waves, etc.) we may be asked to participate in, particularly if we have done so before.  AR should be checking with Forrester/Gartner to see if
     - A MQ or Wave or similar comparative research is likely to be repeated
@@ -84,7 +84,7 @@ Examples of how we engage with analysts include:
     - AR notifies Customer Reference that a request is imminent.
     - If it is a Gartner MQ, AR will work with the Peer Review team to make sure GitLab reviews are being collected by the Peer Insights team or to get that activated, and coordinate with Peer Review and Customer Reference to funnel references to the appropriate Peer Insights page.
 
-### When the questionnaire arrives:
+### When the questionnaire arrives
 
 - AR replies to the industry analyst firm, acknowledging receipt of invitation and agreement to participate, and indicates key participants (AR Manager and lead PMM.)
 - AR responsibilities:
@@ -128,7 +128,7 @@ Examples of how we engage with analysts include:
     - provide first pass answers to the questionnaire to PMM
     - work with PMM to finalize all answers to the questionnaire
 
-### When the Factual Review (Fact Check) arrives:
+### When the Factual Review (Fact Check) arrives
 
 - AR shares the draft report with the PMM/PM/TMM team to check for technical accuracy
 - PMM takes lead in verifying/correcting technical accuracy and the initial rewrite suggestions
@@ -136,7 +136,7 @@ Examples of how we engage with analysts include:
 - AR works with PMM for company accuracy issues
 - AR submits final corrected version to analysts
 
-### When the courtesy copy of the report arrives (when we know final positioning):
+### When the courtesy copy of the report arrives (when we know final positioning)
 
 - AR schedules a meeting with PMM/PM to discuss key messages and overall positioning
     - basis for blogs
@@ -154,7 +154,7 @@ Examples of how we engage with analysts include:
 - PMM [requests a slot on the Sales Enablement calendar](/handbook/sales/training/sales-enablement-sessions/#to-request-new-sales-enablement-sessions) to discuss the report results and the web page with sales
 
 
-### Once the report is published by the industry analyst firm:
+### Once the report is published by the industry analyst firm
 
 - AR posts the results/summary on the What's Happening at GitLab page with either an internal link or a link to the reprint
 - AR sets up an inquiry with the industry analyst firm to discuss the results of the report and answer questions for PM/PMM/TMM

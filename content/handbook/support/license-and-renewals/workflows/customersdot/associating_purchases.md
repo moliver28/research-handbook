@@ -4,7 +4,7 @@ category: CustomersDot
 description: Associating subscription with other CustomersDot users and changing subscription owner.
 ---
 
-----
+---
 Sometimes a subscription owner (`Sold To:` contact) may want to associate the billing account (and related subscriptions) with more CustomersDot users, or transfer the billing account / subscription ownership.
 
 This process would also apply for requests to send a license to a different email other than the `Sold To:` contact.

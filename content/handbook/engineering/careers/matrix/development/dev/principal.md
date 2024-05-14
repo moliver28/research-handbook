@@ -3,7 +3,7 @@ title: "Dev Career Framework: Principal Engineer"
 ---
 
 ## Principal Engineer
- 
+
 {{% include "includes/engineering-careers/dev-career-matrix-nav.md" %}}
 
 **Principal Engineers at GitLab are expected to exhibit the following competencies:**
@@ -30,7 +30,7 @@ title: "Dev Career Framework: Principal Engineer"
 - Vast knowledge of server side programming languages and their frameworks
 - Improves engineering standards, tooling, and processes
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-principal-values-competency.md" %}}

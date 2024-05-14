@@ -35,7 +35,7 @@ As aptly stated in [Basecamp's Handbook](https://basecamp.com/handbook), **there
 
 It requires companywide trust that team members **have permission to drop prior organizational baggage and truly operate differently**, which may feel like a [trap]({{< ref "values#five-dysfunctions" >}}) for those who have been exposed to traditional bureaucratic norms.
 
-Psychological safety is critical, and [leadership]({{< ref "leadership" >}}) should place a high degree of importance on ensuring that this does not erode. GitLab signals the importance of this by listing "[Loss of the values that bind us](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#loss-of-the-values-that-bind-us)" as one of the concerns on the [Mitigating Concerns page](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/).
+Psychological safety is critical, and [leadership]({{< ref "leadership" >}}) should place a high degree of importance on ensuring that this does not erode. GitLab signals the importance of this by listing "[Loss of the values that bind us](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#loss-of-the-values-that-bind-us)" as one of the concerns on the [Mitigating Concerns page](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/).
 
 ## Values should not be a surprise
 

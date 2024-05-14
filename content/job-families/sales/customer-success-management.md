@@ -35,8 +35,8 @@ The Customer Success Manager(CSM) role at GitLab is expected to serve and operat
 | -- | - |
 | [Associate Customer Success Manager](#associate-customer-success-manager) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Customer Success Manager](#customer-success-manager-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Customer Success Manager](#senior-customer-success-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Staff Customer Success Manager](#staff-customer-success-manager) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Senior Customer Success Manager](#senior-customer-success-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Staff Customer Success Manager](#staff-customer-success-manager) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Manager, Customer Success Managers](#manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Customer Success Managers](#senior-manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
@@ -252,7 +252,7 @@ In addition to the corresponding Customer Success Manager level requirements:
 
 ## Career Ladder
 
-Team members in the Customer Success Management job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Architect or Solutions Architect.  
+Team members in the Customer Success Management job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Architect or Solutions Architect.
 
 ## Hiring Process
 

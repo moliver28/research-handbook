@@ -3,6 +3,7 @@ title: "Data Infrastructure"
 ---
 
 ## Overview
+
 **Data Infrastructure** pages are available in our [Internal GitLab Handbook](https://internal.gitlab.com/handbook/enterprise-data/platform/infrastructure).
 
 

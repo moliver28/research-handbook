@@ -80,11 +80,11 @@ After naming the risks by integrating different Areas and Facets to help brainst
 
 #### Map key
 
-* Impact - what happens if the risk is not mitigated or eliminated
-* Impact level - Rate 1 (LOW) to 5 (HIGH)
-* Probability - Rate 1 (LOW) to 5 (HIGH)
-* Priority - Impact x Probability. Address highest score first.
-* Mitigation - what could be done to lower the impact or probability
+- Impact - what happens if the risk is not mitigated or eliminated
+- Impact level - Rate 1 (LOW) to 5 (HIGH)
+- Probability - Rate 1 (LOW) to 5 (HIGH)
+- Priority - Impact x Probability. Address highest score first.
+- Mitigation - what could be done to lower the impact or probability
 
 
 | Risk Area            | Risk Description                                             | Impact | Impact level | Probability | Priority | Mitigation |
@@ -110,10 +110,10 @@ Teams can iterate on this exercise by expanding it to their Product Categories o
 
 After evaluating the risk impact and probability, the Control and Implementation phases require to create mitigations for each risk in order to reduce the negative effects of its impact. Mitigations are strategies for planning work around the impact area. Some strategic ways to deal with risk are:
 
-* Risk avoidance - used when the consequences are deemed too high to justify the cost of mitigating the problem.
-* Risk acceptance - accepting a risk for a given period of time to prioritize mitigation efforts.
-* Risk transfer - allocates risks between different teams, consistent with their capacity to protect against or mitigate the risk.
-* Risk monitoring - keep track of projects and the associated risks for changes in the impact of the associated risks.
+- Risk avoidance - used when the consequences are deemed too high to justify the cost of mitigating the problem.
+- Risk acceptance - accepting a risk for a given period of time to prioritize mitigation efforts.
+- Risk transfer - allocates risks between different teams, consistent with their capacity to protect against or mitigate the risk.
+- Risk monitoring - keep track of projects and the associated risks for changes in the impact of the associated risks.
 
 Tracking and monitoring risks and the work being done towards their mitigation is up to the team preferred workflow.
 

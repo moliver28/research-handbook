@@ -4,15 +4,7 @@ title: "Coupa Virtual Card Guide"
 description: "Coupa Virtual Card Guide"
 ---
 
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
 
 ## What is Virtual Card?
 
@@ -45,15 +37,10 @@ Once the Requisition is fully approved, a Coupa Purchase Order will be generated
 
 <br>
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
 **Prerequisite: You must set up your 2FA in Coupa to view your Virtual Cards.** Review the [How to Enable Two-Factor Authentication (2FA)](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-enable-two-factor-authentication) for more details.
+{{% /panel %}}
 
-</div>
-</div>
 <br>
 
 The Virtual Card information is provided on the Purchase Order under the **Payment** section. Click on the link to view the card details. You will be prompted to enter Two-Factor Authentication (2FA) verification code.
@@ -70,15 +57,10 @@ The card number, expiration date, and CVV code will be available to the requeste
 
 <br>
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
 **The Virtual Card Supporting Documentation must match the amount of the Requisition.** If the amount charged to the Virtual Card differs from the PO amount, updated documentation must be provided.
+{{% /panel %}}
 
-</div>
-</div>
 <br>
 
 ## Virtual Cards FAQ
@@ -96,7 +78,6 @@ The card number, expiration date, and CVV code will be available to the requeste
          - "Charge missing receipt reminder"
 
  ![vcard-image-16](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/chargenotification_jun2023.png)  
-
 
 <br>
 
@@ -118,6 +99,3 @@ The card number, expiration date, and CVV code will be available to the requeste
 - **What if I have questions or issues?**
    - Reach out in the `#zip-faq` Slack Channel for assistance with requesting a Virtual Card.
    - Reach out in the `#coupa_help` Slack Channel for assistance with an issued Virtual Card.
-
-
-{::options parse_block_html="false" /}

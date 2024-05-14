@@ -4,13 +4,13 @@ title: "Isabel Sandin's README"
 job: "Fullstack Engineering Manager, Fulfillment:Commerce Integrations"
 ---
 
-<!-- This template will help you build out your very own GitLab README, a great tool for transparently letting others know what it's like to work with you, and how you prefer to be communicated with. Each section is optional. You can remove those you aren't comfortable filling out, and add sections that are germane to you. --> 
+<!-- This template will help you build out your very own GitLab README, a great tool for transparently letting others know what it's like to work with you, and how you prefer to be communicated with. Each section is optional. You can remove those you aren't comfortable filling out, and add sections that are germane to you. -->
 
 ## Isabel Sandins's README
 
 **Isabel Sandin, Engineering Manager Fulfillment:Commerce Integrations**
 
-This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before. 
+This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
 
 It’s also a well-intentioned effort at building some trust by being intentionally vulnerable, and to share my ideas of a good working relationship to reduce the anxiety of people who might be on my team.
 

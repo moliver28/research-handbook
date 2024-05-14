@@ -365,7 +365,3 @@ Click on the `Documents` tab at the top of any request, to see all the documents
 
 **Note:** To contact the Procurement Team or Finance System Admins, send a message to [#zip-faq](https://gitlab.slack.com/archives/C04K1EJGLT1) with your question.
 {: .alert .alert-info}
-
-
-
-{::options parse_block_html="false" /}

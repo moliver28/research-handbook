@@ -32,6 +32,7 @@ This new process will need development engineers on-call based on a rotation sch
 
 
 ## Goals
+
 The on-call process was designed with the following goals in mind -
   * Clear expectations, responsibility, and accountability.
   * Full 24x7 coverage to shadow the Infrastructure team.
@@ -42,11 +43,13 @@ The on-call process was designed with the following goals in mind -
   * Leaving engineers in control of their own working schedules
 
 ## Success Criteria
+
   * Meet development’s SLO of timely response to infrastructure escalations.
   * No on-call engineer is burned out.
   * Planned development work is minimally impacted.
 
 ## Implementation
+
 Refer to the Process section above for how to get started and keep running. In the spirit of iteration, the process will be continuously tuned and improved as we learn through practice.
 
 An async retro issue will be registered and every participant is encouraged to enter feedback in the issue any time. A review will be held at 3-month checkpoint then determine next steps.
@@ -61,6 +64,7 @@ The reasons for doing this:
 * Doing this manually vs. via automation makes it more personalized and shows genuine appreciation.
 
 ## Q&A
+
 **Q: Why do we need development engineers on-call?**
 
 **A:** In the investigation of recent performance degradation incident, it became apparent that deeper product knowledge is necessary to root cause the issue and develop sound solutions. Although infrastructure engineers are good at dealing with most incidents, it is the development engineers who are able to suggest the best short term workaround or temporary fix quickly when the issue involves deep insight into the implementation details.
@@ -148,7 +152,7 @@ Mute all other channels but the escalation channel during a specific time period
 
 **Q: If we had this process in place for recent outages, would it have resolved them significantly faster? i.e. is the gap to find an engineer to support currently our biggest problem?**
 
-**A:**	If you look at the chart of outages as part of the Performance degradation (see above link), you will see outages on the June 5th, July 1st, 3rd.  Had we caught the issues and worked to address them on June 5th we could have prevented July 1st degradation.  July 3rd is half degradation, half attack.  So we would have minimized some level of impact here as well.  The time associated with this degradations is also high (540 minutes for July 1st) and we could have reduced that time as well.
+**A:**    If you look at the chart of outages as part of the Performance degradation (see above link), you will see outages on the June 5th, July 1st, 3rd.  Had we caught the issues and worked to address them on June 5th we could have prevented July 1st degradation.  July 3rd is half degradation, half attack.  So we would have minimized some level of impact here as well.  The time associated with this degradations is also high (540 minutes for July 1st) and we could have reduced that time as well.
 
 **Q: Isn’t this more about discipline of seeing incidents through to resolution, not just how quickly we respond to them? It feels the on-call process addresses the latter, but not former.**
 

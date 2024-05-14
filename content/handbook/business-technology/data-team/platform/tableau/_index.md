@@ -315,34 +315,43 @@ Each section below below corresponds to a limited access user group and the desi
   - To gain [access to SAFE data](/handbook/business-technology/data-team/platform/safe-data/) and be part of the SAFE Access group please submit an AR like this [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284), which requires manager and VP approval.
 
 ##### **ASM AMER Commercial Restricted Access**
+
   - This project allows access to the ASM AMER Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation.
   - Please work with Keith Gliksman @keith.gliksman for access approval.
 
 ##### **ASM EMEA Commercial Restricted Access**
+
   - This project allows access to the ASM EMEA Commercial sub project. It is restricted because the data contains sensitive information about sales rep activity, bookings, and segmentation.
   - Please work with Keith Gliksman @keith.gliksman for access approval.
 
 ##### **ASM Restricted Access**
+
   - Please work with the GTM Planning & Ops team and/or Alex Cohen @alex.cohen for access approval.
 
 ##### **Customer Success Access**
+
   - Please work with the Customer Success team and/or Brandon Butterfield @bbuterfield for access approval.
 
 ##### **Internal Audit Restricted Access**
+
   - Please work with the Internal Audit team and/or Harinakshi Poojary @hpoojary for access approval.
 
 ##### **People Restricted Access**
+
   - Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
 
 ##### **RSA SAFE Access**
+
   - This group is for the Revenue Strategy and Analytics team and is restricted because analysis performed are confidential planning efforts that may impact people roles. Team members must be on the Designated Insiders list to be added to this group.
   - Please work with the Sales Strategy team and/or Olga Falkenhof @ofalken for access approval.
 
 ##### **Sales Development SAFE Access**
+
   - Team members must be on the Designated Insiders list to be added to this group.
   - Please work with Keith Gliksman @keith.gliksman for access approval.
 
 ##### **Self-Service SAFE Access**
+
   - Team members must be on the Designated Insiders list to be added to this group.
   - Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
 
@@ -556,6 +565,8 @@ Creators with an active license to Tableau Online is encouraged to use Tableau D
 One can download Tableau Desktop using the links below, or follow the link from the [Home Page](https://10az.online.tableau.com/#/site/gitlab/home) of Tableau Online.
 - [Tableau Desktop Releases Download](https://www.tableau.com/support/releases)
 - [Tableau Prep Builder Releases Download](https://www.tableau.com/support/releases/prep)
+
+If you want to automatically download the latest version of Tableau Desktop for Mac, you can use [this link](https://www.tableau.com/downloads/desktop/mac).
 
 ### Tableau Desktop vs. Tableau Cloud
 

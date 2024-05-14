@@ -10,7 +10,7 @@ HelpLab is a GitLab’s branding of the ServiceNow Platform.
 
 ## Why ServiceNow?
 
-The solution combines the `#people-connect`, `#stock-admin`, `#expense-reporting-inquiries`, and `#payroll` and `#it_help` Slack channels into a single destination. No more searching for the right Slack channel for your various questions; you will be able to get the help you need all in one place. 
+The solution combines the `#people-connect`, `#stock-admin`, `#expense-reporting-inquiries`, and `#payroll` and `#it_help` Slack channels into a single destination. No more searching for the right Slack channel for your various questions; you will be able to get the help you need all in one place.
 
 Additionally, this solution supports our continued emphasis on keeping team members' sensitive information secure and confidential. When you reach out for support, you will know that it's being handled with the utmost care to maintain your privacy.
 
@@ -28,7 +28,7 @@ The following teams are available through HelpLab:
 - [Stock Admin](https://handbook.gitlab.com/job-families/finance/stock-administrator/)
 - [Expenses](https://handbook.gitlab.com/handbook/finance/accounts-payable/)
 - [Payroll (US & Non-US)](https://internal.gitlab.com/handbook/finance/payroll/)
-- [IT services](https://handbook.gitlab.com/handbook/business-technology/end-user-services/) 
+- [IT services](https://handbook.gitlab.com/handbook/business-technology/end-user-services/)
 
 ## How do I use HelpLab?
 

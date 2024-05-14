@@ -54,7 +54,7 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 1. While logged in to Okta from the device you wish to add, access the [Settings](https://gitlab.okta.com/enduser/settings) page.
 1. In the 'Security Methods' section of the page, choose `Set up` or `Set up another` next to `Security Key or Biometric`.
 1. You will then presented with a password verification and passkey verification prompt.
-1. After pressing `Set up` twice, a prompt from your web browser will appear, or a [1Password prompt](#adding-a-passkey-to-1password) may appear. Click the "YubiKey" icon to bypass if it appears and you wish to save it in iCloud Keychain (recommended) or the local Chrome browser. 
+1. After pressing `Set up` twice, a prompt from your web browser will appear, or a [1Password prompt](#adding-a-passkey-to-1password) may appear. Click the "YubiKey" icon to bypass if it appears and you wish to save it in iCloud Keychain (recommended) or the local Chrome browser.
 
 <img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
 
@@ -122,11 +122,11 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 
      Then, choose "Use a phone, tablet or security key".
 
-     <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Chrome Passkey-2" width="300"/>  
+     <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Chrome Passkey-2" width="300"/>
 
       This should display a QR code that you can scan.
     1. In Safari, click "Other options", then choose "iPhone, iPad or Android device - save a passkey on a device with a camera", then "Continue".
-1. On the mobile device, open your camera app and scan. (It may take a few seconds for it to connect). This requires Bluetooth to be enabled on both devices, but does not require pairing.  
+1. On the mobile device, open your camera app and scan. (It may take a few seconds for it to connect). This requires Bluetooth to be enabled on both devices, but does not require pairing.
 1. On the mobile device, a pop should show up to allow the credential to be saved.
     1. On a iPhone or iPad, it will prompt to save the credential to iCloud Key Chain. Allow this.
     1. If saving the credential fails, go to Settings->`your name`->iCloud and make sure that Passwords and Keychain is set to "On".
@@ -250,7 +250,7 @@ Your gitlab.com account will have 2FA installed as required by our policy.
 Note that the 2FA for GitLab.com is different to the MFA you use to log into Okta.
 [This issue](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues/7397) has been opened to propose a solution.
 
-## When adding my GitLab Google Workspace account to my Android device, the biometrics or security key verification never prompts after signing in to Okta.
+## When adding my GitLab Google Workspace account to my Android device, the biometrics or security key verification never prompts after signing in to Okta
 
 When attempting to add a Google Workspace account to an Android device, Okta authentication proceeds in the Android's embedded browser (WebView).
 

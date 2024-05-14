@@ -15,7 +15,7 @@ The Static Analysis group at GitLab is charged with developing the [Static Appli
 
 - Slack channel: #g_secure-static-analysis
 - Slack alias: @secure_static_analysis_team
-- Google groups: static-analysis-be@gitlab.com
+- Google groups: sec-secure-static-analysis@gitlab.com
 
 ## How We Work
 
@@ -316,12 +316,12 @@ back to those projects, especially if critical or high security findings are con
 We have a [dependencies group](https://gitlab.com/gitlab-org/security-products/dependencies) which contains mirrored copies of the OSS projects upon which we most rely. Prior to submitting an MR updating an analyzer to a new version of these projects, engineers are expected to do the following:
 
 1. Find a release branch which matches the new version we wish to ship.
-  1. If one doesn't exist, create it from the corresponding tag.
+1. If one doesn't exist, create it from the corresponding tag.
 1. Push the branch through a pipeline which executes all of our security products.
-  1. Please note, some of these projects have complicated builds. Auto DevOps works sometimes, but projects such as [spotbugs](https://gitlab.com/gitlab-org/security-products/dependencies/spotbugs) can require a custom CI configuration for our scans to be successful. Also, these projects include tests that can be noisy if not filtered out.
+1. Please note, some of these projects have complicated builds. Auto DevOps works sometimes, but projects such as [spotbugs](https://gitlab.com/gitlab-org/security-products/dependencies/spotbugs) can require a custom CI configuration for our scans to be successful. Also, these projects include tests that can be noisy if not filtered out.
 1. Evaluate any potential security vulnerabilities which are found.
-  1. Work with the relevant Open Source community to resolve any Critical or High severity findings.
-  1. GitLab has published [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html), which may be a useful resource to use when trying to solve identified risks.
+1. Work with the relevant Open Source community to resolve any Critical or High severity findings.
+1. GitLab has published [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html), which may be a useful resource to use when trying to solve identified risks.
 
 We do not want to ship updated dependencies which have Critical and High severity vulnerabilities in them. If we find ourselves in this situation, we will
 withhold updates to the dependency until the problems have been patched.

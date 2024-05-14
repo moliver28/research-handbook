@@ -146,7 +146,3 @@ Required collaborators from the quad for the stage/section are:
 Optional collaborators who should be invited but not required to participate:
 
 - The [functional leads for the next prioritization working group](/handbook/company/working-groups/cross-functional-prioritization/#roles-and-responsibilities).
-
-
-
- 

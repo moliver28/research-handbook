@@ -529,21 +529,14 @@ as possible.
 #### Support Stable Counterpart
 
 The Support Stable Counterpart role is designed to provide a strong connection
-between a product team and Support for the purpose of discussing product issues,
-sharing product knowledge and representing customer needs. If you are interested
+between a product or non-product team and Support. The purpose is discussing
+product issues, sharing product knowledge and representing customer needs, as
+well as sharing knowledge about each team's work and developing processes and
+documentation to allow the two teams to work together well. If you are interested
 in becoming a Support Stable Counterpart, or would like to learn more about the
 role, read the
 [Support Stable Counterparts](/handbook/support/support-stable-counterparts)
 page.
-
-#### Support Liaison
-
-The Support Liaison role is designed to provide a strong relationship between
-a non-product team and Support for the purpose of sharing knowledge
-about each team's work and of developing processes and documentation to allow
-the two teams to work together well. If you are interested in becoming a
-Support Liaison, or would like to learn more about the role, read the
-[Support Liaisons](/handbook/support/support-liaisons) page.
 
 ## Processes
 

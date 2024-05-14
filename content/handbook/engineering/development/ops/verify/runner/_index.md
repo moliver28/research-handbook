@@ -137,9 +137,9 @@ We spend a lot of time working in Go which is the language that [GitLab Runner](
 
 ## Common Links
 
- * [Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/5389813?label_name[]=group%3A%3Arunner&milestone_title=Upcoming)
- * [Issue Tracker](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Arunner)
- * [Slack Channel](https://gitlab.slack.com/archives/g_runner)
+ - [Issue Board](https://gitlab.com/groups/gitlab-org/-/boards/5389813?label_name[]=group%3A%3Arunner&milestone_title=Upcoming)
+ - [Issue Tracker](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Arunner)
+ - [Slack Channel](https://gitlab.slack.com/archives/g_runner)
 
 ## How we work
 
@@ -227,10 +227,10 @@ These limits are intended to help with the work load on the reviewers and mainta
 
 ### Runner Group Specific Onboarding Needs
 
-* `editor` access to the `group-verify` project in GCP
-* Add as `maintainer` to the `gitlab-com/runner-group` group on GitLab.com
-* Make sure entry in `team.yml` has the new member as a reviewer of `gitlab-org/gitlab-runner` and `gitlab-org/ci-cd/custom-executor-drivers/autoscaler`
-* Add to `Verify` 1password vault (requires creating an access request).
+- `editor` access to the `group-verify` project in GCP
+- Add as `maintainer` to the `gitlab-com/runner-group` group on GitLab.com
+- Make sure entry in `team.yml` has the new member as a reviewer of `gitlab-org/gitlab-runner` and `gitlab-org/ci-cd/custom-executor-drivers/autoscaler`
+- Add to `Verify` 1password vault (requires creating an access request).
 
 ### Onboarding
 
@@ -308,20 +308,20 @@ What's left to be done:
 
 There are several benefits to this approach:
 
-* Team members can better identify what they can do to help the issue move along the board
-* Creates an opening for other engineers to engage and collaborate if they have ideas
-* Leaving a status update is a good prompt to ask questions and start a discussion
-* The wider GitLab community can more easily follow along with product development
-* A history of the roadblocks the issue encountered is readily available in case of retrospection
-* Product and Engineering managers are more easily able to keep informed of the progress of work
+- Team members can better identify what they can do to help the issue move along the board
+- Creates an opening for other engineers to engage and collaborate if they have ideas
+- Leaving a status update is a good prompt to ask questions and start a discussion
+- The wider GitLab community can more easily follow along with product development
+- A history of the roadblocks the issue encountered is readily available in case of retrospection
+- Product and Engineering managers are more easily able to keep informed of the progress of work
 
 Some notes/suggestions:
 
-* We typically expect engineers to leave at least one status update per week, barring special circumstances
-* Ideally status updates are made at a logical part of an engineers workflow, to minimize disruption
-* It is not necessary that the updates happen at the same time/day each week
-* Generally when there is a logical time to leave an update, that is the best time
-* Engineers are encouraged to use these updates as a place to collect some technical notes and thoughts or "think out loud" as they work through an issue
+- We typically expect engineers to leave at least one status update per week, barring special circumstances
+- Ideally status updates are made at a logical part of an engineers workflow, to minimize disruption
+- It is not necessary that the updates happen at the same time/day each week
+- Generally when there is a logical time to leave an update, that is the best time
+- Engineers are encouraged to use these updates as a place to collect some technical notes and thoughts or "think out loud" as they work through an issue
 
 ## How to work with us
 
@@ -346,15 +346,15 @@ Current reviewers are members of the [`runner-group`](https://gitlab.com/groups/
 
 As part of the pre-sales and post-sales engagement, your customer may have in-depth questions regarding topics such as GitLab Runner configuration, autoscaling options, how concurrency works, distributing the CI jobs workload, monitoring runners, and so on. The goal of the process below is to enable the runner team to be as efficient as possible in providing the level of support that our sales team and customers require.
 
-### Step 1:
+### Step 1
 
--  Start with the current [documentation page](https://docs.gitlab.com/runner/fleet_scaling/) on scaling a fleet of runners.
+- Start with the current [documentation page](https://docs.gitlab.com/runner/fleet_scaling/) on scaling a fleet of runners.
 
-### Step 2:
+### Step 2
 
 - Open an issue in the customer collaboration project and capture the specific configuration questions that the customer has. The purpose of the issue is to address some questions async if possible and finalize the agenda for any follow up synch calls . It also allows us to identify if we need to invite a specific engineer to the customer  call. Example [issue](https://gitlab.com/gitlab-com/account-management/eastern-north-america/walmart-poc-planning/-/issues/5).
 
-### Step 3:
+### Step 3
 
 - As needed, schedule the sync call with the customer and the Runner PM. The Runner PM will determine if other runner engineers will be included on the call.
 

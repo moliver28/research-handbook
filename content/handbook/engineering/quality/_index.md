@@ -253,7 +253,7 @@ Quality Engineering will do the following in order to identify the issues to be 
 #### Process
 
 - A manager in the Quality Engineering department will lead refinement with issues populated beforehand in the issue boards.
-    - The [performance refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1233204?&label_name%5B%5D=performance-refinement) is used to triage performance issues. 
+    - The [performance refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1233204?&label_name%5B%5D=performance-refinement) is used to triage performance issues.
     - The [transient bugs board](https://gitlab.com/groups/gitlab-org/-/boards/2206756?&label_name[]=type::bug%3A%3Atransient) is used to triage transient issues.
 - Before each meeting, for issues that are not yet fully triaged, the QEM meeting lead will assign the QEM of the appropriate stage or group to prioritize them.
 - The QEM meeting lead should review the board for long running issues that do not have meaningful activity and add them to the agenda to be considered for closure if no longer actionable.
@@ -393,8 +393,6 @@ See the [GitLab Data Seeder](/handbook/engineering/quality/gitlab-data-seeder) d
 - [Production Readiness Guide](https://gitlab.com/gitlab-com/infrastructure/blob/master/.gitlab/issue_templates/production_readiness.md)
 
 [GitLab QA]: https://gitlab.com/gitlab-org/gitlab-qa
-[GitLab Insights]: https://gitlab.com/gitlab-org/gitlab-insights
 [GitLab Performance Tool]: https://gitlab.com/gitlab-org/quality/performance
-[GitLab Triage]: https://gitlab.com/gitlab-org/gitlab-triage
 [GitLab]: https://gitlab.com/gitlab-org/gitlab
 [Reference Architectures]: https://docs.gitlab.com/ee/administration/reference_architectures/index.html

@@ -45,8 +45,8 @@ You may be asking yourself what you will achieve by taking part in the Manager C
 In addition, the program ties into GitLab's strategic priorities through the following:
 
 1. Mitigating concerns associated with:
-     1. [Lack of Performance Management](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#underperformance)
-     1. [Ineffective Management](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#ineffective-management)
+     1. [Lack of Performance Management](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#underperformance)
+     1. [Ineffective Management](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#ineffective-management)
 1. Achieving GitLab Strategy of:
      1. [Inclusive Growth & Development for Team Members](/handbook/company/strategy#4-inclusive-growth--development-for-team-members)
 
@@ -131,7 +131,7 @@ Following the Manager Challenge, participants are encouraged to do the following
 | ------ | ------ | ------ |
 | Week 4 | 50 minutes | Post Program Office Hours: Discuss Lessons Learned, Growth Plans, and Actions for Next Phase of manger enablement |
 
-## Important Points To Remember:
+## Important Points To Remember
 
 1. You will be receiving a lot of calendar invites if you sign-up. Please plan to attend either the AM or PM sessions.
 1. All participants will be invited to a Slack Group for the Manager Challenge

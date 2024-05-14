@@ -11,8 +11,7 @@ status: active
 | Date Created | 2021-07-20 |
 | Estimated Date Ended   | 2021-10-31 |
 | Slack        | [#wg-category-leadership](https://app.slack.com/client/T02592416/C028G84V26S/thread/D012QPR06GP-1615593523.027100) (only accessible from within the company) |
-| Google Doc   | Category Leadership Working Group - Agenda
- |
+| Google Doc   | Category Leadership Working Group - Agenda |
 
 ## Business Goal
 

@@ -199,6 +199,30 @@ In addition, Managers can create an Engagement Survey Action Issue that links to
 - [Legal & Corporate Affairs](https://gitlab.com/groups/gitlab-com/-/epics/2223)
 - [CISO](https://gitlab.com/groups/gitlab-com/-/epics/2196)
 
+### Summit Pulse Surveys Overview
+
+The goal of the Summit is to build trust through social connections. This trust should lead to higher individual and team motivation, leading to higher productivity and retention. Higher trust between individuals and teams fuels collaboration and leads to stronger results.
+
+To best determine how effective we are at achieving the goal of Summit is to gauge team member perceptions before and after the event.
+
+#### We ran two surveys
+
+- Pre-Summit: January 9, 2024 to January 19, 2024
+- Post-Summit: March 15, 2024 to April 5, 2024
+
+This will helped us gain valuable insights into any shifts in sentiments among team members, allowing us to assess the true impact of the summit, satisfaction and engagement.
+This is an abbreviated version of our engagement survey, and it also includes a few Summit related questions.
+
+### Survey Confidentiality
+
+In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you’d like to know more, check out CultureAmp’s [FAQ](https://support.cultureamp.com/en/articles/7048327-engagement-attributed-survey-guide-for-participants) guide.
+
+### Survey Results
+
+Team members can access Summit Pulse Survey results [here](https://docs.google.com/presentation/d/1OPOwu9JZxq4CoAiUAOMPZ-yXH99TPMPXObfzVMIWlto/edit#slide=id.g1d24c3e4ddd_5_252)
+
+
+
 
 <details>
   <summary markdown="span">FY'23 and prior Years Engagement Surveys</summary>

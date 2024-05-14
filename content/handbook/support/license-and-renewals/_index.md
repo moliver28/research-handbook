@@ -142,9 +142,9 @@ as part of their subscription, which refresh every month:
 - Ultimate: `50,000`
 
 Units **are not a 1-to-1 translation of minutes** and are subject to
-[cost factors](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#cost-factor),
-including [the type of Runner being used](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#additional-costs-on-gitlab-saas)
-in a pipeline. A customer [can purchase additional units](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#purchase-additional-cicd-minutes)
+[cost factors](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#cost-factor),
+including [the type of Runner being used](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#additional-costs-on-gitlab-saas)
+in a pipeline. A customer [can purchase additional units](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#purchase-additional-cicd-minutes)
 at any time.
 
 #### Storage and Transfer

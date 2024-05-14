@@ -229,11 +229,11 @@ Verify provides teams with tools that help facilitate continuous integration. Th
 
 - [Error Budget Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2270342/views)
 
-**Important data documentation** 
+**Important data documentation**
 
-There are a few models that are exclusive to the Verify stage that you can reference as a SSOT: 
+There are a few models that are exclusive to the Verify stage that you can reference as a SSOT:
 
-- `wk_gitlab_dotcom_monthly_ci_compute_minutes` is a model you can use to identify the number of runners, pipelines, and CI Build Minutes used on a per project, per namespace level. 
+- `wk_gitlab_dotcom_monthly_ci_compute_minutes` is a model you can use to identify the number of runners, pipelines, and CI Build Minutes used on a per project, per namespace level.
 **Helpful video resources**
 
 [Tanuki Tech: Verify and Secure](https://youtu.be/TgRamhC3ujg)

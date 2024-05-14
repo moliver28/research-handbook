@@ -18,7 +18,7 @@ description: "Describes the program methodology for GitLab IT programs to ensure
 
 This page describes the program methodology for GitLab IT programs to ensure strong results and execution in an efficient way, proper scoping consistent with our value of iteration, correct stakeholders consistent with our value of collaboration and proper documentation for compliance consistent with our transparency value.
 
-## Criteria for programs that meet this standard.
+## Criteria for programs that meet this standard
 
 - Program is larger than two sprints (1 month)
 - Program requires multiple departments for requirements and testing
@@ -205,11 +205,8 @@ The Program Manager should work with the Business Lead to schedule all relevant 
 
 #### Communication Plan
 
-The Program Manager should work with the Business Lead to draft the communication plan (including the message, schedule and vehicle eg. slack, email, etc). The communication needs to be reviewed, approved and sent by one of the Program Sponsors. The GitLab Internal Communications Team can assist with this process. Please check the [Working with People Communications & Engagement](/handbook/people-group/employment-branding/people-communications/#working-with-people-communications--engagement) handbook page for details on how to engage with them.  
+The Program Manager should work with the Business Lead to draft the communication plan (including the message, schedule and vehicle eg. slack, email, etc). The communication needs to be reviewed, approved and sent by one of the Program Sponsors. The GitLab Internal Communications Team can assist with this process. Please check the [Working with People Communications & Engagement](/handbook/people-group/employment-branding/people-communications/#working-with-people-communications--engagement) handbook page for details on how to engage with them.
 
 ### Post implementation support
 
 There should be a plan for post-implementation support as well given that a new system can lead to an increase in volume of questions. This should be staffed by the Subject Matter Expert (SME) teams.
-
-
-{::options parse_block_html="false" /}

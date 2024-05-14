@@ -28,7 +28,7 @@ By looking at the Adoption scores, the CSM will gain an understanding of the cus
 
 **Timeframe: 2-3 Months**
 
-The first step in the process of building a Use Case adoption score starts with identifying Lighthouse metrics that can gauge a customer’s level of performance and adoption for a given use case. To capture the breadth of use case adoption, we rely on Leading Indicators that capture weekly/monthly usage of key features within a use case to accurately measure the maturity of a customer's adoption. 
+The first step in the process of building a Use Case adoption score starts with identifying Lighthouse metrics that can gauge a customer’s level of performance and adoption for a given use case. To capture the breadth of use case adoption, we rely on Leading Indicators that capture weekly/monthly usage of key features within a use case to accurately measure the maturity of a customer's adoption.
 
 Product Management, Data, and Customer Success teams play a big role in identifying use case adoption specific metrics. Product Marketing works with Product Managers to identify Adoption Recommendations for each use case which can be viewed on the the respective Use Case Resource Pages. After identifying key metrics, the respective Product team taken on the responsibility of instrumenting said metrics (if they do not exist already), after which we move on to identifying a denominator to normalize the metric (i.e. `Git Operations - User L28D` / by `Billable Users` = `Git Operation Utilization %`).
 
@@ -57,19 +57,19 @@ Product Management, Data, and Customer Success teams play a big role in identify
 
 **Timeframe: 8-12 Months**
 
-The respective Product Team for the use case takes on the responsibility to help prioritize and triage the work required to collect and measure usage of key features that have been selected as the Lighthouse and/or Leading indicators. This process can take anywhere from 2-6 months depending on bandwidth and priortization. 
+The respective Product Team for the use case takes on the responsibility to help prioritize and triage the work required to collect and measure usage of key features that have been selected as the Lighthouse and/or Leading indicators. This process can take anywhere from 2-6 months depending on bandwidth and priortization.
 
-Instrumentation is the first peice of the puzzle since it requires benchmarks to be able to move onto thresholding which derives from historical usage of the said use case and features. We require at least 6-8 months of historical usage to be able to accurately set thresholds for each measure to calculate an adoption score. 
+Instrumentation is the first peice of the puzzle since it requires benchmarks to be able to move onto thresholding which derives from historical usage of the said use case and features. We require at least 6-8 months of historical usage to be able to accurately set thresholds for each measure to calculate an adoption score.
 <br>
 
 ### Add Metrics to Ingestion Models (Snowflake Tables)
 
 **Timeframe: 1-2 Months**
 
-The Data team takes on the responsibility of adding the selected Lighthouse Metric(s)/Leading Indicators into the relevant ingestion models (Snowflake Tables) that feed into our BI systems such as Tableau (previously Gainsight). This process requires a minimum of 4 weeks of work and validation to ensure we're capturing usage accurately at an instance level. 
+The Data team takes on the responsibility of adding the selected Lighthouse Metric(s)/Leading Indicators into the relevant ingestion models (Snowflake Tables) that feed into our BI systems such as Tableau (previously Gainsight). This process requires a minimum of 4 weeks of work and validation to ensure we're capturing usage accurately at an instance level.
 <br>
 
-### Threshold and Weighting Analysis 
+### Threshold and Weighting Analysis
 
 **Timeframe: 3-6 Weeks**
 

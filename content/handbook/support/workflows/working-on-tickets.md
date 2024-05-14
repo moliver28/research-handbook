@@ -30,7 +30,7 @@ Some Zendesk views are restricted by region.
 
 | Name | Region | Purpose |
 | ---- | ------ | ------- |
-| Global FRT's | Visible only to APAC, this functions similarly to the All FRT and Emergencies view and is frequently used by APAC to flex across SGGs to ensure adequate coverage |
+| Global FRT's | | Visible only to APAC, this functions similarly to the All FRT and Emergencies view and is frequently used by APAC to flex across SGGs to ensure adequate coverage |
 
 
 ## Selecting new tickets

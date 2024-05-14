@@ -8,9 +8,9 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
 1. Key points to consider prior to the closing of the acquisition
     1. If we will make a formal announcement via press release
     1. If we will announce as part of an earnings call
-    1. Media strategy (proactive or reactive-only) 
+    1. Media strategy (proactive or reactive-only)
     1. Timing
-    1. Key messaging 
+    1. Key messaging
     1. When key team members and relevant EBAs are notified
     1. External spokesperson or spokespeople
     1. If an internal and/or external FAQ are/is warranted
@@ -98,8 +98,8 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
             1. Analyst Relations
             1. Communications
 3. Run of show and process checklist for day of the announcement
-    1. Adjust company name from code name to real name in all materials (all DRIs for respective materials) 
-    1. Push blog post live (content team) 
+    1. Adjust company name from code name to real name in all materials (all DRIs for respective materials)
+    1. Push blog post live (content team)
     1. Notify Nasdaq of upcoming press release (comms team)
     1. Submit release to GlobeNewswire; press release crosses wire with blog post linked within (comms team)
     1. Post press release on GitLab’s IR site (comms team)

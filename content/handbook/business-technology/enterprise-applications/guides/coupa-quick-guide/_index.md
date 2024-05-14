@@ -72,15 +72,8 @@ Click on the below boxes for more details of the process:
   <a href="/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-complete-the-professional-services-request-form" class="btn btn-purple" style="white-space: initial;min-width: 0;width: auto;margin:5px;display:grid;align-items:center;height:100%;">Professional Services Request form</a>
  </div>
 
-
 <br>
-
 
 Still have questions? Please ask them in the **#coupa_help** Slack channel.
 
 <br>
-
-
-
-
-{::options parse_block_html="false" /}

@@ -24,18 +24,18 @@ flowchart LR
     direction LR
     subgraph Plan
         direction TB
-        a("Define Scope") --> b("Define Tests") --> c("Define 
+        a("Define Scope") --> b("Define Tests") --> c("Define
         Environment")
 
     end
     subgraph Create
         direction TB
-        d("Build 
+        d("Build
         Local Environment") --> e("Change Code") <--> f("Test Locally")
     end
     subgraph Verify
         direction TB
-        g("Build 
+        g("Build
         Remote Environment") --> h("Test Remotely") --> i("Review")
     end
   end
@@ -138,16 +138,16 @@ Component tests check that the each model changed correctly builds independently
 Integration tests check that a changed model does not negatively impact the operation of any other model. Any model that depends on a changed model should be built and component tests executed as part of the integration testing of a changed model. However, when the expected sequential build time of all of the dependent models is excessively long, more than and hour of run time, then a subset of the dependent models can be selected. When selecting a subset of models, the longest or most critical path should be selected while minimizing the sequential build time. Additionally, if the changes are net new, such as adding a new column, then integration tests can be omitted with the following exceptions:
 
   - A downstream model is configured to be incremental and not configured to append_new_column or sync_all_columns when the schema changes
-  
+
 All incremental downstream models of a change model that would need to be refreshed to prevent an error at run time can be found using the following dbt command:
 
-```
+```console
 dbt list -s <changed model>+,config.materialized:incremental --output name --resource-type model --exclude config.on_schema_change:sync_all_columns config.on_schema_change:append_new_columns
 ```
 
-All downstream models of a changed model can be found using the following dbt command:  
+All downstream models of a changed model can be found using the following dbt command:
 
-```
+```console
 dbt list -s <changed model>+ --output name --resource-type model
 ```
 
@@ -162,9 +162,9 @@ A basic system test to compare the output of the development table with the prod
 WITH compare AS (
   SELECT *
   FROM database.schema.table
-  
+
   MINUS
-  
+
   SELECT *
   FROM <branch_name>_database.schema.table
 )
@@ -202,15 +202,15 @@ flowchart LR
   subgraph dbt Model Lineage
     subgraph "@Changed Model"
         direction LR
-        subgraph "+Changed Model"      
+        subgraph "+Changed Model"
             subgraph "1+Changed Model"
                 b("Model B")  --> t(["Changed Model"])
                 z("Model Z") --> t(["Changed Model"])
             end
-            a("Model A")  -->b("Model B") 
+            a("Model A")  -->b("Model B")
             y("Model Y")  -->z("Model Z")
             x("Model X")  -->y("Model Y")
-        end 
+        end
         t(["Changed Model"])  -->l("Model L") --> m("Model M")
         j("Model J")  -->k("Model K") --> l("Model L")
     end
@@ -303,13 +303,13 @@ The planned changes need the following models to properly build and test the cha
 
 Environment
 
-```
+```console
 dbt list 1+pump_disaster_relief_fund
 ```
 
 Build
 
-```
+```console
 dbt list pump_disaster_relief_fund
 ```
 
@@ -341,47 +341,47 @@ In addition to the built in tests the following queries were used to test the ch
 
 <details>
 
-    <summary>SQL</summary>
+<summary>SQL</summary>
 
-    ```sql
-    SET query_id = (
-      SELECT QUERY_ID
-      FROM snowflake.account_usage.query_history 
-      WHERE true
-      and QUERY_TEXT = 'SHOW COLUMNS IN pempey_prod.pumps_sensitive.pump_disaster_relief_fund'
-      AND start_time > current_date()
-      ORDER BY START_TIME DESC
-      LIMIT 1
-    );
+```sql
+SET query_id = (
+  SELECT QUERY_ID
+  FROM snowflake.account_usage.query_history
+  WHERE true
+  and QUERY_TEXT = 'SHOW COLUMNS IN pempey_prod.pumps_sensitive.pump_disaster_relief_fund'
+  AND start_time > current_date()
+  ORDER BY START_TIME DESC
+  LIMIT 1
+);
 
-    SELECT $query_id
-    --
+SELECT $query_id
+--
 
-    SELECT count(*) = 6
-    FROM TABLE (RESULT_SCAN($query_id)) --
-    WHERE true
-    AND "column_name" IN ('Fund','Firstname','Lastname','Employeenumber','Email','Action')
+SELECT count(*) = 6
+FROM TABLE (RESULT_SCAN($query_id)) --
+WHERE true
+AND "column_name" IN ('Fund','Firstname','Lastname','Employeenumber','Email','Action')
 
 
-    -- Integration Test
+-- Integration Test
 
-    -- None
+-- None
 
-    -- System Test
+-- System Test
 
-    WITH compare AS (
-      SELECT *
-      FROM prod.pumps_sensitive.pump_disaster_relief_fund
-      
-      MINUS
-      
-      SELECT *
-      FROM pempey_prod.pumps_sensitive.pump_disaster_relief_fund
-    )
+WITH compare AS (
+  SELECT *
+  FROM prod.pumps_sensitive.pump_disaster_relief_fund
 
-    SELECT count(*) from compare
+  MINUS
 
-    ```
+  SELECT *
+  FROM pempey_prod.pumps_sensitive.pump_disaster_relief_fund
+)
+
+SELECT count(*) from compare
+
+```
 
 </details>
 
@@ -399,48 +399,48 @@ The `clone_model_dbt_select` job was used with the `DBT_MODELS = 1+pump_disaster
 
 <details markdown="1">
 
-    <summary>SQL</summary>
+<summary>SQL</summary>
 
-    ```sql
+```sql
 
-    SET query_id = (
-      SELECT QUERY_ID
-      FROM snowflake.account_usage.query_history 
-      WHERE true
-      and QUERY_TEXT = 'SHOW COLUMNS IN 17086-ADJUST-COLUMN-NAMES-FOR-E4E-RELIEF-FILE_PROD.pumps_sensitive.pump_disaster_relief_fund'
-      AND start_time > current_date()
-      ORDER BY START_TIME DESC
-      LIMIT 1
-    );
+SET query_id = (
+  SELECT QUERY_ID
+  FROM snowflake.account_usage.query_history
+  WHERE true
+  and QUERY_TEXT = 'SHOW COLUMNS IN 17086-ADJUST-COLUMN-NAMES-FOR-E4E-RELIEF-FILE_PROD.pumps_sensitive.pump_disaster_relief_fund'
+  AND start_time > current_date()
+  ORDER BY START_TIME DESC
+  LIMIT 1
+);
 
-    SELECT $query_id
-    --
+SELECT $query_id
+--
 
-    SELECT count(*) = 6
-    FROM TABLE (RESULT_SCAN($query_id)) --
-    WHERE true
-    AND "column_name" IN ('Fund','Firstname','Lastname','Employeenumber','Email','Action')
+SELECT count(*) = 6
+FROM TABLE (RESULT_SCAN($query_id)) --
+WHERE true
+AND "column_name" IN ('Fund','Firstname','Lastname','Employeenumber','Email','Action')
 
 
-    -- Integration Test
+-- Integration Test
 
-    -- None
+-- None
 
-    -- System Test
+-- System Test
 
-    WITH compare AS (
-      SELECT *
-      FROM prod.pumps_sensitive.pump_disaster_relief_fund
-      
-      MINUS
-      
-      SELECT *
-      FROM 17086-ADJUST-COLUMN-NAMES-FOR-E4E-RELIEF-FILE_PROD.pumps_sensitive.pump_disaster_relief_fund
-    )
+WITH compare AS (
+  SELECT *
+  FROM prod.pumps_sensitive.pump_disaster_relief_fund
 
-    SELECT count(*) from compare
+  MINUS
 
-    ```  
+  SELECT *
+  FROM 17086-ADJUST-COLUMN-NAMES-FOR-E4E-RELIEF-FILE_PROD.pumps_sensitive.pump_disaster_relief_fund
+)
+
+SELECT count(*) from compare
+
+```
 
 </details>
 

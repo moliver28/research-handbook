@@ -11,7 +11,7 @@ title: "Questions & Techniques for Success Plan Discovery"
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 
 The questions and techniques described on this page will provide you with some ways to drive a strategic conversation with a customer, and explore the information you need to develop an [effective success plan](/handbook/customer-success/csm/success-plans/).  A Success Plan should always be a continuation of the [Command Plan](/handbook/sales/sales-operating-procedures/engage-and-educate-the-customer/#step-5-qualify-the-opportunity) where available.  The below questions are for further expanding on what we know from the Command Plan, or refreshing on objectives if it has been some time.
 

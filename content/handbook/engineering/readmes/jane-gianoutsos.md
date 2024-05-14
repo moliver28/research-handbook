@@ -6,6 +6,7 @@ job: "Manager, Support Engineering (APAC)"
 ---
 
 ## Jane G's README
+
  👣 [Everything is in draft](/handbook/values/#everything-is-in-draft) - that includes this!  I welcome all feedback! You are very welcome to contribute to this page by opening a merge request.*
 
 **Jane Gianoutsos - Manager, Support Engineering (APAC)** This page is intended to help others understand what it might be like to work with me, especially people who haven’t worked with me before.
@@ -14,7 +15,7 @@ You'll find as you read this I've made a clear decision to be very intentionally
 
 ## About me
 
-I live in Auckland, New Zealand, with my husband, and the pleasure of myriad native New Zealand birds in our neighbourhood. 
+I live in Auckland, New Zealand, with my husband, and the pleasure of myriad native New Zealand birds in our neighbourhood.
 
 As a kid I dreamt of working at NASA and as a teenager decided this meant becoming an astrophysicist. An uninspiring physics teacher and a revelation about how many years of study that would take put me off. An inspiring lecturer at university set me on the path of IT, and it feels like home. I love people and their stories and how they've journeyed to where they are and where they'll find themselves in their future.  I sometimes ponder doing an anthropology degree.
 
@@ -24,9 +25,10 @@ I'm a serial hobby-ist who loves learning new skills, but once it starts getting
 
 I wear my heart on my sleeve, I'm very honest about what I struggle with, and I struggle to be as generous with myself about what I'm good (or great!) at.  Meanwhile, I love to encourage others - I'm passionate about the power of words and their impact on us. It's often in encouraging others that I notice I need to pause and take my own advise - thank you for any opportunity for that!
 
-Sometimes people think my face says things that I'm not intending! If I look focused and overly serious in a concerning way, and you're wondering why, please ask, it's most likely that I'm trying (and failing) to multitask, or I'm wrestling with some insistent thought going through my mind. 
+Sometimes people think my face says things that I'm not intending! If I look focused and overly serious in a concerning way, and you're wondering why, please ask, it's most likely that I'm trying (and failing) to multitask, or I'm wrestling with some insistent thought going through my mind.
 
 ## About things I'm passionate about
+
 Honoring my opening statement, this is a rough start at expressing my passion for creating and holding space where all people can thrive.  I have a disregulated nervous system and a disability. I am incredibly passionate about neurodiversity and identity and accessibility and belonging.  I don't know what else to say about that yet, but I welcome chatting and learning together.
 
 ## About working together
@@ -35,7 +37,7 @@ Honoring my opening statement, this is a rough start at expressing my passion fo
 
 - I deeply respect your dignity and I count it a privilege that I get to do a little bit of life with you.  
 
-- I'm very at ease with emotion, I don't attach shame to tears, some things just need that release, it's incredibly healthy and part of being fully human. 
+- I'm very at ease with emotion, I don't attach shame to tears, some things just need that release, it's incredibly healthy and part of being fully human.
 
 - I'm here to help - I won't always have the answers and I don't expect myself to (just as I don't expect that of you), but even if it feels off-topic, please reach out.
 
@@ -46,13 +48,13 @@ Honoring my opening statement, this is a rough start at expressing my passion fo
 - [positive intent](/handbook/values/#assume-positive-intent)
 - you've got more going on than I know about or than you perhaps realise yourself
 
-You can assume the same about me in all instances. 
+You can assume the same about me in all instances.
 
 ## About Communicating with me
 
 - I'm not a morning person, I'm usually online around 9:30am NZT, but I tend to avoid meetings for the first 30 minutes to give me time to be a bit more human and clear out overnight messages. I am still available at this time.
 
-- I don't like being expected to read between the lines, and I don't expect you to either. Please be as open and direct as you feel comfortable being and if you're struggling with that, let me know and we can work it out together. 
+- I don't like being expected to read between the lines, and I don't expect you to either. Please be as open and direct as you feel comfortable being and if you're struggling with that, let me know and we can work it out together.
 
 ---
 
@@ -65,11 +67,11 @@ A long while ago I did a [series of blog posts](https://nztebs.blogspot.com/sear
 Recent hobbies these have included:
 
 - needlefelting fanciful forest critters (no photos yet)
-- fermented foods ([sauerkraut](https://www.instagram.com/p/B4EjBRdhSFc/), [sourdough](https://www.instagram.com/p/B8ahzBZpihR/) bread, kombucha, kefir water, [pickles](https://www.instagram.com/p/B4JopFphgmm/)), 
-- [water color painting](https://www.instagram.com/p/BkZySmClad2/), 
-- acrylic painting (I paint emotions, and my general guideline is "if my husband likes it, I'm not painting in my personal style" - it's a bit of a standing joke in my household!), 
-- [calligraphy](https://www.instagram.com/p/BkNIQCjlXBc/), 
-- book-binding, 
+- fermented foods ([sauerkraut](https://www.instagram.com/p/B4EjBRdhSFc/), [sourdough](https://www.instagram.com/p/B8ahzBZpihR/) bread, kombucha, kefir water, [pickles](https://www.instagram.com/p/B4JopFphgmm/)),
+- [water color painting](https://www.instagram.com/p/BkZySmClad2/),
+- acrylic painting (I paint emotions, and my general guideline is "if my husband likes it, I'm not painting in my personal style" - it's a bit of a standing joke in my household!),
+- [calligraphy](https://www.instagram.com/p/BkNIQCjlXBc/),
+- book-binding,
 - [zentangle](https://www.instagram.com/p/BwBNKd3hidH/).  
 - boardgames!
 - Dr Who

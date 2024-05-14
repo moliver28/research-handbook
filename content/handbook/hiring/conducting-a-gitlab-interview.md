@@ -189,7 +189,8 @@ Whereas the scoring definitions company-wide describe the probability of hire, t
 In this category, the interviewer can define the level the candidate scored on, and add details on why they scored a candidate on the particular level. The added value of this category is that the interviewer can score the candidate on multiple levels (ex. the Senior level and the Intermediate level).
 
 This scorecard feature will increase sharing of candidates that, for example, may meet the ‘must-have’ criteria on an Intermediate level position but did not meet all of the ‘must have’ criteria on a Senior level. The dual score, when applicable, will help recruiters and hiring managers with candidacy decisions. Interviewers should use the notes section to capture the why behind their score and provide any additional detail that is directly relevant in assessing leveling.
-___
+
+---
 
 ### Unhelpful vs. Effective Feedback Examples
 
@@ -206,7 +207,7 @@ ___
 1. Compares the candidate to other candidates, which can lead to biases like affinity and contrast bias.
 1. Lacks specific information and examples.
 
-___
+---
 
 #### Effective Feedback Example
 

@@ -11,6 +11,7 @@ Our mission is to deliver and maintain a world-class observability offering and 
 
 
 ## Common Links
+
 |                                |                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Workflow**                   | [Team workflow](/handbook/engineering/infrastructure/team/scalability/#how-we-work)                                                                                                                                                                                                                                                                                                                                            |
@@ -108,7 +109,7 @@ Refer to the Scalability group [issue boards section](/handbook/engineering/infr
 |--------------|-------------|
 | [Planning Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339171) | [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339070) |
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
-| ![Triage](../img/label-triage.png)	<br/>![Proposal](../img/label-proposal.png) <br/>![Ready](../img/label-ready.png) | ![Ready](../img/label-ready.png) <br/>![In Progress](../img/label-in_progress.png) <br/>![Under Review](../img/label-under_review.png) <br/>![Verify](../img/label-verify.png) <br/>![Done](../img/label-done.png)|
+| ![Triage](../img/label-triage.png)    <br/>![Proposal](../img/label-proposal.png) <br/>![Ready](../img/label-ready.png) | ![Ready](../img/label-ready.png) <br/>![In Progress](../img/label-in_progress.png) <br/>![Under Review](../img/label-under_review.png) <br/>![Verify](../img/label-verify.png) <br/>![Done](../img/label-done.png)|
 
 
 ### Group call
@@ -145,3 +146,10 @@ These updates include whatever the team member is currently working on and deali
 There is no strict frequency for posting updates, although we strive to make updates at least once per week.
 
 When posting updates, consider providing enough context (e.g. through links) so that interested team members are able to dive in on their own ([low context](/handbook/communication/#top-tips-and-best-practices)).
+
+## History and Accomplishments
+
+This section contains notes on team history and our accomplishments, but is not meant to be exhaustive.
+
+* 2024-02, Capacity planning: [Proactive investigation of postgres CPU spike seen in saturation forecast](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1668#note_1807225359) uncovered a [database design issue](https://gitlab.com/gitlab-org/gitlab/-/issues/435250)
+* 2024-03, Capacity planning: [Tamland predicted redis CPU saturation which led to Practices proactively scaling Redis](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1712) ([slides](https://docs.google.com/presentation/d/1y58mgaUrpu1dBO_bKVLfDUez9lz-ETLE7E1yksDjAbY/edit#slide=id.g2cc1c00d163_5_4))

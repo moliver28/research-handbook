@@ -252,7 +252,7 @@ In order to make the most of the internship, it's expected for the intern to do 
       1. How would you approach discussing adoption of AI with a customer?
 1. Give a plan-to-monitor demo to your mentor, covering what you've learned at a high-level
    1. The demo should be focused on value of the entire DevSecOps lifecycle, but you should be prepared to go deeper into any areas or features, as your mentor will act as a customer and ask you probing questions
-1. Celebrate! You've completed the CSM internship :tada: 
+1. Celebrate! You've completed the CSM internship :tada:
 
 
 

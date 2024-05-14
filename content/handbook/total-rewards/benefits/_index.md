@@ -25,7 +25,7 @@ These principles will guide our benefit strategies and decisions.
 
 ### Strategy
 
-- Given Benefits vary by country, we do not offer the same benefits globally, instead we take a **country specific approach.** We will transparently outline why we do or do not offer benefits.  
+- Given Benefits vary by country, we do not offer the same benefits globally, instead we take a **country specific approach.** We will transparently outline why we do or do not offer benefits.
 - Country specific approach based on **statutory requirements, entity status, headcount, and market practice**
 - To provide **equitable programs** for team members within the **same country location** when possible.
 - To continuously improve the **team member experience**
@@ -66,11 +66,11 @@ We do not have specific budgets around benefit costs, but instead look to increa
 
 The Total Rewards team reviews GitLab’s global benefits on an annual basis and proposes changes for the next Fiscal Year. The Planning Process is as follows:
 
-#### 1. Team Member Feedback:
+#### 1. Team Member Feedback
 
 - In Q2, Total Rewards review  team member feedback via the Engagement Survey Results and assess  sentiments and gaps within the plans
 
-#### 2. Market Data Collection:
+#### 2. Market Data Collection
 
 - In Q2 & Q3,Total Rewards engages with the benefits broker to collect market data and benchmark benefit plans against other hi-tech employers.
 Benchmarking Data is the broker’s proprietary information that GitLab purchases. While some high-level benchmarking information can be shared with team members, most details cannot be disclosed outside of the People Team.

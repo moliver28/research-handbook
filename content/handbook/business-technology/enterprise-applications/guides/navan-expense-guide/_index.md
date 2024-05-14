@@ -1,18 +1,9 @@
 ---
-
 title: "Navan Expense End Users Guide"
 description: "Navan Expense End Users Guide"
 ---
 
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
 
 ## What is Navan Expense
 
@@ -161,13 +152,9 @@ If you have questions or need assistance with your Navan account, cards, or tran
 
 Connect your personal bank account or personal cards to Navan for quick and easy submission of manual expenses, reimbursement for out-of-pocket expenses, and repayments to the company.
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
 - If your personal bank account is not able to be connected, you will be reimbursed according to GitLab's regular payroll process..
-</div>
-</div>
+{{% /panel %}}
 
 #### Importing transactions
 
@@ -227,13 +214,9 @@ There are several ways to submit for reimbursement, and all manual expenses can 
 - **Type in expenses:** Manually type in your transaction details if you cannot link a personal card or have misplaced your receipt.
 - **Receipt Import:** Email Navan (*receipts@navan.com*) a copy of your receipt(s) and they will automatically be added to an existing Navan Expense transaction or created as a transaction draft.
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
-- Receipts need to be forwarded from your GitLab email to _receipts@navan.com_ in order to be attached to your Navan Expense account. After sending the email, the receipt should show up within a few minutes to a few hours.
-</div>
-</div>
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
+- Receipts need to be forwarded from your GitLab email to *receipts@navan.com* in order to be attached to your Navan Expense account. After sending the email, the receipt should show up within a few minutes to a few hours.
+{{% /panel %}}
 
 <br>
 
@@ -383,13 +366,9 @@ Navan Expense provides you with the ability to automatically split a single tran
 Users can itemize their own manual transactions at any time **before they have been submitted** or after submission only if a transaction has been flagged for review by the system admin and has not yet been actioned by them.
 {: .alert .alert-warning}
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
 - Transaction itemization is not currently available on the web app.
-</div>
-</div>
+{{% /panel %}}
 
 #### Itemizing a manual transaction
 
@@ -419,13 +398,9 @@ Manual transactions are automatically approved when submitted if they fall withi
 
 Forward email receipt to Navan Expense to automatically match it to existing transactions. Receipts sent to Navan will be imported and analyzed to auto-fill transaction details for you allowing to review, then submit.
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
 - Multiple receipts in an email will be cataloged as one transaction. If you need to submit receipts for more than one transaction, forward them as separate emails.
-</div>
-</div>
+{{% /panel %}}
 
 #### Emailing Receipts to Navan
 
@@ -442,13 +417,9 @@ If the receipt import is attached to the wrong transaction or if it needs to be 
 
 <br>
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**IMPORTANT NOTE**" header-bg="danger" %}}
 - All receipts contained in each email will be cataloged as one transaction. If you need to submit receipts for more than one transaction, forward them as separate emails.
-</div>
-</div>
+{{% /panel %}}
 
 #### Managing Imported Receipts
 
@@ -503,13 +474,9 @@ To submit a request for mileage reimbursement, tap `+New transaction`, then `Log
 - Your reimbursement amount is calculated based upon the total distance traveled multiplied by the mileage rate reimbursed by GitLab (click into the `Information` icon next to `Total` to see this value).
 - Lastly, enter in your `Date of travel` (required) and any additional details to provide your Navan Expense Admin team with more details and context for your expense (optional).
 
-<div class="panel panel-danger">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
+{{% panel header="**Note**" header-bg="danger" %}}
 - If you do not see the option to `Log distance driven`, this indicates that your company has not assigned you to an expense policy that allows for mileage reimbursement. Contact the Accounts Payable team for more information.
-</div>
-</div>
+{{% /panel %}}
 
 > Check the *[How do I submit a mileage reimbursement request?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/mileage-reimbursement)* article for more details.
 
@@ -754,6 +721,3 @@ This video covers:
 
 To contact the Accounts Payable Team or Finance System Admins, send a message to [#expense-reporting-inquiries](https://gitlab.slack.com/archives/C012ALM8P29) with your question.
 {: .alert .alert-info}
-
-
-{::options parse_block_html="false" /}

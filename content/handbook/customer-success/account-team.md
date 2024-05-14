@@ -11,7 +11,7 @@ description: "The account team works together to drive value, success, and growt
 
 
 
-- - -
+---
 
 The account team works together to drive value, success, and growth for a customer.
 
@@ -106,7 +106,7 @@ The CSM Manager is the DRI for the meeting, and topics to be covered at a manage
 - Growth opportunities: accounts or opportunities where additional resources are needed, strategize on growth potential
 - Feedback: individual team member wins and feedback
 
-## Working Together throughout the Customer's Lifecycle  
+## Working Together throughout the Customer's Lifecycle
 
 The SA owns all pre-sales technical relationships and activities. The SA coordinates conversations related to product, sales, business, and technical initiatives prior to the sale. CSM involvement during pre-sales models the expectations for the customer relationship after the sale, but should be limited to only after we achieve a technical win. CSM involvement should supplement, not displace, SA pre-sales ownership of the account.
 

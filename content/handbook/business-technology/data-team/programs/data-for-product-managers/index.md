@@ -1,16 +1,5 @@
 ---
-
 title: "Data For Product Managers"
----
-
-
-
-
-
-
-
-
-
 ---
 
 This page is intended to help Product Managers at GitLab understand what data is available to them and how they can use it to understand how their product is used. This page primarily covers two topics: _how_ to consume data, and _what_ data is available.
@@ -37,7 +26,7 @@ Here are some useful links that we recommend for you to bookmark:
 - Everybody at GitLab should automatically have view access granted through Okta.
 - To create your own charts + dashboard, you'll need to have a Creator or Explorer license - you can read more about the Tableau license types [here](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#capabilities). Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New+Access+Request) asking for the appropriate license type. These access requests can be assigned to a data team manager.
 
-#### The 2 basic building blocks in Tableau are charts and dashboards.
+#### The 2 basic building blocks in Tableau are charts and dashboards
 
 - Charts are queries to the data warehouse, materialized into visualizations.
 - Dashboards are collections of charts and have a unique URL (like a "page").
@@ -99,7 +88,7 @@ LIMIT 100
 
 Published data Tableau sources are great ways to allow Tableau users to build charts without writing any SQL or modeling. The data team has created several Published data Tableau sources that have the official badge. Any published data sources that are trusted data will have the [TD] prefix.
 
-We created several snippets that allow you to get quickly without any SQL writing some feature usage from the Service Pings data source. 
+We created several snippets that allow you to get quickly without any SQL writing some feature usage from the Service Pings data source.
 You can find details about those snippets on the [Product Manager Toolkit](/handbook/business-technology/data-team/data-catalog/xmau-analysis/product-manager-toolkit.html) handbook page.
 
 ### GitLab.com Postgres Database
@@ -170,11 +159,7 @@ The data you have instrumented is useful only if it can be visualized in a chart
   - [`legacy.snowplow_page_views_all`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.snowplow_page_views_all): contains ALL page views
   - [`legacy.snowplow_unstructured_events_all`](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.snowplow_unstructured_events_all): contains ALL unstructured events (including click events, form submissions, etc).
 
-<div class="panel panel-info">
-**PRO TIP: Optimizing queries**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**PRO TIP: Optimizing queries**" header-bg="info" %}}
 To make your query faster, use a date filter in your `WHERE` statement.
 
 Example query:
@@ -189,9 +174,7 @@ GROUP BY 1
 ORDER BY 2 DESC
 ```
 
-</div>
-</div>
-
+{{% /panel %}}
 
 #### Some Issues and Merge Requests examples
 

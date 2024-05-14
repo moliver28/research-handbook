@@ -11,6 +11,7 @@ The Dynamic Analysis group at GitLab is charged with developing solutions which 
 To support the success of GitLab by developing highly usable, hiqh quality tools for customers to build more secure software. The Dynamic Analysis group at GitLab is charged with developing solutions which perform API Security Testing, Dynamic Analysis Software Testing (DAST) and Fuzzing.
 
 ### Top Priorities (FY25)
+
 **Theme: Increase adoption**
 
 - **Unify DAST offerings** - Reduce confusion by removing proxy-based DAST and maturing browser-based DAST by adding active checks and improving performance
@@ -175,7 +176,7 @@ The group will get together two weeks before the next quarter begins to create a
 - Polished OKRs for the group with assigned DRIs
   - Links to any associated epics or issues
 
-### Monthly Release Planning
+### Milestone Release Planning
 
 ```mermaid
 timeline
@@ -225,11 +226,19 @@ To complete this mapping, product priority-based issues or epics should be creat
   - Links to polished epics for each product priority
     - Flush out as many child epics and issues tagged to milestones as possible
 
-### Weekly Sync
+### Weekly Huddles & Reaction Coordination
 
-Every Tuesday, a calendar event with an attached agenda exists for a synchronous group meeting.
+#### Monday's Developers Huddle
 
-Each Tuesday, the group will assign a new Reaction Coordinator, discuss any unresolved and significant impediments blocking the team, and host general discussions valuable to a synchronous team meetup.
+Every Monday, a calendar event with an attached agenda exists for a synchronous development group meeting. This meeting is **engineering focused** and includes all engineers on the team and the engineering manager. The purpose of this meeting is to discuss development efforts, strategies, tooling, active MRs, and to guide each other's coding and review efforts. Additionally, the team will discuss all of the active blueprinting items defined in the current [milestone planning issue](#milestone-release-planning), using this time to discuss implementation plans, spikes, and architectural decisions; all in hope of establishing epics and issues for work in the next milestone.
+
+#### Tuesday's General Huddle
+
+Every Tuesday, a calendar event with an attached agenda exists for a synchronous general group meeting. This meeting is **product focused** and includes all engineers on the team, the engineering manager, and the product manager. The purpose of this meeting is to discuss product efforts, timelines, and serves as a direct two-way feedback mechanism between product and the engineering team. We will review the current [milestone planning issue](#milestone-release-planning) as our transient backlog and ensure that we are staying focused on these priorities. The group will also rotate to a new Reaction Coordinator, discuss any unresolved and significant/product impediments blocking the team, and host general discussions valuable to a synchronous team meetup with our product manager.
+
+#### Wednesday's Support Huddle
+
+Every Wednesday, a calendar event with an attached agenda exists for a synchronous support group meeting. This meeting is **support focused** and includes our primary support engineer, the engineering maanger, our product manager, and, as optional members, all engineers on the team engineering manager. The purpose of this meeting is to discuss active support cases and ensure they are added to our [delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis), improve out support runbooks, review live debugging and log reviews of recent support cases, spread support resolution knowledge, and suggest product improvements that will make resolving these support issues easier for the customer, GitLab support, and the team.
 
 #### Reaction Coordinator
 
@@ -328,10 +337,6 @@ There are several maintenance tasks that need to be completed each milestone. Ea
 
 - Review upstream changes, and open an issue to upgrade DAST if the upstream changes provide important improvements
 - Review the [security dashboard](https://gitlab.com/gitlab-org/security-products/dast/-/security/vulnerability_report) for DAST and address all critical and high issues. Review the dashboards for upstream projects, [ZAP](https://gitlab.com/gitlab-org/security-products/dependencies/zaproxy) and [ZAP Extensions](https://gitlab.com/gitlab-org/security-products/dependencies/zap-extensions)
-
-#### Important Links
-
-- [Dynamic Analysis Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis)
 
 ## DAST Technologies
 

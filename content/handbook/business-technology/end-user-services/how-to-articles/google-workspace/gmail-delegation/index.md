@@ -1,14 +1,6 @@
 ---
-
 title: "How To Use Gmail Delegate"
 ---
-
-
-
-
-
-
-
 
 ## Introduction
 
@@ -18,15 +10,9 @@ The purpose of this handbook page is to describe how to utilize [Gmail Delegatio
 
 ### Using `mail.google.com`
 
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Note**" header-bg="info" %}}
 Gmail Delegation is only available via the `Gmail Webpage`
-
-</div>
-</div>
+{{% /panel %}}
 
 1. Log into `mail.google.com` with your GitLab email address
 

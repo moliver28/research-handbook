@@ -3,20 +3,10 @@
 title: GitLab Alliances Handbook
 ---
 
+**We invite organizations interested in becoming a GitLab Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
 
 
-
-
-
-
-
-##### **We invite organizations interested in becoming a GitLab Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
-
-
-# **Alliance Mission**
-
-
-
+## Alliance Mission
 
 _**“To go fast, go alone. To go far, go together.”** - Proverb_
 
@@ -34,29 +24,21 @@ Nima Badiey<br>
 VP, Global Alliances
 
 
-
-
 <i>GitLab Team Members: Please visit the internal* [Alliance Handbook Page](https://internal.gitlab.com/handbook/alliances/)</i> for additional information.
 
 
-
-
-
-# **Alliance Partner Program**
+## Alliance Partner Program
 
 
 We are firm believers that partnership is the foundation from which collaboration and innovation is built upon. As a GitLab Alliance Partner, you’ll have access to the resources, tools, and support you need to accelerate business growth providing greater customer value through solution offerings that are integrated and interoperable with GitLab.
 
 We recognize that not all partners have the same needs or goals, and as such, our program is designed with three Alliance Partner types in mind.
 
-
 | **Cloud Partners** | **Platform Partners** | **Technology Partners** |
 | -------------- | ----------------- | ------------------- |
 | Partners that provide public cloud computing services and software marketplaces where customers can procure and deploy GitLab | Partners that provide modern cloud / cloud-native application platforms which increase the modularity and extensibility of GitLab across enterprises and architectures | Independent Software Vendors (ISV) Partners with complementary technologies that seamlessly integrate / interoperate with GitLab for more complete customer solutions |
 
-
-
-#### **Pillars for Successful Partnerships**
+#### Pillars for Successful Partnerships
 
 Mutually beneficial value exchange drives mutual partner success. We believe these pillars ensure a more sustainable future.
 
@@ -67,9 +49,7 @@ Mutually beneficial value exchange drives mutual partner success. We believe the
 - **Results** - Partnerships that align on objectives and outcomes.
 - **Collaboration** - Partnerships that are committed to building reciprocal relationships between organizations and teams.
 
-
-
-#### **Engagement Models**
+#### Engagement Models
 
 There are a variety of ways to partner together to develop solutions. Partner type, solution and/or services offering, and route to market are all considerations when determining the best option, resale or co-sell.  Below are a few examples of how GitLab works with Alliance Partners to deliver consumable customer solutions.
 
@@ -80,9 +60,7 @@ Integrated or bundled solution offerings sold through direct and indirect channe
 - **ISV** (co-sell)
 Collaborative selling motions that stimulate sales of our respective products, independently
 
-
-
-#### **Program Benefits**
+#### Program Benefits
 
 GitLab Alliance Partners are a key part of GitLab’s commitment to the DevOps community. Alliance Partnerships help customers get more value by uniting the capabilities of our products and technologies to provide end-to-end customer solutions. The GitLab Alliance Partner Program provides partners with the following program benefits:
 
@@ -100,10 +78,7 @@ Sales & Marketing
 - Sales awareness and engagement. Promoting partners and solutions to stimulate sales
 - Go To Market assets and collateral. Equipping partners with resources designed to market and sell our joint solutions to prospects and customers.
 
-
-
-
-# **Additional Resources**
+## Additional Resources
 
 **Alliance Partner Onboarding**
 

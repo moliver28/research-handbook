@@ -14,7 +14,7 @@ It is the responsibility of every member of our Community to interact with GitLa
 
 This policy applies to all GitLab Team Members, contractors, advisors, and contracted parties interacting with GitLab computing resources and accessing company or customer data.
 
-## Roles & Responsibilities:
+## Roles & Responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|
