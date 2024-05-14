@@ -63,7 +63,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
     > From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
 
-# Task B: Create a Project
+## Task B: Create a Project
 
 1. From the **My Test Group** training subgroup, click the **New project** button.
 
@@ -73,7 +73,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
     > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
-1. In the Project URL field, click the dropdown for the second half of the URL to make sure it’s pointing to a group name (starts with gitlab-learn-labs/*) and not a username. You should create this project inside a group, not directly in your user’s namespace.
+1. In the Project URL field, click the dropdown for the second half of the URL to make sure it’s pointing to a group name (starts with gitlab-learn-labs/* if it is SPT, and training-users/* if it is ILT) and not a username. You should create this project inside a group, not directly in your user’s namespace.
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
