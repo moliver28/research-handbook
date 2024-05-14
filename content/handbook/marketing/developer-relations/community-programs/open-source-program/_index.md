@@ -35,7 +35,7 @@ Send questions about the GitLab for Open Source Program to `opensource@gitlab.co
 
 #### What are the benefits of the GitLab for Open Source Program?
 
-At no cost, members of the GitLab for Open Source Program receive a [GitLab Ultimate](https://about.gitlab.com/pricing/) subscription (self-managed or SaaS), which includes 50,000 compute minutes calculated at a [program-specific cost factor](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#cost-factor).
+At no cost, members of the GitLab for Open Source Program receive a [GitLab Ultimate](https://about.gitlab.com/pricing/) subscription (self-managed or SaaS), which includes 50,000 compute minutes calculated at a [program-specific cost factor](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#cost-factor).
 Product support is not included as part of this subscription.
 
 #### Who qualifies for the GitLab for Open Source Program?
