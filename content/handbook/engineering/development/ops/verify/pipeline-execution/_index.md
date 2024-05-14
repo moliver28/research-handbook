@@ -120,6 +120,8 @@ Not included in the Pipeline Execution group's domain:
 - Compliance in Pipelines, see the [direction page](https://about.gitlab.com/direction/govern/compliance/compliance-management/)
 - [Job artifacts: storage and management of artifacts is the gateway for many CI/CD features](https://about.gitlab.com/direction/verify/build_artifacts/)
 
+---
+
 ## Technical Roadmap
 
 ### FY25
@@ -143,13 +145,6 @@ These are our high-level engineering driven goals for the year. As with any of o
     - Determine if there are and make systemic changes to address a number of the issues
 
 #### Scalability
-
-##### CI Database Partitioning
-
-**Goals:**
-
-- Complete the data partitioning of the 6 largest CI tables - [Blueprint](https://docs.gitlab.com/ee/architecture/blueprints/ci_data_decay/pipeline_partitioning.html)
-
 
 ##### Sidekiq
 
@@ -191,7 +186,7 @@ These are our high-level engineering driven goals for the year. As with any of o
 
 **Goals:**
 
-- Complete performance improvements for pipeline rendering. This functionality is used frequently by developers and their productivity is impacted by poor performance.
+- Complete performance improvements for pipeline page rendering. This functionality is used frequently by developers and their productivity is impacted by poor performance.
 
 ##### Merge Trains
 
@@ -199,6 +194,7 @@ These are our high-level engineering driven goals for the year. As with any of o
 
 - Get merge trains to a state where they are scalable enough to be used effectively by the GitLab project.
 
+---
 
 ## Team Members
 
