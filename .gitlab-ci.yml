@@ -19,7 +19,6 @@ stages:
   - build
   - deploy
   - notify
-  - cleanup
 
 .assume_role: &assume_role
   - >
@@ -79,7 +78,7 @@ variables:
   if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH 
 
 .merge-request-only: &merge-request-only
-  if: '$CI_MERGE_REQUEST_IID || $CI_COMMIT_TAG'
+  if: $CI_PIPELINE_SOURCE == 'merge_request_event'
 
 .merge-request-or-tag: &merge-request-or-tag
   if: '$CI_MERGE_REQUEST_IID || $CI_COMMIT_TAG'
@@ -89,6 +88,12 @@ variables:
 
 .build-and-test-only: &build-and-test-only
   if: '$BUILD_AND_TEST_ONLY == "true"'
+
+###################################
+#
+# BUILD STAGE
+#
+###################################
 
 build:
   image: registry.gitlab.com/pages/hugo/hugo_extended:0.123.7
@@ -137,8 +142,6 @@ pages:
   script:
     - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"    
   rules:
-    # Only run the deploy on the default branch. If you want to deploy from Merge Request branches,
-    # you can use Review Apps: https://docs.gitlab.com/ee/ci/review_apps
     - <<: *default-branch
     - <<: *scheduled-pipeline
     - <<: *merge-request-only
@@ -271,5 +274,3 @@ post_comment_on_failure:
     - glab mr note --unique $CI_MERGE_REQUEST_IID -m "$(cat msg.txt)"
   rules:
   - <<: *merge-request-or-tag
-
-
