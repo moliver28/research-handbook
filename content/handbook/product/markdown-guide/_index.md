@@ -1,5 +1,5 @@
 ---
-title: "Handbook Markdown Guide"
+title: "about.gitlab.com Markdown Guide"
 description: "Read through our Markdown kramdown Style Guide for about.gitlab.com!"
 aliases: /handbook/markdown-guide/
 ---
