@@ -35,7 +35,7 @@ Product Management, Data, and Customer Success teams play a big role in identify
 <details>
   <summary markdown="span"> Use Case Resource Pages </summary>
 
-  - [SCM](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#adoption-recommendation)
+  - [SCM](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#adoption-recommendation)
   <br>
   - [CI](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#adoption-recommendation)
   <br>
@@ -125,7 +125,7 @@ The following primary and ancillary metrics are used to determine a customer's C
 <!-- blank line -->
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/zurUFQDSWt8" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>  
+</figure>
 <!-- blank line -->
 
 - CI Adoption Scoring Walk-through

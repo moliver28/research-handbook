@@ -48,7 +48,6 @@ Making the most out of Elevate+:
 - 🤔Stay curious and open to learning
 - 💃Have fun!
 
-
 ## Module 1: My Leadership Identity
 
 `My Leadership Identity` is the starting point for Elevate+. Live sessions and intersession work will focus on building your self awareness, executive presence, and intentionality behind your behavior and impact on your team's results.
@@ -65,7 +64,6 @@ During Module 1, you will:
 **Key Links**
 
 1. [Module 1 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScug6g0ZA03-qTzVLYpJ6gjxg39WAl6x9bOaqg9A1yR8qzgnw/viewform?usp=sf_link)
-
 
 ## Module 2: Leading to Empower
 
@@ -86,7 +84,6 @@ During Module 2, you will:
 
 </details>
 
-
 **Key Links**
 
 1. [Module 2 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScCWql9i6Oi8js9zDnNawZKX-V1NOhQG3aSD8fFSew-29mn4g/viewform?usp=sf_link)
@@ -99,11 +96,9 @@ In Module 3, create a shared understanding around the importance for your team m
 1. Understand why this knowledge is critical for leading to empower and leading for results
 1. Provide tools, language, and resources for you to lead a conversation with your team members
 
-
 **Key Links**
 
 1. [Module 3 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfmNnaI8C57ua1uRygJ7YlfbHKmmzaYqqD6mypZw5RlWe0cIQ/viewform?usp=sf_link)
-
 
 ## Module 4
 
@@ -113,12 +108,9 @@ In Module 4, increase your cross-functional effectiveness in order to clear the 
 1. Map your cross-functional partners within and outside GitLab
 1. Learn skills for building and repairing relationships with key partners
 
-
 **Key Links**
 
 1. [Module 4 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSfLt0tMR2PuH-VSWpqm2Z7jVOYAmPPFXWJblU80tD-bvwdVUw/viewform?usp=sf_link)
-
-
 
 ## Module 5
 
@@ -128,12 +120,6 @@ In Module 4, increase your cross-functional effectiveness in order to clear the 
 
 1. [Module 5 Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSdHJnLbjDSj-gsDdSwigOn3zIW_7BxpJ1Xgae9htEp6zE3_1w/viewform?usp=sf_link)
 
-
-
 ## Certification
 
 *Certification and pre-certificaiton session material will be added soon.*
-
-
-
-

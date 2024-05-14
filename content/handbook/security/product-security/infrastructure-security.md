@@ -39,7 +39,6 @@ The [Security Incident Response Team - SIRT]({{< ref "sec-incident-response" >}}
 
 SIRT's goal is detection and response of anomalies and security events - on the SaaS and on the corporate side of GitLab. As such, SIRT is a very strong partner to Infrastructure Security.
 
-
 ## Team Members
 
 <table>
@@ -73,7 +72,6 @@ SIRT's goal is detection and response of anomalies and security events - on the 
 </tbody>
 </table>
 
-
 ## Working With Us
 
 To request an infrastructure security review, please create an issue using [the security review template](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/bau/-/issues/new?issue[title]=Security%20Review%20Request%3A%20{%2B%20Service%2FFeature%20Name%20%2B}&issuable_template=production_readiness)
@@ -106,7 +104,6 @@ The team does have set of regular synchronous calls:
 - The [Internal Handbook](https://internal.gitlab.com/handbook/security/infrastructure_security/), which is the operational source of truth for the team. Everyone is **encouraged** to check it out for team's information
 - The [Infrastructure Security GitLab Sub-Group](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security), which contains EPICs and repositories
 - The [Infrastructure Security **Public** Sub-Group](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security-public), which contains publicly facing resources (e.g., Docker images, etc.)
-
 
 ### Decision Log
 
@@ -165,6 +162,7 @@ to define software designs through design docs.
 These design doc documents the high level implementation strategy and key design decisions with emphasis on the trade-offs that were considered during those decisions.
 
 To start discussing a new design:
+
 1. Create a new MR in the [InfraSec Team Charter repo](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/team-charter/-/tree/main/designs) with the Design proposal. You can use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/team-charter/-/blob/main/.gitlab/issue_templates/design_doc.md) as a reference for the structure of the Design doc.
 1. Fill the data as requested
 1. Mark other elements of the team as reviewers

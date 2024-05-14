@@ -23,8 +23,8 @@ All general policies in [the statement of support](https://about.gitlab.com/supp
 - If the prospect converts to customer status, they will automatically get the proper support
 associated with their subscription purchase.
 
-
 The following support specialties are excluded from gratis support for prospects:
+
 - [emergency support](https://about.gitlab.com/support/#how-to-trigger-emergency-support)
 - [upgrade assistance](https://about.gitlab.com/support/scheduling-upgrade-assistance/)
 - migration assistance

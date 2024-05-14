@@ -188,7 +188,6 @@ For team members who will be placed on leave during an investigation please foll
 1. **TMR**: TMR once the investigation is completed the TMR will inform the aligned PBP and manager of the final decision. If the team member is to be returned to work the TMR will reach out and schedule time to meet with the team member.
 1. **TMR**: If the team member is returning to work the TMR complete the suspension bot (the form will be located in the orginal Slack thread) to notify IT and People Connect that the team member will be returning from leave and the date that accounts should be enabled.
 
-
 ### Offboarding Compliance
 
 The People Connect member in the relevant rotation will complete a weekly audit of all offboarding issues opened within that specific week and check that all tasks have been completed by all Team Member and/or Departments. In the event that tasks are still outstanding, the People Connect member will ping the relevant Departments within the offboarding issue to call for tasks to be completed.
@@ -243,6 +242,7 @@ In most cases, team members communicate their departures to their direct team, t
 Key stakeholder communication can be done through 1:1 notifications, and/or by posting the update in team-specific channels for general awareness. Key stakeholders are individuals that departing team members work very closely with (typically in their day-to-day work) that will feel the impact of the team member's departure in their work. Managers of key stakeholders should also be looped into communication to ensure awareness.
 
 It is essential that key stakeholders are looped in to offboardings to:
+
 1. Communicate go forward plans
 1. Ensure business continuity and transparency
 
@@ -268,7 +268,6 @@ I want to share that [team member’s name] ([group] [role]) will be leaving Git
 There will be situations in which team members prefer to share their offboarding message, and situations in which managers prefer to do so. Either is ok, **so long as team member and manager have reviewed the messaging together prior to posting**.
 
 If someone is let go involuntarily, this generally cannot be shared since it affects the individual's privacy and job performance is intentionally kept [between an individual and their manager]({{< ref "confidentiality-levels#not-public" >}}).
-
 
 If you are not close to an employee's offboarding, it may seem unnecessarily swift.
 Please remember that these decisions are never made without following the above process to come to a positive resolution first - we need to protect the interests of the individual as well as the company, and offboarding is a last resort.

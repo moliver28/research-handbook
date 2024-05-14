@@ -7,7 +7,7 @@ description: Information and knowledge that can help to improve your skills. Inc
 
 ## Sales Development Knowledge Vault
 
-This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to be the in-depth knowledge base of our org. The content below is sourced from the input of many past team members and is here for you to perfect your inbound and outbound sales development skills.
+This page is part of the Sales Development team's handbook [page](/handbook/marketing/sales-development/) and aims to be the in-depth knowledge base of our org. The content below is sourced from the input of many past team members and is here for you to perfect your inbound and outbound sales development skills.
 
 Please review at your own leasure, and we're excited to receive your contributions as well!
 
@@ -38,7 +38,7 @@ Explore the main documentation [here](https://docs.google.com/document/d/1Y7qEq8
 
 ### Decision Maker Discovery
 
-The questions below are suggestions to be used while doing a discovery call, in order to identify the decision making process, and to meet the outbound accepted SAO as per the guidelines [here.](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#criteria-for-outbound-sales-accepted-opportunity-sao)
+The questions below are suggestions to be used while doing a discovery call, in order to identify the decision making process, and to meet the outbound accepted SAO as per the guidelines [here.](/handbook/sales/field-operations/gtm-resources/#criteria-for-outbound-sales-accepted-opportunity-sao)
 
 - Who gets involved while evaluating a tool at {{company}}?
 - Would you expect anyone to challenge your initiative, and if so can I help by connecting with anyonse else on your end?
@@ -634,7 +634,7 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 ## Sequence Creation
 
-* We follow the process outlined [here](https://handbook.gitlab.com/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+* We follow the process outlined [here](/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
 
 ### Sequence needs to be a globally applicable
 

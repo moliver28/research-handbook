@@ -186,8 +186,6 @@ There have been a number of issues raised to the CS Ops team related to customer
 
 <summary><b>6. Quality Standards and Monitoring</b></summary>
 
-
-
 **Quality Standards**
 
 A SaaS section of a data quality dashboard for Instances w/out Subscriptionsshould provide the following metrics:
@@ -284,6 +282,7 @@ The Data Quality System is composed of **Scorecards**, which help people monitor
 **Purpose** - Product Data Quality Scorecard quantifies the Data Quality Issues with respect to the Product Usage Data.
 
 The Scorecard Dashboard contains visualizations that display the following information:
+
  - **Pass/Fail Percentage** of each of the Product Data Quality Detection rules. The Percentage of records passed is calculated by taking the Percentage of total number of records that have satisfy the condition or the data quality detection rule. The formula used for the Calculation is:
 **((passed_record_count/processed_record_count)*100)**
 
@@ -367,7 +366,6 @@ Our own [Postgres_Pipeline](https://gitlab.com/gitlab-data/analytics/tree/master
 ### Transformation Data Quality
 
 We use dbt for all transformations in the warehouse. [We require tests on all new dbt models](/handbook/business-technology/data-team/#transformation) and regularly update tests as needed. These tests, as well as the extraction tests and checks, should be written in line with the data quality philosophy described above.
-
 
 ### Data Quality Incidents Resulting in Permanently Lost Data
 

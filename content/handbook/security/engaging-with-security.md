@@ -202,7 +202,6 @@ problems that arise.
 |       S4 |    Begin working on the ~"bug::vulnerability" and ~"FedRAMP::Vulnerability" security issue at least 2 Milestones prior to the due date    |
 | S1,S2 or S3 that is blocked | The team that owns the blocking issue, should disrupt their current milestone and work on the blocking issue **right away** |
 
-
 ### Reproducibility on `~security` Issues
 
 The issue description should have a `How to reproduce` section to ensure clear replication details are in description. Add additional details, as needed:

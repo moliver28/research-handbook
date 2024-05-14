@@ -67,7 +67,6 @@ flowchart LR
 
     1. Review - The results of the remote testing are compared against the scope and tests defined in the plan to assure quality of the suggested code changes.
 
-
 ## Determining Degree of Testing and Review
 
 As this workflow is given as a general process, depending on the complexity of the changes being made and the location of where the changes are may result in a higher or lower degree of testing and review at any given step.  The degree of testing and review should be determined during planning by the developer so that the correct amount of effort is placed into each step.
@@ -97,9 +96,7 @@ The first step in determining the degree of testing and review is identifying th
   - Changing a column name
   - Updating documentation
 
-
 ## dbt Change Workflow Details
-
 
 ### Define Scope
 
@@ -173,11 +170,9 @@ SELECT COUNT(*) from compare
 
 ```
 
-
 #### Acceptance Tests
 
 Acceptance tests can be defined by Stakeholders or Subject Matter Experts and will be aimed at validating that the changes are meeting the needs of the users of the resultant models.
-
 
 ### Define Environment
 
@@ -218,7 +213,6 @@ flowchart LR
 
 ```
 
-
 #### Build Models
 
 Models that that will be reconstructed as part of building or testing changes are classified as build models. These models contain the code changes or are models affected by the code changes and will need to be re-created multiple times during the development process.
@@ -235,7 +229,6 @@ Using the environment defined during the planning, construct the local developme
       - The table is an external table
       - The table is a partition other than the current partition
 1. If the build models require more 10 minutes to build on an XL warehouse then the environment models directly used for the build models should be [sampled](/handbook/business-technology/data-team/platform/dbt-guide/#sample-data-in-development). Sampling the data will improved the build time and increase the iterations that can be performed during development.
-
 
 ### Change Code
 
@@ -257,7 +250,6 @@ To ensure an isolated environment, documentation of results, and to improve coll
       - The table is an external table
       - The table is a partition other than the current partition
 
-
 ### Test Changes Remotely
 
 Test all components, integrations, and system tests remotely to ensure that the changes have been implemented as planned. Any test failure requires an iteration cycle with the Change Code step until all tests pass.
@@ -278,7 +270,6 @@ All need to be reviewed for accuracy of the code changes and there effects as we
   - Code Owner Review
 - Compliance
   - Maintainer Review
-
 
 ### Example
 
@@ -443,7 +434,6 @@ SELECT count(*) from compare
 ```
 
 </details>
-
 
 #### Review
 

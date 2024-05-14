@@ -150,7 +150,6 @@ Anniversary of our first ever summit in Amsterdam with 25 GitLab team-members.
 
 What better way to convey a sense of who we are and how we work together, than by sharing the stories about it?
 
-
 ### The Boat
 
 <!-- HTML blocks below - applied to make the images and the video more harmonic than 1 single column with each on a different "row" -->
@@ -163,7 +162,6 @@ What better way to convey a sense of who we are and how we work together, than b
 {{% youtube "JZG41C0aFfA" %}}
 {{% /card %}}
 {{% /cardpane %}}
-
 
 ### The cattle
 
@@ -189,6 +187,5 @@ What better way to convey a sense of who we are and how we work together, than b
 {{% youtube "4BIsON95fl8?start=1143" %}}
 {{% /card %}}
 {{% /cardpane %}}
-
 
 {{< include "includes/take-gitlab-for-a-spin.md" >}}

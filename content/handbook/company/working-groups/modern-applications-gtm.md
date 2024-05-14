@@ -22,7 +22,6 @@ status: active
 - Typically, we cannot identify application initiatives associated with our prospect's / customer's interest in GitLab, which limits our reach into the account and our ability to tie our value to a c-level initiative.
 - GitLab ranks relatively low when searching for "microservices" and "modern applications," which could signify a lack of thought leadership in a domain we have immense value to provide.
 
-
 ## Business Goal
 
 - Establish GitLab as a thought leader and go-to partner for modern applications to generate more leads.
@@ -36,8 +35,6 @@ Generate compelling customer stories by driving value for our customer's digital
 - Pitch Deck Created
 
 #### Step 1
-
-
 
 ## Roles and Responsibilities
 

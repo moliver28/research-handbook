@@ -164,7 +164,6 @@ The Senior Director, Talent Acquisition is a [grade 11](/handbook/total-rewards/
 - Resourceful and takes initiative to seek internal and external resources when problem solving
 - Have implemented talent acquisition tools while delivering internal OKRs
 
-
 ### VP, Talent Acquisition
 
 The VP, Talent Acquisition reports to the [CPO](/job-families/people-group/chief-people-officer/).

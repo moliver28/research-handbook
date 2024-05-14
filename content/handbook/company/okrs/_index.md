@@ -7,6 +7,7 @@ canonical_path: "/company/okrs/"
 ## Most recent OKRs
 
 Our OKR process and timelines are public and listed on the pages below.
+
 - [FY25-Q1 Active](/handbook/company/okrs/fy25-q1/)
 - [FY25-Q2 Future](/handbook/company/okrs/fy25-q2/)
 - [Previous OKRs](#okr-archive)
@@ -27,6 +28,7 @@ You can use the phrase “We will achieve a certain OBJECTIVE as measured by the
 The OKR methodology was pioneered by Andy Grove at Intel and has since helped align and transform companies around the world.
 
 OKRs have four superpowers:
+
 - Focus
 - Alignment
 - Tracking
@@ -51,6 +53,7 @@ To learn about the industry best practices for OKRs, how setting the right goals
 ### Criteria for Objectives
 
 Objectives should be:
+
 1. **Ambitious** - More than just "business as usual" or incremental change, an objective describes an aspirational yet attainable transformation, growth, improvement that significantly improves the current situation. A few examples:
     1. Introduce disruptive innovations
     1. Establish differences between GitLab Inc. and competitors
@@ -66,6 +69,7 @@ Objectives should be:
 ### Criteria for Key Results
 
 Key Results should be:
+
 1. **Iterative** - Aligned with our core value of [iteration](/handbook/values/#iteration), a Key Result should focus on number of iterations or steps on the way to an outcome instead of just the outcome. Deliver x iterations instead of deliver y functionality.
     1. For example, if we need to create a certain number of experimental and beta features to ultimately get to 1 GA feature, break the KR down into iterative pieces such as deliver 16 experimental features, 2 beta features, and 1 GA feature to highlight the iterations required to get to the end result, instead of only focusing on the end result.
 1. **Aspirational** - Ambitious but realistic stretch goals; if it feels uncomfortable, it's a good KR.
@@ -89,6 +93,7 @@ Key Results should be:
 The following formula can be used to write objectives:
 Verb + What you want to do + In order to/for/so that (what you hope to achieve or rationale for objective).
 **Objective Example**: Increase awareness of company in the market in order to increase sales.
+
 - *Clear goal including rationale for pursuing that goal*
 
 The following formula can be used to write Key Results:
@@ -103,6 +108,7 @@ Product OKR example:
 
 **Objective**: Drive a meaningful impact on Usability (Bugs, Infradev, Security) in order to avoid losing users due to usability issues.
 **KRs (Key Results):**
+
 - group::threat insights: Meet SLAs for all P1 and P2 bugs affecting usability
 - group::code review: Reduce mean-time-to-close of S1 + S2 bugs by 50%
 - group::editor: Complete 10 usability issues related to our primary categories (Web IDE, Snippets, Wiki)
@@ -144,7 +150,6 @@ You should decide your scoring methodology ahead of time. You might score an OKR
 ### How do I prioritize OKRs in light of other priorities?
 
 OKRs do not replace or supersede core team member responsibilities or performance indicators. OKRs are additive and are essentially a high signal request from your leadership team to prioritize the work. They typically are used to help galvanize the entire company or a set of teams to rapidly move in one direction together. You should aim to complete them unless you have higher priority work that is surfaced and agreed to by leadership.  When surfacing tradeoffs, team members should not factor in how an unmet OKR may impact your executive leadership bonus in their prioritization. They should instead focus on GitLab priorities. If your executive leader still feels that the OKR is more important, they will ask you to *disagree and commit*.
-
 
 ## Who sets OKRs?
 
@@ -205,6 +210,7 @@ See [How to Use GitLab for OKRs](/#how-to-use-gitlab-for-okrs) for how to create
 
 In the week that begins **three Mondays** before the start of the fiscal quarter, there is an OKR Draft Review Meeting for the e-group. This meeting is an opportunity for executives to get feedback from one another and highlight any dependencies on other functions to one another.
 The agenda for this meeting is structured as follows:
+
 1. Function
     1. Link to the objective in GitLab
     1. Dependencies: call out any dependencies
@@ -257,7 +263,6 @@ Please note that iteration **does not** mean [changing or lowering goal posts](h
 It is better to update an objective or KR than continue to work toward a goal that is not best aligned with desired business [results](/handbook/values/#results). In instances where Company KRs are being updated in the spirit of iteration, flag the GitLab change in the #okrs Slack channel and tag the CEO and Chief of Staff to the CEO and the CEO for approval. Approval of the change indicates that the revised goal has been agreed upon. At this point, you can also update any associated issues and epics that exist.
 
 In the event that a functional objective that is captured in GitLab needs to be updated, please note the change in the #okrs Slack channel and tag the CEO and Chief of Staff to the CEO for approval. Approval of the change indicates that the revised goal has been agreed upon.
-
 
 ## Format of OKR on the Handbook Page
 
@@ -419,6 +424,7 @@ Watch this video for a demo on how to find the OKRs you're looking for:
 
 Teams should update score for their key results in GitLab within the first five business days of every month and present the most recent update in the [Key Review](/handbook/key-review/) that immediately follows the  update. If a key result is off track, it should be clear why. The owner should leave a comment with the most recent Health Status or there should be a link to an issue, an epic, or another source for details.
 When presenting the status of OKRs, we use the following terms to denote the status of a key result:
+
 1. On track - the DRI is confident the key result will be achieved.
 1. Needs attention - the DRI believes there is some risk the key result will be achieved. Elevated attention is required in order for the key result to be achieved.
 1. At risk - the DRI does not expect the key result will be achieved. Urgent action is required in order for the key result to be achieved.

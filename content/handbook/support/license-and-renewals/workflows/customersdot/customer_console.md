@@ -11,7 +11,7 @@ This workflow is for frequently used functions that are pre-loaded via the [Cust
 
 Using the customer console for internal requests is only for special cases in which the existing tools won't allow us to complete the task at hand.
 
-Console access is through [Teleport](https://goteleport.com/docs/connect-your-client/introduction/), and requires membership in the relevant Okta groups [documented on the CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#group-membership).  You can file an [access Request](https://handbook.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to gain membership.
+Console access is through [Teleport](https://goteleport.com/docs/connect-your-client/introduction/), and requires membership in the relevant Okta groups [documented on the CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#group-membership).  You can file an [access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to gain membership.
 
 Refer to the [CustomersDot documentation page about Teleport](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#using-teleport-for-db-rails-access) for a full overview of installing and using Teleport to access the production or staging rails console.
 
@@ -33,7 +33,6 @@ All requests to *production* require approval of the SRE(s) on shift, and you ca
 - No approval is necessary for staging, and access is granted immediately
 - Accessing is the same as it is for production, except your `tsh login` will be approved immediately, and you can move on to `tsh ssh`
 - The wrapper script *is not* invoked upon login
-
 
 ## Scope
 

@@ -62,4 +62,3 @@ To log in, visit [Prelude.co](https://Prelude.co), click "Sign In", click "Sign 
 1. Add availability preferences, ensure the time zone is accurate, and consider interview limits.
 
 Read about how to organize your calendar on the [Interviewer Prep Requirements]({{< ref "interviewing" >}}) page.
-

@@ -832,7 +832,7 @@ It is critical that any reference to asset number in the upload or send from the
 ### Step 6: Test lead flow into your Content Syndication programs
 There are a few common errors we see with Content Syndication leads. You can address most of these before sending the first test by working with the vendor to confirm they have the correct values.
 
-- `Employee Bucket` (Employee count): Values [here](https://handbook.gitlab.com/handbook/marketing/marketing-operations/list-import/#required-data-and-recommended-data). These values must be written exactly as shown (using commas and correct spacing).
+- `Employee Bucket` (Employee count): Values [here](/handbook/marketing/marketing-operations/list-import/#required-data-and-recommended-data). These values must be written exactly as shown (using commas and correct spacing).
 - `State`: We only accept [State values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) for the United States, Canada, and Australia. The vendor must pass blank values for any other country, otherwise SFDC will reject the lead.
 - `Content Syndication Asset`: The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
 - After verifying the common field mistakes above, work with the vendors to submit test leads through DAP.

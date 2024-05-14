@@ -152,7 +152,6 @@ No, only on-call shifts outside of working hours (I.E. weekends, evenings, etc.)
 
 Time in lieu should be requested via [Time Off by Deel]({{< ref "paid-time-off#time-off-by-deel" >}}) by selecting the `On-Call Time in Lieu` option.
 
-
 ### GitLab PTY Australia Annual, Sick and Carer's Leave, and Other Statutory Leaves
 
 #### Annual Leave
@@ -527,6 +526,7 @@ For more information related to this policy, please reivew the [Employment New Z
 - This leave runs concurrently with GitLab PTO for up to 25 days.
 
 *How to Apply:*
+
 - Team members must email the Absence Management team `leaves@gitlab.com` as soon as possible to notify them of the first date of leave and, if possible, the end date of their leave.
 - Team members must select `Mandatory Civilian Service` in Time Off by Deel to ensure that statutory entitlements are properly tracked.
 
@@ -574,6 +574,7 @@ For more information related to this policy, please reivew the [Employment New Z
 <summary>Family Violence Leave</summary>
 
   All team members who have been employed for a six month continuous period are entitled to 10 days of paid leave if they have been affected by family violence.
+
 - This leave may also be taken to support a child who has experienced domestic violence as long as they live with the team member for some of the time.
 - A person is affected by family violence if they are a person against whom any other person is inflicting, or has inflicted family violence, and/or a person with whom there ordinarily or periodically resides a child against whom any other person is inflicting or has inflicted, family violence.
 - Team members may also request [short-term flexible working arrangements](https://www.employment.govt.nz/leave-and-holidays/domestic-violence-leave/short-term-flexible-working/) for up to 2 months.
@@ -634,7 +635,6 @@ While not a legal requirement, long service leave may be negotiated between a te
 - This leave runs concurrently with GitLab PTO. Team members must designate this time off as `Vacation` in Time Off by Deel.
 
 </details>
-
 
 ### Pension
 

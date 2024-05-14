@@ -19,8 +19,6 @@ The team member needs to provide documentation (a prescription) from the opticia
 
 Please submit your prescription to Total Rewards for approval. Once approved, please send your receipts to expensify for reimbursement.
 
-
-
 ## German Supplemental Pension Plans
 
 GitLab has introduced two supplemental Pension Plans for our Germany Team Members.
@@ -103,6 +101,7 @@ Direct Entitlement is excluded from the plan, meaning the premiums are only taxe
 In the unfortunate event of an accident, please find the Group Personal Accident Flier in [German](https://drive.google.com/file/d/1AbBRSZ1-mkUyITCU0eLhltfRvu3Z3ppy/view?usp=sharing) & in [English](https://drive.google.com/file/d/1GFMTLLgMeyj1EZQ8K0axu8zxhV7jM4QT/view?usp=sharing) with information on how to report an accident and start a claim.
 
 Accidents at work that are fatal or lead to an inability to work for more than 3 days must be reported within three days of the accident to our Berufsgenossenschaft VBG.
+
 1. If you had an accident, please review the criteria [here](https://www.vbg.de/DE/2_Versicherungsschutz_und_Leistungen/2_Was_ist_versichert/1_Arbeits-_und_Wegeunfaelle/arbeits-_und_wegeunfaelle_node.html;jsessionid=1D2B9247A96790725C91E29C620D9109.live4) to clarify if the accident is insured as a work accident
 1. If it meets the criteria for a work accident, please fill in [this form](https://drive.google.com/file/d/1oIum7DOjuRBdJPGOzv07cIEEdGHVVEcp/view?usp=sharing) and report your accident to the Absence Management Team by emailing the form to leaves@gitlab.com. Fields 2 and 28 will get completed by the Absence Management Team.
 1. The Absence Management Team will [notify the VBG](https://service.vbg.de/arbeits-und-wegeunfall-berufskrankheit/unfallanzeige) about the accident report and inform the specialist for occupational safety.
@@ -207,7 +206,6 @@ How to Apply:
 
 - Team members must email leaves@domain proof of the relevant illness of the close relative by means of a medical certificate.
 
-
 ## Sick Leave
 
 #### Statutory Sick Leave
@@ -271,7 +269,6 @@ During onboarding you may have been asked to set up your GitLab Gmail and your e
 ## Company details/Signature on Company Communications
 
 Some company related details are required to be added as a signature to certain forms of communication, where that communication is going from a team member employed by our German entity GitLab GmbH to outside of the company, *and* relates to GitLab's business activities. There are further details listed [here]({{< ref "tools-and-tips#add-company-details-to-certain-company-communications-if-employed-by-our-german-entity" >}}) (accessible internally to GitLab only).
-
 
 ## Useful links
 

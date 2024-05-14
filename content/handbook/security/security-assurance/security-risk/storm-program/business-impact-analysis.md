@@ -26,14 +26,14 @@ The BIA procedure covers all new systems to be added to GitLab's [Tech Stack](/h
 
 ### New Systems
 
-All requisitions in [Zip](https://handbook.gitlab.com/handbook/finance/procurement/#how-to-start-the-procurement-process) that involve the use of a new system to collect, store, or transmit GitLab data require a BIA.  
+All requisitions in [Zip](/handbook/finance/procurement/#how-to-start-the-procurement-process) that involve the use of a new system to collect, store, or transmit GitLab data require a BIA.
 
 When creating this type of requisition, the Business/Technical Owner is prompted to answer two BIA questions at minimum:
+
 1. What is the impact of System disruption (System is unavailable)?
 2. Please describe the potential impact of System disruption. Specify any GitLab team(s) affected.
 
 The answers to these questions help the Security Risk Team designate a Critical System Tier for the new system during the [TPRM Assessment](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-assessment-requirements) process. Additional questions may be asked by Security Risk to validate the assignment of an appropriate CST.
-
 
 ### Quality Reviews
 

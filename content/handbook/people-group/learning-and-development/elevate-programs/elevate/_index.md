@@ -171,7 +171,6 @@ We currently plan for a new group of ~30 people leaders to start this program ev
 
 Due to our priority to certify people leaders, participation by aspiring managers is not currently an option. We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
 
-
 ### What if I get promoted while I'm part of Elevate?
 
 If you're promoted from Manager to Senior Manager, you'll continue Elevate without inturruption. If you're promoted to a Director role or above, please plan to discuss directly with your manager and the Elevate team. Decisions will be made on a case by case basis.
@@ -209,6 +208,3 @@ If a participant misses a live session or falls behind on self paced work, the L
 | No response 24 hours after Message 1 | Message 2: Direct message via Slack to participant & PBP |
 | No response 24 hours after Message 2 | Message 3: Direct message via Slack to participant, PBP, & Talent Aquisition VP |
 | Disengaged or request program exit | Message 4: L&D team sends message to PBP of participant to discuss enrollment of future Elevate cohort |
-
-
-

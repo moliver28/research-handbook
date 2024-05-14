@@ -57,11 +57,7 @@ description: "The Incident Response Lifecyle working group is intended to docume
 
 ### Noted issues
 
-
-
 ## Related Issues
-
-
 
 ## Roles and Responsibilities
 
@@ -113,8 +109,6 @@ description: "The Incident Response Lifecyle working group is intended to docume
 - As a leader in Development who is part of the Incident Manager rotation, I am clear on the role's responsibilities and how the role supports the Incident Management process.
 
 #### Quality Teams
-
-
 
 #### Support Team
 

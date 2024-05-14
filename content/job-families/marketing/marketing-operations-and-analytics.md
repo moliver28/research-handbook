@@ -62,7 +62,6 @@ The VP, Marketing Operations and Analytics is a [grade 12](/handbook/total-rewar
 - Extends that of the Senior Director, Marketing Operations and Analytics
 - 12+ years of experience in a global SaaS marketing or marketing operations environment.
 
-
 ## Performance Indicators
 
 - [Total number of SAOs by month](/handbook/marketing/performance-indicators/#total-number-of-mqls-by-month)

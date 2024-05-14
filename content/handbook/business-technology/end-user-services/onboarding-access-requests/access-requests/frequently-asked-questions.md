@@ -81,4 +81,3 @@ Please note: This is the first iteration of the AR auto closer. Our team will be
 ### I need to remove an existing access
 
 Raise an Access Request specifying which accesses and person needs to be removed
-

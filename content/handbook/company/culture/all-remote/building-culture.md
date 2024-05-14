@@ -24,7 +24,6 @@ If you want to build a great culture, start with your [company's core values]({{
 
 It takes **intentionality** to build a company culture in a company that has no offices. While technology and tools are enabling companies to operate efficiently in a remote setting, it's important to focus on creating a great culture first, *then* using tools to support it.
 
-
 ## How do you create a remote culture?
 
 ![GitLab values illustration](/images/all-remote/remote-report-2021_who-are-the-new-remote-workers.png)
@@ -272,7 +271,6 @@ Creating and evolving company culture is something that all remote organizations
 ## GitLab Knowledge Assessment: Building and reinforcing a sustainable culture
 
 Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
-
 
 ---
 

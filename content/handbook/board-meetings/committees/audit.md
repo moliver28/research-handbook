@@ -36,14 +36,12 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 | 8 |Audit Update                            |   X   |    X   |   X   |   X  |       |
 | 9 |Other Topics                                        |     |    |     |     |  X  |
 
-
 #### Tax
 
 |#|Topics                                                              | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
 |:---:|:-------------------------------------------------------------- | :---: | :---: | :---: | :---: |:---:  |
 | 1 |Effective Tax Rate/Cash Taxes/Tax Attributes (NOLs and Credits)  |   X   |    X   |   X   |   X |       |
 | 2 |Other Topics                                        |     |    |     |     |  X  |
-
 
 #### Disclosure Committee
 
@@ -52,7 +50,6 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 | 1 | Disclosure Committee Report          |   X   |    X   |   X   |   X |       |
 | 2 |Other Topics                                        |     |    |     |     |  X  |
 
-
 #### 10Q /10K
 
 |#| Topics                                                                             | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
@@ -60,14 +57,12 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 | 1 | 10Q /10K Summary and Draft 10Q /10K        |  X  |   X  |   X   |   X   |      |
 | 2 |Other Topics                                        |     |    |     |     |  X  |
 
-
 #### Internal Audit
 
 |#| Topics                           | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
 |:---:| :------------------------------------------------------------------------------------- | :---: | :---: | :---: | :---: |:---: |
 | 1 | Internal Audit Update                       |      |       |      |    |   X   |
 | 2 |Other Topics                                        |     |    |     |     |  X  |
-
 
 #### Earnings Release and Guidance
 
@@ -79,14 +74,12 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 | 4 | Guidance Review               |  X  |   X  |   X   |   X   |      |
 | 5 |Other Topics                                        |     |    |     |     |  X  |
 
-
 #### KPMG
 
 |#| Topics                                     | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
 |:---:| :------------------------------------- | :---: | :---: | :---: | :---: |:---: |
 | 1 | Quarterly Review Update                  |   X   |   X   |   X   |   X   |      |
 | 2 |Other Topics                                        |     |    |     |     |  X  |
-
 
 #### Closed session
 
@@ -116,8 +109,6 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 |14 |Close Process Assessment & SEC                   |Semi Annual |     | X  |     |  X  |     |
 |15 |Other Topics                                       |As needed |     |    |     |     |  X  |
 
-
-
 #### Legal, Risk and Compliance
 
 |#|Topics                                 | Frequency | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
@@ -136,7 +127,6 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 |12 |Approval of Minutes                      |Quarterly |  X  |  X  |  X  |  X  |     |
 |13 |Other Topics                                         |As needed |     |    |     |     |  X  |
 
-
 #### System
 
 |#|Topics                                 | Frequency | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
@@ -146,14 +136,12 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 | 3 | Organization Overview                      |Annual |  X   |    |     |     |     |
 | 4 |Other Topics                                         |As needed |     |    |     |     |  X  |
 
-
 #### IT Compliance
 
 |#|Topics                                 | Frequency | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
 |:---:|:-------------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: |:---:  |
 | 1 | Finance Application System Reviews (ITGC)        |Semi Annual |  X    |    |   X  |     |     |
 | 2 |Other Topics                                         |As needed |     |    |     |     |  X  |
-
 
 #### Security Compliance
 
@@ -163,7 +151,6 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 | 2 | Security Update                                 |Quarterly |   X   |  X  |   X  |  X  |     |
 | 3 | Organization Overview                                |Annual |      |     |     |  X  |     |
 | 4 |Other Topics                                         |As needed |     |    |     |     |  X  |
-
 
 #### Internal Audit
 
@@ -181,7 +168,6 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 | 10 | Enterprise Risk Management update |Annual |  X  |     |    |     |     |
 | 11 |Other Topics                                    |As needed |     |    |     |     |  X  |
 
-
 #### External Audit
 
 |#|Topics                                 | Frequency | FY Q1 | FY Q2 | FY Q3 | FY Q4 |As needed|
@@ -191,7 +177,6 @@ The below amended Audit Committee `Earnings` and `Compliance and Special Topics`
 | 3 | Independence Review                        |Annual |     |     |     |  X   |     |
 | 4 | Quarterly and Annual Audit Results and required communications, as applicable  |Quarterly |  X   |  X   |  X   |   X  |    |
 | 5 | Other Topics                                         |As needed |     |    |     |     |  X  |
-
 
 #### Closed session
 

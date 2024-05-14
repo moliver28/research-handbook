@@ -40,6 +40,7 @@ Note that these goals are aspirational so we set a high bar (and potentially ach
 ### FY25
 
 Included in our [FY 25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/) is a goal to `Accelerate visibility into usage and drive value by driving CI, Compliance and Security adoption`.  Supporting this Yearly are two (2) objectives:
+
 - [ ] 80 of top 100 (child account) largest customers utilizing CI
 - [ ] 65% of Ultimate ARR utilizing Security & Compliance
 
@@ -49,7 +50,6 @@ Included in our [FY 25 Yearlies](https://internal.gitlab.com/handbook/company/ye
 CI Adoption Initiatives
     - FY24-Q4: [CI Adoption - Acceleration Proposals to drive CI ARR to 50% by FY24-Q4](https://gitlab.com/groups/gitlab-com/-/epics/2250)
     - FY24-Q3: [CI Adoption - Acceleration Proposals to drive CI ARR to 50% by FY24-Q3](https://gitlab.com/groups/gitlab-com/-/epics/2225)
-
 
 ## Roles and Responsibilities
 

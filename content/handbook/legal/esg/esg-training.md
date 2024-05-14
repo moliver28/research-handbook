@@ -11,6 +11,7 @@ ESG stands for Environmental, Social and Governance and is a framework designed 
 - Watch [What is ESG](https://www.linkedin.com/learning/search?keywords=esg&u=2255073) training module from LinkedIn Learning
 
 Examples of ESG Issues:
+
 - Environmental: The ‘E’ takes into account a company’s use of natural resources and the impact of the company’s operations on the environment, both in its direct operations and its supply chain. Examples of specific environmental issues include greenhouse gas emissions, energy use, water use, waste management and the environmental impact of the company’s products and services.
 
 - Social: The ‘S’ takes into account how a company manages its relationships with its employees and the communities in which it operates, both in its direct operations and its supply chain. Examples of specific social issues include diversity of its workforce and its suppliers, employee work/life balance, employee pay equity, talent management and engagement, community engagement and the social impact of the company’s products and services.
@@ -20,6 +21,7 @@ Examples of ESG Issues:
 ## Why GitLab Cares
 
 By ensuring that good ESG practices are embedded into the organization, this will help us advance our mission to make it so that everyone can contribute. ESG allows us to understand what our stakeholders care about, meet their expectations and to make progress to advance social and environmental goals while minimizing risk and creating value for the organization.
+
 - Investors
   - [93% of U.S. investors](https://www.edelman.com/sites/g/files/aatuss191/files/2020-11/Edelman%202020%20Institutional%20Investor%20Trust_0.pdf?utm_campaign=Friends%20of%20Dave&utm_medium=email&utm_source=Revue%20newsletter) expect the companies they invest in to increase their prioritization of ESG initiatives.
   - According to a [report](https://www.georgeson.com/us/insights/early-2022-us-agm-season-data#:~:text=In%20its%202022%20Early%20Proxy,season%20and%20754%20in%202020.) from Georgeson, there was a record-breaking volume of shareholder proposal submissions on ESG matters in 2022 for Russell 3000 companies. Shareholders submitted 924 ESG shareholder proposals at Russell 3000 companies between July 1, 2021 and May 16, 2022, compared to 837 during the 2021 season and 754 in 2020.
@@ -32,7 +34,6 @@ By ensuring that good ESG practices are embedded into the organization, this wil
     - [43%](https://www.porternovelli.com/findings/2021-porter-novelli-focus-all-gender/) of employees are reconsidering their current job because their company is not doing enough to address social justice issues externally.
 - Regulators
     - New ESG disclosure requirements in the EU [(CSRD)](https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en) and [proposed requirements](https://www.sec.gov/news/press-release/2022-46) from the SEC will require public companies to disclose information on how companies manage ESG risks in addition to ESG metrics, such as greenhouse gas emissions (GHG). Many EU companies already require GHG data from their vendors, including GitLab, and for this reason, providing accurate and complete data is a priority. This will ensure that GitLab is in compliance with local regulations and continues to be easy to buy from.
-
 
 ## GitLab's Key ESG Topics
 
@@ -83,7 +84,6 @@ By ensuring that good ESG practices are embedded into the organization, this wil
     - Oversight and ethics training
     - Human rights policies, risk assessments and due diligence
 
-
 ## Developing an ESG Strategy
 
 - In collaboration with teams across the company, the ESG team uses the results of the materiality assessment to develop an ESG strategy. The goal of the strategy is to identify 1) areas where we are already aligned with best practice, 2) areas of improvement, 3) meaningful metrics for tracking performance, and 4) issues where we can demonstrate our commitment to improving our ESG performance in the short and long term by setting quantifiable and time bound goals.
@@ -118,21 +118,3 @@ To learn more about how GitLab supports and encourages team members to support N
 ## Where to get more info
 
  - Learn more about GitLab’s current progress on [ESG initiatives](/handbook/legal/ESG/) and read our first ESG report [here](/handbook/esg/). Follow #ESG on slack.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

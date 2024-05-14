@@ -88,6 +88,7 @@ Once you have enough information to make a determination, use one of the other m
 ##### Apply "Downgrade emergency ticket" macro
 
 Applying the macro will lead to the following changes:
+
 - Form will be set to Self-Managed.
 - Priority will be set to High.
 - Ticket stage will be set to NRT.
@@ -368,7 +369,7 @@ Some legacy-type subscriptions are called "multi-year" but are actually multiple
 1. Follow these [steps to ensure their GitLab.com account is linked](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#change-the-linked-account).
 1. Follow these [steps to update the linked namespace](https://docs.gitlab.com/ee/subscriptions/gitlab_com/index.html#change-the-linked-namespace).
 
-If a customer is an [Unlinked CustomersDot account](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab/#unlinked-customersdot-account-for-purchases-via-sales) and you need to act on their behalf, you can try [Force Association of the subscription](https://handbook.gitlab.com/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) as a workaround.
+If a customer is an [Unlinked CustomersDot account](/handbook/support/license-and-renewals/workflows/troubleshoot_purchases_on_gitlab/#unlinked-customersdot-account-for-purchases-via-sales) and you need to act on their behalf, you can try [Force Association of the subscription](/handbook/support/license-and-renewals/workflows/customersdot/mechanizer#force-associate) as a workaround.
 
 If neither of the above resolves the issue for the customer, [contact the on-call Support Manager](#optional-contact-the-on-call-support-manager) requesting further guidance.
 

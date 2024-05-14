@@ -18,7 +18,6 @@ Our department consists of:
  - [Trust & Safety]({{< ref "trustandsafety" >}}) - Prevention and mitigation of abuse of the GitLab.com platform
  - [Red Team]({{< ref "red-team" >}}) - Adversary emulation
 
-
 ## Contacting Security Operations
 
 - Slack channel to interact with the Security Operations Department [#security-department](https://gitlab.slack.com/archives/CM74JMLTU)

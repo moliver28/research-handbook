@@ -25,6 +25,7 @@ The future of TeamOps as an internal operational and as a revenue model is based
 
 **Key Results of TeamOps in FY24**
 To evolve TeamOps from a management philosophy into an operational framework, Laurel Farrer, a subject matter expert specializing in virtual organizational development, completed the following tasks:
+
 - Strategized business model for TeamOps revenue generation
 - Optimized the TeamOps content for productization and marketability, including copywriting, content development, market research, and unique value proposition design
 - Calculated the construction and growth roadmap for business operations

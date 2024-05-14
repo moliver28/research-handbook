@@ -5,7 +5,7 @@ description: The objective of this page is to provide a clear documentation of t
 
 ## What is a Tech Lead
 
-This role is outlined [here](https://handbook.gitlab.com/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role).
+This role is outlined [here](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role).
 
 
 ## Create Tech Leads
@@ -83,7 +83,7 @@ Tech Leads and Domain Experts share similarities and differences. The tables bel
 
 ## Responsibilities
 
-The Tech Lead responsibilites are outlined [here](https://handbook.gitlab.com/handbook/engineering/ic-leadership/tech-lead/#responsibilities-of-a-tech-lead).
+The Tech Lead responsibilites are outlined [here](/handbook/engineering/ic-leadership/tech-lead/#responsibilities-of-a-tech-lead).
 
 
 ## Process

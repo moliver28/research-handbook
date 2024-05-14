@@ -8,7 +8,6 @@ Executive Business Administrators (EBAs) at GitLab toggle seamlessly between var
 
 EBAs at GitLab are self-driven, collaborative, and agile team members who are experienced in managing multiple priorities, juggling various responsibilities, and anticipating the executive’s needs. EBAs are exceptionally organized, relentlessly resourceful, calm under pressure, and strategic multitaskers with a deep love of logistics and the ability to thrive in a dynamic start-up environment.
 
-
 ## Levels
 
 ### Executive Business Administrator (Intermediate)
