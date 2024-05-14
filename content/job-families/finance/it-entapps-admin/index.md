@@ -76,7 +76,6 @@ Extends the IT Enterprise Applications Administrator responsibilities:
 - Solves problems of medium complexity that will have an impact to the business results of their team.
 - Works independently and leverages their manager for feedback on critical problems.
 
-
 ### Senior IT Enterprise Applications Administrator Requirements
 
 Extends the IT Enterprise Applications Administrator requirements:
@@ -84,7 +83,6 @@ Extends the IT Enterprise Applications Administrator requirements:
 - 3-5 years of experience in a system administration role ideally with enterprise SaaS software model.
 - Hands-on administrator experience across multiple platforms: SalesForce, DocuSign CLM, Netsuite, Zuora Billing, Zuora Revenue, Coupa, Zip, Navan, Workday, ADP, eTrade etc.
 - Multiple industry certifications preferred.
-
 
 ## Staff IT Enterprise Applications Administrator
 
@@ -104,7 +102,6 @@ Extends the Senior IT Enterprise Applications Administrator responsibilities:
 - Leads others by sharing solutions and problem solving approaches with others.
 - Interacts with team members and other managers, in addition to suppliers, vendors and/or customers where applicable to the role.
 - Collaborates with their team and other stakeholders within the department to maintain a high bar for quality in a fast-paced, iterative environment.
-
 
 ### Staff IT Enterprise Applications Administrator Requirements
 

@@ -238,23 +238,6 @@ Our current platform consists of:
 - Tableau Server for model monitoring and on-going performance evaluation
 - [Feast](https://docs.feast.dev/) as a an open-source Feature Store for Machine Learning models
 
-<<<<<<< HEAD
-=======
-### Feast: Feature Store Implementation
-
-We are using Feast as an open-source Feature Store for our machine learning models.
-Configuration can be found on [the Feast project repository](https://gitlab.com/gitlab-data/data-science-projects/feast-poc), updating the feature store is done via GitLab CI/CD and the web UI is published in a VM on GCP.
-
-You can use the following pages to find more details on:
-
-1. How to use [Feast to fetch features to train and deploy Machine Learning models](/handbook/business-technology/data-team/platform/feast/).
-1. [Feast - Feature Store Implementation](https://internal.gitlab.com/handbook/enterprise-data/platform/data-science/) Internal handbook section.
-
-### CI/CD Pipelines for Data Science
-
-We are in the process of fully moving over the training and scoring of our machine learning models to the native GitLab CI/CD capabilities. Please see [Getting Started With CI/CD for Data Science Pipelines](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/) for the most up-to-date information and instructions.
-
->>>>>>> b0676795cb (Update markdownlint and fix biztech folder)
 ### Current State Data Flows
 
 ```mermaid
