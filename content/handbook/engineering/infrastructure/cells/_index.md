@@ -440,6 +440,8 @@ We use t-shirt sizing to estimate the time and effort needed to deliver issues/e
 ### Meetings
 
 - Fortnightly Cells X-Functional Sync ([Meeting notes (internal only)](https://docs.google.com/document/d/1i6B_JcSJoN6OWgOazVdwqkYnn4h-a28P2ddWAUIHQdU/edit#heading=h.37jadhgzdghi))
+- Monthly Infrastructure Cells program review ([Meeting notes (internal only)](https://docs.google.com/document/d/1k6tpaFU6noOcM8irLBTB0IyUM-VN_V6zA-VrE5dcuwE/edit))
+- Quarterly Cells program review (TBD)
 
 ### Status updates
 
