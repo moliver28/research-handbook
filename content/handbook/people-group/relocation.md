@@ -89,7 +89,7 @@ Below are the steps to approve a long term relocation.
 
 #### Relocation Within Same Country and Same Location Factor (see Compensation Calculator to determine location factor)
 
-No approval is needed.  Team Members can [update their address](https://docs.google.com/document/d/1NiNKWd-H9FTnYkmsWWi79-DGDSUCiWMfwFaGQPRnj14/edit) in the Contact tab in their Workday profile. A People Connect Team member will [approve the address in Workday](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/people-connect/people_connect_team/#home-contact-changes---workday-inbox) and reach out if there are any additional steps necessary to complete the relocation process.
+No approval is needed.  Team Members can [update their address](https://docs.google.com/document/d/1NiNKWd-H9FTnYkmsWWi79-DGDSUCiWMfwFaGQPRnj14/edit) in the Contact tab in their Workday profile. A People Connect Team member will [approve the address in Workday](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/#home-contact-changes---workday-inbox) and reach out if there are any additional steps necessary to complete the relocation process.
 If the country and the location factor don’t change, no change in compensation is allowed as part of the relocation action.
 
 #### Relocations To New Country or Different Location Factor (see Compensation Calculator to determine location factor)
@@ -144,7 +144,7 @@ The contract phase is unique based upon the team member's relocation. The differ
 - For relocations to another state within the US: Set a reminder to [update the benefit group](https://docs.google.com/document/d/1MuRjPnvK9PZI2kk58jHnMgC3iUQCzp7xdjsfQpJT37k/edit) on the effective date of the relocation
 
 1. Once the People Connect Team member has updated Workday, they will then reach out to another People Connect team member to audit the updated entry
-1. Once the team member updates their address in Workday, the People Connect Team member [approves the address change](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/people-connect/people_connect_team/#home-contact-changes---workday-inbox)
+1. Once the team member updates their address in Workday, the People Connect Team member [approves the address change](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/#home-contact-changes---workday-inbox)
 1. The People Connect Team member notifies Payroll of the changes by adding the relevant details to the applicable payroll sheet depending on the country under the 'Compensation' header and starting month tab
 
 - [Non-US payroll changes](https://docs.google.com/spreadsheets/d/1M_puIKHLWkHnVzOJ2MwjIpQ-mwxolae-LpT2VPlByv0/edit#gid=261391927)
@@ -155,7 +155,7 @@ The contract phase is unique based upon the team member's relocation. The differ
 
 ##### Tasks for the Team Member
 
-1. [Update your address](https://docs.google.com/document/d/1NiNKWd-H9FTnYkmsWWi79-DGDSUCiWMfwFaGQPRnj14/edit) in the Contact tab in your Workday profile. Your [address will then get approved](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/people-connect/people_connect_team/#home-contact-changes---workday-inbox) by the People Connect Team member team.
+1. [Update your address](https://docs.google.com/document/d/1NiNKWd-H9FTnYkmsWWi79-DGDSUCiWMfwFaGQPRnj14/edit) in the Contact tab in your Workday profile. Your [address will then get approved](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/#home-contact-changes---workday-inbox) by the People Connect Team member team.
 
 #### Relocation to a New Country
 
@@ -188,7 +188,7 @@ The contract phase is unique based upon the team member's relocation. The differ
 1. The People Connect Team member will update the [Relocation Tracker](https://docs.google.com/spreadsheets/d/1Z45eOZ2rCRIKgGae3eOKQ8lhIbAPikSs5gLz3V8Kh9U/edit#gid=972787144), that the relocation has been completed.
 1. Create a [relocation issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/relocations.md) for the team member using the applicable country template in the [team member epics](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues) and assign to yourself and the relocating team member. Ensure all tasks are completed and follow up with the relocating team member if required.
     - Copy/paste any country specific [on-/offboarding tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/tree/main/.gitlab/issue_templates) to this issue
-    - Complete any [Pre-Onboarding taks](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/people-connect/onboarding_process/#pre-onboarding) for the applicable country
+    - Complete any [Pre-Onboarding taks](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#pre-onboarding) for the applicable country
     - Complete any [Country Specific Tasks](#country-specific-tasks)
 1. If there is a sales commission change: Add the details to the [Final Sales OTE](https://docs.google.com/spreadsheets/d/1lyGxlNAdY4PLMKR31Zw46i7jpb8qfMovMJBUql8PfjE/edit#gid=1320059142) sheet
 
@@ -203,7 +203,7 @@ If you are relocating away from a location with PEO Employment, you must give no
 
 ##### Relocating **To** The United States
 
-1. Run the [Add Employee integration](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/people-connect/onboarding_process/#steps-to-run-the-lawlogix-integration-in-workday) from Workday to LawLogix in order to intiate the I-9 process for the team member moving at least 5 days before the relocation.
+1. Run the [Add Employee integration](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#steps-to-run-the-lawlogix-integration-in-workday) from Workday to LawLogix in order to intiate the I-9 process for the team member moving at least 5 days before the relocation.
 1. [Place team member in the appropriate benefit group](https://docs.google.com/document/d/1MuRjPnvK9PZI2kk58jHnMgC3iUQCzp7xdjsfQpJT37k/edit) in Workday on the effective date
 
 ##### Relocating **From** The United States
@@ -278,7 +278,7 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
 
 ##### Relocating between Quebec and Non-Quebec
 
-1. The People Connect Team member creates the applicable [Employment Agreement](https://internal-handbook.gitlab.io/handbook/people-group/people-operations/people-connect/employment_contracts/#employment-agreements) due to the contractual differences of the provinces.
+1. The People Connect Team member creates the applicable [Employment Agreement](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#employment-agreements) due to the contractual differences of the provinces.
 1. The People Connect Team member adds the following details to the contract:
     - Start Date: *add effective date of relocation*
     - Add this line underneath the start date at the top: "Continuous Service Date: *add original hire date*"

@@ -155,8 +155,7 @@ Our yearly plans are linked from the [relevant cadence section](/handbook/compan
 
 Activity
 
-Positioning and SWOT published in [internal handbook](https://internal-handbook.gitlab.io/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
-
+Positioning and SWOT published in [internal handbook](https://internal.gitlab.com/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
 - May 15th eGroup review (Complete)
 
 eGroup capability gap exercise at eGroup offsite (prework)

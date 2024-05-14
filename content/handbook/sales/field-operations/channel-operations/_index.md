@@ -1057,6 +1057,6 @@ GCP registrations are submitted on GitLab's behalf by the GCP team. To register 
 
 The executed compensation letter should be the approved and legal source of truth for compensation. However please use the following resources to assist in clarification or exceptions.
 
-[Sales Commissions Internal Handbook](https://internal.gitlab.com/handbook/sales/sales-commission/?redirected-from=internal-handbook.gitlab.io)
+[Sales Commissions Internal Handbook](https://internal.gitlab.com/handbook/sales/sales-commission/)
 
 [FY25 Partner Comp Exception Process](https://internal.gitlab.com/handbook/sales/sales-commission/#request-for-splits-additional-credits-new-logo-exception-lam-dev-count-override-or-churn-exception)

@@ -75,8 +75,7 @@ Tell your manager immediately if there are circumstances in your life that cause
 The important thing to remember as a manager is to immediately address signs of underperformance. Taking action sooner allows more time for coaching to be effective and successful.  In the early stage of the process it is important to identify the reasons why team members might not be meeting expectations for their role. We do this by reviewing previous performance history, ensuring the team member has been taking sufficient PTO (Paid Time Off) and also checking in to ensure all is well in their personal life and providing appropriate support when needed.
 
 As you begin to coach, refer to resources in the handbook and from Elevate for support.
-
-1. [The GROW coaching model](As managers begin to coach, refer to important coaching resources in the handbook, also taught in Elevate:
+1. [The GROW coaching model](https://handbook.gitlab.com/handbook/leadership/coaching/#grow-model) (As managers begin to coach, refer to important coaching resources in the handbook, also taught in Elevate:
 )
 2. [Managing your Inner Fixer](https://handbook.gitlab.com/handbook/leadership/coaching/#managing-your-inner-fixer)
 3. [The Trust Equation](https://handbook.gitlab.com/handbook/leadership/coaching/#the-trust-equation)

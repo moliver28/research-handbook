@@ -346,4 +346,4 @@ Learn more on GitLab's view of [being a public company]({{< ref "being-a-public-
 
 ## Mitigating Concerns
 
-We have a page which documents our [Mitigating Concerns](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/). Many of our [values]({{< ref "values" >}}) help to mitigate some of these concerns.
+We have a page which documents our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/). Many of our [values]({{< ref "values" >}}) help to mitigate some of these concerns.

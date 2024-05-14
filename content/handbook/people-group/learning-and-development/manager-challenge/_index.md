@@ -45,8 +45,8 @@ You may be asking yourself what you will achieve by taking part in the Manager C
 In addition, the program ties into GitLab's strategic priorities through the following:
 
 1. Mitigating concerns associated with:
-     1. [Lack of Performance Management](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#underperformance)
-     1. [Ineffective Management](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#ineffective-management)
+     1. [Lack of Performance Management](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#underperformance)
+     1. [Ineffective Management](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#ineffective-management)
 1. Achieving GitLab Strategy of:
      1. [Inclusive Growth & Development for Team Members](/handbook/company/strategy#4-inclusive-growth--development-for-team-members)
 

@@ -144,8 +144,8 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | REMOTE - PT |
 | 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - PT |
 | 2024-07-29 | 2024-08-02 |  Ivan French - CEO, Sijbrandij Foundation | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
-| 2024-07-29 | 2024-08-02 |  OPEN | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
-| 2024-08-05 | 2024-08-09 |  OPEN | OPEN | REMOTE - CT - limited week due to MS conference |
+| 2024-07-29 | 2024-08-02 | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
+| 2024-08-05 | 2024-08-09 |  OPEN | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | REMOTE - CT - limited week due to MS conference |
 | 2024-08-12 | 2024-08-16 |  OPEN | OPEN | REMOTE - PT |
 | 2024-08-19 | 2024-08-23 |  OPEN | OPEN | REMOTE - PT - limited week (M-W)|
 | 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
