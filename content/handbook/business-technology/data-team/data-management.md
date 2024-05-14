@@ -89,10 +89,10 @@ Here is a sample checklist of activities:
 
 #### Snowflake
 
-- Deactivate off-boarded employees from Snowflake
-     - All Snowflake accounts from GitLab team members that are off-boarded, should be deactivated from the day they are off-boarded. This activity checks for any active accounts for off-boarded GitLab team members. Subsequently any active account will be deactivated.
-- Deactivate any account, that has not logged-in within the past 60 days from the moment of performing an audit, from Snowflake.
-     - Any named user Snowflake account that hasn't logged for more than 60 days will be deactivated. After deactivation, the user will be informed. If a GitLab team member wants to have access provisioned back again, a regular AR needs to be created. After manager approval the account will be activated.
+- Drop accounts from off-boarded employees from Snowflake
+     - All Snowflake accounts from GitLab team members that are off-boarded, should be dropped from the day they are off-boarded. This activity checks for any active accounts for off-boarded GitLab team members. Subsequently any active account will be dropped, without maintaining any data, scripts or other artifacts.
+- Drop any account, that has not logged-in within the past 60 days from the moment of performing an audit, from Snowflake.
+     - Any named user Snowflake account that hasn't logged for more than 60 days will be dropped, without maintaining any data, scripts or other artifacts. If a GitLab team member wants to have access provisioned back again, a regular AR needs to be created. After manager approval the account will be re-created.
      - Validate all user accounts do not have password set.
 - Drop orphaned tables
      - Tables managed through dbt should be manually dropped when they are no longer needed or managed by dbt. This activity compared tables to the tables managed by dbt for tables that have been orphaned. Identified orphaned tables are validated as not being in use and then dropped.
