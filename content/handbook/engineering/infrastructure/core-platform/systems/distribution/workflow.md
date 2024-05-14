@@ -182,12 +182,13 @@ The Distribution DRI works on the following areas per the order of the list.
 
 #### Handover
 
-If any request is still on going by the end of the week, the DRI should consider one of the following with their best judgement:
-
-1. Close the request with mitigation and open a follow-up issue to be triaged by our regular triage process.
-1. Update the request with a comment to hand it over to the next week's DRI.
-1. It might be the most efficient way to continue with the request as a SME, however, it is still highly encouraged to hand it over with documentation for knowledge sharing if feasible.
-1. Discuss anything else with the upcoming DRI.
+1. Close the existing meta issue.
+1. Create a new meta issue for the next team member on the duty, and assign them to it. The issue title should be `Distribution DRI rotation week of <starting date>`. Use the `Distribution-DRI` template to fill in the description.
+    - If any request is still on going by the end of the week, the DRI should consider one of the following with their best judgement:
+      1. Close the request with mitigation and open a follow-up issue to be triaged by our regular triage process.
+      1. Update the request with a comment to hand it over to the next week's DRI.
+      1. It might be the most efficient way to continue with the request as a SME, however, it is still highly encouraged to hand it over with documentation for knowledge sharing if feasible.
+      1. Discuss anything else with the upcoming DRI.
 
 ### Other team members
 
