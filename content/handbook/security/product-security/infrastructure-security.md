@@ -52,7 +52,11 @@ SIRT's goal is detection and response of anomalies and security events - on the 
 <tbody>
 <tr>
 <td>Julie Davila</td>
-<td><a href="/job-families/security/security-leadership#vice-president-vp-security">VP, Product Security (interim InfraSec manager)</a></td>
+<td><a href="/job-families/security/security-leadership#vice-president-vp-security">VP, Product Security</a></td>
+</tr>
+<tr>
+<td>Jacob Jernigan</td>
+<td><a href="/job-families/security/security-leadership#senior-manager-infrastructure-security">Senior Manager, Infrastructure Security</a></td>
 </tr>
 <tr>
 <td>Paulo Pontes Martins</td>
@@ -76,15 +80,15 @@ SIRT's goal is detection and response of anomalies and security events - on the 
 
 ## Working With Us
 
-To request an infrastructure security review, please create an issue using [the security review template](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/bau/-/issues/new?issue[title]=Security%20Review%20Request%3A%20{%2B%20Service%2FFeature%20Name%20%2B}&issuable_template=production_readiness)
+To request an infrastructure security review, please create an issue using [the security review template](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/bau/-/issues/new?issue[title]=Security%20Review%20Request%3A%20{%2B%20Service%2FFeature%20Name%20%2B}&issuable_template=production_readiness)
 
 To engage with the team:
 
-1. [Create an issue](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/bau/-/issues) in our issue tracker dedicated to Business as Usual (BAU) activities and general inquiries.
-    - It is not necessary to `@mention` anyone. In case you want to mention the whole team, use the `@gitlab-com/gl-security/security-operations/infrastructure-security` handle on GitLab.com.
+1. [Create an issue](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/bau/-/issues) in our issue tracker dedicated to Business as Usual (BAU) activities and general inquiries.
+    - It is not necessary to `@mention` anyone. In case you want to mention the whole team, use the `@gitlab-com/gl-security/product-security/infrastructure-security` handle on GitLab.com.
     - You can also chat with us on Slack in the dedicated `#security-infrasec` channel or by tagging us `@infrasec-team`.
     - You can also refer to the **[InfraSec Team Wiki](https://internal.gitlab.com/handbook/security/infrastructure_security/#team-information)** (internal only) for general information about the team and current projects.
-1. The team will triage (and prioritise accordingly) all incoming request during the weekly team sync (usually happening on Tuesday).
+2. The team will triage (and prioritise accordingly) all incoming request during the weekly team sync (usually happening on Tuesday).
 
 ## How We Work
 
@@ -104,29 +108,29 @@ The team does have set of regular synchronous calls:
 
 - This [Handbook Page](/handbook/security/product-security/infrastructure-security/), which contains general information about the team
 - The [Internal Handbook](https://internal.gitlab.com/handbook/security/infrastructure_security/), which is the operational source of truth for the team. Everyone is **encouraged** to check it out for team's information
-- The [Infrastructure Security GitLab Sub-Group](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security), which contains EPICs and repositories
+- The [Infrastructure Security GitLab Sub-Group](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security), which contains EPICs and repositories
 - The [Infrastructure Security **Public** Sub-Group](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security-public), which contains publicly facing resources (e.g., Docker images, etc.)
 
 
 ### Decision Log
 
-Decisions worthy of deliberate discussion (to evaluate pros and cons with actual data) are tracked in our [Decision Log](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/issues?scope=all&state=opened&label_name[]=%E2%98%81%EF%B8%8F%20InfraSec&label_name[]=InfraSec%3A%3Adecision).
+Decisions worthy of deliberate discussion (to evaluate pros and cons with actual data) are tracked in our [Decision Log](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/issues?scope=all&state=opened&label_name[]=%E2%98%81%EF%B8%8F%20InfraSec&label_name[]=InfraSec%3A%3Adecision).
 
 To start discussing a new decision:
 
-1. [Create a new issue](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/team-charter/-/issues/new?issuable_template=decision_log) in the InfraSec Team Charter repo
-1. Select the `decision_log` template
-1. Fill the data as requested
+1. [Create a new issue](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/team-charter/-/issues/new?issuable_template=decision_log) in the InfraSec Team Charter repo
+2. Select the `decision_log` template
+3. Fill the data as requested
 
 ### Project Management
 
 We use Epics, Issues, and Issue Boards to organize our work, as they complement each other:
 
-- The single source of truth for engineering work is the [InfraSec Sub-Group in GitLab](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/epics). **All Epics will be collected at this level**.
+- The single source of truth for engineering work is the [InfraSec Sub-Group in GitLab](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/epics). **All Epics will be collected at this level**.
 - Having all projects at this level allows us to use a single list for prioritization and enables us to prioritize
 work for different services alongside each other.
-- Projects are prioritized in line with [the Roadmap](https://docs.google.com/spreadsheets/d/1wFdCaQWd6cTrXp_N9cL6UA6XVhURrcVan8TUyBbV50U/edit#gid=0) and with the [🎯 InfraSec OKRs](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/wikis/InfraSec-OKRs).
-- The [🎯 InfraSec Milestones](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/milestones/) provide a snapshot of the current progress against each quarter.
+- Projects are prioritized in line with [the Roadmap](https://docs.google.com/spreadsheets/d/1wFdCaQWd6cTrXp_N9cL6UA6XVhURrcVan8TUyBbV50U/edit#gid=0) and with the [🎯 InfraSec OKRs](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/wikis/InfraSec-OKRs).
+- The [🎯 InfraSec Milestones](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/milestones/) provide a snapshot of the current progress against each quarter.
 
 #### Team Planning
 
@@ -134,9 +138,9 @@ work for different services alongside each other.
     - 📊 [InfraSec Roadmap](https://docs.google.com/spreadsheets/d/1wFdCaQWd6cTrXp_N9cL6UA6XVhURrcVan8TUyBbV50U/edit)
     - 🎯 [InfraSec OKRs](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/wikis/InfraSec-OKRs)
 - From a **tactical point of view**, you can refer to:
-    - 🎯 [InfraSec Milestones (quarterly)](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/milestones/)
-    - 🗓 [InfraSec Epics for this quarter](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=InfraSec%3A%3Athis-quarter)
-    - 🎛 [InfraSec Initiatives Board](https://gitlab.com/groups/gitlab-com/gl-security/security-operations/infrastructure-security/-/boards/2631020) (for the tasks we are currently working on)
+    - 🎯 [InfraSec Milestones (quarterly)](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/milestones/)
+    - 🗓 [InfraSec Epics for this quarter](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=InfraSec%3A%3Athis-quarter)
+    - 🎛 [InfraSec Initiatives Board](https://gitlab.com/groups/gitlab-com/gl-security/product-security/infrastructure-security/-/boards/?label_name[]=Department%3A%3AInfraSec&label_name[]=%E2%98%81%EF%B8%8F%20InfraSec) (for the tasks we are currently working on)
 
 #### Project Ownership
 
@@ -165,13 +169,13 @@ to define software designs through design docs.
 These design doc documents the high level implementation strategy and key design decisions with emphasis on the trade-offs that were considered during those decisions.
 
 To start discussing a new design:
-1. Create a new MR in the [InfraSec Team Charter repo](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/team-charter/-/tree/main/designs) with the Design proposal. You can use [this template](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/team-charter/-/blob/main/.gitlab/issue_templates/design_doc.md) as a reference for the structure of the Design doc.
-1. Fill the data as requested
-1. Mark other elements of the team as reviewers
+1. Create a new MR in the [InfraSec Team Charter repo](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/team-charter/-/tree/main/designs) with the Design proposal. You can use [this template](https://gitlab.com/gitlab-com/gl-security/product-security/team-charter/-/blob/main/.gitlab/issue_templates/design_doc.md) as a reference for the structure of the Design doc.
+2. Fill the data as requested
+3. Mark other elements of the team as reviewers
 
 ## Additional Resources
 
 ### Onboarding
 
-- Infrastructure Security Team [Onboarding Template](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/team-charter/-/blob/master/onboarding/onboarding_template.md)
+- Infrastructure Security Team [Onboarding Template](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/team-charter/-/blob/master/onboarding/onboarding_template.md)
 - [InfraSec Entitlements template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_security/role_security_engineer_infrastructure_security.md)
