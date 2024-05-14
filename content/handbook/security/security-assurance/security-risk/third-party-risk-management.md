@@ -32,6 +32,38 @@ This procedure applies to all third party providers that access, store, process 
 | Business or System Owner |  [Describe the nature of the Third Party Relationship](/handbook/finance/procurement/#step-2-submit-your-zip-request) <br> Work with the Security Risk team to facilitate the TPRM review, to include remediation activities <br>* Ensure the responsiveness of the third party as part of the security review requirements |
 | Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
+## Security Considerations for Vendor Selection
+
+Security is a top priority in GitLab's vendor selection process, and GitLab is committed to partnering with vendors who prioritize the protection of sensitive data and maintain robust security measures. As such, Security Risk thoroughly evaluates each vendor's security practices, including their adherence to industry standards, compliance with relevant regulations, and health of their BitSight security ratings. GitLab's aim is to establish partnerships with vendors who share our commitment to maintaining the highest standards of security to safeguard GitLab's data and uphold the trust of our stakeholders. Below are some examples of how Security Risk evaluates vendors of different types and some recommendations for vetting vendors when making purchasing decisions. 
+
+<details>
+<summary markdown="span">Software as a Service (SaaS)</summary>
+
+When considering new software to address business needs and objectives, see below for some high level recommendations to leverage when evaluating the software's capabilities. 
+
+ - Does the vendor support Single Sign-On (SSO) to enable team members to authenticate using their network credentials? 
+   - Security requires that software has the ability to integrate with Okta or Google Oauth for authentication. 
+ - Does the vendor complete an annual independent third party audit of their security controls to show adherence to industry standards and best practices?
+   - Security requires software vendors complete and share an annual independent third party audit of their security controls. Some examples of these are a [SOC 2 or ISO 27001 certification](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#acceptable-third-party-attestations). 
+ - Does the vendor require an independent third party penetration test of their systems to identify and remediate vulnerabilities and weaknesses?
+   - Security requires that vendors conduct annual independent penetration testing on all systems supporting their SaaS solution and attest to the remediation or mitigation of any High or Critical findings. 
+
+</details> 
+
+<details>
+<summary markdown="span">Professional Services</summary>
+
+See below for high level recommendations to leverage when evaluating professional services vendors. 
+
+ - How will GitLab data be shared with the vendor?
+   - Security recommends using GitLab's Google Drive to share sensitive data with external parties. Email attachments are not a secure method of sharing data outside of GitLab. 
+ - Does the professional services vendor adhere to strict human resource security practices including acceptable use and data protection training, background screenings, and regular security awareness trainings?
+   - Security requires that all members of the professional services team acknowledge acceptable use and information security policies and are subjected to background screenings upon hire and annual security awareness trainings.
+ - Does the professional services vendor allow contractors or consultants to perform work from personal devices?
+   - Security requires that all personnel accessing GitLab data perform work via corporate owned devices with centrally managed endpoint security controls. 
+
+ </details> 
+
 ## Procedure
 
 Where GitLab controls, owns, or is otherwise responsible for data, the diagram below depicts TPRM procedures based on the [Data Classification]({{< ref "data-classification-standard" >}}) of data shared with the third party.
