@@ -117,7 +117,7 @@ OKRs can be changed or closed during the quarter if they are completed, or as ou
 
 To support our teams, and commitments made to internal and external customers, team members in Govern are encouraged to create a PTO issue before going on leave lasting a week or longer.
 
-The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](/handbook/paid-time-off/) policy.
+The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](/handbook/people-group/paid-time-off/) policy.
 
 We use an internal issue tracker as team member PTO is not public information, and a PTO template
 - [PTO issue list](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=PTO&first_page_size=20)

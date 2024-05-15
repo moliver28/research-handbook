@@ -26,7 +26,7 @@ twitter_creator: "@gitlab"
 
 ## Equipment
 
-[The Digital Production department](/handbook/marketing/brand-and-product-marketing/content/digital-production/) has organized several options for GitLab employees who need to record quality video content. Links have been provided to give a reference of the specificiations of each item (i.e. what it looks like). However, these are offered as examples only. Before you make your purchase, **[review GitLab's policy on spending company money](/handbook/spending-company-money/)**. If you are unable to locate a suitable option for an item you wish to order, contact the Digital Production department about substutions.
+[The Digital Production department](/handbook/marketing/brand-and-product-marketing/content/digital-production/) has organized several options for GitLab employees who need to record quality video content. Links have been provided to give a reference of the specificiations of each item (i.e. what it looks like). However, these are offered as examples only. Before you make your purchase, **[review GitLab's policy on spending company money](/handbook/finance/spending-company-money/)**. If you are unable to locate a suitable option for an item you wish to order, contact the Digital Production department about substutions.
 
 ## Standard Desk Package
 

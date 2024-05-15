@@ -117,7 +117,7 @@ One way to create inclusion among your remote staff is to remove time zone bias 
 
 Take initiative to operate [asynchronously]({{< ref "./asynchronous" >}}) whenever possible. This shows care and consideration for those who may not be in the same time zone, are traveling outside of their usual time zone, or are [structuring their day]({{< ref "./people#creating-a-more-efficient-day" >}}) around pressing personal or local commitments.
 
-For example, you can record and share team [meetings]({{< ref "./meetings" >}}) using GitLab Issues and Merge Requests rather than sending texts, calls, or Slack messages. Be aware of local holidays, personal vacation statuses, and encourage others to default to [documentation](/handbook/documentation) rather than pressuring team members to be online outside of their working hours.
+For example, you can record and share team [meetings]({{< ref "./meetings" >}}) using GitLab Issues and Merge Requests rather than sending texts, calls, or Slack messages. Be aware of local holidays, personal vacation statuses, and encourage others to default to [documentation](/handbook/product/ux/technical-writing/documentation/) rather than pressuring team members to be online outside of their working hours.
 
 ## How do I assess culture fit remotely?
 
@@ -252,7 +252,7 @@ Emna G., founder and CEO at [Veamly](https://veamly.com/), spoke with GitLab's [
 >
 > If you put structure around this, and you document it, you eliminate the guilt and the fear of missing out. — *Emna G., founder and CEO at [Veamly](https://veamly.com/)*
 
-It's important for leadership to set the tone, but it's even more important to [document](/handbook/documentation) what will define your culture. Each time a scenario arises where there is no clearly defined answer, look to your company values to determine the answer, and then document.
+It's important for leadership to set the tone, but it's even more important to [document](/handbook/product/ux/technical-writing/documentation/) what will define your culture. Each time a scenario arises where there is no clearly defined answer, look to your company values to determine the answer, and then document.
 
 Documentation is a shared benefit, and is something that should be embraced by all members of the organization. While it may feel inefficient to document nuances related to culture, creating good habits around this will ensure that culture is as strong in the future as it was in a company's infancy.
 

@@ -1,7 +1,7 @@
 ---
 title: GitLab Summit
 aliases:
-- /handbook/company/culture/contribute/
+- /handbook/company/culture/summit/
 ---
 
 Over the years, GitLab has hosted GitLab Summits, global team member events. During past times, they events have sometimes between called Contributes.

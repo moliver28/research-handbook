@@ -73,7 +73,7 @@ If your eligibility status changes or you have been exempted from Incident Manag
 
 ### Starting your on-call shift
 
-Before your shift starts, verify your Slack alerts are working and your PagerDuty contact is up to date. Send a test page to make sure that you are receiving alerts correctly. You may get assigned to an [on-call handover issue](https://about.gitlab.com/handbook/on-call/#customer-emergency-on-call-rotation) if your shift start time
+Before your shift starts, verify your Slack alerts are working and your PagerDuty contact is up to date. Send a test page to make sure that you are receiving alerts correctly. You may get assigned to an [on-call handover issue](/handbook/engineering/on-call/#customer-emergency-on-call-rotation) if your shift start time
 lines up with the start of the 8 hour SRE on-call shifts.
 
 When your on-call shift starts, you will get notification(s) that your shift is starting (email or text, depending on your PagerDuty preferences). You will also get a Slack notification about being added to the `@incident-managers` user group.
@@ -168,7 +168,7 @@ A **Professional Plus - Responder Role** is sufficient to be an Incident Manager
 
 ### What if I am not available for my assigned shift?
 
-Shifts are assigned based on the working hours that you selected during onboarding. Our current process is to [swap shifts](/handbook/on-call/#swapping-on-call-duty) by asking for someone to take this shift in the `#imoc_general` Slack channel.
+Shifts are assigned based on the working hours that you selected during onboarding. Our current process is to [swap shifts](/handbook/engineering/on-call/#swapping-on-call-duty) by asking for someone to take this shift in the `#imoc_general` Slack channel.
 
 ### What if I work a shift on a weekend or holiday?
 

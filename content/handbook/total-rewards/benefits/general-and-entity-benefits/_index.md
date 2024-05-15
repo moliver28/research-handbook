@@ -43,7 +43,7 @@ GitLab will [pay for the items you need to get your job done](https://about.gitl
 
 ## Equity Compensation
 
-[Equity Compensation](/handbook/stock-options/) is offered to most GitLab team members. We strongly believe in team member ownership in our Company. We are in business to create value for our shareholders and we want our team members to benefit from that shared success.
+[Equity Compensation](/handbook/total-rewards/stock-options/) is offered to most GitLab team members. We strongly believe in team member ownership in our Company. We are in business to create value for our shareholders and we want our team members to benefit from that shared success.
 
 ## Life Insurance
 
@@ -91,7 +91,7 @@ The [Growth and Development page]({{< ref "growth-and-development" >}}) covers i
 GitLab Summit (formerly known as Contribute) is our annual GitLab team event where we get together to interact with one another and cultivate our community. Since our team is scattered all over the globe, we try to plan a different location each year. Summit is an optional event, so team members should not feel pressured to attend.
 
 From our first Summit in Serbia to our virtual event in 2020, team members from around the world have built friendships and experienced the values in person.
-For more information and compilations of our past events check out our [previous Contributes](/handbook/company/culture/contribute/previous/).
+For more information and compilations of our past events check out our [previous Contributes](/handbook/company/culture/summit/previous/).
 
 ## Business Travel Emergency Assistance Program
 
@@ -138,9 +138,9 @@ GitLab offers an Employee Assistance Program to all team members via [Modern Hea
 
 The following incentives are available for GitLab team members:
 
-- [Discretionary Bonuses](/handbook/incentives/#discretionary-bonuses)
-- [Referral Bonuses](/handbook/incentives/#referral-bonuses)
-- [Visiting Grant](/handbook/incentives/#visiting-grant)
+- [Discretionary Bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses)
+- [Referral Bonuses](/handbook/total-rewards/incentives/#referral-bonuses)
+- [Visiting Grant](/handbook/total-rewards/incentives/#visiting-grant)
 
 ## All-Remote
 

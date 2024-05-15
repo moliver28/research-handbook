@@ -27,11 +27,9 @@ In each CDF review, it's recommended to select an improvement area to focus on u
 
 ## CDF for Individual Contributor Product Managers
 
-Below, you'll find the CDF framework and potential discussion topics for [Product Managers](/job-families/product/product-manager/).
-
 ### Competencies
 
-Product Managers must be able to demonstrate a variety of skills across our CDF. We provide additional career development guidance by listing [competencies](/handbook/competencies/) for each CDF category in order of priority.
+Product Managers must be able to demonstrate a variety of skills across our CDF. We provide additional career development guidance by listing [competencies](/handbook/people-group/competencies/) for each CDF category in order of priority.
 
 ### Product Roadmap & Product Led Growth
 
