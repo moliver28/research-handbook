@@ -27,6 +27,7 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 ### Exit Criteria
 
 The charter of this working group is to:
+
 - Successfully decompose the Secure/Govern datasets to a separate database in order to reduce pressure on the primary GitLab.com DB and assist in future scalability and stability concerns.
 - Evaluate the impact of the decomposition on Self-Managed instances regarding feature parity, performance/hardware requirement, improvements for different size of DBs, and admin's effort to support.
 - Provide an effective migration guide and/or tooling to assist Self-Managed instances in the decomposition of their local CI and Secure/Govern databases in alignment with GitLab.com
@@ -64,7 +65,6 @@ Key results we'd like to achieve within the scope of the working group to ensure
 | Core | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard Gitlab operations, such as Projects, Namespaces, Users and others.  | | |
 | Secure/Govern | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard Gitlab operations, such as Vulnerabilities, Dependencies (SBOM), Security Findings, Policies and more. | | |
 
-
 ### Overview
 
 There is high impetus within GitLab to reduce pressure on the primary GitLab database server. The Database and Scalability teams have been taking a variety of steps to mitigate the ongoing pressure on the database server to maintain the growth and stability of GitLab in the long term. One such endeavour is Cells, however, there is desire to provide further mitigation in the short to medium term. Decomposition of the Secure/Govern dataset from the primary database was identified as a strong possible solution, similar to how the CI decomposition aided in this regard in the past.
@@ -74,7 +74,6 @@ Decomposition of the Secure/Govern dataset is a significant engineering effort d
 As this has become a scalability and stability concern for all of GitLab.com, as well as significantly constraining the ability of the Secure/Govern stages to implement new features due to continuously growing performance concerns, it is necessary to form an organised effort to effectively achieve this project.
 
 We have the benefit of being able to lean heavily on the prior art and experience of the database-scalability working group who decomposed the CI database to achieve this goal. However, some key challenges we may face is the scale of the existing Secure/Govern codebase, and the need to maintain ongoing operations with (no/minimal) disruption to our customer base. A full GitLab.com downtime is heavily disfavoured due to our uptime SLA agreements with customers, but the scale of our operations may mean that some processes for this kind of decomposition may not be feasible.
-
 
 ### Benefits
 
@@ -132,7 +131,6 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
         6. If successful, globally rollout usage of the decomposed database for the full featureset.
 2. Cleanup legacy data from the GitLab core database.
 
-
 #### Proposal B: Physical Replication
 
 1. Determine acceptability of a full downtime for GitLab, or a temporary suspension of use for the entire Secure/Govern featureset to prevent dataloss. (Alternatively, notify users that there will be dataloss related to this featureset after a certain Date and Time)
@@ -165,7 +163,6 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 
 1. Epic/Issue: https://gitlab.com/groups/gitlab-org/-/epics/13043
 1. DRI: Gregory Havenga
-
 
 ## Roles and Responsibilities
 
