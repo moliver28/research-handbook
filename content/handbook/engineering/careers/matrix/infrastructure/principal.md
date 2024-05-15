@@ -15,7 +15,7 @@ We recognize the [four staff engineer archetypes](https://staffeng.com/guides/st
 
 1. Takes responsibility for the group's standards and processes and actively leads cross-team improvements.
 1. Keeps up to date on the direction of the department and connects the group to this direction. Works closely with EMs and PMs to ensure individual team technical direction is connected to the department direction. 
-1. Maintains awareness of company, department and group goals and uses to decide when to go deep on a topic and when to stay shallow.
+1. Maintains awareness of company, department and group goals and uses them to decide when to go deep on a topic and when to stay shallow.
 1. Represents the group across the company through their own behaviour, and by connecting group direction to other relevant teams. Actively looks for opportunities to connect engineers and engineering goals to their group's teams and goals. 
 1. Recognises, surfaces, and actively seeks to resolve team friction or misalignments and removes blockers that could impact the group or department. 
 1. Takes responsibility for the group's impact on availability, performance, and operational overhead. 
