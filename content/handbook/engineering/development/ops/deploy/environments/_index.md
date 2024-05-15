@@ -40,11 +40,11 @@ The following members of other functional teams are our stable counterparts:
 
 Some dedicated Slack channels:
 
-* Agent for Kubernetes: [`f_agent_for_kubernetes`](https://gitlab.slack.com/archives/f_agent_for_kubernetes)
-* Terraform backend: [`f_terraform_backend`](https://gitlab.slack.com/archives/f_terraform_backend)
-* [Terraform provider](https://gitlab.com/gitlab-org/terraform-provider-gitlab): [`terraform-provider`](https://gitlab.slack.com/archives/terraform-provider)
-* Auto DevOps: [`f_autodevops`](https://gitlab.slack.com/archives/f_autodevops)
-* Environments Detail Page: [`#f_environment_details_page`](https://gitlab.slack.com/archives/C04N1P3B3UL)
+- Agent for Kubernetes: [`f_agent_for_kubernetes`](https://gitlab.slack.com/archives/f_agent_for_kubernetes)
+- Terraform backend: [`f_terraform_backend`](https://gitlab.slack.com/archives/f_terraform_backend)
+- [Terraform provider](https://gitlab.com/gitlab-org/terraform-provider-gitlab): [`terraform-provider`](https://gitlab.slack.com/archives/terraform-provider)
+- Auto DevOps: [`f_autodevops`](https://gitlab.slack.com/archives/f_autodevops)
+- Environments Detail Page: [`#f_environment_details_page`](https://gitlab.slack.com/archives/C04N1P3B3UL)
 
 ## Insights
 
@@ -250,7 +250,7 @@ For Merge Requests, it's up to the author and the project they are contributing 
 Our goal is to move towards a continuous delivery model so the team completes tasks regularly, and keeps working off of a prioritized backlog of issues. We default to team members self-scheduling their work:
 
 - Team members self-assign issues from the [Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/4176401?not[label_name][]=environments%3A%3Aparked) that are in the `workflow:ready for development` column and has the current milestone.
--  `~Deliverable` issues take priority over any other work, as they are the main focus of each milestone and inform our [say-do ratio](#say-do-ratio).
+- `~Deliverable` issues take priority over any other work, as they are the main focus of each milestone and inform our [say-do ratio](#say-do-ratio).
 - Once a team member has completed their assigned issues, they are expected to go to the Milestone Board and assign themselves to the next unassigned issue from the current milestone.
 - If there are no more issues in the current milestone, engineers are expected to assign themselves to the next unassigned `workflow:ready for development` issue.
 - The issues on the board are in priority order based on importance (the higher they are on the list, the higher the priority). This order is set by the product manager.
@@ -542,10 +542,6 @@ to easily share and document the setup with the entire group. You can use [this]
 GitLab group to host the project.
 
 If the infrastructure is temporary, you can manage it with whichever tools you prefer.
-
-Currently hosted projects:
-
-- [arm64-runners](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/infra/arm64-runners): IaC for arm64-based GitLab runners for some projects requiring it due to the lack of arm64-based shared runners.
 
 ### Example/Demonstration projects
 

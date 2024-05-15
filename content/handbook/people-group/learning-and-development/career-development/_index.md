@@ -26,7 +26,6 @@ Navigate to career development resources located throughout the GitLab handbook:
   </div>
 </div>
 
-
 ### Career Growth Opportunities
 
 <div class="flex-row" markdown="0">
@@ -104,7 +103,6 @@ A live speaker series hosted in March 2022 with [Lavinia Mehedintu](https://www.
 1. 20% of your development should come from interactions with others.  This includes having a mentor, being a mentor, coaching, participating in communities of practice, providing and receiving feedback, serving as a leader in your organization, etc.
 1. 10% of your development should come from training, including classes, seminars, webinars, podcasts, reading, conferences, etc. GitLab offers a [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) to help with this.
 
-
 ### Career Development versus Career Mobility
 
 GitLab team members [should not feel pressure to climb the career ladder]({{< ref "1-1#key-points" >}}). Skill development and promotion are not mutually exclusive. [Unique experience influences problem solving](/handbook/company/culture/inclusion/) and views of success.
@@ -114,7 +112,7 @@ You are encouraged to learn and develop skills without pressure to in turn seek 
 | Topic | Definition | Examples |
 | ----- | ----- | ----- |
 | Development | Choosing and building a career path that accelerates professional growth. | Learn new skills, complete a course, be a mentee |
-| Mobility | Career mobility involves both lateral (promotions) and horizontal (transfers) movement along a career path. Mobility involves applying experience and skills as leverage for a new role. | Mentor to learn leadership skills with the intention of applying for a manager role; Complete a job shadow or internship and upskill to transfer to a new team.
+| Mobility | Career mobility involves both lateral (promotions) and horizontal (transfers) movement along a career path. Mobility involves applying experience and skills as leverage for a new role. | Mentor to learn leadership skills with the intention of applying for a manager role; Complete a job shadow or internship and upskill to transfer to a new team. |
 
 ### Career Development and Wellbeing
 
@@ -219,7 +217,6 @@ Team Members: Take the [Support your team with Career Conversations course in Le
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/support-your-team-with-career-conversations" class="btn btn-primary" style="width:200px;margin:5px;">Take the Course</a>
   </div>
 </div>
-
 
 #### Manager responsibilities
 

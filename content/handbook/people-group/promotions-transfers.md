@@ -85,7 +85,7 @@ At GitLab, we promote on a twice per year basis. This means that there is **one 
 | ---------- | ----- |
 | [Planning]({{< ref "promotions-transfers#planning" >}}) | Managers and leaders to review their respective teams to determine promotion readiness, business need, and timeline for the upcoming quarters and project promotions. |
 | [Calibration]({{< ref "promotions-transfers#calibration" >}}) | The calibration exercise is an opportunity for leaders (sync or async) to review projected promotions on a twice per year basis. This is an opportunity to create visibility and ensure consistency in who we are promoting and why. |
-| [Processing]({{< ref "promotions-transfers#process-for-managers-requesting-a-promotion" >}}) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse).
+| [Processing]({{< ref "promotions-transfers#process-for-managers-requesting-a-promotion" >}}) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse). |
 
 **Managers do not need to submit promotions that are part of the twice per year calibration process via Workday or Greenhouse. These will be processed by the PBP, Total Rewards, and People Connect team following calibration and Division leader approval.** Below is the timeline for FY24:
 
@@ -135,16 +135,16 @@ This section is a high-level summary (3-5 sentences) of achievements that demons
 
 Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Promotion documents should include 1-2 core points per value of evidence supporting values alignment.
 
-- Please review our guidance on [DIB behaviours](https://handbook.gitlab.com/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](https://handbook.gitlab.com/handbook/values/#diversity-inclusion)
-
+- Please review our guidance on [DIB behaviours](/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](/handbook/values/#diversity-inclusion)
 
 ##### Business Results
 
-As our most important [value](https://handbook.gitlab.com/handbook/values/#hierarchy), results are at the core of everything we do.
+As our most important [value](/handbook/values/#hierarchy), results are at the core of everything we do.
 
 Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member’s performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0).
 
 For each result, please use the following structure:
+
 - Project/accomplishment
     - Example: Creation of the company-wide Org Design Playbook
 - Team member role
@@ -163,7 +163,6 @@ We ask that the structure above be followed for business results consistently to
 1. **Highlight impact**: Directly connect our accomplishments to business goals and ties impact and role in projects to next level performance expectations.
 2. **Cross-functionally understandable**: The story-telling structure facilitates more cross-functional understanding of what the team member did, why it matters, and the impact it drove for the business.
 3. **Add objectivity**: Adds objectivity through focus on the contribution, impact, and relevance, in a consistent format, decreasing opportunity for unconscious bias.
-
 
 ##### Business Justification
 
@@ -237,6 +236,7 @@ Please review the [Compensation Program Budget]({{< ref "compensation-review-cyc
 ## Promotions Processed Outside of the Twice Per Year Promotion Calibration Process
 
 Certain types of promotions can be handled outside of the Twice Per Year Promotion Calibration process:
+
 1. Application to a new, approved headcount in Greenhouse:
     - Internal candidates go through an interview process as defined further in the Greenhouse Promotions/Transfers section.
 1. Promotions stemming from individuals in [interim/acting roles]({{< ref "promotions-transfers#interim-and-acting-roles" >}}).
@@ -458,7 +458,6 @@ In the event that a team member is working in an acting capacity in a role that 
   **Note:** If the Hiring Manager and acting team member mutually agree to move forward with consideration for the role, the position is at the same or lower [job grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) as their current role, the position is within the same division, and the position is not a people management position, a formal interview process may not be required. If the Hiring Manager prefers to not include an interview process, they must connect with their aligned People Business Partner (PBP) to ensure they are supportive. This interview exception possibility exists due to the unique experience team members in acting positions have to demonstrate their ability to be successful in the position over time.
 1. After the team member officially moves into the open role, a backfill position will be created.
 
-
 ## Demotions
 
 Demotions are not always considered a step backwards.  It may be an opportunity for a team member to acquire new skills or to move to a role that more closely aligns with their area of interest. To demote one of your direct reports, a manager should follow the following steps:
@@ -482,11 +481,12 @@ Job title specialties are used to indicate a stage, group and/or a specific focu
 Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they thing through job title specialties to ensure a consistent approach.
 
 To easily access a report for what current job title specialties are for your team, you can follow these steps:
+
 - Log into Workday
 - Type "My Team Job Title Specialties" in the search bar
 - Click "OK" for your organization
 
-#### For Development, Infrastructure, and Quality departments:
+#### For Development, Infrastructure, and Quality departments
 
 - Who should have a specialty:
     - ICs: Job grade 11 and below should  should have Stage and/or primary group (if applicable)
@@ -500,7 +500,7 @@ To easily access a report for what current job title specialties are for your te
         - Note: In situations where there are two groups, pick the primary group.
     - Ensure all specialty information is in the `Job Title Specialty` field as opposed to the `Job Title Specialty (Multi-Select)` field.
 
-#### For Customer Support department:
+#### For Customer Support department
 
 - Who should have a specialty:
   - ICs: Job Grade 9 and below to indicate the focus of the role being Global, Federal or Readiness (if applicable)
@@ -648,8 +648,6 @@ While the [Career Mobility Issue](/handbook/people-group/promotions-transfers/#c
 
 NOTE: Although the Total Rewards and People Connect Team may have visibility into promotions or transfers due to the administration of updating information as part of their roles, they should not communicate with the team member about their promotion/transfer until an announcement has been made._
 
-
-
 #### For People Success & Talent Acquisition Team
 
 Vacancies will be posted internally using the Greenhouse internal job board for at least 3 business days. If a role is not posted internally there must be a business case documented in the Workday documents of the team member who received the new role. See [Department Transfers]({{< ref "promotions-transfers#department-transfers" >}}) for additional details.
@@ -666,6 +664,7 @@ A [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-oper
 Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 Or, if the team member already has access to the systems and tools needed, the manager can open 'Becoming a GitLab Manager' and 'Interview Training' issues that are housed within the [Training Project](https://gitlab.com/gitlab-com/people-group/Training/-/issues/?sort=created_date&state=opened&first_page_size=100) in GitLab.
+
 - To open the 'Becoming a GitLab Manager' and 'Interview Training' issues visit the Training project in GitLab -> Issues -> New Issue.
 - Under 'Description' select the specified project template and then select Create Issue at the bottom.
 
@@ -709,22 +708,22 @@ This section describes the steps required for promoting or transferring employee
 
 **Note** These steps are in addition to all other steps required for promotions and transfers in partnership with the People team.
 
-#### For the Current Sales Managers:
+#### For the Current Sales Managers
 
 1. Determine the right path for the promotion and/or transfer. Our [promotion process]({{< ref "promotions-transfers" >}}) can be found in the handbook. For transfers, please confirm if there is an open role with your Sales recruiting team. Ensure necessary stakeholders and processes are followed in advance of processing a promotion and/or transfer.
 1. Open a [Territory Change Request issue](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/issues/new?issuable_template=Territory_Change_Request) to inform Sales Operations of the change so they can update Salesforce and the Territory Mapping SSOT.
 
-#### For Sales Recruiting:
+#### For Sales Recruiting
 
 1. Open a [Utilizing Backfill Headcount issue](https://gitlab.com/gitlab-headcount/sales-headcount/-/blob/master/.gitlab/issue_templates/utilizing_backfill_headcount.md) to inform Sales Finance of the promotion/transfer so they can update Adaptive.
 1. Tag the appropriate members of the Sales Finance and Sales Commissions team as indicated in the 'Approval' section of the issue template.
 
-#### For Sales Finance:
+#### For Sales Finance
 
 1. Update the team member's profile in Adaptive to account for the promotion/transfer.
 1. Partner with leadership and the People team on whether we need to open a requisition to backfill the empty role from which the team member was promoted/transferred.
 
-#### For Sales Commissions:
+#### For Sales Commissions
 
 1. Every month, identify new hires, promotions, and transfers in Workday.
 1. Create a monthly issue to notify the Sales Strategy and Analytics team of headcount changes. The Sales Strategy and Analytics team assigns quotas[^1] to sales employees within 4 weeks of the employee's hire/promotion/transfer date.

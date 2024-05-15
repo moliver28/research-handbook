@@ -99,4 +99,3 @@ In this section we list the companies that have been inspired by GitLab with the
 ## Do you know of other companies that were inspired by GitLab but are not listed here?
 
 Let us know by [opening an issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues) to include them in this page, with the company's name and their website so that we can contact them and list their experience here as well, to inspire others. Don't forget to add the label 'handbook'.
-

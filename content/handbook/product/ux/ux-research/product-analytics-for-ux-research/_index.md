@@ -3,9 +3,9 @@ title: "Product Analytics for UX Research"
 description: "This page provides useful information and best practices for team members interested in using product analytics as part of user experience research projects."
 ---
 
-This page aims to serve as a resource for team members interested in leveraging data we collect about GitLab usage in order to perform or inform user experience research. It provides background information on what GitLab’s internal structures are, what data is available and where, and some best practices and tips to help team members get started. 
+This page aims to serve as a resource for team members interested in leveraging data we collect about GitLab usage in order to perform or inform user experience research. It provides background information on what GitLab’s internal structures are, what data is available and where, and some best practices and tips to help team members get started.
 
-While the information here is meant as a shortcut for people doing UX Research, it only scratches the surface of GitLab’s capabilities with data. For more in-depth information, see the [Data team’s handbook](https://handbook.gitlab.com/handbook/business-technology/data-team/).
+While the information here is meant as a shortcut for people doing UX Research, it only scratches the surface of GitLab’s capabilities with data. For more in-depth information, see the [Data team’s handbook](/handbook/business-technology/data-team/).
 
 ## Understanding the Product Analytics Landscape
 
@@ -23,30 +23,31 @@ _In order of most to least relevant to UX Researchers:_
 #### Useful Links
 
 - [Tableau workbooks](https://docs.google.com/document/d/10JoLjHSFCUvSzXXN_Fv4CFxj1yu07n5zZoAHka17qV4/edit#heading=h.unc286iee2a) (A list of workbooks UX Researchers have found useful)
-- [Tableau handbook page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/) (The GitLab handbook page on Tableau)
-- [Analytics relevant to each product stage](https://handbook.gitlab.com/handbook/product/product-analysis/crash-course/#learn-about-analytics-relevant-product-stage-topics-grouped-by-section) (A GitLab handbook page for product stage resources)
+- [Tableau handbook page](/handbook/business-technology/data-team/platform/tableau/) (The GitLab handbook page on Tableau)
+- [Analytics relevant to each product stage](/handbook/product/product-analysis/crash-course/#learn-about-analytics-relevant-product-stage-topics-grouped-by-section) (A GitLab handbook page for product stage resources)
 - [GitLab Metrics Dictionary](https://metrics.gitlab.com/) (A website listing all the metrics we collect from Service Ping and Snowplow)
-- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) (Internal handbook page with examples of commonly used data models) 
+- [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) (Internal handbook page with examples of commonly used data models)
 - [DBT](https://dbt.gitlabdata.com/#!/overview) (Explains the underlying code and column definitions of all GitLab data sets)
 
 ![Simplified usage data stack](datastack_simple.png)
-The above illustration shows a simplified version of GitLab's usage data stack, based on [this document.](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#i-classfas-fa-cubes-fa-fw-stylecolorrgb25210938-font-size85em-aria-hiddentrueiour-data-stack)
+The above illustration shows a simplified version of GitLab's usage data stack, based on [this document.](/handbook/business-technology/data-team/platform/#i-classfas-fa-cubes-fa-fw-stylecolorrgb25210938-font-size85em-aria-hiddentrueiour-data-stack)
 
 #### Getting Access
-Complete an [access request to use Tableau](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#tableau-online-access). Some UX Researchers have Explorer roles, and some have Viewer roles - if you want to see the differences in capabilities between the two roles, [check this handbook page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/#capabilities). 
 
-To view some dashboards and data, you will need SAFE access, but others are available without. If you do find yourself unable to access information you need, complete a [SAFE-related access request](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/safe-data/#accessing-a-safe-dashboard) for Tableau. 
+Complete an [access request to use Tableau](/handbook/business-technology/data-team/platform/tableau/#tableau-online-access). Some UX Researchers have Explorer roles, and some have Viewer roles - if you want to see the differences in capabilities between the two roles, [check this handbook page](/handbook/business-technology/data-team/platform/tableau/#capabilities).
 
-NOTE: Obtaining SAFE access to user data will put you on the [designated insiders list](https://handbook.gitlab.com/handbook/legal/publiccompanyresources/#designated-insiders), which will require you to obtain pre-clearance in order to sell any GitLab shares you own, as well as restrict the trading window in which you can do so.
+To view some dashboards and data, you will need SAFE access, but others are available without. If you do find yourself unable to access information you need, complete a [SAFE-related access request](/handbook/business-technology/data-team/platform/safe-data/#accessing-a-safe-dashboard) for Tableau.
+
+NOTE: Obtaining SAFE access to user data will put you on the [designated insiders list](/handbook/legal/publiccompanyresources/#designated-insiders), which will require you to obtain pre-clearance in order to sell any GitLab shares you own, as well as restrict the trading window in which you can do so.
 
 #### Teams to collaborate with
 
-There’s a [more complete explanation](https://handbook.gitlab.com/handbook/business-technology/data-team/#how-data-works-at-gitlab) of the various groups that are responsible for data at GitLab, but here are two teams you’ll want to know about if you’re performing UX Research.
+There’s a [more complete explanation](/handbook/business-technology/data-team/#how-data-works-at-gitlab) of the various groups that are responsible for data at GitLab, but here are two teams you’ll want to know about if you’re performing UX Research.
 
-[Product Data Insights (PDI)](https://handbook.gitlab.com/handbook/product/product-analysis/) – As the name suggests, this team is responsible for helping folks in Product use data to gain insights. Typically, there is a team member assigned to your area of the product (find your partner on the product data insights team [here](https://handbook.gitlab.com/handbook/product/product-analysis/)).
-The Product Data Insights team can take requests (via an [issue](https://handbook.gitlab.com/handbook/product/product-analysis/#issue-intake)) for certain kinds of analysis, they can help you find the data you’re looking for and are generally a great resource for asking questions during [Office Hours](https://handbook.gitlab.com/handbook/product/product-analysis/#office-hours) or over [Slack](https://handbook.gitlab.com/handbook/product/product-analysis/#channels). They are well-versed in Tableau.
+[Product Data Insights (PDI)](/handbook/product/product-analysis/) – As the name suggests, this team is responsible for helping folks in Product use data to gain insights. Typically, there is a team member assigned to your area of the product (find your partner on the product data insights team [here](/handbook/product/product-analysis/)).
+The Product Data Insights team can take requests (via an [issue](/handbook/product/product-analysis/#issue-intake)) for certain kinds of analysis, they can help you find the data you’re looking for and are generally a great resource for asking questions during [Office Hours](/handbook/product/product-analysis/#office-hours) or over [Slack](/handbook/product/product-analysis/#channels). They are well-versed in Tableau.
 
-[Analytics Instrumentation](https://handbook.gitlab.com/handbook/engineering/development/analytics/analytics-instrumentation/) - This group is focused on building out the instrumentation capabilities of GitLab and its team members, including [increased instrumentation coverage](https://gitlab.com/groups/gitlab-org/analytics-section/analytics-instrumentation/-/epics/6) across the product and scaling the instrumentation system we use to handle more use cases. This is a group to contact if you run into a block where something you want to do isn’t currently available (or you’re not sure and the Product Data Insights team doesn’t know).
+[Analytics Instrumentation](/handbook/engineering/development/analytics/analytics-instrumentation/) - This group is focused on building out the instrumentation capabilities of GitLab and its team members, including [increased instrumentation coverage](https://gitlab.com/groups/gitlab-org/analytics-section/analytics-instrumentation/-/epics/6) across the product and scaling the instrumentation system we use to handle more use cases. This is a group to contact if you run into a block where something you want to do isn’t currently available (or you’re not sure and the Product Data Insights team doesn’t know).
 
 The Analytics Instrumentation team members are the DRIs for data collection across both GitLab.com and Self-Managed. They own Service Ping and Snowplow. They are the ones to go to for questions like:
 - How do I instrument a new statistic for self-managed?
@@ -60,28 +61,28 @@ The Analytics Instrumentation team members are the DRIs for data collection acro
 
 As mentioned above, the analytics instrumentation team has efforts underway to gain more coverage, ensure new features are instrumented before release, and to work on the backlog of non-instrumented features.
 
-Is it possible to associate user level behavior in our GitLab.com data to our Snowplow events (i.e., can we track a single user’s behavior)? ([Source](https://handbook.gitlab.com/handbook/product/product-analysis/data-model-cheat-sheet/#faqs-1))
+Is it possible to associate user level behavior in our GitLab.com data to our Snowplow events (i.e., can we track a single user’s behavior)? ([Source](/handbook/product/product-analysis/data-model-cheat-sheet/#faqs-1))
 
 _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user identifiers are not. However, it is possible to join Snowplow and GitLab.com data at the namespace (group/project) level (i.e., track more broadly)._
 
 #### Common metrics and segments that GitLab tracks
 
-- Monthly active users (MAU) 
+- Monthly active users (MAU)
   - Examples: MAU per stage, per group, per section
 - Performance indicators (PI)
   - Examples: MAU, conversion rate, category maturity advancement
 - User segments
   - Examples: Geo Region, # of seats, industry vertical
-- Product tiers 
+- Product tiers
   - Examples: Free, Premium, Ultimate
-- Product sections: 
+- Product sections:
   - Examples: Analytics, CD, CI, Dev, Sec
 - Delivery
   - Examples: SaaS, Paid SaaS, Self-Managed
 
 ## Working with Product Data Insights team
 
-[PDI How to work with us](https://handbook.gitlab.com/handbook/product/product-analysis/#working-with-us) is a great resource on how to open up a product data insight request.
+[PDI How to work with us](/handbook/product/product-analysis/#working-with-us) is a great resource on how to open up a product data insight request.
 
 1. **Get access to:**
   - The right tools (usually Tableau online is sufficient)
@@ -90,7 +91,7 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
   - Which user criteria / segment?
   - Which metrics?
   - Which components or features (if applicable)?
-3. **Check with your PM (and/or your PDI counterpart) to determine:** 
+3. **Check with your PM (and/or your PDI counterpart) to determine:**
   - Is this tracked today?
     - This can be difficult to determine, try asking in #data or by working with your PM and PDI counterpart.
     - If not, consider reaching out to the Analytics Instrumentation team or ask in #data.
@@ -101,14 +102,14 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
 #### How can I get help?
 
 - If you ever get stuck or have a question, please ask for help in the #data Slack channel.
-- Attend the [Product Data Insights team’s office hours](https://handbook.gitlab.com/handbook/product/product-analysis/#office-hours).
+- Attend the [Product Data Insights team’s office hours](/handbook/product/product-analysis/#office-hours).
 - [Tableau Training Videos](https://www.tableau.com/learn/training)
 
 ## Example UXR-PDI use case
 
 - Finding quantitative data to triangulate with qualitative research findings (e.g., prioritizing active, commonly used flows; understanding scale and scope of usage).
   - Example: [What % of new users are software developers vs. other job titles?](https://10az.online.tableau.com/#/site/gitlab/views/Gitlab_comUserSignups/GrowthMetrics?:iid=1)
-- How many (or what percent) of users (Monthly Active Users, MAU) did X action? 
+- How many (or what percent) of users (Monthly Active Users, MAU) did X action?
   - Example: [How many (and %) of SaaS - Ultimate accounts (not users), used code review features within the last 3 months?](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTMetricsDemographics/AccountDemographicDashboard2?:iid=1)
 - How many (or what percent) of users went from point A to point B? (i.e., funnel analysis)
   - Example: [GitLab .com registration funnel analysis](https://10az.online.tableau.com/#/site/gitlab/views/SaaSRegistrationFunnel/RegistrationFunnelAnalyses?:iid=1)
@@ -142,7 +143,7 @@ For more information (or if something’s not listed above):
 There are many dashboards available by searching around in Tableau. Here’s a list of a few that UX team members have created or found:
 
 - [A list of all dashboards created by the Product Data Insights team](https://10az.online.tableau.com/#/site/gitlab/search/workbooks?search=peterson%20hervas%20raisinghani%20neuberger%20petersen%20braza&tag=Product)
-- [PDI Dashboards, Analysis, & Insights handbook page](https://handbook.gitlab.com/handbook/product/product-analysis/dashboards-analysis-insights/)
+- [PDI Dashboards, Analysis, & Insights handbook page](/handbook/product/product-analysis/dashboards-analysis-insights/)
 - [Firmographic Product Metric Usage Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTMetricsDemographics/README?:iid=1)
 - [Centralized Product Usage Metrics Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting?:iid=1)
 - [Customer Request Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/CustomerIssueDashboard/README?:iid=1)

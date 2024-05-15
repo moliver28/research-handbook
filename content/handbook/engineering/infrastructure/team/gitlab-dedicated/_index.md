@@ -253,7 +253,7 @@ click I "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/
 click J "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/298"
 ```
 
-*Note* If you are not seeing the diagram, make sure that you have accepted all cookies.
+_Note_ If you are not seeing the diagram, make sure that you have accepted all cookies.
 
 #### Epic Owners
 
@@ -329,7 +329,7 @@ The status for all work relating to GitLab Dedicated is maintained in the descri
 
 #### Status Update Process
 
-Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in SaaS Platforms](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-saas-platforms):
+Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in SaaS Platforms](/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-saas-platforms):
 
 1. **By Wednesday at 21:00 UTC** the DRI for a project is expected to update the status block in the epic description to:
     1. Format for weekly update: **Date of Update** (YYYY-MM-DD)

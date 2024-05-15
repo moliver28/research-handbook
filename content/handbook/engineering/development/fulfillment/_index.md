@@ -31,65 +31,30 @@ In addition to the [Fulfillment Product Direction](https://about.gitlab.com/dire
 
 ## Team members
 
-### Fulfillment Sub-department People Leaders
+See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section for a list of team members for the Fulfillment section and sub-groups. 
 
-{{< members-by-role role="Engineering Manager, Fulfillment|Director of Engineering, Fulfillment" >}}
-
-### Fulfillment:Subscription Management Team
-
-{{< members-by-role role="Fulfillment:Subscription Management Team" >}}
-
-### Fulfillment:Purchase Team
-
-{{< team-by-departments "Fulfillment:Purchase Team" >}}
-
-### Fulfillment:Provision Team
-
-{{< team-by-departments "Fulfillment:Provision Team" >}}
-
-### Fulfillment:Utilization Team
-
-{{< team-by-departments "Fulfillment:Utilization Team" >}}
-
-### Fulfillment:Fulfillment Platform Team
-
-{{< team-by-departments "Fulfillment:Fulfillment Platform Team" >}}
 
 ## Stable counterparts
 
-The following members of other functional teams are our stable counterparts.
+### Sales & Go-To-Market
 
-{{< stable-counterparts role="Fulfillment|Fulfillment:" manager-role="Senior Engineering Manager, Fulfillment, Interim Strategy and Operations Lead, China|Fullstack Engineering Manager, Fulfillment:Fulfillment Platform|Fullstack Engineering Manager, Fulfillment:Provision|Fullstack Engineering Manager, Fulfillment:Utilization" manager-role="Backend Engineering Manager, Gitaly|Fullstack Engineering Manager (Interim), Fulfillment:Purchase|Fullstack Engineering Manager, Fulfillment:Subscription Management Team" >}}
+{{< member-and-role-by-gitlab "cnodari" "jrabbits" "gsodhi" "james_harrison" >}}
 
-### Fulfillment Security
+### Finance & IT
 
-{{< member-and-role-by-gitlab "ankelly" >}}
-
-### Enterprise Applications
-
-{{< member-and-role-by-gitlab "jesssalcido" >}}
-
-### Sales & Go-To-Market (GTM)
-
-{{< member-and-role-by-gitlab "asipala" >}}
-
-The Sales & Go-To-Market stable counterpart will serve as the GTM DRI for strategic cross-functional intiatives, new feature and system updates, and bug resolution. They will ensure that an end-to-end approach is taken into account when communicating with the field and users. Fulfillment PMs can engage the counterpart for new GTM work by using @mention in GitLab as the primary method to submit and prioritize tasks.
-
-### Billing and Accounts Receivable
-
-{{< member-and-role-by-gitlab "s_mccauley" "annapiaseczna" >}}
-
-### Customer Success
-
-{{< member-and-role-by-gitlab "dsakamoto" >}}
+{{< member-and-role-by-gitlab "s_mccauley" "annapiaseczna" "andrew_murray" "smundy" "lmendonca2" "achampagne1" >}}
 
 ### Support Engineering
 
-{{< member-and-role-by-gitlab jlyttle mdunninger kslaats >}}
+{{< member-and-role-by-gitlab "jlyttle" "mdunninger" "kslaats" >}}
 
 ### Office of the CEO
 
 {{< member-and-role-by-gitlab "ipedowitz" >}}
+
+### Product Technical Program Management
+
+{{< member-and-role-by-gitlab "cersoz" >}}
 
 ## Project management process
 
@@ -702,8 +667,6 @@ These dashboards are designed to give an insight, to everyone working in a featu
 If there is a licensing issue (from support or sales) that requires escalation to product management or engineering, please create an issue via the process documented on the [support handbook page](/handbook/support/internal-support/#regarding-licensing-and-subscriptions) under `Assistance with License Issue`.  Please do this instead of escalating in Slack or other methods.
 
 Fulfillment leaders in product management and engineering will subscribe to the `License Issue High ARR` label so they can be aware of them when they are created.  This can be done in via a [label search](https://gitlab.com/gitlab-com/support/internal-requests/-/labels?subscribed=&search=license%20issue%20high%20arr) and then clicking on 'subscribe' for the `License Issue High ARR' label.
-
-The Program Manager, Cloud Licensing (currently Wayne Haber) will be primarily responsible for making the e-group aware in #e-group of licensing issues that may have a high ARR impact.  The backup for the Program Manager, Cloud Licensing will be the Group Product Manager, Fulfillment (currently Jerome Ng).
 
 ### Retrospectives
 

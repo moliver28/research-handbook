@@ -114,5 +114,3 @@ For more information, read about the [sick time policies and procedures in Franc
 ## Tracking Working Hours
 
 - Team members located in France are required to track their working hours via the Mihi platform. If you do not have access please reach out to the Global Upside team for further assistance. Please include people-connect@gitlab.com and leaves@gitlab.com in the CC field.
-
-

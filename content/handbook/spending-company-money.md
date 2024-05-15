@@ -12,11 +12,9 @@ title: "Spending Company Money"
 1. File your expense report in a timely manner, as expense claims over 90 days from purchase date will not be reimbursed unless approved by your Manager.  The sooner it is submitted, the sooner you will get reimbursement.
 1. If team members knowingly submit expenses for reimbursement for personal purchases that are not covered in the expense policy, this is a violation of our [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d).
 
-
 ## Policy Links and Resources
 
 This table captures all of the links for different policies that are documented around using Company money. This includes information of when to use our expense tool Navan, when to use a virtual credit card and when to get a PO from Zip.
-
 
 | Policy Name | Owner | Description |
 | --------------- | ----- | ----- |

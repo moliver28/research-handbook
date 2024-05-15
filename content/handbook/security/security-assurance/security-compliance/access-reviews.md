@@ -7,7 +7,7 @@ controlled_document: true
 
 GitLab's user access review is an important control activity required for internal and external IT audits, helping to minimize threats and provide assurance that the right people have the right access to critical systems and infrastructure. This procedure details process steps and provides control owner guidance for access reviews.
 
-### Benefits to the organization:
+### Benefits to the organization
 
 - Reduces security risk
 - Identifies dormant and/or disabled accounts
@@ -26,7 +26,6 @@ Security Compliance performs Access Reviews for Tier 1 and Tier 2 systems in sco
 
 Tier 3 applications as defined in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) are not in scope, however, all system owners are highly encouraged to perform a minimum of an annual terminated access review for their owned systems using this process as a guide.
 
-
 ## Roles & Responsibilities
 
 | Role | Responsibility |
@@ -41,9 +40,7 @@ Tier 3 applications as defined in the [tech stack](https://gitlab.com/gitlab-com
 
 [Authomize]({{< ref "security-assurance#core-tools-and-systems-1" >}}) is GitLab's User Access Review tool. It is used to facilitate all user access reviews. By default, all team members will receive access to Authomize upon onboarding. To access Authomize, team members can select the Authomize tile in Okta. If you are assigned an access review, please follow the runbook linked below to complete the access review.
 
-
 ## Access Review Procedure
-
 
 **Terminated Users**
 
@@ -61,7 +58,7 @@ In the event access is identified to no longer be required, open an [Access Remo
 
 If you have any questions or require assistance with completing an access review, please [contact the GitLab Security Compliance team]({{< ref "../security-compliance" >}}).
 
-### Annual Access Review Cadence:
+### Annual Access Review Cadence
 
 - Tier 1
     - Quarterly Terminated User Access Reviews
@@ -92,6 +89,7 @@ If appropriateness of access cannot be verified as part of the review or a syste
 For any accounts that require any removal of access (full removal or individual roles/privileges), a lookback review may be required. A lookback review is a review of activity for the period of time which the access was inappropriate.
 
 Example scenarios where a lookback may be required:
+
 - A terminated team member is identified during the Access Review as still being an active user in a system, prior to the account being removed GitLab would perform a lookback to confirm that the terminated user did not use the access after their final day.
 - A team member was identified as having administrative access to a system that was not appropriate for their role but the user did require some level of access to the system, a lookback would be performed to validate that the administrative access was not used in an inappropriate manner.
 - A team member was identified as having a role in a system which conflicted with their job responsibilities and their access in other systems allowing them to circumvent established control points and processes, a lookback would be performed to validate the user didn't use their access to circumvent established processes and controls in place.
@@ -100,6 +98,7 @@ In cases where there is a disagreement between system owner and manager as to wh
 Engage the appropriate personnel (i.e system owner) to perform a lookback assessment to validate the account(s) did not use the access inappropriately.
 
 It may not be necessary to perform a lookback in all cases, for example:
+
 - A person transferred between non-conflicting departments, continued to support their previous role during transition, and the access review is a chance to remove the access now that the transition is complete
 - A role is being removed as the access granted by that role is duplicative to access granted as part of another role that will remain
 - A user no longer uses the access that they have to a system but the access isn't a risk for the user to have and could be reinstated via an Access Request if a need for the access ever arises again
@@ -152,7 +151,7 @@ The following fields are the most comprehensive to assist in performing a thorou
 - If a query was used to generate the list, please provide the query along with a screenshot of system used to pull data, e.g. PostgreSQL query window, making sure screenshot evidences date/time query was run and raw row count. This will be used to evidence completeness of the population.
 - To evidence completeness and accuracy, where technically feasible, include a row count or a screen shot of the row count or the generated file hash.
 
-#### How to provide a desktop timestamp screenshot:
+#### How to provide a desktop timestamp screenshot
 
 1. Please make sure that your workstation system clock (date and time) is visible in your screenshots.
 

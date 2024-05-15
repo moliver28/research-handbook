@@ -37,7 +37,7 @@ When AMM creates BAT's, it uses all the BT's associated to any Contact on the ac
 | ----- | ----- |
 | Relates to the Lead & Contact | Relates to the Contact, Account, and Opportunity Objects
 | Does not relate to the Opportunity Object | Does not relate to the Lead Object |
-| Revenue is not associated to a Buyer Touchpoint |	Assigned revenue when NET ARR of Opportunity is set |
+| Revenue is not associated to a Buyer Touchpoint |    Assigned revenue when NET ARR of Opportunity is set |
 
 ### Channel and Subchannel
 

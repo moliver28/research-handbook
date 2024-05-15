@@ -115,8 +115,8 @@ Use the [product sections](/handbook/product/categories/) handbook page to deter
 
 **OPERATIONAL EMERGENCY ISSUES ONLY**
 
-1.  **GitLab.com**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue within **15 minutes**.
-1.  **Self-managed**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue on a best-effort basis. (SLO will be determined at a later time.)
+1. **GitLab.com**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue within **15 minutes**.
+1. **Self-managed**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue on a best-effort basis. (SLO will be determined at a later time.)
 1. In the case of a tie between GitLab.com and self-managed issues, GitLab.com issue takes priority.
 1. In the case of a tie between production (GitLab.com, self-managed) and engineering issues, production issue takes priority. The preferred action is to either backout or rollback to the point before the offending MR.
 
@@ -238,7 +238,7 @@ There is additional information regarding weekend shifts, which can be found in 
 
       These summary items should be in written format in the following locations:
 
-        - _Existing_ threads in [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4)
+        - *Existing* threads in [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4)
         - Incident tracking issues
 
       This shall be completed at the end of shifts to hand over smoothly.

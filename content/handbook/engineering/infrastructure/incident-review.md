@@ -24,19 +24,15 @@ We follow the incident review process for any of the following events:
 1. A user-facing high severity incident (sev1 or sev2).
 1. Any incident where a `~"review-requested"` label has been added to the incident issue.
 
-For all reviews, it is *not* necessary to complete all sections in the review template.
+For all reviews, it is _not_ necessary to complete all sections in the review template.
 For the sake of expediency, you can complete areas of the review which highlight what you, as the review author, want to bring to the attention of the larger organization and which drive the generation of corrective actions related to the incident.
+
+**It is expected that an incident review will be completed in 2 weeks from opening.**
 
 ### Process for Asynchronous Reviews
 
 1. In the incident issue, open a new Incident Review by clicking on the link in the section for "References and helpful link" in the incident summary.
-2. Inform participants in the incident Slack channel that a review issue has been created, for example:
-
-```
-@here An incident review issue was created for this incident with USER assigned as the DRI.
-If you have any review feedback please put in on ISSUE_LINK.
-```
-3. Assign the issue to the DRI. It is expected that the review will be completed **within seven working-days of the incident**.
+2. Assign the issue to the DRI. It is expected that the review will be completed **within 10 working-days of the incident**.
 
 ### Process for Synchronous Reviews
 

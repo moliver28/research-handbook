@@ -84,7 +84,6 @@ Crucially, when there are issues with onboarding, new team members may not feel 
 1. [Tools that enable remote teams]({{< ref "./resources#tools-that-enable-remote-teams" >}})
 1. [3 things I learned in my first month at GitLab](https://about.gitlab.com/blog/2016/11/02/three-things-i-learned-in-my-first-month-at-gitlab)
 
-
 ### Social requirements for all-remote onboarding
 
 Starting a new job can be overwhelming. If a new hire is used to working in a traditional office, adjusting to the remote work lifestyle might be a challenge. Having socialization as part of the onboarding process can help team members feel more connected to their new teams, even though they don't share an office.
@@ -204,7 +203,6 @@ Feel free to adopt or remix our values for your remote-first team.
 
 In the spirit of [transparency]({{< ref "values#transparency" >}}), GitLab's People Connect Team will evaluate the onboarding process by having new employees fill out an [Onboarding Survey](https://docs.google.com/forms/d/1sigbOqWKuEtGyLROghvivgWErRnfbUI1_-57XhAwu_8/edit).
 
-
 ## High-touch and low-touch flexibility
 
 The beauty of an all-remote setting is that onboarding can be as high-touch or low-touch as a new hire wishes. Those who prefer visual learning can engage in a series of video calls and screenshare sessions to walk through each element of their onboarding issue. Those who prefer more self-learning can benefit from thorough documentation and readily-available resources for self-guided learning.
@@ -220,6 +218,6 @@ The onboarding process should be empowering. At GitLab, if a new hire gets stuck
 
 Learn more about our approach to [All-Remote Learning and Development]({{< ref "./learning-and-development#how-do-you-onboard-new-team-members" >}}).
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

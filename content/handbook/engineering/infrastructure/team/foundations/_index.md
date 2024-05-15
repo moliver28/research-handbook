@@ -54,7 +54,7 @@ Edge services are services that sit at the [network edge](https://www.cloudflare
 
 ## Getting Assistance
 
-Should you require assistance from the Foundations team, please open an issue in the [Production engineering tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues)
+Should you require assistance from the Foundations team, please open an issue in the [Production engineering tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-foundations)
 
 Apply one of the following templates:
 
@@ -66,7 +66,7 @@ Apply one of the following templates:
   - Slack: `@infra-foundations`
   - GitLab: `@gitlab-org/production-engineering/foundations`
 
-We rotate triage duties weekly between team members as part of our [interrupt rotation](#interrupt-rotation). 
+We rotate triage duties weekly between team members as part of our [interrupt rotation](#interrupt-rotation).
 
 ### Priority Levels for Requests
 
@@ -81,7 +81,7 @@ We rotate triage duties weekly between team members as part of our [interrupt ro
 
 We endeavor to triage incoming requests twice per week. If you have an issue that is very urgent and requires immediate attention (i.e. Priority 1), please also send us a link to the request issue in our Slack channel: [#g_infra_foundations](https://gitlab.slack.com/archives/C0313V3L5T6).
 
-## Considerations for tooling and maintaining our services.
+## Considerations for tooling and maintaining our services
 
 - We support [dogfooding](/handbook/engineering/development/principles/#dogfooding) when it makes sense to do so.
   - We consider the scale at which we run gitlab.com and the additional engineering effort required to dogfood, weighed against the capacity and other priorities of the team.
@@ -139,8 +139,8 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 
 ### Standup
 
-We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel. 
-  - Monday questions include: 
+We have Geekbot automated checkins on Mondays and Fridays in the [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel.
+  - Monday questions include:
     - What are your top priorities this week?
     - What did you accomplish last week?
     - What else is on your todo list for the week?
@@ -165,7 +165,7 @@ If a team member is unavailable for more than 2 days of the week they are on tri
 
 The team member on rotation is responsible for:
 
-- Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&first_page_size=20) throughout the week and ensuring new issues related to Foundations:
+- Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&label_name%5B%5D=workflow-infra%3A%3ATriage&label_name%5B%5D=team%3A%3AFoundations&first_page_size=100) throughout the week and ensuring new issues related to Foundations:
   - Have the correct labels (team, priority, workflow, any other applicable category labels)
   - Have a [weight](#issue-weighting).
   - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
@@ -203,7 +203,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2" 
+/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2"
 \`\`\`
 
 ## References

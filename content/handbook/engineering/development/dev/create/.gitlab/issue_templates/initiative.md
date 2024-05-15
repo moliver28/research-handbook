@@ -1,19 +1,27 @@
-# Overview
+## Overview
+
 ### Description
-Provide a concise description that outlines why the initiative exists (**purpose**), what specific achievements it aims for (**goals**), and why it holds significance or value (**importance**). The goal is to communicate the initiative's essence, objectives, and the broader impact it seeks to achieve. 
+
+Provide a concise description that outlines why the initiative exists (**purpose**), what specific achievements it aims for (**goals**), and why it holds significance or value (**importance**). The goal is to communicate the initiative's essence, objectives, and the broader impact it seeks to achieve.
+
 ### Stakeholders
+
 Stakeholders, external entities like Customer Success, Customer Support, and Marketing Leads, provide input and represent broader business needs. In contrast, the Team, comprising internal members such as Tech Lead, Engineers, and Product Managers, is actively engaged in executing tasks and achieving the goals of the initiative. Recognizing the distinction is crucial for clear communication, avoiding role overlap, and fostering effective collaboration as stakeholders guide the initiative's strategic direction, while the Team focuses on hands-on implementation, contributing to the initiative's overall success.
 
-# Objectives
+## Objectives
+
 This initiatives objectives are tied to GitLab OKRs (Objectives and Key Results) through the alignment of this initiave's goals with broader organizational objectives. GitLab's OKR framework typically includes high-level objectives that align with the company's strategic priorities. These objectives, on the other hand, are more granular and are designed to contribute to the achievement of these higher-level OKRs. Each Initiative should have at least 1 related OKR.
 
 ### OKRs (Objectives and Key Results)
+
 1. OKR title goes here ([link to current OKR for the quarter](#))
 2. OKR title goes here ([link to current OKR for the quarter](#))
 3.OKR title goes here ([link to current OKR for the quarter](#))
 
-# Team
+## Team
+
 ### Roles and Responsibilities
+
 List team members along with their specific roles and responsibilities, establishing accountability and coordination.
 
 | Team Member      | Role                 | Responsibilities                              |
@@ -24,7 +32,7 @@ List team members along with their specific roles and responsibilities, establis
 | Team Member 4    | Product Manager      | Milestone planning, coordination, reporting  |
 | Team Member 5    | SRE      |  Ensuring the reliability and performance of the system  |
 
-# Exit Criteria
+## Exit Criteria
 
 Once all the exit criteria are fulfilled, the respective initiative will be concluded and closed out.
 
@@ -40,7 +48,7 @@ Once all the exit criteria are fulfilled, the respective initiative will be conc
 | [ ]       | Security review completed    | May 1, 2025       | May 5, 2025       |
 | [ ]       | Stakeholder approval obtained | May 10, 2025      | May 15, 2025      |
 
-# Timeline
+## Timeline
 
 | Start Date         | Expected End Date  | Actual End Date    | Status  (Not Started, In Progress, Complete)    | Epic [Link to Epic]                | Issue [Link to Issue]                   | Assignee Mention                          |
 |--------------------|-------------------|------------------|-------------|----------------------------------|----------------------------------------|------------------------------------------|
@@ -51,7 +59,8 @@ Once all the exit criteria are fulfilled, the respective initiative will be conc
 | April 30, 2025     | May 10, 2025       | -                | Not Started | -                                | [User Acceptance Testing](#) | @[Assignee 5]                            |
 | May 10, 2025       | May 20, 2025       | -                | Not Started | -                                | [Ensure All Issues Resolved](#) | @[Assignee 6]                     |
 
-# Risk Management
+## Risk Management
+
 Identify potential risks and strategies for mitigation, preparing the team for unforeseen challenges.
 
 | Risk Description                          | Likelihood   | Impact       | Mitigation Plan                                       |
@@ -59,8 +68,11 @@ Identify potential risks and strategies for mitigation, preparing the team for u
 | Potential scope creep                     | Medium       | High         | Regular scope reviews and communication with stakeholders to manage expectations. |
 | Key team member availability              | Low          | High         | Cross-training team members to ensure knowledge sharing and having backup plans for critical roles. |
 | Technical dependencies on third-party tools| High         | Medium       | Continuous monitoring of third-party tools, and having alternative solutions in place. |
-# Communication Plan
+
+## Communication Plan
+
 ## Effective Communication Channels
+
 - **Team Meetings:**
  - Regularly scheduled meetings to discuss progress, challenges, and upcoming tasks.
  - **Frequency:** Weekly on Mondays at 10 AM UTC.
@@ -82,16 +94,19 @@ The preference is to use get with the product and dog food the product and then 
 ## Metrics/Dashboards/Charts
 
 #### Metrics
+
 1. [Tableau Chart 1](#)
 1. [Tableau Chart 1](#)
 1. [Tableau Chart 1](#)
 
 #### Monitoring
+
 1. [Grafana Board 1](#)
 1. [Kibana Graph 1](#)
 
 
 ## Labels
+
 Establish a labeling system for improved organization and tracking.
 
 | Label Name       | Description                              | When to Apply                            | Applied By        |
@@ -103,21 +118,31 @@ Establish a labeling system for improved organization and tracking.
 | Documentation    | Flags tasks requiring documentation      | Throughout the development process      | Developers        |
 
 Remember, the specific labels and their usage may vary depending on your initiative's workflow and requirements. It's essential to tailor them to fit the needs and processes of your team.
-# Quality, Security, SRE, Technical Writers
+
+## Quality, Security, SRE, Technical Writers
+
 Create separate Epics for Quality, Security, SRE, TW or any other counterparts you need to complete the effort, ensuring focused collaboration in each area.
 
 | Start Date         | Expected End Date  | Actual End Date    | Counterpart                  | Epic  Title                                         | Exit Criteria                                    |
 |--------------------|-------------------|-------------------|-----------------------|---------------------------------------------------|--------------------------------------------------|
-| January 15, 2025   | February 20, 2025 | March 5, 2025     | Quality               | [Enhance and ensure the overall quality of the product through rigorous testing and QA processes. ](#) | Achieved desired test coverage, no critical bugs, and improved code quality. |
-| February 1, 2025   | March 15, 2025    | March 25, 2025    | Security              | [Implement and strengthen security measures to safeguard the integrity and confidentiality of the system. ](#) | Implemented required security protocols, conducted successful penetration tests. |
+| January 15, 2025   | February 20, 2025 | March 5, 2025     | Quality               | [Enhance and ensure the overall quality of the product through rigorous testing and QA processes.](#) | Achieved desired test coverage, no critical bugs, and improved code quality. |
+| February 1, 2025   | March 15, 2025    | March 25, 2025    | Security              | [Implement and strengthen security measures to safeguard the integrity and confidentiality of the system.](#) | Implemented required security protocols, conducted successful penetration tests. |
 | March 1, 2025      | April 5, 2025     | April 15, 2025    | SRE                   | [Focus on Site Reliability Engineering (SRE) practices to enhance system stability, performance, and availability.](#) | Achieved agreed-upon system reliability metrics and improved incident response. |
 | April 1, 2025      | May 5, 2025       | May 15, 2025      | Documentation         | [Improve and maintain comprehensive documentation for better understanding and ease of collaboration.](#) | Updated documentation with new features, clear guidelines, and improved user manuals. |
-# Feedback
+
+## Feedback
+
 ## Feedback Gathering
+
 Set up an Epic for both internal and external feedback, promoting continuous improvement.
-# Project Team Meetings
+
+## Project Team Meetings
+
 ## Regular Meetings
+
 - Meeting Agenda
 - Meeting Recordings
+
 ## Retrospective
+
 Add a link to the retrospective issue for this initiative here. All initiatives should have a retrospective issue.

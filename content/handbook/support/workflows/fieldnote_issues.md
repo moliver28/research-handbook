@@ -72,9 +72,9 @@ Creating a Fieldnote issue does not necessarily signal to other engineers that y
   | Key sequence | What it does |
   | -- | -- |
   | `/` | searches within GitLab for a string |
-  | `?` | show keyboard shortcuts
+  | `?` | show keyboard shortcuts |
   | `i` | creates a new ***I***ssue |
-  | `e`| ***E***dit issue Description
+  | `e`| ***E***dit issue Description |
   | `r` | ***R***eply (add a comment) |
   | `r ▲` (up arrow)| ***R***eply to thread |
   | `l` | change ***L***abels |

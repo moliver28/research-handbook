@@ -41,6 +41,15 @@ The document linked above is only available to GitLab team members.
 1. 14 On-Survey Demographic Questions
 1. 2 Open-Ended Questions
 
+**FY25 Great Place to Work Survey Results**
+
+GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 4th year in a row in the US in May 2024 and was recognized as a top employer where team members are proud to work.
+
+1. 87% average of all statements
+1. 93% of team members say GitLab is a Great Place to Work
+
+[Read more about the survey results](https://docs.google.com/presentation/d/1Sh9Q_rPBz3vO4HgvIkC574esC2F7UI5C_g3tOjddwm0/edit#slide=id.g123a13deda8_0_405).
+
 **FY24 Great Place to Work Survey Results**
 
 GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 3rd year in a row in the US in May 2023 and was recognized for our outstanding company culture.
@@ -187,7 +196,7 @@ The goal of the Summit is to build trust through social connections. This trust 
 
 To best determine how effective we are at achieving the goal of Summit is to gauge team member perceptions before and after the event.
 
-#### We ran two surveys:
+#### We ran two surveys
 
 - Pre-Summit: January 9, 2024 to January 19, 2024
 - Post-Summit: March 15, 2024 to April 5, 2024
@@ -202,9 +211,6 @@ In an effort to ensure team member confidentiality is upheld, only managers with
 ### Survey Results
 
 Team members can access Summit Pulse Survey results [here](https://docs.google.com/presentation/d/1OPOwu9JZxq4CoAiUAOMPZ-yXH99TPMPXObfzVMIWlto/edit#slide=id.g1d24c3e4ddd_5_252)
-
-
-
 
 <details>
   <summary markdown="span">Previous Years</summary>
@@ -314,7 +320,6 @@ GitLab was rated up to 3% higher than the industry benchmark i.e. New Tech (1,00
 | I believe action will take place as a result of this survey| 64% |
 
 GitLab scored 4% higher than the industry benchmark i.e. New Tech +1,000 2022 for the lowest scoring question surrounding positive actions, 9% higher than the benchmark regarding compensation and 2% higher regarding actions taken from the survey.
-
 
 ### FY'22 Pulse Engagement Survey
 

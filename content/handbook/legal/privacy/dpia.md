@@ -11,7 +11,6 @@ The Privacy by Design approach is based on the principles of the processing purp
 
 Privacy Reviews and DPIAs should be used to ensure that our obligations in this area are met.
 
-
 ## What is a DPIA
 
 A Data Privacy Impact Assessment (DPIA) is a way to systematically and comprehensively analyze processing and minimize data protection risks. DPIAs should consider compliance risks, but also broader risks to the rights and freedoms of individuals, including the potential for any significant social or econimic disadvantage. The focus is on the potential for harm - to individuals or to society at large, whether it is physical, material or non-material. These types of risks may lead to discrimination, identity theft or fraud, financial loss, reputational damage and other significant economic or social disadvantages. Ultimately, a DPIA is required when the level of risk to the rights and freedoms of natural persons is deemed "high".
@@ -35,6 +34,6 @@ In determining whether a DPIA is legally required for a processing activity, Git
 
 ## How are DPIAs Conducted?
 
-In the early stages of a project, when a new vendor/service provider is being considered, and at regular intervals during a project's lifecycle or the user of a vendor or service, a Privacy Review occurs. This review runs alongside the planning and development process or the selection of new vendors and tech stack tools and at key renewal dates. The outcome of the Privacy Review informs whether a full DPIA is necessary. The Privacy Team conducts these reviews in collaboration with Security to ensure that risks are identified, assessed, and managed according to GitLab's [security risk management process](https://handbook.gitlab.com/handbook/security/#risk-assessments). When a high level of risk is identified, the Privacy Team will collaborate with the relevant stakeholders to initiate and complete a DPIA. This typically will involve a Product Manager, business/technical owner, and the appropriate risk owner for the team.
+In the early stages of a project, when a new vendor/service provider is being considered, and at regular intervals during a project's lifecycle or the user of a vendor or service, a Privacy Review occurs. This review runs alongside the planning and development process or the selection of new vendors and tech stack tools and at key renewal dates. The outcome of the Privacy Review informs whether a full DPIA is necessary. The Privacy Team conducts these reviews in collaboration with Security to ensure that risks are identified, assessed, and managed according to GitLab's [security risk management process](/handbook/security/#risk-assessments). When a high level of risk is identified, the Privacy Team will collaborate with the relevant stakeholders to initiate and complete a DPIA. This typically will involve a Product Manager, business/technical owner, and the appropriate risk owner for the team.
 
 GitLab Team Members can obtain additional details about DPIAs and how they are conducted, included specifics about the workflow process [here] (https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-privacy/) (*internal only*)

@@ -26,7 +26,7 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 | `#expense-reporting-inquiries`       | For questions pertaining to [expenses](/handbook/spending-company-money/) (e.g. Navan).                                                                                                                                          |
 | `#git-help`                          | Specific questions about using Git in the terminal.                                                                                                                                                                                  |
 | `#is-this-known`                     | Get help in finding existing issues for existing problems.                                                                                                                                                                           |
-| `#it_help`                           | Create a Help Request in this channel should you have any IT general questions or trouble with setup (e.g. 2FA, accounts, etc.).                                                                                                     |                                                                             |
+| `#it_help`                           | Create a Help Request in this channel should you have any IT general questions or trouble with setup (e.g. 2FA, accounts, etc.). |
 | `#mr-buddies`                        | For any questions regarding merge requests.                                                                                                                                                                                          |
 | `#new_team_members`                  | For new GitLab team members to introduce themselves to the company and for existing team members to share updates with new hires.                                                                                                    |
 | `#new-vacancies`                  | For all GitLab team members to be aware of internal opportunities, as well as all job openings as they are listed. Please review the [referral process](/handbook/hiring/referral-process/) page to find out more about referring someone for a role.                                                                                                   |
@@ -77,7 +77,6 @@ To raise an issue with a specific team, please use below most commonly used chan
 - **`#payroll_expenses`**: For Navan Expense issues, delayed reimbursements and salaries, payslips, etc
 - **`#talent acquisition`**: For referrals based questions, candidate alignments, general talent acquisition etc
 - **`#total-rewards`**: For general questions on [Total Rewards](/handbook/total-rewards/) including compensation, benefits, and equity
-
 
 ### Channel Categories
 

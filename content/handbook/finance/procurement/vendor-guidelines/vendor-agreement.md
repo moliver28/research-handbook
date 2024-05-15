@@ -85,9 +85,7 @@ the Professional Services and/or Products as agreed to in the applicable Transac
 
 ### 6. WARRANTIES
 
-6.1 Vendor represents, warrants and covenants that: (a) the Products and Deliverables are free from defects in material and workmanship, (b) Professional Services will be provided in a professional and workman-like manner, (c) Products and Deliverables shall conform to the specifications represented by Vendor, (d) the Products and Deliverables will not infringe a third party’s intellectual property
-
-rights, (e) it will comply with the GitLab Code of Conduct, and (f) its performance under this Agreement will comply with all applicable laws, rules and regulations, including, but not limited to data privacy related laws, rules and regulations.
+6.1 Vendor represents, warrants and covenants that: (a) the Products and Deliverables are free from defects in material and workmanship, (b) Professional Services will be provided in a professional and workman-like manner, (c) Products and Deliverables shall conform to the specifications represented by Vendor, (d) the Products and Deliverables will not infringe a third party’s intellectual property rights, (e) it will comply with the GitLab Code of Conduct, and (f) its performance under this Agreement will comply with all applicable laws, rules and regulations, including, but not limited to data privacy related laws, rules and regulations.
 
 ### 7. TERMINATION
 

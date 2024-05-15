@@ -25,6 +25,7 @@ Every week Analytics Instrumentation team holds open office hours on Zoom for an
 The historical and upcoming meeting agendas can be accessed in [our agenda document](https://docs.google.com/document/d/13GHTIfaPTHKh_eYXAhhCyYHHisZQvKlVNqhlo6EyqbE).
 
 ## Incidents
+
 The process below outlines the different stages of the incident detection and resolution process and the steps to be taken by the corresponding Directly Responsible Individuals (DRIs).
 Please reach out to the [Analytics Instrumentation Group EM/PM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members) for any recommendations to changes in the process.
 
@@ -43,6 +44,7 @@ When choosing whether to declare an incident:
 2. If there's an existing incident issue with the data team still follow our process and link the data team's issue in ours.
 
 ### Incident Creation
+
 _(DRI: The team/individual detecting the issue or first team member to see the
 alert)_
 
@@ -50,7 +52,7 @@ alert)_
 1. Add appropriate label using the below guideline
     - `~"Analytics Instrumentation::Incident-High Severity"` for impending loss of data for many metrics or moderate to severe loss in business critical metrics that have a performance_indicator_type value.
     - `~"Analytics Instrumentation::Incident-Medium Severity"` for data delay.
-    - Add an appropriate bug severity as per the [definition](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
+    - Add an appropriate bug severity as per the [definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
     - For cases when there is minimal impact on data and manual steps or correction is needed, please raise a bug rather than an incident.
 1. Assign the issue to [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members).
 1. Post in the [#g_analyze_analytics_instrumentation](https://gitlab.slack.com/archives/CL3A7GFPF) slack channel and tag [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members).
@@ -58,6 +60,7 @@ alert)_
 1. Depending on your own experience either take on the role of resolution DRI, or actively tag EM and engineers in slack to find DRI for incident.
 
 ### Incident Resolution
+
 _(DRI: To be identified by EM of the Analytics Instrumentation group)_
 
 1. DRI to work on resolving the issue as quickly as possible. The first priority is to find a fix, even if that is a temporary one, before working on a long term resolution.
@@ -173,8 +176,8 @@ To keep things simple, we primarily use the [gitlab.com/gitlab-org](https://gitl
 
 We use issue boards to track issue progress on a daily basis. Issue boards are our single source of truth for the status of our work. Issue boards should be viewed at the highest group level for visibility into all nested projects in a group.
 
-* [**Analytics Instrumentation Issue Board _-by milestone_**](https://gitlab.com/groups/gitlab-org/-/boards/2774881?scope=all&not[label_name][]=product%20work&not[label_name][]=Technical%20Writing&not[label_name][]=UX)
-* [**Analytics Instrumentation Issue Board - Current Milestone**](https://gitlab.com/groups/gitlab-org/-/boards/5071664?milestone_title=Started)
+- [**Analytics Instrumentation Issue Board _-by milestone_**](https://gitlab.com/groups/gitlab-org/-/boards/2774881?scope=all&not[label_name][]=product%20work&not[label_name][]=Technical%20Writing&not[label_name][]=UX)
+- [**Analytics Instrumentation Issue Board - Current Milestone**](https://gitlab.com/groups/gitlab-org/-/boards/5071664?milestone_title=Started)
 
 
 ### Prioritization
@@ -224,8 +227,8 @@ If an issue has many unknowns where it's unclear if it's a 1 or a 5, we will be 
 
 If an initial estimate needs to be adjusted, we revise the estimate immediately and inform the Product Manager. The Product Manager and team will decide if a milestone commitment needs to be changed.
 
-* [Unweighed, upcoming issues in gitlab-org](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=group::analytics+instrumentation&weight=None&milestone_title=Upcoming&not[label_name][]=product+work)
-* [Unweighed, upcoming issues in gitlab-services](https://gitlab.com/groups/gitlab-services/-/issues?sort=created_date&state=opened&label_name[]=group::analytics+instrumentation&weight=None&milestone_title=Upcoming&not[label_name][]=product+work)
+- [Unweighed, upcoming issues in gitlab-org](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=group::analytics+instrumentation&weight=None&milestone_title=Upcoming&not[label_name][]=product+work)
+- [Unweighed, upcoming issues in gitlab-services](https://gitlab.com/groups/gitlab-services/-/issues?sort=created_date&state=opened&label_name[]=group::analytics+instrumentation&weight=None&milestone_title=Upcoming&not[label_name][]=product+work)
 
 Issues estimation examples
 
@@ -234,8 +237,8 @@ Issues estimation examples
 | 1 | The simplest possible change. We are confident there will be no side effects. | [Add missing metric definition for "counts_monthly.promoted_issues"](https://gitlab.com/gitlab-org/gitlab/-/issues/340940),<br />[Add instrumentation classes for license standard metrics](https://gitlab.com/gitlab-org/gitlab/-/issues/336340),<br />[Update Registration Features text](https://gitlab.com/gitlab-org/gitlab/-/issues/335051) |
 | 2 | A simple change (minimal code changes), where we understand all of the requirements. | [VersionApp: Add indexed on other tables that are exported](https://gitlab.com/gitlab-org/gitlab/-/issues/352019),<br />[Set values for StandardContext in Frontend](https://gitlab.com/gitlab-org/gitlab/-/issues/342993) |
 | 3 | A simple change, but the code footprint is bigger (e.g. lots of different files, or tests effected). The requirements are clear. | [Update Registration Features CTA for repository size limit](https://gitlab.com/gitlab-org/gitlab/-/issues/349307),<br />[More paid features available to free users](https://gitlab.com/gitlab-org/gitlab/-/issues/341442) |
-| 5 | A more complex change that will impact multiple areas of the codebase, there may also be some refactoring involved. Requirements are understood but you feel there are likely to be some gaps along the way. | [Spike Service Ping health dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/346431),<br />[Remove `deprecated` metric status ](https://gitlab.com/gitlab-org/gitlab/-/issues/340847) |
-| 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. | [Dispatch Snowplow events from their event definitions](https://gitlab.com/gitlab-org/gitlab/-/issues/346751),<br />[Add metrics yml files for usage data metrics definition ](https://gitlab.com/gitlab-org/gitlab/-/issues/270107) |
+| 5 | A more complex change that will impact multiple areas of the codebase, there may also be some refactoring involved. Requirements are understood but you feel there are likely to be some gaps along the way. | [Spike Service Ping health dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/346431),<br />[Remove `deprecated` metric status](https://gitlab.com/gitlab-org/gitlab/-/issues/340847) |
+| 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. | [Dispatch Snowplow events from their event definitions](https://gitlab.com/gitlab-org/gitlab/-/issues/346751),<br />[Add metrics yml files for usage data metrics definition](https://gitlab.com/gitlab-org/gitlab/-/issues/270107) |
 | 13| A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. | [Create Snowplow monitoring framework](https://gitlab.com/gitlab-org/gitlab/-/issues/331103),<br />[Enable batch counting for some individual queries](https://gitlab.com/gitlab-org/gitlab/-/issues/208923) |
 | ? | For issues where don't know how to estimate | |
 
@@ -308,7 +311,7 @@ The specific application of this timeline to the Analytics Instrumentation Miles
 | Planning & Breakdown Phase  | 4th - 17th of month N|
 | Development Phase   | 18th of month N - 17th of month N+1 |
 
-#### 1. Planning & Breakdown Phase:
+#### 1. Planning & Breakdown Phase
 
 - **Timeline**: 4th - 17th of month N
 
@@ -334,7 +337,8 @@ The specific application of this timeline to the Analytics Instrumentation Miles
     1. EM & PM: Add or remove issues based on weights and capacity.
     1. EM: Prioritizes issues in the [Issue Board by Milestone](https://gitlab.com/groups/gitlab-org/-/boards/2774881) based on the planning issue.
 
-#### 2. Development Phase:
+#### 2. Development Phase
+
 - **Timeline**: 18th of month N – 17th of month N+1.
 
 - **Tasks**:
@@ -348,15 +352,15 @@ The specific application of this timeline to the Analytics Instrumentation Miles
 Our milestone capacity tells us how many issue weights we can expect to complete in a given milestone. To estimate this we calculate the average daily weight completed by an engineer per day across the previous two milestones. This is multiplied with the actual working days available to us in a given milestone.
 
 **Previous Two Milestones:**
-* **Total weights completed:** 120 weights
-* **Available work days:** 40 days * 5 engineers = 200 days
-* **Actual work days:** 200 days - 20 days off = 180 days
-* **Average weight per engineer/day:** 120 weights / 180 days = 0,67 weights/day
+- **Total weights completed:** 120 weights
+- **Available work days:** 40 days * 5 engineers = 200 days
+- **Actual work days:** 200 days - 20 days off = 180 days
+- **Average weight per engineer/day:** 120 weights / 180 days = 0,67 weights/day
 
 **Next Milestone:**
-* **Available work days:** 21 days * 5 engineers = 105 days
-* **Actual work days:** 105 days - 10 days off = 95 actual days
-* **Maximum capacity:** 95 days * 0,67 weights/day = 64 weights
+- **Available work days:** 21 days * 5 engineers = 105 days
+- **Actual work days:** 105 days - 10 days off = 95 actual days
+- **Maximum capacity:** 95 days * 0,67 weights/day = 64 weights
 
 In this example, the next milestone’s capacity is 64 weights for the whole team. Keep in mind that neither estimations nor this calculation are an exact science. The capacity planning is supposed to help the EM and PM set realistic expectations around deliverables inside and outside time. We do not expect to hit the exact amount of predicted weights.
 
@@ -419,18 +423,18 @@ Our group holds synchronous meetings to gain additional clarity and alignment on
 
 ### Meeting rules
 
-* Agenda items should be filled in 6 hours before meetings otherwise it's possible to cancel the meeting.
-* It's fine to add agenda items during the meeting as things come up in sync meetings we might not have thought about beforehand.
-* Meetings start :30 seconds after start time
-* Whoever has the first agenda item starts the meeting.
-* Whoever has the last agenda item ends the meeting.
-* Meetings end early or on time.
-* Any missed agenda items are bumped to the next meeting.
+- Agenda items should be filled in 6 hours before meetings otherwise it's possible to cancel the meeting.
+- It's fine to add agenda items during the meeting as things come up in sync meetings we might not have thought about beforehand.
+- Meetings start :30 seconds after start time
+- Whoever has the first agenda item starts the meeting.
+- Whoever has the last agenda item ends the meeting.
+- Meetings end early or on time.
+- Any missed agenda items are bumped to the next meeting.
 
 ### Our meetings
 
-* **Analytics Instrumentation Sync:** an optional weekly meeting for the Analytics Instrumentation team to discuss any topics they please.
-* **Analytics Instrumentation Team Social:** an optional bi-weekly call for our team to hang out and socialize.
+- **Analytics Instrumentation Sync:** an optional weekly meeting for the Analytics Instrumentation team to discuss any topics they please.
+- **Analytics Instrumentation Team Social:** an optional bi-weekly call for our team to hang out and socialize.
 
 ### Knowledge sharing
 
@@ -495,4 +499,4 @@ All new team members to the Analytics Instrumentation teams are provided an onbo
 | [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/)     | An implementation guide for Service Ping      |
 | [Privacy Policy](https://about.gitlab.com/privacy/)        | Our privacy policy outlining what data we collect and how we handle it     |
 | [Analytics Instrumentation Direction](https://about.gitlab.com/direction/analytics/analytics-instrumentation/)  | The roadmap for Analytics Instrumentation at GitLab  |
-| [GitLab Performance Snowplow Dashboards ](./gitlab_com_performance_dashboard.html) | Performance dashboards for GitLab.com via Snowplow  |
+| [GitLab Performance Snowplow Dashboards](./gitlab_com_performance_dashboard.html) | Performance dashboards for GitLab.com via Snowplow  |

@@ -7,6 +7,7 @@ canonical_path: "/company/culture/ecoc/"
 GitLab is dedicated to providing a harassment-free and inclusive event experience for everyone regardless of gender identity or expression, sexual orientation, disability, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion (or lack thereof), or any other categories protected by local, state, provincial, or federal law. We do not tolerate harassment against any individual at our events in any form. GitLab takes violations of this policy seriously and event organizers will enforce our policies throughout the event.
 
 This policy extends to:
+
 - Talks
 - Forums
 - Workshops
@@ -22,6 +23,7 @@ This policy is applicable to all attendees, speakers, exhibiting partners, partn
 ## Expected behavior
 
 All participants of GitLab events must abide by the following policy:
+
 - Use the [GitLab values]({{< ref "values#credit" >}}) to guide interactions.
 - Be excellent to each other. We want events to be an excellent experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected categories.
 - Treat everyone with respect. Participate while acknowledging that everyone deserves to be here -- and each of us has the right to enjoy our experience without fear of harassment, discrimination, or condescension, whether expressed or implied.

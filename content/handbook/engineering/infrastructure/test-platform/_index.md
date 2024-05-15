@@ -20,7 +20,7 @@ description: "Test Platform Sub-Department enables successful development and de
 
 ## Mission
 
-At GitLab [Quality is everyone's responsibility](https://handbook.gitlab.com/handbook/engineering/development/principles/#quality). The Test Platform sub-department's mission is to be a world class team that enables successful development and deployment of high quality GitLab software applications with [kaizen](https://www.techtarget.com/searcherp/definition/kaizen-or-continuous-improvement) workflow efficiency, reliability, productivity.
+At GitLab [Quality is everyone's responsibility](/handbook/engineering/development/principles/#quality). The Test Platform sub-department's mission is to be a world class team that enables successful development and deployment of high quality GitLab software applications with [kaizen](https://www.techtarget.com/searcherp/definition/kaizen-or-continuous-improvement) workflow efficiency, reliability, productivity.
 
 The Test Platform sub-department does this by focusing on:
 
@@ -60,7 +60,7 @@ Integral parts of this vision:
 
 ## FY25 Direction
 
-GitLab has a [Three-Year Strategy](/handbook/company/strategy/). Our [Yearlies](/handbook/company/yearlies/) connect our 3 year strategy to our shorter-term quarterly [Objectives and Key Results (OKRs)](https://handbook.gitlab.com/handbook/engineering/infrastructure-quality/okrs/). The sub-department direction is accomplished through these objectives (OKRs).
+GitLab has a [Three-Year Strategy](/handbook/company/strategy/). Our [Yearlies](/handbook/company/yearlies/) connect our 3 year strategy to our shorter-term quarterly [Objectives and Key Results (OKRs)](/handbook/engineering/infrastructure-quality/okrs/). The sub-department direction is accomplished through these objectives (OKRs).
 
 Our focus is to support our FY25 Yearlies. They can be found in the [internal handbook](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies).
 
@@ -91,7 +91,7 @@ Test infrastructure provides stability, dependability, and testing continuity fo
 
 ### Test Coverage
 
-Given rapidly evolving technologies and our drive to provide a world class experience for GitLab users, Test Platform sub-department strives to meet the increasing demands of efficient, intelligent test coverage and confidence at scale. We aim to test the right things at the right time. We focus on exploring several new testing types and visibility improvements to increase the actionability, speed, and sophistication of our various test suites. 
+Given rapidly evolving technologies and our drive to provide a world class experience for GitLab users, Test Platform sub-department strives to meet the increasing demands of efficient, intelligent test coverage and confidence at scale. We aim to test the right things at the right time. We focus on exploring several new testing types and visibility improvements to increase the actionability, speed, and sophistication of our various test suites.
 
 - Machine learning for test gap recognition, failure analysis and classification, and failing fast.
 - New testing types: visual regression testing, chaos testing, contract testing, permissions testing.
@@ -166,6 +166,7 @@ graph TD
     click C "/handbook/engineering/infrastructure/test-platform/test-engineering-team"
     click D "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team"
 ```
+
 ### Engage with us
 
 Feel free to reach out to us by opening an issue on the [Quality Team Tasks project](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues) or contacting us in one of the Slack channels listed below.
@@ -251,9 +252,9 @@ The area a QEM is responsible for is defined in the [Product Stages and Groups](
 
 Milestones (product releases) are one of our [planning horizons](/handbook/product/product-processes/#planning-horizons), where prioritization is a collaboration between Product, Development, UX, and Quality. [DRIs](/handbook/people-group/directly-responsible-individuals/) for prioritization are based on work type:
 
-* Feature - PM
-* Maintenance - EM
-* Bug - QEM
+- Feature - PM
+- Maintenance - EM
+- Bug - QEM
 
 We use [type labels](/handbook/engineering/metrics/#work-type-classification) to track: feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types.
 
@@ -385,22 +386,22 @@ We use Fibonacci Series for weights and limit the highest number to 8. The defin
 
 ## Performance Indicators
 
-The Executive Summary of all KPIs can be found [here](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#executive-summary).
+The Executive Summary of all KPIs can be found [here](/handbook/engineering/infrastructure/performance-indicators/#executive-summary).
 
 Test Platform owns and maintains the following:
 
 ### Key Performance Indicators
 
-- [S1 Open Customer Bug Age (OCBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s1-open-customer-bug-age-ocba)
-- [S2 Open Customer Bug Age (OCBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s2-open-customer-bug-age-ocba)
-- [Team Member Retention](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#quality-team-member-retention)
+- [S1 Open Customer Bug Age (OCBA)](/handbook/engineering/infrastructure/performance-indicators/#s1-open-customer-bug-age-ocba)
+- [S2 Open Customer Bug Age (OCBA)](/handbook/engineering/infrastructure/performance-indicators/#s2-open-customer-bug-age-ocba)
+- [Team Member Retention](/handbook/engineering/infrastructure/performance-indicators/#quality-team-member-retention)
 
 ### Regular Performance Indicators
 
-- [Average duration of end-to-end test suite](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#average-duration-of-end-to-end-test-suite)
-- [Average age of quarantined end-to-end tests](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#average-age-of-quarantined-end-to-end-tests)
-- [S1 Open Bug Age (OBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s1-open-bug-age-oba)
-- [S2 Open Bug Age (OBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s2-open-bug-age-oba)
+- [Average duration of end-to-end test suite](/handbook/engineering/infrastructure/performance-indicators/#average-duration-of-end-to-end-test-suite)
+- [Average age of quarantined end-to-end tests](/handbook/engineering/infrastructure/performance-indicators/#average-age-of-quarantined-end-to-end-tests)
+- [S1 Open Bug Age (OBA)](/handbook/engineering/infrastructure/performance-indicators/#s1-open-bug-age-oba)
+- [S2 Open Bug Age (OBA)](/handbook/engineering/infrastructure/performance-indicators/#s2-open-bug-age-oba)
 
 ## Learning Resources
 

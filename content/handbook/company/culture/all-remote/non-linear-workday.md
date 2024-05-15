@@ -214,13 +214,12 @@ Non-linear workdays are focused on results. Building systems to focus on results
 
 Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "./remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

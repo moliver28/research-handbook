@@ -116,7 +116,7 @@ For Sev3 and Sev4 incidents, the EOC is also responsible for [Incident Manager R
 
 1. **As EOC, your highest priority for the duration of your shift is the stability of GitLab.com.**
 1. The SSOT for who is the current EOC is the [GitLab Production](https://gitlab.pagerduty.com/service-directory/PATDFCE) service definition in PagerDuty.
-	1. SREs are responsible for arranging coverage if they will be unavailable for a scheduled shift.  To make a request, send a message indicating the days and times for which coverage is requested to the `#reliability-lounge` Slack channel.  If you are unable to find coverage reach out to a Reliability Engineering Manager for assistance.
+    1. SREs are responsible for arranging coverage if they will be unavailable for a scheduled shift.  To make a request, send a message indicating the days and times for which coverage is requested to the `#reliability-lounge` Slack channel.  If you are unable to find coverage reach out to a Reliability Engineering Manager for assistance.
 1. Alerts that are routed to PagerDuty require acknowledgment within 15 minutes, otherwise they will be escalated to the oncall Incident Manager.
     1. Alert-manager alerts in [`#alerts`](https://gitlab.slack.com/archives/alerts) and [`#feed_alerts-general`](https://gitlab.slack.com/archives/feed_alerts-general) are an important source of information about the health of the environment and should be monitored during working hours.
     1. If the PagerDuty alert noise is too high, your task as an EOC is clearing out that noise by either fixing the system or changing the alert.
@@ -174,7 +174,7 @@ If a second incident zoom is desired, choose which incident will move to the new
 EOCs are responsible for responding to alerts even on the weekends.  Time should not be spent mitigating the incident _unless_ it is a `~severity::1` or `~severity::2`.  Mitigation for `~severity::3` and `~severity::4` incidents can occur during normal business hours, Monday-Friday.  If you have any questions on this please reach out to an [Infrastructure Engineering Manager](https://gitlab.com/gitlab-com/gl-infra/managers).
 
 If a `~severity::3` and `~severity::4` occurs multiple times and requires weekend work, the multiple incidents should be combined into a single `severity::2` incident.
-If assistance is needed to determine severity, EOCs and Incident Managers are encouraged to contact [Reliability Leadership via PagerDuty ](https://gitlab.pagerduty.com/schedules#P12EH0Z)
+If assistance is needed to determine severity, EOCs and Incident Managers are encouraged to contact [Reliability Leadership via PagerDuty](https://gitlab.pagerduty.com/schedules#P12EH0Z)
 
 #### Infrastructure Leadership Escalation
 
@@ -183,6 +183,7 @@ During a verified Severity 1 Incident the IM will page for Infrastructure Leader
 1. Overall evaluation of the incident and further validation of Severity.
 1. Assistance with further support from other teams, including those outside of Engineering (as appropriate)
 1. Posting a notice to e-group slack channel. This notice does not have to be expedited, but should occur once there is a solid understanding of user impact as well as the overall situation and current response activities.  The e-group notice should be in this format
+
 ```
 :s1: **Incident on GitLab.com**
 **— Summary —**
@@ -195,6 +196,7 @@ During a verified Severity 1 Incident the IM will page for Infrastructure Leader
  Main incident: (link to the incident)
  Slack Channel: (link to incident slack channel)
 ```
+
 1. After posting the notice, continue to engage with the incident as needed and also post updates to a thread of the e-group notification when there are material/significant updates.
 
 Further support is available from the Scalability and Delivery Groups if required. Scalability leadership can be reached
@@ -259,7 +261,7 @@ Corrective Actions should be related to the incident issue to help with downstre
 
 Corrective Actions issues in the [Reliability project](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new) should be created using the [Corrective Action issue template](https://gitlab.com/gitlab-com/gl-infra/reliability/-/blob/master/.gitlab/issue_templates/incident-corrective-action.md) to ensure consistency in format, labels and application/monitoring of [service level objectives for completion](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos)
 
-### Best practices and examples, when creating a Corrective Action issue:
+### Best practices and examples, when creating a Corrective Action issue
 
 - Use [SMART](https://en.wikipedia.org/wiki/SMART_criteria) criteria: Specific, Measurable, Achievable, Relevant and Time-bounded.
 - Link to the incident they arose from.
@@ -665,6 +667,7 @@ There are [related issue links] on the incident template that should be used to 
 
     D -.-> |for review-requested incidents| E(Incident::Review-Completed)
 ```
+
 - As soon as an incident transitions to `Incident::Resolved` the incident issue will be closed
 - All `Severity::1` incidents will automatically be labeled with `review-requested`
 

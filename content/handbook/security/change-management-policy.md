@@ -14,6 +14,7 @@ These requirements are meant to provide a level of consistency across how change
 Changes, in the context of this policy, are defined as **modifications** to the production environment and include supporting infrastructure and key corporate systems. The policy applies to changes that are made to systems assigned a [Critical System Tier]({{< ref "critical-systems" >}}) of `Tier 1 Mission Critical`, `Tier 2 Business Critical`, and `Tier 3 Business Operational`.
 
 **Modifications** include, but are not limited to:
+
 - Creation/development/implementation of new systems, integrations, features, key reports, databases, etc.
 - Changes to configurations
 - Deployment of patches or vendor supplied changes not managed by the vendor
@@ -26,7 +27,7 @@ Changes, in the context of this policy, are defined as **modifications** to the 
 While Tier 4 Administrative systems are not subject to the scope of this policy, team members are encouraged to proactively adopt the requirements established by this policy across all systems, especially if there is a good probability that a system may move from a `Tier 4 Administrative` system to a [higher system tier]({{< ref "critical-systems" >}}) handbook page.
 {{% /note %}}
 
-### Applicable Change Management Procedures:
+### Applicable Change Management Procedures
 
 In conjunction with this policy, supplemental change management procedures are formally documented to describe the standard operating procedure/workflow for executing changes in accordance with this policy and the [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}}). GitLab's current change management procedures are listed below for reference, including a brief statement on the applicable scope for each change procedure. Additional information on scope is provided directly on each respective procedure's handbook page:
 
@@ -51,6 +52,7 @@ The minimum change management requirements described below have been identified 
 ### Change Management Policy Guidance
 
 Supplemental change management procedures must incorporate the requirements called out in the sections below:
+
    - [Change Request Documentation Requirements](#change-request-documentation-requirements)
    - [Change Testing Requirements](#change-testing-requirements)
    - [Change Review and Approval Requirements](#change-review-and-approval-requirements)

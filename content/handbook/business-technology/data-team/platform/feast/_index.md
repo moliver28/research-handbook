@@ -4,16 +4,12 @@ title: "Using Feast"
 description: "How to use Feast to train ML models"
 ---
 
-----
-
-# Feast
-
 [Feast](https://docs.feast.dev/) is an open source feature store aimed to improve the process of obtaining, documenting and deploying features for data science (DS) models. In the DS Gitlab team we are currently focused on using the Offline Store (used for batch non-realtime predictions). The repository for Feast can be found [HERE](https://gitlab.com/gitlab-data/data-science-projects/feast-poc)
 
 The most important concepts to understand the Feast Offline Store are:
 
 1. [Data Sources](https://docs.feast.dev/v/master/getting-started/concepts/data-ingestion#data-source): The building blocks that contain the features that will be served. These can be specified as either a physical data source (CSV, parquet file, ...) or a SQL query. Since Feast is currently lacking a feature transformation engine, we define any feature transformations as SQL queries.
-2. [Feature Views](https://docs.feast.dev/v/master/getting-started/concepts/feature-view#feature-views): Built with data sources and metadata of fields such as descriptions, tags, field type. Feature views are used when creating a new model, can be fetched through Feast. 
+2. [Feature Views](https://docs.feast.dev/v/master/getting-started/concepts/feature-view#feature-views): Built with data sources and metadata of fields such as descriptions, tags, field type. Feature views are used when creating a new model, can be fetched through Feast.
 3. [Feature Services](https://docs.feast.dev/v/master/getting-started/concepts/feature-retrieval#feature-services): Combination of fields from feature views that are needed to make inferences with the trained Machine Learning models. Feature services are used at the end, when we know which features are needed in the final model.
 
 ```mermaid
@@ -31,7 +27,7 @@ graph LR
 2. **Consistency in Feature Engineering:** Ensures uniformity of features during both training and production stages, as features are engineered once and used in multiple contexts; reduces SQL redundancies
 3. **Point-in-Time Correctness:** Automates the maintenance of historical data which helps with retrieving correct values at any specific point in the past, crucial for predictive accuracy.
 4. **User Interface (UI):** Facilitate easier discovery and management of features, reducing time to model creation.
-5. **Model Feature Versioning:** Implements version control for features, aiding in tracking changes and maintaining consistency across model iterations.	
+5. **Model Feature Versioning:** Implements version control for features, aiding in tracking changes and maintaining consistency across model iterations.
 6. **Online Feature Store:** Supports real-time predictions with an online store, potentially valuable for future projects requiring immediate data processing.
 
 ## Setup
@@ -60,11 +56,11 @@ Here `[credential_yaml_file]` indicates the YAML file with the necessary credent
 
 ### Instruction
 
-If you only want to interact with the Feature Store as described in the first option (fetching already made feature views / services), then follow only the first 3 steps. If you also want to create new and/or modify feature views and services, complete all of them: 
+If you only want to interact with the Feature Store as described in the first option (fetching already made feature views / services), then follow only the first 3 steps. If you also want to create new and/or modify feature views and services, complete all of them:
 
 1. Set up the environment variables in your `~/.zshrc` file. These are the variables that are referenced in the `[credential_yaml_files]`:
 
-    ```
+    ```console
     # Feast Development variables
     export FEAST_DEV_SNOWFLAKE_ACCOUNT="GITLAB"
     export FEAST_DEV_SNOWFLAKE_USER="{USER}@gitlab.com"
@@ -86,7 +82,7 @@ If you only want to interact with the Feature Store as described in the first op
 5. Clone the repository into the `~/repos` directory and cd into it.
 6. Finally, run the following commands:
 
-    ```
+    ```console
     mkdir .venv
     pipenv install
     make run-feast-local
@@ -94,7 +90,7 @@ If you only want to interact with the Feature Store as described in the first op
 
     These commands set up the python virtual environment. **If you would also like to run the sample workbook make sure to also install the dev dependencies:**
 
-    ```
+    ```console
     pipenv install --dev
     ```
 
@@ -111,7 +107,7 @@ Currently we have the UI running in a VM that can be accessed by requesting perm
 
 ## Project Structure
 
-```
+```text
 ├── feature_repo
 │   └── product                             <- Feature definitions for product data.
 |   |   └── queries                         <- Helper SQL queries to be used in the product data sources definitions.
@@ -152,7 +148,7 @@ Workflow summary:
 1. Note that our ML model might only need a fraction of the fields in the feature views for inference, therefore you can create [feature services](https://docs.feast.dev/v/v0.12-branch/getting-started/concepts/feature-service). To do that, in the [model directory](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/tree/main/feature_repo/models?ref_type=heads) create a YAML file that defines the name of the feature service and the name of the feature views used together with the required fields. An example can be seen here for the [PtC V4 model](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/feature_repo/models/propensity_to_churn_contract/ptc_v4.yaml?ref_type=heads).
     1. An utility function that is helpful to create such YAMLs is [create_yaml_for_model_feature_service](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/feature_repo/helpers.py?ref_type=heads#L38).
 1. Create a MR in this project and add the feature service yaml to the models directory. Test that the feature service contains all the features that you need.
-    1. Feast can be build in a personal database by following the above [Setup section](/handbook/business-technology/data-team/platform/feast#setup). It allows to do local testing before pushing the changes to production. Make sure to use the `staging_local_feature_store.yaml` when fetching the feature services when working with the MR workflow. 
+    1. Feast can be build in a personal database by following the above [Setup section](/handbook/business-technology/data-team/platform/feast#setup). It allows to do local testing before pushing the changes to production. Make sure to use the `staging_local_feature_store.yaml` when fetching the feature services when working with the MR workflow.
 1. Push the changes to the remote branch in the repository. Wait for the CI jobs `clone-image` (clones the Docker image from production so Feast can run) and `clone-feature-store-db` (clones the `FEATURE_STORE.FEAST` schema from production to a dedicated MR database) to pass.
 1. Test the changes introduced to the feature store by running the CI job `test-on-mr`. This job runs the command `feast apply` on the MR feature store database testing that the feature store can run after the changes introduced.
 1. After merging the MR and the feature service is now in production, connect to the feature store using the `production_local_feature_store.yaml` credential file or `production_feature_store.yaml` when running on CI. Going back to our python code, this would look like:
@@ -168,7 +164,6 @@ Workflow summary:
 Sample jupyter notebook can be found [HERE](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/sample_workflow/build_model.ipynb?ref_type=heads).
 
 Also, make sure to check out the current implementation of PtC, specifically [create_prod_models.ipynb](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-contract-and-churn/-/blob/main/dev/v04_feast/create_prod_models.ipynb?ref_type=heads) and [scoring_code.ipynb](https://gitlab.com/gitlab-data/data-science-projects/propensity-to-contract-and-churn/-/blob/main/dev/v04_feast/prod_staging/scoring_code.ipynb?ref_type=heads), as it is a model fully created and moved to production CI using Feast.
-
 
 ## From Data Sources to serving features
 
@@ -195,7 +190,7 @@ The data source table in Feast should have following format:
 | xxxx                            | 2023-01-01      | 44                                              |
 | xxxx                            | 2023-02-01      | 49                                              |
 
-The main `entity_id` in the data source is unique when combined with the `event_timestamp`. The metric field is the result of the SQL transformation. In case of [product usage period usage query](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/feature_repo/product/product_usage.py?ref_type=heads) this would be a CRM Account per event_timestamp (here: monthly aggregated data), and the metric would be something like the window average of `unique_active_users` in the `period_unit` of aggregation. If `period_unit = 5` we would have that the record of 2023-01-01 is averaging `unique_active_users` from 2022-09-01 to 2023-01-01, the record of 2023-02-01 averages from 2022-10-01 to 2023-03-02 etc 
+The main `entity_id` in the data source is unique when combined with the `event_timestamp`. The metric field is the result of the SQL transformation. In case of [product usage period usage query](https://gitlab.com/gitlab-data/data-science-projects/feast-poc/-/blob/main/feature_repo/product/product_usage.py?ref_type=heads) this would be a CRM Account per event_timestamp (here: monthly aggregated data), and the metric would be something like the window average of `unique_active_users` in the `period_unit` of aggregation. If `period_unit = 5` we would have that the record of 2023-01-01 is averaging `unique_active_users` from 2022-09-01 to 2023-01-01, the record of 2023-02-01 averages from 2022-10-01 to 2023-03-02 etc
 
 #### Parameters
 
@@ -208,4 +203,4 @@ Feast allows to create reusable queries that can be modified with parameters. It
 
 1. Implement `feast apply` to run transformations for only those feature views or services that were updated (especially when testing locally)
 1. Move helper functions to the `gitlabdata` python package.
-1. Create authentication functions to replace the credential yaml files and avoid copy-pasting between repositories. This functionality should be added to `gitlabdata` python package. 
+1. Create authentication functions to replace the credential yaml files and avoid copy-pasting between repositories. This functionality should be added to `gitlabdata` python package.

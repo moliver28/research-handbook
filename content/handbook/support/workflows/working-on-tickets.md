@@ -30,8 +30,7 @@ Some Zendesk views are restricted by region.
 
 | Name | Region | Purpose |
 | ---- | ------ | ------- |
-| Global FRT's | Visible only to APAC, this functions similarly to the All FRT and Emergencies view and is frequently used by APAC to flex across SGGs to ensure adequate coverage |
-
+| Global FRT's | | Visible only to APAC, this functions similarly to the All FRT and Emergencies view and is frequently used by APAC to flex across SGGs to ensure adequate coverage |
 
 ## Selecting new tickets
 
@@ -40,6 +39,7 @@ to make decisions about what to work on. Then, employ the following workflows
 for:
 
  Choosing Tickets:
+
    - Focus on handling tickets from the top down in your First Response Time (FRT) stage view, as they are sorted by `Ticket Weight` to highlight the highest-priority issues first. This approach ensures that you address the most critical tickets promptly. Additionally, keep an eye on tickets that are nearing their SLA deadlines to prevent any breaches. Please note, while the Ticket Weight field itself isn’t visible in the view, it is used to order the tickets, ensuring that those with the highest priority appear at the top.
    - Next, work collaboratively to address unassigned NRT tickets, ensuring respect for the customer preferred regional preference.
    - You should follow the tickets workflow, as shown in the flowchart below.
@@ -53,6 +53,7 @@ flowchart TD
 ```
 
  Assigning Tickets:
+
    - Assign tickets to yourself using the "Take It" button and update status to
      `Open` or `Pending`.
    - Ensure every response is linked to an assigned ticket.
@@ -64,7 +65,7 @@ flowchart TD
    - Regularly review your `open`, `pending`, and `on-hold` tickets under
       [My Assigned Tickets](https://gitlab.zendesk.com/agent/filters/360062369834)
       to maintain a balanced workload, as well as align with
-      [other responsibilities](https://handbook.gitlab.com/handbook/support/support-global-groups/#se-responsibilities-and-priorities).
+      [other responsibilities](/handbook/support/support-global-groups/#se-responsibilities-and-priorities).
    - Aim for a manageable number of tickets, adjusting based on daily demands
      and personal capacity.
    - Aim to adhere to the support ticket SLA/SLOs:
@@ -115,7 +116,6 @@ handling. Exceptions should be made only under the following conditions:
 - If a ticket is close to breaching FRT SLA.
 - The ticket has been escalated/STAR'ed, requiring immediate attention regardless of region.
 - The customer has specifically requested it to be handled outside of region.
-
 
 #### Preparing a ticket for handover
 

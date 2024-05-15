@@ -32,7 +32,6 @@ We encourage communication between team members at all levels of the organizatio
 
 If your manager cannot help you or answer your questions, your questions will be referred to someone who can. If you feel your particular question, concern, or suggestion cannot be discussed with your manager, you are encouraged to contact your manager's manager, your assigned People Business Partner or Team Member Relations. It is important to remember that a team member who takes these steps will not be subject to retaliation. You can expect to be treated fairly and with respect.
 
-
 ### Romantic and Family Relationships at Work
 
 **Hiring Significant Others or Family Members**
@@ -68,7 +67,7 @@ Team members shall not take for themselves, or for family members, or any other 
 
 Team members also have obligations to protect the personal and sensitive information of our fellow team members. Therefore, you may not access and/or disseminate any team member's personal information (i.e. address, personal phone number, salary, etc.) that the team member has not made publicly available, unless the team member has provided written permission to share this information. An exception to this restriction would be when access is a necessary function of your job duties. A violation of this obligation is considered severe and could result in disciplinary action, up to and including termination.
 
-### Exceptions
+#### Exceptions
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process). For reference see the [Parent Policy: Information Security Policy](/handbook/security).
 
@@ -217,7 +216,6 @@ There are a number of GitLab Legal Policies which are important for GitLab team 
 - [Draft GitLab BV (Belgium) Work Regulations - English](https://docs.google.com/document/d/1HKxLs8AQ9TM-ud2y7EWS6R1ZJ982eeXR1UTKyIu9kPo/edit?usp=sharing)
 - [Comment book](https://docs.google.com/document/d/1UDsYcvkGPHJUF_--EZgxu_ONoiImFzxAavaAFkL5AtA/edit?usp=sharing)
 {{% /details %}}
-
 
 {{% details summary="GitLab BV (Netherlands)" %}}
 

@@ -13,7 +13,9 @@ There is a quarterly GitLab CEO 101 call with new hires and the CEO. This is a z
 1. Questions about our values [{{< ref "values" >}}]({{< ref "values" >}})
 1. Team structure [{{< ref "structure" >}}]({{< ref "structure" >}}) or [organization chart](https://comp-calculator.gitlab.net/org_chart)
 1. How we work [/handbook](/handbook)
+
   - Please pay special attention to the guideline about developing content and procedures in a public, transparent, [handbook-first](/handbook) manner
+
 1. [Reinforcements to stay a startup]({{< ref "still-a-startup" >}})
 
 Note that, when thinking about what questions you'd like to ask, it’s hard to be open about financials. It’s easy when everything is going well but very hard when it’s not. We try to be open with our team as we progress, but it will hurt being open to the outside world about this in the future.
@@ -30,6 +32,6 @@ Below a few examples of the GitLab 101 calls
 
 ### Frequently Asked Questions about the GitLab Culture
 
-##### All previously asked questions have been integrated into our [handbook](/handbook)
+#### All previously asked questions have been integrated into our [handbook](/handbook)
 
 Future questions will be added to this FAQ section.

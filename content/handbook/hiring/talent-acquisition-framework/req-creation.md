@@ -43,7 +43,6 @@ In order to open a backfill:
 *For roles being repurposed*: the business leader owns communication to the team to discuss rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
 1. Once the role is approved/decision has been reached and all has been documented in the issue, the recruiter can create a position in Greenhouse for approval and move to the next step of the process.
 
-
 ### Create or Review the Job Family (DRI: Hiring Manager)
 
 The Hiring Manager will review the position description in the `/job-families` folder and update it, if needed. If there is no existing job family, they should follow the steps to [create a new job family](/handbook/hiring/job-families#job-families). A compensation benchmark for the role should be set by working with the Compensation & Benefits team.
@@ -75,7 +74,6 @@ There are a few options for what to open in Greenhouse.
    All evergreen reqs need to be approved by TALT (Jake Foster or Jess Dallmar) prior to opening.
 
 If you are looking to open a job for pipeline reasons, because a Hiring Manager has requested that you work on a role that will be open in the future but has not been approved, instead of an EVG role use our Greenhouse CRM.
-
 
 **The Recruiter will:**
 
@@ -155,7 +153,6 @@ If you find that someone is delayed in responding to an approval request, you ca
    - Uncheck `Include 'Apply with SEEK' button`
 1. Click `Save`, then click the red button to publish the opening to our internal job board.
 1. After publishing, announce on Slack in `#new-vacancies` for team members to apply or send in referrals.
-
 
 ```text
 Slack message template:

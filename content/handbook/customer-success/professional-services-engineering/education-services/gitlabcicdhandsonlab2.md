@@ -9,7 +9,7 @@ description: "This Hands-On Guide walks you through creating a .gitlab-ci.yml fi
 
 In this lab, you'll enabled CI/CD for a GitLab project. After creating your first `.gitlab-ci.yml` file, you will explore the CI/CD pipeline to better understand jobs and stages. Finally, you will learn how to install, run, and register a runner with a GitLab instance.
 
->  Parts **D** through **F** in this exercise require admin rights to your local machine. If you are unable to install GitLab Runner locally, you may skip parts D through F and use the training environment's shared runners instead.
+> Parts **D** through **F** in this exercise require admin rights to your local machine. If you are unable to install GitLab Runner locally, you may skip parts D through F and use the training environment's shared runners instead.
 
 ## Task A. Access your Lab Environment
 
@@ -19,9 +19,9 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Select **Provision Training Environment**.
 
-    >  The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
+    > The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs.
 
-### Self-Paced Training:
+### Self-Paced Training
 
 1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
 
@@ -29,7 +29,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. In the resulting dropdown, you will see a value starting with `@`. This is your GitLab username.
 
-1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided. 
+1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided.
 
 1. Select **Provision Training Environment**.
 
@@ -47,7 +47,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Continue to Task B.
 
-### Instructor-led Training:
+### Instructor-led Training
 
 1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
 
@@ -56,12 +56,12 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 1. Click on **GitLab Dashboard** or the GitLab URL.
 
 1. Login with your temporary GitLab Credentials.
-  
+
     > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
 
 1. Click on the '**Create a project tile**.
 
-    >  From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
+    > From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
 
 # Task B: Create a Project
 
@@ -71,13 +71,13 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. In the **Project name** text box, enter `CICD Demo`.
 
-    >  The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
+    > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
 1. In the Project URL field, click the dropdown for the second half of the URL to make sure it’s pointing to a group name (starts with gitlab-learn-labs/*) and not a username. You should create this project inside a group, not directly in your user’s namespace.
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
-    >  Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
+    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
 
 1. Check **Initialize repository with a README**.
 
@@ -85,7 +85,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. Click the **Create project** button.
 
-### Task C. Add a `.gitlab-ci.yml` File 
+### Task C. Add a `.gitlab-ci.yml` File
 
 > To use GitLab CI/CD, you start with a `.gitlab-ci.yml` file at the root of your project. The `.gitlab-ci.yml` file contains the configurations for your CI/CD pipeline. In this section, you will create a simple `gitlab-ci.yml` file.
 
@@ -93,7 +93,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
 1. In the **Filename** field, type `.gitlab-ci.yml`
 
-1. Select the `Bash` template from the `Apply a template` dropdown. This will pre-populate the file. 
+1. Select the `Bash` template from the `Apply a template` dropdown. This will pre-populate the file.
 
 1. To create a minimal `.gitlab-ci.yml` file:
    * Delete all lines above `build1`.
@@ -103,11 +103,11 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
     ```yml
     stages:
-      - build 
+      - build
       - test
     ```
 
-    >   Keep in mind that YAML files should be indented with two spaces. Your web IDE may try to use a tab with 4 spaces. Simply use the backspace to set 2 spaces if you are not copying and pasting the examples.
+    > Keep in mind that YAML files should be indented with two spaces. Your web IDE may try to use a tab with 4 spaces. Simply use the backspace to set 2 spaces if you are not copying and pasting the examples.
 
 1. Set the commit message to `Creating a simple .gitlab-ci.yml file`, and set the **Target Branch** to `main`.
 
@@ -142,9 +142,9 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
 
 1. Click the status icon of the top row to see the details of the most recent pipeline. You’ll see columns representing the pipeline’s stages, and widgets representing jobs within each stage.
 
->  The order of execution for stages generally reads left to right. In this example, the `build` stage is the leftmost column, since it is the first stage to execute.
+> The order of execution for stages generally reads left to right. In this example, the `build` stage is the leftmost column, since it is the first stage to execute.
 
-1. Click each of the two jobs to see the output in a web terminal. Identify the gitlab-runner for each job 
+1. Click each of the two jobs to see the output in a web terminal. Identify the gitlab-runner for each job
 
     > Hint: it’s listed near the top of each job’s output.
 
@@ -165,7 +165,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
     ```sh
     gitlab-runner status
     ```
-     
+
    * In a **Windows** PowerShell window:
 
     ```powershell
@@ -181,7 +181,7 @@ This file defines two stages: `build` and `test`. The `build1` job executes duri
 
 #### Linux
 
-1. Follow **steps 1 and 2 only** in [this documentation](https://docs.gitlab.com/runner/install/linux-repository.html#installing-gitlab-runner). 
+1. Follow **steps 1 and 2 only** in [this documentation](https://docs.gitlab.com/runner/install/linux-repository.html#installing-gitlab-runner).
 
 1. Verify that the gitlab-runner service has started by running this command:
 
@@ -217,11 +217,11 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 1. Open an elevated PowerShell window:
    1. Click **Start**.
- 
+
    1. Type `PowerShell`
- 
+
    1. Right-click **Windows PowerShell**.
- 
+
    1. Click **Run as administrator**.
 
 1. From the elevated PowerShell window, install and start the gitlab-runner service:
@@ -237,7 +237,7 @@ If you see `Service is running` in the output, the gitlab-runner service is work
     ```powershell
     .\gitlab-runner.exe status
     ```
-    
+
 If you see `Service is running` in the output, the gitlab-runner service is working as expected.
 
 ### Task G. Register a Specific Runner Dedicated to your Project
@@ -250,15 +250,15 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 1. Under the **Project runners** section, click the **New project runner** button.
 
-1. Select your operating system (Linux, MacOS, or Windows).
-
 1. Under **Tags**, select **Run untagged jobs**. Leave the rest of the options blank.
 
     > An untagged runner will run any jobs. To control the jobs that a runner can run, you can define tags for the runner. To learn more about this process, click [here](https://docs.gitlab.com/ee/ci/runners/configure_runners.html#use-tags-to-control-which-jobs-a-runner-can-run)
 
 1. Click the **Create runner** button.
 
-1. From the next page presented, copy the command under **Step 1** to your clipboard.
+1. From the next page presented, select your operating system (Linux, MacOS, or Windows).
+
+1. Copy the command under **Step 1** to your clipboard.
 
 1. Back in your terminal, paste and run the command you copied in the previous step. Press `Enter` for the instance URL and `Enter` for the runner name to use the default values. (You can give this a custom name if desired).
 
@@ -270,13 +270,13 @@ If you see `Service is running` in the output, the gitlab-runner service is work
        ```sh
        sudo gitlab-runner list
        ```
-     
+
     * In a **macOS** terminal:
 
        ```sh
        gitlab-runner list
        ```
-     
+
      * In a normal (not elevated) **Windows** PowerShell window:
 
         ```powershell
@@ -285,23 +285,23 @@ If you see `Service is running` in the output, the gitlab-runner service is work
         ```
 
 
->  If your runner is registered correctly, you should see an output like this: </br>`gitlab-runner run Executor=shell Token=your-gl-token URL=https://gitlab.com`
-  
+> If your runner is registered correctly, you should see an output like this: </br>`gitlab-runner run Executor=shell Token=your-gl-token URL=https://gitlab.com`
+
 11. If you’re on Windows, follow these additional instructions to configure your gitlab-runner to use the right command to start PowerShell:
     1. Open `C:\GitLab-Runner\config.toml` in a text editor.
-    
+
     1. Change this line:
 
         ```toml
         shell = "pwsh"
         ```
-       
+
        to this:
-    
+
         ```toml
         shell = "powershell"
         ```
-    
+
     1. Save the file.
 
 ## Lab Guide Complete

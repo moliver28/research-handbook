@@ -11,9 +11,9 @@ title: Customer Success Escalations Process
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-- - -
+---
 
-## Background:
+## Background
 
 Escalations can take at least two different forms:
 
@@ -75,6 +75,8 @@ At the beginning of the escalation, the DRI must be determined - the DRI owns th
    - Collaborating with technical resources (e.g., Development, Quality Assurance, SREs, and Support Engineering staff) to drive resolution of the technical issues
    - Managing the 24x7 incident resolution and escalation process (i.e., Support Engineering, SRE, Development)
    - Supporting executive and customer calls (as needed)
+
+If an escalation is opened as high or critical, and the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). 
 
 ### Medium and Low-Level Escalations
 
@@ -175,10 +177,11 @@ Example message for the event when the escalation is identified and created and 
    - **Tracking Document**: "<LINK:Escalation Tracker Doc>"
    - **Severity**: High
    - **Status**: Opened
+   - **Product DRI**: "[Assigned Product DRI](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002)"
    - **Description**: "<Example <Customer> platform is impacted by performance problems since several weeks and users are affected on a daily base which is driving the customer into a critical state. The performance problems are also risking their our license expansion.>”
    - **FYI**: "<TAG_YOUR_MANAGER_HERE>"
 
-If requested, The [Section leader of Product](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/sections.yml) is responsible for designating Product Leaders who will be the R&D response DRIs for the escalation. That process is expected to happen in the #a_customername_escalation channel with a ping to the relevant [Product section leader](/handbook/product/categories/). Example:  - This is a newly escalated customer, and we are looking for you to assign a Product Leader to be the R&D DRI for the response.
+For high or critical escalations, and if the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). The Product DRI should be added to the #esc_customername channel and will drive any product related items throughout the escalation. 
 
 ##### Post in escalated_customers
 
@@ -191,7 +194,7 @@ To keep noise to a minimum, posting in `#escalated_customers` should happen only
 The `#escalated_customers` channel is for awareness only and is not intended to replace the dedicated slack channel created as above, the account or support channels. Leverage the specific escalation channel created for working communications, collaborations and executive updates.
 
 
-### Managing the Escalation:
+### Managing the Escalation
 
 - DRI owns the functions as outlined here
 - If an escalation status significantly changes, alert in the `#escalated_customers` slack channel and ping all DRIs involved in escalation, as well as post in the temporary customer slack channel
@@ -234,14 +237,14 @@ Engineering support will usually come via Support Engineering, however it's wort
 
 ## Product's role in Escalations
 
-At times Product may be needed to support an escalation. This could be due to uncovering a flaw or issue or surfacing feedback to help influence prioritization or workarounds to address the escalations. In most cases CSM and Support will work directly with a PM responsible for the area. 
+At times Product may be needed to support an escalation. This could be due to uncovering a flaw or issue or surfacing feedback to help influence prioritization or workarounds to address the escalations. In most cases CSM and Support will work directly with a PM responsible for the area.
 
 Occasionally, customers will require a product leader to act as a stable counterpart to support an escalation. This will ensure customers don't need to understand how we're organized, or need to get bounced around between PMs during an escalation. To achieve this we will follow this process:
 
-1. CSMs will evaluate each account that reaches a high or critical escalated state, and determine if a Product member is needed. 
+1. CSMs will evaluate each account that reaches a high or critical escalated state, and determine if a Product member is needed.
 1. From there, if the escalation reaches a High state a Group Product Manager or Product Director will be assigned. If it reaches a critical state a PLT member will be assigned.
-1. During the escalation the GMP+ Product leader will stick with the customer and escalation and operate as a stable counterpart. They will bring in additional PMs as needed to help address the concerns, but will remain engaged in Slack, and on calls with the customer to be a consistent face and representative of the Product division. 
-1. Individual PMs may roll in and out of the escalation but the assigned GMP+ product counterpart will remain attached until the escalation is resolved.  
+1. During the escalation the GMP+ Product leader will stick with the customer and escalation and operate as a stable counterpart. They will bring in additional PMs as needed to help address the concerns, but will remain engaged in Slack, and on calls with the customer to be a consistent face and representative of the Product division.
+1. Individual PMs may roll in and out of the escalation but the assigned GMP+ product counterpart will remain attached until the escalation is resolved.
 
 ## Related Links
 
