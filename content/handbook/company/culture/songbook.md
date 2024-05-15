@@ -283,7 +283,7 @@ You’ve got to take it for a ride
 GitLab, the fine CI’s a breeze
 GitLab, secure me if you please, GitLab
 Your tools sure do ease my worried mind
-     
+
 Decided to move my big project
 When that old host let me down
 What a great tool, I fell in love with you!
@@ -292,7 +292,7 @@ My productivity’s gone speed-of-sound!
 GitLab, the whole SDLC
 GitLab, goes end to end for me, GitLab
 It’s the best toolset I could find
-     
+
 I wanted to increase iteration
 To keep me from going insane
 Now when I say, “That merge request’s okay!”
@@ -311,7 +311,7 @@ GitLab it goes end-to-end for thee, GitLab
 It means no more worried minds!
 ```
 
-## GitLab For You, GitLab For Me!
+## GitLab For You, GitLab For Me
 
 To the tune of [Funiculì, Funiculà](https://en.wikipedia.org/wiki/Funicul%C3%AC,_Funicul%C3%A0) written by Luigi Denza, sung by Mario Denza
 Arranged for the GitLab Songbook by REB
@@ -526,7 +526,7 @@ Into the unknowwwwwwwnnnnnnnnnnn
 G to the T, L to the B Who's contributing remotely? That's ME!
 ```
 
-## Push It!
+## Push It
 
 Sung to the tune of [Push It!](https://www.youtube.com/watch?v=vCadcBR95oU) by the hip hop group [Salt-N-Pepa](https://en.wikipedia.org/wiki/Salt-N-Pepa)
 

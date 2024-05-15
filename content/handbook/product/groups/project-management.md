@@ -10,6 +10,7 @@ title: "Plan:Project Management"
 
 
 ### Plan: Project Management
+
 {: #welcome}
 
 [View all team members and stable counterparts](/handbook/product/categories/#project-management-group)
@@ -22,32 +23,32 @@ In GitLab issues, questions should start by mentioning the Product Manager (`@gw
 
 ### Direction
 
-[GitLab](https://about.gitlab.com/direction/) > [Dev Section](https://about.gitlab.com/direction/dev/) > [Plan Stage](https://about.gitlab.com/direction/plan/) > [Project Management Group](https://about.gitlab.com/direction/plan/project_management/) 
+[GitLab](https://about.gitlab.com/direction/) > [Dev Section](https://about.gitlab.com/direction/dev/) > [Plan Stage](https://about.gitlab.com/direction/plan/) > [Project Management Group](https://about.gitlab.com/direction/plan/project_management/)
 
 ### Performance Indicators
 
 #### Customer Value
 
-- [Paid Monthly Active Users (Paid GMAU)](https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard?widget=9980295&udv=0)
-- [Monthly Active Users](https://app.periscopedata.com/app/gitlab/758607/Centralized-SMAU-GMAU-Dashboard?widget=9967544&udv=0)
+- [Paid Monthly Active Users (Paid GMAU)](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/3315ab7c-ed1d-4053-bba8-cb8fc870af2b/AllGMAU?:iid=1)
+- [Monthly Active Users](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting/97aea9ea-11af-4f4e-8e6b-21db9738de2b/PaidGMAU?:iid=1)
 - [Team Planning and Planning Analytics Category Maturity](https://about.gitlab.com/direction/maturity/#plan)
 - System Usability Score (SuS) - Decrease the count of detractors attributable to the Project Management product surface area on a rolling quarterly basis
 
 #### Product Quality
 
-- Target [Error Budget](https://dashboards.gitlab.net/d/stage-groups-project_management/stage-groups-group-dashboard-plan-project-management?orgId=1) of `> 99.95%` 
+- Target [Error Budget](https://dashboards.gitlab.net/d/stage-groups-project_management/stage-groups-group-dashboard-plan-project-management?orgId=1) of `> 99.95%`
 - Escaped defects - The count of bug or security issues filed for defects or vulnerabilities found on canary or production on a rolling monthly basis
 
 #### Process
 
 - Open MR Age (OMA)
-- Open MR Review Time (OMRT) 
+- Open MR Review Time (OMRT)
 - Merge Request Rate - Average MRs per engineer on a rolling monthly basis
-- [Lead Time](https://app.periscopedata.com/app/gitlab/792261/Product-Development-Flow-Analytics?widget=10931440&udv=1229216) - The median number of days it takes for an issue to flow throw `workflow::validation backlog` to `closed`.
-- [Validation Track Cycle Time](https://app.periscopedata.com/app/gitlab/792261/Product-Development-Flow-Analytics?widget=10511078&udv=1229216) - The median number of days it takes for an issues to flow through `workflow::validation backlog` to `workflow::planning breakdown`.
-- [Build Track Phase 1 Cycle Time](https://app.periscopedata.com/app/gitlab/792261/Product-Development-Flow-Analytics?widget=10511078&udv=1229216) - The median number of days it takes for an issues to flow through `workflow::planning breakdown` to `workflow::ready for development`.
-- [Build Track Phase 2 Cycle Time](https://app.periscopedata.com/app/gitlab/792261/Product-Development-Flow-Analytics?widget=10511078&udv=1229216) - The median number of days it takes for an issues to flow through `workflow::ready for development` to `closed`.
-- [Adoption of Product Development Flow workflow labels](https://app.periscopedata.com/app/gitlab/792261/Product-Development-Flow-Analytics?widget=10931863&udv=1229216)
+- Lead Time - The median number of days it takes for an issue to flow throw `workflow::validation backlog` to `closed`.
+- Validation Track Cycle Time - The median number of days it takes for an issues to flow through `workflow::validation backlog` to `workflow::planning breakdown`.
+- Build Track Phase 1 Cycle Time - The median number of days it takes for an issues to flow through `workflow::planning breakdown` to `workflow::ready for development`.
+- Build Track Phase 2 Cycle Time - The median number of days it takes for an issues to flow through `workflow::ready for development` to `closed`.
+- Adoption of Product Development Flow workflow labels
 
 ### History of Process Improvement Efforts
 
@@ -112,7 +113,7 @@ Examples of successful themes:
 
 #### Talking With Customers
 
-In a perfect world, we would have cross-functional representation in every conversation we have with customers. To help work towards realizing this, anyone who is scheduling a call with a customer via sales, conducting usabiity reasearch, or generally setting up a time to speak with customers or prospects is encouraged to add [the Plan Customer Interviews calender](https://calendar.google.com/calendar/u/0/embed?src=gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com) as an invitee to the event. This will automatically populate the shared calendar with upcoming customer and user iteractions. All team members are welcome and encouraged to join -- even if it's just to listen in and get context. 
+In a perfect world, we would have cross-functional representation in every conversation we have with customers. To help work towards realizing this, anyone who is scheduling a call with a customer via sales, conducting usabiity reasearch, or generally setting up a time to speak with customers or prospects is encouraged to add [the Plan Customer Interviews calender](https://calendar.google.com/calendar/u/0/embed?src=gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com) as an invitee to the event. This will automatically populate the shared calendar with upcoming customer and user iteractions. All team members are welcome and encouraged to join -- even if it's just to listen in and get context.
 
 You can subscribe to the calendar and invite it as a participant in a customer meeting that you are scheduling using the URL [gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com](mailto:gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com).
 

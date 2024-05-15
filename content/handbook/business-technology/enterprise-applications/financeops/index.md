@@ -6,12 +6,6 @@ description: "Finance Systems Operations"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
 ## <i class="fas fa-book" id="biz-tech-icons"></i> Finance Systems Charter
 
 The **Finance Systems Administrator Team** implements and supports specialized applications for the finance team within GitLab.
@@ -21,7 +15,6 @@ The **Finance Systems Administrator Team** implements and supports specialized a
 - [Jessica Salcido](/handbook/company/team/#jesssalcido) - Manager, Finance Systems (Q2C Expert)
 - [Wendy Lam](/handbook/company/team/#wlam) - Senior Finance Systems Administrator (P2P and Record to Report Expert)
 - [Brian Wong](/handbook/company/team/#brianmwong) - Finance Systems Administrator, *Certified Zuora Administrator*
-
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> How We Work within Enterprise Applications
 

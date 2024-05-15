@@ -17,6 +17,8 @@ However, it is the responsibility of the Infrastructure Department to drive the 
 
 If you’re a GitLab team member and are looking to alert the Infrastructure teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 
+Queries to Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
+
 ## Vision
 
 The Infrastructure Department operates a fast, secure, and reliable SaaS platform to which (and with which) [everyone can contribute][contribute].
@@ -45,7 +47,8 @@ flowchart LR
     I[Infrastructure]
     click I "/handbook/engineering/infrastructure/"
 
-    I --> TPM
+    I --> TPM[Technical Program Management]
+    click TPM "/handbook/engineering/infrastructure/technical-program-management/"
 
     I --> EP[Engineering Productivity]
     click EP "/handbook/engineering/infrastructure/engineering-productivity/"
@@ -149,6 +152,7 @@ In addition to tracking the backlog, Infrastructure Department projects are capt
 We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure/feature-support.html) provides details on how we collaborate to ship new features to Production.
 
 ## Ownership
+
 The Infrastructure team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](./service-ownership/index.html)
 
 ## Stable Counterparts
@@ -186,9 +190,7 @@ The Infrastructure department hires for a number of different technical speciali
 
 
 [status]: https://status.gitlab.com/
-[help]: /handbook/engineering/infrastructure/production/#how-to-get-help
 [incident]: /handbook/engineering/infrastructure/incident-management/
-[change]: /handbook/engineering/infrastructure/change-management/
 [infra]: https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues
 [production]: https://gitlab.com/gitlab-com/gl-infra/production/issues/
 [delivery]: https://gitlab.com/gitlab-com/gl-infra/delivery/issues/

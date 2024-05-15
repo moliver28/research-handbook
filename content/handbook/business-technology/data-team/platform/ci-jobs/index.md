@@ -30,9 +30,7 @@ This kind of error pops up in the pipeline like KeyError: 'GITLAB_COM_CI_DB_USER
 **Notes:-** Turn off the Flags, so the variable is accessible from the CI pipeline.
 The same applies to the variable value; if it is incorrect in the job, we can update it in the above link.
 
-
-
-# Analytics pipelines
+## Analytics pipelines
 
 ## Stages
 
@@ -114,10 +112,10 @@ This pipeline needs to be executed when doing changes to any of the below manife
 - el_saas_gitlab_com_scd_db_manifest.yaml
 
 This pipeline requires.
+
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
 2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_com_ci_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_com_ci`.
 3. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `bulk_import_entities` in manifest file `el_saas_gitlab_com_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
-
 
 #### `gitlab_ops_pgp_test`
 
@@ -129,26 +127,10 @@ This pipeline needs to be executed when doing changes to any of the below manife
 **This is separate from the `pgp_test` job because it requires a CloudSQL Proxy to be running in order to connect to the gitlab-ops database.**
 
 This pipeline requires.
+
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
 2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_ops`.
 3. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
-
-### DBT cloning selection
-
-When making any DBT changes, 🔆⚡️ `clone_model_dbt_select` should be your first pipeline run to set up the environment, followed by either the `run_changed` or `specify_model` pipeline (to test & validate).
-
-The following jobs use the same selection syntax as the regular DBT runs, but they use this to **begin a SnowFlake cloning operation for the DBT lineage provided**. In the case of 🔆⚡️ `clone_model_dbt_select` it is far faster, cheaper, and can handle a much greater data volume than the regular DBT runs, because they do not actually run DBT.
-
-#### `🔆⚡️clone_model_dbt_select`
-
-Specify which model to run with the variable `DBT_MODELS`. Clones all models in the provided selection. Does not run any DBT tests or validation. This job will fail for the same errors as the existing DBT process (i.e. ensure that you have selected the correct lineage above your model).
-
-#### `🏗️🔆run_changed_️clone_model_dbt_select`
-
-Clones all models in the provided selection. Does not run any DBT tests or validation. This job will fail for the same errors as the existing DBT process (i.e. ensure that you have selected the correct lineage above your model).
-Runs all the models in the MR diff whose SQL has been edited. Does not pickup changes to schema.yml / source.yml, only .sql files.
-- (Optionally) Specify running ancestors using the `ANCESTOR_TYPE` variable along with either the `@` or `+` operator. The operator is inserted **before** the models.
-- (Optionally) Specify running dependants using the `DEPENDENT_TYPE` variable along with either the `@` or `+` operator. The operator is inserted **after** the models.
 
 ### ⚙️ dbt Run
 
@@ -162,21 +144,37 @@ Note that job artifacts are available for all dbt run jobs. These include the co
 
 These jobs run against the primary `RAW` database.
 
-Most dbt run jobs can be parameterized with a variable specifying dbt model that requires testing. Watch [this intro](https://youtu.be/l14N7l-Sco4) to see an example of how to set the variable.
+Most dbt run jobs can be parameterized with a variable specifying dbt model that requires testing.
 
-The variable `DBT_MODELS` is a stand-in for any of the examples in [the dbt documentation on model selection syntax](https://docs.getdbt.com/docs/model-selection-syntax#section-specifying-models-to-run).
-
-All dbt ci jobs run in `--full-refresh`. If you'd like to override this and run incremental models as incremental then set the `REFRESH` variable to a space ``.
+The variable `SELECTION` is a stand-in for any of the examples in [the dbt documentation on model selection syntax](https://docs.getdbt.com/docs/model-selection-syntax#section-specifying-models-to-run).
 
 If you are testing changes to tests in the `data-tests` project, you can pass in `DATA_TEST_BRANCH` to the manual jobs along with the branch name. This will update the branch in the `packages.yml` for the data-tests package. This works for any job running `dbt test`.
 
 You can also add `--fail-fast` to the end of the model selection to quickly end the dbt call at the first failure. Read the [dbt docs](https://docs.getdbt.com/reference/commands/run#failing-fast) for more information.
 
-If removing a model it's useful to run any dbt pipeline just to check it still compiles. In example you could run +dim_date to check that it works.
+Available selectors can be found in the [selector.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/selectors.yml) file. The dbt build command will run all seeds, snapshots, models, and tests that are part of the selection. This is useful for the following scenarios:
 
-{{% alert title="Attention" color="warning" %}}
-The jobs in this state are in the process of being updated.  Be aware that some jobs may not be available or may not function as described in full.
-{{% /alert %}}
+- Testing of new selectors for Airflow DAGs
+- Testing version upgrades to the dbt environment
+
+#### DBT CI Job size
+
+If you want to run a dbt job via the `🏗️🏭build_changes` or `🎛️custom_invocation`, you have the possibility to choose the size of the Snowflake warehouse you want to use in the CI job. Starting with XS, followed by L and last you can select XL size warehouse. This can be done by setting the `WAREHOUSE` variable when starting the CI job:
+
+- Setting `WAREHOUSE` to `DEV_XS` is will use an `XS` warehouse.
+- Setting `WAREHOUSE` to `DEV_L` is will use a `L` warehouse.
+- Setting `WAREHOUSE` to `DEV_XL` is will use an `XL` warehouse.
+
+Using a bigger warehouse will result in shorter run time (and prevents timing out of large models),
+but also results in bigger costs for GitLab if the warehouse is running for less than a minute.
+Reference your local development run times and model selection to aid in identifying what warehouse should be used.
+If you are unsure or are unable to have a reasonable estimation of the run time start with a `L` warehouse.
+Also its important to find parity between testing a model and how the model is executed in Production.
+Of course there can be a good reason to use a bigger warehouse,
+if there are complex transformations or lots of data to be processed more power is required.
+But always also please check your model. Maybe the model can be adjusted to run more efficiently.
+Running your test on a bigger warehouse will not only trigger increased costs for **this** CI Job,
+but it also could run inefficiently in production and could have a much bigger impact for the long run.
 
 #### `🏗️🏭build_changes`
 
@@ -191,27 +189,28 @@ Should the changes made fall outside the default selection of this job, it can b
 - `EXCLUDE`: Defaults to `None` but will accept any dbt node selection. See the [documentation](https://docs.getdbt.com/reference/node-selection/exclude) for additional details.
 - `FULL_REFRESH`: Defaults to `False` but accepts `True` to re-clone and rebuild any tables that would otherwise run in an incremental state. See the [documentation](https://docs.getdbt.com/reference/commands/run#refresh-incremental-models) for additional details.
 - `VARS`: Defaults to `None` but will accept a comma separated list of quoted key value pairs. e.g. `"key1":"value1","key2":"value2"`.
+- `RAW_DB`: Defaults to `Live` but will accept `Dev`.  Selecting `Dev` will have the job use the branch specific version of the live `RAW` database, only the data that is explicitly loaded will be present.  This is needed when testing models build on extracts that are new in the same branch.
 
 <details markdown="1">
 <summary>Cross-Walk</summary>
 
-|Change Examples |	Previous CI Process |	New CI Process|
+|Change Examples |    Previous CI Process |    New CI Process|
 | --- | --- | --- |
 | Add column to small table or view | <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗🛺️run_changed_models_sql</li></ol> | <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li></ul></ol> |
-| Update column description	| <ol><li>📚✏️generate_dbt_docs</li></ol> |	<ol><li>📚✏️generate_dbt_docs</li></ol> |
-| Update or create a small dbt snapshot	| <ol><li>🥩clone_raw_full</li><li>🐭🥩specify_raw_model</li><ul><li>DBT_MODELS : snapshot_name</li></ul></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li></ul></ol> |
-| Add or update a seed |	<ol><li>🌱specify_csv_seed</li><ul><li>DBT_MODELS : seed_name</li></ul></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>FULL_REFRESH : True</li></ul></ol> |
-| Update a model and test downstream impact |	<ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>DEPENDANT_TYPE : +</li><li>ANCESTOR_TYPE: +1</li></ul><li>🏗🛺️run_changed_models_sql</li><ul><li>DEPENDANT_TYPE : +</li></ul></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>DOWNSTREAM : +</li></ul></ol> |
-| Update a model and test specific models	| <ol><li>🔆⚡️clone_model_dbt_select</li><ul><li>DBT_MODELS : 1+specific_models+1</li></ul><li>🐭specify_model</li><ul><li>DBT_MODELS : specific_models+1</li></ul></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>SELECTION : specific_models+1</li></ul></ol> |
-| Make a chance to an incremental model without full refresh |	<ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗️🛺🐘run_changed_models_sql_xl</li><ul><li>REFRESH : ' ' </li></ul></ol>| <ol><li>🏗️🏭build_changes</li></ul></ol> |
-| Make a chance to an incremental model with full refresh |	<ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗️🛺🐘run_changed_models_sql_xl</li></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>FULL_REFRESH : True</li></ul></ol>|
-| Update a model and test downstream impact. skipping specific model	 | <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>DEPENDANT_TYPE : +</li><li>ANCESTOR_TYPE: +1</li></ul><li>🐘specify_xl_model</li><ul><li>DBT_MODELS : specific_model+ --exclude other_model</li></ul></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>EXCLUDE : other_model</li><li>DOWNSTREAM : +</li></ul></ol> |
-| Change a model that needs vars |	NA	| <ol><li>🏗️🏭build_changes</li><ul><li>VARS : "key1":"value1","key2":"value2"</li></ul></ol> |
-| Make a change and see all errors |	<ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗🛺️run_changed_models_sql</li></ol> |	<ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>FAIL_FAST : False</li></ul></ol> |
-
+| Update column description    | <ol><li>📚✏️generate_dbt_docs</li></ol> |    <ol><li>📚✏️generate_dbt_docs</li></ol> |
+| Update or create a small dbt snapshot    | <ol><li>🥩clone_raw_full</li><li>🐭🥩specify_raw_model</li><ul><li>DBT_MODELS : snapshot_name</li></ul></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li></ul></ol> |
+| Add or update a seed |    <ol><li>🌱specify_csv_seed</li><ul><li>DBT_MODELS : seed_name</li></ul></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>FULL_REFRESH : True</li></ul></ol> |
+| Update a model and test downstream impact |    <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>DEPENDANT_TYPE : +</li><li>ANCESTOR_TYPE: +1</li></ul><li>🏗🛺️run_changed_models_sql</li><ul><li>DEPENDANT_TYPE : +</li></ul></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>DOWNSTREAM : +</li></ul></ol> |
+| Update a model and test specific models    | <ol><li>🔆⚡️clone_model_dbt_select</li><ul><li>DBT_MODELS : 1+specific_models+1</li></ul><li>🐭specify_model</li><ul><li>DBT_MODELS : specific_models+1</li></ul></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>SELECTION : specific_models+1</li></ul></ol> |
+| Make a chance to an incremental model without full refresh |    <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗️🛺🐘run_changed_models_sql_xl</li><ul><li>REFRESH : ' ' </li></ul></ol>| <ol><li>🏗️🏭build_changes</li></ul></ol> |
+| Make a chance to an incremental model with full refresh |    <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗️🛺🐘run_changed_models_sql_xl</li></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>FULL_REFRESH : True</li></ul></ol>|
+| Update a model and test downstream impact. skipping specific model     | <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>DEPENDANT_TYPE : +</li><li>ANCESTOR_TYPE: +1</li></ul><li>🐘specify_xl_model</li><ul><li>DBT_MODELS : specific_model+ --exclude other_model</li></ul></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>EXCLUDE : other_model</li><li>DOWNSTREAM : +</li></ul></ol> |
+| Change a model that needs vars |    NA    | <ol><li>🏗️🏭build_changes</li><ul><li>VARS : "key1":"value1","key2":"value2"</li></ul></ol> |
+| Make a change and see all errors |    <ol><li>🏗️🔆run_changed_️clone_model_dbt_select</li><ul><li>ANCESTOR_TYPE : +</li></ul><li>🏗🛺️run_changed_models_sql</li></ol> |    <ol><li>🏗️🏭build_changes</li><ul><li>WAREHOUSE : DEV_XS</li><li>FAIL_FAST : False</li></ul></ol> |
+| Make a changes to or useing a Selector |    <ol><li>➕🐘🏭⛏specify_selector_build_xl</li><ul><li>DBT_SELECTOR : customers_source_models</li></ul></ol> |    <ol><li>🎛️custom_invocation</li><ul><li>STATEMENT : build --selector customers_source_models</li></ul></ol> |
+| Add a model built on a new Sheetload in the same MR |    <ol><li>❄️ Snowflake: clone_raw_sheetload</li><li>Extract: sheetload</li><li>specify_raw_model</li><ul><li>DBT_MODELS : sheetload_file_name_source</li></ul></ol> |    <ol><li>❄️ Snowflake: clone_raw_sheetload</li><li>Extract: sheetload</li><li>🏗️🏭build_changes</li><ul><li>RAW_DB : Dev</li></ul></ol> |
 
 </details>
-
 
 #### `🎛️custom_invocation`
 
@@ -222,96 +221,9 @@ This job can be configured in the following ways:
 - `WAREHOUSE`: No default, a value of `DEV_XL`, `DEV_L`, or `DEV_XS` must be provided.
 - `STATEMENT`: No default, a complete `dbt` statement must be provided. e.g. `run --select +dim_date`.
 
-#### `🐭specify_model`
-
-Specify which model to run with the variable `DBT_MODELS`
-
-#### `🦖specify_l_model`
-
-Specify which model to run using an L warehouse with the variable `DBT_MODELS`
-
-#### `🐘specify_xl_model`
-
-Specify which model to run using an XL warehouse with the variable `DBT_MODELS`
-
-#### `specify_dbt_parameters`
-
-Specify how to run dbt using the variable `DBT_PARAMETERS`. This job essentially just puts everything in DBT_PARAMETERS variable into a command after `dbt run`, and can be used for excluding models.
-
-#### `🐭🥩specify_raw_model`
-
-Specify a dbt model against the clone of the RAW database. This jobs runs against the clone of `RAW`. Requires the `clone_raw_specific_schema` job (parameter `SCHEMA_NAME=TAP_POSTGRES` or the schema you need) to have been run. This is useful for the following scenarios:
-
-- You have a new sheetload file that you're uploading. You can use this to test the sheetload dbt models in the same MR you're adding the sheet.
-- You have a new gitlab.com or other pgp table you're adding. You can use this to test the dbt models in the same MR you're adding the table.
-- You're adding a dbt snapshot and want to test models built on top of that snapshot.
-
-#### `🌱specify_csv_seed`
-
-This job tests specific seed file. Specify seed file with the variable `DBT_MODELS`.
-
-- This job can be run to fix tag validation errors. Use the variable `DBT_MODELS` and value `valid_tags`
-
-```
-Compilation Error in macro tag_validation (macros/utils/tag_validation.sql)
-Tag Validation Error
-
-> in macro tag_validation (macros/utils/tag_validation.sql)
-> called by macro tag_validation (macros/utils/tag_validation.sql)
-```
-
-#### `📸🥩specify_snapshot`
-
-Specify which snapshot to run with the variable `DBT_MODELS`.
-This jobs runs against the clone of `RAW`. Requires the Requires the `clone_raw_full` or `clone_raw_specific_schema` job (parameter `SCHEMA_NAME=SNAPSHOTS`) to have been run.
-
-#### `📸🥩🦖specify_l_snapshot`
-
-Specify which snapshot to run with the variable `DBT_MODELS`.
-This jobs runs against the clone of `RAW`, using a large SnowFlake warehouse. Requires the `clone_raw_specific_schema` job (parameter `SCHEMA_NAME=SNAPSHOTS`) to have been run.
-
-#### `🏗🛺️run_changed_models_sql`
-
-Runs all the models in the MR diff whose SQL has been edited. Does not pickup changes to schema.yml / source.yml, only .sql files.
-- (Optionally) Specify running ancestors using the `ANCESTOR_TYPE` variable along with either the `@` or `+` operator. The operator is inserted **before** the models.
-- (Optionally) Specify running dependants using the `DEPENDENT_TYPE` variable along with either the `@` or `+` operator. The operator is inserted **after** the models.
-
-#### `🏗️🛺🦖run_changed_models_sql_l`
-
-Runs all the models in the MR diff whose SQL has been edited against an L warehouse. Does not pickup changes to schema.yml / source.yml, only .sql files.
-- (Optionally) Specify running ancestors using the `ANCESTOR_TYPE` variable along with either the `@` or `+` operator. The operator is inserted **before** the models.
-- (Optionally) Specify running dependants using the `DEPENDENT_TYPE` variable along with either the `@` or `+` operator. The operator is inserted **after** the models.
-
-#### `🏗️🛺🐘run_changed_models_sql_xl`
-
-Runs all the models in the MR diff whose SQL has been edited against an XL warehouse. Does not pickup changes to schema.yml / source.yml, only .sql files.
-- (Optionally) Specify running ancestors using the `ANCESTOR_TYPE` variable along with either the `@` or `+` operator. The operator is inserted **before** the models.
-- (Optionally) Specify running dependants using the `DEPENDENT_TYPE` variable along with either the `@` or `+` operator. The operator is inserted **after** the models.
-
-#### `➕🐘🏭⛏specify_selector_build_xl`
-
-Specify which selector to build with the variable `DBT_SELECTOR`, additional filtering of the selection can be accomplished by appending the `resource-type` options to the desired selector.
-
-For example,  `DBT_SELECTOR: customers_source_models --resource-type snapshot` will limit the models to only snapshot models.
-
-Available selectors can be found in the [selector.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/selectors.yml) file.  The dbt build command will run all seeds, snapshots, models, and tests that are part of the selection.  Just as in other snapshot CI jobs the `clone_raw_full` will need to have run to get a clone of the `RAW` database so that the snapshots executed in the job do not overwrite the 'production' raw data.  This is useful for the following scenarios:
-
-- Testing of new selectors for Airflow DAGs
-- Testing version upgrades to the dbt environment
-
-#### 📚✏️generate_dbt_docs
+#### `📚📝generate_dbt_docs`
 
 You should run this pipeline manually when either `*.md` or `.yml` files are changed under `transform/snowflake-dbt/` folder. The motivation for this pipeline is to check and validate changes in the `dbt` documentation as there is no check on how the documentation was created - errors are allowed and not validated, by default. There are no parameters for this pipeline.
-
-
-#### DBT CI Job size
-
-If you want to run a dbt job via the `specify_*_model` or `specify_*_exclude`, you have the possibility to choose the size of the Snowflake warehouse you want to use in the CI job. Starting with XS, followed by L and last you can select XL size warehouse. This can be done to trigger different CI Jobs.
-- CI Job `specify_model` is using a `XS` warehouse.
-- CI Job `specify_l_model` is using a `L` warehouse.
-- CI Job `specify_xl_model` is using a `XL` warehouse.
-
-Using a bigger warehouse will result in shorter run time (and prevents timing out of large models), but also results in bigger costs for GitLab. You start with the regular `specify_model` CI Job. If this is not suitable, you can move over to the `specify_l_model` and alternatively you can use the `specify_xl_model`. Of course there can be a good reason to use a bigger warehouse, if there are complex transformations or lots of data to be processed more power is required. But always also please check your model. Maybe the model can be adjusted to run more efficiently. Running your test on a bigger warehouse will not trigger instant costs on Snowflake only on **this** CI Job, but it also could run inefficiently in production and could have a much bigger impact for the long run.
 
 ### 🛠 dbt Misc
 
@@ -327,36 +239,39 @@ Runs all the tests
 
 Runs only data tests
 
+#### `🔍tableau_direct_dependencies_query`
 
-#### `🔍periscope_query`
-
-This job runs automatically and only appears when `.sql` files are changed. In its simplest form, the job will check to see if any of the currently changed models are queried in Periscope. If they are, the job will fail with a notification to check the relevant dashboard. If it is not queried, the job will succeed.
+This job runs automatically and only appears when `.sql` files are changed. In its simplest form, the job will check to see if any of the currently changed models are **directly** connected to tableau views, tableau data-extracts and/or tableau flows. If they are, the job will fail with a notification to check the relevant dependency. If it is not queried, the job will succeed.
 
 Current caveats with the job are:
 
-- It will not tell you which dashboard to check
-- It is not able to validate tables that are queried with any string interpolation syntax (i.e. `retention_[some_variable]`)
-- It is not able to validate if a table is aliased via dbt
+- It will not tell you which tableau workbook to check
+- It will not tell indirectly connected downstream dependencies. This feature will be a part of upcoming iteration to this job.
 
 ##### Explanation
 
-This section explains how the periscope query works.
+This section explains how the `tableau_direct_dependencies_query` works.
 
-`git clone -b periscope/master --single-branch https://gitlab.com/gitlab-data/periscope.git --depth 1`
+`git diff origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME...HEAD --name-only | grep -iEo "(.*)\.sql" | sed -E 's/\.sql//' | awk -F '/' '{print tolower($NF)}' | sort | uniq`
 
-This clones the periscope project.
+This gets the list of files that have changed from the master branch (i.e. target branch) to the current commit (HEAD). It then finds (grep) only the sql files and substitutes (sed) the `.sql` with an empty string. Using `awk`, it then prints the lower-case of the last column of each line in a file (represented by $NF - which is the number of fields), using a slash (/) as a field separator. Since the output is directory/directory/filename and we make the assumption that most dbt models will write to a table named after its file name, this works as expected. It then sorts the results, gets the unique set and is then used by our script to check the downstream dependencies.
 
-`git diff origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME...HEAD --name-only | grep -iEo "(.*)\.sql" | sed -E 's/\.sql//' | awk -F '/' '{print tolower($NF)}' | sort | uniq > diff.txt`
+`orchestration/tableau_dependency_query/src/tableau_query.py`
 
-This gets the list of files that have changed from the master branch (i.e. target branch) to the current commit (HEAD). It then finds (grep) only the sql files and substitutes (sed) the `.sql` with an empty string. Using `awk`, it then prints the lower-case of the last column of each line in a file (represented by $NF - which is the number of fields), using a slash (/) as a field separator. Since the output is directory/directory/filename and we make the assumption that most dbt models will write to a table named after its file name, this works as expected. It then sorts the results, gets the unique set, and writes it to a file called diff.txt.
+We leverage [Monte Carlo](/handbook/business-technology/data-team/platform/monte-carlo/) to detect downstream dependencies which is also our data obeservability tool. Using [Monte carlo API](https://apidocs.getmontecarlo.com/) we detect directly connected downstream nodes of type `tableau-view`, `tableau-published-datasource-live`, `tableau-published-datasource-extract` using the [`GetTableLineage` GraphQL endpoint](https://apidocs.getmontecarlo.com/#query-getTableLineage).
 
-`periscope_check.py`
+If no dependencies are found for the model, then you would get an output in the CI jobs logs - `INFO:root:No dependencies returned for model <model_name>` and the job will be marked as successful.
 
-This recursively searches the entire periscope repo for a string that matches a `from|join` statement from any of the 3 currently queryable schemas. It does some cleaning on files that match and creates a dictionary of table name mapping to all of the files it is referenced in. It then reads in `diff.txt` to do a lookup and write to comparison.txt and matches based on the model name.
+And if dependencies were found for the model, then the job would fail with the value error `ValueError: Check these models before proceeding!`. The job logs will contain number of direct dependencies found for a given model, type of tableau object, tableau resource name and monte carlo asset link, in the below format:
 
-`if (( $(cat comparison.txt | wc -l | tr -d ' ') > 0 )); then echo "Check these!" && cat comparison.txt && exit 1; else echo "All good" && exit 0; fi;`
+```bash
+Found <number of tableau dependencies> downstream dependencies in Tableau for the model <model name>
+INFO:root: <tableau resource type> : <name of tableau resource> - : <monte_carlo_connection_asset_url>
+ValueError: Check these models before proceeding!
+ERROR: Job failed: command terminated with exit code 1
+```
 
-This uses word count (wc) to see how many lines are in the comparison file. If there is more than zero it will print the lines and exit with a failure. If there are no lines it exits with a success.
+More implementation details can be found in the issue [here](https://gitlab.com/gitlab-data/analytics/-/issues/19885).
 
 #### `🛃dbt_sqlfluff`
 
@@ -366,7 +281,7 @@ Runs the SQLFluff linter on all changed `sql` files within the `transform/snowfl
 
 In order to ensure that all [SAFE](/handbook/legal/safe-framework/) data is being stored in appropriate schemas all models that are downstream of [source models with MNPI data](/handbook/business-technology/data-team/how-we-work/new-data-source/#mnpi-data) must either have an exception tag or be in a restricted schema in `PROD`. This CI Job checks for compliance with this state. If your MR fails this job it will likely either need to be audited and verified to be without change MNPI data and have the appropriate exception tags added, or models may need to be migrated to the appropriate restricted schema
 
-#### `🔍macro_name_check`:
+#### `🔍macro_name_check`
 
 Automatically runs when making changes in the snowflake-dbt/macros folder and checks if the newly created macros match the correct name format.
 
@@ -439,6 +354,73 @@ Runs the `spec-test` cli of [Permifrost](https://gitlab.com/gitlab-data/permifro
 
 Triggered when there is a change to `permissions/snowflake/roles.yml`. Validates that the YAML is correctly formatted.
 
+#### `snowflake_provisioning_snowflake_users`
+
+This job adds/removes specified users and roles directly in Snowflake based on changes to `snowflake_users.yml`.
+
+##### Quick Summary
+
+- To add new users/roles in Snowflake, add the new username(s) to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads).
+- To create a development database for new users, add the CI variable `IS_DEV_DB: True`.
+
+<details><summary>Further Explanation</summary>
+
+##### Further Explanation
+
+Under the hood, this CI job is calling the python script [`orchestration/snowflake_provisioning_automation/provision_users/provision_user.py`](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/snowflake_provisioning_automation/provision_users/provision_users.py?ref_type=heads).
+
+These are the full list of CI job arguments, all are **OPTIONAL**:
+
+1. `IS_TEST_RUN`:
+    - Defaults to `False`, but accepts `True`.
+    - If True, will only **print** the `GRANT` sql statements, but will not run them.
+1. `USERS_TO_ADD`:
+    - Defaults to the usernames **added** to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads) within the MR.
+    - To override, pass in a string value like so `USERS_TO_ADD: username_to_add1 username_to_add2`
+1. `IS_DEV_DB`:
+    - Defaults to `False`, but accepts `True`.
+    - If True, will create development databases for each username in `usernames_to_add`.
+
+Note: `USERS_TO_REMOVE` argument is not available for this job because all deactivated users will be removed in Snowflake via separate airflow job.
+</details>
+
+#### `snowflake_provisioning_roles_yaml`
+
+This job updates `roles.yml` automatically based on changes to `snowflake_users.yml`.
+
+##### Quick Summary
+
+- To add new user entries to `roles.yml`, add the new username(s) to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads).
+- Likewise, to remove user entries from `roles.yml`, delete the username(s) from [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads).
+- If no optional arguments are passed into the CI job, it will run with the default arguments described in [Automating roles.yml: Common Templates](/handbook/business-technology/data-team/platform/#common-custom-templates) section of the handbook.
+
+<details><summary>Further Explanation</summary>
+
+##### Further explanation
+
+Under the hood, this CI job is calling the python script [`orchestration/snowflake_provisioning_automation/update_roles_yaml/update_roles_yaml.py`](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/snowflake_provisioning_automation/update_roles_yaml/update_roles_yaml.py?ref_type=heads).
+
+These are the full list of CI job arguments, all are **OPTIONAL**:
+
+1. `IS_TEST_RUN`:
+    - Defaults to `False`, but accepts `True`.
+    - If True, will only **print** what values will be added to `roles.yml`
+1. `USERS_TO_ADD`:
+    - Defaults to the usernames **added** to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads) within the MR.
+    - To override, pass in a string value like so `USERS_TO_ADD: username_to_add1 username_to_add2`
+1. `USERS_TO_REMOVE`:
+    - Defaults to the usernames **removed** from [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads) within the MR.
+    - To override, pass in a string value like so `USERS_TO_REMOVE: username_to_remove1 username_to_remove2`
+1. `DATABASES_TEMPLATE`:
+    - Defaults to None, but accepts any JSON string, see this ['Databases' handbook section](/handbook/business-technology/data-team/platform/#databases) for more details/examples.
+1. `ROLES_TEMPLATE`:
+    - Defaults to 'SNOWFLAKE_ANALYST' role and 'DEV_XS' warehouse, but accepts any JSON string, see this ['Roles' handbook section](/handbook/business-technology/data-team/platform/#roles) for more details/examples.
+1. `USERS_TEMPLATE`:
+    - Defaults to the standard user entry, see ['Users' handbook section](/handbook/business-technology/data-team/platform/#users) for more details/examples. This value can be overriden with any JSON string, but should not be necessary.
+
+Note: `USERS_TO_REMOVE` argument is not available because all deactivated users will be removed in Snowflake via separate airflow job.
+</details>
+
 ### 🛑 Snowflake Stop
 
 These jobs are defined in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab-ci.yml).
@@ -447,8 +429,7 @@ These jobs are defined in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-data/anal
 
 Runs automatically when MR is merged or closed. Do not run manually.
 
-
-# Data Test Pipelines
+## Data Test Pipelines
 
 All the below run against the Prod DB using the changes provided in the repo. No cloning is needed to run the below.
 

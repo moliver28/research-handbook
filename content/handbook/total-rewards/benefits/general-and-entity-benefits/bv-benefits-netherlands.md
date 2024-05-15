@@ -24,7 +24,6 @@ Team Members will automatically receive the allowance via payroll. No documentat
 
 The allowance will be prorated for New Hires that start in the middle of the month and terminations that are effective in the middle of the month. Team members on sick pay or unpaid parental leave will still receive the monthly allowance. Team members who are on other unpaid leaves will not receive the stipend during their leave.
 
-
 ### Medical Collective Healthcare Policy
 
 GitLab has partnered with [CZ](https://www.cz.nl/en) to offer GitLab Team Members a collective healthcare policy in the Netherlands, effective 2023-10-01
@@ -42,10 +41,7 @@ Team Members can contact CZ directly if they have any questions at 088 555 7777
 
 GitLab Team Members are not obligated to join CZ collective health policy. If they choose not to join the plan, they still must purchase their own health insurance package with another approved provider, as required by the Netherlands statutory healthcare system.
 
-
-
 ### Occupational Saftey and Health
-
 
 Due to the [Working Conditions Act](https://www.arboineuropa.nl/en/legislation/wetgeving-in-het-engels/), GitLab contracts an occupational safety and health service. The OSH-service can assist employees who are not able to work because of illness. The contact information for GitLab's designated Occupational Health Service provider is:
 
@@ -80,7 +76,7 @@ work, this portion of the plan continues to pay part or all of the pension contr
 **Voluntary Pension Plan Summary:**
 
 - Extra Pension: Team members can make additional voluntary contributions to have extra funds to purchase a retirement pension and a partner's pension that pays benefits upon their death after retirement.
-- Extra Death Benefits: Team members with a partner have the option of insuring an extra partner's pension upon their death prior to the retirement date. The following [doc](https://drive.google.com/file/d/1NGD1MNEqYI-acKECh7xNR73su_c-xesK/view?usp=sharing) outlines additional information on how the voluntary ANW-gap pension works.
+- Extra Death Benefits: Team members with a partner have the option of insuring an extra partner's pension upon their death prior to the retirement date. The following [2024 doc](https://docs.google.com/document/d/1vHUp7koRsOMVZk87uMGIpU8QJ0NhRE7x/edit) outlines additional information on how the voluntary ANW-gap pension works.
 
 **Individual value transfer:**
 

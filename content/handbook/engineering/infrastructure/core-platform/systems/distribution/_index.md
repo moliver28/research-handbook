@@ -14,6 +14,7 @@ Deploy team is focused on installation and upgrade mechanisms to ensure smooth d
 In addition to [product deliverables](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adistribution&label_name%5B%5D=Deliverable&milestone_title=Any), both groups review a large number of MR's authored outside the team. These include dependency and security updates along with configuration controls and other bundled components like PostgreSQL, Consul, Patroni.
 
 ## Target Consumers
+
 The primary user persona for Distribution are system administrators who are responsible for managing GitLab instances. Team goals are to make it as easy as possible to deploy, upgrade and configure GitLab on a range of on-prem and cloud platforms at a variety of scales.
 
 Deployments include everything from single node deployments for evaluating GitLab all the way through the 50K user reference architecture and beyond. The primary goal is to ensure end users have a high-speed, low-friction experience when managing GitLab with limited downtime or sevice disruptions.
@@ -32,7 +33,7 @@ Responsibilities:
 - Dependency updates
 - License management
 - Submissions to Partners for validations/certifications
-- The [install](/install/), [update](/update/), and [upgrade](/upgrade/) pages
+- The [install](https://about.gitlab.com/install/), [update](https://about.gitlab.com/update/), and [upgrade](https://about.gitlab.com/upgrade/) pages
 - Build and own the infrastructure used for creating the various installation methods
 - [Maintaining infrastructure](#infrastructure-and-maintenance) used in Distribution
 
@@ -94,11 +95,9 @@ Deploy team focus is configuration, deployment, and operation of GitLab as a who
 
 ## Goals
 
-Increase # of active installations
-<embed width="100%" height="300" src="https://app.periscopedata.com/shared/4def0441-92e2-4247-a509-3f5e27eae2ad?border=off&embed=v2&widget=5709313">
+[Increase # of active installations](https://10az.online.tableau.com/#/site/gitlab/workbooks/2298821/views)
 
-Reduce average days behind latest version
-<embed width="100%" height="300" src="https://app.periscopedata.com/shared/3c364984-9985-4d91-b7ba-242933694634?border=off&embed=v2&widget=5697571">
+[Reduce average days behind latest version](https://10az.online.tableau.com/#/site/gitlab/views/VersionUpgradeMetrics/InstallationsonLatestVersionsofGitLab?:iid=1)
 
 ## Team members
 
@@ -106,7 +105,7 @@ Reduce average days behind latest version
 
 The following people are members of the Distribution:Build Team:
 
-{{< team-by-manager-slug manager="plu8" team="Build" >}}
+{{< team-by-manager-slug manager="sissiyao" team="Build" >}}
 
 ### Distribution Deploy Team
 
@@ -122,8 +121,8 @@ The following members of other functional teams are our [stable counterparts](/h
 
 ## Common links
 
-* [Distribution team issue tracker][issue tracker]
-* [Slack chat channel](https://gitlab.slack.com/archives/distribution)
+- [Distribution team issue tracker][issue tracker]
+- [Slack chat channel](https://gitlab.slack.com/archives/distribution)
 
 ## Team responsibility
 
@@ -242,7 +241,7 @@ us forward and helping create a better experience.
 
 In Distribution we strive for the following in our public projects:
 
-1. Uphold our [Community Code of Conduct](/community/contribute/code-of-conduct/).
+1. Uphold our [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
 1. Enable [GitLab's mission that everyone can contribute.](/handbook/company/mission/#mission).
 1. Show our work in [public](#public-by-default).
 1. [Recognize and thank](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#recognition-for-contributors) contributors for their work.
@@ -265,10 +264,10 @@ In Distribution we strive to:
 
 All work carried out by the Distribution team is public. Some exceptions apply:
 
-* Work has possible security implications - If during the course of work security concerns are no longer valid, it is expected for this work to become public.
-* Work is done with a third party - Only when a third party requests that the work is not public.
-* Work has financial implications - Unless financial details can be omitted from the work.
-* Work has legal implications - Unless legal details can be omitted from the work.
+- Work has possible security implications - If during the course of work security concerns are no longer valid, it is expected for this work to become public.
+- Work is done with a third party - Only when a third party requests that the work is not public.
+- Work has financial implications - Unless financial details can be omitted from the work.
+- Work has legal implications - Unless legal details can be omitted from the work.
 
 Some of the team work is carried out on our development server at `dev.gitlab.org`.
 [Infrastructure overview document](https://docs.gitlab.com/omnibus/release/README.html#infrastructure) lists the reasons.
@@ -282,9 +281,9 @@ If you are unsure whether something needs to remain private, check with the team
 
 The team regularly publishes demos, discussions and meetings to these playlists:
 
-* [Distribution Team Demos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrPasGZcEUoHHIYdUtzpfA4) (Public) More on [team demos](demo.html).
-* [Distribution Team Discussions](https://www.youtube.com/playlist?list=PL05JrBw4t0KotcsilVcbCc1NBXUmWqEWy) (Mostly public, but some private content)
-* [Distribution Team Meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoigLGkdYj9x2erU2NC24ij) (Private)
+- [Distribution Team Demos](https://www.youtube.com/playlist?list=PL05JrBw4t0KrPasGZcEUoHHIYdUtzpfA4) (Public) More on [team demos](demo.html).
+- [Distribution Team Discussions](https://www.youtube.com/playlist?list=PL05JrBw4t0KotcsilVcbCc1NBXUmWqEWy) (Mostly public, but some private content)
+- [Distribution Team Meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KoigLGkdYj9x2erU2NC24ij) (Private)
 
 ## Onboarding and offboarding
 
@@ -337,15 +336,15 @@ is further explained and summarized on the [Distribution workflow page](workflow
 
 The following important areas of the GitLab Handbook impact how we work and are worth reading.
 
-* [Distribution workflow page](workflow.html)
-* [General engineering workflow page](/handbook/engineering/workflow/)
-* [How to reinforce our values](/handbook/values/#how-do-we-reinforce-our-values)
-* [Continue to serve smaller users](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns#serve-smaller-users) (internal only)
-* [Promises to our Open Source community](/handbook/company/stewardship/#promises)
-* [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
-* [Principles of our company strategy](/handbook/company/strategy/#principles)
-* [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines)
-* [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/index.html)
+- [Distribution workflow page](workflow.html)
+- [General engineering workflow page](/handbook/engineering/workflow/)
+- [How to reinforce our values](/handbook/values/#how-do-we-reinforce-our-values)
+- [Continue to serve smaller users](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#serve-smaller-users) (internal only)
+- [Promises to our Open Source community](/handbook/company/stewardship/#promises)
+- [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
+- [Principles of our company strategy](/handbook/company/strategy/#principles)
+- [Effective & Responsible Communication Guidelines](/handbook/communication/#effective--responsible-communication-guidelines)
+- [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/index.html)
 
 ## Work/life harmony
 
@@ -435,5 +434,18 @@ How did Distribution get its name? We iterated, as always. "Distribution" was ch
 
 ## Dashboards
 
-{{% cross-functional-dashboards filters="Distribution" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="distribution" >}}
+{{< /tableau >}}
 
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="distribution" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="distribution" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="distribution" >}}
+{{< /tableau >}}

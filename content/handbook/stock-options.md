@@ -14,7 +14,7 @@ Two things must happen for your stock options or RSUs to be meaningful,  for exa
 1. You must meet the vesting schedule of the stock options (i.e. we have a 1 year cliff and 3 years of monthly vesting).
 1. RSUs are granted quarterly, with a six month cliff vest for new team members and quarterly thereafter up to 4 years.  Refresh grants vest quarterly over 4 years.
 
-If a team member leaves GitLab, they have 90 days post termination to exercise their vested options.  RSUs are forfeited upon termination.
+If a team member leaves GitLab, they have 90 days post termination to exercise their vested options. Unvested RSUs and options are forfeited upon the date of the team member's exit from the company.
 
 ## Equity Incentive Plans
 
@@ -114,7 +114,7 @@ ESPP Calendar for Offering periods can be found at [ESPP Training Deck](https://
 
 On the respective Purchase Dates at the end of each Purchase Period. Only whole shares can be purchased.  Purchase dates are normally May 31 and November 30 of each year.
 
-### Other ESPP references:
+### Other ESPP references
 
 - [ESPP FAQs](https://docs.google.com/document/d/1Be1gz-_iGGNjuOku7N4ipnEFhGLfbxOZp68PEcoXUYU/edit)
 - [ESPP/RSU Vesting AMA](https://docs.google.com/document/d/1ELjTI_X29KKpmO1AuI8IMXW8oNqnKexy2jRs8T-SiLE/edit#)
@@ -144,7 +144,7 @@ Note: All equity grants are subject to approval by the Board of Directors and no
 
 ## Annual Refresh Grant Program Eligibility
 
-Team members may be eligible to participate in the annual refresh grant cycle review if they have completed six months of service with the company. However, participation will be based upon individual team member talent assessments (including if a team member is currently in good standing) and [key talent criteria]({{< ref "/handbook/people-group/talent-assessment#key-talent-criteria" >}}). Therefore, not all team members will receive a refresh grant in the annual review cycle. Leaders will have discretion on the size of the refresh grant based on talent assessments and equity budget as allocated to each E-group member’s division. All proposed grants will be reviewed by the People team for pay equality. All proposed equity grants are subject to review and approval by the GitLab Board of Directors.
+Team members may be eligible to participate in the annual refresh grant cycle review if they have completed six months of service with the company. However, participation will be based upon individual team member talent assessments (including if a team member is currently in good standing) and [key talent criteria](/handbook/people-group/talent-assessment#key-talent-criteria). Therefore, not all team members will receive a refresh grant in the annual review cycle. Leaders will have discretion on the size of the refresh grant based on talent assessments and equity budget as allocated to each E-group member’s division. All proposed grants will be reviewed by the People team for pay equality. All proposed equity grants are subject to review and approval by the GitLab Board of Directors.
 
 ## Option Vesting
 
@@ -180,8 +180,7 @@ For trading in an open trading window, please find the following instructions fo
 
 If you would like to purchase GTLB shares, this must be done through your E*TRADE retail account during an open trading window. We would ask that you send us a message at stockadmin@gitlab.com as we will need to get consent from you to track your GTLB retail shares.
 
-
-## Questions about your stock plan or retail account:
+## Questions about your stock plan or retail account
 
 ### E-TRADE Securities Customer Service 12 a.m. Monday to 11:59 p.m. Friday ET   Closed holidays  (800-838-0908)
 
@@ -213,6 +212,7 @@ Tax law is complex and you should consult a tax attorney or other tax advisor wh
 ### US employees with Incentive Stock Options (ISOs)
 
 Taxation from the US perspective is not as straightforward as you might like. You aren’t taxed when you exercise your options. Tax is due on the gain or profit you make when you sell the stock. Depending on your holding period, the tax may be treated as ordinary income or capital gain. Moreover, when you hold the options long enough you may be subject to 0% capital gains tax. To outline the five possibilities of the different scenarios that may apply:
+
 1. Exercise your options to purchase shares, and hold.
 1. Exercise your options to purchase shares, and sell the shares within the same year.
 1. Exercise your options to purchase shares, and sell the shares in less than twelve months, but during the following year.

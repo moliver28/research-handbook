@@ -1,5 +1,4 @@
 ---
-aliases: /handbook/legal/privacy/us-state-privacy-disclosure.html
 title: "U.S. State Privacy Rights and Disclosures"
 description: "Privacy Notice applicable for residents of the United States."
 ---
@@ -53,8 +52,7 @@ We use the Personal Information we collect for the following Business or Commerc
 |**Maintaining Quality and Safety.** To understand how our services are used and improve the services, to provide a forum to discuss services, to protect the rights, safety and property of GitLab, you or any third-party                  |{::nomarkdown}<ul><li>Identifiers/Contact information</li><li>Personal Information, as defined in the California customer records law section 1798.80</li><li>Commercial information</li><li>Internet or other electronic network activity information</li><li>Geolocation data</li><li>Inferred Information</li><ul>{:/}                                                        |
 |**Providing Customer Service, Maintaining/Servicing Customer Accounts, Verifying Customer Information.** To create, identify and authenticate your access to the services, provide customer support and respond to your questions or feedback. |{::nomarkdown}<ul><li> Identifiers/Contact information</li><li>Personal Information, as defined in the California customer records law section 1798.80</li><li>Commercial information</li><li>Internet or other electronic network activity information</li><li>Geolocation data</li><li> Professional or employment-related information</li><li>Sensitive Personal Information</li><ul>{:/} |
 |**Communication with Customers.** To send you information, including confirmations, technical notices and releases, security alerts, schedule maintenance, and to support administrative messages such as password reset requests.          |{::nomarkdown}<ul><li>Identifiers/Contact information</li><li>Commercial information</li><li>Internet or other electronic network activity information</li><li>Geolocation data</li><li>Professional or employment-related information</li><li>Sensitive Personal Information</li><ul>{:/}                                                                                         |
-|**Processing Payments.** To perform business operations such as billing, renewals, and payment processing.                                                                                                                                |{::nomarkdown}<ul><li>Identifiers/Contact information</li><li>Personal Information, as defined in the Callifornia customer records law section 1798.80</li><li>Commercial Information</li><li>Sensitive Personal Information</li><ul>{:/}
-
+|**Processing Payments.** To perform business operations such as billing, renewals, and payment processing.                                                                                                                                |{::nomarkdown}<ul><li>Identifiers/Contact information</li><li>Personal Information, as defined in the Callifornia customer records law section 1798.80</li><li>Commercial Information</li><li>Sensitive Personal Information</li><ul>{:/} |
 
 ### Categories of Personal Information Disclosed for a Business Purpose
 
@@ -67,7 +65,6 @@ Under California law, the transmission of cookie identifiers and browsing behavi
 | Categories of Personal Information Sold or Shared                                                                                    | Categories of Third-Party Recipients                                                                | Purpose of Disclosure                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 |Identifiers/Contact information<br>Internet or other electronic network activity information<br>Geolocation data<br>Inferred information | Data Analytics Providers, Advertising Networks, Social Networks | Interest based advertising, data enrichment |
-
 
 ### Retention and Deletion
 

@@ -12,7 +12,7 @@ title: "Database"
 ## Database Reliability at GitLab
 
 The group of Database Reliability Engineers (DBREs) are on the Reliability
-Engineering teams that runs GitLab.com. We care most about database
+Engineering teams that run GitLab.com. We care most about database
 reliability aspects of the infrastructure and GitLab as a product.
 
 We strive to approach database reliability from a data driven

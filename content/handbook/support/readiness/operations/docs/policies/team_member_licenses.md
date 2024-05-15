@@ -16,8 +16,24 @@ The process for these is:
    [support-ops-project](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project).
 1. Support Operations logs into the
    [staging cDot app](https://customers.staging.gitlab.com/admin/license/new_license)
-   and generates the license using the parameters in the AR.
-1. Support Operations updates the AR and closes it out.
+   and confirms there is not an already existing license.
+1. Support Operations generates the license using the parameters in the issue.
+1. Support Operations updates the issue and closes it out.
+
+#### Checking for an existing license
+
+1. Login to the
+   [staging cDot app](https://customers.staging.gitlab.com/admins/sign_in) via
+   Okta.
+1. Click the [Licenses](https://customers.staging.gitlab.com/admin/license) link
+   on the left-hand side of the page.
+1. Type the email address in the search box and click `Refresh`.
+1. Review the results to see if an existing license (that is not expired) exists
+   can still be utilized.
+1. If one does exist, please ask for clarification why a new license is needed
+   when an existing one can be used still.
+1. Review the clarification given and make a decision if a new license is
+   warranted.
 
 #### Creating a license
 

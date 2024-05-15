@@ -63,11 +63,20 @@ We can also use this workflow when a user cannot add an email address to their a
 
 For more information on unverified/unconfirmed accounts, please see the [confirmation emails]({{< ref "confirmation_emails" >}}) workflow.
 
-The primary (for paid users only, all users should be able to get a new confirmation email) and secondary email (for all users until [#367823](https://gitlab.com/gitlab-org/gitlab/-/issues/367823) is resolved) can be released following the process below.
+The primary (for paid users only, all users should be able to get a new confirmation email) and secondary email (for all users until [#367823](https://gitlab.com/gitlab-org/gitlab/-/issues/367823) is resolved) can be released following one of the processes below.
 
-To release an email address for an inactive account:
+### Release an unverified secondary email address
 
-### Verify account status and ownership
+1. Confirm the email address as an unverified secondary email address.
+1. If the ticket was submitted via the ZD form, please perform an email verification.
+1. Once the user has replied to confirm they own the email address, remove the secondary email from the account
+1. Add an Admin Note to the user’s account: `2024-01-30 | removed secondary unverified email address from the account john@xyz.com| https://gitlab.zendesk.com/agent/tickets/`
+1. Reply to the user saying that their email address is now releasd and they can use it to create a new account.
+1. Comment on this feature request
+
+### Release an email address for an inactive account
+
+#### Verify account status and ownership
 
 Check the user's activity page:
 
@@ -80,7 +89,7 @@ Check the user's activity page:
       - The user has no data (No groups or projects)
 1. If the account **is** verified or data exists, inform the original requestor that the email is **not eligible** for release. They can [request an account deletion](/handbook/support/workflows/personal_data_access_account_deletion#zendesk) if necessary.
 
-### If eligible for email release
+#### If eligible for email release
 
 1. If applicable, add the new email address as a CC to the ticket and ask the user to respond to the ticket from the email address they wish to add.
 1. Once the user has replied to confirm they own the email address, update the email address with `+release`. For example, if the email address is `johndoe@example.com`, then update the email address on the account to `johndoe+release@example.com`.
@@ -88,7 +97,6 @@ Check the user's activity page:
 1. Add an [Admin Note]({{< ref "admin_note" >}}) to the user's account.
 1. Advise the customer to add the newly released email address again to their primary account.
 1. Consider commenting on [this feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/352514)
-
 
 ## Change primary email address of enterprise users
 
@@ -133,6 +141,7 @@ Enterprise users have user accounts that are administered by an organization tha
 1. Ask manager approval to proceed if the primary email is the only verified email (skip this step if it's an email swap request).
 
 1. If successful, contact Owner:
+
 - Create a new Zendesk ticket with the top level group owner’s email address as the requester (found in admin) by following [this specific workflow to create ticket and user](/handbook/support/readiness/operations/docs/zendesk/tickets/#creating-tickets-for-outbound-requests)
 - Apply the macro `General::Outbound Contact Request` that ensure the new ticket routes properly and the end-user we wish to contact receives the correct notification.
 - Copy the snippet below and mark the ticket as `On-hold`:
@@ -147,6 +156,7 @@ Enterprise users have user accounts that are administered by an organization tha
 - If the group contains multiples owners, choose one owner (preferably an existing support contact) as the requester and CC the others. Limit to 5 owners if more (you can pick the owners that have the most recent Last activity in the page `https://gitlab.com/groups/<group_name>/-/group_members` or/and the owner(s) that is(are) listed as Source).
 
 1. Requester’s Ticket:
+
  - Add as an internal comment the ticket created above.
  - Reply to the requester with the snippet below and mark the ticket as `On-hold`.
 
@@ -203,7 +213,6 @@ Account Ownership Change Requests are initiated when the sole Owner of a group l
 1. Using a GitLab `Admin Account`, go to the requestor's 'Namespace - Group - Members' section.
 1. Search for the member by name or email address; in the `Max role` column, change the requestor's role to `Owner`.
 1. If the requestor is not a member of the group, then press the `Invite members` button at the top right, enter the requestor's email address, and set the role to `Owner`. Press the `Invite` button to save your changes.
-
 
 ## How is permission given for troubleshooting?
 

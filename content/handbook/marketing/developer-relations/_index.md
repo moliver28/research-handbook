@@ -7,7 +7,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Developer Relations Handbook
 {.h1}
 
-## <i class="fa-regular fa-lightbulb"></i> What is DevRel? 
+## <i class="fa-regular fa-lightbulb"></i> What is DevRel?
 
 Developer Relations (short: DevRel) operates at the intersection of technology, community, and advocacy, serving as the voice and ears of GitLab in the wider tech world. Their core mission revolves around nurturing and sustaining a vibrant, engaged community of developers, contributors, and users. This involves a multifaceted approach that includes creating educational content, organizing events and workshops, developing programs, and providing platforms for knowledge exchange and collaboration. The team not only focuses on promoting GitLab's features and capabilities but also actively listens to and incorporates feedback from the community to inform product development and improvements.
 
@@ -19,7 +19,7 @@ In Developer Relations, we align our mission and vision with the company's [thre
 
 ## <i class="fas fa-map-marked-alt fa-fw color-orange font-awesome"></i> Our Strategy
 
-Our operational strategy is [documented in our internal handbook](https://internal-handbook.gitlab.io/handbook/marketing/developer-relations-and-community/) but is classified as confidential due to business sensitivity, customer impact, and to foster a psychological safe environment for our team members. Below you can find our strategic plans that are open to the wider community and where the Developer Relations team welcomes collaboration.
+Our operational strategy is [documented in our internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/) but is classified as confidential due to business sensitivity, customer impact, and to foster a psychological safe environment for our team members. Below you can find our strategic plans that are open to the wider community and where the Developer Relations team welcomes collaboration.
 
 - [Contributor Program Unification & Growth Plan](/handbook/marketing/developer-relations/strategic-plans/contributor-program-unification/)
 
@@ -40,7 +40,7 @@ Our operational strategy is [documented in our internal handbook](https://intern
 
 Teams within Developer Relations are reachable in these Slack channels:
 
-- [#dev-evangelism-and-technical-marketing](https://gitlab.slack.com/archives/CMELFQS4B): the [Developer Advocate](/handbook/marketing/developer-relations/developer-evangelism/) team shares content updates, thought leadership & product ideas, and support community responses, meetups, CFPs, etc.
+- [#dev-advocacy-team](https://gitlab.slack.com/archives/CMELFQS4B): the [Developer Advocate](/handbook/marketing/developer-relations/developer-advocacy/) team shares content updates, thought leadership & product ideas, and support community responses, meetups, CFPs, etc.
 - [#community-programs](https://gitlab.slack.com/archives/C024ZBWK5KJ): for all inquiries regarding [GitLab Community Programs](/handbook/marketing/developer-relations/community-programs/) (EDU/OSS/Startups)
 - [#contributor-success](https://gitlab.slack.com/archives/C02R0NE6P6C): for all inquiries regarding [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
 
@@ -81,7 +81,7 @@ Teams within Developer Relations are reachable in these Slack channels:
 Community engagement:
 
 - [<i class="fas fa-shield-alt"></i> Code of Conduct Enforcement](/handbook/marketing/developer-relations/workflows-tools/code-of-conduct-enforcement/)
-- [<i class="fas fa-volume-up"></i> Community Response Process](/handbook/marketing/developer-relations/developer-evangelism/community-response/)
+- [<i class="fas fa-volume-up"></i> Community Response Process](/handbook/marketing/developer-relations/developer-advocacy/community-response/)
 - [<i class="fas fa-calendar-alt"></i> Events](/handbook/marketing/developer-relations/events/)
 
 Community platforms:
@@ -95,7 +95,7 @@ Community platforms:
 Content:
 
 - [<i class="far fa-folder-open"></i> Content Effectiveness Strategy](/handbook/marketing/developer-relations/content-effectiveness/)
-- [<i class="far fa-edit"></i> Community newsletter](/handbook/marketing/developer-relations/developer-evangelism/community-newsletter/)
+- [<i class="far fa-edit"></i> Community newsletter](/handbook/marketing/developer-relations/developer-advocacy/community-newsletter/)
 - [<i class="far fa-edit"></i> Content Review / Fix Fridays](/handbook/marketing/developer-relations/workflows-tools/content-review/)
 - [<i class="fas fa-chart-line"></i> UTM Tracking Strategy](/handbook/marketing/developer-relations/utm-strategy/)
 - [<i class="far fa-folder-open"></i> Campaign management](/handbook/marketing/developer-relations/community-apps/campaign-manager/)
@@ -130,11 +130,11 @@ Our team has a few weekly events that we use to stay connected and aligned on ou
 
 ### <i class="fa fa-calendar fa-fw color-orange font-awesome"></i> Our calendars
 
-We use team-wide calendars for collective notification and to manage team logistics and events. Additionally, specific teams within Developer Relations may maintain calendars specific to their programs (such as the [Developer Advocate team calendar](/handbook/marketing/developer-relations/developer-evangelism/#-team-calendar)).
+We use team-wide calendars for collective notification and to manage team logistics and events. Additionally, specific teams within Developer Relations may maintain calendars specific to their programs (such as the [Developer Advocate team calendar](/handbook/marketing/developer-relations/developer-advocacy/#-team-calendar)).
 
 - [Developer Relations Team](https://calendar.google.com/calendar/u/0?cid=Y190M2JhY2k5MnFoYnJmYTMyMDdpZHZwdnYwMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 - [Community Events](https://calendar.google.com/calendar/b/1?cid=Z2l0bGFiLmNvbV85MHQ1dWUxcThrYmpvcTViMHI5MW51N3J2Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- [Developer Advocate Team](/handbook/marketing/developer-relations/developer-evangelism/#-calendar)
+- [Developer Advocate Team](/handbook/marketing/developer-relations/developer-advocacy/#-calendar)
 
 ### Developer Relations OKRs
 
@@ -142,7 +142,7 @@ Every quarter, we work on [team Objectives and Key Results (OKRs)](https://gitla
 
 OKRs we seek to align with:
 
-- [CEO OKRs](/handbook/company/okrs/#most-recent-okrs)
+- [company OKRs](/handbook/company/okrs/#most-recent-okrs)
 - [Marketing OKRs](/handbook/marketing/#marketing-okrs)
 
 #### DRI Responsibilities
@@ -232,8 +232,8 @@ This section is meant to document tips and best practices that the Developer Rel
 - **Speakers:** As event organizers and participants, we seek to include a diverse set of speakers in events that GitLab organizes or touches.
 - **We are open-minded:** We actively seek feedback and keep an open mind about our current policies. We are open to change and are willing to make structural changes to ensure that we continue to foster DIB among our team and the wider GitLab community.
 - **We retain a growth mindset and keep learning:** We read articles, attend workshops, and participate in trainings that help educate us about how to foster DIB in our community and how to be inclusive ourselves.
-- **We encourage a diverse set of community members to participate in research:** We recognize the product inclusivity is important and that we need to build with our community, not just for them. We encourage a diverse set of community members to participate in our [First Look product research program](/community/gitlab-first-look/).
-- **We promote the [GitLab Diversity Scholarship program](/community/sponsorship/):** This scholarship supports Diversity, Inclusion, and Belonging-focused events financially.
+- **We encourage a diverse set of community members to participate in research:** We recognize the product inclusivity is important and that we need to build with our community, not just for them.
+- **We promote the [GitLab Diversity Scholarship program](https://about.gitlab.com/community/sponsorship/):** This scholarship supports Diversity, Inclusion, and Belonging-focused events financially.
 
 ## <i class="fas fa-lightbulb" fa-fw color-orange font-awesome></i> Communities who inspire us
 

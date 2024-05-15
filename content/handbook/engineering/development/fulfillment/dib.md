@@ -35,8 +35,12 @@ As part of onboarding, you will be assigned an onboarding buddy that will make y
 
 ### MR DIB and collaboration metrics
 
-{{< sisense dashboard="1035767" chart="14739244" height="350" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/FulfillmentEngineeringMRDIBandcollaborationmetrics/AppreciationRate" >}}
+{{< /tableau >}}
 
-{{< sisense dashboard="1035767" chart="14739479" height="350" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/FulfillmentEngineeringMRDIBandcollaborationmetrics/Celebrationrate" >}}
+{{< /tableau >}}
 
-{{< sisense dashboard="1035767" chart="14739535" height="350" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/FulfillmentEngineeringMRDIBandcollaborationmetrics/Sympathyrate" >}}
+{{< /tableau >}}
+

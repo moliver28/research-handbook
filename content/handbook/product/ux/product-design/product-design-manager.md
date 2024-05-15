@@ -28,7 +28,7 @@ This allows us to see our strengths as a team and to identify team trainings tha
 1. Review the template to make sure it makes sense for your team. Do consider changes carefully and discuss with other managers. We want to be able to have consistency so we can view them across multiple design teams.
 1. Add your team members names to the spreadsheet.
 1. Introduce this process to your team by sharing this page, the NN article and the GitLab focused template.
-1. Ask team members to rate themselves (current and future state). 
+1. Ask team members to rate themselves (current and future state).
 1. Review with your team member. You may suggest adjustments based on your observations, but ultimately this is a self-assessment.
 1. Share the results in an issue -[Example Issue](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1674).
 1. To follow up on the results, the team members and their manager can identify opportunities to fill gaps where team members said they want to improve.
@@ -37,7 +37,7 @@ This allows us to see our strengths as a team and to identify team trainings tha
 
 ## Team Member Updates
 
-Whenever you need to update the area of the product a team member is supporting, such as on the [Product Categories page](/handbook/product/categories), you'll generally need to update or review the following pages and projects:
+Whenever you need to update the area of the product a team member is supporting, such as on the [Product Categories page](/handbook/product/categories), you'll generally need to update or review the following pages and projects. For all updates you'll want to confirm that the name matches the name used on the team page.
 
 ### Section-level updates
 
@@ -58,17 +58,6 @@ For group-level updates you'll want to do the following:
 1. Scroll down and click on the `stages.yml` file
 1. Select the editor type of your choice
 1. Locate the person you need to update, make the change, commit/create an MR, and follow the MR process from there
-
-### Name confirmation
-
-For all updates you'll want to confirm that the person you've updated has a name reference in the category names file, otherwise it won't render correctly on the handbook page it's being called on.
-
-1. Go to the [www-gitlab-com project > Repository > Files](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master)
-1. Navigate to `sites/handbook/source/includes/product`
-1. Scroll down and click on the `_categories-names.erb` file
-1. Select the editor type of your choice
-1. Locate the person you need to update, make the change, commit/create an MR, and follow the MR process from there
-    - Note: If a team member is going to be performing Interim duties you’ll need to add their name a second time following this format: [fName lName (Interim)]: /company/team/#GitLab-username
 
 ### Update Team Member (Such as to remove/add from UX MR Reviewer Roulette)
 

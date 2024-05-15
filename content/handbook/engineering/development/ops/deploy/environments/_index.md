@@ -40,11 +40,11 @@ The following members of other functional teams are our stable counterparts:
 
 Some dedicated Slack channels:
 
-* Agent for Kubernetes: [`f_agent_for_kubernetes`](https://gitlab.slack.com/archives/f_agent_for_kubernetes)
-* Terraform backend: [`f_terraform_backend`](https://gitlab.slack.com/archives/f_terraform_backend)
-* [Terraform provider](https://gitlab.com/gitlab-org/terraform-provider-gitlab): [`terraform-provider`](https://gitlab.slack.com/archives/terraform-provider)
-* Auto DevOps: [`f_autodevops`](https://gitlab.slack.com/archives/f_autodevops)
-* Environments Detail Page: [`#f_environment_details_page`](https://gitlab.slack.com/archives/C04N1P3B3UL)
+- Agent for Kubernetes: [`f_agent_for_kubernetes`](https://gitlab.slack.com/archives/f_agent_for_kubernetes)
+- Terraform backend: [`f_terraform_backend`](https://gitlab.slack.com/archives/f_terraform_backend)
+- [Terraform provider](https://gitlab.com/gitlab-org/terraform-provider-gitlab): [`terraform-provider`](https://gitlab.slack.com/archives/terraform-provider)
+- Auto DevOps: [`f_autodevops`](https://gitlab.slack.com/archives/f_autodevops)
+- Environments Detail Page: [`#f_environment_details_page`](https://gitlab.slack.com/archives/C04N1P3B3UL)
 
 ## Insights
 
@@ -144,6 +144,39 @@ Each week the Product Designer hosts a design pairing session with the team on T
 
 If there are no topics, the meeting can be cancelled for the week.
 
+#### Engineering Pair Meeting
+
+Due to high distrubtion and full calendars, we can have one of these for as many
+regions for which we have a DRI.
+
+##### AMER
+
+DRI: `@hustewart`
+
+Time: Tuesdays at 6:00pm UTC.
+
+Goal: Solve problems together and build trust/rapport.
+
+[Calendar event](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2xxMm5kOGYwOXB2YzloZTBvZWg4bGhwczQgZ2l0bGFiLmNvbV9rbmFpZmY3YmNwZzNxa3FydWJka2Y0aXYxMEBn&tmsrc=gitlab.com_knaiff7bcpg3qkqrubdkf4iv10%40group.calendar.google.com)
+
+What we'll do:
+- Introductions for people who don't know each other.
+- Pick a problem to solve.
+- Pair.
+- Document what we learn.
+
+Feel free to submit a topic beforehand (notes are on calendar event), or simply show up.
+
+All team members are welcome.
+
+##### EMEA/APAC
+
+DRI: `@andrei.zubov`
+
+Time: Every second Tuesday at 8:00am UTC.
+
+[Calendar event](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDIyOG9rNWxhbTU3ZXJoYTVxYmlrcmt2ZW1fMjAyNDAzMjZUMDgwMDAwWiBnaXRsYWIuY29tX2tuYWlmZjdiY3BnM3FrcXJ1YmRrZjRpdjEwQGc&tmsrc=gitlab.com_knaiff7bcpg3qkqrubdkf4iv10%40group.calendar.google.com&scp=ALL)
+
 ### Team issue tracker
 
 - We use [team issues tracker](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/general/-/issues) for internal discussions such as: milestone planning issues, events planning, etc...
@@ -217,7 +250,7 @@ For Merge Requests, it's up to the author and the project they are contributing 
 Our goal is to move towards a continuous delivery model so the team completes tasks regularly, and keeps working off of a prioritized backlog of issues. We default to team members self-scheduling their work:
 
 - Team members self-assign issues from the [Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/4176401?not[label_name][]=environments%3A%3Aparked) that are in the `workflow:ready for development` column and has the current milestone.
--  `~Deliverable` issues take priority over any other work, as they are the main focus of each milestone and inform our [say-do ratio](#say-do-ratio).
+- `~Deliverable` issues take priority over any other work, as they are the main focus of each milestone and inform our [say-do ratio](#say-do-ratio).
 - Once a team member has completed their assigned issues, they are expected to go to the Milestone Board and assign themselves to the next unassigned issue from the current milestone.
 - If there are no more issues in the current milestone, engineers are expected to assign themselves to the next unassigned `workflow:ready for development` issue.
 - The issues on the board are in priority order based on importance (the higher they are on the list, the higher the priority). This order is set by the product manager.
@@ -242,7 +275,48 @@ In every milestone plan, we compile a list of bugs due in the coming milestone b
 In addition to the self-scheduling of feature development, the manager will from time to time assign bugs, or other work deemed important, directly to a team member.
 
 On top of the official issue-triaging process, when severity labels are assigned/changed, we aim to set the issue due date at the same time. If there are bugs with a severity label and without a deadline,
-everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/quality/issue-triage/#severity-slos).
+everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
+
+##### Best practices for managing bug issues
+
+Goals:
+  - Effectively track and label bug related issues.
+  - Ensure bug Due Dates are not missed due to a lack of DRIs on sub issues.
+  - Ensure the team is aware that help is needed in a specific area on a bug
+    that already has an overall DRI.
+
+Context:
+  - Single part bug issues
+    - Some bugs only require a single cohesive effort to resolve. For example an
+      isolated backend fix that requires no database or frontend changes. In
+      these cases, the DRI of the bug issue is the person doing the work, and
+      all work is tracked in the bug report issue.
+
+  - Multi-part bug issues
+    - In other cases, a bug issue may result in work across frontend, backend,
+      and database. This can result multiple engineers working separately as
+      DRIs of individual issues that all contributing to solving the bug.
+      Multiple issues are needed.
+
+Problem:
+  - Without a clear structure of issues for multi-part bugs, it's difficult for
+    the team to know how to help and how to plan. This difficulty can negatively
+    impact our say-do ratio.
+
+Best practices for managing multi-part bug issues:
+  - The original bug issue should be promoted to an epic.
+  - The original DRI becomes the overall bug epic DRI (note this on the epic).
+  - New sub issues representing each part of the work should be created on the
+    epic.
+  - The new issues should be noted as blocking the epic.
+  - Except for severity and priority, Labels should be copied over.
+  - Due dates should keep in mind the due date of the epic, which is based on
+    severity and priority.
+  - Deliverable labels should be applied if the epic is deliverable.
+  - DRI can use the Milestone Planning issue and/or reach out to relevant team
+    members to ask if there's availability within the Due Date. cc your
+    engineering manager so they can give a high level thumbs up/thumbs down
+    regarding the change in priority.
 
 #### Say-do ratio
 
@@ -274,28 +348,37 @@ Team members should use their best judgment to determine whether to assign the f
 - Does the MR require a lot of dev environments setup that team members outside the Environments group are likely to not have?
 - Is the MR part of a larger effort for which a specific team member already has all the context?
 
-### Handling UX Debt
+As team members and domain experts, both the MR author and initial reviewer are encouraged to share the broader context before, during, and throughout the review process to assist maintainers in conducting efficient reviews. This context may cover:
+
+- Known limitations;
+- Edge cases;
+- Implementation reasoning;
+- Links to relevant references.
+
+Providing context helps streamline the review process and invites a broader pool of maintainers to our domain  ([example](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/147280#note_1819842941)).
+
+### Handling Deferred UX
 
 Team members should make their best effort to resolve UX issues as they come up
 during MR reviews. However, there are times where the changes requested or
 feedback given would significantly slow down velocity. For the sake of
-efficiency and iteration, a UX debt issue must be opened to follow up on the
+efficiency and iteration, a Deferred UX issue must be opened to follow up on the
 feedback.
 
 In these instances, the engineer who authored the original MR should assign
 themselves the issue and become the DRI to evaluate the UX feedback. This may
 mean reaching out to the team's Product Designer to ensure the feedback is
 actionable and resolving the debt is prioritized appropriately during the
-following milestone planning. For example, for UX debt issues opened in the 16.3
+following milestone planning. For example, for Deferred UX issues opened in the 16.3
 milestone, engineers should evaluate and ensure appropriate prioritization of
 the issue during the planning of the 16.4 milestone. This does not mean that the
 issue must be resolved during the 16.4 milestone, but that the issue is placed
 into the appropriate step of our [product development
 flow](/handbook/product-development-flow), or closed if appropriate.
 
-This helps to ensure that UX debt issues are resolved in a timely manner,
+This helps to ensure that Deferred UX issues are resolved in a timely manner,
 keeping with the overall goals of the group and adherence to broader
-[engineering workflows](/handbook/engineering/workflow#ux-debt).
+[engineering workflows](/handbook/engineering/workflow#deferred-ux).
 
 ### Epic Ownership
 
@@ -459,10 +542,6 @@ to easily share and document the setup with the entire group. You can use [this]
 GitLab group to host the project.
 
 If the infrastructure is temporary, you can manage it with whichever tools you prefer.
-
-Currently hosted projects:
-
-- [arm64-runners](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/infra/arm64-runners): IaC for arm64-based GitLab runners for some projects requiring it due to the lack of arm64-based shared runners.
 
 ### Example/Demonstration projects
 

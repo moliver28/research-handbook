@@ -15,7 +15,7 @@ title: "Use case: GitLab + Google Cloud"
 | ---- | --- |
 | [Sara E. Davila](https://gitlab.com/saraedavila) | [William Chia](https://gitlab.com/williamchia) |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 The landscape of software development is changing. Today’s users expect to interact with software applications that are always-on and accessible from every device. To keep up, businesses of all sizes that have traditionally built and managed centralized, monolithic applications are shifting to distributed cloud services. And these services are being built and run by distributed teams located all around the world. Modernizing the business through IT is a cultural and technological shift.
 
@@ -55,7 +55,7 @@ The Infrastructure Engineering Director is responsible for building and scaling 
 
 The Release and Change Management Director is responsible for managing complex releases from concept to delivery. The CIO may be the final decision maker or buyer, but the Release and Change Management Director has significant influence in the buying process.
 
-# The GitLab Solution
+## The GitLab Solution
 
 ## Messaging and Positioning
 
@@ -88,7 +88,7 @@ See the full set of GitLab joint solution capabilities with Google Cloud at [htt
 
 ## Proof Points
 
-[General proof points](/handbook/sales/command-of-the-message/proof-points/) and [Customer Recognition](/customers/marketplace/)
+[General proof points](/handbook/sales/command-of-the-message/proof-points/) and [Customer Recognition](https://about.gitlab.com/customers/marketplace/)
 
 ### Quotes and reviews
 

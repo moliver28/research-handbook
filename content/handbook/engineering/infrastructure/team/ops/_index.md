@@ -1,66 +1,112 @@
 ---
 aliases: /handbook/engineering/infrastructure/team/reliability/general.html
-title: "Reliability:General Team"
+title: "Production Engineering Ops Team"
 ---
 
 ## Mission
 
-The General Team supports the Reliability Team's [overall vision](/handbook/engineering/infrastructure/team/reliability/#vision) by supporting services for GitLab.com that do not fit the mission of the other [Reliability Teams](/handbook/engineering/infrastructure/team/reliability/#reliability-teams). See the [dedicated General Team Page](/handbook/engineering/infrastructure/team/reliability/general.html) for more details.
+The Ops team is an infrastructure team under SaaS Platforms that focuses on improving processes that are vital to the succesful operations of Gitlab.
 
 ## Vision
 
-The General Team exists to ensure that all services at GitLab are properly supported by either providing that support directly or routing requests for new work to the appropriate [Reliability team](/handbook/engineering/infrastructure/team/reliability/#reliability-teams) while also being the primary operators and maintainers of the GitLab.com application.  In the short-term, the goal is shrink the overall pool of what we call "General" by assigning ownership of services to appropriate [Reliability team](/handbook/engineering/infrastructure/team/reliability/#reliability-teams) so that full attention can be paid to the processes, frameworks, architecture and automation required to properly support the GitLab.com application in the long term.
+The Ops teams vision is to enable service onwers to operate their own services using standardized processes, frameworks, architectures and tools. Some of those proceses and tools will be built by the Ops team, but many will be from other [Infrastructure teams](/handbook/engineering/infrastructure/team).
 
 ## Ownership and Responsibilities
 
+There are two areas that are the Ops team primary focus:
+
+1. Incident Management - Ops is responsible for improving the processes Gitlab uses for incident management
+2. Disaster Recovery - Ops is responsible for managing our disaster recovery processes with a particular focus on reducing our RTO
+
 ### Services
 
-The General Team is assigned issues based on the services they own.  This includes everything labeled `owner: reliability_general` in the [Service Catalog](https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml).
-
-#### Overlap
-
-It is not always easy or possible to definitively determine the primary services associated with an issue, incident, or other piece of work.  When there is a lack of clarity, General Team members should collaborate with other Reliability Teams to determine the best path forward.  If necessary reach out to any Reliability Engineering Manager for assistance.
-
-#### DBRE Support
-
-The [DBRE team](/handbook/engineering/infrastructure/team/reliability/database-reliability.html) occasionally requires SRE support which the General Team, by default, will provide.
+The Ops team has inherited assignment of services with `owner: reliability_general` in the [Service Catalog](https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml). Our goal is to help find appropriate owners for those services.
 
 ## How We Work - Prioritization
 
-### Issues and Epics
+### Project Management
 
-Issues are prioritized utilizing the [Issue Management and Prioritization Process for Reliability](/handbook/engineering/infrastructure/team/reliability/issues.html).  The issues themselves are managed on The [General Team Issue Board](https://gitlab.com/gitlab-com/gl-infra/reliability/-/boards/3993753?label_name%5B%5D=team%3A%3AGeneral).   This board is reviewed a minimum of once per week by the Engineering Manager for the General Team or by another member of the team if the Engineering Manager is not available.
+The Ops team top level Epic can be found [here](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176).
+We follow the Infrastructure SaaS Platforms Project Management practices as outlined in the [Handbook](/handbook/engineering/infrastructure/platforms/project-management/).
 
-### OKRs
+#### OKRs
 
-OKRs are established following the same process for [issue prioritization](/handbook/engineering/infrastructure/team/reliability/issues.html).  In addition to OKRs, a variable percentage of team capacity is reserved each quarter for unplanned work (as the General Team will, by default, own any work that does not currently have a pre-defined owner).
+For Objectives and Key Results, we align with [Platforms guidance](/handbook/engineering/infrastructure/platforms/#okr) for creation and structure.
 
-### Corrective Actions and Security Issues
+#### Epics
 
-`~Severity::1`/`~Severity::2` Corrective Actions and `~reliability::P1`/`~reliability::P2` Security issues are, by default, prioritized over all other types work.
-``By default,`~Severity::1`/`~Severity::2` Corrective Actions and `~reliability::P1`/`~reliability::P2` Security issues are prioritized over all other issue types.
+In addition to the format described in the [platforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#epics), these sections may be helpful
+
+```markdown
+
+## Administrative
+
+<!-- A copy paste section for creating child epics/issues, ensuring that they relate to the current epic and have the correct labels -->
+
+\`\`\`
+/epic [current epic]
+/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P2" 
+\`\`\`
+
+## References
+
+<!-- Links to related OKRs, Epics or issues, external resources etc -->
+
+## Demos
+
+| Demo Date | Demo Link | Highlights |
+|-----------|-----------|------------|
+
+## Decision log
+<!-- A collapsible section to aggregate any decisions made along the way. Be sure to include "why" in addition to "what". -->
+
+{{% details summary="Log" %}}
+{{% details summary="date" %}}
+[decision taken and why]
+{{% /details %}}
+{{% /details %}}
+
+```
+
+- Apply any applicable service labels.
+- Make sure to give good context for the status and progress of the project in the weekly status update. If the epic is not on-track, please provide a plan for getting back on-track when possible.
+
+#### Epic Status Updates
+
+Project status is maintained in the description of the top-level epic so that it is visible at a glance. This is auto-generated using the [epic issues summary project](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries). You can watch a [short demo of this process](https://youtu.be/6Wb1f-c1_og) to see how to use status labels on the epics to make use of this automation.
+
+#### Issues
+
+Open planned work for our team is located in the [Production Engineering](https://gitlab.com/gitlab-com/gl-infra/production-engineering/) project. Issues should be updated whenever significant work occurs. New issues are expected to:
+
+- Link to a related Epic.
+- Include the following Labels (update the priority as needed):
+
+   ```
+   /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P4"
+   ```
+
+- If there is a service label that is applicable, also apply that.
 
 ### Processes
 
 #### Monthly Availability Updates
 
-The General Team is responsible for ensuring the published Monthly Availability Updates are maintained.  This is currently a manual process.   Items to update include:
+The Ops Team is responsible for ensuring the published Monthly Availability Updates are maintained.  This is currently a manual process.   Items to update include:
 
-1. [Historical Service Level Availability](/handbook/engineering/monitoring/#historical-service-level-availability) including [maintenance windows](https://status.gitlab.com/pages/history/5b36dc6502d06804c08349f7]) from the month in the comments
-1. [Executive Summary](/handbook/engineering/infrastructure-quality/performance-indicators/#executive-summary)
-1. [GitLab.com Availability](/handbook/engineering/infrastructure-quality/performance-indicators/#gitlabcom-availability) (Only last 3 months are required)
+1. [Historical Service Level Availability](/handbook/engineering/monitoring/#historical-service-level-availability) including [maintenance windows](https://status.gitlab.com/pages/history/5b36dc6502d06804c08349f7) from the month in the comments
 
-Each of these items should be updated to reflect the most recent month.  ([Sample MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127806)).
+Each of these items should be updated to reflect the most recent month.  ([Sample MR](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/4115)).
 
 Latest results are on the [GitLab.com General SLA Dashboard](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-1M%2FM&to=now-1M%2FM) (internal only)
 
 {{% alert title="Note" color="primary" %}}
-Updates must be merged by the 7th day of each month.  This is currently a scheduled event on the Reliability General Team's Calendar.  Contact any member of the team for more details on this process.
+Updates must be merged by the 7th day of each month.  This is currently a scheduled event on the Reliability Ops Team's Calendar.  Contact any member of the team for more details on this process.
 {{% /alert %}}
 
 #### Monthly Review of Incident and Pager Trends
 
-The General team coordinates the monthly process to identify incident and pager trends across the engineering organization.  This is an async process with the following objectives:
+The Ops team coordinates the monthly process to identify incident and pager trends across the engineering organization.  This is an async process with the following objectives:
 
 - Identify actions to address issues identified in the Reliability Team Monthly Availability Reports.
 - Generate action items based on the review of key metrics for incidents and pages.
@@ -71,9 +117,9 @@ The General team coordinates the monthly process to identify incident and pager 
 
 These efforts are coordinated asynchronously via the [GitLab Incident and Pager Trends Monthly Review Agenda](https://docs.google.com/document/d/1SBoyuKK_g3RbYMcwJZs6dFqCGH9NCqu-M3QsHIwiKMw/edit#)
 
-The process is scheduled on the General Team Calendar to kick off on the first Tuesday of each month.
+The process is scheduled on the Ops Team Calendar to kick off on the first Tuesday of each month.
 
-The DRI kicking off the process and ensuring its progress is rotated among members of the General Team.
+The DRI kicking off the process and ensuring its progress is rotated among members of the Ops Team.
 
 All our welcome to participate in the process of identifying trends.  EOCs, especially, are encouraged to participate.
 
@@ -89,38 +135,12 @@ All our welcome to participate in the process of identifying trends.  EOCs, espe
 1. Week 4: Add an item to the [Reliability Leadership Sync Agenda](https://docs.google.com/document/d/1K-od3_I1TsMcyLag-KyUw-iuCAaaqjR0GIbrmBwVU4M/edit#) and include a summary of action items created.  Please include severity for each item.
 1. Week 4: Send a final reply to the announcement thread indicating that the process is closed for the month.
 
-## Team Status Updates
-
-The General Team provides weekly updates all Epics following the [Reliability Process for Epics](/handbook/engineering/infrastructure/team/reliability/issues.html#epics).
-
-OKRs are updated every Wednesday as required by the [Reliability Process for OKR Updates](/handbook/engineering/infrastructure/team/reliability/#okrs)
-
-[Current OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=closed_at_desc&state=opened&type%5B%5D=objective&label_name%5B%5D=Reliability%3A%3AGeneral&first_page_size=100)
-
-## Performance Indicators
-
-- Success Criteria: 85% of OKRs achieved
-- Issue Metrics
-  - Corrective Actions Over Time (specific to the General Team)
-    - Success Criteria: Must meet or exceed the Reliability [SLO](/handbook/engineering/infrastructure/team/reliability/issues.html#service-level-agreements)
-  - Lead Time
-    - Success Criteria: Meets or exceeds current [Reliability SLO](/handbook/engineering/infrastructure/team/reliability/issues.html#service-level-agreements)
-- Customer Satisfaction
-   - Success Criteria: TBD
-
 ## Team Members
 
 {{< team-by-manager-slug manager="kkyrala" >}}
 
-## Key Technical Skills
-
-The General Team must maintain a broad and diverse set of technical skills while also maintaining the ability to switch contexts frequently.  Some of these technical skills include:
-
-- Software engineering - Proficiency in one or more programming languages and experience with software development methodologies.
-- Systems administration - Knowledge of operating systems and experience with tasks such as installing and configuring software, managing users and permissions, and setting up and maintaining network services.
-- Network and Application Security and Compliance - Understanding of network security concepts and experience penetration testing and vulnerability assessment.
-
 ## Common Links
 
-- Issue Board: [All issue by priority](https://gitlab.com/gitlab-com/gl-infra/reliability/-/boards/3993753?label_name%5B%5D=team%3A%3AGeneral)
-- Slack Channel: #g_infra_general
+- Ops Epic List: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176
+- Issue Board: [All issue by priority](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/3993753?label_name[]=team%3A%3AOps)
+- Slack Channel: #g_infra_ops

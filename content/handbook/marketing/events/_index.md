@@ -22,19 +22,20 @@ There are 3 groups within marketing who handle external events. Each group has a
 
 
 
-### Legal verbiage that should be included in all event contracts thoughout FY22
+### Legal verbiage that should be included in all event contracts
 
 - This language is what we should be adding to supplier agreements (when agreeing on their template):
   - "Termination for Convenience. GitLab may terminate this Agreement, any SOW or Order, or all at any time, for no reason or for any reason, upon notice to Vendor. Upon receipt of notice of such termination, Vendor shall inform GitLab of the extent to which it has completed performance as of the date of the notice, and Vendor will collect and deliver to GitLab whatever Work Product then exists, if applicable. GitLab will pay Vendor for all Work acceptably performed through the date of notice of termination, provided that GitLab will not be obligated to pay any more than the payment that would have become due had Vendor completed and GitLab had accepted the Work. GitLab will have no further payment obligation in connection with any termination. Upon termination or expiration of this Agreement, Vendor shall return or destroy any GitLab Confidential Information and provide certification thereof."
 - In the event that any supplier does not accept the termination for convenience language here, then, we can following up with this option
   - "Neither party shall be liable to the other for delays or failures in performance resulting from causes beyond the reasonable control of that party, including, but not limited to, acts of God, labor disputes or disturbances, material shortages or rationing, pandemics, riots, acts of war, governmental regulations, communication or utility failures, or casualties (“Force Majeure”).
 - In the event of a Force Majeure impact on the performance of either party, then the parties are immediately relieved of obligation to perform. From notice to supplier, GitLab is relieved of the payment obligation. As soon as is practical, but not more than sixty (60) days from GitLab’s notice to supplier, GitLab shall receive from supplier a pro-rata refund of, any fees previously paid, from the date of notice to supplier to the end of the term."
+- Required details for leads shared include: first name, last name, company, title, email 
 
 ## Which events is GitLab already sponsoring?
 
 - Internal tracking of in person events, please add our [Events and Sponsorship Calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to your calendar.
 - Internal tracking of virtual events [can be found here](/handbook/marketing/#calendar).
-- External facing event tracker can be found at [https://about.gitlab.com/events/](/events/)
+- External facing event tracker can be found at [https://about.gitlab.com/events/](https://about.gitlab.com/events/)
 
 ## Interested in attending an event we are already sponsoring?
 
@@ -126,16 +127,16 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 * Event DRI:
 * Campaign Type: `Usually Owned Event or Conference'
 * Type: In-Person
-* Official Event Name:   
-* Date(s):  
+* Official Event Name:
+* Date(s):
 * Campaign utm `enter utm here` (Format: Campaign Tag, must be all lowercase, with no spaces, underscores, or special characters)
 * [Add the planning sheet]()
 * Related GTM motions (select all that apply)
       * [ ]  Security and Compliance
       * [ ]  DevSecOps Platform
       * [ ]  Automated Software Delivery
-* [SFDC Campaign]() 
-* [MKTO Program]() 
+* [SFDC Campaign]()
+* [MKTO Program]()
 * Event Budget:
 * Allocadia ID: `enter ID`
 
@@ -169,7 +170,7 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 
 ### Step 4- DRI Event Admin Tasks
 
-1. Add the event to Events Cal and [Events Page](/events/).
+1. Add the event to Events Cal and [Events Page](https://about.gitlab.com/events/).
    - How to [add an event to the events page](#how-to-add-events-to-aboutgitlabcomevents).
 1. Start an [event DRI issue](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_DRI_Template) and start checking off the necessary tasks. Some things to note as you go through process in template:
    - Start an event specific slack channel.
@@ -202,7 +203,7 @@ NOTE: The Epic is the main hub for all event information. **All issues** associa
 1. PR
    - Start issue using the [announcement template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=announcement) in the Corporate Marketing project for any company, partner or product news that is expected to be announced/timed around  the event. More details on the Request for External Announcements process can be found in the Corporate Communications handbook [here](/handbook/marketing/corporate-communications/#requests-for-external-announcements).
 1. Design
-   1. For the latest approved booth design & messaging, email `events@gitlab.com`.
+   1. For the latest approved booth design & messaging, [please see here](https://www.figma.com/file/pJvEWjV5ajSycyAlV1l69I/FY25-Final-Event-Booth-Creative-Chart?type=design&node-id=0-1&mode=design&t=cuVT3bWxORR2QUNu-0). 
    1. Open issue in the `Corporate Marketing` project for booth design. Assign to Design team and provide booth spec and due date. Provide as much notice as possible.
    1. For any content or major layout changes, tag Product and Solution Marketing and Design in the related booth design issue created in the `Corporate Marketing` project.
 1. Digital
@@ -400,7 +401,7 @@ The above planning list is not exhaustive - see planning issue template in field
 - We lean towards those who might be thought leaders, specialists, or more social for a specific show - i.e. if we are sponsoring an AWS show, we would like for a GitLab + AWS expert to staff the event.
 - We aim to bring minimal team members to keep costs and disruption to normal workflow low. We take into account what value everyone will provide as well as coverage balance. Please check with the event DRI if you personally would like to attend or if you would like to suggest someone participate in an event.
 - Once you have agreed to attend an event, you are not able to back out unless there is a customer facing obligation you need to tend to. We have this in place to avoid unnecessary rework on the event DRI’s behalf.
-- A lot of times a technical sales resource needs to also be assigned to attend an event. In order to do so, please review the SA handbook for [instructions](/handbook/customer-success/solutions-architects/#when-and-how-to-engage-a-solutions-architect) on how to secure one of our awesome SA's. Tag the issue with technical-staff::required and once staffing attained change to label technical-staff::complete.
+- A lot of times a technical sales resource needs to also be assigned to attend an event. In order to do so, please review the SA handbook for [instructions](/handbook/solutions-architects/#when-and-how-to-engage-a-solutions-architect) on how to secure one of our awesome SA's. Tag the issue with technical-staff::required and once staffing attained change to label technical-staff::complete.
 - All those attending will need their manager's approval.
 - If you have been approved by the DRI and your manager to help staff an event, all your travel will be included during the time for the event/ expo days. You need to be onsite and ready to help out as soon as the first expo hall shift opens up and you may book travel any time after the expo hall closes. We will cover the night of lodging before the expo hall opens through to the night it closes. Any additional nights will need to be covered by the individual.
 - Event staffing list will close 2 weeks for **field** events or 3 weeks for **corporate** events before commencement of the event.
@@ -408,7 +409,7 @@ The above planning list is not exhaustive - see planning issue template in field
 
 ### Requesting Technical Staffing
 
-Some events require technical staffing (Solutions Architects and/or others from the Customer Success team). To request technical staffing, please [follow this process](/handbook/customer-success/solutions-architects/processes/#requesting-an-sa-to-support-events). 
+Some events require technical staffing (Solutions Architects and/or others from the Customer Success team). To request technical staffing, please [follow this process](/handbook/solutions-architects/processes/#requesting-an-sa-to-support-events).
 
 ### COVID-19 Event Outreach
 
@@ -617,11 +618,11 @@ The sales nominated process allows for records to be added to the campaign in or
 
 1. List received by event DRI from event organizers
 1. Event DRI reviews and cleans up list following the guidelines for [list imports](/handbook/marketing/marketing-operations/list-import/)
-1. We now use an automated list import process, described on the link above and in the list clean and upload issue. 
+1. We now use an automated list import process, described on the link above and in the list clean and upload issue.
    - Marketo will match based on `Email Address` to existing records regardless if LEAD or CONTACT object.
 1. Marketo will sync to SFDC automatically. Traction assigns records based on Territory ownership.
 1. Event DRI will notify Marketing Ops in the email follow-up issue that the list has been loaded.
-1. The import bot will update the `#event_list_upload` channel upon list upload.  
+1. The import bot will update the `#event_list_upload` channel upon list upload.
 1. Event DRI follow up on leads to make sure expected followup completed and lead status changed.
 
 Common lead questions:
@@ -728,7 +729,7 @@ Corporate Events utilizes [QR Code Generator](https://www.qr-code-generator.com/
 
 #### Login for the [QR Code Generator](https://www.qr-code-generator.com/)
 
-Both Field Marketing and Corporate Events utilize the same login found in the Marketing 1pass vault under `QR Code Generator - Field Marketing and Corporate Events`. 
+Both Field Marketing and Corporate Events utilize the same login found in the Marketing 1pass vault under `QR Code Generator - Field Marketing and Corporate Events`.
 
 #### Pausing or Deleting QR Codes After an Event
 
@@ -832,7 +833,7 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
 - Go to avery.com and log in with the events login found in the Marketing 1pass
 - Under `Templates` select `Avery Design & Print`
 - Click `Start Designing`
-- Under `Quick Search`, type in the badge number found on the box of your previously purchased Avery paper (links provided in `Items to Purchase` above) 
+- Under `Quick Search`, type in the badge number found on the box of your previously purchased Avery paper (links provided in `Items to Purchase` above)
 - Select either one-sided or two-sided (if you intend to print on the back of the badge) and click `Select this Template`
 - At the top of the page select `Apply from a Saved Project`
 - Click `Select and Customize` on the horizontal orientation option
@@ -896,70 +897,9 @@ At GitLab owned events we will sometimes host 10 minute lightning meetings with 
 - There is no agenda for the 10 min meeting. The DRI for the meetings should quickly research the company via SFDC (if you don’t have the SFDC app on your phone, this is a great use case for why it’s useful!) gather as much info as quickly possible and relay this info to the CXO. As an example, if there is an enterprise customer next in-line to meet with CXO, let the CXO know. Short brief info, as you won’t have much time to relay this info.
 - Notes should be taken by the DRI or a designated delegate in the room so the CXO can focus on the meeting. These notes should be added within 48 hours to the person record in SFDC by the DRI note taker. If any next steps were discussed and an action was assigned to someone not in the room, be sure to tag the person who was assigned!
 
-## How to add events to [about.gitlab.com/events](/events/)
+## How to add events to [about.gitlab.com/events](https://about.gitlab.com/events/)
 
-In an effort to publicly share where people can find GitLab at events in person throughout the world, we have created [about.gitlab.com/events](/events). This page is to be updated by the person responsible for the event. To update the page, you will need to contribute to the [events.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/content/events/index.yml#L70) starting after the `events` section (roughly line 70).
-If you need more information about our exact involment in an specific event please visit the marketing project in gitlab.com and search the name of the event for any realted issues. The "Meta" issue should include the most thorough and high level details about each event we are participating in. Place your event in the order in which it is happening. The list runs from soonest to furthest in the future.
-Save event images and headers here: Save images for featured events [here](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/static/nuxt-images/events)
-
-
-If you don't have merge permissions, or if you're having trouble with the pipeline, you can assign an [Engineer on the Digital Experience team](/handbook/marketing/digital-experience/) (commonly, `@lduggan`) to be a **Reviewer** on the MR, or post in #digital-experience-team on slack.
-
-### Details to be included (all of which are mandatory in order for your MR to pass the build):
-
-
-
-- **Topic** - Name of the event you would like to add
-- **Type** - Please choose one of the following: `Diversity`, `Conference`,
-  `MeetUp`, `Speaking Engagement`, `Webcast`, `Community Event` or `GitLab Connect`. **Events cannot have more than one type.** If more than one apply, choose the best. If you feel your event doesn’t fit in the below category, do not just manually add a type. Please reach out to events@gitlab.com to suggest a new type of event.
-- **Date starts** - Day event starts (Ex. `October 21, 2021`)
-- **Date ends** - Day event ends (For a single day event, please put the date in both the `Date starts` and `Date ends` section)
-- **Description** - Brief overview about event (can be taken from event homepage).
-- **Location** - city, state, provinces, districts, counties (etc depending on country), country where event will take place
-- **Region** - `AMER`, `LATAM`, `EMEA`, `APAC`, `PubSec`, or `Global`
-- **Social tags** - hashtag for event shared by event host
-- **Event URL** - homepage for event
-
-#### Example
-
-
-
-```
-- topic: The Best DevOps Conference Ever
-  type: Conference
-  date_starts: January 1, 2050 # Month DD, YYYY
-  date_ends: January 3, 2050 # Month DD, YYYY
-  description: The Best DevOps Conference Ever brings together the best minds in the DevOps land.
-  location: Neverland, NVR
-  region: APAC
-  social_tags:
-    - DEVOPS4LIFE
-    - DevOps
-  event_url: https://2050.bestdevops.org
-```
-
-#### Template
-
-
-
-```
-- topic:
-  type:
-  date_starts:
-  date_ends:
-  description:
-  location:
-  region:
-  social_tags:
-  event_url:
-```
-
-For featured events include:
-
-```
-featured:
-    background: background/image/src/here.png
-```
+In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](https://about.gitlab.com/events). This page is to be updated by the person responsible for the event. This page is now managed through [Contentful](/handbook/marketing/digital-experience/contentful-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/contentful-cms/editing-content/#adding-an-event-to-the-events-page).
 
 ## Creating a Marketo Landing Page
 

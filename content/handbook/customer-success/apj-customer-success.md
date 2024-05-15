@@ -36,7 +36,7 @@ The WW ["Customer Success Vision Page"](/handbook/customer-success/vision/) prov
 Currently the local APJ CS team has Solutions Architects & Customer Success Managers in the team. The team reports to the Manager, Solutions Architects and the Manager, Customer Success Manager respectively.
 
 - [Manager, Solutions Architects](/job-families/sales/solutions-architect/#manager-solutions-architects) responsibilities
-- [Solutions Architect](/handbook/customer-success/solutions-architects/) responsibilities
+- [Solutions Architect](/handbook/solutions-architects/) responsibilities
 - [Manager, Customer Success Manager](/job-families/sales/customer-success-management/#manager-csm) responsibilities
 - [Customer Success Manager](/handbook/customer-success/csm/) responsibilities
 
@@ -99,7 +99,7 @@ The CS team has also been building out a web-application to visualise the inform
 
 - Podcasts
 
-# Meetings & Structure
+## Meetings & Structure
 
 Our open-door policy encourages any discussion point, concern, suggestion, proposal and/or idea to be brought forward in any APJ Customer Success meeting in a positive and open manner.
 

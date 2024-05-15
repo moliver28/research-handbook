@@ -27,10 +27,13 @@ For more information on this, please see
 As a lot relies on organizations being setup properly, this feature requires
 admin level abilities currently. If an organization needs to be edited, an issue
 should be filed using the
-[Zendesk Global Organization](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new)
-or
-[Zendesk US Federal Other](https://gitlab.com/gitlab-com/support/support-ops/zendesk-us-federal-project/-/issues/new?issuable_template=Other)
-issue template.
+[support ops issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
+
+## Deleting Organizations
+
+For more information on organization deletion, please see the
+[Organization Deletion](/handbook/support/readiness/operations/docs/policies/org_deletion)
+policy page.
 
 ## Organization Notes for Zendesk Global
 
@@ -43,7 +46,7 @@ Support Operations organizations notes are managed via Zendesk in the `Notes`
 and `Details` fields on the organization itself.
 
 Support Team organization notes are managed via the
-[organizations project](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations).
+[organizations project](https://gitlab.com/gitlab-com/support/zendesk-global/organizations).
 
 Aside from Support Operations, all support managers have `Maintainer` access to
 the organization project, enabling them the ability to approve and merge MRs in
@@ -51,7 +54,7 @@ this repo.
 
 When an organization has a ticket created, a trigger calls to a webhook to
 run a pipeline using the
-[ticket processor](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/ticket-processor)
+[ticket processor](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/processor)
 (on ops.gitlab.net). This then combines the Support Operations and Support Team
 organization notes into internal comments on the ticket itself.
 
@@ -74,7 +77,7 @@ sync integration has hit an issue. Luckily, we have the GitLab built sync script
 that runs every hour to rectify such issues.
 
 In your due diligence, you would want to create an issue via the
-[Zendesk Organization Repo](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/organizations/-/issues/new)
+[Zendesk Organization Repo](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/issues/new)
 so support-ops can double check to ensure there is nothing blocking the sync.
 
 ## Organization Permissions

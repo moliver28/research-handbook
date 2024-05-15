@@ -37,11 +37,11 @@ Our primary responsibility in the Support Leadership team is to ensure high qual
 |  | Work with GitLab Sales, Pricing, Product, and other teams when company initiatives change Support requirements |
 | Help Support Engineers to manage tickets, manage customer expectations, and communicate well | Coach SEs on communication techniques |
 |  | Understand Support Workflows and escalation paths |
-|  | Support your team members' [participation in on-call rotations](/handbook/support/on-call/) to coordinate and resolve emergencies
+|  | Support your team members' [participation in on-call rotations](/handbook/support/on-call/) to coordinate and resolve emergencies |
 |  | Join [Customer Calls](/handbook/support/workflows/customer_calls) with SEs on request or according to your judgement |
 |  | Propose, develop, and evaluate improvements to Support processes by acting as DRI for [issues in the Support Meta project](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues) |
 | Stay up-to-date on GitLab Product, Strategy, Pricing, etc. | Contribute to and read the [Support Week in Review](/handbook/support/#support-week-in-review) document every week |
-|  | Participate (at the Section level or cross-functional level) in [Support Stable Counterparts](/handbook/support/#support-stable-counterparts) or [Cross-functional non-product counterparts](/handbook/support/#cross-functional-non-product-counterparts)
+|  | Participate (at the Section level or cross-functional level) in [Support Stable Counterparts](/handbook/support/#support-stable-counterparts) or [Cross-functional non-product counterparts](/handbook/support/#cross-functional-non-product-counterparts) |
 
 ## Support and nurture team members in Customer Support and SGG (Support Global Groups)
 
@@ -52,13 +52,13 @@ We are equally responsible to ensure our team members are supported in their Git
 | Support and nurture team members | Foster cross-regional connections among Support Engineers and Support Managers |
 |  | Create an inclusive environment and foster DIB values within the team |
 |  | Participate in [Support Weekly Meetings](/handbook/support/#weekly-meetings) |
-|  | Build strong working relationships with your colleagues in Support leadership through [informal communication](/handbook/company/culture/all-remote/informal-communication/)
+|  | Build strong working relationships with your colleagues in Support leadership through [informal communication](/handbook/company/culture/all-remote/informal-communication/) |
 |  | [Conduct weekly 1:1s](#conducting-weekly-11-meetings) with each direct report |
 |  | Recommend projects, training, and leadership roles for your direct reports |
-|  | [Support your direct reports](/handbook/support/support-stable-counterparts#expectations-from-managers) who are [Support Stable Counterparts](/handbook/support/#support-stable-counterparts) or [Cross-functional non-product counterparts](/handbook/support/#cross-functional-non-product-counterparts)
+|  | [Support your direct reports](/handbook/support/support-stable-counterparts#expectations-from-managers) who are [Support Stable Counterparts](/handbook/support/#support-stable-counterparts) or [Cross-functional non-product counterparts](/handbook/support/#cross-functional-non-product-counterparts) |
 |  | Ensure regular professional/career development for each direct report |
 |  | Perform annual [360 Reviews](/handbook/people-group/360-feedback/) and Performance Factor Reviews (compensation) |
-|  | Conduct [Performance Factor reviews](/handbook/total-rewards/compensation/compensation-review-cycle/#performance-factor) and [Compensation reviews](/handbook/total-rewards/compensation/compensation-review-cycle/)
+|  | Conduct [Performance Factor reviews](/handbook/total-rewards/compensation/compensation-review-cycle/#performance-factor) and [Compensation reviews](/handbook/total-rewards/compensation/compensation-review-cycle/) |
 |  | Handle any HR / People Group questions and topics from direct reports |
 |  | Review, approve, and merge GitLab Issues and MRs from direct reports |
 |  | Support your team members' participation in on-call rotations |
@@ -87,14 +87,14 @@ Ask and answer questions in Slack. (We don't have a way to easily track this, bu
 
 Important Slack channels:
 
-    1. `#spt_managers`
-    1. `#support_ticket-attention-requests`
-    1. `#spt_hiring`
-    1. `#support_team_chat`
-    1. `#thanks`
-    1. `#team-member-updates`
-    1. `#managers`
-    1. `#eng-managers`
+1. `#support_leadership`
+1. `#support_ticket-attention-requests`
+1. `#spt_hiring`
+1. `#support_team_chat`
+1. `#thanks`
+1. `#team-member-updates`
+1. `#managers`
+1. `#eng-managers`
 
 ### Conducting weekly 1:1 meetings
 

@@ -11,7 +11,7 @@ GitLab has three big quarterly internal-only meetings to align team members on k
 
 Timing of team member touchpoints:
 
-- [Quarterly Kickoff](/handbook/ceo/chief-of-staff-team/#quarterly-kickoff) (first half of the first month of the quarter): Typically a video update from GitLab CEO, Sid Sibrandij shared on Slack, followed by an AMA
+- [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff) (first half of the first month of the quarter): Typically a video update from GitLab CEO, Sid Sibrandij shared on Slack, followed by an AMA
 - [Earnings Call](/handbook/finance/investor-relations/#quarterly-earnings-process) (first half of the second month of the quarter): Public call that team members are invited to attend
 - [Post-Earnings Recap & AMA](#post-earnings-recap--ama) (immediately following earnings): A 25 minute private AMA occurring after Earnings
 - [Assembly](/handbook/people-group/employment-branding/people-communications/#gitlab-assembly) (end of second month, early the third month of a quarter): An all-company meeting occurring 3-4 weeks after Earnings that covers a wide range of topics
@@ -43,6 +43,7 @@ This is a forum to review our long-term goals, recognize progress made in the pr
 The Quarterly Kickoff is followed by an AMA hosted by the CEO.
 
 The CEO's Quarterly Kickoff Slides usually cover:
+
 - Recap of GitLab’s [Mission](/handbook/company/mission/)/[Vision](/handbook/company/vision/)/[Strategy](/handbook/company/strategy/) noting any updates made
 - Review the previous quarters OKRs, scores, and important details
 - Progress for [Yearlies](/handbook/company/yearlies/)
@@ -50,7 +51,7 @@ The CEO's Quarterly Kickoff Slides usually cover:
 - Marathon Slide (as needed)
 - Reiterate how all elements of [cadence fit together](/handbook/company/yearlies/#cadence) including any new or changed elements of hierarchy such as new OKRs.
 
-The Quarterly Kickoff is a [CoST](/handbook/ceo/chief-of-staff-team/) initiative.
+The Quarterly Kickoff is an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) initiative.
 
 ### Timeline for the Quarterly Kickoff
 
@@ -83,16 +84,21 @@ The Quarterly Kickoff is a [CoST](/handbook/ceo/chief-of-staff-team/) initiative
 1. Fourth week of the last month of the current quarter - ensure time is scheduled for the chosen date for the CEO to send the comms
 1. Second full week of the new quarter - ping the CEO to send the comms on the correct day. Attend the AMA which follows.
 
-#### Schedule for remaining FY24 and first FY25 Quarterly Kickoffs
+#### Schedule for remaining FY25 and FY26 Quarterly Kickoffs {#schedule}
 
-1. FY24-Q2: Review/Record 2023-05-08 and 2023-05-10. Share the video on 2023-05-15. AMA on 2023-05-17
-1. FY24-Q3: Review/Record 2023-08-07 and 2023-08-09. Share the video on 2023-08-14. AMA on 2023-08-16
-1. FY24-Q4: Review/Record 2023-11-06 and 2023-11-08. Share the video on 2023-11-13. AMA on 2023-11-15
-1. FY25-Q1: Review/Record 2024-02-05 and 2024-02-07. Share the video on 2024-02-12. AMA on 2024-02-14
+**Note:** This schedule is subject to change based on the CEO's availability
+
+1. FY25-Q2: Review/Record weeks of 2024-04-29 (non-OKR content) and 2025-05-06 (OKR content). Share the video on 2025-05-09. AMA week of 2025-05-13.
+1. FY25-Q3: Review/Record 2024-08-05 and 2024-08-07. Share the video on 2024-08-12. AMA on 2024-08-14.
+1. FY25-Q4: Review/Record 2024-11-04 and 2024-11-06. Share the video on 2024-11-11. AMA on 2024-11-13.
+1. FY26-Q1: Review/Record 2025-02-03 and 2025-02-05. Share the video on 2025-02-10. AMA on 2025-02-12.
+1. FY26-Q2: Review/Record 2025-05-03 and 2025-05-05. Share the video on 2025-05-12. AMA on 2025-05-14.
+1. FY26-Q3: Review/Record 2025-08-04 and 2025-08-06. Share the video on 2025-08-11. AMA on 2025-08-13.
+1. FY26-Q4: Review/Record 2025-11-03 and 2025-11-05. Share the video on 2025-11-10. AMA on 2025-11-12.
 
 ### How to prepare the Slides
 
-**Note:** A member of the CoST is the DRI for this but we coordinate with Internal Comms, Legal, and the EBA team to get the slides prepared, recorded, shared, and AMA scheduled.
+**Note:** A member of the Office of the CEO is the DRI for this but we coordinate with Internal Comms, Legal, and the EBA team to get the slides prepared, recorded, shared, and AMA scheduled.
 {: .note}
 
 - Start by copying the last slide deck. This will form the skeleton

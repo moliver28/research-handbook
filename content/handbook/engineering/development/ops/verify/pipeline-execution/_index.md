@@ -3,6 +3,8 @@ title: "Verify:Pipeline Execution Group"
 description: "The GitLab team page for the Pipeline Execution Group."
 ---
 
+This team maps to [Verify](/handbook/product/categories/#verify-stage) DevOps stage and supports the Continuous Integration [use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/).
+
 ## Vision
 
 For an understanding of what this team is going to be working on take a look at [the product
@@ -13,15 +15,13 @@ vision](https://about.gitlab.com/direction/verify/). This team is responsible fo
 
 ## Mission
 
-The Verify:Pipeline Execution Group is focused on supporting the functionality with respect to
-Continuous Integration [use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/). A key focus for the PE group is delivering features that achieve the outcome we track in our performance indicator.
+Make software development easier, faster, and more reliable by creating and supporting a Continuous Integration product that is performant, scalable, and lovable.
 
-This team maps to [Verify](/handbook/product/categories/#verify-stage) DevOps stage.
+The Verify:Pipeline Execution Group is focused on supporting the functionality with respect to
+[Continuous Integration](https://about.gitlab.com/solutions/continuous-integration/). A key focus for the PE group is delivering features that achieve the outcome we track in our performance indicator.
+
 
 ## Driving Factors
-
-Our focus is on improving our performance, scalability, and developer efficiency with our engineering driven efforts.
-We will also continue to address Customer Experience through our quality initiatives. Key aspects of each of these areas are outlined below.
 
 ### Performance
 
@@ -48,6 +48,7 @@ We will also continue to address Customer Experience through our quality initiat
   - Ensuring that customer issues are resolved in a timely manner.
   - Addressing SUSImpacting issues in a timely manner.
   - Ensuring reliable and accurate documentation is available.
+
 
 ## Performance Indicator
 
@@ -238,6 +239,7 @@ At the end of the milestone, any issues that are still ongoing, may be transitio
 This team member will have the following responsibilities for the milestone and will have a small ~Deliverable task:
 
 1. Ensure that all Verify-P* issues are assigned to team members for refinement throughout the milestone. You may assign issues directly to or tag fellow team members for weighting. You may also defer to the EM, ensuring they know there are issues that need to be assigned.
+1. Ensure that the issues in the next milestone's planning issue are weighted
 1. Follow-up with team members if refinement does not appear to be making progress. You may redirect this to the EM if you prefer.
 1. [Optional] Organize and host a weekly refinement swarm meeting where team members can refine issues as a group.
     1. This is an excellent opportunity to tackle the refinement of some of our more challenging issues and refinement spikes.
@@ -256,17 +258,12 @@ This team member will have the following responsibilities for the milestone in a
 
 #### Rotation Schedule
 
+** Program Paused **
+
 | Milestone | Front-line Responder | Refinement Coordinator | Community Coordinator |
 | --------- | -------------------- | ---------------------- | --------------------- |
-| 16.8 | Marius | Panos | Max |
-| 16.9 | Max | Tian | Allison |
-| 16.10 | José | Hordur | Tian |
-| 16.11 | Panos | Max | José |
-| 17.0 | Tian | Marius | Panos |
-| 17.1 | Drew | Payton | Hordur |
-| 17.2 | Allison | Drew | Marius |
-| 17.3 | Payton | José | Drew |
-| 17.4 | Hordur | Allison | Payton |
+
+
 
 ## Stable Counterparts
 
@@ -284,7 +281,7 @@ is written in. Familiarity with Docker and Kubernetes is also useful on our team
 - [Slack channel: `#g_pipeline-execution`](https://gitlab.slack.com/archives/CPCJ8CCCX)
 - [GitLab unfiltered: Pipeline Execution group](https://www.youtube.com/playlist?list=PL05JrBw4t0KpsVi6PG4PvDaVM8lKmB6lV)
 - [Grafana dashboard](https://dashboards.gitlab.net/d/stage-groups-pipeline_execution/stage-groups-group-dashboard-verify-pipeline-execution?orgId=1)
-- [Sisense dashboard](https://app.periscopedata.com/app/gitlab/983566/Pipeline-Execution-Dashboard)
+- [Tableau dashboard (to be migrated)](https://gitlab.com/gitlab-data/tableau/-/issues/208)
 - [Next planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-execution/-/issues/?sort=popularity&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20)
 - [Help Requests for pipeline execution](https://gitlab.com/gitlab-com/ops-sub-department/section-ops-request-for-help/-/issues/?state=opened&label_name%5B%5D=Help%20group%3A%3Apipeline%20execution)
 - [Current milestome retro](https://gitlab.com/gl-retrospectives/verify-stage/pipeline-execution/-/issues?search=Pipeline+Execution+retrospective&sort=popularity&state=opened)
@@ -375,9 +372,9 @@ Our planning timeline follows the [GitLab Product Development timeline](/handboo
 
 *side note: we prefer [using Refining over Grooming](/handbook/communication/top-misused-terms)*
 
-Engineers are expected to allocate approximately 4 hours each milestone to refine and weight issues on the [`~needs weight` board][needs-weight-board].
+Engineers are expected to allocate approximately 6 hours each milestone to refine and weight issues on the [`~needs weight` board][needs-weight-board].
 
-The purpose of refining an issue is to ensure the problem statement is clear enough to provide a rough effort sizing estimate; the intention is not to provide **solution validation** during refinement. When refining issues, engineers should timebox the activity to no more than 1 hour per issue. If an issue is complex and will require more research, we should track that effort in a refinement "~spike" to ensure we account for it in milestone planning. The "~spike" should be linked as blocking the original issue and outline the outcomes expected and a timebox for the effort should be specified. The original issue should be labelled as "~workflow::blocked".
+The purpose of refining an issue is to ensure the problem statement is clear enough to provide a rough effort sizing estimate; the intention is not to provide **solution validation** during refinement. When refining issues, engineers should timebox the activity to no more than 2 hours per issue. If an issue is complex and will require more research, we should track that effort in a refinement "~spike" to ensure we account for it in milestone planning. The "~spike" should be linked as blocking the original issue and outline the outcomes expected and a timebox for the effort should be specified. The original issue should be labelled as "~workflow::blocked".
 
 Engineering uses the [following handbook guidance for determining weights](#weighting-issues). If any issue needs any additional `~frontend ~backend ~Quality ~UX ~documentation` reviews, they are assigned to the respective individual(s).
 
@@ -400,11 +397,22 @@ Engineers will:
 1. Split a backend issue out from the main issue if backend work needs to be completed before frontend work can begin.
 1. Add a [weight based on the definitions](#weighting-issues).
 1. Update the `~workflow::` label to the appropriate status, e.g.
-   * ~"workflow::design" if further design refinement is needed, and let the designer know.
-   * ~"workflow::ready for development" when refinement is completed and a weight has been applied, signaling that it's ready for implementation and the issue can now be prioritized
-   * ~"workflow::blocked" if more investigation and research is needed. Create a [refinement "~spike" issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Pipeline%20Execution%20Refinement%20Spike) and ping the PM and EM.
+   - ~"workflow::design" if further design refinement is needed, and let the designer know.
+   - ~"workflow::ready for development" when refinement is completed and a weight has been applied, signaling that it's ready for implementation and the issue can now be prioritized
+   - ~"workflow::blocked" if more investigation and research is needed. Create a [refinement "~spike" issue](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Pipeline%20Execution%20Refinement%20Spike) and ping the PM and EM.
 1. Remove the "~needs weight" label if weighting was completed.
 1. Unassign themselves from the issue when they are done refining and weighting the issue.
+
+##### Timeboxing Issue Refinement
+
+Because we should not be spending more than 2 hours per issue, we should re-evaluate if more time is needed or if a spike is required based on
+
+1. If the issue is still reproducible on Gitlab.com. If the cause is not obvious, a good first step is to ask the author for clarifications.
+1. If Support engagement is present in the issue. We can tell if the issue is created by a Gitlab team member or if it has the ~customer label.
+1. If the issue is on Gitlab.com or if it's on a self-managed instance. If this only affects self-managed instance, we can ask for request for help issue instead.
+1. The scope and affect of the issue. If it's only affecting one customer or if it's present for multiple customers
+
+A good general rule is to look at the P* levels. P1 issues should be refined as they'll be immediately worked on in the next milestone. P2 and P3 can spin off spike issues if more time is needed.
 
 #### Weighting Issues
 
@@ -483,6 +491,7 @@ We use a series of labels to indicate the highest priority issues in the milesto
 Following the  `Verify::P*` priorities, the `ready for development` column on the [Pipeline Execution Workflow issue board][workflow-board] will be curated, so that each team member can pull items from this column as they choose.
 
 ##### Setting the Milestone
+
 When DRIs select issues, they will assign themselves to the issue and also add the milestone that they believe the issue will most likely be shipped, which may not be the current milestone. The DRI may work on issues which are in future milestones. If the milestone is set to a future milestone or not set, and you are sure it will be shipped in the current milestone, reset the milestone to the current one. This is also a good time to re-evaluate the weight and proposal, especially if the DRI picking up the issue was not the same individual who originally weighted and refined the issue. Aspirationally, we strive to iterate and want to break down the efforts to ship as much value in the milestone for our users as possible. This means if you see a more efficient way forward when you start working on a new issue, you are free to raise a comment and update the proposal to deliver more iterative value.
 
 #### Working Right to Left to reduce WIP
@@ -534,7 +543,7 @@ In order to keep our stakeholders informed of work in progress, we provide updat
 
 ##### Issue Health Status
 
-For issues in the current milestone, we use the [Issue Health Status feature](https://docs.gitlab.com/ee/user/project/issues/#health-status) to indicate probability that an issue will ship in the current milestone. This status is updated by the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) as soon as they recognize the probability has changed. If there is no change to the status, a comment to indicate that it has been the status of the issue has been _assessed_ would be helpful.
+For issues in the current milestone, we use the [Issue Health Status feature](https://docs.gitlab.com/ee/user/project/issues/#health-status) to indicate probability that an issue will ship in the current milestone. This status is updated by the DRI ([directly responsible individual](/handbook/people-group/directly-responsible-individuals/)) as soon as they recognize the probability has changed. If there is no change to the status, a comment to indicate that it has been the status of the issue has been *assessed* would be helpful.
 
 The following are definitions of the health status options:
 
@@ -545,7 +554,7 @@ The following are definitions of the health status options:
 Examples of how status updates are added:
 
 1. If the health status changes from `On Track` to `Needs attention` or `At Risk`, we recommend that the DRI add a short comment stating the reason for the change in an [issue status update](#issue-status-updates).
-1. If an issue continues to be `On Track`, the DRI could provide a comment to indicate solutions (whatever it may be) continue to be implemented, and it's still _on track_ to be delivered in the same milestone.
+1. If an issue continues to be `On Track`, the DRI could provide a comment to indicate solutions (whatever it may be) continue to be implemented, and it's still *on track* to be delivered in the same milestone.
 
 ##### Issue status updates
 
@@ -568,7 +577,7 @@ Expectations for DRIs when providing updates for work in progress:
 
 - Status updates are provided once per week, barring special circumstances (e.g. PTO)
 - Ideally updates are made at a logical part of a DRI's workflow to minimize disruption, and not necessarily at the same time/day each week
-  - Generally when there is a logical time to leave an update, such as a _change in issue health status_, that is the best time to do so
+  - Generally when there is a logical time to leave an update, such as a *change in issue health status*, that is the best time to do so
   - Can be used to present some technical findings or information relevant to other stakeholders
 
 ##### Tracking Inactive Issues
@@ -656,7 +665,7 @@ Some practical examples of this are:
 - When you open up or begin working on an epic, issue, or merge request, consider if all stakeholders are aware of this or should be updated. If unsure, error on the side of updating rather than keeping silent.
 - When making significant progress make sure this is seen by the relevant stakeholders even if you don't require immediate feedback by mentioning them rather than relying on automated email notifications. Make their involvement explicit.
 
-Note: For issues related to Merge Request experience, always keep [the Code Review group](/handbook/product/categories/#code-review-group) in the loop to avoid any technical or UX debt from occurring. Refer to the [collaboration on merge requests experience](/handbook/product/cross-stage-features/merge-requests/) page to learn more about the collaboration framework.
+Note: For issues related to Merge Request experience, always keep [the Code Review group](/handbook/product/categories/#code-review-group) in the loop to avoid any technical or Deferred UX from occurring. Refer to the [collaboration on merge requests experience](/handbook/product/cross-stage-features/merge-requests/) page to learn more about the collaboration framework.
 
 Note: A good practice when only wanting to inform rather than requesting a direct action from the mentioned stakeholders is to put `FYI` directly following the @mention handle.
 
@@ -664,7 +673,7 @@ Note: A good practice when only wanting to inform rather than requesting a direc
 
 A top priority for us is usability, and one way to effectively evaluate our [JTBDs](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/) is with periodic [UX Scorecards](/handbook/product/ux/ux-scorecards/). For technical tasks that require infrastructure support, such as a functional cluster or provisioned environment with a `.gitlab-ci.yml` file, the Product Designer and the Product Manager can work with the Engineering Manager and Quality stable counterparts to craft a project based on the scenarios to test for the JTBDs. Some guidelines for working together in this case:
 
-- Be sure to schedule _at least_ a full milestone in advance, so there is enough lead time for the stable counterparts
+- Be sure to schedule *at least* a full milestone in advance, so there is enough lead time for the stable counterparts
 - Create an overall epic and add issues for task tracking for infrastructure creation
 - Schedule a kick off or record a walkthrough of the scenarios for everyone to have a shared understanding of the JTBD that are being evaluated
 
@@ -695,7 +704,7 @@ For more details on how to contribute to GitLab generally, please see our [docum
 
 #### Aligning on feature development
 
-The Engineering DRI works with the Product Designer throughout the `workflow:in dev` phase to uncover possible problems with the solution early enough that exhibit unexpected behaviour to what was originally agreed upon. If there are changes to be added that weren't agreed upon in the initial issue - a followup issue should be made and the Engineering DRI should work with the Product Manager to schedule that issue in a following milestone. This allows us to focus on [cleanup over signoff](/handbook/values/#cleanup-over-sign-off), iterate quickly on issues with [a low level of shame](/handbook/values/#low-level-of-shame), and still make sure we accomplish what we've agreed upon. We should be careful not to hold off on completing these followup issues so that we don't build up a significant amount of UX debt issues.
+The Engineering DRI works with the Product Designer throughout the `workflow:in dev` phase to uncover possible problems with the solution early enough that exhibit unexpected behaviour to what was originally agreed upon. If there are changes to be added that weren't agreed upon in the initial issue - a followup issue should be made and the Engineering DRI should work with the Product Manager to schedule that issue in a following milestone. This allows us to focus on [cleanup over signoff](/handbook/values/#cleanup-over-sign-off), iterate quickly on issues with [a low level of shame](/handbook/values/#low-level-of-shame), and still make sure we accomplish what we've agreed upon. We should be careful not to hold off on completing these followup issues so that we don't build up a significant amount of Deferred UX issues.
 
 If we find that solutions are consistently not matching the agreed upon design, we will hold a retrospective with the DRI, designer, and product manager to discuss where the gaps in communication are so that we can improve. It may be necessary to begin requiring a UX approval for merge requests on certain issues to help the Engineering DRI meet the requirements.
 
@@ -777,7 +786,7 @@ When creating a follow-up issue for required tests:
 
 ### Bugs
 
-As a group, we strive to meet the [Severity Service Level Objective](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) of bugs. We regularly review all bugs and prioritize issues with a `~missed-SLO` label and those approaching SLO (Service Level Objective) through our weekly [Triage Report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-bugs-features-and-ux-debt). One of the group's goals is to reduce the median age of open S2 bugs which is being tracked by the Quality department as a [KPI](/handbook/engineering/quality/performance-indicators/#s2-oba). To do this we will triage aged bugs each milestone closing what we can, reducing severity for bugs mis-labeled, asking for more details for issues that cannot be reproduced and prioritizing those that can be reproduced focusing on bugs in the identified [JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/).
+As a group, we strive to meet the [Severity Service Level Objective](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) of bugs. We regularly review all bugs and prioritize issues with a `~missed-SLO` label and those approaching SLO (Service Level Objective) through our weekly [Triage Report](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/#group-level-bugs-features-and-deferred-ux). One of the group's goals is to reduce the median age of open S2 bugs which is being tracked by the Quality department as a [KPI](/handbook/engineering/quality/performance-indicators/#s2-oba). To do this we will triage aged bugs each milestone closing what we can, reducing severity for bugs mis-labeled, asking for more details for issues that cannot be reproduced and prioritizing those that can be reproduced focusing on bugs in the identified [JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/).
 
 ### Features
 

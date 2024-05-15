@@ -14,7 +14,7 @@ description: "GitLab Data Team Organization"
 
 ---
 
-# Data Team Organization
+## Data Team Organization
 
 The Data Team Organization model is guided by three primary business needs:
 
@@ -25,10 +25,40 @@ The Data Team Organization model is guided by three primary business needs:
 
 Based on these needs, the Data Team is organized in the following way:
 
-1. **Data Pods:** Pods are assembled to provide concentrated focus on delivering & maintaining **data products** for **strategic company initiatives**. 
+1. **Data Pods:** Pods are assembled to provide concentrated focus on delivering & maintaining **data products** for **strategic company initiatives**. Pods are staffed with multiple data personas including Data Analyst, Data Scientist, Analytics Engineer, and supported by Data Engineer as stable counterpart.
+1. **[Analytics Engineering](handbook/business-technology/data-team/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
 1. **[Data Platform & Engineering Team](/handbook/business-technology/data-team/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
 1. **[Data Science Team](/handbook/business-technology/data-team/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
-1. **[Data Collaboration Team](/handbook/business-technology/data-team/#the-data-collaboration-team):** **Center of Excellence** for business intelligence and data findability
+
+## Data Pod Assignments
+
+| POD                       | Data Product Manager | Analytics Engineer                     | Data Analyst    | Data Scientist |
+| ------------------------- | -------------------- | -------------------------------------- | --------------- | -------------- |
+| Enterprise Metrics        |  @nmcavinue          | @lisvinueza @chrissharp                | @annie-analyst  |                |
+| Customer Intelligence     |  @nmcavinue          | @snalamaru                             | @jonglee1218      |                |
+| Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 |                 |                |
+
+## Analytics Engineering - Business Stable Counterpart Assignments
+
+| Department       | Functional Analytics Team         | Analytics Engineer      |
+| ---------------- | --------------------------------- | ----------------------- |
+| Sales            |  Revenue Strategy and Analytics   |  @snalamaru             |
+| Marketing        |  Marketing Strategy and Analytics |  @snalamaru             |
+| Finance          |  FP&A Analytics                   |  @chrissharp            |
+| Customer Success |  CS Strategy and Analytics        |  @mdrussell             |
+| Product          |  Product Data Insights            |  @mdrussell             |
+| Engineering      |  Engineering Analytics            |  @michellecooper        |
+| Security         |  Engineering Analytics            |  @michellecooper        |
+| Support          |  N/A                              |  @michellecooper        |
+| People           |  People Analytics                 |  @rakhireddy (ramping)  |
+
+## Data Platform Team Stable Counterpart Assignments
+
+| POD | Data Engineer |
+| --- | ------------- |
+| Enterprise Metrics | @juwong |
+| Customer Intelligence | @rigerta |
+| Customer Product Adoption | @rbacovic |
 
 ### Manager, Data
 
@@ -59,14 +89,15 @@ The stable counterpart is expected to participate in the following meetings asyn
 1. Data Pod Iteration Planning Meetings.
 1. Data Pod Team Meetings.
 
-# Data Program Recruiting
+## Data Program Recruiting
 
 Recruiting great people is critical to our success and we've invested much effort into making the process efficient. Here are some reference materials we use:
+
 - a [GitLab Data Recruiting](https://youtu.be/4DlwsBIPxUw) video to say "Hi" and give you some insight into how we work and what we work on. Enjoy!
 - [Data Roles and Career Development](/handbook/business-technology/data-team/organization/#data-roles-and-career-development) to help existing team members and prospects understand growth opportunities
 - a [Take Home Test](/handbook/business-technology/data-team/organization/#data-roles-and-career-development) that we ask each candidate to complete; this test is good for the candidate and for us because it represents the type of work we perform regularly and if the candidate is not interested in this work it helps them make a more informed decision about their application
 
-# Data Roles and Career Development
+## Data Roles and Career Development
 
 ## Data Internships
 
@@ -93,8 +124,8 @@ See [Data Team Internships](/handbook/business-technology/data-team/organization
 | By Day 30 | By Day 60 |  By Day 90 | By Day 120 |
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Perform [triage](/handbook/business-technology/data-team/how-we-work/triage/) activities | Extract [new data sources](/handbook/business-technology/data-team/how-we-work/new-data-source/) | Own a specific area of the data platform |
-Create a MR to contribute to handbook or templates | Investigate incidents and issues | Work on [OKR assignments](/handbook/business-technology/data-team/direction/#quarterly-objectives) | Propose new ideas and come up with Data Platform improvement initiatives |
-| Understand the current setup of the data platform | Make small/corrective changes to the platform infrastructure or data pipelines | Contribute on work breakdown |
+| Create a MR to contribute to handbook or templates | Investigate incidents and issues | Work on [OKR assignments](/handbook/business-technology/data-team/direction/#quarterly-objectives) | Propose new ideas and come up with Data Platform improvement initiatives |
+| Understand the current setup of the data platform | Make small/corrective changes to the platform infrastructure or data pipelines | Contribute on work breakdown | |
 
 ## Data Analyst
 
@@ -122,7 +153,7 @@ Create a MR to contribute to handbook or templates | Investigate incidents and i
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Extend an existing Tableau dashboard or complete the triage phase for a dbt issue | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts (e.g. dashboards) or complete a product evaluation|
 | Start attending [Data Fusion Team](/handbook/business-technology/data-team/#data-fusion-teams) and Business Team synchronous meetings | Perform [triage](/handbook/business-technology/data-team/how-we-work/triage/) activities | | |
-| Complete First Issue: S to M T-Shirt Size  |  |  |
+| Complete First Issue: S to M T-Shirt Size  |  |  |  |
 
 ## Data Science
 
@@ -172,7 +203,7 @@ Create a MR to contribute to handbook or templates | Investigate incidents and i
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding  | Extend an existing dbt [Trusted Data Models](/handbook/business-technology/data-team/data-development/#trusted-data-development) | Run a project end-to-end as DRI with support from a Data Fusion Team | Create ERDs/Data Artifacts|
 | Start attending Data Fusion Team and Business Team synchronous meetings | Perform [triage](/handbook/business-technology/data-team/how-we-work/triage/) activities | | |
-| Complete First Issue: S to M T-Shirt Size  |  |  |
+| Complete First Issue: S to M T-Shirt Size  |  |  |  |
 
 ## Data Management
 

@@ -28,7 +28,7 @@ i.e. Record is put into `Registered` cannot be moved backwards to `Waitlisted`
 
 #### Conference
 
-Any event  that we have paid to sponsor, have a booth/presence and are sending representatives from GitLab (example: AWS re:Invent, DevOps Enterprise Summit). This also includes any virtual event that we sponsor and/or participate in that we do not own the registration but will generate a list of attendees, engagement.
+Any event that we have paid to sponsor, have a booth/presence and are sending representatives from GitLab (example: AWS re:Invent, DevOps Enterprise Summit). This also includes any virtual event that we sponsor and/or participate in that we do not own the registration but will generate a list of attendees, engagement.
 
 In a virtual conference, GitLab will pay a sponsorship fee to receive a virtual booth and sometimes a speaking session slot or panel presence. Presence of a virtual booth is a requirement due to success criteria. [Read more](/handbook/marketing/virtual-events/external-virtual-events/#virtual-conferences).
 
@@ -149,6 +149,7 @@ Any type of inbound request that requires follow up.
 | ------------- | ---------- | ------- |
 | No Action | default starting position for all records |  |
 | Requested Support | Took a handraise action to request support from the GitLab team ||
+| Waitlisted | Submitted a request to purchase a future SKU  ||
 | Requested Contact | Filled out Contact, Professional Services, Demo or Pricing Request | Yes |
 
 #### Operational
@@ -399,8 +400,8 @@ If this is to set up a program that involves a channel partner, you must also fo
 [For virtual workshops, please follow directions in the virtual workshop set-up section.](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshop-logistical-set-up) In-person workshops utilize a similar setup, but do not involve the Zoom requirements. If you have a workshop to set up that is not one of the workshops listed below, you can still utilize any of these templates for backend setup and then use a [copy doc](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit#heading=h.tl82wncgutxu) to indicate all copy adjustments that are required (you will also update the baseline Marketo tokens during the setup process).
    - Project Management: [YYYYMMDD_Workshop_ProjectManagement_EventType](https://app-ab13.marketo.com/#ME6536A1)
    - Security: [YYYYMMDD_Workshop_SecurityWorkshop_EventType](https://app-ab13.marketo.com/#ME6521A1)
-   - Advanced CI/CD: [YYYYMMDD_Workshop_CI/CD_EventType](https://app-ab13.marketo.com/#ME6807A1)  
-   - Jenkins [YYYYMMDD_Workshop_Jenkins_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME8285A1) 
+   - Advanced CI/CD: [YYYYMMDD_Workshop_CI/CD_EventType](https://app-ab13.marketo.com/#ME6807A1)
+   - Jenkins [YYYYMMDD_Workshop_Jenkins_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME8285A1)
    - AI in DevSecOps: [YYYYMMDD_Workshop_AIDevSecOps_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME16197A1)
    - GitHub GitLab Migration: [YYYYMMDD_Workshop_GitHubGitLab_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME13738A1)
    - GitLab Basics: [YYYYMMDD_Workshop_GitLabBasics_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17530A1)
@@ -408,6 +409,7 @@ If this is to set up a program that involves a channel partner, you must also fo
 ##### Other Tactic Marketo Templates
 - Conference - `Virtual`: [YYYYMMDD_YYYYMMDD_Vendor_VirtualConfName1 (Virtual Conference Template)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME7624A1)
 - Conference - `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conferences)
+- Conference - Meetings (FM led) `In person`: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-in-person-conference-meetings)
 - Content Syndicaton: [skip to specific setup details here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc)
 - Direct Mail: [YYYYMMDD_DirectMail_Template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG5392A1)
     - Direct Mail not needing a Marketo Program: [skip to specific setup detais here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-direct-mail-campaigns)
@@ -415,8 +417,6 @@ If this is to set up a program that involves a channel partner, you must also fo
 - Integrated Campaign: [FY20IntegratedCampaign_Template](https://app-ab13.marketo.com/#PG4924A1)
 - Surveys - For templates and setup instructions for surveys, skip to specific setup details [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-surveys-in-marketo-and-sfdc).
 - Owned Event - `Hybrid`: [YYYYMMDD_OwnedEvent_EventType_Template](https://app-ab13.marketo.com/#ME4722A1)
-- Owned Event - `Virtual - Hopin only`: [YYYYMMDD_OwnedEvent_Hopin_EventType_Template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME11445A1)
-    - For Events using HopIn, follow all steps below in addition to steps outlined [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-use-hopin-connector).
 
 ##### Webcasts Marketo Templates
 - Zoom GitLab Hosted Webcast: [YYYYMMDD_WebcastTopic_Region](https://app-ab13.marketo.com/#ME5512A1)
@@ -442,8 +442,8 @@ If this is to set up a program that involves a channel partner, you must also fo
     - You do not need to update the following tokens upon setup:
         - `{{my.email header image url}}` - This is optional. You will need this if you had custom images created.
         - `{{my.ondemandurl}}` - This will be entered AFTER the event date. It is the link to the recorded webcast. You will need to come back after the event and update this token.
-- Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#utm-campaign). 
-- **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing 
+- Update the utm_campaign field following the process outlined [here](/handbook/marketing/utm-strategy/#utm-campaign).
+- **Partner Campaigns** will need to also to update the `{{my.partner name}}` and `{{my.partner crm id}}` for proper routing
 - For live events, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
 
 ### Step 4: Activate Marketo smart campaign(s)
@@ -451,7 +451,7 @@ If this is to set up a program that involves a channel partner, you must also fo
 * If this is a `Vendor Arranged Meeting`:
      * Click the `Smart Campaigns` folder
      * Select the `01 Interesting Moments` smart campaign
-          * The correct program should automatically apply when cloned, so *you don't need to do anything here.* However, you can confirm that the campaign 
+          * The correct program should automatically apply when cloned, so *you don't need to do anything here.* However, you can confirm that the campaign
 * If this is `Speaking Session` follow the below activation instructions:
      * Click the `Smart Campaigns` folder
      * Select the `01a Registration Flow` smart campaign
@@ -472,7 +472,7 @@ If this is to set up a program that involves a channel partner, you must also fo
      * Select the `01a Registration Flow` smart campaign
      * The correct program should automatically apply when cloned, so *you don't need to do anything here.* However, you can confirm that the campaign tag appears on in the Smart List and Flow. If the name of the template appears anywhere, replace it with the campaign tag.
      * Click to the `Schedule` tab and click `Activate`
-* If this is an `Owned Event` (not Hopin) follow the below activation instructions:
+* If this is an `Owned Event` follow the below activation instructions:
      * Click the `Campaigns` folder
      * If you have a Marketo registration page for this event, select the `01b - Registration` smart campaign
      * The correct program should automatically apply when cloned, so *you don't need to do anything here.* However, you can confirm that the campaign tag appears on in the Smart List and Flow. If the name of the template appears anywhere, replace it with the campaign tag.
@@ -481,7 +481,6 @@ If this is to set up a program that involves a channel partner, you must also fo
      * The correct program should automatically apply when cloned, so *you don't need to do anything here.* However, you can confirm that the campaign tag appears on in the Smart List and Flow. If the name of the template appears anywhere, replace it with the campaign tag.
      * Click to the `Schedule` tab and click `Activate`
      * LIST UPLOAD ONLY: If you do not have a registration page and responses will be uploaded via a list load, MOps will activate the `02b - Manual Upload Processing` campaign if necessary.
-* If this is an `Owned Event` (Hopin), follow the `Update the Salesforce campaign` instructions in Step 5, then follow the activation instructions [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-use-hopin-connector)).
 * For all other campaign types, follow the below activation instructions:
      * Click the "Smart Campaigns" folder
      * Select the `Interesting Moments` smart campaign.
@@ -498,11 +497,11 @@ If this is to set up a program that involves a channel partner, you must also fo
 ### Step 5: Setting Landing Page / Smart Campaign Expiration (Asset Expiration)
 As of early 2022, Adobe has introduced a new feature to Marketo called `asset expiration`, which can be read about in Marketo's documentation [here](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date). This applies to smart campaigns and landing pages. For GitLab's use case, we have enabled this feature for the following role permissions: `Field Marketing User`, `Marketing Program Managers` and `Marketing User`. If you do not have these permissions would like this feature enabled, please submit an `access request`.
 
-##### Asset Expiration Use Cases 
-All programs have different necessities so it will be important to determine how `asset expiration` should be utilized for various program types. Guidance can be supplied by MktgOps, if needed, but utilize this method for the majority of cases: 
+##### Asset Expiration Use Cases
+All programs have different necessities so it will be important to determine how `asset expiration` should be utilized for various program types. Guidance can be supplied by MktgOps, if needed, but utilize this method for the majority of cases:
 - `Conference`, `Direct Mail`, `Executive Roundtable`, `Owned Event`, `Speaking Session`, `Sponsored Webcast` (if no on-demand component), `Survey`, `Vendor Arranged Meeting`, `Workshop`: For one-time programs that are completely done after a specific date and will not use an `Attended On-Demand` member status over time, set the expiration of assets at 4 weeks after the event and at the end of the day, so at 23:55 PST. For example, if a `conference` or `executive roundtable` program type occurs on the April 3, schedule asset expiration for end day on May 1.
-- `Content syndication` or Campaigns where the end of the campaign is difficult to pinpoint: there are 2 different options to consider: 
-    - Set up expiration **12 weeks after the estimated campaign end**, again at the end of the day. This is useful for campaigns where a third-party is handling lead collection for us and we are manually uploading lead lists. This also supplies a buffer in the event the SLA is not met on schedule and the campaign runs longer than anticipated. 
+- `Content syndication` or Campaigns where the end of the campaign is difficult to pinpoint: there are 2 different options to consider:
+    - Set up expiration **12 weeks after the estimated campaign end**, again at the end of the day. This is useful for campaigns where a third-party is handling lead collection for us and we are manually uploading lead lists. This also supplies a buffer in the event the SLA is not met on schedule and the campaign runs longer than anticipated.
     - **Do not use asset expiration at all**. We often have content syndication focused programs that go on indefinitely so expiration does not make sense to utilize in this case. Assets can be discontinued in the future.
 - `Gated Content`: It is not recommended to use asset expiration as these remain in use for long periods of time.
 - `Webcast`: It is not recommended to use asset expiration as these typically have an on-demand component.
@@ -578,6 +577,18 @@ Use these instructions to move people from the waiting list to Registered.
 - Select `Registered`
 Once you click `Registered`, the status will change and the `01c Waitlist to Registered` Smart Campaign will send the Registration Confirmation email.
 
+### Post Event Processing for Waitlisted Members - Owned Event, Workshop, Webcasts
+In the situations where you have an event that had the waitlist feature turned on and you had hit capacity, follow these steps to process waitlisted leads. After you've processed the No Show + Attended leads you will need to process the Waitlisted leads since they technically are neither `Attended` or `No Show`. The important thing here is that we don't want them receiving follow-up emails for No Show or Attended. Please follow these steps to ensure no emails are sent and interesting moments and behavior scores are updated.
+- Click on the Marketo program (the name of the campaign)
+- Navigate to the `Campaigns Folder`
+- Navigate to the `01c Waitlist to Registered` campaign.
+- Click into the Flow Steps and remove step 1 `Send Email` (Registration Confirmation email) to avoid sending communication.
+- Navigate back to the `Member list` for the event.
+- Filter Status to `waitlisted` or click on the person/people you would like to move to Registered. They will highlight when they are selected.
+- Click on `Change Status`
+- Select `Registered`
+Once you click `Registered`, the status will change and the `01c Waitlist to Registered` Smart Campaign will now update the `Interesting Moments` & `behavior score` and NOT send the Registration Confirmation email. After this is complete and they are moved to a registered stats, we can still send them a follow up email, based on the registered status. You will need to complete a no show, attended, and registered (all separate copy) email issues.
+
 ### Setting up assets for Late/In-person Registration
 This is an _optional_ feature only available for the `Owned Event` program template. Utilize this feature if a team wants flexibility to `register` unregistered attendees that have appeared `in-person` to an `owned event` but the normal registration process through the landing page form has been prevously closed down. **The teams in charge of the event should agree on whether to use this feature _before_ the event and setup should be done prior to when the event starts**. This allows the landing page/form to be manually added as a bookmark on `check-in` devices, such as on GitLab owned `tablets` and `laptops`.
 - Locate the `Late Registration Assets` sub-folder found in the `Assets` folder. This only exists in the `YYYYMMDD_OwnedEvent_EventType_Template` template
@@ -608,7 +619,7 @@ This is an _optional_ feature only available for the `Owned Event` program templ
    - If you are scheduling in person meetings, be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
 
 ### Step 4: Activate Marketo smart campaign
-- `00 Send Sales-Driven Invite` (optional) can be turned on and scheduled to send on a reoccurring basis if sales and XDRs are going to be inviting people to the conference. This is not required on all campaigns, and Verticurl will activate after building the Sales-Driven email. After scheduling, Sales can add someone to the campaign in SFDC and that person will be automatically sent an email invite. There is a separate email for sales invites listed in the `email` folder
+- `00 Send Sales-Driven Invite` (optional) can be turned on and scheduled to send on a reoccurring basis if sales and XDRs are going to be inviting people to the conference. This is not required on all campaigns and should be activated after building the Sales-Driven email. After scheduling, Sales can add someone to the campaign in SFDC and that person will be automatically sent an email invite. There is a separate email for sales invites listed in the `email` folder
 - `01 Manual upload processing` this will be activated by MOps if a manual upload is required. If you upload using the self-service process, this is not required.
 - `02 Add as Marketing Invited` should only be used if XDRs are planning to follow up and drive attendance to the event. This should be scheduled AFTER the first email invite is scheduled to send. It will update everyone who had the email invite sent to them as `Marketing Invited`. They will be updated in the campaign and visible in SFDC. **Do not use this unless there is planned event drivers**
 - `03 Interesting Moments` Activate this campaign. This should be turned on before any lists are uploaded.
@@ -637,6 +648,57 @@ These steps are not yet configured. If you are planning to do this for your next
     - Click Save
 - Add the Marketo program link and SFDC campaign link to the epic.
 - If the program is being ran by Digital Marketing, add the SFDC campaign under the parent campaign `Demand Gen Pulishers/Sponsorships`
+
+**If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
+
+## Steps to Setup in-person Conference Meetings
+The instructions below are designed for meetings led by Field Marketing at large conferences.
+
+### Step 1: [Clone this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME17801A1)
+
+- Use format `YYYYMMDD_Conference_Meetings_FM_Template`
+
+### Step 2: Sync to Salesforce
+
+- At the program main screen in Marketo, where it says `Salesforce Sync` with "not set", click on "not set"
+    - Click "Create New." The program will automatically populate the campaign tag, so you do not need to edit anything.
+    - If you are a user of Allocadia, you will need to add the Allocadia ID sub-category ID to the `Description` field.
+    - Click "Save"
+
+### Step 3: Update Marketo tokens
+
+- Update all tokens as they feed the email and interesting moments. Don't skip the epic token because it is included in the internal alert.
+     - Be sure to update the `reply email` token. This is used in the confirmation email. You need to add the correct email address for cancellations or special accomodations, and update the subject to something descriptive. Keep the `%20` between each word in the subject so the subject populates correctly.
+
+### Step 4: Activate Marketo smart campaign
+- `00 Send Sales-Driven Invite` (optional) can be turned on and scheduled to send on a reoccurring basis if sales and XDRs are going to be inviting people to the conference. This is not required and the email needs to be updated before scheduling. After scheduling, Sales can add someone to the campaign in SFDC and that person will be automatically sent an email invite. There is a separate email for sales invites listed in the `email` folder
+- `01 Manual upload processing` this will be activated by MOps if a manual upload is required. If you upload using the self-service process, this is not required.
+- `02 Add as Marketing Invited` should only be used if XDRs are planning to follow up and drive attendance to the event. This should be scheduled AFTER the first email invite is scheduled to send. It will update everyone who had the email invite sent to them as `Marketing Invited`. They will be updated in the campaign and visible in SFDC. **Do not use this unless there is planned event drivers**
+- `03 Interesting Moments` Activate this campaign. This should be turned on before any lists are uploaded.
+- `01a Meeting Request Processing` Activate this campaign if you have a landing page. Do not activate it if you are only uploading leads.
+
+### Step 4b. Set-up Asset Expiration
+- Right click the Marketo program to open the program menu and select `Set local asset expiration`. Please note, this will not work without the correct permissions.
+- A menu with all expiration capable assets will be shown as a segmented list. Example assets that can appear are `landing pages`, `active trigger campaigns` and `Reocurring batch campaigns`.
+- Use the asset checkboxes to select all assets you wish to set an expiration for and select `set expiration` when ready. Assets that should be expired are `landing pages`, `active trigger campaigns` and `Reocurring batch campaigns`. Set your date and time and then submit.
+  - Prioritize setting expirations on  `smart campaigns`.
+  - Be mindful of which smart campaigns are set to expire and when because such an event will disable program registation flows.
+- To remove expirations at a later date, right click on the program to return to the capable assets and submit changes.
+
+### Step 5: Update the Salesforce campaign
+
+- Now go to Salesforce.com and check the [All Campaigns by create date](https://gitlab.my.salesforce.com/701?fcf=00B4M000004oVF9) view. Sort by create date and your campaign should appear at the top. You may also search for your campaign tag in the search box. Select the campaign.
+    - Change the `Campaign Owner` to your name
+    - Click on the `Parent Campaign` lookup, change the dropdown to `All Campaigns` then find the parent campaign for the conference the meetings are being held at. Select this campaign. This associates your meeting campaign to the main conference campaign in the hierarchy.
+    - Update the event epic
+    - Update the description
+    - Update the budget holder to `fmm`
+    - Update `Budgeted Cost` - If cost is $0 list `1` in the `Budgeted Cost` field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
+    - Update `Region` and `Subregion` if you have the data available
+    - Be sure to update all other relevant fields for your campaign
+    - Click Save
+
+- Add the Marketo program link and SFDC campaign link to the epic.
 
 **If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
 
@@ -710,7 +772,7 @@ The SFDC campaigns for these are set-up by Region/Vendor/Asset combination. The 
 
 You must keep the same Asset number for existing assets, otherwise the existing automation will fail. A complete list of the current assets is available [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). Be sure to add new assets to this list to maintain a SSOT for reference.
 
-### Instructions to add a new Region-Vendor-Asset combo:
+### Instructions to add a new Region-Vendor-Asset combo
 
 ### Step 1: Create SFDC campaigns
 - Create the SFDC campaigns directly in Salesforce. Each asset requires a campaign.
@@ -739,8 +801,7 @@ This is the recommended template. Note that this program has the asset titles an
 - If you used the program template with the {{my.Assetx-Title}} and {{my.Assetx-Type}} prepopulated, complete the {{my.Assetx-sfdc_campaign}} for each asset.
 - In order to complete the {{my.Assetx-sfdc_campaign}}, the campaigns must be created in SFDC first and the campaign in SFDC must be marked as `Active`. This token will validate the campaign exists in SFDC in order to populate. Pay close attention to the asset number you are populating. The tokens are not in order.
 - If you used the program template without tokens pre-populated, complete each {{my.Assetx-Title}}, {{my.Assetx-Type}}, and {{my.Assetx-sfdc_campaign}}. Be sure to reference the [existing asset list](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184) when you complete the tokens. Do not include the `Asset [number] -` in the token value. If you are not using a specific asset (for example, you aren't using Asset 4 in your program), skip that token. You will delete it from the automation later.
-     - For {{my.Assetx-Type}}, the only available options are `Whitepaper`, `eBook`, `Report`, `Video`, or `General`
-         - If you add a Content Type value other than the above, the record will hit an error when syncing to Salesforce because these are the only currently available picklist items for `Initial Source`
+     - For {{my.Assetx-Type}}, the options are `Whitepaper`, `eBook`, `Report`, `Video`, or `General`
 - Complete the `{{campaign owner email}}, {{region}}, and {{vendor}} tokens.
 
 ### Step 4: Modify & Activate Marketo smart campaigns
@@ -760,12 +821,37 @@ It is critical that any reference to asset number in Marketo automation (not tok
      - **Flow** (confirm that program references match the Marketo program name): `Step 2 - Add to List`- Delete any assets you are not using from the asset list. This will cause any responses that come in with that asset number to go into the error list and you can manually add them to the correct SFDC campaign.
           - `Step 5 - Add to SFDC Campaign - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset. If you do not delete the choices for unused campaigns, the responses will be added to the template campaign in SFDC. Note that it is not obvious when the selection deletes. Please confirm that the asset number you are deleting is correct before you click again.
       - **Schedule**: No changes. This will be activated by MOps if it is required. It will only be used on a manual upload and is not necessary if you use the self-service upload process.
+- `Not added to SFDC` - This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
+    - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
 
 ### Step 5: Important information for content syndication list uploads
 When you do your list upload, you must be sure that the `Asset [number] -` that corresponds to each asset is included in the `Content Syndication Asset` field so the automation will trigger, using the format `Asset [number] -` ("asset number space -"). The recommendation is to populate the `Content Syndication Asset` field using the format `Asset [number] - Name of asset` (example: `Asset 2 - 2023 Global DevSecOps Report: Security & Compliance`). A complete list of current assets with their asset number can be found [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). This also applies if the responses are set directly from the vendor. They must be set-up in the vendor system with the appropriate asset number.
 
 It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
 
+### Step 6: Test lead flow into your Content Syndication programs
+There are a few common errors we see with Content Syndication leads. You can address most of these before sending the first test by working with the vendor to confirm they have the correct values.
+
+- `Employee Bucket` (Employee count): Values [here](/handbook/marketing/marketing-operations/list-import/#required-data-and-recommended-data). These values must be written exactly as shown (using commas and correct spacing).
+- `State`: We only accept [State values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) for the United States, Canada, and Australia. The vendor must pass blank values for any other country, otherwise SFDC will reject the lead.
+- `Content Syndication Asset`: The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
+- After verifying the common field mistakes above, work with the vendors to submit test leads through DAP.
+1. After the test lead is submitted, go to Marketo, click on the "Database" tab, and enter the email address of the test record in the search box under "Quick Find". You can always get to this box by clicking on the "Default" folder in the left sidebar.
+     - If the record was found, that means the pass to Marketo worked properly and you can continue to the next step.
+     - If it was not found, confirm the email address and search again. If you still do not find the record in the database, confirm with the vendor that they sent the test leads and that their system is properly configured to pass records directly to Marketo.
+1. Open the test record in the Marketo database. Go to the `Activity History` tab. If you have done this before and saved your view, select your custom view called "Content Syndication Verification". If this is the first time you are completing this process, click "Filter: None", select "Custom" and set-up a custom view as follows:
+     - Under Smart Campaign, select "Change Program Status", "Interesting Moment"
+     - Under Salesforce.com, select "Add to SFDC Campaign"
+     - Click "Save As" and name the view "Content Syndication verification"
+1. Confirm that the program you are testing is the program that the lead was added to with a status of "Downloaded". You will see this as a "Change Program Status" and it will show "name of the program" changed from "Not in program" to "Downloaded".
+     - If the record was not added to a program, confirm that the `01 Processing` campaign is activated in the program. If not, activate it and have another test sent through. If the campaign is active or the lead was added to the wrong program, this means the vendor pushed an incorrect ID for the program and you need to follow-up with them directly to correct it.
+1. Confirm that the record was added to the correct SFDC Campaign for the asset that was tested.
+     - If you see an SFDC campaign name, this means the addition to SFDC was successful.
+     - If you see an error that looks similar to `"Failed: {Invalid_OR_NULL_FOR_RESTRICTED_PICKLIST}` for the "Add to SFDC Campaign" activity type, this means the record did not push to SFDC. Read the error as it will tell you what was wrong. It is usually either due to a State Value or an incorrect value in Employee Bucket. Have the vendor correct this and push another test lead.
+     - If there was no failure but the lead either wasn't added or was added to the wrong campaign, this means that the SFDC campaign was not added to the correct token, the asset was not added to the Flow steps, or the `Content Syndication Asset` field value was incorrect from the vendor.
+1. Confirm that the correct Interesting Moment was Triggered
+    - If no IM triggered, confirm that the `02 Interesting Moments` campaign is active in the program. If it is active, check to make sure that you have all of the assets set-up correctly in the Flow steps. You are likely missing an asset in the flow steps or the format of the `Content Syndication Asset` field was incorrect from the vendor.
+1. If you need to check the email deployment, change the "Filter" view to Email and confirm that the correct email was sent. In most cases, this should be the Welcome Email without a language specified.
 
 ### Steps to Setup Content Syndication in Marketo and SFDC - Campaigns through Integrate DAP - adding a new asset
 If your content syndication program is not running through DAP, please use the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc).
@@ -798,8 +884,7 @@ You must keep the same Asset number for existing assets, otherwise the existing 
 - Click Save.
 - Click and drag the word `Text` into the token area.
 - Under Token Name, name the token `Assetx-Type`. Marketo will add the `my.` and brackets. For example, if you are adding asset 18, name the token `Asset18-Type`.
-- Under Value, enter the asset type. The only available options are `Whitepaper`, `eBook`, `Report`, `Video`, or `General`
-    - If you add a Content Type value other than the above, the record will hit an error when syncing to Salesforce because these are the only currently available picklist items for `Initial Source`
+- Under Value, enter the asset type. The options are `Whitepaper`, `eBook`, `Report`, `Video`, or `General`
 - Click Save.
 - Click and drag `SFDC Campaign` into the token area.
 - Under Token Name, name the token `Assetx-sfdc_campaign`. Marketo will add the `my.` and brackets. For example, if you are adding asset 18, name the token `Asset18-sfdc_campaign`.
@@ -823,11 +908,16 @@ It is critical that any reference to asset number in the Marketo automation belo
      - **Flow**: `Step 2 - Add to List`- Add the Asset number to the asset list. Follow the same convention that is already in the list.
           - `Step 5 - Add to SFDC Campaign` - Click `Add Choice`.
           - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
+- `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
+    - **Smart List**: In filter 2 - `Member of SFDC Campaign` add the specific SFDC campaigns for this program. Click on green plus sign, then start typing. A list of SFDC campaigns will come up and you can click on them to add them to the list. Click OK.
 
 ### Step 6: Important information for content syndication list uploads
 When you do your list upload, you must be sure that the `Asset [number] -` that corresponds to each asset is included in the `Content Syndication Asset` field so the automation will trigger, using the format `Asset [number] -` ("asset number space -"). The recommendation is to populate the `Content Syndication Asset` field using the format `Asset [number] - Name of asset` (example: `Asset 2 - 2023 Global DevSecOps Report: Security & Compliance`). A complete list of current assets with their asset number can be found [here](https://docs.google.com/spreadsheets/d/1PY2_uO2qg4vszSFOBrWXoHfIlNIt2qmjdr6A6fBEtcg/edit#gid=161086184). This also applies if the responses are set directly from the vendor. They must be set-up in the vendor system with the appropriate asset number.
 
 It is critical that any reference to asset number in the upload or send from the vendor uses the format `Asset [number] -` ("asset number space -"). For example `Asset 1 -` and `Asset 12 -`. This allows the automation to select the proper asset since we are using "contains" to trigger the automation. Without the `(space) -` after the asset number, both Asset 12 and Asset 1 will be recorded as Asset 1.
+
+### Step 7: Test the new asset in your Content Syndication programs
+Follow the instructions in Step 6 above to test the new asset. Focus specifically on the `Add to SFDC Campaign` and `Interesting Moments` to QA a new asset.
 
 ## Integrate DAP Closed Loop Feedback
 
@@ -881,7 +971,7 @@ The 7 webhook feedback automations we send to Integrate are:
 
 **If utilizing Allocadia, follow these [steps](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-8-update-the-salesforce-campaign---using-allocadia).**
 
-### Step 5: Troubleshooting:
+### Step 5: Troubleshooting
 1. Look at the `Results` tab of the smart campaign, if there are errors, you will clearly see them there.
 1. If the lead is not pushing to SFDC? Make sure that the `Person Source` is not `SurveyName`
 1. If existing leads are not being pulled into the program, it is likely the `SurveyName` field is capturing the wrong name.
@@ -906,35 +996,6 @@ The 7 webhook feedback automations we send to Integrate are:
 - Update `Region` and `Subregion` if you have the data available
 - Click Save
 
-## Steps to Use HopIn Connector
-Follow all of the set up steps to clone the template, update tokens, and update the Salesforce campaign [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns). You will also need to follow the instructions below to activate the Hopin campaigns.
-
-Important Notes:
-* **YOU MUST CONNECT HOPIN TO MARKETO BEFORE YOU TURN ON REGISTRATION IN HOPIN** (STEPS 2 OR 3 BELOW)**
-* To send emails using the Magic Links, you must sent the email via a smart campaign and NOT an email program. Otherwise, the join link will not properly populate. This means the confirmation email AND any reminder emails that include the join link must be sent through a smart campaign. This is built into the template.
-* You must update the `{{my.hopin event name}}` and `{{my.hopin ticket code}}` tokens with information from Hopin in order for registrants to be processed correctly. Details are in the instructions below.
-
-
-1. Update your Hopin-specific tokens.
-   - `{{my.hopin event name}}` - You can pull the `Event Name` from the HopIn platform - This is the name of the event exactly as it appears in Hopin.
-   - `{{my.hopin ticket code}}` - Find your Ticket Integration Code in Hopin by selecting an event, and going to the Tickets page of your event dashboard. Copy the URL of the ticket name you want to use, and strip out everything but the number at the end (keep everything after the word `code=` in the URL).
-     - If you are only registering for a single ticket, all you need to do is update the token, but if you have multiple ticket options, you will need to create a select dropdown in the form that holds the Integration Codes as stored values - ([ask Mops to do this for you](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new#form_request)).
-1. (Skip if using a marketo form) `01a Registration from Hopin` is used if you are using HopIn registration pages. This smart campaign triggers off of a custom activity `Registers for HopIn Event` and will add the registrant to the proper campaign. **THIS WILL ONLY PASS `First Name`, `Last Name`, `Email`, and the name of the event. In order to capture any of the custom fields (like company name), you'll need to set up the next step to capture registrants from Marketo. Otherwise, a dataload will be required**
-   - The program token `{{my.hopin event name}}` must be populated to use this with your HopIn event name. Use `starts with` as the operator to make sure you catch all registrants.
-   - If token is updated, you can turn on. No changes are necessary for the Flow.
-   - Do not turn on if you are not utilizing HopIn registration pages. You will not use this if you are using a Marketo landing page.
-1. `01b. Push Registrants to Hopin from Marketo + Send Confirmation Email` is used if you are utilizing a Marketo form to capture registration for the HopIn Event. Do not turn on if you are **only** utilizing HopIn registration pages
-     - Before you start with the smart campaign, you need to make sure you update the copy for the registration confirmation email named `Confirm - Hopin v2`. First, confirm all tokens on the program and then fill in the missing pieces of the email itself. Confirm that `{{member.hopin join link}}` is the CTA to the email. That will contain the link specific to each person to join the event.
-        - The `{{member.hopin join link}}` token will automatically send the `Magic Link / Join Link` for the registrant to confirm their registration.
-        - The magic link is automatically created by the webhook, do not update that field.
-     - No changes are necessary for the campaign flow. The flow will request a Webhook, which will push the registrant into HopIn, as well as send registrant a registration confirmation email.
-    - The landing page template is already set up to have this form. You will need to change the landing page after form submit to the Thank You Page for this program. It will default to the template landing page.
-     - Turn on `01b. Push Registrants to Hopin from Marketo + Send Confirmation Email`. Then test by registering on that landing page. After 3 minutes, you will receive an email asking to confirm your registration, click the link and follow prompts on the HopIn page. Once confirmed, you will receive an email from HopIn saying it was successful. You can also look into the `attendees` section in HopIn and make sure your test is there too - once you see it, you can `remove` your test lead from the list and go live with the landing page.
-1. `02 Attended Hopin` is used to track attendees of the event - it will not track individual sessions, only overall attendance.
-   - To use, make sure you update the program token `{{my.hopin event name}}` with your HopIn event name. In the Smartlist, Use `starts with` as the operator to make sure you catch all registrants.
-   - When token is updated, you can turn on. No changes are necessary for the Flow.
-
-
 ## Steps to Setup LinkedIn Lead Gen Form
 We have listeners set up in Marketo listening certain parameters. Please check the `Marketo Listener` column below to see if a program is already set up in Marketo. If it is, you do not need to create a new listener, you only need to add the content to the program. Otherwise, please follow the process outlined below to ensure leads are being captured.
 
@@ -955,13 +1016,13 @@ We have listeners set up in Marketo listening certain parameters. Please check t
 | Version Control & Collaboration Use Case | vccusecase                      |  |
 | Simplify DevOps                          | simplifydevops                  |  |
 | Jenkins                                  | cicdcmp2                        |      |
-| Increase Operational Efficiencies	       | operationalefficiences          ||
-| Deliver Better Products Faster	       | betterproductsfaster            ||
-| Reduce Security and Compliance Risk	   | reducesecurityrisk              ||
-| CI Build & Test Auto	                   | cicdcmp3                        ||
-| OctoCat	                               | octocat                         ||
-| DevSecOps Use Case	                   | devsecopsusecase                | |
-| AWS	                                   | awspartner                      ||
+| Increase Operational Efficiencies           | operationalefficiences          ||
+| Deliver Better Products Faster           | betterproductsfaster            ||
+| Reduce Security and Compliance Risk       | reducesecurityrisk              ||
+| CI Build & Test Auto                       | cicdcmp3                        ||
+| OctoCat                                   | octocat                         ||
+| DevSecOps Use Case                       | devsecopsusecase                | |
+| AWS                                       | awspartner                      ||
 | GitOps Use Case                          | iacgitops                       | |
 
 

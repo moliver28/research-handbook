@@ -13,7 +13,7 @@ canonical_path: "/company/strategy/"
 Our strategy is looking 3 years out and [fits into our cadences](/handbook/company/cadence/#strategy). It also maps to and reflects GitLab's [mission](/handbook/company/mission/), [vision](/handbook/company/vision/) and [values](/handbook/values/). It is a living strategy, so we will revisit on a regular basis and [iterate](/handbook/values/#iteration) when there is reason to do so.
 
 Along the road to realizing our mission of **everyone can contribute**, our
-strategic goal is to be the leading complete [DevSecOps Platform](/solutions/devops-platform/). We help our customers build better software faster including developing cloud native applications, building mobile applications, and incorporating machine learning and artificial intelligence into their products and solutions. We believe that our [dual flywheels](#dual-flywheels) (single application + open-core model) will propel us to efficiently be the default choice in the Enterprise market.
+strategic goal is to be the leading complete [DevSecOps Platform](https://about.gitlab.com/solutions/devops-platform/). We help our customers build better software faster including developing cloud native applications, building mobile applications, and incorporating machine learning and artificial intelligence into their products and solutions. We believe that our [dual flywheels](#dual-flywheels) (single application + open-core model) will propel us to efficiently be the default choice in the Enterprise market.
 
 As we execute on our strategy, it is important to use our financial targets as guide rails and mature our internal processes for building a durable business for the long-term.
 
@@ -25,7 +25,7 @@ As we execute on our strategy, it is important to use our financial targets as g
 1. Seed then nurture: [plant seeds and nurture the product to build out depth](#seed-then-nurture).
 1. Speed: ship every change in the next release to maximize responsiveness and learning.
 1. Life balance: we want people to stay with us for a long time, so it is important to [take time off](/handbook/paid-time-off/) and work on life balance; being [all-remote](/handbook/company/culture/#all-remote-work) is a large part of the solution.
-1. Open Source Stewardship: be a good [steward of GitLab](/handbook/company/stewardship/) and [collaborate with the wider community](/community/contribute/) to [improve the product together](/handbook/engineering/development/performance-indicators/#mr-rate).
+1. Open Source Stewardship: be a good [steward of GitLab](/handbook/company/stewardship/) and [collaborate with the wider community](https://about.gitlab.com/community/contribute/) to [improve the product together](/handbook/engineering/development/performance-indicators/#mr-rate).
 
 ### Seed then nurture
 
@@ -46,7 +46,6 @@ If we effectively seed and then nurture, we can fully activate GitLab's [two gro
 ## Pricing
 
 Please see our [pricing model](/handbook/company/pricing/) for details
-
 
 ## Dual flywheels
 
@@ -79,15 +78,14 @@ graph BT;
 | More Features | [Merge Requests per release per engineer in product development](/handbook/engineering/development/performance-indicators/#average-mrs-development-engineers-month) | Engineering and Product Management |
 | More Revenue | [IACV](/handbook/sales/#incremental-annual-contract-value-iacv) vs. plan | Sales and Marketing |
 
-
 ### Flywheel with two turbos
 
-GitLab is a [complete DevOps platform](/solutions/devops-platform/), delivered as a [single application](/handbook/product/single-application/), with [contributions from the wider community](/community/contribute/).
+GitLab is a [complete DevOps platform](https://about.gitlab.com/solutions/devops-platform/), delivered as a [single application](/handbook/product/single-application/), with [contributions from the wider community](https://about.gitlab.com/community/contribute/).
 
 Compared to other DevOps platforms, GitLab leverages one or two unique turbos that boost the company:
 
 1. [Advantages of a single application](/handbook/product/single-application/), leading to more [Stages per Organization](/handbook/product/performance-indicators/#stages-per-organization-spo)
-1. [Open Source stewardship](/handbook/company/stewardship/), leading to [Wider community contributions](/community/contribute/)
+1. [Open Source stewardship](/handbook/company/stewardship/), leading to [Wider community contributions](https://about.gitlab.com/community/contribute/)
 
 The advantage of a single application manifests itself if people start using more stages of the application.
 In the graph below this is visualized with [Stages per Organization (SpO), knowing that an organization using an extra stage triples conversion](https://about.gitlab.com/direction/#product-strategy).
@@ -157,23 +155,28 @@ Our yearly plans are linked from the [relevant cadence section](/handbook/compan
 
 Activity
 
-Positioning and SWOT published in [internal handbook](https://internal-handbook.gitlab.io/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
+Positioning and SWOT published in [internal handbook](https://internal.gitlab.com/handbook/company/swot-and-positioning/) with description of strategy process two weeks post offsite
+
 - May 15th eGroup review (Complete)
 
 eGroup capability gap exercise at eGroup offsite (prework)
+
 - Stella
 - Complete: Jun 28th
 
 Complete capability gap exercise at VP level to bring more input into the group
+
 - Directs Group
 - Drafts: July 12th
 - Final: July 19th
 
 Pull together comprehensive view of capabilities from eGroup and VP sessions
 Craig/Dave
+
 - July 24th
 
 eGroup June Virtual Offsite Sessions:
+
 - Decide on GTM, Ops and Product strategies
 - Decide on top capabilities for investment (feed into LRO)
 - Craig/Dave

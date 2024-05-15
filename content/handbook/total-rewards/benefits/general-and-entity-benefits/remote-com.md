@@ -51,7 +51,7 @@ Team Members in Brazil are entitled to a statutory minimum of 30 calendar days o
 
 In addition, team members must be paid 1/3rd of a month’s salary as holiday bonus.
 
-To ensure all statutory annual leave is tracked appropriately, please enter all requested into Time Off by Deel by selecting the `Vacation` option.
+To ensure all statutory annual leave is tracked appropriately, please enter all requested into Time Off by Deel by selecting the `Vacation` option, at least one month prior to the leave being taken (this is ensure accuracy and reporting for statutory compliance).
 
 ### Statutory Pregnancy & Maternity leave
 
@@ -61,7 +61,7 @@ To apply for leave, please enter the dates into Time Off by Deel and select the 
 
 ### Statutory Partner/Paternity leave
 
-Team Members in Brazil are entitled to up to five days of paid statutory paternity leave.  Team members are also eligible for GitLab's 16-week paid [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}); which run concurrently.
+Team Members in Brazil are entitled to up to five days of paid statutory paternity leave.  Team members are also eligible for GitLab's 16-week paid [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}); run concurrently.
 
 Team members will receive up to 100% of their regular salary during their statutory Paternity Leave.  If eligible, team members will receive up to 100% of their regular salary for the full 16 weeks of leave.
 
@@ -217,10 +217,18 @@ This plan has required enrollment for all employees. There is no opt-out option.
 
 *Contribution rates are:*
 
-- On Pensionable Salary between 0 and 7.5 x the Income Base Amount (IBA*) = 4.5% On Pensionable Salary between 7.5 and 30 x the IBA = 30% No contributions are payable on Pensionable Salary above 30 x the IBA.
+- Pensionable Salary between 0 and 7.5 x the [Income Base Amount (IBA*)](https://ec.europa.eu/social/main.jsp?catId=1130&langId=en&intPageId=4814#:~:text=The%20income%20base%20amount%20is,is%20also%20a%20lower%20limit.) = 4.5% On Pensionable Salary between 7.5 and 30 x the IBA = 30% No contributions are payable on Pensionable Salary above 30 x the IBA.
 - The company pays all the contributions and no contributions are required from employees.
 - Pensionable salary is defined as Basic Salary only.
 - Membership of the pension scheme is open to employees aged 18 to 65.
+
+Example for 2024 Income Base Amount:
+
+An employee with an annual salary of 800 000 SEK.
+
+- the 2024 IBA (income base amount) is 76 200 SEK. This means that 7,5 IBA x 76 200 is= 571 500
+- Up to a salary of 571 500 the employee has 4,5% contribution (coming from the employer), and above 571 500 (up to 800 000) they have a 30% contribution. There is also a roof of 30% IBA, so if an employee has an annual salary over 30 IBA (2 286 000 SEK), there would be no contribution beyond that level.
+To the top of that amount, 24,26% taxes should be added.
 
 ### Life Insurance
 
@@ -321,104 +329,6 @@ Remote will require the team member to complete an additional spreadsheet contai
 
 If you experience any issues, please contact Remote via email: help@remote.com. **No other expenses need to be submitted via the Remote portal, only Navan should be used.**
 
-## Spain
-
-All of the benefits listed below are administered and managed by [Remote](https://remote.com/). Queries can be directed to help@remote.com.
-
-### Healthcare
-
-- Remote must offer [Allianz](https://drive.google.com/file/d/1hMw61FsriqRPfcFRQ-mzQsu6HF03IUFB/view) premium plan to all employees (this covers team members only and does not include dependants).
-- Team members have the option to waive this plan and instead can be paid a taxable bonus of up to $300/€252.35 each month, to be used to cover their own medical insurance and include dependants. This will be marked as 'bonus' on the payslip.
-- Proof of coverage must be shared with Total Rewards. To do this, the team member may redact any personal information, upload to their Workday profile, and email to total-rewards@domain to confirm the same.
-- Total Rewards will inform Payroll via the Payroll changes sheet
-- Accruals for 13th and 14th month salaries
-- General risks and unemployment insurance
-- Salary guarantee fund (FOGASA)
-- Work accident insurance
-
-GitLab currently has no plans to offer Life Insurance, Private Medical cover, or a private pension due to the government cover in Spain. The [GitLab Life Insurance plan]({{< ref "general-and-entity-benefits#life-insurance" >}}) still applies.
-
-### Statutory Leave Policies
-
-Below is the information related to Spain's statutory leave policies.  Please note that team members hired in Spain are hired via Remote (PEO) and you should always check with Remote first for the most up to date information.
-
-#### Holiday Leave
-
-All full-time workers are legally entitled to 22 days paid holiday leave a year. In addition, full-time workers have 14 paid public holidays a year.
-
-#### Paid Maternity leave
-
-Employees in Spain are eligible for up to 16 weeks of Maternity leave. This rises to 18 weeks for twins and 20 weeks in the case of triplets. For children with disabilities there is an additional two weeks.
-
-Four out of the 16 weeks may be taken prior to the birth of the child.  At least six uninterrupted weeks must be taken immediately following the birth. Also, if you have to take time off whilst pregnant for medical reasons, you are still entitled to the 16 weeks maternity leave after your child is born.
-
-It is also possible to use the 16 weeks in combination with a part-time working timetable or even add holiday time that you are due in order to extend your leave.
-
-For mothers of premature babies or where a baby has to remain in hospital for more than seven days following the birth, standard maternity leave can be extended for up to 13 weeks.
-
-During the maternity period, team members are not paid a salary, but instead a maternity benefit. This contribution is paid directly from the [Social Security Administration](https://www.seg-social.es/wps/portal/wss/internet/Conocenos/QuienesSomos/29413?changeLanguage=es) to the employee.
-
-Same-sex couples: both parents are entitled to paid leave. One will have to apply for paternity benefits, and the other for maternity benefits. However, in order to qualify for paid paternity (or maternity) benefits, it is essential that each parent has a legal link with the child. This means that paid leave will only be granted either:
-
- - If you are a biological parent; or
- - If you have legally adopted the child.
-    - Being married to the biological or adoptive parent of a child does not qualify you for paid leave.
-
-#### Applying for Maternity Leave
-
-In order to be eligible for paid maternity leave, you must make sure to meet the following requirements:
-
-- You must be working for a company, or as a self-employed worker.
-- If you are below 21 years old, you won’t be required to have made contributions to social security before.
-- If you are 21 to 26 years old, then you must be making contributions to social security for at least 90 days during the past 7 years, or 180 days during your entire working life.
-- If you are over 26 years old, 180 days during the past 7 years or at least 360 days during your working life.
-
-If you don’t meet this requirement, you can still get your maternity leave and get paid during those 16 weeks. Under certain conditions, you will get a non-contributory pension, which pays approximately 530€ per month. Team Members will need to request your [work-life certificate](https://balcellsgroup.com/employment-history-report/) at the “Tesorería de la Seguridad Social”, which can be requested online.
-
-To help plan your leave click: [How Much Exactly Will You Get Paid On Leave](https://balcellsgroup.com/maternity-leave-spain/#How_much_exactly_will_you_get_paid_during_maternity_leave).
-
-Please enter the dates of your leave in Time Off by Deel by selecting the `Parental leave` option.  The Absence Management team will contact you with more information.
-
-#### Unpaid Maternity Leave
-
-Excedencia sin sueldo offers the right to take extended leave from work for up to a maximum of three years in total for a mother to care for her children and still return to the same employer. You can request that your exact post be held for a maximum of one year, after which you may be offered a similar post for up to 2 years.
-
-During this absence you will still be recognized as contributing to the social security system. You do not need to agree the time period with your employer beforehand and legally you are required to give two weeks notice before returning to your post.
-
-#### Paternity Leave
-
-Team Members in Spain are eligible for 16 weeks of Paternity leave.  The first six weeks must be taken immediately and consecutively after the child’s birth, whereas the other 10 weeks can be taken non-consecutively during the first 12 months of the baby’s life, which can be extended by one week per child in the case of a multiple birth. An extra week’s leave can also be applied for if the baby is born with a disability or health problems. If the baby is premature or has to be hospitalized for longer than seven days, leave can be extended for up to an additional 13 weeks.
-
-This leave must be taken in batches of one week as a minimum, but the weeks can be split over time if desired. The father is also entitled to take unpaid childcare leave until the child is three years old.
-
-Please enter the dates of your leave in Time Off by Deel by selecting the `Parental Leave` option.  The Absence Management team will contact you with more information.
-
-#### Paternity Leave Payments
-
-As long as the father has correctly paid his social security contributions—for a minimum of 180 working days within the past seven years or 360 total days in his entire professional life — 100% of his salary will be covered (as long as payment does not exceed 4070.10 EUR).
-
-This money comes from the Spanish government, not his employer, though employers are liable for certain taxes that pertain to the salary, such as withholding.
-
-#### Applying for Parental Leave in Spain
-
-To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Time Off by Deel at least 30 days before your leave starts. Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
-
-#### Breastfeeding leave
-
-Parents can take an additional breastfeeding leave after parental leave. This breastfeeding leave can be enjoyed in two ways:
-
-- take one hour off during the day, until the child is nine months old (it can either be one hour, or half an hour at the beginning and at the end of the working day)
-- take 15 consecutive days after the parental leave
-
-The breastfeeding leave is considered as working time, meaning that the employee doesn't receive anything from Social Security and is paid by the company at 100%.
-
-### Other leave policies
-
-- **Adoption leave:** upon adoption of a child or have taken in a foster child, employees are entitled to the same entitles apply as for maternity and paternity rights. Applies to both parents.  When adopting or fostering a child, each parent is eligible for the same 16 weeks as is the biological parent if the child is under six years old. If the child is older, both adoptive parents are eligible for the remaining optional 10 weeks that a biological parent would have after the first obligatory six weeks after birth.
-- **Emergency and short absense leave:** intended for unforeseen personal circumstances for which an employee has to take time off immediately. Examples include making arrangements for the care of a sick family member or in the event of a death in the family. Up to two calendar days or four if travel is required.
-- **Long-term care leave:** when a child, partner or parent of the employee is seriously (i.e. life threateningly) ill and requires care, the employee can request long-term care leave.
-- **Unpaid leave:** the employee may take unpaid leave in consultation with the employer on a full-time or part-time basis. Granted at the discretion of the employer, but must always be set in an individual or collective agreement. Unpaid leave periods are not regulated by law.
-
 ## Italy
 
 All of the benefits listed below are administered and managed by [Remote](https://remote.com/). Queries can be directed to help@remote.com.
@@ -489,6 +399,7 @@ In addition to maternity and paternity leave, parents can take extended unpaid p
 Below is the information related to Italy's statutory leave policies.  Please note that team members hired in Italy are hired via Remote (PEO) and you should always check with Remote first for the most up to date information.
 
 = **Adoption leave:** upon adoption of a child, employees are entitled to 3 months of maternity or paternity leave and employees are entitled to the same financial benefits of natural children. Parents can also take parental leave in the first three years the child is in the family for same periods and financial benefits. Applies to both parents
+
 - **Work-related Injust leave:**  collective bargaining agreements or individual contracts generally provide for a period paid time off in the case of work injury. The period is generally between 6 and 12 months and applies for both a single period of sick leave and multiple periods. The employee is entitled to keep their job and receive their salary in proportion to the period set out in the collective bargaining agreement or individual employment contract.
 
 ## Switzerland
@@ -604,6 +515,18 @@ Employees in Mexico are covered by the Social Security Law, under IMSS who is re
 ### Life Insurance
 
 - Life insurance cover provided via Remote. Effective January 1, 2024, all Team Members will be enrolled in the Remote Global Life Insurance plan with a cover level of 200,000 USD at no cost to the team member.
+
+### Monthly Remote Working Allowances
+
+Team members in Mexico will receive a monthly allocation of 1100 MXN for internet and electricity to support their remote work. These reimbursements are tax-exempt and will be reflected as a separate line item on your payslips to cover remote working expenses such as internet and electricity.
+
+- If remote work related expenses for internet and electricity are greater than the 1100 MXN allowance team members can expense the difference for reimbursement. For expenses over the allowance team member's will need to upload all receipts for proper reimbursement.
+- Use Expense code: `Work From Home` for the additional expenses.
+
+### Ergonomic Chair Allowance
+
+- Team members are entitled to a one-time claim up to 3000 MXN for the purchase of an ergonomic chair to support their comfort and health while working remotely.
+- Follow the reimbursement procedure outlined in the [NAVAN policy](/handbook/finance/expenses/#equipment) for reimbursement.
 
 ### Christmas Bonus (Aguinaldo)
 

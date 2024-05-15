@@ -29,7 +29,7 @@ Requester must be a Group Owner of a pre-existing paid namespace.
 
 #### Free Users
 
-Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits). Support will provide information [when GitLab initiates contact due to an incident](/support/statement-of-support/#free-users).
+Free users should reference [GitLab.com rate limits documentation](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits). Support will provide information [when GitLab initiates contact due to an incident](https://about.gitlab.com/support/statement-of-support/#free-users).
 
 ### What we can provide
 

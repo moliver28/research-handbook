@@ -17,7 +17,7 @@ Information about SIRT responsibilities and incident ownership is available in t
 
 Security incident investigations are initiated when a security event has been detected on [GitLab.com](https://www.gitlab.com) or as part of the GitLab company. These investigations are handled with the same level of urgency and priority regardless of whether it's a single user or multiple projects.
 
-Incident indicators can be reported to SIRT either internally, by a GitLab team member, or [externally]({{< ref "/handbook/security#external-contact-information" >}}). It is the Security team's responsibility to determine when to investigate dependent on the identification and verification of a security incident.
+Incident indicators can be reported to SIRT either internally, by a GitLab team member, or [externally](/handbook/security#external-contact-information). It is the Security team's responsibility to determine when to investigate dependent on the identification and verification of a security incident.
 
 The GitLab Security team identifies security incidents as any violation, or threat of violation, of GitLab security, acceptable use or other relevant policies.
 
@@ -33,7 +33,7 @@ SIRT will follow processes in the [Material Breach Determination internal handbo
 
 ## Procedure
 
-### Incident Response Process - this guide covers the following activities for all identified security incidents:
+### Incident Response Process - this guide covers the following activities for all identified security incidents
 
 1. Detection
     - The SIRT, other internal, or external entity identifies a Security or Privacy Event that may be the result of a potential exploitation of a Security Vulnerability or Weakness, or that may the result of an innocent error
@@ -164,7 +164,6 @@ In the event of a perceived major security incident (which may prove to not be o
 - **Do your best to stay professional**. However, be aware that security incidents are often stressful and we're all humans. People may raise their voice, or use wording that seems unnecessary, harsh or inappropriate. It's important to cut people some slack (no pun intended) during this stressful time, and raise/address any potentially erratic behavior with the relevant manager once the incident is over.
 - **Humor is your ally**. No, it really is.
 
-
 ### Incident Labels
 
 The correct use of dedicated [scoped incident labels](#incident-labels) is critical to the sanity of the data in the incident tracker and the subsequent metrics gathering from it.
@@ -247,11 +246,11 @@ We currently track several labels specific to phishing-related incidents:
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "/handbook/security#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process).
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "/handbook/security" >}})
+- Parent Policy: [Information Security Policy](/handbook/security)
 - [Security Communications Runbooks](https://gitlab.com/gitlab-com/gl-security/runbooks/-/tree/master/communications) (internal)
 - [Incident Communications Plan]({{< ref "security-incident-communication-plan" >}})
 - [Marketing Emergency Response process](/handbook/marketing/emergency-response/)

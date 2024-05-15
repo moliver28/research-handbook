@@ -16,7 +16,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 
 ## Resources on GitLab's all-remote approach
 
-#### Articles
+### Articles
 
 - [Fast Company: Extremely Transparent and Incredibly Remote](https://www.fastcompany.com/90548691/extremely-transparent-and-incredibly-remote-gitlabs-radical-vision-for-the-future-of-work)
 - [Protocol: Do you need to hire a 'head of remote?'](https://www.protocol.com/workplace/head-of-remote-darren-murph)
@@ -59,7 +59,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [GitLab 2020 Remote Work Report Highlights Key Motivators for Remote Work](https://www.infoq.com/news/2020/03/gitlab-2020-remote-work-report/)
 - [More than 4h of video calls each day? Work doesn’t have to be this way.](https://medium.com/@sense_change/more-than-4h-of-video-calls-each-day-work-doesnt-have-to-be-this-way-4683be8911e6)
 
-#### Blogs from GitLab team members
+### Blogs from GitLab team members
 
 - [First time all remote: Expect the unexpected](https://dnsmichi.at/2020/03/16/first-time-all-remote-expect-the-unexpected/)
 - [First time all remote: My first week at GitLab](https://dnsmichi.at/2020/03/09/first-time-all-remote-my-first-week-at-gitlab/)
@@ -98,9 +98,9 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Highlights to my first remote job](https://about.gitlab.com/blog/2015/06/17/highlights-to-my-first-remote-job/)
 - [I'm leaving GitLab to help everyone work remotely](https://medium.com/@jobv/im-leaving-gitlab-to-help-everyone-work-remotely-1f6828ec45d5)
 
-#### Videos, podcasts, interviews, presentations
+### Videos, podcasts, interviews, presentations
 
-##### Videos
+#### Videos
 
 - [theCUBE: How GitLab operates as an all-remote company with Darren Murph, Head of Remote](https://youtu.be/IU2nTj6NSlQ)
 - [First time all-remote: Best practices from and with GitLab (presented by Michael Friedrich)](https://www.youtube.com/watch?v=kCgvhgwM8To) ([Slides](https://docs.google.com/presentation/d/1bh-M-B1DUqstQfCDTnUr7T5YbBKOHfOH-8jfPCSJDDQ/edit?usp=sharing))
@@ -124,7 +124,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [theCUBE: How GitLab has scaled as an all-remote company with Sid Sijbrandij, CEO and co-founder](https://youtu.be/eIs71f5IEUU)
 - [Modern Work: Finding Structure in an Officeless World](https://youtu.be/aqCFTpvE4Q0?t=151)
 
-##### Podcasts
+#### Podcasts
 
 - [A Whole New Level — Building & Scaling Remote Teams with Sam Corcos and Darren Murph](https://www.levelshealth.com/podcasts/building-scaling-remote-teams-sam-corcos-darren-murph)
 - [The Future of Work Project — Darren Murph // Unlocking the Super Powers of Remote, and its Positive Effects on Families](https://anchor.fm/fowproject/episodes/23-Darren-Murph---Unlocking-the-Super-Powers-of-Remote--and-its-Positive-Effects-on-Families-e115ni7)
@@ -150,7 +150,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [The Twenty Minute VC: A podcast interview with GitLab founder Sid Sijbrandij](http://www.thetwentyminutevc.com/sidsijbrandij/)
 - [Coder Radio interview with Sid on 100% remote work and the GitLab model](https://coder.show/313?t=1099)
 
-##### Articles
+#### Articles
 
 - [Lessons learned from GitLab about remote work - Team Topologies interview with Darren Murph](https://teamtopologies.com/news/lessons-learned-from-gitlab-about-remote-work-interview-with-darren-murph)
 - [LinkedIn Talent on Tap: Tips for a productive all-remote workforce](https://youtu.be/u0dRWDmYSvg)
@@ -160,7 +160,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Outklip Blog: Using Video for Remote Work: Q&A with GitLab CEO](https://outklip.com/blog/using-video-for-remote-work/)
 - [Arc Blog: Work Like Automattic, Buffer & GitLab - Remote Operations at Top Distributed Companies](https://arc.dev/blog/remote-operations-automattic-buffer-gitlab-9rihtsu120)
 
-#### Threads and conversations
+### Threads and conversations
 
 - [HackerNews thread about all-remote page](https://news.ycombinator.com/item?id=19785262)
 - [HackerNews thread about why more companies aren't remote](https://news.ycombinator.com/item?id=20104173)
@@ -170,7 +170,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 ![GitLab values](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%"}
 
-#### Articles
+### Articles
 
 - [How to transition to remote work](https://askalmanac.com/articles/12774/how-to-transition-to-remote-work)
 - [Amplify Accelerator Open Source Learning Lab](https://www.redefininghr.com/learning-lab)
@@ -214,7 +214,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Remote Work 1-2-3: First Three Steps to Going Remote](https://www.remoter.com/remote-work-1-2-3-first-three-steps-to-going-remote)
 - [Work is Work: In which returns diminish](https://codahale.com/work-is-work/)
 
-#### Best practices
+### Best practices
 
 - [Communication Debt - How and Why to Keep Your Team Out of It](https://statushero.com/blog/team-communication-debt/)
 - [Hiring top talent from generation Z: 14 essential recruitment tips](https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/08/05/hiring-top-talent-from-generation-z-14-essential-recruitment-tips/)
@@ -256,8 +256,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Managing Remote Developer Teams: How Buffer Set the Gold Standard - Interview with Katie Womersley](https://codingsans.com/blog/managing-remote-developer-teams)
 - [What Is the Best Compensation Model?](https://www.remoter.com/what-is-the-best-compensation-model)
 
-
-#### Surveys and data
+### Surveys and data
 
 - [The Remote Work Report by GitLab: The Future of Work is Remote]({{< ref "./remote-work-report" >}})
 - [Sike Insights — EQ & Remote Managers Report](https://bit.ly/3iX519B)
@@ -275,7 +274,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Remote Work 2020 Survey by Remote.Tools](https://remotework2020.remote.tools/)
 - [Is Working Remotely Effective? Gallup Research Says Yes](https://www.gallup.com/workplace/283985/working-remotely-effective-gallup-research-says-yes.aspx)
 
-#### Videos, interviews, presentations
+### Videos, interviews, presentations
 
 - [LinkedIn's 2019 Global Talent Trends report](https://business.linkedin.com/content/dam/me/business/en-us/talent-solutions/resources/pdfs/global-talent-trends-2019.pdf)
 - [Things I Wish I Knew Before Going Remote by Marla Brizel Zeschin](https://www.youtube.com/watch?v=nUQ41-vBtdg)
@@ -284,21 +283,20 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Founding and Growing Remotely Online Course](https://www.remoter.com/remoter-course-founding-and-growing-remotely)
 - [TechSAV's Brown Bag Series: Working & Managing Remote](https://www.youtube.com/watch?v=IORw1YvSkmw)
 
-#### Threads and conversations
-
+### Threads and conversations
 
 - [We Work Remotely Slack community](http://bit.ly/wwr_slack)
 - [#remotechat - remote-focused Twitter chat every Wednesday](https://twitter.com/search?q=%23remotechat&src=typeahead_click&f=live)
 - [Tweet thread about downsides of remote work](https://twitter.com/rakyll/status/1143271423722455040?s=09)
 - [HackerNews thread about remote work literature](https://news.ycombinator.com/item?id=20884974)
 
-#### Tools that enable remote teams
+### Tools that enable remote teams
 
-Here's [a list]({{< ref "/handbook/tools-and-tips" >}}) of the tools we use internally at GitLab, with details on how we use them.
+Here's [a list](/handbook/tools-and-tips) of the tools we use internally at GitLab, with details on how we use them.
 
 [Elaine Z.](https://twitter.com/ezelby), investor at [SignalFire](https://twitter.com/SignalFire), compiled an [excellent summary of tools](https://medium.com/@ezelby/remote-work-market-map-58591966b0c2) for remote teams to consider. Others are shared below.
 
-##### Communication
+#### Communication
 
 - [Slack](https://slack.com) - chat
 - [Zoom](https://zoom.com) - video calls
@@ -307,40 +305,40 @@ Here's [a list]({{< ref "/handbook/tools-and-tips" >}}) of the tools we use inte
 - [Yac](https://www.yac.com/) - asynchronous voice collaboration for remote team
 - [8x8](https://www.8x8.com/) - unified communications (video, VoIP, etc.)
 
-##### Design and collaboration
+#### Design and collaboration
 
 - [MURAL](https://mural.co/) - visual design collaboration
 - [Figma](https://www.figma.com/) - design collaboration
 - [CoScreen](https://www.coscreen.co/) - remote screensharing
 
-##### Handbook and company-wide documentation
+#### Handbook and company-wide documentation
 
 - [Almanac](https://almanac.io/)
 
-##### Empathy, culture, and team-building
+#### Empathy, culture, and team-building
 
 - [Sike Insights Kona](https://sikeinsights.com/) - team personality, mood, and morale insights
 
-##### Management
+#### Management
 
 - [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/)
-- [GitLab Pages](/stages-devops-lifecycle/pages/)
+- [GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/)
 - [Qatalog](https://qatalog.com/) - work hub syncing multiple tools and services
 - [Range](https://www.range.co/) - team collaboration and management
 - [There](https://there.pm/) - quick time zone reference for your global team
 - [Buildstack](https://buildstack.com/) - an operating system and unified inbox for teams
 
-##### Meetings
+#### Meetings
 
 - [Remeet](https://www.remeet.com/)
 - [Friday](https://www.friday.app/)
 
-##### Events, meetups, gatherings
+#### Events, meetups, gatherings
 
 - [Hopin](https://hopin.to/) - all-in-one live online events platform
 - [Remo](https://remo.co/) - virtual workspace tool
 
-#### Co-working, communal workspaces, and third spaces
+### Co-working, communal workspaces, and third spaces
 
 Remote work [enables]({{< ref "./phases-of-remote-adaptation" >}}) individuals and teams to create and contribute in places other than a home or conventional office. Many are familiar with [WeWork](https://www.wework.com/) and [Regus](https://www.regus.com/en-us), where a desk or office is available to rent. Post-COVID, leaders are recognizing the need to support the *third space* — a workplace that isn't one's home, and isn't an office.
 
@@ -350,7 +348,7 @@ Some organizations (like GitLab) provide stipends or [reimbursement](/handbook/f
 - [Switchyards](https://switchyards.com/) (neighborhood work clubs)
 - [WorkChew](https://workchew.com/) (alternative workspaces within restaurants and hotels)
 
-#### Organizations for traveling remote work
+### Organizations for traveling remote work
 
 - [Remote Year](http://www.remoteyear.com/)
 - [Wifi Tribe](https://wifitribe.co/)
@@ -363,7 +361,7 @@ Some organizations (like GitLab) provide stipends or [reimbursement](/handbook/f
 - [Digital Outposts](http://digitaloutposts.com/)
 - [Remote Work Association](https://www.remoteworkassociation.com/)
 
-#### Guides for remote work
+### Guides for remote work
 
 - [The Holloway Guide to Remote Work](https://www.holloway.com/g/remote-work)
 - [Don’t Panic: The Essential Work From Home Field Guide by Maren Kate](https://inde.co/remote)
@@ -384,6 +382,6 @@ Here's how you can participate:
 - [Create an issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues/) if you have any questions or if you see an inconsistency.
 - Help spread the word about all-remote organizations by sharing it on social media.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

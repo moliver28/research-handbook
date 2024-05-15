@@ -47,7 +47,7 @@ Non-public information relating to this security control as well as links to the
 
 ### Policy Reference
 
-- [Endpoint Management at GitLab](/handbook/business-technology/team-member-enablement/onboarding-access-requests/endpoint-management/)
+- [Endpoint Management at GitLab](https://internal.gitlab.com/handbook/it/endpoint-tools/)
 
 ## Framework Mapping
 

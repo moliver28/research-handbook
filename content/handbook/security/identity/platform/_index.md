@@ -65,7 +65,7 @@ Our Identity Platform open source projects can be explored at [https://gitlab.co
 
 > Okta User Attribute: `rbac_type`
 
-We have different categories of users (ex. employees, contractors, service accounts, system administrators) that need birthright access to various systems. We use our [access level wristbands](https://handbook.gitlab.com/handbook/it/policies/access-level-wristbands/) color coding to specify each Okta user's type as `blue`, `purple`, `gray`, `brown`, or `black`.
+We have different categories of users (ex. employees, contractors, service accounts, system administrators) that need birthright access to various systems. We use our [access level wristbands](/handbook/it/policies/access-level-wristbands/) color coding to specify each Okta user's type as `blue`, `purple`, `gray`, `brown`, or `black`.
 
 ### Identity Roles
 
@@ -73,7 +73,7 @@ We have different categories of users (ex. employees, contractors, service accou
 
 An **Identity Role** is a standardized snake case format for the functional team that the user is on or job title, as it relates to access control and permissions.
 
-This is a next generation iteration of a GitLab Identity v2 [job family](https://handbook.gitlab.com/job-families/) and [role-based baseline entitlements](https://handbook.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/baseline-entitlements/).
+This is a next generation iteration of a GitLab Identity v2 [job family](https://handbook.gitlab.com/job-families/) and [role-based baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/).
 
 Each role uses a syntax of `{department_slug}_{functional_team_slug}_{specific_role_if_applicable}`. For example, if your department is `Infrastructure`, the RBAC slug is `infra`.
 
@@ -115,9 +115,9 @@ As our organization structure ebbs and flows, we have 200-250 unique Identity Ro
 | Finance | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/business_finance.yml?ref_type=heads) | Managers and Job Titles |
 | Legal | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/business_legal.yml?ref_type=heads) | Identity Engineering |
 | Marketing | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/business_marketing.yml?ref_type=heads) | Department Names |
-| People | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/business_people.yml?ref_type=heads) | [Handbook Page](https://handbook.gitlab.com/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) and Manager |
+| People | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/business_people.yml?ref_type=heads) | [Handbook Page](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) and Manager |
 | Sales | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/business_sales.yml?ref_type=heads) | Sales EBA Team and Department/Manager |
-| Product Development | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/product_dev.yml?ref_type=heads) | [DevOps Stages](https://handbook.gitlab.com/handbook/product/categories/#devops-stages) / [YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml?ref_type=heads) |
+| Product Development | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/product_dev.yml?ref_type=heads) | [DevOps Stages](/handbook/product/categories/#devops-stages) / [YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml?ref_type=heads) |
 | Product Production | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/product_prd.yml?ref_type=heads) | [Handbook Page](/handbook/engineering/infrastructure/#organization-structure) |
 | Security | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/security.yml?ref_type=heads) | [Handbook Page](/handbook/security/#division-structure) |
 | Service Accounts | [Policies](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/blob/main/role/policies/service_accounts.yml?ref_type=heads) | Identity Engineering |
@@ -443,7 +443,6 @@ When a user attribute value changes in Workday and pushes to Okta, the Identity 
 
 When we reach maturity, the scheduled jobs will run every hour and all attribute values and groups will be automatically calculated and programatically maintained without any human user intervention or day-to-day provisioning tasks. While we are in PoC/alpha/beta, the jobs run daily and created in a merge request that is reviewed by the Identity Ops team for accuracy to catch any bugs or unintended changes.
 
-
 ```mermaid
 graph LR
 
@@ -507,7 +506,6 @@ classDef violet fill:#c4b5fd,stroke:#7c3aed,stroke-width:1px;
 classDef fuchsia fill:#f0abfc,stroke:#c026d3,stroke-width:1px;
 end
 ```
-
 
 ## Configuration and Data Repositories
 
@@ -741,6 +739,7 @@ You may have already seen what's possible with GitLab Sandbox Cloud, Demo System
 We use a Docker image with the `accessctl` application with GitLab Runner to run Artisan Console commands that from Laravel actions. Each CI/CD job is usually related to ETL operations for (E)xtracting IAM/RBAC data from vendor APIs, (T)ransforming the API responses into standardized YAML and JSON array schemas, and (L)oading the data into the GitLab repositories (`accessctl-manifests`, `accessctl-auditlog` and `accessctl-policies` for system automation) and Google Sheets (for human use).
 
 The CI/CD pipeline has several stages:
+
 - [Manifests Stage](/handbook/security/identity/platform/manifests)
 - [Auditlog Stage](/handbook/security/identity/platform/auditlog)
 - [Provisioning Stage](/handbook/security/identity/provisioning)

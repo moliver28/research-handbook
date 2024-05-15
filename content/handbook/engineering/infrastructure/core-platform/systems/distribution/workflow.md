@@ -31,23 +31,23 @@ The distribution team is comprised of two groups, Distribution:Build and Distrib
 
 ### Distribution Build tasks
 
-- Maintain all team pipelines for all Distribution projects
-- Research for the support of new clouds, platforms, architecture, and components
-- Access controls, permissions, and CVE patches
-- Team infrastructure/resource management
-- Dependency updates
-- License management
-- Submissions to Partners for validations/certifications
+* Maintain all team pipelines for all Distribution projects
+* Research for the support of new clouds, platforms, architecture, and components
+* Access controls, permissions, and CVE patches
+* Team infrastructure/resource management
+* Dependency updates
+* License management
+* Submissions to Partners for validations/certifications
 
 ### Distribution Deploy tasks
 
-- Initial installation and composability
-- Upgrades / Downgrades
-- Scaling deployments
-- Migration between platforms or providers
-- Data lifecycle management
-- Secure configuration & communication
-- Research of clouds and platforms for integration to existing tools
+* Initial installation and composability
+* Upgrades / Downgrades
+* Scaling deployments
+* Migration between platforms or providers
+* Data lifecycle management
+* Secure configuration & communication
+* Research of clouds and platforms for integration to existing tools
 
 ## Work prioritization
 
@@ -101,8 +101,8 @@ via [milestone cleanup](/handbook/engineering/workflow/#milestone-cleanup) workf
   * `group::distribution::deploy` - Items specific to, or authored by [deployment](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distributiondeploy-charter) group.
 * `Stretch` - Items with this label are scheduled for work similar like
 the items with `Deliverable` label but with lower priority. If items with this label are not delivered in the current cycle, they will become `Deliverable` in the next release.
-* `Distribution OBJ::*` (1-4) - Items relate to a Distribution objective, usually combine with quarterly label. It is a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels). i.e. `Distribution OBJ::1`. The number (*) associates with a [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adistribution&first_page_size=50) item prefix number in a given quarter. 
-* `Distribution KR::*` (1-4) - Items relate to a Distribution key result, usually combine with objective and quarterly label. It is a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels). i.e. `Distribution KR::3`. The number (*) associates with a [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adistribution&first_page_size=50) item prefix number in a given quarter. 
+* `Distribution OBJ::*` (1-4) - Items relate to a Distribution objective, usually combine with quarterly label. It is a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels). i.e. `Distribution OBJ::1`. The number (*) associates with a [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adistribution&first_page_size=50) item prefix number in a given quarter.
+* `Distribution KR::*` (1-4) - Items relate to a Distribution key result, usually combine with objective and quarterly label. It is a [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels). i.e. `Distribution KR::3`. The number (*) associates with a [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adistribution&first_page_size=50) item prefix number in a given quarter.
 * `FY(Year in two digitals)::*` (1-4) - [scoped label](https://docs.gitlab.com/ee/user/project/labels.html#scoped-labels) to indicate efforts targeted for release within a quarter. i.e. `FY24::Q2`.
 * `Unscheduled` - Items with this label are being worked on in this release but have not been previously scheduled by the EM and PM. Work on this items is
 usually event driven - another team requires help, regression affecting users, or technical debt that is causing inefficiency in the team.
@@ -213,6 +213,12 @@ Distribution team follows below dependency maintenance policy in order to achiev
 
 Distribution aims to add support to newer release of Distribution managed dependencies within 3 to 5 milestones after their original release unless specified below otherwise.
 
+## Kubernetes release support policy
+
+Distribution team follows [kubernetes release support policy](k8s-release-support-policy.html) for supporting Kubernetes releases.
+
+Distribution aims to add support for newer releases of Kubernetes within 3 months of their release.
+
 ### OS
 
 All the operating systems supported by GitLab and their EOL policy are listed in the [Supported OS doc page](https://docs.gitlab.com/ee/administration/package_information/supported_os.html) and [installation page](https://about.gitlab.com/install/).
@@ -229,7 +235,7 @@ For new OS release, Distribution team aims to provide Linux package support per 
 
 ## Interviews
 
-See the [`hiring-process`](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/Platforms/Distribution)
+See the [`hiring-process`](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/CorePlatforms/Distribution)
 project for information on conducting interviews for positions on the Distribution team.
 
 [SLO]: https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#service-level-objective

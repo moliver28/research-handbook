@@ -1,18 +1,34 @@
 ---
 title: Govern, Security Policies
-description: "The Security Policies group at GitLab is charged with developing solutions to apply policies to enforce scans and to require security approvals when vulnerabilities are found."
+description: "The Security Policies team at GitLab is responsible for creating solutions that enforce scans, and require security approvals once vulnerabilities are detected."
 layout: single
 ---
 
-## Security Policies
+## Mission
 
-We are responsible for developing solutions to give customers the functionality to apply policies to enforce scans and to require security approvals when vulnerabilities are found.
+The Security Policies group's mission is to provide security and compliance teams with a way to enforce security controls globally in their organization. With tools developed by our team, customers can prevent security risks by enforcing and automating security scans and requiring security approvals for proposed changes in their repository. For a comprehensive understanding of our vision and direction, we invite you to visit the Direction page at https://about.gitlab.com/direction/govern/security_policies/security_policy_management.
+
+## Top Priorities FY25
+
+* Integrate Security Policies with other Govern feature categories by allowing users to scope policies to selected Compliance Frameworks or Projects.
+* Allow for complex and customized Scan Execution Policies by introducing Pipeline Execution Action with the ability to enforce Custom CI YAML for selected projects and groups.
+* Help users understand why we require merge request approvals in their MRs by displaying Security Policy Violation details as a comment with helpful information.
+* Help customers with the slow rollout of features from the Security Policies team by customizing their policy configuration to allow them to select if they want to fail open or fail closed in case the policy or project is misconfigured.
+* Decrease performance impact on runners when enforcing scheduled Scan Execution Policies.
+* Ability to enforce policies on Organization Level.
+
+### Customer Outcomes we are driving for Gitlab
+
+1. Increase usage of Merge Request Approval Policies with detailed information explaining why we require approvals for given MR.
+2. Speed up adoption time in enabling Security Policies by providing a way to enforce them gradually without blocking their current workflows for selected projects or projects with given Compliance Frameworks only.
+3. Increase the flexibility of Scan Execution Policies and allow users limitless possibilities with enforcing any job with Pipeline Execution Action for selected projects and groups.
+4. Help other groups introduce new types of policies to help customers automate and manage their security controls on group and organization levels.
 
 ## Common Links
 
-- Slack channel: #g_govern_security_policies
-- Slack alias: @govern_security_policies_be, @govern_security_policies_fe
-- Google groups: sec-govern-security-policies@gitlab.com
+* Slack channel: `#g_govern_security_policies`
+* Slack alias: @govern_security_policies_be, @govern_security_policies_fe
+* Google groups: sec-govern-security-policies@gitlab.com
 
 ## How we work
 
@@ -59,19 +75,19 @@ Our current process on how we work on features is on the [Feature process page](
 We follow these guidelines when submitting MRs for review when the change is within the Security Policies domain:
 
 1. The initial review should be performed by a member of the team, stage, or section. This helps the team by:
-   - Faster reviews, as the reviewer is already familiar with the domain
-   - Additional awareness of changes taking place within the domain
-   - Identifying changes that don't align with what is happening with the domain
+   * Faster reviews, as the reviewer is already familiar with the domain
+   * Additional awareness of changes taking place within the domain
+   * Identifying changes that don't align with what is happening with the domain
 1. For GraphQL changes, the MR should be reviewed by a frontend engineer as soon as possible. This helps to validate the interface, and allows changes to be made before tests are written.
 
 ### Issue Boards
 
-- [Security Policies Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754674?milestone_title=Started)
-   - Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
-- [Security Policies Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420731?label_name%5B%5D=group%3A%3Asecurity%20policies)
-  - Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
-- [Security Policies EM Board](https://gitlab.com/groups/gitlab-org/-/boards/4738985)
-  - Engineer-centric board used by engineering management to gauge how heavy a load engineer is carrying. Judged by the number of issues assigned to them.
+* [Security Policies Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754674?milestone_title=Started)
+   * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
+* [Security Policies Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420731?label_name%5B%5D=group%3A%3Asecurity%20policies)
+  * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
+* [Security Policies EM Board](https://gitlab.com/groups/gitlab-org/-/boards/4738985)
+  * Engineer-centric board used by engineering management to gauge how heavy a load engineer is carrying. Judged by the number of issues assigned to them.
 
 #### Issue and Merge Requests labels
 
@@ -95,11 +111,11 @@ When creating a new issue, use the `/copy_metadata #373191` quick command to cop
 
 It is advisable to manually trigger the `Package and QA` downstream [E2E](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/) job in an MR and review the results when there are changes in:
 
-- GraphQL (API response, query parameters, schema etc)
-- Gemfile (version changes, adding/removing gems)
-- Vue files which contain "data-qa-selector" attribute because these are used in identifying UI elements in E2E tests
-- Database schema/query changes
-- Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
+* GraphQL (API response, query parameters, schema etc)
+* Gemfile (version changes, adding/removing gems)
+* Vue files which contain "data-qa-selector" attribute because these are used in identifying UI elements in E2E tests
+* Database schema/query changes
+* Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
 
 To manually trigger the QA job:
 
@@ -110,7 +126,32 @@ It's advisable to run the QA job on the latest pipeline at least once during the
 
 ## Monitoring
 
-- [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-security_policies/stage-groups-security-policies-group-dashboard?orgId=1)
+* [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-security_policies/stage-groups-security-policies-group-dashboard?orgId=1)
+
+### Metrics the team tracks
+
+#### Engineering productivity metrics
+
+* Total Open Bug by Severity
+* Overall MRs by Type %
+* Group MR Rate
+* Flaky Test Issues
+* Slow RSpec Tests Issues
+
+#### Product metrics
+
+Adoption of Security Policies features:
+
+* Number of projects with an assigned security policy project
+* Number of groups with an assigned security policy project
+* Number of open merge requests with at least one applicable scan result policy
+* Number of projects with at least one scan result policy
+* Number of users who have created merge requests with at least one applicable scan result policy
+* Number of users who have created merge requests in Projects that have an assigned security policy project
+* Unique count of govern actions in a given timeframe
+* Unique count of the Security Policies actions in a given timeframe
+* Unique count of the Security Policies visits in a given timeframe
+* Unique count of users creating merge requests with security policies in a given timeframe
 
 ## Contributing
 

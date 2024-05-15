@@ -51,3 +51,5 @@ More information can be found in the Category Change section:
 https://about.gitlab.com/handbook/product/categories/#changes
 
 -->
+
+/label ~"Handbook::Content"

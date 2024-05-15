@@ -11,9 +11,9 @@ title: "DevOps Solution Resource: DevSecOps"
 
 
 
-# Looking for a customer-facing overview of GitLab's DevSecOps capabilities? See the [DevSecOps Solution](https://about.gitlab.com/solutions/dev-sec-ops).
+## Looking for a customer-facing overview of GitLab's DevSecOps capabilities? See the [DevSecOps Solution](https://about.gitlab.com/solutions/dev-sec-ops)
 
-# GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information
+## GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
@@ -23,7 +23,7 @@ The page below is intended to align GitLab sales and marketing efforts with a si
 | ------------------------ | ------------------------- |
 | Brian Mason ( @BrianMason )  | Fernando Diaz ( @fjdiaz ) |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## DevSecOps
 
@@ -93,7 +93,7 @@ The key to winning their hearts is to focus on **Simplicity and control**
 | Works with existing and diverse tools| Security scanners must integrate into an existing environment that may use third party CI and/or security scanners. | APIs and Plug-ins | Allows continued use of existing investments and avoids a rip-n-replace scenario. |
 
 
-# The GitLab Solution
+## The GitLab Solution
 
 ## How GitLab Meets the Market Requirements
 
@@ -121,7 +121,7 @@ GitLab DevSecOps use case overview
 | ----------------- | ------------- | --------------- |
 | **Detailed and Actionable Scan Results Displayed in MR created from Feature Branch** | GitLab performs security scans like SAST, license compliance, dependency scanning before the code is merged - giving Developers opportunity to identify and fix security vulnerabilities before they context switch to other activities. This improves cycle time and development costs as the time and cost to resolve defects and vulnerabilities exponentially increase the later it is detected in the development cycle | [Gartner - Integrating Security Into the DevSecOps Toolchain](https://www.gartner.com/doc/3975263) explains how Security should be included in the DevSecOps lifecycle in small actionable steps that developers can take action on quickly & integrating into defect tracking workflow to match the pace of security fixes to the pace of development. | [![Security Scans as Displayed in DevSecOps Overview](../../images/youtube_social_icon_red-32x23.png) Security Scans as Displayed in DevSecOps Overview](https://youtu.be/XnYstHObqlA?t=218) |
 | **Block MR based on Security Policy** | Bring Development and Security Teams closer by allowing security teams to apply organizational security policies before hand and review/approve security exceptions before the code is merged | **-**  | [![Merge-Request Approvals as Displayed in DevSecOps Overview](../../images/youtube_social_icon_red-32x23.png) Merge-Request Approvals as Displayed in DevSecOps Overview](https://youtu.be/XnYstHObqlA?t=174) |
-| **Compliance Management** | GitLab makes compliance easier by providing a single source of truth for Dev, Sec and Ops through a single data-store. Everything is audited and for every change, there is a single thread that contains the full audit log of every decision and action - making audit compliance a breeze | The auditor for [Glympse](/customers/glympse/) observed that the company had remediated security issues faster than any other company that he had worked with before in his 20-year career. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab’s CI templates | [![Manage Compliance with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk) |
+| **Compliance Management** | GitLab makes compliance easier by providing a single source of truth for Dev, Sec and Ops through a single data-store. Everything is audited and for every change, there is a single thread that contains the full audit log of every decision and action - making audit compliance a breeze | The auditor for [Glympse](https://about.gitlab.com/customers/glympse/) observed that the company had remediated security issues faster than any other company that he had worked with before in his 20-year career. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab’s CI templates | [![Manage Compliance with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk) |
 | **Coverage-Guided Fuzz Testing** | GitLab provides using contextual information from source code to better inform fuzz tests as well as to help correlate the results of a fuzz testing crash directly to the region of code that was vulnerable. This dramatically improves the cycle time to go from an initial fuzz test to a crash to an update to vulnerable areas. | **-** | [![Finding Bugs with Coverage Guided Fuzz Testing](../../images/youtube_social_icon_red-32x23.png) Finding Bugs with Coverage Guided Fuzz Testing](https://youtu.be/4ROYvNfRZVU) |
 | **Offline Environments** | GitLab provides a variety of scanners to run in offline or limited connectivity environments. This feature enables security vulnerabilities to be detected in code that lies in offline environments. | **-** | [![Running GitLab Security Scans in Limited Connectivity and Offline Environments](../../images/youtube_social_icon_red-32x23.png) Running GitLab Security Scans in Limited Connectivity and Offline Environments](https://youtu.be/FoLmRvTcOAY) |
 
@@ -206,10 +206,10 @@ In addition, enjoy these benefits of Ultimate:
 
 We partner with key industry vendors to extend GitLab's ability to address customer needs and fulfil the market requirements.
 
-One of the first partners to [integrate their scan results](https://docs.gitlab.com/ee/development/integrations/secure.html) into the GitLab Security Dashboard and the GitLab CI pipeline is [WhiteSource](https://www.whitesourcesoftware.com).
+One of the first partners to [integrate their scan results](https://docs.gitlab.com/ee/development/integrations/secure.html) into the GitLab Security Dashboard and the GitLab CI pipeline is [WhiteSource](https://www.mend.io/).
 
-- They extend scanning language support to [nearly 200 additional languages](https://www.whitesourcesoftware.com/whitesource-languages/) and provide deeper dependency insight.
-- Learn more about [how to use WhiteSource within GitLab](https://www.whitesourcesoftware.com/gitlab/) and [more](https://about.gitlab.com/blog/2020/01/14/whitesource-gitlab-security-integration/);
+- They extend scanning language support to [nearly 200 additional languages](https://www.mend.io/blog/is-one-programming-language-more-secure/) and provide deeper dependency insight.
+- Learn more about [how to use WhiteSource within GitLab](https://www.mend.io/gitlab/) and [more](https://about.gitlab.com/blog/2020/01/14/whitesource-gitlab-security-integration/);
 - Watch [![Dependency Scanning with GitLab and WhiteSource](../../images/youtube_social_icon_red-32x23.png) Dependency Scanning with GitLab and WhiteSource](https://www.youtube.com/watch?v=yJpE_ACt9og) to get started.
 
 A more complete list of technology partners can be found on our [security partners page](https://about.gitlab.com/partners/technology-partners/#security).
@@ -217,7 +217,7 @@ A more complete list of technology partners can be found on our [security partne
 If you or your customer has a third party they'd like to see integrated into GitLab, send them to the [partner integration page](https://about.gitlab.com/partners/technology-partners/integrate/) for instructions.
 
 
-# Selling the DevSecOps Solution
+## Selling the DevSecOps Solution
 
 ## Customer Facing Slides
 - [Security customer presentation](https://docs.google.com/presentation/d/1WHTyUDOMuSVK9uK7hhSIQ_JbeUbo7k5AW3D6WwBReOg/edit?usp=sharing)
@@ -360,12 +360,12 @@ GitLab customer, Arctic Engine, [shares their experience](https://about.gitlab.c
 
 ### Customer Case Studies
 
-**[HackerOne](/customers/hackerone/)**
+**[HackerOne](https://about.gitlab.com/customers/hackerone/)**
 - **Problem:** Velocity with security
 - **Solution:** GitLab Ultimate
 - **Results:** 5x deployment speed with GitLab security
 
-**[Glympse](/customers/glympse/)**
+**[Glympse](https://about.gitlab.com/customers/glympse/)**
 - **Problem** A complex developer tech stack with over 20 distinct tools that was hard to maintain and manage. Teams spent several hours a week keeping tools running rather than shipping innovation to their app.
 - **Solution:** GitLab Ultimate (SCM, CI, DevSecOps)
 - **Results: ~20 tools consolidated into GitLab and remediated security issues faster than any other company in their Security Auditor's experience.

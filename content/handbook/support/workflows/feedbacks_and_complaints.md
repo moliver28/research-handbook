@@ -54,7 +54,7 @@ appropriate action.
 In the meantime, you should continue to assist the customer with their queries
 and address their feedback if appropriate. If you are unsure on how to proceed,
 pleaes ask for help in the
-[#spt_managers](https://gitlab.slack.com/archives/C01F9S37AKT) Slack channel.
+[#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) Slack channel.
 
 ### Venting
 

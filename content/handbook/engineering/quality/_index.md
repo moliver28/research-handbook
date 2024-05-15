@@ -253,7 +253,7 @@ Quality Engineering will do the following in order to identify the issues to be 
 #### Process
 
 - A manager in the Quality Engineering department will lead refinement with issues populated beforehand in the issue boards.
-    - The [performance refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1233204?&label_name%5B%5D=performance-refinement) is used to triage performance issues. 
+    - The [performance refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1233204?&label_name%5B%5D=performance-refinement) is used to triage performance issues.
     - The [transient bugs board](https://gitlab.com/groups/gitlab-org/-/boards/2206756?&label_name[]=type::bug%3A%3Atransient) is used to triage transient issues.
 - Before each meeting, for issues that are not yet fully triaged, the QEM meeting lead will assign the QEM of the appropriate stage or group to prioritize them.
 - The QEM meeting lead should review the board for long running issues that do not have meaningful activity and add them to the agenda to be considered for closure if no longer actionable.
@@ -379,41 +379,11 @@ instance. We use the Tool every day to monitor for potential performance degrada
 by GitLab customers to directly test their on-premise instances. More information is available on our
 [Performance and Scalability](/handbook/engineering/quality/performance-and-scalability/) page.
 
-### MRARR
-
-The Quality department is the DRI for [MRARR](/handbook/engineering/performance-indicators/#mrarr) tooling and tracking. MRARR is an important part of the [Open Core 3 year strategy](/handbook/company/strategy/#2-build-on-our-open-core-strength) to increase contributions from the Wider community.
-
 ### Demo and Test Data
 
 Whether automatically generating production-like data, test data, or [data to be used for a demo](https://gitlab.com/gitlab-learn-labs/webinars/project-management/gitlab-project-management-data-import); the Data Seeder can be used to generate this data.
 
 See the [GitLab Data Seeder](/handbook/engineering/quality/gitlab-data-seeder) documentation for more information.
-
-#### Customer contributor tracking
-
-Customer contributors are currently tracked in [a Google Sheet](https://docs.google.com/spreadsheets/d/1yIASbQOS2TcHIFmSW_e3xTiQzgkYSLSgiujFJ7Dg834/edit#gid=447581669) that is imported to Sisense every day. Data has been sourced from Bitergia and reviewing previous Wider community contributions.
-
-#### Customer contributor additions
-
-Additions have been identified through the following means and added to the source above once confirmed by a Manager in the Quality Department.
-
-1. Indication from a member of the Sales team
-1. Contributor is linked to a Salesforce contact
-1. Confirmation with other public sources
-    - Identifying the organization, commit email or other public user information on the merge request.
-    - Validating that contributor is associated with a customer organization by using other public sources such as LinkedIn.
-    - Verify the organization is a paying customer of GitLab in using Salesforce.com to open the Account and look at the CARR fields.
-
-After verifying a contributor is associated with a customer, these steps are how to add a new contributor to the tracking [sheet](https://docs.google.com/spreadsheets/d/1yIASbQOS2TcHIFmSW_e3xTiQzgkYSLSgiujFJ7Dg834/edit#gid=447581669)
-
-1. Check if the customer organization is already defined in the spreadsheet by the Salesforce Account ID. If not, add a new row with the following information:
-    - Salesforce Account name for the Contributor Organization (a)
-    - Full 18 character Salesforce Account ID for the SFDC Account ID column (c). This can be retrieved from converting the 15 character ID with a gem like `salesforce_id_formatter`
-1. Add the Contributor's GitLab.com username to the Contributor Usernames column (b). **The format of this column is a JSON array. Please use double quoted strings and commas after each username.**
-
-#### Diagnostic dashboard
-
-The [MRARR Diagnostics](https://app.periscopedata.com/app/gitlab/790656/) dashboard contains some helpful supplemental charts to understand changes in MRARR and untracked contributors.
 
 ## Other related pages
 
@@ -423,8 +393,6 @@ The [MRARR Diagnostics](https://app.periscopedata.com/app/gitlab/790656/) dashbo
 - [Production Readiness Guide](https://gitlab.com/gitlab-com/infrastructure/blob/master/.gitlab/issue_templates/production_readiness.md)
 
 [GitLab QA]: https://gitlab.com/gitlab-org/gitlab-qa
-[GitLab Insights]: https://gitlab.com/gitlab-org/gitlab-insights
 [GitLab Performance Tool]: https://gitlab.com/gitlab-org/quality/performance
-[GitLab Triage]: https://gitlab.com/gitlab-org/gitlab-triage
 [GitLab]: https://gitlab.com/gitlab-org/gitlab
 [Reference Architectures]: https://docs.gitlab.com/ee/administration/reference_architectures/index.html

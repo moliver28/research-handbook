@@ -12,7 +12,7 @@ All our available learning material can be found on [Level Up](https://levelup.g
 ## Examples
 
 1. Teams like Field Enablement use a handbook-first approach to learning in their [Field Certification Program](/handbook/sales/training/field-certification/), built with Articulate 360 Storyline Suite. Learners refer to the Handbook directly within elearning courses.
-1. L&D hosts [Mini and Extended Challenges]({{< ref "/handbook/people-group/learning-and-development#gitlab-mini-and-extended-challenges" >}}) to engage team members in bite sized learning about a specific topic. Participants in the challenge collaborate on issues and are driven to the handbook to review learning content.
+1. L&D hosts [Mini and Extended Challenges](/handbook/people-group/learning-and-development#gitlab-mini-and-extended-challenges) to engage team members in bite sized learning about a specific topic. Participants in the challenge collaborate on issues and are driven to the handbook to review learning content.
 
 ## Self-Paced Learning Outline
 

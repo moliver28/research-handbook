@@ -19,10 +19,11 @@ All of our past OKRs are available to the public [HERE](https://drive.google.com
 
 ## Active OKRs FY24-Q2
 
-The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=due_date&state=opened&assignee_username%5B%5D=joergheilig&label_name%5B%5D=OKR&milestone_title=FY24-Q2&first_page_size=50). CTO objectives and KRs are aligned to CEO OKRs on [this page](/handbook/company/okrs/fy24-q2/).
+The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=due_date&state=opened&assignee_username%5B%5D=joergheilig&label_name%5B%5D=OKR&milestone_title=FY24-Q2&first_page_size=50). CTO objectives and KRs are aligned to company OKRs on [this page](/handbook/company/okrs/fy24-q2/).
 
 
 ### 1. CTO: [Continue to win against GitHub with AI in all we do](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2231)
+
 1. **CTO KR**: [Enhanced Support offering ready for launch in Q3](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2429)
 1. **CTO KR**: [Experimental launch of Remote Development feature used by 10 team members to develop GitLab features](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2430)
 1. **CTO KR**: [Create a foundation in support of rapid experimentation](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2432)
@@ -36,6 +37,7 @@ The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitla
 
 
 ### 2. CTO: [Reducing churn and contraction](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2434)
+
 1. **CTO KR**: [Achieve >99.95% availability consistently in Q2 for all GA services (primary, sidekiq, CI runners, and git access)](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2435)
 1. **CTO KR**: [Implement changes to gitlab.com infrastructure to allow us to manage to RTO (2hrs) and RPO (1hr) in Q3](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2436)
 1. **CTO KR**: [Triage small fixes from Support, Quality, Sales, UX, Infrastructure for every sprint (shared objective between the above, Development and Product)](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2438)
@@ -43,18 +45,21 @@ The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitla
 
 
 ### 3. CTO: [Make GitLab easier to do business with](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2440)
+
 1. **CTO KR**: [Cloud Licensing is internally enforced pre-sales for every renewal and new deal with <50 exceptions/quarter approved by McB(shared objective between Support and Sales)](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2441)
 1. **CTO KR**: [Reduce unplanned self-managed upgrade stops](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2442)
 
 
 
 ### 4. CTO: [Continue to build a diverse team of top talent that we retain and grow](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2443)
+
 1. **CTO KR**: [Refine the Engineering promotion process for IC levels (Staff+) to include structured cross functional feedback and allow us to remove gearing ratios without sacrificing rigor](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2444)
 1. **CTO KR**: [Team member check-ins completed with a growth plan in place with a focus on ensuring business continuity throughout FY’24](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2445)
 1. **CTO KR**: [100% of Managers in Engineering complete the Neurodiversity short course in LevelUp](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2446)
 
 
 ### 5. CTO: [Engineering efficiency and foundations](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2448)
+
 1. **CTO KR**: [Cells on track to launch in Q4 of FY’25](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2450)
 1. **CTO KR**: [Overall hosting costs reduced by 5% from FY24Q1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2452)
 1. **CTO KR**: [Two horizontal foundational engineering efficiency initiatives funded and on track](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2453)
@@ -69,7 +74,7 @@ We sometimes have Engineering OKRs that require assistance from Product to ensur
 
 As a result, Engineering will begin communicating with Product **6 weeks before the start of the quarter** regarding any possible upcoming OKRs that need scheduling assistance from PMs. The goal is at **4 weeks before the start of the quarter** Engineering will confirm alignment with Product on shared OKRs. See the [Product OKR timeline](/handbook/product/product-okrs/) for more details. There is no set number for joint OKRs, and should not be a large proportion of Engineering OKRs in any quarter.
 
-As this is earlier than the typical company timeline for OKRs, the exact timeline may shift depending on the [CEO OKR timeline](/handbook/company/okrs/#okr-process-at-gitlab), and drafting should begin based on top business need including [top initiatives](/handbook/company/top-cross-functional-initiatives/), [3 year strategy](/handbook/company/strategy/#three-year-strategy), and especially [FY direction](https://about.gitlab.com/direction/).
+As this is earlier than the typical company timeline for OKRs, the exact timeline may shift depending on the [company OKR timeline](/handbook/company/okrs/#okr-process-at-gitlab), and drafting should begin based on top business need including [top initiatives](/handbook/company/top-cross-functional-initiatives/), [3 year strategy](/handbook/company/strategy/#three-year-strategy), and especially [FY direction](https://about.gitlab.com/direction/).
 
 ## OKR Kickoff
 
@@ -89,20 +94,20 @@ We will use the following guidelines for consistency.
 
 1. Progress percentage is automatically updated based on child objectives or KRs.
 1. For manually updated percentages, ensure to include an explanation of how the percentage is calculated in the OKR description.
-  * The calculation can be simple "% of goal, 30 S2 bugs from <link>".
-  * Consider breaking down project or task KRs. For example, "10% gathering data, 20% analyzing data, 20% summary of data, 20% write proposal, 10% gather feedback, 20% decide and open epic with issues with work required".
+  - The calculation can be simple "% of goal, 30 S2 bugs from <link>".
+  - Consider breaking down project or task KRs. For example, "10% gathering data, 20% analyzing data, 20% summary of data, 20% write proposal, 10% gather feedback, 20% decide and open epic with issues with work required".
 1. For scoring KRs that apply to a **rate** (for instance, [MR rate](../metrics/#merge-request-rate)), we score them as follows:
-  * Take the initial rate before the quarter. For example, this is 10.
-  * Take the target rate at the end of the quarter. In this example, it is 17.
-  * Subtract initial rate and target rate to determine the target increase: 17 - 10 = 7.
-  * Each month, take that month's rate and calculate our progress towards the target independently. For example:
-      * Month 1: 12. The score is (12 - 10) / 7 = 2 / 7.
-      * Month 2: 13. The score is (13 - 10) / 7 = 3 / 7.
-      * Month 3: 15. The score is (15 - 10) / 7 = 5 / 7.
-  * Take the score for the month, divide it by three, and add it to the total score. In the above example:
-      * Month 1: 2 / 7 / 3 ~= 9.5%.
-      * Month 2: 3 / 7 / 3 ~= 14%. Added to the previous month, the score is now 23.5%.
-      * Month 3: 5 / 7 / 3 ~= 24%. Added to the previous months, the final score is 47.5%.
+  - Take the initial rate before the quarter. For example, this is 10.
+  - Take the target rate at the end of the quarter. In this example, it is 17.
+  - Subtract initial rate and target rate to determine the target increase: 17 - 10 = 7.
+  - Each month, take that month's rate and calculate our progress towards the target independently. For example:
+      - Month 1: 12. The score is (12 - 10) / 7 = 2 / 7.
+      - Month 2: 13. The score is (13 - 10) / 7 = 3 / 7.
+      - Month 3: 15. The score is (15 - 10) / 7 = 5 / 7.
+  - Take the score for the month, divide it by three, and add it to the total score. In the above example:
+      - Month 1: 2 / 7 / 3 ~= 9.5%.
+      - Month 2: 3 / 7 / 3 ~= 14%. Added to the previous month, the score is now 23.5%.
+      - Month 3: 5 / 7 / 3 ~= 24%. Added to the previous months, the final score is 47.5%.
 
 ## Entering OKRs
 
@@ -129,7 +134,7 @@ If an objective or key result needs to be changed to the other type, you will ne
 To ensure scoring is updated correctly, all OKRs that are CTO aligned should be children of the CTO-level OKRs.
 The Department OKRs directly aligned to the CTO-level OKRs must be updated manually or automatically from its children.
 
-If your department has OKRs that are aligned to *CEO OKRs* that are not CTO aligned, follow the guidelines in this section, then [CEO alignment](/handbook/company/okrs/#how-to-align-division-okrs-to-the-ceo-okrs).
+If your department has OKRs that are aligned to *company OKRs* that are not CTO aligned, follow the guidelines in this section, then [CEO alignment](/handbook/company/okrs/#how-to-align-division-okrs-to-the-ceo-okrs).
 
 Using a hypothetical example:
 
@@ -152,7 +157,7 @@ Joint OKRs across different divisions must be duplicated with one OKR item in ea
 
 For Engineering-Product joints:
 
-1. Generally the Product OKR will be the SSoT with regular _detailed_ progress reports.
+1. Generally the Product OKR will be the SSoT with regular *detailed* progress reports.
 1. Ensure the Eng OKR has the `vp-development` label if the VP of Development needs to track on it.
 
 ### Tracking department OKRs

@@ -10,7 +10,7 @@ description: "Collaboration process and documentation for contributing to the me
 
 Any change to the MR experience is likely to affect the **duration of code review**, even small changes. Reducing the duration of code review is the [primary metric of success of the Code Review group](https://about.gitlab.com/direction/create/code_review/#metrics-of-success). This metric impacts the code quality and velocity of every user of GitLab.
 
-Here in the [Code Review group](/handbook/product/categories/#code-review-group), we deeply care about the MR experience. We're the primary contributor to the MR experience, although many other groups have a stake in it. **Contributions over the years from different parties with no guidance and vision have resulted in a large amount of technical and UX debt**. This page provides that much-needed guidance on how “everyone can contribute” sustainably to the MR experience.
+Here in the [Code Review group](/handbook/product/categories/#code-review-group), we deeply care about the MR experience. We're the primary contributor to the MR experience, although many other groups have a stake in it. **Contributions over the years from different parties with no guidance and vision have resulted in a large amount of technical debt and deferred UX**. This page provides that much-needed guidance on how “everyone can contribute” sustainably to the MR experience.
 
 ## Want to contribute to the MR experience?
 
@@ -26,7 +26,7 @@ If you have questions ask us in [#g_create_code-review](https://gitlab.slack.com
 
 ## Contribution frameworks
 
-Some areas of the MR experience are the focus of impactful or frequent contributions from different groups. For those areas, we need **contribution frameworks**: guidelines on how to plan, design, and build solutions that are coherent and consistent with the current experience, from both user and technical perspectives. Contribution frameworks enable “everyone can contribute” while keeping a high-quality user experience, reducing technical and UX debt, reducing collaboration costs, and increasing velocity.
+Some areas of the MR experience are the focus of impactful or frequent contributions from different groups. For those areas, we need **contribution frameworks**: guidelines on how to plan, design, and build solutions that are coherent and consistent with the current experience, from both user and technical perspectives. Contribution frameworks enable “everyone can contribute” while keeping a high-quality user experience, reducing technical debt and deferred UX, reducing collaboration costs, and increasing velocity.
 
 Depending on the type of contribution your group is trying to make, various checks and information may need to be coordinated with us in the Code Review group. These are not intended to make us the arbiter of what can and can't be contributed, but to ensure broad alignment on a core area to the GitLab experience.
 

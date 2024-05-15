@@ -29,7 +29,7 @@ All Managers and above in the Product function are considered product leaders. T
 
 ### Product Leadership Team Structure
 
-Product team members who report directly to the [Chief Product Officer](/job-families/product/chief-product-officer/) are members of the Product Leadership Team. 
+Product team members who report directly to the [Chief Product Officer](/job-families/product/chief-product-officer/) are members of the Product Leadership Team.
 
 This group can be referenced in GitLab.com issues using the `@gl-product-plt` handle.
 
@@ -40,22 +40,22 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
-| 2023-09-18 | Hillary Benson | [16.5 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12732) | 
+| 2023-09-18 | Hillary Benson | [16.5 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12732) |
 | 2023-10-16 | Justin Farris | [16.6 Release Kick Off Issue](https://gitlab.com/gitlab-com/Product/-/issues/12796) |
 | 2023-11-16 | Mike Flouton | [16.7 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/12859) |
 | 2023-12-18 | Hillary Benson | [16.8 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/12955) |
 | 2024-01-18 | Omar Fernandez | [16.9 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13036) |
-| 2024-02- | Mike Flouton | [16.10 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13116) |
-| 2024-03-18 | Hillary Benson | To be added | 
-| 2024-04-18 | Justin Farris | To be added | 
-| 2024-05-20 | Mike Flouton | To be added | 
-| 2024-06-18 | Hillary Benson | To be added | 
-| 2024-07-18 | Justin Farris | To be added | 
-| 2024-08-19 | Mike Flouton | To be added | 
-| 2024-09-18 | Hillary Benson | To be added | 
-| 2024-10-17 | Justin Farris | To be added | 
-| 2024-11-18 | Mike Flouton | To be added | 
-| 2024-12-18 | Hillary Benson | To be added | 
+| 2024-02-16 | Mike Flouton | [16.10 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13116) |
+| 2024-03-18 | Justin Farris | To be added | [16.11 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13212)
+| 2024-04-18 | Hillary Benson | To be added |
+| 2024-05-20 | Steve Evangelista | To be added |
+| 2024-06-18 | Mike Flouton | To be added |
+| 2024-07-18 | Justin Farris | To be added |
+| 2024-08-19 | Hillary Benson | To be added |
+| 2024-09-18 | Steve Evangelista | To be added |
+| 2024-10-17 | Mike Flouton | To be added |
+| 2024-11-18 | Justin Farris | To be added |
+| 2024-12-18 | Hillary Benson | To be added |
 
 
 ## Product Key Review Leader Rotation
@@ -73,13 +73,13 @@ The Product [Key Review](/handbook/key-review/) is hosted by a member of the [Pr
 
 ## Product Group Conversation Leader Rotation
 
-The Product [Group Conversation](/handbook/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA. 
+The Product [Group Conversation](/handbook/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
 
 For more details, visit the Group Conversations [handbook page](/handbook/group-conversations/#additional-consideration-for-functional-presentations)
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
-| 2023-09-27 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12401 | 
+| 2023-09-27 | Mike Flouton | https://gitlab.com/gitlab-com/Product/-/issues/12401 |
 | 2023-12-06 | Hillary Benson | https://gitlab.com/gitlab-com/Product/-/issues/12909 |
 | 2024-02-28 | Justin Farris | https://gitlab.com/gitlab-com/Product/-/issues/13120 |
 | 2024-XX-XX | Mike Flouton | To be added |
@@ -91,7 +91,7 @@ For more details, visit the Group Conversations [handbook page](/handbook/group-
 
 ## Product Leadership ReadMe's
 
-Below you'll find the ReadMe's for our Product Division leaders who manage teams. 
+Below you'll find the ReadMe's for our Product Division leaders who manage teams.
 
 - [David DeSanto's README](https://gitlab.com/david)
 - [Justin Farris's README](https://gitlab.com/justinfarris)

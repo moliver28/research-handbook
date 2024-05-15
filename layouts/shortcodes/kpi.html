@@ -1,6 +1,7 @@
-
+<!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators -->
+{{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
 {{ $org := lower (replace (.Get 0) " " "_") }}
-{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/performance_indicators/%s.yml" $org}}
+{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/%s/data/performance_indicators/%s.yml" $publicHandbookRef  $org}}
 {{ with resources.GetRemote $dataURL }}
   {{ with .Err}}
     <h2>Unable to fetch performance indicator Data</h2>

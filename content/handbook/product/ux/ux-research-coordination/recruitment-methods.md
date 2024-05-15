@@ -19,7 +19,7 @@ UX research operations coordinators have several resources to recruit from. Lear
     - The docs team can choose not to allow your request. Typically it takes 1 week to get this up and running.
 1. **Marketo:** The majority of recruitment requests will be fielded through Marketo when looking for SaaS and Self-Managed users. Marketo is a tool primarily used by the Marketing Operations team to send emails out to our customer base. By using Marketo we are ensuring compliance in our outreach to participants and allowing a single source of opt-out from our communications.
     - Allow 2 weeks for responses to come in. You will likely need 3-4 email sends to reach your target number of responses.
-1. **Data Warehouse:** Occasionally we may need to use the DataWarehouse for requests that are unsuccessful with FirstLook or Marketo. There are only SaaS users in the DataWarehouse and there's no access to Self-Managed users.
+2. **Data Warehouse:** Occasionally we may need to use the DataWarehouse for requests that are unsuccessful with Marketo. There are only SaaS users in the DataWarehouse and there's no access to Self-Managed users.
     - It will take a few days to generate the list of users based on workload if a query doesn't already exist for your target audience. Once the query is created, allow 2 weeks and multiple email sends to fill the request.
 
 ### GDPR and CAN-SPAM requirements

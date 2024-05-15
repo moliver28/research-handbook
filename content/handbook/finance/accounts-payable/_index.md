@@ -45,7 +45,6 @@ Welcome to Accounts Payable, commonly referred to as AP. You should be able to f
 
     **If you are sure that all of these things have been done correctly, please ask the vendor to contact the AP team directly via email <i>[ap@gitlab.com](mailto:ap@gitlab.com)</i>**
 
-
 1. How do I submit an expense report? And, when will it get paid?
     - All questions about expenses can be answered on the [Expense page]({{< ref "../expenses" >}}).
     - Reports are paid out on varying timelines depending on which country you are located in. This is also detailed on the [Expense page]({{< ref "../expenses" >}}).
@@ -90,8 +89,6 @@ Invoices can be emailed to <i>[invoices@gitlab.coupahost.com](mailto:invoices@gi
     - AP team will adjust the vendor card for new currencies or entities.
     - Change Exported to YES in Coupa when the error is fixed.
 
-
-
 ## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fab fa-gitlab fa-fw"></i> Invoice Payments
 
 - The first step to getting an invoice paid is to review the appropriate [procurement process]({{< ref "../procurement" >}}).
@@ -110,7 +107,6 @@ Invoices can be emailed to <i>[invoices@gitlab.coupahost.com](mailto:invoices@gi
 - The first step is to contact AP in the #AccountsPayable channel to request the corporate account number
 - When sending a package **the Shipper MUST put their name under GitLab Inc in the sender field, or their full Cost Center for ex. Marketing - Field Marketing.** If you are unsure of your full cost center please go into your Bamboo HR application. On the left hand side under your name you will be able to find your Cost Center details.
 - Anyone failing to provide the correct information which will hinder AP's ability to properly code courier charges will not be allowed to use the company account in the future
-
 
 ## <i aria-hidden="true" style="color:rgb(252,109,38); font-size:.85em" class="fas fa-receipt"></i> Expenses
 

@@ -36,7 +36,7 @@ Producing a lovable product requires more than a deep understanding of the probl
 
 It is not sufficient to just know the problems. It is also insufficient to have a solution to the problem that our customers love. PMs also need to ensure that the solution is viable for GitLab.
 
-- PMs participate in and follow the [product development flow](/handbook/product-development-flow/) so that their development group can consistently release features [every month](/releases/).
+- PMs participate in and follow the [product development flow](/handbook/product-development-flow/) so that their development group can consistently release features [every month](https://about.gitlab.com/releases/).
 - PMs [determine the tiers of features](/company/pricing/)
 - PMs ensure that issues that impact GitLab are appropriately [prioritized](/handbook/product/product-processes/#prioritization)
 - PMs interface with marketing and sales to promote and enable the sale of the product.

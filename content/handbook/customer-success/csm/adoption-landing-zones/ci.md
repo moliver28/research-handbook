@@ -16,7 +16,7 @@ description: "A page containing links to helpful CI resources for the CSM team a
   <tr>
     <td>No agreement</td>
     <td><ul><li><a href="https://docs.google.com/presentation/d/1M5B4vFiNp967KI50UTCeg5FoYYTE4wNe8MGKZhG3WNw/edit#slide=id.g24901083280_0_7242">Next Generation DevOps Deck</a>(w/ <a href="https://drive.google.com/file/d/1WACCqn6YuACLLF4YdHqjTABs3ULzJE5s/view">talk track</a>)</li>
-    <li><a href="https://internal.gitlab.com/handbook/sales/command-of-the-message/trap-setting-questions/?redirected-from=internal-handbook.gitlab.io#leading-scm-and-cicd-in-one-application">Trap setting questions</a></li>
+    <li><a href="https://internal.gitlab.com/handbook/sales/command-of-the-message/trap-setting-questions/">Trap setting questions</a></li>
     <li><a href="https://page.gitlab.com/2021_eBook_leadershipCICD.html">How to convince leadership to adopt CI/CD EBook</a></li></ul></td>
   </tr>
   <tr>
@@ -35,7 +35,7 @@ description: "A page containing links to helpful CI resources for the CSM team a
     <td>Enablement</td>
     <td><ul><li><a href="https://docs.google.com/presentation/d/12nax3mmhh7Y9o1SMXKhWNxYH_n55G2Vj8--UQbX13yw/edit#slide=id.g2936d5da52a_0_0">Jenkins to GitLab CSM Enablement</a></li>
     <li>CSM led <a href="https://about.gitlab.com/handbook/customer-success/csm/workshops/#currently-available-sessions">enablement sessions</a></li>
-    <li>Hands-On Technical <a href="https://about.gitlab.com/handbook/customer-success/solutions-architects/tools-and-resources/workshop/">Workshops</a></li>
+    <li>Hands-On Technical <a href="https://about.gitlab.com/handbook/solutions-architects/tools-and-resources/workshop/">Workshops</a></li>
     <li><a href="https://about.gitlab.com/handbook/customer-success/csm/segment/scale/webinar-calendar/#upcoming-webinars">Scale Webinars</a></li></ul></td>
   </tr>
 </tbody>
@@ -91,7 +91,7 @@ Jenkins to GitLab
      - [Monthly Webinar Calendar](/handbook/customer-success/csm/segment/scale/webinar-calendar/)
 
 
-## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption:
+## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption
 
  1. CI Component Catalog: https://docs.gitlab.com/ee/ci/components/
     - Quick demo on how the CI Component Catalog Works [VIDEO](https://youtu.be/nijvYhAPKsM)

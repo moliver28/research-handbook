@@ -11,7 +11,7 @@ For more details about the vision for this area of the product, see the
 [Plan stage] page.
 
 [Product Planning]: /handbook/product/categories/#product-planning-group
-[Plan stage]: /direction/plan/
+[Plan stage]: /handbook/engineering/development/dev/plan/
 
 ### Team members
 
@@ -19,27 +19,20 @@ For more details about the vision for this area of the product, see the
 
 ### Stable counterparts
 
-{{% stable-counterparts manger-role="Engineering Manager(.*)Plan:Product Planning" role="[,&] (Planning(.*:)|Plan:Product Planning)" %}}
+{{% stable-counterparts manager-role="Fullstack Engineering Manager(.*)Plan:Product Planning" role="(.*)Plan:Product Planning$|Product Manager(.*)Plan Stage|Security(.*)Plan|Engineering(.*)Plan$|Principal(.*)Plan$|Group(.*)Plan" %}}
 
 ### Hiring chart
 
-Check out our [jobs page](/jobs/) for current openings.
+Check out our [jobs page](https://about.gitlab.com/jobs/) for current openings.
 
 ### Team metrics dashboard
 
 We have a [metrics dashboard][dashboard] intended to
 track against some of the [Development Department KPIs][kpis], particularly
 those around merge request creation and acceptance. From that dashboard, the
-following chart shows [MR Rate].
+following chart shows [MR Rate]. Please reference the dashboard section below.
 
-{{< sisense-with-filters dashboard="681347" chart="9159032" team_group="product planning" >}}
-
-The following chart shows the MR Rate of the Dev section as a whole, for the
-identification of trends:
-
-{{< sisense-with-filters dashboard="681347" chart="9159032" sub_department="dev" >}}
-
-[dashboard]: https://app.periscopedata.com/app/gitlab/681347/Development-Embedded-Dashboard
+[dashboard]: https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard
 [kpis]: /company/kpis/#development-department-kpis
 [MR Rate]: /handbook/engineering/performance-indicators/#engineering-mr-rate
 
@@ -51,7 +44,6 @@ We have useful dashboards tracking the performance of parts of the application w
   - [Product Planning]
 - The [Sitespeed Dashboard]; showing the results of ongoing synthetic tests against representative product pages. Useful for identifying changes in page load time (TTFB), LCP, etc.
 
-[Product Planning]: https://dashboards.gitlab.net/d/stage-groups-product_planning/stage-groups-group-dashboard-plan-product-planning?orgId=1&from=now-7d&to=now
 [Sitespeed Dashboard]: https://dashboards.gitlab.net/d/product-plan/product-performance-plan?orgId=1
 
 ## OKRs
@@ -69,7 +61,7 @@ FY23-Q4 OKRs were conducted in Ally.io and are no-longer available.
 See the [Plan stage page] and the [Plan:Project Management backend team page].
 
 [Plan stage page]: /handbook/product/categories/#plan-stage
-[Plan:Project Management backend team page]: /handbook/engineering/development/dev/plan-project-management/
+[Plan:Project Management backend team page]: /handbook/engineering/development/dev/plan/project-management/
 
 ### Capacity Planning
 
@@ -121,9 +113,9 @@ any PoC MRs produced.
 As a team we often work on features that require close collaboration. We've identified a list of techniques and characteristics that help projects like this proceed at a pace that is sustainable, predictable, and challenging, yet rewarding. An example of such feature was [Epic Linking](https://gitlab.com/groups/gitlab-org/-/epics/7546).
 
 1. Feature is designed and broken down in advance of milestone start, including a [spike](#consider-a-spike-andor-a-design-document) if appropriate.
-  1. Participants in the spike take part in delivery of the feature.
-  1. Prior to closing the description is updated with Acceptance Criteria, with sign-off by each assignee + PM. This is what will be delivered.
-  1. For efforts that are part of larger initiatives (like [Work Items](https://docs.gitlab.com/ee/development/work_items.html)), architectural documents are kept up to date with larger decisions; for example, around API design or functionality.
+1. Participants in the spike take part in delivery of the feature.
+1. Prior to closing the description is updated with Acceptance Criteria, with sign-off by each assignee + PM. This is what will be delivered.
+1. For efforts that are part of larger initiatives (like [Work Items](https://docs.gitlab.com/ee/development/work_items.html)), architectural documents are kept up to date with larger decisions; for example, around API design or functionality.
 1. Requirements are well-defined with a goal that is achievable within a single milestone and provides business value. For larger features, work may be spread out over several milestones.
 1. Items that must be delivered in separate milestones are identified and prioritized first; such as migrations, security issues, and other [multi-version compatibility](https://docs.gitlab.com/ee/development/multi_version_compatibility.html) issues.
 1. The stable counterpart from documentation is included at the start of the spike.
@@ -191,15 +183,29 @@ This avoids the rush to provide documentation that often accompanies the release
 
 ### Dashboards
 
-{{% cross-functional-dashboards filters="Product Planning" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="product planning" >}}
+{{< /tableau >}}
 
-More detail is available on our [metrics page].
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="product planning" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="product planning" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="product planning" >}}
+{{< /tableau >}}
+
+Detailed metrics are available on the [Engineering Metrics page].
 
 Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification] section of the metrics page.
 
 Note: MR Type may differ from issue type. For example, a ~"maintenance::dependency" change that supports a new ~"feature::enhancement".
 
-[metrics page]: https://about.gitlab.com/handbook/engineering/metrics/dev/plan/product-planning/#mr-types-dashboard
+[Engineering Metrics page]: https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/
 [Work Type Classification]: https://about.gitlab.com/handbook/engineering/metrics/#work-type-classification
 
 ### Picking something to work on
@@ -256,7 +262,7 @@ When you pick something to work on, please:
 [iteration]: /handbook/values/#iteration
 
 [request for it to be scheduled]: /handbook/engineering/workflow/#requesting-something-to-be-scheduled
-[issue bash]: /community/issue-bash/
+[issue bash]: https://about.gitlab.com/community/issue-bash/
 
 ## Useful links
 
@@ -268,7 +274,6 @@ When you pick something to work on, please:
   [section level])
 
 [:Plan:Product Planning]: https://gitlab.com/groups/gitlab-org/-/boards/1569369?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Aplan&not[label_name][]=group%3A%3Aproject%20management]
-[#s_plan]: https://gitlab.slack.com/archives/s_plan
 [youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0
 [retros]: https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
 [Group Conversations]: http://gitlab-org.gitlab.io/group-conversations/plan/

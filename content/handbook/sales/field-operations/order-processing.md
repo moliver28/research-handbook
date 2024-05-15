@@ -13,7 +13,6 @@ description: "This page outlines the Quote to Cash process, starting from accoun
 
 
 **Welcome to the Sales Order Processing page!**
-{:.gitlab-purple .no_toc}
 
 This page outlines the Quote to Cash process. Topics include account and opportunity creation, quote configuration and approvals, opportunity booking requirements, and closing an opportunity. This page will also cover common questions that may arise after an opportunity has been closed.
 
@@ -200,7 +199,7 @@ The fields in this section enable contractual opt-outs for each SuperSonics feat
 | [Cloud Lic] Add Reconciliation Opt Out | (Checkbox) Opts customer out of Quarterly Subscription Reconciliation  |
 | [Cloud Lic] Add Auto-Renewal Opt-Out | (Checkbox) Opts customer out of Auto-Renewal |
 | [Cloud Lic] Add Operational Data Opt Out | (Checkbox) Opts customer out of Operational Data |
-| [Cloud Lic] Add Cloud Licensing Opt Out | (Picklist) Opts customer out of Cloud Licensing to an `Offline` or `Legacy` license |
+| License Type | (Picklist) SaaS: Default = Cloud License; Self-Managed: A selection is required. Selecting `Offline Cloud License` or `Legacy License` will trigger approvals per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=kix.iqw46t1jxax1). |
 
 #### Quarterly Subscription Reconciliation (QSR): How It Works
 
@@ -242,7 +241,7 @@ During the Sales process, a customer who would not otherwise be exempt from Auto
 3. Once approved, generate a PDF. That PDF will include legal language in the "Notes" section that opts the customer out of the applicable SuperSonics Feature.
   - Any subsequent Add-Ons will maintain the contractual opt-out.
 
-#### How To Temporarily Pause Auto-Renewal, Quarterly Subscription Reconciliation, and Operational Data:
+#### How To Temporarily Pause Auto-Renewal, Quarterly Subscription Reconciliation, and Operational Data
 
 During the Sales process, there may be a need for Sales to "pause" an upcoming Auto-Renewal or Quarterly Subscription Reconciliation while negotiating with the customer. Every pause will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If a pause is requested and approved, that feature will be temporarily disabled for the subscription in question until the next renewal occurs. A pause is not possible for Cloud Licensing.
 
@@ -393,7 +392,7 @@ A video tutorial can be found [**HERE**](https://www.youtube.com/watch?v=CIWdsqR
 
 You may contact Legal directly in Slack via #Legal
 
-#### Request editable version of GitLab Template:
+#### Request editable version of GitLab Template
 
 Within the Customer Opportunity:
 1. Click "Legal Request" (located at the top of the Opportunity SFDC layout)
@@ -430,7 +429,7 @@ NOTE: The above process may be used to also engage Contract Managers / Legal Mem
 
 **All communications, and versions of Agreements, should be kept in the Contract Request Case**
 
-#### Request GitLab Partner Agreement:
+#### Request GitLab Partner Agreement
 
 Within the Customer Opportunity:
 1. Click "Legal Request" (located at the top of the Opportunity SFDC layout)
@@ -453,7 +452,7 @@ Within the Customer Opportunity:
 <details>
 <summary markdown="span"><b>Creating legal dashboards or filing executed contracts</b></summary>
 
-#### Creating your own Legal Request Dashboard:
+#### Creating your own Legal Request Dashboard
 
 1. Creating your own Legal Request Dashboard will enable you to see all Open and Closed Legal Requests that have been created.
 1. The steps to do so are highlighted below, and also found in the recording located [here](https://gitlab.zoom.us/rec/share/--dWJbirp39Lf8_fyU7lY_E4D7zvX6a823IY8vtYyk4ReS25B7mI3HrdLUM8PXat)
@@ -535,7 +534,7 @@ For assistance with a Subscription Transfer Agreement please open a Legal Reques
 
 ### Open Source, Education, and Startup Application Opportunities
 
-GitLab provides free licenses to qualifying entities through the [Community Programs](/handbook/marketing/developer-relations/community-programs/): [GitLab for Education Program](/solutions/education/), [GitLab for Open Source Program](/solutions/open-source/) and [GitLab for Startups Program](/solutions/startups/). All applications to these programs are routed through the [Community Programs applications automated workflows](/handbook/marketing/developer-relations/community-programs/automated-community-programs). **Only Developer Relations team members** should handle these applications and opportunities because the team verifies program requirements before issuing/renewing licenses and these opportunities are handled differently since the opportunities are free.
+GitLab provides free licenses to qualifying entities through the [Community Programs](/handbook/marketing/developer-relations/community-programs/): [GitLab for Education Program](https://about.gitlab.com/solutions/education/), [GitLab for Open Source Program](https://about.gitlab.com/solutions/open-source/) and [GitLab for Startups Program](https://about.gitlab.com/solutions/startups/). All applications to these programs are routed through the [Community Programs applications automated workflows](/handbook/marketing/developer-relations/community-programs/automated-community-programs). **Only Developer Relations team members** should handle these applications and opportunities because the team verifies program requirements before issuing/renewing licenses and these opportunities are handled differently since the opportunities are free.
 
 #### Inquiry and Application Process (Leads or Contacts)
 
@@ -593,7 +592,7 @@ The quoting system will provide visibility into the correct programmatic partner
 
 ### Service Attach Quote Approval
 
-#### Enterprise Service Attach Opportunity Criteria (All Products):
+#### Enterprise Service Attach Opportunity Criteria (All Products)
 
 IF:
 
@@ -606,7 +605,7 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $15,000
 
-#### Enterprise Service Attach Opportunity Criteria (Ultimate Only):
+#### Enterprise Service Attach Opportunity Criteria (Ultimate Only)
 
 Note: If the below criteria are met, this requirement will supersede the above "All Products" requirement.
 
@@ -622,7 +621,7 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $20,000
 
-#### Mid-Market Service Attach Opportunity Criteria:
+#### Mid-Market Service Attach Opportunity Criteria
 
 IF:
 
@@ -634,18 +633,18 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $15,000
 
-#### Service Attach Quoting Process:
+#### Service Attach Quoting Process
 
 If an opportunity meets the criteria listed above, the Minimum Professional Services Amount must be attached to the opportunity. Services can be attached using one of two methods:
 
 1. Add standard SKU professional services (i.e. Admin Training) totaling or exceeding the Minimum Professional Services Amount to the quote. Note: Custom services requiring a signed SOW must be quoted separately on a standalone opportunity - see below.
 2. Link a separate, standalone professional services opportunity with services totaling or exceeding the Minimum Professional Services Amount via the "PS Opportunity" field.
 
-#### Service Attach Exceptions/Approval Requirements:
+#### Service Attach Exceptions/Approval Requirements
 
 If an opportunity meets the criteria listed above, but does not meet the Minimum Professional Services Amount, or does not have a linked opportunity that meets the Minimum Professional Services Amount, the quote will require approval to sell the subscription deal without the minimum Service Attach.
 
-#### Service Attach Quote Approval Process:
+#### Service Attach Quote Approval Process
 
 1. Populate the "ProServ Exception Approval Notes" field on the quote with the following information:
   - What use cases are they adopting?
@@ -668,7 +667,7 @@ If an opportunity meets the criteria listed above, but does not meet the Minimum
 4. After being notified, the Revenue team will review the case, and will calculate the amount of the ARR allocation. The Revenue team will then add it to the ARR Allocations Tracker.
 5. After calculating the ARR allocation, the Revenue team will communicate the impact in Chatter. This ARR allocation will be communicated wtihin 3-5 days of the initial notification to the Revenue Team.
 6. When the ARR allocation is communicated in Chatter, Deal Desk will adjust the Net ARR and Booked ARR of the opportunity in accordance with the ARR allocation provided by the Revenue Team.
-7. Please note: L&R Support do not have the ability to waive True-Ups, further information on L&R Support responsibilities regarding True-Ups can be found in the [working with sales support handbook page](/handbook/support/license-and-renewals/workflows/working_with_sales.html#support-responsibilities-regarding-true-up-waiver-requests)
+7. Please note: L&R Support do not have the ability to waive True-Ups, further information on L&R Support responsibilities regarding True-Ups can be found in the [working with sales support handbook page](/handbook/support/license-and-renewals/workflows/working_with_sales/#support-responsibilities-regarding-true-up-waiver-requests)
 
 ### How to Request Quote Approval via Chatter
 
@@ -863,7 +862,7 @@ To send a digital copy of an Order Form to the customer via DocuSign:
  - You will receive email notifications to your GitLab email address when the document has been viewed, and when it has been signed.
 2. **When the document has been fully signed, it will automatically be attached to the opportunity.**
 
-#### Learning Resources:
+#### Learning Resources
 
 **Internal Resources:**
 - For a visual demo of GitLab’s DocuSign instance, review this [LevelUP Webinar from 2021-05-13](https://youtu.be/Dch4zaUQOeg)
@@ -1141,11 +1140,17 @@ Review the [Professional Services handbook page](/handbook/customer-success/prof
     - Ensure that you have reviewed the standard SOW with your customer **PRIOR** to booking the opportunity. Everything listed in the SOW is what will be provided, no more, no less, no customizations.
 
 
-1. If a Professional Services Opportunity will include a custom SOW with unique deliverables
+1. If a Professional Services Opportunity will include a custom Statement of Work (SOW) or Change Order (CO) with unique deliverables
     - Note: Professional Services must be sold on standalone opportunity with the ***Opportunity Record Type*** set to ***Professional Services Only***. They must not be sold on the same opportunity as subscription products. The opportunity should be created by going to the Open or Closed Won license opportunity and clicking on the New PS Opportunity button. This will generate a related PS opp.
-    - A fully signed copy of the SOW is **required**. Please review the process on obtaining signatures, as the SOW will also need to be counter-signed by an authorized signer at GitLab.
+    - A fully signed copy of the SOW or CO is **required**. Please review the process on obtaining signatures, as the SOW will also need to be counter-signed by an authorized signer at GitLab.
     - Account owners are not approved signers! **ALL** signatures must go through Legal and/or Finance.
-    - A Custom SOW **does not** require a signed order form
+    - A quote needs to be generated, but only for backend billing automation purpsoes. **Do not share quote with customer or reselling partner!**
+        - For Time and Material (T&M) services, the **GitLab Service Package** must be added with the T&M Value from the SOW match the value in the quote line item.
+        - For Fixed Price (FP) services in the SOW, there must be matching SKUs (usually training or certification) in the quote. Review prices to ensure they match between quote and SOW.
+        - If the SOW contains T&M and FP services, two quotes need to be created. T&M should use the **GitLab Service Package** SKU and match the T&M value in the SOW. The FP Quote should use the matching SKUs in the catalog.
+        - DISREGARD ANY DISCOUT APPROVAL REQUIREMENTS. ALL DISCOUNT REQUESTS FOR PROFESSIONAL SERVICES HAPPEN IN SFDC CHATTER.
+    - The order form generated **does not** require a customer signature. The customer will only sign CO/SOW.
+    - Cost of Goods Sold (COGS) spreadsheet must be attached to the opportunity to book. This outlines project costs and expected margins.
 
 **Professional Services Opportunities Only** - If the SOW outlines a split payment schedle, **only one opp is needed to book the order**. We do not use multiple opps with PS opps requiring separate payments.
 
@@ -1200,7 +1205,7 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
   - Anticipated (revised) Renewal Close Date
   - Tag @Sales-Support and the Sr. Dir., Deal Desk for visibility
 
-- Note: Opportunities approved for invoicing outside of the 15-day booking policy will be booked and invoiced as approved, but the booking will then be moved so that the close date falls within the 15-day bookings policy. For clarity, quota credit and commission will align to the 15 day booking policy even if approvals are obtained to invoice the transaction earlier than 15 days prior to the Quote Start Date. 
+- Note: Opportunities approved for invoicing outside of the 15-day booking policy will be booked and invoiced as approved, but the booking will then be moved so that the close date falls within the 15-day bookings policy. For clarity, quota credit and commission will align to the 15 day booking policy even if approvals are obtained to invoice the transaction earlier than 15 days prior to the Quote Start Date.
 
 
 **Do I have to wait to submit my opportunity for approval?**
@@ -1328,7 +1333,7 @@ graph LR;
 
 To view the status of an opportunity after it has been submitted for approval, **review the [7-Closing Stage Dashboard](https://gitlab.my.salesforce.com/01Z4M000000xeww).**
 
-#### Common errors when submitting an opportunity for approval:
+#### Common errors when submitting an opportunity for approval
 
 - Be sure to submit an opportunity for approval *on the opportunity* level, not the quote level.
 - Once submitted, the opportunity’s stage will update to “7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
@@ -1362,7 +1367,7 @@ Licensing emails sent to customers are captured and stored in Salesforce as an A
 
 Look for Task title: `Email: Your GitLab License File` of `Email: Your GitLab Activation Code`
 
-#### My customer didn't receive the License File or Activation Code! Help!
+#### My customer didn't receive the License File or Activation Code! Help
 
 Check out our [License & Renewal Workflows page](/handbook/support/license-and-renewals/workflows/)
 
@@ -1421,7 +1426,7 @@ The deal has closed, but the customer has questions, or worse, *problems*. You d
 
 Go to the right team who can support you with your request. **NOTE** It is so important to go directly to the correct team, they are often the only ones who can resolve the issue!
 
-#### When to contact Sales-Support:
+#### When to contact Sales-Support
 
 Be sure to review the [common questions after a deal has closed](### Post Sale Information) section. If you still have questions, tag Sales-Support on the relevant Closed Won opportunity.
 
@@ -1433,7 +1438,7 @@ Sales-support does not have the ability to:
     *Resolve Zendesk tickets or open Support issues
     * Access the LicenseApp - **we can't send trials, new licenses, or activation codes**
 
-#### When to contact Customer Support:
+#### When to contact Customer Support
 
 The customer support team is here to resolve technical errors related to the customers subscription. [**DO NOT GO TO CUSTOMER SUPPORT** for License issues until you have read this page](/handbook/support/internal-support/#should-i-contact-gitlab-support)
 

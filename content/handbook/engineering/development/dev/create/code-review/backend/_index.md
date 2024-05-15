@@ -3,39 +3,57 @@ title: "Create:Code Review BE Team"
 description: The Create:Code Review BE team is responsible for all backend aspects of the product categories that fall under the Code Review group of the Create stage.
 ---
 
-The Create:Code Review BE team is responsible for all backend aspects of the product categories that fall under the [Code Review group][group] of the [Create stage][stage] of the [DevOps lifecycle][lifecycle].
+## Team Vision & Mission
+
+Please refer to the category directions for [Code Review Workflow](https://about.gitlab.com/direction/create/code_review_workflow) and [GitLab CLI](https://about.gitlab.com/direction/create/gitlab_cli) for the current strategy and 1 year plan for these products.
 
 [group]: /handbook/product/categories/#code-review-group
 [stage]: /handbook/product/categories/#create-stage
 [lifecycle]: /handbook/product/categories/#devops-stages
 
-We are currently focused on:
+## Core Responsibilities
+
+The Create:Code Review BE team is responsible for all backend aspects of the product categories that fall under the [Code Review group][group] of the [Create stage][stage] of the [DevOps lifecycle][lifecycle]:
 
 - [Code Review Workflow](https://about.gitlab.com/stages-devops-lifecycle/create/), mainly the [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/) features
 - [GitLab CLI](https://gitlab.com/gitlab-org/cli)
-
 
 ## Group Members
 
 The following people are permanent members of the Create:Code Review Group:
 
-{{< team-by-manager-role role="Backend Engineering Manager(.*)Create:Code Review" team="Code Review" >}}
+{{< team-by-manager-role role="Engineering Manager, Create:Code Review" team="Code Review" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Code Review" manager-role="Backend Engineering Manager(.*)Create:Code Review" >}}
+{{< stable-counterparts role="Code Review" manager-role="Engineering Manager, Create:Code Review" >}}
+
+## Common Links
+
+- GitLab Team Handle: [`@code-review-be`](https://gitlab.com/code-review-be)
+- Slack Channel: [`#g_create_code-review`](https://gitlab.enterprise.slack.com/archives/C01EMBKS5DW)
+- Slack Handle: `@code_review_be`
+- Issue Tracker: [`create-stage/code-review-be`](https://gitlab.com/gitlab-com/create-stage/code-review-be)
+
+## Commonly Monitored Issue Lists
+
+- [Planning Issues](https://gitlab.com/gitlab-org/create-stage/-/issues/?sort=due_date&state=opened&label_name%5B%5D=group%3A%3Acode%20review&label_name%5B%5D=Planning%20Issue)
+- [OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=devops%3A%3Acreate&label_name%5B%5D=group%3A%3Acode%20review&label_name%5B%5D=backend)
+- [Release Board](https://gitlab.com/groups/gitlab-org/-/boards/2159734)
+- [Workflow Board](https://gitlab.com/groups/gitlab-org/-/boards/2365724) (be sure to add a `milestone` filter)
+- [Reliability](https://gitlab.com/gitlab-org/gitlab/-/boards/4227439?not[label_name][]=type%3A%3Afeature&label_name[]=group%3A%3Acode%20review)
+- [Security](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=group%3A%3Acode%20review&not%5Blabel_name%5D%5B%5D=type%3A%3Afeature)
+- [InfraDev Issues](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=due_date&state=opened&label_name%5B%5D=infradev&label_name%5B%5D=group%3A%3Acode%20review&not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&not%5Blabel_name%5D%5B%5D=severity%3A%3A4)
 
 ## Metrics and KPIs
 
-These KPIs are a subset of the [Development Department Performance Indicators](/handbook/engineering/development/performance-indicators/) and configured for just the Create:Code Review Backend Team.
-
-{{< sisense dashboard="922124" chart="13660165" >}}
+These KPIs are a subset of the [Development Department Performance Indicators](/handbook/engineering/development/performance-indicators/).
 
 You can find our dashboards here:
 
-- [Code Review BE KPIs](https://app.periscopedata.com/app/gitlab/922124/Code-Review-BE-KPIs)
+- [Centralized Engineering Metrics](https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard)
 - [Development Department Performance Indicators](/handbook/engineering/development/performance-indicators/)
 
 
@@ -81,8 +99,8 @@ To assign weights to issues in a future milestone, on every 4th of the developme
 #### Follow-up issues
 
 You will begin to collect follow-up issues when you've worked on something in a release but have tasks leftover, such as technical debt, feature flag rollouts or removals, or non-blocking work for the issue. For these, you can address them in at least 2 ways:
-* Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
-* Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acode%20review&search=planning)
+- Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
+- Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acode%20review&search=planning)
 
 You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
 
@@ -190,7 +208,6 @@ other responsibilities in mind, and make sure that there is an issue, you are
 assigned to it, and consider sharing it in [#g_create_code-review].
 
 [product prioritization process]: /handbook/product/product-processes/#how-we-prioritize-work
-[how-we-plan]: /direction/#how-we-plan-releases
 [collaboration]: /handbook/values/#collaboration
 [general guidelines]: /handbook/values/
 [efficiency]: /handbook/values/#efficiency
@@ -230,7 +247,7 @@ by `action` and/or `controller`.
 
 1. Every week we check the kibana and grafana dashboards as per the calendar invite
 2. If we identfiy an endpoint or worker that meets our severity criteria we create an issue (if not created already) and label it based on our severity and priority criteria
-   * If an issue is already created, check whether the severity/priority needs to be updated
+   - If an issue is already created, check whether the severity/priority needs to be updated
 3. This issue should contain as much information on why it is the severity/priority as logs are often held for only 7 days
 4. Using a [specific performance issue board](https://gitlab.com/gitlab-org/gitlab/-/boards/2621072) we can keep track of our current issues and they will be prioritized accordingly during planning
 
@@ -263,18 +280,12 @@ on the issue (if they have spare time).
 - Ensure the severity label is accurate based on the problem investigated
 - Our aim is getting to 0 issues in `~missed-SLO` column eventually and handle issues well before they get labeled as `~missed-SLO` and `~approaching-SLO`
 
-## Additional Resources
+## Engineering Onboarding
 
-In addition to the information on this page, here is some additional information for our team members:
+This [example onboarding issue](https://gitlab.com/gitlab-com/create-stage/code-review-be/-/issues/160)
+will eventually be turned into an onboarding [issue template](https://docs.gitlab.com/ee/user/project/description_templates.html#create-an-issue-template).
 
-### Engineer Resources
+## Other Related Pages
 
-For additional resources that may help the engineers on the Create:Code Review BE team, like team building and career development, see:
-
-[Create:Code Review BE Engineer Resources](/handbook/engineering/development/dev/create/code-review/backend/engineers)
-
-### Engineering Manager Resources
-
-For additional resources relating to the enginineering manager on the Create:Code Review BE team, like milestone planning, talent assessments, and project managenet resources, see:
-
-[Create:Code Review BE Engineering Manager Responsibilities](/handbook/engineering/development/dev/create/code-review/backend/manager)
+- [Create:Code Review BE Engineer Resources](/handbook/engineering/development/dev/create/code-review/backend/engineers), e.g. team building and career development
+- [Create:Code Review BE Engineering Manager Responsibilities](/handbook/engineering/development/dev/create/code-review/backend/manager), e.g. milestone planning, talent assessment, and project management

@@ -97,7 +97,7 @@ fields.
 
 ## Handling Large Files
 
-Zendesk has a [fixed maximum attachment size](https://support.zendesk.com/hc/en-us/articles/235860287-What-is-the-maximum-attachment-size-I-can-include-in-ticket-comments-) of 50MB per file. If you need a user to share a larger file than this, then see [Provide Large Files to GitLab Support](/support/providing-large-files/) for information on how to do so.
+Zendesk has a [fixed maximum attachment size](https://support.zendesk.com/hc/en-us/articles/235860287-What-is-the-maximum-attachment-size-I-can-include-in-ticket-comments-) of 50MB per file. If you need a user to share a larger file than this, then see [Provide Large Files to GitLab Support](https://about.gitlab.com/support/providing-large-files/) for information on how to do so.
 
 ## Merging tickets
 

@@ -39,7 +39,7 @@ to update the generated files as well.
 
 ## Bug Prioritization Dashboard
 
-The [bug prioritization dashboard](https://app.periscopedata.com/app/gitlab/1037965/Bug-Prioritization) can also be used to put together a suggested list of bugs for each group.
+The [bug prioritization dashboard](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard?:iid=2) can also be used to put together a suggested list of bugs for each group.
 This dashboard should be revisited for each milestone, as the data will change over time.
 
 As a general guideline, the total amount of bugs proposed should match the burndown plan from the dashboard for your specific group.

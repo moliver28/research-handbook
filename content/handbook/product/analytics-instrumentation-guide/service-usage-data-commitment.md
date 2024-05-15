@@ -70,7 +70,7 @@ Next up for our [roadmap](https://about.gitlab.com/direction/analytics/analytics
 
 ## Related Content
 
-1. [GitLab's Privacy Policy](/privacy/)
+1. [GitLab's Privacy Policy](https://about.gitlab.com/privacy/)
 1. Updates to Pseudonymizing Service Usage Data blog post: *coming soon*
 1. [Update on Free Software and Telemetry](https://about.gitlab.com/blog/2019/10/10/update-free-software-and-telemetry/)
 1. [Product Usage Tracking Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/5672)

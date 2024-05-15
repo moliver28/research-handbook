@@ -177,7 +177,7 @@ The Senior Director, Business Technology Program Management is a [grade 11](/ha
 
 ### Performance Indicators (PI)
 
-- [Evaluating System or Process Efficiency](/handbook/business-technology/metrics/#evaluating-system-or-process-efficiency)
+- [Evaluating System or Process Efficiency](https://internal.gitlab.com/handbook/it/it-performance-indicators/#evaluating-system-or-process-efficiency)
 - IT Program efficacy and on-time delivery
 
 ## Career Ladder

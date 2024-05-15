@@ -23,7 +23,7 @@ The below demonstration highlights a simple flow of work between GitHub pull req
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qgl3F2j-1cI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </figure>
 
-# Jira Integration Demo
+## Jira Integration Demo
 
 There are 3 different Jira integrations avaialble.
 1. Real-time MR/comments integration also known as “Jira Integration”. All Jira + GitLab customers should use this if they cannot use only GitLab.
@@ -34,14 +34,14 @@ The following guide can be used to integrate GitLab.com with Jira Software Cloud
 - [GitLab Jira integration](https://docs.gitlab.com/ee/integration/jira/) - mention a Jira issue ID from GitLab and have this reflected in the Jira Issue’s comments.
 - [Dev Panel integration using the GitLab for Jira app](https://docs.gitlab.com/ee/integration/jira/) - for each Jira issue, displays links with number of related commits, branches, and pull (merge) requests from GitLab.
 
-Prerequisite: Must be a `Premium` group owner on GitLab SaaS
+Prerequisite: Must be a `Premium` group owner on GitLab.com
 
 #### GitLab Jira integration
 
 1. You can either create your own free Jira Software Cloud environment or use the environment listed under `Jira Integration Demo Login` in 1Password.
    - If using the `Jira Integration Demo Login` select the `spring-integrations` project in Jira and go to the issue board.
 2. Create a new Jira issue. Note the ID or copy it to the clipboard.
-3. Log in to GitLab SaaS and create a new project within your Ultimate group
+3. Log in to GitLab.com and create a new project within your Ultimate group
    - Under Settings > Integrations > Jira, configure the integration with the web URL, username, API token (you will need to generate a new token for your own use), and transition ID for your project.
 4. Create a branch from Repository > Branches. Include your new Jira issue ID in branch name and description (such as `fixes-SI-X`, where `X` is the issue number).
 5. Create a merge request with `SI-X` in the name and `Resolves SI-X` in the description.
@@ -52,10 +52,10 @@ Prerequisite: Must be a `Premium` group owner on GitLab SaaS
 
 #### Dev Panel integration using the GitLab for Jira app
 
-1. Follow the [GitLab SaaS Development Panel](https://docs.gitlab.com/ee/integration/jira/index.html#configuration) instructions.
+1. Follow the [GitLab.com Development Panel](https://docs.gitlab.com/ee/integration/jira/index.html#configuration) instructions.
 2. Navigate to the Jira issue board and select your issue (*SI-X* if using the `spring-integrations` project). Note the GitLab commit and branch information displayed in the Development panel on the right side.
 
-# Jenkins Integration Demo
+## Jenkins Integration Demo
 
 - Login to Jenkins using `Jenkins.Taunki.Cloud Login` in 1Password.
 - Log into GitLab `spring-integrations` project on `demo.tanuki.cloud` via 1Password.
@@ -67,7 +67,7 @@ Prerequisite: Must be a `Premium` group owner on GitLab SaaS
 - Click on Jenkins job, noting that it takes you to the Jenkins console output.
 - Return to the GitLab repository and highlight the Jenkinsfile maintained alongside the repo for consistency and versioning.
 
-# Bamboo CI Integration Demo
+## Bamboo CI Integration Demo
 
 - Log into GitLab using your credentials
 - Create a new project from any template
@@ -98,7 +98,7 @@ Prerequisite: Must be a `Premium` group owner on GitLab SaaS
 - Edit README.md in new branch and commit the change
 - Check Bamboo to confirm the change has been picked up by Bamboo
 
-# OpenLDAP Integration Demo (Adding Users)
+## OpenLDAP Integration Demo (Adding Users)
 
 - Log into the OpenLDAP GUI (details can be found in the SA vault)
 - In the left navigation panel, expand the LDAP tree
@@ -114,10 +114,10 @@ Prerequisite: Must be a `Premium` group owner on GitLab SaaS
 - Click `Sign In`
 - Newly created users will be taken to their profile page to update their `Email` field and confirm their Email address.
 
-# GitHub Integration Demo
+## GitHub Integration Demo
 
 - Navigate to GitHub.com/signin and login using `GitHub Demo Login` in 1Password.
-- Navigate to GitLab SaaS and login using `GitHub Demo Login (GitLab)` in 1Password.
+- Navigate to GitLab.com and login using `GitHub Demo Login (GitLab)` in 1Password.
 - Begin the demo by showing how to create a GitLab project linked to a GitHub repo. Click on the `+` icon to create a new project in GitLab.
 - Select the `CI/CD for external repo` tab and highlight that you’d use an access token from GitHub to access GitHub repos within GitLab. Don’t create a new project at this point (cancel).
 - Switch to GitHub. Click into the `spring-boot-test` project repo.
@@ -135,6 +135,6 @@ Prerequisite: Must be a `Premium` group owner on GitLab SaaS
 - After time has elapsed, return to the GitHub pull request to show the pass/fail status displayed in GitHub.
 - Optional: Other existing pull requests may be used to show the linkage without committing changes or creating new pull requests.
 
-# Conclusion
+## Conclusion
 
 GitLab, leveraging built-in integrations, can work with existing Jira, GitHub or Jenkins systems, flowing work and updating status bi-directionally between those tools and GitLab.

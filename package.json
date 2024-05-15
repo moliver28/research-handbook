@@ -1,10 +1,10 @@
 {
   "name": "internal-handbook",
   "private": true,
-  "description": "View the internal handbook at <https://internal-handbook.gitlab.io>",
+  "description": "View the internal handbook at <https://internal.gitlab.com>",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/internal-handbook/internal-handbook.gitlab.io.git"
+    "url": "git+ssh://git@gitlab.com:gitlab-com/content-sites/internal-handbook.git"
   },
   "scripts": {
     "sync-data": "./scripts/sync-data.sh",
@@ -14,6 +14,9 @@
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "chalk": "^4.1.2",
+    "markdownlint-cli2": "^0.12.1",
+    "markdownlint-cli2-formatter-codequality": "^0.0.4",
+    "markdownlint-cli2-formatter-pretty": "^0.0.5",
     "postcss": "^8.3.7",
     "postcss-cli": "^9.1.0"
   }

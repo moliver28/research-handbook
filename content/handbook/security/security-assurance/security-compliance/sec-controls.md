@@ -40,7 +40,6 @@ GCF security controls are assessed at the entity level or the system level depen
 
 GCF security controls assessed at system level are based upon the system's [critical system tiering]({{< ref "critical-systems" >}}). Dependent upon the system's tier, a subset of GCF controls are evaluated based upon overall risk and impact to the organization. This is broken out as follows:
 
-
 |Tier |     GCF Control Scope |     ZenGRC Link|
 |--|--|--|
 |Tier 0 Entity|Entity-Level Controls| [Link](https://gitlab.zengrc.com/sor/listing/controls?p=eyJzb3IiOnsicGFnZVNpemUiOjIwMCwiY29sdW1ucyI6WyJ0aXRsZSIsInNsdWciLCJkZXNjcmlwdGlvbiIsInRlc3RQbGFuIiwic3RhdHVzIiwiY2FfXzExMiIsImFzc2Vzc21lbnRzIl0sImNvbHVtblNpemVzIjpbeyJuYW1lIjoidGVzdFBsYW4iLCJzaXplIjozNzR9LHsibmFtZSI6Im1hcHBpbmdzLnByb2dyYW1zIiwic2l6ZSI6MzgxfV0sImZpbHRlcnMiOnsiQU5EIjpbeyJmIjoiY2FfXzM0MyIsIm8iOiI9IiwidiI6IlRpZXIgMCBFbnRpdHkifSx7ImYiOiJtYXBwaW5ncy5wcm9ncmFtcyIsIm8iOiI9IiwidiI6IlByb2dyYW06NDIifV19fX0%3D&page=1)|
@@ -69,7 +68,7 @@ To assess newly acquired/developed systems that enable security controls OR are/
 
 ### 1. System identification
 
-Our goal is to identify systems that enable security controls (e.g., access management system) OR systems that are (or may be) subject to regulatory (e.g., SOX) or compliance requirements (SOC2) as early as possible via our [Third Party Risk Management (TPRM) Program]({{< ref "third-party-risk-management" >}}). As we engage with third parties for new systems, we assess the use of the system and whether or not it meets the criteria described above. Existing systems can also be ingested into the Security Compliance Intake process. Examples of these could include systems whose functionality has expanded to support security controls or instances where our understanding of a security control has improved resulting in the identification of a previously uncredited supporting system.
+Our goal is to identify systems that enable security controls (e.g., access management system) OR systems that are (or may be) subject to regulatory (e.g., SOX) or compliance requirements (SOC2) as early as possible. As we develop new features/systems and engage with third parties for services, we assess the use of the system and whether or not it meets the criteria described above. Existing systems can also be ingested into the Security Compliance Intake process. Examples of these could include systems whose functionality has expanded to support security controls or instances where our understanding of a security control has improved resulting in the identification of a previously uncredited supporting system.
 
 If the system meets the criteria, we open up a new [Security Compliance Intake Issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/security-compliance-intake/-/issues/new?issue[title]=System%20Intake:%20%5BSystem%20Name%20FY2%23%20Q%23%5D&issuable_template=intakeform).
 
@@ -79,9 +78,9 @@ If the system meets the criteria, we open up a new [Security Compliance Intake I
 
 - System overview
 - Implemented security controls or impacted regulatory or compliance program
-- Link to TPRM review and results
-- Link to most recent [Business Impact Analysis]({{< ref "business-impact-analysis" >}}) and [Critical System Tier]({{< ref "critical-systems#critical-systems-tiering-methodolgy" >}}) (CST)
-- Control owner details
+- Link to TPRM reviews or Production Readiness reviews
+- [Critical System Tier]({{< ref "critical-systems#critical-systems-tiering-methodolgy" >}}) (CST)
+- Key Contact Details
 - Deployment model and implementation status
 - Data classification
 - Regulatory scope (supported by Security Compliance and [Internal Audit](/handbook/internal-audit/))
@@ -304,6 +303,7 @@ This control family covers physical access to devices and facilities, and the mi
 | Control | Title | Description |
 |---------|-------------|---------------|
 |     PE-1     |     Policy and Procedures          |     Establishment of physical and environmental protection policy and procedures that address the controls in the PE family implemented within systems and organizations.     |
+
  {{% /details %}}
 
 {{% details summary="Planning (PL)" %}}
@@ -407,7 +407,6 @@ This control family focuses on the assessment of system vulnerabilities and rele
 |     RA-9     |     Criticality Analysis          |     To identify critical system components and functions by performing a criticality analysis.     |
 
 {{% /details %}}
-
 
 {{% details summary="System and Services Acquisition (SA)" %}}
 > [<i class="fa-solid fa-file-lines"></i> System and Services Acquisition (SA)]({{< ref "../security-compliance" >}})

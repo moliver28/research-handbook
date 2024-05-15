@@ -34,6 +34,7 @@ For questions on our policy and how to submit your Team Member Gift and Flower e
 **Please note: The intended recipient will need to provide their residential address directly for the purposes of flower / gift delivery - personal information may not be disclosed without team member consent.**
 
 Recommended sites:
+
 - [1-800 Flowers](https://www.1800flowers.com/)
 - [Flora Queen](https://www.floraqueen.com/)
 
@@ -52,3 +53,4 @@ Once you have your card created:
 Recommended sites:
 
 - [Ella Cards](https://www.ellacard.com/)
+- [Kudoboard Cards](https://www.kudoboard.com/)

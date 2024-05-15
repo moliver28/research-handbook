@@ -28,9 +28,9 @@ The following teams comprise the Ops sub-department:
 
 Teams in the Ops Sub-Department map to several Product Sections.  Product direction can be found on the following direction pages:
 
-* [CI Section Direction](https://about.gitlab.com/direction/ci)
-* [CD Section Direction](https://about.gitlab.com/direction/cd)
-* [Observability Direction](direction/analytics/observability/)
+- [CI Section Direction](https://about.gitlab.com/direction/ci)
+- [CD Section Direction](https://about.gitlab.com/direction/cd)
+- [Observability Direction](direction/analytics/observability/)
 
 ## Slack channels
 
@@ -125,7 +125,7 @@ To be clear, this is not a required process, if your group's approach is working
 - **Impact** should also be highlighted (quantifiable where possible), with examples such as:
   - customer-facing impact (CMAU, ARR growth, retention, adoption, etc)
   - improvements in efficiency, team process or other team metrics
-- Examples demonstrating leadership, ownership and accountability (going _above and beyond_ for your current role):
+- Examples demonstrating leadership, ownership and accountability (going *above and beyond* for your current role):
   - Your role on a project or initiative ("how did you successfully help deliver X?", "what role did you play in this Working Group?")
   - MR Review efforts (your role as a maintainer for your team or for the rest of the department in your domain)
   - Collaborating with your team's stable counterparts
@@ -158,14 +158,14 @@ These lists should include:
 
 #### Promotion Mentor for Staff+ Roles
 
-Team members who aspire to advance within our organization are advised to identify and formally request mentorship from another engineer already established in the targeted role, with work performance in good standing as deemed by their manager. Involving a mentor in the peer promotion review process is beneficial, as it ensures:
+Team members who aspire to advance within our organization are advised to identify a [mentor](/handbook/people-group/learning-and-development/mentor/) in the targeted role, and reach out to them about a mentorship. Involving a mentor in the peer promotion review process is beneficial, as it ensures:
 
 1. The feedback is informed by comprehensive understanding and relevance to the individual's development.
 1. The feedback, being familiar and constructive, will not catch the mentee off guard and will provide clear directions for improvement from peers they'd work with directly.
 
 Individuals pursuing promotion, possibly in consultation with their managers, should maintain regular communication with their mentor to evaluate progress and explore further opportunities for growth. This initiative also aims to cultivate leadership qualities among our senior Staff+ engineers.
 
-We plan to trial this optional process in Ops during Q1FY25, progress, mentors and mentee can be found in this [epic](https://gitlab.com/groups/gitlab-org/ci-cd/-/epics/6)
+We plan to trial this optional process in Ops during Q1FY25. Progress and established mentor/mentee pairs can be found in this [epic](https://gitlab.com/groups/gitlab-org/ci-cd/-/epics/6)
 
 ## Ops Hiring process
 
@@ -324,7 +324,7 @@ The content of these updates varies by individual and role:
     1. Projects & Priorities (progress, blockers, key decisions, etc.)
 
 
-### To create a weekly async update:
+### To create a weekly async update
 
 1. Create a GitLab issue in any project.
 2. Apply the label `~OpsSection::AsyncUpdate`.  (The label `~OpsSection::Weekly-Update` can also be used for backwards compatibility reasons.)
@@ -335,14 +335,14 @@ The content of these updates varies by individual and role:
 1. Begin any paragraph in your update with the text `HIGHLIGHT:`
 1. These paragraphs will automatically be copied into the Highlights & Accomplishments section of the monthly Director's update.
 
-### To review Ops weekly async updates:
+### To review Ops weekly async updates
 
 1. All issues with the `~OpsSection::AsyncUpdate` or `~OpsSection::Weekly-Update` label are summarized in weekly issues in the [Ops Status Updates](https://gitlab.com/gitlab-com/ops-sub-department/ops-status-updates/-/issues) project.
 1. All team members are encouraged to comment and ask questions in weekly async update issues.  This provides useful feedback to the author and opportunities to collaborate.
 1. Director reviews all updates weekly (from the prior week) and provides feedback.
 1. Senior EMs reviews all updates from their teams weekly (from the prior week) and provides feedback.
 
-### Benefits of reporting and reviewing status async vs. synchronously in meetings:
+### Benefits of reporting and reviewing status async vs. synchronously in meetings
 
 1. Collaboration - By sharing announcements, achievements, goals, and plans we are empowering team members with the information they need to make sound decisions and succeed in their roles.
 1. Results - Async updates provide an important channel for sharing accomplishments and progress.
@@ -367,5 +367,5 @@ and would benefit from additional visibility, please post a link with a short de
 When teams are asked to triage support requests for customers on GitLab Dedicated and engineers need access to their logs, a sync can be arranged between the engineer and the assigned Support Engineer for a screensharing session.
 However, when further troubleshooting is needed by the engineering team or async collaboration is preferred, follow these steps to request access:
 1. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) (AR) and list the engineers who require access.  (Note that EMs can create this issue and provide `Manager Approval` on behalf of the engineers)
-1. Assign the AR to the EM and PM of the [Dedicated group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) for _read-only_ log access.
+1. Assign the AR to the EM and PM of the [Dedicated group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) for *read-only* log access.
 1. Reference the AR issue in the support tracker issue so that the Support Engineer is aware.

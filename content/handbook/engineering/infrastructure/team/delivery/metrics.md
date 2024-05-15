@@ -12,7 +12,8 @@ to deploy application changes into production.
 - [Performance Indicator]
 - **Target: 12 hours.**
 
-{{< sisense chart="10055732" dashboard="764878" >}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/MTTP" >}}
+{{< /tableau >}}
 
 MTTP measures the elapsed time (in hours) from merging a change in gitlab-org/gitlab project master
 branch, to deploying that change to GitLab.com.

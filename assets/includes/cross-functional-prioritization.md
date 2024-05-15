@@ -31,12 +31,11 @@ Our backlog should be prioritized on an ongoing basis. Prioritization will be do
 
 1. Product Manager provides prioritized `type::feature` issues
 1. Engineering Manager in development provides prioritized `type::maintenance` issues
-1. [Test Platform Managers](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/#milestone-planning) provide prioritized `type::bug` issues using the [bug prioritization dashboard](https://app.periscopedata.com/app/gitlab/1037965/Bug-Prioritization)
+1. [Test Platform Managers](https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/#milestone-planning) provide prioritized `type::bug` issues using the [bug prioritization dashboard](https://10az.online.tableau.com/t/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard)
 
 *Note: UX-related work items would be prioritized in accordance with the appropriate sub-types. UX related bugs are included in the automated process (S1/2 and so on), UX-related maintenance items will be included in the EM's prioritized list, Product (feature) UX items will have been included as part of our normal [Product Development Flow](https://about.gitlab.com/handbook/product-development-flow/).*
 
 The DRIs of these three core areas will work collaboratively to ensure the overall prioritization of the backlog is in alignment with [section direction](https://about.gitlab.com/direction/#devops-stages) or any other necessary product and business needs. If a team is not assigned a Product Designer then there is no UX counterpart needed for prioritization purposes. PMs will prioritize the final plan for a given milestone.
-
 
 #### Planning for the milestone
 
@@ -47,7 +46,6 @@ The Product Manager is responsible for planning each milestone. Product Managers
    1. Teams working on net-new product functionality may have a much higher feature work percentage.
    1. Conversly, teams with more mature product categories may have more maintence work.
 1. Sequencing of work within the milestone should reflect that we [plan ambitiously](/handbook/product/product-principles/#how-this-impacts-planning). This means not every issue will be delivered. Be aware that this can skew your ratios over time if subsequent milestones are not properly re-balanced.
-
 
 Add the `milestone` ([example](https://gitlab.com/groups/gitlab-org/-/boards/4309441?label_name[]=group%3A%3Athreat%20insights&milestone_title=15.1)) to review the milestone plan. The board will show the number of issues and cumulative issue weights for `type::feature`, `type::maintenance`, and `type::bug` issues.
 
@@ -61,7 +59,7 @@ When the data is up-to-date and accurate.  See the [timeline](https://about.gitl
 
 ##### What to review in advance?
 
-Review the [dashboard](https://app.periscopedata.com/app/gitlab/1042933/Issue-Types-by-Milestone) filtered for the review scope (group, section, etc).
+Review the [dashboard](https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/MilestoneIssuesDashboard) filtered for the review scope (group, section, etc).
 
 ##### Questions to ask
 
@@ -76,7 +74,7 @@ Maintenance/quality:
 1. Are the % of undefined merge requests < 1% for the timeframe being analyzed?  If not, what should be done to correct?
 1. How do error budgets look?
 1. Are past due bugs being prevented/prioritized as appropriate?
-1. Are usability/SUS impacting issues being prioritized as appropriate?
+1. Are usability issues being prioritized as appropriate?
 1. Are security issues being prioritized as appropriate?
 1. Are infrastructure backlog issues being prioritized as appropriate?
 1. Are maintenance priorities from the engineering development manager being prioritized as appropriate?
@@ -91,7 +89,7 @@ Trends:
 
 1. Evaluate the percentage ratios of completed work (feature / maintenance / bug) for the previous milestone/timeframe against the team's planned ratio for that milestone.
 1. Is there predictability from milestone to milestone (number of issues or issue weight per release)?
-1. Compare the planned milestone with the previous months [merge request trends](https://app.periscopedata.com/app/gitlab/976854/Merge-Request-Types-Detail) for the team.  Any trends to note?
+1. Compare the planned milestone with the previous months [merge request trends](https://10az.online.tableau.com/t/gitlab/views/DRAFTMergeRequestTypes/MergeRequestTypes) for the team.  Any trends to note?
 1. What overall trends does the group want to highlight?
 1. What flags do you want to raise?  What won't happen?
 
@@ -128,7 +126,6 @@ The collaboration should be async first but include an optional sync review amon
 
 The name of the meeting and associated agenda document should be clearly defined so that the invitees can decide if they should attend.
 
-
 ##### Company-wide review
 
 The company-wide review is coordinated by the VP of Development.
@@ -146,7 +143,3 @@ Required collaborators from the quad for the stage/section are:
 Optional collaborators who should be invited but not required to participate:
 
 - The [functional leads for the next prioritization working group](/handbook/company/working-groups/cross-functional-prioritization/#roles-and-responsibilities).
-
-
-
- 

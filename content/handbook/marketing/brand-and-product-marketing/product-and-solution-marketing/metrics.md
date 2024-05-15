@@ -18,7 +18,7 @@ Below is a list of metrics by different marketing functions in Product and Solut
 | Cust Ref | Views | Content Created (Case Studies, Quotes, References, etc) | IACV Attribution |
 | Comp Intel | Views | Content Created (Comparison Pages, etc) | IACV Attribution |
 
-## Working Definitions:
+## Working Definitions
 
 - **Impressions**: A total count of how many people viewed our content.
     - Web pages, this is page views.  (source: google analytics?)
@@ -34,7 +34,7 @@ Below is a list of metrics by different marketing functions in Product and Solut
     - **Medium**: Revising content and /or customizing existing content
     - **High**: Developing net new content and / or delivering content (whether new or existing content)
 
-## Product and Solution Marketing (Ashish) thoughts on metrics we should consider:
+## Product and Solution Marketing (Ashish) thoughts on metrics we should consider
 
 Multiple lenses of metrics are needed to build the narrative such as:
 
@@ -97,7 +97,7 @@ Product and Solution Marketing tracks an inventory about what it creates and pub
 
 ## Marketing Attribution Model
 
-- [Marketing attribution](https://app.periscopedata.com/app/gitlab/556414/Marketing-Linear-Attribution)
+- [Marketing attribution](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?:iid=1)
 - Learning: [Marketing attribution - quick overview](https://www.bizible.com/blog/marketing-attribution-models-complete-list)
 
 ## Customer Reference Analytics

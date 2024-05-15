@@ -35,13 +35,14 @@ We strive to be as transparent as possible, but these sections are only availabl
 ### Team Process Pages
 
 - [TA Key Performance Indicators](https://internal.gitlab.com/handbook/people-group/talent-acquisition/key-performance-indicators/) Note: this page is currently in our internal handbook as they are a work in progress.
-- [Meeting Cadence]({{< ref "/handbook/hiring/meetings" >}})
+- [Meeting Cadence](/handbook/hiring/meetings)
 - [Talent Acquisition Alignment]({{< ref "recruiting-alignment" >}})
 - [Diversity, Inclusion & Belonging Talent Acquisition Initiatives](/handbook/company/culture/inclusion/talent-acquisition-initiatives/)
 - [Triad Process]({{< ref "triadprocess" >}})
 - [Quarterly Updates](https://internal.gitlab.com/handbook/people-group/talent-acquisition/quarterly-updates/) Note: Internal only
 
 {{% details summary="Shared Definitions" %}}
+
 - **Job:** A job refers to the job title (ex: Customer Support Specialist). This will also be what appears on external job boards. In the case there are multiple positions open that are the same, and we only want to list once, we can have multiple 'openings' (see next section) opened within one 'Job'. Each job will have a unique identifier called a Requisition ID (example- 1001).
 - **Opening:** A job can have multiple openings attached to it (ex: you are hiring 3 Customer Support Specialists. You would then have 1 ‘Job’ and 3 ‘openings’ against that job). A job can have multiple openings against it, but an opening can not be associated with multiple jobs. Each opening will have a unique identifier called an Opening ID (example- 1001-1, 1001-2, 1001-3).
 - **GHPiD:** GHP ID is the link between Adaptive (what we use to track our operating plan) and Greenhouse (our ATS). A GHP ID has a one to one relationship with an Opening ID. It is the key interlock between our hiring plans and our Talent Acquisition activity. This is a custom field in Greenhouse.
@@ -69,12 +70,13 @@ Please find pages for potential and active applicants below.
 ### Candidate Experience Specialist Processes
 
 {{% details summary="Greenhouse integrations you'll need" %}}
+
 - [Prelude]({{< ref "prelude" >}}): To gain CES-level access to Prelude, ask your manager to message the Support team at Prelude.
 - [Guide](https://support.greenhouse.io/hc/en-us/articles/360052205072-Guide-integration): Check with your manager if you do not have higher level access to navigate inside of Prelude.
 - [DocuSign](https://support.greenhouse.io/hc/en-us/articles/205633569-DocuSign-integration)
 {{% /details %}}
 
-- [Candidate Experience Specialist Responsibilities]({{< ref "/handbook/hiring/talent-acquisition-framework/coordinator" >}})
+- [Candidate Experience Specialist Responsibilities](/handbook/hiring/talent-acquisition-framework/coordinator)
 - [Prelude]({{< ref "prelude" >}})
 - [How to Complete a Contract - CES Process]({{< ref "ces-contract-processes" >}})
 
@@ -83,16 +85,19 @@ Please find pages for potential and active applicants below.
 #### Opening a job
 
 {{% details summary="Get your headcount assignments" %}}
+
 - [How to open headcount on R&D](/handbook/engineering/#hiring-practices)
 - [How to open headcount on Sales and G&A]({{< ref "req-creation#creation-and-approval" >}})
 {{% /details %}}
 
 {{% details summary="Open a req in Greenhouse" %}}
+
 - [Instructions here]({{< ref "req-creation#opening-vacancies-in-greenhouse" >}})
 - [Open a kickoff session]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}})
 {{% /details %}}
 
 {{% details summary="Evergreen requisitions" %}}
+
 - [Creating an evergreen req]({{< ref "req-creation#creating-an-evergreen-requisition" >}})
 - [Evergreen req guide]({{< ref "evergreen-requisitions" >}})
 - An Evergreen Job is a requisition that is 'always open'. More specifically, it is used when we have at least 3 openings for a particular job repeated each quarter. There is then one Evergreen job posted for internal, external and passive candidates. It is important that no candidate is hired to an Evergreen job, and instead is moved to an approved opening (aka an opening with a single corresponding GHPiD). TA Leadership will open EVG roles at the start of a fiscal year, with a quarterly review cadence, by leveraging the hiring plan and attrition assumptions. See the pages above for more information.
@@ -103,6 +108,7 @@ Please find pages for potential and active applicants below.
 {{% /details %}}
 
 {{% details summary="Post a job in Greenhouse" %}}
+
 - [Post an **internal** job]({{< ref "req-creation#opening-vacancies-in-greenhouse-dri-recruiter" >}})
 - [Post an **external** job]({{< ref "req-creation#publish-the-job-to-the-careers-page--review-greenhouse-configuration" >}})
 - [Using Rules]({{< ref "req-creation#using-job-posting-rules-in-greenhouse" >}})
@@ -116,12 +122,14 @@ Please find pages for potential and active applicants below.
 {{% /details %}}
 
 {{% details summary="Req access and permissions" %}}
+
 - As a member of the Talent Acquisition team, you have the ability to add team members to view your job with differing layers of access. By default, all team members can access the interview kit & scorecard of someone they’re interviewing and this access does not need to be granted. For team members who require additional access, such as a Hiring Manager or their EBA, you will need to grant that access where appropriate. You can use [this guide](https://internal.gitlab.com/handbook/people-group/talent-acquisition/enablement-team/#greenhouse-admin-instructions) to help determine the appropriate access.
 - As you are deciding what access level someone should have, default to the setting that allows the most confidentiality for a candidate. If a team member does not need access to scorecards, for example, we should be choosing an access level that does not allow them to see them. A job admin (someone with higher level permissions) typically should not be at the same level or a direct report of a job they have access to. Recruiters typically grant only Hiring Manager access - interviewers do not need special access and cannot access scorecards or candidate profiles through Greenhouse.
 - To add or remove access in a job, go to ‘job setup’ and click ‘hiring team’. Add or remove access under “Who can see this job?”. Unfortunately, there is no way to bulk add or remove access. You can also add and remove access when creating your job from a template. If you are searching for a team member and cannot find their name, ensure that you do not have filters activated. **Do not grant admin access through templates,** because this could create problems in the future.
 {{% /details %}}
 
 {{% details summary="Set up scorecards and interview plans" %}}
+
 - There are two elements of a scorecard: the Scorecard section and the Interview Plan section. Both are accessible through Job Setup.
 - [**Scorecard**](/handbook/hiring/talent-acquisition-framework/req-creation/#update-the-scorecard) Depending on your department, you may have a lot of your scorecard options pre-filled. R&D scorecards are always set up for you, and may only require small tweaks depending on technical language or job grade.
 - [**Interview Plan**](https://support.greenhouse.io/hc/en-us/articles/115002276366-Add-an-interview-question-to-an-interview-kit)
@@ -152,11 +160,13 @@ Scorecards are required in all stages that require interviews. Confidential, per
 {{% /details %}}
 
 {{% details summary="Scheduling tools in Greenhouse" %}}
+
 - Candidate Experience Specialists use [Prelude]({{< ref "prelude#prelude" >}}) to schedule.
 - Interview confirmations are sent through [Guide]({{< ref "guide#guide" >}}). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
 {{% /details %}}
 
 {{% details summary="Greenhouse for internal candidates" %}}
+
 - There are a few elements of Greenhouse that are different for internal candidates. Please note that internal candidates refer to current, full time team members. Interns converting to full time, contractors, or rehires are not considered internal candidates.
 - Interviews will always be scheduled as “private” events to ensure the candidate’s privacy. Interviews will show up as “busy” events on candidate and interviewers calendars rather than showing as interviews.
 - If internal applicants apply via our internal job board, the yellow “internal applicant” tag will automatically show in the GH profile. If you don’t see this tag, you can add it by navigating to the “Details” tab in GH and scroll down to “Source & Responsibility”. Click the pencil next to Source and select Internal Applicant from the drop down.
@@ -165,6 +175,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 {{% /details %}}
 
 {{% details summary="Candidate Hygiene" %}}
+
 - {{% details summary="Merging candidates" %}}
 - Recruiters should [merge applicant profiles](https://support.greenhouse.io/hc/en-us/articles/115004506466-Merge-candidate-profiles) whenever you see the opportunity and can verify that the candidates are the same. Merging applicant profiles allows you to keep data up to date, and also ensures that you know the full application history of anyone who applies. Aside from Internal candidates who should be merged right before hiring, you can merge candidates at any stage of the process.
 - All of Talent Acquisition has access to merge profiles. You can merge candidate profiles by viewing the right hand toolbar on an applicant profile, and clicking on either the alert that appears at the top of the toolbar or ‘See More’ in the ‘Tools’ section.Before beginning, please ensure that the profiles are a match for each other by verifying that their emails, phone numbers, and/or resumes are the same.
@@ -196,6 +207,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 #### Offers and Closing Reqs
 
 {{% details summary="Reference Checks" %}}
+
 - [Reference check information]({{< ref "offer-process#reference-reviews" >}})
 - Reference check forms are mandatory. If you receive reference check information outside of the form and don't want a candidate to fill it out again, Enablement can help you adjust the form to collect the remaining information. These forms are important because they provide necessary information for the accuracy and completion of a contract.
 - {{% details summary="Tips and Tricks" %}}
@@ -207,6 +219,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 {{% /details %}}
 
 {{% details summary="Offers" %}}
+
 - [Creating an offer in Greenhouse]({{< ref "offer-process#offer-approvals" >}})
 - {{% details summary="Common approval challenges" %}}
 - Offer stuck in approvals: If the offer is stuck in the approvals chain because someone is out of office, the recruiter can talk to the approver's manager about an appropriate temporary adjustment and recommend this to the Enablement team. Recruiters should be proactive in reaching out to approvers if an offer is urgent or a candidate is being inconvenienced by a long wait time. If there is a known OOO, this discussion should happen before there's an offer waiting for approval. Enablement can help with any changes needed.
@@ -216,6 +229,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 - [Declined offer steps]({{< ref "offer-process#declined-offers" >}})
 
 {{% details summary="Background screens" %}}
+
 - Contact the Senior Background Check Specialist at backgroundchecks@gitlab.com with any questions or requests for status updates.
 - The most commonly asked question for candidates outside the US is, “Why can’t I enter more than one past employer?” Outside of ​the US, candidates will only submit one former employer and Sterling is working as expected.
 {{% /details %}}
@@ -223,7 +237,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 #### Sourcing at GitLab
 
-- [Sourcing overview]({{< ref "/handbook/hiring/sourcing" >}})
+- [Sourcing overview](/handbook/hiring/sourcing)
 - [Identifying prospects]({{< ref "req-overview#step-4-identify--engage-top-talent-prospects" >}})
 
 #### Notifications
@@ -231,11 +245,13 @@ Scorecards are required in all stages that require interviews. Confidential, per
 There are no perfect or required ways to set up your Greenhouse notifications, but these are some of our recommendations.
 
 {{% details summary="Slack" %}}
+
 - To set up Slack to notify you when you’re tagged in candidate notes, select your initials in the upper right hand corner of Greenhouse. From there, you can activate your Slack integration. Toggle the button to send @mentions to Slack. This is also a great button to point out to Hiring Managers so they are easier for the team to reach.
 - Additionally, you will see a section for “Notification Preferences”. Most recruiters will set these up, but they are optional if you prefer to only receive notifications by email.
 {{% /details %}}
 
 {{% details summary="Email notifications" %}}
+
 - There are two ways to set up your email notifications. The first is to select your initials in the top right corner of Greenhouse, and under “notification preferences”, select where you would like to receive notifications about jobs. This is an easy way for Hiring Managers to set up their preferences for all jobs at once, but may not be as easy for the Talent Acquisition team to remember to update.
 - Instead, we would recommend setting your reminders either during your job setup process or after, by clicking into your Notifications tab of an individual job’s Job Setup. Here, we recommend that you stay in the loop on your candidates by electing to receive emails every time a scorecard is submitted, an internal candidate applies, a referral is submitted, and an offer is fully approved. You can choose your name or “Candidate’s Recruiter”, but you’ll want to be sure that you’re listed as the recruiter on the role to make this work. Recruiters should double check during this time that no one is receiving notifications that should not (ie an interviewer receiving offer notifications) and adjust privacy settings accordingly.
 - You can sync your emails between Greenhouse and Gmail. Greenhouse has a Gmail add-on that can help with syncing communications. You can learn more about it by [going here](https://support.greenhouse.io/hc/en-us/articles/360003111031-Greenhouse-Gmail-add-on).
@@ -268,12 +284,14 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 ## Global Hiring Resources
 
 {{% details summary="Global hiring links" %}}
+
 - The [“country hiring status”](https://comp-calculator.gitlab.net/hiring_status/index) section within the compensation calculator is the best place to look for a list of current countries available for hiring.
 - [This country list](https://docs.google.com/spreadsheets/d/1SLsLHcUaDqRUM0w0rWkISfA9NiZ3X6XRq--7IthqSYQ/edit#gid=1223524307), maintained by and accessible to recruiters, details specific information about each country that can help you answer candidate questions and prepare for potential hiring delays.
 - For general questions about specific policies or whether we support certain types of visas or sponsorship, message #people-group-confidential. If the request is more involved, or requires a conversation, you can slack Harley Devlin.
 {{% /details %}}
 
 {{% details summary="PEO information and timelines" %}}
+
 - For candidates who are located in Countries where we do not have an entity, we use a PEO (Professional Employment Organization).  The actual employment contracts will be sent and issued by the PEO who also handles the processing and payment of payroll and associated taxes and compliance in each of the countries on behalf of GitLab. The contracts themselves are between the individual and the PEO.
 - GitLab is currently hiring into three PEOs
 - [Remote.com]({{< ref "ces-contract-processes#remotecom" >}})
@@ -317,8 +335,8 @@ Processing for the United Arab Emirates could take up to a month, so we recommen
 
 ## Additional Resources
 
-- [Overview of Job Families]({{< ref "/handbook/hiring/job-families" >}})
-- [Background checks]({{< ref "/handbook/people-policies#background-checks" >}})
+- [Overview of Job Families](/handbook/hiring/job-families)
+- [Background checks](/handbook/people-policies#background-checks)
 - [Benefits]({{< ref "benefits" >}})
 - [Compensation]({{< ref "compensation" >}})
 - [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)

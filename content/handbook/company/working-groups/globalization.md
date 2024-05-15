@@ -10,8 +10,7 @@ status: active
 |-----------------|-----------------|
 | Date Created    | 2022-06-30 |
 | Target End Date | EO FY23 |
-| Slack           | [#wg_globalization](https://gitlab.slack.com/archives/C03MFFP0Q9J)
- (only accessible from within the company) |
+| Slack           | [#wg_globalization](https://gitlab.slack.com/archives/C03MFFP0Q9J) (only accessible from within the company) |
 | Agenda Doc    | [Revenue Globalization WG](https://docs.google.com/document/d/1Ul5kvUt3tHiARRpdzS9uOItkgyeQeohpPpwnCPwf4tU/edit#heading=h.pzs8q4jf90f2) (only accessible from within the company) |
 | Tracking Doc | [Tracking Doc](https://docs.google.com/spreadsheets/d/14GOJvADjS7R-zonQvx3ejiCgJGsCks3U0IbjwiFChRQ/edit#gid=427771731) |
 
@@ -23,7 +22,7 @@ This Working Group has the following exit criteria:
 1. Align on top 5 priority countries with most business impact for FY24
 1. Determine DRI to operationalize on-going globalization program and playbook
 
-## FY23 Q3 CEO OKR:
+## FY23 Q3 company OKR
 
 Deliver cross-functional revenue globalization priority frameworks and committed departmental action plans for top 5 countries.
 

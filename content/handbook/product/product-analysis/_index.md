@@ -1,17 +1,10 @@
 ---
 
 title: Product Data Insights
+
 ---
 
-
-
-
-
-
-
 ## Product Data Insights Handbook
-
-
 
 The Product Data Insights (formerly known as "Product Analysis") group consists of a team of
 product analysts. This group reports to the Senior Director, Product Monetization and serves
@@ -20,15 +13,13 @@ analysis across GitLab.
 
 In addition to supporting the Product division, the Product Data Insights team is an active
 contributor to the GitLab Data Program. As part of the [Research & Development (R&D) Data Fusion Team](/handbook/business-technology/data-team/#analytics-engineering-team),
-the product analysts also work closely with members from the central Data team. In addition,
+the product analysts also work closely with members from the Enterprise Data team. In addition,
 the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/business-technology/data-team/functional-analytics-center-of-excellence/),
 along with other functional analytics groups across the GitLab Data Program.
 
 Read more about what we do at GitLab on our [Direction](https://about.gitlab.com/direction/product-analysis/) page.
 
 ### Team members
-
-
 
 Product Data Insights is a small (but mighty) team. In order to support the Product division,
 each analyst is assigned to one or more sections or teams to support.
@@ -37,8 +28,8 @@ each analyst is assigned to one or more sections or teams to support.
 | --- | --- | --- |
 | [Carolyn Braza](/handbook/company/team/#cbraza) | [Senior Manager, Product Data Insights](/job-families/product/product-analyst/#senior-manager-product-data-insights) | [Analytics](/handbook/product/categories/#analytics-section) |
 | [Nicole Hervas](/handbook/company/team/#nhervas) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [CI](/handbook/product/categories/#ci-section), [CD](/handbook/product/categories/#cd-section) |
-| [Emma Neuberger](/handbook/company/team/#eneuberger) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Growth](/handbook/product/categories/#growth-section), [Enablement](/handbook/product/categories/#enablement-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) |
-| [Matthew Petersen](/handbook/company/team/#matthewpetersen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Dev](/handbook/product/categories/#dev-section) |
+| [Emma Neuberger](/handbook/company/team/#eneuberger) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Growth](/handbook/product/categories/#growth-section), [Core Platform](/handbook/product/categories/#core-platform-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) |
+| [Matthew Petersen](/handbook/company/team/#matthewpetersen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Dev](/handbook/product/categories/#dev-section), [Data Science](/handbook/product/categories/#data-science-section) |
 | [Dave Peterson](/handbook/company/team/#dpeterson1) | [Staff Product Analyst](/job-families/product/product-analyst/#staff-product-analyst) | [Sec](/handbook/product/categories/#sec-section) |
 | [Neil Raisinghani](/handbook/company/team/#nraisinghani) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Fulfillment](/handbook/product/categories/#fulfillment-section), [Pricing](https://internal.gitlab.com/handbook/product/pricing/) |
 
@@ -68,8 +59,6 @@ All data issues with the `Team::PDI` label will appear on the [Product Data Insi
 
 #### Issue templates
 
-
-
 Please select the appropriate template based on your type of request and answer as many of the
 questions as you can. The more information and context we have up front, the faster we are able
 to triage and begin work on the issue.
@@ -82,8 +71,6 @@ to triage and begin work on the issue.
 | Iteration planning | [Iteration Planning](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Iteration%20Planning) |
 
 #### Submission due date
-
-
 
 In order to be considered for the upcoming iteration, please open all issues by EOD Monday
 before the next iteration begins. We understand that urgent matters come up, but please try to
@@ -148,7 +135,7 @@ planning.
 | ----- | -------- |
 | `pdi-priority::1` | **High / Urgent Priority** Any analysis requests that are required to be completed within the current iteration. All requests that have Priority 1 should have a direct KPI and/or OKR that will be affected by the analysis. |
 | `pdi-priority::2` | **Medium Priority** This is where most requests would fall into. This can be any net-new analysis, reporting (dashboard creation), or exploratory analysis that is needed for decision making. |
-| `pdi-priority::1` | **Consultant:** This is for any analysis that does not have a direct action as a result of the analysis and/or other low-level, non-urgent requests that can be placed in an analyst's backlog. |
+| `pdi-priority::3` | **Low Priority / Consultant:** This is for any analysis that does not have an immediate direct action as a result of the analysis and/or other low-level, non-urgent requests that can be placed in an analyst's backlog. |
 
 Most issues will fall under `pdi-priority::2` and `pdi-priority::3`.
 
@@ -232,7 +219,7 @@ Please include why the issue is urgent, when it is needed by, what it will infor
 be used, and who is the intended audience.
 
 If you have not heard from the tagged analyst within 1 business day* (or earlier if the issue
-requires a faster turn-around), please send a message in [#data](https://gitlab.slack.com/messages/data/)
+requires a faster turn-around), please send a message in [#data](https://gitlab.enterprise.slack.com/archives/C8D1LGC23)
 and feel free to tag `@cbraza`.
 
 **Please keep in mind that we work across different time zones*
@@ -311,8 +298,6 @@ questions are captured in issues and go through a more rigorous, structured prio
 
 #### How to sign up
 
-
-
 The [agenda](https://docs.google.com/document/d/1ZXS-eeZNuRUn7176dZFqsyhIU-DSWYvWuEhogpbTzys/edit#)
 is first-come, first-served. Walk-ins/drop-ins are always welcome, but if possible, please
 add your name and topic (or question) before office hours begins. This allows the team time
@@ -323,8 +308,6 @@ Stakeholders are welcome to leverage office hours to discuss and define new issu
 which can help reduce async back-and-forth communication in the issue itself.
 
 #### Example topics
-
-
 
 Office hours are intended for smaller bodies of work, brainstorming, and assistance with
 data self-service. Here are some examples of topics for office hours:
@@ -395,8 +378,6 @@ work and will redirect you to [open an issue](https://gitlab.com/gitlab-data/pro
 
 #### FAQs
 
-
-
 **What is the difference between topics for office hours and formal data requests?**
 
 Office Hours is intended to help PMs with smaller tasks, provide a venue for brainstorming, and
@@ -415,11 +396,16 @@ When in doubt, come to office hours and the team can discuss there.
 
 ### Slack
 
-1. [#data](https://gitlab.slack.com/messages/data/) - For any type of data question, including
+#### Channels
+
+1. [#data](https://gitlab.enterprise.slack.com/archives/C8D1LGC23) - For any type of data question, including
 those related to product and/or the Product Data Insights team
-1. [#g_product_data_insights_daily](https://gitlab.slack.com/messages/g_product_data_insights_daily/) - For
+1. [#data-tableau](https://gitlab.enterprise.slack.com/archives/C03RMCEHVCP) - For any questions related to Tableau
+1. [#g_product_data_insights_daily](https://gitlab.enterprise.slack.com/archives/C0285NMCLBY) - For
 the Product Data Insights team's asynchronous daily stand-up, powered by [Geekbot](https://geekbot.com/)
-1. [#s_growth_data](https://gitlab.slack.com/messages/s_growth_data/) - For Growth-related data questions
+
+#### Aliases
+
 1. `@product-analysts` - Notifies the entire Product Data Insights team
 1. `@randdanalyticstriage` - Notifies the entire Product Data Insights team and the Data
 team's R&D Fusion group, per the [Enterprise Data Triage Program](/handbook/business-technology/data-team/how-we-work/triage/#enterprise-data-program-triage)

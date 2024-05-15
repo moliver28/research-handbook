@@ -7,17 +7,13 @@ description: IT Business Technology
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
 ## On this page
-{:.no_toc .hidden-md .hidden-lg}
 
-- TOC
-{:toc .hidden-md .hidden-lg}
-
-# <i id="biz-tech-icons" class="fas fa-map-marked-alt fa-fw"></i> Quick Links
+## <i id="biz-tech-icons" class="fas fa-map-marked-alt fa-fw"></i> Quick Links
 
 - [How We Work](/handbook/business-technology/pmo/)
 - [IT Meetings](/handbook/business-technology/pmo/#it-governance)
 
-# <i id="biz-tech-icons" class="fas fa-users"></i> The team
+## <i id="biz-tech-icons" class="fas fa-users"></i> The team
 
 <div class="flex-row" markdown="0">
   <div>
@@ -43,7 +39,7 @@ description: IT Business Technology
   </div>
 </div>
 
-# <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Role of IT Business Technology
+## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Role of IT Business Technology
 
 Our department focuses on managing the framework of how GitLab procures, implements, integrates, secures, exports analytics, and supports our [tech stack applications](/handbook/business-technology/tech-stack-applications) while providing strategic enablement and integration support for all departments and team members that allows us to scale efficiently, [SAFE](/handbook/legal/safe-framework/)ly, and securely.
 
@@ -55,23 +51,9 @@ The broader Finance and Business Technology team is focused on the principles of
 
 ![it](/handbook/business-technology/it-vision.png)
 
-## IT Strategy for FY24
+## Business Technology Strategy and Organization Structure for FY25
 
-### Team
-- Upskill, Identify Gaps, Hire Key Roles
-- Expansion through low cost geo model
-- Centralize IT - starting with sales and finance applications
-
-### Process
-- FY24 SOX program
-- IT Governance & Compliance
-- IT Portfolio Management
-
-### Technology
-
-- Project Execution & Delivery to align with company top 5
-- Application Health Check & Enterprise Architecture
-
+<a href="https://docs.google.com/presentation/d/1MdMvsm_gTqCnBYbcfPEvpeUbJf44fqFk8BljVeLonK0/edit#slide=id.p" class="btn btn-purple" style="width:200px;margin:5px;">Business Technology FY25 Deck</a>
 
 ## IT FY24-25 Execution Plan (WORK IN PROGRESS)
 
@@ -81,7 +63,7 @@ The broader Finance and Business Technology team is focused on the principles of
 | ------ | ------ | ------ | ------ |
 | 1 | IT Compliance  | - Remediation Plans Implemented  | SFDC Exit FY24 passing all ITGCs 2024-01-31 |
 | 2 | SFDC Team  | - Continue to staff and build out the team - focus on low cost geos<br> - FY25 AOP funding secured both headcount and contract spend <br> - Program execution in parallel vs sequential | - 4 contractors by 2024-01-31 <br> - 5 FTEs by 2024-07-31 |
-| 3 | IT Processes  | - Improvements on Business Engagement: [SFDC Intake Model](https://handbook.gitlab.com/handbook/business-technology/pmo/) <br> - [Program Prioritization and Planning](https://handbook.gitlab.com/handbook/business-technology/pmo/#it-quarter-planning-process) <br> - Operational Tickets Prioritization and Planning <br> - Partnership with Sales Ops | - Improve and streamline intake and commits with Sales Ops by 2024-01-31 for FY25 Roadmap and Q1. <br> - Increase Velocity and Project Delivery accepted programs to X by 2024-03-31, Y by 2024-04 |
+| 3 | IT Processes  | - Improvements on Business Engagement: [SFDC Intake Model](/handbook/business-technology/pmo/) <br> - [Program Prioritization and Planning](/handbook/business-technology/pmo/#it-quarter-planning-process) <br> - Operational Tickets Prioritization and Planning <br> - Partnership with Sales Ops | - Improve and streamline intake and commits with Sales Ops by 2024-01-31 for FY25 Roadmap and Q1. <br> - Increase Velocity and Project Delivery accepted programs to X by 2024-03-31, Y by 2024-04 |
 | 4 | Execution of Corporate Priorities | - [GTM/ NPI Roadmap](https://docs.google.com/spreadsheets/d/1ljTI_rL4gLPaTAzHNnhOrfZe60AodIfJPvo4-XJl_Pk/edit#gid=399429687) <br> - [Partner Ordering - CloudBlue Program](https://gitlab.com/groups/gitlab-org/-/epics/12188) | Deliver to planned ship dates |
 | 5 | Technology | - [Address Tech Debt / Get Well](https://docs.google.com/spreadsheets/d/1m1uAC3hzne3vP7Eno3g2T3TA0bjTowS-YQ97yH_A5ZQ/edit?usp=sharing) (e.g. [Process Builders](https://gitlab.com/groups/gitlab-com/-/epics/2074), Custom Profile & Permission Set Cleanup) <br> - [Lightning Migration](https://gitlab.com/groups/gitlab-com/-/epics/1953) | - Deliver 2024-03-31 <br> - Deliver FY25-H2 |
 | 6 | Sales Process Improvements | - [Approvals Matrix](https://docs.google.com/spreadsheets/d/1AUFys4-bkykjOCscI2Zhg8FXbqlMNqWwUbAd8ahT2oI/edit#gid=0) | - Deliver in FY24-Q4 and FY25-Q1 |
@@ -89,7 +71,7 @@ The broader Finance and Business Technology team is focused on the principles of
 | 8 | Sales Rep Usability | - Program to remove fields and clean up page layouts for key rep flows <br> - Reduce clicks. | -  TBD - not started |
 | 9 | Value Add in the System for Sales | - Identify 3 flows where reps get value in the system (e.g. request SA help or product meeting for my deal) | - TBD - can’t start until progress on 1-8 |
 
-# <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Work
+## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Work
 
 Refer to the [IT PMO](/handbook/business-technology/pmo/) page learn how the IT teams work.
 
@@ -125,7 +107,7 @@ The [Demo Systems](/handbook/customer-success/demo-systems/) provide an always-o
 
 The [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/), powered by [HackyStack](https://gitlab.com/gitlab-com/business-technology/engineering/tools/hackystack), automates the provisioning of AWS accounts, AWS IAM users, GCP projects, and GCP users. This has allowed us to automate a large portion of our AWS and GCP access requests.
 
-# <i class="fas fa-database" id="biz-tech-icons"></i>  Cross-Department System Owners
+## <i class="fas fa-database" id="biz-tech-icons"></i>  Cross-Department System Owners
 
 As GitLab has grown organically, several departments and functional groups have their own System Administrators ("System Owners") to handle day-to-day management of the tech stack applications that are specific to that department or functional group, within the framework of organization-wide compliance, infrastructure, and security best practices.
 
@@ -135,24 +117,24 @@ As a SaaS company, our Engineering division also has an [infrastructure SRE team
 
 ### System Owner Directory
 
-* [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations/)
-* [Customer Support Operations](https://handbook.gitlab.com/handbook/support/readiness/operations/)
-* [Engineering Infrastructure (Reliability SREs)](/handbook/engineering/infrastructure/)
-* [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
-* [Engineering Security](/handbook/security/)
-* [Finance Systems](/handbook/business-technology/enterprise-applications/financeops/)
-* [Marketing Operations](/handbook/marketing/marketing-operations/)
-* [People Connect](/handbook/people-group/people-connect/)
-* [People Group Engineering](/handbook/people-group/engineering/)
-* [Sales Systems](/handbook/sales/field-operations/sales-systems/)
+- [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations/)
+- [Customer Support Operations](/handbook/support/readiness/operations/)
+- [Engineering Infrastructure (Reliability SREs)](/handbook/engineering/infrastructure/)
+- [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
+- [Engineering Security](/handbook/security/)
+- [Finance Systems](/handbook/business-technology/enterprise-applications/financeops/)
+- [Marketing Operations](/handbook/marketing/marketing-operations/)
+- [People Connect](/handbook/people-group/people-connect/)
+- [People Group Engineering](/handbook/people-group/engineering/)
+- [Sales Systems](/handbook/sales/field-operations/sales-systems/)
 
 > Please create an MR if we missed a system owner team.
 
-# IT Job Families & Career Opportunities
+## IT Job Families & Career Opportunities
 
-You can see all of our IT Careers and job families in [this page]() to learn more about the career paths and opportunities in our department. All GitLab open positions can be found in [https://about.gitlab.com/jobs/](https://about.gitlab.com/jobs/).
+You can see all of our IT Careers and job families in this page to learn more about the career paths and opportunities in our department. All GitLab open positions can be found in [https://about.gitlab.com/jobs/](https://about.gitlab.com/jobs/).
 
-# <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
+## <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
 
 - Groups in GitLab
     - `@gitlab-com/business-technology`

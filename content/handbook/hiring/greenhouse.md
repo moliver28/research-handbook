@@ -22,9 +22,7 @@ A Recruiter will see an additional section called, `Applications to Review`, whi
 
 On the righthand panel, members of the Hiring Team can see a list of `My Tasks` and `All Tasks`, which shows how many candidates you have pending action items on. For example, *"Needs Decision"*, *"Candidates to Schedule"*, *"Take Home Tests to Send"*, or *"Offers"*. You can view all pending tasks by clicking `All Tasks`.
 
-Members of the approval process (i.e. Executives, Finance Business Partners, and People Success) will have an additional section titled `My Approvals`, which contains a list of any requisitions and candidates that require their approval.
-
-There is also a quick link to `People I'm Following`, so you can easily get to their profile. To do that, you'll have to "follow" a candidate; that option can be found on the right side on a candidate's profile page.
+Members of the approval process (i.e. Executives, Finance Business Partners, and Total Rewards) will have an additional section titled `My Approvals`, which contains a list of any requisitions and candidates that require their approval.
 
 The next section is called, `Helpful Links`, which includes a link to our [internal job board](https://app2.greenhouse.io/internal_job_board), a link to a list of our "in-house contacts" (which are GitLab team-members who are our Greenhouse account owners) with their names and emails, and a link to the Greenhouse [Help Center](https://support.greenhouse.io/hc/en-us).
 
@@ -32,29 +30,12 @@ The last button of note is the `Personalize Dashboard` button at the bottom of t
 
 ## For all Interviewers
 
-### Application Review for Interviewers
-
-All applicants begin our hiring process in the `Application Review` stage. If you're an Interviewer for a requisition, you may be part of the review process with the goal of identifying applicants of interest. If this is part of your responsibilities as an Interviewer, we recommend the following:
-
-1. Evaluate new candidates for your vacancies often. You can see a list of jobs you're an Interviewer for by clicking `All Jobs` in Greenhouse and setting the `User` = `Me`.
-1. Please note the Recruiter for each of your requisitions. After clicking on a requisition, you should have access to two tabs as an Interviewer: `Candidates` and `Job Setup`. Click `Job Setup` and scroll to the `Hiring Team` section to see who the Recruiter is.
-1. Provide the Talent Acquisition Team with your feedback on candidates:
-   1. Click on a candidate in the `Candidates` tab to view them for a specific role or click, `All Candidates`, to view all candidates that you're an Interviewer for.
-   1. Click `Application` on the left side of an applicant's profile to view their resume and cover letter, if provided. You can also click on the `Details` tab on the top of an applicant's profile under `All Attachements` to see a preview of both the resume and cover letter, if provided. Below the documents, click, `Job Post Questions` to expand and view their answers to specific application questions. If there are **no** job post questions answered, the candidate was likely sourced or exported from an internal job board and would need to have the questions [sent to them](https://support.greenhouse.io/hc/en-us/articles/360002568971-Job-Post-Request-Email#%E2%80%9Cindividual%E2%80%9D). You may send them or you can tag your recruiter to do so.
-   1. Evaluate the candidate's resume, cover letter, and job post questions while being [mindful of our hiring principles](/handbook/hiring/#our-guiding-principles). Leave your recommendation on the candidate as a note in the `Make a Note` area in the right sidebar and tag the responsible Recruiter.
-   1. If the candidate does not meet the requirements of the requisition or if other candidates are better qualified, you are welcome to directly decline the candidate by **1)** Selecting `Reject`, **2)** Selecting the `Rejection Reason` and adding notes if applicable, and **3)** Selecting the appropriate rejection email template.
-            1. Please use the `Default Candidate Rejection` template and send from `noreply@greenhouse.io`
-            1. For referred candidates, please select the `Reject referral after resume review` template and ensure it is coming from you so the referred candidates have a point of contact should they require reassigning for the rejection.
-
-Mentioning the Recruiter for this role is sufficient and leaving a detailed [scorecard](/handbook/hiring/greenhouse/#scorecards) is not necessary for the `Application Review` stage.
-
-Note that these steps may be different for [Hiring Managers](/handbook/hiring/greenhouse/#application-review-for-hiring-managers).
-
 ### Feedback and Interview Kits
 
 When you have an interview, you have two ways to get to your Interview Kit to leave feedback for a candidate. The first is by clicking the link in the calendar invitation for the interview. The second is by going to your Greenhouse [dashboard](https://app2.greenhouse.io/dashboard) where you will see a list of your upcoming interviews and can click `See Interview Kit`.
 
 The Interview Kit consists of a few tabs:
+
 - **Interview Prep**
   - Quick overview of what you'll want to look for in the interview, as well as any notes that previous Interviewers left to look into further.
 - **Job Details**
@@ -83,11 +64,11 @@ Below the text boxes for notes, each role has a list of desired attributes. Each
 You'll see a selection of symbols aligned with each attribute. You should use the `neutral` symbol sparingly
 . Do not use the `neutral` symbol to indicate you skipped the assessment of this attribute or didn't meet with the candidate.
 
-Below the attributes is the final piece where you will make your decision. Greenhouse says *"Overall Recommendation: Did the candidate pass the interview?"*. This should be interpreted as, *"Do you want to hire this candidate?"* answered appropriately. The final score is not required by Greenhouse, but it must be completed by the Interviewer. If the Interviewer does **not** add their vote, the Talent Acquisition Team will follow-up to fetch their vote. If you are on the fence about a candidate, that's typically an indication that you do not want to hire the candidate. Though, if you're really unsure, feel free to reach out to the Recruiter to discuss further. Your Recruiter may agree with your hesitations and decline or you may agree that there is an element that should be explored in an additional interview.
+Below the attributes is the final piece where you will make your decision. Greenhouse says *"Overall Recommendation: Did the candidate pass the interview?"*.  The final score is not required by Greenhouse, but it must be completed by the Interviewer. If the Interviewer does **not** add their vote, the Talent Acquisition Team will follow-up to fetch their vote. If you are on the fence about a candidate, that's typically an indication that you would not recommend hiring this candidate based on the competency you are assessing. Though, if you're really unsure, feel free to reach out to the Recruiter to discuss further. Your Recruiter may agree with your hesitations and decline or you may agree that there is an element that should be explored in an additional interview.
 
 Your scorecard will automatically save as you enter information. If there is an error and Greenhouse is **not** able to save the scorecard, it will say so at the top righthand corner and you'll be unable to submit your scorecard. You can either wait until it does save or open the Interview Kit again and copy/paste the information over. If you have further issues, please reach out to the Talent Acquisition Team.
 
-Finally, click `Submit Scorecard` and you're done! From there, you may go back to review and edit your scorecard, view the candidate profile, or return to your dashboard.  In order to ensure a timely response for each candidate and to reduce the possibility of forgetting important details and impressions of the candidate, all scorecards should be submitted within 3 business days of the interview. Please note that unless in interview training or interview calibration, interviewers should not discuss nor debrief on candidate interview performance prior to submitting scorecards in Greenhouse.
+Finally, click `Submit Scorecard` and you're done! From there, you may go back to review and edit your scorecard, view the candidate profile, or return to your dashboard.  Shadowers should not submit their scorecard, but can keep the draft to discuss during their debrief with the interviewer they are shadowing. In order to ensure a timely response for each candidate and to reduce the possibility of forgetting important details and impressions of the candidate, all scorecards should be submitted within 24 hours of the interview. Please note that unless in interview training or interview calibration, interviewers should not discuss nor debrief on candidate interview performance prior to submitting scorecards in Greenhouse.
 
 In order to help remove bias, Interviewers (unlike Hiring Managers) are **not** able to see another Interviewer's scorecard. If there are certain specific flags, concerns, or notes that should be highlighted to the rest of the Interview Team, the Interviewer should add a note in their scorecard by clicking the `Note for Other Interviewers` section right underneath the `Key Take-Aways` text box. This box can also be used to communicate *what* topics you were expected to cover and were unable to make time for so they can be covered in later interviews. You are also able to add notes outside of your scorecard that will be visible to future Interviewers by going to the candidate profile and to the text box on the right side under `Make a Note`, adding your note, and checking off the radio button to make it `Visible to Interviewers`.
 
@@ -143,12 +124,6 @@ Notifications are configured as part of the [requisition creation process](/hand
 
 Hiring Managers have the ability to quickly view and pull reports for their vacancies. To do so, go to the job dashboard of the requisition you want to report on, then click `Reports`. From there, it will show you a variety of different reports you can pull depending on what you're looking for, and each one will dynamically show you the report which you are able to use some filters on. You're also able to [save reports](https://support.greenhouse.io/hc/en-us/articles/115003218066-Saved-Reports) to come back to them later, [share a report via email](https://support.greenhouse.io/hc/en-us/articles/115003338503-Email-a-Report) to [set up recurring reports](https://support.greenhouse.io/hc/en-us/articles/115003711906-Schedule-Recurring-Reports) to have reports emailed to you or someone else on a weekly basis, and to download the report as an excel file for easy sharing through Google Sheets.
 
-### Candidate Review for Hiring Managers
-
-To view candidates in the `Application Review` stage, go to the job dashboard for that requisition. On the right sidebar, under `Pipeline`, you can see how many applicants are in that stage. If you click, `Review Applications`, you'll be taken to a portal that shows each candidate's name (which is an active link that will open a new tab to the candidate's profile), submission date, answers to application questions (if applicable), resume, cover letter, and any other details of their candidacy. `Application Review` will show you the submissions with the least recent activity (whether that is their submission date or any activity on their profile took place), so you can work your way from oldest to newest. You are able to advance, skip, or reject candidates, as well as leave feedback with any of those decisions. It's recommended to always include feedback when reviewing applications so the Talent Acquisition Team is aware of your thought process. It is perfectly acceptable to skip candidates you are not sure of and tag your recruiter in the feedback section for them to review and take action on. If you do advance a candidate, be sure that your recruiter either receives notifications when candidates change stages or tag them in feedback and ask them to move forward (the safest option). You can also "skip" the candidate and leave feedback for the recruiter to reject, which is recommended.
-
-Some roles may be sent questions after we've sourced them. If this is applicable you can view the questions and answers outside of the review portal, go to their profile, click `Application` on the left side, scroll down and expand `Job Post Questions`. If there are no questions listed this was not a step in this search.
-
 ### Setting Up Interview Questions
 
 Greenhouse includes the ability to [include specific questions within the interview kits](https://support.greenhouse.io/hc/en-us/articles/115002276366-Add-an-interview-question-to-an-interview-kit) made available to interviewers. Setting interview questions in advance makes the interviewing process more consistent. Having a consistent interviewing process [improves the efficiency and fairness of the hiring process](https://www.linkedin.com/pulse/why-consistency-matters-hiring-george-oehlert/).
@@ -166,6 +141,7 @@ This can be done by Enablement only. For instructions, see the [internal handboo
 Only Admins can upgrade another team member's access level. During onboarding, all new team members are added to Greenhouse at the appropriate level listed above. If a current team member needs to change their access level, they will need to create a [new access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New_Access_Request) in the GitLab `access-requests` project.
 
 The default access level is *Basic*, which also sufficient for team members who will interview candidates. To upgrade access levels:
+
  1. Go to [settings](https://app2.greenhouse.io/configure) and click on [users](https://app2.greenhouse.io/account/users?status=active)
  1. Search for the team member in the search bar; if their name appears, click on their name
  1. Click `Edit` in the permissions section and choose the `Job Admin` option
@@ -177,20 +153,14 @@ For any team members who are Hiring Managers (or above), choose `Job Admin: Hiri
 Similarly, Talent Acquisition receives `Job Admin: Talent Acquisition` for all current and future roles; People Success receives `Job Admin: People Success` for all current and future roles.
 
 There are additional "User-Specific Permissions" listed beneath the job-based permissions.
+
 1. For the People Success Team, check off `Can invite new users to Greenhouse and reactive disabled users`, `Can manage unattached prospects`, and `Can invite and deactivate agency recruiters`.
 1. For the Talent Acquisition Team, check off each additional option.
 1. Site Admins should typically have access to all of the additional options, but *always* be sure to check off `Can see EEOC and demographic reports`, `Can create and view private candidates`, and `Can see private notes, salary info, manage offers, and approve jobs/offers`.
 
 #### Adding an Agency Recruiter to Greenhouse
 
-To add an agency recruiter to Greenhouse and their agency doesn't exist, then a [new agency](https://support.greenhouse.io/hc/en-us/articles/201078255-Add-a-New-Agency) will need to be created. If the agency does exist, this is how to add a [new recruiter](https://support.greenhouse.io/hc/en-us/articles/200666389).
-
-If an agency recruiter will be advancing-  and/or declining candidates, then they'll need an Okta account in order to have `Job Admin` permissions.
-
-To provision an Okta account:
-
-- Complete and submit an [access request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) using the `okta access to greenhouse (external)` template.
-- A member of the **Security Team** will create the account and a member of the **People Group** will set the necessary permissions in Greenhouse.
+To add an agency recruiter to Greenhouse and their agency doesn't exist, then a [new agency](https://support.greenhouse.io/hc/en-us/articles/201078255-Add-a-New-Agency) will need to be created. If the agency does exist, this is how to add a [new recruiter](https://support.greenhouse.io/hc/en-us/articles/200666389). Please contact Enablement to add the Recruiter to Greenhouse.
 
 #### Linking users to their profiles
 
@@ -273,12 +243,15 @@ The [Candidate Experience Specialist team]({{< ref "coordinator#framework-coord"
 #### Scheduling Timed Assessments
 
 In some cases, some positions require a timed assessment to be sent to the candidate. These timed assessments can be sent by following the steps below:
+
 1. Obtain availability from the candidate to agree on a specific time to administer the test.
 1. Enter it as an interview appointment on their schedule.
 1. Schedule an Email with the assessment for the agreed time.
+
   - Click `Email Candidate`
   - Select Assessment template or write body and attach Assessment
   - Select the agreed upon time using `Send Email when` option
+
 1. The time stamp when the candidate sends the assessment back will determine if they sent it back within the agreed timeframe.
 
 ### Rejecting candidates
@@ -341,6 +314,7 @@ The Greenhouse Site Admins are able to add and adjust email templates. To access
 To ensure a best-in-class candidate experience with up-to-date branding and communication, the Talent Brand team and Greenhouse Site Admins have reviewed, updated, and published email templates with the word "REVIEWED" included at the end for all stages of recruitment. We strongly recommend leveraging these templates as your primary sources of communication to candidates to create consistency and to foster an amazing candidate experience. While we recognize that you may need to leverage other templates for specific roles that have not received the "REVIEWED" label, please ensure you read over all email templates you plan on sending and confirm that all numbers are up to date, links are accurate and relevant, and that your language is clear and positive.
 
 If you have specific roles, regions, or processes that you would like to create personalized templates for that are only visible and accessible by you, click "+ New" to the right of "My Templates" and follow the below steps:
+
 - Add a name for your template that will allow you and your team to recognize what the template is for. Try to keep the name as consistent as possible with other templates (e.g. rejection emails all begin with `Reject` and then the reason why, such as `Reject after no show`).
 - You will need to select an email type, which categorizes the emails so that they appear as options when they are relevant (e.g. so that a interview availability request does not populate when you are trying to reject a candidate). Please review the [available email types and when each appears on Greenhouse's support page](https://support.greenhouse.io/hc/en-us/articles/115002573326-Email-Template-Types).
 - You can add an optional description, but it is typically not needed due to the descriptive template name.
@@ -353,6 +327,20 @@ If you have specific roles, regions, or processes that you would like to create 
 - Click save, and your template is ready to be used!
 
 If you have a suggestion for a new or existing REVIEWED email template for the Recruitment team, please submit an [issue](https://gitlab.com/gl-talent-acquisition/operations/-/issues/new) describing the email template you wish to create with the title "Greenhouse Email Template Suggestion" and tag @cchiodo. For reference, all REVIEWED templates are linked [here](https://docs.google.com/document/d/1tAoi3PgqAB-0EouWSqKYB0-dNzAYpvLIO0NRCgFcyqc/edit?usp=sharing).
+
+### Creating and updating offer templates
+
+To create a new offer template or update an existing one in Greenhouse, follow these steps:
+
+- Download the template as a Word document from the [internal handbook](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
+- In Greenhouse, navigate to Settings > Offer Templates > Upload New Template.
+- Enter the name of the Offer template, and include any additional instructions for CES (add initials, checkbox, textbox etc),  then upload the Word document. Click "Save Template".
+- Test the new template by clicking the "Test" button. This will check if all tokens in the document are functioning correctly. If the test is successful, click "OK."
+- If the test fails, indicating one or more tokens are incorrect:
+    - Return to the document to identify and correct the faulty token.
+    - Re-upload the corrected document to Greenhouse.
+    - Notify the Legal team about the incorrect token so they can update their master template.
+- If replacing an existing template, remove the old template in Greenhouse by clicking the three dots next to it and selecting "Delete."
 
 ### Updating requisition and offer approval flows
 
@@ -388,7 +376,6 @@ Occasionally, the Finance team updates our organization's divisions and departme
 Please note that only Site Admins are able to update or add new departments in Greenhouse. In order to update or add divisions or departments, log in to Greenhouse and go to the [configure](https://app2.greenhouse.io/configure) section by clicking the gear at the top right corner. Then click ["Organization"](https://app2.greenhouse.io/account/organization) and scroll down the "Departments" section. You will see each current division listed and, when clicking on the expand button, each department that falls under that division.
 
 To change the name of a division or department, click the pencil button next to it. Please note you are unable to have a division and department with the same name. To add a new division or department, click "New Department" and type in the name; if it is a new division, simply click create, but if it is a new department click the "Subordinate to" dropdown and choose the division it is associated to (for example, the "Security" department is a subordinate to the "Engineering" division).
-
 
 ## Additional resources
 
@@ -429,6 +416,7 @@ The Greenhouse CRM is the entry point for prospective candidates (a.k.a. *Prospe
 We use Greenhouse Inclusion to mitigate unconscious bias, ensure consistent candidate evaluations, and to measure the impact of these practices in our [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) efforts.
 
 Enabled features include:
+
 - Nudges, or reminders, to all users when creating a requisition description, adding a referral, and/or filling out a scorecard.
 - Anonymous take-home test grading.
 - Hiding a candidate's source to Interviewers.

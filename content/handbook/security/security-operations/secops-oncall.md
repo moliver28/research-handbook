@@ -6,6 +6,7 @@ controlled_document: true
 ---
 
 The Security Operations sub-department is collectively responsible for responding to reports of actual or potential security incidents on a 24/7/365 basis.
+
 - The SIRT (Security Incident Response Team) generally responds to reports of suspicious activities (e.g. Phishing, hacking, social engineering) and security alerts.
 - The Trust & Safety team generally responds to reports of cryptomining, platform SPAM, abuse, bullying and violations of terms of service.
 
@@ -23,13 +24,22 @@ On-Call scheduling for Trust & Safety is organized in Pager Duty within the `Tru
 
 Standard handoff times are as scheduled. However, team members are empowered to agree on a temporary modified handoff schedule as long as all those involved agree and the team is notified about changes.
 
-SIRT
+SIRT (November - April)
+
 - 23:00 to 07:00 UTC –> APAC - 8 hours
 - 07:00 to 15:00 UTC –> EMEA - 8 hours
 - 15:00 to 23:00 UTC –> AMER - 8 hours
+
+SIRT (April - November)
+
+- 22:00 to 06:00 UTC –> APAC - 8 hours
+- 06:00 to 14:00 UTC –> EMEA - 8 hours
+- 14:00 to 22:00 UTC –> AMER - 8 hours
+
 SIRT times are reflected in the [SIRT Handoffs](https://calendar.google.com/calendar/u/0?cid=Y18zZDBwampnN3N1bDlib2VrczIxbzRxc2RjNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar. In case both parties agree to change the time, this should be reflected in the calendar at least 24 hours prior to the handoff. This allows other team members the ability to adequately plan their schedules the night before. Changing the meeting time counts as a notification.
 
 Trust and Safety
+
 - 23:00 to 07:00 UTC –> APAC - 8 hours
 - 07:00 to 15:00 UTC –> EMEA - 8 hours
 - 15:00 to 23:00 UTC –> AMER - 8 hours
@@ -63,6 +73,7 @@ During all On-Call shifts, the On-Call Engineer is filling the role of the `"Tri
 #### Weekday On-Call Engineer Responsibilities
 
 Security Operations provides weekday On-Call coverage using a follow-the-sun model. Weekday On-Call Security Engineers are the team members that cover the On-Call responsibilities during their region's sunny time.
+
 - A Weekday On-Call shift typically covers one work week, from Monday to Friday.
 - The Weekday On-Call Security Engineer is expected to cover the `"Triage Engineer"` role, and should be the first responder to alerts and incidents as they are presented via PagerDuty and via the various Slack and alerting channels.
 
@@ -71,6 +82,7 @@ Security Operations provides weekday On-Call coverage using a follow-the-sun mod
 #### Weekend On-Call Security Responsibilities
 
 The Weekend On-Call Security team member will be responsible for covering On-Call responsibilities from AMER Friday evening until APAC Monday morning according to the established On-Call Security Handoff times.
+
 - The Weekend On-Call Security team member is responsible for timely responding to PagerDuty and the incident response process in accordance with the `"Triage Engineer"` role.
 - During the weekend hours, the Weekend On-Call Security team member is not expected to be at their computer working unless they are responding to an incident, triaging alers, or working on a leadership request for critical deliverables. However, they will be asked to acknowledge any Pager Duty incidents via their mobile phone within 15 minutes, and begin triaging the incident within one hour. Priority 3 Severity 3 and below incidents can be handled by the team as weekday tasks.
 - The Weekend On-Call is responsible to acknowledge, and triage all alerts once a day. Resulting incidents should be either worked or delegated according to the triage guidelines. See `"Alert Triage"` for details.
@@ -88,6 +100,7 @@ The Weekend On-Call Security team member will be responsible for covering On-Cal
 - Because busy On-Call weekends sometimes happen, and because the weekend on-call team member needs to triage alerts, in recognition of weekend coverage, GitLab is proactively asking team members to take the next two business days off following their Weekend On-Call shift as time off in lieu, regardless of whether the team member had to respond to an incident.
 
 When scheduled for the Weekend On-Call Security shift, team members should:
+
 - Submit time off in lieu for the next two business days immediately following their Weekend On-Call shift. Because this time off is intended to provide team members with immediate relief, these days cannot be moved to days later in the week or month, regardless of other planned or unplanned time off.
 - If a holiday or Friends and Family day falls on the next business day, time off in lieu can be taken for the subsequent two days.
 - Commit to covering the Weekend On-Call shift. Avoid signing up for weekends you are unable to cover, or otherwise have a conflict.
@@ -98,6 +111,7 @@ When scheduled for the Weekend On-Call Security shift, team members should:
 ### On-Call Paging Workflow
 
 The SIRT On-Call paging workflow is currently designed to follow this escalation path:
+
 1. The first page goes to our incident slack channel.
 1. All Security Engineers in the sunny region are paged after 5 minutes of no response, with one designated On-Call Security Engineer per region during the week. During the weekend, one person will have volunteered for sole responsibility of weekend coverage. The on-call page will occur either all at once, or in a round-robin fashion. Team members not designated as the On-Call Security Engineer can and should provide assistance if the On-Call Security Engineer misses the page. When weekend assistance is provided, team members should request taking time off in lieu with their manager, and target 1:1 (hour for hour) time off, immediately following the weekend as long as proper coverage is available.
 1. The Security Operations manager in the sunny region is paged as a backup if the team members don't acknowledge the pages.
@@ -107,6 +121,7 @@ The SIRT On-Call paging workflow is currently designed to follow this escalation
 ### SIRT On-Call Paging Duties
 
 The On-Call Engineer's primary concern is to provide timely and adequate responses to incoming pages. When receiving a page:
+
 1. Acknowledge the alarm in the corresponding alert Slack channel or through PagerDuty directly.
 1. Review incident's GitLab issue and follow the checklists posted there for triaging.
 
@@ -135,6 +150,7 @@ During On-Call shifts the Security Engineer On-Call is the Triage DRI and has th
 1. Continue critical assignments as determined by management
 
 Weekday only:
+
 1. Monitor and respond to security related slack channels; delegate
 1. Improve on-call and incident handling processes - document on-call related problems and improvement opportunities by opening issues and any necessary support tickets (e.g. Devo support).
 1. Continue ongoing work where possible

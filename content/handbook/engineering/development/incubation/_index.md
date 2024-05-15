@@ -4,7 +4,7 @@ title: Incubation Engineering Department
 
 ## Incubation Engineering Department
 
-The Incubation Engineering Department within the Engineering Division focuses on projects that are pre-Product/Market fit. The projects they work on align with the term "new markets" from one of our [product investment types](https://internal.gitlab.com/handbook/product/investment/). They are ideas that may contribute to our revenue in 3-5 years time. Their focus should be to move fast, ship, get feedback, and [iterate](/handbook/values/#iteration). But first they've got to get from 0 to 1 and get something shipped.
+The Incubation Engineering Department focuses on projects that are pre-Product/Market fit. The projects they work on align with the term "new markets" from one of our [product investment types](https://internal.gitlab.com/handbook/product/investment/). They are ideas that may contribute to our revenue in 3-5 years time. Their focus should be to move fast, ship, get feedback, and [iterate](/handbook/values/#iteration). But first they've got to get from 0 to 1 and get something shipped.
 
 We utilize [Single-engineer Groups](/handbook/company/structure/#single-engineer-groups) to draw benefits, but not distractions, from within the larger company and [GitLab project](https://gitlab.com/gitlab-org/gitlab) to maintain that focus. The Single-engineer group encompasses all of product development (product management, engineering, design, and quality) at the smallest scale. They are free to learn from, and collaborate with, those larger departments at GitLab but not at the expense of slowing down unnecessarily.
 
@@ -12,7 +12,7 @@ The Department Head is the [VP of Incubation Engineering](/job-families/engineer
 
 ### FY25 Direction
 
-Our focus for FY25 in the Incubation Engineering Department is to contine to mature some of our key projects, and to contribute to new opportunities within the AI sphere to build upon the capabilities that GitLab offers.  Our current batch of projects are building  customer value and interest and achieving significant monthly growth milestones.  Our aim is to reach a level of maturity with these projects that allows us to graduate or reassign these groups to new opportunities. 
+In FY25 we will continue to mature some of our key projects and to contribute to new opportunities within the AI sphere to build upon the capabilities that GitLab offers.  Our current batch of projects are building  customer value and interest and achieving significant monthly growth milestones.  Our aim is to reach a level of maturity with these projects that allows us to graduate or reassign these groups to new opportunities.
 
 Our success is tied to the community of developers and users that can benefit from our features, and strong collaboration and engagement with those groups is a key focus for this year. As our team matures, we need to be mindful of setting a culture of innovation and results. We do this through encouraging experimentation and autonomy, whilst being collaborative and transparent to internal teams and external stakeholders. The Incubation Engineering team is unique within GitLab in that the team members are not working on shared problems, but have the same challenges and shared experiences. We should ensure that successes and failures are documented and shared amongst team members to help each other grow and to minimise the inherent isolation and stress that can be part of this role.
 
@@ -123,12 +123,12 @@ We do this in order to ensure alignment with impacted teams at GitLab, to provid
 
 Around the 15th of the month each SEG should provide a short update video that covers the following key points:
 
-* *What progress have we made?* Each week we should be moving closer to our goal of having a [Viable](https://about.gitlab.com/direction/maturity/) product or feature.
-* *Current Usage and Used Feedback* We should strive to measure usage of our ideas from the beggining. How is the adoption of the idea we are working on?
-* *What have we learnt?* Either through technical research, experiementation, or feedback, do we better understand the problem we are trying to solve?
-* *What new decisions do we need to make?* Have we identified any new opportunities or options that need wider consultation to help address?
-* *What is our next focus?* Our next demo is in a week - what do we want to showcase?
-* *What is the recommended video duration?* We strive to maintain an "executive briefing" format for these videos, thus keeping the length around the ~3 minute mark.
+- *What progress have we made?* Each week we should be moving closer to our goal of having a [Viable](https://about.gitlab.com/direction/maturity/) product or feature.
+- *Current Usage and Used Feedback* We should strive to measure usage of our ideas from the beggining. How is the adoption of the idea we are working on?
+- *What have we learnt?* Either through technical research, experiementation, or feedback, do we better understand the problem we are trying to solve?
+- *What new decisions do we need to make?* Have we identified any new opportunities or options that need wider consultation to help address?
+- *What is our next focus?* Our next demo is in a week - what do we want to showcase?
+- *What is the recommended video duration?* We strive to maintain an "executive briefing" format for these videos, thus keeping the length around the ~3 minute mark.
 
 ### End of Month Showcase
 
@@ -138,20 +138,20 @@ At the end of the month, we should have a monthly showcase which demonstrates th
 
 When uploading a video to our YouTube channel, we should:
 
-* Make sure they are public
-* Use a consistent naming convention for the SEG. Take these as inspiration:
-  * "Incubation Engineering - Mobile Ops - Update 4"
-  * "Incubation Engineering - Breach and Attack Simulation - Update 2023-02-21"
-  * "Incubation Engineering - Service Desk - January 2023 Showcase"
-* Add the video to the Incubation Engineering playlist, and the playlist dedicated to each section
-* Add it to the specific Incubation Engineer direction handbook page
+- Make sure they are public
+- Use a consistent naming convention for the SEG. Take these as inspiration:
+  - "Incubation Engineering - Mobile Ops - Update 4"
+  - "Incubation Engineering - Breach and Attack Simulation - Update 2023-02-21"
+  - "Incubation Engineering - Service Desk - January 2023 Showcase"
+- Add the video to the Incubation Engineering playlist, and the playlist dedicated to each section
+- Add it to the specific Incubation Engineer direction handbook page
 
 ### Latest Demos
 
 *YouTube Playlists*
 
-* [Latest Updates](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
-* [All Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
+- [Latest Updates](https://www.youtube.com/playlist?list=PL05JrBw4t0KrQQ6BmQGY0Ji-vBaohNOlW)
+- [All Videos](https://www.youtube.com/playlist?list=PL05JrBw4t0KqqLZP0Jue3w2hz2PR6XTHi)
 
 ## OKRs
 

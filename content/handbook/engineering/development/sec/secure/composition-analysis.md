@@ -81,6 +81,8 @@ Please keep track of the actions you're doing during your rotation and add notes
 #### Responsibilities - Security
 
 1. Triage vulnerabilities reported on the projects we maintain and help resolving them depending on their priority. (See [Security vulnerabilities triaging process](#security-vulnerabilities-triaging-process))
+1. Check for security [automation
+   failures](/handbook/engineering/development/sec/secure/#automation-failures)
 1. Check for new security releases of our dependencies and ensure we use them:
    1. Upstream scanners (see [Updating an upstream scanner](#updating-an-upstream-scanner))
    1. Container base images
@@ -109,18 +111,18 @@ These items must be triaged continuously throughout the milestone which means th
 1. Work with community contributors to help drive [their merge requests](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=group%3A%3Acomposition%20analysis&label_name[]=Community%20contribution) to completion (more information on [community contributions triaging process](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)).
 1. Check for new versions of languages or package managers that we support, or deprecation / removal of support for the same and notify Engineering Manager and Product Manager via issue.
 1. Check for new versions of our dependencies (not related to security):
-   1. Upstream scanners (see [Updating an upstream scanner](#updating-an-upstream-scanner)).
-   1. Container base images.
-   1. Application dependencies.
-   1. Programming language.
+    1. Upstream scanners (see [Updating an upstream scanner](#updating-an-upstream-scanner)).
+    1. Container base images.
+    1. Application dependencies.
+    1. Programming language.
 1. Check in on test failures. Check relevant slack channels ([#g_secure-composition-analysis-alerts](https://gitlab.slack.com/archives/C04UX9MQNSJ), [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)).
 1. Check latest pipelines for any release failures. If any issue is preventing the automated release process from running, begin the [release failure escalation process](#release-failure-escalation-process).
 1. Consider creating or updating any automation or tooling (related to security, maintainership or support!).
 1. Monitor failures and errors on license-db project, use the `#f_licese_database` Slack channel for communication about these items, so other team members can provide the support.
-   1. Check latest [scheduled pipelines of license-db](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) for any failures. Ensure that pipelines pass or create an issue to fix the failure.
-   1. Monitor the Slack channel `#g_secure-composition-analysis-alerts` for any incidents on the license-db infrastructure.
-      1. In case of an incident react with :eye: to indicate that you are looking into it.
-        - If the incindent isn't resolved in 30 minutes or more, investigate on it.
+    1. Check latest [scheduled pipelines of license-db](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) for any failures. Ensure that pipelines pass or create an issue to fix the failure.
+    1. Monitor the Slack channel `#g_secure-composition-analysis-alerts` for any incidents on the license-db infrastructure.
+        - In case of an incident react with :eye: to indicate that you are looking into it.
+        - If the incident isn't resolved in 30 minutes or more, investigate on it.
         - Write down in the insident Slack thread all the steps that were done to resolve it.
 
 ### Security vulnerabilities triaging process
@@ -130,33 +132,42 @@ We are responsible for triaging vulnerabilities reported on 2 sets of projects: 
 See the [Secure sub-department vulnerability management process](/handbook/engineering/development/sec/secure/#vulnerability-management-process).
 
 <details>
-  <summary>View manual process fallback that is specific to Composition Analysis group</summary>
+<summary>View manual process fallback that is specific to Composition Analysis group</summary>
 
-  **Please keep track of the commands that were executed and add them to a private note in the reaction rotation issue.**
+**Please keep track of the commands that were executed and add them to a private note in the reaction rotation issue.**
 
-  #### Manually reviewing and resolving vulnerabilities
+#### Manually reviewing and resolving vulnerabilities
 
-    On a weekly basis: review the vulnerability report to resolve no longer detected ones and close related issues. Note: It is not necessary to investigate vulnerabilities that are no longer detected.
+On a weekly basis: review the vulnerability report to resolve no longer detected ones and close related issues. Note: It is not necessary to investigate vulnerabilities that are no longer detected.
 
-    1. Visit `Vulnerability Report Dashboards` to verify that there are vulnerabilities that can be resolved.
-        - [Analyzer vulnerabilities that are no longer detected][Analyzer vulnerabilities that are no longer detected].
-            - If you want to configure the report manually, select all [shared](#shared), [container scanning](#container-scanning), and [dependency scanning](#dependency-scanning) projects, and apply the `No longer detected` activity filter and apply the `Confirmed` and `Needs Triage` status.
-        - [License-db Vulnerability that are no longer detected][License-db vulnerabilities that are no longer detected]
-            - If you want to configure the report manually, select all [license-db](#license-db) projects, and apply the `No longer detected` activity filter and apply the `Confirmed` and `Needs Triage` status.
-    2. Execute the `security-triage-automation` tool to [resolve vulnerabilities and close their issues](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#resolve-vulnerabilities-and-close-their-issues). This tool must be executed separately for each of the projects in the following categories (if there are vulnerabilities to resolve):
-      - [container scanning](#container-scanning)
-      - [dependency scanning](#dependency-scanning)
-      - [license-db](#license-db)
-    3. Verify in `Vulnerability Report Dashboards` that vulnerabilities have been resolved.
+1. Visit `Vulnerability Report Dashboards` to verify that there are vulnerabilities that can be resolved.
+    - [Analyzer vulnerabilities that are no longer detected][Analyzer vulnerabilities that are no longer detected].
+        - If you want to configure the report manually, select all [shared](#shared), [container scanning](#container-scanning), and [dependency scanning](#dependency-scanning) projects, and apply the `No longer detected` activity filter and apply the `Confirmed` and `Needs Triage` status.
+    - [License-db Vulnerability that are no longer detected][License-db vulnerabilities that are no longer detected]
+        - If you want to configure the report manually, select all [license-db](#license-db) projects, and apply the `No longer detected` activity filter and apply the `Confirmed` and `Needs Triage` status.
+1. Execute the `security-triage-automation` tool to [resolve vulnerabilities and close their issues](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#resolve-vulnerabilities-and-close-their-issues). This tool must be executed separately for each of the projects in the following categories (if there are vulnerabilities to resolve):
+    - [container scanning](#container-scanning)
+    - [dependency scanning](#dependency-scanning)
+    - [license-db](#license-db)
+1. Verify in `Vulnerability Report Dashboards` that vulnerabilities have been resolved.
 
-  #### Manually creating security issues for FedRAMP vulnerabilities
+#### Manually creating security issues for FedRAMP vulnerabilities
 
-  Last working day before the 1<sup>st</sup> of the month, `create` security issues for FedRAMP vulnerability of the CONTAINER_SCANNING type and CRITICAL, HIGH, MEDIUM, LOW, and UNKNOWN severity levels by executing the `security-triage-automation` tool to [process vulnerabilities for a given project](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#process-vulnerabilities-for-a-given-project) (please make sure to adjust CLI options accordingly). This tool must be executed separately for each of the projects in the following categories:
-      - [container scanning](#container-scanning)
-      - [dependency scanning](#dependency-scanning)
+Follow the Secure sub-department process on [manually creating security
+issues for FedRAMP vulnerabilities](/handbook/engineering/development/sec/secure/#manually-creating-security-issues-for-fedramp-vulnerabilities)
+for each of these projects:
+
+- [container scanning](#container-scanning)
+- [dependency scanning](#dependency-scanning)
+
+#### Manually creating deviation requests for FedRAMP vulnerabilities
+
+Follow the Secure sub-department process on [manually creating deviation
+requests for FedRAMP vulnerabilities](/handbook/engineering/development/sec/secure/#manually-creating-deviation-requests-for-fedramp-vulnerabilities)
+for each of the [vulnerabilities near SLA breach][Vulnerabilities near
+SLA breach].
 
 </details>
-
 
 ##### Security Policy
 
@@ -173,10 +184,10 @@ Please utilize all the time you have set aside. If you complete all the ones at 
 
 We use the Vulnerability Report with filters to focus on items matching [our policy](#security-policy) and reported on the relevant projects.
 
-1. [Analyzers Vulnerability Report][Analyzers Vulnerability Report]
-  - To configure the report manually, select all [shared](#shared), [container scanning](#container-scanning), and [dependency scanning](#dependency-scanning) projects and apply the `Still detected` activity filter and apply the `Needs Triage` status.
-1. [License-db Vulnerability Report[License-db Vulnerability Report]
-  - To configure the report manually, select all [license-db](#license-db) projects and apply the `Still detected` activity filter and apply the `Needs Triage` status.
+1. [Analyzers Vulnerability Report](https://gitlab.com/groups/gitlab-org/security-products/analyzers/-/security/vulnerabilities/?state=DETECTED&severity=CRITICAL&severity=HIGH&projectId=13150952,15369510,24673064,52241202,6126012,9450192&activity=STILL_DETECTED)
+    - To configure the report manually, select all [shared](#shared), [container scanning](#container-scanning), and [dependency scanning](#dependency-scanning) projects and apply the `Still detected` activity filter and apply the `Needs Triage` status.
+1. [License-db Vulnerability Report][License-db Vulnerability Report]
+    - To configure the report manually, select all [license-db](#license-db) projects and apply the `Still detected` activity filter and apply the `Needs Triage` status.
 
 For each item, investigate and either [dismiss](#dismissing-a-vulnerability) or [confirm](#confirming-a-vulnerability) it. If it's not clear whether there's indeed a threat, escalate to our [Application Security team](/handbook/security/product-security/application-security/).
 
@@ -195,7 +206,7 @@ We currently have a limited capacity to triage vulnerabilities reported on our u
 We use the Vulnerability Report with filters to focus on items matching [our policy](#security-policy) and reported on the relevant projects.
 
 1. [Upstream Scanners Vulnerability Report][Upstream Scanners Vulnerability Report]
-  - To configure the report manually, select all [upstream scanner](#upstream-scanner-mirrors) projects.
+    - To configure the report manually, select all [upstream scanner](#upstream-scanner-mirrors) projects.
 
 For vulnerabilities discovered in upstream scanners, an issue must be created in GitLab's issue tracker, and we should work with the relevant Open Source community to help provide a resolution. As a last resort, we can patch locally or fork the upstream project temporarily to fix the vulnerability sooner.
 
@@ -220,7 +231,7 @@ The following class of container scan vulnerabilities can be considered low risk
   - Denial of Service (of the container/analyzer) as these containers run in ephemeral pipelines, are automatically stopped once a timeout is reached, and are accepting in code from users who already have developer access. This as a result is not an expansion of the risk profile.
   - Random number generator issues (where the numbers are not random) as we don't use random numbers for security purposes from the containers. (At the time this was last updated these were true, please use your knowledge of our analyzers or ask if unsure)"
 
-  __To add items to the list above discuss repeatable finding patterns with Application Security, get approval from a leader in the security section, and add to this list.__
+  **To add items to the list above discuss repeatable finding patterns with Application Security, get approval from a leader in the security section, and add to this list.**
 
 #### Confirming a vulnerability
 
@@ -368,6 +379,17 @@ needed for [Operational Container Scanning](https://docs.gitlab.com/ee/user/clus
 - [license-processor](https://gitlab.com/gitlab-org/security-products/license-db/license-processor)
 - [schema](https://gitlab.com/gitlab-org/security-products/license-db/schema)
 
+### Operational Container Scanning
+
+- [trivy-k8s-wrapper](https://gitlab.com/gitlab-org/security-products/analyzers/trivy-k8s-wrapper)
+- [OCS module](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/tree/master/internal/module/starboard_vulnerability)
+
+The OCS module is part of the [`gitlab-agent`](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent) project which is maintained by the `Environments` group. The `Composition Analysis` group is responsible for maintaining only the OCS module.
+
+### Semver dialects gem
+
+- [semver_dialects](https://gitlab.com/gitlab-org/ruby/gems/semver_dialects)
+
 ### Upstream scanner mirrors
 
 As some of our analyzers rely on open source software, we include them in our security testing to increase coverage and reduce risk.
@@ -435,10 +457,15 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 - [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-composition_analysis/stage-groups-group-dashboard-secure-composition-analysis?orgId=1)
 
 
-[Analyzers Vulnerability Report]: https://gitlab.com/groups/gitlab-org/security-products/analyzers/-/security/vulnerabilities/?state=DETECTED&severity=CRITICAL&severity=HIGH&projectId=13150952,15369510,24673064,6126012,9450192&activity=STILL_DETECTED
-[License-db Vulnerability Report]: https://gitlab.com/groups/gitlab-org/security-products/license-db/-/security/vulnerabilities/?state=DETECTED&severity=CRITICAL,HIGH&projectId=39193358,39229232,39233486,39298809,39622674,40857363,45266022&activity=STILL_DETECTED)
+[License-db Vulnerability Report]: https://gitlab.com/groups/gitlab-org/security-products/license-db/-/security/vulnerabilities/?state=DETECTED&severity=CRITICAL,HIGH&projectId=39193358,39229232,39233486,39298809,39622674,40857363,45266022&activity=STILL_DETECTED
+
 [Upstream Scanners Vulnerability Report]: https://gitlab.com/groups/gitlab-org/security-products/dependencies/-/security/vulnerabilities/?state=DETECTED&projectId=30616761,30684590,35335143,39545454,39545481,51420921&severity=CRITICAL,HIGH&activity=STILL_DETECTED
-[Analyzer vulnerabilities that are no longer detected]: https://gitlab.com/groups/gitlab-org/security-products/analyzers/-/security/vulnerabilities/?state=CONFIRMED,DETECTED&projectId=13150952,15369510,17450826,18446184,24673064,6126012,9450192,9450195,9450197&activity=NO_LONGER_DETECTED
+
+[Analyzer vulnerabilities that are no longer detected]: https://gitlab.com/groups/gitlab-org/security-products/analyzers/-/security/vulnerabilities/?state=CONFIRMED,DETECTED&projectId=13150952,15369510,18446184,24673064,52241202,6126012,9450192&activity=NO_LONGER_DETECTED
+
 [License-db vulnerabilities that are no longer detected]: https://gitlab.com/groups/gitlab-org/security-products/license-db/-/security/vulnerabilities/?state=CONFIRMED,DETECTED&projectId=39193358,39229232,39233486,39298809,39622674,40857363,45266022&activity=NO_LONGER_DETECTED
-[Upstream scanner vulnerabilities that are no longer detected]: https://gitlab.com/groups/gitlab-org/security-products/dependencies/-/security/vulnerabilities/?state=CONFIRMED,DETECTED&severity=CRITICAL&severity=HIGH&projectId=25588419,30616761,30684590,35335143,39545454,39545481&activity=NO_LONGER_DETECTED
+
+
 [Vulnerability SLAs]: /handbook/security/threat-management/vulnerability-management/#remediation-slas
+
+[Vulnerabilities near SLA breach]: https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ANear%20Breach&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3ADenied&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AAccepted&first_page_size=20

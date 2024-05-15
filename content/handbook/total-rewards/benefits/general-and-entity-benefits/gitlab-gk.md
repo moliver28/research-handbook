@@ -28,7 +28,7 @@ Team members registered to the Social Insurance are also registered with the Emp
 ### Annual Health Check Up
 
 - Members covered by the Social general insurance system “Kyokai Kenpo” are entitled to a benefit of an annual health check up in any of the hospitals designated under “Kyokai Kenpo”. The Japanese team members can also have a checkup in a non-designated institution.
-- In both the cases the team members can expense up to 12000 JPY against the actual bills via Navan Expense.
+- In both the cases the team members can expense up to 15000 JPY against the actual bills via Navan Expense.
     - The invoice must be uploaded to Navan Expense to validate the total remiburseable amount. Please do not upload any personal medican data, only the invoice with the total amount due. If you have any questions or concerns please reach out to Total Rewards.
 
 ### GitLab GK Leave Policy
@@ -79,8 +79,3 @@ The statutory entitlement for maternity leave is 14 weeks. The leave must start 
 **Menstrual Leave**:  A female team member whose ability to attend work is significantly impeded by menstruation can request unpaid menstrual leave.
 
 **Time off To Exercise Civil Rights**: A team member exercising their civil right such as voting or serving as a juror can request unpaid time off.
-
-
-
-
-

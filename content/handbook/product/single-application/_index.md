@@ -8,7 +8,7 @@ title: Advantages of a single application
 
 ## Single application
 
-GitLab is a [complete DevOps platform](/solutions/devops-platform/), delivered as a single application that does everything from project planning and source code management to CI/CD, monitoring, and security. The advantages of a single application are listed in the following paragraphs.
+GitLab is a [complete DevOps platform](https://about.gitlab.com/solutions/devops-platform/), delivered as a single application that does everything from project planning and source code management to CI/CD, monitoring, and security. The advantages of a single application are listed in the following paragraphs.
 
 By delivering a single application we shorten cycle times, increase productivity,
 and thus create value for our customers.
@@ -243,7 +243,7 @@ hidden costs.
 
 #### Overt cost
 
-The overt cost of paying for [licensing and support of multiple tools](/calculator/roi/) is
+The overt cost of paying for [licensing and support of multiple tools](https://about.gitlab.com/calculator/roi/) is
 higher than a single application. A single application can charge less because its fixed costs are distributed
 across the functionality, whereas separate vendors each need to pay those costs themselves for each of their solutions.
 

@@ -49,6 +49,7 @@ Having Job frameworks that managers and team members share will help us make thi
 ### How to use Job Frameworks
 
 We are using the Job Frameworks in the following programs:
+
 - [Promotion Process](/handbook/people-group/promotions-transfers/)
    - Here the review of the Job Framework will be required ahead of the quarterly Department Promotion Calibrations.
    - The Job Framework will help provide focus for the promotion document to ensure core areas of performance at the next level are captured consistently across the company
@@ -213,7 +214,7 @@ Members of the management group are expected to demonstrate leadership in the wa
 
 #### Board Members
 
-[Board Members]({{< ref "/job-families/board-of-directors/board_member" >}}) serve on the GitLab board and participate in board meetings and board committees, as well as other responsibilities.
+[Board Members](/job-families/board-of-directors/board_member) serve on the GitLab board and participate in board meetings and board committees, as well as other responsibilities.
 
 ## CEO Skips
 
@@ -233,7 +234,7 @@ As an example, the [Functional Leaders meets after every e-group offsite](/handb
 
 ## Directs-Group
 
-Directs-Group is a group made up of a senior leader from each function. These leaders operate as extensions of E-Group and support key initiatives within a six to nine month rotation. The CoST to the CEO is responsible for organizing and orienting this group in collaboration with the cohorts E-Group Sponsor.
+Directs-Group is a group made up of a senior leader from each function. These leaders operate as extensions of E-Group and support key initiatives within a six to nine month rotation. The Office of the CEO is responsible for organizing and orienting this group in collaboration with the cohorts E-Group Sponsor.
 
 ### Directs-Group Program Objectives
 
@@ -251,7 +252,7 @@ Directs-Group is a group made up of a senior leader from each function. These le
 
 ### Directs-Group Selection Process
 
-1. The CoST to the CEO kicks off the selection process three months in advance of every cohort end date to allow adequate time for Directs-Group identification and onboarding in advance of first E-Group Offsite and appropriate transition from one Directs group to another.
+1. The Office of the CEO kicks off the selection process three months in advance of every cohort end date to allow adequate time for Directs-Group identification and onboarding in advance of first E-Group Offsite and appropriate transition from one Directs group to another.
 1. Each E-Group member identifies first and second choice candidates. E-Group will discuss if TMRG criteria is not met within first choice candidate selections.
 1. Candidates will be identified and notified at least 45 days before the start of the new cohort in which they would serve in the role.
 1. If a candidate declines their nomination, the function leader can nominate a new candidate for consideration.
@@ -259,7 +260,8 @@ Directs-Group is a group made up of a senior leader from each function. These le
 #### Directs-Group Selection Criteria
 
 Each Directs-Group cohort must meet the following criteria:
-1. High growth and high performance team members in good standing
+
+1. High growth and high performing team members in good standing
 1. Director + who are direct reports to an E-Group member
 1. Folks who consistently demonstrate [CREDIT Values](/handbook/values/)
 1. ⅓ or more of each cohort needs to be comprised of members from [underrepresented groups](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups)
@@ -331,6 +333,7 @@ Through monthly meetings and a Slack channel, this group will be engaged to:
 ### VP-Directs Group Management
 
 Initial management will include:
+
 1. Rotating E-Group sponsor: formal E-Group representative
 1. The Chief of Staff to the CEO: owns E-Group interlock, partners with sponsor
 1. VP of Talent and Engagement: Owns team engagement and partners with VP of Global comms on internal comms. VP of Global Comms owns broader communication where necessary.
@@ -378,6 +381,7 @@ Our groups operate on the principle of [stable counterparts](/handbook/leadershi
 For example, we have a Product Manager, Product Marketing Manager, Engineering Manager, Content Marketer, Backend Developers, Frontend Developers, and Product Designers that are all dedicated to a group called "Package". Collectively, these individuals form the "Package group". The word "Package" appears in their titles as a specialty, and in some cases, their team name.
 
 We distinguish between types of stable counterparts to these Product Groups with:
+
 - Primary Stable Counterparts - Team members assigned to our Product hierarchy (typically groups) from Product, Development, Product Design and Quality functions which we call the [Quad](/handbook/engineering/infrastructure/test-platform/quad-planning/).
 - Complete Stable Counterparts - All team members assigned to product hierarchy from functions outside of the primary functions and defined in our [product categories page](/handbook/product/categories/). For example - we assign stable counterparts from Support, Product Marketing and Customer Success who are all considered part of the complete stable counterparts.
 
@@ -485,7 +489,7 @@ The [MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/66180) de
 
 ### Working Groups
 
-A [working group]({{< ref "/handbook/company/working-groups" >}}) is a specific type of group that assembles for a period of time to accomplish a business goal. Working groups have defined responsibilities and meet regularly. Ideally a working group can disband when the goal is complete to avoid accrued bureaucracy.
+A [working group](/handbook/company/working-groups) is a specific type of group that assembles for a period of time to accomplish a business goal. Working groups have defined responsibilities and meet regularly. Ideally a working group can disband when the goal is complete to avoid accrued bureaucracy.
 
 ### Middle Management
 

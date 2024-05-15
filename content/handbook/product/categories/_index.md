@@ -11,11 +11,11 @@ community. This makes it more efficient for everyone to contribute or to get
 a question answered. Therefore, the following interfaces are based on the
 product categories defined on this page:
 
-- [Home page](/)
-- [Product page](/stages-devops-lifecycle/)
+- [Home page](https://about.gitlab.com/)
+- [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
 - [Product Features](https://about.gitlab.com/features/)
 - [Pricing page](https://about.gitlab.com/pricing/)
-- [DevOps Lifecycle](/stages-devops-lifecycle/)
+- [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
 - [DevOps Tools](https://about.gitlab.com/why-gitlab/)
 - [Product Direction](https://about.gitlab.com/direction/)
 - [Stage visions](https://about.gitlab.com/direction/#devops-stages)
@@ -107,7 +107,7 @@ Capabilities can refer to stages, categories, or features, but not solutions.
 Adding more layers to the hierarchy would give it more fidelity but would hurt
 usability in the following ways:
 
-1. Harder to keep the [interfaces](#Interfaces) up to date.
+1. Harder to keep the [interfaces](#interfaces) up to date.
 1. Harder to automatically update things.
 1. Harder to train and test people.
 1. Harder to display more levels.
@@ -236,6 +236,7 @@ When changing the name of a group, make sure to go through the following steps:
 - Share MR in #product, #development, #g_engineering_analytics and relevant #s_, #g_, and #f_ Slack channels
 - Review direction pages, groups, projects, epics, issues, templates and documentation to ensure the name change is applied consistently.
 - Rename Slack channels to reflect the new group name
+- Update the event and metric definitions belonging to the group by following [this guide](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_lifecycle.html#group-name-changes)
 
 ### Changing category name
 
@@ -292,7 +293,7 @@ Maybe we should make our features easier to search to replace the section below.
 ### Other functionality in [Plan](/handbook/product/categories/#plan-stage) stage
 
 #### [Project Management group](/handbook/product/categories/#project-management-group)
-- markdown functionality
+
 - assignees
 - milestones
 - due dates
@@ -302,6 +303,11 @@ Maybe we should make our features easier to search to replace the section below.
 - email notifications
 - to-do list
 - Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
+
+#### [Knowlege group](/handbook/product/categories/#knowledge-group)
+
+- markdown functionality
+- rich text editor
 
 ### Other functionality in [Create](/handbook/product/categories/#create-stage) stage
 
@@ -329,9 +335,11 @@ Maybe we should make our features easier to search to replace the section below.
 ### Other functionality in [Manage](/handbook/product/categories/#manage-stage) stage
 
 ### Other functionality in [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
+
 - [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
 ### Other functionality in [Test Platform](/handbook/engineering/infrastructure/test-platform/)
+
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
@@ -343,6 +351,7 @@ Internal Customers: [Gitaly](#gitalycluster-group), [Core Platform section](#cor
 ### Other functionality in [Analytics](/handbook/product/categories/#analytics-stage)
 
 #### [Product Analytics group](/handbook/product/categories/#product-analytics-group)
+
 - [Analytics Dashboards](https://docs.gitlab.com/ee/user/product_analytics/#product-analytics-dashboards) - used by many groups to add visualizations or provide pre-configured dashboards to users
 
 ### Facilitated functionality
@@ -358,8 +367,8 @@ While the mental models for these areas are maintained by specific stage groups,
 
 If you encounter an issue falling into a facilitated area:
 
-* For issues that relate to updating the guidelines, apply the `group::category` label for the facilitating group.
-* For issues that relate to adding content related to a facilitated area, apply the `group::category` label for the most closely related group. For example, when adding a new setting related to Merge Requests, apply the `group::source code` label.
+- For issues that relate to updating the guidelines, apply the `group::category` label for the facilitating group.
+- For issues that relate to adding content related to a facilitated area, apply the `group::category` label for the most closely related group. For example, when adding a new setting related to Merge Requests, apply the `group::source code` label.
 
 ### Shared responsibility functionality
 
@@ -379,5 +388,7 @@ Whatever the source of the functionality, rather than thinking of these componen
 It does not mean, however, that a single group should necessarily be solely responsible for all of these activities. Multiple groups could end up collaborating in execution. This coordination however requires a careful triage of the shared responsibility issues in the issue tracker where a single [DRI](/handbook/people-group/directly-responsible-individuals/) coordinates these activities.
 
 For more information please review [this section in the quality department handbook](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) to learn more about a decentralized approach to triaging these types of issues.
+
+### Categories A-Z
 
 {{< categories-index >}}

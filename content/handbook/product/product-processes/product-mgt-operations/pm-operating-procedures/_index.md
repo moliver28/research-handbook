@@ -24,6 +24,7 @@ The intent of this review and collaboration workflow is not to "block" but to he
 - support from Product Operations for successful rollout to and adoption by the Product team
 
 #### Product Management Meeting (Bi-weekly)
+
 **DRI:** [Product Operations](/handbook/company/team/#fseifoddini) and [Chief Product Officer](/handbook/company/team/#david)
 
 - **What:** A bi-weekly team meeting for Product. All team members can add items to the agenda either as a Read-Only, or as a discussion item.
@@ -44,6 +45,7 @@ The intent of this review and collaboration workflow is not to "block" but to he
 All product team members are encouraged to add agenda items. The Chief Product Officer will prioritize the discussion items, and any items we can't get to in the allotted 50 min will be moved to the following meeting. If you are a Product team member and are unable to attend the call, you may add items for `READ-ONLY` to the agenda.
 
 #### Product Leadership Meeting (Weekly)
+
 **DRI:** [Chief Product Officer](/handbook/company/team/#david) and  [EBA to Chief Product Officer](/handbook/company/team/#gschwam)
 
 The Chief Product Officer and their direct reports track our highest priority Product Team initiatives. If one of those initiatives needs to be discussed synchronously the assigned individual should add it to the meeting's [GoogleDoc agenda](https://docs.google.com/document/d/1yN2n1ei24HiM5G7tBxaqK4yNPYreKpLZ3CG3nsEFOR4/edit#heading=h.384zmpcao5l6). Directors can delegate and coordinate cross-product initiatives as needed based on the issues in this board.
@@ -53,6 +55,7 @@ As part of this Product Leadership Meeting we also [review progress towards our 
 Non-public items for discussion should be added directly to the [agenda document](https://docs.google.com/document/d/1yN2n1ei24HiM5G7tBxaqK4yNPYreKpLZ3CG3nsEFOR4/edit#heading=h.384zmpcao5l6) for the meeting.
 
 #### Section Performance Indicator Review (Monthly)
+
 **DRI:** Appropriate [Product Section](/handbook/product/categories) Leader & [Senior Director, Product Monetization](/handbook/company/team/#justinfarris)
 
 - **What:** A monthly meeting for [Product  Sections](/handbook/product/categories/#devops-stages) to provide updates on  Performance Indicators, inclusive of their Stages and Groups and the cross-functional team. The main deliverable from the team is for each group to clearly show what they are doing in the next month to drive their metrics in the right direction.
@@ -177,7 +180,7 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 - [Why GitLab Premium?](https://about.gitlab.com/pricing/premium/)
 - [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate)
 - [Feature Comparison](https://about.gitlab.com/pricing/feature-comparison/)
-- [DevOps Lifecycle](/stages-devops-lifecycle/)
+- [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
 - [DevOps Tools Landscape](https://about.gitlab.com/why-gitlab/)
 
 **Internal**
@@ -205,9 +208,9 @@ As a team, there may be cases where a proposal exceeds the expected time to mark
 
 As DRIs, it is important to consider the input from other team members and to know when to trust in their experience and judgment. It is advised to use an [opportunity canvas lite](/handbook/product/product-processes/#opportunity-canvas-lite). The PM is expected to compile the canvas lite with inputs from the Product Designer and/or Engineering Manager. The PM then makes a decision after weighing input from the product designer and engineering, as appropriate. The PM should then share the decision, articulating the costs of waiting, and shipping earlier with less polish, as well as why no smaller iteration exists as part of this decision.
 
-In the event that a decision is made to build something that is less polished, has a lesser user experience, or otherwise doesn't live up to our standards of where we want this UI to end up the team should generate follow-up [UX Debt](/handbook/product/ux/performance-indicators/#ux-debt) issues to be addressed in the next upcoming milestone(s).
+In the event that a decision is made to build something that is less polished, has a lesser user experience, or otherwise doesn't live up to our standards of where we want this UI to end up the team should generate follow-up [Deferred UX](/handbook/product/ux/performance-indicators/#deferred-ux) issues to be addressed in the next upcoming milestone(s).
 
-If a quad member remains concerned and in strong disagreement with the decision made by the PM DRI, the quad member should exercise our [disagree, commit, and disagree value](/handbook/values/#disagree-commit-and-disagree), by initiating an [escalation](/handbook/leadership/#effective-escalations) to bring in management layers above into the decision.
+If a quad member remains concerned and in strong disagreement with the decision made by the PM DRI, the quad member should exercise our [disagree, commit, and disagree value](/handbook/values/#disagree-and-commit), by initiating an [escalation](/handbook/leadership/#effective-escalations) to bring in management layers above into the decision.
 
 Results are the most important aspect to consider for the business and our users. If there is a perceived risk to potentially harm the business financially, reduce customer satisfaction or value, or lead to legal trouble, teammates are empowered to seek an alternative perspective for the product decision. Within the Product Division, we recommend escalating first to the management layer immediately above where the disagreement is happening for input and further escalating to PLT and ultimately the Chief Product Officer.
 

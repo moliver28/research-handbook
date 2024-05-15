@@ -2,7 +2,7 @@
 title: "Incubation Engineering Leadership"
 ---
 
-The Incubation Engineering Leadership manage the [Incubation Engineering Department](/handbook/engineering/incubation/). The team members in this department focus on long-term trends and features that are too early to measure via usage or revenue, but are critical to the long term growth and success of GitLab. The projects this department works on align with the "new markets" [investment type](https://internal-handbook.gitlab.io/handbook/product/investment/). Long term, the budget for this area will be ~10% of R&D.
+The Incubation Engineering Leadership manage the [Incubation Engineering Department](/handbook/engineering/incubation/). The team members in this department focus on long-term trends and features that are too early to measure via usage or revenue, but are critical to the long term growth and success of GitLab. The projects this department works on align with the "new markets" [investment type](https://internal.gitlab.com/handbook/product/investment/). Long term, the budget for this area will be ~10% of R&D.
 
 ## Levels
 
@@ -88,4 +88,4 @@ We'd like the successful candidate to have at least a simple majority of the fol
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

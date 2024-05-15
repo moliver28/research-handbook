@@ -2,6 +2,10 @@
 title: "Compliance Group"
 ---
 
+## Mission
+
+The Compliance group's mission is to provide visibility into an organizations compliance posture within GitLab and provide tools for organization's to identify non-compliant activities and scope enforcement of compliance requirements.
+
 ## What we work on
 
 - We use the [Group Direction page](https://about.gitlab.com/direction/govern/compliance/) to describe our high-level goals and direction for our group.
@@ -9,6 +13,15 @@ title: "Compliance Group"
 - This prioritised list we then use when planning each Milestone. Each Milestone will have its own Issue in our [Planning Epic](https://gitlab.com/groups/gitlab-org/govern/compliance/-/epics/2)
   - In addition to using the high-level goals and direction as an input to planning Milestones, the Compliance Product Manager considers input from Sales, customers, and internal stakeholders (dogfooding) to decide on the priority for the issues added to each Milestone.
 - We also use [OKRs](/handbook/company/okrs/) to help prioritise strategic initiatives within the group. We use Issues for planning and collate them in our [OKR Epic](https://gitlab.com/groups/gitlab-org/govern/compliance/-/epics/4)
+
+## Top Priorities FY25
+
+- The biggest priority for FY25 is to continue to integrate Compliance Frameworks with Security Policies. Expanding the abilities within the Compliance Center and moving towards removal of Compliance Pipelines.
+- Continue expanding on the Adherence Report by adding more Standards/Checks, while also integrating violations as the other side of the compliance posture (enforcement vs violation).
+- We are also looking at building customizable checks and the highest priority standards for our customers.
+- Rollout full usage of ClickHouse as the DB for audit events. Unblocking features to give better insights into compliance across the GitLab platform.
+- Provide a standard way for adding new Streaming Audit Event destination types and filtering, then increasing our streaming audit event offering through more 3rd party integrations and filtering options.
+- Create a platform for easily allowing contributions outside the Compliance group to add audit events throughout the product. This includes planning and standardizing all current open audit event issues, creating easily consumable tutorials and guidelines, and potentially creating an audit event day (similar to pajamas migration days but for backend).
 
 ## How we work
 
@@ -31,6 +44,7 @@ Because this group works on components of the application that have a [far-reach
 
 
 ### Working on ad hoc work and questions
+
 From time to time, there will be ad hoc work and questions that arise, such as Slack questions, questions in Issues, Error Budget investigations, etc. All Compliance group members are encouraged to watch these mediums and engage.
 
 As first responder, we will acknowledge the ad hoc work / question in the appropriate medium. This is to ensure that the questioner knows that we are on it.
@@ -62,7 +76,7 @@ Before working on a spike we make sure to clearly define:
 
 We strongly believe in [Iteration](/handbook/values/#iteration) and delivering value in small pieces. Iteration can be hard, especially when you lack product context or are working in a particularly risky/complex part of the codebase. If you are struggling to estimate an issue or determine whether it is feasible, it may be appropriate to first create a proof-of-concept MR. The goal of a proof-of-concept MR is to remove any major assumptions during planning and provide early feedback, therefore reducing risk from any future implementation.
 
-- Create an MR, prefixed with `PoC: `.
+- Create an MR, prefixed with `PoC:`.
 - Explain what problem the PoC MR is trying to solve for in the MR description.
 - Timebox it. Can you determine feasibility or a plan in less than 2-3 days?
 - Identify a reviewer to provide feedback at the end of this period.
@@ -298,16 +312,17 @@ In some cases it may be appropriate for the MR author to to verify the change th
 
 ##### Handling Discoveries of Issues
 
-__Verifier: the engineer verifying the issue on .com/production (not the MR author)__
+**Verifier: the engineer verifying the issue on .com/production (not the MR author)**
 
 1. Verifier: documents findings by commenting on the verification thread on the issue.
 1. Verifier: opens new issues ~"type::bug"  or ~"type::feature" based on fiindings.
-   1. Verifier: sets the severity and/or priority based on [priority](/handbook/engineering/quality/issue-triage/#priority)/[severity](/handbook/engineering/quality/issue-triage/#severity-slos) triage process and the issue type (~"type::bug"  or ~"type::feature").
+   1. Verifier: sets the severity and/or priority based on [priority](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)/[severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) triage process and the issue type (~"type::bug"  or ~"type::feature").
    1. ~"severity::1" / ~"severity::2" to be pulled directly into the milestone with comment added to ping(`@`) the engineering manager.
 1. Verifier: assigns the MR author to newly opened issues.
 1. Verifier: closes the issue and unassigns themself. The issue will automatically get the `~workflow::complete` label added.
 
 #### Demos
+
 During the `workflow::verification` process, we determine whether the Issue requires a demo. If unsure, work with PM to determine if a demo is required. Demos are great for showcasing progress and help users quickly understand how to use a features and its benefits. Our process for this is similar to [Single Engineer Groups Demo](/handbook/engineering/demos/#single-engineer-groups-demo):
 
 - Record a video on your computer or via Zoom livestream of the working software. You can also use [loom](/handbook/tools-and-tips/other-apps/#loom) for recording demos.

@@ -6,7 +6,7 @@ description: "Endpoint Detection and Response: EDR, endpoint security, anti-viru
 
 ## Overview
 
-With an increased number of high profile breaches in the media today it is important we carefully consider the risk and external threats GitLab faces.  Due to our service and the companies that use us, it is credible that we are or will soon become a high profile target for adversaries looking to exploit GitLab or a GitLab customer. Endpoint detection and response (EDR) technology helps further strengthen endpoint security protecting not only GitLab, but each of our Team Members as well. All macOS, Windows and Linux devices used by GitLab Team Members for the purposes of fulfilling the responsibilities of their role as a GitLab Team Member are required have the SentinelOne EDR agent installed and functioning. The use of a Windows endpoint requires a specific business reason and an approved exception as the [use of a Windows endpoint is prohibited](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#laptop-configurations).
+With an increased number of high profile breaches in the media today it is important we carefully consider the risk and external threats GitLab faces.  Due to our service and the companies that use us, it is credible that we are or will soon become a high profile target for adversaries looking to exploit GitLab or a GitLab customer. Endpoint detection and response (EDR) technology helps further strengthen endpoint security protecting not only GitLab, but each of our Team Members as well. All macOS, Windows and Linux devices used by GitLab Team Members for the purposes of fulfilling the responsibilities of their role as a GitLab Team Member are required have the SentinelOne EDR agent installed and functioning. The use of a Windows endpoint requires a specific business reason and an approved exception as the [use of a Windows endpoint is prohibited](/handbook/business-technology/end-user-services/onboarding-access-requests/#laptop-configurations).
 
 ### What is Endpoint Detection and Response (EDR)?
 
@@ -48,7 +48,6 @@ Do not attempt to modify or remove SentinelOne components, unless instructed to 
 
 No. The EDR solution only monitors the GitLab laptop, like an antivirus solution would (only much more efficiently).
 
-
 ### Why are we using a third party EDR system?
 
 We do not want to write our own EDR solution, nor do we want to assemble a series of partial solutions into some type of chain to attempt to meet compliance requirements. Not only does a third party EDR solution allow us to meet requirements in a thorough and more economic way, it will show auditors, regulators, and customers that we are taking security seriously and implementing it consistently.
@@ -65,11 +64,9 @@ Yes. Each operating system on a host computer that is used to access GitLab comp
 
 Yes. Each operating system on a computer, to include the host operating system, and all guest operation systems, that are used to access GitLab computing resources, infrastructure, or environments, will need have an EDR agent installed.
 
-
 ### I run my own antivirus solution on my work laptop, isn’t that enough?
 
 While this effort is certainly appreciated, we need a way to be able to audit laptops to meet compliance requirements. We would still encourage you to run any such antivirus product up until the EDR solution has been rolled out to your laptop. After which time, we strongly encourage you to uninstall the antivirus solution previously installed. Multiple instances of these technologies, especially from different vendors, have the tendency to cause issues on an endpoint which may negatively impact system performance and your productivity.
-
 
 ### Who owns and manages the EDR solution at GitLab?
 
@@ -78,6 +75,7 @@ Jointly, the Security Department and IT will be responsible for different compon
 ### What safeguards are in place to ensure that owners of this process can prevent abuse?
 
 While such a possibility exists, we feel that the risk of something like this happening is much, much smaller than some of the risks that an endpoint management solution is made to address. Risks like:
+
  - Laptop is accidentally infected with malware and team-member is unaware of the infection.
  - Laptop is accidentally infected with malware or was the target of an attack.
  - The Laptop is compromised and the GitLab team members access and identity are used to further attack GitLab and our customers.
@@ -92,13 +90,7 @@ If you wish to add further privacy and security to your home network, you can fu
 
 ### How do I install the SentinelOne agent on Linux?
 
-
-
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**Note**" header-bg="info" %}}
 If you are using Advanced Intrusion Detection Environment (AIDE) to monitor file integrity and detect intrusions, you will need to create an exclusion in AIDE. When both AIDE and the SentinelOne Agent are running together, AIDE is not able to update its database correctly. AIDE tries to scan a SentinelOne Directory and cannot scan it.
 
 To create an exclusion for SentinelOne, edit `/etc/aide.conf` and add
@@ -108,8 +100,7 @@ To create an exclusion for SentinelOne, edit `/etc/aide.conf` and add
 echo '!/opt/sentinelone/mount' | sudo tee -a /etc/aide.conf
 ```
 
-</div>
-</div>
+{{% /panel %}}
 
 1. Make sure you are using an approved [Linux distribution](/handbook/it/operating-systems/).
 1. [Download](https://gitlab.com/gitlab-com/it/security/sentinelone-installers)
@@ -187,11 +178,7 @@ echo '!/opt/sentinelone/mount' | sudo tee -a /etc/aide.conf
              └─298045 s1-perf "" "" "" "" "" "" "" "" "" "" ""
    ```
 
-   <div class="panel panel-info">
-   **You don't see the previous outputs?**
-   {: .panel-heading}
-   <div class="panel-body">
-
+   {{% panel header="**You don't see the previous outputs?**" header-bg="info" %}}
    If you don't see the previous outputs, it means that SentinelAgent was not
    installed correctly, most probably it didn't take into account the configuration
    file, or you didn't set it up correctly. In that case, you must first uninstall
@@ -209,8 +196,7 @@ echo '!/opt/sentinelone/mount' | sudo tee -a /etc/aide.conf
      sudo apt purge sentinelagent
      ```
 
-   </div>
-   </div>
+   {{% /panel %}}
 
 1. Wait five minutes, and then verify connectivity:
 
@@ -232,7 +218,6 @@ sysctl -n hw.ncpu
 
 Expect SentinelOne to use less than 10% of total CPU power (for example, displayed as less than 100% in Activity Monitor on a M1 Max).
 
-
 ### How do I collect metrics for support on MacOS due to an issue with high CPU or RAM?
 
 1. In a terminal, run:
@@ -240,7 +225,12 @@ Expect SentinelOne to use less than 10% of total CPU power (for example, display
 2. Reproduce the scenario that caused the issue, or run it for a few minutes. It will run in the background. You will not see output.
 3. Collect the metric log:
 `sudo sentinelctl profiler stop`
-4. Analyze the data as below, and then if needed share the file with #sentinelone and we will get a ticket open with SentinelOne support.
+4. You should see a notification in the top right on your screen indicating a report is being generated.
+![S1 Report Generation](/content/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/S1ReportProgress.png)
+5. After some time a report will finish and you will see another notification from SentinelOne that a log file was completed. Click the notification and you may be required to allow the SentinelAgent access to files on your Desktop folder. The file will then download to your Desktop folder.
+![S1 Completion](/content/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/S1ProfileComplete.png)
+![S1 Allow Desktop Folder](/content/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/S1AllowDesktop.png)
+6. Analyze the data that the report generates, and if needed share the file in the #sentinelone Slack channel and we will get a ticket open with SentinelOne support.
 
 ### My SentinelOne agent is offline
 
@@ -263,6 +253,3 @@ sudo sentinelctl management status
  You should see `Connectivity: On` and a valid SentinelOne URL.
    If this is not your result, reach out for assistance in the
    [`#sentinelone`](https://gitlab.slack.com/archives/C043PF9TU4X) channel.
-
-
-

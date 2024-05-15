@@ -4,7 +4,7 @@ title: Managing Conflict
 
 ## Managing conflict
 
-In this section we will review the definition of conflict, the different causes of conflict, review different methods for addressing conflict, steps in the conflict process and some do's and dont's of workplace conflict. Conflict in the workplace is inevitable when you have team members of various backgrounds and different work styles all working towards the same goals and [OKRs]({{< ref "/handbook/company/okrs" >}}) (Objectives and Key Results). Conflict should never just be avoided, conflict should be managed and resolved. The first step is for the team members that experience conflict to work to address the situation to work towards a resolution. If a resolution is not possible, the manager should then work with the team members and their assigned [People Business Partner](/handbook/people-group/) to help foster a resolution.
+In this section we will review the definition of conflict, the different causes of conflict, review different methods for addressing conflict, steps in the conflict process and some do's and dont's of workplace conflict. Conflict in the workplace is inevitable when you have team members of various backgrounds and different work styles all working towards the same goals and [OKRs](/handbook/company/okrs) (Objectives and Key Results). Conflict should never just be avoided, conflict should be managed and resolved. The first step is for the team members that experience conflict to work to address the situation to work towards a resolution. If a resolution is not possible, the manager should then work with the team members and their assigned [People Business Partner](/handbook/people-group/) to help foster a resolution.
 
 ## What is conflict?
 
@@ -22,6 +22,7 @@ Conflict is any situation in which your concerns, desires, perceptions, goals or
 ### Competing method
 
 This method involves managing conflict through unilateral decision making.
+
 - Primarily used for: Situations that require a quick decision, instances where there is no compromise or debate on making a hard decision.
 - Competing styles: Win-Lose approach, Assertive & Uncooperative and You try to satisfy your own concerns at the other team members expense.
 - Examples:
@@ -32,6 +33,7 @@ This method involves managing conflict through unilateral decision making.
 ### Avoiding method
 
 Actively deciding not to manage a conflict.
+
 - Primarily used for: Unimportant, non-work relates issues, buying time until a resolution can be reached and recognizing issues as symptoms.
 - Avoiding styles: "Lose-Lose" approach, unassertive and uncooperative, evading conflict without trying to satisfy either person's concerns and effective in emotionally charged circumstances.
 - Examples:
@@ -42,6 +44,7 @@ Actively deciding not to manage a conflict.
 ### Accomodating method
 
 Allowing the other side to "win."
+
 - Primarily used for: Maintaining perspective in a conflict situation, making active decisions on what can be "let go" and maintaining peace and creating goodwill.
 - Accomodating styles: Unassertive & cooperative and you attempt to satisfy the other team members concerns at the expense of your own concerns.
 - Examples:
@@ -54,6 +57,7 @@ Allowing the other side to "win."
 ### Compromising method
 
 Reaching a resolution with a "win" on both sides.
+
 - Primarily used for: Resolving issues of moderate to high importance, finding a solution that involves equal power and strong commitment on both sides, situations where a temporay "fix" may be needed and backing up a decision that's been made via the competing or collaborating method.
 - Compromising style: In the middle and you try to find an acceptable settlement that only partially satisfies both team members concerns.
 - Examples:
@@ -64,6 +68,7 @@ Reaching a resolution with a "win" on both sides.
 ### Collaborating method
 
 Managing conflict through team input.
+
 - Primarily used for: Gaining support from the team, using different perspectives as an opportunity to learn and improving relationships through collaboration.
 - Collaborating style: Assertive and cooperative and finding a "win-win."
 - Examples:
@@ -124,6 +129,7 @@ Managers need to be well versed in managing and facilitating conflict resolution
 ## Additional resources
 
 If you are interested in learning about conflict and your role as a manager please review the following articles.
+
 - [Do You Handle Conflict like a Rhinocerso or an Ostrich](https://www.salesforce.com/blog/2015/12/how-to-handle-difficult-conversations.html)
 - [Conflict in the Workplace](https://www.workplaceissues.com/arconflict/)
 - [How to deal with employees who do not get along](https://www.insperity.com/blog/employees-who-dont-get-along/)

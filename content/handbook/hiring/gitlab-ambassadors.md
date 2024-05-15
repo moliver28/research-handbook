@@ -76,7 +76,7 @@ There are several important things to keep in mind when sharing your opinions ab
     - With more and more team members joining GitLab there's likely to be more variation in the team member experience. Making statements like, "At GitLab, we all..." or, "At GitLab, everyone..." may create unrealistic expectations if the detail being shared only applies to particular teams or functions within the company.
     - As GitLab grows, there will be more variation in the experience of working here. If you're sharing a specific practice or ritual that happens on your team it would be more appropriate to say something like "On GitLab's Marketing team, we..." versus "At GitLab, we...". It's often the case that teams within GitLab will develop their own unique practices and being as specific as possible will better set expectations with candidates.
 1. Speak to your personal experience.
-    - The more you're able to add color to a social post by adding details from your personal experience the more effective it will be in illustrating the experience of working here. A good example of this would be to talk about how you took advantage of a particular benefit rather than simply highlighting a particulat benefit that GitLab offers.
+    - The more you're able to add color to a social post by adding details from your personal experience the more effective it will be in illustrating the experience of working here. A good example of this would be to talk about how you took advantage of a particular benefit rather than simply highlighting a particular benefit that GitLab offers.
 1. Actively invite people to help us on our journey.
     - Future candidates will be more interested in hearing about what we're building toward rather than where we have already arrived. Think about ways in which your messaging can invite others to "help us build a special company" rather than "joining a special company".
 1. Be considerate of tone and how your message may be perceived by the audience reading it.
@@ -86,7 +86,6 @@ There are several important things to keep in mind when sharing your opinions ab
     - It is ok to mention companies by name if it is relevant to the post, and the employees losing their jobs and the company doing the layoffs are treated with empathy and respect.
     - An example of what we want to avoid: "Lost your job? Come work at GitLab!"
 1. If you're unsure how to communicate something, you can always reach out to the #talent-brand channel on slack.
-
 
 #### On LinkedIn
 
@@ -101,7 +100,6 @@ There are several important things to keep in mind when sharing your opinions ab
   - > Join @gitlab and help build a product that enables over 50% of Fortune 100 organizations to deliver software faster with our AI-powered DevSecOps platform. We're hiring a [INSERT ROLE NAME]. Apply now: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Join a company that values transparency, collaboration, and iteration. @gitlab is hiring a [INSERT ROLE NAME]. Discover how our 6 CREDIT values drive our culture and learn more about this role: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Unlock a world of opportunities at @gitlab. We're looking for a [INSERT ROLE NAME] to join our diverse and passionate team. Explore your potential with us: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
-
 
 #### On X (formerly Twitter)
 
@@ -118,7 +116,6 @@ There are several important things to keep in mind when sharing your opinions ab
   - > Join @gitlab and help build a product that enables over 50% of Fortune 100 organizations to deliver software faster with our AI-powered DevSecOps platform. We're hiring a [INSERT ROLE NAME]. Apply now: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Join a company that values transparency, collaboration, and iteration. @gitlab is hiring a [INSERT ROLE NAME]. Discover how our 6 CREDIT values drive our culture and learn more about this role: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
   - > Unlock a world of opportunities at @gitlab. We're looking for a [INSERT ROLE NAME] to join our diverse and passionate team. Explore your potential with us: [INSERT JOB LINK] #AllRemote #LifeAtGitLab
-
 
 #### Other platforms
 
@@ -141,7 +138,7 @@ Feel free to make this your own and personalize it based on the specific message
 
 > Hi, {NAME}, thank you for your interest in GitLab! It's an exciting time to be part of our team.
 >
-> The best way to share your information with our talent acquisition team is to apply to a relevant role on our [careers page](https://about.gitlab.com/jobs/). I'd also encourage you to take a look through our [company handbook](https://handbook.gitlab.com/handbook/) and our [Life at GitLab Content Library]({{< ref "/handbook/people-group/employment-branding/content-library" >}}) to learn a bit more about our culture.
+> The best way to share your information with our talent acquisition team is to apply to a relevant role on our [careers page](https://about.gitlab.com/jobs/). I'd also encourage you to take a look through our [company handbook](/handbook/) and our [Life at GitLab Content Library](/handbook/people-group/employment-branding/content-library) to learn a bit more about our culture.
 >
 > GitLab is an incredibly unique place to work.
 >

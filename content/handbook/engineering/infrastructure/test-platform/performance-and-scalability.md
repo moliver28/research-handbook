@@ -22,7 +22,7 @@ The goal is to provide tested and verified examples to customers which can be us
 give insight into what changes need to be made as organizations scale.
 
 [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures) project is used to track all work related
-to GitLab Reference Architectures and [`#reference-architectures`](https://gitlab.slack.com/archives/C015V8PDUSW) Slack channel is used for 
+to GitLab Reference Architectures and [`#reference-architectures`](https://gitlab.slack.com/archives/C015V8PDUSW) Slack channel is used for
 discussions related to the Reference Architectures.
 
 | Users      | Status            | Link to more info                                                                                                                                                         |
@@ -75,7 +75,7 @@ High-level GPT pipeline overview:
 #### Test Results
 
 Information on the testing results can be found over on the
-[Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/#testing-process-and-results).
+[Reference Architecture documentation](https://docs.gitlab.com/ee/administration/reference_architectures/#validation-and-test-results).
 
 #### Performance results comparison of different GitLab versions
 

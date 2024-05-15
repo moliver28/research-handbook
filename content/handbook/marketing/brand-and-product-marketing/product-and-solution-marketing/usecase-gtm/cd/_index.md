@@ -15,7 +15,7 @@ title: "Auxiliary Solution Resource: Continuous Delivery"
 | ---- | --- |
 | Daniel Hom (@danielhom) | Cesar Saavedra ( @csaavedra1 ) |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Continuous Delivery
 

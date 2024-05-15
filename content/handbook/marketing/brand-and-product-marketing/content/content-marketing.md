@@ -38,8 +38,8 @@ The Global Content team is responsible for showcasing GitLab’s expertise and l
 We’re here to help with your content, writing, and editing needs! Ask us for help with:
 - Writing content for GTM campaigns (mostly awareness- and consideration-level eBooks, landing pages, nurture emails, related blog posts and/or articles)
 - Writing blog posts to support strategic [Editorial team](/handbook/marketing/brand-and-product-marketing/content/editorial-team/) needs
-- Writing [topic pages and subtopic pages](/topics/)
-- Writing and reviewing [customer case studies](/customers/), in collaboration with the [Customer Reference team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/)
+- Writing [topic pages and subtopic pages](https://about.gitlab.com/topics/)
+- Writing and reviewing [customer case studies](https://about.gitlab.com/customers/), in collaboration with the [Customer Reference team](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/)
 - Reviewing content for web pages, emails, or other marketing assets
 - Reviewing customer-facing emails and other communications
 
@@ -105,7 +105,7 @@ A blog can and should be repurposed as a web article/cluster page if the content
 **Blog repurpose workflow**
 1. Work with the SEO team to identify existing, older blogs that are the best options for repurposing.
 2. Ensure that the editorial team is aware of the intention and has approved the redirect.
-3. In a Google doc, copy and paste the existing blog. From there, use the keyword spreadsheets to identify the best possible updates -- this can include changing the title to a better keyword phrase, identifying areas of copyediting improvements, adding links, adding a 'More On' section, and elaborating on longtail keywords throughout the content.  
+3. In a Google doc, copy and paste the existing blog. From there, use the keyword spreadsheets to identify the best possible updates -- this can include changing the title to a better keyword phrase, identifying areas of copyediting improvements, adding links, adding a 'More On' section, and elaborating on longtail keywords throughout the content.
 5. Create a merge request on the `www-gitlab-com` project.
 6. Once the web article is edited and merged, open an [issue to redirect](https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/-/issues/new#set-up-a-new-redirect) the blog URL to the new web article. Add the new URL and old URL in the issue. The labels are included in the issue, do not assign.
 7. After the web article is merged and the blog redirected, add the web article link to the associated Topics page in the sidebar.
@@ -117,8 +117,8 @@ A whitepaper is a technical and focused topic study intended to educate a prospe
 Any technical GitLab team member is welcome to write a whitepaper and collaborate with the content team. If you’re interested in writing a whitepaper, open an issue in the [Content Marketing project](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/content-marketing) and describe your idea, or post in the [#content](https://gitlab.slack.com/archives/C2R1NED61) Slack channel. Whitepapers should be related to specific use cases and support campaigns, when possible.
 
 **Examples:**
-1. [A seismic shift in application security](/resources/whitepaper-seismic-shift-application-security/)
-2. [How to deploy on AWS from GitLab](/resources/whitepaper-deploy-aws-gitlab/)
+1. [A seismic shift in application security](https://about.gitlab.com/resources/whitepaper-seismic-shift-application-security/)
+2. [How to deploy on AWS from GitLab](https://about.gitlab.com/resources/whitepaper-deploy-aws-gitlab/)
 
 #### eBook
 
@@ -133,7 +133,7 @@ Follow the instructions for creating an internal gated asset and start the eBook
 **Examples:**
 1. [An intermediate guide to GitOps, Kubernetes, and GitLab](https://page.gitlab.com/resources-ebook-gitops-kubernetes-gitlab.html)
 2. [The GitLab Remote Playbook](/handbook/company/culture/all-remote/)
-3. [The benefits of single application CI/CD](/resources/ebook-single-app-cicd/)
+3. [The benefits of single application CI/CD](https://about.gitlab.com/resources/ebook-single-app-cicd/)
 
 #### Infographic
 
@@ -145,26 +145,26 @@ An infographic is an illustrated overview of a topic or process, and is typicall
 
 #### Topic page
 
-A topic page is a high-level explanatory "pillar" page dedicated to a specific topic, such as [version control](/topics/version-control/), [DevSecOps](/topics/devsecops/), or [continuous integration](/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset.
+A topic page is a high-level explanatory "pillar" page dedicated to a specific topic, such as [version control](https://about.gitlab.com/topics/version-control/), [DevSecOps](https://about.gitlab.com/topics/devsecops/), or [continuous integration](https://about.gitlab.com/topics/ci-cd/). Topic pages should explain what the subject is, why it is important, and explain the basic concepts of the subject. Topic pages should include links to additional related resources, such as blogs, web articles, videos, and case studies, as well as at least one CTA to a gated asset.
 
 #### Web article
 
 Web articles are educational, informational content, designed to support topic pages using keywords and search terms. They are similar to blogs in length, but differ in that they are not dated and the content is evergreen (see [more about blog posts](#blog-post)). Web articles should be linked on one or more topic pages, and should serve as a deep-dive into a specific sub-topic. Web articles are created in accordance with SEO research and campaign goals that are listed in the topics clusters spreadsheets. Complete the [SEO web article template](https://docs.google.com/document/d/1ON2CZ7uufl9gtqh-P67AxU5Y42ctQ3mRtPsgJRlep7Y/edit?usp=sharing) when creating a new piece of content.
 
 **Examples:**
-1. [How to choose the right continuous integration tool](/topics/ci-cd/choose-continuous-integration-tool/)
-2. [What are Git version control best practices?](/topics/version-control/version-control-best-practices/)
-3. [What is developer-first security?](/topics/devsecops/what-is-developer-first-security/)
+1. [How to choose the right continuous integration tool](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/)
+2. [What are Git version control best practices?](https://about.gitlab.com/topics/version-control/version-control-best-practices/)
+3. [What is developer-first security?](https://about.gitlab.com/topics/devsecops/what-is-developer-first-security/)
 
 #### Case study
 
 Case studies are in-depth customer stories that provide insight as to how GitLab has resolved significant software workflow problems for a company. The case study tells the story using quotes from customer interviews and straightforward metrics that broadly show the impact of adopting GitLab.
 
-[Case studies](/customers/) are created in partnership with the customer reference team. The customer reference team has a process in place for how they add new references and provide a list of [customer value drivers](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#command-of-message-questions). The content team is responsible for writing the case study asset using [this template](https://docs.google.com/document/d/1UbhW2AEP7BfEZJGcp7w4LS6-W-xSeGET4K4NDr7bP0E/edit?usp=sharing), [publishing the case study](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#publishing-to-the-website) to the website, [adding the customer logo](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#adding-customer-logo-and-case-study-to-customers-grid) to the customer logo grid, and ensuring that the case study goes through proper social media and newsletter steps.
+[Case studies](https://about.gitlab.com/customers/) are created in partnership with the customer reference team. The customer reference team has a process in place for how they add new references and provide a list of [customer value drivers](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#command-of-message-questions). The content team is responsible for writing the case study asset using [this template](https://docs.google.com/document/d/1UbhW2AEP7BfEZJGcp7w4LS6-W-xSeGET4K4NDr7bP0E/edit?usp=sharing), [publishing the case study](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#publishing-to-the-website) to the website, [adding the customer logo](/handbook/marketing/product-marketing/customer-reference-program/customer-insight/#adding-customer-logo-and-case-study-to-customers-grid) to the customer logo grid, and ensuring that the case study goes through proper social media and newsletter steps.
 
 **Examples:**
-1. [How Hotjar deploys 50% faster with GitLab](/customers/hotjar/)
-2. [Security provider KnowBe4 keeps code in-house and speeds up deployment](/customers/knowbe4/)
+1. [How Hotjar deploys 50% faster with GitLab](https://about.gitlab.com/customers/hotjar/)
+2. [Security provider KnowBe4 keeps code in-house and speeds up deployment](https://about.gitlab.com/customers/knowbe4/)
 
 ## Recommended Slack channels
 

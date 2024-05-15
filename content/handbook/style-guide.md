@@ -6,7 +6,7 @@ title: "Handbook Style Guide"
 
 GitLab's general communications practices are detailed at [GitLab Communication](/handbook/communication/), but beyond those we do have some channel-specific guidance available. This page is for Handbook-specific guidance that does not necessarily apply to the company overall or to other specific channels, such as [GitLab Documentation](https://docs.gitlab.com/) or the [GitLab Blog](https://about.gitlab.com/blog/).
 
-In the absence of Handbook-specific guidance, you can't go wrong by following GitLab's [Writing Style Guidelines](/handbook/communication/#writing-style-guidelines) and [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/). The GitLab Documentation site also offers a list of [topic-specific style guides](https://docs.gitlab.com/ee/development/contributing/style_guides.html).
+In the absence of Handbook-specific guidance, you can't go wrong by following GitLab's [Writing Style Guidelines](/handbook/communication/#writing-style-guidelines) and [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/). The GitLab Documentation site also offers a list of [topic-specific style guides](https://docs.gitlab.com/ee/development/contributing/style_guides.html). If something is not covered in any of those, there's also the [marketing site content style guide](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide.md).
 
 So what is style? Is it aesthetics? Information architecture? Interaction design? Technical implementation conventions? It can be all of these things, but we'll start this style guide with some information about common elements and tasks.
 
@@ -38,9 +38,7 @@ See [URL Guidelines](#url-guidelines) for more information about best practices 
 
 ### Link guidelines
 
-{{< youtube "ZGqLlrnZXw0" >}}
-
-*In the [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) video above, GitLab's [Shane R.](https://gitlab.com/shanerice) explains the importance of cross-linking and re-using links on `about.gitlab.com` to build authority and contribute to a single source of truth.*
+*In the [GitLab Unfiltered video](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc), GitLab's [Shane R.](https://gitlab.com/shanerice) explains the importance of cross-linking and re-using links on `about.gitlab.com` to build authority and contribute to a single source of truth.*
 
 Links from the Handbook should conform to a few general guidelines:
 
@@ -92,9 +90,10 @@ With root-relative URLs same-site links can work properly during local developme
 ## Related Resources
 
 - [GitLab Communication](/handbook/communication/)
-- [Blog style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/)
+- [Markdown guide](/handbook/markdown-guide/)
 - [GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/)
-  - [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
-- [Style guides](https://docs.gitlab.com/ee/development/contributing/style_guides.html)
+  - [Documentation style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
+- [GitLab style guides](https://docs.gitlab.com/ee/development/contributing/style_guides.html)
 - [Pajamas Design System](https://design.gitlab.com/)
-- [Markdown Guide](/handbook/markdown-guide/)
+- [Marketing site content style guide](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide.md)
+- [Blog style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/)

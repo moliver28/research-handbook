@@ -208,6 +208,7 @@ The psychosocial intervention advisor will investigate further and provide a rep
 The law defines power harassment as "remarks or behaviour by people taking advantage of their superior position that go beyond business necessity, thereby harming the workplace environment.  GitLab expressly prohibits any behaviour toward team members that falls within the definition of power harassment.
 
 Depending on the individual, a person may feel dissatisfaction when given the instructions, advice, or guidance necessary in the ordinary course of business.  In such cases where the actions are conducted within the scope of appropriate business practice, they should not fall under the category of power harassment.  Examples of power harassment include, but may not be limited to:
+
 - assault or injury (physical abuse)
 - threats, defamation, insult or slander (mental abuse)
 - isolation, ostracization or neglect (cutting them off from human relationships)
@@ -243,7 +244,7 @@ In addition to the prohibitions listed above, team members are prohibited from a
 1. Where the employee is unhappy with the outcome of the formal investigation, they have the right to appeal against the outcome if they can demonstrate why they believe a particular aspect of the investigation has materially affected the outcome. Appeals must be submitted within 10 working days of receiving the outcome of the complaint.
 1. If an appeal is submitted, the People Business Partner will arrange a meeting to take place with the appeal chair within a reasonable time period. The appeal chair’s decision will be final and there is no further right of appeal. The appeal chair will be independent of the investigation.
 
-### GitLab Ireland Ltd.
+### GitLab Ireland Ltd
 
 **Complaint Procedure and Contacts**
 
@@ -281,10 +282,9 @@ The Company is aware of and recognises the effect that bullying, harassment and 
 1. If the mediation process results in an agreement acceptable to both parties, the mediator will draw up a written record of the terms of the settlement for signature by both parties.
 1. If mediation breaks down or fails to achieve its goal, the matter can be processed through the other stages of this procedure. The person involved in the mediation process will not be involved in the investigation process.
 
-
 ### GitLab Inc and GitLab Federal LLC
 
-In addition to [EthicsPoint](http://gitlab.ethicspoint.com/) and [Lighthouse](/handbook/people-group/#how-to-report-violations), please review the [Team Member Relations Specialist](/handbook/people-group/#team-member-relations-specialist) section. GitLab also offers a [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing) that any team member may use to document any instance of any type of workplace harassment. Simply copy the form, fill it out with your information and send it to our Team Member Relations Specialist at teammemberrelations@gitlab.com.
+In addition to [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html) and [Lighthouse](/handbook/people-group/#how-to-report-violations), please review the [Team Member Relations Specialist](/handbook/people-group/#team-member-relations-specialist) section. GitLab also offers a [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing) that any team member may use to document any instance of any type of workplace harassment. Simply copy the form, fill it out with your information and send it to our Team Member Relations Specialist at teammemberrelations@gitlab.com.
 
 ### California Law Requirements
 
@@ -342,6 +342,6 @@ We are continuously gathering country specific references to review regulation a
 
 ## Further Guidance (Country-Specific)
 
-- [UK: Acas (advisory service for employees and employers)](https://www.acas.org.uk/index.aspx?articleid=1864)
-- [The Netherlands: Inspectorate SZW](https://www.inspectieszw.nl/)
+- [UK: Acas (advisory service for employees and employers)](https://www.acas.org.uk/discrimination-and-bullying)
+- [The Netherlands: Inspectorate SZW](https://www.nlarbeidsinspectie.nl/)
 - [Belgium: Unia: For equality, against discrimination](https://www.unia.be/en)

@@ -133,7 +133,7 @@ Self-hosted application infrastructure is determined on a case-by-case basis and
 
 ## Domain Names
 
-See the [Domain Names and DNS Records](/handbook/it/guides/domains-dns) IT guide handbook page for more details.
+See the [Domain Names and DNS Records](https://internal.gitlab.com/handbook/it/it-self-service/it-guides/domains-dns/) IT guide internal handbook page for more details.
 
 ## Terraform Environments
 

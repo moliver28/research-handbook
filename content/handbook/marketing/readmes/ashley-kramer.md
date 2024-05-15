@@ -78,7 +78,7 @@ Understand that when I say something, it is just me thinking out loud (collabora
 
 - Please follow the [CMO handbook for review requests](/handbook/marketing/cmo/) of MRs, slides, docs, etc. This workflow includes content updates/news to read async.
 - For most other communications, Slack is best.
-- If looking to book time with me, please reach out to Jeanette via the [#eba-team Slack channel](https://gitlab.slack.com/archives/C61RXLLDR). Learn [more](/handbook/eba/#contact-us).
+- If you want to book time with me, please contact [my EBA](/handbook/eba/#contact-us) via the [#eba-team Slack channel](https://gitlab.slack.com/archives/C61RXLLDR).
 - For urgent matters, please text me.
 
 ## My Strengths/Weaknesses

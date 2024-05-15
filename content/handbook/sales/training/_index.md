@@ -10,7 +10,7 @@ description: "GitLab's sales learning framework and sales training resources"
 
 
 
-# GitLab Sales Learning Framework
+## GitLab Sales Learning Framework
 
 GitLab field team members are expected to be knowledgeable and proficient across a variety of topics, skills, behaviors, and processes. For ease of consumption, sales training resources are organized in 6 categories below. If you are looking for more immediate access to resources to support your selling efforts, please check out the [Sales Resources](https://gitlab.highspot.com/spots/615dd7e3911d70c4887812a7) page.
 
@@ -33,18 +33,18 @@ To serve as trusted advisors to customers and partners, GitLab field team member
 
 | **Topic** | **Resource(s)** |
 | ------ | ------ |
-| What is DevOps? | - [DevOps Explained](/topics/devops/) (20 minutes) <br> - [Video](https://www.youtube.com/watch?v=_I94-tJlovg) (Dec 2013, 7 minutes) <br> - [Stages of the DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/) <br> - [DevOps terms: 10 essential concepts, explained](https://enterprisersproject.com/article/2019/8/devops-terms-10-essential-concepts) |
-| What is the software development life cycle and how is software developed and deployed? | - [GitLab's public website on the SDLC](/stages-devops-lifecycle/) <br> - [What is the Software Development Lifecycle (SDLC)?](https://www.youtube.com/watch?v=Ancdhr3t2sE) (July 2018, 11 minutes) <br> - [Software Development Lifecycle (SDLC) in 9 minutes!](https://www.youtube.com/watch?v=i-QyW8D3ei0) (Jan 2016, 9 minutes) <br> - [How is software made using GitLab?](https://www.youtube.com/watch?v=UuX-GnYWNwo&feature=youtu.be) (Nov 2019, 23 minutes)|
+| What is DevOps? | - [DevOps Explained](https://about.gitlab.com/topics/devops/) (20 minutes) <br> - [Video](https://www.youtube.com/watch?v=_I94-tJlovg) (Dec 2013, 7 minutes) <br> - [Stages of the DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/) <br> - [DevOps terms: 10 essential concepts, explained](https://enterprisersproject.com/article/2019/8/devops-terms-10-essential-concepts) |
+| What is the software development life cycle and how is software developed and deployed? | - [GitLab's public website on the SDLC](https://about.gitlab.com/stages-devops-lifecycle/) <br> - [What is the Software Development Lifecycle (SDLC)?](https://www.youtube.com/watch?v=Ancdhr3t2sE) (July 2018, 11 minutes) <br> - [Software Development Lifecycle (SDLC) in 9 minutes!](https://www.youtube.com/watch?v=i-QyW8D3ei0) (Jan 2016, 9 minutes) <br> - [How is software made using GitLab?](https://www.youtube.com/watch?v=UuX-GnYWNwo&feature=youtu.be) (Nov 2019, 23 minutes)|
 | What is Git? | - [Git Tutorials](https://www.youtube.com/playlist?list=PLu-nSsOS6FRIg52MWrd7C_qSnQp3ZoHwW) |
 | What is cloud-native? | - [GitLab website](https://about.gitlab.com/topics/cloud-native/) <br> - [Video on Cloud-Native Transformation](https://www.youtube.com/watch?v=WsIM034RnAc) (Mar 2019, 29 minutes) |
 | What is SCM? | - [Video](https://drive.google.com/file/d/13YIChJtWWTI2ekfM3ClSi0DMZRFpaQ9b/view) (June 2019, 29 minutes) |
 | What is CI and CD? | - [GitLab Continuous Integration (CI) & Continuous Delivery (CD)](/features/continuous-integration/) <br> - [Modernize Your CI/CD eBook](https://learn.gitlab.com/c/modernize-your-ci-cd) <br> - [Click here](https://gitlab.edcast.com/pathways/continuous-integration-customer-use-case/cards/5691968) to enroll in the Continuous Integration learning path (Aug 2020) |
-| What is DevSecOps? <br> What is "shift left?" | - [Security & Governance Enablement Update](https://youtu.be/O3osCCcZbt4) (Oct 2022, 30 minutes) <br> - [DevSecOps Campaign Refresh](https://youtu.be/6eE0K2NXNw8) (Oct 2021, 30 minutes) <br> - [DevSecOps with GitLab](/solutions/dev-sec-ops/) <br> - [2019 Global Developer Report: DevSecOps](https://learn.gitlab.com/devsecops/2019-global-develope) <br> - [Speed up secure software delivery with DevSecOps](https://about.gitlab.com/blog/2019/04/30/speed-secure-software-delivery-devsecops/) (Apr 2019) <br> - [Click here](https://gitlab.edcast.com/pathways/devsecops-customer-use-case/cards/1472168) to enroll in the DevSecOps learning path. (Aug 2020) |
-| What is Auto DevOps? | - [Auto DevOps](/stages-devops-lifecycle/auto-devops/) |
+| What is DevSecOps? <br> What is "shift left?" | - [Security & Governance Enablement Update](https://youtu.be/O3osCCcZbt4) (Oct 2022, 30 minutes) <br> - [DevSecOps Campaign Refresh](https://youtu.be/6eE0K2NXNw8) (Oct 2021, 30 minutes) <br> - [DevSecOps with GitLab](https://about.gitlab.com/solutions/dev-sec-ops/) <br> - [2019 Global Developer Report: DevSecOps](https://learn.gitlab.com/devsecops/2019-global-develope) <br> - [Speed up secure software delivery with DevSecOps](https://about.gitlab.com/blog/2019/04/30/speed-secure-software-delivery-devsecops/) (Apr 2019) <br> - [Click here](https://gitlab.edcast.com/pathways/devsecops-customer-use-case/cards/1472168) to enroll in the DevSecOps learning path. (Aug 2020) |
+| What is Auto DevOps? | - [Auto DevOps](https://about.gitlab.com/stages-devops-lifecycle/auto-devops/) |
 | What is GitOps and Infrastructure as Code? | - [Why GitOps should be the workflow of choice](https://about.gitlab.com/blog/2020/04/17/why-gitops-should-be-workflow-of-choice/) (Apr 2020) <br> - [Optimize GitOps workflow with version control from GitLab](https://about.gitlab.com/blog/2019/10/28/optimize-gitops-workflow/) (Oct 2019) |
 | What is open source? |- Check out [this post](https://opensource.com/resources/what-open-source) on opensource.com |
 | What is open core? |- [What to consider with an open source business model](https://about.gitlab.com/blog/2019/07/05/thoughts-on-open-source/) (Jul 2019) |
-| What are microservices? | - [Video: What are microservices?](https://www.youtube.com/watch?v=petnTitp6CQ) (Jan 2019, 19 minutes) <br> - [What are microservices?](/topics/microservices/) |
+| What are microservices? | - [Video: What are microservices?](https://www.youtube.com/watch?v=petnTitp6CQ) (Jan 2019, 19 minutes) <br> - [What are microservices?](https://about.gitlab.com/topics/microservices/) |
 | What is serverless? | - [What is Serverless?](https://www.youtube.com/watch?v=GBOroGozm5w) (Jan 2019, 18 minutes) |
 | What are containers? | - [What are containers and why do you need them?](https://www.cio.com/article/2924995/what-are-containers-and-why-do-you-need-them.html) (Jun 2017) <br> - [What are containers?](https://www.youtube.com/watch?v=wuhxSLapDe0) (Mar 2018, 9 minutes) |
 | What is Kubernetes? | - [What is Kubernetes?](https://www.youtube.com/watch?v=ALW6VBviSgQ) (Jun 2018, 12 minutes) <br> - [The Evolution of the Kubernetes Landscape](https://www.youtube.com/watch?v=5OLkPK4MRVQ) (Nov 2019, 30 minutes) <br> - [First Steps to Becoming Certified Kubernetes App Developer](https://www.katacoda.com/courses/kubernetes/first-steps-to-ckad-certification) (30-60 minutes) <br> - [Kubernetes API Fundamentals](https://katacoda.com/openshift/courses/operatorframework/k8s-api-fundamentals/) (30 minutes) |
@@ -136,16 +136,16 @@ To optimize productivity, GitLab field team members must be able to consistently
 | Other | - [Things I Wish I Knew During My First Few Quarters at GitLab](https://youtu.be/3gprWrDTEQM) video (Aug 2019, 25.5 minutes) <br> - Sessions (presentations, videos) from [GitLab Sales Kickoff 2021](https://gitlab.edcast.com/channel/sales-kickoff-sko-2021) <br> - Sessions from [GitLab Sales Kickoff 2020](/handbook/sales/training/SKO/#sales-kickoff-2020) |
 | Where can I go to learn more? | - Bookmark the [GitLab Sales Handbook](/handbook/sales/) <br> - [Upcoming and past Level Up sales enablement webcasts](/handbook/sales/training/sales-enablement-sessions/) <br> - [Customer Success Skills Exchange GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KorkxIFgZGnzzxjZRCGROt_) on YouTube <br> - Check out past [Customer Success meetings](/handbook/customer-success/#customer-success-meetings) where new features from recent product releases are discussed and/or demo'ed  |
 
-# Field Enablement Spotlight Sessions
+## Field Enablement Spotlight Sessions
 
 Live sales enablement sessions are held every Thursday from 12:00-12:30pm ET with the exception of the last two weeks of every quarter. Sessions are recorded and published to [Highspot](https://gitlab.highspot.com/items/6480e56aff37cbf397ac752f?lfrm=srp.2), made available for on-demand playback, and added to the inventory above. [Learn more here](/handbook/sales/training/sales-enablement-sessions/).
 
-# Customer Success Skills Exchange
+## Customer Success Skills Exchange
 
 Live customer success enablement videocasts are held roughly every other Wednesday. Learn more by visiting the [Customer Success Skills Exchange Sessions](/handbook/sales/training/customer-success-skills-exchange/#past-sessions) Handbook page and/or check out the [Customer Success Skills Exchange playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KorkxIFgZGnzzxjZRCGROt_) on GitLab Unfiltered to watch past sessions at a location and time of your choosing.
 
-# **Additional Notes**
-- Learn about GitLab customer training on the [GitLab Training Tracks site](/learn/)
+## **Additional Notes**
+- Learn about GitLab customer training on the [GitLab Training Tracks site](https://about.gitlab.com/learn/)
 - Learn about the [weekly GitLab Field Enablement Spotlight series](/handbook/sales/training/sales-enablement-sessions/)
 - Learn about the [weekly GitLab SDR Enablement webcast series](/handbook/sales/training/sales-enablement-sessions/)
 

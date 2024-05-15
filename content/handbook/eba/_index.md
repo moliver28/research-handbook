@@ -12,21 +12,22 @@ This page details processes and general guidelines specific to the Executive Bus
 | --- | --- | --- |
 | [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA, **Liki Simonot**<br>Sr EBA  | Sid Sijbrandij (CEO) |
 | [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Liki Simonot**<br>Sr EBA  | Stella Treas (Chief of Staff) |
-| [Engineering](/handbook/engineering/) | **Kim Hohmann**<br>Sr EBA  | Jörg Heilig (Interim CTO) |
-| [Finance](/handbook/finance/) | **Darci Tadich**<br>Sr EBA |  Brian Robins (CFO) |
-| [Finance](/handbook/finance/) | **Cindy King**<br>Sr EBA| Erin Mannix (Chief Accounting Officer)<br>Jim Gladen (VP of Tax)<br>Brijen Joshi (VP of Internal Audit) |
-| [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | Craig Mestel (VP of Finance & Business Technology) |
-| [Legal](/handbook/legal/) | **Sharlene Seemungal**<br>Sr EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
-| [Legal](/handbook/legal/)  | **Lauren Lopez**<br>EBA  | Eliran Mesika (Sr. Director of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Matt Taylor (Sr. Director of Legal, Commercial)<br>Rashmi Chachra (Sr. Director of Legal & Corporate Affairs, Corporate)<br>Robert Nalen (VP of Legal Operations)<br>Stacy Cline (Sr. Director of ESG)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
-| [Marketing](/handbook/marketing/)| **Chelsea Peterson**<br> Sr EBA | Ashley Kramer (CMSO) |
-| [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Carrie Maynard (VP of Integrated Marketing)<br>Lisa Boughner (VP of Communications)<br> Jean-Baptiste Larramendy (VP of Sales Development) |
+| [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
+| [Finance](/handbook/finance/) | **Darci Tadich**<br>Staff EBA |  Brian Robins (CFO) |
+| [Finance](/handbook/finance/) | **OPEN**<br> EBA| Erin Mannix (Chief Accounting Officer)<br>Jim Gladen (VP of Tax)<br>Brijen Joshi (VP of Internal Audit) |
+| [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations) |
+| [Legal](/handbook/legal/) | **Sharlene Seemungal**<br>Staff EBA  | Robin Schulman (CLO and Head of Corporate Affairs) |
+| [Legal](/handbook/legal/)  | **Lauren Lopez**<br>EBA  | Eliran Mesika (VP of Corporate Development)<br>Emily Plotkin (Sr. Director of Legal, Employment)<br>Lynsey Sayers (VP of Legal, Privacy & IP)<br>Matt Taylor (VP of Legal, Commercial)<br>Rashmi Chachra (Sr. Director of Legal & Corporate Affairs, Corporate)<br>Stacy Cline (Sr. Director of ESG)<br>Dan Hodes (Sr. Director of Legal, Risk Management and Dispute Resolution) |
+| [Marketing](/handbook/marketing/)| **Laura Vickerman**<br> Sr EBA | Ashley Kramer (CMSO) |
+| [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Carrie Maynard (VP of Integrated Marketing)<br> Jean-Baptiste Larramendy (VP of Sales Development) |
+| [Marketing](/handbook/marketing/)| **Erin Talanda**<br>EBA | Emilio Salvador (VP of Developer Relations & Growth)<br>Lisa Boughner (VP of Corporate Communications)<br>Christine Lee (VP of Marketing Ops & Analytics)<br> Amie Bright (VP of Data & Insights) |
 | [People](/handbook/people-group/) | **Julia Nishioki**<br>EBA  | Wendy Barnes (CPO)<br>Pattie Egan (VP of People Operations, Technology and Analytics)<br> Rob Allen (VP of Talent Acquisition)<br>Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) |
-| [Product](/handbook/product/) | **Jennifer Garcia**<br>EBA | Justin Farris (Sr Director of Product Monetization)<br>Hillary Benson (Sr Director of Product Management)<br>Mike Flouton (VP of Product Management) |
-| [Sales](/handbook/sales/) | **Alexa Schrauth**<br>Sr EBA | Chris Weber (CRO) |
-| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | David Sakamoto (VP of Customer Success)<br>Jonathan Fullam (VP of Global Solutions Architecture) |
+| [Product](/handbook/product/) | **Jennifer Garcia**<br>EBA | Justin Farris (VP of Product Management)<br>Hillary Benson (Sr Director of Product Management)<br>Mike Flouton (VP of Product Management) |
+| [Sales](/handbook/sales/) | **Alexa Schrauth**<br>Staff EBA | Chris Weber (CRO) |
+| [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
 | [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Jake Bielecki (VP of Field Operations) <br> Patty Cheung (VP of WW Channels & Alliances) |
-| [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of Public Sector Sales) <br> TBH (VP of AMER Sales) |
+| [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of Public Sector Sales) <br> Darren Moffett (VP of AMER Sales) |
 | [Security](/handbook/security/) | **Marisa Carlson**<br>Sr EBA  | Josh Lemos (CISO) |
 
 ## Contact us
@@ -36,6 +37,7 @@ Please feel free to ping/hang out with us in slack at #eba-team. If you need to 
 ## Meeting request requirements
 
 If you would like to schedule a meeting with a Leader at GitLab, please slack the appropriate EBA in #eba-team with the following information (or DM if confidential):
+
 1. Must have/optional attendees
 1. Meeting type: internal prep, client facing/customer, prospective customer, etc
 1. Urgency/ Desired timeframe: in the next two days, in the next week or two, etc
@@ -54,26 +56,22 @@ If you would like to schedule a meeting with a Leader at GitLab, please slack th
 
 Please follow the instructions above for scheduling a call with your customer, prospect or partner and an E-Group member at GitLab. Instead of using the Agenda Document template, meetings with customers, partners and prospects require the following documents in order to schedule:
 
-1. [Executive Customer Briefing Document](https://docs.google.com/document/d/1hyA12EN5iEwApAr_g4_-vhUQZohKxm5xkX9xxZ1JNog/edit?usp=sharing) should be used for all meetings with Customers or Prospects and provided to the EA at the time of the meeting request. This is the internal document that you will use to brief the Executive in a pre-meeting. Select file > make a copy to use this template and please make sure it is editable by everyone at GitLab. Watch Nico Ochoa in [this 6.5-minute video](https://youtu.be/Wdg9YGQvs20) share his best practices for completing this template ([click here](https://docs.google.com/document/d/1rITvwVvv9Vn89qAgRX2Pf69zzoRp2AcqjtYBVUAria8/edit?usp=sharing) for Nico's template). If you have any questions related to this document, please ping the Executive Business Administrator Team in #eba-team in slack.
-    1. *Optional* [Customer Collaboration Document](https://docs.google.com/document/d/18Ds04BicQCZ5J7gKU0K4AA-iq0l9YMRTLLsPBjlUJto/edit). In addition to an internal Executive Customer Briefing Document, our CEO and CRO may request a Customer Collaboration Document. This document is shared with the external party and is encouraged in collaborating externally. Please make a copy of this [document](https://docs.google.com/document/d/18Ds04BicQCZ5J7gKU0K4AA-iq0l9YMRTLLsPBjlUJto/edit) and update with Attendees and Agenda. Please ensure it's editable by everyone at GitLab, in addition to the external attendees. Please include both the Executive Customer Briefing Document and the Customer Collaboration doc to the EBA with your meeting request if both documents are requested by the Executive.
-1. [Partner Briefing Document](https://docs.google.com/document/d/1BR07oZcLwBOvkdz29mnr8i-rCGov2h3AkxaM036VcvY/edit) should be used for all meetings with Partners  and provided to the EA at the time of the meeting request.  Select file > make a copy to use this template and please make sure it is editable by everyone at GitLab. If you have any questions related to this document, please ping in #eba-team in slack.
-    1. In addition to an internal Partner Briefing Document, our CEO and CRO require a Customer/Partner Collaboration Document. This document is shared with the external party. Please make a copy of this [document](https://docs.google.com/document/d/18Ds04BicQCZ5J7gKU0K4AA-iq0l9YMRTLLsPBjlUJto/edit) and update with Attendees and Agenda. Please ensure it's editable by everyone at GitLab. Please include both the Executive Customer Briefing Document and the Customer Collaboration doc to the EBA with your meeting request.
+1. [Executive Customer/Partner Briefing Document](https://docs.google.com/document/d/1eTFV_U16mmKkeI_GcXeFl1eHc5KsN6nI8Kf64UTxFmM/edit?usp=sharing) should be used for all meetings with Customers or Prospects and provided to the EA at the time of the meeting request. This is the internal document that you will use to brief the Executive in a pre-meeting. Select file > make a copy to use this template and please make sure it is editable by everyone at GitLab. Watch Nico Ochoa in [this 6.5-minute video](https://youtu.be/Wdg9YGQvs20) share his best practices for completing this template ([click here](https://docs.google.com/document/d/1rITvwVvv9Vn89qAgRX2Pf69zzoRp2AcqjtYBVUAria8/edit?usp=sharing) for Nico's template). If you have any questions related to this document, please ping the Executive Business Administrator Team in #eba-team in slack.
 
 ### E-Group / VP In-Person Customer Visit Requests
 
 If you would like to request that an E-Group member / VP travel to visit a customer, please review [this template](https://docs.google.com/spreadsheets/d/1HxjfvOSRkZ61s6MGLINCjdgsjlz5AouwIQSPDM4ODrY/edit?usp=sharing) in its entirety to understand expectations.
+
 - Please coordinate with [respective EBAs](https://docs.google.com/presentation/d/1_tRO-5bDjcwUfqsLazfy4AcqeCLe8jOvDl04BHYlhEE/edit?usp=sharing) on aligning all visit details. If the requested GitLab Executive does not have an EBA, please work with them directly. Please tag applicable EBAs in the #eba-team Slack channel to get the process started.
-- Note: It is encouraged that an [Internal Briefing Document](https://docs.google.com/document/d/1hyA12EN5iEwApAr_g4_-vhUQZohKxm5xkX9xxZ1JNog/edit?usp=sharing) has been completed prior to requesting. Executive attendance to ensure proper background and prioritization.
-- If you have any questions regarding this process, please contact Alexa Schrauth, Sr. EBA - Sales, or Jeanette McCarthy, Sr. EBA - Marketing.
+- Note: It is encouraged that an [Internal Briefing Document](https://docs.google.com/document/d/1eTFV_U16mmKkeI_GcXeFl1eHc5KsN6nI8Kf64UTxFmM/edit?usp=sharing) has been completed prior to requesting. Executive attendance to ensure proper background and prioritization.
 
 ### Requesting Customer Meetings for your Executive
 
 If your Executive is requesting customer meetings while onsite on virtually, please refer to the following contacts as a helpful starting point. These contacts will assist in engaging the proper Sales representatives:
-- **AMER East**: Carissa Comp, AVP Regional Sales
-- **AMER West**: Darren Moffett, AVP Regional Sales
-- **APAC**: Craig Nielsen, VP Sales APAC
-- **EMEA**: Michel Isnard, VP of Enterprise Sales; Benjamin Caller, AVP Regional Sales
-- **Japan**: Shoji Ozawa, Japan Country Manager
+
+- **AMER**: Darren Moffett, VP AMER Sales
+- **APJ - APACJ/Japan**: Craig Nielsen, VP Sales APAC
+- **EMEA**: Michel Isnard, VP of Enterprise Sales
 - **Public Sector**: Bob Stevens, VP Public Sector Sales
 
 Please contact the @sales-eba-team with any questions.
@@ -209,20 +207,9 @@ To view members of Google Groups, reference the [Google Workspace group member r
 
 ## Company Mail
 
-The mail is forwarded weekly to the CFO's Sr. EBA and will be distributed accordingly.
-
-- Mail addressed to Sytse 'Sid' Sijbrandij - contact the EBA to CEO for next steps.
-- Incoming checks for deposit - scan and email to the PAO, Controller, Director of Revenue and Sr. Billing Manager; then send for deposit.
-- Mail from Comerica - scan and email to the Controller and Sr. Billing Manager.
-- Mail addressed to Legal - contact the CLO for next steps.
-- Mail related to tax documents - scan and email to the PAO, Director of Tax and Controller.
-- Mail related to employment, payroll, workers compensation, court orders - mail to designated Payroll Specialist.
-- Mail related to unemployment claims - scan and email to the [designated People Connect Team member](/handbook/people-group/offboarding/#us-unemployment-claim-management) at `people-connect@gitlab.com`.
-- Mail addressed to AP - scan and email to ap@gitlab.com.
-- Mail addressed to Meltano - scan and email to the contact person as listed in the Company Mail doc.
-- All human resources related documents will be sent to a designated team member on the People Group Team.
-- The Sr. EBA to the CFO is responsible for all remaining mail, which will be dispersed accordingly to specific individuals.
-- More information can be found [here](https://docs.google.com/document/d/1EwaqZpivB2b7tozZNV6iaFzIpNePIM4HsLbk62Ym0lQ/edit#).
+- GitLab uses a domestic enterprise mail service called Stable to retrieve mail from our UPS box to then be scanned and routed to the appropriate recipients.
+- Routing rules and distribution guidelines can be found [here](https://docs.google.com/document/d/1-41U8Fhqpjb6bAn6tutWHWZgZsz41tklfs7E1kjSLOo/edit?usp=sharing).
+- Address: 268 Bush St. #350 San Francisco, CA 94104
 
 ## OKRs
 
@@ -234,7 +221,7 @@ More information can be found [here](/job-families/people-group/executive-busine
 
 ## Signature Request procedure
 
-### When requesting a wet signature for a document(s) please have the following questions answered in advance.
+### When requesting a wet signature for a document(s) please have the following questions answered in advance
 
 1. Is there an issue? If there is more than two documents you may want to consider creating an issue to track progress
 1. What is this for?
@@ -249,15 +236,14 @@ More information can be found [here](/job-families/people-group/executive-busine
 1. When is this due?
 1. Where should the originals be sent? Include the recipient's name, company name, address and phone number.
 
-### Specific directions for signature request:
+### Specific directions for signature request
 
 - Indicate page numbers of document where signature is required, per document. For example Jane Doe is required to sign pages 3, 5 in two places and 8.
 - If there is more than one signature line on the signature page without details (name / company name) please indicate where to sign.
 - Should the document be dated? If yes, are we using the date the document is actually signed or different date? If we are using a different date please explain why.
 
-### Directions for executed documents:
+### Directions for executed documents
 
 - Scan and upload to Google drive?
 - Scan and email?
 - Send originals where?
-

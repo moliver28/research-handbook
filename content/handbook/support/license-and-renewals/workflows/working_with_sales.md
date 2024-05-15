@@ -19,10 +19,12 @@ description: This page is about working with sales.
 
 1. Consider adding the following note in the Chatter message:
 
- > Please note that according to the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales.html>) we expect a reply from you on this chatter within 24 hours (excluding weekend, Family and Friends Day & global holidays) stating when/if you will contact the customer.
+ > Please note that according to the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) we expect a reply from you on this chatter within 24 hours (excluding weekend, Family and Friends Day & global holidays) stating when/if you will contact the customer.
 
 1. Share the link to the Chatter message (right-click on timestamp) in an internal note on the ticket.
+
  - Note that you can only link to the original Chatter message, not to any of its comments.
+
 1. You may want to check the account owner's Slack status to see if they're
  currently taking time off work.
 1. If reaching out to the account owner on Slack (always on `#support_to_sales_escalation`
@@ -70,11 +72,11 @@ Customers with an Account Owner of `<@AMER|@EMEA|@APAC> SMB Sales User` are mana
 
 - Mention the person's direct manager in a Chatter comment.
   - Suggested message text:
-      > Following the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales.html>) I'm escalating this, as we haven't heard from <account owner\> within the agreed upon time.
+      > Following the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) I'm escalating this, as we haven't heard from <account owner\> within the agreed upon time.
       >
 1. From VP level onwards, mention them in a Slack message in `#support_to_sales_escalation` in addition to a Chatter comment.
     - Suggested message text in Chatter:
-      > Following the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales.html>) I'm escalating this, as we haven't heard from <account owner\> nor <account owner's manager\> within the agreed upon time.
+      > Following the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) I'm escalating this, as we haven't heard from <account owner\> nor <account owner's manager\> within the agreed upon time.
     - Suggested message text in Slack:
       > Following the "Working with Sales workflow" I'm escalating support ticket <https://gitlab.zendesk.com/agent/tickets/><ticket number\> as we haven't heard from <account owner\> nor <account owner's manager\> within the agreed upon time.
 1. Repeat as necessary every 24 hours and go one step up the reporting line, going all the way up to CEO if necessary.

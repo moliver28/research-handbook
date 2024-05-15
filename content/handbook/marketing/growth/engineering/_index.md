@@ -60,25 +60,6 @@ The following people are permanent members of groups that belong to the Growth s
 
 {{< team-by-departments department="Activation Team" >}}
 
-### Business Continuity - Coverage and Escalation
-
-The following table shows who will provide cover if one or more of the Growth Stage management team are unable to work for any reason.
-
-| Team Member                                 | Covered by                                     | Escalation                              |
-|---------------------------------------------|------------------------------------------------|-----------------------------------------|
-| {{< member-by-name "Wayne Haber" >}}        | {{< member-by-name "Phil Calder" >}}           | {{< member-by-name "Bartek Marnane" >}} |
-| {{< member-by-name "Phil Calder" >}}        | {{< member-by-name "Kamil Niechajewicz" >}}    | {{< member-by-name "Wayne Haber" >}}    |
-| {{< member-by-name "Kamil Niechajewicz" >}} | {{< member-by-name "Phil Calder" >}}           | {{< member-by-name "Wayne Haber" >}}    |
-
-If an issue arises - such as a production incident or feature change lock - that a team member needs management support with when their direct manager is not online, the team member should reach out to any Growth Engineering Manager by mentioning in `#sd_growth_engineering`. The Growth manager can help the team member follow the process and co-ordinate to ensure the team member has the necessary support.
-
-If an Engineer is unavailable the Engineering Manager will reassign open issues and merge requests to another engineer, preferably in the same [group](#all-team-members).
-
-Some people management functions may require escalation or delegation, such as [Workday](/handbook/people-group/workday/workday-guide/) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/).
-
-This can be used as the basis for a business continuity plan (BCP),
-as well as a general guide to Growth Engineering continuity in the event of one or more team members being unavailable for any reason.
-
 ## Counterparts
 
 We work closely with our [Product Team](/handbook/product/categories/#growth-stage) counterparts to design and implement
@@ -186,13 +167,13 @@ Async issue update
 
 **YYYY-MM-DD Update**
 
-#### Please provide a quick summary of the current status (one sentence).
+#### Please provide a quick summary of the current status (one sentence)
 
 #### When do you predict this feature to be ready for maintainer review?
 
 #### Are there any opportunities to further break the issue or merge request into smaller pieces (if applicable)?
 
-#### Were expectations met from a previous update? If not, please explain why.
+#### Were expectations met from a previous update? If not, please explain why
 
 ```
 
@@ -214,13 +195,21 @@ The Growth stage tracks number of experiments deployed as a development metric. 
 New experiments added to the codebase using [experiment feature flags](https://docs.gitlab.com/ee/development/feature_flags/#experiment-type) are tracked until removal.
 Current experiments shows the total number of experiments in the codebase (pending, active, or concluded and ready to be removed).
 
-{{< sisense chart="10621867" dashboard="799224" height="450" >}}
+
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Experimentscadenceandcurrentexperimentsdeployed/Experimentscadenceandcurrentexperimentsdeployed" >}}
+{{< /tableau >}}
 
 #### Growth Section Metrics
 
 Complete list of [Growth Section engineering metrics].
 
-{{% cross-functional-dashboards filters="growth" section=true %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "SECTION_LABEL"="growth" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "SECTION_LABEL"="growth" >}}
+{{< /tableau >}}
 
 ## Team Days
 
@@ -234,11 +223,9 @@ On occasion we hold virtual team days or meetings to take a break and participat
 
 ## Common Links
 
-* [How to create a Sisense SQL alert](/handbook/engineering/development/growth/sisense_alert.html)
 * [Growth stage]
 * [Growth workflow board]
 * `#s_growth` in [Slack](https://gitlab.slack.com/archives/s_growth) (GitLab internal)
-* [Growth technical debt status](https://app.periscopedata.com/app/gitlab/618368/Growth-technical-debt-status) (GitLab internal)
 * [Growth opportunities]
 * [Growth meetings and agendas] (GitLab internal)
 * [GitLab values]

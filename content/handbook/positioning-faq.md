@@ -16,7 +16,7 @@ title: "GitLab Positioning FAQs"
 
 ## What is the benefit of using GitLab?
 
-GitLab helps organizations deliver better products faster, increase operational efficiencies, and reduce security and compliance risks.  A single application that provides capabilities across DevSecOps lifecycle, GitLab reduces friction through collaboration at the point of code change. GitLab streamlines application delivery with an [out of the box delivery toolchain](/resources/whitepaper-forrester-manage-your-toolchain/) which reduces complexity, lowers maintenance cost, and streamlines delivery. Without GitLab teams need multiple tools which they then must integrate, manage, and maintain. With GitLab, you gain visibility on how long each part of the software development lifecycle is taking and how you can improve it.
+GitLab helps organizations deliver better products faster, increase operational efficiencies, and reduce security and compliance risks.  A single application that provides capabilities across DevSecOps lifecycle, GitLab reduces friction through collaboration at the point of code change. GitLab streamlines application delivery with an [out of the box delivery toolchain](https://about.gitlab.com/resources/whitepaper-forrester-manage-your-toolchain/) which reduces complexity, lowers maintenance cost, and streamlines delivery. Without GitLab teams need multiple tools which they then must integrate, manage, and maintain. With GitLab, you gain visibility on how long each part of the software development lifecycle is taking and how you can improve it.
 
 ## Is it similar to GitHub?
 
@@ -47,15 +47,14 @@ GitLab started as an open source alternative to GitHub. Instead of focusing on h
 1. TLDR- Yes.
 1. GitLab is used by over 100,000 organizations worldwide, on their own servers.
 1. GitLab.com serves millions of projects and hundreds of thousands of users each month
-1. [Goldman Sachs](/customers/goldman-sachs/) | **Problem**: Needed to increase developer efficiency and software quality | **Result**: Improved 2 builds/day to over a 1000/day; simplified workflow and simplified administration
+1. [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) | **Problem**: Needed to increase developer efficiency and software quality | **Result**: Improved 2 builds/day to over a 1000/day; simplified workflow and simplified administration
 1. [Jaguar Land Rover](https://about.gitlab.com/blog/2018/07/23/chris-hill-devops-enterprise-summit-talk/) | **Problem**: Slow delivery and release cycles taking 4 to 6 weeks leading to infrequent feedback for developers| **Result**: Increased delivery speed from 3-6 weeks to 30 minutes giving teams faster feedback.
-1. [Hemmersbach](/customers/hemmersbach/) | **Problem**: Multiple tools and communication inefficiencies slowed application delivery | **Result**: Increased build speed by 59x; 14.4% improvement in cycle time
+1. [Hemmersbach](https://about.gitlab.com/customers/hemmersbach/) | **Problem**: Multiple tools and communication inefficiencies slowed application delivery | **Result**: Increased build speed by 59x; 14.4% improvement in cycle time
 1. [2019 Gartner Peer Insights **Customers’ Choice - Enterprise Agile Planning Tools**](/press/releases/2019-07-26-gitLab-recognized-in-gartner-peer-insights-customers-choice-for-EAPT.html) average 4.6 rating: [“DevOps without the overhead”](https://www.gartner.com/reviews/review/view/916200) , [“Simple, Intuitive and efficient DevOps Life Cycle tool”](https://www.gartner.com/reviews/review/view/749177), and [“Secure and Scalable Solution”](https://www.gartner.com/reviews/review/view/876321)
 1. Forrester: [Q3 2017 Continuous Integration Wave-Leader](https://about.gitlab.com/blog/2017/09/27/gitlab-leader-continuous-integration-forrester-wave/)
 1. Gartner: [2021 Enterprise Agile Planning Tools - Visionary](/analysts/gartner-eapt21/)
 1. Gartner: [Q2 2020 Continuous Delivery and Release Automation-Contender](/analysts/forrester-cdra20/)
 1. Forrester: 2018 New Wave Value Stream Management- Strong Performer
-
 
 ## I use Bitbucket.  What can GitLab offer me?
 
@@ -117,11 +116,11 @@ GitLab started as an open source alternative to GitHub. Instead of focusing on h
 ## How does support work?
 
 1. For self-managed
-    1. On-premises EE - [support statement](/support/statement-of-support/#starter-premium-and-ultimate-users)
-    1. On-premises CE or Free - [support statement](/support/statement-of-support/#core-and-community-edition-users)
+    1. On-premises EE - [support statement](https://about.gitlab.com/support/statement-of-support/#starter-premium-and-ultimate-users)
+    1. On-premises CE or Free - [support statement](https://about.gitlab.com/support/statement-of-support/#core-and-community-edition-users)
 1. For GitLab.com
-    1. Paid tiers - [support statement](/support/statement-of-support/#bronze-silver-and-gold-users)
-    1. Free plan users - [support statement](/support/statement-of-support/#free-plan-users)
+    1. Paid tiers - [support statement](https://about.gitlab.com/support/statement-of-support/#bronze-silver-and-gold-users)
+    1. Free plan users - [support statement](https://about.gitlab.com/support/statement-of-support/#free-plan-users)
 
 ## Do you offer a solution for migrating data from GitHub, Bitbucket, SVN to GitLab?
 

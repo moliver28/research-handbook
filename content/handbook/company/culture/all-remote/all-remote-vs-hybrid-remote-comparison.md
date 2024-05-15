@@ -23,6 +23,7 @@ For the purpose of this compare and contrast exercise, we define hybrid-remote a
 Those who are never remote will default to working [office-first]({{< ref "./what-not-to-do" >}}) (e.g. using a [physical whiteboard]({{< ref "./collaboration-and-whiteboarding" >}}) that cannot support remote contribution) and those who are never in the office will miss out on non-transparent work conversations and promotion opportunities.
 
 For deeper dives on this topic, read our guides below.
+
 1. [How to evaluate a remote job]({{< ref "./evaluate" >}})
 1. [The stages of remote work]({{< ref "./stages" >}})
 1. [Hybrid-Remote: understanding nuances and pitfalls]({{< ref "./hybrid-remote" >}})
@@ -59,13 +60,12 @@ For deeper dives on this topic, read our guides below.
 | Eclectic mix of company-wide [in-person gatherings]({{< ref "./in-person" >}}) (vs. congregating at a standard office) |            Yes             |                                         No |
 | Hearing about watercooler chitchat and perpetual cubical drop-ins from your in-office colleagues |             No             |                                        Yes |
 
-***Learn more through [Life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and our [Out of the Office]({{< ref "./out-of-the-office" >}}) report. If this page resonates with you, visit GitLab's [Career Opportunities](/jobs/).***
+***Learn more through [Life at GitLab]({{< ref "culture#life-at-gitlab" >}}) and our [Out of the Office]({{< ref "./out-of-the-office" >}}) report. If this page resonates with you, visit GitLab's [Career Opportunities](https://about.gitlab.com/jobs/).***
 
 ## Assessing the remote workplace experience
 
 1. [RemoteRated](https://remoterated.com/) seeks to rate and rank organizations based on their remote fluency, cutting through what's advertised and focusing on *actual* team member experience.
 1. While [Glassdoor](https://www.glassdoor.com/) does not yet offer a dedicated `Remote Experience` filter in reviews, you are able to sort by `COVID-19 Related`. This filter increases the chances of reading reviews relevant to one's remote work experience at an organization. It's also helpful to search for `remote` within an organization's Review section. Glassdoor also offers [remote-related content on its blog](https://www.glassdoor.com/blog/tag/remote-work/).
-
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -75,6 +75,6 @@ For deeper dives on this topic, read our guides below.
 
 GitLab believes that all-remote is the [future of work]({{< ref "./remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page](./).

@@ -1,6 +1,6 @@
 ---
 title: "Test Platform Sub-Department"
-description: "Test Platform Sub-Department"
+description: "Test Platform Sub-Department enables successful development and deployment of high quality GitLab software applications by providing innovative build automated solutions, reliable tooling, refined test efficiency, and fostering an environment where Quality is Everyone's responsibility."
 ---
 
 ## Child Pages
@@ -20,7 +20,7 @@ description: "Test Platform Sub-Department"
 
 ## Mission
 
-At GitLab [Quality is everyone's responsibility](https://handbook.gitlab.com/handbook/engineering/development/principles/#quality). The Test Platform sub-department's mission is to be a world class team that enables successful development and deployment of high quality GitLab software applications with [kaizen](https://www.techtarget.com/searcherp/definition/kaizen-or-continuous-improvement) workflow efficiency, reliability, productivity.
+At GitLab [Quality is everyone's responsibility](/handbook/engineering/development/principles/#quality). The Test Platform sub-department's mission is to be a world class team that enables successful development and deployment of high quality GitLab software applications with [kaizen](https://www.techtarget.com/searcherp/definition/kaizen-or-continuous-improvement) workflow efficiency, reliability, productivity.
 
 The Test Platform sub-department does this by focusing on:
 
@@ -60,7 +60,7 @@ Integral parts of this vision:
 
 ## FY25 Direction
 
-GitLab has a [Three-Year Strategy](/handbook/company/strategy/). Our [Yearlies](/handbook/company/yearlies/) connect our 3 year strategy to our shorter-term quarterly [Objectives and Key Results (OKRs)](https://handbook.gitlab.com/handbook/engineering/infrastructure-quality/okrs/). The sub-department direction is accomplished through these objectives (OKRs).
+GitLab has a [Three-Year Strategy](/handbook/company/strategy/). Our [Yearlies](/handbook/company/yearlies/) connect our 3 year strategy to our shorter-term quarterly [Objectives and Key Results (OKRs)](/handbook/engineering/infrastructure-quality/okrs/). The sub-department direction is accomplished through these objectives (OKRs).
 
 Our focus is to support our FY25 Yearlies. They can be found in the [internal handbook](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies).
 
@@ -91,7 +91,7 @@ Test infrastructure provides stability, dependability, and testing continuity fo
 
 ### Test Coverage
 
-Given rapidly evolving technologies and our drive to provide a world class experience for GitLab users, Test Platform sub-department strives to meet the increasing demands of efficient, intelligent test coverage and confidence at scale. We aim to test the right things at the right time. We focus on exploring several new testing types and visibility improvements to increase the actionability, speed, and sophistication of our various test suites. 
+Given rapidly evolving technologies and our drive to provide a world class experience for GitLab users, Test Platform sub-department strives to meet the increasing demands of efficient, intelligent test coverage and confidence at scale. We aim to test the right things at the right time. We focus on exploring several new testing types and visibility improvements to increase the actionability, speed, and sophistication of our various test suites.
 
 - Machine learning for test gap recognition, failure analysis and classification, and failing fast.
 - New testing types: visual regression testing, chaos testing, contract testing, permissions testing.
@@ -118,6 +118,7 @@ To order to ensure platform is reliable, scalable, and secure, Test Platform sub
 - Continuous Integration Automated Test Pass Rate.
 - Different Performance Testing matrices like Average latency/ wait time, Average load time, requests per second, etc.
 
+Find relevant dashboards [here](dashboards).
 
 ### AI-powered Innovations
 
@@ -165,6 +166,7 @@ graph TD
     click C "/handbook/engineering/infrastructure/test-platform/test-engineering-team"
     click D "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team"
 ```
+
 ### Engage with us
 
 Feel free to reach out to us by opening an issue on the [Quality Team Tasks project](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues) or contacting us in one of the Slack channels listed below.
@@ -180,7 +182,7 @@ Feel free to reach out to us by opening an issue on the [Quality Team Tasks proj
 
 ### Management team
 
-{{< team-by-manager-role role="Interim Director, Test Platform" team="Manager" >}}
+{{< team-by-manager-role role="Director, Test Platform" >}}
 
 ### Individual contributors
 
@@ -250,9 +252,9 @@ The area a QEM is responsible for is defined in the [Product Stages and Groups](
 
 Milestones (product releases) are one of our [planning horizons](/handbook/product/product-processes/#planning-horizons), where prioritization is a collaboration between Product, Development, UX, and Quality. [DRIs](/handbook/people-group/directly-responsible-individuals/) for prioritization are based on work type:
 
-* Feature - PM
-* Maintenance - EM
-* Bug - QEM
+- Feature - PM
+- Maintenance - EM
+- Bug - QEM
 
 We use [type labels](/handbook/engineering/metrics/#work-type-classification) to track: feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types.
 
@@ -318,11 +320,11 @@ Please note that the borrow request might not guarantee 100% allocation to the r
 
 The list of all SET borrow requests can be seen [here](https://gitlab.com/gitlab-com/Product/-/issues/?label_name%5B%5D=SET%20Borrow).
 
-### Reliable tests
+### Blocking tests
 
-Reliable tests have met stricter reliability criteria than other tests in our test suite. When a failure is seen in a reliable test, it's less likely to be flakiness and more likely to be a true issue.
+Blocking tests have met stricter reliability criteria than other tests in our test suite. When a failure is seen in a blocking test, it's less likely to be flakiness and more likely to be a true issue.
 
-For more information, please visit our [reliable tests page](reliable-tests).
+For more information, please visit our [blocking tests page](blocking-tests).
 
 ### Risk mapping
 
@@ -345,18 +347,17 @@ If you need to debug a test failure, please visit our [debugging QA pipeline tes
 The Test Platform Sub-Department follows a regulation processes for ensuring efficient and consistent management of projects with clear guidelines.
 For more information, please visit our [project management page](project-management).
 
-## ChatOps for Quality
+## ChatOps for Test Platform
 
 The Test Platform Sub-Department maintains [ChatOps](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html) commands
-for Quality department which provides quick access to various information on Slack. These commands can be run on any Slack channel that has
-the GitLab ChatOps bot such as the [#test-platform](https://slack.com/app_redirect?channel=C3JJET4Q6) and [#chat-ops-test](https://slack.com/app_redirect?channel=CB2S7NNDP) channels.
+for Test Platform sub-department which provides quick access to various information on Slack. These commands can be run on any Slack channel that has the GitLab ChatOps bot such as the [#test-platform](https://slack.com/app_redirect?channel=C3JJET4Q6) and [#chat-ops-test](https://slack.com/app_redirect?channel=CB2S7NNDP) channels.
 
 Commands that are currently available are:
 
 | Command                              | Description |
 | ------------------------------------ | ----------- |
 | `/chatops run quality dri schedule`  | Lists the current schedule for [on-call rotation](oncall-rotation) |
-| `/chatops run quality dri report`    | Show current and previous Quality pipeline triage reports |
+| `/chatops run quality dri report`    | Show current and previous Test Platform pipeline triage reports |
 | `/chatops run quality dri incidents` | Lists currently active and mitigated incidents |
 
 For more information about these commands you can run:
@@ -385,7 +386,22 @@ We use Fibonacci Series for weights and limit the highest number to 8. The defin
 
 ## Performance Indicators
 
-TBA
+The Executive Summary of all KPIs can be found [here](/handbook/engineering/infrastructure/performance-indicators/#executive-summary).
+
+Test Platform owns and maintains the following:
+
+### Key Performance Indicators
+
+- [S1 Open Customer Bug Age (OCBA)](/handbook/engineering/infrastructure/performance-indicators/#s1-open-customer-bug-age-ocba)
+- [S2 Open Customer Bug Age (OCBA)](/handbook/engineering/infrastructure/performance-indicators/#s2-open-customer-bug-age-ocba)
+- [Team Member Retention](/handbook/engineering/infrastructure/performance-indicators/#quality-team-member-retention)
+
+### Regular Performance Indicators
+
+- [Average duration of end-to-end test suite](/handbook/engineering/infrastructure/performance-indicators/#average-duration-of-end-to-end-test-suite)
+- [Average age of quarantined end-to-end tests](/handbook/engineering/infrastructure/performance-indicators/#average-age-of-quarantined-end-to-end-tests)
+- [S1 Open Bug Age (OBA)](/handbook/engineering/infrastructure/performance-indicators/#s1-open-bug-age-oba)
+- [S2 Open Bug Age (OBA)](/handbook/engineering/infrastructure/performance-indicators/#s2-open-bug-age-oba)
 
 ## Learning Resources
 

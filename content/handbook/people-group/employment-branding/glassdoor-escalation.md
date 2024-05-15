@@ -59,5 +59,3 @@ After we've determined who will respond to the review and the response draft has
 ## More about our presence on Glassdoor
 
 For more details about how we manage our Glassdoor presence, [return to the main Talent Brand page]({{< ref "employment-branding#glassdoor" >}}).
-
-

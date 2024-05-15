@@ -17,8 +17,8 @@ PathFactory is an intelligent B2B content experience platform used to create per
 ## What is PathFactory used for?
 
 - PathFactory is used primarily for email nurture streams, landing pages, advertising, and virtual event follow-up.
- 
-- Assets are bundled together (around 5-7) in a "content track" and shared as one link. Instead of sharing multiple links to individual assets, **one link** provides a curated content experience. 
+
+- Assets are bundled together (around 5-7) in a "content track" and shared as one link. Instead of sharing multiple links to individual assets, **one link** provides a curated content experience.
 
 ### What PathFactory is _not_ used for
 
@@ -53,20 +53,20 @@ PathFactory is not a single source of truth (SSoT) for all GitLab content, but r
 
 ## Access
 
-The Marketing Operations team is responsible for managing access requests & provisioning the appropriate level of access for each role/function. PathFactory is not provisioned as a baseline entitlement. If you or your team require access, please open a [`Single Person Access Request` issue](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) and provide business reason why access is needed. For certain permissions or roles, you may be required to go through training before access is provisioned.
+The Marketing Operations team is responsible for managing access requests & provisioning the appropriate level of access for each role/function. PathFactory is not provisioned as a baseline entitlement. If you or your team require access, please open a [`Single Person Access Request` issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) and provide business reason why access is needed. For certain permissions or roles, you may be required to go through training before access is provisioned.
 
 ### User Roles
 
-There are four levels of access - `Admin`, `Author`, `Reporter`, `Viewer`, and `Uploader` - which are granted based on the persons' role and team function within GitLab. All access levels have the ability to view analtyics within the tool. 
+There are four levels of access - `Admin`, `Author`, `Reporter`, `Viewer`, and `Uploader` - which are granted based on the persons' role and team function within GitLab. All access levels have the ability to view analtyics within the tool.
 
 - `Admin` access is granted to Marketing Operations and at times, other teams such as sales or business operations to manage integrations between systems.
 - `Author` access allows user to build, edit and publish content tracks applying existing tags to the assets.
-- `Viewer` access provides general visibility to content within PathFactory but does not allow end user to create or modify any of the content, tracks or tags. This level of access is granted for the general GitLab team member both within Marketing and elsewhere who have a business need to have access. 
-- `Uploader` access allows users to create, edit, and delete content within tracks that have already been created, but does not allow users to create, edit, or delete tracks 
-- `Reporter` access allows users to view all analytics pages within our instance of PathFactory. 
+- `Viewer` access provides general visibility to content within PathFactory but does not allow end user to create or modify any of the content, tracks or tags. This level of access is granted for the general GitLab team member both within Marketing and elsewhere who have a business need to have access.
+- `Uploader` access allows users to create, edit, and delete content within tracks that have already been created, but does not allow users to create, edit, or delete tracks
+- `Reporter` access allows users to view all analytics pages within our instance of PathFactory.
 - `Sales User` is anyone who has a valid email domain associated with our PathFactory instance, but who does not have a login. These users are not able to login to PathFactory, but they will be able to share any content tracks that `Admins` select on the `Sales Configuration` page.
 
-For more info on the capabilities of each role, [see the knowledge base article](https://nook.pathfactory.com/nook/s/article/user-roles). 
+For more info on the capabilities of each role, [see the knowledge base article](https://nook.pathfactory.com/nook/s/article/user-roles).
 
 ### Rules of Engagement by Team
 
@@ -105,7 +105,7 @@ For more info on the capabilities of each role, [see the knowledge base article]
 
 **[Marketing Operations](/handbook/marketing/marketing-operations/)**
 
-1. [PathFactory Author Onboarding](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=pathfactory_author_onboarding) 
+1. [PathFactory Author Onboarding](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=pathfactory_author_onboarding)
 1. [Generic PathFactory request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=pathfactory_request)
 1. [PathFactory QA Review request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=pathfactory_qa_review)
 1. [New PathFactory form request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=pathfactory_form)
@@ -121,9 +121,9 @@ For more info on the capabilities of each role, [see the knowledge base article]
    - *This issue template should be used sparingly, as content should be added to Pathfactory by content owners ongoing as it becomes available. This is helpful for examples like a number of videos produced during a Commit event with many sessions.*
 1. [Pathfactory Track Request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-track)
 
-## Important Note Using PathFactory 
+## Important Note Using PathFactory
 
-PathFactory has no built-in audit log or trail for changes that are made within the content library (only that it was updated and by whom) or content tracks. It is critically important that everyone with `Author` role access to PathFactory follow the instructions and documentation outlined in this handbook. Any changes made to the content library or content tracks can have a negative impact on those content tracks which are tied to campaigns, reporting, and attribution. 
+PathFactory has no built-in audit log or trail for changes that are made within the content library (only that it was updated and by whom) or content tracks. It is critically important that everyone with `Author` role access to PathFactory follow the instructions and documentation outlined in this handbook. Any changes made to the content library or content tracks can have a negative impact on those content tracks which are tied to campaigns, reporting, and attribution.
 
 For instance, if an asset is deleted from the content library and that asset exists in campaign-related content tracks, the user that visits that asset within that track will be redirected to `about.gitlab.com`, which has the following impacts:
 
@@ -131,7 +131,7 @@ For instance, if an asset is deleted from the content library and that asset exi
 1. Skews data in the campaign, reporting, and attribution
 1. Potentially loses out on further nurturing that user, or making an unknown user known through gating
 
-The same impacts above can happen if an `Author` role makes changes to an existing content track without collaborating with the `Author` of that track. 
+The same impacts above can happen if an `Author` role makes changes to an existing content track without collaborating with the `Author` of that track.
 
 **Before making any of these impactful changes, please collaborate with the `Author` of a content track _before_ making any changes or asking in `#mktgops` before deleting any assets in the content library.**
 
@@ -166,8 +166,8 @@ The [content library](/handbook/marketing/marketing-operations/pathfactory/conte
 There are multiple types of PathFactory experiences that you can create under `Campaign Tools`:
 
 1. Content Tracks (target or recommend)
-   - Target Tracks - Target Tracks are collections of content that you have selected and organized in order to give your visitors a specific content journey. 
-   - Recommend Tracks - Recommend Tracks are collections of content specifically selected by you, and which rely on machine-learning to suggest the ideal content to show your prospects based on what they are already viewing. 
+   - Target Tracks - Target Tracks are collections of content that you have selected and organized in order to give your visitors a specific content journey.
+   - Recommend Tracks - Recommend Tracks are collections of content specifically selected by you, and which rely on machine-learning to suggest the ideal content to show your prospects based on what they are already viewing.
 1. Explore Pages - Explore Pages allow your visitors to quickly view all content assets in a content track. Each `Explore Page` you create is built on top of an existing `Target` or `Recommend` Content Track.
 1. Website Promoters - Website promoters allow you to harness the power of PathFactory’s content promoters directly on your website. They provide more opportunities for interested parties to find and enter your Content Tracks by connecting eye-catching CTAs to content tracks.
 
@@ -179,7 +179,7 @@ When adding assets to the [content library](/handbook/marketing/marketing-operat
 
 When adding localized content to Pathfactory, enter the localized title and description in the `Public Configuration` section. This is what external viewers of the content will see. Under `Internal Configuration`, enter the language with the English asset name (example: [Japanese] GitLab in Action Overview Demo). `Internal Configuration` is only viewable internally in Pathfactory.
 
-### Tracks 
+### Tracks
 
 When creating and editing content tracks, please use the following naming convention to let others know the status of your track. These track names are not shown to the visitor of the track. Name the track so that other `Author` roles understand the use of your track. Add start and end dates for your campaign if relevant so it can be archived/deleted at a later date. Add [persona](/handbook/marketing/marketing-operations/pathfactory/content-library/#personas) in the track title if the track is for a specific persona. [Add a GTM motion](/handbook/marketing/marketing-operations/pathfactory/content-library/#how-to-upload-content) to the title if the track assets are focused toward a specific GTM motion.
 
@@ -189,7 +189,7 @@ When creating and editing content tracks, please use the following naming conven
 
 ### Track Labels
 
-Track labels are used to document the channels that a content track is distributed on. These track labels are arbitrary and do not tie to any functionality within PathFactory. They are simply used to indicate to other `Author` roles within PathFactory how you intend to use your content track. 
+Track labels are used to document the channels that a content track is distributed on. These track labels are arbitrary and do not tie to any functionality within PathFactory. They are simply used to indicate to other `Author` roles within PathFactory how you intend to use your content track.
 
 | Label | Use |
 | ------ | ------ |
@@ -213,13 +213,13 @@ Track labels are used to document the channels that a content track is distribut
 | web promoter | content track is used in a website promoter within PathFactory |
 | website | content track is linked on a web page on `about.gitlab.com` |
 
-### Track Folders 
+### Track Folders
 
-Track folders are set up by team as different teams within marketing use and distribute content tracks for various use cases. This helps to ensure that team members only make change to content tracks within their team folder. 
+Track folders are set up by team as different teams within marketing use and distribute content tracks for various use cases. This helps to ensure that team members only make change to content tracks within their team folder.
 
 ### Forms
 
-Forms should not be served based on the amount of time spent in a track, but rather after a visitor consumes 2-3 pieces of content. When a visitor progresses to the next piece of content (after the initial 2-3), they'll be asked to complete a form. 
+Forms should not be served based on the amount of time spent in a track, but rather after a visitor consumes 2-3 pieces of content. When a visitor progresses to the next piece of content (after the initial 2-3), they'll be asked to complete a form.
 
 When naming forms, please follow the naming convention:
 
@@ -252,7 +252,7 @@ Before creating a new content track, decide what type of content track (target v
 
 ### Create a Content Track
 
-1. When you're ready, login to PathFactory SSO via Okta. 
+1. When you're ready, login to PathFactory SSO via Okta.
 1. Go to `Content Activation` on the top navigation bar >>  Select `Standard Experiences` (formerly `Campaign Tools`) >> Select the content track type you want to create (`Target` or `Recommend`).
 1. Click the `Create track` button on the top right.
 1. Name your content track. Be descriptive about the topic or campaign that your track will be used for. If you're unsure, review the names of other content tracks to get an idea. The content track name is for internal use only and will not be shown to visitors. Each content track has to have a unique name. You cannot use duplicate names for content tracks.
@@ -269,7 +269,7 @@ Before creating a new content track, decide what type of content track (target v
    - **Important:** All content tracks should be set up with custom URL slugs to prevent any future changes to the track from breaking the link and thus the user experience.
    - If you change the custom URL slug after a PathFactory link has been implemeneted, those links have to be updated wherever they were used (ads, emails, website, etc.).
 1. Ensure that the Search Engine Directive is set to `No Index, No Follow`.
-1. Set the appearance for the track. 
+1. Set the appearance for the track.
 1. Set the language for the track.
 1. Leave `Links & Sharing` set to default.
 1. Leave `External Code` and `External ID 1` set to default (`None`).
@@ -304,15 +304,15 @@ Before creating a new content track, decide what type of content track (target v
 
 #### CTAs
 
-[Call-to-action (CTA)](https://nook.pathfactory.com/nook/s/article/using-cta) buttons encourage further engagement from your visitors within your Content Tracks. CTAs can be added to any Target or Recommend Content Track. These CTA buttons can link to either a form or a URL. 
+[Call-to-action (CTA)](https://nook.pathfactory.com/nook/s/article/using-cta) buttons encourage further engagement from your visitors within your Content Tracks. CTAs can be added to any Target or Recommend Content Track. These CTA buttons can link to either a form or a URL.
 
 **Create a CTA**
 
-1. Click the settings (gear icon) and navigate to `CTAs` under `User Experience`. 
-1. Click the `Add CTA` button. 
+1. Click the settings (gear icon) and navigate to `CTAs` under `User Experience`.
+1. Click the `Add CTA` button.
 1. Enter a name for the CTA (internal purposes only). Be specific so others know what the main goal of the CTA is.
 1. Enter a button label for your CTA. This is what the user will see. Copy for CTAs should typically be 2-3 words max (18 characters) and include action words such as `Watch a demo`.
-1. Choose your CTA type (form, link, email). 
+1. Choose your CTA type (form, link, email).
    - If choosing **form** as your CTA type, **it must include** proper capture tags and script. Do not choose a `WIP` form as your CTA.
    - If choosing **link** as your CTA type, **it must include** UTM parameters for proper tracking (ex: `utm_source=pathfactory&utm_medium=cta-name`)
    - For **email**, simply input the email address you want users to contact from clicking the CTA.
@@ -338,13 +338,13 @@ Form strategy is used on content tracks to collect data from unknown visitors. T
 **Form strategy by asset:**
 
 1. Click `Add Rule` in the `Content Rules` row.
-1. Select the `General Form (2074) LIVE` form unless otherwise required according to campaign needs. Do not select a form marked `[WIP]`. 
+1. Select the `General Form (2074) LIVE` form unless otherwise required according to campaign needs. Do not select a form marked `[WIP]`.
 1. Under `Display Behavior`, click the dropdown and choose the assets where you want the form to show. (**Please Note:** only assets that you have added to the content track will show in the dropdown. If you want the form to show on an asset that _is not_ in the track, you will need to add it first.)
 1. Select the amount of seconds you want to delay before the form shows on the asset. `10 seconds` is the default selection.
 1. Select additional options for the form behavior. If you will be using the content track or individual asset links in an email, you are working with a known audience and therefore should only select `Show to unknown users`. This prevents forms being shown to users who are already known in Marketo. However, if you are using the form on the web or other channels, you'll want to select `Show to unknown users` only.
-1. Ensure `Show to Known Visitors` is toggled off. 
+1. Ensure `Show to Known Visitors` is toggled off.
 1. Leave `If submitted, allow form to show again` toggled off.
-1. You can `allow visitors to dismiss the forms` if it is not crucial to its use to have them submit their info. 
+1. You can `allow visitors to dismiss the forms` if it is not crucial to its use to have them submit their info.
 1. The option `Keep promoters active when form is shown` is up to the `Author`. For example, if the `Flow` promoter is used on a content track, they will still be able to see the sidebar of avialable content while the form is shown to them. If this option is toggled off, the visitor _will not_ be able to click on any content in the sidebar until they fill out the form.
 
 **Form strategy for content tracks:**
@@ -358,7 +358,7 @@ Form strategy is used on content tracks to collect data from unknown visitors. T
 
 1. Click through the experience to ensure assets, CTAs, and forms load properly and that promoters are working as intended.
 1. Remove any extraneous `?` (there should only be one immediately after the end of the URL).
-1. Watch for extra `&` when [appending UTMs](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#utm-tracking). 
+1. Watch for extra `&` when [appending UTMs](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#utm-tracking).
 1. Test and ensure the experience is working as intended.
 
 **When a track is LIVE (in use):**
@@ -382,7 +382,7 @@ Form strategy is used on content tracks to collect data from unknown visitors. T
 * [This GDoc](https://docs.google.com/spreadsheets/d/1MYGePezz7666yXJJNRkif0ekJwxnIoJMBgFPshOm1IY/edit#gid=1504719228) tracks progress toward all prescriptive buyer journeys being built out in Pathfactory, *including live links*.
 * These tracks live under [Target Tracks](https://gitlab.lookbookhq.com/authoring/content-library/target) > Demand Gen > `Segment Campaigns` (subject to change if the folders get massive - HB to update as needed)
 * These tracks align to the [Prescriptive Buyer Journeys ("PBJs")](/handbook/marketing/prescriptive-buyer-journeys/) which will be iterated on collaboratively across marketing
-* The Campaigns Team will iterate and test out different styles, form strategy, end promoter settings, and . 
+* The Campaigns Team will iterate and test out different styles, form strategy, end promoter settings, and .
 * The [Example "PBJ" Track](https://gitlab.lookbookhq.com/authoring/content-library/target/57384) has the following elements and settings applied (for easy cloning) but only contains one asset when the future ones would have 3-4 assets:
    - *Reminder Campaigns Team: The example below is just a starting point. Experimentation and testing recommended!*
    - Track settings: (FYI) set to default according to [these instructions](/handbook/marketing/marketing-operations/pathfactory/#configure-content-track-settings)
@@ -398,11 +398,11 @@ Form strategy is used on content tracks to collect data from unknown visitors. T
 
 ## PathFactory Forms
 
-The forms used in PathFactory are hardcoded Marketo form script. They are added to PathFactory using the Marketo script, but they should also include the PathFactory capture tags and custom parameters to capture additional information behind the form fill. If a new form is created, the PathFactory capture tag and custom parameters **must be hardcoded in the script**. 
+The forms used in PathFactory are hardcoded Marketo form script. They are added to PathFactory using the Marketo script, but they should also include the PathFactory capture tags and custom parameters to capture additional information behind the form fill. If a new form is created, the PathFactory capture tag and custom parameters **must be hardcoded in the script**.
 
 ### Request a new PathFactory Form
 
-To request a new form to use in PathFactory, the form must first exist in Marketo. If one does not exist, first create an issue in the marketing ops project using the [`form_request.md` template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/form_request.md). Once the Marketo form is completed, then create an issue in the marketing ops project using the [`pathfactory_form.md` template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/pathfactory_form.md). 
+To request a new form to use in PathFactory, the form must first exist in Marketo. If one does not exist, first create an issue in the marketing ops project using the [`form_request.md` template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/form_request.md). Once the Marketo form is completed, then create an issue in the marketing ops project using the [`pathfactory_form.md` template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/pathfactory_form.md).
 
 ### Capture Tags
 
@@ -412,7 +412,7 @@ We use external forms (added by External URL or Custom HTML generated from Marke
 
 ## PathFactory Links
 
-- Only content track links are meant to be used and shared. Do not share individual asset links from the content library. 
+- Only content track links are meant to be used and shared. Do not share individual asset links from the content library.
 - You can use a content track link for multiple use cases as long as you apply UTMs appropriately. Applying UTMs helps us differentiate how the track performed across different channels.
 - If the link breaks or an asset is deleted, the user will be redirected from your content track to the `#all` track, which includes all assets uploaded to PathFactory. In a case where the user is not redirected to the `#all` track, they will be redirected to the `Fallback URL` which is set to `about.gitlab.com`.
 - **Do not use the `lb_email=` parameter when sharing `about.gitlab.com` links in Marketo emails. This parameter is used on `learn.gitlab.com` links to identify anonymous track visitors.**
@@ -482,7 +482,7 @@ PathFactory’s [Microsite Builder](https://nook.pathfactory.com/s/article/micro
 - Event or webcast follow-up
 - Personalized/co-branded resource hub
 
-### Explore Pages vs. Microsites:
+### Explore Pages vs. Microsites
 
 Microsite builder expands on how Explore Pages are used and improves on Explore Pages with a more robust and advanced feature set.
 
@@ -493,11 +493,11 @@ With Microsite builder you can:
 
 ### Creating a Microsite
 
-You can request a new microsite, or an update to an existing microsite via [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=pathfactory_microsite_request). 
+You can request a new microsite, or an update to an existing microsite via [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=pathfactory_microsite_request).
 
 Microsite templates:
-- Personalized/co-branded content hub: `[Template] Partner Custom Microsite` 
-- Resource center: TBA 
+- Personalized/co-branded content hub: `[Template] Partner Custom Microsite`
+- Resource center: TBA
 - Event or webcast follow-up: TBA
 ## Explore Pages
 
@@ -588,11 +588,11 @@ There is no native integration between [Smartling](/handbook/marketing/localizat
 
 ### PathFactory Webhook
 
-Webhooks allow PathFactory to automatically connect with a third party system and send data every time someone visits or interacts with a PathFactory experience. There are 3 types of PathFactory webhooks (form capture, visitor session, visitor activity). 
+Webhooks allow PathFactory to automatically connect with a third party system and send data every time someone visits or interacts with a PathFactory experience. There are 3 types of PathFactory webhooks (form capture, visitor session, visitor activity).
 
-We currently use the `Visitor Session Webhook` to connect to Marketo. The `Visitor session` webhook is triggered off of session data. A `visitor session` begins when a visitor arrives on a content track and ends when that visitor has stopped engaging with content for thirty minutes. This webhook is triggered when a visitor session ends. This means that the webhook will trigger and send data to Marketo thirty minutes after the visitor has finished engaging with content. The data sent though this webhook provides an overview of the level of engagement the visitor had with your content track and the content assets inside them during the session. 
+We currently use the `Visitor Session Webhook` to connect to Marketo. The `Visitor session` webhook is triggered off of session data. A `visitor session` begins when a visitor arrives on a content track and ends when that visitor has stopped engaging with content for thirty minutes. This webhook is triggered when a visitor session ends. This means that the webhook will trigger and send data to Marketo thirty minutes after the visitor has finished engaging with content. The data sent though this webhook provides an overview of the level of engagement the visitor had with your content track and the content assets inside them during the session.
 
-### PathFactory Scoring 
+### PathFactory Scoring
 
 PathFactory applies a score to a person based on how much time they spent viewing an asset by its content type. The PathFactory score is incorporated into the [Behavior score in Marketo](/handbook/marketing/marketing-operations/marketo/#behavior-scoring).
 
@@ -621,16 +621,15 @@ PathFactory applies a score to a person based on how much time they spent viewin
 
 ### Bizible
 
-There are 2 external forms in PathFactory with apply Bizible touchpoints using JavaScript. 
+External forms in PathFactory will apply a Bizible touchpoints using JavaScript.
 
-1. `MOps: Form Submit-Bizible`: Applies a Bizible touchpoint upon form submit within a PathFactory track
-1. `MOps: Bizible-Met Threshold`: Applies a Bizible touchpoint when a visitor to a track has met the engagement threshold
+`MOps: Form Submit-Bizible`: Applies a Bizible touchpoint upon form submit within a PathFactory track
 
-- [Bizible attribution with PathFactory](/handbook/marketing/marketing-operations/bizible/#bizible-attribution-with-pathfactory)
+Learn more about [Bizible attribution with PathFactory](/handbook/marketing/marketing-operations/bizible/#amm-attribution-with-pathfactory)
 
 ## Custom PathFactory Fields
 
-There are custom PathFactory fields available in Salesforce and Marketo. 
+There are custom PathFactory fields available in Salesforce and Marketo.
 
 | **Field Name** | **Purpose** |
 | ---------- | ------- |
@@ -680,7 +679,7 @@ The [Google Chrome Extension for PathFactory](https://nook.pathfactory.com/nook/
 
 ### How to include PathFactory content in Gmail
 
-1. Compose a new email in Gmail. 
+1. Compose a new email in Gmail.
 1. After composing your message, click the PathFactory icon next to the `Send` button.
 1. Navigate to the desired content track or content asset using the folder system. Use the search bar to find a specific track or content asset, and/or the filter to find content with specific topics.
 1. There are two ways for you to include content in your email:
@@ -701,16 +700,16 @@ The PathFactory Google Chrome Extension will only de-anonymize users who view co
 
 [Access protection](https://nook.pathfactory.com/nook/s/article/access-protection) protects content and events so only a select group of people can access it, based on them having a valid email address or email domain based on an _allowed list_. This allows you to share more confidential information with prospects, customers and employees in a content track or a VEX Event without the worry of someone viewing it who shouldn’t be.
 
-### Set Up Access Protection 
+### Set Up Access Protection
 
-1. Select the cog menu, and select `Access Protection`. 
+1. Select the cog menu, and select `Access Protection`.
 1. Select an existing group you wish to modify or create a new group. Each group is an _allowed list_ that you can apply to experiences you build in PathFactory. You can apply one or more groups as _allowed lists_ to specific content tracks or Explore pages. Ensure the name and description of the group is clear for other users.
-1. Add the email addresses or email domains of the individuals you would like to grant access to. You can do this by manually typing it in or pasting a comma or space separated list into the input field. 
-1. Press enter to lock them in and then press `Add Email` to save. You can edit or delete these values at any point. 
+1. Add the email addresses or email domains of the individuals you would like to grant access to. You can do this by manually typing it in or pasting a comma or space separated list into the input field.
+1. Press enter to lock them in and then press `Add Email` to save. You can edit or delete these values at any point.
 
-**Note:** Anyone who has an email address in the Domains list or the Email Address list will be able to access the content. 
+**Note:** Anyone who has an email address in the Domains list or the Email Address list will be able to access the content.
 
-### Localized Access Protection 
+### Localized Access Protection
 
 1. In the cog menu, click `Languages`.
 1. Select the language group on the side and navigate to `Access Protection`.
@@ -733,12 +732,12 @@ The PathFactory Google Chrome Extension will only de-anonymize users who view co
 
 ### Adding Access Protection to a Content Track
 
-1. Navigate to your content track. 
+1. Navigate to your content track.
 1. In the track settings on the left-hand side, set the language and access protection applicable for that track.
 
 ### How Access Protection Works
 
-1. When someone tries to access the content track, they will be prompted to enter their email address. 
+1. When someone tries to access the content track, they will be prompted to enter their email address.
 1. When they submit an email address address which is in the group, they will get the confirmation message and will need to navigate to their email inbox where they will find an email from support (`support@pathfactory.com`) with the link to access the content track.
 1. The visitor must click this link to validate that they are the owner of the email address. Once they click the link in the email they will gain access to the content track.
 1. If they enter an email address that is not in the access protection group(s) you've selected, they will get the warning message you set in the configuration and will have the ability to try again.
@@ -751,5 +750,5 @@ To set up Drift on your PathFactory track:
 
 1. Select the `MOps: Drift` external code snippet on the `External Code` field within your track settings.
 1. Click `Update`.
-1. [Create a Drift campaign request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=Drift_Campaign_Request) and provide the PathFactory track link in the issue. Add the `PathFactory` issue label and cc `@MihaiConteanu`. 
+1. [Create a Drift campaign request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=Drift_Campaign_Request) and provide the PathFactory track link in the issue. Add the `PathFactory` issue label and cc `@MihaiConteanu`.
 1. Once the Drift campaign request issue is complete, document your PathFactory track and associated Drift playbook in the [PathFactory changelog](https://docs.google.com/document/d/1qd9X-V0WNBTklCKNYVRmjJtiOcPu6dZYkfJ2uuQt_Co/edit) with relevant links. -->

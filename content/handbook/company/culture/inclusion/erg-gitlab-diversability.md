@@ -31,7 +31,7 @@ Also, we act as a support group. Whether it's async in Slack or live during a me
 
 ## Additional Resources
 
-### Neurodivergence is considered a disability? Yes.
+### Neurodivergence is considered a disability? Yes
 
 When we are talking about a disability, we are referring to any physical or mental condition that limits a major life activity, or a history of such a condition. This includes ADHD, Dyslexia, Autism, and other cognitive disabilities, as well as mental health concerns such as depression or anxiety and physical conditions. We often refer to people with cognitive disabilities as being neurodivergent or having a neurodivergence ([many people prefer "people first language use" and you can learn more about it here](https://odr.dc.gov/page/people-first-language)).
 
@@ -43,7 +43,7 @@ You don’t have to be specific about your diagnosis. An employer may ask for ve
 
 #### Formal disclosure of your disability
 
-If you believe you need to request reasonable accommodations to succeed at GitLab, please notify the [Team Member Relations team]({{< ref "/handbook/people-group/team-member-relations" >}}) at `teammemberrelations@gitlab.com`. The Job Accommodation Network (JAN) site has great resources, questions to consider, and examples of types of accommodations. For example, the [AD/HD](https://askjan.org/disabilities/Attention-Deficit-Hyperactivity-Disorder-AD-HD.cfm) page. The Company will work with each individual to define their job-related or application-related needs and to try to accommodate those needs according to [the GitLab Individuals with Disabilities Policy]({{< ref "inc-usa#individuals-with-disabilities-policy" >}}).
+If you believe you need to request reasonable accommodations to succeed at GitLab, please notify the [Team Member Relations team](/handbook/people-group/team-member-relations) at `teammemberrelations@gitlab.com`. The Job Accommodation Network (JAN) site has great resources, questions to consider, and examples of types of accommodations. For example, the [AD/HD](https://askjan.org/disabilities/Attention-Deficit-Hyperactivity-Disorder-AD-HD.cfm) page. The Company will work with each individual to define their job-related or application-related needs and to try to accommodate those needs according to [the GitLab Individuals with Disabilities Policy]({{< ref "inc-usa#individuals-with-disabilities-policy" >}}).
 
 #### Informal disclosure of your disability, or simply notifying your team or manager
 

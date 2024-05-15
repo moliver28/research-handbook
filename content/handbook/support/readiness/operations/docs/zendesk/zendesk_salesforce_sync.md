@@ -27,53 +27,41 @@ This first gathers the data from Salesforce. This is done via the following SOQL
 
 ```sql
 SELECT
-  Account.Account_ID_18__c,
-  Account.Name,
-  Account.CARR_This_Account__c,
-  Account.Ultimate_Parent_Sales_Segment_Employees__c,
-  Account.Account_Owner_Calc__c,
-  Account.Number_of_Licenses_This_Account__c,
-  Account.Type,
-  Account.Technical_Account_Manager_Name__c,
-  Account.Account_Demographics_Geo__c,
-  Account.GS_Health_Score_Color__c,
-  Account.Next_Renewal_Date__c,
-  Account.Restricted_Account__c,
-  Account.Partners_Partner_Status__c,
-  Account.Partners_Partner_Type__c,
-  Account.Partner_Track__c,
-  (SELECT
-     Current_Subscription_Status__c,
-     Current_Term_End_Date__c,
-     Current_Term_Start_Date__c,
-     Entitled_Seats__c,
-     Product_Tier_Name_Short__c,
-     Plan_Name__c
-   FROM Customer_Subscriptions__r
-   WHERE Current_Subscription_Status__c = 'Active'),
-  (SELECT
-     Name,
-     Zuora__Status__c,
-     Zuora__SubscriptionEndDate__c,
-     Zuora__SubscriptionStartDate__c,
-     Support_Level__c,
-     Zuora__OpportunityName__c,
-     Zuora__SubscriptionNumber__c
-   FROM Zuora__Subscriptions__r
-   WHERE Zuora__Status__c = 'Active'),
-  (SELECT
-     Name,
-     Zuora__SoldToWorkEmail__c
-   FROM Zuora__R00N40000001kyLcEAI__r
-   WHERE IsDeleted = false)
+  Account_ID_18__c,
+  Name,
+  Type,
+  Ultimate_Parent_Sales_Segment_Employees__c,
+  Account_Owner_Calc__c,
+  Technical_Account_Manager_Name__c,
+  GS_Health_Score_Color__c,
+  Restricted_Account__c,
+  Solutions_Architect_Lookup__r.Name,
+  Account_Demographics_Geo__c,
+  Latest_Sold_To_Contact__r.Email,
+  Latest_Sold_To_Contact__r.Name,
+  Partner_Track__c,
+  Partners_Partner_Type__c,
+  (
+    SELECT
+      Id,
+      Name,
+      Zuora__ProductName__c,
+      Zuora__EffectiveEndDate__c,
+      Zuora__Quantity__c,
+      Zuora__TotalContractValue__c,
+      Subscription_Status__c
+    FROM Zuora__R00N40000001lGjTEAU__r
+    WHERE
+      Zuora__EffectiveEndDate__c != NULL
+  )
 FROM Account
 WHERE
-  (Account.Type IN ('Customer', 'Former Customer') OR
-   Account.Account_ID_18__c = '0014M00001sGJ8xQAG') OR
-  (Account.Type = 'Partner' AND
-   Account.Partners_Partner_Status__c IN ('Authorized', 'Former') AND
-   Account.Partners_Partner_Type__c IN ('Alliance', 'Channel') AND
-   Account.Partner_Track__c IN ('Open', 'Select', 'Technology')
+  Type IN ('Customer', 'Former Customer') OR
+  (
+    Type = 'Partner' AND
+    Partners_Partner_Status__c IN ('Authorized', 'Former') AND
+    Partners_Partner_Type__c IN ('Alliance', 'Channel') AND
+    Partner_Track__c IN ('Open', 'Select', 'Technology')
   )
 ```
 
@@ -104,7 +92,122 @@ for them based off the information of the subscriptions (gathered earlier).
 Once that is done, the scripts then remove all "greatly expired" organizations
 from Zendesk Global in accordance with our data retention policy.
 
-## Zendesk Global Salesforce cases sync
+## Zendesk US Government organizations sync
+
+**Note** This set of scripts also handles the
+[Zendesk US Government users sync](#zendesk-us-government-users-sync). We have
+separated it into its own section for ease of readability.
+
+This first gathers the data from Salesforce. This is done via the following SOQL
+(Salesforce Object Query Language) query:
+
+<details>
+<summary>SOQL query used</summary>
+
+```sql
+SELECT
+  Account_ID_18__c,
+  Name,
+  Ultimate_Parent_Sales_Segment_Employees__c,
+  Account_Owner_Calc__c,
+  Technical_Account_Manager_Name__c,
+  GS_Health_Score_Color__c,
+  Restricted_Account__c,
+  Solutions_Architect_Lookup__r.Name,
+  (
+    SELECT
+      Id,
+      Name,
+      Zuora__ProductName__c,
+      Zuora__EffectiveEndDate__c,
+      Zuora__Quantity__c,
+      Zuora__TotalContractValue__c,
+      Subscription_Status__c
+    FROM Zuora__R00N40000001lGjTEAU__r
+  )
+FROM Account
+WHERE
+  (
+    Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
+    Account_Demographics_Territory__c != 'PUBSEC_' AND
+    (
+      NOT Account_Demographics_Territory__c LIKE '%SLED%'
+    )
+  ) OR
+  Support_Instance__c = 'federal-support'
+```
+
+</details>
+
+This data is then processed by the script to verify the account's subscriptions
+(both Customer and Zuora).
+
+From here, it then gathers all the organization data from Zendesk US Government.
+
+The scripts then compares the data from Salesforce and the data from Zendesk
+US Government. From this comparison, it locates Zendesk US Government
+organizations that need to be updated and ones that need to be created.
+
+The scripts will then begin syncing this information to Zendesk US Government,
+updating organizations that need updating and creating the ones that need
+creation.
+
+## Zendesk US Government users sync
+
+**Note** This set of scripts also handles the
+[Zendesk US Government organizations sync](#zendesk-us-government-organizations-sync).
+We have separated it into its own section for ease of readability.
+
+This first gathers the data from Salesforce. This is done via the following SOQL
+(Salesforce Object Query Language) query:
+
+<details>
+<summary>SOQL query used</summary>
+
+```sql
+SELECT
+  Name,
+  Email,
+  Account.Account_ID_18__c,
+  Account.Name
+FROM Contact
+WHERE
+  Inactive_Contact__c = false AND
+  Name != '' AND
+  Email != '' AND
+  (
+    NOT Email LIKE '%gitlab.com'
+  ) AND
+  (
+    (
+      Account.Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
+      Account.Account_Demographics_Territory__c != 'PUBSEC_' AND
+      (
+        NOT Account.Account_Demographics_Territory__c LIKE '%SLED%'
+      )
+    ) OR
+    Account.Support_Instance__c = 'federal-support'
+  )
+```
+
+</details>
+
+This data is then processed to remove any contacts with duplicate emails or
+missing data.
+
+From here, it then gathers all the user data from Zendesk US Government.
+
+The scripts then compare the data from Salesforce and the data from Zendesk US
+Government. From this comparison, it locates Zendesk US Government users that
+need to be updated and ones that need to be created. It will use the
+organization data from the
+[Zendesk US Government organizations sync](#zendesk-us-government-organizations-sync)
+to determine the organization ID.
+
+The scripts will then begin syncing this information to Zendesk US Government,
+updating users that need updating and creating the ones that need creation.
+
+## Zendesk Salesforce cases sync
 
 This is runs at two periods of time:
 
@@ -117,150 +220,91 @@ Zendesk Global ticket data.
 For when a ticket is closed, it will update the corresponding case to indicate
 it has been closed.
 
-## Zendesk US Federal organizations sync
+#### Pipeline error '1: No case ID to update'
 
-**Note** This set of scripts also handles the
-[Zendesk US Federal users sync](#zendesk-us-federal-users-sync). We have
-separated it into its own section for ease of readability.
+This is a silent error, meaning that while it did occur, the code exits with a
+code of 0 (and thus, the pipeline does not actually fail).
 
-This first gathers the data from Salesforce. This is done via the following SOQL
-(Salesforce Object Query Language) query:
+This error occurs when there was not a SFDC case to update, as the corresponding
+field on the Zendesk ticket was blank.
 
-<details>
-<summary>SOQL query used</summary>
+As there was no actual case to update, no action is needed here and this can be
+safely ignored.
 
-```sql
-SELECT
-  Account.Account_ID_18__c,
-  Account.Name,
-  Account.CARR_This_Account__c,
-  Account.Ultimate_Parent_Sales_Segment_Employees__c,
-  Account.Account_Owner_Calc__c,
-  Account.Number_of_Licenses_This_Account__c,
-  Account.Type,
-  Account.Technical_Account_Manager_Name__c,
-  Account.GS_Health_Score_Color__c,
-  Account.Next_Renewal_Date__c,
-  Account.Restricted_Account__c,
-  Solutions_Architect_Lookup__r.Name,
-  (SELECT
-     Current_Subscription_Status__c,
-     Current_Term_End_Date__c,
-     Current_Term_Start_Date__c,
-     Entitled_Seats__c,
-     Product_Tier_Name_Short__c,
-     Plan_Name__c
-   FROM Customer_Subscriptions__r
-   WHERE Current_Subscription_Status__c = 'Active'),
-  (SELECT
-     Name,
-     Zuora__Status__c,
-     Zuora__SubscriptionEndDate__c,
-     Zuora__SubscriptionStartDate__c,
-     Support_Level__c,
-     Zuora__OpportunityName__c,
-     Zuora__SubscriptionNumber__c
-   FROM Zuora__Subscriptions__r
-   WHERE Zuora__Status__c = 'Active'),
-  (SELECT
-     Name,
-     Zuora__SoldToWorkEmail__c
-   FROM Zuora__R00N40000001kyLcEAI__r
-   WHERE IsDeleted = false)
-FROM Account
-WHERE
-  Type IN ('Customer', 'Former Customer')
-  AND (
-    (
-      Account_Demographics_Territory__c LIKE 'PUBSEC%'
-      AND Account_Demographics_Territory__c != 'PUBSEC_'
-      AND (NOT Account_Demographics_Territory__c LIKE '%SLED%')
-    )
-    OR Support_Instance__c = 'federal-support'
-  )
-```
+#### Pipeline error '2: Restforce::ErrorCode::InsufficientAccessOnCrossReferenceEntity'
 
-</details>
+This is a silent error, meaning that while it did occur, the code exits with a
+code of 0 (and thus, the pipeline does not actually fail).
 
-This data is then processed by the script to verify the account's subscriptions
-(both Customer and Zuora).
+This error indicates that when the script tried to create/update a case, SFDC
+stated that there was not sufficient permission on the object (reference) to do
+it. While this could be permission base, the error is a bit of a misnomer and in
+the sync's case actually means that the parent reference (i.e. the SFDC account)
+did not exist.
 
-From here, it then gathers all the organization data from Zendesk US Federal.
-This does very little actual processing of the data, short of ignoring tags that
-aren't related to the sync itself.
+As the actual SFDC account does not exist, no action is needed here and this can
+be safely ignored.
 
-The scripts then compares the data from Salesforce and the data from Zendesk
-US Federal. From this comparison, it locates Zendesk US Federal organizations
-that need to be updated and ones that need to be created.
+#### Pipeline error '3: Restforce::ErrorCode::UnableToLockRow'
 
-The scripts will then begin syncing this information to Zendesk US Federal,
-updating organizations that need updating and creating the ones that need
-creation.
+This will cause an actual pipeline failure.
 
-## Zendesk US Federal Salesforce cases sync
+This error indicates that when trying to do a create/update, which requires
+locking a row in SFDC, it was was unable to do so. This usually means something
+in either the specific reference (i.e. the case) or the parent reference (i.e
+the SFDC account) already had a lock in place that conflicts with the newly
+needed lock.
 
-This is runs at two periods of time:
+When this error occurs, the sync is set to retry the attempt 3 times (with 5
+second back-off timers in-between attempts). If it continues to hit the same
+error after those attempts, the script ultimately reports the error and exits
+with a status code of 1.
 
-- whenever a ticket with an organization associated is created
-- whenever a ticket with a matching Salesforce case is closed
+To rectify this, you should wait about 10 minutes or so and retry the pipeline
+itself. If the results are the same after your manual retrying of the pipeline,
+it is best to create an issue in our
+[issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
+to have this investigated further by the team. Make sure to link to the failed
+pipeline!
 
-For when a ticket is created, it will create a Salesforce case based off the
-Zendesk US Federal ticket data.
+#### Pipeline error '4: Faraday::ConnectionFailed'
 
-For when a ticket is closed, it will update the corresponding case to indicate
-it has been closed.
+This will cause an actual pipeline failure.
 
-## Zendesk US Federal users sync
+This means the Faraday connection attempt failed to fully connect. There can be
+a plethora of reasons for this to occur.
 
-**Note** This set of scripts also handles the
-[Zendesk US Federal organizations sync](#zendesk-us-federal-organizations-sync).
-We have separated it into its own section for ease of readability.
+When this error occurs, the sync is set to retry the attempt 3 times (with 5
+second back-off timers in-between attempts). If it continues to hit the same
+error after those attempts, the script ultimately reports the error and exits
+with a status code of 1.
 
-This first gathers the data from Salesforce. This is done via the following SOQL
-(Salesforce Object Query Language) query:
+To rectify this, you should wait about 10 minutes or so and retry the pipeline
+itself. If the results are the same after your manual retrying of the pipeline,
+it is best to create an issue in our
+[issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
+to have this investigated further by the team. Make sure to link to the failed
+pipeline!
 
-<details>
-<summary>SOQL query used</summary>
+#### Pipeline error '5: Net::OpenTimeout'
 
-```sql
-SELECT
-  Contact.Name,
-  Contact.Email,
-  Account.Account_ID_18__c,
-  Account.Name,
-  Contact.Inactive_Contact__c
-FROM Contact
-WHERE
-  Contact.Inactive_Contact__c = false
-  AND Account.Type IN ('Customer', 'Former Customer')
-  AND (
-    (
-      Account.Account_Demographics_Territory__c LIKE 'PUBSEC%'
-      AND Account.Account_Demographics_Territory__c != 'PUBSEC_'
-      AND (NOT Account.Account_Demographics_Territory__c LIKE '%SLED%')
-    )
-    OR Account.Support_Instance__c = 'federal-support'
-  )
-```
+This will cause an actual pipeline failure.
 
-</details>
+This means the Faraday connection never got a response back from the host (SFDC)
+in an acceptable time frame. There can be a plethora of reasons for this to
+occur.
 
-This data is then processed to remove any contacts with duplicate emails or
-missing data.
+When this error occurs, the sync is set to retry the attempt 3 times (with 5
+second back-off timers in-between attempts). If it continues to hit the same
+error after those attempts, the script ultimately reports the error and exits
+with a status code of 1.
 
-From here, it then gathers all the user data from Zendesk US Federal. This does
-very little actual processing of the data, short of ignoring tags that aren't
-related to the sync itself.
-
-The scripts then compare the data from Salesforce and the data from Zendesk US
-Federal. From this comparison, it locates Zendesk US Federal users that need to
-be updated and ones that need to be created. It will use the organization data
-from the
-[Zendesk US Federal organizations sync](#zendesk-us-federal-organizations-sync)
-to determine the organization ID.
-
-The scripts will then begin syncing this information to Zendesk US Federal,
-updating users that need updating and creating the ones that need creation.
+To rectify this, you should wait about 10 minutes or so and retry the pipeline
+itself. If the results are the same after your manual retrying of the pipeline,
+it is best to create an issue in our
+[issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
+to have this investigated further by the team. Make sure to link to the failed
+pipeline!
 
 ## Change management
 
@@ -268,11 +312,6 @@ As these are maintained via sync repositories, our standard change management
 process applies to all Zendesk-Salesforce Sync. See
 [standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
 for more information.
-
-#### Labels to use
-
-For all issues and MRs involving the Zendesk-Salesforce Sync, the label
-`Support-Ops-Category::Sync` should be used.
 
 #### Change criticality
 

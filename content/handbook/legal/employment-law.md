@@ -4,7 +4,6 @@ title: "Employment Law at GitLab"
 
 Employment law refers to the law that governs the relationship between employer and employee, so the Employment section of GitLab Legal interacts with the People Group on a regular basis to provide information and legal advice related to the entire arc of our team members’ relationship with GitLab.  **So what does that mean?**
 
-
 - It means we work closely with the Tax and People Operations team to determine scalable employment solutions for the Company as it hires across the globe, using a collaborative process for gathering and assessing relevant information on any particular country.
 - It means we support the Talent Acquisition department in meeting its goals and ensuring compliance with all local laws and regulations as they source, recruit, and hire new team members.
 - It means we help the People Operations team onboard new team members and get them the information they need that applies both to their location and to their job responsibilities.
@@ -33,7 +32,6 @@ Below are some common employment topics where Legal is asked to provide input. T
 
 ## Before Hire
 
-
 #### Talent Acquisition
 
 Legal reviews sourcing and talent acquisition strategy for compliance and advises about requirements for applicant tracking in the various countries in which we hire.
@@ -49,7 +47,6 @@ Legal reviews overall background check policy and procedure in place, helps deve
 Legal should be asked to review negotiated contracts that seek to change standard terms.
 
  - Standard contract terms are audited on a semi-annual basis. A contract audit issue will be opened to review the terms and gather input from appropriate teams across the organization. These issues will be opened on January 1 for implementation on June 30 and on July 1 for implemenation on December 31. To suggest a change to an entity contract template, please leave a comment in the current contract audit issue found in the `People Operations` project and titled  Semi-Annual `Global Employment Contract Review YYYY-January or June`.
-
 
 #### Compliance with Onboarding Issues
 
@@ -81,7 +78,6 @@ As GitLab scales, global expansion efforts require support from a dedicated cros
 - The GitLab Employment Legal Team completes a Country Expansion Issue using an Issue Template. This Issue is submitted and operates to (a) inform each legal team stakeholder; (b) review the current employment status of the country (for example, does GitLab have team members in that location?); (c) engage external counsel (as applicable); and (d) review and gather additional information related to the country and individual(s) which may play a role with regards to employment, employment contract(s), costs of employing in the country, and other material elements.
 - Based upon the information from the Country Expansion Issue, the cross-functional team will determine and recommend next steps;
 - If expansion is determined by the cross-functional team, a second Issue will be opened by the Employment Legal Team to manage the next step(s), which may include (a)supporting the creation of the new employment solution, (b) converting current team members to the new solution, (c) supporting Corporate, Finance, and Tax (as applicable) if a new entity is formed, (d) creating or reviewing employment contracts, (e) reviewing equity compliance, and (f) developing jurisdiction-specific employment and privacy policies where applicable.
-
 
 #### Policy Development
 
@@ -177,6 +173,7 @@ At GitLab, we have a [Flexible PTO policy](/handbook/paid-time-off/#a-gitlab-tea
 1. They’re taking enough time
 1. Coverage still exists when they take the time
 1. If they are taking what seems to be excessive time, you find out why.  It could be that they have a reason that they actually need to take leave.
+
 </details>
 
 <details>

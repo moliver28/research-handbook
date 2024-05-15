@@ -119,7 +119,7 @@ GitLab and PMG triage issues and plan the completion of work in relevant milesto
 - Review issues and make comments of the current status, @ mentioning relevant steakholders that should be included
 - Update `assignee` and `to-do` label to the correct DRI if that has changed
 - If the milestone has expired and the work is NOT completed, move the issue to a following milestone unless there is a problem that needs discussed during weekly triage. **Note:** _if the issue has been moved multiple times without progress, bring the issue to the triage meeting to help move it forward_
-- Friday or Monday are recommended days to review milestone boards. This allows you to close out one week and prepare your activities for the coming week  
+- Friday or Monday are recommended days to review milestone boards. This allows you to close out one week and prepare your activities for the coming week
 
 
 ## Channel & Vendor Relations
@@ -128,16 +128,16 @@ GitLab and PMG triage issues and plan the completion of work in relevant milesto
 ### Publishers
 {: #publishers}
 
-PMG initiates & manages Publisher/Sponsorship contracts using the following process: 
+PMG initiates & manages Publisher/Sponsorship contracts using the following process:
 
-- Pre-RFP 
+- Pre-RFP
    - GitLab and PMG collaborate to confirm the available quarterly budget, targeting guidelines, and GitLab’s content priorities for publisher programs.
 - RFP Process
-   - PMG begins the RFP process by contacting multiple vendors that may be a potential fit. (PMG handles all email and phone communication with vendors). Ideally, for any particular initiative - it is best to stick to a maximum of 3 potential partners to look into. 
+   - PMG begins the RFP process by contacting multiple vendors that may be a potential fit. (PMG handles all email and phone communication with vendors). Ideally, for any particular initiative - it is best to stick to a maximum of 3 potential partners to look into.
    - Based on a vendor’s program offerings and targeting capabilities, PMG will evaluate and recommend potential vendors to GitLab.
    - Once GitLab has decided on a recommended vendor(s), PMG will handle contracting the program—vendors bill PMG directly.
 - Campaign Process
-   - Once the contract is signed by PMG and the vendor, program deliverables are posted to a new issue by PMG. 
+   - Once the contract is signed by PMG and the vendor, program deliverables are posted to a new issue by PMG.
    - GitLab will post completed deliverables to the issue and PMG will pass the information along to the vendor.
    - If the program generates leads, leads will be sent directly from the vendor to GitLab for PII/GDPR reasons. GitLab must ensure that GDPR language is in place when the user downloads GitLab content from the vendor’s site.
    - The designated sender at GitLab will then open a publisher engagement epic to upload lead lists and enable program tracking.
@@ -227,8 +227,8 @@ The UTM structure is at the core of all of PMG’s reporting. The UTM parameters
 - utm_content
 
 PMG uses the following rules when building UTM and platform names:
-- Use the [GitLab Platform Campaign Name & UTM Parameter Builder](https://drive.google.com/drive/u/1/folders/1bNxyuMECGQ2ENyBHM2DYv0HPap9nEyZ2) to start any URL or platform campaign name, never from scratch.	
-- All letters should be lowercase only.	
+- Use the [GitLab Platform Campaign Name & UTM Parameter Builder](https://drive.google.com/drive/u/1/folders/1bNxyuMECGQ2ENyBHM2DYv0HPap9nEyZ2) to start any URL or platform campaign name, never from scratch.
+- All letters should be lowercase only.
 - For campaign/content utm, there should be no blank values. Always select from the dropdown. `x` is most often used as a placeholder when there is not a correct value to choose from.
 - Hyphens `-` and Underscores `_` can be used accordingly:
    - Underscores are used as our delimiter - that is, they separate one dimension from another.

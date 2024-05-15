@@ -59,7 +59,7 @@ If you need to escalate a request, please use the [release management escalation
 
 Each week, the current Release Managers walk through the key Delivery Group metrics in the EMEA/AMER Delivery Weekly sync ([YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoPzC03-4yXuJEWdUo7VZfX)). The goal is to share experiences about recent deployments and releases, and for the Group to identify ways we can improve our tools and processes.
 
-[MTTP Monthly](/handbook/engineering/infrastructure-quality/performance-indicators/#mean-time-to-production-mttp) - [MTTP Weekly](https://app.periscopedata.com/app/gitlab/573702/WIP:-Delivery-team-PIs) - [Deployment blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1192) - [Deployment SLO](https://dashboards.gitlab.net/d/delivery-deployment_slo/delivery-deployment-slo?orgId=1) - [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) - [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency)
+[MTTP Monthly](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp) - [Deployment blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1192) - [Deployment SLO](https://dashboards.gitlab.net/d/delivery-deployment_slo/delivery-deployment-slo?orgId=1) - [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) - [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency)
 
 1. Walkthrough [Auto-Deploy packages dashboard](https://dashboards.gitlab.net/d/delivery-auto_deploy_packages/delivery-auto-deploy-packages-information?orgId=1)
 1. Walkthrough the monthly view of [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) and [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=lead-time) - note any patterns
@@ -82,7 +82,6 @@ Each week, the current Release Managers walk through the key Delivery Group metr
 [auto-deploy]: https://www.youtube.com/watch?v=_G-EWRpCAz4
 [process-monthly-release]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md
 [process-patch-release]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/patch/process.md
-[process-auto-deploy]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/auto-deploy.md
 [process-security-release-critical]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#critical-security-releases
 [process-security-release-non-critical]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#non-critical-security-releases
 [Release Managers schedule]: https://about.gitlab.com/community/release-managers/

@@ -11,6 +11,7 @@ Our mission is to deliver and maintain a world-class observability offering and 
 
 
 ## Common Links
+
 |                                |                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Workflow**                   | [Team workflow](/handbook/engineering/infrastructure/team/scalability/#how-we-work)                                                                                                                                                                                                                                                                                                                                            |
@@ -70,7 +71,53 @@ Between these different signals, we have a relatively (im)precise view into the 
 
 [service maturity model]: /handbook/engineering/infrastructure/service-maturity-model/
 
+### Provisioned Services
+
+The team are responsible for provisioning access to the services listed below, as per the [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) file.
+
+1. **Kibana** is accessed through Okta. Team members need to be in either of the following Okta groups: `gl-engineering` (entire Engineering department); `okta-kibana-users`. The latter group is used to manage access for team members outside of Engineering on an ad-hoc basis ([context](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/958)). Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28421)). If the access request is approved, the provisioner should add the user to [this group](https://groups.google.com/a/gitlab.com/g/okta-kibana-users), which will then automatically sync to its namesake group in Okta.
+1. **Elastic Cloud** is for administrative access to our Elastic stack. The login screen is available [here](https://cloud.elastic.co/) and access is through Google SSO. Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28457)). If approved, the provisioner can add/remove members on the [membership page](https://cloud.elastic.co/account/members) with appropriate permissions. 
+
 ## How we work
+
+We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work). In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Scalability:Observability.
+
+
+### Issue management
+
+While we mainly operate from the [scalability issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues), there are other projects under the `gl-infra` group team members are working on.
+Hence we strive to use group-level labels and boards to get the entire picture.
+
+#### Labels
+
+All issues pertaining to our team have the `~"team::Scalability-Observability"` label.
+
+All issues that are within scope of current work have a `~board::build` or `~board::planning` label.
+This is a measure to cut through noise on the tracker and allows us to get a view on what's currently important to us.
+See Boards below on how this is being used.
+All issues require either a Service label or the team-tasks, discussion, or capacity planning labels.
+
+#### Assignees
+
+We use issue assignments to signal who is the DRI for the issue.
+We expect issue assignees to regularly update their issues with the status, and to be as explicit as possible at what has been done and what still needs to be done.
+We expect the assignee of an issue to drive the issue to completion.
+The assignee status typically expresses, that the assigned team member is currently actively working on this or planning to come back to it relatively soon.
+We unassign ourselves from issues we are not actively working on or planning to revisit in a few days.
+
+#### Boards
+
+The Scalability::Observability team's [issue boards](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/) track the progress of ongoing work.
+
+We use [issue boards](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/) to track the progress of planned and ongoing work.
+Refer to the Scalability group [issue boards section](/handbook/engineering/infrastructure/team/scalability/#issue-boards) for more details.
+
+| **Planning** | **Building**|
+|--------------|-------------|
+| [Planning Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339171) | [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339070) |
+| Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
+| ![Triage](../img/label-triage.png)    <br/>![Proposal](../img/label-proposal.png) <br/>![Ready](../img/label-ready.png) | ![Ready](../img/label-ready.png) <br/>![In Progress](../img/label-in_progress.png) <br/>![Under Review](../img/label-under_review.png) <br/>![Verify](../img/label-verify.png) <br/>![Done](../img/label-done.png)|
+
 
 ### Group call
 
@@ -106,3 +153,10 @@ These updates include whatever the team member is currently working on and deali
 There is no strict frequency for posting updates, although we strive to make updates at least once per week.
 
 When posting updates, consider providing enough context (e.g. through links) so that interested team members are able to dive in on their own ([low context](/handbook/communication/#top-tips-and-best-practices)).
+
+## History and Accomplishments
+
+This section contains notes on team history and our accomplishments, but is not meant to be exhaustive.
+
+* 2024-02, Capacity planning: [Proactive investigation of postgres CPU spike seen in saturation forecast](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1668#note_1807225359) uncovered a [database design issue](https://gitlab.com/gitlab-org/gitlab/-/issues/435250)
+* 2024-03, Capacity planning: [Tamland predicted redis CPU saturation which led to Practices proactively scaling Redis](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-com/-/issues/1712) ([slides](https://docs.google.com/presentation/d/1y58mgaUrpu1dBO_bKVLfDUez9lz-ETLE7E1yksDjAbY/edit#slide=id.g2cc1c00d163_5_4))

@@ -7,7 +7,6 @@ controlled_document: true
 
 This document defines asset management measures and requirements to support the protection of information assets in GitLab's all remote environment. The measures and requirements noted within the standard are designed to create a secure infrastructure, work environment, and protect sensitive information from physical threats.
 
-
 ## Scope
 
 This standard applies to all GitLab team-members, contractors, advisors, and contracted parties interacting with GitLab computing resources and accessing company or customer data.
@@ -39,17 +38,16 @@ GitLab has two distinct security zones:
 
 ### Physical Devices and Location
 
-- Laptops are protected through [Endpoint Management Procedures](/handbook/business-technology/end-user-services/onboarding-access-requests/endpoint-management/) and secured through system configurations defined in the [IT Security - System Configurations handbook page](/handbook/business-technology/it/security/system-configuration/#clean-deskclear-screen) which include, but are not limited to:
+- Laptops are protected through [Endpoint Management Procedures](https://internal.gitlab.com/handbook/it/endpoint-tools/) and secured through system configurations defined in the [IT Security - System Configurations handbook page](/handbook/business-technology/it/security/system-configuration/#clean-deskclear-screen) which include, but are not limited to:
 
    - Passwords
    - Screen timeout
    - Encryption
    - Endpoint detection and response
 
-
 - Utilize trusted networks when available. If you are connecting from an untrusted network such as a public Wi-Fi, guest networks, or unsecured hotspots, you should use a [personal VPN](/handbook/tools-and-tips/personal-vpn/). GitLab has selected [NordLayer](/handbook/it/guides/nordlayer/) as the preferred provider.
 
-- Implement [Clear Desk/Clear Screen](/handbook/business-technology/it/security/system-configuration/#clean-deskclear-screen) requirements.
+- Implement [Clear Desk/Clear Screen](https://internal.gitlab.com/handbook/it/it-security/system-configuration/#clean-deskclear-screen) requirements.
 
 - Ensure devices are not left unattended in public areas and are locked when not in use. [Activate a screensaver with password lock, lock the desktop, close the lid](/handbook/business-technology/it/security/system-configuration/#laptop-or-desktop-system-configuration).
 

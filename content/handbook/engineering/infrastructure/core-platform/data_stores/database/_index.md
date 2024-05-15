@@ -75,7 +75,7 @@ We decided to use merge request count as an issue weight for a few reasons:
 
 1. Add the count as a weight. For example, if you think there could be one to gitlab for database changes, one for new functionality, one for documentation changes, and one to omnibus - you would assign `/weight 4`
 
-#### Timeline for implementation:
+#### Timeline for implementation
 
 15.4 - 15.7: We'll ping each issue in the milestone without a weight and ask folks to add one to collect data
 15.8 +: TBD
@@ -118,7 +118,7 @@ The triage board is for incoming issues that require further investigation for t
 
 #### Say/Do Ratio
 
-We use the `~Deliverable` label to track our Say/Do ratio.  At the beginning of each milestone, during a Database Group Weekly meeting, we review the issues and determine those issues we are confident we can deliver within the milestone.  The issue will be marked with the `~Deliverable` label.  At the end of the milestone the successfully completed issues with the `~Deliverable` label are tracked in two places.  We have a dashboard in Sisense that will calculate how many were delivered within the milestone and account for issues that were moved.  Additionally, our milestone retro issue lists all of the `~Deliverable` issues shipped along with those that missed the milestone.
+We use the `~Deliverable` label to track our Say/Do ratio.  At the beginning of each milestone, during a Database Group Weekly meeting, we review the issues and determine those issues we are confident we can deliver within the milestone.  The issue will be marked with the `~Deliverable` label.  At the end of the milestone the successfully completed issues with the `~Deliverable` label are tracked in two places.  We have a dashboard in Tableau that will calculate how many were delivered within the milestone and account for issues that were moved.  Additionally, our milestone retro issue lists all of the `~Deliverable` issues shipped along with those that missed the milestone.
 
 #### Roadmap
 
@@ -148,7 +148,7 @@ We document our insights, road maps and other relevant material in this section.
 
 ### Performance Indicators (Internal)
 
-1. [Enablement::Database - Performance Indicators Dashboard](https://app.periscopedata.com/app/gitlab/754160/Enablement::Database---Performance-Indicators)
+1. [Enablement::Database - Performance Indicators Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2326872/views)
 1. Average Query Apdex for GitLab.com
    - Master
      - [Target: 100ms - Tolerable 250ms](https://tinyurl.com/64e6acku)
@@ -169,5 +169,20 @@ We document our insights, road maps and other relevant material in this section.
 
 ## Dashboards
 
-{{% cross-functional-dashboards filters="database" %}}
+
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="database" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="database" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="database" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="database" >}}
+{{< /tableau >}}
 

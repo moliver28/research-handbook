@@ -16,6 +16,7 @@ GitLab Premium and Ultimate subscriptions include Customer Support. Free or expi
 1. All requests are for **30 days** at a time. The maximum allowance for Gratis Support is 90 days, requested in 30 day increments.
 
 Gratis support for prospects and former/expired customers includes the following limitations:
+
 1. Does not include [emergency support](https://about.gitlab.com/support/#how-to-engage-emergency-support).
 1. Does not include [upgrade assistance support](https://about.gitlab.com/support/scheduling-upgrade-assistance/).
 1. Does not include [namesquatting requests](https://about.gitlab.com/support/gitlab-com-policies/#name-squatting-policy).
@@ -65,7 +66,7 @@ Use this when you have already obtained gratis support (following one of the abo
 
 ### a support leadership approved situation not covered by the above
 
-Use this **only** when you have already negotiated a specific situation with Customer Support leadership team, and already have approval to make the request for gratis support. To discuss such a situation, post in `#spt_managers`.
+Use this **only** when you have already negotiated a specific situation with Customer Support leadership team, and already have approval to make the request for gratis support. To discuss such a situation, post in `#support_leadership`.
 
 ## Further Reading
 

@@ -1,0 +1,25 @@
+version: '3'
+services:
+  hugo:
+    image: hugomods/hugo:exts
+    command: "hugo server --bind 0.0.0.0"
+    ports:
+      - "127.0.0.1:1313:1313"
+    volumes:
+      - ".:/src"
+  console:
+    image: hugomods/hugo:exts
+    command: "/bin/sh"
+    ports:
+      - "127.0.0.1:1313:1313"
+    volumes:
+      - ".:/src"
+    profiles:
+      - console
+  linter:
+    image: davidanson/markdownlint-cli2:next
+    command: '-f content/\*\*/\*.md'
+    volumes:
+      - ".:/workdir"
+    profiles:
+      - linter

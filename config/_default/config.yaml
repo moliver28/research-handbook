@@ -1,4 +1,3 @@
-baseURL: https://handbook.gitlab.com
 languageCode: en-US
 locale: en-US
 title: The GitLab Handbook
@@ -51,14 +50,14 @@ params:
         url: "https://gitlab.slack.com/archives/C81PT2ALD"
         icon: "fab fa-slack"
         desc: "#handbook on Slack"
-      - name: "Preferences"
-        url: "/preferences/"
-        icon: "fa-solid fa-sliders"
-        desc: "Handbook Preferences"
       - name: "Repository"
         url: "https://gitlab.com/gitlab-com/content-sites/handbook"
         icon: "fa-solid fa-code-branch"
-        desc: "Contribute on GitLab"
+        desc: "GitLab project"
+      - name: "Edit the site"
+        url: "/docs/development"
+        icon: "fa-solid fa-edit"
+        desc: "Contribute to the handbook"
     developer: []
 
 staticDir:
@@ -91,6 +90,9 @@ outputformats:
 
 markup:
   goldmark:
+    renderHooks:
+      link:
+        enableDefault: true
     parser:
       attribute:
         block: true
@@ -107,10 +109,9 @@ markup:
 
 security:
   funcs:
-    getenv: [ "^HUGO_", "PERISCOPE_EMBED_API_KEY", "PRODUCT_ANALYTICS_APP_KEY", "PRODUCT_ANALYTICS_HOST" ]
+    getenv: [ "^HUGO_", "PERISCOPE_EMBED_API_KEY", "PRODUCT_ANALYTICS_APP_KEY", "PRODUCT_ANALYTICS_HOST", "PUBLIC_HANDBOOK_REF" ]
 
 canonifyURLs: true
-enableGitInfo: true
 pluralizeListTitles: false
 enableEmoji: true
 
@@ -119,9 +120,10 @@ theme:
 - github.com/google/docsy
 
 module:
+  proxy: https://proxy.golang.org
   hugoVersion:
     extended: true
-    min: 0.95
+    min: 0.123
   imports:
   - path: gitlab.com/gitlab-com/content-sites/docsy-gitlab
     disable: false
@@ -129,3 +131,9 @@ module:
     disable: false
   - path: github.com/google/docsy/dependencies
     disable: false
+
+# Ignore build errors
+ignoreErrors:
+  # Do not fail to build when we fail to fetch a tweet
+  # https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/178
+  - error-tweet-failed

@@ -13,14 +13,14 @@ title: "SRE Onboarding"
 
 SRE onboarding is mostly handled by two issue templates:
 
-1. [Machine setup](https://gitlab.com/gitlab-com/gl-infra/infrastructure/blob/master/.gitlab/issue_templates/onboarding_machine_setup.md)
-1. [Gather context](https://gitlab.com/gitlab-com/gl-infra/infrastructure/blob/master/.gitlab/issue_templates/onboarding_gather_context.md)
+1. [Machine setup](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/master/.gitlab/issue_templates/onboarding-sre-machine-setup.md)
+1. [Gather context](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/master/.gitlab/issue_templates/onboarding-sre-context.md)
 
 These are assigned to the SRE when they start. This will guide them
 through different areas of the system, starting off with some simple
 tasks and help both the SRE and the SRE manager through various access issues.
 
-There is a third issue template for [oncall onboarding](https://gitlab.com/gitlab-com/gl-infra/infrastructure/blob/master/.gitlab/issue_templates/oncall_onboarding.md), 
+There is a third issue template for [oncall onboarding](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/blob/master/.gitlab/issue_templates/onboarding-oncall.md),
 which should be completed after the first two and will probably take at least 3 months from the start date to complete.
 
 ## GitLab.com Infrastructure Management
@@ -33,12 +33,12 @@ infrastructure.
 
 Terraform configuration is currently divided into three environment:
 
-* [production](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/tree/master/environments/gprd)
-* [staging](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/tree/master/environments/gstg)
-* [ops](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/tree/master/environments/ops)
+* [production](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/master/environments/gprd)
+* [staging](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/master/environments/gstg)
+* [ops](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/master/environments/ops)
 
 
-There is [shared terraform config](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/ops/shared-configurations.tf)
+There is [shared terraform config](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/master/environments/ops/shared-configurations.tf)
 for both staging and production
 to keep topology parity between these environments. Instance sizing, fleet sizes
 and other environment specific configuration is set in variable files for
@@ -55,7 +55,7 @@ for OS patching, applying system level configuration and installing the omnibus
 package for releases. Here are a few notable cookbooks which will be a good
 starting-point for new SREs:
 
-* [cookbook-omnibus-gitlab](https://gitlab.com/gitlab-org/cookbook-omnibus-gitlab): This cookbook
+* [cookbook-omnibus-gitlab](https://gitlab.com/gitlab-cookbooks/cookbook-omnibus-gitlab): This cookbook
   is responsible for creating a `gitlab.rb` on every server that has GitLab installed. This config
   file is used by the omnibus package.
 * [gitlab-cookbooks](https://gitlab.com/gitlab-cookbooks): This is a collection of cookbooks that are used for GitLab.com.
@@ -81,7 +81,7 @@ The following repositories are used for GitLab.com infrastructure management.
 These repository locations are the remotes that the SRE team uses for pushes,
 issues and MRs. Mirrors are setup in case that GitLab.com is unavailable.
 Repositories that are necessary for assets, configuration, infrastructure, releases
-and patch management use https://ops.GitLab.net as a remote.
+and patch management use https://ops.gitLab.net as a remote.
 
 1. [terraform](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt): This
 is the repository that holds all terraform configuration for the GitLab.com staging,
@@ -92,7 +92,7 @@ on GitLab.com .
 1. [chef cookbooks](https://gitlab.com/groups/gitlab-cookbooks): These
 repositories are the cookbooks used for GitLab.com. Runlists for the fleets
 are configured in roles. There are repository mirrors for these cookbooks on
-[ops.GitLab.com](https://ops.gitlab.net/gitlab-cookbooks).
+[ops.gitLab.com](https://ops.gitlab.net/gitlab-cookbooks).
 
 1. [chef](https://gitlab.com/gitlab-com/gl-infra/chef-repo): This
 repository contains all role and node attributes for GitLab.com infrastructure.
@@ -120,8 +120,6 @@ It is useful to have the following dashboards bookmarked and easily accessible
 
 1. [Google Cloud](https://console.cloud.google.com/home/dashboard?project=gitlab-production&pli=1)
 1. [Amazon Web Services](https://console.aws.amazon.com/console/home?region=us-east-1#)
-1. [DigitalOcean ](https://cloud.digitalocean.com/dashboard)
-1. [Azure](https://portal.azure.com)
 
 ### Monitoring tools
 
@@ -133,7 +131,7 @@ It is useful to have the following dashboards bookmarked and easily accessible
 
 It is useful to have the following issue trackers bookmarked and easily accessible
 
-1. [On Call Issues](https://gitlab.com/gitlab-com/infrastructure/issues?scope=all&utf8=✓&state=opened&label_name%5B%5D=oncall)
+1. [On Call Issues](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=closed_at_desc&state=opened&label_name%5B%5D=oncall)
 1. [Production Incidents Issues](https://gitlab.com/gitlab-com/gl-infra/production/issues?label_name%5B%5D=incident)
 1. [Change Management Issues](https://gitlab.com/gitlab-com/gl-infra/production/issues?label_name%5B%5D=change)
 
@@ -157,35 +155,35 @@ The list may not be up to date.  If something is missing, please add it.
 1. [ops.GitLab.net](https://ops.gitlab.net) account
 1. Chef access
 1. Cloud Providers
-  - Amazon Web Services
-  - Azure
-  - Digital Ocean
-  - Google Cloud
+  * Amazon Web Services
+  * Azure
+  * Digital Ocean
+  * Google Cloud
 
-# Slack Channels
+## Slack Channels
 
-- Oncall-related channels:
-  - `production`
-  - `incident-management`
-  - `alerts`
-  - `announcements`
-  - `dev-escalation`
-  - `feed_alerts-general`
-  - `cloud-provider-alerts`
-- Infrastructure channels:
-  - `sre_standup`
-  - `infrastructure-lounge`
-  - `infra-lounge-social`
-  - `infra-read-feed`
-  - `g_delivery`
-  - `g_scalability`
-  - `infra_capacity-planning`
-  - `reliability-lounge`
-  - `ansible`
-  - `kubernetes`
-  - `terraform`
+* Oncall-related channels:
+  * `production`
+  * `incident-management`
+  * `alerts`
+  * `announcements`
+  * `dev-escalation`
+  * `feed_alerts-general`
+  * `cloud-provider-alerts`
+* Infrastructure channels:
+  * `sre_standup`
+  * `infrastructure-lounge`
+  * `infra-lounge-social`
+  * `infra-read-feed`
+  * `g_delivery`
+  * `g_scalability`
+  * `infra_capacity-planning`
+  * `reliability-lounge`
+  * `ansible`
+  * `kubernetes`
+  * `terraform`
 
-# Zendesk
+## Zendesk
 
 Every SRE should register for a “Light Agent” account in ZenDesk. Often times incidents are generated from customer reports, and it’s useful to see their submission and the back and forth with support. You can also leave internal notes for support engineers so that they can gather more information for troubleshooting purposes. See ['Light Agent' Zendesk accounts available for all GitLab staff](/handbook/support/internal-support/#viewing-support-tickets)
 
@@ -216,11 +214,13 @@ Nice to have
 1. macOS doesn't have bash completion feature by default, to install it: `brew install bash-completion` and enable it: `echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bashrc`
 1. fzf used for fuzzy completion in shell, e.g. history search or filepaths, (`brew install fzf` + `echo "[ -f ~/.fzf.bash ] && source ~/.fzf.bash" >> ~/.bashrc`)
 1. the default length of bash history on macOS is 500, to extend the number of entries kept and save the timestamp you can add to your .bashrc for example:
+
 ```
 export HISTFILESIZE=2000000
 export HISTSIZE=1000000
 export HISTTIMEFORMAT="%d/%m/%y %T "
 ```
+
 1. helm - "Kubernetes package manager" (`brew install kubernetes-helm`)
 1. minikube (`brew install minikube`) and virtualbox (`https://www.virtualbox.org/wiki/Downloads`)
 1. GCP cli [gcloud quickstart macos](https://cloud.google.com/sdk/docs/quickstart-macos)

@@ -9,7 +9,7 @@ category: GitLab.com
 
 **NOTE:** If you are a GitLab team member who wants to file an internal request, please see the [Support Internal Requests handbook page](/handbook/support/internal-support/).
 
-**NOTE:** For internal requests relating to licenses and subscriptions, please refer to the [relevant license and subscription workflow](/handbook/support/license-and-renewals/workflows/), or [CustomersDot console workflow](/handbook/support/license-and-renewals/workflows/customersdot/customer_console.html).
+**NOTE:** For internal requests relating to licenses and subscriptions, please refer to the [relevant license and subscription workflow](/handbook/support/license-and-renewals/workflows/), or [CustomersDot console workflow](/handbook/support/license-and-renewals/workflows/customersdot/customer_console/).
 
 ## Overview
 
@@ -61,6 +61,10 @@ For sales assisted trials, only we can override the credit card validation requi
 
 Sales team members will typically open this on behalf of their prospects in order to extend an active trial. You can follow the [L&R Workflow for Extending Trials](/handbook/support/license-and-renewals/workflows/saas/trials_and_plan_change#extending-trials).
 
+## Ask for Support as a Solution Architect
+
+Solution Architects should use the [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) only when support is needed during **pre-sales** (for example: a POV exercise, or a potential new deal with an existing customer). In any other cases, SAs should advise the customer to open a support ticket themselves, for clear and efficient communication.
+
 ## Inactive Namespace Request
 
 GitLab Team Members can no longer submit inactive namespace / namesquatting requests for their own use. See: [support-team-meta#5170](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5170)
@@ -84,7 +88,7 @@ At times, users require an increase to the size limit of their repository as a w
 1. If a request is a workaround to a bug issue:
     - Use current size + small buffer (2-5 GB) for the exception size.
     - Set a due date for reverting, up to 1 week from current date.
-    - If a longer exception time is required, add the `Manager Approval::Required` label, and post in the `#spt_managers` channel to request approval.
+    - If a longer exception time is required, add the `Manager Approval::Required` label, and post in the `#support_leadership` channel to request approval.
     - Make sure to comment on (or create) a bug issue to help future users and prevent further tickets.
 1. Apply the `Status::On Hold` label and set the due date to when it should be reverted.
 1. Using your GitLab.com admin account navigate to the project in question while appending **/edit** to the URL. For example, if the project in question is located at **<https://gitlab.com/group/subgroup/project/>** you would navigate to **<https://gitlab.com/group/subgroup/project/edit>**.
@@ -136,3 +140,7 @@ Common or custom functions can be found in the [support runbooks](https://gitlab
 For update, create, and delete actions, it's essential to carefully review the request and think about the impact of these actions. Remember, update and delete actions can be risky. When writing custom commands or scripts, it's crucial to calibrate them based on the potential risks and the situation's specifics. Unless the situation is urgent, get another set of eyes in your code to confirm what you want to achieve.
 
 If you're not completely sure about the specifics of the script or commands, test them out in your test instance first. And if needed, get feedback from developers who know that area of codebase before using them in the production console. This approach helps reduce risks when doing console tasks in production.
+
+## CI Catalog Badge requests
+
+To be actioned by the Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com, and require and a GitLab.com administrator account to be used with the [upcoming REST API](https://gitlab.com/gitlab-org/gitlab/-/issues/451509) to apply this badge to a namespace.

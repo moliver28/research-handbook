@@ -109,7 +109,7 @@ To delete text or attachments from a ticket:
 1. Follow the steps in Zendesk [documentation](https://support.zendesk.com/hc/en-us/articles/4408846470170-Redacting-ticket-content#ariaid-title4).
 1. Let the user know what actions you have taken and why. Request the user to rotate any secrets that may have been shared.
 
-If you don't see the option to redact, it is likely that you are not assigned to one of the authorized roles (you can check your role in Zendesk profile). In this case, please reach out to `#support_operations` or `#spt_managers` in Slack to request deletion. Zendesk roles that have access to redact:
+If you don't see the option to redact, it is likely that you are not assigned to one of the authorized roles (you can check your role in Zendesk profile). In this case, please reach out to `#support_operations` or `#support_leadership` in Slack to request deletion. Zendesk roles that have access to redact:
 
 - Admin
 - GitLab Staff

@@ -5,11 +5,11 @@ description: "The Fulfillment Platform Team of the Fulfillment Sub-department at
 
 ## Vision
 
-More details about the product vision for Fulfillment Platform, can be found on our [Fulfillment Platform direction](direction/fulfillment/platform/) page.
+More details about the product vision for Fulfillment Platform, can be found on our [Fulfillment Platform direction](https://about.gitlab.com/direction/fulfillment/platform/) page.
 
-For a wider picture of the product vision for the Fulfillment section, please see the [Fulfillment direction](direction/fulfillment) page.
+For a wider picture of the product vision for the Fulfillment section, please see the [Fulfillment direction](https://about.gitlab.com/direction/fulfillment/) page.
 
-The Platform group manages the [Platform category](/handbook/product/categories/#platform-group).
+The Platform group manages the [Platform category](/handbook/product/categories/#fulfillment-section).
 
 ## Team members
 
@@ -38,13 +38,13 @@ The Platform group manages the [Platform category](/handbook/product/categories/
 {{< /tableau >}}
 
 
-You can find the centralized engineering metrics at [this page](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/).
+You can find the centralized engineering metrics at [this page](/handbook/engineering/metrics/dashboards/).
 
 For Product Performance Indicators please visit the [internal handbook](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/).
 
 ## OKRs
 
-The Engineering Manager will report on the progress of projects rolling up to CEO [OKRs](/handbook/company/okrs/) every week. Current OKRs: [FY23-Q4](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/805)
+The Engineering Manager will report on the progress of projects rolling up to CEO [OKRs](/handbook/company/okrs/) every week. Current OKRs: [FY25-Q1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5573)
 
 ## Architecture review sync meeting
 

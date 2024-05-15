@@ -28,10 +28,10 @@ As part of the team tasks, team has responsibility towards the following nodes/t
 
 * `packages.gitlab.com`: This is a self-hosted package server managed by
   GitLab Infrastructure team. It's used by Distribution team to ship GitLab CE and EE
-  omnibus-gitlab packages along with Verify team to ship gitlab-runner packages 
+  omnibus-gitlab packages along with Verify team to ship gitlab-runner packages
   to users. GitLab CE and EE packages are built via our CI pipeline on `dev.gitlab.org`.
 
-  - _Distribution uses the package server as a tool and doesn't have any
+  * _Distribution uses the package server as a tool and doesn't have any
   maintenance tasks associated with it. The package server is currently deployed
   on our own infrastructure from a package provided by Packagecloud.io. If the
   Infrastructure team requires help, Distribution team should provde a best effort
@@ -39,14 +39,16 @@ As part of the team tasks, team has responsibility towards the following nodes/t
 
 * Keeping SSH public keys `gitlab.com` and `dev.gitlab.org` up-to-date: The CI
   configuration of **omnibus-gitlab** uses public SSH keys of these servers
-  during execution. The keys are stored in the codebase (in [`support/known_hosts`](//gitlab.com/gitlab-org/omnibus-gitlab/blob/master/support/known_hosts))
+  during execution. The keys are stored in the codebase (in [`support/known_hosts`](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/support/known_hosts))
   and it is the responsibility of the team to update them in case any of them
   changes. To do so:
+
   ```
   bundle exec rake infrastructure:known_hosts
   git add support/known_hosts
   git commit -m "Update SSH keys"
   ```
+
   Please note that you need to push this change as a separate MR and ask the
   maintainer for review.
 

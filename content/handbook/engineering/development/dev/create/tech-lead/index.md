@@ -4,10 +4,11 @@ description: The objective of this page is to provide a clear documentation of t
 ---
 
 ## What is a Tech Lead
-This role is outlined [here](https://handbook.gitlab.com/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role).
+
+This role is outlined [here](/handbook/engineering/ic-leadership/tech-lead/#the-tech-lead-role).
 
 
-##  Create Tech Leads
+## Create Tech Leads
 
 ### Source Code Tech Leads
 
@@ -20,29 +21,27 @@ This role is outlined [here](https://handbook.gitlab.com/handbook/engineering/ic
 
 | Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
 |------------|----------|--------------------|-------------------------|------------|
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+| 2024-01-30 | TBD      | TBD                | [Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/12795) | [Kerri Miller](https://gitlab.com/kerrizor) |
+| 2024-02-13 | TBD      | TBD                | [New Diffs](https://gitlab.com/groups/gitlab-org/-/epics/11559) | [Stanislav Lashmanov](https://gitlab.com/slashmanov) |
+| 2024-02-19 | TBD      | TBD                | [Review Rounds](https://gitlab.com/groups/gitlab-org/-/epics/9577) | [Phil Hughes](https://gitlab.com/iamphill) |
 
 ### IDE Tech Leads
 
 | Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
 |------------|----------|--------------------|-------------------------|------------|
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+| 2024-05-01 | TBD      | TBD                | [Web IDE Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Paul Slaughter](https://gitlab.com/pslaughter) |
+| 2024-05-01 | TBD      | TBD                | [Workspaces Category](https://gitlab.com/groups/gitlab-org/-/epics/170)| [Chad Woolley](https://gitlab.com/cwoolley-gitlab) |
+| 2024-04-29 | TBD      | TBD                | [Cells 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434976)| [Vishal Tak](https://gitlab.com/vtak) |
+| 2024-02-21 | TBD      | TBD                | [VS Code Upgrade process](https://gitlab.com/groups/gitlab-org/-/epics/12951)| [Enrique Alcántara](https://gitlab.com/ealcantara) |
+| 2024-01-13 | TBD      | TBD                | [Workspaces Agent Authorization](https://gitlab.com/groups/gitlab-org/-/epics/12193) | [Hunar Khanna](https://gitlab.com/hkhanna2) |
 
- 
+
 ### Editor Extension Tech Leads
 
 | Start Date | End Date | Estimated End Date | Epic(s) / Issue(s)     | Tech Lead  |
 |------------|----------|--------------------|-------------------------|------------|
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 1      | Tech Lead 1 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 2      | Tech Lead 2 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 3      | Tech Lead 3 |
-| YYYY-MM-DD | YYYY-MM-DD | YYYY-MM-DD       | Epic/Issue Name 4      | Tech Lead 4 |
+| 2024-02-01 | TBD      | TBD      | [Cell 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434977) | [Tomas Vik](https://gitlab.com/viktomas) |
+
 
 ### Code Creation Tech Leads
 
@@ -57,6 +56,7 @@ This role is outlined [here](https://handbook.gitlab.com/handbook/engineering/ic
 Tech Leads and Domain Experts share similarities and differences. The tables below clarify distinctions between the two roles.
 
 ### Similarities
+
 | Criteria                      | Tech Lead                                     | Domain Expert                                |
 | ----------------------------- | --------------------------------------------- | -------------------------------------------- |
 | **Expertise Requirement**      | Requires domain knowledge and expertise       | Requires substantial experience in a specific area |
@@ -65,6 +65,7 @@ Tech Leads and Domain Experts share similarities and differences. The tables bel
 | **Not a Managerial Role**      | Not a manager                                  | Not a manager                                 |
 
 ### Differences
+
 | Criteria                          | Tech Lead                                     | Domain Expert                                |
 |-----------------------------------|-----------------------------------------------|----------------------------------------------|
 | **Nature of Role**                | Temporary role tied to a specific topic/project | Ongoing role with substantial expertise     |
@@ -79,8 +80,10 @@ Tech Leads and Domain Experts share similarities and differences. The tables bel
 | **Collaboration**                 | Slack channel for collaboration (#tech_leads or topic/project specific channel)  | Not required. |
 | **Project Template**              | Utilizes a project template for guidance       | Not required.    |
 | **Scope**                         | Tied to a specific topic/project              | Generally encompasses specific technology, feature, or codebase area                                                      |
+
 ## Responsibilities
-The Tech Lead responsibilites are outlined [here](https://handbook.gitlab.com/handbook/engineering/ic-leadership/tech-lead/#responsibilities-of-a-tech-lead).
+
+The Tech Lead responsibilites are outlined [here](/handbook/engineering/ic-leadership/tech-lead/#responsibilities-of-a-tech-lead).
 
 
 ## Process

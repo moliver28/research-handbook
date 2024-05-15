@@ -106,11 +106,11 @@ The Delivery:Releases and Delivery:Deployments OKRs, while contributing to the w
 
 ### Delivery:Releases
 
-The primary goal of the Releases team is to provide everything to do with creating GitLab releases for customers and enabling internal customers to get their changes into releases. Major, minor and patch releases as well as a platform on which we can verify changes to various installation types (release environments) and create visibility for GitLab team members and customers into our release schedule (release dashboard)
+The primary goal of the Releases team is to provide everything to do with creating GitLab releases for customers and enabling internal customers to get their changes into releases. Major, minor and patch releases as well as a platform on which we can verify changes to various installation types (release environments) and create visibility for GitLab team members and customers into our release schedule (release dashboard).
 
 ### Delivery:Deployments
 
-The primary goal of the Deployments team is to provide everything to do with rolling out changes to active platforms managed by GitLab, including but not limited to continuous deployment to GitLab.com (deployment safety), changing gitlab.com architecture to support continuous deployment (eliminate staging 🤞 ) and thinking about how to optimise the rollout experience (zero downtime work)
+The primary goal of the Deployments team is to provide everything to do with rolling out changes to active platforms managed by GitLab, including but not limited to continuous deployment to GitLab.com (deployment safety), changing gitlab.com architecture to support continuous deployment (eliminate staging 🤞 ) and thinking about how to optimise the rollout experience (zero downtime work).
 
 ### Team Members
 
@@ -147,7 +147,7 @@ The Delivery Group owns the tools and capabilities needed for GitLab deployments
 
 ### Release Manager ownership
 
-Release Managers are members of the Delivery group but during their time as release managers they're wearing a different hat. The primary customer is GitLab users
+Release Managers are members of the Delivery group but during their time as release managers, they're wearing a different hat. The primary customers are GitLab users.
 
 1. Auto-deploys: Release Managers operate the auto-deploy process. Largely this will make use of capabilities provided by the Deployments team, but the Orchestration tools will be making use of the Deployments team capabilities. Environment health checks are an example of a Deployments capability that will be integral to the process and tools the release managers use.
 2. Self-managed releases: Release Managers operate the release processes (patch and security) using the capabilities provided by the Releases team.
@@ -159,7 +159,7 @@ Release Managers are members of the Delivery group but during their time as rele
 ### Delivery:Releases ownership
 
 The primary customers of the Releases team are:
- - the internal GitLab users who want to deploy & release changes i.e., 
+ - the internal GitLab users who want to deploy & release changes i.e.,
  - Release Managers and Stage Groups.
  - customers for the monthly Release
 
@@ -170,7 +170,7 @@ The primary customers of the Releases team are:
 11. Deployment & release metadata: Tracking component versions and dependencies to allow for quality gates to be accurate, and to ensure predictable releases.
 12. QA test execution & results visibility: Ensuring that all deployments and releases pass the required testing. Releases will be particularly concerned with timing of test execution and making sure that the correct dependencies are in place for reliable results.
 13. Releases dashboards: Delivery:Releases will own a set of dashboards to guide the team's work on designing effective release processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual release pipelines.
-14. Release Publishing: publishing packages to various distribution sites (e.g., packages.gitlab.com, Docker Hub, etc.), publishing tooling, and guaranteeing a reliable publishing process.
+14. Release Publishing: Publishing packages to various distribution sites (e.g., packages.gitlab.com, Docker Hub, etc.), publishing tooling, and guaranteeing a reliable publishing process.
 
 ### Delivery:Deployments ownership
 
@@ -287,15 +287,15 @@ There are three other workflow labels of importance omitted from the diagram abo
 
 1. `workflow-infra::Cancelled`:
 
-- Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed.
+    - Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed.
 
 1. `workflow-infra::Stalled`
 
-- Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help.
+    - Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help.
 
 1. `workflow-infra::Blocked`
 
-- Work is blocked due external dependencies or other external factors. After applying this label, issue will be regularly triaged by the team until the label can be removed.
+    - Work is blocked due external dependencies or other external factors. After applying this label, issue will be regularly triaged by the team until the label can be removed.
 
 Label `workflow-infra::Done` is applied to signify completion of work, but its sole purpose is to ensure that issues are closed when the work is completed, ensuring issue hygiene.
 
@@ -421,7 +421,7 @@ The Delivery team officially [came into existence on 2018-10-23](https://gitlab.
 
 All throughout GitLab's existence, Release Management had been a monthly rotating role served by developers. The idea behind it was to keep developers close to the whole lifecycle of the software they create, and ensure that they automate their work. This worked well until the number of application changes, and developer tasks grew too large for anyone to handle as a secondary task. The event that indicated the need for a change was a near miss event near the end of 2017, when the first Release Candidate was deployed to GitLab.com just 2 days before the 22nd. That whole month was riddled with challenges, from release managers struggling to deliver their day to day development tasks and RM tasks, to multiple unsuccessful deployments to GitLab.com. Most importantly, this was a first indication that the company was growing and that the processes that worked previously, might need to change to accommodate the larger growth that was planned.
 
-After some internal discussions, we entered 2018 with an attempt to [work on process improvements](https://gitlab.com/gitlab-org/release/tasks/-/issues/39), rather than changing everything in one go. We went from a monthly rotation to two month [release manager rotation](/community/release-managers/), started [noting down spent time](https://gitlab.com/gitlab-org/release/tasks/-/issues/1). Over the next several months we'd seen general stabilization of the process but it became apparent that spending 4 engineers time in Release Manager rotation was not getting us anywhere closer to improving the deployment process for GitLab.com, and with each developer we hired the task list grew bigger.
+After some internal discussions, we entered 2018 with an attempt to [work on process improvements](https://gitlab.com/gitlab-org/release/tasks/-/issues/39), rather than changing everything in one go. We went from a monthly rotation to two month [release manager rotation](https://about.gitlab.com/community/release-managers/), started [noting down spent time](https://gitlab.com/gitlab-org/release/tasks/-/issues/1). Over the next several months we'd seen general stabilization of the process but it became apparent that spending 4 engineers time in Release Manager rotation was not getting us anywhere closer to improving the deployment process for GitLab.com, and with each developer we hired the task list grew bigger.
 
 The initial discussion on [what is in front of us to achieve Continuous Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/1) on GitLab.com exposed a clear need for a team focused on this specific task.
 
@@ -445,7 +445,7 @@ Prior to 2020, the team impact overview was created in Slack, and in the years t
 [Infrastructure department performance indicators]: /handbook/engineering/infrastructure/performance-indicators/
 [MTTP]: /handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp
 [KI lower MTTP]: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/107
-[Delivery Sisense PIs]: https://app.periscopedata.com/app/gitlab/573702/WIP:-Delivery-team-PIs
+Delivery Sisense PIs
 [triage ops]: https://gitlab.com/gitlab-com/gl-infra/triage-ops
 [DRI]: /handbook/people-group/directly-responsible-individuals/
 [Build board]: https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862

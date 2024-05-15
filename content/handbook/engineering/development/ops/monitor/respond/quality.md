@@ -10,7 +10,7 @@ title: Group Respond - GitLab End-to-End (E2E) Testing for group Respond
 
 
 
-## Overview:
+## Overview
 
 The goal of this page is to summarize how Respond group can use our existing
 [GitLab QA framework](https://gitlab.com/gitlab-org/gitlab-qa) to run and/or implement
@@ -48,7 +48,7 @@ in our CI (MR pipelines, and pipelines for E2E tests against master - see [#qa-m
 **Note:** Orchestrated tests are not run in dotcom(s) because we cannot control the configuration of these
 environments.
 
-## FAQ:
+## FAQ
 
 #### 1. How to run orchestrated test?
 
@@ -56,7 +56,7 @@ First you will need to install `gitlab-qa` gem. Navigate to `gitlab/qa/`. Depend
 for an EE feature or not, but for the benefit of this group, we use `email_notification_for_alert_spec.rb` as example:
 
 ```
-$ gitlab-qa Test::Integration::SMTP CE qa/specs/features/browser_ui/8_monitor/alert_management/email_notification_for_alert_spec.rb
+gitlab-qa Test::Integration::SMTP CE qa/specs/features/browser_ui/8_monitor/alert_management/email_notification_for_alert_spec.rb
 ```
 
 Notice we need to specify the scenario this spec belongs to `::SMTP`, the type of GitLab license is `CE`. For other types
@@ -73,7 +73,7 @@ to be in `gitlab/qa/` and run `$ bundle install` first. Then depends on which en
 **GDK**
 
 ```
-$ QA_GITLAB_URL=http://<your.gdk.hostname>:3000 bundle exec rspec qa/specs/features/path/to/your/spec.rb
+QA_GITLAB_URL=http://<your.gdk.hostname>:3000 bundle exec rspec qa/specs/features/path/to/your/spec.rb
 ```
 
 For more tips on other
@@ -83,7 +83,7 @@ cases or how to config your GDK, see
 **Staging or other dotcoms**
 
 ```
-$ GITLAB_USERNAME="gitlab-qa" GITLAB_PASSWORD=<in 1password> GITLAB_QA_USER_AGENT=<in 1password> QA_GITLAB_URL=https://staging.gitlab.com bundle exec rspec qa/specs/features/path/to/your/spec.rb
+GITLAB_USERNAME="gitlab-qa" GITLAB_PASSWORD=<in 1password> GITLAB_QA_USER_AGENT=<in 1password> QA_GITLAB_URL=https://staging.gitlab.com bundle exec rspec qa/specs/features/path/to/your/spec.rb
 ```
 
 This way you can `export WEBDRIVER_HEADLESS=false` prior to running test to see browser session. Chrome is used by default,
@@ -113,7 +113,7 @@ Therefore, to predict where your tests might be, first you need to know which sc
 specifically exclude with
 [:except](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/rspec_metadata_tests.html) metadata.
 
-**Note:** Some tests that are tagged with `:smoke` or `:reliable` metadata are already automatically run in
+**Note:** Some tests that are tagged with `:smoke` metadata are already automatically run in
 review-app pipeline - that is automatically triggered under `review` stage of your MR pipeline -
 [Example review-app downstream pipeline](https://gitlab.com/gitlab-org/gitlab/-/pipelines/767219112).
 These tests are considered blocking if they fail.
@@ -123,23 +123,23 @@ These tests are considered blocking if they fail.
 Similar to test pipelines against master or nightly. There are dedicated slack channels that can direct you to the test
 pipelines for that specific environment:
 
-* Staging, staging-cananry, customers-dot: [#qa-staging](https://gitlab.slack.com/archives/CBS3YKMGD)
-* Production, canary: [#qa-production](https://gitlab.slack.com/archives/CCNNKFP8B)
-* Preprod: [#qa-preprod](https://gitlab.slack.com/archives/CR7QH0RV1)
-* Release: [#qa-release](https://gitlab.slack.com/archives/C0154HCFLRE)
-* Staging-ref: [#qa-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ)
-* Master: [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM)
-* Nightly: [#qa-nightly](https://gitlab.slack.com/archives/CGLMP1G7M)
+- Staging, staging-cananry, customers-dot: [#qa-staging](https://gitlab.slack.com/archives/CBS3YKMGD)
+- Production, canary: [#qa-production](https://gitlab.slack.com/archives/CCNNKFP8B)
+- Preprod: [#qa-preprod](https://gitlab.slack.com/archives/CR7QH0RV1)
+- Release: [#qa-release](https://gitlab.slack.com/archives/C0154HCFLRE)
+- Staging-ref: [#qa-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ)
+- Master: [#qa-master](https://gitlab.slack.com/archives/CNV2N29DM)
+- Nightly: [#qa-nightly](https://gitlab.slack.com/archives/CGLMP1G7M)
 
 These pipelines' configuration can be found in [pipeline-common](https://gitlab.com/gitlab-org/quality/pipeline-common)
 project.
 
 Good news is on dotcom(s), group Respond tests are run in jobs specifically for them:
 
-* `ee-qa-api` - if we have any API test added in the future, this includes API tests from other groups too but we don't
+- `ee-qa-api` - if we have any API test added in the future, this includes API tests from other groups too but we don't
 have a lot of these anyways, it shouldn't be too difficult to track
-* `qa-browser_ui-8_monitor`
-* `ee-qa-browser_ui-8_monitor` - this job will need to be defined when we have any non-orchestrated browser test for EE added in the future.
+- `qa-browser_ui-8_monitor`
+- `ee-qa-browser_ui-8_monitor` - this job will need to be defined when we have any non-orchestrated browser test for EE added in the future.
 
 #### 5. How to find test resources (project, group, user, etc...) for investigation?
 

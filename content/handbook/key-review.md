@@ -28,41 +28,37 @@ Key Reviews are once per quarter.
 
 ## Scheduling
 
-The Sr. EBA to the CFO is the scheduling DRI for the Key Reviews and will schedule no more than 2 Key Reviews on a given day. The Key Review meeting invitations will utilize that review's functional DRI's Zoom account, always be set to record, and set the Sr. EBA to the CFO and the functional DRI's corresponding EBA as co-hosts.
+The Staff EBA to the CFO is the scheduling DRI for the Key Reviews and will schedule no more than 2 Key Reviews on a given day. The Key Review meeting invitations will utilize the CFO's Zoom account. The functional DRI and corresponding EBA will be set as co-hosts. The Key Reviews should always be recorded, with the functional DRI's EBA as the recording DRI.
 
-A Key Review should not be cancelled without permission. Permission to cancel or make changes to the Key Review schedule must be requested in the [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX) Slack channel, tagging the CFO for approval and the Sr. EBA to the CFO for awareness. If the CFO is not available, the CEO will make the decision. All changes to the Key Review schedule and/or invites have to be posted in the [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX) Slack channel.
-
-The Key Review schedule will be posted in the [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX) Slack channel on the first Monday of each month (if that Monday falls on a holiday it will be posted on the next business day).
-
-A Key Review does not need to be scheduled if everything is on track and awareness is good.
+A Key Review should not be cancelled without permission. Permission to cancel or make changes to the Key Review schedule must be requested in the [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX) Slack channel, tagging the CFO for approval and the Staff EBA to the CFO for awareness. If the CFO is not available, the CEO will make the decision. All changes to the Key Review schedule and/or invites have to be posted in the [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX) Slack channel.
 
 ## Invitees
 
-Required invites are the CEO, the CFO, and the function head.
-Optional attendees are all other members of [the e-group](/handbook/company/structure/#e-group), [VP-Directs](/handbook/company/structure/#vp-directs-group), the Chief of Staff to the CEO, and other folks as designated by their E-Group member.
+Required invitees are the CEO, the CFO, and the function head.
+Optional attendees are all other members of [the e-group](/handbook/company/structure/#e-group), the Chief of Staff to the CEO, and other team members as designated by their E-Group leader.
 
 Key Review Meetings may contain MNPI. As materials are limited access, participation is limited.
 
-If the Key Review meeting will not contain MNPI, it can be livestreamed to GitLab Unfiltered, with the distinction of being streamed as Private or Public, depending on the department.
+If the Key Review meeting will not contain MNPI, it can be privately livestreamed to GitLab Unfiltered. Currently only the Data and Enterprise Apps Key Reviews are privately streamed.
 
 Functions that have these quarterly meetings are:
 
-1. Sales & Customer Success (Chris Weber - function DRI), mid-month 1
+1. Sales (Chris Weber - function DRI), mid-month 1
+1. Customer Success (Chris Weber - function DRI), mid-month 1
 1. Marketing (Ashley Kramer - function DRI), mid-month 1
-1. Product (David DeSanto - function DRI), mid-month 1
-1. People Group (Wendy Barnes - function DRI), mid-month 1
+1. People Group (Rob Allen - function DRI), mid-month 1
 1. Finance (Brian Robins - function DRI), end of month 1
+1. Product & Development (David DeSanto - function DRI), month 2
 1. Support (Johnny Scarborough Jr. - function DRI), month 2
 1. Legal and Corporate Affairs (Robin Schulman - function DRI), end of month 2
 1. Security (Josh Lemos - function DRI), end of month 2
-1. Business Technology (Nabitha Rao - function DRI), beginning of month 3
+1. Enterprise Apps (Nabitha Rao - function DRI), beginning of month 3
 1. Data (Amie Bright - function DRI), mid-month 3
-1. Development (Christopher Lefelhocz - function DRI), month 3
-1. Infrastructure (Mek Stittri - function DRI), month 3
+1. Infrastructure, Quality, SRE & Enablement (Mek Stittri - function DRI), month 3
 
 Function DRIs are expected to review the invite list in advance of each Key Review. If cross-functional topics are being discussed, they are encouraged to invite folks who should be involved in the conversation. If there are MNPI concerns, they may choose to link to a separate agenda for this part of the discussion.
 
-If you would like to be added to a function's Key Review ask your functional E-Group member to ask the EBA to the CFO to add you.
+If you would like to be added to a function's Key Review, ask your functional E-Group member to ask the Staff EBA to the CFO to add you.
 
 ## Meeting Format
 
@@ -89,11 +85,11 @@ Important notes:
 1. Every department KPI should be covered. This can be in the presentation and/or links to the handbook.
 1. Wherever possible, the KPI or KR being reviewed should be compared to Plan, Target, or industry benchmark.
 1. There is no presentation; the meeting is purely Q&A. Of course, people can ask to talk them through a slide. If you want to present, please [post a YouTube video](/handbook/marketing/marketing-operations/youtube/) and link that from the slide deck, agenda, and/or Slack.
-1. The functional owner is responsible for updating and posting their Key Review agenda 24 hours in advance of the meeting, post in the [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX) Slack channel.
+1. The functional owner or their EBA is responsible for updating and posting their Key Review agenda 24 hours in advance of the meeting, post in the [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX) Slack channel.
 1. Video is not required, but if there is a video it should be posted 24hrs in advance in the [#key-review](https://gitlab.slack.com/archives/CPQT0TRFX) Slack channel.
-1. The agenda document should include a presentation link that is accessible by all team members, as well as a Q&A section.
-1. If the Key Review does not contain MNPI or [not public](/handbook/communication/confidentiality-levels/#not-public) information, it should be publicly streamed to YouTube Unfiltered in alignment with GitLab's [value of transparency](/handbook/values/#transparency). Key Reviews not containing MNPI with [not public](/handbook/communication/confidentiality-levels/#not-public) information should be privately streamed to YouTube Unfiltered. If the Key Review contains MNPI it should not be streamed, but can be recorded and shared in a [limited access](/handbook/communication/confidentiality-levels/#limited-access) manner.
-1. Should public or private streaming be unavailable, Key Reviews are set to auto-record to the cloud and should be uploaded to the GitLab Unfiltered [Key Reviews Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrlBfo0IBmV0BwJcPN59swi) on YouTube if it does not contain MNPI or [not public](/handbook/communication/confidentiality-levels/#not-public) information. It is the DRI's or their EBA's responsibility to ensure that the video, if not containing MNPI or [not public](/handbook/communication/confidentiality-levels/#not-public) information, is uploaded to GitLab Unfiltered with the correct visibility (private or public). If it contains MNPI, then the recording can be shared in a [limited access](/handbook/communication/confidentiality-levels/#limited-access) manner.
+1. The agenda document should include a presentation link that is accessible to all team members on the invite, as well as a Q&A section.
+1. If the Key Review does not contain MNPI or [not public](/handbook/communication/confidentiality-levels/#not-public) information, it should be privately streamed to YouTube Unfiltered in alignment with GitLab's [value of transparency](/handbook/values/#transparency). If the Key Review contains MNPI it should not be streamed, but can be recorded and shared in a [limited access](/handbook/communication/confidentiality-levels/#limited-access) manner by including the link in the restricted Key Review agenda doc.
+1. Should private streaming be unavailable, the recording should be uploaded to the GitLab Unfiltered [Key Reviews Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrlBfo0IBmV0BwJcPN59swi) on YouTube if it does not contain MNPI or [not public](/handbook/communication/confidentiality-levels/#not-public) information. It is the DRI's or their EBA's responsibility to ensure that the video, if not containing MNPI or [not public](/handbook/communication/confidentiality-levels/#not-public) information, is uploaded to GitLab Unfiltered with the correct visibility (private or public). If it contains MNPI, then the recording can be shared in a [limited access](/handbook/communication/confidentiality-levels/#limited-access) manner.
 1. If the function DRI is not available to attend their Key Review then the function's leadership team is responsible for attending the meeting and providing updates.
 1. Repetition in recognizing what is working or not working from month to month is okay as repetition can be an organizational tool for teaching people what’s important amidst all the noise.
 
@@ -107,7 +103,6 @@ Function DRIs are expected to use and share their function's Key Review deck, me
 
 To view a recording of a Key Review, visit the playlist on YouTube Unfiltered titled [Key Reviews](https://www.youtube.com/playlist?list=PL05JrBw4t0KrlBfo0IBmV0BwJcPN59swi). If you are unable to view a video, please ensure you are logged in as [GitLab Unfiltered](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
 
-
 ### Automated KPI Slides
 
 The [original demo and proposal of using the KPI Slide project](https://youtu.be/5BlFNhSfS8A) is on GitLab Unfiltered (internal).
@@ -117,11 +112,13 @@ Those slides are deployed to GitLab pages (also internal, you must have access t
 Each group that presents has one markdown file with their KPIs.
 Every month, groups create an MR to update that markdown file.
 The following slides need to be updated with an MR:
+
 - Month on the first slide
 - Key Business Takeaways- should especially highlight any KPIs that need attention
 - OKR statuses
 
 The following Key Reviews are automated: (all links are internal)
+
 - [Finance](https://gitlab-com.gitlab.io/kpi-slides/slides-html/finance/#/)
 - [Infrastructure](https://gitlab-com.gitlab.io/kpi-slides/slides-html/infrastructure/#/)
 - [Marketing](https://gitlab-com.gitlab.io/kpi-slides/slides-html/marketing/#/)
@@ -141,6 +138,7 @@ The following Key Reviews are automated: (all links are internal)
 ### Leveraging Sisense in Google Slides
 
 To create these slides, you will need *Editor* access in Sisense.
+
 - Edit the chart you're interested in.
 - Click "Chart Format" (second tab on far right)
 - Under Advanced, select "Expose Public CSV URL"

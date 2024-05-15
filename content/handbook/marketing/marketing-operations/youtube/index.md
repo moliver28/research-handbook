@@ -93,16 +93,16 @@ If you receive a permission error when attempting to start a livestream (i.e. "P
 1. Install and launch [OBS Studio](https://obsproject.com/download)
 
 1. Allow OBS to automatically configure your settings:
-	![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
+    ![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
 
 1. Accept the recommended video settings:
-	![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
+    ![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
 
 1. Select "Custom" service and configure OBS to livestream to [GitLab's Unfiltered channel](https://www.youtube.com/live_dashboard?nv=1#):
-	![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
+    ![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
 
 1. Add your webcam as a "Video Capture Device" from the Sources tool:
-	![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
+    ![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
 
 ## Post everything
 
@@ -230,7 +230,7 @@ Check out [this video](https://www.youtube.com/watch?v=dZtCuOf5aGk) for a visual
 
 ## Access
 
-1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
+1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
 1. GitLab Unfiltered: Everyone should get access to YouTube Unfiltered during onboarding. If you do not see an invitation in your Inbox, please check the [Pending Invitations](https://myaccount.google.com/brandaccounts) section of your Google Workspace account. If your invitation is not there, please request a new invitation in the `#people-connect` Slack channel.
 
 For People Connect troubleshooting:
@@ -260,7 +260,7 @@ The GitLab Unfiltered YouTube account **should not** be subscribed to any channe
 The GitLab Unfiltered YouTube account is a shared space. Sometimes team members might accidentally [comment](#commenting) or [subscribe to channels](#subscribing-to-channels) thinking they are on a personal account.
 
 If you see a channel subscription or comment that violates the rules of this handbook, please take a bias-for-action to keep the GitLab Unfiltered
-YouTube account pristine. Delete any accidental channel subscription or comment to return the YouTube account to a pristine state. If you are unable 
+YouTube account pristine. Delete any accidental channel subscription or comment to return the YouTube account to a pristine state. If you are unable
 to remove the relevant comment or subscription, please notify people-connect@gitlab.com immediately.
 
 ## Organizing
@@ -343,11 +343,11 @@ Depending on your needs, you might want use software to provide overlays and/or 
 
 ### Encoder
 
-- [OBS Studio Win/Mac/Lin Open Source](https://obsproject.com/) or install with 'brew cask install obs' on mac
+- [OBS Studio Win/Mac/Lin Open Source](https://obsproject.com/) or install with 'brew install --cask obs' on mac
 
 ### Audio Rerouting
 
-- [Soundflower Mac Open Source](https://github.com/mattingalls/Soundflower) or install with `brew cask install soundflower`
+- [Soundflower Mac Open Source](https://github.com/mattingalls/Soundflower) or install with `brew install --cask soundflower`
 - [Loopback Mac Closed Source](http://www.rogueamoeba.com/loopback/) - Great closed source alternative
 - [Windows alternatives](https://www.reddit.com/r/audioengineering/comments/3geqse/soundflower_alternative_on_windows/)
 - [Linux alternatives](http://askubuntu.com/questions/602593/whats-a-good-soundflower-replacement-for-ubuntu)

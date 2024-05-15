@@ -15,7 +15,7 @@ If you have any feedback or questions please contact [Total Rewards](/handbook/p
 
 - Increased Education around benefits as `I understand my benefits package at GitLab` decreased by 7% company wide. Also to increase awareness on the Total Rewards team is who to reach out to since there is company wide score of 3.82 out of 5 (lowest score among ICs). [Related Issue](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/191).
   - Actions taken:
-    - Updated the [Total Rewards landing page]({{< ref "/handbook/total-rewards" >}}) and the [People Group contacts page](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) with our contact details.
+    - Updated the [Total Rewards landing page](/handbook/total-rewards) and the [People Group contacts page](/handbook/people-group/#how-to-reach-the-right-member-of-the-people-group) with our contact details.
     - Introduced the [Benefits calculator]({{< ref "compensation-calculator#use-the-calculator" >}}) so team members can work out their overall Total Rewards package, including fixed costs, general benefits, remote benefits and entity-specific benefits.
     - [WIP](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-group-engineering/-/issues/206) - Embed the entity-specific benefits calculator under respective [entity benefit pages]({{< ref "general-and-entity-benefits#entity-benefits" >}}).
     - Implemented the [Compensation]({{< ref "compensation#knowledge-assessment" >}}), [Benefits]({{< ref "benefits#knowledge-assessment" >}}) and [Equity]({{< ref "benefits#knowledge-assessment" >}}) Knowledge Assessments.
@@ -602,7 +602,6 @@ By demographic:
 
 #### Entity Specific Questions
 
-
 1. The country-specific benefits provided by GitLab are comparable or better than what is offered by similar employers in my country.
 
     | GitLab                 | Australia Score | United States Score | Netherlands Score | Canada Score | India Score | United Kingdom Score | Germany Score | New Zealand Score |
@@ -745,9 +744,8 @@ By demographic:
     | Visiting grant | 21% | 20% | 0% |
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | n/a | 3% | 0% |
     | Medical/Health coverage | 0% | 0% | n/a |
-    | Dental/Vision | 0% | n/a | n/a | n/a |
-    | 401(k) Match | 1% | n/a | n/a | n/a |
-
+    | Dental/Vision | 0% | n/a | n/a |
+    | 401(k) Match | 1% | n/a | n/a |
 
 - EMEA
 
@@ -763,9 +761,8 @@ By demographic:
     | Stock options | 0% | 0% | 0% | 0% | 13% | 0% | 0% | 0% | 0% | 0% | 0% |
     | Visiting grant | 17% | 12% | 12% | 0% | 13% | 0% | 25% | 14% | 17% | 0% | 0% |
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | 13% | 8% | 0% | 14% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |
-    | Medical/Health coverage | n/a | n/a | 4% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-    | Pension | n/a | n/a | 0% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-
+    | Medical/Health coverage | n/a | n/a | 4% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+    | Pension | n/a | n/a | 0% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 
 - APAC
 
@@ -802,7 +799,6 @@ By demographic:
     | Dental/Vision | 74% | n/a | n/a |
     | 401(k) Match | 73% | n/a | n/a |
 
-
 - EMEA
 
     | Response | Ireland (% of Respondents) | Netherlands (% of Respondents) | United Kingdom (% of Respondents) | Germany (% of Respondents) | Hungary (% of Respondents) | Austria (% of Respondents) | Poland (% of Respondents) | Romania (% of Respondents) | Russian Federation (% of Respondents) | Turkey (% of Respondents) | Ukraine (% of Respondents) |
@@ -817,9 +813,8 @@ By demographic:
     | Stock options | 87% | 84% | 69% | 62% | 100% | 100% | 83% | 86% | 100% | 80% | 80% |
     | Visiting grant | 0% | 40% | 22% | 38% | 60% | 50% | 17% | 14% | 17% | 0% | 40% |
     | $20,000 Life Insurance (Expression of Wishes)/Company Life Insurance Policy | 13% | 12% | 6% | 10% | 0% | 33% | 8% | 0% | 0% | 20% | 20% |
-    | Medical/Health coverage | n/a | n/a | 37% | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-    | Pension | n/a | n/a | 59% | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-
+    | Medical/Health coverage | n/a | n/a | 37% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+    | Pension | n/a | n/a | 59% | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 
 - APAC
 

@@ -69,7 +69,7 @@ We also have weekly 1:1s and skip levels in line with the GitLab philosophy.
 
 We use an [agile project management](https://about.gitlab.com/solutions/agile-delivery/) approach for our work, leveraging as many GitLab platform features as we can. We use epics, issues, and issue/epic boards to organize our work, as they complement each other. For some of the work, we also use roadmaps, milestones, burndown charts.
 
-The single source of truth for *all* of our team's work across different functions is the top-level [Security Compliance (Dedicated Markets) team epic](https://gitlab.com/groups/gitlab-com/gl-security/-/epics/248). In the future, the epic will contain a section that tracks the status all ongoing work. The following subsections are borrowed from the [GitLab Dedicated Group](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/#project-management).
+The single source of truth for *all* of our team's work across different functions is the top-level [Security Compliance (Dedicated Markets) team epic](https://gitlab.com/groups/gitlab-com/gl-security/-/epics/248). In the future, the epic will contain a section that tracks the status all ongoing work. The following subsections are borrowed from the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/#project-management).
 
 #### Epic Hierarchy
 
@@ -144,7 +144,6 @@ Process to close phases:
 1. After the end of each month Security Compliance management reviews the epic (expeted) due dates and works with [Epic DRIs](#epic-owners) to determine any roadmap changes if an epic extends beyond the epic's planned phase.
 1. Management then determines roadmap adjustments so that planned work in future phases remains realistic after shifting open work.
 1. Roadmap changes are shared in the next weekly sync.
-
 
 #### Issue Board
 
@@ -237,4 +236,4 @@ Currently, we use monthly milestones and a burnup/burndown chart to track recurr
 - Email
    - `security-compliance@gitlab.com`
 - Here are our team's GitLab.com [subgroups and projects](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/team-security-dedicated-compliance)
-- Interested in joining our team? Check out more [here]({{< ref "/job-families/security/security-assurance-job-family" >}})!
+- Interested in joining our team? Check out more [here](/job-families/security/security-assurance-job-family)!

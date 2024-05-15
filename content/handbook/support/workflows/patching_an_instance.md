@@ -20,7 +20,7 @@ For Omnibus installs on a single server, this is fairly straightforward. Replace
 a raw snippet.
 
 ```shell
-#Ensure that the "patch" package is installed.
+#Ensure that the "patch" package is installed
 #Use the package manager specific to your Linux OS
 #For Ubuntu, for example, sudo apt install patch
 

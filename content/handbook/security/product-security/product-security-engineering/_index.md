@@ -5,11 +5,11 @@ description: "The Product Security Engineering team's mission is to create proac
 
 ## Product Security Engineering Mission
 
-As part of the Product Security sub-department, and sibling to the Application Security Team, our mission is to:
+As part of the Product Security department, and sibling to the Application Security sub-department, our mission is to:
 
 - Enhance security along the software development lifecycle by creating ["paved roads"](https://netflixtechblog.com/scaling-appsec-at-netflix-part-2-c9e0f1488bc5)
 - Contribute product-first code that enhances the security of GitLab's software assets
-- Reduces the manual burden of the Application Security team by building automation and product improvements
+- Reduce the manual burden of the Application Security team by building automation and product improvements
 
 ### What we do
 
@@ -26,8 +26,8 @@ Product Security Engineering will take potential work from several areas:
 To reach the Product Security Engineering team, team members can:
 
 - Ask in `#sec-product-security-engineering` on Slack
-- Mention `@gitlab-com/gl-security/product-security-engineering` on GitLab
-- Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/issues)
+- Mention `@gitlab-com/gl-security/product-security/product-security-engineering` on GitLab
+- Submit an issue in the [Product Security Engineering Team repository](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues)
 
 ## Workflow
 
@@ -43,11 +43,13 @@ Depending on the nature of the work it is added either to:
 When we take on work:
 
 1. Add the `~"team::Product Security Engineering"` label
-1. For internal issues: ensure it meets the criteria defined in [Automation Request template](https://gitlab.com/gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/-/blob/main/.gitlab/issue_templates/automation_request.md) for automation work, or
+1. For internal issues: ensure it meets the criteria defined in [Automation Request template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/blob/main/.gitlab/issue_templates/automation_request.md) for automation work, or
 1. For product issues:
     1. Identify the relevant PM/EM are based on `group::` labels. If there are no `group::` labels, make a best effort to figure out what group it would be relevant to.
     1. Ping the group's PM/EMs. Say that we're working on this issue, do your best to align with any existing efforts, and highlight that after release it will belong to their team (similar to a community contribution).
     1. If we can't figure it out an owner, don't ping anybody.
+1. Apply the appropriate `ProdSecEngMetric::` label based on the definitions listed in the Metrics labels table
+    1. If unsure what the appropriate label is at this point, add the `~ProdSecEngMetric::Pending` label
 
 ### Removing work items from the backlog
 
@@ -68,6 +70,34 @@ Like [Single Engineer groups](/handbook/engineering/incubation/), each Product S
 - All Product Security Engineering team members can contribute to the prioritization, but the Security Engineering Manager is DRI
 - New projects should follow the ["Creating a new project"](/handbook/engineering/gitlab-repositories/#creating-a-new-project) engineering guidance
 - Unless the effort is AppSec automation, the workflow ends by handing over the feature to a Product team
+
+#### Refinement Cadence
+
+Product Security Engineering team members are responsible for performing refinement on issues that we may potentially take on. We aim to do refinement on a regular basis, which helps to ensure our Milestone Planning process is smooth and efficient.
+
+It is expected that Product Security Engineering team members will do refinement tasks throughout the milestone. It is up to the individual to decide how they want to accomplish this, some ideas include:
+
+- Setting aside a specific amount of time per week on the calendar to perform refinement
+- Refining issues in-between major context switches, for example after submitting a merge request for review but before picking up the next piece of work
+
+#### Step-by-step refinement process
+
+Below is a step-by-step process for team members to walk through when refining backlog issues. We try our best to adhere to [existing GitLab development team standards](/handbook/product-development-flow/), so that the work can be picked up by anyone.
+
+1. Choose an issue to refine
+    1. Unrefined issues are labeled `~workflow::validation backlog` (or perhaps have no `~workflow::` label)
+    1. You may also consider refining an issue labeled `~ProdSecEng Candidate`
+    1. If possible, timebox refinement to at most 1 hour per issue
+1. Get an understanding of what the issue is trying to accomplish
+    1. You may need to ask questions of the person who created the issue or the relevant teams
+    1. Ensure there is a clear definition of done for this particular set of work
+    1. Consider breaking the issue down into separate pieces or, if needed, making an epic
+1. Add additional details to the appropriate sections such that someone can easily understand the goals and requirements
+1. Investigate what an ideal solution might look like and add potential solution information to that issue
+    1. Consider timeboxing this effort
+    1. If needed, consider applying the `~workflow::solution validation` label and engaging with the relevant product, engineering, or security teams to determine if the proposed solution addresses the requirements
+1. Add a [weight](/handbook/security/product-security/product-security-engineering/#weights) based on how much effort this will take to accomplish
+1. Add the `~workflow::ready for development` label to indicate that the issue has been refined
 
 ### Weights
 
@@ -92,7 +122,7 @@ Anything larger than 5 should be broken down if possible.
 
 Product Security Engineering should always have at least one AppSec-related issue in flight. This rule's intention is to make sure we achieve our mission of reducing AppSec's manual work burden.
 
-When a Product Security Engineer has capacity for more work, they should take an item from the top of the backlog and assign themselves to it. If they need to stop working on something they should unassign themselves, @ mention the team, and apply the correct workflow label (e.g. `~workflow::blocked`).
+If a Product Security Engineer completes all their work in a Milestone, they should take an item from the top of the backlog and assign themselves to it. If they need to stop working on something they should unassign themselves, @ mention the team, and apply the correct workflow label (e.g. `~workflow::blocked`).
 
 ### Merge Request Reviews
 
@@ -107,9 +137,83 @@ When contributing to a project owned and primarily maintained by Product Securit
 - We can skip a formal review if something is blocking, time-sensitive, and/or resolving an urgent high-impact need
 - We try to pick up issues in tooling other team members have written
 
-## References
+### Project namespaces
 
-This new team is still in the formation process. For more context, team members can refer to these internal links:
+The Product Security Engineering team defaults to using the namespaces of the stakeholder that we're performing the work for:
 
-- [Our transition issues in `gitlab-com/gl-security/product-security-engineering/product-security-engineering-team/`](https://gitlab.com/groups/gitlab-com/gl-security/-/issues/?sort=created_date&state=opened&label_name%5B%5D=AppSec%3A%3ATransition&first_page_size=20)
-- [The announcement Google Doc](https://docs.google.com/document/d/19NO6S02fMF3FZWkrptpXEFp6x2g6L9fro4qYUuITOsw/edit)
+- For contributions to GitLab assets, we contribute to the relevant repositories where other work is performed
+- For AppSec related work, we use the [AppSec tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling) unless there is a compelling reason not to
+- For our team's repositories, we use the [Product Security Engineering tooling namespace](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/tooling)
+
+## Milestone Planning
+
+The Product Security Engineering team plans its work on a cadence based around [GitLab Product Milestones](/handbook/product/milestones/). This section describes the planning process that we use to determine what work will be completed for each Milestone.
+
+### Milestone Planning Issue
+
+For each Milestone, a [Milestone Planning issue](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/?label_name[]=Milestone Planning) is created in the Product Security Engineering team repository. The purpose of this issue is to:
+
+- Identify potential work to perform
+- Identify refinement gaps and determine how to address them
+- Determine what work we're committing to for the upcoming Milestone
+- Set and communicate priority for the work we've decided to take on
+
+This issue is the single source of truth for all planning related discussions and decisions related to the upcoming Milestone.
+
+### Milestone Planning Process
+
+1. An issue will be created using [the Milestone Planning issue template](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-engineering/product-security-engineering-team/-/issues/new?issuable_template=milestone_planning)
+    1. The issue will be created immediately after planning is finished for the current Milestone
+    1. Throughout the current Milestone, Product Security Engineering team members can add work to the upcoming Milestone's Parking Lot
+1. The Product Security Engineering manager will be responsible for completing the checklist items in the Planning Checklist section of the Milestone Planning issue
+1. Product Security Engineering team members will add any work being carried over from the previous Milestone into the Milestone Work table
+1. The Product Security Engineering team will add potential work items to the Parking Lot section, with a brief explanation of why it would be good to include in the Milestone
+    1. Team members can add discussion threads to discuss potential work to pull into the Milestone
+    1. Both individual team members and the Product Security Engineering manager can add items to this list
+1. The Product Security Engineering team will work together to add new items to the Milestone Work table
+    1. Each item being added must be refined before it can be formally committed to
+    1. The team member likely to take on the work should review and agree with the Weight, if it wasn't them who refined the issue.
+    1. Once we have refined and committed to the work, the relevant issue needs to be updated with the Milestone, Assignee(s), and Metrics label
+1. The Milestone Planning issue should be finalized at least 3 days before the Milestone Start Date
+    1. The Product Security Manager will use threads in the Milestone Planning issue to work with each Product Security Engineering team member to finalize their workload
+    1. Once finalized, the Planning Issue should be closed and an issue for the next Milestone should be opened
+
+### Milestone Planning responsibilities
+
+Product Security Engineering team members are responsible for:
+
+- Evaluating and communicating their capacity for the Milestone (based on PTO and other factors)
+- Adding work that is being carried over into the Milestone Work table
+- Adding potential work items to the Parking Lot and being involved in discussions around what work we should pull into the Milestone
+- Collaborating with the Product Security Engineering manager to finalize the set of work being committed to for the Milestone
+
+The Product Security Engineering manager is responsible for:
+
+- Creating, updating, and maintaining the Milestone Planning issue
+- Collaborating with Product Security Engineering team members to discuss potential work, identify refinement gaps, and assemble the Milestone Work table
+- Coordinating the finalization of the Milestone Planning issue
+
+## Metrics
+
+The Product Security Engineering team currently tracks the following metrics:
+
+- [Team velocity, measured in total weight of issues closed per week](https://10az.online.tableau.com/#/site/gitlab/views/ProductSecurityEngineering/Sheet1?:iid=1)
+
+We are working to track the following metrics that indicate adherence to our team's charter:
+
+- Number of Merge Requests into GitLab products directly related to implementing the functionality required by Product Security teams
+- Number of Merge Requests for creating security enhancements, defense in depth measures, and paved roads
+- The percentage of distinct value propositions in current in-house custom tools that have been contributed to the product
+
+### Metrics Labels
+
+Labels are a driving force behind our metrics collection. The appropriate label must be applied to the relevant issue, merge request, or epic.
+
+| Type of Work | Label | Where to apply label |
+| --- | --- | --- |
+| Product Security team requirement: functionality within the product required by GitLab Product Security teams | `~ProdSecEngMetric::ProdSecRequirement` | Issues and Merge Requests, sometimes Epics |
+| Defense in Depth: an MR that modifies existing non-vulnerable functionality to be more robust if an "earlier" security control fails | `~ProdSecEngMetric::Defense in Depth` | Issues and Merge Requests, sometimes Epics |
+| Paved Road: a new tool, method, class, check that, gives GitLab's contributors an easier way to perform an activity securely | `~ProdSecEngMetric::Paved Road` | Issues and Merge Requests, sometimes Epics |
+| Tooling Integration: work done as part of the effort to integrate functionality from custom in-house tooling into a GitLab product | `~ProdSecEngMetric::Tooling Integration` | Epics |
+| Custom Tooling: work performed to build, maintain, or augment outside-of-the-product custom tooling needed to satisfy Product Security requirements | `~ProdSecEngMetric::Custom Tooling` | Issues and Merge Requests, sometimes Epics |
+| Pending: the work type isn't entirely clear yet, but we don't want to block progress for now | `~ProdSecEngMetric::Pending` | Issues, Merge Requests, and Epics |

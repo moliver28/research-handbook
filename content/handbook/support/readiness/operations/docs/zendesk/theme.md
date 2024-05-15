@@ -58,7 +58,7 @@ the temporary theme link. Towards the bottom of the logs should be a line
 looking something like this:
 
 ```bash
-Theme will be available via https://gitlab1545832369.zendesk.com/theming/theme/febb6377-13f5-489d-8287-1c16467718b0
+Theme will be available via https://gitlab1707170878.zendesk.com/theming/theme/febb6377-13f5-489d-8287-1c16467718b0
 ```
 
 You will want to copy that whole line and add it as a comment in your merge
