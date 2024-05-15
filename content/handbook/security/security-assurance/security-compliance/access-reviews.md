@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Purpose
 
-GitLab's user access review is an important control activity required for internal and external IT audits, helping to minimize threats and provide assurance that the right people have the right access to critical systems and infrastructure. This procedure details process steps and provides control owner guidance for access reviews.
+GitLab's user access review is an important control activity required for internal and external IT audits, helping to minimize threats, and provide assurance that the right people have the right access to critical systems and infrastructure. This procedure details process steps and provides control owner guidance for access reviews.
 
 ### Benefits to the organization
 
@@ -20,17 +20,23 @@ GitLab's user access review is an important control activity required for intern
 
 ### In-Scope Systems
 
-Security Compliance performs Access Reviews for Tier 1 and Tier 2 systems in scope for our compliance and regulatory programs. See the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for the current listing of Tier 1 and Tier 2 systems.
+Security Compliance performs Access Reviews for in-scope systems based on a subset of factors. Including:
+
+1. Criticality: Mission Critical, Business Critical
+
+* See the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for a current listing of all GitLab Systems and Vendors and their associated critical system tier.
+
+2. Orgin: External certification impact, Internally developed systems, Sub-processors, Integrated systems, Red Vendors
 
 ### Out-of-scope Systems
 
-Tier 3 applications as defined in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) are not in scope, however, all system owners are highly encouraged to perform a minimum of an annual terminated access review for their owned systems using this process as a guide.
+Systems that fall outside of the threshold of the above in-scope system factors. As a general best practice, all system owners are highly encouraged to perform a minimum of an annual terminated access review for their owned systems using this process as a guide.
 
 ## Roles & Responsibilities
 
 | Role | Responsibility |
 | :---: | :---: |
-| Security Compliance Team | *Execution of entitlement reviews<br><br>* Execution of terminated user access reviews<br><br>* Creation of observations and oversight of remediation activities for any identified findings|
+| Security Compliance Team | *Execution of Full Entitlement Review, Privilaged Access, Terminated User Reviews<br><br>* Creation of observations and oversight of remediation activities for any identified findings|
 | System Owners | *Validation of privileged entitlements<br><br>* Validation of user entitlements<br><br>*Timely evidence support <br><br>* Execution of remediation plans for identified observations<br><br>* Execution of access removal(s)|
 | IT Operations | * Execution of access removal(s)|
 | Managers | *Support validation of privileged entitlements<br><br>* Support validation of user entitlements|
@@ -46,13 +52,13 @@ Tier 3 applications as defined in the [tech stack](https://gitlab.com/gitlab-com
 
 - The current access listings of systems is correlated against a list of active team members derived from Workday (GitLab's source of truth for employment status) using GitLab's User Access Review tool [Authomize]({{< ref "security-assurance" >}}). If any users are found to have active system access that are not current GitLab team members, open access removal issues to start the access de-provisioning process.
 
-**Entitlement**
+**Entitlement/Privilaged Access**
 
-- Access for systems will be reviewed based on the job roles and departments via GitLab's User Access Review tool, Authomize. Depending on the user base size and scope of users with access, a system owner and/or manager will be involved in reviewing user entitlements. System owners should have detailed knowledge of which roles/deparments should have access to their system. For detailed instructions on how to complete a user access review via authomize see the [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/user-access-review/-/blob/master/runbooks/authomize_performing_uar.md).
+- Access for systems will be reviewed based on the job roles and departments via GitLab's User Access Review tool, Authomize. Depending on the user base size and scope of users with access, a system owner and/or manager will be involved in reviewing user entitlements. System owners should have detailed knowledge of which roles/deparments should have access to their system. For detailed instructions on how to complete a user access review via authomize see the [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/user-access-review/-/blob/master/runbooks/Authomize%20Related%20Runbooks/authomize_performing_uar.md).
 
 ### Access Review runbook
 
-The [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/user-access-review/-/blob/master/runbooks/authomize_performing_uar.md) provides the outline to complete these access reviews, including how to confirm [least privilege]({{< ref "access-management-policy#least-privilege-reviews-for-access-requests" >}}).
+The [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/user-access-review/-/blob/master/runbooks/Authomize%20Related%20Runbooks/authomize_performing_uar.md) provides the outline to complete these access reviews, including how to confirm [least privilege]({{< ref "access-management-policy#least-privilege-reviews-for-access-requests" >}}).
 
 In the event access is identified to no longer be required, open an [Access Removal](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) issue for each account that no longer requires access and relate it to the system access review issue.
 
@@ -60,19 +66,14 @@ If you have any questions or require assistance with completing an access review
 
 ### Annual Access Review Cadence
 
-- Tier 1
-    - Quarterly Terminated User Access Reviews
-    - Quarterly Entitlement Reviews for privileged users
-    - Annual Entitlement Reviews for all users
-- Tier 2
-    - Quarterly Terminated User Access Reviews
-    - Annual Entitlement Reviews for all users
+- In-scope:
+    - Quarterly Terminated User Access Reviews - system specific
+    - Quarterly Entitlement Reviews for privileged users - system specific
+    - Annual Entitlement Reviews for all users - system specific
 - [SOX In-Scope Appplications](https://gitlab.com/groups/gitlab-com/internal-audit/-/wikis/IT-General-Controls)
     - Quarterly Entitlement Reviews for all users
 
 All components of a user access review must be completed within the time period under audit. For example, if a user access review is scheduled for Q2, all components of the review including any required actions for modification/removal and lookbacks must be completed by the end of the quarter. It would not be sufficient to have outstanding requests for modification/removal at the quarter end, regardless of the users being identified for modification/removal prior to quarter end.
-
-The determination and tracking of systems ranked by tiers 1-4 are managed in the GitLab Critical Systems Inventory and is the SSOT of which systems require UARs and should always be referenced when in doubt.
 
 ### Access Removals
 
