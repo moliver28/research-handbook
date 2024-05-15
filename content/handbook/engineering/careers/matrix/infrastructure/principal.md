@@ -19,7 +19,7 @@ We recognize the [four staff engineer archetypes](https://staffeng.com/guides/st
 1. Represents the group across the company through their own behaviour, and by connecting group direction to other relevant teams. Actively looks for opportunities to connect engineers and engineering goals to their group's teams and goals. 
 1. Recognises, surfaces, and actively seeks to resolve team friction or misalignments and removes blockers that could impact the group or department. 
 1. Takes responsibility for the group's impact on availability, performance, and operational overhead. 
-1. Helps maintain awareness and health of department PIs and helps team's connect their team metrics to the department targets.
+1. Helps maintain awareness and health of department performance indicators and helps team's connect their team metrics to the department targets.
 
 ## Credibility
 
