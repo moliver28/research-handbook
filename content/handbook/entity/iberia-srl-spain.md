@@ -49,7 +49,7 @@ The [pay date](https://internal.gitlab.com/handbook/finance/payroll/#pay-dates) 
 
 ### Payslip Access
 
-All team members will be accessing payslips though Papaya SSO available as a tile in OKTA. Access will be activated with the first payslip. For any payslip access or general payroll issues please contact payroll in HelpLab by following the [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/) guide.
+All team members can access their payslips though Papaya SSO available as a tile in OKTA. Access will be activated with the first payslip. For any payslip access or general payroll issues please contact payroll in HelpLab by following the [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/) guide.
 
 ## Timekeeping Policies
 
@@ -75,9 +75,9 @@ Overtime, if appropriate, _must be expressly and previously authorized in writin
 
 ## Time Sheets
 
-Each Team Member will be expected to fill out a monthly time sheet. Team members have an individual folder created [here](https://drive.google.com/open?id=1KE26t6n3dC0FXY9IxhsD-l2E1SaenmLj&usp=drive_fs). Access to folders is monitored and reviewed by the Payroll team. Please use a copy of the timesheet in English or Spanish and create records for each month separately. Please refer to the [timekeeping policies](/handbook/entity/iberia-srl-spain.md#timekeeping-policies).
+Team members will be expected to fill out a monthly time sheet at the end of each month. The time sheet template can be found [here](https://drive.google.com/drive/folders/1KFUjpX1T2EBLqsi2c6jauI7odIiu9WXF), either the english or spanish version can be used. The timesheet must then be sent to the Non-US Payroll team via HelpLab (under time-tracking category) before the 2nd of the following month. For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For more information please refer to the [timekeeping policies](/handbook/entity/iberia-srl-spain.md#timekeeping-policies).
 
-For new hires, Payroll Team will create a folder for each new hire and validate access and visibility. Access will be shared during the team member's onboarding period and notification will be sent through HelpLab.
+For new hires, or any relocations this information will be in the relevant onboarding or relocation issue. 
 
 ## Spain-Specific Team Member Benefits
 
