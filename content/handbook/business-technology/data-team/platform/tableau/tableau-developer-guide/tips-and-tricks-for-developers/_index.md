@@ -5,6 +5,7 @@ description: "Giltab's Tableau Developer guide"
 ---
 
 # Date Handling
+
 Tableau has many ways for handling and visualizing dates - but due to those many options, it can be handy to have some tricks for the best way to do it, especially if you have custom needs.
 
 ## Date Handling in Production Dashboards
@@ -447,7 +448,7 @@ The Year over Year change was <AGG(Sales YoY)><ATTR(QoQ Label)><AGG(Sales QoQ)><
 
 The output of this tooltip would look like this: ![](images/image-13.png)![](images/image-14.png)
 
-# Design Tips
+## Design Tips
 
 ## Add GitLab Colos
 You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau-style-guide/#standard-color-palette)

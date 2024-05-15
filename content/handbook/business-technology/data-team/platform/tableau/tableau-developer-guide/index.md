@@ -20,7 +20,6 @@ For the same reasons, our approach to creating calculated fields is to create th
 
 This approach is intended to fulfill the majority of data source use cases, and Tableau developers are encouraged to try this approach first rather than creating joins & relationships in Tableau. If you find an instance that this approach does not support, please submit an MR to update this handbook guidance to share the scenarios where an alternate approach would be better.
 
-
 ## Connection Types in Workbooks
 
 When you are publishing a workbook or data source, there are a few Authentication options. The default options will allow you to publish your work, but you will soon be getting:
