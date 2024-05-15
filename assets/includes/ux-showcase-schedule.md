@@ -2,7 +2,7 @@
 |------------|----------------------|------------------------|------------------------|------------------------|
 | 2024-05-15 | Emily Sybrant        | Nick Leonard           | Amelia Bauerly         |                        |
 | 2024-05-29 | Paul Wright          | Pedro Moreira da Silva | Jeremy Elder           | Michael Fangman        |
-| 2024-06-05 | Marcel van Remmerden | Veethika Mishra        | Sascha Eggenberger     | Katie Macoy            |
+| 2024-06-12 | Marcel van Remmerden | Veethika Mishra        | Sascha Eggenberger     | Katie Macoy            |
 | 2024-06-26 | APAC                 | Libor Vanc             | Bonnie Tsang           |                        |
 | 2024-07-03 | Taurie Davis         | Tim Noah               | Austin Regnery         | Graham Bachelder       |
 | 2024-07-24 | Rayana Verissimo     | Mike Nichols           | Gina Doyle             |                        |
