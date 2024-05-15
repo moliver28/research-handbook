@@ -799,7 +799,7 @@ At this time, there is no functionality that enables deal-specific discussion di
 
 ###### Learn More
 
-Additional resources are available in Highspot. Review the Slack Approvals slide deck for step-by-step instructions, or check out this video announcement to see Slack Approvals in action
+Additional resources are available in Highspot. Review the Slack Approvals slide deck for step-by-step instructions, or check out this [video announcement](https://gitlab.highspot.com/items/6644cf1179be967698ca92e2) to see Slack Approvals in action!
 
 #### Approval Requests Submitted via Salesforce Chatter
 
