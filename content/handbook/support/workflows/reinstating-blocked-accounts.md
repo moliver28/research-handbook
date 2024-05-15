@@ -100,14 +100,14 @@ Professional Services migrations can also block users as part of their process. 
     - Blocked users can submit a support ticket to be unblocked. Once they are [verified](/handbook/support/workflows/account_verification), the user can be unblocked. Leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.
     - For [Enterprise users]({{< ref "gitlab-com_overview#enterprise-users" >}}), the `owner` of the top-level namespace the user belongs to can submit the ticket. Follow the [account verification]({{< ref "account_verification" >}}), and add an [admin note]({{< ref "admin_note" >}}) as usual, including if it was user or owner requested.
     - You can also ask for clarification or assistance in the [#professional_services](https://gitlab.slack.com/archives/CFRLYG77X) channel if needed.
-    - Proceed with this action for both **free** and **paid** users. 
+    - Proceed with this action for both **free** and **paid** users.
 
 ### No admin note and none of the above
 
 For all other cases, including no admin notes that are not a part of PS migrations, complete the [Account Reinstatement Request](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/TS_Operations/account-reinstatements/-/issues/new?issuable_template=Account%20Reinstatement) template in the Trust and Safety Operations tracker. A security member of the team will review the request within 24 hours. If the request is urgent, please reach out in the [#abuse](https://gitlab.enterprise.slack.com/archives/C0HPYBJ3D) Slack channel.
 1. Send the [`Support::SaaS::Gitlab.com::Blocked Accounts::Escalated-TrustAndSafety`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Escalated-TrustAndSafety.md?ref_type=heads) macro for the initial response to the user.
 1. If established it is not a Trust and Safety block, or is blocked as a result of a SM-to-SaaS migration (conducted with or without Professional Services) AND they are [verified](/handbook/support/workflows/account_verification), then:
-    - **Paid accounts** can be unblocked with authorization from a user with the Owner role in the top level namespace. 
+    - **Paid accounts** can be unblocked with authorization from a user with the Owner role in the top level namespace.
     - **Free accounts** can only be unblocked under exceptional circumstances and in combination with leadership approval.
 
 ### Account is successfully unblocked
