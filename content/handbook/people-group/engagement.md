@@ -17,7 +17,6 @@ There are different survey types that we run at different times throughout the y
 - *Engagement survey:* We partner with CultureAmp to host and run our engagement surveys. We ask all team members to complete this survey at least once a year to understand how engagement is tracking over time.
 - *Organizational Health survey:* we will sometimes run a survey to understand our company and culture more fully (i.e. McKinsey OHI survey) and classify these efforts as Organizational Health surveys.
 
-
 ## Employer Award surveys
 
 ### Great Place to Work
@@ -47,7 +46,6 @@ GitLab received [Great Place to Work Certification](https://www.greatplacetowork
 1. 89% of team members say GitLab is a Great Place to Work
 
 [Read more about the survey results](https://docs.google.com/presentation/d/1lT6E46aDmMM8JGAdXmNJFnhoSeCBx9DstsOq-y6yFH0/edit#slide=id.g123a13deda8_0_405).
-
 
 <details>
 <summary>FY23 Great Place to Work Survey Result</summary>
