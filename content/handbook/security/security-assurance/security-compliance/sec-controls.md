@@ -40,13 +40,11 @@ GCF security controls are assessed at the entity level or the system level depen
 
 GCF security controls assessed at system level are based upon the system's [critical system tiering]({{< ref "critical-systems" >}}). Dependent upon the system's tier, a subset of GCF controls are evaluated based upon overall risk and impact to the organization. This is broken out as follows:
 
-|Tier |     GCF Control Scope |     ZenGRC Link|
+|Tier |     GCF Control Scope |     Hyperproof Link|
 |--|--|--|
-|Tier 0 Entity|Entity-Level Controls| [Link](https://gitlab.zengrc.com/sor/listing/controls?p=eyJzb3IiOnsicGFnZVNpemUiOjIwMCwiY29sdW1ucyI6WyJ0aXRsZSIsInNsdWciLCJkZXNjcmlwdGlvbiIsInRlc3RQbGFuIiwic3RhdHVzIiwiY2FfXzExMiIsImFzc2Vzc21lbnRzIl0sImNvbHVtblNpemVzIjpbeyJuYW1lIjoidGVzdFBsYW4iLCJzaXplIjozNzR9LHsibmFtZSI6Im1hcHBpbmdzLnByb2dyYW1zIiwic2l6ZSI6MzgxfV0sImZpbHRlcnMiOnsiQU5EIjpbeyJmIjoiY2FfXzM0MyIsIm8iOiI9IiwidiI6IlRpZXIgMCBFbnRpdHkifSx7ImYiOiJtYXBwaW5ncy5wcm9ncmFtcyIsIm8iOiI9IiwidiI6IlByb2dyYW06NDIifV19fX0%3D&page=1)|
-|Tier 1 Mission Critical|All "In-Scope" System-Level Controls| [Link](https://gitlab.zengrc.com/sor/listing/controls?p=eyJzb3IiOnsicGFnZVNpemUiOjIwMCwiY29sdW1ucyI6WyJ0aXRsZSIsInNsdWciLCJkZXNjcmlwdGlvbiIsInRlc3RQbGFuIiwic3RhdHVzIiwiY2FfXzExMiIsImFzc2Vzc21lbnRzIl0sImNvbHVtblNpemVzIjpbeyJuYW1lIjoidGVzdFBsYW4iLCJzaXplIjozNzR9LHsibmFtZSI6Im1hcHBpbmdzLnByb2dyYW1zIiwic2l6ZSI6MzgxfV0sImZpbHRlcnMiOnsiQU5EIjpbeyJPUiI6W3siZiI6ImNhX18zNDMiLCJvIjoiPSIsInYiOiJUaWVyIDEgTWlzc2lvbiBDcml0aWNhbCJ9LHsiZiI6ImNhX18zNDMiLCJvIjoiPSIsInYiOiJUaWVyIDIgQnVzaW5lc3MgQ3JpdGljYWwifV19LHsiZiI6Im1hcHBpbmdzLnByb2dyYW1zIiwibyI6Ij0iLCJ2IjoiUHJvZ3JhbTo0MiJ9XX19fQ%3D%3D&page=1)|
-|Tier 2 Business Critical|Subset of System-Level Controls| [Link](https://gitlab.zengrc.com/sor/listing/controls?p=eyJzb3IiOnsicGFnZVNpemUiOjIwMCwiY29sdW1ucyI6WyJ0aXRsZSIsInNsdWciLCJkZXNjcmlwdGlvbiIsInRlc3RQbGFuIiwic3RhdHVzIiwiY2FfXzExMiIsImFzc2Vzc21lbnRzIl0sImNvbHVtblNpemVzIjpbeyJuYW1lIjoidGVzdFBsYW4iLCJzaXplIjozNzR9LHsibmFtZSI6Im1hcHBpbmdzLnByb2dyYW1zIiwic2l6ZSI6MzgxfV0sImZpbHRlcnMiOnsiQU5EIjpbeyJmIjoiY2FfXzM0MyIsIm8iOiI9IiwidiI6IlRpZXIgMiBCdXNpbmVzcyBDcml0aWNhbCJ9LHsiZiI6Im1hcHBpbmdzLnByb2dyYW1zIiwibyI6Ij0iLCJ2IjoiUHJvZ3JhbTo0MiJ9XX19fQ%3D%3D&page=1)|
-
-> Note that to arrive at all controls that are Tier 1 you must filter for all controls with Tier 1 OR Tier 2 designation (since all Tier 2 controls also are included in Tier 1). The filters above have accounted for this nuance and can be confirmed by selecting "Filter" in the top right of ZenGRC and confirming filters being applied.
+|Tier 0 Entity|Entity-Level Controls| [Link](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls?filters=cf-f6f3a9aa-9dd6-11ee-92d4-760afca11dae%3DTier%25200%2520Entity&sortGridBy=scopeName&view=grid)|
+|Tier 1 Mission Critical|All "In-Scope" System-Level Controls| [Link](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls?filters=cf-f6f3a9aa-9dd6-11ee-92d4-760afca11dae%3DTier%25201%2520Mission%2520Critical&sortGridBy=scopeName&view=grid)|
+|Tier 2 Business Critical|Subset of System-Level Controls| [Link](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls?filters=cf-f6f3a9aa-9dd6-11ee-92d4-760afca11dae%3DTier%25202%2520Business%2520Critical&sortGridBy=scopeName&view=grid)|
 
 ## Control Ownership
 
@@ -94,7 +92,7 @@ Once the Security Compliance Intake issue is populated, Security Risk assigns th
 - Incorporate testing requirements (driven by CST and regulatory/compliance requirements) and recommendations into the fiscal year audit schedule
 - Determine when [user access reviews]({{< ref "access-reviews" >}}) for the new system need to start and communicate to compliance teams
 
-## List of NIST 800-53 controls by family (Used by Commercial and Dedicated teams beginning FY24 Q1)
+## List of NIST 800-53 controls by family (Used by Commercial and Dedicated Security Compliance teams beginning FY24 Q1)
 
 *Detailed sub-controls are included in the various control family pages*
 
