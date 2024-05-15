@@ -55,12 +55,12 @@ When considering new software to address business needs and objectives, see belo
 
 See below for high level recommendations to leverage when evaluating professional services vendors. 
 
- - How will GitLab data be shared with the vendor?
-   - Security recommends using GitLab's Google Drive to share sensitive data with external parties. Email attachments are not a secure method of sharing data outside of GitLab. 
+ - Will GitLab documents be shared with the vendor?
+   - Security recommends using GitLab's Google Drive to share sensitive data with external parties.
  - Does the professional services vendor adhere to strict human resource security practices including acceptable use and data protection training, background screenings, and regular security awareness trainings?
-   - Security requires that all members of the professional services team acknowledge acceptable use and information security policies and are subjected to background screenings upon hire and annual security awareness trainings.
- - Does the professional services vendor allow contractors or consultants to perform work from personal devices?
-   - Security requires that all personnel accessing GitLab data perform work via corporate owned devices with centrally managed endpoint security controls. 
+   - GitLab requires professional service vendors have background screenings and security awareness training.
+ - Does the vendor perform work from personal devices?
+   - Security requires that GitLab data is protected by adequate endpoint security controls.
 
  </details> 
 
