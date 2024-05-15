@@ -84,7 +84,7 @@ If the Admin Note is `User deleted own account on {timestamp}`, this means the u
         - Use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Blocked due to account deletion`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Blocked%20due%20to%20account%20deletion.md?ref_type=heads) macro and ask for explicit permission from the user to bypass the 7d wait period and delete the account.
         - When confirmation is received, SE (with Admin access) deletes the account.
         - SE updates the ticket with the result of the deletion.
-    1. **Paid user** accounts who are part of a paid namespace, the user has no deletion delayed and the account is deleted immediately, see [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/121912).
+    1. **Paid user** accounts who are part of a paid namespace, the user has no deletion delayed and the account is deleted immediately, see [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/121912). Note: At present, this applies to members of top-level paid namespace only, see [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/416651). Paid users added below the top-level group will still be subject to the 7-day delay period.
 
 ### Embargoed countries
 If the block or complaint is related to access from an embargoed country, use the [`Support::SaaS::Gitlab.com::Abuse::TOS Section 10 (Embargoed Countries)`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Abuse/TOS%20Section%2010%20(Embargoed%20Countries).md?ref_type=heads) macro.
