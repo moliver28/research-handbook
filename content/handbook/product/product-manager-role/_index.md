@@ -164,11 +164,11 @@ You can find more information and instructions on the Deep Dive interview [here]
   <iframe src="https://www.youtube.com/embed/AkNcYjWrvDU" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-Team members are [strongly recommended to take two weeks of consecutive time off a year](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off). Extended leave longer than the [`no ask, must tell` GitLab paid time off](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) is common, especially for [parental leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Leaving for a longer period of time can be daunting, but it is critical to ensure your `rest ethic` meets your `work ethic` and also to ensure we don't have single points of failure in the company. Here are a few suggestions for product managers to help plan for this time.
+Team members are [strongly recommended to take two weeks of consecutive time off a year](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off). Extended leave longer than the [`no ask, must tell` GitLab paid time off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) is common, especially for [parental leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Leaving for a longer period of time can be daunting, but it is critical to ensure your `rest ethic` meets your `work ethic` and also to ensure we don't have single points of failure in the company. Here are a few suggestions for product managers to help plan for this time.
 
 On a high level, these are the two most important things to do:
 
-1. [Communicate your time off](/handbook/paid-time-off/#communicating-your-time-off)
+1. [Communicate your time off](/handbook/people-group/paid-time-off/#communicating-your-time-off)
 1. [Create a PM coverage issue](https://gitlab.com/gitlab-com/Product/-/issues/new?issuable_template=PM-Coverage) (details below)
 
 ### Creating a PM coverage issue
@@ -183,7 +183,7 @@ It is recommended to work with your manager and Quad members when considering cr
 
 ### Returning from Time Off
 
-Returning from time off can be overwhelming and daunting. You should work with your DRIs to understand what has changed during your absence and what the current priorities are. Also, communicate transparently that your response time may be slower because you are catching up. Here are some additional tips on [how to return back to work after time off](/handbook/paid-time-off/#returning-from-pto).
+Returning from time off can be overwhelming and daunting. You should work with your DRIs to understand what has changed during your absence and what the current priorities are. Also, communicate transparently that your response time may be slower because you are catching up. Here are some additional tips on [how to return back to work after time off](/handbook/people-group/paid-time-off/#returning-from-pto).
 
 ## Product Shadowing with Engineering
 

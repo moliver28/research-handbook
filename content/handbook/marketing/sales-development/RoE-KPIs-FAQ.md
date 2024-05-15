@@ -243,9 +243,6 @@ Announcement Channels
 | **Daily outbound metrics** |
 | - We aim for 45 touchpoints per day using the various methods above. This is a broad expectation and may vary per team given the segment, functionality, and strategy of the team manager. |
 
-
-
-
 ### Sales Dev Career Path
 
 | Position                               | Promotion Criteria                                                                                                                                                                  |
@@ -326,7 +323,7 @@ In addition to the above, BDR team members are expected to:
 
 ### Sales Development Organization Time Off
 
-In accordance with the [Time Off Policy](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off), you need give your manager a heads up early of your intended time off so that they can help arrange cover for your tasks, if necessary.
+In accordance with the [Time Off Policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off), you need give your manager a heads up early of your intended time off so that they can help arrange cover for your tasks, if necessary.
 
 We want to help our team members being able to fully unplug from work during their PTO, while not having to worry about their workload or target attainment. Based on this, we have created this PTO Territory Planning Issue that you can use to strategize your work and be aligned to the GitLab value of being a [Manager of One.](/handbook/leadership/#managers-of-one)
 

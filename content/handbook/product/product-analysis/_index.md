@@ -191,7 +191,7 @@ plan ahead if you know that you will need assistance from the Product Data Insig
 
 #### Working days
 
-As GitLab team members, we are [encouraged to take PTO](/handbook/paid-time-off/) and observe public
+As GitLab team members, we are [encouraged to take PTO](/handbook/people-group/paid-time-off/) and observe public
 holidays in order to maintain a healthy work-life balance. Analyst capacity should be adjusted
 based on the number of days they are working in the iteration.
 

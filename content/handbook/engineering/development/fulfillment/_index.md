@@ -615,9 +615,9 @@ See this handbook page for more information on [GitLab Monitoring](/handbook/eng
 
 #### Escalation process for incidents or outages
 
-Temporarily, while [pagerslack](https://gitlab.com/jameslopez/pagerslack) or [pagerduty](/handbook/on-call/#pagerduty) is not adopted in Fulfillment, the following process is in place:
+Temporarily, while [pagerslack](https://gitlab.com/jameslopez/pagerslack) or [pagerduty](/handbook/engineering/on-call/#pagerduty) is not adopted in Fulfillment, the following process is in place:
 
-1. When an outage occurs, the [SRE on-call](/handbook/on-call/) is notified automatically. Incidents can also be [reported manually](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
+1. When an outage occurs, the [SRE on-call](/handbook/engineering/on-call/) is notified automatically. Incidents can also be [reported manually](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 1. Simultaneously to an outage, `#s_fulfillment_status` on Slack is notified and [James Lopez](https://gitlab.com/jameslopez) and [Vitaly Slobodin](https://gitlab.com/vitallium) are paged on the phone
 1. When required, the SRE on-call or incident reporter can ping `@fulfillment-engineering` on Slack to notify and get help from the team
 
@@ -826,7 +826,7 @@ This table lists recurring activities that are part of our Project Management Pr
 | [Milestone Planning](/handbook/engineering/development/fulfillment/#planning)                                                            | Monthly      | Async | Fulfillment Utilization, Purchase, Provision, and InfraDev Groups |
 | [Roadmap Planning](https://about.gitlab.com/direction/fulfillment/#roadmap)                                                                                      | Monthly      | Sync  | Fulfillment PMs, EMs, QEMs, UXMs                                |
 | [Monthly Product Kickoffs](/handbook/product/product-processes/#kickoff-meetings)                                                        | Monthly      | Sync  | Product Function                                                |
-| [Product Key Reviews](/handbook/key-review/)                                                                                             | Monthly      | Sync  | Fulfillment PMs, Product Leadership, E-Group                    |
+| [Product Key Reviews](/handbook/company/key-review/)                                                                                             | Monthly      | Sync  | Fulfillment PMs, Product Leadership, E-Group                    |
 | [Retrospective Issue](https://gitlab.com/gl-retrospectives/fulfillment/-/issues/)                                                                                | Monthly      | Async | Fulfillment Section                                             |
 | [Retrospective Discussion](https://docs.google.com/document/d/1eL1QLtIGGxqYfaVQXIWhxAUvqTMw1OQLVQ68ZYib40g/edit)                                                 | Monthly      | Sync  | Fulfillment Section                                             |
 | [Direction Review](https://about.gitlab.com/direction/fulfillment/)                                                                                              | Quarterly    | Async | Fulfillment PMs, Product Leadership                             |

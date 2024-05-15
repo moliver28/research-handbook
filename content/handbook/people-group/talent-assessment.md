@@ -53,7 +53,7 @@ Performance includes both results and behaviors, and is broken into three areas:
 
 **Please note that `Developing` should not be automatically associated with underperformance. As highlighted below, `Developing` can also be used for new hires or newly promoted team members that are still ramping up in their new roles. Your manager will provide example and detail to ensure the rationale behind the `Developing` rating is communicated.**
 
-Based on the Job Family responsibilities, [values](/handbook/competencies/#values-competencies) and [remote working competencies](/handbook/competencies/#remote-work-competencies), team members in this category are not meeting all of the expectations. There is still more to learn and improve on in the current position to achieve the desired results. This may be due to the following:
+Based on the Job Family responsibilities, [values](/handbook/people-group/competencies/#values-competencies) and [remote working competencies](/handbook/people-group/competencies/#remote-work-competencies), team members in this category are not meeting all of the expectations. There is still more to learn and improve on in the current position to achieve the desired results. This may be due to the following:
 
 - The team member has not been in the position/at GitLab long enough to adequately demonstrate performance.
 - The team member has been recently promoted and needs time to ramp up performance in the new role.
@@ -74,7 +74,7 @@ Examples:
 
 ### Performing
 
-Based on Job Family responsibilities, [values](/handbook/competencies/#values-competencies) and [remote working competencies](/handbook/competencies/#remote-work-competencies) team members in this category are “on track” and meeting all expectations. They can independently and competently perform all aspects of the Job Family responsibilities in a way that is aligned with our values and competencies. Their performance consistently meets the requirements, standards, or objectives of the job, and they can occasionally exceed expectations. They deliver results in a timely and accurate fashion. This performance may be expected as a result of:
+Based on Job Family responsibilities, [values](/handbook/people-group/competencies/#values-competencies) and [remote working competencies](/handbook/people-group/competencies/#remote-work-competencies) team members in this category are “on track” and meeting all expectations. They can independently and competently perform all aspects of the Job Family responsibilities in a way that is aligned with our values and competencies. Their performance consistently meets the requirements, standards, or objectives of the job, and they can occasionally exceed expectations. They deliver results in a timely and accurate fashion. This performance may be expected as a result of:
 
 - The team member is consistent and stable in their performance.
 - The team member has the required knowledge, skills and abilities to perform in the role successfully and also applies values and competencies in their work.
@@ -90,7 +90,7 @@ Examples:
 
 ### Exceeding
 
-Team members that are exceeding consistently surpass the demands of their current position. They demonstrate unique understanding of work beyond the assigned area of responsibility. They contribute to GitLab’s success by adding significant value well beyond Job Family requirements, [values](/handbook/competencies/#values-competencies), and [remote working competencies](/handbook/competencies/#remote-work-competencies). This performance may be expected as a result of:
+Team members that are exceeding consistently surpass the demands of their current position. They demonstrate unique understanding of work beyond the assigned area of responsibility. They contribute to GitLab’s success by adding significant value well beyond Job Family requirements, [values](/handbook/people-group/competencies/#values-competencies), and [remote working competencies](/handbook/people-group/competencies/#remote-work-competencies). This performance may be expected as a result of:
 
 - Individual is developing more quickly than the demands of their current position.
 - They rise to the challenge when give additional assignments and achieve significant results.
@@ -140,7 +140,7 @@ Performance against Job Family responsibilities, requirements, performance indic
     - Example: [Software Engineer in Test](/job-families/engineering/software-engineer-in-test#responsibilities)
 - Review Performance indicators per Job Family: Look at the Performance indicators.
     - Example: [Software Engineer in Test](/job-families/engineering/software-engineer-in-test#performance-indicators)
-- *(if applicable)* [Functional Competencies](/handbook/competencies/#functional-competencies)
+- *(if applicable)* [Functional Competencies](/handbook/people-group/competencies/#functional-competencies)
 
 For management roles, please also review and consider the [levels]({{< ref "structure#levels" >}}) outlined in the Organizational Structure.
 
@@ -148,10 +148,10 @@ For management roles, please also review and consider the [levels]({{< ref "stru
 
 Performance against these competencies should be weighted at 40%.
 
-- [Values Competencies](/handbook/competencies/#values-competencies)
-- [Remote Working Competencies](/handbook/competencies/#remote-work-competencies)
+- [Values Competencies](/handbook/people-group/competencies/#values-competencies)
+- [Remote Working Competencies](/handbook/people-group/competencies/#remote-work-competencies)
 - [Job Frameworks]({{< ref "structure#job-frameworks" >}})
-- *(if applicable)* [Manager and Leadership Competencies](/handbook/competencies/#manager-and-leadership-competencies)
+- *(if applicable)* [Manager and Leadership Competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies)
 
 When completing the talent assessment form, team members and managers should reflect on the applicable competencies and job frameworks when filling out the achievements, strengths, and opportunities section.  Given GitLab's [CREDIT values](/handbook/values/#credit) should be lived, with each day representing a new opportunity to refamiliarize oneself with said values and strive to implement them in every professional interaction, there is an opportunity for team members and managers to rate how a team member demonstrates each of the CREDIT values.  The following rating scale is used for each value:
 
@@ -320,9 +320,9 @@ It is **absolutely essential** that managers complete the required pre-work to e
 - Review the Job Family/Families that will be reviewed in detail
 - Review our competencies
     - [Talent Assessment Training in LevelUp] (https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/talent-assessment)
-    - [Values competencies](/handbook/competencies/#values-competencies)
-    - [Remote work competencies](/handbook/competencies/#remote-work-competencies)
-    - [Functional competencies](/handbook/competencies/#functional-competencies) *(if applicable)*
+    - [Values competencies](/handbook/people-group/competencies/#values-competencies)
+    - [Remote work competencies](/handbook/people-group/competencies/#remote-work-competencies)
+    - [Functional competencies](/handbook/people-group/competencies/#functional-competencies) *(if applicable)*
     - [Job framework]({{< ref "structure#job-frameworks" >}})
 - Review our [Unconscious Bias](/handbook/company/culture/inclusion/unconscious-bias/) handbook page and consider watching our [Recognizing Bias Training](/handbook/company/culture/inclusion/unconscious-bias/#recognizing-bias-training) if you haven't already.
 - Review the [Performance/Growth Potential Matrix Training Information](https://docs.google.com/presentation/d/151ys8xkOak9ifU9IPXQydZ44sb_BoMpMocWmjVonLHE/edit), which delves into definitions for each box.
@@ -721,9 +721,9 @@ The succession planning process might vary slightly for different areas of the b
 | [Workday Job Aid: How to Facilitate Calibration - PBPs](https://docs.google.com/document/d/1NZWGjhwGnRDcP2ANnyg8PLsNY-tRSlH5V8sEoSCE1Dc/edit) | PBP instructions for how to facilitate calibration sessions in Workday.|
 | [Workday Calibration Video Tutorial](https://drive.google.com/file/d/1WiX6qawWqscJGMYR3IaxiCUycWwrrl-U/view?usp=share_link) | Manager instructions for how to complete their Talent Calibration in Workday. |
 | [Talent Assessment Calibration Agenda Doc](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#heading=h.q1ptlqi506at) | This template can be used by managers to ensure similar pre-work, structure, and context to generate alignment ahead of live calibration sessions. The agenda is also recommend to ensure rationale behind potential assessment changes during calibration are recorded. |
-| [Values competencies](/handbook/competencies/#values-competencies) | Values competencies form an important part of the Performance Factor evaluation and are important to review prior to beginning the assessment period. |
-|[Remote work competencies](/handbook/competencies/#remote-work-competencies) | Remote work competencies form an important part of the Performance Factor evaluation and are important to review prior to beginning the assessment period. |
-| [Functional competencies](/handbook/competencies/#functional-competencies) | Functional competencies (for groups that have them developed) can also influence the Performance Factor and should be reviewed prior to the assessment period. |
+| [Values competencies](/handbook/people-group/competencies/#values-competencies) | Values competencies form an important part of the Performance Factor evaluation and are important to review prior to beginning the assessment period. |
+|[Remote work competencies](/handbook/people-group/competencies/#remote-work-competencies) | Remote work competencies form an important part of the Performance Factor evaluation and are important to review prior to beginning the assessment period. |
+| [Functional competencies](/handbook/people-group/competencies/#functional-competencies) | Functional competencies (for groups that have them developed) can also influence the Performance Factor and should be reviewed prior to the assessment period. |
 | [Unconscious Bias](/handbook/company/culture/inclusion/unconscious-bias/) handbook page and [Recognizing Bias Training](/handbook/company/culture/inclusion/unconscious-bias/#recognizing-bias-training) | It is important to me mindful of unconscious bias always, and especially during talent reviews and assessments. It is highly recommended that you review the handbook page and watch the training. |
 | [Performance Factor](/handbook/total-rewards/compensation/compensation-review-cycle/#performance-factor) handbook page | This page is the SSOT to review the Performance Factor's impact on compensation. |
 
