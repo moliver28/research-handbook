@@ -161,7 +161,7 @@ markdownlint:
   variables:
     FORCE_COLOR: 1
   before_script:
-    - npm install markdownlint-cli2-formatter-codequality markdownlint-cli2-formatter-pretty
+    - npm install chalk terminal-link
   script:
     - markdownlint-cli2 "content/**/*.md"
   rules:

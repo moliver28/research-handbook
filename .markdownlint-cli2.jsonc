@@ -1,7 +1,17 @@
 {
   "outputFormatters": [
     [ "markdownlint-cli2-formatter-codequality" ],
-    [ "markdownlint-cli2-formatter-pretty" ]
+    [
+      "markdownlint-cli2-formatter-prettier.js",
+      {
+        "colors": {
+          "fileName": "white",
+          "separator": "yellow",
+          "ruleText": "cyan",
+          "detailsAndContext": "cyan"
+        } 
+      } 
+    ]
   ],
   "config": {
     "default": true,
@@ -27,7 +37,6 @@
     "content/handbook/business-technology/**/*.md",
     "content/handbook/customer-success/**/*.md",
     "content/handbook/engineering/**/*.md",
-    "content/handbook/marketing/**/*.md",
     "content/handbook/product/**/*.md",
     "content/handbook/sales/**/*.md",
     "content/handbook/company/culture/all-remote/remote-work-report-2020.md",
