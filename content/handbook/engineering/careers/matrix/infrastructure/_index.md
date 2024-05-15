@@ -32,7 +32,7 @@ The expected team member competencies in the Infrastructure department at GitLab
 1. [Intermediate](/handbook/engineering/careers/matrix/infrastructure/intermediate/)
 1. [Senior](/handbook/engineering/careers/matrix/infrastructure/senior/)
 1. [Staff](/handbook/engineering/careers/matrix/infrastructure/staff)
-1. Principal
+1. [Principal](/handbook/engineering/careers/matrix/infrastructure/principal)
 1. Distinguished
 1. Engineering Fellow
 
