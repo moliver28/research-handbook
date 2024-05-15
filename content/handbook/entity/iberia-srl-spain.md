@@ -41,7 +41,17 @@ In addition to the [People Policies](/handbook/people-policies/) page of the Han
 
 In addition to the [Legal Policies](/handbook/legal/#gitlab-policies) page of the Handbook, there are Spanish language versions of many of the policies available for reference and they are accessible [here](/handbook/people-policies/#translations).
 
-## Timekeeping
+## Payroll Details
+
+### Pay Dates
+
+The [pay date](https://internal.gitlab.com/handbook/finance/payroll/#pay-dates) is on the 28th of each month. If the 28th falls on a weekend or public holiday, payment will be made on the prior working day. For the December salary payment date, payroll team will make an announcement notifying team members of the precise date.
+
+### Payslip Access
+
+All team members can access their payslips though Papaya SSO available as a tile in OKTA. Access will be activated with the first payslip. For any payslip access or general payroll issues please contact payroll in HelpLab by following the [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/) guide.
+
+## Timekeeping Policies
 
 It is mandatory for every Spanish company to register the working day of its employees and these timekeeping records must be kept for four years.
 
@@ -63,9 +73,11 @@ Between work days, team members are entitled to an uninterrupted rest period of 
 
 Overtime, if appropriate, _must be expressly and previously authorized in writing by GitLab_. If GitLab has _not_ required or authorized overtime work, then team members should not exceed the normal daily working hours and such time worked in excess will not be considered overtime for any purposes.
 
-## Payroll Details
+## Timesheets
 
-Payroll information will be added in duwe course - please hold tight!
+Team members will be expected to fill out a monthly timesheet at the end of each month. The timesheet template can be found [here](https://drive.google.com/drive/folders/1KFUjpX1T2EBLqsi2c6jauI7odIiu9WXF) and either the english or spanish version can be used.The timesheet must then be sent to the Non-US Payroll team via HelpLab (under the time-tracking category) before the 2nd of the following month. For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For more information please refer to the [timekeeping policies](/handbook/entity/iberia-srl-spain.md#timekeeping-policies).
+
+For new hires or any relocations, this information will be in the relevant onboarding or relocation issue.
 
 ## Spain-Specific Team Member Benefits
 
