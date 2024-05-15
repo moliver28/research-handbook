@@ -22,6 +22,7 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 | Slack           | [#wg_secure-govern-database-decomposition](https://gitlab.slack.com/archives/C01NB475VDF) (only accessible from within the company) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1HB_mDNugJjk5dmwagNs8xvYj-oBfPX5qXn0zhTARl4Q/edit) (only accessible from within the company) |
 | Issue Board     |              |
+| Meeting Cadence | Weekly on Mondays. Recorded. EMEA and APAC options. |
 
 ### Exit Criteria
 
@@ -29,6 +30,16 @@ The charter of this working group is to:
 - Successfully decompose the Secure/Govern datasets to a separate database in order to reduce pressure on the primary GitLab.com DB and assist in future scalability and stability concerns.
 - Evaluate the impact of the decomposition on Self-Managed instances regarding feature parity, performance/hardware requirement, improvements for different size of DBs, and admin's effort to support.
 - Provide an effective migration guide and/or tooling to assist Self-Managed instances in the decomposition of their local CI and Secure/Govern databases in alignment with GitLab.com
+
+### Objectives
+
+Key results we'd like to achieve within the scope of the working group to ensure the outcome has the most desireable outcome.
+
+| Objective  | Notes | Achieved On |
+| --- | --- | --- |
+| To the best of our ability, ensure implementation does not result in increased costs or burden for self-managed users, similar to the CI decomposition outcome. | |  |
+| Modifications have been signed off on by Reference Architecture and appropriately documented.  | Raise an issue in the Reference Architecture tracker to gather needed advice on an ad hoc basis. | |
+| Minimise disruption to GitLab.com in the process of decomposition. | This may be unavoidable if we opt to use Phsyical Replication, which will require all traffic to the database to be ceased prior to cutover. | |
 
 ### Glossary
 
@@ -129,8 +140,8 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
     2. Establish the decomposed database instance
     3. Write the necessary code to enable GitLab.com to begin utilising the new instance generically and for all Secure/Govern features.
     4. Begin testing transition of the Secure/Govern featureset to using the new database instance as it's new write primary.
-    5. Implement downtime/suspension/dataloss period warning for GitLab users
-    6. Take a final snapshot of the production database, copy to new database and enable.
+    5. Take GitLab down so that write traffic stops.
+    6. Wait for replication to catch up on the node before promoting it to be the new leader of a new Secure DB cluster. Configure GitLab to write to this new Secure DB cluster.
     7. Globally rollout usage of the decomposed database for the full featureset.
     8. Cleanup legacy Secure/Govern data from the GitLab Core database.
     9. Cleanup legacy Core data from the new Secure/Govern database.
@@ -158,30 +169,28 @@ If gradual decomposition is not possible, then we would pursue decomposition wit
 
 ## Roles and Responsibilities
 
-| Working Group Role                       | Name                            | Title |
-| -----------                              | -----------                     | ----------- |
-| Executive Stakeholder                    | Bartek Marnane                  | VP, Expansion |
-| Facilitator/DRI                          | Gregory Havenga                 | Senior Backend Engineer, Govern: Threat Insights  |
-| Functional Lead                          | Lucas Charles                   | Principal Software Engineer, Secure & Govern |
-| DRI - Distribution                       |                                 ||
-| DRI - Infrastructure                     |                                 ||
-| DRI - Database                           | Jon Jenkins                     | Senior Backend Engineer, Database |
-| DRI - Data                               |                                 ||
-| DRI - Secure: Composition Analysis       |                                 ||
-| DRI - Secure: Dynamic Analysis           |                                 ||
-| DRI - Secure: Static Analysis            |                                 ||
-| DRI - Secure: Secret Detection           |                                 ||
-| DRI - Govern: Security Policies          |                                 ||
-| DRI - Govern: Compliance                 |                                 ||
-| DRI - Govern: Anti Abuse                 |                                 ||
-| DRI - Govern: Authentication             |                                 ||
-| DRI - Govern: Authorization              |                                 ||
-| DRI - QE                                 |                                 ||
-| DRI - Reference Architecture             |                                 ||
-| Member                                   | Dylan Griffith                  | Principal Engineer, Create |
-| Member                                   | Thong Kuah                      | Principal Engineer, Data Stores |
-| Member                                   | Arpit Gogia                     | Backend Engineer - Secure, Dynamic Analysis |
-| Member                                   |                                 ||
+| Working Group Role                   | Name              | Title |
+| -----------                          | -----------       | ----------- |
+| Executive Stakeholder                | Bartek Marnane    | VP, Expansion |
+| Facilitator/DRI                      | Gregory Havenga   | Senior Backend Engineer, Govern: Threat Insights  |
+| Functional Lead                      | Lucas Charles     | Principal Software Engineer, Secure & Govern |
+| DRI - Distribution                   |                   ||
+| DRI - Infrastructure                 |                   ||
+| DRI - Database                       | Jon Jenkins       | Senior Backend Engineer, Database |
+| DRI - Data                           | Ved Prakash       | Staff Data Engineer|
+| DRI - Secure: Composition Analysis   |                   ||
+| DRI - Secure: Dynamic Analysis       |                   ||
+| DRI - Secure: Static Analysis        |                   ||
+| DRI - Secure: Secret Detection       |                   ||
+| DRI - Govern: Security Policies      |                   ||
+| DRI - Govern: Compliance             |                   ||
+| DRI - Govern: Anti Abuse             |                   ||
+| DRI - Govern: Authentication         |                   ||
+| DRI - Govern: Authorization          |                   ||
+| Member                               | Dylan Griffith    | Principal Engineer, Create |
+| Member                               | Thong Kuah        | Principal Engineer, Data Stores |
+| Member                               | Arpit Gogia       | Backend Engineer - Secure, Dynamic Analysis |
+| Member                               |                   ||
 
 ## Useful References
 
