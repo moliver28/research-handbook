@@ -47,7 +47,6 @@ GitLab received [Great Place to Work Certification](https://www.greatplacetowork
 
 [Read more about the survey results](https://docs.google.com/presentation/d/1lT6E46aDmMM8JGAdXmNJFnhoSeCBx9DstsOq-y6yFH0/edit#slide=id.g123a13deda8_0_405).
 
-
 <details>
 <summary>FY23 Great Place to Work Survey Result</summary>
 
@@ -85,6 +84,7 @@ We will share with individual managers how close they are to recieving enough re
 The GitLab Team Member Engagement Survey is comprised of eleven sections each of which is aligned to a specific area of focus otherwise known as a factor.
 
 The survey factors we primarily focus on:
+
 1. Overall Sentiment and Inclusivity
 2. Confidence in GitLab and Management
 3. Your Role & Connecting at GitLab
@@ -93,7 +93,6 @@ The survey factors we primarily focus on:
 6. Open text questions
 
 Overall survey ranges anywhere from 40 to 50 questions. The format of the survey was predominantly Likert or Rating Scale with a handful of free text questions or comments toward the end. The favorable score is the percentage of participants who selected ‘agree’ and ‘strongly agree’.
-
 
 ## FY'25 Engagement Survey
 
@@ -112,7 +111,6 @@ To best determine how effective we are at achieving the goal of Summit is to gau
 
 This will helped us gain valuable insights into any shifts in sentiments among team members, allowing us to assess the true impact of the summit, satisfaction and engagement.
 This is an abbreviated version of our engagement survey, and it also includes a few Summit related questions.
-
 
 ### Survey Results
 
@@ -693,7 +691,6 @@ GitLab scored 12% below the industry benchmark i.e. 2018 New Tech Size - Large C
 You have now updated a demographic in CultureAmp!
 
 </details>
-
 
 <details>
 <summary>Organizational Health Surveys</summary>
