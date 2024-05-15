@@ -15,9 +15,6 @@ The commitment to helping customers and partners succeed - how we contribute our
 
 We look forward to working with you - to build and deliver the solutions that delight customers.
 
-Nima Badiey<br>
-VP, Global Alliances
-
 <i>GitLab Team Members: Please visit the internal* [Alliance Handbook Page](https://internal.gitlab.com/handbook/alliances/)</i> for additional information.
 
 ## Alliance Partner Program
