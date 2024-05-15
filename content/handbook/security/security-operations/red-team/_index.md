@@ -27,13 +27,13 @@ Stealth operations are not a contest. If our Red Team completes an objective und
 
 These operations require [special rules]({{< ref "red-team-roe#stealth-operations" >}}). Examples of techniques we may use and those we will specifically avoid can be found in [Stealth Operation Techniques]({{< ref "red-team-roe#stealth-operation-techniques" >}}).
 
-### Purple Team Operations
+### Purple Team Flash Operations
 
-We use the term "*Purple Team*" to describe an open collaboration between our defensive security folks (aka our "Blue Team") and our offensive security folks (aka our "Red Team"). Red + Blue = Purple. When the Purple Team performs an operation, the work is visible to all GitLab team members. This includes building adversary profiles, discussing hypothetical attack and defense scenarios, and emulating attack techniques in our environment.
+Purple Team flash operations are short, collaborative exercises that address rapidly emerging threats. While stealth operations can span 3-6 months, we complete these in 1-2 weeks.
 
-A stealth operation may be converted to a Purple Team operation after the Red Team has been uncovered. Or, we may plan from the beginning to conduct an operation in the Purple Team style.
+These operations start with our Threat Intelligence team identifying a specific threat that is likely to impact GitLab in the near future. We then collaborate with SIRT and others to quickly create and execute attack scenarios to test our preparedness.
 
-You can read more about this process in [Purple Teaming at GitLab]({{< ref "purple-teaming" >}}).
+Purple Team flash operations allow us to stay ahead of the news cycle. Our goal is to rapidly iterate on our defensive capabilities, ensuring we are ready for the real thing.
 
 ### Opportunistic Attacks
 
