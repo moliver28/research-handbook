@@ -451,3 +451,4 @@ The output of this tooltip would look like this: ![](images/image-13.png)![](ima
 
 ## Add GitLab Colos
 You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau-style-guide/#standard-color-palette)
+
