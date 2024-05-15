@@ -42,11 +42,11 @@ Establishing a complete and accurate inventory of assets is key to the success o
 
 |Team Member|Role|
 |:----------:|:----------:|
-|[Ty Dilbeck](https://gitlab.com/tdilbeck)|[Manager, Security Risk](handbook/job-families/security/security-risk/#manager-security-risk)|
-|[Eric Geving](https://gitlab.com/ericgeving)|[Senior Security Risk Engineer](handbook/job-families/security/security-risk/#senior-security-risk-engineer)|
-|[Kyle Smith](https://gitlab.com/kylesmith2)|[Senior Security Risk Engineer](handbook/job-families/security/security-risk/#senior-security-risk-engineer)|
-|[Ryan Lawson](https://gitlab.com/rlawson1)|[Senior Security Risk Engineer](handbook/job-families/security/security-risk/#senior-security-risk-engineer)|
-|[Nirmal Devarajan](https://gitlab.com/ndevarajan)|[Security Assurance Engineer](handbook/job-families/security/security-risk/#security-risk-engineer-intermediate)|
+|[Nirmal Devarajan](https://gitlab.com/ndevarajan)|[Security Risk Engineer](handbook.gitlab.com/job-families/security/security-assurance-job-family/#security-risk)|
+|[Ty Dilbeck](https://gitlab.com/tdilbeck)|[Senior Manager, Security Risk](handbook.gitlab.com/job-families/security/security-leadership/#senior-manager-security)|
+|[Eric Geving](https://gitlab.com/ericgeving)|[Senior Security Risk Engineer](handbook.gitlab.com/job-families/security/security-assurance-job-family/#security-risk-1)|
+|[Ryan Lawson](https://gitlab.com/rlawson1)|[Senior Security Risk Engineer](handbook.gitlab.com/job-families/security/security-assurance-job-family/#security-risk-1)|
+|[Kyle Smith](https://gitlab.com/kylesmith2)|[Senior Security Risk Engineer](handbook.gitlab.com/job-families/security/security-assurance-job-family/#security-risk-1)|
 
 ## <i class="fa-solid fa-d" style="color:rgb(110,73,203)" aria-hidden="true"></i> Functional DRIs{#dris}
 
