@@ -29,7 +29,7 @@ These operations require [special rules]({{< ref "red-team-roe#stealth-operation
 
 ### Purple Team Flash Operations
 
-Purple Team flash operations are short, collaborative exercises that address rapidly emerging threats. While stealth operations can span 3-6 months, we complete these in 1-2 weeks.
+Purple Team flash operations are short, collaborative exercises that address rapidly emerging threats. While stealth operations can span 3-6 months, we complete these flash operations in 1-2 weeks.
 
 These operations start with our Threat Intelligence team identifying a specific threat that is likely to impact GitLab in the near future. We then collaborate with SIRT and others to quickly create and execute attack scenarios to test our preparedness.
 
