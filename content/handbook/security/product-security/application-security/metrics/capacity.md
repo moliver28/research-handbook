@@ -60,8 +60,8 @@ The effort classification is an estimate of the level of effort required to reso
 
 ### Table
 
-| Label    | Classification | Description | Estimation Guide | Example |
-| -------- | ------- | ------- | ------- | ------- |
+| Label    | Weight | Classification | Description | Estimation Guide | Example |
+| -------- | ------ | ------- | ------- | ------- | ------- |
 | AppSecWeight::trivial | Trivial | Very little effort required | Immediate or near immediate change to resolve the issue | Trivial documentation update |
 | AppSecWeight::small  | Small | Straight forward change, minimal investigation | ~0.5 - 1 days  | |
 | AppSecWeight::medium | Medium | Some investigation and/or collaboration needed  | ~1-3 days | |
