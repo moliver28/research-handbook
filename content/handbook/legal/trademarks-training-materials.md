@@ -27,6 +27,7 @@ This introductory session covers the following topics:
 🎥 <a href="https://youtu.be/KbVOenojbUU" target="_blank">Video</a> 🎞️ <a href="https://docs.google.com/presentation/d/1rsBNMFnGTk-NNGKotCQxWy0kmcumU_MQXKncTkX6_tE/edit?usp=sharing" target="_blank">Slides</a> 📃 <a href="https://docs.google.com/document/d/13Qd7FGvUH907lkRWYtQy357PqSbxYyNIM6QSSiaryRs/edit?usp=sharing" target="_blank">Transcript</a> 🔈 <a href="https://drive.google.com/file/d/1YoR1_Zhmt4YtV_aERWdoaVoQWMRC3KXB/view?usp=sharing" target="_blank">Audio</a>
 
 This session covers the following topics:
+
 - An explanation of the defence of fair use with respect to trademarks
 - The definition of nominative fair use, the fair use defense most relevant to our work at GitLab
 - The elements which establish nominative fair use
@@ -37,6 +38,7 @@ This session covers the following topics:
 🎥 <a href="https://youtu.be/McGuMLzzWOM" target="_blank">Video</a> 🎞️ <a href="https://docs.google.com/presentation/d/1D-p0U4RfbV8f5Fwpv71CqDrS9bKJuq6NLt6kV-ZFTDg/edit?usp=sharing" target="_blank">Slides</a> 📃 <a href="https://docs.google.com/document/d/1eb8EO9FIsrvuZD2CQ3G1C117ESUdlkaKLsK57k3QUIQ/edit?usp=sharing" target="_blank">Transcript</a> 🔈 <a href="https://drive.google.com/file/d/1ZgKXjC6Nnnpw04J53O0s3mFDSb4esulK/view?usp=sharing" target="_blank">Audio</a>
 
 This session covers the following topics:
+
 - The importance of GitLab’s trademarks, and why all team members are responsible for their maintenance and protection
 - Resources maintained by the GitLab Marketing Team which assist in ensuring the correct use of the GitLab trademarks
 - Tips for using the GitLab trademarks correctly

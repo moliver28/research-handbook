@@ -28,7 +28,7 @@ This allows us to see our strengths as a team and to identify team trainings tha
 1. Review the template to make sure it makes sense for your team. Do consider changes carefully and discuss with other managers. We want to be able to have consistency so we can view them across multiple design teams.
 1. Add your team members names to the spreadsheet.
 1. Introduce this process to your team by sharing this page, the NN article and the GitLab focused template.
-1. Ask team members to rate themselves (current and future state). 
+1. Ask team members to rate themselves (current and future state).
 1. Review with your team member. You may suggest adjustments based on your observations, but ultimately this is a self-assessment.
 1. Share the results in an issue -[Example Issue](https://gitlab.com/gitlab-org/gitlab-design/-/issues/1674).
 1. To follow up on the results, the team members and their manager can identify opportunities to fill gaps where team members said they want to improve.

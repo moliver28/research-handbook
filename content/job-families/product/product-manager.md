@@ -43,7 +43,7 @@ In addition, as a PM, you also play a critical role in the regular development a
 | Maintain and update [Direction pages](https://about.gitlab.com/direction/#devops-stages) | Direction pages communicate our [vision](https://about.gitlab.com/direction/) and plan externally and internally. |
 | Review PIs and update [PI pages](/handbook/product/performance-indicators/) | Product Indicators are how we know whether or not we are making the right investments or measuring the right thing. PMs should be intimately knowledgeable with the PIs in their domain. |
 | Release planning for every milestone | PMs are the DRIs for planning and [prioritizing](/handbook/product/product-processes/#prioritization-ahead-of-kickoff) the work for their respective development group. Some of the output for release planning can be planning issues and [kick-off](/handbook/product/product-processes/#kickoff-meetings) videos. |
-| Create [release post content](/handbook/product/product-processes/#release-posts) | The release post is the way to broadcast what features have been released. PMs are responsible to ensure release post item MRs are created, reviews are complete and posted.
+| Create [release post content](/handbook/product/product-processes/#release-posts) | The release post is the way to broadcast what features have been released. PMs are responsible to ensure release post item MRs are created, reviews are complete and posted. |
 | Drive alignment with stable counterparts via [OKRs](/handbook/product/product-processes/#objectives-and-key-results-okrs) | PMs play a role in facilitating alignment by ensuring individual functional groups' objectives are appropriately prioritized within their development group. |
 | Connect user and customer insights with [product prioritization](/handbook/product/product-processes/#issues-important-to-customers) | Customer interviewing, collecting insights about customer adoption, pain points, and reprioritizing "What's Next". PMs are responsible for continuously refining the most important feature, bugs, and tech debt to ensure relevance to the market, install base, and expansion. |
 | [Triage new issues](/handbook/product/product-processes/#prioritization) (features, bugs, security vulnerabilities, etc) | PMs [share responsibility](/handbook/product/product-processes#prioritization-for-feature-maintenance-and-bugs) for prioritizing the most important issues based on [work type](/handbook/engineering/metrics/#work-type-classification). |
@@ -112,7 +112,7 @@ It is not sufficient to just know the problems. It is also insufficient to have 
 
 [Stage Monthly Active Users](/handbook/product/performance-indicators/)
 
-----
+---
 
 ## Career paths
 
@@ -193,7 +193,6 @@ Beyond the [base requirements](#base-pm-requirements), Senior Product Manager re
 - Uses multiple sources of data (qualitatative, quantiative) and proactibvely monitors usage data and metrics to inform product direction
 - Appropriately influence, persuade, and collaborate closely with Product Design, User Research, Product Marketing, Data Analyst team, and Engineering Counterparts to build an ambitious but realistic plan across the stage
 
-
 #### Example Behaviors
 
 The unique needs and circumstances of individual roles may vary; however, the list below outlines some examples of behaviors that may be expected at this level:
@@ -256,7 +255,6 @@ Beyond the [base requirements](#base-pm-requirements) and Senior Product Manager
 - Strong storytelling skillset and ability to translate technical requirements into user needs
 - Coach and mentor to other Product Managers or active in career development for others
 - Recognized as thought leader in the industry (e.g. published author or regular speaker at conferences)
-
 
 #### Example Behaviors
 
@@ -401,7 +399,7 @@ solving customers problems on a daily basis make great fits for Customer Success
 - **General Management**: As a result of their exposure to a wide variety of functions, Product Managers often make a
 transition from Product Management to General Management.
 
-----
+---
 
 ## Specialties
 

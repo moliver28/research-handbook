@@ -256,4 +256,4 @@ canary stage and how to use it](/handbook/engineering/infrastructure/environment
 
 There are some engineering handbook topics that we cannot be publicly transparent about.  These topics can be viewed by GitLab team members in the [engineering section of the private handbook](https://internal.gitlab.com/handbook/engineering/).
 
-If you experience a page not found (404) error when attempting to access the internal handbook, you may need to register to use it via first browsing to the [internal handbook authorization page](https://gitlab.com/internal-handbook/internal-handbook.gitlab.io/).
+If you experience a page not found (404) error when attempting to access the internal handbook, you may need to register to use it via first browsing to the [internal handbook authorization page](https://gitlab.com/internal-handbook/internal.gitlab.com/).

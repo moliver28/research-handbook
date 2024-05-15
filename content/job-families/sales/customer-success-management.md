@@ -35,11 +35,10 @@ The Customer Success Manager(CSM) role at GitLab is expected to serve and operat
 | -- | - |
 | [Associate Customer Success Manager](#associate-customer-success-manager) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Customer Success Manager](#customer-success-manager-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Customer Success Manager](#senior-customer-success-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Staff Customer Success Manager](#staff-customer-success-manager) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Senior Customer Success Manager](#senior-customer-success-manager) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Staff Customer Success Manager](#staff-customer-success-manager) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Manager, Customer Success Managers](#manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Customer Success Managers](#senior-manager-customer-success-managers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-
 
 ### Associate Customer Success Manager
 
@@ -230,7 +229,6 @@ The Senior Manager, CSM is a job grade [level 9](/handbook/total-rewards/compens
 - Demonstrated progressive experience leading customer success managers, account management or sales teams with team sizes of 5+ people
 - Proven experience leading teams, driving software adoption, and building and scaling customer success management practices
 
-
 ## Specialties
 
 ### Public Sector Customer Success Manager (CSM)
@@ -242,6 +240,7 @@ The Senior Manager, CSM is a job grade [level 9](/handbook/total-rewards/compens
 #### Public Sector CSM Requirements
 
 In addition to the corresponding Customer Success Manager level requirements:
+
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
 
@@ -252,7 +251,7 @@ In addition to the corresponding Customer Success Manager level requirements:
 
 ## Career Ladder
 
-Team members in the Customer Success Management job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Architect or Solutions Architect.  
+Team members in the Customer Success Management job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Architect or Solutions Architect.
 
 ## Hiring Process
 

@@ -5,6 +5,7 @@ title: "Critical Projects"
 ## How are critical projects defined?
 
 These projects aren’t considered a function of OKRs (e.g., ambitious) but are considered critical because they
+
 - must be accomplished fully within a specific time frame; and
 - require cross-functional collaboration; and
 - address immediate-term risks within security or GitLab

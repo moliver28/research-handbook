@@ -12,7 +12,6 @@ title: Account Planning for Solutions Architects
 
 - Steps to access Gainsight are outlined on this [Handbook Page](/handbook/sales/gainsight/#getting-started)
 
-
 ## SA Role Specific Gainsight Usage
 
 - **How to create and edit a Technical Win Plan from Gainsight:**
@@ -26,21 +25,21 @@ title: Account Planning for Solutions Architects
 
 A rationale describing how an SA can contribute to the Account Planning is documented here in the [Handbook](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
 
-
 ## Collaborating with Other Team Members
 
 It is important to note that Gainsight brings the entire account team onto a single platform to plan, and by having the SAE, SA, and CSM in one place, it allows the SA to visualize the dependencies between the tasks of each individual much more clearly and understand how each team member is working towards the 6, 12, and 18 month goals.
+
 - SAs should collaborate with the SAE/CSM on a Technical Win Plan and ensure that the plan encompasses Workshops, PoVs, deep dives, etc.
 
 **NOTE**
+
 - The Techincal Win Plan is still part of the SAEs account plan and SAs don't have to create anything new.
 - SAs should be DRIs on the technical activities for new lands.
 - SAs should own technical activities on account expansions where CSMs are not engaged.
 - SAs should collaborate with the CSMs on account expansions where deemed necessary especially where there’s a need for tier upgrade and  onboarding of new teams.
 - SAs are not the DRIs of a customer’s initial account plan. By the time the opportunity reaches the Account Planning stage, basic account details should have been entered into Salesforce. Thus, the main purpose of completing the Account Profile section of the account plan,should be to capture important details about the customer or prospect, including information about the organization's business, strategic objectives, goals, motivations, competitive landscape, pertinent technology stack details, etc. The account profile should be all about the customer (not GitLab).
 
-
-## FAQs:
+## FAQs
 
 - **How is Gainsight different from Troops and SFDC?**
   - Gainsight is a platform that enables collaboration between SAE, SA & CSMs. SA are expected to collaborate during Account Planning. SAs should own the objective of creating a technical win plan during account planning. Troops is used for day to day activity capture for meetings.
@@ -55,12 +54,10 @@ It is important to note that Gainsight brings the entire account team onto a sin
 - **What if there is no account plan from the SAE?**
   - The SA together with the SAE will create a Technical Win Plan using Gainsight.
 
-
 ## Gainsight Example: How an SA Adds/Update a Success Plan
 
 **Creating a New Success Plan or Adding a Success Plan to an Existing Customer Entry**
 <div style="position: relative; padding-bottom: 69.76744186046511%; height: 0;"><iframe src="https://lucid.app/documents/embeddedchart/3f6a8cf8-f63a-4649-b797-c540034c3f1e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 
 ## Gainsight Enablement
 
@@ -69,7 +66,7 @@ It is important to note that Gainsight brings the entire account team onto a sin
 - [Account Planning for SAs](https://gitlab.edcast.com/pathways/gainsight-for-solutions-architects-sas)
 - [Using Gainsight in Team Meetings](https://www.youtube.com/watch?v=gT_pz9PoHHg)
 
-## Additional Reading:
+## Additional Reading
 
 - Documentation about Gainsight Go-To-Market Technical Documentation is located [here](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
 - More information about how Sales uses Gainsight can be found on the Using [Gainsight within Sales page](/handbook/sales/gainsight/account-planning/)

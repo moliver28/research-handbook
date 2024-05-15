@@ -31,7 +31,6 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. Act as a CEO of yourself and your role by taking responsibility to set goals and appropriate timelines. Prioritize your contributions and know it's [impossible to know everything]({{< ref "values#its-impossible-to-know-everything" >}}).
 1. Communicate clearly with your team and people leader on the status of your goals. Act quickly to address areas that pose a challenge or to reassess goals that cannot be reached in an alloted timeframe.
 
-
 ### Examples of actions from managers of one at GitLab
 
 1. When asked to attend a synchronous brainstorming call, a team member instead opens an issue and [requests for their team's ideas asynchronously](/handbook/company/culture/all-remote/asynchronous/#how-to-decline-meetings-in-favor-of-async).
@@ -136,7 +135,6 @@ GitLab division README pages are linked below for context. Reading other READMEs
 - [Finance Team READMEs](/handbook/finance/readmes/)
 - [Legal Team READMEs](/handbook/legal/readmes/)
 - [Office of the CEO READMEs](/handbook/ceo/office-of-the-ceo/readmes)
-
 
 ### Creating Your README
 
@@ -273,7 +271,6 @@ M-teams are management support groups made up of 3 to 6 managers who are in time
 
 If you're interested in starting or joining an m-team meeting, reach out to other managers in the [#managers](https://gitlab.slack.com/archives/C5Z55R5J5) Slack channel.
 
-
 ## Articles
 
 1. [Carta's Manager’s FAQ](https://readthink.com/a-managers-faq-35858a229f84)
@@ -332,7 +329,7 @@ When you give leadership training please [screenshare the handbook instead of cr
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
 1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
-1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), [Security]({{< ref "security-shadow" >}}), and [Development Director Shadow Program](/handbook/engineering/development/shadow/director-shadow-program.html).
+1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), and [Security]({{< ref "security-shadow" >}}).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
 1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management?u=2255073)
 1. Watch or listen to one of the many [CEO Handbook Learning sessions](/handbook/people-group/learning-and-development/learning-initiatives/#list-of-ceo-handbook-learning-sessions) with Sid on various leadership topics
@@ -349,4 +346,4 @@ Learn more on GitLab's view of [being a public company]({{< ref "being-a-public-
 
 ## Mitigating Concerns
 
-We have a page which documents our [Mitigating Concerns](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/). Many of our [values]({{< ref "values" >}}) help to mitigate some of these concerns.
+We have a page which documents our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/). Many of our [values]({{< ref "values" >}}) help to mitigate some of these concerns.

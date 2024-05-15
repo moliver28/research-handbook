@@ -2,13 +2,13 @@
 
 title: Create Stage
 description: >-
-  The Create Stage is a group of teams including 
+  The Create Stage is a group of teams including
   Code Creation, Code Review, Editor Extensions,
   IDE, and Source Code.
 ---
 
 
-## Hello!
+## Hello
 
 [We're the Create Stage](/handbook/engineering/development/dev/create/engineering-managers/) and we are a group of teams within the Dev Sub Department. We're comprised of five areas [within the GitLab product](/handbook/product/categories/#create-stage).
 

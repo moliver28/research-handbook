@@ -31,23 +31,23 @@ The distribution team is comprised of two groups, Distribution:Build and Distrib
 
 ### Distribution Build tasks
 
-- Maintain all team pipelines for all Distribution projects
-- Research for the support of new clouds, platforms, architecture, and components
-- Access controls, permissions, and CVE patches
-- Team infrastructure/resource management
-- Dependency updates
-- License management
-- Submissions to Partners for validations/certifications
+* Maintain all team pipelines for all Distribution projects
+* Research for the support of new clouds, platforms, architecture, and components
+* Access controls, permissions, and CVE patches
+* Team infrastructure/resource management
+* Dependency updates
+* License management
+* Submissions to Partners for validations/certifications
 
 ### Distribution Deploy tasks
 
-- Initial installation and composability
-- Upgrades / Downgrades
-- Scaling deployments
-- Migration between platforms or providers
-- Data lifecycle management
-- Secure configuration & communication
-- Research of clouds and platforms for integration to existing tools
+* Initial installation and composability
+* Upgrades / Downgrades
+* Scaling deployments
+* Migration between platforms or providers
+* Data lifecycle management
+* Secure configuration & communication
+* Research of clouds and platforms for integration to existing tools
 
 ## Work prioritization
 
@@ -235,7 +235,7 @@ For new OS release, Distribution team aims to provide Linux package support per 
 
 ## Interviews
 
-See the [`hiring-process`](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/Platforms/Distribution)
+See the [`hiring-process`](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering/Infrastructure/CorePlatforms/Distribution)
 project for information on conducting interviews for positions on the Distribution team.
 
 [SLO]: https://about.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests.html#service-level-objective

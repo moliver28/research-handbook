@@ -280,6 +280,7 @@ These other types of OOO categories do not count as PTO. These categories are an
 ### Unable to access Time Off by Deel
 
 If you receive an error message **"Uh-oh! It doesn't look like you have access to Time Off by Deel"** please attempt the following steps.
+
 1. Check to see if your email address (GitLab) in your slack profile matches your email address in BambooHR -  it is important to note in this instance that BambooHR is case sensitive and that the addresses must match exactly.
 1. If these two are not the same exact email then the application will not recognize you as a team member.
     - Update your Slack email - OR -
@@ -568,7 +569,7 @@ Team members are entitled to accrue 20 days per year at a rate of 1.67 days/mont
 
 Team members are entitled to a minimum of 5 weeks of statutory vacation per year. The accrual period in France is June 1st - May 31st and accruals are prorated based on the number of months worked in the accrual period.  Any unused statutory vacation days will be carried into the next accrual period, but expire one year after it's accrued.
 
-#### Reduction of working time (RTT):
+#### Reduction of working time (RTT)
 
 - The 25-day holiday entitlement is an employee's right based on a 35-hour workweek. In cases where employees need to work beyond the legal 35 hours, certain roles within GitLab may benefit from reduced working time (RTT)of up to two days per month to compensate for the extended working hours. RTT is calculated by taking the working days in the year and subtracting the contracted days (formula below). The accrual period for RTT days is January 1st - December 31st each year.
 - Employees cannot carry RTT days to the following year and we encourage all team members to use RTT accruals first before statutory accruals.
@@ -578,7 +579,7 @@ Team members are entitled to a minimum of 5 weeks of statutory vacation per year
 
 GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws.
 
-#### GitLab Canada Corp observes provincial laws regarding vacation time and vacation pay. For more information, refer to the applicable employment standards legislation of the Province in which you reside:
+#### GitLab Canada Corp observes provincial laws regarding vacation time and vacation pay. For more information, refer to the applicable employment standards legislation of the Province in which you reside
 
 - [Alberta Employment Standards](https://www.alberta.ca/employment-standards.aspx)
 - [British Columbia Employment Standards](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards)

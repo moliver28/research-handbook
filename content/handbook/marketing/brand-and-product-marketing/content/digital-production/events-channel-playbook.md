@@ -82,6 +82,6 @@ These are the possible ways you can have your event video promoted through inter
 1. Third-party content platforms (e.g. like ITPro.tv, industry blogs, etc.)
 1. Highlighted on GitLab’s weekly “This Week at GitLab” video series (Based on viewership numbers, topic and speaker)
 
-----
+---
 
 Return to the main [Growth Marketing Handbook](/handbook/marketing/inbound-marketing/).

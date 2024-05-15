@@ -22,7 +22,7 @@ twitter_creator: "@gitlab"
 
 [See calendar glossary here](/handbook/marketing/virtual-events/#calendar-glossary)
 
-# Overview
+## Overview
 {: #overview .gitlab-purple} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 There are four types of GitLab-hosted webcasts and workshops using the Zoom webcast license and On24, with differing DRIs depending on the webcast goal and owner.
@@ -74,7 +74,7 @@ Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-gen
 * [ ] [main salesforce campaign]()
 * [ ] [main marketo program]()
 * [ ] [ON24 webcast preview link]()
-* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
+* [ ] [Developer Relations Influenced](/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 
 ## :books: Issue creation
@@ -137,7 +137,7 @@ Partner webcasts are managed and moderated by Partner Marketing, working closely
 * [ ] [main salesforce campaign]()
 * [ ] [main marketo program]()
 * [ ] Sharing leads with our partner (check box if yes) - campaign manager to use *Form 2432: Partners*
-* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
+* [ ] [Developer Relations Influenced](/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 /label ~"Partner Marketing" ~"Marketing Programs" ~"Webcast - GitLab Hosted" ~"Webcast" ~"mktg-status::wip" ~mktg-demandgen
 
@@ -199,7 +199,7 @@ Virtual Workshops are managed and moderated by Field Marketing, working closely 
 
 For details regarding Virtual Workshops, please visit the [Field Marketing Page](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshops-1).
 
-# Best Practices
+## Best Practices
 {: #webcast-best-practices .gitlab-purple} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 `Marketing Programs to review and update against "general virtual events best practices" page`
@@ -251,14 +251,14 @@ Demo series run on a bi-weekly cadence as live or pre-recorded sessions on On24 
 
 **Key objectives:**
 * **Pipeline Acceleration:** Increase conversion from Marketing Qualified Leads (MQL) to Sales Accepted Opportunities (SAO).
-* **Prospect and Customer Education:** Inform our prospects and existing customers about the value offered by GitLab's features. 
+* **Prospect and Customer Education:** Inform our prospects and existing customers about the value offered by GitLab's features.
 
 ### Technical demo landing pages
 {: #technical-demo-landing-pages .gitlab-purple} <!-- DO NOT CHANGE THIS ANCHOR -->
 
-Technical Demo Series are managed by Marketing Campaign team, in collaboration with DevRel and Solution Architects who deliver the content. 
+Technical Demo Series are managed by Marketing Campaign team, in collaboration with DevRel and Solution Architects who deliver the content.
 
-Global Campaign Managers are responsible for creating technical demo bundles as a pivotal element within the overarching Go-To-Market (GTM) Campaign strategy. Regional Campaign Managers are responsible for activation in the region as integral part of the regional demand generation plans.   
+Global Campaign Managers are responsible for creating technical demo bundles as a pivotal element within the overarching Go-To-Market (GTM) Campaign strategy. Regional Campaign Managers are responsible for activation in the region as integral part of the regional demand generation plans.
 
 Regional Campaign Managers are responsible for updating the technical demo page through our CMS platform - Contentful:
 
@@ -266,7 +266,7 @@ Regional Campaign Managers are responsible for updating the technical demo page 
 
 Instructions video on adding/removing the technical demos from landing page are available [here](https://youtu.be/yhPGuyRkTno).
 
-# Logistical Setup
+## Logistical Setup
 {: #logistical-setup .gitlab-purple} <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ## Adding your webcasts into the calendar
@@ -733,7 +733,7 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 8. Go to Salesforce, append [Cancelled] to the SFDC campaign name.
 9. Go to Zoom, delete the webcast program from Zoom and make sure to uncheck `send webinar cancellation email to panelists and registrants` since this is already covered in step 4.
 
-----
+---
 <!-- NOTE: THE REST OF THE DOCUMENTATION IS FOR ON24 ONLY!!! -->
 
 ## ON24 Webcasts

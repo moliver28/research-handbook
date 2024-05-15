@@ -153,13 +153,12 @@ When communicating, it's your responsibility to own how something impacted someo
 
 Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
 Specific examples of using text effectively are ideal for showing new hires how to learn this skill. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

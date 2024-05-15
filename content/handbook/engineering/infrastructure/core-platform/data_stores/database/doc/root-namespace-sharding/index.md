@@ -220,6 +220,6 @@ We are going to continue to explore ways to improve database scalability, partic
 
 Aside from this, we continue to discuss sharding approaches. This is mostly a product question to start with, because it is rather unlikely this works out without needing product changes.
 
-------
+---
 
 Author: [Andreas Brandl](https://gitlab.com/abrandl)

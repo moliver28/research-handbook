@@ -15,7 +15,7 @@ The ISCP differs from a DRP primarily in that the information system contingency
 
 GitLab will develop contingency plans for GitLab.com and [Tier 1 systems]({{< ref "critical-systems" >}}) to meet the needs of critical system operations in the event of a disruption. The procedures for execution of such a capability shall be documented in a formal contingency plan by the Information Systems Contingency Plan (ISCP) Coordinator and must be reviewed annually and updated as necessary by the ISCP Coordinator. The plan must account for the FIPS 199 security categorization (low, moderate, high) and comply with the appropriate security controls. The plan must assign specific responsibilities to designated staff or positions to facilitate the recovery and/or continuity of essential system functions. Resources necessary to ensure viability of the procedures must be acquired and maintained. Personnel responsible for target systems must be trained to execute contingency procedures. The plan recovery capabilities and personnel shall be tested annually to identify weaknesses of the capability.
 
-## Roles & Responsibilities:
+## Roles & Responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|

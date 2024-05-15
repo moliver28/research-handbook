@@ -172,7 +172,6 @@ Hybrid-remote organizations may see high office utilization in the earliest days
 
 While this may seem jarring, it's a positive indicator that work and culture are progressing without the need of an office. This will create opportunities to capture greater real estate savings and/or repurpose office space for philanthropic efforts, such as opening up an internship center for the local community.
 
-
 ## Blueprints from companies openly sharing their transition to hybrid-remote
 
 We believe it's useful for transitioning companies to see *how* others are embracing and making the shift to hybrid-remote structures. Below are examples of companies who are publicly and transparently sharing their journey, best practices, and lessons learned to guide others.
@@ -336,7 +335,6 @@ Anyone can test their knowledge on Understanding a Hybrid-Remote Environment by 
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).
-

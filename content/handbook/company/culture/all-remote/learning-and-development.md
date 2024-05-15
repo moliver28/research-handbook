@@ -26,6 +26,7 @@ Learn more about [learning and development at GitLab in our Handbook](/handbook/
 ## Benefits to all-remote L&D
 
 Learning and development teams within all-remote organizations enjoy unique benefits, a few of which are highlighted below.
+
 - **Faster delivery of training courses**: When your company works [asynchronously]({{< ref "./asynchronous" >}}), you don't have to wait for a cohort to be in the same place at the same time to administer updated material.
 - **Culture isn't lost**: Onboarding at most companies involves meet-and-greets and shallow briefs on whatever is pressing at the moment. Institutional knowledge and cultural underpinnings are largely lost due to a dearth of documentation as the company grows and experiences churn.
 - **Learning is more [inclusive](values#diversity-inclusion)**: In all-remote settings, individuals can learn in [environments that are most comfortable for them]({{< ref "inclusion" >}}) — home, a library, a coworking space, a lakeshore, while caring for a family member, etc. This allows those who struggle to focus in group settings, or who have mobility concerns, to embrace education that they may opt out of if the setting weren't ideal.
@@ -187,6 +188,7 @@ Encourage team members to collect notes when attending conferences and distribut
 The attendees are encouraged to collect notes in a Google document and distribute the link via Slack channel(s) and other methods as appropriate.
 
 Example:
+
 - [Kubecon 2019 notes](https://docs.google.com/document/d/1CdcERqUJrSoyA6OU9D3CMz8SRYFbJwvcLJDtkgdSEsg/edit#heading=h.jki4vp3yq19q).  This document contains:
     - Pictures of interesting slides
     - Notes on those slides written by the conference attendees
@@ -251,6 +253,6 @@ Learn more about [GitLab's Key Reviews](/handbook/key-review).
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

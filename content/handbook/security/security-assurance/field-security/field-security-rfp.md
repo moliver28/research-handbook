@@ -26,7 +26,6 @@ There are parts of the Request for Proposal or Request for Information process t
 
 What *we can do* is respond to requests relating to security and facilitate other SME's responses to areas such as People/HR, Finance, Privacy, Commercial Legal, etc.
 
-
 ## Helpful resources
 
 While our team will do our very best to facilitate the process, there are some self-service resources to help you complete certain documents.

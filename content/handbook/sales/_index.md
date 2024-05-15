@@ -12,7 +12,7 @@ description: "The GitLab Field team includes multiple functions: Enterprise Sale
 
 
 
-# Welcome to the Sales team homepage!
+# Welcome to the Sales team homepage
 
 *The GitLab Field team includes multiple functions: Enterprise Sales, Commercial Sales, Customer Success, Channel Partners, Alliances, Field Operations.*
 

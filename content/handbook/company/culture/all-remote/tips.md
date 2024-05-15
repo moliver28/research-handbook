@@ -102,7 +102,6 @@ We recognize how crucial it is to build in time when you can mentally take a bre
 > **“I work closely with our executive team here, and they have been so supportive and encouraging when family-related conflicts arise. They are constantly reminding me that “family first” is our mantra, and give me ease of mind to take time away when needed. Sid, our co-founder and CEO, told me if it’s a beautiful day out and I just want to go enjoy it, I should do that. Moments like these make me so proud to be a part of the GitLab team."**
 [- Cheri, Manager, Executive Assistant](/handbook/company/team#cheriholmes)
 
-
 ## Tips for leaders and other companies
 
 {{< youtube "u0dRWDmYSvg" >}}
@@ -234,6 +233,6 @@ Here's how you can participate:
 - [Create an issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues) if you have any questions or if you see an inconsistency.
 - Help spread the word about all-remote organizations by sharing it on social media.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

@@ -32,6 +32,7 @@ We recorded a training about 1-1s which you can find here:
 1. Reports tend to assume that they must do everything added by the manager, make it clear that they can push back (not a good idea, not worth the time), and redirect (please handle it directly with this person, can you arrange for this). You want to prevent the agenda piling up. The manager will put items on the agenda because it is in the functional area of the report and the manager doesn't want to bypass them. But in case the manager cares about something and the report doesn't it might be preferable for the manager (or an executive assistant) to do the work.
 1. Actively listen to identify what the direct report is saying. The manager should strive to do 20% of the talking while the direct report does 80%.
 1. If you have few items on the agenda from the report try the following questions:
+
   - Is there anything that needs clarity?
   - What are you most proud of/excited about?
   - What can I (your manager) improve on?
@@ -45,6 +46,7 @@ We recorded a training about 1-1s which you can find here:
   - When x happened, what will you do differently next time?
   - Have you identified any career development opportunities that I can help you with? For example: [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/)
   - Other great questions to consider can be found in the [Culture Amp Blog: 24 great one-on-one meeting questions](https://www.cultureamp.com/blog/great-one-on-one-meeting-questions/) or in 15Five's [The Great eBook of Employee Questions](https://www.15five.com/ebook/employee-questions/).
+
 1. Consider encouraging direct reports to keep their 1:1 document open in their browser throughout the week. As items come up, they can add them in real time instead of waiting until 30 minutes before the meeting to scramble to fill in the [agenda](/handbook/leadership/1-1/suggested-agenda-format/).
 1. Asking open ended questions is important. "You doing alright?" is a yes/no question. There is no room for an answer unless you dig and prod to get more. Instead asking things like "Tell me how you've been doing since we last talked" leave more room for discussion and result in something both more actionable and results driven. Your goal is not just to know how they are doing, but why they feel that way.
 1. Consider populating the agenda to the 1-1 meeting at least 24 hours in advance of the meeting. This will enable the direct report and manager mental space to think more critically about each topic.
@@ -73,7 +75,6 @@ These discussions should take place once a month and after the [360 Feedback](/h
 1. What would you like to learn next? (co)
 
 Once you have established the goals you can then create a [career development plan](/handbook/people-group/learning-and-development/#career-mapping-and-development)
-
 
 #### Why career development for team members is key to being a great leader
 
@@ -171,7 +172,6 @@ Below are several recommended articles regarding career development conversation
 - [If You're Not Helping People Develop, You're Not Management Material](https://hbr.org/2014/01/if-youre-not-helping-people-develop-youre-not-management-material)
 - [Bolt's Developing Your Team](https://conscious.org/managing-our-team/#developing-your-team) section from their [Managing our team](https://conscious.org/managing-our-team/) playbook.
 
-
 ## Key Points
 
 1. **Actively Listen**. Self-assessment is difficult and people often overestimate or underestimate their skillset. Don’t be quick to discount their assessment. Look for common ground and focus on understanding their overall goals.
@@ -197,7 +197,6 @@ The following schedule can ensure a smooth transition:
 1. New Manager: Remove the former manager from calendar invites and the 1-1 document
 
 Abrupt 1-1 transitions can threaten a team member's sense of psychological safety and career stability. If this is a concern, consider scheduling follow-on 1-1-1 transition meetings.
-
 
 ### Manager Transition Meeting Agenda (example)
 
@@ -247,7 +246,6 @@ Leadership Engagement Check-Ins, (also known as [Stay Interviews](https://www.fo
 - **Preparation**: Preparation should be done before the meeting by the manager and the team member. The manager should set expectations with their team members prior to the meeting to ensure that the team member feels as comfortable as possible heading into the conversation. Managers can include a copy of this Handbook page so their direct report is fully aware of the specific questions that will be asked during the call. Ask the team member to review the questions and think about them prior to the call. Allow them the opportunity to type responses before the meeting if they wish to do so.
 - **Questions**: Have a look at the below questions and take notes during the meeting.
 - **Follow up**: At the end of the conversation summarize and follow up on any actions.
-
 
 #### Structure
 

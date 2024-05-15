@@ -24,7 +24,7 @@ Additionally, see the following Slack channels.
 | Channel | Purpose |
 |---------|---------|
 |[#community-programs](https://gitlab.slack.com/messages/community-programs)| Communication regarding the GitLab for Education,GitLab for Open Source, and GitLab for Startups Programs.|
-|[#gitlab-for-campuses](https://gitlab.slack.com/messages/gitlab-for-campuses)| This channel is for discussing [the GitLab for Campuses](https://handbook.gitlab.com/handbook/product/packaging-and-pricing/gitlab-for-campuses/) (paid) offering |
+|[#gitlab-for-campuses](https://gitlab.slack.com/messages/gitlab-for-campuses)| This channel is for discussing [the GitLab for Campuses](/handbook/product/packaging-and-pricing/gitlab-for-campuses/) (paid) offering |
 
 ## Vision and goals
 
@@ -52,10 +52,10 @@ But they may also reside in [Field Marketing](https://gitlab.com/gitlab-com/mark
 
 We use the following labels to track our work across these spaces.
 
-| Label  | Use  |   
+| Label  | Use  |
 |--------|------|
 |`Education Program`| General label for all issues related to program management|
-|`edu-feedback`| Marks issues that contain feedback from program and community members|  
+|`edu-feedback`| Marks issues that contain feedback from program and community members|
 |`OKR` | Related to OKRs for the quarter   |
 |`Education:: EAB`| Related to the Education Advisory Board |
 |`edu-conference`| Related to conferences the education team is involved with|
@@ -77,7 +77,7 @@ To get started:
 
 * Email former professor you really liked and share information about our GitLab for Education Program. Email template coming soon.
 * Contact your alumni association about "Alumni updates" and share what you do at GitLab.
-* Contact student organizations you were part of, especially if as realted to software or digital technology in some way. 
+* Contact student organizations you were part of, especially if as realted to software or digital technology in some way.
 * Offer to visit your alma mater virtually to give an "Introduction to DevOps guest lecture"
 
 ## GitLab for Education Program
@@ -96,7 +96,7 @@ In order to qualify for the GitLab for Education Program, applicants must:
 **Please note:** the decision to issue a GitLab license via the GitLab for Education Program is always at the discretion of GitLab.
 If you have questions on the application and decision making process, please contact education@gitlab.com.
 
-### Examples of educational institutions that qualify:
+### Examples of educational institutions that qualify
 
 * K-12 institutions include Elementary, Middle, and High Schools, which may include both publicly and privately funded institutions (**Note:** GitLab.com (SaaS software) is not available to K-12 institutions. However, K-12 institutions may apply for GitLab self-managed instances.)
 * Junior Colleges, Community Colleges, and Technical Schools
@@ -119,9 +119,9 @@ If you have questions on the application and decision making process, please con
 
 * Classroom use: All activities related to the instruction of students in the classroom
 * Non-commercial academic research: Activity related to not-for-profit research projects at an educational institution that are not conducted for the benefit of a third party.
-* Organizational use: Activity related to a club or organization at an educational institution as related to the development of students; this could include open source student clubs, robotic clubs, engineering clubs or the like. Note that the non-acceptable use cases still apply to clubs and organizations.  
+* Organizational use: Activity related to a club or organization at an educational institution as related to the development of students; this could include open source student clubs, robotic clubs, engineering clubs or the like. Note that the non-acceptable use cases still apply to clubs and organizations.
 
-### Examples of non-acceptable use cases:
+### Examples of non-acceptable use cases
 
 * Information technology/professional use: Use for maintaining or running the infrastructure, technology or otherwise, of the institution
 * Administrative use: Use for any administrative functions of the institution including program management, planning, marketing, and service delivery
@@ -188,20 +188,20 @@ Both platforms have different target audiences and content distribution.
 We are always careful to choose the right platform to accomplish our goals, keeping the following guidelines in mind:
 
 - Keep the message short and appealing. If you have multiple sentences, break them down into a list.
-  - 💡 Use emoji as list markers, this one to learn something. 
+  - 💡 Use emoji as list markers, this one to learn something.
   - 🏗 This way users learn what you want to share and build together.
-  - 🔥 Choose the right emoji. This one expresses a fast success for example. 
-- Minimize hashtag use. Often a single hashtag is good enough, but too many clutters the message. 
-  - `#education` or `#DevOps` can be used, but make sure to only include relevant tags.  
+  - 🔥 Choose the right emoji. This one expresses a fast success for example.
+- Minimize hashtag use. Often a single hashtag is good enough, but too many clutters the message.
+  - `#education` or `#DevOps` can be used, but make sure to only include relevant tags.
 - Too many emoji can hide key messages.
-- Use an appealing screenshot image or funny animated GIF to make people stop when scrolling. 
+- Use an appealing screenshot image or funny animated GIF to make people stop when scrolling.
 - Do not start with an `@` character on X/Twitter, this can be hidden as reply and hinder audience reach on X/Twitter. You can add a period at the end, or restructure your sentence to work better with an intro. `Hey @gitlab, how's the new release looking?`
 
 Education Evangelists strive to become thought leaders on social media platforms.
 We do this with the following guidelines and strategies in mind:
 
 - Attract more active followers and therefore improve impression numbers and engagements.
-  - Users can follow you on LinkedIn, you do not need to accept every invitation. If you plan to extend your business network, ensure that profile details such as private email/phone are not shared with anyone. 
+  - Users can follow you on LinkedIn, you do not need to accept every invitation. If you plan to extend your business network, ensure that profile details such as private email/phone are not shared with anyone.
 - Help and educate users
 - Analyse profile statistics
   - The why on the most impressions, top media tweet or most engaging tweets
@@ -213,17 +213,17 @@ We do this with the following guidelines and strategies in mind:
   - Say `Thanks for sharing :emoji:` whenever needed
   - Share positive vibes
   - Follow the [team member social media policy](/handbook/marketing/team-member-social-media-policy/)
-- Listen to criticism and ignore hate speech. 
-- Do not criticize GitLab competitors. 
-  - Instead, engage with their communities and learn how to improve.  
+- Listen to criticism and ignore hate speech.
+- Do not criticize GitLab competitors.
+  - Instead, engage with their communities and learn how to improve.
 - Channel back feedback to product and engineering teams.
-- Adopt new ideas with live streaming or community coffee chats. 
+- Adopt new ideas with live streaming or community coffee chats.
   - Engage community members in discussions.
   - Tag people and keep the tone ["at the table"](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/)
-- Just as you are more than your work, your social accounts are more than work related. Be yourself and don't be afraid to share your own life to the degree that you're comfortable with. 
+- Just as you are more than your work, your social accounts are more than work related. Be yourself and don't be afraid to share your own life to the degree that you're comfortable with.
 - Share your impressions and thoughts on work with `#allremote` and `#remotework`
 - Regularly tweet about daily work. Use the hash tag `#LifeAtGitLab` to share insights and funny moments.
-- Pick outstanding GitLab features from another stage/group and post about them (could be a blog post, screenshot, etc.). 
+- Pick outstanding GitLab features from another stage/group and post about them (could be a blog post, screenshot, etc.).
   - Share praise in Slack with linking the Tweet/LinkedIn URL.
 
 ### Evangelism on Bambu
@@ -243,7 +243,7 @@ Types of content that work well for Bambu include:
 - Case Studies about University partners
 - GitLab for Education landing pages
 
-Bambu is not for announcements, workshop sign ups, or to start new initiatives. 
+Bambu is not for announcements, workshop sign ups, or to start new initiatives.
 It's more of a place to show off what's already happened with the team.
 
 ### Evangelism on Twitch
@@ -291,48 +291,48 @@ The booth kit should include current assets like tall vertical banners, a backdr
 [ ] business cards
 ```
 
-The venue will provide details on shipping and handling for the booth assets. 
+The venue will provide details on shipping and handling for the booth assets.
 
 **Things to remember:**
 
 - Always use FedEx Express Saver.
-- Use the general FedEx GitLab Account. Do not use the field marketing account. 
-- Check the estimated shipping times in order to ensure the package arrives at the proper time. Note that many venues charge per day to hold packages and will only keep them for a set number of days. 
+- Use the general FedEx GitLab Account. Do not use the field marketing account.
+- Check the estimated shipping times in order to ensure the package arrives at the proper time. Note that many venues charge per day to hold packages and will only keep them for a set number of days.
 
-Before the conference begins, create an issue in the Education project [Outreach](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/outreach/-/issues) titled `Name of Conference Location Date` and make it confidential. Assign attendees of the conference to the issue. Inside comments, create several comment threads including Flights, Hotel, Booth Assets, Swag, and any other planning threads as necessary. Use this issue for all planning related to the execution of the conference booth and/or talk or presentation. If there is no booth, still coordinate in the issue with threads relevant to whatever the team has planned for this event. 
+Before the conference begins, create an issue in the Education project [Outreach](https://gitlab.com/gitlab-com/marketing/community-relations/community-programs/education-program/outreach/-/issues) titled `Name of Conference Location Date` and make it confidential. Assign attendees of the conference to the issue. Inside comments, create several comment threads including Flights, Hotel, Booth Assets, Swag, and any other planning threads as necessary. Use this issue for all planning related to the execution of the conference booth and/or talk or presentation. If there is no booth, still coordinate in the issue with threads relevant to whatever the team has planned for this event.
 
-We try to connect with as many potential program members and current program members as possible at the conference. In order to solidify those connections, we try to send out any emails related to the conference within 2-3 weeks. This includes workshop follow ups as well as a MailJet email if we have access to the attendee emails. 
+We try to connect with as many potential program members and current program members as possible at the conference. In order to solidify those connections, we try to send out any emails related to the conference within 2-3 weeks. This includes workshop follow ups as well as a MailJet email if we have access to the attendee emails.
 
 - At each event the EDU team attends and sponsors, gathering names and emails is an important part of our booth work. Using this [form template](https://docs.google.com/forms/d/e/1FAIpQLScE6rE7FN05h1-KQjxfaltZwyAC_n0LvjV5WKmtWUH4Puh0Iw/viewform?usp=sf_link) we gather permission to contact them as well as some other important pieces of information. Depending on the event, we may receive a list of attendees that have opted-in to be contacted.
-- From there, prospects must be added to Salesforce and then added to Outreach. This process involves Marketing Ops and the instructions are available on their [handbook](/handbook/marketing/marketing-operations/list-import/#import-methods-and-their-sla). 
+- From there, prospects must be added to Salesforce and then added to Outreach. This process involves Marketing Ops and the instructions are available on their [handbook](/handbook/marketing/marketing-operations/list-import/#import-methods-and-their-sla).
 - Follow the instructions to create a copy of the [Google Sheet provided](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838) for putting your collected information and then create an issue using the [issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=event-clean-upload-list).
 
 There are several organizations in the education world that are relevant to the audiences that GitLab for Education is looking to reach.
 This includes computer science, information systems, and general research faculty.
 In order to reach these communities, it's important to support and attend conferences these organizations hold.
-This allows us to connect directly with professors, researchers, and other important stakeholders in education and discover how we can best support their endeavors with students. 
+This allows us to connect directly with professors, researchers, and other important stakeholders in education and discover how we can best support their endeavors with students.
 
 #### Association for Computing Machinery
 
-[ACM](https://www.acm.org/) is the Association for Computing Machinery and is the world's largest educational and scientific computing society. There are several special interest groups within ACM, many with their own conferences and events. We focus on two of these. 
+[ACM](https://www.acm.org/) is the Association for Computing Machinery and is the world's largest educational and scientific computing society. There are several special interest groups within ACM, many with their own conferences and events. We focus on two of these.
 
-1. [SIGITE](https://www.sigite.org/) SIGITE (pronounced Sig-eye-tee-ee) is the Special Interest Group on Information Technology Education. It is part of the Association for Computing Machinery. SIGITE focuses on IT education. This is an important field for GitLab for Education as this education pertains directly to the Ops in DevOps. Their annual conference is 
-2. [SIGCSE](https://sigcse.org/) SIGCSE (pronounced Sig-see) is the Special Interest Group on Computer Science Education. This group is designed for discussions around ["...development, implementation, and evaluation of computing programs, curricula, and courses..."](https://sigcse.org/about/)  This is where we can meet people who fit the dev side of DevOps. 
+1. [SIGITE](https://www.sigite.org/) SIGITE (pronounced Sig-eye-tee-ee) is the Special Interest Group on Information Technology Education. It is part of the Association for Computing Machinery. SIGITE focuses on IT education. This is an important field for GitLab for Education as this education pertains directly to the Ops in DevOps. Their annual conference is
+2. [SIGCSE](https://sigcse.org/) SIGCSE (pronounced Sig-see) is the Special Interest Group on Computer Science Education. This group is designed for discussions around ["...development, implementation, and evaluation of computing programs, curricula, and courses..."](https://sigcse.org/about/)  This is where we can meet people who fit the dev side of DevOps.
 
 #### Association for Information Systems
 
-AIS is the [Association for Information Systems](https://aisnet.org/) and is a professional organization focusing on information systems, often closely associated with business degrees. AIS has several conferences that are regionally operated as well as one that is an international conference. 
+AIS is the [Association for Information Systems](https://aisnet.org/) and is a professional organization focusing on information systems, often closely associated with business degrees. AIS has several conferences that are regionally operated as well as one that is an international conference.
 
 1. [ICIS](https://aisnet.org/page/ICISPage) (pronounced I-C-I-S) International Conference on Information Systems
 1. [AMCIS](https://aisnet.org/page/AMCISPage) (pronounced am-sis) Americas Conference on Information Systems
 1. [PACIS](https://aisnet.org/page/PACISPage) Pacific Asia Conference on Information Systems
 1. [ECIS](https://aisnet.org/page/ECISPage) European Conference on Information Systems
 
-Each of these conferences present unique opportunities to connect with the information systems community, often the education that many future CIO and project managers will be going through. 
+Each of these conferences present unique opportunities to connect with the information systems community, often the education that many future CIO and project managers will be going through.
 
 #### ISCAP/EDSIG
 
-[ISCAP/EDSIG](http://www.iscap-edsig.org/) is the Information Systems and Computing Academic Professionals and Education Special Interest Group. This group runs two concurrent conferences, EDSIGCON and CONISAIR. This is another Information Systems opportunity with a different group. These conferences can be a bit smaller, but with more chances to connect on a personal level with faculty and students attending. 
+[ISCAP/EDSIG](http://www.iscap-edsig.org/) is the Information Systems and Computing Academic Professionals and Education Special Interest Group. This group runs two concurrent conferences, EDSIGCON and CONISAIR. This is another Information Systems opportunity with a different group. These conferences can be a bit smaller, but with more chances to connect on a personal level with faculty and students attending.
 
 ### Evangelism with in-person visits to campus
 

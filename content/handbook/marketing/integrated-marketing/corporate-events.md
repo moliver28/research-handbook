@@ -44,7 +44,7 @@ twitter_creator: gitlab
 * Kelley Stowe - Senior Global Events Manager - `@kagarrett`
 * Kelly Walker - Senior Partner Program Manager, Exec Engagement `@kmwalker`
 * Marina Conrad - Senior Corporate Events Manager - `@marinaconrad`
-* Amanda Shen - Corporate Events Manager - `@amandawshen`* 
+* Amanda Shen - Corporate Events Manager - `@amandawshen`*
 * Suli King - Corporate Events Content Manager -`@sstuelp`
 
 ### Current Slack Corporate Event Channels
@@ -197,7 +197,7 @@ Example of our staffing requirements for our 10x10 or smaller booth over 2 days:
 1-2 - Sales/Field
 6 - Demos/Technical questions
 1 - Corp Events
-TBD	Speakers - dependent on numbers of CFP accepted
+TBD    Speakers - dependent on numbers of CFP accepted
 
 10x20 booth and a 2 day conference = 14-16 staff members
 10x20 booth and a 3 day conference = 18-20 staff members
@@ -208,7 +208,7 @@ Example of our staffing requirements for our 10x20 booth over 2 days:
 4 - Sales/Field
 10 - Demos/Technical questions
 1 - Corp Events
-TBD	Speakers - dependent on numbers of CFP accepted
+TBD    Speakers - dependent on numbers of CFP accepted
 
 20x20 booth or larger and a 3 day conference = 32-35 staff members
 20x20 booth or larger and a 4 day conference = 40 staff members
@@ -216,12 +216,12 @@ TBD	Speakers - dependent on numbers of CFP accepted
 #### Staffing for a 20X20 Booth
 
 Example of the staffing requirements for our 20x20 booth over 3 days:
-6 -	Sales/Field
+6 -    Sales/Field
 12 - Demos/Technical Questions
 4 - Host Counters
 3 - Corp Events
 8 - Lightning Talks
-TBD	Speakers - dependent on numbers of CFP accepted
+TBD    Speakers - dependent on numbers of CFP accepted
 
 These are estimated numbers that the Corporate Events team uses to account for budget and passes. Numbers may vary based on expected number of attendees at the show and how many days the conference is. We understand there are serveral business use cases where team members can travel and attend these same conferences to meet with partners, customers, and prospects. However, if the staff member is not staffing the booth or there for other purposes, the Corporate Events team is unable to cover the team member's travel and pass.
 
@@ -234,19 +234,19 @@ These are estimated numbers that the Corporate Events team uses to account for b
     * GitLab Lightning Talk DRI: Senior Management in Product Marketing, could be vary based on event
 * Corporate Events Lightning Talk Content Manager DRI: Suli King `@sstuelp`
     * Ensures that the team is on track to identify lightning talks, finalize lightning talk schedule, and that lightning talk content deadlines are being hit.
-* Brand Compliance DRI: Adam Mittner or otherwise assigned by Adam Mittner `@amittner` 
+* Brand Compliance DRI: Adam Mittner or otherwise assigned by Adam Mittner `@amittner`
 
 ### Process
 
 1. Corporate Events Content Manager to identify and communicate the number of lightning talk slots available and deadlines.
-2. The Overall Content DRI will then start the process of identifying the key messaging that we would like portrayed throughout the lightning talks at the booth. They will work with the Partner Lightning Talk DRI and GitLab lightning talk DRI to communicate overall messaging and identify content that we would like to be given at our booth. Once the messaging, lightning talks, and speakers are identified and confirmed, they will fill in the lightning talk schedule in the Sponsored Event’s Main Tracker. All lightning talks must be approved by the Overall Content DRI. 
+2. The Overall Content DRI will then start the process of identifying the key messaging that we would like portrayed throughout the lightning talks at the booth. They will work with the Partner Lightning Talk DRI and GitLab lightning talk DRI to communicate overall messaging and identify content that we would like to be given at our booth. Once the messaging, lightning talks, and speakers are identified and confirmed, they will fill in the lightning talk schedule in the Sponsored Event’s Main Tracker. All lightning talks must be approved by the Overall Content DRI.
 3. Once content is confirmed and the lightning talk schedule is finalized, content creation can begin. The Corporate Events Content Manager will create an issue for each lightning talk.
-    * For each GitLab lightning talk the Corporate Events Content Manager will provide a GitLab branded slide template for each session. For Partner lightning talks, the partner can create their lightning talk on their own company’s branded template. 
+    * For each GitLab lightning talk the Corporate Events Content Manager will provide a GitLab branded slide template for each session. For Partner lightning talks, the partner can create their lightning talk on their own company’s branded template.
     * [Issue template for GitLab Lightning Talks](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=event-lightningtalk-gitlab-speaker)
     * [Issue template for Partner Lightning Talks](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=event-lightningtalk-partner-speaker)
-4. Once GitLab content is created, it will then go through the review process which will entail: Overall Content DRI Review, Brand Compliance DRI Review, and Legal Review (only if necessary). Reviewers will leave feedback as comments in the slide presentation to be addressed. 
-5. Once Parter content is created, it will then go through the review process which will entail: Overall Content DRI Review. Reviewers will leave feedback as comments in the slide presentation to be addressed. 
-6. Once the content has gone through the review process and all reviewer comments have been addressed the content will then be deemed final. 
+4. Once GitLab content is created, it will then go through the review process which will entail: Overall Content DRI Review, Brand Compliance DRI Review, and Legal Review (only if necessary). Reviewers will leave feedback as comments in the slide presentation to be addressed.
+5. Once Parter content is created, it will then go through the review process which will entail: Overall Content DRI Review. Reviewers will leave feedback as comments in the slide presentation to be addressed.
+6. Once the content has gone through the review process and all reviewer comments have been addressed the content will then be deemed final.
 
 
 ## GitLab DevSecOps World Tour
@@ -391,7 +391,7 @@ For both GitLab-owned and external events, speakers and content DRIs should buil
 
 ## Accessibility at GitLab Hosted Events
 
-### In advance of the event, we promise that we will take into account the following:
+### In advance of the event, we promise that we will take into account the following
 
 * Accessibility will not be an afterthought.
 * Events will be inclusive and accessible.

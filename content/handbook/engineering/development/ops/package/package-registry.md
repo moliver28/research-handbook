@@ -122,7 +122,7 @@ Here is a list of active projects and initiatives that we are currently working 
 | [Improve the performance of package metadata generation](https://gitlab.com/groups/gitlab-org/-/epics/9835)                                 | [@dmeshcharakou](https://gitlab.com/dmeshcharakou)                                        |
 | [Eliminating duplicate npm packages](https://gitlab.com/groups/gitlab-org/-/epics/9812)                                                        | [@dmeshcharakou](https://gitlab.com/dmeshcharakou)                                        |
 | [Key improvements for the npm registry](https://gitlab.com/groups/gitlab-org/-/epics/7037)                                                     | [@radbatnag](https://gitlab.com/radbatnag)                                                |
-| [Key improvements for the NuGet registry](https://gitlab.com/groups/gitlab-org/-/epics/7039)                                                   | [@mkhalifa3 ](https://gitlab.com/mkhalifa3)                                               |
+| [Key improvements for the NuGet registry](https://gitlab.com/groups/gitlab-org/-/epics/7039)                                                   | [@mkhalifa3](https://gitlab.com/mkhalifa3)                                               |
 
 
 ## Documentation

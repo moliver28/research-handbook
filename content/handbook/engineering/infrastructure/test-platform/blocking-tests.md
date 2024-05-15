@@ -24,7 +24,8 @@ only smoke tests will be run during the release process.
 
 ### To Blocking Suite
 
-Tests are selected for promotion by a weekly automated script that uses the data produced by reliable test report.
+Tests are selected for promotion by a weekly automated script that uses the data produced by reliable test report. The automated script
+is run once a week by a schedule named "Weekly reliable, unreliable E2E spec report" in the [quality/toolbox project](https://gitlab.com/gitlab-org/quality/toolbox/-/pipeline_schedules).
 
 - Criteria: 14 consecutive days of success and top 10 in run frequency in master or nightly pipelines
 - The process involves generating MRs for the top-performing tests and assigning them for review by counterpart SET for

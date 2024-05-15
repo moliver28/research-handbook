@@ -58,7 +58,7 @@ curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/s
 
 1. The command will first prompt you for your GitLab instance URL. Verify that this URL matches your GitLab instance, then press <kbd>Enter</kbd>
 
-1.  Enter any appropriate name for your runner.
+1. Enter any appropriate name for your runner.
 
 1. When you are prompted for an executor, type `shell`.
 
@@ -76,7 +76,7 @@ curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/s
 
 1. Select **Create blank project**.
 
-1. Enter `CICD Test` as the project name. 
+1. Enter `CICD Test` as the project name.
 
 1. In the `Project URL`, select `root` from the namespace dropdown.
 

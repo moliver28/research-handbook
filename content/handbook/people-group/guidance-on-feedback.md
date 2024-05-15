@@ -184,6 +184,7 @@ Receiving all types of feedback can be difficult. Our brains want to protect us 
 {{< youtube "ZdUMoI1jMvI" >}}
 
 *Originally hosted on 2020-02-25*
+
 - [Slide Deck](https://docs.google.com/presentation/d/1yziTxwnAHD6vA1deSPf4DCwGLNYRijAmHiYcdoAxOmo/edit?usp=sharing)
 - [Meeting Agenda](https://docs.google.com/document/d/1k5ja-8qJRMnguVOUOOsMUAQ2PEbXiuDBsbpstJPkSEo/edit?usp=sharing).
 
@@ -246,7 +247,6 @@ Take a moment to identify situations in which you or your team are saying "Thank
 - [Coaching Feedback Model](https://www.coachingcultureatwork.com/coaching-feedback-model/)
 - COIN & COILED feedback models - [World of Work Project Article](https://worldofwork.io/2019/07/the-coin-coiled-feedback-models/), 3 minute LinkedIn Learning [video](https://www.linkedin.com/learning/coaching-virtually/use-the-coin-model-to-give-feedback-virtually?u=2255073) on COIN.
 - CEDAR Feedback model - introduction and overview from [join.com](https://join.com/recruitment-hr-blog/feedback-models#6thecedarfeedbackmodel:~:text=6.%20The%20CEDAR,way%20of%20working), and a more comprehensive article and sample conversation at [World of Work Project](https://worldofwork.io/2019/07/the-cedar-feedback-model/)
-
 
 ## Modeling a Culture of Feedback Manager Competency
 

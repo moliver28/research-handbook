@@ -63,7 +63,6 @@ If the training is not completed within 1 week, a reminder will be sent from Pro
 | Did nothing with the email             | No further action.   |
 | Clicked on the link                    | Training will be assigned  |
 
-
 #### Phishing Simulation and Training Metrics
 
 The Security Governance team will initiate and track the quarterly phishing simulation campaign within ProofPoint. Once the campaign has completed, the Security Governance team will provide non-identifying results in the [Phishing Program](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/phishing) project.
@@ -223,6 +222,7 @@ What should you do if you receive a potential phishing email or text [\(smishing
 1. If you are unsure whether the text or email is legitimate, contact [Security]({{< ref "." >}}) to review, and confirm via the #ceo Slack channel.
 1. If the email is determined to be fake, follow the instructions for [phishing attacks]({{< ref "phishing#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}}) below.
 1. If the text, including those received on apps like WhatsApp or Signal, is determined to be fake: block the number, notify [Security](/handbook/security/#-contacting-the-team), and delete the text.
+
   - If using iOS, [report the message as spam or junk](https://support.apple.com/guide/iphone/block-filter-and-report-messages-iph203ab0be4/ios)
 
 ### Suspicious LinkedIn profiles

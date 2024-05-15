@@ -7,7 +7,7 @@ description: Information and knowledge that can help to improve your skills. Inc
 
 ## Sales Development Knowledge Vault
 
-This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to be the in-depth knowledge base of our org. The content below is sourced from the input of many past team members and is here for you to perfect your inbound and outbound sales development skills. 
+This page is part of the Sales Development team's handbook [page](/handbook/marketing/sales-development/) and aims to be the in-depth knowledge base of our org. The content below is sourced from the input of many past team members and is here for you to perfect your inbound and outbound sales development skills.
 
 Please review at your own leasure, and we're excited to receive your contributions as well!
 
@@ -38,7 +38,7 @@ Explore the main documentation [here](https://docs.google.com/document/d/1Y7qEq8
 
 ### Decision Maker Discovery
 
-The questions below are suggestions to be used while doing a discovery call, in order to identify the decision making process, and to meet the outbound accepted SAO as per the guidelines [here.](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#criteria-for-outbound-sales-accepted-opportunity-sao)
+The questions below are suggestions to be used while doing a discovery call, in order to identify the decision making process, and to meet the outbound accepted SAO as per the guidelines [here.](/handbook/sales/field-operations/gtm-resources/#criteria-for-outbound-sales-accepted-opportunity-sao)
 
 - Who gets involved while evaluating a tool at {{company}}?
 - Would you expect anyone to challenge your initiative, and if so can I help by connecting with anyonse else on your end?
@@ -86,7 +86,7 @@ Additionally, you can use the matrix below as a quick-cheet to determine what da
 
 [Video Walkthrough of how to make changes to the GitLab Handbook for the Sales Development org](https://www.youtube.com/watch?v=P7Nv7bzksiY&t=1032s)
 
-One of our Values is being handbook first. 
+One of our Values is being handbook first.
 
 In order to align the SDR organization more closely to this ideal, below are suggested steps. Please remember that the Handbook is a living document, and you are strongly encouraged to make improvements and add changes. This is ESPECIALLY true when it comes to net new solutions that should be shared so the whole organization has access to that process. (aka The DevOps ideal of turning “Localized Discoveries” into “Global Knowledge”.)
 
@@ -178,7 +178,7 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
     - When kicking off the call, summarize the BDR research and reason for reaching out, such compelling events, Persons with LIM, etc
     - After prospect acknowledges their compelling event and internal situation, discovery call continues with pre agreed upon structure with AE.
 
-## Organizing a Group Demo 
+## Organizing a Group Demo
 
 Organizing a shared demo makes it more simple for us to offer spontaneously a demonstration of GitLab, which should result in a easier handover of opps, and ease to create opps. As BDRs, we arranged the execution of this demo by creating a zoom webinar, and configuring the whole event so that the administrative side is automated.
 
@@ -237,10 +237,10 @@ This complementary table can help structure your thinking around what outbound a
 | Priority 2 | Priority #, Weekly Plan or Length of Sequence | Future based next steps depending on account strategy | Include the weeks outreach and overall strategy |
 | Priority 3 | Priority # | Update Next Step Date to next months outreach | BDR Next Step, What kind of nurture (Product Updates, Events, Ect) |
 
-## Growth Strategies, Ranking and RoE 
+## Growth Strategies, Ranking and RoE
 
 
-**Strategies:** 
+**Strategies:**
 
 - Growth within an existing customer account: BDR should strategically partner with SAE/ISR to identify additional business units to bring into the conversation as growth opportunities. Renewal dates should be exploited.
 - Expansion into parent/children/subsidiaries of existing customer accounts: These are accounts that fall within the corporate hierarchy within Salesforce. If a child/subsidiary account is identified via ZoomInfo but not in our system, then BDR should follow the following process: Create a LEAD for that account and then convert to CONTACT to create the ACCOUNT when you qualify your first lead.
@@ -362,7 +362,7 @@ This page is to act as your guide to the many tools and best practices that the 
 
 ### 6Sense 6QA Automations
 
-We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC. 
+We currently have in place an automation that will automatically move accounts that reach 6QA status from 6Sense to SFDC.
 
 Specifically:
 
@@ -371,7 +371,7 @@ Specifically:
      - We aim for 200 records to be enriched every week.
      - We aim for a 90 day buffer period between records being enriched.
      - The SFDC field `Sales Dev Automation` will be enriched with the value of the respective segment (SMB, MM, ENTG)
-- From the moment these accounts get enriched by 6Sense, they will automatically show up on our pre-saved searches on ZoomInfo, one for each segment. 
+- From the moment these accounts get enriched by 6Sense, they will automatically show up on our pre-saved searches on ZoomInfo, one for each segment.
 
      - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
      - [MM Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWkiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
@@ -382,10 +382,10 @@ Specifically:
      - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
      - Automatically add MM/ENTG accounts to the [SFDC dashboard here.] (https://gitlab.my.salesforce.com/01ZPL000000kAPN)
      - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B6 - My 6QA Leads.`
-         
-## Qualified 
 
-[Qualified](https://www.qualified.com/) is the Sales Dev Org's tool we use to chat with visitors on the GitLab website. Currently the SDR teams primarily respond to inbound chats and visitors using Qualified. The BDRs also have the ability to initiate chats with known leads from their actively working accounts. 
+## Qualified
+
+[Qualified](https://www.qualified.com/) is the Sales Dev Org's tool we use to chat with visitors on the GitLab website. Currently the SDR teams primarily respond to inbound chats and visitors using Qualified. The BDRs also have the ability to initiate chats with known leads from their actively working accounts.
 
 ## Chorus
 
@@ -399,7 +399,7 @@ Call and demo recording software. [Chorus](https://www.chorus.ai/) tracks keywor
 
 ## Crayon Competitive Messaging Resources
 
-[Crayon](https://app.crayon.co/intel/gitlab/battlecards/) hosts competitive messaging resources that are maintained by GitLab's product marketing team. 
+[Crayon](https://app.crayon.co/intel/gitlab/battlecards/) hosts competitive messaging resources that are maintained by GitLab's product marketing team.
 
 This is where you can find messaging related to GitLab vs some of our competiors such as GitHub, Atlassian, and Azure DevOps
 
@@ -451,11 +451,11 @@ To help structure your usage of the above, you can follow the steps below during
 
 ## Lead Routing & Alignment Resources
 
-| Resource | Purpose |   
-| :----: | :-----: | 
-|  SSoT Sales > Sales Development Territory Alignment Sheet  | Can be found in Manager Home Base sheet. Single source of truth document for Sales Development to AE/SAE/Territory Alignment | 
+| Resource | Purpose |
+| :----: | :-----: |
+|  SSoT Sales > Sales Development Territory Alignment Sheet  | Can be found in Manager Home Base sheet. Single source of truth document for Sales Development to AE/SAE/Territory Alignment |
 |  [Territory Change Request Issue Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691) | Use the territory Change Request Issue Board and the BDR_Territory_Change Sales Development Issue Template in order to request a territory change for your rep.  |
-|  [Sales Dev Internal Onboarding and Transition issue template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Internal_Onboarding_and_Transition_Template.md) | This issue template is to be used when a new teamember is joining the Sales Development Org for the first time or they are transitioning from SDR to BDR or vice versa. 
+|  [Sales Dev Internal Onboarding and Transition issue template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Internal_Onboarding_and_Transition_Template.md) | This issue template is to be used when a new teamember is joining the Sales Development Org for the first time or they are transitioning from SDR to BDR or vice versa.
 |  [BDR Territory Change Request issue template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/BDR_Territory_Change.md) | Use this issue template when you would like to request territory changes for your BDRs. |
 |  [Sales Dev Exit Handover Template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/BDR_Territory_Change.md) | This template is meant to be used for team members that are departing from a team to hand off their pending tasks to their peers. |
 
@@ -634,22 +634,22 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 ## Sequence Creation
 
-* We follow the process outlined [here](https://handbook.gitlab.com/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+* We follow the process outlined [here](/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
 
 ### Sequence needs to be a globally applicable
 
-- Only sequences that could be used by any team member globally can be added to the Good Collection. 
+- Only sequences that could be used by any team member globally can be added to the Good Collection.
 - If a regionalized sequence can be translated to English, then the English copy of it will be added to the GC while the local variant will be added to the Team Collection.
 - Field Marketing event sequences and any other similar type will not be considered for the Good Collection.
 
-### Sequence needs to have completed the requirements set out on the issue descrption.
+### Sequence needs to have completed the requirements set out on the issue descrption
 
-- At least 200 people enrolled and/or having completed the sequence on a timely manner. 
+- At least 200 people enrolled and/or having completed the sequence on a timely manner.
 - ( Sequence has over 5% reply rate AND No less than 50% negative sentiment rate. ) OR Sequence has over 5% meeting set rate.
 
-### Things to look out for when reviewing a sequence as a Manager. 
+### Things to look out for when reviewing a sequence as a Manager
 
-- Does the messaging of the sequence follow Command Of the Message? 
+- Does the messaging of the sequence follow Command Of the Message?
      - Are all emails formatted appropriately with pain-probing questions and value propositions?
      - Are the relevant value drivers for the personas targeted by this sequence used?
 - Is there a proper mix of automated and manual touches?

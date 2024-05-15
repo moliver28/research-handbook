@@ -42,7 +42,7 @@ Below are the GitLab and US-specific leave policies available to US team members
 |:---:|:---:|
 | Parental Leave | 100% paid by GitLab (minus any State Disability and/or Paid Family Leave benefits) |
 | [Family Medical Leave Act<br>(FMLA - Own Condition)](#payroll-processing-during-fmla) | 66.67% (STD) + 33.3% paid by GitLab per week<br>After 12 weeks:  <br>     66.67% (LTD) per month |
-| [Family Medical Leave Act<br>(FMLA - Care for a Family Member)](#the-family-medical-leave-act-fmla) | 100% for up to 25 working days
+| [Family Medical Leave Act<br>(FMLA - Care for a Family Member)](#the-family-medical-leave-act-fmla) | 100% for up to 25 working days |
 | California Family Rights Act<br>(CFRA) | First 8 weeks:  60% (SDI/PFL) + 6.66% (STD) + 33.3% paid by GitLab<br>8-12 weeks:  60% (SDI - if applicable) + 6.66% (STD) + 33.3% paid by GitLab<br>After 12 weeks:  66.67% LTD paid by Cigna monthly (if eligible) |
 | [Military Leave (USERRA)](#us-military-leave) | First 25 days:  paid 100% by GitLab<br>After 25 days:  Unpaid |
 
@@ -64,7 +64,7 @@ The Family Medical Leave Act [FMLA](https://www.dol.gov/agencies/whd/fmla) provi
 
 Team members must have 12 months of continuous service and 1250 hours worked in the year immediately before the start of their leave to be eligible for FMLA leave.  Working hours are calculated as actual hours worked and does not include PTO or vacation time.  GitLab calculates FMLA eligibility as a “rolling” 12-month period measured backward from the date of any FMLA leave usage. (Each time a team member takes FMLA leave, the remaining leave is the balance of the 12 weeks not used during the 12 months immediately before the FMLA leave is to start.)   All FMLA entitled leave will run concurrently with any State specific leave and disability or paid family leave programs (if applicable), GitLab's sick leave policy (including COVID leave), and/or Short-Term disability benefits.  GitLab’s Flexible PTO policy can not be used to delay, extend, or in lieu of FMLA.
 
-#### How to Apply:
+#### How to Apply
 
 Any medical related absence (for yourself or a family member) requiring you to be away from work for at least 3 but no more than 5 days (either continuously or non-continuous but related to the same condition) must be reported to leaves@domain. You will be contacted within 24-48 business hours (whenever possible) and provided with information regarding your request.  If approved, please submit your time away via Time Off by Deel request utilizing the `Out Sick` option.
 

@@ -14,7 +14,7 @@ Please see [Tamland](./tamland.html) for more information on the forecasting too
 
 ## Triage Duties
 
-We operate a Capacity Planning rota, which rotates on a weekly basis. The schedule can be viewed in (PagerDuty)[https://gitlab.pagerduty.com/schedules#PRMDCJG].
+We operate a Capacity Planning rota, which rotates on a weekly basis. The schedule can be viewed in [PagerDuty](https://gitlab.pagerduty.com/schedules#PRMDCJG).
 
 The triage duties are:
 1. Review the [handover issue](https://gitlab.com/gitlab-com/gl-infra/capacity-planning/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Handover&first_page_size=20) and close it when you're ready to get started with triage

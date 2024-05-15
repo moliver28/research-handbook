@@ -120,7 +120,6 @@ The Manager, Engineering is a [grade 8](/handbook/total-rewards/compensation/com
 - Coach team on engineering and web development best practices, complex problem solving and modeling stakeholder engagement.
 - Provide technical and functional knowledge representing Digital Experience and web development as a subject-matter expert with stakeholders across organizations.
 
-
 #### Manager, Engineering Requirements
 
 - 10+ years in a web development/ engineering role in a B2B or enterprise software marketing organization; 5+ years experience managing a team of engineers

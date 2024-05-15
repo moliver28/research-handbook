@@ -51,7 +51,6 @@ Legal should be asked to review negotiated contracts that seek to change standar
 
  - Standard contract terms are audited on an annual basis. A contract audit issue will be opened to review the terms and gather input from appropriate teams across the organization. To suggest a change to an entity contract template, please leave a comment in the current contract audit issue found in the `People Operations` project and titled  Semi-Annual `Global Employment Contract Review YYYY-January or June`.
 
-
 #### Compliance with Onboarding Issues
 
 As different countries have different requirements for hiring and disclosures, Legal will assist People Operations to ensure that onboarding issues are compliant for specific locales.
@@ -82,7 +81,6 @@ As GitLab scales, global expansion efforts require support from a dedicated cros
 - The GitLab Employment Legal Team completes a Country Expansion Issue using an Issue Template. This Issue is submitted and operates to (a) inform each legal team stakeholder; (b) review the current employment status of the country (for example, does GitLab have team members in that location?); (c) engage external counsel (as applicable); and (d) review and gather additional information related to the country and individual(s) which may play a role with regards to employment, employment contract(s), costs of employing in the country, and other material elements.
 - Based upon the information from the Country Expansion Issue, the cross-functional team will determine and recommend next steps;
 - If expansion is determined by the cross-functional team, a second Issue will be opened by the Employment Legal Team to manage the next step(s), which may include (a)supporting the creation of the new employment solution, (b) converting current team members to the new solution, (c) supporting Corporate, Finance, and Tax (as applicable) if a new entity is formed, (d) creating or reviewing employment contracts, (e) reviewing equity compliance, and (f) developing jurisdiction-specific employment and privacy policies where applicable.
-
 
 #### Policy Development
 

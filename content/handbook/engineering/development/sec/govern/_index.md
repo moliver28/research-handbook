@@ -109,7 +109,7 @@ Labels:
 
 Each Objective and Key Result should have an assignee who is DRI for providing status updates throughout the quarter. Regular updates are preferred. At a minimum these should be updated
 - By end of day, the second Friday of every month
-- Ay the end of the quarter 
+- Ay the end of the quarter
 
 OKRs can be changed or closed during the quarter if they are completed, or as our goals change. This ensures we are focusing on areas that are revelant to our current and future priorities.
 
@@ -117,7 +117,7 @@ OKRs can be changed or closed during the quarter if they are completed, or as ou
 
 To support our teams, and commitments made to internal and external customers, team members in Govern are encouraged to create a PTO issue before going on leave lasting a week or longer.
 
-The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](https://handbook.gitlab.com/handbook/paid-time-off/) policy.
+The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](/handbook/paid-time-off/) policy.
 
 We use an internal issue tracker as team member PTO is not public information, and a PTO template
 - [PTO issue list](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=PTO&first_page_size=20)
@@ -125,8 +125,8 @@ We use an internal issue tracker as team member PTO is not public information, a
 
 When a team-member takes some time off, it is important that their work is still being followed up on if needed. We want to make sure that any MR that lands in staging and production environments while we are out gets proper attention and is verified by a counterpart. Therefore, when getting close to our time-off period, we should do the following:
 
-* Any MR that can be put on hold until we're back from PTO should be put in the `Draft` status. This ensures that the MR won't be merged accidentally without a clear DRI to follow up on it.
-* Other non-draft MRs and freshly merged MRs, which need to be verified on staging, should be assigned to another engineer. The additional DRI will be responsible to verify the changes if they land in staging while we're out. When doing this, we must ensure that enough context has been provided in the MR's description and/or the related issue (setup, testing, potential impact, design decisions, etc.).
+- Any MR that can be put on hold until we're back from PTO should be put in the `Draft` status. This ensures that the MR won't be merged accidentally without a clear DRI to follow up on it.
+- Other non-draft MRs and freshly merged MRs, which need to be verified on staging, should be assigned to another engineer. The additional DRI will be responsible to verify the changes if they land in staging while we're out. When doing this, we must ensure that enough context has been provided in the MR's description and/or the related issue (setup, testing, potential impact, design decisions, etc.).
 
 Keep in mind that, while we strongly recommend following this process when taking some time off, it might not be relevant all the time. For example, if our time-off period is going to be short and/or our active MRs are minor enough, it might make sense to ignore these recommendations and follow up when we're back.
 
@@ -145,13 +145,13 @@ Because we have a wide range of domains to cover, it requires a lot of different
 | Ruby on Rails     | Backend development  |
 | Go                | Backend development  |
 | Vue, Vuex         | Frontend development |
-| GraphQL           | _Various_            |
-| SQL (PostgreSQL)  | _Various_            |
+| GraphQL           | *Various*            |
+| SQL (PostgreSQL)  | *Various*            |
 | Docker/Kubernetes | Threat Detection     |
 
 ## Everyone can contribute
 
-At GitLab our goal is that [everyone can contribute](https://handbook.gitlab.com/handbook/company/mission/#contribute-to-gitlab-application). This applies to GitLab team members and the wider community through community contributions. We welcome contributions to any and all features, but recognize that first time contributors may prefer to start with smaller features. To support this we maintain a list of `quick wins` that may be more suitable for first time contributors, and contributors new to the domains in Govern.
+At GitLab our goal is that [everyone can contribute](/handbook/company/mission/#contribute-to-gitlab-application). This applies to GitLab team members and the wider community through community contributions. We welcome contributions to any and all features, but recognize that first time contributors may prefer to start with smaller features. To support this we maintain a list of `quick wins` that may be more suitable for first time contributors, and contributors new to the domains in Govern.
 
 - [Quick wins](https://gitlab.com/dashboard/issues?sort=updated_desc&state=opened&label_name[]=quick+win&label_name[]=devops::govern)
 
@@ -170,11 +170,11 @@ If the contributor needs an EE license, we can point towards the [Contributing t
 ## Links and resources
 
 {{% include "includes/engineering/govern-shared-links.md" %}}
-* Group [#g_govern_security_policies](https://gitlab.slack.com/archives/CU9V380HW)
-* Group [#g_govern_threat_insights](https://gitlab.slack.com/archives/CV09DAXEW)
-* Group [#g_govern_compliance](https://gitlab.slack.com/messages/CN7C8029H)
-* [Software Supply Chain Security working group](/handbook/company/working-groups/software-supply-chain-security/)
+- Group [#g_govern_security_policies](https://gitlab.slack.com/archives/CU9V380HW)
+- Group [#g_govern_threat_insights](https://gitlab.slack.com/archives/CV09DAXEW)
+- Group [#g_govern_compliance](https://gitlab.slack.com/messages/CN7C8029H)
+- [Software Supply Chain Security working group](/handbook/company/working-groups/software-supply-chain-security/)
 
 ### Technical Documentation Links
 
-* [End-to-end tests](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa/qa/specs/features/ee/browser_ui/10_govern)
+- [End-to-end tests](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa/qa/specs/features/ee/browser_ui/10_govern)

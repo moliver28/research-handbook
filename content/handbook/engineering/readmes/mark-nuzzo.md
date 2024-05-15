@@ -44,9 +44,9 @@ I live just outside of Chicago, Illinois with my wife, 3 children and puppy (Rey
 
 * The DevOps Handbook - Gene Kim, Jez Humble, Patrick Debois and John Willis
 * Accelerate - Nicole Forsgren, PhD, Jez Humble and Gene Kim
-* The Managers Path - Camille Fournier 
+* The Managers Path - Camille Fournier
 * The Phoenix Project - Gene Kim, Kevin Behr and George Spafford
 
-## Let's connect on Social Media!
+## Let's connect on Social Media
 
 * [LinkedIn](https://www.linkedin.com/in/mark-nuzzo/)

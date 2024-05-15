@@ -181,6 +181,7 @@ Feel welcome to study [GitLab's values]({{< ref "values" >}}), and learn more on
 ## What are some tips for working remote-first?
 
 We've gathered our top [5 tips for successful remote working]({{< ref "remote-work-starter-guide" >}}):
+
 1. Create a dedicated workspace (focus)
 1. Separate work from life (avoid burnout)
 1. Keep engaging with people (avoid loneliness)
@@ -207,6 +208,6 @@ Anyone can test their knowledge on How to use forcing functions to work remote-f
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

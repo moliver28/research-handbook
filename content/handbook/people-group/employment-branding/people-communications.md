@@ -88,6 +88,7 @@ We use a variety of channels to communicate with various audiences within GitLab
 GitLab Assembly is our quarterly all-company meeting and is an opportunity for team members to hear from leaders and teams across the company. Assembly provides a holistic view of top priorities, customer stories and data, cross-collaboration, department deep dives, and other team member stories to bolster team member engagement, shared visibility, and company connectedness. Assembly is a 50-minute meeting consisting of ~35 minutes of content and ~15 minutes of Q&A and is scheduled to take place late in the second month or early in the third month of each quarter (January, April, June, October). To give global team members an opportunity to join live, there will be two live-hosted Assembly events each quarter, with the first event at 5pm PT (12am UTC) and the second event the next day at 8am PT (3pm UTC).
 
 To produce each quarterly Assembly, the People Communications & Engagement DRI:
+
 1. Works with the EBA team to schedule a date six to eight weeks in advance
 1. Engages a production partner for the live event production
    - Collaborates with the production partner on run of show

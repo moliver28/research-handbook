@@ -30,7 +30,7 @@ title: "Dev Career Framework: Senior Frontend Engineer"
 - Identify and address slow and inefficient frontend implementations in GitLab's code bases
 - Debug production issues across services and multiple levels of the technical stack
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-senior-values-competency.md" %}}

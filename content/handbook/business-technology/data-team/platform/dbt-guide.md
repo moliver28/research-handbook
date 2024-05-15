@@ -1,17 +1,6 @@
 ---
-
 title: "dbt Guide"
 description: "data build tool (dbt) Guide"
----
-
-
-
-
-
-
-
-
-
 ---
 
 ## Quick Links
@@ -83,7 +72,7 @@ performance is not adequate, investigate the cause before you try again with a l
 Imagine that you are a Data Team member who needs to make a change to a dbt model. You have access to both an X-Small warehouse and a Large warehouse, and your `profiles.yml` file
 is set up like so:
 
-```
+```yaml
 gitlab-snowflake:
   target: dev
   outputs:
@@ -127,12 +116,12 @@ Recommended workflow for anyone running a Mac system.
 - Ensure you have the `DBT_PROFILE_PATH` environment variable set. This should be set if you've used the [onboarding_script.zsh](https://gitlab.com/gitlab-data/analytics/-/blob/master/admin/onboarding_script.zsh) (recommened to use this as this latest and updated regularly), but if not, you can set it in your `.bashrc` or `.zshrc` by adding `export DBT_PROFILE_PATH="/<your_root_dir/.dbt/"` to the file or simply running the same command in your local terminal session
 - Ensure that you have updated your `.dbt/profiles.yml` with your specific user configuration
 - Ensure your SSH configuration is setup according to the [GitLab directions](https://gitlab.com/help/ssh/README). Your keys should be in `~/.ssh/` and the keys should have been generated with no password.
-    - You will also need access to [this project](https://gitlab.com/gitlab-data/data-tests) to run `dbt deps` for our main project.
+  - You will also need access to [this project](https://gitlab.com/gitlab-data/data-tests) to run `dbt deps` for our main project.
 - **NB**: Ensure your default browser is set to chrome. The built-in SSO login only works with chrome
 - **NB**: Ensure you are in the folder where your `/analytics` repo is located. If you installed everything properly `jump analytics` will land you where it is needed in order to run `dbt` commands successfully.
 - **NB**: Before running dbt for the first time run `make prepare-dbt`. This will ensure you have venv installed.
- - This will run a [series of commands](https://gitlab.com/gitlab-data/analytics/-/blob/master/Makefile#L111-114) including downloading and running a `poetry` install script.
- - If you get a certificate error like this `urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1124)>`, follow these [StackOverflow instructions](https://stackoverflow.com/questions/50236117/scraping-ssl-certificate-verify-failed-error-for-http-en-wikipedia-org/53310545#53310545).
+  - This will run a [series of commands](https://gitlab.com/gitlab-data/analytics/-/blob/master/Makefile#L111-114) including downloading and running a `poetry` install script.
+  - If you get a certificate error like this `urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1124)>`, follow these [StackOverflow instructions](https://stackoverflow.com/questions/50236117/scraping-ssl-certificate-verify-failed-error-for-http-en-wikipedia-org/53310545#53310545).
 - To start a `dbt` container and run commands from a shell inside it, use `make run-dbt`. This command will install or update the dependencies required for running dbt.
 - To start a `dbt` container without the dependency update use `make run-dbt-no-deps`. This command assumes you already have the dbt dependencies installed. When using this command, if you make changes in any of the dependency packages (e.g. data-tests), you will need to run either `dbt deps` (from within the shell) or `make run-dbt` again for these changes to show up in your repository.
 - This will automatically import everything `dbt` needs to run, including your local `profiles.yml` and repo files
@@ -156,18 +145,22 @@ This command enables zero copy cloning using DBT selections syntax to clone enti
 **Usage:**
 
 To use the new `clone-dbt-select-local-user-noscript` command, you have to specify a `DBT_MODELS` variable. For example, to clone only the `dim_subscription` model, you would execute the following command:
-```
+
+```console
 make DBT_MODELS="dim_subscription" clone-dbt-select-local-user-noscript
 ```
+
 This will clone the DBT model from the `prod` branch into your local user database (i.e., `{user_name}_PROD`). You can use dbt selectors: @, +, etc to select the entire lineage that you want to copy over your local database.
 
 **Tips:**
 
 - If you encounter an error as below:
-```
+
+```console
 Compilation Error
   dbt found 7 package(s) specified in packages.yml, but only 0 package(s) installed in dbt_packages. Run "dbt deps" to install package dependencies.
 ```
+
   - Run `make dbt-deps` from the root of the analytics folder and retry the command.
 
 **Transition Note:**
@@ -257,6 +250,7 @@ We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-
 [dbt Power User](/handbook/business-technology/data-team/platform/sql-style-guide/) makes VScode seamlessly work with dbt. The guide below will allow you to install dbt Power User if you followed the [Venv workflow](/handbook/business-technology/data-team/platform/dbt-guide/#Venv-workflow).
 
 Before we start, there are some settings to adjust in your VScode:
+
 - Go in Code > Settings > Settings…
     - Search for ‘Python info visibility’ > Set this setting as ‘Always’
     - In a terminal, run `make run-dbt` as described in the [Using dbt](/handbook/business-technology/data-team/platform/dbt-guide/#using-dbt) section. Once it ran and the new shell spawned, run `echo $VIRTUAL_ENV`. Copy that value.
@@ -272,7 +266,7 @@ Before we start, there are some settings to adjust in your VScode:
 
 Add this in your `settings.json` file:
 
-```
+```console
 {
 "terminal.integrated.env.osx": {
 "SHELL":"/bin/zsh",
@@ -295,16 +289,9 @@ Add this in your `settings.json` file:
 }
 ```
 
-<div class="panel panel-warning">
-**Note**
-{: .panel-heading}
-
-  <div class="panel-body">
-
-    If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
-
-  </div>
-</div>
+{{% panel header="**Note**" header-bg="warning" %}}
+If the code base is updated with new values for these environment variables, you will have to update them in your `settings.json` according to the values of variables located in the `Makefile` at the root of the analytics repository.
+{{% /panel %}}
 
 - Edit `DBT_PROFILES_DIR` so that it points to your `~/.dbt/` folder (it seems that path must be relative and pointing to your `~/.dbt` folder, from the `/analytics` folder)
 - Restart VScode and re-open the analytics workspace
@@ -314,7 +301,7 @@ Ignore any warnings about dbt not up to date.
 
 If you are getting an error of the type:
 
-```
+```console
 dbt.exceptions.RuntimeException: Runtime Error
   Database error while listing schemas in database ""PROD_PROD""
   Database Error
@@ -323,17 +310,10 @@ dbt.exceptions.RuntimeException: Runtime Error
 ```
 
   - then change the target profile used by dbt: navigate to dbt-power-user extension settings (Extensions > dbt-power-user > cog > Extension settings) and edit the setting called `Dbt: Run Model Command Additional Params` (same for build)
-<div class="panel panel-warning">
-**Note**
-{: .panel-heading}
 
-  <div class="panel-body">
-
-    When running/building/testing a model from VS code UI, the terminal window popping is only a log output. Cmd+C does not stop the job(s), nor clicking the Trash icon in VS code. If you want to stop a job started via VScode, go through the Snowflake UI and your job list and kill the job(s) from there.
-
-  </div>
-</div>
-
+{{% panel header="**Note**" header-bg="warning" %}}
+When running/building/testing a model from VS code UI, the terminal window popping is only a log output. Cmd+C does not stop the job(s), nor clicking the Trash icon in VS code. If you want to stop a job started via VScode, go through the Snowflake UI and your job list and kill the job(s) from there.
+{{% /panel %}}
 
 ### Configuration for contributing to dbt project
 
@@ -367,37 +347,23 @@ As we transition to a more Kimball-style warehouse, we are improving how we orga
 The following sections will all be top-level directories under the `models` directory, which is a dbt default.
 This structure is inspired by how Fishtown Analytics [structures their projects](https://discourse.getdbt.com/t/how-we-structure-our-dbt-projects/355).
 
-<div class="panel panel-warning">
-**Legacy Structure**
-{: .panel-heading}
+{{% panel header="**Legacy Structure**" header-bg="warning" %}}
+Prior to our focus on Kimball dimensional modeling, we took inspiration from the BEAM\* approach to modeling introduced in ["Agile Data Warehouse Design" by Corr and Stagnitto](https://books.google.com/books/about/Agile_Data_Warehouse_Design.html?id=TRWFmnv8jP0C&source=kp_book_description).
+Many of the existing models still follow that pattern.
+The information in this section is from previous iterations of the handbook.
 
-  <div class="panel-body">
-
-  Prior to our focus on Kimball dimensional modeling, we took inspiration from the BEAM\* approach to modeling introduced in ["Agile Data Warehouse Design" by Corr and Stagnitto](https://books.google.com/books/about/Agile_Data_Warehouse_Design.html?id=TRWFmnv8jP0C&source=kp_book_description).
-  Many of the existing models still follow that pattern.
-  The information in this section is from previous iterations of the handbook.
-
-  - The goal of a (final) `_xf` dbt model should be a `BEAM*` table, which means it follows the business event analysis & model structure and answers the who, what, where, when, how many, why, and how question combinations that measure the business.
-  - `base models`- the only dbt models that reference the source table; base models have minimal transformational logic (usually limited to filtering out rows with data integrity issues or actively flagged not for analysis and renaming columns for easier analysis); can be found in the `legacy` schema; is used in `ref` statements by `end-user models`
-  - `end-user models` - dbt models used for analysis. The final version of a model will likely be indicated with an `_xf` suffix when it’s goal is to be a `BEAM*` table. It should follow the business event analysis & model structure and answer the who, what, where, when, how many, why, and how question combinations that measure the business. End user models are found in the `legacy` schema.
+- The goal of a (final) `_xf` dbt model should be a `BEAM*` table, which means it follows the business event analysis & model structure and answers the who, what, where, when, how many, why, and how question combinations that measure the business.
+- `base models`- the only dbt models that reference the source table; base models have minimal transformational logic (usually limited to filtering out rows with data integrity issues or actively flagged not for analysis and renaming columns for easier analysis); can be found in the `legacy` schema; is used in `ref` statements by `end-user models`
+- `end-user models` - dbt models used for analysis. The final version of a model will likely be indicated with an `_xf` suffix when it’s goal is to be a `BEAM*` table. It should follow the business event analysis & model structure and answer the who, what, where, when, how many, why, and how question combinations that measure the business. End user models are found in the `legacy` schema.
 
 Look at the [Use This Not That](https://docs.google.com/spreadsheets/d/1yr-J4ztkyl9vmJ6Euj58gczDLTIss7xIher5SV-1VDY/edit?usp=sharing) mapping to determine which new Kimball model replaces the legacy model.
+{{% /panel %}}
 
-  </div>
-</div>
+{{% panel header="**FY21-Q4 Model Migration**" header-bg="success" %}}
+In FY21-Q4 the `prod` and `prep` databases were introduced to replace the `analytics` database. These 2 new databases will fully replace the `analytics` database.
 
-<div class="panel panel-success">
-**FY21-Q4 Model Migration**
-{: .panel-heading}
-
-  <div class="panel-body">
-
-  In FY21-Q4 the `prod` and `prep` databases were introduced to replace the `analytics` database. These 2 new databases will fully replace the `analytics` database.
-
-  Local development was also switched from custom schemas to custom databases.
-
-  </div>
-</div>
+Local development was also switched from custom schemas to custom databases.
+{{% /panel %}}
 
 #### Sources
 
@@ -668,7 +634,6 @@ Newly added code will take up to 24 hours to appear in the data warehouse.
 
 The Data Team reservers the right to reject code that will dramatically slow the production dbt run. If this happens, we will consider building a separate dbt execution job just for the workspaces.
 
-
 ### General
 
 - Model names should be as obvious as possible and should use full words where possible, e.g. `accounts` instead of `accts`.
@@ -708,16 +673,16 @@ Our guidelines for configuring models:
 
 In normal usage, dbt knows the proper order to run all models based on the usage of the `{{ ref('...') }}` syntax. There are cases though where dbt doesn't know when a model should be run. A specific example is when we use the [`schema_union_all`](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.schema_union_all) or [`schema_union_limit`](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.schema_union_limit) macros. In this case, dbt thinks the model can run first because no explicit references are made at compilation time. To address this, a comment can be added in the file, after the configuration setting, to indicate which model it depends on:
 
-     ```sql
-      {{config({
-          "materialized":"view"
-        })
-      }}
+```sql
+{{config({
+    "materialized":"view"
+  })
+}}
 
-      -- depends on: {{ ref('snowplow_sessions') }}
+-- depends on: {{ ref('snowplow_sessions') }}
 
-      {{ schema_union_all('snowplow_', 'snowplow_sessions') }}
-     ```
+{{ schema_union_all('snowplow_', 'snowplow_sessions') }}
+```
 
 dbt will see the `ref` and build this model after the specified model.
 
@@ -884,7 +849,6 @@ To streamline local development on local models, a way to sample, or use a subse
 
 When selecting the tool to use, the developer should consider speed gained from the tool and the consequence of leaving the sampling in the code. A Random Sample is easy to add to the code, but if left in the code base, it puts the quality of the production data at risk, whereas a Sample Table will take longer to set up, but has no risk to the production data.
 
-
 #### Random Sample
 
 With the macro [`sample_table`](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.sample_table) the developer will be able to select a random percent of the target table.  This macro takes a percentage value which represent the amount of the target table to be returned.  While the sample is random it is also deterministic, meaning that if the target table has not changed each query will return the same rows.  If this macro is left in the code it will be executed in production and ci environments so it should be removed before merging in to the main code branch.
@@ -902,7 +866,6 @@ FROM dev_prod.common.dim_date SAMPLE SYSTEM (3) SEED (16)
 
 
 ```
-
 
 #### Sample Table
 
@@ -932,7 +895,7 @@ Workflow steps:
 - Construct the sample tables
   - Using the `run-operation` command execute the `create_sample_tables` macro
 
-    ```
+    ```console
     dbt run-operation create_sample_tables
     ```
 
@@ -940,13 +903,12 @@ Workflow steps:
 - Final test run using the full data
   - Override the `local_data` variable to be `full-data` as part of the dbt execution
 
-    ```
+    ```console
     dbt run -s dim_date --vars 'local_data: full_data'
     ```
 
 - Remove sample configuration
   - Remove the list of samples from the `samples_yml` before merging the code changes
-
 
 Example Use:
 
@@ -983,8 +945,6 @@ For more details on how the macros used in sampling function see the following d
 - [sample_table](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.sample_table)
 - [samples](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.samples)
 - [ref](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.ref)
-
-
 
 ### Trusted Data Framework
 
@@ -1225,14 +1185,13 @@ In the case where you have a merge request in `data-tests` and one in `analytics
 
 Steps to follow in order to run the tests you implemented in the data-tests project from your machine, while developing them:
 
-
 1. Push your changes to the remote branch you are working on on the data-tests project
 2. Go to your `analytics` project locally, create a new branch (`git checkout -b <branch_name>`) with the same name as the one at `data-tests` & modify the `Makefile` to edit the `DATA_TEST_BRANCH` to match your branch name on the `data-test` project
 3. From the `analytics` project run `make run-dbt`
 4. You should see some logs, which also show the revision data-tests was installed from, where you should see your branch
 5. From where you currently are (which should be the `snowflake-dbt` directory) run the corresponding command for testing your own model
 
-#### Example:
+#### Example
 
 To run the `zuora_revenue_revenue_contract_line_source` rowcount tests, we can use the following command, which should work without any issues:
 
@@ -1253,6 +1212,7 @@ Data transformation is downstream transformation via dbt for Dimensions, Facts, 
 {: #snapshots}
 
 dbt snapshots are
+
 - [SCD 2](https://en.wikipedia.org/wiki/Slowly_changing_dimension#Type_2:_add_new_row) tables, built on top of mutable (SCD1) source tables
 - that record changes to the source table over time
 
@@ -1300,6 +1260,7 @@ The following is an example of how we implement a snapshot:
 #### Snapshot Model Types
 
 While the DBT Snapshot tables are built directly over sources to capture changed records, tables are built over the snapshots to be used for analysis.
+
 1. A DBT Snapshot model captures changed records for a single table.
    - The single table being snapshotted may be a Source table or a table already being used for analysis.
    - A Snapshot table is defined with {% snapshot table_name %} in the configuration section of the model.
@@ -1310,10 +1271,12 @@ While the DBT Snapshot tables are built directly over sources to capture changed
 **DBT Snapshot Model:**
 
 The `strategy` to determine when a new snaphot record is written can be configured 2 different ways:
+
  - `timestamp` uses a Date Column in the table to determine if that date has changed since the last snapshot was taken
  - `check` uses a list of columns to determine if any of the columns have changed since the last time the snapshot was taken.
 
 The `record version` is determined by the `dbt_valid_from` and `dbt_valid_to` columns.  These TIMESTAMP columns are created automatically by DBT and utilized by the snapshot model to determine the timeframe of each snapshotted row.
+
  - When a new snapshot record is written, `dbt_valid_from` has the current date time and.  `dbt_valid_to` is NULL to show this is the most recent snapshot row.
  - `dbt_valid_to` in the previous version of the record is updated with the same current date time as the new record.
 
@@ -1332,12 +1295,14 @@ DBT Snapshots, by default, are loaded incrementally. Records that have changed a
 The different types of snapshots are determined by basic features used when building models with snapshot data.
 
 Some basic features of Snapshot models are:
+
 - `DBT Snapshot` - The DBT Snapshot model is built in RAW over a single table and is not available for analysis
 - `Over Snapshot` - Model built directly over the DBT Snapshot model
 - `Spined Dates` - Model built over one or more Snapshot models that includes Date Spining
 - `History Rebuild` - Model built over one or more Snapshot models using the same logic used to build out the SCD Dimension.  The history in these models can be rebuilt if the columns or logic changes.
 
 **Snapshot Model Type Examples:**
+
 - Snapshot Methods used for ARR Data can be found [HERE](/handbook/business-technology/data-team/data-catalog/finance-arr/)
 - Here are examples of snapshot models with the variation of features that help determine the type:
 
@@ -1347,9 +1312,9 @@ Some basic features of Snapshot models are:
 |      X       |               |              |                 | [dim_user_snapshot](https://gitlab-data.gitlab.io/analytics/#!/snapshot/snapshot.gitlab_snowflake.dim_user_snapshot) |
 |              |         X     |              |                 | [dim_namespace_hist](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_namespace_hist)           |
 |              |         X     |              |                 | [dim_user_hist](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_user_hist) |
-|              |         X     |      X       |                 | [dim_subscription_snapshot_model](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_model)
-|              |         X     |      X       |         X       | [dim_subscription_snapshot_bottom_up](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_bottom_up)
-|              |         X     |      X       |         X       | [dim_user_snapshot_bottom_up](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_user_snapshot_bottom_up)
+|              |         X     |      X       |                 | [dim_subscription_snapshot_model](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_model) |
+|              |         X     |      X       |         X       | [dim_subscription_snapshot_bottom_up](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_bottom_up) |
+|              |         X     |      X       |         X       | [dim_user_snapshot_bottom_up](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_user_snapshot_bottom_up) |
 
 #### Altering Snapshot Tables within `dbt snapshot`
 
@@ -1368,6 +1333,7 @@ This should never be set to `RAW` as it will overwrite production data.
 Sometimes the data team receives requests to delete personal data from the Snowflake Data Warehouse, because of GDPR. To address these deletions, we use `dbt` macros. A macro scans all applicable data that needs to be removed, this also applies to snapshot tables.
 
 There are 2 flavours:
+
 1. The GDPR deletion request applies to all GitLab sources, and therefore all tables in the data warehouse need to be checked and updated. [Macro](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.gdpr_delete). Use this macro if the issue that requesting a GDPR deletion states `Deletion Request (Full)` (in either the title or issue description).
 2. The GDPR deletion request applies to only GitLab.com related sources and therefore only GitLab.com related tables in the data warehouse need to be checked and updated. [Macro](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.gdpr_delete_gitlab_dotcom). Use this macro only if the issue that requesting a GDPR deletion states `Deletion Request (GitLab.com Only` (in either the title or issue description).
 
@@ -1392,7 +1358,6 @@ Key items to note:
     - Add columns `dbt_valid_from` and `dbt_valid_to` to your query
     - Good example [here with the snapshot base model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/gitlab_dotcom_gitlab_subscriptions_snapshots_base.sql) and [the source model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/gitlab_dotcom/gitlab_dotcom_gitlab_subscriptions_source.sql)
 
-
 #### Building models on top of snapshots
 
 In some cases there is a need to have a record per day, rather than a record per changed record with timeframe constraints `dbt_valid_from` and `dbt_valid_to`. In this case a technique called `date spining` can be used to create a model with daily snapshots.
@@ -1404,7 +1369,6 @@ Another possibility to generate daily records is using [dbt utility function dat
 
 We also have a convenience macro [create_snapshot_base](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/macros/utils/create_snapshot_base.sql) that utilizes date_spine to generate model with daily records out of any snapshot table. For example implementation look at [sfdc_opportunity_snapshots_base model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/sfdc_opportunity_snapshots_base.sql).
 
-
 #### Incremental models on top of snapshots
 
 If you are using date spining to generate record for each day, consider materializing the model as [incremental](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/configuring-incremental-models/). This way only new records will be added based on the snapshot_date condition. For an example implementation look at the [mart_arr_snapshots model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/marts/arr/mart_arr_snapshots.sql#L35)
@@ -1412,7 +1376,6 @@ If you are using date spining to generate record for each day, consider material
 ### Testing Downstream Impact
 
 To manually review the downstream impacts a change to a model may have use the asset and filed level lineage in [Monte Carlo](https://getmontecarlo.com/).
-
 
 ### Dropping DBT Models
 
@@ -1505,7 +1468,6 @@ Adjusting the warehouse size for improved performance is not straight forward as
 - Decreasing Warehouse Size
   - The model efficiency is good and the model run time is XS.
 
-
 #### Other potential methods
 
 - Search Optimization
@@ -1558,6 +1520,7 @@ Not all models need to be incremental due to the increased design complexity.
 #### Check Warehouse Size viability
 
 Increasing the warehouse size will not always mean an increase in performance and an improvement in cost.
+
   - If refactoring has not improved the Model Efficiency, an increase to the Warehouse Size may be warranted.
   - If Model Efficiency is Good but the model is reaching the timeout limit for the warehouse then an increase to the Warehouse Size may be warranted.
 

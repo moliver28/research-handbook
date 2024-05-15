@@ -145,7 +145,7 @@ This covers the development of the rationale for mitigation based upon residual 
 
 To help with implementing and using the PASTA framework, we can use a three-tiered approach. This approach is as follows:
 
-### Blind threat model.
+### Blind threat model
 
 GitLab’s best practices applied to components of the project.
 
@@ -156,7 +156,7 @@ GitLab’s best practices applied to components of the project.
 
 *Applies Stage I & Stage II of PASTA*
 
-### Evidence Driven threat model.
+### Evidence Driven threat model
 
 Proof of a threat via numerous indicators as opposed to just theory or conjecture.
 

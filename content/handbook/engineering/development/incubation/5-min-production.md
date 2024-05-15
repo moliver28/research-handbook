@@ -26,14 +26,14 @@ The [original 5MP prototype](https://gitlab.com/gitlab-org/5-minute-production-a
 ## Direction
 
 * Current focus:
-	* Five Minute Review-Apps (5MR)
-	* 1-click Auth
-	* 1-click Config
-	* 5MR Pipeline
+    * Five Minute Review-Apps (5MR)
+    * 1-click Auth
+    * 1-click Config
+    * 5MR Pipeline
 * Someday:
-	* Research GCP and AWS service usage
-	* Research GitLab customers usage
-	* Build dedicated pipelines for GCP and AWS managed services
+    * Research GCP and AWS service usage
+    * Research GitLab customers usage
+    * Build dedicated pipelines for GCP and AWS managed services
 
 ### Five Minute Review-Apps (5MR)
 
