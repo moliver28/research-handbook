@@ -1,13 +1,13 @@
 ---
-title: "TMRG - GitLab DiversABILITY"
+title: "TMRG - GitLab Disability & Neurodiversity"
 description: "Helpful resources, support, and activities for differently abled team members or who are caring for a differently abled loved one."
 ---
 
 ## Mission
 
-The GitLab DiversABILITY TMRG is a resource group to aid team members through their lived experiences at GitLab. Whether these experiences are seen or unseen, present themselves as a physical or a mental diversity, or directly impact you or a loved one, our goal is to intentionally build inclusive practices throughout the company as well as to act as a support system to team members who may want to be in a community with others who share similar experiences.
+The GitLab Disability & Neurodiversity TMRG is a resource group to aid team members through their lived experiences at GitLab. Whether these experiences are seen or unseen, present themselves as a physical or a mental diversity, or directly impact you or a loved one, our goal is to intentionally build inclusive practices throughout the company as well as to act as a support system to team members who may want to be in a community with others who share similar experiences.
 
-The DiversABILITY TMRG advocates for every team member for physical conditions related to sight, sound, and/or mobility or for mental health concerns like ADHD, anxiety, depression and so much more. These are just a few examples of the lived experiences our team members could have at GitLab that can be better positioned with consideration and inclusion as part of the hiring, onboarding, and day-to-day processes as well as before, during, and after a project, a meeting, a conference, or even when we have big company-wide changes.
+The Disability & Neurodiversity TMRG advocates for every team member for physical conditions related to sight, sound, and/or mobility or for mental health concerns like ADHD, anxiety, depression and so much more. These are just a few examples of the lived experiences our team members could have at GitLab that can be better positioned with consideration and inclusion as part of the hiring, onboarding, and day-to-day processes as well as before, during, and after a project, a meeting, a conference, or even when we have big company-wide changes.
 
 ### How we accomplish our mission
 
@@ -18,11 +18,14 @@ Also, we act as a support group. Whether it's async in Slack or live during a me
 ## Leads
 
 - [Kaitlyn Chappell](/handbook/company/team/#kchappell)
-- Co-Lead [Wil Spillane](/handbook/company/team/#wspillane)
+- Dominique Topp
+- James Hebden
+- James Moverly
+- Flavia Costa
 
 ## Executive Sponsor
 
-`NOW HIRING`
+- Rob Allen - Vp of People
 
 ## Upcoming Events
 
