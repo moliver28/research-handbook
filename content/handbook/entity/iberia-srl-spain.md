@@ -73,9 +73,9 @@ Between work days, team members are entitled to an uninterrupted rest period of 
 
 Overtime, if appropriate, _must be expressly and previously authorized in writing by GitLab_. If GitLab has _not_ required or authorized overtime work, then team members should not exceed the normal daily working hours and such time worked in excess will not be considered overtime for any purposes.
 
-## Time Sheets
+## Timesheets
 
-Team members will be expected to fill out a monthly time sheet at the end of each month. The time sheet template can be found [here](https://drive.google.com/drive/folders/1KFUjpX1T2EBLqsi2c6jauI7odIiu9WXF), either the english or spanish version can be used. The timesheet must then be sent to the Non-US Payroll team via HelpLab (under time-tracking category) before the 2nd of the following month. For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For more information please refer to the [timekeeping policies](/handbook/entity/iberia-srl-spain.md#timekeeping-policies).
+Team members will be expected to fill out a monthly timesheet at the end of each month. The timesheet template can be found [here](https://drive.google.com/drive/folders/1KFUjpX1T2EBLqsi2c6jauI7odIiu9WXF), either the english or spanish version can be used. The timesheet must then be sent to the Non-US Payroll team via HelpLab (under time-tracking category) before the 2nd of the following month. For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For more information please refer to the [timekeeping policies](/handbook/entity/iberia-srl-spain.md#timekeeping-policies).
 
 For new hires, or any relocations this information will be in the relevant onboarding or relocation issue. 
 
