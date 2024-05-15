@@ -23,7 +23,6 @@ However, this will truncate your data down to the non-fiscal quarter, such as tr
 
 **Current Period:** `[First Day of Fiscal Quarter] = [Current First Day of Fiscal Quarter]`. This is far simpler than the alternative without a date table, which would include a series of `DATEADD` and `DATETRUNC` calculations thoughtfully stacked on top of each other.
 
-
 ### Adding a Report Date
 
 Many times, end-users would appreciate being able to change "today" in their reports. For example, they may want to be able to view a report as of the last day of the previous quarter. The addition of a date parameter called `report date` can improve your user experience in this area. However, this creates issues when you need to compare your report date to your `date_actual` from the calendar table, because you do not have the built in date information for your report date that you do for the `date_actual` field. Here is what the parameter creation looks like: ![](images/image-1.png)
@@ -102,7 +101,6 @@ END
 
 
 Now you have a date axis which will dynamically allow you and your end-user to switch between date granularities on the same worksheet, while maintaining maximal control over the way the view looks and functions. 
-
 
 ### Date Filtering 
 
@@ -289,7 +287,6 @@ IF [m/q/y Filters for KPI's]
 
 This can be used for every non-additive KPI, which will make creating and maintaing them simpler.
 
-
 #### Enabling Year Over Year Table Calculations for a Full Date Range
 
 If you would like to create a table or chart with Period over Period calculations involved, then Tableau will only be able to use the data that is in the view (on the worksheet) to perform those table calculations. For further documentation on table calculations, check [here](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) ***This means that your leading values in the table will not have any data available to them to create the table calculations. ***
@@ -450,6 +447,8 @@ The output of this tooltip would look like this: ![](images/image-13.png)![](ima
 
 ## Design Tips
 
-## Add GitLab Colos
+Some additional design tips that may help your workbook creation efficency.
+
+### Add GitLab Colos
 You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau-style-guide/#standard-color-palette)
 
