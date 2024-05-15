@@ -1,7 +1,7 @@
 ---
 
-title: "Tableau Developer Guide"
-description: "Giltab's Tableau Developer guide"
+title: "Tableau Developer Tips and Tricks"
+description: "Tableau Developer tips and tricks"
 ---
 
 ## Date Handling
