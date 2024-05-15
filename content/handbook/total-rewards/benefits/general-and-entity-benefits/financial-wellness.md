@@ -32,7 +32,7 @@ GitLab offers all team members the ability to use the Financial Wellness Program
 - Access to SageView’s communications
 - Financial Wellness Workshops hosted by SageView
 
-Please see the following [flyer](https://drive.google.com/file/d/1tAxGvQbstMfKO3m5JdciaKByumHOGPqa/view?usp=sharing) for more information and a link to schedule a consultation.
+Please see the following [flyer](https://drive.google.com/file/d/1FNdQ4i-Jx-jUMjjcAR4Uw4ErB8hyODGN/view?usp=sharing) for more information and a link to schedule a consultation.
 
 GitLab hosted a kickoff call with SageView to discuss an overview of the program’s benefit offerings for team members.
 
