@@ -151,7 +151,7 @@ There are a number of videos on our [YouTube channel](https://www.youtube.com/gi
 
 ### Review sites
 
-We want to be sure candidates who come across GitLab's profile on employer review sites have an accurate picture of what it's like to work here.
+We want ensure candidates who come across GitLab's profile on employer review sites have an accurate picture of what it's like to work here.
 There are some sites where GitLab has a company profile, but we do not own it or pay for additional features. On others, we have a managed presence.
 
 We encourage team members to leave reviews and share their stories on these sites to continue to keep an updated profile. We welcome both positive and negative feedback in these reviews.
