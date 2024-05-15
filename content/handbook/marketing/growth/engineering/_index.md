@@ -104,7 +104,7 @@ Growth teams work across the GitLab codebase on multiple groups and projects inc
 In order to convey Issue implementation order and blocking concepts,
 we leverage the [blocking issue linking feature](https://docs.gitlab.com/ee/user/project/issues/related_issues.html#blocking-issues).
 
-More on the discussion of how to block can be seen in https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/752
+More on the discussion can be seen in https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/752.
 
 ### Issue Refinement And Estimation
 
