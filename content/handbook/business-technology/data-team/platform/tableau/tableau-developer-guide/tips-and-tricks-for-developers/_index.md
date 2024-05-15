@@ -48,29 +48,29 @@ The purpose of the `MONTH([First Day Of Year]) <= MONTH([Last Day Of Year (Dim D
 
 1. Return to your Data Source Pane, and find the "Add" button under the "Filters" heading, in the top right corner. ![Add button](images/image-4.png)
 
-1. Select "Add" and "Add" again, and a pop-up will give you your choice of field to select. Search for the "Report Date Filter" field and select it. On the next window, select "True" and hit "ok". You should now see this filter in your Data Source Filters list. Hit ok. ![](images/image-5.png)
+1. Select "Add" and "Add" again, and a pop-up will give you your choice of field to select. Search for the "Report Date Filter" field and select it. On the next window, select "True" and hit "ok". You should now see this filter in your Data Source Filters list. Hit ok. !]](images/image-5.png)
 
-1. Open a sheet of the workbook, and test to see if your filter worked. If it worked, you should see that for every `Date Actual` in the data set, there should be just one value for the `Date_actual1` from the `DIM_DATE1` table. ![](images/image-6.png)
+1. Open a sheet of the workbook, and test to see if your filter worked. If it worked, you should see that for every `Date Actual` in the data set, there should be just one value for the `Date_actual1` from the `DIM_DATE1` table. ![just one date showing](images/image-6.png)
 
 1. If you are using a live connection, you are ready to go. You and your end-user can switch the date of the reprort date as needed, and the dim_date1 table will update accordingly each time.
 
 1. If you are using an extracted data connection, there is one more important step. Before publishing these changes, you need to make sure that the data extract will include the information that you and your end-user would need if you changed the report date. Referring to [Tableau's order of operations](https://help.tableau.com/current/pro/desktop/en-us/order_of_operations.htm), the filter on the data needs to come after the Extract Filter, or the extract will not include any data for dates other than the one selected when it extracts. This means that the filter needs to be a Data Source filter only. By default, Tableau may add your Data Source filter to the Extract Filters list.
 
-1. In the Data Source Pane, in the area where you select between a Live and Extracted connection, select "Edit". You will see that under the filter list, `Report Date Filter` is selected and keeping only true. Click on that, and select Remove. Then hit ok. ![](images/image-7.png)
+1. In the Data Source Pane, in the area where you select between a Live and Extracted connection, select "Edit". You will see that under the filter list, `Report Date Filter` is selected and keeping only true. Click on that, and select Remove. Then hit ok. ![remove extra filter](images/image-7.png)
 
-1. Notice that your extract will contain all data, but under "Filters", it has the number 1. This means that you have removed the extract filter, but kept the data source filter. ![](images/image-8.png)
+1. Notice that your extract will contain all data, but under "Filters", it has the number 1. This means that you have removed the extract filter, but kept the data source filter. ![keeping the right filter](images/image-8.png)
 
 You can now leverage the full `dim_date` table for filtering and sorting your data! You may wish to rename fields from the `Dim_Date1` table to make it more clear that these fields are specific to the Report Date. You can also optionally hide any unneeded columns, such as anything from the `Dim_date1` table relating to the "Current Date".
 
 ### Axis Dates
 
-In Tableau, you can customize your Fiscal Year Start Date of any date field. ![](images/image-9.png)
+In Tableau, you can customize your Fiscal Year Start Date of any date field. ![customize FY start](images/image-9.png)
 
 However, this is not a foolproof solution. There are many instances where using a string date on the axis of bar and line charts will be much more effective than using native date fields. For example, if you want to create a simple discrete bar chart but allow your end-user to switch between monthly, quarterly, and yearly data, there is no straightforward way to do that in the same sheet. Normally you would need to create a "sheet swapper" on your dashboard, and selectively show or hide certain sheets based on which date granularity is desired.
 
 Instead, you can create one date axis which automatically updates depending on your date granularity. Assuming you have already joined `dim_date` to your data model, take the following steps.
 
-1. Create the Select Time Period Parameter. ![](images/image-10.png)
+1. Create the Select Time Period Parameter. ![time period parameter](images/image-10.png)
 2. Use the following code in a calculated field called **Axis Dates**: 
 
 <details markdown=1>
@@ -97,7 +97,7 @@ END
 3. You now have a simple date axis which you can use with bar charts and line charts. 
 4. One issue you may encounter, however, is that the dates will sort themselves alphabetically. If you are using the `dim_date` table, there is a simple solution to this as well. There is a field called `date_id` in the dim_date table which gives every day a unique id, counting upwards. So the date_id of tomorrow will always be one greater than today.
 5. Bring the `Axis Dates` field out onto Rows or Columns, and then access the Sort option by right clicking on the field and finding "Sort...". Then change the default to sort "By Field", find "Date id", and then use an aggregation such as "Average". 
-![](images/image-11.png)
+![sort axis dates](images/image-11.png)
 
 
 Now you have a date axis which will dynamically allow you and your end-user to switch between date granularities on the same worksheet, while maintaining maximal control over the way the view looks and functions. 
@@ -106,7 +106,7 @@ Now you have a date axis which will dynamically allow you and your end-user to s
 
 The addition of a `Dim_Date` table and consideration of a dynamic date axis creates an opportunity to use dynamic date filtering. A date filter can be created by leveraging the dim_date table with the Select Time Period parameter.
 
-To create this date filter, you will need to create one more parameter for end-user input, or simply decide on a date range that you want the fix the filter to. If you create a `Date Interval` parameter which can be placed on the dashboard, then the end-user has control on how many periods they want to see at a time on time series graphs, such as bar and line charts. ![](images/image-12.png)
+To create this date filter, you will need to create one more parameter for end-user input, or simply decide on a date range that you want the fix the filter to. If you create a `Date Interval` parameter which can be placed on the dashboard, then the end-user has control on how many periods they want to see at a time on time series graphs, such as bar and line charts. ![date interval param](images/image-12.png)
 
 Once you have done so, the following dynamic date filter will work to filter the data:
 
@@ -443,7 +443,7 @@ The Year over Year change was <AGG(Sales YoY)><ATTR(QoQ Label)><AGG(Sales QoQ)><
 
 </details>
 
-The output of this tooltip would look like this: ![](images/image-13.png)![](images/image-14.png)
+The output of this tooltip would look like this: ![tooltip](images/image-13.png)![tooltip](images/image-14.png)
 
 ## Design Tips
 
