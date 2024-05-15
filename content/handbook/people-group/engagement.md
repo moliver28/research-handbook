@@ -17,7 +17,6 @@ There are different survey types that we run at different times throughout the y
 - *Engagement survey:* We partner with CultureAmp to host and run our engagement surveys. We ask all team members to complete this survey at least once a year to understand how engagement is tracking over time.
 - *Organizational Health survey:* we will sometimes run a survey to understand our company and culture more fully (i.e. McKinsey OHI survey) and classify these efforts as Organizational Health surveys.
 
-
 ## Employer Award surveys
 
 ### Great Place to Work
