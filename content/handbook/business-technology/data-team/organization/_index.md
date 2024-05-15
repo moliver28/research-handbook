@@ -46,7 +46,7 @@ Based on these needs, the Data Team is organized in the following way:
 | Marketing        |  Marketing Strategy and Analytics |  @snalamaru             |
 | Finance          |  FP&A Analytics                   |  @chrissharp            |
 | Customer Success |  CS Strategy and Analytics        |  @mdrussell             |
-| Product          |  Product Data Insights            |  @mdrussell             |
+| Product          |  Product Data Insights            |  @michellecooper             |
 | Engineering      |  Engineering Analytics            |  @michellecooper        |
 | Security         |  Engineering Analytics            |  @michellecooper        |
 | Support          |  N/A                              |  @michellecooper        |
