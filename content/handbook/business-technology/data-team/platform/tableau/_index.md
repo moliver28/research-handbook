@@ -534,17 +534,17 @@ permission_templates:
 
 Licenses may be downgraded by the Data Team as needed to meet demand according to the following activity guidelines guidelines:
 
-- To maintain a Creator license the team member must:
+- To maintain a Creator license the team member must meet any of the following:
   - Have published a datasource within the past 90 days
   - Have connected to Tableau Cloud from Tableau Desktop within the past 90 days
-- To maintain an Explorer license the team member must:
+- To maintain an Explorer license the team member must meet any of the following:
   - Have accessed the web authoring environment within the past 90 days
   - Have published a workbook within the past 90 days
-- To maintain a View license the team member must:
+- To maintain a View license the team member must meet any of the following:
   - Have accessed a View within the past 90 days
   - Have accessed a Datasource within the past 90 days
 
-Inactive licenses will the reclaimed quarterly following our [Data Health and Security practices](https://handbook.gitlab.com/handbook/business-technology/data-team/data-management/#tableau).
+Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](https://handbook.gitlab.com/handbook/business-technology/data-team/data-management/#tableau).
 
 **Tracking License Usage**
 
