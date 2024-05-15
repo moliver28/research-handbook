@@ -54,7 +54,7 @@ Edge services are services that sit at the [network edge](https://www.cloudflare
 
 ## Getting Assistance
 
-Should you require assistance from the Foundations team, please open an issue in the [Production engineering tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&label_name%5B%5D=workflow-infra%3A%3ATriage&label_name%5B%5D=team%3A%3AFoundations&first_page_size=100)
+Should you require assistance from the Foundations team, please open an issue in the [Production engineering tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-foundations)
 
 Apply one of the following templates:
 
@@ -165,7 +165,7 @@ If a team member is unavailable for more than 2 days of the week they are on tri
 
 The team member on rotation is responsible for:
 
-- Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&first_page_size=20) throughout the week and ensuring new issues related to Foundations:
+- Checking the [Production Engineering issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&label_name%5B%5D=workflow-infra%3A%3ATriage&label_name%5B%5D=team%3A%3AFoundations&first_page_size=100) throughout the week and ensuring new issues related to Foundations:
   - Have the correct labels (team, priority, workflow, any other applicable category labels)
   - Have a [weight](#issue-weighting).
   - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
