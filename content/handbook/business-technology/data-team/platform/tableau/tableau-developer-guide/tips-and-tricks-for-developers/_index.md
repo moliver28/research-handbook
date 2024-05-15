@@ -4,7 +4,7 @@ title: "Tableau Developer Guide"
 description: "Giltab's Tableau Developer guide"
 ---
 
-# Date Handling
+## Date Handling
 
 Tableau has many ways for handling and visualizing dates - but due to those many options, it can be handy to have some tricks for the best way to do it, especially if you have custom needs.
 
