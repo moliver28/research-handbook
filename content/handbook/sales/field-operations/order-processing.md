@@ -721,11 +721,21 @@ Complex deals require approval via chatter. Use the applicable template below to
 
 ### **How to Approve a Quote**
 
-The following is intended as a guide for quote approvers.
+The following is intended as a guide for quote approvers who receive approval requests per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit)
 
-#### Quote Approvers
+#### Where do I approve?
 
-According to [our matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.ag75fqu12pf0) for approvers there are a number of reasons that you may be involved in approving an opportunity. Please make sure that you are familiar with the scenarios that you may be involved with.
+##### Approval Requests Submitted via Quote "Submit for Approval" Button
+
+###### Email Approval Alerts
+
+###### Slack Approval Alerts
+
+##### Approval Requests Submitted via Salesforce Chatter
+
+
+
+#### REORGANIZE/REMOVE THE BELOW SECTION TO THE ABOVE
 
 - To review how you can approve or reject quotes please watch this [training on youtube](https://youtu.be/T47h4VNTRWU) - Please see the bullet in [Training Videos](#training-videos) on how to access this training video
 - Once a user submits a quote for approval it follows the order of approvers as stated in our approvers matrix
@@ -750,7 +760,7 @@ If you are a quote approver and will be out of office, you will need to notify D
      1. Assign your Delegated Approver (the individual to whom your quotes should be rerouted).
      1. Verify with your Delegated Approver that they have set their [SFDC Approval Settings](https://help.salesforce.com/articleView?id=approvals_change_approval_user_pref.htm&type=5) to "If I am an approver" or "Delegated Approver".
 
-Note: If you are a Delegated Approver and are not receiving approval emails, contact sales-support for assistance.
+Note: If you are a Delegated Approver and are not receiving approval alerts, contact sales-support for assistance.
 
 
 #### Approving Multiple Product Tiers on One Quote
