@@ -20,19 +20,6 @@ stages:
   - deploy
   - notify
 
-.assume_role: &assume_role
-  - >
-    STS=($(aws sts assume-role-with-web-identity
-    --role-arn ${ROLE_ARN}
-    --role-session-name "GitLabRunner-${CI_PROJECT_ID}-${CI_PIPELINE_ID}"
-    --web-identity-token $ID_TOKEN
-    --duration-seconds 3600
-    --query 'Credentials.[AccessKeyId,SecretAccessKey,SessionToken]'
-    --output text))
-  - export AWS_ACCESS_KEY_ID="${STS[0]}"
-  - export AWS_SECRET_ACCESS_KEY="${STS[1]}"
-  - export AWS_SESSION_TOKEN="${STS[2]}"
-
 include:
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
 # disabling danger bot/reviewer roulette until we resolve #238
@@ -149,28 +136,6 @@ pages:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
         HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
-
-# TODO @dnsmichi: What does this job do?
-deploy-s3:
-    stage: deploy
-    needs:
-      - pages
-    image:
-      name: amazon/aws-cli:latest
-      entrypoint:
-        - '/usr/bin/env'
-    id_tokens:
-        ID_TOKEN:
-          aud: handbook_s3
-    script:
-      - *assume_role
-      - aws s3 sync public/ s3://$S3_BUCKET
-    rules:
-      # Never try to deploy on merge requests.
-      - <<: *merge-request-only
-        when: never
-      - if: '$CI_SERVER_HOST == "gitlab.com" && $CI_PROJECT_NAMESPACE == "gitlab-com/content-sites" && $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH'
-        when: on_success
 
 ####################################
 ##
