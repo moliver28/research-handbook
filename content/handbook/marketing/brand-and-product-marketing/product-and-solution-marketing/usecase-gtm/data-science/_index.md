@@ -23,7 +23,7 @@ Common challenges in data science are described on the [Data Science with GitLab
 - Streamline testing and validation of work, making it much faster and more repeatable
 - Simplify infrastructure management and often across multiple cloud providers
 
-To be fleshed out as with [other usecases](/handbook/use-cases/).
+To be fleshed out as with [other usecases](/handbook/marketing/use-cases/).
 
 #### [Keywords and definitions](./keywords/)
 

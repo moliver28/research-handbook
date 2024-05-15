@@ -1,6 +1,7 @@
 ---
 title: "Inspired by GitLab"
-weight: -10
+aliases:
+- /handbook/inspired-by-gitlab/
 ---
 
 ## Which companies can be listed here?

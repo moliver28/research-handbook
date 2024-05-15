@@ -67,7 +67,7 @@ If you need assistance to identify the source, go to [9. Escalating assistance](
 
 If the application (or component a major component ex: Sidekiq) is down or unresponsive due to what you believe to be a database related incident, that's an "All hands on deck".
 
-1. [Activate Development On-Call](/handbook/on-call/#development-team-on-call-rotation). While it may seem unnecessary, many backend developers are familiar enough with the application and database that they should be able to help isolate a source while trying to get database experts involved.
+1. [Activate Development On-Call](/handbook/engineering/on-call/#development-team-on-call-rotation). While it may seem unnecessary, many backend developers are familiar enough with the application and database that they should be able to help isolate a source while trying to get database experts involved.
 1. Reach out in the [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N), [#g_database](https://gitlab.enterprise.slack.com/archives/CNZ8E900G), and [#g_infra_database_reliability](https://gitlab.enterprise.slack.com/archives/C02K0JTKAHJ) channels (internal) for expert help using the `@db-team` (database capability) or `@dbre` (database reliability) group handles.
 
 ### 6. Determine Migration Source
@@ -114,7 +114,7 @@ Always include:
 
 #### For Ongoing Gitlab.com or Dedicated Incidents
 
-1. [Activate Development On-Call](/handbook/on-call/#development-team-on-call-rotation)
+1. [Activate Development On-Call](/handbook/engineering/on-call/#development-team-on-call-rotation)
 1. If development on-call needs additional database expertise, reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N)
 1. If there's no response within 15 minutes, or the request is urgent, tag `@db-team` (Application) or `@dbre` (Infrastructure/Operations) in a thread on the original message
 1. If there's no response to the ping within 15 minutes, and the request is urgent, use slack to find the phone number of the Database or DBRE manager and text or call them.

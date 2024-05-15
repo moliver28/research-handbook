@@ -210,7 +210,7 @@ How to Apply:
 
 #### Statutory Sick Leave
 
-Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/paid-time-off/#sick-time-procedures---all-team-members) policy.
+Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/people-group/paid-time-off/#sick-time-procedures---all-team-members) policy.
 
 - If a team member is sick for more than six weeks, they can apply for "Krankengeld" from their health insurer. The benefit amount will be less than the team member's salary.
 

@@ -186,7 +186,7 @@ Should you need to reschedule, please @ mention the EBA to the CEO in the `#eba-
 
 **Six Mondays** before the start of the fiscal quarter, the CEO and Chief of Staff (CoS) to the CEO initiate the OKR process.
 
-The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/e-group-weekly/) which is **five weeks** before the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO.
+The CoS to the CEO creates a Google Doc for E-Group alignment and shares initial suggestions with the CEO. The CEO and CoS to the CEO discuss and modify these initial suggestions. This document is shared with E-Group in the [E-Group Weekly](/handbook/company/e-group-weekly/) which is **five weeks** before the start of the coming quarter. E-Group is encouraged to offer feedback in the E-Group Weekly, directly within the Google Doc, or in meetings with the CEO or Office of the CEO.
 
 **Four Mondays** before the start of the quarter, the CoS to the CEO will share the company OKRs draft with E-Group.
 
@@ -266,9 +266,9 @@ In the event that a functional objective that is captured in GitLab needs to be 
 
 ## Format of OKR on the Handbook Page
 
-Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](/handbook/documentation/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
+Top level Company KRs will appear in the handbook. OKRs have numbers attached to them for [ease of reference, not for ranking](/handbook/communication/#numbering-is-for-reference-not-as-a-signal). In order to maintain a [single source of truth](/handbook/product/ux/technical-writing/documentation/#documentation-is-the-single-source-of-truth-ssot) (SSoT), starting in FY24-Q1, we're putting functional objectives and KRs in GitLab and linking this to the handbook page. It also provides a SSoT for OKRs.
 
-Functional leaders are responsible for updating their objectives and KRs in GitLab before each [Key Review](/handbook/key-review/#automated-kpi-slides).
+Functional leaders are responsible for updating their objectives and KRs in GitLab before each [Key Review](/handbook/company/key-review/#automated-kpi-slides).
 
 ## How to Use GitLab for OKRs
 
@@ -422,7 +422,7 @@ Watch this video for a demo on how to find the OKRs you're looking for:
 
 ## Maintaining the status of OKRs
 
-Teams should update score for their key results in GitLab within the first five business days of every month and present the most recent update in the [Key Review](/handbook/key-review/) that immediately follows the  update. If a key result is off track, it should be clear why. The owner should leave a comment with the most recent Health Status or there should be a link to an issue, an epic, or another source for details.
+Teams should update score for their key results in GitLab within the first five business days of every month and present the most recent update in the [Key Review](/handbook/company/key-review/) that immediately follows the  update. If a key result is off track, it should be clear why. The owner should leave a comment with the most recent Health Status or there should be a link to an issue, an epic, or another source for details.
 When presenting the status of OKRs, we use the following terms to denote the status of a key result:
 
 1. On track - the DRI is confident the key result will be achieved.
@@ -431,7 +431,7 @@ When presenting the status of OKRs, we use the following terms to denote the sta
 
 An Objective/Key Results health status should be maintained as the SSOT on the status. This is something that should be able to be referenced at any point in order to get a clear view of progress against the objective. The objective owner will be responsible for designating a health status based on a roll up the health statuses of all relevant KRs.
 
-During Key Reviews, teams should include material that covers [key OKR progress  details](/handbook/key-review/#okr-slides) and links to relevant OKRs.
+During Key Reviews, teams should include material that covers [key OKR progress  details](/handbook/company/key-review/#okr-slides) and links to relevant OKRs.
 
 The first Key Review of the following quarter should offer a clear scoring for each KR.
 

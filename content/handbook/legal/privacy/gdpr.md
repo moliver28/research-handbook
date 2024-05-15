@@ -1,5 +1,7 @@
 ---
 title: Personal Data Requests
+aliases:
+- /handbook/gdpr/
 ---
 
 Under various global data privacy laws (for example, [GDPR](/handbook/legal/privacy/privacy-laws/#gdpr) and [CPPA](/handbook/legal/privacy/privacy-laws/#cppa)), GitLab users have the right to request that GitLab provides you with information about the personal data GitLab has about you. Users also have the right to request deletion of their personal data and complete removal of their GitLab.com account in accordance with these laws. Though the laws apply only to individuals in certain geographic areas, GitLab accepts requests for data access, correction and deletion from all of our users worldwide.

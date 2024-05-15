@@ -285,7 +285,7 @@ Rejected candidates will stay in our talent community and we may revisit them fo
 
 Generally, we will leave a minimum gap of 6-months before reconsidering someone. We will only reconsider candidates who were rejected because they lacked skills or experience.
 
-We will not reconsider candidates who were mismatched with our [values competencies](/handbook/competencies/#values-competencies) and/or our [remote work competencies](/handbook/competencies/#remote-work-competencies).
+We will not reconsider candidates who were mismatched with our [values competencies](/handbook/people-group/competencies/#values-competencies) and/or our [remote work competencies](/handbook/people-group/competencies/#remote-work-competencies).
 
 #### Single-vetos
 

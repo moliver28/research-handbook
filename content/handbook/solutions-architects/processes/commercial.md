@@ -352,7 +352,7 @@ Commercial SA team holds [Peer Review sessions](/handbook/solutions-architects/s
 
 ## Paid Time Off
 
-Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
+Commercial SA team members are strongly encouraged to take time off as part of [GitLab's paid time off policy](/handbook/people-group/paid-time-off/). Taking off can be intimidating as we may support multiple customers at any given time.
 To best support our customers, consider the following:
 
 1. Communicate your time off within your circle in case of coverage.
