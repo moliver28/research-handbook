@@ -538,6 +538,16 @@ The PAT is named `snowflake_provisioning_automation` and was created in the ['Gi
 
 The PAT value is saved within 1Pass, and also as a CI environment variable so that it can be used by the GitLab runner.
 
+### Snowflake Deprovisioning Users
+
+Inactive Snowflake users will be deprovisioned weekly via `snowflake_cleanup` DAG, implemented in [this issue](https://gitlab.com/gitlab-data/analytics/-/issues/20347).
+
+All active Snowflake users/roles are declared within `roles.yml`. Therefore, if any users in Snowflake are missing within roles.yml, they are considered inactive and the process will drop them.
+
+These users will be dropped by running the following [deprovision_user.sql](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/snowflake_provisioning_automation/provision_users/sql_templates/deprovision_user.sql?ref_type=heads) script.
+
+This process is not exposed via CI job due to its sensitive nature and because it is less time sensitive. Therefore, a weekly 'cleanup' task via Airflow will be run instead.
+
 #### Provisioning permissions to external tables to user roles
 
 Provisioning USAGE permissions for external tables to user roles inside snowflake is not handled by permifrost in the moment. If you have to provision access for an external table to a user role, then it must be granted manually via GRANT command in snowflake[docs](https://docs.snowflake.com/en/sql-reference/sql/grant-privilege) using a `securityadmin` role. This implies that the user role already has access to the schema and the db in which the external table is located, if not add them to the [roles.yml](https://gitxlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/roles.yml).
