@@ -76,6 +76,8 @@ At the beginning of the escalation, the DRI must be determined - the DRI owns th
    - Managing the 24x7 incident resolution and escalation process (i.e., Support Engineering, SRE, Development)
    - Supporting executive and customer calls (as needed)
 
+If an escalation is opened as high or critical, and the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). 
+
 ### Medium and Low-Level Escalations
 
 - Support Engineering is responsible for managing Low and Medium level escalations, leveraging other teams (e.g., Customer Success Managers (CSMs), Engineering) as needed.
@@ -175,10 +177,11 @@ Example message for the event when the escalation is identified and created and 
    - **Tracking Document**: "<LINK:Escalation Tracker Doc>"
    - **Severity**: High
    - **Status**: Opened
+   - **Product DRI**: "[Assigned Product DRI](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002)"
    - **Description**: "<Example <Customer> platform is impacted by performance problems since several weeks and users are affected on a daily base which is driving the customer into a critical state. The performance problems are also risking their our license expansion.>”
    - **FYI**: "<TAG_YOUR_MANAGER_HERE>"
 
-If requested, The [Section leader of Product](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/sections.yml) is responsible for designating Product Leaders who will be the R&D response DRIs for the escalation. That process is expected to happen in the #a_customername_escalation channel with a ping to the relevant [Product section leader](/handbook/product/categories/). Example:  - This is a newly escalated customer, and we are looking for you to assign a Product Leader to be the R&D DRI for the response.
+For high or critical escalations, and if the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). The Product DRI should be added to the #esc_customername channel and will drive any product related items throughout the escalation. 
 
 ##### Post in escalated_customers
 
