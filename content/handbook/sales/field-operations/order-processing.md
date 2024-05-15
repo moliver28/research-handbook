@@ -729,18 +729,18 @@ Quote Approval requests will originate from one of two sources: [The quote](http
 
 If the request originates from the quote, you will receive an email alert and a Slack alert. If the request originates from SFDC Chatter, you will receive an email alert. Click [here](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=kix.1p0vwiqmoq15) to learn more about which requests should go through the quote vs. SFDC Chatter. In FY25 we will move away from SFDC Chatter entirely, routing all approvals through the quote. 
 
-##### Approval Requests Submitted via Quote "Submit for Approval" Button
+#### Approval Requests Submitted via Quote "Submit for Approval" Button
 
 Approval requests submitted via [this process](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval) can be approved one of three ways: (1) via email alert, (2) via Slack alert, or (3) directly in Salesforce.
 
 Once a user submits a quote for approval, it will follow the order of approvers as stated on the quote and in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit). You will be notified by an email and a Slack alert, both of which contain information about the request, and a link to the quote. 
 
-###### Approve Directly in Salesforce
+##### Approve Directly in Salesforce
 
 - To review how you can approve or reject quotes via email or directly in Salesforce, sign into the GitLab Unfiltered YouTube account and watch this [video](https://youtu.be/T47h4VNTRWU). 
 - You can approve or reject a quote directly within Salesforce by accessing the quote and scrolling to the bottom of the page under `Approval History`. Click `Approve` or `Reject` next to your name to take action.
 
-###### Approve via Email
+##### Approve via Email
 
 - To review how you can approve or reject quotes via email or directly in Salesforce, sign into the GitLab Unfiltered YouTube account and watch this [video](https://youtu.be/T47h4VNTRWU). 
 - Once you have reviewed the quote, you can reply directly to the email. Valid responses are:
@@ -752,14 +752,14 @@ Once a user submits a quote for approval, it will follow the order of approvers 
   - `NO`
 - Please note, shortly after the launch of Slack Approvals in May 2024, email approval alerts will be deprecated. An announcement will be sent to Field Managers upon removal of this feature.
 
-###### Approve via Slack
+##### Approve via Slack
 
-####### How It Works
+###### How It Works
 
 - Slack Approvals sends quote approval requests from Salesforce right to your Slack via the “Quote Approval Bot.” As soon as a submitter clicks “Submit for Approval” on the quote object, the first approver will receive the request. After an approver actions their step, any subsequent approver(s) will receive their request in sequence until the quote is fully approved, or until a user rejects the quote. When it’s your turn to approve, you’ll be able to approve, reject, add comments, and monitor progression - all right in Slack. Each action writes back to Salesforce and leaves a timestamp - just like we’re used to. 
 - The Quote Approval Bot's Approval Dashboard conveniently lists all pending approval requests in one location. No more worrying you missed one!
 
-####### Alert Types
+###### Alert Types
 
 Both submitters and approvers will receive alerts via the Quote Approval Bot as each quote navigates the approval workflow. 
 
@@ -767,7 +767,7 @@ Both submitters and approvers will receive alerts via the Quote Approval Bot as 
 
 **Submitters** will receive Approval Alerts notifying them when each Approver has approved, Rejection Alerts notifying them that a quote has been rejected, and Final Approvla Alerts notifying them when a quote has been _fully approved_ and an Order Form can be generated.
 
-####### FAQ
+###### FAQ
 
 1. Will I still receive email notifications for quote approvals?
 
@@ -797,11 +797,11 @@ No! All Salesforce users will automatically receive this functionality upon go-l
 
 At this time, there is no functionality that enables deal-specific discussion directly within the Quote Approval Bot. We’ve custom built this integration, and will consider such functionality for future iterations.
 
-####### Learn More
+###### Learn More
 
 Additional resources are available in Highspot. Review the Slack Approvals slide deck for step-by-step instructions, or check out this video announcement to see Slack Approvals in action
 
-##### Approval Requests Submitted via Salesforce Chatter
+#### Approval Requests Submitted via Salesforce Chatter
 
 If you have been tagged to approve a quote via Salesforce Chatter, please clearly communicate your Approval or Rejection, as well as exactly what you are approving or rejecting, in the same Chatter thread where your approval was sought. 
 
