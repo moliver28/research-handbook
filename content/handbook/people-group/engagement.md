@@ -104,7 +104,7 @@ The goal of the Summit is to build trust through social connections. This trust 
 
 To best determine how effective we are at achieving the goal of Summit is to gauge team member perceptions before and after the event.
 
-#### We ran two surveys:
+#### We ran two surveys
 
 - Pre-Summit: January 9, 2024 to January 19, 2024
 - Post-Summit: March 15, 2024 to April 5, 2024
