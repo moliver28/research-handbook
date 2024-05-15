@@ -137,7 +137,7 @@ If you hover your mouse cursor over a link in Google Chrome it will show you
 the link destination in the status bar at the bottom left corner of your browser
 window.
 
-![Hover Example](/images/phishing/hover-status-bar-example-chrome.png)
+![Hover Example](/handbook/security/security-assurance/images/hover-status-bar-example-chrome.png)
 
 In Safari the status bar must be enabled to view the true link destination
 (View -> Show Status Bar).
@@ -148,19 +148,19 @@ phishing forms include:
 - Using HTTP(S) with a hostname that begins with the name of a trusted
 site but ends with a malicious site.
 
-![Malicious Domain](/images/phishing/malicious-domain.png)
+![Malicious Domain](/handbook/security/security-assurance/images/malicious-domain.png)
 
 - Using a username or password inside the request that corresponds to the name
 of a trusted domain and assuming the viewer won't view the whole URL.
 
-![Trick Username](/images/phishing/username-password.png)
+![Trick Username](/handbook/security/security-assurance/images/username-password.png)
 
 - Using a data URI scheme instead of HTTP(S) is a particularly devious means of
 tricking users. Data schemes allow the embedding of an entire web page inside
 the URI itself. Data schemes will not show the typical green lock in the address
 bar of a browser that is customarily associated with a verified SSL connection.
 
-![Data Scheme](/images/phishing/data-scheme.png)
+![Data Scheme](/handbook/security/security-assurance/images/data-scheme.png)
 
 When viewing the source of an HTML email it is important to remember that the
 text inside the "HREF" field is the actual link destination/target and the text
@@ -176,7 +176,7 @@ that signify a validated SSL service. This icon alone is not enough to verify th
 authenticity of a website, however the lack of the green icon does mean you
 should never enter sensitive data into that website.
 
-![Green Lock Example](/images/phishing/green-lock-example.png)
+![Green Lock Example](/handbook/security/security-assurance/images/green-lock-example.png)
 
 ### What to do if you suspect an email is a phishing attack
 
