@@ -24,6 +24,19 @@ E**nable users to track vulnerabilities across multiple branches** - Allow users
 
 **Threat Insights features are reliable and perform at scale** - As we add more group and organization level features, we will be optimizing query performance and move forward with confidence that our database will scale and perform as we grow.
 
+### Threat Insights teams
+
+{{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Govern:Threat Insights" %}}
+
+{{% team-by-manager-slug manager="ryaanwells" team="end Engineer(.*)Govern:Threat Insights" %}}
+
+## Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+{{% stable-counterparts role="Govern:Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
+
+
 ## Common Links
 
 * Slack channels:
