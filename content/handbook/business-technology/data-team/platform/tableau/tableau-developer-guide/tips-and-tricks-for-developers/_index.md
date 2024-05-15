@@ -379,16 +379,19 @@ END
 <summary><b>Time Period Table Calculations</b></summary>
 
 **Sales -1**
+
 ```text
 (ZN(SUM([Sales])) - LOOKUP(ZN(SUM([Sales])), -1)) / ABS(LOOKUP(ZN(SUM([Sales])), -1))
 ```
 
 **Sales -4**
+
 ```text
 (ZN(SUM([Sales])) - LOOKUP(ZN(SUM([Sales])), -4)) / ABS(LOOKUP(ZN(SUM([Sales])), -4))
 ```
 
 **Sales -12**
+
 ```text
 (ZN(SUM([Sales])) - LOOKUP(ZN(SUM([Sales])), -12)) / ABS(LOOKUP(ZN(SUM([Sales])), -12))
 ```
@@ -396,11 +399,13 @@ END
    1. Now create the Period over Period calculations:
 
 **Sales MoM**
+
 ```text
 IF [Select Time Period] = 'month' THEN [Sales -1] END
 ```
 
 **Sales QoQ**
+
 ```text
 IF [Select Time Period] = 'month' THEN [Sales -4]
 ELSEIF [Select Time Period] = 'quarter' THEN [Sales -1]
@@ -408,6 +413,7 @@ END
 ```
 
 **Sales YoY**
+
 ```text
 IF [Select Time Period] = 'month' THEN [Sales -12]
 ELSEIF [Select Time Period] = 'quarter' THEN [Sales -4]
