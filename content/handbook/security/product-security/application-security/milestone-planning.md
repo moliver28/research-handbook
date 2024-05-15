@@ -103,4 +103,3 @@ Sometimes high-priority and/or urgent work comes up after a milestone starts. Wh
 ### Missed milestones
 
 Work planned for a milestone may not be fully finished due to time constraints or planned work being too ambitious. When this happens, attach the `missed::X.Y` label.
-
