@@ -90,7 +90,7 @@ Here is a sample checklist of activities:
 #### Snowflake
 
 - Drop accounts from off-boarded employees from Snowflake
-     - All Snowflake accounts from GitLab team members that are off-boarded, should be dropped from the day they are off-boarded. This activity checks for any active accounts for off-boarded GitLab team members. Subsequently any active account will be dropped, without maintaining any data, scripts or other artifacts.
+     - All Snowflake accounts from GitLab team members that are off-boarded, should be dropped from the day they are off-boarded. This activity checks for any active accounts for off-boarded GitLab team members within `roles.yml`. Once inactive users are removed from `roles.yml`, the weekly DAG `snowflake_cleanup` will then remove them from Snowflake. Any active account that is dropped will no longer maintain any data, scripts, or other artifacts.
 - Drop any account, that has not logged-in within the past 60 days from the moment of performing an audit, from Snowflake.
      - Any named user Snowflake account that hasn't logged for more than 60 days will be dropped, without maintaining any data, scripts or other artifacts. If a GitLab team member wants to have access provisioned back again, a regular AR needs to be created. After manager approval the account will be re-created.
      - Validate all user accounts do not have password set.
