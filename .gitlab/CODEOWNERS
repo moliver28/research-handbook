@@ -34,6 +34,9 @@
 /content/handbook/editing-handbook/ @gitlab-com/content-sites
 /content/handbook/markdown-guide/ @gitlab-com/content-sites
 
+[Job Families]
+/content/job-families/ @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @franzrivera @gitlab-com/content-sites @gitlab-com/egroup
+
 ^[Acquisitions]
 /content/handbook/acquisitions/ @eliran.mesika
 
@@ -610,9 +613,6 @@
 /content/handbook/company/working-groups/frontend-observability.md @timzallmann @samdbeckham
 /content/handbook/company/working-groups/multi-large.md @cdu1 @mbursi
 /content/handbook/company/working-groups/software-supply-chain-security.md @sam.white @pcalder
-
-[Job Families]
-/content/job-families/ @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @franzrivera @gitlab-com/content-sites @gitlab-com/egroup
 
 ## Please keep the required handbook sections near the end
 [CODEOWNERS]
