@@ -239,3 +239,24 @@ post_comment_on_failure:
     - glab mr note --unique $CI_MERGE_REQUEST_IID -m "$(cat msg.txt)"
   rules:
   - <<: *merge-request-or-tag
+
+notify_slack_on_production_deploy_failures:
+  needs: ["pages"]
+  when: always #on_failure
+  stage: notify
+  script:
+    - > 
+      DEPLOYMENT_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ") 
+      if [ "$CI_JOB_STATUS" == "success" ]; then
+        EMOJI_STATUS=":white_check_mark:"
+      else
+        EMOJI_STATUS=":exclamation:"
+      fi
+      
+      curl -X POST -H 'Content-type: application/json' --data "{
+      \"text\": \"*Project:* $CI_PROJECT_NAME\n*App Version:* $VERSION\n*Job:* $CI_JOB_NAME\n*Stage:* $CI_JOB_STAGE\n*User:* $GITLAB_USER_NAME\n*Deployment Date:* $DEPLOYMENT_DATE\n*Status:* $CI_JOB_STATUS $EMOJI_STATUS\n*Details:* <$CI_JOB_URL|Job Details>\",
+      \"mrkdwn\": true
+      }" $SLACK_WEBHOOK;
+  rules:
+  - <<: *default-branch
+
