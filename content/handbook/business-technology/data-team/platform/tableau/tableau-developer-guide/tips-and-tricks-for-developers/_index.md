@@ -71,7 +71,7 @@ However, this is not a foolproof solution. There are many instances where using 
 Instead, you can create one date axis which automatically updates depending on your date granularity. Assuming you have already joined `dim_date` to your data model, take the following steps.
 
 1. Create the Select Time Period Parameter. ![time period parameter](images/image-10.png)
-2. Use the following code in a calculated field called **Axis Dates**: 
+2. Use the following code in a calculated field called **Axis Dates**:
 
 <details markdown=1>
 
@@ -94,15 +94,14 @@ END
 
 </details>
 
-3. You now have a simple date axis which you can use with bar charts and line charts. 
+3. You now have a simple date axis which you can use with bar charts and line charts.
 4. One issue you may encounter, however, is that the dates will sort themselves alphabetically. If you are using the `dim_date` table, there is a simple solution to this as well. There is a field called `date_id` in the dim_date table which gives every day a unique id, counting upwards. So the date_id of tomorrow will always be one greater than today.
-5. Bring the `Axis Dates` field out onto Rows or Columns, and then access the Sort option by right clicking on the field and finding "Sort...". Then change the default to sort "By Field", find "Date id", and then use an aggregation such as "Average". 
+5. Bring the `Axis Dates` field out onto Rows or Columns, and then access the Sort option by right clicking on the field and finding "Sort...". Then change the default to sort "By Field", find "Date id", and then use an aggregation such as "Average".
 ![sort axis dates](images/image-11.png)
 
+Now you have a date axis which will dynamically allow you and your end-user to switch between date granularities on the same worksheet, while maintaining maximal control over the way the view looks and functions.
 
-Now you have a date axis which will dynamically allow you and your end-user to switch between date granularities on the same worksheet, while maintaining maximal control over the way the view looks and functions. 
-
-### Date Filtering 
+### Date Filtering
 
 The addition of a `Dim_Date` table and consideration of a dynamic date axis creates an opportunity to use dynamic date filtering. A date filter can be created by leveraging the dim_date table with the Select Time Period parameter.
 
@@ -135,7 +134,7 @@ END
 
 #### Current and Previous Period Calculations
 
-To add onto the date filter, if you create T/F fields called `Current Period` and `Previous Period`, then you can use these in conjunction with measures and dimensions to create fields such as `Current Period Sales`. This can then be used in Tooltips, Big Numbers, to create fixed Period over Period fields, and for analytics lines. 
+To add onto the date filter, if you create T/F fields called `Current Period` and `Previous Period`, then you can use these in conjunction with measures and dimensions to create fields such as `Current Period Sales`. This can then be used in Tooltips, Big Numbers, to create fixed Period over Period fields, and for analytics lines.
 
 There are two ways to create these calculations. The first option is to cut the data off at the current day of the fiscal period (month/quarter/year), so that you are comparing the time periods evenly. For example, comparing the first 13 days of this quarter to only the first 13 days of lasrt quarter. This is what these calculations would look like:
 
@@ -238,7 +237,7 @@ A use-case you may find for using each of these on the same sheet is when you wa
 
 ### Additional Tricks
 
-These tricks are non-essential to this method of date handling, but might help you improve the UI of the workbook, or at least save time with creating filters. 
+These tricks are non-essential to this method of date handling, but might help you improve the UI of the workbook, or at least save time with creating filters.
 
 #### Non-additive or Semi-additive Data
 
@@ -289,7 +288,7 @@ This can be used for every non-additive KPI, which will make creating and mainta
 
 #### Enabling Year Over Year Table Calculations for a Full Date Range
 
-If you would like to create a table or chart with Period over Period calculations involved, then Tableau will only be able to use the data that is in the view (on the worksheet) to perform those table calculations. For further documentation on table calculations, check [here](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) ***This means that your leading values in the table will not have any data available to them to create the table calculations. ***
+If you would like to create a table or chart with Period over Period calculations involved, then Tableau will only be able to use the data that is in the view (on the worksheet) to perform those table calculations. For further documentation on table calculations, check [here](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) ***This means that your leading values in the table will not have any data available to them to create the table calculations.***
 
 Let's say you wanted to make a bar chart of `Sales`, but you wanted to embed the `Period over Period` information into the tooltips. If you only include one year's worth of data in the filter, then Tableau will not be able to calculate ***any*** year over year calculations, because it cannot "see" the prior year's data. There are ways to hard code around this, but there is a simple solution that you can use to "trick" Tableau into allowing the period over period calculations you want, at any date granularity.
 
@@ -406,7 +405,6 @@ ELSEIF [Select Time Period] = 'quarter' THEN [Sales -1]
 END
 ```
 
-
 **Sales YoY**
 ```
 IF [Select Time Period] = 'month' THEN [Sales -12]
@@ -424,18 +422,21 @@ END
 <summary><b>Labels</b></summary>
 
 **MoM Label**
+
 ```
 IF [Select Time Period] = 'month'  THEN ", and the month over month change was: " // "MoM change: "
 END
 ```
 
 **QoQ Label**
+
 ```
 IF [Select Time Period] = 'month' OR [Select Time Period] = 'quarter' THEN ", the quarter over quarter change was: " // "QoQ Change: "
 END
 ```
 
 5. To put those together, the tooltip would have the following code, centered and formatted:
+
 ``` 
 In <Axis Dates> the Sales were <SUM(Sales)>.
 The Year over Year change was <AGG(Sales YoY)><ATTR(QoQ Label)><AGG(Sales QoQ)><ATTR(MoM label)><AGG(Sales MoM)>.
@@ -449,6 +450,6 @@ The output of this tooltip would look like this: ![tooltip](images/image-13.png)
 
 Some additional design tips that may help your workbook creation efficency.
 
-### Add GitLab Colos
-You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau-style-guide/#standard-color-palette)
+### Add GitLab Colors
 
+You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau-style-guide/#standard-color-palette)
