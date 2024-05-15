@@ -17,6 +17,7 @@ This position is 100% remote.
 The Customer Support Representative is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 For a Customer Support Representative role we expect:
+
 - Someone who's been in a previous customer facing role, whether in a technical or non-technical company, and thrives on supporting other people
 - Someone who is able to understand process workflow and communicate via written word and video conferencing
 
@@ -29,6 +30,7 @@ As we evolve our handbook and adopt a career matrix approach, you can read more 
 The Associate Support Engineer is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 For an Associate Support Engineer role we expect:
+
 - Someone who's been in a previous customer facing role, maybe in a technical company, but also maybe outside of tech
 - We expect this person to be early in their career of "technical debugging" - They may have worked support before, but not deep technical troubleshooting.
 
@@ -186,7 +188,6 @@ demonstrated significant leadership and impact; typically around resolving custo
 - **Strategic Involvement and Customer Advocacy**: They play a strategic role by being the voice of the customer within broader product and engineering teams, contributing to cross-functional projects, and focusing on customer-centric problem solving.
 
 - **Proactive Organizational Leadership and Impact**: Staff Support Engineers exhibit proactive, visible technical leadership in addressing complex issues and significantly impacting both the team and customers. This includes engagement with leaders within customer organizations, particularly during escalations and proactive engagements that involve Support. They actively contribute to discussions, and influence decisions. They also steer product development by communicating customer needs and priorities, and from work with customers they anticipate product limitations.
-
 
 ## Career Ladder
 

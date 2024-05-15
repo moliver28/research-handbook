@@ -77,7 +77,6 @@ The Infrastructure department's Reliability Engineering teams provide 24x7 on-ca
 - The Security Manager on-call is responsible to engage alternative/backup SecOps Engineers in the event the primary is unavailable.
 - In the event of a high-impact security incident to GitLab, the Security Manager on-call will be engaged to assist with cross-team/department coordination.
 
-
 ## Test Platform Team On-Call Rotation
 
 - Test Platform sub-department's on-call do not include work outside GitLab's normal business hours. The process is defined on our [pipeline on-call rotation](https://about.gitlab.com/engineering/infrastructure/test-platform/oncall-rotation) page.

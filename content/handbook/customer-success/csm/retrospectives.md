@@ -18,7 +18,7 @@ The scope of this program is limited to Customer Renewal events occuring during 
 
 ## Guiding Principles
 
-In order to generate the best results from a retrospective we must embody GitLab's [CREDIT values](https://handbook.gitlab.com/handbook/values/#:~:text=values%20at%20GitLab-,CREDIT,they%20are%20made%20actionable%20below.) and the following elements must be present:
+In order to generate the best results from a retrospective we must embody GitLab's [CREDIT values](/handbook/values/#:~:text=values%20at%20GitLab-,CREDIT,they%20are%20made%20actionable%20below.) and the following elements must be present:
 
 1. A safe environment for feedback
 2. A plan for advancing discussion from facts to conclusions

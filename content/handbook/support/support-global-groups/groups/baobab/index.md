@@ -7,7 +7,6 @@ description: Home Page for Support's Baobab Group
 <!-- Search for all occurrences of NAME and replace them with the group's name.
      Search for all occurrences of URL HERE and replace them with the appropriate url -->
 
-
 ## Baobab resources
 
 - Our Slack Channel: [spt_gg_baobab](https://gitlab.slack.com/archives/C03C9DU3ED8)
@@ -87,8 +86,8 @@ There are Ticket Crush sessions scheduled at the following times:
 There is also a social chat on Fridays at 10:30 UTC.
 
 Adding a trial NRTea party:
-- Mondays at 12:00 UTC (EMEA)
 
+- Mondays at 12:00 UTC (EMEA)
 
 ## Focus Time
 

@@ -103,7 +103,6 @@ Function DRIs are expected to use and share their function's Key Review deck, me
 
 To view a recording of a Key Review, visit the playlist on YouTube Unfiltered titled [Key Reviews](https://www.youtube.com/playlist?list=PL05JrBw4t0KrlBfo0IBmV0BwJcPN59swi). If you are unable to view a video, please ensure you are logged in as [GitLab Unfiltered](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
 
-
 ### Automated KPI Slides
 
 The [original demo and proposal of using the KPI Slide project](https://youtu.be/5BlFNhSfS8A) is on GitLab Unfiltered (internal).
@@ -113,11 +112,13 @@ Those slides are deployed to GitLab pages (also internal, you must have access t
 Each group that presents has one markdown file with their KPIs.
 Every month, groups create an MR to update that markdown file.
 The following slides need to be updated with an MR:
+
 - Month on the first slide
 - Key Business Takeaways- should especially highlight any KPIs that need attention
 - OKR statuses
 
 The following Key Reviews are automated: (all links are internal)
+
 - [Finance](https://gitlab-com.gitlab.io/kpi-slides/slides-html/finance/#/)
 - [Infrastructure](https://gitlab-com.gitlab.io/kpi-slides/slides-html/infrastructure/#/)
 - [Marketing](https://gitlab-com.gitlab.io/kpi-slides/slides-html/marketing/#/)
@@ -137,6 +138,7 @@ The following Key Reviews are automated: (all links are internal)
 ### Leveraging Sisense in Google Slides
 
 To create these slides, you will need *Editor* access in Sisense.
+
 - Edit the chart you're interested in.
 - Click "Chart Format" (second tab on far right)
 - Under Advanced, select "Expose Public CSV URL"

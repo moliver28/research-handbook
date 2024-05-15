@@ -30,9 +30,7 @@ This kind of error pops up in the pipeline like KeyError: 'GITLAB_COM_CI_DB_USER
 **Notes:-** Turn off the Flags, so the variable is accessible from the CI pipeline.
 The same applies to the variable value; if it is incorrect in the job, we can update it in the above link.
 
-
-
-# Analytics pipelines
+## Analytics pipelines
 
 ## Stages
 
@@ -114,10 +112,10 @@ This pipeline needs to be executed when doing changes to any of the below manife
 - el_saas_gitlab_com_scd_db_manifest.yaml
 
 This pipeline requires.
+
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
 2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_com_ci_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_saas_gitlab_com_ci`.
 3. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `bulk_import_entities` in manifest file `el_saas_gitlab_com_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
-
 
 #### `gitlab_ops_pgp_test`
 
@@ -129,6 +127,7 @@ This pipeline needs to be executed when doing changes to any of the below manife
 **This is separate from the `pgp_test` job because it requires a CloudSQL Proxy to be running in order to connect to the gitlab-ops database.**
 
 This pipeline requires.
+
 1. Clone of `TAP_POSTGRES` schema(Mandatory): The `TAP_POSTGRES` schema can be cloned by using CI JOB `clone_raw_postgres_pipeline` which is part of `❄️ Snowflake`.
 2. Variable `MANIFEST_NAME`(Mandatory): The value is manifest yaml filename except postfix `_db_manifest.yaml`, For example if modified file is `el_gitlab_ops_db_manifest.yaml` the variable passed will be `MANIFEST_NAME`=`el_gitlab_ops`.
 3. Variable `TASK_INSTANCE`(Optional): This do not apply to any of the incremental table. It is only required to be passed for table listed in the SCD manifest file for who has `advanced_metadata` flag value set to `true`. For example for table `ci_builds` in manifest file `el_gitlab_ops_scd_db_manifest.yaml`. We need to pass this variable `TASK_INSTANCE`. For testing purpose this can be any unique identifiable value.
@@ -161,6 +160,7 @@ Available selectors can be found in the [selector.yml](https://gitlab.com/gitlab
 #### DBT CI Job size
 
 If you want to run a dbt job via the `🏗️🏭build_changes` or `🎛️custom_invocation`, you have the possibility to choose the size of the Snowflake warehouse you want to use in the CI job. Starting with XS, followed by L and last you can select XL size warehouse. This can be done by setting the `WAREHOUSE` variable when starting the CI job:
+
 - Setting `WAREHOUSE` to `DEV_XS` is will use an `XS` warehouse.
 - Setting `WAREHOUSE` to `DEV_L` is will use a `L` warehouse.
 - Setting `WAREHOUSE` to `DEV_XL` is will use an `XL` warehouse.
@@ -175,7 +175,6 @@ if there are complex transformations or lots of data to be processed more power 
 But always also please check your model. Maybe the model can be adjusted to run more efficiently.
 Running your test on a bigger warehouse will not only trigger increased costs for **this** CI Job,
 but it also could run inefficiently in production and could have a much bigger impact for the long run.
-
 
 #### `🏗️🏭build_changes`
 
@@ -211,9 +210,7 @@ Should the changes made fall outside the default selection of this job, it can b
 | Make a changes to or useing a Selector |    <ol><li>➕🐘🏭⛏specify_selector_build_xl</li><ul><li>DBT_SELECTOR : customers_source_models</li></ul></ol> |    <ol><li>🎛️custom_invocation</li><ul><li>STATEMENT : build --selector customers_source_models</li></ul></ol> |
 | Add a model built on a new Sheetload in the same MR |    <ol><li>❄️ Snowflake: clone_raw_sheetload</li><li>Extract: sheetload</li><li>specify_raw_model</li><ul><li>DBT_MODELS : sheetload_file_name_source</li></ul></ol> |    <ol><li>❄️ Snowflake: clone_raw_sheetload</li><li>Extract: sheetload</li><li>🏗️🏭build_changes</li><ul><li>RAW_DB : Dev</li></ul></ol> |
 
-
 </details>
-
 
 #### `🎛️custom_invocation`
 
@@ -224,11 +221,9 @@ This job can be configured in the following ways:
 - `WAREHOUSE`: No default, a value of `DEV_XL`, `DEV_L`, or `DEV_XS` must be provided.
 - `STATEMENT`: No default, a complete `dbt` statement must be provided. e.g. `run --select +dim_date`.
 
-
 #### `📚📝generate_dbt_docs`
 
 You should run this pipeline manually when either `*.md` or `.yml` files are changed under `transform/snowflake-dbt/` folder. The motivation for this pipeline is to check and validate changes in the `dbt` documentation as there is no check on how the documentation was created - errors are allowed and not validated, by default. There are no parameters for this pipeline.
-
 
 ### 🛠 dbt Misc
 
@@ -243,7 +238,6 @@ Runs all the tests
 #### `💾data_tests`
 
 Runs only data tests
-
 
 #### `🔍tableau_direct_dependencies_query`
 
@@ -264,7 +258,7 @@ This gets the list of files that have changed from the master branch (i.e. targe
 
 `orchestration/tableau_dependency_query/src/tableau_query.py`
 
-We leverage [Monte Carlo](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/monte-carlo/) to detect downstream dependencies which is also our data obeservability tool. Using [Monte carlo API](https://apidocs.getmontecarlo.com/) we detect directly connected downstream nodes of type `tableau-view`, `tableau-published-datasource-live`, `tableau-published-datasource-extract` using the [`GetTableLineage` GraphQL endpoint](https://apidocs.getmontecarlo.com/#query-getTableLineage).
+We leverage [Monte Carlo](/handbook/business-technology/data-team/platform/monte-carlo/) to detect downstream dependencies which is also our data obeservability tool. Using [Monte carlo API](https://apidocs.getmontecarlo.com/) we detect directly connected downstream nodes of type `tableau-view`, `tableau-published-datasource-live`, `tableau-published-datasource-extract` using the [`GetTableLineage` GraphQL endpoint](https://apidocs.getmontecarlo.com/#query-getTableLineage).
 
 If no dependencies are found for the model, then you would get an output in the CI jobs logs - `INFO:root:No dependencies returned for model <model_name>` and the job will be marked as successful.
 
@@ -376,13 +370,14 @@ This job adds/removes specified users and roles directly in Snowflake based on c
 Under the hood, this CI job is calling the python script [`orchestration/snowflake_provisioning_automation/provision_users/provision_user.py`](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/snowflake_provisioning_automation/provision_users/provision_users.py?ref_type=heads).
 
 These are the full list of CI job arguments, all are **OPTIONAL**:
+
 1. `IS_TEST_RUN`:
     - Defaults to `False`, but accepts `True`.
     - If True, will only **print** the `GRANT` sql statements, but will not run them.
-3. `USERS_TO_ADD`:
+1. `USERS_TO_ADD`:
     - Defaults to the usernames **added** to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads) within the MR.
     - To override, pass in a string value like so `USERS_TO_ADD: username_to_add1 username_to_add2`
-5. `IS_DEV_DB`:
+1. `IS_DEV_DB`:
     - Defaults to `False`, but accepts `True`.
     - If True, will create development databases for each username in `usernames_to_add`.
 
@@ -397,7 +392,7 @@ This job updates `roles.yml` automatically based on changes to `snowflake_users.
 
 - To add new user entries to `roles.yml`, add the new username(s) to [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads).
 - Likewise, to remove user entries from `roles.yml`, delete the username(s) from [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads).
-- If no optional arguments are passed into the CI job, it will run with the default arguments described in [Automating roles.yml: Common Templates](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#common-custom-templates) section of the handbook.
+- If no optional arguments are passed into the CI job, it will run with the default arguments described in [Automating roles.yml: Common Templates](/handbook/business-technology/data-team/platform/#common-custom-templates) section of the handbook.
 
 <details><summary>Further Explanation</summary>
 
@@ -406,6 +401,7 @@ This job updates `roles.yml` automatically based on changes to `snowflake_users.
 Under the hood, this CI job is calling the python script [`orchestration/snowflake_provisioning_automation/update_roles_yaml/update_roles_yaml.py`](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/snowflake_provisioning_automation/update_roles_yaml/update_roles_yaml.py?ref_type=heads).
 
 These are the full list of CI job arguments, all are **OPTIONAL**:
+
 1. `IS_TEST_RUN`:
     - Defaults to `False`, but accepts `True`.
     - If True, will only **print** what values will be added to `roles.yml`
@@ -416,11 +412,11 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
     - Defaults to the usernames **removed** from [`snowflake_users.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/permissions/snowflake/snowflake_users.yml?ref_type=heads) within the MR.
     - To override, pass in a string value like so `USERS_TO_REMOVE: username_to_remove1 username_to_remove2`
 1. `DATABASES_TEMPLATE`:
-    - Defaults to None, but accepts any JSON string, see this ['Databases' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#databases) for more details/examples.
+    - Defaults to None, but accepts any JSON string, see this ['Databases' handbook section](/handbook/business-technology/data-team/platform/#databases) for more details/examples.
 1. `ROLES_TEMPLATE`:
-    - Defaults to 'SNOWFLAKE_ANALYST' role and 'DEV_XS' warehouse, but accepts any JSON string, see this ['Roles' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#roles) for more details/examples.
+    - Defaults to 'SNOWFLAKE_ANALYST' role and 'DEV_XS' warehouse, but accepts any JSON string, see this ['Roles' handbook section](/handbook/business-technology/data-team/platform/#roles) for more details/examples.
 1. `USERS_TEMPLATE`:
-    - Defaults to the standard user entry, see ['Users' handbook section](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/#users) for more details/examples. This value can be overriden with any JSON string, but should not be necessary.
+    - Defaults to the standard user entry, see ['Users' handbook section](/handbook/business-technology/data-team/platform/#users) for more details/examples. This value can be overriden with any JSON string, but should not be necessary.
 
 Note: `USERS_TO_REMOVE` argument is not available because all deactivated users will be removed in Snowflake via separate airflow job.
 </details>
@@ -433,8 +429,7 @@ These jobs are defined in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-data/anal
 
 Runs automatically when MR is merged or closed. Do not run manually.
 
-
-# Data Test Pipelines
+## Data Test Pipelines
 
 All the below run against the Prod DB using the changes provided in the repo. No cloning is needed to run the below.
 

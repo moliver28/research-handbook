@@ -52,7 +52,7 @@ alert)_
 1. Add appropriate label using the below guideline
     - `~"Analytics Instrumentation::Incident-High Severity"` for impending loss of data for many metrics or moderate to severe loss in business critical metrics that have a performance_indicator_type value.
     - `~"Analytics Instrumentation::Incident-Medium Severity"` for data delay.
-    - Add an appropriate bug severity as per the [definition](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
+    - Add an appropriate bug severity as per the [definition](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity)
     - For cases when there is minimal impact on data and manual steps or correction is needed, please raise a bug rather than an incident.
 1. Assign the issue to [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members).
 1. Post in the [#g_analyze_analytics_instrumentation](https://gitlab.slack.com/archives/CL3A7GFPF) slack channel and tag [Analytics Instrumentation Group PM and EM](/handbook/engineering/development/analytics/analytics-instrumentation/#team-members).

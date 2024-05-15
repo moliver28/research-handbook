@@ -37,7 +37,6 @@ Contractors of GitLab IT BV are eligible for the [general benefits]({{< ref "ben
 
 Our contractor agreements and employment contracts are all on the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) page in the internal handbook.
 
-
 ## Spending Company Money
 
 GitLab will [pay for the items you need to get your job done](https://about.gitlab.com/handbook/spending-company-money).
@@ -59,6 +58,7 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
 ## Discount Wellbeing Platform
 
 Starting 2024, GitLab has partnered with HealthKick, a global wellbeing platform providing Team Members discounts across wellbeing, fitness, & overall lifestyle offerings/services.
+
 - *This program is offered at no cost for team members.
 
 We know that whole-person wellness is important for feeling good. That’s why we are offering all employees access to HealthKick (at no-cost), a personal wellness membership dedicated to helping you feel your best. When you enroll you’ll gain access to an array of 250+ brands, content and expert resources that will help you optimize your well-being. From fitness classes and personalized workout plans to nutrition workshops and mental health resources.
@@ -98,6 +98,7 @@ For more information and compilations of our past events check out our [previous
 In an emergency, International SOS (ISOS) can provide quick medical, safety, and security assistance and services to team members on business travel around the globe.
 
 Your coverage as a GitLab team member is automatic and is year-round. There are several ways to interact with ISOS, depending on your preference:
+
 - Team members can download the [ISOS emergency app](https://my.internationalsos.com/LP=8890?_ga=2.54701099.1827787566.1652889843-59998074.1652889840) — it's the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address.
     - Please use a unique password and not the same as your existing GitLab credentials.
     - Note that this is not a GitLab application and is managed by ISOS. You can read more about the app [here](https://internationalsos.com/subscriber/assistance-app).
@@ -132,7 +133,6 @@ GitLab offers benefits in relation to [obtaining visas and work permits](/handbo
 ## Employee Assistance Program
 
 GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}).
-
 
 ## Incentives
 

@@ -231,7 +231,6 @@ The above indicates a change was made to CertManager configuration between revis
 
 If the YAML files are not present, it is likely that kubeSOS was not run against the correct *namespace* or *release*, `helm list -A` will show all helm deployed releases. Be sure to run `kubeSOS.sh` with the appropriate `-n <namespace>` and `-r <release>` options.
 
-
 ### Application logs
 
 Finally, `kubeSOS.sh` generates all the application logs which can be used to debug specific application issues.

@@ -35,7 +35,7 @@ At the highest level, TD Marketing Key Dashboards are intended to provide insigh
 
 | **Function** | **Dashboard** | **Platform**  | **Access Type** | **Description** |
 |:--------------|:---------------|:---------------|:-----------------|:-----------------|
-| Integrated Marketing | [TD - Campaign Performance](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/Overview?:iid=4) | Tableau | General | The source of truth dashboard for marketing campaign performance. It is a single pane of glass view for tracking campaign performance from an Inquiry to a closed won SAO. More detailed infomation is [available on its handbook page.](https://handbook.gitlab.com/handbook/marketing/strategy-performance/dashboards/td-campaign-performance/) |
+| Integrated Marketing | [TD - Campaign Performance](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/Overview?:iid=4) | Tableau | General | The source of truth dashboard for marketing campaign performance. It is a single pane of glass view for tracking campaign performance from an Inquiry to a closed won SAO. More detailed infomation is [available on its handbook page.](/handbook/marketing/strategy-performance/dashboards/td-campaign-performance/) |
 | SalesDev  | [Sales Dev Analytics Hub](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview) | Tableau | SAFE | A management-level view of overall SDR performance by a number of key metrics.                                                                                             |
 | Partner Marketing    | [Partner Marketing](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerSourcedOpps?:iid=1) | Tableau | SAFE  | A view of partner sources opportunities, partner sourced persons and the partner trial program. |
 | Digital Experience   | [GitLab - Digital Experience](https://lookerstudio.google.com/reporting/c47c1759-6d08-4f9b-aae3-3f6b4a3f8d0e/page/PUsnC) | Looker Studio | General | Visualized metrics in regards to traffic, engagements, and top-of-funnel web conversions for about.gitlab.com from Google Analytics.                                       |
@@ -45,7 +45,7 @@ At the highest level, TD Marketing Key Dashboards are intended to provide insigh
 
 #### When to use TD - Campaign Performance vs Marketing Influenced Pipeline
 
-While our Campaign Performance and Marketing Influenced Pipeline dashboards display similar data, they serve different purposes. The Campaign Performance dashboard is a live view of our campaign data as it exists in our marketing tools (SFDC, Marketo, Marketo Measure) today. It gives the best view into a campaign's near real-time performance. 
+While our Campaign Performance and Marketing Influenced Pipeline dashboards display similar data, they serve different purposes. The Campaign Performance dashboard is a live view of our campaign data as it exists in our marketing tools (SFDC, Marketo, Marketo Measure) today. It gives the best view into a campaign's near real-time performance.
 
 The Marketing Influenced Pipeline dashboard uses snapshots of our [Adobe Marketo Measure](/handbook/marketing/marketing-operations/bizible/) and Opportunity data taken on the last day of the fiscal quarter. Snapshotting ensures the total amount of marketing influenced across our marketing campaigns credited to opportunities can not change as the live data is updated. Meaning GitLab has an unchanging record of of marketing influence that we use to compare quarters without worrying that values have changed over time.
 
@@ -54,7 +54,7 @@ The Campaign Performance dashboard is better suited for reporting where close to
 
 ## Dashboard Development and Publishing Stages
 
-MS&A uses the stages listed below to denote a dashboard's stage. 
+MS&A uses the stages listed below to denote a dashboard's stage.
 Ad-Hoc dashboards do not have a stage.
 
 - Work in Progress (WIP) - Active development is still ongoing. Metrics, design, and location may change at any time. During this stage, we work with stakeholders to create an end product that meets their needs.

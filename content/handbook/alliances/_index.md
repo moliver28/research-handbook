@@ -5,25 +5,20 @@ title: GitLab Alliances Handbook
 
 **We invite organizations interested in becoming a GitLab Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
 
-
 ## Alliance Mission
 
 _**“To go fast, go alone. To go far, go together.”** - Proverb_
 
 At GitLab, we collaborate with well-respected, industry-leading [cloud, platform and technology providers](https://about.gitlab.com/partners/technology-partners/) across all major industries to deliver the best curated modern devops platform.  Our partners are a critical element of GitLab’s mission: **to enable our customers with modern software-driven experiences, and to ensure “Everyone Can Contribute” through a robust and thriving partner ecosystem that cultivates innovation and stimulates transformation.** Together, we can help enterprises lead the digital transformation necessary to compete effectively in the market today.
 
-
 The commitment to helping customers and partners succeed - how we contribute our time, technology and know-how to improve the communities where we work and live and grow our business - is a journey that is transparent, ethical and honorable.  We demand high performance and high standards from ourselves and our partners.
-
 
 We look forward to working with you - to build and deliver the solutions that delight customers.
 
 
 <i>GitLab Team Members: Please visit the internal* [Alliance Handbook Page](https://internal.gitlab.com/handbook/alliances/)</i> for additional information.
 
-
 ## Alliance Partner Program
-
 
 We are firm believers that partnership is the foundation from which collaboration and innovation is built upon. As a GitLab Alliance Partner, you’ll have access to the resources, tools, and support you need to accelerate business growth providing greater customer value through solution offerings that are integrated and interoperable with GitLab.
 

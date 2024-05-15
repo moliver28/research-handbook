@@ -70,7 +70,7 @@ Let's take look at a simplified violation scenario with different traffic
 patterns:
 
 | Endpoint   | Total requests | Slow requests | Apdex ratio | Traffic share |
-|------------|----------------|-----------------------------|---------------|
+|------------|----------------|---------------|-------------|---------------|
 | Endpoint A | 1 000          | 500           | 50%         | 1%            |
 | Endpoint B | 99 000         | 9 000         | 90%         | 99%           |
 

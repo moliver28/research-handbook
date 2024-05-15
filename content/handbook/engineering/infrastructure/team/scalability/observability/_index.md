@@ -71,6 +71,13 @@ Between these different signals, we have a relatively (im)precise view into the 
 
 [service maturity model]: /handbook/engineering/infrastructure/service-maturity-model/
 
+### Provisioned Services
+
+The team are responsible for provisioning access to the services listed below, as per the [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) file.
+
+1. **Kibana** is accessed through Okta. Team members need to be in either of the following Okta groups: `gl-engineering` (entire Engineering department); `okta-kibana-users`. The latter group is used to manage access for team members outside of Engineering on an ad-hoc basis ([context](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/958)). Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28421)). If the access request is approved, the provisioner should add the user to [this group](https://groups.google.com/a/gitlab.com/g/okta-kibana-users), which will then automatically sync to its namesake group in Okta.
+1. **Elastic Cloud** is for administrative access to our Elastic stack. The login screen is available [here](https://cloud.elastic.co/) and access is through Google SSO. Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28457)). If approved, the provisioner can add/remove members on the [membership page](https://cloud.elastic.co/account/members) with appropriate permissions. 
+
 ## How we work
 
 We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work). In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Scalability:Observability.

@@ -38,7 +38,7 @@ The blog editor will review the pitch and either a) greenlight the post, b) offe
 
 ### External contributions
 
-**Note:** GitLab does not accept unsolicited blog submissions. If you are a GitLab partner or community member and would like to pitch a blog post idea for consideration, please [email sgittlen@gitlab.com](mailto:sgittlen@gitlab.com). Please DO NOT SEND drafts of your blogs with your pitch.
+**Note:** GitLab does not accept unsolicited blog submissions. If you are a GitLab partner and would like to pitch a blog post idea for consideration, please [email sgittlen@gitlab.com](mailto:sgittlen@gitlab.com). If you are a GitLab community member and would like to pitch a blog post idea for consideration, please [email contributors@gitlab.com](mailto:contributors@gitlab.com). Please DO NOT SEND drafts of your blogs with your pitch.
 
 Pitch ideas must be relevant to the GitLab Blog and our readers and include the following information:
 * What will your blog be about? Please be as specific as possible.

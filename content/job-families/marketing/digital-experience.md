@@ -174,7 +174,6 @@ The Director, Digital Experience is a [grade 10](/handbook/total-rewards/compens
 - Site optimization metrics, e.g. Mobile vs. desktop performance for searchability
 - Conversion rates, lead quality
 
-
 ## Career Ladder
 
 The Digital Experience Management job family career ladder is yet to be defined.
@@ -190,6 +189,5 @@ The Digital Experience Management job family career ladder is yet to be defined.
 - Candidates will be invited to schedule an interview with the Director, Digital Strategy
 - Candidates will be invited to schedule an interview with the Marketing - Director, People Business Partner
 - Candidates will be invited to schedule an interview with the Chief Marketing Officer
-
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).

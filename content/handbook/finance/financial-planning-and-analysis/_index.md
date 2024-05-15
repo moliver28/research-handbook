@@ -31,6 +31,7 @@ Maximize GitLab's long-term valuation by enabling eGroup and FP&A to plan, prior
 ## Our team
 
 FP&A comprises five different sub-teams to support our FP&A goals:
+
 - [Corporate FP&A]({{< ref "./corporate-finance" >}})
 - [Sales Finance]({{< ref "./sales-finance" >}})
 - [Marketing]({{< ref "./marketing-finance" >}})
@@ -150,13 +151,12 @@ The following are inputs in the LRO refresh and subsequent LRO updates:
 
 The Corporate Finance team leads the LRO refresh and updates in collaboration with: eGroup members to determine key investments, capabilities, and dependencies; GTM Finance team for sales productivity/capacity models, CTB, and bookings attainment; G&A Finance team for total rewards strategy, benefit assumptions; and the R&D Finance team to help inform on allocations, hosting/infrastructure expenses.
 
-
-
 ## Business Planning
 
 #### Business Planning Goal
 
 For GitLab’s top growth drivers and new products, drive and document alignment between contributors to success. Writing a business plan drives clarity of thought and operations. Agree on governance models to manage initiative success and cross-functional accountability. At a minimum, each business plan should cover:
+
  - Explain what an initiative is, why we should be focused on it.
  - Identify how each function will support its success, what are dependencies & risks.
  - Identify how we measure success, e.g. pipeline or bookings goals.
@@ -191,7 +191,6 @@ For GitLab’s top growth drivers and new products, drive and document alignment
 - On a defined cadence (quarterly or other), review P&L impact vs. plan
 - Each quarter, refine success goals/metrics based on learnings to iterate on plan of record
 
-
 ## Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance)
 
 GitLab’s FP&A team participates in a rigorous monthly close process.
@@ -215,7 +214,6 @@ GitLab’s FP&A team participates in a rigorous monthly close process.
 - **What**: Forecast is a dynamic assessment based on current expectations of financial performance. The FP&A team will publish a monthly forecast for revenue driven by bookings and other key inputs and expenses driven by headcount and vendor spend. A monthly forecast does not extend the forecast period. For example in March 2020, the forecast will span from February 2020 to January 2021 with February actuals and a forecast for the period March 2020 to January 2021 — this will be called the (1+11) forecast.
 - **Governance**: The Forecast at `FYyyyy-mm` is approved by the Head of FP&A and reviewed with the CFO.
 - Note: Prior to locking and archiving any version in Adaptive, Corporate FP&A will update the FX rates in Adaptive using [Google Finance FX Rates](https://docs.google.com/spreadsheets/d/1ksPKt2TN2WGu1uFVkSb6fSkMmNHJdL-ZFZmfgT-ePEg/edit#gid=0).
-
 
 ##### Forecast at `FYyy-Qx`
 
@@ -359,6 +357,7 @@ Financial Planning & Analysis (FP&A) team is the owner of SSOT for GitLab’s **
 ### Position ID (PID)
 
 Position ID is a unique identifier and is the link between approved headcount and the Hiring Plan
+
 - Each position is approved and allows TA to open a role for the business
 - Positions are all approved headcount in the Hiring Plan.
    - All approved headcount includes Active, Planned and Backfill positions
@@ -404,7 +403,6 @@ Position ID is a unique identifier and is the link between approved headcount an
    - Hiring Plan with both BPs and TA through live interlock sheets and release GHPIDs
    - TA partners will contact HMs and open a requisition in Greenhouse after GHPIDs are released
 
-
 ### Role Approval and Release Process
 
 #### Process Overview
@@ -430,6 +428,7 @@ FP&A and TA discussed and agreed upon the above process. This SSOT process ensur
 #### Planned Positions
 
 Planned Positions include all Net New positions to existing GitLab active employees.
+
 1. Hiring Plan Approval of any Planned Positions are from:
    - Annual Operating Plan (AOP) cycle
    - RLoA cycle for any incremental roles through the year
@@ -442,6 +441,7 @@ Planned Positions include all Net New positions to existing GitLab active employ
 #### Backfill Positions
 
 Backfill Positions include all positions created due to departure or termination of an existing employee.
+
 1. Hiring Plan Approval of any Backfill Positions
    - While GitLab strongly believes that a HM should be able to backfill each role upon termination and/or departure, HM should check with his/her leadership to discuss and decide whether there are changes to the backfill role
       - If changes are approved by leadership, please work with your FBPs to update details of the backfill positions.
@@ -468,6 +468,7 @@ Both PID and GHPID are created and maintained by FP&A team as unique identifiers
 All PIDs are created by the Corporate FP&A team and are tied to Headcount Forecast (including Hiring Plan)
 
 FP&A Position IDs increase visibility and accuracy for headcount forecasting (count and dollars) and simplify & provide transparency on modeled headcount (attrition and backfill).
+
    - PID is an unique identifier for positions assigned by Corporate to **all** positions in Hiring Plan
    - Add/remove/exchange positions requires FBP approval via existing process, e.g. RLOA or rolling forecast and submit change request Google Form [here](https://docs.google.com/forms/d/e/1FAIpQLSeHS97lg1Fz_SIQTisg-TOPHsXf6QMGw6vXfuEDkB_GY8pKfA/viewform)
    - Positions reconciled regularly, e.g. monthly before each rolling forecast lock
@@ -477,6 +478,7 @@ FP&A Position IDs increase visibility and accuracy for headcount forecasting (co
 #### Creating GHPID
 
 All GHPIDs are system-generated by a FP&A internal Google Sheet
+
    - Google Sheet GHPID generator is maintained and audited by Corporate FP&A weekly
       - FBPs will refer to GHPID generator and assign GHPIDs to all approved positions
       - **Future State:** Corporate will migrate GHPID generator to Workday (pending on Workday/Adaptive integration and Workday Position Management)
@@ -492,6 +494,7 @@ All GHPIDs are system-generated by a FP&A internal Google Sheet
 ### Maintaining Hiring Plan
 
 FP&A team is the owner and maintainer of SSOT for GitLab’s Hiring Plan
+
 1. Objective of this control is to ensure completeness, accuracy, and consistency of Hiring Plan
    - **Completeness**: all approved positions are assigned with PIDs and GHPIDs
    - **Accuracy**: no PID and GHPID is assigned to duplicated or deprecated positions
@@ -553,6 +556,7 @@ The inputs loaded into Adaptive are then used to provide the CFO a weekly P&L sn
 A manual on how to update and maintain Adaptive integration can be found [here](https://docs.google.com/document/d/11BytV1SWBcqkA6JdCDA3iS33uVlUgNSs9nAjBjhY84M/edit). This document is maintained by the Corporate FP&A team.
 
 Adaptive Quarterly Roadmap
+
 - The current Adaptive roadmap can be found [here](https://docs.google.com/spreadsheets/d/1vfJHmKmLJo2vSkOnN_pKh7cXh--IdE5CiQIy6X2JQKc/edit#gid=0)
 - We expect to transition roadmap and requests into GitLab issues by Q2-FY23.
 - Corporate FP&A will host Adaptive intake sessions with the larger FP&A team to intake, align and prioritize current and future projects.
@@ -613,4 +617,3 @@ Adaptive Quarterly Roadmap
 - **Week of 2024-05-20:** At eGroup Meeting, CFO shares proposal for formal approval and inclusion into investor guidance
    - Corporate FP&A updates this section of the Handbook page with the timeline for the next RLOA cycle
    - After formal approvals, business, FP&A, and TA collaborate to execute on RLOA approved asks
-

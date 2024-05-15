@@ -162,14 +162,14 @@ Below we also have some commonly referenced pages:
 
 GitLab Support’s vision is to deliver a consistent, "delightful" experience to our customers. Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about while continuing to strengthen and scale the team.
 
-The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company’s overall [strategic objectives](https://handbook.gitlab.com/handbook/company/strategy/), specific areas of focus are:
+The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company’s overall [strategic objectives](/handbook/company/strategy/), specific areas of focus are:
 
 - [Our ability to achieve business aligned results for our customers](#improving-our-ability-to-achieve-results-for-our-customers)
 - [How our team structure supports that ability](#team-structure-and-how-it-supports-our-ability-to-achieve-results)
 - [Maintaining and augmenting the culture of our team](#team-culture-and-how-it-supports-our-ability-to-achieve-results)
 - [Delighting our customers](#delight-our-customers)
 
-While our [publicly visible OKR page](https://handbook.gitlab.com/handbook/company/okrs/) and [Key Performance Indicators](https://handbook.gitlab.com/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY25.
+While our [publicly visible OKR page](/handbook/company/okrs/) and [Key Performance Indicators](/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY25.
 
 ### Improving our ability to achieve results for our customers
 
@@ -254,8 +254,6 @@ Where we want to ensure that important messages are passed to the global support
 
 #### Groups
 
-
-
 We use the following GitLab Groups to notify or add support team members to issues and merge requests on
 GitLab.com.
 
@@ -275,8 +273,6 @@ GitLab.com.
 | [@gitlab-com/support/managers/emea](https://gitlab.com/groups/gitlab-com/support/managers/emea-managers/-/group_members?with_inherited_permissions=exclude&sort=recent_last_activity) | All EMEA support managers |
 
 #### Projects
-
-
 
 Our team projects and issue trackers can be found in the [Support parent group](https://gitlab.com/gitlab-com/support). Here are some selected projects
 which are relevant to team communications.
@@ -316,21 +312,15 @@ issue trackers or customer tickets.
 
 #### spt_vs. support_ prefix
 
-
-
 When naming channels, "spt" is meant for internal channels, meaning those that will be of use to the Support Team mainly. They should be public so others may join if they choose. If a channel has a "support" prefix, it is meant as a public interface where other teams will interact with the Support Team.
 
 The "spt_gg_" prefix is used for [Support Global Groups](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3879) internal channels.
 
 #### Daily Stand-up bot
 
-
-
 The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot) Daily Stand-up posts at the commencement of each region's [Support Hours](https://about.gitlab.com/support/#definitions-of-gitlab-global-support-hours) regularly, in a number of channels to advise global groups of different information. For further details of the different variations, please refer to the SGG handbook page of the group you are curious about.
 
 #### Channels
-
-
 
 | Channel | Purpose |
 | ------- | ------- |
@@ -346,8 +336,6 @@ The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-sof
 | [#spt_us-federal](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
 
 ##### Private Channels
-
-
 
 At GitLab we are to be [public by default](/handbook/communication/confidentiality-levels/#not-public) unless there is a valid reason for it to not be public. While Slack
 is not public, the spirit of opening up discussions so that *everyone can contribute* means that private channels should be kept to a minimum.

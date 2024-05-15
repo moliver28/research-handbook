@@ -80,6 +80,7 @@ Where possible, a group of Communications Champions, made up of global team memb
 ### Communications Champion cohorts
 
 We’ll introduce two cohorts for FY25:
+
 1. All-company cohort: 10 team members who review all-company changes/messaging; this group consists of global team members at all levels.
 1. People manager cohort: 7-10 team members who reviews people-manager specific changes/messaging; this group consists of global people managers.
 
@@ -91,6 +92,7 @@ We’ll engage bi-weekly with planned or urgent information seeking.
 
 We’ll create a net-new slack channel for each group:
 Naming convention: #comms-champions-fy25-a
+
 - a is FY25 Q1/Q2 all-company
 - b is FY25 Q1/Q2 people manager
 - c is FY25 Q3/Q4 all-company
@@ -99,7 +101,6 @@ Naming convention: #comms-champions-fy25-a
 ### Nominations and selection
 
 People managers will nominate team members through a google form. After nominations, PBPs will review the list to ensure all are in good standing and collaborate on potential participants. People Comms & Engagement will make final selections.
-
 
 ## Determining Which Communication Forum To Use
 
@@ -285,7 +286,6 @@ Add Values emoji reactions to thank you messages in the [`#thanks` slack channel
 or feel free to use them in GitLab.com, other slack channels and
 social media, when you see alignment to our values: [GitLab's values](/handbook/values/).
 
-
 | Emoji                        | Custom tanuki emoji      | Meaning                           |
 | ---------------------------- | ------------------------ | --------------------------------- |
 | `:handshake:`                | `:collaboration-tanuki:` | Collaboration                     |
@@ -364,7 +364,7 @@ Some merge requests that involve a big decision or change tend to collect a larg
 ```text
 ### Manager Mention MR
 
-This MR is a [Manager Mention MR](https://handbook.gitlab.com/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Contributors should tag their manager when adding a comment. If managers are tagged they should either respond to the question or summarize and tag their manager.
+This MR is a [Manager Mention MR](/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Contributors should tag their manager when adding a comment. If managers are tagged they should either respond to the question or summarize and tag their manager.
 ```
 
 Additionally, add the `~"Manager Mention MR"` label to the merge request. This will make future analytics on Manager Mention merge requests more easily identifiable. It also enables managers to subscribe to the label to be notified when an MR has elected the Manager Mention MR designation.
@@ -551,7 +551,7 @@ Consider the following best practice when taking notes in meetings:
 
 1. If at the start of the meeting, it does not look like all team members will contribute to note-taking, identify a set of note-takers who will be responsible for this activity within the meeting
 1. Note-taking can be a lot for a single person to stay on top of--especially when there is a fast moving conversation with many speakers. Team members should still feel empowered to contribute by helping with notes as needed, even if there is someone assigned.
-   - Another good reference is the CEO Shadow [handbook page tips section](https://handbook.gitlab.com/handbook/ceo/shadow/#taking-notes:~:text=in%20a%20meeting.-,Tips,-%3A), specifically `It’s helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
+   - Another good reference is the CEO Shadow [handbook page tips section](/handbook/ceo/shadow/#taking-notes:~:text=in%20a%20meeting.-,Tips,-%3A), specifically `It’s helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
 1. Ask others to scribe answers in real-time to allow the person who asked the question to focus on the answer. Touch up the answer when the conversation has moved on to something less relevant.
 1. It can be hard to keep up with the dialog and capture quality notes when there's fast back and forth conversation. Lead by example and write when you're not talking, expect others will write when you're talking.
 1. Focus on noting speakers and their key points over capturing all words said. Extensive note-taking should not happen at the expense of correct note-taking.
@@ -697,6 +697,7 @@ name them after the topic, appended with a session number based on the order the
 Team members will see the meeting invites in their email or calendar in relation to their local time zone and can decide for themselves which session to attend, based on their working hours.
 
 Avoid:
+
 - Terms like `friendly` or `early` / `late`, as these terms are overly subjective.
   An early meeting for one team member might seem late for someone in a different time zone.
   Or a west coast AMER meeting might seem "APAC friendly", but not to someone in western APAC who is still asleep when the meeting starts.
@@ -776,7 +777,6 @@ On the other hand, not every part of a meeting is relevant, but it can sometimes
 If you only have one discussion point, if possible, try to reorder the meeting agenda to have your point first and then drop from the call.
 If you get asked a question when you're not paying attention, it is an okay use of time to repeat a question every now and then.
 If training is required for one's role, team members should plan to give the training full attention--especially if engagement in discussions or breakout rooms is required. If training is 'nice to learn' or 'optional' for team members, multi-tasking can be done at the team members discretion.
-
 
 We don't use the first 15 minutes of a meeting to read the materials like they [do at Amazon](https://www.forbes.com/sites/carminegallo/2019/06/18/how-the-first-15-minutes-of-amazons-leadership-meetings-sparks-great-ideas-and-better-conversations/#6be165bd54ca). You can use the start of a meeting to review the materials for the meeting if you need to, given you do not have to be paying attention, but that should not delay the start of the meeting for the people that already have questions based on the materials. [Meetings start on time at GitLab.](/handbook/communication/#scheduling-meetings)
 
@@ -880,7 +880,6 @@ This aligns with how we work since everything at GitLab is [public by default](/
 
 GitLab has a specific process to follow in crisis situations to ensure effective communications. Details can be found in the [internal handbook](https://internal.gitlab.com/handbook/company/daily-sync-escalation-process/).
 
-
 ## Presentations
 
 1. All presentations are made in Google Slides using [our templates](/handbook/tools-and-tips/#updating-your-existing-slide-deck-theme).
@@ -913,7 +912,7 @@ Watch the replay below:
 
 ## Writing style guidelines
 
-As you're creating external or business content for GitLab, please refer to the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/). For technical content, you can reference [this word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
+As you're creating external or business content for GitLab, please refer to the [GitLab Content Style Guide](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/). For technical content, you can reference [this word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html).
 
 This list offers additional guidance for written communication at GitLab:
 
@@ -943,10 +942,9 @@ This list offers additional guidance for written communication at GitLab:
 1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
 1. If you don't know the meaning of an acronym, ask. It's always ok to [speak up](/handbook/values/#share).
 
-
 ### Communicating dates and time
 
-1. For external content, refer to the guidance in the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#dates-and-times).
+1. For external content, refer to the guidance in the [GitLab Content Style Guide](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#dates-and-times).
 1. {: #iso-dates} For internal content, use ISO dates: `yyyy-mm-dd`
 1. For months, use `yyyy-mm`, so 2018-01 for January.
 1. Refer to a year with CY18 (never with 2018) and a quarter with CY18-Q1 to prevent confusion with fiscal years and quarters. If the year is obvious from the context it is OK to use Dec 4, but not 12/4.
@@ -955,7 +953,7 @@ This list offers additional guidance for written communication at GitLab:
    1. "Q1" = the first quarter of the current Fiscal Year, so on Feb 1, 2020, "Q1" is the period from Feb. 1, 2020 through April 30, 2020. Note that Epics in GitLab follow Calendar Years and Quarters.
    1. When referring to a quarter in a future or past year, combine the two above: "FY21-Q1"
    1. When financial data is presented, include a note to indicate fiscal year (e.g. "Fiscal Year ending January, 31 'yy")
-1. For time formatting guidelines, refer to the [GitLab Content Style Guide](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#time-formatting).
+1. For time formatting guidelines, refer to the [GitLab Content Style Guide](/handbook/marketing/brand-and-product-marketing/brand/content-style-guide/#time-formatting).
 1. Please remember that not everyone is working in the same timezone; what may be morning for you is evening for someone else. Try to say 3 hours ago or 4 hours from now, or use a timestamp, including a timezone reference.
 1. Don't use "EOD" or "end of day" ("COB" or "close of business", "EOB" or "end of business"), unless you are okay with a deliverable being due at the end of [anywhere on earth](https://en.wikipedia.org/wiki/Anywhere_on_Earth#:~:text=World%20map%20of%20time%20zones,it%20ends%20on%20Howland%20Island). Team members communicate across timezones, where "end of day" does not specify the exact date and time. When you want something due at a specific time, [communicate the date and time](/handbook/communication/#communicating-dates-and-time) by when the request should be done, for example: `Please review before 2023-06-10 5PM PT`.
 
@@ -1106,7 +1104,6 @@ Note to table contributors:
 ### Avoid using Git in Project Names
 
 Avoid using *Git* in the naming of internal and external company related programs (BagGit, GitFit, Gitty, GitIt, etc.). Referencing Git creates an inaccurate perception that GitLab has a narrow focus. While GitLab started as a source control platform, it has become [The DevOps Platform](https://about.gitlab.com/solutions/devops-platform/).
-
 
 ## Email
 

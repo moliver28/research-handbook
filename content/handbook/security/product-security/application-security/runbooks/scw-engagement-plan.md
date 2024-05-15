@@ -7,6 +7,7 @@ title: "AppSec's Engagement Plan and Ways to Measure Usage of Secure Code Warrio
 If anyone from the AppSec team is interested in contributing to the Secure Code Warrior (SCW) training program and you don't have access to the [Secure Code Warrior training portal](https://portal.securecodewarrior.com/), please post a comment in the `#sec-appsec` Slack channel requesting access.
 
 Once you have access to the Secure Code Warrior training portal, please do the following:
+
 - Join the `#security-secure-code-warrior` Slack channel
 - Watch [Secure Code Warrior platform walkthrough](https://www.youtube.com/watch?v=IwTJ-DOqmXQ) for a quick overview of the platform
 - Please read through SCW's documentation on [Getting Started](https://help.securecodewarrior.com/hc/en-us/categories/360001975872-Getting-Started)

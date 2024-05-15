@@ -162,7 +162,6 @@ All mentee impacts trended upwards post program, with the greatest impact being 
 
 **Summary:** The experience of a mentee has an overall favorable rating, and positively impacts mentees knowledge of growth resources, support network, and personal vision.
 
-
 **Mentor Results**
 
 Both mentor impacts trended sligntly downward. Survey participation went from 91% to 67% pre to post.
@@ -173,7 +172,6 @@ Both mentor impacts trended sligntly downward. Survey participation went from 91
 | I am confident in my ability to support others towards achieving their goals. | Favorable, -2 |
 
 **Summary:** The experience of a mentor has an overall favorable rating, with negligible impact on mentors relationships outside their department and confidence in supporting others towards their goals.
-
 
 ### 2022
 

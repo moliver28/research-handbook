@@ -108,6 +108,7 @@ Only after a GitLab [security release](https://about.gitlab.com/handbook/enginee
 This information will be communicated via Slack and the weekly engineering sync with JiHu.
 
 For security vulnerabilities introduced by JiHu contributions, the GitLab Application Security team will share mitigation steps as long as they do not disclose vulnerability details or information that could result in the discovery of vulnerability details.
+
 - If such mitigation steps exist, the GitLab Application Security team will notify JiHu by creating a confidential issue in the JiHu enablement project with the mitigation steps.
 - If no mitigation steps exist, the vulnerability will be disclosed as per GitLab's regular security vulnerability disclosure process.
 

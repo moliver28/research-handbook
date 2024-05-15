@@ -134,7 +134,7 @@ Switchboard team process to refine issues:
 
 1. Engineers use Progress Threads to share progress in an async fashion
 1. At the beginning of the Switchboard Sync the team will check in on epics labelled ~"workflow-infra::In Progress" or ~"workflow-infra::Triage" to ensure due dates are appropriate and highlight any blockers
-1. Epic DRIs update the status in the Epic Description every Wednesday in preparation for the [Grand Review](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review)
+1. Epic DRIs update the status in the Epic Description every Wednesday in preparation for the [Grand Review](/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review)
 1. Epic DRIs review the due date weekly. The epic status update should include the DRI's confidence level in the due date and any risks to delivery
 
 #### Picking up work / What to work on next

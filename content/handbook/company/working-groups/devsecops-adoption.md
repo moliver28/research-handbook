@@ -39,4 +39,3 @@ One fiscal quarter (purchase date) with 90% of DevSecOps customers adopting with
 | Member                | Brian Mason           | Product Marketing Manager |
 | Member                | Jeff Beaumont         | Sr Director CS Operations |
 | Member.              | Klaudia Magda           | Sr Data Scientist |
-

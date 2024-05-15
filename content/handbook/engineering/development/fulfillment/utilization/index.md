@@ -67,10 +67,10 @@ An example template to use in these updates looks like:
 * **% Complete**: X% (Y weight closed / Z total weight)
 * **Blockers**: None
 * **Accomplishments**:
-  * 3 MRs created 
+  * 3 MRs created
   * 1 issue closed
 
-cc/ @alex_martin @csouthard 
+cc/ @alex_martin @csouthard
 ```
 
 Initially we are using the following formula for `% Complete`, rounded down to the nearest multiple of 5:
@@ -555,5 +555,5 @@ a typical DRI.
 {{< /tableau >}}
 
 
-You can find more centralized engineering metrics at [this page](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/).
+You can find more centralized engineering metrics at [this page](/handbook/engineering/metrics/dashboards/).
 

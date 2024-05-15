@@ -116,4 +116,3 @@ Communications is part of our [acquisition process](/handbook/acquisitions/acqui
     1. Reach out to relevant analysts, if appropriate (analyst relations)
     1. Either port to Gitlab or deactivate acquired company’s social channels, depending on volume of followers (social team)
     1. Retro of announcement and process (corporate development team)
-

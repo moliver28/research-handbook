@@ -4,7 +4,6 @@ title: "IT Enterprise Applications Services Management"
 
 The IT Enterprise Services Job Family is responsible for optimal delivery of services provided by IT Enterprise Applications. The management job family is responsible for tracking, measuring and improving service delivery by managing the people running operations, defining success criterias and measuring key performance indicators to hold the team accountable to providing accurate and on-time results for Gitlab team members.
 
-
 ## Levels
 
 ### Manager, Enterprise Applications Services (Intermediate)
@@ -59,7 +58,6 @@ The Senior Manager, Enterprise Applications Services is a [grade 9](/handbook/to
 - Extends the Manager, Enterprise Applications Services requirements
 - 2+ years professional experience managing an IT Support team (Analyst, engineering or servicedesk)
 - Demonstrable PMP, Six Sigma, ITSM or ITIL knowledge (Certification a huge plus)
-
 
 #### Performance Indicators (PI)
 

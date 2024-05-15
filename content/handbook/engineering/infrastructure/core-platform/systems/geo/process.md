@@ -202,7 +202,7 @@ If any issue is weighted above a 3, we should ask ourselves if it can be further
 
 ### Bugs Process
 
-Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo` and `~"type::bug"` will be triaged. These issues are represented at a high-level in the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712). The current high-level state of each issue is indicated by its [`workflow` label](https://handbook.gitlab.com/handbook/product-development-flow/).
+Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo` and `~"type::bug"` will be triaged. These issues are represented at a high-level in the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712). The current high-level state of each issue is indicated by its [`workflow` label](/handbook/product-development-flow/).
 
 #### Bug Triage
 

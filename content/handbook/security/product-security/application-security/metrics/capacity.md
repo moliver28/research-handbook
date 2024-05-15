@@ -6,7 +6,6 @@ title: "Application Security - Capacity Indicators, Classifications, and Workflo
 
 AppSec manages [a wide range of tasks with a high volume of work](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team#team-capacity-planning-and-operational-work). This page outlines how we measure the team's capacity to ensure we can effectively handle current workloads and plan for future needs.
 
-
 ### What decisions does this data help us make?
 
 Collecting this data helps inform decisions involving the team's capacity and headcount needs.
@@ -46,7 +45,7 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::ToolingsAndMaintenance | Indicates the work was associated to our tools and automation |
 | AppSecWorkType::CrossTeamCollaboration | Indicates the work was associated to cross-team help/collaboration |
 | AppSecWorkType::TeamProjects | Indicates the work was associated to team projects |
-| AppSecWorkType::CriticalProjects | Indicates the work was associated to [critical projects](https://handbook.gitlab.com/handbook/security/critical-projects/) |
+| AppSecWorkType::CriticalProjects | Indicates the work was associated to [critical projects](/handbook/security/critical-projects/) |
 | AppSecWorkType::HackerAdmin | Indicates the work was associated to HackerOne administration |
 | AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
 

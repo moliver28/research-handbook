@@ -38,4 +38,3 @@ Achieve the business goals. Being a category leader is a multi-year effort and t
 | Functional Lead(s)    | Craig Mestel |
 | Member                | Harsh Jawharkar, Melissa Smolensky, Stella Treas, Mike Pyle, Monica Galleto |
 | Executive Stakeholder | Sid Sijbrandij |
-

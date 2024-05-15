@@ -307,7 +307,6 @@ You can take a look at the [internal time zones and interests document](https://
 {{% /card %}}
 {{% /cardpane %}}
 
-
 Some teams at GitLab organize informal social calls on a regular basis in order to build camaraderie.
 The [data team](/handbook/business-technology/data-team) has them every Tuesday.
 Team members and managers are encouraged to create these calls as a medium for informal, agenda-free interaction between team members.
