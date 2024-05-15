@@ -77,7 +77,7 @@ Overtime, if appropriate, _must be expressly and previously authorized in writin
 
 Team members will be expected to fill out a monthly timesheet at the end of each month. The timesheet template can be found [here](https://drive.google.com/drive/folders/1KFUjpX1T2EBLqsi2c6jauI7odIiu9WXF) and either the english or spanish version can be used.The timesheet must then be sent to the Non-US Payroll team via HelpLab (under the time-tracking category) before the 2nd of the following month. For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For more information please refer to the [timekeeping policies](/handbook/entity/iberia-srl-spain.md#timekeeping-policies).
 
-For new hires or any relocations, this information will be in the relevant onboarding or relocation issue.
+For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
 
 ## Spain-Specific Team Member Benefits
 
