@@ -5,10 +5,10 @@ title: "Employment Law at GitLab"
 Employment law refers to the law that governs the relationship between employer and employee, so the Employment section of GitLab Legal interacts with the People Group on a regular basis to provide information and legal advice related to the entire arc of our team members’ relationship with GitLab.  **So what does that mean?**
 
 
-- It means we work closely with the Tax and People Operations team to determine scalable employment solutions for the Company as it hires across the globe, using a collaborative process for gathering and assessing relevant information on any particular country.
+- It means we work closely with the Finance and People teams to determine scalable employment solutions for the Company as it hires across the globe, using a collaborative process for gathering and assessing relevant information on any particular country.
 - It means we support the Talent Acquisition department in meeting its goals and ensuring compliance with all local laws and regulations as they source, recruit, and hire new team members.
-- It means we help the People Operations team onboard new team members and get them the information they need that applies both to their location and to their job responsibilities.
-- It means we support the Total Rewards, People Operations, and People Success groups in developing policies that meet GitLab’s needs, our team members’ needs, and local requirements.
+- It means we help the People Connect team onboard new team members and get them the information they need that applies both to their location and to their job responsibilities.
+- It means we support the Total Rewards team, People Operations team, and People Business Partners in developing policies that meet GitLab’s needs, our team members’ needs, and local requirements.
 - It means we support our Team Member Relations team, People Business Partners, and Total Rewards as they manage team member relations, requests for [reasonable accommodation](/handbook/people-policies/inc-usa/#reasonable-accommodation) or adjustments, performance, promotions, transfers, and any other types of issues that pop up during the course of the relationship.
 - It means we support our Diversity, Inclusion, and Belonging team in ensuring that decisions across the entire arc of the relationship match our mission statement.
 - And it means we provide support when it comes to end of employment decisions,  offboarding, and any follow-up matters that can occur.
@@ -33,6 +33,7 @@ Below are some common employment topics where Legal is asked to provide input. T
 
 ## Before Hire
 
+Legal supports the Talent Acquisition team to develop sourcing processes, candidate tracking processes, and job posting processes that meet applicable compliance requirements.
 
 #### Talent Acquisition
 
@@ -48,7 +49,7 @@ Legal reviews overall background check policy and procedure in place, helps deve
 
 Legal should be asked to review negotiated contracts that seek to change standard terms.
 
- - Standard contract terms are audited on a semi-annual basis. A contract audit issue will be opened to review the terms and gather input from appropriate teams across the organization. These issues will be opened on January 1 for implementation on June 30 and on July 1 for implemenation on December 31. To suggest a change to an entity contract template, please leave a comment in the current contract audit issue found in the `People Operations` project and titled  Semi-Annual `Global Employment Contract Review YYYY-January or June`.
+ - Standard contract terms are audited on an annual basis. A contract audit issue will be opened to review the terms and gather input from appropriate teams across the organization. To suggest a change to an entity contract template, please leave a comment in the current contract audit issue found in the `People Operations` project and titled  Semi-Annual `Global Employment Contract Review YYYY-January or June`.
 
 
 #### Compliance with Onboarding Issues
@@ -73,7 +74,7 @@ If a GitLab team member engages People Operations about a possible conflict of i
 
 #### Scalable Employment Solutions
 
-As GitLab scales, global expansion efforts require support from a dedicated cross-functional team with multidisciplinary background: Tax, People Ops, Total Rewards, Payroll, Legal, and Finance, with strategic decisions on which countries to prioritize expansion in being made at E-group level. There are challenges related to global expansion, including economic impact, legal exposure, tax exposure, and accounting impact. The GitLab Employment Team coordinates the ‘global expansion legal process’ for each proposed or potential country, as required, collaborating with each of the other GitLab legal teams to gather and review relevant information on any particular country to assess, including whether GitLab already has team members there, and if so, what employment model is currently in use and whether it can be scaled. If there are no team members in a country, the team considers (with input from all of GitLab Legal) what employment options there might be, whether there are any limitations or restrictions on hiring and what the best solution might be for now and for into the future.
+As GitLab scales, global expansion efforts require support from a dedicated cross-functional team with multidisciplinary background: Sales, Engineering, Talent Acquisition, Tax, People Ops, Total Rewards, Payroll, Legal, and Finance, with strategic decisions on which countries to prioritize expansion in being made at E-group level. There are challenges related to global expansion, including economic impact, legal exposure, tax exposure, and accounting impact. The GitLab Employment Team coordinates the ‘global expansion legal process’ for each proposed or potential country, as required, collaborating with each of the other GitLab legal teams to gather and review relevant information on any particular country to assess, including whether GitLab already has team members there, and if so, what employment model is currently in use and whether it can be scaled. If there are no team members in a country, the team considers (with input from all of GitLab Legal) what employment options there might be, whether there are any limitations or restrictions on hiring and what the best solution might be for now and for into the future.
 
 #### Legal Global Expansion Process
 
