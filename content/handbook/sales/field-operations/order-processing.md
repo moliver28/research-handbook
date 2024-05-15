@@ -725,15 +725,39 @@ The following is intended as a guide for quote approvers who receive approval re
 
 #### Where do I approve?
 
+Quote Approval requests will originate from one of two sources: [The quote](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval), or [SFDC Chatter(https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#how-to-request-quote-approval-via-chatter)]. 
+
+If the request originates from the quote, you will receive an email alert and a Slack alert. If the request originates from SFDC Chatter, you will receive an email alert. Click [here](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=kix.1p0vwiqmoq15) to learn more about which requests should go through the quote vs. SFDC Chatter. In FY25 we will move away from SFDC Chatter entirely, routing all approvals through the quote. 
+
 ##### Approval Requests Submitted via Quote "Submit for Approval" Button
 
-###### Email Approval Alerts
+Approval requests submitted via [this process](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval) can be approved one of three ways: (1) via email alert, (2) via Slack alert, or (3) directly in Salesforce.
 
-###### Slack Approval Alerts
+Once a user submits a quote for approval, it will follow the order of approvers as stated on the quote and in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit). You will be notified by an email and a Slack alert, both of which contain information about the request, and a link to the quote. 
+
+###### Approve Directly in Salesforce
+
+- To review how you can approve or reject quotes via email or directly in Salesforce, sign into the GitLab Unfiltered YouTube account and watch this [video](https://youtu.be/T47h4VNTRWU). 
+- You can approve or reject a quote directly within Salesforce by accessing the quote and scrolling to the bottom of the page under `Approval History`. Click `Approve` or `Reject` next to your name to take action.
+
+###### Approve via Email
+
+- To review how you can approve or reject quotes via email or directly in Salesforce, sign into the GitLab Unfiltered YouTube account and watch this [video](https://youtu.be/T47h4VNTRWU). 
+- Once you have reviewed the quote, you can reply directly to the email. Valid responses are:
+  - `APPROVE`
+  - `APPROVED`
+  - `YES`
+  - `REJECT`
+  - `REJECTED`
+  - `NO`
+- Please note, shortly after the launch of Slack Approvals in May 2024, email approval alerts will be deprecated. An announcement will be sent to Field Managers upon removal of this feature.
+
+###### Approve via Slack
+
 
 ##### Approval Requests Submitted via Salesforce Chatter
 
-
+If you have been tagged to approve a quote via Salesforce Chatter, please clearly communicate your Approval or Rejection, as well as exactly what you are approving or rejecting, in the same Chatter thread where your approval was sought. 
 
 #### REORGANIZE/REMOVE THE BELOW SECTION TO THE ABOVE
 
@@ -751,7 +775,7 @@ The following is intended as a guide for quote approvers who receive approval re
 
 #### Reassign Quote Approvals
 
-If you are a quote approver and will be out of office, you will need to notify Deal Desk and set up rerouting of any quote approvals.
+If you are a quote approver and will be out of office, please take action to delegate your quote approvals while you are away. To reroute your approvals, follow the below steps: 
 
 1. In Salesforce, navigate to your Profile feed. At the top right of your screen click Your Name > My Profile.
 1. Tag Sales-Support in chatter to notify the Deal Desk team that you will be out of office and tag the individual to whom approvals should be rerouted to, along with the dates that you will be out of office.
