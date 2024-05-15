@@ -37,6 +37,7 @@
     "content/handbook/business-technology/**/*.md",
     "content/handbook/customer-success/**/*.md",
     "content/handbook/engineering/**/*.md",
+    "content/handbook/marketing/**/*.md",
     "content/handbook/product/**/*.md",
     "content/handbook/sales/**/*.md",
     "content/handbook/company/culture/all-remote/remote-work-report-2020.md",
