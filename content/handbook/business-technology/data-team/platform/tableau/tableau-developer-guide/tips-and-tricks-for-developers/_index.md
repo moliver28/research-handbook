@@ -77,7 +77,7 @@ Instead, you can create one date axis which automatically updates depending on y
 
 <summary><b>Axis Dates</b></summary>
   
-```
+```text
 IF [Select Time Period] = 'year' THEN
     "FY " + STR([Fiscal Year])
     
@@ -94,9 +94,11 @@ END
 
 </details>
 
-3. You now have a simple date axis which you can use with bar charts and line charts.
-4. One issue you may encounter, however, is that the dates will sort themselves alphabetically. If you are using the `dim_date` table, there is a simple solution to this as well. There is a field called `date_id` in the dim_date table which gives every day a unique id, counting upwards. So the date_id of tomorrow will always be one greater than today.
-5. Bring the `Axis Dates` field out onto Rows or Columns, and then access the Sort option by right clicking on the field and finding "Sort...". Then change the default to sort "By Field", find "Date id", and then use an aggregation such as "Average".
+1. You now have a simple date axis which you can use with bar charts and line charts.
+
+1. One issue you may encounter, however, is that the dates will sort themselves alphabetically. If you are using the `dim_date` table, there is a simple solution to this as well. There is a field called `date_id` in the dim_date table which gives every day a unique id, counting upwards. So the date_id of tomorrow will always be one greater than today.
+
+1. Bring the `Axis Dates` field out onto Rows or Columns, and then access the Sort option by right clicking on the field and finding "Sort...". Then change the default to sort "By Field", find "Date id", and then use an aggregation such as "Average".
 ![sort axis dates](images/image-11.png)
 
 Now you have a date axis which will dynamically allow you and your end-user to switch between date granularities on the same worksheet, while maintaining maximal control over the way the view looks and functions.
@@ -113,7 +115,7 @@ Once you have done so, the following dynamic date filter will work to filter the
 
 <summary><b>Date Filter - Dynamic</b></summary>
 
-```
+```text
 IF [Select Time Period] = 'month' THEN 
     DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date])
         AND  DATETRUNC('month',[Date Actual]) > DATEADD('month', -[Date Interval], DATETRUNC('month',[Report Date]))
@@ -144,7 +146,7 @@ There are two ways to create these calculations. The first option is to cut the 
 
 **Is Fiscal Period to Date Dynamic**
 
-```
+```text
 IF [Select Time Period] = 'year' THEN 
  [Day Of Fiscal Year] <= [Day Of Fiscal Year (Dim Date1)] // Cuts data off at the day of the report date
 
@@ -160,7 +162,7 @@ END
 
 **Current Period**
 
-```
+```text
 IF [Select Time Period] = 'year' THEN 
     [First Day Of Fiscal Year] = [First Day Of Fiscal Year (Dim Date1)] // in the same year
             AND DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date])  // Cuts data off at the day of the report date
@@ -178,7 +180,7 @@ END
 
 **Previous Period**
 
-```
+```text
 IF [Select Time Period] = 'year' THEN 
     [First Day Of Fiscal Year] = DATEADD('year',-1,[First Day Of Fiscal Year (Dim Date1)])
             AND [Is Fiscal Period To Date Dynamic]
@@ -199,7 +201,7 @@ The other option is to take the total current and previous periods. These calcul
 
 **Current Period (Total)**
 
-```
+```text
 IF [Select Time Period] = 'year' THEN 
     [First Day Of Fiscal Year] = [First Day Of Fiscal Year (Dim Date1)] // in the same year
 
@@ -214,7 +216,7 @@ END
 
 **Previous Period (Total)**
 
-```
+```text
 IF [Select Time Period] = 'year' THEN 
     [First Day Of Fiscal Year] = DATEADD('year',-1,[First Day Of Fiscal Year (Dim Date1)])
 
@@ -251,7 +253,7 @@ The following calculation will circumnavigate those issues.
 
 **m/q/y filters for KPI's**
 
-```
+```text
 IF [Select Time Period] = 'quarter' THEN
 ( [Month Of Fiscal Year] % 3 = 0// last month of quarter
         AND [First Day Of Fiscal Quarter] < [First Day Of Fiscal Quarter (Dim Date1)] // Earlier than this quarter
@@ -277,7 +279,7 @@ Then, create another field for your non-additive KPI, such as ARR. Use the follo
 
 <summary><b>KPI - m/q/y</b></summary>
 
-```
+```text
 IF [m/q/y Filters for KPI's]
      THEN [ARR] END
 ```
@@ -302,7 +304,7 @@ The solution is to create a date filter that effectively doubles the date range 
 
 **Dynamic Date Filter for PoP (to report date)**
 
-```
+```text
 IF [Select Time Period] = 'month' THEN (
     DATETRUNC('day',[Date Actual]) <= DATETRUNC('day',[Report Date]) //sooner than the day of report date and
         AND  DATETRUNC('month',[Date Actual]) > DATEADD('month', (-[Date Interval]*2), DATETRUNC('month',[Report Date])) //after the month of the date interval * 2 back in time
@@ -327,7 +329,7 @@ END
 
 **Dynamic Date Filter for PoP (total periods)**
 
-```
+```text
 IF [Select Time Period] = 'month' THEN (
     DATETRUNC('month',[Date Actual]) <= DATETRUNC('month',[Report Date]) //sooner than or = to the month of the report date
         AND  DATETRUNC('month',[Date Actual]) > DATEADD('month', (-[Date Interval]*2), DATETRUNC('month',[Report Date])) //after the month of the date interval * 2 back in time
@@ -351,7 +353,7 @@ END
 
 </details>
 
-2. Next, create the filter that will adjust the view to only show the date range that you selected originally.
+1. Next, create the filter that will adjust the view to only show the date range that you selected originally.
 
 <details markdown=1>
 
@@ -359,7 +361,7 @@ END
 
 **Don't Show Leading Values Filter**
 
-```
+```text
 IF [Select Time Period] = 'quarter' THEN  
 FIRST() <= -4
 ELSEIF [Select Time Period] = 'month' THEN FIRST() <= -12
@@ -369,7 +371,7 @@ END
 
 </details>
 
-3. Now you can use table calculations to create each of your date granularities' table calculations. To allow these to change dynamically based on your selected date granularity, you can use the following calculations, using `Sales` as an example KPI.
+1. Now you can use table calculations to create each of your date granularities' table calculations. To allow these to change dynamically based on your selected date granularity, you can use the following calculations, using `Sales` as an example KPI.
    1. First create your table calculations to offset by 1 time period, 4 time periods, and 12 time periods:
 
 <details markdown=1>
@@ -377,36 +379,36 @@ END
 <summary><b>Time Period Table Calculations</b></summary>
 
 **Sales -1**
-```
+```text
 (ZN(SUM([Sales])) - LOOKUP(ZN(SUM([Sales])), -1)) / ABS(LOOKUP(ZN(SUM([Sales])), -1))
 ```
 
 **Sales -4**
-```
+```text
 (ZN(SUM([Sales])) - LOOKUP(ZN(SUM([Sales])), -4)) / ABS(LOOKUP(ZN(SUM([Sales])), -4))
 ```
 
 **Sales -12**
-```
+```text
 (ZN(SUM([Sales])) - LOOKUP(ZN(SUM([Sales])), -12)) / ABS(LOOKUP(ZN(SUM([Sales])), -12))
 ```
 
-   2. Now create the Period over Period calculations:
+   1. Now create the Period over Period calculations:
 
 **Sales MoM**
-```
+```text
 IF [Select Time Period] = 'month' THEN [Sales -1] END
 ```
 
 **Sales QoQ**
-```
+```text
 IF [Select Time Period] = 'month' THEN [Sales -4]
 ELSEIF [Select Time Period] = 'quarter' THEN [Sales -1]
 END
 ```
 
 **Sales YoY**
-```
+```text
 IF [Select Time Period] = 'month' THEN [Sales -12]
 ELSEIF [Select Time Period] = 'quarter' THEN [Sales -4]
 ELSEIF [Select Time Period] = 'year' THEN [Sales -1]
@@ -415,7 +417,7 @@ END
 
 </details>
 
-4. As a bonus, if you want to include each of these in a tooltip and be able to include a "month over month" label that disappears when the date granularity is quarter or year, here are the labels you can create labels.
+1. As a bonus, if you want to include each of these in a tooltip and be able to include a "month over month" label that disappears when the date granularity is quarter or year, here are the labels you can create labels.
 
 <details markdown=1>
 
@@ -423,21 +425,21 @@ END
 
 **MoM Label**
 
-```
+```text
 IF [Select Time Period] = 'month'  THEN ", and the month over month change was: " // "MoM change: "
 END
 ```
 
 **QoQ Label**
 
-```
+```text
 IF [Select Time Period] = 'month' OR [Select Time Period] = 'quarter' THEN ", the quarter over quarter change was: " // "QoQ Change: "
 END
 ```
 
-5. To put those together, the tooltip would have the following code, centered and formatted:
+1. To put those together, the tooltip would have the following code, centered and formatted:
 
-``` 
+``` text
 In <Axis Dates> the Sales were <SUM(Sales)>.
 The Year over Year change was <AGG(Sales YoY)><ATTR(QoQ Label)><AGG(Sales QoQ)><ATTR(MoM label)><AGG(Sales MoM)>.
 ```
