@@ -3,7 +3,7 @@ title: UX Department Performance Indicators
 description: "Performance indicators for the UX department at GitLab"
 ---
 
-Viewing charts requires sign-in to Tableau. GitLab team members only.
+Viewing the charts requires sign-in to Tableau. GitLab team members only.
 
 {{% performance-indicators "ux_department" %}}
 
