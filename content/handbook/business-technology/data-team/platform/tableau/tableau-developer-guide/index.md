@@ -3,10 +3,11 @@
 title: "Tableau Developer Guide"
 description: "GitLab's Tableau Developer guide"
 ---
+## Quick Links
 
+- [Tips and Tricks](/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/tips-and-tricks-for-developers/)
 
 ## Data Source Approach
-
 
 In general, our recommended approach to creating data sources in Tableau is to create all joins in dbt/Snowflake to materialize a final mart and/or rpt table that can be directly consumed by Tableau for the dashboard with no further joins, relationships, or calculations required in the BI layer.
 
