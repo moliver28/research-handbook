@@ -166,6 +166,7 @@ to define software designs through design docs.
 These design doc documents the high level implementation strategy and key design decisions with emphasis on the trade-offs that were considered during those decisions.
 
 To start discussing a new design:
+
 1. Create a new MR in the [InfraSec Team Charter repo](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/team-charter/-/tree/main/designs) with the Design proposal. You can use [this template](https://gitlab.com/gitlab-com/gl-security/product-security/team-charter/-/blob/main/.gitlab/issue_templates/design_doc.md) as a reference for the structure of the Design doc.
 2. Fill the data as requested
 3. Mark other elements of the team as reviewers
