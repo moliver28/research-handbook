@@ -158,6 +158,27 @@ It is recognised there can always be last-minute, unplanned PTO needs. Please ta
 
 We operate using async communication by default. There are times when a sync discussion can be beneficial and we encourage team members to schedule sync calls with the required team members as needed.
 
+## Identification of Open Source Models for GitLab Duo
+
+As new open source models emerge, the Custom Models team will consider them for GitLab Duo use-cases. The process for this is:
+
+1. Research and identify use cases required for each Duo Feature 
+2. Research and identify industry benchmarks that serve as the best proxy for Duo Feature use-cases
+   * document industry benchmarks identified in this epic under "[Industry Benchmarks](https://gitlab.com/gitlab-org/gitlab/-/issues/461070#industry-benchmarks "Document how to identify Open Source Models for Duo use cases")"
+3. Document the performance of open source models against those identified industry benchmarks
+   * Leverage model leaderboards to help identify models. Examples of leaderboards include:
+     * [HuggingFace Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+     * [HELM Leaderboard](https://crfm.stanford.edu/helm/lite/latest/#/leaderboard)
+     * [CanAICode Leaderboard](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results)
+     * [LMSYS Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard)
+     * Ddditional resources
+       * https://github.com/underlines/awesome-ml/blob/master/llm-tools.md#leaderboards
+       * https://bellard.org/ts_server/
+4. Document any potential supply-chain or license issues (must be [gold or silver](https://blueoakcouncil.org/list)) that would prohibit/limit viability of self-hosting that model for our security-conscious customer base
+5. Determine whether the open source model already exists in the AI Model Validation's [model map](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/blob/168faa55d3363c10622321656d3ac403d7c0e9c6/promptlib/completion/model_map.py)
+6. Submit open source models of interest (with justification and requested use cases) to AI Model Validation using the [model request template](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/issues/new#)
+7. Examine results of Validation process for the model against the requested use cases in comparison with other foundational models (available via dashboards for each feature) to determine viability.
+
 ## Metrics
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
