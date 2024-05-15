@@ -100,3 +100,7 @@ Sometimes high-priority and/or urgent work comes up after a milestone starts. Wh
 - Apply the `Unplanned` label
 - If the unplanned work is large enough to displace other planned issues, inform the applicable stakeholders so they are aware that their issue is being delayed
 
+### Missed milestones
+
+Work planned for a milestone may not be fully finished due to time constraints or planned work being too ambitious. When this happens, use the `AppSecWorkflow::MissedMilestone`.
+
