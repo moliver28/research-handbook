@@ -33,6 +33,9 @@
 /content/handbook/content-websites/ @gitlab-com/content-sites
 /content/handbook/editing-handbook/ @gitlab-com/content-sites
 
+[Job Families]
+/content/job-families/ @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @franzrivera @gitlab-com/content-sites @gitlab-com/egroup
+
 ^[Acquisitions]
 /content/handbook/acquisitions/ @eliran.mesika
 
