@@ -46,7 +46,7 @@ Based on these needs, the Data Team is organized in the following way:
 | Marketing        |  Marketing Strategy and Analytics |  @snalamaru             |
 | Finance          |  FP&A Analytics                   |  @chrissharp            |
 | Customer Success |  CS Strategy and Analytics        |  @mdrussell             |
-| Product          |  Product Data Insights            |  @mdrussell             |
+| Product          |  Product Data Insights            |  @michellecooper             |
 | Engineering      |  Engineering Analytics            |  @michellecooper        |
 | Security         |  Engineering Analytics            |  @michellecooper        |
 | Support          |  N/A                              |  @michellecooper        |
@@ -69,7 +69,7 @@ In support of the Data Pod, the Manager, Data fulfills the below responsibilitie
 1. Regularly meet with business partners to understand and solve for data needs.
 1. Serve as a primary or back-up Maintainer on the Data Team Project. Provide final review, feedback, and approval of Merge Requests submitted by the Data Pod and stable counterparts.
 
-### Lead Analytics Engineer
+### Lead Analytics Engineer (Stable Counterparts for the Business)
 
 In support of the Data Pod and Stable Counterpart relationships, the Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/finance/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilites:
 
