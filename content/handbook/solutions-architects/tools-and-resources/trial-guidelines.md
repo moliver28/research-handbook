@@ -17,15 +17,14 @@ Both prospects and existing customers should request an Ultimate trial by going 
 
 ## Trial Guidelines
 
-
 #### Existing SaaS Customers
 
 A trial license cannot be added to an existing licensed SaaS namespace.  Since some features such as project and group access tokens are not available with a trial license, using a separate trial namespace ensures data integrity of production data and reduces confusion for end users in the production instance.  SaaS customers should create a new namespace for their trial and use one of the options in the next section to populate data into the namespace. To create a new namespace, you should login to gitlab.com and [create a new top-level group](https://docs.gitlab.com/ee/user/group/manage.html#create-a-group).  If your production group name is `ACME123` and you want your trial group to be `ACME123-trial`, then the trial group URL should be `https://gitlab.com/ACME123-trial`, **not** `https://gitlab.com/ACME123/ACME123-trial`.
 
 SaaS trials have the following limitations:
+
 - GitLab shared runners available (with credit card verification) but the number of minutes is limited.  If additional minutes are required, the [GitLab Sales team](https://about.gitlab.com/sales/) can request an increase on the customer's behalf.
 - Only one [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) is available with a trial license and [Group Access Tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) are not available on a trial license.
-
 
 #### Existing Self-Managed Customers
 

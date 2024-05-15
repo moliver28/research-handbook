@@ -10,12 +10,14 @@ Everyone at GitLab uses our GitLab tool in their daily work. This page details i
 ## Using GitLab Competency
 
 **Skills and behavior of Using GitLab as a Team Member**:
+
 - Knows when and how to open, comment, close, and move on issues while utilizing an issue board
 - Understands and knows how to open and submit a merge request
 - Models how and when to use epics
 - Uses GitLab effectively for day-to-day work
 
 **Skills and behaviors of Using GitLab as a People Leader**:
+
 - Establishes an environment to use GitLab for the primary mode for executing and collaborating on work
 - Assists team on troubleshooting GitLab issues and merge requests
 - Shares experiences on when to use GitLab and how to integrate into day-to-day work activities

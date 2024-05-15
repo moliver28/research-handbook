@@ -20,6 +20,7 @@ As an important step towards achieving our [mission](/handbook/business-technolo
 ### 1) Customer Centricity
 
 Definition:
+
 1. Visibility and deep understanding of how our customers use our product and interact with our teams
 1. Focus on the Customer Journey Lifecycle & Related Analytics
 1. Build a Better GitLab for our Customers. Be customer zero.
@@ -27,12 +28,14 @@ Definition:
 ### 2) Data Community
 
 Definition:
+
 1. Create a community where everyone can make their best decisions with data built on SSOT Data Architecture and One Data Warehouse
 1. Best-in Class Talent, Tenure, and Growth
 
 ### 3) GitLab Culture of Data First
 
 Definition:
+
 1. All product features logged for analysis in a centrally governed way
 1. Iteration and experimentation to drive business value
 1. Strong visibility into key business results, business processes, product behavior and programs
@@ -42,12 +45,12 @@ Definition:
 ### 4) World class data and analytics capabilities
 
 Definition:
+
 1. Scalable data platform, data collection, modeling, and visualization
 1. Master data management
 1. Create unified data models with robust governance
 1. Cutting-edge data and analytics tools available to team members
 1. Integrate advanced analytics with our business processes
-
 
 ## Data Capability Model
 
@@ -124,7 +127,7 @@ The data plaform along with the data it delivers is consitent in availability an
 The Data Platform doesn't put people at risk
 
 * Data is only accisible to those authorized by documented approvals
-* The GitLab data team will stick with the [Principle of Least Privilege](https://handbook.gitlab.com/handbook/security/access-management-policy/#principle-of-least-privilege) regarding the authorization and authentication
+* The GitLab data team will stick with the [Principle of Least Privilege](/handbook/security/access-management-policy/#principle-of-least-privilege) regarding the authorization and authentication
 
 ### Is Maintainable
 
@@ -138,11 +141,9 @@ GitLab's Data Platform is relevant to a community larger than GitLab's and depen
 * Platform enhancements are contributed back into community projects
 * We prefer generalizable specifications and standards over idiosyncratic custom development
 
-
 ### Data Platform FY25 initiatives
 
 The following sections describe the Data Platform FY25 initiatives.
-
 
 ## Data Value Pyramid
 

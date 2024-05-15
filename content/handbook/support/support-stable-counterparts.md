@@ -154,13 +154,25 @@ Note: We encourage having more than 1 SSC for a group - so if the group you are 
 
 ## Non-group specific SSCs
 
-A couple of roles are not product group specific, but involve all the same expectations and responsibilities with some overlap of the [Support Liaison role](/handbook/support/support-liaisons).
+A couple of roles are not product group specific, but involve all the same expectations and responsibilities.
 Non-group specific counterparts typically also step in when the related group has questions where there is no SSC currently.
 
 | Section          | Group          | Group Contact       | Support Counterpart | Frequency           |
 |:----------------:|:--------------:|:-------------------:|:-------------------:|:-------------------:|
-| UX               | Tech Writing   | {{< member-by-name "Susan Tacker" >}} | {{< member-by-name "Mike Lockhart" >}}       | weekly team meeting |
-| Quality          | Reference Architecture | {{< member-by-name "Grant Young" >}} | {{< member-by-name "Simon Street" >}}        | TBD |
+| Finance          | Accounts               | TBD                                          | TBD                                    | N/A |
+| Finance          | Budget                 | {{< member-by-name "Chase Wright" >}}        | TBD                                    | 1x Qtr on budget + once per month |
+| Legal            | Legal                  | {{< member-by-name "Robin Schulman" >}}      | {{< member-by-name "Jason Colyer" >}}  | N/A |
+| PeopleOps        | After-hire care        | {{< member-by-name "Jessica Mitchell" >}}    | TBD                                    | N/A |
+| PeopleOps        | Talent Acquisition     | {{< member-by-name "Cyndi Walsh" >}}         | TBD                                    | N/A |
+| Performance      | Performance            | {{< member-by-name "Stan Hu" >}}             | {{< member-by-name "Lee Matos" >}}     | N/A |
+| Production       | .com Infrastructure    | {{< member-by-name "Dave Smith" >}}          | TBD                                    | N/A |
+| Marketing        | Developer Relations    | {{< member-by-name "John Coghlan" >}}        | TBD                                    | N/A |
+| Marketing        | Open Source Prog.      | {{< member-by-name "Bryan Behrenshausen" >}} | {{< member-by-name "Andrew Conrad" >}} | weekly team meeting |
+| Customer Success | Customer Success       | {{< member-by-name "Kristen Lawrence" >}}    | TBD                                    | weekly on Fri join EMEA scrum |
+| Sales            | Sales                  | TBD                                          | {{< member-by-name "Mike Dunninger" >}} / {{< member-by-name "Tine Sørensen" >}} | N/A |
+| Security         | Security Operations    | {{< member-by-name "Jan Urbanc" >}}          | {{< member-by-name "Brie Carranza" >}} | N/A |
+| UX               | Tech Writing           | {{< member-by-name "Susan Tacker" >}}        | {{< member-by-name "Mike Lockhart" >}} | weekly team meeting |
+| Quality          | Reference Architecture | {{< member-by-name "Grant Young" >}}         | {{< member-by-name "Simon Street" >}}  | N/A |
 
 ## Product counterparts
 

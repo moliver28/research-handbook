@@ -44,7 +44,7 @@ On a monthly basis:
 
 1. Publish our plans for the upcoming milestone
 1. Update our ever-green [MLOps Direction page](https://about.gitlab.com/direction/modelops/mlops/)
-1. Include any shipped features in the [GitLab Release Post](https://handbook.gitlab.com/handbook/marketing/blog/release-posts/)
+1. Include any shipped features in the [GitLab Release Post](/handbook/marketing/blog/release-posts/)
 
 ## Performance Indicators
 

@@ -14,6 +14,7 @@ These requirements are meant to provide a level of consistency across how change
 Changes, in the context of this policy, are defined as **modifications** to the production environment and include supporting infrastructure and key corporate systems. The policy applies to changes that are made to systems assigned a [Critical System Tier]({{< ref "critical-systems" >}}) of `Tier 1 Mission Critical`, `Tier 2 Business Critical`, and `Tier 3 Business Operational`.
 
 **Modifications** include, but are not limited to:
+
 - Creation/development/implementation of new systems, integrations, features, key reports, databases, etc.
 - Changes to configurations
 - Deployment of patches or vendor supplied changes not managed by the vendor
@@ -51,6 +52,7 @@ The minimum change management requirements described below have been identified 
 ### Change Management Policy Guidance
 
 Supplemental change management procedures must incorporate the requirements called out in the sections below:
+
    - [Change Request Documentation Requirements](#change-request-documentation-requirements)
    - [Change Testing Requirements](#change-testing-requirements)
    - [Change Review and Approval Requirements](#change-review-and-approval-requirements)

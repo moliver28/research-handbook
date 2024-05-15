@@ -56,13 +56,9 @@ These principles will guide our benefit strategies and decisions.
          - Share upcoming benefit plans internally before implementing them.
          - Invite discussion and feedback.
 
-
-
 We do not have specific budgets around benefit costs, but instead look to increasing the ability to recruit and retain team members in favorable locations. We do not take a global approach to offering the same benefits in all countries, but will transparently outline why we do or do not offer the above benefits on their respective [entity specific benefits]({{< ref "general-and-entity-benefits#entity-benefits" >}}) page.
 
-
 ## Annual Global Benefit  Review Process
-
 
 The Total Rewards team reviews GitLab’s global benefits on an annual basis and proposes changes for the next Fiscal Year. The Planning Process is as follows:
 

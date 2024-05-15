@@ -31,11 +31,13 @@ After you sign your offer and complete your background check and references, you
 1. If you are being employed by one of GitLab's US entities, either GitLab Inc or GitLab Federal LLC, you will need to complete your I9 via LawLogix. You will receive an email from LawLogix. This email will walk you through the process of completing the I9.
 1. If you live in Germany, Belgium, or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
 1. In some entity countries, GitLab uses external companies to assist with the collection of payroll documents from you.
+
   - France: Papaya
   - Netherlands: HR Savvy
   - Singapore: Global Upside / Safeguard
   - South Korea: Global Upside / Safeguard
   - UK: Papaya
+
 1. If you are hired through a PEO location, the PEO will reach out to you prior to your start date to obtain the necessary documents and start their onboarding process.
 1. The next email you will receive, is a [TaNEWki call](/handbook/people-group/general-onboarding#tanuki-orange) invite. We hope you can join us! This Zoom call addresses those first day nerves and gives you some time to meet other new team members. You will see this invite sent to you 1-2 weeks before your start date.
 1. You may receive an email from Okta (our SAAS application portal) with an invite to register. **Please ignore this email** until you receive your onboarding welcome email on your first day with us. This will ensure that no issues are experienced with your access levels on your first day.
@@ -54,7 +56,6 @@ After you sign your offer and complete your background check and references, you
 1. [OneTab](https://www.one-tab.com/) - Tab organizer for Chrome, Firefox, Edge, or Safari
 1. [Early Career Discussion Group Slack Channel](https://gitlab.slack.com/archives/C0340TYR7AA) This group is for anyone, but specifically for helping those who are transitioning to a new or first career! Everyone is welcome, and all your questions that you may not know where to ask are welcome here.
 1. [Brag Docs](https://jvns.ca/blog/brag-documents/) are a way of tracking the work you've done. It can be a very helpful document when talking with managers, leadership, or when seeking promotions. Here's a [recording](https://youtu.be/oVd3jN76b5c) of an event hosted by the Early Career Team Member Discussion Group to talk about some advice for keeping a brag doc and more.
-
 
 ## <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Acronym Dictionary
 
@@ -81,7 +82,6 @@ As point 23 on our [communication handbook page](/handbook/communication/#writin
 | PTO | [Paid Time Off](/handbook/paid-time-off) |
 | SIRT | [Security Incident Response Team](/handbook/security/security-operations/sirt) |
 | TMRG | [Team Member Resource Group](/handbook/company/culture/inclusion/#tmrgs---team-member-resource-groups) |
-
 
 **Customer Success Related Acronyms**
 
@@ -142,8 +142,6 @@ GitLab utitilizes Navan as our team member [expense](/handbook/finance/expenses/
 1. There is a lot of Handbook content in this issue, that can at times require quite a bit of reading. Consider enabling one of the helpful text to speech tools in the Helpful Tools section above.
 1. We use Slack as our formal/informal communications tool. This allows us to communicate with our team members, teams and wider company. New to Slack? No problem! This [quick start guide](https://slack.com/intl/en-za/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide) will share all the helpful tips on getting you started.
 1. We do not use the standard operating software and instead have a business account with Google Workspace. We use the [Gmail](https://workspace.google.com/intl/en/products/gmail/) feature to retrieve our emails, we use [Drive](https://workspace.google.com/intl/en/products/drive/) to store all our important documents, and Google [Docs](https://workspace.google.com/intl/en/products/docs/)/[Sheets](https://workspace.google.com/intl/en/products/sheets/) for anything we need to document.
-
-
 
 <i class="fab fa-gitlab" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>&nbsp;&nbsp;
 Want to learn more about Onboarding from current team members? View their feedback [here](/handbook/people-group/general-onboarding/onboarding-feedback)!
@@ -217,7 +215,6 @@ A: GitLab has an entire team dedicated to providing the best tools to be success
 **Q: How can I find team members located in my local area to meet up?**
 
 A: We have many location slack channels here tht allows team members to schedule informal local get togethers or coworking days. You can find the list of those channels [here](/handbook/communication/chat/#location-channels-loc_). If you don't see one for your area, feel free to create one!
-
 
 **Q: What is Family & Friend's Day?**
 

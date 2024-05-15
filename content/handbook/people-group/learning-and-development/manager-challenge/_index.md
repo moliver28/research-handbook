@@ -45,8 +45,8 @@ You may be asking yourself what you will achieve by taking part in the Manager C
 In addition, the program ties into GitLab's strategic priorities through the following:
 
 1. Mitigating concerns associated with:
-     1. [Lack of Performance Management](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#underperformance)
-     1. [Ineffective Management](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#ineffective-management)
+     1. [Lack of Performance Management](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#underperformance)
+     1. [Ineffective Management](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#ineffective-management)
 1. Achieving GitLab Strategy of:
      1. [Inclusive Growth & Development for Team Members](/handbook/company/strategy#4-inclusive-growth--development-for-team-members)
 
@@ -85,7 +85,6 @@ Week 1 will be focused on developing your leadership style as a manager, differe
 | Week 1 | 1 hr 20 minutes | Session 1 - Program Kickoff: Developing Your Leadership Style. Adaptive DNA as a people leader. Introduction to the Manager Challenge |
 | Week 1 | Async | Session 2 pre-work |
 | Week 1 | 1 hr 20 minutes | Session 2: Building High Performing Teams or Team Effectiveness Tools |
-
 
 ### Week 2 - Management Fundamentals
 
@@ -268,7 +267,6 @@ For the pilot Manager Challenge program, the Learning & Development team held a 
 
 {{< youtube "v_ohUbaRFFw" >}}
 
-
 ## Pilot Program
 
 In September 2020, the L&D team piloted the Manager Challenge to a group of People Leaders in People Success, Engineering, and Product. Learn more about the pilot content by [reviewing the pilot epic](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/1).
@@ -290,4 +288,3 @@ Pilot Kickoff Video:
 - [2021 May Manager Challenge](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/38)
 - [2021 January Manager Challenge](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/26)
 - [2020 September Manager Challenge Pilot](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/1)
-

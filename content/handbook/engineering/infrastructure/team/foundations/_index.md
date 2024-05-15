@@ -54,7 +54,7 @@ Edge services are services that sit at the [network edge](https://www.cloudflare
 
 ## Getting Assistance
 
-Should you require assistance from the Foundations team, please open an issue in the [Production engineering tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues)
+Should you require assistance from the Foundations team, please open an issue in the [Production engineering tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/?sort=created_date&state=opened&label_name%5B%5D=workflow-infra%3A%3ATriage&label_name%5B%5D=team%3A%3AFoundations&first_page_size=100)
 
 Apply one of the following templates:
 

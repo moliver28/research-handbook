@@ -89,7 +89,6 @@ The Learning & Development team has a number of resources to help team members l
   </div>
 </div>
 
-
 ### Partnerships at GitLab
 
 Multiple teams across the company contribute to learning and development of our team members. Below is a list of some teams we partner with and how we collaborate.
@@ -98,10 +97,6 @@ Multiple teams across the company contribute to learning and development of our 
 1. Talent Brand: Telling career growth stories
 1. People Operations: Measuring imapct of learning and development on team member engagement
 1. Select Department Subject Matter Experts: Legal, Compliance, and other specific courses
-
-
-
-
 
 ## Contact Us
 
@@ -180,7 +175,6 @@ The L&D team freqently uses the following tools for creating and communicating l
 | [Canva](https://www.canva.com/) | Image and infographic creation |
 | [Articulate/Rise 360](https://articulate.com/) | Course Authoring |
 | [Genial.ly](https://app.genial.ly/dashboard) | Create Interactive Images |
-
 
 ## Developing Learning Content
 

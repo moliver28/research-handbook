@@ -28,6 +28,7 @@ For each finding mentioned in a Merge Monitor report:
 1. Once each finding in the report has been reviewed, close the issue
 
 In the event that you find a vulnerability or other security concern in a finding:
+
 1. Triage it as normal by creating a new issue in the appropriate repository and apply priority/severity labels
 1. Ping the merge request author, reviewers, and the AppSec team on the issue
 1. If possible, work to get the merge request reverted before it is included in a release

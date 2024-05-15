@@ -61,6 +61,7 @@ It's sometimes hard to remember to stay active when you work from home. If you'r
 1. If possible, choose a [workspace]({{< ref "./workspace" >}}) that's exposed to [natural light](https://www.makegreatlight.com/wp-content/uploads/Health_Benefits_Natural_Light.pdf).
 1. Avoid "Digital Eye Strain" by following the [20-20-20 Rule](https://www.healthline.com/health/eye-health/20-20-20-rule#definition). Every 20 minutes look into the distance (at least 20 feet/6 meters) for 20 seconds.
 1. Schedule physical time on your calendar
+
   - Go for a walk or do a short exercise for at least 15 minutes a day. Model this practice for your team by adding it to your calendar.
 
 > **"Getting out of the house before I start my day is very important for me.
@@ -100,6 +101,7 @@ The ideal way to think about time zones in a remote team is to assume every team
 Remember that someone's home time zone will not necessarily represent their day-to-day time zone. Plus, someone working in a given time zone may prefer to work a [nonlinear workday]({{< ref "./non-linear-workday" >}}). Time zones are only one element which impacts when a team member works. Optimizing for nearness in time zones creates a business continuity risk; proactive communication about one's time zone and associated work expectations are critical.
 
 Practically, the following should be considered.
+
 1. Leaders should proactively optimize as many workflows as possible for [asynchronous]({{< ref "./asynchronous" >}}). This enables people to work when they are [most productive]({{< ref "leadership#managers-of-one" >}}), fosters a culture of [rich documentation]({{< ref "./handbook-first" >}}), and creates a more [inclusive work environment]({{< ref "values#bias-towards-asynchronous-communication" >}}).
 1. Attempt to align on a time, or a rotation of times, where the manager and direct report can be online at the same time for a regular [1-1]({{< ref "1-1" >}}). If this pulls one person or the other into non-working hours, consider rotating times so the burden is equally shared.
 1. Document what success looks like using [Objectives and Key Results (OKRs)](/handbook/company/okrs). This should be conveyed plainly and mutually agreed upon.

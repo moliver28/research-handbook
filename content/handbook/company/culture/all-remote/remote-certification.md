@@ -50,4 +50,3 @@ If you have questions, please reach out to our [Learning & Development team](/ha
 ---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).
-

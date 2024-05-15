@@ -18,7 +18,6 @@ Check out what GitLab team members are saying about their experience with Modern
 1. *Career Coaching:* `I've absolutely had an amazing and helpful experience. My coach helped me advocate for myself, something I've never really felt comfortable doing before. She supported and uplifted me as well, cheering me on as I made improvements and learned how to handle adversity.`
 1. *Confidence Coaching:* `I've only had one session so far but it was great and led to helpful insights. I'm looking forward to another in a few weeks. I wanted help with imposter syndrome and overall lack of confidence. My coach talked with me about the source of the imposter syndrome, dug in to how it's manifested earlier in my career, and suggested a few strategies for reframing the negativity of my inner dialog into something more productive. I already feel better by having a "to-do" list of things to work on, and I feel a lot more supported and validated. I highly recommend it!`
 
-
 ### What does Modern Health offer?
 
 Modern Health is the one-stop shop for all tools related to mental well-being and self-improvement. Members gain access to the following features:

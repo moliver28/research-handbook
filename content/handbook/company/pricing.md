@@ -6,6 +6,7 @@ description: "Most GitLab functionality is and will be available for free in our
 GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contribute, and the best way to communicate is on the #pricing Slack channel.
 
 Contributions are part of the day-to-day jobs of the following people:
+
 - Principal Pricing Manager (Lisa Hoang)
 - Principal Pricing Manager (TBH)
 - Sr Director, Product Monetization (Justin Farris)
@@ -71,7 +72,6 @@ Our pricing philosophy is aligned with our [GitLab Values](/handbook/values/).
 ## Pricing Methodology
 
 We take a value-based pricing approach at GitLab. The core of the value-based pricing is to understand the value proposition that our innovations provide to our current and future customers for that offering. We aim to price our offerings to achieve continued growth and financial success for both the customer and GitLab.
-
 
 ### 1. Value Proposition
 

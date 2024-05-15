@@ -10,6 +10,7 @@ description: "GitLab's Tableau Developer guide"
 In general, our recommended approach to creating data sources in Tableau is to create all joins in dbt/Snowflake to materialize a final mart and/or rpt table that can be directly consumed by Tableau for the dashboard with no further joins, relationships, or calculations required in the BI layer.
 
 During the Tableau implementation, we experimented with the approach of bringing fct & dim tables into Tableau and creating the joins and relationships there. However, we prefer to create the data structures in dbt/Snowflake where possible for the following reasons:
+
 - By keeping business logic in the enterprise data warehouse as a rule and simply publishing the final mart/rpt tables for consumption, we avoid applying contradictory business logic in custom SQL across Tableau data sources.
 - This approach keeps all joins & reporting logic under version control via the dbt/git integration.
 - This approach makes the final data source query-able using SQL; this makes it easier for an Analyst to compare the results in the dashboard and the final dataset against upstream tables, and makes it more accessible for an Analyst to troubleshoot logic when a dashboard is showing unexpected results.
@@ -23,6 +24,7 @@ This approach is intended to fulfill the majority of data source use cases, and 
 ## Connection Types in Workbooks
 
 When you are publishing a workbook or data source, there are a few Authentication options. The default options will allow you to publish your work, but you will soon be getting:
+
 1. Messages from users that the OAuth token has expired and they are unable to access a workbook
 1. If you schedule an extract, you will get emails that the extract has failed.
 
@@ -36,22 +38,21 @@ The way to make sure users can always access the data within a workbook, is to c
 
 If you are publishing a data source from Desktop to the Cloud/Online to be a Tableau Published Data Source, you will get the following window:
 
-![](images/data-window.png)
+![data window](images/data-window.png)
 
 Select the "Edit" button under "Authentication". It will bring you to the following pop-up. Choose your <rolename> to embed.
 
-![](images/authentication.png)
-
+![authentication](images/authentication.png)
 
 **Publishing a Workbook With a Local Connection**
 
 A workbook with a local connection is one whose data source is living inside of the workbook, and is not a separately published Tableau Data Source which you can search Tableau Online for. When you try to publish a workbook with a local connection, you will see the following window:
 
-![](images/window-local.png)
+![local window](images/window-local.png)
 
 Select "Edit" under "Data Sources" and find "Authentication". Choose to embed your <rolename>.
 
-![](images/auth-local.png)
+![local authentication](images/auth-local.png)
 
 </details>
 
@@ -63,14 +64,13 @@ Select "Edit" under "Data Sources" and find "Authentication". Choose to embed yo
 
 If you are editing a data source in Cloud/ Tableau Online/ your web browser (all the same thing), in order to make sure your credentials are embedded, find "Publish As":
 
-![](images/publish-as.png)
+![''](images/publish-as.png)
 
 In the following window, be sure to check the box for 'Embed Credentials'.
 
-![](images/cloud-embed.png)
+![''](images/cloud-embed.png)
 
 </details>
-
 
 ## Embedding in the Handbook
 
@@ -82,9 +82,9 @@ Instructions for how to embed a Tableau chart can be found on the [Handbook Embe
 
 For embedding in the handbook, views will embed better than dashboards will, so each view that is meant to be embedded should be designed to function without user selected inputs.  Filters and parameters can be preset during the embedding process, but will not be changeable by the viewer. Additionally, the view must meet the following criteria:
 
-  - The view cannot be hidden
-  - For embedding in the public handbook each datasource must connect to Snowflake with a Data Team Service Account username and password or use an extract
-  - For embedding in the public handbook each workbook must have the `Public` tag.
+- The view cannot be hidden
+- For embedding in the public handbook each datasource must connect to Snowflake with a Data Team Service Account username and password or use an extract
+- For embedding in the public handbook each workbook must have the `Public` tag.
 
 #### Data Source
 
@@ -98,8 +98,7 @@ Make sure that if you do use the Data Team's credentials to publish the workbook
 
 If your view is public and embedded in the public handbook (aka, people do not need to sign-in to view it), then it needs to be on the Public GitLab Tableau Cloud site due to the viewer license agreements. To tag a workbook as public, click on the workbook. On the main page for the workbook where you can see each of the views, next to the name, there is a "more settings" option '...'. Select that, and find "Tag...". Here, you can add "Public" as a tag.
 
-It will take about a day for the URL to show up in [this list](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding). Once it does, copy that URL and use it in the embedding information. If your view has not shown up after a day or so, it is likely because one of your data sources is not following the guidelines of A) being an extracted connection or B) using the data team's service account's credentials.
-
+It will take about a day for the URL to show up in [this list](/handbook/business-technology/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding). Once it does, copy that URL and use it in the embedding information. If your view has not shown up after a day or so, it is likely because one of your data sources is not following the guidelines of A\) being an extracted connection or B\) using the data team's service account's credentials.
 
 ### Workbook Synchronization
 
@@ -109,38 +108,37 @@ Each workbook with views that are meant to be embedded in the public handbook mu
 
 When publishing workbooks to our Tableau Cloud site for the first time please name the workbook with their intended / official title, so that the resulting URL will capture just this title (this will allow us to keep the same URL when the workbook is published to the Ad-hoc or Production spaces):
 
-![](images/naming_tableau_workbook.png)
+![''](images/naming_tableau_workbook.png)
 
-![](images/workbook_url.png)
+![''](images/workbook_url.png)
 
 Publishing to the [Development](https://10az.online.tableau.com/#/site/gitlab/projects/300844) project:
 
 All workbooks published to the Development project will be attached the *Draft* and their department tags to indicate that they are in development mode and not a workbook that has been peer reviewed and intended to serve as the single source of truth (SSOT) for a use case. The BI team will leverage the Tags functionality available in Tableau Cloud to better organize workbooks by department and publishing status. For example, this workbook below is assigned the *Draft* and *Data Team* tags:
 
-![](images/tags.png)
+![''](images/tags.png)
 
 To add tags to the workbook select on the ellipse symbol to the right of that workbook and click on *Tag...*:
 
-![](images/to_tag.png)
+![''](images/to_tag.png)
 
 Once in the Tag window, add in the *Draft* and department tags for the workbook:
 
-![](images/add_tags.png)
+![''](images/add_tags.png)
 
 Publishing to the [Ad-hoc](https://10az.online.tableau.com/#/site/gitlab/projects/361929) or [Production](https://10az.online.tableau.com/#/site/gitlab/projects/361859) project:
 
 When publishing workbooks to the Ad-hoc or Production project, if the workbook is being published for the first time, please select **Move** and then remove the *Draft* by navigating to the ellipse to the right of the workbook, select *Tag...* and then clicking on the *X* within the tag label. If publishing over / updating a workbook that is already in Ad-hoc or Production with a newer version from Development in Tableau Cloud, then select **Edit Workbook**, click on **Publish As**. Please make sure to name the workbook JUST AS it is currently named:
 
-![](images/remove_tags.png)
+![''](images/remove_tags.png)
 
 Applying tags allows us to provide more information on the workbook, so that we can easily discern them by their business function / department and distinguish draft content that is still in development. To filter workbooks by their tags, please click on the search box in the upper right-hand corner of the project. Under **Content types** select **Workbooks**:
 
-![](images/search_tags.png)
+![''](images/search_tags.png)
 
 Once in the Workbooks section, click on the **Tags** dropdown to filter content by tags:
 
-![](images/filter_tags.png)
-
+![''](images/filter_tags.png)
 
 ### Performance Indicators
 
@@ -154,9 +152,9 @@ In order to update the performance indicator, you need to find the yml file whic
 
 To find this file, you are going to go to the GitLab-com repository, which is a repo "for the public-facing marketing website of GitLab, including improvements to the docs and the handbook". From [the repository](https://gitlab.com/gitlab-com/www-gitlab-com), find "Find File" and then paste in the name of the file you are looking for. In this example, you would paste developer_relations_department.
 
-This will bring you to the yml file which you are looking for. From here, you can follow the instructions below to modify the file to include the Tableau view (dashboard or sheet) which you are looking for. Be sure to follow the [Embedding Instructions](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/#embedding-in-the-handbook) when embedding views.
+This will bring you to the yml file which you are looking for. From here, you can follow the instructions below to modify the file to include the Tableau view (dashboard or sheet) which you are looking for. Be sure to follow the [Embedding Instructions](/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/#embedding-in-the-handbook) when embedding views.
 
-Two reminders, first - *make sure that any public views (does not need login access) that are embedded into the public handbook are coming from the public Tableau site*. This means that the workbook they come from has been tagged "Public", and you are getting the URL from the [views available for embedding](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding) page. More information on this process can be found on the [Handbook Embedding Demonstration Page](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/tableau/embed-demo/).
+Two reminders, first - *make sure that any public views (does not need login access) that are embedded into the public handbook are coming from the public Tableau site*. This means that the workbook they come from has been tagged "Public", and you are getting the URL from the [views available for embedding](/handbook/business-technology/data-team/platform/tableau/embed-demo/#views-availble-for-public-embedding) page. More information on this process can be found on the [Handbook Embedding Demonstration Page](/handbook/business-technology/data-team/platform/tableau/embed-demo/).
 
 Second, *if you are embedding a non-public view (requires login), make sure to copy the URL from the "share" button on the top right of the view, not the URL at the top of the page*.
 
@@ -192,7 +190,6 @@ If you just want to embed a chart without any height, filter, or parameter speci
       - url:
 ```
 
-
 Which, in plain English, is:
 
 ```yml
@@ -211,27 +208,25 @@ To use Row Level Security within Tableau the developer will need to use an entit
 
 Find the correct entitlement table for the table you are using.  The entitlement table should be named similar to the table you wish to join it to.
 
-![](images/find_entitlemnet.png)
+![''](images/find_entitlemnet.png)
 
 Perform a direct inner join, not a relationship, between the source table and the entitlement table.
 
-![](images/open_table_for_join.png)
+![''](images/open_table_for_join.png)
 
-![](images/join_entitlement_table.png)
-
+![''](images/join_entitlement_table.png)
 
 Create a Data Source filter using the `USERNAME()` function and the `tableau_user` field in the entitlement table.  This is the step that will ensure that only rows visible to the current user will be retrieved.
 
-![](images/create_filter_filed.png)
+![''](images/create_filter_filed.png)
 
-![](images/create_filter_calc.png)
+![''](images/create_filter_calc.png)
 
-![](images/data_source_filter.png)
-
+![''](images/data_source_filter.png)
 
 ## Guidelines for Publishing Extracts to Production and Ad-Hoc Projects
 
-1. ~1 GB Storage Limit per published extract. This is ~10 million rows of data.  
+1. ~1 GB Storage Limit per published extract. This is ~10 million rows of data.
 2. Scheduled extract refreshes should run between 18:00 and 05:00 UTC
 3. Extracts are a performance management tool and should not be used by default. Live Connections should be the default selection and Extracts should only be considered when dashboard performance becomes an issue (i.e. most visualizations still aren't loading after one minute and performance optimizers have been applied)
 4. We currently have 200 GBs of storage on the Tableau Online site and have dedicated 100 GBs of that storage space for extracts
@@ -246,11 +241,12 @@ driver to keep their session alive.
 To do this the developer needs to edit the `odbc.ini` file
 and set the `CLIENT_SESSION_KEEP_ALIVE` flag to `True`. Typical locations for the file can be found in the [Snowflake documentation](https://docs.snowflake.com/en/developer-guide/odbc/odbc-mac#step-2-configure-the-odbc-driver)
 
-![](images/snowflake-odbc-ini.png)
+![''](images/snowflake-odbc-ini.png)
 
 ## Replacing Datasource in Tableau Desktop
 
 The steps are as follows:
+
 1. Edit the workbook in Tableau Desktop (this is needed for a specific tool that is used)
 1. Add the datasource to swap to as a new datasource in the workbook.
 1. Navigate to a sheet that uses datasource to be replaced.

@@ -63,7 +63,7 @@ The broader Finance and Business Technology team is focused on the principles of
 | ------ | ------ | ------ | ------ |
 | 1 | IT Compliance  | - Remediation Plans Implemented  | SFDC Exit FY24 passing all ITGCs 2024-01-31 |
 | 2 | SFDC Team  | - Continue to staff and build out the team - focus on low cost geos<br> - FY25 AOP funding secured both headcount and contract spend <br> - Program execution in parallel vs sequential | - 4 contractors by 2024-01-31 <br> - 5 FTEs by 2024-07-31 |
-| 3 | IT Processes  | - Improvements on Business Engagement: [SFDC Intake Model](https://handbook.gitlab.com/handbook/business-technology/pmo/) <br> - [Program Prioritization and Planning](https://handbook.gitlab.com/handbook/business-technology/pmo/#it-quarter-planning-process) <br> - Operational Tickets Prioritization and Planning <br> - Partnership with Sales Ops | - Improve and streamline intake and commits with Sales Ops by 2024-01-31 for FY25 Roadmap and Q1. <br> - Increase Velocity and Project Delivery accepted programs to X by 2024-03-31, Y by 2024-04 |
+| 3 | IT Processes  | - Improvements on Business Engagement: [SFDC Intake Model](/handbook/business-technology/pmo/) <br> - [Program Prioritization and Planning](/handbook/business-technology/pmo/#it-quarter-planning-process) <br> - Operational Tickets Prioritization and Planning <br> - Partnership with Sales Ops | - Improve and streamline intake and commits with Sales Ops by 2024-01-31 for FY25 Roadmap and Q1. <br> - Increase Velocity and Project Delivery accepted programs to X by 2024-03-31, Y by 2024-04 |
 | 4 | Execution of Corporate Priorities | - [GTM/ NPI Roadmap](https://docs.google.com/spreadsheets/d/1ljTI_rL4gLPaTAzHNnhOrfZe60AodIfJPvo4-XJl_Pk/edit#gid=399429687) <br> - [Partner Ordering - CloudBlue Program](https://gitlab.com/groups/gitlab-org/-/epics/12188) | Deliver to planned ship dates |
 | 5 | Technology | - [Address Tech Debt / Get Well](https://docs.google.com/spreadsheets/d/1m1uAC3hzne3vP7Eno3g2T3TA0bjTowS-YQ97yH_A5ZQ/edit?usp=sharing) (e.g. [Process Builders](https://gitlab.com/groups/gitlab-com/-/epics/2074), Custom Profile & Permission Set Cleanup) <br> - [Lightning Migration](https://gitlab.com/groups/gitlab-com/-/epics/1953) | - Deliver 2024-03-31 <br> - Deliver FY25-H2 |
 | 6 | Sales Process Improvements | - [Approvals Matrix](https://docs.google.com/spreadsheets/d/1AUFys4-bkykjOCscI2Zhg8FXbqlMNqWwUbAd8ahT2oI/edit#gid=0) | - Deliver in FY24-Q4 and FY25-Q1 |
@@ -118,7 +118,7 @@ As a SaaS company, our Engineering division also has an [infrastructure SRE team
 ### System Owner Directory
 
 - [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations/)
-- [Customer Support Operations](https://handbook.gitlab.com/handbook/support/readiness/operations/)
+- [Customer Support Operations](/handbook/support/readiness/operations/)
 - [Engineering Infrastructure (Reliability SREs)](/handbook/engineering/infrastructure/)
 - [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
 - [Engineering Security](/handbook/security/)

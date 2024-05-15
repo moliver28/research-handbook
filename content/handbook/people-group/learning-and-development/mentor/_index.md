@@ -253,6 +253,3 @@ Consider the following practices and lessons learned by the GitLab team when org
 1. Send 1-2 resources via Slack throughout the program to keep participants engaged and learning.
 1. Use Polly or another survey tool to do a 1 month check in with mentees. This helps identify pairs that have not yet met or foks that might have left the company.
 1. Give participants at least 3 weeks to complete the end of program survey.
-
-
-

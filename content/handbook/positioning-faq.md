@@ -56,7 +56,6 @@ GitLab started as an open source alternative to GitHub. Instead of focusing on h
 1. Gartner: [Q2 2020 Continuous Delivery and Release Automation-Contender](/analysts/forrester-cdra20/)
 1. Forrester: 2018 New Wave Value Stream Management- Strong Performer
 
-
 ## I use Bitbucket.  What can GitLab offer me?
 
 1. Bitbucket has done a lot for the enterprise Git space. Great company.

@@ -97,6 +97,7 @@ References:
 It is important to recognize that people from different cultures have different ways of saying things, different body language, different ways of dressing/attire and even different ways of looking at things. You can review examples of typical cultural differences on the [Center of Intercultural Competence](http://www.cicb.net/en/home/examples).
 
 Summit attendees should also remember:
+
 - We have various generations and 50+ countries/cultures coming together for several straight days, versus our normal routine of interacting remotely.
 - We are guests of this country, of the hotel, and of the sites we will visit - it is our privilege to be there, and we need to be ambassadors of GitLab and lead by example the whole time according to [our values]({{< ref "values" >}}).
 - Be sensitive to political, religious and other potentially divisive conversations
@@ -104,6 +105,3 @@ Summit attendees should also remember:
 ### Lost in Translation
 
 Translation tends to sound easier than it is. People often think that it is just a matter of replacing each source word with a corresponding translated word, and then you are done. Assume best intent from your fellow team members and use it as an opportunity start a new dialogue. For more information you can review the following articles on [LTC Language Solutions](https://ltclanguagesolutions.com/blog/lost-in-translation-translating-cultural-context/)
-
-
-

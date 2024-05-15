@@ -41,7 +41,6 @@ By October 2017, we had 200 team members and 65 guests get together in Greece to
 
 <small>When October 2017 came around, the  team grew to 200 GitLab team members!</small>*
 
-
 ### Summit in Cancun, Mexico
 
 In January 2017, we met in Cancun, Mexico, where roughly 150 team members and 50 guests join from 35 different countries.

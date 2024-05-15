@@ -31,7 +31,6 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. Act as a CEO of yourself and your role by taking responsibility to set goals and appropriate timelines. Prioritize your contributions and know it's [impossible to know everything]({{< ref "values#its-impossible-to-know-everything" >}}).
 1. Communicate clearly with your team and people leader on the status of your goals. Act quickly to address areas that pose a challenge or to reassess goals that cannot be reached in an alloted timeframe.
 
-
 ### Examples of actions from managers of one at GitLab
 
 1. When asked to attend a synchronous brainstorming call, a team member instead opens an issue and [requests for their team's ideas asynchronously](/handbook/company/culture/all-remote/asynchronous/#how-to-decline-meetings-in-favor-of-async).
@@ -136,7 +135,6 @@ GitLab division README pages are linked below for context. Reading other READMEs
 - [Finance Team READMEs](/handbook/finance/readmes/)
 - [Legal Team READMEs](/handbook/legal/readmes/)
 - [Office of the CEO READMEs](/handbook/ceo/office-of-the-ceo/readmes)
-
 
 ### Creating Your README
 
@@ -273,7 +271,6 @@ M-teams are management support groups made up of 3 to 6 managers who are in time
 
 If you're interested in starting or joining an m-team meeting, reach out to other managers in the [#managers](https://gitlab.slack.com/archives/C5Z55R5J5) Slack channel.
 
-
 ## Articles
 
 1. [Carta's Manager’s FAQ](https://readthink.com/a-managers-faq-35858a229f84)
@@ -349,4 +346,4 @@ Learn more on GitLab's view of [being a public company]({{< ref "being-a-public-
 
 ## Mitigating Concerns
 
-We have a page which documents our [Mitigating Concerns](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/). Many of our [values]({{< ref "values" >}}) help to mitigate some of these concerns.
+We have a page which documents our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/). Many of our [values]({{< ref "values" >}}) help to mitigate some of these concerns.

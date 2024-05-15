@@ -55,6 +55,7 @@ The [EBA to the CEO](/handbook/eba/#executive-business-administrator-team) is re
 ## Agenda structure
 
 The agenda for each E-Group Weekly has a single section for each meeting. Each agenda item should [include a tag](/handbook/leadership/1-1/suggested-agenda-format/#hallway). Three of the most often used tags are:
+
 1. FYI: informational, no action needed
 1. TODO: may not require significant discussion time, but there is an ask for all or a subset of E-Group team members
 1. DISCUSS: cover in this meeting

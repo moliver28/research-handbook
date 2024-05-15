@@ -14,7 +14,6 @@ Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RS
 | **Mentor/Mentee Workbook** | [Mentorship resources]({{< ref "mentor#resources" >}}) are available for all mentor/mentee pairs, including suggested articles, strategies for goal setting, and sample meeting agendas. Use of resources is **encouraged**. |
 | **End of Program Celebration and Feedback** | Async discussion to share mentorship success. Participation is **strongly encouraged**. An end of program feedback form will be shared with all mentors and mentees and is **required.** |
 
-
 ### Async First Mentorship
 
 This program includes an opt-in, async first structure to increase opportunity for team members in any time zone to pair with mentors company-wide. Async-first means that mentees can pair with mentors in any time zone. In order to be paired in an async mentorship, both mentor and mentee must opt in while applying.
@@ -169,5 +168,3 @@ What mentors and mentees learned from the program:
 1. `See every question or feedback as an opportunity to learn and grow.`
 1. `How engineers can help non-engineers be successful in the company.`
 1. `We don’t know everything. Don’t be afraid to say I don’t know.`
-
-

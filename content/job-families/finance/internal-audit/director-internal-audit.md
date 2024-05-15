@@ -29,6 +29,7 @@ The Director, Internal Audit is a [grade 10](/handbook/total-rewards/compensatio
 ### Requirements
 
 *Subject matter expertise in auditing and enterprise risk management concepts (e.g., risk assessment/prioritization, process & internal controls, root cause analysis)
+
 - Demonstrated strong professional judgment, critical thinking and written/oral communication skills (e.g., persuasion, influence, conflict resolution)
 - Experienced in leading teams leveraging data and analytical tools to solve business problems and in the audit lifecycle (e.g., audit plan development, risk assessment, engagement execution, reporting, findings management)
 - Experienced in leading, coaching and developing team members

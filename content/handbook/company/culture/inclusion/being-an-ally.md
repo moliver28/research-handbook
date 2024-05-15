@@ -184,6 +184,7 @@ To sign up: TBC
 - Diversity within the group where self-identification is available
 
 What you will need:
+
 - The ability to have 1 synchronous 30-45min a week (Timezone convenient location)
 - A higher intent to become an ally
 

@@ -19,12 +19,13 @@ This guide serves as a toolkit for fostering a supportive work culture where tea
 #### Resource
 
 🏁 Modern Health provides an interactive walkthrough centered on burnout prevention and designed for people managers. [Preventing Burnout in Team Members](https://my.joinmodernhealth.com/program/preventing-burnout-in-team-members) (10 min) is included for all GitLab team members. If this is your first time using GitLab’s Modern Health benefit, you can follow guidance for [team member registration](/handbook/total-rewards/benefits/modern-health/#team-member--family-registration).
-- Reflect: What are other ways “burnout” might show up beyond "fatigue"?
 
+- Reflect: What are other ways “burnout” might show up beyond "fatigue"?
 
 ### Understanding Burnout
 
 Here are some  team member considerations inspired by GitLab’s culture, values, and ways of working. You’ll see some tips, but we’ll share more advice and talking points below:
+
 - **On & Offline:**-  When working in a remote, heavily asynchronous, collaborative team environment you may not always see and hear early signs of fatigue or burnout. Make it a point to reserve time in regular connections to see how team members are managing workload and boundaries. Even asking directly in a Slack message can be helpful.
 - **Flexibility:** GitLab encourages team members to be directly involved in when, where, and how they get their best work done. Managers still play a key role in allowing space while also remaining dialed into progress, output, and managing capacity.
 - **Results-driven:** Burnout has a direct impact on deliverables and overall results. Managers must continuously strive to improve workload management, output, and their team’s well being. This is, in itself, a result of a manager’s leadership capability and there should be a sense of ownership of the work for which their team is responsible.

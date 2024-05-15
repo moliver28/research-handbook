@@ -60,7 +60,7 @@ Application Security team members are responsible for keeping issues and labels 
 Any issue being worked on by an Application Security team member must include:
 
 - The `team::Application Security` label
-- The appropriate `workflow::` label
+- The appropriate `AppSecWorkflow::` label
 - The appropriate Milestone
 
 ### Workflow Labels
@@ -91,4 +91,3 @@ These issues must be labeled with the appropriate AppSecRotation label:
 | Triage | `AppSecWorkType::TriageRotation` |
 | Security Release | `AppSecWorkType::ReleaseRotation` |
 | Federal AppSec VAT | `AppSecWorkType::VATRotation` |
-

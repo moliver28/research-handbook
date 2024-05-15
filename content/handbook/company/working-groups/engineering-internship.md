@@ -61,4 +61,3 @@ Options to extend the [internship program for Engineering](/handbook/engineering
 | Member             | Mon Ray              | Engineering Manager                   |
 | Member             | Kamil Niechajewicz   | Engineering Manager                   |
 | Member             | Amar Patel           | Engineering Manager                   |
-

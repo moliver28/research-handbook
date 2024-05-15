@@ -108,6 +108,7 @@ Our planning process is called the [Planning Drumbeat](/handbook/business-techno
 Beginning in FY25-Q1, the Data Team is using the [GitLab Objectives and Key Results project](https://gitlab.com/gitlab-com/gitlab-OKRs) to manage quarterly commitments.
 
 Process:
+
 1. Create KRs in the project for each of the committed Key Results.
 2. In the KR description, add a link to the corresponding Epic from the GitLab Data Team project where the development work is being tracked.
 3. Throughout the quarter, the DRI for the workstream should make the following updates (at a minimum, these updates should be added at the end of each month in the quarter for the KRs that have the `Division::` scoped label applied to them; some teams may choose to make updates more frequently):
@@ -178,6 +179,7 @@ All issues should get the following classes of labels assigned to them:
 - **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
 
 Optional labels that are useful to communicate state or other priority:
+
 - **What:**
     - Data: Data being touched (Salesforce, Zuora, Zendesk, GitLab.com, etc.)
     - Tool: (Sisense, dbt, Stitch, Airflow, etc.)
@@ -249,6 +251,7 @@ Once the KPI has been added to our enterprise BI platform, the Data Team will pr
 After some time, environments will have software/code/components that are not needed any more. It feels risky to delete software and code, even when its not being used, seems not being used or asked not to being used (i.e. users access).
 
 There are multiple reasons to perform deletions:
+
 1. We see software (or parts of software) that is not used anymore
 2. There is a request to remove user access
 3. There is a request to delete a user account
@@ -263,6 +266,7 @@ Write down what will be deleted and where possible link to existings issues.
 #### Calculate a Risk score
 
 The Risk score is build upon 2 variables.
+
 1. Probability that it will break something
 2. Impact if the deletion is executed by mistake or is execute wrongly
 
@@ -281,7 +285,6 @@ Each variables will be scored 1 to 3.
 | Severe  |   3   |
 
 `Probability` * `Impact` = `Risk Score`
-
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}

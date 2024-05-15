@@ -511,5 +511,5 @@ We will make efforts to clean up any remaining tech debt that we have created - 
 #### Goals
 
 We can start rebalancing old partitions using functionality in PG15 - [Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/438394).
-[GitLab Postgres Upgrade Cadence](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/database/postgresql-upgrade-cadence/)
+[GitLab Postgres Upgrade Cadence](/handbook/engineering/infrastructure/core-platform/data_stores/database/postgresql-upgrade-cadence/)
 

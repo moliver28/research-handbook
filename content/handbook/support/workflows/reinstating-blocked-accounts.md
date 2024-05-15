@@ -105,7 +105,6 @@ This workflow is used to determine if a blocked or a banned user can be reinstat
 1. Send the [`Support::SaaS::Gitlab.com::Blocked Accounts::Escalated-TrustAndSafety`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Escalated-TrustAndSafety.md?ref_type=heads) macro for the initial response to the user.
 1. If account is restored, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::Account Reinstated- Success`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Account%20Reinstated-%20Success.md?ref_type=heads) macro to notify the user the account has been restored. Otherwise, provide the reasoning from the Reinstatement Request as to why their account will remain banned.
 
-
 ## Cancelling delayed account deletion
 
 It is possible for self-initiated account deletion to be cancelled within the 7-day delay period. See [Unblocking the account will cancel the account deletion](https://gitlab.com/gitlab-org/modelops/anti-abuse/team-tasks/-/issues/423).
@@ -113,8 +112,10 @@ It is possible for self-initiated account deletion to be cancelled within the 7-
 A request to cancel the deletion of an account may be made by a member of a *paid* group or a top-level owner if the user is an [Enterprise user]({{< ref "gitlab-com_overview.md#enterprise-users" >}}). We do not cancel account deletion for free users.
 
 Process:
+
 1. The paid user or top-level owner must successfully pass [account verification](/handbook/support/workflows/account_verification).
 1. Unblock the user and leave an [admin note](/handbook/support/workflows/admin_note) on the user stating they were unblocked, with the date and ticket number.
+
 ---
 
 NOTE:

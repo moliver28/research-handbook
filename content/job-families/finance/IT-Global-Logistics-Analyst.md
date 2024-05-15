@@ -22,7 +22,6 @@ title: "IT Global Logistics Analyst"
 - Coordinate contingent workforce engagements for hardware and asset life cycle
 - Project coordination for roll outs or updates to assets
 
-
 ### Requirements
 
 - Experience with CMDB databases and an interest in its administration
@@ -34,7 +33,6 @@ title: "IT Global Logistics Analyst"
 - Ability to use GitLab for merge requests
 - Customer service centric
 - Excellent communication skills both written and verbal
-
 
 ## Levels
 
@@ -90,7 +88,6 @@ The Senior IT Global Logistics Analystis a [grade 7](/handbook/total-rewards/com
 - [Average Merge Request](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-merge-request)
 - [Average Delivery Time of Laptop Machines < 21 days](https://internal.gitlab.com/handbook/it/it-performance-indicators/#average-delivery-time-of-laptop-machines--21-days)
 - [Customer Satisfaction Survey (CSAT)](https://internal.gitlab.com/handbook/it/it-performance-indicators/#customer-satisfaction-survey-csat)
-
 
 ## Hiring Process
 

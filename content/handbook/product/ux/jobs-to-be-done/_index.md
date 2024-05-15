@@ -59,7 +59,7 @@ Both personas and Job Performers are useful constructs in helping to understand 
 
 It may help to think about the other actors or Job Performers that relate to your Domain in order to help in selecting a Job Performer to build your canvas around. Consider, who are all of the potential Job Performers within your Domain performing tasks? Once you've select the primary Job Performer you want to innovate for, move the remaining Job Performers to the Related Job Performers section, if you deem it necesary, you can build canvases around them at a later date.
 
-### **Main Job:** Where do you want to innovate?
+### **Main Job:** What is the Job Performer trying to get done?
 
 The Main Job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. What is the Job Performer trying to get done in the selected Domain? Main Jobs should be timeless and as unchanging as possible. It should be expressed in functional terms, like a utilitarian goal. It’s an act that should be performed and have a clear end state… the “done” part of JTBD. It is not what your company needs to do to deliver a service. Always think in terms of the Job Performer’s perspective. The level of granularity for the Main Job can vary, depending on the innovation's purpose and feasibility.
 

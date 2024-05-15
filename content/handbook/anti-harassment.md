@@ -208,6 +208,7 @@ The psychosocial intervention advisor will investigate further and provide a rep
 The law defines power harassment as "remarks or behaviour by people taking advantage of their superior position that go beyond business necessity, thereby harming the workplace environment.  GitLab expressly prohibits any behaviour toward team members that falls within the definition of power harassment.
 
 Depending on the individual, a person may feel dissatisfaction when given the instructions, advice, or guidance necessary in the ordinary course of business.  In such cases where the actions are conducted within the scope of appropriate business practice, they should not fall under the category of power harassment.  Examples of power harassment include, but may not be limited to:
+
 - assault or injury (physical abuse)
 - threats, defamation, insult or slander (mental abuse)
 - isolation, ostracization or neglect (cutting them off from human relationships)
@@ -280,7 +281,6 @@ The Company is aware of and recognises the effect that bullying, harassment and 
 1. If both parties agree to resolve the issue by mediation, the Company will arrange the mediation process. An appropriate person, acceptable to both parties, from within or outside the Company will be assigned as mediator. The Team Member Relations specialist may serve as the internal mediator, if acceptable to both parties.
 1. If the mediation process results in an agreement acceptable to both parties, the mediator will draw up a written record of the terms of the settlement for signature by both parties.
 1. If mediation breaks down or fails to achieve its goal, the matter can be processed through the other stages of this procedure. The person involved in the mediation process will not be involved in the investigation process.
-
 
 ### GitLab Inc and GitLab Federal LLC
 

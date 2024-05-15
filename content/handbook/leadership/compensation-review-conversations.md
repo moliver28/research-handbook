@@ -110,4 +110,3 @@ Thank you for your ongoing commitment to results at GitLab! If you have any ques
     - If your team member is in good standing from a performance perspective, work with them to put together a [development plan](/handbook/people-group/learning-and-development/career-development/) to help them continue to grow.
 
 **If you need assistance after reviewing the [handbook](/handbook/total-rewards/compensation/), please work directly with your manager or your [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division)**
-

@@ -26,6 +26,7 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 GitLab's bug bounty program is managed by HackerOne. The HackerOne triage team are the first responders, and will work with researchers to validate reports before assigning to `GitLab Team`.
 
 We usually trust the HackerOne Triage Team and don't necessarily validate the report a second time. There are however cases when the GitLab team member on rotation may want to re-validate it, for example (non exhaustive list):
+
 - There may be additional impact that require more investigation
 - The severity can't be properly assessed without further investigation
 
@@ -209,6 +210,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
 Sometimes researchers will report a vulnerability in features behind a [feature flag](https://docs.gitlab.com/ee/operations/feature_flags.html). These reports are excellent as they allow us to patch vulnerabilities prior to them affecting our wider audience that utilizes the default settings. These reports are eligible for the full amount of their calculated bounty.
 
 Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - ***"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."***.
+
 - A vulnerability in a feature behind a feature flag that is not complex will be `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance)
 - A vulnerability in a feature behind a feature flag that is quite complex will still be `AC:H` (this is after assuming the feature flag is enabled on a vulnerable instance)
 
@@ -232,6 +234,7 @@ Vulnerabilities in deprecated features are triaged normally. [See discussion](ht
 ## Triaging DNS record takeovers
 
 DNS record takeovers typically require multiple teams in order to triage. The workflow is slightly different:
+
 - Instead of pinging the team responsible for the given page (or service, in the case of MX or TXT records) we collaborate with SIRT and the SRE Oncall
 - We import the HackerOne report to the infrastructure repository via `/h1 import $REPORT infrastructure`
 - Engage SIRT via `/security` in Slack. This will allow SIRT to perform their investigatory duties related to this type of attack.
@@ -349,6 +352,7 @@ When GitLab receives reports, via HackerOne or other means, which might affect t
 
 Vulnerabilities on third-party software are accepted according to the following rules, as stated in our [HackerOne policy](https://hackerone.com/gitlab?type=team):
 The report includes a new vulnerability, for which a patch is not available, or
+
   - A patch has been available for more than 30 days.
   - It has a clear and working proof of concept that illustrates the impact to GitLab.
   - It has Critical or High impact to GitLab.

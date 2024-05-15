@@ -104,8 +104,6 @@ Hybrid-remote is one of the most popular models currently being explored by orga
 
 However, hybrid-remote is a [tempting compromise that masks many downsides]({{< ref "./hybrid-remote" >}}). In a hybrid-remote organization, leaders are forced to manage two fundamentally distinct ways of working. There is administrative burden to manage a default-onsite experience and a default-offsite experience, and some employees may choose to oscillate between the two.
 
-
-
 While such organizations work well for some employees, it's important to note that many hybrid-remote companies are not comfortable being publicly labeled as such. Their job vacancies may not be listed as remote-friendly. Should you apply for such a role, be prepared to lobby for assuming the role in a remote environment every step of the way.
 
 <!-- TODO: Replace with screenshots. -->

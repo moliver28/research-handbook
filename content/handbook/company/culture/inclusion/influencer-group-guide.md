@@ -9,7 +9,6 @@ Internal diversity groups are a valuable component of a company’s diversity, i
 
 The Global DIB Influencer Group is an action oriented group that advocates, sponsors and evangelizes DIB initiatives and is a voice for all team members on matters of Diversity, Inclusion & Belonging.
 
-
 ### Responsibilities of the Group
 
 - Become influencers with regards to Diversity, Inclusion & Belonging at GitLab:
