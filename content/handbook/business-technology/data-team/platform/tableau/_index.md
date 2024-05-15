@@ -530,8 +530,6 @@ permission_templates:
 
 </details>
 
-
-
 #### Tableau Licenses
 
 Licenses may be downgraded by the Data Team as needed to meet demand according to the following activity guidelines guidelines:
@@ -546,8 +544,7 @@ Licenses may be downgraded by the Data Team as needed to meet demand according t
   - Have accessed a View within the past 90 days
   - Have accessed a Datasource within the past 90 days
 
-
-Inactive licenses will the reclaimed quarterly following our [Data Health and Security practices](https://handbook.gitlab.com/handbook/business-technology/data-team/data-management/#tableau). 
+Inactive licenses will the reclaimed quarterly following our [Data Health and Security practices](https://handbook.gitlab.com/handbook/business-technology/data-team/data-management/#tableau).
 
 **Tracking License Usage**
 
@@ -557,8 +554,6 @@ Inactive licenses will the reclaimed quarterly following our [Data Health and Se
 - [Licenses Used](https://10az.online.tableau.com/#/site/gitlab/analysis/LoginBasedLicenseUsage)
 - [Actions by Users](https://10az.online.tableau.com/#/site/gitlab/analysis/ActionsbyAllUsers)
 - [eLearning Usage](https://dashboard.skilljar.com/analytics/) (Admins only)
-
-
 
 ### Access
 
