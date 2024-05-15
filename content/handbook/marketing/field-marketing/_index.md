@@ -83,6 +83,11 @@ Meeting Setting occurs when the Corporate Events team sponsors a large conferenc
 
 Being the marketing experts for the region, GitLab Field Marketers are also responsible for using other tactics to help generate leads to build pipeline. We have options such as survey tools, both of current employees and past employees based on the 3rd party vendor we use, webcasts, direct mailings, and also various digital tactics.
 
+## Regional Marketing Content
+Current regional marketing content and presentations can be accessed [here](drive.google.com/drive/u/0/folders/0AHFbLUWw3IEJUk9PVA)
+Content is classified into 2 groups: Economic Buyer and Technical Buyer. Choose the content category that aligns best - Economic Buyer for those focusing on business aspects, and Technical Buyer for those interested in technical details or specifications.
+
+
 ### ReachDesk
 Go to the [Reachdesk page](/handbook/marketing/marketing-operations/reachdesk) for instructions on campaign set up and best practices.
 
