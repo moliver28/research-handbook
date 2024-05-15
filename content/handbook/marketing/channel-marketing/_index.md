@@ -640,7 +640,7 @@ This process requires the following platforms: Allocadia, Marketo, Salesforce, T
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6LFKq2rQaw16YFhq1zej5d%2FSales-Dev---Partner-Sales-Collaboration%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Dzu4zZQVPbHpeR8S0-1" allowfullscreen></iframe>
 
 1. Allocadia - Create the subcategory and line item in Allocadia.
-   1. [Create FM - BDR Collaboration issue](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/FM_BDR_Collaboration_Template.md?ref_type=heads) to communicate how the Sales Dev team is expected to follow up with the campaign.
+   1. [Create Sales Dev - Partner Campaign Alignment issue (automated when Worked by Sales Dev = True)](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads) to communicate how the Sales Dev team is expected to follow up with the campaign.
 2. Marketo - Clone the appropriate [FM Marketo template](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns). Follow the [instructions](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#types-of-partner-campaigns) to set up Marketo Program and SFDC Campaign.
    1. Add Allocadia Subcategory ID to Marketo Program/SFDC campaign description, then sync to Salesforce Campaign
 3. SFDC - Update Salesforce Campaign
