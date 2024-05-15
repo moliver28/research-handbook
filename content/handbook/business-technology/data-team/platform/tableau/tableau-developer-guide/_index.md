@@ -3,7 +3,9 @@
 title: "Tableau Developer Guide"
 description: "GitLab's Tableau Developer guide"
 ---
+## Quick Links
 
+- [Tips and Tricks](/handbook/business-technology/data-team/platform/tableau/tableau-developer-guide/tips-and-tricks-for-developers/)
 
 ## Data Source Approach
 
