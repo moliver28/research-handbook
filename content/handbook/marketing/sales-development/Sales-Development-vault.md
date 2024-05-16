@@ -570,6 +570,12 @@ On folder #5 in the [6Sense segments list](https://gitlab.abm.6sense.com/segment
 
 * This allows you to see what members/roles are associated with each territory. When you need a change in BDR assignment to a territory, please sharethe territory name with Sales Dev Ops, not the name of the account. Search for the account owner name and tell Sales Dev Ops which territory/territories require that BDR to be assigned.
 
+## New Account AE Reports
+
+* Use [this report](https://gitlab.my.salesforce.com/00O8X000008gmAA) to figure out the the territory name for the account you are working. Use command F to find the zip/state/country and figure out correct territory name. 
+* Then use [this report](https://gitlab.my.salesforce.com/00O8X000008glPn) by plugging in the territory name to figure out who the correct AE is
+* Please make sure you have all the correct location information on the lead you converting to initially create this new account. 
+
 ## Onboarding
 
 GitLab People Connect Team members will [create the onboarding issue](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#timing) and start completing the onboarding tasks, no later than one week before the new team member joins. People Connect Team members require a minimum of 4 business days (with the new hire timezone as the basis) before the new hire's start date to complete all onboarding tasks. This issue will be automatically assigned to you. As a manager, you will [also have tasks](/handbook/people-group/general-onboarding/#managers-of-new-team-members) that need to be completed prior to the new team member's start date.
