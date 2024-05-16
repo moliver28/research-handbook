@@ -4,13 +4,14 @@ title: Manage Stage
 
 ## Manage
 
-The responsibilities of this stage are described by the [Manage product
-category](/handbook/product/categories/#manage-stage). Manage is made up of multiple groups, each with their own categories and areas of
-responsibility.
+The responsibilities of this stage are described by the [Manage product category](/handbook/product/categories/#manage-stage).
+Manage is made up of multiple groups, each with their own features and areas of responsibility.
 
 * I have a question. Who do I ask?
 
-In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [category](/handbook/product/categories/#dev). GitLab employees can also use [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX).
+In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [product category](/handbook/product/categories/#manage-stage).
+
+GitLab team members can also use [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX).
 
 ## How we work
 
@@ -52,10 +53,10 @@ This section lists relevant experience areas for individual contributors interes
 
 **Expert hiring manager**
 
-- Experience with behavioral interviews
-- Screening candidates for your team
-- Identifying cultural answers or clarifying vague answers
-- Identifying a headcount need in advance
+* Experience with behavioral interviews
+* Screening candidates for your team
+* Identifying cultural answers or clarifying vague answers
+* Identifying a headcount need in advance
 
 </details>
 
@@ -64,11 +65,11 @@ This section lists relevant experience areas for individual contributors interes
 
 **Performance management**
 
-- Crucial conversations
-- Performance improvement plans
-- Coaching on improvement areas
-- Giving feedback
-- Identifying underperformance
+* Crucial conversations
+* Performance improvement plans
+* Coaching on improvement areas
+* Giving feedback
+* Identifying underperformance
 
 </details>
 
@@ -77,8 +78,8 @@ This section lists relevant experience areas for individual contributors interes
 
 **Communicating company decisions**
 
-- Annual review, calibration sessions, compensation discussions
-- Motivating team members on opportunities that come with negatives (borrow requests, engineering allocations, feature change locks)
+* Annual review, calibration sessions, compensation discussions
+* Motivating team members on opportunities that come with negatives (borrow requests, engineering allocations, feature change locks)
 
 </details>
 
@@ -87,14 +88,13 @@ This section lists relevant experience areas for individual contributors interes
 
 **Product area**
 
-- Triage reports
-- Define and monitor productivity metrics, take action if necessary
-- Collaborative planning
-- Proactively identifying issues or recommending engineering allocations
-- Leading an incident in your area
-- Proposing and driving a borrow request (reactive)
-- Shared OKRs and delivery
-- Monthly Performance Indicator [updates](https://gitlab.com/gitlab-com/Product/-/issues/?search=%22Monthly%20Dev%20Section%20PI%22&sort=weight_desc&state=all&first_page_size=50)
+* Triage reports
+* Define and monitor productivity metrics, take action if necessary
+* Collaborative planning
+* Proactively identifying issues or recommending engineering allocations
+* Leading an incident in your area
+* Proposing and driving a borrow request (reactive)
+* Shared OKRs and delivery
 
 </details>
 
@@ -103,12 +103,12 @@ This section lists relevant experience areas for individual contributors interes
 
 **Team success**
 
-- Career growth development leading to promotions, mentors, technical interviews, maintainers
-- Setting goals based on 360 feedback and career aspirations
-- Smooth onboarding process
-- Frequent and transparent handbook updates
-- Identifying performance indicators for the team
-- Becoming a mentor
+* Career growth development leading to promotions, mentors, technical interviews, maintainers
+* Setting goals based on 360 feedback and career aspirations
+* Smooth onboarding process
+* Frequent and transparent handbook updates
+* Identifying performance indicators for the team
+* Becoming a mentor
 
 </details>
 
@@ -117,11 +117,11 @@ This section lists relevant experience areas for individual contributors interes
 
 **Achieving consensus**
 
-- Facilitating a working group
-- Participating in stage, sub-department, skip level, and/or engineering manager discussions
-- Coordinating the dev on-call
-- Experience with being Incident Manager On-Call ([IMOC](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities))
-- Collaboration with the full product group [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/)
+* Facilitating a working group
+* Participating in stage, sub-department, skip level, and/or engineering manager discussions
+* Coordinating the dev on-call
+* Experience with being Incident Manager On-Call ([IMOC](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities))
+* Collaboration with the full product group [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/)
 
 </details>
 
@@ -130,22 +130,22 @@ This section lists relevant experience areas for individual contributors interes
 
 **Personal growth**
 
-- Receiving feedback
-- Continued learning, identifying new growth opportunities, and building a personal growth plan
-- Seeking a mentor
+* Receiving feedback
+* Continued learning, identifying new growth opportunities, and building a personal growth plan
+* Seeking a mentor
 
 </details>
 
 
 #### Trainings offered by GitLab for EMs
 
-- [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate/)
-- [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
+* [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate/)
+* [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/)
 
 #### Other resources
 
-- Slack [#aspiring-managers](https://gitlab.slack.com/archives/C029TEKMDQ8) channel
-- [Handbook page](/handbook/engineering/development/dev/training/ic-to-manager/) dedicated to growing leadership skills for ICs
+* Slack [#aspiring-managers](https://gitlab.slack.com/archives/C029TEKMDQ8) channel
+* [Handbook page](/handbook/engineering/development/dev/training/ic-to-manager/) dedicated to growing leadership skills for ICs
 
 ### Staff Engineers
 
@@ -190,21 +190,17 @@ All meetings should have an agenda prepared at least 12 hours in advance. If thi
 
 ## Dashboards
 
-- [Performance indicator overview](/handbook/engineering/metrics/dev/manage/)
+* [Performance indicator overview](/handbook/engineering/metrics/dev/manage/)
 
 ## Links and resources
 
 {{% include "includes/engineering/manage/shared-links.md" %}}
 * Our handbook pages
-  * [Authentication and Authorization](/handbook/engineering/development/dev/manage/authentication-and-authorization/)
   * [Foundations](/handbook/engineering/development/dev/manage/foundations/)
   * [Import and Integrate](/handbook/engineering/development/dev/manage/import-and-integrate/)
 * Our Slack channels
-  * Manage:Authentication and Authorization [#g_manage_auth](https://gitlab.slack.com/archives/CLM1D8QR0)
   * Manage:Foundations [#g_manage_foundations](https://gitlab.slack.com/messages/C010NAWPRV4)
   * Manage:Import and Integrate [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/C04RDL3MEH5)
-  * Manage:Organization [#g_manage_organization](https://gitlab.slack.com/archives/C02AZ7C32N5)
 * Issue boards
-  * Authentication and Authorization [build board](https://gitlab.com/groups/gitlab-org/-/boards/1305005) and [refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1747837)
-  * Foundations board placeholder
-  * Import and Integrate [build board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
+  * Foundations [current milestone work board](https://gitlab.com/groups/gitlab-org/-/boards/3871464?label_name%5B%5D=group%3A%3Afoundations&milestone_title=Started)
+  * Import and Integrate [current milestone work board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)

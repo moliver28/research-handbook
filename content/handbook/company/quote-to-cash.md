@@ -66,111 +66,7 @@ The Q2C systems consists of several systems including Salesforce, Zuora (CPQ, 36
 
 ## Architecture
 
-<div class="x-scrollable">
-<div style="width: 1800px;">
-
-```mermaid
-flowchart TD
-    subgraph A[ZUORA]
-        subgraph B[ZUORA-CPQ]
-            I[Product Catalog Management]
-            J[Customer Selling Entity Management]
-            K[OTC Contact Management]
-            L[Quoting Rules]
-        end
-        subgraph C[ZUORA-Billing]
-            M[Product Catalog Management]
-            subgraph N[Account Management]
-                AC[Customer Selling Entity Management]
-                AD[OTC Contact Management]
-            end
-            O[Subscription Management]
-            Q[Payment]
-            P[Invoicing]
-         end
-        subgraph D[ZUORA-Revenue]
-            subgraph R[Revenue Recognition]
-                AE[Standalone Selling Price]
-                AF[Allocation by Obligations/Revenue Streams]
-            end
-        end
-    end
-    subgraph E[NETSUITE]
-        subgraph S[General Ledger]
-            AG[Revenue Recognition]
-            AH[Expense Recognition]
-            AI[Equity Management]
-        end
-        T[Treasury Management]
-        U[Financial Reporting]
-    end
-    subgraph F[TESORIO]
-        V[Customer Dunning Campaigns]
-        W[Accounts Receivable Reporting]
-    end
-    subgraph G[STRIPE]
-        X[Credit Card Verification]
-        Y[Credit Card Payment Processing]
-        Z[Fraud Management]
-    end
-    subgraph H[AVALARA]
-        AA[Tax Rate/Calculations]
-        AB[Tax Remittance]
-    end
-    AJ[Salesforce]
-    AK[CDot]
-    B <--Zuora360--> C
-    C --- D
-    D ---Platypus--> E
-    C ---Platypus--> E
-    C <---> G
-    C <---> H
-    C ----> F
-    AJ ---> B
-    AK ----> C
-A:::gray
-B:::gray
-C:::gray
-D:::gray
-E:::gray
-F:::gray
-G:::gray
-H:::gray
-I:::yellow
-J:::red
-K:::red
-L:::green
-M:::yellow
-N:::gray
-O:::yellow
-P:::yellow
-Q:::yellow
-R:::gray
-S:::gray
-T:::yellow
-U:::yellow
-V:::green
-W:::green
-X:::green
-Y:::green
-Z:::yellow
-AA:::yellow
-AB:::yellow
-AC:::red
-AD:::red
-AE:::yellow
-AF:::yellow
-AG:::yellow
-AH:::yellow
-AI:::yellow
-classDef green fill:#DCFFE5;
-classDef yellow fill:#FFFFDC;
-classDef red fill:#FFDCDC;
-classDef gray fill:#FFFFFF;
-```
-
-</div>
-</div>
+![ltc-landscape](/handbook/company/ltc-landscape.png)
 
 ## Data Objects
 
@@ -426,7 +322,6 @@ A `CustomersDot User` record in CDot is tied to one email address.  This email a
 - [Iteration 1C : A single CustomersDot User can have multiple BillingAccounts](https://gitlab.com/groups/gitlab-org/-/epics/8986) - Not Started
 - [Iteration 1D: Clean up legacy data objects](https://gitlab.com/groups/gitlab-org/-/epics/8949) - Not Started
 
-
 #### Background
 
 In this epic, the focus is on improving the data architecture of CustomersDot to better align with Zuora Billing Accounts. The `Customer` model in CDot has known design flaws as it represents a combination of both a Zuora Contact (individual user) and a Zuora Account (organization).
@@ -449,7 +344,6 @@ It is important to note that a Zuora Account maps to a company/customer account 
 1. [CDot Issue #242](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/242)
 1. [CDot Issue #695](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/695)
 1. [GL Issue #338546](https://gitlab.com/gitlab-org/gitlab/-/issues/338546)
-
 
 #### Plan
 
@@ -500,7 +394,6 @@ Overall, this will lead to a more secure environment for our customers in CDot a
 - [CDot SSO: Enhance experience for first time login to CDot](https://gitlab.com/groups/gitlab-org/-/epics/9156)
 - [CDot SSO: Migrate more CDot customers to use the GitLab SSO for login](https://gitlab.com/groups/gitlab-org/-/epics/9155)
 
-
 #### Align CustomersDot Orders with Zuora Orders
 
 This work focuses on breaking apart the `CustomersDot Order` table and moving towards a data structure that is more representative of the `Zuora Subscriptions` table.
@@ -508,6 +401,7 @@ This work focuses on breaking apart the `CustomersDot Order` table and moving to
 See the [Architecture Blueprint](https://docs.gitlab.com/ee/architecture/blueprints/cdot_orders/) for full details.
 
 [Align CustomersDot Orders to Zuora objects](https://gitlab.com/groups/gitlab-org/-/epics/9748)
+
 - [Phase 1: Implement Zuora Cache Models](https://gitlab.com/groups/gitlab-org/-/epics/11751)
 - [Phase 2: Utilize Zuora Cache Models](https://gitlab.com/groups/gitlab-org/-/epics/11752)
 - [Phase 3: Replace CDot Order with Subscription](https://gitlab.com/groups/gitlab-org/-/epics/11753)
@@ -555,7 +449,6 @@ The Master Data Objects development work in Snowflake/dbt is tracked in these tw
 Below is the Entity Relationship Diagram for the Re-architected data model in Snowflake. The Target State tab shows how the business entities we extract from the CustomersDot, Zuora, Salesforce, and GitLab.com source systems connect with each other.
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/c8f1520c-e59b-4551-a9db-bfce88bb84dc" id="0GkOGAjoD_O."></iframe></div>
-
 
 #### Conformed Dimension Design for Core Business Objects
 

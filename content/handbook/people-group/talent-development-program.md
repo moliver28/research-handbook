@@ -9,13 +9,13 @@ As we continue to scale, we want to be intentional about Talent Development. Inv
 
 GitLab's Talent Development Program includes the following initiatives:
 
-- [Talent Assessment Tool]({{< ref "/handbook/people-group/talent-assessment" >}})
+- [Talent Assessment Tool](/handbook/people-group/talent-assessment)
 - [360 Feedback]({{< ref "360-feedback" >}})
 - [Organisational Structure and gaps]({{< ref "structure" >}})
-- [Performance Assessments and Succession Planning]({{< ref "/handbook/people-group/talent-assessment" >}})
+- [Performance Assessments and Succession Planning](/handbook/people-group/talent-assessment)
 - [Career Development Conversations]({{< ref "1-1#career-development-discussion-at-the-1-1" >}})
 - [Performance Improvement Plans (PIP)]({{< ref "underperformance#options-for-remediation" >}})
-- [Performance Enablement Review]({{< ref "/handbook/people-group/learning-and-development/career-development#performance-enablement-review" >}})
+- [Performance Enablement Review](/handbook/people-group/learning-and-development/career-development#performance-enablement-review)
 - [Individual Growth Plan](https://docs.google.com/document/d/1ZjdIuK5mNpljiHnFMK4dvqfTOzV9iSJj66OtoYbniFM/edit)
 - [Engagement Survey]({{< ref "engagement" >}})
 - [Annual Compensation Review]({{< ref "compensation-review-cycle#annual-compensation-review" >}})
@@ -34,19 +34,18 @@ graph LR
   Gid1([Career Development<br> Conversations]):::classC --> Iid1([Performance<br> Enablement Plan]):::classD
   Gid1([Career Development<br> Conversations]):::classC --> Jid1([Performance<br> Improvement Plan]):::classD
 
-click Aid1 "{{< ref "/handbook/people-group/talent-assessment" >}}"
+click Aid1 "/handbook/people-group/talent-assessment"
 click Bid1 "{{< ref "structure" >}}"
 click Did1 "{{< ref "360-feedback" >}}"
-click Eid1 "{{< ref "/handbook/people-group/talent-assessment" >}}"
+click Eid1 "/handbook/people-group/talent-assessment"
 click Fid1 "/handbook/hiring/"
 click Gid1 "{{< ref "1-1#career-development-discussion-at-the-1-1" >}}"
-click Hid1 "{{< ref "/handbook/people-group/learning-and-development/career-development#internal-resources" >}}"
+click Hid1 "/handbook/people-group/learning-and-development/career-development#internal-resources"
 
 classDef classA fill:#dcf3f5, stroke:#20757d
 classDef classB fill:#f7dcf1, stroke:#521144
 classDef classC fill:#D6EAF8, stroke:#21618C
 classDef classD fill:#D7BDE2, stroke:#633974
 ```
-
 
 We are using this [Talent Development Program issue](https://gitlab.com/gitlab-com/people-group/General/-/issues/719) to work on the content and overall planning of this page and the program. Follow along and please contribute!

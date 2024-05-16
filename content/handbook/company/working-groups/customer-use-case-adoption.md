@@ -14,11 +14,11 @@ This working group is charged with driving the necessary cross-functional alignm
 1. Mature **existing and new use cases and measures**, including thresholds
 1. Build use cases as input into **actions** to drive the business
 
-#### FY25 Scope: CI and Security & Compliance
+### FY25 Scope: CI and Security & Compliance
 
 [FY 25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/) have specific goals around both CI and Security & Compliance adoption, and this working group is re-aligning to support and service both use cases.
 
-#### FY24 Refocusing of Working Group on CI Adoption
+### FY24 Refocusing of Working Group on CI Adoption
 
 Effective 2023-08-17, the focus of the Customer Use Case Adoption working group pivoted explicitly to CI Adoption and driving the cross-functional workstreams required to achieve CI Adoption ARR of 50% by the end of FY24-Q4. Given the workstreams aligned upon, CI was the only Use Case focused on by this working group for the remainder of FY24.
 
@@ -40,6 +40,7 @@ Note that these goals are aspirational so we set a high bar (and potentially ach
 ### FY25
 
 Included in our [FY 25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/) is a goal to `Accelerate visibility into usage and drive value by driving CI, Compliance and Security adoption`.  Supporting this Yearly are two (2) objectives:
+
 - [ ] 80 of top 100 (child account) largest customers utilizing CI
 - [ ] 65% of Ultimate ARR utilizing Security & Compliance
 
@@ -49,7 +50,6 @@ Included in our [FY 25 Yearlies](https://internal.gitlab.com/handbook/company/ye
 CI Adoption Initiatives
     - FY24-Q4: [CI Adoption - Acceleration Proposals to drive CI ARR to 50% by FY24-Q4](https://gitlab.com/groups/gitlab-com/-/epics/2250)
     - FY24-Q3: [CI Adoption - Acceleration Proposals to drive CI ARR to 50% by FY24-Q3](https://gitlab.com/groups/gitlab-com/-/epics/2225)
-
 
 ## Roles and Responsibilities
 
@@ -61,10 +61,10 @@ CI Adoption Initiatives
 | Facilitator                                       | David Tuan                    | Director, Strategy and Operations                          |
 | Functional Lead - CSM                             | Michael Leutz                 | Director, Customer Success Management, EMEA                |
 | Functional Lead - Sales                           | Open - TBD                    |                                                            |
-| Functional Lead - Marketing                       | Dan Hom                       | Product Marketing Manager                                  |
+| Functional Lead - Marketing (CI)                  | Dan Hom                       | Product Marketing Manager                                  |
 | Functional Lead - Product (CI)                    | Jackie Porter                 | Director, Product Management                               |
-| Functional Lead - Product (Security & Compliance) | Open - TBD                    |                                                            |
-| Functional Lead - Professional Services           | Kevin Lake                    | VP of Professional Services                                |
+| Functional Lead - Product (Security & Compliance) | Sam White                     | Group Manager, Product Management                          |
+| Functional Lead - Professional Services           | Brian Will                    | Senior Manager, Professional Services                      |
 | Functional Lead - Developer Relations             | Michael Friedrich             | Senior Developer Advocate                                  |
 | Functional Lead - Customer Adoption Data          | Michael Arntz                 | Sales Strategy Manager                                     |
 | Functional Lead - Enterprise Data                 | Israel Weeks                  | Director, Data and Analytics                               |

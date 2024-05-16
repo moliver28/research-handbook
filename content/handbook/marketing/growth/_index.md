@@ -93,6 +93,17 @@ Growth requires constant learning, and many compaines face similar challenges or
   - *Onboarding Emails:* Refers to emails that are sent to Saas and self-managed users intended to drive stage adoption via the email service the instance sets up.
 - *SaaS Purchase Flow* - We consider the SaaS purchase flow (or "funnel") to begin with with the first screen of the checkout experience (the first page that displays the total cost of their GitLab subscription) and continues through the payment sequence with the last step of the flow being the successful first-time purchase of a GitLab paid tier. A potential customer can enter this experience directly within the SaaS app from the /billings page or on `about.gitlab.com/pricing`.
 
+## Growth Shared Calendar
+
+We use Growth PTO shared calendar to ensure all time off events are visible to everyone on the Growth team. To enable syncing your PTO from Time Off by Deel with this calendar follow these instructions:
+
+1. In Slack open app *Time Off by Deel*
+1. Ensure you are on *Home* tab and select *Calendar Sync* from the dropdown menu
+1. Under the section *Additional calendars to include?* click *Add calendar*
+1. Copy & paste this calendar ID: `c_5e5a9e4df8718fb25c518f165ca78fbccd42a7b6e1437a3caa6650e8e8dffbea@group.calendar.google.com`
+
+Congratulations! :tada: From now on all your PTO events will be automatically synced to our shared calendar! 
+
 ### Helpful Links
 *   [Engineering Growth Section](/handbook/marketing/growth/engineering/)
 *   [Growth Product Handbook](/handbook/product/growth/)

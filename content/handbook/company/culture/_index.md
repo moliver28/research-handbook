@@ -55,7 +55,7 @@ As our company and the industry continue to grow, you'll have the freedom to cha
 
 > At GitLab, we're figuring out a lot of things you have to do to be all-remote, and we're trying to share those lessons. That's anything from working [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) to [communication styles]({{< ref "./all-remote/effective-communication" >}}) and being intentional about [informal communication]({{< ref "./all-remote/informal-communication" >}}).
 >
-> If you Google "*GitLab all-remote*", you'll find tons of tips. And those are based not just on what we say, but what we *do*. We have a public [handbook]({{< ref "/handbook" >}}) of over 3000 pages with all our internal processes. You can check out what we really do to make this work.
+> If you Google "*GitLab all-remote*", you'll find tons of tips. And those are based not just on what we say, but what we *do*. We have a public [handbook](/handbook) of over 3000 pages with all our internal processes. You can check out what we really do to make this work.
 >
 > I think it's going to be the future. In the future, companies who make digital products are going to be much more all-remote. And we want to [enable that trend]({{< ref "remote-vision" >}}). We think it's great for [team members]({{< ref "./all-remote/people" >}}).
 
@@ -110,46 +110,45 @@ Some key takeaways from the call include:
 
 ## Historical Anecdotes
 
-#### *October 8th, 2011*
+### *October 8th, 2011*
 
 Dmitriy started GitLab when he pushed the [initial commit](https://gitlab.com/gitlab-org/gitlab-ce/commit/9ba1224867665844b117fa037e1465bb706b3685).
 
-#### *August 24th, 2012*
+### *August 24th, 2012*
 
 Sid announced [GitLab on HN](https://news.ycombinator.com/item?id=4428278).
 
-#### *September 14th, 2012*
+### *September 14th, 2012*
 
 First 10 people get access to GitLab Cloud (now known as GitLab.com).
 
-#### *November 13th, 2012*
+### *November 13th, 2012*
 
 GitLab CI is officially announced.
 
-#### *July 22nd, 2013*
+### *July 22nd, 2013*
 
 [GitLab Enterprise Edition is announced](https://about.gitlab.com/releases/2013/07/22/announcing-gitlab-enterprise-edition/).
 
-#### *April 18th, 2014*
+### *April 18th, 2014*
 
 [GitLab Cloud renamed to GitLab.com](https://about.gitlab.com/blog/2014/04/18/gitlab-cloud-becomes-gitlab-com/).
 
-#### *March 4th, 2015*
+### *March 4th, 2015*
 
 [GitLab in Y Combinator winter 2015 batch](https://about.gitlab.com/blog/2015/03/04/gitlab-is-part-of-the-y-combinator-family/).
 
-#### *August 15th, 2015*
+### *August 15th, 2015*
 
 Series A Funding was signed.
 
-#### *October 10th, 2015*
+### *October 10th, 2015*
 
 Anniversary of our first ever summit in Amsterdam with 25 GitLab team-members.
 
 ## Team Stories
 
 What better way to convey a sense of who we are and how we work together, than by sharing the stories about it?
-
 
 ### The Boat
 
@@ -163,7 +162,6 @@ What better way to convey a sense of who we are and how we work together, than b
 {{% youtube "JZG41C0aFfA" %}}
 {{% /card %}}
 {{% /cardpane %}}
-
 
 ### The cattle
 
@@ -182,13 +180,12 @@ What better way to convey a sense of who we are and how we work together, than b
 {{% /card %}}
 {{% /cardpane %}}
 
-### So that's what it's like to work at GitLab...
+### So that's what it's like to work at GitLab
 
 {{% cardpane %}}
 {{% card footer="Being new to GitLab, our CRO, Michael McBride joined Sid in meeting with customers in New York City, USA where customers got a glimpse of what it's like to work at GitLab for him" %}}
 {{% youtube "4BIsON95fl8?start=1143" %}}
 {{% /card %}}
 {{% /cardpane %}}
-
 
 {{< include "includes/take-gitlab-for-a-spin.md" >}}

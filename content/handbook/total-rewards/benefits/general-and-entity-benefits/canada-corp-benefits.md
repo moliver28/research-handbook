@@ -13,7 +13,6 @@ GitLab covers **100%** of team member, spouse, dependents, and/or domestic partn
 
 Please review the [Employee Booklet](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) and full [policy document](https://drive.google.com/file/d/1UFEPx7LI1kUmOr2BX47ZlRniQip_qewJ/view?usp=sharing) for more information on the benefits being offered.
 
-
 ## Group Health Coverage
 
 GitLab offers medical, dental, and vision coverage at no cost to the team member. The benefits are outlined in the following [benefit summary](https://drive.google.com/file/d/1QToHbxyoqAx4lz8wnI73OqNuICScE5tk/view?usp=sharing) as well as below. This documentation also has details on the products and services available under the plan.
@@ -140,7 +139,7 @@ Domestic Partner Enrollment: Canada Life uses the first day cohabitating as the 
 
 ### Canada Life Enrollment
 
-In addition to enrollment in the Collage portal, you can also register directly with Canada Life. To register, you can do so by following this [registration link](https://gwl.greatwestlife.com/MyRegistration). This will allow you access to Canada Life’s GroupNet for Plan Members and the ability to download the GroupNet Mobile app on your mobile device. Once registered you will have access to online claims submission, your electronic benefits card, direct deposit of claim payments, view the status of your claims and more. Canada Life has also provided the following [Welcome Packet](https://drive.google.com/file/d/1Fg9LxE-eyLqgDihpw5kUb-4PuDK5AeMa/view?usp=sharing). The [french version of the welcome packet](https://drive.google.com/file/d/1SChNz6Ir6Vyk8scbM-WJR1N8solVmpeE/view?usp=sharing) is also available.
+In addition to enrollment in the Collage portal, you can also register directly with Canada Life. To register, you can do so by following this [registration link](https://gwl.greatwestlife.com/climsMyLogin). This will allow you access to Canada Life’s GroupNet for Plan Members and the ability to download the GroupNet Mobile app on your mobile device. Once registered you will have access to online claims submission, your electronic benefits card, direct deposit of claim payments, view the status of your claims and more. Canada Life has also provided the following [Welcome Packet](https://drive.google.com/file/d/1Fg9LxE-eyLqgDihpw5kUb-4PuDK5AeMa/view?usp=sharing). The [french version of the welcome packet](https://drive.google.com/file/d/1SChNz6Ir6Vyk8scbM-WJR1N8solVmpeE/view?usp=sharing) is also available.
 
 Learn how to use GroupNet for Plan Members by watching the helpful videos in the following [pdf](https://drive.google.com/file/d/1mrZPMKd17m9cwC1Qnsdq6KyJ2lmfehFe/view?usp=sharing).
 
@@ -659,7 +658,6 @@ More information can be found on the [Government of Manitoba website](https://ww
 
 </details>
 
-
 ## Administrative Details for Benefits Team
 
 ### Onboarding & Offboarding in Collage
@@ -725,6 +723,7 @@ Adjustments for Current Team Members
 1. Enrollment tab > request reports> coverage summary> effective date(today’s date)> sort by Employee name
 1. Review the data to identify  if the team member is eligible for more Life Insurance and LTD Coverage than they are currently receiving (i.e. compare the LTD and LTD eligible Amount Columns to see if there is a delta)
 1. Reach out to the team member with the Eligiblity of Insurance Document and instructions so that they can complete their EOI. Notify SC Insurance that the quartelry audit was completed as an fyi.
+
  - View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
 
 ### RRSP Process (Semi-monthly)
@@ -750,6 +749,7 @@ Adjustments for Current Team Members
 1. Total rewards will add a line in the Canada Payroll Change Report with the team member's entry. If there are no other changes, they can leave the Employee and Employer amount blank and just add the Member Voluntary amount with an explanation of the payment.
 
 Offboarding:
+
 - The Canada Life RRSP portal is not able to be connected to Collage so team members will need to be manually removed from the RRSP plan upon termination.
 
 Please see the [administration guide](https://drive.google.com/drive/u/0/folders/1qJ3NmOzDjeXKFpwwO2J0upF5ZVBs_YLD) for additional instructions.

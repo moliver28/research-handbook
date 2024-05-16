@@ -69,7 +69,7 @@ Watch as [Dr. Jeb Hurley](https://linkedin.com/in/jebhurley), Co-founder of Xmet
 
 ### Hard Conversations
 
-Difficult and constructive feedback is valuable when delivered with compassion. It's important to consider the individual recieving the feedback and anticipate how they might react. As explained in [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}), if the person feels threatened, they might shift into Silence or Verbal Violence.
+Difficult and constructive feedback is valuable when delivered with compassion. It's important to consider the individual recieving the feedback and anticipate how they might react. As explained in [Crucial Conversations](/handbook/leadership/crucial-conversations), if the person feels threatened, they might shift into Silence or Verbal Violence.
 
 To optimize for a open, honest, and effective conversation, reflection on the following before sharing difficult feedback:
 
@@ -109,7 +109,7 @@ It's safer to give and receive feedback from those with whom you have already es
 
 ## Giving Feedback
 
-![Feedback Image](/images/Training/Feedback_Image.png)
+![Feedback Image](/images/handbook/Training/Feedback_Image.png)
 
 1. Have positive intent
    - If you have the intent to hurt someone and not to help them, reconsider giving the feedback.
@@ -184,6 +184,7 @@ Receiving all types of feedback can be difficult. Our brains want to protect us 
 {{< youtube "ZdUMoI1jMvI" >}}
 
 *Originally hosted on 2020-02-25*
+
 - [Slide Deck](https://docs.google.com/presentation/d/1yziTxwnAHD6vA1deSPf4DCwGLNYRijAmHiYcdoAxOmo/edit?usp=sharing)
 - [Meeting Agenda](https://docs.google.com/document/d/1k5ja-8qJRMnguVOUOOsMUAQ2PEbXiuDBsbpstJPkSEo/edit?usp=sharing).
 
@@ -222,7 +223,7 @@ Example:
 1. Share an update of the team member(s) recognition during the next team meeting
 1. Highlight the recognition of the team members during a group conversation with the broader organization
 1. Showcase the recognition during an e-group meeting to executives
-1. Consider a [discretionary bonus per team member](/handbook/incentives/) as a form of superior recognition
+1. Consider a [discretionary bonus per team member](/handbook/total-rewards/incentives/) as a form of superior recognition
 1. Managers can also recognize team members during 1-1 meetings
 1. Quarterly [Skip Level](/handbook/leadership/skip-levels/) Meetings.
 
@@ -246,7 +247,6 @@ Take a moment to identify situations in which you or your team are saying "Thank
 - [Coaching Feedback Model](https://www.coachingcultureatwork.com/coaching-feedback-model/)
 - COIN & COILED feedback models - [World of Work Project Article](https://worldofwork.io/2019/07/the-coin-coiled-feedback-models/), 3 minute LinkedIn Learning [video](https://www.linkedin.com/learning/coaching-virtually/use-the-coin-model-to-give-feedback-virtually?u=2255073) on COIN.
 - CEDAR Feedback model - introduction and overview from [join.com](https://join.com/recruitment-hr-blog/feedback-models#6thecedarfeedbackmodel:~:text=6.%20The%20CEDAR,way%20of%20working), and a more comprehensive article and sample conversation at [World of Work Project](https://worldofwork.io/2019/07/the-cedar-feedback-model/)
-
 
 ## Modeling a Culture of Feedback Manager Competency
 

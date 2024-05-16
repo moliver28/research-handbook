@@ -6,7 +6,6 @@ The People Business Partner (PBP) Program Manager is an integral part of the the
 
 This function has two core focus areas:
 
-
 1. Cross-company Talent Programs where People Business Partners are either [DRIs](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/) or stakeholders, including but not limited to: [Annual Compensation Review](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/), [360 Feedback](https://handbook.gitlab.com/handbook/people-group/360-feedback/), [Talent Assessment](https://handbook.gitlab.com/handbook/people-group/talent-assessment/), [Succession Planning](https://handbook.gitlab.com/handbook/people-group/talent-assessment/#succession-planning), [Key Talent Program](https://handbook.gitlab.com/handbook/people-group/talent-assessment/#key-talent-program), [Organizational Design](https://handbook.gitlab.com/handbook/people-group/organizational-design/), and our [Promotion Process](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/). Program Management scope will differ depending on whether PBP is the DRI or stakeholder for the program at hand.
     - For programs where PBPs are DRIs, the PBP Program Manager will be expected to manage end-to-end program management for the entire program. In the People Group when multiple Program Managers are involved, the Program Manager aligned to the team that is the program DRI assumes the responsibility of full program management.
     - For programs where PBPs are stakeholders (the majority of the aforementioned programs), the PBP Program Manager approaches the program as a partner from a PBP lens, collaborating closely with the DRI Program Manager. Approaching program management from a PBP lens includes: identifying timeline and actions for PBPs throughout the program, attending program meetings and ensuring the wider PBP team remains aware of program status, advocating for the PBP team and helping the wider project team understand conflicting priorities PBPs have to ensure ability to balance and deliver results, providing perspective and insight into how the program fits into the wider PBP role and talent strategy, partnering with the team in drafting communication back to business leaders, surfacing questions we anticipate from the business early on to get ahead of change management, and helping determine what PBP success looks like as stakeholders and contributors to the project.
@@ -32,7 +31,6 @@ In addition to Talent Program execution, this role focuses on providing structur
 - Ensures that programs are aligned with organizational business goals and objectives
 - Acts as a trusted partner within the People Business Partner team and with stakeholders
 
-
 ## Requirements
 
 *The following Requirements are applicable to all levels.*
@@ -48,7 +46,6 @@ In addition to Talent Program execution, this role focuses on providing structur
 - Ability to influence and use data to inform recommendations to others
 - Aligns to GitLab’s Values
 - Ability to use GitLab
-
 
 ## Levels
 
@@ -74,8 +71,6 @@ The Program Manager, People Business Partner is a [grade 6](https://handbook.git
 
 - Proficiency in program management methodologies and project management skills
 
-
-
 ### Senior Program Manager, People Business Partner
 
 The Senior Program Manager, People Business Partner reports to the [Senior Manager, People Business Partner](https://handbook.gitlab.com/job-families/people-group/people-business-partner/#senior-manager-people-business-partner-pbp)
@@ -95,7 +90,6 @@ The Senior Program Manager, People Business Partner is a [grade 7](https://handb
 - Identifies and drives resolution of cross-program issues with stakeholders
 - Surfaces efficiency and collaboration opportunities for the PBP team and recommends solutions to bridge gaps
 
-
 #### Senior Program Manager, People Business Partner Requirements
 
 - Strong proficiency in program and project management methodologies
@@ -103,7 +97,6 @@ The Senior Program Manager, People Business Partner is a [grade 7](https://handb
 - Knowledge of budgeting and resource allocation procedures
 - Demonstrated experience in influencing stakeholders
 - Knowledge of change management principles
-
 
 ### Staff Program Manager, People Business Partner
 
@@ -123,7 +116,6 @@ The Senior Program Manager, People Business Partner is a [grade 8](https://handb
 - Partners with DRIs on defining success metrics for projects and/or programs
 - Proposes division-specific projects based on business needs and insight
 
-
 #### Staff Program Manager, People Business Partner Requirements
 
 - Expertise in program and project management methodologies
@@ -131,7 +123,6 @@ The Senior Program Manager, People Business Partner is a [grade 8](https://handb
 - Strong leadership and management skills
 - Significant experience in influencing senior stakeholders
 - Outstanding knowledge of change management principles
-
 
 ## Performance Indicators
 
@@ -143,11 +134,9 @@ The Senior Program Manager, People Business Partner is a [grade 8](https://handb
 - Feedback from stakeholders on improved program structure and management over time
 - Feedback from team members execution of programs and initiatives
 
-
 ## Career Ladder
 
 The next step in the Program Manager, People Business Partner job family is to move into to a Staff Program Management position or a position on our [People Business Partner](https://handbook.gitlab.com/job-families/people-group/people-business-partner) team aligned to a client group.
-
 
 ## Hiring Process
 
@@ -159,5 +148,4 @@ Candidates for this position can expect the hiring process to follow the order b
 - After that, candidates will be invited to schedule a 50 minute interview with a current Program Manager
 - Finally, candidates will be invited to schedule a 50 minute interview with a [Senior Director, People Business Partner](https://handbook.gitlab.com/job-families/people-group/people-business-partner/#senior-director-people-business-partner)
 
-Additional details about our process can be found on our [hiring page]({{< ref "/handbook/hiring" >}}).
-
+Additional details about our process can be found on our [hiring page](/handbook/hiring).

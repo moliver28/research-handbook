@@ -84,8 +84,8 @@ The manager/mentor should seek to understand any concern raised by a current mai
 1. In keeping with other values, the maintainer's concern(s) should not be personal or prejudicial.
 1. The maintainer's concern(s) must be consistent with the [Responsibilities of a Maintainer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-maintainer).
 1. The maintainer's concern(s) should be grounded in fact that:
-  1. the trainee maintainer consistently does not perform [MR reviews in a conventional manner](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request), or
-  1. the trainee maintainer has consistently been irresponsible in ensuring our [code quality and standards](/handbook/engineering/development/principles/#code-quality-and-standards) as isolated incidents are expected in the training process.
+1. the trainee maintainer consistently does not perform [MR reviews in a conventional manner](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request), or
+1. the trainee maintainer has consistently been irresponsible in ensuring our [code quality and standards](/handbook/engineering/development/principles/#code-quality-and-standards) as isolated incidents are expected in the training process.
 
 In order to better inform a decision, the manager should privately reach out to 2 existing maintainers without sharing any personal information regarding the feedback. The manager is ultimately responsible for the readiness of the trainee maintainer and owns the decision to entrust the trainee maintainer with maintainer responsibilities.
 
@@ -109,7 +109,7 @@ Interested reviewers for the projects below should complete the listed tasks in 
 Tips:
 
 - If you'd like a dashboard limited to just reviews where you applied the `~"database::reviewed"` label,
-  reach out to the database group manager to get one. 
+  reach out to the database group manager to get one.
 
 #### Project maintainer process for [`gitlab-components`](https://gitlab.com/components)
 
@@ -122,11 +122,11 @@ Tips:
 
 Upon approval, the maintainer who merges the MR will:
 - Add the newly approved maintainer to the CI components maintainer group (`@gitlab-org/maintainers/ci-components`).
-- Announce in [`#ci_components_maintainers`](https://gitlab.slack.com/archives/C06AQBJETRR) and post an update in the _Engineering Week-in-Review document_
+- Announce in [`#ci_components_maintainers`](https://gitlab.slack.com/archives/C06AQBJETRR) and post an update in the *Engineering Week-in-Review document*
 
 #### Project maintainer process for [`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) or [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs)
 
--  Understand [how to become a maintainer](/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer).
+- Understand [how to become a maintainer](/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer).
 - All designers are maintainers of [`gitlab-design`](https://gitlab.com/gitlab-org/gitlab-design) project. If you are interested in becoming a Maintainer of UI (`.scss`) for `gitlab`, and `gitlab-ui` projects, please follow the [Engineering Review Workflow](/handbook/engineering/workflow/code-review).
 - It is up to you to ensure that you are getting enough MRs to review, and of varied types. You could also seek out more reviews from your team, for example by asking for reviews on the `#ux` and `#pajamas-design-system` Slack channels. If you are not receiving enough MRs to advance in your training, be proactive and work on your own improvements to Pajamas. This will demonstrate overall understanding of the product, as well as quality contributions, and help propel your progress. Maintainers are available to help guide you.
 - Your reviews should aim to cover maintainer responsibilities as well as reviewer responsibilities. Design Maintainers should be focused on MRs that have an impact on usability, iterate on existing user experience, and/or include usage of design guidelines, standards, and patterns. Your approval means you think it is ready to merge.
@@ -156,7 +156,7 @@ Upon approval, the maintainer who merges the MR will:
 - Review the [GitLab Elasticsearch Indexer development and release](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/blob/main/PROCESS.md) process.
 - Join the `#g_global_search` Slack channel.
 - Work on issues to gain familiarity with the project.
-- _Optional:_ Reach out to an (existing maintainer)[https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/project_members?with_inherited_permissions=exclude] to [help you become](/handbook/engineering/workflow/code-review/#trainee-maintainer-mentorship-pilot-program) a maintainer.
+- *Optional:* Reach out to an [existing maintainer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/project_members?with_inherited_permissions=exclude) to [help you become](/handbook/engineering/workflow/code-review/#trainee-maintainer-mentorship-pilot-program) a maintainer.
 
 #### Project maintainer process for [`customers-gitlab-com`](https://gitlab.com/gitlab-org/customers-gitlab-com)
 
@@ -336,7 +336,7 @@ https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/Engi
 
 We can gauge demand by looking at the Maintainership Demand dashboard, which can be filtered by month, project and technology:
 
-https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1 
+https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1
 
 #### About this dashboard
 
@@ -385,7 +385,7 @@ To add a custom target to an area using the `maintainer_custom_targets` Sisense 
 
 We aim to have enough reviewers and maintainers across timezones to ensure that there are people available to review MRs in a timely manner while keeping review load at a reasonable level. We track this in the [Reviewer/Maintainer Availability and Capacity dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ReviewermaintainerAvailabilityandCapacity/Reviewermaintaineravailabilityandcapacity?:iid=1):
 
-https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views 
+https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views
 
 ## Leading Organizations
 
@@ -503,7 +503,7 @@ on these other statuses, please refer to the [code review](https://docs.gitlab.c
 page in the developer documentation.
 
 Of course, if you are out of office and have
-[communicated](/handbook/paid-time-off/#communicating-your-time-off)
+[communicated](/handbook/people-group/paid-time-off/#communicating-your-time-off)
 this through your GitLab.com Status, authors are expected to realize this and
 find a different reviewer themselves.
 
@@ -517,9 +517,6 @@ When you are assigned to review an MR and you are not able to get to it within t
 
 As the author of an MR you should reassign to another reviewer or maintainer if the `Review-response` SLO has not been met and you have been unable to contact the assignee.
 
-[1:1 meetings]: /handbook/leadership/1-1/
-[dashboard]: https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1
-[ratio]: https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/Maintainers
 
 ## Code Owner approvals
 
@@ -532,5 +529,5 @@ CODEOWNERS @gitlab-org/development-leaders @gitlab-org/tw-leadership
 ```
 
 There are two ways to update the Code Owner(s) of the `CODEOWNERS` file:
-1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 1. Open a merge request to update the relevant lines. An existing Code Owner will have to approve the merge request. You are also encouraged to ping a security compliance team member for visibility.

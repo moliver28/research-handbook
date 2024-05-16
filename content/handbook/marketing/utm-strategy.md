@@ -20,9 +20,10 @@ Everyone can contribute - See something you'd like to discuss or iterate on? Sta
 
 UTM parameters are specific text strings appended to the URLs, used to facilitate performance tracking in Tableau dashboards through [Bizible Touchpoints](/handbook/marketing/marketing-operations/bizible/#bizible-touchpoints) & other web analytics tools.
 
-Example url: 
-
-<https://page.gitlab.com/resources-ebook-beginners-guide-devops-fr.html?utm_medium=email&utm_source=marketo&utm_campaign=2024_01_20_emea_dmp_webcast_autosd_fr_beginnersguidedevops&utm_content=devguideappsec_ebook&utm_partner_id=gcp>
+Example url:
+```
+https://page.gitlab.com/resources-ebook-beginners-guide-devops-fr.html?utm_medium=email&utm_source=marketo&utm_campaign=2024_01_20_emea_dmp_webcast_autosd_fr_beginnersguidedevops&utm_content=devguideappsec_ebook&utm_partner_id=gcp
+```
 
 The UTM parameters are everything that comes after the question mark:
 
@@ -54,11 +55,11 @@ UTMs should **always** be used when linking to:
 * gitlab.com (trial and registration pages only)
 * learn.gitlab.com
 * pages.gitlab.com
-* ir.gitlab.com
-* When UTMs are not Needed:
-* When the link directs to a page on the same domain
-* When linking to a non GitLab web property (Eg: Youtube, Linkedin, etc..)
+* docs.gitlab.com
 
+**When UTMs are NOT Needed:**
+* When linking to a non GitLab web property (Eg: Youtube, Linkedin, etc..)
+* Internal links with the same gitlab.com domain. For instance, linking to learn.gitlab.com from an about.gitlab.com webpage. Google Analytics is set up for cross-domain tracking. If UTMs are detected within an internal gitlab.com link, a new session will be counted, and conversion attribution will be overridden by the new UTM parameter values. The original source will not receive proper credit.
 
 ## How to create UTMs
 
@@ -67,7 +68,7 @@ Use the [UTM builder googlesheet with formulas](https://docs.google.com/spreadsh
    - Open the [Tracking URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=29481466)
    - Add in your page URL in the first column
    - Fill in each attribute of your UTM parameter, including `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `utm_budget`. If some of these UTM parameters are irrelevant to your campaign, keep them blank or remove from the final URL.
-   - Destination URL will be generated automatically in column N, ready for you to use in your campaign. If you need to shorten your URL, use a tool like [bit.ly](https://bitly.com/). 
+   - Destination URL will be generated automatically in column N, ready for you to use in your campaign. If you need to shorten your URL, use a tool like [bit.ly](https://bitly.com/).
 
 #### Measuting the sucess
 
@@ -82,7 +83,7 @@ Measure success of your campaign in the [TD Campaigns Dashboard](https://10az.on
 **Campaign Medium** is the overarching channel bucket like email, display, etc. It answers the question of "How did they come to us?". utm_source will further categorize the overarching channel.
 You can choose a campaign medium from a provided picklist of values in the [URL Builder spreadsheet](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=2043976569). If you need a new campaign medium, please request this using slack channel: #mktg-strat-perf.
 
-Current available options for `utm_medium` are as follows: 
+Current available options for `utm_medium` are as follows:
 * `email` = all email systems such as marketo, outreach, mailjet, highspot, etc.
 * `cpc` = Paid Search
 * `display` = Display ads
@@ -90,19 +91,19 @@ Current available options for `utm_medium` are as follows:
 * `social` = Organic Social
 * `sponsorship` = Paid publishers engagements/sponsorships
 * `chat` = website conversational bot
-* `pdf`	links in whitepapers, ebooks, reports, etc.
+* `pdf`    links in whitepapers, ebooks, reports, etc.
 * `referral` = Customer review sites
 * `syndication` = 3rd party - content syndication
-* `webinar`	= 3rd party - sponsored event
+* `webinar`    = 3rd party - sponsored event
 * `video` = 1st party - owned video
 
 #### utm_source
 
 
 **Campaign Source** parameter can tell you which website is sending the traffic, and is a further "slicing" of overall channels. It answers the question of "how did they come to us?" but with more granular details than utm_medium.
-You can choose a campaign source from a provided picklist of values in the URL Builder spreadsheet. If you need a new campaign source, please request this using slack channel: #mktg-strat-perf. 
+You can choose a campaign source from a provided picklist of values in the URL Builder spreadsheet. If you need a new campaign source, please request this using slack channel: #mktg-strat-perf.
 
-Current available options for `utm_source` are as follows: 
+Current available options for `utm_source` are as follows:
 
 | **Source** | **Lines up with Medium** | **Source**  | **Lines up with Medium** |
 -------------------------------------- | -------------------- | ------------------------ | --------------------------------|
@@ -129,22 +130,22 @@ Instead of a single value for UTM Campaign, it will encode many values into a si
 
 Encoding more data on the UTM campaign directly transfers that information to Bizible touchpoints and allows for drop-down / point and click reporting in SFDC.
 
-| Parameter | Required / Optional | Examples |			
-|---------------------------|----------------------|----------------------|			
-| `Date` (in ISO format - yyyy_mm_dd) | Yes (if campaign is evergreen use eg) | 2024_02_20 |			
-| `Region` (select from dropdown) | Yes (if multi regions, use x) | emea |			
-| `Budget` (select from dropdown) | Yes (if not applicable, use x) | dmp |			
-| `Type` (select from dropdown) | Yes (if not applicable, use x) | dmp |			
-| `GTM` (select from dropdown) | Yes (if not applicable, use x) | autosd |			
-| `Language` (select from dropdown) | Optional | fr |			
-| `Campaign name` (free text field) | Optional | beginnersguidedevops |			
+| Parameter | Required / Optional | Examples |
+|---------------------------|----------------------|----------------------|
+| `Date` (in ISO format - yyyy_mm_dd) | Yes (if campaign is evergreen use eg) | 2024_02_20 |
+| `Region` (select from dropdown) | Yes (if multi regions, use x) | emea |
+| `Budget` (select from dropdown) | Yes (if not applicable, use x) | dmp |
+| `Type` (select from dropdown) | Yes (if not applicable, use x) | dmp |
+| `GTM` (select from dropdown) | Yes (if not applicable, use x) | autosd |
+| `Language` (select from dropdown) | Optional | fr |
+| `Campaign name` (free text field) | Optional | beginnersguidedevops |
 
-#### Current GTM UTMs 
+#### Current GTM UTMs
 
 * devsecopsplat = DevSecOps Platform GTM
 * autosd = Automated Software Delivery GTM
 
-#### Retired Use Case UTMs 
+#### Retired Use Case UTMs
 
 * seccomp = Security and Compliance GTM
 * singleappci = CI Campaign
@@ -158,10 +159,11 @@ Encoding more data on the UTM campaign directly transfers that information to Bi
 
 **Campaign Content** (`utm_content`) is an optional parameter which encodes two values - `contet offer` and `asset type`:
 
-| Parameter | Required / Optional | Examples |			
-|---------------------------|----------------------|----------------------|			
-| Content offer | Optional (if not applicable, use x) | devguideappsec |			
-| Asset type | Optional (if not applicable, use x) | ebook |			
+| Parameter | Required / Optional | Examples |
+|---------------------------|----------------------|----------------------|
+| Content offer | Optional (if not applicable, use x) | devguideappsec |
+| Asset type | Optional (if not applicable, use x) | ebook |
+| Industry (vertical) | Optional (if not applicable, use x) | telco |
 
 **Asset Type** values (available as picklist in the UTM builder googlesheet):
 * ebook = Gated ebooks
@@ -193,7 +195,7 @@ For a running list of Channel Partners and their CRM IDs, which is critical to t
 
 ### UTM structure for account based marketing
 
- 
+
 #### UTM structure for 6Sense
 
 * UTM Medium = `banner`

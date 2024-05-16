@@ -10,6 +10,18 @@ canonical_path: "/job-families/engineering/support-engineer/"
 
 This position is 100% remote.
 
+## Customer Support Representative
+
+### Job Grade
+
+The Customer Support Representative is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+For a Customer Support Representative role we expect:
+
+- Someone who's been in a previous customer facing role, whether in a technical or non-technical company, and thrives on supporting other people
+- Someone who is able to understand process workflow and communicate via written word and video conferencing
+
+As we evolve our handbook and adopt a career matrix approach, you can read more about a Customer Support Representative on our [Customer Support Representative Career Matrix Page](https://handbook.gitlab.com/handbook/engineering/careers/matrix/support/csr/) which covers more of the details you see in the roles below.
 
 ## Associate Support Engineer
 
@@ -18,6 +30,7 @@ This position is 100% remote.
 The Associate Support Engineer is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 For an Associate Support Engineer role we expect:
+
 - Someone who's been in a previous customer facing role, maybe in a technical company, but also maybe outside of tech
 - We expect this person to be early in their career of "technical debugging" - They may have worked support before, but not deep technical troubleshooting.
 
@@ -115,11 +128,11 @@ For Support Engineers who are nearing or at Senior Level
 
 Support Engineers with verified US Citizenship may join the GitLab US Government Support Team. This group works through the [US Government Support portal](https://about.gitlab.com/support/us-government-support/) to collaborate with Public Sector organizations and United States Government agencies in order to support, maintain, and resolve issues in their GitLab environments.
 
-There are a number of challenges that are unique when it comes to supporting the customer environments that an engineer may encounter in the US Government space. Some of those challenges may include highly sanitized and redacted troubleshooting information, inability to screenshare or provide screenshots, etc. You can learn more about working on tickets in the US Government Support portal [here](/handbook/support/workflows/usgovernment_tickets.html). If you look forward to the aforementioned challenges and meet the requirements for US Government Support, apply today!
+There are a number of challenges that are unique when it comes to supporting the customer environments that an engineer may encounter in the US Government space. Some of those challenges may include highly sanitized and redacted troubleshooting information, inability to screenshare or provide screenshots, etc. You can learn more about working on tickets in the US Government Support portal [here](/handbook/support/workflows/usgovernment_tickets/). If you look forward to the aforementioned challenges and meet the requirements for US Government Support, apply today!
 
 ### Support Engineer (Shift)
 
-Responsibilties mirror that of a Support Engineer with the primary variance being that the working hours and on-call shifts do not necessarily align with the traditional working hours of the engineer's region. This role is important for situations where it is not feasible to staff in a "follow the sun" manner.  
+Responsibilties mirror that of a Support Engineer with the primary variance being that the working hours and on-call shifts do not necessarily align with the traditional working hours of the engineer's region. This role is important for situations where it is not feasible to staff in a "follow the sun" manner.
 
 #### Requirements
 
@@ -129,7 +142,7 @@ In addition to the above requirements for Global Support Engineers, you will nee
 
 ### [What it’s like to work here](/handbook/company/culture/#so-thats-what-its-like-to-work-at-gitlab) at GitLab
 
-The [culture](/handbook/company/culture/) here at GitLab is something we’re incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you’ll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you’ll be entitled to vary by the region or country you’re in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We’ll also help you set up your [home office environment](/handbook/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
+The [culture](/handbook/company/culture/) here at GitLab is something we’re incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you’ll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you’ll be entitled to vary by the region or country you’re in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/people-group/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We’ll also help you set up your [home office environment](/handbook/finance/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
 
 Also, every year or so, we’ll invite you to our [Contribute event](https://about.gitlab.com/events/gitlab-contribute/).
 
@@ -164,15 +177,17 @@ A Senior Support Engineer may be interested in exploring Support Management as a
 The Staff Support Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). Promotion to the Staff level is based on [merit and company need](/handbook/engineering/careers/#support-department).
 
 A Senior Support Engineer will be promoted to Staff Support Engineer when they have
-demonstrated significant leadership and impact; typically around resolving customer issues. This may
-involve any type of consistent performance above and beyond the senior level. For example, a Staff Support Engineer might:
+demonstrated significant leadership and impact; typically around resolving customer issues. A Staff engineer displays attributes such as:
 
-- regularly submit merge requests for customer reported/requested GitLab bugs and feature proposals.
-- work across functional groups to deliver on projects relating to customer experience and success.
-- write in-depth documentation and clarify community communications that share knowledge and radiate GitLab's technical strengths.
-- possess the ability to create innovative solutions that push GitLab's technical abilities ahead of the curve.
-- identify significant projects that result in substantial cost savings or revenue increases.
-- define and solve important architectural issues based on their extensive customer knowledge.
+- **Global Impact and Technical Leadership**: Staff Support Engineers possess robust expertise, impacting operations at a global scale. They manage significant projects and incidents that not only reduce workload and increase support team efficiency but also directly enhance customer experiences at scale. Their work significantly influences customer satisfaction and loyalty through improved product features and support strategies.
+
+- **Complex Problem-Solving**: Staff Support Engineers are known for their ability to develop simple solutions to complex problems, tackling major architectural and customer-related issues. Identify and drive significant projects that result in substantial cost savings or revenue increases, or relate to wider initiatives involving other teams beyond Support.
+
+- **Mentorship and Skill Development**: Staff Support Engineers are vital in intentionally imparting their extensive knowledge to Support Engineers at all levels through mentoring and training strategies for the global team. Staff Support Engineers are someone who grows Seniors into even better leaders and someone who sheds light on opportunities for intermediate Support Engineers to grow, too. Staff Support Engineers also provide targeted, in-the-moment training on specific issues, operating effectively at both the micro and macro levels to enhance individual and team skills.
+
+- **Strategic Involvement and Customer Advocacy**: They play a strategic role by being the voice of the customer within broader product and engineering teams, contributing to cross-functional projects, and focusing on customer-centric problem solving.
+
+- **Proactive Organizational Leadership and Impact**: Staff Support Engineers exhibit proactive, visible technical leadership in addressing complex issues and significantly impacting both the team and customers. This includes engagement with leaders within customer organizations, particularly during escalations and proactive engagements that involve Support. They actively contribute to discussions, and influence decisions. They also steer product development by communicating customer needs and priorities, and from work with customers they anticipate product limitations.
 
 ## Career Ladder
 

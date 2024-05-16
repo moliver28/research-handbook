@@ -56,18 +56,18 @@ Updates and highlights from all teams in Ops are collected automatically [here](
 
 ### Meetings
 
-- **Weekly Team Sync:** These are focused on organizing ongoing work or specific efforts such as rollout-outs or bigger initiatives.
-- Bi-monthly social hour: This meeting is non-work related and helps team socialize and get to know each other better.
-- **Team member coffee chats:** Each team member should schedule a coffee chat with all other team members rough every 4-6 weeks. Feel free to discuss work or non-work topics. If timezones are an issue find another way to connect, such as a async slack thread to checkin. The goal is to get to know your other team members on a 1:1 basis.
-- **Dev Syncs:** These are developer-organized sync meetings where ICs can meet and discuss technical issues or organize technical work amongst themselves without requiring the presence of a EM.
+* **Weekly Team Sync:** These are focused on organizing ongoing work or specific efforts such as rollout-outs or bigger initiatives.
+* Bi-monthly social hour: This meeting is non-work related and helps team socialize and get to know each other better.
+* **Team member coffee chats:** Each team member should schedule a coffee chat with all other team members rough every 4-6 weeks. Feel free to discuss work or non-work topics. If timezones are an issue find another way to connect, such as a async slack thread to checkin. The goal is to get to know your other team members on a 1:1 basis.
+* **Dev Syncs:** These are developer-organized sync meetings where ICs can meet and discuss technical issues or organize technical work amongst themselves without requiring the presence of a EM.
 
 ### Communication
 
 We use several Slack channels to organize ourselves:
 
-- Primary channel: [#g_observability](https://gitlab.slack.com/archives/C02Q93U8J07)
-- Standup channel: [#g_observability_standup](https://gitlab.slack.com/archives/C02VAHG10HW)
-- Social channel: [#g_observability_random](https://gitlab.slack.com/archives/C02QLQUB0JZ)
+* Primary channel: [#g_observability](https://gitlab.slack.com/archives/C02Q93U8J07)
+* Standup channel: [#g_observability_standup](https://gitlab.slack.com/archives/C02VAHG10HW)
+* Social channel: [#g_observability_random](https://gitlab.slack.com/archives/C02QLQUB0JZ)
 
 ### How we do planning?
 
@@ -76,14 +76,14 @@ We are following the monthly milestone cadence. Work is organized into [epics](h
 Milestone starting date is defined in [gitlab.org group milestones](https://gitlab.com/groups/gitlab-org/-/milestones?search_title=17.0&state=&sort=). It changes every month, according to the [new GitLab release calendar](https://about.gitlab.com/blog/2023/09/18/gitlab-release-date-change/).
 
 Milestone Planning timeline:
-- 10 days before milestone starting date: Planning [draft issue](https://gitlab.com/gitlab-org/opstrace/general/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Planning%20Issue&first_page_size=20) is created by PM/EM, with high level milestone goals.
-- 8 days before milestone starting date: Planning draft is shared with team. Individual contributors recommend epics and issues related to these goals or carried over from previous milestones.
-- 5 days before milestone starting date: Planning is reviewed during team sync meeting.
-- On milestone starting date: Milestone goals and related epics and issues should be finalized and prioritized. All planned work can be seen on the [Planning Board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) Previous milestone issues are moved to the new milestone or backlog.
-- During the milestone, we analyze progress and reprioritize as needed.
+* 10 days before milestone starting date: Planning [draft issue](https://gitlab.com/gitlab-org/opstrace/general/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=Planning%20Issue&first_page_size=20) is created by PM/EM, with high level milestone goals.
+* 8 days before milestone starting date: Planning draft is shared with team. Individual contributors recommend epics and issues related to these goals or carried over from previous milestones.
+* 5 days before milestone starting date: Planning is reviewed during team sync meeting.
+* On milestone starting date: Milestone goals and related epics and issues should be finalized and prioritized. All planned work can be seen on the [Planning Board](https://gitlab.com/groups/gitlab-org/opstrace/-/boards/3657448) Previous milestone issues are moved to the new milestone or backlog.
+* During the milestone, we analyze progress and reprioritize as needed.
 
 
-### How to find something to work on
+### How to find something to work on?
 
 Normally at the beginning of the Milestone the EM will discuss an overview of the work and what relevant areas you will focus on. Sometimes issues will already be assigned to you before the Milestone begins.
 
@@ -97,6 +97,37 @@ If you are ever looking for additional issues to work on:
 6. Begin working on the issue.
 7. Once you are done with the issue, make sure any relevant MRs are linked and close the issue.
 8. Repeat.
+
+### How to enable Observability Beta for a customer?
+
+To enable access to Logs, Tracing, and Metrics Beta for a certain customer, follow this process:
+
+For SaaS:
+
+* Before hand, make sure you have the right access and permissions to run ChatOps command as detailed in [this page](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html#requesting-access).
+* Ask customer for their top-level group name (example: `gitlab-org` for https://gitlab.com/gitlab-org/)
+* In #production, run the following commands to enable the feature flags for this group (replace `gitlab-org` by the customer's group name):
+
+```
+/chatops run feature set --group=gitlab-org observability_tracing true
+/chatops run feature set --group=gitlab-org observability_metrics true
+/chatops run feature set --group=gitlab-org observability_logs true
+```
+
+To see the list of groups that have been already enabled, you can run the following command:
+
+```
+/chatops run feature get observability_tracing
+```
+
+The list returns group IDs and not group names though. To know a group's ID, browse to the group's page ([example](https://gitlab.com/gitlab-org/)), open the "..." menu on the top-right of the page and select "Copy group ID". If you don't have access to the group, ask the customer to do it.
+
+Learn more: see related [feature flag issue](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/2444).
+
+
+For Self-Managed:
+
+* not available for now
 
 ## Dashboards
 

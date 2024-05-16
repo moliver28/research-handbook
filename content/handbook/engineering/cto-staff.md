@@ -52,7 +52,7 @@ The specific agenda for each offsite depends on active projects. Typical items i
        1. Did anything change in the succession plan compared to six months ago?
        1. Did anything change in the [Talent Assessment](/handbook/people-group/talent-assessment/) for all VP's directs?
     1. Director+ promotion planning
-       1. The Acting Chief of Staff to the CTO can attend this session as long as they are not in the leadership chain of someone under discussion. If there's a concern by the Leader that is representing the promotion on the Acting CoS joining they can discuss it upfront with the CTO and/or PBP. 
+       1. The Acting Chief of Staff to the CTO can attend this session as long as they are not in the leadership chain of someone under discussion. If there's a concern by the Leader that is representing the promotion on the Acting CoS joining they can discuss it upfront with the CTO and/or PBP.
        1. Total Rewards should not be discussed when the Acting Chief of Staff to the CTO is in attendance.
     1. Hiring plan
     1. Relevant People projects around performance, engagement, and retention
@@ -77,6 +77,7 @@ To get a better idea of the role, consider these resources:
 Questions can also be asked in the [#chief-of-staff-to-cto-and-alumni Slack channel](https://gitlab.slack.com/archives/C047PF4GG7L).
 
 ### How the rotation works
+
 Similar to our [CEO Shadow Program](/handbook/ceo/shadow/), this role is a temporary assignment which is rotated. The rotation time commitment is 3 months full time, with 5-10% time commitment on either end of the 3 month time period. The structure will look like:
 
 - Month 0 (prior to beginning) = 5-10% time commitment to attend key meetings and prep for your rotation.
@@ -92,6 +93,7 @@ Besides this, it’s important to consider the following:
 - You will report directly to the CTO for the duration of your term
 
 ### Criteria for selection
+
 You are eligible to apply for this rotation if you have been with GitLab for at least 3 months. Candidates will be selected based on:
 - Interest
 - Availability for a 3-month, full-time rotation and availability to join important meetings prior and after (5-10%)
@@ -103,6 +105,7 @@ You are eligible to apply for this rotation if you have been with GitLab for at 
 **In keeping with our DIB value, we do extra work to make certain that members of underrepresented groups are aware of the opportunity, feel welcome to apply, and have equal opportunity to serve a term.**
 
 ### Registration process
+
 If you’re interested in the rotation for acting Chief of Staff to the CTO you can register via this [Application form](https://forms.gle/KyfEsQ7nzgFxTxNC8).
 The registration form is always open. You can [apply now](https://forms.gle/KyfEsQ7nzgFxTxNC8) and indicate which quarter you're interested in.
 
@@ -116,7 +119,7 @@ Candidates who are not selected for the upcoming rotation, but are eligible, wil
 
 ### Rotation history
 
-| Quarter | Name          | Reflection | 
+| Quarter | Name          | Reflection |
 |---------|---------------|------------|
 | FY23 Q1 | Sean McGivern |            |
 | FY23 Q2 | Matt Nohr     |            |

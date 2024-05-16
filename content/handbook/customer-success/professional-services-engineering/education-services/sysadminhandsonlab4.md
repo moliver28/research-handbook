@@ -1,11 +1,13 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Backup and Restore GitLab"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "This Hands-On Guide walks you through backing up a GitLab instance on a virtual machine, and restoring the GitLab instance to a previous state."
 ---
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson4.md).
+## Objectives
+
+The objective of this lab is to demonstrate how to back up a Gitlab instance on a virtual machine, and restore said instance to a previous state. For more information about backing up/restoring a GitLab instance, click [here](https://docs.gitlab.com/ee/administration/backup_restore/).
 
 ### Task A. Configure backup settings
 
@@ -31,7 +33,8 @@ description: "This hands-on lab guide is designed to walk you through the lab ex
     sudo sed -i '606s@\/var\/opt\/gitlab\/backups@\/tmp\/backups@' /etc/gitlab/gitlab.rb
     sudo sed -i '606s/#//' /etc/gitlab/gitlab.rb
     ```
-    > Here, we are using the sed command to do text replacements inside the gitlab.rb file without having to use a text editor like vim. 
+
+    > Here, we are using the sed command to do text replacements inside the gitlab.rb file without having to use a text editor like vim.
 
 6. Reconfigure to apply the changes.
 

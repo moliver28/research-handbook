@@ -6,7 +6,7 @@ title: Manager Challenge
 
 **Please note that the next Manager Challenge has been paused until further notice.**
 
-Team member can reach out in the [#learninganddevelopment Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W) with any questions about upcoming manager training or utilize their [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) for external training opportunities.
+Team member can reach out in the [#learninganddevelopment Slack channel](https://app.slack.com/client/T02592416/CMRAWQ97W) with any questions about upcoming manager training or utilize their [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) for external training opportunities.
 
 You can learn more about our current manager development program on our [Elevate handbook page]({{< ref "elevate-programs" >}}).
 
@@ -24,7 +24,7 @@ The program was awarded a Gold Excellence in Leadership Development by the [Bran
 
 ### Team Member Time Investment Level
 
-If you plan to participate in the Manager Challenge, please discuss with your manager. Let them know you are interested and will be dedicating the three weeks to actively participating. This is not like the [CEO Shadow program]({{< ref "/handbook/ceo/shadow" >}}), but the Manager Challenge will **require a heavy time investment**. If you plan to participate, try to do everything you can to block one to two hours each day during the program. This is an intensive program with the goal of covering a lot of material in a short amount of time to increase knowledge retention. **There will be more synchronous activities, less async, this challenge due to feedback from past participants.**
+If you plan to participate in the Manager Challenge, please discuss with your manager. Let them know you are interested and will be dedicating the three weeks to actively participating. This is not like the [CEO Shadow program](/handbook/ceo/shadow), but the Manager Challenge will **require a heavy time investment**. If you plan to participate, try to do everything you can to block one to two hours each day during the program. This is an intensive program with the goal of covering a lot of material in a short amount of time to increase knowledge retention. **There will be more synchronous activities, less async, this challenge due to feedback from past participants.**
 
 Make the program part of your [career development]({{< ref "career-development" >}}), and include in your [Individual Growth Plan]({{< ref "career-development#internal-resources-1" >}}).
 
@@ -45,10 +45,10 @@ You may be asking yourself what you will achieve by taking part in the Manager C
 In addition, the program ties into GitLab's strategic priorities through the following:
 
 1. Mitigating concerns associated with:
-     1. [Lack of Performance Management](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#underperformance)
-     1. [Ineffective Management](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/#ineffective-management)
+     1. [Lack of Performance Management](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#underperformance)
+     1. [Ineffective Management](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#ineffective-management)
 1. Achieving GitLab Strategy of:
-     1. [Inclusive Growth & Development for Team Members]({{< ref "/handbook/company/strategy#4-inclusive-growth--development-for-team-members" >}})
+     1. [Inclusive Growth & Development for Team Members](/handbook/company/strategy#4-inclusive-growth--development-for-team-members)
 
 Below is a video L&D recorded with Sid on manager enablement:
 
@@ -85,7 +85,6 @@ Week 1 will be focused on developing your leadership style as a manager, differe
 | Week 1 | 1 hr 20 minutes | Session 1 - Program Kickoff: Developing Your Leadership Style. Adaptive DNA as a people leader. Introduction to the Manager Challenge |
 | Week 1 | Async | Session 2 pre-work |
 | Week 1 | 1 hr 20 minutes | Session 2: Building High Performing Teams or Team Effectiveness Tools |
-
 
 ### Week 2 - Management Fundamentals
 
@@ -131,7 +130,7 @@ Following the Manager Challenge, participants are encouraged to do the following
 | ------ | ------ | ------ |
 | Week 4 | 50 minutes | Post Program Office Hours: Discuss Lessons Learned, Growth Plans, and Actions for Next Phase of manger enablement |
 
-## Important Points To Remember:
+## Important Points To Remember
 
 1. You will be receiving a lot of calendar invites if you sign-up. Please plan to attend either the AM or PM sessions.
 1. All participants will be invited to a Slack Group for the Manager Challenge
@@ -186,7 +185,7 @@ The document is intended to be a starting point for managers to document where t
 1. **What skills will I be building?**
     - You will be building a range of skills that include: coaching, managing performance, crucial conversations, feedback, building an inclusive culture, developing high performing teams, getting to know your team, and much more!
 1. **How does this complement our values?**
-    - All of the challenges will reinforce our values by applying management techniques to lead teams in a remote environment. In the weekly charts above, each day or topic will have a [values competency](/handbook/competencies/#list) that you can expect to improve upon.
+    - All of the challenges will reinforce our values by applying management techniques to lead teams in a remote environment. In the weekly charts above, each day or topic will have a [values competency](/handbook/people-group/competencies/#list) that you can expect to improve upon.
 1. **Is the content in the slides in the Handbook?**
     - Yes! All of the content will be in the Handbook. We are creating Google Slides to visualize the content for the challenges but all of it will live in the handbook.
 1. **What if I can’t attend a Live Learning session or complete a challenge?**
@@ -268,7 +267,6 @@ For the pilot Manager Challenge program, the Learning & Development team held a 
 
 {{< youtube "v_ohUbaRFFw" >}}
 
-
 ## Pilot Program
 
 In September 2020, the L&D team piloted the Manager Challenge to a group of People Leaders in People Success, Engineering, and Product. Learn more about the pilot content by [reviewing the pilot epic](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/1).
@@ -290,4 +288,3 @@ Pilot Kickoff Video:
 - [2021 May Manager Challenge](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/38)
 - [2021 January Manager Challenge](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/26)
 - [2020 September Manager Challenge Pilot](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/1)
-

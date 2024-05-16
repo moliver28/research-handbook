@@ -17,7 +17,7 @@ Perhaps more than any other functional department, people operations — referre
 1. [Remote onboarding]({{< ref "../onboarding" >}})
 1. [Building culture]({{< ref "../building-culture" >}})
 1. [Hiring]({{< ref "../hiring" >}})
-1. [Compensation and Total Rewards]({{< ref "/handbook/total-rewards" >}})
+1. [Compensation and Total Rewards](/handbook/total-rewards)
 1. [Remote internships]({{< ref "../internship" >}})
 
 ## Major strategic considerations
@@ -83,6 +83,6 @@ Not all disruptions are bad. Often, they tend to spark new ways of thinking that
 
 People teams which embrace the suddenly all-remote shift for its upside potential rather than its downside possibilities are likely to provide greater support. By thinking creatively, embracing ambiguity, maintaining flexibility, and focusing on behaviors and results, people leaders will have a central role in managing the shift and optimizing it over time.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "../_index.md" >}}).

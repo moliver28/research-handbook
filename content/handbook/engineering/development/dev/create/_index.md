@@ -2,13 +2,13 @@
 
 title: Create Stage
 description: >-
-  The Create Stage is a group of teams including 
+  The Create Stage is a group of teams including
   Code Creation, Code Review, Editor Extensions,
   IDE, and Source Code.
 ---
 
 
-## Hello!
+## Hello
 
 [We're the Create Stage](/handbook/engineering/development/dev/create/engineering-managers/) and we are a group of teams within the Dev Sub Department. We're comprised of five areas [within the GitLab product](/handbook/product/categories/#create-stage).
 
@@ -16,10 +16,10 @@ description: >-
 | ---- | -------------------- |
 | [Create Stage](/handbook/engineering/development/dev/create/) | [Darva Satcher](/handbook/company/team/#dsatcher) (Director, Engineering) |
 | [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/) | [Matt Nohr](/handbook/company/team/#mnohr) (Fullstack) |
-| [Create:Code Review](/handbook/engineering/development/dev/create/code-review/) | [Kisha Mavryck Richardson](/handbook/company/team/#kishamavryck) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
-| [Create:Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/) | [François Rosé](/handbook/company/team/#francoisrose) (Fullstack) |
+| [Create:Code Review](/handbook/engineering/development/dev/create/code-review/) | [François Rosé](/handbook/company/team/#francoisrose) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
+| [Create:Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/) | [Kisha Mavryck Richardson](/handbook/company/team/#kishamavryck) (Fullstack) |
 | [Create:IDE](/handbook/engineering/development/dev/create/ide/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
-| [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) | [Sean Carroll](/handbook/company/team/#sean_carroll) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
+| [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  [André Luís](/handbook/company/team/#andr3)  |
 
 ## Mission
 

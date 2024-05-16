@@ -24,7 +24,6 @@ Review examples of why you might want to, or benefit from, meeting with a profes
 1. A team member wants to improve their communication style with a focus giving on open and honest feedback.
 1. A team member needs guidance in building a system to prioritize their work based on urgency and results.
 
-
 ## Selecting a coach
 
 There are various ways to find a coach at GitLab:
@@ -42,10 +41,10 @@ graph TD
 
 | Coaching Type | Description |
 | ----- | --------------- |
-| Coaching Right Now | Professional coaching by external coaches is offered for managers and IC's Job Grade 8 and above using the [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements). We work with [Coaching Right Now](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#professional-coaching) as our vendor of choice to pair team members with coaches who have been reviewed by the GitLab L&D team. More information about this program with Coaching Right Now can be found [here](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?rtpof=true&sd=true). |
+| Coaching Right Now | Professional coaching by external coaches is offered for managers and IC's Job Grade 8 and above using the [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements). We work with [Coaching Right Now](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#professional-coaching) as our vendor of choice to pair team members with coaches who have been reviewed by the GitLab L&D team. More information about this program with Coaching Right Now can be found [here](https://docs.google.com/document/d/188H3iuIY9JwE4kmAeoLobNz-e6j-rKie/edit?rtpof=true&sd=true). |
 | [Modern Health](/handbook/total-rewards/benefits/modern-health/) | Using our Modern Health Employee Assistance Program provides professional coaching to all team members. Coaches on Modern Health specialize in professional/career, mental health, and financial coaching. |
 | Manager Coaching | Your manager can be a coach that steers you towards future goals. Ensure that your Manager can take you on in a coaching capacity. However, coaching can also be a type of interaction you have with your Manager during 1:1 discussions. |
-| Internal Coach | Consider a senior to you in your larger team or someone outside of your team that has inspired you on the specific areas you are working and developing on. Consider searching on [this list of available mentors](/handbook/people-group/learning-and-development/mentor/#find-a-mentor).
+| Internal Coach | Consider a senior to you in your larger team or someone outside of your team that has inspired you on the specific areas you are working and developing on. Consider searching on [this list of available mentors](/handbook/people-group/learning-and-development/mentor/#find-a-mentor). |
 | Alternative Professional Coach | If some reason the coaches offered via Coaching Right Now or Modern Health do not fit your needs, team members with a Job Grade 8+ can seek and get approval for alternate external coaches. |
 
 ## How coaches coach
@@ -284,7 +283,7 @@ The planning for the action phase is about enabling the coachee to make a plan w
 
 When you are planning for action while wearing your coaching hat, you are not evaluating or judging or driving your agenda. The coachee should ultimately decide the action steps, committing to their path forward. As a coach, you are curious and non-judgemental while living up to [GitLab values]({{< ref "values" >}}).
 
-#### Sample planning for action questions:
+#### Sample planning for action questions
 
 - What might be three next steps that you can take in order to....?
 - What are you going to do? When are going to do it? How will you know?
@@ -325,7 +324,7 @@ That action will include additional coaching, both verbal and documented.
 
 There are times when a Team Member’s behavior becomes so egregious that it is more than a performance issue, and becomes a true conduct concern. If at any point you suspect a team member has engaged in such behavior TMR should be looped in immediately, regardless of whether or not you consider the Team Member a high performer.
 
-- [TMR Handbook Page]({{< ref "/handbook/people-group/readmes" >}})
+- [TMR Handbook Page](/handbook/people-group/readmes)
 - [LDR 102 Underperformance](https://www.youtube.com/watch?v=nRJHvzXwXBU&t=1s)
 - [Managing Underperformance Handbook Interview](https://www.youtube.com/watch?v=-mLpytnQtlY)
 
@@ -347,7 +346,7 @@ We held 50 minute Introduction to Coaching [Live Learning](/handbook/people-grou
 
 In an all-remote organization, coaching is a critical skill for managers to develop and improve upon as they progress in their careers. Coaching helps to facilitate the career development of team members through regular coaching conversations. Coaching helps team members change behavior, improve performance, and sustain commitment through encouragement, support, collaborative problem-solving, goal setting, and [feedback](/handbook/people-group/guidance-on-feedback/).
 
-**Skills and behavior of the [coaching competency](/handbook/competencies/) for managers:**
+**Skills and behavior of the [coaching competency](/handbook/people-group/competencies/) for managers:**
 
 - Facilitates job performance growth of team members by providing regular coaching sessions
 - Understands team members long-term career goals and acts as a mentor and guide to achieving them

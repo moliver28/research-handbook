@@ -12,7 +12,7 @@ found a home for in the wider Support Team Handbook.
 The intent is to enable APAC Support team members to contribute to Results for
 APAC-specific iniatitives, policies, processes and workflows by prioritizing:
 
-1. Transparency, through being [handbook first](/handbook/handbook-usage/#why-handbook-first)
+1. Transparency, through being [handbook first](/handbook/about/handbook-usage/#why-handbook-first)
    and providing a single source of truth for APAC-specific.
 1. Iteration, through providing a safe space where APAC Support team members can
    introduce or update APAC-specific policies, workflows and processes without
@@ -37,7 +37,13 @@ of the GitLab Support On-Call Guide Handbook page.
 
 ### Support engineers should spend time on work other than L&R work
 
-- ???
+- Support engineers join GitLab with a mix of backgrounds in development, systems administration or
+  support engineering. We want to support people's growth and development by ensuring they maintain
+  and improve the relevant skills they bring with them.
+- While L&R problems are often challenging and complex, they are not suited to maintaining those
+  hands-on technical skills. An over-focus on solving L&R problems causes many of these skills to
+  atrophy.
+- To avoid this, support engineers in APAC should spend no more than 30% of their time on L&R work.
 
 ## Working principles
 
@@ -111,12 +117,14 @@ each financial quarter.
   <summary markdown="span">Historical & current data</summary>
 
   The following shows:
+
    - the number for the Cliff of Definite Underperformance (CoDU) as observed for the 12 month period concluding prior to the listed quarter.
    - a link to the notification issue when the number was reviewed for that period.
 
 | **Quarter** | **Cliff Number** | **Notification Issue**  |
-|------------| -------- |------|--------------------------|
-| FY25-Q1 (Current) | 9 | [STM#5821](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5821) |
+|-------------| ---------------- | ------------------------|
+| FY25-Q2 (Current) | 8 | [STM#6046](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6046) |
+| FY25-Q1 | 9 | [STM#5821](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5821) |
 | FY24-Q4 | 8 | [STM#5672](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5672) |
 | FY24-Q3 | 7 | [STM#5494](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5494) |
 | FY24-Q2 | 7 | Nil - practice started in FY24-Q3 |
@@ -125,7 +133,6 @@ each financial quarter.
 | FY23-Q3 | 5 | |
 | FY23-Q2 | 5 | |
 | FY23-Q1 | 5 | |
-
 
 </details>
 
@@ -344,3 +351,12 @@ To refer to past planning issues, see issues linked to the [[APAC] Holiday Cover
 </table>
 
 - ???
+
+## Understanding our working hours in relation to Zendesk
+
+The following images visualise the typical working hours in various team member locations in
+relation to SLA timers and [APAC regional business hours](https://about.gitlab.com/support/#effect-on-support-hours-if-a-preferred-region-for-support-is-chosen)
+in Zendesk. Pay attention to the months shown in each section - the difference is due to some
+countries observing daylight savings time.
+
+![APAC Working hours](../assets/APACWorkingHours.png)

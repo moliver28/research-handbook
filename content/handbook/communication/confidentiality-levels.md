@@ -15,7 +15,7 @@ If something isn't listed in the sections below we should make it available exte
 
 ### Internal
 
-Some things are **internal**, available internally but not externally. In instances where a topic should only be accessible to team members, but we would otherwise have a page in the public handbook, it can be added to GitLab's [internal handbook](https://internal.gitlab.com/). [Background on the internal handbook](/handbook/handbook-usage/#the-internal-handbook) can be found in the public handbook. It is okay to refer to the public handbook or the internal and public handbooks in aggregate as "the handbook." The internal handbook should always be referred to as the "internal handbook."
+Some things are **internal**, available internally but not externally. In instances where a topic should only be accessible to team members, but we would otherwise have a page in the public handbook, it can be added to GitLab's [internal handbook](https://internal.gitlab.com/). [Background on the internal handbook](/handbook/about/handbook-usage/#the-internal-handbook) can be found in the public handbook. It is okay to refer to the public handbook or the internal and public handbooks in aggregate as "the handbook." The internal handbook should always be referred to as the "internal handbook."
 
 The following items are internal:
 
@@ -45,6 +45,7 @@ The following items are internal:
 1. Changes to GitLab.com free tier limits such as storage, data transfer, user limits or compute minutes are not public as they are similar to Pricing and Packaging as discussed below in limited access.
 1. Specific details about our hiring processes such as our scoring rubrics & criteria are not public as we want to ensure candidates provide an accurate overview of their experience and do not falsify their responses to meet our criteria. [High-level interview plans are public and documented in each job family](/handbook/hiring/job-families/#job-family-template-1).
 1. GitLab's [strategy](/handbook/company/strategy), [Yearlies](/handbook/company/yearlies/), and [OKRs](/handbook/company/okrs/) are internal-only. GitLab goal setting is intentional ambitious. External folks, without context, could make misinterpretations about the company’s financial health and strategic plans, so sharing this information may have [an unintended and undesirable effects](/handbook/legal/safe-framework/#effect).
+1. Discussion, designs, and code that are subject to the [Discovery phase](/handbook/legal/patent-program/#discussion-of-inventions-and-improvements-to-inventions) of a patent application. Prior to filing the application all product and protype development should take place outside of public repositories.
 
 ### Limited access
 

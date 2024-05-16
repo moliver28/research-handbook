@@ -80,7 +80,7 @@ To learn how the GitLab product and our Teams are organized review our Product C
 
 Learn about GitLab as a product, including what does it mean to be a single application, our subscription tiers and pricing model, and the basics of permissions in the platform.
 
-### [**Product Manager Responsibilities**](/handbook/product/product-manager-responsibilities)
+### [**Product Manager Responsibilities**](https://handbook.gitlab.com/job-families/product/product-manager)
 
 Understand the roles and responsibilities of product managers.
 
@@ -105,7 +105,7 @@ Learn about our Product Leadership Team and learn about them via their personal 
 - [**Data for Product Managers**](/handbook/business-technology/data-team/programs/data-for-product-managers/)
 - [**Internal Product Handbook**](https://internal.gitlab.com/handbook/product/) (must access through OKTA)
 - [**Learning and Development for Product Management**](/handbook/product/product-manager-role/learning-and-development/)
-- [**Product Budgeting Process**](/handbook/product-development-budgeting/)
+- [**Product Budgeting Process**](/handbook/product-development-flow/product-development-budgeting/)
 - [**Product Development Flow**](/handbook/product-development-flow/)
 - [**Product Development Timeline**](/handbook/engineering/workflow/#product-development-timeline)
 - [**Analytics Instrumentation Guide**](/handbook/product/analytics-instrumentation-guide/)

@@ -51,7 +51,7 @@ Nice to do:
 - [Other issues labeled `UX`](https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name%5B%5D=UX)
 - [Socializing design work](/handbook/product/ux/product-designer/#socialize-your-work) outside GitLab by either writing a blog post, a social media post or by speaking at a conference or event.
 
-See also [How we use labels](/handbook/product/ux/ux-department-workflow/#how-we-use-labels).
+See also [How we use labels](/handbook/product/ux/#ux-labels).
 
 #### Engagement with Single Engineer Groups (SEGs)
 
@@ -122,7 +122,7 @@ This section provides an overview of how we work with issues. But it's very impo
 
 ### Triaging UX issues
 
-Every Product Designer at GitLab is empowered to triage issues with "~UX", ["~UX debt"](/handbook/engineering/workflow/#ux-debt) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish) labels, or should be included for feedback by the responsible PM and EM instead. Use [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#priority) to propose the time in which the issue should be solved and [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#severity) to communicate its impact on users. Always work to align and communicate with your PM and EMs on the labels assigned.
+Every Product Designer at GitLab is empowered to triage issues with "~UX", ["~Deferred UX"](/handbook/engineering/workflow/#deferred-ux) and ["~UI polish"](/handbook/engineering/workflow/#ui-polish) labels, or should be included for feedback by the responsible PM and EM instead. Use [Priority labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#priority) to propose the time in which the issue should be solved and [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/index.html#severity) to communicate its impact on users. Always work to align and communicate with your PM and EMs on the labels assigned.
 
 ### Scheduling issues in a milestone
 
@@ -130,7 +130,7 @@ All issues in a milestone labeled [`Deliverable`](https://gitlab.com/groups/gitl
 
 #### Communicating scheduled UX issues to the stage group
 
-Consider adding a `User Experience` section to your team's planning issues ([example 1](https://gitlab.com/gitlab-org/ci-cd/release-group/release/-/issues/53#user-experience-roller_coaster), [example 2](https://gitlab.com/gitlab-org/ci-cd/release-group/release/-/issues/59#research-sleuth_or_spy)), which can include issues related to active design items for that given milestone such as research projects, UX debt, UI polish, or Pajamas components. Learn more about [planning and capacity](/handbook/product/ux/product-designer/#planning-and-managing-capacity) for product designers.
+Consider adding a `User Experience` section to your team's planning issues ([example 1](https://gitlab.com/gitlab-org/ci-cd/release-group/release/-/issues/53#user-experience-roller_coaster), [example 2](https://gitlab.com/gitlab-org/ci-cd/release-group/release/-/issues/59#research-sleuth_or_spy)), which can include issues related to active design items for that given milestone such as research projects, Deferred UX, UI polish, or Pajamas components. Learn more about [planning and capacity](/handbook/product/ux/product-designer/#planning-and-managing-capacity) for product designers.
 
 Having design problems added to the planning issue help make design efforts discoverable for the rest of the team and encourages cross-functional collaboration during `workflow::problem validation`, `workflow::design` and `workflow::solution validation`.
 
@@ -205,7 +205,7 @@ Here's a sample set of questions you can ask yourself when designing:
 - Is the content hierarchy and flow clear?
 - Are like items grouped and are groups clearly defined?
 - Does this content or functionality need to be visible all the time and for everyone?
-- Does this content or functionality need to be present in this context? Is it helpful *and* necessary?
+- Does this content or functionality need to be present in this context? Is it helpful _and_ necessary?
 - Does discovery allow a user to avoid mistakes or recover from them easily?
 - Is the structure in support of discovery and use of advanced capabilities?
 - Is this feature and/or capability even needed or used, or what would happen if it was removed?
@@ -362,7 +362,7 @@ For iteration inspiration watch our Product Designers discuss [iteration at GitL
 - If the solution needs to be broken out into smaller issues for implementation, apply the `workflow::planning breakdown` label and stay involved by walking PM and Engineering through the proposed solution and participating in the conversation to break down the issue.
 - If the solution needs to be scheduled by PM and/or EM, apply the `workflow::scheduling` label and mention the [responsible product manager](/handbook/product/categories/#devops-stages) to [schedule it](/handbook/engineering/workflow/#scheduling-issues). It is also the Product Designer's responsibility to communicate with the assigned engineer to ensure they understand the solution.
 - If the issue is meant for implementation in the current milestone, review the solution with the assigned engineer(s) and/or engineering manager. If they are comfortable with the solution, you can apply the `workflow::ready for development` label.
-- There are times that a Product Manager might request that an issue is moved to the Build phase before the Product Designer feels that the experience meets UX Department standards. In that case, the Product Designer should create follow-on issues and/or apply the `UX debt` label to indicate that the product doesn’t meet UX requirements and will require immediate iteration.
+- There are times that a Product Manager might request that an issue is moved to the Build phase before the Product Designer feels that the experience meets UX Department standards. In that case, the Product Designer should create follow-on issues and/or apply the `Deferred UX` label to indicate that the product doesn’t meet UX requirements and will require immediate iteration.
 
 ### Socialize your work
 
@@ -421,58 +421,11 @@ Below is a list of some of the resources that you can use to contribute to the d
 
 ## UX Paper Cuts workflow
 
-### General workflow
-
-One of our goals is to deliver changes as efficiently as possible. With that in mind:
-- Try to review ~"UX Paper Cuts" MRs assigned to you as soon as you can
-- Keep your merge requests small and focused
-  - If you have a larger initiative in mind, plan on breaking it into smaller MRs
-  - Cross-link each MR if they're related
-
-### Milestone theme work
-
-Each milestone we focus on a specific area of the product (previous milestone themes include Merge request UI, AI feature polish, and labels & lists). Focusing on smaller areas like this maximizes the impact of our changes. Each milestone planning issue will include a list of ideas and issues we think we can work on.
-- Look at list in description; if you see one you'd like to work on, assign yourself
-- In your merge request:
-  - Link MR back to the issue
-  - Add labels `~"group::ux paper cuts"` `~"UX Paper Cuts"` `~frontend ~UX` `~"type::maintenance"` `~"maintenance::usability"` `~"section::dev"` `~"SUS::Impacting"` `~"severity::4"` _(adjust to use correct severity number)_
-- Assign a paper cuts designer to review ~"UX"
-- Use reviewer roulette for developer reviews
-
-### Other fixes
-
-- If you want to fix something that's _not_ on the list, feel free! Just link the MR back to milestone planning issue
-- Look at Slack channel #is-this-known for recent bugs
-
-### Useful links & tips
-
-- [Open UX Paper Cuts MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name%5B%5D=UX%20Paper%20Cuts)
-- All available [utility classes](https://unpkg.com/browse/@gitlab/ui@64.10.1/src/scss/utilities.scss)
-- You can speed up your workflow a bit by creating [comment templates](https://docs.gitlab.com/ee/user/profile/comment_templates.html) for commonly used actions, like assigning a reviewer or approving an MR  (for example, you could create an "Approve" comment template including the `/approve`, `/remove_reviewer`, and `/unsubscribe` quick actions)
-
-### For help
-
-- Try pinging the developers on your MR suggested by reviewer roulette
-- People are super helpful in Slack channels `#g_manage_foundations` and `#gitlab-ui`
-
-### Suggesting Paper Cuts to the team
-
-The Paper Cuts team welcomes suggestions as an input to their planning.
-
-When there is a problem you think may be a good fit for the Paper Cuts team:
-
-- If an issue already exists:
-    1. Add the `~"UX Paper Cuts"` label and a group label appropriate to the functionality affected.
-    1. Leave a brief comment on the issue explaining why it may be a good fit for Paper Cuts work.
-- If an issue does not exist:
-    1. Mention the problem in the [Paper cuts possibilities & requests](https://gitlab.com/gitlab-org/gitlab/-/issues/417911) issue for discussion.
-
-UX Paper Cuts team members will triage existing issues and ideas mentioned in the possibilities and requests discussion and incorporate actionable changes as they plan their work.
-Issues that are not good candidates for Paper Cuts work will have the `~"UX Paper Cuts"` label removed and a Paper Cuts team member will leave a brief comment on why the issue is not a good fit.
+See [UX Paper Cuts Direction Page](https://about.gitlab.com/direction/ux-paper-cuts).
 
 ## Approach to communication
 
-As design can be subjective, discussion can heat up. Sometimes team members won't agree on the best approach. Always try to be [direct](/handbook/values/#directness) but [kind](/handbook/values/#kindness). Try to give your best reasoning for your choices, and evaluate everyone's ideas and suggestions. Come up with a solution instead of discussing endlessly. If you think additional perspective is needed, mention a fellow Product Designer in the issue, or take it a step further and suggest that we perform some [solution validation](/handbook/product/ux/ux-research/#solution-validation) to let the data guide our design direction. Finally, remember that at GitLab we can [disagree, commit, and disagree](/handbook/values/#disagree-commit-and-disagree).
+As design can be subjective, discussion can heat up. Sometimes team members won't agree on the best approach. Always try to be [direct](/handbook/values/#directness) but [kind](/handbook/values/#kindness). Try to give your best reasoning for your choices, and evaluate everyone's ideas and suggestions. Come up with a solution instead of discussing endlessly. If you think additional perspective is needed, mention a fellow Product Designer in the issue, or take it a step further and suggest that we perform some [solution validation](/handbook/product/ux/ux-research/#solution-validation) to let the data guide our design direction. Finally, remember that at GitLab we can [disagree, commit, and disagree](/handbook/values/#disagree-and-commit).
 
 ## Design tools
 
@@ -485,7 +438,7 @@ Our primary design tool is [Figma](https://www.figma.com/). As a product designe
 Anyone else in GitLab can access your files when you either share the file URL or invite them directly via email, but we ask that you only give them “can view” permissions. Anyone with “can edit” permissions is considered a paid seat and must have approval. A user with “can view“ permission will still be able to comment on and inspect design files.
 
 If you want to invite team members to collaborate on your FigJam boards, you can do this by starting an [open session](https://help.figma.com/hc/en-us/articles/4410786053911-Invite-visitors-to-an-open-session). This feature allows for team members with or without a FigJam license to have edit access as long as the board has been enabled for an open session and the link for the board is shared with them. Open sessions will only run for **24 hours** at a time. If you want team members to be able to edit your files across multiple days, you will need to restart the open session each day.
-If there are concerns about keeping information on your Figjam board SAFE, you can add [password protection](https://help.figma.com/hc/en-us/articles/5726720100247-Add-password-protection-to-files). That way only those with the password can edit the board when the open session is enabled. 
+If there are concerns about keeping information on your Figjam board SAFE, you can add [password protection](https://help.figma.com/hc/en-us/articles/5726720100247-Add-password-protection-to-files). That way only those with the password can edit the board when the open session is enabled.
 
 GitLab has a public Figma profile where anyone can duplicate or remix files we have published. You can view our profile under the Community tab of the GitLab team section, or navigate to https://www.figma.com/@GitLab.
 
@@ -504,7 +457,4 @@ Figma has four levels of access, also called Permissions, for Professional teams
 
 Figma's cloud storage contains all design files under our Organization account and only the Pajamas UI Kit files are published to our [GitLab Product Design](https://www.figma.com/@gitlabdesign) community page and available publicly. It's recommended that you back up any non-confidential design files you'd like to have a record of for future reference or portfolio use by saving a .fig file and storing via your preferred method.
 
-[ux-guide]: https://docs.gitlab.com/ee/development/ux_guide/
 [gitlab-design-project-contribution-guidelines]: https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md
-[twitter-sheet]: https://docs.google.com/spreadsheets/d/1GDAUNujD1-eRYxAj4FIYbCyy8ltCwwIWqVTd9-gf4wA/edit
-[product-dev-flow]: /handbook/product-development-flow/

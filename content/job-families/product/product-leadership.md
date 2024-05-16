@@ -65,7 +65,6 @@ See more details about our hiring process on the [hiring handbook](/handbook/hir
 - [Handbook Update Frequency](/handbook/product/ux/performance-indicators/#handbook-update-frequency)
 - [Team Member Retention](/handbook/product/ux/performance-indicators/#team-member-retention)
 
-
 ### VP of Product Management
 
 This role typically manages 4-6 direct reports, including Group Managers of Product Management, Directors of Product Management and Senior Directors of Product Management, and reports to the [Chief Product Officer]({{< ref "chief-product-officer" >}}).

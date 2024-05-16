@@ -5,7 +5,7 @@ description: The Create:Source Code BE team is responsible for all backend aspec
 
 The Create:Source Code BE team focuses on GitLab's suite of Source Code Management (SCM) tools and is responsible for all backend aspects of the product categories that fall under the [Source Code group][group] of the [Create stage][stage] of the [DevOps lifecycle][lifecycle]. Our Product direction is found on the [Category Direction - Source Code Management](https://about.gitlab.com/direction/create/source_code_management/) page.
 
-We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](../../create-source-code-fe/index.html). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#createsource-code-group) and technical documentation can be found on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) technical reference page.
+We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/create-source-code-fe/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#createsource-code-group) and technical documentation can be found on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) technical reference page.
 
 [group]: /handbook/product/categories/#source-code-group
 [stage]: /handbook/product/categories/#create-stage
@@ -15,13 +15,13 @@ We interface with the Gitaly and Code Review teams, and work closely with the [C
 
 The following people are permanent members of the Create:Source Code BE Team:
 
-{{% team-by-manager-role "Backend Engineering Manager(.*)Create:Source Code" %}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*Backend.*Create:Source Code" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Create:Source Code|Technical Writer(.*)Source Code|Director(.*)Create|Principal(.*)Create|Group(.*)Create" manager-role="Backend Engineering Manager(.*)Create:Source Code"  >}}
+{{< stable-counterparts role="(Product Manager|Frontend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
 
 ## Sisense & KPIs
 
@@ -56,9 +56,6 @@ For more urgent items, feel free to use `#g_create_source_code` on Slack.
 
 [Take a look at the features we support per category here.](/handbook/product/categories/features/#createsource-code-group)
 
-[engineering workflow]: /handbook/engineering/workflow/
-[GitLab]: https://gitlab.com/gitlab-org/gitlab
-[#g_create_source_code]: https://gitlab.slack.com/archives/g_create_source-code
 
 ### Working with the Product Team
 
@@ -156,7 +153,7 @@ Create Source Code UX planning takes inputs from the following sources:
 
 ##### Planning Issue
 
-Each month a planning issue is created by the PM, using the [Source code template](https://gitlab.com/gitlab-org/create-stage/-/blob/master/.gitlab/issue_templates/source-code-planning.md).
+Each month a planning issue is created by one of the EMs, using [automated tools](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/blob/main/doc/planning/index.md)based on the [Source Code issue template](https://gitlab.com/gitlab-org/create-stage/-/blob/master/.gitlab/issue_templates/source-code-planning.md).
 
 ##### Planning Board
 
@@ -181,7 +178,7 @@ The EM then applies the ~Deliverable label to each issue in the Release and assi
 
 Urgent issues are tentatively assigned to a release to ensure other teams have visibility.
 
-At this point the issues are _Candidate_ issues, and the milestone does not confirm that they will be definitely scheduled. Issues move from _Candidate_ status to confirmed during the [Issue selection](#issue-selection) process.
+At this point the issues are *Candidate* issues, and the milestone does not confirm that they will be definitely scheduled. Issues move from *Candidate* status to confirmed during the [Issue selection](#issue-selection) process.
 
 #### Key Dates
 
@@ -189,7 +186,7 @@ At this point the issues are _Candidate_ issues, and the milestone does not conf
 | ------ | ------ | ------ |
 | The Monday of the week the milestone ends |**PM** creates planning board and pings EMs in the Planning Issue for review & weighting.<br><br> **EMs** calculate capacity, add to Planning Issue.<br><br>**PM** submits RPIs for reviews.|
 | Monday to Friday of the week the milestone ends |**EMs** & **ICs** add weights to issues in the planning board|
-| The Friday the milestone ends | **EMs** add ~Deliverable labels to issues so that they appear on the Build board _as a draft_<br><br>Release Post: **EMs**, **PMs**, and **PDs** contribute to MRs for Usability, Performance Improvements, and Bug Fixes|
+| The Friday the milestone ends | **EMs** add ~Deliverable labels to issues so that they appear on the Build board *as a draft*<br><br>Release Post: **EMs**, **PMs**, and **PDs** contribute to MRs for Usability, Performance Improvements, and Bug Fixes|
 | The Friday the milestone ends | **EMs** adjust ~Deliverable labels for slippage and make final assignments<br><br>**PMs** review final plan for milestone on Build board<br><br>**EMs** merge RPI MRs for features that have been merged.|
 | The third Thursday of the month | Release |
 
@@ -208,13 +205,7 @@ If you would like to be assigned to work on this issue in the upcoming release, 
 
 The weights we use are:
 
-| Weight | Description  |
-| --- | --- |
-| 1: Trivial | The problem is very well understood, no extra investigation is required, the exact solution is already known and just needs to be implemented, no surprises are expected, and no coordination with other teams or people is required.<br><br>Examples are documentation updates, simple regressions, and other bugs that have already been investigated and discussed and can be fixed with a few lines of code, or technical debt that we know exactly how to address, but just haven't found time for yet. |
-| 2: Small | The problem is well understood and a solution is outlined, but a little bit of extra investigation will probably still be required to realize the solution. Few surprises are expected, if any, and no coordination with other teams or people is required.<br><br>Examples are simple features, like a new API endpoint to expose existing data or functionality, or regular bugs or performance issues where some investigation has already taken place. |
-| 3: Medium | Features that are well understood and relatively straightforward. A solution will be outlined, and most edge cases will be considered, but some extra investigation will be required to realize the solution. Some surprises are expected, and coordination with other teams or people may be required.<br><br>Bugs that are relatively poorly understood and may not yet have a suggested solution. Significant investigation will definitely be required, but the expectation is that once the problem is found, a solution should be relatively straightforward.<br><br>Examples are regular features, potentially with a backend and frontend component, or most bugs or performance issues. |
-| 4: Large | Features that are well understood, but known to be hard. A solution will be outlined, and major edge cases will be considered, but extra investigation will definitely be required to realize the solution. Many surprises are expected, and coordination with other teams or people is likely required.<br><br>Bugs that are very poorly understood, and will not have a suggested solution. Significant investigation will be required, and once the problem is found, a solution may not be straightforward.<br><br>Examples are large features with a backend and frontend component, or bugs or performance issues that have seen some initial investigation but have not yet been reproduced or otherwise "figured out". |
-| 5: Unknown | A feature that is weight 5 will not be scheduled and instead should be broken down or a spike scheduled |
+{{% include "includes/engineering/create/weight_table.md" %}}
 
 A weight of 5 generally indicates the problem is not clear or a solution should be instead converted to an Epic with sub-issues.
 
@@ -223,15 +214,15 @@ A weight of 5 generally indicates the problem is not clear or a solution should 
 If the problem is well-defined but too large (weight 5 or greater), either:
 
 - Promote the issue to an Epic and break the work into sub-issues. Weight the individual issues if possible.
-- Ping @sean_carroll and @tlinz and outline the reason the issue needed to be promoted to an Epic.
+- Ping the EM and PM and outline the reason the issue needed to be promoted to an Epic.
 
 ###### If the issue SSOT is not clear
 
-- Don't assign a weight, instead add a comment indicating what needs clarification and ping @sean_carroll and @tlinz.
+- Don't assign a weight, instead add a comment indicating what needs clarification and ping the EM and PM.
 
 ##### If the issue needs a spike
 
-- Don't assign a weight, instead add a comment about the need for a spike (and possibly what would be investigated) and ping @sean_carroll / @tlinz.
+- Don't assign a weight, instead add a comment about the need for a spike (and possibly what would be investigated) and ping the EM or PM.
 - Spikes are scheduled with a weight of 2.
 - Spikes are scheduled with a weight of 2 (timeboxed).
 - The ~spike label is added
@@ -242,7 +233,7 @@ When a spike is scheduled, the engineer performs research on what needs to be do
 
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for additional work and backports in the
-[security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md).
+[patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
 
 #### Planning issue review
 
@@ -261,7 +252,7 @@ Approximately 5-10 business days before the start of a new release, the EM will 
 - Upcoming on-call slots
 - Potential time spent on another teams deliverables
 
-Availability is a percentage calculated by _(work days available / work days in release) * 100_.
+Availability is a percentage calculated by *(work days available / work days in release) * 100*.
 
 All individual contributors start with a "weight budget" of 10, meaning they are capable (based on historical data) of completing a maximum number of issues worth 10 weight points total (IE: 2 issues which are weighted at 5 and 5, or 10 issues weighted at 1 each, etc.) Then, based on their availability percentage, weight budgets are reduced individually. For example, if you are 80% available, your weight budget becomes 8.
 
@@ -298,7 +289,7 @@ You will begin to collect follow-up issues when you've worked on something in a 
 
 - Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
 - Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&search=source+code+group+planning)
- 
+
 You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
 
 If there are many follow-up issues, consider creating an epic.

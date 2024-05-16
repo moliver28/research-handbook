@@ -1,6 +1,7 @@
 ---
-
 title: "Reseller Agreement"
+aliases:
+- /handbook/resellers/reseller-agreement/
 ---
 
 
@@ -16,15 +17,11 @@ title: "Reseller Agreement"
 
 **PLEASE READ THIS AGREEMENT CAREFULLY BEFORE ACCESSING GITLAB’S PARTNER PORTAL OR OTHERWISE, USING, ACCESSING, CONSUMING, PURCHASING, RESELLING OR OTHERWISE DISTRIBUTING THE SOFTWARE OR SERVICES FROM GITLAB. BY CLICKING YOUR ASSENT BELOW OR USING, ACCESSING OR CONSUMING THE GITLAB SOFTWARE OR SERVICES, YOU SIGNIFY YOUR ASSENT TO AND ACCEPTANCE OF THIS AGREEMENT AND ACKNOWLEDGE YOU HAVE READ AND UNDERSTAND THE TERMS. AN INDIVIDUAL ACTING ON BEHALF OF AN ENTITY REPRESENTS AND WARRANTS THAT HE OR SHE HAS THE AUTHORITY TO ENTER INTO THIS AGREEMENT ON BEHALF OF THAT ENTITY. IF YOU DO NOT ACCEPT THE TERMS OF THIS AGREEMENT, THEN YOU MUST NOT USE, ACCESS, CONSUME, PURCHASE, RESELL OR OTHERWISE DISTRIBUTE THE GITLAB SOFTWARE OR SERVICES.**
 
-
 ## Master Partner Agreement
 
 **This Master Partner Agreement (the “Agreement”) is made as of the date in which the Partner accepts the terms of this Agreement by clicking “agree” or “accept” (the “Effective Date”) by and between GitLab and Partner (referred to herein as “Party”, or collectively as the “Parties”) and authorizes Partner to participate in one (1) or more of GitLab’s Partner Programs in the Territory (EMEA, North America, LATAM, or APAC) in the region aligning to the Partner’s principal place of business address. Notwithstanding the foregoing, (i) the APAC Territory excludes China, Hong Kong, and Macau; and (ii) authorization to participate in GitLab’s U.S. Public Sector Territory requires separate review and is excluded from the North America Territory, please contact a GitLab channel manager for further details.**
 
-
-
 In consideration of the mutual agreements contained herein and intending to be legally bound hereby, the Parties agree as follows:
-
 
 #### 1. DEFINITIONS
 
@@ -64,7 +61,6 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 1.17 “**Trademarks**” means a Party’s corporate name, logo, and “button” or “icon” for use within third party software to indicate an available integration or partnership, and any other logos, slogan(s), service marks, trademarks, trade names and certification marks.
 
-
 #### 2. PARTNERSHIP
 
 2.1 GitLab and Partner hereby establish the Partnership(s) described in one or more Exhibits as selected by the Parties in the Cover Page. Except as may be expressly set forth in an Exhibit, this Agreement and all Exhibits describe a non-exclusive relationship between the Parties and nothing in this Agreement or an Exhibit is meant to prevent either Party from dealing with any party or from distributing any third-party products or services in any manner. Subject only to the express terms of this Agreement and any Exhibit, each Party is free to communicate and deal with any customer or potential customer at any time and in any manner. For the avoidance of doubt, the Parties acknowledge and agree the terms and conditions stated within this Agreement, an Exhibit, and an executed Order Form shall govern with respect to all matters contemplated herein.
@@ -75,16 +71,11 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 2.4 Partner shall comply with the GitLab Partner Code of Ethics as found at: <https://about.gitlab.com/handbook/people-policies/#partner-code-of-ethics> as updated from time to time in GitLab’s sole discretion subject to any notice requirement set forth in Section 1.10 above.
 
-
 #### 3. FEES, PAYMENT, DISPUTES AND INVOICING
 
 3.1 Unless otherwise agreed to between the Parties in an executed Order Form, the Parties each agree to pay the fees due to the other Party under this Agreement as set forth in the Exhibit(s) and in accordance with the payment terms of this Section 3. Unless otherwise detailed in the Exhibit, all fees are due net thirty (30) calendar days after the date of invoice. GitLab must receive written notice of any disputed charges from Partner within ten (10) calendar days after the invoice date or Partner will be deemed to have accepted such invoice. All invoices shall be expressed and paid in US Dollars. Partner shall pay interest on all amounts not paid when due at a rate of one and one-half percent (1.5%) per month or partial month, or the highest rate allowed by law (whichever is less) compounded, during which time any sums were owed and unpaid. If Partner fails to make payments when due, then in addition to its other rights and remedies, GitLab will have the right to suspend or terminate this Agreement and to recover its reasonable costs and expenses, including reasonable attorneys’ fees, expended in collection of such payments.
 
 3.2 All fees are exclusive of, and Partner is responsible for paying, any tax, VAT, right, tariff, fee, duty, levy or similar governmental charge that may be assessed by any jurisdiction, whether based on the delivery, possession or use of the Products and Services, the execution or performance of this Agreement or otherwise, and including without limitation all sales, use, excise, import or export, value-added, governmental permit fees, license fees, registration fees, and custom fees; provided, however, that Partner shall not have any liability for the income of GitLab. If, as a result of any such tax or levy, Partner is required to withhold any amount on any payment to GitLab, then the amount of the payment will be automatically increased to totally offset such tax or levy, so that the amount actually remitted to GitLab, net of all taxes or levy, equals the amount invoiced. If applicable, Partner shall provide GitLab with the proper legal certificate of the withheld taxes, as well as the proof of its payment to the correspondent authorities. Partner will pay all other taxes, rights, tariffs, fees, duties, levies or similar government charges.
-
-
-
-
 
 #### 4. TERM, TERMINATION AND EFFECT OF TERMINATION
 
@@ -98,7 +89,6 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 4.5 Unless otherwise set forth within this Agreement, neither Party will be liable to the other for damages of any kind, including special, indirect, incidental, consequential or punitive damages, on account of the termination of this Agreement or any Exhibit/Partnership as permitted herein. Each party waives any right it may have to receive any compensation or reparations on termination of this Agreement other than as expressly provided in this Agreement. Neither Party will be liable to the other on account of termination of this Agreement or an Exhibit/Partnership for reimbursement or damages for the loss of goodwill, prospective profits or anticipated income, or on account of any expenditures, investments, leases or commitments made by either Party or for any other reason whatsoever based upon or arising out of such termination.
 
-
 #### 5. CONFIDENTIALITY
 
 5.1 Confidential Information shall not include any information that: (a) is, or becomes, generally available to the public through no fault of, or breach of, this Agreement by the Receiving Party; (b) was rightfully in the Receiving Party’s possession at the time of disclosure without an obligation of confidentiality; (c) is independently developed by the Receiving Party without reliance on, or use of, the Disclosing Party’s Confidential Information; or (d) is rightfully obtained by the Receiving Party from a third party not under a duty of confidentiality and without restriction on use or disclosure.
@@ -111,7 +101,6 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 5.5 All Confidential Information disclosed under this Agreement will remain the property of the Disclosing Party. No license or right under any intellectual property right is granted under this Agreement or by any disclosure of Confidential Information except as expressly stated in this Agreement.
 
-
 #### 6. JOINT MARKETING
 
 6.1 The Parties agree to make commercially reasonable efforts to engage in joint marketing activities.
@@ -122,11 +111,9 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 6.4 Neither Party shall engage in any deceptive, misleading, illegal or unethical practices, including but not limited to the use of the other Party’s Trademarks that may be detrimental to the other (or such other Party’s services).
 
-
 #### 7. INTELLECTUAL PROPERTY RIGHTS
 
 7.1 The Parties acknowledge and agree that, as between the Parties, GitLab exclusively owns all right, title and interest in and to the Products and Services (including without limitation any code or deliverables provided as part of the Products and Services or otherwise), trade name, Trademarks, service marks, logos, advertising slogans, icons, copyrights, patents, technologies, trade secrets, know how, intellectual property, information and system data (whether pre-existing, or created after the Effective Date), including any modifications, enhancements and derivatives thereof (including, but not limited to, metrics, data and information generated by such Products and Services) and related Software thereof. Partner does not acquire any rights, express or implied to any Products and Services, except as expressly granted herein and within the Exhibit(s). Partner acknowledges and agrees that its rights in and to GitLab’s technology and the Products and Services are limited to the license rights set forth in this Section 7.1 and the applicable Exhibit(s).  Partner will not claim ownership or proprietary rights in GitLab’s technology or the Products and Services. Partner shall not take any action that jeopardizes GitLab or its Affiliates’ and/or licensors’ proprietary rights or acquire any right in the Products and Services or Confidential Information of GitLab, except the limited rights specified in this Agreement or the Exhibits. GitLab and its Affiliates (as applicable) will own all rights in any copy, translation, modification, adaptation, or derivation of the Products and Services or other GitLab Confidential Information, including any improvement or development thereof. Any rights not expressly granted herein are hereby reserved by GitLab. At GitLab’s request, Partner shall execute and deliver to GitLab any instrument that may be appropriate to assign these rights to GitLab or its Affiliates or perfect these rights in GitLab or its Affiliates names.
-
 
 #### 8. RESTRICTIONS
 
@@ -148,13 +135,11 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 8.5 If upon examination of the records, GitLab reasonably determines that any monies are due from Partner to GitLab pursuant to the Agreement, Partner shall promptly pay such sums to GitLab together with any accrued interest thereon.
 
-
 #### 9. WARRANTIES
 
 9.1 Each Party represents and warrants to the other that: (i) it has the right to enter into this Agreement and the Exhibits and perform its obligations in the manner contemplated by this Agreement and the Exhibits and (ii) this Agreement and the Exhibits do not and shall not conflict with any other agreement entered into by it.
 
 9.2 EXCEPT FOR THE FOREGOING WARRANTIES AND ANY WARRANTIES CONTAINED IN THIS AGREEMENT AND THE EXHIBITS, IF ANY, AND TO THE FULLEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW, THE PARTIES DISCLAIM ALL REPRESENTATIONS AND WARRANTIES, EXPRESS AND IMPLIED, CONCERNING OR RELATED TO THIS AGREEMENT AND THE EXHIBITS, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT AND WHETHER OR NOT ARISING THROUGH A COURSE OF DEALING.
-
 
 #### 10. INDEMNIFICATION
 
@@ -164,25 +149,21 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 10.3 The indemnified Party shall notify the indemnifying Party in writing promptly upon learning of any claim or suit for which indemnification may be sought; provided that failure to do so shall not affect the indemnity except to the extent the indemnifying Party is prejudiced thereby. The indemnifying Party shall have control of the defense or settlement, provided that no settlement that: (i) does not provide for the full release of indemnified Party (and its respective successors and permitted assigns), or (ii) requires indemnified Party to take or refrain from taking any action, shall be entered into without indemnified Party’s prior written approval. The indemnified Party shall have the right to participate in such defense or settlement with counsel of its own selection and at its sole expense. Notwithstanding the foregoing, if legal counsel for the indemnified Party notifies the indemnifying Party that (i) there are or may be legal defenses available to the indemnified Party which are different from or additional to those available to the indemnifying Party, and (ii) if the Parties were to be represented by the same counsel, it would constitute a conflict of interest for such counsel and/or prejudice the prosecution of the defenses available to the indemnified Party, then the reasonable costs of the indemnified Party’s independent legal counsel shall be at the indemnifying Party’s expense. The indemnified Party shall reasonably cooperate with the defense, at the indemnifying Party’s expense.
 
-
 #### 11. LIMITATION OF LIABILITY
 
 11.1 To the maximum extent permitted by applicable law, neither Party will be liable for any indirect, incidental, special, consequential or exemplary damages, including but not limited to damages for: (i) loss of profits, goodwill, use, data or other intangible losses (even if the Party has been advised of the possibility of such damages), including any such damages resulting from the use or the inability to use the Products and Services; (ii) the cost of procurement of substitute goods and services resulting from any failure of goods, data, information or services purchased or obtained or messages received or transactions entered into through or from the Products and Services; (iii) unauthorized access to or alteration of transmissions or data; (iv) statements or conduct of any third party on the Products and Services; (v) termination or suspension of an account; or (vi) any other matter relating to the Products and Services.
 
 11.2 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE AGGREGATE LIABILITY OF EITHER PARTY FOR ANY DAMAGES ARISING FROM OR RELATING TO THIS AGREEMENT, EXHIBITS, PRODUCTS OR SERVICES OR RELATED DOCUMENTATION, INFORMATION OR MATERIALS (FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF ACTION) SHALL BE SET FORTH IN THE EXHIBIT.
 
-
 #### 12. COMPLIANCE WITH LAWS
 
 12.1 The Parties shall comply with applicable laws, regulations and other legal requirements as may be applicable to each Party, including, without limitation, tax, import or export restrictions, data privacy and security, foreign exchange and consumer protection legislation. Partner will promptly notify GitLab of any change that Partner knows or should reasonably be aware of in these laws, regulations or other legal requirements that may affect Partner’s performance under this Agreement or the Exhibits. Partner agrees that it will not access, download, use or export the Products and Services into any country, or license, market or promote the Products and Services in any manner prohibited by the United States Export Administration Act or any other import or export laws, restrictions, or regulations (collectively the “**Export Laws**”) or target any current or prospective  End User in any territory restricted by such Export Laws. In addition, the Products and Services may constitute as export controlled items under the Export Laws, therefore, Partner represents and warrants that it is not a citizen, or otherwise located within, an embargoed nation (including without limitation Iran, Syria, Sudan, Cuba, and North Korea) and that Partner is not otherwise prohibited under the Export Laws from partnering with GitLab hereunder. Partner will at all times conduct itself according to the highest standard of business ethics. Partner will not offer or provide money or anything else of value to any agent or representative of any government or government agency in order to obtain or retain business, as prohibited under any and all anti-corruption law, rule or regulation, including, but not limited to the Foreign Corrupt Practices Act of 1977 as amended. No payments between Partner and its End Users will be made in cash or via third parties (excluding Partner or End User’s financial institutions). All such payments will be made directly by check or wire transfer. Partner represents and warrants that none of its principals or staff are agents or representatives of governments (as defined or identified by local law, regulation or custom) or government agencies in the Territory or Territories identified on the Cover Page. Partner will provide true, accurate, and complete information in all product orders, reimbursement requests, and other communications relating thereto.
-
 
 #### 13. GOVERNING LAW
 
 13.1 This Agreement and any disputes arising out of or related to this Agreement will be governed by and construed in accordance with the laws of the State of California, without giving effect to its conflicts of laws rules or the United Nations Convention on the International Sale of Goods. With respect to all disputes arising out of or related to this Agreement, the Parties consent to exclusive jurisdiction and venue in the courts located in San Francisco (if state court) or the Northern District of California (if federal court). Either Party may seek injunctive or other emergency relief in any competent court.
 
 13.2 Each Party understands and agrees that, notwithstanding any other provision of this Agreement or Exhibits, any breach of Sections 5 (CONFIDENTIALITY) or 7 (INTELLECTUAL PROPERTY RIGHTS) of this Agreement by a Party may cause the other Party irreparable damage for which recovery of money damages may be inadequate, and that the non-breaching Party shall therefore be entitled to seek injunctive relief to protect its rights under this Agreement or Exhibit(s) in addition to any and all remedies available at law.
-
 
 #### 14. MISCELLANEOUS
 
@@ -212,11 +193,9 @@ Capitalized terms used in this Agreement shall be defined where first used or as
 
 14.13 This Agreement may be executed in two or more counterparts, each of which shall be deemed an original but all of which together shall constitute one and the same Agreement. The counterparts of this Agreement and all ancillary documents may be executed and delivered by facsimile or other electronic signature by one Party to the other Party and the receiving Party may rely on the receipt of such document so executed and delivered by facsimile or other electronic means as if the original had been received.
 
-
 ## REFERRAL PARTNERSHIP EXHIBIT
 
 Pursuant to the terms of the Agreement, this Referral Partnership Exhibit (“Referral Exhibit”) describes the terms and conditions under which Partner will provide Referral(s) (as defined below) to GitLab for Products and Services.
-
 
 #### 1. DEFINITIONS
 
@@ -236,18 +215,15 @@ Unless otherwise specifically set forth herein, capitalized terms used in this R
 
 1.7 “**Referral Fee**” means the amount GitLab will pay Partner upon Approval (defined below) of a Referral. Applicable Referral Fees are set forth in the Referral Payment Table located within the Partner Program.
 
-
 #### 2. REFERRALS
 
 2.1 If Partner wishes to submit a Referral to GitLab, Partner shall do so by completing and submitting a Client Referral Form. If GitLab desires an introduction to a Referral Client, GitLab will respond to the Client Referral Form and provide written confirmation that it wishes to be introduced to such Referral Client (“**Approval**”). GitLab will use commercially reasonable efforts to provide Partner notice of its Approval or rejection. GitLab may approve or reject a Referral Client submitted by Partner for any reason, as determined by GitLab in its sole discretion.  Rejection of a Referral Client may be caused by, but not limited to: (i) the Referral Client already being a Customer, or (ii) an entity that GitLab does not wish to be associated for any reason, including but not limited to, entities located in proscribed countries or which may represent a potential export, trade or legal risk to GitLab.
 
 2.2 Upon receipt of an Approval, Partner will facilitate an introduction to the applicable Referral Client (“**Introduction**”) to explore a sale by GitLab of Products and Services. For the avoidance of doubt, failure to send an Approval or rejection notice to Partner shall in no way be construed by Partner as Approval to facilitate an introduction or otherwise proceed under the assumption that any Referral Fee will be owed to Partner. Furthermore, Partner understands and agrees that GitLab: (a) responds to Client Referral Forms in the order in which they are received; and (b) will never pay more than one (1) Referral Fee for a single transaction related to Products and Services.
 
-
 #### 3. REFERRAL COMPENSATION
 
 3.1 If a Referral Client purchases Products and Services after an Approval, GitLab will pay Partner the applicable Referral Fee as set forth in the Partner Program. The Referral Fee may be based upon a series of criteria, including but not limited to: (i) Partner status (e.g., Open or Select), (ii) the Products and Services sold to the Referral Client, and the Gross Sale value of the Products and Services, as determined by GitLab in its reasonable discretion.
-
 
 #### 4. INVOICING
 
@@ -255,25 +231,21 @@ Unless otherwise specifically set forth herein, capitalized terms used in this R
 
 4.2 In the event that a Referral Fee is due, GitLab will issue payment of such fee based on the Partner banking information provided to GitLab by Partner as part of the Partner registration process. Partner is solely responsible for ensuring the banking information provided to GitLab as part of the Partner registration process is complete, accurate and up to date and hereby releases GitLab from any liability related to such Referral Fees being issued by GitLab based on the banking information provided by Partner to GitLab.
 
-
 #### 5. RESTRICTION
 
 5.1 Partner shall conduct all of its business in its own name, in the Territory agreed to between the Parties, and in accordance with the highest business standards. Partner will not, and shall not permit others to, make any agreements, promises, covenants, representations, warranties or guarantees concerning GitLab or its Product and Services.
 
 5.2 Partner may only provide materials and information regarding GitLab or its Product and Services to a Referral Client upon GitLab’s prior written approval, or as stated in the Partner Program Resources. Partner shall not describe the Products and Services functionality to the general public, a Referral Client or to its End Users in a way that implies or states that the GitLab Products and Services are owned or have been developed by Partner.
 
-
 #### 6. LIMITATION OF LIABILITY
 
 6.1 TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE AGGREGATE LIABILITY OF GITLAB FOR ANY DAMAGES ARISING FROM OR RELATING TO THE OBLIGATIONS UNDER THIS REFERRAL EXHIBIT AND THE APPLICABLE TERMS OF THE AGREEMENT, INCLUDING THE PRODUCTS AND SERVICES OR RELATED DOCUMENTATION, INFORMATION OR MATERIALS PROVIDED HEREUNDER (FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF ACTION) WILL AT ALL TIMES BE LIMITED TO THE GREATER OF (I) ONE THOUSAND UNITED STATES DOLLARS (USD$1,000) OR (II) THE REFERRAL FEES PAID OR PAYABLE TO PARTNER IN THE  TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE INCIDENT CREATING LIABILITY.
-
 
 ## RESELLER PARTNERSHIP EXHIBIT
 
 Pursuant to the terms of the Agreement, this Reseller Partnership Exhibit (“Reseller Exhibit”) describes the terms and conditions under which Partner will Resell (as defined herein) Products and Services.
 
-
-#### **1. DEFINITIONS**.
+#### **1. DEFINITIONS**
 
 Unless otherwise specifically set forth herein, capitalized terms used in this Reseller Exhibit shall have the meaning defined within the Agreement.
 
@@ -296,10 +268,6 @@ Unless otherwise specifically set forth herein, capitalized terms used in this R
 1.9 “**Resell Opportunity**” means a potential Resale of Products and Services to an End User by an Authorized Reseller.
 
 1.10 “**Subscription Renewal(s)**” means an opportunity for the Resale of Software which is for: (i) an existing End User, and (ii) for the same quantity and type of Software that such existing End User has previously purchased. For the avoidance of doubt, additional Software sold at the time of a Subscription Renewal (“**Upsell**”) shall be treated as a net-new opportunity, pursuant to the Resale Discount Table as publish on the Partner Portal or otherwise provided to Partner, as updated from time to time by GitLab in its sole discretion.
-
-
-
-
 
 #### 2. RIGHTS & OBLIGATIONS
 
@@ -333,12 +301,9 @@ Unless otherwise specifically set forth herein, capitalized terms used in this R
 
 2.7 GitLab shall:
 
-
 2.7.1 Provide Partner with marketing and technical assistance reasonably necessary to enable Partner to Resell Products and Services; and
 
-
 2.7.2 Provide Partner with the information and assistance set forth in the Partner Program, to enable Partner to perform its obligation under the Agreement and this Reseller Exhibit.
-
 
 #### 3. RESELL PROCESS & PROCEDURE
 
@@ -350,7 +315,6 @@ Unless otherwise specifically set forth herein, capitalized terms used in this R
 
 3.4 Partner shall maintain reasonable records to substantiate and verify compliance with this Section 3, as well as the obligations set forth in Section 2.4.
 
-
 #### 4. PRICING AND PAYMENT
 
 4.1 Subject to the terms of this Agreement and an Order Form entered into between the Parties, Partner will pay GitLab for each order of the Products and Services. For the avoidance of doubt, Partner shall at all times be in control of the pricing of Products and Services to its End Users.
@@ -361,11 +325,9 @@ Unless otherwise specifically set forth herein, capitalized terms used in this R
 
 4.4 Pursuant to the “**Resale Discount Table**”, as set forth within the Partner Program, the amount of discount Partner is to receive may be based upon a series of criteria, including but not limited to: (i) whether, or not, the Resell Opportunity was either: (a) Partner Sourced Opportunity, (b) Co-Sell Opportunity; (ii) Partner’s status (e.g., Open or Select); (iii) Gross Sale (as defined herein); and (iv) the Products and Services sold to the End User. “**Gross Sale**” shall mean the annual fees paid by an Authorized Reseller, or Authorized Distributor, to GitLab for the Products and Services as agreed to in an executed Order Form.
 
-
 #### 5. REBATE COMPENSATION
 
 5.1 In addition to up-front product discounts, GitLab may offer partners additional incentives paid as end of quarter rebates (“Rebates”), as determined by GitLab in its sole discretion.  These Rebates, including terms related to eligibility, applicability, payment and the amount of such Rebates, will be set forth in the Partner Program. The incentives may be based upon a series of criteria, including but not limited to: (i) Partner status (e.g., Open or Select), (ii) the Products and Services sold, and the Gross Sale value of the Products and Services, as determined by GitLab in its reasonable discretion. In the event that a Rebate is due, GitLab will issue payment of such Rebate based on the Partner banking information provided to GitLab by Partner as part of the Partner registration process. Partner is solely responsible for ensuring the banking information provided to GitLab as part of the Partner registration process is complete, accurate and up to date and hereby releases GitLab from any liability related to such Rebates being issued by GitLab based on the banking information provided by Partner to GitLab.
-
 
 #### 6. LIMITATION OF LIABILITY
 

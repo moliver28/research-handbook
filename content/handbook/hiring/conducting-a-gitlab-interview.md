@@ -4,7 +4,7 @@ description: "Helpful information about how to prepare and conduct interviews fo
 ---
 ## **Overview**
 
-Interviewing can be challenging for both parties involved. In under an hour, a decision must be made about the potential collaboration. This page aims to provide clear guidelines to ease the interview process for everyone.
+Interviewing can be challenging for both parties involved. In a relatively short space of time, a decision must be made about the potential collaboration. This page aims to provide clear guidelines to ease the interview process for everyone.
 
 ## Interviewer Training Requirements
 
@@ -71,8 +71,9 @@ It’s important to allocate the right amount of time for each part of the inter
   - Work with the hiring team to set up the interview plan in Greenhouse ahead of the interview to ensure all the areas you want to cover are in the scorecard.
   - Try to cover the prepared topics, but keep the conversation smooth - it is ok to skip around.
   - Redirect the conversation as needed - you are in charge of keeping the conversation focused and timely.
+- Consider adding the question to the meeting chat after verbalising. This helps avoid communication issues and be more inclusive.
 - There is an unbalanced power relationship during the interview, and interviewers should be mindful of this fact. The interviewer is in a powerful position: they provide input that could decide if the candidate will move forward or not. Be as friendly and approachable as you can. This has the added value of getting people comfortable (over time) and allows you to get much better data.
-- Interview for soft skills. Pick some behavioral questions to get data on what the candidate has done before and how their behavior aligns with the [company values](https://handbook.gitlab.com/handbook/values/). You will be asked to evaluate how the candidate’s values align with our own in your feedback form, and asking behavioral questions is the best way to assess this.
+- Interview for soft skills. Pick some behavioral questions to get data on what the candidate has done before and how their behavior aligns with the [company values](/handbook/values/). You will be asked to evaluate how the candidate’s values align with our own in your feedback form, and asking behavioral questions is the best way to assess this.
 - If a candidate discloses outside project(s) or activity(ies), please notify the Recruiter.
 - Always encourage the interviewee to ask questions at the end, and be frank in your answers.
 - Be willing to discuss what went well and any concerns you may have.
@@ -174,6 +175,11 @@ The scoring definitions for GitLab’s Engineering Division are defined differen
   - The candidate demonstrated clear opposition to either our Collaboration, Diversity, or Results values
   - The candidate demonstrated unwillingness to learn our Efficiency, Iteration, or Transparency values
 
+  **Scorecards for Shadow Interviewers**
+
+   If you are shadowing an interview, part of this process should be taking notes and writing feedback in addition to the interviewer. Take notes using the scorecard just like you would if you were leading, but do not submit the scorecard because you are still considered to be in training during this period. As an interview training best practice, we recommend that a debrief meeting occur between the interviewer and shadow trainee after the interview to compare feedback notes (ideally in a sync meeting).
+   Only one official scorecard should be submitted by the main interviewer. Even if you receive multiple prompts and reminders from Greenhouse as a shadow interviewer, please ignore.
+
 More info on [engineering hiring practices](https://about.gitlab.com/handbook/engineering/#hiring-practices).
 
 ### Level Categories in Engineering Scorecards
@@ -183,7 +189,8 @@ Whereas the scoring definitions company-wide describe the probability of hire, t
 In this category, the interviewer can define the level the candidate scored on, and add details on why they scored a candidate on the particular level. The added value of this category is that the interviewer can score the candidate on multiple levels (ex. the Senior level and the Intermediate level).
 
 This scorecard feature will increase sharing of candidates that, for example, may meet the ‘must-have’ criteria on an Intermediate level position but did not meet all of the ‘must have’ criteria on a Senior level. The dual score, when applicable, will help recruiters and hiring managers with candidacy decisions. Interviewers should use the notes section to capture the why behind their score and provide any additional detail that is directly relevant in assessing leveling.
-___
+
+---
 
 ### Unhelpful vs. Effective Feedback Examples
 
@@ -193,14 +200,13 @@ ___
 
 **Key Takeaways:** Overall, I think he was the best candidate I have seen thus far. Plus, he is a diverse candidate. He reminded me of myself in many aspects. He had a well thought out presentation that was easy to understand, but I wish his example was more detailed.
 
-
 **This is a poor example of feedback for a few reasons:**
 
 1. Mentions information about a protected class.
 1. Compares the candidate to other candidates, which can lead to biases like affinity and contrast bias.
 1. Lacks specific information and examples.
 
-___
+---
 
 #### Effective Feedback Example
 

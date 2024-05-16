@@ -100,7 +100,7 @@ You can repeat this process in the same milestone or in an upcoming one, dependi
 
 The process is considered complete when usability issues are no longer found in a sample of 5 participants, and you're confident that your solution is user friendly, which may not happen within one milestone.
 
-----
+---
 
 ### Frequently Asked Questions
 

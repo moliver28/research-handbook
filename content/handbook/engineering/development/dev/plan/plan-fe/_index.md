@@ -53,9 +53,8 @@ above.
 
 For more urgent items, feel free to also share the issue in [#s_plan] on Slack.
 
-[Intern]: /handbook/engineering/development/dev/fe-plan/internship
 [Plan stage page]: /handbook/product/categories/#plan-stage
-[backend team]: /handbook/engineering/development/dev/plan-project-management/
+[backend team]: /handbook/engineering/development/dev/plan/project-management/
 [engineering workflow]: /handbook/engineering/workflow/
 [GitLab]: https://gitlab.com/gitlab-org/gitlab
 
@@ -156,10 +155,10 @@ accomplished during the week.
 
 ## Useful links
 
-* [Plan frontend board] - this shows work in the current release
-* [#s_plan] in Slack
-* [Recorded meetings][youtube]
-* [Retrospectives][retros]
+- [Plan frontend board] - this shows work in the current release
+- [#s_plan] in Slack
+- [Recorded meetings][youtube]
+- [Retrospectives][retros]
 
 [Plan frontend board]: https://gitlab.com/groups/gitlab-org/-/boards/654688
 [#s_plan]: https://gitlab.slack.com/archives/s_plan

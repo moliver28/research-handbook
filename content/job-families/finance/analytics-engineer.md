@@ -22,10 +22,9 @@ As a team member responsible for helping to bridge the gap between business and 
 - Design and develop [dbt](https://www.getdbt.com/) code to extend the Enterprise Dimensional Model
 - Create and maintain architecture and systems documentation in the [Data Team Handbook](/handbook/business-technology/data-team/)
 - Maintain the [Data Catalog](/handbook/business-technology/data-team/data-catalog/), a scalable resource to support Self-Service and Single-source-of-truth analytics
-- Document plans and results in either issue, MRs, the [handbook](https://about.gitlab.com/handbook/), or READMEs following the GitLab tradition of [handbook first!](/handbook/handbook-usage/#why-handbook-first)
+- Document plans and results in either issue, MRs, the [handbook](https://about.gitlab.com/handbook/), or READMEs following the GitLab tradition of [handbook first!](/handbook/about/handbook-usage/#why-handbook-first)
 - Implement the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
 - Craft code that meets our internal standards for style, maintainability, and best practices (such as the [SQL Style Guide](/handbook/business-technology/data-team/platform/sql-style-guide)) for a high-scale database environment. Maintain and advocate for these standards through code review.
-
 
 ### Requirements
 
@@ -54,15 +53,16 @@ The Analytics Engineer is a [grade 6](/handbook/total-rewards/compensation/compe
 ### Analytics Engineer Responsibilities
 
 Responsibilities for the Analytics Engineer (Intermediate) extend the Associate Analytics Engineer job. In addition:
+
 - Serve as the [Directly Responsible Individual](/handbook/people-group/directly-responsible-individuals) for major sections of the [Enterprise Dimensional Model](/handbook/business-technology/data-team/platform/edw/)
 - Design, develop, and extend [dbt](https://www.getdbt.com/) code to extend the Enterprise Dimensional Model
 - Approve data model changes as a Data Team Reviewer and [code owner](https://gitlab.com/gitlab-data/analytics/blob/master/CODEOWNERS) for specific database and data model schemas
 - Provide data modeling expertise to all GitLab teams through code reviews, pairing, and training to help deliver optimal, DRY, and scalable database designs and queries in Snowflake and in Periscope.
 
-
 ### Analytics Engineer Requirements
 
 Requirements for the Analytics Engineer (Intermediate) extend the Associate Analytics Engineer job. In addition:
+
 - 4+ years in the Data space as an analyst, engineer, or equivalent
 - 4+ years experience designing, implementing, operating, and extending commercial Kimball enterprise dimensional models
 - 4+ years working with a large-scale (1B+ Rows) Data Warehouse, preferably in a cloud environment

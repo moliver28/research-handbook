@@ -29,6 +29,12 @@ admin level abilities currently. If an organization needs to be edited, an issue
 should be filed using the
 [support ops issue tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project/-/issues/new)
 
+## Deleting Organizations
+
+For more information on organization deletion, please see the
+[Organization Deletion](/handbook/support/readiness/operations/docs/policies/org_deletion)
+policy page.
+
 ## Organization Notes for Zendesk Global
 
 There are two forms of organization notes we utilize:
@@ -48,7 +54,7 @@ this repo.
 
 When an organization has a ticket created, a trigger calls to a webhook to
 run a pipeline using the
-[ticket processor](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/ticket-processor)
+[ticket processor](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/processor)
 (on ops.gitlab.net). This then combines the Support Operations and Support Team
 organization notes into internal comments on the ticket itself.
 

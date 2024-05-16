@@ -98,7 +98,7 @@ After signing in you can proceed using the environment as required. If destructi
 
 #### Enable Feature Flags
 
-[ChatOps commands](/handbook/support/workflows/chatops.html#feature-flags) can be used to enable or disable Feature Flags on Staging Ref. You can run this command in the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel and notifications will be sent to [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) after a flag is enabled/disabled.
+[ChatOps commands](/handbook/support/workflows/chatops/#feature-flags) can be used to enable or disable Feature Flags on Staging Ref. You can run this command in the [`#staging-ref`](https://gitlab.slack.com/archives/C02LN0K1N3Y) Slack channel and notifications will be sent to [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) after a flag is enabled/disabled.
 
 #### Admin access
 
@@ -182,9 +182,9 @@ For using SAML SSO, you will need to:
 1. As an [admin](#admin-access), create the group at [https://staging-ref.gitlab.com/groups/saml-sso-group](https://staging-ref.gitlab.com/groups/saml-sso-group) if it does not already exist.
 1. [Upgrade the pricing plan](#upgrade-paid-plans) of this group to "Premium".
 1. Visit [https://staging-ref.gitlab.com/groups/saml-sso-group/-/saml](https://staging-ref.gitlab.com/groups/saml-sso-group/-/saml) and:
-  * Check "Enforce SSO-only authentication for web activity for this group"
-  * Update the value of "Identity provider single sign-on URL" to the value saved in 1Password
-  * Update the value of "Certificate fingerprint" to the value saved in 1Password
+  - Check "Enforce SSO-only authentication for web activity for this group"
+  - Update the value of "Identity provider single sign-on URL" to the value saved in 1Password
+  - Update the value of "Certificate fingerprint" to the value saved in 1Password
 1. Save the changes.
 1. Sign out.
 

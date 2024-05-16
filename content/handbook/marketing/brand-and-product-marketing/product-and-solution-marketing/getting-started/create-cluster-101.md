@@ -3,7 +3,7 @@
 title: "101 - Creating Kubernetes cluster"
 ---
 
-## Objective:  Manually creating a Kubernetes cluster to use with Auto DevOps in GitLab.
+## Objective:  Manually creating a Kubernetes cluster to use with Auto DevOps in GitLab
 
 You will need Kubernetes cluster up and running in order to use GitLab Auto DevOps feature.
 This is a step by step guide to help you to manually create a Kubernetes cluster in Google Cloud Platform.
@@ -14,7 +14,7 @@ More details [Auto DevOps](https://docs.gitlab.com/ee/topics/autodevops/)
 
 You need a Google Cloud Platform account, GitLab employees will have this. Ensure you are logged in with your GitLab account.
 
-### Steps to create Kubernetes cluster  
+### Steps to create Kubernetes cluster
 
 |  **Step**   | **What it looks like** |
 | 1. Open a browser and login to [Google Kubernetes Engine](https://console.cloud.google.com/kubernetes)  |

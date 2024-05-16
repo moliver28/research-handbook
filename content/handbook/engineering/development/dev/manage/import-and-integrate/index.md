@@ -160,7 +160,7 @@ Anything larger than 5 should be broken down if possible.
 
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for the extra rigor of the
-[security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md).
+[patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
 In particular, the fix usually needs more-careful consideration, and must also
 be backported across several releases.
 
@@ -247,9 +247,9 @@ from PM or UX.
 
 ### Working with Security
 
-The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.
+The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.
 
-An [Application Security Review](/handbook/security/product-security/application-security/appsec-reviews.html) should be requested when the issue or MR might have security implications. These include, but aren't limited to, issues or MRs which:
+An [Application Security Review](/handbook/security/product-security/application-security/appsec-reviews/) should be requested when the issue or MR might have security implications. These include, but aren't limited to, issues or MRs which:
 - falls under the threat model
 - handles binary files (downloading, decompressing, extracting, moving, deleting)
 - modifies or uses file manipulation services
@@ -314,7 +314,7 @@ release notes section or do not use a `release post item::` label.
 
 We strongly believe in [Iteration](/handbook/values/#iteration) and delivering value in small increments. Iteration can be hard, especially when you lack product context or are working on a particularly risky/complex part of the codebase. If you are struggling to estimate an issue or determine whether it is feasible, it may be appropriate to first create a proof-of-concept MR. The goal of a proof-of-concept MR is to remove any major assumptions during planning and provide early feedback, therefore reducing risk from any future implementation.
 
-- Create an MR, prefixed with `PoC: `.
+- Create an MR, prefixed with `PoC:`.
 - Explain what problem the PoC MR is trying to solve for in the MR description.
 - Timebox it. Can you determine feasibility or a plan in less than 2-3 days?
 - Identify a reviewer to provide feedback at the end of this period.
@@ -372,6 +372,7 @@ A tech lead is:
 The Tech Lead role provides growth opportunity for engineers who are interested in adopting leadership skills.
 
 #### Responsibilites of a Tech Lead
+
 Tech leads wear many hats. Their responsibilities may differ from project to project but may include:
 
 - Technical Vision and Architecture - Defining and evolving the overall technical architecture for a given project
@@ -383,13 +384,13 @@ Tech leads wear many hats. Their responsibilities may differ from project to pro
 - Technical documentation - Maintaining documentation of the technical architecture and code structure for other developers
 
 #### Current Tech Leads
+
 Below is an overview of topics that are overseen by a tech lead:
 
 | Topic | Tech Lead | Topic Link | Notes |
 | ------ | ------ | ------ | ------ |
-| FLC for #17057 | Carla Drago| [FCL issue](https://gitlab.com/gitlab-com/feature-change-locks/-/issues/43) | - |
-| Direct Transfer Q4 OKR | George Koltsov | [Key Result 1](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5027), [Key Result 2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5029) | |
-| GitHub Q4 OKR | Luke Duncalfe | [Key Result](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5028) | |
+| Direct Transfer - User contribution mapping | Rodrigo Tomonari | [Epic](https://gitlab.com/groups/gitlab-org/-/epics/12378) | - |
+| Improve the efficiency of developer contributions to the importers | James Nutt | [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6658) | - |
 | Congregate | tbd | https://gitlab.com/gitlab-org/gitlab/-/issues/428657 | |
 | GitHub Actions | tbd | https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17652 | |
 |  | | |  |
@@ -525,6 +526,10 @@ Learn more about error budgets with these resources:
   - Daily standups [#g_manage_import_and_integrate_daily](https://gitlab.slack.com/archives/C04UYQV7716)
 - Issue boards
   - [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
+- Contribution guides
+  - [Principles of importer design](https://docs.gitlab.com/ee/development/import/principles_of_importer_design/)
+  - [Contributing to Direct Transfer](https://docs.gitlab.com/ee/development/bulk_imports/contributing)
+    - [Feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/456468)
 - Onboarding videos (GitLab Unfiltered Youtube)
   - [Direct Transfer](https://www.youtube.com/watch?v=vVQ6Ex9fSl8) (formerly known as GitLab Migration)
   - [Introduction to GitHub Importer](https://www.youtube.com/watch?v=TxHopzXop5s)

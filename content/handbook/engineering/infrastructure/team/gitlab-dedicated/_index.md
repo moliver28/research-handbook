@@ -93,11 +93,11 @@ The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](htt
 but there are some differences worth noting.
 
 A PCL is manually enforced once the following requirements are met:
-1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created. 
+1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created.
 2. An MR updating the scheduled PCLs table is approved by the SaaS Platforms Engineering Director
 3. Customer changes via Switchboard are prevented for the duration of the PCL.
 
-The following dates are currently scheduled PCLs. 
+The following dates are currently scheduled PCLs.
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
@@ -109,10 +109,10 @@ As opposed to GitLab.com [PCL](https://about.gitlab.com/handbook/engineering/inf
 
 ##### Hard PCL
 
-Hard PCLs include all code deploys and infrastructure changes, including automated maintenance in UAT, Preprod and Production environments, and customer changes via Switchboard. New customers will not be onboarded during Hard PCLs. 
+Hard PCLs include all code deploys and infrastructure changes, including automated maintenance in UAT, Preprod and Production environments, and customer changes via Switchboard. New customers will not be onboarded during Hard PCLs.
 
-In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discretion to make the decision to apply the changes necessary to mitigate or resolve the incident in order to keep service availability. 
-Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken. 
+In case of an active S1/S2 incident, it is at the EOC (Engineer on Call) discretion to make the decision to apply the changes necessary to mitigate or resolve the incident in order to keep service availability.
+Any action during an incident while in a PCL must be associated to an issue and the EOC should inform the GitLab Dedicated engineering Leadership about the action taken.
 
 Changes not associated to any incident must have an exemption approval by the GitLab Dedicated engineering Leadership.
 
@@ -141,6 +141,13 @@ To gain access, please create:
 1. An issue in the [GitLab Dedicated tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=log_access_rotation) using the `Log rotation access` template.
 
 ## Working across GitLab
+
+### Communicating with GitLab Dedicated customers
+
+If you need to urgently contact one or more GitLab Dedicated customers, engage the
+[GitLab Dedicated Communications Manager On-Call (CMOC)](/handbook/support/workflows/dedicated_cmoc/).
+
+Non-urgent communication should be handled through the customer's Customer Success Manager (CSM).
 
 ### Getting product fixes into GitLab Dedicated quicker
 
@@ -179,6 +186,10 @@ The team does have a set of regular synchronous calls:
 - `Demo call` - This call is on the agenda once per week. During this call, team members show off their progress, and engage with other team members on topics related to GitLab Dedicated platform. Demo calls are supposed to be rough around the edges and unpolished. In fact, if the demo looks polished, we will discuss whether we are being ambitious enough with our goals
 - `Team call` - During this call, we are sharing important information for team-members day-to-day, as well as project items requiring a sync discussion
 - 1-1s between the Individual Contributors and Engineering Managers
+
+The group has a set of regular synchronous calls for PMs and EMs to ensure alignment:
+- `GitLab Dedicated Product <> Eng Sync` - This call is weekly on Mondays and Thursdays for PMs and EMs to align
+- `Dedicated Managers Sync` - This call is every two weeks for Dedicated EMs to sync and ensure alignment
 
 Impromptu Zoom meetings for discussing GitLab Dedicated work between individuals are created as needed.
 It is expected that these meetings are private streamed, or recorded(1*), and then uploaded to [GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqC5FfUVPyndvLvTWifWbfB).
@@ -242,7 +253,7 @@ click I "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/
 click J "https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/epics/298"
 ```
 
-*Note* If you are not seeing the diagram, make sure that you have accepted all cookies.
+_Note_ If you are not seeing the diagram, make sure that you have accepted all cookies.
 
 #### Epic Owners
 
@@ -318,7 +329,7 @@ The status for all work relating to GitLab Dedicated is maintained in the descri
 
 #### Status Update Process
 
-Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in SaaS Platforms](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-saas-platforms):
+Both Engineering Cross-Functional DRIs should provide weekly updates for the DRI's epics according to following process, which allows alignment with [Project Management in SaaS Platforms](/handbook/engineering/infrastructure/platforms/project-management/#project-management-in-saas-platforms):
 
 1. **By Wednesday at 21:00 UTC** the DRI for a project is expected to update the status block in the epic description to:
     1. Format for weekly update: **Date of Update** (YYYY-MM-DD)
@@ -365,7 +376,7 @@ GitLab Dedicated team respects the Company principle of [everything starting wit
 
 1. All Merge Requests (MRs) must go through the review process.
 1. It is expected that MR author assigns reviewers once the MR is ready to go.
-1. Reviewers should review the change and leave comments with questions or suggestions. Please follow the [merge request reviewer guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#merge-request-reviewers) and the [resolving threads guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#resolving-threads-on-a-merge-request) documented below. 
+1. Reviewers should review the change and leave comments with questions or suggestions. Please follow the [merge request reviewer guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#merge-request-reviewers) and the [resolving threads guidelines](/handbook/engineering/infrastructure/team/gitlab-dedicated/#resolving-threads-on-a-merge-request) documented below.
 
 The MR approval rule settings for all projects should be:
 
@@ -396,26 +407,26 @@ GitLab Dedicated follows the same pattern for author/reviewer assignment as the 
 
 The process can be summarized as:
 
-1. The MR author will assign a reviewer and a maintainer to an MR that is ready for review. 
-     - Check that pipelines are passing before requesting reviews. 
-     - The MR author can choose who to assign for review. To spread workload and knowledge it is recommended to use the [Environment Automation Reviewer Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=environment-automation). 
-     - Unless otherwise explicitly noted in the MR description itself, Maintainers are expected to also merge the MR they just approved for efficiency. Add **This MR should be approved by all approvers, last approver should merge.** as the first line in MR description to state the intention clearly. 
+1. The MR author will assign a reviewer and a maintainer to an MR that is ready for review.
+     - Check that pipelines are passing before requesting reviews.
+     - The MR author can choose who to assign for review. To spread workload and knowledge it is recommended to use the [Environment Automation Reviewer Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=environment-automation).
+     - Unless otherwise explicitly noted in the MR description itself, Maintainers are expected to also merge the MR they just approved for efficiency. Add **This MR should be approved by all approvers, last approver should merge.** as the first line in MR description to state the intention clearly.
      - If the change is a significant one, considering mentioning the appropriate group such as `@gitlab-dedicated/environment-automation` or `@gitlab-dedicated/switchboard` in the MR description to help with knowledge sharing.
-2. Reviewers will review the MR and leave comments with questions or comments. 
-    - To help us keep projects moving, please respond to review requests within one working day, and aim to complete the review within two working days.   
-    - If a reviewer is unable to meet the timelines, or has too many other review requests it's ok to ask someone else to take on the review. 
+2. Reviewers will review the MR and leave comments with questions or comments.
+    - To help us keep projects moving, please respond to review requests within one working day, and aim to complete the review within two working days.
+    - If a reviewer is unable to meet the timelines, or has too many other review requests it's ok to ask someone else to take on the review.
 
 #### Resolving threads on a merge-request
 
 As the merge request author, please don’t mark discussions resolved until the reviewer has had a chance to respond. In general, if the reviewer has not yet approved the MR, and the thread is non-trivial, don’t mark their comments as resolved, let the reviewer review your response and resolve accordingly during the next round of view. If they have approved the MR, but comments remain unresolved, it's generally fine to resolve comments before merging.
 
-#### Maintainer training 
+#### Maintainer training
 
-New Dedicated team members work with their manager to decide when to begin Maintainer training. Usually this will be around the third month in the team. 
+New Dedicated team members work with their manager to decide when to begin Maintainer training. Usually this will be around the third month in the team.
 
-A [Maintainer training issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=maintainer_training) will be created using the `maintainer_training` template and a training buddy will assigned to support the training. 
+A [Maintainer training issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=maintainer_training) will be created using the `maintainer_training` template and a training buddy will assigned to support the training.
 
-After training is complete, the new Maintainer will be added to the Environment Automation Maintainers pool. 
+After training is complete, the new Maintainer will be added to the Environment Automation Maintainers pool.
 
 ### Temporary workarounds
 
@@ -475,7 +486,7 @@ There are three other workflow labels of importance:
 
 #### Support labels
 
-Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance via the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index.html#gitlab-dedicated).
+Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance via the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated).
 
 | State Label | Description |
 | ----------- | ----------- |

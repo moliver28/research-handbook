@@ -36,14 +36,13 @@ GitLab Legal will review any and all purchases made to ensure adequate terms are
     - [GitLab Modern Slavery Act Transparency Statement](/handbook/legal/modern-slavery-act-transparency-statement/)
     - In order to use GitLab Name and Logo [Brand Guidelines Page](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/trademark-guidelines/)
 
-
 ## Additional Requests & Information
 
 NDA Request(s): [NDA Process](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#nda-process)
 
 Negotiating Terms and Conditions: [Negotiating Terms](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#negotiating-terms)
 
-Use of competitors' services: [Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/?redirected-from=internal-handbook.gitlab.io#guidelines-for-use-of-competitors-services-to-gain-competitive-intelligence) (Internal only)
+Use of competitors' services: [Guidelines](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-and-compliance/productguidance/) (Internal only)
 
 ## NDA Process
 

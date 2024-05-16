@@ -33,8 +33,7 @@ This will require close collaboration with all parts of the People and Marketing
 
 As we build GitLab into one of the world’s best workplaces, we will look to increasingly educate candidates and team members about 3 themes that set us apart from other workplaces.
 
-
-#### GitLab is a place where...
+#### GitLab is a place where
 
 1. **Everyone can contribute**
     - We’ve got big ambitions to make GitLab the [top DevSecOps platform](https://about.gitlab.com/solutions/devops-platform/) and need skilled contributors to get us there.
@@ -42,7 +41,7 @@ As we build GitLab into one of the world’s best workplaces, we will look to in
     - We operate around the world. We welcome people of all backgrounds to contribute to our success and have built [Diversity, Inclusion, and Belonging programs](/handbook/company/culture/inclusion/) and practices into all parts of our company.
 1. **Anyone can thrive**
     - Building a company where anyone can thrive means putting in place the programs needed for our team members to manage their [health, wealth, and well-being]({{< ref "benefits" >}}) regardless of location.
-    - [Career development]({{< ref "career-development" >}}), clarity in expectations by having defined performance indicators, [learning & development]({{< ref "/handbook/people-group/learning-and-development" >}}), and access to opportunity are all things that are top of mind as we grow GitLab.
+    - [Career development]({{< ref "career-development" >}}), clarity in expectations by having defined performance indicators, [learning & development](/handbook/people-group/learning-and-development), and access to opportunity are all things that are top of mind as we grow GitLab.
 1. **We foster a values-led, remote culture**
     - Our [CREDIT values]({{< ref "values" >}}) drive a culture that’s built to operate in an [all-remote environment](/handbook/company/culture/all-remote/guide/). Because we’re all-remote, we aim to stay at the forefront of best practices & building culture in a globally distributed environment.
     - Our [handbook-led approach](/handbook/company/culture/all-remote/handbook-first/) and async working style highlight our values-led, remote culture.
@@ -96,6 +95,7 @@ As we create campaigns, post jobs, sponsor events, and attract top talent to Git
 <details><summary>Animated Videos</summary>
 
 **Animated short-form video for social media or event usage: Using a google slide deck as a starting point and animating those slides into an .mp4 video is an easy way to create an engaging social media or event asset.**
+
 - Start by creating a slide deck that includes high-level info about careers at GitLab. This sample deck is a really [simple example using only 4 slides](https://docs.google.com/presentation/d/1P6zD82oXUorWoR7mYnHf2Oun2n4q4NvXZqsDbDuWYPw/edit?usp=sharing).
 - Using the Creator Studio add-on, you can choose to "create video" from the existing slides
 - To help with conversion, you can also request a custom QR code be created using QR.io by creating an issue in the talent acquisition project and tagging @cchiodo or @drogozinski
@@ -106,6 +106,7 @@ As we create campaigns, post jobs, sponsor events, and attract top talent to Git
 <details><summary>Team Member Videos</summary>
 
 **Whether you're looking to embed video in a job ad, or create an asset to leverage in outreach, team member spotlight videos are an excellent way to provide first-hand perspectives. With a partnership with [Cinebody](https://www.cinebody.com/), we're able to build video projects and collect team member sentiment in one central place.**
+
 - Send @cchiodo a Slack with more details about your video project including topic, use case, team members to include, and specific questions that featured team members will be answering. The recommended list of questions for a hiring manager video are included below:
    1. Provide a short explanation about the role you're hiring for. What would someone in this role do?
    1. Why is this role impactful to the organization? How is this role helping shape the state of our industry around DevSecOps and engineering/sales/product/G&A etc. (whatever team the role is on)?
@@ -119,6 +120,7 @@ As we create campaigns, post jobs, sponsor events, and attract top talent to Git
 <details><summary>Articles</summary>
 
 **Written articles are a great way to provide insight to candidates about a specific team, project, or exciting aspect of GitLab. There's several different ways to contribute an article including (please slack @cchiodo for further information about each option):**
+
 - [Builtin](https://builtin.com/company/gitlab), the online community for United States-based startups and national tech companies
 - [Venturefizz](https://venturefizz.com/gitlab), one of the leading authorities for jobs & careers in the tech industry
 - Write your own blog, or have a team member write it, and publish on the GitLab blog. Learn more about [how to contribute a blog to GitLab](/handbook/marketing/blog/#how-to-suggest-a-blog-post)
@@ -139,6 +141,7 @@ We incorporate content about hiring and our culture on GitLab's [social media](/
 On LinkedIn, we have a specific [career page](https://www.linkedin.com/company/gitlab-com/life) where candidates can find out more about life at GitLab.
 
 There are a number of videos on our [YouTube channel](https://www.youtube.com/gitlab) that relate to working here:
+
 - [Why work remotely?](https://youtu.be/GKMUs7WXm-E)
 - [Everyone can contribute](https://youtu.be/kkn32x0POTE)
 - [Working remotely at GitLab](https://youtu.be/NoFLJLJ7abE)
@@ -148,7 +151,7 @@ There are a number of videos on our [YouTube channel](https://www.youtube.com/gi
 
 ### Review sites
 
-We want to be sure candidates who come across GitLab's profile on employer review sites have an accurate picture of what it's like to work here.
+We want ensure candidates who come across GitLab's profile on employer review sites have an accurate picture of what it's like to work here.
 There are some sites where GitLab has a company profile, but we do not own it or pay for additional features. On others, we have a managed presence.
 
 We encourage team members to leave reviews and share their stories on these sites to continue to keep an updated profile. We welcome both positive and negative feedback in these reviews.
@@ -283,15 +286,18 @@ Engaging externally is a process guided by our evaluation strategy. As mentioned
 Our decision-making process involves a comprehensive assessment of potential partners including the following factors:
 
 **DIB Alignment**
+
 - Does this align with our stated DIB [KPIs](https://about.gitlab.com/handbook/people-group/people-success-performance-indicators/#executive-summary)?
 - Does this align with GitLab’s [definition](https://about.gitlab.com/company/culture/inclusion/#definitions) of an underrepresented group?
 - Does this support talent globally?
 
 **Relevancy**
+
 - Is the intended audience relevant to a GitLab priority/business function?
 - Will this partnership contribute to supporting a GitLab priority or business function?
 
 **Location and Accessibility**
+
 - If this is related to an event, is the location viable for GitLab to attend?
 - If applicable - Is this partnership in an [entity or an “open for hiring” branch?](https://about.gitlab.com/handbook/people-group/employment-solutions/#gitlab-entities-and-branches) If related to interns see [here](https://docs.google.com/spreadsheets/d/1uHHbExS_mEY2mMtPeZcfJz21IMg-TXS2buWeLIUYUlA/edit#gid=402334717).
 - If this is related to an event, does the location provide an opportunity for GitLab to perform other business-related activities?
@@ -300,13 +306,16 @@ Our decision-making process involves a comprehensive assessment of potential par
 - Do our talent insights provide data around the location having a diverse population [gender, ethnicity, etc.]
 
 **Brand Value**
+
 - Will this opportunity offer GitLab exposure and/or the ability to promote careers via a speaking engagement[s], social media presence, or likewise?
 
 **Previous GitLab Engagement + Feedback**
+
 - If applicable - Have we gathered feedback from previous engagements?
 - What are publicly available sentiments regarding the partner?
 
 **Cost**
+
 - How does the cost of attending this event align with our budget?
 - Are there opportunities for cross-department cost sharing?
 - Will this partnership impact our ability to fund other partnerships?
@@ -339,6 +348,7 @@ Collaboration from all teams and departments is welcome. To effectively manage r
 | Content | Number of and links to content published on the platform or as a result of the partnership. |
 
 **FY24 Roster**
+
 - [Code2College](https://code2college.org) - Partnership
 -[Women Impact Tech](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/835) - Event Sponsorship
 - [European Women in Tech](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/888) - Event Sponsorship
@@ -350,6 +360,7 @@ Collaboration from all teams and departments is welcome. To effectively manage r
 - [Blacks In Technology Calgary](https://foundation.blacksintechnology.net/chapters/) - Sponsorship
 
 **FY24 Lookback and FY25 Proposal**
+
 - [FY25 Talent Events Proposal & FY24 Talent Events Look Back](https://docs.google.com/presentation/d/1-y3tP4JuLsfz55B-j25Q7lWAs6f_KoIOOobXZ9Js8_w/edit#slide=id.g12b319f6181_0_0)
 
 ## All-remote work
@@ -386,10 +397,8 @@ Here are samples of the statements team members were asked to consider:
 
 ### Team member turnover
 
-[Defined](https://handbook.gitlab.com/handbook/people-group/people-success-performance-indicators/) on the People Success Performance Indicators page.
+[Defined](/handbook/people-group/people-success-performance-indicators/) on the People Success Performance Indicators page.
 
 ### Team member referrals
 
 Overall number of job candidate referrals from GitLab team members.
-
-

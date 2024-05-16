@@ -24,7 +24,7 @@ The Customer Success and Development departments each have a number of licenses 
 
 #### Other
 
-If you aren't in Customer Success or Development but would still like access to an O'Reilly licenses, you can utilize the [Growth and Development benefit]({{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}) to purchase a license (Manager approval required).
+If you aren't in Customer Success or Development but would still like access to an O'Reilly licenses, you can utilize the [Growth and Development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development) to purchase a license (Manager approval required).
 
 ### Accessing O'Reilly content
 
@@ -70,7 +70,7 @@ After your access request as been approved, team members should follow these ste
 - You should then land in the learner dashboard where you can start scrolling through courses and exams. Click any title to begin.
 - For support, please log a ticket at [trainingsupport.linuxfoundation.org](http://trainingsupport.linuxfoundation.org/)
 
-### FAQs:
+### FAQs
 
 **How many exams can I take?**
 
@@ -96,7 +96,7 @@ Due to limited licenses, we ask that team members use one license at a time from
 1. Update the [license usage sheet](https://docs.google.com/spreadsheets/d/1gHwWy7TKAXem24NVCUmq94sICp_yCocDaf_onUZ3BPg/edit#gid=0) with team member's `first name`, `last name`, `email`, `department`, and `link to their Access Request`.
 1. Communicate the following template to each new user. Include the unique access code associated with their name from the licenage usage sheet.
 
-> You're access to the Linux Foundation has been approved! Please follow these [instructions](#learning-portal-access) to set up your account using your `@gitlab` email address. Your unique and case sensitive access code is `XXXX`. You only need this code for your initial login. Please reach out in the #learninganddevelopment Slack channel with any questions.
+> Your access to the Linux Foundation has been approved! Please follow these [instructions](#learning-portal-access) to set up your account using your gitlab email address. Your unique and case sensitive access code is `XXXX`. You only need this code for your initial login. Let me know if you have any questions.
 
 #### License Audit + Reallocation Steps
 
@@ -122,8 +122,6 @@ Once you've submitted the form, you will receive a welcome email from partner-tr
 
 ## LinkedIn Learning
 
-From January 2021 - January 2024, GitLab had a 1000 license agreement with LinkedIn Learning. Due to the licenses being under-utilized, we decided to end this agreement so that we can explore other more cost-effective and impactful solutions for off the shelf content and self-paced trainings. However, for those team members who would like to continue to use a LinkedIn Learning license to access their training content, they can purchase one using the [Growth and Development Fund.](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/).
+From January 2021 - January 2024, GitLab had a 1000 license agreement with LinkedIn Learning. Due to the licenses being under-utilized, we decided to end this agreement so that we can explore other more cost-effective and impactful solutions for off the shelf content and self-paced trainings. However, for those team members who would like to continue to use a LinkedIn Learning license to access their training content, they can purchase one using the [Growth and Development Fund.](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/).
 
 Also, there are a number of LinkedIn Learning courses that are free for anyone to access, even if they do not have a paid license. You can review the full list of courses in the [Unlocked LinkedIn Learning course list.](https://docs.google.com/spreadsheets/d/1vafTEKxtm0TSF3maK1xdLPIA7OkYVPsQZH9CtC8tVmw/edit#gid=0)
-
-

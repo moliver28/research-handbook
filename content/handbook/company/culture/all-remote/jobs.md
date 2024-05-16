@@ -35,7 +35,7 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 1. [InVision](https://www.invisionapp.com/), see their posts about [remote-only motivations](https://www.invisionapp.com/blog/studio-remote-design-team/), building [company culture](https://www.invisionapp.com/blog/remote-company-culture/), and what remote work [feels like](https://www.invisionapp.com/blog/remote-worker-truths/).
 1. [Buffer](https://buffer.com), see their posts about going [remote only](https://open.buffer.com/no-office/), [the benefits](https://open.buffer.com/distributed-team-benefits/), and how they [make it work](https://open.buffer.com/buffer-distributed-team-how-we-work/).
 1. [Automattic](https://automattic.com/about/), the company behind [WordPress.com](https://wordpress.com) and [The year without pants](https://www.amazon.com/Year-Without-Pants-WordPress-com-Future/dp/1118660633) fame
-1. [GitLab](https://about.gitlab.com), this website is hosted by GitLab, everyone is welcome to contribute to [this page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/index.html.md), and also check out [our handbook]({{< ref "/handbook" >}}) for remote work practices.
+1. [GitLab](https://about.gitlab.com), this website is hosted by GitLab, everyone is welcome to contribute to [this page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/index.html.md), and also check out [our handbook](/handbook) for remote work practices.
 1. [Techmeme](https://www.techmeme.com/), has been [fully remote since 2007](https://twitter.com/gaberivera/status/1226189350276341761), utilizing a global team of editors to "curate the technology news site of record for people both within and beyond the industry."
 1. [10up](https://10up.com/), is a fully remote team that works to "make the internet better with consultative creative and engineering services, innovative tools, and dependable products that take the pain out of content creation and management."
 1. [Zapier](https://zapier.com/), wrote a [book on remote work](https://zapier.com/learn/remote-work/), is 100% remote.
@@ -115,6 +115,7 @@ While there are myriad job boards that curate part-time and freelance gigs which
 
 Here's a [list](https://www.ryrob.com/remote-jobs-websites/) of 60 remote jobs sites in 2020, including:
 
+1. [DailyRemote](https://dailyremote.com/)
 1. [Real Work From Anywhere](https://realworkfromanywhere.com/)
 1. [Remote jobs in AR/VR and Mixed Reality](https://www.arvrok.com/location/remote)
 1. [Startup Jobs](https://startup.jobs/remote-jobs)
@@ -174,7 +175,7 @@ Keep in mind that many great all-remote and remote-first companies aren't big en
 
 Thus, it's worth a concerted effort to scour [LinkedIn](https://www.linkedin.com/) (including the [Remote Workers on LI Group](https://www.linkedin.com/groups/13657237/)), [Instagram](https://www.instagram.com/), and [Twitter](http://twitter.com).
 
-Oftentimes, founders will put out [informal]({{< ref "./informal-communication" >}}) calls for help through a single tweet, Instagram story, or LinkedIn post. These calls do not make it to formal job boards, yet they represent opportunities to join a fledgling company during a formative time when there is potential to secure a significant stake via equity or [stock options](/handbook/stock-options/).
+Oftentimes, founders will put out [informal]({{< ref "./informal-communication" >}}) calls for help through a single tweet, Instagram story, or LinkedIn post. These calls do not make it to formal job boards, yet they represent opportunities to join a fledgling company during a formative time when there is potential to secure a significant stake via equity or [stock options](/handbook/total-rewards/stock-options/).
 
 Each of these platforms support search via hashtag. Be aware that many results will be spam, but diligent searchers can find diamonds in the proverbial rough. Here's a [list](https://www.yonder.io/post/best-remote-work-hashtags-social-media) of popular remote work hashtags, including the below. Where you can, combine searches to include the below along with hashtags such as `#hiring` or `#nowhiring`.
 
@@ -191,6 +192,6 @@ Each of these platforms support search via hashtag. Be aware that many results w
 
 Working in an all-remote environment is unique. Be sure to read over the distinct [benefits]({{< ref "remote-benefits" >}}) and [drawbacks]({{< ref "./drawbacks" >}}) when considering if such a setting is ideal for you.
 
-- - -
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

@@ -14,7 +14,7 @@ description: "Learn about the GitLab Professional Services operations processes 
 
 Professional Services Operations is a collaboration of our consulting, training, scheduling, reporting and backend processes to support the Professional Services team.
 
-___
+---
 
 #### How to contact us
 
@@ -22,13 +22,13 @@ Our [Team Slack Channels](/handbook/customer-success/professional-services-engin
 
 The Project Coordinators can be reached by tagging the group `@ps-scheduling`
 
-___
+---
 
 #### Who we are
 
 [Internal Page](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home#link-professional-services-operations-useful-reference-pages)
 
-___
+---
 
 ## Project Coordination- Consulting
 
@@ -46,7 +46,7 @@ The consulting operations team has a [board](https://gitlab.com/gitlab-com/custo
 
 #### Scheduling Request for Consulting Projects
 
-We do understand we may have circumstances to plan for a project before a SF Stage 5, but we would like to have most of the information met prior to contacting PS Operations.  
+We do understand we may have circumstances to plan for a project before a SF Stage 5, but we would like to have most of the information met prior to contacting PS Operations.
 
 | Action |DRI |
 | ------ | ------ |
@@ -66,7 +66,6 @@ For staffing requirements or questions, add the details to the Project Schedulin
 If a Team Member would like to have time blocked on their schedule to allow time for non-customer project related items, certifications, or ramp up,
 a request should be submitted via a comment and tag the PC on either Internal Projects:
 
-- PS Time Tracking Creditable
 - PS Time Tracking Non-Creditable
 
 Comment should be added to the activity page to include the following:
@@ -112,7 +111,7 @@ Project revenue release is followed dependant on project billing type:
 
 ##### T&M Projects
 
-T&M project revenue is forecasted by scheduled soft or hard allocations in the Master Planning in Kantata.  The hours that are schedule are multiplied by the rate card on the project.  
+T&M project revenue is forecasted by scheduled soft or hard allocations in the Master Planning in Kantata.  The hours that are schedule are multiplied by the rate card on the project.
 
 ##### Fixed Priced Projects
 
@@ -141,7 +140,7 @@ The PM sends out the request for acceptance to the customer and then updates the
 
 Refer to this [internal page](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home#calendar_spiral-training-operations) for more information.
 
-___
+---
 
 #### Training Projects Billing Guidelines
 
@@ -161,7 +160,7 @@ Training revenue release is followed dependant on training billing type:
 
 #### How To Forecast Revenue Training Projects
 
-Training projects are typically considered fixed priced projects and are forecasted by the project milestones in the Kantata project.  Each milestone includes tasks for each training course that are used to capture training preparation/planning/closeout and delivery hours.  Each task is updated with the correct due date for the activities in the milestone.  Best practice is to ensure that the task due dates are updated to accurately reflect training completion dates for forecasting purposes.  
+Training projects are typically considered fixed priced projects and are forecasted by the project milestones in the Kantata project.  Each milestone includes tasks for each training course that are used to capture training preparation/planning/closeout and delivery hours.  Each task is updated with the correct due date for the activities in the milestone.  Best practice is to ensure that the task due dates are updated to accurately reflect training completion dates for forecasting purposes.
 If there is not confidence that the activities will be complete, then the task due date should be moved out to the next quarter.
 
 #### Revenue Release Training Projects
@@ -174,9 +173,9 @@ If required per the project SOW, the PC sends the request for acceptance to the 
 
 ![trainingrelease](./trainingrelease.png)
 
-___
+---
 
-## Operations  
+## Operations
 
 #### New Hire
 
@@ -218,11 +217,11 @@ Accurate time tracking records of hours is essential to ensure revenue can be re
 - Billable hours represent work hours that a staff member reports as being aligned to a specific SOW. The format for daily time tracking for each team member is shown below, and is reviewed weekly by PS Operations and Manager
 - Hours for PTO, Holidays and Family and Friends day are no longer required to be submitted in the weekly time sheet
 - If a team member did not work the time allocated for the week, then hours would be added to the PTO feature in Kantata
-- Notes are required for the PS Time Tracking Creditable and PS Time Tracking Non Credit projects only, not on customer projects
-  
-  - PTO should be submitted in the time off feature in Kantata, and also follow the company guidelines, [time off process](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
+- Notes are required for the PS Time Tracking Non Credit projects only, not on customer projects
+
+  - PTO should be submitted in the time off feature in Kantata, and also follow the company guidelines, [time off process](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
   - Holidays along with Family and Friends day are scheduled on the Kantata calendar
-  
+
 - Time is required to round to the nearest quarter hour, example:
   - 15m should be .25
   - 30m should be .5
@@ -232,7 +231,6 @@ Accurate time tracking records of hours is essential to ensure revenue can be re
 
 Internal projects are set up to track internal time that is not customer project related. Below is the project name along with tasks and examples.
 
-- [PS Time Tracking Creditable](https://gitlab.mavenlink.com/workspaces/34595705/tracker/position?usingDefaultFilters=true&mode=info)
 - [PS Time Tracking Non- Creditable](https://gitlab.mavenlink.com/workspaces/34595955/?tab=project-workspace)
 
 ****Customer consulting projects****
@@ -259,14 +257,11 @@ Professional Services has a hard close at each month end.
 
 Our agreed schedule with finance is [Monthly/ Quarterly/ Year End Time Lines](https://docs.google.com/spreadsheets/d/15uTHHnmIvWteYGi98BaikOVDtN99MLiVN9su-YlMMLM/edit#gid=0)
 
-   - By Noon ET, Time Sheets will need to be submitted on -3 working day from the last business day of the month
-     - Time would include hours for that day along with an estimate of hours for the final 2 business days of the month
+   - By Noon ET, Time Sheets will need to be submitted on the agreed date with finance
+     - Time would include hours for that day along with an estimate of hours for the final days of the month
      - If corrections need to be made for the final 3 days of the month, that would be included in the following weeks time sheet
-   - By 2PM ET, Time Sheets will need to be approved by the Project Managers and Coordinators on -3 working day from the last business day of the month
-   - By 6 PM ET, the Operations Manager will have gone through the review process and submit reporting to Finance on -3 working day from the last business day of the month
-
-Here is a link of an overview of the [December Process](https://www.loom.com/share/28eea56141164bca8865112f255d48fa?sharedAppSource=personal_library)
-
+   - By 1 PM ET, Time Sheets will need to be approved by the Project Managers and Coordinators
+   - By 6 PM ET, the Operations Teams will have gone through the review process and submit reporting to Finance
 
 Time sheets would be submitted by the team and then approved by the project lead on the cutoff date.  Then an additional project line would be added to finish out the remainder of the week, and follow the normal end of the week process.
 
@@ -333,10 +328,10 @@ For **training-only projects**, use the following Kantata/Kantata statuses:
 | Yellow | Consulting Only Project |
 | Orange | Consulting & Training Project |
 | Lime | Internal Project |
-  
+
 ### Consulting Project Health Reports
 
-Health Reports provide a weekly snap shot status to PS Management on the overall project status, and rolled up to executives.  The report includes a Red, Yellow and Green indicator along with a section to update on overall status, schedule, scope, budget, client.  Health reports should be filled out by the project lead or project manager by Thursday of week each by EOD for the projects that are in the Active project status.  
+Health Reports provide a weekly snap shot status to PS Management on the overall project status, and rolled up to executives.  The report includes a Red, Yellow and Green indicator along with a section to update on overall status, schedule, scope, budget, client.  Health reports should be filled out by the project lead or project manager by Thursday of week each by EOD for the projects that are in the Active project status.
 
 - Overall Project Status:
    - Two to three lines describing the overall project status, includes pro/ cons/ blockers
@@ -350,20 +345,15 @@ Health Reports provide a weekly snap shot status to PS Management on the overall
    - How is the customer feeling about the project? Happy, frustrated, engaged, disengaged
    - The project could be status of red for scope, schedule, etc. and the customer is still happy
 
-### Partner Staffing
-
-TO DO
-
-#### Partner SOW
-
-TO DO
 
 #### New Supplier Request Form
+
 - For new partners/vendors only
 - Partner/vendor must be approved in Coupa prior to submitting a Professional Services Request and Purchase Request forms
 - [How to Request a New Supplier Instructions](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-request-a-new-supplier)
 
 #### New Professional Services Request Form
+
 - Refer to the [Coupa handbook page](/handbook/business-technology/enterprise-applications/guides/coupa-guide/) for instructions on using Coupa, GitLab's vendor invoicing sys
 - This initiates the New Purchase Request form
 - [How to Create a Requisition](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-create-a-requisition)
@@ -394,23 +384,23 @@ TO DO
       - Currency is always USD
       - Commodity would be COGS consulting fees
       - Service Start Date:
-         - Consulting: Estimate the customer project dates  
+         - Consulting: Estimate the customer project dates
          - Training: Estimate of when we will start using the training funds
       - Service End Date:
-         - Consulting: Estimate the customer project dates  
+         - Consulting: Estimate the customer project dates
          - Training: Estimate of when we will start using the training funds
       - Need by- set this for 1 week out from date of your submission
       - Payment Structure:
-         - Data entry convention - Consulting: Hourly rate/ or Fixed Price  
-           - Example: $###/hour  
-           - Example: $### Fixed Price  
-        - Data entry convention - Training:  
-           - Standard Course Delivery: Fixed Price  
-           - Pre-Configured Course Delivery:  Hourly Rate  
-         - Custom Course Delivery:  Hourly Rate  
-         - Example (standard course): $### per course  
+         - Data entry convention - Consulting: Hourly rate/ or Fixed Price
+           - Example: $###/hour
+           - Example: $### Fixed Price
+        - Data entry convention - Training:
+           - Standard Course Delivery: Fixed Price
+           - Pre-Configured Course Delivery:  Hourly Rate
+         - Custom Course Delivery:  Hourly Rate
+         - Example (standard course): $### per course
          - Example (pre-config or custom): $###/hour
-     - Submit the purchase request for approval.  
+     - Submit the purchase request for approval.
      - Follow up with internal approvers as needed.
 - After submitting the Professional Services Request Form, it will apply to your Cart.
 - Go into the Review Cart section and enter the information on the purchase request with the Professional Services Request Form questions already populated and added to the purchase request.
@@ -425,14 +415,15 @@ TO DO
 - If work is ongoing past the Service End Date and invoices are processed on a monthly basis, the PO will remain open.  If for any reason the PO is systematically closed, a request via Accounts Payable Slack Channel #accountspayable will need to be sent to A/P to have the PO re-opened.
 
 #### Purchase Order Process
+
 - After all approvers approve the purchase request, an associated Coupa PO will be created.
 - Partner/vendor invoice(s) will be filed against the PO.
 - Comments section: @ mention the partner invoicing A/R PoC to send invoice submission reminder
 - Project Coordinators will set up Customer Folder in the [Partner Folder](https://drive.google.com/drive/folders/1nAz1iD_iFSZolqNsV5bay_5IFogA_BmG), and include the following:
    - Partner Fully Executed SOW
-   - [Partner Invoice Tracking Sheet](https://docs.google.com/spreadsheets/d/17OKORE1uJ9v8jsgJdAHnh4AUZ0cPZqo17AvozF9jBEk/edit?usp=sharing)  
-      - Set up with SOW amount  
-      - Link Fully Executed SOW  
+   - [Partner Invoice Tracking Sheet](https://docs.google.com/spreadsheets/d/17OKORE1uJ9v8jsgJdAHnh4AUZ0cPZqo17AvozF9jBEk/edit?usp=sharing)
+      - Set up with SOW amount
+      - Link Fully Executed SOW
 
 #### Invoice Processing and Tracking
 
@@ -445,6 +436,7 @@ CURRENT PROCESS VIA COUPA:
 - Project Coordinator updates the partner invoice funds tracking sheet to include the invoice number, date, and amount and saves a copy of the invoice in the Partner Folder.
 
 #### Sending Invoice Reminder to the Partner - each month end
+
 - Within Kantata, go to Insights > Time & Expense Admin- Partners and then go to the Time Approvals by Project report.
 - Enter the Date Range and filter the GitLab User Type field for the partner that you wish to view.
 - Run the report, and export the report in Excel format by clicking on the gear icon on the top, right-hand side of the page and select Export to XLSX.
@@ -455,15 +447,18 @@ CURRENT PROCESS VIA COUPA:
 #### Making Engagement Epic and Issues Partner Accessible
 
 ##### Background
+
 - [PS automation](https://gitlab.com/services-calculator/services-calculator.gitlab.io) creates engagement epics in [Professional-Services-Group](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/epics) and issues in [PS-Plan](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/issues).
 - It's useful to move the epics of engagements that require partner access to [Professional-Servies-Group > Consulting Delivery](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/ww-consulting/-/epics)
 
 ##### Notes
+
 - Epics can not currently be moved so instead we recreate the epic in the new location, move the subordinate issues to the new location and close the original epic as described in *Directions* below.
 - The original and new epics are linked via their issue move audit entries.
 - The directions do not use a [bulk edit](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#bulk-edit-issues-from-a-project) due to [this epic search issue](https://gitlab.com/gitlab-org/gitlab/-/issues/233729).
 
 ##### Directions
+
 - Open the to-be-recreated epic in a browser tab
 - Open the [destination epics list UI](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/ww-consulting/-/epics) in another browser tab
   - *New Epic*

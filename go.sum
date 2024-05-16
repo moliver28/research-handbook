@@ -1,3 +1,4 @@
+github.com/FortAwesome/Font-Awesome v0.0.0-20230327165841-0698449d50f2/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
 github.com/FortAwesome/Font-Awesome v0.0.0-20240108205627-a1232e345536 h1:LFS9LpoSZYhxQ6clU0NIVbaGR08BlxAs4b+9W+7IGVQ=
 github.com/FortAwesome/Font-Awesome v0.0.0-20240108205627-a1232e345536/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
 github.com/google/docsy v0.9.1 h1:+jqges1YCd+yHeuZ1BUvD8V8mEGVtPxULg5j/vaJ984=
@@ -5,5 +6,17 @@ github.com/google/docsy v0.9.1/go.mod h1:saOqKEUOn07Bc0orM/JdIF3VkOanHta9LU5Y53b
 github.com/google/docsy/dependencies v0.7.2 h1:+t5ufoADQAj4XneFphz4A+UU0ICAxmNaRHVWtMYXPSI=
 github.com/google/docsy/dependencies v0.7.2/go.mod h1:gihhs5gmgeO+wuoay4FwOzob+jYJVyQbNaQOh788lD4=
 github.com/twbs/bootstrap v5.2.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.13 h1:9fOElx2B9EkFqZcWXyFcyFjV02UyW3OsEEECzTzOVYk=
-gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.13/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.14 h1:iynu4nSkGM3+l4zl6ohQ0RoYNzFswq2JNouKR0pGoqI=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.14/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.15 h1:kars3M/P6EsRU4A0MWnDqAh1U0Vw0IQCablSgwwxIus=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.15/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.16 h1:MTM1lcidj742fU4iyOpWp2sjWo4akQQSumzwO3klzyQ=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.16/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.17 h1:XKC8o+bPcCJd2SnIj6eqj/y1rvtoqYBGyEKA6P+BhzI=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.17/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.18 h1:dqCYv3xvWunBytdxOwtFipypbh6LNSrvD2oEsz3j2A0=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.18/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.19 h1:WdX/uJtlrAcEstlR39zQrq64ZFHN+G+zdeA1KFkQoi4=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.19/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.20 h1:9/VlTQsvLCCrClVXKsNxovDnvw+FSWg8cun192zau68=
+gitlab.com/gitlab-com/content-sites/docsy-gitlab v0.3.20/go.mod h1:HlTbTwpFkWbQSCjCUanbNXRx3MmQD0MOkBVc0L0TeS0=

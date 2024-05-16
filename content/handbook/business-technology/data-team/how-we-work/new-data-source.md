@@ -19,6 +19,7 @@ This page describes in detail the process of adding new data sources to the data
 Both the development (assigning resources from the Data Team, from other teams involved to support and also you as requestor) and keeping the data pipeline up and running (storage, compute resources, incident management, monitoring etc..) cost time and or money.
 
 **Please, before request adding a new data source, take the following into account:**
+
 - Is there a valid [business case](/handbook/business-technology/data-team/how-we-work/#data-team-value-calculator)?
    - Sometimes the business case is to comply with regulatory requirements.
    - Sometimes the business case is straightforward because value potential is clear above the investment costs.
@@ -64,17 +65,20 @@ Based on the requirements, the data points that need to be extracted (i.e. which
 ##### Data minimisation
 
 In the Data Platform we adopt the principle of data minimisation when extracting data, which means we only extract data that is needed to fulfill the scope/need. We do this for the following reasons:
+
 - Less data is using less resources, reducing pressure on source systems, pipelines and our data platform.
 - Less data means less maintenance, if a data source changes and we don't extract that particular data(set), we likely don't need to do anything.
 
 This is all in the spirit of GitLabs value of efficiency.
 
 Data minimisation is applied on the following levels:
+
 - Data sources. We only extract data sources that are needed.
 - Tables. We only extract the tables within an extraction that are needed.
 - Columns. We only extract the columns in the tables that are needed.
 
 Data minimisation is not applied on the following levels:
+
 - Rows. We don't apply filtering on rows by default, unless there is a good reason (technical or functional). This is to avoid confusion about which data our data consumers are actually seeing.
 
 #### Extraction solution
@@ -88,6 +92,7 @@ The Data Team has different instruments available to extract data out of source 
 - Stitch
 
 The decision for which instrument to use, is **always** based on the combination of:
+
 1. Implementation effort.
 2. Maintenance effort.
 3. Ability to extend and adjust.
@@ -142,6 +147,7 @@ It needs to be determined if there is MNPI data in the data sources and if this 
 ### workflow::3 - scheduling
 
 Based on the business case, effort to implement, workload in the Data Team and Data Team priorities, the implementation will be scheduled. For scheduling we follow the GitLab Data Team Planning [Drumbeat](/handbook/business-technology/data-team/how-we-work/planning). This means that for every quarter, the Data Team determines when a new data source request will be picked up. When a new data source request remains in `scheduling`, it does not mean that it isn't on the radar of the Data Team. It means that it isn't been scheduled yet, because:
+
 1. Defining the OKRs for the upcoming quarter didn't take place. Once a quarter the Data Team sets the OKRs for the next quarter.
 2. It didn't fit in the OKRs for next quarter because of business case, effort to implement, workload in the Data Team and Data Team priorities.
 
@@ -169,13 +175,14 @@ When the execution could not continue due to the need of external intervention, 
 
 ## Red Data
 
-Red data is not allowed to be stored in our Data Platform (Snowflake). Therefore we will not bring in/connect new data sources that are listed in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) with `data_classification: Red` unless there is a mission critical business reason. There is an exception process available which will enable us to evaluate the needs on a case-by-case basis and this process will require approval from BT/Data VP-level, Security and Privacy. Evaluating the business reason and obtaining approvals are part of the triage process and are governed via the new data source [template](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=[New%20Request]%20New%20Data%20Source).
+Red data (according to the GitLab [Data Classification Policy](/handbook/security/data-classification-standard/#data-classification-levels) is not allowed to be stored in our Data Platform (Snowflake). Therefore we will not bring in/connect new data sources that are listed in the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) with `data_classification: Red` unless there is a mission critical business reason. There is an exception process available which will enable us to evaluate the needs on a case-by-case basis and this process will require approval from BT/Data VP-level, Security and Privacy. Evaluating the business reason and obtaining approvals are part of the triage process and are governed via the new data source [template](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=[New%20Request]%20New%20Data%20Source).
 
 **Note:** The exception process must be fulfilled to either **connect** a system with Red data and/or to **extract** Red data (fields) from that system.  However, the business case to extract Red data (fields) under the exception process will necessitate a higher standard of review than a business case that only requires connecting a Red data system without extraction of Red data (fields).  Where extraction of Red data (fields) is approved under the exception process, masking will be applied in the Data Platform (Snowflake) as described in the proceeding section.
 
 ### Exception process - connecting a not listed source or a Red data source
 
 When extracting new data towards Snowflake and the data source is not listed or listed `data_classification: Red`;
+
 - The team member must state a business case to connect the system to the Data Platform.
 - The team member that requests the connection will perform an analysis of the data and confirm the data that is extracted is not Red data.
    - For instances where Red data (fields) must be ingested into Snowflake, [masking](/handbook/business-technology/data-team/platform/#data-masking) will be applied upon extraction.

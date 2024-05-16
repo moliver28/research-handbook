@@ -13,20 +13,17 @@ title: "Developing your GitLab Practice"
 
 ## **Developing your GitLab Practice**
 
-
 ### **Intro**
 
 We’re only just getting going at capturing our mutual piece of the $40bn DevSecOps platform[^1] market, and one of the keys to success is a focus on customer success. One of our programmatic goals is to make it as simple as possible for you to develop a GitLab practice that meets and supports customers and prospects at all phases of their customer journey.
 
 To that end, we’ve mapped out our Partner Capabilities Journey that aligns types of capabilities with the customer journey, and we’ve layered on three levels of maturity (Walk, Run, and Fly) for each of those capabilities. Please check back periodically as we will continue to mature that journey as new best practices, enablement paths, or tools are available.
 
-
 ### **Partner Capabilities Journey**
 
 ![Partner Capabilities Journey](./images/Partner_Capabilities_Journey-1.1.png)
 
 #### **Walk**
-
 
 | Walk                                      | Partner Guidance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,9 +33,7 @@ To that end, we’ve mapped out our Partner Capabilities Journey that aligns typ
 | Adoption & Enablement                     | \- Partner knows about [GitLab Education Services offerings](https://about.gitlab.com/services/catalog/) they can resell                                                                                                                                                                                                                                                                                                                                                                    |
 | Partner Evangelism                        | \- Partner has a sales motion promoting GitLab by meeting - [Open requirements met](/handbook/resellers/Channel-Program-Guide/)                                                                                                                                                                                                                                                                                                                                         |
 
-
 #### **Run**
-
 
 | Run                                       | Partner Guidance                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -49,7 +44,6 @@ To that end, we’ve mapped out our Partner Capabilities Journey that aligns typ
 | Partner Evangelism                        | \- GitLab is important for Partner sales and marketing success across teams/regions<br>\- Market solutions around GitLab                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 #### **Fly**
-
 
 | Fly                                       | Partner Guidance                                                                                                                                                                        |
 | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

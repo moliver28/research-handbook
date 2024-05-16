@@ -45,9 +45,8 @@ GitLab is actively building new courses and certifications for FY24 and beyond. 
 
 ## Questions
 
-If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).
-

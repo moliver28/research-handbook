@@ -11,11 +11,11 @@ This policy is intended to establish requirements for the creation and managemen
 
 This policy applies to security and technology policies that fall within the scope of GitLab's security compliance audits and assessments.
 
-## Roles & responsibilities:
+## Roles & responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|
-| Security Governance Team | Responsible for conducting annual controlled documents review and enforcing this policy
+| Security Governance Team | Responsible for conducting annual controlled documents review and enforcing this policy |
 | Security Assurance Management (Code Owners) | Responsible for approving changes to this policy |
 
 ## Policy

@@ -105,7 +105,7 @@ If this issue is urgent for whatever reason, we should label them following the 
 
 ## On-Call Support
 
-For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/on-call/).
+For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/engineering/on-call/).
 
 ### On-Call escalation
 
@@ -165,7 +165,7 @@ For details see the runbooks, particularly for [GCP snapshots](https://gitlab.co
 
 ### Exceptions
 
-Exceptions to this backup policy will be tracked in the [compliance issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/compliance/-/issues/).
+Exceptions to this backup policy will be tracked in the [compliance issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/compliance/-/issues/).
 
 ### References
 
@@ -191,12 +191,12 @@ The critical change process is described in the [emergency change process](/hand
 
 Patch validation can be performed in 3 ways.
 - Manually by cross examining the logs of the host with the vulnerability finding in [wiz.io](https://wiz.io).
-- Reviewing vulnerability & tracking issue raised into Gitlab by [Vulnerability Management teams automation] (https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#automation)
+- Reviewing vulnerability & tracking issue raised into Gitlab by [Vulnerability Management teams automation] (/handbook/security/threat-management/vulnerability-management/#automation)
 - Reach out to Vulnerability Management in slack `#g_vulnerability_management`
 
 ### General OS (Ubuntu or other Linux) Version updates
 
-Infrastructure will look to begin OS upgrades for Ubuntu LTS releases 6 months after their release and attempt to maintain all GCP compute instances on an LTS within the last 5 years of release.  When instances are on older OS releases, we leverage [Ubuntu Advantage](https://ubuntu.com/support) to gain an extension on security releases.
+Infrastructure will look to begin OS upgrades for Ubuntu LTS releases 6 months after their release and attempt to maintain all GCP compute instances on an LTS within the last 5 years of release.  We leverage [Ubuntu Pro](https://ubuntu.com/pro) to gain an extension on security updates for older OS releases using their [ESM](https://ubuntu.com/security/esm) service, and [Ubuntu Livepatch](https://ubuntu.com/security/livepatch) to automatically apply Kernel security updates to running systems.
 
 ## Penetration Testing
 

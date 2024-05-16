@@ -102,7 +102,7 @@ This Policy is in addition to, and does not replace or supersede the anti-retali
 - [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5FRnR3OUBP0Eyo3SxxyPKeiRFfUk)
 - [Leave of Absence Policies](/handbook/people-policies/leave-of-absence/)
 - [Protected Disclosures Policy](https://docs.google.com/document/d/1cIRHYLBCKJy2doHcpL4Yg-A4PWaw16IgjWLUCb34OyE/edit?usp=sharing)
-- [Anti-Harassment Policy](/handbook/anti-harassment/)
+- [Anti-Harassment Policy](/handbook/people-group/anti-harassment/)
 
 ## Current and Past Versions
 

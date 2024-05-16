@@ -30,7 +30,7 @@ In response to a question on whether or not all-remote is infinitely scalable, o
 >
 > A team in one room works really well. A team on one floor probably works OK. A team on multiple floors, you start having some problems. A team across multiple offices, it gets even harder. A team in multiple cities, it gets even harder. A team on multiple continents, that gets super hard. That model breaks down.
 >
-> There's very little benefit to colocation if you're such a big company. While the benefits of remote — [writing down your processes]({{< ref "/handbook/documentation" >}}), stimulating cross-company [informal communication](./informal-communication/) — those get much more pronounced at scale.
+> There's very little benefit to colocation if you're such a big company. While the benefits of remote — [writing down your processes](/handbook/product/ux/technical-writing/documentation/), stimulating cross-company [informal communication](./informal-communication/) — those get much more pronounced at scale.
 >
 > It's not just that [all-remote] scales. It scales way better. - *GitLab co-founder and CEO Sid Sijbrandij*
 
@@ -115,6 +115,6 @@ In an all-remote setting, everyone is equidistant in practical terms. When your 
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-------
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

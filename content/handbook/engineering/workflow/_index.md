@@ -63,14 +63,16 @@ There are two phases for fixing a broken `master` incident which have a target S
 | [Triage](#triage-broken-master) | 4 hours from the initial broken `master` incident creation until assignment | group labelled on the incident |
 | [Resolution](#resolution-of-broken-master) | 4 hours from assignment to DRI until incident is resolved | Merge request author or team of merge request author or dev on-call engineer |
 
-Note: if an incident occurs when no triage DRI is expected to be online, the SLO is allowed to be missed. The next available group member should ensure all incidents that have missed their SLAs are triaged. For an incident that becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc).
+Note: Untriaged incidents are negatively impacting master pipeline stability and development velocity. Any untriaged incident will be automatically escalated to dev-on-call within 30 minutes of inactivity, following a Slack reminder to the attributed channel, to ensure the triage SLO is met. Before escalation, if an incident becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc) as early as needed.
 
 
 Additional details about the phases are listed below.
 
 ### Broken `master` escalation
 
-If a broken `master` is blocking your team (such as creating a security release) then you should:
+As mentioned above, broken `master` incidents are automatically escalated unless it is triaged by a triage DRI within 30 minutes.
+
+If a broken `master` is blocking your team before auto-escalation (such as creating a security release) then you should:
 
 1. See if there is a non-resolved [broken `master` incident](https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues) with a DRI assigned and check discussions there.
 1. Check discussions on the failure notification in the triage DRI's group Slack channel to see if anyone is investigating the incident you are looking at. See [Triage broken master](#triage-broken-master) for information on who the triage DRI is.
@@ -167,8 +169,10 @@ When an incident is attributed to a group, a notification will be sent to the tr
       /label ~"master-broken::failed-to-pull-image"
       /label ~"master-broken::gitlab-com-overloaded"
       /label ~"master-broken::job-timeout"
+      /label ~"master-broken::multi-version-db-upgrade"
       /label ~"master-broken::undetermined"
       ```
+
 1. (Optional) Pre-resolution
    - If the triage DRI believes that there's an easy resolution by either:
       - Reverting a particular merge request.
@@ -179,6 +183,7 @@ When an incident is attributed to a group, a notification will be sent to the tr
    - If the failures occur only in `test-on-gdk` jobs, it's possible to stop those jobs from being added to new pipelines while the cause is being fixed. See the [runbook](https://gitlab.com/gitlab-org/quality/runbooks/-/tree/main/test-on-gdk#disable-the-e2etest-on-gdk-pipeline) for details.
 
 #### Pro-tips for Triage DRI
+
 1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/ai_features.html#root-cause-analysis) feature by clicking the "Root cause analysis" button on the failed job page.
 2. To confirm flakiness, you can use the `@gitlab-bot retry_job <job_id>` or the `@gitlab-bot retry_pipeline <pipeline_id>` command to retry the failed job(s), even if you are not a project maintainer.
   - **Note**, The `retry_job` command can fail for the following reasons:
@@ -315,7 +320,7 @@ The `#master-broken-mirrors` channel is to be used to identify unique failures f
 ### Broken JiHu validation pipelines
 
 We run JiHu validation pipelines in some of the merge requests, and it can be
-broken at times. When this happens, check [What to do when the validation pipeline failed](../../ceo/chief-of-staff-team/jihu-support/jihu-validation-pipelines.html#what-to-do-when-the-validation-pipeline-failed) for more details.
+broken at times. When this happens, check [What to do when the validation pipeline failed](../../ceo/office-of-the-ceo/jihu-support/jihu-validation-pipelines.html#what-to-do-when-the-validation-pipeline-failed) for more details.
 
 ## Security Issues
 
@@ -383,7 +388,6 @@ Be sure to read general guidelines about [issues](https://docs.gitlab.com/ee/dev
 
 [priority-issues]: https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&milestone_title=%23started&assignee_id=None&sort=priority
 [ce-ee-docs]: https://docs.gitlab.com/ee/development/ee_features.html
-[gitlab-workflow]: /handbook/communication/#gitlab-workflow
 
 ## Updating Workflow Labels Throughout Development
 
@@ -472,7 +476,7 @@ There is extensive [monitoring](https://dashboards.gitlab.com/) publicly availab
 
 GitLab Inc has to be selective in working on particular issues. We have a limited capacity to work on new things. Therefore, we have to schedule issues carefully.
 
-Product Managers are responsible for scheduling all issues in their respective [product areas](/handbook/product/categories/#devops-stages), including features, bugs, and tech debt. Product managers alone determine the [prioritization](/handbook/product/product-processes/#how-we-prioritize-work), but others are encouraged to influence the PMs decisions. The UX Lead and Engineering Leads are responsible for allocating people making sure things are done on time. Product Managers are _not_ responsible for these activities, they are not project managers.
+Product Managers are responsible for scheduling all issues in their respective [product areas](/handbook/product/categories/#devops-stages), including features, bugs, and tech debt. Product managers alone determine the [prioritization](/handbook/product/product-processes/#how-we-prioritize-work), but others are encouraged to influence the PMs decisions. The UX Lead and Engineering Leads are responsible for allocating people making sure things are done on time. Product Managers are *not* responsible for these activities, they are not project managers.
 
 Direction issues are the big, prioritized new features for each release. They are limited to a small number per release so that we have plenty of capacity to work on other important issues, bug fixes, etc.
 
@@ -517,7 +521,7 @@ All other important dates for a milestone are relative to the release date:
   - Kickoff document is updated with relevant items to be included.
 - **Friday before the milestone begins**:
   - [Group Kickoffs calls](/handbook/product/product-processes/#kickoff-meetings) recorded and uploaded.
-- **Monday immediately after the milestone begins**: **_Kick off!_** 📣
+- **Monday immediately after the milestone begins**: ***Kick off!*** 📣
   - [Company Kickoff](#kickoff) call live streamed.
   - Development on milestone begins.
 - **Monday, 9 days after the milestone begins**:
@@ -534,7 +538,7 @@ All other important dates for a milestone are relative to the release date:
   - [Group Retrospective issues](/handbook/engineering/management/group-retrospectives/) are updated with shipped and missed deliverables and team-members are tagged in the discussion.
 - **Wednesday, the day before the release date**:
   - [Milestone Cleanup](#milestone-cleanup) runs on the schedule at [Milestone cleanup schedule](#milestone-cleanup-schedule).
-- **Third Thursday of the release month**: **_Release Day!_** 🚀
+- **Third Thursday of the release month**: ***Release Day!*** 🚀
   - Release shipped to production.
   - Release post published.
 - **Friday immediately after release day**:
@@ -595,7 +599,7 @@ Milestones are closed when the Delivery team no longer needs to create a backpor
 
 ## Kickoff Public Stream Instructions
 
-The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
+The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/company/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
 
 ## Use Group Labels and Group Milestones
 
@@ -613,15 +617,15 @@ Technical debt is prioritized like [other technical decisions](/handbook/enginee
 
 For technical debt which might span, or fall in gaps between groups they should be brought up for a [globally optimzed](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/). Additional avenues for addressing technical debt outside of product groups are [Rapid Action issues](/handbook/engineering/development/#rapid-action-issue) and [working groups](/handbook/company/working-groups/).
 
-## UX debt
+## Deferred UX
 
-Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `UX debt` to address the UX gap in subsequent releases.
+Sometimes there is an intentional decision to deviate from the agreed-upon [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc), which sacrifices the user experience. When this occurs, the Product Designer creates a follow-up issue and labels it `Deferred UX` to address the UX gap in subsequent releases.
 
-For the same reasons as technical debt, we don't want UX debt to grow faster than our code base.
+For the same reasons as technical debt, we don't want Deferred UX to grow faster than our code base.
 
 These issues are prioritized like [other technical decisions](/handbook/engineering/development/principles/#prioritizing-technical-decisions) in [product groups](/handbook/company/structure/#product-groups) by [product management](/handbook/product/product-processes/#how-we-prioritize-work).
 
-As with [technical debt](#technical-debt), UX debt should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/).
+As with [technical debt](#technical-debt), Deferred UX should be brought up for [globally optimized](/handbook/values/#global-optimization) prioritization in [retrospectives](/handbook/engineering/management/group-retrospectives/) or directly with the appropriate member of the [Product Leadership team](/handbook/product/product-leadership/).
 
 ## UI polish
 
@@ -667,7 +671,7 @@ Not everything is urgent. See below for a non-exclusive list of things that are 
   - High severity (severity::1/priority::1) security issues. Refer to [security severity and priority](/handbook/security/#severity-and-priority-labels-on-security-issues).
   - Highest priority and severity customer issues based on the [priority and severity definitions](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/contributing/issue_workflow.md#priority-labels).
 - Not In Scope
-  - An operational issue of GitLab.com or a self managed customer environment. This falls under the [on-call](/handbook/on-call/index.html) process.
+  - An operational issue of GitLab.com or a self managed customer environment. This falls under the [on-call](/handbook/engineering/on-call/index.html) process.
   - Self developed and maintained tools that are not officially supported products by GitLab.
   - Feature request by a specific customer.
 

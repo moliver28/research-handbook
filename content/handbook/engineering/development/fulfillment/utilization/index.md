@@ -15,7 +15,7 @@ The Utilization group manages the [Utilization category](/handbook/product/categ
 
 ## Team members
 
-{{< team-by-manager-role role="Fullstack Engineering Manager, Fulfillment:Utilization" team="[,&] Fulfillment" >}}
+{{% team-by-departments "Fulfillment:Utilization Team" %}}
 
 ## Stable counterparts
 
@@ -51,6 +51,34 @@ All team members are encouraged to add topics to the [weekly agenda](https://doc
 
 Engineers are responsible for providing async issue updates on active, assigned issues when progress is made. Following the [template and guidance](/handbook/engineering/development/fulfillment/#weekly-async-issue-updates) for async updates for the entire Fulfillment Sub-department, updates should be made at least weekly. These updates help keep collaborators, stakeholders, and community contributors informed on the progress of an issue.
 
+In addition to weekly issue updates, we ask that engineeering DRIs also provide a weekly status update for the bodies of work where they're focussed.
+
+- **When**: We aim to provide these updates every Tuesday
+- **Who**: Anyone who is listed as a DRI against our current milestone priority projects
+- **What**: The updates should include accomplishments, any blockers and a sense of how the work is progressing against the timeline. As an added bonus, a link to a demo that has been posted in the #s_fulfillment_demo Slack channel would also be beneficial.
+- **Where**: Please provide them in the comments of the primary/parent epic of your work and tag Alex and Chase when you do so.
+
+An example template to use in these updates looks like:
+
+```markdown
+# BE Weekly Update YYYY-MM-DD
+
+* **Timeline Confidence**: :thumbsup:
+* **% Complete**: X% (Y weight closed / Z total weight)
+* **Blockers**: None
+* **Accomplishments**:
+  * 3 MRs created
+  * 1 issue closed
+
+cc/ @alex_martin @csouthard
+```
+
+Initially we are using the following formula for `% Complete`, rounded down to the nearest multiple of 5:
+
+```markdown
+(issue weight closed / total issue weight) * 100
+```
+
 #### Engineering Manager
 
 ##### Milestones
@@ -79,13 +107,13 @@ Current OKRs: [Work Items Labeled with Utilization](https://gitlab.com/gitlab-co
 
 ### Taking Time Off (PTO)
 
-It is important to [take time off](/handbook/paid-time-off/#paid-time-off) so that you can rest, reset, avoid burnout, take care of loved ones, etc. You are encouraged to take time for yourself or your family following our operating principle of [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second). Guidance is to communicate your PTO intention with your manager with [twice the number of days](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) that you are taking off.
+It is important to [take time off](/handbook/people-group/paid-time-off/#paid-time-off) so that you can rest, reset, avoid burnout, take care of loved ones, etc. You are encouraged to take time for yourself or your family following our operating principle of [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second). Guidance is to communicate your PTO intention with your manager with [twice the number of days](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) that you are taking off.
 
-When going out of office, please be sure to [clearly communicate](/handbook/paid-time-off/#communicating-your-time-off) your availability with other people. The following steps are required when submitting a PTO notification.
+When going out of office, please be sure to [clearly communicate](/handbook/people-group/paid-time-off/#communicating-your-time-off) your availability with other people. The following steps are required when submitting a PTO notification.
 
-1. In [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel), select a role as your backup during your PTO. Please assign the team slack channel #g_utilization as your backup to help distribute the workload. Consider if your current work in progress requires a substitute DRI and assign a single person for those specific issues.
+1. In [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel), select a role as your backup during your PTO. Please assign the team slack channel #g_utilization as your backup to help distribute the workload. Consider if your current work in progress requires a substitute DRI and assign a single person for those specific issues.
 
-2. Add the Fulfillment Shared Calendar to your Time Off by Deel settings so your PTO events are visible to everyone in the team. The calendar ID is: `gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com` Read more about [PTO](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) in the handbook.
+2. Add the Fulfillment Shared Calendar to your Time Off by Deel settings so your PTO events are visible to everyone in the team. The calendar ID is: `gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com` Read more about [PTO](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) in the handbook.
 
 3. Update your GitLab.com status with your out of office dates by clicking on your profile picture and selecting "Edit Status." For Example: `OOO Back on yyyy-mm-dd` Adding `OOO` to your status message will keep you from appearing in the [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette).
 
@@ -141,10 +169,10 @@ If any issue requires any additional `~frontend`, `~backend`, `~Quality`, `~UX`,
 1. Does the issue have the expected behavior described well enough for anyone to understand?
 1. Does the issue explicitly define who the stakeholders are (e.g. BE, FE, PM, UX and/or Tech Writer)? In case the stakeholders aren't very clear (especially when it's not FE nor BE), mention both the PM and EM when you ask for clarification?
 1. Does the issue have a proposal in the description?
-    - _If so_:
+    - *If so*:
     1. Does the proposal address the problem statement?
     1. Are there any unintended side effects of the implementation?
-    - _If not_:
+    - *If not*:
     1. Create a proposal during the estimation steps or summarize the prevailing proposal.
 1. Does the issue have proper labeling matching the job to be done? (e.g. bug, feature, performance)
 
@@ -235,18 +263,18 @@ If that passage of time is significant, e.g. 1 year, we should re-evaluate the i
 
 Much like [Martin Fowler's technical debt quadrant](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html), we'll repurpose the [Eisenhower Method](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method) to help guide our thinking as we categorize and prioritize our maintenance issues. We use a two-axis framework, `urgency` and `importance`, to prioritize maintenance issues (refactoring, intentional or unintentional technical debt, etc). It's a framework for decision making.
 
-#### `urgency`: "_Will we need it soon?_"
+#### `urgency`: "*Will we need it soon?*"
 
 Range: not-urgent or urgent
 
-We can also quantify _urgency_ in a number of ways. One method is based on customer impact. For instance, we can use the number of errors(5xx's code errors; user facing exceptions), error-budget(higher impact leads to higher urgency), or the number of customers impacted by the issue. Other non-customer based urgency could include the timeline for driven changes such as package or gem upgrades.
+We can also quantify *urgency* in a number of ways. One method is based on customer impact. For instance, we can use the number of errors(5xx's code errors; user facing exceptions), error-budget(higher impact leads to higher urgency), or the number of customers impacted by the issue. Other non-customer based urgency could include the timeline for driven changes such as package or gem upgrades.
 
 Defining questions:
 
 1. "What will happen if we don't fix this issue in the next one milestone?"
 1. "Does the business need still exist? Is this still actively being used by our customers?"
 
-#### `importance`: "_How bad is it?_"
+#### `importance`: "*How bad is it?*"
 
 Range: not-important or important
 
@@ -337,7 +365,7 @@ Throughout the estimation process, consider the following GitLab sub-values:
 
 #### Spikes
 
-We use [spikes](/handbook/product/product-processes/#spikes) _during the milestone_ to produce a [design document](https://www.industrialempathy.com/posts/design-docs-at-google/) or similar artifact that is useful for planning and execution of feature or other complex work. This can simply be, but not limited to, an issue containing a summary of the discussions on the topic, answers to questions from the spike description, links to any Proof of Concept MRs produced, a road map or other detailed outline. They are assigned like other work and take up capacity from the milestone.
+We use [spikes](/handbook/product/product-processes/#spikes) *during the milestone* to produce a [design document](https://www.industrialempathy.com/posts/design-docs-at-google/) or similar artifact that is useful for planning and execution of feature or other complex work. This can simply be, but not limited to, an issue containing a summary of the discussions on the topic, answers to questions from the spike description, links to any Proof of Concept MRs produced, a road map or other detailed outline. They are assigned like other work and take up capacity from the milestone.
 
 Spikes are typically considered a `Deliverable` issue and we use [this template](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/.gitlab/issue_templates/spike_template.md) (internal only) to create new spike issues.
 
@@ -359,6 +387,7 @@ Follow the same Fibonacci scale used for feature work from 1 (low, quick, easy) 
 - Spikes should be assigned to at least one frontend and one backend engineer to ensure we consider the issue from both viewpoints. Otherwise, we can split the spike issue along those disciplines.
 
 ## "What do I work on next?"
+
 ### What are the priorities for this milestone?
 
 - When we receive `P1/S1` bug type issues, they will outrank other planned issues.
@@ -399,7 +428,7 @@ See links in the right sidebar:
 
 ![](./sentry_issue_creator.png)
 
-Although both links look the same, the first link is for creating an issue _in the security repo_, the **second should be for the project** (CustomersDot/GitLab) accordingly.
+Although both links look the same, the first link is for creating an issue *in the security repo*, the **second should be for the project** (CustomersDot/GitLab) accordingly.
 
 ## Support Requests
 
@@ -526,5 +555,5 @@ a typical DRI.
 {{< /tableau >}}
 
 
-You can find more centralized engineering metrics at [this page](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/).
+You can find more centralized engineering metrics at [this page](/handbook/engineering/metrics/dashboards/).
 

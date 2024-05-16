@@ -11,7 +11,7 @@ description: "The account team works together to drive value, success, and growt
 
 
 
-- - -
+---
 
 The account team works together to drive value, success, and growth for a customer.
 
@@ -59,7 +59,7 @@ In Mid-Market, Solutions Architects are pooled so they are not aligned with spec
    - [Onboarding](/handbook/customer-success/csm/onboarding/)
    - [Success Planning](/handbook/customer-success/csm/success-plans/)
    - [Stage adoption & expansion](/handbook/customer-success/csm/stage-enablement-and-expansion/)
-   - [Organizing Workshops and Enablement Sessions for Use-case Enablement & Expansion](https://handbook.gitlab.com/handbook/customer-success/csm/workshops/)
+   - [Organizing Workshops and Enablement Sessions for Use-case Enablement & Expansion](/handbook/customer-success/csm/workshops/)
    - [Executive Business Reviews](/handbook/customer-success/csm/ebr/)
    - [Risk Mitigation](/handbook/customer-success/csm/risk-mitigation/)
    - [Renewal Discussions](/handbook/customer-success/csm/renewals/)
@@ -89,7 +89,7 @@ Account teams may choose to include the [Sales Development Representative (SDR)]
 
 ### Tools to Use During the Meeting
 
-- [Working Agreement](/handbook/customer-success/solutions-architects/processes/#working-agreements)
+- [Working Agreement](/handbook/solutions-architects/processes/#working-agreements)
 - Salesforce
 - Gainsight
 - [Customer collaboration project](/handbook/customer-success/csm/customer-collaboration-project/)
@@ -106,7 +106,7 @@ The CSM Manager is the DRI for the meeting, and topics to be covered at a manage
 - Growth opportunities: accounts or opportunities where additional resources are needed, strategize on growth potential
 - Feedback: individual team member wins and feedback
 
-## Working Together throughout the Customer's Lifecycle  
+## Working Together throughout the Customer's Lifecycle
 
 The SA owns all pre-sales technical relationships and activities. The SA coordinates conversations related to product, sales, business, and technical initiatives prior to the sale. CSM involvement during pre-sales models the expectations for the customer relationship after the sale, but should be limited to only after we achieve a technical win. CSM involvement should supplement, not displace, SA pre-sales ownership of the account.
 

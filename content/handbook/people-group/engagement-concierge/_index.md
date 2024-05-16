@@ -16,7 +16,7 @@ Here are some examples. As a leader you might want to:
 1. Increase trust and belonging on your team.
 1. Help your team of managers become better at coaching their direct reports.
 1. Improve the state of sync and async communication on your team.
-1. Prepare your team to have effective [Crucial Conversations]({{< ref "/handbook/leadership/crucial-conversations" >}}).
+1. Prepare your team to have effective [Crucial Conversations](/handbook/leadership/crucial-conversations).
 1. Address burnout challenges on your team
 
 Once approved for the program, a member of the Talent & Engagement team will collaborate with you to find the right initiative or solution for your team.
@@ -31,7 +31,7 @@ There may be situations where the Talent & Engagement team identifies that the t
 
 Due to current capacity constraints, the Talent & Engagement team will triage requests as received, communicate next steps, and share a proposed timeline with you as quickly as possible. Our current capacity allows for 2-3 bespoke engagement projects per quarter, depending on project size and complexity.
 
-To request support from the Engagement Concierge, please open an issue using the [`engagement-concierge` issue template](https://gitlab.com/gitlab-com/people-group/learning-development/custom-ld-engagement/-/issues/new#). When requesting support in the issue template, please tag your relevant People Business Partner (PBP) for visibility. You can find the PBP that supports your division [here]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}).
+To request support from the Engagement Concierge, please open an issue using the [`engagement-concierge` issue template](https://gitlab.com/gitlab-com/people-group/learning-development/custom-ld-engagement/-/issues/new#). When requesting support in the issue template, please tag your relevant People Business Partner (PBP) for visibility. You can find the PBP that supports your division [here](/handbook/people-group#people-business-partner-alignment-to-division).
 
 ## Features
 

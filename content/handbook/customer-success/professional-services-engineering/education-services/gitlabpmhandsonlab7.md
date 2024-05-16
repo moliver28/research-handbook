@@ -1,10 +1,8 @@
 ---
 title: "GitLab Project Management - Hands-On Lab: Create And Customize Issue Boards"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
+description: "This Hands-On Guide walks you through creating and managing an issue board."
 ---
 > Estimated time to complete: 30 minutes
-
-> You are viewing the latest Version 16.x instructions. If your group URL starts with https://spt.gitlabtraining.cloud, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabpmhandsonlab7.md).
 
 ## Objectives
 
@@ -138,7 +136,7 @@ In this lab, you will learn how to create a simple issue board.
 
 1. Click the **X** in the top right corner to close out of the issue details pane.
 
-1. Click the diagonal arrows in the top right of the page to enter *Focus mode*. The rest of the GitLab navigation UI is now hidden, allowing you to focus on issues in the board.
+1. Click the diagonal arrows in the top right of the page to enter _Focus mode_. The rest of the GitLab navigation UI is now hidden, allowing you to focus on issues in the board.
 
 1. Click the diagonal arrow again to leave Focus mode.
 

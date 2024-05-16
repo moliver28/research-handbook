@@ -10,11 +10,23 @@ description: "A running log of Field Operations changes (Sales Ops, CS Ops, Chan
 
 
 
-The Revenue Strategy, Operations & Enablement (RSOE) Changelog keeps a running log of changes related to RSOE functions. The log is organized by fiscal year/quarter and sub-organized by the bi-weekly RSOE release milestone/epic. It was started in Q3-FY22 and is organized by newest updates at the top. 
+The Revenue Strategy, Operations & Enablement (RSOE) Changelog keeps a running log of changes related to RSOE functions. The log is organized by fiscal year/quarter and sub-organized by the bi-weekly RSOE release milestone/epic. It was started in Q3-FY22 and is organized by newest updates at the top.
 
 To learn more about Field Ops releases, see the [RSOE Release Schedule handbook page](/handbook/sales/field-operations/release-schedule/).
 
+## Q2-FY25
+
+### 2024-05-06 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/512))
+
+**[New Activity Dropdown for "Customer Onsite"](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5232)**
+
 ## Q1-FY25
+
+### 2024-04-01 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/489))
+
+**[Update to Closed Lost/Downgrade Reason Fields](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/4697)**
+
+**[Updated Sales Stage Definitions](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2362)**
 
 ### 2024-03-18 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/53))
 
@@ -24,7 +36,7 @@ To learn more about Field Ops releases, see the [RSOE Release Schedule handbook 
 
 **[Account Cleanup Deadline](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#accounts-eligible-for-immediate-transfer)**
 
-**[Naming Convention Guidelines - GitLab Duo Pro](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#opportunity-naming-convention)**
+**[Naming Convention Guidelines - GitLab Duo Pro](/handbook/sales/field-operations/gtm-resources/#opportunity-naming-convention)**
 
 **[Clari Forecasting - Net ARR + PS Summary Tab](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#sales-forecasting)**
 
@@ -49,9 +61,9 @@ To learn more about Field Ops releases, see the [RSOE Release Schedule handbook 
 
 **[Sales Tech Stack Strategy & DRI](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/385)**
 
-**[Sales Tools License Usage Policy](https://gitlab.com/internal-handbook/internal-handbook.gitlab.io/-/merge_requests/3686)**
+**[Sales Tools License Usage Policy](https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests/3686)**
 
-**[Clari Session Timeout](https://gitlab.com/internal-handbook/internal-handbook.gitlab.io/-/merge_requests/3686)**
+**[Clari Session Timeout](https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/merge_requests/3686)**
 
 **[Clari Product Update - Forecasting Quick Submit](https://clari.my.site.com/customer/s/article/Forecasting-Quick-Submit)**
 

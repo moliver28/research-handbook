@@ -34,8 +34,8 @@ The testing strategy for [this level of the pyramid](https://docs.gitlab.com/ee/
 **Merge Request** - The whole QA End-to-End test suite can be run on your MR by triggering manually the `package-and-qa` job.
 
 **Scheduled Pipelines** - [Schedule](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines).
-Package tests run in all the scheduled pipelines since we have a few tests tagged as `:reliable`. These tests (`:reliable` and `:smoke`) block deployments in case of failure and are a part of GitLab's sanity test suite.
-Other Package related tests that are not tagged as `:reliable` run when the full suite of tests runs.
+Package tests run in various pipelines and we have a few tests tagged as `:blocking`. `:blocking` tests block merge requests on failure and `:smoke` tests block deployments from going further in case of failure.
+Other Package related tests that are not tagged as `:blocking` run when the full suite of tests runs.
 
 
 ### Where are they
@@ -53,20 +53,20 @@ In the [GitLab repository](https://gitlab.com/gitlab-org/gitlab), the End-to-End
 
 To test against your local GDK, first make sure:
 - Environment variables are correctly set
-	- `QA_DEBUG` is set to **true** so the debug logs are enabled
-	- `WEBDRIVER_HEADLESS` is set to **false** so you can see the test run in an automated browser
+    - `QA_DEBUG` is set to **true** so the debug logs are enabled
+    - `WEBDRIVER_HEADLESS` is set to **false** so you can see the test run in an automated browser
 - GDK is up and running
-	- and using a [loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#create-loopback-interface-for-gdk) to be able to use a runner in a docker container
-	- [hostname mapped to the loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#set-up-gdktest-hostname)
+    - and using a [loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#create-loopback-interface-for-gdk) to be able to use a runner in a docker container
+    - [hostname mapped to the loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#set-up-gdktest-hostname)
 
 To run the tests:
 1. On the terminal, go to `path-to-your-gdk/gitlab/qa`
 1. Make sure that you have all the necessary gems installed: `bundle install`
 1. Issue the command:
-	1. To run all the tests for free features: `bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/browser_ui/5_package --tag orchestrated --tag packages`
-	1. To run all the tests for paid features: `bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/ee/browser_ui/5_package --tag orchestrated --tag packages` (currently there are no tests for paid features)
-	1. To run all the API tests for free features: *currently there are API tests for free features **at the End-to-End level** but they run only in Staging and Preprod environments*
-	1. To run all the API tests for free features: *currently there are no API tests for paid features **at the End-to-End level***
+    1. To run all the tests for free features: `bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/browser_ui/5_package --tag orchestrated --tag packages`
+    1. To run all the tests for paid features: `bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/ee/browser_ui/5_package --tag orchestrated --tag packages` (currently there are no tests for paid features)
+    1. To run all the API tests for free features: _currently there are API tests for free features **at the End-to-End level** but they run only in Staging and Preprod environments_
+    1. To run all the API tests for free features: _currently there are no API tests for paid features **at the End-to-End level**_
 
 **Note:** The command above is targeting `http://gdk.test:3000` which should be changed according to your hostname mapped to the loopback interface.
 
@@ -88,7 +88,7 @@ This can be used as an alternative to test with GDK. It requires providing a Git
 Using `EE` or `CE`, as seen below on example commands, will pull the [latest nightly image](https://hub.docker.com/r/gitlab/gitlab-ee/tags).
 To build a custom image locally (**builds only the test code**) do:
 
-1. Go to the GitLab folder on your gdk and run `docker build -f qa/Dockerfile -t gitlab/gitlab-ee-qa:test . `
+1. Go to the GitLab folder on your gdk and run `docker build -f qa/Dockerfile -t gitlab/gitlab-ee-qa:test .`
 2. After building the QA Image pull the `gitlab/gitlab-ee nightly` image with: `docker pull gitlab/gitlab-ee:nightly`
 3. Associate the QA Image `test` with GitLab Nightly: `docker tag gitlab/gitlab-ee:nightly gitlab/gitlab-ee:test`
 4. On commands bellow, modify to use the built image: `QA_SKIP_PULL=true gitlab-qa Test::Instance::Image gitlab/gitlab-ee:test --omnibus-config ...`
@@ -106,15 +106,15 @@ Using the `QA_SKIP_PULL=true` means that the framework will skip pulling the lat
 
 Applies to all tests tagged with the `:packages` metadata. Configures a GitLab instance to have the Package Registry enabled.
 
-* Run the command: `gitlab-qa Test::Instance::Image EE --omnibus-config packages` 
+- Run the command: `gitlab-qa Test::Instance::Image EE --omnibus-config packages`
 
 #### Scenario - Run all tests from the Package group against an Object Storage provider
 
-Applies to all tests in the `5_package` folder tagged with the `:object_storage` metadata. 
+Applies to all tests in the `5_package` folder tagged with the `:object_storage` metadata.
 
-* Run the command to test against **AWS**: `gitlab-qa Test::Instance::Image EE --omnibus-config object_storage_aws`
-* Run the command to test against **GCP**: `gitlab-qa Test::Instance::Image EE --omnibus-config object_storage_gcp`
-* Run the command to test against **MinIO**: `gitlab-qa Test::Instance::Image EE --omnibus-config object_storage`
+- Run the command to test against **AWS**: `gitlab-qa Test::Instance::Image EE --omnibus-config object_storage_aws`
+- Run the command to test against **GCP**: `gitlab-qa Test::Instance::Image EE --omnibus-config object_storage_gcp`
+- Run the command to test against **MinIO**: `gitlab-qa Test::Instance::Image EE --omnibus-config object_storage`
 
 The configurations for these different providers can be found on the [Omnibus Configurations](https://gitlab.com/gitlab-org/gitlab-qa/-/tree/master/lib/gitlab/qa/runtime/omnibus_configurations) folder in GitLab QA.
 They require some environment variables to be set prior running the command:
@@ -138,13 +138,13 @@ There are two kinds of Container Registry scenarios.
 
 #### TLS Enabled Registry
 
-* Run the command: `GITLAB_TLS_CERTIFICATE=$(cat /path/to/certificate.crt) gitlab-qa Test::Integration::RegistryTLS EE` 
+- Run the command: `GITLAB_TLS_CERTIFICATE=$(cat /path/to/certificate.crt) gitlab-qa Test::Integration::RegistryTLS EE`
 
 The TLS certificate used can be found on the GitLab QA [tls_certificates folder](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/tls_certificates/gitlab/gitlab.test.crt).
 
 #### Insecure Registry
 
-* Run the command: `gitlab-qa Test::Integration::Registry EE`
+- Run the command: `gitlab-qa Test::Integration::Registry EE`
 
 This is a preferable way when the instance does not run on HTTPS or there is no access to a TLS certificate of the GitLab instance being tested.
 
@@ -152,7 +152,7 @@ This is a preferable way when the instance does not run on HTTPS or there is no 
 
 This composes two scenarios by setting up a GitLab instance that has both an Object Storage provider configured and the Registry with TLS enabled.
 
-* Run the command: `GITLAB_TLS_CERTIFICATE=$(cat /path/to/certificate.crt) gitlab-qa Test::Integration::RegistryTLS EE --omnibus-config object_storage`
+- Run the command: `GITLAB_TLS_CERTIFICATE=$(cat /path/to/certificate.crt) gitlab-qa Test::Integration::RegistryTLS EE --omnibus-config object_storage`
 
 Note: the command above uses the option `--omnibus-config object_storage` which can be adjusted to `--omnibus-config object_storage_aws` or `--omnibus-config object_storage_gcp` depending on the Object Storage provided for setup.
 
@@ -169,7 +169,7 @@ To run this scenario ensure that the following credentials are set:
 | Registry with a CDN   | GCS_CDN_BUCKET_NAME         | Name of the bucket set in GCS            |
 | Registry with a CDN   | GOOGLE_CDN_JSON_KEY         | JSON key credential                      |
 
-* Run the command (with all the above variables set): `GOOGLE_CDN_LB=... GOOGLE_CDN_SIGNURL_KEY= ... gitlab-qa Test::Integration::RegistryWithCDN EE`
+- Run the command (with all the above variables set): `GOOGLE_CDN_LB=... GOOGLE_CDN_SIGNURL_KEY= ... gitlab-qa Test::Integration::RegistryWithCDN EE`
 
 **Which resources it uses and where are they?**
 
@@ -181,33 +181,37 @@ Note: Staging, PreProd, and Production use `ipfilteredby` set to `gcp`. This con
 
 #### Scenario - Run Dependency Proxy tests
 
-* Run the command: `gitlab-qa Test::Integration::Registry EE -- qa/specs/features/browser_ui/5_package/dependency_proxy/dependency_proxy_spec.rb --tag registry`
+- Run the command: `gitlab-qa Test::Integration::Registry EE -- qa/specs/features/browser_ui/5_package/dependency_proxy/dependency_proxy_spec.rb --tag registry`
 
 
-#### Scenario - Run Dependency Proxy on a SAML Group SSO enabled 
+#### Scenario - Run Dependency Proxy on a SAML Group SSO enabled
 
-* Run the command: `CI=true gitlab-qa Test::Integration::GroupSAML EE -- qa/specs/features/browser_ui/5_package/dependency_proxy/dependency_proxy_sso_spec.rb --tag group_saml`
+- Run the command: `CI=true gitlab-qa Test::Integration::GroupSAML EE -- qa/specs/features/browser_ui/5_package/dependency_proxy/dependency_proxy_sso_spec.rb --tag group_saml`
 
 More information on how to run tests using the gitlab-qa gem can be found on [What Tests Can Be Run](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md) docs on the GitLab QA repository.
 
 ### FAQ
 
 #### How can I have access to the GitLab QA Vault in 1Password?
+
 There are important variables to run several scenarios listed above. Also when running tests against different environments these variables
-are necessary. To have access to this vault please create an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to the 1Password GitLab QA Vault.
- 
+are necessary. To have access to this vault please create an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to the 1Password GitLab QA Vault.
+
 #### I triggered package-and-qa. Where do I find the tests?
-If you have an MR and want to make sure it is running the End-to-End tests, please trigger the manual `package-and-qa` job on the pipeline of your MR. After the pipeline runs there will be a note on your MR titled "Allure report" with a `package-and-qa` test report link. 
+
+If you have an MR and want to make sure it is running the End-to-End tests, please trigger the manual `package-and-qa` job on the pipeline of your MR. After the pipeline runs there will be a note on your MR titled "Allure report" with a `package-and-qa` test report link.
 It is also possible to see which jobs failed in the `package-and-qa` pipeline, just follow the downstream pipelines, and within the `gitlab-qa-mirror` pipeline, access the `packages` job to inspect the result. We also have relevant Package tests running in `object_storage` and `registry` jobs.
 
 In Staging, or other environments [that run full tests](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines), all the
 tests within the `qa/specs/features/browser_ui/5_package` folder can be found running on the `qa-triggers-browser_ui-5_package` job.
 
 #### What is the difference between orchestrated-level scenarios and instance-level scenarios?
+
 Orchestrated-level scenarios are configurations for a GitLab instance and all necessary components required to perform the test. An example would be a GitLab instance with [object storage settings](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/lib/gitlab/qa/runtime/omnibus_configurations/object_storage.rb) enabled, using [a Minio component](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/lib/gitlab/qa/component/minio.rb).
 Instance-level scenarios are the tests scripts in the `qa/qa/specs/` folder.
 
 #### How can I run tests against environments?
+
 To run tests from a local machine is possible by using the intended environment address (i.e `staging.gitlab.com`, `pre.gitlab.com`) in the following way:
 
 `bundle exec bin/qa Test::Instance::All https://staging.gitlab.com -- qa/specs/features/browser_ui/5_package --tag packages`
@@ -219,6 +223,7 @@ If the MR has modified test code where these modified tests run only against Sta
 the `RELEASE` and `QA_IMAGE` variables. These variables can be found on the MR, after triggering the `package-and-qa` job, under the `qa-test` job. These variables values can be found at the job log.
 
 #### How are the tests filtered to run on a particular job or pipeline?
+
 Not all the tests run in all pipelines. There are some tests running only in Staging or not running against Object Storage providers. This can be found at the top of the test spec:
 
 ```ruby
@@ -228,6 +233,7 @@ describe 'Container Registry Online Garbage Collection', :registry_gc, :requires
 The `only: {}` metadata defines and filters the environment. Know more about [Execution Context Selection](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/execution_context_selection.html).
 
 #### Can I use the gitlab-qa gem to just do the setup of a GitLab instance locally without running tests?
+
 Yes. There are two useful options that can be passed to the command: `--no-teardown` which ensure the gitlab instance stays up after running tests and `--no-tests` for only setting up the instance without having any test code run.
 
 An example:
@@ -248,6 +254,7 @@ fdeffd791b69  gitlab/gitlab-ee:nightly      22/tcp, 443/tcp, 0.0.0.0:32768->443/
 Runs locally on `https://0.0.0.0:32768` using `https://` because it is TLS enabled.
 
 ### Troubleshooting
+
 Please reach out to [your counterpart SET](/handbook/engineering/quality/#individual-contributors) or in the `#quality` channel.
 
 ### Helpful Documentation

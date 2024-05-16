@@ -4,18 +4,12 @@ title: "Customer Success Management Handbook"
 description: "The Customer Success Management team at GitLab is a part of the Customer Success department, acting as trusted advisors to our customers and helping them realize value faster."
 ---
 
-
-
-
-
-
-
-
 [<button class="btn btn-primary" type="button" style="padding: 15px 30px; font-size: 24px;">Digital</button>](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSE</button>](/handbook/customer-success/csm/segment/scale/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM AMER</button>](/handbook/customer-success/csm/segment/amer/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM EMEA</button>](/handbook/customer-success/csm/segment/emea/)
 [<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSM APJ</button>](/handbook/customer-success/csm/segment/apj/)
+[<button class="btn btn-primary" type="button"  style="padding: 15px 30px; font-size: 24px;">CSA</button>](/handbook/customer-success/csm/segment/csa/)
 
 ## Mission Statement
 
@@ -109,7 +103,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 <tbody>
   <tr>
     <td>Pre-Sales & Alignment</td>
-    <td><ul><li><a href="/handbook/customer-success/solutions-architects/sa-practices/value-stream-discovery/">Value Stream Discovery</a></li>
+    <td><ul><li><a href="/handbook/solutions-architects/sa-practices/value-stream-discovery/">Value Stream Discovery</a></li>
     <li><a href="/handbook/customer-success/pre-sales-post-sales-transition/">Sales to CS Handoff</a></li>
     <li><a href="/handbook/customer-success/csm/engagement/#customer-personas">Identify Personas</a></li></ul></td>
   </tr>
@@ -138,8 +132,9 @@ Please reference this page for an overview of the areas your CSM will engage wit
 </table>
 
 ## FY25 Vision & Strategy -3 Pillars
+
  - [Vision & Strategy Deck](https://docs.google.com/presentation/d/1qIBbUYoclOGSplOeUAvRwBJGKNwlo41Z7Z2fnu8bZgA/edit?usp=sharing)  (Internal - GitLab Only)
- - Success At Scale 
+ - Success At Scale
  - Use Case Adoption
  - Success Plan Services
 
@@ -147,7 +142,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 ### Big Rock (Annual Strategy) Archive
 
 - [FY23](/handbook/customer-success/csm/fy23)
-- [FY24](/handbook.gitlab.com/handbook/customer-success/csm/annual-strategy/fy24/)
+- [FY24](/handbook/customer-success/csm/fy24)
 
 
 ## Handbook Directory
@@ -217,7 +212,7 @@ Landing Zones
 - [Workshops and/or Lunch-and-Learns](/handbook/customer-success/csm/workshops/)
 
 
-##### Digital Customer Programs:
+##### Digital Customer Programs
 
 - [Digital Customer Programs Handbook Page](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/)
   - [CSM Assigned Customer Programs](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/available-programs/index.html#csm-assigned-account-programs)
@@ -230,7 +225,7 @@ Landing Zones
 - [CSM Promotion Template](https://docs.google.com/document/d/1UOcfUtrseaucIbnFmJkL8XsQwz4xKfj0IQcYbcRGSvI/edit) (GitLab Internal)
 
 
-- - -
+---
 
 
 ## CSM Tools
@@ -269,7 +264,7 @@ Next steps for you:
 - [Customer Success' FAQ](/handbook/customer-success/faq/)
 - [Using Salesforce within Customer Success](/handbook/customer-success/using-salesforce-within-customer-success/)
 - [Customer Success Vision](/handbook/customer-success/vision/)
-- [GitLab Positioning](/handbook/positioning-faq/)
+- [GitLab Positioning](/handbook/marketing/positioning-faq/)
 - [Product Stages and the POCs for each](/handbook/product/categories/#devops-stages)
 - [How to Provide Feedback to Product](/handbook/product/how-to-engage/#feedback-template)
 - [Sales handbook](/handbook/sales/)

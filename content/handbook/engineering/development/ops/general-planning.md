@@ -25,7 +25,7 @@ Teams can customize this process to meet needs specific to their team as long as
 * PM: Set the Planning Issue milestone based on the current working milestone (e.g. Planning Issue 12.10 goes in milestone 12.9).
 * PM: update **Goals for the Milestone** in Planning Issue description.
 * PM: assign the Planning Issue to the PM, Engineering Managers, Product Designer, and Software Engineer in Test.
-* PM: ask for feedback on the **Goals for the Milestone** by adding comments for the product group members and other teams' group members if cross-team collaboration is required. 
+* PM: ask for feedback on the **Goals for the Milestone** by adding comments for the product group members and other teams' group members if cross-team collaboration is required.
 
 #### ~3 weeks before start of milestone
 
@@ -98,9 +98,9 @@ Planning issue templates follow a format similar to this. Teams can add addition
     |-------|-------------------------|
     |       |                         |
 
-    ### Scope of Work for UX Debt
+    ### Scope of Work for Deferred UX
 
-    <!-- What work of UX Debt from the past will UX be focused on? 
+    <!-- What work of Deferred UX from the past will UX be focused on? 
           - Should be at least 1 Issue per Milestone
           - The more we can handle the better... balance
     -->

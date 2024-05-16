@@ -130,13 +130,13 @@ In order for calibration to be effective it's important that all participants ha
 The calibration agenda will consist of the following for each candidate:
 
 1. General Information
-  * Promotion Doc Peer Reviewer(s)
-  * Link to GitLab Profile
+  - Promotion Doc Peer Reviewer(s)
+  - Link to GitLab Profile
 1. Core accomplishments (list 2)
 1. Improvement areas (list 2)
-  * The promotion document outlines strengths, but we also want to highlight how we will support a team member's development areas at the next level.
+  - The promotion document outlines strengths, but we also want to highlight how we will support a team member's development areas at the next level.
 1. Cross-functional Feedback
-  * As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
+  - As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
 1. Questions/feedback?
 
 **Please aim to be concise and crisp in the calibration agenda summary for each candidate**. Leaders are able to reference promotion documents for details, while the calibration agenda summary is meant to be a snapshot of key points to help facilitate discussion and provide an overview for the group.
@@ -175,7 +175,7 @@ In [this handbook page](./processes/hiring-contractors.html) we document the pro
 Welcome to GitLab! We are excited for you to join us.
 Here are some curated resources to get you started:
 
-- [Joining as an Engineer](/handbook/developer-onboarding/)
+- [Joining as an Engineer](/handbook/engineering/developer-onboarding/)
 - [Joining as an Engineering Manager](/handbook/engineering/development/onboarding/manager/)
 
 ### Cross-Functional Metrics
@@ -355,8 +355,9 @@ The shared services and components below are extracted from the GitLab [product 
 | Container Registry |  | Centralized with Specific Team | @dcroft | Package |  |
 | Email - Inbound |  |  |  |  |  |
 | Email - Outbound |  |  |  |  |  |
+| Elasticsearch | | Centralized with Specific Team | @changzhengliu | Global Search | |
 | GitLab K8S Agent |  | Centralized with Specific Team | @nicholasklick | Configure |  |
-| GitLab Pages |  | Centralized with Specific Team | @johnhope | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
+| GitLab Pages |  | Centralized with Specific Team | @vshushlin | [Knowledge](/handbook/engineering/development/dev/plan/knowledge/) |  |
 | GitLab Rails |  | Decentralized |  |  | DRI for each controller is determined by the feature category specified in the class. [app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers) and [ee/app/controllers](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers) |
 | GitLab Shell |  | Centralized with Specific Team | @sean_carroll | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) | [Reference](/handbook/product/categories/#source-code-group-1) |
 | HAproxy |  | Centralized with Specific Team | @amoter | [Infrastructure](/handbook/engineering/infrastructure/team/reliability/foundations.html) |  |
@@ -404,9 +405,9 @@ quality, product management, and development.
 
 Execution of a Global prioritization can take many forms.  This is worked with both Product and Engineering Leadership engaged.  Either party can activate a proposal in this area.  The options available and when to use them are the following:
 
-* [Rapid action](/handbook/product/product-processes/#rapid-action) - use when reassignment isn't necessary, the epic can have several issues assigned to multiple teams
-* [Borrow](/handbook/product/product-processes/#borrow) - use when a temporary assignment to a team is required to help resolve an issue/epic
-* [Realignment](/handbook/people-group/promotions-transfers/#realignment-of-team-members-impacting-multiple-teams) - use when a permanent assignment to a team is required to resolve ongoing challenges
+- [Rapid action](/handbook/product/product-processes/#rapid-action) - use when reassignment isn't necessary, the epic can have several issues assigned to multiple teams
+- [Borrow](/handbook/product/product-processes/#borrow) - use when a temporary assignment to a team is required to help resolve an issue/epic
+- [Realignment](/handbook/people-group/promotions-transfers/#realignment-of-team-members-impacting-multiple-teams) - use when a permanent assignment to a team is required to resolve ongoing challenges
 
 ### Email alias and roll-up
 
@@ -515,8 +516,9 @@ These are the stakeholders:
 
 If development is the DRI or actively participating in a [Customer Account Escalation](/handbook/customer-success/csm/escalations/), consider the following:
 
-* Be careful to not make commitments to customers without first talking to product management and development leaders to confirm the impact that commitment may have on other commitments.
-* The customer will want to know when they can see the benefits of a change. They may not be familiar with GitLab practices for tracking and predicting due dates and milestones. Also, they may not be familiar with our workflows and associated labels nor the predictability of code review timelines, different timelines on releases to GitLab.com compared with releases for self-hosted customers and our use of feature flags.
+- Be careful to not make commitments to customers without first talking to product management and development leaders to confirm the impact that commitment may have on other commitments.
+- The customer will want to know when they can see the benefits of a change. They may not be familiar with GitLab practices for tracking and predicting due dates and milestones. Also, they may not be familiar with our workflows and associated labels nor the predictability of code review timelines, different timelines on releases to GitLab.com compared with releases for self-hosted customers and our use of feature flags.
+
 ```
 * Customers often don't rely on asynchronous communication at the level that GitLab does. Educate the customer on our practices and adapt to find a combined asynchronous and synchronous communication method and cadence that works for everyone.
 * Encourage customers to collaborate with us in epics, issues, and merge requests of interest. Keep in mind that they may not have access to ones that are confidential and/or may not be comfortable or able to collaborate with us in this public forum.
@@ -532,7 +534,7 @@ Remind GitLab team members in Slack to update the status of items they are the D
 
 ## Books
 
-Note: books in this section [can be expensed](/handbook/spending-company-money/).
+Note: books in this section [can be expensed](/handbook/finance/spending-company-money/).
 
 Interested in reading this as part of a group? We occasionally self-organize [book](/handbook/leadership/book-clubs/)
 clubs around these books and those listed on our [Leadership page](/handbook/leadership/#books).

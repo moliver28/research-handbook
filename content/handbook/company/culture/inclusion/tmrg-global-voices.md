@@ -23,7 +23,7 @@ The Global Voices TMRG has determined the three main objectives to generate impa
 
 ## Executive Sponsors
 
-[Jörg Heilig](https://gitlab.com/joergheilig), CTO.
+[Sabrina Farmer](https://gitlab.com/sabrinafarmer), CTO.
 
 ## Current Goals
 

@@ -38,7 +38,7 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 |Sean Gillespie|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
 |Yunus Khan|[Senior Security Engineer]({{< ref "security-incident-response-team#senior-security-incident-response-team-engineer" >}})|
 
-## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide:
+## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
 1. Reactive - Services design to respond to active incident handling, including but not limited to
     - Incident analysis
@@ -54,7 +54,7 @@ Ensure maximum operational uptime of mission critical infrastructure and informa
 
 ## <i class="fas fa-bullseye" id="biz-tech-icons"></i> Engaging SIRT
 
-The [SIRT]({{< ref "." >}}) is on-call [24/7/365](/handbook/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).
+The [SIRT]({{< ref "." >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).
 
 Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide]({{< ref "secops-oncall" >}}).
 

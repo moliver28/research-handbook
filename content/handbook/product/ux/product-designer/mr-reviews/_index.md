@@ -32,7 +32,7 @@ We encourage designers to work closely with their engineering peers throughout t
 
 ### Stage group MRs
 
-The [GitLab Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/) will suggest the designer who is assigned to the stage group the MR corresponds to. The design DRI will act as reviewer for the MRs of that group. 
+The [GitLab Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/) will suggest the designer who is assigned to the stage group the MR corresponds to. The design DRI will act as reviewer for the MRs of that group.
 
 If a stage group does not have a designer, we are unable to accomodate MR reviews at this time due to lack of capacity.
 
@@ -48,19 +48,21 @@ Single Engineer Group (SEG) MRs should be reviewed by the design DRI of the grou
 
 If a SEG MR belongs to a stage group that does not have a designer, we are unable to accomodate MR reviews at this time due to lack of capacity.
 
-### UX Paper Cuts MRs
-
-MRs created by the UX Paper Cuts team will be handled by the UX Paper Cuts team. If the team is out of office, then the [GitLab Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/) will be utilized to help distribute MR reviews across the Product Design subdepartment.
-
 ## Workload and response times
 
 MR review requests are the [number one priority for Product Designers](/handbook/product/ux/product-designer/#priorities). Respond to them per our [review-response Service-Level Objective](/handbook/engineering/workflow/code-review/#review-response-slo).
 
 Balancing MR reviews with other priorities is a challenge, as they can be unpredictable. To avoid disruptions and context-switching, we suggest you block some time every day to review MRs (for example, 30 minutes or 1 hour per day).
 
-If you're struggling with MR reviews, remember to [manage expectations with MR authors](/handbook/engineering/workflow/code-review/#managing-expectation) and let your manager know right away so they can help you.
+If you're struggling with MR reviews, remember to [manage expectations with MR authors](/handbook/engineering/workflow/code-review/#managing-expectation). Before taking up a review, make an estimation of your capacity keeping in mind any upcoming time off. If you are unsure of completing the review before leaving for a time off, work with your manager and team to reassign the MR to another designer.
 
-Before taking up a review, make an estimation of your capacity keeping in mind any upcoming time off. If you are unsure of completing the review before leaving for a time off, work with your manager and team to reassign the MR to another designer.
+### Monitoring MR review workload
+
+Should you find yourself overloaded with MRs, let your manager know right away so they can help you. You can request assistance from another designer on your team or by asking in the #ux_coworking Slack channel.
+
+Product design managers should escalate and monitor these occurences with UX leadership to determine if they are isolated incidents or indicative of a broader trend.
+
+To ensure that MR reviews are evenly distributed across designers, we monitor the [GitLab Review Workload Dashboard](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg30&order=-1&hourFormat24=true&visible=reviewer%7CUX) and [Product Design MR review volume](/handbook/product/ux/performance-indicators/#product-design-mr-review-volume).
 
 ## Reviewing
 
@@ -96,13 +98,13 @@ Some MRs have additional set up requirements.
   - [Video instruction](https://youtu.be/R58mgwDwjM8) and [slide deck](https://docs.google.com/presentation/d/1azikV27LO68xobgJ7v399H1ppnLCmtB_kEKl_IMNI0Q/edit#slide=id.g123a13deda8_0_405) for setting up Geo-GDKs.
 - Pipeline Execution: For compute minutes and shared runner usage related features, you need to populate projects with historical compute minutes usage data to test the features or changes.
   - Merge requests related to compute minutes and shared runner usage usually require some historical usage data, which can be difficult to set up if it doesn't exist already on the local GDK environment. Below is a video and instructions for how to set that up in under 7 minutes.
-   
+
    {{< youtube "ym-fU1U-anE" >}}
-   
+
    Checkout the branch in the MR and open rails console using `bin/rails console`.
-  
+
    **1. Edit compute minutes**
-   
+
    ``` ruby
     ApplicationSetting.current.update(shared_runners_minutes: 400)
     project = Project.find(20)
@@ -141,7 +143,7 @@ Some MRs have additional set up requirements.
 - Monitor:
    - For some MRs, you may need to add test alerts. Instructions for adding an alert, along with a sample alert, are available [here](/handbook/engineering/development/ops/monitor/respond/#assigning-mrs-for-code-review) (see the inline code snippet of instructions).
    - Service Desk MRs sometimes require setting up `incoming_email`, `service_desk_email` and MailRoom. These MRs can't be reviewed on GitPod and need a working GDK. Follow the set up instructions in the [GDK docs](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/service_desk_mail_room.md) or this [video walkthrough](https://youtu.be/SdqBOK43MlI).
-- Value Stream Analytics: Value Stream [set up and seed data instructions](https://gitlab.com/-/snippets/2169951/raw/main/blocks.md). Many VSA features require an EE license, [request a developer license](/handbook/developer-onboarding/#working-on-gitlab-ee-developer-licenses).
+- Value Stream Analytics: Value Stream [set up and seed data instructions](https://gitlab.com/-/snippets/2169951/raw/main/blocks.md). Many VSA features require an EE license, [request a developer license](/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses).
 - Product Analytics: To set up product analytics in your GDK instance follow these [instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/product_analytics.md). This process can only be done on a local version of the GDK, not on GitPod. Additionally, it requires you to install Docker.
 
 **If you find yourself struggling to get your environment set up**, try reaching out to the [design DRI](/handbook/product/categories/#devops-stages) for help with the specific testing requirements. If you're still having difficulties after an hour or so, it's perfectly acceptable to hand the MR over to the design DRI for review completion. If you have time it might be worthwhile to shadow the design DRI to watch and learn how they complete the MR review.
@@ -164,11 +166,11 @@ Some MRs have additional set up requirements.
    - Highlight differences between what's *implemented in the MR* and what's *expected* with a [Markdown table](https://docs.gitlab.com/ee/user/markdown.html#tables) that has images/videos. Consider using the template below.
       <details>
       <summary>Differences table template</summary>
-      
+
         | This MR     | Expected    |
         |-------------|-------------|
         | Image/video | Image/video |
-      
+
       </details>
 - Try to find something worth praising the author for, like a thorough MR description or their attention to detail on a certain aspect. But don't make empty praises, only praise them if you recognize the value of what they've done.
 - When there are concerns with an MR, consider the following actions to help progress the review:
@@ -181,7 +183,7 @@ Some MRs have additional set up requirements.
 ### Handoff the MR
 
 - After each review round, you should remove yourself as a reviewer and post a summary comment, letting the author know if changes are required following your review.
-- To address any outstanding UX concerns that deviate from the MVC, you should create follow-up issues and label them as `UX debt` (learn more about this label in [UX labels](/handbook/product/ux/#ux-labels)).
+- To address any outstanding UX concerns that deviate from the MVC, you should create follow-up issues and label them as `Deferred UX` (learn more about this label in [UX labels](/handbook/product/ux/#ux-labels)).
 - If you complete an MR for work that isn't within your specific group, you should consider following up with the original author to discuss their documentation (ex. "This was unclear... In the future, you may want to..."). This can be thought of as a casual retrospective and can be synchronous or asynchronous.
 - When you're confident that the MR meets all requirements you must [approve it](https://docs.gitlab.com/ee/development/code_review.html#getting-your-merge-request-reviewed-approved-and-merged) by hitting the Approved button in the merge request widget. To handoff the MR, see the [responsibility of the reviewer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer).
 

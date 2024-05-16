@@ -4,11 +4,6 @@ title: Fulfillment Guide
 description: "The Fulfillment Sub-department is responsible for the infrastructure between the systems which affect the user purchasing process."
 ---
 
-
-
-
-
-
 ## Key Fulfillment Documentation links
 
 | Resource  | Areas Covered |
@@ -26,7 +21,7 @@ description: "The Fulfillment Sub-department is responsible for the infrastructu
 | [Licensing FAQ](https://about.gitlab.com/pricing/licensing-faq/) | Common questions around purchasing, licensing, billing, contacting sales, and more |
 | [Finance and Legal Authorization Matrix](/handbook/finance/authorization-matrix/) | |
 | [Trade Compliance](/handbook/legal/trade-compliance/) | |
-| [Billing, invoice and payment requests](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments.html) | Zuora contact change, Zuora entity change and effects on SM/SaaS subscriptions, cancellations, downgrades, refunds, invoices, payments, credit card removals, renewal reversals, split payment requests |
+| [Billing, invoice and payment requests](/handbook/support/license-and-renewals/workflows/billing_contact_change_payments/) | Zuora contact change, Zuora entity change and effects on SM/SaaS subscriptions, cancellations, downgrades, refunds, invoices, payments, credit card removals, renewal reversals, split payment requests |
 | [Troubleshooting: True Ups, licenses + EULAs](/handbook/business-technology/enterprise-applications/quote-to-cash/troubleshooting/) | |
 | [Quote-to-Cash systems documentation (EntApps)](/handbook/business-technology/enterprise-applications/quote-to-cash/) | Overview of systems, EntApps Architecture, Process Flow Diagrams, Entity Relationship Diagrams |
 | [Quote-to-Cash process](/handbook/business-technology/enterprise-applications/quote-to-cash/#quote-to-cash-introduction) | EntApps documentation including systems and process diagrams. |
@@ -78,7 +73,7 @@ Not all Fulfillment features are available at the time for all types of customer
 | **What type of enforcement scenario is this applicable?** | Project storage enforcement.  | Project storage enforcement. |
 | **Is this live and being shown to customers today (as of Apr 20 2023)?** | Yes | Yes |
 | **When will we stop showing these notifications?** | When we roll out `Group Namespace Storage Enforcement` for the `Free` and then later `Paid` tiers | When we roll out `Group Namespace Storage Enforcement` for the `Free` and then later `Paid` tiers  |
-| **Who is seeing this?** | [All members](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/114960/diffs#a9df026a7fe481b045321b58a363ebfa963e284f_104_107) of the impacted group/project.  | Anyone using the CLI.  |
+| **Who is seeing this?** | [All members](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/114960/diffs#a9df026a7fe481b045321b58a363ebfa963e284f_104_107) of the impacted [project](https://gitlab.com/gitlab-org/gitlab/-/issues/451888#note_1881224243).  | Anyone using the CLI.  |
 | **When are we showing this?** | Customers who have used `75%+` of their allotted storage, will receive warning messages. When a customer has gone above their allotted storage amount `100%+` (> 100%, not >=),, they will receive a notification that their project is in a read-only state. | Customers who have used `95%-100%` of their of their [allotted storage](https://gitlab.com/fulfillment-group/utilization-group/team-project/-/issues/52#note_1378071499), will receive warning messages. When a customer has gone above their allotted storage amount `100%+` (> 100%, not >=),, they will receive a notification that their MR has been rejected.  |
 | **How is this notification controlled?** | We first check if we're enforcing via `automatic_purchased_storage_allocation` application setting ([code](https://gitlab.com/gitlab-org/gitlab/-/blob/e9c674c8/ee/app/models/namespaces/storage/root_excess_size.rb#L42)) and then we check if the criteria is met. The Application Setting used to determine the limit is `repository_size_limit` ([code](https://gitlab.com/gitlab-org/gitlab/-/blob/e9c674c8/ee/app/models/ee/namespace.rb#L251)). Currently the [limit is `10 GB`](https://docs.gitlab.com/ee/user/usage_quotas#project-storage-limit) and can only be set to the whole GitLab instance. | Same. See [issue](https://gitlab.com/fulfillment-group/utilization-group/team-project/-/issues/52#note_1388515713) |
 | **Links** | See [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/371674) and [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/112079) <br><br> [Screenshots](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/1099#banner-notification) | See [MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/112079) <br><br> [Screenshots](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/1099#cli)  |
@@ -118,25 +113,26 @@ Please keep in mind:
 
 ## Temporary renewal extensions
 
-*Last updated on 2024-02-23.*
+*Last updated on 2024-05-1.*
 
-| Use Case | Status |
-|---|---|
-| Temporary extensions for **Self-Managed** renewals | Available for eligible renewal opportunities |
-| Temporary extensions for **SaaS** renewals | Available for eligible renewal opportunities  |
+Temporary extensions for **Self-Managed** & **SaaS** renewals are now generally available for eligible renewal opportunities
 
 In the event that a renewal process takes longer then intended (e.g. customer takes longer than average to sign renewal deal), customers run into a problem when their license expires at the subscription term end and they lose complete access to their GitLab instance (Self-managed or SaaS).
 
-Temporary Renewal Extension is an internal feature built in SFDC, and is accessible from a Renewal Opportunity. It enables any Sales Rep to generate the extension on their own, without contacting Support. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-expiry)).
+Temporary Renewal Extension is an internal feature built in SFDC, and is accessible from a Renewal Opportunity. It enables any Sales Rep to generate the extension on their own, without contacting Support. Extension can be generated 1-15 days before subscription end date or 1-13 days after subscription end date, with a default expiration date of 21 days after subscription end date (followed by the [grace period of 14 days for SaaS extensions only](https://docs.gitlab.com/ee/subscriptions/self_managed/#subscription-expiry)).
+
+Please note for Self managed extensions - the 14 day grace period does not apply and the customer will only get a 21 day extension [OPEN issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1827)
 
 Additional context about this feature can be found [here](https://gitlab.com/groups/gitlab-org/-/epics/10173), including a [visual timeline](https://gitlab.com/groups/gitlab-org/-/epics/10173#timeline-of-events) of subscription events related to the temporary renewal extensions.
 
 Please share your feedback about this feature in [this issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/1728).
 
 
-### Creating an extension
+### Creating an extension (from SDFC)
 
-Please watch [this video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) for an overview of creating an extension. The process is also described below.
+Please watch SM demo [SM demo video](https://www.youtube.com/watch?v=ENRtOQ0DbkM) or [Gitlab.com/Saas video](https://drive.google.com/file/d/1HGGf8IH5fRt4ftB0pKZfHpb7owECItjX/view) for an overview of creating an extension.
+
+The process of creating the temporary renewal extension from SDFC is also described below
 
 1. Go to the SFDC Renewal Opportunity that needs additional processing time.
 1. Click on `Request Temporary Extension` button.
@@ -599,7 +595,7 @@ Currently a customer can only have one billing account membership.
 
 #### Add a new billing account membership
 
-Adding a new billing account membership between a customer and a billing account results in the customer becoming a [subscription management contact](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases.html#add-subscription-management-contact-workflow).
+Adding a new billing account membership between a customer and a billing account results in the customer becoming a [subscription management contact](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases/#add-subscription-management-contact-workflow).
 
 1. Navigate to the `Billing account memberships` section.
 1. Select the `+ Add new` action.
@@ -880,3 +876,45 @@ Any proposed changes to the roadmap will be first communicated to cross-function
 If you have an urgent Fulfillment need that is not being prioritized by Fulfillment's regular prioritization process due to competing priorities, and it is both important and urgent, please work with your division's leadership for escalation. The first step can be an async discussion involving Fulfillment leadership (as of now include [ofernandez2](https://gitlab.com/ofernandez2)). Situations in which competing company-priority projects would need to be reprioritized to accommodate your request may require escalation to GitLab's [e-group](/handbook/company/structure/#executives).
 
 Team members in our Sales and Customer Success groups should escalate first via the [Top ARR Drivers meeting](/handbook/product/product-processes/#top-arr-drivers) for cross-team leadership visibility and prioritization. Simply add your item to the list of asks (link in the meeting agenda) for discussion.
+
+### Common Provisioning Bugs
+
+This section outlines top provisioning bugs and when they were resolved or are expected to be fixed. You can also refer to the `group::provision` [bug board](https://gitlab.com/groups/gitlab-org/-/boards/5164901?label_name[]=group%3A%3Aprovision&label_name[]=type%3A%3Abug) for a quick view of planned bug work by milestone.
+
+#### Resolved Bugs
+
+| SM or GitLab.com? |  Category    | Description of Bug         | Related Issue Link(s) |  Version Resolved |
+|---------|--------------|----------|--------------------------------|--------------------|
+| GitLab.com | Add-on Provisioning | Sales assisted Compute Minute purchases not being provisioned. | [7737](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7737) | `severity::4` | 16.8 |
+| GitLab.com | Deprovisioning | Paid features are not deprovisioned upon transfer to subgroup. | [351780](https://gitlab.com/gitlab-org/gitlab/-/issues/351780) | `severity::4` | 16.7 |
+| GitLab.com | Add-on Provisioning | Purchased CI Minutes are not synced to instance. | [6340](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6340) | `severity::2` | 16.5 |
+| GitLab.com | Subscription Cancellations | Scheduled subscription cancellation downgrades namespace directly. | [6153](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6153) | 16.2 |
+| GitLab.com | Deprovisioning | SaaS subscriptions can be deprovisioned if within grace period with add-on refunded. | [4777](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4777) | 16.0 |
+| Self Managed | Cloud Licensing | Multi year cloud license was generated with conflicting trueup_from/to and previous_user_count values. | [5520](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/5520) |  16.0 |
+| Self Managed | Cloud Licensing | Self Managed instance generating new cloud license each sync. | [5041](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/5041)  | 15.10 |
+| Self Managed | Cloud Licensing | Self Managed instance activations created even when the activation fails. | [5232](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/5232) | 15.10 |
+| Self Managed | Legacy Licenses | Licenses generated during years 2 or 3 of a MY legacy subscription have expired dates. | [3421](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3421) |  15.10 |
+| Self Managed | Cloud Licensing | Cloud License activation failure when future dated renewal and past subscription trueups. | [4874](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4874) | 15.10 |
+| Both | True-Ups | True-up validation fails when no previous_users_count is present. | [361345](https://gitlab.com/gitlab-org/gitlab/-/issues/361345) |  15.9 |
+| Self Managed | Cloud Licensing | CustomersDot Admin Cloud Activations tab lists multiple activation codes when zuora_id is blank. | [4580](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4580) |  15.9 |
+| GitLab.com | Add-Ons Provisioning | Gitlab group storage quota is overwritten by the last syncd Zuora subscription's storage. | [4687](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4687) | 15.8 |
+| GitLab.com | SaaS Provisioning | SaaS subscriptions with multiple product line items do not provision seats correctly. | [3956](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3956) | 15.8 |
+| Self Managed | Cloud Licensing | License sync does now work with IPv4. | [354839](https://gitlab.com/gitlab-org/gitlab/-/issues/354839) | 15.7 |
+| Self Managed | Cloud Licensing  |  Multi-year subscription licenses have incorrect term dates (already expired license, 1-year only term). | [4815](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4815), [3421](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3421), [4816](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4816) | 15.7 |
+| Self Managed | Offline Cloud Licensing | Some mime types are not supported when a customer emails their offline usage file. | [4812](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4812) | 15.6 |
+| Self Managed | Cloud Licensing | Cloud license valid from dates show prior year's term after applying new subscription. | [3651](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3651) | 15.5 |
+| Both | Banners | Subscription expiration alert is still shown after customer activates renewal subscription. | [372119](https://gitlab.com/gitlab-org/gitlab/-/issues/372119), [4507](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4507) | 15.5 |
+| Self Managed | License Creation | Using Optional "Customer" field causes licenses to generate using customer portal data instead of details entered. | [3566](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3566) | 15.5 |
+| Both | License Display | License overview shows 'Expired: Never' for expired licenses. | [372230](https://gitlab.com/gitlab-org/gitlab/-/issues/372230) | 15.5 |
+| Self Managed | Cloud Licensing | Activation error messages do not indicate the problem accurately. | [355794](https://gitlab.com/gitlab-org/gitlab/-/issues/355794) | 15.4 |
+| Self Managed | Cloud Licensing | Some customers are not receiving activation codes in welcome mailer. | [4741](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4741), [4599](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4599) | 15.4 |
+|  Both       | User Count | Previous user count is incorrect when changing products and seat count during renewal. | [3346](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/3346) | 15.3 |
+|  Both       | Provisioning | After applying a license, a restart is required | [377489](https://gitlab.com/gitlab-org/gitlab/-/issues/377489),[388063](https://gitlab.com/gitlab-org/gitlab/-/issues/388063) | 15.4.3 |
+
+
+
+#### Open Bugs
+
+| SM or GitLab.com? | Category    | Description of Bug         | Related Issue Link(s) |  Priority | Expected Release |
+|---------------|------------|--------------------------------|--------------------|--------------|-------------|
+| GitLab.com | Compute minutes not provisioned when effective date is before created date. | [7565](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7565) | `severity::3` | 17.0 |

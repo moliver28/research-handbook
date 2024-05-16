@@ -9,9 +9,9 @@ title: Jamstack - User Survey
 in January 2023 the Jamstack SEG conducted a user survey to identify the communities' priorities around creating a Javascript runtime capability for GitLab.
 
 This came at a time where I was making similar progress with both of the following work tracks:
- - a Cloudflare Workers Integration using the Cloudflare API 
+ - a Cloudflare Workers Integration using the Cloudflare API
  - a V8 Javascript runtime integration into GitLab Pages directly
-Both of these tracks will eventually result in users being able to run server-side Javascript functions without actually needing to deploy a server. 
+Both of these tracks will eventually result in users being able to run server-side Javascript functions without actually needing to deploy a server.
 Both implementations come with large opportunities and risks, so I needed to factor in our user's priorities. This is why many results are interpreted with that goal in mind.
 
 ### Survey respondents
@@ -39,7 +39,7 @@ Cloudflare seems to peke interest, but has not been as widely adopted as other s
 ### Frameworks
 
 Users work lot with React, reflecting in Framework preferences. Next.js is distinctively the most widely used SSR framework, followed by Gatsby and the Vue-based framework Nuxt.js. If we look at the newer frameworks it's interesting to see what users  _would like_ to use in the future:
-Here *Sveltekit* stands out with almost half of respondents _wanting_ to use it. It's followed by *Remix*, which, as a React Framework has also seen some adoption. Assuming those who used it also want to do it again in the future, it's equally popular to Sveltekit.
+Here _Sveltekit_ stands out with almost half of respondents _wanting_ to use it. It's followed by _Remix_, which, as a React Framework has also seen some adoption. Assuming those who used it also want to do it again in the future, it's equally popular to Sveltekit.
 
 Pure static site generators aren't particularly popular in comaprison: Astro, Eleventy and VuePress are all comparatively unknown or uninteresting, especially the Generators not written Javascript, Hugo and Jekyll. It seems like their use-case is limited and not particularly interesting.
 
@@ -69,7 +69,7 @@ Existing Users only (non-interactive image):
 
 !["It's important that it works on my Organisation's Hardware or in my Organizations ecosystem", users only](/images/handbook/engineering/development/incubation/jamstack/ecosystem_dependency_org_users.png)
 
-A surprise to me is the fact that Edge deployment is not something users feel strongly about. Offering Edge functionality was one of my own main drivers behind my initial attempt to use Cloudflare for script deployment. But most users don't care too much for it, as the responses are pretty much keeping the balance. 
+A surprise to me is the fact that Edge deployment is not something users feel strongly about. Offering Edge functionality was one of my own main drivers behind my initial attempt to use Cloudflare for script deployment. But most users don't care too much for it, as the responses are pretty much keeping the balance.
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSArP2ggk8MSBV_UeQkp7DLZcxq_15He0KNPCiSGW0sBKTl7a5RAdfLTTm9x6mW3pjMB0lr4SUtNniR/pubchart?oid=711036831&amp;format=interactive"></iframe>
 
@@ -77,9 +77,9 @@ More important is the availabilty of nodejs globals, given that a wide range of 
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSArP2ggk8MSBV_UeQkp7DLZcxq_15He0KNPCiSGW0sBKTl7a5RAdfLTTm9x6mW3pjMB0lr4SUtNniR/pubchart?oid=1178816764&amp;format=interactive"></iframe>
 
-A big difference between the JS-isolates-in-Pages approach versus using Cloudflare is *developer experience vs. feature completeness*. Using Cloudflare would mean we're opting for a feature-rich ecosystem, but the iterative approach would mean we're starting with a complicated Developer Experience (Creating a CF account, obtaining an API Token, setting up deployments) and iteratively simplify that by automating or integrationg each of the required steps into GitLab.
+A big difference between the JS-isolates-in-Pages approach versus using Cloudflare is _developer experience vs. feature completeness_. Using Cloudflare would mean we're opting for a feature-rich ecosystem, but the iterative approach would mean we're starting with a complicated Developer Experience (Creating a CF account, obtaining an API Token, setting up deployments) and iteratively simplify that by automating or integrationg each of the required steps into GitLab.
 
-Using Isolates in GitLab Pages on the other hand would mean we could start with a simple experience (zero setup required) and iteratively add *features* to the implementation as we go, shaping the implementation based on user feedback.
+Using Isolates in GitLab Pages on the other hand would mean we could start with a simple experience (zero setup required) and iteratively add _features_ to the implementation as we go, shaping the implementation based on user feedback.
 
 The last question identified where users stand on that question. They were asked to rate on a scale from 1-6 whether they preferred an ease-of use or feature completeness from the start. The results show a preference towards ease-of-use at the expense of feature completeness. That many users want both when given a choice is reasonable. So if we only look at the extreme answers the preference is even more clear: 26% of users only care for ease-of-use, whereas only 3% are willing to sacrifice it for feature completeness.
 

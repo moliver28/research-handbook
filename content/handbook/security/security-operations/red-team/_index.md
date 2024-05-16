@@ -1,5 +1,7 @@
 ---
 title: "Red Team"
+aliases:
+  - /handbook/security/threat-management/red-team/
 ---
 
 GitLab's internal Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure.
@@ -12,7 +14,7 @@ This approach allows groups across GitLab to practice detecting and responding t
 
 The Red Team operates under a predefined set of [rules of engagement]({{< ref "red-team-roe" >}}). The rules of engagement exist to inform GitLab's team members on how the team operates during engagements. It provides guidelines for determining scope, the ethics we employ during our engagements, how we collaborate as a security team, and how we escalate vulnerabilities and exploits we discover during those engagements.
 
-Further details can be found in the [job family description]({{< ref "/job-families/security/red-team" >}}).
+Further details can be found in the [job family description](/job-families/security/red-team).
 
 ## What the Red Team Does
 
@@ -25,19 +27,19 @@ Stealth operations are not a contest. If our Red Team completes an objective und
 
 These operations require [special rules]({{< ref "red-team-roe#stealth-operations" >}}). Examples of techniques we may use and those we will specifically avoid can be found in [Stealth Operation Techniques]({{< ref "red-team-roe#stealth-operation-techniques" >}}).
 
-### Purple Team Operations
+### Purple Team Flash Operations
 
-We use the term "*Purple Team*" to describe an open collaboration between our defensive security folks (aka our "Blue Team") and our offensive security folks (aka our "Red Team"). Red + Blue = Purple. When the Purple Team performs an operation, the work is visible to all GitLab team members. This includes building adversary profiles, discussing hypothetical attack and defense scenarios, and emulating attack techniques in our environment.
+Purple Team flash operations are short, collaborative exercises that address rapidly emerging threats. While stealth operations can span 3-6 months, we complete these flash operations in 1-2 weeks.
 
-A stealth operation may be converted to a Purple Team operation after the Red Team has been uncovered. Or, we may plan from the beginning to conduct an operation in the Purple Team style.
+These operations start with our Threat Intelligence team identifying a specific threat that is likely to impact GitLab in the near future. We then collaborate with SIRT and others to quickly create and execute attack scenarios to test our preparedness.
 
-You can read more about this process in [Purple Teaming at GitLab]({{< ref "purple-teaming" >}}).
+Purple Team flash operations allow us to stay ahead of the news cycle. Our goal is to rapidly iterate on our defensive capabilities, ensuring we are ready for the real thing.
 
 ### Opportunistic Attacks
 
 Opportunistic attacks are conducted outside the context of a formalized operation. They can be done at any time, from any source IP address, and against any GitLab-managed asset without prior approval or notification.
 
-This type of work generally involves active attacks against real GitLab systems. It should always support our primary objective to improve the security of GitLab, with a goal to provide [properly labeled recommendations](#recommendations) or merge requests that solve security issues.
+This type of work generally involves active attacks against real GitLab systems. It should always support our primary objective to improve the security of GitLab, with a goal to provide [properly labeled recommendations](#adoption-rate) or merge requests that solve security issues.
 
 Opportunistic attacks are documented in issues that are visible to all team members. We do this work to test hypotheses, prove risks, and generally pursue improvements in a manner that is less structured than a formalized operation.
 
@@ -61,13 +63,13 @@ As a Red Team, we emulate attackers. That means the information we share may be 
 
 ### Red Team Operation Workflow
 
-We maintain [public issue templates](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-issue-templates) for planning, executing, and reporting on Red Team operations. At the start of an operation, we open a new epic and use these templates to create issues corresponding to each stage of work.
+We maintain [public issue templates](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/red-team-issue-templates) for planning, executing, and reporting on Red Team operations. At the start of an operation, we open a new epic and use these templates to create issues corresponding to each stage of work.
 
 By using these templates, everyone on the team knows where we are at and what comes next. This helps us to operate asynchronously and to iterate on our processes based on how well the templates work.
 
 ### Red Team Report Delivery
 
-All operations end with a final report. We use an issue template which is [shared publicly here](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-issue-templates).
+All operations end with a final report. We use an issue template which is [shared publicly here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/red-team-issue-templates).
 
 Security risks affect everyone, and it is essential to make our reports approachable and consumable to a broad audience. To achieve this, we make an effort to [use simple language]({{< ref "communication#simple-language" >}}). Our goal is to ensure that anyone in the company can understand the reports, even if they don't have a background in security.
 
@@ -83,24 +85,37 @@ We will then share the following in `#whats-happening-at-gitlab` and cross-post 
 
 By doing this, we help foster a culture of security awareness throughout the organization and ensure that everyone can benefit from our work.
 
+### Red Team Maturity Model
+
+We use a custom maturity model to measure our progress and help guide our decisions. This is loosely based on the [Capabilities Maturity Model (CMM)](https://en.wikipedia.org/wiki/Capability_Maturity_Model). Our model contains five stages of maturity, each with very specific behaviors we strive to demonstrate and states we hope to achieve.
+
+We built this using a GitLab issue board, with each maturity level being a list and each item being an issue. We can collaborate inside the issues, discussing our progress and providing links to related issues and merge requests. As we work on specific items, we will add custom labels to indicate an item is in progress, established, or replaced by an item in a latter maturity level.
+
+GitLab team members can view the model [here](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-maturity-model).
+
 ### Red Team Metrics
 
-#### Recommendations
+#### Adoption Rate
 
- We are currently tracking the recommendations we provide across the organization and breaking them into the following three categories:
+A successful Red Team program strengthens an organization's security through recommendations that are adopted, (i.e. accepted and ultimately implemented) by the organization. We track the lifecycle of these recommendations through to implementation using GitLab.com, calling this metric our "Adoption Rate."
 
-- Detections & Alerts (using the label `RTRec::Detection`)
-- Security Controls (using the label `RTRec::Control`)
-- Processes and Procedures (using the label `RTRec::Process`)
+Recommendations start as GitLab.com issues in the project closest to the team that can address them. We classify recommendations using labels:
 
-This is done by opening individual issues for each recommendation generated during an operation or opportunistic attack and tagging those issues with specific labels. We can then look back and see the time and effort put into each category and how the recommendations were received and acted upon.
+- Detections & Alerts (`RTRec::Detection`)
+- Security Controls (`RTRec::Control`)
+- Processes and Procedures (`RTRec::Process`)
 
-The following issue boards provide a consolidated view of these recommendations. Most issues will be confidential and visible only to GitLab team members:
+We track what happens after a recommendation is delivered by adding a secondary label to the issue with its current status or final outcome:
 
-- [Red Team Recommendations: gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/5351140)
-- [Red Team Recommendations: gitlab-com](https://gitlab.com/groups/gitlab-com/-/boards/5350979)
+- Under review (`RecOutcome::UnderReview`)
+- Accepted and actively being worked on (`RecOutcome::InProgress`)
+- Accepted but backlogged (`RecOutcome::Backlogged`)
+- Accepted but blocked (`RecOutcome::Blocked`)
+- Fully adopted and closed (`RecOutcome::Adopted`)
+- Partially adopted and closed (`RecOutcome::PartiallyAdopted`)
+- Not adopted and closed (`RecOutcome::NotAdopted`)
 
-We will not measure our team's performance based on simply counting the number of recommendations over a specific time period. Instead, we will try to understand how the recommendations ultimately impact the organization and what we can do to become a more effective Red Team.
+An outcome label is added to the issue within one week of delivering the recommendation. A scheduled CI pipeline checks issues with classification labels to ensure they have an outcome.
 
 #### MITRE ATT&CK Mapping
 
@@ -109,10 +124,10 @@ We will not measure our team's performance based on simply counting the number o
 We use a combination of GitLab CI pipelines and GitLab Pages to build and host two reporting tools from MITRE:
 
 - [MITRE ATT&CK Flow](https://github.com/center-for-threat-informed-defense/attack-flow)
-  - [Our internal automation project](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/automation/ci-attack-flow)
+  - [Our internal automation project](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/automation/ci-attack-flow)
   - [Our internal build](https://flow.gl-redteam.com/)
 - [MITRE ATT&CK Navigator](https://github.com/center-for-threat-informed-defense/attack-navigator)
-  - [Our internal automation project](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/automation/ci-attack-navigator)
+  - [Our internal automation project](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/automation/ci-attack-navigator)
   - [Our internal build](https://navigator.gl-redteam.com/)
   - [Public blog describing the project](https://about.gitlab.com/blog/2023/08/09/gitlab-mitre-attack-navigator/)
 
@@ -122,13 +137,12 @@ That same ATT&CK Flow file is imported into our ATT&CK Navigator project, which 
 
 This is s great way to visualize the types of attack techniques we've emulated, and to help us understand areas we should focus on in future operations.
 
-#### Red Team Maturity Model
+### Recommendations Issue Boards
 
-We use a custom maturity model to measure our progress and help guide our decisions. This is loosely based on the [Capabilities Maturity Model (CMM)](https://en.wikipedia.org/wiki/Capability_Maturity_Model). Our model contains five stages of maturity, each with very specific behaviors we strive to demonstrate and states we hope to achieve.
+The following issue boards provide a consolidated view of open recommendations. Most issues will be confidential and visible only to GitLab team members:
 
-We built this using a GitLab issue board, with each maturity level being a list and each item being an issue. We can collaborate inside the issues, discussing our progress and providing links to related issues and merge requests. As we work on specific items, we will add custom labels to indicate an item is in progress, established, or replaced by an item in a latter maturity level.
-
-GitLab team members can view the model [here](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-maturity-model).
+- [Red Team Recommendations: gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/5351140)
+- [Red Team Recommendations: gitlab-com](https://gitlab.com/groups/gitlab-com/-/boards/5350979)
 
 ### "Assumed Breach" First
 
@@ -146,7 +160,7 @@ Red Team members can also hunt for ways to "break in" to GitLab at any time in t
 
 The Red Team will develop new adversary emulation techniques on a regular basis, both during formalized operations and opportunistic attacks. For example, the Red Team may create a bot that logs into development instances and attempts to exploit a specific configuration. Once the risk has been proven and existing detection/response capabilities have been tested, it is time for the technique to be fully disclosed internally.
 
-While this may result in product fixes or infrastructure changes, it is possible that vulnerable configurations may reappear in the environment. At this point, GitLab's [Vulnerability Management]({{< ref "/handbook/security/threat-management/vulnerability-management" >}}) group will take over any ongoing scanning required to monitor for this scenario. The Red Team will share any tools they used for the initial discovery, but Vulnerability Management will generally implement a more production-ready permanent scanning solution.
+While this may result in product fixes or infrastructure changes, it is possible that vulnerable configurations may reappear in the environment. At this point, GitLab's [Vulnerability Management](/handbook/security/threat-management/vulnerability-management) group will take over any ongoing scanning required to monitor for this scenario. The Red Team will share any tools they used for the initial discovery, but Vulnerability Management will generally implement a more production-ready permanent scanning solution.
 
 ### Red Team Tooling Development
 
@@ -158,7 +172,7 @@ When we need to create a single portable application, such as emulated malware, 
 
 Other factors may influence the decision on which language to use, such as forking an existing project or a requirement to emulate a specific attack scenario.
 
-To help ensure consistency, we have created a [project template](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/templates/red-team-tooling-template) available internally. This template includes a standard set best practices for testing, building, and releasing new tools.
+To help ensure consistency, we have created a [project template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/templates/red-team-tooling-template) available internally. This template includes a standard set best practices for testing, building, and releasing new tools.
 
 ## Is This the Red Team?
 
@@ -170,13 +184,15 @@ If any team member, at any time, could simply ask *"Hey, this looks suspicious. 
 
 We have private Slack channels in place where designated team members can ask the Red Team if a certain activity belongs to them. This helps us to provide realistic opportunities to practice detection and response without escalating too far. For example, we would not want an emulated attack to affect production operations or escalate to third parties.
 
-You can read more about this process in the ["deconfliction" section]({{< ref "red-team-roe#deconfliction-process" >}}) of our rules of engagement.
+Managers at GitLab can also [submit a "Red Team Disclosure Request"](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) at any time. If the request contains evidence related to an ongoing Red Team operation, we will discuss next steps in the Slack channels mentioned above.
+
+You can read more about this process in the ["Requests for Disclosure" section]({{< ref "red-team-roe#requests-for-disclosure" >}}) of our rules of engagement.
 
 ### How the Red Team will respond to this question
 
 If the Red Team is ever asked *"Is this you?"* by someone other than the designated team members mentioned above, they will respond with the following text:
 
-> Thanks for your vigilance! Any suspicious activity should be treated as potentially malicious. If you'd like to contact security, you can follow the process [here]({{< ref "/handbook/security/security-operations/sirt/engaging-security-on-call" >}}).
+> Thanks for your vigilance! Any suspicious activity should be treated as potentially malicious. If you'd like to contact security, you can follow the process [here](/handbook/security/security-operations/sirt/engaging-security-on-call).
 >
 > Red Team operations provide an opportunity to practice detecting and responding to real-world attacks, and revealing an operation early might mean we miss out on that opportunity. Because of this, we have a policy to neither confirm nor deny whether an activity belongs to us. You can read more about this policy here: [{{< ref ".#is-this-the-red-team" >}}]({{< ref ".#is-this-the-red-team" >}}).
 

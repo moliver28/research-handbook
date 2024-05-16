@@ -93,16 +93,16 @@ If you receive a permission error when attempting to start a livestream (i.e. "P
 1. Install and launch [OBS Studio](https://obsproject.com/download)
 
 1. Allow OBS to automatically configure your settings:
-	![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
+    ![OBS Auto-Config](/handbook/marketing/marketing-operations/youtube/obs_run_autoconfig.png)
 
 1. Accept the recommended video settings:
-	![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
+    ![OBS Recommended Settings](/handbook/marketing/marketing-operations/youtube/obs_default_video_settings.png)
 
 1. Select "Custom" service and configure OBS to livestream to [GitLab's Unfiltered channel](https://www.youtube.com/live_dashboard?nv=1#):
-	![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
+    ![OBS Configure Service](/handbook/marketing/marketing-operations/youtube/obs_configure_stream.png)
 
 1. Add your webcam as a "Video Capture Device" from the Sources tool:
-	![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
+    ![OBS Add Webcam](/handbook/marketing/marketing-operations/youtube/obs_video_source.png)
 
 ## Post everything
 
@@ -230,7 +230,7 @@ Check out [this video](https://www.youtube.com/watch?v=dZtCuOf5aGk) for a visual
 
 ## Access
 
-1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
+1. GitLab branded channel: To request access, create a [Single Person Access Request issue](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) and assign the listed provisioner (column G) from the [Tech Stack YAML](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
 1. GitLab Unfiltered: Everyone should get access to YouTube Unfiltered during onboarding. If you do not see an invitation in your Inbox, please check the [Pending Invitations](https://myaccount.google.com/brandaccounts) section of your Google Workspace account. If your invitation is not there, please request a new invitation in the `#people-connect` Slack channel.
 
 For People Connect troubleshooting:

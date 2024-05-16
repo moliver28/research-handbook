@@ -8,11 +8,9 @@ GitLab Team Members can now reach out to us at the touch of a button via our #pe
 
 If you are external to GitLab but have a question for our team be sure to hit the email button below.
 
-
 <a href="https://gitlab.slack.com/archives/C02360SQQFR" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> #people-connect</a>
 <a href="https://gitlab.slack.com/app_redirect?app=A023FJVH54M" class="btn btn-primary btn-lg"><i class="fa-brands fa-slack"></i> Direct Message</a>
 <a href="mailto:people-connect@gitlab.com" class="btn btn-primary btn-lg"><i class="fa-solid fa-envelope-open-text"></i> Email</a>
-
 
 ### Introduction
 
@@ -46,7 +44,7 @@ The team collaborates intensively with various internal and external stakeholder
 
 #### Service Desk
 
-Our Service Desk was created by the [People Group Engineering Team]({{< ref "/handbook/people-group/engineering" >}}) using or [dogfooding]({{< ref "values#dogfooding" >}}) our own product. You can read more about the **People Connect Bot** [here]({{< ref "people-connect-bot#people-connect-bot" >}})
+Our Service Desk was created by the [People Group Engineering Team](/handbook/people-group/engineering) using or [dogfooding]({{< ref "values#dogfooding" >}}) our own product. You can read more about the **People Connect Bot** [here]({{< ref "people-connect-bot#people-connect-bot" >}})
 
 #### Methods of Engagement
 

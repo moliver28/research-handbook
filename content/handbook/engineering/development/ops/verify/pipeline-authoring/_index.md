@@ -70,7 +70,7 @@ To find our stable counterparts, look at the Pipeline Authoring [product categor
 
 #### Cross-functional prioritisation
 
-UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation. 
+UX, Product Manager and Engineering Manager meet weekly to discuss cross-functional prioritisation in addition to any other topics that require the quad to collaborate on. Additionally, the quad also reviews the [dashboard](/handbook/engineering/development/ops/verify/pipeline-authoring/#merged-merge-request-types) which shows the % of MRs that are bugs vs maintenance vs features to ensure the team's efforts are properly aligned to the prioritisation.
 
 #### Design Collaboration
 
@@ -89,6 +89,7 @@ Issues are refined and weighted prior to assigning them to a milestone. We use `
 We create a [planning issue](https://gitlab.com/gitlab-org/ci-cd/pipeline-authoring/-/blob/master/.gitlab/issue_templates/Planning_issue_PA.md) as part of our milestone planning process and the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started) is the single source of truth ([SSOT](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot)) for current and upcoming work. Product is the DRI in prioritizing work, with input from Engineering, UX, and Technical Writers. The planning issue is used to discuss questions and team capacity. Prior to the beginning of each milestone, issues identified in the planning issue will be assigned to that milestone and engineers can assign prioritized issues to themselves from the top of the `workflow::ready for development` column in the [workflow board](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started).
 
 #### Finding issues that need refinement
+
 All issues that need refining will have the `~workflow::planning breakdown` label applied to them to show that the issues are ready to be weighted.
 You can access all these issues using this [issue filter](https://gitlab.com/gitlab-org/gitlab/-/boards/5726606?label_name[]=group%3A%3Apipeline%20authoring&milestone_title=Started).
 It's never too early to refine an issue, but we should prioritise the issues closest to starting.  We should also apply the `~workflow::refinement` label when there are still technical discussions that need to take place before weighting can occur during `~workflow::planning breakdown`.
@@ -120,9 +121,9 @@ Engineers will:
 1. Go through the checklist above for refining issues they assign to themselves prior to each milestone.
 1. Add a [weight based on the definitions](#weighting-issues).
 1. Update the `~workflow::` label to the appropriate status, for example:
-   * ~"workflow::design" if further design refinement is needed, and let the designer know.
-   * ~"workflow::ready for development" when refinement is complete and a weight has been applied, signaling that it's ready for implementation and the issue can be scheduled accordingly.
-   * ~"workflow::planning breakdown" if more investigation or research is needed, the status does not move, and the PM and EMs should be pinged.
+   - ~"workflow::design" if further design refinement is needed, and let the designer know.
+   - ~"workflow::ready for development" when refinement is complete and a weight has been applied, signaling that it's ready for implementation and the issue can be scheduled accordingly.
+   - ~"workflow::planning breakdown" if more investigation or research is needed, the status does not move, and the PM and EMs should be pinged.
 1. Unassign themselves from the issue when they are done refining and weighting the issue.
 
 #### Weighting Issues
@@ -147,9 +148,9 @@ If an issue requires a feature flag rollout plan, consider increasing the weight
 
 Sometimes, issues that were originally weighted need to be updated to give a more accurate reflection of what the true work was.
 When this happens, team members are encouraged to:
-* Provide comments explaining why the weight is changing as the task is being implemented
-* Update the weight of the issue as limitations are realized during implementation, and validate that the weight is correct upon completion of the task
-* Note in the current milestone retrospective of this change as this will provide valuable context for historical reference of how much effort was involved with this work
+- Provide comments explaining why the weight is changing as the task is being implemented
+- Update the weight of the issue as limitations are realized during implementation, and validate that the weight is correct upon completion of the task
+- Note in the current milestone retrospective of this change as this will provide valuable context for historical reference of how much effort was involved with this work
 
 ### Syntax deprecation process
 
@@ -173,7 +174,7 @@ To encourage more transparency and collaboration amongst the team and additional
 
 ### Quad-planning
 
-Similar to the [Three Amigos](https://www.agilealliance.org/glossary/three-amigos) process, Quad-planning is leveraging our "Quad" (Product, UX, Engineering and Quality) to help inform planning of work for the team. It also ensures a shared understanding about the scope of work in a milestone. The _Quad_ is invited to provide feedback on a Planning Issue to ensure that issues have been properly refined. Unlike the [regular product development workflow that details the Quad-planning process](/handbook/product-development-flow/#build-phase-1-plan), Engineering is not only represented by Engineering Management, but the Engineer DRIs as well. The SET counterpart representing Quality will also provide feedback earlier in the process following the [Quality department's guidelines for Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/#process), by working asynchronously and reviewing the issues in the Planning issue.
+Similar to the [Three Amigos](https://www.agilealliance.org/glossary/three-amigos) process, Quad-planning is leveraging our "Quad" (Product, UX, Engineering and Quality) to help inform planning of work for the team. It also ensures a shared understanding about the scope of work in a milestone. The *Quad* is invited to provide feedback on a Planning Issue to ensure that issues have been properly refined. Unlike the [regular product development workflow that details the Quad-planning process](/handbook/product-development-flow/#build-phase-1-plan), Engineering is not only represented by Engineering Management, but the Engineer DRIs as well. The SET counterpart representing Quality will also provide feedback earlier in the process following the [Quality department's guidelines for Quad-Planning](/handbook/engineering/infrastructure/test-platform/quad-planning/#process), by working asynchronously and reviewing the issues in the Planning issue.
 
 The Product Manager will label relevant issues from the milestone planning issue with the `quad-planning:ready` label. Supplying these distinct viewpoints at this early stage of planning is valuable to informing the feasibility of the effort, as well as refining any unclear requirements or scope. Once acceptance criteria is agreed upon, the `quad-planning:complete` label is applied by the SET on each of the issues.
 
@@ -229,10 +230,10 @@ Issue descriptions shall always be maintained as the single source of truth. Iss
 Each member of the team can choose which issues to work on during a milestone by assigning the issue to themselves.  When the milestone is well underway and we find ourselves looking for work, we default to working **right to left** on the **issue board** by pulling issues in the right-most column. If there is an issue that a team member can help with on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to, if they feel that they can add value and help move the issue along to completion.
 
 Specifically, this means our work is prioritized in the following order:
- * Any verification on code that is in `workflow::verification` or `workflow::production` - **NOTE:** If an issue has the `workflow::feature-flagged label`, this means the feature is behind a feature flag that has not  been turned on by default.
- * Conducting code reviews on issues that are `workflow::in review`
- * Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
- * Then, lastly, picking from the top of the `workflow::ready for development` for development column
+ - Any verification on code that is in `workflow::verification` or `workflow::production` - **NOTE:** If an issue has the `workflow::feature-flagged label`, this means the feature is behind a feature flag that has not  been turned on by default.
+ - Conducting code reviews on issues that are `workflow::in review`
+ - Unblocking anyone in `workflow::blocked` or `workflow::in dev` if applicable
+ - Then, lastly, picking from the top of the `workflow::ready for development` for development column
 
 The goal of this process is to reduce the amount of work in progress (WIP) at any given time. Reducing WIP forces us to "Start less, finish more", and it also reduces cycle time. Engineers should keep in mind that the DRI for a merge request is **the author(s)**, to reflect the importance of teamwork without diluting the notion that having a [DRI is encouraged by our values](/handbook/people-group/directly-responsible-individuals/#dris-and-our-values).
 
@@ -261,7 +262,7 @@ If an issue misses the milestone, it is automatically assigned the `missed` labe
 the issue was originally targeting a later milestone. Be sure to leave a comment explaining why the label was removed.
 Additionally, if the team member is confident it will make the next milestone, they can update the milestone to match, even if it has not started yet.
 
-#### Using Verify::Cancel label when an issue is canceled.
+#### Using Verify::Cancel label when an issue is canceled
 
 Sometimes, we have issues that were originally created to be worked on and after analysis or change in direction of the issue, we decide that the issue is no longer needed. Additionally, we may also encounter issues that were addressed previously in other MRs. In these cases, use the `Verify::Cancel` label to make it clear that the issue was closed due to no longer being desired or needed, not due to being completed.
 
@@ -275,6 +276,7 @@ On the last week of the milestone, the DRI ([directly responsible individual](/h
 - `At Risk` - The issue is **unlikely** to be completed in the current milestone and will probably miss the release due dates.
 
 Please note that if an issue happens to roll over to the next milestone, the DRI should clear the health status once the next milestone begins to ensure the health status is accurate.
+
 #### Issue status updates
 
 When the DRI is actively working on an issue  (workflow status is `workflow::in dev`, `workflow::in review` or `workflow::verification` in the current milestone), they will add a comment into the issue with a status update, detailing:
@@ -295,7 +297,7 @@ Expectations for DRIs when providing updates for work in progress:
 
 - Status updates are provided once per month, barring special circumstances (e.g. PTO)
 - Ideally updates are made at a logical part of a DRI's workflow to minimize disruption, and not necessarily at the same time/day each week
-  - Generally when there is a logical time to leave an update, such as a _change in issue health status_, that is the best time to do so
+  - Generally when there is a logical time to leave an update, such as a *change in issue health status*, that is the best time to do so
   - Can be used to present some technical findings or information relevant to other stakeholders
 
 #### Issues in `workflow::design`
@@ -364,19 +366,17 @@ The Pipeline Authoring group supports the product marketing categories described
 
 | Label                 | |  | Description |
 | ----------------------| -------| ----|------------|
-| `CI integrations` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=CI%20integrations) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=CI%20integrations) | Issues related to supporting different CI targets directly (for example, Java or Mobile). | Pipeline Authoring |
-| `CI persistence` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=CI%20persistence) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=CI%20persistence) | Issues related to Persistence (workspaces, caching). Does not include artifacts, which is its own label |
-| `CI rules` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=CI%20rules) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=CI%20rules) | Issues related to CI rules or linting |
-| `bridge pipelines` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=bridge%20pipelines) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=bridge%20pipelines) | Issues related to visualizing how pipelines start and depend on each other. Includes visualizations for triggering, cross-project pipelines, and child/parent pipelines. For job execution, please use `~pipeline processing` |
-| `pipeline dag` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=pipeline%20dag) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=pipeline%20dag) | Issues related to [Directed Acyclic Graphs](https://docs.gitlab.com/ee/ci/directed_acyclic_graph/) visualization only. For job execution, please use `~pipeline processing` |
-| `pipeline graphs` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=pipeline%20graphs) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=pipeline%20graphs) | Issues related to pipeline graphs and visualization |
+| `CI integrations` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20integrations) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20integrations) | Issues related to supporting different CI targets directly (for example, Java or Mobile). | Pipeline Authoring |
+| `CI persistence` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20persistence) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20persistence) | Issues related to Persistence (workspaces, caching). Does not include artifacts, which is its own label |
+| `CI rules` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=ci%20rules) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=CI%20rules) | Issues related to CI rules or linting |
+| `pipeline visualizations` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=pipeline%20visualizations) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=pipeline%20visualizations) | Issues related to pipeline visualization, including [Directed Acyclic Graphs](https://docs.gitlab.com/ee/ci/directed_acyclic_graph/), pipeline dependencies for triggers, cross-project pipelines, and child/parent pipelines. For job or pipeline execution, refer to [`pipeline processing`](../pipeline-execution/#feature-labels) (owned by the Pipeline Execution team) |
 | `pipeline authoring` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=pipeline+authoring) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=pipeline+authoring) | Issues related to authoring the .gitlab-ci.yml file and CI YAML configuration (https://docs.gitlab.com/ee/ci/yaml/) but excludes issues handled by another label such as "CI rules" |
 
 #### Other Notable Labels
 
 | Label                 | |  | Description |
 | ----------------------| -------| ----|------------|
-| `CI/CD core platform` | [Issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=CI%2FCD%20Core%20Platform) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=CI%2FCD+Core+Platform) | Any issues and merge requests related to [CI/CD core domain](#core-domain), either as changes to be made or as observable side effects. |
+| `CI/CD core platform` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=CI%2FCD%20Core%20Platform) | [MRs](https://gitlab.com/groups/gitlab-org/-/merge_requests?label_name%5B%5D=pipeline+authoringhttps://gitlab.com/gitlab-org/gitlab/-/merge_requests?label_name%5B%5D=CI%2FCD%20Core%20Platform) | Any issues and merge requests related to [CI/CD core domain](#core-domain), either as changes to be made or as observable side effects. |
 | `onboarding` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Apipeline%20authoring&label_name[]=onboarding) | | Issues that are helpful for someone onboarding as a new team member. |
 | `Good for 1st time contributors` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Apipeline%20authoring&label_name[]=Good%20for%201st%20time%20contributors) | | Issues that are good for first time community contributors, and could similarly be labeled for `onboarding` |
 | `Seeking community contributions` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=group::pipeline+authoring&label_name[]=Seeking+community+contributions) | | Issues we would like the wider community to contrbute and may also be labeled `Seeking community contributions` |
@@ -411,10 +411,10 @@ Note: A good practice when only wanting to inform rather than requesting a direc
 
 We suggest using the below steps to reach the best results in the shortest time:
 
-* Once, through user research, we have identified a user need and have generated the big idea to meet that need, Product Designer drives the process of moving that idea into a solution prototype involving PM and Engineering Team early and often.
-* We take that prototype through a user testing to validate it is solving the original problem.
-* When the solution is validated with users - it is time to break the big solution down into smaller issues involving a whole team (PM, Engineers, Product Designer, QA and Technical Writer).
-* Engineers, Product Designer, EM and PM are expected to work closely together to find the most technically feasible and smallest feature set to deliver value to early customers and provide feedback for future product development. Check out [iteration strategies](#iteration-strategies) for help.
+- Once, through user research, we have identified a user need and have generated the big idea to meet that need, Product Designer drives the process of moving that idea into a solution prototype involving PM and Engineering Team early and often.
+- We take that prototype through a user testing to validate it is solving the original problem.
+- When the solution is validated with users - it is time to break the big solution down into smaller issues involving a whole team (PM, Engineers, Product Designer, QA and Technical Writer).
+- Engineers, Product Designer, EM and PM are expected to work closely together to find the most technically feasible and smallest feature set to deliver value to early customers and provide feedback for future product development. Check out [iteration strategies](#iteration-strategies) for help.
 
 We aim to design broadly for an epic or full feature at least one milestone ahead of time and then break the big solution into smaller issues to pick up in the next milestones.
 Suppose working one milestone ahead to design the big solution is not possible. In that case, Engineering and Product Designer will define the first most technically feasible and smallest feature set ([MVC](/handbook/values/#minimal-viable-change-mvc)) to satisfy early customers that will be implemented in the same milestone.
@@ -434,15 +434,15 @@ For more details on how to contribute to GitLab generally, please see our [docum
 
 #### Aligning on feature development
 
-The Engineering DRI works with the Product Designer throughout the `workflow:in dev` phase to uncover possible problems with the solution early enough that exhibit unexpected behaviour to what was originally agreed upon. If there are changes to be added that weren't agreed upon in the initial issue - a followup issue should be made and the Engineering DRI should work with the Product Manager to schedule that issue in a following iteration. This allows us to focus on [cleanup over signoff](/handbook/values/#cleanup-over-sign-off), iterate quickly on issues with [a low level of shame](/handbook/values/#low-level-of-shame), and still make sure we accomplish what we've agreed upon. We should be careful not to hold off on completing these followup issues so that we don't build up a significant amount of UX debt issues.
+The Engineering DRI works with the Product Designer throughout the `workflow:in dev` phase to uncover possible problems with the solution early enough that exhibit unexpected behaviour to what was originally agreed upon. If there are changes to be added that weren't agreed upon in the initial issue - a followup issue should be made and the Engineering DRI should work with the Product Manager to schedule that issue in a following iteration. This allows us to focus on [cleanup over signoff](/handbook/values/#cleanup-over-sign-off), iterate quickly on issues with [a low level of shame](/handbook/values/#low-level-of-shame), and still make sure we accomplish what we've agreed upon. We should be careful not to hold off on completing these followup issues so that we don't build up a significant amount of Deferred UX issues.
 
 If we find that solutions are consistently not matching the agreed upon design, we will hold a retrospective with the DRI, designer, and product manager to discuss where the gaps in communication are so that we can improve. It may be necessary to begin requiring a UX approval for merge requests on certain issues to help the Engineering DRI meet the requirements.
 
 #### Avoiding crunch times between UX and Engineering
 
-* Ideally, the Product Manager works ahead of time with a Product Designer to validate the problem and work on the solution. See [Validation track](/handbook/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
-* Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement - we can have a put a direction on the board - see [Solution Validation phase](/handbook/product-development-flow/#validation-phase-4-solution-validation) for details.
-* Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development-flow/#build-track) to avoid unplanned changes.
+- Ideally, the Product Manager works ahead of time with a Product Designer to validate the problem and work on the solution. See [Validation track](/handbook/product-development-flow/#validation-track) for more details. This allows us to come up with the bigger idea ahead of time, and work further with Engineering to break it down into smaller iterations. Ideally, this should be completed before the implementation milestone starts.
+- Product Designer, PM, and Engineering use the [Design phase](/handbook/product-development-flow/#validation-phase-3-design) in the Validation track to talk about complexities and discuss challenges and uncover blockers. Once we are all in agreement - we can have a put a direction on the board - see [Solution Validation phase](/handbook/product-development-flow/#validation-phase-4-solution-validation) for details.
+- Engineers and Product Designers should stay in contact and frequently align throughout the [Build track](/handbook/product-development-flow/#build-track) to avoid unplanned changes.
 
 #### Iteration on UX and Engineering collaboration process
 

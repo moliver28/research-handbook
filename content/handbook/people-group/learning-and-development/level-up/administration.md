@@ -12,7 +12,7 @@ Management of the Learning System is a collaborative effort between Education Se
 
 ### Learning & Development
 
-The L&D team uses Thought Industries to support training for GitLab team members, and in some instances, community members. This is achieved in accordance with our [Purpose, Vision, and Mission.]({{< ref "/handbook/people-group/learning-and-development#mission" >}})
+The L&D team uses Thought Industries to support training for GitLab team members, and in some instances, community members. This is achieved in accordance with our [Purpose, Vision, and Mission.](/handbook/people-group/learning-and-development#mission)
 
 ### Education Services
 
@@ -95,7 +95,7 @@ The admin home page is a place for platform administrators to access:
 
 ### Authoring
 
-Level Up uses a [handbook first](/handbook/handbook-usage/#why-handbook-first) approach for all learning content, using the handbook as our single source of truth for learning content.
+Level Up uses a [handbook first](/handbook/about/handbook-usage/#why-handbook-first) approach for all learning content, using the handbook as our single source of truth for learning content.
 This approach ensures:
 
 - all voices and contributions are heard

@@ -71,6 +71,8 @@ controlled_document_banner_disabled: true
 
 ```
 
+In addition to the frontmatter for individual pages, controlled documents and their codeowner(s) must be listed in the "Controlled Documents" section of the repository's `CODEOWNERS` file. Please also follow any instructions at the top of the `CODEOWNERS` file.
+
 ## Page Types (Layouts)
 
 **Note:** To keep the handbook consistent, we discourage overriding the page `type` (aka layout).

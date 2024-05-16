@@ -30,9 +30,7 @@ The Director, IT Audit is a [grade 10](/handbook/total-rewards/compensation/comp
 - Operate in conformance with the Institute of Internal Auditors International Professional Practices Framework (IPPF)
 - Lead/participate in internal audit department non-audit or special projects related to strategic goals or other Company initiatives.
 
-
 ### Requirements
-
 
 - Undergraduate degree in engineering or business
 - 12+ years of combined professional experience in IT audit, security, risk, controls or information technology
@@ -48,14 +46,13 @@ The Director, IT Audit is a [grade 10](/handbook/total-rewards/compensation/comp
 - Professional certifications like CISA, CISSP, CISM or similar preferred
 - Ability to use GitLab
 
-
 ### Performance Indicators
 
 - [Percentage of Desktop procedures documented](/handbook/internal-audit/#internal-audit-performance-measures)
 - [Percentage of controls tested](/handbook/internal-audit/#internal-audit-performance-measures)
 - [Percentage of recommendations implemented](/handbook/internal-audit/#internal-audit-performance-measures)
 - [Percentage of audits completed](/handbook/internal-audit/#internal-audit-performance-measures)
-- [New Hire Location Factor < 0.69](/handbook/business-technology/metrics/#new-hire-location-factor--069)
+- [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)
 - Completing tasks and audits timely and efficiently
 - Utilizing Best Practices related to audit findings and recommendations.
 - Approval ratings based on surveys above 80% in the first year, moving to 90% in subsequent years.

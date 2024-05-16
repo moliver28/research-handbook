@@ -5,7 +5,7 @@ description: "In this section we will review various topics that impact new mana
 
 In this section we will review various topics that impact new managers. For first time managers sometimes the transition from a high performing individual to leading a team can be challenging. One of the biggest challenges is that many new managers are taking over teams that they were once a member of and have already formed friendships. Although it can be hard to separate your new role from your past role it is important that you make the change. You will need to accept that you are in a different role and your mindset will have to shift from an individual contributor to manager.
 
-### Managers are responsible for:
+### Managers are responsible for
 
 - Planning how to meet team goals or OKRs
 - Organizing workloads amongst team members
@@ -16,7 +16,7 @@ In this section we will review various topics that impact new managers. For firs
 - Displaying GitLab values
 - Using clear and concise communication
 
-### As a new manager you need to know:
+### As a new manager you need to know
 
 - Your actions or inactions are a reflection on you and the company
 - As a leader, you set the tone for your entire team
@@ -46,7 +46,7 @@ As a manager you are now responsible for hiring team members to fill open vacanc
 
 ### Harassment
 
-You are responsible as a manager to create and sustain a work environment in which all GitLab team members understand and know the ethical and legal behaivor that is required of them. As a manager you need to familiarize yourself with the  [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d).  One issue managers may face is harassment.  GitLab's [Anti-Harassment]({{< ref "anti-harassment" >}}) policy makes it clear that team members have a right to a harassment-free work environment.  For further details regarding harassment please read the [Anti-Harassment Policy]({{< ref "anti-harassment" >}}).  As a manager if are made aware of or witness any form of harassment you must  reach out to your aligned people business parter immediately to discuss the issue.  You can find your aligned people business partner on the [People Business Partner Alignment]({{< ref "/handbook/people-group#people-business-partner-alignment-to-division" >}}) section of the handbook. Take a moment and review both the [People Group]({{< ref "/handbook/people-group#how-to-report-violations" >}})'s reporting section, as well as the [Questions, Reporting and Effect of Violations](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) section of the Code of Ethics to familiarize yourself with the reporting and investigation process.
+You are responsible as a manager to create and sustain a work environment in which all GitLab team members understand and know the ethical and legal behaivor that is required of them. As a manager you need to familiarize yourself with the  [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d).  One issue managers may face is harassment.  GitLab's [Anti-Harassment]({{< ref "anti-harassment" >}}) policy makes it clear that team members have a right to a harassment-free work environment.  For further details regarding harassment please read the [Anti-Harassment Policy]({{< ref "anti-harassment" >}}).  As a manager if are made aware of or witness any form of harassment you must  reach out to your aligned people business parter immediately to discuss the issue.  You can find your aligned people business partner on the [People Business Partner Alignment](/handbook/people-group#people-business-partner-alignment-to-division) section of the handbook. Take a moment and review both the [People Group](/handbook/people-group#how-to-report-violations)'s reporting section, as well as the [Questions, Reporting and Effect of Violations](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) section of the Code of Ethics to familiarize yourself with the reporting and investigation process.
 
 ### Discrimination
 

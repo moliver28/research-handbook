@@ -23,7 +23,7 @@ In the retention and expansion phase, the roles and responsibilities of the CSM/
 
 - Strategic Account Executive ([Enterprise](/job-families/sales/enterprise-account-executive/)) or Account Executive ([SMB](/handbook/sales/commercial/#smb-account-executives) or [Mid Market](/handbook/sales/commercial/#mid-market-account-executive))
 - [Customer Success Manager](/handbook/customer-success/csm/#what-is-a-customer-success-manager-csm)
-- [Solutions Architect](/handbook/customer-success/solutions-architects/)
+- [Solutions Architect](/handbook/solutions-architects/)
 - [Professional Services](/handbook/customer-success/professional-services-engineering/)
 
 ## 1.Customer Onboarding
@@ -147,7 +147,7 @@ Once renewal opportunities are identified at the monthly renewal meeting, the SA
 
 #### 4.3.1 Discovery Call Meetings
 
-#### Use the Command Plan within Salesforce to capture the following information for the renewal opportunity.
+#### Use the Command Plan within Salesforce to capture the following information for the renewal opportunity
 
 - Engage regularly with the CTO to re-validate top priorities
 - Review the 18-24 month plan and align the plan as necessary to the customer’s priorities

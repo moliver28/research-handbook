@@ -80,9 +80,9 @@ You can copy/paste this to make sure you don't miss anything or [create a commen
 <!-- Select the appropriate subscription and product text below and remove the others (note: do not add them as labels)>
 <!-- Click on ~customer priority:: below to select an appropriate label 1 through 10 with 10 being the highest>
 
-The following ~customer is interested in this capability 
+The following ~customer is interested in this capability
 
-- Subscription: ~"GitLab Ultimate" OR ~"GitLab Premium" OR ~"GitLab Free" 
+- Subscription: ~"GitLab Ultimate" OR ~"GitLab Premium" OR ~"GitLab Free"
 - Product: ~"self-managed" OR ~"gitlab.com" OR ~"GitLab Dedicated"
 - Link to request:
 - Priority: ~customer priority::
@@ -102,13 +102,13 @@ The `~customer priority::*` labels are inputs for the prioritization model power
 
 These dashboards represent the relative importance of a given issue to the specific customer. 1 is the lowest priority and 10 is the highest. These can be updated at any point in time and will be reflected in the model within 24 hours. You can find more context about priority labels on the [customer issues prioritization framework handbook page](/handbook/product/product-processes/customer-issues-prioritization-framework/#priority-points).
 
-##### Good example:
+##### Good example
 
 > A customer with more than 1000 users mentioned they are interested in this feature to be able to do their sprint planning more effectively. The problem they are trying to solve is that with the current implementation, they can't X and need to do so because Y. They are using software X to do this today, but would be able to move to GitLab if we would do this.
 >
 > @productmanager this issue doesn't have a milestone right now, are we planning to address this in the near term?
 
-##### Bad example:
+##### Bad example
 
 > salesforce.com/blabla
 

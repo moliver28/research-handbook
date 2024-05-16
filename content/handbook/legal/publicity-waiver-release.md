@@ -6,17 +6,20 @@ description: "Guidelines and process for use of Publicity Waiver and Release agr
 ## Is a Publicity Waiver and Release agreement required?
 
 Subject to the exceptions listed below, a Release is required when:
+
 - The name, image, likeness and appearance, voice, or professional biographical information (the "**Likeness**") of any team member, former team member, or non-team member is used in [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) materials such that the individual is identifiable.
 - Photography or videography by or on behalf of GitLab will take place at an internal or external event, such as a conference.
 
 A Release is **not** required when:
+
 - Using a current team member's name, job title, or photo taken from the [Meet Our Team page](/handbook/company/team/) in [external](/handbook/legal/materials-legal-review-process/#external-vs-internal-use) materials. This does not include the use of a former team member's photo taken from that page.
 - Using screenshots of GitLab.com which include a team member's public GitLab profile information, including their name, GitLab username, and avatar.
-- Streaming or publishing [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/key-review/) meetings, and [Group Conversations](/handbook/group-conversations/) containing the Likeness of team members [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered.
+- Streaming or publishing [AMAs](/handbook/communication/ask-me-anything/), [Key Review](/handbook/company/key-review/) meetings, and [Group Conversations](/handbook/company/group-conversations/) containing the Likeness of team members [publicly](/handbook/marketing/marketing-operations/youtube/#visibility) to GitLab Unfiltered.
 
 ## Release templates
 
 If a Release is required, the circumstances dictate which Release templates should be used:
+
 - If you're organising an event at which photography or videography by or on behalf of GitLab will be captured, use the [Event Photography and Videography Likeness Release](./#event-photograph-and-videography-likeness-release).
 - For all other circumstances, refer to the diagram below to determine which Release template to use.
 
@@ -38,6 +41,7 @@ Use the Team Member General Publicity Waiver and Release template when the indiv
 Each team member need only sign the Team Member General Publicity Waiver and Release once.
 
 {{% details summary="Expand for instructions for DRIs using the Team Member General Publicity Waiver and Release" %}}
+
 1. Search the [GitLab Team Member General Publicity Waiver and Release Tracker](https://docs.google.com/spreadsheets/d/1fOENNDeCoAzXSdHIcD7GGJnwpUYL1qlqzwB1WbHrdlg/edit#gid=249560389) to determine whether a Release is already in place with the team members featured in the materials. If a Release is in place with all team members featured, no further action is required as the requisite Releases are already in place.
 1. If no Release is in place, send the [Team Member General Publicity Waiver and Release form](https://docs.google.com/forms/d/1QACcbwfmEZzGSvBQ-UzPtQjsgduSxy5B5cV-C0DUmWs/edit) to all team members feaured in the materials.
 1. Team members featured in the materials review the Release and complete the form.
@@ -49,7 +53,8 @@ Each team member need only sign the Team Member General Publicity Waiver and Rel
 Use the Material- and Purpose-specific Publicity Waiver and Release template for materials featuring individuals who are no GitLab team members, or for materials featuring individuals that will be used for paid outbound advertising. For materials that will not be used for paid outbound advertising and feature only GitLab team members, use the [Team Member General Publicity Waiver and Release](./#team-member-general-publicity-waiver-and-release) instead.
 
 {{% details summary="Expand for instructions for DRIs using the Material- and Purpose-specific Publicity Waiver and Release" %}}
-1. If you don't have DocuSign access, open an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to get it.
+
+1. If you don't have DocuSign access, open an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to get it.
 1. Once you has DocuSign access, access the [Material- and Purpose-specific Publicity Waiver and Release template](https://app.docusign.com/templates/details/0716de66-3f1e-4969-b305-4562b9af665d).
 1. Click `USE`.
 1. On the `Recipients` page:

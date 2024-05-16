@@ -26,8 +26,8 @@ title: Learning & Development
 
 *Performance indicators*
 
-1. Reduce voluntary attrition by 5% each year by measuring [exit survey data]({{< ref "/handbook/people-group/offboarding#exit-survey" >}}) related to career development
-1. Secure a 5% increase in the Growth & Development category of the [annual engagement survey]({{< ref "/handbook/people-group/engagement" >}})
+1. Reduce voluntary attrition by 5% each year by measuring [exit survey data](/handbook/people-group/offboarding#exit-survey) related to career development
+1. Secure a 5% increase in the Growth & Development category of the [annual engagement survey](/handbook/people-group/engagement)
 1. Increased access to career mobility: internal transfers, [promotions]({{< ref "promotions-transfers" >}}), job shadows, intern for learning, and professional development
 1. Clear evidence of best in class remote learning & development (i.e. [Brandon Hall Awards](https://excellenceawards.brandonhall.com/), Industry Speaking Events, Thought Leadership articles, etc.)
 
@@ -42,9 +42,9 @@ title: Learning & Development
 
 We are a small team, but we've got a big role to play at GitLab!
 
-- [Learning and Development Director]({{< ref "/job-families/people-group/learning-development#learning--development-manager" >}}): [Tre Ely]({{/handbook.gitlab.com/handbook/company/team/#tely2}})
-- [Senior Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Samantha Lee](/handbook/company/team/#slee24)
-- [Learning and Development Program Manager]({{< ref "/job-families/people-group/learning-development#intermediate-learning--development-program-manager" >}}): [Jamie Allen](/handbook/company/team/#jallen16)
+- [Learning and Development Director](/job-families/people-group/learning-development#learning--development-manager): [Tre Ely]({{/handbook.gitlab.com/handbook/company/team/#tely2}})
+- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Samantha Lee](/handbook/company/team/#slee24)
+- [Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
 
 ## Team Member Resources
 
@@ -53,7 +53,7 @@ The Learning & Development team has a number of resources to help team members l
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "manager-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Transitioning to a Manager Role</a>
-    <a href="{{< ref "/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Benefit</a>
+    <a href="/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development" class="btn btn-primary" style="width:200px;margin:5px;">Growth & Development Benefit</a>
     <a href="{{< ref "career-development" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Career Development & Mobility</a>
   </div>
 </div>
@@ -89,7 +89,6 @@ The Learning & Development team has a number of resources to help team members l
   </div>
 </div>
 
-
 ### Partnerships at GitLab
 
 Multiple teams across the company contribute to learning and development of our team members. Below is a list of some teams we partner with and how we collaborate.
@@ -98,10 +97,6 @@ Multiple teams across the company contribute to learning and development of our 
 1. Talent Brand: Telling career growth stories
 1. People Operations: Measuring imapct of learning and development on team member engagement
 1. Select Department Subject Matter Experts: Legal, Compliance, and other specific courses
-
-
-
-
 
 ## Contact Us
 
@@ -151,7 +146,7 @@ The L&D team uses GitLab issue boards to track priorities, organize collaboratio
 
 Additional planning and notes around the sprint board can be found in [this issue.](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/111)
 
-#### Best practices for using sprint boards and issues:
+#### Best practices for using sprint boards and issues
 
 - Apply a burn-down chart with milestones to track time spent.
 - Create the issue in the sprint where the work starts.
@@ -180,7 +175,6 @@ The L&D team freqently uses the following tools for creating and communicating l
 | [Canva](https://www.canva.com/) | Image and infographic creation |
 | [Articulate/Rise 360](https://articulate.com/) | Course Authoring |
 | [Genial.ly](https://app.genial.ly/dashboard) | Create Interactive Images |
-
 
 ## Developing Learning Content
 

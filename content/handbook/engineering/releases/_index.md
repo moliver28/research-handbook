@@ -8,7 +8,7 @@ This page describes the processes used to release packages to self-managed users
 
 **Monthly self-managed release**
 
-GitLab version (XX.YY.0) [is published every month][process-monthly-release]. From this monthly release, [patch][process-patch-release], [non-critical][process-security-release-non-critical], and [critical][process-security-release-critical] security releases are created as needed.
+GitLab version (XX.YY.0) [is published every month][process-monthly-release]. From this monthly release, [planned][process-planned-patch-release], and [unplanned critical][process-unplanned-critical-patch-release] patch releases are created as needed.
 
 Our [maintenance policy] describes in detail the cadence of our major, minor and patch releases for self-managed users. The major release yearly cadence was defined [after an all stakeholder discussion](https://gitlab.com/gitlab-com/Product/issues/50).
 
@@ -88,51 +88,51 @@ Merge Requests that have been included in the monthly release will receive [a la
 
 GitLab team members can view the [internal Grafana dashboard "Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1) for the following information:
 
-* Active monthly release version
-* Active monthly release date
-* Current status of the active monthly release
+- Active monthly release version
+- Active monthly release date
+- Current status of the active monthly release
 
 The metrics used to display this information are updated automatically throughout the [self-managed releases process](#self-managed-releases-process).
 
 ## Patch releases overview
 
-The [patch release policy] allows bug fixes to be backported to the current stable released version of GitLab. Patches are created on demand according to our
-[maintenance policy] and at the discretion of release managers. Patches that are outside of our [maintenance policy] for bug
-fixes must be requested and agreed upon by the release managers and the requester (see
+The [patch release policy] allows bug fixes to be backported to the current stable released version of GitLab, and security fixes to be backported to the current and previous two GitLab Versions.
+
+Patches that are outside of our [maintenance policy] for bug fixes must be requested and agreed upon by the release managers and the requester (see
 [backporting to versions outside the maintenance policy] for details).
+
+### Patch release cadence
+
+Patch releases are scheduled twice a month on the second and fourth Wednesdays, around the monthly release week. These are best-effort dates and they might be subject to change.
 
 ### Patch release process
 
-Patches are released on an as-needed basis in order to fix regressions in the current self-managed release.
+Patches fix regressions in the current self-managed release and vulnerabilities in the current and previous two GitLab versions.
 
-If you're a GitLab engineer looking to include a bug fix in a release, please follow the steps on the [patch release runbook for GitLab engineers].
+If you're a GitLab engineer looking:
+- To include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers].
+- To include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers].
 
 Overview of the steps involved with creating a patch release:
 
-![Patch release overview](patch_release_overview.png)
+![Patch release overview](patch-releases/planned-patch-release-overview.jpg)
 
-- [Diagram source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit#slide=id.g226a611e9ec_0_0)
+- [Diagram source](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 
-The end-to-end process consists on the following stages:
+Details of the patch release lifecycle can be found on the [patch release section]
 
-1. **Prepare** - A merge request backporting a bug fix to the current version is prepared by
-   GitLab engineers.
-1. **Test** - The merge request executes end-to-end tests via package-and-test pipeline
-   to guarantee the bug fix meets the quality standards. If the package-and-test pipeline fails, a review from
-   a Software Engineer in Test is required.
-1. **Merge** - The merge request is merged by a GitLab maintainer in the stable branch associated
-   with the current version.
-1. **Analysis** - To determine if a patch release is required, release managers analyze the severity and number of backports waiting to be patch along other release pressures.
-1. **Tag** - Release managers tag a new patch release package for the current version.
-1. **Deploy** - The patch release package is deployed and tested to the GitLab Release instance.
-1. **Release** - Release managers publish the packages associated with the patch release.
+### Patch release information dashboard
 
-Details of the patch release lifecycle can be found on the [patch release documentation], including the
-[patch release runbook for GitLab engineers] and the [patch release runbook for release managers].
+GitLab team members can view the [internal Grafana dashboard "Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1) for the following information about the active patch release:
 
-## Security releases
+- Active patch release versions (stable version + 2 backport versions)
+- Upcoming patch release date
+- Current status of the patch release
+  - Open: Bug fixes and MRs associated with security issues labelled `security-target` are expected to be included in the next patch release.
+  - Warning: Signals that teams should get bug and security fixes ready to merge.
+  - Closed: Default branch MRs have been merged, no further bug or security fixes will be included.
 
-The [security release processes](/handbook/engineering/releases/security-releases/#security-release-process) are used to prepare and publish packages containing vulnerability fixes. For more details about the release overview and the release processes, see the [security release](/handbook/engineering/releases/security-releases/) page.
+The metrics used to display this information are updated automatically throughout the [patch release process](#patch-release-process).
 
 ## Backports overview
 
@@ -228,9 +228,9 @@ In other words:
 **The quality and stability of what is delivered by everyone defines the final MR that will be included in the monthly release.**
 
 For more detailed information:
-* Use the [internal dashboard](#monthly-release-information-dashboard) to verify the status of a merge request with respect to the monthly release.
-* See [self-managed release timelines](/handbook/engineering/releases/#self-managed-overview).
-* Refer to [status of a merge request with respect to the monthly release](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/auto-deploy.md#status-of-a-merged-mr-with-respect-to-monthly-releases) documentation.
+- Use the [internal dashboard](#monthly-release-information-dashboard) to verify the status of a merge request with respect to the monthly release.
+- See [self-managed release timelines](/handbook/engineering/releases/#self-managed-overview).
+- Refer to [status of a merge request with respect to the monthly release](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/auto-deploy.md#status-of-a-merged-mr-with-respect-to-monthly-releases) documentation.
 
 ### What's the process for a release of type X?
 
@@ -238,9 +238,8 @@ The different processes are documented here:
 
 - Self-managed releases:
   - [Monthly releases][process-monthly-release]
-  - [Critical security releases][process-security-release-critical]
-  - [Non-critical security releases][process-security-release-non-critical]
-  - [Patch releases][process-patch-release]
+  - [Planned Patch releases][process-planned-patch-release]
+  - [Unplanned critical Patch releases][process-unplanned-critical-patch-release]
 - GitLab.com releases:
   - [Auto-deploy releases][process-auto-deploy-release]
   - [Hot patch]
@@ -251,7 +250,7 @@ Any high severity issue should start with an issue labelled with the appropriate
 
 Depending on the bug details, follow one of the following processes:
 
-- For [high severity security bugs][process-security-release-critical]
+- For [high severity security bugs][process-patch-release]
 - For [high severity bugs affecting self-managed users][process-patch-release]. If the bug has been found close to the [release date](/handbook/engineering/releases/) of the month please also alert the Release Managers in [#releases].
 - For [high severity bugs affecting GitLab.com](/handbook/engineering/deployments-and-releases/deployments/#gitlabcom-pick-label)
 - For [high security bugs affecting security merge requests](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/bugs_introduced_by_security_merge_request.md)
@@ -267,50 +266,33 @@ Depending on the bug details, follow one of the following processes:
 | Maintenance Policy | [Link](https://docs.gitlab.com/ee/policy/maintenance.html) |
 | Reaching us | [How to find us](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team) |
 
-___________
+---
 
 If you need any additional help please ask the Release Managers in the [#releases] Slack channel.
 
 [#f_upcoming_release]: https://gitlab.slack.com/archives/f_upcoming_release
 [semver]: https://semver.org
-[canary]: /handbook/engineering#canary-testing
 [development month]: /handbook/engineering/workflow/#product-development-timeline
-[auto deploy transition]: https://gitlab.com/gitlab-org/release/docs/blob/21cbd409dd5f157fe252f254f3e897f01908abe2/general/deploy/auto-deploy-transition.md#transition
 [maintenance policy]: https://docs.gitlab.com/ee/policy/maintenance.html
-[gitlab-org/gitlab]: https://gitlab.com/gitlab-org/gitlab
 [release-tools]: https://gitlab.com/gitlab-org/release-tools
 [release/tasks]: https://gitlab.com/gitlab-org/release/tasks/-/issues
-[labels of importance]: #labels-of-importance
-[auto-deploy]: https://www.youtube.com/watch?v=_G-EWRpCAz4
-[severity]: /handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
 [#releases]: https://gitlab.slack.com/archives/C0XM5UU6B
-[#f_upcoming_release]: https://gitlab.slack.com/archives/C0139MAV672a
 [#development]: https://gitlab.slack.com/archives/C02PF508L
 [#backend]: https://gitlab.slack.com/archives/C8HG8D9MY
 [#frontend]: https://gitlab.slack.com/archives/C0GQHHPGW
 [process-monthly-release]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md
 [process-auto-deploy-release]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/auto-deploy.md
-[process-security-release-critical]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#critical-security-releases
-[process-security-release-non-critical]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#non-critical-security-releases
-[process-patch-release]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/patch/process.md
-[Security Release process as Developer]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md
-[Security Releases How to video]: https://www.youtube.com/watch?v=ixtUDxM3nWA
-[GitLab Security]: https://gitlab.com/gitlab-org/security/
-[security issue template]: https://gitlab.com/gitlab-org/security/gitlab/issues/new?issuable_template=Security+developer+workflow
-[security release backports]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md#backports
+[process-planned-patch-release]: /handbook/engineering/releases/patch_releases#planned-patch-release-process
+[process-unplanned-critical-patch-release]: /handbook/engineering/releases/patch_releases#unplanned-critical-patch-release-process
 [Hot patch]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/post-deployment-patches.md
 [pre.gitlab.com]: /handbook/engineering/infrastructure/environments/#pre
 [release.gitlab.net]: /handbook/engineering/infrastructure/environments/#release
-[How to fix a broken stable branch]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/how-to-fix-broken-stable-branch.md
-[post-deploy migrations]: https://docs.gitlab.com/ee/development/database/post_deployment_migrations.html
-[post-deploy migration pipeline documentation]: https://gitlab.com/gitlab-org/release/docs/-/tree/master/general/post_deploy_migration
-[internal-pilot-question]: #where-i-can-learn-more-about-the-internal-patch-release-pilot-for-gitlab-engineers
 [backporting to versions outside the maintenance policy]: https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases
-[patch release documentation]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/process.md
 [patch release runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/engineers.md
-[patch release runbook for release managers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/release_managers.md
 [patch release policy]: https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases
 [release date]: https://about.gitlab.com/releases/
 [pre environment]: https://about.gitlab.com/handbook/engineering/infrastructure/environments/#pre
 [release managers]: https://about.gitlab.com/community/release-managers/
 [Release environment]: https://about.gitlab.com/handbook/engineering/infrastructure/environments/#release
+[security runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md
+[patch release section]: /handbook/engineering/releases/patch-releases
