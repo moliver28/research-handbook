@@ -106,7 +106,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Note that at the bottom of the MR description, there is now an outline of the changes included in the MR.
 
-## Task F. Root Cause Analysis
+## Task E. Root Cause Analysis
 
 > Uh-oh! You may have noticed that our pipeline failed.
 
