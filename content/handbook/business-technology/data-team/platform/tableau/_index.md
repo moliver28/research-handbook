@@ -530,20 +530,30 @@ permission_templates:
 
 </details>
 
-<details markdown=1>
+#### Tableau Licenses
 
-<summary><b>Tableau Licenses</b></summary>
+The Data Team will regularly review users' Tableau activity to determine if users have the appropriate license type, and will potentially downgrade users whose activity suggests they would be adequately served by a lower license tier. License adjustments will be made to optimize the pool of available licenses and will be based on the the following activity guidelines:
+
+- To maintain a Creator license the team member must meet any of the following:
+  - Have published a datasource within the past 90 days
+  - Have connected to Tableau Cloud from Tableau Desktop within the past 90 days
+- To maintain an Explorer license the team member must meet any of the following:
+  - Have accessed the web authoring environment within the past 90 days
+  - Have published a workbook within the past 90 days
+- To maintain a View license the team member must meet any of the following:
+  - Have accessed a View within the past 90 days
+  - Have accessed a Datasource within the past 90 days
+
+Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](https://handbook.gitlab.com/handbook/business-technology/data-team/data-management/#tableau).
 
 **Tracking License Usage**
 
+- [Downgrade Check](https://10az.online.tableau.com/t/gitlab/views/UserDeprovisionCheck/UserDowngradeCheck)
+- [Deprovision Check](https://10az.online.tableau.com/t/gitlab/views/UserDeprovisionCheck/UserDeprovisionCheck)
 - [Assigned Licenses](https://10az.online.tableau.com/#/site/gitlab/users) (Admins only)
 - [Licenses Used](https://10az.online.tableau.com/#/site/gitlab/analysis/LoginBasedLicenseUsage)
 - [Actions by Users](https://10az.online.tableau.com/#/site/gitlab/analysis/ActionsbyAllUsers)
 - [eLearning Usage](https://dashboard.skilljar.com/analytics/) (Admins only)
-
-Unused licenses will be reclaimed by the Data Team.
-
-</details>
 
 ### Access
 
