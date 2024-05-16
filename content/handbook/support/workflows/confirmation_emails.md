@@ -116,6 +116,23 @@ This is useful to check if emails have been delivered successfully from our end,
     - If email is bouncing due to a suppression (evidenced by the message `Not delivering to previously bounced address` in the log) proceed to [Removing a Suppression in Zendesk](#manually-remove-a-suppression-in-zendesk) or [Removing a Suppression in Mailgun](#manually-remove-a-suppression-in-mailgun).
     - If email is marked as `Delivered` and the response code under `delivery-status` is `"code": 250`, this indicates that the user's mail server acknowledged the receipt, and the email delivery was successful.
 
+### How to see or resend emails in Mailgun
+
+This is to check the content of an email sent:
+
+1. Follow the steps from the section [Checking Mailgun logs](#checking-mailgun-logs) to locate an email in Mailgun - The email subject must be "Verify your identity".
+1. Access the log details by clicking on the dented wheel icon at the right end of the log entry.
+1. In the log details, go to the third tab named "quick view" to display the full email.
+![Mailgun_email_body](image-1.png)
+
+To resend an email:
+
+**Important note**: Any email resend to a **different** email address must be approved by a manager and performed after an ownership verification. *No approval or ownership verification is needed if you resend to the same email address.*
+
+1. On the dented wheel icon at the right end of the log entry, click on the "Resend message" button.
+1. From there you can enter an email address and press "Send".
+![Mailgun_resend_email](image-2.png)
+
 ### Identifying Multiple Suppressions on a Single Domain
 
 Mailgun does not allow us to check for multiple suppressions on the same domain within it's `Suppressions` section, but we can use another method to find them without asking the customer for a list of email addresses that they suspect are being suppressed. To do so:
