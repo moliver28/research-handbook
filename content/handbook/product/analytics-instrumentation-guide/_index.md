@@ -41,13 +41,9 @@ The below table explains the types of data we collect from GitLab.com and exampl
 | **[Snowplow Tracking](https://docs.snowplowanalytics.com/docs/collecting-data/collecting-from-own-applications/)** <br> <br>  - [Snowplow JS Tracker](https://docs.snowplowanalytics.com/docs/collecting-data/collecting-from-own-applications/javascript-trackers/): client side (FE) events  <br> -[Snowplow Ruby Tracker](https://docs.snowplowanalytics.com/docs/collecting-data/collecting-from-own-applications/ruby-tracker/): server-side (BE) events <br> - Schema of events [here](https://gitlab.com/gitlab-org/iglu/)| Event Based Data   | Examples:  <br>- Collects an event on Git pushes <br> - Collects an event on a button click - Collects an event on a successful Pipeline  <br>- Collects an a request to a Rails controller  |                                                                                    Event based or grouped by an attribute (e.g. session) |
 | **[Service Ping](https://docs.gitlab.com/ee/development/service_ping/)** <br> <br> - PostgreSQL database <br> - Redis in-memory data store <br> - System Logs |                                                                Transactional data | Examples: <br> - Total issues created <br> - Instance settings such as the instance's Git version <br> - Integration settings such as an [external storage provider](https://docs.gitlab.com/ee/administration/static_objects_external_storage.html) | Count based on either total time or given timeframe  |
 
-
-
-
 ### Data used as identifiers
 
 In order to create the SaaS usage journeys documented below, we collect various identifiers in our data collection catalog. Where the identifier can be used to personally identify a user by someone without permissions to view that information, we will [pseudonymize](https://www.ucl.ac.uk/data-protection/guidance-staff-students-and-researchers/practical-data-protection-guidance-notices/anonymisation-and#Pseudonymisation) the data via [hashing at the collection layer](https://gitlab.com/groups/gitlab-org/-/epics/6309#hashing-on-the-collector-layer). You can find the collected identifieres in our [Metrics Dictionary](https://metrics.gitlab.com/identifiers).
-
 
 ### Example User Journey
 
@@ -73,7 +69,6 @@ The Metrics Dictionary was [introduced](https://gitlab.com/gitlab-org/gitlab/-/i
 
 ![Metrics Dictionary Features](metric_dictionary_handbook.png)
 
-
 1. **Filter data**. In the search bar, enter a value you want to filter the results set by.
 1. **Customize viewable columns**. Select the options button to expand the "table fields" control. From here, you can select the columns you want to display in your view. Note, this doesn't not filter data by the selection, this only displays or not displays the data regardless of the values.
 1. **Sisense query for GitLab.com**. Copy this query for use in Sisense. A common use case for this feature is to identify if data is available for SaaS Service Ping. Watch [this quick video](https://www.youtube.com/watch?v=n4o65ivta48) to learn more.
@@ -82,7 +77,6 @@ The Metrics Dictionary was [introduced](https://gitlab.com/gitlab-org/gitlab/-/i
 1. **Metric Version**. Starting with miletone 13.9, we've begun to attribute the version associated with the metric. Unfortunately we couldn't populate the historical values for existing metrics so all prior metrics are labeled as `<13.9`.
 1. **Metric Product Section/Stage/Group**. You can display and/or filter by Section, Stage and Group as needed.
 1. **Service Usage Data Category**. View and/or filter by [Service Usage Data](/handbook/legal/privacy/customer-product-usage-information/) category (Optional, Operational, Subscription).
-
 
 ## Instrumenting Metrics and Events
 
@@ -96,8 +90,7 @@ Get started with our **[Quick Start Instrumentation Guide](/handbook/product/ana
 |2. Collection framework | There are two main tools that we use for tracking users data: [Service Ping](https://docs.gitlab.com/ee/development/service_ping/) and [Snowplow](https://docs.gitlab.com/ee/development/snowplow/index.html).|We strongly recommend using Service Ping for xMAU as your metrics will be available on both SaaS and self-managed.|
 |3. Instrumentation | Work with your engineering team to instrument tracking for your xMAU.  <br><br>- Utilize our [Quick start instrumentation guide](/handbook/product/analytics-instrumentation-guide/getting-started/) to find the documentation needed for the instrumentation process. |Additional reference:<br><br> - [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/)<br> - [Snowplow Guide](https://docs.gitlab.com/ee/development/snowplow/index.html) |
 |4. Data Availability | Plan instrumentation with sufficient lead time for data availability.   <br><br> 1. Merge your metrics into the next self-managed release as early as possible since users will have to upgrade their instance version to start reporting your instrumented metrics. <br><br> 2. Wait for your metrics to be released onto production GitLab.com. These releases currently happen on a daily basis.<br><br> 3. Service Pings are generated on GitLab.com on a weekly basis. An issue is created each milestone associated with [this epic](https://gitlab.com/groups/gitlab-org/-/epics/6000), to track the weekly SaaS Service Ping generation. You can find successful payloads and failures in these issues. Verify your new metrics are present in the GitLab.com Service Ping payload.<br><br> 4. Wait for the Versions database to be imported into the data warehouse.<br><br> 5. Check the dbt model [version_usage_data_unpacked](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.version_usage_data_unpacked#columns) to ensure the database column for your metric is present.<br><br> 6. Check [Sisense](http://app.periscopedata.com/app/gitlab/) to ensure data is available in the data warehouse.<br>|Timeline <br><br> 1. [Self-managed releases](/upcoming-releases/) happen [every month](/handbook/engineering/releases/) month (+30 days) <br><br> 2. Wait at least a week for customers to upgrade to the new release and for a Service Ping to be generated (+7 days)<br><br> 3. Service Pings are collected in the Versions application. The Versions application's database is automatically imported into the Snowflake Data Warehouse every day (+1 day).<br><br> 4. In total, plan for up to 38 day cycle times. Cycle times are slow with monthly releases and weekly pings, so, implement your metrics early.|
-|5. Dashboard|Create a Sisense dashboard.  Instructions for creating dashboards are [here](/handbook/business-technology/data-team/programs/data-for-product-managers/#how-to-consume-data-at-gitlab).|
-
+|5. Dashboard|Create a Sisense dashboard.  Instructions for creating dashboards are [here](/handbook/business-technology/data-team/programs/data-for-product-managers/#how-to-consume-data-at-gitlab).| |
 
 #### Deduplication of Aggregated Metrics
 
