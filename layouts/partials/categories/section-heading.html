@@ -4,6 +4,7 @@
 {{- $backendManager := slice }}
 {{- $beTeam := slice }}
 {{- $feTeam := slice }}
+{{- $fsTeam := slice }}
 {{- $frontendManager := slice }}
 {{- $fullstackManager := slice }}
 {{- $pmTeam := slice }}
@@ -228,6 +229,9 @@
 {{- with $section_data.fe_team_tag }}
 {{- $feTeam = append $feTeam ($team_data.Get . | default slice) }}
 {{- end }}
+{{- with $section_data.fs_team_tag }}
+{{- $fsTeam = append $fsTeam ($team_data.Get . | default slice) }}
+{{- end }}
 {{- with $section_data.support_team_tag }}
 {{- $supportTeam = append $supportTeam ($team_data.Get . | default slice) }}
 {{- end }}
@@ -335,6 +339,12 @@
 {{- with $feTeam }}
 <tr>
     <th>Frontend Engineering</th>
+    <td>{{- range . -}}{{ partial "member/with-team-link" . -}}&nbsp;{{- end -}}</td>
+</tr>
+{{- end }}
+{{- with $fsTeam }}
+<tr>
+    <th>FS Engineering</th>
     <td>{{- range . -}}{{ partial "member/with-team-link" . -}}&nbsp;{{- end -}}</td>
 </tr>
 {{- end }}
