@@ -31,7 +31,7 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
 1. From your **My Test Group** training subgroup, navigate to the GitLab Duo Principles Project
 
-    > This project has been pre-populated with a `go.mod` file that will be used in upcoming labs. It also contains and `examples` folder that holds additional examples and activities per lab. 
+    > This project has been pre-populated with a `go.mod` file that will be used in upcoming labs. It also contains an `examples` folder that holds additional examples and activities per lab. 
 
 1. From your project, click the **GitLab Duo Chat** button in the top right corner.
 

@@ -65,7 +65,7 @@ You have now created a simple hello world program in Go! In the next section, yo
 
 1. Enter any commit message, then select `Commit to 'main'`
 
-1. If your receive a prompt stating `You are committing your changes to the default branch`, select `Continue`.
+1. If you receive a prompt stating `You are committing your changes to the default branch`, select `Continue`.
 
 1. Select `Go to Project` to return to your GitLab repository.
 

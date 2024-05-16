@@ -74,11 +74,9 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 ## Task B. Resolve the Vulnerability
 
-1. Navigate to the security vulnerability from, the previous task.
+1. Navigate to the security vulnerability from the previous task.
 
-1. At the top of the vulnerability. select **Resolve with AI**.
-
-1. Doing this will generate an MR that contains a fix for the vulnerability.
+1. At the top of the vulnerability, select **Resolve with AI**. Doing this will generate an MR that contains a fix for the vulnerability.
 
 1. Select **Changes** on the MR and review the vulnerability fix.
 

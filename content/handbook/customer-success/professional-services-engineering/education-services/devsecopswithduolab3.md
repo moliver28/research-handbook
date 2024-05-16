@@ -112,7 +112,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Select **Generate root cause analysis**.
 
-1. This will generate a explanation on why the job failed an example fix. It will say something along the lines of a missing module. Try to implement the suggested fix in your `.gitlab-ci.yml` file by adding an additional `go` command in the `build app` job.
+1. This will generate an explanation on why the job failed an example fix. It will say something along the lines of a missing module. Try to implement the suggested fix in your `.gitlab-ci.yml` file by adding an additional `go` command in the `build app` job.
 
 1. Return to your merge request.
 
