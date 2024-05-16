@@ -142,26 +142,26 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Add the `go test` command to run the tests. Your `.gitlab-ci.yml` file will look like the following:
 
-    ```yml
-    stages:
+```yml
+stages:
     - build
     - test
 
-    default:
+default:
     image: golang:latest
 
-    build app:
+build app:
     stage: build
     script: 
         - go get github.com/common-nighthawk/go-figure
         - go run main.go
 
-    test:
+test:
     stage: test
     script:
         - go get github.com/common-nighthawk/go-figure
         - go test ./...
-    ```
+```
 
     You should now have a pipeline that passed the tests. If a job failed, feel free to use Root Cause Analysis to troubleshoot any errors.
 
