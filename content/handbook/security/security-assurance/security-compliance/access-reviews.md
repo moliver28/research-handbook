@@ -24,9 +24,9 @@ Security Compliance performs Access Reviews for in-scope systems based on a subs
 
 1. Criticality: Mission Critical, Business Critical
 
-* See the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for a current listing of all GitLab Systems and Vendors and their associated critical system tier.
+- See the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for a current listing of all GitLab Systems and Vendors and their associated critical system tier.
 
-2. Orgin: External certification impact, Internally developed systems, Sub-processors, Integrated systems, Red Vendors
+1. Orgin: External certification impact, Internally developed systems, Sub-processors, Integrated systems, Red Vendors
 
 ### Out-of-scope Systems
 
