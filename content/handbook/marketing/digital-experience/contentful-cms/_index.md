@@ -110,6 +110,18 @@ We have various levels of access in Contentful. Most new members that are invite
 - *Creator*: can create and edit all content in a space (aside from `Confidential` content), but cannot publish it.
 - *Publisher*: can create, edit, publish, archive and delete all content in a space (aside from `Confidential` content). This person should be able to administer their own team.
 
+### The `Review: DEx` tag and permissions
+
+Content that requires Digital Experience review prior to publishing is tagged with the `Review: DEx` tag. This has been configured in Contentful such that only users with a role of `CMS Administrator` in the about.gitlab.com space will be able to publish this content. Users with `Publisher` access and below will not be able to publish this content.
+
+_Note: If a user is a `CMS Administrator` in the space, but they are also on a team that only has `Publisher` access to that space, Contentful will default to the lowest level of access (`Publisher`). Be sure to check if a user is on a team if they are having trouble accessing content._
+
+The `Review: DEx` tag has been added to content on the Pricing page and the Homepage. Any other pages that share an entry with the pricing page or homepage will also be affected by the tag permissions. I.e. if the FAQ section on the pricing page is used on another page, it will only be publishable by `CMS Administrators` regardless of which page a user is accessing it from.
+
+Going forward, if any new entry is added to the pricing page or the homepage, content creators should add the `Review: DEx` tag to that entry. Please note that **the tag does not automatically propagate down to the children of an entry**, so the tag will need to be manually added to each child of an entry. For example, if you add a card that has a button as a child, both the card and the button will need to be tagged manually. 
+
+To add the `Review: DEx` tag to an entry in Contentful, go to the Tags tab of that entry, and use the dropdown to select the `Review: DEx` tag and hit Enter, and publish the change.
+
 ## Resources for learning
 
 1. [Editing Content](/handbook/marketing/digital-experience/contentful-cms/editing-content)
