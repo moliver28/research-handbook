@@ -182,13 +182,12 @@ Requirements for the Principal Analytics Engineer extend the Staff Analytics Eng
 
 ## Performance Indicators
 
-- Dimensional Model MRs Per Milestone
-- Handbook Update Frequency
-- % of Data Warehouse queries supported by Enterprise Dimensional Model >= 75%
+Analytics Engineers are evaluated on their contributions to the four [Data Team Impact Dimensions](/handbook/business-technology/data-team/#how-we-measure-impact):
 
-## Career Ladder
-
-We are evaluating the addition of levels beyond the Senior level. Currently, beyond the Senior Analytics Engineer level the next step is to move to the Manager, Data job family.
+- Data Platform Stability
+- Data Quality & Governance
+- Data Adoption
+- Revenue/Efficiency Impact
 
 ## Hiring Process
 
