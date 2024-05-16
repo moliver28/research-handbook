@@ -366,7 +366,7 @@ All Cells 1.0 work is tracked under the [Cells 1.0 Epic](https://gitlab.com/grou
 1. First Production Cell - Experimental
    - label: [cells-1.0-milestone::Experiment](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=cells-1.0-milestone%3A%3Aexperiment&first_page_size=20)
    - Production system with no production customer data. We have an environment that covers testing needs of Test Platform and Development teams.
-   - Entering criteria: A cell is brought up so that development teams and Infra teams have an environment to test their changes, Test platform team has a place to run different kind of tests, including E2E, automation test and etc.
+   - Entering criteria: A Cell is brought up so that development teams and infrastructure teams have an environment to test their changes, and the Test Platform team has a place to run different kind of tests, including E2E, automation tests, etc.
    - Exit criteria: All the [planned Cells 1.0 application features](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-1.0.html#features-on-gitlabcom-that-are-not-supported-on-cells) are supported, a Cell is provisioned using the cells lifecycle automation tools, and we run our existing E2E tests on Cells as part of our deployment pipeline
 1. First Production Cell - Production Ready
    - label: [cells-1.0-milestone::GA](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=cells-1.0-milestone%3A%3Aga&first_page_size=20)
