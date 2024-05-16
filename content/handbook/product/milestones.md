@@ -9,7 +9,7 @@ When planning, Product Managers plan to GitLab milestones. Here is the process f
 
 **One quarter ahead**, the Engineering team, in partnership with the Product team, will create all of the necessary milestones for the next quarter. Our standard practice is to have the Major [release](https://about.gitlab.com/releases/) every May, resulting in:
 
-```
+```text
 XX.0 - May
 XX.1 - June
 XX.2 - July

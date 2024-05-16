@@ -92,7 +92,7 @@ In addition to the weekly Growth meeting, Growth team members participate in the
     1. Attendees: Product, Legal, Compliance, Data, and Privacy
     1. Goals: Answer any legal, compliance, and privacy concerns
     1. Agenda: [link](https://drive.google.com/drive/u/0/search?q=type:document%20title:%20%22Data%20Governance%20Monthly%20Sync%22)
-10. Monthly sync with Growth section and Application Security
+1. Monthly sync with Growth section and Application Security
     1. Attendees: Product, Engineering, Application security
     1. Goals: Growth / Application Security stable counterparts monthly discussion
     1. Agenda: [link](https://drive.google.com/drive/search?q=type:document%20title:%22Growth%20section%20and%20appsec%22)

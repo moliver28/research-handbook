@@ -120,7 +120,7 @@ Table with examples:
 |   Pipelines are too complex and confusing     |   Pipelines confusing     | Pipelines confusing |
 |   My experience is that is really overly complex for my  use case. I came over from bitbucket and this seems to just have way too much going on, when I just want to simply have a private repo that me and my small team work on.     |   Lots going on, wants simplicity     | wants simplicity - private repo for team |
 |   I find the way different pipelines are presented to be confusing and it's hard to know which are running     |    Pipeline presentation confusing    | Pipelines confusing |
-|    Any simplification wherever possible is welcome    |   wants simplicity     | wants simplicity
+|    Any simplification wherever possible is welcome    |   wants simplicity     | wants simplicity |
 
 ### 6. **Determine final themes.**
 

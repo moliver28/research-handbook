@@ -141,7 +141,7 @@ Every quarter, an issue will be created (see [issue template](https://gitlab.com
 
 Use the following sample messaging text when sharing out the stage-specific insights:
 
-```
+```markdown
 Hello :wave: - We just completed analyzing the `Q# FY##` System Usability Scale (SUS) data! I wanted to share the verbatim that's relevant to us in the `fill in stage name here` stage. Here's a sampling:
 
 * `Stage UXR to paste example in italics`

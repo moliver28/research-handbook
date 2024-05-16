@@ -47,33 +47,39 @@ description: >-
 
 #### Slack Message: Board Prep Intro
 
-    I’ve started this channel so we have a place to discuss updates to the Qx-FYxx board deck [link]. 
+```markdown
+I’ve started this channel so we have a place to discuss updates to the Qx-FYxx board deck [link].
 
-    Our goal is to have the deck updated by xx-xx so David can review and provide feedback before the company-wide deadline of xx-xx. 
+Our goal is to have the deck updated by xx-xx so David can review and provide feedback before the company-wide deadline of xx-xx.
 
-    I've tagged each of you for updates in the comments of the relevant slide. A couple notes:
+I've tagged each of you for updates in the comments of the relevant slide. A couple notes:
 
-    - Don't worry too much about formatting. I'll tidy everything up as needed.
-    - Reminder that the audience for this deck is Director+.
+- Don't worry too much about formatting. I'll tidy everything up as needed.
+- Reminder that the audience for this deck is Director+.
+```
 
 #### Slack Message: Status Update
 
-    Hey all, here’s the latest status for the board deck. Reminder that we're trying to have this complete by the end of the day on xx-xx (pacific time). 
+```markdown
+Hey all, here’s the latest status for the board deck. Reminder that we're trying to have this complete by the end of the day on xx-xx (pacific time).
 
-    Incomplete slides
-    1. Slide 1: xyz
-    2. Slide 3: xyz
-    3. …
+Incomplete slides
+1. Slide 1: xyz
+2. Slide 3: xyz
+3. …
 
-    Next steps
-    …
+Next steps
+…
 
-    Material changes to be aware of
-    …
+Material changes to be aware of
+…
+```
 
 #### Slack Message: Feedback Request
 
-    The board content is all wrapped up for Qx! Thank you all for your work in putting these materials together. I’m going to close this slack channel since it’s no longer needed. Feedback is always welcome - please let me know if you have any thoughts (positive or negative) about the board prep process. 
+```text
+The board content is all wrapped up for Qx! Thank you all for your work in putting these materials together. I’m going to close this slack channel since it’s no longer needed. Feedback is always welcome - please let me know if you have any thoughts (positive or negative) about the board prep process.
+```
 
 </details>
 </p>

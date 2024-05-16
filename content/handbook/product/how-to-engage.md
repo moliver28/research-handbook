@@ -24,7 +24,7 @@ In general terms, if you require something to happen with the product or if you 
 
 In the same vein, PMs are required to ask for feedback from the stakeholder on particular changes. If a change will affect GitLab.com and its maintenance, a PM should proactively reach out to infrastructure engineers to help with the scope, design, and decisions regarding this change.
 
-It is then up to the PM to weigh all these inputs and decide on a [prioritization](#prioritization). It is to be expected that they are the best equipped to make this prioritization, while also keeping in mind all goals of GitLab.
+It is then up to the PM to weigh all these inputs and decide on a prioritization. It is to be expected that they are the best equipped to make this prioritization, while also keeping in mind all goals of GitLab.
 
 ## How do I share feedback?
 
@@ -66,7 +66,7 @@ It is highly recommended to use the feedback template below to make this easier.
 
 You can copy/paste this to make sure you don't miss anything or [create a comment template](https://docs.gitlab.com/ee/user/profile/comment_templates.html#create-comment-templates) for reusability:
 
-```
+```markdown
 <!-- Select the appropriate subscription and product text below and remove the others (note: do not add them as labels)>
 <!-- Click on ~customer priority:: below to select an appropriate label 1 through 10 with 10 being the highest>
 

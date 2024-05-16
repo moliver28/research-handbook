@@ -43,7 +43,7 @@ Other Design Pod members will consist of Product Designers or Product Managers f
 Apply ~UX, the primary DRI’s ~group::<name here>, and ~DesignPod labels
 It should be public unless there is a specific reason to keep it private.
 The DRI is responsible for creating a Slack channel (with #dpod_ prefix) that is public to the company.
-   - Assemble the pod team and share the formation of the pod in any appropriate Slack channel(s) to encourage participation.
+  - Assemble the pod team and share the formation of the pod in any appropriate Slack channel(s) to encourage participation.
   - All members together determine how the pod will work collaboratively, whether through consistent synchronous calls or asynchronous periodic check-ins. And add it to the Issue/Epic description.
   - If synchronous calls were determined to be the way, schedule the call and invite all pod members. Set any consulted or informed members to be optional participants, and be sure to share the meeting video with everyone through your Slack channel and any other relevant channel (e.g. #ux, #product).
 - Define the addressed problem (both user problems, product, and engineering challenges)

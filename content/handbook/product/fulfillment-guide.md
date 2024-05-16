@@ -321,7 +321,7 @@ This functionality lives in Customers Portal and runs daily at midnight UTC. Ple
    1. For SaaS customers, provision additional seats immediately.
    2. For Self-managed customers, provision additional seats in the next instance sync (24 hrs), or customer can trigger the update from within their instance.
 10. Update SFDC Opportunity to Closed Won, and created related SFDC Quote and Quote objects.
-1. If reconciliation fails for any reason, SFDC Opportunity remains open.
+11. If reconciliation fails for any reason, SFDC Opportunity remains open.
 
 ##### QSR and SFDC Opportunities
 
@@ -891,9 +891,9 @@ This section outlines top provisioning bugs and when they were resolved or are e
 
 | SM or GitLab.com? |  Category    | Description of Bug         | Related Issue Link(s) |  Version Resolved |
 |---------|--------------|----------|--------------------------------|--------------------|
-| GitLab.com | Add-on Provisioning | Sales assisted Compute Minute purchases not being provisioned. | [7737](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7737) | `severity::4` | 16.8 |
-| GitLab.com | Deprovisioning | Paid features are not deprovisioned upon transfer to subgroup. | [351780](https://gitlab.com/gitlab-org/gitlab/-/issues/351780) | `severity::4` | 16.7 |
-| GitLab.com | Add-on Provisioning | Purchased CI Minutes are not synced to instance. | [6340](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6340) | `severity::2` | 16.5 |
+| GitLab.com | Add-on Provisioning | Sales assisted Compute Minute purchases not being provisioned. | [7737](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7737) `severity::4` | 16.8 |
+| GitLab.com | Deprovisioning | Paid features are not deprovisioned upon transfer to subgroup. | [351780](https://gitlab.com/gitlab-org/gitlab/-/issues/351780) `severity::4` | 16.7 |
+| GitLab.com | Add-on Provisioning | Purchased CI Minutes are not synced to instance. | [6340](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6340) `severity::2` | 16.5 |
 | GitLab.com | Subscription Cancellations | Scheduled subscription cancellation downgrades namespace directly. | [6153](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/6153) | 16.2 |
 | GitLab.com | Deprovisioning | SaaS subscriptions can be deprovisioned if within grace period with add-on refunded. | [4777](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/4777) | 16.0 |
 | Self Managed | Cloud Licensing | Multi year cloud license was generated with conflicting trueup_from/to and previous_user_count values. | [5520](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/5520) |  16.0 |
@@ -921,4 +921,4 @@ This section outlines top provisioning bugs and when they were resolved or are e
 
 | SM or GitLab.com? | Category    | Description of Bug         | Related Issue Link(s) |  Priority | Expected Release |
 |---------------|------------|--------------------------------|--------------------|--------------|-------------|
-| GitLab.com | Compute minutes not provisioned when effective date is before created date. | [7565](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7565) | `severity::3` | 17.0 |
+| GitLab.com | Compute minutes not provisioned when effective date is before created date. | [7565](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues/7565) | `severity::3` | 17.0 | |

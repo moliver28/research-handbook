@@ -90,13 +90,13 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
   - The right tools (usually Tableau online is sufficient)
   - The data (do you need SAFE access)
 
-2. **Determine the set of questions you’re trying to answer, including:**
+1. **Determine the set of questions you’re trying to answer, including:**
 
   - Which user criteria / segment?
   - Which metrics?
   - Which components or features (if applicable)?
 
-3. **Check with your PM (and/or your PDI counterpart) to determine:**
+1. **Check with your PM (and/or your PDI counterpart) to determine:**
 
   - Is this tracked today?
     - This can be difficult to determine, try asking in #data or by working with your PM and PDI counterpart.

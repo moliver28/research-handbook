@@ -10,13 +10,13 @@ title: Product Manager SAFE Guidance
 
 ## Overview
 
-This guide for GitLab Product Managers clarifies and expands on the [Regulation FD Training](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/recertify-gitlab-regulation-fd-training).  
+This guide for GitLab Product Managers clarifies and expands on the [Regulation FD Training](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/recertify-gitlab-regulation-fd-training).
 
 ### Making changes to this page
 
 To make any edits to this page, please create a merge request and add a  description of what you want to change and why. Add labels `product operations` `prodops:release` and `product handbook`. Add Product Operations DRI/Maintainer `@fseifoddini` as Reviewer for collaboration and approval. If Product Operations is unavailable and the topic is time-sensitive, please add Maintainer `@gweaver` for collaboration and approval.
 
-Please note the content of this page needs to remain aligned with Legal team guidance so any changes must be approved by one of the Maintainers.  
+Please note the content of this page needs to remain aligned with Legal team guidance so any changes must be approved by one of the Maintainers.
 
 ## General Guidelines
 
@@ -32,7 +32,7 @@ The following applies to GitLab artifacts that have product and specific feature
 
 | Topic | Disclaimer | Legal Review Required (Y/N) | Other Considerations |
 | ----- | ----------- | --- | --- |
-| [3 year direction videos](https://www.youtube.com/watch?v=2By7ipuQk1o) | Y | Y |  
+| [3 year direction videos](https://www.youtube.com/watch?v=2By7ipuQk1o) | Y | Y |  |
 |[Company wide kickoff video](/handbook/product/product-processes/#kickoff-meetings) | Y | N | |
 |[Group Kickoff videos](/handbook/product/product-processes/#kickoff-meetings) | N | N | |
 | [Product demos, walk-through videos](/handbook/product/product-processes/#recording-videos-to-showcase-features) | N | N | |
@@ -40,9 +40,9 @@ The following applies to GitLab artifacts that have product and specific feature
 |[Direction pages](/handbook/product/product-processes/#managing-your-product-direction) | Y | N | |
 |General product handbook pages | N | N | |
 |Epics (non-direction) | N | N | |
-|Issues (non-direction) | N | N |
+|Issues (non-direction) | N | N | |
 |Epics `~direction` | Y | N | |
-|Issues `~direction` | Y | N |
+|Issues `~direction` | Y | N | |
 |Merge Requests | N | N | |
 
 ### General guidance on topics/actions

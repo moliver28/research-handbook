@@ -59,7 +59,7 @@ We describe the following personas in terms of the jobs they do, their motivatio
   1. [Presley, Product Designer](/handbook/product/personas/#presley-product-designer)
   1. [Sasha, Software Developer](/handbook/product/personas/#sasha-software-developer)
   1. [Priyanka, Platform Engineer](/handbook/product/personas/#priyanka-platform-engineer)
-  2. [Janell, Enablement Advocate](/handbook/product/personas/#janell-enablement-advocate)
+  1. [Janell, Enablement Advocate](/handbook/product/personas/#janell-enablement-advocate)
   1. [Sidney, Systems Administrator](/handbook/product/personas/#sidney-systems-administrator)
   1. [Rachel, Release Manager](/handbook/product/personas/#rachel-release-manager)
   1. [Simone, Software Engineer in Test](/handbook/product/personas/#simone-software-engineer-in-test)

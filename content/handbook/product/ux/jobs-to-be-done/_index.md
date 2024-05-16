@@ -16,7 +16,7 @@ Note: the previous single source of truth for all the JTBD at GitLab ([a yml fil
 
 ## Anatomy of a JTBD Canvas
 
-A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) [Main Job](#main-job-where-do-you-want-to-innovate) in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
+A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) [Main Job](#main-jobs) in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
 Each canvas has a number of different sections which combine to provide a **holistic picture of a Job Performer's Main Job**. It can be a bit daunting, so here’s an explanation of each section:
 
 ![JTBD canvas](JTBD_Canvas.png)
@@ -322,7 +322,7 @@ Job stories offer a higher-level view of the main objective. However, when writt
 
 If you want a detailed breakdown of each segment of the JTBD, learn more about the [structure of a JTBD](/handbook/product/ux/jobs-to-be-done/deep-dive/#how-do-i-structure-a-jtbd). -->
 
-<!-- 
+<!--
 ---
 title: "Mapping Jobs to be Done (JTBD)"
 description: "How do I create a job map? How do I validate a JTBD?"
@@ -514,5 +514,5 @@ Final version: When a code change is made, I want to know if the change introduc
 - [x] Describe specific circumstances that the Job Performer is in when they need to get the job done.
 - [x] Focus on one specific goal or aspect that the Job Performer needs to complete when writing out the job statement so that it makes it easier to validate in the future.
 - [x] Focus the outcome of the job statement around the desired end state or feeling for the Job Performer as well as the reason why completing the job is so important. Ensure the outcome is something that is measurable and can be used to validate the job statement.
- 
+
   -->

@@ -18,7 +18,7 @@ This document will serve as a helpful guide for navigating a team through the UX
 
 Below is a template comment you can use for the meeting invite.
 
-```
+```text
 Hello! You are invited to participate in creating a UX Theme workshop for <Stage:group> 🎉!
 
 **Session info**
@@ -76,7 +76,7 @@ Move on to Category Goals:
 Follow the links provided by the PM for the relevant feature issues. **Only** copy issues with the UX label applied.
 
 > 💡 Tip: Keep the sticky notes in their respective color grouping unordered. Do not arrange them by any pre-existing method (existing epic, product roadmap, group: category,  etc.) The goal is to break down our existing organizational method used in GitLab for this exercise.
-
+>
 > 💡 Tip: Ensure participants have enough space below the sticky notes to create theme bundles. At least ½ of the horizontal area should be blank.
 
 1. Copy and paste each issue title into a sticky note on the FigJam board at the top of Section 2.
@@ -131,7 +131,7 @@ Share your screen and walk through the itinerary in the workshop issue. When com
 Ask everyone to open the FigJam file (share the link over the Zoom chat), and introduce the first exercise.
 
 >💡 This exercise is part warm-up, to get everyone talking and part exercise preparing everyone for UX Theme creation.
-
+>
 >💡 Teams may struggle with this, but it is okay. All that is required is statements on sticky notes so they can complete the goal/vision statements after the workshop.
 
 #### 1. Set the scene for the activity

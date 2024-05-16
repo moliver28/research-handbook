@@ -47,10 +47,10 @@ At the beginning of each quarter, the UX Research DRI will generate a list of el
 2. To calculate your current sample plan proportions, download your survey results from Qualtrics. Calculate the percentage breakdown of plans so far. Then subtract that number from the population percentage and add the result to the population percentage.
 An example with fake numbers:
 
-* Population percentage for Ultimate = 73%
-* Percentage of Ultimate plan types after sending wave 1 = 65%
-* Wave 2 percentage for Ultimate: (73% - 65%) + 73% = 81%
-In this example, the sample is under the population, hence the next wave percentage is higher than the population to try to get within 3% of the population percentage for Ultimate.
+    * Population percentage for Ultimate = 73%
+    * Percentage of Ultimate plan types after sending wave 1 = 65%
+    * Wave 2 percentage for Ultimate: (73% - 65%) + 73% = 81%
+    In this example, the sample is under the population, hence the next wave percentage is higher than the population to try to get within 3% of the population percentage for Ultimate.
 
 3. Waves should be ~2,000 users. Mark the desired number of users out of that 2,000 that fit your percentages for each plan type with the name of the wave you are sending.
 4. Paste all the emails for that wave into a new sheet and upload them into the participant list for your CSAT project in Rally.

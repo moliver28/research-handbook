@@ -30,7 +30,6 @@
     "ul-indent": false
   },
   "ignores": [
-    "layouts/**",
     "content/handbook/customer-success/**/*.md",
     "content/handbook/engineering/**/*.md",
     "content/handbook/marketing/**/*.md",

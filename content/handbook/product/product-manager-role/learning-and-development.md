@@ -6,8 +6,6 @@ canonical_path: "/handbook/product/product-manager-role/learning-and-development
 
 ---
 
-# On this page
-
 {{% include "includes/product-handbook-links.md" %}}
 
 Welcome to Learning and Development for Product Management at GitLab! This page serves as the content library that feeds [the Product Management Learning Hub in Level Up](https://levelup.gitlab.com/pages/product-management-hub). You are welcome to explore content here but if you prefer a more modular, personalizable, and trackable portal, please visit Level Up.
@@ -701,7 +699,7 @@ One of the best ways to stay in the know is to follow people! There are a lot of
 - [Jeff Patton](https://twitter.com/jeffpatton)
 - [Roman Pichler](https://twitter.com/johncutlefish)
 
-# How to contribute to the Product L & D Hub
+## How to contribute to the Product L & D Hub
 
 Keeping our Product L & D Hub robust and relevant is a team effort. We encourage to you to contribute as you come across resources that are helpful to you. And if there are resources in the Product L & D Hub that are outdated or you disagree with, we encourage you to bring it to our attention as well.
 

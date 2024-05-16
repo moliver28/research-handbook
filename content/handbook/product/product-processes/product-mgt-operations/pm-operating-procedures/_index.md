@@ -110,7 +110,7 @@ the product is developed with [directly responsible individuals](/handbook/peopl
 
 | Product Managers | Engineering Managers | UXers | SETs |
 | :--------------: | :------------------: | :---: | :---: |
-| Set [milestone priorities](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. [Prioritizes maintenance work](#prioritization-for-feature-maintenance-and-bugs) | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
+| Set [milestone priorities](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. Prioritizes maintenance work | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
 
 At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
 

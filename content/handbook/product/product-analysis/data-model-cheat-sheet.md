@@ -307,6 +307,6 @@ Models used to report on trials, subscriptions and charges.
 
 - When a subscription is updated (example: seat addtions or changes to subscription settings) a new subscription version number is created per term which is reflected in `dim_subscription_id` in [dim_subscription](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription). To understand each unique subscription version per term, the grain of [dim_subscription](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription) is `dim_subscription_id`,`subscription_name`, `term_start_date`, `term_end_date`
 
- - [dim_subscription](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription) reflects the latest greatest settings (example Cloud Licensing status) per subscription per term. To understand historical settings of subscriptions please refer to [dim_subscription_snapshot_model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_model)
+- [dim_subscription](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription) reflects the latest greatest settings (example Cloud Licensing status) per subscription per term. To understand historical settings of subscriptions please refer to [dim_subscription_snapshot_model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_model)
 
 </details>
