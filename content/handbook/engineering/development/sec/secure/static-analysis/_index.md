@@ -93,7 +93,7 @@ Work in a calendar month is mixed between the **Current milestone** (which will 
 
 #### Week 4
 
-- **Current milestone:** Retrospective conversation held on the just-completed milestone.
+- **Current milestone:** [Retrospective conversation](/handbook/engineering/sec/secure/static-analysis/retrospectives_summary) held on the just-completed milestone.
 - MoSCoW session held to review oldest issues still open.
   - Are the opportunities they describe still relevant?
 
