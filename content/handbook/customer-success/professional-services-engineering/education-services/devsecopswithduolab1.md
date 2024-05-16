@@ -39,9 +39,9 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
 Here are a few demo questions you can ask Duo:
 
-- `How do I move an issue from one project to another?`
+- `How do I move an Issue from one project to another?`
 - `What is a merged results pipeline?`
-- `What is an example of a simple python function?`
+- `What is an example of a simple Python function?`
 
 ## Lab Guide Complete
 

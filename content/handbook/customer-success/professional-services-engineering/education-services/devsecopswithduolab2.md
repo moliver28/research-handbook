@@ -13,9 +13,9 @@ To get started with GitLab Duo, we will test out some of the basic code generati
 
 > In this task, we are going to generate a basic hello world program in Go using GitLab Duo. This task will help you get familiar with the process of creating code in a project with GitLab Duo.
 
-1. Navigate to your GitLab Duo Principles project
+1. Navigate to your GitLab Duo Principles project.
 
-1. Select **Edit > Web IDE**
+1. Select **Edit > Web IDE**.
 
 1. In the Web IDE, locate the GitLab Duo Chat icon. This icon will be the last item in the left side bar, showing the GitLab icon.
 
@@ -77,7 +77,7 @@ You have now created a simple hello world program in Go! In the next section, yo
 
 1. In the **Filename** field, type `.gitlab-ci.yml`.
 
-1. Copy the yaml below into the file.
+1. Copy the YAML below into the file.
 
     ```yml
     stages:
@@ -95,13 +95,13 @@ You have now created a simple hello world program in Go! In the next section, yo
 
     > This `.gitlab-ci.yml` file has one stage `build` with a job `build app` that runs as part of the stage. This job runs our main.go app. You can view the output of the job to view the executed code.
 
-    > Again, feel free to highlight the yaml and use `/explain` in GitLab Duo chat to explain the CI pipeline!
+    > Again, feel free to highlight the YAML and use `/explain` in GitLab Duo chat to explain the CI pipeline!
 
-1. In the **Commit message**, type any appropriate message
+1. In the **Commit message**, type any appropriate message.
 
-1. Ensure the **Target Branch** field is set to main
+1. Ensure the **Target Branch** field is set to main.
 
-1. Select **Commit changes**
+1. Select **Commit changes**.
 
 ## Lab Guide Complete
 
