@@ -47,12 +47,6 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. From the issue you just created, select **Create merge request**.
 
-1. In the template dropdown, select `basictemplate`. This will populate the description with some predefined topics an organization would want to capture information on.
-
-1. Select **Apply template**.
-
-1. If your description box is in **rich text editor** mode, select `Switch to plain text editing` at the bottom of the MR description.
-
 1. Select the Tanuki icon, then select **Fill in merge request template**.
 
 1. Select **Apply AI-generated description**.
