@@ -21,7 +21,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. If your editor is in **rich text editing** mode, Select `Switch to plain text editing` at the bottom of the issue description.
 
-    > Note: The AI generation feature for issue descriptions will only display in plain text editing mode. If you do not see the Tanuki button, you are likely in rich text editing mode.
+    > The AI generation feature for issue descriptions will only display in plain text editing mode. If you do not see the Tanuki button, you are likely in rich text editing mode.
 
 1. In the Description box, select the Tanuki button, then select **Generate issue description**.
 

@@ -50,7 +50,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
     }
     ```
 
-    > Note: By nature, the prompt we entered will generate different code for most users, since we asked for random words from a list. If you see different words in the `words :=` definition, that is ok.
+    > By nature, the prompt we entered will generate different code for most users, since we asked for random words from a list. If you see different words in the `words :=` definition, that is ok.
 
 1. The function added by GitLab Duo requires the `math/rand` package. Below the `go-figure` import, start typing `math`. Note the Tanuki icon showing code generation in progress.
 
