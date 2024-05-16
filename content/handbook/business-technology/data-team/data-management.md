@@ -125,8 +125,7 @@ Note: The 90 days are subject to change. At this moment we have set a 90 days th
 #### Tableau
 
 - Remove users of off-boarded employees from Tableau
-- Remove users that have not logged in within the first 90 days of being granted a license
-- Remove users that have not logged in within the past 90 days
+- Remove users that have had Tableau access for >=90 days, but have not logged in during the past 90 days
 
 ## Exceptions
 

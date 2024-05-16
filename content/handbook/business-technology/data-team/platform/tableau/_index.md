@@ -532,7 +532,7 @@ permission_templates:
 
 #### Tableau Licenses
 
-Licenses may be downgraded by the Data Team as needed to meet demand according to the following activity guidelines guidelines:
+The Data Team will regularly review users' Tableau activity to determine if users have the appropriate license type, and will potentially downgrade users whose activity suggests they would be adequately served by a lower license tier. License adjustments will be made to optimize the pool of available licenses and will be based on the the following activity guidelines:
 
 - To maintain a Creator license the team member must meet any of the following:
   - Have published a datasource within the past 90 days
