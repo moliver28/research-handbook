@@ -31,7 +31,7 @@ GitLab's headquarter mailing address is in scope and covers all sub organization
 
 Business functions included in the scope of the ISMS include:
 
-- Engineering - Chief Information Security Officer; Security Assurance sub-department; Application Security, Security Operations, Security Incident Response (SIRT), Infrastructure Security teams
+- Engineering - Chief Information Security Officer; Security Assurance; Product Security; Security Operations; Threat Management Security teams. Division structure is defined [here](https://handbook.gitlab.com/handbook/security/#division-structure)
 - Engineering - VP of Development
 - Engineering - VP of Infrastructure and Quality
 - Finance - VP of Information Technology
@@ -57,9 +57,9 @@ This ISMS governs GitLab security operations. Interested parties include:
 | Chief Information Security Officer | Executive sponsor of the ISMS; coordinate, promote and improve information security; establish information security policy |
 | Security Management (Code Owners) | Owner of the ISMS responsible for approving significant changes and exceptions of the ISMS |
 | Security Assurance | Reporting on the performance of the information security management system to top management; security risk assessments and treatment; continuous monitoring and auditing; customer assurance activities; security awareness program; security governance activities |
-| Application Security | Manage third party penetration and bug bounty programs; provide input to the software development lifecycle; manage application vulnerability program; administer security champions program; maintain application security tools; identify security risks |
+| Product Security | Manage third party penetration and bug bounty programs; provide input to the software development lifecycle; manage application vulnerability program; administer security champions program; maintain application security tools; identify security risks; infrastructure vulnerability program; maintain infrastructure security tools; identify security risks |
 | Security Operations | Monitor, manage and report on security incidents; monitor compliance with security policies through technical tools; identify security risks; monitor and respond to abuse of SaaS subscriptions |
-| Infrastructure Security | Manage infrastructure vulnerability program; maintain infrastructure security tools; identify security risks |
+| Threat Management | Manage identity and access management, role based access control, admin access |
 | Other ISMS Business units | Implement, operate and/or administer information security requirements; remediate information security findings; collaborate with the Security department |
 | All GitLab Team Members | Awareness of responsibilities as it relates to information security; adherence to information security controlled documents; reporting of suspected security violations |
 
