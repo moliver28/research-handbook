@@ -1,6 +1,6 @@
 ---
 title: "DevSecOps with GitLab Duo - Hands-On Lab: Getting Started with GitLab Duo"
-description: "This Hands-On Guide walks you through the lab exercises used in the DevSecOps with GitLab Duo Course"
+description: "This Hands-On Guide walks you through using GitLab Duo to answer technical questions"
 ---
 
 > Estimated time to complete: 15 minutes
@@ -31,7 +31,7 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
 1. From your **My Test Group** training subgroup, navigate to the GitLab Duo Principles Project
 
-    > This project has been pre-populated with a `go.mod` file that will be used in upcoming labs. It also contains and `examples` folder that holds additional examples and activities per lab. 
+    > This project has been pre-populated with a `go.mod` file that will be used in upcoming labs. It also contains an `examples` folder that holds additional examples and activities per lab. 
 
 1. From your project, click the **GitLab Duo Chat** button in the top right corner.
 
@@ -39,9 +39,9 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
 Here are a few demo questions you can ask Duo:
 
-- `How do I move an issue from one project to another?`
+- `How do I move an Issue from one project to another?`
 - `What is a merged results pipeline?`
-- `What is an example of a simple python function?`
+- `What is an example of a simple Python function?`
 
 ## Lab Guide Complete
 
