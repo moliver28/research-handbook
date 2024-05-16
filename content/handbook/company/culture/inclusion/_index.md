@@ -15,11 +15,11 @@ And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/
 ## GitLab's Diversity Inclusion and Belonging Mission
 
 - **Mission**: At GitLab, we believe everyone can contribute and the Diversity Inclusion and Belonging Team are building scalable strategies based on our acronym, A.D.A.P.T. which stands for **A**ction, **D**oing Good in the communities we serve, holding ourselves **A**ccountable and creating equitable **P**olicies in a **T**ransparent environment.  We are focused on helping to build high performing, customer centric teams by expanding, establishing, embedding our DIB  (/handbook/values/#diversity-inclusion). Just as DIB is a journey, our acronym, **A.D.A.P.T.** mirrors the agility required throughout that journey.
-- **Action** - There is intentionality in how we hire, progress and retain our team members as well as engage with our customers and the open source community.
-- **Do Good** - By providing avenues and opportunities for GitLab & team members to meaningfully contribute to our community and society.
-- **Accountable** - We have a Responsibility to commit and Answerable for the outcome.
-- **Policies**  - By building scalable ways to govern our work, actionable processes which inform our program development/execution.
-- **Transparent** - Our Internal efforts are shared externally
+- **Action** - Action puts intentionality into how we attract, progress and retain our team members as well as engage with our customers and the open source community.
+- **Do Good** - We "Do Good" by providing avenues for GitLab & team members to meaningfully contribute to our community and society.
+- **Accountable** - We hold ourselves Accountable in the commitments we make as well as being Answerable for the outcome.
+- **Policies**  - We build scalable Policies to govern our work and actionable processes which inform our program development and execution.
+- **Transparent** - Transparency is the T in our GitLab CREDIT values and how we operate within DIB ensuring that our internal efforts are reflected externally.
 
 ## GitLab's Diversity, Inclusion & Belonging Vision
 
