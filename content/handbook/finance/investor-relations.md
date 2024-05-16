@@ -90,4 +90,4 @@ located on our [Investor Relations page](https://ir.gitlab.com/financial-informa
 
 ## Investor Meetings
 
-We conduct investor relations meetings and attend investor conferences in the time period between our earnings release and close of business the Friday 2 weeks before the next quarter ends.
+We conduct investor relations meetings and attend investor conferences in the time period between our earnings release and close of business on the Friday 2 weeks before the end of the quarter.
