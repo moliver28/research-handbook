@@ -93,7 +93,7 @@ You have now created a simple hello world program in Go! In the next section, yo
 
     ```
 
-    > This `.gitlab-ci.yml` file has one stage `build` with a job `build app` that runs as part of the stage. This job runs our main.go app. You can view the output of the job to view the executed code.
+    > This `.gitlab-ci.yml` file has one stage `build` with a job `build app` that runs as part of the stage. This job runs our main.go app.
 
     > Again, feel free to highlight the YAML and use `/explain` in GitLab Duo chat to explain the CI pipeline!
 
@@ -102,6 +102,10 @@ You have now created a simple hello world program in Go! In the next section, yo
 1. Ensure the **Target Branch** field is set to main.
 
 1. Select **Commit changes**.
+
+1. To view the pipeline, select **Build > Pipelines** to see the pipeline running.
+
+1. Once the pipeline has successfully completed running, click on the **build app** job to view the output of your main.go app. The **build app** job can be found under your **Stages** section in the build stage.
 
 ## Lab Guide Complete
 
