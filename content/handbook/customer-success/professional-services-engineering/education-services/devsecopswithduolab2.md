@@ -19,7 +19,7 @@ To get started with GitLab Duo, we will test out some of the basic code generati
 
 1. In the Web IDE, locate the GitLab Duo Chat icon. This icon will be the last item in the left side bar, showing the GitLab icon.
 
-1. In the chat text input, enter the text `how do I create a hello world go program?`
+1. In the chat text input, enter the text `How do I create a hello world go program?`
 
 1. The AI should respond with code similar to this:
 
