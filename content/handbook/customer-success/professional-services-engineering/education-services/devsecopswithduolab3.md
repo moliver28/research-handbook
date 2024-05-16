@@ -61,7 +61,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Select the Tanuki icon from the left sidebar.
 
-1. In the chat, write the prompt: `how could I use the go-figure module of go to print hello world in a different font?`
+1. In the chat, write the prompt: `How could I use the go-figure module of go-to print hello world in a different font?`
 
     You will get a response similar to this:
 
