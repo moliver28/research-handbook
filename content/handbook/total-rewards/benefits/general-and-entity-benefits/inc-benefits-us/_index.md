@@ -386,12 +386,6 @@ Cigna has partnered with EyeMed for their vision plan offerings, you can check c
 
 When submitting a claim, you can mail it to Cigna Vision PO Box 385018 Birmingham, AL 35238 or submit it online using the following instructions:
 
-1. Log in or register an account at [https://cigna.vsp.com/](https://cigna.vsp.com/).
-1. Navigate to "Claims & Reimbursement" on the left panel.
-1. Choose yourself or dependent from the dropdown depending who the claim is for.
-1. Expand the "Customer Reimbursement Form" section.
-1. Click "Continue" to be taken to the online claim form. Make sure you attach an itemized receipt when prompted.
-
 #### Vision 2024 Calendar Year Plan
 
 **Coverages:**
