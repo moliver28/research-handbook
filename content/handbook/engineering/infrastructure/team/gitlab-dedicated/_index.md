@@ -588,8 +588,8 @@ as a high priority task that is second only to active incidents:
      or, if results are already clearly sufficient, close it.
    * If it is in `capacity-planning::verification`,
      check if the remediation results can be considered sufficient,
-    and if so close the issue.
-    If not, update the due date to next week for further review.
+     and if so close the issue.
+     If not, update the due date to next week for further review.
    * If the prediction has a wide-range and there is no indication that it will breach any time soon,
      or the lead time is sufficient that there is no urgency (e.g. 3+ months for Gitaly disk saturation),
      label the issue with `~capacity-planning::monitor`
@@ -612,7 +612,7 @@ as a high priority task that is second only to active incidents:
    Update the list as necessary and create corresponding `tenant::` [labels](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/labels?subscribed=&sort=relevance&search=tenant%3A%3A).
 
 When your shift comes to an end,
-create a [handover issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=capacity_planning_handover&issue[title]=Capacity Planning Triage%20handover%20notes%20YYYY-MM-DD)
+create a [handover issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=capacity_planning_handover&issue[title]=Capacity%20Planning%20Triage%20handover%20notes%20YYYY-MM-DD)
 assign it to the incoming duty engineer and populate with any information that the incoming shift should know about.
 Let comments/discussions on the specific issues speak for mundane and routine matters, to be reviewed on their due date, but consider noting:
 
