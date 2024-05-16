@@ -180,6 +180,7 @@ In the event of an accident resulting in damage to the rental car, the Non-US re
 
 ### Hotels
 
+- **Important:** To be reimbursed for a hotel booking, you must first book using Navan additionally submit a claim in Navan for that same booking. Your personal card will be charged then you must submit an expense request same as if you booked on a platform other than Navan
 - To be booked in Navan. When booked outside Navan - approval required by Manager and AP Admin.
 - When you book Hotels through Navan Travel, the costs will need to be charged to a personal credit card.
 - For business related bookings, you can submit the costs for reimbursement via the Navan Expense reimbursement tool.
