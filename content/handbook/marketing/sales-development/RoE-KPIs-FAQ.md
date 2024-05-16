@@ -70,6 +70,10 @@ After determining an MQL is to be worked by the SDR team:
 
 If the related SDR relays information that was not picked up in the new SDR’s research, the new SDR should end any active sequence if the prospect hasn’t engaged and change lead ownership to the team member who has been engaged so they can reach out. If the new SDR has engaged with the prospect, there will need to be a coordinated handoff worked out between the new SDR and the related SDR. Note: Only activity logged in SFDC will be recognized as activity.
 
+### Routing Workflow Chart
+
+![Routing-Chart](/handbook/marketing/sales-development/RoutingChart.png)
+
 ## Frequently Asked Questions (FAQ)
 
 ### General Sales Dev Trouble-shooting
