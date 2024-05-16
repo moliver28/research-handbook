@@ -123,7 +123,7 @@ This is to check the content of an email sent:
 1. Follow the steps from the section [Checking Mailgun logs](#checking-mailgun-logs) to locate an email in Mailgun - The email subject must be "Verify your identity".
 1. Access the log details by clicking on the dented wheel icon at the right end of the log entry.
 1. In the log details, go to the third tab named "quick view" to display the full email.
-![Mailgun_email_body](image-1.png)
+![Mailgun_email_body](../assets/Mailgun_email_body.png)
 
 To resend an email:
 
@@ -131,7 +131,7 @@ To resend an email:
 
 1. On the dented wheel icon at the right end of the log entry, click on the "Resend message" button.
 1. From there you can enter an email address and press "Send".
-![Mailgun_resend_email](image-2.png)
+![Mailgun_resend_email](../assets/Mailgun_resend_email.png)
 
 ### Identifying Multiple Suppressions on a Single Domain
 
