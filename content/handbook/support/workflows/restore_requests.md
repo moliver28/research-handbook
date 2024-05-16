@@ -11,7 +11,7 @@ last-reviewed: 2021-10-06
 
 ## Overview
 
-Use this workflow when a customer requests that we restore data from GitLab SaaS that has been deleted. Note that user accounts and contributions can never be restored if deleted. This workflow only pertains to projects and group deletions. Container images within deleted groups/projects cannot be restored.
+Use this workflow when a customer requests that we restore data from GitLab SaaS that has been deleted. Note that user accounts and contributions can never be restored if deleted. This workflow is specifically for handling deletions of projects and groups. It is important to note that container images stored within deleted groups or projects cannot be recovered.
 
 ## Process
 
