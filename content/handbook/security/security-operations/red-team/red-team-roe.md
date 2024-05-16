@@ -12,7 +12,9 @@ Please refer to [our general handbook page]({{< ref "_index.md" >}}) to learn mo
 
 ### General Systems
 
-All systems managed by GitLab are in scope for all types of Red Team operations. No prior approval is required to conduct any activity that meets the rules documented on this page.
+Some systems require special approval from GitLab legal before accessing during any type of Red Team operation. GitLab team members can view that list [here](https://internal.gitlab.com/handbook/security/red_team/private_roe/).
+
+All other systems managed by GitLab are in scope for all types of Red Team operations. No prior approval is required to conduct any activity that meets the rules documented on this page.
 
 Third-party systems that are used by GitLab for official business purposes are also considered in scope, but these often require permission from the system owners. This permission will be obtained when necessary.
 
