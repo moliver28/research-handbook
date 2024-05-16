@@ -61,7 +61,7 @@ As a single-application for the entire DevOps lifecycle GitLab strives to enable
 
 ### The Minimal Viable Change (MVC)
 
-We only ship in a [Minimal Viable Product](http://ask.leanstack.com/en/articles/902991-what-is-a-minimum-viable-product-mvp) (MVP) style. We call it Minimal Viable Change (MVC) because our business model is focused on adding additional value to our integrated product suite instead of building separate, new products.
+We only ship in a Minimal Viable Product (MVP) style. We call it Minimal Viable Change (MVC) because our business model is focused on adding additional value to our integrated product suite instead of building separate, new products.
 
 MVC means we deliver the smallest possible solution that **offers value** to our users. To avoid [feature bloat](https://www.productplan.com/glossary/feature-bloat/), we rely on user research to validate whether our idea addresses a market need in a desirable way. This approach sets us up to expend the smallest possible amount of effort to build new capabilities, while learning more about how to best add additional functionality over time.
 
