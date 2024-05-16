@@ -40,13 +40,11 @@ GCF security controls are assessed at the entity level or the system level depen
 
 GCF security controls assessed at system level are based upon the system's [critical system tiering]({{< ref "critical-systems" >}}). Dependent upon the system's tier, a subset of GCF controls are evaluated based upon overall risk and impact to the organization. This is broken out as follows:
 
-|Tier |     GCF Control Scope |     ZenGRC Link|
+|Tier |     GCF Control Scope |     Hyperproof Link|
 |--|--|--|
-|Tier 0 Entity|Entity-Level Controls| [Link](https://gitlab.zengrc.com/sor/listing/controls?p=eyJzb3IiOnsicGFnZVNpemUiOjIwMCwiY29sdW1ucyI6WyJ0aXRsZSIsInNsdWciLCJkZXNjcmlwdGlvbiIsInRlc3RQbGFuIiwic3RhdHVzIiwiY2FfXzExMiIsImFzc2Vzc21lbnRzIl0sImNvbHVtblNpemVzIjpbeyJuYW1lIjoidGVzdFBsYW4iLCJzaXplIjozNzR9LHsibmFtZSI6Im1hcHBpbmdzLnByb2dyYW1zIiwic2l6ZSI6MzgxfV0sImZpbHRlcnMiOnsiQU5EIjpbeyJmIjoiY2FfXzM0MyIsIm8iOiI9IiwidiI6IlRpZXIgMCBFbnRpdHkifSx7ImYiOiJtYXBwaW5ncy5wcm9ncmFtcyIsIm8iOiI9IiwidiI6IlByb2dyYW06NDIifV19fX0%3D&page=1)|
-|Tier 1 Mission Critical|All "In-Scope" System-Level Controls| [Link](https://gitlab.zengrc.com/sor/listing/controls?p=eyJzb3IiOnsicGFnZVNpemUiOjIwMCwiY29sdW1ucyI6WyJ0aXRsZSIsInNsdWciLCJkZXNjcmlwdGlvbiIsInRlc3RQbGFuIiwic3RhdHVzIiwiY2FfXzExMiIsImFzc2Vzc21lbnRzIl0sImNvbHVtblNpemVzIjpbeyJuYW1lIjoidGVzdFBsYW4iLCJzaXplIjozNzR9LHsibmFtZSI6Im1hcHBpbmdzLnByb2dyYW1zIiwic2l6ZSI6MzgxfV0sImZpbHRlcnMiOnsiQU5EIjpbeyJPUiI6W3siZiI6ImNhX18zNDMiLCJvIjoiPSIsInYiOiJUaWVyIDEgTWlzc2lvbiBDcml0aWNhbCJ9LHsiZiI6ImNhX18zNDMiLCJvIjoiPSIsInYiOiJUaWVyIDIgQnVzaW5lc3MgQ3JpdGljYWwifV19LHsiZiI6Im1hcHBpbmdzLnByb2dyYW1zIiwibyI6Ij0iLCJ2IjoiUHJvZ3JhbTo0MiJ9XX19fQ%3D%3D&page=1)|
-|Tier 2 Business Critical|Subset of System-Level Controls| [Link](https://gitlab.zengrc.com/sor/listing/controls?p=eyJzb3IiOnsicGFnZVNpemUiOjIwMCwiY29sdW1ucyI6WyJ0aXRsZSIsInNsdWciLCJkZXNjcmlwdGlvbiIsInRlc3RQbGFuIiwic3RhdHVzIiwiY2FfXzExMiIsImFzc2Vzc21lbnRzIl0sImNvbHVtblNpemVzIjpbeyJuYW1lIjoidGVzdFBsYW4iLCJzaXplIjozNzR9LHsibmFtZSI6Im1hcHBpbmdzLnByb2dyYW1zIiwic2l6ZSI6MzgxfV0sImZpbHRlcnMiOnsiQU5EIjpbeyJmIjoiY2FfXzM0MyIsIm8iOiI9IiwidiI6IlRpZXIgMiBCdXNpbmVzcyBDcml0aWNhbCJ9LHsiZiI6Im1hcHBpbmdzLnByb2dyYW1zIiwibyI6Ij0iLCJ2IjoiUHJvZ3JhbTo0MiJ9XX19fQ%3D%3D&page=1)|
-
-> Note that to arrive at all controls that are Tier 1 you must filter for all controls with Tier 1 OR Tier 2 designation (since all Tier 2 controls also are included in Tier 1). The filters above have accounted for this nuance and can be confirmed by selecting "Filter" in the top right of ZenGRC and confirming filters being applied.
+|Tier 0 Entity|Entity-Level Controls| [Link](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls?filters=cf-f6f3a9aa-9dd6-11ee-92d4-760afca11dae%3DTier%25200%2520Entity&sortGridBy=scopeName&view=grid)|
+|Tier 1 Mission Critical|All "In-Scope" System-Level Controls| [Link](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls?filters=cf-f6f3a9aa-9dd6-11ee-92d4-760afca11dae%3DTier%25201%2520Mission%2520Critical&sortGridBy=scopeName&view=grid)|
+|Tier 2 Business Critical|Subset of System-Level Controls| [Link](https://hyperproof.app/org/d7c741c0-4cdc-11ee-b76d-562ad257a689/controls?filters=cf-f6f3a9aa-9dd6-11ee-92d4-760afca11dae%3DTier%25202%2520Business%2520Critical&sortGridBy=scopeName&view=grid)|
 
 ## Control Ownership
 
@@ -94,7 +92,7 @@ Once the Security Compliance Intake issue is populated, Security Risk assigns th
 - Incorporate testing requirements (driven by CST and regulatory/compliance requirements) and recommendations into the fiscal year audit schedule
 - Determine when [user access reviews]({{< ref "access-reviews" >}}) for the new system need to start and communicate to compliance teams
 
-## List of NIST 800-53 controls by family (Used by Commercial and Dedicated teams beginning FY24 Q1)
+## List of NIST 800-53 controls by family (Used by Commercial and Dedicated Security Compliance teams beginning FY24 Q1)
 
 *Detailed sub-controls are included in the various control family pages*
 
@@ -405,107 +403,6 @@ This control family focuses on the assessment of system vulnerabilities and rele
 |     RA-7(1)     |     Risk Response - Insurance Considerations          |     To be completed.     |
 |     RA-8     |     Privacy Impact Assessments          |     An analysis of how personally identifiable information is handled to ensure that handling conforms to applicable privacy requirements, determine the privacy risks associated with an information system or activity, and evaluate ways to mitigate privacy risks.     |
 |     RA-9     |     Criticality Analysis          |     To identify critical system components and functions by performing a criticality analysis.     |
-
-{{% /details %}}
-
-{{% details summary="System and Services Acquisition (SA)" %}}
-> [<i class="fa-solid fa-file-lines"></i> System and Services Acquisition (SA)]({{< ref "../security-compliance" >}})
-
-This control family includes the allocation of resources and the creation of system development life cycles. Controls help organizations create a safe acquisition process for new systems and devices, safeguarding the integrity of the wider system and data. Controls also cover the development and testing process for new systems, including developer training and security processes.
-
-| Control | Title | Description |
-|---------|-------------|---------------|
-|     SA-1     |     Policy and Procedures          |     Develop, document, and disseminate system and services acquisition policy and procedures that address the controls in the Service Acquisition (SA) control family implemented within GitLab Inc. and it's associated in-scope systems and services.     |
-|     SA-2     |     Allocation of Resources          |     Allocate required resources to protect information security and privacy requirements related to system and services acquisition and sustainment as part of the business planning and capital planning and investment process.     |
-|     SA-3     |     System Development Life Cycle          |     Establish a system development life cycle to support the successful development, implementation, and operation of GitLab's systems.     |
-|     SA-4     |     Acquisition Process          |     Establish an acquisition process covering security and privacy requirements to support system, system component and system service acquisitions and implementations.     |
-|     SA-4(1)     |     Acquisition Process - Functional Properties of Controls          |     To be completed.     |
-|     SA-4(2)     |     Acquisition Process - Design and Implementation Information for Controls          |     To be completed.     |
-|     SA-4(8)     |     Acquisition Process - Continuous Monitoring Plan for Controls          |     To be completed.     |
-|     SA-4(9)     |     Acquisition Process - Functions, Ports, Protocols, and Services in Use          |     To be completed.     |
-|     SA-4(10)     |     Acquisition Process - Use of Approved PIV Products          |     To be completed.     |
-|     SA-8     |     Security and Privacy Engineering Principles v2          |     Develop and implement systems security and privacy engineering principles in the specification, design, development, implementation, and modification of system and system components.     |
-|     SA-9(1)     |     External System Services - Risk Assessments and Organizational Approvals          |     To be completed.     |
-|     SA-9(2)     |     External System Services - Identification of Functions, Ports, Protocols, and Services          |     To be completed.     |
-|     SA-9(3)     |     External System Services - Establish and Maintain Trust Relationship with Providers          |     To be completed.     |
-|     SA-9(4)     |     External System Services - Consistent Interests of Consumers and Providers          |     To be completed.     |
-|     SA-9(5)     |     External System Services - Processing, Storage, and Service Location          |     To be completed.     |
-|     SA-15     |     Development Process, Standards, and Tools          |     Establish a development process that supports GitLab's change management program and addresses GitLab's security and privacy requirements.     |
-|     SA-21     |     Developer Screening          |     Establish and implement access controls and screening criteria for external developers performing work on acquired systems and services.     |
-
-{{% /details %}}
-
-{{% details summary="System and Communications Protection (SC)" %}}
-> [<i class="fa-solid fa-file-lines"></i> System and Communications Protection (SC)]({{< ref "../security-compliance" >}})
-
-This control family covers the protection of system boundaries and the safe management of collaborative devices. Controls provide in-depth guidance on set-up and ongoing management of systems, including access, partitions, and usage restrictions.
-
-| Control | Title | Description |
-|---------|-------------|---------------|
-|     SC-1     |     Policy and Procedures          |     Establishment of system and communications protection policy and procedures that address the controls in the SC family implemented within systems and organizations.     |
-|     SC-5     |     Denial-of-service Protection          |     To protect against or limit the effects of denial-of-service events.     |
-|     SC-7     |     Boundary Protection v2          |     To monitor and control communications at the external managed interfaces to the system and at key internal managed interfaces within the system.     |
-|     SC-7(5)     |     Boundary Protection - Deny by Default — Allow by Exception          |     To be completed.     |
-|     SC-7(9)     |     Boundary Protection - Restrict Threatening Outgoing Communications Traffic          |     To be completed.     |
-|     SC-7(10)     |     Boundary Protection - Prevent Exfiltration          |     To be completed.     |
-|     SC-7(12)     |     Boundary Protection - Host-based Protection          |     To be completed.     |
-|     SC-8     |     Transmission Confidentiality and Integrity v2          |     To protect the confidentiality and integrity of transmitted information.     |
-|     SC-12     |     Cryptographic Key Establishment and Management          |     To establish and manage cryptographic keys when cryptography is employed within the system.     |
-|     SC-18     |     Mobile Code          |     Develop and implement a program to define acceptable and unacceptable mobile code and mobile code technologies, and authorize, monitor, and control the use of mobile code within GitLab's systems.     |
-|     SC-18(1)     |     Mobile Code - Identify Unacceptable Code and Take Corrective Actions          |     To be completed.     |
-|     SC-18(2)     |     Mobile Code - Acquisition, Development, and Use          |     To be completed.     |
-|     SC-28     |     Protection of Information at Rest v2          |     To protect the confidentiality and/or integrity of information at rest.     |
-|     SC-28(3)     |     Protection of Information at Rest - Cryptographic Keys          |     To be completed.     |
-
-{{% /details %}}
-
-{{% details summary="System and Information Integrity (SI)" %}}
-> [<i class="fa-solid fa-file-lines"></i> System and Information Integrity (SI)]({{< ref "../security-compliance" >}})
-
-This control family focuses on maintaining the integrity of the information system. Controls cover topics like protection from malicious code and spam, and procedures for ongoing system-wide monitoring.
-
-| Control | Title | Description |
-|---------|-------------|---------------|
-|     SI-1     |     Policy and Procedures          |     Establishment of system and information integrity policy and procedures that address the controls in the SI family implemented within systems and organizations.     |
-|     SI-2     |     Flaw Remediation v2          |     To identify, report, and correct system flaws.     |
-|     SI-3     |     Malicious Code Protection v2          |     To implement malicious code protection mechanisms at system entry and exit points to detect and eradicate malicious code.     |
-|     SI-4     |     System Monitoring v2          |     Internal and external monitoring of systems to detect attacks and indicators of potential attacks.     |
-|     SI-4(23)     |     System Monitoring - Host-based Devices v2          |     To be completed.     |
-|     SI-5     |     Security Alerts, Advisories, and Directives          |     To receive system security alerts, advisories, and directives from organization-defined external organizations] on an ongoing basis.     |
-|     SI-12     |     Information Management and Retention          |     To manage and retain information within the system and information output from the system to cover the full life cycle of information, in some cases extending beyond system disposal in accordance with applicable laws, executive orders, directives, regulations, policies, standards, guidelines and operational requirements.     |
-|     SI-12(1)     |     Information Management and Retention - Limit Personally Identifiable Information Elements          |     To be completed.     |
-|     SI-12(3)     |     Information Management and Retention - Information Disposal          |     To be completed.     |
-|     SI-13     |     Predictable Failure Prevention          |     To determine mean time to failure (MTTF) to address potential failures of system components that provide security capabilities.     |
-|     SI-18     |     Personally Identifiable Information Quality Operations          |     To confirm the accuracy and relevance of personally identifiable information throughout the information life cycle.     |
-|     SI-18(4)     |     Personally Identifiable Information Quality Operations - Individual Requests          |     To be completed.     |
-
-{{% /details %}}
-
-{{% details summary="Supply Chain Risk Management (SR)" %}}
-> [<i class="fa-solid fa-file-lines"></i> Supply Chain Risk Management (SR)]({{< ref "../security-compliance" >}})
-
-This control family covers policies and procedures to counter risks in the supply chain. This includes processes to assess and manage suppliers, and the inspection of supply chain systems and components.
-
-| Control | Title | Description |
-|---------|-------------|---------------|
-|     SR-1     |     Policy and Procedures          |     Establishment of supply chain risk management policy and procedures that address the controls in the SR family implemented within systems and organizations.     |
-|     SR-2     |     Supply Chain Risk Management Plan          |     To develop a plan for managing supply chain risks associated with the dependence on products, systems, and services from external providers, as well as the nature of the relationships with those providers that present an increasing level of risk to an organization.     |
-|     SR-2(1)     |     Supply Chain Risk Management Plan - Establish SCRM Team          |     To be completed.     |
-|     SR-3     |     Supply Chain Controls and Processes          |     To establish a process or processes to identify and address weaknesses or deficiencies in the supply chain elements and processes of organization-defined system or system component in coordination with organization-defined supply chain personnel.     |
-|     SR-3(3)     |     Supply Chain Controls and Processes - Sub-tier Flow Down          |     To be completed.     |
-|     SR-3(4)     |     Supply Chain Controls and Processes - Termination of Vendor and Business Partner Relationships          |     To be completed.     |
-|     SR-3(5)     |     Supply Chain Controls and Processes - Confidentiality Commitments          |     To be completed.     |
-|     SR-3(6)     |     Supply Chain Controls and Processes - Cloud Services - Shared Roles and Responsibilities Agreements          |     To be completed.     |
-|     SR-3(7)     |     Supply Chain Controls and Processes - Cloud Services - Special Contractual Considerations          |     To be completed.     |
-|     SR-3(8)     |     SOC Report CUEC Review          |     Review of Service Provider CUECs to ensure adequate coverage of identified control areas passed onto the end user.     |
-|     SR-4     |     Provenance          |     To document, monitor, and maintain valid provenance of the systems, system components, and associated data.     |
-|     SR-5     |     Acquisition Strategies, Tools, and Methods          |     To employ acquisition strategies, contract tools, and procurement methods to protect against, identify, and mitigate supply chain risks of organization-defined acquisition strategies, contract tools, and procurement methods.     |
-|     SR-6     |     Supplier Assessments and Reviews          |     To assess and review the supply chain-related risks associated with suppliers or contractors and the system, system component, or system service they provide.     |
-|     SR-6(1)     |     Supplier Assessments and Reviews - Testing and Analysis          |     To be completed.     |
-|     SR-8     |     Notification Agreements          |     To establish agreements and procedures with entities involved in the supply chain for the system, system component, or system service.     |
-|     SR-9     |     Tamper Resistance and Detection          |     To implement a tamper protection program for the system, system component, or system service.     |
-|     SR-9(1)     |     Tamper Resistance and Detection - Multiple Stages of System Development Life Cycle          |     To be completed.     |
-|     SR-12     |     Component Disposal          |     To dispose of organization-defined data, documentation, tools, or system components.     |
 
 {{% /details %}}
 
