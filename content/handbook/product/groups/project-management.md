@@ -152,4 +152,3 @@ Engineering team-members can shadow a product stable-counterpart. Shadowing sess
     - [Scoped Labels](https://youtu.be/ebyCiKMFODg)
 - Issues
     - [Description Change History](https://youtu.be/-JgfJSSLYlI)
-

@@ -123,7 +123,6 @@ Teams should also follow up post-launch with input on customer perspective/feedb
 
 Launching features into our current product set is a well understood [process](/handbook/product/tiering-guidance-for-features/). To launch new product offerings, service offerings or SKUs requires a set of steps that need to be sequenced in a way to ensure product launch is done efficiently and effectively.
 
-
 **Summary of the steps.**
 
 1. Business Sponsor and a program manager should be assigned to launch the product/service or SKU.
@@ -143,6 +142,7 @@ To initiate the work (and proceed to steps 2 to 7) provide a three sentence prop
 **Step 2) The product or service needs to be clearly defined**
 
 A services brief should be drafted. This should include:
+
 1. Details of the service offering (e.g. 24x7 support, emergency support SLAs, PS SOW description, etc)
 1. Description of the market and ideal customer
 1. What the customer gets in terms of entitlement
@@ -150,6 +150,7 @@ A services brief should be drafted. This should include:
 1. Hypotheses of how the product will be priced (e.g. Hourly, fixed fee, subscription)
 
 A product brief: (use [this template](https://docs.google.com/document/d/10FPjeVmvnCWjAc3kTbn0F46R42kUWkQFp1sgK3Z_p3w/edit?usp=sharing))
+
 1. Description of the product.
 1. Description of the market and ideal customer
 1. What features are available today that will be part of the product.
@@ -166,6 +167,7 @@ A product brief: (use [this template](https://docs.google.com/document/d/10FPjeV
 **Step 4) A Operations/ business plan / financial projection should be developed for the product / service**
 
 For a new product or service we should build an operational business plan (this [this template](https://docs.google.com/document/d/1IZfs6iumXrOF0X9Gez3SYGCM6mNQVSHKq6e0cltr7wQ/edit?usp=sharing)). This includes
+
 - Product plan
 - Marketing message and vision
 - Ideal customer profile
@@ -174,11 +176,13 @@ For a new product or service we should build an operational business plan (this 
 - If necessary a infrastructure cost/operating model for the offering
 
 For a new services offering we should also include a:
+
 - Staffing Plan
 - Operational Model
 - Systems changes required to support the new service
 
 Build a financial model
+
 - Topline sales projections
 - Gross Margin projections including hosting/infrastructure costs, support costs, professional services costs, etc
 - Possibly model contribution including other costs such as Sales and Marketing or R&D.
@@ -190,10 +194,10 @@ With the product/services proposal, pricing research, operational plan and busin
 Approvals will follow this matrix.
 
 Once the approval is made the following teams need to be notified that a workstream is kicked off:
+
 - Product offering: Product owners and engineers
 - Services offering: Professional services or support team
 - All offerings: Product Marketing, Legal, Product Fulfillment, IT, Data, FP&A, Billing, Revenue accounting, Tax
-
 
 **Step 6) Product Launch checklist should be created with clear DRIs assigned**
 
@@ -201,6 +205,7 @@ Once the approval is made the following teams need to be notified that a workstr
 - The program manager should fill out the product launch checklist and ensure there are owners for the generic items but also adds custom items.
 
 The following areas may need to be considered in the planning:
+
 1. Marketing Plan including positioning, press, customer references, etc
 1. Product Plan including Beta programs, code complete, launch criteria, data logging, etc
 1. Sales readiness including GTM plan and enablement of field and channel
@@ -218,10 +223,10 @@ The following areas may need to be considered in the planning:
 1. Finance including financial forecast
 1. Investor Relations including investor messaging
 
-
 **Step 7) Execution against Product Launch checklist should happen**
 
 Execute against the plan created above some resources that are helpful are:
+
 - SKU Creation handbook [page](/handbook/business-technology/enterprise-applications/guides/product-catalog/)
 - Premium Pricing [Execution](https://internal.gitlab.com/handbook/product/pricing/archived-projects/matterhorn/) (Team member access only)
 

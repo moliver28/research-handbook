@@ -9,7 +9,6 @@ description: "The Verify Product Group wants to increase sharing, findability, a
   <iframe src="https://www.youtube.com/embed/9iF9zWAxdH0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
 ### Intent of this page
 
 The Verify Product Group wants to increase [sharing](/handbook/values/#share), [findability](/handbook/values/#findability), and encourage [bias for async communication](/handbook/values/#bias-towards-asynchronous-communication). We will use this handbook page as forum for showcasing our team processes while also providing an opportunity to encourage a open discussion between team members on our processes for retrospective.

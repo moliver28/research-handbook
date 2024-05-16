@@ -5,12 +5,6 @@ title: "Product Milestones"
 
 When planning, Product Managers plan to GitLab milestones. Here is the process for creating and maintaining them.
 
-
-
-
-
-
-
 ## Product Milestone Creation
 
 **One quarter ahead**, the Engineering team, in partnership with the Product team, will create all of the necessary milestones for the next quarter. Our standard practice is to have the Major [release](https://about.gitlab.com/releases/) every May, resulting in:
@@ -65,7 +59,6 @@ The [release definitions](/handbook/engineering/releases/) are maintained by the
 
 - These milestones are used create boards and Issues for each release
 - The [Product Development Google Calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_baef86oeitmd9uuq7m9i8021j8%40group.calendar.google.com) (WIP) - also uses these milestone names and dates.
-
 
 ## Relevant links
 

@@ -337,8 +337,8 @@ the `DBT_MODELS` variable.
 
 ![clone_model_dbt_select variables](/handbook/product/product-analysis/dbt-cheat-sheet/images/clone_model_dbt_select_variables.png)
 
-
 Other options for cloning models are:
+
 - [❄️ Snowflake > 📈❗️clone_prod_real](/handbook/business-technology/data-team/platform/ci-jobs/#clone_prod_real):
 this job clones *all* of PREP and PROD databases and does not require any configuration/variables
 - [❄️ Snowflake > 📈⚙clone_prod_specific_schema](/handbook/business-technology/data-team/platform/ci-jobs/#clone_prod_specific_schema):
@@ -368,13 +368,16 @@ in speeding up the job and testing the upstream/downstream models.
 by passing the variable `REFRESH` with a single space `` as the value. (This satisfies the
 *vast* majority of use cases. It would only be on a MR relating to an incremental model when
 you would not want to pass this variable)
+
   - Key: `REFRESH`
   - Value: `` (just a whitespace)
+
 2. You can specify that you want to also build models that are upstream or downstream of the
 changed model. Passing the variable `DEPENDENT_TYPE` with a value of `+` will build the
 changed model in addition to all downstream dependencies. (This satisfies the *vast* majority
 of use cases where you need to test upstream/downstream dependencies). See more options/details
 in the [Data team documentation](/handbook/business-technology/data-team/platform/ci-jobs/#run_changed_models_sql)
+
   - Key: `DEPENDENT_TYPE`
   - Value: `+`
 
@@ -414,6 +417,7 @@ access, you need to run [❄️ Snowflake > 🔑grant_clones](/handbook/business
 ![grant_clones on pipelines page](/handbook/product/product-analysis/dbt-cheat-sheet/images/grant_clones_on_pipelines_page.png)
 
 {{% panel header="**IMPORTANT**" header-bg="info" %}}
+
 1. This job only creates grants on existing objects and will not apply to any additional
 models created after the job runs. Be sure to clone and build all required models *before*
 running the job.

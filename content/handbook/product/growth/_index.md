@@ -54,7 +54,6 @@ The Growth Product Management Director should run a weekly growth meeting to rev
 
 10 min: Discussions
 
-
 To prepare for the meeting, the Growth PM's and the Growth Director should check in on experiments to identify which can be concluded, and to collect data for review.
 
 ### Other regular Growth meetings
@@ -129,10 +128,10 @@ and - like a contribution coming from the wider community - ultimately own the f
 
 ### UX
 
-
 #### How UX participates in milestone planning
 
 When the planning issue is created the Product Designer should follow these steps:
+
 - Review the issue boards and the prioritization dashboard (issues should be ordered by priority)
 - Determine whether they agree with the prioritized issues or want to suggest a change. For example, are there any SUS impacting issues we’ve been neglecting?
 - Comment in the planning issue to discuss proposed changes.
@@ -193,21 +192,18 @@ For more information, read about [UX Scorecards](/handbook/product/ux/ux-scoreca
 
 UX Scorecards can be used to evaluate onboarding experiences and we also include onboarding criteria in our [UX Heuristics](/handbook/product/ux/heuristics/).
 
-
 #### UX Themes and Labels
 
 We use labels to track UX improvements across a few themes. This allows us to track our work more holistically against big areas we've identified for UX improvement.
 
-
 For now, these themes/labels are:
+
 - [Easy to Trial GitLab](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=UX+Team%3A++Easy+to+Trial+GitLab+Theme)
 - [Feature Discoverability](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=UX+Team%3A++Feature+Discoverability+Theme)
 - [Onboarding New Users](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=UX+Team%3A+Easy+Onboarding+Theme)
 - [Easy Upgrade Flows](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=UX+Team%3A+Easy+Upgrades+Theme)
 
-
 ### Collaboration process with other Product teams
-
 
 We use this [process](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/233) to make sure growth and product teams are maximizing business impact while ensuring close collaboration.
 
@@ -239,7 +235,6 @@ We use this [process](https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/2
 
 The Learn GitLab project is utilized to onboard new users to GitLab and contains self-paced issues the user can complete to help set them and their team up for success within the GitLab platform. There are currently two separate Learn GitLab projects, one for new free SaaS signups and one for new SaaS trial signups. The growth team is still actively experimenting with improvements to this experience. If you'd like to contribute an improvement to one of the Learn GitLab projects, you can do so by following the steps outlined in this [issue](https://gitlab.com/gitlab-com/Product/-/issues/2239).
 
-
 ### Growth RADCIE and DRIs
 
 In alignment with GitLab's [RADCIE](/handbook/people-group/directly-responsible-individuals/#radcie) approach, the DRIs for the following tasks would be:
@@ -257,5 +252,3 @@ In alignment with GitLab's [RADCIE](/handbook/people-group/directly-responsible-
 | Alert creation | Growth Product/Engineering : [How to create a Sisense SQL alert](/handbook/marketing/growth/engineering/sisense_alert.html) |
 
 It is in the Growth teams purview to run any experiment in any area of the application. Growth's ability to experiment in this manner is designed to further learning potential for the larger GitLab team and support business priorities. When an experiment impacts the area of another product owner/team, Growth informs them following the collaboration model above. Product owners/teams are encouraged to raise concerns and provide further context. Ultimately, Growth determines whether the experiment is deemed a success using data and input from relevant teams. The product owner/team is made aware of the result and next steps.
-
-

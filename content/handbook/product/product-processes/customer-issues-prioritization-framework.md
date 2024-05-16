@@ -61,7 +61,6 @@ The outcomes the framework is aimed at providing:
 1. To add a customer or opportunity to an open issue or epic, follow the process outlined below in ["Customer Links"](/handbook/product/product-processes/customer-issues-prioritization-framework/#customer-links).
 1. Optionally, watch the [walk-through (10m 20s)](https://www.youtube.com/watch?v=ZUxIxp_Pv5k&list=PL05JrBw4t0KrKoeXjf5Bdtapu9Cl3T7gI&index=17&pp=sAQB).
 
-
 ## Framework Inputs and Outputs
 
 The customer prioritization framework is loosely based on concepts rooted in [cost of delay](https://en.wikipedia.org/wiki/Cost_of_delay) and [CD3](https://blackswanfarming.com/cost-of-delay-divided-by-duration/). **Important:** While ARR is a key input to determining value, the scores are derivitive measurements and should not be conflated with the notion that if a given issue or epic is delivered, GitLab's ARR will increase by the derivative score amount or the customer is guaranteed to continue buying GitLab.

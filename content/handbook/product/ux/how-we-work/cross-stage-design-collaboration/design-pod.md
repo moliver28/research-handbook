@@ -74,8 +74,3 @@ Suppose you are interested in participating in an active Design Pod. In that cas
 ## Past Design Pods
 
 - (RCA: Role Based Access Control (RBAC) Design Pod, Authentication & Authorization)[https://gitlab.com/gitlab-com/gitlab-ux/ux-rca/-/issues/3]
-
-
-
-
-

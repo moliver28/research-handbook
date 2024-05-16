@@ -116,12 +116,14 @@ What goes into a Job Step:
     - Each stage comprises vertical stacks which are sub-steps the Job Performer needs to accomplish, moving top to bottom before moving to the next stage.
 
 Good examples:
+
 - Decide where to look for a new home
 - Determine selection criteria
 - Seek new homes
 - Transfer home ownership
 
 Bad example:
+
 - Ask Richard what neighborhoods are popular to live in (Who’s Richard? Does everyone who does this job have a Richard? Too specific.)
 
 ### **Outcomes:** How does the Job Performer measure the success of getting the job done?
@@ -133,6 +135,7 @@ What goes into an Outcome statement:
 1. They begin with a verb indicating a **direction** of change (e.g., minimize, reduce, decrease, maximize, increase).
 2. Contains something the Job Performer wants to change as a unit of **measure** (e.g., time, effort, or likelihood).
 3. They end with qualifiers/clarifiers that make the outcome statement **specific** and **relevant** to the Main Job.
+
 - Avoid ANDs or ORs (they need to be singular), and remain technology/solution agnostic
 
 Good examples:
@@ -161,6 +164,7 @@ What goes into an Emotional aspect:
 - Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
 
 Good Emotional Aspect examples:
+
 - Feel in control of the home acquisition process
 - Avoid feeling uncertain about new home selection
 
@@ -171,6 +175,7 @@ What goes into an Social aspect:
 - Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
 
 Good Social Aspect examples:
+
 - Appear as a good future neighbor
 - Avoid appearing unknowledgeable about the new home acquisition process
 
@@ -181,6 +186,7 @@ These aspects can vary widely and provide insights into the Job Performer's emot
 Job Differentiators are the factors or circumstances that influence how the job gets done. They often encompass time, manner, or place, among other characteristics. Job Differentiators are introduced with the word "if", indicate a range of options, and use "versus/vs." when applicable to show a comparison.
 
 What goes into a Job Differentiators:
+
 - Begins with words like _if_
 - Should show a range of options with Versus/Vs
 - Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
@@ -197,7 +203,6 @@ Additionally, you can qualify the Main Job in order to narrow its scope, such as
 
 When talking about Jobs to be Done, we’re often talking about different levels of jobs. It’s important to note the differences in terminology between these levels so that you and your stakeholders can communicate effectively.
 
-
 ![JTBD hierarchy diagram](JTBD_Diagram.png)
 
 ### Main Jobs
@@ -206,13 +211,11 @@ A Main Job is a means to an end. It's an act that will be performed and should h
 
 Example: Buy a new home
 
-
 ### Small jobs
 
 Small Jobs are more practical and correspond to a process or workflow. They answer the question, "How does the job get done?" in the context of the Main Job and moves the user closer to accomplishing their goal.
 
 Example: Put in an offer on a house
-
 
 ### Micro-jobs
 
@@ -221,7 +224,6 @@ Micro-jobs are the small tasks a user may undergo to accomplish their small job 
 Example: Decide how much you’re going to offer in relation to the asking price.
 
 It’s important to be able to identify and correctly place jobs at the right altitude as you work through the Jobs to be Done process. It will help keep you focused on the Main Job and allow you to quickly incorporate (or discard) new information that you hear during interviews into your [job steps](#job-steps-how-does-the-job-performer-get-the-job-done).
-
 
 ## Job Stories
 
@@ -232,6 +234,7 @@ Job Stories should be created to synthesize and summarize your data from your Jo
 Job Stories emphasize the situation and context over the individual. Ultimately, Job Stories combine your top insights to one place and summarize them. Good Job Stories describe the pain points that you’re going after and help you empathize with the Job Performer.
 
 **Paint points must:**
+
 - Express a need, not a solution
 - Be concrete, not abstract
 - Be measured quantitatively, not anecdotal
@@ -283,7 +286,6 @@ For any domain, you might end up with 3 to 5 Job Stories covering the data and i
 - **Incorporate them into issues**: Add them into the description of an issue as a heuristic to measure the solution against and to aid in making design decisions.
 - **Usability testing success criteria**: Validate whether the solution successfully achieves the Job Story.
 
-
 <!-- OLD CONTENT - from deleted pages -- may be re-incorporated, so keeping it here for now
 
 ### JTBD Hierarchy
@@ -293,7 +295,6 @@ Using our examples, we can produce a JTBD hierarchy, confirming we operate at th
 - **Main Job**: Maintain an acceptable level of risk in my organizations assets.
 - **Small job**: Prioritize business-critical vulnerabilities in my assets.
 - **Micro jobs**: Review the most recent risks detected in my assets; Refine the list of risks by relevancy; Refine the list of risks by impact.
-
 
 ### Using JTBD at GitLab
 
@@ -320,7 +321,6 @@ Read "[What is and isn't a JTBD](/handbook/product/ux/jobs-to-be-done/deep-dive/
 Job stories offer a higher-level view of the main objective. However, when written at a lower altitude, they can serve the same function as user stories, guiding your solutions while keeping the Main Job, circumstances, and need in mind.
 
 If you want a detailed breakdown of each segment of the JTBD, learn more about the [structure of a JTBD](/handbook/product/ux/jobs-to-be-done/deep-dive/#how-do-i-structure-a-jtbd). -->
-
 
 <!-- 
 ---
@@ -355,7 +355,6 @@ Consider these job stages as more of a guideline than a prescriptive model. The 
 | Modify     | Modify and iterate as necessary.                       | Modify, Update, Adjust, Maintain       |
 | Conclude   | End the job and follow-up.                             | Conclude, Store, Finish, Close         |
 
-
 ### Step 1 - Create a job map
 
 1. Use this ([FigJam Template](https://www.figma.com/file/M8w3pkidNUAUIQrQALifFS/JTBD-Template?type=whiteboard&t=HXmKttyxz1lwX9B8-6)).
@@ -379,7 +378,6 @@ To get started, ask yourself these questions:
 - How might you get more of the job done for customers?
 - What related jobs can your offering address or tie in to the job?
 
-
 ## References and Further Reading
 
 - [Jobs to be Done Playbook by Jim Kalbach](https://rosenfeldmedia.com/books/jobs-to-be-done-book/)
@@ -388,11 +386,6 @@ To get started, ask yourself these questions:
 - [Intercom on Jobs to be Done by Intercom](https://www.intercom.com/resources/books/intercom-jobs-to-be-done)
 
  -->
-
-
-
-
-
 
   <!--
   ---

@@ -5,11 +5,6 @@ title: Experimentation Design & Analysis
 
 <!------->
 
-
-
-
-
-
 ## Overview
 
 At GitLab, we have a unique approach to experimentation that is built in-house by our incredible development team. The reason we use this approach is to uphold our commitment to our users and customers to protect their privacy. This custom approach leads to some challenges that are not experienced with more commonly used 3rd party experimentation tools. Due to this reality, experimentation at GitLab must be approached with a high level of intentionality and forethought. The purpose of this handbook page is to create some guidelines around experimentation to avoid common errors and to define best practices.
@@ -29,6 +24,7 @@ This experiment framework is derived from the previous version of our Experiment
 The current experiment framework that is being utilized by GitLab is called the `gitlab-experiment-gem` or GLEX for short. Here at GitLab we run experiments as A/B/n tests and review the data the experiment generates. From that data, we determine the best performing code path and promote it as the new default code path, or revert back to the original code path. You can read our [Experiment Guide documentation](https://docs.gitlab.com/ee/development/experiment_guide/) if you're curious about how we use this [gem](https://www.solutelabs.com/blog/how-to-create-a-gem-in-ruby-on-rails) internally at GitLab. This experiment framework relies heavily on front-end events or events that are created by our data collector, Snowplow.
 
 When we discuss the behavior of this gem, we'll use terms like experiment, context, control, candidate, and variant. It's worth defining these terms so they're more understood. These are the universal terms used across the company.
+
 - **experiment** is any deviation of code paths we want to run sometimes and not others.
 - **contexts** is used to identify a consistent experience we'll provide in an experiment.
 - **control** is the default, or "original" code path.
@@ -45,6 +41,7 @@ This is the JSON column that will contain any useful identifiers that are used t
 Context_keys are used in experiment analysis to determine the unique users/projects/namespaces that engage in the various features and/or stages as defined by the experiment analysis. Context_keys can be “sticky” to various identifiers (either user, namespace, project or some combination of user per project or user per namespace) depending on what is needed for the experiment.
 
 Examples:
+
 - Assigning context_key to be sticky to a user (1 context key = 1 user), if we’re identifying how many users adopted specific features as a result of an experiment regardless of their namespace or project.
 - Assigning context_key to be sticky to namespaces (1 context key = 1 namespace) , if we’re identifying how many stages were adopted as a result of an experiment regardless of how many users engaged in each stage.
 - Assigning context_key to be sticky per user, per namespace (1 context key = 1 user per namespace) if we’re identifying how many specific users in a namespace adopted specific features as a result of an experiment. This will prevent users who are part of multiple namespaces to have their feature and/or stage adoption from being counted towards all the namespaces they are a part of.
@@ -146,6 +143,7 @@ There are three different kinds of metrics that can be defined for an experiment
   These are the main KPIs or metrics that you expect to be impacted by the experiment. Usually these metrics will be used to define the success or failure of the experiment using statistical significance - be sure to consult the Product Analysis team to identify how long it will take these metrics to hit statistical significance.
 
   Examples:
+
   - If launching an experiment that affects trials, a primary metric you could use is the count of trials that are being created from this experiment
   - If launching an experiment that affects conversions, a primary metric you could use is the count of conversions generated from this experiment
 
@@ -154,6 +152,7 @@ There are three different kinds of metrics that can be defined for an experiment
   These are any metrics that you expect could be impacted by the experiment but are not going to be the main metrics that we will use to declare success or failure for an experiment.
 
   Examples:
+
   - If your experiment specifically is looking at the number of trials, you could also place conversions as a secondary metric as the increase in trials would theoretically impact the number of conversions.
   - If your experiment is targeting adoption of a specific stage, you could place Stages per Organization as a secondary metric as the increase in adoption of a stage could lead to additional stages being adopted.
 
@@ -162,6 +161,7 @@ There are three different kinds of metrics that can be defined for an experiment
   Leading indicators are a directional determinant of the performance of an experiment based on the volume of front-end events between variants
 
   Examples:
+
   - If your experiment is looking at visits to a new landing page, you could place pageviews as a leading indicator
   - If your experiment is looking at new CTAs being added to the product, you could place button clicks as a leading indicator
 
@@ -185,6 +185,7 @@ size. In addition, there needs to be extra care taken to ensure that experiments
 
 True RCTs will be developed and evaluated with the industry standard statistical significance level
 of p <= 0.05 and a power of 0.8.
+
 - p <= 0.05: results are **statistically significant**
   - Ex: The variant landing page showed a significant increase of 10% in click rate.
 - p > 0.05: results are **not statistically significant**
@@ -204,6 +205,7 @@ these measurements needs to be very intentional so as to not overstate our confi
 means that we should *not* communicate a percent change (ex: 10% increase) because our level of
 certainty and statistical significance could be misinterpreted. In addition, including the p-value
 (or noting the confidence level) helps to avoid misinterpretation.
+
 - p <= 0.05: experiment **“had an impact”**
   - Ex: The variant landing page showed a lift in click rate from 40% to 44% (p=0.04).
 - p > 0.05 and p < 0.2: experiment **"had a directional impact"** (or **“might have had an impact”**)
@@ -213,6 +215,7 @@ certainty and statistical significance could be misinterpreted. In addition, inc
 
 It is not always straightforward or easy to select which type of experiment to run. Here are a
 few questions to help guide that decision:
+
 - **How certain do I need to be that this experiment *caused* a change in a metric?** Is a
 directional learning sufficient?
   - If the metric is critical to the business and you need to be certain that the experiment
@@ -318,7 +321,6 @@ In this section, we will review some of the most common errors that are made by 
 
 - Cross-contamination of data can happen when too many experiments are being run in the same area of the product and/or are being shown to the same population of users.
 - Be sure to check how many experiments are being run at any given time.
-
 
 ## Additional resources
 

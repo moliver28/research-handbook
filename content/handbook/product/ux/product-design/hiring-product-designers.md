@@ -27,6 +27,7 @@ A [detailed description of each stage of our interview process](/job-families/pr
 We have established a set of questions we ask at each stage of the process. All questions are available in the Greenhouse scorecard for the candidate. We ask the same questions to every candidate to ensure fairness--during the interview and when evaluating each candidate.
 
 An interview rubric has been defined that provides a set of positive answer traits and characteristics to look out for when asking each of the Greenhouse interview questions. It's recommended that you:
+
 1. Open the appropriate GDoc version for your interview level (i.e. Senior or Intermediate candidate) for quick access after your interview to aid in completing your Greenhouse Scorecard.
 1. Compare your notes with the rubric on each question and
 1. Assess how the candidate's answer compares to the desired positive traits/characteristics provided.
@@ -45,6 +46,7 @@ Use this rubric comparison/assessment to help with your final scorecard assessme
 Any Product Designer can participate in the hiring process after completing the [company interview training](https://gitlab.com/gitlab-com/people-group/Training/-/blob/master/.gitlab/issue_templates/interview_training.md) and a [Product Design-specific interview training](https://gitlab.com/gitlab-org/gitlab-design/-/blob/master/.gitlab/issue_templates/Product%20Designer%20Job%20Interview%20Training.md). These trainings will teach you how to perform successful interviews at GitLab.
 
 In the last steps of the training, you will:
+
 - Shadow an experienced Product Designer interviewer in two separate interviews, so that you can see how a successful interview is conducted.
 - Be shadowed by your coach in two separate interviews. They will act as your coach and provide feedback on your interviewing skills.
 

@@ -67,6 +67,7 @@ Note that these cohorts will overlap, so we won't necesssarily be gathering 200 
 In order to understand how the experiences of our Self-Managed users compare to those of our SaaS users, we conduct a limited SUS measurement of Self-Managed users every other quarter. The majority of these users are recruited via Marketo.
 
 **The Self-Managed cohort has the following criteria:**
+
 - **Self-Managed user:** Users self-report that they are a user of a Self-Managed instance of GitLab.
 - **Recently active:** Users self-report that they have been active on a Self-Managed instance in the last 30 days.
 - ***n* = 100**: Given that Self-Managed users are harder to recruit for, we want to lower our sample size as to not exhaust Self-Managed users in the Marketo panel and to acquire data in a timely fashion. **This cohort will have a higher margin of error compared to our regular cohorts.**

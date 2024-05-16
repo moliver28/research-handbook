@@ -5,17 +5,7 @@ title: How to Engage with Product Management
 
 This document describes how to engage with the product management team.
 
-
-
-
-
-
-
-
-
 ## Where to reach Product Managers
-
-
 
 - **[Public Issue Tracker (for Product)](https://gitlab.com/gitlab-com/Product/issues)**; please use confidential issues for topics that should only be visible to team members at GitLab.
 - **[Chat channel](https://gitlab.slack.com/archives/product)**; please use the `#product` chat channel for questions that don't seem appropriate for the issue tracker.
@@ -243,7 +233,6 @@ It is best practice to ask for a PM to join your call through the slack channel 
 Before reaching out to the PM, fill out the [PM Customer Meeting Briefing Document](https://docs.google.com/document/d/1TPJwjJTOrlrtuJ_srs631ndL6dkiwl9yIi3PPtgStos/edit#heading=h.sujaka5bd7jl) and send it to the PM along with your request. The PM will review the doc and let you know if they are able to attend the meeting. PMs may decline meeting requests if they do not receive the context doc or if it is only partially complete. We recommend sending this context along with your request at least 3 business days before the meeting. The PM will review the document and provide feedback to ask for further clarity if needed.
 
 In addition, once the call is scheduled, make sure you have a detailed agenda set at least 24 hours before the call that is shared with both the customer and the Product team.
-
 
 ### EBR Preparation
 

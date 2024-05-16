@@ -75,12 +75,8 @@ description: >-
 
     The board content is all wrapped up for Qx! Thank you all for your work in putting these materials together. I’m going to close this slack channel since it’s no longer needed. Feedback is always welcome - please let me know if you have any thoughts (positive or negative) about the board prep process. 
 
-
 </details>
 </p>
-
-
-
 
 ## Edit This Page
 

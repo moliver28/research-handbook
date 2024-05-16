@@ -39,6 +39,7 @@ The product handbook is widely referenced by product managers and cross-function
 This template will also help you out by automatically adding labels and assigning required reviewers.
 
 You will also be asked to indicate which type of change you are suggesting:
+
 - Small improvement (typos, clarifications, etc.)
 - Adding a new section
 - Modifying existing section
@@ -139,5 +140,3 @@ When you are tagging `@mention`:
 - Write a short summary in the same comment so team members can quickly understand the necessary context.
 - Review the issue title and description to ensure it has relevant details other product team members need **BEFORE** submitting the comment. The issue title will be the subject of email notifications and in-product to-do items.
 - If asking team members to review a change, please directly link to the specific page on the [review app](https://docs.gitlab.com/ee/ci/review_apps/#how-review-apps-work) and any relevant issues or MRs.
-
-

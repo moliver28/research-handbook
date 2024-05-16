@@ -33,7 +33,6 @@ Product team members who report directly to the [Chief Product Officer](/job-fam
 
 This group can be referenced in GitLab.com issues using the `@gl-product-plt` handle.
 
-
 ## Product Monthly Kick-Off Host Rotation
 
 The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is hosted by a member of [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) on a monthly rotation. See below for the schedule:
@@ -57,7 +56,6 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | 2024-11-18 | Justin Farris | To be added |
 | 2024-12-18 | Hillary Benson | To be added |
 
-
 ## Product Key Review Leader Rotation
 
 The Product [Key Review](/handbook/company/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
@@ -69,7 +67,6 @@ The Product [Key Review](/handbook/company/key-review/) is hosted by a member of
 | 2024-XX-XX | Justin Farris | To be added |
 | 2024-XX-XX | Mike Flouton | To be added |
 | 2024-XX-XX | Hillary Benson | To be added |
-
 
 ## Product Group Conversation Leader Rotation
 
@@ -87,7 +84,6 @@ For more details, visit the Group Conversations [handbook page](/handbook/compan
 | 2024-XX-XX | Justin Farris | To be added |
 | 2024-XX-XX | Mike Flouton | To be added |
 | 2024-XX-XX | Hillary Benson | To be added |
-
 
 ## Product Leadership ReadMe's
 

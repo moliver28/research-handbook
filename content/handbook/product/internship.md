@@ -5,13 +5,6 @@ title: Product Internship - Best Practices
 
 This document describes best practices for [internship for learning](/handbook/people-group/learning-and-development/internship-for-learning/) with Product.
 
-
-
-
-
-
-
-
 ## Interning for Learning - Product Best Practices
 
 Internships are a great way for a GitLab team member to learn about being a Product Manager at GitLab. Use this guide for planning and executing an internship under an IC PM who acts as the 'Intern Mentor'.

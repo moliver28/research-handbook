@@ -47,7 +47,6 @@ Finally, you need to have your Git and SSH credentials correctly set up in your 
 
     Make sure to check for the existence of this particular text in your GDK-powered environment. Do so by going to one of the sample projects and clicking on Settings and then in General. The helper text of the first section is what we will be changing.
 
-
 1. Now that we have a clear goal of what we are changing is time to find the file or files that need to be modified for this change to happen. To do this go to Visual Studio Code and click on the Global Search icon on the left sidebar of your Visual Studio Code window. This should reveal a text box where you can type your search query. In this particular case, we are searching for a particular string which is `Update your project name, topics, description and avatar`. Simply copy and paste that line in the search box.
 
     At this point, you should see some search results that match your query. Since this guide is focused on making UI string changes here are some general rules to make sure that you're indeed changing the correct occurrence of that text:

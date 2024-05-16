@@ -35,16 +35,15 @@ These categories are grouped by data source and subject area.
 
 #### FAQs
 
-
 > Is it possible to report at the namespace or user level using Service Ping data?
+
 - Nope! As part of our [Commitment to Individual User Privacy](/handbook/product/analytics-instrumentation-guide/service-usage-data-commitment/), GitLab only collects usage metrics aggregated at the installation level.
 
 > What is the difference between an instance and an installation?
+
 - An installation is the unique combination of instance_id and host_id. [Read more here](/handbook/business-technology/data-team/data-catalog/self-managed/). We do Self-Managed analysis and reporting at the installation level.
 
-
 #### Documentation
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -58,9 +57,7 @@ These categories are grouped by data source and subject area.
 
 </details>
 
-
 #### Commonly Used Data Models
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -72,11 +69,9 @@ These categories are grouped by data source and subject area.
 | common_mart_product | [rpt_ping_latest_subscriptions_monthly](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_ping_latest_subscriptions_monthly) | `ping_created_date_month`, `latest_subscription_id`, `dim_installation_id` | Active Self-Managed subscriptions by month, including seat count. If a subscription sends Service Ping, then installation-level data is provided.| This includes seat count and can be used to calculate Service Ping opt-in rate |
 | common_mart_product | [rpt_ping_metric_totals_w_estimates_monthly](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_ping_metric_totals_w_estimates_monthly) | `ping_created_date_month`, `metrics_path`, `ping_edition`, `estimation_grain`, `ping_edition_product_tier`, `ping_delivery_type` | This model is used for xMAU/PI reporting and is the source for Service Ping data in the [td_xmau] snippet. | |
 
-
 </details>
 
 #### Good to Know
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -88,9 +83,7 @@ These categories are grouped by data source and subject area.
 
 - The `milestone` field of the [metrics dictionary](https://metrics.gitlab.com/) can also be used to identify the version when a metric was instrumented, but there a couple of limitations. First, many metrics are just labeled `< 13.9`, so there is a lack of more detail for older metrics. Second, metrics can be introduced on different versions for CE and EE, so `milestone` could be incorrect for one edition/distribution. For these reasons, we recommend using [common_mart_product.rpt_ping_metric_first_last_versions](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_ping_metric_first_last_versions) if you are looking to find out when a metric was instrumented.
 
-
 </details>
-
 
 ### GitLab.com
 
@@ -99,16 +92,18 @@ GitLab.com (SaaS) is a single installation reporting a single ping within our Se
 #### FAQs
 
 > Why don't all events for all Stages and Groups show up in our GitLab.com data?
+
 - This is due to limitations in replicating Service Ping counters using the gitlab.com db Postgres replica
 
 > Is it possible to associate user level behavior in our GitLab.com data to our Snowplow events?
+
 - No. Our snowplow user identifiers are anonymized, while our GitLab.com user identifiers are not. However, it is possible to join Snowplow and GitLab.com data at the namespace (group/project) level.
 
 > I've heard there are some reliability issues with our GitLab.com data. How can I stay up to date on outages or known problems?
+
 - [This Issue](https://gitlab.com/gitlab-data/analytics/-/issues/12921) documents all known problems with the GitLab.com replica.
 
 #### Documentation
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -124,9 +119,7 @@ GitLab.com (SaaS) is a single installation reporting a single ping within our Se
 
 </details>
 
-
 #### Commonly Used Data Models
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -141,7 +134,6 @@ GitLab.com (SaaS) is a single installation reporting a single ping within our Se
 
 #### Good to Know
 
-
 <details markdown="1"><summary>Click to expand</summary>
 
 - GitLab.com data sources are not exhaustive of all of the actions users can take within GitLab's SaaS offering.
@@ -155,20 +147,22 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 #### FAQs
 
 > Why doesn't the metric that my team implememented show up in the [metrics dictionary](https://metrics.gitlab.com/snowplow)?
+
 - In order to show up in the [metrics dictionary](https://metrics.gitlab.com/snowplow), every event needs a [.yml file](https://gitlab.com/gitlab-org/gitlab/-/tree/master/config/events). This will not happen automatically and should be created by the engineer that implements snowplow tracking.
 
 > Why is the value for `gsc_namespace_id` null for some proportion of snowplow events?
+
 - Engineers need to enable tracking for `gsc_namespace_id` when implementing new events. If tracking for `gsc_namespace_id` is already enabled and nulls are still occurring, the events may be triggered in a location within GitLab.com that is not specific to any one namespace like the ToDos page.
 
 > What is the correct logic to identify events triggered in production environments?
+
 - Apply the following logic `WHERE app_id IN ('gitlab','gitlab_customers')`
 
 > How should I interpret the `event_category` value in structured snowplow event payloads?
+
 - The `event_category` value will be automatically populated according to [this codified logic](https://gitlab.com/gitlab-org/gitlab/-/blob/master/app/helpers/application_helper.rb?ref_type=heads#L143-143) unless the engineer instrumenting the event overrides this logic, which is often the case for backend events. A great place to search for the meaning of these values is by key word searching in [this EE controllers repository]( https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/app/controllers). Controllers outside of EE are also searchable and located [here](https://gitlab.com/gitlab-org/gitlab/-/tree/master/app/controllers). Otherwise, you can reach out to the engineering slack channel for the team who instrumented the event of interest and ask for validation on the correct interpretation of your `event_category` value there.
 
-
 #### Documentation
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -182,9 +176,7 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 
 - [PDI: Snowplow New Models Onboarding](https://docs.google.com/presentation/d/1L6g2XCHWhRRXAbJ5txBavdxPW0Jja1E43QzxbtYvQK0/edit?usp=sharing)
 
-
 </details>
-
 
 #### Commonly Used Data Models
 
@@ -199,11 +191,9 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 | common | [fct_behavior_unstructured_event](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_behavior_unstructured_event) | `fct_behavior_unstructured_sk` | Derived fact table for unstructured events. |  |
 | common | [dim_behavior_event](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_behavior_event) | `dim_behavior_event_sk` | Dimensional model containing distinct events types from Snowplow. |  |
 
-
 </details>
 
 #### Good to Know
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -212,7 +202,6 @@ Snowplow is an open source event tracking tool that is used at GitLab to track G
 - We do not use snowplow on our self-managed instances, only on GitLab.com
 
 - If developers or PMs are wondering about standard implementation, the event schema is documented [here](https://docs.gitlab.com/ee/development/snowplow/index.html#event-schema).
-
 
 </details>
 
@@ -223,14 +212,16 @@ This category of data models includes GitLab.com (SaaS) [namespaces](https://doc
 #### FAQs
 
 > What is a namespace?
+
 - Starting with the basics! GitLab has two categories of namespaces; groups and projects. In general, a namespace provides one place to organize your related projects. Read more [here](https://docs.gitlab.com/ee/user/namespace/). Namespaces exist within GitLab SaaS and Self-Managed products, but to product the privacy of our Self-Managed users, we only collect identifiable namespace data for SaaS.
 
 > What types of namespaces do we normally analyze?
+
 - We normally perform analyses at the Ultimate parent namespace level.
 
 > Do we have access to membership history data?
-- No. Membership history at GitLab is not recorded in any data models.
 
+- No. Membership history at GitLab is not recorded in any data models.
 
 #### Documentation
 
@@ -242,12 +233,9 @@ This category of data models includes GitLab.com (SaaS) [namespaces](https://doc
 
 - [Member-specific knowledge base page](https://docs.gitlab.com/ee/user/project/members/index.html) explaining direct and indirect memberships as well as shared group memberships.
 
-
 </details>
 
-
 #### Commonly Used Data Models
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -264,11 +252,9 @@ This category of data models includes GitLab.com (SaaS) [namespaces](https://doc
 
 #### Good to Know
 
-
 <details markdown="1"><summary>Click to expand</summary>
 
 - `member_count` fields found in any `common` models are not accurate and should not be used. Use `legacy.gitlab_dotcom_memberships` for any analyses intended to measure # members per namespace. [Here is the Issue](https://gitlab.com/gitlab-data/analytics/-/issues/12566) representing work to correct these accuracy problems.
-
 
 </details>
 
@@ -279,11 +265,10 @@ Models used to report on trials, subscriptions and charges.
 #### FAQs
 
 > How mature is the [Trusted Data](/handbook/business-technology/data-team/platform/#tdf) approach to namespace and installation trial and paid conversion analysis?
+
 - This category of data models is the next priority for refactoring and aligning with the [Trusted Data Framework](/handbook/business-technology/data-team/platform/#tdf).
 
-
 #### Documentation
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -295,9 +280,7 @@ Models used to report on trials, subscriptions and charges.
 
 </details>
 
-
 #### Commonly Used Data Models
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -311,7 +294,6 @@ Models used to report on trials, subscriptions and charges.
 </details>
 
 #### Good to Know
-
 
 <details markdown="1"><summary>Click to expand</summary>
 
@@ -328,5 +310,3 @@ Models used to report on trials, subscriptions and charges.
  - [dim_subscription](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription) reflects the latest greatest settings (example Cloud Licensing status) per subscription per term. To understand historical settings of subscriptions please refer to [dim_subscription_snapshot_model](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.dim_subscription_snapshot_model)
 
 </details>
-
-

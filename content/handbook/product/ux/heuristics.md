@@ -31,7 +31,6 @@ This list can change and the handbook version is the SSOT. It's based on best pr
 | Onboarding | Features/workflows have clear calls to action. | A call to action should make it clear what is to be done to move the task forward.  At the very least, there should be links to documentation for assistance. At best, guided setup.|
 | Onboarding | Tasks are easy to learn, or if highly complex, have setup support in the form of in-app guidance, defaults, templates or wizards. | Tasks should be intuitive first and foremost, and when they are complex, they must provide tools to enable learning. |
 
-
 ## Scoring
 
 Scoring these heuristics can have an element of subjectivity, but the more you involve other users in the evaluation the less subjective it will be. Heuristic scoring is optional, but consists of scoring all [11 heuristics](/handbook/product/ux/heuristics/#heuristics) for a part of the product on a 1-5 scale using the scoring table below. This [scoring sheet](https://docs.google.com/spreadsheets/d/1KwktDjTnM7eZlI8aj3jk7KbRpkfexJV20-6cTNMtz5w/edit?usp=sharing) allows you to easily record your responses and determine an overall score (average of individual scores for the 11 heuristics).
@@ -51,4 +50,3 @@ If you're completing a UX Scorecard, please use the [UX Scorecard Grading Rubric
 
 - [Nielssen Norman Group](https://www.nngroup.com/articles/ten-usability-heuristics/)
 - [UI Tenets & Traps](https://uitraps.com/)
-

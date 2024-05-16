@@ -214,8 +214,6 @@ If a quad member remains concerned and in strong disagreement with the decision 
 
 Results are the most important aspect to consider for the business and our users. If there is a perceived risk to potentially harm the business financially, reduce customer satisfaction or value, or lead to legal trouble, teammates are empowered to seek an alternative perspective for the product decision. Within the Product Division, we recommend escalating first to the management layer immediately above where the disagreement is happening for input and further escalating to PLT and ultimately the Chief Product Officer.
 
-
-
 ##### What if your team doesn't have a designer?
 
 Product Designer assignments are listed in the team.yml file. Unfortunately, we are currently unable to assign a dedicated Product Designer for every group. Instead, Product Designers are assigned to the areas of highest business priority and will continue to provide focused support to those priorities throughout the year. Due to the limited capacity, we are also not able to do UX reviews on MRs for groups without a designer.
@@ -223,6 +221,7 @@ Product Designer assignments are listed in the team.yml file. Unfortunately, we 
 If there isn't a designer listed for a group, then that team is expected to be self-sufficient in taking responsibility for the design needs of their product area. Product Design does not have the capacity to review complex proposed design solutions or provide design solutions for unsupported groups.
 
 If you have questions or need support you can do so in the following ways:
+
 - PMs who need to create designs can request access to Figma by creating an [Access Request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new). **Note:** We cannot grant an Editor seat by requesting an upgrade within Figma. An access request issue is required.
 - Review and follow the [Pajamas guidelines](https://design.gitlab.com/).
 - If you have a small design question, or the Pajamas guidance is not clear, reach out via the `#ux` or `#ux_coworking` Slack channel.

@@ -24,15 +24,21 @@ The product direction is an important part of each PMs work. PMs are expected to
 The direction page provides a thematic overview of the focus investment areas for the category. The "What's Next" section should cover the larger, strategic investment themes, while linking to Epics and Issues in GitLab for additional details.  The Roadmap section should outline both (1) current development focus areas and (2) exploratory/design work to inform future work. For each time block (Now/Next/Future) on your direction page, consider adding "how we are measuring success" so the reader can see progress and what the definition of success means.
 
 The structure of a roadmap on a direction page might looks something like this:
+
 1. Now
+
   - Prioritized development work
   - Exploratory work
   - How we are measuring success
+
 1. Next
+
   - Prioritized development work
   - Exploratory work
   - How we are measuring success
+
 1. Future
+
   - Prioritized development work
   - Exploratory work
   - How we are measuring success
@@ -240,6 +246,7 @@ Some guidelines to help promote consistency of what is included in the blog post
 Depending on the [maturity level](https://about.gitlab.com/direction/maturity/) of your category should influence what you select for as a release post item.
 
 **Minimal**
+
 - Any new features.
 - Any significant UI additions.
 - Disruptive features that may significantly improve workflows or occasionally introduce unavoidable inconveniences.
@@ -251,6 +258,7 @@ Depending on the [maturity level](https://about.gitlab.com/direction/maturity/) 
 - Smaller tweaks, if interesting, can be included at the bottom of the post.
 
 **Viable**
+
 - Any user facing [direction](/handbook/product/product-processes/#managing-your-product-direction) delivery that is complete.
 - Disruptive features that may significantly improve workflows or occasionally introduce unavoidable inconveniences.
 - We want to anticipate questions and avoid confusion by communicating these changes through the blog post.
@@ -261,12 +269,14 @@ Depending on the [maturity level](https://about.gitlab.com/direction/maturity/) 
 - Any deprecations and breaking changes.
 
 **Complete**
+
 - Any user facing [direction](/handbook/product/product-processes/#managing-your-product-direction) related delivery that is complete.
 - UX improvements that significantly adjust current workflow should be included.
 - Significant bug fixes.
 - Any deprecations and breaking changes.
 
 **Loveable**
+
 - Any user facing [direction](/handbook/product/product-processes/#managing-your-product-direction) related delivery that is complete.
 - Significant bug fixes.
 - Any deprecations and breaking changes.
@@ -896,6 +906,7 @@ Execution of a Global prioritization can take many forms.  This is worked with b
 - [Realignment](/handbook/people-group/promotions-transfers/#realignment-of-team-members-impacting-multiple-teams) - use when a permanent assignment to a team is required to resolve ongoing challenges. This has the highest impact to team members and should be considered if other options cannot achieve the desired goal. We strive to hire team members in the groups that will need them most.
 
 We have found the following methods less successful in ensuring completion of work that warrants global prioritization:
+
 - [Working Groups](/handbook/company/working-groups/) - This method involves convening a group of individuals who maintain full-time responsibility to other [Product Groups](/handbook/company/structure/#product-groups) and completing work as part of the working group structure. This method isn't prefered for completing product improvements, instead it can be utilized to scope work, or determine plans for future product delivery.
 - Fan Out Prioritization - This method of prioritization involves communicating a global prioritization to a number of [Product Groups](/handbook/company/structure/#product-groups) in an effort to ensure each individual product group's PM prioritizes the work in the timeframe you'd prefer.  This method requires significant coordination costs and puts delivery at risk due to the lack of central prioritization responsibility. In most cases it is preferred to execute a scope reassignment, borrow or realignment to complete the improvements.
 
@@ -1523,7 +1534,6 @@ Here are some examples of feedback issues:
 - [WebIDE](https://gitlab.com/gitlab-org/gitlab/-/issues/385787)
 - [Fonts](https://gitlab.com/gitlab-org/gitlab/-/issues/386205)
 - [`master` -> `main`](https://gitlab.com/gitlab-org/gitlab/-/issues/221164)
-
 
 #### Other Best Practice Considerations
 
