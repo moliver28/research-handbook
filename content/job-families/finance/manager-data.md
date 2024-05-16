@@ -56,7 +56,6 @@ The Manager, Data is a [grade 8](/handbook/total-rewards/compensation/compensati
     1. Data Adoption
     1. Revenue/Efficiency Impact
 
-
 ### Senior Manager, Data
 
 #### Senior Manager, Data Job Grade
