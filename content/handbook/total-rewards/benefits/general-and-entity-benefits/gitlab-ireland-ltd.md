@@ -97,7 +97,7 @@ Please find the the following documentation to assist you with the disability cl
 
 GitLab uses TravelHub to assist with the administration of the bike to work/tax saver commuter scheme. The GitLab specific online portal can be found at [GitLab Travel Hub](https://gitlab.travelhub.ie/). Team members will need to register and account to enter the GitLab specific online portal. Here is a link to TravelHub's [FAQs](https://support.hubex.ie/hc/en-ie/articles/360044040031) about these programs.
 
-From 2021, Cycle to work will have a maximum expenditure of 1250 EUR or 1500 EUR for an electric bike. The scheme may now be availed of once in 4 consecutive tax years, previously this was once every 5 years.
+From 2023, Cycle to work will have a maximum expenditure of 1250 EUR or 1500 EUR for an electric bike, and 3,000 EUR for Cargo Bikes. The scheme may now be availed of once in 4 consecutive tax years, previously this was once every 5 years.
 
 **Bike Applications:**
 
