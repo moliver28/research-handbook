@@ -588,7 +588,7 @@ Note that you must start the `ZoomLauncher` binary and not the shell script wrap
 
 ### Virtual background
 
-With or without a physical [green screen](https://www.amazon.com/dp/B00JSAOGWG/ref=psdc_3443951_t1_B0053EBFRU), you can utilize [virtual backgrounds](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) so that you don't have to worry about what's behind you while on a video call.
+With or without a physical [green screen](https://www.amazon.com/dp/B00JSAOGWG/ref=psdc_3443951_t1_B0053EBFRU), you can utilize [virtual backgrounds](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) so that you don't have to worry about what's behind you while on a video call. You can also find more virtual backgrounds in our [Press Kit](https://about.gitlab.com/press/press-kit/) - found under "GitLab team member resources: Branded green screen library".
 
 Consider using a [custom GitLab Background](https://docs.google.com/presentation/d/1PM4sCuCTSmVtoCp_O-_K9BS7yrIJjh1kteMTT7PS9zI/edit#slide=id.gc454e6622b_0_3) (*Google Drive access available to GitLab team members who are logged in*).
 
