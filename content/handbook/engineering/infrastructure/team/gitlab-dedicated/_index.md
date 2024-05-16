@@ -35,6 +35,8 @@ The following people are members of the Dedicated:Environment Automation Team:
 
 {{< team-by-manager-slug "o-lluch" >}}
 
+{{< team-by-manager-slug "denhams" >}}
+
 The following people are members of the Dedicated:US Public Sector Services Team:
 
 {{< team-by-manager-slug "sdumesnil" >}}
