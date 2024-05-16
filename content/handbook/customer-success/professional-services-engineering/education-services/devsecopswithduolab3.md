@@ -1,6 +1,6 @@
 ---
 title: "DevSecOps with GitLab Duo - Hands-On Lab: Working with Issues and Merge Requests"
-description: "This Hands-On Guide walks you through the lab exercises used in the DevSecOps with GitLab Duo Course"
+description: "This Hands-On Guide walks you through using GitLab Duo to create Issues and merge requests"
 ---
 
 > Estimated time to complete: 30 minutes
@@ -13,15 +13,15 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Navigate to your GitLab Duo Principles Project.
 
-1. In your project, from the left sidebar, select **Plan > Issues**
+1. In your project, from the left sidebar, select **Plan > Issues**.
 
 1. Select **New issue**.
 
 1. For the Title, input `Update hello world visuals`.
 
-1. If your editor is in **rich text editing** mode, Select `Switch to plain text editing` at the bottom of the issue description
+1. If your editor is in **rich text editing** mode, Select `Switch to plain text editing` at the bottom of the issue description.
 
-    > Note: The AI generation feature for issue descriptions will only display in plain text editing mode. If you do not see the Tanuki button, you are likely in rich text editing mode.
+    > The AI generation feature for issue descriptions will only display in plain text editing mode. If you do not see the Tanuki button, you are likely in rich text editing mode.
 
 1. In the Description box, select the Tanuki button, then select **Generate issue description**.
 
@@ -47,12 +47,6 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. From the issue you just created, select **Create merge request**.
 
-1. In the template dropdown, select `basictemplate`. This will populate the description with some predefined topics an organization would want to capture information on.
-
-1. Select **Apply template**
-
-1. If your description box is in **rich text editor** mode, select `Switch to plain text editing` at the bottom of the MR description.
-
 1. Select the Tanuki icon, then select **Fill in merge request template**.
 
 1. Select **Apply AI-generated description**.
@@ -63,11 +57,11 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 ## Task C. Add Code to Your MR
 
-1. In your MR, select **Code > Open in Web IDE**
+1. In your MR, select **Code > Open in Web IDE**.
 
-1. Select the Tanuki icon from the left sidebar
+1. Select the Tanuki icon from the left sidebar.
 
-1. In the chat, write the prompt: `how could I use the go-figure module of go to print hello world in a different font?`
+1. In the chat, write the prompt: `How could I use the go-figure module of go-to print hello world in a different font?`
 
     You will get a response similar to this:
 
@@ -84,15 +78,15 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
     }
     ```
 
-1. Select the repository icon from the left sidebar
+1. Select the repository icon from the left sidebar.
 
-1. Select `main.go`
+1. Select `main.go`.
 
 1. Replace the contents of `main.go` with the AI generated code.
 
 1. Select Source Control from the left sidebar.
 
-1. Select the **Commit** button to commit the code changes
+1. Select the **Commit** button to commit the code changes.
 
 1. Select **Go to MR** to return back to your merge request.
 
@@ -106,7 +100,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Note that at the bottom of the MR description, there is now an outline of the changes included in the MR.
 
-## Task F. Root Cause Analysis
+## Task E. Root Cause Analysis
 
 > Uh-oh! You may have noticed that our pipeline failed.
 
@@ -116,15 +110,15 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. At the top of the output of the job click the button that says **Root cause analysis**.
 
-1. Select **Generate root cause analysis**
+1. Select **Generate root cause analysis**.
 
-1. This will generate a explanation on why the job failed an example fix. It will say something along the lines of a missing module. Try to implement the suggested fix in your `.gitlab-ci.yml` file by adding an additional `go` command in the `build app` job.
+1. This will generate an explanation on why the job failed an example fix. It will say something along the lines of a missing module. Try to implement the suggested fix in your `.gitlab-ci.yml` file by adding an additional `go` command in the `build app` job.
 
-1. Return to your Merge Request
+1. Return to your merge request.
 
-1. Select **Code > Open in Web IDE**
+1. Select **Code > Open in Web IDE**.
 
-1. Open your `.gitlab-ci.yml` file
+1. Open your `.gitlab-ci.yml` file.
 
 1. In the `script` section of your `build app` job, add the script to pull the `go-figure` dependency.
 
@@ -148,11 +142,11 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Select Source Control from the left sidebar.
 
-1. Select the **Commit** button to commit the code changes
+1. Select the **Commit** button to commit the code changes.
 
 1. Select **Go to MR** to return back to your merge request.
 
-1. Select **Merge** to merge your code updates into the main branch
+1. Select **Merge** to merge your code updates into the main branch.
 
 ## Lab Guide Complete
 
