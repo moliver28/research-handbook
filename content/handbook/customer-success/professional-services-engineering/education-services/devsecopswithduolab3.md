@@ -65,7 +65,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
     You will get a response similar to this:
 
-    ```
+    ```go
     package main
 
     import (

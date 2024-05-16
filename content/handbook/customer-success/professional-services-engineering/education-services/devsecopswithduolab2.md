@@ -23,7 +23,7 @@ To get started with GitLab Duo, we will test out some of the basic code generati
 
 1. The AI should respond with code similar to this:
 
-    ```
+    ```go
     package main
 
     import "fmt"

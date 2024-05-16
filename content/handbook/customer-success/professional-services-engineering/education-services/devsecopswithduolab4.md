@@ -29,7 +29,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. After doing this, your code should look similar to this:
 
-    ```
+    ```go
     package main
 
     import (
@@ -56,7 +56,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Once you see `math/rand` appear, press Tab. Your code should now look similar to this:
 
-    ```
+    ```go
     package main
 
     import (
@@ -88,7 +88,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Type the prompt `/tests`. You will receive some tests similar to below:
 
-    ```
+    ```go
     func TestRandomGitlab(t *testing.T) {
 
         // Test that it returns one of the words in the slice

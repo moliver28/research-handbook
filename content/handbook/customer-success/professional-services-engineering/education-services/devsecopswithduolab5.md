@@ -19,7 +19,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Remove all previous YAML and add the following code. Your `.gitlab-ci.yml` should look as follows:
 
-    ```
+    ```yml
     stages:
       - test
 
@@ -37,7 +37,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Replace all of your code with the following code:
 
-    ```
+    ```go
     package main
 
     import (
