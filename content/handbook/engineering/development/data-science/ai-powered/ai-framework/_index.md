@@ -149,6 +149,11 @@ We operate using async communication by default. There are times when a sync dis
 
 ## 🔗 Other Useful Links
 
+### 🌍 AIGW Region Deployments
+
+- 🚀 [Staging](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway-staging.yml?ref_type=heads#L12)
+- 🌐 [Production](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway.yml?ref_type=heads#L12)
+
 ### 📝 Dashboards (internal only)
 
 * All Usage
