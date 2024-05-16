@@ -197,7 +197,6 @@ Extends the Principal Integration Engineer requirements:
 
 - 12+ years of application integration experience.
 
-
 ## Manager, Robotics Process Automation (RPA)
 
 ### Job Grade
