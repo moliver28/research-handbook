@@ -16,7 +16,7 @@ Sponsorship is defined as using your influence and/or power to advocate and posi
 - Giving advice on “presentation of self” to sponsee
 - Giving timely, honest feedback on skills, capabilities or experience gaps
 
-At GitLab a sponsorship program can be a way of rewarding and growing top performing GitLab team members. Alternatively, it can be used to increase representation or provide visibility to underrepresented groups at GitLab, which can be seen via the [Sales Sponsorship Program Pilot for Black Team Members]({{< ref "dib-sponsorship-program" >}}).
+At GitLab a sponsorship program can be a way of rewarding and growing top performing GitLab team members. Alternatively, it can be used to increase representation or provide visibility to underrepresented groups at GitLab, which can be seen via the [Sales Sponsorship Pilot Program]({{< ref "dib-sponsorship-program" >}}).
 
 This page outlines what sponsorship is and the pathway to creating a successful sponsorship program
 
