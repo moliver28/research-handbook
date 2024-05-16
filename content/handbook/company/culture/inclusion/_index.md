@@ -314,14 +314,9 @@ If you are a team member on a GitLab Inc or Federal contract and a disabled vete
 - [Live Inclusion training](https://www.youtube.com/watch?v=gsQ2OsmgqVM&feature=youtu.be)
 - [Live Ally training](https://www.youtube.com/watch?v=wwZeFjDc4zE&feature=youtu.be)
 - Understanding [unconscious bias]({{< ref "unconscious-bias" >}})
-- Salesforce Trailhead has publicly available diversity training on topics such as [Cultivating Equality at Work](https://trailhead.salesforce.com/en/content/learn/trails/champion_workplace_equality), [Inclusive Leadership Practices](https://trailhead.salesforce.com/en/content/learn/modules/inclusive-leadership-practices), [Unconscious Bias](https://trailhead.salesforce.com/en/content/learn/modules/workplace_equality_inclusion_challenges), and [many other diversity related trainings](https://trailhead.salesforce.com/en/search?keywords=diversity)
+- Salesforce Trailhead has many [publicly available diversity trainings](https://trailhead.salesforce.com/en/search?keywords=diversity)
 - [Delivering Through Diversity](https://www.mckinsey.com/business-functions/people-and-organizational-performance/our-insights/delivering-through-diversity) McKinsey and Company research on Diversity and its value.
-- [Salesforce Equality at Work Training](https://trailhead.salesforce.com/trails/champion_workplace_equality).
  To earn badges and save your responses, you'll need to sign up! Use your GitLab address to sign in using Google+.
-- [Business Value of Equality.](https://trailhead.salesforce.com/trails/champion_workplace_equality/modules/workplace_equality_diversity_and_inclusion) This module has three units. The third is specific to Salesforce values and mission and is not required or suggested for our training.
-- [Impact of Unconscious Bias](https://trailhead.salesforce.com/en/trails/champion_workplace_equality/modules/workplace_equality_inclusion_challenges)
-- [Allyship]({{< ref "ally-resources" >}}) and [Equality Ally Strategies](https://trailhead.salesforce.com/trails/champion_workplace_equality/modules/workplace_equality_ally_strategies)
-- [Inclusive Leadership Practices](https://trailhead.salesforce.com/trails/champion_workplace_equality/modules/inclusive-leadership-practices)
 - To be truly inclusive is to be aware of your biases as well as strategies for stopping the effects of those biases. As part of our efforts, we recommend everyone to partake in [the Harvard project Implicit test](https://implicit.harvard.edu/implicit/takeatest.html) which focuses on the hidden causes of everyday discrimination.
 
 ## Diversity, Inclusion and Belonging and Learning and Development Quality Check: Internal and External Training
