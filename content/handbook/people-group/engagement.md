@@ -1,11 +1,11 @@
 ---
-title: Engagement, Employer Awards, and Organizational Health surveys
+title: Engagement Surveys and Employer Awards
 description: >-
   GitLab uses engagement surveys to allow team members to provide feedback and
   leadership to gain insight.
 ---
 
-### Engagement and Org Health Surveys Overview
+### Surveys Overview
 
 As an all-remote company, there are several surveys we run to better understand the GitLab culture, team member engagement, and overall health of the organization.
 
@@ -13,21 +13,9 @@ Seeking inputs from team members by surveying people is a key part of [GitLab's 
 
 There are different survey types that we run at different times throughout the year, each with different intended outcomes:
 
-- *CultureAmp Engagement survey:* we ask team members to complete this survey at least once a year to understand how engagement is tracking over time
 - *Employer Award surveys:* we ask team members to complete employer award surveys (i.e. Great Place to Work) to understand how GitLab compares against our talent competitors and to give future candidates insight into what it would look like to work here. The process for selecting and participating in [employer award surveys]({{< ref "awards-process" >}}) is outlined in the Talent Brand section of the handbook.
+- *Engagement survey:* We partner with CultureAmp to host and run our engagement surveys. We ask all team members to complete this survey at least once a year to understand how engagement is tracking over time.
 - *Organizational Health survey:* we will sometimes run a survey to understand our company and culture more fully (i.e. McKinsey OHI survey) and classify these efforts as Organizational Health surveys.
-
-## Organizational Health surveys
-
-In Q3 FY'23, our Talent & Engagement team ran our first organizational health survey.
-
-GitLab used McKinsey & Company’s [Organizational Health Index "OHI"](https://www.mckinsey.com/solutions/orgsolutions/overview/organizational-health-index) survey to help us understand where we have opportunities to help our organization and team members execute better and increase their impact. The OHI survey is separate from our CultureAmp Engagement survey; learnings from the former will complement the latter and also help inform workplace practices beyond GitLab.
-
-### FY'23 Q3/Q4 McKinsey OHI Survey Results
-
-We’ve summarized high level results of the OHI survey for all GitLab team members in [this document](https://docs.google.com/presentation/d/1B-T8TUcuidyIwbcpih01id2-TxZpE6D91Xt6w3z0uIw/edit?usp=sharing).
-
-The document linked above is only available to GitLab team members.
 
 ## Employer Award surveys
 
@@ -59,7 +47,9 @@ GitLab received [Great Place to Work Certification](https://www.greatplacetowork
 
 [Read more about the survey results](https://docs.google.com/presentation/d/1lT6E46aDmMM8JGAdXmNJFnhoSeCBx9DstsOq-y6yFH0/edit#slide=id.g123a13deda8_0_405).
 
-**FY23 Great Place to Work Survey Results**
+
+<details>
+<summary>FY23 Great Place to Work Survey Result</summary>
 
 GitLab received [Great Place to Work Certification](https://www.greatplacetowork.com/certified-company/7013799) for the 2nd year in a row in the US in December 2021 and was recognized for our outstanding company culture.
 
@@ -67,6 +57,8 @@ GitLab received [Great Place to Work Certification](https://www.greatplacetowork
 1. 96% of team members say GitLab is a Great Place to Work
 
 [Read more about the survey results](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5803).
+
+</details>
 
 ## CultureAmp Engagement Survey Overview
 
@@ -92,14 +84,39 @@ We will share with individual managers how close they are to recieving enough re
 
 The GitLab Team Member Engagement Survey is comprised of eleven sections each of which is aligned to a specific area of focus otherwise known as a factor.
 
-The survey factors for FY24 were as follows with each section including three to five questions and the survey was comprised of fifty seven questions in total. The format of the survey was predominantly Likert or Rating Scale with a handful of free text questions or comments toward the end. The favorable score is the percentage of participants who selected 'agree' and 'strongly agree'.
+The survey factors we primarily focus on:
+1. Overall Sentiment and Inclusivity
+2. Confidence in GitLab and Management
+3. Your Role & Connecting at GitLab
+4. Team and Company Values
+5. Action
+6. Open text questions
 
-1. Section 01: Overall Sentiment and Inclusivity
-1. Section 02: Confidence in GitLab and Management
-1. Section 03: Your Role & Connecting at GitLab
-1. Section 04: Team and Company Values
-1. Section 05: Action
-1. Section 06: Comments (Free Text)
+Overall survey ranges anywhere from 40 to 50 questions. The format of the survey was predominantly Likert or Rating Scale with a handful of free text questions or comments toward the end. The favorable score is the percentage of participants who selected ‘agree’ and ‘strongly agree’.
+
+
+## FY'25 Engagement Survey
+
+Our Engagement Survey for FY'25 is scheduled to run from 2024-06-17 to 2024-06-28. Survey will be open to all team members hired before 2024-05-31.
+
+### Summit Pulse Surveys Overview
+
+The goal of the Summit is to build trust through social connections. This trust should lead to higher individual and team motivation, leading to higher productivity and retention. Higher trust between individuals and teams fuels collaboration and leads to stronger results.
+
+To best determine how effective we are at achieving the goal of Summit is to gauge team member perceptions before and after the event.
+
+#### We ran two surveys:
+
+- Pre-Summit: January 9, 2024 to January 19, 2024
+- Post-Summit: March 15, 2024 to April 5, 2024
+
+This will helped us gain valuable insights into any shifts in sentiments among team members, allowing us to assess the true impact of the summit, satisfaction and engagement.
+This is an abbreviated version of our engagement survey, and it also includes a few Summit related questions.
+
+
+### Survey Results
+
+Team members can access Summit Pulse Survey results [here](https://docs.google.com/presentation/d/1OPOwu9JZxq4CoAiUAOMPZ-yXH99TPMPXObfzVMIWlto/edit#slide=id.g1d24c3e4ddd_5_252)
 
 ## FY'24 Engagement Survey
 
@@ -213,7 +230,7 @@ In an effort to ensure team member confidentiality is upheld, only managers with
 Team members can access Summit Pulse Survey results [here](https://docs.google.com/presentation/d/1OPOwu9JZxq4CoAiUAOMPZ-yXH99TPMPXObfzVMIWlto/edit#slide=id.g1d24c3e4ddd_5_252)
 
 <details>
-  <summary markdown="span">Previous Years</summary>
+  <summary markdown="span">FY'23 and prior Years Engagement Surveys</summary>
 
 ### FY'23 Pulse Engagement Survey
 
@@ -675,4 +692,19 @@ GitLab scored 12% below the industry benchmark i.e. 2018 New Tech Size - Large C
 
 You have now updated a demographic in CultureAmp!
 
+</details>
+
+
 <details>
+<summary>Organizational Health Surveys</summary>
+
+In Q3 FY'23, our Talent & Engagement team ran our first organizational health survey.
+
+GitLab used McKinsey & Company’s [Organizational Health Index "OHI"](https://www.mckinsey.com/solutions/orgsolutions/overview/organizational-health-index) survey to help us understand where we have opportunities to help our organization and team members execute better and increase their impact. The OHI survey is separate from our CultureAmp Engagement survey; learnings from the former will complement the latter and also help inform workplace practices beyond GitLab.
+
+### FY'23 Q3/Q4 McKinsey OHI Survey Results
+
+We’ve summarized high level results of the OHI survey for all GitLab team members in [this document](https://docs.google.com/presentation/d/1B-T8TUcuidyIwbcpih01id2-TxZpE6D91Xt6w3z0uIw/edit?usp=sharing).
+
+The document linked above is only available to GitLab team members.
+</details>
