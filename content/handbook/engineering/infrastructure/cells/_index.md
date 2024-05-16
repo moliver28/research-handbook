@@ -371,7 +371,7 @@ All Cells 1.0 work is tracked under the [Cells 1.0 Epic](https://gitlab.com/grou
 1. First Production Cell - Production Ready
    - label: [cells-1.0-milestone::GA](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=cells-1.0-milestone%3A%3Aga&first_page_size=20)
    - We have a production instance that is ready for internal or external customer's production use
-   - Entering Criteria: Exit criteria of Experiment
+   - Entering Criteria: Exit criteria of Experimental phase
 
 ### Cells 1.0 Timeline
 
