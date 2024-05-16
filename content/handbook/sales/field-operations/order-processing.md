@@ -725,7 +725,7 @@ The following is intended as a guide for quote approvers who receive approval re
 
 #### Where do I approve?
 
-Quote Approval requests will originate from one of two sources: [The quote](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval), or [SFDC Chatter(https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#how-to-request-quote-approval-via-chatter)]. 
+Quote Approval requests will originate from one of two sources: [The quote](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval), or [Salesforce Chatter](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#how-to-request-quote-approval-via-chatter). 
 
 If the request originates from the quote, you will receive an email alert and a Slack alert. If the request originates from SFDC Chatter, you will receive an email alert. Click [here](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=kix.1p0vwiqmoq15) to learn more about which requests should go through the quote vs. SFDC Chatter. In FY25 we will move away from SFDC Chatter entirely, routing all approvals through the quote. 
 
@@ -752,7 +752,7 @@ Once a user submits a quote for approval, it will follow the order of approvers 
   - `NO`
 - Please note, shortly after the launch of Slack Approvals in May 2024, email approval alerts will be deprecated. An announcement will be sent to Field Managers upon removal of this feature.
 
-##### Approve via Slack
+##### NEW IN FY25: Approve via Slack
 
 ###### How It Works
 
