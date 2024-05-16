@@ -103,7 +103,7 @@ Switchboard team process to refine epics:
 1. Assign Due Date & Start Date
    - DRI, EM & PM work together to assign due date based on team capacity, external deadlines and amount of work involved
 1. DRI identifies at least one demo that will be delivered with the epic and adds a brief outline to the epic description (see [Switchboard Demos](#switchboard-demos)).
-1. For major architectural changes, DRI creates and share draft technical documentation with team early if possible before development work starts.
+1. For substantial code modifications or architectural additions,  DRI creates and share draft technical documentation with team early if possible before development work starts.
    1. Draft documentation should contain a high level technical explanation of the new system and how it is meant to work
    1. Illustrative diagrams like sequence diagrams are encouraged
    1. Technical documentations can be added to the switchboard project where they currently live under `./docs` directory
