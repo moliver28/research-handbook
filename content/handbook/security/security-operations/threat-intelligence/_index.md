@@ -18,7 +18,19 @@ By staying proactive and providing targeted intelligence, we enable GitLab to ma
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> The Team
 
-The team is currently made up of cross-function participants from other groups, including SIRT and Red Team.
+### Current Structure
+
+The Threat Intelligence initiative is driven by cross-functional participants from SIRT and the Red Team, who dedicate 10-20% of their time to the program while still prioritizing their primary roles. They focus on building capabilities, delivering actionable intelligence, and demonstrating early results.
+
+### Current Priorities
+
+The initiative's current priorities are:
+
+1. **Building industry connections**: Establishing relationships with industry peers and security researchers who specialize in relevant adversaries.
+2. **Delivering actionable threat briefings**: Preparing and presenting concise, actionable [threat briefings](#threat-briefings) that inform GitLab of relevant threats, their potential impact, and recommended actions.
+3. **Refining reporting processes**: Continuously improving reporting templates and processes to ensure clear, consistent, and efficient communication of threat intelligence findings.
+
+As the program matures, we will expand our focus to additional service offerings outlined below.
 
 ## <i class="fas fa-stream" id="biz-tech-icons"></i> Services We Provide
 
