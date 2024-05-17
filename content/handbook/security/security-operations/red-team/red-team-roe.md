@@ -12,7 +12,7 @@ Please refer to [our general handbook page]({{< ref "_index.md" >}}) to learn mo
 
 ### General Systems
 
-Some systems require special approval from GitLab legal before accessing during any type of Red Team operation. GitLab team members can view that list [here](https://internal.gitlab.com/handbook/security/red_team/private_roe/).
+Some systems require special approval from GitLab legal before accessing during any type of Red Team operation. GitLab team members can view that list [here](https://internal.gitlab.com/handbook/security/security_operations/red_team/private_roe/).
 
 All other systems managed by GitLab are in scope for all types of Red Team operations. No prior approval is required to conduct any activity that meets the rules documented on this page.
 
