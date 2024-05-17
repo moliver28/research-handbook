@@ -29,10 +29,9 @@ The following people are permanent members of the Remote Development Engineering
 
 {{< team-by-manager-slug "adebayo_a" >}}
 
-**Product, Design & Quality**
+**Product, Design, Technical Writing, Security & Quality**
 
-{{< stable-counterparts role="Create:Remote Development" manager-role="Engineering Manager(.*)Create:Remote Development" >}}
-
+{{< stable-counterparts role="(Product Manager|Technical Writer|Software Engineer in Test|Security Engineer).*(Create:IDE|Create \(IDE)|Dev\:Create" >}}
 ### ☕ Category DRIs
 
 <span id="-team-category-dris" data-message="alias anchor for old links"></span>
