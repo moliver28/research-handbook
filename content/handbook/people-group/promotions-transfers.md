@@ -259,25 +259,33 @@ Regardless of the promotion level, it is critical that leaders work with their P
 
 ### FY25 CTO Org Promo Guidance
 
-| Required Documentation |
-In the CTO Organization, we will follow the company process for promotions and use the standard Promotion Document. However, there is specific guidance that we’d like our managers to focus on when considering promotions this fiscal year. Please see below.
-Please note, effective FY25-Q2, peer feedback is not required for promotion consideration. We may re-evaluate this component in the future.
+**Required Documentation**
+
+In the CTO Organization, we will follow the company process for promotions and use the standard Promotion Document. We will require business justification to be filled out for every role, regardless of seniority. There is specific guidance that we’d like our managers to focus on when considering promotions in this fiscal year. Please see below.
+Please note, effective for the FY25 Q3 promotions, peer feedback is not required for promotion consideration. We may re-evaluate this component in the future.
 
 #### CTO Timeline for FY25-Q3
 
-2024-06-10 to 2024-06-21: Direct managers of promotion nominees complete the Promotion Document. Completed documents are shared with Kristina Bullock and Jess Durbin by 2024-06-21 (End of Business Pacific time)
-2024-06-24 to 2024-07-10: Department level calibrations (facilitated by PBP) followed by a CTO Leaders Calibration.
-2024-07-15 to 2024-08-01: Approved promotions are entered into Workday, Comp review is completed and final approvals are obtained.
+- 2024-06-10 to 2024-06-21: Direct managers of promotion nominees complete the Promotion Document. Completed documents are shared with Kristina Bullock and Jess Durbin by 2024-06-21 (End of Business Pacific time).
+  - Please note: direct managers can start working on promotion documents prior to 2024-06-10. This is the start of the company-wide planning period.
+- 2024-06-24 to 2024-07-10: Department level calibrations (facilitated by PBP) followed by a CTO Leaders Calibration.
+- 2024-07-16 to 2024-08-01: Approved promotions are entered into Workday, Comp review is completed and final approvals are obtained.
+ - 2024-08-01: Promotions effective in Workday.
 
 #### Key Considerations for FY25 Promotions
 
 Guiding questions for managers as they fill out FY25 promotion documents:
 
-1. How will this team member’s role change if the promotion is approved? Specifically, what work will either be removed, be added, or be realigned? (Please refer to the GitLab Job Frameworks, Engineering IC Career Matrix and the Engineering Leadership Career Matrix to view the team member’s current responsibilities, and future expectations after the promotion.)
-a. Example: Tanuki is being promoted to a Senior Engineer. She will now transition X type of non-technical work to an Intermediate Team Member. She will now take on more of a leadership role when working through technical problems on the team, look for process improvements, and begin to mentor other engineers.
+1. How will this team member’s role change if the promotion is approved? Specifically, what work will either be removed, be added, or be realigned? _(Please refer to the [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0), [Engineering IC Career Matrix](/handbook/engineering/careers/matrix/) and the [Engineering Leadership Job Families](/job-families/engineering/development/management/) to view the team member’s current responsibilities, and future expectations after the promotion.)_
+
+   1. **Example:** Tanuki is being promoted to a Senior Engineer. She will now transition X type of non-technical work to an Intermediate Team Member. She will now take on more leadership responsibilities when working through technical problems on the team, look for process improvements, and begin to mentor other engineers.
 2. How will the team member work differently if the promotion is approved?
-a. Example: Tanuki is currently receiving instruction for day-to-day tasks/projects. In the  new role, Tanuki will take on ownership for Project A and become the DRI.
-3. Do I need this many X level individual team members in my current team state? Is there enough work at that level to be done?
+
+   1. **Example:** Tanuki is currently receiving instruction for day-to-day tasks/projects. In the  new role, Tanuki will take on ownership for Project A and become the DRI.
+
+3. Have you considered how the team might function differently with this team member in a higher level role?
+
+3. Do I need this many "X" level (i.e. Senior Engineer)  team members in my current team state? Is there enough work at that level to be done?
 
 ## Hiring for VP+ Roles
 
