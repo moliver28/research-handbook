@@ -198,7 +198,7 @@ While creating the new issue please:
 
 ### Naming and branding for the TMRG
 
-All names, because they are visible externally and could compete with other projects, products and or not be a good representation of GitLab must be approved by Legal and Brand.  You should work with the DIB Manager (Candace Williams cwilliams@gitlab.com) to gain a consensus on ideas.  Keep in mind that names chosen by the TMRG may not meet GitLab’s naming and branding standards and may need to be changed.
+All names, because they are visible externally and could compete with other projects, products and or not be a good representation of GitLab must be approved by Legal and Brand.  You should work with the DIB Manager (Liam McNallylmcnally@gitlab.com) to gain a consensus on ideas.  Keep in mind that names chosen by the TMRG may not meet GitLab’s naming and branding standards and may need to be changed.
 
 ### Defining your TMRGs mission statement
 
