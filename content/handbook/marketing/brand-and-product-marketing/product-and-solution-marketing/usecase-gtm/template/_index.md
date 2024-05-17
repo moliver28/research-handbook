@@ -23,7 +23,7 @@ title: "Usecase: Template"
 
 ## UseCase Name
 
-Define and describe the use case in customer terms.  Reference the [customer use case page](/handbook/use-cases)
+Define and describe the use case in customer terms.  Reference the [customer use case page](/handbook/marketing/use-cases/)
 
 - [Keywords and SEO Terms](./keywords/)
 
@@ -46,7 +46,7 @@ List key analyst coverage of this use case
 
 | Requirement |  Description  |  Typical features  |  Value |
 |----------   |-------------  |----------------    | -------|
-| abc         |  def          |  ghi               |  jkl   |  
+| abc         |  def          |  ghi               |  jkl   |
 
 # The GitLab Solution
 

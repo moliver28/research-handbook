@@ -19,11 +19,11 @@ https://youtu.be/BRsU4TGawg8
 |----------|------------------------------|
 | 2023/01  | https://youtu.be/qC8yssVEh8A |
 
-## MLOps Incubation Engineering Updates 
+## MLOps Incubation Engineering Updates
 
 | Date       | Page                                                                   | Recording                    |
 |------------|------------------------------------------------------------------------|------------------------------|
-| 2023/02/06 | [Update](/handbook/engineering/development/incubation/mlops/updates/20230206.html) | https://youtu.be/dz7soyNKGPo | 
+| 2023/02/06 | [Update](/handbook/engineering/development/incubation/mlops/updates/20230206.html) | https://youtu.be/dz7soyNKGPo |
 
 ### Previous Updates
 

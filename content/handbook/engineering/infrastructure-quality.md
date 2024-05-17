@@ -3,7 +3,7 @@ title: "Infrastructure and Quality department"
 description: ""
 ---
 
-# Vision
+## Vision
 
 Our vision is to be a world-class Infrastructure & Tools department that enables GitLab to meet & exceed our customers’ needs.
 
@@ -14,11 +14,11 @@ We:
 1. Provide and maintain best practice tools and methodologies that create a platform for engineering teams to do their work productively.
 1. Enable GitLab Engineering & Product teams to run services effectively using our tools, to meet business needs & SLOs.
 
-# Direction
+## Direction
 
 Direction is set within the [Infrastructure](/handbook/engineering/infrastructure/#direction), and the [Quality](/handbook/engineering/quality/#fy23-direction) direction pages. With the ongoing consolidation of the departments, separate direction pages will become obsolete.
 
-# Working with us
+## Working with us
 
 With the consolidation of previously separate departments (Infrastructure, Quality), we are in the process of also consolidating previously separate handbook pages:
 
@@ -58,7 +58,7 @@ graph TD
     click E "/handbook/engineering/infrastructure/engineering-productivity"
 ```
 
-# Communication
+## Communication
 
 In addition to GitLab's [communication guidelines](/handbook/communication) and [engineering communication](/handbook/engineering/#communication), we communicate and collaborate actively across GitLab in the following venues:
 
@@ -108,24 +108,24 @@ Each sub-department has different guidance on OKR:
 
 ## Key Review
 
-[Key Review meetings](/handbook/key-review/) provide the department leadership an opportunity to inform the executive team of our [performance indicator](#performance-indicators/) progress, results on OKRs, and updates on any [Cross-functional Key Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives) which we are leading.
+[Key Review meetings](/handbook/company/key-review/) provide the department leadership an opportunity to inform the executive team of our [performance indicator](#performance-indicators/) progress, results on OKRs, and updates on any [Cross-functional Key Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives) which we are leading.
 
 Key Review meetings are facilitated and led by the currently responsible VP, with Directors being the backup DRIs.
 
 ## Group Conversations
 
-[Group Conversation meetings](/handbook/group-conversations/) take the information from the Key Review (plus any additional topics) and present this to an audience that is all of GitLab, and for Infrastructure, is a Public livestream.
+[Group Conversation meetings](/handbook/company/group-conversations/) take the information from the Key Review (plus any additional topics) and present this to an audience that is all of GitLab, and for Infrastructure, is a Public livestream.
 
 Coordination of Infrastructure-Quality Group Conversation materials and facilitation of the discussion is a rotating role among the managers within the department.
 
-Group Conversation DRI [Schedule](/handbook/group-conversations/#current-schedule)
+Group Conversation DRI [Schedule](/handbook/company/group-conversations/#current-schedule)
 
 Quick checklist for the host (time order):
 
 1. Make the GC slides (copy from a prior presentation) ~ 10 days before the GC
 1. [Watch how to stream on youtube](/handbook/marketing/marketing-operations/youtube/#livestream-with-zoom)
 1. Do a test stream on youtube.
-1. Review the [handbook instructions for Group Conversation Meeting Leaders](/handbook/group-conversations/#for-meeting-leaders) and follow the required process.
+1. Review the [handbook instructions for Group Conversation Meeting Leaders](/handbook/company/group-conversations/#for-meeting-leaders) and follow the required process.
 1. 20 minutes before - open up Zoom and check for any updates.
 
 |**GC Date**|**DRI**|
@@ -144,8 +144,8 @@ Quick checklist for the host (time order):
 Historical preparation for Quality sub-department is in [the issue tracker](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues?label_name%5B%5D=group-conversation) with a `group-conversation` label.
 
 
-# Performance Indicators
+## Performance Indicators
 
-* [Performance Indicators](/handbook/engineering/infrastructure-quality/performance-indicators/)
+- [Performance Indicators](/handbook/engineering/infrastructure-quality/performance-indicators/)
 
-# Common Links
+## Common Links

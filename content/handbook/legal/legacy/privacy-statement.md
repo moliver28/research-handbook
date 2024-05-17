@@ -17,12 +17,9 @@ What are my rights and choices regarding Personal Data?
 U.S. State Privacy Rights
 Other important privacy information
 
-
 This Privacy Statement applies to the GitLab websites ("Websites"), GitLab.com ("SaaS"), Self-managed ("Self-managed"), and additional software products and services; collectively "Services.
 
-
 ## What Personal Data does GitLab collect about me?
-
 
 The categories of Personal Data collected by GitLab change depending on the Services you use and whether those Services are free or paid. We have described below which Services correlate with the processing in each Personal Data category.
 
@@ -56,7 +53,7 @@ We may collect certain Personal Data automatically through your use of the Servi
 
 *Subscription Data:* We may automatically collect information about the number of active users, licensing timetables, historical user count, and IP address. This is collected for paid Self-managed and SaaS instances. Subscription Data details can be found in the [Metrics Dictionary](https://metrics.gitlab.com/?q=subscription).
 
-*Services Usage Data:* Services Usage Data is broken into two categories: Optional Data and Operational Data. Optional Data is aggregated metrics regarding activity and feature usage that provide insights into the success of stages and features. Operational Data is aggregated metrics that track how value is delivered through the use of the Services and provide insights into optimal customer implementation. Both categories of Services Usage Data can be tied to the instance hostname, but the information does not contain any other individual user data. This is collected for the free and paid users of the Self-managed and SaaS products. For more information about the data collected and how to set your preferences, please visit [Services Usage Data](https://handbook.gitlab.com/handbook/legal/privacy/customer-product-usage-information/).
+*Services Usage Data:* Services Usage Data is broken into two categories: Optional Data and Operational Data. Optional Data is aggregated metrics regarding activity and feature usage that provide insights into the success of stages and features. Operational Data is aggregated metrics that track how value is delivered through the use of the Services and provide insights into optimal customer implementation. Both categories of Services Usage Data can be tied to the instance hostname, but the information does not contain any other individual user data. This is collected for the free and paid users of the Self-managed and SaaS products. For more information about the data collected and how to set your preferences, please visit [Services Usage Data](/handbook/legal/privacy/customer-product-usage-information/).
 
 *Events Data:* In addition to Services Usage Data, GitLab also uses event analytics, such as browsing duration, page clicks and page views, in a pseudonymized form to gain insights into end-to-end user behavior. This is collected for SaaS and Self-managed products.
 
@@ -110,12 +107,11 @@ GitLab uses your Personal Data for the following purposes:
 - To protect the rights, safety and property of GitLab, you, or any third-party; and
 - For other purposes, for which we obtain your consent.
 
-
 ### Legal Basis for the Processing of your Personal Data
 
 When our processing is subject to international laws, including but not limited to the General Data Protection Regulation ("GDPR") that governs individuals located in the European Economic Area ("EEA"), we collect and process your Personal Data using one or more of the following legal bases set out by applicable law:
 
-*Performance of a contract:* We use your Personal Data to provide the Services you have subscribed to, and to complete and administer the contract you have entered into with GitLab, which includes the [Subscription Agreement](https://handbook.gitlab.com/handbook/legal/subscription-agreement/), the [Website Terms of Use](https://handbook.gitlab.com/handbook/legal/policies/website-terms-of-use/), and any agreement to process payment information.
+*Performance of a contract:* We use your Personal Data to provide the Services you have subscribed to, and to complete and administer the contract you have entered into with GitLab, which includes the [Subscription Agreement](/handbook/legal/subscription-agreement/), the [Website Terms of Use](/handbook/legal/policies/website-terms-of-use/), and any agreement to process payment information.
 
 *Legitimate Interests:* We use your Personal Data for our legitimate interests, such as to provide you with relevant content, communicate with business leads, improve our products and services, and for administrative, security, fraud prevention and legal purposes. You may object to the processing of your Personal Data for these purposes at any time.
 
@@ -153,7 +149,7 @@ Our Services are hosted in the United States and information we collect will be 
 
 ## How does GitLab Secure my Personal Data?
 
-We work hard to protect your Personal Data. We employ administrative, technical, and physical security controls where appropriate, to protect your information. For more information on our security practices please see: [Technical and Organizational Security Measures for GitLab.com](https://handbook.gitlab.com/handbook/security/security-assurance/technical-and-organizational-measures/).
+We work hard to protect your Personal Data. We employ administrative, technical, and physical security controls where appropriate, to protect your information. For more information on our security practices please see: [Technical and Organizational Security Measures for GitLab.com](/handbook/security/security-assurance/technical-and-organizational-measures/).
 
 ### Data Retention
 
@@ -171,7 +167,7 @@ You may exercise your choices and rights as follows:
 
 *To opt-out of Interest-based advertising:* If you wish to opt-out of interest-based advertising, please visit the Cookie Policy to see your options.
 
-*Request a copy of your information:* You may [request a copy of the Personal Data](https://handbook.gitlab.com/handbook/gdpr/) that GitLab has about you.
+*Request a copy of your information:* You may [request a copy of the Personal Data](/handbook/legal/privacy/gdpr/) that GitLab has about you.
 
 *Update your Information:*  If you already have an account, you may access, update, or alter your user profile information by logging into your account and updating profile settings.
 
@@ -189,7 +185,7 @@ If you contribute to a GitLab owned project by commenting in, or creating an iss
 
 ## US State Privacy Rights
 
-If you are a California or Virigina resident, please visit the [U.S. State Privacy Rights Disclosures](https://handbook.gitlab.com/handbook/legal/privacy/us-state-privacy-disclosure/) for a specific description of your privacy rights and collection practices.
+If you are a California or Virigina resident, please visit the [U.S. State Privacy Rights Disclosures](/handbook/legal/privacy/us-state-privacy-disclosure/) for a specific description of your privacy rights and collection practices.
 
 ## Other important privacy information
 

@@ -11,7 +11,7 @@ description: "Operations, Procedures, Documentation"
 
 
 
-- - -
+---
 
 
 
@@ -110,7 +110,7 @@ Opportunity: #opportunity-stages
 
 Sales Accepted Opportunity: #criteria-for-sales-accepted-opportunity-sao
 
-## SAE Sales Capacity
+## AE Sales Capacity
 
 The following calculation is used to measure/plan for sales capacity.
 This is a calculation only and should be used to set goals and plan.
@@ -149,13 +149,6 @@ Sales Segmentation is based on `Account Demographics: Max Family Employees`, whi
 - The `Account Demographics: Employee Count` can differ from one account to another within a hierarchy, but the `Account Demographics: Max Family Employees` value will be the same for all accounts within a hierarchy.
 - If the employee count is unknown or blank and manual research cannot confirm, Sales Operations will mark the account as `SMB` with a placeholder of `-1` employees in the  Number of Employees: Manual - Admin field in order to get a Territory to populate and assign the account to an account rep.
 
-- `Large` = 2,001+ total employees
-- `Mid-Market` = 101-2000 total employees
-- `SMB` (Small Business) = 0-100 total employees
-
-![gtm-model](/handbook/sales/field-operations/gtm-resources/gtm-model1mm.png)
-
-
 We use a hierarchy structure to determine what the number of employees is for the account.
 The hierarchy of our data tools on *Accounts* as they relate to the `Account Demographic Max Family Employees` count is shown below.
 
@@ -175,23 +168,6 @@ In order to address issues when it is believed that the employee count, account 
 Provide the URL to validate the request. Examples of valid sources include but are not limited to financial filings, newspaper articles, reports directly from the company. During the Sales Ops review period it is at the discretion of the Sales Ops team to have the Total Employee count updated or to have it remain the same.
 
 If the number of employees, according to our sources based on our hierarchy as described in Segmentation has changed, the Sales Ops team will automatically update the accounts segment and follow the [Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement) account review process.
-
-### Regional Leadership
-
-**Enterprise Sales**
-- **VP Enterprise Sales**: Mike Pyle
-- **Europe, Middle East and Africa** (`#emea` Slack channel): Michel Isnard, VP ENT EMEA
-- **Asia Pacific** (`#apac` Slack channel): Rob Hueston (Interim), Regional Director
-- **North America - US East and West: David Helfer, VP ENT AMER
-    - **North America - US West** (`#us-east` Slack channel): Darren Moffett, Area Vice President
-    - **North America - US East** (`#us-west` Slack channel): Tanya Helin, Area Vice President
-- **Public Sector** (`#public-sector` Slack channel): Bob Stevens, Vice President
-
-**Commercial Sales**
-- **VP Commercial Sales** (Mid-Market & Small Business): Ryan O'Nell
-- **Mid Market Global Sales**: TBH, Regional Director
-- **SMB North America Sales** (`#smb` Slack channel): Nick Christou, Regional Director
-- **SMB EMEA/APAC Sales** (`#international-smb` Slack channel): Helen Mason, Area Sales Manager
 
 ### Territories
 
@@ -239,7 +215,7 @@ In order to rank accounts each Enterprise Sales rep would update the 'Account Ra
 
 [The Account Ranking Guide](https://docs.google.com/document/d/1u2Dg_jorRi_tgcC_2L-FjAmEqnMya76bvZ6WmAt4qGA/edit) can be used to help the Strategic Account Executive focus on a cadence to target each Account Rank.
 
-#### Definitions for Enterprise Account Ranking:
+#### Definitions for Enterprise Account Ranking
 
 - **Rank 1** highest priority accounts that require both sales focus, sales development, and marketing support in the next quarter. These are the accounts reviewed in QBR's each quarter by sales and include both Land and Expand accounts.
 - **Rank 2** accounts that match our ICP and should be a focus for sales and marketing in the current FY but are not a Rank 1 account. Should include both Land and Expand.
@@ -315,14 +291,23 @@ Rest of the World
 
 #### Lead and Contact Record Ownership
 
-Contact Ownership follows the rules as laid out below:
+Contact Ownership follows the rules as laid out below. Contact ownership cannot be updated as it is maintained by an [automated process in Salesforce](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#contact-ownership) which means that the ownership will revert in the nightly run.
 - Large Accounts
-   - BDR (If present otherwise AE)
-- MM & SMB Accounts
-   - Customer Accounts
-      - AE
+   - BDR (If present, otherwise AE)
+   - If AE, should own all contact follow up then the BDR Prospecting Status needs to be in Restricted.
+- MM Accounts (Sales Segment = MM)
+   - Customer Accounts and BDR Prospecting Status not equal to Actively Working
+      - AE, (Actively Working, BDR)
    - Non-Customer Accounts
       - BDR (If present otherwise AE)
+- SMB Accounts (Sales Segment = SMB)
+    - AE
+
+AE’s should use the following views to manage their contacts:
+
+- [My MQLs](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZF7&rolodexIndex=-1&page=1)(showcases any contacts in your name that are in MQL status. You should move these to accepted when you’re working them. Other statuses can be used to showcase you’ve seen the MQL and dispositioned accordingly. These should not stay in MQL status)
+- [My Contacts w/ new LIM](https://gitlab.my.salesforce.com/003?fcf=00B4M000004taHN&rolodexIndex=-1&page=1)( showcases contacts in other statuses -not MQL - with a new Last Interesting Moment)
+- [My Contacts in Qualifying](https://gitlab.my.salesforce.com/003?fcf=00B4M000004oZFC&rolodexIndex=-1&page=1)(showcases contacts who have been in sequence and then engaged, should help with follow up)
 
 When an BDR is assigned to an Account to support and assist with outreach, the BDR will be added in the `BDR Assigned` lookup field to the account in Salesforce.
 This field then populates down to the related Contact records.
@@ -955,16 +940,16 @@ To help move sales through the sales process, [here](https://docs.google.com/doc
 **8-Closed Lost**: An opportunity was lost and the prospect/customer has decided not to pursue the purchase of GitLab.
 
 - What to Complete in This Stage:
-    - Select all applicable Closed Lost Reasons
+    - Select the applicable Closed Lost Reason as [defined here](https://docs.google.com/presentation/d/1jHKfQn0qKEpfaMxohJctFWV_uNmXv51VJ3O8_UTTIuA/edit#slide=id.p)
         - If the loss is due to Competitive Loss, you are required to select the competitor(s) from the opportunity's `Competitor` field
         - If the loss is due to Product Maturity, you are required to select the product stage(s) from the opportunity's `Product Maturity: Product Line` field.
-    - `Closed Lost/Unqualified Details` is required all opportunities with IACV of $1,000 or greater OR opportunities where Closed Lost Reason = Other. Enter as much detail as you can as to why we lost the deal. For example:
+    - `Closed Lost/Unqualified Details` is required all opportunities with a Net ARR value of $25,000 or greater OR opportunities where Closed Lost Reason = Other. Enter as much detail as you can as to why we lost the deal. For example:
         - If they selected a competitor, why? Was it due to features or pricing?
         - If decided not to move forward with a project, what were the reasons? Did they not understand the value? Was there not a compelling event or reason?
         - Again, please be as thorough as you can as this information will prove valuable as we learn from these experiences.
-    - Please note that for new business deals where the opportunity is with a Large/PubSec Account OR the Net ARR is equal or greater than USD 12,000, then a notification will be sent to the [#lost-deals](https://gitlab.slack.com/messages/C8RP2BBA7) Slack channel.
+    - Please note that for new business deals where the opportunity is with a Large/PubSec Account OR the Net ARR is equal or greater than $12,000, then a notification will be sent to the [#lost-deals](https://gitlab.slack.com/messages/C8RP2BBA7) Slack channel.
     - Uncover a time for follow up (incumbent solution contract expiration date)
-    - Note that if an opportunity is dead/stalled, mark the Stage as 8-Closed Lost. Should the prospect/customer re-engage before 30 days, you can reopen this opportunity. However, if they re-engage beyond 30 days, you will need to create a new opportunity.
+    - Note that if an opportunity is dead/stalled, mark the Stage as 8-Closed Lost. Should the prospect/customer re-engage, you will need to create a new opportunity.
     - If the `Closed Lost/Unqualified Reason` is "Merged into another opportunity" please link this closed opportunity to the opportunity you are merging it into by using the `Merged Opportunity` lookup field. Otherwise, you will encounter a validation rule error.
 
 **9-Unqualified**: An opportunity was never qualified.
@@ -986,10 +971,7 @@ If you need to revert an opportunity you've previously qualified to one of these
 
 ### Reverting an Opportunity to a Previous Stage
 
-If a previously met criteria has become unmet, you are required to revert back to the latest stage where all activities were completed.
-For example, if a prospect had previously signed off on GitLab from a technical standpoint, requested a quote and has begun contract negotiations, you would set the opportunity to `5-Negotiating`.
-However, if at any point during the negotiations, additional technical questions or requirements arise that result in a re-evaluation of GitLab's technical capabilities, you would revert the opportunity back to `3-Technical Evaluation`.
-After the opportunity has once again met the stage completion criteria, you are able to move the opportunity to either `4-Proposal` if a new order form was created as a result of the additional technical requirements, or back to `5-Negotiating` if no changes were made to the original order form.
+Opportunity stages should align with GitLab's [Sales Stage Definitions](https://gitlab.highspot.com/items/623e24381f87632cd3327e93?lfrm=ssrp.0).  However, in the event that an opportunity has been progressed prematurely or circumstances of the sales process have significantly changed, a reversion of the opporunity stage can be requested.  Note that opportunity owners can only advance sales stages forward.  To make a stage reversion request, the opportunity owner must chatter sales-support with details and justification for the stage reversal along with their manager's approval.
 
 ### Early Stage Deals: Progression Requirements & Automation
 

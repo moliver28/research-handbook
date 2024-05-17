@@ -9,7 +9,7 @@ description: "View GitLab's Philanthropy Policy"
 
 ### Overview and Purpose
 
-The purpose of the GitLab Inc. (“GitLab”) Philanthropy Policy (“Policy”) is to provide guidance for GitLab’s philanthropic giving and activities to Registered Nonprofit Organizations (as defined below) that align with GitLab’s [Values](/handbook/values/), environmental, social, and governance [(ESG) strategy](/handbook/legal/ESG/), and help advance GitLab’s [mission](/handbook/company/mission/) to make it so that everyone can contribute.
+The purpose of the GitLab Inc. (“GitLab”) Philanthropy Policy (“Policy”) is to provide guidance for GitLab’s philanthropic giving and activities to Registered Nonprofit Organizations (as defined below) that align with GitLab’s [Values](/handbook/values/), environmental, social, and governance [(ESG) strategy](/handbook/legal/esg/), and help advance GitLab’s [mission](/handbook/company/mission/) to make it so that everyone can contribute.
 
 ### Oversight Responsibility
 
@@ -26,7 +26,7 @@ Any budget request outside of the amount approved under GitLab’s annual operat
 
 GitLab supports Registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that align with our [Values](/handbook/values/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal or national government.
 
-GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab’s social and environmental key topics that were defined in GitLab’s [2022 materiality assessment](/handbook/legal/ESG/). GitLab’s current social and environmental key topics are:
+GitLab prioritizes Registered Nonprofit Organizations that help advance GitLab’s social and environmental key topics that were defined in GitLab’s [2022 materiality assessment](/handbook/legal/esg/). GitLab’s current social and environmental key topics are:
 
 - Diversity, Inclusion, and Belonging
 - Talent Management & Engagement

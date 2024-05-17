@@ -19,7 +19,7 @@ Because issues can serve so many purposes and roles in GitLab, understanding whe
 
 ### Key things to know
 
-#### Issues are defined in the scope of a Project.   NOT a Group.
+#### Issues are defined in the scope of a Project.   NOT a Group
 
 1. Issues ONLY exist in projects. While Groups have boards that manage issues and lists of issues, the issues ALWAYS are stored in a project that is subordinate to the group.
 1. GitLab Groups do **NOT** have issues. Groups have **Epics**.
@@ -118,13 +118,13 @@ Issues maintain a history of the changes to the descriptions, so update descript
 
 Issue weight can be made relative to the tasks within an issue. Issue weight is an estimate of how much time is required to complete the tasks in the issue.
 
-| Time                 	| Weight 	|
-|----------------------	|--------	|
-| <4 hours             	| 0      	|
-| 4 hours / half a day 	| 1      	|
-| 8 hours / 1 day      	| 2      	|
-| 12 hours / 1.5 days  	| 3      	|
-| 16 hours / 2 days    	| 4      	|
+| Time                     | Weight     |
+|----------------------    |--------    |
+| <4 hours                 | 0          |
+| 4 hours / half a day     | 1          |
+| 8 hours / 1 day          | 2          |
+| 12 hours / 1.5 days      | 3          |
+| 16 hours / 2 days        | 4          |
 
 You can use the `/weight <value>` [quick action](#quick-actions) to define the weight.
 

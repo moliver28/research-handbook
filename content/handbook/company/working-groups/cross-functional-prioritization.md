@@ -12,7 +12,6 @@ This working group is charged with rolling forward from the emergency "Engineeri
 1. It should **give voice to everyone** in the quad (PM, Development, Quality, and UX)
 1. It should **provide transparency into prioritization** and work status to internal and external stakeholders so they can advocate for their work items
 
-
 ## Attributes
 
 | Property        | Value      |
@@ -91,7 +90,6 @@ Note: This does not preclude other stages beyond create to complete the exit cri
 | Member                | Neil McCorrison                                      | Frontend Engineering Manager, Secure |
 | Member                | Donald Cook                                          | Engineering Manager, Plan:Project Management |
 | Member                | Cheryl Li                                            | Senior Engineering Manager, Verify |
-
 
 ## Cross-functional prioritization process
 

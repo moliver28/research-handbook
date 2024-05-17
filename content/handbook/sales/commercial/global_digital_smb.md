@@ -75,24 +75,26 @@ Inbound Request - These occur when a customer hand raises, and requests assistan
 - SDR Created
 
 Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption. The cases are labeled as Medium Priority. 
-- Underutilization
-- High PtC
+
 - Auto Renew recently turned off
+- Renewal with Payment Failure
 
 Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. The cases are labeled as Medium Priority.  
 - FO Opp
 - FO Opp (Startup)
-- High PtE
-- 6Sense Growth Signal
-- Overage with QSRs turned off
+- QSRs with Payment Failure
 - Customer MQL
+- Duo Trial Started
 
 Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate. The cases are labeled as Medium Priority. 
 - PO Renewal (includes partner & alliance renewals)
 - EoA Renewal w/ >25 users
 - Multiyear Renewal
+- Renewal Risk: Will Churn
 - Auto Renewal due to fail
-- Overdue Renewals
+- Free User Limit Sales-Assist
+- Renewal with Duo
+- Missing Renewal Opportunity Case
 
 High Value - These are only created for the highest spending accounts in the segment. 
 - High Value Account
@@ -260,17 +262,15 @@ A. No.  Unfortunately, the email will be attached to the prior case which is lik
 
 Whilst Accounts are always owned by the regions SMB Sales User, High Value Cases attached to accounts (Tier 1 accounts only), are owned by the SMB Advocate. 
 
-These cases are to remain open for the duration of the customer’s term (i.e they should NOT be closed out after 15 days of being created). They act as a reminder that these customers require continual attention and should be worked strategically, until renewal.
+These cases are to remain open for the entirety of the FY25, even if the customer renews. This means that if a Tier 1 customer renews mid way during FY25, they will be assisted by the same Advocate both pre and post renewal.  This is subject to change in FY26.
+
+These cases act as a reminder that these customers require continual attention and should be worked strategically during the financial year. 
 
 The Advocate is advised to build relationships with these customers, understand their journey with GitLab, and identify what we can do to grow the account (Ultimate or Add On licenses) or promote adoption and churn prevention.
 
 The Advocate is advised to schedule ongoing touchpoints, update Next Steps/ Next Steps Date, and create future dated reminder Tasks, so that they plan their outreach throughout the year.
 
-Note that these Accounts can still trigger other cases types, which should be worked and closed out within the 15 day period.  This will include High Value Check In Cases, which will remind the Advocate to touch base with the customer!  These cases will be auto assigned to the Advocate who owns the High Value Account case. 
-
-Upon successful renewal, all open cases should be closed out by the Advocate.  Their role in keeping this account as a customer is now considered complete. 
-
-Based on the renewal amount, it is likely that a new High Value case will be opened based on next years renewal amount. (e.g. FY26 High Value Account).  This FY26 case will be auto-assigned any may be allocated to a different Advocate (than the person who worked the account in FY25). This Advocate should then follow this same process for the next 12 months, until renewal. Then, the next Advocate takes over the account, should it be labelled as a FY27 High Value Account.
+Note that these Accounts will still trigger other cases types, which should be worked and closed out within the 15 day period.  This will include High Value Check In Cases, which will remind the Advocate to touch base with the customer!  These cases will be auto assigned to the Advocate who owns the High Value Account case.  Any off created off the back of these cases i.e If a High Value Check In Case results in an Add On Opp, the opp should be linked to the originating case.  Once the opp is closed, the case should be closed. Reminder: The High Value Account case should never be closed.  
 
 Note: A High Value Account can be closed out if the customer advises ahead of renewal that they definitely fully churn.  Only in this scenario should the case be closed out, and the *Resolution Action* must be set to *Request Not Possible*.  By setting the *Resolution Action* to *Request Not Possible*, future High Value Cases will not be created on the account. 
 

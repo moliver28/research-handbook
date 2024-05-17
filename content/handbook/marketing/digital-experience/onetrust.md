@@ -12,7 +12,7 @@ description: "OneTrust is privacy, security, and data governance software that m
 
 ## Uses
 
-OneTrust is privacy, security, and data governance software that marketing uses as our privacy and compliance solution on our websites. The marketing operations team works closely with our legal team and is primarily responsible for our privacy and compliance on our websites including cookie preferences. 
+OneTrust is privacy, security, and data governance software that marketing uses as our privacy and compliance solution on our websites. The marketing operations team works closely with our legal team and is primarily responsible for our privacy and compliance on our websites including cookie preferences.
 
 ## Support
 
@@ -24,7 +24,7 @@ OneTrust is privacy, security, and data governance software that marketing uses 
 
 ## Change Request
 
-For any OneTrust related request, please create a new issue under [Marketing Operations](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new) using the `onetrust_change_log_request` description template. View [OneTrust change logs here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/?sort=created_date&state=all&or%5Blabel_name%5D%5B%5D=OneTrust%3A%3ACookieCategory&or%5Blabel_name%5D%5B%5D=OneTrust%3A%3ACookieUpdate&or%5Blabel_name%5D%5B%5D=OneTrust%3A%3AGeolocation&or%5Blabel_name%5D%5B%5D=OneTrust%3A%3AOptControl&first_page_size=20), which lists issues with a `OneTrust::` label. 
+For any OneTrust related request, please create a new issue under [Marketing Operations](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new) using the `onetrust_change_log_request` description template. View [OneTrust change logs here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/?sort=created_date&state=all&or%5Blabel_name%5D%5B%5D=OneTrust%3A%3ACookieCategory&or%5Blabel_name%5D%5B%5D=OneTrust%3A%3ACookieUpdate&or%5Blabel_name%5D%5B%5D=OneTrust%3A%3AGeolocation&or%5Blabel_name%5D%5B%5D=OneTrust%3A%3AOptControl&first_page_size=20), which lists issues with a `OneTrust::` label.
 
 ## Access
 
@@ -63,12 +63,12 @@ To access OneTrust, please create an [access request](/handbook/business-technol
 1. **Privacy Notice Author:** Privacy Notice Authors are business users who have access to creating, viewing, and editing all privacy notices. By default, Privacy Notice Authors have no access to destructive and configuration functions.
 1. **Privacy Notice Manager:** Privacy Notice Managers are business users who have access to most everyday and some administrative functions in the Policy & Notice Management module. By default, Privacy Notice Managers have limited access to destructive and configuration functions.
 1. **Privacy Notice Viewer:** Privacy Notice Viewers are business users who have access to viewing current versions of privacy notices. By default, Privacy Notice Viewers have no access to destructive and configuration functions.
-1. **Privacy Officer:** Privacy Officer users are high-level users who have access to most functions in the application. By default, Privacy Officer users do not have access to administrative and destructive functions such as audit logging, deletion, and integrations. 
+1. **Privacy Officer:** Privacy Officer users are high-level users who have access to most functions in the application. By default, Privacy Officer users do not have access to administrative and destructive functions such as audit logging, deletion, and integrations.
 1. **Program Benchmarking Manager:** Program Benchmarking Managers are business users who have access to most everyday and some administrative functions in the Program Benchmarking module. By default, Program Benchmarking Managers have limited access to destructive and configuration functions.
-1. **Project Owner:** Project Owner users are business users who have access to everyday functions in the application. By default, Project Owner users have limited access to administrative, destructive, and configuration functions. Project Owner users can launch assessments, review inventory data, view scan results, and complete other everyday business tasks. 
+1. **Project Owner:** Project Owner users are business users who have access to everyday functions in the application. By default, Project Owner users have limited access to administrative, destructive, and configuration functions. Project Owner users can launch assessments, review inventory data, view scan results, and complete other everyday business tasks.
 1. **Project Respondent:** Project Respondent users can create a password to log into the application and access a list of all assessments assigned to them. Project Respondents can be assigned assessments, risks, and needs more information requests, respond to assigned assessments, and add comments to assessments.
 1. **Project Viewer:** Project Viewer users have read-only access to the application. By default, Project Viewer users can view information, but cannot make any changes or respond to assessments. Project Viewer users cannot be selected as the respondent for an assessment.
-1. **Site Admin:** Site Admin users have complete access to the application. By default, all permissions are enabled for Site Admin users. 
+1. **Site Admin:** Site Admin users have complete access to the application. By default, all permissions are enabled for Site Admin users.
 1. **Vendor Manager:** Vendor Managers are business users who have access to most everyday and some administrative functions in the Vendor Risk Management Module. By default, Vendor Managers have limited access to destructive and configuration functions.
 
 Custom roles can also be created. More in [this support article](https://my.onetrust.com/s/article/UUID-9f1679fe-3d0a-713a-c995-cd391d39f5c1) (login required).
@@ -77,7 +77,7 @@ Custom roles can also be created. More in [this support article](https://my.onet
 
 [See the epic](https://gitlab.com/groups/gitlab-com/-/epics/1265) for more information.
 
-## Cookie Compliance 
+## Cookie Compliance
 
 ### Scanning a Website
 
@@ -85,9 +85,9 @@ The scanner simulates a user from Ireland (where OneTrust servers are located).
 
 1. Navigate to the cookie compliance module via the "home screen" after login and clicking on the cookie compliance tile or by clicking the "launchpad" icon in the top left corner next to the home icon.
 1. Click the `Add Website` button.
-1. Best practice: Add the root domain to scan without `www`. If you scanned a domain with `www` it will not capture domains with prefixes. 
+1. Best practice: Add the root domain to scan without `www`. If you scanned a domain with `www` it will not capture domains with prefixes.
 1. Choose the `GitLab` organization to assign the domain scan to.
-1. Under `More Details`, you have additional options to use in the scan including limiting the scan to a number of pages (default is 1,000), limiting to a specific path within the site, clearing previous scan history, scanning pages with query parameters, targeting pages to scan within the site, or including sitemaps URIs. 
+1. Under `More Details`, you have additional options to use in the scan including limiting the scan to a number of pages (default is 1,000), limiting to a specific path within the site, clearing previous scan history, scanning pages with query parameters, targeting pages to scan within the site, or including sitemaps URIs.
 
 #### Website scan menu
 
@@ -112,13 +112,13 @@ In the list of websites that have been scanned, you can hover over any domain an
 1. Clear previous scan history: Does not delete previous data; scanner treats the domain as if its the first time scanning; (use case: significant cookie or design change on the website)
 1. **Scan pages with query parameters:** scan URLs with query parameters (ex: about.gitlab.com?utm_source=marketo); Input field example: `name=first,name=last`. Separate multiple parameters with commas. The scan will search through the domain with those noted parameters. Ensure the domain you enter includes `?` at the end of the URL.
 1. **Target pages to scan:** Input exact URL site with full `https://` ; use case: certain pages that might not be accessible to users or you want to scan this specific web page. For multiple pages, add a line break.
-1. **Sitemap URIs:** Input sitemap URL with `https://` with `.xml`. 
+1. **Sitemap URIs:** Input sitemap URL with `https://` with `.xml`.
 
 ### Scheduling Cookie Scans
 
 1. From the website scan menu, highlight the domain you wish to create scan schedule for.
 1. Click the 3-dot menu.
-1. Select `Schedule`. 
+1. Select `Schedule`.
 1. The default is set to every 3 months for every quarter of the year; You can also select a specific date.
 1. Optional: enter an email address to notify a user once a scheduled scan is completed.
 
@@ -147,12 +147,12 @@ From the bell icon, you can download the results (`.xlsx`).
 
 ### Categorizing Cookies
 
-1. Navigate to `Categorizations` in the left-hand menu of the cookie compliance module. 
+1. Navigate to `Categorizations` in the left-hand menu of the cookie compliance module.
 1. Click `Categories`.
-1. Clicking the arrow on a respective category will expand the description of this cookie category. This description is what users will see. 
-1. Click the pencil icon to edit the cooke category description. **Important:** You must confer with the GitLab legal team before updating these descriptions as they must strictly align with our policies regarding cookie use. 
+1. Clicking the arrow on a respective category will expand the description of this cookie category. This description is what users will see.
+1. Click the pencil icon to edit the cooke category description. **Important:** You must confer with the GitLab legal team before updating these descriptions as they must strictly align with our policies regarding cookie use.
 
-These cookie categories are standard and the defaults provided by OneTrust: 
+These cookie categories are standard and the defaults provided by OneTrust:
 
 1. **Strictly necessary cookies ID C0001:** the website needs these cookies in order to function properly (example: identify items placed into a shopping cart)
 1. **Performance cookies ID C0002:** get information about how site visitors are using the website (example: Google analytics)
@@ -168,12 +168,12 @@ Cookies in the `Unknown` category need to be categorized manually with help from
 
 1. Navigate to the `Cookies` tab under the `Categorizations` menu.
 1. View the list of cookies that have been identified and categorized, including the domain where it was identified, the lifespan of the cookie, the hostname, and the description.
-1. Click into each cookie individually to view more information about that cookie. 
+1. Click into each cookie individually to view more information about that cookie.
 1. In the `Edit Cookie` overlay, you can select a different category for the cookie, add a description for the cookie, update the lifespan of the cookie, note whether it's a first-party or third-party cookie, and select the domains to manually assign the cookie to. Changing the lifespan of the cookie is for auditing purposes and does not change the functionality on the website.
 1. Manually add a cookie to a particular domain if you don't wish to run the domain through a scan in order to pick it up. Click `Add Cookie` to manually add a cookie and input all the information regarding that cookie from step 4. **Note:** Host is not necessarily the domain where the cookie is but where the cookie is hosted. This will not add the cookie to the domain you input, but rather an existing cookie on the domain that is not part of the audit.
 1. You also have the option to bulk categorize cookies by selecting multiple cookies from the list. Select all cookies or specific cookies from the list, then click the double-arrow icon to bulk edit the categories of those cookies.
-1. Use the search bar to search for specific cookies by the cookie name or the host name. 
-1. Use the filter icon to filter down to specific types of cookies by their category, domain, lifespan, or hostname (example: only view functional cookies). 
+1. Use the search bar to search for specific cookies by the cookie name or the host name.
+1. Use the filter icon to filter down to specific types of cookies by their category, domain, lifespan, or hostname (example: only view functional cookies).
 
 ### Adding, Editing, and Managing Cookie Compliance Templates
 
@@ -188,7 +188,7 @@ Cookies in the `Unknown` category need to be categorized manually with help from
 #### Add new template
 
 1. Click `Templates`.
-1. Click `Add New Template`. 
+1. Click `Add New Template`.
 1. Select framework and laws that apply to the site.
 1. Name the template.
 1. Choose the `GitLab` organization.
@@ -222,7 +222,7 @@ Colors are in RGB or hexadecimal code.
 1. Manage preferences button color
 1. Manage preferences link color
 
-There are also options for custom CSS (not available in preview). 
+There are also options for custom CSS (not available in preview).
 
 **Content options**
 
@@ -240,7 +240,7 @@ Select the languages which you want to localize the cookie banner to. Also selec
 
 #### Preference center
 
-In `styling`, you can choose to override the styling from the cookie banner to have a different styling for the preference center. This includes an option to add a logo and changing the accordion type for the cookie categories. 
+In `styling`, you can choose to override the styling from the cookie banner to have a different styling for the preference center. This includes an option to add a logo and changing the accordion type for the cookie categories.
 
 Notice there are different options in the preference center under layout as well. Depending on the options chosen, some features may not be available (example: choosing the `tab` layout removes the accordion feature for the cookie categories). Custom CSS is also available for the preference center.
 
@@ -251,11 +251,11 @@ There are options for [WCAG (Web Content Accessibility Guidelines)](https://www.
 1. Toggle `Show cookies list` to show a link to the user with `cookie details` related to the category they selected in the preference center.
 1. Select whether you want to show the user the various information about specific cookies including host, duration, type, category, and description. There are options here for linking to Cookiepedia as well as allowing the user to opt-out of a particular cookie host.
 
-You can group the cookie categories as well as adding another group of cookie categories for a better user experience (example: new group called "ads" with the targeting and social media cookie categories grouped underneath). 
+You can group the cookie categories as well as adding another group of cookie categories for a better user experience (example: new group called "ads" with the targeting and social media cookie categories grouped underneath).
 
 #### Cookie list
 
-This is the comprehensive list of cookies that is available to the user to view. In `styling`, you can adjust color options for title, cookie group name, table header text, table header background, and primary text. Toggle the table format on or off. There are options for custom CSS here as well. In `content`, you can adjust the options for the cookie list title, description, host, cookies column, and `cookies used` label. Toggle the `show lifespan` on or off. 
+This is the comprehensive list of cookies that is available to the user to view. In `styling`, you can adjust color options for title, cookie group name, table header text, table header background, and primary text. Toggle the table format on or off. There are options for custom CSS here as well. In `content`, you can adjust the options for the cookie list title, description, host, cookies column, and `cookies used` label. Toggle the `show lifespan` on or off.
 
 Ensure any changes you make are approved by legal and saved within the OneTrust tenant.
 
@@ -271,13 +271,13 @@ Ensure any changes you make are approved by legal and saved within the OneTrust 
 1. Name the rule. (example: GDPR)
 1. Select the regions you would like to assign the policy to. Multiple regions can be included for a specific rule. **Note:** Geolocation for mobile devices uses coordinates reported by the internet-connected device. Users at or near borders may experience reduced accuracy for this function.
 1. Toggle `Show Banner` on or off. If unchecked, no banner will display but settings take effect.
-1. Input the template to use for this geolocation rule. 
+1. Input the template to use for this geolocation rule.
 1. Choose the consent model for this geolocation rule. Clicking the dropdown here, you can select a consent model for all cookie categories or specify the consent model for each cookie category. Toggle `Do Not Track` by the cookie category.
 1. In `Behaviors` you can toggle the behavior for this rule in conjunction with the cookie banner and whether that particular behavior will `accept all cookies` or not as well as closing the banner.
-1. Reconsent will occur after: this will prompt the banner again for users to capture reconsent. The default is 1 year but can be configured by months, years, and days. 
-1. Capture records of consent: cookie ID associated with each user; the consent module logs those preferences. 
-1. Advanced analytics: sends browser type, device type, and country where the user consented. This information will be shown in the dashboard. Toggle this to a specific cookie category (example: performance cookies for Google analytics). 
-1. Google Consent Mode is a feature that controls how Google services, such as Google Analytics and Google Ads, collect and use data from website visitors based on their consent preferences. The Storage Type column contains the fixed [consent type from Google](https://support.google.com/analytics/answer/12334711). Each Storage Type should map to the OneTrust cookie category to ensure Google platforms aligns with OneTrust. 
+1. Reconsent will occur after: this will prompt the banner again for users to capture reconsent. The default is 1 year but can be configured by months, years, and days.
+1. Capture records of consent: cookie ID associated with each user; the consent module logs those preferences.
+1. Advanced analytics: sends browser type, device type, and country where the user consented. This information will be shown in the dashboard. Toggle this to a specific cookie category (example: performance cookies for Google analytics).
+1. Google Consent Mode is a feature that controls how Google services, such as Google Analytics and Google Ads, collect and use data from website visitors based on their consent preferences. The Storage Type column contains the fixed [consent type from Google](https://support.google.com/analytics/answer/12334711). Each Storage Type should map to the OneTrust cookie category to ensure Google platforms aligns with OneTrust.
 
 #### Assigning a Geolocation Rule Group to Domains
 
@@ -295,14 +295,14 @@ Ensure any changes you make are approved by legal and saved within the OneTrust 
 1. **Notice only:** If you select Notice Only as the default consent model, all cookie categories will be set to Always Active and cannot be disabled by website visitors. A banner informing the visitor that the website uses cookies will be displayed on the landing page of the website.
 1. **Custom:** If you select this option, you can set a different default status for each category of cookie on your site. You can customize the consent model to suit your organization's needs and can set the Do Not Track status for each category of cookie.
 
-### Banner Rules 
+### Banner Rules
 
-The OneTrust banner is only visible to new website visitors based on a set of logic listed below. In regions where the banner does not display, the user can still consent to cookie categories from the Preference Center window by clicking on the "Cookie Settings" or "Do not sell..." link located in the footer section. 
+The OneTrust banner is only visible to new website visitors based on a set of logic listed below. In regions where the banner does not display, the user can still consent to cookie categories from the Preference Center window by clicking on the "Cookie Settings" or "Do not sell..." link located in the footer section.
 
 | Region   | Consent Model | Banner Visibility    | Buttons    | Template | Global Privacy Control |
 |-------|---------------|---------------|------------------|---|---|
-| California, Connecticut   | Opt out       | Not visible          |     | CCPA | Performance and Analytics, Allow Sell or Sharing of PI		|
-| Colorado   | Opt out       | Not visible          |     | GDPR | Performance and Analytics, Targeting and Advertising Cookies	
+| California, Connecticut   | Opt out       | Not visible          |     | CCPA | Performance and Analytics, Allow Sell or Sharing of PI        |
+| Colorado   | Opt out       | Not visible          |     | GDPR | Performance and Analytics, Targeting and Advertising Cookies
 | US     | Opt out       | Not visible          |       | GDPR |
 | Europe, Colombia, Russia, Liechtenstein, Iceland, Norway, Peru, Quebec, Korea | Opt in        | Visible to new users | Cookie Settings, Accept All Cookies  | GDPR |
 | Brazil, South Africa, Macao, Newfoundland and Labrador, Manitoba, British Columbia, New Brunswick, Ontario, Nunavut, Yukon, Alberta, Prince Edward Island, Nova Scotia, Saskatchewan, Northwest Territories   | Opt out       | Visible to new users | Cookie Settings, Accept All Cookies  | GDPR |
@@ -311,9 +311,9 @@ The OneTrust banner is only visible to new website visitors based on a set of lo
 
 ### Accessing Scripts
 
-1. To access the scripts, click `Scripts` in the left menu of the `Cookie Compliance` module. 
-1. Click the domain where the script will be implemented. 
-1. Any time a change is made to a domain within the OneTrust tenant, those changes must be published to production in order for the users to see those changes reflected in the cookie banner, preference center, etc. 
+1. To access the scripts, click `Scripts` in the left menu of the `Cookie Compliance` module.
+1. Click the domain where the script will be implemented.
+1. Any time a change is made to a domain within the OneTrust tenant, those changes must be published to production in order for the users to see those changes reflected in the cookie banner, preference center, etc.
 
 #### Testing
 
@@ -322,7 +322,7 @@ Test scripts are available to roll out new changes. The test scripts are not dom
 1. There is no cache, meaning changes can be viewed immediately.
 1. This script will function on your test site and should be used for testing purposes only.
 
-Publishing the test scripts will not affect the live production scripts. 
+Publishing the test scripts will not affect the live production scripts.
 
 #### Production
 
@@ -330,13 +330,13 @@ Production scripts are for use in live websites. Fastest page load speed. Publis
 
 **The script tags need to be placed as the first element in the `<head>` of the site. It is important that the OneTrust script is placed before other scripts on the site to ensure users have a chance to consider their cookie preferences before cookies are potentially dropped on their machines.**
 
-Scripts implemented in root domains are also applied to subsequent subdomains and paths. Scripts implemented on subdomains are only applied to subdomains. 
+Scripts implemented in root domains are also applied to subsequent subdomains and paths. Scripts implemented on subdomains are only applied to subdomains.
 
 In order to push changes to production, click `Publish Production Scripts` and note any changes to the script as you may have to re-copy and re-implement the script in the `<head>` of the site.
 
 ### Script Version
 
-Click `Publish Test`. Here you can choose which version of the script to publish. You will also be alerted to which features may or may not be compatible with a script version including the field name, old value, and new value. Click `Confirm`. 
+Click `Publish Test`. Here you can choose which version of the script to publish. You will also be alerted to which features may or may not be compatible with a script version including the field name, old value, and new value. Click `Confirm`.
 
 ### Publication Settings
 
@@ -351,9 +351,9 @@ Here you can confirm the publication settings of the script. Note: enabling or d
 
 Click `Publish Test Scripts`. Implement the script into the HTML of your staging site.
 
-#### Auto-Blocking 
+#### Auto-Blocking
 
-When the Auto-blocking feature is toggled ON under publication settings, an `optanon...` class is appended to all script tags that store cookies on the browser. The script will only load if the user consent to the cookie category. For example, the following Vimeo script contains the `optanon-category-C0002` class value, meaning the Vimeo script will only load if the user consent to the Performance cookie category: 
+When the Auto-blocking feature is toggled ON under publication settings, an `optanon...` class is appended to all script tags that store cookies on the browser. The script will only load if the user consent to the cookie category. For example, the following Vimeo script contains the `optanon-category-C0002` class value, meaning the Vimeo script will only load if the user consent to the Performance cookie category:
 `<script src="https://extend.vimeocdn.js" class="optanon-category-C0002">`
 
 To override the `optanon` class and remove the autoblocking feature from certain scripts, the script will need to be removed from the cookie's source on OneTrust:
@@ -361,8 +361,8 @@ To override the `optanon` class and remove the autoblocking feature from certain
 1. Under Setup > Categorizations > select All Cookies
 1. Click on the filter icon > click on Add Filter > click on Add Field: Default Category > select the category from the `optanon` script > click Apply
 1. Click into each cookie > click Source
-1. Remove the desired script from the cookie's source 
-1. Publish the script 
+1. Remove the desired script from the cookie's source
+1. Publish the script
 
 
 ### Do Not Sell & Cookie Setting Button

@@ -14,11 +14,12 @@ This handbook page is meant to cover who we are and why we exist at GitLab. On t
 
 ## People Analytics Handbook Contents
 
-- [People Analytics Data Guide]({{< ref "./data-guide.md" >}})
-- [People Analytics Tableau Dashboard Overview]({{< ref "people-tableau" >}})
+- [People Analytics Data Guide]({{< ref "./data-guide.md" >}}) - If you are an analyst trying to use People data sets, this guide will help you get started with our data models.
+- [People Data Governance]({{< ref "data-governance" >}}) - This is an overview of how we ensure quality of our People data.
+- [People Analytics Tableau Dashboard Overview]({{< ref "people-tableau" >}}) - This page covers how we use Tableau to share data and insights at GitLab. It includes some of our commonly used dashboards.
+- [People Analytics Survey Support]({{< ref "survey-support" >}}) - We help build employee surveys in Culture Amp. This page covers some of the details we need to help administer a survey and the additional support the People Analytics team can provide.
 
 ## What is People Analytics?
-
 
 The study of people at work! Human Resource departments (the [People Group](/handbook/people-group) here at GitLab) everywhere are flipping their approach to organizational behavior. Instead of only using experience, opinions, or intuition to make decisions they are leveraging the power of data for decision making processes.
 
@@ -73,12 +74,9 @@ It is not necessary to have a large suite of tools in order to be an effective P
 - Anonymize sensitive data that is used in metric calculations and reporting to reduce risk whenever possible.
 - Please submit requests and ideas using the issue templates in the [People Analytics project](https://gitlab.com/gitlab-com/people-group/people-operations/people-analytics2/).
 
-
 ## General People Analytics Resources
 
 - [Wharton People Analytics](https://analytics.wharton.upenn.edu/programs/wharton-people-analytics/) - Wharton hosts an annual People Analytics Conference and dedicates a lot of effort to research in this space.
 - [AIHR](https://www.aihr.com/blog/people-analytics-resource-library/) - AIHR is generally a good resource for HR and they have resources specific to People Analytics as well.
 - [HR Predictive Analytics](https://www.koganpage.com/product/predictive-hr-analytics-9780749484446) - A textbook that walks through People Analytics concepts and specific examples (with code!).
 - [re:Work](https://rework.withgoogle.com/subjects/people-analytics/) - While not updated in some time, this is a great introductory resource created by Google to help teams get started with People Analytics.
-
-

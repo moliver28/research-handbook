@@ -37,7 +37,7 @@ You can find the content we create in the following places:
 To make a request of the Technical Marketing team please follow the [content request process](/handbook/marketing/developer-relations/content-request/) for the Developer Relations team.
 
 ## Prioritizing work
-Our work is mainly driven and prioritized by the following Marketing defined [Core DevOps Solutions](/handbook/use-cases/) and can be tracked on the [Solutions Go-to-market](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/). Specifically, our deliverables contributing to this effort are sorted by priority below (subject to change).
+Our work is mainly driven and prioritized by the following Marketing defined [Core DevOps Solutions](/handbook/marketing/use-cases/) and can be tracked on the [Solutions Go-to-market](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/). Specifically, our deliverables contributing to this effort are sorted by priority below (subject to change).
 
 * Analyst Demos/Analyst Evaluations
 * Core Solutions Demos

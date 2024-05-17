@@ -19,7 +19,7 @@ The maintainer of this page (as indicated in the sidebar) is considered the [DRI
 | Role | Owner | Current Individual(s) | Responsibilities |
 | ------ | ------ | ------ | ------ |
 | Issue triager | Office of the CEO | Cynthia (Arty) Ng | Triage and prioritize issues, Schedule work in consultation with Technical DRI |
-| Technical DRI | Incubation (Engineering) | Marshall Cottrell | Development work as needed, Code reviews/approvals |
+| Technical DRI | Incubation (Engineering) | Darby Frey | Development work as needed, Code reviews/approvals |
 | Content DRI | Office of the CEO | Stella Treas, Cynthia (Arty) Ng | Make decisions on handbook operations, Coordinate any major changes |
 | Keep pipeline green | Group of volunteers  | See [Escalation page](on-call#keep-main-green-group) | Help fix the pipeline if jobs are failing as needed  |
 | Code Maintainer | Group of volunteers | Technical DRI, plus [`@gitlab-com/content-sites/handbook-backend`](https://gitlab.com/gitlab-com/content-sites/handbook-backend/-/project_members?with_inherited_permissions=exclude) | Code reviews, escalation point for "Keep pipeline green" group, and as time allows, development work |
@@ -32,8 +32,8 @@ This page further documents the scope and responsibilities of the DRI and their 
     1. While often referred to as "the handbook", this website also serves a wide variety of other content including the [job families](/job-families), and the [teamops](/teamops) pages.
     1. `handbook.gitlab.com` is primarily backed by the [`gitlab-com/content-sites/handbook`](https://gitlab.com/gitlab-com/content-sites/handbook/)  project and repo.
     1. Data (yml) files currently resides in the [`gitlab-com/www-gitlab-com`](https://gitlab.com/gitlab-com/www-gitlab-com) repository.
-1. The ["Internal Handbook" at `internal-handbook.gitlab.io`](https://internal-handbook.gitlab.io/):
-    1. This website contains content that falls into the [not public](/handbook/communication/confidentiality-levels/#not-public) category. More details are available in [the Internal Handbook usage page](/handbook/handbook-usage#the-internal-handbook)
+1. The ["Internal Handbook" at `internal.gitlab.com`](https://internal.gitlab.com/):
+    1. This website contains content that falls into the [not public](/handbook/communication/confidentiality-levels/#not-public) category. More details are available in [the Internal Handbook usage page](/handbook/about/handbook-usage/#the-internal-handbook)
     1. The Internal Handbook is backed by the [`gitlab-com/content-sites/internal-handbook`](https://gitlab.com/gitlab-com/content-sites/internal-handbook) project and repo.
 1. The theme for the handbook sites is in the [`gitlab-com/content-sites/docsy-gitlab`](https://gitlab.com/gitlab-com/content-sites/docsy-gitlab) project.
 
@@ -74,8 +74,8 @@ Priority can apply to any type of issue.
 For bug issues, priority typically matches the [severity](#severity).
 Match the priority to the severity if uncertain.
 
-| Priority | Importance | Intention | DRI |
-| -------- | ---------- | --------- | --- |
+| Priority | Importance | Intention |
+| -------- | ---------- | --------- |
 | `~"hb-priority::1"` | Urgent | We will address this as soon as possible regardless of the limit on our team capacity. Our target resolution time is 30-60 days. |
 | `~"hb-priority::2"` | High   | We will address this soon and will provide capacity from our team for it. Our target resolution time is 60-120 days. |
 | `~"hb-priority::3"` | Medium | We want to address this but don't have visibility when this will be addressed. No timeline designated. |

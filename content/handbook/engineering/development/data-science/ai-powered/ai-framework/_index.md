@@ -39,8 +39,8 @@ If you're interested in the team's Objectives and Key Results (OKRs), you can fi
 
 Depending on the context here are the most appropriate ways to reach out to the IDE Group:
 
-- Slack Channel: [`#g_ai_framework`][slack]
-- Slack Groups: `@ai-framework` (entire team) and `@ai-framework-engs` (just engineers)
+* Slack Channel: [`#g_ai_framework`][slack]
+* Slack Groups: `@ai-framework` (entire team) and `@ai-framework-engs` (just engineers)
 
 ## 📦 Team Processes
 
@@ -51,21 +51,21 @@ Depending on the context here are the most appropriate ways to reach out to the 
 #### Team Meetings
 
 1. **Weekly Work Assignment Meeting**
-   - **When:** Every Monday, alternating between 09:00 AM GMT+1 and 17:00 PM GMT+1
-   - **What:** This meeting is dedicated to workload assignment. The Engineering Manager and Product Manager assign work as needed for the entire team.
+   * **When:** Every Monday, alternating between 09:00 AM GMT+1 and 17:00 PM GMT+1
+   * **What:** This meeting is dedicated to workload assignment. The Engineering Manager and Product Manager assign work as needed for the entire team.
 
 2. **Bi-Weekly Engineering Sync**
-   - **When:** Every other Thursday, alternating between 11:00 AM GMT+1 and 18:00 PM GMT+1
-   - **What:** This meeting is dedicated to the engineering team for the purpose of syncing up on progress, discussing technical challenges, and planning upcoming sprints.
+   * **When:** Every other Thursday, alternating between 11:00 AM GMT+1 and 18:00 PM GMT+1
+   * **What:** This meeting is dedicated to the engineering team for the purpose of syncing up on progress, discussing technical challenges, and planning upcoming sprints.
 
-3. **Monthly Sync Retro**
-   - **When:** Once a month
-   - **What:** This meeting is for our team retrospectives. We reflect on the past month, discuss what went well and what could be improved.
+3. **Think BIG sessions**
+   * **When:** Once a month
+   * **What:** This session will alternate between EMEA/AMER and APAC regions every other month, focusing on broad discussions about group dynamics and strategic planning.
 
 ### Shared calendars
 
-- AI Framework PTO (Calendar ID: `c_eca9440729dba2cbd88b3117fa70839836fb5811cb072132b94c52f912a31bf5@group.calendar.google.com`)
-- AI-Powered Stage Calendar (Calendar ID: `c_n5pdr2i2i5bjhs8aopahcjtn84@group.calendar.google.com`)
+* AI Framework PTO (Calendar ID: `c_eca9440729dba2cbd88b3117fa70839836fb5811cb072132b94c52f912a31bf5@group.calendar.google.com`)
+* AI-Powered Stage Calendar (Calendar ID: `c_n5pdr2i2i5bjhs8aopahcjtn84@group.calendar.google.com`)
 
 AI Framework team members should [sync your PTO events](/handbook/people-group/engineering/team-pto-calendar/) with AI Framework PTO calendar.
 
@@ -77,31 +77,41 @@ Each week the team EM provides a Weekly Status update issue which aims to captur
 
 Our workflow process for our [board](https://gitlab.com/groups/gitlab-org/-/boards/7346017?label_name[]=group%3A%3Aai%20framework) is outlined below.
 
-1. **Open** 📝: This list contains all identified issues. An engineering manager will be assigned if either the Milestone or the label "workflow::ready for development" is missing.
-2. **workflow::problem validation** 🧪: Issues here are undergoing validation to ensure the proposed solution meets the requirements. Once validated, the "ready for development" label is applied.
-2. **workflow::ready for development** 🎯: Issues that have been prioritized and assigned to a specific milestone are moved to this list and the "ready for development" label is applied.
-3. **workflow::in dev** 👩‍💻: When a developer starts working on an issue, they should move it to this list and apply the "in dev" label.
-4. **workflow::in review** 👀: Once the development work on an issue is complete, it should be moved to this list and the "in review" label should be applied.
-5. **workflow::verification** ✅: After the code and UX review is complete, the issue should be moved to this list and the "verification" label should be applied.
-6. **workflow::complete** 🎉: Once the issue has been verified and everything is working, it should be moved to this list, the "complete" label should be applied, and the issue should be closed.
+1. **Open** 📝: This list includes all identified issues. An engineering manager will be assigned if either the Milestone or the "workflow::ready for development" label is missing.
+2. **workflow::design** ✏️: During this phase, issues undergo design refinement. After design considerations are integrated, the "ready for development" label is applied.
+3. **workflow::refinement** 🧪: Issues in this stage are undergoing engineering refinement to ensure the proposed solution meets all requirements. Once refined, the "ready for development" label is applied.
+4. **workflow::ready for development** 🎯: Issues that are prioritized and assigned to a specific milestone are moved to this list, and the "ready for development" label is applied.
+5. **workflow::in dev** 👩‍💻: When a developer begins work on an issue, they should move it to this list and apply the "in dev" label.
+6. **workflow::in review** 👀: After development is complete, the issue moves to this list, and the "in review" label is applied.
+7. **workflow::verification** ✅: Following a successful code and UX review, the issue should be moved to this list and the "verification" label should be applied.
+8. **workflow::complete** 🎉: Once the issue is verified and confirmed to be working properly, it should be moved to this list, the "complete" label should be applied, and the issue should be closed.
 
 ### 📝 Issue Priority
 
 To ensure that our developers are aware of the priority of their work, we [use three labels](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=AIF):
 
-- **AIF-Priority::1**: This label is for issues that are of the highest priority. These issues should be addressed first.
-- **AIF-Priority::2**: This label is for issues that are of medium priority. These issues should be addressed after all Priority 1 issues have been resolved.
-- **AIF-Priority::3**: This label is for issues that are of lower priority. These issues should be addressed after all Priority 1 and Priority 2 issues have been resolved.
+* **AIF-Priority::1**: This label is for issues that are of the highest priority. These issues should be addressed first.
+* **AIF-Priority::2**: This label is for issues that are of medium priority. These issues should be addressed after all Priority 1 issues have been resolved.
+* **AIF-Priority::3**: This label is for issues that are of lower priority. These issues should be addressed after all Priority 1 and Priority 2 issues have been resolved.
 
 ### 🔄 Processes
 
 #### 🗓️ Weekly
 
+1. **Open 🆕**: (DRI: PM) Capture and list new issues as they arrive. This stage serves as the initial holding area where issues await further classification and prioritization.
+2. **Workflow Design ✍️**: (DRI: Designer) Move issues into this lane for design refinement. Focus on detailing user experience and interface design. Essential for aligning the visual and functional aspects of the solution with user needs.
+3. **Workflow Refinement 🔧**: (DRI: Engineering Lead) Issues undergo technical refinement here. Engineers review and adjust the technical aspects to ensure feasibility and adherence to technical standards.
+4. **Workflow Ready for Development 🎯**: (DRI: PM/EM) Transition issues that have completed the refinement process here. They are fully specced and ready for developers to start coding.
+5. **Workflow in Development 💻**: (DRI: Assigned Developer) Coding and implementation of workflows happen in this stage. Developers build out the features and functionalities as specified.
+6. **Workflow in Review 🔍**: (DRI: QA/Reviewer) Conduct thorough reviews and testing of completed workflows. This includes code reviews and usability testing to ensure quality and functionality before final deployment.
+
+
 1. **Backlog Refinement 📝**: (DRI: PM /EM) Once per week, review all the issues in the **Open** lane. Prioritize them based on their importance, urgency, and input from the team. Identify which issues need discovery work and which can be moved straight into **workflow::ready for development**.
 2. **Discovery Work Assignment 🧪**: (DRI: PM/EM) Move issues that need discovery work into the **workflow::problem validation** lane. These issues are not yet fully defined and need further investigation before they can be developed.
 3. **Ready for Development Assignment 🎯**: (DRI: PM/EM) Move issues that have the necessary details for development into the **workflow::ready for development** lane. These issues are either already assigned to an individual contributor (IC), or if not, are ordered by priority so they can be picked up with ease.
-4. **Progress Check 🔄**: (DRI: Assigned Developer) Check the **workflow::in dev** lane daily to see the status of the ongoing tasks. 
+4. **Progress Check 🔄**: (DRI: Assigned Developer) Check the **workflow::in dev** lane daily to see the status of the ongoing tasks.
 5. **Review Completed Tasks 👥**: (DRI: Assigned Developer) Review the tasks in the **workflow::in review** lane. Ensure they are moving forward.
+
 
 **Issues for the AI Framework team are binary: they are categorized as either a discovery issue, requiring further investigation, or an implementation issue, ready for development. This approach helps us maintain a lean and efficient workflow.**
 
@@ -109,13 +119,14 @@ To ensure that our developers are aware of the priority of their work, we [use t
 
 These guidelines apply to all issues we use for planning and scheduling work within our group. Our Engineers can define specific implementation issues when needed, but the overall goal for our issues are as follows:
 
-- Provide a meaningful **title** that describes a deliverable result.
-    - ✅ `Add the new GitLab Duo chat package as a Vue2 extension`
-    - ✅ `Chat: move away from using OpenAI embeddings`
-    - ❌ `Make Chat better`
-- Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
-- Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
-- The issue should have a weight, milestone and workflow label assigned.
+* Provide a meaningful **title** that describes a deliverable result.
+    * ✅ `Add the new GitLab Duo chat package as a Vue2 extension`
+    * ✅ `Chat: move away from using OpenAI embeddings`
+    * ❌ `Make Chat better`
+* Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
+* Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
+* The issue should have a weight, milestone and workflow label assigned.
+* Design and frontend engineering use one issue. The same issues moves from workflow::design to workflow::refinement to workflow::ready for development. This ensures that there is a single source of truth for customer-facing issues. If a design issue is too large to be implemented, it may be promoted to an epic.
 
 It's okay to create specific engineering-driven implementation issues for more complex features. These would be called **Child Issues** and they should always link back to their parent. If one issue would spawn many child issues, consider creating an Epic.
 
@@ -138,22 +149,27 @@ We operate using async communication by default. There are times when a sync dis
 
 ## 🔗 Other Useful Links
 
+### 🌍 AIGW Region Deployments
+
+- 🚀 [Staging](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway-staging.yml?ref_type=heads#L12)
+- 🌐 [Production](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway.yml?ref_type=heads#L12)
+
 ### 📝 Dashboards (internal only)
 
-- All Usage
-- [Requests per provider](https://thanos-query.ops.gitlab.net/graph?g0.expr=sum%20by%20(client)(rate(gitlab_sli_llm_client_request_total%7Benv%3D%22gprd%22%7D%5B1m%5D))&g0.tab=0&g0.stacked=0&g0.range_input=1w&g0.max_source_resolution=0s&g0.deduplicate=1&g0.partial_response=0&g0.store_matches=%5B%5D&g0.step_input=60)
-- [Error budgets](https://dashboards.gitlab.net/d/product-ai-powered_error_budget/product-error-budgets-ai-powered?orgId=1)
-- [AI Gateway SLIs](https://dashboards.gitlab.net/d/ai-gateway-main/ai-gateway-overview?orgId=1)
-- [GCP quota limits](https://dashboards.gitlab.net/d/ai-gateway-main/ai-gateway-overview?orgId=1&viewPanel=1515902021)
-- [LLM Sidekiq completions](https://dashboards.gitlab.net/d/sidekiq-main/sidekiq-overview?orgId=1)
-- [Duo Chat Question Categorization](https://app.periscopedata.com/app/gitlab/1173299/Duo-Chat-Question-Categorization)
-- [Security Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=group%3A%3Aai%20framework&first_page_size=20)
-- [Reliability Issues](https://gitlab.com/gitlab-org/gitlab/-/boards/4227439?not[label_name][]=type%3A%3Afeature&label_name[]=section%3A%3Adev&label_name[]=group%3A%3Aai%20framework)
-- [Sentry via CompletionWorker](https://new-sentry.gitlab.net/organizations/gitlab/issues/?query=is%3Aunresolved++CompletionWorker&referrer=issue-list&statsPeriod=14d)
-- [Sentry via Feature Category](https://new-sentry.gitlab.net/organizations/gitlab/issues/?query=is%3Aunresolved+feature_category%3Aai_abstraction_layer&referrer=issue-list&statsPeriod=24h)
-- [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/ai-framework-retros)
-- [Chat QA Evaluation](https://gitlab.com/gitlab-org/ai-powered/ai-framework/qa-evaluation)
-- [Chat REST API Error Ratio](https://log.gprd.gitlab.net/app/r/s/lDEwi)
+* All Usage
+* [Requests per provider](https://thanos-query.ops.gitlab.net/graph?g0.expr=sum%20by%20(client)(rate(gitlab_sli_llm_client_request_total%7Benv%3D%22gprd%22%7D%5B1m%5D))&g0.tab=0&g0.stacked=0&g0.range_input=1w&g0.max_source_resolution=0s&g0.deduplicate=1&g0.partial_response=0&g0.store_matches=%5B%5D&g0.step_input=60)
+* [Error budgets](https://dashboards.gitlab.net/d/product-ai-powered_error_budget/product-error-budgets-ai-powered?orgId=1)
+* [AI Gateway SLIs](https://dashboards.gitlab.net/d/ai-gateway-main/ai-gateway-overview?orgId=1)
+* [GCP quota limits](https://dashboards.gitlab.net/d/ai-gateway-main/ai-gateway-overview?orgId=1&viewPanel=1515902021)
+* [LLM Sidekiq completions](https://dashboards.gitlab.net/d/sidekiq-main/sidekiq-overview?orgId=1)
+* [Duo Chat Question Categorization](https://app.periscopedata.com/app/gitlab/1173299/Duo-Chat-Question-Categorization)
+* [Security Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=group%3A%3Aai%20framework&first_page_size=20)
+* [Reliability Issues](https://gitlab.com/gitlab-org/gitlab/-/boards/4227439?not[label_name][]=type%3A%3Afeature&label_name[]=section%3A%3Adev&label_name[]=group%3A%3Aai%20framework)
+* [Sentry via CompletionWorker](https://new-sentry.gitlab.net/organizations/gitlab/issues/?query=is%3Aunresolved++CompletionWorker&referrer=issue-list&statsPeriod=14d)
+* [Sentry via Feature Category](https://new-sentry.gitlab.net/organizations/gitlab/issues/?query=is%3Aunresolved+feature_category%3Aai_abstraction_layer&referrer=issue-list&statsPeriod=24h)
+* [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/ai-framework-retros)
+* [Chat QA Evaluation](https://gitlab.com/gitlab-org/ai-powered/ai-framework/qa-evaluation)
+* [Chat REST API Error Ratio](https://log.gprd.gitlab.net/app/r/s/lDEwi)
 
 ### 📹 GitLab Unfiltered Playlist
 
@@ -179,7 +195,7 @@ The AI Framework Group collates all video recordings related to the group and it
 
 [slack]: TBA
 [youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0Kpt0DsmS5WSZbeiMgrBeZXv
-[paid-time-off]: /handbook/paid-time-off/#paid-time-off
+[paid-time-off]: /handbook/people-group/paid-time-off/#paid-time-off
 [gdoc]: https://docs.google.com/document/d/1rSJNmRZJ0q8hd9S6W_AXlCMvtNTC6cfWr6VU0e2fJCQ/edit#heading=h.3xbjtjtrp0e9
 
 <!-- LINKS END -->

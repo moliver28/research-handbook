@@ -7,7 +7,7 @@ This page contains information on secure training initiatives sponsored by the G
 ## Security Development Process
 
 For information on developing security fixes in GitLab, please see the
-[Security Release Documentation](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md). (Required)
+[Patch Release runbook for preparing security fixes](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md). (Required)
 
 ## Secure Coding Guidelines
 

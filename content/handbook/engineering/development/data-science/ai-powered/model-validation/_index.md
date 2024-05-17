@@ -51,7 +51,7 @@ Our current customers include:
 2. Create: Code Creation team
 3. Govern:Threat Insights `Vulnerability explanation` team
 
-##  Top FY25 Priorities
+## Top FY25 Priorities
 
 Data Driven evaluated AI Solutions with every code change.
 
@@ -93,7 +93,7 @@ Our OKRs can be viewed [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues
 
 Our team works across GitLab project including:
 
-- [Prompt library ](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Aai%20model%20validation&first_page_size=20)
+- [Prompt library](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Aai%20model%20validation&first_page_size=20)
 - [Announcements - Weekly updates](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/annoucements/-/issues/?label_name%5B%5D=weekly%20update)
 - [GitLab project](https://gitlab.com/groups/gitlab-org/-/boards/7476573?label_name[]=group%3A%3Aai%20model%20validation) issue board
 

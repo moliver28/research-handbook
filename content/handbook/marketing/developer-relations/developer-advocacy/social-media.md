@@ -25,7 +25,7 @@ Topics:
 
 ### UTM Tracking
 
-Developer Advocates at GitLab are encouraged to add [UTMs for URL tagging and tracking](/handbook/marketing/developer-relations/developer-advocacy/#utms-for-url-tagging-and-tracking) to provide analytics and insights on how well content shares are performing. This method helps to verify [KPI metrics](/handbook/marketing/developer-relations/developer-advocacy/metrics/).
+Developer Advocates at GitLab are encouraged to add [UTMs for URL tagging and tracking](/handbook/marketing/developer-relations/developer-advocacy/#utms-for-url-tagging-and-tracking) to provide analytics and insights on how well content shares are performing. This method helps to verify [KPI metrics](/handbook/marketing/developer-relations/content-effectiveness/).
 
 ## Target Platforms
 
@@ -237,7 +237,7 @@ General topics
 
 ## Analytics
 
-Please see [Metrics Collection & Analysis](/handbook/marketing/developer-relations/developer-advocacy/metrics/) for our methods and tools.
+Please see [Content Effectivness](/handbook/marketing/developer-relations/content-effectiveness/) for our methods and tools.
 
 ## Thought Leadership Strategy
 
@@ -324,14 +324,14 @@ The [August 2022 issue of Michael's opsindev.news newsletter](https://opsindev.n
 
 [GitLab releases](https://about.gitlab.com/releases/) add lots of value every month. As a developer, you know about use cases and workflow enhancements they may solve specifically. Use this knowledge to describe **why** this new feature helps you.
 
-The [product kick-off](https://about.gitlab.com/direction/kickoff/) provides insights into planned features. As we plan ambitiously, there is no guarantee that everything gets released as planned. Therefore release evangelism campaigns need to happen short notice around the [release date](https://handbook.gitlab.com/handbook/engineering/releases/).
+The [product kick-off](https://about.gitlab.com/direction/kickoff/) provides insights into planned features. As we plan ambitiously, there is no guarantee that everything gets released as planned. Therefore release evangelism campaigns need to happen short notice around the [release date](/handbook/engineering/releases/).
 
 > **Tip**: GitLab team members can access the [#release-post](https://gitlab.slack.com/archives/C3TRESYPJ) Slack channel to check for updates on the monthly release blog post.
 > Wider community members can check the `gitlab-com/www-gitlab-com repository` for the [release post MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?label_name%5B%5D=release+post), or follow the Developer Advocate issues with the [DE-Release-Evangelism](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues?sort=updated_desc&state=opened&label_name[]=DE-Type::Evangelist) label.
 
 Workflow:
 
-- Open the fiscal year epic for release evangelism, linked from the [workflow handbook](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/workflow/).
+- Open the fiscal year epic for release evangelism, linked from the [workflow handbook](/handbook/marketing/developer-relations/developer-advocacy/workflow/).
 - Developer Advocates review the release blog post draft.
   - Use the review app.
   - Add feedback and suggestions to the merge request before release day.

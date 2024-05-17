@@ -20,11 +20,12 @@ Please send a copy of the written approval to the Field Onboarding Program Manag
 
 
 - Targeted roles for the Sales Quick Start learning path include recently hired:
-   - Enterprise and Public Sector Strategic Account Executives (SAEs)
-   - Mid-Market and SMB Account Executives (AEs)
-   - Inside Sales Reps (ISRs)
-   - Solution Architects (SAs)
-   - Customer Success Managers (CSMs)
+   - Enterprise and Public Sector Account Executives
+   - Mid-Market and SMB Account Executives
+   - Renewals Managers (RM)
+   - Solution Architects (SA)
+   - Customer Success Managers (CSM)
+   - [Customer Success Engineers (CSE)](https://handbook.gitlab.com/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
    - Professional Services Engagement Managers and Practice Managers
    - Area Sales Managers (ASMs), Regional Directors (RDs) & Vice Presidents (VPs)
    - Customer Success Managers and Directors

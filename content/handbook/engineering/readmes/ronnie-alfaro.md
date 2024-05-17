@@ -14,7 +14,7 @@ It’s also a well-intentioned effort at building some trust by being intentiona
 
 Please feel free to contribute to this page by opening a merge request.
 
-## Related pages 
+## Related pages
 
 * [My LinkedIn profile](https://www.linkedin.com/in/ronnie-a-4a4a6b31/)
 
@@ -28,7 +28,7 @@ Please feel free to contribute to this page by opening a merge request.
 
 ## About me
 
-* **Travel** is my favorite thing, thanks to it I've had experiences like 
+* **Travel** is my favorite thing, thanks to it I've had experiences like
   * Having a cup of butter tea @ Mt. Everest base camp.
   * Trying salteñas from a street vendor in la Paz Bolvia
   * Seeing the sunset in the desert in Chile
@@ -36,7 +36,7 @@ Please feel free to contribute to this page by opening a merge request.
 * I like cooking and collecting recipes books from all the places I visit
   * My wife's most requested meals are Bánh mì and the russian borscht.
 * One time I was asked what was my secret to have a team doing so good, I said there is no secret, it is easy actually: ***Happy people work better***
-* I love spicy food, even completed the [Phaal Challenge](https://newyork.seriouseats.com/2008/06/brick-lane-curry-house-east-village-nyc-phaal-spiciest-indian-curry.html) 
+* I love spicy food, even completed the [Phaal Challenge](https://newyork.seriouseats.com/2008/06/brick-lane-curry-house-east-village-nyc-phaal-spiciest-indian-curry.html)
 * Most of the time you'll see me carrying my camera, and you can see some of my photos on my personal [website](https://www.ronniealfaro.com).
 * I have 2 beautiful daughters, a lovely wife and we have a pet rabbit
 
@@ -48,7 +48,7 @@ I believe in our values, and how by following them GitLab has been able to creat
 * If you're part of my team , don't think twice if you need to talk, I am here for you, we're a team.
 * Don't keep your ideas, comments or suggestions always share them, they are welcome anytime.
 * Do your best but also remember all the good people you have ready to help when needed.
-* Be there for our customers in the same way you'll expect to be helped when you have a problem with any service you hire. 
+* Be there for our customers in the same way you'll expect to be helped when you have a problem with any service you hire.
 
 ## My working style
 

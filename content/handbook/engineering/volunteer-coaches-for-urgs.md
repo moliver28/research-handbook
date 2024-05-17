@@ -17,7 +17,7 @@ This program allows team members at GitLab to volunteer and donate their time an
 
 ## Volunteer Coaches
 
-Team members at GitLab interested in helping out through the program should reach out to the individual listed as the "GitLab Contact" in the list of partners below. There's also a Slack channel named [#volunteer-coaches-urgs (internal only)](https://gitlab.slack.com/archives/C017XNA4LDA) if you want more information prior to signing up. 
+Team members at GitLab interested in helping out through the program should reach out to the individual listed as the "GitLab Contact" in the list of partners below. There's also a Slack channel named [#volunteer-coaches-urgs (internal only)](https://gitlab.slack.com/archives/C017XNA4LDA) if you want more information prior to signing up.
 
 ## Individuals Receiving Coaching
 
@@ -63,7 +63,7 @@ GitLab Contact: [Greg Myers](https://gitlab.com/greg)
 
 | Volunteer                                      | Start      | End | Topic                                                                   |
 | ---------------------------------------------- | ---------- | --- | ----------------------------------------------------------------------- |
-| [Wayne Haber](/handbook/company/team/#whaber)           | March 2021 | TBD | Technical career advice                                                 |
+                                        |
 | [Greg Myers](/handbook/company/team/#greg)              | March 2021 | TBD | HTML/CSS, Project feedback, Technical career advice, Tutorials & Guides |
 | [Gerardo Gutierrez](/handbook/company/team/#ggutierrez5) | March 2021 | TBD | HTML/CSS, Python, Español, Javascript                                   |
 | [Daniel Parker](/handbook/company/team/#dparker)       | March 2021 | TBD | Javascript, Python, HTML/CSS, Project feedback, Technical career advice |
@@ -77,7 +77,7 @@ Here is a little bit about **re:learn** in [their own words](https://relearn.ng/
 
 > At re:learn, our goal is to help schools use technology in a smart way to enhance learning. Through content curation and capacity development - with a wide network of trained facilitators, our aim is to improve the learning experience in and out of the classroom.
 
-The possibilities for volunteering at re:learn will initially start with Fireside chats for the teachers and/or students as part of the program. Hereafter we will look into 1 to 1 coaching for teachers and any assistance with regards to building curriculum for the students. 
+The possibilities for volunteering at re:learn will initially start with Fireside chats for the teachers and/or students as part of the program. Hereafter we will look into 1 to 1 coaching for teachers and any assistance with regards to building curriculum for the students.
 
 GitLab Contact: [Roos Takken](https://gitlab.com/rtakken)
 

@@ -12,6 +12,7 @@ title: Airflow Single-Engineer Group
 ## About the Airflow SEG
 
 ### Latest video
+
 <figure class="video_container">
     <iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=1&showinfo=0&rel=0&listType=playlist&list=PL05JrBw4t0Kpa5s72EQ4f6vVQ-2E7CsB_" frameborder="0" allowfullscreen></iframe>
 </figure>
@@ -34,9 +35,9 @@ According to Airflow themselves:
 
 _Source: https://airflow.apache.org_
 
-A workflow is also called a Directed Acyclic Graph 
-([DAG](https://airflow.apache.org/docs/apache-airflow/stable/concepts/dags.html)) in Airflow, a DAG contains 
-[tasks](https://airflow.apache.org/docs/apache-airflow/stable/concepts/tasks.html) which utilize 
+A workflow is also called a Directed Acyclic Graph
+([DAG](https://airflow.apache.org/docs/apache-airflow/stable/concepts/dags.html)) in Airflow, a DAG contains
+[tasks](https://airflow.apache.org/docs/apache-airflow/stable/concepts/tasks.html) which utilize
 [operators](https://airflow.apache.org/docs/apache-airflow/stable/concepts/operators.html).
 
 ## Typical workflow of developing DAGs

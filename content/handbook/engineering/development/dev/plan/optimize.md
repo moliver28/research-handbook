@@ -109,7 +109,7 @@ Depending on the complexity of an issue, it may be necessary to break down or pr
 
 If none of the above applies, then the issue is probably fine as-is! It's likely then that the weight of this issue is quite low, e.g., 1-2.
 
-##### Managing discussions, information, decisions, and action items in an issue.
+##### Managing discussions, information, decisions, and action items in an issue
 
 As part of [breaking down or promoting issues](#breaking-down-or-promoting-issues), you may find that there are a significant number of threads and comments in a given issue.
 
@@ -246,7 +246,7 @@ release notes section or use a `release post item::` label.
 
 We strongly believe in [Iteration](/handbook/values/#iteration) and delivering value in small pieces. Iteration can be hard, especially when you lack product context or are working in a particularly risky/complex part of the codebase. If you are struggling to estimate an issue or determine whether it is feasible, it may be appropriate to first create a proof-of-concept MR. The goal of a proof-of-concept MR is to remove any major assumptions during planning and provide early feedback, therefore reducing risk from any future implementation.
 
-- Create an MR, prefixed with `PoC: `.
+- Create an MR, prefixed with `PoC:`.
 - Explain what problem the PoC MR is trying to solve for in the MR description.
 - Timebox it. Can you determine feasibility or a plan in less than 2-3 days?
 - Identify a reviewer to provide feedback at the end of this period.

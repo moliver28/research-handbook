@@ -12,7 +12,6 @@ title: "Acquisition Process"
 This is a detailed view of our acquisition process. For more information about
 our acquisitions approach visit our [acquisitions handbook](/handbook/acquisitions/).
 
-
 ## Acquisition process
 
 The process is comprised of five key stages:
@@ -56,7 +55,7 @@ The process is comprised of five key stages:
 ### Early Diligence
 
 1. Select [code name](#acquisitions-are-confidential) to use instead of target company name. Update Slack channel: `#project-code_name`.
-   1. Corporate Development Deal Process Manager to create a dedicated Project for cross-functional collaboration and issue tracking. Make a copy and rename the [New Project Diligence Template](https://gitlab.com/GL-corp-dev/Project-Diligence-Template/test-template) to get started.  
+   1. Corporate Development Deal Process Manager to create a dedicated Project for cross-functional collaboration and issue tracking. Make a copy and rename the [New Project Diligence Template](https://gitlab.com/GL-corp-dev/Project-Diligence-Template/test-template) to get started.
 1. [Form the acquisition team](#acquisition-team) and add the entire team to the channel and documents.
 +1. Confirm internal acquisition champion - every acquisition needs a lead champion; someone who is advocating for the acquisition, helping drive the acquisition rationale and a successful integration process. For most acquisitions that fit our [approach](/handbook/acquisitions/), the champion will be a Product Section lead, at the Director+ level, accompanied by an engineering champion from the GitLab's Engineering team, at the Director+ level, respectively. For other acquisitions, champions may come from other internal functions.
 1. Create a dedicated technical diligence Slack channel `#p-code_name-technical-diligence`. This channel will be the main channel for communication on technical topics with GitLab's development team.
@@ -114,7 +113,7 @@ The process is comprised of five key stages:
             1. Start discussing the technical aspects of a potential path for the integration
         1. Internal notes of the call should be recorded in the Technical Evaluation Google Doc
 1. Early People-Ops review
-    1. The Corporate Development Deal Process Manager will create a new Slack channel topic of `#p-code_name-people` and include the People-ops Champion (VP of People-Ops) and a Talent Acquisition Lead. The People-ops Champion may request that the Corporate Development Champion and Deal Process Manager bring in designated People-ops team-members as needed.  
+    1. The Corporate Development Deal Process Manager will create a new Slack channel topic of `#p-code_name-people` and include the People-ops Champion (VP of People-Ops) and a Talent Acquisition Lead. The People-ops Champion may request that the Corporate Development Champion and Process Manager bring in designated People-ops team-members as needed.
         1. Resume review - Review of all employee resumes
             1. Set your own LinkedIn profile to [private mode viewing](https://www.linkedin.com/help/linkedin/answer/a564182/private-mode-viewers-of-profiles?lang=en) when reviewing target employee profiles. Private mode viewing will prevent target employees from being alerted to GitLab's examination of their LinkedIn profiles.
         1. Compensation review - to identify any gaps and possible flags led by the HR Business Partner
@@ -218,6 +217,7 @@ The primary acquisition team is designed as a compact unit, and will consist of 
 1. Legal, Corporate lead
 
 The primary acquisition team will engage with other functions and roles as needed:
+
 1. VP Finance and Business Technology
 1. VP Tax
 1. Principal Accounting Officer
@@ -238,7 +238,7 @@ To assign the engineering team member, contact the engineering manager of the re
 | Engineering                 | 1. Technical diligence                                                                                                                                             | 1. Code quality review 1. Integration strategy validation - feasibility and timeline |
 | Finance                     | 1. Lead financial diligence <br>2. Validate business case and work with tax team to validate deal structure                                                                                           |                                                                                      |
 | Legal                       | 1. Review entity, assets and existing agreements <br>2. Evaluate sunset and customer transition path                                                                   | 1. Term Sheet 1. Acquisition agreement and ancillary deal documents                                               |
-| People Group | 1. Maintain SSOT for team member data <br>2. Lead the compensation review <br>3. Lead the interview process during the early and due diligence stages to completion 3. Lead and assess successful team member integration in partnership with business                                                                    | 1. Team Member Offers of employment<br>2. Onboarding experience <br>3. Post acquisition survey and action planning                                             |                                                                                      |
+| People Group | 1. Maintain SSOT for team member data <br>2. Lead the compensation review <br>3. Lead the interview process during the early and due diligence stages to completion 3. Lead and assess successful team member integration in partnership with business                                                                    | 1. Team Member Offers of employment<br>2. Onboarding experience <br>3. Post acquisition survey and action planning                                             |
 |Security|1. Identify and summarize Security Risk Posture as part of Early Diligence <br>2. Perform Application Security review|1. Security Risk summary detailing the security risk impacts to GitLab|
 
 ## Acquisitions Are Confidential
@@ -272,6 +272,7 @@ If you have an existing connection, or a regular cadence of interaction, with a 
 Each quarter the Corporate Development team defines a set of [three categories](/handbook/acquisitions/#acquisition-strategy) which are prioritized for that quarter for outbound activity. We commonly refer to them as Quarterly Focus Areas. While this is true especially for our outbound efforts, these categories will be at the center of our overall efforts and focus for that quarter, taking into account inbound prospects as well.
 
 Although we have our quarterly focus areas, we are open to discussing and potentially pursuing an opportunity outside of those focus areas. For us to look into an opportunity outside of our quarterly focus areas, it needs to satisfy one, or more, of the following criteria:
+
 1. Present an outsized revenue potential
 1. Serve as a strategic move (market dynamics etc.)
 

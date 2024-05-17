@@ -1,4 +1,5 @@
 ##### Engineering
+
 * Assumes goodwill, seeks support and clarification of requirements.
 * Capable of delivering work with clear requirements.
 * Constructively raises concerns.

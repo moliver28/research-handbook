@@ -13,7 +13,6 @@ description: "This page outlines the Quote to Cash process, starting from accoun
 
 
 **Welcome to the Sales Order Processing page!**
-{:.gitlab-purple .no_toc}
 
 This page outlines the Quote to Cash process. Topics include account and opportunity creation, quote configuration and approvals, opportunity booking requirements, and closing an opportunity. This page will also cover common questions that may arise after an opportunity has been closed.
 
@@ -242,7 +241,7 @@ During the Sales process, a customer who would not otherwise be exempt from Auto
 3. Once approved, generate a PDF. That PDF will include legal language in the "Notes" section that opts the customer out of the applicable SuperSonics Feature.
   - Any subsequent Add-Ons will maintain the contractual opt-out.
 
-#### How To Temporarily Pause Auto-Renewal, Quarterly Subscription Reconciliation, and Operational Data:
+#### How To Temporarily Pause Auto-Renewal, Quarterly Subscription Reconciliation, and Operational Data
 
 During the Sales process, there may be a need for Sales to "pause" an upcoming Auto-Renewal or Quarterly Subscription Reconciliation while negotiating with the customer. Every pause will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If a pause is requested and approved, that feature will be temporarily disabled for the subscription in question until the next renewal occurs. A pause is not possible for Cloud Licensing.
 
@@ -393,7 +392,7 @@ A video tutorial can be found [**HERE**](https://www.youtube.com/watch?v=CIWdsqR
 
 You may contact Legal directly in Slack via #Legal
 
-#### Request editable version of GitLab Template:
+#### Request editable version of GitLab Template
 
 Within the Customer Opportunity:
 1. Click "Legal Request" (located at the top of the Opportunity SFDC layout)
@@ -430,7 +429,7 @@ NOTE: The above process may be used to also engage Contract Managers / Legal Mem
 
 **All communications, and versions of Agreements, should be kept in the Contract Request Case**
 
-#### Request GitLab Partner Agreement:
+#### Request GitLab Partner Agreement
 
 Within the Customer Opportunity:
 1. Click "Legal Request" (located at the top of the Opportunity SFDC layout)
@@ -453,7 +452,7 @@ Within the Customer Opportunity:
 <details>
 <summary markdown="span"><b>Creating legal dashboards or filing executed contracts</b></summary>
 
-#### Creating your own Legal Request Dashboard:
+#### Creating your own Legal Request Dashboard
 
 1. Creating your own Legal Request Dashboard will enable you to see all Open and Closed Legal Requests that have been created.
 1. The steps to do so are highlighted below, and also found in the recording located [here](https://gitlab.zoom.us/rec/share/--dWJbirp39Lf8_fyU7lY_E4D7zvX6a823IY8vtYyk4ReS25B7mI3HrdLUM8PXat)
@@ -593,7 +592,7 @@ The quoting system will provide visibility into the correct programmatic partner
 
 ### Service Attach Quote Approval
 
-#### Enterprise Service Attach Opportunity Criteria (All Products):
+#### Enterprise Service Attach Opportunity Criteria (All Products)
 
 IF:
 
@@ -606,7 +605,7 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $15,000
 
-#### Enterprise Service Attach Opportunity Criteria (Ultimate Only):
+#### Enterprise Service Attach Opportunity Criteria (Ultimate Only)
 
 Note: If the below criteria are met, this requirement will supersede the above "All Products" requirement.
 
@@ -622,7 +621,7 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $20,000
 
-#### Mid-Market Service Attach Opportunity Criteria:
+#### Mid-Market Service Attach Opportunity Criteria
 
 IF:
 
@@ -634,18 +633,18 @@ THEN:
 
 1. Minimum Professional Services Amount to Attach: $15,000
 
-#### Service Attach Quoting Process:
+#### Service Attach Quoting Process
 
 If an opportunity meets the criteria listed above, the Minimum Professional Services Amount must be attached to the opportunity. Services can be attached using one of two methods:
 
 1. Add standard SKU professional services (i.e. Admin Training) totaling or exceeding the Minimum Professional Services Amount to the quote. Note: Custom services requiring a signed SOW must be quoted separately on a standalone opportunity - see below.
 2. Link a separate, standalone professional services opportunity with services totaling or exceeding the Minimum Professional Services Amount via the "PS Opportunity" field.
 
-#### Service Attach Exceptions/Approval Requirements:
+#### Service Attach Exceptions/Approval Requirements
 
 If an opportunity meets the criteria listed above, but does not meet the Minimum Professional Services Amount, or does not have a linked opportunity that meets the Minimum Professional Services Amount, the quote will require approval to sell the subscription deal without the minimum Service Attach.
 
-#### Service Attach Quote Approval Process:
+#### Service Attach Quote Approval Process
 
 1. Populate the "ProServ Exception Approval Notes" field on the quote with the following information:
   - What use cases are they adopting?
@@ -722,27 +721,94 @@ Complex deals require approval via chatter. Use the applicable template below to
 
 ### **How to Approve a Quote**
 
-The following is intended as a guide for quote approvers.
+The following is intended as a guide for quote approvers who receive approval requests per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit)
 
-#### Quote Approvers
+#### Where do I approve?
 
-According to [our matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.ag75fqu12pf0) for approvers there are a number of reasons that you may be involved in approving an opportunity. Please make sure that you are familiar with the scenarios that you may be involved with.
+Quote Approval requests will originate from one of two sources: [The quote](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval), or [Salesforce Chatter](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#how-to-request-quote-approval-via-chatter). 
 
-- To review how you can approve or reject quotes please watch this [training on youtube](https://youtu.be/T47h4VNTRWU) - Please see the bullet in [Training Videos](#training-videos) on how to access this training video
-- Once a user submits a quote for approval it follows the order of approvers as stated in our approvers matrix
-- You will be notified by an email which contains information about the request, any previous approvers, and a link to the quote.
-- Once you have reviewed the quote you can either approve or reject any quote in one of two ways:
-   1. You can reply directly to the email that you received by following this format when replying to an email:
-        - `APPROVE`, `APPROVED`, `YES`, `REJECT`, `REJECTED`, or `NO` must the first line of the email message. Any other terms in the first line of the reply will result in an error.
-        - You can enter comments, but they must be on the second line of your response.
-        - If you combine the first and second lines into a single line in your response, this will result in an error.
+If the request originates from the quote, you will receive an email alert and a Slack alert. If the request originates from SFDC Chatter, you will receive an email alert. Click [here](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=kix.1p0vwiqmoq15) to learn more about which requests should go through the quote vs. SFDC Chatter. In FY25 we will move away from SFDC Chatter entirely, routing all approvals through the quote. 
 
-   1. You can approve or reject the quote directly within salesforce on the bottom of the quote page under `Approval History`
-- If you are going to be unavailable to review and approve quotes (PTO, at a conference etc.) please coordinate with the appropriate team members to ensure that there will still be someone who can review quotes while you are unavailable.
+#### Approval Requests Submitted via Quote "Submit for Approval" Button
+
+Approval requests submitted via [this process](https://handbook.gitlab.com/handbook/sales/field-operations/order-processing/#standard-quote-approval) can be approved one of three ways: (1) via email alert, (2) via Slack alert, or (3) directly in Salesforce.
+
+Once a user submits a quote for approval, it will follow the order of approvers as stated on the quote and in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit). You will be notified by an email and a Slack alert, both of which contain information about the request, and a link to the quote. 
+
+##### Approve Directly in Salesforce
+
+- To review how you can approve or reject quotes via email or directly in Salesforce, sign into the GitLab Unfiltered YouTube account and watch this [video](https://youtu.be/T47h4VNTRWU). 
+- You can approve or reject a quote directly within Salesforce by accessing the quote and scrolling to the bottom of the page under `Approval History`. Click `Approve` or `Reject` next to your name to take action.
+
+##### Approve via Email
+
+- To review how you can approve or reject quotes via email or directly in Salesforce, sign into the GitLab Unfiltered YouTube account and watch this [video](https://youtu.be/T47h4VNTRWU). 
+- Once you have reviewed the quote, you can reply directly to the email. Valid responses are:
+  - `APPROVE`
+  - `APPROVED`
+  - `YES`
+  - `REJECT`
+  - `REJECTED`
+  - `NO`
+- Please note, shortly after the launch of Slack Approvals in May 2024, email approval alerts will be deprecated. An announcement will be sent to Field Managers upon removal of this feature.
+
+##### NEW IN FY25: Approve via Slack
+
+###### How It Works
+
+- Slack Approvals sends quote approval requests from Salesforce right to your Slack via the “Quote Approval Bot.” As soon as a submitter clicks “Submit for Approval” on the quote object, the first approver will receive the request. After an approver actions their step, any subsequent approver(s) will receive their request in sequence until the quote is fully approved, or until a user rejects the quote. When it’s your turn to approve, you’ll be able to approve, reject, add comments, and monitor progression - all right in Slack. Each action writes back to Salesforce and leaves a timestamp - just like we’re used to. 
+- The Quote Approval Bot's Approval Dashboard conveniently lists all pending approval requests in one location. No more worrying you missed one!
+
+###### Alert Types
+
+Both submitters and approvers will receive alerts via the Quote Approval Bot as each quote navigates the approval workflow. 
+
+**Approvers** will receive an Approval Request with key information about the opp and quote, links to Salesforce, and Approve/Reject buttons with comment functionality that writes back to Salesforce. Approvers will also receive Approval Alerts confirming they've approved, Rejection Alerts confirming they've rejected and Recall alerts notifying them when a quote pending their approval has been recalled in Salesforce. 
+
+**Submitters** will receive Approval Alerts notifying them when each Approver has approved, Rejection Alerts notifying them that a quote has been rejected, and Final Approvla Alerts notifying them when a quote has been _fully approved_ and an Order Form can be generated.
+
+###### FAQ
+
+1. Will I still receive email notifications for quote approvals?
+
+Yes, you will still receive email notifications initially. Eventually, email notifications will be turned off once all grown accustomed to Slack Approvals.
+
+2. Does this work for chatter approval requests?
+
+No, chatter approval requests will not be routed through Slack. In FY25 Q2/Q3 we will build all deal approvals into the quote approval tool, which will bring all approval requests into Slack and get us out of chatter. Stay tuned!
+
+3. Can I still approve quotes directly in Salesforce?
+
+Yes! If you approve directly in Salesforce, you will still receive a Slack alert confirming your approval.
+
+4. Does this require any change in rep behavior?
+
+No! Submitters will click Submit for Approval on the quote object just as they do today.
+
+5. Does this work on both the desktop app and the mobile app?
+
+Yes!
+
+6. Do I have to do anything to set it up? Do new hires need to request access?
+
+No! All Salesforce users will automatically receive this functionality upon go-live, including new users added to Salesforce in the future.
+
+7. Is there any functionality that enables deal-specific discussion directly in Slack?
+
+At this time, there is no functionality that enables deal-specific discussion directly within the Quote Approval Bot. We’ve custom built this integration, and will consider such functionality for future iterations.
+
+###### Learn More
+
+Additional resources are available in Highspot. Review the [Slack Approvals slide deck](https://gitlab.highspot.com/items/6644d40fe832298666f32013) for step-by-step instructions, or check out this [video announcement](https://gitlab.highspot.com/items/6644cf1179be967698ca92e2) to see Slack Approvals in action!
+
+#### Approval Requests Submitted via Salesforce Chatter
+
+If you have been tagged to approve a quote via Salesforce Chatter, please clearly communicate your Approval or Rejection, as well as exactly what you are approving or rejecting, in the same Chatter thread where your approval was sought. 
+
 
 #### Reassign Quote Approvals
 
-If you are a quote approver and will be out of office, you will need to notify Deal Desk and set up rerouting of any quote approvals.
+If you are a quote approver and will be out of office, please take action to delegate your quote approvals while you are away. To reroute your approvals, follow the below steps: 
 
 1. In Salesforce, navigate to your Profile feed. At the top right of your screen click Your Name > My Profile.
 1. Tag Sales-Support in chatter to notify the Deal Desk team that you will be out of office and tag the individual to whom approvals should be rerouted to, along with the dates that you will be out of office.
@@ -751,7 +817,7 @@ If you are a quote approver and will be out of office, you will need to notify D
      1. Assign your Delegated Approver (the individual to whom your quotes should be rerouted).
      1. Verify with your Delegated Approver that they have set their [SFDC Approval Settings](https://help.salesforce.com/articleView?id=approvals_change_approval_user_pref.htm&type=5) to "If I am an approver" or "Delegated Approver".
 
-Note: If you are a Delegated Approver and are not receiving approval emails, contact sales-support for assistance.
+Note: If you are a Delegated Approver and are not receiving approval alerts, contact sales-support for assistance.
 
 
 #### Approving Multiple Product Tiers on One Quote
@@ -863,7 +929,7 @@ To send a digital copy of an Order Form to the customer via DocuSign:
  - You will receive email notifications to your GitLab email address when the document has been viewed, and when it has been signed.
 2. **When the document has been fully signed, it will automatically be attached to the opportunity.**
 
-#### Learning Resources:
+#### Learning Resources
 
 **Internal Resources:**
 - For a visual demo of GitLab’s DocuSign instance, review this [LevelUP Webinar from 2021-05-13](https://youtu.be/Dch4zaUQOeg)
@@ -1334,7 +1400,7 @@ graph LR;
 
 To view the status of an opportunity after it has been submitted for approval, **review the [7-Closing Stage Dashboard](https://gitlab.my.salesforce.com/01Z4M000000xeww).**
 
-#### Common errors when submitting an opportunity for approval:
+#### Common errors when submitting an opportunity for approval
 
 - Be sure to submit an opportunity for approval *on the opportunity* level, not the quote level.
 - Once submitted, the opportunity’s stage will update to “7- Closing,"" the opportunity record will become locked, and the Approval Status will read "In Progress." No further edits can be made to the opportunity by the field at this time.
@@ -1368,7 +1434,7 @@ Licensing emails sent to customers are captured and stored in Salesforce as an A
 
 Look for Task title: `Email: Your GitLab License File` of `Email: Your GitLab Activation Code`
 
-#### My customer didn't receive the License File or Activation Code! Help!
+#### My customer didn't receive the License File or Activation Code! Help
 
 Check out our [License & Renewal Workflows page](/handbook/support/license-and-renewals/workflows/)
 
@@ -1427,7 +1493,7 @@ The deal has closed, but the customer has questions, or worse, *problems*. You d
 
 Go to the right team who can support you with your request. **NOTE** It is so important to go directly to the correct team, they are often the only ones who can resolve the issue!
 
-#### When to contact Sales-Support:
+#### When to contact Sales-Support
 
 Be sure to review the [common questions after a deal has closed](### Post Sale Information) section. If you still have questions, tag Sales-Support on the relevant Closed Won opportunity.
 
@@ -1439,7 +1505,7 @@ Sales-support does not have the ability to:
     *Resolve Zendesk tickets or open Support issues
     * Access the LicenseApp - **we can't send trials, new licenses, or activation codes**
 
-#### When to contact Customer Support:
+#### When to contact Customer Support
 
 The customer support team is here to resolve technical errors related to the customers subscription. [**DO NOT GO TO CUSTOMER SUPPORT** for License issues until you have read this page](/handbook/support/internal-support/#should-i-contact-gitlab-support)
 

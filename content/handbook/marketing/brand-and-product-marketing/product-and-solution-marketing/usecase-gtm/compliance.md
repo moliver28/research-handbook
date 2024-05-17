@@ -11,9 +11,9 @@ title: "DevOps Solution Resource: Software Compliance"
 
 
 
-# Looking for a customer-facing overview of GitLab's Software Compliance capabilities? See the [Compliance Solution](https://about.gitlab.com/solutions/compliance).
+## Looking for a customer-facing overview of GitLab's Software Compliance capabilities? See the [Compliance Solution](https://about.gitlab.com/solutions/compliance)
 
-# GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information
+## GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
@@ -23,7 +23,7 @@ The page below is intended to align GitLab sales and marketing efforts with a si
 | ------------------------ | ------------------------- |
 | Brian Mason ( @BrianMason )  | Fernando Diaz ( @fjdiaz ) |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Software compliance
 
@@ -81,7 +81,7 @@ Analysts have not identified a market segment for software compliance. They have
 | Security guardrails (Preventative - Pre CI/CD) | Preventative Application Security uses guardrails to help teams consistently build things that are secure from the start. | Compliant pipelines that cannot be circumvented by a developer, pre-approved code libraries, and auto-discovery that catalogs all third party code. | Prevents creating new vulnerabilities. |
 
 
-# The GitLab Solution
+## The GitLab Solution
 
 ## How GitLab Meets the Market Requirements
 
@@ -203,7 +203,7 @@ We partner with key industry vendors to extend GitLab's ability to address custo
 If you or your customer has a third party they'd like to see integrated into GitLab, send them to the [partner integration page](https://about.gitlab.com/partners/technology-partners/integrate/) for instructions.
 
 
-# Selling the Software Compliance Solution
+## Selling the Software Compliance Solution
 
 
 ## Ideal customer profile

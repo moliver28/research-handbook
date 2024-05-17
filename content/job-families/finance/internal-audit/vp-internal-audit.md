@@ -69,6 +69,7 @@ The next step in the Vice President Internal Audit job family is to move to a hi
 ### Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
+
 - Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a 45 minute interview with our PAO
 - Next, candidates will be invited to schedule a 45 minute interview with our CFO.

@@ -25,7 +25,7 @@ The agenda should include discussions that are:
 
 While attendees will include this list of folks, there will be conversations that are most relevant to a sub-set of people. In these cases, calendars will specify who is "recommended" and who is "optional." In some instances, E-Group members may be among the list of optional attendees.
 
-#### Roles
+### Roles
 
 **Executives** are committed to working through difficult discussions and problems during the event.
 They commit to being active participants by proposing topics to the agenda before hand and being executive sponsors for those discussion topics.
@@ -95,6 +95,7 @@ This section captures all three meeting variants.
 ### In-person offsite with Board Meeting
 
 Scheduling for the in-person event around a Board Meeting generally follows:
+
 1. First Day (Monday): Half day meetings. Start around 1pm PST. A social dinner in the evening.
 1. Second Day (Tuesday): 6-7 hours of meetings starting with breakfast at 8am. Includes some unstructured time with the team and team activities.
 1. Third Day (Wednesday): 6-7 hours of meetings starting with breakfast at 8am. Includes some unstructured time with the team. Concludes with a dinner with the Board.
@@ -112,16 +113,17 @@ Scheduling for the in-person event that is not around a Board Meeting generally 
 ### Fully remote offsite
 
 Scheduling for a fully remote offsite generally follows:
+
 1. Monday through Thursday from 8:30am-12:20pm Pacific time each day.
 
 ### Functional leaders meetings
 
  The E-Group hosts a [Functional Leaders Zoom call](#functional-leaders-meeting) in the week after the E-Group Offsite
 
-
 ## Offsite dates and times
 
 The E-Group offsite generally occurs in:
+
 - March or early April
 - June or early July
 - September or October
@@ -132,6 +134,7 @@ The following date(s) have been confirmed for future E-Group offsite(s) (startin
 - 2024-01-08
 
 The following dates were previous E-Group offsites (starting dates):
+
 - 2021-06-28
 - 2021-11-01
 - 2022-01-10
@@ -145,13 +148,14 @@ The following dates were previous E-Group offsites (starting dates):
 
 ## Monthly touch point meetings
 
-We have a monthly, remote touchpoint meeting for months that falls between offsite meetings. These happen between 8:30am and 12:30pm PST. They usually happen on a Monday or Tuesday. In them, we review OKR and [Yearly progress](/handbook/company/yearlies/), discuss key business priorities, and connect on other issues of importance. [E-Group Weeklies](/handbook/e-group-weekly/) will be cancelled during this week. The agenda will be finalized 1.5 weeks in advance of these meetings by the CoS in collaboration with the CEO. The Office of the CEO and E-Group is expected to prioritize these discussions.
+We have a monthly, remote touchpoint meeting for months that falls between offsite meetings. These happen between 8:30am and 12:30pm PST. They usually happen on a Monday or Tuesday. In them, we review OKR and [Yearly progress](/handbook/company/yearlies/), discuss key business priorities, and connect on other issues of importance. [E-Group Weeklies](/handbook/company/e-group-weekly/) will be cancelled during this week. The agenda will be finalized 1.5 weeks in advance of these meetings by the CoS in collaboration with the CEO. The Office of the CEO and E-Group is expected to prioritize these discussions.
 
 ## Offsite topic calendar
 
 While E-Group Offsites often happen about two months in advance of Board Meetings, we reserve time to discuss upcoming Board Meeting topics during each offsite.
 
 **Q1 Offsite**
+
 1. E-Group Offsite Month: April
 1. Following Board Meeting Month: June
 1. Start [**Yearlies**](/handbook/company/yearlies/) (50 minutes)
@@ -160,6 +164,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. [**CEO Assessment** from the Board](/handbook/ceo/office-of-the-ceo/#ceo-performance-evaluation) (2x session per year, 25 min per session)
 
 **Q2 Offsite**
+
 1. E-Group Offsite Month: June
 1. Following Board Meeting Month: September
 1. Review 3 to 5 year [Long Range Outlook (**LRO**)](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) including scenarios, capabilities and dependencies
@@ -168,6 +173,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. [Director + promotion nominations](/handbook/people-group/promotions-transfers/#bamboohr-or-greenhouse-process)
 
 **Q3 Offsite**
+
 1. E-Group Offsite Month: October
 1. Following Board Meeting Month: December
 1. Start [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#plan) that includes the budgets and kick off the work streams to get to a final annual plan a quarter later.
@@ -177,6 +183,7 @@ While E-Group Offsites often happen about two months in advance of Board Meeting
 1. [**CEO Assessment** from the Board](/handbook/ceo/office-of-the-ceo/#ceo-performance-evaluation) (2x session per year, 25 min per session)
 
 **Q4 Offsite**
+
 1. E-Group Offsite Month: January
 1. Following Board Meeting Month: March
 1. Final [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#plan) that includes the budgets
@@ -221,6 +228,7 @@ Because the Offsite is a very expensive meeting, we want to be sure we are as ef
 One of the ways we do this is by asking participants to do prep work ahead of time.
 
 Examples of prep work include:
+
 - [Reading the content that was selected](#content-choice)
 - Executives working with their People Business Partners to prep the [Performance/Potential Matrix of their direct reports](/handbook/people-group/talent-assessment/#the-performancepotential-matrix)
 - Executives working with their People Business Partners to prep any [Director + promotion nominations](/handbook/people-group/promotions-transfers/#bamboohr-or-greenhouse-process)
@@ -263,12 +271,14 @@ The goal is to merge it the same day, preferably within 15 minutes.
 ## Communication guidelines
 
 We have communication guidelines to enable more efficient and productive conversations:
+
 1. Encourage participation from others. We should actively encourage folks who aren't speaking much to speak--especially if we are discussing a topic that should have their direct input. This includes directly asking other folks for their opinions and allowing space for folks to join the conversation.
 1. Proactively stop conversations only involving two people if they go on for more than a few minutes and do not require engagement from the broader group. These conversations can be taken offline.
 
 ## Topic owner responsibilities
 
 If you are the person who owns a topic, you are responsible for:
+
 1. Ensuring that any pre-work is shared at least 5 days before the offsite.
 1. The conversation is being managed toward your desired outcome.
 1. Encouraging folks to stick to the agenda rather than speaking out of order.
@@ -290,6 +300,7 @@ We agreed that we'd use some chosen words to signal that we should pause and reo
 ### Break guidelines
 
 Break periods are scheduled into the agenda by the CoS to the CEO and should follow these guidelines:
+
 1. Breaks should be scheduled for 1/6 of the time (same as speedy meeting)
 1. Breaks should be a minimum of 5 minutes
 1. Going over time on any topic should result in moving the break. It does not reduce it.
@@ -313,12 +324,14 @@ Follow ups can take the form of an:
 In the week following the Offsite, there is a 25-minute Zoom call before 12pm Pacific time for the [Functional Leaders Meeting](/handbook/company/structure/#functional-leaders). This is called the Functional Leaders Meeting.
 
 The goal of this call is to communicate:
+
 1. Strategic or visionary updates that are crucial to priorities
 1. Key decisions made
 1. Key messaging that leaders are enlisted to help distribute
 1. Action items which may need cross-functional collaboration
 
 In advance of each meeting, we will:
+
 1. Provide a summary of key topics
 1. Pick a topic with multiple view points and recap the conversation in greater detail
 
@@ -329,6 +342,7 @@ This time will not work for everyone. The meeting will be privately recorded via
 ### Functional Leaders Responsibilities after Meeting
 
 Functional Leaders play a key role in cascading what is happening in the business and communicating key implications for teams and team members. After each Functional Leaders Meeting, participating team members should:
+
 1. Identify key changes or information of greatest relevance to their teams
 1. Reach out to their manager if they have unresolved questions
 1. Recognize any sensitivities and think about how best to frame messaging to the team
@@ -351,7 +365,7 @@ The offsite includes a 30 minute to 1 hour discussion on material chosen by the 
 
 We will share discussion highlights and takeaways in E-Group Offsite meeting notes that are shared with all team members. This also allows team members to engage in the conversation.
 
-Team Members may [expense](/handbook/spending-company-money/#expense-policy) E-Group offsite material in the quarter that it is discussed.
+Team Members may [expense](/handbook/finance/spending-company-money/#expense-policy) E-Group offsite material in the quarter that it is discussed.
 
 Material that the E-Group finds noteworthy should be added to the [Leadership Books](/handbook/leadership/#books).
 

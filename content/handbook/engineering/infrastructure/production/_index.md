@@ -105,7 +105,7 @@ If this issue is urgent for whatever reason, we should label them following the 
 
 ## On-Call Support
 
-For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/on-call/).
+For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/engineering/on-call/).
 
 ### On-Call escalation
 
@@ -191,7 +191,7 @@ The critical change process is described in the [emergency change process](/hand
 
 Patch validation can be performed in 3 ways.
 - Manually by cross examining the logs of the host with the vulnerability finding in [wiz.io](https://wiz.io).
-- Reviewing vulnerability & tracking issue raised into Gitlab by [Vulnerability Management teams automation] (https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#automation)
+- Reviewing vulnerability & tracking issue raised into Gitlab by [Vulnerability Management teams automation] (/handbook/security/threat-management/vulnerability-management/#automation)
 - Reach out to Vulnerability Management in slack `#g_vulnerability_management`
 
 ### General OS (Ubuntu or other Linux) Version updates

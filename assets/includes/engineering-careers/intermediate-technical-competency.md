@@ -1,4 +1,5 @@
 ##### Engineering
+
 * Considers quality, security, and performance of assigned tasks.
 * Independently plans, estimates and, delivers small and moderate solutions.
 * Seeks guidance when blocked and iterates to a solution.

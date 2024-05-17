@@ -7,6 +7,7 @@ title: "AppSec's Engagement Plan and Ways to Measure Usage of Secure Code Warrio
 If anyone from the AppSec team is interested in contributing to the Secure Code Warrior (SCW) training program and you don't have access to the [Secure Code Warrior training portal](https://portal.securecodewarrior.com/), please post a comment in the `#sec-appsec` Slack channel requesting access.
 
 Once you have access to the Secure Code Warrior training portal, please do the following:
+
 - Join the `#security-secure-code-warrior` Slack channel
 - Watch [Secure Code Warrior platform walkthrough](https://www.youtube.com/watch?v=IwTJ-DOqmXQ) for a quick overview of the platform
 - Please read through SCW's documentation on [Getting Started](https://help.securecodewarrior.com/hc/en-us/categories/360001975872-Getting-Started)
@@ -33,7 +34,7 @@ Developer = Backend + Frontend Engineers. See [Org Chart](https://comp-calculato
 - 25% of developers participate in the semi-annual tournament
 - 50% of developer accounts are spending at least an hour in the platform each month
 
-### Later:
+### Later
 
 - 75% of developers in high risk teams ("high risk" is defined as teams or groups that see the most amount of vulnerabilities reported in their part of the application in a given year) have completed one course, per year, in SCW
 

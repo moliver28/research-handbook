@@ -4,11 +4,13 @@ title: Elevate+
 
 ---
 
-Leaders at GitLab enable our mission that [everyone can contribute](https://handbook.gitlab.com/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
+Leaders at GitLab enable our mission that [everyone can contribute](/handbook/company/mission/). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
 Through small group cohorts and interactive workshops, Elevate+ is designed to enable senior leaders at GitLab to better understand and practice behaviours anchored in GitLab's values and leadership competencies, develop new skills to support high priority business needs, and help establish and strengthen cross-functional connections.
 
 Elevate+ will create a shared leadership development experience across the organization so that every leader has a solid capability to lead in alignment with our GitLab values. This program will focus on the leadership behaviors required to build high performing teams that deliver results for customers.
+
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/936433544?h=4499172070&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="gitlab___elevate+___final (1080p)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 In Elevate+, participants will:
 
@@ -28,14 +30,11 @@ Are you an active participant in Elevate+? Click here to navigate to the Particp
   </div>
 </div>
 
-
-
 ## What concepts are taught in Elevate+?
 
 Elevate+ is organized into 5 learning modules. Read more about the skills covered in each module below:
 
 ![visual displaying the content in each elevate+ module](/handbook/people-group/learning-and-development/elevate-programs/images/elevateplus.png)
-
 
 ## Time Committment
 
@@ -51,7 +50,6 @@ Elevate+ runs for a total of 6 months and is organized into 5 learning modules. 
 | 2 | 2, 3 | Asynchronous Intersession work (GitLab) | Asynchronous assignment to reinforce concepts learned in the Live Learning Session and support participants in advancing their identified business goals. Each assignment will include conversations led by participant with identified individuals in order to directly apply new concepts and a documented deliverable due prior to the Live Cohort Workshops | 75 minutes |
 | 3 | 4 | Live Cohort Workshop (Zoom) | Cross-functional synchronous cohort workshop sessions with ~8-10 other GitLab people leaders to review Intersession work, give and get feedback on application of concepts, and additional opportunities for practice | 80 minutes |
 | 4 | 5 | Share Module Feedback (Google Forms) | Share your perspective on the Elevate+ program by providing input about each module | 5 minutes |
-
 
 ## Certification
 
@@ -79,7 +77,6 @@ If none of the Live Learning sessions will work, you may use Option 2: Async Mak
 Async makeups will be shared with participants directly via Level Up. The include watching recordings from the Live Learning and responding to text-based discussion threads in Level Up.
 
 There is no async makeup option for Cohort Workshops.
-
 
 ## Measuring Success
 
@@ -140,7 +137,7 @@ Due to our priority to certify people leaders, participation by aspiring manager
 
 ### I was asked to fill out the Stakeholder Assessment - what does this mean?
 
-The Elevate+ [stakeholder assessment](https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate+/#measuring-success) is delivered via Culture Amp and helps Elevate+ participants integrate real time feedback into their leadership growth.
+The Elevate+ [stakeholder assessment](/handbook/people-group/learning-and-development/elevate-programs/elevate+/#measuring-success) is delivered via Culture Amp and helps Elevate+ participants integrate real time feedback into their leadership growth.
 
 Being nominated to take this assessment means that an Elevate+ participant greatly values your feedback and is interested to learn your perspective about their leadership style. Participants will view their self assessment results alongside feedback from stakehodlers, then use this data to guide goals they set during Elevate+.
 
@@ -153,8 +150,3 @@ Important things to note:
 1. Participants of current Elevate+ rounds might have also been nominated to take the assessment for their colleagues. This is expected - thanks for taking time to assess your fellow Elevate+ members!
 1. The People Analytics team will have access the the entire survey data set, including names, and will use this to pull aggregate themes from across all Elevate+ participants.
 1. If you're nominated to give feedback to someone that you feel you can't give adequate feedback to, based on your level of collaboration with them, please simply ignore the message from Culture Amp and any reminders.
-
-
-
-
-

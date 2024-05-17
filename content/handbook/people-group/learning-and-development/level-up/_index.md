@@ -3,7 +3,7 @@
 title: Level Up
 ---
 
-## Welcome to Level Up!
+## Welcome to Level Up
 
 This handbook page is meant to support both learners and administrators in Level Up. Thought Industries is the provider of the Level Up platform and is mentioned often in this documentation.
 
@@ -23,7 +23,6 @@ Contributing to Level Up democratizes learning and enables our team members, cus
 1. Establish yourself as a subject matter expert within our learning community
 1. Share learning pathways and other instructional design materials you've created
 1. Enable organizations to learn about GitLab using innovative learning methods
-
 
 **Stay Tuned:** Future iterations of contributions to Level Up will include elevated permissions for Learning evangelists to add new material directly to Level Up!
 
@@ -59,4 +58,3 @@ For questions not answered below, reach out in the #learninganddevelopment Slack
 1. Admin in Level Up can use the `Help Center` to report technical problems with platform directly to Thought Industries.
 1. [Platform Settings PDF Guide](https://drive.google.com/file/d/1MXf8NTGRHWloO4WWZYwcRcDzrVucOfcW/view?usp=sharing)
 1. You can also review the [Level Up Administration Guide](/handbook/people-group/learning-and-development/level-up/administration/#content-types) for more information on platform capabilities.
-

@@ -14,7 +14,7 @@ description: "This page is meant to house resources and processes for the market
 
 
 
-# <i class="fas fa-calendar-check fa-fw color-orange font-awesome"></i> Marketing Calendar
+## <i class="fas fa-calendar-check fa-fw color-orange font-awesome"></i> Marketing Calendar
 
 ## Adding to the All-Marketing Calendar
 {: #marketing-calendar-inputs}
@@ -88,7 +88,7 @@ Below are some pre-set filter examples:
 
 *If there are other views you would find helpful, please feel free to duplicate an existing filter view, and include some sort of categorization (i.e. team, segment, etc.). You can do this by going to a simliar filter view, and clicking on the top right gear icon, then selecting `Duplicate`.*
 
-# <i class="fas fa-toolbox fa-fw color-orange font-awesome"></i> Marketing Project Management Guidelines
+## <i class="fas fa-toolbox fa-fw color-orange font-awesome"></i> Marketing Project Management Guidelines
 
 Marketing uses GitLab for agile project management including [groups](https://docs.gitlab.com/ee/user/group/), [projects](https://docs.gitlab.com/ee/user/project/), [epics](https://docs.gitlab.com/ee/user/group/epics/), [roadmaps](https://docs.gitlab.com/ee/user/group/roadmap/), [issues](https://docs.gitlab.com/ee/user/project/issues/), [labels](https://docs.gitlab.com/ee/user/project/labels.html), and [boards](https://docs.gitlab.com/ee/user/project/issue_board.html). Read through the documentation on each of these GitLab features if you are unfamiliar.
 
@@ -244,7 +244,7 @@ Marketing Managers track costs associated with campaigns - such as events, conte
 
 ### Allocadia IDs
 
-**[Allocadia Handbook Page](/handbook/marketing/strategy-performance/allocadia/)**  
+**[Allocadia Handbook Page](/handbook/marketing/strategy-performance/allocadia/)**
 
 Marketing tracks campaign costs utilizing [Allocadia line items](/handbook/marketing/strategy-performance/allocadia/#line-item). Once you have created your line item in Allocadia, follow [these instructions](/handbook/marketing/#how-to-create-and-manage-allocadia-idscampaign-tags).
 
@@ -255,8 +255,8 @@ Marketing tracks campaign costs utilizing [Allocadia line items](/handbook/marke
 GitLab makes use of campaign tags throughout our systems in order to better track associated costs. For consistency, we use the naming convention of ISODate_Campaign_ShortName. More details on the ISO Date:
 
 > ISO 8601 provides a standard cross-national approach that says:
-> 
-> 
+>
+>
 > - A general-to-specific approach, forming a date that is easier to process - thus, the year first, followed by month, then day
 > - Numbers less than 10 preceded by a leading zero
 > - Years expressed as "0" prior to year 1 and as "-1" for the year prior to year 0 (and so forth)
@@ -267,11 +267,11 @@ Once you have created your Campaign Tag, follow [these instructions](/handbook/m
 ### How to Create and Manage Allocadia IDs/Campaign Tags
 
 1. Marketing Managers and Field Marketing Coordinators request the creation of an Allocadia ID or Campaign Tag in [this tracker](https://docs.google.com/spreadsheets/d/1wBqvCvmou4afnb0p8lBXVvFmsl-j0IehS7GdfJybGzg/edit?usp=sharing). They will add all requested details outlined in the tracker.
-   * The GL accounting team will create the IDs/tags at the end of each day. 
+   * The GL accounting team will create the IDs/tags at the end of each day.
    * The ID/tag is created in NetSuite and syncs with Navan and Coupa.
 1. The Allocadia ID/Campaign Tag must be noted in the Coupa requisition and in the main tactic issue (for Field Marketing, this information lives under the Event Details section in the main issue). Additional details on the Allocadia > Coupa integration can be found [here](/handbook/marketing/strategy-performance/allocadia/#coupa).
 1. Information on utilizing Allocadia IDs for SFDC campaign creation can be found [here](/handbook/marketing/strategy-performance/allocadia/#salesforcecom-sfdc).
-   * For the MCM team, additional details can be found in the campaign epic. 
+   * For the MCM team, additional details can be found in the campaign epic.
 
 ### Postponement of Tactics
 
@@ -281,7 +281,7 @@ If your event or tactic gets postponed to a new date, you only need to request a
 
 Travel expenses (food, hotel stays, arline tickets, etc.) must also be tracked utilizing Allocadia IDs/Campaign Tags. You will include the Allocadia ID/Campaign Tag in the `classification` field in Navan when you are completing your expense report. The instructions for how to request the Allocadia ID/Campaign Tag be created in NetSuite > Navan can be found [here](/handbook/marketing/#how-to-create-and-manage-allocadia-idscampaign-tags). Additional information regarding travel can be found [here](/handbook/travel/).
 
-# <i class="fas fa-forward fa-fw color-orange font-awesome"></i> Marketing Rapid Response Process
+## <i class="fas fa-forward fa-fw color-orange font-awesome"></i> Marketing Rapid Response Process
 
 ## Summary
 
@@ -303,7 +303,7 @@ While each response will be a custom plan, the rapid response team will leverage
 **Please have the author of the statement/blog post comment with their approval on the MR before merging, even if you have received approval in other, non-public channels.**
 
 
-# <i class="fas fa-bookmark color-orange font-awesome"></i> Resources
+## <i class="fas fa-bookmark color-orange font-awesome"></i> Resources
 
 ## Marketing Agency and Partner List
 
@@ -317,6 +317,6 @@ In order to focus our efforts around investments the company should make per cou
 
 The investment checklist at each priority level is a wishlist of how we are aiming to localize in those areas. For example, in market sales and SDR support is included in P0 as well as much higher level of translations. More details can be found internally on the [tracking sheet](https://docs.google.com/spreadsheets/d/1eRrtRPdNSQjtvDrEvPJ_klfqKAatnLIzDjvShXhnSr8/edit?usp=sharing).
 
-## Marketing Career Development 
+## Marketing Career Development
 
-Check out the [handbook page](/handbook/marketing/marketing-career-development) on the marketing career development program. 
+Check out the [handbook page](/handbook/marketing/marketing-career-development) on the marketing career development program.

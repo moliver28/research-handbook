@@ -77,12 +77,12 @@ To reflect this, we have structured the Security Division around four key tenets
             <li><a href="{{< ref "./security-operations/sirt" >}}">Security Incident Response Team (SIRT)</a></li>
             <li><a href="{{< ref "./security-operations/trustandsafety" >}}">Trust and Safety</a></li>
             <li><a href="{{< ref "./security-operations/security-logging" >}}">Security Logging</a></li>
+            <li><a href="{{< ref "./security-operations/red-team" >}}">Red Team</a></li>
         </ul>
       </td>
       <td>
         <ul>
             <li><a href="{{< ref "./threat-management/identity" >}}">Identity Engineering, Infra, and Ops</a></li>
-            <li><a href="{{< ref "./threat-management/red-team" >}}">Red Team</a></li>
         </ul>
       </td>
       <td>
@@ -136,7 +136,7 @@ Security Program Management is responsible for complete overview and driving sec
 
 In keeping with our [core values]({{< ref "values" >}}) and the belief that [everyone can contribute]({{< ref "mission#everyone-can-contribute" >}}), the Security Division is committed to [dogfooding]({{< ref "values#dogfooding" >}}) and contributing to the development of the GitLab product.
 
------
+---
 
 ### <i id="biz-tech-icons" class="fas fa-users"></i> Contacting the Team
 
@@ -147,6 +147,7 @@ For information regarding GitLab's [HackerOne bug bounty program]({{< ref "hacke
 #### Reporting an Incident
 
 If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).  Examples include, but are not limited to:
+
  - Lost or stolen devices
  - Leaked credentials
  - Endpoint compromise or infection
@@ -161,6 +162,7 @@ Additionally if a GitLab team member experiences a personal emergency the People
 #### Sub-groups and projects
 
 Many teams follow a convention of having a GitLab group `team-name-team` with a primary project used for issue tracking underneath `team-name` or similar.
+
 - [@gitlab-com/gl-security](https://gitlab.com/gitlab-com/gl-security/) is used for @'mentioning the entire Security Division
 - [@gitlab-com/gl-security/security-managers](https://gitlab.com/gitlab-com/gl-security/security-managers) is used for @'mentioning all managers in the Security Division
 - [Security Division Meta](https://gitlab.com/gitlab-com/gl-security/security-department-meta/) is for Security Division initiatives, `~meta` and backend tasks, and catch all for anything not covered by other projects
@@ -183,7 +185,6 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
     - [@gitlab-com/gl-security/threatmanagement/redteam](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam)
     - [@gitlab-com/gl-security/security-research](https://gitlab.com/gitlab-com/gl-security/security-research)
     - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management)
-
 
 #### Slack Channels
 
@@ -208,7 +209,7 @@ handled by the Security Division.
 
 For an overview of the communication and response process for a suspected ransomware attack, please see our [Responding to Ransomware]({{< ref "responding-to-ransomware" >}}) page.
 
------
+---
 
 ### Important topics
 
@@ -231,9 +232,6 @@ The following best practices will help ensure tokens are handled appropriately a
 - For additional information regarding security releases, please visit the Delivery Team's [security releases](https://about.gitlab.com/handbook/engineering/releases/security-releases/) page.
 
 ### <i class="fas fa-book" style="color:rgb(110,73,203)" aria-hidden="true"></i> Resources
-
-
-
 
 #### Tools
 

@@ -24,6 +24,19 @@ E**nable users to track vulnerabilities across multiple branches** - Allow users
 
 **Threat Insights features are reliable and perform at scale** - As we add more group and organization level features, we will be optimizing query performance and move forward with confidence that our database will scale and perform as we grow.
 
+### Threat Insights teams
+
+{{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Govern:Threat Insights" %}}
+
+{{% team-by-manager-slug manager="ryaanwells" team="end Engineer(.*)Govern:Threat Insights" %}}
+
+## Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+{{% stable-counterparts role="Govern:Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
+
+
 ## Common Links
 
 * Slack channels:
@@ -76,15 +89,15 @@ Additional information can be found on the [Planning page](/handbook/engineering
 
 ### Milestone Planning
 
-- On the second Tuesday of the month the Product Manager kicks off the planning issue.  They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
-- By the third Tuesday of the month the Engineering Managers have reviewed the planning issue and agreed on the scope for the milestone.
-- During the team meeting, on the third Tuesday of the month the team meets for a cross-functional review of the scope, and finalizes the milestone's planning issue.
-- All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone.
-- The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/9951) for 16.0-16.11.
+* On the second Tuesday of the month the Product Manager kicks off the planning issue.  They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
+* By the third Tuesday of the month the Engineering Managers have reviewed the planning issue and agreed on the scope for the milestone.
+* During the team meeting, on the third Tuesday of the month the team meets for a cross-functional review of the scope, and finalizes the milestone's planning issue.
+* All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone.
+* The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/9951) for 16.0-16.11.
 
-### Tracking Deliverables 
-- Issues that are marked as Deliverables for a milestone serve as the single source of truth for what we aimed to deliver for a given milestone. Throughout the milestone, things may change, become blocked, etc. _Ideally, we'd like to keep the Planning Issue unchanged after the milestone starts._
-- Something is considered delivered if it is either a. merged into production in time for the release date, b. completed before the next milestone start, or c. the feature flag enabling the feature is turned on.  It is important to keep track of the milestone of the deliverable; we encourage self-managed customers to turn on feature flags so they can try different features. Ensuring the milestone is correct, allows someone to tell if that change is available in a specific release.
+### Tracking Deliverables
+* Issues that are marked as Deliverables for a milestone serve as the single source of truth for what we aimed to deliver for a given milestone. Throughout the milestone, things may change, become blocked, etc. _Ideally, we'd like to keep the Planning Issue unchanged after the milestone starts._
+* Something is considered delivered if it is either a. merged into production in time for the release date, b. completed before the next milestone start, or c. the feature flag enabling the feature is turned on.  It is important to keep track of the milestone of the deliverable; we encourage self-managed customers to turn on feature flags so they can try different features. Ensuring the milestone is correct, allows someone to tell if that change is available in a specific release.
 
 
 ### MR Reviews
@@ -94,10 +107,10 @@ We follow these guidelines when submitting MRs for review when the change is wit
 1. Aim to request at least one of the reviews from someone outside our group. This helps avoid a code knowledge silo.
 1. For time-critical reviews, consider using internal reviewers and maintainers.
 1. The initial review should be performed by a member of the team. This helps the team by:
-   - Faster reviews, as the reviewer is already familiar with the domain.
-   - Additional awareness of changes taking place within the domain.
-   - Identifying changes that don't align with what is happening with the domain.
-   - Providing additional confidence from a domain expert to the external maintainer reviewer that the change behaves as expected.
+   * Faster reviews, as the reviewer is already familiar with the domain.
+   * Additional awareness of changes taking place within the domain.
+   * Identifying changes that don't align with what is happening with the domain.
+   * Providing additional confidence from a domain expert to the external maintainer reviewer that the change behaves as expected.
 1. GraphQL merge requests should be reviewed by a frontend engineer as soon as possible. This
    helps to validate the interface, and allows changes to be made before tests are written.
 
@@ -135,10 +148,10 @@ Note that an issue probably shouldn't go directly from On Track to At Risk. That
 ### Running E2E specs in the MR pipeline
 
 We encourage running the `e2e: package-and-test` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
-   - GraphQL (API response, query parameters, schema etc)
-   - Gemfile (version changes, adding/removing gems)
-   - Database schema/query changes
-   - Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
+   * GraphQL (API response, query parameters, schema etc)
+   * Gemfile (version changes, adding/removing gems)
+   * Database schema/query changes
+   * Any frontend changes which directly impact vulnerability report page, MR security widget, pipeline security tab, security policies, configuration, license compliance page
 
 ### Running Govern E2E specs locally against GDK
 
@@ -151,12 +164,13 @@ Therefore, it's important to confirm this when introducing a new feature flag. A
 
 ## Monitoring
 
-- [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-threat_insights/stage-groups-threat-insights-group-dashboard)
-- [Largest Contentful Paint (LCP)](https://dashboards.gitlab.net/d/sftijGFMz/sitespeed-lcp-leaderboard?from=now-90d&orgId=1&to=now&refresh=30s&var-namespace=sitespeed_io&var-path=desktop&var-domains=gitlab_com&var-pages=Secure_Instance_Dashboard_Settings&var-pages=Secure_Instance_Security_Dashboard&var-pages=Secure_Instance_Vulnerability_Report&var-pages=Secure_Group_Security_Dashboard&var-pages=Secure_Group_Vulnerability_Report&var-pages=Secure_Project_Security_Dashboard&var-pages=Secure_Project_Vulnerability_Report&var-pages=Secure_Standalone_Vulnerability&var-browser=chrome&var-connectivity=cable&var-function=median) for our web pages.
+* [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-threat_insights/stage-groups-threat-insights-group-dashboard)
+* [Largest Contentful Paint (LCP)](https://dashboards.gitlab.net/d/sftijGFMz/sitespeed-lcp-leaderboard?from=now-90d&orgId=1&to=now&refresh=30s&var-namespace=sitespeed_io&var-path=desktop&var-domains=gitlab_com&var-pages=Secure_Instance_Dashboard_Settings&var-pages=Secure_Instance_Security_Dashboard&var-pages=Secure_Instance_Vulnerability_Report&var-pages=Secure_Group_Security_Dashboard&var-pages=Secure_Group_Vulnerability_Report&var-pages=Secure_Project_Security_Dashboard&var-pages=Secure_Project_Vulnerability_Report&var-pages=Secure_Standalone_Vulnerability&var-browser=chrome&var-connectivity=cable&var-function=median) for our web pages.
 
 ## Contributing
 
 ### Local testing of licensed features
+
 When a feature needs to check the current license tier, it's important to make sure this also works on GitLab.com.
 
 To emulate this locally, follow these steps:
@@ -168,17 +182,20 @@ To emulate this locally, follow these steps:
 See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_features.html#act-as-saas) for more details.
 
 ### Cross-stack collaboration
+
 We encourage frontend engineers to contribute to the backend and vice versa. In such cases we should work closely with a domain expert from within our group
 and also keep the initial review internal.
 
 This will help ensure that the changes follow best practice, are well tested, have no unintended side effects, and help the team be across any changes that go into the Threat Insights codebase.
 
 ### Community Contributions
+
 The Threat Insights group welcomes community contributions. Any community contribution should get prompt feedback from one of the Threat Insights engineers. All engineers on the team are responsible for working with community contributions. If a team member does not have time to review a community contribution, please tag the Engineering Manager, so that they can assign the community contribution to another team member.
 
 If a team member creates an issue or finds an issue where we would be open to a community contribution, it should be labelled with ~"Seeking community contributions". If the contributor needs an EE license, we can point towards the [Contributing to the GitLab Enterprise Edition (EE)](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contributing-to-the-gitlab-enterprise-edition-ee) section on the Community contributors workflows page.
 
 ### Group discussion
+
 We hold weekly group discussions alternating on APAC/AMER, and EMEA/AMER time zones. Everyone is invited to attend, and it's a great forum to ask questions about Vulnerability Management, customer queries, our road map, and what the Threat Insights team might be thinking about. You can find the meetings on the [Threat Insights calendar](#common-links); take a look at [the agenda](https://docs.google.com/document/d/1mbXHw6EYT-IqlEFguYRyLrm35f_DGA7EzGPGBCOc9ao/edit#heading=h.pt5d0o3avmun) (internal link). We hope to see you there!
 
 ## Footnotes

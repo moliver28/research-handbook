@@ -21,7 +21,7 @@
     .mimg {
         width: 100% !important;
     }
-    
+
     .go-for-a-spin {
         flex: 0 0 100%;
         border: none !important;
@@ -29,7 +29,7 @@
         padding-right: 0px !important;
         margin-bottom: 2em !important;
     }
-    
+
     .btn-lg {
         width: 100% !important;
     }

@@ -115,8 +115,8 @@ Use the [product sections](/handbook/product/categories/) handbook page to deter
 
 **OPERATIONAL EMERGENCY ISSUES ONLY**
 
-1.  **GitLab.com**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue within **15 minutes**.
-1.  **Self-managed**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue on a best-effort basis. (SLO will be determined at a later time.)
+1. **GitLab.com**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue within **15 minutes**.
+1. **Self-managed**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue on a best-effort basis. (SLO will be determined at a later time.)
 1. In the case of a tie between GitLab.com and self-managed issues, GitLab.com issue takes priority.
 1. In the case of a tie between production (GitLab.com, self-managed) and engineering issues, production issue takes priority. The preferred action is to either backout or rollback to the point before the offending MR.
 
@@ -170,11 +170,13 @@ The on-call spreadsheet(internal only) can be found by searching [Google Drive f
 
 #### Eligibility
 
-All backend and fullstack engineers within Core Development or Expansion Development who have been with the company for at least 3 months, with the exception of team members in:
+All backend and fullstack engineers within Core Development, Expansion Development, or Core Platform who have been with the company for at least 3 months, with the exception of team members in:
 - ModelOps: AI Model Validation
 - Secure: Composition Analysis
+- Distribution: Build
+- Infra: DB Reliability Team
 
-Exceptions: (i.e. exempted from on-call duty)
+Other general exceptions: (i.e. exempted from on-call duty)
 
 - Distinguished engineers and above.
 - Intern and Associate engineers.
@@ -182,7 +184,7 @@ Exceptions: (i.e. exempted from on-call duty)
     - There are countries with laws governing hours that can be worked.
     - This would not be an issue in the U.S.
     - At this point we would only be looking into countries where 1) we have legal entities, as those team members are employees or 2) countries where team members are hired as employees through one of our PEO providers. For everyone else, team members are contracted as independent contractors so general employment law would not apply.
-- Team members participating in another on-call rotation. Examples of this include a team specific rotation for a service owned by that team or in the [Engineering Incident Manager rotation](/handbook/on-call/#engineering-incident-manager).
+- Team members participating in another on-call rotation. Examples of this include a team specific rotation for a service owned by that team or in the [Engineering Incident Manager rotation](/handbook/engineering/on-call/#engineering-incident-manager).
 
 The eligibility is maintained in this [team members list(internal only)](https://drive.google.com/drive/search?q=%22Development-Team-BE%22) and the spreadsheet is refreshed automatically by our [automation script](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/blob/main/lib/syncing/on_call_scheduling_spreadsheet.rb).
 
@@ -236,7 +238,7 @@ There is additional information regarding weekend shifts, which can be found in 
 
       These summary items should be in written format in the following locations:
 
-        - _Existing_ threads in [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4)
+        - *Existing* threads in [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4)
         - Incident tracking issues
 
       This shall be completed at the end of shifts to hand over smoothly.

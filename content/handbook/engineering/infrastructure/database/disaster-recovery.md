@@ -35,6 +35,7 @@ This handbook page applies to recovery of the GitLab PostgreSQL production datab
 | Infrastructure Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
 ## Procedure
+
 ### Restore testing
 
 A backup is only worth something if it can be successfully restored in a

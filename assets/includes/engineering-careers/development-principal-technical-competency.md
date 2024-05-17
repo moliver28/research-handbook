@@ -1,4 +1,5 @@
 ##### Development
+
 * The Principal Engineer role acts as the individual equivalent of a Senior Engineering Manager, Development.
 * Extends that of the [Staff Frontend Engineer](https://handbook.gitlab.com/job-families/engineering/development/frontend#staff-frontend-engineer) or the [Staff Backend Engineer](https://handbook.gitlab.com/job-families/engineering/development/backend/#staff-backend-engineer) responsibilities
 * Collaborates and makes proposals across several teams on their engineering work, and helps their team members make informed decisions in alignment with the sub-department strategic plans.

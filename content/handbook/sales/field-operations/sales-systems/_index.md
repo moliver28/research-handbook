@@ -29,7 +29,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 - [License Usage App Documentation](/handbook/sales/field-operations/sales-systems/license-usage-app/)
 - [Salesforce Configuration Documentation](/handbook/sales/field-operations/sales-systems/salesforce-config/)
 - [Lead Source Master Data Set](/handbook/marketing/marketing-operations/#initial-source)
-- [Salesforce Dataloader Install/Uninstall/Upgrade Instructions](dataloader-installation.html)
+- [Salesforce Dataloader Install/Uninstall/Upgrade Instructions](dataloader-installation/)
 
 ## Working with us
 - [Sales System Agile Board](https://gitlab.com/groups/gitlab-com/-/boards/1117318?label_name[]=SalesSystems)
@@ -74,7 +74,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 - [ ] 4. [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label
 - [ ] 5. [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code)
 
-#### [Business DRI] Business User Acceptance Testing Complete with Evidence :- The Business DRI should sign off after validating the provided solution works as expected as `definition of done`. The Business DRI will add evidence in the issue or in few scenarios the systems team member will be providing the evidence for the business DRI to confirm in the issue.
+#### [Business DRI] Business User Acceptance Testing Complete with Evidence :- The Business DRI should sign off after validating the provided solution works as expected as `definition of done`. The Business DRI will add evidence in the issue or in few scenarios the systems team member will be providing the evidence for the business DRI to confirm in the issue
 
 #### [Business Program Owner] Business Process Owner sign-off :- Business Process Owner pertaining to the team should provide signoff. The signoff matrix is below pertaining to the Team / Department,
 
@@ -96,20 +96,18 @@ Below is a list of the different technical skill sets found on the Sales System 
 
 #### [Systems Owner] Systems Owner Sign-off :- Salesforce CRM System Owners should provide the signoff. The signoff matrix is an below,
 
-| Main Approver               |Backup Approver (if Jack Brennan or Sheela Viswanathan are unavailable)                                               | Backup Approver (if Jack Brennan or Sheela Viswanathan and Al Champagne are unavailable)                                                |
+| Main Approver               |Backup Approver (if Sheela Viswanathan is unavailable)                                               | Backup Approver (if Sheela Viswanathan and Al Champagne are unavailable)                                                |
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
-| Jack Brennan - Senior Director, Sales Systems
-or
-Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
+| Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
 
-#### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label :- Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue.
+#### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label :- Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue
 
 - SalesSystems::Deployed - 0 - No Changes
 - SalesSystems::Deployed - 1 - Settings Change
 - SalesSystems::Deployed - 2 - Configuration Change
 - SalesSystems::Deployed - 3 - Code Change
 
-#### [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code) :- If the issue ended up in label `SalesSystems::Deployed - 2 - Configuration Change` OR `SalesSystems::Deployed - 3 - Code Change` the systems member assigned to the issue should add the screenshot of the change set.
+#### [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code) :- If the issue ended up in label `SalesSystems::Deployed - 2 - Configuration Change` OR `SalesSystems::Deployed - 3 - Code Change` the systems member assigned to the issue should add the screenshot of the change set
 
 ## Milestone Review and QA
 
@@ -139,14 +137,14 @@ Description: This issue is completed. There was no setting, configuration or cod
 1. The most most common use case are question or research issues.
 1. Data changes as part of a backfill for another operations team fall into this category.
 
-### Changes that cannot or are impractical to use a Change Sets (Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments):
+### Changes that cannot or are impractical to use a Change Sets (Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments)
 
 Label: `SalesSystems::Deployed - 1 - Settings Change`
 Description: This issue is completed. There was a setting change. Sign-off is required, No Change Set Used.
 
 1. These changes will need a special deploy window for the changes to be made by hand. Please coordinate with the Business DRI.
 
-### Changes that contain Salesforce.com Fields, Workflows, Validation Rules, or other non-code Configuration.
+### Changes that contain Salesforce.com Fields, Workflows, Validation Rules, or other non-code Configuration
 
 Label: `SalesSystems::Deployed - 2 - Configuration Change`
 Description: This issue is completed. There was a configuration change. Sign-off Required, Change Set screenshot required.
@@ -154,7 +152,7 @@ Description: This issue is completed. There was a configuration change. Sign-off
 1. These changes will always use a Salesforce.com Changeset that will be linked to the related issue.
 1. The team member who uploards the change set shall ask a different team member to review and deploy the change. (No Self Deploys).
 
-### Changes that contain Salesforce.com Apex Code, Apex Triggers, or Visualforce Pages:
+### Changes that contain Salesforce.com Apex Code, Apex Triggers, or Visualforce Pages
 
 Label: `SalesSystems::Deployed - 3 - Code Change`
 Description: This issue is completed. There was a code change. Sign-off Required, Change Set Screenshot required, Approved and attached MR required.
@@ -186,7 +184,7 @@ Before a Milestone is closed perform the following steps:
 
 Please seek explicite and documented approval from the Senior Director of Sales Systems for any of the non-standard situations:
 
-1. A deploy during a designated black out period.
+1. A deploy during a designated block out period.
 1. The need to self deploy a non-invasive change.
 1. The need to create a non-invasive formula field in production for time sensitive triage of a critical issue.
 
@@ -282,10 +280,11 @@ Persuant with GitLab's [best practices for password security](/handbook/security
 
 Sandboxes which are managed as part of our team's SDLC process will follow a regular refresh schedule, as detailed below.
 
-|Sandbox name|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|
-|-----|-----|-----|-----|-----|-----|
-|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/)|Full|Pre-production org.  Used for UAT of Systems issues prior to release to production.  Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter| 11/11/2022 |To be provided|
-|[SANDBOX](https://gitlab--sandbox.sandbox.my.salesforce.com/)|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|6/18/2021 3:14 PM|To be provided|
+|Sandbox name|Classic URL|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|Zuora Billing Sandbox|Zuora Billing Sandbox Tenant ID|
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|[Developer](https://gitlab--developer.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--developer.sandbox.lightning.force.com%252Flightning%252Fsetup%252FManageUsers%252Fpage%253Faddress%253D%25252F005PL0000000MuzYAE%25253Fnoredirect%25253D1%252526isUserEntityOverride%25253D1%252526retURL%25253D%2525252Fsetup%2525252Fhome)|https://gitlab--developer.sandbox.my.salesforce.com/home/home.jsp?source=lex|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|2/14/2024|TBD|Developer Sandbox (i.e. "Dev Sandbox")|10002574|
+|[STAGING](https://gitlab--staging.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--staging.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--staging.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|11/11/2022 |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000796|
+|[LIGHTNING](https://gitlab--lightning.sandbox.my.salesforce.com/?ec=302&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fgitlab--lightning.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome)|https://gitlab--lightning.sandbox.my.salesforce.com/home/home.jsp?source=lex|Full|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|03/26/2024|TBD|Central Sandbox 2|10000719|
 
 ### Data, Data Uploads & Permissions
 
@@ -374,7 +373,7 @@ Generally, vendors either provide managed packages via the [Salesforce AppExchan
 
 Any package code is the responsibility of the vendor who produced it to support and troubleshoot.  If issues are encountered with the functionality, please contact the vendor in question to troubleshoot.  If there are changes recommended by the vendor to our environment, log an issue with Systems to track any changes which are requested by the vendor using one of the two processes below.
 
-##### System stability comes first!
+##### System stability comes first
 
 We (Sales Systems) reserve the right to remove or uninstall managed or unmanaged code at any time, if this package is determined to cause issues related to system performance or limitations.
 

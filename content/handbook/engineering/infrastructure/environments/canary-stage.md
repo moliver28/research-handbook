@@ -154,20 +154,21 @@ an incident.
 The chatops command to disable canary in an environment is as follows
 
 ```
-# Disable production-canary
+## Disable production-canary
 /chatops run canary --disable --production
 
-# Disable staging-canary
+## Disable staging-canary
 /chatops run canary --disable
 ```
+
 #### Re-enabling canary stage in an environment
 
 The chatops command to re-enable canary in an environment is as follows
 
 ```
-# Disable production-canary
+## Disable production-canary
 /chatops run canary --enable --production
 
-# Disable staging-canary
+## Disable staging-canary
 /chatops run canary --enable
 ```

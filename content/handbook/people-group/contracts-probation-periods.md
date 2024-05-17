@@ -1,5 +1,5 @@
 ---
-title: "Contracts, Probation Periods & PIAA"
+title: "Contracts, Background Screenings, Probation Periods & PIAA"
 description: "GitLab contract information and associated procedures."
 ---
 
@@ -21,6 +21,7 @@ Contracts are audited and updated on a regular basis. All suggested changes shou
 **No changes or edits should be made to the contracts without the required approval.**
 
 The Senior Manager, Global Enablement reviews if all Greenhouse tokens are correct
+
 1. See [here](https://drive.google.com/file/d/1rq4qTV5WYABDLMaAx76UqmjNwb008qVw/view?usp=sharing) for current set of tokens
 1. Update tokens on the contract if applicable
 1. Review in Greenhouse if all tokens are available (admin access is needed for that):
@@ -51,6 +52,35 @@ If a team member changes roles at GitLab and the approval goes through Workday, 
 
 For other instances such as a [Relocation]({{< ref "relocation" >}}), the People Connect Team member will create a [Relocation letter]({{< ref "relocation#tasks-for-people-operations" >}}) according to the parameters as listed in the [Relocation within the Same Country]({{< ref "relocation#tasks-for-people-operations" >}}) section on the Relocation handbook page.
 
+### Background Screenings
+
+GitLab uses appropriate controls to ensure that its assets and its customer relationships and information are protected. To reduce these risks, GitLab will obtain and review background information of covered prospective, and, as applicable, current team members as allowed by local law.
+Contractors will also be required to complete a background screening per GitLab's [Third Party Risk Management Policy]({{< ref "third-party-risk-management#independent-contractors" >}}) and as allowed by local law. GitLab will run background screenings for independent contractors that are hired directly, but otherwise, will defer to each contractor's hiring agency's background screening policies and processes. GitLab will complete a background screening for contractors employed by agencies that do not conduct their own background screenings.
+
+GitLab currently contracts with Sterling Talent Solutions to provide background screenings. For all candidates being considered for a position at GitLab, an employment history for the last 5 years and/or the three most recent employers will be verified in accordance with applicable local law (if applicable local law limits the review of employment history to fewer years and/or employers, then GitLab follows local law) and screening will be performed against various denied party lists including but not limited to the Office of Foreign Asset Control's Specially Designated Nationals and Blocked Persons List. In jurisdictions where criminal records may be reviewed, criminal records will be requested. Additional screenings may include, where applicable and in accordance with local law, a search against the U.S. Department of Health and Human Services Office of Inspector General's List of Excluded Individuals/Entities and/or screening for financial related offenses and credit checks, when relevant to the position. GitLab may use the returned background information to make decisions regarding employment, where allowed by local law. No background screening will be run until a conditional offer has been made, unless local law explicitly requires otherwise.
+
+In the event the background screening is not available on the scheduled hire date due to delays in processing, GitLab will run the background screening as soon as possible. The same adjudication guidelines will apply to current employees as they do with prospective employees. The Senior Background Check Specialist will monitor background screenings for completion and accuracy and will follow up accordingly regarding any concerns or issues.
+
+GitLab does not currently require subsequent background screenings, or re-screenings, for current team members beyond onboarding/pre-hire requirements. Current team members may opt-in for additional background screenings if requested to work with specific customers.
+
+The Candidate Experience Specialists will [initiate](/handbook/hiring/talent-acquisition-framework/coordinator/#background-screenings) all employment verifications and background screenings for candidates. The Senior Background Check Specialist will initiate any applicable retroactive background screenings or requested enhanced background screenings for current team members.
+
+Please contact the Senior Background Check Specialist at backgroundchecks@gitlab.com regarding any questions.
+
+#### Disclosure and Authorization
+
+Candidates (and, as applicable, current team members) will receive an email to fill out the background screening application. The application will ask for personal and professional information. The application process includes signing a disclosure and a consent form which explains the rights of an individual undergoing a background screening. The application process is designed to take less than fifteen minutes to complete.
+
+To prepare for the employment verification for those candidates being considered for Director level positions or higher, candidates should gather each previous employer's name and address, position title held, employment start and end dates, manager’s name and title, their phone number, and email address. Details for a Human Resources contact can be entered instead of a manager's contact details. Occasionally, and where permitted by law, Sterling will reach out to the candidate to retrieve additional information, such as backup documentation to act as proof of previous employment or picture IDs. Proof of employment can typically be provided in various ways, such as tax returns (e.g. W2s), pay stubs, LLC documentation, official company registrations, etc. In certain circumstances, the Senior Background Check Specialist may also reach out to candidates and/or team members for additional documentation.
+
+Background screenings will act as an additional mechanism of transparency and will help to build trust with our clients.
+
+#### Review Criteria for Candidates and Team Members
+
+Reviews of the background screening are conducted by the Senior Background Check Specialist in accordance with the applicable law of the candidate’s jurisdiction. The Senior Background Check Specialist will first review the report for omissions, inaccuracies, and/or discrepancies with employment, including, but not limited to, dates of employment, employer names, or positions held. If the report includes discrepancies related to employment, the Senior Background Check Specialist will take the necessary steps to investigate and adjudicate the discrepancies and/or reach out to Team Member Relations for additional support and collaboration. The Senior Background Check Specialist and Team Member Relations may escalate the report, as necessary, to the Legal Employment team. Employment decisions based on the employment verification portions of the background screening report shall be finalized before any review of the criminal records information takes place.
+
+If criminal record information has been provided, then it will be adjudicated in accordance with applicable local law. Generally, and subject to local law, criminal records are reviewed to determine if criminal convictions have a direct connection with an applicant’s ability to fulfill the job duty with competence and integrity, while also considering the safety and/or security of GitLab team members, customers, vendors, and/or overall business. Decisions are made that are job related and consistent with business necessity. Arrest records are not considered during the adjudication process, nor is any criminal conviction information that is prohibited from being reviewed by applicable local law.
+
 ## Probation Period
 
 Upon joining GitLab, some team members (location-dependent, see the below table for detail about each location) will have a probationary period between 1 and 9 months. Common practice is for contracts in each country to have the maximum allowable probationary period. In case of relocation to a different country or change of contract, if a team member has continued service with GitLab (tenure with GitLab has been uninterrupted) and they have already passed the probationary period of their original location or contract, they do not need to go through the probation period of their new location or contract.
@@ -71,6 +101,7 @@ If an exception request is made to end a probation period early, this should be 
 1. The Hiring Manager will select the appropriate probation outcome in Workday based on the team member's performance. A helpful job aid can be found [here](https://docs.google.com/document/d/1NSIaigEqFnouax9s_NGB_nXGA1y_8zJB5aZUW63bvog/edit) on this process.
 
 ***For Team Members***
+
 1. If you have successfully passed your probation period, in addition to receiving the good news through your manager, you will also receive a probation period confirmation letter in Workday.
 1. In your inbox, you can review this letter and then select `Submit`. This letter will then be saved in your Workday documents for future reference if needed.
 
@@ -78,7 +109,7 @@ If an exception request is made to end a probation period early, this should be 
 
 {{< entities-with-probation >}}
 
-### Locations without Probation Periods:
+### Locations without Probation Periods
 
 {{< entities-without-probation >}}
 
@@ -194,10 +225,12 @@ When renewing a contract, if it is to be for 12 months, the timeframes are at be
 1. Take note of the team members details and reach out to the team members manager via email using the following [template](https://gitlab.com/gitlab-com/people-group/General/-/blob/master/.gitlab/email_templates/netherlands_temp_contract_renewal.md).
 1. Once you have received confirmation on next steps from the team members line manager, be sure to save the thread under the team member's profile in Workday in the 'Approvals - Confidential' document folder.
 1. Using the correct contract template from the [templates folder](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/#employment-agreements) complete with required team member details. These details can be found on the team member's Workday profile.
+
 - As we would honour the original hire date in terms of GitLab seniority add the following sentence into the contract after the contract start date: "Your continuity of service for statutory purposes begins on the {{Original Hire Date}}."
 - Do not keep the `Stock Options` line in the Key Terms section, unless additional shares are being given.
 - Be sure to write both the Start date and Birth date of the team member in the **Month DD, YYYY** format to prevent confusion.
 - Remove any wording regarding Probation Period [if applicable](#probation-period).
+
 1. When you have a completed contract be sure to allow a team member to peer review it for you. This can be done by posting the document link in the connect-ops-team private slack channel. Indicate that you are reviewing it by using the 'Eyes' emoji.
 1. Once reviewed, stage the contract for signing in Docusign.
 1. Ensure that the GitLab signatory is the first to sign, followed by the team member. This can be done by selecting the assign signing order option.
@@ -214,12 +247,15 @@ When renewing a contract, if it is to be for 12 months, the timeframes are at be
 1. The People Connect Team member will send an [email](https://gitlab.com/gitlab-com/people-group/people-operations/General/-/blob/master/.gitlab/email_templates/netherlands_temp_contract_renewal.md) to the team member's manager two months before the team member's contract ends.
 1. GitLab offers one fixed term 12-month contract to start. After the year-long fixed term contract, if the team member is in good standing, they are given an Indefinite Agreement beginning at the team member's second year with the company. If a team member has been with GitLab for over one year after their first fixed term contract finished due to a relocation, they are given an Indefinite Contract.
 1. The Manager has then 2 weeks to evaluate the performance of the team member.
+
 - If satisfied with the performance, the manager informs the People Connect team to extend the contract for an indefinite term.
 - If there are performance concerns the manager will discuss the planned course of action with the Team Member Relations Team. The contract may end or get extended for another fixed term. The Team Member Relations Team can help with providing guidance on the messaging.
+
 1. At least 1 month before the end of the contract, the manager informs the team member of the extension or not.
 1. If a salary increase is required due to updated [visa salary requirements]({{< ref "visas#right-to-immigrate-to-the-netherlands" >}}) the People Connect Team member requests approvals from the team member's manager, total rewards and finally the team member's Division's E-Group leader.
 1. The People Connect Team member uploads the approval to the Workday Documents folder.
 1. If the contract extension is approved, the People Connect Team member creates the contract
+
 - As we would honour the original hire date in terms of GitLab seniority add the following sentence into the contract after the contract start date: "Your continuity of service for statutory purposes begins on the {{Original Hire Date}}."
 - Do not keep the `Stock Options` line in the Key Terms section, unless additional shares are being given.
 - Be sure to write both the Start date and Birth date of the team member in the **Month DD, YYYY** format to prevent confusion.
@@ -227,8 +263,11 @@ When renewing a contract, if it is to be for 12 months, the timeframes are at be
 - Remove any wording regarding Probation Period [if applicable](#probation-period).
 - Note: A second [probation period](#probation-period) should only be implemented if the team member's new contract reflects the start of an [entirely new role](https://wsadvocaten.nl/probationary-period-netherlands-dutch-law/). If the contract is simply a continuation of employment in the current role, a second probation period should not be applied.
 - Remove any wording regarding certificate of good conduct, as this was already requested as part of their first Netherlands contract.
+
 1. The People Connect team member stages the contract via Docusign for the [GitLab signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) and the team member to sign. Add hr@savvy-group.eu to 'Receive a copy' once signed.
+
 - If another temporary contract is issued follow [these steps](https://gl-people-operations.gitlab.io/internal-handbook/people_connect/lead/#netherlands-renewal-process---temporary-contracts) and include the mentioned message when sending the contract via DocuSign
+
 1. The People Connect Team member uploads the signed contract to the team members Workday Documents folder.
 1. The People Connect Team member [updates Workday to reflect the new contract](https://docs.google.com/document/d/1qnRUH2vkBGDi1hWnpGjvfF0G1GvfZLVHUVFuKeu9vKI/edit?usp=sharing): Open the team member's Workday profile > Click on actions > Job Change > add contract. Fill in start and end date, contract type and reason (if applicable)
 1. Notify another People Connect Team member so that they may audit any Workday changes.
@@ -258,4 +297,3 @@ Standard practice is to automatically renew CXC contracts. The [offboarding proc
 ### GitLab, Inc with OTE
 
 - For Relocations, Promotions, and Transfers of current team members be sure to remove the draw information as it is not applicable.
-
