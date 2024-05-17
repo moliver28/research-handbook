@@ -221,6 +221,22 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 </tr>
 
 <tr>
+<td>Organization for Cells</td>
+<td>
+ 
+[Alex Pooley](https://gitlab.com/alex.pooley)
+</td>
+<td>
+ 
+[Christina Lohr](https://gitlab.com/lohrc)
+</td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
+</td>
+</tr>
+
+<tr>
 <td>Architecture</td>
 <td>
  
