@@ -4,13 +4,13 @@ title: Security Division Dogfooding Program
 
 ## Introduction and purpose
 
-The Security Division plays a critical role in ensuring the security of GitLab as a company, and of GitLab as a platform. In the pursuit of it's charter, the division is committed to using (dogfooding) GitLab as much as possible in order to help improve the platform for all customers.
+The Security Division plays a critical role in ensuring the security of GitLab as a company, and of GitLab as a platform. In the pursuit of it's charter, the division is committed to using (["dogfooding"](https://en.wikipedia.org/wiki/Eating_your_own_dog_food)) GitLab as much as possible in order to help improve the platform for all customers.
 
 This dogfooding program aims to improve the effectiveness and efficiency of collaboration between Product Management and Security as it pertains to capabilities of the GitLab platform.
 
 Historically, dogfooding within the Security Division has not been handled through a formalized program which has likely limited the success of dogfooding efforts. Historical challenges include:
 
-1. No framework for how feature requests should be prioritized when they come from the Security Division which has led to some feature requests to indefinitely deferred to the future and the creation of multiple, custom built, tools which are used internally.
+1. No framework for how feature requests and GitLab inventions and innovations should be prioritized when they come from the Security Division. This has led to some feature requests being indefinitely deferred, and the creation of multiple custom built tools which are used internally, representing functionality GitLab users could otherwise benefit from.
 1. No strategic or executive level view for product leadership to understand current adoption, challenges, and desires from the Security Division.
 1. Breakage of security processes as a result of bugs, poorly communicated breaking changes, and possibly other causal factors.
 
