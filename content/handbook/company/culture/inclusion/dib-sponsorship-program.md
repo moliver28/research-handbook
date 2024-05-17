@@ -3,7 +3,7 @@ title: "Sales Sponsorship Pilot Program"
 description: "A page for the Sales Sponsorship Pilot Program"
 ---
 
-In 2023 we conducted a pilot program to address an imbalance of Black Team Members at job grade 9+ within Sales and lack of representation in sales leadership positions. The pilot program was designed to create pathways for Black Team Members to progress effectively at GitLab. We have since extended this program to promote pathways for all Sales team members to progress at GitLab. 
+In 2023 we conducted a pilot program to address an imbalance of Black Team Members at job grade 9+ within Sales and lack of representation in sales leadership positions. The pilot program was designed to create pathways for Black Team Members to progress effectively at GitLab. We have since extended this program to promote pathways for all Sales team members to progress at GitLab.
 
 ## Mentorship vs Sponsorship
 
@@ -53,7 +53,7 @@ In 2023 we conducted a pilot program to address an imbalance of Black Team Membe
 **A Sponsee at GitLab will be (Pilot Program Only):**
 
 - Be performing in your role in accordance with your managers expectations, which take into account performance exercises such as 9 box and not on a Performance Improvement Plan
-- Be a part of the underrepresented group the sponsorship program is targeted at. 
+- Be a part of the underrepresented group the sponsorship program is targeted at.
 - Be able to commit to 9 months within the program
 - Willing to commit to the overall expectations of the program as outlined throughout the handbook page
 
