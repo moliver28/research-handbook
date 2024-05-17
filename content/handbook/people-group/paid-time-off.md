@@ -573,9 +573,9 @@ Team members are entitled to a minimum of 5 weeks of statutory vacation per year
 
 #### Reduction of working time (RTT)
 
-- The 25-day holiday entitlement is an employee's right based on a 35-hour workweek. In cases where employees need to work beyond the legal 35 hours, certain roles within GitLab may benefit from reduced working time (RTT)of up to two days per month to compensate for the extended working hours. RTT is calculated by taking the working days in the year and subtracting the contracted days (formula below). The accrual period for RTT days is January 1st - December 31st each year.
-- Employees cannot carry RTT days to the following year and we encourage all team members to use RTT accruals first before statutory accruals.
-- The formula for calculating each years RTT balances is:  Days In a Year - weekend days - 25 statutory vacation days - public holidays in weekdays - 218 = RTT
+- Certain roles within GitLab may benefit from reduced working time (RTT), and the accrual period for RTT days is January 1st - December 31st each year.
+- Team members cannot carry RTT days to the following year and we encourage all team members to use RTT accruals withing the year.
+Team members can find more information on [working time in France](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/) and [RTT calculation](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/#rtt-calculation (_*accessible internally only) as linked.
 
 ### GitLab Canada Corp (Canada)
 
