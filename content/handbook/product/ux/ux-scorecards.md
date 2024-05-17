@@ -39,6 +39,7 @@ You can do a [formative evaluation](https://www.nngroup.com/articles/formative-v
 When doing a formative evaluation, do a "light" usability test to observe 3-5 internal or external users, as this provides valuable insights and removes subjectivity. This can be done in about a day, if the scenario you are evaluating is simple to set up in a test project. If your scenario is highly technical and requires complex customizations, plan ahead as it can take a couple of days just to set up an environment for the evaluation.
 
 In every case,
+
 * define the [JTBD](/handbook/product/ux/jobs-to-be-done/) prior to conducting the Scorecard.
 * use our [heuristics](/handbook/product/ux/heuristics/) when evaluating the experience.
 * use the [Grading Rubric](#grading-rubric) to provide an overall measurement that becomes the benchmark score for the experience.

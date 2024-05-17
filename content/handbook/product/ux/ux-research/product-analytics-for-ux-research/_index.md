@@ -50,6 +50,7 @@ The Product Data Insights team can take requests (via an [issue](/handbook/produ
 [Analytics Instrumentation](/handbook/engineering/development/analytics/analytics-instrumentation/) - This group is focused on building out the instrumentation capabilities of GitLab and its team members, including [increased instrumentation coverage](https://gitlab.com/groups/gitlab-org/analytics-section/analytics-instrumentation/-/epics/6) across the product and scaling the instrumentation system we use to handle more use cases. This is a group to contact if you run into a block where something you want to do isn’t currently available (or you’re not sure and the Product Data Insights team doesn’t know).
 
 The Analytics Instrumentation team members are the DRIs for data collection across both GitLab.com and Self-Managed. They own Service Ping and Snowplow. They are the ones to go to for questions like:
+
 - How do I instrument a new statistic for self-managed?
 - What are the best practices for adding to Service Ping?
 - How can I use Snowplow to track a frontend interaction on GitLab.com?
@@ -85,13 +86,18 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
 [PDI How to work with us](/handbook/product/product-analysis/#working-with-us) is a great resource on how to open up a product data insight request.
 
 1. **Get access to:**
+
   - The right tools (usually Tableau online is sufficient)
   - The data (do you need SAFE access)
-2. **Determine the set of questions you’re trying to answer, including:**
+
+1. **Determine the set of questions you’re trying to answer, including:**
+
   - Which user criteria / segment?
   - Which metrics?
   - Which components or features (if applicable)?
-3. **Check with your PM (and/or your PDI counterpart) to determine:**
+
+1. **Check with your PM (and/or your PDI counterpart) to determine:**
+
   - Is this tracked today?
     - This can be difficult to determine, try asking in #data or by working with your PM and PDI counterpart.
     - If not, consider reaching out to the Analytics Instrumentation team or ask in #data.
@@ -116,7 +122,6 @@ _No. Our Snowplow user identifiers are anonymized, while our GitLab.com user ide
 - How has usage of X action changed over time? (e.g., for adoption of a feature / since a change was introduced)
   - Example: [Monthly changes in number of Self-Managed, Ultimate accounts that used Code Review features over the past year, broken out by number of seats](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTMetricsDemographics/AccountUsageforaMetric-OverTime?:iid=1)
 
-
 ## Simplified Metrics Glossary
 
 Some terminology used in product analytics dashboards:
@@ -134,9 +139,9 @@ Some terminology used in product analytics dashboards:
 - **SpO** - Stages per organization
 
 For more information (or if something’s not listed above):
+
 - [Data catalog metrics and terms index (internal)](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/#metrics-and-terms-index)
 - [Product performance indicators (internal)](https://internal.gitlab.com/handbook/company/performance-indicators/product/)
-
 
 ## Useful Tableau Workbooks
 
