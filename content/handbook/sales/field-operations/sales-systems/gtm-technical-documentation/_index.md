@@ -756,3 +756,32 @@ Stamped Opp Owner User Role Type
 **Logic Locations**
 
 [Flow](https://gitlab.lightning.force.com/builder_platform_interaction/flowBuilder.app?flowId=3018X000000oZL0QAM)
+
+### Changes to Net ARR formula logic
+
+ **Business Process this supports**-  Net ARR for renewal opportunities with new business quotes, lookup value from comp table 
+
+**Overview** -
+
+Net ARR formula(ARR_Net__c) in opportunity is calculated based on stage 1 Net ARR(Stage_1_XDR_Net_ARR__c) in stage 1 if there is no quote. If the opportunity is a renewal opportunity related to a primary quote of type New Subscription, Net ARR is driven by Primary quote's MRR(zqu__Previewed_Delta_MRR__c from Zuora Quote) * 12) - Opportunity ARR Basis(ARR_Basis__c from Opportunity). For all other use cases, existing logic in Net ARR field prevails
+
+**Fields that are stamped by automation** -
+
+Net_ARR_Automation__c
+ARR_Net__c(formula field driven by automation)
+
+**Logic** -
+- TF_OpportunityAfterCreateUpdateNetARRAutomation flow is fired when an opportunity is created or updated and has a primary quote of type new subscription. If there is no primary quote of type subscription, stage 1 XDR net arr is stamped to Net arr automation field which in turn will reach the Net arr formula field
+- TF_OpportunityAfterUpdate_StampNetARRAutomation fires only on opportunity update and checks whether Stamped_ARR_Basis__c is changed. If so, the flow calculates the net arr automation field(based on primary quote's zqu__Previewed_Delta_MRR__c or stage 1 xdr net arr if there is no primary quote). Right value is stamped to Net arr automation field which in turn will reach the Net arr formula field
+- TF_QuoteAfterCreateUpdate_StampNetARRAutomation flow is written from a quote perpective. When a primary quote of type new subscription is created or updated, flow checks whether the opportunity satisfies #4349 and then stamps Net arr automation field which in turn will reach the Net arr formula field
+- TF_OpportunityAfterUpdate_SyncStage1NetARR flow fires on opportnity update and populates stage 1 net arr with right net arr formula value
+Changes to existing net arr formula field : Two additional layers are added. Layer 1 -> To check if stage 1 xdr net arr drives net arr when no quote is present & opp is in stage 1. Layer 2 -> To check if the opportunity is a renewal opportunity, without net arr override and has a primary quote of type subscription. If so, net arr formula field is driven by net arr automation. For all other scenarios, existing formula logic works
+
+**Logic Locations**
+TF_OpportunityAfterCreateUpdateNetARRAutomation flow
+TF_OpportunityAfterUpdate_StampNetARRAutomation flow
+TF_QuoteAfterCreateUpdate_StampNetARRAutomation flow
+TF_OpportunityAfterUpdate_SyncStage1NetARR flow
+Net_ARR_Automation__c field in Opportunity
+ARR_Net__c field in Opportunity
+
