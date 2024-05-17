@@ -49,3 +49,17 @@ We recognize the [four staff engineer archetypes](https://staffeng.com/guides/st
 1. Contributes to the growth of others through championing, mentoring, and providing timely, kind feedback directly, and into promotion processes.
 1. Owns the group's technical interview process and works closely with the hiring managers and interviewers to make sure that every candidate receives a standardised, positive interview experience. 
 1. Maintains connections across the company to stay connected to events outside of the group, and to help keep teams unblocked.
+
+## Engineering alignment
+
+### Principal Leadership Competencies
+
+{{% include "includes/engineering-careers/principal-leadership-competency.md" %}}
+  
+### Principal Technical Competencies
+
+{{% include "includes/engineering-careers/principal-technical-competency.md" %}}
+
+### Principal Values Alignment
+
+{{% include "includes/engineering-careers/values-competency.md" %}}
