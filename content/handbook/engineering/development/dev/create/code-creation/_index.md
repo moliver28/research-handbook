@@ -42,7 +42,7 @@ The following members of other functional teams are our stable counterparts:
 
 | Category          | Counterpart                                                                                                     |
 |-------------------|-----------------------------------------------------------------------------------------------------------------|
-| Product Manager   | TBD                                                                                                             |
+| Product Manager   | {{< member-by-name "Derek Ferguson" >}} (Acting)                                                                |
 | Technical Writing | {{< member-by-name "Jon Glassman" >}}                                                                           |
 | UX                | {{< member-by-name "Andy Volpe" >}} (Create Stage)                                                              |
 | SET               | {{< member-by-name "Jay McCure" >}} (Create Stage)                                                              |
