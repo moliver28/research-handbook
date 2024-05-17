@@ -53,7 +53,7 @@ This Working Group has the following exit criteria:
 |---|---|---|
 |[Add native support for work items at group-level](https://gitlab.com/groups/gitlab-org/-/epics/8308)| 90% | Project Management |
 |[Add support for relating work items based on different relationship types](https://gitlab.com/groups/gitlab-org/-/epics/7459)| 100% | Product Planning |
-|[Add support for relating legacy issues as children to work items](https://gitlab.com/groups/gitlab-org/-/epics/10851)| 100% | Product Planning |
+|[Add support for relating legacy issues as children to work items](https://gitlab.com/groups/gitlab-org/-/epics/10851)| 90% | Product Planning |
 |[Add support for cross-group hierarchies in Hierarchy widget](https://gitlab.com/gitlab-org/gitlab/-/issues/424896)| 100% | Product Planning |
 |[Start and Due date inheritance support in Work Items](https://gitlab.com/groups/gitlab-org/-/epics/11409)| 60% | [Kassio Borges](/handbook/company/team/#kassio) (BE) & [Himanshu Kapoor](/handbook/company/team/#himkp) (FE) - Knowledge |
 |[Roll-up statistics around children count, weight sum, and health status in Hierarchy widget](https://gitlab.com/groups/gitlab-org/-/epics/11402)| 5% | Project Management |
