@@ -108,6 +108,7 @@ Labels:
 - `group::` - for Objectives and key results for a specific group
 
 Each Objective and Key Result should have an assignee who is DRI for providing status updates throughout the quarter. Regular updates are preferred. At a minimum these should be updated
+
 - By end of day, the second Friday of every month
 - Ay the end of the quarter
 
@@ -120,6 +121,7 @@ To support our teams, and commitments made to internal and external customers, t
 The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](/handbook/people-group/paid-time-off/) policy.
 
 We use an internal issue tracker as team member PTO is not public information, and a PTO template
+
 - [PTO issue list](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=PTO&first_page_size=20)
 - [New PTO issue template](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/new?issuable_template=ooo_template)
 
@@ -170,6 +172,7 @@ If the contributor needs an EE license, we can point towards the [Contributing t
 ## Links and resources
 
 {{% include "includes/engineering/govern-shared-links.md" %}}
+
 - Group [#g_govern_security_policies](https://gitlab.slack.com/archives/CU9V380HW)
 - Group [#g_govern_threat_insights](https://gitlab.slack.com/archives/CV09DAXEW)
 - Group [#g_govern_compliance](https://gitlab.slack.com/messages/CN7C8029H)

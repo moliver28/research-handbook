@@ -13,7 +13,6 @@ title: General Information of Development Escalation Process
 
 This page outlines the background, goals, success criteria, and implementation detail of infrastructure escalation process and Q&A.
 
-
 ## Background
 
 Historically there have been challenges in consistently maintaining our service level for GitLab.com customers. See the impacts in this [GitLab.com performance degradation summary document](https://docs.google.com/document/d/1GfwzPc1uavB5ZuiA9O8l5sUD7Sq2l2BlwevM5AvOtZA/edit).
@@ -30,10 +29,10 @@ Note that the Infrastructure team keeps playing the first defense role on the fr
 
 This new process will need development engineers on-call based on a rotation schedule. For more details, please refer to the [**full description of on-call process**](./process.html).
 
-
 ## Goals
 
 The on-call process was designed with the following goals in mind -
+
   * Clear expectations, responsibility, and accountability.
   * Full 24x7 coverage to shadow the Infrastructure team.
   * Layered escalations to ensure SLO.
@@ -59,6 +58,7 @@ An async retro issue will be registered and every participant is encouraged to e
 We want to be sure to show our appreciation for those who take support rotations, especially on the weekends. Every quarter, engineering directors and managers are encouraged to write a thank you message to all who did weekend support rotations (naming each person and how many rotations they did) in the previous quarter in the `#Thanks` Slack channel.  They are also encouraged to `@` mention their managers, so they are also aware.
 
 The reasons for doing this:
+
 * It is not readily apparent how many weekend support rotations are taken by each engineer unless reviewed over a long time period.
 * It is easy to forget to periodically do this over a long time-period unless it is part of a documented process.
 * Doing this manually vs. via automation makes it more personalized and shows genuine appreciation.
@@ -80,6 +80,7 @@ The reasons for doing this:
 **Q: Can we make it volunteer based?**
 
 **A:** In theory, yes. However, there are a few things to keep in mind.
+
   * What if a majority of volunteers are concentrated in nearby time zones?
   * If ALL volunteers are called upfront, what if this ends up with a very small group?
   * If volunteers are called dynamically e.g. before next rotation or month, there is ongoing administrative overhead and things can fall into cracks easily. What if no volunteer for a specific week? What if it ends up with always the same small group of people?

@@ -84,12 +84,12 @@ These are regular meetings in which most team members will participate. Also, pl
 #### Pre-Iteration Planning Meeting
 
 - **When:** Every Wednesday, alternating between APAC and EMEA time zones.
-- **What:** The goal of the Pre-IPM meeting is for the team leaders to collaborate on preparing all issues which are to be prioritized for the upcoming iteration(s), so they are ready for the wider team to discuss and estimate in the next IPM. For more information, see ["Pre-Iteration Planning Meeting"](#-pre-iteration-planning-meeting).
+- **What:** The goal of the Pre-IPM meeting is for the team leaders to collaborate on preparing all issues which are to be prioritized for the upcoming iteration(s), so they are ready for the wider team to discuss and estimate in the next IPM. For more information, see ["Pre-Iteration Planning Meeting"](#pre-iteration-planning-meeting).
 
 #### Iteration Planning Meeting (IPM)
 
 - **When:** Biweekly on Wednesday, alternating between APAC and EMEA time zones.
-- **What:** In this meeting, we will review the team's backlog and the current iteration status. We'll estimate and prioritize work for the next one or two iterations. The meeting will alternate between APAC and EMEA time zones to accommodate different regions. For more information, see ["Iteration Planning Meeting"](#-iteration-planning-meeting).
+- **What:** In this meeting, we will review the team's backlog and the current iteration status. We'll estimate and prioritize work for the next one or two iterations. The meeting will alternate between APAC and EMEA time zones to accommodate different regions. For more information, see ["Iteration Planning Meeting"](#iteration-planning-meeting-ipm).
 
 ## 📦 Group Processes
 
@@ -151,8 +151,8 @@ The IDE group has modified parts of the [Plan](/handbook/product-development-flo
 The crux of these changes is focused around the following process phases:
 
 1. "High Level Validation and Planning". This is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development-flow/#validation-track), because it needs to achieve the same [Validation Goals & Outcomes](/handbook/product-development-flow/#validation-goals--outcomes) before we can start refining and prioritizing issues.
-1. The "Pre-Iteration Planning Meeting", or "Pre-IPM". This is analogous to ["backlog refinement"](/handbook/product-development-flow/#outcomes-and-activities-4) in the standard GitLab product development flow. The goal of the Pre-IPM is to ensure that all issues which are to be prioritized in the upcoming iteration(s) are ready for the wider team to briefly discuss and estimate in the next IPM. See more details in the [Pre-Iteration Planning Meeting](#-pre-iteration-planning-meeting) section.
-1. The "Iteration Planning Meeting", or "IPM". This is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning). See more details in the [Iteration Planning Meeting](#-iteration-planning-meeting) section.
+1. The "Pre-Iteration Planning Meeting", or "Pre-IPM". This is analogous to ["backlog refinement"](/handbook/product-development-flow/#outcomes-and-activities-4) in the standard GitLab product development flow. The goal of the Pre-IPM is to ensure that all issues which are to be prioritized in the upcoming iteration(s) are ready for the wider team to briefly discuss and estimate in the next IPM. See more details in the [Pre-Iteration Planning Meeting](#pre-iteration-planning-meeting) section.
+1. The "Iteration Planning Meeting", or "IPM". This is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning). See more details in the [Iteration Planning Meeting](#iteration-planning-meeting-ipm) section.
 
 These components allow us to provide realistic velocity-based estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
 
@@ -368,7 +368,7 @@ the first line of the issue should have the format: `MR: <...>`:
    and the first description line of the MR should be `Issue: <Issue link with trailing +>`.
 1. If the work for an issue was iteratively split into multiple MR's, the first description line of the issue should be:
 
-   ```
+   ```markdown
    MR:
      - <MR link with trailing +>
      - <MR link with trailing +>
@@ -516,13 +516,13 @@ TODO: None of these are set up for the Web IDE category and `webide-workflow::*`
 | <a id="automation-05">05</a> | Ensure closed issues are in the correct state | Every Issue in `~"Category:Remote Development"` which is closed must have the `~rd-workflow::done` label applied. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-05.yml) |
 | <a id="automation-06">06</a> | Sync Remote Development workflow and GitLab workflow labels | 1. Issues in `~rd-workflow::unprioritized` but with no GitLab workflow label should have `~"refined"` assigned. <br> 2. Unstarted issues in `~rd-workflow::prioritized` but with `~"refined"` assigned should get `~"workflow::ready` for development" assigned. | [triage-ops link](https://gitlab.com/gitlab-org/quality/triage-ops/-/blame/master/policies/groups/gitlab-org/ide/remote_development/workflow-06.yml) |
 | <a id="automation-07">07</a> | Ensure all prioritized issues have a milestone assigned | All issues with `~rd-workflow::prioritized` but no milestone should have `%"Next 1-3 releases"` milestone assigned. | TODO: implement |
-| <a id="automation-08">08</a> | Ensure all issues with `~rd-workflow-unprioritized` have a milestone assigned | All issues with `~rd-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the [1. High level validation and planning section][#1-high-level-validation-and-planning], and instructions that one of the following milestones must be assigned to all issues in `~rd-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
+| <a id="automation-08">08</a> | Ensure all issues with `~rd-workflow-unprioritized` have a milestone assigned | All issues with `~rd-workflow::unprioritized`, but no milestone, should have: <br> - `~needs-milestone` label applied <br> - along with a comment with a link to the [1. High level validation and planning section](#1-high-level-validation-and-planning), and instructions that one of the following milestones must be assigned to all issues in `~rd-workflow::unprioritized`: <br> - `%"Next 1-3 releases"` <br> - `%"Next 4-6 releases"` <br> - `%"Next 7-12 releases"` <br> - `%Backlog` <br> - `%Awaiting further demand` | TODO: implement |
 | <a id="automation-09">09</a> | Apply correct ~rd-workflow label to reopened issues | Re-opened issues which are open but in `~rd-workflow::done` should have `~"rd-workflow::prioritized"` assigned. | TODO: implement |
 | <a id="automation-10">10</a> | Ensure issues and MRs are 1-1 | - Every MR in `~"Category:Remote Development"` must have the first line of the description matching: `Issue: <issue link>\n\n`. See https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests  <br> - Every Issue in `~"Category:Remote Development"` must have the first line of the description matching: `"MR: <MR link>"` or `"MR: Pending"`. See https://docs.gitlab.com/ee/topics/gitlab_flow.html#linking-and-closing-issues-from-merge-requests | TODO: implement |
 | <a id="automation-11">11</a> | Automate Label Assignment for Ignored Issues | Issues with the `type::ignore` label should have the `rd-workflow::ignored` label assigned. | TODO: implement |
 | <a id="automation-12">12</a> | Ensure all prioritized issues with an assignee have a weight assigned | All issues with `~rd-workflow::prioritized` and an assignee but no weight should get a reminder note to either add a weight estimate or remove the assignee. | TODO: implement |
 | <a id="automation-13">13</a> | Assign a `rd-maturity::*` label of `viable`, `complete`, etc based on epic hierarchy | All issues should have appropriate labels added/removed based on epic hierarchy | TODO: implement |
-| <a id="automation-14">14</a> | Add an error comment if an issue is assigned to an iteration in the [RD cadence](https://gitlab.com/groups/gitlab-org/-/cadences/) but not assigned to `~Category:Remote Development` | TODO: implement |
+| <a id="automation-14">14</a> | Add an error comment if an issue is assigned to an iteration in the [RD cadence](https://gitlab.com/groups/gitlab-org/-/cadences/) but not assigned to `~Category:Remote Development` | TODO: implement | |
 
 <!-- LINKS START -->
 

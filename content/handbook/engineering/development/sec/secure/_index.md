@@ -23,7 +23,6 @@ To support the success of GitLab by developing highly usable, hiqh quality tools
 
 The Secure team works on GitLab's [Secure stage].
 
-
 ## Sub-department development people leaders
 
 {{< team-by-manager-slug manager="thomaswoodham" team="Manager(.*)Secure" >}}
@@ -45,14 +44,11 @@ Team Page: [Composition Analysis](composition-analysis/)
 
 {{< team-by-departments departments="Secure:Composition Analysis FE Team" >}}
 
-
-
 ### Static Analysis
 
 Team Page: [Static Analysis](static-analysis/)
 
 {{< team-by-departments departments="Secure:Static Analysis BE Team" >}}
-
 
 ### Dynamic Analysis
 
@@ -66,13 +62,11 @@ Team Page: [Vulnerability Research](vulnerability-research/)
 
 {{< team-by-departments departments="Secure:Vulnerability Research BE Team" >}}
 
-
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
 {{< stable-counterparts role="Secure" other-manager-roles="Engineering Manager(.*)Secure:Static Analysis|Backend Engineering Manager(.*)Secure:Dynamic Analysis|Manager, Software Engineering(.*)Secure:Composition Analysis|Senior Engineering Manager(.*)Secure|Senior Engineering Manager(.*)Secure|Director of Engineering(.*)Sec|Engineering Manager(.*)Dynamic Analysis" >}}
-
 
 ## Secure Team
 
@@ -222,7 +216,7 @@ To do so, use the following procedure.
     1. Link it to the security issue: `/relate <issue_id>`
 1. Update the security issue accordingly
 
-    ```
+    ```text
     /label ~"FedRAMP::Vulnerability" ~"FedRAMP::DR Status::Open"
     /milestone %Backlog
     ```
@@ -408,7 +402,6 @@ The Secure sub-department conducts retrospectives at the group level that follow
 Each group's DRI is responsible to prepare and schedule the retrospective sync sessions and the async retrospective issues can be found in [the corresponding project](https://gitlab.com/gl-retrospectives/secure-sub-dept).
 
 After all groups have completed their retrospective, we conduct a [Section Retrospective](/handbook/engineering/development/sec/#section-retrospectives).
-
 
 NB: we use to have a sub-department wide retrospective whose issues are still accessible [in the deprecated project](https://gitlab.com/gl-retrospectives/secure/-/issues).
 

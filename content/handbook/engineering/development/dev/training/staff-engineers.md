@@ -11,7 +11,6 @@ title: Staff Engineers
 
 ## Staff Engineers
 
-
 **You became a Staff Engineer! Now what?**
 
 This is an amazing accomplishment! Staff promotions are difficult to achieve because you have to be acting in any “next” role at some capacity to support a promotion to that role, and the Staff has a larger scope to be showing those behaviors than other roles. For this reason, you may feel like you’ve already been doing the role for a long time - but there are more opportunities available and potentially more to learn!
@@ -19,6 +18,7 @@ This is an amazing accomplishment! Staff promotions are difficult to achieve bec
 ### Changes to expect in your new role
 
 One difference between Staff and Senior positions is the leadership aspect that Staff engineers must exhibit and grow into. Leadership is not for everyone, so it makes sense that many senior engineers would prefer to stay in their positions long-term. As you transition more fully into your new Staff role, you will:
+
 - Shift your technical prowess from hands-on to hands-off by guiding, coaching, aligning, and organizing others. You will work on the most needed, critical, or complex topics within your group and be depended on to save the group when they are struggling, but otherwise you will work to empower others to take your place on the topics you were covering as a strong senior.
 - Be doing a lot of context switching - it’s difficult to help people and “get your job done” at the same time. Remember, it is now your job as a leader to help people too! Context switching and time management are skills that leaders can struggle with.
 - Be an example to others - in your responses (disagreements or agreements), proposals, and in the way you work or further yourself, keep in mind that others may be referring to you when they think about how they should handle a situation.
@@ -26,12 +26,10 @@ One difference between Staff and Senior positions is the leadership aspect that 
 
 Another difference is the gap between Staff and Principal - a Staff engineer is the foremost engineer within their group, and a Principal engineer is the equivalent within their stage. This means that more complex responsibilities may be coming to you across the stage or from other sub-departments, and you may need to adapt to this change. Remember, a Staff engineer is not completely different from a Senior or Principal - you may accomplish Senior requests quicker and Principal requests slower, but still be asked to do them.
 
-
 ### New job requirements
 
 - [Creating your own OKRs](/handbook/engineering/development/dev/create/engineering-managers/okrs/#okr-authors) each quarter outside of small issues or Deliverables
 - [Become an Incident Manager on-call](/handbook/engineering/infrastructure/incident-management/incident-manager-onboarding/#who-are-the-incident-managers)
-
 
 ### Tactical initiatives for a Staff engineer
 

@@ -52,7 +52,7 @@ Additionally, we need to keep track of error budgets, which should also be deriv
 
 We will also be collapsing the `database` queue into the `infrastructure` queue. The database is a special piece of the infrastructure for sure, but so are the storage nodes, for example.
 
-For the on-call SRE, every event that pages (where an event may be a group of related pages) *should* have an issue created for it in the `production` queue.  Per the [severity](#severity) definitions, if there is at least *visible* impact (functional inconvenience to users), then it is by definition an incident, and the Incident template should be used for the issue.  This is likely to be the majority of pager events; exceptions are typically obvious, i.e. they impact only us and customers won't even be aware, or they're alerts that are pre-incident level which by acting on we avoid incidents.
+For the on-call SRE, every event that pages (where an event may be a group of related pages) *should* have an issue created for it in the `production` queue.  Per the severity definitions, if there is at least *visible* impact (functional inconvenience to users), then it is by definition an incident, and the Incident template should be used for the issue.  This is likely to be the majority of pager events; exceptions are typically obvious, i.e. they impact only us and customers won't even be aware, or they're alerts that are pre-incident level which by acting on we avoid incidents.
 
 ### Security Related Changes
 
@@ -91,7 +91,6 @@ Type labels are very important. They define what kind of issue this is. Every is
 |     `~Incident`    | Represents a Incident on infrastructure please check details on : [Incident](/handbook/engineering/infrastructure/incident-management/)                           |
 |     `~Database`    | Label for problems related to database                                                                                  |
 |     `~Security`    | Label for problems related to security                                                                                  |
-
 
 #### Services
 
@@ -147,7 +146,6 @@ Production database backups
 | Infrastructure Team | Responsible for configuration and management |
 | Infrastructure Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
-
 ### Procedure
 
 Backups of our production databases are taken every 24 hours with continuous incremental data (at 60 sec intervals), streamed into [GCS](https://cloud.google.com/storage). These backups are encrypted, and follow the lifecycle:
@@ -190,6 +188,7 @@ The critical change process is described in the [emergency change process](/hand
 ### Patching Validation
 
 Patch validation can be performed in 3 ways.
+
 - Manually by cross examining the logs of the host with the vulnerability finding in [wiz.io](https://wiz.io).
 - Reviewing vulnerability & tracking issue raised into Gitlab by [Vulnerability Management teams automation] (/handbook/security/threat-management/vulnerability-management/#automation)
 - Reach out to Vulnerability Management in slack `#g_vulnerability_management`

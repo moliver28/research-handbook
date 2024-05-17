@@ -4,7 +4,7 @@ title: "Delivery Team Metrics"
 description: "The Delivery Team enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
 ---
 
-# Metrics
+## Metrics
 
 [Delivery team] uses Mean Time To Production (MTTP) as an indicator of our speed capabilities
 to deploy application changes into production.
