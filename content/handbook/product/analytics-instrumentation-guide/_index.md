@@ -18,7 +18,7 @@ There are several stages and teams involved to go from collecting data to making
 | Orchestration | The orchestration of extraction and loading tooling to move data from sources into the Enterprise Data Warehouse. Our current tooling includes Airflow. | Data |  |
 | Storage | The Enterprise Data Warehouse (EDW) which is the single source of truth for GitLab's corporate data, performance analytics, and enterprise-wide data such as Key Performance Indicators. Our current EDW is built on Snowflake. | Data |  |
 | Transformation | The transformation and modelling of data in the Enterprise Data Warehouse in preparation for data analysis. Our current tooling is dbt and Python scripts. | Data | Analytics Instrumentation |
-| Analysis | The analysis of data in the Enterprsie Data Warehouse using a querying and visualization tool. Our current tooling is Sisense. | Data, Product Data Analysis | Analytics Instrumentation |
+| Analysis | The analysis of data in the Enterprsie Data Warehouse using a querying and visualization tool. Our current tooling is Tableau. | Data, Product Data Analysis | Analytics Instrumentation |
 
 [Editable source file](https://docs.google.com/spreadsheets/d/144-BLh7uyX4aY23QNrvke5BqCcb9xfPk2BL4qGFvzFY/edit?usp=sharing)
 
