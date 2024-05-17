@@ -97,6 +97,7 @@ There are dozens of ways to [lie with visualizations](https://handsondataviz.org
 #### Summarizing quantitative data
 
 This section covers how to read visualizations, look for trends, and turn the results into insights. Start by looking for any kind of patterns. Some examples are:
+
 - Cyclic patterns based on time
 - Similarities or differences when comparing across one category or more
 - Data that is consistently increasing or decreasing.
@@ -119,6 +120,7 @@ Based on these charts, it is evident that there is a huge decline in issues clos
 #### State the limitations of your data
 
 When sharing your research, state what you believe are the limitations that may have impacted your results. For example, if your data:
+
 - Is missing a collection of users
 - Includes usage from only the last 3 months
 - Has concerns about its accuracy
