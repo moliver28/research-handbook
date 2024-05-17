@@ -43,7 +43,7 @@ _(DRI: To be identified by the Engineering Manager (EM) of the team owning the b
 1. EM to review severity and identify DRI for resolving the bug.
 1. DRI to work on resolving the bug as quickly as possible. The first priority is to find a fix.
 1. DRI to update the bug with workaround to unblock the customer if applicable.
-1. DRI to identify if fix can be backported. If backporting is not possible, collaborate with the Distribution team to update the upgrade path and [include the unplanned stop](https://docs.gitlab.com/ee/development/database/required_stops.html) for immediate resolution.
+1. DRI to identify if fix can be backported. If backporting is not possible, collaborate with the Distribution team to update the upgrade path and [retroactively add the unplanned stop](https://docs.gitlab.com/ee/development/avoiding_required_stops.html#retroactively-adding-required-stops) for immediate resolution.
 1. EM to identify DRI for performing Unplanned upgrade stop RCA.
 1. RCA DRI performs Root Cause Analysis and raises corrective actions.
 1. RCA DRI collaborate with Test Platform on test coverage analysis and raise corrective actions.
