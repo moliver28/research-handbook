@@ -16,10 +16,10 @@ canonical_path: "/handbook/product/packaging-and-pricing/gitlab-for-campuses/"
 ## Overview
 
 GitLab provides qualified educational institutions with three different options for using GitLab on their campus:
+
 1. **GitLab for Education**: The GitLab for Education Program provides free, unlimited, licenses of GitLab's top-tiers, either self-managed or SaaS, to [qualified educational institutions](/handbook/marketing/developer-relations/community-programs/education-program/#gitlab-for-education-program-requirements) for the **purposes of teaching, learning or non-commercial research only**. Use in Professional Information Technology or for *any* administrative purposes is **strictly prohibited** under the GitLab for Education license. Please see the [GitLab for Education handbook](/handbook/marketing/developer-relations/community-programs/education-program/) and [marketing pages](https://about.gitlab.com/solutions/education/) for more details. Universities must [apply here](https://about.gitlab.com/solutions/education/join/) to be accepted into the program.
 2. [**Academic Discount**](/handbook/product/packaging-and-pricing/gitlab-for-campuses/#academic-discount): GitLab licenses are available at a 20% Academic Discount off list price for any qualifying educational institution. There are no use-case restrictions on these licenses.
 3. [**GitLab for Campuses**](/handbook/product/packaging-and-pricing/gitlab-for-campuses/#gitlab-for-campuses-enterprise-offering): Qualifying educational institutions may purchase an enterprise campus-wide license. The campus-wide license offers unlimited seats (up to the last published enrollment of the institution) of GitLab's top-tiers, either self-managed or SaaS. This offering permits all use cases to occur within one license for the campus. *NOTE:* The ability to participate in any of the Education options (stated herein) is subject to GitLab's sole discretion. Please follow the applicable steps regarding qualification. **Purchases or requests shall not be considered accepted (or legally binding) unless and until executed between the parties in writing.**
-
 
 ## Academic Discount
 
@@ -29,11 +29,9 @@ Qualifying educational institutions may receive an Academic Discount of 20% off 
 - The academic discount can be applied at the time of the renewal if it is after 2021-02-01.
 - The academic discount is not currently available to be purchased directly in the GitLab Customers Portal.
 
-
 ## GitLab for Campuses: Enterprise Offering
 
 Qualifying educational institutions may purchase a campus-wide enterprise license.
-
 
 ### Details
 
@@ -51,14 +49,12 @@ Qualifying educational institutions may purchase a campus-wide enterprise licens
 - Each individual educational institution within a  state, regional, or national system much purchase an individual license (SKU). The license (SKU) cannot be shared across individual institutions within a system.
 - The GitLab for Campuses enterprise offering is not currently available through the Customers Portal. Universities must work with their regional sales account owner to obtain a license.
 
-
 ### Support
 
 - A named single point of contact is provided for each college, school, or division within the institution. This reach expands to those units that serve as a primary tier administrative level for the institution. For example, the College of Engineering may have a named contact but the 8 individual departments within the College do not have a named support contact. Named support limits for Ultimate tier apply.
 - The named contacts must be provided to GitLab and included in the support database. The account owner has the primary discretion to include or not include provided named support contacts based on the definitions below.
 - Individual students, faculty, and staff outside of the named single point of contact for each primary division cannot directly contact GitLab support.
 - Please refer customers to the GitLab Support process for [Managing Support contacts and handling details](https://about.gitlab.com/support/managing-support-contacts/) in order to seed a list of named support contacts.
-
 
 ### Tiers
 
@@ -76,6 +72,7 @@ The GitLab for Campuses enterprise offering is available at the following tiers:
 |25,000 and over^+|Self-Managed |[EDU Enterprise-XLarge] Self-Managed - Ultimate - 1 Year|
 
 *Institution size is determined by the last published student enrollment (undergraduate and graduate) within one year of the contract closing.
+
 - System limitations require a max number of seats. The XLarge SKUs are set to a max of 50,000k seats. If the number of seats needed is higher than 50,000 the Account Owner should notify Deal Desk in SFDC before sending the quote.
 
 ## Steps for Building a GitLab for Campuses Quote
@@ -84,6 +81,7 @@ The steps for building a GitLab for Campuses quote vary slightly from standard q
 
 1. Before building the quote, determine the proper tier based on the most recently published enrollment data provided by the insitution.
 2. After creating the opportunity and a new quote following the steps in the [Sales Order Processing handbook page](/handbook/sales/field-operations/order-processing/)
+
   - On the `Select Billing Account page`choose the appropriate Quote Template - `01.21 New Order Form - EDU / 01.21 Amendment Order Form - EDU / 01.21 Renewal Order Form - EDU`.
   - Proceed as usual until the  `Add base products`, and Click `Select Plan` on the relevant product. Scroll to the appropriate product SKU names from the table above. For example, `[EDU Enterprise-Small] SaaS - Ultimate (formerly Gold) - 1 Year`.
   - Proceed as usual.
@@ -99,7 +97,6 @@ GitLab for Campuses can be sold through GitLab resellers. The specific language 
 ### GitLab for Campuses Agreeement
 
 The standard [GitLab Subscription Agreement](/handbook/legal/subscription-agreement/) is applicable to the GitLab for Campuses offering.
-
 
 #### Definitions of Qualifying Education Institutions and Associated Entities
 
@@ -127,8 +124,6 @@ Individual institutions may be part of a larger state, regional, or national uni
 
 **Educationally Related Entities**: any entity that does not meet the qualifying criteria, such as code academies, massive open online course providers, bootcamps, and professional training centers, do not qualify for the GitLab for Campuses enterprise offering.
 
-
-
 #### Medical Colleges
 
 In order to be eligible for the education enterprise pricing model medical colleges must meet the following criteria:
@@ -136,11 +131,10 @@ In order to be eligible for the education enterprise pricing model medical colle
 - Be owned and operated directly by an accredited, degree-granting, non-profit, public or private, educational institution with the primary purpose of educating its enrolled students or
 - Be owned and operated directly by an [academic health science center](https://en.wikipedia.org/wiki/Academic_health_science_centre).
 
-
-
 #### Ineligible Entities
 
 The following are **not** eligible for the GitLab for Campuses enterprise offering:
+
 - Medical colleges directly owned or operated by a public hospital or a private hospital
 - Medical colleges directly owned or operated with a integrated delivery network or system
 - Medical colleges affiliated but with a University but not owned and operated by that University

@@ -18,8 +18,7 @@ This list can change and the handbook version is the SSOT. It's based on best pr
 
 | Category | Heuristic | Description |
 | ------ | ------ | ------ |
-| Usability | Visibility of system status | Communicating the current state allows users to feel in control of the system, understand available actions and how to use them to reach their goal, and ultimately establishes trust in the brand. This heuristic differs from the "real-time user interface" heuristic (see below) in that it is a deeper understanding of what is going on with the tool or product (consider a dashboard), whereas real-time user interface is communicating something about the tool or product when change occurs (being notified immediately if there is a dramatic change to one or more metrics on that dashboard).
-(source: NN/g) |
+| Usability | Visibility of system status | Communicating the current state allows users to feel in control of the system, understand available actions and how to use them to reach their goal, and ultimately establishes trust in the brand. This heuristic differs from the "real-time user interface" heuristic (see below) in that it is a deeper understanding of what is going on with the tool or product (consider a dashboard), whereas real-time user interface is communicating something about the tool or product when change occurs (being notified immediately if there is a dramatic change to one or more metrics on that dashboard). (source: NN/g) |
 | Usability | Flexibility and efficiency of use | Shortcuts (unseen by the novice user) speed up the interaction for the experts such that the system can cater to inexperienced and experienced users. Frequent actions can be customized or automated. Users can customize the tool for their needs and personalization is used appropriately to reduce tedious tasks. (source: NN/g) |
 | Usability | User control and freedom | Allow people to exit a flow or undo their last action and go back to the system’s previous state. (source: NN/g) |
 | Usability | Recognize, diagnose, recover from errors | Make error messages visible, reduce the work required to fix the problem, and educate users along the way. (source: NN/g) |
@@ -30,7 +29,6 @@ This list can change and the handbook version is the SSOT. It's based on best pr
 | Onboarding | Features communicate the problem being solved and value to a new user | When users explore an unfamiliar feature, they should be able to quickly understand how it is or isn't relevant to them. |
 | Onboarding | Features/workflows have clear calls to action. | A call to action should make it clear what is to be done to move the task forward.  At the very least, there should be links to documentation for assistance. At best, guided setup.|
 | Onboarding | Tasks are easy to learn, or if highly complex, have setup support in the form of in-app guidance, defaults, templates or wizards. | Tasks should be intuitive first and foremost, and when they are complex, they must provide tools to enable learning. |
-
 
 ## Scoring
 
@@ -51,4 +49,3 @@ If you're completing a UX Scorecard, please use the [UX Scorecard Grading Rubric
 
 - [Nielssen Norman Group](https://www.nngroup.com/articles/ten-usability-heuristics/)
 - [UI Tenets & Traps](https://uitraps.com/)
-
