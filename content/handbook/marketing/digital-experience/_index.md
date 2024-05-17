@@ -390,6 +390,14 @@ We love collaborating on work that drives our North Star and supporting metrics.
     <li>@ndubord</li>
 </details>
 
+## Marketing site deployment process
+
+From the repositories we own, three of them share the same deployment bucket. When a pipeline is run (triggered by a merge or a webhook) in any of these projects, we run a deployment job specific to that repository, this will push the built files from this repository into the bucket, merging them with the existing files already there. 
+
+![Mermaid diagram]('DexPipeline.png')
+
+To keep things clean, we run a scheduled delete job in these repositories which takes care of deleting outdated files from the cloud bucket (such as pages removed from the marketing site and old js bundles)
+
 ## Digital Experience FAQ
 
 <details>
