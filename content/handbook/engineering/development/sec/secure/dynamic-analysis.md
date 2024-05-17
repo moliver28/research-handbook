@@ -218,13 +218,14 @@ To complete this mapping, product priority-based issues or epics should be creat
 #### Important Links
 
 - [Dynamic Analysis Group Direction Priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities)
-- [List of all Dynamic Analysis Group Epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST)
+- [List of all Dynamic Analysis Milestone Planning Issues & Retros](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=all&label_name%5B%5D=group%3A%3Adynamic%20analysis&label_name%5B%5D=type%3A%3Aignore&search=%20%F0%9F%93%90&first_page_size=20)
 
-#### Monthly Outputs
+#### Milestone Outputs
 
 - MR to update the group direction with all priorities and targeted releases
-  - Links to polished epics for each product priority
-    - Flush out as many child epics and issues tagged to milestones as possible
+  - Links to polished epics or issues for each product priority
+    - Flush out as many child epics and issues tagged to milestones as possible (or a single blueprinting issue)
+- Team retrospective comments will be reviewed inside of the previous milestone's planning issue
 
 ### Weekly Huddles & Reaction Coordination
 
