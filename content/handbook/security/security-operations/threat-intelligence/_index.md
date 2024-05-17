@@ -26,7 +26,7 @@ The Threat Intelligence initiative is driven by cross-functional participants fr
 
 The initiative's current priorities are:
 
-1. **Building industry connections**: Establishing relationships with industry peers and security researchers who specialize in relevant adversaries.
+1. **Building connections**: Establishing relationships with industry peers, government entities, and other experts who specialize in relevant threats.
 2. **Delivering actionable threat briefings**: Preparing and presenting concise, actionable [threat briefings](#threat-briefings) that inform GitLab of relevant threats, their potential impact, and recommended actions.
 3. **Refining reporting processes**: Continuously improving reporting templates and processes to ensure clear, consistent, and efficient communication of threat intelligence findings.
 
