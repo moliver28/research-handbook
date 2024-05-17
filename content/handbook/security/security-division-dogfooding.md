@@ -16,7 +16,6 @@ Historically, dogfooding within the Security Division has not been handled throu
 
 ....
 
-
 ## WIP Outline
 
 1. Stakeholders
@@ -55,4 +54,3 @@ Historically, dogfooding within the Security Division has not been handled throu
         1. Dogfood status reporting: Quarterly async updates
         1. Critical PM escalations: ?
         1. Requests for evaluations from PM to security
-
