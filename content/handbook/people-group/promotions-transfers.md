@@ -265,7 +265,7 @@ Please note, effective FY25-Q2, peer feedback is not required for promotion cons
 
 #### CTO Timeline for FY25-Q3
 
-2024-06-10 to 2024-06-28: Direct managers of promotion nominees complete the Promotion Document. Completed documents are shared with Kristina Bullock and Jess Durbin by 2024-06-21 (End of Business Pacific time)
+2024-06-10 to 2024-06-21: Direct managers of promotion nominees complete the Promotion Document. Completed documents are shared with Kristina Bullock and Jess Durbin by 2024-06-21 (End of Business Pacific time)
 2024-06-24 to 2024-07-10: Department level calibrations (facilitated by PBP) followed by a CTO Leaders Calibration. 
 2024-07-15 to 2024-08-01: Approved promotions are entered into Workday, Comp review is completed and final approvals are obtained.
 
