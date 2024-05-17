@@ -118,15 +118,25 @@ Account owners (AEs, SAEs, Renewals Managers) working with customers that [quali
 
 This brief screencast demonstrates how to reveal the CSE Help button when on an account page in Salesforce:
 
-![example-clip-demonstrating-cse-request-sfdc](/handbook/customer-success/csm/segment/cse/cse-help.gif)
+![example-clip-demonstrating-cse-request-sfdc](/handbook/customer-success/csm/segment/cse/CSE-new-workflow.png)
 
 #### Requesting CSE Engagement (Account Owners only - AEs, SAEs)
 
-Only account owners should file a new issue requesting a CSE engagement for their customer. Other stakeholders at GitLab (Solutions Architects, Support, Professional Services) may identify a potential opportunity for CSE engagement, but ultimately the account owner should be notified to follow through the request process and communicate to the customer that a request has been made.
+Only account owners (AEs and RM's) should file a new issue requesting a CSE engagement for their customer. Other stakeholders at GitLab (Solutions Architects, Support, Professional Services) may identify a potential opportunity for CSE engagement, but ultimately the account owner should be notified to follow through the request process and communicate to the customer that a request has been made. So the workflow goes like this:
 
-To make a request, click "CSE Help" at the top of the Salesforce account page chatter (click "Show Feed" to open it first ), populate and the form with as much information as possible to help the CSE team qualify the request, and prepare for engagement.
+* New cases are allowed to be created for accounts with 30 - 300K USD ARR, and the “assigned CSM” must be set to ‘TAM Scale’.
+* AE/RM files the request in SFDC 
+* Initiate a case by clicking on the "CSE help" button associated with the Opportunity in Salesforce.
+* Fill out the required fields, which include Customer Contact, interventions needed (such as onboarding, license utilization, competitive risk), and the primary use case. Specify the type of risk and environment associated with the customer.
+* The case is then automatically listed in related case lists on both the account and opportunity.
+* Once a case is created in Salesforce, a corresponding Call to Action (CTA) is generated in Gainsight for the CSE to handle. But it is not real-time (batch rule runs every four hours starting at 12:30-1 am PT everyday).
+NOTE: Unless specified otherwise, CSEs will automatically reach out to the contact with the AE/RM in copy when cases are created. If the AE/RM does not want that to happen they can put a note in the open text "Challenges/Pain Points (1000 Character Limit)" field on the case.
 
-- For more information about the scope and qualifications for CSE engagement, refer to [CSE: Qualifications/Scope Document for CSE Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#)
+
+- For more information about the scope and qualifications for CSE engagement, refer to the following links:
+   - [CSE: Qualifications/Scope Document for CSE Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#) 
+   - [CSE Workflow - Process](https://docs.google.com/document/d/14hgdDN9JYVQLcuwGFfvryWDeXeWUpHLZv7RAUH7oers/edit#heading=h.vs4fplqboev)
+   - [CSE highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=shp.4)
 
 
 #### Tracking Ad-Hoc CSE Engagements in Gainsight (CSEs only)
@@ -146,7 +156,6 @@ Once the call is complete, the call must be [logged as an activity](/handbook/cu
 The CSE should then prepare a follow-up email to be sent to the customer through the email-assist in the task: `Follow Up Email Post One-off CSE Outreach Call Completion`
 
 This ensures that a CSAT survey is deployed to the recipients of the email.
-
 
 
 
