@@ -28,7 +28,7 @@ if a piece of scheduled work can no longer fit into a milestone, call it out.
 
 ### Keeping an eye on the ball
 
-- The role of the IC is deep focus on difficult technical tasks. 
+- The role of the IC is deep focus on difficult technical tasks.
 - My role as a Manager is to focus on the big picture, filter the noise, to work with Product and help prepare the work as achievable pieces, then remove any roadblocks so scheduled work can be merged.
 - Together, we deliver Product.
 
@@ -38,9 +38,9 @@ if a piece of scheduled work can no longer fit into a milestone, call it out.
 
 Team 1:1s are a meeting where I listen to your concerns and ideas, and strive to take immediate follow-up actions. I am happy for you to completely drive this meeting, including deciding when and how frequent it will be.
 
-To keep notes, we have an ongoing Google document and for topic inspiration we have an _optional_ template. 
+To keep notes, we have an ongoing Google document and for topic inspiration we have an _optional_ template.
 
-## Coffee chats 
+## Coffee chats
 
 I'm a huge fan of Coffee Chats, they are an important part of culture when a company is all remote. I'm always happy to have Coffee Chats with my team members in addition to regular 1:1s, as it's just a great opportunity to get to know each other outside the direct context of work.
 

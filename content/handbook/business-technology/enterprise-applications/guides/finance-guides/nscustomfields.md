@@ -5,7 +5,7 @@ title: "Finance System Guides"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-# How to create custom fields in Netsuite
+## How to create custom fields in Netsuite
 
 Recording (private due to finance systems information): [https://youtu.be/7QEw0-E4dTQ](https://youtu.be/7QEw0-E4dTQ)
 

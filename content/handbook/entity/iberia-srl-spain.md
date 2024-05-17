@@ -11,7 +11,7 @@ Bienvenido! This Handbook is for team members employed by GitLab Iberia s.r.l an
 
 These standards apply to all GitLab team members hired through GitLab Iberia s.r.l., which has a registered address at Avenida Concha Espina 39B, 28016 Madrid.
 
-### Roles & Responsibilities:
+### Roles & Responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|
@@ -35,13 +35,23 @@ Team members ought to be classified under a professional group and level (by are
 
 ## Employment Policies
 
-In addition to the [People Policies](https://handbook.gitlab.com/handbook/people-policies/) page of the Handbook, which serves as a directory of relevant policies and also lists entity specific employment policies where they are applicable, there are Spanish language versions of many of the policies available for reference and they can be accessed from [here](https://handbook.gitlab.com/handbook/people-policies/#translations).
+In addition to the [People Policies](/handbook/people-policies/) page of the Handbook, which serves as a directory of relevant policies and also lists entity specific employment policies where they are applicable, there are Spanish language versions of many of the policies available for reference and they can be accessed from [here](/handbook/people-policies/#translations).
 
 ## Legal Policies
 
-In addition to the [Legal Policies](https://handbook.gitlab.com/handbook/legal/#gitlab-policies) page of the Handbook, there are Spanish language versions of many of the policies available for reference and they are accessible [here](https://handbook.gitlab.com/handbook/people-policies/#translations).
+In addition to the [Legal Policies](/handbook/legal/#gitlab-policies) page of the Handbook, there are Spanish language versions of many of the policies available for reference and they are accessible [here](/handbook/people-policies/#translations).
 
-## Timekeeping
+## Payroll Details
+
+### Pay Dates
+
+The [pay date](https://internal.gitlab.com/handbook/finance/payroll/#pay-dates) is on the 28th of each month. If the 28th falls on a weekend or public holiday, payment will be made on the prior working day. For the December salary payment date, payroll team will make an announcement notifying team members of the precise date.
+
+### Payslip Access
+
+All team members can access their payslips though Papaya SSO available as a tile in OKTA. Access will be activated with the first payslip. For any payslip access or general payroll issues please contact payroll in HelpLab by following the [HelpLab](https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/helplab-guide/) guide.
+
+## Timekeeping Policies
 
 It is mandatory for every Spanish company to register the working day of its employees and these timekeeping records must be kept for four years.
 
@@ -63,9 +73,11 @@ Between work days, team members are entitled to an uninterrupted rest period of 
 
 Overtime, if appropriate, _must be expressly and previously authorized in writing by GitLab_. If GitLab has _not_ required or authorized overtime work, then team members should not exceed the normal daily working hours and such time worked in excess will not be considered overtime for any purposes.
 
-## Payroll Details
+## Timesheets
 
-Payroll information will be added in duwe course - please hold tight!
+Team members will be expected to fill out a monthly timesheet at the end of each month. The timesheet template can be found [here](https://drive.google.com/drive/folders/1KFUjpX1T2EBLqsi2c6jauI7odIiu9WXF) and either the english or spanish version can be used.The timesheet must then be sent to the Non-US Payroll team via HelpLab (under the time-tracking category) before the 2nd of the following month. For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For more information please refer to the [timekeeping policies](/handbook/entity/iberia-srl-spain.md#timekeeping-policies).
+
+For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
 
 ## Spain-Specific Team Member Benefits
 
@@ -99,6 +111,7 @@ Please note you will have 25 days to enroll your family with effective date as t
 No waiting periods except for the following procedures:
 
 12 months:
+
 - Urinary incontinence´s rehabilitation
 - Telemedicine Program: Children's Cognitive
 - Telerehabilitation (Guttmann)
@@ -114,7 +127,7 @@ No medical questionnaire required (pre existing illness will be accepted, except
 
 **Life Event Enrollment**
 
-Other than during enrollment, Team Members can add dependents during certain life events such as birth or marriage, with an effective date of the life event. Please fill out the [Life Event Form](https://docs.google.com/forms/d/e/1FAIpQLSd8YRqlEqfvlZgqUFm2fZ8A6JC5hKrm2JlZKInkUl_nQD3nww/viewform?usp=sf_link) to enroll your dependent.  
+Other than during enrollment, Team Members can add dependents during certain life events such as birth or marriage, with an effective date of the life event. Please fill out the [Life Event Form](https://docs.google.com/forms/d/e/1FAIpQLSd8YRqlEqfvlZgqUFm2fZ8A6JC5hKrm2JlZKInkUl_nQD3nww/viewform?usp=sf_link) to enroll your dependent.
 
 The Team Member portion of the dependent cost will be deducted from their paycheck on a monthly basis. The Benefit in Kind amount will be reported on a monthly basis and team members will be taxed on the value of the benefit.
 
@@ -125,6 +138,7 @@ The Team Member portion of the dependent cost will be deducted from their payche
 Life Insurance provides peace of mind for you and your loved ones in the event of your untimely death, helping to relieve financial concern during a time of grief. GitLab offers Life Insurance via Generali.
 
 Team Members are automatically enrolled into the benefit with an insured lump sum of 200% Gross Base Salary. This includes cover for the following:
+
 - Death by any cause,
 - Accidental Death (additional lump sum),
 - Total and Permanent Disability for the own occupation by any cause,
@@ -154,7 +168,6 @@ To Update your Beneficiary please fill out the [beneficiary designation form](ht
 
 </details>
 
-
 ### Administrative Details for Benefits Team
 
 <details markdown="1">
@@ -171,7 +184,7 @@ Team Members are on leave whose salary is paid directly via the Spanish governme
 
 Team members will receive the monthly remote working allowance established under the CBA, which will be paid monthly, processed by payroll and will be listed on your payslip as **PLUS TELETRABAJO**.
 
-Any additional expenses will be reimbursed under the [GitLab Global Travel and Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/), up to any limits set by GitLab.
+Any additional expenses will be reimbursed under the [GitLab Global Travel and Expense Policy](/handbook/finance/expenses/), up to any limits set by GitLab.
 
 ### Spain-Specific Leave
 
@@ -295,4 +308,3 @@ What's next in Spain? Any planned policy additions will be put on a roadmap here
 ## Transparency/Version control
 
 If/when country specific policies are added or updated, and where it is possible, previous versions of those policies will remain accessible internally and will be linked from current versions.
-

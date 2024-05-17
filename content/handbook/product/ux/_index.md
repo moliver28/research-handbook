@@ -5,7 +5,7 @@ description: >-
   GitLab product: UX Research, Product Design, Technical Writing, and Foundations
 ---
 
-## Hello!
+## Hello
 
 We're the GitLab User Experience (UX) department. We comprise four areas to support designing and building the GitLab product.
 
@@ -138,6 +138,3 @@ To understand the specific challenges faced by the UX Department, we hold an asy
 - [Anne Lasch](https://gitlab.com/alasch/about-anne/-/blob/master/README.md) - Senior UX Researcher
 - [Emily Bauman](https://gitlab.com/emilybauman/about-me/-/blob/master/README.md) - Senior Product Designer
 - [Will Leidheiser](https://gitlab.com/wleidheiser/about-will/-/blob/main/README.md) - Staff UX Researcher
-
-[pajamas]: https://design.gitlab.com
-[seeking-community-contributions]: https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name[]=Seeking+community+contributions&assignee_id=0&sort=weight

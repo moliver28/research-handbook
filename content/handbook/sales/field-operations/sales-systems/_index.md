@@ -74,7 +74,7 @@ Below is a list of the different technical skill sets found on the Sales System 
 - [ ] 4. [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label
 - [ ] 5. [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code)
 
-#### [Business DRI] Business User Acceptance Testing Complete with Evidence :- The Business DRI should sign off after validating the provided solution works as expected as `definition of done`. The Business DRI will add evidence in the issue or in few scenarios the systems team member will be providing the evidence for the business DRI to confirm in the issue.
+#### [Business DRI] Business User Acceptance Testing Complete with Evidence :- The Business DRI should sign off after validating the provided solution works as expected as `definition of done`. The Business DRI will add evidence in the issue or in few scenarios the systems team member will be providing the evidence for the business DRI to confirm in the issue
 
 #### [Business Program Owner] Business Process Owner sign-off :- Business Process Owner pertaining to the team should provide signoff. The signoff matrix is below pertaining to the Team / Department,
 
@@ -100,14 +100,14 @@ Below is a list of the different technical skill sets found on the Sales System 
 |-----------------------------|--------------------------------------------------------------|-----------------------------------------------------------------|
 | Sheela Viswanathan - Senior Manager, Sales Systems  |Al Champagne - Senior Director, Enterprise Applications | Nabitha Rao - VP, IT  |
 
-#### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label :- Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue.
+#### [Systems DRI] Add the correct `SalesSystems::Deployed - #` GitLab Label :- Once the issue has been deployed, the issue should be tagged with one of the following deploy label following the [SDLC - Software Development Life Cycle](/handbook/sales/field-operations/sales-systems/#salesforcecom-change-management-processes-and-sdlc-software-development-life-cycle) by the sales systems team member assigned to the issue
 
 - SalesSystems::Deployed - 0 - No Changes
 - SalesSystems::Deployed - 1 - Settings Change
 - SalesSystems::Deployed - 2 - Configuration Change
 - SalesSystems::Deployed - 3 - Code Change
 
-#### [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code) :- If the issue ended up in label `SalesSystems::Deployed - 2 - Configuration Change` OR `SalesSystems::Deployed - 3 - Code Change` the systems member assigned to the issue should add the screenshot of the change set.
+#### [Systems DRI] Screenshot of Completed Change Set Attached and MR Attached (if Code) :- If the issue ended up in label `SalesSystems::Deployed - 2 - Configuration Change` OR `SalesSystems::Deployed - 3 - Code Change` the systems member assigned to the issue should add the screenshot of the change set
 
 ## Milestone Review and QA
 
@@ -137,14 +137,14 @@ Description: This issue is completed. There was no setting, configuration or cod
 1. The most most common use case are question or research issues.
 1. Data changes as part of a backfill for another operations team fall into this category.
 
-### Changes that cannot or are impractical to use a Change Sets (Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments):
+### Changes that cannot or are impractical to use a Change Sets (Field Level Security, Sharing Rules, Layout Changes, Picklist Value Changes, Approval Processes, Role Creation and Assignments)
 
 Label: `SalesSystems::Deployed - 1 - Settings Change`
 Description: This issue is completed. There was a setting change. Sign-off is required, No Change Set Used.
 
 1. These changes will need a special deploy window for the changes to be made by hand. Please coordinate with the Business DRI.
 
-### Changes that contain Salesforce.com Fields, Workflows, Validation Rules, or other non-code Configuration.
+### Changes that contain Salesforce.com Fields, Workflows, Validation Rules, or other non-code Configuration
 
 Label: `SalesSystems::Deployed - 2 - Configuration Change`
 Description: This issue is completed. There was a configuration change. Sign-off Required, Change Set screenshot required.
@@ -152,7 +152,7 @@ Description: This issue is completed. There was a configuration change. Sign-off
 1. These changes will always use a Salesforce.com Changeset that will be linked to the related issue.
 1. The team member who uploards the change set shall ask a different team member to review and deploy the change. (No Self Deploys).
 
-### Changes that contain Salesforce.com Apex Code, Apex Triggers, or Visualforce Pages:
+### Changes that contain Salesforce.com Apex Code, Apex Triggers, or Visualforce Pages
 
 Label: `SalesSystems::Deployed - 3 - Code Change`
 Description: This issue is completed. There was a code change. Sign-off Required, Change Set Screenshot required, Approved and attached MR required.
@@ -373,7 +373,7 @@ Generally, vendors either provide managed packages via the [Salesforce AppExchan
 
 Any package code is the responsibility of the vendor who produced it to support and troubleshoot.  If issues are encountered with the functionality, please contact the vendor in question to troubleshoot.  If there are changes recommended by the vendor to our environment, log an issue with Systems to track any changes which are requested by the vendor using one of the two processes below.
 
-##### System stability comes first!
+##### System stability comes first
 
 We (Sales Systems) reserve the right to remove or uninstall managed or unmanaged code at any time, if this package is determined to cause issues related to system performance or limitations.
 

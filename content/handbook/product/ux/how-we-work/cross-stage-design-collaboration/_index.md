@@ -24,6 +24,7 @@ Ask in the [#ux-coworking](https://gitlab.slack.com/archives/CLW71KM96) channel 
 ### When should we contact the other team(s)
 
 During the planning phase, if you can anticipate a certain amount of effort will be needed from other team members, it’s better to contact them as soon as possible. Suggestions:
+
 - Contact the other team(s) **before** problem validation if we can anticipate that they may want or be able to contribute to the research.
 - Contact the other team(s) **after** problem validation in relation to the research insights if a collaboration opportunity was uncovered during the research.
 If, for some reason, another relevant team was not involved before problem validation, make sure to involve them as early as possible in the design discovery and exploration process and provide opportunities for the other team(s) to provide feedback on the ideal future-state design, to avoid duplicative work.
@@ -31,6 +32,7 @@ If, for some reason, another relevant team was not involved before problem valid
 ### What kind of information would be helpful for teams for better cross-stage collaboration
 
 **At the problem validation stage**, the goal of the collaboration is to make sure the problems are the right ones to solve by all parties, so it’s recommended to have the following information:
+
 - Jobs To Be Done (JTBD) and personas
 - Related previous research
 - A research plan (or at least some research questions or a hypothesis to be answered)
@@ -43,6 +45,7 @@ If, for some reason, another relevant team was not involved before problem valid
 ### What needs to be agreed upon for better cross-stage design collaboration
 
 To execute effective collaboration, come to an agreement on the following with your team and relevant design partners:
+
 - Prioritization: It is ideal if all teams agree on when this problem needs to be addressed, and both the leading team and supporting team should plan together. However, if one team needs the feature sooner to solve confirmed user pain points, the team can be the DRI and move forward with an MVC. At the same time, keep the discussions ongoing for further design, research, and development plans for the next step.
 - Effort and timing: Based on the prioritization, all teams should agree on clear effort needs from each team and the time frame for the project.
 - Who leads the collaboration: There is no definite answer to who is leading the design and implementation. In general, consider the urgency of the need and the capacity of both the leading designer and the designer who provides support. For example, if two different teams will lead the implementation and design, the implementation should be at most six months after the design effort is done.

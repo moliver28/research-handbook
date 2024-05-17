@@ -85,7 +85,7 @@ At GitLab, we promote on a twice per year basis. This means that there is **one 
 | ---------- | ----- |
 | [Planning]({{< ref "promotions-transfers#planning" >}}) | Managers and leaders to review their respective teams to determine promotion readiness, business need, and timeline for the upcoming quarters and project promotions. |
 | [Calibration]({{< ref "promotions-transfers#calibration" >}}) | The calibration exercise is an opportunity for leaders (sync or async) to review projected promotions on a twice per year basis. This is an opportunity to create visibility and ensure consistency in who we are promoting and why. |
-| [Processing]({{< ref "promotions-transfers#process-for-managers-requesting-a-promotion" >}}) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse).
+| [Processing]({{< ref "promotions-transfers#process-for-managers-requesting-a-promotion" >}}) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse). |
 
 **Managers do not need to submit promotions that are part of the twice per year calibration process via Workday or Greenhouse. These will be processed by the PBP, Total Rewards, and People Connect team following calibration and Division leader approval.** Below is the timeline for FY24:
 
@@ -125,20 +125,54 @@ The [promotion document](https://docs.google.com/document/d/1nDkYGK2yhe8pD-lnMGm
 
 As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role.
 
-In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are:
+In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are: Promotion Summary, Values Alignment, Business Results, and Business Justification.
 
-1. Promotion Summary
-1. Values Alignment
-1. Business Results
-1. Business Justification
+##### Promotion Summary
+
+This section is a high-level summary (3-5 sentences) of achievements that demonstrate how the team member has the capability to perform at the next level.
+
+##### Values Alignment
+
+Values are at the core of everything we do at GitLab. It is essential to tie team member achievements and initiatives back to the values they support. Promotion documents should include 1-2 core points per value of evidence supporting values alignment.
+
+- Please review our guidance on [DIB behaviours](/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](/handbook/values/#diversity-inclusion)
+
+##### Business Results
+
+As our most important [value](/handbook/values/#hierarchy), results are at the core of everything we do.
+
+Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member’s performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0).
+
+For each result, please use the following structure:
+
+- Project/accomplishment
+    - Example: Creation of the company-wide Org Design Playbook
+- Team member role
+    - Example: Lead the playbook creation from inception to publishing in the handbook in partnership with two other People Business Partners
+- Brief (2-3 sentence) description of project/accomplishment and business relevance/importance
+    - Example: One of our [FY25 Yearlies](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies) is related to driving a high performance culture. A key aspect of high performance culture is our ability to manage through change in an efficient and results-oriented way. Organizational design shifts and realignments can have an adverse impact on team member's velocity in delivering results if we are not aligned on an efficient, thorough, and team member oriented approach to execution.
+- Project/accomplishment impact
+    - Example: The creation of the Org Design Playbook outlines a repeatable process for any organizational change across the company. It creates a collaborative, team member oriented, communication centric, and results driven format that leaders and People Business Partners can leverage to execute and lead through change. This directly ties to building a high performance culture as a key resource for change management, execution, and stakeholder alignment.
+- Business result
+    - Example: Since the implementation of the Org Design Playbook we also implemented a scoring system that allows us to measure the success of the changes we execute. We have seen an increase in the overall average score since the playbook's creation.
+
+Business relevance refers to why the project/accomplishment is important to the company (I.E. related to an OKR? a key investment theme? etc.). Impact refer to how the project/accomplishment will help drive us in the direction we need to go as an organization. Business result refers to the direct result seen from the team members' contribution.
+
+We ask that the structure above be followed for business results consistently to ensure that we:
+
+1. **Highlight impact**: Directly connect our accomplishments to business goals and ties impact and role in projects to next level performance expectations.
+2. **Cross-functionally understandable**: The story-telling structure facilitates more cross-functional understanding of what the team member did, why it matters, and the impact it drove for the business.
+3. **Add objectivity**: Adds objectivity through focus on the contribution, impact, and relevance, in a consistent format, decreasing opportunity for unconscious bias.
+
+##### Business Justification
+
+GitLab considers both individual readiness and business need when we think about promotions. Managers are responsible for completing the business justification section of the promotion document to include what justifies the need for the team members skills and work to be completed at the higher level. Possible business justifications typically include: more complex projects, additional scope of work required as the team scales, and/or additional responsibility due to XYZ business reason.
 
 When creating promotion documents, remember:
 
 - Promotions are based on performance, not growth potential.
-- GitLab considers both individual readiness and business need when we think about promotions. Managers are responsible for completing the business justification section of the promotion document to include what justifies the need for the team members skills and work to be completed at the higher level. Possible business justifications typically include for example: more complex projects, additional scope of work required as the team scales, additional responsibility due to XYZ business reason.
 - Promotion documents should not exceed 3 pages total.
 - Please reference the [job frameworks]({{< ref "structure#job-frameworks" >}}) in the handbook for guidance pertaining to expectations at the various levels at GitLab. The job levels should help guide data chosen to be included in the promotion document, in addition to discussion during calibration sessions.
-- Please review our guidance on [DIB behaviours](https://handbook.gitlab.com/handbook/values/#diversity-inclusion--belonging-competency) aligned to each job level which provides examples of how to demonstrate our [Diversity Inclusion & Belonging Value](https://handbook.gitlab.com/handbook/values/#diversity-inclusion)
 - Please be sure that the promotion document has “comment” access enabled to ‘Anyone at GitLab who has the link!’ to ensure the review and approval process is not delayed. Please delete the instructions associated with each section of the promotion document below before submitting the promotions.
 - If you find yourself struggling to articulate your accomplishments, your manager can help support you and provide feedback. You can also consider reaching out to stakeholders for feedback, or meeting with a trusted colleague or mentor to brainstorm.
 - It should not include Talent Assessment ratings, such as "Exceeding Performance", as these must remain confidential and only discussed in confidential settings such as [Promotion Calibration]({{< ref "promotions-transfers#calibration" >}}), talent assessment calibrations, and within reporting structures.
@@ -153,7 +187,7 @@ During calibration sessions, leaders should be prepared to discuss:
 1. Development areas: The promotion document outlines strengths, but we also want to highlight how we will support a team member's opportunity to develop at the next level.
 1. Cross-functional feedback: As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
 1. Performance against with the current and (some) next level expectations aligned with the [job framework]({{< ref "structure#job-frameworks" >}}).
-1. [Competencies](/handbook/competencies/#list): Where available and applicable.
+1. [Competencies](/handbook/people-group/competencies/#list): Where available and applicable.
 1. Most recent talent assessment (and any relevant changes since).
 
 Calibration should be aligned to the following levels of leaders and people managers:
@@ -202,6 +236,7 @@ Please review the [Compensation Program Budget]({{< ref "compensation-review-cyc
 ## Promotions Processed Outside of the Twice Per Year Promotion Calibration Process
 
 Certain types of promotions can be handled outside of the Twice Per Year Promotion Calibration process:
+
 1. Application to a new, approved headcount in Greenhouse:
     - Internal candidates go through an interview process as defined further in the Greenhouse Promotions/Transfers section.
 1. Promotions stemming from individuals in [interim/acting roles]({{< ref "promotions-transfers#interim-and-acting-roles" >}}).
@@ -297,7 +332,7 @@ At GitLab, we ensure that promotions are impactful from the compensation perspec
 ### Promotion Compensation Guidelines
 
 - When a team member is promoted from one level to the next in the same job family, it is typical to be brought between the minimum and median of the compensation range.
-- The Total Rewards Team typically recommends a 5%-10% increase as part of the promotion to cash compensation. Additional equity is fixed based on [equity for promotions](/handbook/stock-options/#promotions).
+- The Total Rewards Team typically recommends a 5%-10% increase as part of the promotion to cash compensation. Additional equity is fixed based on [equity for promotions](/handbook/total-rewards/stock-options/#promotions).
     - Benchmarking data relays that typically [4-8% of your population will be promoted](https://www.shrm.org/ResourcesAndTools/business-solutions/Documents/Human-Capital-Report-All-Industries-All-FTEs.pdf) annually with an average of a [4.1% increase to base salary](https://worldatwork.org/media/CDN/dist/CDN2/documents/pdf/resources/sbs/SBS2022-23_TopLevelData.pdf).
 - Any promotions with the following conditions will require additional justification to the Total Rewards team and executive approver. Please add the business justification as a comment in the promotion worksheet.
     1. An increase of more than 10%
@@ -423,13 +458,12 @@ In the event that a team member is working in an acting capacity in a role that 
   **Note:** If the Hiring Manager and acting team member mutually agree to move forward with consideration for the role, the position is at the same or lower [job grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) as their current role, the position is within the same division, and the position is not a people management position, a formal interview process may not be required. If the Hiring Manager prefers to not include an interview process, they must connect with their aligned People Business Partner (PBP) to ensure they are supportive. This interview exception possibility exists due to the unique experience team members in acting positions have to demonstrate their ability to be successful in the position over time.
 1. After the team member officially moves into the open role, a backfill position will be created.
 
-
 ## Demotions
 
 Demotions are not always considered a step backwards.  It may be an opportunity for a team member to acquire new skills or to move to a role that more closely aligns with their area of interest. To demote one of your direct reports, a manager should follow the following steps:
 
 - If the demotion is due to performance, the manager should discuss any performance issues or possible demotions with Team Member Relations.
-- Demotions should also include a review of [compensation]({{< ref "compensation" >}}) and [equity](/handbook/stock-options/#equity-incentive-plans) in the google doc. Managers should consult with Total Rewards team on these topics; and of course always adhere to the Global Compensation Calculator.
+- Demotions should also include a review of [compensation]({{< ref "compensation" >}}) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) in the google doc. Managers should consult with Total Rewards team on these topics; and of course always adhere to the Global Compensation Calculator.
 - Once agreement is reached on the demotion and changes (if any) in Team will act as the point of escalation to have any demotion reviewed and approved by the Compensation Group once the relevant google doc is complete.
 - Once approved, the manager informs the individual. Please cc 'peopleops@gitlab.com'  once the individual has been informed, so the changes can be processed in the relevant administrative systems. A [Job Change Letter](https://docs.google.com/document/d/12AscsmP3qnTqCC9h6cx1UpIVrnZUfoN6AvfMjf8guyg/editm) will then be created.
 - The People Connect team should then follow the process listed under the [For People Connect Team: Processing Promotions & Compensation Changes]({{< ref "promotions-transfers#for-people-connect-team-processing-promotions--compensation-changes" >}}).
@@ -447,11 +481,12 @@ Job title specialties are used to indicate a stage, group and/or a specific focu
 Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they thing through job title specialties to ensure a consistent approach.
 
 To easily access a report for what current job title specialties are for your team, you can follow these steps:
+
 - Log into Workday
 - Type "My Team Job Title Specialties" in the search bar
 - Click "OK" for your organization
 
-#### For Development, Infrastructure, and Quality departments:
+#### For Development, Infrastructure, and Quality departments
 
 - Who should have a specialty:
     - ICs: Job grade 11 and below should  should have Stage and/or primary group (if applicable)
@@ -465,7 +500,7 @@ To easily access a report for what current job title specialties are for your te
         - Note: In situations where there are two groups, pick the primary group.
     - Ensure all specialty information is in the `Job Title Specialty` field as opposed to the `Job Title Specialty (Multi-Select)` field.
 
-#### For Customer Support department:
+#### For Customer Support department
 
 - Who should have a specialty:
   - ICs: Job Grade 9 and below to indicate the focus of the role being Global, Federal or Readiness (if applicable)
@@ -537,7 +572,7 @@ For more information please visit our [Internal Hiring Process](/handbook/hiring
 - If the current manager needs to backfill the role in Engineering they should follow [this process](/handbook/engineering/#rd-new-headcount-ghpid-request-backfill--transfer-process). For other divisions they should work with their department leader, recruiter, and the Finance Business Partner to confirm that a backfill is available. When the transfer is confirmed, the current manager should work with recruiter and Finance Partner to obtain a [GHP ID](/handbook/finance/financial-planning-and-analysis/#headcount-and-the-talent-acquisition-single-source-of-truth) for the backfill and open the role in Greenhouse.
 - Before the offer is made the recruiter will confirm with the team member and the gaining manager that they have indeed reached out to the current manager. They will discuss the new opportunity and that an offer will be made to the team member.
 - Talent Acquisition team will ensure that, if applicable, the position has been posted for at least three business days before an offer is made.
-- [Compensation]({{< ref "compensation" >}}) and [equity](/handbook/stock-options/#equity-incentive-plans) may be reviewed during the hiring process to reflect the new level and position.
+- [Compensation]({{< ref "compensation" >}}) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) may be reviewed during the hiring process to reflect the new level and position.
 - If after interviews, the manager and the GitLab team member want to proceed with the transfer, internal references should be checked. While a manager cannot block a transfer, there is often good feedback that can help inform the decision. It is advised that the GitLab team member talk to their manager to explain their preference for the new team and to understand the feedback that will be given to the new manager. It should also be noted, that performance requirements are not always equal across roles, so if a GitLab team member struggles in one role, those weakness may not be as pronounced in the new role, and vice versa.
 - The Recruiter and Hiring Manager will review the offer details with the internal candidate and a [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) will be sent out by the Total Rewards team following the hiring process
 - If the team member is transferred, the new manager will announce in the `#team-member-updates` Slack Channel and begin any additional onboarding or offboarding necessary. Before the new manager makes the transfer announcement they must confirm with the team members current manager that the current team has been informed about the team members new position and transfer.
@@ -557,7 +592,7 @@ If you are interested in another position within your department and the manager
 - If the vacancy is advertised on the [jobs page](https://about.gitlab.com/jobs/all-jobs/), to be considered, you must submit an application. If there is no vacancy posting, one must be created and shared in the `#new-vacancies` channel so that everyone has the opportunity to apply and be considered.
 - The manager will assess the function requirements; each level should be defined in the vacancy description.
 - If approved, your manager will need to obtain approval from their manager, through the relevant chain of command.
-- [Compensation]({{< ref "compensation" >}}) and [equity](/handbook/stock-options/#equity-incentive-plans) will be reevaluated to ensure it adheres to the compensation calculator. Do not send the proposal until this part is included.
+- [Compensation]({{< ref "compensation" >}}) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) will be reevaluated to ensure it adheres to the compensation calculator. Do not send the proposal until this part is included.
 - If the team member is transferred, the manager will announce in the `#team-member-updates` Slack channel and begin any additional onboarding or offboarding necessary.
 
 ## Internal Transfer Start Date
@@ -605,88 +640,13 @@ While the [Career Mobility Issue](/handbook/people-group/promotions-transfers/#c
     - Click the Business Process with `Stock Grant` in the title and effective date of the promotion.
     - This will open a new page to view the event. Scroll down to the `Stock Grant Details` table to see the proposed amount.
 
-**Please Note**: Equity grants require board approval. When communicating, managers should highlight that this equity amount is the proposed amount, but will not be [officially approved](/handbook/stock-options/#grant-levels) until the next [board meeting](/handbook/board-meetings/#board-meeting-schedule).
+**Please Note**: Equity grants require board approval. When communicating, managers should highlight that this equity amount is the proposed amount, but will not be [officially approved](/handbook/total-rewards/stock-options/#grant-levels) until the next [board meeting](/handbook/board-meetings/#board-meeting-schedule).
 
 1. The `new manager` should post the announcement in the `#team-member-updates` Slack channel. This should ideally happen (timezone permitting) on the **same day that the candidate signs their** [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}).
 1. For cases where announcing on the same day the Job Change Letter is signed is not possible, the announcement should be no more than 24 hours after the candidate has signed.
 1. Following this initial announcement, the `current manager` can proceed with making this announcement in other relevant team-specific channels.
 
 NOTE: Although the Total Rewards and People Connect Team may have visibility into promotions or transfers due to the administration of updating information as part of their roles, they should not communicate with the team member about their promotion/transfer until an announcement has been made._
-
-### Team Alignment Changes
-
-Company priorities can change and occasionally team members may be asked to transfer to high priority initiatives or projects within other teams. While team alignment changes can occur in all areas of the business, they occur most frequently in R&D (Product and Engineering divisions), which is why most of the documentation below is R&D-centric.
-
-#### Types of Team Alignment Changes
-
-There are several types of Team Alignment Changes, including [Global Prioritization](/handbook/product/product-processes/#prioritize-global) changes, and [Engineering Allocations](/handbook/product/product-processes/#engineering-allocation), all of which are ways to ensure the organization is prioritizing and delivering effectively.
-
-The different types of group alignment changes vary in length, purpose, DRI, and overall change impact.
-
-#### Team Alignment Change Principles
-
-The core Team Alignment Change Principles are: Communication, Collaboration, and Compliance.
-
-##### Communication
-
-For all changes, early and ongoing communication with impacted team members and their respective managers is key to ensuring group alignment changes are successful. Managers should be able to clearly articulate the business need and benefits from the change, as well as position team focus and roadmap that gives affected teams an understanding of how their future contributions will benefit GitLab.
-
-Helpful artifacts can include:
-
-- Links to Team handbook page outlining goals and vision
-- Roadmap, issue backlog, and links to key epics
-- Staffing allocation plans
-- Expected impact or success criteria
-
-##### Collaboration
-
-Close cross-functional collaboration between Product and Engineering teams are critical in ensuring team member alignment changes are successful. Both groups should have a full understanding of the purpose, timeline, and actions stemming from the alignment change that they can clearly articulate to their teams and stakeholders to support the change management process. Involving the People Group and Finance (if there is budgetary impact) is also essential in ensuring a smooth transition and overall process.
-
-Consideration should be given to impacts on [product category maturity](https://about.gitlab.com/direction/maturity/) commitments for teams with team members that are moving to new groups. When possible, change should respect the [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline) to allow impacted teams to complete existing work and ensure smooth and efficient transitions.
-
-##### Compliance
-
-The Team Alignment Change process below serves to ensure that DRIs are consulting with their [aligned People Business Partner (PBP)](/handbook/people-group#people-business-partner-alignment-to-division) at appropriate touch points during the team alignment process. The PBP can help determine whether additional involvement from Legal and/or People Operations team is necessary. Depending on the team alignment change type, Job Change letters may be a necessary part of ensuring compliance during team member alignment changes. The PBP can help determine if additional steps like these are or are not necessary, which is why it is essential that they are looped in early.
-
-#### Team Alignment Change Process
-
-Regardless of the change type, the following steps should always be followed to ensure appropriate parties are aware of changes. Engaging your PBP early in the dicussion related to organizational design will ensure you have a thorough strategy in place for the change. Your PBP can also connect relevant information from across the business where appropriate.
-
-1. Inform the aligned People Business Partner (PBP) early. In addition to engaging the appropriate teams to review for compliance, PBPs should be notified of all organizational changes as the group's partner for organizational design.
-1. Ensure the PBP reviews the changes and provides input. The PBP will ask the following questions to understand the scope of the change and team member impact:
-    - Is there any team member compensation impact?
-    - Is there any other budgetary impact or headcount trade offs?
-    - Is there any job title impact? (not job title specialty, but job title I.E. `Frontend Engineer` changed to `Backend Engineer`)
-    - Are any team members changing managers?
-    - How long will the change be in effect?
-1. Depending on the response to the questions above, the PBP will loop in other groups if needed (I.E. People Operations and/or Legal). Our Legal team only needs to be involved in the process outlined below if: 1) the change is permanent (as opposed to a temporary change), and/or 2) more than just job title specialty and manager is changing (I.E. there is a change to compensation or job title).
-1. The team alignment change DRI is responsible for looping in your [Finance Business Partner](/handbook/finance/financial-planning-and-analysis/#our-team) if there are any budgetary changes or headcount tradeoffs associated with the realignment to ensure awareness and ability to fund.
-
-##### Realignment Process
-
-We have process outlined for our various [Global Prioritization](/handbook/product/product-processes/#prioritize-global) team member alignment changes outlined in addition to [Engineering Allocations](/handbook/product/product-processes/#engineering-allocation) on the Product Processes page.
-
-Realignments are used when a permanent assignment to a team is required to resolve ongoing challenges. This has the highest impact to team members and should be considered if other options cannot achieve the desired goal. While the processes that only apply to R&D are listed in the Product Processes page, the Realignment process is outlined below as it could be applied to other departments and divisions at GitLab.
-
-The process below outlines the process for [Realignments](/handbook/product/product-processes/#prioritize-global) specifically:
-
-1. Select a DRI to coordinate the overall realignment process.
-1. Loop in your aligned People Business Partner (PBP) and ensure the `Team Alignment Change Process` steps above are followed.
-1. Document the realignment decision in a confidential issue with details such as impacted parties and reasoning for realignment.
-1. Communicate the reassignment decision to affected team members. Emphasize this is not about poor performance, but rather a way to shift high value individuals to the highest priorities.
-1. Encourage individuals considering transfers to meet with hiring managers to get more information about the roles they are interested in.
-1. Ask for and record each individual's role transfer preference. Also ask for their second choice and third choice.
-1. After individuals give their preference, the skills/requirements of the roles will be matched to the skills of the individuals. For example: level, product/technical skills, potentially soft skills.
-1. Ask hiring manager to approve transfer. If they don't approve, review the individual's first or second choice.
-1. Once choices are finalized, approved, and rationale is documented, the current manager should communicate the decision directly with individual impacted team members.
-1. The current manager follows the standard process for [updating job information in Workday]({{< ref "promotions-transfers#manager-self-service-in-workday-job-information-change" >}}). *Before communicating company-wide, all changes should be reflected in Workday.*
-1. Ensure [job title specialty]({{< ref "promotions-transfers#job-title-specialty-changes" >}}) is updated in Workday. This ensures our investment reporting data and metrics remain accurate.
-1. **R&D specific**: Move the confidential issue to the Product project, and label it with ~"realignment".
-1. **R&D specific**: Product leader announces the realignment in #product (for smaller realignments) or #company-fyi (for larger realignments)
-1. The new manager follows the steps outlined for announcing transfers.
-1. Managers can leverage our [realignment transition template](https://gitlab.com/gitlab-com/team-member-epics/employment/-/blob/master/.gitlab/issue_templates/realignment_transition_template.md) to ensure that both logistical changes and team members experience touch points occur.
-1. After the realignment, the DRI opens a retrospective issue to gather feedback from affected teams in order to improve this process.
-1. After the realignment, the DRI makes the realignment issue public and closes it. This is because only planned realignments are not public. In cases where the issue does contain public information the DRI may choose to leave the issue confidential with a comment explaining the reason.
 
 #### For People Success & Talent Acquisition Team
 
@@ -704,6 +664,7 @@ A [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-oper
 Individual contributors moving into a Management level may or may not need their access to be reviewed, please check-in with your current and new manager to confirm this step. If access should be updated follow the AR process documented [here](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 Or, if the team member already has access to the systems and tools needed, the manager can open 'Becoming a GitLab Manager' and 'Interview Training' issues that are housed within the [Training Project](https://gitlab.com/gitlab-com/people-group/Training/-/issues/?sort=created_date&state=opened&first_page_size=100) in GitLab.
+
 - To open the 'Becoming a GitLab Manager' and 'Interview Training' issues visit the Training project in GitLab -> Issues -> New Issue.
 - Under 'Description' select the specified project template and then select Create Issue at the bottom.
 
@@ -747,22 +708,22 @@ This section describes the steps required for promoting or transferring employee
 
 **Note** These steps are in addition to all other steps required for promotions and transfers in partnership with the People team.
 
-#### For the Current Sales Managers:
+#### For the Current Sales Managers
 
 1. Determine the right path for the promotion and/or transfer. Our [promotion process]({{< ref "promotions-transfers" >}}) can be found in the handbook. For transfers, please confirm if there is an open role with your Sales recruiting team. Ensure necessary stakeholders and processes are followed in advance of processing a promotion and/or transfer.
 1. Open a [Territory Change Request issue](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/issues/new?issuable_template=Territory_Change_Request) to inform Sales Operations of the change so they can update Salesforce and the Territory Mapping SSOT.
 
-#### For Sales Recruiting:
+#### For Sales Recruiting
 
 1. Open a [Utilizing Backfill Headcount issue](https://gitlab.com/gitlab-headcount/sales-headcount/-/blob/master/.gitlab/issue_templates/utilizing_backfill_headcount.md) to inform Sales Finance of the promotion/transfer so they can update Adaptive.
 1. Tag the appropriate members of the Sales Finance and Sales Commissions team as indicated in the 'Approval' section of the issue template.
 
-#### For Sales Finance:
+#### For Sales Finance
 
 1. Update the team member's profile in Adaptive to account for the promotion/transfer.
 1. Partner with leadership and the People team on whether we need to open a requisition to backfill the empty role from which the team member was promoted/transferred.
 
-#### For Sales Commissions:
+#### For Sales Commissions
 
 1. Every month, identify new hires, promotions, and transfers in Workday.
 1. Create a monthly issue to notify the Sales Strategy and Analytics team of headcount changes. The Sales Strategy and Analytics team assigns quotas[^1] to sales employees within 4 weeks of the employee's hire/promotion/transfer date.

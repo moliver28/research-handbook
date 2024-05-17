@@ -5,13 +5,13 @@ description: A description of programs and resources for team members to access 
 
 ## Introduction
 
-At GitLab, team members have access to the [Growth and Development Fund](https://handbook.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) to access external resources to develop their career.
+At GitLab, team members have access to the [Growth and Development Fund](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit) to access external resources to develop their career.
 
 GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. A course/program is considered to be included in the calendar year in which the course/program is paid/reimbursed (which should also be the same calendar year in which it ends). If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous calendar year.
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not “take away” budget from other engineers. Eligibility is managed on an individual basis. Eligibility for the fund is part of each GitLab team member’s Total Rewards package.
 
-The Growth and Development fund is managed by the [Learning and Development team](https://handbook.gitlab.com/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
+The Growth and Development fund is managed by the [Learning and Development team](/handbook/people-group/learning-and-development/#learning--development-team). For any questions, please contact a team member directly, or reach out in the #learninganddevelopment slack channel.
 
 ## Growth and Development Fund Eligibility
 
@@ -21,7 +21,6 @@ To be eligible for the Growth and Development Fund, you must meet the following 
 - Team members should be meeting performance expectations in their current role. (Not on a Performance Improvement Plan, or receiving remedial coaching regarding underperformance)
 - If you are a part-time GitLab team member, you may still be eligible to participate in this fund but your reimbursement might be reduced.
 - Team members who are currently on "leave" status will not be eligible to use the growth and development fund.
-
 
 ## How to Apply for the Growth and Development Fund
 
@@ -44,6 +43,7 @@ The application process is visible internally. If there is any reason that you w
 **Step 3:** Request approval on the issue. Depending on the cost of the application, different approval levels are required. In all instances, your direct manager should be the first approver in the issue.
 
 Cost Tiers Approval:
+
 - Manager Approval (with VP's made aware on the issue): $0-$1,000
 - Manager + VP Approval: $1,000.01 - $5,000
 - Manager + eGroup Approval for any spend $5,000.01 - $10,000 (Apart from Sales, where VPs can approve $5,000.01 - $10,000 spend)

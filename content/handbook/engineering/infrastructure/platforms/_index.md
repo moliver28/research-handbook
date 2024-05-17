@@ -37,7 +37,7 @@ We collaborate on the section level items in the [#s_platforms](https://gitlab.s
 
 For communication between managers, we have [#g_saas_platforms_leads](https://gitlab.slack.com/archives/C010QV6RRB3) channel. Everyone interested is welcome to join this channel if they find the topics interesting. We also have [a confidential managers channel](https://gitlab.slack.com/archives/G010N73CXJ6) that is used to discuss staffing issues affecting all teams that require additional coordination.
 
-Queries to Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution. 
+Queries to Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
 
 Once per week, we hold a `Platforms leads call` to align on action items related to career development, general direction or answer any ongoing questions that have not been addressed async. The call is cancelled when there are no topics added on the morning of the call.
 
@@ -78,9 +78,9 @@ The Platforms section builds and maintains various tools to help deploy, operate
 
 When writing OKRs, the guidance is that:
 
-* Objective is defined as “**What** do you want to achieve?”
-* Key Results is defined as “How will you know **when** you’ve achieved the objective?”
-* As part of a KR, you can also have a sub point - which will likely tie to an epic. This would be an “Initiative”, defined as “**How** are you going to achieve your key result?”
+- Objective is defined as “**What** do you want to achieve?”
+- Key Results is defined as “How will you know **when** you’ve achieved the objective?”
+- As part of a KR, you can also have a sub point - which will likely tie to an epic. This would be an “Initiative”, defined as “**How** are you going to achieve your key result?”
 
 The OKR Description should have the following format:
 

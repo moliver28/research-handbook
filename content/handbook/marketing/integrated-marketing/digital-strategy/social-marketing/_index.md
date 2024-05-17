@@ -54,7 +54,7 @@ twitter_creator: gitlab
 [2022 Remote Playbook](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/5532){:.btn .btn-purple}
 [2022 Remote Work Report](https://gitlab.com/groups/gitlab-com/marketing/corporate_marketing/-/epics/193){:.btn .btn-purple}
 
------
+---
 
 ## Long term Social Media Strategy (Over the next 3-5 years)
 

@@ -23,7 +23,6 @@ You may wish to use the UX Cloud Sandbox if you are interested in:
 - [Validating solutions](/handbook/product/ux/ux-research/solution-validation-and-methods/) that have already been released into the product
 - Running [problem validation studies](/handbook/product/ux/ux-research/problem-validation-and-methods/)
 
-
 ### Access to the UX Cloud Sandbox
 
 To gain access to the UX Cloud Sandbox, the first step is to generate credentials. You can self-serve on that by [following the steps on this handbook page](/handbook/customer-success/demo-systems/#access-shared-omnibus-instances) under ‘Access Shared Omnibus Instances’.

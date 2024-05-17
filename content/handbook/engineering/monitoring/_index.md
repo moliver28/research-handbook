@@ -14,7 +14,7 @@ The Error rate measures the percentage of requests that fail due to an error (us
 A service is considered available when:
 
 1. The Apdex score of the service is _above_ its Service Level Objective ([SLO]),
-1. *AND* The error rate is _below_ its Service Level Objective ([SLO]).
+1. _AND_ The error rate is _below_ its Service Level Objective ([SLO]).
 
 An example of available `web` service; within a 5 minute period:
 
@@ -53,7 +53,7 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
-| 2024 April | 99.95% | |
+| 2024 April | 99.96% | |
 | 2024 March | 100% | |
 | 2024 February | 99.86% | |
 | 2024 January | 100% | |
@@ -104,25 +104,25 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 ## Related Pages
 
-- [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
-- [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
-- [GitLab Performance Monitoring Documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/#gitlab-performance-monitoring)
-- [Performance of the Application](/handbook/engineering/performance/)
+* [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
+* [GitLab.com Settings](https://docs.gitlab.com/ee/user/gitlab_com/)
+* [GitLab Performance Monitoring Documentation](https://docs.gitlab.com/ee/administration/monitoring/performance/#gitlab-performance-monitoring)
+* [Performance of the Application](/handbook/engineering/performance/)
 
 ## Related Videos
 
 These videos provide examples of how to quickly identify failures, defects, and problems related to servers, networks, databases, security, and performance.
 
-- [Monitoring Tools playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KpQMEbnXjeQUA22SZtz7J0e) *(requires GitLab Unfiltered YouTube account access)*
-- [Visualization Tools playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrDIsPQ68htUUbvCgt9JeQj) *(requires GitLab Unfiltered YouTube account access)*
+* [Monitoring Tools playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KpQMEbnXjeQUA22SZtz7J0e) _(requires GitLab Unfiltered YouTube account access)_
+* [Visualization Tools playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrDIsPQ68htUUbvCgt9JeQj) _(requires GitLab Unfiltered YouTube account access)_
 
 ## Monitoring
 
 ### Pingdom Statistics
 
 We use our apdex based measurements to report official availability (see above). However, we also have some public pingdom tests for a representative view of overall performance of GitLab.com. These are available at [https://stats.pingdom.com](http://stats.pingdom.com/81vpf8jyr1h9). Specifically, this has the availability and latency of reaching
-   - a [GitLab.com issue](). For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
-   - [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
+   * a [GitLab.com issue](). For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
+   * [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
 
 ### Main Monitoring Dashboards
 
@@ -132,9 +132,9 @@ We collect data using InfluxDB and Prometheus, leveraging available exporters li
 
 We have 3 prometheus clusters: main prometheus, prometheus-db, and prometheus-app. They provide an interface to query metrics using [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/). Each prometheus cluster collects a set of related metrics:
 
-- [main prometheus](https://prometheus.gprd.gitlab.net/graph): It collects various [metrics](https://prometheus.gprd.gitlab.net/targets) such as consul and haproxy.
-- [prometheus-db](https://prometheus-db.gprd.gitlab.net/graph): It collects Postgresql database related [metrics](https://prometheus-db.gprd.gitlab.net/targets)  such as pg-bouncer exporter and postgres-exporter.
-- [prometheus-app](https://prometheus-app.gprd.gitlab.net/graph): It collects application related [metrics](https://prometheus-app.gprd.gitlab.net/targets).
+* [main prometheus](https://prometheus.gprd.gitlab.net/graph): It collects various [metrics](https://prometheus.gprd.gitlab.net/targets) such as consul and haproxy.
+* [prometheus-db](https://prometheus-db.gprd.gitlab.net/graph): It collects Postgresql database related [metrics](https://prometheus-db.gprd.gitlab.net/targets)  such as pg-bouncer exporter and postgres-exporter.
+* [prometheus-app](https://prometheus-app.gprd.gitlab.net/graph): It collects application related [metrics](https://prometheus-app.gprd.gitlab.net/targets).
 
 #### Thanos
 
@@ -142,18 +142,18 @@ We have 3 prometheus clusters: main prometheus, prometheus-db, and prometheus-ap
 
 #### [Monitoring Infrastructure](https://dashboards.gitlab.net)
 
-- Private GitLab account is required to access
-- Highly Available setup
-- Alerting feeds from this setup
-- Separated from the public for security and availability reasons, they should have exactly the same graphs after we deprecate InfluxDB.
+* Private GitLab account is required to access
+* Highly Available setup
+* Alerting feeds from this setup
+* Separated from the public for security and availability reasons, they should have exactly the same graphs after we deprecate InfluxDB.
 
 #### Adding Dashboards
 
 To learn how to set up a new graph or dashboard using Grafana, take a look at the following resources:
 
-- [Guide to setting up Grafana dashboards by Grafana](http://docs.grafana.org/guides/getting_started/)
-- [YouTube video showing how to set up a dashboard](https://www.youtube.com/watch?v=sKNZMtoSHN4&index=7&list=PLDGkOdUX1Ujo3wHw9-z5Vo12YLqXRjzg2)
-- The [Grafana repo](https://gitlab.com/gitlab-org/grafana-dashboards) where we keep an archive of InfluxDB dashboards created in Grafana. Use these to see details in the file structure, but note that the repo is truly an archive (nothing populates _from_ it) and can be out of date.
+* [Guide to setting up Grafana dashboards by Grafana](http://docs.grafana.org/guides/getting_started/)
+* [YouTube video showing how to set up a dashboard](https://www.youtube.com/watch?v=sKNZMtoSHN4&index=7&list=PLDGkOdUX1Ujo3wHw9-z5Vo12YLqXRjzg2)
+* The [Grafana repo](https://gitlab.com/gitlab-org/grafana-dashboards) where we keep an archive of InfluxDB dashboards created in Grafana. Use these to see details in the file structure, but note that the repo is truly an archive (nothing populates _from_ it) and can be out of date.
 
 Need access to add a dashboard? Ask any team lead within the [infrastructure team](/handbook/company/team/?department=infrastructure-department).
 
@@ -205,16 +205,16 @@ One can view how we log our infrastructure as outlined by our
 
 To learn how to create Kibana dashboards use the following resources:
 
-- [Kibana Dashboard tutorial from Elastic.com](https://www.elastic.co/guide/en/kibana/current/index.html)
-- [Building a dashboard](https://www.elastic.co/guide/en/kibana/current/dashboard.html)
-- [Using TimeLion for time series visualization](https://www.elastic.co/guide/en/kibana/current/timelion.html)
+* [Kibana Dashboard tutorial from Elastic.com](https://www.elastic.co/guide/en/kibana/current/index.html)
+* [Building a dashboard](https://www.elastic.co/guide/en/kibana/current/dashboard.html)
+* [Using TimeLion for time series visualization](https://www.elastic.co/guide/en/kibana/current/timelion.html)
 
 ## GitLab Profiling
 
 ### Go services
 
 [Stackdriver Continuous Go Profiling](https://cloud.google.com/profiler) can be used to have a better
-understanding of how our Go services perform and consume resources. *(requires membership of the Google Workspace `stackdriver-profiler-sg` group)*
+understanding of how our Go services perform and consume resources. _(requires membership of the Google Workspace `stackdriver-profiler-sg` group)_
 
 It provides a simple UI on GCP with CPU and Memory usage data for:
 
@@ -234,8 +234,8 @@ We also did a series of deep dives by pairing with the development teams for eac
 ## Instrumenting Ruby to Monitor Performance
 
 Blocks of Ruby code can be "instrumented" to measure performance.
-  - [Documentation of instrumentation](https://docs.gitlab.com/ee/development/service_ping) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/service_ping/metrics_instrumentation.html)
-  - An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
+  * [Documentation of instrumentation](https://docs.gitlab.com/ee/development/service_ping) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/service_ping/metrics_instrumentation.html)
+  * An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 
 [Apdex]: https://en.wikipedia.org/wiki/Apdex
 [Error rate]: https://en.wikipedia.org/wiki/Bit_error_rate
@@ -249,9 +249,9 @@ Blocks of Ruby code can be "instrumented" to measure performance.
 
 Error tracking service.
 
-- [Documentation][sentry_doc]
-- [How to investigate a 500 error - Sentry / Kibana Demo][demo]
-- [Diagnose Errors on GitLab.com - Searching Sentry][sentry_500]
+* [Documentation][sentry_doc]
+* [How to investigate a 500 error - Sentry / Kibana Demo][demo]
+* [Diagnose Errors on GitLab.com - Searching Sentry][sentry_500]
 
 [sentry_doc]: https://docs.gitlab.com/ee/operations/error_tracking.html
 [sentry_500]: /handbook/support/workflows/500_errors/#searching-sentry
@@ -274,9 +274,9 @@ Steps for creating the alerts:
 
 Tool that helps you monitor, analyze and optimize your website speed and performance.
 
-- [Documentation][speed_doc]
-- [GitLab.com Sitespeed Measurement Repository][sitespeed_repo]
-- [How we used sitespeed.io to measure Frontend performance][sitespeed]
+* [Documentation][speed_doc]
+* [GitLab.com Sitespeed Measurement Repository][sitespeed_repo]
+* [How we used sitespeed.io to measure Frontend performance][sitespeed]
 
 [sitespeed]:  https://www.youtube.com/watch?v=6xo01hzW-f4
 [sitespeed_repo]: https://gitlab.com/gitlab-org/frontend/sitespeed-measurement-setup/

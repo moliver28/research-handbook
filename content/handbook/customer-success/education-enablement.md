@@ -35,7 +35,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### DevOps Sections
 
-***
+---
 
 ##### Foundations Level
 
@@ -45,7 +45,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Manage Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -63,7 +63,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Plan Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -83,7 +83,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Create Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -110,7 +110,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Verify Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -144,7 +144,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Package Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -163,7 +163,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Release Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -189,7 +189,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Configure Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -209,7 +209,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Monitor Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -226,7 +226,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Secure Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -245,7 +245,7 @@ To align our education and enablement with our product, each of the topics below
 
 ### Govern Stage
 
-***
+---
 
 ##### Foundations Level
 
@@ -262,7 +262,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Kubernetes Certification
 
-***
+---
 
 ##### Foundations Level
 
@@ -284,7 +284,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### HashiCorp Terraform
 
-***
+---
 
 ##### Foundations Level
 
@@ -306,7 +306,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### HashiCorrp Vault
 
-***
+---
 
 ##### Foundations Level
 
@@ -322,7 +322,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### HashiCorp Consul
 
-***
+---
 
 ##### Foundations Level
 

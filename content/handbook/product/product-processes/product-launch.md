@@ -9,7 +9,7 @@ description: How to launch a product or service at GitLab.
 
 Launching a product or service at GitLab involves coordination across a wide range of teams. Launching products smoothly is a critical part of delivering value to the customer, ensuring a positive customer experience, and positioning us to meet our financial targets. Our ability to efficiently manage the New Product Introduction (NPI) process will become increasingly important as we bring new products to market more frequently. To ensure that we launch new product offerings, service offerings, or SKUs effectively; we require a set of steps that happen in phases.
 
-To launch features into our existing product set and tiers, use [this process](https://handbook.gitlab.com/handbook/product/tiering-guidance-for-features/) instead.
+To launch features into our existing product set and tiers, use [this process](/handbook/product/tiering-guidance-for-features/) instead.
 
 ### Summary of phases
 
@@ -33,7 +33,7 @@ In order to launch the NPI process, the DRI must communicate:
 1. **What** we’re launching: product features & functionality, service entitlements, or something else
 1. **Why** we’re launching: value proposition, strategic value, and scale of financial opportunity (understand that finance will not have built detailed models, but some financial justification must exist)
 1. **Who** we’re targeting: Ideal Customer Profile (ICP) and target market
-1. **When** we need to launch: any internal (e.g. [Field blackout periods](https://handbook.gitlab.com/handbook/sales/field-communications/), month/quarter/year end financial close, quiet periods, etc.) or external factors that create timing requirements
+1. **When** we need to launch: any internal (e.g. [Field blackout periods](/handbook/sales/field-communications/), month/quarter/year end financial close, quiet periods, etc.) or external factors that create timing requirements
 1. **That we’re able to launch:** product development is sufficiently far along that it makes sense to start the process, and GTM teams have sufficient bandwidth to do the work in the required timeframe
 
 **What happens if a product or service doesn’t meet the criteria?**
@@ -52,11 +52,11 @@ We are actively iterating on the NPI process. You can use the [`#npi-process-wor
 
 This phase happens before the NPI process officially launches with cross-functional stakeholders.
 
-### Step 1: Assign a DRI and Program Manager to launch the product/service or SKU.
+### Step 1: Assign a DRI and Program Manager to launch the product/service or SKU
 
 The project should have both a DRI and a Program Manager. **The DRI** drives the feature or service strategy and is the primary business owner. This is the person requesting a new product, service, or SKU. The person is responsible for delivering the initial business plan, and ensuring that the launch meets business goals.
 
-**The Program Manager** coordinates and directs the multiple parallel work streams required by the NPI process. The Program Manager can be assigned from the Product division, or if necessary from the [Office of the CEO](https://handbook.gitlab.com/handbook/ceo/office-of-the-ceo/). The Professional Services team can Program Manage SKU additions or modifications for Professional Services. In some cases, the DRI and the Program Manager may be the same person.
+**The Program Manager** coordinates and directs the multiple parallel work streams required by the NPI process. The Program Manager can be assigned from the Product division, or if necessary from the [Office of the CEO](/handbook/ceo/office-of-the-ceo/). The Professional Services team can Program Manage SKU additions or modifications for Professional Services. In some cases, the DRI and the Program Manager may be the same person.
 
 ### Step 2: Write up the details of the product or service
 
@@ -64,7 +64,7 @@ The DRI should create a business plan based on an NPI Planning Info Sheet (templ
 
 Ideally at this point you will already know the pricing structure, but if not, a conversation with the Pricing Committee is needed:
 
-1. Contact Justin Farris's [EBA](https://handbook.gitlab.com/handbook/eba/#:~:text=Jennifer%20Garcia%0AEBA-,Justin%20Farris) to schedule time with the Pricing Committee (currently Sean Hall and Justin Farris)
+1. Contact Justin Farris's [EBA](/handbook/eba/#:~:text=Jennifer%20Garcia%0AEBA-,Justin%20Farris) to schedule time with the Pricing Committee (currently Sean Hall and Justin Farris)
 1. Pricing will review the product or services brief and follow up within a week for any clarifying questions, and suggest the right level of research needed to arrive at a recommendation.
 1. Pricing team will conduct required research following our process, and pricing principles. Depending on the complexity of the offer, and potential market size this research could take a couple of weeks, up to a few months to complete.
 1. Pricing team will make a recommendation of what business model the product/service should have (e.g. fixed fee, subscription, consumptive, add-on, new tier), and recommend a price point or range to consider for the offering
@@ -77,7 +77,7 @@ The NPI SteerCo will advise on whether there are available resources to complete
 
 ### Step 4: Communicate the plan to stakeholders
 
-Once the NPI SteerCo has given your project the go-ahead, it’s time to get the rest of the stakeholders aligned. Reminder: there are many steps required to deliver a net new SKU; this isn't a process for processes-sake. We’ve learned through multiple NPI projects that this kind of work can’t be completed efficiently without clear communication and transparency in the process (NPI's might be [limited access](https://handbook.gitlab.com/handbook/communication/confidentiality-levels/#limited-access) in which case, details would not be open to all team members only those that need-to-know).
+Once the NPI SteerCo has given your project the go-ahead, it’s time to get the rest of the stakeholders aligned. Reminder: there are many steps required to deliver a net new SKU; this isn't a process for processes-sake. We’ve learned through multiple NPI projects that this kind of work can’t be completed efficiently without clear communication and transparency in the process (NPI's might be [limited access](/handbook/communication/confidentiality-levels/#limited-access) in which case, details would not be open to all team members only those that need-to-know).
 
 The Program Manager should begin coordinating efforts and identifying the relevant stakeholders across the organization. We recommend hosting the following meetings as soon as possible in order to kickoff the project:
 
@@ -90,7 +90,7 @@ We acknowledge that synchronous meetings aren't GitLab's ideal way of working, h
 
 ### Step 5: Organize logistics
 
-The Program Manager should ensure that the team is set up for success. The following resources are valuable, but not mandatory. We recommend creating a [Single Source of Truth (SSOT)](https://handbook.gitlab.com/handbook/values/#single-source-of-truth) with a link out to the following resources/information:
+The Program Manager should ensure that the team is set up for success. The following resources are valuable, but not mandatory. We recommend creating a [Single Source of Truth (SSOT)](/handbook/values/#single-source-of-truth) with a link out to the following resources/information:
 
 1. Project epic (or group/project, whatever makes sense for your project)
 1. Slack channels
@@ -111,7 +111,7 @@ In the future this section will include detailed project plan templates for team
 
 ## Phase 3: Feedback
 
-Once the new feature or service has launched, the Business Owner and Program Manager should organize a [retrospective](https://handbook.gitlab.com/handbook/engineering/management/group-retrospectives/). This will inform future NPI projects so we can continue to iterate and improve.
+Once the new feature or service has launched, the Business Owner and Program Manager should organize a [retrospective](/handbook/engineering/management/group-retrospectives/). This will inform future NPI projects so we can continue to iterate and improve.
 
 Teams should also follow up post-launch with input on customer perspective/feedback, as needed.
 
@@ -122,7 +122,6 @@ Teams should also follow up post-launch with input on customer perspective/feedb
 **Context**
 
 Launching features into our current product set is a well understood [process](/handbook/product/tiering-guidance-for-features/). To launch new product offerings, service offerings or SKUs requires a set of steps that need to be sequenced in a way to ensure product launch is done efficiently and effectively.
-
 
 **Summary of the steps.**
 
@@ -143,6 +142,7 @@ To initiate the work (and proceed to steps 2 to 7) provide a three sentence prop
 **Step 2) The product or service needs to be clearly defined**
 
 A services brief should be drafted. This should include:
+
 1. Details of the service offering (e.g. 24x7 support, emergency support SLAs, PS SOW description, etc)
 1. Description of the market and ideal customer
 1. What the customer gets in terms of entitlement
@@ -150,6 +150,7 @@ A services brief should be drafted. This should include:
 1. Hypotheses of how the product will be priced (e.g. Hourly, fixed fee, subscription)
 
 A product brief: (use [this template](https://docs.google.com/document/d/10FPjeVmvnCWjAc3kTbn0F46R42kUWkQFp1sgK3Z_p3w/edit?usp=sharing))
+
 1. Description of the product.
 1. Description of the market and ideal customer
 1. What features are available today that will be part of the product.
@@ -166,6 +167,7 @@ A product brief: (use [this template](https://docs.google.com/document/d/10FPjeV
 **Step 4) A Operations/ business plan / financial projection should be developed for the product / service**
 
 For a new product or service we should build an operational business plan (this [this template](https://docs.google.com/document/d/1IZfs6iumXrOF0X9Gez3SYGCM6mNQVSHKq6e0cltr7wQ/edit?usp=sharing)). This includes
+
 - Product plan
 - Marketing message and vision
 - Ideal customer profile
@@ -174,11 +176,13 @@ For a new product or service we should build an operational business plan (this 
 - If necessary a infrastructure cost/operating model for the offering
 
 For a new services offering we should also include a:
+
 - Staffing Plan
 - Operational Model
 - Systems changes required to support the new service
 
 Build a financial model
+
 - Topline sales projections
 - Gross Margin projections including hosting/infrastructure costs, support costs, professional services costs, etc
 - Possibly model contribution including other costs such as Sales and Marketing or R&D.
@@ -190,10 +194,10 @@ With the product/services proposal, pricing research, operational plan and busin
 Approvals will follow this matrix.
 
 Once the approval is made the following teams need to be notified that a workstream is kicked off:
+
 - Product offering: Product owners and engineers
 - Services offering: Professional services or support team
 - All offerings: Product Marketing, Legal, Product Fulfillment, IT, Data, FP&A, Billing, Revenue accounting, Tax
-
 
 **Step 6) Product Launch checklist should be created with clear DRIs assigned**
 
@@ -201,6 +205,7 @@ Once the approval is made the following teams need to be notified that a workstr
 - The program manager should fill out the product launch checklist and ensure there are owners for the generic items but also adds custom items.
 
 The following areas may need to be considered in the planning:
+
 1. Marketing Plan including positioning, press, customer references, etc
 1. Product Plan including Beta programs, code complete, launch criteria, data logging, etc
 1. Sales readiness including GTM plan and enablement of field and channel
@@ -218,10 +223,10 @@ The following areas may need to be considered in the planning:
 1. Finance including financial forecast
 1. Investor Relations including investor messaging
 
-
 **Step 7) Execution against Product Launch checklist should happen**
 
 Execute against the plan created above some resources that are helpful are:
+
 - SKU Creation handbook [page](/handbook/business-technology/enterprise-applications/guides/product-catalog/)
 - Premium Pricing [Execution](https://internal.gitlab.com/handbook/product/pricing/archived-projects/matterhorn/) (Team member access only)
 

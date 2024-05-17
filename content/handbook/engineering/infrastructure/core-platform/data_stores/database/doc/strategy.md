@@ -13,6 +13,7 @@ title: Database Strategy
 GitLab is offered as a [Single Application](/handbook/product/single-application) with a [Single data-store](/handbook/product/single-application/#single-data-store).  This handbook entry is meant as guidance for when you encounter a situation where you are considering changes or additions to our data-store architecture.  For information on tooling, migrations, debugging and best practices please read the [Database guides](https://docs.gitlab.com/ee/development/#database-guides) section in [GitLab Docs](https://docs.gitlab.com/).
 
 ### Requirement
+
 When you propose any database additions, updates or deletions it is required that you have participated in a [Database Review](https://docs.gitlab.com/ee/development/database_review.html#database-review-guidelines) prior to deployment (best early in development).
 
 ### PostgreSQL

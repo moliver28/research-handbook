@@ -6,7 +6,6 @@ title: "Application Security - Capacity Indicators, Classifications, and Workflo
 
 AppSec manages [a wide range of tasks with a high volume of work](https://gitlab.com/gitlab-com/gl-security/appsec/appsec-team#team-capacity-planning-and-operational-work). This page outlines how we measure the team's capacity to ensure we can effectively handle current workloads and plan for future needs.
 
-
 ### What decisions does this data help us make?
 
 Collecting this data helps inform decisions involving the team's capacity and headcount needs.
@@ -46,7 +45,7 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::ToolingsAndMaintenance | Indicates the work was associated to our tools and automation |
 | AppSecWorkType::CrossTeamCollaboration | Indicates the work was associated to cross-team help/collaboration |
 | AppSecWorkType::TeamProjects | Indicates the work was associated to team projects |
-| AppSecWorkType::CriticalProjects | Indicates the work was associated to [critical projects](https://handbook.gitlab.com/handbook/security/critical-projects/) |
+| AppSecWorkType::CriticalProjects | Indicates the work was associated to [critical projects](/handbook/security/critical-projects/) |
 | AppSecWorkType::HackerAdmin | Indicates the work was associated to HackerOne administration |
 | AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
 
@@ -60,16 +59,15 @@ The effort classification is an estimate of the level of effort required to reso
 
 ### Table
 
-| Label    | Classification | Description | Estimation Guide | Example |
-| -------- | ------- | ------- | ------- | ------- |
-| AppSecWeight::1 | Trivial | Very little effort required | Immediate or near immediate change to resolve the issue | Trivial documentation update |
-| AppSecWeight::2  | Small | Straight forward change, minimal investigation | ~0.5 - 1 days  | |
-| AppSecWeight::3 | Medium | Some investigation and/or collaboration needed  | ~1-3 days |
-| AppSecWeight::5 | Large | Signficant investigation and collaboration needed | ~3-5 days | |
-| AppSecWeight::8 | XLarge | Very complex and requires a major portion of the milestone to resolve | ~5-10 days | |
-| AppSecWeight::13 | Needs Refinement | The issue is overly complex and needs to be promoted to an Epic or broken down into smaller issues | N/A |
+| Label    | Weight | Classification | Description | Estimation Guide | Example |
+| -------- | ------ | ------- | ------- | ------- | ------- |
+| AppSecWeight::trivial | 1 | Trivial | Very little effort required | Immediate or near immediate change to resolve the issue | Trivial documentation update |
+| AppSecWeight::small  | 2 | Small | Straight forward change, minimal investigation | ~0.5 - 1 days  | |
+| AppSecWeight::medium | 3 | Medium | Some investigation and/or collaboration needed  | ~1-3 days | |
+| AppSecWeight::large | 5 | Large | Signficant investigation and collaboration needed | ~3-5 days | |
+| AppSecWeight::XLarge | 8 | XLarge | Very complex and requires a major portion of the milestone to resolve | ~5-10 days | |
+| AppSecWeight::Needs Refinement | 13 | Needs Refinement | The issue is overly complex and needs to be promoted to an Epic or broken down into smaller issues | N/A | |
 
 #### Who assigns this label and when?
 
 The AppSec Engineer responsible for the task is expected to assign this label to any Issue or MR after they complete it.
-

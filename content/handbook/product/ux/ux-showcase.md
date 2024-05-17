@@ -39,6 +39,7 @@ UX Showcases are scheduled every two weeks. They are 60 minutes long to allow up
 - It is the responsibility of the host to know when they are scheduled to host and the responsibility of the presenter to know when they are scheduled to present. To help, a slack reminder has been set up in the `#ux` channel to review the showcase schedule.
 
 If a Product Designer can't present on the assigned date, it's their responsibility to make a trade. To make a trade:
+
 - announce in Slack (`#ux` channel) and during the UX Weekly call that you'd like to trade
 - after you identify a trade, make an MR to update the schedule
 - ask your Product Design Manager to review and merge.
@@ -130,7 +131,7 @@ Otherwise,
 1. Upload the videos to [GitLab Unfiltered](https://m.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
 1. Add the videos to the [UX Showcase playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) and [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5)
 1. Set the visibility to Public
-    * NOTE: If the video content contains items that are un[SAFE](/handbook/legal/safe-framework/) mark the video as Private.
+    - NOTE: If the video content contains items that are un[SAFE](/handbook/legal/safe-framework/) mark the video as Private.
 1. Share the YouTube links in `#ux` and `#product` Slack channels with a brief description of each presentation
     - Add the same update to the Engineering Week-In-Review document. The document is available in the description of our internal [`engineering-fyi` Slack channel](https://gitlab.slack.com/archives/CJWA4E9UG).
 

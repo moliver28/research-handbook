@@ -32,17 +32,17 @@ Or use `curl`:
 curl https://gitlab.com/gitlab-com/support/toolbox/kubesos/raw/master/kubeSOS.sh | bash -s -- [flags]
 ```
 
-| Flags | Description | Required   | Default
-| :---- | :---------- | :--------- | :------
-| `-n`  | namespace   | No | "default"
-| `-r`  | helm chart release | No | "gitlab"
-| `-l app`  | application label to match for logs (can be used multiple times) | No |
-| `-L` | select apps for logs interactively | No | n/a
-| `-s time`  | Only return logs newer than a relative duration like 5s, 2m, or 3h | No | 0=all logs
-| `-t time_stamp`  | Only return logs after a specific date (RFC3339) | No | all logs
-| `-m maxlines` | Override the default maximum lines output per log (-1 = no limit) | No | 10000
-| `-p` | Prepend log entries with pod and container names | No | n/a
-| `-w log_timeout` | Log generation wait time (seconds). Increase this if log collection does not complete in time  | No | 60
+| Flags | Description | Required   | Default |
+| :---- | :---------- | :--------- | :------ |
+| `-n`  | namespace   | No | "default" |
+| `-r`  | helm chart release | No | "gitlab" |
+| `-l app`  | application label to match for logs (can be used multiple times) | No | |
+| `-L` | select apps for logs interactively | No | n/a |
+| `-s time`  | Only return logs newer than a relative duration like 5s, 2m, or 3h | No | 0=all logs |
+| `-t time_stamp`  | Only return logs after a specific date (RFC3339) | No | all logs |
+| `-m maxlines` | Override the default maximum lines output per log (-1 = no limit) | No | 10000 |
+| `-p` | Prepend log entries with pod and container names | No | n/a |
+| `-w log_timeout` | Log generation wait time (seconds). Increase this if log collection does not complete in time  | No | 60 |
 
 Data will be archived to `kubesos-<timestamp>.tar.gz`
 
@@ -230,7 +230,6 @@ Where there is more than one helm revision (`helm history <release>`), we captur
 The above indicates a change was made to CertManager configuration between revisions 7 and 8.
 
 If the YAML files are not present, it is likely that kubeSOS was not run against the correct *namespace* or *release*, `helm list -A` will show all helm deployed releases. Be sure to run `kubeSOS.sh` with the appropriate `-n <namespace>` and `-r <release>` options.
-
 
 ### Application logs
 

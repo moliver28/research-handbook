@@ -38,7 +38,7 @@ The Platform group manages the [Platform category](/handbook/product/categories/
 {{< /tableau >}}
 
 
-You can find the centralized engineering metrics at [this page](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/).
+You can find the centralized engineering metrics at [this page](/handbook/engineering/metrics/dashboards/).
 
 For Product Performance Indicators please visit the [internal handbook](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/).
 

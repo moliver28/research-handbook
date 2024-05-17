@@ -2,7 +2,7 @@ The groups in the [Create stage][stage] organize regular [Deep Dive sessions]
 to share our domain specific knowledge with others in the stage, the organization,
 and the wider community. All existing Deep Dives can be found on [GitLab Unfiltered][Youtube]
 with slides and recordings in the descriptions. For Create specific Deep Dives, there is a
-[different playlist][Create playlist]. To find more information on upcoming sessions, 
+[different playlist][Create playlist]. To find more information on upcoming sessions,
 or to propose a new topic, please see the [epic][Deep Dive issue tracker].
 
 [stage]: /handbook/product/categories/#create-stage

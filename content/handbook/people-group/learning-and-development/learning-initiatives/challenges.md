@@ -23,4 +23,3 @@ All of GitLab's Learning and Development programs use the [GitLab tool to facili
 - Live Learning: Optional live learning session at the end of the week to revisit the challenges covered
 - Self-Reflection: At the end of the week, have participants complete a self-reflection exercise
 - Certification/Badging: Option to award participants with a certification or badge
-

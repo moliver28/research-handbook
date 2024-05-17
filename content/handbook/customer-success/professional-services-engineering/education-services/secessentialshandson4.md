@@ -76,7 +76,7 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Create a new branch named `add-dnspython-dependency`
 
-1. Add a new dependency to the `add-dnspython-dependency` branch **(not the `main` branch!)** by pasting `dnspython==2.1.0` as a new line at the end of `requirements.txt`. 
+1. Add a new dependency to the `add-dnspython-dependency` branch **(not the `main` branch!)** by pasting `dnspython==2.1.0` as a new line at the end of `requirements.txt`.
 
 1. Click the **Create merge request** button.
 

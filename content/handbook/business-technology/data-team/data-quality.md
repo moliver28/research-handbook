@@ -31,7 +31,7 @@ In an effort to improve data quality at GitLab, the Central Data Team is creatin
 
 1. The DRI of the epic can validate that the newly linked issues are related.
 
-1. If there is no epic opened that addresses the problem, then the issue requires further validation to determine if a governance plan is needed. If the issue relates to one of the detection rules [in a Data Quality Scorecard Detection framework, which is coming in the future], then the triager can refer the issue to the R&D Data Fusion Team manager for next steps. If the issue does not relate to one of the detection rules, then the triager should follow the business as usual triage process.  
+1. If there is no epic opened that addresses the problem, then the issue requires further validation to determine if a governance plan is needed. If the issue relates to one of the detection rules [in a Data Quality Scorecard Detection framework, which is coming in the future], then the triager can refer the issue to the R&D Data Fusion Team manager for next steps. If the issue does not relate to one of the detection rules, then the triager should follow the business as usual triage process.
 
 **Governance Plan Runbook**
 
@@ -186,8 +186,6 @@ There have been a number of issues raised to the CS Ops team related to customer
 
 <summary><b>6. Quality Standards and Monitoring</b></summary>
 
-
-
 **Quality Standards**
 
 A SaaS section of a data quality dashboard for Instances w/out Subscriptionsshould provide the following metrics:
@@ -284,6 +282,7 @@ The Data Quality System is composed of **Scorecards**, which help people monitor
 **Purpose** - Product Data Quality Scorecard quantifies the Data Quality Issues with respect to the Product Usage Data.
 
 The Scorecard Dashboard contains visualizations that display the following information:
+
  - **Pass/Fail Percentage** of each of the Product Data Quality Detection rules. The Percentage of records passed is calculated by taking the Percentage of total number of records that have satisfy the condition or the data quality detection rule. The formula used for the Calculation is:
 **((passed_record_count/processed_record_count)*100)**
 
@@ -338,7 +337,7 @@ The Data Quality Detection Rules that have currently been identified for Product
 |4|Subscriptions with Self-Managed plans having License Start dates in the future||
 |5|Subscriptions with Self-Managed plans having License Start date greater than License Expire date||
 |6|Expired License IDs with Subscription End Dates in the Past||
-|7|SaaS Subscriptions with missing Namespace IDs|
+|7|SaaS Subscriptions with missing Namespace IDs||
 
 ## Additional Resources
 
@@ -367,7 +366,6 @@ Our own [Postgres_Pipeline](https://gitlab.com/gitlab-data/analytics/tree/master
 ### Transformation Data Quality
 
 We use dbt for all transformations in the warehouse. [We require tests on all new dbt models](/handbook/business-technology/data-team/#transformation) and regularly update tests as needed. These tests, as well as the extraction tests and checks, should be written in line with the data quality philosophy described above.
-
 
 ### Data Quality Incidents Resulting in Permanently Lost Data
 

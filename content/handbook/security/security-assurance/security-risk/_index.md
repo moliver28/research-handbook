@@ -8,14 +8,13 @@ To drive security risk treatment at GitLab by empowering teams to make informed 
 
 ## <i class="far fa-lightbulb" style="color:rgb(110,73,203)" aria-hidden="true"></i> Core Competencies{#core-competencies}
 
-----
+---
 
 ### <i class="fas fa-shield-alt" style="color:rgb(253,109,38)" aria-hidden="true"></i> Security Operational Risk Management (StORM) Program{#storm}
 
 The Security Risk team manages an integrated Operational Risk Management program focused on the identification, assessment, continuous monitoring, and reporting of Security Risks across the organization. Risk Reduction is 1 of 5 of the Security Department's operating principles ([Security Vision and Mission](/handbook/security/#i-classfas-fa-rocket-idbiz-tech-iconsi-security-vision-and-mission)). As such, the Security Risk Team takes a leading role in providing the information required by leadership to establish our Strategic Roadmap and our quarterly [Objectives and Key Results (OKRs)](/handbook/company/okrs/).
 
  Visit the [StORM Program & Procedures]({{< ref "storm-program" >}}) handbook page for additional details, including a quick introduction to Risk Management at GitLab as well as information about the purpose, scope, and specific procedures executed as part of the program.
-
 
 {{% panel header="**Need to communicate a potential risk to the team?**" header-bg="warning" %}}
 Please refer to the [communication section of the StORM Program & Procedures]({{< ref "storm-program#communication-of-risks-to-the-security-risk-team" >}}) page for information on the various ways that team members can use to escalate potential risks to the Security Risk Team.
@@ -37,7 +36,7 @@ The output of the BIA is the designation of a [Critical System Tier](/handbook/s
 
 Establishing a complete and accurate inventory of assets is key to the success of GitLab's Risk Program. As such, the Security Risk Team collaborates closely with IT and Business Owners to ensure new systems are added to the [Tech Stack](/handbook/business-technology/tech-stack-applications/#roles-and-responsibilities).
 
-----
+---
 
 ## <i class="fas fa-users" style="color:rgb(110,73,203)" aria-hidden="true"></i> Team Members{#team-members}
 

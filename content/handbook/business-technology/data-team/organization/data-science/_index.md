@@ -1,30 +1,20 @@
 ---
-
 title: "Data Science Handbook"
 description: "GitLab Data Science Team Handbook"
 ---
 
-
-
-
-
-
-
-
-
-----
 **PURPOSE: This page is focused on the operations of GitLab's internal *Data Science Team*. For information about GitLab's Product Data Science Capabilities, please visit [GitLab ModelOps](https://about.gitlab.com/direction/modelops/)**
 {: .alert .alert-success}
 
 `Last Updated At: 2023-12-22`
 
-# The Internal Data Science Team at GitLab
+## The Internal Data Science Team at GitLab
 
 The mission of the Data Science Team is to facilitate ***making better decisions faster*** using ***predictive analytics***.
 
 ## Handbook First
 
-At GitLab we are [Handbook First](/handbook/handbook-usage/#why-handbook-first) and promote this concept by ensuring the data science team page remains updated with the most accurate information regarding data science objectives, processes, and projects. We also strive to keep the handbook updated with useful resources and our data science toolset.
+At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) and promote this concept by ensuring the data science team page remains updated with the most accurate information regarding data science objectives, processes, and projects. We also strive to keep the handbook updated with useful resources and our data science toolset.
 
 ## Learning About Data Science
 
@@ -39,6 +29,7 @@ Check out this brief overview of what data science is at GitLab:
 ([Corresponding slides](https://docs.google.com/presentation/d/1Y-V6bZ5w8Ms5yfMiuYCYZs9ald7Q5MxydYhSh9DWwwQ/edit?usp=sharing))
 
 AMAs:
+
 - 2021-09-15 AMA [Recording](https://youtu.be/wRbNExL0hv8), [Presentation](https://docs.google.com/presentation/d/1Y-V6bZ5w8Ms5yfMiuYCYZs9ald7Q5MxydYhSh9DWwwQ/edit#slide=id.g540caf0310_0_0),
 - 2021-12-09 AMA [Recording](http://www.youtube.com/watch?v=46NEQDAz18I), [Presentation](https://docs.google.com/presentation/d/1aUIi52AW798KjmvexPIQ1AcXRKLcWlYd6yW-EW6Zqlo/edit#slide=id.g540caf0310_0_0)
 
@@ -63,7 +54,7 @@ AMAs:
 - **Regression** - a statistical method for predicting an outcome. For example, predicting a person's income, or how likely a customer is to churn
 - **Scoring** -  process of generating predictions for the new dataset
 - **Training** -  process of applying an algorithm to data to create a model
-- **Test Dataset** - deliberately excluding some observations from training the model so they can be used to verify how well the model predicts  
+- **Test Dataset** - deliberately excluding some observations from training the model so they can be used to verify how well the model predicts
 - **Weight** - numerical value assigned to feature that determines it's strength
 
 ## Data Science Responsibilities
@@ -93,20 +84,18 @@ As a Center of Excellence, the data science team is focused on working collabora
 
 The Data Science flywheel is focused on improving business efficiency and KPIs by creating accurate and reliable predictions. This is done in collaboration with [Functional Analytics Center of Excellence](/handbook/business-technology/data-team/functional-analytics-center-of-excellence/) to ensure the most relevant data sources are utilized, business objectives are met, and results can be quantifiably measured. As business needs change, and as the user-base grows, this flywheel approach will allow the data science team to quickly adapt, iterate, and improve machine learning models.
 
-
 ```mermaid
 graph BT;
-   id1(Faster, More Accurate Predictions)-->id2(Increased Business Understanding) & id5(Continuous Feedback) 
-   id2-->id3(More Revenue & Users) 
+   id1(Faster, More Accurate Predictions)-->id2(Increased Business Understanding) & id5(Continuous Feedback)
+   id2-->id3(More Revenue & Users)
    id5-->id1
    id3-->id4(More Data)
    id4-->id1
 ```
 
-## How to request Data Science project? 
+## How to request Data Science project?
 
 To request a new Data Science project, please fill out the [Opportunity Canvas](https://gitlab.com/gitlab-data/analytics/-/issues/new). In the description choose `[New Request] Create Opportunity Canvas`. The `Problem Statement` and `Stakeholders` sections should be completed. You can tag a data science team member with whom you discussed the project with or share an issue in #bt-data-science slack channel. During the quarterly planning process, requests will be reviewed and priortisied accordingly by the Data Leadership Forum.
-
 
 ## Work Streams
 
@@ -127,17 +116,16 @@ To request a new Data Science project, please fill out the [Opportunity Canvas](
 
 - For implementation details and where to find model predictions/scores, please see the [Propensity Models Internal Handbook Page](https://internal.gitlab.com/handbook/sales/propensity_models/)
 
-
 **Maturity**
 
 Maturity of data science projects is similar to the [GitLab product maturity model](https://about.gitlab.com/direction/maturity/):
+
 - **Unplanned**: Not implemented, and not yet on our roadmap.
 - **Planned**: Not implemented, but on our roadmap; executive sponsor attached to project.
 - **In Progress**: Plan established, developing model.
 - **Viable**: Available, but not fully productionalized yet; scores and insights manually generated; low adoption outside of immediate stakeholders.
 - **Complete**: Fully implemented into Data Team cloud production infrastructure; increasing adoption of corresponding dashboards and scores within the intended organization.
 - **Optimized**: Fine-tuned, fully automated, and self-service; continuous model monitoring and scoring; high adoption within intended organization.
-
 
 ### Revenue Expansion
 
@@ -154,7 +142,6 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
    - [PtE Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2146809)
 - Data sources: Product usage: SaaS & Self-Managed - paid tiers; Product stage usage: SaaS & Self-Managed - paid tiers; Salesforce (account, opportunities, events, tasks); Zuora (billing); Bizible (marketing); Firmographics; ZenDesk (help tickets); prior expansion type (product change, seat licenses), amount, and time lapse; account health scores
    - Future sources: Buyer personas attached to opportunities
-
 
 ### Loss Prevention
 
@@ -200,22 +187,16 @@ Maturity of data science projects is similar to the [GitLab product maturity mod
 - Plans for next iteration: Self-managed segmentation
 - Slack Channel (internal only): [#namespace-segmentation](https://app.slack.com/client/T02592416/C0341FPNB1C)
 - Repositories (internal only): [Namespace Segmentation](https://gitlab.com/gitlab-data/data-science-projects/namespace-segmentation)
-- Read-outs (internal only):  
+- Read-outs (internal only):
    - [Namespace Segmentation Deck](https://docs.google.com/presentation/d/1Pmm0g1mUquBR6P_aguGkOiGBVqO1ZtDzIyRrbR-r9jA/edit#slide=id.g29a70c6c35_0_68)
 - Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
    - Future sources: # of consecutive days of product/stage usage
 
-### Project Structure
-
-The Data Science Team follows [Cross-Industry standard process for data mining (CRISP-DM)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
-- Data sources: Product usage: SaaS & Self Managed - free and paid tiers; Product stage usage: SaaS & Self Managed - free and paid tiers; Salesforce (account); Zuora (billing); Bizible (marketing)
-   - Future sources: # of consecutive days of product/stage usage
-
-### Project Structure
+## Project Structure
 
 The Data Science Team follows [Cross-Industry standard process for data mining (CRISP-DM)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining), which consists of 6 iterative phases:
 
-<img align="right" src="CRISP-DM_Process_Diagram.png" width="500">
+<img align="right" src="CRISP-DM_Process_Diagram.png" alt="" width="500">
 
 1. **Business Understanding**
 
@@ -241,39 +222,26 @@ The Data Science Team follows [Cross-Industry standard process for data mining (
 
     - Once the model has been approved it then gets deployed into the data science production pipeline. This process automatically updates, generates predictions, and monitors the model on a regular cadence.
 
-#### The GitLab approach
+### The GitLab approach
 
 The [Data Science Team approach to model development](/handbook/business-technology/data-team/organization/data-science/project_dev_approach/) is centered around GitLab's value of [iteration](/handbook/values/#iteration) and the CRISP-DM standard. Our process expands on some of the 6 phrase outlined in CRISP-DM in order to best address the needs of our specific business objectives and data infrastructure.
 
 ## Data Science Platform
 
 Our current platform consists of:
+
 - the [Enterprise Data Warehouse](/handbook/business-technology/data-team/platform/) for storing raw and normalized source data as well as final model output for consumption by downstream consumers
 - [JupyterLab](/handbook/business-technology/data-team/platform/jupyter-guide/) for model training, tuning, and selection
 - [GitLab](https://gitlab.com/) for collaboration, project versioning, and score code management, [experiment tracking](/handbook/engineering/development/incubation/mlops/ml_experiment_tracking.html), and [CI/CD](https://docs.gitlab.com/ee/ci/)
--[GitLab CI](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/#our-approach-to-using-cicd-for-data-science) for automation and orchestration
+-[GitLab CI](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/#our-approach-to-using-cicd-for-data-science) for automation and orchestration
 - [Monte Carlo](https://getmontecarlo.com/) for drift detection
 - Tableau Server for model monitoring and on-going performance evaluation
 - [Feast](https://docs.feast.dev/) as a an open-source Feature Store for Machine Learning models
 
-
-### Feast: Feature Store Implementation
-
-We are using Feast as an open-source Feature Store for our machine learning models.
-Configuration can be found on the Feast project repository, updating the feature store is done via GitLab CI/CD and the web UI is published in a VM on GCP.
-
-You can find more details on this implementation on the [Feast - Feature Store Implementation](https://internal.gitlab.com/handbook/enterprise-data/platform/data-science/) Internal handbook section.
-
-
-
-### CI/CD Pipelines for Data Science
-
-We are in the process of fully moving over the training and scoring of our machine learning models to the native GitLab CI/CD capabilities. Please see [Getting Started With CI/CD for Data Science Pipelines](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/) for the most up-to-date information and instructions.
-
 ### Current State Data Flows
 
 ```mermaid
-graph 
+graph
     A[Enterprise Data Warehouse: Raw and Normalized Data Sources]
     B[JupyterLab & GitLab CI/CD: Model Training, Tuning, and Selection]
     C(GitLab CI/CD & Pipeline Schedules: Batch scoring with Papermill)
@@ -294,6 +262,20 @@ graph
 ```
 
 - For putting a model into production, please create an new [data issue](https://gitlab.com/gitlab-data/analytics/-/issues/new#) using the [Scheduling Notebook Request Template](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Data%20Science%3A%20Scheduling%20Notebook%20Request.md)
+
+### Feast: Feature Store Implementation
+
+We are using Feast as an open-source Feature Store for our machine learning models.
+Configuration can be found on [the Feast project repository](https://gitlab.com/gitlab-data/data-science-projects/feast-poc), updating the feature store is done via GitLab CI/CD and the web UI is published in a VM on GCP.
+
+You can use the following pages to find more details on:
+
+1. How to use [Feast to fetch features to train and deploy Machine Learning models](/handbook/business-technology/data-team/platform/feast/).
+1. [Feast - Feature Store Implementation](https://internal.gitlab.com/handbook/enterprise-data/platform/data-science/) Internal handbook section.
+
+### CI/CD Pipelines for Data Science
+
+We are in the process of fully moving over the training and scoring of our machine learning models to the native GitLab CI/CD capabilities. Please see [Getting Started With CI/CD for Data Science Pipelines](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines/) for the most up-to-date information and instructions.
 
 ### Data Science Tools at GitLab
 

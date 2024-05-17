@@ -41,24 +41,24 @@
 {{ printf "" }}
 
 # Files with Underscores in their Name - remove 2024-12-01
-/handbook/security/External_Security_Communications_Procedure.html /handbook/security/external-security-communications-procedure/
-/handbook/security/gitlab_projects_baseline_requirements.html /handbook/security/gitlab_projects_baseline_requirements/
-/handbook/security/gitlab_security_resource_center.html /handbook/security/gitlab_security_resource_center/
-/handbook/security/security-assurance/field-security/answerbase_quality_guide.html /handbook/security/security-assurance/field-security/answerbase_quality_guide/
-/handbook/security/security-assurance/field-security/field_security_observation_and_ofi_quality_guide.html /handbook/security/security-assurance/field-security/field_security_observation_and_ofi_quality_guide/
-/handbook/security/security-assurance/field-security/independent_security_assurance.html /handbook/security/security-assurance/field-security/independent_security_assurance/
-/handbook/security/security-assurance/governance_and_field_security_team_charter.html /handbook/security/security-assurance/governance_and_field_security_team_charter/
-/handbook/security/security-assurance/production_readiness_compliance_assessment.html /handbook/security/security-assurance/production-readiness-compliance-assessment/
-/handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure.html /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/
-/handbook/legal/privacy/us-state-privacy-disclosure/ https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/
+/handbook/security/External_Security_Communications_Procedure.html /handbook/security/external-security-communications-procedure/ 301
+/handbook/security/gitlab_projects_baseline_requirements.html /handbook/security/gitlab_projects_baseline_requirements/ 301
+/handbook/security/gitlab_security_resource_center.html /handbook/security/gitlab_security_resource_center/ 301
+/handbook/security/security-assurance/field-security/answerbase_quality_guide.html /handbook/security/security-assurance/field-security/answerbase_quality_guide/ 301
+/handbook/security/security-assurance/field-security/field_security_observation_and_ofi_quality_guide.html /handbook/security/security-assurance/field-security/field_security_observation_and_ofi_quality_guide/ 301
+/handbook/security/security-assurance/field-security/independent_security_assurance.html /handbook/security/security-assurance/field-security/independent_security_assurance/ 301
+/handbook/security/security-assurance/governance_and_field_security_team_charter.html /handbook/security/security-assurance/governance_and_field_security_team_charter/ 301
+/handbook/security/security-assurance/production_readiness_compliance_assessment.html /handbook/security/security-assurance/production-readiness-compliance-assessment/ 301
+/handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure.html /handbook/security/security-assurance/security-risk/sox_cuec_mapping_procedure/ 301
+/handbook/legal/privacy/us-state-privacy-disclosure/ https://about.gitlab.com/privacy/us-state-privacy-rights-and-disclosures/ 301
 
 # Solutions Architecture Handbook Moved - remove 2025-06-01
-/handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat
-/handbook/customer-success/solutions-architects/ /handbook/solutions-architects/
+/handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat 301
+/handbook/customer-success/solutions-architects/ /handbook/solutions-architects/ 301
 
 # Domain level redirects
-/handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars
-/handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars
+/handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars 301
+/handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars 301
 
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301

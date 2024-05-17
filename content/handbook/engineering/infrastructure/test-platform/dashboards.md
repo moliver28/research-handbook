@@ -3,7 +3,7 @@ title: "Test Platform Dashboards"
 description: "This handbook page serves as a central repository for all our Test Platform dashboard details"
 ---
 
-> In pursuit of a resilient, efficient, and fortified platform, our Test Platform sub-department provides instrumental support through the creation and maintenance of an array of dashboards. These critical tools capture detailed test health across the environments, flag performance anomalies, and contribute to rigorous test infrastructure. 
+> In pursuit of a resilient, efficient, and fortified platform, our Test Platform sub-department provides instrumental support through the creation and maintenance of an array of dashboards. These critical tools capture detailed test health across the environments, flag performance anomalies, and contribute to rigorous test infrastructure.
 
 ## Dashboards
 
@@ -17,6 +17,9 @@ description: "This handbook page serves as a central repository for all our Test
 |                         | [Test Infra Availability (E2E Test)](https://dashboards.gitlab.net/d/ci-runners-incident-runner-manager/ci-runners3a-incident-support3a-runner-manager?orgId=1&var-PROMETHEUS_DS=PA258B30F88C30650&var-environment=gprd&var-stage=main&var-type=qa-runners&var-shard=All&var-runner_manager=All&var-project_jobs_running=All&var-runner_job_failure_reason=All&from=1713952860000&to=1713963719999&viewPanel=11) | Dashboard indicating the current availability of E2E test infrastructure. |      [Test and Tools Infrastructure](test-and-tools-infrastructure-team)            |
 | Test Contribution       | [Developer Contribution To E2E Tests](https://10az.online.tableau.com/#/site/gitlab/views/TestPlatformDeveloperContributionDashboard/TestPlatformDeveloperContributionDashboard?:iid=2) | Tracking developer engagement and contributions to E2E tests. | [Test Engineering](test-engineering-team) <br> [Test and Tools Infrastructure](test-and-tools-infrastructure-team)  |
 | Performance Testing     | [GPT Results](https://gitlab.com/gitlab-org/quality/performance/-/wikis/home)                             | GitLab Performance Tool test results from automated reference environment pipelines         | [Self-Managed Platform](self-managed-platform-team)   |
+| Self-Managed Excellence | [Reference Architectures](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/ReferenceArchitectures)         | Reference Architecture issues created and closed per request type     | [Self-Managed Platform](self-managed-platform-team)   |
+|                         | [GitLab Environment Toolkit](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabEnvironmentToolkit)       | GitLab Environment Toolkit merge requests and issues per type       | [Self-Managed Platform](self-managed-platform-team)   |
+|                         | [GitLab Performance Tool](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTSelf-ManagedExcellenceMetrics/GitlabPerformanceTool)          | GitLab Performance Tool merge requests and issues per type       | [Self-Managed Platform](self-managed-platform-team)   |
 | Bug Tracking            | [Customer Bugs](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/CustomerBugsDashboard?:iid=1) | Dynamic tracking of Customer bugs            | [Test Engineering](test-engineering-team) |
 |                         | [Bug Prioritization](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard?:iid=1) | Bug prioritization based on burndown trends | [Test Engineering](test-engineering-team) |
 

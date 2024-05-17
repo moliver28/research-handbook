@@ -42,11 +42,13 @@ Scaled across an organization, this meeting-free approach to making decisions en
 
 {{% details summary="Change management support for asynchronous workflows" %}}
 **Quick Start Tips:**
+
 - *Individual:* Confirm that your team has a dedicated channel on your company’s asynchronous communication platform (such as Slack, or Microsoft Teams). Build the habit of prioritizing that channel over all others and starting each work day by catching up on all new messages from your team members.
 - *Team:* Conduct a meeting audit – Are there certain topics that could be discussed asynchronously? Are there any attendees that could be marked as optional? Are there any unnecessary meetings that could be canceled?
 - *Company:* Update your company’s onboarding and continuing education programs to include training about asynchronous workflows.
 
 **Recommended TeamOps Partners:**
+
 - [Slack](https://slack.com/) (tool)
 - [Distribute Consulting](https://www.distributeconsulting.com/) (consultant)
 {{% /details %}}
@@ -69,6 +71,7 @@ A member of GitLab's Learning & Development team was responsible for [developing
 
 {{% details summary="Change Management Support for DRIs" %}}
 **Quick Start Tips:**
+
 - *Individual:* When assigned a task or project, confirm explicitly that you are the DRI. Confirm with the assigner exactly which decisions you are and aren’t able to make without approval.
 - *Team:* Create a field in your project management plan template for listing the DRI.
 - *Company:* Update your company’s onboarding and continuing education programs to include training about the responsibilities and expectations of DRIs.
@@ -85,9 +88,9 @@ Documenting parameters for meeting management and participation help maximize th
 When working with [external teams](/handbook/company/culture/all-remote/asynchronous/#working-async-outside-of-your-company), follow our three main points to foster communication and education regarding our [shared values](/teamops/shared-reality/#shared-values).
 
 {{% details summary="Examples and resources for well-managed meetings" %}}
-**Example:** [GitLab's Group Conversations](/handbook/group-conversations/#presentation)
+**Example:** [GitLab's Group Conversations](/handbook/company/group-conversations/#presentation)
 
-GitLab's [Group Conversations](/handbook/group-conversations/#presentation) highlight using meeting time for activities that benefit from a synchronous component. This intentional meeting is open to the entire organization and puts emphasis on not presenting live; rather, those running the meeting are expected to distribute presentation materials, including any pre-recorded videos, at least 24 hours ahead of time.
+GitLab's [Group Conversations](/handbook/company/group-conversations/#presentation) highlight using meeting time for activities that benefit from a synchronous component. This intentional meeting is open to the entire organization and puts emphasis on not presenting live; rather, those running the meeting are expected to distribute presentation materials, including any pre-recorded videos, at least 24 hours ahead of time.
 
 The editable agenda document, which is attached to the company-wide calendar invite, is also used to gather questions ahead of the meeting and organize the order of speakers. The agenda itself becomes an artifact to share or reference later. Plus, recordings of the sync sessions are uploaded as [videos on the GitLab Unfiltered YouTube channel](https://www.youtube.com/@GitLabUnfiltered/search?query=group%20conversation).
 
@@ -96,6 +99,7 @@ The editable agenda document, which is attached to the company-wide calendar inv
 
 {{% details summary="Change management support for well-managed meetings" %}}
 **Quick Start Tips:**
+
 - *Individual:* Create a meeting agenda template and share team-wide (or company-wide).
 - *Team:* Announce and enforce a “no agenda, no attenda” rule.
 - *Company:* Update your company’s onboarding and continuing education programs to include training about well-managed meetings.
@@ -107,11 +111,11 @@ The editable agenda document, which is attached to the company-wide calendar inv
 
 To address the challenge cross-functional execution at high velocity, TeamOps advocates a [stable counterparts](https://about.gitlab.com/blog/2018/10/16/an-ode-to-stable-counterparts/) model. It works like this: every functional team (e.g., Support) works with the same team members from a different functional team (e.g., Development), so each member of one function always knows who their partner in another function will be. Stable counterparts enable greater trust and familiarity across the organization, which in turn [speed up decision making](/teamops/decision-velocity/), facilitate stronger communication flows, and reduce the risk of conflicts.
 
-In addition to standard communication channels, recurring opportunities dedicated exclusively to updates and knowledge sharing can help optimize awareness, questions, and feedback about an ongoing project. These [Key Review Meetings](/handbook/key-review/) allow a functional group to stay updated on and discuss essential success measurements, such as: progress towards goals such as [OKRs and KPIs](/teamops/equal-contributions/), blocked tasks, new assignments, workstream changes, etc.
+In addition to standard communication channels, recurring opportunities dedicated exclusively to updates and knowledge sharing can help optimize awareness, questions, and feedback about an ongoing project. These [Key Review Meetings](/handbook/company/key-review/) allow a functional group to stay updated on and discuss essential success measurements, such as: progress towards goals such as [OKRs and KPIs](/teamops/equal-contributions/), blocked tasks, new assignments, workstream changes, etc.
 
 In conventional organizations, this is apt to be a more informal conversation between a department head and their manager. Broadening the audience of attendees for a Key Review Meeting—to include, for example, the Chief Executive Officer (CEO), Chief Financial Officer (CFO), the function head, stable counterparts, and (optionally) all other executives and their direct reports—broadens the pool of people who can contribute feedback, insights, and advice. It also forces the presenting department to be more mindful of execution, consider areas where they are falling short, and gather input for potential iterations toward progress.
 
-Similarly, cross-departmental conversations—known as [Group Conversations](/handbook/group-conversations/) within GitLab—can provide the same visibility and inclusion to other projects and teams, to help consider how a project may impact OKRs for teams throughout the organization. Such recurring meetings offer regular updates across all teams on a rotating schedule. It's the same concept and content as key review meetings with one major difference: all team members are invited! These meetings are designed to give the entire workforce context on what other teams outside of their own are focused on (and how they're executing). In this way, TeamOps stresses that execution isn't solely about executing your own goals; it's about understanding what and how others are executing, too.
+Similarly, cross-departmental conversations—known as [Group Conversations](/handbook/company/group-conversations/) within GitLab—can provide the same visibility and inclusion to other projects and teams, to help consider how a project may impact OKRs for teams throughout the organization. Such recurring meetings offer regular updates across all teams on a rotating schedule. It's the same concept and content as key review meetings with one major difference: all team members are invited! These meetings are designed to give the entire workforce context on what other teams outside of their own are focused on (and how they're executing). In this way, TeamOps stresses that execution isn't solely about executing your own goals; it's about understanding what and how others are executing, too.
 
 Stable counterparts, key review meetings, and cross-departmental conversations help keep operational pace, policies, and practices consistent throughout the organization, while also fostering a sense of [inclusion](/teamops/shared-reality/#inclusivity).
 
@@ -129,6 +133,7 @@ GitLab's Learning and Development team hosted a [livestreamed Group Conversation
 
 {{% details summary="Change management support for cross-functional collaboration" %}}
 **Quick Start Tips:**
+
 - *Individual:* Design and implement a personal plan for internal networking, such as participating in team member resource groups, scheduling coffee chats, attending local employee events, volunteering for cross-departmental working groups, or asking a mentor or sponsor for introductions.
 - *Team:* Create a field in your project management plan template for listing the project’s stable counterparts from other departments. Be sure to include their contact information, time zone, and expected level of contributions. (We recommend the [RACI matrix](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci).) Also include dates for Key Review Meetings.
 - *Company:* Assign each department director to schedule an open-invitation “Ask Me Anything” meeting (Group Conversation) for every quarter this year.
@@ -156,6 +161,7 @@ As a visual guide for when to use which tools in their digital infrastructure, f
 
 {{% details summary="Change management support for tool prioritization" %}}
 **Quick Start Tips:**
+
 - *Individual:* Audit your tool usage habits. If you tend to have conversations with team members in more than 1-2 channels throughout your workday, redirect as many as possible to be hosted on the default communication platform for your team.
 - *Team:* Whenever starting a new project, confirm what the default channel for communication will be. Agree to certain channel changes, words, or emojis that indicate that a message is a higher or lower priority than usual.
 - *Company:* Publish your team’s tool prioritization chart in your SSoT. Indicate which are default tools and what level of urgency they indicate.
@@ -193,6 +199,7 @@ During employee onboarding, [Help Scout](www.helpscout.com) teaches new team mem
 
 {{% details summary="Change management support for psychological safety" %}}
 **Quick Start Tips:**
+
 - *Individual:* Give positive feedback and use your team’s catchphrases for psychological safety often, so that others feel comfortable doing the same.
 - *Team:* Add a line item to all relevant agendas for collaborative support and questions.
 - *Company:* Confirm that your handbook includes protocols for how to report and resolve when a team member doesn’t feel psychologically safe at work.

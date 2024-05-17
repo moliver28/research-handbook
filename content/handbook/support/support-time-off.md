@@ -6,7 +6,7 @@ description: Guidelines for how time off applies to Support team members and wha
 
 ## Support Team Member Time Off
 
-The Support Team follows [GitLab's paid time off policy](https://about.gitlab.com/handbook/paid-time-off).
+The Support Team follows [GitLab's paid time off policy](https://about.gitlab.com/handbook/people-group/paid-time-off/).
 We balance that with the need to deliver support to our customers every day.
 This page is intended to provide all Support Team Members with an understanding
 of what we need to do to achieve that balance, making it possible for all to
@@ -48,7 +48,6 @@ team calendar.
    1. [Support OOO - APAC](https://calendar.google.com/calendar/embed?src=c_408bhp8a8j579lqr99j552u21s%40group.calendar.google.com)
    1. [Support OOO - EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_ev56c9rgjd9l1sn291i368jn78@group.calendar.google.com)
 
-
 1. If you regularly handle L&R tickets, please subscribe to the global L&R calendar and relevant L&R regional calendar.
 
 1. Add the calendars for your SGG and your SGG region, to your own calendar.
@@ -80,7 +79,7 @@ A little thoughtfulness on everybody's part will go a long way toward making it
 possible for everyone to take their desired days off. As you look to plan your
 time off, please:
 
-- ensure you know the [company wide paid time off guidelines](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
+- ensure you know the [company wide paid time off guidelines](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
 - consider a different time off schedule if your [regional capacity calendar](https://gitlab.com/gitlab-com/support/toolbox/support-calendar) shows that on any of the days you would be absent, the regional team would be short by 20% or more of its people
 - check the regional and global calendars for the groups you are part of (SGG/L&R/etc.) and coordinate with your group to ensure we have sufficient cover for days with low availability.\
 (In EMEA, the aim is to have at least 4 engineers (non L&R) per SGG and 3 engineers from L&R working on each normal business day)
@@ -149,7 +148,7 @@ If they want to pause, put the ticket on-hold. Otherwise:
       sessions - to make up for not taking new tickets of your own.
 1. Follow the [OOO Ticket Management](/handbook/support/workflows/ooo-ticket-management)
    process to arrange for others to take care of your tickets in your absence.
-1. To ensure you're not auto-assigned to GDPR requests:
+1. To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):
 
    - Update the corresponding `yaml` file for yourself in the [Support Team project](https://gitlab.com/gitlab-com/support/team/-/tree/master/data/agents?ref_type=heads).
    - Change `works_account_deletion: true` to `works_account_deletion: false`
@@ -161,8 +160,6 @@ If they want to pause, put the ticket on-hold. Otherwise:
 During [Family and Friends Days](/handbook/company/family-and-friends-day/#upcoming-family-and-friends-days) GitLab Support continues
 to operate as normal. Starting from Q1/FY25, during each quarter you are free to take a day off at your convenience, to celebrate Family and Friends day.
 Please follow the same guidelines as you would in [Choosing and Recording Time Off](#choosing-and-recording-time-off).
-
-
 
 ## How Support Handles Holidays
 
@@ -213,7 +210,7 @@ Otherwise:
 ## General Tips
 
 In addition to the company-wide tips in
-[Communicating Your Time Off](/handbook/paid-time-off/#communicating-your-time-off),
+[Communicating Your Time Off](/handbook/people-group/paid-time-off/#communicating-your-time-off),
 take a look at these tips to increase your ability to disconnect from work,
 truly make the most of your time off, and make it easier to return to work:
 
@@ -252,4 +249,4 @@ Consider setting up a few coffee chats with teammates to simply reconnect with t
 
 Once you have taken the time to catch-up, update your availability using the [Out of Office](/handbook/support/readiness/operations/docs/zendesk/apps/#out-of-office) app in Zendesk showing you are no longer OOO. This is done by navigating to the [app in Zendesk](https://gitlab.zendesk.com/agent/apps/out-of-office) and clicking the `Make available` button on the row with your user information in it.
 
-For more tips, check [returning from pto](/handbook/paid-time-off/#returning-from-pto).
+For more tips, check [returning from pto](/handbook/people-group/paid-time-off/#returning-from-pto).

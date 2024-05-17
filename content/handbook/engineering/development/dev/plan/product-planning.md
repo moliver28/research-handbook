@@ -44,7 +44,6 @@ We have useful dashboards tracking the performance of parts of the application w
   - [Product Planning]
 - The [Sitespeed Dashboard]; showing the results of ongoing synthetic tests against representative product pages. Useful for identifying changes in page load time (TTFB), LCP, etc.
 
-[Product Planning]: https://dashboards.gitlab.net/d/stage-groups-product_planning/stage-groups-group-dashboard-plan-product-planning?orgId=1&from=now-7d&to=now
 [Sitespeed Dashboard]: https://dashboards.gitlab.net/d/product-plan/product-performance-plan?orgId=1
 
 ## OKRs
@@ -62,7 +61,7 @@ FY23-Q4 OKRs were conducted in Ally.io and are no-longer available.
 See the [Plan stage page] and the [Plan:Project Management backend team page].
 
 [Plan stage page]: /handbook/product/categories/#plan-stage
-[Plan:Project Management backend team page]: /handbook/engineering/development/dev/plan-project-management/
+[Plan:Project Management backend team page]: /handbook/engineering/development/dev/plan/project-management/
 
 ### Capacity Planning
 
@@ -114,9 +113,9 @@ any PoC MRs produced.
 As a team we often work on features that require close collaboration. We've identified a list of techniques and characteristics that help projects like this proceed at a pace that is sustainable, predictable, and challenging, yet rewarding. An example of such feature was [Epic Linking](https://gitlab.com/groups/gitlab-org/-/epics/7546).
 
 1. Feature is designed and broken down in advance of milestone start, including a [spike](#consider-a-spike-andor-a-design-document) if appropriate.
-  1. Participants in the spike take part in delivery of the feature.
-  1. Prior to closing the description is updated with Acceptance Criteria, with sign-off by each assignee + PM. This is what will be delivered.
-  1. For efforts that are part of larger initiatives (like [Work Items](https://docs.gitlab.com/ee/development/work_items.html)), architectural documents are kept up to date with larger decisions; for example, around API design or functionality.
+1. Participants in the spike take part in delivery of the feature.
+1. Prior to closing the description is updated with Acceptance Criteria, with sign-off by each assignee + PM. This is what will be delivered.
+1. For efforts that are part of larger initiatives (like [Work Items](https://docs.gitlab.com/ee/development/work_items.html)), architectural documents are kept up to date with larger decisions; for example, around API design or functionality.
 1. Requirements are well-defined with a goal that is achievable within a single milestone and provides business value. For larger features, work may be spread out over several milestones.
 1. Items that must be delivered in separate milestones are identified and prioritized first; such as migrations, security issues, and other [multi-version compatibility](https://docs.gitlab.com/ee/development/multi_version_compatibility.html) issues.
 1. The stable counterpart from documentation is included at the start of the spike.
@@ -275,7 +274,6 @@ When you pick something to work on, please:
   [section level])
 
 [:Plan:Product Planning]: https://gitlab.com/groups/gitlab-org/-/boards/1569369?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Aplan&not[label_name][]=group%3A%3Aproject%20management]
-[#s_plan]: https://gitlab.slack.com/archives/s_plan
 [youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0
 [retros]: https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
 [Group Conversations]: http://gitlab-org.gitlab.io/group-conversations/plan/

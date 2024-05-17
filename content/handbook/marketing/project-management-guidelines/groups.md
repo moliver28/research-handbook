@@ -67,7 +67,7 @@ classDef GRP_NMKTG fill:#F7ECF7, stroke: #333, stroke-dasharray: 5, 5
 
 ```mermaid
 graph LR
-	A(["Marketing &#128101;"]):::GRP
+    A(["Marketing &#128101;"]):::GRP
   A --> B(["Corporate Marketing &#128101;"]):::GRP
   A --> C(["Growth Marketing &#128101;"]):::GRP
   A --> D(["Revenue Marketing &#128101;"]):::GRP

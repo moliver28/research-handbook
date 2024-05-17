@@ -293,6 +293,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Check with your health plan to see if you are eligible for reimbursement for the cost of a breast pump or any other supplies.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** 6080 - Other Travel- Visas, Permits, Covid Tests
 - **GL Code COGS:** 5080 - Other Travel- Visas, Permits, Covid Tests COGS
@@ -322,7 +323,6 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Limit is set at $150 per quarter.
 - Expenses higher than this limit require manager's approval via email. The email should be attached to the expense transaction as an additional receipt.
 
-
 {{% panel header="**Coding**" header-bg="green" %}}
 **Expense Type / Navan Policy Category:** Office Supplies
 {{% /panel %}}
@@ -344,6 +344,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - If co-working space is used together with a combination of working from home, we will allow the reimbursement of the internet cost for where you spend most of your time. i.e. if you expense a co-working space for a full month then internet for home cannot be expensed. If you expense co-work for a few days in a month then home internet can be expensed in full.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** 6076 - Coworking Space
 - **GL Code COGS:** 5076 - Coworking Space COGS
@@ -404,6 +405,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - For further questions regarding expensing of gifts and flowers, please reach out to the AP team via the #expense-reporting-inquiries Slack channel or through email (expenses@gitlab.com).
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Gifts - internal
 - **Classification:** EmployeeGiftsFlowers
 {{% /panel %}}
@@ -454,6 +456,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - >$5,000 needs to go through the procurement process in [Zip](/handbook/business-technology/enterprise-applications/guides/zip-guide/).
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** Multiple- will be required to choose GL account
 - **GL Code COGS:** Multiple- will be required to choose GL account
@@ -539,6 +542,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - The expense needs to be submitted in the same month as the event or if not possible due to the timing of the event, the latest acceptable submission will be before the end of the fiscal quarter that the event took place.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Team events & meals
 - **Classification:** FY25 Team Building Budget
 {{% /panel %}}
@@ -552,6 +556,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - AP Admin needs to review expense for approved issue.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** 6065 - Training & Development
 - **GL Code COGS:** 5065 - Training & Development COGS
@@ -567,6 +572,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Multi year Policy - only current year subscription can be claimed.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** 6060 - Software Subscriptions
 - **GL Code COGS:** 5060 - Software Subscriptions COGS
@@ -579,6 +585,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 - Will flag approval required by AP Admin.
 
 {{% panel header="**Coding**" header-bg="green" %}}
+
 - **Expense Type / Navan Policy Category:** Other
 - **GL Code NON-COGS:** 6080 - Other Travel- Visas, Permits, Covid Tests
 - **GL Code COGS:** 5080 - Other Travel- Visas, Permits, Covid Tests COGS
@@ -603,6 +610,7 @@ The procedure by which reimbursable expenses are processed varies and is depende
 #### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 
 **Global Upside, Remote.com and Papaya Global**
+
 - The list of Global Upside, Remote & Papaya countries can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
@@ -704,4 +712,4 @@ These instructions apply if a team member is unable to purchase required items, 
 
 ### Expense Reimbursement for Terminated Team Members
 
-If a team member whom you manage has left GitLab and comes to you with final expenses that are valid for reimbursement, please verify that they were not already processed in Navan and then contact Accounts Payable. You must submit valid receipts and a completed copy of the [Expense Reimbursement template](https://docs.google.com/spreadsheets/d/1D0kWlqol7jBjqn7yDY6uc7UCWSIcUmiF/edit?usp=sharing&ouid=108533621432009168804&rtpof=true&sd=true) along with your approval. Please note that we may also ask the terminated team member to provide valid banking details in order to process the payment to them. AP will do their best to process and pay the reimbursement to the individual within 1 week.
+If a team member whom you manage has left GitLab and comes to you with final expenses that are valid for reimbursement, please verify that they were not already processed in Navan and then contact Accounts Payable. You must submit valid receipts and a completed copy of the [Expense Reimbursement template](https://docs.google.com/spreadsheets/d/1TiSbp1C3-7WERqDanfBKTxdm5VevQ5QDOAiI_GaizBg/edit#gid=1450348181) along with your approval. Please note that we may also ask the terminated team member to provide valid banking details in order to process the payment to them. AP will do their best to process and pay the reimbursement to the individual within 1 week.

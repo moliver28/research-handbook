@@ -3,7 +3,7 @@ title: "Dev Career Framework: Senior Backend Engineer"
 ---
 
 ## Dev Senior Backend Engineer (BE)
- 
+
 {{% include "includes/engineering-careers/dev-be-career-matrix-nav.md" %}}
 
 **Dev Senior Backend Engineers at GitLab are expected to exhibit the following competencies:**

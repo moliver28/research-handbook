@@ -42,6 +42,7 @@ The exit criteria for GitLab Dedicated Top Cross-Functional Initiative are the s
 ### How We Work
 
 The GitLab Dedicated Initiative Working Group follows the [same processes as the GitLab Dedicated Engineering team](/handbook/engineering/infrastructure/team/gitlab-dedicated/#how-we-work) from the Dedicated Engineering team page. This includes:
+
 - [Epic management](/handbook/engineering/infrastructure/team/gitlab-dedicated/#epic-hierarchy)
 - [Status updates](/handbook/engineering/infrastructure/team/gitlab-dedicated/#status-updates)
 - [Labels and usage](/handbook/engineering/infrastructure/team/gitlab-dedicated/#labels)
@@ -84,7 +85,7 @@ In addition to the [status process from Dedicated team page](/handbook/engineeri
 ## Key Review
 
 - Initiative DRI provides updates in Product Key Review as the Chief Product Officer is the executive sponsor of this initiative.
-- The [Product Key Review](/handbook/key-review/) occurs twice per quarter.
+- The [Product Key Review](/handbook/company/key-review/) occurs twice per quarter.
 
 ## Top Initiative Quarterly Meeting
 
@@ -110,7 +111,7 @@ In addition to the [status process from Dedicated team page](/handbook/engineeri
 
 Below are the functional areas involved in this Cross-Functional Initiative as well as the Functional DRI representing that functional area.
 
-| Working Group Functions (alphabetical)  | Team Member        | Title
+| Working Group Functions (alphabetical)  | Team Member        | Title  |
 |-----------------------------------------|--------------------|--------------------------------------------------|
 | Functional Lead: Channel Partners       | Honora Duncan      | Senior Channel Services Manager                  |
 | Functional Lead: Comms & PMM            | Saumya Upadhyaya   | Principal Product Marketing Manager              |

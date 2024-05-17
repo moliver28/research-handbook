@@ -4,7 +4,7 @@ title: "Plan Stage"
 
 Plan teams:
 
-- [Plan:Project Management Team](/handbook/engineering/development/dev/plan-project-management/)
+- [Plan:Project Management Team](/handbook/engineering/development/dev/plan/project-management/)
 - [Plan:Product Planning Team](/handbook/engineering/development/dev/plan/product-planning/)
 - [Plan:Optimize Team](/handbook/engineering/development/dev/plan/optimize/)
 - [Plan:Knowledge Team](/handbook/engineering/development/dev/plan/knowledge/)
@@ -152,7 +152,7 @@ At the beginning of the Milestone, Deliverable issues will automatically be upda
 
 At specific points through the milestone the Health Status will be automatically degraded if the issue fails to progress. Assignees can override this setting any time if they disagree. The policy that manages this automation is [here](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/hygiene/adjust-health-status.yml). It can be disabled for any individual issue by adding the ~"Untrack Health Status" label.
 
-#### Health Status Definitions for Plan :
+#### Health Status Definitions for Plan
 
 - _On Track_ - We are confident this issue will be completed and live for the current milestone
 - _Needs Attention_ - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back On Track
@@ -178,10 +178,10 @@ Guidance is available, including a video guide, on [how to use GitLab for OKRs](
 
 GitLab currently offers some freedom in how to structure OKR hierarchies. We take the following approach in Plan:
 
-* EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
-* Group KRs and Stage Objectives should ladder into a higher Objective, which can exist anywhere in the organization. In the development of OKRs a stage-level Objective laddered directly into a CEO KR.
-* They should be created or added as **child objectives and key results** of their parent so that progress roll-ups are visible.
-* Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development-flow/), and not in OKRs.
+- EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
+- Group KRs and Stage Objectives should ladder into a higher Objective, which can exist anywhere in the organization. In the development of OKRs a stage-level Objective laddered directly into a CEO KR.
+- They should be created or added as **child objectives and key results** of their parent so that progress roll-ups are visible.
+- Product development goals are established in milestone planning, following the regular [Product Development Flow](/handbook/product-development-flow/), and not in OKRs.
 
 Doing this ensures the hierarchy will be as simple, consistent and shallow as possible. This improves navigability and visibility, as we currently don't have good hierarchy visualization for OKRs.
 
@@ -200,9 +200,9 @@ flowchart TD
 Ownership is indicated using labels and assignee(s). The label indicates the group and/or stage, assignee the DRI.
 
 OKRs should have the following labels:
-* Group, Stage, and Section (as appropriate).
-* Division (~"Division::Engineering") to distinguish from other functions.
-* updates::[weekly, semi-monthly, monthly] depending on how often the OKR is expected to be updated by the DRI.
+- Group, Stage, and Section (as appropriate).
+- Division (~"Division::Engineering") to distinguish from other functions.
+- updates::[weekly, semi-monthly, monthly] depending on how often the OKR is expected to be updated by the DRI.
 
 ### Retrospectives
 
@@ -243,11 +243,11 @@ process itself.
 
 #### Timeline
 
-* **27th (Previous Month)** A retrospective issue is automatically created for the milestone in progress.
-* **18th** The milestone is **closed** and open issues in the build phase are labelled with ~"missed deliverable".
-* **21st** The issue description is automatically updated with shipped and missed deliverables and the team are tagged to add feedback.
-* **4th (Next Month)** A final reminder is created automatically in #s_plan for final feedback.
-* **5th (Next Month)** The DRI [concludes the retrospective](#concluding-the-retrospective).
+- **27th (Previous Month)** A retrospective issue is automatically created for the milestone in progress.
+- **18th** The milestone is **closed** and open issues in the build phase are labelled with ~"missed deliverable".
+- **21st** The issue description is automatically updated with shipped and missed deliverables and the team are tagged to add feedback.
+- **4th (Next Month)** A final reminder is created automatically in #s_plan for final feedback.
+- **5th (Next Month)** The DRI [concludes the retrospective](#concluding-the-retrospective).
 
 #### Dogfooding Value Stream Analytics (VSA) in the Milestone Retrospective
 
@@ -264,10 +264,10 @@ Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan/-/
 #### Concluding the Retrospective
 
 The DRI is responsible for completing the following actions:
-* Adding a comment to the retrospective issue summarizing actionable discussion items and suggesting corrective actions.
-* Finding a DRI for each corrective action. Creating an issue in `gl-retrospectives/plan` for each is optional, but doing so and adding the ~"follow-up" label will ensure they're included automatically in the next retrospective.
-* Recording a short summary video and sharing in #s_plan. This can be discussed in the next weekly team call and can be added to the Plan Stage playlist on Youtube so that it shows up on team pages.
-* Closing the issue and making it public.
+- Adding a comment to the retrospective issue summarizing actionable discussion items and suggesting corrective actions.
+- Finding a DRI for each corrective action. Creating an issue in `gl-retrospectives/plan` for each is optional, but doing so and adding the ~"follow-up" label will ensure they're included automatically in the next retrospective.
+- Recording a short summary video and sharing in #s_plan. This can be discussed in the next weekly team call and can be added to the Plan Stage playlist on Youtube so that it shows up on team pages.
+- Closing the issue and making it public.
 
 [async-retrospectives]: https://gitlab.com/gitlab-org/async-retrospectives
 [retros]: https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
@@ -280,9 +280,9 @@ Regressions contribute to the impression that the product is brittle and unrelia
 
 Engineering Managers are strongly encouraged to conduct a simple [Root Cause Analysis](/handbook/engineering/root-cause-analysis/#what-is-a-root-cause-analysis) (RCA) when a regression takes place in a feature owned by their group, in order to:
 
-* Inform the author and reviewers of the original MR that it caused a regression.
-* Define corrective actions that might prevent or reduce the likelihood of a similar regression in future.
-* Identify trends or patterns that can lead to human error.
+- Inform the author and reviewers of the original MR that it caused a regression.
+- Define corrective actions that might prevent or reduce the likelihood of a similar regression in future.
+- Identify trends or patterns that can lead to human error.
 
 The following RCA format was trialed in a FY23 Q2 OKR. It can be posted as a comment on the original MR when the regression has been successfully reverted.
 
@@ -304,7 +304,7 @@ _One-line description of the regression in behavior._
 
 Please reassure the participants that the purpose is not to apportion blame but to gather data, identify causal factors and implement corrective actions - but ask for a swift and brief response while the information is still fresh.
 
-### UX 
+### UX
 
 The Plan UX team supports [Product Planning](/handbook/product/categories/#product-planning-group), [Project Management](/handbook/product/categories/#project-management-group) and [Optimize](handbook/product/categories/#optimize-group). Product Planning and Project Management are focused on the work items architecture architecture effort. This page focuses mainly on the specifics of how we support this, since it requires alignment and cross-group collaboration.
 
@@ -316,11 +316,11 @@ Product Planning, Project Management and Optimize will create issues for UX work
 - Product requirement discussions should continue to happen in the main Issue or Epic as much as possible.
 - When the Product Designer wants to indicate that the design is ready for ~"workflow::planning breakdown", they should apply this label to their issue, notify the PM and EM, and close the issue.
 
-*When should a UX issue be used?*
+_When should a UX issue be used?_
 
 UX issues should be used for medium or large projects that will take more than one dev issue to implement (e.g., end-to-end flows, complicated logic, or multiple use cases / states that will be broken down by engineering into several implementation issues). If the work is small enough that implementation can happen in a single issue, then a separate [UX] issue is not needed, and the designer should assign themselves to the issue and use workflow labels to indicate that it's in the design phase.
 
-*Weighting UX issues*
+_Weighting UX issues_
 
 All issues worked on by a designer should have a UX weight before work is scheduled for a milestone.
 
@@ -377,7 +377,7 @@ If the quad discovers that the desired user experience would require a greater c
 
 ##### Design Process for Work Items
 
-*Problem Validation*
+_Problem Validation_
 
 The quad that owns the code for the object (incident, epic, etc) decides if something should use the work item architecture based on trade-offs around code reuse and user experience. This should be a cross-functional decision, and the group Product Designer should advise their team regarding how well the user's ideal workflow could or could not be supported by the work items architecture. This will allow the team to evaluate how much existing frontend pieces of the architecture could be re-used, and what would need to be added or customized in order to support the desired experience.
 
@@ -385,7 +385,7 @@ The quad that owns the code for the object (incident, epic, etc) decides if some
 1. During this phase, the Product Designer and Product Manager should ensure that success metrics are defined per our work item research process (link TBD)
 1. High level wireframes should be produced to ensure everyone has a shared understanding of what is wanted and to establish a medium term vision for the work.
 
-*Solution Validation*
+_Solution Validation_
 
 After the quad decides the work item architecture is suitable, the Product Designer will design the experience in detail. As part of the detailed design, Product Designers, in collaboration with the quad, will:
 
@@ -396,7 +396,7 @@ After the quad decides the work item architecture is suitable, the Product Desig
 
 ##### Research Process for Work Items
 
-We use the methods and tools in the [UX Research handbook](/handbook/product/ux/ux-research/). 
+We use the methods and tools in the [UX Research handbook](/handbook/product/ux/ux-research/).
 
 In addition to these, we're working on gaining an efficiency bonus by using a common screener and building a mini-database of qualified participants aligned to our research needs.
 
@@ -473,16 +473,17 @@ Plan held a weekly team-meeting as a stage until 2023-11-01. The [agenda] is sti
 
 The meeting was removed as its functions are now covered in other ways:
 
-* Slack
-* [Stage Working Groups]
-* Group meetings
-* Smaller ad-hoc meetings
-* Social call
+- Slack
+- [Stage Working Groups]
+- Group meetings
+- Smaller ad-hoc meetings
+- Social call
 
 [Stage Working Groups]: #stage-working-groups
 [agenda]: https://docs.google.com/document/d/1cbsjyq9XAt9UYLIxDq5BYFk47VA5aaTeHfkY2dttqfk/edit
 
 #### Links / References
+
 - `~group::project management`
   - [Board](https://gitlab.com/groups/gitlab-org/-/boards/1285239)
   - [Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Aplan&label_name[]=group%3A%3Aproject%20management)
@@ -499,10 +500,10 @@ The meeting was removed as its functions are now covered in other ways:
 #### Shared calendar
 
 There is a shared Plan stage calendar which is used for visibility into meetings within the stage.
-* To add this shared calendar to your Google Calendar do one of the following:
-  * Visit this [link](https://calendar.google.com/calendar/u/1?cid=Y19iNzIwMjMxNzdmMDE4ZDYzMWM4NTJlZDFlODgyZTdmYTdhMDI0NGM4NjFmN2U4OWY5NjA4NTY4ODJkNWY1NDlhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (GitLab internal) from your browser.
-  * Click the '+' next to 'Other calendars' in Google Calender, select 'Subscribe to calendar', paste `c_b72023177f018d631c852ed1e882e7fa7a0244c861f7e89f960856882d5f549a@group.calendar.google.com` into the form and hit enter.
-* To add an event to the shared calendar, create an event on your personal calendar and add `Plan Shared` as a guest.
+- To add this shared calendar to your Google Calendar do one of the following:
+  - Visit this [link](https://calendar.google.com/calendar/u/1?cid=Y19iNzIwMjMxNzdmMDE4ZDYzMWM4NTJlZDFlODgyZTdmYTdhMDI0NGM4NjFmN2U4OWY5NjA4NTY4ODJkNWY1NDlhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (GitLab internal) from your browser.
+  - Click the '+' next to 'Other calendars' in Google Calender, select 'Subscribe to calendar', paste `c_b72023177f018d631c852ed1e882e7fa7a0244c861f7e89f960856882d5f549a@group.calendar.google.com` into the form and hit enter.
+- To add an event to the shared calendar, create an event on your personal calendar and add `Plan Shared` as a guest.
 
 ### Team Day
 
@@ -526,11 +527,11 @@ Sessions can be anything really, so long as it aligns with the [values](/handboo
 
 Some examples of sessions we've had on previous team days include:
 
-* A cooking class with a former professional chef.
-* Watching a holiday film together.
-* Lateral Thinking Games.
-* A home woodworking workshop tour and demonstration.
-* Remote games; such as Gartic Phone and Drawsaurus.
+- A cooking class with a former professional chef.
+- Watching a holiday film together.
+- Lateral Thinking Games.
+- A home woodworking workshop tour and demonstration.
+- Remote games; such as Gartic Phone and Drawsaurus.
 
 Free time slots can be used on the day to hold impromptu events requiring little or no preparation.
 
@@ -549,22 +550,22 @@ Some sessions may require small purchases to participate fully; for example, ing
 Unless communicated in advance these are **not expensable**.
 
 The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget, or [fun budget](/handbook/engineering/development/#fy24-team-building-fun-budget). If successful it should be made clear to team-members well in advance:
-* What purchases qualify for reimbursement.
-* The policy the expense qualifies under; including handbook link, policy category, and classification in Navan.
-* Any additional handbook guidance that will help team-members utilize the budget.
+- What purchases qualify for reimbursement.
+- The policy the expense qualifies under; including handbook link, policy category, and classification in Navan.
+- Any additional handbook guidance that will help team-members utilize the budget.
 
 #### Past Team Days
 
-* [2023-10-13 Team Day](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/1004)
-* [2022-12-20 Holiday Party](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/787)
+- [2023-10-13 Team Day](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/1004)
+- [2022-12-20 Holiday Party](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/issues/787)
 
 #### Tips for a Successful Team Day
 
-* Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
-* Secure expense budget and communicate at least a week in advance of the Team Day.
-* Ensure Google Calendar events are transferred from the planning issue to the Plan [Shared Calendar](#shared-calendar) a week in advance of the event date.
-* Ensure everyone has access to the calendar, and have easy step-by-step directions for creating a new event on the calendar (Adding events to a shared calendar can be slightly confusing).
-* Communicate this change in SSOT, and encourage participants to add their own sessions in the calendar as free slots.
+- Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
+- Secure expense budget and communicate at least a week in advance of the Team Day.
+- Ensure Google Calendar events are transferred from the planning issue to the Plan [Shared Calendar](#shared-calendar) a week in advance of the event date.
+- Ensure everyone has access to the calendar, and have easy step-by-step directions for creating a new event on the calendar (Adding events to a shared calendar can be slightly confusing).
+- Communicate this change in SSOT, and encourage participants to add their own sessions in the calendar as free slots.
 
 ### Team Process
 
@@ -628,7 +629,6 @@ We're tracking a number of issues that we believe could cause scalability proble
 | Redis Memory | Retention of Action Cable messages in Redis Shared State memory due to high numbers of and/or stalled/hung clients.  | Unknown | November 2023 | [150k Concurrent WebSocket Connections][websockets] at peak | [#326364](https://gitlab.com/gitlab-org/gitlab/-/issues/326364) | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
 | Various | Scaling a combined 'Work Items' table consisting of all current issues, epics, requirements and test cases. | Unknown | November 2023 | [100k Work Items][workitems] created per day| | <span style='border-radius:0.2em; font-weight:bold; padding-left:1em; padding-right:1em; color:white; background-color:green;'>Okay</span> |
 
-[events]: https://gitlab.com/gitlab-org/gitlab/-/issues/220023
 notes
 [websockets]: https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets
 workitems

@@ -33,7 +33,7 @@ Here is an example of these elements:
 
 Taken all together, the above example SLO would be: ***99.95% of the 95th percentile latency of api requests over 5 mins is < 100ms over the previous 28 days***
 
-The Error Budget is then 1 - Objective of the SLO, in this case (1 - .9995 = .0005).  Using our 28 day timeframe, **the "budget" for errors is 20.16 minutes** (.0005 * (28 * 24 * 60))
+The Error Budget is then 1 - Objective of the SLO, in this case (1 - .9995 = .0005).  Using our 28 day timeframe, **the "budget" for errors is 20.16 minutes** (.0005 *(28* 24 * 60))
 
 While the above example shows the SLI as a latency measurement, it is important to note that other measurements (such as % errors) are also good elements to use for SLIs.
 
@@ -70,7 +70,7 @@ Let's take look at a simplified violation scenario with different traffic
 patterns:
 
 | Endpoint   | Total requests | Slow requests | Apdex ratio | Traffic share |
-|------------|----------------|-----------------------------|---------------|
+|------------|----------------|---------------|-------------|---------------|
 | Endpoint A | 1 000          | 500           | 50%         | 1%            |
 | Endpoint B | 99 000         | 9 000         | 90%         | 99%           |
 
@@ -167,6 +167,7 @@ The current [28 day](/handbook/business-technology/data-team/programs/data-for-p
 Stage groups can use their dashboards to explore the cause of their budget spend. The process to investigate the budget spend is described in [the developer documentation](https://docs.gitlab.com/ee/development/stage_group_dashboards.html#check-where-budget-is-being-spent)
 
 The formula for calculating availability:
+
 ```
 the number of operations with a satisfactory apdex + the number of operations without errors
 /
@@ -174,6 +175,7 @@ the total number of apdex measurements + the total number of operations
 ```
 
 This gives us the percentage of operations that completed successfully and is converted to minutes:
+
 ```
 (1 - stage group availability) * (28 * 24 * 60)
 ```
@@ -237,7 +239,6 @@ Our current contract is 99.95% availability and a 20 minute monthly error budget
 |------------------|---------------------|---------------------|---------------------|
 | Enablement:Tenant Scale | 99.80% | To allow the group to focus on long-term scalability work as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2024-06-30 (or if total traffic share exceeds 5%) |
 | Deploy:Environments | 99.9% | [To safely account for a disproportion in traffic in the feature flag endpoint that skews the budget](https://gitlab.com/gitlab-org/gitlab/-/issues/415063#note_1457186576), by using an custom error budget we can keep the correct urgency while accurately represnt the situation for the other services. | 2024-06-06 |
-| Create:Code Creation | 99.89% | [A bug was introduced while tuning some SLI thresholds](https://gitlab.com/gitlab-org/gitlab/-/issues/425095#note_1833203928) for AI Gateway leading to all apdex measurements for these SLIs were wrongly counted as failed measurements in March 2024. | 2024-04-30 |
 | Plan:Product Planning | 99.89% | Due to an issue checking permissions for participants in a comment in an Epic, the check can be computationally heavy with some endpoints taking over 10 seconds to respond. [The team is currently working on optmizing it](https://gitlab.com/gitlab-org/gitlab/-/issues/454045). | 2024-05-30 |
 
 **Exceptions**
@@ -350,20 +351,13 @@ explorable with Sentry](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/39
 [availability]: /handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability
 [performance]: /handbook/engineering/infrastructure/performance-indicators/#gitlabcom-performance
 [SLA methodology]: /handbook/engineering/monitoring/#gitlabcom-service-availability
-[embracing risk]: https://landing.google.com/sre/sre-book/chapters/embracing-risk/#id-AnCDFmtB
-[velocity]: /handbook/engineering/development/principles/#the-importance-of-velocity
 [motivation]: https://landing.google.com/sre/sre-book/chapters/embracing-risk/#id-na2u1S2SKi1
 [infradev]: /handbook/engineering/workflow/index.html#availability-and-performance-refinement
-[architecture]: /handbook/engineering/architecture/workflow/
 [categories]: /handbook/product/categories/
 [infra teams]: /handbook/engineering/infrastructure/team/
-[severity]: /handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability
-[okr]: /handbook/engineering/#engineering-okr-process
-[eng comms]: /handbook/engineering/#keeping-yourself-informed
 [SLA dashboard]: https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now-30d&to=now
 [stage group dashboards]: https://dashboards.gitlab.net/dashboards/f/stage-groups/stage-groups
 [rapid action]: /handbook/engineering/development/#rapid-action
-[infradev]: /handbook/engineering/workflow/#infradev
 [corrective action]: /handbook/engineering/infrastructure/incident-review/#incident-review-issue-creation-and-ownership
 [security vulnerabilities]: /handbook/security/threat-management/vulnerability-management/#vulnerability-management-overview
 [engineering allocation]: /handbook/engineering/#engineering-allocation
