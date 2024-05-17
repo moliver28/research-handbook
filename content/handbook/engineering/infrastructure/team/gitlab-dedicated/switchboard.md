@@ -103,6 +103,10 @@ Switchboard team process to refine epics:
 1. Assign Due Date & Start Date
    - DRI, EM & PM work together to assign due date based on team capacity, external deadlines and amount of work involved
 1. DRI identifies at least one demo that will be delivered with the epic and adds a brief outline to the epic description (see [Switchboard Demos](#switchboard-demos)).
+1. For substantial code modifications or architectural additions,  DRI creates and share draft technical documentation with team early if possible before development work starts.
+   1. Draft documentation should contain a high level technical explanation of the new system and how it is meant to work
+   1. Illustrative diagrams like sequence diagrams are encouraged
+   1. Technical documentations can be added to the switchboard project where they currently live under `./docs` directory
 1. EM or DRI labels individual issues as ~"workflow-infra::Triage"
 1. DRI enables issues to be worked on in parallel where possible so that multiple engineers can contribute to a single epic
 1. If the epic involves both Frontend and Backend implementation the issues should be labelled accordingly
@@ -208,11 +212,12 @@ In addition to the above when a change is being proposed to the UI the following
 1. If you require help or guidance with the UX or copy please ask **before** implementation begins on the issue
 
 **UI changes visible to external customers:**
-1. Figure out any outstanding questions on the issue, including copy changes, so that we can avoid ambiguity at the MR stage
-1. The PM and Designer will deal with these requests as a top priority
-1. Add the PM as reviewer on the MR. This review will be blocking the MR and the PM will deal with this a high priority
-1. If there is new copy add the Technical Writer as a reviewer and this will be blocking (copy should ideally be agreed on the issue)
-1. Cc the UX Designer on the MR and when they ready to be core reviewer this will be communicated to the team
+1. Figure out any outstanding questions on the issue, including design changes, copy changes, and product requirements so that we can avoid ambiguity at the MR stage.
+1. In the event of a missing UX/product piece at the MR stage, the DRI and issue assignee will collaborate to make a decision about whether the missing piece can be resolved on the MR or if it needs to be moved back to the issue for resolution. This is in accordance to the [DRI definition](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/#empowering-dris).
+1. The PM and Designer will deal with these requests as a top priority.
+1. Add the PM as reviewer on the MR to keep them updated. This review will not impede the MR progress, and the PM will handle it as a high priority. Ideally, product requirements should be finalized in the issue.
+1. If there is a new copy change, add the Technical Writer as a reviewer to keep them informed and this will be non-blocking (copy should ideally be agreed on in the issue). Additionally add the `Technical Writing` tag to the MR.
+1. Cc the UX Designer on the MR and when they are ready to be core reviewer this will be communicated to the team
 
  **Note:** If significant discussion ends up being needed for a UI change (internal or customer facing) after the MR has been opened, that discussion should be moved back to the issue to resolve and the MR marked as blocked. These discussions will be high priority to resolve and the issue should be assigned to the PM and Designer until progress on the MR can resume.
 Notes:
