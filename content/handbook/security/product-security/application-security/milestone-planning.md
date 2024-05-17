@@ -106,7 +106,7 @@ These issues must be labeled with the appropriate AppSecRotation label:
 - Across the whole milestone, is the total operational + project weight achievable?
 
 
-When issue is fully refined, please set the `workflow:ready for development` label, indicating it's ready to be worked on in the assigned milestone.
+When issue is fully refined, please set the `AppSecWorkflow:planned` label, indicating it's ready to be worked on in the assigned milestone.
 
 
 
