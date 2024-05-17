@@ -213,7 +213,7 @@ In addition to the above when a change is being proposed to the UI the following
 
 **UI changes visible to external customers:**
 1. Figure out any outstanding questions on the issue, including design changes, copy changes, and product requirements so that we can avoid ambiguity at the MR stage.
-1. In the event of a missing UX/product piece at the MR stage, the DRI and issue assignee will collaborate to make a decision, informing the UX Designer and PM accordingly. This is in accordance to the [DRI definition](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/#empowering-dris).
+1. In the event of a missing UX/product piece at the MR stage, the DRI and issue assignee will collaborate to make a decision about whether the missing piece can be resolved on the MR or if it needs to be moved back to the issue for resolution. This is in accordance to the [DRI definition](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/#empowering-dris).
 1. The PM and Designer will deal with these requests as a top priority.
 1. Add the PM as reviewer on the MR to keep them updated. This review will not impede the MR progress, and the PM will handle it as a high priority. Ideally, product requirements should be finalized in the issue.
 1. If there is a new copy change, add the Technical Writer as a reviewer to keep them informed and this will be non-blocking (copy should ideally be agreed on in the issue). Additionally add the `Technical Writing` tag to the MR.
