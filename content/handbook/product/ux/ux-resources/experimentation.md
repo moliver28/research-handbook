@@ -35,6 +35,7 @@ Use an experiment when you need to quantify the impact of product changes (eg. c
 ## When is an experiment not a good idea?
 
 There are some situations where we'd prefer to make a change to the product and roll it straight out to product. These are:
+
 - when we are very confident that the change is the right one, and will result in a big usability improvement. We would do this so that all users can immediately benefit from the improvement. These changes can be small or large. They can vary from adding a label to an icon-only button to fixing a flow that spans across a few pages.
 - for a 'big bet'. This is a bigger change, such as a redesign of the sign-up flow, where we are aligning to overall best practices, we're informed by data and we've conducted other forms of solution validation like user testing and other UX research methods.
 - it seems pretty obvious, but we wouldn't use an experiment to decide how to fix a bug.
@@ -44,6 +45,7 @@ There are some situations where we'd prefer to make a change to the product and 
 ## How do we design for an experiment?
 
 Much of the product design process for Growth will remain familiar, but there are some differences. There are also considerations and concepts we need to understand and follow.
+
 - For an experiment, we work from an experiment write-up (add link) instead of user stories and/or JTBD. But we still need to be familiar with the JTBD of the feature we're experimenting with.
 - We always want to have a well-written experiment before we start designing. The minimum required should be the hypothesis, the business problem, whether there's any supporting data, and what is the expected outcome. To help you get started, use the [Experiment Idea issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Experiment%20Idea).
 - A north star metric, combined with the vision of the user experience is what should be driving most, if not all experiments. To get there, a designer should establish a UX strategy in collaboration with their product manager. Examples of such UX strategies can be seen [here](https://app.mural.co/t/gitlab2474/m/gitlab2474/1606981641280/762004a62acea8d9eb9c5d5e8cfe9019a8da9090?sender=mlatin2224) and [here](https://app.mural.co/t/gitlab2474/m/gitlab2474/1625560041539/678d82736b27f974b8fe238115622781cce86110?sender=mlatin2224).
@@ -51,6 +53,7 @@ Much of the product design process for Growth will remain familiar, but there ar
 ## Do experiments replace user research?
 
 No, they don't. This is because experiments tell us *what* is happening while user research can tell us *why* something is happening. We do both problem and solution validation research in Growth. Here are examples of things we might ask:
+
 - For problem validation, we might want to understand what users are looking to learn during a trial. Insights from this kind of research could inform both UX improvements and experiment ideas.
 - For solution validation, we might run a usability study on a big bet. We also run usability studies on key flows every quarter or so, in order to get qualitative feedback on our launched experiments.
 - Sometimes experiments are inconclusive, or surprising because they don't match what we expected. When this happens, we'll conduct user research to find out the 'Why'.
@@ -80,7 +83,6 @@ Experimentation is an awesome way to improve your product. There are a lot of co
 - If your team hasn't experimented yet, ask for guidance from Growth. Reaching out to [product designers](/handbook/company/team/?department=growth-ux-team) should be your first step. They'll be able to help, or connect you with people that can help with data analysis, technical challenges of launching experiments, avoiding result misinterpretation, and make sure that your experiments don't test too many things at once.
 - If your team has some experience with experimentation, you should still check in with Growth and check whether there are any conflicting experiments currently running.
 - Consider how much traffic the area that you want to experiment with gets. Is it low? Avoid doing an experiment altogether. Is it moderate? Acknowledge that it may take time to reach a statistically significant result.
-
 
 ## Resources
 
