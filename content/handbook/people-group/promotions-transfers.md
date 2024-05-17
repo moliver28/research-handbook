@@ -276,7 +276,7 @@ Please note, effective for the FY25 Q3 promotions, peer feedback is not required
 
 Guiding questions for managers as they fill out FY25 promotion documents:
 
-1. How will this team member’s role change if the promotion is approved? Specifically, what work will either be removed, be added, or be realigned? 
+1. How will this team member’s role change if the promotion is approved? Specifically, what work will either be removed, be added, or be realigned?
 
 *Please refer to the [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0), [Engineering IC Career Matrix](/handbook/engineering/careers/matrix/) and the [Engineering Leadership Job Families](/job-families/engineering/development/management/) to view the team member’s current responsibilities, and future expectations after the promotion.*
 
