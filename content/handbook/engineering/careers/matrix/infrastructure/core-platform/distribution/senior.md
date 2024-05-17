@@ -15,7 +15,6 @@ title: "Core Platform Career Framework: Senior Distribution Engineer"
 
 ---
 
-
 ### Leadership Competencies
 
 {{% include "includes/engineering-careers/senior-leadership-competency.md" %}}

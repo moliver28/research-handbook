@@ -110,7 +110,6 @@ Each SEG page has a list of the targets and progress for each month, and these s
   <a href="/handbook/engineering/development/incubation/breach-and-attack-simulation/" class="btn btn-primary" style="width:30%;margin:5px;white-space:normal;">Breach and Attack Simulation (BAS)</a>
 </div>
 
-
 ## Demonstrating Progress
 
 Our key focus is to ship software, we do this [Iteratively](/handbook/values/#iteration) and [Transparently](/handbook/values/#transparency) in an Agile way, concentrating on having something that works as soon as possible that we can build upon.

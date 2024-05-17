@@ -138,6 +138,7 @@ when progress is at different stages.
 
 To ensure visibility for other team-members, for issues with a frontend and
 backend component:
+
 - Assign yourself as early as possible if you have capacity to work on it;
 - When both frontend and backend DRIs are assigned, consider hosting a small kickoff discussion.
 - When the backend work is merged and verified add [the ~"backend complete" label](#using-the-backend-complete-label).
@@ -179,7 +180,6 @@ This avoids the rush to provide documentation that often accompanies the release
 [definition of done]: https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done
 [feature flag template]: https://docs.gitlab.com/ee/development/documentation/feature_flags.html#features-disabled-by-default
 [documentation should be updated]: https://docs.gitlab.com/ee/development/documentation/feature_flags.html#features-that-became-enabled-by-default
-
 
 ### Dashboards
 

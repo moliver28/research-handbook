@@ -38,4 +38,3 @@ These are the expected competencies of the Quality Backend Engineer, Engineering
 1. [Intermediate](/handbook/engineering/careers/matrix/quality/engineering-productivity/intermediate/)
 1. [Senior](/handbook/engineering/careers/matrix/quality/engineering-productivity/senior/)
 1. [Staff](/handbook/engineering/careers/matrix/quality/engineering-productivity/staff/)
-

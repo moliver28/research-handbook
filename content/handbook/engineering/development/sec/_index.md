@@ -295,6 +295,7 @@ When creating a new project, all settings should be left to the default options,
          - `All threads must be resolved`
          - `Pipelines must succeed`
       - `Merge commit message template`
+
          ```markdown
          Merge branch '%{source_branch}' into '%{target_branch}'
 
@@ -309,7 +310,9 @@ When creating a new project, all settings should be left to the default options,
          %{reviewed_by}
          %{co_authored_by}
          ```
+
       - `Default description template for merge requests`
+
          ```markdown
          ## What does this MR do?
 
@@ -382,6 +385,7 @@ We encourage utilizing our available [Google Groups](https://groups.google.com/m
 ### Google Groups
 
 Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues/246) and are structured as:
+
   - sec-section
   - sec-govern
   - sec-secure
@@ -394,7 +398,6 @@ Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues
   - sec-secure-composition-analysis
 
 The members of each google group consists of stable counterparts and the correct `eng-dev-[sub-department]-[team]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated.
-
 
 ## Staying Informed and Informing Team Members
 
@@ -541,11 +544,9 @@ In addition to our group retrospectives, we facilitate an async Sec Section leve
 1. The week the milestone ends - Groups hold their retrospectives. Team members bubble-up identified topics and follow-up items (outcomes) to the [section retrospective document](https://docs.google.com/document/d/1g_FIMgr9r_Yf56xISxoI8B-1G-kbP3PQSeo7W-kKj24/edit#).
 1. The week of the release -  Section wide retrospective async review shared in the `#sec-section` Slack channel.
 
-
 #### DRI Responsibilities
 
 The [DRI](/handbook/people-group/directly-responsible-individuals/) for Section-wide retrospectives will be the Senior Engineering Manager. The SEM will find a volunteer if it is needed on specific milestones. The following tasks are executed each milestone:
-
 
 1. Prior to the async section retrospective, review bubble-up topics and identify 2-3 themes to support async discussion topics.
 1. Ask everyone through Slack in `#sec-section` to review the [section retrospective document](https://docs.google.com/document/d/1g_FIMgr9r_Yf56xISxoI8B-1G-kbP3PQSeo7W-kKj24/edit#) and add comments.

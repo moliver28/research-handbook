@@ -23,6 +23,7 @@ description: "Learn about the various aspects of Cost Management"
 ### Cloud Cost Buckets
 
 The first thing to understand about infrastructure cost is that you can generally categorize it into a few main areas of focus. The areas are listed below in descending order of how much the bucket contributes to overall infra cost in general for most company's. Cloud Provider services may provide abstractions of these buckets, for instance serverless computing, but at their core each service can still be categorized into one of these 3 buckets of infra spend.
+
 - Compute
   - server running cost, includes cpu/ram cost of the hardware used to run these services.
 - Storage
@@ -53,7 +54,6 @@ There are some basic cloud optimizations that apply to all resources, regardless
   - traffic sent between providers/continents/regions is the most expensive, avoid this when possible
 - Avoid network hairpinning
 
-
 ## Cost Dimensions
 
 There are generic cost dimensions that apply to all company's, as well as some specific dimensions that are similar to other company's, but we define below.
@@ -71,6 +71,7 @@ There are generic cost dimensions that apply to all company's, as well as some s
 #### Service
 
 This could also be called a "product", the two are interchangeable, and this can refer to internal or external services.
+
 - Compute Engine / EC2
 - Object Storage / S3
 - GitLab CI
@@ -101,7 +102,6 @@ This could also be called a "product", the two are interchangeable, and this can
 - GitLab Internal
 - SaaS - Premium
 - SaaS - Ultimate
-
 
 ## Resource Links
 
