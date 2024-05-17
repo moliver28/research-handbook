@@ -18,6 +18,11 @@ This page describes the program methodology for GitLab IT programs to ensure str
 - Program requires multiple departments for requirements and testing
 - Program works on a SOX system
 
+## Non SOX projects tha tfollow Prgram development
+
+- Please refer to the 1 time programd evelopment controls below as a best practice
+- For UAT insteak off test cases for SOX applicaitons as a best practice provide screenshots for the high risk critical test scenarios
+
 ## Program governance
 
 Every program must have a set of program governance. This includes:
