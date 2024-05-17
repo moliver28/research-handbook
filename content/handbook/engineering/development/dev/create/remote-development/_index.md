@@ -32,6 +32,7 @@ The following people are permanent members of the Remote Development Engineering
 **Product, Design, Technical Writing, Security & Quality**
 
 {{< stable-counterparts role="(Product Manager|Technical Writer|Software Engineer in Test|Security Engineer).*(Create:Remote Development|Create \(Remote Development)|Dev\:Create" >}}
+
 ### ☕ Category DRIs
 
 <span id="-team-category-dris" data-message="alias anchor for old links"></span>
