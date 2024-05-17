@@ -72,6 +72,8 @@ While our team can influence people at each stage, our key focus is on Awareness
 - views from content published across owned and earned channels
 - developers engaged through webinars, workshops, and industry events
 
+We also look at Developer Relations influenced pipeline and active community members as performance indciators. 
+
 We recognize these KPIs don't capture the impact of the diverse range of work that our team does but understand that tradeoffs can be necessary to effectively communicate our impact within GitLab.
 
 #### OKRs
