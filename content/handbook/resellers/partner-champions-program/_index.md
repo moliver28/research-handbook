@@ -84,7 +84,6 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 1. Program Manager: Monitor the Champions Nomination form for new applicants
 1. Partner Support: For new Nominees, set the "GitLab Champion" user field in Impartner to "Nominated".
 1. Program Manager: Gain approval for the addition of new champion applicant
-1. Sponsor GitLab SA: Notify applicant via email of their approval status.
-1. Partner Support: Set the "GitLab Champion" user field in Impartner to "Approved".
+1. Program Manager: Once approval is granted, notify the Sponsor GitLab SA to begin onboarding the new Champion.
 1. Sponsor GitLab SA: Invite the new Champion via email address to be a `Developer` member of the [https://gitlab.com/gitlab-partners-public/gitlab-champions](https://gitlab.com/gitlab-partners-public/gitlab-champions) group.
 1. Sponsor GitLab SA: Create an onboarding issue for the new Champion, and assign users appropriately to handle the tasks in the issue
