@@ -108,6 +108,7 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 | 17.3               |                   |                   |
 
 {{% details summary="Previous Volunteers" %}}
+
 | Milestone         | Product Designer  | Engineer          |
 | ----------------- | ----------------- | ----------------- |
 | [16.1 (2023-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/394768) | Veethika M         | Payton Burdette |
@@ -118,6 +119,7 @@ Going forward, every milestone, we will ask Product Designers and Engineers to v
 | [15.2 (2022-06-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/362122) | Emily Bauman       | Jannik Lehmann  |
 | [15.1 (2022-05-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/361641) | Sascha Eggenberger | Robert Hunt     |
 | [15.0 (2022-04-18)](https://gitlab.com/gitlab-org/gitlab/-/issues/356703) | Annabel Gray       | Phil Hughes     |
+
 {{% /details %}}
 
 #### How do I volunteer?

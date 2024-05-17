@@ -43,7 +43,7 @@ Every quarter, we include a question in the SUS survey that asks whether respond
 **Copy for the permission to record question in Calendly invite**:
 
 > We would like to record (1) the conversation you have with our team member and (2) anything you choose to share on your screen with us during the call. We would like to share the recording of the call with other GitLab team members. The recording is stored securely and would never be shared with anyone outside of the GitLab team. Please indicate below whether you give your permission for us to record the conversation and share with our team.
-
+>
 > I agree, I give my permission for my voice and screen to be recorded.
 >
 > I disagree, I do not want my voice or screen to be recorded.
