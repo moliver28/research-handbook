@@ -54,7 +54,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. The function added by GitLab Duo requires the `math/rand` package. Below the `go-figure` import, start typing `math`. Note the Tanuki icon showing code generation in progress.
 
-1. Once you see `math/rand` appear, press Tab. Your code should now look similar to this:
+1. Once you see `math/rand` appear, press **Tab**. Your code should now look similar to this:
 
     ```go
     package main
@@ -163,7 +163,7 @@ test:
         - go test ./...
 ```
 
-    You should now have a pipeline that passed the tests. If a job failed, feel free to use Root Cause Analysis to troubleshoot any errors.
+You should now have a pipeline that passed the tests. If a job failed, feel free to use **Root Cause Analysis** to troubleshoot any errors.
 
 ## Lab Guide Complete
 

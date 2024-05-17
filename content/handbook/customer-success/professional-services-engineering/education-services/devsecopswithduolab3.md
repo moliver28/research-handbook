@@ -53,7 +53,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
     > GitLab Duo can also provide a summary of code changes in an MR. We will return to this feature later in the course.
 
-1. Leave all other options as default and select **Create merge request**
+1. Leave all other options as default and select **Create merge request**.
 
 ## Task C. Add Code to Your MR
 
@@ -84,7 +84,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Replace the contents of `main.go` with the AI generated code.
 
-1. Select Source Control from the left sidebar.
+1. Select **Source Control** from the left sidebar.
 
 1. Select the **Commit** button to commit the code changes.
 

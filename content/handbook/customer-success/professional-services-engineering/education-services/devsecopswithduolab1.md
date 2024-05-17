@@ -29,7 +29,7 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
     > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
 
-1. From your **My Test Group** training subgroup, navigate to the GitLab Duo Principles Project
+1. From your **My Test Group** training subgroup, navigate to the GitLab Duo Principles Project.
 
     > This project has been pre-populated with a `go.mod` file that will be used in upcoming labs. It also contains an `examples` folder that holds additional examples and activities per lab. 
 
