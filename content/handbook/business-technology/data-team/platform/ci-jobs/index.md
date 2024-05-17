@@ -76,7 +76,7 @@ Run this if you need a clone of any other raw schema in order to test changes or
 
 Clones the entire RAW DB, created due to timeout issues when trying to clone the DB using SF commands.
 
-**NB Due to the size of the DB created by running, only run this when you absolutely have to run through complete platform tests. Likely only applicable for infrastructure upgrades. **
+**NB Due to the size of the DB created by running, only run this when you absolutely have to run through complete platform tests. Likely only applicable for infrastructure upgrades.**
 
 #### `force_clone_both`
 
