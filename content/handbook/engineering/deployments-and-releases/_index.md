@@ -6,8 +6,8 @@ title: "Deployments and Releases"
 
 This page describes the deployment and release approach used to deliver changes to users. The overall process consists of two significant parts:
 
-1 **Monthly self-managed release**: GitLab version (XX.YY.0) [published every month][process-monthly-release]. From this monthly release, [patch][process-patch-release], [non-critical][process-security-release-non-critical], and [critical][process-security-release-critical] security releases are created as needed
-1 **GitLab.com deployment**: A Continous Delivery process to deploy [branches created from master branch][auto-deploy], on regular intervals.
+1. **Monthly self-managed release**: GitLab version (XX.YY.0) [published every month][process-monthly-release]. From this monthly release, [patch][process-patch-release], [non-critical][process-security-release-non-critical], and [critical][process-security-release-critical] security releases are created as needed
+1. **GitLab.com deployment**: A Continous Delivery process to deploy [branches created from master branch][auto-deploy], on regular intervals.
 
 For more details on the individual processes and how to use them please see the [Deployments page](/handbook/engineering/deployments-and-releases/deployments) for GitLab.com changes and the [Releases page](/handbook/engineering/releases/) for changes for self-managed users.
 
