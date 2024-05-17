@@ -29,9 +29,9 @@ The following people are permanent members of the IDE Engineering Group:
 
 {{< team-by-manager-slug "adebayo_a" >}}
 
-**Product, Design & Quality**
+**Product, Design, Technical Writing, Security & Quality**
 
-{{< stable-counterparts role="Create:IDE" manager-role="Engineering Manager(.*)Create:IDE" >}}
+{{< stable-counterparts role="(Product Manager|Technical Writer|Software Engineer in Test|Security Engineer).*(Create:IDE|Create \(IDE)|Dev\:Create" >}}
 
 ### ☕ Category DRIs
 
