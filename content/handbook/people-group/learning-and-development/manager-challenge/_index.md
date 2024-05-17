@@ -86,7 +86,6 @@ Week 1 will be focused on developing your leadership style as a manager, differe
 | Week 1 | Async | Session 2 pre-work |
 | Week 1 | 1 hr 20 minutes | Session 2: Building High Performing Teams or Team Effectiveness Tools |
 
-
 ### Week 2 - Management Fundamentals
 
 Week 2 will be focused on management fundamentals, coaching team relationships, building trust, and aligning values to inspire motivation
@@ -186,7 +185,7 @@ The document is intended to be a starting point for managers to document where t
 1. **What skills will I be building?**
     - You will be building a range of skills that include: coaching, managing performance, crucial conversations, feedback, building an inclusive culture, developing high performing teams, getting to know your team, and much more!
 1. **How does this complement our values?**
-    - All of the challenges will reinforce our values by applying management techniques to lead teams in a remote environment. In the weekly charts above, each day or topic will have a [values competency](/handbook/competencies/#list) that you can expect to improve upon.
+    - All of the challenges will reinforce our values by applying management techniques to lead teams in a remote environment. In the weekly charts above, each day or topic will have a [values competency](/handbook/people-group/competencies/#list) that you can expect to improve upon.
 1. **Is the content in the slides in the Handbook?**
     - Yes! All of the content will be in the Handbook. We are creating Google Slides to visualize the content for the challenges but all of it will live in the handbook.
 1. **What if I can’t attend a Live Learning session or complete a challenge?**
@@ -268,7 +267,6 @@ For the pilot Manager Challenge program, the Learning & Development team held a 
 
 {{< youtube "v_ohUbaRFFw" >}}
 
-
 ## Pilot Program
 
 In September 2020, the L&D team piloted the Manager Challenge to a group of People Leaders in People Success, Engineering, and Product. Learn more about the pilot content by [reviewing the pilot epic](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/1).
@@ -290,4 +288,3 @@ Pilot Kickoff Video:
 - [2021 May Manager Challenge](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/38)
 - [2021 January Manager Challenge](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/26)
 - [2020 September Manager Challenge Pilot](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/1)
-

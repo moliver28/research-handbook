@@ -55,6 +55,7 @@ Schedule a call with the CFO's [Sr EBA to the CFO]({{< ref "eba#e-group-member-e
 During the program, you will gain valuable context from a variety of conversations that you'll be part of.
 
 There will be short-term administrative tasks that you'll be asked to perform as the shadow.
+
 1. Handbook updates
 1. Prepare for, take notes during, and follow up on meetings
 
@@ -78,7 +79,6 @@ There will be short-term administrative tasks that you'll be asked to perform as
 Meetings come in many different formats. Your responsibilities may change slightly based on the kind of meeting.
 
 Here are the responsibilities shadows have during meetings:
-
 
 | Meeting type                     | Notes?         | Timekeeping?   |
 | -------------------------------- | -------------- | -------------- |
@@ -105,6 +105,7 @@ Shadows are responsible for being aware of the current time and verbally providi
 You can use this [shell script](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/scripts/setalarm.sh) (MacOS only) to run a timer for the desired number of minutes. The script will notify you 5 minutes before the end of the meeting, and will copy "We have five minutes left" to you clipboard, so you can paste the text directly in the Zoom chat in addition to verbalizing it. At the end of the meeting, the same will occur with "We are at time".
 
 To use the script:
+
 1. Download [setalarm](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/scripts/setalarm.sh), making sure to preserve the .sh extension. (recommended within your Home folder for easy access)
 1. Load MacOS Terminal by running `Cmd+Space` and typing `terminal`.
 1. Run `source setalarm.sh` to load the `setalarm` function into memory.
@@ -120,6 +121,7 @@ Finance team members have a high workload and may not be able to complete a full
 
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
+<<<<<<< content/handbook/finance/growth-and-development/cfo-shadow-program.md
 | Tuesday 2024-06-11 | Thursday 2024-06-13 | |
 | Tuesday 2024-07-09 | Thursday 2024-07-11 | |
 | Tuesday 2024-07-16 | Thursday 2024-07-18 | |
@@ -128,4 +130,11 @@ Finance team members have a high workload and may not be able to complete a full
 | Tuesday 2024-08-06 | Thursday 2024-08-08 | |
 | Tuesday 2024-08-12 | Thursday 2024-08-15 | |
 | Tuesday 2024-08-20 | Thursday 2024-08-22 | |
-
+=======
+| Tuesday 2024-04-02 | Thursday 2024-04-04 | Jerome Ng |
+| Tuesday 2024-04-09 | Thursday 2024-04-11 | Rakhi Reddy |
+| Monday 2024-04-15 | Wednesday 2024-04-17 | |
+| Tuesday 2024-04-23 | Thursday 2024-04-25 | |
+| Monday 2024-04-29 | Wednesday 2024-05-01 | |
+| Tuesday 2024-05-14 | Thursday 2024-05-16 | Afroditi Milidou|
+>>>>>>> content/handbook/finance/growth-and-development/cfo-shadow-program.md

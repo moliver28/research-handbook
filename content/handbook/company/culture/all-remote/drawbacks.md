@@ -57,7 +57,7 @@ Some may find it difficult to work in the same setting as they live and sleep, b
 
 **Solutions**
 
-- All-remote companies should not assume that team members will work from their home 100% of the time. Organizations can consider [reimbursing coworking space usage](/handbook/spending-company-money/) and [creating an atmosphere](/handbook/spending-company-money/) where team members are [encouraged to construct a workspace]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}) that is ideal for their comfort and productivity.
+- All-remote companies should not assume that team members will work from their home 100% of the time. Organizations can consider [reimbursing coworking space usage](/handbook/finance/spending-company-money/) and [creating an atmosphere](/handbook/finance/spending-company-money/) where team members are [encouraged to construct a workspace]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}) that is ideal for their comfort and productivity.
 - GitLab team members have shared their own solutions in a number of blog posts, including a series on [working at home with kids](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/) and [utilizing an RV as a traveling office](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence/).
 
 ### Challenge: Different time zones

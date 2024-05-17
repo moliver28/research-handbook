@@ -11,7 +11,6 @@ You are viewing a preview of documentation for the future state of GitLab Identi
 This page is specific to the Okta backend configuration. You may also be interested in the <a href="/handbook/security/identity/platform/provisioning/okta">Okta group and user provisioning</a> documentation, <a href="/handbook/security/identity/guide/app">Tech Stack application user guide</a> and <a href="/handbook/security/identity/approvals">merge request approvals</a> documentation.
 {{% /alert %}}
 
-
 ## Terraform Architecture
 
 The Okta repository is used for managing any configuration that can be performed in the Admin UI. This moves all day-to-day administrative actions and global configuration into state management with MR approval rules and CI/CD automation.
@@ -51,7 +50,6 @@ end
 IDENTITY_REPO_TF_CI --> IDENTITY_VENDOR_OKTA_API_ENDPOINT
 end
 ```
-
 
 ## Okta Policies and Settings Configuration
 
@@ -155,6 +153,7 @@ Our Identity Engineering and Operations Okta system administrators and designate
 We have two super administrator user accounts that are an additional separate user account that is not managed in the centralized control plane that provides back door administrative access. These credentials are secured out-of-band in a vault that requires declaring an incident and requires Identity team two person rule approval to get access to ensure compliance.
 
 We have additional security measures in place for these accounts:
+
 - IP Address access control list (ACL) restricted to VPN known gateway addresses
 - All audit logs for the super administrator event log actions (similar to key logger) are exported by default to our centralized logging system. We also programmatically parse all logs and add them the incident issue comment for transparency.
 - After each break glass incident, the password is rotated automatically to ensure that credentials on the user's machine are no longer usable.

@@ -25,7 +25,6 @@ SA prospect/customer activity is recorded into `Task` objects within Salesforce 
     - [Rattle Setup Video](https://www.youtube.com/watch?v=pW_fHzx7h2Y)
     - If you did not receive an invite to Rattle when you started at GitLab, please submit an Access Request.
 
-
 ### Logging an Activity
 
 - There are multiple ways to log your activity with Rattle ([Log an Activity Video](https://www.youtube.com/watch?v=zRxUJSjujUk&feature=youtu.be))
@@ -95,6 +94,7 @@ While all of these fields can be updated and changed anytime as an opportunity e
 Whenever an SA engages a prospect/customer who has a specific problem to be addressed or goal to be achieved, and that prospect/customer needs validation that GitLab has the solution, you are encouraged to capture that as a technical evaluation. Similar to how there are some deals without a corresponding SA, there may be deals where a technical evaluation is not performed, and SA involvement is minimal.
 
 In case that the opportunity has been closed in Salesforce, and you did not have the chance to complete all the information for your SA activities previously described, do the following:
+
 - Go to the opportunity you need to update, and click on Show Feed and the left hand side of the topics bar.
 - In the post text area, enter `@Sales-Support` and then a brief description of the fields you wish to fill. Example:
   > @[Sales-Support] please update the SA Validated Tech Evaluation Close Status field to Won, and SA Validated Tech Evaluation End Date to 10/14/2021
@@ -139,7 +139,6 @@ If a contact you'd like to associate your activity updates with does not yet exi
 Rattle alerts are messages sent from the Rattle application via Slack that inform you whenver certain actions happen. All users are allowed to create Workflows.
 
 This [tutorial](https://help.gorattle.com/en/collections/3196824-workflows) explains the available options and how to set it up.
-
 
 ### Training Resources
 
@@ -196,6 +195,7 @@ For transparency and awareness, the Rattle activities specific to Solution Archi
 **Rattle didn't send me a notification after the call, what may have been the cause?**
 
 It can take 0-5 minutes for the system to ping you. After that, here are several QA steps:
+
 - Zero external persons listed as invitees on the calendar; the invite was sent by the customer, but the attendee list only has internal GitLab employees
 - The invitees are listed in SFDC, but under a different email address (e.g., email does not match)
 - While we have a primary Email field and another field called something like Email #2, Rattle only looks to the primary Email field.
@@ -220,9 +220,3 @@ Rattle syncs the Salesforce schema every 15 minutes. So when you initially conve
 **Error message: "CannotUpdateConvertedLead"**
 
 This error message occurs when the call happened, the Lead was converted to a Contact, and then the call was logged. In this case, it is a caching issue. Run the `/rattle` command to manually log the call.
-
-
-
-
-
-

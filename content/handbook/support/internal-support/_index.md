@@ -22,7 +22,6 @@ Please read the next sections on [GitLab Support's Purpose](#gitlab-supports-pur
 | My customer has [an emergency](https://about.gitlab.com/support/definitions/#Definitions%20of%20Support%20Impact)! | The customer must send a **new** [email](https://internal.gitlab.com/handbook/support/#raising-an-emergency) (internal) to [trigger an emergency](https://about.gitlab.com/support/#how-to-trigger-emergency-support). If not an emergency, you can [STAR it](#i-want-to-escalate-a-ticket). |
 | My customer has a subscription / license issue  | If a [ticket with the customer](#requesting-support-for-customers) is not possible, open [an internal request](#internal-requests).  |
 
-
 This is not an exhaustive list. For anything else you believe the Support team covers, please check the table of contents or search this page.
 
 ## GitLab Support's Purpose
@@ -122,7 +121,7 @@ Note that you cannot send public replies to customers with a Light Agent account
 
 ### GitLab plan or license for team members
 
-For GitLab team members, a GitLab license or plan request is done through [Access requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests). Please follow the appropriate handbook instructions, such as the [Incentive instructions](/handbook/incentives/#gitlab-ultimate), or open an issue with the most appropriate template, such as [the License request template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request) for self-managed instances.  Note that a **staging license** requires your GitLab installation be configured to use the [Customers Portal Staging](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) environment.
+For GitLab team members, a GitLab license or plan request is done through [Access requests](https://gitlab.com/gitlab-com/team-member-epics/access-requests). Please follow the appropriate handbook instructions, such as the [Incentive instructions](/handbook/total-rewards/incentives/#gitlab-ultimate), or open an issue with the most appropriate template, such as [the License request template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=GitLab_Team_Member_License_request) for self-managed instances.  Note that a **staging license** requires your GitLab installation be configured to use the [Customers Portal Staging](https://docs.gitlab.com/omnibus/development/setup.html#use-customers-portal-staging-in-gitlab) environment.
 
 ### Contacting users about GitLab incidents or changes
 

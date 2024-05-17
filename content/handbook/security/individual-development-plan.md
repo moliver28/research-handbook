@@ -33,4 +33,3 @@ The action plan must clearly describe the steps to be taken, potentially in a sp
 ### Questions
 
 Feel free to contact the [Security Team](https://gitlab.slack.com/archives/CM74JMLTU) in our Slack Channel.
-

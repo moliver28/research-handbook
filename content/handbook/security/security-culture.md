@@ -25,6 +25,7 @@ The committee should draft the ways to reach these goals for an open, approachab
 ## Participation
 
 Current (September 2023 - Present) committee members:
+
 - [Madeline Lake](https://gitlab.com/madlake)
 - [Janina Roppelt](https://gitlab.com/jroppelt)
 - [Greg Myers](https://gitlab.com/greg)
@@ -51,7 +52,6 @@ Previously nominated committee members (FY22):
 - [Juliet Wanjohi](https://gitlab.com/jwanjohi)
 - [Liz Coleman](https://gitlab.com/lcoleman)
 - [Philippe Lafoucrière](https://gitlab.com/plafoucriere)
-
 
 ### Participation
 

@@ -12,7 +12,6 @@ title: "Acquisition Process"
 This is a detailed view of our acquisition process. For more information about
 our acquisitions approach visit our [acquisitions handbook](/handbook/acquisitions/).
 
-
 ## Acquisition process
 
 The process is comprised of five key stages:
@@ -218,6 +217,7 @@ The primary acquisition team is designed as a compact unit, and will consist of 
 1. Legal, Corporate lead
 
 The primary acquisition team will engage with other functions and roles as needed:
+
 1. VP Finance and Business Technology
 1. VP Tax
 1. Principal Accounting Officer
@@ -272,6 +272,7 @@ If you have an existing connection, or a regular cadence of interaction, with a 
 Each quarter the Corporate Development team defines a set of [three categories](/handbook/acquisitions/#acquisition-strategy) which are prioritized for that quarter for outbound activity. We commonly refer to them as Quarterly Focus Areas. While this is true especially for our outbound efforts, these categories will be at the center of our overall efforts and focus for that quarter, taking into account inbound prospects as well.
 
 Although we have our quarterly focus areas, we are open to discussing and potentially pursuing an opportunity outside of those focus areas. For us to look into an opportunity outside of our quarterly focus areas, it needs to satisfy one, or more, of the following criteria:
+
 1. Present an outsized revenue potential
 1. Serve as a strategic move (market dynamics etc.)
 

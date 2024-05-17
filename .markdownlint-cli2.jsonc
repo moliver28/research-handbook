@@ -1,34 +1,38 @@
 {
   "outputFormatters": [
     [ "markdownlint-cli2-formatter-codequality" ],
-    [ "markdownlint-cli2-formatter-pretty" ]
+    [
+      "markdownlint-cli2-formatter-prettier.js",
+      {
+        "colors": {
+          "fileName": "white",
+          "separator": "yellow",
+          "ruleText": "cyan",
+          "detailsAndContext": "cyan"
+        }
+      }
+    ]
   ],
   "config": {
     "default": true,
-    "blanks-around-lists": false,
     "code-block-style": { "style": "fenced" },
     "first-header-h1": false,
     "first-line-h1": false,
-    "line-length": false,
     "header-style": { "style": "atx" },
     "heading-increment": false,
     "hr-style": { "style": "---" },
+    "line-length": false,
     "no-bare-urls": false,
     "no-duplicate-heading": { "siblings_only": true },
     "no-emphasis-as-heading": false,
     "no-inline-html": false,
-    "no-multiple-blanks": false,
     "no-trailing-punctuation": { "punctuation": ".,;:!。，；：！？" },
     "ul-indent": false
   },
-  "fix": true,
   "ignores": [
-    "layouts/**",
-    "content/handbook/business-technology/**/*.md",
     "content/handbook/customer-success/**/*.md",
     "content/handbook/engineering/**/*.md",
     "content/handbook/marketing/**/*.md",
-    "content/handbook/product/**/*.md",
     "content/handbook/sales/**/*.md",
     "content/handbook/company/culture/all-remote/remote-work-report-2020.md",
     "content/handbook/company/culture/all-remote/universal-remote.md"

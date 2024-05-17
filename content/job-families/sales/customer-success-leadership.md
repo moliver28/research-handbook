@@ -13,7 +13,6 @@ The Customer Success Leadership team is responsible for leading a cross-cuntiona
 | [Senior Director of Customer Success](#senior-director-of-customer-success) | [Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Vice President of Customer Success](#vice-president-of-customer-success) | [Grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
-
 ### Director of Customer Success
 
 The Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/vp-of-customer-success/).
@@ -116,6 +115,7 @@ The Vice President of Customer Success is a job grade [level 12](/handbook/total
 #### Public Sector Customer Success Leader Requirements
 
 In addition to the corresponding Customer Success Leadership level requirements:
+
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
 

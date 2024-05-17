@@ -7,7 +7,7 @@ layout: single
 
 GitLab Inc. (collectively with its subsidiaries,***“GitLab”***, ***“we”***, ***“our”***) is committed to lawful and ethical behavior in all we do and expects members of GitLab’s Board of Directors (***“Board”***) and officers, employees, and contractors (collectively, ***“Team Members”***) to conduct business ethically, with integrity, and in accordance with all applicable laws and regulations.
 
-GitLab’s culture is based on our [VALUES](https://handbook.gitlab.com/handbook/values/), which are reflected in and reinforced by our Code of Business Conduct and Ethics and various supporting policies, such as our Anti-Fraud Policy and Anti-Retaliation Policy (collectively, ***“Compliance Standards”***). Because GitLab is made up of individuals who are aligned with our VALUES and who are accountable to our customers, shareholders, and each other, we have designed this Ethics and Compliance Program (the ***“Program”***) as an operational framework for our team members. This Program is dedicated to (among other things) making sure GitLab’s  Compliance Standards are current, complete, and readily accessible. Team Members are educated on these Compliance Standards, through continuous training, awareness campaigns, required annual reviews and acknowledgments, and additional resources, including #compliance-legal.
+GitLab’s culture is based on our [VALUES](/handbook/values/), which are reflected in and reinforced by our Code of Business Conduct and Ethics and various supporting policies, such as our Anti-Fraud Policy and Anti-Retaliation Policy (collectively, ***“Compliance Standards”***). Because GitLab is made up of individuals who are aligned with our VALUES and who are accountable to our customers, shareholders, and each other, we have designed this Ethics and Compliance Program (the ***“Program”***) as an operational framework for our team members. This Program is dedicated to (among other things) making sure GitLab’s  Compliance Standards are current, complete, and readily accessible. Team Members are educated on these Compliance Standards, through continuous training, awareness campaigns, required annual reviews and acknowledgments, and additional resources, including #compliance-legal.
 
 While compliance is certainly a company-wide effort, it is as importantly the individual responsibility of each and every GitLab team member. By embracing our Compliance Standards, together we will maintain our good standing and instill our customers and the wider community with confidence when they place their trust in GitLab.
 
@@ -17,11 +17,10 @@ While compliance is certainly a company-wide effort, it is as importantly the in
 
 Listed below are GitLab's policies and procedures, as well as guidance and other resources. This list will be updated, as needed, in order for GitLab to address the constantly evolving worldwide regulatory landscape, and partner with GitLab customers to allow them to meet their own regulatory requirements.
 
-
 - [Acceptable Use Policy](https://about.gitlab.com/handbook/legal/acceptable-use-policy/)
 - [Anti-Corruption Policy](https://about.gitlab.com/handbook/legal/anti-corruption-policy/)
 - [Anti-Fraud Policy](https://about.gitlab.com/handbook/legal/anti-fraud-policy/)
-- [Anti-Harassment Policy](https://about.gitlab.com/handbook/anti-harassment/)
+- [Anti-Harassment Policy](https://about.gitlab.com/handbook/people-group/anti-harassment/)
 - [Anti-Retaliation Policy](https://about.gitlab.com/handbook/legal/anti-retaliation-policy/)
 - [Authorization Matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/)
 - [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
@@ -47,7 +46,7 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 
 ### Policy Translations
 
-Certain policies are now available [here](https://handbook.gitlab.com/handbook/people-policies/#translations) in Dutch, French, and German.
+Certain policies are now available [here](/handbook/people-policies/#translations) in Dutch, French, and German.
 
 ### Guidelines and Other Resources
 
@@ -83,7 +82,7 @@ Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/medi
 
 ### Reporting Workplace Harassment (Non-Anonymous Only)
 
-Team members who are comfortable doing so may report workplace harassment concerns, **non-anonymously**, using GitLab’s [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing). Simply complete and send it to our Team Member Relations Specialists at <teammemberrelations@gitlab.com>. Read our [Anti-Harassment Policy](https://about.gitlab.com/handbook/anti-harassment/#types-of-harassment) to understand the different shapes that harassment may take and to understand the alternative reporting avenues that are available, such as [GitLab’s Chief People Officer](mailto:wbarnes@gitlab.com), [GitLab’s Chief Legal Officer](mailto:CLO@gitlab.com), the [Team Member Relations Team](https://about.gitlab.com/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](https://about.gitlab.com/handbook/people-group/#people-business-partner-alignment-to-division).
+Team members who are comfortable doing so may report workplace harassment concerns, **non-anonymously**, using GitLab’s [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing). Simply complete and send it to our Team Member Relations Specialists at <teammemberrelations@gitlab.com>. Read our [Anti-Harassment Policy](https://about.gitlab.com/handbook/people-group/anti-harassment/#types-of-harassment) to understand the different shapes that harassment may take and to understand the alternative reporting avenues that are available, such as [GitLab’s Chief People Officer](mailto:wbarnes@gitlab.com), [GitLab’s Chief Legal Officer](mailto:CLO@gitlab.com), the [Team Member Relations Team](https://about.gitlab.com/handbook/people-group/team-member-relations/#discussing-private-concerns), or a [Business People Partner](https://about.gitlab.com/handbook/people-group/#people-business-partner-alignment-to-division).
 
 ### Reporting Concerns about Team Member Relations (Anonymously OR Non-Anonymously)
 
@@ -92,7 +91,7 @@ Team members who would like to **anonymously** report workplace harassment conce
 Reports can be made using the platform or through the following avenues, which are available 24 hours a day, 365 days a year.
 
 - A toll-free hotline number for the USA and Canada: 833-480-0010.
-- Direct access phone numbers for other locations, available [here](https://handbook.gitlab.com/handbook/people-group/#how-to-report-violations).
+- Direct access phone numbers for other locations, available [here](/handbook/people-group/#how-to-report-violations).
 - E-mail: <reports@lighthouse-services.com> (must include company name with report)
 - Fax: (215) 689-3885 (must include company name with report)
 

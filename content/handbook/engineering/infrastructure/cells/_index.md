@@ -221,6 +221,22 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 </tr>
 
 <tr>
+<td>Organization for Cells</td>
+<td>
+ 
+[Alex Pooley](https://gitlab.com/alex.pooley)
+</td>
+<td>
+ 
+[Christina Lohr](https://gitlab.com/lohrc)
+</td>
+<td>
+ 
+[Ethan Guo](https://gitlab.com/yanguo1)
+</td>
+</tr>
+
+<tr>
 <td>Architecture</td>
 <td>
  
@@ -440,6 +456,8 @@ We use t-shirt sizing to estimate the time and effort needed to deliver issues/e
 ### Meetings
 
 - Fortnightly Cells X-Functional Sync ([Meeting notes (internal only)](https://docs.google.com/document/d/1i6B_JcSJoN6OWgOazVdwqkYnn4h-a28P2ddWAUIHQdU/edit#heading=h.37jadhgzdghi))
+- Monthly Infrastructure Cells program review ([Meeting notes (internal only)](https://docs.google.com/document/d/1k6tpaFU6noOcM8irLBTB0IyUM-VN_V6zA-VrE5dcuwE/edit))
+- Quarterly Cells program review (TBD)
 
 ### Status updates
 

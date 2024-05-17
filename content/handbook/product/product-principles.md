@@ -88,10 +88,12 @@ When considering how to scope a feature for a release, remember that it is ok to
 MVC means reducing the scope so we can ship quickly. It doesn’t mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/experiment-beta-support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
 
 Examples:
+
 - Ship a feature through the API and not the UI -  [See this release post](https://about.gitlab.com/releases/2022/09/22/gitlab-15-4-released/#graphql-api-endpoint-for-deleting-attachments-from-project) as a great example of this approach was used to build a GraphQL endpoint for deleting attachment from a project.
 - Exposing a minimal set of functionality  - [See this release post](https://about.gitlab.com/releases/2022/11/22/gitlab-15-6-released/#admin-area-runners-job-queued-and-duration-times) where a basic read-only page displaying queued jobs was added and more capabilities were added in subsequent releases.
 
 There are scenarios when an MVC approach is not advised. These include:
+
 - When changing core parts of the experience - An example of a core experience is [comments](https://docs.gitlab.com/ee/user/discussions/#comments-and-threads). When building this out for work items, we waited to release the new feature to end users until we reached parity with comments in Issues and MRs.
 
 ### Iteration
@@ -549,6 +551,7 @@ other new abstractions needed that were identified through real-world usage.
 ### Component Principles
 
 In GitLab the product, it is sometimes the case that optional software or infrastructure is required to enable new capabilities. Some examples include:
+
 - Infrastructure in the form of Runners are required to enable use of GitLab CI/CD
 - Infrastructure and software in the form of Elasticsearch is required to enable Advanced Search
 - Software in the form of the Kubernetes Agent is required to enable GitOps pull-based workflows
@@ -637,6 +640,7 @@ _Note: GitLab does support [plugins that respond to system hooks](https://docs.g
 #### Give products and features descriptive, not distinctive, names
 
 GitLab is a DevOps Platform, not a collection of DevOps point solutions; the naming of GitLab products and features should reflect this. Adopting descriptive names brings other advantages:
+
 - It's [efficient](/handbook/values/#efficiency). Descriptive names are generally not eligible for trademark registration, avoiding the time, effort, and expense of clearing, filing, and maintaining trademark registrations.
 - It's [inclusive](/handbook/values/#diversity-inclusion). Descriptive names are most accessible to a global audience because they can be directly translated into other languages, reducing the risk of loss of meaning inherent in translating abstract, metaphorical, or colloquial names.
 

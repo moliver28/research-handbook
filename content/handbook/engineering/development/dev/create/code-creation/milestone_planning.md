@@ -35,27 +35,27 @@ A weight of 5 generally indicates the problem is not clear or a solution should 
 
 ## Capacity Planning for the Next Milestone
 
-- **Capacity Review**: When planning the next milestone, the engineering manager evaluates the team's available capacity, taking into account [PTO](https://handbook.gitlab.com/handbook/paid-time-off/) schedules and other commitments.
-- **Issue Selection**: The EM selects top-priority issues until the capacity target is met, using the ["Deliverable" label](https://handbook.gitlab.com/handbook/product-development-flow/#required-labels) to mark committed issues.
+- **Capacity Review**: When planning the next milestone, the engineering manager evaluates the team's available capacity, taking into account [PTO](/handbook/people-group/paid-time-off/) schedules and other commitments.
+- **Issue Selection**: The EM selects top-priority issues until the capacity target is met, using the ["Deliverable" label](/handbook/product-development-flow/#required-labels) to mark committed issues.
 
 ## Prioritization and Execution of Work
 
 ### What to Work on First: Deliverables
 
 - **Priority**: Deliverables are considered the highest priority and should be completed before the end of the milestone, aligning with our iteration cycle and monthly release schedule.
-- **Self-Assignment**: Engineers can pick any issue marked with the ["Deliverable" label](https://handbook.gitlab.com/handbook/product-development-flow/#required-labels) and assign it to themselves, making these issues the top priority for the milestone. Issues for the current milestone can be found on the [Code Creation workflow board](https://gitlab.com/groups/gitlab-org/-/boards/5998095).
+- **Self-Assignment**: Engineers can pick any issue marked with the ["Deliverable" label](/handbook/product-development-flow/#required-labels) and assign it to themselves, making these issues the top priority for the milestone. Issues for the current milestone can be found on the [Code Creation workflow board](https://gitlab.com/groups/gitlab-org/-/boards/5998095).
 - **Importance**: It's crucial for engineers to make a concerted effort to complete these deliverables within the cycle, and to promptly communicate any obstacles to their engineering manager.
 - **Communication and Flexibility**: Unexpected challenges can arise, potentially impacting the completion of a deliverable. Early communication of these challenges allows for possible solutions, such as scope reduction or reassignment. If a deliverable cannot be completed within the cycle, it is moved to the next cycle for completion. This scenario is an opportunity for both the engineer and the engineering manager to reflect and learn from the experience.
 
 ### What to Work on Next
 
 - **Stretch Issues**: After fulfilling deliverable responsibilities and other activities, engineers can use any remaining time to work on Stretch issues. These are lower priority and not expected to be completed within the current iteration cycle but are potential deliverables for the next cycle. Early progress on these issues is considered a bonus.
-- **Other Ideas**: Engineers are encouraged to use spare time to contribute to any work they believe will significantly benefit the product or company. As the [general guidelines state](https://handbook.gitlab.com/handbook/values/#dont-wait), “we recognize that inspiration is perishable, so if you’re enthusiastic about something that generates great results in relatively little time feel free to work on that.” While pursuing such initiatives, engineers should ensure proper issue assignment and consider sharing their work in relevant channels for visibility and collaboration.
-- **Responsibility over Rigidity**: We expect people to be [managers of one](https://handbook.gitlab.com/handbook/values/#efficiency) and prefer [responsibility over rigidity](https://handbook.gitlab.com/handbook/values/#efficiency), so there’s no need to ask for permission if you decide to work on something that’s not on the issue board, but please keep your other responsibilities in mind, and make sure that there is an issue, you are assigned to it, and you share it with the team.
+- **Other Ideas**: Engineers are encouraged to use spare time to contribute to any work they believe will significantly benefit the product or company. As the [general guidelines state](/handbook/values/#dont-wait), “we recognize that inspiration is perishable, so if you’re enthusiastic about something that generates great results in relatively little time feel free to work on that.” While pursuing such initiatives, engineers should ensure proper issue assignment and consider sharing their work in relevant channels for visibility and collaboration.
+- **Responsibility over Rigidity**: We expect people to be [managers of one](/handbook/values/#efficiency) and prefer [responsibility over rigidity](/handbook/values/#efficiency), so there’s no need to ask for permission if you decide to work on something that’s not on the issue board, but please keep your other responsibilities in mind, and make sure that there is an issue, you are assigned to it, and you share it with the team.
 
 ## Workflow and Label Management
 
-- **Label Updates**: It's crucial for engineers to update the ["workflow" labels](https://handbook.gitlab.com/handbook/product-development-flow/#build-track) accurately as issues progress from "ready for development" to "in dev" to "in review."
+- **Label Updates**: It's crucial for engineers to update the ["workflow" labels](/handbook/product-development-flow/#build-track) accurately as issues progress from "ready for development" to "in dev" to "in review."
 - **Responsibility**: Engineers are responsible for keeping the workflow labels up to date on all issues they are working on during the milestone.
 
 This milestone planning process is designed to maximize our team's effectiveness by ensuring that everyone is aligned on priorities and responsibilities. It fosters a collaborative environment where every team member contributes to the planning process, leading to a more organized and productive development cycle.

@@ -13,7 +13,7 @@ To get started with GitLab Duo, we will test out some of the basic code generati
 
 > In this task, we are going to generate a basic hello world program in Go using GitLab Duo. This task will help you get familiar with the process of creating code in a project with GitLab Duo.
 
-1. Navigate to your GitLab Duo project
+1. Navigate to your GitLab Duo Principles project
 
 1. Select **Edit > Web IDE**
 

@@ -11,7 +11,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 ## Task A. Creating an Issue with GitLab Duo
 
-1. Navigate to your GitLab Duo Project.
+1. Navigate to your GitLab Duo Principles Project.
 
 1. In your project, from the left sidebar, select **Plan > Issues**
 

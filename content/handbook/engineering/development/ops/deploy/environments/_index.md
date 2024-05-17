@@ -543,10 +543,6 @@ GitLab group to host the project.
 
 If the infrastructure is temporary, you can manage it with whichever tools you prefer.
 
-Currently hosted projects:
-
-- [arm64-runners](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/infra/arm64-runners): IaC for arm64-based GitLab runners for some projects requiring it due to the lack of arm64-based shared runners.
-
 ### Example/Demonstration projects
 
 When you need to create an example project for demonstartion,

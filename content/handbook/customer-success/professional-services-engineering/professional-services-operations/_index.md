@@ -219,7 +219,7 @@ Accurate time tracking records of hours is essential to ensure revenue can be re
 - If a team member did not work the time allocated for the week, then hours would be added to the PTO feature in Kantata
 - Notes are required for the PS Time Tracking Non Credit projects only, not on customer projects
 
-  - PTO should be submitted in the time off feature in Kantata, and also follow the company guidelines, [time off process](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
+  - PTO should be submitted in the time off feature in Kantata, and also follow the company guidelines, [time off process](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
   - Holidays along with Family and Friends day are scheduled on the Kantata calendar
 
 - Time is required to round to the nearest quarter hour, example:

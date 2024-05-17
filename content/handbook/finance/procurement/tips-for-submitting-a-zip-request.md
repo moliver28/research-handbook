@@ -5,6 +5,7 @@ title: Tips for Submitting a Zip Request
 If purchasing Home Office Equipment and/or Software for your individual work use that is <$5K USD, see [Other Services](/handbook/finance/procurement/#other-services) since a Zip Purchase Request is not required in these instances.
 
 Getting started with Zip:
+
 1. Login to Zip via your [Okta home page](https://gitlab.okta.com/app/UserHome#).
 1. If you need Zip access, [submit an access request here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request&_gl=1*bsfkbc*_ga*MzkwMDUyMjg5LjE2MzU3NzYxMDA.*_ga_ENFH3X7M5Y*MTY3NzYyMDEwMi4xMzkuMS4xNjc3NjIwOTc3LjAuMC4w).
 1. Review Zip training materials:
@@ -17,6 +18,7 @@ Depending on the commodity type of your request, specific conditional questions 
 ### Description and Category
 
 Provide a brief description of your purchase and be sure to select the correct category, subcategories, and type of purchase
+
 - **New** purchase would be any product or service that is brand new.
 - **Renewal** would be any renewals or add-ons with an existing vendor.
 
@@ -54,7 +56,6 @@ A Contractor or an Independent Contractor (IC) **is an individual** (not an enti
 1. If you need to cancel / terminate the Contractor’s agreement earlier than the specified term, review the [Cancellation process](/handbook/finance/procurement/#6-cancellation) and reach out to the Procurement Team in the #procurement slack channel
 
 *Contractors / Consultants that require Orange and Red Data access, that will be processed or stored outside GitLab's systems, are considered "Professional Services" and are subject to a full security review. Please see the [Security Third Party Risk Management Handbook](/handbook/security/security-assurance/security-risk/third-party-risk-management.html) for more details.
-
 
 #### Submitting a request for New Software
 
@@ -112,4 +113,3 @@ By submitting a Zip Change Request, the applicable approvers will be added to th
 ## Procurement Office Hours
 
 If you have any questions or concerns that may not be addressed in the Handbook, we invite you to join us for Procurement Office Hours every Wednesday. During this dedicated time, our Procurement Team will be readily available to assist you and provide answers to your inquiries. If you're unable to join a call, please feel free to submit your questions in our [Agenda](https://docs.google.com/document/d/1jm_LMJn_y4aNEO1eREz5Va0I1btuk65FPaXVy8oJpfQ/edit), and we'll ensure a prompt response.
-

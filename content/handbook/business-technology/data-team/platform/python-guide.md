@@ -68,7 +68,7 @@ As per definition:
 > Readability counts.
 >
 > *— The Zen of Python*
-
+>
 > Code is much more often read than it is written.
 >
 > *— Guido van Rossum*
@@ -79,6 +79,7 @@ Among many other things, it is vital to underscore the need to have a clean, cle
 
 As a supplement of the `Zen of Python`, we had an intention to underscore a couple of more viewpoints to ensure and keep our code base in a good shape. This is half a joke, half a truth, but provides good general overview for the high standards we want to leverage.
 Here is our `GitLab Zen of Python` proposal:
+
 - `G`ratitude and respect for `PEP 8`
 - `I`nsist on writing well-structured code
 - `T`rust `Pythonic` way of thinking and coding, and introduce a good habit of using it on a daily basis
@@ -87,6 +88,7 @@ Here is our `GitLab Zen of Python` proposal:
 - `B`oost usage of a modular code style over script-like approach
 
 Probably a couple more of them are count:
+
 - Advocate for proper naming of variables, classes, functions and modules
 - Favor a modular code style over script-like approach
 - Prefer using a virtual environment over existing interpreter
@@ -165,12 +167,14 @@ def bar(x, y):
 #### Function arguments
 
 Arguments can be passed to routines in four different ways:
+
 1. `Positional arguments` - for instance, `foo(message, recipient)`
 2. `Keyword arguments` - for instance, `foo(message, to, cc=None, bcc=None)`. Here `cc` and `bcc` are optional, and evaluate to `None` when they are not passed another value.
 3. `Arbitrary argument list` (`*args`)
 4. `Arbitrary keyword argument dictionary` (`**kwargs`)
 
 It is up to the engineer writing the function to determine which arguments are positional arguments and which are optional keyword arguments, and to decide whether to use the advanced techniques of arbitrary argument passing. If the advice above is followed wisely, it is possible and enjoyable to write `Python` functions that are:
+
 - easy to read (the name and arguments need no explanations)
 - easy to change (adding a new keyword argument does not break other parts of the code)
 
@@ -777,7 +781,6 @@ For an explanation of chmod 755 read this [askubuntu page](https://askubuntu.com
 
 Using mutable data structures as default arguments in functions can introduce bugs into your code. This is because a new mutable data structure is created once when the function is defined, and the data structure is used in each successive call.
 
-
 ```python
 def append_to(element, to=[]):
     to.append(element)
@@ -792,13 +795,12 @@ print(my_other_list)
 
 Output:
 
-```
+```console
 [12]
 [12, 42]
 ```
 
 > **Note:** Handy link for this topic: [Python gotchas](https://docs.python-guide.org/writing/gotchas/)
-
 
 #### Exception handling
 
@@ -847,7 +849,6 @@ while maximum_backoff_sec > (2 ** n):
 - Pipeline specific operations should be stored in /extract.
 - The folder structure in extract should include a file called `extract_{source}_{dataset_name}` like `extract_qualtrics_mailingsends` or `extract_qualtrics` if the script extracts multiple datasets. This script can be considered the main function of the extract, and is the file which gets run as the starting point of the extract DAG.
 
-
 #### Unit Testing with `pytest`
 
 [**Pytest**](https://docs.pytest.org/en/7.2.x/index.html) is used to run unit tests in the `/analytics` project. The tests are executed from the root directory of the project with the `python_pytest` CI pipeline job. The job produces a `JUnit` report of test results which is then processed by `GitLab` and displayed on merge requests.
@@ -878,6 +879,7 @@ New testing files should be placed in a directory named `test`, usually under th
 A testing file should contain one or more tests.
 Test functions should have `test_*` naming pattern in their name.
 An individual test is created by defining a function that has one or many plain Python `assert` statements.
+
 - If the asserts are all `True`, the test passes.
 - If any asserts are `Fals`e, then the test will fail.
 
@@ -1114,10 +1116,10 @@ def test_get_response(utils):
 ##### Beyond pytest: Useful pytest Plugins
 
 When `pytest` is not able to answer your needs is more complicated scenarios, handy plugins should be found. By now, didn't find any usage outside of `pytest` in `/analytics` repo, and it is good to know there are some useful tools can help you do your work.
+
 - [pytest-randomly](https://github.com/pytest-dev/pytest-randomly) - Pytest plugin to randomly order tests and control `random.seed`.
 - [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/) - This plugin produces coverage reports. Compared to just using coverage run this plugin does some extras: `Subprocess support`, `Xdist support`, `Consistent pytest behavior`
 - [Full plugin list](https://docs.pytest.org/en/latest/reference/plugin_list.html) - list of `pytest` plugins.
-
 
 #### Tools for supporting coding quality
 
@@ -1159,7 +1161,6 @@ $ run black --check extract/saas_usage_ping/usage_ping.py
 ## Run mypy for extract/ folder
 mypy extract/ --ignore-missing-imports
 ```
-
 
 ##### flake8
 
@@ -1206,6 +1207,7 @@ run vulture . --min-confidence 100
 For more elements on how we automated linter to keep code quality on the elevated level, refer to [🐍 Python CI jobs](/handbook/business-technology/data-team/platform/ci-jobs/#-python). All of these linters can be tested automatically and for that purpose, we created a comprehensive set of commands using [Makefile](https://gitlab.com/gitlab-data/analytics/-/blob/master/Makefile).
 
 In addition, recommendation to check, explore and considering:
+
 - [`pycodestyle`](https://github.com/PyCQA/pycodestyle)
 - [`yapf`](https://github.com/google/yapf)
 - [`autopep8`](https://pypi.org/project/autopep8/)

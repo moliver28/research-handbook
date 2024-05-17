@@ -68,7 +68,7 @@ To contact Govern sub-department development people leaders leaders use the foll
 
 {{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Govern:Threat Insights" %}}
 
-{{% team-by-manager-slug manager="pcalder" team="end Engineer(.*)Govern:Threat Insights" %}}
+{{% team-by-manager-slug manager="ryaanwells" team="end Engineer(.*)Govern:Threat Insights" %}}
 
 ## Stable Counterparts
 
@@ -117,7 +117,7 @@ OKRs can be changed or closed during the quarter if they are completed, or as ou
 
 To support our teams, and commitments made to internal and external customers, team members in Govern are encouraged to create a PTO issue before going on leave lasting a week or longer.
 
-The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](https://handbook.gitlab.com/handbook/paid-time-off/) policy.
+The issue provides a place to discuss and document coverage for any work in progress, or projects where the team member is the directly responsible individual (DRI), and support the [Paid Time Off at GitLab](/handbook/people-group/paid-time-off/) policy.
 
 We use an internal issue tracker as team member PTO is not public information, and a PTO template
 - [PTO issue list](https://gitlab.com/gitlab-com/govern-sub-department/-/issues/?sort=weight_desc&state=opened&label_name%5B%5D=PTO&first_page_size=20)
@@ -151,7 +151,7 @@ Because we have a wide range of domains to cover, it requires a lot of different
 
 ## Everyone can contribute
 
-At GitLab our goal is that [everyone can contribute](https://handbook.gitlab.com/handbook/company/mission/#contribute-to-gitlab-application). This applies to GitLab team members and the wider community through community contributions. We welcome contributions to any and all features, but recognize that first time contributors may prefer to start with smaller features. To support this we maintain a list of `quick wins` that may be more suitable for first time contributors, and contributors new to the domains in Govern.
+At GitLab our goal is that [everyone can contribute](/handbook/company/mission/#contribute-to-gitlab-application). This applies to GitLab team members and the wider community through community contributions. We welcome contributions to any and all features, but recognize that first time contributors may prefer to start with smaller features. To support this we maintain a list of `quick wins` that may be more suitable for first time contributors, and contributors new to the domains in Govern.
 
 - [Quick wins](https://gitlab.com/dashboard/issues?sort=updated_desc&state=opened&label_name[]=quick+win&label_name[]=devops::govern)
 

@@ -31,7 +31,6 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. Act as a CEO of yourself and your role by taking responsibility to set goals and appropriate timelines. Prioritize your contributions and know it's [impossible to know everything]({{< ref "values#its-impossible-to-know-everything" >}}).
 1. Communicate clearly with your team and people leader on the status of your goals. Act quickly to address areas that pose a challenge or to reassess goals that cannot be reached in an alloted timeframe.
 
-
 ### Examples of actions from managers of one at GitLab
 
 1. When asked to attend a synchronous brainstorming call, a team member instead opens an issue and [requests for their team's ideas asynchronously](/handbook/company/culture/all-remote/asynchronous/#how-to-decline-meetings-in-favor-of-async).
@@ -41,7 +40,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. When a scheduled meeting agenda is complete 10 minutes before the call is set to end, an attendee ends the call early.
 1. A people leader hires a new team member that demonstrates our [CREDIT values]({{< ref "values" >}}).
 1. Before asking for others' time to discuss a topic, they dedicate time to process their thoughts and [make a proposal]({{< ref "values#make-a-proposal" >}}).
-1. A manager of one prioritizes wellbeing by blocking their calendars for fitness, meals, [paid time off](/handbook/paid-time-off/), and personal appointments.
+1. A manager of one prioritizes wellbeing by blocking their calendars for fitness, meals, [paid time off](/handbook/people-group/paid-time-off/), and personal appointments.
 1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public]({{< ref "values#public-by-default" >}}) and with a [low level of shame]({{< ref "values#low-level-of-shame" >}}).
 
 {{< youtube "d0x-JH3aolM" >}}
@@ -136,7 +135,6 @@ GitLab division README pages are linked below for context. Reading other READMEs
 - [Finance Team READMEs](/handbook/finance/readmes/)
 - [Legal Team READMEs](/handbook/legal/readmes/)
 - [Office of the CEO READMEs](/handbook/ceo/office-of-the-ceo/readmes)
-
 
 ### Creating Your README
 
@@ -237,7 +235,7 @@ Watch the replay of our conversation with [Jeb Hurley, Co-founder and Managing P
 
 {{< youtube "te3ZfJgFRxI" >}}
 
-**Skills and behavior of [building high performing teams competency](/handbook/competencies/#list) for Managers**:
+**Skills and behavior of [building high performing teams competency](/handbook/people-group/competencies/#list) for Managers**:
 
 - Models and encourages teamwork by fostering collaboration, communication, [trust]({{< ref "building-trust" >}}), shared goals, mutual accountability and support
 - Fosters an environment where results are balanced with time management of multiple assignments and [Direct Responsible Individuals (DRI's)](/handbook/people-group/directly-responsible-individuals/) on important topics
@@ -272,7 +270,6 @@ Building and maintaining high performance includes staying mindful of team well-
 M-teams are management support groups made up of 3 to 6 managers who are in timezones that allow for sync meetings among members. M-teams should set up a regular meeting on a cadence agreed by the members with the agenda being "what's challenging this week?". Decide who will facilitate and each person will get a chance to have their challenge discussed in the meeting. When it's your turn, you talk a little about what you're struggling with. M-groups agree to a level of [confidentiality](https://3plusinternational.com/2017/10/confidentiality-and-the-potential-loss-of-trust/) so that group members are willing to be vulnerable; vulnerability leads to trust and better outcomes for the group.
 
 If you're interested in starting or joining an m-team meeting, reach out to other managers in the [#managers](https://gitlab.slack.com/archives/C5Z55R5J5) Slack channel.
-
 
 ## Articles
 

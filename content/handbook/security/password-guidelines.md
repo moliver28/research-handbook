@@ -7,15 +7,12 @@ title: GitLab Password Guidelines
 Passwords are one of the primary mechanisms that protect GitLab information systems and other resources from unauthorized use. GitLab's [password standard]({{< ref "password-standard" >}}) is based, in part, on the recommendations by [NIST 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html).
 The password standard sets the requirements for constructing secure passwords and ensuring proper password management. GitLab utilizes 1Password for password management.
 
-
 ## 1Password
 
 1Password is a password manager that can be used in two different ways - as a standalone application (by purchasing a standalone license) or as a hosted service (by subscribing). GitLab uses 1Password for Business which is a hosted service.
 
-
 **Important:** Any personal Passwords stored in your GitLab vault will be inaccessible upon separation with GitLab. Please use the complimentry 1Passsword Families membership subscription that comes with your business account to store any personal passwords. This account will stay with you even in the event that you stop working with GitLab.
  For more information on how to redeem your free subscription, please follow the steps outlined in [this article](https://support.1password.com/link-family/).
-
 
 Ideally you memorize one strong password - hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
@@ -91,7 +88,6 @@ joining the GitLab Team account.
    - Deprecation note: This is for existing accounts only. New accounts should
      be created by [creating an issue](https://gitlab.com/gitlab-com/business-ops/change-management/issues/new?issuable_template=change_management_okta)
      to add it to Okta.
-
 
 ### 1Password for teams
 
@@ -191,7 +187,6 @@ the correct vault:
   <img src="../1password-vault-change.gif" alt="Vault switching" width="450"/>
 </div>
 
-
 ### Saving logins
 
 When 1Password detects a login form submission, it may ask if you want to save
@@ -231,6 +226,7 @@ Example for configuring [glab](https://gitlab.com/gitlab-org/cli) with 1Password
 
 - Store your access token in 1Password. In the entry for your GitLab account, create a new section `pat`
  and add a field `api`. Insert the value of your PAT into the newly created field `api`.
+
 <div style="text-align:center;">
   <img src="../1pass-pat-setup.png" alt="Save login" width="600"/>
 </div>
@@ -241,7 +237,6 @@ The environment variable name goes before the equals sign, and the path to the s
 You can store multiple variable secret pairs per file when you need to use
 secrets together.
 The paths can be obtained by viewing the credential in th 1Password GUI, clicking the dropdown menu and selecting "Copy Secret Reference".
-
 
 ```sh
 ## format is op://vault-name/item-name/[section-name/]field-name
@@ -270,9 +265,7 @@ Where the process is interactive or has dynamic output (progress bars, etc) you 
 Manually adding `op run` every time for common tasks is cumbersome, so check out
 the [tools and tips]({{< ref "../tools-and-tips/onepassword-cli" >}}) section for more more user-friendly configurations.
 
-
 ### Several accounts and unlocking the app
-
 
 If you are planning to use both the GitLab team account and a separate
 individual account you should first add your separate individual account to the

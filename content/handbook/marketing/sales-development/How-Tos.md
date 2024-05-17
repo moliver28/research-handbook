@@ -5,19 +5,19 @@ description: Use this page to quickly learn the basics of inbound lead managemen
 
 ---
 
-While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](https://handbook.gitlab.com/handbook/marketing/sales-development/sales-development-vault/).
+While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](/handbook/marketing/sales-development/sales-development-vault/).
 
 
 ## Where to find your leads and accounts
 
-Inbound leads get automatically imported to SFDC by the Sales Operations team, you can find links to their handbook pages on our [main page](https://handbook.gitlab.com/handbook/marketing/sales-development).
+Inbound leads get automatically imported to SFDC by the Sales Operations team, you can find links to their handbook pages on our [main page](/handbook/marketing/sales-development).
 
 To find and access your leads, please:
 
  1. Navigate to SFDC's homepage
  2. Click on the `Leads` tab.
 
- You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/).
+ You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/roe-kpis-faq/).
 
 ### SDR Lead Views
 
@@ -62,7 +62,7 @@ To find and access your leads, please:
 
 ## How to do Lead Database Management
 
-As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](https://handbook.gitlab.com/handbook/marketing/sales-development/roe-kpis-faq/).
+As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](/handbook/marketing/sales-development/roe-kpis-faq/).
 
 
 | Step | Action                                                                                                                                  |
@@ -411,7 +411,7 @@ Team specific variants of these dashboard components will also be found on your 
 
 ## How to Get SAO Credit and Create Opportunities
 
-Qualification criteria is a minimum set of characteristics that a lead must have in order to be passed to sales and become a Sales Accepted Opportunity (SAO), these are split into [Inbound and Outbound Criteria.](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#opportunities)
+Qualification criteria is a minimum set of characteristics that a lead must have in order to be passed to sales and become a Sales Accepted Opportunity (SAO), these are split into [Inbound and Outbound Criteria.](/handbook/sales/field-operations/gtm-resources/#opportunities)
 
 As an SDR or BDR, you will work to connect with inbound/outbound leads that you get a response from to obtain the applicable information required. This information is tracked on the qualification criteria on the `LEAD, CONTACT, and OPPORTUNITY` objects in Salesforce. In order to obtain an SAO, you will need to have the `required information` filled out on the opportunity including documented 2-way communication on the Contacts in the Opportunity. Professional Services opportunities are not credited to sales development, these need to be passed straight to the account AEs for them to qualify.
 
@@ -437,7 +437,11 @@ After the AE/SAL meets with the prospect to verify and supplement qualification 
 
 If an opportunity has incorrect data after it has moved into Stage 1 - Discovery, please Chatter your manager about the required changes, they will then Chatter someone from Sales Dev Operations (Ramona, Panos, Ed) once final changes are agreed upon. No one else from Sales Dev can edit opportunities once they are in Stage 1, so please try and ensure you have all the information on the opportunity before you ask the AE/SAL to accept it.
 
-If the opportunity is for a new group of users in a Large account where sales is working on a large “central” opportunity, then your opportunity should be merged to that opportunity for you to get credit for the users you have brought to the deal. See under [Stage 8](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#opportunity-stages) in the Sales Go To Market Handbook.
+If the opportunity is for a new group of users in a Large account where sales is working on a large “central” opportunity, then your opportunity should be merged to that opportunity for you to get credit for the users you have brought to the deal. See under [Stage 8](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) in the Sales Go To Market Handbook.
+
+### Opportunity Creation Workflow
+
+![Opp-Creation-Workflow](/handbook/marketing/sales-development/FY24OpportunityCreationWorkflow.png)
 
 ### Scheduling IQMs
 
@@ -489,7 +493,7 @@ Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, 
 3. Ensure that relevant activity & products are attached.
 4. Ensure that Products match up to Qualification info in Call Connect and/or Meeting
 5. For BDRs, ensure account was in AWA status
-ensuring that the [RoE](https://handbook.gitlab.com/handbook/marketing/sales-development/#rules-of-engagement-quick-guide) was followed
+ensuring that the [RoE](/handbook/marketing/sales-development/#rules-of-engagement-quick-guide) was followed
 6. Flag in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0), any questions related to the audited opportunities.
 
 ### AUDIT PROCESS

@@ -1,13 +1,6 @@
 ---
-
 title: "Okta FAQs"
 ---
-
-
-
-
-
-
 
 Below are frequently asked questions about Okta and GitLab's implementation of it. If you have an additional question that is not listed here, please ask in #it_help.
 
@@ -58,6 +51,7 @@ Application Requests are managed via a [Change Management Issue](https://gitlab.
 [All new software must go through Procurement](/handbook/finance/procurement/new-software/) before being added to Okta.
 
 **Things to consider before opening a request:**
+
    - Has the Vendor Representative (AE, CSM) confirmed that SSO, SAML or SCIM is supported?
       - Please set up a call with a technical contact for the vendor and start an email thread to confirm available features for SSO and automated user management.
    - How should user creation, updates, and deactivation be processed?
@@ -156,7 +150,7 @@ Okta has two controlled re-authentication parameters -- Factor Lifetime and Sess
 
 Factor Lifetime: Setting a factor lifetime is a way for end users to sign out for the amount of time noted in the Factor Lifetime and not have to authenticate again with MFA at the next sign in. End users must check a box to confirm that the setting should be applied. We have configured this to be 15 minutes. If you are logging on with a machine that isn't your usual device, make sure you don't check this button!
 
-Session Lifetime: The maximum idle time before an authentication prompt is triggered. We have configured this to be 4 hrs. 
+Session Lifetime: The maximum idle time before an authentication prompt is triggered. We have configured this to be 4 hrs.
 
 If you are having issues with excessive authentication requests, please [log an issue](https://gitlab.com/gitlab-com/business-technology/change-management/) and we will investigate.
 

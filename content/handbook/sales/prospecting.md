@@ -60,7 +60,7 @@ Work with your [Sales Development team member](/handbook/marketing/sales-develop
 Work with your Sales Development team member to:
 - Decide which format of approach is best (email, linkedin, phone), and what your cadence will be:
 - Customize the [Prospecting Sequences for AEs](https://docs.google.com/document/d/1ksEGBsDVjQGkSeq8ESKf9Jdy-N7wREq_stnLutJBPTo/edit#heading=h.ufep756p4z4j) template or create your own.
-- Organize the [qualifying questions](/handbook/sales/qualification-questions/) and [customer use cases](/handbook/use-cases/) that might be relevant.
+- Organize the [qualifying questions](/handbook/sales/qualification-questions/) and [customer use cases](/handbook/marketing/use-cases/) that might be relevant.
 - **Practice your elevator pitch.** Both you and your SD teammate need to practice your pitches together to make sure you’re aligned on what you want the customer or prospect to hear. Really work on your tone of voice. You know you’re ready if you can easily tweak it based on who you’re talking to and what’s relevant to them.
 
 **Work with partners:** Work with your Channel Account Manager (CAM), talk to your peers, or use the [Partner Directory](https://partners.gitlab.com/English/directory/) to identify if there is a partner that supports specific accounts and can provide insight into target contacts or stakeholders.
@@ -134,7 +134,7 @@ Holding hurts our prospective customers because while they’re sitting there, t
 
 - [Sales discovery and qualifying questions handbook page](/handbook/sales/qualification-questions/)
 - [Effective discovery handbook page](/handbook/sales/playbook/discovery/)
-- [Most common customer use cases handbook page](/handbook/use-cases/)
+- [Most common customer use cases handbook page](/handbook/marketing/use-cases/)
 
 #### Training
 

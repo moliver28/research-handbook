@@ -15,7 +15,6 @@ We can use Strategic research to:
 - Consider upstream and downstream experiences -- for example, enhancing the Verify experience for GitLab users by using Auto DevOps to help them get started more easily with Continuous Integration.
 - Identify emerging market trends. For example, if customers are signaling an interest in their maturity for adopting DevOps, uncover ways can GitLab coach people in their maturity using Machine Learning or AI.
 
-
 ### How does GitLab think about Strategic research?
 
 **Strategic research is research that is:**
@@ -67,7 +66,6 @@ The outputs from Strategic Research can be found in issues, changes made to docu
 - [GitLab Stage Group 1-year Plans](https://about.gitlab.com/direction/ops/#one-year-plans)
 - [GitLab 3-year strategy](https://about.gitlab.com/direction/#3-year-strategy)
 - [GitLab's Direction Personas](https://about.gitlab.com/direction/#personas)
-
 
 ### Resources for Strategic research
 

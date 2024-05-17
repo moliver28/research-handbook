@@ -38,6 +38,7 @@ Note: While the Customer Success organization also has a [Customer Success Plan]
 In order to ensure that the Customer Success Plan continues to be a living document the [Mutual Customer Success Plan](https://docs.google.com/presentation/d/1VCzXDiwJAwLu9e_JKTWCFkKbbviUWbtRySyTs75Uldc/edit#slide=id.g2a9229693f5_0_5) was jointly developed by the SA and CSM orgs. The Mutual Customer Success Plan represents a living document, capturing the entire content and outcome of a customer's journey with GitLab. It is used interchangeably with Customer Success Plan. The Mutual Customer Success Plan is intended to be dynamic and should therefore be regularly reviewed on an agreed-upon cadence.
 
 Customer Success Planning core goal is to identify and state:
+
 - Business outcomes
 - Key business stakeholders
 - High-impact strategic requirements
@@ -45,7 +46,6 @@ Customer Success Planning core goal is to identify and state:
 - Current and desired capabilities
 - Operational alignment with strategic objectives
 - Perceived gaps and deficiencies in current capabilities
-
 
 ### The Mutual Customer Success Planning process
 
@@ -67,7 +67,6 @@ To summarize, there are three additional fields in the Customer Success Plan sec
 1. Customer Success Plan: field for the URL to the plan
 1. CSM Ready: Check if the plan is/can be handed over to the CSM
 1. Customer Accepted: Check if the customer accepted the plan
-
 
 Please read the [Customer Success Plan page](/handbook/solutions-architects/sa-practices/customer-success-plan/) for more details on the Mutual Customer Success Plan process.
 
@@ -155,6 +154,7 @@ At the end of a quarter, an SA team meets to share what they have been focused o
 1. Grow closer as a team
 
 Anti-goals
+
 1. Perfection
 1. Busy work
 1. Another meeting
@@ -289,7 +289,6 @@ AMER WEST: #us-amer-west-sa-support
 
 These Slack channels are considered to be a safe harbor for all enterprise AE <-> SA communication. When asking questions, please ensure you provide as much context as possible; including the SFDC URL, and type of subscription (SaaS or Self-Managed). Solutions Architecture will monitor and provide best effort support on these requests.
 
-
 ### EMEA Account Engagement Model
 
 EMEA Enterprise Solutions Architects support the Major Account Executives (MAE) as well as the Strategic Account Executives (SAE) with an alignment model.
@@ -325,7 +324,6 @@ In customer accounts where a Channel partner is involved, engagement with the Pa
 Before you invite or request an [Subject Matter Expert](/handbook/solutions-architects/sa-practices/subject-matter-experts) for your opportunity, ensure your opportunity is fully qualified. The SME should be requested by the primary Solutions Architect. This will help make sure we're using our resources efficiently and effectively.
 
 Create an issue in the [SME Triage Project](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/sme-triage) using the template. You can have a look on the [board](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards/sme-triage/-/boards/5983907) for current engagements.
-
 
 ### Issue Creation Details
 

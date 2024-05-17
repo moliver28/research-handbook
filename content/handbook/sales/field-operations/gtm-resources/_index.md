@@ -291,7 +291,7 @@ Rest of the World
 
 #### Lead and Contact Record Ownership
 
-Contact Ownership follows the rules as laid out below. Contact ownership cannot be updated as it is maintained by an [automated process in Salesforce](https://handbook.gitlab.com/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#contact-ownership) which means that the ownership will revert in the nightly run.
+Contact Ownership follows the rules as laid out below. Contact ownership cannot be updated as it is maintained by an [automated process in Salesforce](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/#contact-ownership) which means that the ownership will revert in the nightly run.
 - Large Accounts
    - BDR (If present, otherwise AE)
    - If AE, should own all contact follow up then the BDR Prospecting Status needs to be in Restricted.

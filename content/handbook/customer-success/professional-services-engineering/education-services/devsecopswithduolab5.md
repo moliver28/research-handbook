@@ -11,7 +11,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 ## Task A. Explaining a Security Vulnerability
 
-1. Navigate to your GitLab Duo Project
+1. Navigate to your GitLab Duo Principles Project
 
 1. Select the `.gitlab-ci.yml` file
 

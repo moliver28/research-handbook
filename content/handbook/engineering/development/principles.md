@@ -269,7 +269,7 @@ As the first of these is a monthly release, it's tempting to try to rush to get 
 
 Due date pressure logically leads to a few outcomes:
 
-1. People are at [increased risk of burnout](/handbook/paid-time-off/#recognizing-burnout).
+1. People are at [increased risk of burnout](/handbook/people-group/paid-time-off/#recognizing-burnout).
 1. We may compromise on our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done).
 1. We [cut scope](/handbook/values/#move-fast-by-shipping-the-minimal-viable-change).
 1. We miss the due date.

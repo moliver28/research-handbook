@@ -76,16 +76,16 @@ These guidelines will help you incorporate the GitLab brand voice into your writ
 
 - Meet readers where they are — don't assume they know the technology or topics you're covering.
 - Explain but don't patronize.
-- Be [inclusive](https://handbook.gitlab.com/handbook/marketing/blog/#diversity-inclusion-and-belonging-dib-checklist-for-blog-writers) in your writing.
+- Be [inclusive](/handbook/marketing/blog/#diversity-inclusion-and-belonging-dib-checklist-for-blog-writers) in your writing.
 
 
 **Examples:**
 
 > - Blog: [Quickstart guide for GitLab Remote Development workspaces](https://about.gitlab.com/blog/2023/06/26/quick-start-guide-for-gitlab-workspaces/)
 > - Blog: [The ultimate guide to SBoMs](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/)
-> - Handbook: [CEO handbook page](https://handbook.gitlab.com/handbook/ceo/)
-> - Handbook: [Communication handbook page](https://handbook.gitlab.com/handbook/communication/)
-> - Handbook: [Values handbook page](https://handbook.gitlab.com/handbook/values/)
+> - Handbook: [CEO handbook page](/handbook/ceo/)
+> - Handbook: [Communication handbook page](/handbook/communication/)
+> - Handbook: [Values handbook page](/handbook/values/)
 
 #### Intentional
 

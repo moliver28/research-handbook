@@ -8,7 +8,7 @@ Several dashboards have been published to the Engineering project in the Tableau
 
 ### Centralized Engineering Metrics
 
-Please refer to our Centralized Engineering Metrics page [here](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/).
+Please refer to our Centralized Engineering Metrics page [here](/handbook/engineering/metrics/dashboards/).
 
 ### Tableau Dashboards
 

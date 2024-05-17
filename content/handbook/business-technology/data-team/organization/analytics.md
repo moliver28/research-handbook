@@ -1,34 +1,22 @@
 ---
-
-title: "Data Analytics Handbook"
+title: "Data Analytics at GitLab"
 description: "GitLab Data Analytics Team Handbook"
 ---
-
-
-
-
-
-
-
-
-
----
-
-# Data Analytics at GitLab
 
 The mission of the Data Analytics team is to **maximize** the impact of business decisions and strategy with data solutions that are trusted and scalable.
 
 We do this by helping all GitLab teams move up the [**Data Value Pyramid**](/handbook/business-technology/data-team/direction/#data-value-pyramid) **by means of our** [**GitLab values**](/handbook/values/) and our [**Data Team Principles**](/handbook/business-technology/data-team/#data-team-principles).
 
-
 ## Data Analytics Responsibilities
 
 Of the [Data Team's Responsibilities](/handbook/business-technology/data-team/#responsibilities) the **Data Analytics Team** is **directly responsible** for:
+
 - Managing and governing the company's Key Performance Indicator definitions, database, and data visualizations
 - Providing customizable Data Services, including Data Visualization, Data Modeling, Data Quality, and Data Integration
 - Supporting the company's governance, risk, and compliance programs as they relate to Data & Analytics systems
 
 Additionally, the **Data Analytics Team** supports the following responsibilities
+
 - With the **Data Leadership Team**:
     - Defining and publishing a Data Strategy to help maximize the value of GitLab's Data Assets
     - Broadcasting regular updates about data deliverables, ongoing initiatives, and upcoming plans
@@ -40,7 +28,8 @@ Additionally, the **Data Analytics Team** supports the following responsibilitie
 
 ## Handbook First on the Data Analytics Team
 
-At GitLab we are [Handbook First](/handbook/handbook-usage/#why-handbook-first) and drive this by:
+At GitLab we are [Handbook First](/handbook/about/handbook-usage/#why-handbook-first) and drive this by:
+
 1. Helping our Business Partners (all GitLab team members) update the handbook with the most up-to-date and accurate information.
 1. Reviewing content and ensure that the information in the handbook best represents the data, taking into account data sensitivity and security.
 1. Updating the Data Team handbook section
@@ -53,6 +42,7 @@ At GitLab we are [Handbook First](/handbook/handbook-usage/#why-handbook-first) 
 ## What Is Analytics And Why Do We Do It?
 
 **Analytics** is the practice of turning **data** into [**information, knowledge, and wisdom**](/handbook/business-technology/data-team/direction/#data-value-pyramid) to:
+
 1. **Improve Efficiency & Avoid Costs**
     1. Human Capital - Location Factor, Offer Accept Rate, Cost Per Hire
     1. Finance - ARR, New Pipeline Created, CC Failure Rate
@@ -72,10 +62,10 @@ At GitLab we are [Handbook First](/handbook/handbook-usage/#why-handbook-first) 
 Our short term goal for `FY21-2H` is to move GitLab up the [**Data Capability Model**](/handbook/business-technology/data-team/direction/#data-capability-model) from **Level (1) Reactive** to **Level (2) Advanced**.
 
 To do this, the Data Analytics team will be:
+
 - operating in [Data Fusion teams](/handbook/business-technology/data-team/organization/#fusion-teams) towards the same business goals at the same pace
 - strengthening the [Data Analysis Process](/handbook/business-technology/data-team/organization/analytics/#data-analysis-process)
 - advancing GitLab's [Data Visualization](https://datavizcatalogue.com/) & [Data Storytelling](https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/#71f2f94852ad) skills
-
 
 ## Data Analysis Process
 

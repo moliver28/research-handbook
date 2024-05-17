@@ -15,10 +15,12 @@ Rember that some of the links below require you to login to [GitLab's Partner Po
 ## Foundational Knowledge
 
 [Building Pipelines GitLab Partner Webinar Series](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Live Webinar & Episode Content Archive)
+
   - This webinar series is produced exclusively for GitLab Partners.  We discuss various sales and presales-level topics that help you build your sales pipeline with GitLab.
   - Click the link above to view the archive of previous episode content and be sure to **Register Today**!
 
 **Topical Articles on DevSecOps Concepts**
+
   - [What is DevOps](https://about.gitlab.com/topics/devops/)
     - This extensive article goes into detail about DevOps, the culture, tools, and methods for success.  It's worth 15 mins.
   - [What is a DevOps Platform?](https://about.gitlab.com/topics/devops-platform/)
@@ -31,6 +33,7 @@ Rember that some of the links below require you to login to [GitLab's Partner Po
 Learn what GitLab is, what it offers, and what it does
 
 **Customer Facing Resources**
+
   - [GitLab Promo Page](https://about.gitlab.com/why-gitlab/) (Web Page)
     - This is a Why GitLab Page .  It's actually a good elevator pitch!  Check it out.
   - [GitLab Promo DEMO](https://about.gitlab.com/demo/) (Video)
@@ -41,6 +44,7 @@ Learn what GitLab is, what it offers, and what it does
     - offers a wide variety of ways customers leverage GitLab (20 min read)
 
 **Additional References for You**
+
   - [GitLab internal Sales Training Resources](/handbook/sales/training/) (Handbook)
     - Review this page for all of the sales related training that internal GitLab sellers go through.
 
@@ -49,6 +53,7 @@ Learn what GitLab is, what it offers, and what it does
 Learn how to identify the most valuable challenges and leverage the GitLab DevSecOps Platform to create a valuable solution
 
 **Customer Facing Resources**
+
   - [Build a Business Case for GitLab](https://about.gitlab.com/get-started/build-business-case/) (Web Page)
     - Guidance for building a business case for GitLab DevSecOps Platform for a customer buying decision maker (20 min)
   - [Online ROI calculators](https://about.gitlab.com/calculator/) (Interactive Tool)
@@ -59,7 +64,8 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
     - Our case studies will give you ideas of why enterprises are choosing GitLab.  Bookmark this for customer justification in deals later. (10 min)
 
 **Pitching GitLab and Technical Discovery**
-  - [Positioning GitLab - Handbook Page](/handbook/positioning-faq/) (Handbook)
+
+  - [Positioning GitLab - Handbook Page](/handbook/marketing/positioning-faq/) (Handbook)
     - Review this page to learn about how to position GitLab in the market. (10 min)
   - [GitLab Technical Discovery Guide](/handbook/sales/qualification-questions/#questions-for-selling-gitlab-premium-and-ultimate) (Handbook)
     - Discovery is a crucial skill for any Solutions Architect (SA).  Here is how GitLab SA’s do their Discovery (10 min)
@@ -69,12 +75,14 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
     - There are different buyer personas to understand when selling a Platform like GitLab.  Which do you value more? (20 min)
 
 **Competitive Information**
+
   - [GitLab Maturity Page](https://about.gitlab.com/direction/maturity/) (Web Page)
     - A very transparent self-assessment of the maturity of each GitLab feature. No direct comparisons with other vendors here.
   - [GitLab Competitive Overviews](https://partners.gitlab.com/prm/English/s/assets?collectionId=56958) (Portal Assets)
     - Have a look at competitive positioning material in the assets library of the Partner site. (login required)
 
 **Demo resources to help you showcase the Platform**
+
 - [Start a Free Trial](https://gitlab.com/-/trials/new) (Web Page)
   - Here is the generic link to start a free trial of GitLab SaaS on GitLab.com. This is an increasingly popular option. Plese refer to [this page of the Partner Portal](https://partners.gitlab.com/prm/English/c/marketing-free-trial) for details about how to set up a customized affiliate link to tag new trials to your partnership.
 - [GitLab Partner Demo Delivery Guide](https://gitlab.com/gitlab-partner-demos/delivery-guide) (GitLab Project)
@@ -95,6 +103,7 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
   - CI functions samples for quick demos
 
 **Additional References for You**
+
   - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) and [Install Guides](https://docs.gitlab.com/ee/install/) (GitLab Docs)
     - GitLab has a leading market share in self-managed deployments.  Here are our technical specs and docs for solutioning and installing GitLab instances.  
   - [High Availability Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#supported-modifications-for-lower-user-counts-ha)
@@ -117,6 +126,7 @@ Learn how to construct and transact a GitLab deal
     - Leverage these for customer justification in deals. (10 min)
 
 **Additional References for You**
+
   - [Partner Program Incentives Guide](https://partners.gitlab.com/prm/English/s/assets?id=350001) (Portal Asset)
     - Review the GitLab Partner Program guide for more details on reseller transactions. (login required)
   - [GitLab Price Book](https://partners.gitlab.com/prm/English/s/assets?collectionId=49441) (Portal Asset)
@@ -127,6 +137,7 @@ Learn how to construct and transact a GitLab deal
 Delivery docs and technical guidance for your GitLab practice engineers
 
 **Implementing a GitLab Instance**
+
   - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
     - **Read, understand, and follow the guidance given in this reference architecture page.  It's crucially important for long term maintainability of a GitLab instance.**
   - [GitLab Environment Toolkit GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit#documentation)
@@ -143,16 +154,19 @@ Delivery docs and technical guidance for your GitLab practice engineers
      GitLab.com has updates multiple times per day.
 
 **Implementing GitLab Runners**
+
   - [GitLab Runner Overview](https://docs.gitlab.com/runner/)
     - GitLab Runners represent the **largest workload the system generates.**  The Runner is the software that executes all of the CI pipelines.  It's possible to deploy them on fixed infrastructure, or autoscale them (up and down) in a cloud provider.
   - [GitLab Runner Installation](https://docs.gitlab.com/runner/install/)
   - [GitLab Runner Advanced Configuration](https://docs.gitlab.com/runner/configuration/)
 
 **GitLab Migrations**
+
   - [Partner Migration Services](/handbook/resellers/partner-enablement/partner-migration-services/)
     - This **important page** outlines the migration services methods, tools, restrictions, and services kits available to partners
 
 **Using and Adopting GitLab Effectively**
+
   - [Get Started Administering GitLab](https://docs.gitlab.com/ee/administration/get_started.html)
     - The Platform Team will need to get good at the administrative aspects of using GitLab.  Here is where to start.
   - [Get Started Using GitLab](https://about.gitlab.com/get-started/enterprise/#using-gitlab) (Web Page)
@@ -169,6 +183,7 @@ Delivery docs and technical guidance for your GitLab practice engineers
     - These video and web page tutorials are included in the GitLab Docs site.  They are a great starting point for learning or deploying technical capabilities.
 
 **Additional References for You**
+
 - [Service Kits](https://partners.gitlab.com/prm/English/c/Channel_Service_Packages) (Portal Assets)
   - We have developed service kits for you including sample Statements of Work (SOWs) and Levl of Effort (LOEs).
 - [Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) (Portal Assets)
@@ -219,4 +234,3 @@ Delivery docs and technical guidance for your GitLab practice engineers
 - GitLab CI/CD:
     - [GitLab CI/CD - GitLab Runner Introduction - 2022](https://www.youtube.com/watch?v=-CyVpfDQAG0&list=RDCMUCxu8xrbPZ-neg3FhMdz4yrA&index=6)(23:27)
     - [GitLab CI CD - Install and Configure GitLab Runner on Kubernetes with Helm](https://www.youtube.com/watch?v=0Fes86qtBSc) (29:41)
-

@@ -84,7 +84,6 @@ Crucially, when there are issues with onboarding, new team members may not feel 
 1. [Tools that enable remote teams]({{< ref "./resources#tools-that-enable-remote-teams" >}})
 1. [3 things I learned in my first month at GitLab](https://about.gitlab.com/blog/2016/11/02/three-things-i-learned-in-my-first-month-at-gitlab)
 
-
 ### Social requirements for all-remote onboarding
 
 Starting a new job can be overwhelming. If a new hire is used to working in a traditional office, adjusting to the remote work lifestyle might be a challenge. Having socialization as part of the onboarding process can help team members feel more connected to their new teams, even though they don't share an office.
@@ -151,7 +150,7 @@ At GitLab, [the first thirty days](https://gitlab.com/gitlab-com/people-group/pe
 
 Onboarding is the first impression a new hire gets of your organization. It's critical to invest the time to do it well so that your new team members get to know you, understand what is expected of them, introduces them to co-workers and teammates, and sets them up to succeed.
 
-At GitLab, we document to create a [single source of truth]({{< ref "values#single-source-of-truth" >}}) so we can operate [handbook-first](/handbook/handbook-usage#why-handbook-first) and value [transparency]({{< ref "values#transparency" >}}) by making the handbook [publicly accessible to all](/handbook).
+At GitLab, we document to create a [single source of truth]({{< ref "values#single-source-of-truth" >}}) so we can operate [handbook-first](/handbook/about/handbook-usage/#why-handbook-first) and value [transparency]({{< ref "values#transparency" >}}) by making the handbook [publicly accessible to all](/handbook).
 
 ## Remote onboarding tips
 
@@ -203,7 +202,6 @@ Feel free to adopt or remix our values for your remote-first team.
 ## How to evaluate your existing onboarding process
 
 In the spirit of [transparency]({{< ref "values#transparency" >}}), GitLab's People Connect Team will evaluate the onboarding process by having new employees fill out an [Onboarding Survey](https://docs.google.com/forms/d/1sigbOqWKuEtGyLROghvivgWErRnfbUI1_-57XhAwu_8/edit).
-
 
 ## High-touch and low-touch flexibility
 

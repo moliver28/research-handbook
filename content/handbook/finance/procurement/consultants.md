@@ -18,4 +18,3 @@ Once this process is complete the External Consultant will be added to ContractW
 ## Deprovisioning Access
 
 The Vendor Manager is responsible for initiating External Consultant offboarding functions once the External Consultant reaches the end of their engagement with GitLab.  This will predominantly center on the deprovisioning of access to any GitLab systems and information which were made available at the time of orientation with the support of IT Ops and the Tech Stack Provisioners.
-

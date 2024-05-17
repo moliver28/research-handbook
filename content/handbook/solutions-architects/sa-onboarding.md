@@ -12,7 +12,6 @@ View the [SA Handbook homepage](/handbook/solutions-architects/) for additional 
 ⚠️ This information is under active development and is not yet final. This page will be updated on an ongoing basis during this phase.
 {: .alert .alert-warning}
 
-
 ## Solutions Architects Onboarding Overview
 
 Onboarding for Solutions Architects is meant to provide newly hired Team Members with information to expedite the process of becoming acclimated to GitLab and the SA role. As a crucial part of the Solutions Architecture team, it is imperative that the new Team Member understands the intricacies of how GitLab's products and solutions work and thus be able to articulate specific use cases and efficiently execute demos.
@@ -51,14 +50,12 @@ Alternatively once you are active on [Slack](/handbook/communication/chat), whic
 
 * [PLEASE, use this link to access the SA Onboarding Journey on LevelUp](https://levelup.gitlab.com/learn/learning-path/solutions-architect-30-60-90-onboarding-journey)
 
-
-
 ## How to Contribute
 
 Keeping up with the GitLab value of **"Everyone can Contribute"**, please provide input to continuously improve this Onboarding Program through one of the following ways:
+
 * Create a merge request to improve this page
 * Add feedback or tasks to the [SA Onboarding Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/1287)
 * Share your experiences in the **#customer-success, #solutions-architects,** and **#public-sector-cs** slack channels
 * Provide feedback and/or updates to the [SA Onboarding deck](https://docs.google.com/presentation/d/1mRtclua-2YCvtzHxyQX2QxG8VDeNxBM2CQ0AbwfRNRI/edit#slide=id.ge787e7a9b2_0_213)
 * Collaborate in the **#solutions-architects** and **#public-sector-cs** slack channels
-

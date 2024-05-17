@@ -29,7 +29,7 @@ Learn more about what we work on and the problems we are solving on our public [
 
 ## Onboarding engineer? Start here
 
-Welcome! Start by familiarizing yourself with the [developer onboarding guide](/handbook/developer-onboarding/). After that you'll need to set up a few things specific to the Product Analytics team.
+Welcome! Start by familiarizing yourself with the [developer onboarding guide](/handbook/engineering/developer-onboarding/). After that you'll need to set up a few things specific to the Product Analytics team.
 
 ### Docker
 
@@ -65,7 +65,7 @@ We have dedicated Slack channels for the Product Analytics group:
 
 ## How we work
 
-We base our workflow on the company's [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
+We base our workflow on the company's [Product Development Flow](/handbook/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
 
 ### Estimation
 

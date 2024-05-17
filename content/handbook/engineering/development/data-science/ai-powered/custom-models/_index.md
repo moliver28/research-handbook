@@ -57,7 +57,7 @@ In addition, issues should contain the relevant `~type:` and subtype labels.
 
 ## Team Milestone Planning Process
 
-Custom Models follows the [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/) and uses a planning issue and boards to manage the planning process.
+Custom Models follows the [Product Development Flow](/handbook/product-development-flow/) and uses a planning issue and boards to manage the planning process.
 [Planning issues](https://gitlab.com/groups/gitlab-org/-/epics/12950) for each milestone are created by the PM and are used to coordinate upcoming work between the PM, EM and stable counterparts.
 
 In the last week of a milestone, planning is completed for the next milestone. The following activities are undertaken.
@@ -102,7 +102,7 @@ A weight is assigned to each issue as an estimation of work to close the issue. 
 
 ### Planning and Delivery Boards
 
-All workflow statuses in the [Product Development Flow](https://handbook.gitlab.com/handbook/product-development-flow/) are valid, and the statuses and milestones tied to boards are below.
+All workflow statuses in the [Product Development Flow](/handbook/product-development-flow/) are valid, and the statuses and milestones tied to boards are below.
 
 The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_title=Next%201-3%20releases&label_name[]=group%3A%3Acustom%20models) and [Next 4-6 milestones](https://gitlab.com/groups/gitlab-org/-/boards/7472821?milestone_title=Next%204-6%20releases&label_name[]=group%3A%3Acustom%20models) boards are used to house issues which need refinement or are ready to be worked on.
 
@@ -111,7 +111,7 @@ The [Next 1-3](https://gitlab.com/groups/gitlab-org/-/boards/7472817?milestone_t
 | Planning Board | Milestone, `~group::custom models`, `~planning priority` | `~type::bug`, `~type::maintenance`, `~type::feature` |
 | Build Board    | Milestone, `~group::custom models`, `~Deliverable` | `~workflow::ready for development`, `~workflow::in dev`, `~workflow::in review`, `~workflow::awaiting security release`, `~workflow::blocked` |
 | Next 1-3 Milestones | `%Next 1-3 Milestones` | `~workflow::problem validation`, `~workflow::problem validation`, `~workflow::design`, `~workflow::solution validation`, `~workflow::planning breakdown`, `~workflow::ready for development`     |
-| Next 4-6 Milestones | `%Next 4-6 Milestones` | Same as `Next 1-3 Milestones`     |  
+| Next 4-6 Milestones | `%Next 4-6 Milestones` | Same as `Next 1-3 Milestones`     |
 
 ### Issue Milestones
 
@@ -133,7 +133,7 @@ The Custom Models communicates based on the following guidelines:
 
 1. Always prefer async communication over sync meetings.
 1. Don't shy away from arranging a [sync call](#-ad-hoc-sync-calls) when async is proving inefficient, however endevour record it to share with team members.
-1. [Transparency by Default](https://handbook.gitlab.com/handbook/security/transparency-by-default/)
+1. [Transparency by Default](/handbook/security/transparency-by-default/)
 1. The primary channel for work-related communication is the [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
 1. Internal team issues and projects are namespaced under [`gitlab-org/ai-powered/custom-models`](https://gitlab.com/gitlab-org/ai-powered/custom-models)
 
@@ -150,7 +150,7 @@ If you are pinged by name in either Slack or GitLab, please acknowledge the ping
 
 ## Time Off
 
-Team members should add any [Paid Time Off](https://handbook.gitlab.com/handbook/paid-time-off/) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
+Team members should add any [Paid Time Off](/handbook/people-group/paid-time-off/) in the "Time Off by Deel" slack app, so that the Engineering Manager can use the proper number of days off during capacity planning. Where possible, try to add time off a full milestone in advance.
 
 It is recognised there can always be last-minute, unplanned PTO needs. Please take any time you need, but enter it into PTO Deel and communicate with the EM as soon as you can.
 
@@ -175,8 +175,3 @@ We operate using async communication by default. There are times when a sync dis
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="custom models" >}}
 {{< /tableau >}}
-
-<!-- LINKS START -->
-
-
-<!-- LINKS END -->

@@ -14,6 +14,7 @@ The pilot program features an automated workflow for the UX Research Team to gen
 As part of launching this pilot, Legal has updated the definitions and wording used in association with promotional games.  Please review [this section](/handbook/legal/marketing-collaboration/#promotional-games) of the handbook to learn about the three types of promotional games which are generally permitted at GitLab.
 
 Benefits of the pilot program:
+
 - Prize draws are able to be launched very quickly in connection with a survey opportunity.
 - Rules can be generated within minutes.
 - No need to create new pages to host the Official Rules each time.

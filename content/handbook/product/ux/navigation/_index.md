@@ -117,7 +117,7 @@ The Foundations PM is the DRI for determining if your proposal can follow the li
 
 ## Reconciliation process
 
-The navigation proposal process attempts to balance a focus on core workflows and feature visibility, which means sometimes proposal authors may disagree with the Foundations team decision. If you feel like we’ve struck the wrong balance, let’s follow the [manager mention thread process](https://handbook.gitlab.com/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Add a comment to the proposal and:
+The navigation proposal process attempts to balance a focus on core workflows and feature visibility, which means sometimes proposal authors may disagree with the Foundations team decision. If you feel like we’ve struck the wrong balance, let’s follow the [manager mention thread process](/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Add a comment to the proposal and:
 
 1. Summarize why the proposal was rejected and your perspective on why this decision is incorrect
 1. Mention your manager and the Foundations PM manager
