@@ -104,15 +104,14 @@ Here is a [great video](https://www.youtube.com/watch?v=MwHHErfX9hI) that illust
 
 Humans tend to [favor solutions that add features than solutions that remove them, even when removing features is more efficient](https://www.nature.com/articles/d41586-021-00592-0) - great PMs recognize this bias and utilize subtractive thinking to create great user experiences. Customers will tell us when we’re missing something they need, but they’re unlikely to explicitly tell us when we’re overwhelming them with unwanted features. However, we do have evidence that this challenge is already a consideration for us, as reflected consistently in our [System Usability Scale verbatims](/handbook/product/ux/performance-indicators/system-usability-scale/). Here is [an episode on the Hidden Brain podcast](https://hiddenbrain.org/podcast/do-less/) that explores this bias further.
 
-#### SaaS First
+#### Rollout features on SaaS First
 
-Our customers choose SaaS because it reduces their operating costs, helps them adopt the latest capabilities without performing upgrades, and provides them peace of mind of high availability. This implies we adhere to SaaS first principles. SaaS first implies the following:
+Our customers choose SaaS because it reduces their operating costs, helps them adopt the latest capabilities without performing upgrades, and provides them peace of mind of high availability. This principle implies the following:
 
-- Release features in SaaS alongside self-managed or earlier
-- Design features so that they can be implemented in SaaS without downtime. If each team does a rearchitecture once every 2 years that requires downtime, then, as of this writing, it would imply 20 downtimes a year.
-- Involve infrastructure team early in your design process to ensure that not only is there no downtime, but that the deployment to SaaS can be low toil.
+- Design features so that they can be released without downtime. 
+- Release features in SaaS before self-managed or alongside it.
 
-SaaS First does not mean SaaS only. For more information on parity between SaaS and self-managed, see our parity principle: #parity-between-saas-and-self-managed-deployments
+This principle does not mean SaaS only. For more information on parity between SaaS and self-managed, see our [parity principle](#design-for-self-managed-for-maximum-parity-between-deployments).
 
 #### Feedback issues
 
@@ -207,11 +206,14 @@ in a certain way. A very concrete example of this is the ability to disable pipe
 Sometimes fast deployments are needed to fix a service or application outage that can cost a business money and reputation, we understand time is of the essence in these situations. That’s why we believe giving the team control over this is important in crucial moments of the development lifecycle. Controls that prevent changes from reaching Production are okay as safeguards, but they should be able to be quickly removed or disabled if necessary. When controls are changed in this way, logs or records should be created to support post-mortem analysis and allow for understanding why the control needed to be removed or disabled.
 <figure class="video_container"><iframe src="https://www.youtube.com/embed/03ODv1cEO6E"></iframe></figure>
 
-#### Parity between SaaS and Self-managed deployments
+#### Design for self-managed for maximum parity between deployments
 
-We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS or Self-managed). At the same time, we believe in the power of a [single code base](/handbook/product/single-application/#single-codebase). Therefore we strive to maintain feature parity between SaaS and Self-managed installations.
+We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS, Dedicated or Self-managed). At the same time, we believe in the power of a [single code base](/handbook/product/single-application/#single-codebase). Therefore we strive to maintain feature parity between SaaS and Self-managed installations.
 
-In line with our [SaaS-first](#saas-first) principle, some features may be released on SaaS to gain operational experience prior to recommending and supporting customers using it. All features will eventually be made available across SaaS and self-managed once those learnings have been applied.
+GitLab SaaS is a self-managed instance with special multitenant licensing. By designing and implementing features for self-managed first we achieve maximum parity between the various installations. Design features so that they can be rolled out on self-managed without downtime. Since downtime on self-managed is also a downtime on SaaS, if each team does a rearchitecture once every 2 years that requires downtime, then, as of this writing, it would imply 20 downtimes a year.
+- Involve infrastructure team early in your design process to ensure that not only is there no downtime, but that the deployment to SaaS can be low toil.
+
+In line with our [SaaS-first rollouts](#rollout-features-on-saas-first) principle, some features may be released on SaaS to gain operational experience and apply learnings prior to recommending and supporting customers using it. Features would be present of self-managed codebase but are disabled until General Availability.
 
 For functionality where implementation may be especially challenging without cloud services, for example with AI, self-managed functionality may be dependent on an underlying SaaS service. This allows us to provide end users the same capabilities regardless of deployment type, and not overly constrain our feature set or impose significant operational complexities on each deployment. Product managers need to be aware that this may impact the adoption of these features, as not all customers may be willing or able to leverage underlying SaaS services, such as air-gapped deployments.
 
@@ -219,7 +221,7 @@ For functionality where implementation may be especially challenging without clo
 
 **Exception to this product principle requires CEO approval. Work with VP, Product Management to add your request to the Product Scale agenda describing the situation and request for exception to gain CEO approval.**
 
-Our [simplicity](/handbook/product/product-principles/#simplicity) and [SaaS/Self-Managed Parity](/handbook/product/product-principles/#parity-between-saas-and-self-managed-deployments) principles require that we adhere to our established knowledge architecture. Our established architecture is [Organization](https://gitlab.com/groups/gitlab-org/-/epics/4257#proposal), [Group](https://docs.gitlab.com/ee/user/group/) and [Project](https://docs.gitlab.com/ee/user/project/).
+Our [simplicity](/handbook/product/product-principles/#simplicity) and [SaaS/Self-Managed Parity](/handbook/product/product-principles/#design-for-self-managed-for-maximum-parity-between-deployments) principles require that we adhere to our established knowledge architecture. Our established architecture is [Organization](https://gitlab.com/groups/gitlab-org/-/epics/4257#proposal), [Group](https://docs.gitlab.com/ee/user/group/) and [Project](https://docs.gitlab.com/ee/user/project/).
 
 - When we need to add capabilities that an admin needs to apply across the entire organization, then we provide them at the organization level.
 - When we need to add capabilities that need to apply across all projects in a group, but not applicable to all groups in an organization, then we provide them at a group level.
