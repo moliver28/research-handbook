@@ -392,11 +392,14 @@ We love collaborating on work that drives our North Star and supporting metrics.
 
 ## Marketing site deployment process
 
-From the repositories we own, three of them share the same deployment bucket. When a pipeline is run (triggered by a merge or a webhook) in any of these projects, we run a deployment job specific to that repository, this will push the built files from this repository into the bucket, merging them with the existing files already there. 
 
-![Mermaid diagram]('DexPipeline.png')
 
-To keep things clean, we run a scheduled delete job in these repositories which takes care of deleting outdated files from the cloud bucket (such as pages removed from the marketing site and old js bundles)
+
+From the repositories we own, the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience) repository and the [GitLab Blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog) push their built files to the same GCP bucket as [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com). When a pipeline is triggered (by a merge or a webhook) in any of these projects, a deployment job specific to that repository runs, pushing the built files into the bucket and merging them with the existing files. This process is managed by the `Deploy.sh` file in each repository.
+
+![Mermaid diagram](Dex-pipeline.png)
+
+To maintain our bucket clean, we run a scheduled delete job in these repositories, which deletes outdated files from the cloud bucket (such as pages removed from the marketing site and old JS bundles).
 
 ## Digital Experience FAQ
 
