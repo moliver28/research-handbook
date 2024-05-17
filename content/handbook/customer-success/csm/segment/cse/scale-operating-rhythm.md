@@ -122,7 +122,7 @@ This brief screencast demonstrates how to reveal the CSE Help button when on an 
 
 #### Requesting CSE Engagement (Account Owners only - AEs, SAEs)
 
-Only account owners should file a new issue requesting a CSE engagement for their customer. Other stakeholders at GitLab (Solutions Architects, Support, Professional Services) may identify a potential opportunity for CSE engagement, but ultimately the account owner should be notified to follow through the request process and communicate to the customer that a request has been made. So the workflow goes like this:
+Only account owners (AEs and RM's) should file a new issue requesting a CSE engagement for their customer. Other stakeholders at GitLab (Solutions Architects, Support, Professional Services) may identify a potential opportunity for CSE engagement, but ultimately the account owner should be notified to follow through the request process and communicate to the customer that a request has been made. So the workflow goes like this:
 
 * New cases are allowed to be created for accounts with 30 - 300K USD ARR, and the “assigned CSM” must be set to ‘TAM Scale’.
 * AE/RM files the request in SFDC 
@@ -133,7 +133,10 @@ Only account owners should file a new issue requesting a CSE engagement for thei
 NOTE: Unless specified otherwise, CSEs will automatically reach out to the contact with the AE/RM in copy when cases are created. If the AE/RM does not want that to happen they can put a note in the open text "Challenges/Pain Points (1000 Character Limit)" field on the case.
 
 
-- For more information about the scope and qualifications for CSE engagement, refer to [CSE: Qualifications/Scope Document for CSE Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#) and [CSE Workflow - Process](https://docs.google.com/document/d/14hgdDN9JYVQLcuwGFfvryWDeXeWUpHLZv7RAUH7oers/edit#heading=h.vs4fplqboev)
+- For more information about the scope and qualifications for CSE engagement, refer to the following links:
+   - [CSE: Qualifications/Scope Document for CSE Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#) 
+   - [CSE Workflow - Process](https://docs.google.com/document/d/14hgdDN9JYVQLcuwGFfvryWDeXeWUpHLZv7RAUH7oers/edit#heading=h.vs4fplqboev)
+   - [CSE highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=shp.4)
 
 
 #### Tracking Ad-Hoc CSE Engagements in Gainsight (CSEs only)
