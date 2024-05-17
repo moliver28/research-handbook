@@ -557,7 +557,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 {{% panel header="**Coding**" header-bg="green" %}}
 
-- **Expense Type / Navan Policy Category:** Other
+- **Expense Type / Navan Policy Category:** G&D (Growth & Development)
 - **GL Code NON-COGS:** 6065 - Training & Development
 - **GL Code COGS:** 5065 - Training & Development COGS
 {{% /panel %}}
