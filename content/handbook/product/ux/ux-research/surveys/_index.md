@@ -33,12 +33,12 @@ Perhaps the most important item to consider when determining if you want to use 
 | What feature is the most popular?                    | How will different features impact user workflows? Why?             |
 
 Additionally, a you might use a survey if:
+
 - You need a large number of respondents to answer your research questions with a high degree of confidence. This may include validating insights from a qualitative research study to make decisions more confidently.
 - You need your research questions answered in a relatively short amount of time
 - You want an efficient way to achieve the above
 - You don’t need deep qualitative data
 - Your research questions can be answered through quantitative data
-
 
 If you’re unsure if a survey is right for your needs, it’s suggested that you get [crisp on your research questions](/handbook/product/ux/ux-research/defining-goals-objectives-and-hypotheses/#step-2---start-populating-questions-we-need-answers-to) to understand what kind of data is needed to answer those questions. That exercise will often make it easier to reveal the best research method to use.
 

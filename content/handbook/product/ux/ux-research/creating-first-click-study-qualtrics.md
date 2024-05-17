@@ -43,6 +43,7 @@ You can skip Steps 3 through 6 below by importing the "Heat Map Question Block" 
    1. Create a region for each area of content your participants might select (e.g., a button or a sub-heading in the Navigation panel)
 
 **Step 5:** Add a Timing question to track how long participants spend on the page with your first click question
+
    - Select the +Add new question button that appears in the bottom right-hand corner of each question block
    - From the +Add new question dropdown, select ‘Timing’
    - The timing question will not be displayed to participants, though it will show up if you preview the survey. That is done so that you can be sure the question is working.
@@ -50,6 +51,7 @@ You can skip Steps 3 through 6 below by importing the "Heat Map Question Block" 
 
 **Step 6:** Add a question that will help you understand why users clicked where they did or how they felt about their first click
 Knowing why users clicked where they did will help you understand how to adjust your designs.
+
 - Add a Text Entry question to have the user explain their motivation for clicking in a certain area. Example: Why did you click there? (open text)
 - You can also use a [Multiple Choice](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/standard-content/multiple-choice/) question to have them rate their level of confidence.
     - Example: How confident are you that you clicked the correct location?

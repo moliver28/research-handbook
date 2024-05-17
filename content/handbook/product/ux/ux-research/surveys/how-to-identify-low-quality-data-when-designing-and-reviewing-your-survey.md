@@ -72,6 +72,7 @@ Open-ended feedback should be coherent and relevant. Nonsensical or suspicious r
 * **Example:** A response that directly answers the question and sounds like a human wrote it would likely be considered non-AI generated feedback, so the respondent should not be excluded.
 
 Common AI generated phrasing that could suggest fraudulent or insincere responses:
+
 * "I apologize for the inconvenience. Unfortunately, I am unable to provide real-time data at this moment."
     * This response demonstrates typical AI behavior by offering a polite apology but failing to provide a direct answer and specifically mentions real-time data. AI-generated responses often default to formal language and may avoid committing to real-time interactions, leading to vague or evasive responses.
 * "As of my last knowledge update..."

@@ -1,14 +1,7 @@
 ---
-
 title: Product Handbook
 description: "Most of the content in the product handbook talks about _how_ we do product at GitLab."
 ---
-
-
-
-
-
-
 
 ## Welcome to the Product Team Handbook
 
@@ -37,6 +30,7 @@ description: "Most of the content in the product handbook talks about _how_ we d
 The product handbook is widely referenced by product managers and cross-functional team members. Therefore, we want to follow a consistent change management process so all affected collaborators are aligned and informed when there are changes (specially new requirements, processes, meetings, etc.) that affect their workflow.
 
 It is helpful to indicate which type of change you are suggesting:
+
 - Small improvement (typos, clarifications, etc.)
 - Adding a new section
 - Modifying existing section
@@ -135,5 +129,3 @@ When you are tagging `@mention`:
 - Write a short summary in the same comment so team members can quickly understand the necessary context.
 - Review the issue title and description to ensure it has relevant details other product team members need **BEFORE** submitting the comment. The issue title will be the subject of email notifications and in-product to-do items.
 - If asking team members to review a change, please directly link to the specific page on the [review app](https://docs.gitlab.com/ee/ci/review_apps/#how-review-apps-work) and any relevant issues or MRs.
-
-
