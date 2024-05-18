@@ -23,13 +23,14 @@ This importance increases as we approach the end of the financial quarter (FQ), 
 To help this visibilty, the Engagement Managers maintain a subset of fields against an opportunity under the `Professional Services` section. These fields are reviewed and updated on a regular basis to support reporting to Professional Services leadership on the current forecast:
 
 - `Engagement Manager` - Denotes the Lead Engagement Manager supporting the opportunity
-- `EM Confidence`, this can be set as:
-    - **Grey** (Default), meaning the EM does not have visibility or awareness of the opportunity
-    - **Red**, meaning in the opinion of the EM, this will not close won within the timeframe stated
-    - **Amber**, meaning the EM is confident the oportunity will close won, but not necessarily within the timeframe stated
-    - **Green**, meaning the EM is confident that the opportunity will close won within the time started
-- `EM Confidence Rationale` - Context and rationale to support the `EM Confidence` field
-- `Scoping Issue Link` - A direct link to the supporting scoping issue
+- `EM Confidence Rationale` - Context and rationale to support whether the EM feels the opportunity will close within the quarter that it is currently forecasted. 
+- `Scoping Issue Link` - A direct link to the supporting scoping issue. 
+- `Professional Services Value` - EMs should update this field to represent the current expected value of the engagement. This is primarily for forecasting purposes. It is expected that this field is overwritten with the quoted value at the point of quoting. This value is inclusive of all education and consulting   services that are paid for by the customer. If you are planning to request investment services, include that value in here until the point of approval on SFDC Chatter. At that point, remove the investment services from `Professional services Value` and add it to `Investment Services Value`.
+- `Proserve Amount` - This field is automatically updated with the value of PS after the Account Executive (AE) creates the quote. 
+- `Edu Services Value` - This field cannot be edited directly. It will automatically be populated with the value of the Education services quoted once the quote is created. If multiple quotes are made, the value will overwrite previous values added (including ones that were added by using the below `Edu Value Override` workflow).
+- `Edu Value Override` - This is an editable field that should be filled in by the EM to accurately forecast early in the opportunity cycle. This will overwrite the value in the `Edu Services Value` field.  
+- `Investment Services Value` - This should be filled in by the EM once Investment services are approved by Sales VP and VP of global services. This will be used for both forecasting and accounting of closed/won investment services.  
+
 
 ## Scoping Issue Tracking
 
