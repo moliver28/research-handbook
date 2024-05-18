@@ -26,4 +26,3 @@ All of our user stories map back to our [Runner JTBDs](/handbook/engineering/dev
 - As a Platform Engineer who is helping a developer or team troubleshoot issues with a CI job, I need to determine who registered the runner of that CI job, so I can quickly troubleshoot and resolve the issue.
 - As a Platform Engineer who is helping a developer or team troubleshoot issues with a CI job, I need to determine which group the runner is associated with, so that I can quickly troubleshoot and resolve the issue.
 - As a Platform Engineer who is checking on CI jobs' performance for an instance, I need to see pending and running jobs, so that I can quickly determine if there are performance issues with that runner and the underlying host system or platform.
-

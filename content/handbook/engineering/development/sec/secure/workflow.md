@@ -37,7 +37,6 @@ Unless specified differently for your team, every engineer should try to refine 
 - [Static Analysis][sa]
 - [Frontend][frontend]
 
-
 [ca]:https://gitlab.com/gitlab-org/gitlab/issues?label_name%5B%5D=group%3A%3Acomposition+analysis&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name%5B%5D=backend&scope=all&sort=milestone&state=opened&utf8=%E2%9C%93&weight=None
 [da]:https://gitlab.com/gitlab-org/gitlab/issues?label_name%5B%5D=group%3A%3Adynamic+analysis&label_name[]=workflow%3A%3Aplanning%20breakdown&label_name%5B%5D=backend&scope=all&sort=milestone&state=opened&utf8=%E2%9C%93&weight=None
 [sa]: https://gitlab.com/groups/gitlab-org/-/boards/1590105?label_name[]=group%3A%3Astatic%20analysis
@@ -71,10 +70,10 @@ In order for someone to understand the issue and its implementation, they should
 ## Failing Refinement
 
 An issue should fail refinement if it can not be worked on without additional information or decisions to be made. To fail an issue:
+
 1. Leave a comment on the issue that it can not be worked on, and highlights what still needs to be done.
 2. Unassign yourself if you can not contribute further to issue at the current time.
 3. Assign the `blocked` label.
-
 
 ## Weights
 
@@ -152,7 +151,6 @@ This improves consistency across issues, and communicates that issues have been 
 refining a discovery issue is to make sure the scope of the discovery is clear, what the output will be and that the prerequisites for the discovery are known
 and completed. Discovery issues can have a habit of dragging out or not creating actionable steps, the refinement process should lock down what needs to be answered
 in the discovery process.
-
 
 **Q:** If an issue has both frontend and backend work how should I weight it?
 

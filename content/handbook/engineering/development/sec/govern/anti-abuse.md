@@ -105,7 +105,7 @@ We use issue labels to keep us organized. Every issue has a set of required labe
 
 ### Merge request labels
 
-MR labels can mirror issue labels (which is automatically done when created from an issue), but only certain labels are required for correctly [measuring engineering performance](#measuring-engineering-performance).
+MR labels can mirror issue labels (which is automatically done when created from an issue), but only certain labels are required for correctly measuring engineering performance.
 
 **Required labels**
 

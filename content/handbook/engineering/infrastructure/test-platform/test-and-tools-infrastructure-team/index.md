@@ -18,6 +18,7 @@ description: "Test and Tools Infrastructure Team in Test Platform sub-department
 The Test & Tools Infrastructure team, under the [Test Platform sub-department](../_index.md) at GitLab, aspires to be a pioneering force in the innovation and maintenance of advanced testing frameworks and test infrastructure to support Gitlab's principle of [Quality is everyone's responsibility](https://about.gitlab.com/handbook/engineering/quality/#our-principles).
 
 As an integral part of our vision, we aim to:
+
 - Build a highly performant team of engineers, combining operational and software development experience to implement and support the best-in-class reliable testing processes & infrastructure.
 - Work publicly in accordance with GitLab's [`transparency`](https://about.gitlab.com/handbook/values/#transparency) value.
 - Leverage [`dogfooding`](https://about.gitlab.com/handbook/engineering/infrastructure/#dogfooding) to prepare, build, deliver test tooling that improves the product itself.
@@ -26,6 +27,7 @@ As an integral part of our vision, we aim to:
 ## Mission
 
 The key components of our mission are to:
+
 - **Make testing simple** to enable easy contribution from everyone in the testing process, including test creation, execution, and debugging. This approach democratizes testing and fosters a culture of collective responsibility for quality.
 - **Make testing efficient** to minimize time and resources while maximizing output, ensuring that testing is a facilitator, not a bottleneck, in the software development lifecycle.
 - **Make testing reliable** to consistently deliver accurate and dependable results, ensuring trust in the test system & building confidence in every release.
@@ -56,11 +58,10 @@ graph LR
     D --> D3[Test Advocacy<br>Promoting best testing practices and process improvement]
 ```
 
-
-
 ## Current Roadmap and OKR
 
 Every quarter, the team reviews its Roadmap and [Objectives and Key Results (OKRs)](https://handbook.gitlab.com/company/okrs/).
+
   - [FY25 Roadmap - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2315)
   - [FY25 Q1 OKR - Test and Tools Infrastructure](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/2317#note_1730107488)
 
@@ -88,8 +89,6 @@ The dashboards, owned by Test and Tools Infrastructure team, can be found in the
 | Social hours                    | Quarterly                            | [Virtual team building](/handbook/finance/expenses/#team-building)                                                                                                                                                                |
 | 1:1 with Engineering Manager    | Weekly                               | Discuss development goals (see the [1:1 guidelines](/handbook/leadership/1-1/))                                                                                                                                                         |
 
-
-
 ### Project management
 
 #### Feature work
@@ -103,6 +102,7 @@ The dashboards, owned by Test and Tools Infrastructure team, can be found in the
 #### Working with us
 
 We estimate ~20% of weekly time for support tasks, and balancing our roadmap work with emerging support needs. Please note this estimate varies depending upon ongoing priorities.
+
   - For individual questions please reach out to the team via our slack channels: `#test-platform`, `#test-tools-infrastructure-team`.
   - Raise support requests as [issues in the team-tasks project](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues). Add `~"team::Test and Tools Infrastructure"` and `~"tti::support-request"` labels in the issues to track them in the [team's support request board](https://gitlab.com/groups/gitlab-org/-/boards/7369206?label_name%5B%5D=team%3A%3ATest%20and%20Tools%20Infrastructure&label_name%5B%5D=tti%3A%3Asupport-request).
   - Ensure each issue is tagged with one of `~"type::feature"`, `~"type::bug`, `~"type::maintenance` following [workflow classification guidelines](handbook/engineering/metrics/#work-type-classification).

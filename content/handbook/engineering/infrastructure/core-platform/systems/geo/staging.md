@@ -79,6 +79,7 @@ In the last week of their rotation, the outgoing person should set up a meeting 
 - are familiar with any current ongoing issues with staging geo
 
 The main goals for this rotation:
+
 - Ensure Geo on staging works.
 - Distribute responsibility for keeping Geo on staging working.
 - Better understand the experience of a customer sysadmin
@@ -117,4 +118,3 @@ The main goals for this rotation:
 | March     | [`@dbalexandre`](https://gitlab.com/dbalexandre) |
 | February  | [`@cat`](https://gitlab.com/cat) |
 | January   | [`@vsizov`](https://gitlab.com/vsizov) |
-

@@ -132,6 +132,7 @@ Technical debt is planned following the [standard prioritization scheduling](/ha
 As part of the [Ops sub-department Async Updates](/handbook/engineering/development/ops/#async-updates-no-status-in-meetings), the EM is responsible for sharing a weekly team update.
 
 Weekly update flow:
+
 1. Monday
    1. (bot) Weekly update is created automatically as an issue in the [gitlab-org/monitor/respond](https://gitlab.com/gitlab-org/monitor/respond/-/blob/master/weekly_update/README.md) project.
 1. Throughout the week
@@ -144,6 +145,7 @@ Weekly update flow:
    1. (human) Close the issue, share a link to it in the #g_respond Slack channel.
 
 Links
+
 * [Past weekly update issues](https://gitlab.com/gitlab-org/monitor/respond/-/issues/?sort=created_date&state=all&label_name%5B%5D=OpsSection%3A%3AWeekly-Update&first_page_size=100)
 * [Automation README](https://gitlab.com/gitlab-org/monitor/respond/-/blob/master/weekly_update/README.md)
 * [Issue template](https://gitlab.com/gitlab-org/monitor/respond/-/blob/master/.gitlab/issue_templates/weekly-update.md?plain=1)
@@ -169,7 +171,7 @@ Advantages of keeping most MR reviews inside the Respond Group include:
 * Knowledge sharing among the engineers in the Respond Group.
 * Design reviews currently follow a [different process](/handbook/product/ux/product-designer/mr-reviews/#how-to-assign-mr-reviews). For design reviews, follow the "Reviewer roulette" recommendation (will only be shown if the MR is non-draft and has a ~UX label applied), and ensure you provide context for how to set up the feature they will be testing. For example, for testing alerts:
 
-```
+```markdown
 <!---
 1. Navigate to Settings > Monitor
 1. Expand the Alert section, and click the button to "Enable a new integration"
@@ -207,6 +209,7 @@ The current workflow:
 ### Measuring Say Do ratio
 
 How we measure Say Do ratio:
+
 1. We set a list of goals in the milestone planning issue. Usually 3-5 of them.
    1. Stretch goals may exist but don't contribute to Say/Do.
 1. Ideally 1 goal = 1 epic. There can be exceptions, some goals don't map 1:1 with an epic. That's ok.
@@ -215,10 +218,12 @@ How we measure Say Do ratio:
 1. The Engineering Manager reports the ratio in the [weekly async update](/handbook/engineering/development/ops/monitor/respond/#weekly-async-updates) with some context and the recent trend.
 
 How this differs from past approaches:
+
 1. We do not apply the `~deliverable` label to issues committed to being completed in the current milestone.
 1. We do not apply the `~filler` label to issues which are not committed in the current milestone.
 
 Why we choose this approach:
+
 1. Clear goals. Puts the focus on committing to milestone goals, and whether we're achieving them. Milestone plan is the go-to source of truth for our priorities.
    1. Bonus: we get better at writing goals (Say), because if we don’t they’ll be hard to assess (Do).
 1. Accuracy. By zooming out to the epic-level, we gain accuracy. We don't need to label individual issues, they're either part of a deliverable goal / epic, or not.
@@ -227,6 +232,7 @@ Why we choose this approach:
 1. See [this thread](https://gitlab.com/gitlab-org/monitor/respond/-/issues/217#note_1326514387) for the original context that lead to this approach.
 
 Downsides to this approach:
+
 1. Accuracy may still be a problem, depending on how well we break down our milestone goals.
    1. Mitigation: accept that perfect accuracy is not a goal, and rely on the feedback cycle to improve our goal setting skills.
 1. Query-based dashboards will not pick up our Say Do ratio.

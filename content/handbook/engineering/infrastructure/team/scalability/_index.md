@@ -25,11 +25,11 @@ title: "Scalability Group"
 ## Teams
 
 The Scalability group is currently formed of two teams:
+
 * [Scalability:Observability](./observability) and
 * [Scalability:Practices](./practices).
 
 {{< team-by-manager-slug "rachel-nienaber" >}}
-
 
 ### Scalability:Observability
 
@@ -105,6 +105,7 @@ The above list is not comprehensive, nor does it outline a formal process. We sh
 The Scalability Group consists of a Senior Engineering Manager, Engineering Managers, Backend Engineers, and Site Reliability Engineers.
 
 The Engineering Roles section of the handbook lists the responsbilies of these roles:
+
 * [Engineering Manager](/job-families/engineering/infrastructure/engineering-management/#manager-engineering-scalability)
 * [Backend Engineer](/job-families/engineering/backend-engineer) with [Scalability specialization](/job-families/engineering/backend-engineer/#scalability).
 * [Site Reliability Engineer](/job-families/engineering/infrastructure/site-reliability-engineer/#levels-for-site-reliability-engineer) with [Scalability specialization](/job-families/engineering/infrastructure/site-reliability-engineer/#scalability).
@@ -143,7 +144,7 @@ Some examples are:
 1. [Review Request - Throttling for Cleanup Policies Scaling Request](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/461)
 
 This template gives the Scalability group the information we need to help you, and the issue will be shown on
-our [build board](#issue-boards) with a high priority.
+our [build board](#weekly-issues) with a high priority.
 
 ### How does the Scalability Group engage with Stage Groups?
 
@@ -234,6 +235,7 @@ Impact could take the form of changes like:
 #### Announcing Impactful Items
 
 In order to make others aware of the work we have done, we should advertise changes in the following locations:
+
 1. Engineering Week-in-Review
 1. Slack Channels
    1. For Backend Engineers
@@ -269,6 +271,7 @@ When issues arrive on our backlog, we should consider how they align with our vi
 We also determine which of the teams would be the more appropriate owner for that task.
 
 We need to effectively triage these issues so that they can be handled appropriately. This means:
+
 1. Critically assess the issue to understand the problem
 1. Determine if this impacts .com or Self-Managed instances.
    1. If this primarily affects Self-Managed instances, the issue can usually be redirected to the [Application Performance group](/handbook/engineering/infrastructure/core-platform/data_stores/application_performance/).
@@ -282,14 +285,17 @@ When handing over an issue to the new owner, provide as much information as you 
 The Scalability team members often have specialized knowledge that is helpful in resolving incidents. Some team members are also SREs who are part of the on-call rota. We follow the guidelines below when contributing to incidents.
 
 For an on-call SRE:
+
 * follow the [ordinary incident management procedures for EOC](/handbook/engineering/infrastructure/incident-management/#engineer-on-call-eoc-responsibilities)
 * at the end of your shift, if there are active incidents or corrective actions in progress, inform the EM who will help you to prioritize the remaining work
 
 For an Incident Manager:
+
 * follow the [ordinary incident management procedures for IM](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities)
 * handover should occur as normal, but inform the EM if there are active incidents you are still working on
 
 If you are not EOC or an Incident Manager when an incident occurs:
+
 * For S1 incidents
    * the priority is to get GitLab.com up and running and getting back to a stable state takes priority over project work
    * when the system is stable, contribute to determining the root cause and writing up the corrective actions
@@ -326,6 +332,7 @@ the changes that they make.
 #### Quarterly Issues
 
 Every quarter, we perform a review of all issues on the backlog that are not part of any project. When reviewing issues:
+
 * if the issue is no longer relevant then it should be closed
 * if it is relevant but we are unlikely to work on it soon it should remain open
 

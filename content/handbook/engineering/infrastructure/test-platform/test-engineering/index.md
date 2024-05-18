@@ -29,6 +29,7 @@ The goal of our test planning process is to ensure quality and manage risk in an
 To achieve that goal when delivering a change or new feature, we have conversations that link test requirements to product requirements, identify risks and quality concerns, and review and plan test coverage across [all test levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html).
 
 The output or deliverables of the test planning process are:
+
 - Requirements on unit test coverage.
 - Requirements on integration test coverage.
 - Requirements on end-to-end test coverage (where applicable).
@@ -48,18 +49,15 @@ The following guidelines provide more detail, as well as suggested responsibilit
 
 ##### As a feature issue author
 
-
 - Use the issue to discuss how the change could affect the quality of the product and impact our users.
   - Start the discussion by answering the questions in the Testing section of the [feature proposal template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md). Note that those questions are not exhaustive.
   - [Optional] See the [Test Plan](#test-plan) section for advice on when a test plan might be useful.
 
 ##### As a Product Manager, Product Designer, Engineer (of any type), user, or anyone else involved in the change
 
-
 - Continue the discussion of quality and risk that was started in the issue description. Share any insights that you have that could help guide testing efforts.
 
 ##### As an Engineer who will implement the change, or a Software Engineer in Test contributing to the change
-
 
 - Use the issue to start a discussion about test strategy, to come up with clear test deliverables for tests at different levels.
   - List the test deliverables in the feature merge request(s).
@@ -70,13 +68,11 @@ The following guidelines provide more detail, as well as suggested responsibilit
 
 ##### As a merge request author (i.e., the Engineer who will implement the test)
 
-
 - Complete the test deliverables.
- - End-to-end tests should be included in the feature merge request where possible, but can be in a separate merge request (e.g., if being written by a different engineer).
- - All lower-level tests **must** be included in the feature merge request.
+  - End-to-end tests should be included in the feature merge request where possible, but can be in a separate merge request (e.g., if being written by a different engineer).
+  - All lower-level tests **must** be included in the feature merge request.
 
 ##### As a Software Engineer in Test
-
 
 - Help guide the discussions in issues and merge requests, and ensure that we complete the test coverage as planned before the feature is merged into `master` and released to production.
 
@@ -94,12 +90,14 @@ We do not require a test plan for every feature or epic. Test plans are expensiv
 There is no strict guideline for this and we defer this decision to each engineering group or team.
 
 **Examples of work that's likely to warrant a test plan:**
+
 - Swapping underlying infrastructure providers (e.g., the [GCP migration](https://gitlab.com/gitlab-com/migration/issues/451#test-plan)).
 - Certifying performance improvements for customers.
 - Upgrading underlying Rails version (e.g., the [Rails 5 migration](https://gitlab.com/gitlab-org/gitlab-ce/issues/51719)).
 
 GitLab's test plan is based on [Google’s 10 min test plan](https://testing.googleblog.com/2011/09/10-minute-test-plan.html).
 This test plan uses the ACC Framework (Attribute, Components and Capabilities matrix)
+
 - Attributes: qualities the product should have
 - Components: major parts of the product
 - Capabilities: behavior the product should display that links components and attributes
@@ -130,6 +128,7 @@ Our previous iteration can be seen at [DEPRECATED - GitLab Blackbox Integration 
 An explanation of why we chose to do it this way is explained in this issue: [Test case management and test tracking in a Native Continuous Delivery way](https://gitlab.com/gitlab-org/gitlab-ce/issues/51790).
 
 To summarize, we want to track our tests in a Native Continuous Delivery way.
+
 - If we are doing continuous delivery in the right way, there should be little to no manual tests. Manual tests if any should be minimal and exploratory.
 - There should be little need for detailed test steps if manual testing is minimal and exploratory.
   - Exploratory testing has a free form emphasis which removes the importance of hardcoded test steps.

@@ -171,6 +171,7 @@ The on-call spreadsheet(internal only) can be found by searching [Google Drive f
 #### Eligibility
 
 All backend and fullstack engineers within Core Development, Expansion Development, or Core Platform who have been with the company for at least 3 months, with the exception of team members in:
+
 - ModelOps: AI Model Validation
 - Secure: Composition Analysis
 - Distribution: Build
@@ -321,8 +322,10 @@ When responding to an Incident, utilize the below procedure as guidelines to fol
 1. Join the Incident Zoom - this can be found bookmarked in the `#incident-management` Slack Channel
 1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#incident-<ISSUE NUMBER>`
 1. Work with the EOC to determine if a known code path is problematic
+
   - Should the knowledge of this be in your domain, continue working with the Engineer to troubleshoot the problem
   - Should this be something you may be unfamiliar with, attempt to determine code ownership by team - Knowing this will enable us to see if we can bring online an Engineer from that team into the Incident
+
 1. Work with the Incident Manager to ensure that the Incident issue is assigned to the appropriate Engineering Manager - if applicable
 
 ### Bot (Pagerslack) Usage
@@ -344,7 +347,6 @@ Situation Room recordings from previous incidents are available in internal Goog
 ### Shadowing A Whole Shift
 
 To get an idea of [what's expected](#expectation) of an on-call engineer and how often incidents occur it can be helpful to shadow another shift. To do this simply identify a time-slot that you'd like to shadow in the on-call schedule and contact the primary to let them know you'll be shadowing. Ask them to invite you to the calendar event for this slot. During the shift keep an eye on [#dev-escalation](https://gitlab.slack.com/archives/CLKLMSUR4) for incidents and observe how the primary [follows the process](#process-outline) if any arise.
-
 
 ### Tips & Tricks of Troubleshooting
 
@@ -401,7 +403,6 @@ These are the recommended settings. Your mileage may vary.
 
 ![screenshot of slack notification settings](notifications-slack-1.png)
 ![screenshot of slack notification settings](notifications-slack-2.png)
-
 
 #### macOS Notifications
 

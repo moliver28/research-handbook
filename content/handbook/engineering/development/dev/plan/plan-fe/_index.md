@@ -164,4 +164,3 @@ accomplished during the week.
 [#s_plan]: https://gitlab.slack.com/archives/s_plan
 [youtube]: https://www.youtube.com/playlist?list=PLFGfElNsQthaREiE1QwWQtqUv1LYPEuuj
 [retros]: https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
-

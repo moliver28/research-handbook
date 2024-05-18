@@ -72,4 +72,4 @@ I have experience with a variety of networking concepts, particularly lower leve
 | Microphone | [Audio-Technica AT2005USB](https://audio-technica.com.au/available-now-at2005usb-home-recording-podcasting-live-performance/) |
 | Chair | [AK Racing K7](https://ak-racing.com.au/products/akracing-k7012-gaming-chair-black-blue) |
 | Monitor | [Kogan 34" 144Hz Ultrawide](https://www.kogan.com/au/buy/kogan-34-wqhd-curved-219-ultrawide-144hz-hdr-gaming-monitor-3440-x-1440/) |
-| Headphones | [Sony Noise Cancelling WH1000XM4](https://www.sony.com.au/electronics/headband-headphones/wh-1000xm4)
+| Headphones | [Sony Noise Cancelling WH1000XM4](https://www.sony.com.au/electronics/headband-headphones/wh-1000xm4) |

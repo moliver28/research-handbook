@@ -44,7 +44,6 @@ As the Talent Assessment impacts compensation, and Acting/Interim periods are no
 
 #### Pre-Calibration Prep Work
 
-
 In addition to the [calibration session pre work](/handbook/people-group/talent-assessment/#calibration-session-pre-work) on the Talent Assessment page, we ask that you complete the following:
 
 1. Directors should conduct sub-department level calibration sessions ahead of the department-wide Development calibration sessions. In addition to calibrating on initial assessments, Directors are responsible for ensuring their respective teams assessments fall within the [expected distribution](/handbook/people-group/talent-assessment/#expected-distribution-performancegrowth-potential-company-wide) ahead of the department-wide calibration session for efficiency.
@@ -60,8 +59,6 @@ In addition to the [calibration session pre work](/handbook/people-group/talent-
 While calibrations and ultimate determinations will take place at Senior Manager+ level, inital recommendations begin in Workday and sit with team member's direct managers aligned with the [process](/handbook/people-group/talent-assessment/#process-to-determine-key-talent)
 
 1. Every session attendee should review the Performance/Growth Potential assessments and Key Talent overviews for outliers asynchronously ahead of the session to be prepared for live discussion/calibration.
-
-
 
 #### Calibration Session Structure
 
@@ -100,7 +97,6 @@ The calibration schedule below only includes calibration sessions in which depar
 | Session 4 | Director+ (people managers only) + PBP | Principal/Senior Manager level | TBD | APAC/Americas | 1 hour | Expansion |
 | Session 5 | Director+ (people managers only) + PBP | Calibrate Senior Manager level | TBD | EMEA/Americas | 1.5 hours | Core Development |
 | Session 6 | Department leaders and PBP | Calibrate Director/Distinguished level | TBD | EMEA/APAC/Americas | 2 hours | Core Development & Expansion |
-
 
 #### Timeline
 

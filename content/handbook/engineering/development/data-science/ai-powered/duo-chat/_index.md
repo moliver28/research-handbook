@@ -26,8 +26,6 @@ The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while 
 - It’s encouraged to include a clear screencast with each MR. Reviewers should try to reproduce changes locally or, if that’s not feasible, schedule a sync-up to collaborate effectively.
 - UX reviews will be aimed for every user-facing MR, as long as capacities allow. Availability will be communicated on the MR itself if there are any changes.
 
-
-
 ## 🔗 Other Useful Links
 
 ### 📝 Dashboards (internal only)

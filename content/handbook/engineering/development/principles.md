@@ -274,7 +274,7 @@ Due date pressure logically leads to a few outcomes:
 1. We [cut scope](/handbook/values/#move-fast-by-shipping-the-minimal-viable-change).
 1. We miss the due date.
 
-Only the last two outcomes are acceptable as a general rule. Missing a 'due date' in the form of an assigned milestone is often OK as we put [velocity above predictability](#velocity-over-predictability), and missing the monthly self-managed release does not prevent code from reaching GitLab.com.
+Only the last two outcomes are acceptable as a general rule. Missing a 'due date' in the form of an assigned milestone is often OK as we put [velocity above predictability](/handbook/engineering/development/principles/#the-importance-of-velocity), and missing the monthly self-managed release does not prevent code from reaching GitLab.com.
 
 For these reasons, and others, we intentionally [do not define a specific date](/handbook/engineering/releases/#timelines) for code to be merged in order to reach a self-managed monthly release. The earlier it is merged, the better. This also means that:
 

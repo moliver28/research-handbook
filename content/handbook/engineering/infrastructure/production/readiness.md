@@ -32,6 +32,7 @@ The **readiness review issue** is used to coordinate among stakeholders who will
 ## Criteria for starting a Production Readiness Review
 
 Production Readiness should start as early as possible and is required for all [product maturity levels][maturity levels] that meet any of the following criteria:
+
 - New infrastructure components, or significant changes to existing components that have dependencies on the GitLab application.
 - Changes to our application architecture that change how the infrastructure scales, or how data is processed or stored.
 - New services or changes to existing services that will factor into the availability of the GitLab application.
@@ -85,7 +86,6 @@ The template also contains information about what is expected for Experimental, 
 Once all discussions have been addressed all mandatory items have satisfactory answers, the author will request approvals from the reviewers.
 The reviewers should note their approval by approving the merge request.
 Following this, the issue will be closed and the change can be applied in production.
-
 
 [new issue]: https://gitlab.com/gitlab-com/gl-infra/readiness/-/issues/new?issuable_template=production_readiness
 [issue template]: https://gitlab.com/gitlab-com/gl-infra/readiness/blob/master/.gitlab/issue_templates/production_readiness.md

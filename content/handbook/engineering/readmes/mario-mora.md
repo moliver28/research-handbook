@@ -7,7 +7,6 @@ job: "Support Engineer"
 
 <!-- This template will help you build out your very own GitLab README, a great tool for transparently letting others know what it's like to work with you, and how you prefer to be communicated with. Each section is optional. You can remove those you aren't comfortable filling out, and add sections that are germane to you. -->
 
-
 ## Mario’s - README
 
 Hello, I’m Mario and I am a Support Engineer at GitLab.
@@ -38,7 +37,6 @@ When working on a difficult issue I had found it better for me to split it into 
 If you have any feedback please share it with me since I enjoy enhancing my labor and it's always welcomed because it helps me identify blind spots that I need to correct.
 
 Feel comfortable asking me for help with any tasks you need and please expect me to do the same as well.
-
 
 ## My working style
 

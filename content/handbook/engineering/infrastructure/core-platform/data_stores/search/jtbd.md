@@ -23,7 +23,6 @@ Utilize JTBD and job statements to:
 - Continuously test and iterate features to ensure we are meeting our customers' and users' needs.
 - Create a transparent view for our stakeholders into the current and future state of the product.
 
-
 ## Jobs To Be Done
 
 <%= partial("direction/jtbd-list", locals: { stage_key: "Global Search" }) %>

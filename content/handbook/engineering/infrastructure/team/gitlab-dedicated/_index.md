@@ -95,6 +95,7 @@ The GitLab Dedicated Production Change Lock is greatly inspired by the [PCL](htt
 but there are some differences worth noting.
 
 A PCL is manually enforced once the following requirements are met:
+
 1. A PCL [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3946) describing the PCL period is created.
 2. An MR updating the scheduled PCLs table is approved by the SaaS Platforms Engineering Director
 3. Customer changes via Switchboard are prevented for the duration of the PCL.
@@ -139,6 +140,7 @@ Access will only be provided to:
 1. Extensions will need to be approved by the Dedicated Team Engineering Manager or Director and the direct manager of the requesting team member
 
 To gain access, please create:
+
 1. [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request). Use `GitLab Dedicated Logs (Production)` as the system.
 1. An issue in the [GitLab Dedicated tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=log_access_rotation) using the `Log rotation access` template.
 
@@ -190,6 +192,7 @@ The team does have a set of regular synchronous calls:
 - 1-1s between the Individual Contributors and Engineering Managers
 
 The group has a set of regular synchronous calls for PMs and EMs to ensure alignment:
+
 - `GitLab Dedicated Product <> Eng Sync` - This call is weekly on Mondays and Thursdays for PMs and EMs to align
 - `Dedicated Managers Sync` - This call is every two weeks for Dedicated EMs to sync and ensure alignment
 
@@ -233,7 +236,6 @@ We use sub-epics to break larger epics into smaller portions. These sub-epics ar
 1. Sub-epics group tasks required to deliver an item mentioned
 1. Sub-epics represent an item from the roadmap and are delivered in a specific phase
 1. Sub-epics can span multiple months, but their end date should match the 'anticipated completion date' of the roadmap phase they are added to.
-
 
 The diagram below shows an example of traversing the complete hierarchy:
 
@@ -292,7 +294,7 @@ Each epic and child sub-epics must include the following:
     1. The due date is set based on [the Roadmap to exit Limited Availability](https://about.gitlab.com/direction/saas-platforms/dedicated/#limited-availability-roadmap)
     1. The date that a project actually ended is taken from the date that the epic was closed.
 
-Labels are described in the [epic label section](#epic-labels).
+Labels are described in the [epic label section](#epics-labels).
 
 #### Epic boards
 
@@ -545,7 +547,7 @@ in the event of a Capacity Planning shift overlapping with an on-call shift,
 consider swapping your capacity planning shift with another engineer
 to ensure both tasks receive the necessary attention.
 The goal is to give ourselves the best chance of resolving impending saturation events
-*before* they become a customer-impacting incident
+_before_ they become a customer-impacting incident
 It is based on statistical modelling and human interpretation,
 and is not expected to be perfect in every situation.
 Do your best,
@@ -569,39 +571,39 @@ as a high priority task that is second only to active incidents:
 1. Review the capacity planning issues that are:
    1. In the Open column of the [board](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/boards/7536402).
    1. [Previously assessed](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues/?label_name%5B%5D=violation%3Asaturation) but now and therefore in need of a new look.
-   * Use the labels auto-populated on the issue to help prioritize if necessary.
+   - Use the labels auto-populated on the issue to help prioritize if necessary.
      `violation:hard` is more important than `violation:soft`,
      and `severity::` provides additional signal.
 1. For each saturation issue that is up for review,
    evaluate the prediction given in the issue:
-   * Check the tips below for suggestions on quickly assessing predictions as false positives;
+   - Check the tips below for suggestions on quickly assessing predictions as false positives;
      this is a good way to quickly reduce the number of issues requiring more work
-   * If evaluation requires non-trivial investigation over more than a day calendar time,
+   - If evaluation requires non-trivial investigation over more than a day calendar time,
      label it `capacity-planning:investigate` and investigate when you have dealt with higher priority capacity planning issues
-   * If you assess that it warrants active action in the near future and is not already `capacity-planning::in-progress`:
+   - If you assess that it warrants active action in the near future and is not already `capacity-planning::in-progress`:
       1. Label it `~capacity-planning:in-progress`,
       1. Add or update the due date to next week, and
       1. Create a remediation [issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=saturation_risk)
-      * Take into consideration whether we have existing remediation options
+      - Take into consideration whether we have existing remediation options
         (e.g performance-based overlays, or entire reference architecture upsizing)
         or if we will need to add capabilities to handle the particular saturation problem.
         Err on the side of raising an issue for further discussion;
         we can always close it and return to monitoring status.
-   * If it's in `capacity-planning::in-progress` check on the remediation issue and ensure it is making progress,
+   - If it's in `capacity-planning::in-progress` check on the remediation issue and ensure it is making progress,
      and update the due-date to be 1 week in the future.
      If remediation has completed,
      move the issue to `capacity-planning::verification`
      or, if results are already clearly sufficient, close it.
-   * If it is in `capacity-planning::verification`,
+   - If it is in `capacity-planning::verification`,
      check if the remediation results can be considered sufficient,
      and if so close the issue.
      If not, update the due date to next week for further review.
-   * If the prediction has a wide-range and there is no indication that it will breach any time soon,
+   - If the prediction has a wide-range and there is no indication that it will breach any time soon,
      or the lead time is sufficient that there is no urgency (e.g. 3+ months for Gitaly disk saturation),
      label the issue with `~capacity-planning::monitor`
      and update the due-date to just before the start of the next shift
      for review by the incoming duty engineer.
-   * If a metric is of a nature (perhaps for reasons specific to Dedicated)
+   - If a metric is of a nature (perhaps for reasons specific to Dedicated)
      that predictions are consistently unusable across all customers for that metric,
      or if the prediction is plausibly useful but needs tuning:
       1. Label it `capacity-planning::tune-model`,
@@ -609,7 +611,7 @@ as a high priority task that is second only to active incidents:
       1. Work on the tamland
          [manifest](https://gitlab.com/gitlab-com/runbooks/-/blob/master/reference-architectures/get-hybrid/config/tamland/manifest.json)
         to exclude or tweak the specific saturation signal.
-         * The [Scalability:Observability](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/observability/) team
+         - The [Scalability:Observability](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/scalability/observability/) team
         can offer advice on the finer details of the tamland configuration.
 1. Check that Tamland is [running](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/pipeline_schedules).
    The pipeline should run successfuly every day.
@@ -666,4 +668,3 @@ Resources used by the team to conduct work are described on the [Development Res
 - Name for [`Switchboard` customer portal](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/7#note_591358260) was suggested by @marin after he spent a day trying to figure out which mixing console (Also known as a switchboard/soundboard) to get for amateur music making. He didn't buy anything, but the suggestion was accepted.
 - Name for [`Amp` management cluster](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/31#note_609710775) was suggested by @ccasella, as it is the instance that is "powering" supply of other instances.
 - [Dedicated Group - Year in Review 2023](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3681)
-

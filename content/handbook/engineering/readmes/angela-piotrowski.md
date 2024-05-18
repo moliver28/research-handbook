@@ -8,8 +8,6 @@ description: Personal readme page for Angela Piotrowski, Support Engineering Man
 
 Combo of Support Engineering Handbook “[Getting to know you](/handbook/support/managers/getting-to-know-you.html)” and Manager README (strongly inspired by “https://about.gitlab.com/handbook/engineering/readmes/mike-dunninger/”)
 
-
-
 ### **My Role and Responsibilities**
 
 **As your manager, I will do all I can to make it possible for you to succeed professionally. That means I will strive to do at least the following…**
@@ -21,8 +19,6 @@ Combo of Support Engineering Handbook “[Getting to know you](/handbook/support
 - Set clear expectations for you & give clear feedback
 - Be available for you to lean on me
 - Give you many opportunities to stand on your own two feet
-
-
 
 ### **I Expect…**
 
@@ -38,8 +34,6 @@ Combo of Support Engineering Handbook “[Getting to know you](/handbook/support
 - adherence to team and company policies & processes
 - respect for each other, our company, and our customers
 
-
-
 ### **I Believe…**
 
 - in the individual
@@ -50,8 +44,6 @@ Combo of Support Engineering Handbook “[Getting to know you](/handbook/support
 - in work-life balance
 - that a manager or leader only succeeds, when those on their team succeed. I will strive to assist you in achieving your definition of success.
 - that customer support and service are extremely advanced engineering practices due to the blend of technical and soft skill requirements, and that achieving this balance is what makes Support Engineering so special
-
-
 
 ### **Working with Me**
 
@@ -67,8 +59,6 @@ Combo of Support Engineering Handbook “[Getting to know you](/handbook/support
 - what I should stop doing
 - I try very hard to write or say exactly what I mean, with no hidden agenda or secrets. If there's information you want but that I can't give you, I'll let you know. I won't make stuff up, and I won't make you guess. So you shouldn't need to read between the lines.
 
-
-
 ### **Personal Background & Interests**
 
 #### Childhood
@@ -77,13 +67,9 @@ Combo of Support Engineering Handbook “[Getting to know you](/handbook/support
 
 I grew up in a very small dairy farming town (population 2000) in Minnesota, US.
 
-
-
  **Please tell me about growing up with your siblings, parents, and others**
 
 I have one younger sister, and lived with her and my parents until moving away from home at 18 for school.
-
-
 
 #### Education
 
@@ -95,8 +81,6 @@ I completed a B.S. in Biomedical Science with a focus in Nutrition from the Nati
 
 I completed a M.S. in Biotechnology and Chemical Science with a focus in Biochemistry from Roosevelt University in Chicago IL (Schaumburg campus)
 
-
-
 #### Current Situation
 
 **Where (actual location) are you now and how did you get there?**
@@ -106,8 +90,6 @@ I live in Lockhart TX, in a small house with 10 acres of countryside around us. 
 **Do you have family of your own? Tell me about them.**
 
 I have been happily married to my husband since 2012, and we are looking to welcome our first child into the world in Dec 2022. Otherwise we live with our super geriatric (18 as of writing this) cat that has been with me since high school.
-
-
 
 #### Fun
 
@@ -121,8 +103,6 @@ I have been happily married to my husband since 2012, and we are looking to welc
   - Baking, Cooking, Gardening
 - And video games (in no particular order):
   - Red Dead Redemption 2, Skyrim, Fallout 4, Stardew Valley, Graveyard Keeper, Rimworld, Don’t Starve, Portal
-
-
 
 #### **Professional Background & Interests**
 
