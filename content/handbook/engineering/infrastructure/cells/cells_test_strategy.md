@@ -6,6 +6,7 @@ title: Test Platform in Cells
 Cells is a project that spans the entirety of GitLab. Instead of recreating feature testing done by the other teams, we will reuse and leverage what exists currently and supplement to fill in gaps.
 
 This approach has the following requirements:
+
 - It must feed back useful information to the engineering teams in an efficient, non burdensome way
 - It must provide good coverage so we have confidence to release
 - It must be easy to add/enhance/change tests
@@ -14,6 +15,7 @@ This approach has the following requirements:
 ## Strategy
 
 The testing strategy for Cells follows our practice of testing at the correct level. The testing will be focused on a couple of efforts:
+
 - Ensuring we have good functional coverage at the appropriate level
     - Reusing existing testing as much as possible to reduce burden on the teams.
 - Creating system level E2E tests incrementally to cover boundary conditions
@@ -62,6 +64,7 @@ The Single Cell level has pretty significant existing coverage due to overlap wi
 #### Multiple Cells
 
 The Multiple Cell level focuses on scenarios that span Cells that do not elevate up to the Router level. This covers features like:
+
 - A user logged into one Cell URL is logged into a second Cell URL
 - Organizations/Groups/Repos that exist on one Cell do not exist on other Cells
 - ...
@@ -89,6 +92,7 @@ Just like our feature testing, performance testing can be done on the [testing l
 ### Unit Testing
 
 At the lowest level, we have several gems included in GitLab that can be used to test performance during development that we can use to get feedback before the code is finalized:
+
 - [derailed_benchmarks](https://github.com/zombocom/derailed_benchmarks)
 - [benchmark-memory](https://github.com/michaelherold/benchmark-memory)
 - [benchmark-ips](https://github.com/evanphx/benchmark-ips)

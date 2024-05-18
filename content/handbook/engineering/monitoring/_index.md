@@ -121,7 +121,8 @@ These videos provide examples of how to quickly identify failures, defects, and 
 ### Pingdom Statistics
 
 We use our apdex based measurements to report official availability (see above). However, we also have some public pingdom tests for a representative view of overall performance of GitLab.com. These are available at [https://stats.pingdom.com](http://stats.pingdom.com/81vpf8jyr1h9). Specifically, this has the availability and latency of reaching
-   * a [GitLab.com issue](). For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
+
+   * a GitLab.com issue. For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
    * [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
 
 ### Main Monitoring Dashboards
@@ -173,7 +174,6 @@ The dashboards for stage groups are at a very early stage. All contributions are
 
 * [GitLab Web Status](https://dashboards.gitlab.net/d/pb3fvC7mk/gitlab-web-status): front end perspective of GitLab. Useful to understand how GitLab.com looks from the user perspective. Use this graph to quickly troubleshoot what part of GitLab is slow.
 * [GitLab Git Status](https://dashboards.gitlab.net/dashboard/db/gitlab-git-status): front end perspective of GitLab ssh access.
-
 
 #### Private Whitebox Monitor
 
@@ -234,6 +234,7 @@ We also did a series of deep dives by pairing with the development teams for eac
 ## Instrumenting Ruby to Monitor Performance
 
 Blocks of Ruby code can be "instrumented" to measure performance.
+
   * [Documentation of instrumentation](https://docs.gitlab.com/ee/development/service_ping) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/service_ping/metrics_instrumentation.html)
   * An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 

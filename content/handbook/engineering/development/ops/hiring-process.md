@@ -10,6 +10,7 @@ title: Ops Hiring Process
 
 
 We are running with some limited capacity in the recruiting team and we are asking hiring managers to cover all steps in the hiring process. Please prioritize your time in the following order when spending time on recruiting:
+
 1. References & Justifications
 2. Filling in scorecards/feedback
 3. Sourcing/Reviewing applications
@@ -80,6 +81,7 @@ In addition to reviewing candidates in the Evergreen req, you may also wish to d
 1. After importing to Greenhouse, edit the profile (under Details tab, there is an edit button) to include the email and any other contact information. This is important because Greenhouse automatically sends an email to the candidate when is moved from prospect to candidate to fill a form which includes the CV to be uploaded there.
 
 **Resources**:
+
 - Mark Deubel's podcast: [Foundations - Sourcing Outreach](https://doobles.podbean.com/e/building-the-foundation-sourcing-outreach-pt1-episode-3/) and [Guest Show - Sourcing outreach](https://doobles.podbean.com/e/guest-show-sourcing-outreach-with-dov-and-mark/)
 - [Talent Acquisition Reach out templates](https://docs.google.com/presentation/d/1ySqgLoYnFUGtb7hdywav6iSb_NBPRhfIs6WZlGne6Ww/edit?usp=sharing) (private)
 - [Ops reach out templates](https://gitlab.com/gitlab-com/ops-sub-department/ops-hiring-process/-/blob/main/outreach-messages.md) (private)

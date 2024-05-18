@@ -208,7 +208,7 @@ All product priority-based issues will exist alongside our comprehensive [list o
 
 To complete this mapping, product priority-based issues or epics should be created in `gitlab-org/gitlab` or `gitlab-org` (respectively) with the same title of the priority and the following labels. The `type::feature` label is what distinguishes a product priority from other group epic work.
 
-```
+```text
 /label ~"section::sec"
 /label ~"devops::secure"
 /label ~"group::dynamic analysis"
@@ -301,13 +301,13 @@ The reaction rotation engineer should not:
 
 On any day, each team member should look left and right on our [Dynamic Analysis delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis) before they start developing any new work from the `workflow::ready for development` column, helping to move one issue forward from both directions (2 total). The team follows the workflow states and activities articulated in GitLab's [Product Development Flow](/handbook/product-development-flow/). Looking left involves grabbing an issue from either the `workflow::refinement` or the `workflow::ready for development` columns, whichever has more items, and completing it. Looking right involves grabbing an issue from either the `workflow::in review` or the `workflow::verification` columns, whichever has more items, and completing it. After both issues have been moved to a new column, the team member can start ready work from the `workflow::ready for development`.
 
-The `Look Left & Right Before Dev` strategy ensures that work items aren't getting stuck on our board, that every team member gets a chance to plan, breakdown, and refine issues, and that code reviews and staging/production vefification activities are spread equally across the team. If there is no work to the left, new work can be brought in from our milestone backlog, as defined in our current [Monthly Release Planning](#monthly-release-planning) issue. New work may also be added to the first two columns at any time from sales and support request for help issue, high-priority bugs, and security-related issues.
+The `Look Left & Right Before Dev` strategy ensures that work items aren't getting stuck on our board, that every team member gets a chance to plan, breakdown, and refine issues, and that code reviews and staging/production vefification activities are spread equally across the team. If there is no work to the left, new work can be brought in from our milestone backlog, as defined in our current [Monthly Release Planning](#monthly-outputs) issue. New work may also be added to the first two columns at any time from sales and support request for help issue, high-priority bugs, and security-related issues.
 
 #### Blueprinting
 
-When there are too few or no work items in the `workflow::refinement` or the `workflow::ready for development` columns, check the current [Monthly Release Planning](#monthly-release-planning) issue for "Work to Blueprint" issues. Assign yourself as a DRI, and assist in scheduling the necessary meetings with the team to review and help blueprint this work for the next milestone. Attempt to create as many child epics and issues as placeholders for eventual planning, breakdown, and refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All blueprint issues created should receive the following milestone and labels:
+When there are too few or no work items in the `workflow::refinement` or the `workflow::ready for development` columns, check the current [Monthly Release Planning](#monthly-outputs) issue for "Work to Blueprint" issues. Assign yourself as a DRI, and assist in scheduling the necessary meetings with the team to review and help blueprint this work for the next milestone. Attempt to create as many child epics and issues as placeholders for eventual planning, breakdown, and refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All blueprint issues created should receive the following milestone and labels:
 
-```
+```text
 /milestone {from mapping}
 /label ~"section::sec"
 /label ~"devops::secure"

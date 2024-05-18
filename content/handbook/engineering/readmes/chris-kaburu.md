@@ -20,7 +20,6 @@ While the allure of working on numerous areas is tempting, I focus on my strengt
 
 ### My Assumptions 🌱
 
-
 I was captivated to [GitLab Values](/handbook/values/), and now as part of the team, I've had the pleasure to experience and live by these values. Now, I hold the following assumptions about my colleagues:
 
 - You [mean well](/handbook/values/#assume-positive-intent)
@@ -29,11 +28,9 @@ I was captivated to [GitLab Values](/handbook/values/), and now as part of the t
 
 Hold me accountable whenever I fall short of these values. I pledge to do the same for you.
 
-
 ## How I Work ⏰
 
 I adhere to a strict work schedule from 6 am to 3 pm CEST, which is when I'm most productive and responsive. Post 3 pm, my response might be slower, and I generally reserve this time for @mentions on slack. Occasionally, I may adjust my schedule based on specific needs or projects.
-
 
 ## Availability and Communication Preferences 📞
 

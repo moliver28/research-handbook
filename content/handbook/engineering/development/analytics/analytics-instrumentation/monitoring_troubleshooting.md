@@ -5,8 +5,6 @@ title: Analytics Instrumentation - Monitoring and troubleshooting
 description: "The Analytics Instrumentation group work on feature enhancements and implementing privacy focused product analytics across GitLab projects"
 ---
 
-# Monitoring and troubleshooting
-
 This page aims to contain information and links helpful in monitoring and troubleshooting the internal analytics infrastructure provided by the [Analytics Instrumentation group](/handbook/engineering/development/analytics/analytics-instrumentation).
 
 ## Snowplow
@@ -151,7 +149,6 @@ Such events can be recovered by reprocessing them.
 4. Create a processing script to fix the payloads and re-submit data. An important point to consider:
 `collector_tstamp` will be different after re-submitting the events. This field likely will have to be set `dvce_sent_tstamp` in the DW
    to avoid data corruption. [Example script](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/internal/-/blob/master/scripts/bad_events_reprocessing.rb).
-
 
 ## Service Ping
 

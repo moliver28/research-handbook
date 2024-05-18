@@ -144,7 +144,6 @@ All deliverables for CI Catalog GA are now complete.
   - BE/FE collaboration needed before [feature flag](https://gitlab.com/gitlab-org/gitlab/-/issues/426443) can be rolled out.
 - Move inputs to GA ready by completing [text interpolation for arrays and !reference](https://gitlab.com/gitlab-org/gitlab/-/issues/433002).
 
-
 ### November to December (Milestone 16.7)
 
 [CI Catalog - Pages & Navigation](https://gitlab.com/groups/gitlab-org/-/epics/11841)

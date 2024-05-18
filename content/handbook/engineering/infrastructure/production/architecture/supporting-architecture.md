@@ -6,12 +6,6 @@ controlled_document: true
 
 This document covers architectures that support GitLab.com functions, but are not user facing and are managed by the [Infrastructure teams](../).
 
-
-
-
-
-
-
 ## dev.gitlab.org
 
 {: #dev-gitlab-org}
@@ -25,7 +19,7 @@ It is also used as an OAuth authentication service which allows users to to sign
   * Sentry
   * Version app
 
-<img src="/images/handbook/engineering/infrastructure/supporting-architecture/dev-oauth.png">
+<img src="/images/handbook/engineering/infrastructure/supporting-architecture/dev-oauth.png" alt="">
 
 [Source](https://drive.google.com/file/d/1SOMy5CxZbm8sRDt9QZyIqy3plKFkqdqA/view?usp=sharing), GitLab internal use only
 
@@ -36,7 +30,7 @@ Dev.gitlab.org runs on a single VM, and is using the official Linux package bund
 Database backups, and repository backups are automatically created using the built-in package backup procedure that runs prior to the package upgrade.
 These backups are automatically uploaded to an AWS S3 bucket configured in the specific [chef role][dev backup] using the official Linux package auto-backup feature.
 
-<img src="/images/handbook/engineering/infrastructure/supporting-architecture/dev-arch.png">
+<img src="/images/handbook/engineering/infrastructure/supporting-architecture/dev-arch.png" alt="">
 
 [Source](https://drive.google.com/file/d/1tG8rxbv7xRxShXdJGQEX1hBzW-mRel6J/view?usp=sharing), GitLab internal use only
 
@@ -45,7 +39,6 @@ These backups are automatically uploaded to an AWS S3 bucket configured in the s
 {: #ops-gitlab-net}
 
 Ops.gitlab.net is a GitLab instance hosted in GCP. The instance is running a vanilla GitLab EE package, from the [official release channel][ee repo]. The instance is automatically upgraded using the cron defined in the [gitlab-server] cookbook with a role override set in the [chef-repo][chef-repo ops] role (GitLab internal only).
-
 
 It's primarily used for operational tasks.
 
@@ -57,7 +50,7 @@ Admins for ops.gitlab.net are the Infrastructure Managers - Reliability, Scalabi
 
 The instance runs on a single VM, and is using CloudSql as a database backend, and Memorystore (managed Redis service). The repositories are stored on a dedicated SSD, while artifacts, LFS objects, Container Registry objects and uploads are stored in GCS.
 
-<img src="/images/handbook/engineering/infrastructure/supporting-architecture/ops-arch.png">
+<img src="/images/handbook/engineering/infrastructure/supporting-architecture/ops-arch.png" alt="">
 
 [Source](https://drive.google.com/open?id=1QFRpog0jmZyci1UlB291xzwfX_ToMcEm), GitLab internal use only
 
@@ -81,6 +74,6 @@ We are running the version.gitlab.com on Kubernetes and use Auto DevOps for mana
 
 #### Production environment
 
-<img src="/images/handbook/engineering/infrastructure/production-architecture/version-gitlab-com-arch.png">
+<img src="/images/handbook/engineering/infrastructure/production-architecture/version-gitlab-com-arch.png" alt="">
 
 [Source](https://drive.google.com/file/d/1_ESP2-hT0giqIEHYiY6ZtzAcJMk7cnk1/view?usp=sharing), GitLab internal use only

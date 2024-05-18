@@ -17,13 +17,13 @@ detection](https://docs.gitlab.com/ee/user/application_security/secret_detection
 | `pre_receive_secret_detection_push_check` | Feature Flag | Project | Not visible, has to be toggled via `ChatOps`. |
 | `pre_receive_secret_detection_enabled` | Database Setting | Project | Only in a **Dedicated instance**, or with **`pre_receive_secret_detection_enabled` enabled** and only when the feature is **licensed (in Ultimate)**. |
 
-# Monitoring
+## Monitoring
 
 [DRAFT] [Pre-receive secret detection monitoring](pre-receive-secret-detection-monitoring) is the preferred dashboard for monitoring the feature to help identify and mitigate any reliability issues or performance regressions that may occur when it is enabled on Gitlab.com.
 
 [Gitaly Latency Dashboard for the PreReceiveHook method](https://dashboards.gitlab.net/d/PqeIQ9Iik/gitaly-feature-latency-detail?from=now-1h&orgId=1&refresh=5m&to=now&var-job=gitaly&var-method=PreReceiveHook) may be used as a supplement.
 
-# Enabling/Disabling
+## Enabling/Disabling
 
 ## Enabling/Disabling for Gitlab.com
 

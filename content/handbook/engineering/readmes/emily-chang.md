@@ -20,13 +20,11 @@ Please feel free to contribute to this page by opening a merge request.
 - [My Curriculum Vitae](https://emchang.gitlab.io/)
 - Feel free to schedule a ☕ chat with me via [Calendly](https://calendly.com/emchang/coffeechat)
 
-
 ## 💜 About me
 
 I go by the name "Em" or "Emily" and I live 20 minutes away from the bustling city of Kuala Lumpur, Malaysia. I'm very fond of travelling, I love subway maps and I take pride in using public transportation as much as possible. Lately, I'm trying to pick up drawing with brush pens and am learning the Korean language.
 
 The [GitLab value](/handbook/values/) that resonates with me the most is [🤝 Collaboration](/handbook/values/#collaboration) - although [it's impossible to know everything](/handbook/values/#its-impossible-to-know-everything), I believe we can always learn from each other!
-
 
 ## 🤝 How you can help me
 
@@ -34,19 +32,16 @@ The [GitLab value](/handbook/values/) that resonates with me the most is [🤝 C
 - I agree with [Negative feedback is 1-1](/handbook/values/#negative-feedback-is-1-1), my DM is always open to any corrections, please do not feel shy to [provide feedfback](/handbook/values/#give-feedback-effectively) - good or bad. I'm always eager to learn and improve myself.  
 - I prefer to have a meeting agenda/outline prior to the call so I know roughly what to expect. Not knowing what to expect may sometimes give me stress.
 
-
 ## 💼 My working style
 
 - I love asking "Why?" because I prefer to understand the goal and expectations before taking on a task, it's a huge motivation for me if I am aware of the impact.
 - I work well with clear instructions and due dates, as it helps me to prioritise my tasks.
 - I have an eye for detail, I'm not exactly a perfectionist, but I like to double-check before sending. It bugs me when there is a spelling error/grammatical mistake.
 
-
 ## 🤔 What I assume about others
 
 - We both want the best, I’m a huge believer in win-win situations, and I’m willing to compromise.
 - If something is wrong, you are comfortable to let me know. If no one says anything, I will assume you are okay with it.
-
 
 ## 💬 Communicating with me
 
@@ -57,17 +52,14 @@ The [GitLab value](/handbook/values/) that resonates with me the most is [🤝 C
 - I check my Slack and e-mail throughout my working day. Please note that I have desktop notifications turned off when I’m in a meeting. I have phone notifications turn on for the days I am on-call.
 - Slack Channels I visit very often: `#support_gitlab-com`, `#support_self-managed`, `#support_team-chat`, `#support_watercooler`, `#apac`, `#women`, `#allcaps`, `#diversity_inclusion_and_belonging`
 
-
 ## 💪 Strengths
 
 - I consider myself as a creative person, I am not afraid to think out of the box.
 - I am friendly and am always happy to lend a pair of listening ears. Please drop me a message if you need someone to talk to or there is anything I can assist with.
 
-
 ## 👎 Weaknesses
 
 - Sometimes, I can be overly optimistic, thus unrealistic. I tend to look for the bright side of things, but I know that it is also good to be prepared for the worst. Please remind me if you’ve noticed this and is affecting my work!
-
 
 ## 🏡 My Remote Work Setup
 

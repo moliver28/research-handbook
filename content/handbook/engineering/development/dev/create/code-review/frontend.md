@@ -7,7 +7,7 @@ description: The Create:Code Review FE team is responsible for all frontend aspe
 
 | **Category**            | **Handle** |
 |-------------------------|-------------|
-| **GitLab Team Handle**  | [@code-review-fe](https://gitlab.com/code-review-fe)
+| **GitLab Team Handle**  | [@code-review-fe](https://gitlab.com/code-review-fe) |
 | **Slack Channel**               | [`#g_create_source-code-review-fe`](https://gitlab.enterprise.slack.com/archives/CS5NHHBJ7) |
 | **Slack Handle**               | `@code_review_fe` |
 | **Team Boards**         | [`Current Milestone`](https://gitlab.com/groups/gitlab-org/-/boards/2177994) |

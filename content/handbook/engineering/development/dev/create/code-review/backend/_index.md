@@ -56,7 +56,6 @@ You can find our dashboards here:
 - [Centralized Engineering Metrics](https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard)
 - [Development Department Performance Indicators](/handbook/engineering/development/performance-indicators/)
 
-
 ## Team OKRs
 
 Objectives and Key Results (OKRs) help align our team towards what really matters. These happen quarterly, align up through the stage, and are based on [company OKRs](/handbook/company/okrs/) and the [engineering OKR process](/handbook/engineering/#engineering-okr-process). We check in on the status of our progress routinely throughout the quarter, at least on a monthly basis, to determine whether we are on track or need to pivot in order to accomplish or change these goals.
@@ -99,6 +98,7 @@ To assign weights to issues in a future milestone, on every 4th of the developme
 #### Follow-up issues
 
 You will begin to collect follow-up issues when you've worked on something in a release but have tasks leftover, such as technical debt, feature flag rollouts or removals, or non-blocking work for the issue. For these, you can address them in at least 2 ways:
+
 - Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
 - Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acode%20review&search=planning)
 
@@ -154,7 +154,7 @@ finish a deliverable that hasn't been started yet.
 If this outcome cannot be averted and the deliverable ends up missing the
 cycle, it will simply be moved to the next cycle to be finished up, and the
 engineer and engineering manager will have a chance to
-[retrospect](#retrospectives) and learn from what happened.
+retrospect and learn from what happened.
 
 Generally, your deliverables are expected to take up about 75% of the
 time you spend working in a month. The other 25% is set aside for other

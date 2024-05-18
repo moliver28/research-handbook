@@ -24,13 +24,13 @@ For SSOT on these calculations and full detail, please refer to [this page](/han
 ### Goals of FY’21 Compensation Review
 
 The goals for FY’21 compensation for the development department in priority order are as follows:
+
 1. NOT reduce anyone’s salary
 1. Stay within the prescribed budgetary constraints listed above, or ask for additional funding if our goals are not achievable.
 1. Ensure everyone is within their compensation range (as defined in the compensation calculator available to all GitLab team members).
 1. Give increases based on current [performance factor](/handbook/total-rewards/compensation/compensation-review-cycle/#performance-factor) as evaluated during the FY21 end of year review.
 1. Give managers flexibility to consider location factor, performance, recent promotions and recent compensation adjustments in rewarding employees.
 1. Conduct a comprehensive at the VP/PBP/Total Rewards level so that pay increases eliminate unfairness where possible across the organization
-
 
 ### FAQ
 
@@ -44,5 +44,3 @@ The goals for FY’21 compensation for the development department in priority or
    1. Note that in general, “Everywhere else” saw larger increases. For example, if a metro was (purely hypothetical numbers) 0.65 and the "everywhere else" was 0.5, but the geo zone was made 0.6 based on the entire geographical zone, the "everywhere else" may have seen a huge increase in the implementation of geo zones while the metro may have only seen a more 'typical' location factor increase.
 1. Question: Is the fact that I’m lower in the band reflective of my performance?
    1. Answer: It is important to note that where someone falls within the compensation range is not an indicator of performance, nor is it a sign of promotional readiness. For more information on how performance is linked to compensation please review the following [handbook section](/handbook/total-rewards/compensation/compensation-review-cycle/#performance-factor).
-
-

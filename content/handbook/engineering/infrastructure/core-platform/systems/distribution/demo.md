@@ -19,6 +19,7 @@ Distribution team members present demos related to work they've accomplished (or
 ### Goals ###
 
 The goals of our demos are to:
+
 1. Spread awareness of current issues impacting our customers and team
 1. Solicit feedback from the team to improve our solutions and related documentation
 1. Identify gaps in our collective understanding of environments, components, processes and dependencies
@@ -47,6 +48,7 @@ The presenter is expected to:
 ### Attendees ###
 
 Attendess are expected to:
+
 1. Ask questions - attendee participatation is encouraged, but not required
 1. Document questions/problems that arise in the meeting notes document
 1. Mute yourself while not actively participating to avoid distractions

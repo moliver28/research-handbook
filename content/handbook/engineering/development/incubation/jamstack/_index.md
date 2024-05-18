@@ -38,6 +38,7 @@ In January 2023 we conducted a [User survey](/handbook/engineering/development/i
 Maturity: `70%` Status: `work in progress`
 
 Issues:
+
  - [Use the Pipeline Wizard for Pages onboarding](https://gitlab.
    com/gitlab-org/gitlab/-/issues/343557) - **Completed**
  - [Remove the requirement for output files to be inside a folder called
@@ -48,6 +49,7 @@ Issues:
 Maturity: `10%` Status: `work in progress`
 
 Issues:
+
  - [Allow the use of Javascript runtimes for Jamstack apps (SSR)](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/32)
 
 #### When I'm deploying a Pages site, I want to have it distributed via a CDN so that the page is delivered faster
@@ -67,6 +69,7 @@ Maturity: `0%` Status: `planned`
 Maturity: `0%` Status: `planned`
 
 Issues:
+
  - [API Generator](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/46)
 
 ## Guiding Principles

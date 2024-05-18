@@ -51,6 +51,3 @@ On a monthly basis:
 [TBD]
 
 We will add relevant and publically shareable information here.
-
-
-

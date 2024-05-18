@@ -43,6 +43,7 @@ During triage additional labels should be added to indicate what part of the pro
 ### Resources
 
 Issues for triaging can be identified using the following criteria:
+
   * They have no milestone
   * They have no assignee
   * They do **not** have any of the following labels applied:
@@ -138,7 +139,7 @@ Copy and paste into issues where appropriate
 
 If someone is asking for support in our projects, point them to the correct place to look
 
-```
+```text
 We are sorry you are having troubles. The provided issue description seems to indicate that the problem is not related to this project. Commonly this indicates other troubles such as network connectivity or filesystem permissions.
 
 For this reason, I will close this issue and recommend checking out [how to get further help](https://about.gitlab.com/get-help/) on the GitLab website.
@@ -150,7 +151,7 @@ For this reason, I will close this issue and recommend checking out [how to get 
 
 If someone is asking for help with a bug that seems related to GitLab code other than Omnibus
 
-```
+```text
 We are sorry you are having troubles. The provided issue description seems to indicate that the problem is not related to Omnibus.
 
 For this reason, we are moving this report to a more appropriate issue queue.  Please review the bug templates for the new project in case they require additional information to help diagnose the problem.
@@ -162,7 +163,7 @@ We also recommend checking out [how to get further help](https://about.gitlab.co
 
 If someone opened a ticket without enough information, make sure they use the `Bug` template, and fill it in
 
-```
+```text
 We can't reproduce the issue with the information you provided here.
 
 Can you please use our `Bug` template to help gather more details?
@@ -180,7 +181,7 @@ Can you please use our `Bug` template to help gather more details?
 
 If an issue has been labeled `awaiting feedback` for two weeks, and we haven't received a response, it can be closed
 
-```
+```text
 We haven't heard back from you, so we're going to go ahead and close the issue.
 
 If you're still experiencing the problem, please re-open the issue and provide the requested information.
@@ -192,7 +193,7 @@ If you're still experiencing the problem, please re-open the issue and provide t
 
 If an issue was closed for no reply and someone comments who is not the original reporter, we ask them to open a new issue. Be sure to tag the contributor who made the comment.
 
-```
+```text
 Thank you for letting us know about your issue COMMENTOR. Unfortunately, this issue was already closed. Please [open a new issue](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/new?issue) following the ***BUG*** template and mark this closed issue as related.
 ```
 
@@ -200,7 +201,7 @@ Thank you for letting us know about your issue COMMENTOR. Unfortunately, this is
 
 If an issue appears to need review directly by a project maintainer to ascertain relevance,
 
-```
+```text
 I'm going to ask that this issue be reviewed by the project maintainers directly.
 This is so that we can make the most accurate decision regarding further work and viability.
 /label ~maintainer-discussion
