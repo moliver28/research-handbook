@@ -90,20 +90,20 @@ We expect to track the journey of users through the following funnel.
 ```mermaid
 classDiagram
   Acquisition --|> Activation
-	Acquisition : Are users aware of the product or feature set?    
-	Acquisition: Measurement (Total # of projects with at least one package in the registry) 
+  Acquisition : Are users aware of the product or feature set?    
+  Acquisition: Measurement (Total # of projects with at least one package in the registry) 
   Activation --|> Retention
-	Activation : Are users applying the feature?
-	Activation: Measurement (# of users publishing and installing packages per day) 				
+  Activation : Are users applying the feature?
+  Activation: Measurement (# of users publishing and installing packages per day)         
   Retention --|> Revenue
-	Retention : Are users applying the feature over time?
-	Retention: Measurement (# of projects that have published/installed a package via CI/CD per day) 
+  Retention : Are users applying the feature over time?
+  Retention: Measurement (# of projects that have published/installed a package via CI/CD per day) 
   Revenue --|> Referral
-	Revenue : Are users paying for the features?
-	Revenue: Measurement (# users pulling packages through a Dependency Proxy) 
+  Revenue : Are users paying for the features?
+  Revenue: Measurement (# users pulling packages through a Dependency Proxy) 
   Referral --|> Acquistion
-	Referral : Are users encouraging others to use the feature?
-	Referral: Measurement (# projects that publish more than 10 packages per week.)
+  Referral : Are users encouraging others to use the feature?
+  Referral: Measurement (# projects that publish more than 10 packages per week.)
 ```
 
 Follow along our instrumentation and measurement of Package-related metrics in [gitlab-#2289](https://gitlab.com/groups/gitlab-org/-/epics/2289).
