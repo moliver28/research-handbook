@@ -1,10 +1,6 @@
-### Cross-Functional Prioritization
-
-#### Overview
+### Overview
 
 The Cross-Functional Prioritization framework exists to give everyone a voice within the product development quad (PM, Development, Quality, and UX). By doing this, we are able to achieve and maintain an optimal balance of new features, security fixes, availability work, performance improvements, bug fixes, technical debt, etc. while providing transparency into prioritization and work status to internal and external stakeholders so they can advocate for their work items. Through this framework, team members will be able to drive conversations about what's best for their quad and ensure there is alignment within each milestone.
-
-Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 60% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/cross-functional-prioritization) to ensure that our project stays ahead in these areas. Engineering prioritizes 40% of time on initiatives that improve the product, underlying platform and foundational technologies we use.
 
 The Cross-Functional Prioritization contains three key tenets:
 
@@ -16,7 +12,7 @@ At the R&D directs level, over the course of the quarter, all product developmen
 
 A balance across these components while empowering DRIs will allow GitLab to operate in a way that will allow us to meet (and exceed) revenue goals while maintaining the security, stability, reliability, and availability of our platform.
 
-#### Implementation Philosophy
+### Implementation Philosophy
 
 The quad members (UX/Design, Quality, Product Management, Development) utilizing this process should focus on:
 
@@ -25,7 +21,7 @@ The quad members (UX/Design, Quality, Product Management, Development) utilizing
 
 As long as the quad achieves these goals, they are encouraged to apply the process as appropriate based any unique characteristics of their group and also tailor the process based on how the team prefers to operate.
 
-#### Cross-functional milestone planning
+### Cross-functional milestone planning
 
 To support GitLab's long-term product health and stability while keeping the pace of new features for users, teams are asked to plan their milestones with an appropriate ratio of `type::feature`, `type::maintenance`, and `type:bug` work.  When labeling if the label selection for an issue or merge request isn't obvious, don't spend more than 60 seconds to decide and make a best effort to choose the most appropriate label.
 
@@ -35,7 +31,7 @@ A team's ratio might change over time and different teams may have different rat
 
 For more details on these three work types, please see the section on [work type classification](https://about.gitlab.com/handbook/engineering/metrics/#work-type-classification).  The development EM is the DRI to ensure that the merge requests are accurateliy labeled.
 
-#### Prioritization for feature, maintenance, and bugs
+### Prioritization for feature, maintenance, and bugs
 
 Our backlog should be prioritized on an ongoing basis. Prioritization will be done via quad planning (collaboration between product, development, quality, UX) with PM as the DRI for the milestone plan. PMs, EMs, Quality, and UX will provide the following:
 
@@ -47,7 +43,7 @@ Our backlog should be prioritized on an ongoing basis. Prioritization will be do
 
 The DRIs of these three core areas will work collaboratively to ensure the overall prioritization of the backlog is in alignment with [section direction](https://about.gitlab.com/direction/#devops-stages) or any other necessary product and business needs. If a team is not assigned a Product Designer then there is no UX counterpart needed for prioritization purposes. PMs will prioritize the final plan for a given milestone.
 
-#### Planning for the milestone
+### Planning for the milestone
 
 The Product Manager is responsible for planning each milestone. Product Managers are also responsible for ensuring that their team's target ratios are maintained over time.
 
@@ -59,19 +55,19 @@ The Product Manager is responsible for planning each milestone. Product Managers
 
 Add the `milestone` ([example](https://gitlab.com/groups/gitlab-org/-/boards/4309441?label_name[]=group%3A%3Athreat%20insights&milestone_title=15.1)) to review the milestone plan. The board will show the number of issues and cumulative issue weights for `type::feature`, `type::maintenance`, and `type::bug` issues.
 
-#### Cross-Functional Dashboard Reviews
+### Cross-Functional Dashboard Reviews
 
 Cross-functional reviews will be done at the group, stage/section, and company level.
 
-##### When to review?
+#### When to review?
 
 When the data is up-to-date and accurate.  See the [timeline](https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline)
 
-##### What to review in advance?
+#### What to review in advance?
 
 Review the [dashboard](https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/MilestoneIssuesDashboard) filtered for the review scope (group, section, etc).
 
-##### Questions to ask
+#### Questions to ask
 
 Context:
 
@@ -103,22 +99,24 @@ Trends:
 1. What overall trends does the group want to highlight?
 1. What flags do you want to raise?  What won't happen?
 
-##### Group level review
+### Cross-Functional Prioritization Review
 
-The review collaboration can be done in a way that's most effective for the group, either synchronously (e.g. scheduled recurring call) or asynchronously (e.g. such as in retrospective issues).
+#### Group level review
+
+The review collaboration can be done in a way that's most effective for the group, either synchronously (e.g. scheduled recurring call) or asynchronously (e.g. such as in retrospective issues). These reviews should occur as part of each milestone retrospective to ensure the quarterly average remains around the group's agreed upon (and approved) ratio.
 
 Required collaborators from the quad for the group are:
 
-- Product designer
+- Product Designer
 - Quality lead
-- Product manager
-- Engineering development manager
+- Product Manager
+- Engineering Manager
 
-The managers of the required collaborators should be included as optional participants.
+The managers of the required collaborators as well as the team members in the group should be included as optional participants.
 
-##### Stage/section level review
+#### E-group direct review
 
-The stage/section review is coordinated by each direct report of the VP of Development.
+The stage/section review is coordinated by each direct report couterpart team of the CTO and CPO. These reviews should occur quarterly to ensure each counterpart group average remains around the 60%/40% ratio per the Cross-Functional Prioritization framework.
 
 Required collaborators from the quad for the stage/section are:
 
@@ -127,29 +125,35 @@ Required collaborators from the quad for the stage/section are:
 - Stage product leader(s) for the stage/section
 - Engineering development directors/senior managers(s) for the stage/section
 
-Optional collaborators who should be invited but not required to participate:
+The collaboration should be async first but include an optional sync review amongst stakeholders.
 
-- The managers of the required collaborators should be optional participants.
-- The [functional leads for the next prioritization working group](/handbook/company/working-groups/cross-functional-prioritization/#roles-and-responsibilities).
+The name of the meeting and associated agenda document should be clearly defined so that the invitees can decide if they should attend.
+
+#### E-group direct review
+
+The stage/section review is coordinated by each direct report couterpart team of the CTO and CPO. These reviews should occur quarterly to ensure each counterpart group average remains around the 60%/40% ratio per the Cross-Functional Prioritization framework.
+
+Required collaborators are:
+
+- CTO direct
+- CPO direct
+- VP of UX
 
 The collaboration should be async first but include an optional sync review amongst stakeholders.
 
 The name of the meeting and associated agenda document should be clearly defined so that the invitees can decide if they should attend.
 
-##### Company-wide review
+#### Company-wide review
 
-The company-wide review is coordinated by the VP of Development.
+The company-wide review is coordinated and led by the Technical Program Management team. These reviews should occur as needed however should happen at least semi-annually to ensure R&D is operating efficiently and achieving its target metrics.  
 
-Required collaborators from the quad for the stage/section are:
+Required collaborators for this review are:
 
+- CPO
 - CTO
-- VP of Product
-- VP of UX
-- VP of Quality
-- VP of Development
-- VP of Security
-- VP of Infrastructure
+- CPO Directs
+- CTO Directs
 
-Optional collaborators who should be invited but not required to participate:
+The collaboration should be async first but include an optional sync review amongst stakeholders. The name of the meeting and associated agenda document should be clearly defined so that the invitees can decide if they should attend.
 
-- The [functional leads for the next prioritization working group](/handbook/company/working-groups/cross-functional-prioritization/#roles-and-responsibilities).
+This review is open to all R&D leaders as optional, will be recorded, and be shared in the #chief-product-officer and #cto channels on Slack.
