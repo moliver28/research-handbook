@@ -49,7 +49,6 @@ The following members of other functional teams are our stable counterparts:
 | Support           | [TBD](/handbook/support/support-stable-counterparts/)                                |
 | AppSec            | [TBD](/handbook/security/product-security/application-security/stable-counterparts/) |
 
-
 ## Partner Groups
 
 Here are other groups within GitLab that we work closely with:

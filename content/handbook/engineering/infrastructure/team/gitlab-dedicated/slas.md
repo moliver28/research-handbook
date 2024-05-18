@@ -28,6 +28,7 @@ GitLab calculates Service Level Availability based on the available state of cer
 ## Service Level Availability Calculation
 
 For each service and feature described above, GitLab measures two service level indicators ("SLIs"), as further described in https://gitlab.com/gitlab-com/runbooks/-/tree/master/reference-architectures/get-hybrid#service-level-indicators:
+
 1. The **Error SLI** is an indication of requests that are successful, (i.e. not returning a 5xx error).
 1. The **Apdex SLI** is an indicator of requests that complete with a satisfactory latency. Apdex is defined using the [industry definition](https://en.wikipedia.org/wiki/Apdex) with two latency thresholds: _satisfactory_ and _tolerable_. For Dedicated, satisfactory requests take less than 1s to complete, tolerable requests take less than 10s to complete.
 
@@ -56,9 +57,10 @@ Calculation of Service Level Availability does not include failures resulting fr
 
 GitLab has developed a disaster recovery plan (the "Plan") to minimize the impact of a disaster or other emergency impacting a customer's access to and use of Dedicated
 
-## Scope
+## DR Scope
 
 The Plan is scoped to disasters or other emergency events impacting the following:
+
 1. Partial region outage (e.g. AZ failure)
 2. Complete outage to primary region
 
@@ -74,7 +76,7 @@ For customers who have only specified a primary region or in cases where a secon
 
 GitLab regularly tests the Plan and will take all commercially reasonable efforts to ensure its success within the below RTO/RPO goals.
 
-## Exclusions
+## DR Exclusions
 
 Events that have a more severe impact in a customer's access to and use of Dedicated, such as loss to both primary and secondary regions, global internet outages, or data corruption issues, are out of scope from the Plan. GitLab will still make a good faith effort to recover pursuant to the Plan, but the RTO and RPO goals of the Plan will not be considered.
 

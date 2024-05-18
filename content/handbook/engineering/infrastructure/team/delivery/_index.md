@@ -12,8 +12,8 @@ description: "The Delivery Group enables GitLab Engineering to deliver features 
 | **Issue Tracker** | [**Delivery**][delivery issue tracker] |
 | **Slack Channels** | [#g_delivery] / `@delivery-team` |
 | **Delivery Handbook** | [Team training][team training] |
-| **Delivery Metrics** | [Metrics](/handbook/engineering/infrastructure/team/delivery/metrics.html)
-| Deployment and Release process | [Deployments and Releases](/handbook/engineering/deployments-and-releases/)
+| **Delivery Metrics** | [Metrics](/handbook/engineering/infrastructure/team/delivery/metrics.html) |
+| Deployment and Release process | [Deployments and Releases](/handbook/engineering/deployments-and-releases/) |
 | Release Tools Project | [Release tools](/handbook/engineering/infrastructure/release-tools) |
 | Release Manager Runbooks | [release/docs/runbooks](https://gitlab.com/gitlab-org/release/docs/-/blob/master/runbooks/README.md) |
 
@@ -135,7 +135,7 @@ The group's main performance indicator is [**M**ean **T**ime **T**o **P**roducti
 is reaching production environment (GitLab.com).
 At the moment of writing, the target for this PI is defined in this [key result][KI lower MTTP] epic.
 
-MTTP is further broken down into charts and tables at the [Delivery Team Performance Indicators Sisense dashboard][Delivery Sisense PIs].
+MTTP is further broken down into charts and tables at the Delivery Team Performance Indicators Sisense dashboard.
 
 ## Delivery domain ownership between Delivery teams
 
@@ -159,37 +159,39 @@ Release Managers are members of the Delivery group but during their time as rele
 ### Delivery:Releases ownership
 
 The primary customers of the Releases team are:
+
  - the internal GitLab users who want to deploy & release changes i.e.,
  - Release Managers and Stage Groups.
  - customers for the monthly Release
 
-7. Release metrics: Providing A centralized store for metrics related to releases. Deployments will primarily be concerned with providing a metrics capability to allow all deployment pipelines to record metrics in a useful way to fuel all required dashboards.
-8. Releases/Packages Pipeline visibility: Providing visibility of pipeline configuration, status, and outcome.
-9. Release change management tooling: Providing the ability for changes to be included, or excluded from releases to Self-Managed users.
-10. Release/packaging execution log: Ensuring that an accurate log of releases is maintained.
-11. Deployment & release metadata: Tracking component versions and dependencies to allow for quality gates to be accurate, and to ensure predictable releases.
-12. QA test execution & results visibility: Ensuring that all deployments and releases pass the required testing. Releases will be particularly concerned with timing of test execution and making sure that the correct dependencies are in place for reliable results.
-13. Releases dashboards: Delivery:Releases will own a set of dashboards to guide the team's work on designing effective release processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual release pipelines.
-14. Release Publishing: Publishing packages to various distribution sites (e.g., packages.gitlab.com, Docker Hub, etc.), publishing tooling, and guaranteeing a reliable publishing process.
+1. Release metrics: Providing A centralized store for metrics related to releases. Deployments will primarily be concerned with providing a metrics capability to allow all deployment pipelines to record metrics in a useful way to fuel all required dashboards.
+1. Releases/Packages Pipeline visibility: Providing visibility of pipeline configuration, status, and outcome.
+1. Release change management tooling: Providing the ability for changes to be included, or excluded from releases to Self-Managed users.
+1. Release/packaging execution log: Ensuring that an accurate log of releases is maintained.
+1. Deployment & release metadata: Tracking component versions and dependencies to allow for quality gates to be accurate, and to ensure predictable releases.
+1. QA test execution & results visibility: Ensuring that all deployments and releases pass the required testing. Releases will be particularly concerned with timing of test execution and making sure that the correct dependencies are in place for reliable results.
+1. Releases dashboards: Delivery:Releases will own a set of dashboards to guide the team's work on designing effective release processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual release pipelines.
+1. Release Publishing: Publishing packages to various distribution sites (e.g., packages.gitlab.com, Docker Hub, etc.), publishing tooling, and guaranteeing a reliable publishing process.
 
 ### Delivery:Deployments ownership
 
 The primary customers of the Deployments team are:
+
  - Release managers who rely on the deployment tooling
  - GitLab SaaS (GitLab.com, Dedicated and Cells) customers expecting deployments of updated code to their various infrastructures.
 
-15. Deployment changelock: will make sure that all deployments observe planned and ad-hoc changelocks. Examples include PCLs, S1/S2 incidents, as well as other Change Requests.
-16. Environment changelock: will make sure that environments can be locked to schedule, or on an ad-hoc basis if required by planned maintenance or poor environment health. Guaranteeing that changes are rolled out in a predictable way will also be a Deployments responsibility.
-17. Environment health: Ensuring that environment health is assessed and available to guide deployment decisions.
-18. Release & deployment metrics: Providing A centralized store for metrics related to deployments & releases. Deployments will primarily be concerned with providing a metrics capability to allow all deployment and release pipelines to record metrics in a useful way to fuel all required dashboards.
-19. Deployment change management tooling: Providing the ability for changes to be included, or excluded from deployments.
-20. Deployment execution log: Ensuring that an accurate log of deployments is maintained.
-21. Application rollout: will be responsible for applying changes to the required clusters and environments. Rollout strategies, e.g., canary, blue/green, with gradual traffic increase etc, will be capabilities provided by Deployments.
-22. Rollout dashboards: will own a set of dashboards to guide the team's work on managing effective rollouts to all environments. Examples could include the timing of changes applied to individual servers and visibility into environment use.
-23. Canary environments: will own the rollout capability of the canary environments. They'll work closely with Reliability to ensure full environment management.
-24. Deployment and release test environments: Pre, Staging, Release: will own the rollout capability of the test environments. They'll work closely with Reliability to ensure full environment management.
-25. Deployment and release production environment: will own the rollout capability of the Production environment. They'll work closely with Reliability to ensure full environment management.
-26. Deployment dashboards: Delivery:Deployments will own a set of dashboards to guide the team's work on designing effective deployment processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual deployment and release pipelines.
+1. Deployment changelock: will make sure that all deployments observe planned and ad-hoc changelocks. Examples include PCLs, S1/S2 incidents, as well as other Change Requests.
+1. Environment changelock: will make sure that environments can be locked to schedule, or on an ad-hoc basis if required by planned maintenance or poor environment health. Guaranteeing that changes are rolled out in a predictable way will also be a Deployments responsibility.
+1. Environment health: Ensuring that environment health is assessed and available to guide deployment decisions.
+1. Release & deployment metrics: Providing A centralized store for metrics related to deployments & releases. Deployments will primarily be concerned with providing a metrics capability to allow all deployment and release pipelines to record metrics in a useful way to fuel all required dashboards.
+1. Deployment change management tooling: Providing the ability for changes to be included, or excluded from deployments.
+1. Deployment execution log: Ensuring that an accurate log of deployments is maintained.
+1. Application rollout: will be responsible for applying changes to the required clusters and environments. Rollout strategies, e.g., canary, blue/green, with gradual traffic increase etc, will be capabilities provided by Deployments.
+1. Rollout dashboards: will own a set of dashboards to guide the team's work on managing effective rollouts to all environments. Examples could include the timing of changes applied to individual servers and visibility into environment use.
+1. Canary environments: will own the rollout capability of the canary environments. They'll work closely with Reliability to ensure full environment management.
+1. Deployment and release test environments: Pre, Staging, Release: will own the rollout capability of the test environments. They'll work closely with Reliability to ensure full environment management.
+1. Deployment and release production environment: will own the rollout capability of the Production environment. They'll work closely with Reliability to ensure full environment management.
+1. Deployment dashboards: Delivery:Deployments will own a set of dashboards to guide the team's work on designing effective deployment processes. Dashboards, or templates, will also be needed to evaluate the effectiveness of individual deployment and release pipelines.
 
 ## How we work
 
@@ -249,7 +251,7 @@ In cases where the work is tracked in a project in a different group outside of 
 
 ### Issue Boards
 
-Each working epic should be accompanied by an issue board. Issue boards should be tailored to the specific project needs, but at minimum it should contain the [workflow labels](#workflow-labels) shown on the workflow diagram.
+Each working epic should be accompanied by an issue board. Issue boards should be tailored to the specific project needs, but at minimum it should contain the [workflow labels](#workflow) shown on the workflow diagram.
 
 ### Labels
 
@@ -445,7 +447,6 @@ Prior to 2020, the team impact overview was created in Slack, and in the years t
 [Infrastructure department performance indicators]: /handbook/engineering/infrastructure/performance-indicators/
 [MTTP]: /handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp
 [KI lower MTTP]: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/107
-Delivery Sisense PIs
 [triage ops]: https://gitlab.com/gitlab-com/gl-infra/triage-ops
 [DRI]: /handbook/people-group/directly-responsible-individuals/
 [Build board]: https://gitlab.com/gitlab-com/gl-infra/delivery/-/boards/1918862

@@ -1,16 +1,7 @@
 ---
-
 title: "Infrastructure Department Projects"
 description: “GitLab’s approach to the types, data classifications, canonical locations, ownership, workflow and organization of infrastructure department projects”
 ---
-
-
-
-
-
-
-
-# Infrastructure department projects
 
 The Infrastructure department uses GitLab projects to operate GitLab.com, and supporting services for GitLab Inc., in addition to [GitLab Engineering projects](/handbook/engineering/projects/).
 
@@ -32,7 +23,6 @@ This page aims to provide a clear definition of a `project`:
 | Work In Progress | Projects used in a sandbox, proof of concept or one off automation. Cannot process production workloads until graduating to a different type of project.|
 
 ## Data Classification
-
 
 | Name       | Description  |
 |------------|--------------|
@@ -58,7 +48,6 @@ Canonical location is chosen based on the following criteria:
 | GitLab.com     | Synchronization tooling mirrors the project to the second location.  Some sync delay is acceptable, and does not hinder regular work (even if it is causing minor inconvenience to team members). Projects at this location can receive (department) external contributions. |
 | ops.gitlab.net | Sync delay and lack of availability of these projects is generally considered unacceptable and can cause GitLab.com degradation. (department) External  contributions are rare.|
 
-
 ## Ownership and access
 
 Project ownership and access is closely tied to data classification and project purpose, as well as the canonical source.
@@ -75,7 +64,6 @@ Table below shows an illustrative example.
 | ops.gitlab.net     | Library  | Restricted          | Department |
 | GitLab.com         | Library  | Public              | Community  |
 | GitLab.com         | Tooling  | Public              | Community  |
-
 
 For example, restricted project classified as a workload on ops.gitlab.net will have access granted to everyone in the department requiring access for their day to day work. However, if this same project does not contain sensitive code that can be safely mirrored to GitLab.com, the project can be fully accessible to the wider community in the mirrored location.
 
@@ -243,7 +231,6 @@ If the project will be reused periodically, it has to be migrated to one of the 
 ### Team projects
 
 Projects in the team group are projects that support specific teams workflows. Status gathering, project triage and similar team facing projects should be added here. Since these projects can contain team sensitive information, their canonical location can be on ops.gitlab.net. This decision is at team's discretion.
-
 
 [terraform]: https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure
 [k8s workloads .com]: https://ops.gitlab.net/gitlab-com/gl-infra/k8s-workloads/gitlab-com

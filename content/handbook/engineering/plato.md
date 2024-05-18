@@ -25,16 +25,16 @@ For more information on mentoring best practice, visit [Mentoring](/handbook/eng
 ## Benefits
 
 This program offers the following benefits:
+
 * Serves as a Learning Opportunity for participants
 * Beneficial to get an external (to GitLab) perspective to approaching challenging problems
 * Employee Development support customized to your specific needs (individual areas of improvement)
 
-
 ## Time Commitment
 
 These are the activities that a Mentee would perform and the time to perform these activities could vary from person to person:
+
 * Setting up the Agenda for the meetings
 * Attending the meetings
 * Taking time to reflect on areas that you would like to grow or increase/improve skills
 * Implementing any recommendations, suggestions made by your Mentor
-

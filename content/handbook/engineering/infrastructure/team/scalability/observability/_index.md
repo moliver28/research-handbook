@@ -9,7 +9,6 @@ Observability encompasses the technical elements responsible for metrics, loggin
 
 Our mission is to deliver and maintain a world-class observability offering and frictionless operational experience for team members at GitLab.
 
-
 ## Common Links
 
 |                                |                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -76,12 +75,11 @@ Between these different signals, we have a relatively (im)precise view into the 
 The team are responsible for provisioning access to the services listed below, as per the [tech_stack.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) file.
 
 1. **Kibana** is accessed through Okta. Team members need to be in either of the following Okta groups: `gl-engineering` (entire Engineering department); `okta-kibana-users`. The latter group is used to manage access for team members outside of Engineering on an ad-hoc basis ([context](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/958)). Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28421)). If the access request is approved, the provisioner should add the user to [this group](https://groups.google.com/a/gitlab.com/g/okta-kibana-users), which will then automatically sync to its namesake group in Okta.
-1. **Elastic Cloud** is for administrative access to our Elastic stack. The login screen is available [here](https://cloud.elastic.co/) and access is through Google SSO. Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28457)). If approved, the provisioner can add/remove members on the [membership page](https://cloud.elastic.co/account/members) with appropriate permissions. 
+1. **Elastic Cloud** is for administrative access to our Elastic stack. The login screen is available [here](https://cloud.elastic.co/) and access is through Google SSO. Team members should be (de)provisioned through an Access Request ([example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/28457)). If approved, the provisioner can add/remove members on the [membership page](https://cloud.elastic.co/account/members) with appropriate permissions.
 
 ## How we work
 
 We default to working inline with the GitLab [values](/handbook/values/) and by following the processes of the wider [SaaS Platforms section](/handbook/engineering/infrastructure/platforms/project-management/) and [Scalability group](/handbook/engineering/infrastructure/team/scalability/#how-we-work). In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Scalability:Observability.
-
 
 ### Issue management
 
@@ -118,13 +116,13 @@ Refer to the Scalability group [issue boards section](/handbook/engineering/infr
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
 | ![Triage](../img/label-triage.png)    <br/>![Proposal](../img/label-proposal.png) <br/>![Ready](../img/label-ready.png) | ![Ready](../img/label-ready.png) <br/>![In Progress](../img/label-in_progress.png) <br/>![Under Review](../img/label-under_review.png) <br/>![Verify](../img/label-verify.png) <br/>![Done](../img/label-done.png)|
 
-
 ### Group call
 
 We hold a weekly, 30 minutes group call at alternating times to facilitate a synchronous conversation across members of the group.
 While attendance is optional, joining the call if you can and otherwise catching up on the recording is encouraged.
 
 The purpose of the call is to have a space and time for the group to
+
 * discuss team-level concerns,
 * facilitate organisation of work across team members,
 * chat about any impediments to resolve those quicker,
@@ -133,6 +131,7 @@ The purpose of the call is to have a space and time for the group to
 While we emphasize on collaborating async, we embrace the opportunity for synchronous conversation.
 
 However, the call is **not meant to be used**
+
 * to provide regular status updates (as those are expected to be given async),
 * make decisions without async collaboration.
 

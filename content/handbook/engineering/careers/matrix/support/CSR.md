@@ -38,7 +38,6 @@ title: "Support Career Framework: Customer Support Representative"
 - Remain up to date with relevant new product features and workflows.
 - Suggest improvement to Support workflows.
 
-
 ### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}

@@ -28,6 +28,7 @@ The testing strategy for [this level of the pyramid](https://docs.gitlab.com/ee/
 ### Where are they
 
 In the [GitLab repository](https://gitlab.com/gitlab-org/gitlab), the End-to-End tests for the Environments group are located at:
+
 - `qa/qa/specs/features/api/7_configure/`
 - `qa/qa/specs/features/browser_ui/7_configure/`
 - `qa/qa/specs/features/ee/api/7_configure/`
@@ -55,7 +56,6 @@ The results of test runs can be found also in the `#qa-staging` Slack channel. T
 - `ee-qa-api`
 - `qa-browser_ui-7_configure`
 
-
 #### Which resources tests use and where can they be found?
 
 Environments End-to-end tests use the `gitlab-qa-resources` project in GCP to spin up GKE clusters.
@@ -75,6 +75,3 @@ Please reach out to [your counterpart SET](/handbook/engineering/quality/#indivi
 - [GitLab QA orchestration tool](https://gitlab.com/gitlab-org/gitlab-qa)
 - [Run QA tests against your GDK setup](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/run_qa_against_gdk.md)
 - [Beginner's Guide to writing End-to-End tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/beginners_guide.html)
-
-
-
