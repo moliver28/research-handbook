@@ -216,10 +216,10 @@ To do so, use the following procedure.
     1. Link it to the security issue: `/relate <issue_id>`
 1. Update the security issue accordingly
 
-    ```text
-    /label ~"FedRAMP::Vulnerability" ~"FedRAMP::DR Status::Open"
-    /milestone %Backlog
-    ```
+   ```text
+   /label ~"FedRAMP::Vulnerability" ~"FedRAMP::DR Status::Open"
+   /milestone %Backlog
+   ```
 
 </details>
 

@@ -484,7 +484,7 @@ Description: This query counts the number of namespaces per P&L category on a gi
 
 ##### Examples
 
-````sql
+```sql
     SELECT date_day, finance_pl, COUNT(dim_namespace_id) as total_namespaces
     FROM prod.workspace_engineering.namespace_pl_daily
     GROUP BY date_day, finance_pl;
