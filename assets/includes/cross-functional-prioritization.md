@@ -1,10 +1,20 @@
 ### Cross-Functional Prioritization
 
-#### Purpose
+#### Overview
 
-1. Achieve and maintain an optimal balance of new features, security fixes, availability work, performance improvements, bug fixes, etc. via a framework that helps drive conversations and alignment. Balance across these categories will allow GitLab to operate in a way that will allow us to meet revenue goals and maintain the stability of our platform.
-1. Give voice to everyone in the quad (PM, Development, Quality, and UX)
-1. Provide transparency into prioritization and work status to internal and external stakeholders so they can advocate for their work items
+The Cross-Functional Prioritization framework exists to give everyone a voice within the product development quad (PM, Development, Quality, and UX). By doing this, we are able to achieve and maintain an optimal balance of new features, security fixes, availability work, performance improvements, bug fixes, technical debt, etc. while providing transparency into prioritization and work status to internal and external stakeholders so they can advocate for their work items. Through this framework, team members will be able to drive conversations about what's best for their quad and ensure there is alignment within each milestone.
+
+Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 60% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/cross-functional-prioritization) to ensure that our project stays ahead in these areas. Engineering prioritizes 40% of time on initiatives that improve the product, underlying platform and foundational technologies we use.
+
+The Cross-Functional Prioritization contains three key tenets:
+
+* Release slate is divided into three main components: features and usability, evolution and optimization, and bugs including severity-based SLAs
+* Different cross-functional DRIs prioritize each section with anyone is still able to advocate for prioritization changes
+* DRI decisions informed by qualitative and quantitative data, up to and including automatic scheduling of work items based on SLA policies
+
+At the R&D directs level, over the course of the quarter, all product development efforts should calculate to a 60%/40% split with 60% focused on features and usability, 30% focused on evolution and optimization, and 10% focused on bugs and SLA related efforts. This means that each group should define the correct ratio across all three categories based on their Category maturity as well as maintenance needed to continue to meet our security, scalability, reliability, and availability requirements. Each quad will align with their leaders to ensure that R&D achieves its 60%/40% target.
+
+A balance across these components while empowering DRIs will allow GitLab to operate in a way that will allow us to meet (and exceed) revenue goals while maintaining the security, stability, reliability, and availability of our platform.
 
 #### Implementation Philosophy
 
