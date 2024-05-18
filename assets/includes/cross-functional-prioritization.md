@@ -1,10 +1,19 @@
 ### Cross-Functional Prioritization
 
-#### Purpose
+#### Overview
 
-1. Achieve and maintain an optimal balance of new features, security fixes, availability work, performance improvements, bug fixes, etc. via a framework that helps drive conversations and alignment. Balance across these categories will allow GitLab to operate in a way that will allow us to meet revenue goals and maintain the stability of our platform.
-1. Give voice to everyone in the quad (PM, Development, Quality, and UX)
-1. Provide transparency into prioritization and work status to internal and external stakeholders so they can advocate for their work items
+The Cross-Functional Prioritization framework exists to give everyone a voice within the product development quad (PM, Development, Quality, and UX). By doing this, we are able to achieve and maintain an optimal balance of new features, security fixes, availability work, performance improvements, bug fixes, technical debt, etc. while providing transparency into prioritization and work status to internal and external stakeholders so they can advocate for their work items. Through this framework, team members will be able to drive conversations about what's best for their quad and ensure there is alignment within each milestone.
+
+The Cross-Functional Prioritization contains three components:
+
+1. Release slate is divided into three main categories:
+    1. features and usability
+    1. bugs and SLAs
+    1. evolution and optimization
+1. Different cross-functional DRIs prioritize each section; Anyone is still able to advocate for priority label changes
+1. DRI decisions informed by qualitative and quantitative data, up to and including automatic scheduling of bug fixes accord to severity-based SLAs
+
+Balance across these categories and empowering DRIs will allow GitLab to operate in a way that will allow us to meet revenue goals and maintain the security, stability, reliability, and availability of our platform.
 
 #### Implementation Philosophy
 
