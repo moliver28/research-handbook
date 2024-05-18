@@ -42,7 +42,6 @@ To create an issue, or find how to engage with the related teams you can use the
 - [Scalability](/handbook/engineering/infrastructure/team/scalability/#working-with-us)
 - [GitLab Dedicated](/handbook/engineering/infrastructure/team/gitlab-dedicated/#working-with-us)
 
-
 ## Engaging with the Quality teams
 
 ```mermaid
@@ -108,7 +107,7 @@ Each sub-department has different guidance on OKR:
 
 ## Key Review
 
-[Key Review meetings](/handbook/company/key-review/) provide the department leadership an opportunity to inform the executive team of our [performance indicator](#performance-indicators/) progress, results on OKRs, and updates on any [Cross-functional Key Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives) which we are leading.
+[Key Review meetings](/handbook/company/key-review/) provide the department leadership an opportunity to inform the executive team of our [performance indicator](#performance-indicators) progress, results on OKRs, and updates on any [Cross-functional Key Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives) which we are leading.
 
 Key Review meetings are facilitated and led by the currently responsible VP, with Directors being the backup DRIs.
 
@@ -140,9 +139,7 @@ Quick checklist for the host (time order):
 |TBD| Engineering Productivity EM |
 |TBD| Engineering Analytics EM |
 
-
 Historical preparation for Quality sub-department is in [the issue tracker](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues?label_name%5B%5D=group-conversation) with a `group-conversation` label.
-
 
 ## Performance Indicators
 

@@ -31,8 +31,7 @@ In addition to the [Fulfillment Product Direction](https://about.gitlab.com/dire
 
 ## Team members
 
-See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section for a list of team members for the Fulfillment section and sub-groups. 
-
+See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section for a list of team members for the Fulfillment section and sub-groups.
 
 ## Stable counterparts
 
@@ -68,7 +67,6 @@ See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section
 Working in [SAFE manner](/handbook/legal/safe-framework/) at GitLab is everyone's responsibility. We along with our stable counterparts in Sales and Billing contribute to an area of the product that potentially could encounter sensitive or financial information, and could have an effect on the business as a whole. Therefore, it's important for Fulfillment team members to ensure that the SAFE epics, issues, videos, MRs, and other artifacts we produce are kept confidential.
 
 On occasion, it may be prudent to include language like the following to the description of public issues where potentially SAFE discussions are happening.
-
 
 > This page may contain information related to upcoming products, features and functionality.
 > It is important to note that the information presented is for informational purposes only,
@@ -226,8 +224,8 @@ Before work can begin on an issue, we should estimate it first after a prelimina
 | 2 | A simple change (minimal code changes), where we understand all of the requirements. |
 | 3 | A simple change, but the code footprint is bigger (e.g. lots of different files, or tests effected). The requirements are clear. |
 | 5 | A more complex change that will impact multiple areas of the codebase, there may also be some refactoring involved. Requirements are understood but you feel there are likely to be some gaps along the way. |
-| 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements.
-| 13| A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues.
+| 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. |
+| 13| A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
 
 In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over optimizing. In general departments at GitLab aim for [70% predictability] but in the Fulfillment sub-department we aim for 80% predictability since our work is typically cross-functional and we need to be in lockstep with other departments.
 
@@ -304,7 +302,6 @@ While individual groups are free to use as many stages in the [Product Developme
 The SETs helps facilitate the quad-planning process. This is the participation of Product Management, Development, UX, and the Quality team which aims to bring test planning as a topic before the development of any feature.
 
 We follow the Quad Planning process defined [here](/handbook/engineering/infrastructure/test-platform/quad-planning/#process).
-
 
 ### User Experience
 
@@ -651,6 +648,7 @@ Examples of blocking problems include:
 - Expired certificate causing interrupted service with staging or test environments
 
 Critical problems like a production outage should be raised quickly. You can check [#incident_management](https://gitlab.slack.com/archives/CB7P5CJS1) before raising an incident.
+
 - CustomersDot outage
 - Failed CustomersDot deploy
 

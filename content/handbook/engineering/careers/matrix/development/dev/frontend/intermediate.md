@@ -23,6 +23,7 @@ title: "Dev Career Framework: Intermediate Frontend Engineer"
 
 {{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
 {{% include "includes/engineering-careers/development-intermediate-technical-competency.md" %}}
+
 - Working knowledge of GitLab's default frontend frameworks
 - Able to construct applications using components
 - Identifying and building re-usable abstract components

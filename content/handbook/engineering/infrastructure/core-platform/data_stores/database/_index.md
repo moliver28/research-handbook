@@ -60,6 +60,7 @@ We use a [planning issue](https://gitlab.com/gitlab-org/database-team/team-tasks
 The database group is experimenting with using expected merge request count as an issue weight. Before each milestone starts, we'll ping each assigned issue without a weight and ask folks to add weights to them.
 
 We decided to use merge request count as an issue weight for a few reasons:
+
 - The process encourages folks to consider ahead how an issue could be broken down more and enumerate it in advance
 - It's easy to describe and learn, making it easier for the team to come to a shared understanding
 - Merge request rate is one of the main ways our team is measured
@@ -70,7 +71,7 @@ We decided to use merge request count as an issue weight for a few reasons:
 1. Add a comment enumerating the expected merge requests. For example:
 
    > Just one merge request to documentation
-
+   >
    > One to gitlab for database changes, one for new functionality, one for documentation changes, and one to omnibus
 
 1. Add the count as a weight. For example, if you think there could be one to gitlab for database changes, one for new functionality, one for documentation changes, and one to omnibus - you would assign `/weight 4`
@@ -169,7 +170,6 @@ We document our insights, road maps and other relevant material in this section.
 
 ## Dashboards
 
-
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="database" >}}
 {{< /tableau >}}
@@ -185,4 +185,3 @@ We document our insights, road maps and other relevant material in this section.
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="database" >}}
 {{< /tableau >}}
-

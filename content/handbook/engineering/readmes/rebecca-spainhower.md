@@ -24,6 +24,7 @@ For a quick summary of everything I feel is important as a Support Engineering M
 ### Questions I Ask Myself
 
 These questions are drawn from Gay Hendricks' book [The Big Leap](https://www.goodreads.com/book/show/6391876-the-big-leap):
+
 * What work do you do that doesn't seem like work?
   * career development - for teammates and myself
   * process improvements - thinking systematically and asking questions about alternatives

@@ -5,8 +5,6 @@ description: "Development OKRs"
 canonical_path: "/handbook/engineering/development/okrs/"
 ---
 
-# OKRs
-
 The source of truth for GitLab OKRs and KRs for Development is the [GitLab OKRs tool](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=vp-development&label_name%5B%5D=Department%3A%3ADevelopment&milestone_title=FY24-Q2&first_page_size=20). Development objectives and KRs are captured on this page.
 
 ### FY24Q3
@@ -26,7 +24,6 @@ The source of truth for GitLab OKRs and KRs for Development is the [GitLab OKRs 
 1. KR: [Reach a 50% minimum per group of pajamas compliance for drop downs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3885) => 63% - On Track
 1. KR: [Verify CI Catalog goal - Beta or GA release](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3886) => 40% - At Risk
 
-
 #### 3. OKR [Make GitLab easier to do business with](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3683) => 60%
 
 1. KR: [In collaboration with PS migrate 3 new large customers to Dedicated](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3892) => 60% - On Track
@@ -38,7 +35,6 @@ The source of truth for GitLab OKRs and KRs for Development is the [GitLab OKRs 
 1. KR: [Meet new hiring goals](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3887) => 80% - Needs Attention
 1. KR: [TBD placeholder for actions to employee engagement survey feedback](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3890) => 35% - On Track
 1. KR: [Create Stage OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3279) => 40% - On Track
-
 
 #### 5. OKR [Engineering efficiency and foundations](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3898) => 59%
 
@@ -55,7 +51,6 @@ The source of truth for GitLab OKRs and KRs for Development is the [GitLab OKRs 
 1. KR: [Sec/Growth/Data Science: Major roadmap deliverables](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3249) => 37% - On Track
 1. KR: [Ops: Product Aligned Goals](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/4020) => 47% - On Track
 1. KR: [Dev + Analytics - Deliver on high priority product roadmap items](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/3750) => 31% - Needs Attention
-
 
 ### FY24Q2
 

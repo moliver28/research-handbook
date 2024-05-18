@@ -58,7 +58,7 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 - **Quad connection**: Ensure that all key team members of the quad are connected and informed (Infra, Quality, Dev, PM, UX) to expand transparency and collaboration as groups.
   - The AI leads have started making weekly team announcements for developments across the groups. These are found [here](https://gitlab.com/gitlab-org/ai-powered/ai-weekly/-/issues/?sort=created_date&state=all&label_name%5B%5D=AI%20Powered%20Weekly%20Updates&first_page_size=20).
 
-# Stage Meetings
+## Stage Meetings
 
 Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls).
 

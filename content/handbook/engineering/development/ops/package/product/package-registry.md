@@ -21,6 +21,7 @@ On top of this, Package Managers can be configured in a variety of ways that can
 This creates an amount of uncertainty that can't be completely eliminated but can certainly be minimized. This section presents a guideline on how to achieve that.
 
 We will assume that the [recommended approach](https://docs.gitlab.com/ee/development/packages.html#mvc-approach) for new Package Regisitries was followed:
+
 - A [feature flag](https://docs.gitlab.com/ee/development/feature_flags/index.html) is used.
 - The minimum amount of API endpoints has been implemented for the project level only.
 
@@ -57,6 +58,7 @@ Iterate until we're confident in the behavior and performance of the new Package
 #### Beta
 
 This state is where we start enabling the Package Registry for a few selected projects on GitLab.com. Take this opportunity to:
+
 - Apply [dogfooding](/handbook/values/#dogfooding). For example, some GitLab teams could be interested in using the new Package Registry.
 - Let selected users test the new Package Registry.
   - The related issue/epic is usually followed by several users. Some of them might be interested in using the Package Registry even if it is in Beta.
@@ -68,6 +70,7 @@ When we resolve all blocking issues, we can move the Package Registry to the nex
 #### Generally Available
 
 We fully release the Package Registry. For this state, we have a few things to take care of:
+
 - Update the documentation accordingly.
 - Update the feature flag so that the Package Registry is released to self-managed users.
 - Communicate accordingly about the Package Registry release.

@@ -22,7 +22,6 @@ To deliver on the mission, we are in the process of formalising the building blo
   <iframe src="https://www.youtube.com/embed/Vui6_iULzPw" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
 ## Direction
 
 In FY25, teams in the Platforms Section of the Infrastructure Department have collaborated on [the "North Star"](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1097), which is then used to set [the SaaS Platforms Strategy](https://gitlab.com/groups/gitlab-com/-/epics/2243).
@@ -62,7 +61,6 @@ In an effort to enhance the tracking and resolution of requests directed to the 
 
 Agents responsible for handling these issues are defined in a JSON file, which serves as a [CI/CD variable](https://ops.gitlab.net/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-creator/-/settings/ci_cd). Currently, this file contains a static list of all members of the infrastructure department.
 
-
 ### Project and Backlog Management
 
 We use epics and issues to manage our work. [Our project management process](/handbook/engineering/infrastructure/platforms/project-management/) is shared between all teams in SaaS Plaforms.
@@ -75,7 +73,6 @@ The Platforms section builds and maintains various tools to help deploy, operate
 
 [OKRs](/handbook/company/okrs/) (or other items outside of projects) that require progress tracking should be updated **every Wednesday**.
 
-
 When writing OKRs, the guidance is that:
 
 - Objective is defined as “**What** do you want to achieve?”
@@ -84,7 +81,7 @@ When writing OKRs, the guidance is that:
 
 The OKR Description should have the following format:
 
-```
+```markdown
 ### Context
 
 <context about the Objective and the problem it is trying to solve>
@@ -109,7 +106,7 @@ All the statuses of the Epics linked to the OKR (`Linked Epics` table) should be
 At the end of the quarter, each OKR should have a retrospective section at the top of the Description field,
 with the format below:
 
-```
+```markdown
 ### Retro
 
 #### Good
