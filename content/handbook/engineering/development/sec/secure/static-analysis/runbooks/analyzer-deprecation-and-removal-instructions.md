@@ -17,7 +17,7 @@ This document is concerned with the `Deprecate and remove analyzers` step. All t
 
 ### Analyzer Deprecation
 
-#### 1. Deprecate the analyzer job in `SAST.latest.gitlab-ci.yml` 
+#### 1. Deprecate the analyzer job in `SAST.latest.gitlab-ci.yml`
 
 Submit an MR to update the [`SAST.latest.gitlab-ci.yml`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST.latest.gitlab-ci.yml) file by substituting the analyzer's entry with a placeholder. The placeholder message should provide a notice about when the analyzer's deprecation was announced and when it was removed. Be sure to include a hyperlink directing users to the corresponding deprecation issue for further details. Additonally, ensure the placeholder never runs by adding `when: never` to `rules`.
 
@@ -36,7 +36,7 @@ If we delete the entire job, this can break customer pipelines if they have prov
 #### 2. Deprecation Notification
 
 We're required to publish notices in advance of potentially-breaking changes.
-See [Deprecations, removals, and breaking changes](https://handbook.gitlab.com/handbook/product/gitlab-the-product/#deprecations-removals-and-breaking-changes) for details on the required process.
+See [Deprecations, removals, and breaking changes](/handbook/product/gitlab-the-product/#deprecations-removals-and-breaking-changes) for details on the required process.
 
 An example of a previous SAST analyzer deprecation notice is [the notice from 14.8](https://docs.gitlab.com/ee/update/deprecations.html#sast-analyzer-consolidation-and-cicd-template-changes).
 
@@ -54,7 +54,7 @@ Example of analyzer removal from documentation: https://gitlab.com/gitlab-org/gi
 
 #### 2. Add analyzer to ".End of supported analyzers" section of SAST documentation
 
-All analyzers that are no longer supported should be listed in the [end-of-supported-analyzers](https://docs.gitlab.com/ee/user/application_security/sast/#end-of-supported-analyzers) section of the SAST documentation. 
+All analyzers that are no longer supported should be listed in the [end-of-supported-analyzers](https://docs.gitlab.com/ee/user/application_security/sast/#end-of-supported-analyzers) section of the SAST documentation.
 
 #### 3. Update the analyzer projects README.md
 
@@ -67,7 +67,7 @@ This analyzer is currently in terminal maintenance mode. No new major versions w
 We've migrated this analyzer's scanning coverage to the GitLab SAST [Semgrep-based analyzer](https://gitlab.com/gitlab-org/security-products/analyzers/semgrep).
 ```
 
-#### 4. Remove the analyzer job in `SAST.gitlab-ci.yml` 
+#### 4. Remove the analyzer job in `SAST.gitlab-ci.yml`
 
 Submit an MR to update the [`SAST.gitlab-ci.yml`](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/SAST.gitlab-ci.yml) file by substituting the analyzer's entry with a placeholder. The placeholder message should provide a notice about when the analyzer's deprecation was announced and when it was removed. Additionally, be sure to include a hyperlink directing users to the corresponding deprecation issue for further details.
 
@@ -77,4 +77,4 @@ Example analyzer removal MR: https://gitlab.com/gitlab-org/gitlab/-/merge_reques
 
 #### 5. Resolve all current vulnerabilities
 
-Vulnerabilities created by an analyzer that has been removed should have their state set to resolved. 
+Vulnerabilities created by an analyzer that has been removed should have their state set to resolved.

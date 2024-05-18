@@ -17,6 +17,7 @@ This position is 100% remote.
 The Customer Support Representative is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 For a Customer Support Representative role we expect:
+
 - Someone who's been in a previous customer facing role, whether in a technical or non-technical company, and thrives on supporting other people
 - Someone who is able to understand process workflow and communicate via written word and video conferencing
 
@@ -29,6 +30,7 @@ As we evolve our handbook and adopt a career matrix approach, you can read more 
 The Associate Support Engineer is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 For an Associate Support Engineer role we expect:
+
 - Someone who's been in a previous customer facing role, maybe in a technical company, but also maybe outside of tech
 - We expect this person to be early in their career of "technical debugging" - They may have worked support before, but not deep technical troubleshooting.
 
@@ -140,7 +142,7 @@ In addition to the above requirements for Global Support Engineers, you will nee
 
 ### [What it’s like to work here](/handbook/company/culture/#so-thats-what-its-like-to-work-at-gitlab) at GitLab
 
-The [culture](/handbook/company/culture/) here at GitLab is something we’re incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you’ll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you’ll be entitled to vary by the region or country you’re in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We’ll also help you set up your [home office environment](/handbook/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
+The [culture](/handbook/company/culture/) here at GitLab is something we’re incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you’ll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you’ll be entitled to vary by the region or country you’re in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/people-group/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We’ll also help you set up your [home office environment](/handbook/finance/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
 
 Also, every year or so, we’ll invite you to our [Contribute event](https://about.gitlab.com/events/gitlab-contribute/).
 
@@ -186,7 +188,6 @@ demonstrated significant leadership and impact; typically around resolving custo
 - **Strategic Involvement and Customer Advocacy**: They play a strategic role by being the voice of the customer within broader product and engineering teams, contributing to cross-functional projects, and focusing on customer-centric problem solving.
 
 - **Proactive Organizational Leadership and Impact**: Staff Support Engineers exhibit proactive, visible technical leadership in addressing complex issues and significantly impacting both the team and customers. This includes engagement with leaders within customer organizations, particularly during escalations and proactive engagements that involve Support. They actively contribute to discussions, and influence decisions. They also steer product development by communicating customer needs and priorities, and from work with customers they anticipate product limitations.
-
 
 ## Career Ladder
 

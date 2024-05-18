@@ -65,9 +65,10 @@ The first iteration will only focus on weekdays.
 
 **OPERATIONAL EMERGENCY ISSUES ONLY**
 
-   1.  **GitLab.com**: DBRE engineers provide initial response (not solution) in both incident channel and the tracking issue within **15 minutes**.
+   1. **GitLab.com**: DBRE engineers provide initial response (not solution) in both incident channel and the tracking issue within **15 minutes**.
 
 #### Relay Handover
+
    * Since the dbre who are on call may change frequently, responsibility
      for being available rests with them.
    * In the instance of an ongoing escalation no DBRE should finish

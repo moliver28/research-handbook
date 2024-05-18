@@ -169,8 +169,10 @@ When an incident is attributed to a group, a notification will be sent to the tr
       /label ~"master-broken::failed-to-pull-image"
       /label ~"master-broken::gitlab-com-overloaded"
       /label ~"master-broken::job-timeout"
+      /label ~"master-broken::multi-version-db-upgrade"
       /label ~"master-broken::undetermined"
       ```
+
 1. (Optional) Pre-resolution
    - If the triage DRI believes that there's an easy resolution by either:
       - Reverting a particular merge request.
@@ -181,6 +183,7 @@ When an incident is attributed to a group, a notification will be sent to the tr
    - If the failures occur only in `test-on-gdk` jobs, it's possible to stop those jobs from being added to new pipelines while the cause is being fixed. See the [runbook](https://gitlab.com/gitlab-org/quality/runbooks/-/tree/main/test-on-gdk#disable-the-e2etest-on-gdk-pipeline) for details.
 
 #### Pro-tips for Triage DRI
+
 1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/ai_features.html#root-cause-analysis) feature by clicking the "Root cause analysis" button on the failed job page.
 2. To confirm flakiness, you can use the `@gitlab-bot retry_job <job_id>` or the `@gitlab-bot retry_pipeline <pipeline_id>` command to retry the failed job(s), even if you are not a project maintainer.
   - **Note**, The `retry_job` command can fail for the following reasons:
@@ -385,7 +388,6 @@ Be sure to read general guidelines about [issues](https://docs.gitlab.com/ee/dev
 
 [priority-issues]: https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&milestone_title=%23started&assignee_id=None&sort=priority
 [ce-ee-docs]: https://docs.gitlab.com/ee/development/ee_features.html
-[gitlab-workflow]: /handbook/communication/#gitlab-workflow
 
 ## Updating Workflow Labels Throughout Development
 
@@ -474,7 +476,7 @@ There is extensive [monitoring](https://dashboards.gitlab.com/) publicly availab
 
 GitLab Inc has to be selective in working on particular issues. We have a limited capacity to work on new things. Therefore, we have to schedule issues carefully.
 
-Product Managers are responsible for scheduling all issues in their respective [product areas](/handbook/product/categories/#devops-stages), including features, bugs, and tech debt. Product managers alone determine the [prioritization](/handbook/product/product-processes/#how-we-prioritize-work), but others are encouraged to influence the PMs decisions. The UX Lead and Engineering Leads are responsible for allocating people making sure things are done on time. Product Managers are _not_ responsible for these activities, they are not project managers.
+Product Managers are responsible for scheduling all issues in their respective [product areas](/handbook/product/categories/#devops-stages), including features, bugs, and tech debt. Product managers alone determine the [prioritization](/handbook/product/product-processes/#how-we-prioritize-work), but others are encouraged to influence the PMs decisions. The UX Lead and Engineering Leads are responsible for allocating people making sure things are done on time. Product Managers are *not* responsible for these activities, they are not project managers.
 
 Direction issues are the big, prioritized new features for each release. They are limited to a small number per release so that we have plenty of capacity to work on other important issues, bug fixes, etc.
 
@@ -519,7 +521,7 @@ All other important dates for a milestone are relative to the release date:
   - Kickoff document is updated with relevant items to be included.
 - **Friday before the milestone begins**:
   - [Group Kickoffs calls](/handbook/product/product-processes/#kickoff-meetings) recorded and uploaded.
-- **Monday immediately after the milestone begins**: **_Kick off!_** 📣
+- **Monday immediately after the milestone begins**: ***Kick off!*** 📣
   - [Company Kickoff](#kickoff) call live streamed.
   - Development on milestone begins.
 - **Monday, 9 days after the milestone begins**:
@@ -536,7 +538,7 @@ All other important dates for a milestone are relative to the release date:
   - [Group Retrospective issues](/handbook/engineering/management/group-retrospectives/) are updated with shipped and missed deliverables and team-members are tagged in the discussion.
 - **Wednesday, the day before the release date**:
   - [Milestone Cleanup](#milestone-cleanup) runs on the schedule at [Milestone cleanup schedule](#milestone-cleanup-schedule).
-- **Third Thursday of the release month**: **_Release Day!_** 🚀
+- **Third Thursday of the release month**: ***Release Day!*** 🚀
   - Release shipped to production.
   - Release post published.
 - **Friday immediately after release day**:
@@ -597,7 +599,7 @@ Milestones are closed when the Delivery team no longer needs to create a backpor
 
 ## Kickoff Public Stream Instructions
 
-The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
+The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/company/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
 
 ## Use Group Labels and Group Milestones
 
@@ -669,7 +671,7 @@ Not everything is urgent. See below for a non-exclusive list of things that are 
   - High severity (severity::1/priority::1) security issues. Refer to [security severity and priority](/handbook/security/#severity-and-priority-labels-on-security-issues).
   - Highest priority and severity customer issues based on the [priority and severity definitions](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/contributing/issue_workflow.md#priority-labels).
 - Not In Scope
-  - An operational issue of GitLab.com or a self managed customer environment. This falls under the [on-call](/handbook/on-call/index.html) process.
+  - An operational issue of GitLab.com or a self managed customer environment. This falls under the [on-call](/handbook/engineering/on-call/index.html) process.
   - Self developed and maintained tools that are not officially supported products by GitLab.
   - Feature request by a specific customer.
 

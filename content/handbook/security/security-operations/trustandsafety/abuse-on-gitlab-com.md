@@ -15,12 +15,11 @@ title: "Abuse on GitLab.com"
    - The form will require you to enter information describing the type abuse you are reporting.
    - Reports with insufficient information, cannot be reviewed and will therefore be closed, more detailed reports can be sent to `abuse@gitlab.com`.
 
-#### Reporting Merge Requests, Issues and Comments.
+#### Reporting Merge Requests, Issues and Comments
 
 1. Reporting **Comments/Issues/Merge Requests** using the `Report abuse to admin` button.
    1. You can report abuse by using the **report abuse to admin** dropdown at the top right of the corner of the issue/comment/MR.
    1. Complete the form with detailed information to aid our team in reviewing the reported content.
-
 
 #### Email abuse@gitlab.com
 
@@ -31,9 +30,9 @@ title: "Abuse on GitLab.com"
 
 1. Requests to have your reinstated can be done by reaching out to our Support Team.
 
-### Exceptions:
+### Exceptions
 
-#### Malware for Research Purposes.
+#### Malware for Research Purposes
 
 Making use of GitLab.com services to deliver malicious executables or as attack infrastructure is prohibited under the [GitLab Acceptable Use Policy] [link to be added once AUP has been launched].
 We do however understand that making such technical details available for research purposes can benefit the wider community, and as such it will be allowed as an exception to our <Acceptable Use Policy> if the content meets the following criteria:
@@ -76,14 +75,17 @@ Disruptive activity such as that listed above can be researched freely on your o
 - Below is a list of common abuse types;
 
 {{% details summary="Malware" %}}
+
 - Defined as software that is designed and distributed with the intention of causing damage to a computer, server, client, or computer network.
 {{% /details %}}
 
 {{% details summary="Commercial Spam" %}}
+
 - An account that has been created for the purpose of distributing spam in the form of advertising a product, service, item etc.
 {{% /details %}}
 
 {{% details summary="Malicious Content" %}}
+
 - An account that has been created for the purpose of distributing fraudulent, illegal, pirated or deceptive content.
   - Webpage Spam,
   - Phishing Pages
@@ -137,6 +139,7 @@ There are various types of Comment spam but is not limited to:
 {{% /details %}}
 
 {{% details summary="Copyright Abuse" %}}
+
 - URL redirects to popular events.
 - Copyright content of which the account holder does not hold the rights to distribute.
 {{% /details %}}

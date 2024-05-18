@@ -37,7 +37,6 @@ TeamOps is comprised of four principles, each with six tenets that outline group
 | [Inclusivity](/teamops/shared-reality/#inclusivity) | [Tool Prioritization](/teamops/equal-contributions/#tool-prioritization) | [Low-Context Communication](/teamops/decision-velocity/#low-context-communication) | [Transparent Feedback](/teamops/measurement-clarity/#transparent-feedback) |
 | [Informal Communication](/teamops/shared-reality/#informal-communication) | [Psychological Safety](/teamops/equal-contributions/#psychological-safety) | [Operational Transparency](/teamops/decision-velocity/#operational-transparency) | [Cadence](/teamops/measurement-clarity/#cadence) |
 
-
 ## Prerequisites for TeamOps
 
 There are five foundational elements that should already be in place in an organization in order to support the adoption of TeamOps. These prerequisites relate to the company processes, digital infrastructure, and culture that create an *ideal* environment to implement TeamOps tenets.
@@ -56,7 +55,6 @@ There are five foundational elements that should already be in place in an organ
 1. **Focus on results.** [Measuring output](/handbook/company/culture/all-remote/management/#focusing-on-results) instead of input is foundational to managing a virtual-first team. This means establishing clear, transparent goals so that team members at all levels of the organization can see and take ownership for how their work is contributing to the team, department, and company's success.
 
 If your organization is missing some of these building blocks, consider this an opportunity to invest in your team. A variety of [TeamOps Partners](handbook.gitlab.com/handbook/teamops/partners/) have been recruited to support you through the change management process.
-
 
 ## TeamOps Tips
 

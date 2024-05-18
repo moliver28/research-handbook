@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through creating and running a .gitl
 
 > Estimate time to complete: 15 - 20 minutes
 
-
 ## Objectives
 
 The `.gitlab-ci.yml` file allows you to define the stages and jobs for your CI/CD process. In this lab, you will learn how to modify your `.gitlab-ci.yml` file.
@@ -14,7 +13,7 @@ The `.gitlab-ci.yml` file allows you to define the stages and jobs for your CI/C
 
 1. Open your **CICD Demo** project from the last lab.
 
-1. On the left Navigation pane click **Code > Repository**. Click on your `.gitlab-ci.yml` file to view its contents. Click **Edit > Edit single file**. Replace all the code in `.gitlab-ci.yml` with the content of the following snippet: 
+1. On the left Navigation pane click **Code > Repository**. Click on your `.gitlab-ci.yml` file to view its contents. Click **Edit > Edit single file**. Replace all the code in `.gitlab-ci.yml` with the content of the following snippet:
 
     ```yml
     stages:

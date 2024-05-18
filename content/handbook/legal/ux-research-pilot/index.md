@@ -14,6 +14,7 @@ The pilot program features an automated workflow for the UX Research Team to gen
 As part of launching this pilot, Legal has updated the definitions and wording used in association with promotional games.  Please review [this section](/handbook/legal/marketing-collaboration/#promotional-games) of the handbook to learn about the three types of promotional games which are generally permitted at GitLab.
 
 Benefits of the pilot program:
+
 - Prize draws are able to be launched very quickly in connection with a survey opportunity.
 - Rules can be generated within minutes.
 - No need to create new pages to host the Official Rules each time.
@@ -48,6 +49,7 @@ Benefits of the pilot program:
 1. Within your survey you will need to add a separate screen/page where the participant can select to be entered into the Prize Draw. A suggested way to do this is to have the participant tick a box yes/no to enter the prize draw, and if they tick "yes" then capture the required information (no boxes should be pre-ticked). To enter collect the name, email, country and zip/postal code. If someone attempts to enter with a country that is not within the promotional territory, the system collecting entries should automatically flag that entry as ineligible.  You are not required to notify the entrant that they are ineligible.
 1. On the screen/page where the prize draw is discussed, certain information must appear prior to any tick box or text field to enter.  The participant must be presented with the Abbreviated Rules (not a link to the Abbreviated Rules) after a one sentence summary inviting them to enter. By way of example, it can read as follows:
 
+   ```plain
            Thank you for completing the survey. Please indicate if you wish to enter the Prize Draw described below.
 
             [insert the Abbreviated Rules as generated from the request]
@@ -65,6 +67,7 @@ Benefits of the pilot program:
                 Country of Residence:
 
                 Zip/Postal Code:
+   ```
 
 1. You may not advertise the prize draw outside of the email distribution. If you are advertising the prize draw at an in-person event, the abbreviated rules should be a part of the same visual space as the remainder of the advertising message and should not be made available to any person not attending the in-person event. If you are advertising the prize draw at a virtual event, we recommend an approach similar to the survey screen language described above. The prize draw should not be advertised to attendees of an in-person or virtual event ahead of time or after the event has ended.
 1. No changes are permitted to the prize draw, the abbreviated rules, or the plan for advertising after the time period to enter has begun. The reason for this is that the countries designated as eligible in this pilot program were selected in part on the basis that the prize draw is a closed audience, meaning it is not advertised to the general public. If you wish to advertise to additional persons or a broader audience to raise interest in your study or survey using the prize draw as an incentive, then you should not use the pilot program workflow and instead use the [regular channel of seeking legal approval for a promotional game](/handbook/legal/marketing-collaboration/#promotional-games).

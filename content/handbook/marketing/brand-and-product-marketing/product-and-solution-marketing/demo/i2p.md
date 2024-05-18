@@ -15,7 +15,7 @@ title: "Plan to Monitor (p2m) Demo"
 
 Note: This is the latest video. Work to catch up these demo instructions to match the video is underway.
 
-# Overview
+## Overview
 
 Today, modern software development teams need version control for everything,
 automated testing, support for complex build and deployment configurations, and
@@ -35,7 +35,7 @@ issue](https://gitlab.com/gitlab-com/marketing/product-marketing/-/issues/new). 
 working to improve this demo further, please see [all open idea-to-production
 issues](https://gitlab.com/gitlab-org/gitlab-ce/boards/814228?label_name[]=idea-to-production).
 
-# Preparation
+## Preparation
 
 > - Disable desktop notifications (on a Mac, top-right corner, option click).
 > - Open up new browser window so the audience doesn’t see all your other open tabs.
@@ -44,7 +44,7 @@ issues](https://gitlab.com/gitlab-org/gitlab-ce/boards/814228?label_name[]=idea-
 > - If displaying full-screen, go to 'Displays' settings, Resolution: Scaled, Larger text.
 > - Consider opening this page on an iPad that has screen lock disabled.
 
-# GitLab installation
+## GitLab installation
 
 There are four options:
 
@@ -66,7 +66,7 @@ is ever leaked, there would be little benefit to anybody using it who shouldn't 
 > * Click `Save`
 > * Log out as administrator-->
 
-# Project set up
+## Project set up
 
 ## Cleanup
 
@@ -151,7 +151,7 @@ Permissions, merge request approvals, and protected branches help you build
 quality control into your development process so you can confidently hand GitLab
 over to your developers to get started on turning their ideas into a reality.
 
-# Plan to Monitor (formerly Idea to Production) (main demo)
+## Plan to Monitor (formerly Idea to Production) (main demo)
 
 ## Issue (Plan)
 

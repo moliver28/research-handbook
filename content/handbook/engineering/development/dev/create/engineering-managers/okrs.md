@@ -11,7 +11,7 @@ title: Objectives & Key Results (OKRs)
 
 ## Cascading OKRs
 
-GitLab OKRs allow us to align our work to the overall GitLab objectives. All Create Stage OKRs are derived from the Sub Department, Department and Division where it resides.
+GitLab OKRs allow us to align our work to the overall GitLab objectives. Create Stage OKRs are typically derived from the Sub Department, Department and Division where it resides. [Impactful OKRs](/handbook/company/okrs/#fundamentals-of-impactful-okrs) outisde of this cascade are allowed to be set provided a signoff is gotten from the Stage.
 
 1. [GitLab OKRs](/handbook/company/okrs/).
 1. [Engineering OKRs](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=opened&label_name[]=OKR&label_name[]=EVP%20of%20Engineering).
@@ -21,11 +21,11 @@ GitLab OKRs allow us to align our work to the overall GitLab objectives. All Cre
 
 Team OKRs
 
-* [Code Review](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Acode%20review).
-* [Ecosystem](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Aecosystem).
-* [IDE](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Aide).
-* [Gitaly](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Agitaly).
-* [Source Code](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=all&label_name[]=OKR&label_name[]=group%3A%3Asource%20code).
+* [Code Creation](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Acode%20creation&first_page_size=100)
+* [Code Review](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Acode%20review&first_page_size=100)
+* [Editor Extensions](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Aeditor%20extensions&first_page_size=100)
+* [IDE](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Aide&first_page_size=100)
+* [Source Code](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=all&label_name%5B%5D=OKR&label_name%5B%5D=group%3A%3Asource%20code&first_page_size=100)
 
 ## OKR Authors
 
@@ -40,6 +40,7 @@ All OKRs have the following format:
 1. Great Team
 
 ## OKR Timeline
+
  The GitLab OKRs run for one quarter (3 months).  Here is a sample timeline that we follow:
 
 **Month 1**
@@ -51,10 +52,10 @@ All OKRs have the following format:
 
 * Week 4
     * Update the current progress (scores)
-    * Update OKRs if business priorities have recently changed or if you realize they are unrealistic 
+    * Update OKRs if business priorities have recently changed or if you realize they are unrealistic
     * Remove OKRs if business priorities have recently changed
     * Add new OKRs if business priorities have recently changed
-    
+
 **Month 2**
 
 * Week 4
@@ -64,7 +65,7 @@ All OKRs have the following format:
     * Add new OKRs if business priorities have recently changed
 
 **Month 3**
- 
+
 * Week 2 - This week EMs will begin identifying organizational KRs that are applicable to their teams including KRs they would like their team to focus on.
 
     * Begin working on the next quarter's OKRs
@@ -73,7 +74,7 @@ All OKRs have the following format:
 
     * Begin finalizing the OKR score updates for the current quarter
     * Finalize the next quarter's OKRs.
-    
+
 ## Guidelines for Writing Effective Key Results
 
 These are the best practices recommended for writing Key Results:
@@ -102,11 +103,13 @@ These are the best practices recommended for writing Key Results:
 * Create no more than nine Key Results in total for the entire quarter
 
 ## Scoring OKRs
-Engineering Managers score and update their OKRs on a monthly cadence.  Having managers check in on a monthly cadence ensures that managers maintain focus on the quarterly OKRs. 
+
+Engineering Managers score and update their OKRs on a monthly cadence.  Having managers check in on a monthly cadence ensures that managers maintain focus on the quarterly OKRs.
 
 OKRs will be scored according to this process
 
 ## Reporting on OKRs
+
 The OKRs will be reported on using Epics and Issues.  The Create Stage OKRs can be viewed from this OKR Issue Board.
 
 **Good Label Hygiene**
@@ -120,6 +123,7 @@ All KRs should have the following labels:
 * one of: ~"group::source code", ~"group::code review", ~"group::editor", ~"group::gitaly" or ~"group::ecosystem".
 
 ## OKR Retrospectives
+
 As we close out the quarterly OKRs, the Create Stage Engineering Managers use the following OKR Retrospective format below.
 
 

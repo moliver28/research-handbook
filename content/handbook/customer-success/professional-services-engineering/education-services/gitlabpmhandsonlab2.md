@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through creating groups, projects, a
 
 > Estimated time to complete: 30 minutes
 
-
 ## Objectives
 
 In GitLab, projects and subgroups help you organize your codebases and effectively manage your projects. In this lab, you will learn how to create an organizational subgroup, how to create a project, and how to add a user to a project.
@@ -99,7 +98,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. Search for and select your instructor as the user you are inviting. If you are taking the self-paced course, enter your own email address.
 
-1. In the **Select a role** dropdown, select **Developer**. If you are taking the self-paced course, select **Owner**. 
+1. In the **Select a role** dropdown, select **Developer**. If you are taking the self-paced course, select **Owner**.
 
     > See the [permissions and roles docs](https://docs.gitlab.com/ee/user/permissions.html) to learn more about each role level.
 

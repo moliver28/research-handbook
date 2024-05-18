@@ -3,7 +3,7 @@ title: "Dev Career Framework: Staff Backend Engineer"
 ---
 
 ## Dev Staff Backend Engineer
- 
+
 {{% include "includes/engineering-careers/dev-be-career-matrix-nav.md" %}}
 
 **Dev Staff Backend Engineers at GitLab are expected to exhibit the following competencies:**
@@ -31,7 +31,7 @@ title: "Dev Career Framework: Staff Backend Engineer"
 - Vast knowledge of server side programming languages and their frameworks
 - Improves engineering standards, tooling, and processes
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-staff-values-competency.md" %}}

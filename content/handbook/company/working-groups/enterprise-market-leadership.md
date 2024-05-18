@@ -54,5 +54,3 @@ description: "Learn more about how GTM and Product Management are working togeth
 
 Meetings are recorded and available on
 YouTube in the Working Group - Enterprise Market Leadership playlist. The playlist is private (GitLab Internal Only) due to the nature of the material covered in the call.
-
-

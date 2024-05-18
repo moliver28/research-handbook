@@ -7,7 +7,7 @@ description: "Public Company Headcount Metrics and Processes"
 
 **Ending Headcount**: As a public company, GitLab forecasts Ending Headcount on a monthly, quarterly, and annual basis. This metric is what headcount-related expenses and our investor guidance are based on, so it is mission-critical to get accurate. Underlined key terminology and a full list of terms are defined below.
 
-### Forecasted Ending Headcount is calculated as:
+### Forecasted Ending Headcount is calculated as
 
 1. Begin with <ins>Ending Headcount</ins> from previous period
 1. Increase by: <ins>Gross Known Future Starts</ins> in period

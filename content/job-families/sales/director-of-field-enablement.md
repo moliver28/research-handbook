@@ -97,6 +97,7 @@ The Senior Manager, Field Enablement Programs is a [grade 9](/handbook/total-rew
 ### Requirements
 
 -Demonstrated progressive software sales experience with expertise in DevSecOps and/or open source, preferably in sales or technical enablement and management.
+
 - Relevant experience preparing, developing, and executing global revenue teams’ effectiveness strategies, tactics and action plans for a technology platform.
 - Ability to quickly understand technical concepts and explain them to audiences of varying technical expertise (sales team, customer success team, and channel partners).
 - Working knowledge of enablement technology and methodologies; demonstrable experience with sales, partner, technical, and customer success enablement concepts, practices, and procedures.

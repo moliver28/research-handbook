@@ -12,4 +12,3 @@ The Tax Team is responsible for GitLab’s tax compliance (see here for payroll 
 The Tax team is part of the Finance function and headed by the VP Tax. The VP Tax reports to the Chief Financial Officer. The Tax team is structured to address (a) U.S. domestic taxes and global accounting for business taxes and (b) international tax planning and compliance, including US international tax planning.
 
 This page has been moved to the internal handbook website due to safety/privacy: https://internal.gitlab.com/handbook/finance/tax/
-

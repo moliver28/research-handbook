@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through creating and managing a Scru
 
 > Estimated time to complete: 30 minutes
 
-
 ## Objectives
 
 In this lab you'll configure a Scrum board and populate it with the same issues you used for the Kanban board. A Scrum board is a board that is used to keep track of the progress in a sprint. To learn more about Scrum, click [here](https://www.scrum.org/learning-series/what-is-scrum/what-is-scrum).
@@ -90,7 +89,7 @@ In this lab you'll configure a Scrum board and populate it with the same issues 
 
 1. Click **Create board**.
 
-   >  We will now create three new lists for the board: a list with a **Status::Sprint Backlog** label, a list with a **Status::WIP** label, and a list with a **Status::QA** label.
+   > We will now create three new lists for the board: a list with a **Status::Sprint Backlog** label, a list with a **Status::WIP** label, and a list with a **Status::QA** label.
 
 1. In the top right corner, click **Create list**.
 

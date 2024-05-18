@@ -30,6 +30,7 @@ Deliver Minorities in Tech (MIT) Mentoring Program aligning with the MIT TMRG Me
 ## Exit Criteria
 
 The Minorities in Tech Mentoring Program Working Group will deliver:
+
 - [x] Develop a Framework for an MIT Mentoring Program
 - [x] Identify Participates
 - [x] Provide Training for Participants

@@ -86,7 +86,7 @@ An easy way to force this toxic cloud of taboo out of your team is to use a digi
 
 GitLab's verbiage is below.
 
-> Hi there! Have you thought about what days you may take off this month? 🌴⛰️ We want to make sure you stay healthy! If you feel like you can’t reasonably take time off, feel welcome to add this note to your next 1:1 with your manager and discuss further. Learn more about paid time off at GitLab: `https://about.gitlab.com/handbook/paid-time-off/`
+> Hi there! Have you thought about what days you may take off this month? 🌴⛰️ We want to make sure you stay healthy! If you feel like you can’t reasonably take time off, feel welcome to add this note to your next 1:1 with your manager and discuss further. Learn more about paid time off at GitLab: `https://about.gitlab.com/handbook/people-group/paid-time-off/`
 
 This remote-first behavior triggers a healthy reminder for people to chat about travel or spending time in their community — informal communication that is centered about prioritizing [mental health]({{< ref "./mental-health" >}}).
 
@@ -121,7 +121,7 @@ This added burden forces team members to consider approaching work [asynchronous
 
 {{< youtube "3HHyjAV3hYE?start=581" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/handbook-usage#why-handbook-first)" approach to companywide documentation.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and Gabe (Senior Product Manager, GitLab) talk on the topic of going slow to go fast, as well as the importance of a "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach to companywide documentation.*
 
 > I think [documentation]({{< ref "./management#scaling-by-documenting" >}}) has to be [instilled as a value]({{< ref "values#write-things-down" >}}). It has to start there, and the whole leadership team in an organization has to be onboard.
 >
@@ -181,6 +181,7 @@ Feel welcome to study [GitLab's values]({{< ref "values" >}}), and learn more on
 ## What are some tips for working remote-first?
 
 We've gathered our top [5 tips for successful remote working]({{< ref "remote-work-starter-guide" >}}):
+
 1. Create a dedicated workspace (focus)
 1. Separate work from life (avoid burnout)
 1. Keep engaging with people (avoid loneliness)
@@ -207,6 +208,6 @@ Anyone can test their knowledge on How to use forcing functions to work remote-f
 
 GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

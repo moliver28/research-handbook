@@ -45,7 +45,6 @@ The Program Manager, Customer Programs is a [Grade 6](/handbook/total-rewards/co
 - Leadership at GitLab
 - You are obsessed with making customers happy
 
-
 ### Senior Program Manager, Customer Programs
 
 The Senior Program Manager, Customer Programs reports to the [Director of Customer Success Operations](/job-families/sales/director-customer-operations/).
@@ -68,7 +67,6 @@ The Senior Program Manager, Customer Programs is a [Grade 7](/handbook/total-rew
    - Processes and playbooks for Solution Architect, Customer Success Manager, Professional Services, and Renewal Managers
 - Own partnership with Product, bringing “voice of customer” to Product teams, including interlock, reporting, metrics, and facilitating customer engagement (e.g., surveys, interviews, etc.)
 - Define systems and tools requirements that improve CSM visibility into customer information and overall customer performance
-
 
 #### Senior Program Manager, Customer Programs Requirements
 
@@ -96,7 +94,6 @@ The Staff Program Manager, Customer Programs is a [Grade 8](/handbook/total-rewa
 - Provide clear and frequent communications (docs, decks, presentations) to executives with clear proposals, insights, and recommendations
 - Design and develop  annual and multi-year Customer Success strategies
 - Act as the strategic advisor to CS leadership through strategy development and deep area expertise
-
 
 #### Staff Program Manager, Customer Programs Requirements
 
@@ -161,7 +158,6 @@ Digital CS Program Managers focuse on enabling the onboarding-only and digital c
 - Collaborate cross-functionally to ensure the customer programs work synergistically with other customer touch-points from other GitLab teams like Growth and Marketing
 - Demonstrated progressive hands-on experience with Gainsight Journey Orchestrator or relevant digital marketing platform
 - Demonstrated progressive digital or content marketing experience and understanding of relevant metrics and KPIs (i.e., click-through, engagement, etc.)
-
 
 ### Customer Operations
 

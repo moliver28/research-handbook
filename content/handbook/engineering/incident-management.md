@@ -34,7 +34,7 @@ Investigation includes looking for the cause of an outage/service disruption and
 
 ### 4. Containment
 
-Containing the impact and stabilizing the service as quickly as possible. Once containment is achieved and the impact of the disruption is alleviated, the incident is considered "mitigated". 
+Containing the impact and stabilizing the service as quickly as possible. Once containment is achieved and the impact of the disruption is alleviated, the incident is considered "mitigated".
 
 ### 5. Remediation
 

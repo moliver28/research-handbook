@@ -23,8 +23,7 @@ This group is open to all members of the GitLab community.
 
 ## Leads
 
-- [April Marks](/handbook/company/team/#aprilmarks)
-- [Marcus Carter](/handbook/company/team/#marcusbriancarter)
+- [Erran Carey](/handbook/company/team/#erran)
 - [Madou Coulibaly](/handbook/company/team/#madou)
 
 ## Executive Sponsors
@@ -89,6 +88,7 @@ We use our [GitLab issue board](https://gitlab.com/gitlab-com/black-tmrg/-/board
 {{% /details %}}
 
 {{% details summary="February 2023" %}}
+
 - [US Black History Month](https://gitlab.com/gitlab-com/black-tmrg/-/issues/23)
 - [Black History Month Zoom Background 2023](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/programs-teams/dib-tmrg/black-gitlab/swag/zoom-backgrounds/black-history-month-zoom-background-2023/png)
 
@@ -99,36 +99,43 @@ We use our [GitLab issue board](https://gitlab.com/gitlab-com/black-tmrg/-/board
 {{% /details %}}
 
 {{% details summary="January 2023" %}}
+
 - MLK Day - Day of Service
 {{% /details %}}
 
 {{% details summary="December  2022" %}}
+
 - Black Author Book Club
 - Holiday Giving of $400
 - Stocking up on your Stocks
 {{% /details %}}
 
 {{% details summary="November  2022" %}}
+
 - TDX Tech Summit (presenting)
 {{% /details %}}
 
 {{% details summary="October  2022" %}}
+
 - UK Black History Month
 - Black Tech Fest
 {{% /details %}}
 
 {{% details summary="September  2022" %}}
+
 - Black is Tech (presenting)
 - Sales Sponsorship program
 - Black Women's Equal Pay Day
 {{% /details %}}
 
 {{% details summary="July-August 2022" %}}
+
 - First Black@GitLab Monthly
 - Devcolor sponsorship
 {{% /details %}}
 
 {{% details summary="June 2022" %}}
+
 - Juneteenth Video by Marcus
 - Juneteenth Speaker: Tyrance Billingsley
 - June AMA w/ Board Member Merline Santi

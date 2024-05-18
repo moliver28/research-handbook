@@ -146,7 +146,6 @@ As a Senior Product Marketing Manager, Public Sector, you will work bring your k
 - A security clearance is a plus.
 - Ability to use GitLab
 
-
 ### Security
 
 As a Product Marketing Manager, Security you will work closely with our marketing, engineering, business development and sales team, and partners to help them understand how GitLab security capabilities solve customer problems as well as educate them about market competitors.  You will also be responsible for crafting, testing, creating and rolling out messaging and positioning of GitLab’s security capabilities.

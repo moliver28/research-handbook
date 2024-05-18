@@ -11,9 +11,10 @@ The Dynamic Analysis group at GitLab is charged with developing solutions which 
 To support the success of GitLab by developing highly usable, hiqh quality tools for customers to build more secure software. The Dynamic Analysis group at GitLab is charged with developing solutions which perform API Security Testing, Dynamic Analysis Software Testing (DAST) and Fuzzing.
 
 ### Top Priorities (FY25)
+
 **Theme: Increase adoption**
 
-- **Unify DAST offerings** - Reduce confusion by removing proxy-based DAST and maturing browser-based DAST by adding active checks and improving performance 
+- **Unify DAST offerings** - Reduce confusion by removing proxy-based DAST and maturing browser-based DAST by adding active checks and improving performance
 
 - **API Discovery** - API discovery will analyze applications to produce an OpenAPI document describing the web APIs expected behavior. This schema document is then used by API Security testing (formerly called DAST API) to perform security scans.  Automating this will close the gap for customers whose applications include web APIs that haven’t been documented and aren’t being tested today.
 
@@ -28,16 +29,6 @@ The Dynamic Analysis team builds features for our API Security, DAST, and Fuzzin
 Our features identify vulnerabilities in different ways than GitLab’s other security analyzers do, and each tool should be used in tandem with other security analyzers such as SAST, SCA (dependency scanning), and secret detection to provide full coverage.
 
 API Security, DAST, and Fuzzing are Ultimate features. Increasing adoption of these features helps improve customer retention, and helps drive revenue for GitLab Ultimate.
-
-### Metrics we Love
-
-- **Cumulative Flow Diagram** - Kanban Progress (Team Metric)
-
-- **Vulnerabilities Resolved** - Number of Vulnerabilities Customers have Resolved with DAST (Retention Metric)
-
-- **False Positive Rate** - Customer Test Result Feedback (Accuracy Metric)
-
-- **Monthly Active Users** - Running DAST, API Security, and Fuzzing Tests (Growth Metric)
 
 ### Important DAST Repositories
 
@@ -156,6 +147,10 @@ timeline
 
 The Dynamic Analysis group works according to Kanban principles, with the addition of ceremonies quarterly for OKR development, monthly for release planning, and weekly for syncing on epic and issue reacting, triaging, refinement, impediment resolution. By having the team operate and think at each of these cadences, it can effectively set high-level hierarchical goals, ensure product priorities are planned, and prevent epics and issue work from stalling or falling through the cracks.
 
+### Hallway Monitor Bot
+
+For all quarterly, monhtly, and weekly Kanban ceremonies, the [Hallway Monitor Bot](https://gitlab.com/gitlab-org/secure/tools/gitlab-bot-hall-monitor) is our guiding star, allowing the team to pontificate and plan at all cadences, ensuring we get ahead of future work. The bot will schedule quarterly OKR review meetings, monthly release planning and retro meetings, and will update or weekly sync guide with the latest team member assigned to the temporary reaction rotation role. We should strive to automate as many of our business process as possible, and the Hallway Monitor Bot [Configuration](https://gitlab.com/gitlab-org/secure/tools/gitlab-bot-hall-monitor/-/blob/main/deploy/gitlab-bot-hall-monitor.yaml?ref_type=heads) and [Templates](https://gitlab.com/gitlab-org/secure/tools/gitlab-bot-hall-monitor/-/tree/main/deploy/templates?ref_type=heads) allow for many of your automation ideas. Please help contribute to the bot to help keep our team as efficient as possible.
+
 ### Quarterly OKR Development
 
 ```mermaid
@@ -168,7 +163,7 @@ timeline
 
 Four weeks before the end of a fiscal quarter, our bot will automatically create an OKR planning issue for the group and schedule a calendar event.
 
-The group will get together two weeks before the next quarter begins to create and review [all OKRs for which the team will ultimately be responsible]((https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adynamic%20analysis&first_page_size=20)). This includes reviewing all ancestor OKRs for the stage and up, creating or updating any new or existing OKRs with additional details, and assigning DRIs to each OKR to assist with health updates.
+The group will get together two weeks before the next quarter begins to create and review [all OKRs for which the team will ultimately be responsible](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adynamic%20analysis&first_page_size=20). This includes reviewing all ancestor OKRs for the stage and up, creating or updating any new or existing OKRs with additional details, and assigning DRIs to each OKR to assist with health updates.
 
 #### Important Links
 
@@ -181,7 +176,7 @@ The group will get together two weeks before the next quarter begins to create a
 - Polished OKRs for the group with assigned DRIs
   - Links to any associated epics or issues
 
-### Monthly Release Planning
+### Milestone Release Planning
 
 ```mermaid
 timeline
@@ -199,29 +194,25 @@ timeline
   section M12 <br> Milestone Planning Sync
 ```
 
-Two weeks before a release milestone is kicked off, our bot will automatically create a monthly release planning issue for the group and schedule a calendar event.
+Two weeks before a release milestone is kicked off, our [Hallway Monitor Bot](#hallway-monitor-bot) will automatically create a monthly release planning issue for the group and schedule a calendar event. This issue serves as the Kanban backlog for the milestone, aligning PM priorities with the EM and all of the ICs. The issue is divided into three sections:
 
-On the date of a release milestone kick-off, we will review the list of [Dynamic Analysis Group direction priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities) with product.
+- **Work to Release** - all work that we are committing to release during this milestone
+- **Work to Start/Continue** - new work being brought in or existing work rolling over from a previous milestone
+- **Work to Blueprint** - work that needs high-level planning and breakdown this milestone before development work in the next milestone
 
-Product sets all of our high-level priorities and the output from this meeting will be an MR update to this page with a direct mapping of each priority to a group epic and any updates to the targeted milestone to ensure accuracy. These product priority-based epics will exist alongside our comprehensive [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST).
+On the date of a release milestone kick-off, we will review the list of [Dynamic Analysis Group direction priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities) with product and ensure all of the priorities for the current milestone are reflected in the monthly release planning issue in the "Work to Release" and "Work to Start/Continue" sections. Medium to large sized bodies of work identified for the next milestone by our PM should be added to the "Work to Blueprint" section for high-level blueprinting and breakdown of the work for pick-up in the next milestone.
 
-To complete this mapping, product priority-based epics should be created in [gitlab-org/-/epics](https://gitlab.com/groups/gitlab-org/-/epics?label_name[]=Category:DAST&label_name[]=group::dynamic+analysis&page=1&sort=start_date_desc&state=opened) with the same title of the priority and the following labels. The `type::feature` label is what distinguishes a product priority from other group epic work.
+Product sets all of our high-level priorities, and in addition to the above, another output from this kick-off meeting can be an MR update to direction page with an updated mapping of each priority to a group issue/epic and/or targeted milestone. This process allows for the EM and ICs to give direct feedback to our PM for how we'd like to organize the work and which milestone we think we can get to future roadmap items.
+
+All product priority-based issues will exist alongside our comprehensive [list of all Dynamic Analysis Group issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Adynamic%20analysis&label_name%5B%5D=Category%3ADAST&first_page_size=20). All product priority-based epics will exist alongside our comprehensive [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST).
+
+To complete this mapping, product priority-based issues or epics should be created in `gitlab-org/gitlab` or `gitlab-org` (respectively) with the same title of the priority and the following labels. The `type::feature` label is what distinguishes a product priority from other group epic work.
 
 ```
 /label ~"section::sec"
 /label ~"devops::secure"
 /label ~"group::dynamic analysis"
 /label ~"type::feature"
-```
-
-Timeboxed by the duration of this meeting, the team will attempt to create as many child epics and issues for each of these current release milestone product epics as placeholders for eventual refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All issues created should receive the following milestone and labels:
-
-```
-/milestone {from mapping}
-/label ~"section::sec"
-/label ~"devops::secure"
-/label ~"group::dynamic analysis"
-/label `~workflow::planning breakdown`
 ```
 
 #### Important Links
@@ -235,11 +226,19 @@ Timeboxed by the duration of this meeting, the team will attempt to create as ma
   - Links to polished epics for each product priority
     - Flush out as many child epics and issues tagged to milestones as possible
 
-### Weekly Sync
+### Weekly Huddles & Reaction Coordination
 
-Every Tuesday, a calendar event with an attached agenda exists for a synchronous group meeting.
+#### Monday's Developers Huddle
 
-Each Tuesday, the group will assign a new Reaction Coordinator, discuss any unresolved and significant impediments blocking the team, and host general discussions valuable to a synchronous team meetup.
+Every Monday, a calendar event with an attached agenda exists for a synchronous development group meeting. This meeting is **engineering focused** and includes all engineers on the team and the engineering manager. The purpose of this meeting is to discuss development efforts, strategies, tooling, active MRs, and to guide each other's coding and review efforts. Additionally, the team will discuss all of the active blueprinting items defined in the current [milestone planning issue](#milestone-release-planning), using this time to discuss implementation plans, spikes, and architectural decisions; all in hope of establishing epics and issues for work in the next milestone.
+
+#### Tuesday's General Huddle
+
+Every Tuesday, a calendar event with an attached agenda exists for a synchronous general group meeting. This meeting is **product focused** and includes all engineers on the team, the engineering manager, and the product manager. The purpose of this meeting is to discuss product efforts, timelines, and serves as a direct two-way feedback mechanism between product and the engineering team. We will review the current [milestone planning issue](#milestone-release-planning) as our transient backlog and ensure that we are staying focused on these priorities. The group will also rotate to a new Reaction Coordinator, discuss any unresolved and significant/product impediments blocking the team, and host general discussions valuable to a synchronous team meetup with our product manager.
+
+#### Wednesday's Support Huddle
+
+Every Wednesday, a calendar event with an attached agenda exists for a synchronous support group meeting. This meeting is **support focused** and includes our primary support engineer, the engineering maanger, our product manager, and, as optional members, all engineers on the team engineering manager. The purpose of this meeting is to discuss active support cases and ensure they are added to our [delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis), improve out support runbooks, review live debugging and log reviews of recent support cases, spread support resolution knowledge, and suggest product improvements that will make resolving these support issues easier for the customer, GitLab support, and the team.
 
 #### Reaction Coordinator
 
@@ -288,25 +287,23 @@ The reaction rotation engineer should not:
 - Discuss any unresolved and significant impediments
 - General team discussions
 
-### Daily Epic and Issue Work
+### Daily Look Left & Right Before Dev
 
-The team follows the workflow states and activities articulated in GitLab's [Product Development Flow](/handbook/product-development-flow/). It operates on a pull-based methodology souring from the [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST) as the backlog of all work for the current and future releases.
+On any day, each team member should look left and right on our [Dynamic Analysis delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis) before they start developing any new work from the `workflow::ready for development` column, helping to move one issue forward from both directions (2 total). The team follows the workflow states and activities articulated in GitLab's [Product Development Flow](/handbook/product-development-flow/). Looking left involves grabbing an issue from either the `workflow::refinement` or the `workflow::ready for development` columns, whichever has more items, and completing it. Looking right involves grabbing an issue from either the `workflow::in review` or the `workflow::verification` columns, whichever has more items, and completing it. After both issues have been moved to a new column, the team member can start ready work from the `workflow::ready for development`.
 
-As epics cannot be associated with milestones in the product, the [list of all Dynamic Analysis Group epics](https://gitlab.com/groups/gitlab-org/-/epics?state=opened&page=1&sort=start_date_desc&label_name%5B%5D=group::dynamic+analysis&label_name%5B%5D=Category:DAST) functions as the source of truth for the milestone for any issues not yet created for each epic. Although, at least some issues should exist for each epic associated with a product priority from monthly release planning.
+The `Look Left & Right Before Dev` strategy ensures that work items aren't getting stuck on our board, that every team member gets a chance to plan, breakdown, and refine issues, and that code reviews and staging/production vefification activities are spread equally across the team. If there is no work to the left, new work can be brought in from our milestone backlog, as defined in our current [Monthly Release Planning](#monthly-release-planning) issue. New work may also be added to the first two columns at any time from sales and support request for help issue, high-priority bugs, and security-related issues.
 
-An issue is considered handed off into the development team when it is given the `~workflow::planning breakdown` label, and the team utilizes the following labels as part of its work. Our [Dynamic Analysis delivery board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis) contains everything that the group is currently working on.
+#### Blueprinting
 
-| State | Expected Outcomes |
-| ----- | ----------------- |
-| `~workflow::planning breakdown` | Issues are optimized for delivery based on [Issue breakdown] principles. |
-| `~workflow::refinement` | Implementation plan added to the issue description. Weights are not required due to the small size of issues. |
-| `~workflow::ready for development` | Buffer queue - issue deemed to be `~Deliverable`, `~Stretch`, or possibly punted to a future iteration. |
-| `~workflow::in dev` | Last MR is up and out of Draft or WIP status. |
-| `~workflow::in review` | Last MR is merged. |
-| `~workflow::verification` | Functionally working changes are available in a production environment. Record demo where possible. |
-| `~workflow::complete` | Code is verified, the work is complete, and the issue is closed. |
+When there are too few or no work items in the `workflow::refinement` or the `workflow::ready for development` columns, check the current [Monthly Release Planning](#monthly-release-planning) issue for "Work to Blueprint" issues. Assign yourself as a DRI, and assist in scheduling the necessary meetings with the team to review and help blueprint this work for the next milestone. Attempt to create as many child epics and issues as placeholders for eventual planning, breakdown, and refinement. This is a great time for the team to discuss high-level architectural directions, implementation plans, and needs for accomplishing these priorities throughout the next month. All blueprint issues created should receive the following milestone and labels:
 
-Issues worked by this team are backend-centric and are typically in one the above repos, [vendored templates](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates/Security), and GitLab's [Rails monolith](https://gitlab.com/gitlab-org/gitlab). At times, issues can require support from Secure's frontend team if UI changes are required. We will require more notice for initiatives like these.
+```
+/milestone {from mapping}
+/label ~"section::sec"
+/label ~"devops::secure"
+/label ~"group::dynamic analysis"
+/label `~workflow::planning breakdown`
+```
 
 #### Issue breakdown
 
@@ -340,10 +337,6 @@ There are several maintenance tasks that need to be completed each milestone. Ea
 
 - Review upstream changes, and open an issue to upgrade DAST if the upstream changes provide important improvements
 - Review the [security dashboard](https://gitlab.com/gitlab-org/security-products/dast/-/security/vulnerability_report) for DAST and address all critical and high issues. Review the dashboards for upstream projects, [ZAP](https://gitlab.com/gitlab-org/security-products/dependencies/zaproxy) and [ZAP Extensions](https://gitlab.com/gitlab-org/security-products/dependencies/zap-extensions)
-
-#### Important Links
-
-- [Dynamic Analysis Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/5719921?label_name%5B%5D=group%3A%3Adynamic%20analysis)
 
 ## DAST Technologies
 

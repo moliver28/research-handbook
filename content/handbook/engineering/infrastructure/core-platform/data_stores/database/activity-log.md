@@ -13,9 +13,9 @@ title: Database Group Activity Log
 
 This page captures the database group's activity and documents the outcomes, key results and some takeaways (most recent first). We've started doing this towards the end of 2021.
 
-### 2022:
+### 2022
 
-#### March 2022:
+#### March 2022
 
 Starting in November 2021, we performed a migration file cleanup with these goals:
 
@@ -31,9 +31,9 @@ After the cleanup deployment, we saw a performance optimization in our CI, which
 
 ![image](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/b50030d66e3e4f30b31d7fb8e1d0902a/gitlaborggitlabrspecmigrationjobmeanduration.png)
 
-### 2021:
+### 2021
 
-#### November 2021:
+#### November 2021
 
 This month, we shipped three changes to GitLab.com which led to a 20% reduction in total database size (about 3.3 TB total reduction):
 

@@ -20,6 +20,7 @@ existing namespaces to better represent [bounded contexts](https://docs.gitlab.c
 Having consistently namespaced code is the pre-requisite for a [modularized codebase](https://docs.gitlab.com/ee/architecture/blueprints/modular_monolith/).
 
 With this working group we want to:
+
 - Identify the bounded contexts that compose the GitLab Rails codebase
 - Stop the proliferation of new top-level namespaces without explicit reason.
 - Have modules with rich domain logic that are aligned to the engineering organization.

@@ -80,6 +80,7 @@ After the initial engagement and activities, asynchronous / synchronous collabor
 ## During Technical Discovery and Scoping
 
 Armed with the information synthesized, the initial set of calls or reviews with the customer can be oriented based on the personas engaged. The typical personas booked can be:
+
 - DevOps or platform engineers
 - App Dev team engineers
 - DevOps team manager to director:
@@ -90,6 +91,7 @@ For teams managing the DevOps tools such as DevOps or platform teams, listen to 
 For the app dev teams, understanding the challenges with tools and process and how they may present any issues for software delivery;
 
 During the call, listen and probe for the key information about:
+
 - pain points and challenges, or opportunties
 - what is the current solution and who owns it
 - assess if it is **transactional** to solve a specific problem or pain point with a limited scope and the users with a prescribed solution
@@ -102,12 +104,14 @@ SAE Driven Activities: setting the stage for the discovery with the meetings and
 SA Driven Activities: during the call, more prescriptive in assessing the conversation as **transactional** vs **strategic** solution.
 
 Activities driven by the SA + collaboration with the SAE
+
 - Map out the technical team structure and work with the SAE to expand the stakeholders for discussion if we agree on the pre qualification
 - Collaborate on the organizational priority + inject into the discussion for initiatives and changes that can drive the conversation beyond just tools / features
 
 #### Transactional based solutioning
 
 Not all calls will lead into the strategic solution selling and some of them will simply result in a transactional deal. For a more tactical and transaction based sell, here are some points to note:
+
 - Point Solution: a customers is looking for a small team solution or a single stage to address a specific problem and required to integrate to existing tools
 - Support: There is no sponsorship or initiative to investigate the bigger DevOps problem at a broader scope
 - Sentiment: Uncertain about the Platform approach where the indvidual or team is more focusing on a specific feature
@@ -115,6 +119,7 @@ Not all calls will lead into the strategic solution selling and some of them wil
 #### Signs to Drive Strategic Discussion for a Broad Solution
 
 The following aspects oultine a more strategic dialog for SA to lead and engage with the customer:
+
 - Appetite for process and structure re-alignment and change, such as
   - Agile process
   - Shift-left security
@@ -138,17 +143,20 @@ A SA can lead and identify required capabilities and solution framework upon the
 Capabilities for the DevOps platform should have been explored with the customers in these areas as example:
 
 **Developer Experience**
+
 - Code management with review and approval
 - Ownership and process from develop, release and operate
 - Team collaboration and transferable skills
 - Talent retaining
 
 **Governance and Compliance**
+
 - Regulatory mandate
 - Compliance and audits
 - Change control
 
 **Security**
+
 - Application security
 - Secure software development
 - Security posture and Cybersecurity exposure

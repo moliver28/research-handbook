@@ -5,8 +5,6 @@ description: "This Hands-On Guide walks you through setting up a SAST job to tra
 
 > Estimated time to complete: 30 minutes
 
-
-
 ## Objectives
 
 This lab uses SAST, an optional feature in CI/CD pipelines, to identify security vulnerabilities in your code. GitLab’s Vulnerability Report then shows any old or new vulnerabilities found with each pipeline run. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/application_security/sast/).

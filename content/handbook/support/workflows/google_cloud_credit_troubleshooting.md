@@ -9,7 +9,7 @@ description: "Support Engineering workflow when a customer reports an inability 
 
 Use this workflow when user reports an inability to utilize their Google Cloud Credit (GCP Credit).
 
-----
+---
 
 ## Workflow
 

@@ -21,7 +21,7 @@ Utilise the Risk Map as a tool to:
 - Plan and prioritize effectively
 - Collaborate strategically in improving Quality
 
-### Risk Mapping 
+### Risk Mapping
 
 
 #### Project

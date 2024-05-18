@@ -71,7 +71,6 @@ title: Coupa FAQ
    ![coupa-image-1](../CoupaSupportChat.png)
 - Suppliers can also email Coupa Support Team (supplier@coupa.com).
 
-
 ### Do suppliers need to set-up a CSP account, or will this be done for them?
 
 - GitLab will email the supplier links on how to register on the Coupa Supplier Portal and they will be provided with an invitation to join CSP. Suppliers must set up an CSP account and linking with GitLab Coupa system will be done automatically.
@@ -103,6 +102,7 @@ title: Coupa FAQ
    - [https://supplier.coupa.com/help/remit-to-improvements](https://supplier.coupa.com/help/remit-to-improvements)
 
 {{% panel header="**Important Notes**" header-bg="warning" %}}
+
 - Avoid using any special characters when entering Remit-To Address.
 - The currency of your bank account has to match the currency of your invoices.
 {{% /panel %}}

@@ -7,7 +7,7 @@ description: "This Hands-On Guide walks you through using the Code Quality scann
 
 ## Objectives
 
-> Code quality scans allow you to analyze your source code for quality and complexity. The goal of a code quality scan is to keep your project's code simple, readable, and easier to maintain. In this lab, you will learn how to enable and view a code quality scan in your project. To learn more about code quality scans, click [here](https://docs.gitlab.com/ee/ci/testing/code_quality.html).
+Code quality scans allow you to analyze your source code for quality and complexity. The goal of a code quality scan is to keep your project's code simple, readable, and easier to maintain. In this lab, you will learn how to enable and view a code quality scan in your project. To learn more about code quality scans, click [here](https://docs.gitlab.com/ee/ci/testing/code_quality.html).
 
 ### Task A. Add a Python file with code quality problems
 

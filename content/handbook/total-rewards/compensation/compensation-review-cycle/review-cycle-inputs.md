@@ -22,6 +22,7 @@ The Total Rewards team is responsible for setting up Annual Compensation Review,
 ### People Business Partners
 
 People Business Partners work with their teams to address any problems, help the Total Rewards team with communications, and help their team/executive review Compaas and any analyses that are created. This can include (but not limited to):
+
 - Reviewing any concerns highlighted from the Total Rewards team during audits with their executive and determining with them the best course of action.
 - Reviewing and editing communications to be sent out in order to reduce anticipated questions or confusion. They also assist with following up with team members where action is needed; for example, if a manager hasn't gone into Compaas yet and the deadline is approaching.
 - Working with their teams to stay in budget.
@@ -123,6 +124,7 @@ This analysis will be conducted at the department level, for each department lea
 ### Process
 
 The Total Rewards Team will audit with the following data breakdowns (as aligned in our [Identity Data Metrics](/handbook/company/culture/inclusion/identity-data/)):
+
 - Ethnicity (only in the United States as we work on adding globally relevant [ethnicity categories to BambooHR](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/347) for self-identification)
 - Tenure
 - Gender (as self reported in BambooHR)

@@ -160,7 +160,7 @@ Anything larger than 5 should be broken down if possible.
 
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for the extra rigor of the
-[security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md).
+[patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
 In particular, the fix usually needs more-careful consideration, and must also
 be backported across several releases.
 
@@ -314,7 +314,7 @@ release notes section or do not use a `release post item::` label.
 
 We strongly believe in [Iteration](/handbook/values/#iteration) and delivering value in small increments. Iteration can be hard, especially when you lack product context or are working on a particularly risky/complex part of the codebase. If you are struggling to estimate an issue or determine whether it is feasible, it may be appropriate to first create a proof-of-concept MR. The goal of a proof-of-concept MR is to remove any major assumptions during planning and provide early feedback, therefore reducing risk from any future implementation.
 
-- Create an MR, prefixed with `PoC: `.
+- Create an MR, prefixed with `PoC:`.
 - Explain what problem the PoC MR is trying to solve for in the MR description.
 - Timebox it. Can you determine feasibility or a plan in less than 2-3 days?
 - Identify a reviewer to provide feedback at the end of this period.
@@ -372,6 +372,7 @@ A tech lead is:
 The Tech Lead role provides growth opportunity for engineers who are interested in adopting leadership skills.
 
 #### Responsibilites of a Tech Lead
+
 Tech leads wear many hats. Their responsibilities may differ from project to project but may include:
 
 - Technical Vision and Architecture - Defining and evolving the overall technical architecture for a given project
@@ -383,6 +384,7 @@ Tech leads wear many hats. Their responsibilities may differ from project to pro
 - Technical documentation - Maintaining documentation of the technical architecture and code structure for other developers
 
 #### Current Tech Leads
+
 Below is an overview of topics that are overseen by a tech lead:
 
 | Topic | Tech Lead | Topic Link | Notes |

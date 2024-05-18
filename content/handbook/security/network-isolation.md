@@ -5,6 +5,7 @@ title: Isolating your work notebook from other devices in your home network
 ## Why
 
 There are various reasons why you might want to isolate your work notebook from other devices in your home network:
+
 - **Security concerns**. The security of individual devices on your home network might vary. Some are notoriously insecure (e.g. smart home devices) or some might simply lack the latest security patches. Isolating devices with poor security from your work notebook (and other sensitive private devices) can increase the security of your work notebook.
 - **Privacy concerns**. GitLab is an all-remote company, with many of its employees working from home. As a side-effect, our work notebooks typically end up being connected to the same network as our personal devices, which allows for network access between these two groups of devices and may raise privacy concerns.
 
@@ -37,9 +38,9 @@ Similar to the guest network scenario above, when using a personal VPN you will 
 ### Advanced Isolation with DDWRT
 
 The instructions are specific to DDWRT, which is a popular custom router firmware. If you don't use DDWRT, you can use the provided steps as a template and consult your router's manual to obtain a similar configuration. However, if your home router does not support setting up an isolated network, consider buying a router that is [compatible with DDWRT](https://dd-wrt.com/support/router-database/)(ToDo: check which ones support Net Isolation) or a similar custom firmware. If you need recommendations for DDWRT routers, you can find many buyer guides online:
+
 - [ProPrivacy guide](https://proprivacy.com/vpn/comparison/5-best-dd-wrt-routers)
 - [List of supported DDWRT devices](https://wiki.dd-wrt.com/wiki/index.php/Supported_Devices)
-
 
 1. *Backup config*. Before you start setting up your new work WiFi, you should save your current configuration so that you can restore it if necessary. To do this, go to tab *Administration* -> *Backup*.
 1. **Create your work WiFi.** On tab *Wireless* -> *Basic Settings*, go to section *Virtual Interface* and click the *Add Virtual AP* button. Choose a name for your work WiFi and enter it in *Wireless Network Name (SSID)*. ![create work WiFi](./create_work_wifi.png)
