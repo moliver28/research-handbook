@@ -11,7 +11,7 @@ See [the exhaustive list of projects](#projects) the group maintains.
 
 ## Common Links
 
-- Slack channel: #g_secure-composition-analysis
+- Slack channel: [#g_secure-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
 - Slack alias: @secure_composition_analysis_dev
 - Google groups: composition-analysis-dev@gitlab.com
 
@@ -101,6 +101,7 @@ If a support engineer requests assistance via Slack and it requires investigatio
     - [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
     - [#f_container_scanning](https://gitlab.slack.com/archives/C041F2XJACB)
     - [#g_secure-composition-analysis-alerts](https://gitlab.slack.com/archives/C04UX9MQNSJ)
+    - [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)
 1. Monitor [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?label_name=Help%20group%3A%3Acomposition%20analysis) project for support requests.
 1. Refine scheduled bugs and maintenance issues.
 
@@ -398,7 +399,6 @@ As some of our analyzers rely on open source software, we include them in our se
 
 To do so, we mirror their repository and execute our security scans on them (when relevant):
 
-- [grype](https://gitlab.com/gitlab-org/security-products/dependencies/grype)
 - [trivy](https://gitlab.com/gitlab-org/security-products/dependencies/trivy)
 - [trivy-db](https://gitlab.com/gitlab-org/security-products/dependencies/trivy-db)
 - [trivy-db-data](https://gitlab.com/gitlab-org/security-products/dependencies/trivy-db-data)
