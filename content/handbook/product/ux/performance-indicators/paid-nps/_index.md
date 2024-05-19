@@ -46,10 +46,12 @@ At the beginning of each quarter a list of eligible users to send the survey to 
 1. Using the percentages you calculated, determine how many users for each plan type you need to contact for the wave. If it’s the first wave, use the population proportions. If it’s a subsequent wave, use the proportions you calculate based on the responses so far (see next point).
 2. To calculate your current sample plan proportions, download your survey results from Qualtrics. Delete everything but the current quarter. Calculate the percentage breakdown of plans so far. Then subtract that number from the population percentage, and then add the result to the population percentage.
 An example with fake numbers:
-- Population percentage for Ultimate = 73%
-- Percentage of Ultimate plan types after sending wave 1 = 65%
-- wave 2 percentage for Ultimate: (73% - 65%) + 73% = 81%
-In this example the sample is under the population, hence the next wave percentage is higher than the population to try and make that up.
+
+    - Population percentage for Ultimate = 73%
+    - Percentage of Ultimate plan types after sending wave 1 = 65%
+    - wave 2 percentage for Ultimate: (73% - 65%) + 73% = 81%
+    In this example the sample is under the population, hence the next wave percentage is higher than the population to try and make that up.
+
 3. Waves should be ~5000 users. Mark the desired number of users out of that 5000 that fit your percentages for each plan type with the name of the wave you are sending.
 4. Paste all the user IDs for that wave into a new sheet, following the [process for uploading user IDs into Qualtrics](/handbook/engineering/ux/qualtrics/#distributing-your-survey-to-gitlabcom-users).
 5. Once the mailing list has been created in Qualtrics double-check that no @gitlab.com email addresses were included, and create a new email distribution for the SaaS PNPS survey in Qualtrics using the `PNPS Survey Distribution - Current Survey Template`. **Make sure to edit the advanced survey options to set the link expiration to the last day of the quarter**.

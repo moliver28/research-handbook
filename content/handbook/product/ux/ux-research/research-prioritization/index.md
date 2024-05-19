@@ -54,7 +54,6 @@ The UX Researcher and Product Manager will use the [Research Priority Calculator
 1. UX Researcher: Determine the appropriate cutoff for work that can or cannot be completed during the quarter. Communicate which projects **will not be prioritized** this quarter to the affected stakeholders within the research planning issue.
 For more details on the calculator, see [about the research priority calculator](/handbook/product/ux/ux-research/research-prioritization/#about-the-research-priority-calculator).
 
-
 *Timeline guidance for Step 2:* This should be completed within one week
 
 {{< youtube "hLZko4SUGFU" >}}
@@ -72,7 +71,6 @@ The last step is to bring the results from the calculator to the quarterly resea
 1. Add the applicable [research prioritization label](/handbook/product/ux/ux-research/tracking-research-projects/) to each research issue to generate [this dashboard (internal only)](https://app.periscopedata.com/app/gitlab/1063612/UX-research-projects).
 
 *Timeline guidance for Step 3:* This should be completed within one week
-
 
 ## About the Research Priority Calculator
 
@@ -94,9 +92,6 @@ The [Research Priority Calculator](https://docs.google.com/spreadsheets/d/1RoT5Y
 | Section or Stage Group | What Section or Stage Group does this project fall under?  | N/A |
 | Timeline | When should this research be completed by?   | N/A |
 
-
-
-
 After a score is assigned for each area, the calculator will output a priority score percentage (the higher the percentage, the higher in priority the project is) and support level for each project.
 
 ## About the Researcher Support Level
@@ -116,7 +111,6 @@ An output of the Research Priority Calculator includes a Researcher Support Leve
 | Gold 🥇<br> End to end | **DRI:** UX Researcher <br><br>**What these projects look like:** Large, strategic, rigorous projects that could benefit from a research specialist. Typically, foundational research, complex research questions, or high-priority problem validation.<br><br>**Who does what?** The UX Researcher drives project management, aspects of execution, and completion of most tasks, but has support from Product and Design. While the UX Researcher is the DRI, the team is highly encouraged to participate in research sessions, analysis, discussions of results, and so on.<br><br> **Estimated number of studies:** <br> - 0.5 - 2 active projects (depending on [UX Researcher's level](/job-families/product/ux-researcher/#levels)) <br><br>**Examples:** <br> - Research impacting multiple studies <br> - Multi-method studies |
 | Silver 🥈 <br> Task Specific |**DRI:** Product/Design<br><br>**What these projects look like:** These primarily consist of problem validation projects.<br><br>**Who does what?** The UX Researcher takes on specified tasks within a study and advises on the rest. Product and Design drive project management aspects of execution and completing most tasks with support from the UX Researcher. <br><br> **Estimated number of studies:** <br> - 1 - 6 active projects (depending on [UX Researcher's level](/job-families/product/ux-researcher/#levels))<br><br> **Examples:** <br> - The UX Researcher and Product Manager or Product Designer collaborate on the research methodology, craft a script, or review an analysis.  <br> - The UX Researcher provides dedicated support for specific tasks that take less than a few days to execute.|
 | Bronze 🥉 <br> Consult | **DRI:** Product/Design <br><br>**What these projects look like:** These primarily consist of solution and problem validation projects.<br><br>**Who does what?** The UX Researcher is  consulted on specific aspects of a study. Product/Design is drives project management aspects of execution and completing most tasks, with advice from a UX Researcher. The team tags the UX Researcher in the issue to provide context and a due date for when feedback is needed.<br><br> **Estimated number of studies:** <br> - No more than 10% of the UX Researcher's time should be dedicated to supporting these projects.<br><br>**Examples:** <br> - Reviewing an interview script <br> - Participant recruiting criteria <br> - Methodology choice  |
-
 
 ## How to handle newly identified research projects
 

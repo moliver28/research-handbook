@@ -18,7 +18,3 @@ We have an existing [Dependency Firewall category](https://about.gitlab.com/dire
 An initial MVP may be to implement NPM Audit with a UX that allows a user to specify an allow/deny list against criteria for the container registry.  Criteria can include checking for missing author name, email, or look for the existance of specific licenses.  We can also add rules to stop dependencies being downloaded immediately after an author change, as an example.
 
 Following NPM, we can then iterate to look at other popular package managers such as Maven, Python, and Nuget.
-
-
-
-

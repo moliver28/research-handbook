@@ -17,7 +17,6 @@ An organization archetype is a typical example of an organizational setup. In ou
 
 An organization archetype can be considered an additional layer to an end-user's demographics alongside [personas](.../personas). When collecting insights during interviews, it would be useful to understand the context of the user within their role and organization via organization archetypes.
 
-
 ## Cloud Infrastructure Resourcing
 
 Cloud infrastructure enables flexible and purposefully designed infrastructure per application. Because of this, infrastructure provisioning and software development has become part of a coupled workflow. We have observed 5 different types of infra team or platform team models outlined below.
@@ -62,7 +61,6 @@ Examples of how resources are used:
   - Devs self-serve audit log modules from the Infra team, and adapt them as needed
 
 ### Service & Embedded Team
-
 
 ![Service & Embedded](service-embedded.png)
 
@@ -110,5 +108,3 @@ Examples of how resources are used:
   - All-in-One & Embedded team members who specialize in different areas work in close concert to coordinate specialized workflows that are specific to different environments
 - **Deployment Patterns**
   - All-in-One & Embedded teams members create specialized deployment patterns that are specific to the products line they are working within, use cases and security requirements. They refine them together
-
-

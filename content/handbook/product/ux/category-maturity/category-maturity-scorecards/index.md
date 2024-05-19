@@ -227,6 +227,7 @@ Note: Do not enter in ratings for participants who experienced task failure, as 
 [Step three](cms_step3.png)
 
 For example:
+
  - 4.70 average = ‘A’ CM Scorecard grade = ‘78.9-100’ SUS = Complete
  - 3.93 average = ‘B’ CM Scorecard grade = ‘72.6 - 78.8’ SUS = Competitive
 

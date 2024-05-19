@@ -105,13 +105,13 @@ To ensure that our developers are aware of the priority of their work, we [use t
 5. **Workflow in Development 💻**: (DRI: Assigned Developer) Coding and implementation of workflows happen in this stage. Developers build out the features and functionalities as specified.
 6. **Workflow in Review 🔍**: (DRI: QA/Reviewer) Conduct thorough reviews and testing of completed workflows. This includes code reviews and usability testing to ensure quality and functionality before final deployment.
 
+Also
 
 1. **Backlog Refinement 📝**: (DRI: PM /EM) Once per week, review all the issues in the **Open** lane. Prioritize them based on their importance, urgency, and input from the team. Identify which issues need discovery work and which can be moved straight into **workflow::ready for development**.
 2. **Discovery Work Assignment 🧪**: (DRI: PM/EM) Move issues that need discovery work into the **workflow::problem validation** lane. These issues are not yet fully defined and need further investigation before they can be developed.
 3. **Ready for Development Assignment 🎯**: (DRI: PM/EM) Move issues that have the necessary details for development into the **workflow::ready for development** lane. These issues are either already assigned to an individual contributor (IC), or if not, are ordered by priority so they can be picked up with ease.
 4. **Progress Check 🔄**: (DRI: Assigned Developer) Check the **workflow::in dev** lane daily to see the status of the ongoing tasks.
 5. **Review Completed Tasks 👥**: (DRI: Assigned Developer) Review the tasks in the **workflow::in review** lane. Ensure they are moving forward.
-
 
 **Issues for the AI Framework team are binary: they are categorized as either a discovery issue, requiring further investigation, or an implementation issue, ready for development. This approach helps us maintain a lean and efficient workflow.**
 
@@ -148,6 +148,11 @@ Team members should add any [planned time off][paid-time-off] in the "Time Off b
 We operate using async communication by default. There are times when a sync discussion can be beneficial and we encourage team members to schedule sync calls with the required team members as needed.
 
 ## 🔗 Other Useful Links
+
+### 🌍 AIGW Region Deployments
+
+* 🚀 [Staging](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway-staging.yml?ref_type=heads#L12)
+* 🌐 [Production](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway.yml?ref_type=heads#L12)
 
 ### 📝 Dashboards (internal only)
 

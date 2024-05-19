@@ -113,4 +113,3 @@ the right help.
     1. Ask for help in the `#gdk` Slack channel.
     1. Reach out to a UX help volunteer: [Taurie Davis](/handbook/company/team/#tauriedavis), [Sunjung Park](/handbook/company/team/#sunjungp)
     (add yourself!)
-

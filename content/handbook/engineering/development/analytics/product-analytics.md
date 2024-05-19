@@ -8,12 +8,14 @@ description: "The Product Analytics group works on the tools that enable custome
 The Product Analytics Group is part of the [Analytics section](/handbook/product/categories/analytics/).
 
 How we work:
+
 - We work in accordance with our [GitLab values](/handbook/values/).
 - We work [transparently](/handbook/values/#transparency) with everything public.
 - We have a [bias for action](/handbook/values/#bias-for-action).
 - Everyone can contribute to our work.
 
 How we design:
+
 - We follow all workflows defined within the [UX Department section of the handbook](/handbook/product/ux/), including protocol for both
     [Product Design](/handbook/product/ux/product-designer/) and [UX Research](/handbook/product/ux/ux-research/).
 - We use the [UX issue weights](/handbook/product/ux/product-designer/#ux-issue-weights)

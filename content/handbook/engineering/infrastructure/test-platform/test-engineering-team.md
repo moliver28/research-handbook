@@ -68,7 +68,6 @@ We estimate every task during iteration planning. Our weighting strategy is base
 * Consider breaking down Large tasks into smaller items
 * XL and XXL tasks has to be broken down into smaller tasks and might require creating Spike issue first
 
-
 [Core Development]: /handbook/engineering/core-development/
 [Expansion Development]: /handbook/engineering/expansion-development/
 [Dev section]: /handbook/product/categories/#dev-section

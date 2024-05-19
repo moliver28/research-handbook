@@ -110,6 +110,7 @@ Patch releases are scheduled twice a month on the second and fourth Wednesdays, 
 Patches fix regressions in the current self-managed release and vulnerabilities in the current and previous two GitLab versions.
 
 If you're a GitLab engineer looking:
+
 - To include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers].
 - To include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers].
 
@@ -228,6 +229,7 @@ In other words:
 **The quality and stability of what is delivered by everyone defines the final MR that will be included in the monthly release.**
 
 For more detailed information:
+
 - Use the [internal dashboard](#monthly-release-information-dashboard) to verify the status of a merge request with respect to the monthly release.
 - See [self-managed release timelines](/handbook/engineering/releases/#self-managed-overview).
 - Refer to [status of a merge request with respect to the monthly release](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/auto-deploy.md#status-of-a-merged-mr-with-respect-to-monthly-releases) documentation.
@@ -250,8 +252,8 @@ Any high severity issue should start with an issue labelled with the appropriate
 
 Depending on the bug details, follow one of the following processes:
 
-- For [high severity security bugs][process-patch-release]
-- For [high severity bugs affecting self-managed users][process-patch-release]. If the bug has been found close to the [release date](/handbook/engineering/releases/) of the month please also alert the Release Managers in [#releases].
+- For [high severity security bugs][process-planned-patch-release]
+- For [high severity bugs affecting self-managed users][process-planned-patch-release]. If the bug has been found close to the [release date](/handbook/engineering/releases/) of the month please also alert the Release Managers in [#releases].
 - For [high severity bugs affecting GitLab.com](/handbook/engineering/deployments-and-releases/deployments/#gitlabcom-pick-label)
 - For [high security bugs affecting security merge requests](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/bugs_introduced_by_security_merge_request.md)
 

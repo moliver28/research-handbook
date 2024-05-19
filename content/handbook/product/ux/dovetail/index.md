@@ -272,7 +272,6 @@ To properly manage research insights within Dovetail, here are some do's and don
 | `🆕 Features communicate the problem being solved and value to a new user` | `Positive Value`  |
 | `Lack of clarity for some users` | `Confusion`   |
 
-
 #### Creating cross-stage awareness using shared tags
 
 While importing the raw data from user research, sometimes there are insights which are useful to other stages and/or groups than your own. The [extensions feature](https://dovetailapp.com/blog/extensions/) within Dovetail allows for creating tags which can be used across projects. You can use these extension tags to make cross-stage content more discoverable by other stages and/or groups.

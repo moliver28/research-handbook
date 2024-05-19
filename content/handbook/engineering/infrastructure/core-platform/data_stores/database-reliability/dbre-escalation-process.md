@@ -105,8 +105,10 @@ When responding to an Incident, utilize the below procedure as guidelines to fol
 1. Join the Incident Zoom - this can be found bookmarked in the `#incident-management` Slack Channel
 1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#incident-<ISSUE NUMBER>`
 1. Work with the EOC to determine if a known code path is problematic
+
   * Should the knowledge of this be in your domain, continue working with the EOC to troubleshoot the problem
   * Should this be something you may be unfamiliar with, attempt to determine code ownership by team - Knowing this will enable us to see if we can bring online an Engineer from that team into the Incident
+
 1. Work with the Incident Manager to ensure that the Incident issue is assigned to the appropriate Engineering Manager - if applicable
 
 ### Shadowing An Incident Triage Session
@@ -120,7 +122,6 @@ Situation Room recordings from previous incidents are available in this [Google 
 ### Shadowing A Whole Shift
 
 To get an idea of what's expected of an on-call DBRE and how often incidents occur it can be helpful to shadow another shift. To do this simply identify and contact the DBRE on-call to let them know you'll be shadowing. During the shift keep an eye on [#incident-management](https://gitlab.slack.com/archives/CB7P5CJS1) for incidents and observe how the DBRE on-call [follows the process](#process-outline) if any arise.
-
 
 ### Tips & Tricks of Troubleshooting
 

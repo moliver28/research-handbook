@@ -70,6 +70,7 @@ We recommend sharing the results of the retrospectives with `@gl-product-pm` and
 ### How to change an OKR within the quarter
 
 In certain circumstances, it is appropriate to [change an OKR within the quarter](/handbook/company/okrs/#making-changes-within-quarter). To make a change to an OKR:
+
 1. OKR assignee review: The OKR assignee needs to review and agree to the proposed OKR change.
 2. Tradeoffs review and communication: OKR assignee should ensure that the right tradeoffs are made to make the OKR feasible for the quarter.
    1. If another OKR needs to be deprioritized this should be clearly outlined as part of the OKR change.
@@ -86,6 +87,7 @@ In certain circumstances, it is appropriate to [change an OKR within the quarter
 ## How to write OKRs
 
 Product groups should limit the number of OKRs they commit to so they have reasonable bandwidth to deliver. When planning OKRs:
+
 1. Consider non-OKR commitments. While OKRs are the big commitments that the team is making for the quarter, they [do not supersede core team members responsibilities](/handbook/company/okrs/#how-do-i-prioritize-okrs-in-light-of-other-priorities). For R&D, this means retaining team capacity beyond OKRs for work that falls higher in our [prioritization framework](/handbook/product/product-processes/#prioritization-framework), such as forced prioritization items with an SLA/SLO. Meeting SLOs is not an OKR, as [OKRs focus on what's different](/handbook/company/okrs/#okrs-are-what-is-different).
    1. Other than core team member responsibilities such as those outlined above, all other major commitments should be prioritized via OKRs and consider team bandwidth.
    2. If a team gets a request for a major effort within the quarter, they can change the OKR by following the guidelines above about [how to change an OKR within the quarter](#how-to-change-an-okr-within-the quarter)
@@ -98,6 +100,7 @@ Product groups should limit the number of OKRs they commit to so they have reaso
 ### Examples of good OKRs
 
 **Objective: Establish GitLab leadership in X area.**
+
 - Avoid ❌ KR1: GitLab X becomes available in beta, including Y functionality in beta, with a path to general availability next quarter.
 - Instead ✅ KR1: GitLab X reaches 100k paid MAU by end of quarter.
 - Avoid ❌ KR2: Ship 10 components to support the use of X.
@@ -128,8 +131,6 @@ Product Objectives and Key Results are drafted and entered into GitLab by PLT as
          - OKR1...
       - Dev & Analytics
          - OKR1...
-
-
 
 ## Additional Resources
 

@@ -71,6 +71,7 @@ We exclusively use [issue/epic descriptions as the single source of truth](/hand
 - Issues: [GitLab Issue Search](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date&state=opened&label_name%5B%5D=group%3A%3Aeditor%20extensions&first_page_size=20)
 
 Epics and issues are created in the project that matches their scope in the narrowest possible way. We use the following projects:
+
 - Work specific to a single extension or to the Language Server:
   - [Language Server](https://gitlab.com/gitlab-org/editor-extensions/gitlab-language-server-for-code-suggestions)
   - [Visual Studio Extension](https://gitlab.com/gitlab-org/editor-extensions/gitlab-visual-studio-extension)
@@ -149,6 +150,7 @@ This is a first iteration, this content should probably live somewhere else even
 #### Languages supported by Code Suggestions
 
 Each extension defines an array of supported languages.
+
 - VS Code: [AI_ASSISTED_CODE_SUGGESTIONS_LANGUAGES](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/f28a17478a41f554e1c620648237705007128d57/src/common/code_suggestions/constants.ts#L9-37)
 - Visual Studio: [LanguageManager](https://gitlab.com/gitlab-org/editor-extensions/gitlab-visual-studio-extension/-/blob/a973ef56bac290ed0c2c5c69d20c5606a7198125/GitLab.Extension/CodeSuggestions/LanguageManager.cs#L17-42)
 - JetBrains: [SUPPORTED_EXTENSIONS](https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin/-/blob/ec5b239e6dea3714139031a4d6a9a547142afffc/src/main/kotlin/com/gitlab/plugin/util/GitLabUtil.kt#L20-43)

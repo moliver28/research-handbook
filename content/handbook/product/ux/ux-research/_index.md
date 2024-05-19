@@ -135,4 +135,3 @@ Below is a full list of our UX Research team handbook content:
 - [Tracking research velocity](/handbook/product/ux/ux-research/tracking-research-velocity/)
 - [Tracking gold, silver, and bronze UX research projects](/handbook/product/ux/ux-research/tracking-research-projects/)
 - [Tracking actionable insights](/handbook/product/ux/ux-research/tracking-actionable-insights/)
-

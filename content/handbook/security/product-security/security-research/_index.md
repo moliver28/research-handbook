@@ -250,6 +250,8 @@ Package Hunter is open source. Head over to the [project](https://gitlab.com/git
 
 We also welcome contributions. If you are interested in participating in the development of Package Hunter, please see our [contribution guide](https://gitlab.com/gitlab-org/security-products/package-hunter/-/blob/main/CONTRIBUTING.md).
 
+The Security Research Team is maintaining a package hunter instance that is used internally at GitLab. The instance is reachable at `https://api.package-hunter-live.sec.gitlab.net` and `https://api.package-hunter.xyz`.
+
 ### GitLab Ecosystem Security Testing
 
 The Security Research team within GitLab conducts security assessments on Open Source Software on a regular basis.

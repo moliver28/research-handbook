@@ -99,6 +99,13 @@ Growth teams work across the GitLab codebase on multiple groups and projects inc
 - The [gitlab.com/gitlab-com](https://gitlab.com/gitlab-com/) group
 - [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
 
+### Issue sequencing
+
+In order to convey Issue implementation order and blocking concepts,
+we leverage the [blocking issue linking feature](https://docs.gitlab.com/ee/user/project/issues/related_issues.html#blocking-issues).
+
+More on the discussion can be seen in https://gitlab.com/gitlab-org/growth/team-tasks/-/issues/752.
+
 ### Issue Refinement And Estimation
 
 Before the work can begin on an issue, we should refine and estimate it. We have a continuous process for this, leveraging additional workflow status,  `~"workflow::refinement"`, which indicates that the issue is being refined by the team. Once the issue refinement is completed, it can be moved to `~"workflow::scheduling"` stage.

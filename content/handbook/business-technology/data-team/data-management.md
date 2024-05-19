@@ -122,6 +122,11 @@ Here is a sample checklist of activities:
 
 Note: The 90 days are subject to change. At this moment we have set a 90 days threshold because Monte Carlo is less frequently used by some team members (not needed as frequent as i.e. Snowflake or Tableau). We may change this in the future
 
+#### Tableau
+
+- Remove users of off-boarded employees from Tableau
+- Remove users that have had Tableau access for >=90 days, but have not logged in during the past 90 days
+
 ## Exceptions
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/#information-security-policy-exception-management-process).

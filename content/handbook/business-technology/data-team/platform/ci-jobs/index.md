@@ -72,6 +72,12 @@ Run this if you only need a clone of the raw `sheetload` schema in order to test
 
 Run this if you need a clone of any other raw schema in order to test changes or additions. Specify which raw schema to clone with the `SCHEMA_NAME` variable. If the raw clone already exists, this will do nothing.
 
+#### `clone_raw_by_schema`
+
+Clones the entire RAW DB, created due to timeout issues when trying to clone the DB using SF commands.
+
+**NB Due to the size of the DB created by running, only run this when you absolutely have to run through complete platform tests. Likely only applicable for infrastructure upgrades.**
+
 #### `force_clone_both`
 
 Run this if you want to force refresh raw, prod, and prep. This does a full clone of raw, but a shallow clone of `prep` and `prod`.

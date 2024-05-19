@@ -439,6 +439,10 @@ If an opportunity has incorrect data after it has moved into Stage 1 - Discovery
 
 If the opportunity is for a new group of users in a Large account where sales is working on a large “central” opportunity, then your opportunity should be merged to that opportunity for you to get credit for the users you have brought to the deal. See under [Stage 8](/handbook/sales/field-operations/gtm-resources/#opportunity-stages) in the Sales Go To Market Handbook.
 
+### Opportunity Creation Workflow
+
+![Opp-Creation-Workflow](/handbook/marketing/sales-development/FY24OpportunityCreationWorkflow.png)
+
 ### Scheduling IQMs
 
 | Step | Description |

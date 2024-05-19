@@ -146,6 +146,7 @@ This report contains the relevant bugs, feature requests, and Deferred UX issues
 The goal is to achieve [complete-triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage#complete-triage) by the Product Manager, Engineering Manager, UX team member in that area.
 
 The report itself is divided into 4 main parts.
+
 * Feature proposals
 * Deferred UX issues
 * Frontend bugs
@@ -173,7 +174,6 @@ This section contains issues with the `~"type::feature"` label without a milesto
 * Triage actions:
   1. If the issue is a duplicate or irrelevant, close the issue out.
   1. Assign a milestone either to a versioned milestone, `Backlog` or `Awaiting further demand` milestone.
-
 
 ##### Frontend bugs
 
@@ -779,9 +779,10 @@ identified as eligible for auto-closure. At this point, the following actions oc
 Tier labels should be applied to issues to specify the license tier of feature. This policy prompts the Product Manager for the applied group label to add the license tier label to issues that are scheduled for the current milestone and labelled with `~direction`.
 
 The possible tier labels to be applied are:
-  * ~"GitLab Free"
-  * ~"GitLab Premium"
-  * ~"GitLab Ultimate"
+
+* ~"GitLab Free"
+* ~"GitLab Premium"
+* ~"GitLab Ultimate"
 
 * Automation conditions:
   * Open issue without tier labels, with group and `~direction` label, in current milestone

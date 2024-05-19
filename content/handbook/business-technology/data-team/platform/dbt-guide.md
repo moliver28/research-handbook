@@ -247,7 +247,7 @@ We use SQLFluff to enforce [SQL style guide](/handbook/business-technology/data-
 
 ### VSCode extension: dbt Power User
 
-[dbt Power User](/handbook/business-technology/data-team/platform/sql-style-guide/) makes VScode seamlessly work with dbt. The guide below will allow you to install dbt Power User if you followed the [Venv workflow](/handbook/business-technology/data-team/platform/dbt-guide/#Venv-workflow).
+[dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user) makes VScode seamlessly work with dbt. The guide below will allow you to install dbt Power User if you followed the [Venv workflow](/handbook/business-technology/data-team/platform/dbt-guide/#Venv-workflow).
 
 Before we start, there are some settings to adjust in your VScode:
 

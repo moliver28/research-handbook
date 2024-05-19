@@ -11,7 +11,6 @@ The Service Desk SEG is a [Single-Engineer Group](/handbook/company/structure/#s
 
 Our goal is to provide a complete, yet lightweight and customizable customer support solution that seamlessly integrates with the GitLab ecosystem and brings customers, support staff and developers closer together.
 
-
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/LDVQXv3I5rI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
