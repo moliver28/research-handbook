@@ -2,7 +2,7 @@
 
 This page contains executive summaries of retrospectives done by the Secure::static analysis group. The purpose of these summaries is to externalize lessons learned during the retrospective process. 
 
-Access to internal retrospecritive documentation is avilable to the team and their immediate counterparts only.
+Access to internal retrospective documentation is available to the team and their immediate counterparts only.
 
 ### 17.0
 
@@ -14,10 +14,10 @@ During this milestone the following concerns were raised in no particular order:
 
 1. The release process for the sast-rules/semgrep pair is cumbersome and needs streamlining. 
 
-1. Implementation plans were not kept up to date during the milesonte and caused unnecessary difficulty during the review process. 
+1. Implementation plans were not kept up to date during the milestone and caused unnecessary difficulty during the review process. 
     
-Specific Remedaitions raised during the discussion: 
+Specific Remediations raised during the discussion
 
-1. Undertake [maintenance tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/440373) to reduce complexity of semgrep & sast-rules realese.
+1. Undertake [maintenance tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/440373) to reduce complexity of semgrep & sast-rules release.
 
 1. Apply strict review processes for implementation plans, and refer to the [MVC principle](https://handbook.gitlab.com/handbook/product/product-principles/#the-minimal-viable-change-mvc) more frequently
