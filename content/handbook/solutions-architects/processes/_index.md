@@ -219,7 +219,7 @@ Solution Architects should participate in [technical discovery](#technical-disco
 
 SA's may also work in tandem with a CSM to support existing customers, especially when expand opportunities exist within the account. And SA's may also have regular touch points smaller customers who do not have a CSM assigned.
 
-#### [SA/CSM Engagement Overlap]
+#### SA/CSM Engagement Overlap
 
 - On a high level note, SAs are the pre-sales advisors for our prospective as well as existing customers and CSMs manage the post-sales relationship of existing customers and are responsible for the GitLab adoption.
 
