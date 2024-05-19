@@ -101,6 +101,8 @@ Trends:
 
 ### Cross-Functional Prioritization Review
 
+Cross-Functional Prioritization reviews will be done at the group, stage/section, and company level.
+
 #### Group level review
 
 The review collaboration can be done in a way that's most effective for the group, either synchronously (e.g. scheduled recurring call) or asynchronously (e.g. such as in retrospective issues). These reviews should occur as part of each milestone retrospective to ensure the quarterly average remains around the group's agreed upon (and approved) ratio.
@@ -114,16 +116,16 @@ Required collaborators from the quad for the group are:
 
 The managers of the required collaborators as well as the team members in the group should be included as optional participants.
 
-#### E-group direct review
+#### Section leader review
 
 The stage/section review is coordinated by each direct report couterpart team of the CTO and CPO. These reviews should occur quarterly to ensure each counterpart group average remains around the 60%/40% ratio per the Cross-Functional Prioritization framework.
 
 Required collaborators from the quad for the stage/section are:
 
-- Product designer leader(s) for the stage/section
-- Quality lead leader(s) for the stage/section
-- Stage product leader(s) for the stage/section
-- Engineering development directors/senior managers(s) for the stage/section
+- Product designer leader(s) for the section
+- Quality lead leader(s) for the section
+- Stage product leader(s) for the section
+- Engineering development leader(s) for the section
 
 The collaboration should be async first but include an optional sync review amongst stakeholders.
 
