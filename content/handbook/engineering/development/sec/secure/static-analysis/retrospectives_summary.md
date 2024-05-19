@@ -15,10 +15,9 @@ During this milestone the following concerns were raised in no particular order:
 1. The release process for the sast-rules/semgrep pair is cumbersome and needs streamlining.
 
 1. Implementation plans were not kept up to date during the milestone and caused unnecessary difficulty during the review process.
-    
+
 Specific Remediations raised during the discussion:
 
 1. Undertake [maintenance tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/440373) to reduce complexity of semgrep & sast-rules release.
 
 1. Apply strict review processes for implementation plans, and refer to the [MVC principle](https://handbook.gitlab.com/handbook/product/product-principles/#the-minimal-viable-change-mvc) more frequently
-
