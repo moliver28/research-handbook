@@ -223,7 +223,7 @@ SA's may also work in tandem with a CSM to support existing customers, especiall
 
 - On a high level note, SAs are the pre-sales advisors for our prospective as well as existing customers and CSMs manage the post-sales relationship of existing customers and are responsible for the GitLab adoption.
 
-Further details can be found here: (/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
+Further details can be found here: [Overlap Between Solution Architects and Customer Success Managers](/handbook/customer-success/#overlap-between-solution-architects-and-customer-success-managers)
 
 #### Technical Discovery and Demo Preparation
 
