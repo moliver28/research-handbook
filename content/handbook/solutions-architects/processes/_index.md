@@ -227,7 +227,7 @@ Further details can be found here: [Overlap Between Solution Architects and Cust
 
 #### Technical Discovery and Demo Preparation
 
-The Solutions Architect, in order to tailor conversations and demos to demonstrate value as well as address current problem areas, will want to understand the following information, and may request further technical discovery prior to any demo:
+The Solutions Architect, in order to tailor conversations and demos to demonstrate value as well as address current problem areas, will want to understand the following information, and may request further technical discovery[^footnote-01] prior to any demo:
 
 1. **Outcome:**
 
@@ -251,7 +251,7 @@ The Solutions Architect, in order to tailor conversations and demos to demonstra
 - What collaboration or governance opportunities exist?
 - What security or compliance inefficiencies exist?
 
-_Qualification criteria typically involves both Business requirements and Technical Functional/Non-Functional requirements *(i.e, Functional requirements explain how the system must work, while non functional requirements explain how the system should perform._
+[^footnote-01]: _Qualification criteria typically involve both Business requirements and Technical Functional/Non-Functional requirements (i.e, Functional requirements explain how the system must work, while non functional requirements explain how the system should perform.)_
 
 Once a technical discovery has been completed, SA will work within the account team to solidify a path forward (will the customer proceed with a purchase, trial, proof of value?) and idenitfy the corresponding metrics that will be used to determine the success of the evaluation.
 
