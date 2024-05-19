@@ -1,4 +1,4 @@
-### Overview
+## Overview
 
 The Cross-Functional Prioritization framework exists to give everyone a voice within the product development quad (PM, Development, Quality, and UX). By doing this, we are able to achieve and maintain an optimal balance of new features, security fixes, availability work, performance improvements, bug fixes, technical debt, etc. while providing transparency into prioritization and work status to internal and external stakeholders so they can advocate for their work items. Through this framework, team members will be able to drive conversations about what's best for their quad and ensure there is alignment within each milestone.
 
@@ -12,7 +12,7 @@ At the R&D directs level, over the course of the quarter, all product developmen
 
 A balance across these components while empowering DRIs will allow GitLab to operate in a way that will allow us to meet (and exceed) revenue goals while maintaining the security, stability, reliability, and availability of our platform.
 
-### Implementation Philosophy
+## Implementation Philosophy
 
 The quad members (UX/Design, Quality, Product Management, Development) utilizing this process should focus on:
 
@@ -55,21 +55,21 @@ The Product Manager is responsible for planning each milestone. Product Managers
 
 Add the `milestone` ([example](https://gitlab.com/groups/gitlab-org/-/boards/4309441?label_name[]=group%3A%3Athreat%20insights&milestone_title=15.1)) to review the milestone plan. The board will show the number of issues and cumulative issue weights for `type::feature`, `type::maintenance`, and `type::bug` issues.
 
-### Cross-Functional Prioritization Review
+## Cross-Functional Prioritization Review
 
 Cross-Functional Prioritization reviews will be done at the group, stage/section, and company level.
 
-#### Review Process
+### Review Process
 
-##### When to review?
+#### When to review?
 
 When the data is up-to-date and accurate.  See the [timeline](https://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline)
 
-##### What to review in advance?
+#### What to review in advance?
 
 Review the [dashboard](https://10az.online.tableau.com/t/gitlab/views/DRAFTIssueTypesDetail/MilestoneIssuesDashboard) filtered for the review scope (group, section, etc).
 
-##### Questions to ask
+#### Questions to ask
 
 Context:
 
@@ -101,9 +101,9 @@ Trends:
 1. What overall trends does the group want to highlight?
 1. What flags do you want to raise?  What won't happen?
 
-#### Review Schedule
+### Review Schedule
 
-##### Group level review
+#### Group level review
 
 The review collaboration can be done in a way that's most effective for the group, either synchronously (e.g. scheduled recurring call) or asynchronously (e.g. such as in retrospective issues). These reviews should occur as part of each milestone retrospective to ensure the quarterly average remains around the group's agreed upon (and approved) ratio.
 
@@ -116,7 +116,7 @@ Required collaborators from the quad for the group are:
 
 The managers of the required collaborators as well as the team members in the group should be included as optional participants.
 
-##### Section leader review
+#### Section leader review
 
 The stage/section review is coordinated by each direct report couterpart team of the CTO and CPO. These reviews should occur quarterly to ensure each counterpart group average remains around the 60%/40% ratio per the Cross-Functional Prioritization framework.
 
@@ -131,7 +131,7 @@ The collaboration should be async first but include an optional sync review amon
 
 The name of the meeting and associated agenda document should be clearly defined so that the invitees can decide if they should attend.
 
-##### E-group direct review
+#### E-group direct review
 
 The stage/section review is coordinated by each direct report couterpart team of the CTO and CPO. These reviews should occur quarterly to ensure each counterpart group average remains around the 60%/40% ratio per the Cross-Functional Prioritization framework.
 
@@ -145,7 +145,7 @@ The collaboration should be async first but include an optional sync review amon
 
 The name of the meeting and associated agenda document should be clearly defined so that the invitees can decide if they should attend.
 
-##### Company-wide review
+#### Company-wide review
 
 The company-wide review is coordinated and led by the Technical Program Management team. These reviews should occur as needed however should happen at least semi-annually to ensure R&D is operating efficiently and achieving its target metrics.  
 
