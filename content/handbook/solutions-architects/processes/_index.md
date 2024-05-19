@@ -227,7 +227,7 @@ Further details can be found here: [Overlap Between Solution Architects and Cust
 
 #### Technical Discovery and Demo Preparation
 
-The Solutions Architect, in order to tailor conversations and demos to demonstrate value as well as address current problem areas, will want to understand the following information, and may request further technical discovery() prior to any demo:
+The Solutions Architect, in order to tailor conversations and demos to demonstrate value as well as address current problem areas, will want to understand the following information, and may request further technical discovery prior to any demo:
 
 1. **Outcome:**
 
