@@ -670,7 +670,7 @@ The 401(k) Committee meets on a regular cadence with Fidelity to review how the 
 
 </details>
 
-### Navia - Health Reimbursement Arrangement (HRA)
+## Navia - Health Reimbursement Arrangement (HRA)
 
 Effective 2022-10-01, GitLab offers a TravelHealth Reimbursement Arrangement (HRA) benefit to reimburse eligible team members and their dependents for transportation and lodging expenses related to travel while obtaining medical care not offered within 100 miles of the location the member resides.
 
