@@ -311,7 +311,7 @@
 /content/handbook/legal/subscription-agreement/index.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/technology-partner-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/testing-agreement.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
-/content/job-families/legal-and-corporate-affairs/ @robin @gitlab-com/egroup @gitlab-com/content-sites
+/content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins @gitlab-com/egroup @gitlab-com/content-sites
 # The second part of the LACA section is for the legacy agreement pages.
 /content/handbook/legal/ai-functionality-terms-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/legal/legacy/legacy-ospa-v1.md @robin @ktesh @m_taylor @gitlab-com/egroup @gitlab-com/content-sites
@@ -557,7 +557,7 @@
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/security-operations/red-team/ @cmoberly
 /content/job-families/security/ @joshlemos @jlongo_gitlab @juliedavila @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
-/content/job-families/chief-information-security-officer.md @robin @fofungwu @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
+/content/job-families/chief-information-security-officer.md @joshlemos @fofungwu @robin @fofungwu @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 
 ^[solutions-architects]
 /content/handbook/solutions-architects/ @gitlab-com/customer-success/solutions-architecture/sa-leadership-team
