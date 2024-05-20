@@ -1,11 +1,9 @@
 ---
 title: "GitLab Project Management - Hands-On Lab: Organize and Manage Issues"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
+description: "This Hands-On Guide walks you through creating metadata for issues, as well as creating a description template in GitLab."
 ---
 
 > Estimated time to complete: 45-60 minutes
-
-
 
 ## Objectives
 

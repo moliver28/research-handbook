@@ -11,4 +11,3 @@ Description: "Engineering Manager, Gitaly"
         height: 25px !important;
     }
 </style>
-

@@ -87,7 +87,7 @@ E.g Link the marketing page. If there's no marketing page, link to the docs. If 
 
 #### Solutions
 
-[Solutions](/handbook/use-cases/) can consist of multiple categories and are typically used to align to a customer challenge (e.g. the need to reduce security and compliance risk) or to market segments defined by analysts such as Software Composition Analysis (SCA). Solutions are also often used to align to challenges unique to an industry vertical (e.g. financial services), or to a sales segment (e.g. SMB vs Enterprise).
+[Solutions](/handbook/marketing/use-cases/) can consist of multiple categories and are typically used to align to a customer challenge (e.g. the need to reduce security and compliance risk) or to market segments defined by analysts such as Software Composition Analysis (SCA). Solutions are also often used to align to challenges unique to an industry vertical (e.g. financial services), or to a sales segment (e.g. SMB vs Enterprise).
 
 Solutions typically represent a customer challenge, and we define how GitLab capabilities come together to meet that challenge, with business benefits of using our solution.
 
@@ -107,7 +107,7 @@ Capabilities can refer to stages, categories, or features, but not solutions.
 Adding more layers to the hierarchy would give it more fidelity but would hurt
 usability in the following ways:
 
-1. Harder to keep the [interfaces](#Interfaces) up to date.
+1. Harder to keep the [interfaces](#interfaces) up to date.
 1. Harder to automatically update things.
 1. Harder to train and test people.
 1. Harder to display more levels.
@@ -293,7 +293,7 @@ Maybe we should make our features easier to search to replace the section below.
 ### Other functionality in [Plan](/handbook/product/categories/#plan-stage) stage
 
 #### [Project Management group](/handbook/product/categories/#project-management-group)
-- markdown functionality
+
 - assignees
 - milestones
 - due dates
@@ -303,6 +303,11 @@ Maybe we should make our features easier to search to replace the section below.
 - email notifications
 - to-do list
 - Real-time features (excluding [real-time collaboration](/handbook/engineering/development/incubation/real-time-collaboration/))
+
+#### [Knowlege group](/handbook/product/categories/#knowledge-group)
+
+- markdown functionality
+- rich text editor
 
 ### Other functionality in [Create](/handbook/product/categories/#create-stage) stage
 
@@ -317,7 +322,7 @@ Maybe we should make our features easier to search to replace the section below.
 
 ### Other functionality in Verify
 
-#### [CI Group](#continous-integration-group)
+#### [CI Group](#ci-group)
 
 - [CI Abuse Response](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11678)
 
@@ -330,20 +335,23 @@ Maybe we should make our features easier to search to replace the section below.
 ### Other functionality in [Manage](/handbook/product/categories/#manage-stage) stage
 
 ### Other functionality in [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
+
 - [GDK](/handbook/engineering/infrastructure/engineering-productivity/gdk/)
 
 ### Other functionality in [Test Platform](/handbook/engineering/infrastructure/test-platform/)
+
 - [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - [GitLab Performance Tool (GPT)](https://gitlab.com/gitlab-org/quality/performance)
 - [Performance Test Data](https://gitlab.com/gitlab-org/quality/performance-data)
 - [Zero Downtime Testing Tool](https://gitlab.com/gitlab-org/quality/zero-downtime-testing-tool)
 
-Internal Customers: [Gitaly](#gitalycluster-group), [Core Platform section](#core-platform-section), [SaaS Platforms section](#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
+Internal Customers: [Gitaly](/handbook/engineering/infrastructure/#gitalycluster-group), [Core Platform section](/handbook/engineering/infrastructure/#core-platform-section), [SaaS Platforms section](/handbook/engineering/infrastructure/#saas-platforms-section), [Infrastructure Department](/handbook/engineering/infrastructure/), [Support Department](/handbook/support/), [Customer Success](/handbook/customer-success/)
 
 ### Other functionality in [Analytics](/handbook/product/categories/#analytics-stage)
 
 #### [Product Analytics group](/handbook/product/categories/#product-analytics-group)
+
 - [Analytics Dashboards](https://docs.gitlab.com/ee/user/product_analytics/#product-analytics-dashboards) - used by many groups to add visualizations or provide pre-configured dashboards to users
 
 ### Facilitated functionality
@@ -359,8 +367,8 @@ While the mental models for these areas are maintained by specific stage groups,
 
 If you encounter an issue falling into a facilitated area:
 
-* For issues that relate to updating the guidelines, apply the `group::category` label for the facilitating group.
-* For issues that relate to adding content related to a facilitated area, apply the `group::category` label for the most closely related group. For example, when adding a new setting related to Merge Requests, apply the `group::source code` label.
+- For issues that relate to updating the guidelines, apply the `group::category` label for the facilitating group.
+- For issues that relate to adding content related to a facilitated area, apply the `group::category` label for the most closely related group. For example, when adding a new setting related to Merge Requests, apply the `group::source code` label.
 
 ### Shared responsibility functionality
 

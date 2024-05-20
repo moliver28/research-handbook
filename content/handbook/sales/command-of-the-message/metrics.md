@@ -44,7 +44,7 @@ Below is just one example of how you could leverage Nico's approach to open the 
 
 Are any of these true for your organization?”
 
-Another critical way to embrace your role as a trusted advisor is to become and stay intimately familiar with the specific problems that GitLab helps to solve. Watch the below video and master your knowledge of [GitLab's customer use cases](/handbook/use-cases/).
+Another critical way to embrace your role as a trusted advisor is to become and stay intimately familiar with the specific problems that GitLab helps to solve. Watch the below video and master your knowledge of [GitLab's customer use cases](/handbook/marketing/use-cases/).
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/4wZQ_oxOcRs" frameborder="0" allowfullscreen="true"> </iframe>

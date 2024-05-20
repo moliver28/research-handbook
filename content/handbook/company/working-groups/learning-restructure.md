@@ -56,4 +56,3 @@ description: "The GitLab Learning Restructure Working Group aims to create a pla
 ## Meetings
 
 **[Meetings notes document](https://docs.google.com/document/d/1P-TEi3yXtRum2pV8KDHON4EIn-mYoH72YpDMJGClFR4/edit)** open to all team members.
-

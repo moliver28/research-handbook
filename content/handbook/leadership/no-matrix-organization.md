@@ -35,5 +35,4 @@ experience.
 
 Who better to learn how GitLab enables a functional organization structure than our leadership. As part of the [CEO Handbook Learning Sessions](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions), the L&D team facilitated a discussion with executives during a [E-Group offsite]({{< ref "offsite" >}}), to discuss no-matrix organization and GitLab organization design.
 
-
 {{< youtube "E_wegGRv4mA" >}}

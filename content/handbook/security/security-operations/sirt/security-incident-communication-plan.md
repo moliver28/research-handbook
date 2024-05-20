@@ -50,12 +50,12 @@ The `Security Engineer On-Call` will determine the scope and [severity]({{< ref 
 | **Security Communications Manager on Call (SecCMOC):** | This is the Security Incident Manager On-Call (SIMOC), Security Incident Commander or Security Assurance Engineer who will coordinate external communications efforts according to this security incident response plan and liaise across the extended GitLab teams to ensure all parties are activated, updated and aligned. |
 | **Security External Communications:** | This function partners with and advises incident response teams in reviewing and improving messaging for external audiences (including customers, media, broader industry). This role laises with marketing teams for any necessary reviews or messaging deployment. This function should be engaged **once first draft content has been developed** using the [Security incident external response issue template](https://gitlab.com/gitlab-com/gl-security/security-communications/communications/-/blob/master/.gitlab/issue_templates/security-external-incident-or-event-response-template.md). |
 
-
 ### <i class="fas fa-arrow-right" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> More about the CMOC responsibilities
 
 As security practitioners and incident response engineers, our security assurance and security operations teams and engineers are best positioned to develop initial messaging and serve in the `CMOC`/`Communications manager on call` role.
 
 **Each team-appointed `CMOC` is the DRI for**:
+
 - Opening the [Security incident external response issue template](https://gitlab.com/gitlab-com/gl-security/security-communications/communications/-/blob/master/.gitlab/issue_templates/security-external-incident-or-event-response-template.md) and tagging in potential stakeholders and contributors
 - Drafting the initial message(s)
 - Tracking development and deployment of the various content and
@@ -66,6 +66,7 @@ As security practitioners and incident response engineers, our security assuranc
 ### <i class="fas fa-arrow-right" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> More about the Security External Communications function responsibilities
 
 **The `Security External Communications function` is the DRI for:**
+
 - Editing and improving first drafts **provided by** `CMOC`
 - Advising on appropriate channels and forms of communication needed
 - Acting as an approval point on final messaging to ensure it’s ready for external use
@@ -80,7 +81,7 @@ As security practitioners and incident response engineers, our security assuranc
 - **Marketing Operations:** Responsible for sending incident-related email to impacted parties in a security incident.  This group has established a [Marketing emergency response process](/handbook/marketing/emergency-response/#marketing-emergency-response) and is engaged by [creating an incident communication request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=incident_communications) using the `incident_communications` template, tagging in the assigned timezone's `coverage owner` and posting the issue in the #mktgops channel in Slack.
      - Marketing Ops can send emails through MailGun or Marketo. This group will determine based on the information provided what the best platform is for distribution. If a custom distribution list needs to be be created, the data team may need to be involved.
 
-- **Support Team:** Using background information and prepared responses provided by the Security Engineer On Call and Communications Manager On Call, our Support Team will triage and respond to customer communications stemming from the security incident. [Contact the on-call manager via `#spt_managers` in Slack]({{< ref "internal-support#on-slack" >}}). If it's urgent [page the `Support Manager On-call`](/handbook/support/on-call#paging-the-on-call-manager) using `/pd-support-manager` command in slack. To ensure this group has early awareness on security incidents and events they are autotagged as an FYI in the security-external-incident-or-event-response template.
+- **Support Team:** Using background information and prepared responses provided by the Security Engineer On Call and Communications Manager On Call, our Support Team will triage and respond to customer communications stemming from the security incident. [Contact the on-call manager via `#spt_leadership` in Slack]({{< ref "internal-support#on-slack" >}}). If it's urgent [page the `Support Manager On-call`](/handbook/support/on-call#engaging-the-on-call-manager) using `/pd-support-manager` command in Slack. To ensure this group has early awareness on security incidents and events they are autotagged as an FYI in the security-external-incident-or-event-response template.
 
 - **Developer Relations:** May need to respond to customers and the general public via social channels, as such should be engaged before public-facing materials are released. Any prepared responses or FAQs should be provided to assist with their interactions. Contact this group in `#developer-relations` or any Slack channel by pinging `@devrel-team`. To ensure this group has early awareness on security incidents and events they are autotagged as an FYI in the `security-external-incident-or-event-response` template.
 
@@ -208,6 +209,7 @@ The communications channels and forms that should be used in an incident or even
 It is important to keep in mind, **any time we are communicating externally, we need to advise our support, customer, social and developer relations teams that we’ll be making external communication about an issue that affects customers and/or the community**.
 
 For this reason, each incident response (direct email, media statement, blog post, etc) should have accompanying:
+
 - Social media statement
 - FAQs for our Support and customer-facing teams
 

@@ -111,11 +111,13 @@ Choose the method below that feels most comfortable and have the following infor
 1. See point 5 in the above [Method 1: Add your info on GitLab.com using Web IDE](#method-1-add-your-info-on-gitlabcom-using-web-ide) for the list of fields and how to fill them in.
 1. After you add your information, add a comment to your commit and click on “Commit Changes”.
 1. Now [Create a merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created by clicking `Create merge request` button.
+
   - Create a title that describes your changes at a high level.
   - Add a description of your changes
   - Assign the merge request to yourself
   - Make sure the source branch is the one you created `hk-team-page-update-custsupport-feb06` (as an example from above) and the target is `master`
   - Check the box `delete source branch when merge request is accepted`
+
 1. Click `create merge request`  At the upper right of the new page, click `edit` next to `Reviewer` and set your manager as reviewer for this merge request.
 
 ### Method 3: Add your info using a Local Git clone (using the terminal and an IDE)
@@ -138,7 +140,14 @@ Choose the method below that feels most comfortable and have the following infor
        bundle exec rake build:team_yml
        ```
 
-    1. Follow the preview directions in [development.md](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/development.md#preview-direction).
+    1. Start a middleman dev server in the `uncategorized` site:
+
+       ```bash
+       cd sites/uncategorized
+       NO_CONTRACTS=true bundle exec middleman 
+       ```
+
+    1. Open the team page and search for your name `http://localhost:4567/company/team`
 1. After validating your changes, commit your changes to the branch of www-gitlab-com that you created in step 4, with a comment *Add FirstName LastName to team page* and push your branch. You may need to set the remote as upstream or you can use `--set-upstream` option and specify remote as upstream.
 1. [Create a Merge Request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created and assign your manager as reviewer.
 

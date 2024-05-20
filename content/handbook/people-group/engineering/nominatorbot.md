@@ -73,6 +73,7 @@ The status is what you can use to see where the nomination might be stuck. Diffe
 - Waiting for People Group approval: this means that someone from the People Group team still need to approve it
 
 There are also the following statuses, although at this point the nomination approval flow is wrapped up:
+
 - Rejected: sadly the nomination was rejected. The bot doesn't reach out when this happens, as we ask the rejector to reach out
 - Approved: great news, this means the nomination was approved. The bot should've reached out to let you know about this.
 
@@ -109,6 +110,7 @@ We can move this by following these steps:
 1. Select `Starred` or another channel grouping.
 
 To check up on any requests awaiting your approval we can also follow these steps:
+
 1. In Slack, open the Nominator conversation.
 1. Click on the `Messages` tab.
 

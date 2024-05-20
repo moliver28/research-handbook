@@ -27,7 +27,8 @@ For any questions relating to benefits, please reach out to [Total Rewards](/han
 - [GitLab Korea LTD]({{< ref "korea-ltd-benefits" >}})
 - [GitLab France S.A.S.]({{< ref "france-sas" >}})
 - [GitLab Singapore Pte Ltd]({{< ref "singapore-pte-ltd" >}})
-- [Remote Technology (Brazil,Denmark, Spain, Italy, Switzerland, South Africa, Mexico, Hungary, Sweden and Austria)]({{< ref "remote-com" >}})
+- [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain/)
+- [Remote Technology (Brazil,Denmark, Italy, Switzerland, South Africa, Mexico, Hungary, Sweden and Austria)]({{< ref "remote-com" >}})
 - [Papaya Global (UAE, Italy)]({{< ref "papaya-global" >}})
 
 ### Benefits Available to Contractors
@@ -36,14 +37,13 @@ Contractors of GitLab IT BV are eligible for the [general benefits]({{< ref "ben
 
 Our contractor agreements and employment contracts are all on the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) page in the internal handbook.
 
-
 ## Spending Company Money
 
 GitLab will [pay for the items you need to get your job done](https://about.gitlab.com/handbook/spending-company-money).
 
 ## Equity Compensation
 
-[Equity Compensation](/handbook/stock-options/) is offered to most GitLab team members. We strongly believe in team member ownership in our Company. We are in business to create value for our shareholders and we want our team members to benefit from that shared success.
+[Equity Compensation](/handbook/total-rewards/stock-options/) is offered to most GitLab team members. We strongly believe in team member ownership in our Company. We are in business to create value for our shareholders and we want our team members to benefit from that shared success.
 
 ## Life Insurance
 
@@ -58,6 +58,7 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
 ## Discount Wellbeing Platform
 
 Starting 2024, GitLab has partnered with HealthKick, a global wellbeing platform providing Team Members discounts across wellbeing, fitness, & overall lifestyle offerings/services.
+
 - *This program is offered at no cost for team members.
 
 We know that whole-person wellness is important for feeling good. That’s why we are offering all employees access to HealthKick (at no-cost), a personal wellness membership dedicated to helping you feel your best. When you enroll you’ll gain access to an array of 250+ brands, content and expert resources that will help you optimize your well-being. From fitness classes and personalized workout plans to nutrition workshops and mental health resources.
@@ -90,13 +91,14 @@ The [Growth and Development page]({{< ref "growth-and-development" >}}) covers i
 GitLab Summit (formerly known as Contribute) is our annual GitLab team event where we get together to interact with one another and cultivate our community. Since our team is scattered all over the globe, we try to plan a different location each year. Summit is an optional event, so team members should not feel pressured to attend.
 
 From our first Summit in Serbia to our virtual event in 2020, team members from around the world have built friendships and experienced the values in person.
-For more information and compilations of our past events check out our [previous Contributes](/handbook/company/culture/contribute/previous/).
+For more information and compilations of our past events check out our [previous Contributes](/handbook/company/culture/summit/previous/).
 
 ## Business Travel Emergency Assistance Program
 
 In an emergency, International SOS (ISOS) can provide quick medical, safety, and security assistance and services to team members on business travel around the globe.
 
 Your coverage as a GitLab team member is automatic and is year-round. There are several ways to interact with ISOS, depending on your preference:
+
 - Team members can download the [ISOS emergency app](https://my.internationalsos.com/LP=8890?_ga=2.54701099.1827787566.1652889843-59998074.1652889840) — it's the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address.
     - Please use a unique password and not the same as your existing GitLab credentials.
     - Note that this is not a GitLab application and is managed by ISOS. You can read more about the app [here](https://internationalsos.com/subscriber/assistance-app).
@@ -132,14 +134,13 @@ GitLab offers benefits in relation to [obtaining visas and work permits](/handbo
 
 GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}).
 
-
 ## Incentives
 
 The following incentives are available for GitLab team members:
 
-- [Discretionary Bonuses](/handbook/incentives/#discretionary-bonuses)
-- [Referral Bonuses](/handbook/incentives/#referral-bonuses)
-- [Visiting Grant](/handbook/incentives/#visiting-grant)
+- [Discretionary Bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses)
+- [Referral Bonuses](/handbook/total-rewards/incentives/#referral-bonuses)
+- [Visiting Grant](/handbook/total-rewards/incentives/#visiting-grant)
 
 ## All-Remote
 

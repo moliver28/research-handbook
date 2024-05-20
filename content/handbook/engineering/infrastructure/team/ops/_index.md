@@ -45,7 +45,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P2" 
+/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P2"
 \`\`\`
 
 ## References
@@ -82,7 +82,7 @@ Open planned work for our team is located in the [Production Engineering](https:
 - Link to a related Epic.
 - Include the following Labels (update the priority as needed):
 
-   ```
+   ```text
    /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Ops" ~"workflow-infra::Triage" ~"Reliability::P4"
    ```
 
@@ -141,6 +141,6 @@ All our welcome to participate in the process of identifying trends.  EOCs, espe
 
 ## Common Links
 
-- Ops Epic List: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176 
+- Ops Epic List: https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1176
 - Issue Board: [All issue by priority](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/boards/3993753?label_name[]=team%3A%3AOps)
 - Slack Channel: #g_infra_ops

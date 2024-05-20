@@ -1,10 +1,9 @@
 ---
 title: "GitLab Project Management - Hands-On Lab: Create Issues"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Project Management course."
+description: "This Hands-On Guide walks you through creating issues and labels in GitLab."
 ---
 
 > Estimated time to complete: 45 minutes
-
 
 ## Objectives
 
@@ -120,7 +119,7 @@ Issues are a core building block in GitLab that enable collaboration, discussion
 
 1. Click **Create issue**.
 
-1.  Apply the following labels to the **Frontend services** by clicking on tne label, then click away from the metadata pane to apply the label to the issue: **Dev**, **Status::WIP**, and **Priority::High**.
+1. Apply the following labels to the **Frontend services** by clicking on tne label, then click away from the metadata pane to apply the label to the issue: **Dev**, **Status::WIP**, and **Priority::High**.
 
 1. In the left pane, click **Plan > Issues** to see all 3 issues with their labels.
 

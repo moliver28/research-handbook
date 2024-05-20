@@ -28,7 +28,6 @@ glab api version
 {"version":"15.4.0-pre","revision":"3e84f577d51"}
 ```
 
-
 ### Multi-environment usage with .bashrc
 
 If you have a number of environments that you use frequently you can create functions to easily load secrets for the correct environment.

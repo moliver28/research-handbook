@@ -79,6 +79,7 @@ There are a few fundamental differences when creating training material vs non-s
 - Non-public training content would not go into the handbook, but could be included in a private project or runbook.
 
 Here are a few examples to help illustrate the point:
+
 - Training content that talks about GitLab's [Red Team](/handbook/security/threat-management/red-team/_index.md) and their approach to how they perform their duties is fine. Details on how a Red Team assessment was performed including examples of data recovered or specific techniques against specific GitLab assets should not be (unless perhaps it has been reviewed and "sanitized" by the Security Department).
 - Security-related content that involves business partnerships, specific customers, certain company initiatives, and other related non-public information cannot be included in publicly accessible training content. A good example would be if GitLab were working with a government agency - the agency itself may have extremely strict rules about what can be made public, and something that is considered public by GitLab's own standards may not be a part of that agency's standards.
 - You *can* have public content that points to internal private content, similar to a handbook entry that contains a link to an internal issue or restricted document. However, you *cannot* quote from that private content within your public content.

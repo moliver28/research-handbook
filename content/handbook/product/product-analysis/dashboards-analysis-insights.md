@@ -5,25 +5,26 @@ description: This page aggregates dashboards, analysis, and insights generated o
 
 ### Dashboards
 
-[Here is a list of Tableau dashboards](https://10az.online.tableau.com/#/site/gitlab/search/workbooks?search=peterson%20hervas%20raisinghani%20neuberger%20petersen%20braza&tag=Product) 
+[Here is a list of Tableau dashboards](https://10az.online.tableau.com/#/site/gitlab/search/workbooks?search=peterson%20hervas%20raisinghani%20neuberger%20petersen%20braza&tag=Product)
 owned by the Product Data Insights team. Note:
 
-* Viewing dashboards in the `gitlab:safe-dashboard` space may require
-additional steps to [obtain SAFE Dashboard access](/handbook/business-technology/data-team/platform/safe-data/) 
-if you do not already have SAFE access
-* This list includes dashboards in draft. Dashboards carrying the `Draft` tag should not be 
+* Viewing dashboards in the `SAFE` project require
+additional steps to [obtain SAFE Dashboard access](/handbook/business-technology/data-team/platform/safe-data/)
+(if you do not already have SAFE access in Tableau)
+* This list includes dashboards in draft. Dashboards carrying the `Draft` tag should not be
 used for reporting.
 
 | Dashboard Name | Description | Date | Location | SAFE Access Required? |
 | --- | --- | --- | --- | --- |
 | [Product Data Insights General Collection](https://10az.online.tableau.com/#/site/gitlab/collections/2b35eb4c-1d4f-4339-b53e-5e3f58147e92?:origin=card_share_link) | This is a Tableau Collection containing analytics resources that are broadly useful to the Product Org. | Ongoing | Product/General | N |
 | [Product Data Insights SAFE Collection](https://10az.online.tableau.com/#/site/gitlab/collections/a565fb9b-6478-4bba-9581-ebf84d49c99d?:origin=card_share_link) | This is a Tableau Collection containing SAFE analytics resources that are broadly useful to the Product Org. | Ongoing | Product/SAFE | Y |
+| [PDI: Duo Pro Collection](https://10az.online.tableau.com/#/site/gitlab/collections/16d7490e-931b-4aa7-b4de-afb4916bb518) | This is a Tableau Collection containing PDI-owned resources related to Duo Pro adoption and usage. It contains both general and SAFE workbooks. | Ongoing | Product/General & Product/SAFE | Y & N |
 | [PD: Cloud Licensing Adoption Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/1891137/views) | This dashboard provides insights on adoption of Cloud Licensing | FY24 Q1 | Ad-hoc/Product/SAFE | Y |
 | [PD: Centralized Product Usage Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views) | Monthly reporting metrics and trends for product performance indicators | FY24 Q4 | Ad-hoc/Product/General | N |
 | [PD: Firmographic Product Metric Usage](https://10az.online.tableau.com/#/site/gitlab/workbooks/2137023/views) | Segment metric usage by company size, industry, and seat count. | FY24 Q4 | Development/Product/SAFE | Y |
-| [PD: Code Suggestions](https://10az.online.tableau.com/#/site/gitlab/workbooks/2260169/views) | Code Suggestions usage (ex: User Count), quality (ex: Acceptance Rate), and performance (ex: Load Time) metrics over time by delivery, language, etc. | FY24 Q4 | Development/Product/General | N |
+| [PD: Code Suggestions](https://10az.online.tableau.com/#/site/gitlab/workbooks/2260169/views) | Code Suggestions usage (ex: User Count), quality (ex: Acceptance Rate), and performance (ex: Load Time) metrics over time by delivery, language, etc. | FY24 Q4 | Ad-hoc/Product/General | N |
 
-If you have any questions about using and/or interpreting the insights from these dashboards, 
+If you have any questions about using and/or interpreting the insights from these dashboards,
 please reach out to the dashboard owner or tag `@product-analysts` in the `#data` channel on Slack.
 
 ### Analysis & Insights

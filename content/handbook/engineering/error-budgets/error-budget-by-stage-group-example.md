@@ -41,6 +41,7 @@ Every endpoint is [associated with a feature category](https://docs.gitlab.com/e
 We use this to help with incident response as well as to attribute error budget spend to the right stage group.
 
 For every request, we store log information - including:
+
 - the endpoint being requested
 - the feature category that owned the endpoint at the time
 - how long it took to generate and serve the response
@@ -74,6 +75,7 @@ We store metrics in Prometheus as counters.
 - error-counter: This counter gets incremented for every 5xx
 
 Counters are separated using the following labels:
+
 - component: the SLI this refers to (for example 'puma' would indicate a request handled by puma)
 - environment: 'gstg', 'gprd', ... Only production environments are included in the error budget, but we have them for others.
 - feature_category: The feature this request was for, this is used to later map this to a group based on the info in `stages.yml` (when imported).

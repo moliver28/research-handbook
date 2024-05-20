@@ -19,12 +19,13 @@ This guide serves as a toolkit for fostering a supportive work culture where tea
 #### Resource
 
 🏁 Modern Health provides an interactive walkthrough centered on burnout prevention and designed for people managers. [Preventing Burnout in Team Members](https://my.joinmodernhealth.com/program/preventing-burnout-in-team-members) (10 min) is included for all GitLab team members. If this is your first time using GitLab’s Modern Health benefit, you can follow guidance for [team member registration](/handbook/total-rewards/benefits/modern-health/#team-member--family-registration).
+
 - Reflect: What are other ways “burnout” might show up beyond "fatigue"?
 
-
-### Understanding Burnout:
+### Understanding Burnout
 
 Here are some  team member considerations inspired by GitLab’s culture, values, and ways of working. You’ll see some tips, but we’ll share more advice and talking points below:
+
 - **On & Offline:**-  When working in a remote, heavily asynchronous, collaborative team environment you may not always see and hear early signs of fatigue or burnout. Make it a point to reserve time in regular connections to see how team members are managing workload and boundaries. Even asking directly in a Slack message can be helpful.
 - **Flexibility:** GitLab encourages team members to be directly involved in when, where, and how they get their best work done. Managers still play a key role in allowing space while also remaining dialed into progress, output, and managing capacity.
 - **Results-driven:** Burnout has a direct impact on deliverables and overall results. Managers must continuously strive to improve workload management, output, and their team’s well being. This is, in itself, a result of a manager’s leadership capability and there should be a sense of ownership of the work for which their team is responsible.
@@ -37,7 +38,7 @@ Here are some  team member considerations inspired by GitLab’s culture, values
 
 #### Resource
 
-🦊 GitLab Handbook: “[Recognizing Burnout](/handbook/paid-time-off/#recognizing-burnout)” (5 min)
+🦊 GitLab Handbook: “[Recognizing Burnout](/handbook/people-group/paid-time-off/#recognizing-burnout)” (5 min)
 
 ### Addressing Burnout
 
@@ -53,12 +54,12 @@ Here are some  team member considerations inspired by GitLab’s culture, values
 - **Longer-Term Solutions:** Encourage participation in wellness programs, explicitly communicate with teams about GitLabs culture of flexible work, and review job/role descriptions for potential stressors and opportunities to address scope.
 - **Dogfood:** Managers must model healthy/balanced working behaviors! Taking time away, sharing challenges and success around effectively managing workload, storytelling centered on output as a result of effective workload management.
 
-#### Resource to share with team members:
+#### Resource to share with team members
 
 [Combating burnout, isolation, and anxiety in the remote workplace](/handbook/company/culture/all-remote/mental-health/)
 Burnout Index: [Yerbo’s Risk Check](https://methods.yerbo.co/burnout-index/)
 
-----
+---
 
 ### Where to ask questions
 
@@ -70,7 +71,7 @@ Below, you can access all the referenced in this guide:
 | Reference | Notes |
 | :------ | :------ |
 |[GitLab team members share how to recognize burnout (and how to prevent it)](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/)        |Audience: All team members        |
-|[Recognizing Burnout](/handbook/paid-time-off/#recognizing-burnout)        |Audience: All team members        |
+|[Recognizing Burnout](/handbook/people-group/paid-time-off/#recognizing-burnout)        |Audience: All team members        |
 |[Combating burnout, isolation, and anxiety in the remote workplace](/handbook/company/culture/all-remote/mental-health/)        |Audience: All team members        |
 |[Yerbo’s Risk Check](https://methods.yerbo.co/burnout-index/)        |Managers can share this with their teams. It’s recommended that managers go through this for themselves as well.        |
 |[Mental_Health_Aware](https://gitlab.enterprise.slack.com/archives/C834CM4HW)        |Audience: All team members        |

@@ -4,15 +4,7 @@ title: "dbt Cheat Sheet"
 description: "data build tool (dbt) Cheat Sheet for Functional Analysts"
 ---
 
-
-
-
-
-
-
 ## Objective of this page
-
-
 
 This page is intended to be a cheat sheet or quick start guide to dbt for functional analysts.
 There is a wealth of documentation available in the [Data Team dbt Guide](/handbook/business-technology/data-team/platform/dbt-guide/),
@@ -74,7 +66,7 @@ environment.
 This will clone a single model from the production database into your development database.
 Cloning a single model only takes a few seconds.
 
-```
+```sql
 CREATE OR REPLACE TRANSIENT TABLE {DEV_DATABASE}.{SCHEMA_NAME}.{TABLE_NAME}
 CLONE {PROD_DATABASE}.{SCHEMA_NAME}.{TABLE_NAME}
 ;
@@ -89,7 +81,7 @@ Note: the schema must already exist in your development database in order to clo
 
 <details markdown="1"><summary>How to create a new schema in your development database</summary>
 
-```
+```sql
 CREATE SCHEMA IF NOT EXISTS {DEV_DATABASE}.{SCHEMA_NAME};
 
 --Example
@@ -103,7 +95,7 @@ CREATE SCHEMA IF NOT EXISTS JSMITH_PROD.COMMON;
 This will clone all models in a production schema into a schema in your development database.
 Cloning an entire schema can take several minutes.
 
-```
+```sql
 CREATE OR REPLACE SCHEMA {DEV_DATABASE}.{SCHEMA_NAME}
 CLONE {PROD_DATABASE}.{SCHEMA_NAME}
 ;
@@ -137,7 +129,7 @@ like `+` and `@` to refer to upstream or downstream models
 - You can specify that you want to run the models using a larger warehouse by setting the
 `target` (warehouse connection).
 
-```
+```console
 dbt run --select my_model                       # run my_model
 dbt run --select my_model my_model_2            # run my_model and my_model_2
 dbt run --select my_model+                      # run my_model and all children
@@ -153,7 +145,7 @@ dbt run --select my_model --target dev_l        # run my_model using a L warehou
 Testing models in dbt just requires you to run `dbt test`. `dbt test` uses the same syntax
 (ex: `--select`) as `dbt run`
 
-```
+```console
 dbt test --select my_model # run custom tests on my_model
 ```
 
@@ -167,7 +159,7 @@ the linter settings. When you run the linter, the results will be printed in you
 You can also leverage the `fix` command to have the linter apply fixes to rule violations
 (when possible).
 
-```
+```console
 sqlfluff lint models/path/to/file/file-to-lint.sql # lint the file and print results in terminal
 sqlfluff fix models/path/to/file/file-to-lint.sql  # lint the file and apply fixes
 ```
@@ -196,7 +188,7 @@ file *OR* you can use the [`doc` function](https://docs.getdbt.com/reference/dbt
 to reference documentation in a different file. Example schema.yml file
 [here](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart/schema.yml).
 
-```
+```yaml
 models:
 - name: mart_event_valid
   description: '{{ doc("mart_event_valid") }}'
@@ -229,7 +221,7 @@ documentation in schema.yml. Example schema_name.md file [here](https://gitlab.c
 
 To add a new model In the markdown file, add the following:
 
-```
+```markdown
 {% docs model_name %}
 
 Model description here
@@ -239,7 +231,7 @@ Model description here
 
 Then you can reference a definition in this schema.yml using `'{{ doc("model_name") }}'` (example below).
 
-```
+```yaml
 models:
 - name: mart_event_valid
   description: '{{ doc("mart_event_valid") }}'
@@ -256,7 +248,7 @@ once and then reference it multiple times.
 Before adding a new column definition, please check to see if a definition already
 exists. If it is not, then add the following to the markdown file:
 
-```
+```markdown
 {% docs column_name %}
 
 Column definition
@@ -267,7 +259,7 @@ Column definition
 Once the column is defined, you can reference it in schema.yml using `'{{ doc("column_name") }}'`
 (example below)
 
-```
+```yaml
 models:
 - name: mart_event_valid
   description: '{{ doc("mart_event_valid") }}'
@@ -345,8 +337,8 @@ the `DBT_MODELS` variable.
 
 ![clone_model_dbt_select variables](/handbook/product/product-analysis/dbt-cheat-sheet/images/clone_model_dbt_select_variables.png)
 
-
 Other options for cloning models are:
+
 - [❄️ Snowflake > 📈❗️clone_prod_real](/handbook/business-technology/data-team/platform/ci-jobs/#clone_prod_real):
 this job clones *all* of PREP and PROD databases and does not require any configuration/variables
 - [❄️ Snowflake > 📈⚙clone_prod_specific_schema](/handbook/business-technology/data-team/platform/ci-jobs/#clone_prod_specific_schema):
@@ -376,13 +368,16 @@ in speeding up the job and testing the upstream/downstream models.
 by passing the variable `REFRESH` with a single space `` as the value. (This satisfies the
 *vast* majority of use cases. It would only be on a MR relating to an incremental model when
 you would not want to pass this variable)
+
   - Key: `REFRESH`
   - Value: `` (just a whitespace)
-2. You can specify that you want to also build models that are upstream or downstream of the
+
+1. You can specify that you want to also build models that are upstream or downstream of the
 changed model. Passing the variable `DEPENDENT_TYPE` with a value of `+` will build the
 changed model in addition to all downstream dependencies. (This satisfies the *vast* majority
 of use cases where you need to test upstream/downstream dependencies). See more options/details
 in the [Data team documentation](/handbook/business-technology/data-team/platform/ci-jobs/#run_changed_models_sql)
+
   - Key: `DEPENDENT_TYPE`
   - Value: `+`
 
@@ -421,20 +416,15 @@ access, you need to run [❄️ Snowflake > 🔑grant_clones](/handbook/business
 
 ![grant_clones on pipelines page](/handbook/product/product-analysis/dbt-cheat-sheet/images/grant_clones_on_pipelines_page.png)
 
+{{% panel header="**IMPORTANT**" header-bg="info" %}}
 
-
-<div class="panel panel-info">
-**IMPORTANT**
-{: .panel-heading}
-<div class="panel-body">
 1. This job only creates grants on existing objects and will not apply to any additional
-models created after the job runs. Be sure to clone and build all required models _before_
+models created after the job runs. Be sure to clone and build all required models *before*
 running the job.
 1. This job only creates grants on objects that already exist in PREP or PROD (i.e., existing
 models). If it is a net-new model, you still need to ping a DE to grant access to the new
 model in the MR database.
-</div>
-</div>
+{{% /panel %}}
 
 This job requires a single variable, `GRANT_TO_ROLE` to specify the Snowflake role you want
 to grant SELECT access to. Snowflake roles are usually first initial + last name (ex: Jane

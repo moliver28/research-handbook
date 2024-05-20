@@ -162,7 +162,11 @@ Prior to the COVID-19 pandemic, there was low supply and low demand for dedicate
 
 By 2022, most of the world's organizations will reckon with their new reality: at least a portion of their workforce will insist on more flexibility, and a refusal to adapt will lead to their best talent fleeing to organizations which are actively empowering people to work more flexibly.
 
-{{< tweet user="sytses" id="1264341436138270720" >}}
+<!-- TODO: Replace with screenshots. -->
+
+> Sid Sijbrandij on [Twitter/X](https://twitter.com/sytses/status/1264341436138270720)
+>
+> Below is a thread about the future of remote work after the COVID-19 pandemic is over. I predict that remote will go through a trough of sorrow due to hybrid not working out, and most companies will return to being office based. But many all remote companies will see success.
 
 As this occurs, many organizations will ignore our [warnings](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds) on the pitfalls and nuanced difficulties in creating a thriving [hybrid-remote organization](./hybrid-remote), triggering an acute spike in demand for senior leadership who understand the mind of a remote worker and the [organizational design principles](https://jorgdesign.springeropen.com/articles/10.1186/s41469-020-00087-8) to convert remote work from a challenge to a strategic advantage. **In a high demand/low supply environment, remote work mastery will become a highly marketable skill**.
 
@@ -288,6 +292,6 @@ The below is an inexhaustive list of news articles covering the growing movement
 
 Making remote work well, particularly in companies with colocated roots, is a shared challenge. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

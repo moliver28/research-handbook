@@ -31,6 +31,7 @@ Here are answers to anticipated frequently-asked questions.
 {{% sku-tables categories="Education" maturities="Viable,Lovable,Minimal" stages=true %}}
 
 #### Planned SKUs
+
 We are planning to release additional Education Services SKUs designed to increase our scale and reach to GitLab customers. For details review the issues in the [Education Services Project](https://gitlab.com/gitlab-com/customer-success/professional-services-group/education-services).
 
 ##### Have an idea for a new SKU?

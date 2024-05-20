@@ -1,6 +1,6 @@
 ---
 title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Dependency Scanning"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
+description: "This Hands-On Guide walks you through enabling and using a Dependency Scan in a GitLab project."
 ---
 
 
@@ -118,7 +118,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
     > For a full list of variables available for dependency scanning, see the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#available-cicd-variables">documentation</a>.
 
-1. Commit this change to the **main** branch, using `Change log level for Python dependency scanner` as a commit message. Click **Commit changes**. 
+1. Commit this change to the **main** branch, using `Change log level for Python dependency scanner` as a commit message. Click **Commit changes**.
 
     > This commit triggers a pipeline run using your new Dependency Scanning configuration.
 

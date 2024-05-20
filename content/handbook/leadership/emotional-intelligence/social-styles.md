@@ -274,6 +274,7 @@ Use the persona as a roadmap to implementing the SOCIAL STYLEs assessment within
 ## Additional Resources on SOCIAL STYLES
 
 Below are additional resources on social styles for review
+
 - [TRACOM SOCIAL STYLE Model](https://tracom.com/social-style-training/model)
 - [Social Styles and Conflict Resolution](https://legadima.co.za/conflict-management-social-styles/)
 - [Managerial Success Stories](https://tracom.com/wp-content/uploads/2019/01/Managerial-Success-Story-TRACOM_ss2018.pdf)

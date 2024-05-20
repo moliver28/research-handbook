@@ -244,4 +244,4 @@ Product Marketing delivers quarterly and annual, sales-centric updates of:
 - How these releases enhance the value of Premium and Ultimate
 - What is coming in the next quarter
 
-This page merges release resources from Product and Marketing with related Sales Enablement pages, videos, and presentations. A "[handbook-first](/handbook/handbook-usage/#why-handbook-first)" approach makes resources more findable and usable by Sales or anyone interested, and provides a stronger foundation for learning.
+This page merges release resources from Product and Marketing with related Sales Enablement pages, videos, and presentations. A "[handbook-first](/handbook/about/handbook-usage/#why-handbook-first)" approach makes resources more findable and usable by Sales or anyone interested, and provides a stronger foundation for learning.

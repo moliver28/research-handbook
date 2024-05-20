@@ -24,5 +24,4 @@ job: "Senior Support Engineering Manager (Americas East)"
 
 + In the spirit of being transparent, here is my [2018 360 Feedback (GitLab Internal only)](https://docs.google.com/document/d/1Yobs31mH9jAmuKayx_cuLpj58ig8Y0oW-ymjzvRRBeE/) in it's entirety.
 
- 
 (Inspired by https://matthewnewkirk.com/2017/09/20/share-your-manager-readme/)

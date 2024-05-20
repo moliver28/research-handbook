@@ -9,10 +9,11 @@ title: Meetings
 
 
 
---- 
+---
+
 ## How do we lead 1-1 meetings efficiently?
 
-The Engineering Manager 1-1’s are held weekly on Tuesdays.  They are 30 minutes each in order to make an efficient usage of everyone’s time. Synchronous time at GitLab is a very valuable commodity.  It should always be regarded as an opportunity to connect, communicate and collaborate.  Working remotely, these ideas become even more important.  Consequently the time should be well respected through planning and preparation prior to the meeting.  
+The Engineering Manager 1-1’s are held weekly on Tuesdays.  They are 30 minutes each in order to make an efficient usage of everyone’s time. Synchronous time at GitLab is a very valuable commodity.  It should always be regarded as an opportunity to connect, communicate and collaborate.  Working remotely, these ideas become even more important.  Consequently the time should be well respected through planning and preparation prior to the meeting.
 
 ## Audience
 
@@ -32,7 +33,8 @@ Prior to the meeting, the Senior Manager adds additional (preferably no more tha
 
 **Engineering Manager Prep**
 Prior to the meeting, the Engineering Managers:
-- Complete the default template below filling in only what is applicable to them for the current week. 
+
+- Complete the default template below filling in only what is applicable to them for the current week.
 - Review Action items (Issue Boards)  and make updates as necessary
 - Respond async to any questions that have been raised by the Senior Manager
 
@@ -56,7 +58,7 @@ The template below is used for every 1-1 the Senior Manager hosts.  This templat
 
 The Engineering Manager 1-1’s are held weekly on Tuesdays.  They are 30 minutes each in order to make an efficient usage of everyone’s time. One of the best gifts to give to a team member is respecting their time.  We all have many action items each day and using someone’s time efficiently frees them up to work on their To Do list for the day.  Originally these meetings were an hour long but we were able to divide our meeting time in half through leaning into a more asynchronous format.
 
-## Sync vs. Async 
+## Sync vs. Async
 
 Originally the entire 1-1’s were sync and one hour long.  We applied iteration to these meetings in order to make a more efficient usage of our time. We began to break the meetings up into two sections:
 
@@ -69,11 +71,11 @@ Using the default template above, any of those bullet points, can be sorted unde
 
 Another iteration of the 1-1 meeting was recommended collectively by the Create Engineering Managers.  They recommended instead of tracking action items in the 1-1 document that they be tracked in issues and reviewed weekly during the 1-1 document.  This was a huge improvement in:
 
-- Collaboration: 
+- Collaboration:
     - Async discussions occur about a specific action item in the issue
-    - We are dogfooding GitLab Issues  
+    - We are dogfooding GitLab Issues
 - Results
-    - Due to the transparency of this process and the ability of the Engineering Managers to set their due dates leads to better results.  
+    - Due to the transparency of this process and the ability of the Engineering Managers to set their due dates leads to better results.
     - Engineers have a clear understanding of the priorities as the Senior Manager uses priority labels resulting in the most important action items being completed first
 - Efficiency
     - Tracking these action items using Issue Boards gives a visual representation of the current activities for each Engineering   Manager which is much more efficient than scanning through a document for both the Engineering Manager and the Senior Manager
@@ -85,37 +87,24 @@ Another iteration of the 1-1 meeting was recommended collectively by the Create 
 
 Throughout a given day there are many distractions. There are often times I would like to pick up a Zoom call and ask someone a question.  1-1’s provide a space for the questions that are not so urgent. They might be important however, they might also be able to wait a few days.  Whenever you have the opportunity to avoid interrupting or causing a distraction to the team, you should take that opportunity to remove distractions by adding an item in the upcoming 1-1 document.
 
-## Giving Feedback 
+## Giving Feedback
 
 The feedback is always given in the 1-1 document and highlighted as:
 
-**Appreciation:** 
-- Thank you, job well done. 
+**Appreciation:**
+
+- Thank you, job well done.
 
 **Evaluation:**
+
 - The results you have shown here_________ are not meeting the expectations for your position. These are the expected behaviors for someone in your role ____________________
 
 **Coaching:**
+
 - If you were to make this change, __________, you would improve on this Credit Value ____________
 
 It is important to be transparent when you are giving feedback and the type of feedback you are giving. Setting that expectation is key to the receiver understanding how to process the feedback.  Oftentimes team members say that they are not getting enough feedback but in truth they are saying that they are not receiving enough appreciation feedback.  This level of transparency is important so that the team members are receiving the appreciation, evaluation and coaching they need to grow professionally.
 
-
-
-
-
-
-
-
-
-
-
-
 title: Meetings
+
 ---
-
-
-
-
-
-

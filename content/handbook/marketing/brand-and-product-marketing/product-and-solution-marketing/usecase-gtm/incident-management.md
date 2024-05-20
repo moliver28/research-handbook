@@ -20,7 +20,7 @@ description: "Downtime is expensive and you can lower MTTR with GitLab Incident 
 | @supadhyaya  | @abellucci |
 
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Incident Management
 
@@ -108,7 +108,7 @@ Review what happened during a fire-fight in a blameless setting. Walk through th
    - Create after action items
 - Value: Faciliate post incident review to help build a blameless culture focused on continuous improvement and documentation.
 
-# The GitLab Solution
+## The GitLab Solution
 
 ## How GitLab Meets the Market Requirements
 
@@ -138,7 +138,7 @@ Review what happened during a fire-fight in a blameless setting. Walk through th
 |Xmatters||||
 |DataDog Incident Management|A relatively new addition to DataDog's observability platform, introduced in 2020.|It has the advantage of having monitoring and incident response all housed within one integrated application. DataDog is a market leader in the Monitoring space and has a large pre-existing customer base to expand into. |Relatively new. Does not have on-call schedule management meaning that someone would also need an incident management tool to use it. Is proprietary to DataDog. |
 
-# Enablement & Training
+## Enablement & Training
 
 ## Use Cases
 

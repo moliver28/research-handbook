@@ -29,10 +29,11 @@ The goal of our test planning process is to ensure quality and manage risk in an
 To achieve that goal when delivering a change or new feature, we have conversations that link test requirements to product requirements, identify risks and quality concerns, and review and plan test coverage across [all test levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html).
 
 The output or deliverables of the test planning process are:
-* Requirements on unit test coverage.
-* Requirements on integration test coverage.
-* Requirements on end-to-end test coverage (where applicable).
-* One-off manual testing as needed (ideally this should be minimal and in the form of adhoc/exploratory testing).
+
+- Requirements on unit test coverage.
+- Requirements on integration test coverage.
+- Requirements on end-to-end test coverage (where applicable).
+- One-off manual testing as needed (ideally this should be minimal and in the form of adhoc/exploratory testing).
 
 The deliverables are considered complete when the tests have been added/updated and the merge request has been merged.
 
@@ -40,45 +41,40 @@ The deliverables are considered complete when the tests have been added/updated 
 
 At [release kickoff](/handbook/engineering/workflow/#kickoff) we highlight some of the changes scheduled for the next release. The majority of our test planning work starts in the issues relevant to those changes, although this process can be applied to any change. Here is an overview of the process:
 
-* Discuss how the change could affect quality (in the feature issue and/or merge request).
-* Review test coverage and list test deliverables for [tests at different levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html).
-* Add/update tests.
+- Discuss how the change could affect quality (in the feature issue and/or merge request).
+- Review test coverage and list test deliverables for [tests at different levels](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html).
+- Add/update tests.
 
 The following guidelines provide more detail, as well as suggested responsibilities for various roles.
 
-##### As a feature issue author:
+##### As a feature issue author
 
+- Use the issue to discuss how the change could affect the quality of the product and impact our users.
+  - Start the discussion by answering the questions in the Testing section of the [feature proposal template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md). Note that those questions are not exhaustive.
+  - [Optional] See the [Test Plan](#test-plan) section for advice on when a test plan might be useful.
 
-* Use the issue to discuss how the change could affect the quality of the product and impact our users.
-  * Start the discussion by answering the questions in the Testing section of the [feature proposal template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20proposal%20-%20detailed.md). Note that those questions are not exhaustive.
-  * [Optional] See the [Test Plan](#test-plan) section for advice on when a test plan might be useful.
+##### As a Product Manager, Product Designer, Engineer (of any type), user, or anyone else involved in the change
 
-##### As a Product Manager, Product Designer, Engineer (of any type), user, or anyone else involved in the change:
+- Continue the discussion of quality and risk that was started in the issue description. Share any insights that you have that could help guide testing efforts.
 
+##### As an Engineer who will implement the change, or a Software Engineer in Test contributing to the change
 
-* Continue the discussion of quality and risk that was started in the issue description. Share any insights that you have that could help guide testing efforts.
+- Use the issue to start a discussion about test strategy, to come up with clear test deliverables for tests at different levels.
+  - List the test deliverables in the feature merge request(s).
+  - You can use [test design heuristics](/handbook/engineering/infrastructure/test-platform/test-engineering/#test-heuristics) to determine what tests are required. It's not necessary to use test design heuristics explicitly, but it can be helpful to clarify how you come up with tests; it helps to guide discussion and create shared understanding.
+- If a merge request touches the feature specs `spec/features`, involve your counterpart Software Engineer in Test to review the merge request.
+- If a feature requires an end-to-end test, add a `Requires e2e tests` label to the feature issue or merge request.
+  - Before merging the feature merge request, ensure the end-to-end test merge request is linked to the feature merge request.
 
-##### As an Engineer who will implement the change, or a Software Engineer in Test contributing to the change:
+##### As a merge request author (i.e., the Engineer who will implement the test)
 
+- Complete the test deliverables.
+  - End-to-end tests should be included in the feature merge request where possible, but can be in a separate merge request (e.g., if being written by a different engineer).
+  - All lower-level tests **must** be included in the feature merge request.
 
-* Use the issue to start a discussion about test strategy, to come up with clear test deliverables for tests at different levels.
-  * List the test deliverables in the feature merge request(s).
-  * You can use [test design heuristics](/handbook/engineering/infrastructure/test-platform/test-engineering/#test-heuristics) to determine what tests are required. It's not necessary to use test design heuristics explicitly, but it can be helpful to clarify how you come up with tests; it helps to guide discussion and create shared understanding.
-* If a merge request touches the feature specs `spec/features`, involve your counterpart Software Engineer in Test to review the merge request.
-* If a feature requires an end-to-end test, add a `Requires e2e tests` label to the feature issue or merge request.
-  * Before merging the feature merge request, ensure the end-to-end test merge request is linked to the feature merge request.
+##### As a Software Engineer in Test
 
-##### As a merge request author (i.e., the Engineer who will implement the test):
-
-
-* Complete the test deliverables.
- * End-to-end tests should be included in the feature merge request where possible, but can be in a separate merge request (e.g., if being written by a different engineer).
- * All lower-level tests **must** be included in the feature merge request.
-
-##### As a Software Engineer in Test:
-
-
-* Help guide the discussions in issues and merge requests, and ensure that we complete the test coverage as planned before the feature is merged into `master` and released to production.
+- Help guide the discussions in issues and merge requests, and ensure that we complete the test coverage as planned before the feature is merged into `master` and released to production.
 
 Finally, once all test deliverables are completed, the feature issue can be closed (along with a test plan, if one was created).
 
@@ -94,15 +90,17 @@ We do not require a test plan for every feature or epic. Test plans are expensiv
 There is no strict guideline for this and we defer this decision to each engineering group or team.
 
 **Examples of work that's likely to warrant a test plan:**
-* Swapping underlying infrastructure providers (e.g., the [GCP migration](https://gitlab.com/gitlab-com/migration/issues/451#test-plan)).
-* Certifying performance improvements for customers.
-* Upgrading underlying Rails version (e.g., the [Rails 5 migration](https://gitlab.com/gitlab-org/gitlab-ce/issues/51719)).
+
+- Swapping underlying infrastructure providers (e.g., the [GCP migration](https://gitlab.com/gitlab-com/migration/issues/451#test-plan)).
+- Certifying performance improvements for customers.
+- Upgrading underlying Rails version (e.g., the [Rails 5 migration](https://gitlab.com/gitlab-org/gitlab-ce/issues/51719)).
 
 GitLab's test plan is based on [Google’s 10 min test plan](https://testing.googleblog.com/2011/09/10-minute-test-plan.html).
 This test plan uses the ACC Framework (Attribute, Components and Capabilities matrix)
-* Attributes: qualities the product should have
-* Components: major parts of the product
-* Capabilities: behavior the product should display that links components and attributes
+
+- Attributes: qualities the product should have
+- Components: major parts of the product
+- Capabilities: behavior the product should display that links components and attributes
 
 Currently we have a [test plan template](https://gitlab.com/gitlab-org/gitlab/blob/master/.gitlab/issue_templates/Test%20Plan.md) that is available for test planning in GitLab. A test plan can be created by anyone involved in a change.
 
@@ -130,15 +128,16 @@ Our previous iteration can be seen at [DEPRECATED - GitLab Blackbox Integration 
 An explanation of why we chose to do it this way is explained in this issue: [Test case management and test tracking in a Native Continuous Delivery way](https://gitlab.com/gitlab-org/gitlab-ce/issues/51790).
 
 To summarize, we want to track our tests in a Native Continuous Delivery way.
-* If we are doing continuous delivery in the right way, there should be little to no manual tests. Manual tests if any should be minimal and exploratory.
-* There should be little need for detailed test steps if manual testing is minimal and exploratory.
-  * Exploratory testing has a free form emphasis which removes the importance of hardcoded test steps.
-  * The disadvantage of going into too much detail with hardcoded test steps is we are not able to catch bugs outside the hardcoded flow in the document, it's also a high maintenance document.
-  * Our test case name / description contains just enough description, this helps fuzzes the workflow up and we end up catching more critical bugs this way.
-* An emphasis on risk-based test planning using the ACC framework.
-* An emphasis on categorizing test automation types which tracks the pyramid shape (API, UI, and Visual).
-* An emphasis on tracking alignment in the lower test levels in the pyramid.
-* An emphasis on intelligent test design using [Test Heuristics](#test-heuristics) design.
+
+- If we are doing continuous delivery in the right way, there should be little to no manual tests. Manual tests if any should be minimal and exploratory.
+- There should be little need for detailed test steps if manual testing is minimal and exploratory.
+  - Exploratory testing has a free form emphasis which removes the importance of hardcoded test steps.
+  - The disadvantage of going into too much detail with hardcoded test steps is we are not able to catch bugs outside the hardcoded flow in the document, it's also a high maintenance document.
+  - Our test case name / description contains just enough description, this helps fuzzes the workflow up and we end up catching more critical bugs this way.
+- An emphasis on risk-based test planning using the ACC framework.
+- An emphasis on categorizing test automation types which tracks the pyramid shape (API, UI, and Visual).
+- An emphasis on tracking alignment in the lower test levels in the pyramid.
+- An emphasis on intelligent test design using [Test Heuristics](#test-heuristics) design.
 
 #### Risk Mapping
 
@@ -151,6 +150,7 @@ Read more on the [risk mapping page](risk-mapping).
 ### Test Heuristics
 
 #### Why Care?
+
 Testing can sometimes be reduced to the simplest of checks for a specific behavior of a specific function. We often do this when we're under a time constraint. But is that how our customers always use our software?
 
 By taking just a little extra time in our test approach to think about testing in general, we can save hours of work rolling back a release or producing hotfixes. Here are some simple approaches to enhancing our testing without adding a significant amount of time to our process.
@@ -158,9 +158,11 @@ By taking just a little extra time in our test approach to think about testing i
 This is especially applicable to any exploratory testing performed by both software engineers in test and backend/frontend engineers alike. They can also be helpful to consider when designing automated tests as they help eliminate bias.
 
 #### Discovering Variations
+
 Even simple solutions can have infinite variations to test when we consider the data, timing, environmental or platform factors, configuration, and user behavior following varied sequences actions. We should have as our goal to find the most important and most interesting variations to test, since we cannot possibly test them all.
 
 ##### Identifying Variables
+
 Some variables are obvious, some are not. Some are accessible to the end user, some are indirectly accessible, modified only indirectly through changing other variables. For example, size or number of files in a database or number of users logged into a system may affect how a feature functions but are outside of the feature itself and may not be directly modified without specific environments or tools.
 
 So our goal here is to identify the variables that may play a part in how a particular feature functions and use these as touch points for testing that feature. Since we may have a number of variables to consider, it would be wise to create simple notes to track those variables to make our testing more effective.
@@ -168,6 +170,7 @@ So our goal here is to identify the variables that may play a part in how a part
 ##### Heuristics to Help Identify Variables
 
 ###### What are heuristics?
+
 The definition of a heuristic is varied based on where we look, so we'll use the simple definition: a heuristic is a fallible method for solving a problem or making a decision. They are not algorithms, so they do not always give us the results we want. We should think of them as excellent thinking tools to help us navigate unknowns, such as "did my change introduce a bug?". They are dependent upon context, so not every heuristic is applicable to every problem, just like algorithms.
 
 Here are some heuristics that may help us find variables:
@@ -193,6 +196,7 @@ Here are some heuristics that may help us find variables:
 How can we use these heuristics? Are there others? The next section answers those questions.
 
 #### Heuristic Glossary
+
 - Boundaries
   - Use values that approach the boundary, whether almost too big or small.
   - Value at the boundary.
@@ -310,6 +314,7 @@ How can we use these heuristics? Are there others? The next section answers thos
       - User believes they are being constantly monitored, therefore they use software that blocks web page actions/components/javascript, work only through VPN's, attempt to anonymize their activity, and always use strong passwords.
 
 ##### Add Your Own
+
 This is not an exhaustive list of heuristics. If you know others you have found useful, please consider contributing them to this document.
 
 *Accreditation to these ideas belongs to the general test community, many who have contributed to and compiled these ideas in different ways. For further explanation of applying heuristics to testing, see Elisabeth Hendrickson, VP of R&D at Pivotal Software, Inc., and her book titled **Explore It!** or many other various blogs and sites, e.g. [Satisfice](https://www.satisfice.com/blog/), [DevelopSense](https://www.developsense.com/blog/), or [Ministry of Testing](https://club.ministryoftesting.com/categories). For an in-depth explanation of heuristics in the context of software testing, see [Heuristics for Understanding Heuristics](https://www.developsense.com/blog/2012/04/heuristics-for-understanding-heuristics/).*

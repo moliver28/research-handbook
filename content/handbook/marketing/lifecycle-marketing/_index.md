@@ -24,9 +24,9 @@ This role works closely across Marketing for all things email, and directly with
 [Read the job family here >>](/job-families/marketing/marketing-campaign-manager/#user-lifecycle-marketing)
 
 For more information on email marketing at GitLab, please visit the following pages:
-* [Nurture programs](https://handbook.gitlab.com/handbook/marketing/lifecycle-marketing/emails-nurture/) 
-* [Best practices](https://handbook.gitlab.com/handbook/marketing/lifecycle-marketing/email-best-practices/), 
-* [Email processes and requests](https://handbook.gitlab.com/handbook/marketing/lifecycle-marketing/email-processes-requests/)
+* [Nurture programs](/handbook/marketing/lifecycle-marketing/emails-nurture/)
+* [Best practices](/handbook/marketing/lifecycle-marketing/email-best-practices/),
+* [Email processes and requests](/handbook/marketing/lifecycle-marketing/email-processes-requests/)
 
 Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 
@@ -43,7 +43,7 @@ Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 - **Calendaring and stakeholder conversations (DRI)**: Lead weekly email calendar conversations to ensure we are prioritizing our email sends per audience
 - **Email Templates**: define needs, organize design, and manage development and testing of new email templates
 - **Email Best Practices, Processes & Optimization**: enable teams across GitLab (mainly Marketing and Sales Dev) on email best practices, as well as streamlining, scaling, and improving email performance
-- **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences. 
+- **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences.
 - **Email point of contact/support**: Reviewing and optimizing AMER & Global events (fmm & corp), campaigns, and newsletter email sends to ensure best practices and compliance with the GitLab brand
 
 
@@ -152,9 +152,9 @@ Note on timelines: The campaigns team is focused on campaign strategy, execution
 Below are the issue templates to make a lifecycle request. For processes, please see our [processes handbook page](/handbook/marketing/lifecycle-marketing/email-processes-requests).
 
 - [lifecycle-add-to-nurture](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=lifecycle-add-to-nurture)
-- [request-email-followup](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup) 
-- [request-email-invitation](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-invitation) 
-- [request-email-newsletter](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-newsletter) 
+- [request-email-followup](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup)
+- [request-email-invitation](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-invitation)
+- [request-email-newsletter](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-newsletter)
 - [request-email-reminder](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-reminder)
 - [request-email](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email) - *only for general email requests* *For customer communications, please work with Marketing Ops.*
 - [idea-campaign](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=idea-campaign)
@@ -209,7 +209,7 @@ Team manager completes daily review of [lifecycle marketing issues in triage](ht
 **When a team member is picking up an issue from the backlog:**
 
 ```
-/label ~"mktg-status::wip" 
+/label ~"mktg-status::wip"
 /assign @
 /milestone %Mktg:2023-
 ```

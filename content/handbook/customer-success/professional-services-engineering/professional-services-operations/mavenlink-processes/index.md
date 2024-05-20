@@ -10,7 +10,7 @@ description: "Learn about the GitLab Professional Services operations processes 
 
 
 
-## Mavenlink Processes  
+## Mavenlink Processes
 
 Mavenlink is our current PSA, follow the link below to view process steps and guidelines.
 
@@ -153,11 +153,11 @@ Project Close
 
 ****Regional Holidays and Family and Friends Days****
 
-Regional holidays and Family and Friends days are included in Mavenlink on each members calendar, followed by the  [time off process](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off).  Since the days are included in the calendar there is no need to submit the time in the Mavenlink PTO feature or the users time sheet.  When logging into the time sheet, the required work week is shown on the time sheet entry.
+Regional holidays and Family and Friends days are included in Mavenlink on each members calendar, followed by the  [time off process](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).  Since the days are included in the calendar there is no need to submit the time in the Mavenlink PTO feature or the users time sheet.  When logging into the time sheet, the required work week is shown on the time sheet entry.
 
 ![TimeOff](./Timeoff.png)
 
-GitLab company policy to submit time off is through Time Off by Deel, and followed by this [handbook process](/handbook/paid-time-off/).
+GitLab company policy to submit time off is through Time Off by Deel, and followed by this [handbook process](/handbook/people-group/paid-time-off/).
 In the Professional Services group, we also require time off to be submitted to Mavenlink:
 
 Benefits of having time off in Mavenlink
@@ -169,7 +169,7 @@ Process:
 
 - When time-off is submitted to Time Off by Deel, time-off is required to be submitted in Mavenlink as well.
 - Review the Master Planning to be sure a project is not already scheduled during the desired time off
-- If project time is scheduled, review with the Project Coordinator if the project time could be moved or come to a mutual agreement for the requested time off  
+- If project time is scheduled, review with the Project Coordinator if the project time could be moved or come to a mutual agreement for the requested time off
 
 Time off would be submitted from the Dashboard, by clicking on the profile picture:
 - GO to "Your Dashboard"
@@ -275,7 +275,7 @@ Reponsible Role: PC
 2. Update the project status to Prospect.
 3. Add the PS Operations Manager to the Mavenlink project.
 4. Reassign the Mavenlink project lead to the assigned Project Coordinator.
-5. Ensure that no dates are entered in the Task Tracker to prevent the project from being added to the forecast.  
+5. Ensure that no dates are entered in the Task Tracker to prevent the project from being added to the forecast.
 
 
 ##### Closed, Won Projects
@@ -319,7 +319,7 @@ Once the PS Opportunity is closed/ won, a notification is sent from SFDC.
    - SOW
    - Order Form
    - Link to Google drive
-  
+
 8. Review the contact section of the PS Opportunity and confirm with sales
 9. Send the Welcome to PS Email to customer
    - [Training Template](https://docs.google.com/document/d/1rJ9q9gEzsumRxDhoWEe45u70efmKA0eWNg69WONuCYs/edit#heading=h.vylh0p2padiu)
@@ -364,4 +364,4 @@ Only one Health Report can be added each day
 | Yellow | Consulting Only Project |
 | Orange | Consulting & Training Project |
 | Lime | Internal Project |
-  
+

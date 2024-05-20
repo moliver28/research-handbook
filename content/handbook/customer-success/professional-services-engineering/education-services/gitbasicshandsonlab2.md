@@ -1,6 +1,6 @@
 ---
 title: "GitLab with Git Essentials - Hands-on Lab: Work With Git Locally"
-description: "This Hands-on Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
+description: "This Hands-on Guide walks you through using Git commands to work with both a remote and local repository."
 ---
 
 > Estimated time to complete: 45 minutes
@@ -71,7 +71,8 @@ Please take time to understand any code that you are asked to copy and paste in 
     cd ~/.ssh
     ls
     ```
-    In Windows: 
+
+    In Windows:
 
     ```bash
     cd ~\.ssh
@@ -109,7 +110,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > It is ideal to set an expiry date on keys and rotate the keys periodically. The recommended value for the key expiration date will depend on your security requirements.
 
-1.  Click the **Add key** button.
+1. Click the **Add key** button.
 
 1. In your terminal, run the following command to test your connection.
 
@@ -145,6 +146,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
     mkdir ~/training
     cd ~/training
     ```
+
     In Windows:
 
     ```bash

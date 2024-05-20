@@ -15,7 +15,6 @@ First, be sure to validate the following:
 1. If the candidate is located in *Belgium* the CES or Recruiter should be aware of two further things to address: i. there are strict language/translation requirements in Belgium so the CES or Recruiter should confirm which region of Belgium the candidate is located in and let legal know, to ensure the right contract, in the right language is used, and so that a translation can be arranged if necessary; and ii. if the role is *not* Grade 9 or higher, the CES or Recruiter should send a link to the role and the job requisition to the legal team via the #legal Slack channel once the candidate is at offer stage (before anything is sent out!) to determine whether or not the role is a position of trust.
 1. The recruiter should select "Email the team" and send the "CES Start Contract Request" email to CES* to initiate the offer letter and background check processes after the verbal offer has been made.
 
-
 ### Entity Contract Signatories
 
 This chart reflects the available signatories for each of GitLab's entities. They are listed in order of preferred signatory first. This chart should only be used for new hire contracts where GitLab has entities. This is not for internal moves such as [contract renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}), [job change letters]({{< ref "contracts-probation-periods#job-change-letter" >}}), or [relocations]({{< ref "relocation" >}}).
@@ -30,7 +29,7 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab France S.A.S. | Rob Allen & Pattie Egan|
 | GitLab GK, Japan | Jess Dallmar, Rob Allen. Backup: Simon Mundy|
 | GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
-| GitLab Iberia S.L (Spain) | Jim Gladen & Simon Mundy |
+| GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen, Pattie Egan. Backups: Jim Gladen & Simon Mundy |
 | GitLab Ireland LTD | Marissa Farris, Rob Allen & Pattie Egan|
 | GitLab IT BV | Marissa Farris, Pattie Egan |
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen. Backup: Jim Gladen|
@@ -94,6 +93,7 @@ This chart reflects the available signatories for each of GitLab's entities. The
 The SSOT for the contract templates are on [this handbook page updated by Legal and People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/). Any updates to contracts will be done there first, and then the talent acquisition team needs to be pinged to be made aware of the changes so they can update the corresponding Greenhouse template.
 
 These steps are executed by the **People Connect and Legal teams** when contracts are being updated, but for reference, if any changes need to be made to the templates, these tasks can be referenced below:
+
    1. Some fields that are not necessarily clear are the compensation fields as there are separate fields for the *vacancy* and for the *candidate*; we want the candidate fields for the contract, so in Greenhouse, the appropriate token for salary is `{{CURRENCY}}`, bonus is `{{BONUS_AMOUNT}}`, and stock options is `{{STOCK_OPTIONS}}`. Another field that is easily confused is the title; the `{{JOB_NAME}}` is the name of the vacancy, which is not always necessarily the same as the title the candidate will have; to make sure it is always correct and includes the appropriate level and specialty for the candidate, use the token `{{FULL_TITLE__INCLUDING_LEVEL_AND_SPECIALTY_}}`.
    1. The one exception to the curly bracket find and replace process is the Belgian contract. The fields that need to be edited are highlighted.
    1. When removing optional clauses, take care that the paragraph / section numbering still makes sense.
@@ -112,9 +112,11 @@ Consistent with GitLab’s policy governing Hiring Significant Others or Family 
 1. Once the family member is identified, you will send the [Family Member Relationship Acknowledgment](https://docs.google.com/document/d/1IseZy4zJZMgP0VCAsGqCP3I6sfnavGdD81THnqljaPI/edit?usp=sharing) via DocuSign to the new hire as well as the GitLab team member for signing.
 1. Drag and drop the Family Member Relationship Acknowledgement form on DocuSign.
 1. Add recipients using the following order:
+
 - #1 GitLab Team Member (needs to sign)
 - #2 New Hire (needs to sign)
 - #3 CES (receives a copy)
+
 1. After all parties have signed, upload a copy into the new hire's Workday profile.
 1. Upload Family Member Relationship Acknowledgement form into Workday.
    - Sign into Workday
@@ -202,6 +204,7 @@ To change a start date after a **PEO** contract has been signed and the new team
 ### How to Void a Contract Before a Candidate Signs
 
 In rare cases, we may rescind our offer before a candidate signs the contract. Work with the Recruiter, Hiring Manager, People Business Partner, VP of Talent Acquisition, and Contract Employment Counsel on ensuring uniform communication. Once the candidate has been informed verbally and via email by the talent acquisition team, follow these steps:
+
 1. Ensure the email is exported into the Activity Feed in Greenhouse.
 1. Void the contract in DocuSign utilizing the same communication that was emailed.
 1. Reject the candidate in Greenhouse. Be sure to select 'Reject and Don't Send Email.'
@@ -209,6 +212,7 @@ In rare cases, we may rescind our offer before a candidate signs the contract. W
 ### How to Void a Contract when the candidate declines the offer and not marked as hired in the system
 
 In cases where the candidate has declined the offer verbally or via email to the talent acquisition team or CES, follow these steps once the recruiter confirms it is okay to void the contract:
+
 1. Go to the docusign portal, under the “ waiting for others” tab, click on the candidate’s name whose contract needs to be voided.
 1. Under “More” tab, click “Void”. Enter the reason for voiding the contract e.g "Candidate declined offer" then click on Void.
 1. Go to the candidate’s Greenhouse profile, make a note saying the contract is voided by copying the recruiter. This will prompt the recruiter to reject the candidate in GH if it hasn’t been done.
@@ -216,6 +220,7 @@ In cases where the candidate has declined the offer verbally or via email to the
 ### How to Resend a Contract After Being Marked as Hired
 
 There are certain times when a contract needs to get resent to the candidate after they have been hired into the system, should that happen. Follow the steps below:
+
 1. If the req is already closed, tag the Enablement team in the greenhouse profile explaining the situation and that the req needs to be reopened to resend a contract.
 1. Unhire the candidate in Greenhouse. (If the position is Closed, Enablement will need to assist with this step).
 1. Resend the correct contract and follow standard steps for doing this.
@@ -224,6 +229,7 @@ There are certain times when a contract needs to get resent to the candidate aft
 1. Ping the People Connect Team and let them know the contract has been updated and the details in Workday can be corrected.
 
 For Talent Acquisition Enablement:
+
 1. Once notified by the CES team, copy the Job Approval Chain and add it to the Approval Details Notes section. Include the names of the approvers, the dates approved, and the reason as to why the requisition is being re-opened. Tag the Finance Business Partner, CES, and Recruiter in this note.
 1. From the Approvals page, select 'Edit Job & Openings'
 1. Duplicate the Opening that needs to be re-opened.
@@ -242,7 +248,7 @@ The Candidate Experience Specialist who initiated the contract process is expect
 
 Contract amendments or modifications are processed by the Candidate Experience Specialist if the team member has not started or by the People Connect Team member if they have.
 
-### Amendments prior to starting with GitLab:
+### Amendments prior to starting with GitLab
 
 If an amendment needs to be made and the previous contract was never active, the Candidate Experience Specialist should:
 
@@ -283,7 +289,7 @@ If an amendment needs to be made and the previous contract was never active, the
 1. Send
 1. When the contract is completed, message People Connect to make sure they note the relocation.
 
-### Amendments after starting with GitLab:
+### Amendments after starting with GitLab
 
 A contractor requests a modification to their contract due to a name change/company incorporation (Example: The individual recently incorporated a company, and would like to invoice GitLab through their company versus individually)
 
@@ -299,8 +305,9 @@ A contractor requests a modification to their contract due to a name change/comp
 
 If for some reason a candidate declines an offer after they have been hired into the system, whoever receives that information needs to make sure `@ces` is tagged in the Greenhouse profile and is made aware that the candidate will no longer be starting at GitLab. Please note that the steps below are assuming that the person will not be working for GitLab; if you are hoping to just amend their offer after they've been marked as hired, please view the Resend process above.
 
-If they have been hired in Greenhouse and exported to BambooHR, Enablement will need to follow these steps:
-1. Unhire the candidate in Greenhouse if the req is still open. If the req is closed, Enablement will need to be brought in to unhire.
+If they have been hired in Greenhouse and exported to BambooHR and Workday, the team will need to follow these steps:
+
+1. Unhire the candidate in Greenhouse if the req is still open by clicking the "unhire" button on the candidate's offer. If the req is closed, ask Enablement to unhire.
 1. Ask the Recruiter to reject them in Greenhouse; add reasons in notes, you may add the email that was sent by the candidate. Click ‘reject and don’t send email’.
 1. Cancel any scheduled emails in Greenhouse.
 1. Tag the VP, People Operations in the `#people-group-confidential` Slack channel and ask to remove the profile from BambooHR and @ mention the People Connect team for visibility. Only a BambooHR owner (at GitLab this is the VP, People Operations) can remove the profile, this is why this step is so important. Note: This isn't a typo---BambooHR is still collecting profiles even though we have migrated to WorkDay.
@@ -308,6 +315,16 @@ If they have been hired in Greenhouse and exported to BambooHR, Enablement will 
 1. Message IT, People Connect, and the Sr. Background Check Specialist in the #peopleops-alerts-private channel to let them know to cancel any laptop orders, onboarding issues, background checks, and remove from Workday.
 1. If the Recruiter has not already tagged the FP&A approver in the Greenhouse notes, please tag them to let them know that the candidate has withdrawn.
 1. If the Recruiter has not done so already, add a candidate tag of `Rescinded Acceptance` to the candidate's profile.
+
+**Enablement steps:**
+
+1. Make a note on the Approvals tab and tag each job approver who approved the job last. Note the date approved and let them know that no action is needed, that you are not adding additional headcount, and that you will be reapproving on their behalf as they have already approved.
+1. Open a draft opening through the Approvals tab with "TEMP" in all empty mandatory fields.
+1. Approve on behalf of Total Rewards (job approval step 1).
+1. Mark the candidate unhired on their candidate profile.
+1. Remove the temporary opening on the approvals page. This will happen in two steps: first, you'll need to close the opening (using the same process you used to open it), save, and then go back in again to delete the record of the opening. There is a bug in Greenhouse that impacts pop-ups during this stage, so you may need to resize your browser if you're not seeing confirmation messages.
+1. Approve the final approvals on behalf of those who originally approved.
+1. Inform any involved parties of the unhiring status who will be taking next steps.
 
 ## Job Change Letter
 
@@ -373,7 +390,7 @@ JCLs should be treated like contracts, where RSUs are only features in US ones a
 A contractor conversion is when a GitLab contractor is moving into a permanent position. Recruiters should communicate to their CES partner that a candidate is going through a contractor conversion process. You can confirm this by checking that the “source” says Contractor Conversion, which will show up on the requisition. CES team members will follow the same steps as a regular contract, however there are a few nuances to note:
 
 1. **Reference Check Forms:** You will need to ensure the candidate has completed the reference check form. You may need to remind recruiters that this is required when contractors transition to a permanent position. The candidate does not need to provide references again however, they will need to disclose outside work and PIAA.
-1. **Start Dates:** You may find that start dates with contractor conversions have quicker turnaround times so there are no gaps between a contract end date and a new hires’ start date (i.e. a request to start in less than 10 business days, or to start on a non-start date). Please continue to follow the [Hiring SLA Exception](https://handbook.gitlab.com/handbook/hiring/talent-acquisition-framework/coordinator/#send-contract) workflow to gain People Connect’s approval in these instances and indicate that this is a contractor conversion.
+1. **Start Dates:** You may find that start dates with contractor conversions have quicker turnaround times so there are no gaps between a contract end date and a new hires’ start date (i.e. a request to start in less than 10 business days, or to start on a non-start date). Please continue to follow the [Hiring SLA Exception](/handbook/hiring/talent-acquisition-framework/coordinator/#send-contract) workflow to gain People Connect’s approval in these instances and indicate that this is a contractor conversion.
 1. **Background Checks:** Please check with the Senior Background Check Specialist in the [backgroundchecks-ces](https://gitlab.enterprise.slack.com/archives/C05ATK8B4V9) Slack channel to confirm if you need to initiate a new background check. If there is no gap between the contract and the permanent position, you may not need to initiate a new background check.
 1. **Mark as Hired:** After you mark a candidate as hired in Greenhouse, you will need to leave a comment notifying People Connect in the [peopleops-alerts](https://gitlab.enterprise.slack.com/archives/CLTBQ9XC7) Slack channel that it is a contractor conversion.
 1. **Laptop/IT:** For all contractor conversions, CES will need to confirm with IT Ops via the [people-connect_CES](https://gitlab.enterprise.slack.com/archives/GJT1K944Q) Slack channel whether the candidate will need a new laptop or not.
@@ -430,6 +447,7 @@ Always ensure the start date is on a Monday, unless Monday is a holiday or the n
     - If the offer does not include draw language, Legal will confirm which part of the offer template should be removed.
 
 Once this information has been received, please go onto GH and follow the steps below:
+
 1. Click on the settings icon
 1. Select ‘Offer Templates’ on the left-hand side
 1. Search for the Template as advised by Legal
@@ -634,7 +652,7 @@ If there are any questions, these should be directed to help@remote.com.
 1. Click submit
 1. Your candidate has been submitted successfully. You will be redirected to the papaya homepage
 
-## Once the candidate is upload onto the Papaya platform:
+## Once the candidate is upload onto the Papaya platform
 
 1. Once you submit the candidate, an alert will be sent to Papaya to inform them of the new project
 1. Katie Taylor - KatieTa@papayaglobal.com (Customer Success Manager at Papaya who looks after GitLab) will reach out to the CES to confirm that she has received the alert. Should she ask for permission to contact the candidate directly - please confirm this ASAP. Papaya will validate the information submitted into the platform and reach out to CES or the candidate should there be any immediate questions regarding the contract information shared
@@ -647,7 +665,6 @@ If there are any questions, these should be directed to help@remote.com.
 1. Once CES approves the offer, Papaya will extend it to the candidate.
 1. Should there be any questions or amendments that need to be made, depending on their complexity, they could have to be directed to the Local Team (48 hours), then back to the Legal Team (24 hours), before making its way back to us again for reapproval, then issued to the candidate again.
 1. Once the candidate accepts, Papaya will inform us.
-
 
 **GitLab and New Hire:**
 
@@ -674,38 +691,31 @@ Once the Labor Contract has been signed by both CIIC and the new hire the indivi
 
 ## Employment Agreements for GitLab team members in Germany
 
-According to the revised German Contract process, contracts require wet signatures which means that besides contracts being e-signed, GitLab also requires physical copies of the contract to be signed by both parties.
-
+According to the revised German Contract process, contracts require wet signatures, which means that besides contracts being e-signed in Docusign, GitLab also requires physical copies of the contract to be signed by both parties.
 
 To initiate the process to submit the contract for e-signatures via DocuSign:
 
 1. CES will ensure that the start date is either a Monday, or the 1st or 16th of the month
-1. CES will send German Contract Step 1 template email via Greenhouse
-1. Offer can be sent through Greenhouse and DocuSign. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/  #entity-contract-signatories)
-1. Download a copy of the unsigned contract on your desktop (*additional steps below).
+1. CES will send the German Contract Step 1 template email via Greenhouse
+1. The offer can be sent through Greenhouse and DocuSign. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
+1. Download a copy of the unsigned contract onto your desktop from Greenhouse.
 1. Initiate the background check. Please use the Germany Package from the drop down in Sterling.
 
 **Once the Contract has been e-signed via DocuSign by both parties, please follow the steps below on how to send the contract in PDF format to the German counsel**
 
 Please follow the outlined steps below before sending the unsigned copy of the Contract to the Counsel:
 
-- (*)Open the saved unsigned contract in Google Drive, remove GitLab signatory from the below fields -
+- Open the saved unsigned contract in Google Drive, remove GitLab signatory from the below fields -
     1. **Summary Key of Terms** - Delete the GitLab Signatory's name and leave the field blank.
     1. **Scroll down to the end of the contract** - replace Signatory's name with “GitLab Signatory”. Save the contract as a PDF format.
-- To send the contract out to the German Counsel, CES can follow the below email structure through Gmail-
+- To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
     - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
     - **Subject line**  : Please Send Physical Contract for “Name of the new hire”
-    - **Body of the email** : Expand the Text expander snippet “ GCtogermancounsel”
+    - **Body of the email** : Expand the Text expander snippet “GCtogermancounsel”
     - **Attachment** : CES to attach the unsigned PDF contract
-- In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the “email the “candidate name” function, select the template “ German Contract already sent to counsel”.
+- In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the “email the “candidate name” function, select the template “German Contract already sent to counsel”.
 - A welcome email should be sent to the candidate, and they should be marked as hired as per the normal hiring process.
 - Once the candidate has confirmed that they have received the physical contract in mail. CES will send the email template "German Contract step 2" to the candidate and close out the issue.
-
-Former QES instructions: As of August 1, 2022, we are no longer able to send contracts through Qualified Electronic Signature. We are keeping the instructions here for 6 months while we await any changes to the law, and will remove them if the laws do not change again. To send a contract with QES, select "edit recipients" in DocuSign when editing your contract, select "customize", and choose "select signature type". Select IDNow - EU Qualified. You should select this for **both** signatories. Do not select this for anyone who is CC'ed.
-
-This additional step will require signatories to present government issued identification to the IDNow team when signing their contract.
-
-If you cannot find the QES option on your DocuSign, you may need to switch your open account. Select your name in the upper right corner of DocuSign. If it says the account is "GitLab Main", switch your access to your PeopleOps account. If you do not see another account, please check with Enablement.
 
 ## Employment Agreements for GitLab team members in Japan
 
@@ -723,17 +733,18 @@ The Intern contract template will be used for both C2C interns and all other int
 1. Once approved, CES to send the contract using the "INC Intern" template in GH. Some important details needed in the offer details will be the hourly rate of pay and the end date of the contract (since this is not an indefinite contract). Please ensure these details are in the offer before generating.
 1. After the offer is sent, CES will initiate the background check by selecting the Comprehensive Criminal Check with Employment. **IMPORTANT NOTE - If this is a C2C (Code2College) intern - you will only need to select the Comprehensive Criminal Check in Sterling. Employment check is not needed as most C2C interns will be minors.**
 1. Because most interns from C2C are minors, at the time the BGC is initiated, CES will also need to send the [Parental Consent Form](https://docs.google.com/document/d/1J0xundRL___Hhg0zNkt7KTMMEgTv63U5rseqTlmv8ok/edit) to the interns guardian.
+
  - This form can be send via DocuSign
  - Please add appropriate tokens
  - Please set up distribution as follows (guardian email can be recieved from Emerging Talent Coordinator):
     - 1. Guardian - Needs to sign
     - 2. Emerging Talent Coordinator - receives a copy
+
 1. Once the offers are signed by the candidate, CES will send the GitLab Inc Intern Welcome Email. **Note: GitLab will provide laptops to these interns. The Welcome Email asks them to fill out form ASAP**
 1. Once the req is cleared, CES can mark the Intern as hired.
 1. CES will ping People Connect in the #peopleops-alerts slack channel to let them know they just hired in an Intern. **please indicate if they are C2C in your messaging to them**
 1. Once Intern is hired into the system - they will move to the responsibility of People Connect who will create onboarding issues and communicate information about the TaNewKi call.
 1. If you are notified that the C2C intern requires a "youth work permit", please send form over to People Connect. They will be required to fill out the "employer" portion and submit to the intern/guardians.
-
 
 ## Employment Agreements for GitLab team members located everywhere else (IT BV contractor agreements)
 

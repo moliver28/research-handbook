@@ -1,12 +1,6 @@
 ---
-
 title: "Workflow Automation"
 ---
-
-
-
-
-# Introduction
 
 The Engineering Productivity team owns the tooling and processes for GitLab's internal workflow automation. [Triage-ops](https://gitlab.com/gitlab-org/quality/triage-ops) is one of the main projects the EP team maintains, which empowers GitLab team members to triage issues, MRs and epics automatically.
 

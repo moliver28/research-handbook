@@ -89,6 +89,10 @@ Projects without the expected configurations can be found in the [inventory viol
 
 Learn more about the [GitLab AppSec Inventory]({{< ref "inventory" >}}).
 
+## Responding to customer scan review requests
+
+Please see the [Responding to customers security scanners review requests page][15]
+
 ## Reproducible Vulnerabilities
 
 Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities][11].
@@ -117,3 +121,4 @@ Please see the [Application Security Automation and Monitoring page][12]
 [12]: {{< ref "application-security-automation-monitoring" >}}
 [13]: {{< ref "reproducible-builds" >}}
 [14]: {{< ref "milestone-planning" >}}
+[15]: {{< ref "responding-customers-scan-review-requests" >}}

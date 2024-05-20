@@ -1,4 +1,3 @@
-baseURL: https://handbook.gitlab.com
 languageCode: en-US
 locale: en-US
 title: The GitLab Handbook
@@ -51,15 +50,11 @@ params:
         url: "https://gitlab.slack.com/archives/C81PT2ALD"
         icon: "fab fa-slack"
         desc: "#handbook on Slack"
-      - name: "Preferences"
-        url: "/preferences/"
-        icon: "fa-solid fa-sliders"
-        desc: "Handbook Preferences"
       - name: "Repository"
         url: "https://gitlab.com/gitlab-com/content-sites/handbook"
         icon: "fa-solid fa-code-branch"
         desc: "GitLab project"
-      - name: "Editing"
+      - name: "Edit the site"
         url: "/docs/development"
         icon: "fa-solid fa-edit"
         desc: "Contribute to the handbook"
@@ -95,6 +90,9 @@ outputformats:
 
 markup:
   goldmark:
+    renderHooks:
+      link:
+        enableDefault: true
     parser:
       attribute:
         block: true
@@ -111,7 +109,7 @@ markup:
 
 security:
   funcs:
-    getenv: [ "^HUGO_", "PERISCOPE_EMBED_API_KEY", "PRODUCT_ANALYTICS_APP_KEY", "PRODUCT_ANALYTICS_HOST" ]
+    getenv: [ "^HUGO_", "PERISCOPE_EMBED_API_KEY", "PRODUCT_ANALYTICS_APP_KEY", "PRODUCT_ANALYTICS_HOST", "PUBLIC_HANDBOOK_REF" ]
 
 canonifyURLs: true
 pluralizeListTitles: false

@@ -22,7 +22,6 @@ To deliver on the mission, we are in the process of formalising the building blo
   <iframe src="https://www.youtube.com/embed/Vui6_iULzPw" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
 ## Direction
 
 In FY25, teams in the Platforms Section of the Infrastructure Department have collaborated on [the "North Star"](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1097), which is then used to set [the SaaS Platforms Strategy](https://gitlab.com/groups/gitlab-com/-/epics/2243).
@@ -37,7 +36,7 @@ We collaborate on the section level items in the [#s_platforms](https://gitlab.s
 
 For communication between managers, we have [#g_saas_platforms_leads](https://gitlab.slack.com/archives/C010QV6RRB3) channel. Everyone interested is welcome to join this channel if they find the topics interesting. We also have [a confidential managers channel](https://gitlab.slack.com/archives/G010N73CXJ6) that is used to discuss staffing issues affecting all teams that require additional coordination.
 
-Queries to Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution. 
+Queries to Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
 
 Once per week, we hold a `Platforms leads call` to align on action items related to career development, general direction or answer any ongoing questions that have not been addressed async. The call is cancelled when there are no topics added on the morning of the call.
 
@@ -62,7 +61,6 @@ In an effort to enhance the tracking and resolution of requests directed to the 
 
 Agents responsible for handling these issues are defined in a JSON file, which serves as a [CI/CD variable](https://ops.gitlab.net/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-creator/-/settings/ci_cd). Currently, this file contains a static list of all members of the infrastructure department.
 
-
 ### Project and Backlog Management
 
 We use epics and issues to manage our work. [Our project management process](/handbook/engineering/infrastructure/platforms/project-management/) is shared between all teams in SaaS Plaforms.
@@ -75,16 +73,15 @@ The Platforms section builds and maintains various tools to help deploy, operate
 
 [OKRs](/handbook/company/okrs/) (or other items outside of projects) that require progress tracking should be updated **every Wednesday**.
 
-
 When writing OKRs, the guidance is that:
 
-* Objective is defined as “**What** do you want to achieve?”
-* Key Results is defined as “How will you know **when** you’ve achieved the objective?”
-* As part of a KR, you can also have a sub point - which will likely tie to an epic. This would be an “Initiative”, defined as “**How** are you going to achieve your key result?”
+- Objective is defined as “**What** do you want to achieve?”
+- Key Results is defined as “How will you know **when** you’ve achieved the objective?”
+- As part of a KR, you can also have a sub point - which will likely tie to an epic. This would be an “Initiative”, defined as “**How** are you going to achieve your key result?”
 
 The OKR Description should have the following format:
 
-```
+```markdown
 ### Context
 
 <context about the Objective and the problem it is trying to solve>
@@ -109,7 +106,7 @@ All the statuses of the Epics linked to the OKR (`Linked Epics` table) should be
 At the end of the quarter, each OKR should have a retrospective section at the top of the Description field,
 with the format below:
 
-```
+```markdown
 ### Retro
 
 #### Good

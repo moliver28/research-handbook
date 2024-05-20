@@ -17,6 +17,7 @@ description: "The GitLab Development Metrics Working Group aims to speed up the 
 Speed up the time to deliver value to our customers by creating new development & quality metrics, interpreting them and implementing improvements.
 
 Areas:
+
 - Development velocity and throughputs.
 - Time to triage and fix defects.
 - Time to resolve customer defects.

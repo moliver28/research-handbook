@@ -8,6 +8,7 @@ description: "The Anti-Abuse group creates controls to prevent abuse of the GitL
 Our goal is to provide Insider Threat features for your applications as well as GitLab itself. We will help proactively identify malicious activity, accidental risk, compromised user accounts or infrastructure components, anomalous use of the GitLab platform, and various high-risk behaviors where actionable remediation steps are possible.
 
 ## How we work
+
 - We work in accordance with our [GitLab values](/handbook/values/).
 - We work [transparently](/handbook/values/#transparency) with nearly everything public.
 - We get a chance to work on the things we want to work on.
@@ -104,7 +105,7 @@ We use issue labels to keep us organized. Every issue has a set of required labe
 
 ### Merge request labels
 
-MR labels can mirror issue labels (which is automatically done when created from an issue), but only certain labels are required for correctly [measuring engineering performance](#measuring-engineering-performance).
+MR labels can mirror issue labels (which is automatically done when created from an issue), but only certain labels are required for correctly measuring engineering performance.
 
 **Required labels**
 
@@ -119,7 +120,7 @@ We tag each issue and MR with the planned milestone or the milestone at time of 
 
 Our group holds synchronous meetings to gain additional clarity and alignment on our async discussions. We aspire to [record](/handbook/tools-and-tips/zoom/) all of our meetings as our team members are spread across several time zones and often cannot attend at the scheduled time.
 
-We have a weekly team sync meeting with rotating [EMEA/AMER](https://drive.google.com/drive/folders/1nm7FRZ0f9T4ajbmJvz4LYLVWl5cXiXiQ?usp=sharing) and [AMER/APAC](https://drive.google.com/drive/folders/1wLdWWi3f6Aho6E2m4Xbhv1Nuoy_ZSC1e?usp=sharing) friendly time slots: Weds 14:30 UTC and Thurs 00:00 UTC.
+We have a weekly team sync meeting with rotating [AMER](https://drive.google.com/drive/folders/1ZPjzqSaMslSQXe7ZA0IHK4gbCTv25MYC?usp=sharing) and [AMER/APAC](https://drive.google.com/drive/folders/1wLdWWi3f6Aho6E2m4Xbhv1Nuoy_ZSC1e?usp=sharing) friendly time slots: Tues 18:30 UTC and Weds 00:00 UTC.
 
 We have a weekly refinement session Friday 00:00 UTC.
 

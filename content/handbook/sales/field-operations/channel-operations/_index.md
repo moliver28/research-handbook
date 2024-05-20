@@ -15,7 +15,7 @@ description: "This page serves as the Partner Operations team page and includes 
 
 
 
-# Welcome to the Partner Operations Page!
+# Welcome to the Partner Operations Page
 
 ### Vision
 
@@ -195,7 +195,7 @@ GitLab is building out a global Authorized Distributor network similar to many o
 - Open Partners located in regions/countries with active Authorized GitLab Distributors must purchase GitLab via those distributors
 - Select Partners may choose to transact directly with GitLab (excluding certain regions) or via the region's authorized distributor(s)
 - In NORTH AMERICA, Partners transact with [Climb Solutions](https://www.climbcs.com/) via `sales@climbcs.com` and `sales@climbcs.ca` in the US and Canada, respectively
-- In EMEA: Partners transact with Amazic via `gitlab@amazic.com`
+- In EMEA: Partners transact with [Amazic](https://distribution.amazic.com/) via `gitlab@amazic.com`
   - In META (Middle East, Turkey, and Africa): Partners may also choose to transact with [Mindware](https://www.mindware.net/contact-us) via `sales@mindware.net`
 - In APAC (several countries):  Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html) via `GitLab.APJ@techdata.com`
   - In India: Partners may also choose to transact with Redington via `gitlab@redington.co.in`
@@ -413,26 +413,26 @@ There can only be one Partner Sourced Deal Registration approved for an opportun
 
 ### Partner Sourced Deal Registration: How it Works
 
-_The Partner Portal is hosted by Impartner and has SSO enabled with Vartopia, the partner-facing Deal Registration system. GitLab uses a third-party managed services team to help manage the administrative process for Deal Registration.*
+The Partner Portal is hosted by Impartner and has SSO enabled with Vartopia, the partner-facing Deal Registration system.
 
-**Partner****
+**Partner**
 
 The partner submits a Partner Sourced Deal Registration and then the following occurs:
 1. An email is sent to the partner acknowledging that the deal registration has been successfully created and submitted. The registration is also viewable in the deal registration section of the partner’s portal account.
 2. The system creates a Registration record on the Registration object in SFDC that includes all the details of the registration.
-3. The system notifies the Managed Services team to review the registration.
+3. The system notifies the Partner Operations team to review the registration.
 
-**Managed Services Team**
+**Partner Operations**
 
-The Managed Services team reviews the registration after it is submitted by the partner (`DR-Status` = “Submitted”). If there is:
-- *an existing customer account in SFDC*, they will link the account and contact to the registration, assign the appropriate Partner Manager, then submit the registration for Partner Manager approval.
-- *no existing customer account in SFDC*, they will create the account, link the account and contact to the registration, then hold for SFDC to assign the account territory and owner in an overnight update. The Managed Services team will assign the appropriate Partner Manager to the registration after customer account assignments are completed by system, then submit the registration for Partner Manager approval.
+The Partner Operations team reviews the registration after it is submitted by the partner (`DR-Status` = “Submitted”). If there is:
+- *an existing customer account in SFDC*, they will link the account and contact to the registration, assign the appropriate Partner Territory Manager, then submit the registration for Partner Territory Manager approval.
+- *no existing customer account in SFDC*, they will create the account, link the account and contact to the registration, then hold for SFDC to assign the account territory and owner in an overnight update. Partner Operations will assign the appropriate Partner Territory Manager to the registration after customer account assignments are completed by system, then submit the registration for Partner Territory Manager approval.
 
-The Partner Manager on the registration is automatically assigned as the `Account Owner` of the Partner Account in SFDC. GitLab’s Managed Services team will reassign the registration to the correct Partner Manager as part of their review in cases where adjustment is required to align the appropriate Partner Manager based on customer account territory or ownership. The Managed Services team has a 2 hour SLA to action registrations within their working hours of 8am to 6pm ET, Monday through Friday.
+The Partner Territory Manager on the registration is automatically assigned as the `Account Owner` of the Partner Account in SFDC. Partner Operations will reassign the registration to the correct Partner Territory Manager as part of their review in cases where adjustment is required to align the appropriate Partner Territory Manager based on customer account territory or ownership. The Partner Operations team has a 2 hour SLA to action registrations within their working hours, Monday through Friday.
 
 **GitLab Partner Territory Manager**
 
-The Partner Territory Manager receives an email notification to review the Partner Sourced Deal Registration once the Managed Services Team has actioned the registration and submitted it for approval (`DR-Status` = “Pending Sales Review”). Partner Territory Managers can also view registrations in their list view within the SFDC Registration tab. The Partner Territory Manager is responsible for reviewing the registration and communicating with the applicable GitLab Sales Rep and ASM during this process. The Partner Territory Manager must either approve, reject, or return the registration for additional information after completing their review. If they approve, it will automatically be sent to the appropriate ASM for final review.
+The Partner Manager receives an email notification to review the Partner Sourced Deal Registration once the Partner Oprations Team has actioned the registration and submitted it for approval (`DR-Status` = “Pending Sales Review”). Partner Managers can also view registrations in their list view within the SFDC Registration tab. The Partner Manager is responsible for reviewing the registration and communicating with the applicable GitLab Sales Rep and ASM during this process. The Partner Manager must either approve, reject, or return the registration for additional information after completing their review. If they approve, it will automatically be sent to the appropriate ASM for final review.
 
 **GitLab Area Sales Manager (ASM)**
 
@@ -444,7 +444,7 @@ Alliance marketplace and OEM partners, and GSI partners do source opportunities 
 
 The steps below outline how a Partner Sourced Deal Registration is submitted on behalf of an alliance or GSI partner to initiate the Deal Registration process:
 1. The GitLab Partner Manager opens the [Alliance and GSI Partner Sourced Deal Registration](https://docs.google.com/document/d/16wTiDbwBoomUmnu2y4OmAAdC4VpvMIUGL1k4vdSrl2Y/edit?usp=sharing) document and follows the instructions to submit a Registration via the google form.
-2. The Managed Services team uses the data provided in the google form to submit a formal Partner Sourced Deal Registration via Vartopia on behalf of the partner.
+2. Partner Operations team uses the data provided in the google form to submit a formal Partner Sourced Deal Registration via Vartopia on behalf of the partner.
 3. The standard Partner Sourced Deal Registration process is then followed beginning with the “Partner” paragraph at the top of this handbook section.
 
 *Note, Partner Sourced Deal Registration incentives do not apply to alliance partners, as our alliance partner agreements supersede these programmatic incentives.*
@@ -503,7 +503,7 @@ Follow the steps below to process a Partner Sourced Deal Registration for a resa
 
 #### Partner Manager for first review and action
 
-1. The Managed Services Team:
+1. Partner Operations Team:
    - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Manager review while in `DR-Status` = *Submitted*.
    - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Manager to review and action the registration.
 2. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
@@ -548,7 +548,7 @@ Follow the steps below to process a Partner Sourced Deal Registration for an MSP
 
 #### Partner Manager for first review and action
 
-1. The Managed Services Team:
+1. Partner Operations Team:
    - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Manager review while in `DR-Status` = *Submitted*.
    - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Manager to review and action the registration.
 2. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
@@ -594,7 +594,7 @@ Follow the steps below to process a Partner Sourced Deal Registration for a Refe
 
 #### Partner Manager for first review and action
 
-1. The Managed Services Team:
+1. Partner Operations Team:
    - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Manager review while in `DR-Status` = *Submitted*.
    - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Manager to review and action the registration.
 2. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
@@ -639,7 +639,7 @@ Follow the steps below to process a Service Attached Registration for an applica
 
 #### Partner Manager for first review and action
 
-1. The Managed Services Team:
+1. Partner Operations Team:
    - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Manager review while in `DR-Status` = *Submitted*.
    - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Manager to review and action the registration.
 2. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
@@ -702,7 +702,7 @@ For more information on quoting or the Partner Program, please visit:
 - [Partner Program](/handbook/resellers/)
 - [Channel Discount Matrices for GitLab Team Members](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit?usp=sharing).
 
-## Partner Influence 
+## Partner Influence
 
 Partners can influence GitLab opportunities without sourcing or transacting the deal. The Partner Sales team is required to submit an internal Partner Influence Registration which must be approved by the ASM to receive influence credit for an opportunity.
 
@@ -715,7 +715,7 @@ Qualifying partner influence activities include customer executive engagement an
 - Deliver customer strategy that recommends GitLab
 - Advise GitLab acct. Team on customer strategy/use case/pain points
 
-Partner Influence Registration should only be submitted and approved for: 
+Partner Influence Registration should only be submitted and approved for:
 1. a partner that did not source and/or transact the opportunity
 2. one partner (i.e., one approved Influence Registration/Partner per opportunity). Only the first approved record will qualify if multiple influence registrations are submitted and/or approved for one opportunity.
 
@@ -730,8 +730,8 @@ Follow the steps below to register partner influence on an opportunity:
 1. Add a partner to the `Influence Partner` field using the lookup button
 1. Select the applicable `Influence Type`:
     - Customer executive engagement and advocacy
-    - Working side by side with GitLab on customer pursuit. 
-1. Select one or more applicable partner influence activities using `Influence Details`: 
+    - Working side by side with GitLab on customer pursuit.
+1. Select one or more applicable partner influence activities using `Influence Details`:
    - Introduction to a customer decision maker or C-Suite
    - Host or participate in exec briefing advocating for GitLab
    - Trusted exec or technical advisor proactively advocating for GitLab
@@ -743,7 +743,7 @@ Follow the steps below to register partner influence on an opportunity:
 1. Do not edit `Opportunity Owner`, `ASM`, `Partner Territory Manager` and `Customer Account`. These will auto-populate upon save
 1. `Save` the Influence Partner Record
     ![Alt text](image-1.png)
-1. Attach any supporting documentation that highlights the partner's influence on the opportunity via `Google Docs, Notes, & Attachments` section. 
+1. Attach any supporting documentation that highlights the partner's influence on the opportunity via `Google Docs, Notes, & Attachments` section.
 1. Click `Submit for Approval` to route the Influence Registration to the ASM for final review and action
     ![Alt text](image-2.png)
 
@@ -980,7 +980,7 @@ The following partner forecast dashboards have been published for FY25. Please u
 All forecasting for the partner organization is done in Clari. Please use the following enablement guides to learn how to naivgate the tool and understand the forecasting process.
 - [Clari Partner Handbook](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#partner-forecasting)
 - [Clari Cheat Sheet and Enablement Deck](https://docs.google.com/presentation/d/1MzRR0Y5y4J9OCyAxoPzvxsY8cnzeQlPJp0C5_r4oaZ4/edit#slide=id.g28468b8eaf0_0_36)
-- [Clari Demo](https://gitlab.zoom.us/rec/play/7ZHwgYej0z7TGLDn_-Gi8NpUz0Adx0c8Z2mu0mVnyFF7pyKIvIpYvwrAP_Zx95AXQBen2SPcEPR4gZIM.MjCFFXOxTc8aPfO8) 
+- [Clari Demo](https://gitlab.zoom.us/rec/play/7ZHwgYej0z7TGLDn_-Gi8NpUz0Adx0c8Z2mu0mVnyFF7pyKIvIpYvwrAP_Zx95AXQBen2SPcEPR4gZIM.MjCFFXOxTc8aPfO8)
 
 
 ## Alliances and OEMs
@@ -1049,7 +1049,7 @@ Just as our partners register opportunities with GitLab, Partner Managers should
 AWS registrations can be received and submitted directly through your SFDC opportunity using the Labra Referrals and Labra Leads tools. Instructions can be found in this [Labra Process Guide](https://docs.google.com/document/d/1wdru-IPPj-lKnq4n25XQGPH3d06Z1xClxXnNdHE7LwU/edit#heading=h.rfec1j50uxik).
 
 #### Google Cloud
-GCP registrations are submitted on GitLab's behalf by the GCP team. To register a new opportunity with GCP, please click the following link and fill out the form. 
+GCP registrations are submitted on GitLab's behalf by the GCP team. To register a new opportunity with GCP, please click the following link and fill out the form.
 
 [New GitLab Opportunity Registration for GCP](https://docs.google.com/forms/d/e/1FAIpQLScEsVcfRBILkrSs73vUeqkzfi_nTuK4Tluv-HBUw230pWuRXw/viewform)
 
@@ -1057,6 +1057,6 @@ GCP registrations are submitted on GitLab's behalf by the GCP team. To register 
 
 The executed compensation letter should be the approved and legal source of truth for compensation. However please use the following resources to assist in clarification or exceptions.
 
-[Sales Commissions Internal Handbook](https://internal.gitlab.com/handbook/sales/sales-commission/?redirected-from=internal-handbook.gitlab.io)
+[Sales Commissions Internal Handbook](https://internal.gitlab.com/handbook/sales/sales-commission/)
 
-[FY24 Partner Comp Exception Process](https://docs.google.com/document/d/1sUVZDDua5JB1omVUbqBkxA1NAhSed66sjzfIBaVIkGg/edit?usp=sharing)
+[FY25 Partner Comp Exception Process](https://internal.gitlab.com/handbook/sales/sales-commission/#request-for-splits-additional-credits-new-logo-exception-lam-dev-count-override-or-churn-exception)

@@ -9,7 +9,6 @@ description: "GitLab.com performance dashboards"
 The purpose of these dashboards is to show performance of GitLab.com for users who allow us to collect performance data via snowplow. This
 can be used to determine where there are potential performance issues in the product in order to improve the overall user experience.
 
-
 [Overall performance dashboard](https://app.periscopedata.com/app/gitlab/790506/gitlab.com-performance-per-snowplow-dashboard)
 {.h3}
 
@@ -22,6 +21,7 @@ This dashboard shows:
 - Average and 99th percentile time for key subcomponents of the total load time such as request, redirect, DOM, and processing time.
 
 This can answer questions such as:
+
 - Is performance improving over time?
 - Is performance correlated to the amount of page hits?
 - Where is most of the time spent in terms of components of the web pages loading?
@@ -40,6 +40,7 @@ This can answer questions such as:
 - Percentage of total page hits for the time period
 
 This can answer questions such as:
+
 - When did performance issues spike?
 - Were there incidents during those times?
 - Was there background maintenance going on during those times?
@@ -82,7 +83,6 @@ This can answer questions such as:
 - What are the performance metrics of these routes?
 - Based on above, which routes should be analzyed for potential performance improvements?
 
-
 ## [Route drilldown dashboard](https://app.periscopedata.com/app/gitlab/815841/gitlab.com-performance-per-snowplow-per-route)
 
 ### How to use this page
@@ -108,7 +108,6 @@ This can be used to determine:
 
 - When is this page slow (by day, by hour, by hour of the day, by day of the week)?
 - What are some examples that were slow that can be analyzed to determine the causes as to why?
- 
 
 ## Snowplow metrics
 
@@ -119,7 +118,6 @@ More information on snowplow metrics:
 - [Snowplow infrastructure](https://gitlab.com/gitlab-com/gl-infra/readiness/-/tree/master/library/snowplow)
 - [Sitespeed dashboards](/handbook/engineering/performance/#all-sitespeed-dashboards)
 - [Flow of a web request](/handbook/engineering/performance/#flow-of-web-request)
-
 
 ## How is this different than LCP?
 

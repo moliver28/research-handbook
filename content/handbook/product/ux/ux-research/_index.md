@@ -125,6 +125,7 @@ Below is a full list of our UX Research team handbook content:
 
 ### Measures and processes the UX Research team is responsible for
 
+- [Product Customer Satisfaction (CSAT) Survey](/handbook/product/ux/performance-indicators/csat/)
 - [System Usability Scale](/handbook/product/ux/performance-indicators/system-usability-scale/)
      - [System Usability Scale responder outreach](/handbook/product/ux/performance-indicators/system-usability-scale/sus-outreach/)
 - [Paid NPS (Deprecated)](/handbook/product/ux/performance-indicators/paid-nps/)
@@ -134,4 +135,3 @@ Below is a full list of our UX Research team handbook content:
 - [Tracking research velocity](/handbook/product/ux/ux-research/tracking-research-velocity/)
 - [Tracking gold, silver, and bronze UX research projects](/handbook/product/ux/ux-research/tracking-research-projects/)
 - [Tracking actionable insights](/handbook/product/ux/ux-research/tracking-actionable-insights/)
-

@@ -17,6 +17,7 @@ Anna Piaseczna; Senior Manager, Billing Operations GPO
 ## How do we work?
 
 The body of work can be divided between:
+
 - the projects as they relate to pre-planned GitLab issues and epics,
 - the ad-hoc tasks like reporting, UAT testing (less than an hour), providing expertise.
 

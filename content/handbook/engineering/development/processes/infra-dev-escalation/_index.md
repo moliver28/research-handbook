@@ -13,7 +13,6 @@ title: General Information of Development Escalation Process
 
 This page outlines the background, goals, success criteria, and implementation detail of infrastructure escalation process and Q&A.
 
-
 ## Background
 
 Historically there have been challenges in consistently maintaining our service level for GitLab.com customers. See the impacts in this [GitLab.com performance degradation summary document](https://docs.google.com/document/d/1GfwzPc1uavB5ZuiA9O8l5sUD7Sq2l2BlwevM5AvOtZA/edit).
@@ -30,9 +29,10 @@ Note that the Infrastructure team keeps playing the first defense role on the fr
 
 This new process will need development engineers on-call based on a rotation schedule. For more details, please refer to the [**full description of on-call process**](./process.html).
 
-
 ## Goals
+
 The on-call process was designed with the following goals in mind -
+
   * Clear expectations, responsibility, and accountability.
   * Full 24x7 coverage to shadow the Infrastructure team.
   * Layered escalations to ensure SLO.
@@ -42,11 +42,13 @@ The on-call process was designed with the following goals in mind -
   * Leaving engineers in control of their own working schedules
 
 ## Success Criteria
+
   * Meet development’s SLO of timely response to infrastructure escalations.
   * No on-call engineer is burned out.
   * Planned development work is minimally impacted.
 
 ## Implementation
+
 Refer to the Process section above for how to get started and keep running. In the spirit of iteration, the process will be continuously tuned and improved as we learn through practice.
 
 An async retro issue will be registered and every participant is encouraged to enter feedback in the issue any time. A review will be held at 3-month checkpoint then determine next steps.
@@ -56,11 +58,13 @@ An async retro issue will be registered and every participant is encouraged to e
 We want to be sure to show our appreciation for those who take support rotations, especially on the weekends. Every quarter, engineering directors and managers are encouraged to write a thank you message to all who did weekend support rotations (naming each person and how many rotations they did) in the previous quarter in the `#Thanks` Slack channel.  They are also encouraged to `@` mention their managers, so they are also aware.
 
 The reasons for doing this:
+
 * It is not readily apparent how many weekend support rotations are taken by each engineer unless reviewed over a long time period.
 * It is easy to forget to periodically do this over a long time-period unless it is part of a documented process.
 * Doing this manually vs. via automation makes it more personalized and shows genuine appreciation.
 
 ## Q&A
+
 **Q: Why do we need development engineers on-call?**
 
 **A:** In the investigation of recent performance degradation incident, it became apparent that deeper product knowledge is necessary to root cause the issue and develop sound solutions. Although infrastructure engineers are good at dealing with most incidents, it is the development engineers who are able to suggest the best short term workaround or temporary fix quickly when the issue involves deep insight into the implementation details.
@@ -76,6 +80,7 @@ The reasons for doing this:
 **Q: Can we make it volunteer based?**
 
 **A:** In theory, yes. However, there are a few things to keep in mind.
+
   * What if a majority of volunteers are concentrated in nearby time zones?
   * If ALL volunteers are called upfront, what if this ends up with a very small group?
   * If volunteers are called dynamically e.g. before next rotation or month, there is ongoing administrative overhead and things can fall into cracks easily. What if no volunteer for a specific week? What if it ends up with always the same small group of people?
@@ -148,7 +153,7 @@ Mute all other channels but the escalation channel during a specific time period
 
 **Q: If we had this process in place for recent outages, would it have resolved them significantly faster? i.e. is the gap to find an engineer to support currently our biggest problem?**
 
-**A:**	If you look at the chart of outages as part of the Performance degradation (see above link), you will see outages on the June 5th, July 1st, 3rd.  Had we caught the issues and worked to address them on June 5th we could have prevented July 1st degradation.  July 3rd is half degradation, half attack.  So we would have minimized some level of impact here as well.  The time associated with this degradations is also high (540 minutes for July 1st) and we could have reduced that time as well.
+**A:**    If you look at the chart of outages as part of the Performance degradation (see above link), you will see outages on the June 5th, July 1st, 3rd.  Had we caught the issues and worked to address them on June 5th we could have prevented July 1st degradation.  July 3rd is half degradation, half attack.  So we would have minimized some level of impact here as well.  The time associated with this degradations is also high (540 minutes for July 1st) and we could have reduced that time as well.
 
 **Q: Isn’t this more about discipline of seeing incidents through to resolution, not just how quickly we respond to them? It feels the on-call process addresses the latter, but not former.**
 

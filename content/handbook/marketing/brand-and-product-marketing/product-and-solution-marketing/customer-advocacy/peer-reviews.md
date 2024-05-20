@@ -32,7 +32,7 @@ If you have any questions or want more direction on requesting customer response
 
 ### Maintenance Methodology
 
-GitLab's approach to Peer Review maintenance begins with identifying priority Peer Review sites and establishing vendor relationships with these companies.  We work within the policies and Rules of Engagement for each Vendor, and take the GitLab profile for each site and category under active management - allowing us to customize the presentation of each profile with our own content.  
+GitLab's approach to Peer Review maintenance begins with identifying priority Peer Review sites and establishing vendor relationships with these companies.  We work within the policies and Rules of Engagement for each Vendor, and take the GitLab profile for each site and category under active management - allowing us to customize the presentation of each profile with our own content.
 
 To curate each review appropriately, we create an issue within GitLab in the Peer Review Curation Project, which was created to act as a Content Management System for this purpose.  Each Review Issue is tagged with custom labels that function for retrieval to identify lifespan, itemize, expire, track, measure metrics, use cases, and GitLab product features.  This makes each review easily searchable via issue boards based on ad-hoc requests and recurring needs, and for Peer Review maintenance.
 
@@ -74,9 +74,9 @@ When available assets do not meet requirements, please submit a specific researc
 >- Make sure you use leave the labels contained in the template "Customer Reference Program," "Peer Review Request," which will direct it to the appropriate [Customer Reference Program Issue Board](https://gitlab.com/groups/gitlab-com/marketing/-/boards/927283?label_name[]=Customer%20Reference%20Program)
 >- assign it to @jlparker
 >- please give at least a 5-7 days notice, to give proper lead time
->- if your request is urgent or you have questions, please @jparker in slack  
+>- if your request is urgent or you have questions, please @jparker in slack
 
-___
+---
 
 ### Roadmap for Peer Reviews
 
@@ -124,7 +124,7 @@ ___
 - Miss out on new categories / opportunites and emerging market trends
 - Deficient content (Peer Review resources) that actively supports various departments (Sales/Marketing/Customer Support/Product Development)
 
-___
+---
 
 ### Vendor Evaluation Value
 
@@ -140,7 +140,7 @@ ___
 
 > Similar benefits to G2, in that reviews are not anonymous and less stringent on review references, additional benefit in that they attract Enterprise level reviews.
 
-___
+---
 
 ### Metrics
 

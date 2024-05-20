@@ -89,13 +89,13 @@ The video meta data are stored in the spreadsheets in the following format:
 |      |   A   |   B   |   C   |   D   |   E   |   F   |   G   |   H   |
 |------|-------|-------|-------|-------|-------|-------|-------|-------|
 | 1 | Video ID | Task/Team Name  | Channel Title  | Playlist Title |  Video URL  | Video Title  | Publication Date | GitLab Publication Quarter |
-| 2 | _OSDh_L5M_E |	Developer Relations - DA | GitLab Unfiltered |	Developer Advocacy Team | https://www.youtube.com/watch?v=_OSDh_L5M_E	 |  5. #everyonecancontribute cafe: HashiCorp Waypoint | 2020-05-27T22:43:09.000Z | FY21Q2 |
+| 2 | _OSDh_L5M_E |    Developer Relations - DA | GitLab Unfiltered |    Developer Advocacy Team | https://www.youtube.com/watch?v=_OSDh_L5M_E     |  5. #everyonecancontribute cafe: HashiCorp Waypoint | 2020-05-27T22:43:09.000Z | FY21Q2 |
 
 The spreadsheet data in the spreadsheet can be used as is for any further automation or process. In the case of the Developer Relations team, the data is fed into the `youtube_views_gitlab` sheet of the Content Asset Inventory [spreadsheet](https://docs.google.com/spreadsheets/d/1WzdX8o9wzuswIPMAYVUURswm2AtwFcVE6XhmHy1lhr8/edit#gid=0).
 
 ### CommunityApps - Campaign Manager
 
-The [CommunityApps Campaign Manager](https://campaign-manager.gitlab.com/) enables the team to manage the use of UTM campaigns in line with the [Marketing UTM strategy](https://handbook.gitlab.com/handbook/marketing/utm-strategy/). You can learn more about the [application here](https://handbook.gitlab.com/handbook/marketing/developer-relations/community-apps/campaign-manager/). The key role of CommunityApps in the Content Effectiveness workflow is to ensure the right UTM campaign codes are used and, in turn, their usage will be picked up by the data automation that powers the [Marketing Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?%3Aiid=1) on Tableau.
+The [CommunityApps Campaign Manager](https://campaign-manager.gitlab.com/) enables the team to manage the use of UTM campaigns in line with the [Marketing UTM strategy](/handbook/marketing/utm-strategy/). You can learn more about the [application here](/handbook/marketing/developer-relations/community-apps/campaign-manager/). The key role of CommunityApps in the Content Effectiveness workflow is to ensure the right UTM campaign codes are used and, in turn, their usage will be picked up by the data automation that powers the [Marketing Campaigns Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/CampaignDrillDown?%3Aiid=1) on Tableau.
 
 ### Looker Reports
 
