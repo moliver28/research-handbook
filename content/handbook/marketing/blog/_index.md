@@ -1,4 +1,5 @@
 ---
+
 title: "Blog Handbook"
 description: "Everything you need to know about suggesting and publishing a post on the GitLab Blog."
 ---
@@ -10,15 +11,14 @@ Welcome to the GitLab Blog handbook! The [GitLab Blog](https://about.gitlab.com/
 At GitLab, blog posts largely focus on sharing helpful information with the audience ([DevSecOps professionals](/handbook/product/personas/)). When you suggest or write a blog post, always consider what it offers the reader. If the post is more internal-focused or a personal essay of sorts, it is likely not a fit for the blog (but could go on your personal LinkedIn page).
 
 Blogs fall into the following categories:
-
--   Technical tutorials/how-tos
--   Point of view/thought leadership
--   Introduction to features and capabilities
--   Open source community
--   Customer case studies/interviews
--   Company announcement (done in partnership with Executive comms team)
--   Feature/change/etc. announcement
--   Guest blog to highlight partnerships/alliances
+- Technical tutorials/how-tos
+- Point of view/thought leadership
+- Introduction to features and capabilities
+- Open source community
+- Customer case studies/interviews
+- Company announcement (done in partnership with Executive comms team)
+- Feature/change/etc. announcement
+- Guest blog to highlight partnerships/alliances 
 
 ## Who can publish content to the GitLab Blog?
 
@@ -30,9 +30,9 @@ If you have questions about the GitLab Blog, please reach out to [sgittlen@gitla
 
 Please create an issue using the [blog submission template](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/blog/-/issues/new?issuable_template=blog-post-submission).
 
--   Answer all the questions on the template. They help us provide feedback on your idea.
--   Submit your idea at least two weeks before your targeted publication date.
--   For corporate/comms requests or blogs on a tight turnaround, please submit an issue and reach out to @sgittlen directly.
+* Answer all the questions on the template. They help us provide feedback on your idea.
+* Submit your idea at least two weeks before your targeted publication date.
+* For corporate/comms requests or blogs on a tight turnaround, please submit an issue and reach out to @sgittlen directly.
 
 The blog editor will review the pitch and either a) greenlight the post, b) offer suggestions for improvements, or c) explain why the idea might not be a fit for the blog and offer other ideas for getting the message out.
 
@@ -41,21 +41,20 @@ The blog editor will review the pitch and either a) greenlight the post, b) offe
 **Note:** GitLab does not accept unsolicited blog submissions. If you are a GitLab partner and would like to pitch a blog post idea for consideration, please [email sgittlen@gitlab.com](mailto:sgittlen@gitlab.com). If you are a GitLab community member and would like to pitch a blog post idea for consideration, please [email contributors@gitlab.com](mailto:contributors@gitlab.com). Please DO NOT SEND drafts of your blogs with your pitch.
 
 Pitch ideas must be relevant to the GitLab Blog and our readers and include the following information:
-
--   What will your blog be about? Please be as specific as possible.
--   Which of the following best describes your blog? (Please check at least one box.)
-
-*   [ ] tutorial/how-to on how best to use a feature/capability
-*   [ ] best practices for how to use the GitLab platform
-*   [ ] the open source community and GitLab
-*   [ ] partner/alliance integration
-*   [ ] other - please explain
+* What will your blog be about? Please be as specific as possible.
+* Which of the following best describes your blog? (Please check at least one box.)
+- [ ] tutorial/how-to on how best to use a feature/capability
+- [ ] best practices for how to use the GitLab platform
+- [ ] the open source community and GitLab
+- [ ] partner/alliance integration
+- [ ] other - please explain
 
 **All blog pitch ideas and submissions will be vetted and reviewed by GitLab team members.**
 
 Blog editors, please add the following two sentences at the beginning of contributed articles:
 
-**_Editor's note: From time to time, we invite members of the community to contribute to the GitLab Blog. Thanks to [entity name] for co-creating with us._**
+***Editor's note: From time to time, we invite members of the community to contribute to the GitLab Blog. Thanks to [entity name] for co-creating with us.***
+
 
 ## How to submit a blog draft once your idea is approved
 
@@ -86,17 +85,16 @@ Learn more about the [SAFE Guidelines by reading the handbook page](/handbook/le
 ## Communication with Blog team
 
 Chat channels:
-
--   Use `#content` for questions (also tag @sgittlen)
--   Use `#content-updates` to see updates on recently published articles
--   Slack @sgittlen directly
--   Add newsletter content requests to [this issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/issues/902)
+- Use `#content` for questions (also tag @sgittlen)
+- Use `#content-updates` to see updates on recently published articles
+- Slack @sgittlen directly
+- Add newsletter content requests to [this issue](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/content-strategy-and-ops/content-ops/-/issues/902)
 
 ## Other related pages
 
--   [Editorial style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/)
--   [Brand guidelines](https://design.gitlab.com/)
--   [Monthly release post](/handbook/marketing/blog/release-posts/)
+- [Editorial style guide](/handbook/marketing/brand-and-product-marketing/content/editorial-team/)
+- [Brand guidelines](https://design.gitlab.com/)
+- [Monthly release post](/handbook/marketing/blog/release-posts/)
 
 ## Considerations when drafting a blog
 
@@ -106,22 +104,22 @@ It is important that our blog content represents our company values of diversity
 
 #### Inclusive formatting
 
--   Did you select an [inclusive](/handbook/marketing/blog/#inclusive-photos) cover image and/or screengrab?
--   Write descriptive alternative text for all [inline images and screengrabs](/handbook/marketing/blog/#inline-images). Alternative text is important for SEO and accessibility. Read this [article from Moz to learn more about writing alternative text](https://moz.com/learn/seo/alt-text).
--   Ensure that all links are meaningful and descriptive (e.g. avoid link text such as "read here" or "this article"). Descriptive links are more useful and accessible for people using screen readers.
+- Did you select an [inclusive](/handbook/marketing/blog/#inclusive-photos) cover image and/or screengrab?
+- Write descriptive alternative text for all [inline images and screengrabs](/handbook/marketing/blog/#inline-images). Alternative text is important for SEO and accessibility. Read this [article from Moz to learn more about writing alternative text](https://moz.com/learn/seo/alt-text).
+- Ensure that all links are meaningful and descriptive (e.g. avoid link text such as "read here" or "this article"). Descriptive links are more useful and accessible for people using screen readers.
 
 #### Inclusive writing
 
--   Write short and concise sentences. Clear writing with short sentences makes it easier for the reader to follow along.
--   Limit your use of jargon, and if you must use a jargon-y term, define it on the first instance.
--   GitLab is a global team with a global community, so you want to write for a global audience. This means limiting your use of regional metaphors and not writing in a manner that is United States-centric.
--   Does the post use [inclusive language](/handbook/company/culture/inclusion/#inclusive-language)?
--   Is every individual in the blog post quoted using their [preferred pronoun](/handbook/people-group/orientation-identity/#how-do-i-know-which-pronouns-to-use)? Tip: If you don't know someone's preferred pronoun, just ask them. They should also be included on the [team page profile](/handbook/company/team/#close-modal) and Slack profile.
+- Write short and concise sentences. Clear writing with short sentences makes it easier for the reader to follow along.
+- Limit your use of jargon, and if you must use a jargon-y term, define it on the first instance.
+- GitLab is a global team with a global community, so you want to write for a global audience. This means limiting your use of regional metaphors and not writing in a manner that is United States-centric.
+- Does the post use [inclusive language](/handbook/company/culture/inclusion/#inclusive-language)? 
+- Is every individual in the blog post quoted using their [preferred pronoun](/handbook/people-group/orientation-identity/#how-do-i-know-which-pronouns-to-use)? Tip: If you don't know someone's preferred pronoun, just ask them. They should also be included on the [team page profile](/handbook/company/team/#close-modal) and Slack profile.
 
 #### More DIB writing tips
 
--   Is your blog post biased? We all have unconscious biases. Take our [recognizing bias training](/handbook/company/culture/inclusion/unconscious-bias/#recognizing-bias-training), check the [list of unconscious biases in our DIB handbook page](/handbook/company/culture/inclusion/unconscious-bias/#unconscious-biases-to-look-out-for-in-ourselves-and-in-others) and practice strategies for [recognizing and managing yours](/handbook/company/culture/inclusion/unconscious-bias/#tips-on-recognizing-and-avoiding-bias).
--   If you still have questions, don't hesitate to tag the editorial team lead @sgittlen, leads of the appropriate [team member resource group (TMRG)](/handbook/company/culture/inclusion/erg-guide/) in your blog issue, or email diversityinclusionandbelonging@gitlab.com with your questions.
+- Is your blog post biased? We all have unconscious biases. Take our [recognizing bias training](/handbook/company/culture/inclusion/unconscious-bias/#recognizing-bias-training), check the [list of unconscious biases in our DIB handbook page](/handbook/company/culture/inclusion/unconscious-bias/#unconscious-biases-to-look-out-for-in-ourselves-and-in-others) and practice strategies for [recognizing and managing yours](/handbook/company/culture/inclusion/unconscious-bias/#tips-on-recognizing-and-avoiding-bias).
+- If you still have questions, don't hesitate to tag the editorial team lead @sgittlen, leads of the appropriate [team member resource group (TMRG)](/handbook/company/culture/inclusion/erg-guide/) in your blog issue, or email diversityinclusionandbelonging@gitlab.com with your questions.
 
 ### Blog categories and tags
 
@@ -132,20 +130,19 @@ Use only **one** of the following categories per post.
 otherwise you'll create another category, which is something we don't want to do accidentally.
 
 If you're not sure which category your post belongs in, just put a placeholder in your MR and leave a comment for your reviewer noting that.
-
--   `DevOps` - general reference to DevOps
--   `devops platform` - posts mentioning GitLab's DevOps Platform, or DevOps platforms more generically.
--   `DevSecOps` - posts more generally about DevSecOps
--   `DevSecOps platform` - posts mentioning GitLab's DevSecOps Platform, or DevSecOps platforms more generically
--   `engineering` – technical, actionable content. Anything covering how to do something, use something, or solve a problem should fall under this category
--   `ai-ml` – posts that focus directly on AI/ML in the platform or in the industry as a whole
--   `open source` – stories from or about our community, users, or the wider open source community
--   `careers` – posts about careers, salaries, education, and more
--   `culture` – posts about remote work, working together, or GitLab culture
--   `insights` – industry, data, newsjacking, developer survey, etc.
--   `news` – company or product announcements (including policy changes, operational announcements, and breaking changes), news, or events
--   `security` – security-related posts
--   `releases` - release posts, security and patch releases. Posts in the `releases` category need to be in the `sites/uncategorized/source/releases/posts` directory, not `sites/uncategorized/source/blog/blog-posts`. Please see the [Release Post handbook](/handbook/marketing/blog/release-posts/) for more.
+- `DevOps` - general reference to DevOps
+- `devops platform` - posts mentioning GitLab's DevOps Platform, or DevOps platforms more generically.
+- `DevSecOps` - posts more generally about DevSecOps
+- `DevSecOps platform` - posts mentioning GitLab's DevSecOps Platform, or DevSecOps platforms more generically
+- `engineering` – technical, actionable content. Anything covering how to do something, use something, or solve a problem should fall under this category
+- `ai-ml` – posts that focus directly on AI/ML in the platform or in the industry as a whole
+- `open source` – stories from or about our community, users, or the wider open source community
+- `careers` – posts about careers, salaries, education, and more
+- `culture` – posts about remote work, working together, or GitLab culture
+- `insights` – industry, data, newsjacking, developer survey, etc.
+- `news` – company or product announcements (including policy changes, operational announcements, and breaking changes), news, or events
+- `security` – security-related posts
+- `releases` - release posts, security and patch releases. Posts in the `releases` category need to be in the `sites/uncategorized/source/releases/posts` directory, not `sites/uncategorized/source/blog/blog-posts`. Please see the [Release Post handbook](/handbook/marketing/blog/release-posts/) for more.
 
 #### Tags
 
@@ -153,72 +150,71 @@ These are included to help readers find similar posts if they are interested in 
 
 You can include as many tags as you like, separated by commas. Please only include tags from the following list, and note that they are case sensitive.
 
--   agile
--   AI/ML
--   AWS
--   bug bounty
--   careers
--   CI
--   CD
--   CI/CD
--   cloud native
--   code review
--   collaboration
--   community
--   contributors
--   customers
--   demo
--   design
--   developer survey
--   DevOps
--   DevOps platform
--   DevSecOps
--   DevSecOps platform
--   events
--   features
--   frontend
--   Group Conversations
--   git
--   GitOps
--   GKE
--   google
--   growth
--   inside GitLab
--   integrations
--   kubernetes
--   news
--   open source
--   partners
--   patch releases
--   performance
--   product
--   production
--   releases
--   remote work
--   research
--   security
--   security releases
--   security research
--   solutions architecture
--   startups
--   testing
--   tutorial
--   UI
--   user stories
--   UX
--   webcast
--   workflow
--   zero trust
+- agile
+- AI/ML
+- AWS
+- bug bounty
+- careers
+- CI
+- CD
+- CI/CD
+- cloud native
+- code review
+- collaboration
+- community
+- contributors
+- customers
+- demo
+- design
+- developer survey
+- DevOps
+- DevOps platform
+- DevSecOps
+- DevSecOps platform
+- events
+- features
+- frontend
+- Group Conversations
+- git
+- GitOps
+- GKE
+- google
+- growth
+- inside GitLab
+- integrations
+- kubernetes
+- news
+- open source
+- partners
+- patch releases
+- performance
+- product
+- production
+- releases
+- remote work
+- research
+- security
+- security releases
+- security research
+- solutions architecture
+- startups
+- testing
+- tutorial
+- UI
+- user stories
+- UX
+- webcast
+- workflow
+- zero trust
 
 ### Media embeds
 
 We limit media embeds to the following providers:
-
--   **YouTube** for video
--   **CodePen** for code samples
--   **Google Docs** for collaborative text
--   **Google Sheets** for sharing spreadsheets
--   **Google Slides** for sharing slides
+- **YouTube** for video
+- **CodePen** for code samples
+- **Google Docs** for collaborative text
+- **Google Sheets** for sharing spreadsheets
+- **Google Slides** for sharing slides
 
 ### Adding code blocks
 
@@ -230,7 +226,7 @@ We use this for short words or phrases included in a paragraph. For inline code,
 
 **Example:**
 
-This is an `` `in-line` `` code block.
+This is an ``` `in-line` ``` code block.
 
 **Results in:**
 
@@ -252,9 +248,9 @@ Syntax highlighting helps make code easier to read. In order to enable syntax hi
 
 **Example (not highlighted):**
 
-````
+```
 ```code goes here```
-````
+```
 
 ```
 document.querySelectorAll('a[href^="#"]').forEach(elem => {
@@ -273,43 +269,44 @@ document.querySelectorAll('a[href^="#"]').forEach(elem => {
 
 **Versus (highlighted javascript):**
 
-````
+```
 ```code goes here```javascript
-````
+```
 
 (or other languages/syntaxes such as yaml, ruby, sql, etc)
 
 ```javascript
-document.querySelectorAll('a[href^="#"]').forEach((elem) => {
-    elem.addEventListener("click", (e) => {
+document.querySelectorAll('a[href^="#"]').forEach(elem => {
+    elem.addEventListener('click', e => {
         e.preventDefault();
-        let block = document.querySelector(elem.getAttribute("href")),
+        let block = document.querySelector(elem.getAttribute('href')),
             offset = elem.dataset.offset ? parseInt(elem.dataset.offset) : 0,
             bodyOffset = document.body.getBoundingClientRect().top;
         window.scrollTo({
             top: block.getBoundingClientRect().top - bodyOffset + offset,
-            behavior: "smooth",
+            behavior: "smooth"
         });
     });
 });
 ```
 
+
 #### Preparing images
 
--   If creating an original cover image, the dimensions should be 1800px x 945px for optimal quality on all displays.
--   All images should aim to be less than 1MB. JPEGs tend to be smaller than PNGs so use JPEGs when possible.
--   To resize in Preview go to `Tools`, `Adjust size` and adjust the entry in the `Resolution` field. Preview will estimate what the resulting image size will be before you click `OK` to confirm.
--   Keep all the images the same width.
+- If creating an original cover image, the dimensions should be 1800px x 945px for optimal quality on all displays.
+- All images should aim to be less than 1MB. JPEGs tend to be smaller than PNGs so use JPEGs when possible.
+- To resize in Preview go to `Tools`, `Adjust size` and adjust the entry in the `Resolution` field. Preview will estimate what the resulting image size will be before you click `OK` to confirm.
+- Keep all the images the same width.
 
 #### Screenshots
 
 For technical/tutorial posts, please illustrate your examples with [code blocks](#adding-code-blocks) or screenshots. Be consistent with your examples. E.g., if you are using a generic URL
 to exemplify your steps `domain.com`, be consistent and keep it `domain.com`, throughout the post.
 
--   Static images should be used to illustrate concepts, provide diagrams, elements of the UI or orient the reader.
--   Images should not be used to render commands or configuration which would prevent someone being able to copy and paste.
--   Animated GIFs can be used sparingly where you need to show a process or some event happening over the course of time or several actions, though they should not replace text descriptions or instructions.
--   Use screenshots to identify and localize specific parts of the screen. There are great tools for doing so. For example, Nimbus Screenshot (browser extension), Mac screenshot, Snipping Tool for Windows, and Screenshot Tool for Ubuntu.
+- Static images should be used to illustrate concepts, provide diagrams, elements of the UI or orient the reader.
+- Images should not be used to render commands or configuration which would prevent someone being able to copy and paste.
+- Animated GIFs can be used sparingly where you need to show a process or some event happening over the course of time or several actions, though they should not replace text descriptions or instructions.
+- Use screenshots to identify and localize specific parts of the screen. There are great tools for doing so. For example, Nimbus Screenshot (browser extension), Mac screenshot, Snipping Tool for Windows, and Screenshot Tool for Ubuntu.
 
 **Important security point:** Do not expose your personal details by using your real tokens or security credentials. Use placeholders such as `[project's CI token]` stub instead. Or blur them if displayed on screenshots.
 
@@ -328,44 +325,44 @@ There are a few ways to create animated GIFs, one of them is using [Giphy Captur
 
 Avoid GIFs with a huge file size, they will be difficult to load for users with bad internet connection. In those cases, you can either cut the GIFs in smaller pieces, or record a video, or use a sequential image.
 
-### Creating `Author` entries in the CMS
+#### Creating `Author` entries in the CMS
 
 Here's a set of recommendations when creating an `Author` entry in the CMS.
 
-#### `Name` field
+##### `Name` field
 
-This is a **required** field.
-This is a **unique** field.
+This is a required field.
 
-1. Author's name should be a combination of first and last name only, including composed names. Please avoid adding a job description (use the `Role` field for this task) or alpha-numeric combinations into this field.
+1. Author's name should be a combination of first and last name only, including composed names. Please avoid adding a job description (use the `Role` field for this task) or alpha-numeric combinations into this field. 
 1. No double authors (eg. `/authors/<author1>-<author2>`). We can add multiple single authors to blog posts. We should create individual authors and then add them all to other content types as a one-to-many relationship.
 1. Same as above, no multiple authors for a single blog post (eg. `/authors/<author1>-<author2>-<author3>-and-<author4>`).
 
-### `Role` field
+##### `Role` field
 
 Current working position or job description
 
-#### `Bio` field
+##### `Bio` field
 
 Biography
 
-#### `GitLab handle` field
+##### `GitLab handle` field
 
-It corresponds to Author's GitLab username in lowercase format. This field has to be unique.
+It corresponds to Author's GitLab username in lowercase format. This field has to be unique. 
 
-#### `Social media handles` fields
+##### `Social media handles` fields
 
 Optional fields for social media handles
 
 ## Localizing blog posts in Contentful
 
-We can publish blog posts in languages other than English. We currently support the following languages:
+We can publish blog posts in languages other than English. We currently support the following languages: 
 
-| Language | URL structure                        |
-| -------- | ------------------------------------ |
-| French   | `/fr-fr/blog/YERAR/MONTH/DAY/Title/` |
-| German   | `/de-de/blog/YERAR/MONTH/DAY/Title/` |
-| Japanese | `/ja-jp/blog/YERAR/MONTH/DAY/Title/` |
+| Language | URL structure| 
+|---------|----------|
+| French |`/fr-fr/blog/YERAR/MONTH/DAY/Title/` |
+| German |`/de-de/blog/YERAR/MONTH/DAY/Title/` |
+| Japanese |`/ja-jp/blog/YERAR/MONTH/DAY/Title/` |
+
 
 ### Translating an English-language blog post to other languages
 
@@ -381,41 +378,39 @@ Contentful is currently developing a solution to address this workaround, which 
 
 ### How to kick off translations
 
-Starting the process of getting a blog post translated is easy. Follow these steps:
+Starting the process of getting a blog post translated is easy. Follow these steps: 
 
 1. Create a translation request issue in the Localization project. Pro tip - add the URL for the blog post & a direct link to the Contentful entry. It will be super helpful to you as you track the project.
-2. Argo will export the enlish blog post JSON and inport the translated JSON back into Contentful. Then you'll be pinged in the issue when it's ready for review.
-3. Hop into the entry for the Blog post and review the translated content.
+2. Argo will export the enlish blog post JSON and inport the translated JSON back into Contentful. Then you'll be pinged in the issue when it's ready for review. 
+3. Hop into the entry for the Blog post and review the translated content. 
 4. Cordinate with @sandra on publishing the translated post
 5. Once published, always verify that it's working as expected on about.gitlab.com/blog
-6. Celebrate your translated blog post by posting it in Slack.
+6. Celebrate your translated blog post by posting it in Slack. 
 
-Here's a video walk thru of the fullprocess from creating the translation request to publishing on production.
+Here's a video walk thru of the fullprocess from creating the translation request to publishing on production. 
 
--   Video recording comming soon that demonstrates the following
--   Create issue
--   Argo rountrip
--   Translation show up in Contentful
--   Review the translations
--   Live previews/changing languages
--   Publish
+- Video recording comming soon that demonstrates the following
+- Create issue
+- Argo rountrip
+- Translation show up in Contentful
+- Review the translations
+- Live previews/changing languages
+- Publish
 
-### Gotcahs When Localizing an EN blog post
-
+### Gotcahs When Localizing an EN blog post 
 Things to be careful about when localizing an EN blog post.
 
--   Dont change the slug!
--   Until Contentful introduces the async field publishing feature, we'll need to release all translations simultaneously
+- Dont change the slug! 
+- Until Contentful introduces the async field publishing feature, we'll need to release all translations simultaneously
 
 ### Tags to keep organized
-
--   If a post in process of being translating, slap the "translation-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed.
--   Remove and apply local label to languages the post is translated into.
--   Here's a [direct link to the Contentful Blog space](https://app.contentful.com/spaces/r9o86ar0p03f/environments/master/views/entries?searchText=&contentTypeId=&contentTypeIds=&displayedFieldIds=name&displayedFieldIds=contentType&displayedFieldIds=updatedAt&displayedFieldIds=author&displayedFieldIds=metadata.tags&displayedFieldIds=status&order.direction=descending&order.fieldId=updatedAt&filters.0.key=metadata.tags.sys.id&filters.0.op=in&filters.0.val=translation-in-progress) to see all posts currently being translated.
--   If you make changes to translated content in the Contentful blog space, note your changes in this spreadsheet. (need link to sheet)
-    | Tag | Definition | How to use |
-    |----|----|----|
-    | translation-in-progress | Notes when a blog post is currently be translated and reviewed | Apply when translation request is opened. Remove when post is published |
-    | language_de-DE | Marks entry that is in German | Apply to blog post that is translated into German |
-    | language_fr-FR | Marks entry that is in French | Apply to blog post that is translated into French |
-    | language_ja-JP | Marks entry that is in Japanese | Apply to blog post that is translated into Japanese |
+- If a post in process of being translating, slap the "translation-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed.
+- Remove and apply local label to languages the post is translated into.
+- Here's a [direct link to the Contentful Blog space](https://app.contentful.com/spaces/r9o86ar0p03f/environments/master/views/entries?searchText=&contentTypeId=&contentTypeIds=&displayedFieldIds=name&displayedFieldIds=contentType&displayedFieldIds=updatedAt&displayedFieldIds=author&displayedFieldIds=metadata.tags&displayedFieldIds=status&order.direction=descending&order.fieldId=updatedAt&filters.0.key=metadata.tags.sys.id&filters.0.op=in&filters.0.val=translation-in-progress) to see all posts currently being translated. 
+- If you make changes to translated content in the Contentful blog space, note your changes in this spreadsheet. (need link to sheet)
+| Tag | Definition | How to use |
+|----|----|----|
+| translation-in-progress | Notes when a blog post is currently be translated and reviewed | Apply when translation request is opened. Remove when post is published | 
+| language_de-DE | Marks entry that is in German | Apply to blog post that is translated into German | 
+| language_fr-FR | Marks entry that is in French | Apply to blog post that is translated into French | 
+| language_ja-JP | Marks entry that is in Japanese | Apply to blog post that is translated into Japanese | 
