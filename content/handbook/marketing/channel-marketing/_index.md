@@ -155,9 +155,11 @@ Our team hosts the Channel Partner webinar using On24. Details on how this opera
 - [Marketo Program set up](/handbook/marketing/marketing-operations/on24/#connecting-on24-web-events-to-marketo-programs)
 
 ## MDF Program Introduction
+
 GitLab Marketing Ready partners have access to the proposal-based GitLab Marketing Development Funds (MDF) Program. These funds are intended to support our partners' demand generation efforts.
 
 #### MDF Investment Objectives
+
 - Demand Generation
       - The objective of these activities is to gain net-new end-user customers for you and GitLab. Examples of eligible activities include seminars, workshops, telemarketing or email marketing campaigns, participation in tradeshows, exhibitions, and direct mail.
       - Eligible costs may include mailing costs, fulfillment items, lead qualification, distribution, venue costs, food and beverages (excluding alcoholic beverages), speakers’ fees, management costs, and lead capturing costs.
@@ -177,6 +179,7 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
       - GitLab will cover up to 50% of the total cost of the activity
 
 ## Requesting MDF funds
+
 - Marketing Ready Channel partners with marketing plans in place will submit [MDF proposals through the Partner Portal](https://partners.gitlab.com/English/Partner/SFDC/MDF2/Request/Create), and GitLab approvers will be notified of the request via email.
     - The MDF proposal will go through 2 levels of approvals
        - Level 1 approval - Channel Marketing Manager
@@ -190,15 +193,15 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
           - MDF POP
              - For POP issues add labels:
                 - `MDF-POP` and use the scoped labels below to work through the approval process:
-                - `MDF::POP Pending` issues created but POP has not yet been received
-                - `MDF::POP Approval Needed` once POP is received change this status to have Samara Souza approve the POP documents submitted
-                - `MDF:: POP Approved` POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
-                - `MDF:: POP Completed` Once all of the steps above are completed, change to this status and close the MDF POP issue
+                - `MDF::POP Pending`: issues created but POP has not yet been received
+                - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
+                - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
+                - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
     - Once all sub-issues are completed, close out the epic.
 
 ### PTO Process for MDF Request Approvers
-
 Prior to your PTO, as an MDF request approver, you will need to update the `Delegated Approver` to your reporting manager so they have access to approve MDF requests while you are away. When you return, please remember to remove the `Delegated Approver`.
+
 
 When an approval request email is sent to the assigned approver, the delegated approver also receives an email notification that there is an approval request to review. Delegated approvers can't reassign approval requests; they can only approve or reject approval requests.
 
@@ -211,8 +214,7 @@ Following the steps to update your Delegated Approver:
    1. Select `If I am an approver or delegated approver`
    1. Save.
 
-### Demand Generation activities eligible for MDF
-
+### Demand Generation activities eligible for MD
 Details are listed out in the [MDF handbook](/handbook/resellers/Channel-Program-Guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities).
 
 These activities are captured as `Campaign Type Details` on the campaign level in Salesforce.com for `Partner - MDF` [Campaign Type](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) only.
