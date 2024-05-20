@@ -156,7 +156,7 @@ Such events can be recovered by reprocessing them.
 
 Currently we have a few dashboard to monitor and investigate malfunctions:
 
-[Service Ping Health](https://10az.online.tableau.com/#/site/gitlab/views/AnalyticsInstrumentation-ServicePingHealth/ServicePingMetrics?:iid=2). The most important charts:
+[Service Ping Health](https://10az.online.tableau.com/#/site/gitlab/views/AnalyticsInstrumentation-ServicePingHealth/ServicePingMetrics). The most important charts:
 
 1. Recorded Service Pings Created Per Week - allows to quickly identify abnormal amount of event received in the recent weeks
 2. Service Ping payloads by major version - allows to quickly identify missing service pings for specific versions
@@ -171,7 +171,7 @@ You will be alerted by the [Data](https://about.gitlab.com/handbook/business-tec
 
 First you need to identify at which stage in Service Ping data pipeline the drop is occurring.
 
-Start at [Service Ping Health Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/AnalyticsInstrumentation-ServicePingHealth/ServicePingMetrics?:iid=1) on Tableau.
+Start at [Service Ping Health Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/AnalyticsInstrumentation-ServicePingHealth/ServicePingMetrics) on Tableau.
 
 You can use [this query](https://gitlab.com/gitlab-org/gitlab/-/issues/347298#note_836685350) as an example, to start detecting when the drop started.
 
@@ -184,7 +184,7 @@ GitLab team members can view more information in [this confidential issue](https
 
 Check if the [export jobs](https://gitlab.com/gitlab-org/gitlab-services/version.gitlab.com/-/tree/main/#data-export-using-pipeline-schedules) are successful.
 
-Check Service Ping errors in the [Service Ping Health Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/AnalyticsInstrumentation-ServicePingHealth/ServicePingMetrics?:iid=2)
+Check Service Ping errors in the [Service Ping Health Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/AnalyticsInstrumentation-ServicePingHealth/ServicePingMetrics)
 
 ### Troubleshoot Google Storage layer
 
