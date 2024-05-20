@@ -14,4 +14,4 @@ Use this label when the AppSec team requests new security features or improvemen
 
 #### Important Note
 
-This label is not applicable for vulnerabilities. Issues related to vulnerabilities should use the `~bug::vulnerability`` label.
+This label is not applicable for vulnerabilities. Issues related to vulnerabilities should use the `~bug::vulnerability` label.
