@@ -115,4 +115,3 @@ List of past RDSs:
 - [Auto DevOps Design Sprint](https://gitlab.com/groups/gitlab-org/-/epics/5939) ([Figjam board](https://www.figma.com/file/nVlJ78mfcnrEKLakrOESJb/Remote-Design-Sprint---Auto-DevOps_2023-08-22_10-43-19?type=whiteboard&node-id=0-1&t=pQx0iBKA1vhYgMyT-0))
 - [Configure Stage - Design Sprint (Kubernetes management focus)] ([Figjam board](https://www.figma.com/file/xhQlhEDmRHjr1xFOj33NjX/Configure-Design-Sprint---Kubernetes-focus_2023-08-22_11-01-16?type=whiteboard&node-id=0-1&t=KacnCW9AH1ceXKWB-0))
 - [Growth — User's dashboard design sprint](https://gitlab.com/gitlab-org/gitlab/-/issues/342877) ([Figjam board](https://www.figma.com/file/6Ro5pZp7QVC2W8R0xfhMpD/Dashboard-mini-design-sprint_2023-08-22_10-40-59?type=whiteboard&node-id=0-1&t=ARkOxI6r0bXtGDpi-0))
-

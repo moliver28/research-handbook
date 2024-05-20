@@ -46,11 +46,11 @@ This is an example of a template available for you use:
 
 **Comment 1**: Topic: What aspects of the issue / MR were very good examples of Iteration and why?
 
-* The team members share their positive reactions to how well iteration was applied. *
++ The team members share their positive reactions to how well iteration was applied. *
 
 **Comment 2**: Topic: Does anyone have alternative ideas for how this work could have been broken down
 
-* The team members would contribute different ideas or approaches here.*
++ The team members would contribute different ideas or approaches here.*
 
 **Comment 3**: Topic: Is there anything that we can change in our processes or the way we work that could improve our iteration as a team?
 

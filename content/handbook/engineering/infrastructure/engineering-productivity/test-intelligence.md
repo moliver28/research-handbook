@@ -5,10 +5,12 @@ title: "Test Intelligence"
 ## Introduction
 
 As the owner of [pipeline configuration](https://docs.gitlab.com/ee/development/pipelines/index.html) for the [GitLab project](https://gitlab.com/gitlab-org/gitlab), the Engineering Productivity team has adopted several test intelligence strategies aimed to improve pipeline efficiency with the following benefits:
+
 - Shortened feedback loop by prioritizing tests that are most likely to fail
 - Faster pipelines to scale better when Merge Train is enabled
 
 These strategies include:
+
 - Predictive test jobs via test mapping
 - Fail-fast job
 - Re-run previously failed tests early
@@ -18,6 +20,7 @@ These strategies include:
 ## Predictive test jobs via test mapping
 
 Tests that provide coverage to the code changes in each merge request are most likely to fail. As a result, merge request pipelines for the [GitLab project](https://gitlab.com/gitlab-org/gitlab) run only the predictive set of tests by default. These include:
+
 - [RSpec predictive jobs](https://docs.gitlab.com/ee/development/pipelines/#rspec-predictive-jobs) which runs relevant RSpec tests that are mapped to the code changes
 - [Jest predictive jobs](https://docs.gitlab.com/ee/development/pipelines/#jest-predictive-jobs) which runs relevant Jest tests that are mapped to the code changes
 

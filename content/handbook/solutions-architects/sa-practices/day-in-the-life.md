@@ -32,6 +32,7 @@ Day In The Life of a Developer requires commitment by both the GitLab field team
 - We suggest pitching a Day In The Life of a Developer prior to a Proof of Value (PoV) to understand bottlenecks and development opportunities important to the company's stakeholders. This also gives us an opportunity to agree upon success criteria for value drivers if a PoV is required for deal closure.
 
 In case a Day In The Life of a Developer is conducted by a customer success manager (CSM), the following criteria should be met:
+
 - We have identified and established a relationship with the champion
 - The account has a total addressable market of at least 100 GitLab users
 - The customer has expressed a strong desire to improving their software delivery performance
@@ -79,6 +80,7 @@ Prepare for the Day In The Life of a Developer, by having notes on what is known
 ### Pitch
 
 The initial customer pitch allows us to identify key stakeholders & get their buy in. The customer pitch should include:
+
 - What is a Day In The Life of a Developer?
 - What does a Day In The Life of a Developer entail?
 - Who are the key participants involved in the Day In The Life of a Developer?

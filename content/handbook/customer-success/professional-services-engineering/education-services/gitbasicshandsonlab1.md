@@ -1,6 +1,6 @@
 ---
 title: "GitLab with Git Essentials - Hands-On Lab: Create a project and issue"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
+description: "This Hands-On Guide walks you through creating projects, issues, labels, as well as using quick actions."
 ---
 
 > Estimated time to complete: 30 minutes
@@ -19,9 +19,9 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Select **Provision Training Environment**.
 
-    >  The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs. 
+    > The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs.
 
-### Self-Paced Training:
+### Self-Paced Training
 
 1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
 
@@ -29,7 +29,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. In the resulting dropdown, you will see a value starting with `@`. This is your GitLab username.
 
-1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided. 
+1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided.
 
 1. Select **Provision Training Environment**.
 
@@ -47,7 +47,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Continue to Task B.
 
-### Instructor-led Training:
+### Instructor-led Training
 
 1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
 
@@ -56,12 +56,12 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 1. Click on **GitLab Dashboard** or the GitLab URL.
 
 1. Login with your temporary GitLab Credentials.
-  
+
     > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
 
 1. Click on the '**Create a project tile**.
 
-    >  From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
+    > From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
 
 ## Task B. Create a project
 
@@ -95,7 +95,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. The description is an optional section, but feel free to type in your own description for this issue.
 
-    >  In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/ee/user/project/description_templates.html).
+    > In the description section, there is a dropdown to select a template. It is possible to create templates to help standardize issue descriptions. To learn more about issue templates, click [here](https://docs.gitlab.com/ee/user/project/description_templates.html).
 
 1. Using the **Assignees** dropdown, assign the issue to yourself by clicking on the dropdown, and then clicking on your username.
 

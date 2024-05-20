@@ -44,7 +44,7 @@ For Terraform and Chef, each of these environments is unique, although they shar
 ensure consistency. However, each environment can differ from the others. There is no way to ensure uniformity, and over time
 these environments have, for a variety of reasons, drifted away from uniformity.
 
-![](./img/envs-in-gitlab-com-config-mgmt.png)
+![''](./img/envs-in-gitlab-com-config-mgmt.png)
 
 *Similar but different: environments in GitLab.com’s config-mgmt project*
 
@@ -72,7 +72,7 @@ be coordinated, but more on this later.
 ##### Dedicated: Homogenous, repeatable, functional environments
 
 Dedicated enforces homogeneity between environments by using a single IaC configuration (be it Terraform, Ansible, Kubernetes Manifests, etc)
-for all environments. _The only differences that can exist between environments is controlled by the input variables to the environment_.
+for all environments. *The only differences that can exist between environments is controlled by the input variables to the environment*.
 We call these input variables the **tenant model**. Since all environments use the same IaC, it is not possible to add or remove cloud resources,
 ansible configuration, terraform modules etc without those differences being expressed in the tenant model.
 
@@ -88,7 +88,7 @@ coordination needs to be carried out to ensure that change is done in the correc
 may need to be applied, followed by chef-repo changes. If differences happen to occur in the manual coordination of these changes,
 it may lead to unexpected outcomes, ultimately leading to slower delivery, outages or even data-loss.
 
-![](./img/many-config-mngmt-tools.png)
+![''](./img/many-config-mngmt-tools.png)
 
 *GitLab.com: Many Different Configuration Management Tools*
 
@@ -97,7 +97,7 @@ it may lead to unexpected outcomes, ultimately leading to slower delivery, outag
 Dedicated seeks to simplify this model by providing a single project, Instrumentor, which encapsulates all atomic changes to
 the tenant or cell environment. The problem of coordinating changes across multiple projects is solved by integrating all changes into a single project.
 
-![](./img/dedicated-single-poe-for-all-envs.png)
+![''](./img/dedicated-single-poe-for-all-envs.png)
 
 *Dedicated: Single Entrypoint for All Environment Changes*
 
@@ -162,7 +162,7 @@ and adding the features to support this would add a great deal of complexity tha
 
 This section describes the components of GitLab Dedicated, focusing on why these components were included in the design.
 
-![](./img/gitlab-dedicated-components.png)
+![''](./img/gitlab-dedicated-components.png)
 
 *GitLab Dedicated Components*
 
@@ -177,7 +177,7 @@ The design of Switchboard has only ever focused on the case of Dedicated, and in
 interaction with their Dedicated instance. Cells was not in scope of GitLab Dedicated when Switchboard was designed, and Switchboard
 is only designed to make onboarding, interacting and information gathering simpler for the GitLab Dedicated customer.
 
-_Using Switchboard for Cells would be a poor choice_. Cells should use DevOps workflows and CI/CD pipelines to kickoff Instrumentor
+*Using Switchboard for Cells would be a poor choice*. Cells should use DevOps workflows and CI/CD pipelines to kickoff Instrumentor
 provisioner jobs in the Amp control-plane, just as early iterations of Dedicated did before Switchboard was developed. It was a design
 choice from the start to keep tenant models structured in such a way that an interface would be the same whether one would use
 Switchboard or another type of interface.
@@ -238,7 +238,7 @@ Writing this tool in Go provides benefits of a single tool which operates identi
 tools in MacOS and different versions of linux) and is fully tested. Additionally, Go encourages better structure and ensures the structure can scale
 as the complexity of the project increases over time.
 
-_The alternative to tenctl is something we see too often on many Infrastructure projects today_: dozens of unmaintained – and unmaintainable –
+*The alternative to tenctl is something we see too often on many Infrastructure projects today*: dozens of unmaintained – and unmaintainable –
 untested bash scripts, each with its own input, arguments, subset of environments in which it can run, each with it’s own way of converting input
 data into configuration data. This leads to complexity, inconsistency, cognitive load and ultimately lower velocity and even outages due to unexpected
 behaviours (aka: “it worked on my machine”).
@@ -267,7 +267,7 @@ Many of the same design considerations that apply for GitLab Dedicated apply equ
 
 Cells could use the same deployment model as Environment Automation used before Switchboard had been developed. This is represented by the switchboard_la project.
 
-![](./img/cells-deployments-via-environment-automation.png)
+![''](./img/cells-deployments-via-environment-automation.png)
 
 *Deploying Cells using Environment Automation*
 

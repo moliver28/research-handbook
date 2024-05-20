@@ -179,12 +179,15 @@ Two users with names `gitlab-qa-saml-sso-user1` and `gitlab-qa-saml-sso-user2` h
 Please note that all credentials and values for fields mentioned below are saved in 1Password Engineering Vault in "Staging Ref credentials" under "User credentials for saml-sso-group Group".
 
 For using SAML SSO, you will need to:
+
 1. As an [admin](#admin-access), create the group at [https://staging-ref.gitlab.com/groups/saml-sso-group](https://staging-ref.gitlab.com/groups/saml-sso-group) if it does not already exist.
 1. [Upgrade the pricing plan](#upgrade-paid-plans) of this group to "Premium".
 1. Visit [https://staging-ref.gitlab.com/groups/saml-sso-group/-/saml](https://staging-ref.gitlab.com/groups/saml-sso-group/-/saml) and:
-  * Check "Enforce SSO-only authentication for web activity for this group"
-  * Update the value of "Identity provider single sign-on URL" to the value saved in 1Password
-  * Update the value of "Certificate fingerprint" to the value saved in 1Password
+
+  - Check "Enforce SSO-only authentication for web activity for this group"
+  - Update the value of "Identity provider single sign-on URL" to the value saved in 1Password
+  - Update the value of "Certificate fingerprint" to the value saved in 1Password
+
 1. Save the changes.
 1. Sign out.
 

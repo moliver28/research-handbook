@@ -25,6 +25,7 @@ Division alignment for spend over >$25k USD / year:
 ### Shared Goals
 
 Procurement is a cross-functional team that supports GitLab as a public company. We have four key objectives monitored in the following ways:
+
 1. Strategic partnerships with business stakeholders - meet on a quarterly basis to review new or renewing third party spend and supplier management opportunities
     - Metric(s): Supplier segmentation tiers
 1. Achieving annual cost avoidance (soft) savings and year over year (hard) savings
@@ -41,6 +42,7 @@ The Procurement team is responsible for ensuring there is a process for supplier
 #### 1. RFP and Vendor Selection
 
 All new spend, changing of vendors for existing services, and market reviews every 3 years for existing contracts should follow the [RFP and Vendor Selection process](https://internal.gitlab.com/handbook/finance/procurement/), unless approved by your Procurement Category Manager, to ensure we are choosing the best partner for GitLab with the best commercial terms. This must be done prior to verbally agreeing to terms or contracting with any new or existing vendor.
+
 - Follow the RFP process outlined in the [internal handbook](https://internal.gitlab.com/handbook/finance/procurement/). You will find resources and templates for RFP events at any level, whether it is a quick bid or a full procurement-led RFP with 5+ vendors. Always reach out to your Procurement Cateogry Manager to notify them that an RFP is being conducted- they can assist in the process and can answer any questions.
     - As part of this process, create an issue with the [RFP Intake template](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/new#) and tag your [Category Manager](#procurement-team-alignment).
 
@@ -73,6 +75,7 @@ Procurement will work with you through the Quarterly Procurement & Business Spot
 Identifying the Segmentation Tier your supplier(s) falls within helps determine the right vendor management approach, e.g. renew the contract, RFP, business reviews on a recurring cadence, continuous improvement plans, etc.
 
 If holding a business review with a vendor, the following topics should be discussed:
+
 - Success criteria of the contract
 - What is going well
 - What can be improved
@@ -82,6 +85,7 @@ If holding a business review with a vendor, the following topics should be discu
 ##### Vendor Renewals
 
 On a quarterly basis, the Procurement team will meet with business stakeholders in each department to review a rolling 12 month list of renewals, focusing on the upcoming 2 quarters. This list is pulled from Zip and Coupa. The list should be reviewed and prioritized with the business owners. The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms and decide:
+
 - Are there any additional security requirements for the vendor?
 - Has the vendor had an RFP for pricing in last 3 years?
 - Do we want to terminate or reduce spend and need to proactively notify per the contract?
@@ -122,6 +126,7 @@ Majority of the Procurement Process lives within our Procurement system called Z
 For more Zip training materials, review the [Zip End Users Guide](/handbook/business-technology/enterprise-applications/guides/zip-guide/) and the [Tips for Submitting a Zip Request page](/handbook/finance/procurement/tips-for-submitting-a-zip-request).
 
 Depending on a few factors of your purchase, there are different ways to engage Procurement and start the Procurement process:
+
 1. Submit a Zip Request for
    1. [Purchase Requests for renewals of existing vendor's services](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-initiate-a-new-request)
    1. [Purchase Requests for new spend **under $25k**](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-initiate-a-new-request)
@@ -136,11 +141,10 @@ Depending on a few factors of your purchase, there are different ways to engage 
    1. $25K - $100K: Business led quick-bid, 2 vendor bids required
    1. Under $25K: no bid required
 
-
-
 ### Review Steps, Timeline, and Considerations
 
 Requests can take 5 days to 3+ weeks for processing depending on a number of factors that will impact the time for review of a Purchase Request including, but not limited to:
+
 1. New or existing vendor
 1. If negotiation is required
 1. Types of data being shared with the vendor and if Security and Privacy need to review
@@ -174,6 +178,7 @@ Each review’s targeted approval time is outlined below, but as mentioned above
 **Note:** The amount of time for review, and to reach execution, is based on the details below. Use these SLA's as guidelines, noting that each contract review process is unique and if additional terms, requirements, and/or risks are identified the timeline for completion may be extended. The ability for GitLab to process and work efficiently through an agreement negotiation relies on the vendor, and vendor counsel, to respond promptly to GitLab red-lines and comments.
 
 **Types of Vendors and Review Times**
+
 - **Existing Vendors for renewals or upsells: 3-5 Days**
    - These generally require much less time as existing terms are in place which will underline the products and/or services being offered.
    - That being said, in the event GitLab is adding a new product and/or service (from an existing Vendor) additional cycles may be required in order to create amendment(s) to the existing agreement.
@@ -185,6 +190,7 @@ Each review’s targeted approval time is outlined below, but as mentioned above
    - Whenever possible, the legal team hopes to achieve red-lines--to be provided back to the vendor no later than five (5) business days after being assigned.
 
 **Types of Agreements**
+
 - **Software (SaaS & On-Prem):** Requires the most rigorous review to ensure the rights and obligations placed upon GitLab are, (i) reasonable given the Software being provided, and (ii) align with GitLab contracting and industry standards.
 - **Professional Services / Training:** Requires detailed review to ensure intellectual property ownership aligns with our intentions, as well as, reasonable obligations being placed upon GitLab.
 - **Marketing / Events:** Generally, requires the least amount of time to review as the obligations are standardized given the event in question and program provided. Details regarding events may include negotiations with regards to Force Majeure, cancellation (including penalty), and ensuring the terms of the Agreement align with those of the requesting GitLab Team Members.
@@ -317,6 +323,7 @@ In addition to ensuring terms and conditions, the GitLab Legal Procurement team 
 ### How do we prevent disruption in customer service?
 
 As GitLab does with its own customers, agreements with third parties include obligations that vendors have to GitLab. These can include, but are not limited to:
+
 1. Uptime / downtime commitments (for SaaS providers)
 1. SLAs (for support)
 1. Termination rights

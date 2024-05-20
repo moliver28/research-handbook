@@ -45,7 +45,7 @@ The solution validation phase starts once the problem statement is clearly defin
 
 The goals of solution validation align with these goals: *“**High confidence in the proposed solution**: Confidence that the jobs to be done outlined within the problem statement can be fulfilled by the proposed solution.”*
 
-### Don’t stop here - there’s more UX Research to do!
+### Don’t stop here - there’s more UX Research to do
 
 Once the feature is released to users, it’s important to continue to gather qualitative and quantitative feedback from them in order to continuously improve the experience. This is what the “Improve Phase” of GitLab’s Development workflow, specifically the [Build track](/handbook/product-development-flow/#build-track), encapsulates.
 
@@ -66,16 +66,16 @@ While research tends to be the most useful towards the beginning of the double d
 
 When considering the level of confidence you may have on a solution or any foundational research, risk needs to also be taken into account. To help with that, let's walk through how each are defined and pose some questions that should be thought about.
 
-**Confidence** - _how confident you are that your design won't negatively impact the UX?_
+**Confidence** - *how confident you are that your design won't negatively impact the UX?*
 
 Some questions to ask yourself to help gauge your level of confidence:
 
 - Can you demonstrate why you have a high level of confidence? (ex: This could be the result of a Solution Validation study, looking at past related research, etc. Mainly, you'll want to identify some concrete justification vs. a gut feeling. Referring to competitor solutions as a justification can be tempting, yet risky, as it's unclear to what extent competitors conducted research themselves to inform their solution.)
-- Does your design follow the design [guidelines](https://design.gitlab.com/) and [tenets](https://handbook.gitlab.com/handbook/product/ux/product-designer/#product-design-process)? Have you reviewed the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)?
+- Does your design follow the design [guidelines](https://design.gitlab.com/) and [tenets](/handbook/product/ux/product-designer/#product-design-process)? Have you reviewed the [design and UI changes checklist](https://docs.gitlab.com/ee/development/contributing/design.html#checklist)?
 - Have you conducted a [UX Scorecard](/handbook/product/ux/ux-scorecards/)? If so, what was the outcome and what was done as a result of it?
 - Why do you think your design won't result in a negative user experience?
 
-**Risk** - _what would happen if the design negatively impacted the UX?_
+**Risk** - *what would happen if the design negatively impacted the UX?*
 
 Some questions to ask yourself to help weigh risk:
 

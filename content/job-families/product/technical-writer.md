@@ -27,7 +27,7 @@ At GitLab, our [team of technical writers](/handbook/product/ux/technical-writin
   - Highly organized and able to triage and prioritize numerous issues and projects.
   - Able to succeed in a remote, globally distributed work environment.
 - You share our [values](/handbook/values/), and work in accordance with those values.
-- You demonstrate our [remote work competencies](/handbook/competencies/#remote-work-competencies), and model respectful and professional [communication](/handbook/communication/#effective-communication-competency).
+- You demonstrate our [remote work competencies](/handbook/people-group/competencies/#remote-work-competencies), and model respectful and professional [communication](/handbook/communication/#effective-communication-competency).
 - You have experience with workflows and tooling used by engineering, operations, and product teams.
 
 ## Levels

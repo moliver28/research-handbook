@@ -76,29 +76,30 @@ List of [user personas](/handbook/product/personas/) with specific benefits they
     - ☑️ Authentication and authorization
     - ☑️ Database instance generation
     - ☑️ Database and user setup
-    + ⏳ Networking configuration
+    - ⏳ Networking configuration
 
 ### Open source
 
 Cloud Seed is an open-source program led by GitLab Incubation Engineering.
 
 Sign up for the invite-only [Trusted Testers platform](https://docs.google.com/forms/d/e/1FAIpQLSeJPtFE8Vpqs_YTAKkFK42p5mO9zIYA2jr_PiP2h32cs8R39Q/viewform) and try out Cloud Seed before anyone else.
+
 ### Everyone can contribute
 
 There are several ways one may contribute to Cloud Seed. These are listed below:
 
-* Become a Cloud Seed [Trusted Tester](https://docs.google.com/forms/d/e/1FAIpQLSeJPtFE8Vpqs_YTAKkFK42p5mO9zIYA2jr_PiP2h32cs8R39Q/viewform) in GitLab and [share feedback](https://gitlab.com/gitlab-org/incubation-engineering/five-minute-production/feedback/-/issues/new?template=general_feedback)
-* If you are familiar with Ruby on Rails and/or Vue.js, consider [contributing to GitLab](https://docs.gitlab.com/ee/development/contributing/) as a developer. Much of Cloud Seed is an internal module within the GitLab code base
-* If your familiarity lies with GitLab pipelines, consider contributing to the [Cloud Seed Library](https://gitlab.com/gitlab-org/incubation-engineering/five-minute-production/library) project
-* If your expertize is in [Google Cloud APIs](https://cloud.google.com/apis) and Google Cloud technologies, reach out to us, we need you!
+- Become a Cloud Seed [Trusted Tester](https://docs.google.com/forms/d/e/1FAIpQLSeJPtFE8Vpqs_YTAKkFK42p5mO9zIYA2jr_PiP2h32cs8R39Q/viewform) in GitLab and [share feedback](https://gitlab.com/gitlab-org/incubation-engineering/five-minute-production/feedback/-/issues/new?template=general_feedback)
+- If you are familiar with Ruby on Rails and/or Vue.js, consider [contributing to GitLab](https://docs.gitlab.com/ee/development/contributing/) as a developer. Much of Cloud Seed is an internal module within the GitLab code base
+- If your familiarity lies with GitLab pipelines, consider contributing to the [Cloud Seed Library](https://gitlab.com/gitlab-org/incubation-engineering/five-minute-production/library) project
+- If your expertize is in [Google Cloud APIs](https://cloud.google.com/apis) and Google Cloud technologies, reach out to us, we need you!
 
 ### Links
 
-* [Cloud Seed](https://hello.cloudseed.app) landing page
-* [@OpenCloudSeed](https://twitter.com/OpenCloudSeed) on Twitter
-* Cloud Seed [documentation](https://docs.gitlab.com/ee/cloud_seed/index.html)
-* Sign up for the invite-only [Trusted Testers platform](https://docs.google.com/forms/d/e/1FAIpQLSeJPtFE8Vpqs_YTAKkFK42p5mO9zIYA2jr_PiP2h32cs8R39Q/viewform)
-* [Submit feedback](https://gitlab.com/gitlab-org/incubation-engineering/five-minute-production/feedback/-/issues/new?template=general_feedback)
+- [Cloud Seed](https://hello.cloudseed.app) landing page
+- [@OpenCloudSeed](https://twitter.com/OpenCloudSeed) on Twitter
+- Cloud Seed [documentation](https://docs.gitlab.com/ee/cloud_seed/index.html)
+- Sign up for the invite-only [Trusted Testers platform](https://docs.google.com/forms/d/e/1FAIpQLSeJPtFE8Vpqs_YTAKkFK42p5mO9zIYA2jr_PiP2h32cs8R39Q/viewform)
+- [Submit feedback](https://gitlab.com/gitlab-org/incubation-engineering/five-minute-production/feedback/-/issues/new?template=general_feedback)
 
 ### Demos
 

@@ -1,4 +1,5 @@
-{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/master/data/performance_indicators/%s.yml" (.Get 0) }}
+{{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
+{{ $dataURL := printf "https://gitlab.com/gitlab-com/www-gitlab-com/-/raw/%s/data/performance_indicators/%s.yml" $publicHandbookRef (.Get 0) }}
 {{ with resources.GetRemote $dataURL }}
   {{ with .Err}}
     <h2>Unable to fetch performance indicator Data</h2>

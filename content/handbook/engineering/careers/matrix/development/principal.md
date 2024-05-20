@@ -28,4 +28,3 @@ title: "Development Department Career Framework: Principal"
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-principal-values-competency.md" %}}
-

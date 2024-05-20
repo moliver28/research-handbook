@@ -46,6 +46,8 @@ aliases:
 - /handbook/old/page/location/
 ```
 
+If you need to do a folder redirect or a redirect to an external page, you can add a line to the [redirects](https://handbook.gitlab.com/docs/development/#redirects).
+
 ## Controlled Documents
 
 [Controlled documents](/handbook/security/controlled-document-procedure/) require the handbook frontmatter attribute `controlled_document` set to `true`. This attribute also renders the warning header, linking to [controlled documents review section](/handbook/security/controlled-document-procedure/#review). Example:
@@ -70,6 +72,8 @@ controlled_document_banner_disabled: true
 ---
 
 ```
+
+In addition to the frontmatter for individual pages, controlled documents and their codeowner(s) must be listed in the "Controlled Documents" section of the repository's `CODEOWNERS` file. Please also follow any instructions at the top of the `CODEOWNERS` file.
 
 ## Page Types (Layouts)
 

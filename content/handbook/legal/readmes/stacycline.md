@@ -21,7 +21,6 @@ I started my career in Public Relations where I quickly found a passion in Corpo
 
 I love everything outdoors - hiking, golfing, or just sitting on a patio enjoying a glass of wine or a local beer. I love to travel with my husband and find new and fun things to do with our son and very fluffy schnoodle, Penny.
 
-
 ## My working style
 
 I love efficiency and am always ready to take action. I tend to find solutions, make decisions quickly and work on executing. If you need me to slow down or just want to have an open discussion, great! Please let me know that ahead of time so I can adjust my approach. If you need to get something done quickly or are stuck on a problem, I’m your gal.
@@ -35,7 +34,6 @@ Discipline: I like order, plans and routines. I’m not a big fan of surprises o
 Activator: Let’s go! Once a decision is made, I like to immediately move to action. This is why the iterate value resonates with me because there’s always some small action we can take even if we don’t see the full picture yet.
 
 I love feedback and know I can sometimes be too focused on executing - please tell me if you need me to take a different approach or just have general feedback to share.
-
 
 ## Communicating with me
 

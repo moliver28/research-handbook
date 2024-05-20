@@ -39,7 +39,7 @@ This study looked at the cost savings and business benefits of enterprises using
 | [**Impactful Metrics & Quotes from the TEI & Customer Case Studies for GitLab Team Members (slides)**](https://docs.google.com/presentation/d/1qGYIf_5L-gZkROLSVqwo8OVDFYqB-qG8NBQ8YHx2ZQY/edit?usp=sharing) | [**Gated landing page link to the TEI study to share with anyone**](https://about.gitlab.com/resources/report-forrester-tei/) |
 | [**DevOps.com Article on the Forrester TEI of GitLab**](https://devops.com/gitlab-makes-economic-case-for-devops-platform/) | [**GitLab Blog Article on the TEI**](https://about.gitlab.com/blog/2020/07/29/forrester-tei/) |
 
-## How to use the TEI Study (Sales):
+## How to use the TEI Study (Sales)
 
 Introduce early in your conversations with prospects and customers to add 3rd party validation credibility and jumpstart business justification conversations.
 
@@ -63,7 +63,7 @@ The composite (model) organization created based on the interviewed customer set
 
 This TEI™ study explicitly incorporated the impact of costs into the model based on actual customer experiences, including Licensing costs, Implementation and ongoing management costs, and training costs.
 
-### Summarized quantified benefits include:
+### Summarized quantified benefits include
 
 - 407% Return of Investment (ROI)
 - 87% improved development and delivery efficiency (reduced time), resulting in over $23 Million in savings

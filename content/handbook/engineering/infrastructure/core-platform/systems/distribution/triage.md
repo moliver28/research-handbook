@@ -33,19 +33,20 @@ See the [CE documentation](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/C
 
 During triage, an appropriate `group::` label should be applied to the issue.
 
-- `group::distribution::build` for [Distribution Build team responsibilities](index.html.md.erb#distribution-build)
-- `group::distribution::deploy` for [Distribution Deploy team responsibilities](index.html.md.erb#distribution-deploy)
-- `group::distribution` for [Distribution team shared responsibilities](index.html.md.erb#team-responsibility)
-- The otherwise appropriate group to assign based on [GitLab Features by Group](/handbook/product/categories/features/)
+* `group::distribution::build` for [Distribution Build team responsibilities](index.html.md.erb#distribution-build)
+* `group::distribution::deploy` for [Distribution Deploy team responsibilities](index.html.md.erb#distribution-deploy)
+* `group::distribution` for [Distribution team shared responsibilities](index.html.md.erb#team-responsibility)
+* The otherwise appropriate group to assign based on [GitLab Features by Group](/handbook/product/categories/features/)
 
 During triage additional labels should be added to indicate what part of the product is impacted by the issue. Descriptions for the labels that Distribution often uses can be found the [Distribution Frequently Used Labels Page](https://gitlab.com/gitlab-org/distribution/team-tasks/-/blob/master/frequently-used-labels.md).
 
 ### Resources
 
 Issues for triaging can be identified using the following criteria:
-  - They have no milestone
-  - They have no assignee
-  - They do **not** have any of the following labels applied:
+
+  * They have no milestone
+  * They have no assignee
+  * They do **not** have any of the following labels applied:
     * `awaiting feedback`
     * `for scheduling`
     * `maintainer-discussion`
@@ -138,7 +139,7 @@ Copy and paste into issues where appropriate
 
 If someone is asking for support in our projects, point them to the correct place to look
 
-```
+```text
 We are sorry you are having troubles. The provided issue description seems to indicate that the problem is not related to this project. Commonly this indicates other troubles such as network connectivity or filesystem permissions.
 
 For this reason, I will close this issue and recommend checking out [how to get further help](https://about.gitlab.com/get-help/) on the GitLab website.
@@ -150,7 +151,7 @@ For this reason, I will close this issue and recommend checking out [how to get 
 
 If someone is asking for help with a bug that seems related to GitLab code other than Omnibus
 
-```
+```text
 We are sorry you are having troubles. The provided issue description seems to indicate that the problem is not related to Omnibus.
 
 For this reason, we are moving this report to a more appropriate issue queue.  Please review the bug templates for the new project in case they require additional information to help diagnose the problem.
@@ -162,7 +163,7 @@ We also recommend checking out [how to get further help](https://about.gitlab.co
 
 If someone opened a ticket without enough information, make sure they use the `Bug` template, and fill it in
 
-```
+```text
 We can't reproduce the issue with the information you provided here.
 
 Can you please use our `Bug` template to help gather more details?
@@ -180,7 +181,7 @@ Can you please use our `Bug` template to help gather more details?
 
 If an issue has been labeled `awaiting feedback` for two weeks, and we haven't received a response, it can be closed
 
-```
+```text
 We haven't heard back from you, so we're going to go ahead and close the issue.
 
 If you're still experiencing the problem, please re-open the issue and provide the requested information.
@@ -192,7 +193,7 @@ If you're still experiencing the problem, please re-open the issue and provide t
 
 If an issue was closed for no reply and someone comments who is not the original reporter, we ask them to open a new issue. Be sure to tag the contributor who made the comment.
 
-```
+```text
 Thank you for letting us know about your issue COMMENTOR. Unfortunately, this issue was already closed. Please [open a new issue](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/new?issue) following the ***BUG*** template and mark this closed issue as related.
 ```
 
@@ -200,7 +201,7 @@ Thank you for letting us know about your issue COMMENTOR. Unfortunately, this is
 
 If an issue appears to need review directly by a project maintainer to ascertain relevance,
 
-```
+```text
 I'm going to ask that this issue be reviewed by the project maintainers directly.
 This is so that we can make the most accurate decision regarding further work and viability.
 /label ~maintainer-discussion
@@ -212,11 +213,11 @@ We start looking to onboard new Distribution team members to Triage duty after 3
 
 To onboard to triage, a team member will shadow an experienced triage team member for a week. Expectations are:
 
-- The mentor and shadow were made aware and agreed to mentoring prior to the triage week.
-- The shadow reads the triage process document in advance.
-- The mentor and shadow have a synchronous call earlier in the triage week for the mentor to go over how they approach triage.
-- The shadow attempts to triage a few issues asynchronously during the week.
-- A followup sync call is scheduled for later in the week for mentor and shadow to try triaging some issues together.
+* The mentor and shadow were made aware and agreed to mentoring prior to the triage week.
+* The shadow reads the triage process document in advance.
+* The mentor and shadow have a synchronous call earlier in the triage week for the mentor to go over how they approach triage.
+* The shadow attempts to triage a few issues asynchronously during the week.
+* A followup sync call is scheduled for later in the week for mentor and shadow to try triaging some issues together.
 
 A shadow may need multiple weeks on shadow before they feel comfortable on a solo triage week.
 
@@ -235,9 +236,9 @@ Note that we are in the process of automating issue creation for every time a cr
 1. Comment on the issue with the following format: `@gitlab-bot retry_job <job-id>`. This will trigger [triage-ops bot](https://gitlab.com/gitlab-org/quality/triage-ops) to retry the given job without requiring you to have Maintainer permissions on the project.
 1. Repeat the retry command as needed. If this causes the failed job(s) to pass, close the issue. If not, either fix the root cause manually and retry again, or create a new related issue to track the root cause.
 1. If you managed to mitigate the problem and make the pipeline pass, but the issue could comeback in the future, then:
-   - Write a comment explaining which actions did you take to mitigate it.
-   - Check if there's an existing follow-up issue to investigate/implement a definitive fix for the problem, and link it to this pipeline issue failure. If such a follow-up issue does not yet exist, create one and link it.
-   - If you had to restart a release which had already been stopped, after you fix the pipeline, manually stop the environment with `@gitlab-bot retry_job <job-id of stop-review-*>`. This is necessary because that job won't be automatically re-triggered, and dangling releases can cause ELBs quota exhaustion. See chart issue [#5326](https://gitlab.com/gitlab-org/charts/gitlab/-/issues/5326).
+   * Write a comment explaining which actions did you take to mitigate it.
+   * Check if there's an existing follow-up issue to investigate/implement a definitive fix for the problem, and link it to this pipeline issue failure. If such a follow-up issue does not yet exist, create one and link it.
+   * If you had to restart a release which had already been stopped, after you fix the pipeline, manually stop the environment with `@gitlab-bot retry_job <job-id of stop-review-*>`. This is necessary because that job won't be automatically re-triggered, and dangling releases can cause ELBs quota exhaustion. See chart issue [#5326](https://gitlab.com/gitlab-org/charts/gitlab/-/issues/5326).
 1. Failures requiring follow up issue(s) to fix pipelines that are still in a broken state should also be noted to increase team awareness. Those issues should be labeled with `Broken Pipeline`.
 1. Failures caused by upstream failure should be labeled with [`Upstream bug`](https://gitlab.com/groups/gitlab-org/-/labels?search=upstream+bug) and linked with the related upstream issue.
 1. Before closing the issue, don't forget to set the milestone and double check that you have added `pipeline failure::under investigation`. This is important for metric purposes.

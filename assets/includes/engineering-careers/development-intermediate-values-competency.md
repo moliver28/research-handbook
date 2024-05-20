@@ -1,4 +1,5 @@
 ##### Development
+
 * Independently brings in expertise from other contributors to raise the standard of their work.
 * Gives positive feedback in public and negative feedback privately with care.
 * Executes tasks in team projects, demonstrating ownership of them from conception to completion.

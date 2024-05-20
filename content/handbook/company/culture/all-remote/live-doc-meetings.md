@@ -41,6 +41,7 @@ If you determine that a meeting is needed to move a project forward, address a b
 1. [Make a proposal]({{< ref "values#make-a-proposal" >}}) whenever feasible. It should be possible to answer/comment with a simple "yes."
 1. Link any relevant piece of text to associated resources to prevent people from spending time searching or asking.
 1. Follow GitLab's [smart notetaking guidance]({{< ref "communication#smart-note-taking-in-meetings" >}}) by taking notes inline with the agenda rather than using a separate "notes" section. Real-time note-taking by multiple participants is encouraged.
+   - Another good reference is the CEO Shadow [handbook page tips section](/handbook/ceo/shadow/#taking-notes:~:text=in%20a%20meeting.-,Tips,-%3A), specifically `It’s helpful if shadow one takes notes as the first speaker is talking, then shadow two starts when the next speaker continues the conversation. Shadow one can pick up note taking again when the next speaker contributes. By alternating this way, the shadows are better able to keep up with all the participants in the conversation.` This advice can be used in general meetings as well.
 1. If you're not talking in the meeting, at any given time, help take notes. If there isn’t a note taker listed in the document at the start of the meeting, people should self-note-take. Consider asking other people to write down the answers in real-time to allow the person who asked the question to focus on the answer. The person asking the question can touch up the answer when the conversation has moved on to something less relevant to them.
 1. Notes should be properly indented and structured to follow the conversation's flow.
 1. Notes do not have to be verbatim, but they should capture key points made and be clear on any decisions or next steps.
@@ -100,6 +101,6 @@ Live doc meetings are usually held in the host's time zone. However, leaders sho
 
 Live doc meetings can happen fully in-person, fully online, or a on hybrid call — which is a blend of both. It's best to have everyone on a level playing field for communication and discussion, so [hybrid calls should be avoided]({{< ref "./meetings#avoid-hybrid-calls" >}}). If a hybrid call is necessary, have participants use their own equipment (camera, headset, screen) to avoid audio problems from delays and feedback.
 
-- - -
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

@@ -77,7 +77,7 @@
 {{- end }}
 {{- end }}
 
-{{- with $section_data.fullstack_engineering_manager }}
+{{- with $section_data.fullstack_managers }}
 {{- range (slice | append .) }}
 {{- with . }}
 {{- $fullstackManager =  append $fullstackManager ($team_data.Get . | default slice) }}

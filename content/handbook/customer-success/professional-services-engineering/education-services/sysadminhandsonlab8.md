@@ -1,11 +1,13 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Troubleshoot GitLab"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "TThis Hands-On Guide walks you through troubleshooting GitLab services NGINX, Puma, and Gitaly."
 ---
 
 > Estimated time to complete: 30 minutes
 
-For this lab exercise, refer to GitLab's [application architecture](https://docs.gitlab.com/ee/development/architecture.html#simplified-component-overview) to review GitLab's major services and interactions.
+## Objectives
+
+The purpose of this lab is to show how to troubleshoot the GitLab server by using the `gitlab-ctl` command. For this lab exercise, refer to GitLab's [application architecture](https://docs.gitlab.com/ee/development/architecture.html#simplified-component-overview) to review GitLab's major services and interactions.
 
 ### Task A. Troubleshoot NGINX
 

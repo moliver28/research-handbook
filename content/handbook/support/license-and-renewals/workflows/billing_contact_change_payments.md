@@ -155,7 +155,7 @@ If a Self-managed Ultimate customer would like to renew for a Premium plan, refe
 
 ### Contract Resets for GitLab.com
 
-Previously, whenever a `contract reset` was performed on a GitLab.com subscription, the namespace would be downgraded to the free tier, requiring manual intervention from L&R Support to link the new subscription to the customer's existing namespace. Sales Operations has since implemented a new workflow process in SFDC to prevent this from occuring, ensuring that the namespace is automatically associated with the new subscription created during a contract reset. Detailed guidance on this workflow process can be found in the sales operations handbook under the section titled [contract reset](https://handbook.gitlab.com/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset).
+Previously, whenever a `contract reset` was performed on a GitLab.com subscription, the namespace would be downgraded to the free tier, requiring manual intervention from L&R Support to link the new subscription to the customer's existing namespace. Sales Operations has since implemented a new workflow process in SFDC to prevent this from occuring, ensuring that the namespace is automatically associated with the new subscription created during a contract reset. Detailed guidance on this workflow process can be found in the sales operations handbook under the section titled [contract reset](/handbook/sales/field-operations/sales-operations/deal-desk/#contract-reset).
 
 ### Refunds
 

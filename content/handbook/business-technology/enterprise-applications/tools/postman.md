@@ -6,13 +6,7 @@ description: "Guidelines and best practices for using Postman"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-# Postman Best Practices
+## Postman Best Practices
 
 ## What is Postman?
 

@@ -1,14 +1,7 @@
 ---
-
 title: "Demo Systems Infrastructure - Networking"
 description: “Discover GitLab’s networking solutions for Demo Systems Infrastructure”
 ---
-
-
-
-
-
-
 
 ## Global CIDR Ranges
 
@@ -33,16 +26,11 @@ Each of the region/zone CIDR ranges exist in the `10.128.0.0/9` CIDR range. We h
 | 10.224.0.0 /12      | 10.224.0.0 - 10.239.255.255 | (Reserved for AWS expansion)                    |
 | 10.240.0.0 /12      | 10.240.0.0 - 10.255.255.255 | (Reserved for AWS expansion)                    |
 
-<div class="panel panel-info">
-<div class="panel-heading">
-GitLab Implementation
-</div>
-<div class="panel-body">
-We like human recognizable infrastructure design elements and have allocated all of the `10.1xx.` address space to GCP and all of the `10.2xx.` IP space to AWS. This allow us to easily recognize which cloud provider console we should access to troubleshoot an issue. Feel free to adopt this idea for multi-cloud implementations, however it's not required.<br />
-<br />
+{{% panel header="**GitLab Implementation**" header-bg="info" %}}
+We like human recognizable infrastructure design elements and have allocated all of the `10.1xx.` address space to GCP and all of the `10.2xx.` IP space to AWS. This allow us to easily recognize which cloud provider console we should access to troubleshoot an issue. Feel free to adopt this idea for multi-cloud implementations, however it's not required.
+
 Since we don't need as large of an IP range for management infrastructure, we partitioned the `10.192.0.0/12` CIDR range into two `/13` ranges which allowed us to cleanly partition the IP space for our GCP and AWS management infrastructure. We further partitioned the `/13` for GCP into multiple `/16` ranges to allow us to divide our management infrastructure cleanly into multiple regions for redundancy.
-</div>
-</div>
+{{% /panel %}}
 
 ### How We Allocated Subnets
 
@@ -54,29 +42,19 @@ Since each VPC network has its own subnets, we can use the entire `10.0.0.0/8` r
 
 When configuring your VPC networks and routing tables, you can choose to create a global routing table with a `10.128.0.0/9` and subnets for each region/zone that can communicate with each other, or configure each region/zone to operate independently with a `/12` routing table. Keep in mind that usage of terminology varies by cloud provider. For example, a GCP VPC is a global resource and an AWS VPC has a lot of options that are different in regards to cross-region network design.
 
-<div class="panel panel-info">
-<div class="panel-heading">
-GitLab Implementation
-</div>
-<div class="panel-body">
+{{% panel header="**GitLab Implementation**" header-bg="info" %}}
 We keep each region isolated by creating a separate VPC Network for each region so there is no chance of cross-region contamination if something goes wrong. Although there are trade-offs with ease-of-administration that we solve with infrastructure-as-code tools, we prefer it this way to allow us to build/destroy/rebuild an entire region without worrying about whether the top-level resources are affected.
-</div>
-</div>
+{{% /panel %}}
 
 ### High-Availability with Multiple Availability Zones per Region
 
 If you are designing a high-availability/fault-tolerant environment within a region and want to use multiple availability zones, you can choose to use a `/12` CIDR range per zone (recommended for simplicity), or partition a `/12` CIDR range into a `/13` (2 zones) or `/14` (3-4 zones). The documentation assumes that you're using a `/12` per zone.
 
-<div class="panel panel-info">
-<div class="panel-heading">
-GitLab Implementation
-</div>
-<div class="panel-body">
-We like human recognizable infrastructure design elements and have allocated all of the `10.1xx.` address space to GCP and all of the `10.2xx.` IP space to AWS. This allow us to easily recognize which cloud provider console we should access to troubleshoot an issue. Feel free to adopt this idea for multi-cloud implementations, however it's not required.<br />
-<br />
+{{% panel header="**GitLab Implementation**" header-bg="info" %}}
+We like human recognizable infrastructure design elements and have allocated all of the `10.1xx.` address space to GCP and all of the `10.2xx.` IP space to AWS. This allow us to easily recognize which cloud provider console we should access to troubleshoot an issue. Feel free to adopt this idea for multi-cloud implementations, however it's not required.
+
 Since our demo environment is replicated in multiple regions, we don't think multi-zone redundancy within a region is necessary (or worth the compute cost). If we have a problem in a region, we'll redirect users to another region.
-</div>
-</div>
+{{% /panel %}}
 
 ## Region/Zone Subnet Ranges
 
@@ -119,14 +97,9 @@ The `/12` CIDR for each region/zone includes 16 `/16` CIDR ranges. In other word
 | 10.o.0.0 /16    | (255) demosys-{regionAbbrev}-k8s-sandbox-{rsvpID}  |
 | 10.p.0.0 /16    | (255) demosys-{regionAbbrev}-k8s-sandbox-{rsvpID}  |
 
-<div class="panel panel-info">
-<div class="panel-heading">
-GitLab Implementation
-</div>
-<div class="panel-body">
+{{% panel header="**GitLab Implementation**" header-bg="info" %}}
 This is where the "it depends" scenarios start with network design. You can allocate this IP space however you'd like including subnet partitioning or combining. All of the documentation is modeled after how we've implemented it at GitLab based on our use cases.
-</div>
-</div>
+{{% /panel %}}
 
 ### Demo Systems Management
 

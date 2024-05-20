@@ -7,7 +7,7 @@ title: "Dev Career Framework"
 {{% include "includes/engineering-careers/dev-career-matrix-nav.md" %}}
 
 These are the expected competencies of the Dev Sub Department team members at GitLab by Job Title.
- 
+
 ## Intermediate
 
 - [Backend](/handbook/engineering/careers/matrix/development/dev/backend/intermediate/)
@@ -26,4 +26,3 @@ These are the expected competencies of the Dev Sub Department team members at Gi
 ## Principal
 
 - [Principal Engineer](/handbook/engineering/careers/matrix/development/dev/principal/)
-

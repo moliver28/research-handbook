@@ -51,23 +51,23 @@ The DRI for all Meeting Agendas should be the Mentee. The Mentee should pre-popu
 Agenda
 
 1. Introduction
-   -  Share personal and professional backgrounds
+   - Share personal and professional backgrounds
 1. Communications Preferences
-   -  Identify methods and frequency of Communication
+   - Identify methods and frequency of Communication
 1. Questions
-   -  Prepared list of questions for your mentor to break the ice
+   - Prepared list of questions for your mentor to break the ice
 1. SMART Goals
-   -  Prepared list of SMART Goals
+   - Prepared list of SMART Goals
 
 ### Sample Standard Meeting Agenda
 
 Agenda
 
 1. Last Week's Action Items
-   -  Review Action Items from the Previous Meeting
+   - Review Action Items from the Previous Meeting
 1. Discuss new challenges that have arisen unexpectedly
-   -  Review Mentee progress on
+   - Review Mentee progress on
 1. SMART Goals
-   -  Review Mentee progress on
+   - Review Mentee progress on
 1. Action Items
-   -  Document Mentee Action Items
+   - Document Mentee Action Items

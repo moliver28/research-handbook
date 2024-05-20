@@ -64,7 +64,7 @@ both horizontally and vertically:
 
 | Feature | Merge requests (not an exhaustive list) | Slicing |
 | --- | --- | --- |
-| [GitLab Insights](https://gitlab.com/groups/gitlab-org/-/epics/725) | <ul><li>[Introduce the Gitlab::Insights framework](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9912)</li><li>[Introduce the Insights controllers](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9776)</li><li>[Insights frontend](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9856)</li><li>[Move to supporting multiple charts per page for Insights](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/10516)</li></ul> | Mixture with both. Horizontally for the base and vertically on top of it
+| [GitLab Insights](https://gitlab.com/groups/gitlab-org/-/epics/725) | <ul><li>[Introduce the Gitlab::Insights framework](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9912)</li><li>[Introduce the Insights controllers](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9776)</li><li>[Insights frontend](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9856)</li><li>[Move to supporting multiple charts per page for Insights](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/10516)</li></ul> | Mixture with both. Horizontally for the base and vertically on top of it |
 | [Filter search results by state](https://gitlab.com/groups/gitlab-org/-/epics/4293) | <ul><li>[Search UI add issue scope results filtering by state](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/39881)</li><li>[Add issues/merge_requests filtering by state for search API](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/41989)</li></ul> | Vertically that each merge request shipped a standalone feature |
 
 ### Guidelines for proprietary and upstream contributions
@@ -85,6 +85,7 @@ Contributions in projects that have proprietary and upstream contributions will 
 ### JiHu contribution identification
 
 Contributions from [JiHu team members](https://gitlab.com/groups/gitlab-jh/jh-team/-/group_members?with_inherited_permissions=exclude) are labeled with `JiHu contribution` label via:
+
 - [Event driven automation](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/triage/processor/jihu_contribution.rb)
 - [Scheduled automation](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/hygiene/label-jihu-contribution.yml) as backup.
 

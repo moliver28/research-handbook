@@ -25,6 +25,10 @@ Managing a team member who is underperforming is one of the more challenging asp
 GitLab uses the skill-based and will-based performance model to identify the root cause of the team members' underperformance and to determine the suitable remediation plan. The remediation plan  will be based on the type of performance issue.
 The Team Member Relations team is here to assist you in identifying the cause of the performance issue and can walk you through the performance management process that applies best to the situation. Below are definitions of skills-based and will-based concerns as well as the typical remediation plans. As with all situations, there may be unique circumstances that require unique remediation plans.
 
+### Inform the Team Member Relations Team
+
+Looping in [Team Member Relations](/handbook/people-group/) early is essential. Team Member Relations can offer support, guidance, coaching, and partner with Legal to ensure compliance throughout all stages of the performance management process.  Reaching out to the TMR team is critical to managing underperformance, and not doing so within a reasonable timeframe ultimately impacts the manager's performance. Connecting with the TMR team ensures that feedback is being delivered in accordance with our [guidance for giving feedback](/handbook/people-group/guidance-on-feedback/) and within applicable local labor laws and regulations.
+
 ## Warning Signs/Patterns of Underperformance
 
 How do you know if a team member isn't reaching their goals? Below are some common warning signs and patterns of underperformance as it relates to not meeting the expectations of the role.
@@ -62,27 +66,20 @@ Team members who have the skills necessary to succeed in their current role but 
 
 If a manager or any team member witnesses or is made aware of any team member behavior that violates our [Code of Conduct](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) they should immediately reach out to Team Member Relations at `teammemberrelations@gitlab.com`.
 
-
 ### Team Member: Discuss Circumstances Immediately With Your Manager
 
 Tell your manager immediately if there are circumstances in your life that cause you to be less effective. It isn't required to give details if you prefer not to. Tell your manager when it started, to what extent it hinders your work, and what your forecast is for your circumstances to improve. When you delay this conversation until your manager identifies underperformance you've lost trust that would be helpful during this period.  Team Member Relations can also be a resource for team members experiencing circumstances that are affecting their performance.
-
-### Loop in the Team Member Relations Partner
-
-Looping in [Team Member Relations](/handbook/people-group/) early is essential. Team Member Relations can offer support, guidance, coaching, and partner with Legal to ensure compliance. Please be sure to align with your TMR Partner prior to delivering any formal action plan to team members. Formal action can include a Written Performance Letter, Verbal Warning, Written Warning, and a Performance Improvement Plan. Managers will partner with the team member relations group in the creation and delivery of any formal action.
-
-**Important**: While it’s never too early to involve Team Member Relations, if there are performance concerns without sustained improvement following [manager led coaching](https://handbook.gitlab.com/handbook/leadership/coaching/) over the course of at least 1 month, loop in the TMR team.  Reaching out to the TMR team is critical to managing underperformance, and not doing so within a reasonable timeframe ultimately impacts the manager's performance. Connecting with the TMR team ensures that feedback is being delivered in accordance with our [guidance for giving feedback](/handbook/people-group/guidance-on-feedback/) and within applicable local labor laws and regulations.  
 
 ### Manager: Identify And Take Action As Early As Possible
 
 The important thing to remember as a manager is to immediately address signs of underperformance. Taking action sooner allows more time for coaching to be effective and successful.  In the early stage of the process it is important to identify the reasons why team members might not be meeting expectations for their role. We do this by reviewing previous performance history, ensuring the team member has been taking sufficient PTO (Paid Time Off) and also checking in to ensure all is well in their personal life and providing appropriate support when needed.
 
 As you begin to coach, refer to resources in the handbook and from Elevate for support.
-1. [The GROW coaching model](As managers begin to coach, refer to important coaching resources in the handbook, also taught in Elevate:
-)
-2. [Managing your Inner Fixer](https://handbook.gitlab.com/handbook/leadership/coaching/#managing-your-inner-fixer)
-3. [The Trust Equation](https://handbook.gitlab.com/handbook/leadership/coaching/#the-trust-equation)
-4. [Essential Coaching Skills](https://handbook.gitlab.com/handbook/leadership/coaching/#essential-coaching-skills)
+
+1. [The GROW coaching model](/handbook/leadership/coaching/#grow-model) (As managers begin to coach, refer to important coaching resources in the handbook, also taught in Elevate:)
+2. [Managing your Inner Fixer](/handbook/leadership/coaching/#managing-your-inner-fixer)
+3. [The Trust Equation](/handbook/leadership/coaching/#the-trust-equation)
+4. [Essential Coaching Skills](/handbook/leadership/coaching/#essential-coaching-skills)
 
 ### Immediately Discuss With The Manager's Manager
 
@@ -111,7 +108,7 @@ The expectation is that all team members are provided coaching and feedback prio
 
 Managers are expected to address performance concerns (skill-based or will-based) in a timely manner. Managers should address concerns verbally during one-on-one meetings or in impromptu private coaching sessions with their team members. These conversations must be documented by the manager and shared with the team member so that both have access  to the record of the discussion and are in alignment on where improvements need to be made and within a specified timeframe. Documentation should be brief (a few key bullet points or a paragraph), and will normally be sent via email to the team member following the verbal discussion. See the example coaching email below:
 
-----
+---
 
 Dear (Team member name)
 
@@ -122,7 +119,7 @@ Please know that I am fully committed to working with you in addressing these is
 Thanks,
 (Manager name)
 
-----
+---
 
 Underperformance feedback should be included on your [1-1 agenda]({{< ref "suggested-agenda-format" >}}). Helping GitLab team members understand clearly how their performance is below the expected standard expected quickly is very important to foster immediate improvement and continued success.  Managers should be as specific as possible and provide clear examples of where the team member is falling short. Make sure the team member has the opportunity to respond to your concerns  and give them the time to explain their performance.  Keep an open mind, listen actively, and ask open questions when you want to find out more.  When discussing performance, it’s important that the manager and team member are aligned on the expectations moving forward.  It is best practice for the manager to meet with their team member at least once a week to monitor and discuss their performance.be critical.
 
@@ -134,7 +131,7 @@ In some cases, a Written Performance Letter or Performance Improvement Plan may 
 
 ### Compensation Impact
 
-It is important to note that the team member may not be eligible for compensation increases from the [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/) or the [annual refresh grant program](/handbook/stock-options/#refresh-grants) if they are being actively performance managed.
+It is important to note that the team member may not be eligible for compensation increases from the [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/) or the [annual refresh grant program](/handbook/total-rewards/stock-options/#refresh-grants) if they are being actively performance managed.
 
 ### Internal Applications and Transfers during underperformance remediation
 

@@ -52,15 +52,15 @@ When reviewing merge requests (MRs), I tend to look for:
 
 Here is my office setup:
 
-- Standing desk from a local office supplier
-- Samsung WQHD 24 inch external monitor (S24H850)
-- Goldtouch [adjustable keyboard](https://shop.goldtouch.com/products/goldtouch-v2-adjustable-comfort-keyboard-pc-and-mac-compatible-usb)
-- Logitech mouse
-- Logitech wired headset
+* Standing desk from a local office supplier
+* Samsung WQHD 24 inch external monitor (S24H850)
+* Goldtouch [adjustable keyboard](https://shop.goldtouch.com/products/goldtouch-v2-adjustable-comfort-keyboard-pc-and-mac-compatible-usb)
+* Logitech mouse
+* Logitech wired headset
 
 ## Trivia
 
-- I joined GitLab because of the transparent handbook, and that each job page had the amazing phrase "Avoid the confidence gap; you do not have to match all the listed requirements exactly to apply".
-- Prior to GitLab, I have been a manager of developers. I went back to being an individual contributor because of the [engineer/manager pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/), and also I much prefer shorter feedback loops.
-- I have read War and Peace, translated. Vanity Fair, or the Wheel of Time is much better.
-- I have JavaScript disabled globally in my browsers.
+* I joined GitLab because of the transparent handbook, and that each job page had the amazing phrase "Avoid the confidence gap; you do not have to match all the listed requirements exactly to apply".
+* Prior to GitLab, I have been a manager of developers. I went back to being an individual contributor because of the [engineer/manager pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/), and also I much prefer shorter feedback loops.
+* I have read War and Peace, translated. Vanity Fair, or the Wheel of Time is much better.
+* I have JavaScript disabled globally in my browsers.

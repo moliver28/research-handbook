@@ -38,9 +38,10 @@ In January 2023 we conducted a [User survey](/handbook/engineering/development/i
 Maturity: `70%` Status: `work in progress`
 
 Issues:
+
  - [Use the Pipeline Wizard for Pages onboarding](https://gitlab.
    com/gitlab-org/gitlab/-/issues/343557) - **Completed**
- - [Remove the requirement for output files to be inside a folder called 
+ - [Remove the requirement for output files to be inside a folder called
    "public"](https://gitlab.com/gitlab-org/gitlab-pages/-/issues/668)
 
 #### When I'm building a server-side-rendered static site (SSR), I want to use GitLab to deploy, so that I don't have to configure and pay other services to do so
@@ -48,6 +49,7 @@ Issues:
 Maturity: `10%` Status: `work in progress`
 
 Issues:
+
  - [Allow the use of Javascript runtimes for Jamstack apps (SSR)](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/32)
 
 #### When I'm deploying a Pages site, I want to have it distributed via a CDN so that the page is delivered faster
@@ -67,11 +69,12 @@ Maturity: `0%` Status: `planned`
 Maturity: `0%` Status: `planned`
 
 Issues:
+
  - [API Generator](https://gitlab.com/gitlab-org/incubation-engineering/jamstack/meta/-/issues/46)
 
 ## Guiding Principles
 
-These are the guiding principles that the Jamstack SEG optimizes its 
+These are the guiding principles that the Jamstack SEG optimizes its
 implementations for.
 
 1. [**Simplicity**](https://gitlab.com/groups/gitlab-org/incubation-engineering/jamstack/-/epics?label_name%5B%5D=Jamstack+Focus%3A%3ASimplicity) - It should be intuitive to use GitLab to deploy a static site. GitLab should be a great place to _just get started_ with the confidence that deployments can be fine-tuned and scaled later.

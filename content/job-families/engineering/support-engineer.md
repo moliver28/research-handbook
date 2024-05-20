@@ -14,13 +14,14 @@ This position is 100% remote.
 
 ### Job Grade
 
-The Customer Support Representative is a [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Customer Support Representative is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 For a Customer Support Representative role we expect:
+
 - Someone who's been in a previous customer facing role, whether in a technical or non-technical company, and thrives on supporting other people
 - Someone who is able to understand process workflow and communicate via written word and video conferencing
 
-As we evolve our handbook and adopt a career matrix approach, you can read more about a Customer Support Representative on our [Customer Support Representative Career Matrix Page](https://handbook.gitlab.com/handbook/engineering/careers/matrix/support/CSR/) which covers more of the details you see in the roles below.
+As we evolve our handbook and adopt a career matrix approach, you can read more about a Customer Support Representative on our [Customer Support Representative Career Matrix Page](https://handbook.gitlab.com/handbook/engineering/careers/matrix/support/csr/) which covers more of the details you see in the roles below.
 
 ## Associate Support Engineer
 
@@ -29,6 +30,7 @@ As we evolve our handbook and adopt a career matrix approach, you can read more 
 The Associate Support Engineer is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 For an Associate Support Engineer role we expect:
+
 - Someone who's been in a previous customer facing role, maybe in a technical company, but also maybe outside of tech
 - We expect this person to be early in their career of "technical debugging" - They may have worked support before, but not deep technical troubleshooting.
 
@@ -106,7 +108,7 @@ When you’re not tackling difficult customer challenges, you’ll have a lot of
 
 For Support Engineers who are nearing or at Senior Level
 
-### The ASE role
+#### The ASE role
 
 - Prioritize a mix of Self-managed and GitLab.com (SaaS) customers with a higher support offering and resolve their issues via Zendesk tickets, merge requests, email and video conferencing
 - Lead the relationship with up to 5 assigned accounts while also contributing to global tickets
@@ -121,6 +123,27 @@ For Support Engineers who are nearing or at Senior Level
 - Coordinate with internal teams as necessary to drive decreased time to resolution
 - Coordinate with customer to enable successful upgrades
 - Participation in CMOC/CEOC rotations remains unchanged and is expected
+
+#### What is it like to be an ASE?
+
+We asked some questions of our two first ASEs, Harish and Gerardo, to find out about the work life of an ASE. See what they had to say:
+
+- Watch the [whole video](https://www.youtube.com/watch?v=H4352jlI2MQ) (42:28)
+
+OR, Skip to the topics of interest to you:
+
+- [The ASE Role](https://youtu.be/H4352jlI2MQ?t=57)  (0:56)
+- [How Is the ASE Role Different from the SE Role?](https://youtu.be/H4352jlI2MQ?t=113)  (3:00)
+- [Is the Scope of Support Different?](https://youtu.be/H4352jlI2MQ?t=293)  (1:24)
+- [What Is Success for an ASE?](https://youtu.be/H4352jlI2MQ?t=377)  (2:54)
+- [How Will Managers Measure Success?](https://youtu.be/H4352jlI2MQ?t=551)  (1:29)
+- [What Do I Need To Know / How Did I Become an ASE?](https://youtu.be/H4352jlI2MQ?t=640)  (2:30)
+- [What Did You Need to Know?](https://youtu.be/H4352jlI2MQ?t=790)  (5:00)
+- [What Makes for a Good ASE?](https://youtu.be/H4352jlI2MQ?t=1090)  (2:44)
+- [How Do You Balance ASE Work with Normal Queue Work?](https://youtu.be/H4352jlI2MQ?t=1254)  (3:50)
+- [What Do You Like about Being an ASE?](https://youtu.be/H4352jlI2MQ?t=1484)  (5:22)
+- [How Does the Stress Differ Between ASE and SE Roles?](https://youtu.be/H4352jlI2MQ?t=1806)  (3:15)
+- [What Are the Challenges and Dislikes of Being an ASE?](https://youtu.be/H4352jlI2MQ?t=2001)  (9:07)
 
 ### US Government Support Engineer
 
@@ -140,7 +163,7 @@ In addition to the above requirements for Global Support Engineers, you will nee
 
 ### [What it’s like to work here](/handbook/company/culture/#so-thats-what-its-like-to-work-at-gitlab) at GitLab
 
-The [culture](/handbook/company/culture/) here at GitLab is something we’re incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you’ll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you’ll be entitled to vary by the region or country you’re in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We’ll also help you set up your [home office environment](/handbook/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
+The [culture](/handbook/company/culture/) here at GitLab is something we’re incredibly proud of. Because GitLab team members are currently located in over 60 different countries, you’ll spend your time collaborating with kind, talented, and motivated colleagues from across the globe. Some of the [benefits](/handbook/total-rewards/benefits/) you’ll be entitled to vary by the region or country you’re in. However, all GitLab team members are fully remote and receive GitLab's [Flexible PTO policy](/handbook/people-group/paid-time-off/), where there is no set limit per year on the amount of paid time off a team member can take. You can work incredibly flexible hours, enabled by our [asynchronous approach](/handbook/communication/) to communication. We’ll also help you set up your [home office environment](/handbook/finance/spending-company-money/), pay for your membership to a co-working space, and contribute to the [travel costs](/handbook/total-rewards/incentives/#visiting-grant) associated with meeting other GitLab employees across the world.
 
 Also, every year or so, we’ll invite you to our [Contribute event](https://about.gitlab.com/events/gitlab-contribute/).
 
@@ -186,7 +209,6 @@ demonstrated significant leadership and impact; typically around resolving custo
 - **Strategic Involvement and Customer Advocacy**: They play a strategic role by being the voice of the customer within broader product and engineering teams, contributing to cross-functional projects, and focusing on customer-centric problem solving.
 
 - **Proactive Organizational Leadership and Impact**: Staff Support Engineers exhibit proactive, visible technical leadership in addressing complex issues and significantly impacting both the team and customers. This includes engagement with leaders within customer organizations, particularly during escalations and proactive engagements that involve Support. They actively contribute to discussions, and influence decisions. They also steer product development by communicating customer needs and priorities, and from work with customers they anticipate product limitations.
-
 
 ## Career Ladder
 

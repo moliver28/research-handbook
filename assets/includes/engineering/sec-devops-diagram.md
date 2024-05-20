@@ -78,31 +78,31 @@
         width: 100%;
         display: flex;
     }
-    
+
     .diagramwrapper .box {
         width: calc(100% - 240px);
         padding: 10px;
         display: flex;
         background-color: #fff;
     }
-    
+
     .diagramwrapper .box svg {
         width:100%;
     }
-    
+
     .diagramwrapper .stages {
         display: flex;
         width: 210px;
         margin-left: 30px;
         flex-wrap: wrap;
     }
-    
+
     .diagramwrapper .stage {
         display: flex;
         width: 210px;
         margin: auto 0;
     }
-    
+
     .diagramwrapper .circle {
         width: 80px;
         height: 80px;
@@ -113,13 +113,13 @@
         background-color: #fff;
         padding: 0;
     }
-    
+
     .diagramwrapper .circle svg {
         fill: #524684;
         width: 50px;
         margin: 15px;
     }
-    
+
     .diagramwrapper .stagename {
         display: inline-block;
         font-family: Source Sans Pro,sans-serif;
