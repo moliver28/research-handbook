@@ -569,13 +569,13 @@ Team members are entitled to accrue 20 days per year at a rate of 1.67 days/mont
 
 ### GitLab S.A.S (France)
 
-Team members are entitled to a minimum of 5 weeks of statutory vacation per year. The accrual period in France is June 1st - May 31st and accruals are prorated based on the number of months worked in the accrual period.  Any unused statutory vacation days will be carried into the next accrual period, but expire one year after it's accrued.
+Team members are entitled to a minimum of 5 weeks of statutory vacation per year. The accrual period in France is June 1st - May 31st and accruals are prorated based on the number of months worked in the accrual period. Any unused statutory vacation days will be carried into the next accrual period, but expire one year after it's accrued.
 
 #### Reduction of working time (RTT)
 
 - Certain roles within GitLab may benefit from reduced working time (RTT), and the accrual period for RTT days is January 1st - December 31st each year.
-- Team members cannot carry RTT days to the following year and we encourage all team members to use RTT accruals withing the year.
-Team members can find more information on [working time in France](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/) and [RTT calculation](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/#rtt-calculation (_*accessible internally only) as linked.
+- Team members cannot carry RTT days to the following year and we encourage all team members to use RTT accruals within the year.
+Team members are encouraged to review additional information on [working time in France](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/) and [RTT calculation](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/#rtt-calculation (*_accessible internally only_).
 
 ### GitLab Canada Corp (Canada)
 
