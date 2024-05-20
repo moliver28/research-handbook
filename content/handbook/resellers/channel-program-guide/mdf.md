@@ -187,7 +187,7 @@ Once a claim is submitted MDF Program Owner receives an automated email.
 ## FY25 Q2 GitLab Biz Development team to prospect leads from MDF Campaigns
 
 - Exciting offering for our partners who are running MDF campaigns with us in FY25 Q2 (May 1, 2024 - July 31, 2024).
-- At the partners election, GitLab’s in-house prospecting experts(the GitLab BDR team) will work on your behalf to surface joint opportunities from agreed MDF campaigns, allowing you and your teams to focus on the deal progression and beyond. 
+- At the partners election, GitLab’s in-house prospecting experts(the GitLab BDR team) will work on your behalf to surface joint opportunities from agreed MDF campaigns, allowing you and your teams to focus on the deal progression and beyond.
 - Even though the GitLab BDR team will be working to surface the opportunity for you, you will still be entitled to your pricing and discounts as listed in the [partner portal](https://partners.gitlab.com/English/). 
 
 
