@@ -691,37 +691,31 @@ Once the Labor Contract has been signed by both CIIC and the new hire the indivi
 
 ## Employment Agreements for GitLab team members in Germany
 
-According to the revised German Contract process, contracts require wet signatures which means that besides contracts being e-signed, GitLab also requires physical copies of the contract to be signed by both parties.
+According to the revised German Contract process, contracts require wet signatures, which means that besides contracts being e-signed in Docusign, GitLab also requires physical copies of the contract to be signed by both parties.
 
 To initiate the process to submit the contract for e-signatures via DocuSign:
 
 1. CES will ensure that the start date is either a Monday, or the 1st or 16th of the month
-1. CES will send German Contract Step 1 template email via Greenhouse
-1. Offer can be sent through Greenhouse and DocuSign. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
-1. Download a copy of the unsigned contract on your desktop (*additional steps below).
+1. CES will send the German Contract Step 1 template email via Greenhouse
+1. The offer can be sent through Greenhouse and DocuSign. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
+1. Download a copy of the unsigned contract onto your desktop from Greenhouse.
 1. Initiate the background check. Please use the Germany Package from the drop down in Sterling.
 
 **Once the Contract has been e-signed via DocuSign by both parties, please follow the steps below on how to send the contract in PDF format to the German counsel**
 
 Please follow the outlined steps below before sending the unsigned copy of the Contract to the Counsel:
 
-- (*)Open the saved unsigned contract in Google Drive, remove GitLab signatory from the below fields -
+- Open the saved unsigned contract in Google Drive, remove GitLab signatory from the below fields -
     1. **Summary Key of Terms** - Delete the GitLab Signatory's name and leave the field blank.
     1. **Scroll down to the end of the contract** - replace Signatory's name with “GitLab Signatory”. Save the contract as a PDF format.
-- To send the contract out to the German Counsel, CES can follow the below email structure through Gmail-
+- To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
     - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
     - **Subject line**  : Please Send Physical Contract for “Name of the new hire”
-    - **Body of the email** : Expand the Text expander snippet “ GCtogermancounsel”
+    - **Body of the email** : Expand the Text expander snippet “GCtogermancounsel”
     - **Attachment** : CES to attach the unsigned PDF contract
-- In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the “email the “candidate name” function, select the template “ German Contract already sent to counsel”.
+- In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the “email the “candidate name” function, select the template “German Contract already sent to counsel”.
 - A welcome email should be sent to the candidate, and they should be marked as hired as per the normal hiring process.
 - Once the candidate has confirmed that they have received the physical contract in mail. CES will send the email template "German Contract step 2" to the candidate and close out the issue.
-
-Former QES instructions: As of August 1, 2022, we are no longer able to send contracts through Qualified Electronic Signature. We are keeping the instructions here for 6 months while we await any changes to the law, and will remove them if the laws do not change again. To send a contract with QES, select "edit recipients" in DocuSign when editing your contract, select "customize", and choose "select signature type". Select IDNow - EU Qualified. You should select this for **both** signatories. Do not select this for anyone who is CC'ed.
-
-This additional step will require signatories to present government issued identification to the IDNow team when signing their contract.
-
-If you cannot find the QES option on your DocuSign, you may need to switch your open account. Select your name in the upper right corner of DocuSign. If it says the account is "GitLab Main", switch your access to your PeopleOps account. If you do not see another account, please check with Enablement.
 
 ## Employment Agreements for GitLab team members in Japan
 
