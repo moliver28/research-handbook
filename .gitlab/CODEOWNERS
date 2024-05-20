@@ -113,7 +113,6 @@
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
 /content/handbook/engineering/development/ @timzallmann @bmarnane @cdu1 @sgoldstein @dsatcher @m_gill @jeromezng @pcalder
 /content/handbook/engineering/development/analytics/analytics-instrumentation/ @bastirehm @timzallmann
-/content/handbook/engineering/development/analytics/analytics-instrumentation/gitlab_com_performance_dashboard.md @bastirehm
 /content/handbook/engineering/development/data-science/ @timzallmann @bmarnane @dsatcher @m_gill @pcalder
 /content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
