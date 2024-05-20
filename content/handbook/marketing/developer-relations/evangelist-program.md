@@ -289,29 +289,15 @@ Please follow the process detailed in the GitLab Heroes project to [request supp
 
 ### GitLab Heroes Licenses
 
-If you are a GitLab Hero seeking an Ultimate license, please create an issue in the GitLab Heroes project using the [heroes-license-request template](https://gitlab.com/gitlab-com/marketing/community-relations/gitlab-heroes/-/issues/new?issuable_template=heroes-license-request). These licenses are only open to GitLab Heroes at the Hero or Superhero level. Licenses should be for 1 user. Licenses should be issued for 6 months and can be extended as long as the GitLab Hero maintains their Hero or Superhero status in the program.
+If you are a GitLab Hero seeking access to Ultimate and Duo, please create an issue in the GitLab Heroes project using the [heroes-license-request template](https://gitlab.com/gitlab-com/marketing/community-relations/gitlab-heroes/-/issues/new?issuable_template=heroes-license-request). 
 
-GitLab team members follow the steps below to assist with license request.
+Please note: 
+- These licenses are only available to GitLab Heroes at the Hero or Superhero level. 
+- Licenses are for personal use and therefore limited to one user.
+- Licenses are only availble for a personal subgroup within the Community group on GitLab.com. 
+- Membership to the group will be issued for 6 months and can be extended as long as the GitLab Hero maintains their Hero or Superhero status in the program.
 
-The [internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) is used by a GitLab team member to conduct or request any modifications to licenses. Use either the **GitLab Support Internal Requests for Global customers** or **GitLab Support Internal Requests for Federal customers** request option, then select the appropriate internal request type, either for SaaS or Self-Managed.
-
-Type of request:
-
-    *  SaaS Subscription related
-    *  SaaS Trial related
-    *  Self-Managed Licence Related (paid customer only)
-    *  Self-Manged Trial Related
-    *  Other (includes wider community)
-
-Internal team member steps to complete Internal Request Form:
-
-* When filling in the form select under, What kind of request? select 'Other'.
-* Next select, Wider Community Licence
-* Fill in all the required fields.
-* For the field, What is the plan? Select, Ultimate
-* Leave note in the reason for licence being issue, mention the benefits of GitLab hero program.
-* For approval manager enter, Dev Evangelist, Senior Manager email, jcoghlan.gitlab.com.
-* double check fields - and select submit
+GitLab team members should follow the steps in the License Request issue to fulfill the license request.
 
 ### GitLab Hero Alumni Group
 
