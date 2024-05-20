@@ -644,4 +644,3 @@ Note: Work is ongoing on [migration helpers](https://gitlab.com/gitlab-org/gitla
 
 - [Product Planning Performance Indicators](/handbook/product/performance-indicators/)
 
-[websockets]: https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets
