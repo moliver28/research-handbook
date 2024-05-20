@@ -403,7 +403,7 @@ You may need a [reasonable accommodation]({{< ref "inc-usa#reasonable-accommodat
 
 </details>
 
-### Dental
+## Dental
 
 Dental is provided by Cigna, plan: DPPO. Effective 2024-01-01 GitLab offers a Base and Buy-Up Dental Plans
 
@@ -452,7 +452,7 @@ For out-of-network services: 365 days from Date of Service.
 
 </details>
 
-### Vision
+## Vision
 
 Vision is provided by Cigna. Effective 2024-01-01 GitLab offers a Base and Buy-Up Vision Plans
 
@@ -769,7 +769,11 @@ Wex Contact:  866-451-3399; customerservice@wexhealth.com; www.wexinc.com
 
 GitLab contributes $100 per month for those enrolled in the HSA under Individual cover, and $125 per month under team member + dependent(s) cover. You must be enrolled in the HDHP plan in order to contribute to the HSA.
 
-##### Benefits of an HSA account
+</details>
+
+<details markdown="1">
+
+<summary>HSA Account Rollover & Administration</summary>
 
 Your HSA account allows you to set aside money on a pre-tax basis to pay for qualified medical expenses. By using untaxed dollars in an HSA to pay for deductibles, copayments, coinsurance, and some other expenses, you may be able to lower your out-of-pocket health care costs. Some benefits of on HSA account are:
 
@@ -849,7 +853,7 @@ Note that if you increase the amount of your FSA, you will only be able to use t
 
 </details>
 
-#### Commuter Benefits
+### Commuter Benefits
 
 GitLab offers [commuter benefits](https://drive.google.com/file/d/0B4eFM43gu7VPek1Ia0ZqYjhuT25zYjdYTUpiS1NFSXFXc0Vn/view?usp=sharing) which are administered through WEX (Discovery Benefits).
 
@@ -916,7 +920,11 @@ Team members who wish to elect additional life insurance above what is provided 
 
 See the [2024 Cost Sheet](https://drive.google.com/file/d/1B_fNqboB3Nkkiq0mvd_yLs_-HceoY2ad/view?usp=sharing) for more details on the Cost and Employe Coverage amounts
 
-##### Evidence of Insurability
+</details>
+
+<details markdown="1">
+
+<summary>Evidence of Insurability</summary>
 
 If you elect supplemental life insurance greater than the guaranteed issue of voluntary life insurance for yourself or dependent, you or your dependent may be required to complete an evidence of insurability (EOI). If required, you will be prompted and provided with the form during the enrollment process and can also access it [here](https://drive.google.com/file/d/1Q1AjhGGia1QT2U_OC7TnMUtTk50ZuLBN/view?usp=sharing).
 
@@ -925,6 +933,8 @@ Please complete this form to the best of your ability, but if you're unsure for 
 Once complete, please send the form to `total-rewards@gitlab.com`. The Total Rewards team will then help fill in any missing information, if applicable, and will forward to the carrier for review. Total Rewards will confirm receipt of the EOI with the carrier, track its status, and the team or the carrier will reach out to the team member with any issues that need to be addressed in order for the EOI to be approved.
 
 If you leave GitLab, all supplemental life insurance is not included in COBRA and will terminate on your last day at GitLab unless you choose to continue your or your spouse/children's life insurance directly with the carrier. Please contact the carrier (Cigna) for more information on premiums and setting this up.
+
+</details>
 
 ## Team Member Discount Platforms
 
@@ -963,7 +973,11 @@ To access LifeMart through ADP:
 
 If you are enrolled in medical, dental, and/or vision when you terminate from GitLab (either voluntarily or involuntarily), you may be eligible to continue your coverage through [COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf).
 
-### Timeline
+</details>
+
+<details markdown="1">
+
+<summary>COBRA Timeline</summary>
 
 1. Typically terminations are updated in Workday  on the date of the termination and once updated, will then be updated in PlanSource by the end of the next business day.
 1. Once the termination has been added to PlanSource, the information will then be sent over to [WEX (Discovery Benefits)](https://cobra.discoverybenefits.com/), our COBRA administrator. Government guidelines give 30 days for WEX (Discovery) to be notified of the COBRA eligibility, but typically this will take about 1-2 weeks.
@@ -973,6 +987,8 @@ If you are enrolled in medical, dental, and/or vision when you terminate from Gi
 1. You may remain on COBRA for up to 18 months. Please see the COBRA enrollment packet for information on extending COBRA an additional 18 months, if applicable. The state you reside in may allow for additional time on COBRA, but may be more expensive and include only Medical. Please consult the laws for your state for more information.
 
 If you are currently employed and have any general COBRA questions, feel free to contact the Compensation & Benefits team. If you have terminated already or have specific questions on the administration of COBRA, feel free to contact WEX (Discovery) Benefits directly: (866) 451-3399.
+
+</details>
 
 ## GitLab Inc. United States Leave Policy
 
