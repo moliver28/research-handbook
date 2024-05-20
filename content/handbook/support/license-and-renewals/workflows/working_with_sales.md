@@ -17,6 +17,8 @@ description: This page is about working with sales.
 
 ### 2. Leave a message for the Salesforce `Account Owner` on Chatter with the relevant details
 
+#### If the Salesforce account has a named `Account Owner`
+
 1. Consider adding the following note in the Chatter message:
 
  > Please note that according to the "Working with Sales workflow" (<https://about.gitlab.com/handbook/support/license-and-renewals/workflows/working_with_sales/>) we expect a reply from you on this chatter within 24 hours (excluding weekend, Family and Friends Day & global holidays) stating when/if you will contact the customer.
@@ -33,19 +35,7 @@ description: This page is about working with sales.
 
 ***NB:** Support should be able to rely on the Salesforce `Account Owner` field to determine who is responsible for the account. If that is incorrect, escalate it **immediately**.*
 
-### 3. Escalation procedure
-
-**Before escalating consider checking the "Activity" section of the account's Salesforce page to see if someone has reached out to the customer. If you see activity since your first chatter, consider confirming status with the customer or the sales rep instead of escalating.** To confirm with Sales, just reply to the original chatter asking them whether they reached out. If you see no activity since you started the chatter, escalate as described below.
-
-##### If the Salesforce `Account Owner` is incorrect or unable/unwilling to assist
-
-- Mention the account owner's direct manager in a Chatter comment.
-- Examples of being unable/unwilling to assist:
-  - Account owner no longer works at GitLab.
-  - Account owner says the account is not theirs any more.
-  - Account owner says they have no time to help.
-
-##### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
+#### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
 
 - Follow this [process](/handbook/sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) to create a case, OR
 Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F98X000000oPQS) group in Salesforce.
@@ -53,7 +43,7 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
   - The case can then be tracked by viewing the `Case Status` field, and `Case Next Steps` field.
   - Support Cases, and their current status, can be viewed on the SFDC account, or via this [SFDC Report](https://gitlab.my.salesforce.com/00OPL000000toc5).
 
-- If the Support Engineer does not have Salesforce access, post a message in the [**#smb-pooled-ae**](https://gitlab.slack.com/archives/C036C3W83U1) slack channel.
+- If the Support Engineer does not have Salesforce access, post a message in the [**#global-digital-smb_public**](https://gitlab.enterprise.slack.com/archives/C06H72XGQUD) slack channel.
 - In your post, include:
   - details of the request
   - the Zendesk ticket link
@@ -66,6 +56,33 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
     - details of the request
     - the Zendesk ticket link
 1. If anyone you reach out to does not respond within 24 hours (excluding weekend, Family and Friends Day & global holidays):
+
+### 3. When someone from Sales confirms that they'll be in touch with the customer
+
+1. Post an update to the ticket, mentioning:
+    - The name of the person who will be in touch.
+    - Tell the customer to let us know if they haven't heard back within 2 business days.
+    - Inform the customer that if we don't receive a reply from them within 14 days following our last reply,
+      our ticketing system will mark the ticket as solved. If the customer then doesn't respond within 7 days
+      of the ticket being marked as solved, our ticketing system will proceed to close the ticket
+      (see [Automated Follow-up for Pending Cases](https://about.gitlab.com/support/general-policies/#automated-follow-up-for-pending-cases)).
+1. Set the ticket status to `Pending`.
+
+*(Pro tip: create a personal ticket view where "Escalated to Sales" = checked, to pull these out into their own queue)*
+
+### 4. Escalation procedure
+
+**Before escalating consider checking the "Activity" section of the account's Salesforce page to see if someone has reached out to the customer. If you see activity since your first chatter, consider confirming status with the customer or the sales rep instead of escalating.** To confirm with Sales, just reply to the original chatter asking them whether they reached out. If you see no activity since you started the chatter, escalate as described below.
+
+#### If the Salesforce `Account Owner` is incorrect or unable/unwilling to assist
+
+- Examples of being unable/unwilling to assist:
+  - Account owner no longer works at GitLab.
+  - Account owner says the account is not theirs any more.
+  - Account owner says they have no time to help.
+  - A reasonable amount of time has passed (> 24hrs) with no response
+
+##### If the Salesforce account has a named `Account Owner`
 
 - Mention the person's direct manager in a Chatter comment.
   - Suggested message text:
@@ -80,18 +97,17 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
     - It is helpful to refer to the [company organization chart](https://comp-calculator.gitlab.net/org_chart)
    to see who to escalate to.
 
-### 4. When someone from Sales confirms that they'll be in touch with the customer
+###### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
 
-1. Post an update to the ticket, mentioning:
-    - The name of the person who will be in touch.
-    - Tell the customer to let us know if they haven't heard back within 2 business days.
-    - Inform the customer that if we don't receive a reply from them within 14 days following our last reply,
-      our ticketing system will mark the ticket as solved. If the customer then doesn't respond within 7 days
-      of the ticket being marked as solved, our ticketing system will proceed to close the ticket
-      (see [Automated Follow-up for Pending Cases](https://about.gitlab.com/support/general-policies/#automated-follow-up-for-pending-cases)).
-1. Set the ticket status to `Pending`.
+- If you have SFDC access to the case, and the case has an assigned owner
+  - Ping the case owner in chatter on the case 
+  - Mention the `@SMB Advocate Team` in chatter on the case
+- If you do not have SFDC access, or the case is not owned
+  - Post a message in the [**#global-digital-smb_public**](https://gitlab.enterprise.slack.com/archives/C06H72XGQUD) slack channel.
+  - In your post, include:
+    - details of the request
+    - the Zendesk ticket link
 
-*(Pro tip: create a personal ticket view where "Escalated to Sales" = checked, to pull these out into their own queue)*
 
 ## Determining whether **to pass** or **to NOT pass** to Sales
 
