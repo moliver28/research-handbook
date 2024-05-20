@@ -122,7 +122,7 @@ _For example, if the intended removal milestone is `16.0`, given the following r
 
 1. Make sure the deprecation has an issue leveraging the [deprecation issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Deprecations.md).
     - Leveraging this template to create a deprecation issue is required because it serves as the SSOT/communication cross-functionally and across other stable counterparts, such as CSMs and Marketing, who need awareness of upcoming removals.
-1. Identify if deprecating the feature creates a [breaking change](#breaking-change). If so, you will need to wait until a XX.0 major release for removal. (Consider providing a notice as much in advance as you can - especially for features that have large impact.)
+1. Identify if deprecating the feature creates a breaking change. If so, you will need to wait until a XX.0 major release for removal. (Consider providing a notice as much in advance as you can - especially for features that have large impact.)
 
 **If you believe you need to push a breaking change outside a major release, tag your manager into the deprecation issue for approval. Upon manager approval, tag in [Delivery group](/handbook/product/categories/features/#saas-platformsdelivery-group) PM `@swiskow` into the deprecation issue for advisement/collaboration on whether any additional communication to users is required. Communicating to SaaS users on breaking changes is critical, it is recommended you set up a [broadcast message](/handbook/product/product-processes/#gitlabcom-in-app-messages-broadcast-messaging) one milestone ahead of the milestone in which the breaking change will happen.**
 

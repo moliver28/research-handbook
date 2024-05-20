@@ -59,7 +59,6 @@ Complete items are removed from the table once the code is in production without
   {{< tableau/filters "GROUP_LABEL"="security policies" >}}
 {{< /tableau >}}
 
-
 ### Workflow
 
 The Security Policies group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).

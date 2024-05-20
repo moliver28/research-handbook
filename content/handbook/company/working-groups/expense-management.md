@@ -37,4 +37,3 @@ Updated expense policy and processes in line with GitLab's [spend company money 
 | Functional Lead(s)    | Bryan Wise |
 | Member                | Aleisha Hansen, Dale Brown, Urja Patel, Simon Liang, Misty Brown, Lis Vinueza |
 | Executive Stakeholder | Brian Robins |
-

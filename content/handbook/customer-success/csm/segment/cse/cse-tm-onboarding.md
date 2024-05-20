@@ -16,19 +16,19 @@ View the [CSME Handbook homepage](/handbook/customer-success/csm/) for additiona
 ---
 **Overview**
 
-As a Customer Success Engineer (CSE), your onboarding experience will be a blended learning experience that includes virtual synchronous meetings, a [self-paced role-based learning path](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding) on GitLab University, and a hands-on virtual workshop called [Sales Quick Start](https://handbook.gitlab.com/handbook/sales/onboarding/) (SQS).
+As a Customer Success Engineer (CSE), your onboarding experience will be a blended learning experience that includes virtual synchronous meetings, a [self-paced role-based learning path](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding) on GitLab University, and a hands-on virtual workshop called [Sales Quick Start](/handbook/sales/onboarding/) (SQS).
 
 Your role based learning path is highlighted in this [role-specific onboarding guide](https://docs.google.com/document/d/1jY0YnL7whNVVK_VeoxRPjn-Iloj8_Su_3YOx0X1bKtw/edit?usp=sharing). Please make a copy of this document and check off items as you complete them.
 
 **Learning Objectives for CSE Onboarding**
 
-As a CSE, in addition to the [SQS learning objectives](https://handbook.gitlab.com/handbook/sales/onboarding/sqs-learning-objectives/), your onboarding is intended to fulfill the following learning objectives:
+As a CSE, in addition to the [SQS learning objectives](/handbook/sales/onboarding/sqs-learning-objectives/), your onboarding is intended to fulfill the following learning objectives:
 
 *Module 1: CSE at GitLab and Call Shadowing*
 - Demonstrate understanding of GitLab Basics
 - Express the Customer Success Vision
 - Describe the role of CSE
-- Complete the following certification: GitLab Certified Git Associate  
+- Complete the following certification: GitLab Certified Git Associate
 - Express understanding of the DevSecOps Lifecycle
 - Demonstrate ability to set up a GitLab demo environment
 
@@ -85,7 +85,7 @@ Your manager will be there to support you during your onboarding journey. Beyond
 - Identify skills to be mastered and resources available to accomplish learning objectives
 
 *Month 2*
-- Check in regularly with your new hire  
+- Check in regularly with your new hire
   - Ask them if they are experiencing any challenges with GitLab’s asynchronous culture
   - Discuss any general concerns
 - Share constructive feedback on role plays that were completed during the onboarding learning path
@@ -146,9 +146,9 @@ In order to be considered as having graduated from your CSE onboarding journey, 
 
 **Continuous Onboarding**
 
-For high level information on enablement initiatives for the Customer Success Manager/Engineer teams, please refer to the [CS Enablement Corner](https://docs.google.com/document/d/1xyaxc37iCDtfeabo2NXCRV31pNOdvieXoVDxJw_aXoM/edit). Additionally, please be sure to check out the [CS Development Handbook](https://handbook.gitlab.com/handbook/customer-success/csm/csm-development/) page.
+For high level information on enablement initiatives for the Customer Success Manager/Engineer teams, please refer to the [CS Enablement Corner](https://docs.google.com/document/d/1xyaxc37iCDtfeabo2NXCRV31pNOdvieXoVDxJw_aXoM/edit). Additionally, please be sure to check out the [CS Development Handbook](/handbook/customer-success/csm/csm-development/) page.
 
-Be sure to join the [Customer Success Skills Exchange](https://handbook.gitlab.com/handbook/sales/training/customer-success-skills-exchange/) and [Field Enablement Spotlight](https://handbook.gitlab.com/handbook/sales/training/sales-enablement-sessions/#field-enablement-spotlight-sessions) sessions.
+Be sure to join the [Customer Success Skills Exchange](/handbook/sales/training/customer-success-skills-exchange/) and [Field Enablement Spotlight](/handbook/sales/training/sales-enablement-sessions/#field-enablement-spotlight-sessions) sessions.
 
 **Feedback**
 
@@ -158,7 +158,7 @@ Your feedback on the onboarding process is important to us and we welcome your t
 
 - [CSE - New Hire - Onboarding Guide](https://docs.google.com/document/d/1jY0YnL7whNVVK_VeoxRPjn-Iloj8_Su_3YOx0X1bKtw/edit?usp=sharing)
 - [Customer Success Engineer (CSE) Onboarding Learning Path](https://levelup.gitlab.com/learn/learning-path/scale-customer-success-engineer-cse-onboarding)
-- [Sales Quick Start (SQS) Handbook Page](https://handbook.gitlab.com/handbook/sales/onboarding/)
+- [Sales Quick Start (SQS) Handbook Page](/handbook/sales/onboarding/)
 - [#customer-success](https://gitlab.enterprise.slack.com/archives/C5D346V08) Slack Channel
 - [Customer Success Enablement Issue Board](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/boards/4961994)
 - [CSE Onboarding Feedback Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2406)

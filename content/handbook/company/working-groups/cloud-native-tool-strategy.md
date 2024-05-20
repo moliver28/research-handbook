@@ -17,7 +17,6 @@ description: "Learn more about how GitLab wants to adopt new technology to accel
 | Associated KPIs/OKRs | TBD |
 | GitLab group for working group| `` |
 
-
 ## Business Goals
 
 1.
@@ -35,7 +34,6 @@ description: "Learn more about how GitLab wants to adopt new technology to accel
 1.
 1.
 1.
-
 
 ## Roles and Responsibilities
 

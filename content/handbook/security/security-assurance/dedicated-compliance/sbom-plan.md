@@ -21,7 +21,6 @@ The ability to generate and consume complete and accurate SBOMs is **essential**
 1. **Regulatory mandates**
     - Although there are few binding requirements today, SBOMs have been referenced as a requirement for U.S. Federal Agencies to do business with software providers in and Executive Order, the National Cybersecurity Strategy, NIST SSDF standard, CISA, and is already appearing in draft legislation and Requests for Information (RFI). Non-U.S. public sector and commercial regulatory frameworks are following suit, and the regulatory landscape is expected to very dynamic over the coming years. See the Resources section at the bottom of this page for more information.
 
-
 ## Current State (as of %16.4)
 
 Refer to GitLab's Software Supply Chain Security [direction page](https://about.gitlab.com/direction/supply-chain/) for the latest information on current and planned features related to SBOMs.

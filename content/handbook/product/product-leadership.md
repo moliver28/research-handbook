@@ -33,7 +33,6 @@ Product team members who report directly to the [Chief Product Officer](/job-fam
 
 This group can be referenced in GitLab.com issues using the `@gl-product-plt` handle.
 
-
 ## Product Monthly Kick-Off Host Rotation
 
 The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is hosted by a member of [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) on a monthly rotation. See below for the schedule:
@@ -46,7 +45,7 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | 2023-12-18 | Hillary Benson | [16.8 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/12955) |
 | 2024-01-18 | Omar Fernandez | [16.9 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13036) |
 | 2024-02-16 | Mike Flouton | [16.10 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13116) |
-| 2024-03-18 | Justin Farris | To be added | [16.11 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13212)
+| 2024-03-18 | Justin Farris | [16.11 Release Kick Off](https://gitlab.com/gitlab-com/Product/-/issues/13212) |
 | 2024-04-18 | Hillary Benson | To be added |
 | 2024-05-20 | Steve Evangelista | To be added |
 | 2024-06-18 | Mike Flouton | To be added |
@@ -57,10 +56,9 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | 2024-11-18 | Justin Farris | To be added |
 | 2024-12-18 | Hillary Benson | To be added |
 
-
 ## Product Key Review Leader Rotation
 
-The Product [Key Review](/handbook/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
+The Product [Key Review](/handbook/company/key-review/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure). Details on how to prepare for the quarterly Product Key Review will be in the [automated planning issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Key-Review-Prep.md) that will be assigned to the host by the Product EBA. See below for the rotation schedule:
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
@@ -70,12 +68,11 @@ The Product [Key Review](/handbook/key-review/) is hosted by a member of the [Pr
 | 2024-XX-XX | Mike Flouton | To be added |
 | 2024-XX-XX | Hillary Benson | To be added |
 
-
 ## Product Group Conversation Leader Rotation
 
-The Product [Group Conversation](/handbook/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
+The Product [Group Conversation](/handbook/company/group-conversations/) is hosted by a member of the [Product Leadership](/handbook/product/product-leadership/#product-leadership-team-structure) team. The Group Conversations will either reference a previous Product Key Review or Product Group Conversation presentation, depending on which is most recent. Details on how to drive the tasks will be in the [automatated issue](https://gitlab.com/gitlab-com/Product/-/blob/main/.gitlab/issue_templates/Product-Group-Conversation.md) that will be assigned to the GC host 4 weeks prior to the actual GC date by the Product EBA.
 
-For more details, visit the Group Conversations [handbook page](/handbook/group-conversations/#additional-consideration-for-functional-presentations)
+For more details, visit the Group Conversations [handbook page](/handbook/company/group-conversations/#additional-consideration-for-functional-presentations)
 
 | Date | Host | Planning Issue |
 | ---- | ---- | -------------- |
@@ -87,7 +84,6 @@ For more details, visit the Group Conversations [handbook page](/handbook/group-
 | 2024-XX-XX | Justin Farris | To be added |
 | 2024-XX-XX | Mike Flouton | To be added |
 | 2024-XX-XX | Hillary Benson | To be added |
-
 
 ## Product Leadership ReadMe's
 

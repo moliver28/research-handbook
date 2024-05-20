@@ -31,61 +31,29 @@ In addition to the [Fulfillment Product Direction](https://about.gitlab.com/dire
 
 ## Team members
 
-### Fulfillment Sub-department People Leaders
-
-{{< members-by-role role="Engineering Manager, Fulfillment|Director of Engineering, Fulfillment" >}}
-
-### Fulfillment:Subscription Management Team
-
-{{< members-by-role role="Fulfillment:Subscription Management Team" >}}
-
-### Fulfillment:Purchase Team
-
-{{< team-by-departments "Fulfillment:Purchase Team" >}}
-
-### Fulfillment:Provision Team
-
-{{< team-by-departments "Fulfillment:Provision Team" >}}
-
-### Fulfillment:Utilization Team
-
-{{< team-by-departments "Fulfillment:Utilization Team" >}}
-
-### Fulfillment:Fulfillment Platform Team
-
-{{< team-by-departments "Fulfillment:Fulfillment Platform Team" >}}
+See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section for a list of team members for the Fulfillment section and sub-groups.
 
 ## Stable counterparts
 
-The following members of other functional teams are our stable counterparts.
+### Sales & Go-To-Market
 
-{{< stable-counterparts role="Fulfillment|Fulfillment:" manager-role="Senior Engineering Manager, Fulfillment, Interim Strategy and Operations Lead, China|Fullstack Engineering Manager, Fulfillment:Fulfillment Platform|Fullstack Engineering Manager, Fulfillment:Provision|Fullstack Engineering Manager, Fulfillment:Utilization" manager-role="Backend Engineering Manager, Gitaly|Fullstack Engineering Manager (Interim), Fulfillment:Purchase|Fullstack Engineering Manager, Fulfillment:Subscription Management Team" >}}
+{{< member-and-role-by-gitlab "cnodari" "jrabbits" "gsodhi" "james_harrison" >}}
 
-### Enterprise Applications
+### Finance & IT
 
-{{< member-and-role-by-gitlab "jesssalcido" >}}
-
-### Sales & Go-To-Market (GTM)
-
-{{< member-and-role-by-gitlab "asipala" >}}
-
-The Sales & Go-To-Market stable counterpart will serve as the GTM DRI for strategic cross-functional intiatives, new feature and system updates, and bug resolution. They will ensure that an end-to-end approach is taken into account when communicating with the field and users. Fulfillment PMs can engage the counterpart for new GTM work by using @mention in GitLab as the primary method to submit and prioritize tasks.
-
-### Billing and Accounts Receivable
-
-{{< member-and-role-by-gitlab "s_mccauley" "annapiaseczna" >}}
-
-### Customer Success
-
-{{< member-and-role-by-gitlab "dsakamoto" >}}
+{{< member-and-role-by-gitlab "s_mccauley" "annapiaseczna" "andrew_murray" "smundy" "lmendonca2" "achampagne1" >}}
 
 ### Support Engineering
 
-{{< member-and-role-by-gitlab jlyttle mdunninger kslaats >}}
+{{< member-and-role-by-gitlab "jlyttle" "mdunninger" "kslaats" >}}
 
 ### Office of the CEO
 
 {{< member-and-role-by-gitlab "ipedowitz" >}}
+
+### Product Technical Program Management
+
+{{< member-and-role-by-gitlab "cersoz" >}}
 
 ## Project management process
 
@@ -99,7 +67,6 @@ The Sales & Go-To-Market stable counterpart will serve as the GTM DRI for strate
 Working in [SAFE manner](/handbook/legal/safe-framework/) at GitLab is everyone's responsibility. We along with our stable counterparts in Sales and Billing contribute to an area of the product that potentially could encounter sensitive or financial information, and could have an effect on the business as a whole. Therefore, it's important for Fulfillment team members to ensure that the SAFE epics, issues, videos, MRs, and other artifacts we produce are kept confidential.
 
 On occasion, it may be prudent to include language like the following to the description of public issues where potentially SAFE discussions are happening.
-
 
 > This page may contain information related to upcoming products, features and functionality.
 > It is important to note that the information presented is for informational purposes only,
@@ -257,8 +224,8 @@ Before work can begin on an issue, we should estimate it first after a prelimina
 | 2 | A simple change (minimal code changes), where we understand all of the requirements. |
 | 3 | A simple change, but the code footprint is bigger (e.g. lots of different files, or tests effected). The requirements are clear. |
 | 5 | A more complex change that will impact multiple areas of the codebase, there may also be some refactoring involved. Requirements are understood but you feel there are likely to be some gaps along the way. |
-| 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements.
-| 13| A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues.
+| 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. |
+| 13| A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
 
 In planning and estimation, we value [velocity over predictability](/handbook/engineering/development/principles/#velocity-over-predictability). The main goal of our planning and estimation is to focus on the [MVC](/handbook/values/#minimal-viable-change-mvc), uncover blind spots, and help us achieve a baseline level of predictability without over optimizing. In general departments at GitLab aim for [70% predictability] but in the Fulfillment sub-department we aim for 80% predictability since our work is typically cross-functional and we need to be in lockstep with other departments.
 
@@ -335,7 +302,6 @@ While individual groups are free to use as many stages in the [Product Developme
 The SETs helps facilitate the quad-planning process. This is the participation of Product Management, Development, UX, and the Quality team which aims to bring test planning as a topic before the development of any feature.
 
 We follow the Quad Planning process defined [here](/handbook/engineering/infrastructure/test-platform/quad-planning/#process).
-
 
 ### User Experience
 
@@ -646,9 +612,9 @@ See this handbook page for more information on [GitLab Monitoring](/handbook/eng
 
 #### Escalation process for incidents or outages
 
-Temporarily, while [pagerslack](https://gitlab.com/jameslopez/pagerslack) or [pagerduty](/handbook/on-call/#pagerduty) is not adopted in Fulfillment, the following process is in place:
+Temporarily, while [pagerslack](https://gitlab.com/jameslopez/pagerslack) or [pagerduty](/handbook/engineering/on-call/#pagerduty) is not adopted in Fulfillment, the following process is in place:
 
-1. When an outage occurs, the [SRE on-call](/handbook/on-call/) is notified automatically. Incidents can also be [reported manually](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
+1. When an outage occurs, the [SRE on-call](/handbook/engineering/on-call/) is notified automatically. Incidents can also be [reported manually](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 1. Simultaneously to an outage, `#s_fulfillment_status` on Slack is notified and [James Lopez](https://gitlab.com/jameslopez) and [Vitaly Slobodin](https://gitlab.com/vitallium) are paged on the phone
 1. When required, the SRE on-call or incident reporter can ping `@fulfillment-engineering` on Slack to notify and get help from the team
 
@@ -682,6 +648,7 @@ Examples of blocking problems include:
 - Expired certificate causing interrupted service with staging or test environments
 
 Critical problems like a production outage should be raised quickly. You can check [#incident_management](https://gitlab.slack.com/archives/CB7P5CJS1) before raising an incident.
+
 - CustomersDot outage
 - Failed CustomersDot deploy
 
@@ -857,7 +824,7 @@ This table lists recurring activities that are part of our Project Management Pr
 | [Milestone Planning](/handbook/engineering/development/fulfillment/#planning)                                                            | Monthly      | Async | Fulfillment Utilization, Purchase, Provision, and InfraDev Groups |
 | [Roadmap Planning](https://about.gitlab.com/direction/fulfillment/#roadmap)                                                                                      | Monthly      | Sync  | Fulfillment PMs, EMs, QEMs, UXMs                                |
 | [Monthly Product Kickoffs](/handbook/product/product-processes/#kickoff-meetings)                                                        | Monthly      | Sync  | Product Function                                                |
-| [Product Key Reviews](/handbook/key-review/)                                                                                             | Monthly      | Sync  | Fulfillment PMs, Product Leadership, E-Group                    |
+| [Product Key Reviews](/handbook/company/key-review/)                                                                                             | Monthly      | Sync  | Fulfillment PMs, Product Leadership, E-Group                    |
 | [Retrospective Issue](https://gitlab.com/gl-retrospectives/fulfillment/-/issues/)                                                                                | Monthly      | Async | Fulfillment Section                                             |
 | [Retrospective Discussion](https://docs.google.com/document/d/1eL1QLtIGGxqYfaVQXIWhxAUvqTMw1OQLVQ68ZYib40g/edit)                                                 | Monthly      | Sync  | Fulfillment Section                                             |
 | [Direction Review](https://about.gitlab.com/direction/fulfillment/)                                                                                              | Quarterly    | Async | Fulfillment PMs, Product Leadership                             |

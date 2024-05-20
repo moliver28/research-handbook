@@ -40,4 +40,3 @@ Hi there. My current role is Engineering Manager on the Switchboard Team. We are
 [LinkedIn](https://www.linkedin.com/in/amyshiel/)
 
 [GitLab](https://gitlab.com/ashiel)
-

@@ -6,9 +6,7 @@ description: "Learn about GitLab's engineering internship program."
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-For all things Emerging Talent please visit [this page](https://handbook.gitlab.com/handbook/hiring/emerging-talent/).
-
+For all things Emerging Talent please visit [this page](/handbook/hiring/emerging-talent/).
 
 ## <i class="far fa-newspaper" id="biz-tech-icons"></i>  About
 
@@ -22,12 +20,12 @@ As we head into 2023, we are evaluating our internship offerings in the Engineer
 
 To validate and refine our approach to offering internships at an [all-remote company](/handbook/company/culture/all-remote/getting-started/), we launched a program between May 2020 and August 2020. In 2022 we [iterated on this process](/handbook/company/working-groups/engineering-internship/), introducing an associate level for backend, frontend, and fullstack positions as an option for hiring and a pathway from internships.
 
-
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Get involved
 
 ### Criteria for GitLab teams requesting an intern
 
 Requests for opening an intern requisition will be evaluated on the following criteria:
+
 1. Mentorship
     - Does the team have a manager and 1-2 engineers willing to serve as mentors for the duration of the program?
     - Do the mentors have previous experience mentoring interns or associate engineers? Previous experience is a nice-to-have, but not a must-have.
@@ -43,6 +41,7 @@ The team manager and mentors will also need to be able to actively participate i
 ### How to request an intern for your team
 
 The process for opening an intern requisition would be as follows:
+
 1. Opening a requisition starts via either a [backfill process](/handbook/engineering/#rd-backfill--transfer-process) or would be based on headcount availability and budget
 1. The requesting team writes up a proposal including: projects/workload, proposed career path, requirement knowledge, skills and abilities by the intern. [This example of Security](/handbook/security/internship.html) can be helpful for review
 1. The proposal will be reviewed by Engineering Leadership up to the CTO
@@ -59,6 +58,7 @@ The process for opening an intern requisition would be as follows:
 ### Required
 
 The following criteria are considered required for candidates to be eligible for Engineering Internship positions:
+
 1. First job in the tech industry, new graduate, or returning to the workforce
 1. Available full-time during the internship
 1. Able and willing to acclimate to, and operate in, an [all-remote environment](/handbook/company/culture/all-remote/getting-started/)
@@ -66,6 +66,7 @@ The following criteria are considered required for candidates to be eligible for
 ### Nice to have
 
 Preference given to candidates with proven experience
+
 1. Contributing to open source projects
 1. Working with the GitLab product as a user or contributor
 
@@ -86,6 +87,7 @@ The intern can choose to relocate themselves to a region where there happens to 
 ### Internship day-to-day activities
 
 Below is an example of a 4-month internship program:
+
 1. Week 1: We expect an intern will:
     - Have completed key [Day 1-5 onboarding tasks](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_intern_engineering.md)
     - Understand remote work and communication best practices
@@ -104,7 +106,7 @@ Below is an example of a 4-month internship program:
         - Weekly intern [coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats)
         - 2-3 group meetings per week moderated by a program coordinator.
         - Regular pair programming sessions with a mentor and other team members.
-   - Time for learning: When Interns are not familiar with the programming languages for the role (often Ruby on Rails and/or Javascript, sometimes Golang, Python, or C) there will be a certain time dedicated to learn those languages via (online) courses. In order to be hired into a permanent role, knowledge of and experience with the required languages is a requirement.
+    - Time for learning: When Interns are not familiar with the programming languages for the role (often Ruby on Rails and/or Javascript, sometimes Golang, Python, or C) there will be a certain time dedicated to learn those languages via (online) courses. In order to be hired into a permanent role, knowledge of and experience with the required languages is a requirement.
 1. Week 16: Intern send-off
     - Complete offboarding tasks and hand-off projects if they are not continuing employment with GitLab.
     - Participate in [retrospectives](/handbook/engineering/internships/#team-retrospective) to help improve the internship program.
@@ -143,8 +145,9 @@ For intern candidates we are setting the bar high at the application stage and a
 
 After the internship the aim would be to hire the intern as an Associate Engineer (depending on previous experience).
 The timeline for hiring decisions in a 4 month program would be as follows:
+
 - Week 8: Check in on feedback with all hosting teams
-- Week 10: Performing performance/skills assessments with interns based on the Job Families and [Competencies](/handbook/competencies/#where-we-use-competencies)
+- Week 10: Performing performance/skills assessments with interns based on the Job Families and [Competencies](/handbook/people-group/competencies/#where-we-use-competencies)
 - Week 11: Sharing feedback with interns
 - Week 12: Aligning with Finance/Business on headcount/budget
 - Week 12: Making a decision on offers to interns

@@ -234,7 +234,7 @@ WIP
 | Auto-MQL Behavior | Campaign Description | Points Assigned | Schedule/Flow Limit |
 | ------ | ------ | ------ | ------|
 |   Follow Up Requested  | Follow Up Requested, <br> Conference > Meeting Attended   | +100 | Everytime |
-|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](https://handbook.gitlab.com/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day |
+|  Inbound  | Contact Request, <br> Renewals, <br> [Hand Raise PQL](/handbook/product/product-principles/#a-pql-can-be-further-broken-down-into-two-types-usage-and-hand-raise), <br> In-app Health Check, <br> Duo Requests <br> | +100 | 1/day |
 | [PTP Score](https://internal.gitlab.com/handbook/sales/propensity_models/)  |Newly assigned a 4 or 5 score via the Propensity Model alongside being assigned an `A` or `B` ranking via Lead Score Classification.<br> See [Educational deck](https://docs.google.com/presentation/d/1dxSXekzw-SIF1g4pjNf6QGNBUY1L6euggsqqr9BTHUY/edit#slide=id.g1d24c3e4ddd_5_252) or handbook for details <br>  | +100 | 1/90 days |
 | Web Chat - <br>Qualified  |Web chat interaction or meeting scheduled | +100 | 1/day |
 |* Inbound - Med|Inbound form, not above |    +100|1/day|

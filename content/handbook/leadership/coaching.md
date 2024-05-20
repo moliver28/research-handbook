@@ -24,7 +24,6 @@ Review examples of why you might want to, or benefit from, meeting with a profes
 1. A team member wants to improve their communication style with a focus giving on open and honest feedback.
 1. A team member needs guidance in building a system to prioritize their work based on urgency and results.
 
-
 ## Selecting a coach
 
 There are various ways to find a coach at GitLab:
@@ -347,7 +346,7 @@ We held 50 minute Introduction to Coaching [Live Learning](/handbook/people-grou
 
 In an all-remote organization, coaching is a critical skill for managers to develop and improve upon as they progress in their careers. Coaching helps to facilitate the career development of team members through regular coaching conversations. Coaching helps team members change behavior, improve performance, and sustain commitment through encouragement, support, collaborative problem-solving, goal setting, and [feedback](/handbook/people-group/guidance-on-feedback/).
 
-**Skills and behavior of the [coaching competency](/handbook/competencies/) for managers:**
+**Skills and behavior of the [coaching competency](/handbook/people-group/competencies/) for managers:**
 
 - Facilitates job performance growth of team members by providing regular coaching sessions
 - Understands team members long-term career goals and acts as a mentor and guide to achieving them

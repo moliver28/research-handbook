@@ -74,6 +74,7 @@ Ensure you have met your department specific eligibility requirements:
 At any stage a team member needs to be declined, it is up to the Recruiter and Hiring Manager to connect to determine the best approach to ensure the appropriate [feedback]({{< ref "guidance-on-feedback" >}}) is given by the hiring manager. It is important to deliver transparent and honest feedback to the candidate while remaining constructive and focusing on growth.
 
 If the candidate has made it to the hiring manager screen or beyond, hiring managers can consider this approach:
+
 - Condense the themes from all of the scorecards so that there is a high level, but anonymous summary of what they did well in the interview, and any opportunities for improvement
 - Document your key takeaway as a hiring manager in terms of how this candidate does not have the right competencies for the position
 - Document your key takeaways on what the candidate did well and should continue doing, along with improving other areas to be ready in the future
@@ -83,9 +84,11 @@ If the candidate has made it to the hiring manager screen or beyond, hiring mana
 A guideline template to prepare for this conversation might look like the following:
 
 **What went well**:
+
 - Has good examples of making improvements to the area they were interviewing for in the past
 
 **Opportunities for improvement**:
+
 - In general if experience was missing (such as XYZ) when asked a question, they were not able to answer it based on any lessons/training they have taken in preparation for this role
 
 **Key Takeaways (to be delivered synchronously)**:
@@ -94,7 +97,6 @@ A guideline template to prepare for this conversation might look like the follow
   - Specific actions this candidate can take to get more experience **at GitLab**
 
 If you are not sure what actions they can be taking to be more qualified for your position, you may reference your role's job requirements and/or the [Job Framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for inspiration defining concrete actions.
-
 
 ## Internal Hiring Process Survey
 
@@ -108,4 +110,3 @@ If you are not sure what actions they can be taking to be more qualified for you
    - Feedback (for declined candidates)
    - Overall experience rating
 - Talent Acquisition's goals for this survey will be determined after the base survey data is captured.
-

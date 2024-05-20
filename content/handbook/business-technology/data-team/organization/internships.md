@@ -31,6 +31,7 @@ The initial focus of the 2022 Program will be **Data Internship for Learning**, 
 The Data Internship for Learning follows [GitLab Internship for Learning Program](/handbook/people-group/learning-and-development/internship-for-learning/) guidelines. In addition, given the rapid growth of the Data Team, we seek to partner every Intern with a current [individual contributor](/handbook/engineering/development/dev/training/ic-to-manager/) Data Team member who is interested in exploring their own career development towards a [Leadership](/handbook/people-group/learning-and-development/new-to-leadership/#new-to-leadership-and-management) role, such as a Team Lead specialization or [Data Management](/job-families/finance/manager-data/) role. In this model, both team members share a commitment to support each other's success.
 
 At launch in January 2022, **Data Internship for Learning** will be structured as follows:
+
 - Follows the [GitLab Internship for Learning Program](/handbook/people-group/learning-and-development/internship-for-learning/)
 - Open to only current GitLab Team Members
 - Intern time allocation should range from 25%-50%, with a 3-month commitment
@@ -130,7 +131,6 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 | FY24Q2 | 1 | 1 | 0 |
 | FY24Q3 | 2 | 0 | 2 |
 
-
 #### Requirements
 
 - Familiarity with and Interest in the [Data Science](/job-families/finance/data-science/) job family
@@ -181,4 +181,3 @@ An internship gives you insight into a [Data Team role](/handbook/business-techn
 #### Openings
 
 No openings at this time.
-

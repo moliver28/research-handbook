@@ -26,6 +26,7 @@ These plans are useful to have because having a successful rollout on the first 
 Rollout plans can be different for each project or issue that you need one for.
 
 At a minimum, your rollout plan should:
+
 * Provide details on the expected result.
 * Provide information on how to validate that result.
 * Account for any risks or barriers that may impact the rollout.
@@ -63,6 +64,7 @@ Here are some things to consider including in your rollout plan:
 #### Additional rollout plan processes
 
 There are additional rollout plan processes to keep yourself aware of:
+
 * [Rolling out a low-risk feature flag](/handbook/product-development-flow/feature-flag-lifecycle/#rollout)
 * [Rolling out a high-risk feature flag](/handbook/engineering/infrastructure/change-management/#feature-flags-and-the-change-management-process)
 * [Running an experiment](/handbook/marketing/growth/engineering/experimentation/#experiment-rollout-issue)
@@ -70,11 +72,13 @@ There are additional rollout plan processes to keep yourself aware of:
 #### Rollout plan templates
 
 These templates exist for the scenarios mentioned above, but can also be used as a base for your rollout plan:
+
 * [Production change](https://gitlab.com/gitlab-com/gl-infra/production/-/blob/master/.gitlab/issue_templates/change_management.md)
 * [Feature flag rollout](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md)
 * [Experiment rollout](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Experiment%20Rollout.md)
 
 ### Examples of previous rollout plans
+
 * [Preventing negative impacts on the system when there is potential to fail silently](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1085)
 * [Creating a pre-check list before rolling out a major change](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1267#pre-check)
 * [Rolling out an experiment behind a feature flag](https://gitlab.com/gitlab-org/gitlab/-/issues/281024)

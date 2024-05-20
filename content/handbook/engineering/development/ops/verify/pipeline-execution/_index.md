@@ -20,7 +20,6 @@ Make software development easier, faster, and more reliable by creating and supp
 The Verify:Pipeline Execution Group is focused on supporting the functionality with respect to
 [Continuous Integration](https://about.gitlab.com/solutions/continuous-integration/). A key focus for the PE group is delivering features that achieve the outcome we track in our performance indicator.
 
-
 ## Driving Factors
 
 ### Performance
@@ -48,7 +47,6 @@ The Verify:Pipeline Execution Group is focused on supporting the functionality w
   - Ensuring that customer issues are resolved in a timely manner.
   - Addressing SUSImpacting issues in a timely manner.
   - Ensuring reliable and accurate documentation is available.
-
 
 ## Performance Indicator
 
@@ -83,7 +81,7 @@ classDiagram
 | Domain | Issues |
 | ------ | ------ |
 | Pipeline processing: processes responsible for transitions of pipelines, stages and jobs. | [~pipeline processing](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=pipeline%20processing&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20) |
-| Rails-Runner communication: jobs queuing, API endpoints and their underlying functionalities related to operations performed by and for Runners. | []() |
+| Rails-Runner communication: jobs queuing, API endpoints and their underlying functionalities related to operations performed by and for Runners. |  |
 
 #### Continuous Integration domains
 
@@ -93,24 +91,24 @@ classDiagram
 | Repositories analytics for groups | [~CI reports](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=CI%20reports&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20) |
 | GitLab CI/CD artifacts reports types | [~CI reports](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=CI%20reports&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20) |
 | Unit test reports | [~testing::code testing](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=testing%3A%3Acode%20testing&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20) |
-| Test with GitLab CI/CD and generate reports in merge requests | []() |
+| Test with GitLab CI/CD and generate reports in merge requests |  |
 | Load Performance Testing | [~testing::load performance](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=testing%3A%3Aload%20performance&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20) |
-| Metrics Reports | []()  |
+| Metrics Reports |   |
 | Test coverage visualization | [~testing::coverage](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=testing%3A%3Acoverage&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20) |
 | Browser Performance Testing | [~testing::browser performance](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=testing%3A%3Abrowser%20performance&first_page_size=20) |
-| Fail Fast Testing | []()  |
+| Fail Fast Testing |   |
 | Accessibility testing | [~testing::accessibility](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=testing%3A%3Aaccessibility&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20) |
 | Usability testing | [~testing::usability](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=testing%3A%3Ausability&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20) |
 | Review apps | [~testing::review apps](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=testing%3A%3Areview%20apps&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20) |
 | Visual review tool (deprecated) | [~testing::visual review tool](https://gitlab.com/gitlab-org/gitlab/-/issues/?label_name%5B%5D=testing%3A%3Avisual%20review%20tool) |
 | Scheduled pipelines | [~pipeline schedules](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=pipeline%20schedules&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20)  |
 | Pipeline efficiency | [~ci::scaling](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=ci%3A%3Ascaling&label_name%5B%5D=group%3A%3Apipeline%20execution&first_page_size=20)  |
-| Building images using Docker | []()  |
-| External SCM and CI Integration | []()  |
-| External pipeline validation | []()  |
+| Building images using Docker |   |
+| External SCM and CI Integration |   |
+| External pipeline validation |   |
 | Rate limits on pipeline creation | [~Category:Continuous Integration + ~Eng-Inter-Dept::Rate Limits](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=Category%3AContinuous%20Integration&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=Eng-Inter-Dept%3A%3ARate%20Limits&first_page_size=20)  |
-| Job logs | []()  |
-| Job log artifacts | []()  |
+| Job logs |   |
+| Job log artifacts |   |
 | Merge Trains | [~Category:Merge Trains](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=milestone_due_desc&state=opened&label_name%5B%5D=group%3A%3Apipeline%20execution&label_name%5B%5D=Category%3AMerge%20Trains&first_page_size=20)  |
 
 Not included in the Pipeline Execution group's domain:
@@ -119,6 +117,8 @@ Not included in the Pipeline Execution group's domain:
 - Pipeline Authoring, see the [direction page](https://about.gitlab.com/direction/verify/pipeline_authoring/)
 - Compliance in Pipelines, see the [direction page](https://about.gitlab.com/direction/govern/compliance/compliance-management/)
 - [Job artifacts: storage and management of artifacts is the gateway for many CI/CD features](https://about.gitlab.com/direction/verify/build_artifacts/)
+
+---
 
 ## Technical Roadmap
 
@@ -143,13 +143,6 @@ These are our high-level engineering driven goals for the year. As with any of o
     - Determine if there are and make systemic changes to address a number of the issues
 
 #### Scalability
-
-##### CI Database Partitioning
-
-**Goals:**
-
-- Complete the data partitioning of the 6 largest CI tables - [Blueprint](https://docs.gitlab.com/ee/architecture/blueprints/ci_data_decay/pipeline_partitioning.html)
-
 
 ##### Sidekiq
 
@@ -191,7 +184,7 @@ These are our high-level engineering driven goals for the year. As with any of o
 
 **Goals:**
 
-- Complete performance improvements for pipeline rendering. This functionality is used frequently by developers and their productivity is impacted by poor performance.
+- Complete performance improvements for pipeline page rendering. This functionality is used frequently by developers and their productivity is impacted by poor performance.
 
 ##### Merge Trains
 
@@ -199,6 +192,7 @@ These are our high-level engineering driven goals for the year. As with any of o
 
 - Get merge trains to a state where they are scalable enough to be used effectively by the GitLab project.
 
+---
 
 ## Team Members
 
@@ -258,12 +252,10 @@ This team member will have the following responsibilities for the milestone in a
 
 #### Rotation Schedule
 
-** Program Paused **
+**Program Paused**
 
 | Milestone | Front-line Responder | Refinement Coordinator | Community Coordinator |
 | --------- | -------------------- | ---------------------- | --------------------- |
-
-
 
 ## Stable Counterparts
 
@@ -393,6 +385,7 @@ Any one on the team can contribute to answering the questions in this checklist,
 ##### Steps for Refining and Weighting Issues
 
 Engineers will:
+
 1. Go through the checklist above for refining issues assigned to them.
 1. Split a backend issue out from the main issue if backend work needs to be completed before frontend work can begin.
 1. Add a [weight based on the definitions](#weighting-issues).
@@ -429,7 +422,7 @@ We add a `Weight` to issues as a way to estimate the effort needed to complete a
 
 The maximum weighted value for an issue is a `5`, and may exceed one milestone to complete given additional dependencies and/or complexity. Consider how an issue weighted with a `5` can be broken down into smaller iterations and [do so](#splitting-issues).
 
-A [feature flag roll-out issue](#release-plan) should be created while refining/weighting where anticipated. These are weight of `1`.
+A [feature flag roll-out issue](#release-plans) should be created while refining/weighting where anticipated. These are weight of `1`.
 
 ### Release Plans
 
@@ -463,12 +456,13 @@ Development moves through workflow states in the following order:
 1. `workflow::complete` `Closed`
 
 `workflow::planning breakdown` is driven by Product, but is a collaborative effort between Product and Engineering. The steps for **planning breakdown** typically consists of:
+
  - Product defining or clarifying the problem statement. Product  will collaborate on `problem validation` as needed.
  - Engineering clarifying the issue description as stated. Then refining and weighting the issue. If there is not enough information to do so, the PM should be tagged on the issue and the workflow state should be set to `workflow::problem validation`.
 
 At any point, if an issue becomes blocked, it would be in the `workflow::blocked` status. If there is a blocking issue, it needs to be added to the issue description or linked to the issue with a 'blocked by' relationship. If there is not a blocking issue, the reason for being blocked should be clearly communicated in a comment on the issue.
 
-`workflow::ready for development` means that an issue has been sufficiently [refined and weighted by Engineering](##how-engineering-refines-issues). Issues in this state that are labeled `cicd::active` are ones that should be worked on in a milestone. When a developer starts working on an issue they should [set the milestone](#setting-the-milestone) to that of the one where the issue will most likely be completed, rather than the one where it is started.
+`workflow::ready for development` means that an issue has been sufficiently [refined and weighted by Engineering](#how-engineering-refines-issues). Issues in this state that are labeled `cicd::active` are ones that should be worked on in a milestone. When a developer starts working on an issue they should [set the milestone](#setting-the-milestone) to that of the one where the issue will most likely be completed, rather than the one where it is started.
 
 `workflow::awaiting security release` is applied by an engineer after the security issue has passed verification and this label signals that it is ready for production but awaiting the next [monthly security release](https://about.gitlab.com/handbook/engineering/releases/security-releases/). When this label is applied, the issue's milestone should also be updated to the next milestone to align with when the next security release will happen.
 
@@ -520,7 +514,6 @@ Doing this provides several benefits:
 1. We can mark one implementation as a blocker for another.
 1. It's easier to see what work can be picked up by each functional group.
 1. We can schedule feature work across multiple milestones.
-
 
 When moving an issue through `workflow::design` to `workflow::planning breakdown` and implementation, use one of these processes:
 
@@ -662,6 +655,7 @@ Following the [code review guidelines](https://docs.gitlab.com/ee/development/co
 Our process of planning and development relies heavily on overcommunication rather than any approval gates or automated notification mechanisms. We adhere to the proactive mindset and responsibility of everyone involved to make sure every step in the process is as transparent as it can be. For both planning and building this means direct, cross-functional, and other relevant stakeholders are included early into the process. This ensures everyone is able to contribute to the best of their capabilities, and at the right time in the process. This can include, but is not limited to, GitLab objects, Slack, meetings, and daily stand-ups.
 
 Some practical examples of this are:
+
 - When you open up or begin working on an epic, issue, or merge request, consider if all stakeholders are aware of this or should be updated. If unsure, error on the side of updating rather than keeping silent.
 - When making significant progress make sure this is seen by the relevant stakeholders even if you don't require immediate feedback by mentioning them rather than relying on automated email notifications. Make their involvement explicit.
 
@@ -686,7 +680,7 @@ We follow the steps below to achieve the best results in the shortest time:
 1. After user research or customer feedback identifies a user need, and has generated some ideas to meet that need, the Product Designer drives the process of moving those ideas into design proposals involving the PM and the Engineering Team early and often. The [UX Definition of Done](/handbook/product/ux/stage-group-ux-strategy/ci-cd/pipeline-execution/) can be referenced to give counterparts better insight into which steps in the design workflow need to be completed before the MVC can move to the development phase.
 1. Depending on our confidence in the proposed solution, we may take those prototypes through user testing to validate if they would solve the original problem.
 1. Engineers, the Product Designer, EM and PM can compare and contrast multiple possible engineering approaches to decide which one to work on first based on the scope of the solutions and experience of the team.
-1. When a solution is validated and the team has a clear understanding of the effort required, it is time to break the big solution down into smaller issues. This is usually done in the `workflow::planning breakdown` phase and the whole team (PM, Engineers, Product Designer, QA, and Technical Writer) is involved in the process. They work closely together to find the most technically feasible and smallest feature set to deliver value to early customers and provide feedback for future product development. Check out [iteration strategies](#iteration-strategies) for help.
+1. When a solution is validated and the team has a clear understanding of the effort required, it is time to break the big solution down into smaller issues. This is usually done in the `workflow::planning breakdown` phase and the whole team (PM, Engineers, Product Designer, QA, and Technical Writer) is involved in the process. They work closely together to find the most technically feasible and smallest feature set to deliver value to early customers and provide feedback for future product development. Check out iteration strategies for help.
 
 We aim to design broadly for an epic or full feature at least one milestone ahead of time and then break the big solution into smaller issues to pick up in the next milestones.
 Suppose working one milestone ahead to design the big solution is not possible. In that case, Engineering and Product Designer will define the first most technically feasible and smallest feature set ([MVC](/handbook/values/#minimal-viable-change-mvc)) to satisfy early customers that will be implemented in the same milestone.
@@ -841,6 +835,7 @@ This board has 2 main sections:
 1. Issue scheduling. The Engineering Manager(s) will review the [PE Technical Debt issue board](https://gitlab.com/groups/gitlab-org/-/boards/3567075?scope=all&label_name[]=group%3A%3Apipeline%20execution&label_name[]=technical%20debt&assignee_id=None) and recommend issues to schedule for upcoming milestones by adding them to the [planning issue](#planning) for a milestone or communicating with Product a need to schedule the issue in an upcoming milestone. The team strives to have 20% of a sprint's capacity filled with Tech Debt issues.
 
 Note that multiple factors can exist at once. In that case use your judgment to either bump the impact score or lower it. For example:
+
 - The problem exists in a feature that has a supporting role in our domain but it's related to a number of `severity::2` bugs.
   Then choose `severity::2`.
 - The problem is related to an important feature but the workaround is acceptable as the code around it does not

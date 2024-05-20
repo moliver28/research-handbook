@@ -1,17 +1,6 @@
 ---
-
 title: "Permifrost"
 description: "Manage Snowflake Permissions"
----
-
-
-
-
-
-
-
-
-
 ---
 
 ## Quick Links
@@ -22,7 +11,7 @@ description: "Manage Snowflake Permissions"
 
 ## Permifrost
 
-![](pf.jpeg)
+![permifront diagram](pf.jpeg)
 
 Permifrost is a Python tool for managing permissions on a Snowflake data warehouse. The main documentation for using the tool is available in the project and on PyPI.
 
@@ -39,7 +28,6 @@ Permifrost is a Python tool for managing permissions on a Snowflake data warehou
 
 * Object creation and deletion is not managed by permifrost
     * That is, if entire roles are removed from the `roles.yml` file, it will **not** delete them from Snowflake
-
 
 ## Contributing
 
@@ -108,6 +96,3 @@ graph TD
     end
 
 ```
-
-
-

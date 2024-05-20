@@ -52,7 +52,7 @@ Additionally, we need to keep track of error budgets, which should also be deriv
 
 We will also be collapsing the `database` queue into the `infrastructure` queue. The database is a special piece of the infrastructure for sure, but so are the storage nodes, for example.
 
-For the on-call SRE, every event that pages (where an event may be a group of related pages) *should* have an issue created for it in the `production` queue.  Per the [severity](#severity) definitions, if there is at least *visible* impact (functional inconvenience to users), then it is by definition an incident, and the Incident template should be used for the issue.  This is likely to be the majority of pager events; exceptions are typically obvious, i.e. they impact only us and customers won't even be aware, or they're alerts that are pre-incident level which by acting on we avoid incidents.
+For the on-call SRE, every event that pages (where an event may be a group of related pages) *should* have an issue created for it in the `production` queue.  Per the severity definitions, if there is at least *visible* impact (functional inconvenience to users), then it is by definition an incident, and the Incident template should be used for the issue.  This is likely to be the majority of pager events; exceptions are typically obvious, i.e. they impact only us and customers won't even be aware, or they're alerts that are pre-incident level which by acting on we avoid incidents.
 
 ### Security Related Changes
 
@@ -92,7 +92,6 @@ Type labels are very important. They define what kind of issue this is. Every is
 |     `~Database`    | Label for problems related to database                                                                                  |
 |     `~Security`    | Label for problems related to security                                                                                  |
 
-
 #### Services
 
 The services list is mentioned here : https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml
@@ -105,7 +104,7 @@ If this issue is urgent for whatever reason, we should label them following the 
 
 ## On-Call Support
 
-For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/on-call/).
+For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/engineering/on-call/).
 
 ### On-Call escalation
 
@@ -146,7 +145,6 @@ Production database backups
 |-----------|-----------|
 | Infrastructure Team | Responsible for configuration and management |
 | Infrastructure Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
-
 
 ### Procedure
 
@@ -190,8 +188,9 @@ The critical change process is described in the [emergency change process](/hand
 ### Patching Validation
 
 Patch validation can be performed in 3 ways.
+
 - Manually by cross examining the logs of the host with the vulnerability finding in [wiz.io](https://wiz.io).
-- Reviewing vulnerability & tracking issue raised into Gitlab by [Vulnerability Management teams automation] (https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#automation)
+- Reviewing vulnerability & tracking issue raised into Gitlab by [Vulnerability Management teams automation] (/handbook/security/threat-management/vulnerability-management/#automation)
 - Reach out to Vulnerability Management in slack `#g_vulnerability_management`
 
 ### General OS (Ubuntu or other Linux) Version updates

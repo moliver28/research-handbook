@@ -78,7 +78,6 @@ The Sr. Director, IT Operations is a [level 11](/handbook/total-rewards/compensa
 - Excellent team management, coaching, and mentoring skills.
 - Business acumen with the ability to understand business priorities, operations, and IT enablement potential.
 
-
 ## Performance Indicators
 
 1. [New Hire Location Factor < 0.69](https://internal.gitlab.com/handbook/it/it-performance-indicators/#new-hire-location-factor--069)

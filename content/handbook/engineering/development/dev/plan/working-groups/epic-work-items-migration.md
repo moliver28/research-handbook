@@ -1,5 +1,4 @@
 ---
-
 title: "Epic Work Items Migration"
 description: "Stage Working Group for Epics to Work Items migration plan and status"
 ---
@@ -17,7 +16,7 @@ Epics to Work Items conversion plan and status
 |Slack|#s_plan, #f_work-item, #g_product_planning (only accessible from within the company)|
 |Google Doc|[Agenda](https://docs.google.com/document/d/1Mh0U-cH0n9FqyAPn4_OMMvpTTJm74-WAmz5ewLVOuJM/edit) (only accessible from within the company)|
 |Epic|[&9290](https://gitlab.com/groups/gitlab-org/-/epics/9290)|
-|Overview & Status|See [Exit Criteria Progress](#exit-criteria-progress)|
+|Overview & Status|See [Exit Criteria Progress](#exit-criteria)|
 
 ### Context
 

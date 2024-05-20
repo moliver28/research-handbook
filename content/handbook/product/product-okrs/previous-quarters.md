@@ -46,7 +46,7 @@ title: Previous Quarter OKR Timelines
      - Product Managers may create KRs not aligned to the existing quarter's OKRs as long as it doesn't conflict with or create bandwidth challenges with the approved upon Shared R&D and Product organization OKRs for the quarter.
      - If product managers go this route, they need to get alignment/approval from both their manager and their Product Group.
 - Product Managers will add any additional KRs to Ally.io
-          - For guidance, please check out [how to use ally.io](#how-to-use-allyio).
+          - For guidance, please check out how to use ally.io.
      - In some cases, GPMs may want to act as KR owners, working with the Product Manager and Product Group to add additional KRs to Ally.io.
 - **1 week** prior to the start of the new quarter:
      - the VPP and CTO record a video highlighting and discussing the Shared R&D OKRs
@@ -104,9 +104,9 @@ FY23 Q2 Shared R&D OKR Overview by Engineering and Product Leadership
           - Identify a unique Objective and then define the Key Results (connect with Product Operations on where to add in Ally.io).
           - Define Key Results for one of the [yearly Product themes](https://about.gitlab.com/direction/#fy22-product-investment-themes) not yet utilized as an objective in Q2 (connect with Product Operations on where to add in Ally.io).
      - Product Managers will add any additional KRs to Ally.io
-          - For guidance, please check out [how to use ally.io](#how-to-use-allyio): [Ally/OKR overview video for Product Managers](https://www.youtube.com/watch?v=M7z6ZnEpztU) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
+          - For guidance, please check out how to use ally.io: [Ally/OKR overview video for Product Managers](https://www.youtube.com/watch?v=M7z6ZnEpztU) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
      - In some cases, GPMs may want to act as KR owners, working with the Product Manager and Product Group to add additional KRs to Ally.io.
-          - For guidance, please check out [how to use ally.io](#how-to-use-allyio): [Ally/OKR overview video for GPMs](https://youtu.be/ilx7lk-_VM8) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
+          - For guidance, please check out how to use ally.io: [Ally/OKR overview video for GPMs](https://youtu.be/ilx7lk-_VM8) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
 - **1 week** prior to the start of the new quarter:
      - the VPP and CTO record a video highligthing and discussing the Shared R&D OKRs
           - Product Operations adds video to relevant handbook pages and shares across relevant Slack channels
@@ -124,7 +124,7 @@ FY23 Q2 Shared R&D OKR Overview by Engineering and Product Leadership
 
 #### Scoring and reporting
 
-KR owners will be responsible for the updating the status of their KRs by monthly. This is inclusive of collaborating with other team members to make sure any of their sub KRs rolling into their KRs are up to date as well. All R&D team members leverages the same scoring method to update OKRs detailed [here](#updating-the-status-and-progress-of-okrs).
+KR owners will be responsible for the updating the status of their KRs by monthly. This is inclusive of collaborating with other team members to make sure any of their sub KRs rolling into their KRs are up to date as well. All R&D team members leverages the same scoring method to update OKRs detailed [here](/handbook/company/okrs/#updating-the-status-and-progress-of-okrs).
 
 ## FY23 Q1
 
@@ -169,9 +169,9 @@ FY23 Q1 Shared R&D OKR Overview by Engineering and Product Leadership
           - Identify a unique Objective and then define the Key Results (connect with Product Operations on where to add in Ally.io).
           - Define Key Results for one of the [yearly Product themes](https://about.gitlab.com/direction/#fy22-product-investment-themes) not yet utilized as an objective in Q1 (connect with Product Operations on where to add in Ally.io).
      - Product Managers will add any additional KRs to Ally.io
-          - For guidance, please check out [Ally.io resources](#allyio-resources): [Ally/OKR overview video for Product Managers](https://www.youtube.com/watch?v=M7z6ZnEpztU) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
+          - For guidance, please check out Ally.io resources: [Ally/OKR overview video for Product Managers](https://www.youtube.com/watch?v=M7z6ZnEpztU) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
      - In some cases, GPMs may want to act as KR owners, working with the Product Manager and Product Group to add additional KRs to Ally.io.
-          - For guidance, please check out [Ally.io resources](#allyio-resources): [Ally/OKR overview video for GPMs](https://youtu.be/ilx7lk-_VM8) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
+          - For guidance, please check out Ally.io resources: [Ally/OKR overview video for GPMs](https://youtu.be/ilx7lk-_VM8) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
 - **1 week** prior to the start of the new quarter:
      - the CProdO and CTO record a video highligthing and discussing the Shared R&D OKRs
           - Product Operations adds video to relevant handbook pages and shares across relevant Slack channels
@@ -189,7 +189,7 @@ FY23 Q1 Shared R&D OKR Overview by Engineering and Product Leadership
 
 #### Scoring and reporting
 
-KR owners will be responsible for the updating the status of their KRs by monthly. This is inclusive of collaborating with other team members to make sure any of their sub KRs rolling into their KRs are up to date as well. All R&D team members leverages the same scoring method to update OKRs detailed [here](#updating-the-status-and-progress-of-okrs).
+KR owners will be responsible for the updating the status of their KRs by monthly. This is inclusive of collaborating with other team members to make sure any of their sub KRs rolling into their KRs are up to date as well. All R&D team members leverages the same scoring method to update OKRs detailed [here](/handbook/company/okrs/#updating-the-status-and-progress-of-okrs).
 
 ## FY22 Q4
 
@@ -201,10 +201,10 @@ FY22 Q4 Shared R&D OKR Overview by CTO and CProdO
 
 **Below is our Q4 iteration on the OKR process.** This Q4 process/timeline incorporates [FY22 Q3 OKR pilot learnings](https://gitlab.com/gitlab-com/Product/-/issues/2714). To address some of the findings, we're introducing **Shared R&D OKRs** to clarify and highlight Objectives aligned upon by the CProdO and the CTO. The Shared R&D OKRs will then serve as the priority across the Product and Engineering teams.
 
-- Quarterly priority OKRs from CTO and CprodO will be referred to as [**Shared R&D OKRs**](#shared-rd-okrs)
+- Quarterly priority OKRs from CTO and CprodO will be referred to as **Shared R&D OKRs**
 - The teams responsible for collaborating on these OKRs will be referred to as [**Product Groups**](/handbook/product/product-processes/#quad--infra--security-product-group-dris)
 
-For guidance about the Product OKR process, team members can post in Slack #product and tag [Product Operations](/handbook/company/team/#fseifoddini). Team members can also attend [Product Operations office hours](/handbook/product/product-processes/#product-operations-office-hours-bi-weekly) for live support. For guidance on how to use Ally.io please check out [Ally.io resources](#allyio-resources) or post in Slack #ally-okr-rollout and tag Product Operations.
+For guidance about the Product OKR process, team members can post in Slack #product and tag [Product Operations](/handbook/company/team/#fseifoddini). Team members can also attend [Product Operations office hours](/handbook/product/product-processes/#product-operations-office-hours-bi-weekly) for live support. For guidance on how to use Ally.io please check out Ally.io resources or post in Slack #ally-okr-rollout and tag Product Operations.
 
 Please share your feedback in [Feedback on Q4 Shared R&D OKR Process](https://gitlab.com/gitlab-com/Product/-/issues/3142)
 
@@ -242,9 +242,9 @@ Please share your feedback in [Feedback on Q4 Shared R&D OKR Process](https://gi
           - Identify a unique Objective and then define the Key Results (connect with Product Operations on where to add in Ally.io).
           - Define Key Results for one of the [yearly Product themes](https://about.gitlab.com/direction/#fy22-product-investment-themes) not yet utilized as an objective in Q4 (connect with Product Operations on where to add in Ally.io).
      - Product Managers will add any additional KRs to Ally.io
-          - For guidance, please check out [Ally.io resources](#allyio-resources): [Ally/OKR overview video for Product Managers](https://www.youtube.com/watch?v=M7z6ZnEpztU) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
+          - For guidance, please check out Ally.io resources: [Ally/OKR overview video for Product Managers](https://www.youtube.com/watch?v=M7z6ZnEpztU) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
      - In some cases, GPMs may want to act as KR owners, working with the Product Manager and Product Group to add additional KRs to Ally.io.
-          - For guidance, please check out [Ally.io resources](#allyio-resources): [Ally/OKR overview video for GPMs](https://youtu.be/ilx7lk-_VM8) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
+          - For guidance, please check out Ally.io resources: [Ally/OKR overview video for GPMs](https://youtu.be/ilx7lk-_VM8) and [how OKR alignments work in Ally](https://www.youtube.com/watch?v=pRl5QkvJEq8)
 - **1 week** prior to the start of the new quarter:
      - the CProdO and CTO record a video highligthing and discussing the Shared R&D OKRs
           - Product Operations adds video to relevant handbook pages and shares across relevant Slack channels
@@ -262,4 +262,4 @@ Please share your feedback in [Feedback on Q4 Shared R&D OKR Process](https://gi
 
 #### Scoring and reporting
 
-KR owners will be responsible for the updating the status of their KRs by monthly. This is inclusive of collaborating with other team members to make sure any of their sub KRs rolling into their KRs are up to date as well. All R&D team members leverages the same scoring method to update OKRs detailed [here](#updating-the-status-and-progress-of-okrs).
+KR owners will be responsible for the updating the status of their KRs by monthly. This is inclusive of collaborating with other team members to make sure any of their sub KRs rolling into their KRs are up to date as well. All R&D team members leverages the same scoring method to update OKRs detailed [here](/handbook/company/okrs/#updating-the-status-and-progress-of-okrs).

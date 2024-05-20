@@ -210,7 +210,6 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/5521](https://gitlab.com/gro
   - [Discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/431701) regarding regarding expansion of usage ping metrics.
   - Draft of importer progress bar is ready for review.
 
-
 #### Week of Dec 4-8
 
 - Plan:

@@ -193,6 +193,7 @@ Follow the steps to reproduce written by [hashkitten](https://hackerone.com/legi
 Once you've reproduced the bug, have a go at fixing it locally. Then compare your proposed change to our patch(es).
 
 {{% details summary="The fix" %}}
+
 - We fixed the frontmatter regex: <https://gitlab.com/gitlab-org/gitlab/-/commit/8b30fedf2bea8713bc735638ae63a09f3e4faba1>
 - We added timeouts to our rendering pipelines:
   - <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/102819>

@@ -8,11 +8,13 @@ description: DevOps Platform POV Scope and Acceptance
 The platform value play will provide an overview of the DevOps Platform solution and the pain points it addresses across the enterprise instead of individual stages or silos, outline key quenstions you can ask to assess the customer's needs and identify the relevant aspects of the solution, and offer paths to other discussions of GitLab's value.
 
 It can be combination of all other solutions together
+
 - DevSecOps
 - Software Compliance
 - Automated Software Delivery
 
 Also it can contain the evaluation of the performance and technical metrics. This can be identified due to
+
 - enterprise fast growing outpaced the silo tools and inefficient toolchain - top value is to deliver better product faster with efficiency gains
 - enterprise is rolling out standard toolchains due to merger and acquisitions
 - existing tools are not cloud ready and cloud transformation is accelerating for the enterprise to be more competitive and delivery SaaS services while saving the cost
@@ -20,6 +22,7 @@ Also it can contain the evaluation of the performance and technical metrics. Thi
 ### Input to the POV
 
 The pre-requsition of this scope of POV tend to be focused with these aspects:
+
 - Value driven capabilities leading in with Automated Software Delivery
 - technical integrating with existing either Open Source Toolchain or other commercial tools
 - Technical metrics for performance and scalability for large enterprises
@@ -58,5 +61,3 @@ SA working with SAE and AE can define the POV scope with the customer, with alig
 - [DevSecOps](/handbook/solutions-architects/tools-and-resources/pov/devsecops/)
 - [Software Compliance](/handbook/solutions-architects/tools-and-resources/pov/compliance/)
 - [Automated Software Delivery](/handbook/solutions-architects/tools-and-resources/pov/automation/)
-
-

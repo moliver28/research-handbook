@@ -172,7 +172,6 @@ Hybrid-remote organizations may see high office utilization in the earliest days
 
 While this may seem jarring, it's a positive indicator that work and culture are progressing without the need of an office. This will create opportunities to capture greater real estate savings and/or repurpose office space for philanthropic efforts, such as opening up an internship center for the local community.
 
-
 ## Blueprints from companies openly sharing their transition to hybrid-remote
 
 We believe it's useful for transitioning companies to see *how* others are embracing and making the shift to hybrid-remote structures. Below are examples of companies who are publicly and transparently sharing their journey, best practices, and lessons learned to guide others.
@@ -249,7 +248,7 @@ Some hybrid-remote options allow employees to choose where they live. At any giv
 
 ### Hire talent across the globe
 
-Not only does hybrid remote allow organizations to hire the best talent on the planet, it also gives your employees the opportunity to network as they [meet and work with people from many locations around the world](/handbook/incentives#visiting-grant), widening one's view of the world and creating opportunities to learn about new cultures.
+Not only does hybrid remote allow organizations to hire the best talent on the planet, it also gives your employees the opportunity to network as they [meet and work with people from many locations around the world](/handbook/total-rewards/incentives/#visiting-grant), widening one's view of the world and creating opportunities to learn about new cultures.
 
 ## Disadvantages to hybrid-remote
 
@@ -276,7 +275,7 @@ Clear communication is one of the best ways to overcome hybrid-remote challenges
 
 Each department and team should set, share, and track both monthly and quarterly goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs). GitLab's OKRs are also clearly documented in our handbook for visibility across the company.
 
-Our unique approach to [documentation](/handbook/documentation) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}) by putting everything they need to know in one place.
+Our unique approach to [documentation](/handbook/product/ux/technical-writing/documentation/) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}) by putting everything they need to know in one place.
 
 Finally, we recommend developing an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md). Hosting a panel, like our [GitLab 101](/handbook/company/culture/gitlab-101), allows new hires to ask questions.
 
@@ -339,4 +338,3 @@ GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" 
 ---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).
-

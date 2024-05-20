@@ -46,7 +46,7 @@ The Area Vice President reports into the [VP, Commercial Sales](/job-families/sa
 
 - NetARR vs Plan
 - NetARR vs forecast
-- All other Sale KPI's can be found [here](https://internal-handbook.gitlab.io/handbook/company/performance-indicators/sales/#kpi-summary).
+- All other Sale KPI's can be found [here](https://internal.gitlab.com/handbook/company/performance-indicators/sales/#kpi-summary).
 
 ## Career Ladder
 

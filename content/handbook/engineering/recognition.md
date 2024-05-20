@@ -18,9 +18,7 @@ Under Classification, please select “FY24 Team Building”
 Under Description field, please include this link: https://about.gitlab.com/handbook/engineering/recognition/#engineering-quarterly-achievers-recognition-dinner
 Click Submit (or Save & close if you need to come back to add more information).
 
-
 ### Engineering Quarterly Achiever's Chat
-
 
 The Quarterly Achiever's Chat recognizes Engineering team members who have excelled in a given quarter by inviting them to join the Chief Executive Officer, Chief Technical Officer and Chief Product Officer in a congratulatory chat. The benefit is three-fold:
 
@@ -110,7 +108,6 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 | FY24-Q4 | Customer Results | Performance and Stability | Brie Carranza & Matthew Badeau |
 | FY24-Q4 | Customer Results | Contribution to Sales or Renewal | Gerardo Gutierrez |
 
-
 ### FY25-Q1
 
 | Quarter | Category | Award | Winner |
@@ -164,6 +161,3 @@ This process is followed by a delegate of the CTO Leads team at least 2 weeks be
 ### Announce Winners
 
 For the next All-Hands, incorporate the final slides into primary deck! After All-hands, update this page with names of winners. Wooo! You're done until next quarter.
-
-
-

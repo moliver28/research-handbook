@@ -22,11 +22,13 @@ Future iterations of our error budgets will seek to further develop the importan
 ## What are the components of error budgets?
 
 Error Budgets first depend on establishing an SLO (Service Level Objective). SLOs are made up of an objective, a SLI (Service Level Indicator), and a timeframe.
+
 - **Objective**: The desired level of succcess, noted as a percentage
 - **SLI**: an evaluation used to distinguish number of failed events
 - **Timeframe**: enforcing a recency bias to the SLI
 
 Here is an example of these elements:
+
 - **Objective**: 99.95%
 - **SLI**: 95th percentile latency of api requests over 5 mins is < 100ms
 - **Timeframe**: previous 28 days
@@ -70,7 +72,7 @@ Let's take look at a simplified violation scenario with different traffic
 patterns:
 
 | Endpoint   | Total requests | Slow requests | Apdex ratio | Traffic share |
-|------------|----------------|-----------------------------|---------------|
+|------------|----------------|---------------|-------------|---------------|
 | Endpoint A | 1 000          | 500           | 50%         | 1%            |
 | Endpoint B | 99 000         | 9 000         | 90%         | 99%           |
 
@@ -95,7 +97,7 @@ The number of violations for `Endpoint B` puts it below the apdex
 threshold, so if these two endpoints are the top violators we see, we
 should look into improving `Endpoint B`.
 
-# The Error Budget Policy for GitLab.com
+## The Error Budget Policy for GitLab.com
 
 The error budgets process has a few distinct items:
 
@@ -112,7 +114,6 @@ The stakeholders in the Error Budget process are:
 1. Infrastructure teams (Teams represented on the [infrastructure team page][infra teams])
 1. [VP of Infrastructure and Infrastructure Leadership](/handbook/engineering/infrastructure/#mstaff)
 1. VP of Development and VP of Product
-
 
 ## Budget allocation
 
@@ -168,7 +169,7 @@ Stage groups can use their dashboards to explore the cause of their budget spend
 
 The formula for calculating availability:
 
-```
+```text
 the number of operations with a satisfactory apdex + the number of operations without errors
 /
 the total number of apdex measurements + the total number of operations
@@ -176,7 +177,7 @@ the total number of apdex measurements + the total number of operations
 
 This gives us the percentage of operations that completed successfully and is converted to minutes:
 
-```
+```text
 (1 - stage group availability) * (28 * 24 * 60)
 ```
 
@@ -272,7 +273,6 @@ Provide answers to the following questions:
 1. What is the main contributor to your team's error budget spend? Is that the response time?
 1. What does success look like at the closure of referenced epic?
 
-
 Follow the guidance and instructions above to expedite the approval process.
 
 **Assign the MR for approval to:**
@@ -326,6 +326,7 @@ The changes below aim to increase the maturity of the Error Budgets.
 **Product Development Activities**
 
 Product Development teams are encouraged to:
+
 - Continue working on [Rapid Action][rapid action], [Infradev][infradev], [Corrective Actions][corrective action], [Security][security vulnerabilities], and [Engineering Allocation][engineering allocation] issues per our [Prioritization guidelines][engineering prioritization]
 - Propose SLOs for their endpoints
 - [Opt-in to using the new apdex calculation methods that use the custom target durations](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/1451)

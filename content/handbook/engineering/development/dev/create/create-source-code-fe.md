@@ -89,6 +89,15 @@ For more urgent items, feel free to use [#g_create_source_code] or [[#g_create_s
 [#g_create_source_code]: https://gitlab.slack.com/archives/g_create_source-code
 [#g_create_source_code_fe]: https://gitlab.slack.com/archives/g_create_source-code-review-fe
 
+### Code Reviewing
+
+To prevent the creation of knowledge silos and also receiving input from people outside of the team, we follow these principles:
+
+* Not all Merge Requests need to go through the team
+* However, Merge Requests that seem important for the team to be aware, let's ensure one of the reviews go through a team member
+
+**MRs important to the team:** these are changes to logic in our apps or meaningful component changes. Sequential work in a larger epic is also beneficial to have oversight from peers within the team. But bottom line, use your best judgement.
+
 ### Capacity planning
 
 {{% include "includes/engineering/create/capacity-planning-fe.md" %}}

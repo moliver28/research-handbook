@@ -8,7 +8,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/policies/labels_and
 
 The Support Readiness-Operations team uses labels to help us categorize and manage our work.
 
-We use labels to triage and categorize every issue created under our [Issue Tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project). During issue creation, we use a specific issue template for each area we handle so that we can automatically add group labels and assignees based on our [division of responsibilities](https://handbook.gitlab.com/handbook/support/readiness/operations/division_of_responsibilities/).
+We use labels to triage and categorize every issue created under our [Issue Tracker](https://gitlab.com/gitlab-com/support/support-ops/support-ops-project). During issue creation, we use a specific issue template for each area we handle so that we can automatically add group labels and assignees based on our [division of responsibilities](/handbook/support/readiness/operations/division_of_responsibilities/).
 
 We also use labels to categorize issues created under the [Support Team Meta project](https://gitlab.com/gitlab-com/support/support-team-meta) where Support Readiness involvement is needed.
 

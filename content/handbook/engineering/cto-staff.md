@@ -87,6 +87,7 @@ Similar to our [CEO Shadow Program](/handbook/ceo/shadow/), this role is a tempo
 Examples of "key meetings" are: OKR kickoff, OKR retrospective, key reviews, etc.
 
 Besides this, it’s important to consider the following:
+
 - Your compensation would remain the same
 - You could live in any region (APAC/EMEA/AMER)
 - Following your rotation, you'd return to your role prior to the rotation
@@ -95,6 +96,7 @@ Besides this, it’s important to consider the following:
 ### Criteria for selection
 
 You are eligible to apply for this rotation if you have been with GitLab for at least 3 months. Candidates will be selected based on:
+
 - Interest
 - Availability for a 3-month, full-time rotation and availability to join important meetings prior and after (5-10%)
 - Team members interested in applying should confirm availability from a bandwidth perspective with their manager prior to applying

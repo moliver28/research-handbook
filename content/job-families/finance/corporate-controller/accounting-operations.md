@@ -76,7 +76,6 @@ The VP, Accounting Operations is a grade 12.
 - You have built and executed against a vision for a newer function
 - Ability to use GitLab
 
-
 ## Performance Indicators
 
 - Ability to close timely, and influence a faster close cycle

@@ -3,13 +3,6 @@ aliases: /handbook/engineering/infrastructure/core-platform/data_stores/database
 title: Container Registry on PostgreSQL
 ---
 
-
-
-
-
-
-## Container Registry on PostgreSQL
-
 This page is meant to track the discussion of different database design approaches for the Container Registry.
 
 ### Background and reading material
@@ -193,13 +186,13 @@ Note: In most cases, we will have to resolve a repository's `<name>` to its corr
 
 ##### Example: Delete manifest
 
-```
+```text
 DELETE /v2/<name>/manifests/<digest>
 ```
 
 In this case, we delete the corresponding record in `manifests`:
 
-```
+```sql
 DELETE FROM manifests WHERE repository_id=:id AND digest=:digest
 ```
 
@@ -211,13 +204,13 @@ Deleting a full repository doesn't seem implemented in the [api specs](https://g
 
 ##### Example: Untagging a manifest
 
-```
+```text
 DELETE /v2/<name>/tags/reference/<reference>
 ```
 
 In this case, we delete the tag:
 
-```
+```text
 DELETE FROM tags WHERE repository_id=:id AND name=:reference
 ```
 
@@ -227,7 +220,7 @@ We might be able to skip this step early in case there is another tag for the sa
 
 ##### Example: Uploading a blob, pushing the manifest
 
-```
+```text
 PUT /v2/<name>/blobs/uploads/<uuid>
 ```
 
@@ -237,7 +230,7 @@ In this case, we would insert the blob digest into the `blob_review_queue` after
 
 Now the client pushes the manifest.
 
-```
+```text
 PUT /v2/<name>/manifests/<reference>
 ```
 

@@ -9,15 +9,14 @@ While the Referral program is fairly straight-forward, there are several nuances
 
 For process instructions regarding referrals, please visit the [Referral Operations]({{< ref "referral-operations" >}}) page.
 
-
 #### Defining a Referral
 
 "Referring", "sourcing" and "endorsing" are similar activities, however there are distinctions based on their respective familiarity and confidence in regards to the prospective candidate. Referral bonuses are granted to referrals only.
 
-
 **Referral** - someone you have worked with in the past, or have developed a close personal relationship. This person should align with our values and the requirements of the role, someone you would choose to work with again if the opportunity arises.
 
 **Endorsement** - Endorsements are not referrals, they are treated as a recommendation or you advocating for someone. Examples include someone you know applies and they then ask you to refer them. This is not a referral as you didn't proactively encourage them to apply. Another example could be you've heard good things about someone, but haven't directly worked with them. To endorse the candidate, check who the Recruiter is on the [Internal Job Board](https://gitlab.greenhouse.io/internal_job_board) and contact them via Slack after they've applied directly. You should include:
+
 - The candidate's full name.
 - The role.
 - Please provide a description of how you know the candidate and why they are aligned with the role with GitLab.  
@@ -47,7 +46,6 @@ Other Referral clarifications:
 
 All GitLab team members are eligible for the [Referral Bonus]({{< ref "incentives#referral-bonuses" >}}), except in [certain circumstances]({{< ref "incentives#exceptions" >}}).
 
-
 #### Submitting a Referral
 
 All GitLab Team Members should submit a referral by submitting them directly through Greenhouse if the vacancy is open **externally**.
@@ -57,7 +55,6 @@ To ensure a seamless referral process, it's important to adhere to our establish
 1. **Direct notification to the relevant recruiter**: The assigned recruiter promptly receives a direct notification of your referral, minimizing the risk of oversight.
 1. **Thorough review of the application**: Referral applications undergo a comprehensive review.
 1. **Efficient handling to maximize referral impact**: By reducing double-handling, we optimize the time spent on referrals, ensuring a more effective and streamlined process.
-
 
 ##### Expectations of Referrer
 
@@ -69,6 +66,7 @@ As we continue to scale, so does the volume of referrals we receive. Referrals a
 1. Communication with the Referral
     - You have informed the person that you are referring them.
 1. Detailed Referral Description
+
 - *Must complete* required fields, including a comprehensive description of how you know the candidate you are referring and why they are aligned to the role with GitLab. Provide detailed information such as specific qualifications, skills and relevant experiences that make the candidate a strong match for the specific role. The fields are:
     1. How do you know this person?
         - Previous co-worker/colleague
@@ -82,11 +80,7 @@ As we continue to scale, so does the volume of referrals we receive. Referrals a
     1. Anything else we should know about this referral?
     1. Note: If this person has already applied and their application has been reviewed, this is considered an endorsement.
 
-  
-
-
 If the person you wish to refer has already submitted an application, please still submit your referral through Greenhouse with the details required. The Recruiting team will then merge the profiles. Referrer input is most valuable at the start of the process, so we will only consider referrals before the candidate's application has been reviewed. You'll be notified directly by the relevant recruiter if their profile as already been reviewed. It's important to note that, despite our best efforts, individuals who apply without following the proper referral procedure may not receive the same experience as those referred through our formal channels in Greenhouse.
-
 
 ##### Submitting a Referral in Greenhouse
 
@@ -103,7 +97,6 @@ Before submitting your referral, please check the [Country Hiring Status](https:
 1. Click `Add this referral` and you'll see the referral in the `My Referrals` section of your dashboard.
 1. If you'd like to introduce a candidate to the TA team, but do not have enough information to feel confident making a referral, you can follow the instructions in Greenhouse to share your social referral link with those people rather than submitting a referral on their behalf.
 
-
 To see what positions are available to submit an external candidate for please visit the [Careers at GitLab](https://about.gitlab.com/jobs/) page.
 
 **Things to note:**
@@ -111,7 +104,6 @@ To see what positions are available to submit an external candidate for please v
 - A referral must be submitted to a **specific requisition** - general referrals are **not** accepted.
 - If you see `CURRENT TEAM MEMBERS ONLY -` before a requisition, please note that that requisition is for **Internal Team Members only**; please do **not** submit a referral.
 - Please keep in mind that it is up to the Recruiter and/or Hiring Manager's discretion to move forward with your referral once submitted, based on skill/experience alignment to their role.
-
 
 #### Referral Statuses
 
@@ -130,6 +122,7 @@ For details regarding the *Referral Bonus Payout*, please visit [this page]({{< 
 #### Process for and expections of Recruiter
 
 As a way of ensuring a consistent and positive experience with both the candidate and team member, it's important that the Talent Acquisition team follows these steps:
+
 1. [Ensure referral notifications are turned on in Greenhouse for your roles.](https://support.greenhouse.io/hc/en-us/articles/360029035211-New-referrals-notification#:~:text=Configure%20new%20referrals%20notification%20on%20a%20job,-To%20begin%20new&text=Click%20Job%20Setup%20from%20the,Click%20Configure.)
 1. Referrals should be reviewed and actioned within 5 business days of submission
 1. If the Referral has expressed interest in multiple roles, please flag their profile with the relevant Recruiters to confirm which role aligns best (if any)
@@ -147,7 +140,6 @@ As a way of ensuring a consistent and positive experience with both the candidat
         1. Send application questions to confirm sponsorship requirements, location, EEOC, etc.
         1. Move to screening if all requirements are met, reject with appropriate template if not.
         1. Follow standard process from this point forward.
-
 
 ##### Additional considerations for the talent acquisition team
 

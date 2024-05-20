@@ -28,7 +28,7 @@ Marketing-ready means:
 1. Acknowledges the lead passing and recall process
 1. Has a dedicated marketing responsible person to work on the joint activities with GitLab
 1. Has regular calls with the GitLab Channel Marketing Manager (CMM)
-1. Acknowledges the [MDF Policy](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/mdf/) and requirements for MDF process (requests & claims)
+1. Acknowledges the [MDF Policy](/handbook/resellers/channel-program-guide/mdf/) and requirements for MDF process (requests & claims)
 
 Channel partners are ultimately responsible for the execution of these campaigns.
 
@@ -161,18 +161,18 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
 - Demand Generation
       - The objective of these activities is to gain net-new end-user customers for you and GitLab. Examples of eligible activities include seminars, workshops, telemarketing or email marketing campaigns, participation in tradeshows, exhibitions, and direct mail.
       - Eligible costs may include mailing costs, fulfillment items, lead qualification, distribution, venue costs, food and beverages (excluding alcoholic beverages), speakers’ fees, management costs, and lead capturing costs.
-      - GitLab supports a limited number of partners in the selected regions, please check your eligibility with your regional [Partner Account Manager](https://partners.gitlab.com/English/?ReturnUrl=/prm/English/c/marketing-contact-cam) and [Channel Marketing Manager](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#meet-the-team).
+      - GitLab supports a limited number of partners in the selected regions, please check your eligibility with your regional [Partner Account Manager](https://partners.gitlab.com/English/?ReturnUrl=/prm/English/c/marketing-contact-cam) and [Channel Marketing Manager](/handbook/marketing/channel-marketing/#meet-the-team).
 
 - To be considered for funding support you must:
       - Be a Marketing Ready GitLab Partner. Marketing ready means:
          - partner has an approved business plan with GitLab
          - has a list of focus accounts mapped with GitLab
          - has a dedicated person who manages leads sent to the partner by GitLab (Partner Prospect Admin)
-         - acknowledges the [lead passing and recall process](https://handbook.gitlab.com/handbook/marketing/marketing-operations/vartopia/#partner-recall)
+         - acknowledges the [lead passing and recall process](/handbook/marketing/marketing-operations/vartopia/#partner-recall)
          - has a dedicated marketing responsible person to work on the join activities with GitLab
          - has regular calls with the GitLab Channel Marketing Manager
-         - acknowledges the [MDF Policy](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/mdf/) and requirements for MDF process (Requests and Claims)
-      - Comply with GitLab [Proof of Performance (POP)](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/mdf/#funds-reimbursement-requirements) requirements for the activity
+         - acknowledges the [MDF Policy](/handbook/resellers/channel-program-guide/mdf/) and requirements for MDF process (Requests and Claims)
+      - Comply with GitLab [Proof of Performance (POP)](/handbook/resellers/channel-program-guide/mdf/#funds-reimbursement-requirements) requirements for the activity
       - Meet minimum required MDF request amount of $1,000 USD
       - GitLab will cover up to 50% of the total cost of the activity
 

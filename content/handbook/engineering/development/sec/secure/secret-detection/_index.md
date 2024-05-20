@@ -7,6 +7,7 @@ title: Secret Detection Group
 The Secret Detection group was split from Static Analysis [on 2024-03-05](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/133169).
 
 The Secret Detection group maintains the following feature categories for customer software repositories:
+
 - [Secret Detection](https://about.gitlab.com/direction/secure/secret-detection/secret-detection/)
 - [Code Quality](https://about.gitlab.com/direction/secure/secret-detection/code_quality/)
 
@@ -60,7 +61,7 @@ Below is a list of steps followed during the refinement process.
 
 The following checklist is to be copied either in the issue description or posted as a comment in the issue being refined. This is used to clarify the refinement and refinement review progress for all interested stakeholders.
 
-```
+```markdown
 **Please copy the list below into the issue you are refining, and check them as you deem appropriate.**
 
 #### Refinement Progress
@@ -72,7 +73,7 @@ If a checkbox is not relevant for the issue, please remove or strikethrough it.
 - [ ] This issue requires assistance or support from other groups, and it's indicated in the issue description.
 - [ ] This issue could affect application security or performance, and the concern is explained in the issue description.
 - [ ] This issue is the smallest iteration possible and doesn't require further break down.
-- [ ] This issue has weight set - according to [this list of possible values](https://handbook.gitlab.com/handbook/engineering/development/sec/secure/workflow/#possible-values) - and ~"needs weight" label is removed.
+- [ ] This issue has weight set - according to [this list of possible values](/handbook/engineering/development/sec/secure/workflow/#possible-values) - and ~"needs weight" label is removed.
 - [ ] This issue has a success criteria defined, and it is outlined in the issue description.
 - [ ] This issue is labeled correctly.
 - [ ] This issue is reviewed by another team member to confirm proposal/implementation plan and weight.
@@ -83,7 +84,7 @@ If a checkbox is not relevant for the issue, please remove or strikethrough it.
 If you're assigned this issue to review its refinement, please follow the guidelines below.
 
 1. Please validate the proposal or the implementation plan described in the issue.
-1. Please validate the weight of the issue according to [this list of possible values](https://handbook.gitlab.com/handbook/engineering/development/sec/secure/workflow/#possible-values).
+1. Please validate the weight of the issue according to [this list of possible values](/handbook/engineering/development/sec/secure/workflow/#possible-values).
 1. If in disagreement, please state your thoughts/reasoning and notify the engineer refining this issue.
 1. If the disagreement can't be resolved, please bring this issue to the next team meeting for discussion.
 ```

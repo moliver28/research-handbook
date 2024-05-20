@@ -8,7 +8,6 @@ summary: " "
 
 ## Sales Development Job Levels
 
-
 ### Sales Development Representative (SDR)
 
 The Sales Development Representative (SDR) reports to the SDR Manager and is focused on inbound leads.

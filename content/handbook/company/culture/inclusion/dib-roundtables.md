@@ -40,7 +40,6 @@ The DIB Team will ask for a volunteer or are elect group facilitator for each gr
 | TBC | Bias | Liam McNally | N/A |
 | TBC | Microaggressions | TBC | NA |
 
-
 ### Self-organized
 
 First, identify a group of team members who would like to participate. This can be done via slack, with your direct team or other avenues.
@@ -55,8 +54,6 @@ First, identify a group of team members who would like to participate. This can 
 - Verbalize the questions
 - Ensure that everyone, including yourself gets an opportunity to contribute
 - Share your screen where necessary i.e. privilege for sale task
-
-
 
 ### Manager Organized
 
@@ -74,7 +71,6 @@ A DIB Team Member will set up a time to discuss with the manager the function of
 - [Assume positive intent]({{< ref "values#assume-positive-intent" >}}), share and express with a higher intent
 - Learning happens through experience; so if someone makes a mistake, [give feedback kindly]({{< ref "values#kindness" >}})
 - Please avoid multitasking unless there is a true emergency; please give your full attention to the session.
-
 
 ### Start with Privilege for Sale or Privilege Backpack
 
@@ -108,4 +104,3 @@ Once you have fully completed the roundtable, create a handbook entry on the DIB
 ### What next?
 
 The Diversity, Inclusions and Belonging Team is working on Roundtables  part two, where we will go beyond creating safe spaces to discuss DIB related issues, to developing deeper trust, empathy and vulnerability.
-

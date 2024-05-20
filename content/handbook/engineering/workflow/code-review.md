@@ -45,7 +45,7 @@ For senior+ engineers, being a maintainer is part of their job family unless the
 | ----------- | --------- |
 | Intermediate Engineers | Maintainership is optional |
 | Existing Senior+ Engineer | Existing senior+ engineers who are not already maintainers are encouraged to complete the trainee program in support of our team's productivity and motivation. There is no expected completion timeframe of the trainee program. |
-| Newly hired Senior+ | During onboarding, newly hired senior+ engineers will be asked to become trainee maintainers instead of reviewers. We expect their maintainership to be complete within 12 months of their onboarding completion.
+| Newly hired Senior+ | During onboarding, newly hired senior+ engineers will be asked to become trainee maintainers instead of reviewers. We expect their maintainership to be complete within 12 months of their onboarding completion. |
 | Promotions to Senior | For engineers moving into the Senior role, we expect that they have already become a maintainer prior to promotion. |
 
 ### Meeting the reviewer/maintainer
@@ -121,6 +121,7 @@ Tips:
 - Have at least 2 approvals from existing maintainers in order to merge the MR.
 
 Upon approval, the maintainer who merges the MR will:
+
 - Add the newly approved maintainer to the CI components maintainer group (`@gitlab-org/maintainers/ci-components`).
 - Announce in [`#ci_components_maintainers`](https://gitlab.slack.com/archives/C06AQBJETRR) and post an update in the *Engineering Week-in-Review document*
 
@@ -206,8 +207,9 @@ Create a merge request and indicate your role as a `project-name: trainee_mainta
 After each review, reviewers should summarize why they believe a merge request is ready to be merged:
 
 For example:
-> Looks good!  I believe this MR resolves the issue and it looks safe because the code change is relatively isolated.
 
+> Looks good!  I believe this MR resolves the issue and it looks safe because the code change is relatively isolated.
+>
 > LGTM! I feel this MR is a good iteration. And it has low risk because it is behind a feature flag.
 
 Maintainers should respond to the comment from the reviewer with a 👍 if they agree, and upon merging if there were additional comments they feel should have been caught, they should ping any reviewers so they are aware of the comments.
@@ -360,7 +362,6 @@ Explanation of charts:
 - Unhealthy Core Areas of Maintainership Health - The percentage of projects (GitLab) or areas (backend) that are not meeting the Minimum Maintainers Required, and are receiving more than 100 Incoming Merge Requests per month over time.
 - Part of Product Repos - Full Data - An all-inclusive chart for each project, area, and month that includes all metrics noted above.
 
-
 #### Monthly Review Targets
 
 Targets are calculated based on the number of available maintainers (described above) and what a "reasonable" number of reviews per maintainer per month is. "Reasonable" has been defined for some areas in [separate analysis issues](https://gitlab.com/groups/gitlab-com/-/epics/1817). These are custom targets defined in the "maintainer_custom_targets" Sisense snippet. There are general targets for all other projects based on the number of incoming merge requests to the project. These numbers are a first iteration and were based on the analysis issues, where less demanding projects had fewer maintainers (therefore requiring more monthly reviews per person) and more demanding projects had more maintainers (therefore requiring less monthly reviews per person):
@@ -503,7 +504,7 @@ on these other statuses, please refer to the [code review](https://docs.gitlab.c
 page in the developer documentation.
 
 Of course, if you are out of office and have
-[communicated](/handbook/paid-time-off/#communicating-your-time-off)
+[communicated](/handbook/people-group/paid-time-off/#communicating-your-time-off)
 this through your GitLab.com Status, authors are expected to realize this and
 find a different reviewer themselves.
 
@@ -517,17 +518,17 @@ When you are assigned to review an MR and you are not able to get to it within t
 
 As the author of an MR you should reassign to another reviewer or maintainer if the `Review-response` SLO has not been met and you have been unable to contact the assignee.
 
-
 ## Code Owner approvals
 
 Some GitLab projects use GitLab's [CODEOWNERS file feature](https://docs.gitlab.com/ee/user/project/codeowners/) to manage approvals for specific file paths and types. In the `gitlab-org/gitlab` project, [we use a combination of CODEOWNERS approval rules plus MR approval settings](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) in order to follow segregation of duties best practices. This section describes the process for updating the eligible approvers for CODEOWNERS changes for the `gitlab-org/gitlab` project.
 
 The Code Owners for the [CODEOWNERS file](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS) itself are managed with a rule in the file. For example:
 
-```
+```text
 CODEOWNERS @gitlab-org/development-leaders @gitlab-org/tw-leadership
 ```
 
 There are two ways to update the Code Owner(s) of the `CODEOWNERS` file:
+
 1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 1. Open a merge request to update the relevant lines. An existing Code Owner will have to approve the merge request. You are also encouraged to ping a security compliance team member for visibility.

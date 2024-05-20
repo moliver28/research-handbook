@@ -1,14 +1,7 @@
 ---
-aliases: /handbook/engineering/development/sec/govern/sp-ti-planning.html
-
 title: Security Policies and Threat Insights planning
+aliases: /handbook/engineering/development/sec/govern/sp-ti-planning.html
 ---
-
-# On this page
-
-
-
-
 
 ## How we do planning
 
@@ -24,6 +17,7 @@ The expectation is that all attendees have reviewed the issues prior to the star
 Attendees should add the carrot 🥕 emoji to signify that an issue has been reviewed in advance.
 
 Questions to be answered:
+
 1. Are requirements clear enough to understand intent of request?
 2. Do we know the boundaries of work to be accomplished?
 
@@ -67,6 +61,7 @@ Backlog refinement is the most important step to ensure an issue is ready to mov
 and that the issue will match everyone's expectations when the work is delivered.
 
 The goal of the refinement process is to ensure an issue is ready to be worked on by doing this:
+
 * Identify and resolve outstanding questions or discussions.
 * Identify missing dependencies (e.g. `backend` API).
 * Raise any questions, concerns or alternative approaches.
@@ -125,7 +120,6 @@ In order for someone to understand the issue and its implementation, they should
 read through all the comments. The important bits should be captured in the description as the
 [single source of truth](/handbook/communication/#issues).
 
-
 #### Bug Diagnosis
 
 Note the following differences when refining bugs:
@@ -136,7 +130,6 @@ Note the following differences when refining bugs:
 1. When you hit the time limit for refinement, it's ok to have uncertainty in the [Implementation
    Plan](#implementation-plan). It's sufficient just to direct where you expect the code change to be (high or low level).
 
-
 #### Refinement for Spikes
 
 1. Do not add weights[^3].
@@ -146,23 +139,21 @@ Note the following differences when refining bugs:
 [^3]: a spike doesn't directly add value to users so it shouldn't contribute to our velocity. The
       information delivered by a spike is what will be useful to deliver direct value to users.
 
-
 #### Refinement for Security Issues
 
 The [Security Developer process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md)
 can be daunting for first-timers. As part of refinement, ask for a volunteer to act as a "Security
 Issue Release Buddy".
 
-
 ### Failing Refinement
 
 An issue should fail refinement if it can not be worked on without additional information or
 decisions to be made. To fail an issue:
+
 1. Leave a comment on the issue that it can not be worked on, and highlights what still needs to
     be done.
 2. Unassign yourself if you can not contribute further to issue at the current time.
 3. Assign the `workflow::blocked` label.
-
 
 ### Weights
 
@@ -184,6 +175,7 @@ We are using the Fibonacci sequence for issue weights. Definitions of each numer
 Setting a `frontend-weight` or `backend-weight` label on an issue is optional, but ensure you set the **Weight** property on the issue during refinement.
 
 Examples of when it may be appropriate to set a weight label instead of / as well as setting the issue weight include:
+
 * On newly drafted issues, where we haven't yet fully determined the scope or if both frontend and backend are needed.
 * On bugs, where we don't directly assign a weight. The label can help provide guidance on complexity.
 
@@ -221,7 +213,7 @@ The issue verification should be done by someone else other than the MR author[^
 
 ## Planning for PTO
 
-We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [Govern stage PTO process](/handbook/engineering/sec/govern/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 ## Epic Engineering DRI
 
@@ -257,10 +249,10 @@ discovery process.
 **A:** Issues that require both frontend and backend work are usually broken into multiple implementation
 issues. An exception is when a single engineer agrees to work on both tech stacks.
 
-
 **Q:** What's the meaning of the emoji in issues?
 
 **A:** we use them to communicate certain steps in our process.
+
 * 🥕 you have reviewed an issue in preparation for [Planning
   Breakdown](#planning-breakdown).
 * 🥒 request to add a specification using [Gherkin

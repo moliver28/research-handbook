@@ -68,10 +68,10 @@ Steps to uplevel triaging process:
 | `@DataPlatformTriage` | Data Platform | | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation |
 | `@TableauTriage` | Analytics & Insights |  | `@Peter Empey`  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
 
-
 #### Data Platform weekly rotation schedule
 
 In FY23-Q4 the Data Platform Team ran an experiment to move from a daily triage schedule to a weekly triage schedule. At the end of the quarter evaluation showed that:
+
 - Average completion time of issues and incidents was trending **downwards**.
 - Close ratio of issues and incidents was trending **upwards**.
 
@@ -123,6 +123,7 @@ Data triagers are the first responders to requests and problems for the Data Pro
 - The Tableau triager is primarily responsible for acting as the primary owner of responses to ad hoc questions in the #data-tableau channel (others will continue to pitch in, but the person on triage will be the DRI) and facilitating Tableau Office Hours that week
 
 We will iterate on triage responsibilities to include additional activities such as extract refresh failure review, job failure review, etc. as the team expands.
+
 - For more information on responsibilities of a triager watch the [Data Engineer triage training session video](https://www.youtube.com/watch?v=0eGpgaQgEGg).
 
 ```text
@@ -161,12 +162,14 @@ The Central Data Team triager will create [an issue in the Data Team project](ht
 The Data Team follows the [incident definition](/handbook/engineering/infrastructure/incident-management) from Engineering: Incidents are anomalous conditions that result in—or may lead to—service degradation or outages. These events require human intervention to avert disruptions or restore service to operational status.
 
 Service degradation or outages in data can be seen as:
+
 - Data is not available
 - Data is not correct
 - Data is outdated
 - Data leakage
 
 This means the following events (not extensive) are likely to be incidents:
+
 - DBT model failed (and downstream models are skipped)
 - DBT test failure
 - DBT source freshness failure
@@ -177,6 +180,7 @@ This means the following events (not extensive) are likely to be incidents:
 #### Severity
 
 Depending on the nature and impact of the [incident](/handbook/business-technology/data-team/how-we-work/#incidents) a severity needs to be determined. Currently we don't have a decision matrix in place. To determine the severity, take the following aspects into consideration:
+
 - In case of a data source or data pipeline incident, check the [Data Source Tier](/handbook/business-technology/data-team/platform/#data-sources).
 - Number of users impacted
 - Impacting Trusted Data models
@@ -225,9 +229,11 @@ Although running a weekly rotation, we expect the triager to post an EOD announc
 GitLab.com databases do regularly change. In order not to break the daily operation, changes to the database needs to be tracked and checked. Any change to the GitLab.com database and CustomerDot database is tracked by the Danger Bot. The Data Team gets notified, by applying labels to the MR, if a change to the db/structure\.sql is made.
 
 A label `Data Warehouse::Impact Check` is added by the Danger Bot as call to action for the data team.
+
 - On triage, the Triager will [check](https://gitlab.com/groups/gitlab-org/-/merge_requests?scope=all&state=opened&label_name[]=Data%20Warehouse%3A%3AImpact%20Check&draft=no&approved_by_usernames[]=Any) for MRs with label `Data Warehouse::Impact Check`.
 
 The following actions are performed by Data Team Triager:
+
 - Every merge request (`MR`) will be judged
    - If `MR` contains the label `group::product intelligence` along with `Data Warehouse::Impact Check`, there are a couple of checks that need to do:
       - Because a new metric is added or the existing one is altered, the `Data team` should ensure the change will not break the `Service ping` extraction process
@@ -243,7 +249,6 @@ The following actions are performed by Data Team Triager:
    - If the `MR` does not contains the label `group::product intelligence` and it concerns changes to `SQL` structure:
       - Check if it will break the operation / data pipeline, following the Determination matrix below.
 
-
    - If any `MR` will cause a break in the operation, the label will be changed to `Data Warehouse::Not Impacted`.
    - If any `MR` will cause a break in the operation:
       - The Label will be changed to `Data Warehouse::Impacted`
@@ -253,7 +258,6 @@ The following actions are performed by Data Team Triager:
          - If impact is beyond data loading, this means the data is used downstream, an Analytics Engineer **must** be included to also determine the business impact of the upstream change.
       - According to the Merge of the GitLab.com MR, merge will be planned.
       - All stakeholders will be informed.
-
 
 #### Graphical representation of the process
 
@@ -292,7 +296,6 @@ flowchart TD
 ```
 
 </details>
-
 
 Determination matrix: **
 
@@ -422,7 +425,6 @@ See the [source contact spreadsheet](https://docs.google.com/spreadsheets/d/1VKv
 | More information of the setup [here](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#sheetload).  |
 | Possible steps, resolution and actions: <br> - In general you should just need to open the Google sheet which is failing and confirm the data has been re-populated. <br> - If you do not have access to the sheet contact @gitlab-data/engineers and confirm if anyone else does. |
 
-
 ### Model version_usage_data_unpacked stale
 
 When got an error for model `version_usage_data_unpacked` and error looks like:
@@ -498,7 +500,6 @@ Validate in [GCS storage](https://console.cloud.google.com/storage/browser/zuora
 
 **Step 5:-** Re-run the task from the airflow by clearing the task.
 
-
 ## Triage FAQ
 
 **Is Data Triage 24/7 support or shift where we need to support it for 24 hours?** <br>
@@ -506,6 +507,7 @@ We need to work in our normal working hour perform the list of task mentioned fo
 
 **If any issue is found do we directly jump to fix it in production or take it as part of the incident and solve it within the defined time?** <br>
 On the Triage day the data team member present will look for all the failures, questions or errors in:
+
 - The Slack-channels; #data-prom-alerts #analytics-pipelines and #data
 - Newly added [issues](https://gitlab.com/groups/gitlab-data/-/boards/1917859?&label_name[]=Priority%3A%3A1-Ops&label_name[]=Triage)
 
@@ -517,7 +519,6 @@ If the pipeline is broken it needs to be fixed, currently we are working on defi
 
 **If I work my normal hours on triage day i.e. till 11 AM of US timeline. What happens when the pipeline breaks post my normal hours and there is a delay in data availability?** <br>
 Yes, the benefit of our presence is that we have a wide overage of hours. If the person who is on Triage is ahead of US timelines, we have an advantage of solving issues timely. The downside is that we have not full coverage that day for US timelines. This is an attention point towards the future.
-
 
 ## Useful regex
 

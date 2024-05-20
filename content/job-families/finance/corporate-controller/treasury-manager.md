@@ -34,7 +34,6 @@ The Treasury Analyst is a [grade #6](/handbook/total-rewards/compensation/compen
 - Experience with major banking portals
 - Ability to work remote and independently
 
-
 ## Senior Treasury Analyst
 
 The Senior Treasury Analyst reports to the [Director Treasury](/job-families/finance/corporate-controller/treasury-manager/#director---treasury)

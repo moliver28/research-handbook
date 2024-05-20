@@ -21,7 +21,6 @@ title: "Abuse on GitLab.com"
    1. You can report abuse by using the **report abuse to admin** dropdown at the top right of the corner of the issue/comment/MR.
    1. Complete the form with detailed information to aid our team in reviewing the reported content.
 
-
 #### Email abuse@gitlab.com
 
 1. Detailed abuse reports can be reported via `abuse@gitlab.com`
@@ -76,14 +75,17 @@ Disruptive activity such as that listed above can be researched freely on your o
 - Below is a list of common abuse types;
 
 {{% details summary="Malware" %}}
+
 - Defined as software that is designed and distributed with the intention of causing damage to a computer, server, client, or computer network.
 {{% /details %}}
 
 {{% details summary="Commercial Spam" %}}
+
 - An account that has been created for the purpose of distributing spam in the form of advertising a product, service, item etc.
 {{% /details %}}
 
 {{% details summary="Malicious Content" %}}
+
 - An account that has been created for the purpose of distributing fraudulent, illegal, pirated or deceptive content.
   - Webpage Spam,
   - Phishing Pages
@@ -137,6 +139,7 @@ There are various types of Comment spam but is not limited to:
 {{% /details %}}
 
 {{% details summary="Copyright Abuse" %}}
+
 - URL redirects to popular events.
 - Copyright content of which the account holder does not hold the rights to distribute.
 {{% /details %}}

@@ -221,6 +221,7 @@ Once again, thank you for showing your interest, and all the best with your job 
 > ### Presentation Topics
 >
 > [This short discussion on our GitLab Unfiltered YouTube playlist](https://youtu.be/VU2BKjGoer4) provides an overview of the topics we'd love to see covered.
+>
 > 1. A short introduction: who you are, where you're based, your background, and why you're a UX Researcher.
 > 1. An overview of one *or* two research studies. We want to understand:
 >    - What the research questions are *or* the problems the research aims to address;

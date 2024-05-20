@@ -2,11 +2,11 @@
 title: "GitLab AI Ethics Principles for Product Development"
 ---
 
-GitLab is dedicated to integrating Artificial Intelligence (“AI”) throughout the software development lifecycle by responsibly incorporating AI into our comprehensive DevSecOps platform. We believe that AI features will further our [Efficiency value](https://handbook.gitlab.com/handbook/values/#efficiency) and continue to bring significant benefits and opportunities to re-shape the way we, and our customers, work. However, we also recognize that, without guardrails, AI features may give rise to ethical concerns.
+GitLab is dedicated to integrating Artificial Intelligence (“AI”) throughout the software development lifecycle by responsibly incorporating AI into our comprehensive DevSecOps platform. We believe that AI features will further our [Efficiency value](/handbook/values/#efficiency) and continue to bring significant benefits and opportunities to re-shape the way we, and our customers, work. However, we also recognize that, without guardrails, AI features may give rise to ethical concerns.
 
-We created these principles to guide our decision making as we continue to build AI features into GitLab and to ensure that these features properly embody [our core CREDIT values](https://handbook.gitlab.com/handbook/values/).
+We created these principles to guide our decision making as we continue to build AI features into GitLab and to ensure that these features properly embody [our core CREDIT values](/handbook/values/).
 
-We’re publishing these principles to stay true to our core [Transparency value](https://handbook.gitlab.com/handbook/values/#transparency). We're continuously working to build and improve our AI features, so, as with AI itself, these principles may change based on what we learn over time.  We will continue to review these principles and iterate as necessary to reflect the best practices in responsible development.
+We’re publishing these principles to stay true to our core [Transparency value](/handbook/values/#transparency). We're continuously working to build and improve our AI features, so, as with AI itself, these principles may change based on what we learn over time.  We will continue to review these principles and iterate as necessary to reflect the best practices in responsible development.
 
 ## 1. Avoid unfair bias
 
@@ -37,7 +37,7 @@ GitLab is a [DevSecOps](https://about.gitlab.com/topics/devsecops/) platform –
 
 ## 3. Prevent potentially harmful uses
 
-[Results](https://handbook.gitlab.com/handbook/values/#results) are one of our core CREDIT values and we are focused on delivering AI features that improve the results that both GitLab and our customers achieve. We should aim to do this responsibly and without causing overall harm.
+[Results](/handbook/values/#results) are one of our core CREDIT values and we are focused on delivering AI features that improve the results that both GitLab and our customers achieve. We should aim to do this responsibly and without causing overall harm.
 
 We’ve discussed some examples of the harm AI features can do above, but we know there are still many other AI-related harms – including those that have yet to be identified – that we should strive to address as well. Harm can arise in many different circumstances and includes, but isn’t limited to AI-generated output that promotes illegal activity, is misleading or deceptive, or is harassing, violent, or hateful. Our [Acceptable Use Policy](https://about.gitlab.com/handbook/legal/acceptable-use-policy/) provides further examples on prohibited, harmful uses of our AI features.
 
@@ -55,8 +55,8 @@ We should also ensure that our AI features’ processing of users’ personal da
 
 ## 5. Hold ourselves accountable
 
-GitLab believes in our core [Iteration value](https://handbook.gitlab.com/handbook/values/#iteration) and is dedicated to continuous improvement. AI systems are developing rapidly and so will the ways in which we leverage AI systems and mitigate related risks. GitLab’s development of AI features are conducted by team members with the relevant expertise in the technology, and its benefits and risks. We believe it is important to ensure our AI features are subject to human review and intervention.
+GitLab believes in our core [Iteration value](/handbook/values/#iteration) and is dedicated to continuous improvement. AI systems are developing rapidly and so will the ways in which we leverage AI systems and mitigate related risks. GitLab’s development of AI features are conducted by team members with the relevant expertise in the technology, and its benefits and risks. We believe it is important to ensure our AI features are subject to human review and intervention.
 
-We also strongly believe in our core [Collaboration value](https://handbook.gitlab.com/handbook/values/#collaboration), and it is GitLab’s mission to make it so that [everyone can contribute](https://about.gitlab.com/company/mission/). We welcome feedback from GitLab users and members of the public about our externally available AI features. We are committed to ensuring that feedback mechanisms are clear and consistent. We should also strive to share our AI ethics-related findings with others in the industry where possible.
+We also strongly believe in our core [Collaboration value](/handbook/values/#collaboration), and it is GitLab’s mission to make it so that [everyone can contribute](https://about.gitlab.com/company/mission/). We welcome feedback from GitLab users and members of the public about our externally available AI features. We are committed to ensuring that feedback mechanisms are clear and consistent. We should also strive to share our AI ethics-related findings with others in the industry where possible.
 
 We should aim to remain self-critical and continue to educate ourselves on AI developments. The AI landscape is changing rapidly, and we should work to ensure that these principles are continuously updated to reflect the industry’s latest risks and best practices.

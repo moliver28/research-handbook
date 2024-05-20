@@ -63,6 +63,7 @@ out. Here's how we do that.
 #### Slack notifications
 
 To update your notification settings on Slack:
+
 1. In Slack, right click on our channel [#spt_gg_pine](https://gitlab.slack.com/archives/C02SAEW4B24)
 1. Choose **Change notifications**
 1. Change **Send a notification for** to **All new messages**

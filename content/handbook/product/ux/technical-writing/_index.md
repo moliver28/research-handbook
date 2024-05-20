@@ -19,7 +19,6 @@ Anyone can contribute to the documentation. Follow our [GitLab documentation gui
 - A [Senior Fullstack Engineer, Technical Writing](/job-families/product/ux-fullstack-engineer/).
 - A [Technical Writing Director](/job-families/product/technical-writing-manager/#director-technical-writing).
 
-
 ## Contact Us
 
 To contact the entire team in a GitLab issue or MR, use `@gl-docsteam`.
@@ -136,6 +135,7 @@ Reference: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24952
 
 {{% alert title="Note" color="primary" %}}
 **If you were directed here from a documentation page's metadata:**
+
 - The metadata doesn't indicate developer ownership, but is meant to direct you to an appropriate technical writer.
 - If you are part of a development group and would like to add metadata to documentation pages, create an issue in [the Technical Writing repository](https://gitlab.com/gitlab-org/technical-writing) for discussion. Additional discussion is in [this issue](https://gitlab.com/gitlab-org/technical-writing/-/issues/547).
 - If the stage is listed as `none`, see if [there is a DRI](#assignments-to-other-projects-and-subjects) or use [roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg30&order=-1&hourFormat24=true&visible=maintainer%7Cdocs).
@@ -159,7 +159,7 @@ For collaboration in other projects and subjects:
 | [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content)                                               | {{< member-by-name "Suzanne Selhorn" >}}                                                                                                                              |
 | [Style Guide](#style-guide)                                                                                     | {{< member-by-name "Suzanne Selhorn" >}}                                                                                                                              |
 | [Testing/Vale/markdownlint](#testing)                                                                           | {{< member-by-name "Diana Logan" >}}                                                                                                                                  |
-| [Documentation handbook](/handbook/documentation/)                                                              | {{< member-by-name "Diana Logan" >}}                                                                                                                                  |
+| [Documentation handbook](/handbook/product/ux/technical-writing/documentation/)                                                              | {{< member-by-name "Diana Logan" >}}                                                                                                                                  |
 | [Technical Writing handbook](/handbook/engineering/ux/technical-writing/)                                       | {{< member-by-name "Susan Tacker" >}}                                                                                                                                 |
 | [Tutorials](https://docs.gitlab.com/ee/tutorials/)                                                              | {{< member-by-name "Kati Paizee" >}}                                                                                                                                  |
 | [What's new](https://docs.gitlab.com/ee/administration/whats-new.html)                                          | {{< member-by-name "Kati Paizee" >}}                                                                                                                                  |
@@ -238,7 +238,7 @@ To make or suggest changes to the dashboard, open an issue in the [Marketing Str
 
 ## Technical Writer PTO
 
-When Technical Writers take [paid time off](/handbook/paid-time-off/), the rest of the team provides coverage for them.
+When Technical Writers take [paid time off](/handbook/people-group/paid-time-off/), the rest of the team provides coverage for them.
 These team members may require additional context for requests. Requests are incorporated into the list of stage/group and
 feature priorities for *their* primary groups.
 
@@ -259,7 +259,7 @@ This issue can describe exactly who is providing coverage, for what, and by what
 
 When taking PTO, Technical Writers:
 
-1. Ensure their [out-of-office messaging](/handbook/paid-time-off/#communicating-your-time-off) reflects the available mechanisms for coverage.
+1. Ensure their [out-of-office messaging](/handbook/people-group/paid-time-off/#communicating-your-time-off) reflects the available mechanisms for coverage.
    It's important to keep GitLab.com statuses up-to-date to ensure:
 
    - [Reviewer Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg7&order=-1&visible=maintainer%7Cdocs) can make accurate suggestions.

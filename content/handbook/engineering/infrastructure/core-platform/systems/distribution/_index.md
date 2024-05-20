@@ -23,6 +23,7 @@ Omnibus packages, Helm Charts and Operators are primary deployment methods Distr
 
 ### Distribution Build
 
+<!-- markdownlint-disable MD051 -->
 [Team](#distribution-build-team)    |
 [Charter](#distributionbuild-charter)
 
@@ -39,8 +40,9 @@ Responsibilities:
 
 ### Distribution Deploy
 
-[Team](#distribution-deploy-team)    |
+[Team](#distribution-deploy-team)
 [Charter](#distributiondeploy-charter)
+<!-- markdownlint-enable MD051 -->
 
 Responsibilities:
 
@@ -218,7 +220,6 @@ graph TD
 
 ## All Projects
 
-
 | Name | Location | Description |
 | -------- | -------- | -------- |
 | Omnibus GitLab | [gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) | Build Omnibus packages with HA support for LTS versions of all major Linux operating systems such as Ubuntu, Debian, CentOS/RHEL, OpenSUSE, SLES |
@@ -230,7 +231,7 @@ graph TD
 | AWS images | [AWS marketplace](https://aws.amazon.com/marketplace/pp/B071RFCJZK?qid=1493819387811&sr=0-1&ref_=srh_res_product_title) | AWS image based on the omnibus-gitlab package |
 | Reference Architecture Tester | [gitlab-org/distribution/reference-architecture-tester](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester) | Spins up reference architecture based GitLab deployments using [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) and runs QA against them |
 | Omnibus GitLab Builder | [GitLab Omnibus Builder](https://gitlab.com/gitlab-org/gitlab-omnibus-builder) | Create environment containing build dependencies for the omnibus-gitlab package |
-| Licenses of bundled dependencies | [Licenses page on GL Pages](http://gitlab-org.gitlab.io/omnibus-gitlab/licenses.html)  | Webpage listing the bundled dependencies in each package along with their license.
+| Licenses of bundled dependencies | [Licenses page on GL Pages](http://gitlab-org.gitlab.io/omnibus-gitlab/licenses.html)  | Webpage listing the bundled dependencies in each package along with their license. |
 
 ## Working with the community
 
@@ -339,7 +340,7 @@ The following important areas of the GitLab Handbook impact how we work and are 
 - [Distribution workflow page](workflow.html)
 - [General engineering workflow page](/handbook/engineering/workflow/)
 - [How to reinforce our values](/handbook/values/#how-do-we-reinforce-our-values)
-- [Continue to serve smaller users](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns#serve-smaller-users) (internal only)
+- [Continue to serve smaller users](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#serve-smaller-users) (internal only)
 - [Promises to our Open Source community](/handbook/company/stewardship/#promises)
 - [How to follow our Product Principles](/handbook/product/product-principles/#how-we-follow-our-principles)
 - [Principles of our company strategy](/handbook/company/strategy/#principles)
@@ -362,7 +363,7 @@ The following GitLab Handbook areas are key in maintaining a healthy work/life b
 
 - [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second)
 - [Combating burnout, isolation, and anxiety in the remote workplace](/handbook/company/culture/all-remote/mental-health/)
-- [Recognizing Burnout](/handbook/paid-time-off/#recognizing-burnout)
+- [Recognizing Burnout](/handbook/people-group/paid-time-off/#recognizing-burnout)
 
 ## How to work with Distribution
 

@@ -5,22 +5,15 @@ description: "Explore how GitLab Professional Services certifies trainers to val
 
 ---
 
-
-
-
-
-
-
-## GitLab Certified Trainer Program
+# GitLab Certified Trainer Program
 
 To be able to scale the availability of GitLab learning offerings, [GitLab Professional Education Services](/handbook/customer-success/professional-services-engineering/education-services/) offers certification pathways for individuals who want to deliver GitLab standard instructor-led training (ILT) courses. The program is currently available to GitLab team members as well as selected [GitLab Certified Services Partners](/handbook/resellers/services/). Customers who order the GitLab Train the Trainer option for a standard ILT course can request participation in the program.
 
 The program provides a systematic approach to developing and validating the skills and knowledge needed to successfully deliver each course offered by GitLab Professional Education Services.
 
-### GitLab Certified Trainer - Candidate Process for Internal Trainers, Subcontractors, and Train the Trainer Customers
+## GitLab Certified Trainer - Candidate Process for Internal Trainers, Subcontractors, and Train the Trainer Customers
 
 GitLab Professional Education Services manages the certification process for all trainers to validate their readiness to deliver [Education Services offerings](https://about.gitlab.com/services/education/). Here are the steps required to earn the GitLab Certified Trainer certification for a given course.
-
 
 **Step 1**: Reach out to your manager if you are a GitLab team member, or GitLab representative if you are a partner or customer, to discuss the courses you would like to be certified by GitLab to deliver.
 
@@ -42,26 +35,26 @@ GitLab Professional Education Services manages the certification process for all
 GitLab Professional Education Services Manages the certification process in coordination with the Channel Sales Managers for trainers who work at our Channel Partners.
 Here are the steps required to obtain GitLab Certified Trainer Certification for a given course:
 
-<br>**Step 1**: Take the course as a student.
+**Step 1**: Take the course as a student.
 
-<br>**Step 2**: Pass the end-user certification assessments for the course.
+**Step 2**: Pass the end-user certification assessments for the course.
 
-<br>**Step 3**: Present proof++ that you are a professional trainer.
+**Step 3**: Present proof++ that you are a professional trainer.
 
-<br>**Step 4**: Onboard to GitLab LMS by registering as a Buyer [here](https://my.leapest.com/register) and request an onboarding session with support@edcast.com. In the GitLab Learn Marketplace, search for the appropiate [student kit](https://products.leapest.com/welcome).
+**Step 4**: Onboard to GitLab LMS by registering as a Buyer [here](https://my.leapest.com/register) and request an onboarding session with support@edcast.com. In the GitLab Learn Marketplace, search for the appropriate [student kit](https://products.leapest.com/welcome).
 
-<br>**Step 5**: Deliver the entire course to students, record the course, and receive an average rating of at least 4 out of 5* on the customer Training Survey+ at least twice by the end of 2 full quarters from the completion date of Step 4.
+**Step 5**: Deliver the entire course to students, record the course, and receive an average rating of at least 4 out of 5* on the customer Training Survey+ at least twice by the end of 2 full quarters from the completion date of Step 4.
 
-<br>**Step 6**: Submit your certified trainer application with your body of work (recorded teaching sessions and customer satisfaction surveys) and valid badge number to GitLab for review and certification award.
+**Step 6**: Submit your certified trainer application with your body of work (recorded teaching sessions and customer satisfaction surveys) and valid badge number to GitLab for review and certification award.
 
 If you are interested in becoming a Certified Trainer, please reach out to your GitLab Account Manager today!
 
-<br>**Footnotes**:
+### Footnotes:
 
-<br>+ GitLab will rely on the customer satisfaction scores to verify that certified trainer applicants who deliver courses in non-English languages are performing to expectations.
+\+ GitLab will rely on the customer satisfaction scores to verify that certified trainer applicants who deliver courses in non-English languages are performing to expectations.
 
-<br>* Surveys from students employed by the trainer’s organization will not be included in the calculation of this rating.
+\* Surveys from students employed by the trainer’s organization will not be included in the calculation of this rating.
 
-<br>++ Proof of professional trainer credentials can be one of the following: a resume with at least 1 year of professional training experience, certification/diploma from an external professional educator organization, and/or certified trainer certification from another IT vendor education services organization.
+++ Proof of professional trainer credentials can be one of the following: a resume with at least 1 year of professional training experience, certification/diploma from an external professional educator organization, and/or certified trainer certification from another IT vendor education services organization.
 
 

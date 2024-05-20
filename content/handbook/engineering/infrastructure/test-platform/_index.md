@@ -20,7 +20,7 @@ description: "Test Platform Sub-Department enables successful development and de
 
 ## Mission
 
-At GitLab [Quality is everyone's responsibility](https://handbook.gitlab.com/handbook/engineering/development/principles/#quality). The Test Platform sub-department's mission is to be a world class team that enables successful development and deployment of high quality GitLab software applications with [kaizen](https://www.techtarget.com/searcherp/definition/kaizen-or-continuous-improvement) workflow efficiency, reliability, productivity.
+At GitLab [Quality is everyone's responsibility](/handbook/engineering/development/principles/#quality). The Test Platform sub-department's mission is to be a world class team that enables successful development and deployment of high quality GitLab software applications with [kaizen](https://www.techtarget.com/searcherp/definition/kaizen-or-continuous-improvement) workflow efficiency, reliability, productivity.
 
 The Test Platform sub-department does this by focusing on:
 
@@ -60,7 +60,7 @@ Integral parts of this vision:
 
 ## FY25 Direction
 
-GitLab has a [Three-Year Strategy](/handbook/company/strategy/). Our [Yearlies](/handbook/company/yearlies/) connect our 3 year strategy to our shorter-term quarterly [Objectives and Key Results (OKRs)](https://handbook.gitlab.com/handbook/engineering/infrastructure-quality/okrs/). The sub-department direction is accomplished through these objectives (OKRs).
+GitLab has a [Three-Year Strategy](/handbook/company/strategy/). Our [Yearlies](/handbook/company/yearlies/) connect our 3 year strategy to our shorter-term quarterly [Objectives and Key Results (OKRs)](/handbook/engineering/infrastructure-quality/okrs/). The sub-department direction is accomplished through these objectives (OKRs).
 
 Our focus is to support our FY25 Yearlies. They can be found in the [internal handbook](https://internal.gitlab.com/handbook/company/yearlies/#fy25-yearlies).
 
@@ -213,11 +213,11 @@ GitLab is an all-remote, timezone distributed company as such we optimize for as
 
 ### Group Conversation
 
-[Group Conversations](/handbook/group-conversations/) take the information from the Key Review (plus any additional topics) and shared with all of GitLab. All Team Members are invited to participate in Group Conversations by adding questions and comments in the Group Conversation Agenda.
+[Group Conversations](/handbook/company/group-conversations/) take the information from the Key Review (plus any additional topics) and shared with all of GitLab. All Team Members are invited to participate in Group Conversations by adding questions and comments in the Group Conversation Agenda.
 
 Coordination of Infrastructure Group Conversation materials and facilitation of the discussion is a rotating role among the managers within the department.
 
-Group Conversation DRI [Schedule](/handbook/group-conversations/#current-schedule).
+Group Conversation DRI [Schedule](/handbook/company/group-conversations/#current-schedule).
 
 ### Week-in-review
 
@@ -386,22 +386,22 @@ We use Fibonacci Series for weights and limit the highest number to 8. The defin
 
 ## Performance Indicators
 
-The Executive Summary of all KPIs can be found [here](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#executive-summary).
+The Executive Summary of all KPIs can be found [here](/handbook/engineering/infrastructure/performance-indicators/#executive-summary).
 
 Test Platform owns and maintains the following:
 
 ### Key Performance Indicators
 
-- [S1 Open Customer Bug Age (OCBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s1-open-customer-bug-age-ocba)
-- [S2 Open Customer Bug Age (OCBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s2-open-customer-bug-age-ocba)
-- [Team Member Retention](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#quality-team-member-retention)
+- [S1 Open Customer Bug Age (OCBA)](/handbook/engineering/infrastructure/performance-indicators/#s1-open-customer-bug-age-ocba)
+- [S2 Open Customer Bug Age (OCBA)](/handbook/engineering/infrastructure/performance-indicators/#s2-open-customer-bug-age-ocba)
+- [Team Member Retention](/handbook/engineering/infrastructure/performance-indicators/#quality-team-member-retention)
 
 ### Regular Performance Indicators
 
-- [Average duration of end-to-end test suite](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#average-duration-of-end-to-end-test-suite)
-- [Average age of quarantined end-to-end tests](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#average-age-of-quarantined-end-to-end-tests)
-- [S1 Open Bug Age (OBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s1-open-bug-age-oba)
-- [S2 Open Bug Age (OBA)](https://handbook.gitlab.com/handbook/engineering/infrastructure/performance-indicators/#s2-open-bug-age-oba)
+- [Average duration of end-to-end test suite](/handbook/engineering/infrastructure/performance-indicators/#average-duration-of-end-to-end-test-suite)
+- [Average age of quarantined end-to-end tests](/handbook/engineering/infrastructure/performance-indicators/#average-age-of-quarantined-end-to-end-tests)
+- [S1 Open Bug Age (OBA)](/handbook/engineering/infrastructure/performance-indicators/#s1-open-bug-age-oba)
+- [S2 Open Bug Age (OBA)](/handbook/engineering/infrastructure/performance-indicators/#s2-open-bug-age-oba)
 
 ## Learning Resources
 

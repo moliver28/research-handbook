@@ -22,4 +22,3 @@ The table below lists different rule ids and situations in which they can be con
 | [security-products](https://gitlab.com/gitlab-org/security-products)  |  Gemnasium  | CVE-2020-14040     | CVE-2020-14040   | Vulnerable code found in imported libraries is dead-code and not called during run-time |
 | [security-products](https://gitlab.com/gitlab-org/security-products)  |  Gemnasium  | CVE-2020-29652     | CVE-2020-29652   | Vulnerable code found in imported libraries is dead-code; i.e. not called at run-time |
 | [security-products](https://gitlab.com/gitlab-org/security-products)  |  Gemnasium  | GMS-2019-2     | GMS-2019-2   | YAML content parsed is not user-generated |
-

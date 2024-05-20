@@ -89,4 +89,3 @@ documents that are being used to align team members across multiple iterations.
 Following our [Transparency](/handbook/values/#transparency)
 value, our [architecture roadmap](roadmap/) and
 [design documents](https://docs.gitlab.com/ee/architecture) are public.
-

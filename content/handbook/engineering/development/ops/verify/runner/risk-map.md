@@ -17,6 +17,7 @@ The goal of this page is to create, share and iterate the Risk Map for the Runne
 ### Goals
 
 Utilise the Risk Map as a tool to:
+
 - Understand the risks the team faces
 - Increase transparency on mitigation plans
 - Effectively allocate limited resources
@@ -43,9 +44,9 @@ Utilise the Risk Map as a tool to:
 | Quality/Infrastructure | Ability to effectively test at release                  | Escaped bugs   |   |   |    | Reference platforms and standard test harness                    |
 | Feature/Dependencies   | Bugs in third party dependencies                        | Bugs triage, escaped bugs, Failure to execute pipelines  | | | | Sufficient test coverage against latest supported version |
 | Feature/Compatibility  | Changes in third party dependencies                     | Bugs triage, escaped bugs, Failure to execute pipelines  | | | | Testing against multiple dependency versions |
-| Feature/Function       | Functional requirements not met for teams at scale      | Low customer satisfaction for key customers | | |
-| Team/Workload          | Toil work     | Small tasks that should take a few minutes take hours, putting a backlog on reviews/deliverables |              |             |
-| Team/Scaling           | Slow pipelines                            | Take a long time to get feedback on a pipeline and for maintainers to merge something  |              |             |
+| Feature/Function       | Functional requirements not met for teams at scale      | Low customer satisfaction for key customers | | | | |
+| Team/Workload          | Toil work     | Small tasks that should take a few minutes take hours, putting a backlog on reviews/deliverables |              |             | | |
+| Team/Scaling           | Slow pipelines                            | Take a long time to get feedback on a pipeline and for maintainers to merge something  |              |             || |
 | Feature/Delivery       | Technical debt                            | When we have so much technical debt it's hard to deliver a feature on time.  |              |             |||
 | Feature/Delivery       | Slow deployment process                   | Context switching on a feature that you merged weeks ago |              |             | | |
 | Feature/Dependencies   | Not updating 3rd party code               | Result in bugs or slow feature delivery since we have to update a bunch of dependencies first |    | | | |

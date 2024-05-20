@@ -38,10 +38,12 @@ Are you looking for security certifications/attestations for GitLab.com? Please 
 The following security certifications and attestations are currently on our roadmap for consideration and have not yet been formally committed or contracted:
 
 Year(s): FY25
+
 - [ISO/IEC 27001:2022](https://www.iso.org/isoiec-27001-information-security.html) Certification: Surveillance
 - [Cyber Essentials (Plus)](https://www.ncsc.gov.uk/cyberessentials/overview)
 
 Year(s): FY26
+
 - [SOC 2 Type 2 Report](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html):  +Privacy Critera
 - [ISO/IEC 27001:2022](https://www.iso.org/isoiec-27001-information-security.html) Certification: Recertification
 - [FedRAMP Moderate Authorization](https://www.fedramp.gov/)
@@ -49,6 +51,7 @@ Year(s): FY26
 - [Post-Quantum Cryptography migration plan](https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF) ([internal epic](https://gitlab.com/groups/gitlab-org/-/epics/11364))
 
 Under Consideration:
+
 - [ISO/IEC 27701:2019](https://www.iso.org/standard/71670.html)
 - [StateRAMP](https://stateramp.org/)
 - [DoD IL2 Provisional Authorization](https://public.cyber.mil/dccs/dod-cloud-authorization-process/)

@@ -74,7 +74,7 @@ Create a [webcast idea issue](https://gitlab.com/gitlab-com/marketing/demand-gen
 * [ ] [main salesforce campaign]()
 * [ ] [main marketo program]()
 * [ ] [ON24 webcast preview link]()
-* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
+* [ ] [Developer Relations Influenced](/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 
 ## :books: Issue creation
@@ -137,7 +137,7 @@ Partner webcasts are managed and moderated by Partner Marketing, working closely
 * [ ] [main salesforce campaign]()
 * [ ] [main marketo program]()
 * [ ] Sharing leads with our partner (check box if yes) - campaign manager to use *Form 2432: Partners*
-* [ ] [Developer Relations Influenced](https://handbook.gitlab.com/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
+* [ ] [Developer Relations Influenced](/handbook/marketing/developer-relations/content-effectiveness/#developer-relations-influenced-campaigns), Add the `DevRel-Influenced` label.
 
 /label ~"Partner Marketing" ~"Marketing Programs" ~"Webcast - GitLab Hosted" ~"Webcast" ~"mktg-status::wip" ~mktg-demandgen
 
@@ -241,7 +241,7 @@ Select and set up your presentation space. Pick a spot with good wifi, and we re
 
 ### Before the Presentation
 {: #speaker-before-presentation .no_toc}
-Try to get a good sleep the night before, and, if the presentation is in the morning, wake up early enough to run through your notes at least once. Review our [Positioning FAQ](/handbook/positioning-faq/), or keep the page handy in case you are asked in the Q&A about how GitLab compares to our competitors.
+Try to get a good sleep the night before, and, if the presentation is in the morning, wake up early enough to run through your notes at least once. Review our [Positioning FAQ](/handbook/marketing/positioning-faq/), or keep the page handy in case you are asked in the Q&A about how GitLab compares to our competitors.
 
 ## Technical Demo Series
 {: #technical-demo-series .gitlab-purple} <!-- DO NOT CHANGE THIS ANCHOR -->

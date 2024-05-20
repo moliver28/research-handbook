@@ -16,7 +16,6 @@ The Security Risk team manages an integrated Operational Risk Management program
 
  Visit the [StORM Program & Procedures]({{< ref "storm-program" >}}) handbook page for additional details, including a quick introduction to Risk Management at GitLab as well as information about the purpose, scope, and specific procedures executed as part of the program.
 
-
 {{% panel header="**Need to communicate a potential risk to the team?**" header-bg="warning" %}}
 Please refer to the [communication section of the StORM Program & Procedures]({{< ref "storm-program#communication-of-risks-to-the-security-risk-team" >}}) page for information on the various ways that team members can use to escalate potential risks to the Security Risk Team.
 {{% /panel %}}
