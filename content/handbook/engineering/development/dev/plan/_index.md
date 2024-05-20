@@ -166,7 +166,7 @@ We feel it is important to document and communicate, that changing of any item's
 
 #### Active Quarter OKRs
 
-FY25-Q1 Stage-level Objectives are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=devops%3A%3Aplan&label_name%5B%5D=division%3A%3AEngineering&not%5Blabel_name%5D%5B%5D=group%3A%3A%2a&type%5B%5D=objective&milestone_title=FY25-Q1&first_page_size=20) (internal).
+FY25-Q2 Stage-level Objectives are available [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=devops::plan&label_name%5B%5D=division::Engineering&type%5B%5D=objective&milestone_title=FY25-Q2&not%5Blabel_name%5D%5B%5D=group::knowledge&not%5Blabel_name%5D%5B%5D=group::project%20management&not%5Blabel_name%5D%5B%5D=group::product%20planning&not%5Blabel_name%5D%5B%5D=group::optimize&first_page_size=20) (internal).
 
 #### Previous Quarter OKRs
 
