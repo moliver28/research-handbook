@@ -8,7 +8,4 @@ This page describes the usage of a new label to indicate a specific issue or epi
 
 ### `~"Internal Request::AppSec Team"` Label
 
-
-#### When to Apply the Label
-
-
+The `~"Internal Request::AppSec Team"` label is applied to issues or epics that are specifically required by the AppSec team. It indicates that the AppSec team is the internal customer and needs this issue to be addressed. The most common usage example is for new security features or improvements are requested to be built into the product. It's also important to note that this is __not__ applicable for vulnerabilities (which use the `~bug::vulnerability` label). 
