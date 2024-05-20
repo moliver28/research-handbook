@@ -13,11 +13,26 @@ DIB is a core value and is something that is measured by [DIB Compentencies](htt
 
 **DRIs & Dates & Method of Communication:**
 
-- **E-Group Communications** - DRI: Sherida McCmullan Cadence: Quarterly Method of Communication: 
-- **VP+ Communications** - DRI: Sherida McCMullan Cadence: Quarterly Method of Communication: VP Direct Monthly Call
-- **Leadership DIB Council** - DRI: Liam McNally Cadence: Monthly Method of Communication: Leadership DIB Council Call  
-- **People Managers Communications** - DRI: Liam McNally Cadence: Monthly Method of Communication: #People-Mrgs+ Slack Channel
-- **Indvidual Contributors Communications** - DRI Marina Brownrigg Cadence: Monthly  Method of Communication: While you were Iterating, What’s Happening and DIB Slack Channels
+- **E-Group Communications** - 
+    - DRI: Sherida McCmullan 
+    - Cadence: Quarterly 
+    - Method of Communication: 
+- **VP+ Communications** - 
+    - DRI: Sherida McCMullan 
+    - Cadence: Quarterly 
+    - Method of Communication: VP Direct Monthly Call
+- **Leadership DIB Council** - 
+    - DRI: Liam McNally 
+    - Cadence: Monthly 
+    - Method of Communication: Leadership DIB Council Call  
+- **People Managers Communications** - 
+    - DRI: Liam McNally 
+    - Cadence: Monthly 
+    - Method of Communication: #People-Mrgs+ Slack Channel
+- **Indvidual Contributors Communications** - 
+    - DRI Marina Brownrigg 
+    - Cadence: Monthly  
+    - Method of Communication: While you were Iterating, What’s Happening and DIB Slack Channels
 
 
 **Example** 
@@ -37,5 +52,23 @@ We are approaching it this way to ensure that all team members have the same opp
 - **Leadership DIB Council** - Reminder: 1 week prior to LDC Call Content Ready & Reviewed: 3 days prior to the LDC Call: 1st week of the new month 
 - **People Managers Communications** - Reminder: 1 week prior to the start of the month Content Ready & Reviewed: 3 days prior to the start of the month Released: During the LDC Call
 - **Indvidual Contributors Communications** - Reminder: 1 week prior to the start of the month Content Ready & Reviewed: 3 days prior to the start of the month Released: 1st week of the new month
+
+### DIB Monthly Initiatives Call
+
+We host the DIB Monthly Initiatives Call to provide an opportunity for Team Members to be able to ask questions around DIB Initiatives, DIB Programming and general questions regarding DIB. We also provide a deck where we highlight everything that happened in the last month and what to look forward to. 
+
+**Process**
+
+### DIB in Q2 - PBPs Only
+
+To ensure strong collaboration with the People Business Partner team we provide a DIB in Q2 deck that highlights the strategic imperatives of the DIB Team and any collaborations that are required. 
+
+**Process**
+
+- **DRI** - Liam McNally, Manager, DIB
+    - Cadence: Quarterly
+    - Release for Collaboration from DIB Team: 2 weeks prior to the end of the quarter
+    - Delivered: First week of the new quarter
+    - Method of Communication: Leadership DIB Council Call DIB-PBP Slack Channel
 
 
