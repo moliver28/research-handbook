@@ -55,8 +55,8 @@ Our current customers include GitLab [AI-powered Duo feature teams:](https://doc
 3. [Govern: Threat Insights `Vulnerability explanation` team](https://about.gitlab.com/direction/govern/threat_insights/vulnerability_management/)
 4. [Root Cause Analysis](https://docs.gitlab.com/ee/user/ai_features.html#root-cause-analysis)
 5. [RAG Evaluation](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/search/)
-5. [Issue Summarization](https://docs.gitlab.com/ee/user/ai_features.html#issue-description-generation)
-6. [AI Powered: Group Custom Models](https://about.gitlab.com/direction/ai-powered/custom_models/)
+6. [Issue Summarization](https://docs.gitlab.com/ee/user/ai_features.html#issue-description-generation)
+7. [AI Powered: Group Custom Models](https://about.gitlab.com/direction/ai-powered/custom_models/)
 
 ## 🧪 Top FY25 Priorities
 
