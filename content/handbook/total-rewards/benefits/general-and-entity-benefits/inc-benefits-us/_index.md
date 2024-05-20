@@ -89,7 +89,11 @@ You can log into PlanSource through your Workday profile. There is an integratio
 
 Review the [PlanSource Login & Enrollment](https://drive.google.com/file/d/1py7C8ngTpVlYNSKG4If3yBw43dg3F6Ml/view?usp=sharing) Guide for additional details on logging in and electing benefits.
 
-#### Eligibility
+</details>
+
+<details markdown="1">
+
+<summary>Eligiblity</summary>
 
 Any active, regular, full-time team member working a minimum of 30 hours per week are eligible for all benefits. Benefits are effective on your date of hire. Others eligible for benefits include:
 
@@ -100,6 +104,9 @@ Any active, regular, full-time team member working a minimum of 30 hours per wee
 Note: If you and an eligible dependent (as defined above) are both employed by GitLab, you may only be covered by GitLab’s coverage once. This also applies to enrolling in either your own supplemental life insurance or supplemental spouse/dependent life insurance through your dependent who is employed by GitLab, but not both.
 
 A domestic partnership is an arrangement in which two people live together and are in a committed relationship without being legally married. Domestic partnerships are composed of two people of any gender, which includes male, female, or nonbinary people. If you have recently entered in to a Domestic Partnership, or your Domestic Partner goes through a Qualifying Life Event, you may add them to the GitLab plans as outlined in the instructions below. During the documentation step, you will be asked to fill out and submit a [Domestic Partner Affidavit](https://drive.google.com/file/d/11cV-WXJXu8G626muav2aJvpYS4CMleeE/view?usp=sharing) in to PlanSource. If you are adding your Domestic Partner during New Hire Enrollment or Open Enrollment, there is no need to fill out the Domestic Partnership Affidavit.
+
+
+</details>
 
 #### Qualifying Life Events
 
@@ -563,102 +570,7 @@ See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7m
 
 </details>
 
-## ARAG Legal Insurance
 
-Team Members can enroll in a Legal Insurance plan with ARAG during Open Enrollment and New Hire Enrollment.
-
-Legal Insurance provides:
-
-- Network attorney fees are 100% paid in full for most covered matters.
-- Save hundreds, possibly thousands, when dealing with common legal matters.
-- Work with a network of local, experienced attorneys who can provide advice, review documents and represent you.
-- Use DIY Docs®, an online tool that helps you create a variety of legally valid documents, including state-specific templates.
-
-Team Members can choose between Two Legal Plan Options:
-
-[UltimateAdvisor](https://drive.google.com/file/d/1rYFWTxDG8i8wIxQDuZMfFdFJ7_o9wwBG/view?usp=sharing), which provides comprehensive legal coverage, and [UltimateAdvisor Plus™](https://drive.google.com/file/d/1sXbG2plFRX5FQ8kpq299A9pacZ2HQEnf/view?usp=sharing), which offers even more legal protection and additional services like, financial education and counseling, tax services and services for parents/grandparents. With UltimateAdvisor Plus™, custody and alimony matters are also covered.
-
-**UltimateAdvisor® Legal Insurance:**
-$18.25 per month
-
-**UltimateAdvisor Plus™ Legal Insurance:**
-$20.90 per month
-
-</details>
-
-<details markdown="1">
-
-<summary>ARAG Resources</summary>
-
-
-- [Mobile Arag Legal App Flyer](https://drive.google.com/file/d/1MGpQ6C-uNwRZS3VrUkuTZ4d6vkIqNmOk/view?usp=sharing)
-- [Common Legal Needs ARAG can assist with](https://drive.google.com/file/d/1bFdnlVxmIzJ5Rixu94643AjwkZD-7OrB/view?usp=sharing)
-- [ARAG learning Center (Resources for ALL team members)](https://drive.google.com/file/d/1_91UohgMqY-fjRuQlTzISuKwXdVSdLNJ/view?usp=sharing)
-- [ARAG FAQ](https://drive.google.com/file/d/1x9MJVttezz0KOvW2IZXIkY7qtkIMk8p7/view?usp=sharing)
-- [Diversity, Equity, and Inclusion Benefits](https://drive.google.com/file/d/1HnfzAbxs-T1yx_r4vBmmUPaLIdQc9YEq/view?usp=sharing)
-
-</details>
-
-## Pet Insurance
-
-GitLab offers team members to join the MetLife group Pet Insurance plan. A MetLife Pet Insurance plan helps cover the costs when unexpected accidents or illnesses occur, so
-nothing gets in the way of caring for your pet when they need it most.
-
-Team Members can enroll in this benefit anytime after 2023-10-30.
-
-With MetLife Pet Insurance, you can get:
-
-- Flexible insurance plans that can cover the entire pet family with no breed exclusions
-- Freedom to visit any U.S. veterinarian and reimbursement up to 90% of the cost of services
-- Family plans covering multiple cats and dogs on one policy – a benefit exclusive to MetLife Pet2
-- 24/7 access to Telehealth Concierge Services for immediate assistance
-- Discounts up to 30% and additional offers on pet care, where available
-- Optional Preventive Care coverage4
-- Coverage of previously covered pre-existing conditions when switching providers
-
-For more details and steps on how to enroll please see the [MetLife Pet Insurance flyer](https://drive.google.com/file/d/11Q3NeSqNjqXMxSqADgNmKbGFCWTKLasH/view?usp=sharing) & [Enrollment Instructions](https://drive.google.com/file/d/1KDrCVNlTo9Kl8EZ3sp_HhtP2Cz36ZxTg/view?usp=sharing)
-
-## 529 Savings Plans
-
-Effective 2024, GitLab offers access to 529 plan investments to US team members so that you can use tax-advantaged savings for your child’s future education expenses.
-
-- Support your financial goals for you and your family
-- ScholarShare 529 Workplace Savings is a direct deposit program that can make it easy for you and them
-- This plan offers 100% tax-free growth on investment earnings and tax-free withdrawals for qualified expenses, making the most of every dollar you save
-- Online education resources available
-- Easy to manage - you and your family can manage online
-
-To learn more visit ScholarShare529.com/employer or email: workplace529@scholarshare.com
-
-Enroll anytime at [ScholarShare529](https://www.ScholarShare529.com) or call 800-544-5248.
-[ScholarShare Flyer Guide](https://drive.google.com/file/d/1D3k31fDxkeks7XigTa_Cn0_itIYoQW1A/view?usp=sharing) & [529 Overview](https://drive.google.com/file/d/1GXAdVLVJLsruj-2s9twpQ3p1c6CzOAFn/view?usp=sharing).
-
-Want more information?
-• Register for one of our live and interactive [webinars](https://www.scholarshare529.com/events) that fits your schedule, hosted monthly.
-• [Schedule a consultation](https://www.scholarshare529.com/appointments) with a 529 specialist.
-• Rollover an existing 529 into your ScholarShare 529 account. [Schedule an appointment](https://www.scholarshare529.com/appointments) to have a consultant assist you.
-
-## Student Loan Guidance & Tools
-
-GitLab offers a student loan guidance products, tools, and expert consultation services through SoFi.
-
-GitLab has partnered with Sofi to offer student loan guidance services, discounts & perks, and financial well-being products with SoFi:
-
-- A central location for team members to focus on financial well-being
-- Team members can review SoFi’s “Student Debt Workbook” and take a financial self-assessment to help navigate their student debt
-- Team members can schedule an appointment with a Sofi Student Loan Specialist to discuss their loans and situation
-- Delivers impactful discounts, preferred pricing, and exclusive offers on SoFi’s award-winning financial products
-- Arm yourself with knowledge on your journey to financial independence with access to Sofi’s financial library, tools, and resources
-
-Enroll anytime at [SoFi.com/GitLab](sofi.com/gitlab)
-[GitLab SoFi Flyer](https://drive.google.com/file/d/1kKZXeqwY96cHE4QpjrWjONSawwe-rkIf/view?usp=sharing)
-You’re eligible for an exclusive 0.25% rate discount* when you refinance your student loans through SoFi.com/GitLab, plus you could save big by locking in a lower rate.
-
-Refi with SoFi and you could
-
-- Save thousands with the member rate discount.
-- Lower your monthly payments or pay off your debt sooner with flexible terms.
-- No fees.
 
 ## 401k Plan
 
@@ -682,6 +594,44 @@ The company offers a 401k plan in which you may make voluntary pre-tax contribut
 1. If your employment with GitLab terminates and you are unable to access your Fidelity account due to this being connected to your GitLab email, please contact Fidelity at 800-835-5097 to have the email address on file updated.
 
 </details>
+
+### Navia - Health Reimbursement Arrangement (HRA)
+
+Effective 2022-10-01, GitLab offers a TravelHealth Reimbursement Arrangement (HRA) benefit to reimburse eligible team members and their dependents for transportation and lodging expenses related to travel while obtaining medical care not offered within 100 miles of the location the member resides.
+
+To be eligible for the Travel HRA benefit, team members and their dependents must be enrolled in one of the Cigna Medical Plans. Navia Benefit Solutions administers the HRA benefit.
+
+The HRA Benefit is split into a pre-tax account, in which team members can receive reimbursement of up to $2,100 USD for eligible pre-tax travel expenses, and a post-tax account of $900 USD for eligible travel expenses that exceed the pre-tax travel limits.
+
+Please see the [HRA Summary of Benefits and Coverage](https://drive.google.com/file/d/10qDNSuYWYqPXGMQCc8hE1bQ1FT6fxDkB/view?usp=sharing) document for information on coverage and the [Navia Navigation Guide](https://drive.google.com/file/d/1mTGCLX73yFTEbBWYhabaYwhM7kOsBKMx/view?usp=sharing) for information on claim eligibility and how to submit claims. Additional details can be found in our [Health Reimbursement Arrangement (HRA) FAQ](https://docs.google.com/document/d/1ZpVaDB62vG2djOOjYNBjHnoKVEvwcbELF9gMdwwM2Go/edit?usp=sharing)
+
+</details>
+
+<details markdown="1">
+
+<summary>How to Submit an HRA Claim</summary>
+
+
+To access the benefit, eligible team members can create an account on the [Navia Portal](https://app.naviabenefits.com/app/#/signup), first time users will click the Register button in the top right corner of the page.
+
+To register for online account access you will be requested to provide the following
+information:
+
+- Last Name, First Initial
+- E-mail Address
+- Employer Code: Please click the link to receive the [GitLab Employer Code](https://docs.google.com/document/d/1VTuyywdcPpfzMjQzVwaED_smzePzSgYxPwq_z-P1620/edit?usp=sharing)
+- Last four digits of your social security number/employeeID
+- Date of Birth
+- Choose a Username
+- Answer three security questions
+
+Reminder!  review and accept the Terms and Conditions. After clicking Submit for online access, you will receive an email confirmation with a temporary link to set your
+password to complete your registration.
+
+If you are a newly hired GitLab Team Member, please allow 1 month following your start date to access the portal. Should you require access to the portal earlier, please contact Total-Rewards@gitlab.com. Once you have access to the portal you can submit a claim directly with Navia, and view plan documents.
+
+</details>
+
 
 ### 401(k) Match
 
@@ -873,42 +823,6 @@ For terminated employees: Up to 90 days after the termination date.
 
 </details>
 
-### Navia - Health Reimbursement Arrangement (HRA)
-
-Effective 2022-10-01, GitLab offers a TravelHealth Reimbursement Arrangement (HRA) benefit to reimburse eligible team members and their dependents for transportation and lodging expenses related to travel while obtaining medical care not offered within 100 miles of the location the member resides.
-
-To be eligible for the Travel HRA benefit, team members and their dependents must be enrolled in one of the Cigna Medical Plans. Navia Benefit Solutions administers the HRA benefit.
-
-The HRA Benefit is split into a pre-tax account, in which team members can receive reimbursement of up to $2,100 USD for eligible pre-tax travel expenses, and a post-tax account of $900 USD for eligible travel expenses that exceed the pre-tax travel limits.
-
-Please see the [HRA Summary of Benefits and Coverage](https://drive.google.com/file/d/10qDNSuYWYqPXGMQCc8hE1bQ1FT6fxDkB/view?usp=sharing) document for information on coverage and the [Navia Navigation Guide](https://drive.google.com/file/d/1mTGCLX73yFTEbBWYhabaYwhM7kOsBKMx/view?usp=sharing) for information on claim eligibility and how to submit claims. Additional details can be found in our [Health Reimbursement Arrangement (HRA) FAQ](https://docs.google.com/document/d/1ZpVaDB62vG2djOOjYNBjHnoKVEvwcbELF9gMdwwM2Go/edit?usp=sharing)
-
-</details>
-
-<details markdown="1">
-
-<summary>How to Submit an HRA Claim</summary>
-
-
-To access the benefit, eligible team members can create an account on the [Navia Portal](https://app.naviabenefits.com/app/#/signup), first time users will click the Register button in the top right corner of the page.
-
-To register for online account access you will be requested to provide the following
-information:
-
-- Last Name, First Initial
-- E-mail Address
-- Employer Code: Please click the link to receive the [GitLab Employer Code](https://docs.google.com/document/d/1VTuyywdcPpfzMjQzVwaED_smzePzSgYxPwq_z-P1620/edit?usp=sharing)
-- Last four digits of your social security number/employeeID
-- Date of Birth
-- Choose a Username
-- Answer three security questions
-
-Reminder!  review and accept the Terms and Conditions. After clicking Submit for online access, you will receive an email confirmation with a temporary link to set your
-password to complete your registration.
-
-If you are a newly hired GitLab Team Member, please allow 1 month following your start date to access the portal. Should you require access to the portal earlier, please contact Total-Rewards@gitlab.com. Once you have access to the portal you can submit a claim directly with Navia, and view plan documents.
-
-</details>
 
 ### Cigna Supplemental Life Insurance/AD&D
 
@@ -935,6 +849,103 @@ Once complete, please send the form to `total-rewards@gitlab.com`. The Total Rew
 If you leave GitLab, all supplemental life insurance is not included in COBRA and will terminate on your last day at GitLab unless you choose to continue your or your spouse/children's life insurance directly with the carrier. Please contact the carrier (Cigna) for more information on premiums and setting this up.
 
 </details>
+
+## ARAG Legal Insurance
+
+Team Members can enroll in a Legal Insurance plan with ARAG during Open Enrollment and New Hire Enrollment.
+
+Legal Insurance provides:
+
+- Network attorney fees are 100% paid in full for most covered matters.
+- Save hundreds, possibly thousands, when dealing with common legal matters.
+- Work with a network of local, experienced attorneys who can provide advice, review documents and represent you.
+- Use DIY Docs®, an online tool that helps you create a variety of legally valid documents, including state-specific templates.
+
+Team Members can choose between Two Legal Plan Options:
+
+[UltimateAdvisor](https://drive.google.com/file/d/1rYFWTxDG8i8wIxQDuZMfFdFJ7_o9wwBG/view?usp=sharing), which provides comprehensive legal coverage, and [UltimateAdvisor Plus™](https://drive.google.com/file/d/1sXbG2plFRX5FQ8kpq299A9pacZ2HQEnf/view?usp=sharing), which offers even more legal protection and additional services like, financial education and counseling, tax services and services for parents/grandparents. With UltimateAdvisor Plus™, custody and alimony matters are also covered.
+
+**UltimateAdvisor® Legal Insurance:**
+$18.25 per month
+
+**UltimateAdvisor Plus™ Legal Insurance:**
+$20.90 per month
+
+</details>
+
+<details markdown="1">
+
+<summary>ARAG Resources</summary>
+
+
+- [Mobile Arag Legal App Flyer](https://drive.google.com/file/d/1MGpQ6C-uNwRZS3VrUkuTZ4d6vkIqNmOk/view?usp=sharing)
+- [Common Legal Needs ARAG can assist with](https://drive.google.com/file/d/1bFdnlVxmIzJ5Rixu94643AjwkZD-7OrB/view?usp=sharing)
+- [ARAG learning Center (Resources for ALL team members)](https://drive.google.com/file/d/1_91UohgMqY-fjRuQlTzISuKwXdVSdLNJ/view?usp=sharing)
+- [ARAG FAQ](https://drive.google.com/file/d/1x9MJVttezz0KOvW2IZXIkY7qtkIMk8p7/view?usp=sharing)
+- [Diversity, Equity, and Inclusion Benefits](https://drive.google.com/file/d/1HnfzAbxs-T1yx_r4vBmmUPaLIdQc9YEq/view?usp=sharing)
+
+</details>
+
+## Pet Insurance
+
+GitLab offers team members to join the MetLife group Pet Insurance plan. A MetLife Pet Insurance plan helps cover the costs when unexpected accidents or illnesses occur, so
+nothing gets in the way of caring for your pet when they need it most.
+
+Team Members can enroll in this benefit anytime after 2023-10-30.
+
+With MetLife Pet Insurance, you can get:
+
+- Flexible insurance plans that can cover the entire pet family with no breed exclusions
+- Freedom to visit any U.S. veterinarian and reimbursement up to 90% of the cost of services
+- Family plans covering multiple cats and dogs on one policy – a benefit exclusive to MetLife Pet2
+- 24/7 access to Telehealth Concierge Services for immediate assistance
+- Discounts up to 30% and additional offers on pet care, where available
+- Optional Preventive Care coverage4
+- Coverage of previously covered pre-existing conditions when switching providers
+
+For more details and steps on how to enroll please see the [MetLife Pet Insurance flyer](https://drive.google.com/file/d/11Q3NeSqNjqXMxSqADgNmKbGFCWTKLasH/view?usp=sharing) & [Enrollment Instructions](https://drive.google.com/file/d/1KDrCVNlTo9Kl8EZ3sp_HhtP2Cz36ZxTg/view?usp=sharing)
+
+## 529 Savings Plans
+
+Effective 2024, GitLab offers access to 529 plan investments to US team members so that you can use tax-advantaged savings for your child’s future education expenses.
+
+- Support your financial goals for you and your family
+- ScholarShare 529 Workplace Savings is a direct deposit program that can make it easy for you and them
+- This plan offers 100% tax-free growth on investment earnings and tax-free withdrawals for qualified expenses, making the most of every dollar you save
+- Online education resources available
+- Easy to manage - you and your family can manage online
+
+To learn more visit ScholarShare529.com/employer or email: workplace529@scholarshare.com
+
+Enroll anytime at [ScholarShare529](https://www.ScholarShare529.com) or call 800-544-5248.
+[ScholarShare Flyer Guide](https://drive.google.com/file/d/1D3k31fDxkeks7XigTa_Cn0_itIYoQW1A/view?usp=sharing) & [529 Overview](https://drive.google.com/file/d/1GXAdVLVJLsruj-2s9twpQ3p1c6CzOAFn/view?usp=sharing).
+
+Want more information?
+• Register for one of our live and interactive [webinars](https://www.scholarshare529.com/events) that fits your schedule, hosted monthly.
+• [Schedule a consultation](https://www.scholarshare529.com/appointments) with a 529 specialist.
+• Rollover an existing 529 into your ScholarShare 529 account. [Schedule an appointment](https://www.scholarshare529.com/appointments) to have a consultant assist you.
+
+## Student Loan Guidance & Tools
+
+GitLab offers a student loan guidance products, tools, and expert consultation services through SoFi.
+
+GitLab has partnered with Sofi to offer student loan guidance services, discounts & perks, and financial well-being products with SoFi:
+
+- A central location for team members to focus on financial well-being
+- Team members can review SoFi’s “Student Debt Workbook” and take a financial self-assessment to help navigate their student debt
+- Team members can schedule an appointment with a Sofi Student Loan Specialist to discuss their loans and situation
+- Delivers impactful discounts, preferred pricing, and exclusive offers on SoFi’s award-winning financial products
+- Arm yourself with knowledge on your journey to financial independence with access to Sofi’s financial library, tools, and resources
+
+Enroll anytime at [SoFi.com/GitLab](sofi.com/gitlab)
+[GitLab SoFi Flyer](https://drive.google.com/file/d/1kKZXeqwY96cHE4QpjrWjONSawwe-rkIf/view?usp=sharing)
+You’re eligible for an exclusive 0.25% rate discount* when you refinance your student loans through SoFi.com/GitLab, plus you could save big by locking in a lower rate.
+
+Refi with SoFi and you could
+
+- Save thousands with the member rate discount.
+- Lower your monthly payments or pay off your debt sooner with flexible terms.
+- No fees.
 
 ## Team Member Discount Platforms
 
