@@ -268,7 +268,7 @@ There are some key lessons that the Data Team learned about testing our MR datab
 
 1. The author of the MR shares the MR database with you.
 2. Open up a development copy of the workbook or data source you want to test the changes on.
-   1. ***Make sure you are using a development copy and not working on the published data source!***
+   1. ***Make sure you are using a development copy and not working on the published data source!*** This is important because at some point in the future, when the MR is merged, you will no longer be able to access the data source that points to the MR db - even to update it to repoint to PROD. Hence it is important that you leave the original data source untouched to avoid this issue.
 3. Open up the data connections pane.
 4. Find the MR database in the left-hand connections window/dropdown.
 5. Replace the PROD tables with the MR database tables.
