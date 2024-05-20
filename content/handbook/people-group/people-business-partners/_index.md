@@ -22,7 +22,6 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 | Contact | Division - Department |
 |-------------------|------------|
 | Anjali Kaufmann   | G&A: People Group, Finance, LACA  |
-| Denise Parsonage  | Marketing: Awareness, Brand Activation, Campaigns, CMO Executive, Communications, Developer Relations, Content Marketing, Digital Design, Digital Marketing, Field Marketing, Marketing Ops, Partner Marketing, Sales Development, and Search Marketing |
 | Carolyn Bednarz   | Sales & Marketing |
 | Carlie Russell    | Sales: Solutions Architecture, CSM & Renewals, Professional Services, and Partners |
 | Lauren Tepper     | Sales: Global Field Operations, Global Self Serve, Americas and Public Sector Sales   |
