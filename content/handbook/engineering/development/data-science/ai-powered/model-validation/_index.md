@@ -40,7 +40,7 @@ We first assess the models and the feature on a large-scale dataset to understan
 
 #### Evaluation as a Tool for Software Engineers to Experiment as They Iterate and Build AI Features
 
-After the initial assessment, we have a dynamic dataset pull from daily runs so feature teams can run the datasets with every code and prompt change via CLI. This helps them understand how changes in code/prompt/system can impact quality based on the variance between control (before change) and test (after change) code on a primary metric of choice.
+After the initial assessment, we have a dynamic dataset pull from scheduled runs so feature teams can run the datasets with every code and prompt change via CLI. This helps them understand how changes in code/prompt/system can impact quality based on the variance between control (before change) and test (after change) code on a primary metric of choice.
 
 #### Documentation as We Use New Ways and Processes for GenAI Evaluation
 
@@ -54,6 +54,7 @@ Our current customers include GitLab [AI-powered Duo feature teams:](https://doc
 2. [Create: Code Creation team](https://about.gitlab.com/direction/create/code_creation/)
 3. [Govern: Threat Insights `Vulnerability explanation` team](https://about.gitlab.com/direction/govern/threat_insights/vulnerability_management/)
 4. [Root Cause Analysis](https://docs.gitlab.com/ee/user/ai_features.html#root-cause-analysis)
+5. [RAG Evaluation](https://handbook.gitlab.com/handbook/engineering/infrastructure/core-platform/data_stores/search/)
 5. [Issue Summarization](https://docs.gitlab.com/ee/user/ai_features.html#issue-description-generation)
 6. [AI Powered: Group Custom Models](https://about.gitlab.com/direction/ai-powered/custom_models/)
 
@@ -72,14 +73,19 @@ Further, there are novel research topics, and we would love for GitLab to be rep
 
 ## 📚 Prompt Library (Data)
 
-We create large libraries (prompts as data) that serve as a proxy to production. We do this by understanding the various complexities of tasks and methods, allowing us to holistically evaluate a set of data beyond a few tests and more as a performance in production. The current tasks we have included or are planning to include in the prompt library are as follows:
+We create large libraries (prompts as data) that serve as a proxy to production. We do this by understanding the various complexities of tasks and methods, allowing us to holistically evaluate a set of data beyond a few tests and more as a performance in production. We do this with a combination of industry benchmarks and customised dataset for various tasks. The current tasks we have included or are planning to include in the prompt library are as follows:
 
 1. Code Completion
 2. Code Generation
-3. Issue/Epic
-4. Documentation Dataset
-5. /slash Commands (In Progress)
-6. Vulnerability Explanation (To be added)
+3. Code Explantation
+4. Issue/Epic Question Answering
+5. GitLab Documentation Question Answering Dataset
+6. /slash Commands: /explain, /test, and /refactor (In Progress)
+7. Vulnerability Explanation (To be added)
+8. Root Cause Analysis (To be added)
+9. Feature Summarization (To be added)
+
+We further are planning to build customised workflow dataset particularly for System ( RAG , Agent) and Contextual Evaluation ( text follow up questions)
 
 ## 🔍 Metrics
 
