@@ -168,16 +168,31 @@ The Infrastructure department hires for a number of different technical speciali
 ## Common Links
 
 - [How we do Incident Management for GitLab.com][incident]
-- [status]
+- [GitLab.com status information](https://status.gitlab.com)
 
-| **General Issue Trackers**                      | **General Slack Channels** | **Team Slack Channels** | **Resources**                                        |
-|-------------------------------------------------|----------------------------|-------------------------|------------------------------------------------------|
-| [Infrastructure issue queue][infra]             | [#production]              | [#g_delivery]           | [Production Architecture][architecture]              |
-| [Production incidents, and changes][production] | [#infrastructure-lounge]   | [#g_scalability]        | [Operational Runbooks][runbooks]                     |
-| [Delivery][delivery]                            | [#incident-management]     |                         | [Environments][environments]                         |
-| [Scalability][scalability]                      | [#announcements]           |                         | [Monitoring][monitoring]                             |
-|                                                 | [#feed_alerts-general]     |                         | [Readiness Reviews][readiness]                       |
-|                                                 |                            |                         | [Infrastructure Standards][infrastructure-standards] |
+### Slack Channels
+
+- [#production]           
+- [#infrastructure-lounge]
+- [#incident-management]  
+- [#announcements]        
+- [#feed_alerts-general]                          
+
+### General Issue Trackers
+
+- [Infrastructure issue queue][infra]
+- [Production incidents, and changes][production]
+- [Delivery][delivery]
+- [Scalability][scalability]
+
+### Resources
+
+- [Production Architecture][architecture]
+- [Operational Runbooks][runbooks]
+- [Environments][environments]
+- [Monitoring][monitoring]
+- [Readiness Reviews][readiness]
+- [Infrastructure Standards][infrastructure-standards]
 
 ## Other Pages
 
@@ -187,7 +202,6 @@ The Infrastructure department hires for a number of different technical speciali
 - [Infrastructure careers and internships][interning]
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
 
-[status]: https://status.gitlab.com/
 [incident]: /handbook/engineering/infrastructure/incident-management/
 [infra]: https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues
 [production]: https://gitlab.com/gitlab-com/gl-infra/production/issues/
