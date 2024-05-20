@@ -10,8 +10,7 @@ The AI Model Validation team mission is to support and improve the integrity, re
 
 ## Direction
 
-[Group direction](https://about.gitlab.com/handbook/engineering/development/data-science/ai-powered/model-validation/).
-We have two categories under this group. Category AI Evaluation and Category AI Research. This group followed under the 
+[Group direction](https://about.gitlab.com/handbook/engineering/development/data-science/ai-powered/model-validation/): We have two categories under this group. Category AI Evaluation and Category AI Research. This group followed under the 
 stage AI-Powered.
 
 ## 🚀 Team members
@@ -30,24 +29,27 @@ The team is composed of [ML engineers](https://handbook.gitlab.com/job-families/
 ## ☎️  How to contact us
 
 - Tag a team member in a merge request or issue
-- Slack Channel: [`#g_ai_model_validation`][slack]
+- Slack Channel: [`#g_ai_model_validation`](https://gitlab.enterprise.slack.com/archives/C05CJ1T3P0W)
 
 ## Customer outcomes we are driving for GitLab-Duo
 
 The customer outcomes we are focused on can be divided into themes below
 
 #### Benchmark for Quality and Performance Metric of Foundational Model and Feature
+
 We first assess the models and the feature on a large-scale dataset to understand and benchmark quality metrics from a set of metrics. We provide dashboards for diagnostic purposes as well as a continuous daily run dashboard so we can track how the features are performing based on the benchmark.
 
 #### Evaluation as tool for Software Engineer to experiment as they iterate and build AI Features
+
 After the initial assessment, we have a dynamic dataset pull from daily runs so feature teams can run the datasets with every code and prompt change via CLI. This helps them understand how changes in code /prompt/system can impact quality based on the variance between control (before change) and test (after change) code on a primary metric of choice.
 
 #### Documentation as we use new ways and processes as we embrace GenAI
+
 We are further iterating and documenting an evaluation-centric way of building GenAI features. This is mainly for the internal team, and the epic to track this can be found here.
 
 Our current customers include GitLab [AI powered Duo feature teams:](https://docs.gitlab.com/ee/user/ai_features.html)
 
-The immediate customers include: 
+**The immediate customers include:**
 
 1. [AI Powered: Duo-Chat team](https://about.gitlab.com/direction/ai-powered/duo_chat/)
 2. [Create: Code Creation team](https://about.gitlab.com/direction/create/code_creation/)
@@ -55,7 +57,6 @@ The immediate customers include:
 4. [Root Cause Analysis](https://docs.gitlab.com/ee/user/ai_features.html#root-cause-analysis)
 5. [Issue Summarization](https://docs.gitlab.com/ee/user/ai_features.html#issue-description-generation)
 6. [AI Powered: Group Custom Models](https://about.gitlab.com/direction/ai-powered/custom_models/)
-
 
 ## 🧪 Top FY25 Priorities
 
@@ -73,7 +74,8 @@ Further there are novel research topics and we would love GitLab presented in th
 
 ## 📚 Prompt Library ( Data)
 
-We create large libraries ( prompts as data) that serves as a proxy to production. We do this by understanding various complexities of tasks and methods so we can holistically evaluate a set of data beyond few tests but more as a performance in production. The currents tasks we have included or are planning in the immediate team  in the prompt library would be 
+We create large libraries ( prompts as data) that serves as a proxy to production. We do this by understanding various complexities of tasks and methods so we can holistically evaluate a set of data beyond few tests but more as a performance in production. The currents tasks we have included or are planning in the immediate team  in the prompt library are as below.
+
 1. Code Completion 
 2. Code Genertation
 3. Issue/Epic
@@ -145,8 +147,8 @@ Our current OKR can bbe viewed [here](https://gitlab.com/gitlab-com/gitlab-OKRs/
 
 We have two major epic that can be subdivided into further sub-epics and issues. The themes are based on the Category AI Evaluation and Category AI Research 
 
-- [Category AI Evaluation ](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/-/epics/19)
-- [Category AI Research](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/ai-research/-/epics/1)
+* [Category AI Evaluation ](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/-/epics/19)
+* [Category AI Research](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/ai-research/-/epics/1)
 
 ## 🔄 How to work with us? 
 
@@ -159,6 +161,7 @@ Further , we iterate and act more quickly with feedback and [here](https://gitla
 
 
 ## 📝 Dashboards and additional Resources (internal only)
+
 - [Gitlab Duo-Chat Evaluation Dashboard](https://lookerstudio.google.com/u/0/reporting/151b233a-d6ad-413a-9ebf-ea6efbf5387b/page/ay5gB)
 - [GitLab Code Completion Foundational Model Dashboard](https://dashboards.gitlab.net/d/fecc5b69-8e38-4b4e-9fed-1c837f9c2b7m/code-completion-ai-evaluations-v1?orgId=1)
 - [GitLab Code Suggestion Dashboard](https://lookerstudio.google.com/u/0/reporting/4a80a4ce-441c-4fb1-9454-ab5523d1cffc/page/ay5gB)
@@ -168,9 +171,10 @@ Further , we iterate and act more quickly with feedback and [here](https://gitla
 - [Prompt Template for Models and Tasks Evaluated](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/tree/main/data/prompts?ref_type=heads)
 - [Genenral Guidance of A/B Testing using CEF](https://docs.google.com/document/d/18c3GYxelFbVJOIjibshBIxT0orxDdNxqQM3RbZ3j34A/edit#heading=h.ek176csspj1b)
 
-## 🔗 Additional Resources 
+## 🔗 Additional Resources
+
 - [GitLab Validation Metrics](https://about.gitlab.com/direction/ai-powered/ai_model_validation/ai_evaluation/metrics/)
-- [ Gitlab Evaluation Procedure](https://about.gitlab.com/direction/ai-powered/ai_model_validation/ai_evaluation/procedures/)
+- [Gitlab Evaluation Procedure](https://about.gitlab.com/direction/ai-powered/ai_model_validation/ai_evaluation/procedures/)
 - [Blog: How we de validate and test at scale](https://about.gitlab.com/blog/2024/05/09/developing-gitlab-duo-how-we-validate-and-test-ai-models-at-scale/)
 
 **Required labels**
