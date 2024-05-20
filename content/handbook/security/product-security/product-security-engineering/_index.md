@@ -31,7 +31,7 @@ To reach the Product Security Engineering team, team members can:
 
 ## Runbooks
 
-Please see our [Runbooks page][1].
+Please see our [Runbooks page][./runbooks].
 
 ## Workflow
 
@@ -296,5 +296,3 @@ Labels are a driving force behind our metrics collection. The appropriate label 
 | Tooling Integration: work done as part of the effort to integrate functionality from custom in-house tooling into a GitLab product | `~ProdSecEngMetric::Tooling Integration` | Epics |
 | Custom Tooling: work performed to build, maintain, or augment outside-of-the-product custom tooling needed to satisfy Product Security requirements | `~ProdSecEngMetric::Custom Tooling` | Issues and Merge Requests, sometimes Epics |
 | Pending: the work type isn't entirely clear yet, but we don't want to block progress for now | `~ProdSecEngMetric::Pending` | Issues, Merge Requests, and Epics |
-
-[1]: {{< ref "./runbooks" >}}
