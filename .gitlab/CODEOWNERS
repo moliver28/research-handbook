@@ -199,6 +199,9 @@
 /content/handbook/engineering/infrastructure/team/scalability/ @rnienaber @kwanyangu @lmcandrew @marin
 /content/handbook/engineering/monitoring/ @marin @meks
 /content/handbook/engineering/releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
+/content/handbook/engineering/gitlab-com/ @marin @meks
+/content/handbook/engineering/gitlab-com/policies @marin @meks
+/content/handbook/engineering/gitlab-com/policies/monitoring @marin @meks
 
 ^[Eng-Quality-department]
 /content/handbook/engineering/automation.md @meks @rymai
