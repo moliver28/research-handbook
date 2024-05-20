@@ -643,4 +643,3 @@ Note: Work is ongoing on [migration helpers](https://gitlab.com/gitlab-org/gitla
 #### Plan xMAU
 
 - [Product Planning Performance Indicators](/handbook/product/performance-indicators/)
-
