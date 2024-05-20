@@ -8,7 +8,8 @@ title: "Application Security - Dogfooding and Product Feature Requests"
 ### Purpose
 
 
-### Label
+### `~"Internal Request::AppSec Team"` Label
+
 
 #### When to Apply the Label
 
