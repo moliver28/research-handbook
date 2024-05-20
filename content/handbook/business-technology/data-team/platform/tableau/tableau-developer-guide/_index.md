@@ -300,7 +300,7 @@ It is recommended you only test the logic and totals of the columns being added/
 
 If you try saving the development copy that is pointing to your development data source, you will be unable to access that data source.
 
-### AVOIDING ERRORS
+### Avoiding Errors
 
 To repeat: once your Merge Request gets merged, any Tableau Data Source which is trying to connect to that MR database will become inaccessible. You will not be able to even open the data source to edit it - in Cloud, Desktop, a duplicate version, or via any other method.
 
