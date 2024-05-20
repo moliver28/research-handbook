@@ -143,8 +143,7 @@ This role includes all of the responsibilities of the previous level, plus:
 - Plan and operate in a transparent manner for cross-organizational visibility and be a leader in collaborating with other marketing and non-marketing teams
 - Introduce new replicable processes or process improvements, as well as evaluation and implementing new tools to help scale the team
 - Responsible for decision-making and process creation for the Global Field Marketing Coordinator team (with Regional - Sr. Manager input and approval), as well as leading enablement, training, and sharing of best practices with the team regularly
-- Act as a DRI/Lead on key cross-functional projects globally with teams such as Procurement, Finance, Marketing Operations, Legal, Channel Marketing, etc. 
-
+- Act as a DRI/Lead on key cross-functional projects globally with teams such as Procurement, Finance, Marketing Operations, Legal, Channel Marketing, etc.
 
 ### Requirements
 
