@@ -212,6 +212,8 @@ bastion-01-gstg  $ ./script/migrate
 
 Maintenance changes require change reviews. The reviews are intended to bring to bear the **collective** experience of the team while providing a forum for pointing out potential risks for any given change. Consider using multiple reviewers for ~C1 or ~C2 Change requests.
 
+If you are not sure who to request a review from, ask for an SRE to review the change request in [#production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N).
+
 Fill each of the items under the `Change Reviewer checklist` based on the change criticality label assigned to the issue.
 
 ## Communication Channels
