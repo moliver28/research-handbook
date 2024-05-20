@@ -380,7 +380,7 @@ Specifically:
 - These saved searches will pull the relevant decision-makers per segment, and through ZoomInfo workflows do the following:
 
      - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
-     - Automatically add MM/ENTG accounts to the [SFDC dashboard here.] (https://gitlab.my.salesforce.com/01ZPL000000kAPN)
+     - Automatically add MM/ENTG accounts to the [SFDC dashboard here.](https://gitlab.my.salesforce.com/01ZPL000000kAPN)
      - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B6 - My 6QA Leads.`
 
 ## Qualified
