@@ -106,20 +106,20 @@ We have a globally distributed team spanning across EMEA, AMER, and APAC. We hol
 #### Team Meetings
 
 1. **Weekly Team Sync**
-   * **When:** Every Wednesday, 21:00 GMT
-   * **What:** This meeting is dedicated to working on the vision and roadmap. The Engineering Manager and Product Manager ideate, discuss, and assign work as needed for the entire team.
+   - **When:** Every Wednesday, 21:00 GMT
+   - **What:** This meeting is dedicated to working on the vision and roadmap. The Engineering Manager and Product Manager ideate, discuss, and assign work as needed for the entire team.
 
 2. **Weekly Engineering Sync**
-   * **When:** Every Tuesday, 21:00 GMT
-   * **What:** This meeting is dedicated to the engineering team for the purpose of syncing up on progress, discussing technical challenges, and planning the upcoming week and milestones. This is also to ideate on future milestones and building validation as a product.
+   - **When:** Every Tuesday, 21:00 GMT
+   - **What:** This meeting is dedicated to the engineering team for the purpose of syncing up on progress, discussing technical challenges, and planning the upcoming week and milestones. This is also to ideate on future milestones and building validation as a product.
 
 3. **Quarterly Creative Destruction Labs**
-   * **When:** Once in 10 weeks
-   * **What:** This is a 48-hour working session, comprised of both synchronous and asynchronous activities, where the team comes together under the AI research category as part of a lab. The goal is to take a topic, deconstruct the old approach, and rebuild it in a new way to rapidly iterate toward the product roadmap and vision.
+   - **When:** Once in 10 weeks
+   - **What:** This is a 48-hour working session, comprised of both synchronous and asynchronous activities, where the team comes together under the AI research category as part of a lab. The goal is to take a topic, deconstruct the old approach, and rebuild it in a new way to rapidly iterate toward the product roadmap and vision.
 
 ### 🌍 Shared Calendars
 
-* AI-Powered Stage Calendar (Calendar ID: `c_n5pdr2i2i5bjhs8aopahcjtn84@group.calendar.google.com`)
+- AI-Powered Stage Calendar (Calendar ID: `c_n5pdr2i2i5bjhs8aopahcjtn84@group.calendar.google.com`)
 
 ### 🖖 Weekly and Quarterly Updates
 
