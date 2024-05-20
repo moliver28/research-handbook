@@ -5,7 +5,7 @@ description: "Review different ways GitLab celebrates its team members."
 
 ## New Hire Swag
 
-As a new hire at GitLab, you will be getting a customized welcome package! On your date of hire you will receive an [email](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#new-hire-swag-email) to claim the package with a redemption code. Then simply enter you shipping information to have your welcome swag shipped directly to you.
+As a new hire at GitLab, you will be getting a customized welcome package! On your date of hire you will receive an [email](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#new-hire-swag-email) to claim the package with a redemption code. Then simply enter your shipping information to have your welcome swag shipped directly to you.
 
 ## Celebrations
 
@@ -40,7 +40,7 @@ Recommended sites:
 
 ### Sending an E-Card
 
-Another nice way to celebrate someone, express your appreciation or show support to a team member is by creating an e-card and having team members sign the card via DocuSign. Have have fun with this, get creative when making the card using google docs, google slides or a program of your choice.
+Another nice way to celebrate someone, express your appreciation or show support to a team member is by creating an e-card and having team members sign the card via DocuSign. Have fun with this, get creative when making the card using google docs, google slides or a program of your choice.
 An example can be found [here](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:6034eed9-38e3-440e-bf5a-297905e13f06).
 Once you have your card created:
 
