@@ -35,6 +35,7 @@ Field Marketing Specialist Regions:
 - Field Marketing Coordinator - Junior
 - Field Marketing Specialist - Intermediate
 - Senior Field Marketing Specialist - Senior
+- Staff Field Marketing Specialist - Staff
 
 ## Field Marketing Coordinator
 
@@ -128,6 +129,33 @@ This role includes all of the requirements of the previous level, plus:
 This role includes all of the performance indicators of the previous level plus:
 
 - Mean time to merge - all process related MRs should take no more than 7 business days to merge, without a documented reason for the need for the merge to stay open for more than 7 days.
+
+## Staff Field Marketing Specialist
+
+### Job Grade
+
+The Staff Field Marketing Specialist is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Responsibilities
+
+This role includes all of the responsibilities of the previous level, plus:
+
+- Plan and operate in a transparent manner for cross-organizational visibility and be a leader in collaborating with other marketing and non-marketing teams
+- Introduce new replicable processes or process improvements, as well as evaluation and implementing new tools to help scale the team
+- Responsible for decision-making and process creation for the Global Field Marketing Coordinator team (with Regional - Sr. Manager input and approval), as well as leading enablement, training, and sharing of best practices with the team regularly
+- Act as a DRI/Lead on key cross-functional projects globally with teams such as Procurement, Finance, Marketing Operations, Legal, Channel Marketing, etc.
+
+### Requirements
+
+This role includes all of the requirements of the previous level, plus:
+
+- Requires exemplary analytical skills and proven aptitude to use data to optimize program performance and
+inform future processes
+- Complete [Adobe Marketo Engage Professional Training - Section 3](https://experienceleague.adobe.com/en/docs/certification/program/technical-certifications/ame/ame-professional/ame-p) - Defining and targeting audiences
+- Detailed understanding of GitLab’s accounting process and proven ability to work efficiently within Allocadia
+- Excellent analytical and problem-solving skills
+- Proven expertise working within GitLab or within an agile environment
+- 10+ years experience in marketing or event management with the desire to learn more about Field Marketing
 
 ### Hiring Process for North America
 
