@@ -119,6 +119,7 @@ Current available options for `utm_source` are as follows:
 | `twitter` | lines up with paidsocial, social | `integrate-market`       | lines up with syndication |
 | `iterable` | lines up with email, sent through Iterable (marketing) for product | `youtube` | should appear in dropdown menu for "video" |
 | `stack-overflow`  | lines up with display | `vimeo` | should appear in dropdown menu for "video" |
+| `agency` | lines up with email, paid social, social (depends how the agency is promoting) |
 
 Values for `utm_source` are available as an open picklist in the UTM builder googlesheet. Please be consistent when adding new values to the [list](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=3), keeping the best practice of no characters and all lower case.
 
@@ -130,15 +131,18 @@ Instead of a single value for UTM Campaign, it will encode many values into a si
 
 Encoding more data on the UTM campaign directly transfers that information to Bizible touchpoints and allows for drop-down / point and click reporting in SFDC.
 
-| Parameter | Required / Optional | Examples |
-|---------------------------|----------------------|----------------------|
-| `Date` (in ISO format - yyyy_mm_dd) | Yes (if campaign is evergreen use eg) | 2024_02_20 |
-| `Region` (select from dropdown) | Yes (if multi regions, use x) | emea |
-| `Budget` (select from dropdown) | Yes (if not applicable, use x) | dmp |
-| `Type` (select from dropdown) | Yes (if not applicable, use x) | dmp |
-| `GTM` (select from dropdown) | Yes (if not applicable, use x) | autosd |
-| `Language` (select from dropdown) | Optional | fr |
-| `Campaign name` (free text field) | Optional | beginnersguidedevops |
+| Parameter | Required / Optional | Examples |			
+|---------------------------|----------------------|----------------------|			
+| `Date` (in ISO format - yyyy_mm_dd) | Yes (if campaign is evergreen use eg) | 2024_02_20 |			
+| `Region` (select from dropdown) | Yes (if multi regions, use x) | emea |			
+| `Budget` (select from dropdown) | Yes (if not applicable, use x) | dmp |			
+| `Type` (select from dropdown) | Yes (if not applicable, use x) | dmp |			
+| `GTM` (select from dropdown) | Yes (if not applicable, use x) | autosd |			
+| `Language` (select from dropdown) | Optional | fr |			
+| `Campaign name` (free text field) | Optional | beginnersguidedevops |			
+| `Agency` (free text field) | Optional, rare | Name of 3rd party agency if one is being used |
+
+Note on `Agency`: Sometimes 3rd party agencies are used to drive registrations to events. This is uncommon. If you are using an agency, use the `agency` source and add the name of the agency to the `Agency` field in the UTM generator. This will append the name in the appropriate location as part of the utm_campaign value.
 
 #### Current GTM UTMs
 

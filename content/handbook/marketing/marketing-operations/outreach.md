@@ -205,11 +205,16 @@ Outreach is **not** meant for mass communications nor bulk email sends it is int
 
 As such there are [sending limits built into the Outreach platform](https://support.outreach.io/hc/en-us/articles/205022518-Individual-Email-Limits-Safeguards) as well as [limits put in place by Gmail itself](https://support.google.com/a/answer/166852?hl=en).
 
-#### Sending Limits
-* Individual users can send up to 2,000 emails *combined* between Outreach and Gmail inbox in a rolling 24-hour period.
-    * This is the maximum across both systems, if you max out in Outreach, you **will be** maxed out in Gmail.
-* Outreach has a **hard limit** of 5,000 emails in a rolling seven day period.
-    * If you max out in Outreach, your emails will be queued to try again in 24 hours, when your account drops below this hard limit.
+#### Sending Limits   
+
+We have email sending limits in place to protect our sender reputation score, to ensure our emails are delivered to prospects & customers. We can not increase these limits and if you hit the limit, you will need to wait until you are under the limit again to send emails. If you need to send a campiagn that is larger than the limits, please reach out to Marketing as we have more sending options for larger campaigns. 
+
+* Individual users can send up to 2,000 emails *combined* between Outreach and Gmail inbox in a rolling 24-hour period.    
+    * This is the maximum across both systems, if you max out in Outreach, you **will be** maxed out in Gmail.   
+* Users have a limit of 1,000 emails sent from within our organisation.
+* Users have a limit of 25 emails that can be sent to the same email domain per day.
+
+If you'd like to read more about Outreach email limits please see [here](https://support.outreach.io/hc/en-us/articles/205252418-Outreach-User-Admin-Settings-Org-Email-Overview). 
 
 ### Importing SFDC Reports
 
