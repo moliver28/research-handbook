@@ -28,7 +28,6 @@ GitLab offers a benefits package that provides health and financial security for
 
 <summary>Documents, Rights, and Notices</summary>
 
-
 - Please review the most recent [Summary of Material Modifications](https://drive.google.com/file/d/1_j61NVNqUQ0A4RBWM3ihooRuf094QdWr/view?usp=sharing) from Jan 1, 2022. Please review the [2024 Annual Rights and Notices](https://drive.google.com/file/d/1fB5r88VUiydWz3pFk76DFK3h5DTyVaDw/view?usp=sharing)
 - [Transparency in Coverage](https://www.cigna.com/legal/compliance/machine-readable-files) Starting July 1, 2022, this link leads to the machine readable files that are made available in response to the federal Transparency in Coverage Rule and includes negotiated service rates and out-of-network allowed amounts between health plans and healthcare providers. The machine-readable files are formatted to allow researchers, regulators, and application developers to more easily access and analyze data
 
@@ -69,7 +68,6 @@ You can log into PlanSource through your Workday profile. There is an integratio
 
 ## Enrolling in Benefits
 
-
 Team Members have 30 days from their Hire Date to enroll in the benefit plans. Enrollment is through our benefit administrator, PlanSource.
 
 **If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP).**
@@ -104,7 +102,6 @@ Any active, regular, full-time team member working a minimum of 30 hours per wee
 Note: If you and an eligible dependent (as defined above) are both employed by GitLab, you may only be covered by GitLab’s coverage once. This also applies to enrolling in either your own supplemental life insurance or supplemental spouse/dependent life insurance through your dependent who is employed by GitLab, but not both.
 
 A domestic partnership is an arrangement in which two people live together and are in a committed relationship without being legally married. Domestic partnerships are composed of two people of any gender, which includes male, female, or nonbinary people. If you have recently entered in to a Domestic Partnership, or your Domestic Partner goes through a Qualifying Life Event, you may add them to the GitLab plans as outlined in the instructions below. During the documentation step, you will be asked to fill out and submit a [Domestic Partner Affidavit](https://drive.google.com/file/d/11cV-WXJXu8G626muav2aJvpYS4CMleeE/view?usp=sharing) in to PlanSource. If you are adding your Domestic Partner during New Hire Enrollment or Open Enrollment, there is no need to fill out the Domestic Partnership Affidavit.
-
 
 </details>
 
@@ -285,7 +282,6 @@ Provider contracts change and sometimes the contracts change faster than the web
 <summary>Cigna Virtual Care</summary>
 
 Virtual visits for Cigna members can be accessed by visiting [myCigna](https://my.cigna.com/web/public/guest), selecting "Find Care & Costs" and scrolling down to the bottom of the page.
-
 
 </details>
 
@@ -536,7 +532,6 @@ Short-term disability insurance has a 7-calendar day waiting period before payme
 
 See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7mQnHf8-HrerZ55AhXme3qou/view?usp=sharing) for a summary of the plans.
 
-
 </details>
 
 <details markdown="1">
@@ -570,12 +565,9 @@ See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7m
 
 </details>
 
-
-
 ## 401(k) Plan
 
 The company offers a 401k plan in which you may make voluntary pre-tax contributions toward your retirement.
-
 
 </details>
 
@@ -594,7 +586,6 @@ The company offers a 401k plan in which you may make voluntary pre-tax contribut
 1. If your employment with GitLab terminates and you are unable to access your Fidelity account due to this being connected to your GitLab email, please contact Fidelity at 800-835-5097 to have the email address on file updated.
 
 </details>
-
 
 ### 401(k) Match
 
@@ -685,7 +676,6 @@ Please see the [HRA Summary of Benefits and Coverage](https://drive.google.com/f
 <details markdown="1">
 
 <summary>How to Submit an HRA Claim</summary>
-
 
 To access the benefit, eligible team members can create an account on the [Navia Portal](https://app.naviabenefits.com/app/#/signup), first time users will click the Register button in the top right corner of the page.
 
@@ -800,7 +790,6 @@ Note that if you increase the amount of your FSA, you will only be able to use t
 |--------------------------|------|------|
 | A participant gets married       | The participant can only increase their election amount.     | A participant originally elected $500. They get married and update their election amount to $2,000 as of the date of the qualifying life event. Note: The participant can only be reimbursed up to $500 for claims with dates of service between the plan effective date and the date of the qualifying life event.|
 
-
 </details>
 
 ### Commuter Benefits
@@ -822,7 +811,6 @@ For active employees: Up to 180 days after plan year has concluded (also known a
 For terminated employees: Up to 90 days after the termination date.
 
 </details>
-
 
 ### Cigna Supplemental Life Insurance/AD&D
 
@@ -876,7 +864,6 @@ $20.90 per month
 <details markdown="1">
 
 <summary>ARAG Resources</summary>
-
 
 - [Mobile Arag Legal App Flyer](https://drive.google.com/file/d/1MGpQ6C-uNwRZS3VrUkuTZ4d6vkIqNmOk/view?usp=sharing)
 - [Common Legal Needs ARAG can assist with](https://drive.google.com/file/d/1bFdnlVxmIzJ5Rixu94643AjwkZD-7OrB/view?usp=sharing)
