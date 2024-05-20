@@ -215,6 +215,15 @@ To complete this mapping, product priority-based issues or epics should be creat
 /label ~"type::feature"
 ```
 
+#### Milestone Retrospectives
+
+After the completion of any milestone, the planning issue for that milestone is used to capture team retros in the comments. Before the next milestone planning kickoff meeting, each team member should answer the following questions in a comment on that issue:
+
+- 👍 what went well this release?
+- 👎 what didn’t go well this release?
+- 📈 what can we improve going forward?
+- 🌟 what praise do you have for the group?
+
 #### Important Links
 
 - [Dynamic Analysis Group Direction Priorities](https://about.gitlab.com/direction/secure/dynamic-analysis/#priorities)
