@@ -87,7 +87,7 @@ or even a result of a public holiday in some regions of the world with a larger 
 
 1. Check `about.gitlab.com` website traffic on [Google Analytics](https://analytics.google.com/analytics/web/) to verify if some public holiday might impact overall use of GitLab system
    1. You may require to open an access request for Google Analytics access first, for example: [access request internal issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/1772)
-1. Plot `select date(dvce_created_tstamp) , event , count(*) from legacy.snowplow_unnested_events_90 where dvce_created_tstamp > '2021-06-15' and dvce_created_tstamp < '2021-07-10' group by 1 , 2 order by 1 , 2` in SiSense to see what type of events was responsible for drop
+1. Plot `select date(dvce_created_tstamp) , event , count(*) from legacy.snowplow_unnested_events_90 where dvce_created_tstamp > '2021-06-15' and dvce_created_tstamp < '2021-07-10' group by 1 , 2 order by 1 , 2` in Snowflake to see what type of events was responsible for drop
 1. Plot `select date(dvce_created_tstamp) ,se_category , count(*) from legacy.snowplow_unnested_events_90 where dvce_created_tstamp > '2021-06-15' and dvce_created_tstamp < '2021-07-31' and event = 'struct' group by  1 , 2 order by  1, 2` what events recorded the biggest drops in suspected category
 1. Check if there was any MR merged that might cause reduction in reported events, pay an attention to ~"analytics instrumentation" and ~"growth experiment" labeled MRs
 1. Check (via [Grafana explore tab](https://dashboards.gitlab.net/explore) ) following Prometheus counters `gitlab_snowplow_events_total`, `gitlab_snowplow_failed_events_total` and `gitlab_snowplow_successful_events_total` to see how many events were fired correctly from GitLab.com. Example query to use `sum(rate(gitlab_snowplow_successful_events_total{env="gprd"}[5m])) / sum(rate(gitlab_snowplow_events_total{env="gprd"}[5m]))` would chart rate at which number of good events rose in comparison to events sent in total. If number drops from 1 it means that problem might be in communication between GitLab and AWS collectors fleet.
@@ -156,15 +156,11 @@ Such events can be recovered by reprocessing them.
 
 Currently we have a few dashboard to monitor and investigate malfunctions:
 
-[Service Ping Health](https://app.periscopedata.com/app/gitlab/968489/Analytics-Instrumentation---Service-Ping-Health). The most important charts:
+[Service Ping Health](https://10az.online.tableau.com/#/site/gitlab/views/AnalyticsInstrumentation-ServicePingHealth/ServicePingMetrics?:iid=2). The most important charts:
 
-1. Recorded Usage Pings Created Per Week - allows to quickly identify abnormal amount of event received in the recent weeks
-2. Completed vs Failed  Service Ping Hosts - compares Service Ping generation success rate. Helps to identify potential payload generation bugs.
-3. Service Ping fail reasons - list of error messages captured during Service Ping generation. Provides more context for the previous chart.
-
-[Service Ping Exploration Dashboard](https://app.periscopedata.com/app/gitlab/1049395/Service-Ping-Exploration-Dashboard):
-
-1. Timed out metrics in last 30 days - list of metrics which time outed during generated (no value was provided).
+1. Recorded Service Pings Created Per Week - allows to quickly identify abnormal amount of event received in the recent weeks
+2. Service Ping payloads by major version - allows to quickly identify missing service pings for specific versions
+3. Service Ping fail reasons - list of error messages captured during Service Ping generation.
 
 ### Alerts
 
@@ -175,7 +171,7 @@ You will be alerted by the [Data](https://about.gitlab.com/handbook/business-tec
 
 First you need to identify at which stage in Service Ping data pipeline the drop is occurring.
 
-Start at [Service Ping Health Dashboard](https://app.periscopedata.com/app/gitlab/968489) on Sisense.
+Start at [Service Ping Health Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/AnalyticsInstrumentation-ServicePingHealth/ServicePingMetrics?:iid=1) on Tableau.
 
 You can use [this query](https://gitlab.com/gitlab-org/gitlab/-/issues/347298#note_836685350) as an example, to start detecting when the drop started.
 
@@ -188,7 +184,7 @@ GitLab team members can view more information in [this confidential issue](https
 
 Check if the [export jobs](https://gitlab.com/gitlab-org/gitlab-services/version.gitlab.com/-/tree/main/#data-export-using-pipeline-schedules) are successful.
 
-Check [Service Ping errors](https://app.periscopedata.com/app/gitlab/968489?widget=14609989&udv=0) in the [Service Ping Health Dashboard](https://app.periscopedata.com/app/gitlab/968489).
+Check Service Ping errors in the [Service Ping Health Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/AnalyticsInstrumentation-ServicePingHealth/ServicePingMetrics?:iid=2)
 
 ### Troubleshoot Google Storage layer
 
