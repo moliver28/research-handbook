@@ -31,7 +31,7 @@ To reach the Product Security Engineering team, team members can:
 
 ## Runbooks
 
-Please see our [Runbooks page][./runbooks].
+Please see our [Runbooks page][/handbook/security/product-security/product-security-engineering/runbooks].
 
 ## Workflow
 
