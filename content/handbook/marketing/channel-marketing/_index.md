@@ -191,17 +191,16 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
        - Campaign Creation
          - List Upload
           - MDF POP
-             - For POP issues add labels:
-                - `MDF-POP` and use the scoped labels below to work through the approval process:
-                - `MDF::POP Pending`: issues created but POP has not yet been received
-                - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
-                - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
-                - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
+            - For POP issues add labels
+               - `MDF-POP` and use the scoped labels below to work through the approval process:
+               - `MDF::POP Pending`: issues created but POP has not yet been received
+               - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
+               - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
+               - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
     - Once all sub-issues are completed, close out the epic.
 
 ### PTO Process for MDF Request Approvers
 Prior to your PTO, as an MDF request approver, you will need to update the `Delegated Approver` to your reporting manager so they have access to approve MDF requests while you are away. When you return, please remember to remove the `Delegated Approver`.
-
 
 When an approval request email is sent to the assigned approver, the delegated approver also receives an email notification that there is an approval request to review. Delegated approvers can't reassign approval requests; they can only approve or reject approval requests.
 
