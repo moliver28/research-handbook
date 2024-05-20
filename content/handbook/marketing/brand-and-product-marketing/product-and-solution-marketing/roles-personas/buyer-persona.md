@@ -57,9 +57,9 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 #### Comparing the personas
 
-![Comparison motivations and challenges](/handbook/marketing/strategic-marketing/images/comparison-buyer-persona-motivations-challenges-v3.png)
+![Comparison motivations and challenges](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/comparison-buyer-persona-motivations-challenges-v3.png)
 
-![Comparison how they gather tech info](/handbook/marketing/strategic-marketing/images/comparison-how-they-gather-tech-info.png)
+![Comparison how they gather tech info](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/comparison-how-they-gather-tech-info.png)
 
 ---
 
