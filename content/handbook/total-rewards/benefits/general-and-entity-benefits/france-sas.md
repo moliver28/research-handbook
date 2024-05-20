@@ -70,15 +70,8 @@ To initiate your parental leave, submit your time off by selecting the `Parental
 ## GitLab France S.A.S. Paid Time Off (Vacation)
 
 - GitLab France S.A.S. team members can review [statutory requirements for paid time off in relation to vacation](/handbook/people-group/paid-time-off/#gitlab-sas-france).
+- GitLab France S.A.S. team members should be aware of their applicable leave categories and can review [the requirements for logging time away from work and the suggested order for using leave balances](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/#logging-time-away). (*_internally accessible only_)
 - Team members must always submit their leave via the [Mihi Platform](https://2.mihi.info/Account/Login?ReturnUrl=%2F) **as well as** [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel) in Slack.
-
-Please be aware of your applicable statutory vacation categories in Mihi and use your balances in this order:
-
-- **(If applicable) Reduction of Working Time**: In cases where employees need to work beyond the legal working time for their role, certain roles within GitLab may benefit from reduced working time (RTT) to compensate for the extended working hours. The formula for calculating each year's RTT balances is: Days In a Year - weekend days - 25 statutory vacation days - public holidays in weekdays - 218 = RTT. The accrual period for RTT days is January 1st - December 31st each year, and accrual balances do not roll over.  **Please use this accrual balance first, when submitting vacation in Mihi's platform.**
-- **Vacation Days CP N-1**: Statutory accrual rollover from the previous June 1, 2022 to May 31, 2023. If you do not have Reduction of Working Time, please use this accrual balance first, related to vacation.
-- **Vacation Days CP N**: Currently accruing from June 1, 2023  to May 31, 2024 at 2.08 days per month. Please use this accrual balance if you have no CP N-1 balance, related to vacation.
-- **Overflow OOO**: France team members are now given a bulk balance of 30 days annually to be available at their discretion in accordance with GitLab’s Flex Time Off policy only in the event that there is no available balance in the above leave type categories, as applicable. There is no requirement that the 30 days are used.
-
 For all technical support inquiries or any inquiries relating to your balances in Mihi, please contact `support@mihi.info` and cc `gitlabHRSS@globalupside.com`.
 
 ## Sick Time
@@ -113,4 +106,4 @@ For more information, read about the [sick time policies and procedures in Franc
 
 ## Tracking Working Hours
 
-- Team members located in France are required to track their working hours via the Mihi platform. If you do not have access please reach out to the Global Upside team for further assistance. Please include people-connect@gitlab.com and leaves@gitlab.com in the CC field.
+- Team members located in France are required to track their working hours and time away from work in Mihi as applicable and the working time policies and processes at GitLab France are set out in detail [here](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/) for our team members (*_accessible internally only_).
