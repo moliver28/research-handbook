@@ -27,7 +27,7 @@ Initiatives driven within the Platforms section, often spanning multiple quarter
 
 #### Slack
 
-Our main method of communication is Slack. 
+Our main method of communication is Slack.
 
 If you need assistance with a production issue or incident, please see the section on [getting assistance](https://handbook.gitlab.com/handbook/engineering/infrastructure/#getting-assistance).
 
@@ -80,7 +80,6 @@ If you need assistance with a production issue or incident, please see the secti
 |[#g_scalability-practices](https://gitlab.enterprise.slack.com/archives/C04M6HVAY49)| Team channel for general work in Practices. |
 |[#scalability-social](https://gitlab.enterprise.slack.com/archives/C0108V9SQHY)| |
 | #scalability-id-project-name() | We use project specific channels to keep make it easier to follow specific topics. Channel names follow this format. |
-
 
 Queries to the Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
 
