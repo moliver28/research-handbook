@@ -18,7 +18,7 @@ to be addressed quickly.
 
 **Estimate potential impact and likelihood of vulnerability exploitation** - Give users the ability to access risk directly in the vulnerability report through industry known risk scores like CVSS (Common Vulnerability Scoring System) and exploitability probability.
 
-E**nable users to track vulnerabilities across multiple branches** - Allow users to track vulnerabilities outside the default branch.
+**Enable users to track vulnerabilities across multiple branches** - Allow users to track vulnerabilities outside the default branch.
 
 **Offer guidance for users to get started with vulnerability remediation** - leverage the power of AI and security training to help developers understand and remediate vulnerabilities.
 
