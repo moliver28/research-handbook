@@ -414,3 +414,4 @@ Things to be careful about when localizing an EN blog post.
 | language_de-DE | Marks entry that is in German | Apply to blog post that is translated into German | 
 | language_fr-FR | Marks entry that is in French | Apply to blog post that is translated into French | 
 | language_ja-JP | Marks entry that is in Japanese | Apply to blog post that is translated into Japanese | 
+
