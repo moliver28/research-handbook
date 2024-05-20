@@ -51,8 +51,6 @@ Remaining Divisions : Departments:
 - Sales : SA
 - Sales : SMB
 
-
-
 ## How to partner with PBPs to foster high performance in your team
 
 ### Team Structure and Organizational Health
