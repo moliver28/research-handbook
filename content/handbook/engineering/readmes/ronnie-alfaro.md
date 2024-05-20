@@ -24,8 +24,6 @@ Please feel free to contribute to this page by opening a merge request.
 
 * [Personal Website](https://www.ronniealfaro.com/)
 
-  
-
 ## About me
 
 * **Travel** is my favorite thing, thanks to it I've had experiences like
@@ -95,5 +93,3 @@ In my experience getting there is always a different path for everyone,  that's 
 * I don't give up easily, I try, try, try until i learn it, until i can do it.
 
 * I never stop learning, i always believe there is a bit more to know, to learn and to improve.
-
-  

@@ -28,7 +28,7 @@ Integral part of this vision is to:
 1. Build a highly performant team of engineers, combining operational and software development experience to influence the best in reliable infrastructure.
 1. Work publicly in accordance with our [transparency] value.
 1. [Use our own product](#dogfooding) to prepare, build, deliver work, and support [the company strategy][strategy].
-1. Align our [strategy](#strategy) with the industry trends, company direction, and end customer needs.
+1. Align our [strategy][strategy] with the industry trends, company direction, and end customer needs.
 
 ## Direction
 
@@ -161,7 +161,6 @@ Infrastructure SREs may be aligned with [stage groups](/handbook/product/categor
 
 [Stable Counterparts](./team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
 
-
 ## Interviewing
 
 The Infrastructure department hires for a number of different technical specialisms and positions across its teams. This [Infrastructure Interviewing Guide](/handbook/hiring/interviewing/infrastructure-interview/) offers more detail on some of our regular openings, interview process and other useful information related to applying to jobs with us. More information on our current openings can be found on the [careers page](https://about.gitlab.com/jobs/).
@@ -187,7 +186,6 @@ The Infrastructure department hires for a number of different technical speciali
 - [GitLab.com data breach notification policy](/security/#data-breach-notification-policy)
 - [Infrastructure careers and internships][interning]
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
-
 
 [status]: https://status.gitlab.com/
 [incident]: /handbook/engineering/infrastructure/incident-management/

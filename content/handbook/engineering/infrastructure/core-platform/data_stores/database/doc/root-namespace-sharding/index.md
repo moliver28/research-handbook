@@ -22,6 +22,7 @@ Let's start off by defining common nomenclature.
 In GitLab, projects are contained inside a *namespace*.. A namespace can be nested inside another namespace. This forms a tree-like hierarchy: Namespaces are the nodes of the tree, projects are the leaves. The root of this hierarchy is called "top-level namespace".
 
 Let's decompose this example: https://gitlab.com/gitlab-org/database-team/team-tasks
+
 1. `gitlab-org`: top-level namespace
 1. `database-team`: a group inside `gitlab-org`
 1. `team-tasks`: a project inside `database-team`
@@ -31,6 +32,7 @@ After signup, each user has their own namespace associated under `gitlab.com/$us
 #### Data access pattern
 
 A data access pattern is a commonly found perspective of how data is being looked at. This typically informs how database query filters look like. Let's look at a few examples:
+
 1. Data by time: The primary query filter is perhaps a date range. GitLab example: Instance-wide audit log
 2. Data by user: The primary query filter is the user id. GitLab example: User dashboard
 3. Data by namespace: The primary query filter is the namespace id. GitLab example: issue group search
@@ -86,6 +88,7 @@ Let's look at two examples here, more can be found in [#50](https://gitlab.com/g
 An issue tracker lives inside a single project. As such, issue data transitively references a top-level namespace.
 
 Sharding by namespace is ideal for these features:
+
 1. Listing and working with a project issue tracker including search etc ([example](https://gitlab.com/gitlab-org/gitlab/-/issues))
 2. Similar the group level ([example](https://gitlab.com/groups/gitlab-org/-/issues))
 
@@ -131,6 +134,7 @@ We allow users to work with the audit log from different perspectives:
 The global instance level view is the problematic one: Ideally, an instance admin wants to see what happened across all namespaces and users on the instance.
 
 In summary, if we sharded by namespace we would face:
+
 1. 75% of data is not shardable in this dimension
 2. Namespace sharding does not support the instance-level view
 
@@ -203,6 +207,7 @@ While we've explored partitioning to implement a notion of sharding (with FDW), 
 In that sense, partitioning is a tool that is readily available for us to make use of now and one that does not introduce operational complexity. It directly improves performance and scalability of the database. On GitLab.com, we are at a scale currently where this seems to right tool to address performance issues. Additionally, it comes with the same fundamental thinking around slicing data horizontally and analyzing existing access patterns (and perhaps rethinking product features to align better).
 
 Related links for partitioning:
+
 1. [On table partitioning](partitioning.html)
 2. [Table partitioning: Issue group search as an example](issue-group-search-partitioning.html)
 3. [Database partitioning epic](https://gitlab.com/groups/gitlab-org/-/epics/2023)

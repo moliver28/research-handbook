@@ -200,6 +200,7 @@ flowchart TD
 Ownership is indicated using labels and assignee(s). The label indicates the group and/or stage, assignee the DRI.
 
 OKRs should have the following labels:
+
 - Group, Stage, and Section (as appropriate).
 - Division (~"Division::Engineering") to distinguish from other functions.
 - updates::[weekly, semi-monthly, monthly] depending on how often the OKR is expected to be updated by the DRI.
@@ -255,6 +256,7 @@ To improve the retrospective data-driven experience, we are [dogfooding](/handbo
 With Value stream analytics (VSA) our team is getting visibility to the [lifecycle metrics](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#lifecycle-metrics) of each milestone through the breakdown of the [end-to-end workflow into stages](https://docs.gitlab.com/ee/user/group/value_stream_analytics/#value-stream-stages). This allows us to identify bottlenecks and take action to [optimize actual flow of work](https://about.gitlab.com/blog/2023/06/26/three-steps-to-optimize-software-value-streams/).
 
 For example, for the review phase, we are using VSA to count the [time between "workflow::in review" and "MR merged"](https://gitlab.com/groups/gitlab-org/-/analytics/value_stream_analytics?created_after=2023-03-01&created_before=2023-04-29&project_ids[]=278964&label_name[]=devops%3A%3Aplan&value_stream_id=779&stage_id=17092&sort=duration&direction=desc&page=1). With this data, we can identify:
+
    - MRs that were bottlenecked due to limited reviewers/maintainers capacity.
    - Types of work that move slower than other types.
    - Whether long review time originates from `same-team MR reviews` or `out-of-team MR reviews`.
@@ -264,6 +266,7 @@ Please leave your feedback in [this issue](https://gitlab.com/gitlab-org/plan/-/
 #### Concluding the Retrospective
 
 The DRI is responsible for completing the following actions:
+
 - Adding a comment to the retrospective issue summarizing actionable discussion items and suggesting corrective actions.
 - Finding a DRI for each corrective action. Creating an issue in `gl-retrospectives/plan` for each is optional, but doing so and adding the ~"follow-up" label will ensure they're included automatically in the next retrospective.
 - Recording a short summary video and sharing in #s_plan. This can be discussed in the next weekly team call and can be added to the Plan Stage playlist on Youtube so that it shows up on team pages.
@@ -337,6 +340,7 @@ When designing for objects that use the [work items architecture](https://docs.g
 The first objects built using the work items architecture support the [Parker](/handbook/product/personas/#parker-product-manager), [Delaney](/handbook/product/personas/#delaney-development-team-lead) and [Sasha](/handbook/product/personas/#sasha-software-developer) personas in tasks related to planning and tracking work. Additional objects will be added in the future, supporting a variety of user personas.
 
 Read more about work items
+
 - [Work items architecture](https://docs.gitlab.com/ee/architecture/blueprints/work_items/)
 - [Work items Pajamas documentation](https://design.gitlab.com/objects/work-item)
 - [Work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology)
@@ -346,12 +350,14 @@ Read more about work items
 Work items refers to objects that use the work items architecture. You can find more terms defined related to the architecture here: [work items terminology](https://docs.gitlab.com/ee/development/work_items.html#work-item-terminology).
 
 When we talk about the user experience, we avoid using the term 'work items' for user facing concepts, because it's not specific to the experience and introduces confusion. Instead, we will use descriptors specific to the part of the product we're talking about and that support a similar JTBD. Here are examples of how we are categorizing these:
+
 - Team Planning Objects: Objects that belong to the Planning JTBD. Currently these are Epics, Issues and Tasks but could include others in the future.
 - Strategy Objects: Objects that support strategic, organization wide objects. Currently these are Objectives and Key results.
 - Development/Build Objects: Objects that support development tasks. These could be MRs, Test Cases, or Requirements
 - Protecting Objects: These may include Incidents, Alerts, Vulnerabilities, Service Desk Tickets
 
 This enables us to differentiate these by persona and workflow. While they may share a common architecture on the backend and similar layout on the frontend, in the UI they may:
+
 - appear in different workflows and areas of the application
 - have different data fields
 - have different actions users can take on them
@@ -367,6 +373,7 @@ This enables us to differentiate these by persona and workflow. While they may s
 #### How the architecture is intended to work
 
 When designing with the work items architecuture, Product Designers should understand roughly how the architecture works and what implications exist for the user experience.
+
 - A work item has a type (epic, incident), and this controls which widgets are available on the work item and what relationships the work item can have to other work items and non-work item objects.
 - The behavior of the work item in terms of performing its targeted JTBD(s) is powered by the collection of widgets enabled for a work item type.
 - We want to avoid building logic or views specific to a type. When you need to support a workflow that isn't currently supported, you can introduce new behaviors through widgets (fields, apps, actions). A practical example: Epics can parent other Epics and Issues. Instead of interconnecting epics and issues this behavior is encapsulated in a 'hierarchy' widget, which could be utilized in other work item types that implement hierarchies; such as Objectives and Key Results.
@@ -401,9 +408,6 @@ We use the methods and tools in the [UX Research handbook](/handbook/product/ux/
 In addition to these, we're working on gaining an efficiency bonus by using a common screener and building a mini-database of qualified participants aligned to our research needs.
 
 We do a confidence check at different points in the process, particularly before moving a design into the build phase. Sometimes, a design solution is straightforward enough where we’re very confident to move ahead without solution validation. However, there are times when we’re unsure how the design solution will perform in production, thereby resulting in a low level of confidence. When this happens we will do usability testing to build confidence.
-
-
-
 
 #### UX Paper Cuts
 
@@ -500,6 +504,7 @@ The meeting was removed as its functions are now covered in other ways:
 #### Shared calendar
 
 There is a shared Plan stage calendar which is used for visibility into meetings within the stage.
+
 - To add this shared calendar to your Google Calendar do one of the following:
   - Visit this [link](https://calendar.google.com/calendar/u/1?cid=Y19iNzIwMjMxNzdmMDE4ZDYzMWM4NTJlZDFlODgyZTdmYTdhMDI0NGM4NjFmN2U4OWY5NjA4NTY4ODJkNWY1NDlhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) (GitLab internal) from your browser.
   - Click the '+' next to 'Other calendars' in Google Calender, select 'Subscribe to calendar', paste `c_b72023177f018d631c852ed1e882e7fa7a0244c861f7e89f960856882d5f549a@group.calendar.google.com` into the form and hit enter.
@@ -550,6 +555,7 @@ Some sessions may require small purchases to participate fully; for example, ing
 Unless communicated in advance these are **not expensable**.
 
 The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget, or [fun budget](/handbook/engineering/development/#fy24-team-building-fun-budget). If successful it should be made clear to team-members well in advance:
+
 - What purchases qualify for reimbursement.
 - The policy the expense qualifies under; including handbook link, policy category, and classification in Navan.
 - Any additional handbook guidance that will help team-members utilize the budget.
@@ -639,3 +645,5 @@ Note: Work is ongoing on [migration helpers](https://gitlab.com/gitlab-org/gitla
 #### Plan xMAU
 
 - [Product Planning Performance Indicators](/handbook/product/performance-indicators/)
+
+[websockets]: https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/11747#action-cable-websockets

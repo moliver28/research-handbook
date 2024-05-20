@@ -17,6 +17,7 @@ This document explores additions to the Security reports and to the database sch
 that would enable new features for Dependency Scanning and License Scanning.
 
 The solutions being considered are:
+
 - adding tables to the PostgreSQL primary database (schema change)
 - creating a new PostgreSQL database (new schema)
 - storing new documents in Object Storage
@@ -24,6 +25,7 @@ The solutions being considered are:
 - caching data in Redis
 
 Most sections of this document are organized in three parts:
+
 1. feature: What do users need?
 1. technical discussion: How can we implement the feature? What are the technical constraints, and how can we satisfy them?
 1. proposal: What is the corresponding DB schema or document schema?
@@ -34,11 +36,13 @@ As such, it might skip implementation details, like the exact Foreign Key constr
 ## Dependency search
 
 Users want to search project dependencies:
+
 - for a specific package name; they might also specify a package type and a version number to refine the search
 - for packages that use a given license
 - for packages that are affected by a given vulnerability
 
 The scope of the search can either be:
+
 - a single project
 - a project group/namespace
 - a GitLab instance
@@ -52,6 +56,7 @@ Later on, it could be extended to all protected branches or to all project relea
 
 Users want to know what package versions their projects use.
 They might search project dependencies for:
+
 - a package name
 - a package name and a version number
 
@@ -61,17 +66,20 @@ Also, `django` might be the dependency name used in their project, in the depend
 
 We need a DB table to efficiently query project dependencies by package name, type, and version.
 We could have a `project_dependencies` table with:
+
 - `smallint` column for the package type (integer values are interpreted by the Rails backend)
 - `varchar` column for the package name
 - `varchar` column for the package version
 - composite index that combines all these columns, for performance
 
 However, package names and versions would be repeated across project dependencies:
+
 - Some packages are popular; many projects depend on them, and their names are repeated.
 - This also applies to specific versions, and both the names and versions are repeated.
 - In the future, the search won't be limited to the default branch, and branches of the same project are likely to repeat names and versions.
 
 In order to save storage, we keep track of packages used as project dependencies in two separate tables:
+
 - `packages` tracks packages by `type` and canonical `name`
 - `package_versions` tracks versions by `package_id` and `version`
 
@@ -117,6 +125,7 @@ and they should be stored in a separate DB table to reduce storage.
 
 To avoid repeating the file paths across dependencies of the same project and across projects,
 we track project dependencies using 2 tables:
+
 - `dependency_files` tracks paths of dependency files.
 - `project_dependencies` tracks package versions found in dependency files of projects.
 
@@ -159,6 +168,7 @@ Custom filenames and dependency files found in sub-directories are excluded from
 Project dependencies are upserted when a new successful pipeline for the default branch
 generates a new set of Dependency Scanning reports.
 The backend upserts into the following database tables in this order:
+
 1. `packages`
 1. `package_versions`
 1. `dependency_files`
@@ -167,6 +177,7 @@ The backend upserts into the following database tables in this order:
 If a scanning job is retried, then the backend reprocesses the corresponding pipeline
 as is this was a new one, to ensure data consistency.
 It goes through the following steps:
+
 1. List all the completed jobs of the pipeline. Jobs that have been retried are excluded.
 1. Collect the Dependency Scanning reports of these jobs.
 1. Process these reports, and do the upserts.
@@ -183,6 +194,7 @@ Moving project dependencies to a separate database would result in doing in-memo
 Users want to search project dependencies across all protected branches and releases.
 
 Protected branches and project releases are particular important because they usually correspond to:
+
 - version branches under development or in maintenance mode
 - releases being deployed and actively used
 
@@ -242,6 +254,7 @@ This is more accurate, and users can be redirected to the exact job where a depe
 Also, this better supports the scenario where a CI job is retried, and the corresponding dependencies updated.
 The upsert mechanism needs to be changed to upsert the multiple sets that correspond to the same ref.
 Here are two ways this can be achieved:
+
 - Track the job name in `project_dependency_sets.job_name`,
   and upsert dependencies that correspond to a project ID, ref, and job name.
 - Move the `dependency_file_id` from the `project_dependencies` table to `project_dependency_sets`,
@@ -262,6 +275,7 @@ A development dependency is a package that's _only_ used when developing the pro
 This might be package only used for testing, linting, or debugging the project or the libraries it uses.
 
 Package managers and build tools use different concepts to track how dependencies are used:
+
 - npm and yarn distinguish between development dependencies and others.
 - Maven puts dependencies into 5 scopes, and each scope has well-defined semantics.
 - Bundler supports user-defined dependency groups. They are naming conventions but the semantics of a particular group might be unknown.
@@ -274,12 +288,14 @@ ALTER TABLE project_dependencies ADD COLUMN development boolean;
 ```
 
 `project_dependencies.development` is NULL when we can't establish whether this is a development dependency:
+
 - The files processed by the analyzer don't provide the information.
 - The semantics of the dependency group is unknown.
 
 The exact dependency group or scope can be fetched from the reports and artifacts if/when needed.
 In the future, if users need to filter project dependencies by dependency group,
 then the following changes are needed:
+
 - Create a DB table that tracks dependency groups without repeating their names. A group has name and package type, so that its name can be interpreted in the context of the package type.
 - Add a `dependency_group_id` foreign key to the `project_dependencies` table, so that the backend can track the group of a project dependency. This column is NULL when the information is not available.
 - Drop the existing `development` column, because it becomes redundant with the new `dependency_group_id` column.
@@ -418,6 +434,7 @@ This is similar to how newly-introduced and fixed vulnerabilities are presented 
 
 Project dependencies being compared can be fetched from different data sources,
 and the Rails backend uses the fastest option that's available:
+
 1. fetch from the relational DB, if has the project dependencies
 1. else load from the [internal Software of Bill of Materials](#internal-sbom) (SBoM) if available
 1. else load from the collection of Dependency Scanning reports
@@ -454,6 +471,7 @@ and eventually proceeds with the upsert.
 The security check can be handled in a separate job so that it doesn't impact the upsert.
 
 Checksums can't be stored in the `package_versions` table because:
+
 - A package version can have multiple distributions, and each distribution can have multiple checksums.
 - A package distribution can have multiple checksums corresponding to different hashing algorithms, like MD5 and SHA1.
 - `packages` and `packages_versions` don't track the package source,
@@ -506,6 +524,7 @@ It then iterate the dependencies, and creates a vulnerability finding when the c
 doesn't match any checksum of the corresponding package version.
 
 New vulnerability findings created by the backend are false-positives in some cases:
+
 - The dependency is a private package whose name and version match a public package.
 - The dependency uses a package distribution or an alternative checksum that isn't tracked in the package metadata DB.
 
@@ -520,6 +539,7 @@ Package metadata can be included in the installable package itself or kept in a 
 Also, they might be repeated by the registry hosting the package, and be fetched using the registry API.
 
 Package registries might provide:
+
 - **version metadata** specific to a package version
 - **package metadata** that applies to all versions
 
@@ -537,6 +557,7 @@ We introduce a new service that tracks public packages, looks for specific packa
 Depending on the package registry, the tracking service will either poll the registry API or listen to a feed of events.
 
 In a simple design, the service could track relevant metadata fields in a relational DB.
+
 1. When a package is seen for the first time, the fields being tracked are store in a DB table.
 1. When new metadata is available for the same package, these metadata are compared to what's in the DB.
 1. If the new value doesn't match the old one, a notification is posted and the DB record is upserted.
@@ -583,6 +604,7 @@ that lists the project dependencies for the commit being scanned.
 
 Users want to be notified about important events relative to packages their projects depend on.
 In particular, they want to be notified about these events:
+
 - A new major version has been published.
 - A new minor version of the major version being used has been published.
 - A new patch version of the minor version being used has been published.
@@ -643,6 +665,7 @@ This is similar to sending notifications about a metadata that has changed on th
 
 A security advisory describes a vulnerability that applies to specific versions of a package.
 Unlike ordinary package metadata, security advisories associated to a given package version do change:
+
 - A new security advisory can affect a package version at any time.
 - An existing advisory might be updated. For instance, its CVSS score might change.
 - An existing advisory might be removed because it no longer affects the version.
@@ -655,6 +678,7 @@ or by other vulnerability databases, like [ruby-advisory-db](https://github.com/
 
 In order to support multiple vulnerability databases,
 we introduce a new service that tracks these databases and notifies listeners about two kinds of events:
+
 - A security advisory has been added to a vulnerability database.
 - An important field of an existing advisory has changed.
 
@@ -662,6 +686,7 @@ The tracking service also acts as a proxy for the vulnerability databases:
 it exposes an API endpoint that returns the security advisories for any package identified by a type, a name, and a version.
 
 If GitLab only uses its own vulnerability database, then there are two possible architectures:
+
 - The tracking service is built on top of the [gemnasium-db](https://gitlab.com/gitlab-org/security-products/gemnasium-db/) git repo,
   and it uses web hooks to react in real-time when YAML files are added or modified.
 - [gemnasium-db](https://gitlab.com/gitlab-org/security-products/gemnasium-db/) is replaced by a service that hosts the security advisories.
@@ -678,12 +703,14 @@ In the future, the Rails backend could also process the lock files or dependency
 removing the need for CI jobs that list project dependencies.
 
 To perform Dependency Scanning outside of a pipeline, the backend proceeds in 4 steps:
+
 1. extract the package types, names, and versions from the project dependencies being scanned
 1. connect to the advisory database API or tracking service API to collect the advisories that match the package types and names
 1. evaluates the affected version range of each advisory; dependencies that use a version that's not in range are not affected
 1. create vulnerability findings for each affected dependency
 
 When creating vulnerability findings, the backend combines:
+
 - information specific to the affected dependency, like the package version and the file where the dependency is declared
 - generic information coming from the security advisory, like a description of the security flaw, the CVE id, or the CVSS vector
 
@@ -720,6 +747,7 @@ They are aware that this finding might not be as accurate as the ones reported b
 and that this might be a false-positive.
 
 When a new security advisory is added to a vulnerability database, the GitLab backend is notified and it responds in 4 steps:
+
 1. It lists all the projects using the affected package as a dependency, based on its package type and name.
 1. It evaluates the range of the affected versions, and filters out the projects using a package version that's not affected.
 1. It creates vulnerability findings in all remaining projects.
@@ -729,6 +757,7 @@ Since creating vulnerability findings and user notifications for all affected pr
 this task might be split up in multiple asynchronous jobs.
 For instance, there would be one job per project that depends on the affected package.
 The job would follow steps:
+
 1. evaluate the affected version range, and exit if the project doesn't depend on any affected version
 1. create vulnerability findings for all project dependencies that match the affected version range
 1. create notifications for all users who have notifications enabled for that project
@@ -794,12 +823,14 @@ This can be used to store signatures of package distributions.
 SBoM metadata can describe the software for which the inventory was created.
 It doesn't seem possible to describe a composite software made of multiple subprojects, like a Gradle multi-project build.
 However, there are at least two ways the parent project and its subproject can be described using CycloneDX:
+
 - by describing the subprojects as "components" of the parent project
 - by having multiple CycloneDX documents
 
 CycloneDX doesn't track the dependency files being used to do an inventory.
 As a result, the SBoM can't be used to redirect users to the file that introduces a component listed in the inventory.
 However, there are ways we can circumvent this limitation:
+
 - Use global metadata [properties](https://cyclonedx.org/use-cases/#properties--name-value-store) to track the dependency file (and optional lock file) where the dependencies were detected. It's not possible to track multiple files of the same type though.
 - Use component [properties](https://cyclonedx.org/use-cases/#properties--name-value-store) to track the dependency file (and optional lock file) where each dependency was detected. This introduces redundancies but is more flexible.
 - Create a CycloneDX extension to accurately describe the dependency files, and how they relate to the components.
@@ -807,6 +838,7 @@ However, there are ways we can circumvent this limitation:
 The [vulnerability extension](https://cyclonedx.org/ext/vulnerability/)
 can be used to embed vulnerabilities in the SBoM and link them to the components.
 A vulnerability can have:
+
 - a CVE identifier
 - a description
 - a source name (like NVD) and URL
@@ -830,10 +862,12 @@ making it possible to export a new SBoM for an old git commit without running a 
 To achieve that goal, and considering that the SBoM represents a lot of information, the ISBoM is stored as a file (or files) in Object Storage, and not in the relational DB.
 Also, the file paths or URLs should be predictable so that the ISBoM can be retrieved without storing a significant amount of information in the relational DB.
 To that effect, the ISBoM could either be:
+
 - a single SBoM document that can track multiple dependency files and describe a multi-project repository
 - a collection of SBoM documents combined in an archive
 
 The secondary goals are:
+
 - Fast parsing: Project dependencies are efficiently extracted from the ISBoM, with or without graph information. It should be possible to extract project dependencies corresponding to a set of dependency files without parsing the entire ISBoM.
 - Efficient Storage: The ISBoM is compressed when it becomes unlikely that this is going to be accessed.
 
@@ -843,6 +877,7 @@ over time vulnerabilities can change and new vulnerabilities can be added, resul
 
 The ISBoM is primarily used to create SBoM exports but it can also be used to support other features
 when project dependencies are not tracked in the relational DB:
+
 - compare dependencies between the source branch and the target branch of an MR
 - render the Dependency List
 - show dependency paths or dependency graphs in the Dependency List
@@ -862,6 +897,7 @@ This complicates the creation of the ISBoM but ensures that the ISBoM is complet
 ### SBoM as a License Scanning artifact
 
 CycloneDX is a superset of the License Scanning (LS) report format:
+
 - Combined with the package manager, the package name and version (LS) can be converted to a Package URL (CycloneDX).
 - License IDs (LS) can be used as SPDX IDs (CycloneDX) if they match the [SPDX License List](https://spdx.org/licenses/).
 - License can have a name and a URL in both formats.
@@ -877,6 +913,7 @@ and the backend must be able to handle incomplete documents.
 ### SBoM as a Dependency Scanning artifact
 
 CycloneDX is NOT a superset of the Dependency Scanning (DS) report format:
+
 - It can't track the dependency file that introduces a dependency, either directly or indirectly.
 - It can't describe a composite project, like multi-project Gradle build.
 - Vulnerabilities can't have a short description (vulnerability name).
@@ -899,15 +936,18 @@ Users want to export the SBoM of their projects to the format they use, like Cyl
 They might need an SBoM that covers all the projects of a project group, a workspace, or an instance.
 If it takes a significant amount of time to generate the SBoM, users need to be notified when it's ready.
 Depending on project settings and group settings, SBoM exports are created:
+
 - on user request, for any project commit
 - whenever a project release is created
 - periodically, for all relevant branches
 
 Technically an SBoM export of a project commit could be created from:
+
 - all the Dependency Scanning and License Scanning reports of the latest successfull pipeline
 - the Internal SBoM corresponding to the commit
 
 Using the ISBoM as the input has multiple benefits:
+
 - There's no need to query the CI database to list the CI artifacts.
 - There's only one file to retrieve from Object Storage.
 - The ISBoM format is more stable compared to the reports used to build it.
@@ -915,6 +955,7 @@ Using the ISBoM as the input has multiple benefits:
 - Overall this is faster, especially when processing a large number of projects.
 
 The SBoM export may consist of multiple SBoM documents combined in an archive.
+
 - The export might cover all the projects of a project group or a workspace, resulting in multiple SBoM documents.
 - The GitLab project might be a multi-project repository, and depending on the SBoM format
   it might be necessary to create multiple SBoM documents to do a full inventory.
@@ -934,6 +975,7 @@ Periodic SBoM exports are then performed by periodic Rails jobs.
 
 SBoM exports created asynchronously are stored in Object Storage.
 Users might need an SBoM export longer after the corresponding code was published.
+
 - If SBoM exports are created from CI artifacts, then they should have a specific retention policy, and expire later.
 - If SBoM exports are created from long lasting ISBoMs, then they can be safely removed to save space.
 
@@ -942,6 +984,7 @@ Users might need an SBoM export longer after the corresponding code was publishe
 One or multiple SBoM exports are linked to a project release when it's created, depending on the project settings.
 The SBoM exports are stored on Object Storage and linked to the release using asset links.
 Ideally the feature supports three scenarios:
+
 - The SBoM export is already available when creating the release.
 - The SBoM export is in progress, and linked when available.
 - There is no SBoM export. The export should be triggered and the SBoM should later be linked when available.
@@ -951,11 +994,13 @@ Ideally the feature supports three scenarios:
 Users want to know why their project depends on a specific package even though it's not explicitly required;
 they want to know the relationship between a transient dependency and dependencies introduced in the dependency files they maintain.
 This relationship could be presented in different ways:
+
 - list all the paths that connect the transient dependency to the introduced ones
 - show the full dependency graph and highlight nodes and edges that connect the transient dependency to the introduced ones
 - show a sub-graph that only includes the transient dependency and the introduced dependencies connected to it
 
 A single project might have multiple dependency graphs, and these might be stored in multiple artifacts generated by one or multiple scanning jobs.
+
 - Depending on the report format being used, multiple documents might be necessary to describe all the dependencies of a multi-project repository or build.
 - When a repository uses multiple package managers, it might be processed by multiple scanning jobs, resulting in multiple CI artifacts.
 
@@ -964,6 +1009,7 @@ and a single dependency graph is sufficient to answer that question;
 the information can be retreived from a single Dependency Scanning report or SBoM artifact.
 
 The implementation is mostly the same independently of what is presented in the UI.
+
 1. The frontend asks the sub-graph for a package name, package version, dependency file path, commit SHA, and project ID.
 1. If the sub-graph is highlighted in the graph, then the frontend also requests the full graph for a file, commit, and project.
 1. The backend fetches the CI artifact corresponding to the file, commit, and project.
@@ -974,6 +1020,7 @@ Frontend could use GraphQL to query the graph.
 
 If users explore one specific transient dependency, it becomes likely that they explore other transient dependencies of the same file, commit, and project.
 As an optimization, the backend should then cache the corresponding dependency graph, so that these steps are not repeated:
+
 1. List the CI artifacts and find the one corresponding to a dependency file, commit, and project.
 1. Parse the CI artifact being found and extract graph information.
 
@@ -989,12 +1036,14 @@ An introduced dependency is responsible for a vulnerability if it's directly aff
 
 Transient dependencies might be shared by multiple introduced dependencies,
 so there's a N-N relationship between introduced dependencies and vulnerabilities:
+
 - An introduced dependency might have multiple vulnerabilities.
 - A vulnerability might be connected to multiple introduced dependencies.
 
 Grouping vulnerabilities by introduced dependencies could be extended to all dependencies,
 that is any transient dependency that has dependencies.
 For instance, if an introduced dependency A depends on B, and transient dependency B depends on C and D, then we could group:
+
 - vulnerabilities related to A; these are vulnerabilities directly affecting A, B, C, or D
 - vulnerabilities related to B; these are vulnerabilities directly affecting B, C, or D
 
@@ -1014,6 +1063,7 @@ ALTER TABLE project_dependencies ADD COLUMN introduced boolean;
 
 To prepare a list of introduced dependencies along with all related vulnerabilities,
 the backend proceeds in 4 steps:
+
 1. fetch introduced project dependencies from the relational DB, possibly using `project_dependencies.introduced`
 1. load corresponding dependency graphs from Object Storage
 1. fetch vulnerability findings for the same project branch
@@ -1022,6 +1072,7 @@ the backend proceeds in 4 steps:
 
 The dependency list could be limited to the dependencies introduced in one specific file, like `api/Gemfile`.
 This would make the backend more efficient:
+
 - It fetches the project dependencies matching that file when querying the relational DB.
 - It fetches all vulnerability findings for the project branch, but it doesn't keep in memory the findings where the `location` doesn't match the file.
 - It only loads and processes the dependency graph corresponding to the file.

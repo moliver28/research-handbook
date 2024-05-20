@@ -115,6 +115,3 @@ Engineering Managers live our [values](/handbook/values/) every day.
 
 - Logs
 - MR Rate
-
-
-

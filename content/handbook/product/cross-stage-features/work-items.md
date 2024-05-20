@@ -44,7 +44,7 @@ First, you will need to consider whether the work items framework is right for y
 
 All contributions begin with the _Validation backlog_ and _Problem validation_ phases. During these phases, the Plan stage PMs should be **Informed** of upcoming validation activities and **Consulted** during problem validation. These are critical opportunities to collaborate with us and ensure that your ask is not overlapping with future roadmap items and is not against the guiding principles.
 
-[What do R, A, C, and I mean?](#process)
+What do R, A, C, and I mean?
 
 | Phase | Your group | Plan Stage | Description |
 | ----- | ---------- | ----------------- | ----------- |

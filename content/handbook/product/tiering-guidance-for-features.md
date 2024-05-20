@@ -5,11 +5,6 @@ title: Tiering Strategy & Guidance for Product Managers
 
 On this page
 
-
-
-
-
-
 ## Tiering strategy
 
 Free is targeted at individual contributor developers. It is a complete DevOps solution and contains capabilities from all ten GitLab stages.
