@@ -318,9 +318,8 @@ Below is the error you will get if any leftover connections to the dropped datab
 
 Testing MR databases is a useful way to test changes before they get merged into production and save time. The use cases that work best for this are:
 
-* Business logic changes that would affect a total number
-* Quick changes to fields that would affect the view
-
+- Business logic changes that would affect a total number
+- Quick changes to fields that would affect the view
 
 It is not efficient to extensively test changes that would require many changes to the dashboard/ calculated fields, because you will not be able to save those changes for use with the updated table once the MR goes through.
 
