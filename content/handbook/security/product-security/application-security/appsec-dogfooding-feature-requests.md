@@ -10,7 +10,7 @@ This page describes the usage of a new label to indicate a specific issue or epi
 
 #### Usage
 
-Use this label when the AppSec team requests new security features or improvements to be built into GitLab, the product.
+Apply the `~"Internal Request::AppSec Team"` label when the AppSec team requests new security features or improvements to be built into GitLab, the product.
 
 #### Important Note
 
