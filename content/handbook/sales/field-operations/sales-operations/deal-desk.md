@@ -403,7 +403,7 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
         - Please note that Sales reps may only generate PDF versions of the Order Form. If you require special wording or other manual edits, please make the request by tagging @Sales-Support in chatter.
 
 
-##### Prorata calculation of add-on order forms:
+##### Prorata calculation of add-on order forms
 
 [Explanation with screenshot of example order form](https://docs.google.com/presentation/d/1HV4jYVP4yITm0FyhGbDPGmb6f-ebI0Fh480cLfw7u9M/edit#slide=id.ga42daef6d7_0_0)
 
@@ -633,7 +633,7 @@ Effective 2021-11-15, the "True-up" SKU has been deprecated and replaced with 6 
 - True-Up (Annually) - SaaS - Premium: $228/seat/year
 - True-Up (Annually) - Bronze: $48/seat/year
 
-##### Note for Quoting True-ups:
+##### Note for Quoting True-ups
 
 True-ups shouldn’t be added to an amendment quote, because functionally they will do nothing. Overuse is only recognised at renewal and hence, true-ups are necessary only at renewal to unlock a license when the customer had gone over their licensed user count in the previous subscription term.
 Example- The customer had 100 licensed users and they used 108, the 8-user overuse will be covered and quoted as True-up during renewal.
@@ -716,7 +716,7 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 - For Standard Services, a signed Order Form is sufficient to book the deal. (Note, some customers may also require issuance of a PO)
 - More information on [Professional Services SKUs](https://about.gitlab.com/services/catalog)
 
-##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure:
+##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure
 
 - For [standard professional services SKUs](/handbook/customer-success/professional-services-engineering/SKUs/), only a signed order form is required.
 
@@ -728,11 +728,11 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 - Scoped/Custom Services must always be quoted on a standalone opportunity, separately from any subscription products SKUs. (i.e.; You may NOT sell a 12 month SaaS Ultimate SKU on the same quote/ opportunity as Scoped/Custom Services).
 - Create a New Business Opportunity and select “Professional Services Only” under “Opportunity Record Type.”
 - Create a new subscription quote under the Professional Services opportunity by following the steps above under “new Subscription Quote.”
-  - **If the SOW contains purely Professional Services**, select the "GitLab Service Package" SKU. Update the price to reflect the total price on the SOW. **DISREGARD DISCOUNT APPROVALS**. 
-  - **If the SOW contains purely Education Services**, select the matching training and/or certification SKUs. Update the price to reflect the total price on the SOW. If you cannot find a match, use the `Custom PS Education Services` SKU. 
-  - **If the SOW contains a mixture of Professional Services and Education Services**, two separate quotes should be created under the same opportunity. 
+  - **If the SOW contains purely Professional Services**, select the "GitLab Service Package" SKU. Update the price to reflect the total price on the SOW. **DISREGARD DISCOUNT APPROVALS**.
+  - **If the SOW contains purely Education Services**, select the matching training and/or certification SKUs. Update the price to reflect the total price on the SOW. If you cannot find a match, use the `Custom PS Education Services` SKU.
+  - **If the SOW contains a mixture of Professional Services and Education Services**, two separate quotes should be created under the same opportunity.
       - Create one quote using the `GitLab Service Package` SKU and reflect the Time and Materials value from the SOW.
-      - Create a second quote using the matching training/certification SKU(s). 
+      - Create a second quote using the matching training/certification SKU(s).
       - The sum of the values from these two quotes should equal to the total price on the SOW. **Note: Once this second quote is added, it is likley to overwrite the "Professional Services Value" field against the opportunity. Please ensure that this field continues to reflect the sum of both quotes, in line with the overall SOW.**
     - To determine which portion of the SOW is for Professional Services vs. Education Services, note the following: Education and Services are split out on the SOW in separate sections. The Education portion would display standard SKU names such as "CI/CD Training" and "Admin Training" and will contain a total cost for the full Education portion. The Services portion would be custom, but would often denote "Time and Materials" or "PS Hours" and will contain a total cost for the full Services Portion.
 
@@ -740,7 +740,7 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 **Note: You do not need to submit the quote for Custom services for approval.** Approvals will be handled by the Engagement Manager via the scoping issue, and any discounts in rate should be handled separately via Chatter, as per the [Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y). The SAE/AE remains responsible for obtaining any approvals required. As well as discounts in price, this also includes increased payment terms. Once approved, the SOW will be sent to the customer for signature, not the quote/order form.
 - To gain support from the Professional Services team with a Custom SOW, initiate a scoping issue using the [Services Calculator](https://services-calculator.gitlab.io/) and work with a Professional Services [Engagement Manager](/handbook/customer-success/professional-services-engineering/engagement-mgmt/).
 
-##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure:
+##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure
 
 - Ensure that a supporting Quote object has been created with the amount matching the SOW amount (as per above)
 - Please note that the following items must be attached to the opportunity before it can be Closed Won:
@@ -748,7 +748,7 @@ To learn more about the SuperSonics Billing and Subscription Management experien
     - Cost Estimate (COGS) spreadsheet (Link provided by the PS team)
     - A supporting Purchase Order (PO), or email from the Customer stating that a PO is not required for invoicing
 
-### My Customer Bought the wrong Product!
+### My Customer Bought the wrong Product
 
 If a deal was booked with SaaS but the customer wanted Self Managed (vice versa), you will need to build an Add On Opp and Amendment quote to make the change to the subscription.
 
@@ -895,7 +895,7 @@ Ramp Deals are multi-year deals in which products can incrementally vary in pric
 
 **Opportunities submitted for booking that do not meet these requirements will be rejected by the Order Management team.**
 
-###### How to amend an existing ramp deal, created before 2023-03-01:
+###### How to amend an existing ramp deal, created before 2023-03-01
 
 To amend a ramp deal created before 2023-03-01, tag @Sales-Support in chatter on the opportunity. Deal Desk will create the quotes and Order Form. **Provide the following information for each ramp period:**
 - Start date and term length

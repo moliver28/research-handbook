@@ -20,7 +20,7 @@ This applies to the following systems:
 - Adaptive Insights
 - Avalara
 - Coupa
-- Expensify
+- Navan
 - NetSuite
 - Stripe
 - Zuora Billing
@@ -60,19 +60,19 @@ On top of the [GitLab Access Request](/handbook/business-technology/end-user-ser
 |                   | - Standard                             |                   |
 |                   | **Levels:**                            |                   |
 |                   | - Listed out.                          |                   |
-|                   | - Be extremely cautious with levels. If Master Corporate or Corporate checkbox is selected, the requester will inherently have access to everything, which is unlikely what was intended.                       |
+|                   | - Be extremely cautious with levels. If Master Corporate or Corporate checkbox is selected, the requester will inherently have access to everything, which is unlikely what was intended.                       | |
 | Avalara | AR should explicitly state the **Exact** role they are requesting access to.| Roles are not customizable. |
 | | **Roles:** | |
 |                   | - Account administrator                       |                   |
-|                   | - Company administrator
+|                   | - Company administrator | |
 |                   | - Read-only account access                     |                   |
 |                   | - Read-only company access                     |                   |
 |                   | - No access                    |                   |
 | Coupa | | Note: Requestors/buyers will always only get ***Custom User*** role. Elevated access requires Procurement approval.|
-| Expensify | AR should explicitly state the **Exact** role they are requesting access to **AND** which policies. | There are a lot of policies within Expensify. Typically the only ARs the team will get are for Expensify Admins. Team members are automatically provisioned.|
+| Navan | AR should explicitly state the **Exact** role they are requesting access to **AND** which policies. | There are a lot of policies within Navan. Typically the only ARs the team will get are for Navan Admins. Team members are automatically provisioned.|
 |           | |Since most of the ARs are for finance system admins, they will usually need access to all the policies in which case the team does not have to list out all the policies in the AR.|
 | NetSuite |AR should explicitly state the **Exact** NetSuite role that they are requesting before the Business Owner approves the AR. ||
-|Stripe | AR should explicitly state the **Exact** role they are requesting access to **AND** which Stripe Accounts:| Roles are not customizable.|  
+|Stripe | AR should explicitly state the **Exact** role they are requesting access to **AND** which Stripe Accounts:| Roles are not customizable.|
 |                   | - about.gitlab                      |                   |
 |                   | - Bizzabo                             |                   |
 |                   | - GitHost           |                   |
@@ -82,7 +82,7 @@ On top of the [GitLab Access Request](/handbook/business-technology/end-user-ser
 |                   | - Analyst                             |                   |
 |                   | - Developer           |                   |
 |                   | - Support Specialist                     |                   |
-|                   | - View Only                          |  
+|                   | - View Only                          | |
 | Zuora Billing | AR should explicitly list the role they are requesting access to for **EACH** module:| |
 | | - Platform| |
 | | - Billing| |

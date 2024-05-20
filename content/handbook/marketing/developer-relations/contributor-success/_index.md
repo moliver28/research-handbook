@@ -12,7 +12,7 @@ description: "Contributor Success Team"
 | **Team Boards** | [`gitlab-org/-/boards/4296693`](https://gitlab.com/groups/gitlab-org/-/boards/4296693) |
 | **Issue Tracker** | [`gitlab-org/developer-relations/contributor-success/team-task`](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues) |
 
-- - -
+---
 
 ## Sub-pages
 |  | |
@@ -24,7 +24,7 @@ description: "Contributor Success Team"
 | **Community pairing sessions** | [Community pairing sessions](/handbook/marketing/developer-relations/contributor-success/community-pairing-sessions) |
 | **Innovation Pitch Competition** | [Innovation Pitch Competition](/handbook/marketing/developer-relations/contributor-success/innovation-pitch-competition) |
 
-- - -
+---
 
 ## Strategy
 
@@ -360,6 +360,8 @@ A curated list of external resources for improving open source community relatio
 - [The secrets to onboarding new open source contributors](https://github.com/readme/featured/contributor-onboarding)
 
 - [The privilege of free time in Open Source](https://dri.es/the-privilege-of-free-time-in-open-source)
+
+- [Good first issues don't exist](https://opensauced.pizza/blog/good-first-issues-dont-exist)
 
 ## Community Office Hours
 

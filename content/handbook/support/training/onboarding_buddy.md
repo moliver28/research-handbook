@@ -37,14 +37,14 @@ Note that everyone's needs are different, so consider the following as a list of
 - Meet and get to know each other
 - Answer general questions
 - Talk about your “schedule” and how you work every day - walk them through a few example days
-- Talk about how to use tools like Slack, Expensify, etc.
+- Talk about how to use tools like Slack, Navan, etc.
 - Show them some helpful Slack channels
 - Which Slack channels to keep track of daily
 - Which Google docs to keep track of (SWIR, etc.)
 - Show them some helpful handbook pages to read during onboarding
 - Show them the GitLab [architecture diagrams](/handbook/customer-success/professional-services-engineering/workflows/artifacts/arch-diagram.html)
 - Show them some product or [support-team-meta](https://gitlab.com/gitlab-com/support/support-team-meta) issues and clarify that they can contribute to anything
-- Remind them they can get reimbursed for any books or training, and show them the [Spending Company Money](/handbook/spending-company-money/) page. If it's expensive, talk to their manager first.
+- Remind them they can get reimbursed for any books or training, and show them the [Spending Company Money](/handbook/finance/spending-company-money/) page. If it's expensive, talk to their manager first.
 - Show them our [Testing Environments](/handbook/support/workflows/test_env), and introduce them to GitLab Sandbox Cloud for GCP (which replaced [support-resources](https://gitlab.com/gitlab-com/support/support-resources))
 - Help them update the [GitLab team page](/handbook/company/team/) with their info (one of their Onboarding Issue checklist items)
 

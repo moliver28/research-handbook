@@ -24,7 +24,7 @@ After your team `onsite`, we hope you'll feel:
 1. Connected with shared understanding and trust
 1. Trusting and connected with those with whom you work most closely
 
-### Let us help you plan your onsite!
+### Let us help you plan your onsite
 
 The GitLab Talent Engagement team is here to support your onsite planning. We can help you plan activities and make suggestions on how you can best spend this time together in person. To request this custom support, please [open an issue here using the `onsite-support` template](https://gitlab.com/gitlab-com/people-group/learning-development/custom-ld-engagement/-/issues/new).
 
@@ -62,7 +62,6 @@ Spending time during a team meeting to set norms for your `onsite` will begin to
 1. **Assign prework:** Depending on the goals you've set and the activities you've planned, assign prework to help your team prepare. This might be a video, article, or activity to complete prior to meeting in person.
 1. **Clarify expectations around attendance:** Make it clear that remote participation will be offered, but in person attendance is preferred whenever possible.
 
-
 ## Activity Planning
 
 The all-remote structure at GitLab is efficient and collaborative. It works really well for problem solving, independent work, and all forms of collaboration - not to mention things like getting up to date on GitLab to-dos and Slack messages.
@@ -82,7 +81,6 @@ Make the most of `onsites` with intentional time to get to know one another.
      - Temperature Check: ask folks to share how they are feeling to start the day on a color or number scale. Give space to elaborate if comfortable.
 1. **Incorproate flexible social time:** Plan team lunch or dinner, exercise classes, group walks, cooking classes, or tours to explore the city where you're meeting. Be mindful of mobility limitations and your team members' individual needs.
 1. **Balance team building with independent time:** We all need space to recharge. Avoid booking each day solid with activities. Ensure there is time for folks to return to their hotel room or spend time alone to feel ready for each day's activities.
-
 
 ### Consider Utilizing Design Thinking Exercises
 
@@ -120,7 +118,6 @@ It's challenging to include remote participants in team building, especially in 
 
 1. Plan team building that allows for remote participation. For example, in a cooking or painting class, you could accommodate with a Zoom set up so remote participants can follow along. [WithConfetti](https://www.withconfetti.com/) is a great resource for sessions and ideas.
 1. Encourage, and provide budget, for remote participants to get together with other remote participants. This could look like a Zoom happy hour, or a shared meal for all remote participants.
-
 
 ## Ready to get planning?
 

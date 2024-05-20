@@ -1,11 +1,13 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Use GitLab Administration Commands"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "This Hands-On Guide walks you through using GitLab command gitlab-ctl to control GitLab services"
 ---
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson2.md).
+## Objectives
+
+The objective of this lab is to show various gitlab-ctl commands you can use to manage your GitLab instance via the CLI. These commands can be ran after installation. For a full list of all the commands you can use with gitlab-ctl, please click [here](https://docs.gitlab.com/omnibus/maintenance/).
 
 ### Task A. Run basic service status commands
 
@@ -37,7 +39,7 @@ description: "This hands-on lab guide is designed to walk you through the lab ex
     run: sidekiq: (pid 20798) 297s; run: log: (pid 20806) 296s
     ```
 
-    > To learn more about these components and how they interact, check out the [documentation](https://docs.gitlab.com/ee/development/architecture.html). 
+    > To learn more about these components and how they interact, check out the [documentation](https://docs.gitlab.com/ee/development/architecture.html).
 
 1. In the output, you will see the `pid`, or process ID of each GitLab service. This process ID verifies that the process is actively running on the system.
 
@@ -75,11 +77,11 @@ description: "This hands-on lab guide is designed to walk you through the lab ex
 
 1. In the bottom left corner of the main screen in the sidebar, click **Admin Area**.
 
-1. You will first adjust default project visibility settings. Scroll to the bottom of the left hand navigation pane and click **Settings** > **General**. 
+1. You will first adjust default project visibility settings. Scroll to the bottom of the left hand navigation pane and click **Settings** > **General**.
 
 1. Under **Visibility and access controls**, click **Expand**.
 
-1. Change the `Default project visibility` to **Internal** by clicking the associated radio button. 
+1. Change the `Default project visibility` to **Internal** by clicking the associated radio button.
 
 1. Change the `Default group visibility` to **Internal** by clicking on the associated radio button.  
 
@@ -87,7 +89,7 @@ description: "This hands-on lab guide is designed to walk you through the lab ex
 
 1. The second setting we will update are Sign-In restrictions. Still under **Settings** > **General**, click **Collapse** next to **Visibility and access controls**.  
 
-1. Under **Sign-in restrictions**, click **Expand**. 
+1. Under **Sign-in restrictions**, click **Expand**.
 
 1. Under **Two-factor authentication**, click the checkbox next to **Enforce two-factor authentication**.  
 
@@ -97,7 +99,7 @@ description: "This hands-on lab guide is designed to walk you through the lab ex
 
 You can personalize your GitLab instance by uploading a header logo.
 
-1. On the left hand side panel, click **Settings > Appearance**. 
+1. On the left hand side panel, click **Settings > Appearance**.
 
 1. Under the **Navigation Bar section**, click **Choose File**.  
 

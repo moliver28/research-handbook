@@ -39,11 +39,13 @@ Reach out to `@gdoyle` on Slack if you have questions or want help brainstorming
 ## Project proposals
 
 Do you have a project that has been in the backlog for a while now? It could be a good one for the students to take on! In general, the best projects include:
+
   - A loosely defined scope so that the students can bring their creativity. The instructor may suggest the students scope it down so they can complete it in the 4 month semester. For example, improving the GitLab CI/CD onboarding flow. This topic provides enough flexibility to go through the entire design process but also allows the students to scope it down to evaluate specific areas of the onboarding flow and target certain users.
   - An opportunity to perform discovery research, design (prototype), and solution validation.
   - Async-first approach.
   
 Each project proposal should include a summary with:
+
  - **A title:** A concise and catchy name for the project. This is one of the first things the students will see when choosing their project for the semester.
  - **Description:** A summary of the problem, including a problem statement and general background about the concepts that would make sense to beginner, non-GitLab users.
 

@@ -27,53 +27,41 @@ This first gathers the data from Salesforce. This is done via the following SOQL
 
 ```sql
 SELECT
-  Account.Account_ID_18__c,
-  Account.Name,
-  Account.CARR_This_Account__c,
-  Account.Ultimate_Parent_Sales_Segment_Employees__c,
-  Account.Account_Owner_Calc__c,
-  Account.Number_of_Licenses_This_Account__c,
-  Account.Type,
-  Account.Technical_Account_Manager_Name__c,
-  Account.Account_Demographics_Geo__c,
-  Account.GS_Health_Score_Color__c,
-  Account.Next_Renewal_Date__c,
-  Account.Restricted_Account__c,
-  Account.Partners_Partner_Status__c,
-  Account.Partners_Partner_Type__c,
-  Account.Partner_Track__c,
-  (SELECT
-     Current_Subscription_Status__c,
-     Current_Term_End_Date__c,
-     Current_Term_Start_Date__c,
-     Entitled_Seats__c,
-     Product_Tier_Name_Short__c,
-     Plan_Name__c
-   FROM Customer_Subscriptions__r
-   WHERE Current_Subscription_Status__c = 'Active'),
-  (SELECT
-     Name,
-     Zuora__Status__c,
-     Zuora__SubscriptionEndDate__c,
-     Zuora__SubscriptionStartDate__c,
-     Support_Level__c,
-     Zuora__OpportunityName__c,
-     Zuora__SubscriptionNumber__c
-   FROM Zuora__Subscriptions__r
-   WHERE Zuora__Status__c = 'Active'),
-  (SELECT
-     Name,
-     Zuora__SoldToWorkEmail__c
-   FROM Zuora__R00N40000001kyLcEAI__r
-   WHERE IsDeleted = false)
+  Account_ID_18__c,
+  Name,
+  Type,
+  Ultimate_Parent_Sales_Segment_Employees__c,
+  Account_Owner_Calc__c,
+  Technical_Account_Manager_Name__c,
+  GS_Health_Score_Color__c,
+  Restricted_Account__c,
+  Solutions_Architect_Lookup__r.Name,
+  Account_Demographics_Geo__c,
+  Latest_Sold_To_Contact__r.Email,
+  Latest_Sold_To_Contact__r.Name,
+  Partner_Track__c,
+  Partners_Partner_Type__c,
+  (
+    SELECT
+      Id,
+      Name,
+      Zuora__ProductName__c,
+      Zuora__EffectiveEndDate__c,
+      Zuora__Quantity__c,
+      Zuora__TotalContractValue__c,
+      Subscription_Status__c
+    FROM Zuora__R00N40000001lGjTEAU__r
+    WHERE
+      Zuora__EffectiveEndDate__c != NULL
+  )
 FROM Account
 WHERE
-  (Account.Type IN ('Customer', 'Former Customer') OR
-   Account.Account_ID_18__c = '0014M00001sGJ8xQAG') OR
-  (Account.Type = 'Partner' AND
-   Account.Partners_Partner_Status__c IN ('Authorized', 'Former') AND
-   Account.Partners_Partner_Type__c IN ('Alliance', 'Channel') AND
-   Account.Partner_Track__c IN ('Open', 'Select', 'Technology')
+  Type IN ('Customer', 'Former Customer') OR
+  (
+    Type = 'Partner' AND
+    Partners_Partner_Status__c IN ('Authorized', 'Former') AND
+    Partners_Partner_Type__c IN ('Alliance', 'Channel') AND
+    Partner_Track__c IN ('Open', 'Select', 'Technology')
   )
 ```
 
@@ -104,10 +92,10 @@ for them based off the information of the subscriptions (gathered earlier).
 Once that is done, the scripts then remove all "greatly expired" organizations
 from Zendesk Global in accordance with our data retention policy.
 
-## Zendesk US Federal organizations sync
+## Zendesk US Government organizations sync
 
 **Note** This set of scripts also handles the
-[Zendesk US Federal users sync](#zendesk-us-federal-users-sync). We have
+[Zendesk US Government users sync](#zendesk-us-government-users-sync). We have
 separated it into its own section for ease of readability.
 
 This first gathers the data from Salesforce. This is done via the following SOQL
@@ -118,53 +106,35 @@ This first gathers the data from Salesforce. This is done via the following SOQL
 
 ```sql
 SELECT
-  Account.Account_ID_18__c,
-  Account.Name,
-  Account.CARR_This_Account__c,
-  Account.Ultimate_Parent_Sales_Segment_Employees__c,
-  Account.Account_Owner_Calc__c,
-  Account.Number_of_Licenses_This_Account__c,
-  Account.Type,
-  Account.Technical_Account_Manager_Name__c,
-  Account.GS_Health_Score_Color__c,
-  Account.Next_Renewal_Date__c,
-  Account.Restricted_Account__c,
+  Account_ID_18__c,
+  Name,
+  Ultimate_Parent_Sales_Segment_Employees__c,
+  Account_Owner_Calc__c,
+  Technical_Account_Manager_Name__c,
+  GS_Health_Score_Color__c,
+  Restricted_Account__c,
   Solutions_Architect_Lookup__r.Name,
-  (SELECT
-     Current_Subscription_Status__c,
-     Current_Term_End_Date__c,
-     Current_Term_Start_Date__c,
-     Entitled_Seats__c,
-     Product_Tier_Name_Short__c,
-     Plan_Name__c
-   FROM Customer_Subscriptions__r
-   WHERE Current_Subscription_Status__c = 'Active'),
-  (SELECT
-     Name,
-     Zuora__Status__c,
-     Zuora__SubscriptionEndDate__c,
-     Zuora__SubscriptionStartDate__c,
-     Support_Level__c,
-     Zuora__OpportunityName__c,
-     Zuora__SubscriptionNumber__c
-   FROM Zuora__Subscriptions__r
-   WHERE Zuora__Status__c = 'Active'),
-  (SELECT
-     Name,
-     Zuora__SoldToWorkEmail__c
-   FROM Zuora__R00N40000001kyLcEAI__r
-   WHERE IsDeleted = false)
+  (
+    SELECT
+      Id,
+      Name,
+      Zuora__ProductName__c,
+      Zuora__EffectiveEndDate__c,
+      Zuora__Quantity__c,
+      Zuora__TotalContractValue__c,
+      Subscription_Status__c
+    FROM Zuora__R00N40000001lGjTEAU__r
+  )
 FROM Account
 WHERE
-  Type IN ('Customer', 'Former Customer')
-  AND (
+  (
+    Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
+    Account_Demographics_Territory__c != 'PUBSEC_' AND
     (
-      Account_Demographics_Territory__c LIKE 'PUBSEC%'
-      AND Account_Demographics_Territory__c != 'PUBSEC_'
-      AND (NOT Account_Demographics_Territory__c LIKE '%SLED%')
+      NOT Account_Demographics_Territory__c LIKE '%SLED%'
     )
-    OR Support_Instance__c = 'federal-support'
-  )
+  ) OR
+  Support_Instance__c = 'federal-support'
 ```
 
 </details>
@@ -172,22 +142,20 @@ WHERE
 This data is then processed by the script to verify the account's subscriptions
 (both Customer and Zuora).
 
-From here, it then gathers all the organization data from Zendesk US Federal.
-This does very little actual processing of the data, short of ignoring tags that
-aren't related to the sync itself.
+From here, it then gathers all the organization data from Zendesk US Government.
 
 The scripts then compares the data from Salesforce and the data from Zendesk
-US Federal. From this comparison, it locates Zendesk US Federal organizations
-that need to be updated and ones that need to be created.
+US Government. From this comparison, it locates Zendesk US Government
+organizations that need to be updated and ones that need to be created.
 
-The scripts will then begin syncing this information to Zendesk US Federal,
+The scripts will then begin syncing this information to Zendesk US Government,
 updating organizations that need updating and creating the ones that need
 creation.
 
-## Zendesk US Federal users sync
+## Zendesk US Government users sync
 
 **Note** This set of scripts also handles the
-[Zendesk US Federal organizations sync](#zendesk-us-federal-organizations-sync).
+[Zendesk US Government organizations sync](#zendesk-us-government-organizations-sync).
 We have separated it into its own section for ease of readability.
 
 This first gathers the data from Salesforce. This is done via the following SOQL
@@ -198,22 +166,27 @@ This first gathers the data from Salesforce. This is done via the following SOQL
 
 ```sql
 SELECT
-  Contact.Name,
-  Contact.Email,
+  Name,
+  Email,
   Account.Account_ID_18__c,
-  Account.Name,
-  Contact.Inactive_Contact__c
+  Account.Name
 FROM Contact
 WHERE
-  Contact.Inactive_Contact__c = false
-  AND Account.Type IN ('Customer', 'Former Customer')
-  AND (
+  Inactive_Contact__c = false AND
+  Name != '' AND
+  Email != '' AND
+  (
+    NOT Email LIKE '%gitlab.com'
+  ) AND
+  (
     (
-      Account.Account_Demographics_Territory__c LIKE 'PUBSEC%'
-      AND Account.Account_Demographics_Territory__c != 'PUBSEC_'
-      AND (NOT Account.Account_Demographics_Territory__c LIKE '%SLED%')
-    )
-    OR Account.Support_Instance__c = 'federal-support'
+      Account.Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
+      Account.Account_Demographics_Territory__c != 'PUBSEC_' AND
+      (
+        NOT Account.Account_Demographics_Territory__c LIKE '%SLED%'
+      )
+    ) OR
+    Account.Support_Instance__c = 'federal-support'
   )
 ```
 
@@ -222,18 +195,16 @@ WHERE
 This data is then processed to remove any contacts with duplicate emails or
 missing data.
 
-From here, it then gathers all the user data from Zendesk US Federal. This does
-very little actual processing of the data, short of ignoring tags that aren't
-related to the sync itself.
+From here, it then gathers all the user data from Zendesk US Government.
 
 The scripts then compare the data from Salesforce and the data from Zendesk US
-Federal. From this comparison, it locates Zendesk US Federal users that need to
-be updated and ones that need to be created. It will use the organization data
-from the
-[Zendesk US Federal organizations sync](#zendesk-us-federal-organizations-sync)
+Government. From this comparison, it locates Zendesk US Government users that
+need to be updated and ones that need to be created. It will use the
+organization data from the
+[Zendesk US Government organizations sync](#zendesk-us-government-organizations-sync)
 to determine the organization ID.
 
-The scripts will then begin syncing this information to Zendesk US Federal,
+The scripts will then begin syncing this information to Zendesk US Government,
 updating users that need updating and creating the ones that need creation.
 
 ## Zendesk Salesforce cases sync

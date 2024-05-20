@@ -20,7 +20,6 @@ The People Group strategy is to set the [foundation for GitLab’s 3 year strate
 
 We’ve published more information about how this vision translates to strategy and OKRs for GitLab team members in this [internal-only presentation](https://docs.google.com/presentation/d/1CIRrqh0aum40L7g4MCMFaTR_mu0jG4gJot8ds6rxUrc/edit#slide=id.g2bff70f3fe6_1_691).
 
-
 ## Connect with us
 
 You can also check out pages related to People Group in the section below. If you can not find what you are looking for please do the following:
@@ -43,7 +42,7 @@ The People Group works together as one team, made up of five departments: People
 | Department | Teams |
 | ---------- | ----- |
 | People Operations | People Connect, Employment Solutions, People Compliance, People Tools & Technology, People Analytics, Team Member Relations |
-| Talent and Engagement | Talent Acquisition; Candidate Experience, Talent Acquisition Operations and Insights, Sourcing, Talent Brand<br>Engagement; Learning & Development, Engagement |
+| Talent and Engagement | Talent Acquisition; Candidate Experience, Talent Acquisition Operations and Insights, Sourcing, Talent Brand<br>Engagement; Talent Development, Engagement, Talent Management |
 | Total Rewards | Global Compensation, Benefits, and Equity Strategy |
 | People Business Partners | Aligned to Engineering, Product, Sales, Marketing, and G&A |
 | DIB |  |
@@ -88,7 +87,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 
 | Subgroup | GitLab handle | Email | Slack Group handle/channel | Greenhouse | Issue tracker |
 | -------- | ------------- | ----- | -------------------------- | ---------- | ------------- |
-| [People Business Partners](https://gitlab.com/gitlab-com/people-group/people-business-partners) | @gl-peoplepartners, *Please add the `pbp-attention` label to any issue or MR that requires PBP review, collaboration, or feedback* | peoplepartners@ gitlab.com | @peoplepartners | n/a |  |
+| [People Business Partners](/handbook/people-group/people-business-partners/) | @gl-peoplepartners, *Please add the `pbp-attention` label to any issue or MR that requires PBP review, collaboration, or feedback* | peoplepartners@ gitlab.com | @peoplepartners | n/a |  |
 | [Total Rewards](https://gitlab.com/gitlab-com/people-group/total-rewards) | @gl-total-rewards | total-rewards@ gitlab.com | #people-connect | n/a |  |
 | [People Compliance Partner](https://gitlab.com/gitlab-com/people-group/compliance) | TBA | TBA | TBA | n/a |  |
 | [People Connect Team](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/) | @gl-people-connect-team | people-connect@ gitlab.com | @people-connect-team | n/a |  |
@@ -103,6 +102,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | [Candidate Experience Specialist](/job-families/people-group/candidate-experience) | @gitlab-com/gl-ces | ces@ gitlab.com | @ces | @ces* |  |
 | Talent Acquisition Operations and Insights | @gl-talent acquisitionops | talentacquisitionops@ gitlab.com | @talent-acquisition-ops | @talent-acquisitionops |  |
 | Sourcing | @gl-sourcingteam | n/a | @sourcingteam | n/a |  |
+| [People Analytics](/handbook/people-group/people-ops-tech-analytics/people-analytics/) | No alias, create issues for People Analytics [here](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/issues/?sort=updated_desc&state=opened&first_page_size=100) | n/a | @peopleanalyticstriage | n/a | [People Analytics Issue Board](https://gitlab.com/gitlab-com/people-group/people-analytics/general/-/boards/5251608) |
 
 ## People Group Program Calendar for Managers and Team Members
 
@@ -196,7 +196,7 @@ GitLab does not actively search for LinkedIn profiles that have inaccurate infor
 - If the team member cannot confirm the profile, team members should reach out to the People Connect Team in the #people-connect Slack channel with the LinkedIn profile in question.
 - The People Connect Team member will confirm in Workday that they are not/have not been a team member.
 - The People Connect Team member will confirm with talent acquisition to confirm if they have ever been interviewed, made an offer or were declined.
-- The People Connect Team member will reach out to the [Developer Relations team](/handbook/marketing/community-relations/) to confirm if they are an active wider community member via the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel, using the `@devrel-team` tag.
+- The People Connect Team member will reach out to the [Developer Relations team](/handbook/marketing/developer-relations/) to confirm if they are an active wider community member via the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel, using the `@devrel-team` tag.
 - If they are a confirmed member of the wider community but not a team member, the Developer Relations team will reach out the profile and ask them to change their profile to match their GitLab involvement.
 - If they are not a current member of the wider community and talent acquisition has confirmed they do not have a profile in Greenhouse, talent acquisition will create a Do Not Hire profile.
 - The People Connect Team member will report the account to LinkedIn via the [Reporting Inaccurate Information on Another Member's Profile](https://www.linkedin.com/help/linkedin/answer/30200?src=or-search&veh=www.google.com%7Cor-search)
@@ -254,7 +254,6 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 
 - [Learning & Development]({{< ref "learning-and-development" >}})
 - [Guidance on Feedback]({{< ref "guidance-on-feedback" >}})
-
 
 ### Diversity, Inclusion and Belonging
 

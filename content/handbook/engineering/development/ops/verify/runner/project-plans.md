@@ -15,11 +15,11 @@ description: "This project's scope is to replace the current autoscaling technol
 **Runner Team DRI:** Arran Walker
 
 **Description:** This project's scope is to replace the current autoscaling technology, Docker Machine, used for the GitLab SaaS Shared Runners. To view the complete implementation plan
-please visit [the parent epic](https://gitlab.com/groups/gitlab-org/-/epics/6995) that is currently tracking this work. 
+please visit [the parent epic](https://gitlab.com/groups/gitlab-org/-/epics/6995) that is currently tracking this work.
 
 ### Week of 2023-09-18
 
-#### Goals:
+#### Goals
 
 - ~~[ ] `fleeting`: [Log AWS Autoscaling Activity](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-aws/-/issues/11)~~
   - Implemention revealed questions about whether we really want/need this.
@@ -28,31 +28,31 @@ please visit [the parent epic](https://gitlab.com/groups/gitlab-org/-/epics/6995
 
 ### Week of 2023-09-25
 
-#### Goals:
+#### Goals
 
 - [X] `fleeting-plugin-aws`: [AWS plugin integration tests](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-aws/-/issues/7)
 - [X] `taskscaler`: [Integration tests](https://gitlab.com/gitlab-org/fleeting/taskscaler/-/issues/3)
 
 ### Week of 2023-10-02
 
-#### Goals:
+#### Goals
 
 - [X] `fleeting-plugin-googlecompute`: [GCP plugin integration tests](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-googlecompute/-/issues/8)
 - [X] `runner`: [Taskscaler-based executor integration tests](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/30880)
 
 ### Week of 2023-10-09
 
-#### Goals:
+#### Goals
 
 - [X] `fleeting-plugin-googlecompute`: [GCP plugin integration tests](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-googlecompute/-/issues/8)
 - [X] `runner`: [Taskscaler-based executor integration tests](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/30880)
 - [ ] `fleeting-plugin-googlecompute`: [Unit tests](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-googlecompute/-/issues/7)
-- [X] `runner-incept`: [End-to-End test runner manager in GCE](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/36794) 
+- [X] `runner-incept`: [End-to-End test runner manager in GCE](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/36794)
 - [X] `fleeting-plugin-googlecompute`: [Recommend minimum IAM permissions for google compute plugin](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/29452)
 
 ### Week of 2023-10-16
 
-#### Goals:
+#### Goals
 
 - [X] `fleeting-plugin-azure`: [Add README / configuration options](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-azure/-/issues/1)
 - [ ] `fleeting-plugin-azure`: [Unit tests](https://gitlab.com/gitlab-org/fleeting/fleeting-plugin-azure/-/issues/2)
@@ -80,7 +80,7 @@ The project plan tracking this work can be [found here](https://gitlab.com/gitla
 
 ### Week of 2023-10-02
 
-#### Goals:
+#### Goals
 
 - [X] Consolidate all work under a single sub-epic.
   Update issue and epic structure to reflect our agreement to deliver infrastructure-as-a-library (GRIT) and for Environment Automation to operate the runners themselves.
@@ -89,16 +89,16 @@ The project plan tracking this work can be [found here](https://gitlab.com/gitla
 
 Clarified epic and issue structure with Dedicated ([thread](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/2825#note_1586917812)).
 New project plan for Runner side to replace previous epic: https://gitlab.com/gitlab-org/ci-cd/shared-runners/infrastructure/-/issues/158
-New GRIT sub-epic to track all library work for this use-case: https://gitlab.com/groups/gitlab-org/ci-cd/runner-tools/-/epics/2 
+New GRIT sub-epic to track all library work for this use-case: https://gitlab.com/groups/gitlab-org/ci-cd/runner-tools/-/epics/2
 
-#### Goals:
+#### Goals
 
 - [X] Create a provisional Docker capable Linux AMI
 - [X] Update [`dev` environment](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/blob/master/modules/dev/dev.tf) to support Linux.
 
 ### Iteration 16.6 (ending 2023-11-17)
 
-#### Goals:
+#### Goals
 
 - [X] Complete test template working end-to-end
 - [X] Complete prod template working end-to-end
@@ -112,7 +112,7 @@ Completed end-to-end functionality for both the test template and prod template.
 End-to-end testing has been added and unit tests are in-progress as we decide a reusable approach for all unit test cases.
 The [demo video for GRIT beta prod](https://www.youtube.com/watch?v=K_eOuXN-nXM) was recorded, demonstrating the latest state of GRIT using the prod template.
 
-#### Iteration Goals:
+#### Iteration Goals
 
 - [ ] Unit tests (in progress: https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/merge_requests/6)
 - [ ] Allow users to bring your own VPC (https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/35)
@@ -124,7 +124,7 @@ If you haven\'t had a chance, please check out the [demo video for GRIT beta pro
 Progress was made last week on adding unit tests, and the only blocker appears to be an issue that is breaking e2e tests in both the unit test branch and the `master` branch. We will investigate and get the test passing this week.
 We will also update READMEs to reflect the recent changes and refactors as well as begin adding granularity to VPC configuration in the `prod` module.
 
-#### Goals:
+#### Goals
 
 - [x] Add Unit tests (in progress: https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/merge_requests/6)
 - [x] Begin issue: [Allow users to bring your own VPC](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/35)
@@ -140,7 +140,7 @@ with the fixes for GCP configs in the README is to cover only those README cases
 thorough GCP tests when we move our focus to GCP at a later date. We also [began discussions](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/35#note_1674412071)
 on how to customize VPCs and subnets in Dedicated Runners.
 
-#### Goals:
+#### Goals
 
 - [ ] [Fix broken README configurations](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/38)
 - [ ] [Update READMEs to match latest changes](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/issues/36)
@@ -157,9 +157,9 @@ The result is improved developer efficiency, reduced costs, and excellent custom
 
 ### Week of 2023-10-02
 
-#### Goals:
+#### Goals
 
-- [x] Enable [ClickHouse connection on Staging]()
+- [x] Enable ClickHouse connection on Staging
 - [x] Enable [Runner Dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/417002) on Staging
 - [ ] Enable [CI data ingestion](https://gitlab.com/gitlab-org/gitlab/-/issues/421203) on Staging
 - [x] Enable [ClickHouse part of the dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/424498) on Staging
@@ -167,6 +167,7 @@ The result is improved developer efficiency, reduced costs, and excellent custom
 #### Summary
 
 We got everything working on Staging, but discovered two bugs in data ingestion:
+
 1. [duplicating some data](https://gitlab.com/gitlab-org/gitlab/-/issues/427427)
 1. [not handling removed `ci_builds`](https://gitlab.com/gitlab-org/gitlab/-/issues/427421)
 
@@ -181,7 +182,7 @@ There are [ongoing discussions](https://gitlab.com/gitlab-org/gitlab/-/issues/42
 
 Continuing to focus on issues found last week with the goal of re-enabling dashboard on staging and production.
 
-#### Goals:
+#### Goals
 
 - [x] Fix [duplication bug](https://gitlab.com/gitlab-org/gitlab/-/issues/427427)
 - [x] Fix [removed ci_builds bug](https://gitlab.com/gitlab-org/gitlab/-/issues/427421)

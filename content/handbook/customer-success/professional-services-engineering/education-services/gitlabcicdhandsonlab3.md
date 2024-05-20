@@ -1,11 +1,9 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Create A Basic CI Configuration"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you through creating and running a .gitlab-ci.yml file."
 ---
 
 > Estimate time to complete: 15 - 20 minutes
-
-> **We are transitioning to the latest version of this course.** If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab3.md).
 
 ## Objectives
 
@@ -15,7 +13,7 @@ The `.gitlab-ci.yml` file allows you to define the stages and jobs for your CI/C
 
 1. Open your **CICD Demo** project from the last lab.
 
-1. On the left Navigation pane click **Code > Repository**. Click on your `.gitlab-ci.yml` file to view its contents. Click **Edit > Edit single file**. Replace all the code in `.gitlab-ci.yml` with the content of the following snippet: 
+1. On the left Navigation pane click **Code > Repository**. Click on your `.gitlab-ci.yml` file to view its contents. Click **Edit > Edit single file**. Replace all the code in `.gitlab-ci.yml` with the content of the following snippet:
 
     ```yml
     stages:
@@ -33,7 +31,7 @@ The `.gitlab-ci.yml` file allows you to define the stages and jobs for your CI/C
         - echo "I am a build image!"
     ```
 
-    > Note: the pipeline logic will be almost identical to what you had previously, just the job names and echo statements will change slightly.
+    > The pipeline logic will be almost identical to what you had previously, just the job names and echo statements will change slightly.
 
 1. In the **Commit message** field, type `Add CI starter`, set the **Target Branch** to `main`, and click **Commit changes**.
 

@@ -1,29 +1,16 @@
 ---
-
 title: "Infrastructure Environments"
 ---
-
-
-
-
-
-
-
 
 ## Environments
 
 Terraform control for the environments can be found [on ops](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/tree/master/environments)
 
-<div class="panel panel-info">
-<div class="panel-heading">
-Future Iteration with Infrastructure Standards
-</div>
-<div class="panel-body">
-We have a WIP initiative to iterate on our company-wide infrastructure standards. You can learn more about this on the <a href="/handbook/infrastructure-standards">infrastructure standards handbook page</a>.<br />
-<br />
+{{% panel header="**Future Iteration with Infrastructure Standards**" header-bg="info" %}}
+We have a WIP initiative to iterate on our company-wide infrastructure standards. You can learn more about this on the <a href="/handbook/infrastructure-standards">infrastructure standards handbook page</a>.
+
 This page will be refactored incrementally as the standards are documented, implemented, and changes to environments take place.
-</div>
-</div>
+{{% /panel %}}
 
 ### Development
 
@@ -125,7 +112,8 @@ If you need an account to test QA issues assigned to you on Staging, you may alr
 Staging-Canary is an environment subset or deployment "stage" in the Staging environment, sharing most of the same infrastructure as Staging. This additional stage is designed to assist us with capturing issues arising due to mixed deployments, where we have multiple versions of one or more components of GitLab that share services such as the database. Information on how to access it, use it, and what services it covers is documented in our [handbook page
 on canary stage environments](/handbook/engineering/infrastructure/environments/canary-stage/).
 
-Staging-Canary deployments precede Staging deployments as described in [releases](/handbook/engineering/releases), with deployments occurring with the same frequency of Staging. It is important to note that there are two sets of blocking `smoke` and `reliable` QA tests that are executed on deployment. One set of tests targets Staging-Canary specifically. The other set targets Staging. **Both sets of tests must pass** for the Staging-Canary deployment to succeed. This is designed specifically to help flush out issues that occur from mixed version deployment environments. You can determine which environment tests are failing in by examining the Downstream QA pipelines.
+Staging-Canary deployments precede Staging deployments as described in [releases](/handbook/engineering/releases), with deployments occurring with the same frequency of Staging. It is important to note that there are two sets of blocking `smoke` test suite that are executed on deployment. One set of tests targets Staging-Canary specifically. The other set targets Staging. **Both sets of tests must pass** for the Staging-Canary deployment to succeed. This is designed specifically to help flush out issues that occur from mixed version deployment environments. You can determine which environment tests are failing in by examining the Downstream QA pipelines.
+
 ### Staging Ref
 
 | **Name** | **Short Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |

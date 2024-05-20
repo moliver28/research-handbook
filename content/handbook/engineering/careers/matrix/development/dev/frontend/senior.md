@@ -23,6 +23,7 @@ title: "Dev Career Framework: Senior Frontend Engineer"
 
 {{% include "includes/engineering-careers/senior-technical-competency.md" %}}
 {{% include "includes/engineering-careers/development-senior-technical-competency.md" %}}
+
 - High level of expertise in frontend programming languages and GitLab's default frontend frameworks
 - Able to provide architectural guidance on REST and GraphQL API design
 - Able to utilize Websockets to create real-time updating UIs
@@ -30,7 +31,7 @@ title: "Dev Career Framework: Senior Frontend Engineer"
 - Identify and address slow and inefficient frontend implementations in GitLab's code bases
 - Debug production issues across services and multiple levels of the technical stack
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-senior-values-competency.md" %}}

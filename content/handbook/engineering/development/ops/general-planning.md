@@ -18,14 +18,13 @@ The goals of this process are to ensure we:
 
 Teams can customize this process to meet needs specific to their team as long as the customizations are documented on their team handbook page.
 
-
 #### 1 month before start of milestone
 
 * PM: create a Planning Issue for the milestone from the team's [Planning Issue Template](#planning-issue-template).
 * PM: Set the Planning Issue milestone based on the current working milestone (e.g. Planning Issue 12.10 goes in milestone 12.9).
 * PM: update **Goals for the Milestone** in Planning Issue description.
 * PM: assign the Planning Issue to the PM, Engineering Managers, Product Designer, and Software Engineer in Test.
-* PM: ask for feedback on the **Goals for the Milestone** by adding comments for the product group members and other teams' group members if cross-team collaboration is required. 
+* PM: ask for feedback on the **Goals for the Milestone** by adding comments for the product group members and other teams' group members if cross-team collaboration is required.
 
 #### ~3 weeks before start of milestone
 
@@ -54,6 +53,7 @@ Teams can customize this process to meet needs specific to their team as long as
 
 Planning issue templates follow a format similar to this. Teams can add additional headings specific to their team.
 
+```markdown
     ### <Section> Planning Board
     <!-- link to your sections planning board -->
 
@@ -77,7 +77,7 @@ Planning issue templates follow a format similar to this. Teams can add addition
 
     ### Scope of Work for Engineering Debt
 
-    <!-- What work of Engineering Debt from the past will Engineering be focused on? 
+    <!-- What work of Engineering Debt from the past will Engineering be focused on?
           - Should be at least 1 Issue per Milestone
           - The more we can handle the better... balance
     -->
@@ -85,10 +85,10 @@ Planning issue templates follow a format similar to this. Teams can add addition
     | Issue | When it should be ready |
     |-------|-------------------------|
     |       |                         |
-    
+
     ### Scope of New Work for UX
 
-    <!-- What new work will UX be focused on? 
+    <!-- What new work will UX be focused on?
           - Design based on research in previous Milestones
           - Research to help inform designs for future Milestones
           - Research to validate previously designed UI
@@ -100,7 +100,7 @@ Planning issue templates follow a format similar to this. Teams can add addition
 
     ### Scope of Work for Deferred UX
 
-    <!-- What work of Deferred UX from the past will UX be focused on? 
+    <!-- What work of Deferred UX from the past will UX be focused on?
           - Should be at least 1 Issue per Milestone
           - The more we can handle the better... balance
     -->
@@ -117,14 +117,14 @@ Planning issue templates follow a format similar to this. Teams can add addition
     |-------|--------------------|--------|
     |       |                    |        |
 
-    /label <!-- add section label here --> ~"Planning Issue" 
+    /label <!-- add section label here --> ~"Planning Issue"
+```
 
 Team Planning Issue Templates:
 
 * [Environments Team Template](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/general/-/blob/master/.gitlab/issue_templates/Planning_Issue.md)
 * [Monitor APM Team Template](https://gitlab.com/gitlab-org/monitor/apm/-/blob/master/.gitlab/issue_templates/planning-issue.md)
 * [Monitor Health Team Template](https://gitlab.com/gitlab-org/monitor/health/-/blob/master/.gitlab/issue_templates/planning-issue.md)
-
 
 #### Planning Issue Board
 

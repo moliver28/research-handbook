@@ -39,7 +39,6 @@ The Field Communications Specialist is a grade [5](/handbook/total-rewards/compe
 - You share our [values](/handbook/values/), and work in accordance with those values
 - Ability to use GitLab in day to day responsibilities
 
-
 ### Field Communications Manager
 
 The Field Communications Manager reports to the [Manager/Sr. Manager, Field Communications](/job-families/sales/field-communications/#manager-field-communications).

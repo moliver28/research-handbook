@@ -136,7 +136,7 @@ Le membre de l’équipe veillera, en particulier, à ne transmettre aucune info
 
 Les frais induits par l'utilisation du domicile d’un collaborateur du télétravail (wifi, chauffage, électricité, etc) seront couverts par l'entreprise conformément aux règles légales applicables au moment de l’engagement de la dépense.
 
-Ceci signifie que vous recevrez montant de 57,20 euros minimum par mois, dans les limites fixées par notre [politique en matière de frais](https://handbook.gitlab.com/handbook/finance/expenses/), et sous réserve que vos dépenses de télétravail réellement induites mensuellement s’élèvent, au moins, à ce moment.
+Ceci signifie que vous recevrez montant de 57,20 euros minimum par mois, dans les limites fixées par notre [politique en matière de frais](/handbook/finance/expenses/), et sous réserve que vos dépenses de télétravail réellement induites mensuellement s’élèvent, au moins, à ce moment.
 
 Actuellement, ceci est intégré à notre processus général de gestion des frais et des remboursements par le biais de notre outil d'évaluation des frais (Navan).
 
@@ -165,7 +165,6 @@ En cas de maladie ou d'accident pendant les jours de télétravail, le membre de
 #### 14. TRADUCTION
 
 En cas de conflit entre les versions en langue française et anglaise de la Charte, le texte en français prévaudra en toutes circonstances.
-
 
 ## English: GITLAB FRANCE S.A.S. REMOTE WORK CHARTER
 
@@ -332,7 +331,3 @@ In the event of a conflict between the French and English version of the Charter
 A PDF of the current version of the Charter is available [here](https://drive.google.com/file/d/1wWR8BnRFwmZURjYLHFE5_zzHh_UJB28u/view?usp=drive_link). If/when the Charter is updated, PDFs of previous versions will be made available here for transparency.
 
 - [2021 version is available here](https://drive.google.com/file/d/1rIpcgcXNVDiAyhTPnBIDohItxUwzFb3D/view?usp=drive_link).
-
-
-
-

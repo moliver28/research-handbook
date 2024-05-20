@@ -11,20 +11,20 @@ This workflow is for frequently used functions that are pre-loaded via the [Cust
 
 Using the customer console for internal requests is only for special cases in which the existing tools won't allow us to complete the task at hand.
 
-Console access is through [Teleport](https://goteleport.com/docs/connect-your-client/introduction/), and requires membership in the relevant Okta groups [documented on the CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#group-membership).  You can file an [access Request](https://handbook.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to gain membership.
+Console access is through [Teleport](https://goteleport.com/docs/connect-your-client/introduction/), and requires membership in the relevant Okta groups [documented on the CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#group-membership).  You can file an [access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to gain membership.
 
 Refer to the [CustomersDot documentation page about Teleport](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#using-teleport-for-db-rails-access) for a full overview of installing and using Teleport to access the production or staging rails console.
 
 #### Production
 
-All requests to *production* require approval of the SRE(s) on shift, and you can view your request(s) in `#infrastructure-lounge` in slack.
+All requests to *production* require approval of the SRE(s) on shift, and you can view your request(s) in `#teleport-requests` in slack.
 
 **Note** The production system will automatically invoke the support console wrapper script upon login
 
 1. You will initiate the request via Teleport using `tsh login`.
    - Your command shell will hang until approval is given, but you can close the terminal or kill the process at any time, and then resume it using the `--request-id` option:
      - *e.g.* `tsh login --request-id=xxx ...`
-   - The ID is shown in your shell, and is also available in `#infrastructure-lounge` or the slack DM from Teleport-app
+   - The ID is shown in your shell, and is also available in `#teleport-requests` or the slack DM from Teleport-app
 1. Afer the request is approved, you will then use Teleport to SSH into the system with `tsh ssh`
 1. Requests generally remain approved for 8-12 hours.  You can resume that session anytime, again using `--request-id`
 
@@ -33,7 +33,6 @@ All requests to *production* require approval of the SRE(s) on shift, and you ca
 - No approval is necessary for staging, and access is granted immediately
 - Accessing is the same as it is for production, except your `tsh login` will be approved immediately, and you can move on to `tsh ssh`
 - The wrapper script *is not* invoked upon login
-
 
 ## Scope
 
@@ -397,7 +396,7 @@ irb(main):021:0> unlink_customer(0000000)
 
 | Name | Required | Details |
 | ------ | ------ | ------ |
-| `:uid` | *Yes* |GitLab.com UID which may have been linked to multiple cdot accounts
+| `:uid` | *Yes* |GitLab.com UID which may have been linked to multiple cdot accounts |
 
 #### Sample
 

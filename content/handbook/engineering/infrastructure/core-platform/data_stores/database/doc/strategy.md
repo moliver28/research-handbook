@@ -13,6 +13,7 @@ title: Database Strategy
 GitLab is offered as a [Single Application](/handbook/product/single-application) with a [Single data-store](/handbook/product/single-application/#single-data-store).  This handbook entry is meant as guidance for when you encounter a situation where you are considering changes or additions to our data-store architecture.  For information on tooling, migrations, debugging and best practices please read the [Database guides](https://docs.gitlab.com/ee/development/#database-guides) section in [GitLab Docs](https://docs.gitlab.com/).
 
 ### Requirement
+
 When you propose any database additions, updates or deletions it is required that you have participated in a [Database Review](https://docs.gitlab.com/ee/development/database_review.html#database-review-guidelines) prior to deployment (best early in development).
 
 ### PostgreSQL
@@ -42,11 +43,13 @@ We are intentionally requiring that the data for GitLab lives in a single data-s
 Often, moving to a separate service or microservice is seen as a solution to a scaling or performance problem within the GitLab application.  However, moving to a microservice based solution may simply be defering the problem while creating a more complex architecture.  The articles and quotes below discuss real world examples of the struggles with microservices.
 
 - [To Microservices and Back Again - Why Segment Went Back to a Monolith](https://www.infoq.com/news/2020/04/microservices-back-again/)
+
 >"If microservices are implemented incorrectly or used as a band-aid without addressing some of the root flaws in your system, you'll be unable to do new product development because you're drowning in the complexity."
+
 - [Bad Reasons For Microservices](https://completedeveloperpodcast.com/episode-189/)
+
 >Maintaining a bunch of loose microservices is not easier than maintaining a monolith. There might be an argument for moving from a distributed monolith to microservices, provided that the organizational problems that led to a distributed monolith have been addressed. A shift to microservices is likely to make things worse before it makes them better. If things are already bad, that’s going to make life difficult.
 
 ### Process for proposing a separate database
 
 The process for proposing a separate database has moved to the [required approvals](/handbook/engineering/development/required-approvals.html) section of our handbook.
-

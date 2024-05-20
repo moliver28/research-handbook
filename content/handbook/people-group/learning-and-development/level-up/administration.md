@@ -95,7 +95,7 @@ The admin home page is a place for platform administrators to access:
 
 ### Authoring
 
-Level Up uses a [handbook first](/handbook/handbook-usage/#why-handbook-first) approach for all learning content, using the handbook as our single source of truth for learning content.
+Level Up uses a [handbook first](/handbook/about/handbook-usage/#why-handbook-first) approach for all learning content, using the handbook as our single source of truth for learning content.
 This approach ensures:
 
 - all voices and contributions are heard

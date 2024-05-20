@@ -18,11 +18,11 @@ Marketing Analytics supports the entire Marketing team to develop and execute a 
 
 - [Christine Lee, VP, Marketing Operations & Analytics](/handbook/company/team/#christinelee)
 - [Viola Hempel, Director, Marketing Analytics](/handbook/company/team/#vhempel)
-- [Jerome Ahye, Manager, Data Analytics](/handbook/company/team/#jahye1)
+- [Jerome Ahye, Staff Data Analyst, Data Analytics](/handbook/company/team/#jahye1)
 - [Robert Kohnke, Senior Data Engineer](/handbook/company/team/#rkohnke)
 - [David Egan, Staff Data Analyst](/handbook/company/team/#dwegan)
-- [Djordje Micovic, Senior Data Analyst](/handbook/company/team/#dmicovic)
-- [Dennis Charukulvanich, Digital Experience Analyst](/handbook/company/team/#dennischarukulvanich)
+- [Djordje Micovic, Staff Data Analyst](/handbook/company/team/#dmicovic)
+- [Dennis Charukulvanich, Senior Data Analyst](/handbook/company/team/#dennischarukulvanich)
 
 ## <i id="biz-tech-icons" class="far fa-paper-plane"></i>How to Communicate with Us
 

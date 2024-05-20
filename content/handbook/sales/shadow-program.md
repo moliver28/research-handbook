@@ -33,10 +33,10 @@ and how to get started shadowing or hosting.
 
 **Start as soon as you begin onboarding.** Shadows can begin shadowing immediately after taking the introduction training. As a shadow, new hires benefit from a stronger understanding of the customer: hearing in real-time what they're looking for, what their pain points are, and how GitLab may be able to help. As a shadow, you'll also:
 
-- See how your peers position and frame solutions to current and potential customers and spot opportunities to learn from or improve those interactions  
+- See how your peers position and frame solutions to current and potential customers and spot opportunities to learn from or improve those interactions
 - Hear ideas, questions, challenges, and concerns directly from customers and prospects
 - Collaborate with your peers and get feedback on your approach
-- And apply all your knowledge to the test in a real pitch scenario.  
+- And apply all your knowledge to the test in a real pitch scenario.
 
 **Onboarding buddies:** A big part of an onboarding buddy’s responsibility is offering calls to shadow or connecting the new hire with peers that can offer calls to shadow.
 
@@ -56,7 +56,7 @@ Shadow etiquette is one of the most important parts of being a shadow or having 
 
 View the introduction training (link coming soon) to learn the basic expectations you should start from when shadowing or hosting.
 
-#### What to look for on calls:
+#### What to look for on calls
 
 Not every call is a hit. And you may attend calls where it goes really well or poorly for multiple reasons. Use your time in these calls to determine for yourself what works well and what doesn't with customers and prospects. Challenge your assumptions and that of the customer or even the host.
 

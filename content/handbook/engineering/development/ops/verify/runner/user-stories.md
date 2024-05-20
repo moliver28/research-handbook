@@ -5,9 +5,11 @@ description: "The GitLab Runner Group's user stories."
 ---
 
 ## User stories
+
 We use user stories at GitLab to guide our solutions as we create design deliverables. [User stories are different to JTBDs](/handbook/product/ux/jobs-to-be-done/#jtbd-user-stories-and-tasks), but still relate to one another and are important within the product development process. User stories are focused on a persona, the tools they are using, and how and why they are completing the job at hand.
 
 ## Runner Fleet user stories mapping
+
 All of our user stories map back to our [Runner JTBDs](/handbook/engineering/development/ops/verify/runner/jtbd/).
 
 ### Sub-Job: managing the execution of CI jobs
@@ -24,4 +26,3 @@ All of our user stories map back to our [Runner JTBDs](/handbook/engineering/dev
 - As a Platform Engineer who is helping a developer or team troubleshoot issues with a CI job, I need to determine who registered the runner of that CI job, so I can quickly troubleshoot and resolve the issue.
 - As a Platform Engineer who is helping a developer or team troubleshoot issues with a CI job, I need to determine which group the runner is associated with, so that I can quickly troubleshoot and resolve the issue.
 - As a Platform Engineer who is checking on CI jobs' performance for an instance, I need to see pending and running jobs, so that I can quickly determine if there are performance issues with that runner and the underlying host system or platform.
-

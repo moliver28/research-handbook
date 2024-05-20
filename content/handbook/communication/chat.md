@@ -23,10 +23,10 @@ The alphabetically sorted starter list below spotlights a few of GitLab's many S
 | `#company-fyi`                       | Official company announcements, restricted permission levels to ensure high-signal; all GitLab team members are automatically added to this channel.                                                      |
 | `#whats-happening-at-gitlab`         | Open to all team members for unofficial updates which are important and/or useful to **most or all** of GitLab, including reminders, events, project updates, etc.; all GitLab team members are automatically added to this channel. |
 | `#diversity_inclusion_and_belonging` | Stay up to date on GitLab’s latest [Diversity, Inclusion and Belonging](/handbook/company/culture/inclusion/) initiatives and share feedback and thoughts about how we can make our environment even more inclusive.                          |
-| `#expense-reporting-inquiries`       | For questions pertaining to [expenses](/handbook/spending-company-money/) (e.g. Expensify).                                                                                                                                          |
+| `#expense-reporting-inquiries`       | For questions pertaining to [expenses](/handbook/finance/spending-company-money/) (e.g. Navan).                                                                                                                                          |
 | `#git-help`                          | Specific questions about using Git in the terminal.                                                                                                                                                                                  |
 | `#is-this-known`                     | Get help in finding existing issues for existing problems.                                                                                                                                                                           |
-| `#it_help`                           | Create a Help Request in this channel should you have any IT general questions or trouble with setup (e.g. 2FA, accounts, etc.).                                                                                                     |                                                                             |
+| `#it_help`                           | Create a Help Request in this channel should you have any IT general questions or trouble with setup (e.g. 2FA, accounts, etc.). |
 | `#mr-buddies`                        | For any questions regarding merge requests.                                                                                                                                                                                          |
 | `#new_team_members`                  | For new GitLab team members to introduce themselves to the company and for existing team members to share updates with new hires.                                                                                                    |
 | `#new-vacancies`                  | For all GitLab team members to be aware of internal opportunities, as well as all job openings as they are listed. Please review the [referral process](/handbook/hiring/referral-process/) page to find out more about referring someone for a role.                                                                                                   |
@@ -78,7 +78,6 @@ To raise an issue with a specific team, please use below most commonly used chan
 - **`#talent acquisition`**: For referrals based questions, candidate alignments, general talent acquisition etc
 - **`#total-rewards`**: For general questions on [Total Rewards](/handbook/total-rewards/) including compensation, benefits, and equity
 
-
 ### Channel Categories
 
 #### Account Channels (a_)
@@ -110,7 +109,7 @@ Group channels (prefixed with a `g_`) correspond to a [DevOps Stage group](/hand
 
 #### Location Channels (loc_)
 
-These channels are used to help GitLab team-members who are in the same general region of the world to talk about get-togethers and other location-specific items. They are also instrumental if you're going to be visiting somewhere else in the world - there might be a GitLab team-member or two nearby! Feel free to join the channel temporarily to chat with GitLab team-members who live there, and see if there is an opportunity to leverage the [visiting grant](/handbook/incentives/#visiting-grant) to add value to your trip.
+These channels are used to help GitLab team-members who are in the same general region of the world to talk about get-togethers and other location-specific items. They are also instrumental if you're going to be visiting somewhere else in the world - there might be a GitLab team-member or two nearby! Feel free to join the channel temporarily to chat with GitLab team-members who live there, and see if there is an opportunity to leverage the [visiting grant](/handbook/total-rewards/incentives/#visiting-grant) to add value to your trip.
 
 If there's a channel not listed below, please add in alphabetical order with an MR.
 

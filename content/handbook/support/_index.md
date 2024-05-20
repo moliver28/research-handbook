@@ -121,7 +121,7 @@ We review these KPIs weekly in the [Support Week-in-Review](/handbook/support/#s
 In service of achieving our KPIs and OKRs, there are three key pillars that we must balance to achieve success:
 
 - People: Continue to hire excellent engineers and managers, at the right time, and the right places. Support our existing engineers and work with each team member towards realizing their full potential through professional development and smart tooling.
-- Process: Iterate on existing processes and develop new, simplified processes that enable global scaling
+- Process: Iterate on existing processes and develop new, simplified processes that enable global scaling.
 - Performance: People understand how their contributions help the global team attain our results, with guidance on what these contributions look like in practice.
 
 At various times it's easy to over-optimize on one of the pillars to solve a problem, but considering all three is key to avoiding short-sighted decision making.
@@ -162,14 +162,14 @@ Below we also have some commonly referenced pages:
 
 GitLab Support’s vision is to deliver a consistent, "delightful" experience to our customers. Our team members will collaborate across all timezones to seamlessly deliver the results our customers care about while continuing to strengthen and scale the team.
 
-The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company’s overall [strategic objectives](https://handbook.gitlab.com/handbook/company/strategy/), specific areas of focus are:
+The overall direction for Support in FY25 will continue to build from the foundations laid in FY24. We will continue to focus on KPI achievement and evolve and iterate our approach to support, keeping the customer centered in our outcomes. Following on to the company’s overall [strategic objectives](/handbook/company/strategy/), specific areas of focus are:
 
 - [Our ability to achieve business aligned results for our customers](#improving-our-ability-to-achieve-results-for-our-customers)
 - [How our team structure supports that ability](#team-structure-and-how-it-supports-our-ability-to-achieve-results)
 - [Maintaining and augmenting the culture of our team](#team-culture-and-how-it-supports-our-ability-to-achieve-results)
 - [Delighting our customers](#delight-our-customers)
 
-While our [publicly visible OKR page](https://handbook.gitlab.com/handbook/company/okrs/) and [Key Performance Indicators](https://handbook.gitlab.com/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY25.
+While our [publicly visible OKR page](/handbook/company/okrs/) and [Key Performance Indicators](/handbook/support/performance-indicators/#key-performance-indicators) reflect the focus and progress for the current quarter, the following provides more detail on the items included in the themes for the entire FY25.
 
 ### Improving our ability to achieve results for our customers
 
@@ -213,7 +213,7 @@ Dogfooding is using a piece of GitLab *for its intended purpose*. For example, o
 
 In other words: Dogfooding is using the product in the way that our customers would use it to the end of discovering and solving pain points that they have. Dogfooding supports [customer results](/handbook/values/#customer-results).
 
-At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/ee/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note).
+At GitLab Support we use Service Desk to process [Personal Data Requests](/handbook/legal/privacy/gdpr/), but not for our global support because the customer for Service Desk is primarily small teams soliciting [*bug reports, feature requests, or general feedback*](https://docs.gitlab.com/ee/user/project/service_desk/). Through our use of Service Desk in this smaller setting we've been able to influence product direction towards adding features like [internal notes](https://docs.gitlab.com/ee/user/discussions/#add-an-internal-note).
 
 We continually evaluate product features for use-cases within Support and provide feedback and feature requests where blockers exist. Support will always prioritize [customer results](/handbook/values/#customer-results) over any other consideration.
 
@@ -254,8 +254,6 @@ Where we want to ensure that important messages are passed to the global support
 
 #### Groups
 
-
-
 We use the following GitLab Groups to notify or add support team members to issues and merge requests on
 GitLab.com.
 
@@ -275,8 +273,6 @@ GitLab.com.
 | [@gitlab-com/support/managers/emea](https://gitlab.com/groups/gitlab-com/support/managers/emea-managers/-/group_members?with_inherited_permissions=exclude&sort=recent_last_activity) | All EMEA support managers |
 
 #### Projects
-
-
 
 Our team projects and issue trackers can be found in the [Support parent group](https://gitlab.com/gitlab-com/support). Here are some selected projects
 which are relevant to team communications.
@@ -316,21 +312,15 @@ issue trackers or customer tickets.
 
 #### spt_vs. support_ prefix
 
-
-
 When naming channels, "spt" is meant for internal channels, meaning those that will be of use to the Support Team mainly. They should be public so others may join if they choose. If a channel has a "support" prefix, it is meant as a public interface where other teams will interact with the Support Team.
 
 The "spt_gg_" prefix is used for [Support Global Groups](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/3879) internal channels.
 
 #### Daily Stand-up bot
 
-
-
 The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-software/sgg-slackbot) Daily Stand-up posts at the commencement of each region's [Support Hours](https://about.gitlab.com/support/#definitions-of-gitlab-global-support-hours) regularly, in a number of channels to advise global groups of different information. For further details of the different variations, please refer to the SGG handbook page of the group you are curious about.
 
 #### Channels
-
-
 
 | Channel | Purpose |
 | ------- | ------- |
@@ -346,8 +336,6 @@ The [SGG Slackbot's](https://gitlab.com/gitlab-com/support/support-ops/other-sof
 | [#spt_us-federal](https://gitlab.slack.com/archives/C03RTN3JEJ2) | Discussion about topics pertaining to US Fed Support |
 
 ##### Private Channels
-
-
 
 At GitLab we are to be [public by default](/handbook/communication/confidentiality-levels/#not-public) unless there is a valid reason for it to not be public. While Slack
 is not public, the spirit of opening up discussions so that *everyone can contribute* means that private channels should be kept to a minimum.
@@ -529,21 +517,14 @@ as possible.
 #### Support Stable Counterpart
 
 The Support Stable Counterpart role is designed to provide a strong connection
-between a product team and Support for the purpose of discussing product issues,
-sharing product knowledge and representing customer needs. If you are interested
+between a product or non-product team and Support. The purpose is discussing
+product issues, sharing product knowledge and representing customer needs, as
+well as sharing knowledge about each team's work and developing processes and
+documentation to allow the two teams to work together well. If you are interested
 in becoming a Support Stable Counterpart, or would like to learn more about the
 role, read the
 [Support Stable Counterparts](/handbook/support/support-stable-counterparts)
 page.
-
-#### Support Liaison
-
-The Support Liaison role is designed to provide a strong relationship between
-a non-product team and Support for the purpose of sharing knowledge
-about each team's work and of developing processes and documentation to allow
-the two teams to work together well. If you are interested in becoming a
-Support Liaison, or would like to learn more about the role, read the
-[Support Liaisons](/handbook/support/support-liaisons) page.
 
 ## Processes
 
@@ -569,7 +550,7 @@ Artifacts of approval can include:
   - [How to Work with Tickets](/handbook/support/workflows/working-on-tickets)
   - [How to Submit issues to Product/Development](/handbook/support/workflows/working-with-issues)
   - [How to Submit Code to the GitLab Application](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md)
-  - [How to Submit Docs when working on customer issues](/handbook/documentation) (see 'docs-first methodology')
+  - [How to Submit Docs when working on customer issues](/handbook/product/ux/technical-writing/documentation/) (see 'docs-first methodology')
 - [License & Renewals Workflows](/handbook/support/license-and-renewals/workflows)
 
 ### Slack Workflows
@@ -673,7 +654,7 @@ The [Support Slackbot (archived)](https://gitlab.com/gitlab-com/support/toolbox/
 - [Support Managers](/handbook/support/managers/)
 - [Support Hiring](/handbook/support/managers/hiring/)
 - [Support Channels](/handbook/support/channels/)
-- [On-Call](/handbook/on-call/)
+- [On-Call](/handbook/engineering/on-call/)
 - [License & Renewals](/handbook/support/license-and-renewals/)
 - [Support Ops](/handbook/support/readiness/operations/)
 - [Advanced Topics](/handbook/support/advanced-topics/)

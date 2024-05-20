@@ -68,30 +68,33 @@ Cases are automatically created when;
 The cases that will be auto created, are split into 5 distinct categories;
 
 Inbound Request - These occur when a customer hand raises, and requests assistance from GitLab.  The cases are labeled as High Priority. 
+- Email to Case (customer emails sent to smallbusiness@)
 - Contact Sales Request
 - Hand-Raise PQL
 - Support Ticket
 - SDR Created
 
 Churn & Contraction Mitigation - These occur when the account in question has exhibited signs of low usage/ adoption. The cases are labeled as Medium Priority. 
-- Underutilization
-- High PtC
+
 - Auto Renew recently turned off
+- Renewal with Payment Failure
 
 Expansion Opportunities - These occur when the account in question has exhibited signs of growth, and that they are likely to expand. The cases are labeled as Medium Priority.  
 - FO Opp
 - FO Opp (Startup)
-- High PtE
-- 6Sense Growth Signal
-- Overage with QSRs turned off
+- QSRs with Payment Failure
 - Customer MQL
+- Duo Trial Started
 
 Urgent Renewal & TRX Support - These are created when a situation exists that means the renewal must be processed by an Advocate. The cases are labeled as Medium Priority. 
 - PO Renewal (includes partner & alliance renewals)
 - EoA Renewal w/ >25 users
 - Multiyear Renewal
+- Renewal Risk: Will Churn
 - Auto Renewal due to fail
-- Overdue Renewals
+- Free User Limit Sales-Assist
+- Renewal with Duo
+- Missing Renewal Opportunity Case
 
 High Value - These are only created for the highest spending accounts in the segment. 
 - High Value Account
@@ -109,7 +112,7 @@ If a GitLab team member needs to loop in the Advocate team on a customer Account
 
 [Case Creation How-to Video](https://drive.google.com/file/d/1cExv6WlzM4RBkOBDJlSWG56o5BsRGnns/view?usp=drive_link)
 
-- Navigate to the *Account* in Salesforce.
+- Navigate to the end user *Account* in Salesforce.
 - Hover over *Cases*, and select *New Case*.
 - Select *SMB Sales Case*, from the Record Type dropdown.
 - Add the *Contact*, to the Contact Name lookup field. (A Lead can also be added, instead of a Contact, however in this scenario, the Account the Lead is matched to must also be manually added to the case.  To find the matched account, view the *Traction Complete Leads: Account* field)
@@ -231,21 +234,43 @@ Closed - N/A
 
 ## Use Case Specifics
 
+### Email to Case
+
+SMB customers are able to email smallbusiness@ in order to speak to an Advocate.
+
+When they do so, an SMB Case will automatically be created and will drop in the AMER or EMEA Teams queue. 
+
+The subject of the email will displated in the **Case Subject** field, and the email body will appear in the **Case Description** field. 
+
+**FAQ**
+
+Q. As an Advocate, I can see a case in the queue, but there is no contact/ account/ lead attached to the case.  How do I know if the case falls into my region?
+
+A. If a customer emails smallbusiness@ and they do not exist in Salesforce as a contact, the contact and account fields will not be populated on the case.  When this happens, we have no way of knowing which region the customer resides in, therefore the case will appear in both the AMER and EMEA case queues.
+
+Upon viewing the case, an Advocate should check the **Web Email** field to see the customer email domain. Based on the domain, they should manually search for the Account in Salesforce, and add it to the case.  This will move the case to the relevant queue. 
+
+Q. If I pick up a case, but the customer continues to email smallbusiness@, how will I know?
+
+A.  Once you have picked up the case, any future emails from the customer in the same thread will trigger a notification to be sent to the case owner.  All emails in the thread are also attached to the case.
+
+Q. If a customer has a new request, but the send an email to smallbusiness@ via an old thread, will a new case be created?
+
+A. No.  Unfortunately, the email will be attached to the prior case which is likley to have been closed.  In this scenario, the owner of the prior closed case (who will receive a notification of the customers emial), should either ask the customer to initiate a new request (by sending a new email to smallbusiness@.  This will create a new case, and start a new thread. Or, the Advocate can create a new case on the customers behalf, and work that case.
+
 ### High Value Cases
 
 Whilst Accounts are always owned by the regions SMB Sales User, High Value Cases attached to accounts (Tier 1 accounts only), are owned by the SMB Advocate. 
 
-These cases are to remain open for the duration of the customer’s term (i.e they should NOT be closed out after 15 days of being created). They act as a reminder that these customers require continual attention and should be worked strategically, until renewal.
+These cases are to remain open for the entirety of the FY25, even if the customer renews. This means that if a Tier 1 customer renews mid way during FY25, they will be assisted by the same Advocate both pre and post renewal.  This is subject to change in FY26.
+
+These cases act as a reminder that these customers require continual attention and should be worked strategically during the financial year. 
 
 The Advocate is advised to build relationships with these customers, understand their journey with GitLab, and identify what we can do to grow the account (Ultimate or Add On licenses) or promote adoption and churn prevention.
 
 The Advocate is advised to schedule ongoing touchpoints, update Next Steps/ Next Steps Date, and create future dated reminder Tasks, so that they plan their outreach throughout the year.
 
-Note that these Accounts can still trigger other cases types, which should be worked and closed out within the 15 day period.  This will include High Value Check In Cases, which will remind the Advocate to touch base with the customer!  These cases will be auto assigned to the Advocate who owns the High Value Account case. 
-
-Upon successful renewal, all open cases should be closed out by the Advocate.  Their role in keeping this account as a customer is now considered complete. 
-
-Based on the renewal amount, it is likely that a new High Value case will be opened based on next years renewal amount. (e.g. FY26 High Value Account).  This FY26 case will be auto-assigned any may be allocated to a different Advocate (than the person who worked the account in FY25). This Advocate should then follow this same process for the next 12 months, until renewal. Then, the next Advocate takes over the account, should it be labelled as a FY27 High Value Account.
+Note that these Accounts will still trigger other cases types, which should be worked and closed out within the 15 day period.  This will include High Value Check In Cases, which will remind the Advocate to touch base with the customer!  These cases will be auto assigned to the Advocate who owns the High Value Account case.  Any off created off the back of these cases i.e If a High Value Check In Case results in an Add On Opp, the opp should be linked to the originating case.  Once the opp is closed, the case should be closed. Reminder: The High Value Account case should never be closed.  
 
 Note: A High Value Account can be closed out if the customer advises ahead of renewal that they definitely fully churn.  Only in this scenario should the case be closed out, and the *Resolution Action* must be set to *Request Not Possible*.  By setting the *Resolution Action* to *Request Not Possible*, future High Value Cases will not be created on the account. 
 

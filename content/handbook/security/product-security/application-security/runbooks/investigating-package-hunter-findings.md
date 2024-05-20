@@ -21,7 +21,7 @@ Package Hunter detected that a package opened a network connection.
 - **Attention: This step requries to checkout the branch for which the finding was made.
 Please proceed with caution when analyzing potentially malicious code on your local computer.
 We recommend to checkout the code into a dedicated VM.
-If there are any questions or you require assistance, please reach out to `@gitlab-com/gl-security/appsec`.**
+If there are any questions or you require assistance, please reach out to `@gitlab-com/gl-security/product-security/appsec`.**
   - We know that the package ran the command `scripts/install.js` so we can search for that file (be sure to execute `yarn install` before running the search)
   - Running `find . -name install.js` leads us to `node_modules/node-sass/scripts/install.js`
 - We can inspect the `package.json` files to find the command that triggered the detection

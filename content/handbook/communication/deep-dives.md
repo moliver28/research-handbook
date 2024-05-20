@@ -60,4 +60,4 @@ At a minimum it usually makes sense to invite your team to the session, but you 
 - The primary audience will be slightly familiar with the topic but other attendees will be more interested in the high level overview.
 - If available, you could use a second screen with a smaller resolution for the presentation & demo, so that any text would be bigger on the video.
 - Increase the font size in your text editor and terminal.
-- There are further tips in [the handbook](/handbook/group-conversations/), such as turning off notifications.
+- There are further tips in [the handbook](/handbook/company/group-conversations/), such as turning off notifications.

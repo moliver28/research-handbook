@@ -60,7 +60,7 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. [Professional Services offerings](https://about.gitlab.com/services/)
 1. Learn about Git & GitLab
    1. [GitLab 101 course](/handbook/people-group/learning-and-development/gitlab-101/)
-   . [GitLab 201 course](/handbook/people-group/learning-and-development/gitlab-201/)
+   1. [GitLab 201 course](/handbook/people-group/learning-and-development/gitlab-201/)
    1. [What is Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
    1. [Git-ing started with Git](https://www.youtube.com/watch?v=Ce5nz5n41z4)
    1. [Start using Git on the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
@@ -252,7 +252,7 @@ In order to make the most of the internship, it's expected for the intern to do 
       1. How would you approach discussing adoption of AI with a customer?
 1. Give a plan-to-monitor demo to your mentor, covering what you've learned at a high-level
    1. The demo should be focused on value of the entire DevSecOps lifecycle, but you should be prepared to go deeper into any areas or features, as your mentor will act as a customer and ask you probing questions
-1. Celebrate! You've completed the CSM internship :tada: 
+1. Celebrate! You've completed the CSM internship :tada:
 
 
 

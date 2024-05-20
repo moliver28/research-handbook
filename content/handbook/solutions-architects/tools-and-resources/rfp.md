@@ -8,14 +8,7 @@ description: >-
 
 ## RFI/RFP Process
 
-
 A Request for Information (RFI) or a Request for Proposal (RFP), is commonly referred to as an RFx. It is part of the standard sales process within Public Sector, but can also happen with enterprise customers. The Field Security Team has created a process to assist and simplify the RFP process for GitLab field teams which you can view on the [RFP Process Handbook page](/handbook/security/security-assurance/field-security/field-security-rfp/). Use the guidance below if you need help responding to an RFx outside of this proccess.
-
-
-
-
-
-
 
 ### Best Practices for Writing RFx Responses
 

@@ -37,4 +37,4 @@ Please do *no* use this for content issues, such as typos.
 <!-- If you can, link to the line of code that might be responsible for the problem. -->
 
 <!-- Please read the priority and severity guidelines before updating the labels: https://handbook.gitlab.com/handbook/content-websites/#severity -->
-/label ~"Handbook::bug" ~"priority::4" ~"severity::4"
+/label ~"Handbook::Bug" ~"hb-priority::4" ~"hb-severity::4"

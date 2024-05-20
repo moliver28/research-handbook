@@ -64,6 +64,6 @@ As companies evolve to being able to shift to an all-remote setting on the fly, 
 
 This guide will help Finance teams discover a natural rhythm to operating in a suddenly remote way. This rhythm will allow teams to identify key priorities, manage them effectively, and learn from their implementation in an iterative fashion, further informing the next priority tier as appropriate. As in any professional environment, open communications about learning as you make your way is essential.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "../_index.md" >}}).

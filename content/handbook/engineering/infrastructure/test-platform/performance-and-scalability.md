@@ -22,7 +22,7 @@ The goal is to provide tested and verified examples to customers which can be us
 give insight into what changes need to be made as organizations scale.
 
 [Reference Architectures](https://gitlab.com/gitlab-org/quality/reference-architectures) project is used to track all work related
-to GitLab Reference Architectures and [`#reference-architectures`](https://gitlab.slack.com/archives/C015V8PDUSW) Slack channel is used for 
+to GitLab Reference Architectures and [`#reference-architectures`](https://gitlab.slack.com/archives/C015V8PDUSW) Slack channel is used for
 discussions related to the Reference Architectures.
 
 | Users      | Status            | Link to more info                                                                                                                                                         |
@@ -42,7 +42,6 @@ discussions related to the Reference Architectures.
 | 50k        | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users.html)                                                                         |
 | 50k hyrbid | Complete          | [Documentation](https://docs.gitlab.com/ee/administration/reference_architectures/50k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) |
 | 100k       | To Do (on demand) | [Issue link](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues/6)                                                                                    |
-
 
 ## Performance Tool
 
@@ -67,6 +66,7 @@ found, issues are created for degraded endpoints and are then prioritized during
 [Bug Refinement](../#bug-refinement) meeting.
 
 High-level GPT pipeline overview:
+
 - Update environment job: starts up and updates the target environment from [Quality Config](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality) with the latest Nightly using [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 - Test job: runs performance [tests](https://gitlab.com/gitlab-org/quality/performance/wikis/current-test-details) against the environment
 - Report job: publishes results to [GPT Wiki](https://gitlab.com/gitlab-org/quality/performance/wikis/Benchmarks/Latest) and [`#qa-performance`](https://gitlab.slack.com/archives/CH8J9EG49) Slack channel
@@ -121,7 +121,7 @@ We have created the [GitLab Browser Performance Tool](https://gitlab.com/gitlab-
 to specifically test web page frontend performance in browsers. More detailed information about
 the current test pages list can be viewed at the [Test Details wiki page](https://gitlab.com/gitlab-org/quality/performance-sitespeed/-/wikis/Current-Test-Details).
 
-Testing process is similar to [GPT testing process](#testing-process). After 10k environment is updated to the latest Nightly,
+Testing process is similar to [GPT testing process](#test-process). After 10k environment is updated to the latest Nightly,
 GBPT is run against the environment and then it's being shut down to save costs.
 
 | Environment                                                                             | GCP project                                                                         | Schedule                                                                                          | Latest results and dashboards                                                                  |

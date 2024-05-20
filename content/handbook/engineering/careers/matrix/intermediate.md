@@ -3,7 +3,7 @@ title: "Engineering Career Framework: Intermediate"
 ---
 
 ## Engineering Function Competencies: Intermediate
- 
+
 **Intermediates at GitLab are expected to exhibit the following competencies:**
 
 - [Intermediate Leadership Competencies](#intermediate-leadership-competencies)

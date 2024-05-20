@@ -11,7 +11,7 @@ For more details about the vision for this area of the product, see the
 [Plan stage] page.
 
 [Knowledge]: /handbook/product/categories/#knowledge-group
-[Plan stage]: /direction/plan/
+[Plan stage]: /handbook/engineering/development/dev/plan/
 
 ### Team members
 
@@ -159,7 +159,6 @@ It's encouraged to engage with this team when spiking and planning new work for 
   {{< tableau/filters "GROUP_LABEL"="knowledge" >}}
 {{< /tableau >}}
 
-
 Detailed metrics are available on the [Engineering Metrics page].
 
 [Engineering Metrics page]: https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/
@@ -171,7 +170,6 @@ Additional dashboards are available in Grafana that show application performance
 - [Stage-Group Dashboard] (including 28-day Error Budget)
 - [Error Budget Detail]
 
-[Work Type Classification]: https://about.gitlab.com/handbook/engineering/metrics/#work-type-classification
 [Stage-Group Dashboard]: https://dashboards.gitlab.net/d/stage-groups-knowledge/stage-groups-knowledge-group-dashboard?orgId=1
 [Error Budget Detail]: https://dashboards.gitlab.net/d/stage-groups-detail-knowledge/stage-groups-knowledge-group-error-budget-detail?orgId=1
 
@@ -186,7 +184,7 @@ Additional dashboards are available in Grafana that show application performance
 
 [Plan:Knowledge]: https://gitlab.com/groups/gitlab-org/-/boards/1569369?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Aknowledge
 [#s_plan]: https://gitlab.slack.com/archives/s_plan
-[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KoceqcTneOVmAzhEp6NinY0
+[youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KouWOCpPdlVZmwr3QCqhQ94
 [retros]: https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective
 [Group Conversations]: http://gitlab-org.gitlab.io/group-conversations/plan/
 [section level]: /company/team/structure/#organizational-structure

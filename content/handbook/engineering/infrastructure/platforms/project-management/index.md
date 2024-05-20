@@ -23,12 +23,19 @@ Update the status block in the epic description to summarize the project and sha
 
 #### When a project is finished
 
-The epic should be left "Open" and retain the ~"workflow-infra::In Progress" label so that the project will still be listed for the next Platforms Grand Review.
-The DRI should update the status to be a description of the entire project.
-The closing status should highlight the original problem, a brief description of the changes made, and information about the impact of the project now that it is completed.
-Closing statuses are helpful when producing the end-of-year team summaries.
+1. The epic should be left "Open" and retain the ~"workflow-infra::In Progress" label so that the project will still be listed for the next Platforms Grand Review.
+1. The DRI is responsible for updating the epic description to ensure each section is up to date including the `Participants` section.
+1. The DRI creates the closing status (final status update) which includes:
+   1. The original problem
+   1. A brief description of the changes made
+   1. Information about the impact of the project now that it is completed
+   1. A link to the demo / walkthrough video
+   1. An instruction to direct the Grand Reviewers to close the epic
+   1. Emojis and / or shout-outs are also welcome but not required
 
 Completed epics will be reviewed, celebrated, updated to done, and closed in the next [`Platforms Grand Review`](https://www.youtube.com/playlist?list=PL05JrBw4t0KqDXSHdlUvPWHOj_Hw8JdQ1) (Playlist accessible using GitLab Unfiltered account).
+
+Note that closing statuses are helpful when producing the end-of-year team summaries.
 
 ## Epics
 
@@ -48,7 +55,7 @@ We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/
 
 #### DRI Section
 
-```
+```markdown
 ### DRI
 
 @user
@@ -59,7 +66,7 @@ We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/
 This section is dynamic and includes people who are currently contributing to the Epic work.
 The DRI and the EM are responsible for updating the list of participants accordingly.
 
-```
+```markdown
 ### Participants
 
 - @participant1
@@ -71,7 +78,7 @@ The DRI and the EM are responsible for updating the list of participants accordi
 
 This section contains the previous Status Updates. At least, it is updated everytime the DRI updates the Status Section.
 
-```
+```markdown
 ### Development Log
 
 <details>
@@ -87,7 +94,7 @@ This section contains the previous Status Updates. At least, it is updated every
 
 #### Status Section
 
-```
+```markdown
 ### Status YYYY-MM-DD
 
 <Updates about the project at the YYYY-MM-DD>
@@ -174,4 +181,3 @@ This is a list of the group issue trackers:
 | Delivery | [issue tracker](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues) |
 | Production Engineering | [issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues)|
 | Scalability | [issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues) |
-

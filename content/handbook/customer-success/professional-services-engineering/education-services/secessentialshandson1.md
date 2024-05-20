@@ -1,10 +1,7 @@
 ---
 title: "GitLab Security Essentials - Hands-On Lab: Configure SAST, Secret Detection, and DAST"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
+description: "This Hands-On Guide walks you through using SAST, Secret Detection, and DAST scans in a GitLab project."
 ---
-
-> You are viewing the latest Version 16.x instructions. If your group URL starts with https://spt.gitlabtraining.cloud, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson1.md)
-
 
 > Estimated time to complete: 45 to 60 minutes
 
@@ -18,27 +15,58 @@ Finally, you’ll fix a vulnerability on a branch and introduce a new vulnerabil
 
 Please take time to understand any code that you are asked to copy and paste in any lab. Ask your instructor to explain any code that’s not clear.
 
-## Task A. Access your Training Group and Create a Project
+# Task A. Access your Lab Environment
 
 1. Navigate to [**https://gitlabdemo.com/invite**](https://gitlabdemo.com/invite) in a web browser.
 
 1. In the **Invitation Code** field, enter the invitation code provided by your instructor or in the LevelUp LMS.
 
-1. Click **Provision Training Environment**.
+1. Select **Provision Training Environment**.
 
-1. If the system prompts you for your **GitLab.com** username, enter your GitLab.com user in the field provided. Click **Provision Training Environment**.
+> The login details for accessing the environment are slightly different between self-paced training and instructor-led training. Please follow the instructions that suit your needs.
 
-1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+### Self-Paced Training
 
-1. Click the **My Group** button at the bottom of the page.
+1. For self-paced courses, you will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
 
-1. Sign in with your existing GitLab.com credentials.
+1. In the left sidebar, select your profile image.
+
+1. In the resulting dropdown, you will see a value starting with `@`. This is your GitLab username.
+
+1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided.
+
+1. Select **Provision Training Environment**.
+
+1. Select **My Group** at the bottom of the page.
+
+1. Sign in with your GitLab.com credentials.
 
 1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
 
     > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
 
+    > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
+
+1. From your **My Test Group** training subgroup, click the **New project** button.
+
+1. Continue to Task B.
+
+### Instructor-Led Training
+
+1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+
+1. Click the **Download Credentials** button to download your temporary GitLab credentials.
+
+1. Click on **GitLab Dashboard** or the GitLab URL.
+
+1. Login with your temporary GitLab Credentials.
+
+    > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
+
 1. From the **My Test Group** training subgroup, click the **New project** button.
+
+### Task B. Create a Project
+
 
 1. Click the **Create blank project** tile.
 
@@ -280,7 +308,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 5. You have already learned how to commit your changes to a new branch and create a merge request. Commit your changes to the `add_secret_detection` target branch. The commit message can be left at default or updated to `Add Secret Detection to .gitlab-ci.yml`. For single commit branches, the commit message is used as the merge request title.
 
-    > Note: If you look at the security report on this merge request, you will notice that no vulnerabilities have been detected. This occurs because the secrets in `main.py` already exist in the main branch. The scan that occurs in the merge request will only show vulnerabilities that are newly introduced in the merge request. To see existing vulnerabilities, you will need to look at the project level vulnerability report covered in the next section.
+    > If you look at the security report on this merge request, you will notice that no vulnerabilities have been detected. This occurs because the secrets in `main.py` already exist in the main branch. The scan that occurs in the merge request will only show vulnerabilities that are newly introduced in the merge request. To see existing vulnerabilities, you will need to look at the project level vulnerability report covered in the next section.
 
 6. Click the `Merge` button on your merge request after the pipeline passes.
 

@@ -1,10 +1,7 @@
 ---
 title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure License Compliance"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
+description: "This Hands-On Guide walks you through enabling and using License Compliance in a GitLab project."
 ---
-
-> You are viewing the latest Version 16.x instructions. If your group URL starts with https://spt.gitlabtraining.cloud, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson4.md)
-
 
 > Estimated time to complete: 15 minutes
 
@@ -79,7 +76,7 @@ The License Compliance report will generate a list of all of the licenses detect
 
 1. Create a new branch named `add-dnspython-dependency`
 
-1. Add a new dependency to the `add-dnspython-dependency` branch **(not the `main` branch!)** by pasting `dnspython==2.1.0` as a new line at the end of `requirements.txt`. 
+1. Add a new dependency to the `add-dnspython-dependency` branch **(not the `main` branch!)** by pasting `dnspython==2.1.0` as a new line at the end of `requirements.txt`.
 
 1. Click the **Create merge request** button.
 

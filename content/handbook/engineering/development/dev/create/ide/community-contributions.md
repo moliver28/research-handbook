@@ -8,7 +8,7 @@ title: Cultivating Contributions from the Wider Community
 
 
 
-  
+
 
 ## Impact of wider community contributions
 
@@ -79,7 +79,7 @@ At the end of the day, the implementation guide guides the implementor, but give
 
 The issue author does not have to be the one to investigate and leave an implementation guide. Instead, the author should ask someone with domain knowledge for help.
 
-```
+```text
 @<NAME_HERE>, could you please help me investigate and leave a brief implementation guide for this issue? Thanks!
 ```
 

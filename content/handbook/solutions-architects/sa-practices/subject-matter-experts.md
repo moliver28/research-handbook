@@ -22,6 +22,7 @@ The SME Program will initially focus on the following areas:
 - AI
 
 Other areas may be added in the future, depending on customer and SA demand, such as:
+
 - Security
 - Agile planning
 - Infrastructure
@@ -36,7 +37,7 @@ SMEs will be responsible for the following tasks:
 - Staying up-to-date on the latest trends in their area of expertise.
 - Participating in field enablement activities.
 - Form [communities of practices](/handbook/solutions-architects/sa-practices/communities-of-practice/) among the SMEs for the same topic and with fellow SAs to foster the knowledge in the team.
-- Stable counter part in the coresponding [product group](https://handbook.gitlab.com/handbook/product/categories/#devops-stages)
+- Stable counter part in the coresponding [product group](/handbook/product/categories/#devops-stages)
 
 ## Scope
 

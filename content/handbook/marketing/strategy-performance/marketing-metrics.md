@@ -32,13 +32,13 @@ Any lead or contact from the fct_crm_person table where `Status != to Raw` and `
 
 Example Query, this will return a list of inquiries with the date they became an inquiry:
 ```
-  SELECT 
+  SELECT
   dim_crm_person_id,
   sfdc_record_id,
   email_hash,
   inquiry_reporting_date
   FROM common_mart_marketing.mart_crm_person
-  where 
+  where
   lower(Status) != ’raw`
   and inquiry_reporting_date is not null
 ```
@@ -56,7 +56,7 @@ A Marketing Qualified Lead (MQL) is a stage of the lead/contact objects in SFDC.
 ##### First Order MQLs
 MQLs that are part of a parent account that has not made an order through GitLab are classified as first-order MQLs. To find them, we join the account table to the person table on the MQL account ID. If the field `has_first_order_available` is true on the account, the MQL is first order. If the MQL does not have an account associated with it, it is also first order.
 
-There is a set of fields that show information regarding the First Order (FO) status of a MQL: 
+There is a set of fields that show information regarding the First Order (FO) status of a MQL:
 1. `Is First Order Person` - this shows whether or not the record is currently a FO record
 1. `FO Intial MQL` - this shows whether or not, at the time of the `Intitial MQL DateTime` (the first time the record MQL'd), the record was a FO record
 1. `FO MQL` - this shows whether or not, at the time of the `MQL DateTime` (the most recent time the record MQL'd), the record was a FO record
@@ -65,7 +65,7 @@ There is a set of fields that show information regarding the First Order (FO) st
 
 To find the date of when someone became an MQL, we use the date field from Marketo (`Marketo MQL DateTime` in SFDC). While this field is not stampted and can change if someone re-MQLs, it makes our reporting easier to understand, matches what Sales Development uses, and matches the data in Marketo.
 
-While we use `Marketo MQL DateTime` for all our standard reporting, we are aware of some of the issues with using this field: 
+While we use `Marketo MQL DateTime` for all our standard reporting, we are aware of some of the issues with using this field:
 - MQL Dates can change if a person re-MQLs
 - The MQL field will be blank for someone who skips the MQL stage
 
@@ -81,19 +81,19 @@ For circumstances where the cavacts above impact reports, we have created the MQ
 | SFDC MQL DateTime            | MQL_DateTime_Inferred__c | Set by SFDC when a record skips the MQL Stage, Inquiry > Accepted for example. Updates each time this happens.                           | input metric - not needed for reporting              |
 
 ##### Technical Definition
-Any lead or contact from the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table where the MQL first or Inferred MQL date is not null. 
+Any lead or contact from the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table where the MQL first or Inferred MQL date is not null.
 
-This is captured in the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table by the `is_mql = TRUE`. 
+This is captured in the [fct_crm_person](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_person) table by the `is_mql = TRUE`.
 
 Example Query, this will return a list of MQLs with the date they became an MQL:
 ```
-  SELECT 
+  SELECT
   dim_crm_person.dim_crm_person_id,
   dim_crm_person.sfdc_record_id,
   Dim_crm_person.email_hash,
   collate(mql_date, mql_inquiry_date) as mql_date
   FROM mart_crm_person
-  where 
+  where
   is_mql = TRUE
 ```
 
@@ -109,7 +109,7 @@ A Sales Accepted Opportunity (SAO) is an Opportunity that has reached the accept
 
 ##### First Order SAOs
 SFDC stamps the order type on each SAO when it is created, meaning that each SAO knows its order type. The `order_type` field stores this information.
-The logic for first-order SAOs is captured in the `is_new_logo_first_order` flag. It should always be used when querying for FO SAOs. 
+The logic for first-order SAOs is captured in the `is_new_logo_first_order` flag. It should always be used when querying for FO SAOs.
 
 ##### Date of SAO
 To find the date the opportunity became an SAO, use the `sales_accepted_date` field.
@@ -124,7 +124,7 @@ SELECT
 sales_accepted_date,
 dim_crm_opportunity_id
 FROM mart_crm_opportunity
-WHERE 
+WHERE
 is_sao = TRUE
 and is_new_logo_first_order = TRUE
 ```
@@ -133,7 +133,7 @@ and is_new_logo_first_order = TRUE
 
 An SAO is defined by records in the [Opportunity Mart](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_crm_opportunity).
 
-##### Sisense Snippet:
+##### Sisense Snippet
 [​​rpt_crm_opportunity_accepted_period_sao](https://app.periscopedata.com/app/gitlab:safe-dashboard/view/rpt_crm_opportunity_accepted_period_sao/5ea9956269564639ac39d14beae7c945/edit)
 
 #### Closed Won Opportunity
@@ -148,7 +148,7 @@ When querying for First Order Closed Won, it’s best to use the `is_new_logo_fi
 To find the date the opportunity closed, use the `close_date` field.
 
 ##### Finding Net ARR for an Opportunity
-When reporting on the [Net ARR](/handbook/sales/sales-term-glossary/arr-in-practice/) of a closed deal, we need to ensure the deal will contribute to the company's Net ARR. To this, add the `is_net_arr_closed_deal` flag as true to the query. 
+When reporting on the [Net ARR](/handbook/sales/sales-term-glossary/arr-in-practice/) of a closed deal, we need to ensure the deal will contribute to the company's Net ARR. To this, add the `is_net_arr_closed_deal` flag as true to the query.
 
 ##### Technical Definition
 Any opportunity from the [fct_crm_opportunity](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.fct_crm_opportunity#description) table where the stage_name is not `10-Duplicate` and `is_edu_oss` is 0, and the `is_won` is true, and `is_closed` is true.
@@ -161,7 +161,7 @@ SELECT
 sales_accepted_date,
 dim_crm_opportunity_id
 FROM mart_crm_opportunity
-WHERE 
+WHERE
 is_closed_won = TRUE
 and is_new_logo_first_order = TRUE
 and is_net_arr_closed_deal = TRUE
@@ -189,7 +189,7 @@ We do not count every namespace trial. Instead, we only include those with the f
 ##### Trial-to-Paid Dashboard
 You can find the SSoT for the [Trial-to-Paid metric in Tableau](https://10az.online.tableau.com/#/site/gitlab/views/TrialNamespaceConversionRateCohorted/ThreeLines_1?:iid=1). This dashboard is the source of trial conversion metrics for Marketing in Key Reviews and other executive readouts. The dashboard cohorts the company trial conversion rate described above to 45 days, 30 days, and 90 days. While the 45-Day rate is the primary metrics we use for reporting, we’ve included the others as they give more context to decision-makers.
 
-The dashboard creates the cohorts in the following way: 
+The dashboard creates the cohorts in the following way:
 1. Find all trial records that meet the criteria above
 1. Find the 30, 45, and 90 days from the start of the trial. These calculated dates define when the trial record enters into the 30, 45, and 90-day cohort
 1. Create a row for each cohort above for each trial
@@ -208,12 +208,12 @@ You can see the code in [this file](https://gitlab.com/gitlab-com/marketing/mark
 
 
 ## Marketing Sisense Dashboards
-In [Sisense](https://app.periscopedata.com/app/gitlab/403199/Welcome-Dashboard-%F0%9F%91%8B) there are mutlipe marketing metric dashboards. You can quickly find the current source of truth dashboards by referencing the `Marketing` topic within Sisense. There are 3 topics that marketing leverages:   
+In [Sisense](https://app.periscopedata.com/app/gitlab/403199/Welcome-Dashboard-%F0%9F%91%8B) there are mutlipe marketing metric dashboards. You can quickly find the current source of truth dashboards by referencing the `Marketing` topic within Sisense. There are 3 topics that marketing leverages:
 1. `Marketing` - These are the actively maintained dashboards.
 1. `Marketing-WIP` - These are the WIP dashboards. They can be viewed but are not reliable yet.
 1. `Marketing-Archive` - These are the archived/old dashboards. They are not to make decisions off of and no longer supported.
 
-Below you can find a few of the major dashboards in use and descriptions/links of/to them. 
+Below you can find a few of the major dashboards in use and descriptions/links of/to them.
 
 ### Marketing sources
 
@@ -263,7 +263,7 @@ The [Marketing Linear Attribution Dashboard](https://app.periscopedata.com/app/g
 
 ### Marketing trial sign up flow
 
-We use a variety of methods and systems to collect leads and understand how people discover GitLab. This is a basic overview of these visitors move through marketing systems. 
+We use a variety of methods and systems to collect leads and understand how people discover GitLab. This is a basic overview of these visitors move through marketing systems.
 Note: The time delay between a record being added to SFDC and the time it takes to process in Marketo, get a score, and get pushed back to SFDC as a MQL causes a discrepancy between Inquiries and MQLs for trials on a given day or in a given month (when the trial occurs on the first/last day of the month) when viewed on the [Marketing Metrics Dashboard](https://app.periscopedata.com/app/gitlab/431555/Marketing-Metrics).
 
 ![Trial sign up flow](/images/handbook/marketing/marketing-operations/trial-sign-up-flow.png)
@@ -280,18 +280,18 @@ To find Segment the logic is as follows (`employee_bucket_segment_custom`):
 - If still null, use the manual input employee count
 
 To find Geo the logic is as follows (`geo_custom`):
-We used the [FY23 Territories Mapping File - SSoT](https://docs.google.com/spreadsheets/d/1gElhORjqraKDMQnWzApPelyP_vVa24tAOA85vb5f3Uc/edit#gid=1236326957) mapping doc to find how countries mapped to Geos across segments.  
-  - If Account Demographics, use it    
+We used the [FY23 Territories Mapping File - SSoT](https://docs.google.com/spreadsheets/d/1gElhORjqraKDMQnWzApPelyP_vVa24tAOA85vb5f3Uc/edit#gid=1236326957) mapping doc to find how countries mapped to Geos across segments.
+  - If Account Demographics, use it
   - Otherwise find the first non-null value from Zoominfo then Cognism
   - Map the found country to a GEO via a hardcoded list.
-        
+
 This logic has been [added to DBT](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.map_alternative_lead_demographics), and can be used in models as needed.
 
 We have added new charts to the [Weekly Marketing Dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965065/TD:-Weekly-Marketing-Metrics) with the alternative mappings while keeping the Account Demographics (original) version. We have also added tables to the [Integrated Marketing Dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/1061201/Draft:-Integrated-Marketing-v1), ensuring we left the original Account Demographics versions too.
 
 
 ## Filters on Marketing Dashboards
-Filters are a native and integral piece of any dashboard! They allow you to quickly and easily isolate and filter your data based on pre-determined values and sets. They are of *no use* to anyone if we don't all know what a specific filter represents though! Here are the most common filters used on marketing dashboards, what data they pull from, and what they mean to you as the end-user!   
+Filters are a native and integral piece of any dashboard! They allow you to quickly and easily isolate and filter your data based on pre-determined values and sets. They are of *no use* to anyone if we don't all know what a specific filter represents though! Here are the most common filters used on marketing dashboards, what data they pull from, and what they mean to you as the end-user!
 
 ### Date Filters
 1. `Group_by_Time` - this groups the X-axis dates by the specified value - either Month, Quarter, or Year
@@ -312,7 +312,7 @@ To give executives a better view of lead sources and showing where leads and con
 
 This grouping was first used in the [CMO Plan](https://app.periscopedata.com/app/gitlab:safe-dashboard/943559/WIP:-CMO-Plan)
 
-Below is the table mapping for each lead source and its Source Bucket.   
+Below is the table mapping for each lead source and its Source Bucket.
 
 | Initial Source                                                                                                         | Source Bucket      |
 |------------------------------------------------------------------------------------------------------------------------|--------------------|
@@ -393,7 +393,7 @@ Below is the table mapping for each lead source and its Source Bucket.
 | Zoominfo                                                                                                               | SDR prospecting    |
 
 ## Reporting Fields Source of Truth
-This section captures and links the most often used fields in reporting so that anyone pulling a Salesforce report can and is using the correct fields and the same fields that are being used in Periscope reports/dashboards.    
+This section captures and links the most often used fields in reporting so that anyone pulling a Salesforce report can and is using the correct fields and the same fields that are being used in Periscope reports/dashboards.
 
 Note: There is a current transition to move towards the [Territory Success Planning fields](/handbook/sales/field-operations/sales-systems/gtm-technical-documentation/)
 
@@ -405,7 +405,7 @@ Note: There is a current transition to move towards the [Territory Success Plann
 ### Contact
 1. [Lead Source](https://gitlab.my.salesforce.com/_ui/common/config/field/StandardFieldAttributes/d?id=LeadSource&type=Contact&retURL=%2Fp%2Fsetup%2Flayout%2FLayoutFieldList%3Ftype%3DContact%26setupid%3DContactFields%26retURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DContact&setupid=ContactFields)
 1. [MQL Date](https://gitlab.my.salesforce.com/00N4M00000IW0Jx?setupid=ContactFields) - if this is blank, the record is *not* counted as a `MQL`
-1. Sales Segment - See the Account `Sales Segment` field. 
+1. Sales Segment - See the Account `Sales Segment` field.
 
 ### Account
 1. `Sales Segment` - Using the [Account Owner's](https://gitlab.my.salesforce.com/_ui/common/config/field/StandardFieldAttributes/d?id=Owner&type=Account&retURL=%2Fp%2Fsetup%2Flayout%2FLayoutFieldList%3Ftype%3DAccount%26setupid%3DAccountFields%26retURL%3D%252Fui%252Fsetup%252FSetup%253Fsetupid%253DAccount&_CONFIRMATIONTOKEN=VmpFPSxNakF5TVMwd05DMHhOMVF4TlRveE5qb3dOaTQzTnpOYSxURnIyR3gyTDhNSWx5dWJmTW1ObUxGLFl6UTNNekF5&setupid=AccountFields) - `User Segment`
@@ -430,16 +430,16 @@ Note: There is a current transition to move towards the [Territory Success Plann
 
 [Video Walkthrough](https://www.youtube.com/watch?v=ygeZvKvU9uc) (Private Video)
 ## Useful things to know when it comes to Sisense vs. SFDC data
-Given the way that our systems are connected and synched, you may see a discrepancy in the data within Sisense vs. Sales Force.com. A few things to note: 
-1. Opportunity amount will be updated immediately within sales force, but will NOT show up in Sisense until the next day, as our data synchs overnight. 
-1. There is about a 7 hour time difference between Sisense and SFDC, so this time lag can also create discrepancies as well. 
+Given the way that our systems are connected and synched, you may see a discrepancy in the data within Sisense vs. Sales Force.com. A few things to note:
+1. Opportunity amount will be updated immediately within sales force, but will NOT show up in Sisense until the next day, as our data synchs overnight.
+1. There is about a 7 hour time difference between Sisense and SFDC, so this time lag can also create discrepancies as well.
 
-## Field Marketing Metrics 
+## Field Marketing Metrics
 This section will go into specifics on the workflow for a Field Marketer to check their results.
 
-At the highest level, Field Marketing is responsible for helping to progress MQLs and influencing pipeline. Those MQLs will ultimately create [Sales Accepted Opportunities](/handbook/sales/field-operations/gtm-resources/#opportunities) by the Sales Development team. 
+At the highest level, Field Marketing is responsible for helping to progress MQLs and influencing pipeline. Those MQLs will ultimately create [Sales Accepted Opportunities](/handbook/sales/field-operations/gtm-resources/#opportunities) by the Sales Development team.
 
-Field Marketing also has an 10X spend to pipeline goal. So if the company gives us $1, we need to give $10 in pipeline back. 
+Field Marketing also has an 10X spend to pipeline goal. So if the company gives us $1, we need to give $10 in pipeline back.
 
 ### The Field Marketing Dashboard
 Our FMM Dashboard lives in the SAFE space within Tableau and provides an overview on the performance of the Field Marketing programs.
@@ -477,8 +477,8 @@ If you did not have a specific SFDC Campaign you were driving to, and you wanted
 
 Please note that whilst you can track leads via SFDC campaigns or UTM reports, pipeline generated should be viewed in [Tableau](https://10az.online.tableau.com/#/site/gitlab/views/DraftTDCampaigns-L2RInteractions/Overview?:iid=2) only, as SFDCs last touch model is different from our multi touch attribution model.
 
-## Channel Marketing Reporting 
-We track marketing influence on channel opportunies as well as deal regisiration impact from [Market Development Funds](/handbook/resellers/Channel-Program-Guide/MDF/). 
+## Channel Marketing Reporting
+We track marketing influence on channel opportunies as well as deal regisiration impact from [Market Development Funds](/handbook/resellers/Channel-Program-Guide/MDF/).
 
 | Report Name                                    | Platform   | Description                                                                                                                                                                                                                                  | Link                                                                                                                                  |
 | ---------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -490,10 +490,11 @@ We track marketing influence on channel opportunies as well as deal regisiration
 | Partner Recall Leads  & Contacts                        | Salesforce | This report captures the partner leads that have been recalled in the current FY.                                                                                                                                                            | [🖇️ Leads](https://gitlab.my.salesforce.com/00O8X000008muTH)  [🖇️ Contacts](https://gitlab.my.salesforce.com/00O8X000008muWG)                                                                        |
 | MDF Funds Request with Funds Claim                       | Salesforce | This report captures a list of the current FY Funds Requests received and their respected. claims                                                                                                                                                            | [🖇️](https://gitlab.my.salesforce.com/00OPL0000002ILp)                                                                               |
 | MDF Funds Request with Partner Account                       | Salesforce | This report captures a list of the current FY Funds Requests with Partner Account name filtered by status.                                                                                                                                                            | [🖇️](https://gitlab.my.salesforce.com/00OPL0000002IP3)                                                                               |
+| Instant Marketing Campaigns Asset Report                       | Impartner | This report captures views, downloads, shares and cobrands of our Instant Marketing Campaigns and assets.                                                                                                                                                             | [🖇️](https://prod.impartner.live/en/s/channel-intel/dashboard/65e60883f43d1e0033b33d6e)                                                                               |
 
 
 ### Channel Marketing Tableau Dashboard
-[This Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerSourcedOpps?:iid=1) is the SSOT for Channel Marketing Reporting. 
+[This Tableau Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftPartnerMarketingv2/PartnerSourcedOpps?:iid=1) is the SSOT for Channel Marketing Reporting.
 
 Under the `Partner Leads & Contacts` tab, there may be campaigns with Partner Share Status = `No Value`. This is the result of two reasons:
 
@@ -524,7 +525,7 @@ The above reports are Bizible attribution reports at the person level, you will 
 
 ### Contribution to sales pipeline
 
-This can be calculated by heading to the [Marketing Influenced Pipeline dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MarketingInfluencedPipeline/MarketingInfluencedPipelineReview?:iid=2). 
+This can be calculated by heading to the [Marketing Influenced Pipeline dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MarketingInfluencedPipeline/MarketingInfluencedPipelineReview?:iid=2).
 
 #### How to trouble shoot your ROI questions
 If you have a quick 1 off question on reporting, then please feel free to ask the question in the #fieldmarketing slack channel.

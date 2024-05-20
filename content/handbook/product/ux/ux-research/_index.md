@@ -77,6 +77,7 @@ Below is a full list of our UX Research team handbook content:
 - [Analyzing survey verbatim](/handbook/product/ux/ux-research/analyzing-survey-verbatim/)
 - [Research insights](/handbook/product/ux/ux-research/research-insights/)
 - [Documenting research insights in Dovetail](/handbook/product/ux/dovetail/)
+- [Product Analytics for UX Research](/handbook/product/ux/ux-research/product-analytics-for-ux-research/)
 
 ### Templates
 
@@ -124,13 +125,13 @@ Below is a full list of our UX Research team handbook content:
 
 ### Measures and processes the UX Research team is responsible for
 
+- [Product Customer Satisfaction (CSAT) Survey](/handbook/product/ux/performance-indicators/csat/)
 - [System Usability Scale](/handbook/product/ux/performance-indicators/system-usability-scale/)
      - [System Usability Scale responder outreach](/handbook/product/ux/performance-indicators/system-usability-scale/sus-outreach/)
-- [Paid Net Promoter Score](/handbook/product/ux/performance-indicators/paid-nps/)
+- [Paid NPS (Deprecated)](/handbook/product/ux/performance-indicators/paid-nps/)
 - [Assessing Category Maturity](/handbook/product/ux/category-maturity/)
     - [Category Maturity Scorecards](/handbook/product/ux/category-maturity/category-maturity-scorecards/)
     - [Category Maturity - Competitor Comparison](/handbook/product/ux/category-maturity/competitor-comparison/)
 - [Tracking research velocity](/handbook/product/ux/ux-research/tracking-research-velocity/)
 - [Tracking gold, silver, and bronze UX research projects](/handbook/product/ux/ux-research/tracking-research-projects/)
 - [Tracking actionable insights](/handbook/product/ux/ux-research/tracking-actionable-insights/)
-

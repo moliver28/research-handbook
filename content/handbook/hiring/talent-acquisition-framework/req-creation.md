@@ -43,7 +43,6 @@ In order to open a backfill:
 *For roles being repurposed*: the business leader owns communication to the team to discuss rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
 1. Once the role is approved/decision has been reached and all has been documented in the issue, the recruiter can create a position in Greenhouse for approval and move to the next step of the process.
 
-
 ### Create or Review the Job Family (DRI: Hiring Manager)
 
 The Hiring Manager will review the position description in the `/job-families` folder and update it, if needed. If there is no existing job family, they should follow the steps to [create a new job family](/handbook/hiring/job-families#job-families). A compensation benchmark for the role should be set by working with the Compensation & Benefits team.
@@ -72,10 +71,9 @@ There are a few options for what to open in Greenhouse.
 - **When should an Evergreen req be used?**
    TA Leadership will open EVG roles at the start of a fiscal year, with a quarterly review cadence, by leveraging the hiring plan and attrition assumptions. Typically, EVG postings will be utilized when there are multiple openings for a set of roles (3 or more) that have very similar technical qualifications and are expected to be hired on a regular basis (for example, Business Development Rep, AMER). These roles usually span multiple teams and hiring managers., but are all interviewed with the same process by the same interviewer 'pool'. `Regular basis` refers to consistent volume over a period of 3+ quarters.
 - **How do I open an evergreen req?**
-   All evergreen reqs need to be approved by TALT (Jake Foster, Ursula Knezevic or Jess Dallmar) prior to opening.
+   All evergreen reqs need to be approved by TALT (Jake Foster or Jess Dallmar) prior to opening.
 
 If you are looking to open a job for pipeline reasons, because a Hiring Manager has requested that you work on a role that will be open in the future but has not been approved, instead of an EVG role use our Greenhouse CRM.
-
 
 **The Recruiter will:**
 
@@ -91,9 +89,7 @@ Once you've selected a template to copy, the first screen will ask for **Basic J
 1. Click `Generate IDs` to create a requisition ID. You’ll need this again when you set up your opening(s).
 1. Under `Employment Type`, select your opening type - which unless there is an explicit exception, should be Full-Time. *Contract* refers to a true consultant, who works on short-term projects, and not someone in a country like the Netherlands who requires a one-year contract before indefinite. Talent Acquisition only supports Full Time Employee hiring at this time.
 1. Most positions will not be marked confidential. If you have prior approval from Jess Dallmar, Rich Kahn, and Enablement, you can select `Yes` under `Confidential?`. Selecting `Yes` will ensure that the Enablement team specifically excludes any jobs with this selected from reports. It does *not* change access or permissions, so you will still need to evaluate those to remove anyone who should not see your job.
-1. `Salary` will be input by the Total Rewards Team.
-   - Total Rewards will use `benchmark x level x 0.45` for the low end and `benchmark x level x 0.8` on the high end.
-1. `CO/WA Salary Range` `CA/NY/NJ Salary` and will be input by the Total Rewards Team if the role accepts US applicants, unless the role is state-specific outside of the states listed. Recruiters can use `1-1` as the range as a placeholder when submitting the req for approval. The Recruiter will use the approved ranges from Total Rewards in their job post.
+1. `CA/CO/HI/NY/NJ/WA Salary` and will be input by the Total Rewards Team if the role accepts US applicants, unless the role is state-specific outside of the states listed. Recruiters can use `1-1` as the range as a placeholder when submitting the req for approval. The Recruiter will use the approved ranges from Total Rewards in their job post.
 1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is not the GHPID.
 1. Enter the `Target Start Date` as listed on the GitLab Hiring Plan
 1. Under `Type` choose if this is a *New Hire*, *Evergreen*, or a *Backfill*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below. If you choose *Evergreen*, ensure this is first approved by Jess Dallmar.
@@ -157,7 +153,6 @@ If you find that someone is delayed in responding to an approval request, you ca
    - Uncheck `Include 'Apply with SEEK' button`
 1. Click `Save`, then click the red button to publish the opening to our internal job board.
 1. After publishing, announce on Slack in `#new-vacancies` for team members to apply or send in referrals.
-
 
 ```text
 Slack message template:

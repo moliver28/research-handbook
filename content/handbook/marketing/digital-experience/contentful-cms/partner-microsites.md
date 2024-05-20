@@ -107,9 +107,14 @@ The following tables contain fields necessary to build out the side navigation b
 | Internal name    | This field does not appear on the page, but is used for internal purposes such as search.                                                                                                                                                                                                                | "Microsite - DevSecOps"                                                            |
 | Link Text        | The text used for the link.                                                                                                                                                                                                                                                                              | "DevSecOps"                                                                        |
 | Anchor Link      | No external link should be added here. The anchor link MUST include a `#` before the text, should be lowercase, and all words must be separated by `-`. This should match up with an `Anchor ID` value you enter in the track content. Please make sure you test these links before publishing the page. | "#devsecops"                                                                       |
-| Nodes            | These are optional, but allow for a second level of nesting in the side menu. (Ex: if you want to link to sections within the DevSecOps track). At this time, this only takes in JSON data. We are working to make this easier to use.                                                                   | See below for code snippet. (Consider copy/pasting this and editing to your needs) |
+| Child Anchor Links | You can add a new 'Anchor Link' content entry here. Please note that our side navigation component only renders **one level** of child links. | Use the _Anchor Link_ block here|
+| Nodes (DEPRECATED)           | _This is an older, more complicated way of adding child links. See the new `Child Anchor Links` field._ These are optional, but allow for a second level of nesting in the side menu. (Ex: if you want to link to sections within the DevSecOps track). At this time, this only takes in JSON data. We are working to make this easier to use.                                                                   | See below for code snippet. (Consider copy/pasting this and editing to your needs) |
 | Data GA name     | This is used for Google Analytics. You may enter a value here (the best practice is the name of the button text, but in all lowercase). However, if a value is not entered, there is logic behind-the-scenes to create these values in Google Analytics automatically!                                   | "what-is-gitlab"                                                                   |
 | Data GA location | his is used for Google Analytics. You may enter a value here (the best practice is the location of the button, but in all lowercase). However, if a value is not entered, there is logic behind-the-scenes to create these values in Google Analytics automatically!                                     | "side menu"                                                                        |
+
+<details><summary>Expand to view Nodes code snippet</summary>
+
+**Note:** This method is being deprecated. Please use the `Child Anchor Links` field instead! 
 
 ```JSON
 {
@@ -125,6 +130,9 @@ The following tables contain fields necessary to build out the side navigation b
     ]
 }
 ```
+</details>
+
+
 
 ##### Visual Representation
 

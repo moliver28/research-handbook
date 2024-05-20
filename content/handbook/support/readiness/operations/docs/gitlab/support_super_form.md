@@ -67,7 +67,7 @@ room for discussion, outside of followup questions from Support Operations.
 
 This is for internal requests regarding licensing, subscriptions, trials, and
 grace period extensions in Zendesk Global. More information can be found
-[within the Support Handbook](https://handbook.gitlab.com/handbook/support/internal-support/#internal-requests)
+[within the Support Handbook](/handbook/support/internal-support/#internal-requests)
 
 Keep in mind you _must_ have a Light Agent account on the Zendesk instance.
 Without one, your request will be declined.
@@ -76,7 +76,7 @@ Without one, your request will be declined.
 
 This is for internal requests regarding licensing, subscriptions, trials, and
 grace period extensions in Zendesk US Federal. More information can be found
-[within the Support Handbook](https://handbook.gitlab.com/handbook/support/internal-support/#internal-requests)
+[within the Support Handbook](/handbook/support/internal-support/#internal-requests)
 
 Keep in mind you _must_ have a Light Agent account on the Zendesk instance.
 Without one, your request will be declined.

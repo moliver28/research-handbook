@@ -84,7 +84,7 @@ The “Maximum Users” count in the instance refers to this running list of act
 Communicate to customer
 
 >>>
-- Navigate to the [CustomersDot](http://customers.gitlab.com/admin) and sign in or [reset the password](https://customers.gitlab.com/customers/password/new) if required
+- Navigate to the [CustomersDot](https://customers.gitlab.com) and sign in using your GitLab.com account or [request a one-time sign-in link](https://docs.gitlab.com/ee/subscriptions/customers_portal.html#sign-in-to-customers-portal)
 - Go to `Manage Purchases`
 - Locate the subscription you wish to add more users to and click the button `Add more seats`
 - Enter the additional amount of users you wish to have (i.e. you have 50 but want to have 60, so you have to enter 10)
@@ -424,7 +424,7 @@ E.g. Customer in UK purchased web direct, at renewal (if sales assisted) the quo
 This is to make sure we ask for Tax ID or VAT ID which prevents a customer from paying tax or VAT charges.
 
 The following image reflects how inside the quote object you can change the entity to US.
-<img src="/handbook/business-technology/enterprise-applications/applications/troubleshooting/entity2.png" class="full-width">
+<img src="/handbook/business-technology/enterprise-applications/applications/troubleshooting/entity2.png" class="full-width" alt="">
 
 ## Checklists for quotes
 

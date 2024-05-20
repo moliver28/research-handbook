@@ -4,12 +4,6 @@ title: Debugging Failing Tests and Test Pipelines
 description: Guidelines for investigating end-to-end test pipeline failures
 ---
 
-
-
-
-
-
-
 ## Overview
 
 These guidelines are intended to help you to investigate [end-to-end test](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/index.html) pipeline failures so that they can be properly addressed. This will involve analyzing each failure and creating an issue to report it. It might also involve [fixing tests](#fixing-the-test), [putting them in quarantine](#quarantining-tests), or [reporting bugs in the application](#bug-in-the-application).
@@ -56,9 +50,9 @@ flowchart TB
         fix_tests(fix tests if possible)
         quarantine_tests(quarantine tests if necessary)
         monitor_incident(participate in incident process)
-    		tag_issue_for_report(add your emoji to issue for the DRI gem)
-		    publish_results(publish your results to the triage issue with the DRI gem)
-		    dri_handoff(handoff to next DRI anything that is still in flight)
+            tag_issue_for_report(add your emoji to issue for the DRI gem)
+            publish_results(publish your results to the triage issue with the DRI gem)
+            dri_handoff(handoff to next DRI anything that is still in flight)
 
         %% external links
         click failed_pipeline "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#review-the-failure-logs"
@@ -74,52 +68,52 @@ flowchart TB
         click eyes "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
         click fire_engine "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
         click boom "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
-      	click tag_issue_for_report "https://gitlab.com/gitlab-org/ruby/gems/dri#configuration"
-			  click publish_results "https://gitlab.com/gitlab-org/ruby/gems/dri#4-publish"
+          click tag_issue_for_report "https://gitlab.com/gitlab-org/ruby/gems/dri#configuration"
+              click publish_results "https://gitlab.com/gitlab-org/ruby/gems/dri#4-publish"
         click notify_incident "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#failure-needs-escalation"
         click update_incident "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#notify-group-in-all-cases"
 
         %% diagram
         slack_channels -->|failed pipeline run| eyes
-			  slack_channels -->|no failed pipeline runs| next_channel
+              slack_channels -->|no failed pipeline runs| next_channel
 
-				open_incident --> next_channel
-   			another_failure -->|no| next_channel
+                open_incident --> next_channel
+               another_failure -->|no| next_channel
         incident -->|yes| notify_incident
 
-				next_channel --> investigate
-				next_channel --> publish_results
+                next_channel --> investigate
+                next_channel --> publish_results
 
-				subgraph report the failure
-				  eyes --> failed_pipeline
-				  failed_pipeline --> existing_issue
+                subgraph report the failure
+                  eyes --> failed_pipeline
+                  failed_pipeline --> existing_issue
           existing_issue -->|new failure| new_issue
-				  existing_issue -->|existing issue| fire_engine
-					new_issue --> boom
-					boom --> notify_groups
-					notify_groups --> incident
-	    		incident -->|no| tag_issue_for_report
-		    	tag_issue_for_report --> tag_pipeline
+                  existing_issue -->|existing issue| fire_engine
+                    new_issue --> boom
+                    boom --> notify_groups
+                    notify_groups --> incident
+                incident -->|no| tag_issue_for_report
+                tag_issue_for_report --> tag_pipeline
 
-					fire_engine --> tag_issue_for_report
-					tag_pipeline --> another_failure
-					another_failure -->|yes| failed_pipeline
-				end
+                    fire_engine --> tag_issue_for_report
+                    tag_pipeline --> another_failure
+                    another_failure -->|yes| failed_pipeline
+                end
 
-				subgraph escallate issue
-				  notify_incident --> open_incident
-				  open_incident --> update_incident
+                subgraph escallate issue
+                  notify_incident --> open_incident
+                  open_incident --> update_incident
           update_incident --> monitor_incident
-				end
+                end
 
-				subgraph follow up on test failures
-				  investigate --> fix_tests
-					investigate --> quarantine_tests
-				end
+                subgraph follow up on test failures
+                  investigate --> fix_tests
+                    investigate --> quarantine_tests
+                end
 
-				subgraph end of your day
-			    publish_results --> dri_handoff
-				end
+                subgraph end of your day
+                publish_results --> dri_handoff
+                end
 ```
 
 ### QA test pipelines
@@ -128,29 +122,30 @@ The test pipelines run on a scheduled basis, and their results are posted to Sla
 
 | Environment | Tests type | Schedule | Slack channel | Latest test report |
 |-------------|------------|----------|---------------|--------------------|
-| [Production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines)           | Smoke and Reliable            | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Production Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/production-sanity/master/index.html) |
+| [Production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines)           | Smoke            | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Production Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/production-sanity/master/index.html) |
 | [Production](https://ops.gitlab.net/gitlab-org/quality/production/pipelines)           | Full                          | [after a feature flag in production has been updated](https://docs.gitlab.com/ee/development/feature_flags/) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Production Full](https://gitlab-qa-allure-reports.s3.amazonaws.com/production-full/master/index.html) |
-| [Canary](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines)                   | Smoke and Reliable            | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Canary Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/canary-sanity/master/index.html) |
+| [Canary](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines)                   | Smoke             | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Canary Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/canary-sanity/master/index.html) |
 | [Canary Full](https://ops.gitlab.net/gitlab-org/quality/canary/pipelines)              | Full                          | [after each deployment to Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-production`](https://gitlab.slack.com/messages/CCNNKFP8B) | [Canary Full](https://gitlab-qa-allure-reports.s3.amazonaws.com/canary-full/master/index.html) |
-| [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines)                 | Smoke and Reliable            | [after each deployment to Staging-Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)   | [Staging Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity/master/index.html) |
-| [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines)                 | Smoke and Reliable            | [after the execution of post-deploy migrations in Staging](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)   | [Staging Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity/master/index.html) |
-| [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines)                 | Smoke and Reliable (No Admin) | [Every 4 hours](https://ops.gitlab.net/gitlab-org/quality/staging/pipeline_schedules). This is useful to catch issues [when `requires_admin` tag is missed](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/3678#note_514281399) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) | [Staging Sanity - No Admin](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity-no-admin/master/index.html) |
+| [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines)                 | Smoke             | [after each deployment to Staging-Canary](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)   | [Staging Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity/master/index.html) |
+| [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines)                 | Smoke             | [after the execution of post-deploy migrations in Staging](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD)   | [Staging Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity/master/index.html) |
+| [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines)                 | Smoke (No Admin) | [Every 4 hours](https://ops.gitlab.net/gitlab-org/quality/staging/pipeline_schedules). This is useful to catch issues [when `requires_admin` tag is missed](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/3678#note_514281399) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) | [Staging Sanity - No Admin](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-sanity-no-admin/master/index.html) |
 | [Staging](https://ops.gitlab.net/gitlab-org/quality/staging/pipelines)                 | Geo                           | [Daily at 14:00 UTC](https://ops.gitlab.net/gitlab-org/quality/staging/pipeline_schedules) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) | Reported to Slack |
-| [Staging-Canary](https://ops.gitlab.net/gitlab-org/quality/staging-canary/pipelines)   | Smoke and Reliable            | [after each deployment to Staging](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) | [Staging-Canary](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-canary-sanity/master/index.html) |
-| [Staging-Canary](https://ops.gitlab.net/gitlab-org/quality/staging-canary/pipelines)   | Smoke and Reliable (No Admin) | [Every 4 hours](https://ops.gitlab.net/gitlab-org/quality/staging-canary/pipeline_schedules). This is useful to catch issues [when `requires_admin` tag is missed](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/3678#note_514281399) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) | Reported to Slack |
+| [Staging-Canary](https://ops.gitlab.net/gitlab-org/quality/staging-canary/pipelines)   | Smoke             | [after each deployment to Staging](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) | [Staging-Canary](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-canary-sanity/master/index.html) |
+| [Staging-Canary](https://ops.gitlab.net/gitlab-org/quality/staging-canary/pipelines)   | Smoke (No Admin) | [Every 4 hours](https://ops.gitlab.net/gitlab-org/quality/staging-canary/pipeline_schedules). This is useful to catch issues [when `requires_admin` tag is missed](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/3678#note_514281399) | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) | Reported to Slack |
 | [CustomersDot Staging](https://gitlab.com/gitlab-org/customers-gitlab-com/-/pipelines) | Full | After each deployment to CustomersDot Staging | [`#qa-staging`](https://gitlab.slack.com/messages/CBS3YKMGD) [`#s_fulfillment_status`](https://gitlab.slack.com/messages/CL7SX4N86) | [CustomersDot Staging](https://gitlab-qa-allure-reports.s3.amazonaws.com/cdot-e2e-staging/main/index.html) |
-| [Staging Ref](https://ops.gitlab.net/gitlab-org/quality/staging-ref/pipelines)         | Smoke and Reliable            | [after each deployment to Staging Ref](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines). | [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) | [Staging Ref Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-ref-sanity/master/index.html)  |
+| [Staging Ref](https://ops.gitlab.net/gitlab-org/quality/staging-ref/pipelines)         | Smoke            | [after each deployment to Staging Ref](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines). | [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) | [Staging Ref Sanity](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-ref-sanity/master/index.html)  |
 | [Staging Ref](https://ops.gitlab.net/gitlab-org/quality/staging-ref/pipelines)         | Full                          | [After each deployment to Staging Ref](https://ops.gitlab.net/gitlab-com/gl-infra/deployer/pipelines). | [`#qa-staging-ref`](https://gitlab.slack.com/archives/C02JGFF2EAZ) | [Staging Ref Full](https://gitlab-qa-allure-reports.s3.amazonaws.com/staging-ref-full/master/index.html)  |
-| [Preprod](https://ops.gitlab.net/gitlab-org/quality/preprod/pipelines)                 | Smoke, Reliable               | [Every month for a few days before release, at 03:00 UTC](https://ops.gitlab.net/gitlab-org/quality/preprod/-/pipeline_schedules) and after [deployment to preprod](/handbook/engineering/infrastructure/environments/#pre) during Security and Patch releases | [`#qa-preprod`](https://gitlab.slack.com/archives/CR7QH0RV1) | [Preprod](https://gitlab-qa-allure-reports.s3.amazonaws.com/preprod-sanity/master/index.html) |
-| [Release](https://ops.gitlab.net/gitlab-org/quality/release)                            | Smoke, Reliable               | [Every month after the final release](https://ops.gitlab.net/gitlab-org/quality/release/-/pipeline_schedules) and after [deployment to Release](/handbook/engineering/infrastructure/environments/#release) during Security and Patch releases | [`#qa-release`](https://gitlab.slack.com/archives/C0154HCFLRE) | [Release](https://gitlab-qa-allure-reports.s3.amazonaws.com/release-sanity/master/index.html) |
+| [Preprod](https://ops.gitlab.net/gitlab-org/quality/preprod/pipelines)                 | Smoke               | [Every month for a few days before release, at 03:00 UTC](https://ops.gitlab.net/gitlab-org/quality/preprod/-/pipeline_schedules) and after [deployment to preprod](/handbook/engineering/infrastructure/environments/#pre) during Security and Patch releases | [`#qa-preprod`](https://gitlab.slack.com/archives/CR7QH0RV1) | [Preprod](https://gitlab-qa-allure-reports.s3.amazonaws.com/preprod-sanity/master/index.html) |
+| [Release](https://ops.gitlab.net/gitlab-org/quality/release)                            | Smoke              | [Every month after the final release](https://ops.gitlab.net/gitlab-org/quality/release/-/pipeline_schedules) and after [deployment to Release](/handbook/engineering/infrastructure/environments/#release) during Security and Patch releases | [`#qa-release`](https://gitlab.slack.com/archives/C0154HCFLRE) | [Release](https://gitlab-qa-allure-reports.s3.amazonaws.com/release-sanity/master/index.html) |
  | [Nightly Reference Architecture FIPS](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester/-/pipelines) | Full | [Daily at 1.33 am UTC](https://dev.gitlab.org/gitlab/omnibus-gitlab/-/pipeline_schedules) | [`#qa-nightly`](https://gitlab.slack.com/messages/CGLMP1G7M) | Reported to Slack |
 | [GitLab `master`'s `e2e:package-and-test-ee`](https://gitlab.com/gitlab-org/gitlab/pipelines)     | Full                          | When the `e2e:package-and-test-ee` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master EE](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test/master/index.html) |
 | [GitLab `master`'s `e2e:package-and-test-ce`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)     | Full                          | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CE](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-package-and-test-ce/master/index.html) |
 | [GitLab `master`'s `e2e:package-and-test-nightly`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules)           | Full                          | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master Nightly](https://gitlab-qa-allure-reports.s3.amazonaws.com/nightly/master/index.html) |
-| [GitLab `master`'s `e2e:test-on-gdk`](https://gitlab.com/gitlab-org/gitlab/-/pipelines?ref=master&source=schedule)     | Smoke, Reliable      | When the `e2e:test-on-gdk` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master GDK](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-gdk/master/index.html) |
-| [GitLab `master`'s `e2e:test-on-cng`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | Smoke, Reliable | [Daily at 4:00 am UTC](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CNG](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-cng/master/index.html) |
+| [GitLab `master`'s `e2e:test-on-gdk`](https://gitlab.com/gitlab-org/gitlab/-/pipelines?ref=master&source=schedule)     | Smoke, Blocking      | When the `e2e:test-on-gdk` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master GDK](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-gdk/master/index.html) |
+| [GitLab `master`'s `e2e:test-on-cng`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | Full | When the `e2e:test-on-cng` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CNG](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-cng/master/index.html) |
 
 #### Emoji used
+
 For each pipeline there is a notification of success or failure (except for `master` pipelines, which only report failures).
 If there's a failure, we use emoji to indicate the state of its investigation:
 
@@ -159,7 +154,7 @@ If there's a failure, we use emoji to indicate the state of its investigation:
 - The :fire_engine: emoji ![:fire_engine:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-small/1f692@2x.png ":fire_engine: emoji"), when a failure is already reported.
 - The :retry: emoji ![:retry:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-small/1f504@2x.png ":retry: emoji"), when there's a system failure (e.g., Docker or runner failure).
 
-Note that while the configuration for each pipeline is in the `.gitlab-ci.yml` file in the relevant projects, pipeline schedules are configured via the UI and CI/CD variables are entered in project/group settings. Quality maintainers should have access to all the relevant configuration and settings. If you are the pipeline triage on-call DRI and you need to change settings but you don't have access, you can ask for assistance in the #quality_maintainers and #development Slack channels.
+Note that while the configuration for each pipeline is in the `.gitlab-ci.yml` file in the relevant projects, pipeline schedules are configured via the UI and CI/CD variables are entered in project/group settings. Quality maintainers should have access to all the relevant configuration and settings. If you are the pipeline triage on-call DRI and you need to change settings but you don't have access, you can ask for assistance in the `#test-platform-maintainers` and `#development` Slack channels.
 
 ## How to triage a QA test pipeline failure
 
@@ -182,7 +177,7 @@ After triaging failed tests, possible follow up actions are:
 Your priority is to make sure we have an issue for each failure, and to communicate the status of its investigation and resolution. When there are multiple failures to report, consider their impact when deciding which to report first. See the [pipeline triage responsibilities](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#responsibility) for further guidance.
 
 If there are multiple failures we recommend that you identify whether each one is new or old (and therefore already has an issue open for it). For each new failure, open an issue that includes only the required information. Once you have opened an issue for each new failure you can investigate each more thoroughly and act on them appropriately, as described in later sections.
-[](){: name="known-failures"}
+{: name="known-failures"}
 
 The reason for reporting all new failures first is to allow faster discovery by engineers who might find the test failing in their own merge request test pipeline. If there is no open issue about that failure, the engineer will have to spend time trying to figure out if their changes caused it.
 
@@ -199,7 +194,7 @@ Known failures should be linked to the current [pipeline triage report](https://
 1. If the issue has already been reported please use the existing issue to track the latest status.
 1. If there is no existing issue for the failure, please create an issue using one of [classification labels](#classify-and-triage-the-test-failure) via the steps below.
 
-[](){: name="linking-issue"}
+{: name="linking-issue"}
 In the relevant Slack channel:
 
 1. Apply the :eyes: emoji to indicate that you're investigating the failure(s).
@@ -222,7 +217,7 @@ Please use this step if there are no issues created to capture the failure. If t
 
 #### Special considerations for Staging-Canary
 
-`Staging-Canary` is unique when it comes to its blocking `smoke` and `reliable` tests that are triggered by the `deployer` pipeline. `Staging-Canary` executes `smoke/reliable` tests for both `Staging-Canary` AND `Staging` environments. This special configuration is designed to help catch issues that occur when incompatibilities arise between the shared and non-shared components of the environments.
+`Staging-Canary` is unique when it comes to its blocking `smoke` tests that are triggered by the `deployer` pipeline. `Staging-Canary` executes `smoke` tests for both `Staging-Canary` AND `Staging` environments. This special configuration is designed to help catch issues that occur when incompatibilities arise between the shared and non-shared components of the environments.
 
 `Staging-Canary` and `Staging` both share the same database backend, for example. Should a migration or change to either of the non-shared components during a deployment create an issue, running these tests together helps expose this situation. When the `deployer` pipeline triggers these test runs, they are reported serially in the `#qa_staging` Slack channel and they appear as different runs.
 
@@ -273,7 +268,7 @@ If you have any questions on the status, you can also reach out to the `@release
 GitLab `master` has three QA pipelines generated from scheduled pipeline against the default branch:
 
 - [`package-and-test`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-package-and-test-job) runs the `full` suite of end-to-end tests against an omnibus Docker image built from `master`
-- [`test-on-gdk`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-gdk-job) runs `reliable` and `smoke` suites of end-to-end tests against a GDK instance from a Docker image built from `master`
+- [`test-on-gdk`](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#using-the-test-on-gdk-job) runs both `blocking` and `smoke` suites of end-to-end tests as part of the `blocking` job against a GDK instance from a Docker image built from `master`
 
 If jobs in `package-and-test` failed due to a GitLab Docker image issue, reach out to the [Distribution team](/handbook/engineering/infrastructure/core-platform/systems/distribution/) to see if it's a known problem with the build.
 
@@ -292,6 +287,7 @@ It is a triggered Reference Architecture Tester pipeline that stands up an envir
 Failures can be triaged as per any other pipeline. Note that as the environment is torn down, retrying QA jobs will fail as the endpoint is unreachable.
 
 The pipeline can be manually retried by:
+
 - Get the package name from the `ansible` job eg. `Configuring GET to fetch package from https://omnibus-builds.s3.amazonaws.com/el-8_fips/gitlab-fips-15.8.3%2Brnightly.fips.272378.ccd2c685-0.el8.x86_64.rpm` ([job example](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester/-/jobs/3779956138#L48))
 - Trigger a pipeline from [Reference Architecture Tester Pipelines](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester/-/pipelines) with the variables
   - `PACKAGE_URL` - This is the package name from the `ansible` job
@@ -365,6 +361,9 @@ Below is the list of the common root causes in descending order of likelihood:
      - You can also reference this [dashboard](https://samdbeckham.gitlab.io/feature-flags) for a visual representation of feature flag statuses.
 3. Environment / Infrastructure: If there were no code or feature flag changes and the environment has flaky errors, first start with analyzing [Sentry errors and Kibana logs](#review-the-failure-logs) to further investigate the issue.
     - Review the `#incident-management` channel to check if any ongoing incidents may be contributing to the failures.
+    - If [`validate_canary!` check](https://gitlab.com/gitlab-org/gitlab/-/blob/4aa6dde8a375be69b3b1d0d2e2330c7885cbeb54/qa/qa/runtime/canary.rb#L8) is failing, check if [canary is not disabled on the environment](https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/canary.md#canary-chatops) by running
+      `/chatops run canary --production` on [#production](https://gitlab.slack.com/archives/production) or `/chatops run canary --staging` on [#staging](https://gitlab.slack.com/archives/staging) Slack channels. If canary is enabled, each server should report a few connections `UP`.
+      There is [known intermittent issue](https://gitlab.com/gitlab-org/gitlab/-/issues/431847) with the traffic not getting directed to canary even though the `gitlab_canary=true` cookie is set.
     - GitLab's [Tamland](https://gitlab-com.gitlab.io/gl-infra/tamland/intro.html) may also be a helpful resource to review. Tamland is used to help forecast the utilization and saturation of various services, such as Sidekiq. For example, if high saturation is predicted, this could surface as flaky behavior in our tests due to performance degradation from that service. More information about Tamland can be found [here](/handbook/engineering/infrastructure/capacity-planning/#forecasting-with-tamland).
     - You may also reach out to the Infrastructure team at `#infrastructure-lounge` and ask if something was changed recently on the environment in question.
 4. Test Data: Check that test data is valid. Live environments like Staging and Production rely on pre-existing data (QA users, access tokens).
@@ -448,7 +447,7 @@ If you suspect that certain test is failing due to the `gitlab/gitlab-{ce|ee}-qa
 ##### Checking application version has the specific MR
 
 1. Find the version which GitLab application is running on. In the failing job logs, search for `docker pull dev.gitlab.org:5005/gitlab/omnibus-gitlab/gitlab-ee-qa` and use the version specified after `gitlab-ee-qa:`.
-    - For *nightly* the approach above won't work. There are two ways for finding the commit version of nightly:
+    - For _nightly_ the approach above won't work. There are two ways for finding the commit version of nightly:
         - Run the [nightly image on local](#run-the-test-against-a-gitlab-docker-container), sign-in as admin and navigate to `/help` page or call the `/api/v4/version` API.
         - Search for the commit in the [omnibus-gitlab pipeline](https://dev.gitlab.org/gitlab/omnibus-gitlab/-/pipelines) that built the last nightly. Jobs that build nightly have `bundle exec rake docker:push:nightly` command in the `Docker-branch` job of the `Package-and-image` stage. Once you find the latest pipeline, search for `gitlab-rails` under `build-component_shas` in any job under the `Gitlab_com:package` stage. For example, in [this `Ubuntu-16.04-branch` job](https://dev.gitlab.org/gitlab/omnibus-gitlab/-/jobs/9610785#L3373), the commit SHA for `gitlab-rails` is `32e76bc4fb02a615c2bf5a00a8fceaee7812a6bd`.
 1. Open commits list for the specific version:
@@ -463,9 +462,10 @@ If you suspect that certain test is failing due to the `gitlab/gitlab-{ce|ee}-qa
 
 #### Investigating orchestrated test failure
 
-##### Verify the reconfigure logs for the GitLab container in the pipeline artefacts.
+##### Verify the reconfigure logs for the GitLab container in the pipeline artefacts
 
 Each orchestrated job has a log file attached as artifacts called
+
 - `<container_name>-reconfigure-logs.txt` - if the container runs successfully on 1st attempt, or
 - `<container_name>-retry-<retry_attempt>-reconfigure-logs.txt` - if the test has tried multiple times to spin up the GitLab container due to failure.
 
@@ -600,7 +600,7 @@ Some examples of external dependency failures could include:
 
 #### Failure needs escalation
 
-If the failure is in a `smoke` or a `reliable` test, it will block deployments ([except for Staging Ref failures](#special-considerations-for-staging-ref)). Please inform the release managers of the root cause and if a fix is in progress by Quality. On GitLab.com, you can use `@gitlab-org/release/managers`. In Slack, you can use `@release-managers`.
+If the failure is in a `smoke` test, it will block deployments ([except for Staging Ref failures](#special-considerations-for-staging-ref)). Please inform the release managers of the root cause and if a fix is in progress by Quality. On GitLab.com, you can use `@gitlab-org/release/managers`. In Slack, you can use `@release-managers`.
 
 If the failure could affect the performance of `GitLab.com` production, or make it unavailable to a specific group of users, you can [declare an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) with `/incident declare` in the `#production` Slack channel, this will automatically prevent deployments (if the incident is at least an S2).
 
@@ -654,7 +654,7 @@ If a test is failing and you have good reason to quarantine it quickly you can [
 
 You should use fast quarantine to unblock deployment pipelines and MRs if the failure is disruptive and you've ruled out bugs as the cause of the failure (e.g., you've identified that the test is stale, or flaky).
 
-> **Note**: Failing `:reliable` or `:smoke` tests in the `e2e: test-on-gdk` child pipeline will block MR pipelines as well as scheduled master pipelines. Failures of those tests are good candidates for fast quarantine.
+> **Note**: Failing `blocking` job in the `e2e: test-on-gdk` child pipeline will block MR pipelines as well as scheduled master pipelines. Failures of those tests are good candidates for fast quarantine.
 
 After fast quarantining, please follow the long-term quarantine process below.
 
@@ -719,7 +719,7 @@ You should apply the quarantine tag to the outermost `describe`/`context` block 
 to the test being quarantined.
 
 ```ruby
-# Good
+## Good
 RSpec.describe 'Plan', :smoke, quarantine: { issue: 'https://gitlab.com/gitlab-org/gitlab/issues/12345', type: :flaky } do
   describe 'Feature' do
     before(:context) do
@@ -728,7 +728,7 @@ RSpec.describe 'Plan', :smoke, quarantine: { issue: 'https://gitlab.com/gitlab-o
   end
 end
 
-# Bad
+## Bad
 RSpec.describe 'Plan', :smoke do
   describe 'Feature', quarantine: { issue: 'https://gitlab.com/gitlab-org/gitlab/issues/12345', type: :flaky } do
     before(:context) do
@@ -796,4 +796,4 @@ You can find some [general tips for troubleshooting problems with GitLab end-to-
 [quarantining tests]: #quarantining-tests
 [`:flaky`]: #flaky-test
 [`:bug`]: #bug-in-the-application
-[`:stale`]: #test-is-stale-due-to-application-change
+[`:stale`]: #stale-test-due-to-application-change

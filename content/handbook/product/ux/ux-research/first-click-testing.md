@@ -21,7 +21,6 @@ You have a navigation design that’s in the very early stages (it may just be a
 - *Do participants know where they are in the application?*
 - *Are UI elements standing out to participants?*
 
-
 ## Methodology details
 
 **Type of Facilitation:** Unmoderated

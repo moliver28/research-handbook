@@ -14,11 +14,9 @@ We invite organizations interested in becoming a GitLab Channel Partner to [APPL
 
 This is the primary Handbook page for prospective and existing GitLab Channel partners and is organized into the following sections: [Welcome to the GitLab Channel Handbook](/handbook/resellers/), [Channel Program Guide](/handbook/resellers/Channel-Program-Guide/), [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-GitLab/), and [Channel Partners: Developing your GitLab Practice](/handbook/resellers/services/). This services as an introduction to the GitLab Channel Program and provides links to individual sections with additional detailed information.
 
-
 ## GitLab Channel Introduction
 
 The GitLab Partner Program supports organizations ranging from value added resellers (VARs) to systems integrators (SIs) to managed service providers (MSPs) and beyond looking to resell or refer GitLab sales opportunities, or provide services for GitLab customers. In addition, the program empowers partners to capture value from and support the entire customer lifecycle with guidance and support for everything from pre-sales engagement through full customer adoption of GitLab.
-
 
 ## Why Become a GitLab Partner?
 
@@ -27,7 +25,6 @@ The right product at the right time. In any given market there are only a few ti
 GitLab represents one of those opportunities. We are still in the early phases of capturing an estimated $40 billion dollar addressable market[^1].  A market that’s evolving from point solutions to a platform and where GitLab offers the most comprehensive offering with proven ROI that partners can monetize by accelerating customers’ successful adoption of GitLab.
 
 From a strategic perspective, the comprehensive GitLab DevSecOps platform can be a driving force in your application modernization, digital transformation, cloud adoption, and even your security & compliance practices.
-
 
 ## How to Navigate the Channel Guide
 
@@ -38,8 +35,6 @@ These pages document our shared team philosophy and processes, while the individ
 How to Navigate: To find your way back to the 1st Page [CLICK HERE](/handbook/resellers/).
 
 [Welcome to the GitLab Channel Handbook](/handbook/resellers/), [Channel Program Guide](/handbook/resellers/Channel-Program-Guide/), [Channel Partners: Working with GitLab](/handbook/resellers/channel-working-with-GitLab/), and [Channel Partners: Developing your GitLab Practice](/handbook/resellers/services/).
-
-
 
 | GitLab Channel Partner Program Sections                                                                                                                                                                                                                                                                                          |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -64,9 +59,6 @@ How to Navigate: To find your way back to the 1st Page [CLICK HERE](/handbook/re
 |                                                                                                                                                                                                                                                                                                                                  |
 | [GitLab Alliance Program](https://about.gitlab.com/partners/technology-partners/)                                                                                                                                                                                                                                                |
 | This link will allow you to explore the exceptional technology companies we proudly partner with.                                                                                                                                                                                                                                |
-
-
-
 
 ## Contact Us
 

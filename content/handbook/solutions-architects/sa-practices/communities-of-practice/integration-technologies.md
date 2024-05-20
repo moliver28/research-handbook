@@ -12,7 +12,6 @@ This is a collection of best practices collected from working with customers on 
 | ----- | --------- |
 | [1. Elasticsearch - Advanced Search](#advanced-search-with-elasticsearch) | Enabling Elasticsearch for faster and more accurate searching of artefacts in GitLab |
 
-
 ## Advanced Search with Elasticsearch
 
 Search is a very important aspect in our everyday lives. From using navigation apps to guide us to our restaurants nearby to translating words that are not in our native language, it is crucial that the search functionality is fast, accurate and flexible to allow us to get get the most relevant results possible.
@@ -36,6 +35,7 @@ Elasticsearch is able to install on most [platforms](https://www.elastic.co/guid
 ### Demo Resources & Examples
 
 Demo Examples:
+
 - [Recently Viewed Suggestions](https://www.youtube.com/watch?v=a1Y9927eC4I) [VIDEO]
 - [Advanced Search Syntax](https://docs.gitlab.com/ee/user/search/advanced_search.html)
 
@@ -48,9 +48,3 @@ Demo Examples:
 **Question: Are Elasticsearch operations transactional?**
 
 **Answer:** No, not out of the box. Elasticsearch was not designed to be [ACID](http://en.wikipedia.org/wiki/ACID) compliant.
-
-
-
-
-
-

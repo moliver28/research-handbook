@@ -5,9 +5,7 @@ description: "Outline of the GitLab in-app Slack training to train team members 
 
 ## Sign-up
 
-Please review the learning objectives, requirements, and training details before signing up.
-
-Sign up for the Communicate at GitLab: Slack Training by completing [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSe1pBLLFYOuoAyKssl9BtVGNlQXP08YYcudrlsKu0lic6apWQ/viewform?usp=sf_link). The Learning and Development team will enroll you in the cohort you indicate in the form and notify you ~3 business days before the training starts.
+This training is not currenlty running for GitLab team members.
 
 ## Testimonials
 
@@ -32,7 +30,6 @@ As of 2022-10-18:
 >
 >These quick snippets and tasks have been super cool, easy to follow and participate in. I've been using Slack for 10+ years now and there was a bunch of stuff in this training that I hadn't discovered. The moving from Slack to an Issue was particularly cool! Thanks all!
 
-
 ### Is this training right for me?
 
 This training is built for:
@@ -45,7 +42,6 @@ This training is **not** built for:
 
 1. Super experts in Slack: the training is focused on Slack basics and their connection to GitLab values.
 1. Learners looking for advanced used of Slack commands and automations (follow along with planning for [Slack Training 2.0](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/356) for more advanced resources)
-
 
 ## Learning Objectives
 
@@ -93,7 +89,6 @@ Below you'll find the topics and links covered in each day of the training
 | 8 | Using the `/remind` command | [Remind command Slack docs](https://slack.com/help/articles/208423427-Set-a-reminder)|
 | 9 | Moving conversations out of Slack and into Issues or MRs | [Slack usage at GitLab]({{< ref "communication#slack" >}}) |
 | 10 | End of training survey | N/A |
-
 
 ## Metrics
 

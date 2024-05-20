@@ -35,7 +35,6 @@ Macros are [deployed immediately](/handbook/support/readiness/operations/docs/ch
 - If you want to create a new macro, use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) 'Create a Zendesk macro' option.
 - To discuss a macro (but not actually action on anything), use a support-team-meta issue.
 
-
 ## Previewing variable replacement
 
 When using [variables](/handbook/support/readiness/operations/docs/zendesk/liquid/#common-variables) it can be useful to verify that they will be working as you expect them to. A simple way to do this is to create a test ticket, pasting the content of your automation, trigger, or macro in there and observing the outcome.

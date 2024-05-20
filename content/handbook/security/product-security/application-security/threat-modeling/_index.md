@@ -13,7 +13,7 @@ Within the context of GitLab, there are different risks we evaluate. Will my cod
 
 Here are a few resources to help get you started in threat modeling:
 
-We've developed an issue template available [here](https://gitlab.com/gitlab-com/gl-security/appsec/threat-models/-/issues/new?issuable_template=Threat%20Model) (private link) that you can use to create an issue documenting your threat model.
+We've developed an issue template available [here](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/issues/new?issuable_template=Threat%20Model) (private link) that you can use to create an issue documenting your threat model.
 
 The basis of our threat modeling is modeled after [PASTA](https://en.wikipedia.org/wiki/Threat_model#P.A.S.T.A.) It should be noted that a full PASTA threat model is usually not required as it involves 7 steps, and in many cases only the steps 4, 5, and 6 are needed. To make it even easier, you can use [STRIDE](https://en.wikipedia.org/wiki/STRIDE_(security)) to help define the threats.
 
@@ -145,7 +145,7 @@ This covers the development of the rationale for mitigation based upon residual 
 
 To help with implementing and using the PASTA framework, we can use a three-tiered approach. This approach is as follows:
 
-### Blind threat model.
+### Blind threat model
 
 GitLab’s best practices applied to components of the project.
 
@@ -156,7 +156,7 @@ GitLab’s best practices applied to components of the project.
 
 *Applies Stage I & Stage II of PASTA*
 
-### Evidence Driven threat model.
+### Evidence Driven threat model
 
 Proof of a threat via numerous indicators as opposed to just theory or conjecture.
 
