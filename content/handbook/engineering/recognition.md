@@ -9,18 +9,16 @@ Quarterly, CTO Leadership will recognize Engineering team members who have excel
 - an invitation to the [Engineering Quarterly Achievers Chat](#engineering-quarterly-achievers-chat)
 - participation in the [Engineering Quarterly Achiever's Recognition Dinner](#engineering-quarterly-achievers-recognition-dinner) - an expensed meal for yourself, friends and family to celebrate your work, the meal must occur before the last day of the quarter following the announcement.
 Winners each quarter have until the last day of the quarter to submit for reimbursement.
-Winners may submit their receipt for the meal for reimbursement via Navan. 
-Please see the instructions below. 
+Winners may submit their receipt for the meal for reimbursement via Navan.
+Please see the instructions below.
 
-In Navan, click Add Transaction Select Upload receipt (or select Type in details) 
+In Navan, click Add Transaction Select Upload receipt (or select Type in details)
 Under Expense Type field, please select “Team events & meals”
 Under Classification, please select “FY24 Team Building”
-Under Description field, please include this link: https://about.gitlab.com/handbook/engineering/recognition/#engineering-quarterly-achievers-recognition-dinner 
+Under Description field, please include this link: https://about.gitlab.com/handbook/engineering/recognition/#engineering-quarterly-achievers-recognition-dinner
 Click Submit (or Save & close if you need to come back to add more information).
 
-
 ### Engineering Quarterly Achiever's Chat
-
 
 The Quarterly Achiever's Chat recognizes Engineering team members who have excelled in a given quarter by inviting them to join the Chief Executive Officer, Chief Technical Officer and Chief Product Officer in a congratulatory chat. The benefit is three-fold:
 
@@ -110,7 +108,6 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 | FY24-Q4 | Customer Results | Performance and Stability | Brie Carranza & Matthew Badeau |
 | FY24-Q4 | Customer Results | Contribution to Sales or Renewal | Gerardo Gutierrez |
 
-
 ### FY25-Q1
 
 | Quarter | Category | Award | Winner |
@@ -135,10 +132,11 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 ## Engineering Quarterly Achievers Process
 
 This process is followed by a delegate of the CTO Leads team at least 2 weeks before the end of the quarter, and is completed before the first all hands of the quarter.
+
 ### Accepting Nominations
 
 1. Create a copy of the `Engineering Quarterly Achievers Nomination Form - Template` in the [`Awards [Quarterly]` folder](https://drive.google.com/drive/search?q=type:folder%20%22achievers%20quarterly%22) on Drive. If you do not have access, ask the CTO's EBA for access.
-1.  Make sure to add any new categories.
+1. Make sure to add any new categories.
 1. In the "Responses" tab, click "Link to Sheets" to collect responses in a Google Sheet rather than in the form itself.
 1. In the "Responsess" tab, toggle "Accepting responses" on, and toggle it off when nominations close.
 
@@ -163,6 +161,3 @@ This process is followed by a delegate of the CTO Leads team at least 2 weeks be
 ### Announce Winners
 
 For the next All-Hands, incorporate the final slides into primary deck! After All-hands, update this page with names of winners. Wooo! You're done until next quarter.
-
-
-

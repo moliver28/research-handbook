@@ -125,7 +125,7 @@ In order to run a job to publish your package in a job, paste the snippet below 
 ```text
 image: node:latest
 
-# This template assumes you have the following settings configured:
+# This template assumes you have the following settings configured
 # OAUTH Access Token generated and added as an Environment Variable under Project -> Settings -> CI/CD https://docs.gitlab.com/ee/api/oauth2.html
 # Personal Access Token added as an Environment Variable in order to update your package.json with the new version value
 # Your package.json contains the path to your private NPM Registry on GitLab. https://docs.gitlab.com/ee/user/packages/npm_registry/index.html#uploading-packages

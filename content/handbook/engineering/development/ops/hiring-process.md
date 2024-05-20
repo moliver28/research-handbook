@@ -10,6 +10,7 @@ title: Ops Hiring Process
 
 
 We are running with some limited capacity in the recruiting team and we are asking hiring managers to cover all steps in the hiring process. Please prioritize your time in the following order when spending time on recruiting:
+
 1. References & Justifications
 2. Filling in scorecards/feedback
 3. Sourcing/Reviewing applications
@@ -27,7 +28,7 @@ The process for Ops is a mix of the current [hiring manager (HM) tasks](/handboo
 
 ### Step 2. Kickoff
 
-1. [Create Kickoff](/handbook/hiring/talent-acquisition-framework/req-overview/#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session) 
+1. [Create Kickoff](/handbook/hiring/talent-acquisition-framework/req-overview/#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session)
 1. Request a GitLab Hiring Plan ID (GHPID) from Director of Engineering, Ops (@sgoldstein)
 1. Once the GHPID has been requested the assigned recruiter will create a kickoff issue in the [gl-talent-acquisition/req-intake project](https://gitlab.com/gl-talent-acquisition/req-intake/) and mention you on it.  Once the kickoff issue is created confirm that:
     1. There is a separate kickoff issue for each req you are hiring (each unique GHPID).  For identical roles, one kickoff issue can just be a link to another, but having a separate issue for each req is valuable for tracking purposes.
@@ -41,7 +42,7 @@ The process for Ops is a mix of the current [hiring manager (HM) tasks](/handboo
 1. Work with TA to [open the vacancy in Greenhouse](/handbook/hiring/talent-acquisition-framework/req-creation/#opening-vacancies-in-greenhouse-dri-recruiter)
 1. [Setup scoreboard](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-3hm-setup-scorecard-and-prepare-interview-team)
 1. Publish job ad **internally**. External job ads will be posted from the corresponding Evergreen requisition.
-    1. [Optional] Add additional questions to the application, such as number of years of Rails experience, or qualities relevant to your role 
+    1. [Optional] Add additional questions to the application, such as number of years of Rails experience, or qualities relevant to your role
 1. Add your own manager as a hiring manager in the req
     1. **Job Setup** (tab) > **Hiring Team** (left nav)
     1. Click `Edit` under Hiring Managers and add your manager
@@ -63,23 +64,24 @@ The process for Ops is a mix of the current [hiring manager (HM) tasks](/handboo
 1. Review applications in the applicable Evergreen requisition
 1. If you are interested in a candidate, move them into the `Qualified` stage and **tag your TA to request a screening** (see Step 6)
     1. Note: Candidates will stay in the Evergreen requisition until they have completed screening and technical interviews, at which point they will be transferred to team-specific requisitions.
-1. **Do not reject applications** in the Evergreen requisition unless the applicant's location is a country where hiring is restricted 
+1. **Do not reject applications** in the Evergreen requisition unless the applicant's location is a country where hiring is restricted
 
-### Step 5. Sourcing 
+### Step 5. Sourcing
 
 In addition to reviewing candidates in the Evergreen req, you may also wish to do sourcing for your team-specific role. The main purpose of sourcing is to **Identify and engage top talent.**
 
-1. Get a [recruiter LinkedIn account](/handbook/hiring/sourcing/#upgrading-your-linkedin-account) and setup 
+1. Get a [recruiter LinkedIn account](/handbook/hiring/sourcing/#upgrading-your-linkedin-account) and setup
 1. Setup LinkedIn for sourcing, for example:
     1. Create your own templates
     1. Create projects for each of your open positions or make sure you are invited to
 1. Search for candidates
     1. If you are getting support from a sourcer, follow the steps to [review inbound applications](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-4hm-optional-source-candidates-andor-review-inbound-applications)
 1. Reach Out. Consider using the templates listed in the resources. Make sure to ask for contact details of the prospect, you will need this in the next step.
-1. [Add prospects to your team-specific requisition in Greenhouse](/handbook/hiring/talent-acquisition-framework/req-overview/#step-4-indentify--engage-top-talent-prospects). In the prospect's `profile`, click in the three dots, and click on `export to ATS`. 
+1. [Add prospects to your team-specific requisition in Greenhouse](/handbook/hiring/talent-acquisition-framework/req-overview/#step-4-indentify--engage-top-talent-prospects). In the prospect's `profile`, click in the three dots, and click on `export to ATS`.
 1. After importing to Greenhouse, edit the profile (under Details tab, there is an edit button) to include the email and any other contact information. This is important because Greenhouse automatically sends an email to the candidate when is moved from prospect to candidate to fill a form which includes the CV to be uploaded there.
 
 **Resources**:
+
 - Mark Deubel's podcast: [Foundations - Sourcing Outreach](https://doobles.podbean.com/e/building-the-foundation-sourcing-outreach-pt1-episode-3/) and [Guest Show - Sourcing outreach](https://doobles.podbean.com/e/guest-show-sourcing-outreach-with-dov-and-mark/)
 - [Talent Acquisition Reach out templates](https://docs.google.com/presentation/d/1ySqgLoYnFUGtb7hdywav6iSb_NBPRhfIs6WZlGne6Ww/edit?usp=sharing) (private)
 - [Ops reach out templates](https://gitlab.com/gitlab-com/ops-sub-department/ops-hiring-process/-/blob/main/outreach-messages.md) (private)
@@ -94,7 +96,7 @@ In addition to reviewing candidates in the Evergreen req, you may also wish to d
 
 To speed up scheduling screening calls, integrate Calendly with Greenhouse following [these instructions](https://support.greenhouse.io/hc/en-us/articles/360029649991-Calendly-integration). To then use this integration, move the candidate to the 'Screening' stage and select "Schedule with Calendly". There will be a template that will automatically populate and you select your Calendly event in the drop down.
 
-1. Schedule screening calls (3-6 per week) 
+1. Schedule screening calls (3-6 per week)
 1. Tag TA on the candidates Greenhouse profile so they can support with screening calls. and work with TA in case they have capacity to do the screening
 1. [Screening](/handbook/hiring/talent-acquisition-framework/req-overview/#screening). Don't forget to introduce the TA to the prospect at the start of the team interview stage so they can build a relationship with the candidate and ensure a consistent experience.
 
@@ -120,7 +122,7 @@ You have two options to [Schedule interviews](/handbook/hiring/talent-acquisitio
 ### Step 10. Complete feedback
 
 [Complete feedback](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-5hm-hiring-team-to-complete-feedback-in-greenhouse). Ideally the feedback is submitted within 1-2 business days of the interview.
-If you're unable to submit it within that timeframe, please reach out to the Hiring Manager and/or Recruiter with any early evaluation and when they can expect your feedback by. 
+If you're unable to submit it within that timeframe, please reach out to the Hiring Manager and/or Recruiter with any early evaluation and when they can expect your feedback by.
 
 **Note:** There are times when candidates who may not be a good fit in one role could be an ideal fit in another role. In those cases, please note that to the recruiter or share in Slack (i.e. [#ops-hiring](https://gitlab.slack.com/archives/C03E8N0S3LM), [#dev-hiring-mgmt](https://gitlab.slack.com/archives/G01G3E1FZ6Y), etc.) as it may be helpful for other hiring managers to be aware of to evaluate these candidates.
 
@@ -133,9 +135,9 @@ If you're unable to submit it within that timeframe, please reach out to the Hir
 
 1. Hiring Manager to complete [Justification](/handbook/hiring/talent-acquisition-framework/req-overview/#step-7-justification-engineering-only) scorecard.
 1. Justification scorecard will be reviewed by Director of Ops (or a delegate) for these criteria (see [Engineering Hiring Process README](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/blob/master/Engineering/README.md) for additional detail):
-    1. ⭐️ Two "Strong Yes" scorecard ratings minimum. 
-    1. All must-haves assessed and positive.  These should be checked in the Justification scorecard.  The ratings should reflect the hiring manager's evaluation of the candidate based on all feedback.  They are *not* an average of scores given by the interview panel.
-    1. ✔️ Majority (e.g. 5 out of 8) of  nice-to-haves assessed and positive in Justification.   These should be checked in the Justification scorecard.  The ratings should reflect the hiring manager's evaluation of the candidate based on all feedback.  They are *not* an average of scores given by the interview panel.
+    1. ⭐️ Two "Strong Yes" scorecard ratings minimum.
+    1. All must-haves assessed and positive.  These should be checked in the Justification scorecard.  The ratings should reflect the hiring manager's evaluation of the candidate based on all feedback.  They are _not_ an average of scores given by the interview panel.
+    1. ✔️ Majority (e.g. 5 out of 8) of  nice-to-haves assessed and positive in Justification.   These should be checked in the Justification scorecard.  The ratings should reflect the hiring manager's evaluation of the candidate based on all feedback.  They are _not_ an average of scores given by the interview panel.
     1. 👎 Negative scorecards (No, Definitely Not) from interviewers should be explicitly addressed with a brief comment in the Justification.  
     1. ❌ Any previous GitLab job application rejections must be explicitly addressed in Justification. (Confirm with TA)
     1. 🚩 Any red flag must be explicitly addressed in Justification.

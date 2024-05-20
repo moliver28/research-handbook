@@ -21,7 +21,6 @@ For more details please reference the [Product FY'21 Engagement Survey Results](
 1. How can we provide a clear, actionable and trackable path for product managers to grow and thrive at GitLab and beyond?
 1. How can we better support and  help  product managers focus on creating innovative and valuable products for GitLab's customers?
 
-
 ## Business Goals
 
 - Create focus on customer value and business outcomes in the product manager role at GitLab

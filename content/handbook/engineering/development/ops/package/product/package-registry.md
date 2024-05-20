@@ -21,6 +21,7 @@ On top of this, Package Managers can be configured in a variety of ways that can
 This creates an amount of uncertainty that can't be completely eliminated but can certainly be minimized. This section presents a guideline on how to achieve that.
 
 We will assume that the [recommended approach](https://docs.gitlab.com/ee/development/packages.html#mvc-approach) for new Package Regisitries was followed:
+
 - A [feature flag](https://docs.gitlab.com/ee/development/feature_flags/index.html) is used.
 - The minimum amount of API endpoints has been implemented for the project level only.
 
@@ -33,7 +34,7 @@ This is to promote knowledge sharing and prevent siloing.
 
 #### Experiment
 
-In this state, the new Package Registry must be tested on staging. 
+In this state, the new Package Registry must be tested on staging.
 This is the time to test as many scenarios as possible. During these, all the moving pieces (frontend, backend, background jobs) should be checked for errors or bad behaviors.
 
 1. Push a small package (including duplicated packages if allowed).
@@ -43,12 +44,12 @@ This is the time to test as many scenarios as possible. During these, all the mo
 1. Pull a package (including some of the duplicated ones).
 1. Check any additional command implemented. For example, packages search or view all the versions available for a given package.
 1. Check if overall, there is any option or endpoint that is custom to GitLab. Look for a clear reason why we need that additional aspect.
-1. Re-run the above scenarios with all the supported token types. 
+1. Re-run the above scenarios with all the supported token types.
 Usually, in the MVC, we support: [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), [deploy tokens](https://docs.gitlab.com/ee/user/project/deploy_tokens/) and [CI job tokens](https://docs.gitlab.com/ee/ci/jobs/ci_job_token.html).
 
 If an issue is discovered during this testing, it should be documented in the feature flag rollout issue and a new issue describing the problem should be opened and scheduled.
 
-Optionally, the [documentation](https://docs.gitlab.com/ee/user/packages/package_registry/) could be updated with a dedicated page for this new Package Registry. 
+Optionally, the [documentation](https://docs.gitlab.com/ee/user/packages/package_registry/) could be updated with a dedicated page for this new Package Registry.
 This way, interested self-managed users have the instructions on how to enable and use the new Package Registry.
 This page should clearly state that the Package Registry is an Experiment and thus, not ready for production use.
 
@@ -57,6 +58,7 @@ Iterate until we're confident in the behavior and performance of the new Package
 #### Beta
 
 This state is where we start enabling the Package Registry for a few selected projects on GitLab.com. Take this opportunity to:
+
 - Apply [dogfooding](/handbook/values/#dogfooding). For example, some GitLab teams could be interested in using the new Package Registry.
 - Let selected users test the new Package Registry.
   - The related issue/epic is usually followed by several users. Some of them might be interested in using the Package Registry even if it is in Beta.
@@ -68,6 +70,7 @@ When we resolve all blocking issues, we can move the Package Registry to the nex
 #### Generally Available
 
 We fully release the Package Registry. For this state, we have a few things to take care of:
-* Update the documentation accordingly.
-* Update the feature flag so that the Package Registry is released to self-managed users.
-* Communicate accordingly about the Package Registry release.
+
+- Update the documentation accordingly.
+- Update the feature flag so that the Package Registry is released to self-managed users.
+- Communicate accordingly about the Package Registry release.

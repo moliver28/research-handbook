@@ -88,9 +88,9 @@ Merge Requests that have been included in the monthly release will receive [a la
 
 GitLab team members can view the [internal Grafana dashboard "Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1) for the following information:
 
-* Active monthly release version
-* Active monthly release date
-* Current status of the active monthly release
+- Active monthly release version
+- Active monthly release date
+- Current status of the active monthly release
 
 The metrics used to display this information are updated automatically throughout the [self-managed releases process](#self-managed-releases-process).
 
@@ -109,7 +109,8 @@ Patch releases are scheduled twice a month on the second and fourth Wednesdays, 
 
 Patches fix regressions in the current self-managed release and vulnerabilities in the current and previous two GitLab versions.
 
-If you're a GitLab engineer looking: 
+If you're a GitLab engineer looking:
+
 - To include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers].
 - To include a security fix in a patch release, please follow the steps on the [security runbook for GitLab engineers].
 
@@ -125,12 +126,12 @@ Details of the patch release lifecycle can be found on the [patch release sectio
 
 GitLab team members can view the [internal Grafana dashboard "Release Information"](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1) for the following information about the active patch release:
 
-* Active patch release versions (stable version + 2 backport versions)
-* Upcoming patch release date
-* Current status of the patch release
-  * Open: Bug fixes and MRs associated with security issues labelled `security-target` are expected to be included in the next patch release.
-  * Warning: Signals that teams should get bug and security fixes ready to merge.
-  * Closed: Default branch MRs have been merged, no further bug or security fixes will be included.
+- Active patch release versions (stable version + 2 backport versions)
+- Upcoming patch release date
+- Current status of the patch release
+  - Open: Bug fixes and MRs associated with security issues labelled `security-target` are expected to be included in the next patch release.
+  - Warning: Signals that teams should get bug and security fixes ready to merge.
+  - Closed: Default branch MRs have been merged, no further bug or security fixes will be included.
 
 The metrics used to display this information are updated automatically throughout the [patch release process](#patch-release-process).
 
@@ -228,9 +229,10 @@ In other words:
 **The quality and stability of what is delivered by everyone defines the final MR that will be included in the monthly release.**
 
 For more detailed information:
-* Use the [internal dashboard](#monthly-release-information-dashboard) to verify the status of a merge request with respect to the monthly release.
-* See [self-managed release timelines](/handbook/engineering/releases/#self-managed-overview).
-* Refer to [status of a merge request with respect to the monthly release](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/auto-deploy.md#status-of-a-merged-mr-with-respect-to-monthly-releases) documentation.
+
+- Use the [internal dashboard](#monthly-release-information-dashboard) to verify the status of a merge request with respect to the monthly release.
+- See [self-managed release timelines](/handbook/engineering/releases/#self-managed-overview).
+- Refer to [status of a merge request with respect to the monthly release](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/auto-deploy.md#status-of-a-merged-mr-with-respect-to-monthly-releases) documentation.
 
 ### What's the process for a release of type X?
 
@@ -250,8 +252,8 @@ Any high severity issue should start with an issue labelled with the appropriate
 
 Depending on the bug details, follow one of the following processes:
 
-- For [high severity security bugs][process-patch-release]
-- For [high severity bugs affecting self-managed users][process-patch-release]. If the bug has been found close to the [release date](/handbook/engineering/releases/) of the month please also alert the Release Managers in [#releases].
+- For [high severity security bugs][process-planned-patch-release]
+- For [high severity bugs affecting self-managed users][process-planned-patch-release]. If the bug has been found close to the [release date](/handbook/engineering/releases/) of the month please also alert the Release Managers in [#releases].
 - For [high severity bugs affecting GitLab.com](/handbook/engineering/deployments-and-releases/deployments/#gitlabcom-pick-label)
 - For [high security bugs affecting security merge requests](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/bugs_introduced_by_security_merge_request.md)
 
@@ -266,23 +268,17 @@ Depending on the bug details, follow one of the following processes:
 | Maintenance Policy | [Link](https://docs.gitlab.com/ee/policy/maintenance.html) |
 | Reaching us | [How to find us](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team) |
 
-___________
+---
 
 If you need any additional help please ask the Release Managers in the [#releases] Slack channel.
 
 [#f_upcoming_release]: https://gitlab.slack.com/archives/f_upcoming_release
 [semver]: https://semver.org
-[canary]: /handbook/engineering#canary-testing
 [development month]: /handbook/engineering/workflow/#product-development-timeline
 [maintenance policy]: https://docs.gitlab.com/ee/policy/maintenance.html
-[gitlab-org/gitlab]: https://gitlab.com/gitlab-org/gitlab
 [release-tools]: https://gitlab.com/gitlab-org/release-tools
 [release/tasks]: https://gitlab.com/gitlab-org/release/tasks/-/issues
-[labels of importance]: #labels-of-importance
-[auto-deploy]: https://www.youtube.com/watch?v=_G-EWRpCAz4
-[severity]: /handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
 [#releases]: https://gitlab.slack.com/archives/C0XM5UU6B
-[#f_upcoming_release]: https://gitlab.slack.com/archives/C0139MAV672a
 [#development]: https://gitlab.slack.com/archives/C02PF508L
 [#backend]: https://gitlab.slack.com/archives/C8HG8D9MY
 [#frontend]: https://gitlab.slack.com/archives/C0GQHHPGW
@@ -290,7 +286,6 @@ If you need any additional help please ask the Release Managers in the [#release
 [process-auto-deploy-release]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/auto-deploy.md
 [process-planned-patch-release]: /handbook/engineering/releases/patch_releases#planned-patch-release-process
 [process-unplanned-critical-patch-release]: /handbook/engineering/releases/patch_releases#unplanned-critical-patch-release-process
-[GitLab Security]: https://gitlab.com/gitlab-org/security/
 [Hot patch]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/post-deployment-patches.md
 [pre.gitlab.com]: /handbook/engineering/infrastructure/environments/#pre
 [release.gitlab.net]: /handbook/engineering/infrastructure/environments/#release

@@ -4,20 +4,12 @@ title: "Channel Partner Tools and Resources"
 description: "Channel Partner tools and resources to help grow your GitLab business."
 ---
 
-GitLab Channel Partners are the primary audience for this Handbook page.
-
-
-
-
-
-
-# Channel Partner Tools and Resources
-  
 **We invite organizations interested in becoming a GitLab Channel Partner to [APPLY NOW](https://partners.gitlab.com/English/register_email.aspx).**
 
 ## **GitLab Partner Portal**
 
 Partners are given access to our [Partner Portal](https://partners.gitlab.com) when they are onboarded. This serves as the primary source of information and transactions for our Partners. The GitLab Partner Portal has the following capabilities:
+
 - Partner registration and account management
 - Deal registration and opportunity management
 - Training accreditation and other learning
@@ -114,6 +106,7 @@ GitLab uses the Partner Portal, and our News on Demand Platform to communicate w
 ## **More Channel Partner Program Information**
 
 If you are looking for additional information on the GitLab Partner program see the following handbook pages.
+
 - [Channel Partner Program Overview](/handbook/resellers/)
 - [Channel Program Guide](/handbook/resellers/Channel-Program-Guide/)
 - [Channel Services Program](/handbook/resellers/services/)

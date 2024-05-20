@@ -55,7 +55,7 @@ We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/
 
 #### DRI Section
 
-```
+```markdown
 ### DRI
 
 @user
@@ -66,7 +66,7 @@ We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/
 This section is dynamic and includes people who are currently contributing to the Epic work.
 The DRI and the EM are responsible for updating the list of participants accordingly.
 
-```
+```markdown
 ### Participants
 
 - @participant1
@@ -78,7 +78,7 @@ The DRI and the EM are responsible for updating the list of participants accordi
 
 This section contains the previous Status Updates. At least, it is updated everytime the DRI updates the Status Section.
 
-```
+```markdown
 ### Development Log
 
 <details>
@@ -94,7 +94,7 @@ This section contains the previous Status Updates. At least, it is updated every
 
 #### Status Section
 
-```
+```markdown
 ### Status YYYY-MM-DD
 
 <Updates about the project at the YYYY-MM-DD>
@@ -181,4 +181,3 @@ This is a list of the group issue trackers:
 | Delivery | [issue tracker](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues) |
 | Production Engineering | [issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues)|
 | Scalability | [issue tracker](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues) |
-

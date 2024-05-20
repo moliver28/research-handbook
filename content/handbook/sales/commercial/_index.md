@@ -133,7 +133,7 @@ For a complete list of our Give Back Projects and other Onboarding assignments o
 
 ### Paid Time Off (PTO) and Results
 
-We have found following steps beneficial to make the process of time off easy for Sales and keep business continuity.  This does not serve as a replacement to the company wide [Guide to Paid Time Off](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) or add process for [Sick Time Policy](/handbook/paid-time-off/#sick-time---taking-and-reporting). This is the expanded approach to preparing yourself and the team for time off planned specific to the group.
+We have found following steps beneficial to make the process of time off easy for Sales and keep business continuity.  This does not serve as a replacement to the company wide [Guide to Paid Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) or add process for [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting). This is the expanded approach to preparing yourself and the team for time off planned specific to the group.
 
 - [ ] Inform Manager as in the GitLab team members guide to time off
 - [ ] Ask a regional team member for coverage and share planned time off
@@ -557,13 +557,13 @@ Mid-Market AEs work closely in tandem with the business development team and sal
 The Commercial Sales Team follows the [Account Ownership Rules of Engagement](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/#account-ownership-rules-of-engagement)
 This section provides step by step clarity on how to follow the **ROE**.
 
-### Process to follow:
+### Process to follow
 
 Account will be organized into the following two categories:
 1. Accounts who were customers before February 1st of the fiscal year
 1. Accounts who became customers on or after February 1st of the fiscal year
 
-#### Accounts who became customers before February 1st of the fiscal year will follow this process:
+#### Accounts who became customers before February 1st of the fiscal year will follow this process
 
 It is the responsibility of the Account Executive who owns the account to qualify how many employees the account has prior to February 1st.
 Accounts who have less than 100 employees on or before February 1st will be owned by SMB for the fiscal year

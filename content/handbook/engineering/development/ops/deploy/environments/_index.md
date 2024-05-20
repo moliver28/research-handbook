@@ -15,12 +15,9 @@ overall vision.
 
 ### OKRs
 
-
 ### Product Indicators
 
-
 ### Contribution to GitLab
-
 
 ## Team Members
 
@@ -40,11 +37,11 @@ The following members of other functional teams are our stable counterparts:
 
 Some dedicated Slack channels:
 
-* Agent for Kubernetes: [`f_agent_for_kubernetes`](https://gitlab.slack.com/archives/f_agent_for_kubernetes)
-* Terraform backend: [`f_terraform_backend`](https://gitlab.slack.com/archives/f_terraform_backend)
-* [Terraform provider](https://gitlab.com/gitlab-org/terraform-provider-gitlab): [`terraform-provider`](https://gitlab.slack.com/archives/terraform-provider)
-* Auto DevOps: [`f_autodevops`](https://gitlab.slack.com/archives/f_autodevops)
-* Environments Detail Page: [`#f_environment_details_page`](https://gitlab.slack.com/archives/C04N1P3B3UL)
+- Agent for Kubernetes: [`f_agent_for_kubernetes`](https://gitlab.slack.com/archives/f_agent_for_kubernetes)
+- Terraform backend: [`f_terraform_backend`](https://gitlab.slack.com/archives/f_terraform_backend)
+- [Terraform provider](https://gitlab.com/gitlab-org/terraform-provider-gitlab): [`terraform-provider`](https://gitlab.slack.com/archives/terraform-provider)
+- Auto DevOps: [`f_autodevops`](https://gitlab.slack.com/archives/f_autodevops)
+- Environments Detail Page: [`#f_environment_details_page`](https://gitlab.slack.com/archives/C04N1P3B3UL)
 
 ## Insights
 
@@ -160,6 +157,7 @@ Goal: Solve problems together and build trust/rapport.
 [Calendar event](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2xxMm5kOGYwOXB2YzloZTBvZWg4bGhwczQgZ2l0bGFiLmNvbV9rbmFpZmY3YmNwZzNxa3FydWJka2Y0aXYxMEBn&tmsrc=gitlab.com_knaiff7bcpg3qkqrubdkf4iv10%40group.calendar.google.com)
 
 What we'll do:
+
 - Introductions for people who don't know each other.
 - Pick a problem to solve.
 - Pair.
@@ -250,7 +248,7 @@ For Merge Requests, it's up to the author and the project they are contributing 
 Our goal is to move towards a continuous delivery model so the team completes tasks regularly, and keeps working off of a prioritized backlog of issues. We default to team members self-scheduling their work:
 
 - Team members self-assign issues from the [Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/4176401?not[label_name][]=environments%3A%3Aparked) that are in the `workflow:ready for development` column and has the current milestone.
--  `~Deliverable` issues take priority over any other work, as they are the main focus of each milestone and inform our [say-do ratio](#say-do-ratio).
+- `~Deliverable` issues take priority over any other work, as they are the main focus of each milestone and inform our [say-do ratio](#say-do-ratio).
 - Once a team member has completed their assigned issues, they are expected to go to the Milestone Board and assign themselves to the next unassigned issue from the current milestone.
 - If there are no more issues in the current milestone, engineers are expected to assign themselves to the next unassigned `workflow:ready for development` issue.
 - The issues on the board are in priority order based on importance (the higher they are on the list, the higher the priority). This order is set by the product manager.
@@ -280,12 +278,14 @@ everyone is encouraged to set the deadline based on the date of the last severit
 ##### Best practices for managing bug issues
 
 Goals:
+
   - Effectively track and label bug related issues.
   - Ensure bug Due Dates are not missed due to a lack of DRIs on sub issues.
   - Ensure the team is aware that help is needed in a specific area on a bug
     that already has an overall DRI.
 
 Context:
+
   - Single part bug issues
     - Some bugs only require a single cohesive effort to resolve. For example an
       isolated backend fix that requires no database or frontend changes. In
@@ -299,11 +299,13 @@ Context:
       Multiple issues are needed.
 
 Problem:
+
   - Without a clear structure of issues for multi-part bugs, it's difficult for
     the team to know how to help and how to plan. This difficulty can negatively
     impact our say-do ratio.
 
 Best practices for managing multi-part bug issues:
+
   - The original bug issue should be promoted to an epic.
   - The original DRI becomes the overall bug epic DRI (note this on the epic).
   - New sub issues representing each part of the work should be created on the
@@ -422,6 +424,7 @@ The Environments group uses [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa)
 In [`feed_alerts_configure`](https://gitlab.slack.com/archives/C025U6U6HA9) we have a bot that  runs tests at [this project](https://gitlab.com/gitlab-org/configure/k8s-agent-qa/-/pipelines)
 
 If this bot alerts of a failed pipeline, we should treat these the same as a broken master branch.
+
 - Check the pipeline for intermittent errors (and retry if this is the case)
 - Otherwise create an investigation issue to dig further/fix.
 
@@ -450,7 +453,7 @@ As a part of the async update it's important to verify that the issue and relate
 
 #### Example
 
-```
+```markdown
 ## Async status update
 
 - Complete: 80%
@@ -502,7 +505,6 @@ We participate in the [OPS showcase initiative](/handbook/engineering/developmen
 
 Currently the showcase DRI for FY24Q3 is: @anna_vovchenko
 
-
 ## How to work with us
 
 ### Default to GitLab Issues
@@ -542,10 +544,6 @@ to easily share and document the setup with the entire group. You can use [this]
 GitLab group to host the project.
 
 If the infrastructure is temporary, you can manage it with whichever tools you prefer.
-
-Currently hosted projects:
-
-- [arm64-runners](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/infra/arm64-runners): IaC for arm64-based GitLab runners for some projects requiring it due to the lack of arm64-based shared runners.
 
 ### Example/Demonstration projects
 

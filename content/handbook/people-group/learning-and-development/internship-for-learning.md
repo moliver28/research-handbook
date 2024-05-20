@@ -53,4 +53,3 @@ Once you've agreed upon the internship goals, both managers should inform their 
 ## Recommendations
 
 We recommend that, at any given time, each [team]({{< ref "structure#team-and-team-members" >}}) is handling only one intern. This is to allow for an efficient and focused mentorship without impacting the capacity of the team. You can, of course, adjust this depending on the size of the team but please consider the impact of mentoring when scheduling internships.
-

@@ -14,7 +14,6 @@ Secondly, PaC enables automation and efficiency in policy enforcement processes.
 
 Thirdly, PaC enhances auditing, accountability, and scalability within organizations. With policies defined as code, organizations gain greater visibility into their compliance posture and can easily track changes, audit trails, and historical compliance data. This transparency facilitates regulatory compliance and strengthens accountability by providing clear documentation of policy enforcement activities. Moreover, PaC offers scalability and flexibility, allowing policies to be updated and adapted as infrastructure requirements evolve without significant manual effort. This agility enables organizations to respond promptly to changing compliance mandates and business needs, ensuring continuous alignment between policies and operational practices.
 
-
 ## How and where does Security Compliance implement policy-as-code at GitLab?
 
 Security Compliance is planning to implement Policy as Code (PaC) through the utilization of existing tools, often involving code analysis and scanning Infrastructure-as-Code (IaC) tools like [SAST](https://docs.gitlab.com/ee/user/application_security/sast/) and Checkov.

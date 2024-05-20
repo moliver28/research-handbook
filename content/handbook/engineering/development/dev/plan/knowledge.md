@@ -159,7 +159,6 @@ It's encouraged to engage with this team when spiking and planning new work for 
   {{< tableau/filters "GROUP_LABEL"="knowledge" >}}
 {{< /tableau >}}
 
-
 Detailed metrics are available on the [Engineering Metrics page].
 
 [Engineering Metrics page]: https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/
@@ -171,7 +170,6 @@ Additional dashboards are available in Grafana that show application performance
 - [Stage-Group Dashboard] (including 28-day Error Budget)
 - [Error Budget Detail]
 
-[Work Type Classification]: https://about.gitlab.com/handbook/engineering/metrics/#work-type-classification
 [Stage-Group Dashboard]: https://dashboards.gitlab.net/d/stage-groups-knowledge/stage-groups-knowledge-group-dashboard?orgId=1
 [Error Budget Detail]: https://dashboards.gitlab.net/d/stage-groups-detail-knowledge/stage-groups-knowledge-group-error-budget-detail?orgId=1
 

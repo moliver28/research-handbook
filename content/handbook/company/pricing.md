@@ -6,6 +6,7 @@ description: "Most GitLab functionality is and will be available for free in our
 GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contribute, and the best way to communicate is on the #pricing Slack channel.
 
 Contributions are part of the day-to-day jobs of the following people:
+
 - Principal Pricing Manager (Lisa Hoang)
 - Principal Pricing Manager (TBH)
 - Sr Director, Product Monetization (Justin Farris)
@@ -72,8 +73,7 @@ Our pricing philosophy is aligned with our [GitLab Values](/handbook/values/).
 
 We take a value-based pricing approach at GitLab. The core of the value-based pricing is to understand the value proposition that our innovations provide to our current and future customers for that offering. We aim to price our offerings to achieve continued growth and financial success for both the customer and GitLab.
 
-
-#### 1. Value Proposition
+### 1. Value Proposition
 
 To understand the value that we deliver to our customers, we focus on the benefits that our customers can receive to achieve their business goals. The value to our customers can include:
 
@@ -83,15 +83,15 @@ To understand the value that we deliver to our customers, we focus on the benefi
 - Greater and more effective collaboration
 - Emotional contribution of having delighted users
 
-#### 2. Customer Collaboration
+### 2. Customer Collaboration
 
 Defining and quantifying the value being delivered does not happen in isolation. We regularly engage with customers to understand how our solutions help them. These engagements are important as they will provide insights on how our innovations are valued by the customers and how it impacts our customers’ willingness to pay. Willingness to pay is a crucial element when we decide on how to price and packaging our offerings.
 
-#### 3. Competitive Landscape
+### 3. Competitive Landscape
 
 We understand that customers have choices when they decide to make a purchase. Hence,  understanding the competitive landscape of our products is very critical. With respect to competition, we focus on the key differences between our value proposition and the competition’s value proposition. Our pricing aims to reflect the differential value that we provide. We aim to design the pricing structure that works best for our customers compared to our competitors inclusive of pricing metric.
 
-#### 4. Mutual Success
+### 4. Mutual Success
 
 To following our pricing philosophy, we aim to support long-lasting customer relationships. When we develop our pricing, the target is that both our customers and GitLab become successful together. For long term success, where we can run a sustainable business and meet our company’s financial goals, we do also consider cost to serve and margins as factors when pricing is determined. It is important to note that while costs and margins are factors in pricing, value provided to our customers is the foundational element.
 

@@ -32,6 +32,7 @@ During a Handbook Learning discussion, Eric (former Chief Technology Officer), E
 > Start with a level set. You have an intermediate Engineer, then they become a Senior Engineer, and there's a fork in the road. There is a dual career track where you can choose the "manager track" or the "IC Leadership track." - Eric Johnson (former Chief Technology Officer)
 
 Additional topics covered in the discussion include:
+
 1. What does it mean to be an Engineering IC Leader
 2. What are the skills needed to do the job
 3. How the role differs from other Engineering management roles
@@ -64,10 +65,10 @@ Much of what each engineer said overlapped, but each had a unique perspective ba
 
 There are [four common archetypes of Staff-plus roles in the industry](https://staffeng.com/guides/staff-archetypes) that could explain this variability their perspective:
 
-* The **Tech Lead** guides the approach and execution of a particular project. Most frequently they partner closely with a single manager, but sometimes they partner with two or three managers within a focused area. At GitLab, Tech Lead is not only an archetype, but it is also a [role](/handbook/engineering/ic-leadership/tech-lead)
-* The **Architect** is responsible for the direction, quality and approach within a critical area, both today and stretching into the multi-year future horizon. They combine a deep knowledge of technical constraints, user needs, and organization level leadership.
-* The **Solver** digs deep into arbitrarily complex problems and finds an appropriate path forward. Some focus on a given area for long periods, others bounce from hotspot to hotspot as guided by organizational leadership.
-* The **Right Hand** is a partner and an extension of an executive-level manager, borrowing their scope and authority to operate particularly complex organizations. They provide additional leadership bandwidth to leaders of large-scale organizations.
+- The **Tech Lead** guides the approach and execution of a particular project. Most frequently they partner closely with a single manager, but sometimes they partner with two or three managers within a focused area. At GitLab, Tech Lead is not only an archetype, but it is also a [role](/handbook/engineering/ic-leadership/tech-lead)
+- The **Architect** is responsible for the direction, quality and approach within a critical area, both today and stretching into the multi-year future horizon. They combine a deep knowledge of technical constraints, user needs, and organization level leadership.
+- The **Solver** digs deep into arbitrarily complex problems and finds an appropriate path forward. Some focus on a given area for long periods, others bounce from hotspot to hotspot as guided by organizational leadership.
+- The **Right Hand** is a partner and an extension of an executive-level manager, borrowing their scope and authority to operate particularly complex organizations. They provide additional leadership bandwidth to leaders of large-scale organizations.
 
 ### The four archetypes at GitLab
 
@@ -106,4 +107,3 @@ One of the conclusions from our work on [Architecture Practice at GitLab](/handb
 Staff+ Engineers are supposed to broaden the perspectives of their managers. Decision-makers often need the additional context and perspective to make well-informed decisions about investments in the product architecture, understanding expected ROI, and a core technical vision behind such changes.
 
 Building meaningful relationships based on trust will make this whole process smoother and will distribute leadership, both technical and managerial, at every level, from single teams up to department level.
-

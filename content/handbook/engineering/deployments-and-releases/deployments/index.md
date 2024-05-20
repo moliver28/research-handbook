@@ -95,6 +95,7 @@ Example of the Staging environment rollback pipeline:
 ### Deployment blockers
 
 Anyone can **halt or block a deployment to Production** by:
+
 1. Declaring a [incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident)
 1. Applying the `blocks deployments` label. This prevent automated deployments to the Production environment from starting.
 1. Alerting the Release Managers in the [#releases] channel.

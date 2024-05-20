@@ -11,18 +11,18 @@ The [Total Rewards](/handbook/total-rewards/) department strategically aligns th
 | Role                                                | Grade |
 |-----------------------------------------------------|-------|
 | [Benefits Coordinator](#benefits-coordinator) | 5 |
-| [Benefits Analyst](#benefits-analyst) | 6 |  
-| [Senior Benefits Analyst](#senior-benefits-analyst) <br> [Senior Benefits Program Manager](#senior-benefits-program-manager) | 7
-| [Manager, Benefits](#manager-benefits) | 8 |  
+| [Benefits Analyst](#benefits-analyst) | 6 |
+| [Senior Benefits Analyst](#senior-benefits-analyst) <br> [Senior Benefits Program Manager](#senior-benefits-program-manager) | 7 |
+| [Manager, Benefits](#manager-benefits) | 8 |
 
 **Compensation:**
 
 | Role                                                | Grade |
 |-----------------------------------------------------|-------|
 | [Compensation Coordinator](#compensation-coordinator) | 5 |
-| [Compensation Analyst](#compensation-analyst) | 6 |  
-| [Senior Compensation Analyst](#senior-compensation-analyst) <br> [Compensation Program Manager](#compensation-program-manager) | 7
-| [Manager, Compensation](#manager-benefits) <br> [Compensation Partner](#compensation-partner) | 8 |  
+| [Compensation Analyst](#compensation-analyst) | 6 |
+| [Senior Compensation Analyst](#senior-compensation-analyst) <br> [Compensation Program Manager](#compensation-program-manager) | 7 |
+| [Manager, Compensation](#manager-benefits) <br> [Compensation Partner](#compensation-partner) | 8 |
 
 **Leadership:**
 
@@ -171,7 +171,7 @@ The Compensation Program Manager is a [grade 7](/handbook/total-rewards/compensa
 #### Responsibilities
 
 - Develop compensation strategies and principles.
-- Develop and implement Bonus Plan Design payout structure for Company Wide Bonus in coordination with Accounting.  
+- Develop and implement Bonus Plan Design payout structure for Company Wide Bonus in coordination with Accounting.
 - Develop compensation roadmaps for how GitLab's compensation practices will evolve over future fiscal years to remain competitive.
 - Manage Budget for Promotions and Compensation Review in collaboration with the People Business Partners and GitLab Management.
 - Development and Execution of Compensation Trainings to ensure team members understand GitLab's compensation philosophy.
@@ -258,7 +258,7 @@ The Director, Total Rewards is a [grade 10](/handbook/total-rewards/compensation
 
 ## Senior Director, Total Rewards
 
-The Senior Director, Total Rewards leads the development and administration of our total rewards strategy and practices to support our culture and growth.  This role will serve as a trusted organizational leader to lead strategy development, design, implementation, administration, and governance of all compensation and benefit programs globally.  In partnership with the People leadership team and senior business leaders, translate business strategy into scalable and meaningful Total Rewards strategies that are effective in attracting, rewarding and retaining key talent.  The Senior Director reports to the VP, Total Rewards and Operations.  
+The Senior Director, Total Rewards leads the development and administration of our total rewards strategy and practices to support our culture and growth.  This role will serve as a trusted organizational leader to lead strategy development, design, implementation, administration, and governance of all compensation and benefit programs globally.  In partnership with the People leadership team and senior business leaders, translate business strategy into scalable and meaningful Total Rewards strategies that are effective in attracting, rewarding and retaining key talent.  The Senior Director reports to the VP, Total Rewards and Operations.
 
 ### Job Grade
 
@@ -274,7 +274,7 @@ The Senior Director, Total Rewards is a [grade 11](/handbook/total-rewards/compe
 - Plan, develop, and oversee administration of benefit programs
 - Review current compensation and benefit programs; lead the proposal, development, and implementation of necessary changes to align with our global business
 - Create internal compensation branding messaging and trainings to ensure employees understand the components and rationale towards total compensation
-- Continually optimize our job architecture and career pathing framework for both scale and effectiveness in attracting and retaining talent.  
+- Continually optimize our job architecture and career pathing framework for both scale and effectiveness in attracting and retaining talent.
 - Provide thought leadership to business units on compensation issues including new hire packages, performance recognition, incentive plans, retention arrangements and compensation structure
 - Prepare annual Total Rewards budget, quarterly forecasts, and work with Compensation Committee on recommendations and allocations
 - In partnership with the People Leadership team and Finance, establish compensation budgets and guidelines for global locations
@@ -282,7 +282,7 @@ The Senior Director, Total Rewards is a [grade 11](/handbook/total-rewards/compe
 
 #### Career Ladder
 
-The next step in the Total Rewards job family is to move to the VP, Total Rewards and Operations or other People Group leadership positions.  
+The next step in the Total Rewards job family is to move to the VP, Total Rewards and Operations or other People Group leadership positions.
 
 ## Total Rewards Performance Indicators
 

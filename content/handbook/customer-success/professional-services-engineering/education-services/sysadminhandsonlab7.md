@@ -27,7 +27,7 @@ The purpose of this lab is to walk you through using Prometheus Service, and how
 
 > For this example, suppose you wanted to monitor HTTP requests sent into your GitLab instance. To achieve this, we can use some built in GitLab metrics.
 
-1. Navigate to `http://localhost:9090`. 
+1. Navigate to `http://localhost:9090`.
 
 1. In the input beside the **magnifying glass** button, type `http_requests_total`.
 
@@ -49,7 +49,7 @@ The purpose of this lab is to walk you through using Prometheus Service, and how
 
 1. Click **Alerts** in the top menu.
 
-    > Note that there are two sets of alert rules, one named GitLab and one named Node. The GitLab alerts correspond to platform issues such as the a service being down, Postgres being down, or high queueing withing services. A Node alert corresponds to the server GitLab is deployed on. 
+    > Note that there are two sets of alert rules, one named GitLab and one named Node. The GitLab alerts correspond to platform issues such as the a service being down, Postgres being down, or high queueing withing services. A Node alert corresponds to the server GitLab is deployed on.
 
 1. Note the file that contains the alerting rules. By default, the file is `/var/opt/gitlab/prometheus/rules/gitlab.rules`.
 

@@ -20,7 +20,7 @@ GitLab Open and Select partners have access to the proposal-based GitLab Marketi
    - Eligible costs may include mailing costs, fulfillment items, lead qualification, distribution, venue costs, food and beverages (excluding alcoholic beverages), speakers’ fees, management costs, and lead capturing costs.
    - GitLab supports a limited number of partners in the selected regions, please check your eligibility with your regional [Channel Account Manager](https://partners.gitlab.com/prm/English/c/marketing-contact-cam) and [Channel Marketing Manager](/handbook/marketing/channel-marketing/#meet-the-team)
 
-#### To be considered for funding support you must:
+#### To be considered for funding support you must
 
   - Be a Marketing Ready Select or Open GitLab Partner. Marketing ready means: partner has an approved business plan with GitLab; has a list of focus accounts mapped with GitLab; has a dedicated person who manages leads sent to the partner by GitLab (Partner Prospect Admin); ackowledges [the lead passing and recall process](/handbook/marketing/marketing-operations/vartopia/#partner-recall); has a dedicated marketing resposible person to work on the join activties with GitLab; has regular calls with the GitLab CHannel Marketing Manager; acknowledges [the MDF Policy](/handbook/resellers/Channel-Program-Guide/MDF/) and requirements for MDF process (Reqests and Claims)
   - Comply with GitLab Proof of Performance (POP) requirements for the activity
@@ -46,7 +46,9 @@ Proof of performance (POP) includes partner-generated invoice AND at least one o
 To obtain marketing development funds (MDF), please complete the following steps prior to any activity being performed or expense incurred. Any activity that does not follow the process below and has the appropriate approvals will not eligible for reimbursement.
 
 ### MDF Request
+
 - Partners can access the MDF Request Form from [the GitLab Partner Portal home page](https://partners.gitlab.com/). Navigate to Marketing and select “MDF Request.” Upon selecting MDF Request, complete the first part of the form to create a fund request. Once completed, click “submit it”.
+- Please check this [how-to video](https://www.youtube.com/watch?v=fF1YyrYn_3E) on how to submit an MDF Fund Request.
 - All MDF requests should be submitted at least 10 business days prior to the activity start date
 - You should have a marketing plan in please by working with your designated Channel Marketing Manager & Channel Account Manager and all MDF activities should be agreed to prior to submitting the request form in the portal.
 - Our goal is to have the approval (or rejection) of your MDF request back to the partner within 5 business days.
@@ -59,6 +61,7 @@ To obtain marketing development funds (MDF), please complete the following steps
  - You must get formal approval before proceeding with your activity.
 
 ### Timeframe for Completing Activity
+
 - Partners must complete the activity within the quarter that the request has been approved for. If at any point within the funding quarter you decide the allocated funds will not be used for the approved activity, you must notify your Channel Marketing Manager.
 
 #### Canceling and Reallocating Funds for an Activity
@@ -74,6 +77,7 @@ Upon your submission of the lead list, GitLab will pass those leads back to you 
 Instructions on how to accept/reject/reassign a lead or register a deal and submit to GitLab for approval can be found via [this video](https://www.youtube.com/watch?v=BmmiH_ctALk) or in the [partner portal](https://partners.gitlab.com/English/).
 
 ### Funds reimbursement Requirements
+
 - Submission of a payment claim (invoice) within 30 calendar days of completion of the activity via the MDF Reimbursement Request form on the GitLab Partner Portal.
 - Supporting documentation based on the activity, [documented here](/handbook/resellers/Channel-Program-Guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities) <br/>
 **AND**<br/>
@@ -84,6 +88,7 @@ Instructions on how to accept/reject/reassign a lead or register a deal and subm
       * Made payable to GitLab Inc. <br/>
 
 For partners who are claiming reimbursement for the **first time** only: <br/>
+
 - A **5 day exception** is added to the 30 days, giving partners a total of 35 days, from the activity end date, to submit their claim. This is in place in order to accommodate Partner’s onboarding process in GitLab's procurement system, [Coupa](/handbook/finance/procurement/coupa-faq/).
 - GitLab may reach out once to partner, but if no response is received and the 30 or 35 days has commenced, the activity will be canceled and no payment will be made thereafter.
 - GitLab is not responsible for reimbursing partners that submit a request after this 30 days or 35 days for new partners has passed.
@@ -118,18 +123,8 @@ For partners who are claiming reimbursement for the **first time** only: <br/>
 - If an MDF activity requires a contract signed or has a specific contract for that particular event, such as sponsorships or conferences, contracts need to be **reviewed and approved by Legal** before the approval is communicated to the Partner.
    - In this case, CMMs are to submit contract to the MDF Program Owner and they will open a Zip request to get approval done.
 - Once internal approvals have been completed, CMMs communicate to Partners activities that are approved.
+- If the MDF activity is a sponsorship and it does not have a specific contract from the partner legal will create one once communcated to them within the Zip approval process. This will then follow the same legal process as listed above.
 - Partners are responsible for submitting an MDF request through the Partner Portal.
-- MDF Program Owner creates Epic (internal): [FY24 MDF Planning Activities and Initiative](https://gitlab.com/groups/gitlab-com/marketing/-/epics/3523)
-- This Epic contains all sub regional issues in order to provide visibility to everyone in the Channel organization of all the MDF requests for the year.
-- Under the epic we have 4 H1 issues (H1 stands for first half) - available internally:
-
-   - [FY24 H1 MDF - EMEA](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/issues/806)
-   - [FY24 H1 MDF - AMER](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/issues/803)
-   - [FY24 H1 MDF - PUB SEC](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/issues/804)
-   - [FY24 H1 MDF - APAC](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/issues/805)
-
-- We use these issues as a place to communicate to the CMMs, add the links to Salesforce. Channel Account Managers and Channel Leadership also are informed
-- We also confirm on the issues that the MDF request was created by the partner, but linking the MDF number to the table, and from there we working on processing it internally.
 
 #### Phase 2: Processing MDF
 
@@ -154,6 +149,7 @@ To better track the POP we have created a [MDF Operations Board](https://gitlab.
 - After that Zip approval will take 4 business days.
 
 #### Phase 3: Payment
+
 - Three automated emails are sent to partners notifying them to submit their claims.
 - Email 1: sent a day after the activity end date
 - Email 2: 14-day after the activity end date has passed
@@ -161,6 +157,7 @@ To better track the POP we have created a [MDF Operations Board](https://gitlab.
 - A communication will be made to the Channel Marketing Managers if claim has not yet been made and Channel Marketing Managers will reach out to Partners.
 
 Once a claim is submitted MDF Program Owner receives an automated email.
+
 - All of the files received by the partner are checked. If any documentation is missing or does not fulfill the MDF Guidelines we will reach out to partner.
 - All of the documentation gets uploaded to the POP issue and the label for MDF Program Owner to review and approve.
 - MDF Program Owner checks every POP issue, looking at lead list, invoice and supporting images/pdfs and approves it or tags Channel Marketing Managers if there’s a concern.

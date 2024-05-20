@@ -76,7 +76,7 @@ The Learning & Development Partner is a [grade 7](/handbook/total-rewards/compen
 - Extends the Intermediate Learning & Development Program Manager responsibilities
 - Partner with members of the People group and the leadership team to identify, develop, and deliver solutions that support the growth of our team members and GitLab's success
 - Establish an internal learning and development roadmap for all GitLab managers and individual contributors
-- Iterate on existing materials and design and develop new onboarding/L&D content, utilizing [GitLab's YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) and [handbook](/handbook/handbook-usage/)
+- Iterate on existing materials and design and develop new onboarding/L&D content, utilizing [GitLab's YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) and [handbook](/handbook/about/handbook-usage/)
 - Monitor L&D metrics and iterate upon programs and courses for continuous improvement
 - Create and design the supporting course material for all onboarding and/or development programs, both for instructor-led and e-learning
 - Identify and design the right learning solutions to support GitLab's growth

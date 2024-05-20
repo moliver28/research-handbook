@@ -31,7 +31,7 @@ Also, we act as a support group. Whether it's async in Slack or live during a me
 
 ## Additional Resources
 
-### Neurodivergence is considered a disability? Yes.
+### Neurodivergence is considered a disability? Yes
 
 When we are talking about a disability, we are referring to any physical or mental condition that limits a major life activity, or a history of such a condition. This includes ADHD, Dyslexia, Autism, and other cognitive disabilities, as well as mental health concerns such as depression or anxiety and physical conditions. We often refer to people with cognitive disabilities as being neurodivergent or having a neurodivergence ([many people prefer "people first language use" and you can learn more about it here](https://odr.dc.gov/page/people-first-language)).
 

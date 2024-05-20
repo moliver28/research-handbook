@@ -68,6 +68,7 @@ The outcome of the call is shared in a persistent location (Slack is not persist
 ### Tracking & Planning Work
 
 #### Resources
+
 - [Switchboard team roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/roadmap?state=all&sort=start_date_asc&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&label_name[]=team::Switchboard&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=false)
 - [Switchboard team top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1048)
 - [Switchboard team issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard)
@@ -93,6 +94,7 @@ Quarterly planning is owned and driven by the Switchboard EM and PM.
 #### Epic Refinement
 
 Switchboard team process to refine epics:
+
 1. Identify a [DRI](/handbook/people-group/directly-responsible-individuals/) for the epic
    - Team members can volunteer or the EM may ask team ask specific team members to act as DRI
 1. Identify any missing requirements
@@ -117,6 +119,7 @@ Note 1, 2 & 4 can be carried out in parallel
 #### Issue Refinement
 
 Switchboard team process to refine issues:
+
 1. When an issue is created and ready to be refined it is labelled ~"workflow-infra::Triage"
 1. PM and EM ensure that the `Open` and ~"workflow-infra::Ready" columns are prioritised
 1. Team members look at issues in the `Open` column of the [issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard) and ask questions on the issue to drive clarity
@@ -130,9 +133,10 @@ Switchboard team process to refine issues:
 1. If the implementation cannot be done in parallel, or there is a likely to be a meaningful delay between backend and frontend implementations, or if the backend can deliver value independently the issue should be split and the relationship clearly identified by linking the issues
 
 #### Issue & Epic tracking
+
 1. Engineers use Progress Threads to share progress in an async fashion
 1. At the beginning of the Switchboard Sync the team will check in on epics labelled ~"workflow-infra::In Progress" or ~"workflow-infra::Triage" to ensure due dates are appropriate and highlight any blockers
-1. Epic DRIs update the status in the Epic Description every Wednesday in preparation for the [Grand Review](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review)
+1. Epic DRIs update the status in the Epic Description every Wednesday in preparation for the [Grand Review](/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review)
 1. Epic DRIs review the due date weekly. The epic status update should include the DRI's confidence level in the due date and any risks to delivery
 
 #### Picking up work / What to work on next
@@ -176,8 +180,6 @@ Switchboard maintains the following issue templates:
 | `switchboard_team_member_onboarding.md`     | Switchboard EM          | Onboard a new team member to the Switchboard team                                                                                     |                                                                                                                                     |
 | `switchboard_internal_issue.md`             | Switchboard team member | This template is used by DRIs to create issues in pre-existing well-defined epics                                                     |                                                                                                                                     |
 
-
-
 ### Merge Request Review Guidelines
 
 We specifically adhere to the [GitLab Code Review Guidelines](#gitlab-code-review-guidelines) and follow
@@ -188,23 +190,26 @@ the [Dedicated group principles](/handbook/engineering/infrastructure/team/gitla
 As the Switchboard team is currently small, we use an 'Approve and Merge' approach:
 
 1. When you're ready to have your merge request reviewed, select one or more [Switchboard reviewers](https://gitlab.com/groups/gitlab-dedicated/switchboard/reviewers/-/group_members).
-   * If you're not certain about who to choose, you can use the [reviewer roulette](#reviewer-roulette) to randomly select a reviewer.
-   * If the issue is labelled `technical writing` add the Switchboard technical writer as a reviewer
+   - If you're not certain about who to choose, you can use the [reviewer roulette](#reviewer-roulette) to randomly select a reviewer.
+   - If the issue is labelled `technical writing` add the Switchboard technical writer as a reviewer
 1. Reviewers will perform a review based on [reviewing a merge request guidelines](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request).
 1. If satisfied, a reviewer will approve and merge unless other reviewers have questions or suggestions that are not addressed.
 1. If the merge request contains the required approvals, the reviewer will trigger a pipeline and set auto-merge.
-   * If the reviewer does not have merge permission, they should seek out a maintainer for merging.
+   - If the reviewer does not have merge permission, they should seek out a maintainer for merging.
 
 ##### Additional UI Review Process
+
 In addition to the above when a change is being proposed to the UI the following extra steps should be followed:
 
 **UI changes visible to internal GitLab users:**
+
 1. MR author cc’s PM & UX Designer on the MR but they are not reviewers or blockers of the merge
 1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author’s discretion
 1. Eventually the PM & UX Designer will be reviewers on the internally visible UI updates but our process is not there yet nor is their capacity
 1. If you require help or guidance with the UX or copy please ask **before** implementation begins on the issue
 
 **UI changes visible to external customers:**
+
 1. Figure out any outstanding questions on the issue, including copy changes, so that we can avoid ambiguity at the MR stage
 1. The PM and Designer will deal with these requests as a top priority
 1. Add the PM as reviewer on the MR. This review will be blocking the MR and the PM will deal with this a high priority
@@ -213,8 +218,9 @@ In addition to the above when a change is being proposed to the UI the following
 
  **Note:** If significant discussion ends up being needed for a UI change (internal or customer facing) after the MR has been opened, that discussion should be moved back to the issue to resolve and the MR marked as blocked. These discussions will be high priority to resolve and the issue should be assigned to the PM and Designer until progress on the MR can resume.
 Notes:
+
 - It is our intention to move towards a typical 'reviewers and maintainers' approach which would require two reviews as soon as we have the team members to support this.
-- Merge requests should be approved based on the [approval guidelines](#approval_guidelines).
+- Merge requests should be approved based on the [approval guidelines](#approval-guidelines).
 - As per the [GitLab Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) there are scenarios where it is appropriate for the author to merge the merge request: If there are no blocking comments, and the merge request has all the required approvals, the author or maintainer can merge.
 - Switchboard project is configured to use [pipelines for merged results](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html) which means that reviewers need to run a pipeline pre-merge to guarantee that updates are compatible with the latest main branch.
 - When reviewing merge requests, reviewers should use the [Conventional Comment labels](https://conventionalcomments.org/#labels) to convey your intent.
@@ -250,47 +256,55 @@ Reviewer roulette is an internal tool for use on GitLab.com projects that random
 
 There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab.com/gitlab-dedicated/switchboard):
 
-* All Switchboard team members are included in the `Reviewer` group.
-* When a team member is fully onboarded and feel confident in their knowledge of the codebase they are invited to the Maintainer group.
-
+- All Switchboard team members are included in the `Reviewer` group.
+- When a team member is fully onboarded and feel confident in their knowledge of the codebase they are invited to the Maintainer group.
 
 #### Epic Template
 
 <details><summary>Epic Template</summary>
 
-```
-DRI:
+```markdown
+### DRI :levitate
+- TBC
 
-### Participants
-*
+### Participants :busts_in_silhouette
+-
 
-### Problem to solve
+### Problem to solve :thinking
 
-Video Walkthrough from Product:
+### Video Walkthrough from Product :video_camera
 
-### Intended users
+### Intended users :bust_in_silhouette
 
-
-### User experience goal
-
-
-### Proposal
+### User experience goal :goal
 
 
-### Open Questions
+<!-- Overview of user experience goal -->
 
+### UX Design Spec :paintbrush
+- Figma Link:
+- Dev mode:
+- Any other details
 
-### Further details
+### Proposal :bulb
 
+### Open Questions :question
+| Question | Added by | Discussion thread |
+|----------|----------|-------------------|
+|  |  |  |
 
-### Permissions and Security
+### Further details :mag
 
+Dependencies :link:
 
-### Documentation
+### Permissions and Security :link
+
+### Documentation :book
 
 * Publicly Accessible Documentation:
 
-### Epic Kick-Off
+### Epic Kick-Off :ballot_box_with_check
+
 * [ ] Video walkthrough from Product outlining expectations
 * [ ] DRI identified
 * [ ] Roll out plan agreed
@@ -300,8 +314,7 @@ Video Walkthrough from Product:
 * [ ] Issue created to track Documentation requirements
 * [ ] Outstanding Questions captured in threads for resolution
 
-### Roll out Plan
-
+### Roll out Plan :speaker
 <!--
 If visible to external customers please provide the following information:
     - What communication is required ahead of release?
@@ -311,11 +324,12 @@ If visible to external customers please provide the following information:
     - Will this be rolled out to customers in pieces as implemented or available internally first?
 -->
 
-### Links / references
+
+### Links / references :books
 
 *
 
-### Demo Description
+## Demo Description :movie_camera: #
 
 Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/#switchboard-demos
 
@@ -331,10 +345,11 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 ### Status YYYY-MM_DD
 
 1.
+
 </details>
 
 /label ~"team::Switchboard" ~"workflow-infra::Triage"
 
 ```
-</details>
 
+</details>

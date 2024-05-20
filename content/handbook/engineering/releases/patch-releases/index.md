@@ -46,37 +46,37 @@ The end-to-end process consists of the following stages:
 
 ![Planned patch release overview](planned-patch-release-overview.jpg)
 
-- [Diagram source - internal](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
+* [Diagram source - internal](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 
 At any given time, GitLab Engineers prepare bug fixes for the current version and vulnerability fixes
 to the current and previous two GitLab versions:
 
-- **Step 1a: Bug fix prepared** - A merge request backporting a bug fix to the current version is prepared by
+* **Step 1a: Bug fix prepared** - A merge request backporting a bug fix to the current version is prepared by
    GitLab engineers:
-    - The merge request executes end-to-end tests via package-and-test pipeline to guarantee the bug fix meets the quality standards.
-    - If the package-and-test pipeline fails, a review from a Software Engineer in Test is required.
-    - The merge request is merged by a GitLab maintainer in the stable branch associated
-- **Step 1b: Vulnerability fix prepared** - Engineers fix vulnerabilities in the relevant [Security repository]. A fix is considered complete only when it has a [security implementation issue] with the following:
-    - All checkboxes checked to show all steps have been completed.
-    - An AppSec and Maintainer approved MR targeting the default branch.
-    - A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.
-    - The `~"security-target"` label is applied. This will automatically review the issue and link it to the security tracking issue if it is ready.
+    * The merge request executes end-to-end tests via package-and-test pipeline to guarantee the bug fix meets the quality standards.
+    * If the package-and-test pipeline fails, a review from a Software Engineer in Test is required.
+    * The merge request is merged by a GitLab maintainer in the stable branch associated
+* **Step 1b: Vulnerability fix prepared** - Engineers fix vulnerabilities in the relevant [Security repository]. A fix is considered complete only when it has a [security implementation issue] with the following:
+    * All checkboxes checked to show all steps have been completed.
+    * An AppSec and Maintainer approved MR targeting the default branch.
+    * A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.
+    * The `~"security-target"` label is applied. This will automatically review the issue and link it to the security tracking issue if it is ready.
 
 Two days before the planned due date, release managers start the patch release process, they make sure that
 all prepared bug and security fixes are safely released. Deployments to GitLab.com run in parallel.
 
 A patch release has the following phases:
 
-- **Step 2: First steps** Release preparation begins when release managers run the `prepare` chatops command to create the new release task issue to guide the patch release. From here they follow the checklist to complete the initial set up and communication issues needed to prepare the release.
-- **Step 3: Early Merge Phase** - Release Managers deploy security fixes to GitLab.com. Fixes with the `~"security-target"` label that are linked to the security tracking issue will have the MR targeting the default branch merged. This allows fixes to be deployed to GitLab.com before they are released to self-managed users.
-- **Step 4: Merge backports** - The day before the release due date, backports with security fixes targeting the supported versions are merged. At this point, everything included in the patch must be deployed to GitLab.com, and backports must apply to all stable branches.
-- **Step 5: Release preparation*** -  When all fixes are deployed and merge, Release managers prepare and test the packages.
-   - **Step 5a: Tag** - Release managers tag new patch release packages for the current and previous two GitLab versions.
-   - **Step 5b: Deploy** - The patch release package is deployed and tested to the GitLab release instance.
-   - **Step 5c: Release** - Release managers publish the packages associated with the patch release.
-- **Step 6: Final steps** - At this point patch release packages are available to all users. Release managers wrap up the final steps of the patch release.
-  - **Step 6a**: Patch release blog post is published
-  - **Step 6b**: Default branches, stable branches, and tags are synced from Security to Canonical to return to our default state of working in the open.
+* **Step 2: First steps** Release preparation begins when release managers run the `prepare` chatops command to create the new release task issue to guide the patch release. From here they follow the checklist to complete the initial set up and communication issues needed to prepare the release.
+* **Step 3: Early Merge Phase** - Release Managers deploy security fixes to GitLab.com. Fixes with the `~"security-target"` label that are linked to the security tracking issue will have the MR targeting the default branch merged. This allows fixes to be deployed to GitLab.com before they are released to self-managed users.
+* **Step 4: Merge backports** - The day before the release due date, backports with security fixes targeting the supported versions are merged. At this point, everything included in the patch must be deployed to GitLab.com, and backports must apply to all stable branches.
+* **Step 5: Release preparation*** -  When all fixes are deployed and merge, Release managers prepare and test the packages.
+   * **Step 5a: Tag** - Release managers tag new patch release packages for the current and previous two GitLab versions.
+   * **Step 5b: Deploy** - The patch release package is deployed and tested to the GitLab release instance.
+   * **Step 5c: Release** - Release managers publish the packages associated with the patch release.
+* **Step 6: Final steps** - At this point patch release packages are available to all users. Release managers wrap up the final steps of the patch release.
+  * **Step 6a**: Patch release blog post is published
+  * **Step 6b**: Default branches, stable branches, and tags are synced from Security to Canonical to return to our default state of working in the open.
 
 ### Unplanned critical patch release process
 
@@ -91,18 +91,18 @@ patch release is needed, the AppSec engineer will work with Release Managers to 
 
 ![Unplanned critical security release overview](unplanned-critical-patch-release-overview.jpg)
 
-- [Diagram source - internal](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d10e121945_0_53)
+* [Diagram source - internal](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d10e121945_0_53)
 
-- **Step 1: Fix for the high-severity vulnerability is prepared** - Engineers prepare a fix for the vulnerability in the relevant Security repository. A fix is considered complete only when it has a [security implementation issue] with the following:
-    - All checkboxes checked to show all steps have been completed.
-    - An AppSec and Maintainer approved MR targeting the default branch.
-    - A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.
-    - The `~"security-target"` label is applied. This will automatically review the issue and link it to the security tracking issue if it is ready.
-- **Step 2: Critical patch release** - Release Managers start working on an Unplanned critical patch release once a fix is available, and on the agreed timeline.
+* **Step 1: Fix for the high-severity vulnerability is prepared** - Engineers prepare a fix for the vulnerability in the relevant Security repository. A fix is considered complete only when it has a [security implementation issue] with the following:
+    * All checkboxes checked to show all steps have been completed.
+    * An AppSec and Maintainer approved MR targeting the default branch.
+    * A backport MR for each intended version. In most cases this will mean 4 MRs to cover each supported version. Each MR must have passing pipelines, required approvals and be assigned to the release bot for processing.
+    * The `~"security-target"` label is applied. This will automatically review the issue and link it to the security tracking issue if it is ready.
+* **Step 2: Critical patch release** - Release Managers start working on an Unplanned critical patch release once a fix is available, and on the agreed timeline.
 Release Managers coordinate the release steps to make sure that all prepared fixes are safely released. Deployments to GitLab.com run in parallel. A release has the following phases:
-    - **Step 3: First steps** - Release preparation begins when release managers run the `prepare` chatops command to create the new release task issue to guide the security release. From here they follow the checklist to complete the initial set up and communication issues needed to prepare the release.
-    - **Step 4: Release preparation** - Release managers merge the fix into the default branch and make sure it is deployed to GitLab.com. From here, backports are merged and the release is created and tested. If all tests pass, the packages can be published and an AppSec-reviewed blog post is merged. At this point, the release is available to all users.
-- **Step 5: Resync the security and canonical repos**. To complete the release we re-sync the default branches, stable branches and tags to return to our default state of working in the open.
+    * **Step 3: First steps** - Release preparation begins when release managers run the `prepare` chatops command to create the new release task issue to guide the security release. From here they follow the checklist to complete the initial set up and communication issues needed to prepare the release.
+    * **Step 4: Release preparation** - Release managers merge the fix into the default branch and make sure it is deployed to GitLab.com. From here, backports are merged and the release is created and tested. If all tests pass, the packages can be published and an AppSec-reviewed blog post is merged. At this point, the release is available to all users.
+* **Step 5: Resync the security and canonical repos**. To complete the release we re-sync the default branches, stable branches and tags to return to our default state of working in the open.
 
 ## Patch release FAQs
 
@@ -151,8 +151,8 @@ For more information, see [How to Mitigate Bugs Introduced by Security Merge Req
 [How to Mitigate Bugs Introduced by Security Merge Request]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/bugs_introduced_by_security_merge_request.md
 [patch release runbook for GitLab engineers]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/engineers.md
 [release dashboard]: https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1
-[remediation SLA]: https://handbook.gitlab.com/handbook/security/product-security/vulnerability-management/#remediation-slas
 [security backports]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md#backports
+[security issue template]: https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Security%20developer%20workflow.md
 [security implementation issue]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md#terminology
 [Security process as Engineer]: https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md
 [Security Remediation SLAs]: https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas

@@ -18,8 +18,8 @@ For each canvas / job performer we list each outcome statment that received a sc
 
 ### Top Opportunities
 
-| Outcome Statement | Opportunity Score | 
-| ----- | ----------- | 
+| Outcome Statement | Opportunity Score |
+| ----- | ----------- |
 |  Maximize my confidence when checking that new code is working as expected in production.  |  11.76  |
 |  Minimize the time it takes to reproduce a bug/problem.   |  11.70  |
 |  Minimize the time it takes to identify errors and bugs in my code.  |  11.00  |
@@ -41,8 +41,8 @@ For each canvas / job performer we list each outcome statment that received a sc
 
 ### Top Opportunities
 
-| Outcome Statement | Opportunity Score | 
-| ----- | ----------- | 
+| Outcome Statement | Opportunity Score |
+| ----- | ----------- |
 |  Minimize the time it takes me to understand the context of a merge request (as a reviewer).  |  11.09  |
 |  Increase my ability to assess the larger infrastructure impact of the proposed changes (during a code review).   |  10.06  |
 |  Increase the efficiency with which I can examine proposed code changes.   |  10.02  |
@@ -57,6 +57,6 @@ For each canvas / job performer we list each outcome statment that received a sc
 
 ### Top Opportunities
 
-| Outcome Statement | Opportunity Score | 
-| ----- | ----------- | 
+| Outcome Statement | Opportunity Score |
+| ----- | ----------- |
 |  Minimize the effort when searching for a specific change in the code base.  |  11.28  |

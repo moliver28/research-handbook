@@ -4,15 +4,15 @@ title: "Field Marketing"
 description: "The role of Field Marketing at GitLab is to work closely with sales to support marketing messages & pipeline building at a regional level through in-person and virtual interactions."
 ---
 
-# Field Marketing Mission
+## Field Marketing Mission
 
 The mission of Field Marketing at GitLab is to strategically support the Large, Mid-Market & Public Sector go-to-market teams at **a regional level** through in-person and virtual interactions (quality vs. quantity) as well as serving as the voice of the regional go-to-market teams to the wider marketing team, and being the voice of marketing into the go-to-market teams we support, in order to create, accelerate, and expand the sales pipeline with our direct sellers and partner ecosystem. In alignment with the marketing mission of being New First Order focused, Field Marketing also supports the expand motion with customers.
 
-# Field Marketing Vision
+## Field Marketing Vision
 
 We want to be the most innovative and pipeline centric team within the marketing organization that uses data to make informed decisions while also continuing to invest in ourselves to promote career growth and opportunities.
 
-# Field Marketing Goals
+## Field Marketing Goals
 
 - Sales Acceleration
     - Engaging with existing customers
@@ -25,10 +25,10 @@ We want to be the most innovative and pipeline centric team within the marketing
 - Market Intelligence
     - Test out new messaging or positioning
 
-# Countries of Focus
+## Countries of Focus
 In alignment with the FY25 Marketing strategy, Field Marketing focuses on specific countries. Details can be found here in our [internal handbook](https://internal.gitlab.com/handbook/marketing/fy25-strategy/#target-markets-and-segments).
 
-# Cities of Focus
+## Cities of Focus
 
 ## Tier 1 Cities
 A Field Marketer should have no more than 5 cities - cities with the largest LAM - that you want to build a ground swell in and be physically present at least 2/quarter.
@@ -39,7 +39,7 @@ A Field Marketer should have no more than 3 Tier 2 cities - cities you want to b
 
 FMMs should work with Large & MM sales teams to determine these cities.
 
-# Types of Programs Field Marketing Runs
+## Types of Programs Field Marketing Runs
 
 ## GitLab Owned Field Events
 
@@ -95,17 +95,17 @@ Go to the [Reachdesk page](/handbook/marketing/marketing-operations/reachdesk) f
 ### Tracking success of digital tactics
 Please ensure you are using our UTM tracker (look up `Google Analytics Campaign Tagging Tool - UTM generator for tracking` in the Gdrive to find doc). In order to identify which campaigns are from the Field Marketing team, you must add the letters fmm at the end of your campaign name in column E. All lowercase with no spaces or special characters. This allows us to pull ROI reporting, so please don't leave these letters out or else you will lose reporting from a dashboard standpoint.
 
-# Confidentiality in GitLab Issues and Epics
+## Confidentiality in GitLab Issues and Epics
 
 When working in GitLab issues and epics, please remember that due to GitLab's value of [Transparency](/handbook/values/#transparency), many of our issues and epics are, by default, public. Best practice is to avoid including any PII or login details in issues and epics directly. If posting details of this nature is a necessity, please remember to always make your [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential` when doing so. Please also be diligent in your issues and epics regarding comments made by other team members as well. If you notice another team member has posted details that should not remain public, immediately make the [issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html#make-an-issue-confidential) or [epic](https://docs.gitlab.com/ee/user/group/epics/manage_epics.html#make-an-epic-confidential) `Confidential`. Other options to allow our issues to remain public, are including PII in a spreadsheet or document posted in the issue or epic that are only accessible by certain people. If logins need to be shared, please utilize the Marketing Vault in [1Password](password-guidelines#1password).
 
 For more information regarding confidentiality levels and compliancy, please visit [this handbook page](/handbook/communication/confidentiality-levels/).
 
-# [Global Field Marketing Vendor Feedback](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4736)
+## [Global Field Marketing Vendor Feedback](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4736)
 
 This feedback epic/spreadsheet is only open to GitLab team members. FMMs and managers to keep details in this spreadsheet regarding both positive and negative experiences with various event vendors for team reference.
 
-# Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
+## Field Marketing Campaign Issue Templates, Epic Codes and Progression Status
 
 Field Marketing utilizes the below issue templates and epic codes for virtual events and other campaign tactics.
 
@@ -184,7 +184,7 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 * [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#workshops)
 
 
-# Refined AMER Regional Marketing Event Planning Cycle
+## Refined AMER Regional Marketing Event Planning Cycle
 The schedule provided below presents a 20-week planning timeline meticulously designed for the seamless execution of our regional marketing events. These Service Level Agreements (SLAs) are strategically established for our Field Marketing Managers (FMMs), ensuring they have ample time to orchestrate and promote a robust event, while synchronizing the availability of other teams' SLAs, including Procurement, Marketing Operations, the SA teams, our Field Marketing Coordinators, etc. It is essential to remain adaptable, as adjustments and modifications may become necessary to align with the unique event objectives, target audience, and the resources at our disposal. Ultimately, the unwavering dedication of our team will serve as the cornerstone of success for each event.
 
 ## 17-20 Weeks Out: Strategize and Initiate Planning
@@ -339,7 +339,7 @@ The schedule provided below presents a 20-week planning timeline meticulously de
 
 </details>
 
-# Post event lead flow for each campaign
+## Post event lead flow for each campaign
 
 after Field Marketing has executed a campaign, the Field Marketing Manager is responsible for ensuring that the campaign has been fully operational to include the following:
 
@@ -351,7 +351,7 @@ after Field Marketing has executed a campaign, the Field Marketing Manager is re
 - Did a lead/contact hit our MQL threshold and have the SDRs followed up with this record and moved them beyond the [MQL stage](/handbook/marketing/marketing-operations/)?
 - Update all the relevant tabs in the field marketing campaign event planning sheet.
 
-# ROI tracking for Field Marketing
+## ROI tracking for Field Marketing
 
 For complete instructions on FMM ROI, [please see here](/handbook/marketing/strategy-performance/marketing-metrics/#field-marketing-metrics).
 
@@ -387,7 +387,7 @@ Please review the [Pathfactory Training](/handbook/marketing/marketing-operation
 
 This section will continue to be fleshed out as we rollout to the global Field Marketing team.
 
-# Process for Issues Moving from Plan to WIP
+## Process for Issues Moving from Plan to WIP
 
 The following is the process for when a Field Marketing issue moves from `mktg-status::plan` to `mktg-status::wip`.
 
@@ -432,7 +432,7 @@ Once the FMM has submitted the Contract Request to their FMC and the remaining a
 ### Plan to WIP video walk through
 [Plan to WIP Video](https://youtu.be/7l59sm_5aD4) - You must be logged into GitLab Unfiltered to view.
 
-# Field Marketing Event Copy Deadline Process
+## Field Marketing Event Copy Deadline Process
 
 Please review [SLAs](/handbook/marketing/field-marketing/#slas) above.
 
@@ -445,14 +445,14 @@ Please review [SLAs](/handbook/marketing/field-marketing/#slas) above.
 - If copy has not been completed for an asset yet, (1) business day before copy is due, the FMC will ping the FMM in [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) with a copy due reminder.
 - FMC will make sure copy has been provided or continue to remind the FMM, if needed.
 
-# Lead List Deadline Process
+## Lead List Deadline Process
 
 - FMC to create the [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) issue during the [plan to WIP process](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)
 - FMC to assign a due date of 2 business days post-event
 - One (1) business day after the issue is due, FMC to ping the FMM in the list clean and upload issue to remind them leads are due
 - FMC will make sure leads have been provided or continue to remind the FMM, if needed
 
-# Rescheduling or Canceling Events
+## Rescheduling or Canceling Events
 
 ## Rescheduling or Canceling a Webast or Virtual Workshop
 
@@ -509,7 +509,7 @@ For all other event types (including in-person workshops), please see instructio
 - Marketo: Add `[CANCELED]` to the program name. Go to the `Salesforce campaign sync` field and click on the linked campaign, select `None` from the dropdown and click `Save.` This removes the SFDC and Marketo sync for the program. Deactivate any [activated smart campaigns](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-4-activate-marketo-smart-campaigns).
 - FMC to ping MOps with the Marketo program link in the `#mktgops` Slack channel and request the program be deleted (FM does not have access in Marketo to delete programs). Please Note: Once the Marketo program is deleted, the Marketo LP will also be deleted and not accessible by anyone with the registration link.
 
-# Process to Close Marketo Landing Pages and Landing Page Forms
+## Process to Close Marketo Landing Pages and Landing Page Forms
 
 ## Marketo Asset Expiration
 
@@ -606,7 +606,7 @@ If a registrant is having issues registering for an event on a GitLab landing pa
 - If they have not already, have them try registering utilizing Chrome.
 - Have them try registering using Incognito Mode.
 
-# Owned Tactics that Involve Collecting Addresses
+## Owned Tactics that Involve Collecting Addresses
 There are times that Field Marketing will run campaigns that involve building a landing page in Marketo in order to collect addresses for shipping swag. Examples of these instances are a 5k run, GitLab-hosted tasting event, direct mail campaigns, etc. When collecting addresses, please follow the below instructions for ensuring PII compliancy.
 
 ## Landing Page Verbiage
@@ -618,7 +618,7 @@ Please note that due to PII compliancy, addresses collected in Marketo landing p
 ## Removing PII from Marketo
 Once the report is downloaded (or the event/tactic has ended and all swag has been sent), Marketing Ops will then also delete the PII information directly in Marketo. To request this support, please review [this page](/handbook/marketing/marketing-operations/marketo/#list-exports) and open an [export request issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=export_request) to specify when a list pull and PII deletion is needed. Also remember to delete PII from any order spreadsheets once swag has shipped.
 
-# Field Marketing Swag
+## Field Marketing Swag
 
 ## Brand Details for Swag and Event Assets
 
@@ -690,9 +690,9 @@ If you are interested in ordering new swag, please open a [Swag Request Issue](h
 
 The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://www.tenandone.com) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
 
-- **Budget Allocation:** 
-     * If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event. 
-     * If swag is required from the bulk order (e.g AWS, GCP, smaller events) the FMM should assign budget and move it to All EMEA per Quarter. 
+- **Budget Allocation:**
+     * If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event.
+     * If swag is required from the bulk order (e.g AWS, GCP, smaller events) the FMM should assign budget and move it to All EMEA per Quarter.
      * If the event e.g Connect Day is handled by Ten & One as an all-in budget under the contract with Ten & One this should be included in that event sponsorship line item within the FMM's regional plan.
 Please note shipping cost to be included in the SWAG cost that you budget per event.
 
@@ -724,11 +724,11 @@ If you are looking to order swag or event assets for a non-Field Marketing event
 
 For details regarding this process, please visit our Events Page [here](/handbook/marketing/events/#amer-field-marketing-badge-and-event-check-in-process).
 
-# Field Marketing Fedex Account
+## Field Marketing Fedex Account
 
 The Field Marketing team utilizes the Field Marketing Fedex Account for shipping (details located in the Marketing 1pass). Please always include a reference when using the account (Allocadia ID, name of event, etc.) so charges can be tracked appropriately. For any questions regarding the Field Marketing Fedex account, please contact `@krogel`.
 
-# Field Marketing Food and Beverage Vendors for Virtual Events
+## Field Marketing Food and Beverage Vendors for Virtual Events
 
 ## AMER Field Marketing Virtual Food and Beverage Vendors
 
@@ -935,10 +935,10 @@ It is important to note that there is no limit on link sharing when utilizing th
 
 ##### Limiting Meal Redemptions
  If attempting to limit the number of meal redemptions for an event, the below steps are recommended:
-- Enable a [`Waitlist`](/handbook/marketing/marketing-operations/campaigns-and-programs/#waitlist-processing---owned-event-workshop-webcasts) for the Marketo Landing Page and establish a redemption limit. 
-- Include the Pizzatime order link in your `Confirmation Email` copy.  
-- Individually [register](/handbook/marketing/marketing-operations/campaigns-and-programs/#moving-from-waitlist-to-registered---owned-event-workshop-webcasts) registrants until the established redemption limit is reached. 
-  - Note: When a registrant is moved from `Waitlisted` to `Registered`, they will receive the `Confirmation Email`.  
+- Enable a [`Waitlist`](/handbook/marketing/marketing-operations/campaigns-and-programs/#waitlist-processing---owned-event-workshop-webcasts) for the Marketo Landing Page and establish a redemption limit.
+- Include the Pizzatime order link in your `Confirmation Email` copy.
+- Individually [register](/handbook/marketing/marketing-operations/campaigns-and-programs/#moving-from-waitlist-to-registered---owned-event-workshop-webcasts) registrants until the established redemption limit is reached.
+  - Note: When a registrant is moved from `Waitlisted` to `Registered`, they will receive the `Confirmation Email`.
 - Once the established redemption limit is reached, re-open the Marketo LP issue and request Marketing Ops remove the Pizzatime order link from the `Confirmation Email` copy.
 
 #### Details Regarding Pizzatime Financials and Budgeting
@@ -978,13 +978,13 @@ It is important to note that there is no limit on link sharing when utilizing th
 1. Once you have the Coupa virtual card information from your FMC, proceed to book/pay for your Pizzatime order via the Pizzatime website.
 1. Provide the payment receipt to your FMC for reference.
 
-# AMER Field Marketing Event Venue Tracking
+## AMER Field Marketing Event Venue Tracking
 
 The below epic is for tracking venues we would like to utilize for future events, or as a way to evaluate event venues we have already worked with to note the pros and cons of various event space across different regions.
 
 - [AMER Field Marketing Event Venues Epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/625)
 
-# Corporate Memberships Owned by GitLab Field Marketing
+## Corporate Memberships Owned by GitLab Field Marketing
 
 - [AFCEA](https://www.afcea.org/site/) - Membership is handled by the Public Sector Field Marketing Manager. Account information is stored in the marketing 1Pass vault. Please ping Kira Aubrey or Haley McComber for assistance.
 - [ACT-IAC](https://www.actiac.org) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
@@ -996,7 +996,7 @@ The below epic is for tracking venues we would like to utilize for future events
 - [USGIF](https://usgif.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [NASTD](https://www.nastd.org/home) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Haley McComber for details.
 
-# What's currently scheduled in my region?
+## What's currently scheduled in my region?
 
 | Region | FM DRI | GitLab User ID | Slack Channel |
 | ------ | ------ | -------------- | -------------- |
@@ -1010,7 +1010,7 @@ The below epic is for tracking venues we would like to utilize for future events
 | [AMER - Public Sector SLED/Civ](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Haley McComber |  `@Haley McComber` |
 | [APAC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933488?&label_name[]=APAC) | Kate Baker | `@kbaker4` |
 | Japan - link WIP | Shu Kawaguchi | `@skawaguchi1` |
-| [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Marcus Hall (Mat Cover for Juliette Francon) | `@MarcusCHall-ext` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
+| [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Juliette Francon | `@ju` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
 | [EMEA Northern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438252?scope=all&utf8=%E2%9C%93&label_name[]=Northern%20Europe&label_name[]=EMEA) | Neha Pujari | `@npujari2` |[#emea_northern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQGV58A90) |
 | [EMEA UK](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438265?&label_name[]=UK%2FI) | Neha Pujari | `@npujari2` | [#field-marketing-uki](https://gitlab.slack.com/archives/C048KPPE1V1) |
 | [EMEA Central Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1438243?label_name[]=Central%20Europe&label_name[]=EMEA) | Sarina Kraft | `@sarinakraft` | [#emea_central_europe_fieldmarketing](https://gitlab.slack.com/archives/CQJ90VD8B)|
@@ -1031,11 +1031,11 @@ If you prefer to see the events in an actual calendar view please refer to the f
 * [GitLab hosted Zoom webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 * [In person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
-# Suggesting an Event or Tactic
+## Suggesting an Event or Tactic
 
 If you are interested in requesting Field Marketing's support for a particular in-person or virtual event or tactic, please follow the process listed on our [Events Page](/handbook/marketing/events/#suggesting-an-event).
 
-# [Field Marketing planning](https://drive.google.com/drive/folders/1xtePKOl4RSINaPPr3InQNisYTQyOJ5JE)
+## [Field Marketing planning](https://drive.google.com/drive/folders/1xtePKOl4RSINaPPr3InQNisYTQyOJ5JE)
 
 It is our goal to have planning for each qtr completed four (4) weeks before the next quarter starts. At this time, we have the following time line set for regional plans:
 
@@ -1112,19 +1112,19 @@ After the quarterly FMM plans have been added to the [marketing calendar](/handb
 
 You will note in Allocadia in the details panel if you need SA support. [Video walk through](https://youtu.be/VYwBXmpJrDg) (you must be logged into GitLab Unfiltered to view.)
 
-# Field Marketing/Channel Marketing Engagement
+## Field Marketing/Channel Marketing Engagement
 
-We know and understand the importance of working with our channel partners in region to help build pipeline, and ultimately contribute to closed won business. Jointly with their regionally algined Channel Marketing Manager & Field Sales teams, Field Marketers should be thinking about which partners will help their sales teams build pipeline in the region and include them in their campaigns. 
+We know and understand the importance of working with our channel partners in region to help build pipeline, and ultimately contribute to closed won business. Jointly with their regionally algined Channel Marketing Manager & Field Sales teams, Field Marketers should be thinking about which partners will help their sales teams build pipeline in the region and include them in their campaigns.
 
-#### The Field Marketing team will work with channel partners that have successfully:
+#### The Field Marketing team will work with channel partners that have successfully
 
-1. Executed at least 3 MDF campaigns in the last 12 months - achieving ROI of 10 x Pipe 2 Spend and targeted # of DRs  
-1. Booked business threshold. 
+1. Executed at least 3 MDF campaigns in the last 12 months - achieving ROI of 10 x Pipe 2 Spend and targeted # of DRs
+1. Booked business threshold.
     * Please revivew the internal handbook for the [required threshold of business booked](https://internal.gitlab.com/handbook/marketing/integrated-marketing/#threshold-of-booked-business).
 
-The Channel Marketing Manager is responsible for keeping track of which partners fall within this category and will support the FM campaign DRI as the link between channel partner and us to ensure a smooth campaign execution on both sides. 
+The Channel Marketing Manager is responsible for keeping track of which partners fall within this category and will support the FM campaign DRI as the link between channel partner and us to ensure a smooth campaign execution on both sides.
 
-The complete list of Marketing Channel Partners are identified in SFDC [here](https://gitlab.my.salesforce.com/00OPL0000002muz). 
+The complete list of Marketing Channel Partners are identified in SFDC [here](https://gitlab.my.salesforce.com/00OPL0000002muz).
 
 ## FMM/CAM alignment
 
@@ -1148,24 +1148,24 @@ The complete list of Marketing Channel Partners are identified in SFDC [here](ht
 
 ## Field Marketing initiated and funded campaigns
 
-Once the partner has reached the threshold, the Channel Marketing Manager will collaborate with the Field Marketing Manager on planning and next steps. 
+Once the partner has reached the threshold, the Channel Marketing Manager will collaborate with the Field Marketing Manager on planning and next steps.
 
-Suggested process: 
-1. Identify region/area where there is a pipeline need  
+Suggested process:
+1. Identify region/area where there is a pipeline need
 1. Develop partner campaign objectives and set goal. Set up recurring biweekly cadence with partner, CMM, GitLab sales and FMM to keep planning and campaign action items on track
-1. Agree to campaign tactics and persona targets, develop budget request and expected outcomes in the form of Deal Registrations 
+1. Agree to campaign tactics and persona targets, develop budget request and expected outcomes in the form of Deal Registrations
 1. Ensure that you know and understand who/what each team is bringing to the campaign.
-   * If there is an invitaion involved, ensure that both companies have [UTM tracking links](/handbook/marketing/utm-strategy/) to know who has driven who to the event so you all can stay aligned and ensure proper follow ups are taking place. 
+   * If there is an invitaion involved, ensure that both companies have [UTM tracking links](/handbook/marketing/utm-strategy/) to know who has driven who to the event so you all can stay aligned and ensure proper follow ups are taking place.
 
 Note: The Channel Partner Enablement team is the DRI to make sure each Partner is fully enabled prior to FMM engagement. FMMs should not be involved in any channel enablement.
 
 ### Funding joint Marketing
 
-Campaigns with partners can be: 
+Campaigns with partners can be:
 - Fully funded by FMM budget
-- Funded jointly by FMM budget and Partner budget 
+- Funded jointly by FMM budget and Partner budget
 
-We cannot use GitLab MDF dollars to fund joint campaings. 
+We cannot use GitLab MDF dollars to fund joint campaings.
 
 ### Sample types of activities to engage with partners
 
@@ -1188,13 +1188,13 @@ Please refer to the [Marketing Performance handbook](/handbook/marketing/strateg
 ### Useful Fields in SFDC that relate to Vartopia
 1. Please refer to [this handbook page](/handbook/marketing/marketing-operations/vartopia/#partner-prospect-admin) for further details.
 
-# Field Marketing with Alliance Partners
+## Field Marketing with Alliance Partners
 ## AWS
 ## Google
 ### Register your event with Google
 * If you have a joint event you are running with Google and you would like for their sales and marketing teams to help recruit attendees, you must [register your event here](https://docs.google.com/forms/d/e/1FAIpQLSfWoX35znH5PpR2LTlL7DQzCf3CoW2KkOc9egEa_FoaH6XC4A/viewform).
 
-# Field Marketing - Public Sector
+## Field Marketing - Public Sector
 
 ## Charitable Donations for Event Attendance
 
@@ -1304,7 +1304,7 @@ We are committed to providing opportunities for discussion, education and commun
 - Ensure that the partner is aware this is NOT a marketable event.
 - Ensure branding is in alignment with GitLab Government User Group branding.
 
-### Backend Processes:
+### Backend Processes
 
 **Getting Started with Meetup.com**
 1. Create your meetup page on meetup.com
@@ -1404,11 +1404,11 @@ We are committed to providing opportunities for discussion, education and commun
         - Invite for next event (or meetup.com save the date link)
 
 
-# GitLab Company Information (Including Tax ID)
+## GitLab Company Information (Including Tax ID)
 
 [Useful Company Information](https://gitlab.com/gitlab-com/Finance-Division/finance/-/wikis/company-information)
 
-# AMER Field Marketing iPad Purchasing and Setup Instructions
+## AMER Field Marketing iPad Purchasing and Setup Instructions
 
 ## Purchasing Details
 
@@ -1444,7 +1444,7 @@ TBD
 
 - Follow the instructions [HERE](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/conference-booth-setup/#ipads) to set up Google Drive and Slides
 
-# Working with Field Marketing
+## Working with Field Marketing
 
 ## Requests to Field Marketing leadership team
 
@@ -1457,12 +1457,12 @@ Funneling similar requests from a global team and addressing shared pain points 
 
 This issue should not be used as a shortcut to get questions answered but for request where FM leadership can help to improve a process which does contribute to our success as a team.
 
-# How Field Marketing Tracks Campaign Expenses
+## How Field Marketing Tracks Campaign Expenses
 
 For information on how Field Marketing tracks campaign expenses, please visit the Marketing handbook page section [here](/handbook/marketing/marketing-team-processes/#how-marketing-tracks-campaign-expenses).
 
 
-# Field Marketing Labels in GitLab
+## Field Marketing Labels in GitLab
 
 The Field Marketing team works from issues and issue boards. If you need our assistance with any project, please open an issue and use the `Field Marketing` label anywhere within the GitLab repo.
 
@@ -1528,7 +1528,7 @@ The Field Marketing team works from issues and issue boards. If you need our ass
 
 For more information on how Field Marketing utilizes GitLab for agile project management, please visit [Marketing Project Management Guidelines](/handbook/marketing/#-marketing-project-management-guidelines).
 
-# The Field Marketing Budget
+## The Field Marketing Budget
 
 Field Marketing manages its budget in [Allocadia](/handbook/marketing/strategy-performance/allocadia/). Specific instructions on how we manage our expenses:
 
@@ -1563,11 +1563,11 @@ Field Marketing manages its budget in [Allocadia](/handbook/marketing/strategy-p
 
 Please note that there is a limit of $75 USD annually per person on customer speaker gifts.
 
-# Field Marketing and the Procurement Process
+## Field Marketing and the Procurement Process
 
 ## Field Marketing Contract Requests
 
-In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC. 
+In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC.
 
 ### SLAs
 The SLA for your FMC to submit your request to Zip/Coupa is **3 business days** from when they are assigned the contract request issue. Please keep in mind it generally takes a week+ to obtain all approvals and/or signatures during the procurement process (longer for more complicated contracts that may require redlines from legal), so please plan accordingly.
@@ -1585,19 +1585,19 @@ Please make sure you have reviewed your document carefully and have pre-filled t
 Please Note: AP typically closes out the month by the third business day **before** the last day of the month (Day -3). Once AP closes the month, any charges under $5k (under $50k for swag/shipping) occuring via a credit card or invoice approvals will be reconciled the following month. The month close date will be announced each month in the `#allocadia_mktg-budget-holders` Slack channel and will also be added to the [Marketing Finance Dates Calendar](https://calendar.google.com/calendar/embed?src=c_j581mpq4tcn6bjojs1bqnl4eg0%40group.calendar.google.com&ctz=America%2FDenver).
 
 ### Prepaid Policy
-Please make sure you have reviewed our company's [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and have forecasted your cost(s) correctly in Allocadia. 
+Please make sure you have reviewed our company's [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and have forecasted your cost(s) correctly in Allocadia.
 
 ### Signature Authority
 GitLab team members DO NOT have [signature authority](/handbook/company/authorization-matrix/expenses-and-signatures/#signature-authority---sales-and-vendor-contracts). This means that FMMs are not allowed to sign any legal documents pertaining to quotes, orders, contracts, BEOs, etc. If you have a document that requires a signature, please submit it in a contract request to your FMC to process through procurement.
 
 ### Coupa Card Versus Navan Card
-This template is to be utilized for all contracts/orders/invoices that either require a signature/acceptance of terms and conditions and/or are over $5,000 in cost. If your order does not require a contract/signature and is under $5,000, you may utilize your [Navan credit card](/handbook/finance/accounts-payable/corp-credit-cards/) for payment. 
+This template is to be utilized for all contracts/orders/invoices that either require a signature/acceptance of terms and conditions and/or are over $5,000 in cost. If your order does not require a contract/signature and is under $5,000, you may utilize your [Navan credit card](/handbook/finance/accounts-payable/corp-credit-cards/) for payment.
 
 ### Coupa Card Limits
-Please be aware that your Coupa card limit is directly associated to the approved PO amount. We have a 10% overage on the card and if you try to charge more than 10% over the PO amount, the card will decline. If you require additional funds be added to the card limit, you will need to request your FMC submit a [PO Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change) to increase the PO total and the card limit.  
+Please be aware that your Coupa card limit is directly associated to the approved PO amount. We have a 10% overage on the card and if you try to charge more than 10% over the PO amount, the card will decline. If you require additional funds be added to the card limit, you will need to request your FMC submit a [PO Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change) to increase the PO total and the card limit.
 
 #### Coupa Card Max (Onboarding New Vendors)
-Please also note, we can only use Coupa cards for POs up to $25,000. Anything over $25,000 requires ACH payment and onboarding the vendor through Zip/Coupa. If you know you have an upcoming contract/payment over $25,000, please contact your FMC in advance so they can check to see if the vendor is currently in Zip/Coupa and if not, they can request the vendor be onboarded in advance by submitting a [Zip request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-request-a-new-vendor). No contract is required to submit this request and an estimated cost can be provided. Please note in the title of the submission that the request is for new vendor onboarding only. For any questions, please reach out to your FMC. 
+Please also note, we can only use Coupa cards for POs up to $25,000. Anything over $25,000 requires ACH payment and onboarding the vendor through Zip/Coupa. If you know you have an upcoming contract/payment over $25,000, please contact your FMC in advance so they can check to see if the vendor is currently in Zip/Coupa and if not, they can request the vendor be onboarded in advance by submitting a [Zip request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-request-a-new-vendor). No contract is required to submit this request and an estimated cost can be provided. Please note in the title of the submission that the request is for new vendor onboarding only. For any questions, please reach out to your FMC.
 
 ### Invoices Under $5k
 If you have an [invoice under $5k](/handbook/finance/procurement/#-what-are-the-exceptions-to-the-po-policy) that does NOT require a signature or [procurement review](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#when-is-legal-involved), we do not need to process through Zip/Coupa. In these cases, your FMC can simply submit the invoice directly via email to `ap@gitlab.com` for ACH payment (please note, the vendor must be in the system to process payment). Items that must be included in the email to AP: Approver name (FMC), Allocadia ID, and Department (Field Marketing). An example of this would be Boundless invoices under $5k. Boundless has been onboarded in our finance system, they do not require a signature on their invoices, and these invoices do not require a procurement review as they are under $5k. If you are unsure if your invoice falls under this category, please ask your FMC.
@@ -1660,7 +1660,7 @@ New vendors are popping up frequently and in the spirit of iteration and testing
     - Tech stack request (for new software purchases)
 1. If you're requesting a new tool, and if the new product requires integration with any of our existing products (SFDC, Marketo, Outreach, etc.) FMC to open an integration request issue with the appropriate team (see step above where the Marketing Ops team will help determine). Integration will not begin until all approvals are final and the contract has been fully executed, but opening the integration issue early will give the appropriate team advance notice for planning.
 
-# Field Marketing and Legal
+## Field Marketing and Legal
 
 ## Legal Approvals
 
@@ -1673,7 +1673,7 @@ It should be a rare occasion (and not a result of poor planning), that a contrac
 Field Marketing follows the legal team's process [here](/handbook/legal/marketing-collaboration/#promotional-games) for contests and sweepstakes.
 
 
-# Field Marketing Communications
+## Field Marketing Communications
 
 ## Regional Email Aliases
 
@@ -1734,10 +1734,10 @@ Of those 1-3 items listed, do you need any roadblocks removed in order to accomp
 You will be notified via the Geekbot plug in on slack at 9 AM your local time on Mondays, as stated above. It is important to note, that unless you answer all questions in the Geekbot plug in, your answers will NOT be shared with your colleagues, so please be sure to complete all questions!
 
 ## Out of Office Processes
-We follow the processes documented in the [Communicating your time off section](/handbook/paid-time-off/#communicating-your-time-off) of our handbook page.
+We follow the processes documented in the [Communicating your time off section](/handbook/people-group/paid-time-off/#communicating-your-time-off) of our handbook page.
 
 Specifically:
-1. Add your OOO to [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel)
+1. Add your OOO to [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel)
 1. Add an OOO message for your email. Please ensure you are including a DRI in your OOO email response for people outside the company to contact.
 1. Turn on [Google Calendar's "out of office" setting](https://support.google.com/calendar/answer/7638168?hl=en) (scroll down to "Show when you’re out of office") to create an out of office event that will automatically decline new and existing meetings for you. Or, please ensure to manually cancel/decline/reschedule any meetings if you will not be in attendance.
 1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Time Off by Deel). If you’re traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly.
@@ -1745,20 +1745,20 @@ Specifically:
 1. For the AMER FM Team, please add your OOO to the [FM AMER Team PTO Google calender](https://calendar.google.com/calendar/u/0?cid=Y18yZjA0OGVhNzc3YjcyZWQzYTRmY2VkOTZjZWI5NjRiMTNlNWM1YmMxOTA4M2FjNmE5YWNjYjUwMzc0NWZhNjlhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
 1. If you are a manager of people, please [assign a delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) so you will not hold approvals while you're enjoying your time off.
 
-# Field Marketing MR process
+## Field Marketing MR process
 
 Everyone can contribute, although not everyone has merge rights. Within the Field Marketing team, when someone submits an MR, the submitter needs to assign to their direct line manager to review, and then their manager will assign to the Director of Field Marketing to review. Once the Director has reviewed/approved, it is their responsibility to ensure all threads are addressed and resolved and all merge conflicts are resolved, then merge.
 
 Should a Country Manager of Field Marketing or Director of Field Marketing submit a process change in the handbook, then all Country Managers should sign off via approving the MR or commenting their approval. At which point, the Director ensures all threads are addressed and resolved and all merge conflicts are resolved, then the Director will merge.
 
-# Creating a spif for sales
+## Creating a spif for sales
 At times, Field Marketers may want to create a SPIF (sales performance incentive fund) to help drive sales behavior in a campaign they are running. While this should not be our standard to offer a SPIF, should one need to be used, we do need to report back to payroll any incentve that was paid and to who. The process is as follows:
 1. There is no payment threshold that would not need to be reported. All SPIFs must be reported.
 1. The SPIF DRI should send the legal name of the winners to payroll
 1. The SPIF DRI should include the amount of money (or value of the prize, if a prize was offered) to payroll
 1. Contact info for payroll can be found [here on their handbook page](/handbook/finance/payroll/).
 
-# Other pages to review for a full understanding of how Field Marketing at GitLab operates
+## Other pages to review for a full understanding of how Field Marketing at GitLab operates
 
 - [Events at GitLab](/handbook/marketing/events/)
 - [Marketing Operations](/handbook/marketing/marketing-operations/)
@@ -1766,14 +1766,14 @@ At times, Field Marketers may want to create a SPIF (sales performance incentive
 - [Marketo program/campaign support](/handbook/marketing/marketing-operations/campaign-operations/)
 - [Field Marketing onboarding videos](https://drive.google.com/open?id=1m8ReMIiymMTqqk5PJAG7u_IG-Q5pkusV) - NOTE - these are also in the Field Marketing Onboarding issue that is kept in the [Marketing onboarding project](https://gitlab.com/gitlab-com/marketing/onboarding#onboarding)
 
-# Account Based Marketing
+## Account Based Marketing
 
 Account based marketing is separate but sits next to field marketing. For info on account based marketing, please head over to the [ABM page](/handbook/marketing/account-based-marketing/).
 
 ## FMM 6sense Use Cases and set up
 Field Marketing use cases are being migrated from Demandbase to 6sense. More info can be found on the [6sense Handbook page.](/handbook/marketing/marketing-operations/6sense/)
 
-# Tiers of support from Field Marketing for Corporate lead events
+## Tiers of support from Field Marketing for Corporate lead events
 In an effort to support the events the corporate marketing team runs, Field Marketing will rank the shows on an annual basis that corporate marketing runs.
 
 ## Tier 1
@@ -1788,7 +1788,7 @@ Field Marketing will:
 1. AWS re:Invent
 1. Gartner Application Summits - AMER, EMEA, APAC
 1. Gartner Security Summit - AMER
-1. Google NEXT 
+1. Google NEXT
 
 ## Tier 2
 Field Marketing will:
@@ -1799,7 +1799,7 @@ Field Marketing will:
 1. KubeCon US
 1. Black Hat US
 
-# Deprecated handbook content
+## Deprecated handbook content
 We feel like this info is too good to delete, and while we currently aren't using either the tool that is descirbed or the process, we just aren't ready to delete.....its like that sweater you just can't seem to get rid of in case you may need it one day...
 
 ## Printfection Direct Mail Giveaways
@@ -2040,7 +2040,7 @@ SimplyDirect defines engagement by targets filling out the survey.  The SimplyDi
 - Total number of SAOs
 - Pipeline progression
 
-# Working with our Digital team
+## Working with our Digital team
 
 - For [paid social campaigns](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#paid-social), details on how we collaborate with the Digital team can be [found here](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#agency).
 - We are not running ads for webcasts or workshops - as that is handled by our campaigns team.

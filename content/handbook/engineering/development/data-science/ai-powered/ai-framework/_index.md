@@ -39,8 +39,8 @@ If you're interested in the team's Objectives and Key Results (OKRs), you can fi
 
 Depending on the context here are the most appropriate ways to reach out to the IDE Group:
 
-- Slack Channel: [`#g_ai_framework`][slack]
-- Slack Groups: `@ai-framework` (entire team) and `@ai-framework-engs` (just engineers)
+* Slack Channel: [`#g_ai_framework`][slack]
+* Slack Groups: `@ai-framework` (entire team) and `@ai-framework-engs` (just engineers)
 
 ## 📦 Team Processes
 
@@ -50,28 +50,32 @@ Depending on the context here are the most appropriate ways to reach out to the 
 
 #### Team Meetings
 
-1. **Weekly Work Assignment Meeting**
-   - **When:** Every Monday, alternating between 09:00 AM GMT+1 and 17:00 PM GMT+1
-   - **What:** This meeting is dedicated to workload assignment. The Engineering Manager and Product Manager assign work as needed for the entire team.
+1. **Weekly Refinement/Weight Assignment Meeting**
+   * **When:** Every Monday, alternating between 09:00 AM GMT+1 and 17:00 PM GMT+1
+   * **What:** This meeting replaces the previous Work Assignment Meeting and focuses on refining and assigning weights to issues. The Engineering Manager and Product Manager ensure all issues are properly refined and weighted.
 
 2. **Bi-Weekly Engineering Sync**
-   - **When:** Every other Thursday, alternating between 11:00 AM GMT+1 and 18:00 PM GMT+1
-   - **What:** This meeting is dedicated to the engineering team for the purpose of syncing up on progress, discussing technical challenges, and planning upcoming sprints.
+   * **When:** Every other Thursday, alternating between 11:00 AM GMT+1 and 18:00 PM GMT+1
+   * **What:** This meeting is dedicated to the engineering team for the purpose of syncing up on progress, discussing technical challenges, and planning upcoming sprints.
 
-3. **Think BIG sessions**
-   - **When:** Once a month
-   - **What:** This session will alternate between EMEA/AMER and APAC regions every other month, focusing on broad discussions about group dynamics and strategic planning.
+3. **Monthly Capacity Review Meeting**
+   * **When:** Once a month
+   * **What:** This meeting focuses on reviewing the team's capacity, monitoring fluctuations, and reacting to any drops in capacity. It includes a review of the points completed in the past month and adjustments to estimates if necessary.
+
+4. **Think BIG sessions**
+   * **When:** Once a month
+   * **What:** This session will alternate between EMEA/AMER and APAC regions every other month, focusing on broad discussions about group dynamics and strategic planning.
 
 ### Shared calendars
 
-- AI Framework PTO (Calendar ID: `c_eca9440729dba2cbd88b3117fa70839836fb5811cb072132b94c52f912a31bf5@group.calendar.google.com`)
-- AI-Powered Stage Calendar (Calendar ID: `c_n5pdr2i2i5bjhs8aopahcjtn84@group.calendar.google.com`)
+* AI Framework PTO (Calendar ID: `c_eca9440729dba2cbd88b3117fa70839836fb5811cb072132b94c52f912a31bf5@group.calendar.google.com`)
+* AI-Powered Stage Calendar (Calendar ID: `c_n5pdr2i2i5bjhs8aopahcjtn84@group.calendar.google.com`)
 
 AI Framework team members should [sync your PTO events](/handbook/people-group/engineering/team-pto-calendar/) with AI Framework PTO calendar.
 
 ### 🖖 Weekly EM Updates
 
-Each week the team EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-org/ai-powered/ai-framework/team-hq/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=Weekly%20Announcements&first_page_size=20).
+Each week the team EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-org/ai-powered/ai-weekly/-/issues/?sort=created_date&state=all&label_name%5B%5D=AI%20Powered%20Weekly%20Updates&first_page_size=20).
 
 ### 📚 AI Framework Board Outline
 
@@ -90,45 +94,46 @@ Our workflow process for our [board](https://gitlab.com/groups/gitlab-org/-/boar
 
 To ensure that our developers are aware of the priority of their work, we [use three labels](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=AIF):
 
-- **AIF-Priority::1**: This label is for issues that are of the highest priority. These issues should be addressed first.
-- **AIF-Priority::2**: This label is for issues that are of medium priority. These issues should be addressed after all Priority 1 issues have been resolved.
-- **AIF-Priority::3**: This label is for issues that are of lower priority. These issues should be addressed after all Priority 1 and Priority 2 issues have been resolved.
+* **AIF-Priority::1**: This label is for issues that are of the highest priority. These issues should be addressed first.
+* **AIF-Priority::2**: This label is for issues that are of medium priority. These issues should be addressed after all Priority 1 issues have been resolved.
+* **AIF-Priority::3**: This label is for issues that are of lower priority. These issues should be addressed after all Priority 1 and Priority 2 issues have been resolved.
 
 ### 🔄 Processes
 
-#### 🗓️ Weekly
+#### 🗓️ Weekly Process
 
-1. **Open 🆕**: (DRI: PM) Capture and list new issues as they arrive. This stage serves as the initial holding area where issues await further classification and prioritization.
-2. **Workflow Design ✍️**: (DRI: Designer) Move issues into this lane for design refinement. Focus on detailing user experience and interface design. Essential for aligning the visual and functional aspects of the solution with user needs.
-3. **Workflow Refinement 🔧**: (DRI: Engineering Lead) Issues undergo technical refinement here. Engineers review and adjust the technical aspects to ensure feasibility and adherence to technical standards.
-4. **Workflow Ready for Development 🎯**: (DRI: PM/EM) Transition issues that have completed the refinement process here. They are fully specced and ready for developers to start coding.
-5. **Workflow in Development 💻**: (DRI: Assigned Developer) Coding and implementation of workflows happen in this stage. Developers build out the features and functionalities as specified.
-6. **Workflow in Review 🔍**: (DRI: QA/Reviewer) Conduct thorough reviews and testing of completed workflows. This includes code reviews and usability testing to ensure quality and functionality before final deployment.
-
-
-1. **Backlog Refinement 📝**: (DRI: PM /EM) Once per week, review all the issues in the **Open** lane. Prioritize them based on their importance, urgency, and input from the team. Identify which issues need discovery work and which can be moved straight into **workflow::ready for development**.
-2. **Discovery Work Assignment 🧪**: (DRI: PM/EM) Move issues that need discovery work into the **workflow::problem validation** lane. These issues are not yet fully defined and need further investigation before they can be developed.
-3. **Ready for Development Assignment 🎯**: (DRI: PM/EM) Move issues that have the necessary details for development into the **workflow::ready for development** lane. These issues are either already assigned to an individual contributor (IC), or if not, are ordered by priority so they can be picked up with ease.
-4. **Progress Check 🔄**: (DRI: Assigned Developer) Check the **workflow::in dev** lane daily to see the status of the ongoing tasks. 
-5. **Review Completed Tasks 👥**: (DRI: Assigned Developer) Review the tasks in the **workflow::in review** lane. Ensure they are moving forward.
-
-
-**Issues for the AI Framework team are binary: they are categorized as either a discovery issue, requiring further investigation, or an implementation issue, ready for development. This approach helps us maintain a lean and efficient workflow.**
+1. **Open 🆕**: (DRI: PM) Capture and list new issues as they arrive. This stage serves as the initial holding area for issues awaiting classification and prioritization.
+2. **Workflow Design ✍️**: (DRI: Designer) Move issues into this lane for **design refinement**, focusing on user experience and interface design.
+3. **Workflow Refinement 🔧**: (DRI: Engineering Lead) Conduct **technical refinement** to ensure feasibility and adherence to standards.
+4. **Workflow Ready for Development 🎯**: (DRI: PM/EM) Transition fully refined and specced issues here, ready for developers to start coding.
+5. **Workflow in Development 💻**: (DRI: Assigned Developer) Implement and build the specified features and functionalities.
+6. **Workflow in Review 🔍**: (DRI: QA/Reviewer) Perform thorough reviews and testing, including code reviews and usability testing.
 
 ### 📝 Issue Guidelines
 
 These guidelines apply to all issues we use for planning and scheduling work within our group. Our Engineers can define specific implementation issues when needed, but the overall goal for our issues are as follows:
 
-- Provide a meaningful **title** that describes a deliverable result.
-    - ✅ `Add the new GitLab Duo chat package as a Vue2 extension`
-    - ✅ `Chat: move away from using OpenAI embeddings`
-    - ❌ `Make Chat better`
-- Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
-- Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
-- The issue should have a weight, milestone and workflow label assigned.
-- Design and frontend engineering use one issue. The same issues moves from workflow::design to workflow::refinement to workflow::ready for development. This ensures that there is a single source of truth for customer-facing issues. If a design issue is too large to be implemented, it may be promoted to an epic.
+* Provide a meaningful **title** that describes a deliverable result.
+    * ✅ `Add the new GitLab Duo chat package as a Vue2 extension`
+    * ✅ `Chat: move away from using OpenAI embeddings`
+    * ❌ `Make Chat better`
+* Provide a meaningful description that clearly explains the goal of the issue, and provide some technical details if necessary.
+* Should there be critical implementation steps or other useful ways to create small tasks as part of the issue, please use a checklist as part of the issue descriptions.
+* The issue should have a weight, milestone and workflow label assigned.
+* Design and frontend engineering use one issue. The same issues moves from workflow::design to workflow::refinement to workflow::ready for development. This ensures that there is a single source of truth for customer-facing issues. If a design issue is too large to be implemented, it may be promoted to an epic.
 
 It's okay to create specific engineering-driven implementation issues for more complex features. These would be called **Child Issues** and they should always link back to their parent. If one issue would spawn many child issues, consider creating an Epic.
+
+🏋 Weighting and Estimation Process
+
+To assign weights to issues effectively, it’s important to remember that issue weight should not be tied to time. Instead, it should be a purely abstract measure of the issue’s significance. The team uses the Fibonacci sequence starting from weight 0:
+
+* **Weight 0:** Reserved for the smallest and easiest issues, such as typos or minor formatting changes, or very minor code changes with no tests required.
+* **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like “good for new contributors” or “Hackathon - Candidate”. Example: Changing copy text which may be simple but take some time.
+* **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
+* **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant breaking down into smaller separate issues.
+* **Weight 5:** Normally, this weight should be avoided, and indicates that the issue ideally should be broken down into smaller separate issues. However, in some cases, a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn’t necessarily involve significant risk or uncertainty.
+* **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and must be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to “placeholder” issues to capture the scope of the effort in our velocity-based capacity planning calculations.
 
 ## 👏 Communication
 
@@ -149,22 +154,26 @@ We operate using async communication by default. There are times when a sync dis
 
 ## 🔗 Other Useful Links
 
+### 🌍 AIGW Region Deployments
+
+* 🚀 [Staging](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway-staging.yml?ref_type=heads#L12)
+* 🌐 [Production](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway.yml?ref_type=heads#L12)
+
 ### 📝 Dashboards (internal only)
 
-- All Usage
-- [Requests per provider](https://thanos-query.ops.gitlab.net/graph?g0.expr=sum%20by%20(client)(rate(gitlab_sli_llm_client_request_total%7Benv%3D%22gprd%22%7D%5B1m%5D))&g0.tab=0&g0.stacked=0&g0.range_input=1w&g0.max_source_resolution=0s&g0.deduplicate=1&g0.partial_response=0&g0.store_matches=%5B%5D&g0.step_input=60)
-- [Error budgets](https://dashboards.gitlab.net/d/product-ai-powered_error_budget/product-error-budgets-ai-powered?orgId=1)
-- [AI Gateway SLIs](https://dashboards.gitlab.net/d/ai-gateway-main/ai-gateway-overview?orgId=1)
-- [GCP quota limits](https://dashboards.gitlab.net/d/ai-gateway-main/ai-gateway-overview?orgId=1&viewPanel=1515902021)
-- [LLM Sidekiq completions](https://dashboards.gitlab.net/d/sidekiq-main/sidekiq-overview?orgId=1)
-- [Duo Chat Question Categorization](https://app.periscopedata.com/app/gitlab/1173299/Duo-Chat-Question-Categorization)
-- [Security Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=group%3A%3Aai%20framework&first_page_size=20)
-- [Reliability Issues](https://gitlab.com/gitlab-org/gitlab/-/boards/4227439?not[label_name][]=type%3A%3Afeature&label_name[]=section%3A%3Adev&label_name[]=group%3A%3Aai%20framework)
-- [Sentry via CompletionWorker](https://new-sentry.gitlab.net/organizations/gitlab/issues/?query=is%3Aunresolved++CompletionWorker&referrer=issue-list&statsPeriod=14d)
-- [Sentry via Feature Category](https://new-sentry.gitlab.net/organizations/gitlab/issues/?query=is%3Aunresolved+feature_category%3Aai_abstraction_layer&referrer=issue-list&statsPeriod=24h)
-- [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/ai-framework-retros)
-- [Chat QA Evaluation](https://gitlab.com/gitlab-org/ai-powered/ai-framework/qa-evaluation)
-- [Chat REST API Error Ratio](https://log.gprd.gitlab.net/app/r/s/lDEwi)
+* [Requests per provider](https://thanos-query.ops.gitlab.net/graph?g0.expr=sum%20by%20(client)(rate(gitlab_sli_llm_client_request_total%7Benv%3D%22gprd%22%7D%5B1m%5D))&g0.tab=0&g0.stacked=0&g0.range_input=1w&g0.max_source_resolution=0s&g0.deduplicate=1&g0.partial_response=0&g0.store_matches=%5B%5D&g0.step_input=60)
+* [Error budgets](https://dashboards.gitlab.net/d/product-ai-powered_error_budget/product-error-budgets-ai-powered?orgId=1)
+* [AI Gateway SLIs](https://dashboards.gitlab.net/d/ai-gateway-main/ai-gateway-overview?orgId=1)
+* [GCP quota limits](https://dashboards.gitlab.net/d/ai-gateway-main/ai-gateway-overview?orgId=1&viewPanel=1515902021)
+* [LLM Sidekiq completions](https://dashboards.gitlab.net/d/sidekiq-main/sidekiq-overview?orgId=1)
+* [Duo Chat Question Categorization](https://app.periscopedata.com/app/gitlab/1173299/Duo-Chat-Question-Categorization)
+* [Security Issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date&state=opened&label_name%5B%5D=security&label_name%5B%5D=group%3A%3Aai%20framework&first_page_size=20)
+* [Reliability Issues](https://gitlab.com/gitlab-org/gitlab/-/boards/4227439?not[label_name][]=type%3A%3Afeature&label_name[]=section%3A%3Adev&label_name[]=group%3A%3Aai%20framework)
+* [Sentry via CompletionWorker](https://new-sentry.gitlab.net/organizations/gitlab/issues/?query=is%3Aunresolved++CompletionWorker&referrer=issue-list&statsPeriod=14d)
+* [Sentry via Feature Category](https://new-sentry.gitlab.net/organizations/gitlab/issues/?query=is%3Aunresolved+feature_category%3Aai_abstraction_layer&referrer=issue-list&statsPeriod=24h)
+* [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/ai-framework-retros)
+* [Chat QA Evaluation](https://gitlab.com/gitlab-org/ai-powered/ai-framework/qa-evaluation)
+* [Chat REST API Error Ratio](https://log.gprd.gitlab.net/app/r/s/lDEwi)
 
 ### 📹 GitLab Unfiltered Playlist
 
@@ -190,7 +199,7 @@ The AI Framework Group collates all video recordings related to the group and it
 
 [slack]: TBA
 [youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0Kpt0DsmS5WSZbeiMgrBeZXv
-[paid-time-off]: /handbook/paid-time-off/#paid-time-off
+[paid-time-off]: /handbook/people-group/paid-time-off/#paid-time-off
 [gdoc]: https://docs.google.com/document/d/1rSJNmRZJ0q8hd9S6W_AXlCMvtNTC6cfWr6VU0e2fJCQ/edit#heading=h.3xbjtjtrp0e9
 
 <!-- LINKS END -->

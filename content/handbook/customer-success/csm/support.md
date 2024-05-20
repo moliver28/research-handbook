@@ -11,7 +11,7 @@ title: "CSM and Support Interaction"
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 
 ## Objective
 
@@ -25,7 +25,7 @@ Though automation exists, the CSM must still ensure customers take additional st
 
 To add important static notes that will appear on each new ticket to help the support team with context, review the [support handbook](/handbook/support/internal-support/#i-want-to-add-important-information-about-the-organizationuser) to request this be attached to the customer's Zendesk organization.
 
-### Steps for the CSM to take to add support users:
+### Steps for the CSM to take to add support users
 
 1. Identfiy the sold-to email for that account via SFDC
 1. Send an email to the sold-to email to follow the procedures outlined in [Managing Support Contacts](https://about.gitlab.com/support/managing-support-contacts/#managing-contacts)

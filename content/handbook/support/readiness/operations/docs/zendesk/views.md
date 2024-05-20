@@ -33,7 +33,6 @@ Currently, Zendesk views have some limitations:
   [archived tickets](https://support.zendesk.com/hc/en-us/articles/203657756-About-ticket-archiving)
   (i.e. Closed tickets after 120 days.)
 
-
 ## Change management
 
 Keep in mind, all change management should be stemming from an issue, first and

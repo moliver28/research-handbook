@@ -16,13 +16,13 @@ At GitLab we support our team members by focusing on and prioritizing their **pr
 
 ## Promotion Process
 
-You are the main driver in your career.  You don't need to wait for your manager to tap you on the shoulder and ask if you are interested or feel like you are ready for a [promotion](/handbook/people-group/promotions-transfers/).  You are a [manager of one](/handbook/values/#managers-of-one). You are empowered! 
+You are the main driver in your career.  You don't need to wait for your manager to tap you on the shoulder and ask if you are interested or feel like you are ready for a [promotion](/handbook/people-group/promotions-transfers/).  You are a [manager of one](/handbook/values/#managers-of-one). You are empowered!
 
-If you feel that you have earned a promotion, take a look at the [Job Family](/handbook/hiring/job-families/) and [Values](/handbook/values/#managers-of-one) for the position you are interested in.  If you believe you are ready, talk to your manager and share your evidence. 
+If you feel that you have earned a promotion, take a look at the [Job Family](/handbook/hiring/job-families/) and [Values](/handbook/values/#managers-of-one) for the position you are interested in.  If you believe you are ready, talk to your manager and share your evidence.
 
 Let them know that you are starting a Promotion Document, and once you are done, you would like your manager to review it. Your manager will be eager to support you by either moving your promotion document forward or telling you whether or not you need more evidence or more consistent behaviors.  Either way, discussing promotion with your manager will serve you well by ensuring a plan is in place to help get you to the next level. If you know you want to work towards a promotion but are not ready yet, you can use the promotion doc templates below to help drive your employee development conversations.
 
-GitLab's general promotion document can be found [here](/handbook/people-group/promotions-transfers/#general-promotion-document-template). 
+GitLab's general promotion document can be found [here](/handbook/people-group/promotions-transfers/#general-promotion-document-template).
 
 Below you will find a copy of the general promotion document that includes specific examples to help guide questions to ask yourself for each pillar of the promotion document aligned with role-specific criteria:
 
@@ -59,9 +59,9 @@ The hard work could be highly visible or rarely seen. The visibility does not ma
 
 GitLab has many communication channels. The good news about that is that all of the challenges and problems we have are all written down somewhere. Here are a few approaches you can take:
 
-- If your manager or someone in GitLab management is looking for volunteers to work on an initiative, a working group or even an Epic in the area you are interested in, **volunteer**!
-- Search through Epics, Issues and Slack to find people working on problems you are interested in.
-- Make it a goal to align your career development with the problems that GitLab is facing. Attend group conversations for areas you are interested in, or follow agendas for areas you are interested in. Listen for areas GitLab is focused on and determine if any of them align with your interest.
+* If your manager or someone in GitLab management is looking for volunteers to work on an initiative, a working group or even an Epic in the area you are interested in, **volunteer**!
+* Search through Epics, Issues and Slack to find people working on problems you are interested in.
+* Make it a goal to align your career development with the problems that GitLab is facing. Attend group conversations for areas you are interested in, or follow agendas for areas you are interested in. Listen for areas GitLab is focused on and determine if any of them align with your interest.
 
 **Look at your mistakes as a gift**
 
@@ -77,8 +77,8 @@ Sometimes you need to pick up a good book and just read. Maybe you would prefer 
 
 Another option for this depending on the best way you learn would be online courses. GitLab has online courses they have developed. GitLab has also purchased Linked In Learning licenses and made them available to GitLab team members.
 
-- [Training for Engineering Managers](/handbook/engineering/development/dev/create/engineering-managers/training/)
-- [Training for Engineers](/handbook/engineering/development/dev/create/engineers/training/)
+* [Training for Engineering Managers](/handbook/engineering/development/dev/create/engineering-managers/training/)
+* [Training for Engineers](/handbook/engineering/development/dev/create/engineers/training/)
 
 ## GitLab Sponsored Programs
 
@@ -90,8 +90,8 @@ GitLab has several programs they have in place which offer additional learning o
 
 ### Internal Internship Program
 
-- [Internship for Learning Program](/handbook/people-group/learning-and-development/internship-for-learning/)
-- If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team.
+* [Internship for Learning Program](/handbook/people-group/learning-and-development/internship-for-learning/)
+* If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team.
 
 ## Shadow Programs
 
@@ -110,10 +110,13 @@ The Chief of Staff to the CEO may occasionally have a Chief of Staff to the CEO 
 ## Mentoring Programs
 
 ### [Self Select Mentoring](/handbook/people-group/learning-and-development/mentor/#find-a-mentor)
-- If you choose, you can reach out to a team member who is more senior than you and request for them to Mentor you.
-- Here is a [format](/handbook/engineering/career-development/mentoring/) for how to build a mentoring relationship
+
+* If you choose, you can reach out to a team member who is more senior than you and request for them to Mentor you.
+* Here is a [format](/handbook/engineering/career-development/mentoring/) for how to build a mentoring relationship
+
 ### Minorities in Tech Mentoring Program
-- This [program](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/) was offered last year for Underrepresented team members.
+
+* This [program](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/) was offered last year for Underrepresented team members.
 
 ## Career Changes
 

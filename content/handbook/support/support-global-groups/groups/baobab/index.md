@@ -7,7 +7,6 @@ description: Home Page for Support's Baobab Group
 <!-- Search for all occurrences of NAME and replace them with the group's name.
      Search for all occurrences of URL HERE and replace them with the appropriate url -->
 
-
 ## Baobab resources
 
 - Our Slack Channel: [spt_gg_baobab](https://gitlab.slack.com/archives/C03C9DU3ED8)
@@ -87,8 +86,8 @@ There are Ticket Crush sessions scheduled at the following times:
 There is also a social chat on Fridays at 10:30 UTC.
 
 Adding a trial NRTea party:
-- Mondays at 12:00 UTC (EMEA)
 
+- Mondays at 12:00 UTC (EMEA)
 
 ## Focus Time
 
@@ -104,9 +103,9 @@ In case you need to change or reschedule your focus time, please notify your reg
 | ------------| -------------- | --------| ----------| ---------| -------|
 | Asmaa Hassan| 1:00 - 3:00 PM |  | | | 1:00 - 3:00 PM |
 | Katrin | | | | all day | |
-| Niklas |
-| Julius |
-| Paul |
+| Niklas | | | | | |
+| Julius | | | | | |
+| Paul | | | | | |
 | Olivier | 7:00 - 11:00 AM|||||
 
 **AMER Focus Time:**
@@ -115,11 +114,11 @@ In case you need to change or reschedule your focus time, please notify your reg
 | ------------| -------------- | --------| ----------| ---------| -------|
 | Harish | |  | | |  |
 | Davin Walker | | | | | |
-| Caleb Williamson |
-| Alejandro Guerrero |
-| Bo Carbonell |
-| Jio Castillo |
-| Jessie Lee |
+| Caleb Williamson | | | | | |
+| Alejandro Guerrero | | | | | |
+| Bo Carbonell | | | | | |
+| Jio Castillo | | | | | |
+| Jessie Lee | | | | | |
 
 **APAC Focus Time:**
 
@@ -127,6 +126,6 @@ In case you need to change or reschedule your focus time, please notify your reg
 | ------------| -------------- | --------| ----------| ---------| -------|
 | Matthew Badeau | | | 06:00 - 09:00 AM | 06:00 - 09:00 AM | |
 | James Reed | | | | | |
-| Shaik Azhar |
-| Sam Hewitt |
-| Justin Farmiloe |
+| Shaik Azhar | | | | | |
+| Sam Hewitt | | | | | |
+| Justin Farmiloe | | | | | |

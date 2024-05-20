@@ -50,9 +50,9 @@ flowchart TB
         fix_tests(fix tests if possible)
         quarantine_tests(quarantine tests if necessary)
         monitor_incident(participate in incident process)
-    		tag_issue_for_report(add your emoji to issue for the DRI gem)
-		    publish_results(publish your results to the triage issue with the DRI gem)
-		    dri_handoff(handoff to next DRI anything that is still in flight)
+            tag_issue_for_report(add your emoji to issue for the DRI gem)
+            publish_results(publish your results to the triage issue with the DRI gem)
+            dri_handoff(handoff to next DRI anything that is still in flight)
 
         %% external links
         click failed_pipeline "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#review-the-failure-logs"
@@ -68,52 +68,52 @@ flowchart TB
         click eyes "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
         click fire_engine "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
         click boom "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#emoji-used"
-      	click tag_issue_for_report "https://gitlab.com/gitlab-org/ruby/gems/dri#configuration"
-			  click publish_results "https://gitlab.com/gitlab-org/ruby/gems/dri#4-publish"
+          click tag_issue_for_report "https://gitlab.com/gitlab-org/ruby/gems/dri#configuration"
+              click publish_results "https://gitlab.com/gitlab-org/ruby/gems/dri#4-publish"
         click notify_incident "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#failure-needs-escalation"
         click update_incident "https://about.gitlab.com/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#notify-group-in-all-cases"
 
         %% diagram
         slack_channels -->|failed pipeline run| eyes
-			  slack_channels -->|no failed pipeline runs| next_channel
+              slack_channels -->|no failed pipeline runs| next_channel
 
-				open_incident --> next_channel
-   			another_failure -->|no| next_channel
+                open_incident --> next_channel
+               another_failure -->|no| next_channel
         incident -->|yes| notify_incident
 
-				next_channel --> investigate
-				next_channel --> publish_results
+                next_channel --> investigate
+                next_channel --> publish_results
 
-				subgraph report the failure
-				  eyes --> failed_pipeline
-				  failed_pipeline --> existing_issue
+                subgraph report the failure
+                  eyes --> failed_pipeline
+                  failed_pipeline --> existing_issue
           existing_issue -->|new failure| new_issue
-				  existing_issue -->|existing issue| fire_engine
-					new_issue --> boom
-					boom --> notify_groups
-					notify_groups --> incident
-	    		incident -->|no| tag_issue_for_report
-		    	tag_issue_for_report --> tag_pipeline
+                  existing_issue -->|existing issue| fire_engine
+                    new_issue --> boom
+                    boom --> notify_groups
+                    notify_groups --> incident
+                incident -->|no| tag_issue_for_report
+                tag_issue_for_report --> tag_pipeline
 
-					fire_engine --> tag_issue_for_report
-					tag_pipeline --> another_failure
-					another_failure -->|yes| failed_pipeline
-				end
+                    fire_engine --> tag_issue_for_report
+                    tag_pipeline --> another_failure
+                    another_failure -->|yes| failed_pipeline
+                end
 
-				subgraph escallate issue
-				  notify_incident --> open_incident
-				  open_incident --> update_incident
+                subgraph escallate issue
+                  notify_incident --> open_incident
+                  open_incident --> update_incident
           update_incident --> monitor_incident
-				end
+                end
 
-				subgraph follow up on test failures
-				  investigate --> fix_tests
-					investigate --> quarantine_tests
-				end
+                subgraph follow up on test failures
+                  investigate --> fix_tests
+                    investigate --> quarantine_tests
+                end
 
-				subgraph end of your day
-			    publish_results --> dri_handoff
-				end
+                subgraph end of your day
+                publish_results --> dri_handoff
+                end
 ```
 
 ### QA test pipelines
@@ -145,6 +145,7 @@ The test pipelines run on a scheduled basis, and their results are posted to Sla
 | [GitLab `master`'s `e2e:test-on-cng`](https://gitlab.com/gitlab-org/gitlab/-/pipeline_schedules) | Full | When the `e2e:test-on-cng` job executes from a [scheduled pipeline every 2 hours](https://gitlab.com/gitlab-org/gitlab/pipeline_schedules) | [`#qa-master`](https://gitlab.slack.com/archives/CNV2N29DM) | [Master CNG](https://gitlab-qa-allure-reports.s3.amazonaws.com/e2e-test-on-cng/master/index.html) |
 
 #### Emoji used
+
 For each pipeline there is a notification of success or failure (except for `master` pipelines, which only report failures).
 If there's a failure, we use emoji to indicate the state of its investigation:
 
@@ -176,7 +177,7 @@ After triaging failed tests, possible follow up actions are:
 Your priority is to make sure we have an issue for each failure, and to communicate the status of its investigation and resolution. When there are multiple failures to report, consider their impact when deciding which to report first. See the [pipeline triage responsibilities](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#responsibility) for further guidance.
 
 If there are multiple failures we recommend that you identify whether each one is new or old (and therefore already has an issue open for it). For each new failure, open an issue that includes only the required information. Once you have opened an issue for each new failure you can investigate each more thoroughly and act on them appropriately, as described in later sections.
-[](){: name="known-failures"}
+{: name="known-failures"}
 
 The reason for reporting all new failures first is to allow faster discovery by engineers who might find the test failing in their own merge request test pipeline. If there is no open issue about that failure, the engineer will have to spend time trying to figure out if their changes caused it.
 
@@ -193,7 +194,7 @@ Known failures should be linked to the current [pipeline triage report](https://
 1. If the issue has already been reported please use the existing issue to track the latest status.
 1. If there is no existing issue for the failure, please create an issue using one of [classification labels](#classify-and-triage-the-test-failure) via the steps below.
 
-[](){: name="linking-issue"}
+{: name="linking-issue"}
 In the relevant Slack channel:
 
 1. Apply the :eyes: emoji to indicate that you're investigating the failure(s).
@@ -286,6 +287,7 @@ It is a triggered Reference Architecture Tester pipeline that stands up an envir
 Failures can be triaged as per any other pipeline. Note that as the environment is torn down, retrying QA jobs will fail as the endpoint is unreachable.
 
 The pipeline can be manually retried by:
+
 - Get the package name from the `ansible` job eg. `Configuring GET to fetch package from https://omnibus-builds.s3.amazonaws.com/el-8_fips/gitlab-fips-15.8.3%2Brnightly.fips.272378.ccd2c685-0.el8.x86_64.rpm` ([job example](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester/-/jobs/3779956138#L48))
 - Trigger a pipeline from [Reference Architecture Tester Pipelines](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester/-/pipelines) with the variables
   - `PACKAGE_URL` - This is the package name from the `ansible` job
@@ -445,7 +447,7 @@ If you suspect that certain test is failing due to the `gitlab/gitlab-{ce|ee}-qa
 ##### Checking application version has the specific MR
 
 1. Find the version which GitLab application is running on. In the failing job logs, search for `docker pull dev.gitlab.org:5005/gitlab/omnibus-gitlab/gitlab-ee-qa` and use the version specified after `gitlab-ee-qa:`.
-    - For *nightly* the approach above won't work. There are two ways for finding the commit version of nightly:
+    - For _nightly_ the approach above won't work. There are two ways for finding the commit version of nightly:
         - Run the [nightly image on local](#run-the-test-against-a-gitlab-docker-container), sign-in as admin and navigate to `/help` page or call the `/api/v4/version` API.
         - Search for the commit in the [omnibus-gitlab pipeline](https://dev.gitlab.org/gitlab/omnibus-gitlab/-/pipelines) that built the last nightly. Jobs that build nightly have `bundle exec rake docker:push:nightly` command in the `Docker-branch` job of the `Package-and-image` stage. Once you find the latest pipeline, search for `gitlab-rails` under `build-component_shas` in any job under the `Gitlab_com:package` stage. For example, in [this `Ubuntu-16.04-branch` job](https://dev.gitlab.org/gitlab/omnibus-gitlab/-/jobs/9610785#L3373), the commit SHA for `gitlab-rails` is `32e76bc4fb02a615c2bf5a00a8fceaee7812a6bd`.
 1. Open commits list for the specific version:
@@ -460,9 +462,10 @@ If you suspect that certain test is failing due to the `gitlab/gitlab-{ce|ee}-qa
 
 #### Investigating orchestrated test failure
 
-##### Verify the reconfigure logs for the GitLab container in the pipeline artefacts.
+##### Verify the reconfigure logs for the GitLab container in the pipeline artefacts
 
 Each orchestrated job has a log file attached as artifacts called
+
 - `<container_name>-reconfigure-logs.txt` - if the container runs successfully on 1st attempt, or
 - `<container_name>-retry-<retry_attempt>-reconfigure-logs.txt` - if the test has tried multiple times to spin up the GitLab container due to failure.
 
@@ -716,7 +719,7 @@ You should apply the quarantine tag to the outermost `describe`/`context` block 
 to the test being quarantined.
 
 ```ruby
-# Good
+## Good
 RSpec.describe 'Plan', :smoke, quarantine: { issue: 'https://gitlab.com/gitlab-org/gitlab/issues/12345', type: :flaky } do
   describe 'Feature' do
     before(:context) do
@@ -725,7 +728,7 @@ RSpec.describe 'Plan', :smoke, quarantine: { issue: 'https://gitlab.com/gitlab-o
   end
 end
 
-# Bad
+## Bad
 RSpec.describe 'Plan', :smoke do
   describe 'Feature', quarantine: { issue: 'https://gitlab.com/gitlab-org/gitlab/issues/12345', type: :flaky } do
     before(:context) do
@@ -793,4 +796,4 @@ You can find some [general tips for troubleshooting problems with GitLab end-to-
 [quarantining tests]: #quarantining-tests
 [`:flaky`]: #flaky-test
 [`:bug`]: #bug-in-the-application
-[`:stale`]: #test-is-stale-due-to-application-change
+[`:stale`]: #stale-test-due-to-application-change

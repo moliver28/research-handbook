@@ -6,7 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
- 
+
 
 
 
@@ -15,12 +15,12 @@ twitter_creator: "@gitlab"
 ## Overview
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-This page focuses on email best practices and their implementation at GitLab. You'll also find information on important metrics to consider when sending an email and our email templates with image size guidelines.  
+This page focuses on email best practices and their implementation at GitLab. You'll also find information on important metrics to consider when sending an email and our email templates with image size guidelines.
 
 ## Email marketing best practices
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-** Please see our most up to date email best practices in our guide [here](https://docs.google.com/presentation/d/1j6F-3ZOFtFM9Tjz1srzbqLjSA56sK7lR2LPdKSl57Vo/edit?usp=sharing). ** 
+** Please see our most up to date email best practices in our guide [here](https://docs.google.com/presentation/d/1j6F-3ZOFtFM9Tjz1srzbqLjSA56sK7lR2LPdKSl57Vo/edit?usp=sharing). **
 
 ### Subject line best practices (and preview text)
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -28,7 +28,7 @@ This page focuses on email best practices and their implementation at GitLab. Yo
 * Use subject lines to justify sending the email and connecting to a problem that the reader might have
 * Ask yourself "why would I open this email"? - include the **value proposition**
 * Keep it short and sweet - only include that is absolutely necessary
-* Try 28 to 39 characters - studies suggest this is a "sweet spot" but that is always debatable and testable 
+* Try 28 to 39 characters - studies suggest this is a "sweet spot" but that is always debatable and testable
 * Front-load - put information information **first**
 * Be specific - emphasize what the reader "gets" out of reading this email
 * Test when you can!
@@ -69,7 +69,7 @@ This page focuses on email best practices and their implementation at GitLab. Yo
 *  Images should add to the goal of your email and not take away from it
 *  An email is not a landing page
 *  Consider accessibility
-*  In order to accomodate different clients and modes (dark mode, etc) header image requests to the design team must be for transparent images. This means that the image will not look right without a solid background in the email header. We cannot use a non-transparent image because they do not render properly in all clients. 
+*  In order to accomodate different clients and modes (dark mode, etc) header image requests to the design team must be for transparent images. This means that the image will not look right without a solid background in the email header. We cannot use a non-transparent image because they do not render properly in all clients.
 
 ### A/B testing best practices
 <!-- DO NOT CHANGE THIS ANCHOR -->
@@ -142,10 +142,10 @@ Example: 200/1000 = 20% Open Rate
 **Click Rate (CTR)**
  *GitLab benchmark: 2%*
 
- The click rate is the measure of how many people who received the email clicked on CTA, image, or links within the body of the email. 
- 
- The average click through percentages in email marketing campaigns for software and web application companies like GitLab can vary, but a good general benchmark is a CTR ranging from 2% to 5%. 
- 
+ The click rate is the measure of how many people who received the email clicked on CTA, image, or links within the body of the email.
+
+ The average click through percentages in email marketing campaigns for software and web application companies like GitLab can vary, but a good general benchmark is a CTR ranging from 2% to 5%.
+
 This value can vary significantly depending on various factors, such as the quality of the subscriber list, content relevance, the effectiveness of calls to action (CTA), and proper audience segmentation.
 
 That said, it's important to remember that the ideal CTR can vary from one company to another and largely depends on the specific goals of the campaign. Some campaigns may have a higher CTR if the content is highly relevant, and the audience is highly engaged, while others may have lower CTRs if they are sent to a broader and more diverse list.
@@ -156,9 +156,9 @@ How to calculate click-through rate: Number of clicks / number of emails deliver
 *GitLab Benchmark: 7%*
 
 There are several factors which could go into a low click-to-open rate, such as our email design, our content, our call to action — really any element in the body of our email.
- 
+
 It is a little more challenging to isolate what may be causing a low click-to-open rate, which is why we need to set up some A/B test splits to determine the cause.
- 
+
 How to calculate the Click To Open Rate: Unique Clicks / number of emails open.
 
 Example: 50/200 = 25%
@@ -175,7 +175,7 @@ Example: 5/950 = 0.5% Unsubscribe Rate.
 ## Email Templates
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Please see [this issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3375) for more details and to see how the email templates look.
+#### Please see [this issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/3375) for more details and to see how the email templates look
 
 **What are email templates?** An email template is a reusable HTML file that is used to build email campaigns (according to Litmus).
 
@@ -198,10 +198,10 @@ Example: 5/950 = 0.5% Unsubscribe Rate.
 - A - Event Invite v2.0 -- [COPY DOC TEMPLATE](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit#heading=h.tl82wncgutxu)
 - B - Newsletter Dark Mode v1.0 **(Only for use by the DevOps Download newsletter)**
 - C - Event Invite 2 buttons and speakers v1.0 -- [COPY DOC TEMPLATE](https://docs.google.com/document/d/1lZDXHh7OcyLdCz2rt7YPyfK8_bfQz757EBI-2GiIdEI/edit#)
-- D - Letter format v1.0    
+- D - Letter format v1.0
 - E - Newsletter Remote v1.0 **(Only for use by the All Remote team)**
 
-**Template notes** 
+**Template notes**
 - ABM Email Template - please use "Event Invite 2 buttons and speakers v1.0"
 - Nurture emails - please use "Event Invite 2 buttons and speakers v1.0"
 - Event invites or reminders - please use "Event Invite 2 buttons and speakers v1.0"

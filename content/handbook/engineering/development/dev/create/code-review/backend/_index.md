@@ -56,7 +56,6 @@ You can find our dashboards here:
 - [Centralized Engineering Metrics](https://10az.online.tableau.com/#/site/gitlab/views/TopEngineeringMetrics_16989570521080/TopEngineeringMetricsDashboard)
 - [Development Department Performance Indicators](/handbook/engineering/development/performance-indicators/)
 
-
 ## Team OKRs
 
 Objectives and Key Results (OKRs) help align our team towards what really matters. These happen quarterly, align up through the stage, and are based on [company OKRs](/handbook/company/okrs/) and the [engineering OKR process](/handbook/engineering/#engineering-okr-process). We check in on the status of our progress routinely throughout the quarter, at least on a monthly basis, to determine whether we are on track or need to pivot in order to accomplish or change these goals.
@@ -99,8 +98,9 @@ To assign weights to issues in a future milestone, on every 4th of the developme
 #### Follow-up issues
 
 You will begin to collect follow-up issues when you've worked on something in a release but have tasks leftover, such as technical debt, feature flag rollouts or removals, or non-blocking work for the issue. For these, you can address them in at least 2 ways:
-* Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
-* Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acode%20review&search=planning)
+
+- Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
+- Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Acode%20review&search=planning)
 
 You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
 
@@ -154,7 +154,7 @@ finish a deliverable that hasn't been started yet.
 If this outcome cannot be averted and the deliverable ends up missing the
 cycle, it will simply be moved to the next cycle to be finished up, and the
 engineer and engineering manager will have a chance to
-[retrospect](#retrospectives) and learn from what happened.
+retrospect and learn from what happened.
 
 Generally, your deliverables are expected to take up about 75% of the
 time you spend working in a month. The other 25% is set aside for other
@@ -208,7 +208,6 @@ other responsibilities in mind, and make sure that there is an issue, you are
 assigned to it, and consider sharing it in [#g_create_code-review].
 
 [product prioritization process]: /handbook/product/product-processes/#how-we-prioritize-work
-[how-we-plan]: /direction/#how-we-plan-releases
 [collaboration]: /handbook/values/#collaboration
 [general guidelines]: /handbook/values/
 [efficiency]: /handbook/values/#efficiency
@@ -248,7 +247,7 @@ by `action` and/or `controller`.
 
 1. Every week we check the kibana and grafana dashboards as per the calendar invite
 2. If we identfiy an endpoint or worker that meets our severity criteria we create an issue (if not created already) and label it based on our severity and priority criteria
-   * If an issue is already created, check whether the severity/priority needs to be updated
+   - If an issue is already created, check whether the severity/priority needs to be updated
 3. This issue should contain as much information on why it is the severity/priority as logs are often held for only 7 days
 4. Using a [specific performance issue board](https://gitlab.com/gitlab-org/gitlab/-/boards/2621072) we can keep track of our current issues and they will be prioritized accordingly during planning
 

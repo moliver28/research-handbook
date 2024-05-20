@@ -60,8 +60,8 @@ GitLab's brand approved colors can be found [here](https://design.gitlab.com/dat
 - Enter the desired colors for your palette into the Preferences file.
 - <details>
   <summary>Example palettes to paste into **Preferences.tps** file</summary>
-  
-  ```
+
+  ```xml
   <?xml version='1.0'?>
   <workbook>
   <preferences>
@@ -144,6 +144,10 @@ GitLab's brand approved colors can be found [here](https://design.gitlab.com/dat
   <color>#45404B</color>
   </color-palette>
 
+  <color-palette name="Transparent" type="regular">
+  <color>#FFFFFF00</color>
+  </color-palette>
+
   </preferences>
   </workbook>
   ```
@@ -155,6 +159,7 @@ GitLab's brand approved colors can be found [here](https://design.gitlab.com/dat
 ### Rounding
 
 To round or not to round? Know your audience. Present numbers suitable for your target audience and analysis use cases.
+
 - Executive-level charts do not normally require multiple digits of precision and rounding to the nearest ten, hundred, or thousand is sufficient.
 - Depending on the chart, 1 or 2 significant digits on percentages may be required for totals to equal 100%.
 - In general except for currency, numbers should be displayed in their full form.
@@ -172,6 +177,7 @@ For any numeric values of a 1000 million or more, be mindful of international di
 Fiscal Dates should be extracted from the DIM_DATE dimension table.
 
 Date formats must adhere to the [GitLab Writing Style Guidelines](/handbook/communication/#writing-style-guidelines):
+
 - Dates are yyyy-mm-dd
 - Time is presented as a 24 hour clock using UTC
 - Fiscal Quarter is Qn, example Q1
@@ -195,9 +201,9 @@ graph LR;
 - **Forecasted Data** - calculated data based on historical Recorded data plus assessments based on "most-likely" future scenarios. [Forecasting](https://en.wikipedia.org/wiki/Forecasting) is commonly used in Financial Planning.
 - **Predicted Data** - calculated data based on historical Recorded data plus assessments based on "what-if" future scenarios.
 
-
 #### Presentation
 
 Recorded data does not require special labeling, but Calculated data does. Calculated data should *always* be:
+
 - clearly labeled, such as in the chart title and legend (E.g. use "Estimated Seats" instead of "Seats")
 - clearly identified in the chart elements (E.g. use different line styles when mixing Calculation types on the same chart)

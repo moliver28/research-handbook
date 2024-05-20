@@ -204,7 +204,7 @@ For headcount moves due to team members leaving GitLab.
 1. When a team member leaves GitLab, in the Active Personnel sheet where the headcount record is located, enter the team members' last day into the “End Date” column. This will feed into the calculations within Adaptive so any costs associated with that headcount will cease once the end date surpasses.
 1. If the role is to be backfilled, on the Planned Personnel sheet, create a new row and enter in the role details of the termed team member. Populate the “Hire Status” field with Backfill and ensure you have entered this into the same level (department) that the termed team member was in. For the headcount name, use “TBH-” + First Initial + Last Name (e.g. for Joe Bloggs backfill, “TBH-JBloggs”) so it can be easily identified as the backfill role for that team member and assist with headcount management processes.
 
-#### Promotions (same job family), salary increases, new hiring managers/etc.
+#### Promotions (same job family), salary increases, new hiring managers/etc
 
 1. When a team member gets promoted into the same job family, has a salary change, a new hiring manager, etc., the new information is overwritten on the existing entry field for that headcount in the Active Personnel sheet. The intention is to keep the Active Personnel sheet list as concise as possible.
     - E.g. A Financial Analyst is promoted to a Senior Financial Analyst - overwrite the Job Title field with the new role name and update any other relevant fields.

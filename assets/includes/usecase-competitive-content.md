@@ -1,6 +1,6 @@
 #### Adding Competitive Content to Use Cases
 
-A core element to use cases is effective objection handling against major competitors in the market. In order to effectively support this effort, a partnership between Product Marketing and Product Management to maintain adding competitor walkthroughs and competitive content to the existing use cases is critical. To date we have competitive sections on the following uses cases: 
+A core element to use cases is effective objection handling against major competitors in the market. In order to effectively support this effort, a partnership between Product Marketing and Product Management to maintain adding competitor walkthroughs and competitive content to the existing use cases is critical. To date we have competitive sections on the following uses cases:
 
 1. [SCM](https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/)
 1. [CI](https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#competitive-comparison)

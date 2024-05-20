@@ -1,13 +1,13 @@
 ---
 title: "DevSecOps with GitLab Duo - Hands-On Lab: Getting Started with GitLab Duo"
-description: "This Hands-On Guide walks you through the lab exercises used in the DevSecOps with GitLab Duo Course"
+description: "This Hands-On Guide walks you through using GitLab Duo to answer technical questions"
 ---
 
 > Estimated time to complete: 15 minutes
 
 ## Objectives
 
-GitLab Duo allows you to use AI-assisted features across GitLab. To get started with GitLab Duo, you will need to first generate a lab environment to work in. This lab environment will provide you with all the GitLab Duo features demonstrated in this course. 
+GitLab Duo allows you to use AI-assisted features across GitLab. To get started with GitLab Duo, you will need to first generate a lab environment to work in. This lab environment will provide you with all the GitLab Duo features demonstrated in this course.
 
 ## Task A. Access your Training Group Create a project
 
@@ -29,33 +29,19 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 
     > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
 
-1. From your **My Test Group** training subgroup, click the **New project** button.
+1. From your **My Test Group** training subgroup, navigate to the GitLab Duo Principles Project.
 
-1. Select the **Create blank project** tile.
-
-1. In the **Project name** field, enter `GitLab Duo Project`.
-
-    > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
-
-1. In the **Project URL** field, click the dropdown for the second half of the URL to make sure it’s pointing to a **group name** (starts with `gitlab-learn-labs/*`) and not a **username**. You should create this project inside a group, not directly in your user’s namespace.
-
-1. Under **Visibility Level**, ensure **Private** is selected.
-
-    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
-
-1. Check **Initialize repository with a README**.
-
-1. Select **Create project**.
+    > This project has been pre-populated with a `go.mod` file that will be used in upcoming labs. It also contains an `examples` folder that holds additional examples and activities per lab. 
 
 1. From your project, click the **GitLab Duo Chat** button in the top right corner.
 
-1. A new chat window will appear on the right side of the screen. Try asking some questions and see how the GitLab Duo responds!
+1. A new chat window will appear on the right side of the screen. Try asking some questions and see how the GitLab Duo responds! 
 
 Here are a few demo questions you can ask Duo:
 
-- `How do I move an issue from one project to another?`
+- `How do I move an Issue from one project to another?`
 - `What is a merged results pipeline?`
-- `What is an example of a simple python function?`
+- `What is an example of a simple Python function?`
 
 ## Lab Guide Complete
 

@@ -4,26 +4,11 @@ title: "Coupa Prepaid Automation Process"
 description: "Coupa Prepaid Automation Process (as of 2022-04-01)"
 ---
 
-
-
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-<div class="panel panel-info">
-**IMPORTANT NOTE**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**IMPORTANT NOTE**" header-bg="info" %}}
 **With the implementation of Zip effective 2023-02-01, FP&A will be responsible for the Prepaid fields in Coupa.**
-
-</div>
-</div>
-
+{{% /panel %}}
 
 To facilitate an improved and efficient process, the Accounting Team has implemented the automation of amortization entries. As part of the review/approval process of requisitions in Coupa, the FP&A Team will determine if changes are needed if the item is either a:
 
@@ -55,13 +40,6 @@ If the item is a prepayment or deposit, the FP&A Team will edit the `Cart Items`
 <br>
 <br>
 
-<div class="panel panel-info">
-**NOTE**
-{: .panel-heading}
-<div class="panel-body">
-
+{{% panel header="**NOTE**" header-bg="info" %}}
 All the information selected on the requisition flows to the corresponding invoice when it is submitted. The invoice will require an additional review before it is approved for payment. If any incorrect information is noted, the invoice will be rejected with Comments.
-
-</div>
-
-{::options parse_block_html="false" /}
+{{% /panel %}}
