@@ -244,7 +244,7 @@ and set the `CLIENT_SESSION_KEEP_ALIVE` flag to `True`. Typical locations for th
 
 ![''](images/snowflake-odbc-ini.png)
 
-## Replacing Datasource in Tableau Desktop
+## Replacing Datasources in Tableau Desktop
 
 The steps are as follows:
 
@@ -257,3 +257,70 @@ Current and select new datasource for the Replacement and select ok
 1. Check that the all of the fields swapped over to the new datasource are working and not showing an error- some may have a `!` next to them and require replacing.  Any manual field aliases may also need to be reapplied.
 1. Right click on the datasource to be replaced and select close (to reduce un-needed clutter).
 1. Publish the workbook.
+
+## Testing Tables from MR Databases in Tableau Prior to Merging
+
+If you are working in Tableau using a report table from snowflake (created in DBT), you will likely need to update your table at some point. It is in your best interest to test these changes in Tableau prior to merging your MR, so that you can catch any problems with the updates before going through the process of formally requesting to merge the changes, and waiting for the data to be available.
+
+There are some key lessons that the Data Team learned about testing our MR databases in Tableau, which we will share below.
+
+### Workflow
+
+1. The author of the MR shares the MR database with you.
+2. Open up a development copy of the workbook or data source you want to test the changes on.
+   1. ***Make sure you are using a development copy and not working on the published data source!*** This is important because at some point in the future, when the MR is merged, you will no longer be able to access the data source that points to the MR db - even to update it to repoint to PROD. Hence it is important that you leave the original data source untouched to avoid this issue.
+3. Open up the data connections pane.
+4. Find the MR database in the left-hand connections window/dropdown.
+5. Replace the PROD tables with the MR database tables.
+6. Test your changes.
+7. Close and exit without saving your changes, or un-do the changes to revert the dashboard back to it's original state and data source.
+8. Merge the MR when you are satisfied with the changes - the MR database will disappear.
+
+### Forming a Connection
+
+Once you have a local development copy of the data source, open up the data source connection pane where you would normally edit a data source.
+
+![''](images/connection_pane.png)
+
+On the left side is where you add new connections, and in the middle is where the tables that make up the workbook are visualized.
+
+If you have been granted access to query the MR database which is attached to the merge request you are looking for, then you will be able to see it as an option under the dropdown for "**Database**".
+
+![''](images/dropdown_database.png)
+
+Search this MR database for your desired tables. Create your data source as you normally would - either replacing exiting tables with a test version, or bringing out new tables into the model and creating a join or relationship.
+
+You can now test the tables that the MR would build right in your Tableau workbook, to make sure all of the changes will have the desired effect.
+
+### Saving Changes
+
+You cannot save these changes that you are testing, because once the MR gets merged, the MR database you are using will disappear.
+
+It is recommended you only test the logic and totals of the columns being added/changed, and not make any time-consuming dashboard changes that will not be able to be saved.
+
+If you try saving the development copy that is pointing to your development data source, you will be unable to access that data source.
+
+### Avoiding Errors
+
+To repeat: once your Merge Request gets merged, any Tableau Data Source which is trying to connect to that MR database will become inaccessible. You will not be able to even open the data source to edit it - in Cloud, Desktop, a duplicate version, or via any other method.
+
+This is why it is recommended to work on a development copy of the data source only, and not in the published/production version of the data source at all.
+
+*Even if you are 'searching for' the MR database (pictured below) but not using this connection for any of the tables in the workbook, you will encounter errors.*
+
+![''](images/searching.png)
+
+Below is the error you will get if any leftover connections to the dropped database still exist in your data source. There is no workaround for this, you will need to replace the data source with an identical data source or, if you do not have an identical version, you will need to rebuild it and then 'Replace References' on most of the fields.
+
+![''](images/error_message.png)
+
+### Final Testing Notes
+
+Testing MR databases is a useful way to test changes before they get merged into production and save time. The use cases that work best for this are:
+
+- Business logic changes that would affect a total number
+- Quick changes to fields that would affect the view
+
+It is not efficient to extensively test changes that would require many changes to the dashboard/ calculated fields, because you will not be able to save those changes for use with the updated table once the MR goes through.
+
+Make sure to open a local, development copy of the workbook/data source prior to testing the MR database.
