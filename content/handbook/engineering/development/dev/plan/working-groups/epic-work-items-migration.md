@@ -3,14 +3,14 @@ title: "Epic Work Items Migration"
 description: "Stage Working Group for Epics to Work Items migration plan and status"
 ---
 
-Epics to Work Items migration plan and status
+Epics to Work Items conversion plan and status
 
 ## Attributes
 
 |Property|Value|
 |---|---|
 |Date Created|2023-10-02|
-|Target End Date|TBD|
+|Target End Date| 2024-07-12 |
 |Slack|#s_plan, #f_work-item, #g_product_planning (only accessible from within the company)|
 |Google Doc|[Agenda](https://docs.google.com/document/d/1Mh0U-cH0n9FqyAPn4_OMMvpTTJm74-WAmz5ewLVOuJM/edit) (only accessible from within the company)|
 |Epic|[&9290](https://gitlab.com/groups/gitlab-org/-/epics/9290)|
@@ -32,15 +32,21 @@ WG members meet for sync call every Thursday at 14:30 UTC to discuss the actions
 
 Updates are being tracked in [&11777](https://gitlab.com/groups/gitlab-org/-/epics/11777) (updated every Monday).
 
+This Working Group has the following exit criteria:
+
+1. A working Epic Work Item Type is delivered to, and in use by, all customers.
+1. The implementation is sustainable for up to 12 months.
+1. A plan is in place to clean up technical debt within 12 months.
+
 #### Stage 1 - Achieving Feature Parity between Epics and Work Items
 
 |Task|Progress|DRI (group or individual)|
 |---|---|---|
 |[Add native support for work items at group-level](https://gitlab.com/groups/gitlab-org/-/epics/8308)| 90% | Project Management |
-|[Add support for relating work items based on different relationship types](https://gitlab.com/groups/gitlab-org/-/epics/7459)| 90% | |
-|[Add support for relating legacy issues as children to work items](https://gitlab.com/groups/gitlab-org/-/epics/10851)| 70% | |
-|[Add support for cross-group hierarchies in Hierarchy widget](https://gitlab.com/gitlab-org/gitlab/-/issues/424896)| | |
-|[Start and Due date inheritance support in Work Items](https://gitlab.com/groups/gitlab-org/-/epics/11409)| | [Kassio Borges](/handbook/company/team/#kassio) (BE) & [Himanshu Kapoor](/handbook/company/team/#himkp) (FE) - Knowledge |
+|[Add support for relating work items based on different relationship types](https://gitlab.com/groups/gitlab-org/-/epics/7459)| 100% | Product Planning |
+|[Add support for relating legacy issues as children to work items](https://gitlab.com/groups/gitlab-org/-/epics/10851)| 90% | Product Planning |
+|[Add support for cross-group hierarchies in Hierarchy widget](https://gitlab.com/gitlab-org/gitlab/-/issues/424896)| 100% | Product Planning |
+|[Start and Due date inheritance support in Work Items](https://gitlab.com/groups/gitlab-org/-/epics/11409)| 60% | [Kassio Borges](/handbook/company/team/#kassio) (BE) & [Himanshu Kapoor](/handbook/company/team/#himkp) (FE) - Knowledge |
 |[Roll-up statistics around children count, weight sum, and health status in Hierarchy widget](https://gitlab.com/groups/gitlab-org/-/epics/11402)| 5% | Project Management |
 |[Add support for Ancestor widgets](https://gitlab.com/groups/gitlab-org/-/epics/9291)| | |
 
