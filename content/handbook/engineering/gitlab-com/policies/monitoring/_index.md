@@ -1,6 +1,6 @@
 ---
 title: "Monitoring of GitLab.com"
-description: "This policy specifies equirements for monitoring of GitLab.com"
+description: "This policy specifies requirements for monitoring of GitLab.com"
 controlled_document: true
 ---
 
