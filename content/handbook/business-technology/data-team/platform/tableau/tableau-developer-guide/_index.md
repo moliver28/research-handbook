@@ -264,7 +264,7 @@ If you are working in Tableau using a report table from snowflake (created in DB
 
 There are some key lessons that the Data Team learned about testing our MR databases in Tableau, which we will share below.
 
-## Workflow
+### Workflow
 
 1. The author of the MR shares the MR database with you.
 2. Open up a development copy of the workbook or data source you want to test the changes on.
