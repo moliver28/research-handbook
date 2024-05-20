@@ -507,7 +507,7 @@ For out-of-network services: 365 days from Date of Service.
 
 </details>
 
-### Basic Life Insurance and AD&D
+## Basic Life Insurance and AD&D
 
 GitLab offers company paid basic life and accidental death and dismemberment (AD&D) plans through Cigna which is a subsidiary of New York Life. The Company pays for basic life insurance coverage valued at two times annual base salary with a maximum benefit of $500,000, which includes an equal amount of AD&D coverage. Please find additional details, limitations, and exclusions on the [summary of benefits](https://drive.google.com/file/d/1rkA8n3zgZvnoiqzu3ZJuLwZ_9zMaNbZW/view?usp=sharing) and the [Life Insurance Flyer](https://drive.google.com/file/d/1i7JmrI5paxfRnIIp8fi1jvJwAGjCa2By/view?usp=sharing) and [AD&D Insurance Flyer](https://drive.google.com/file/d/1uhMSM2PfeMigPQDR95wQ5rdLG9xZ-6td/view?usp=sharing)
 
@@ -528,7 +528,7 @@ For more information and how to access these benefits, please see the [EAP flyer
 
 GitLab team members in the United States are also eligible for a complementary [Employee Assistance program](https://www.cigna.com/individuals-families/member-resources/employee-assistance-program), dependents who are enrolled in a Cigna coverage are also eligible. More information can be found online on [myCigna](https://my.cigna.com/web/public/guest) for the following topics: Emotional Health and Family Support, Home Life Referrals, Financial and Legal Assistance, Job and Career Support, and other topics.
 
-### Group Long-Term and Short-Term Disability Insurance
+## Group Long-Term and Short-Term Disability Insurance
 
 GitLab provides, at no cost to our Inc and Federal team members, a disability policy through NY Life that may replace up to 66.7% of your base salary, for qualifying disabilities. For [short-term disability](https://drive.google.com/drive/folders/1CkZ9rlAw8cql0AwiTVrd2m7yZo_A3Yko?usp=sharing) there is a weekly maximum benefit of $2,500; for [long-term disability](https://drive.google.com/drive/folders/178xRCnUwXuWLvw4OvZGyC1-YYG_O1Y2-?usp=sharing), there is a monthly benefit maximum of $12,500.
 
@@ -572,7 +572,7 @@ See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7m
 
 
 
-## 401k Plan
+## 401(k) Plan
 
 The company offers a 401k plan in which you may make voluntary pre-tax contributions toward your retirement.
 
@@ -592,43 +592,6 @@ The company offers a 401k plan in which you may make voluntary pre-tax contribut
 1. Please review the [Summary Plan Document](https://drive.google.com/file/d/1I8JrLhxBH7rGBjfztsRyrjdhQXINQpBe/view?usp=sharing), [QDIA](https://drive.google.com/file/d/1dYIe2NRFCNeOY843KfSyMUhJiLuGGTXg/view?usp=sharing), [Fee Disclosure](https://drive.google.com/file/d/138hjLkXsQ0tdCCqoC-iWnaydkl33GdLn/view?usp=sharing). If you have any questions about the plan or the documents, please reach out to Total Rewards at `total-rewards@gitlab.com`. Total Rewards is not able to advise you on your financial decisions.
 1. ADP payroll system monitors and will stop the 401(k) contribution when you have reached the IRS limit for the year. Please keep in mind, if you have prior contributions from another employer, ADP will not have access to this information.
 1. If your employment with GitLab terminates and you are unable to access your Fidelity account due to this being connected to your GitLab email, please contact Fidelity at 800-835-5097 to have the email address on file updated.
-
-</details>
-
-### Navia - Health Reimbursement Arrangement (HRA)
-
-Effective 2022-10-01, GitLab offers a TravelHealth Reimbursement Arrangement (HRA) benefit to reimburse eligible team members and their dependents for transportation and lodging expenses related to travel while obtaining medical care not offered within 100 miles of the location the member resides.
-
-To be eligible for the Travel HRA benefit, team members and their dependents must be enrolled in one of the Cigna Medical Plans. Navia Benefit Solutions administers the HRA benefit.
-
-The HRA Benefit is split into a pre-tax account, in which team members can receive reimbursement of up to $2,100 USD for eligible pre-tax travel expenses, and a post-tax account of $900 USD for eligible travel expenses that exceed the pre-tax travel limits.
-
-Please see the [HRA Summary of Benefits and Coverage](https://drive.google.com/file/d/10qDNSuYWYqPXGMQCc8hE1bQ1FT6fxDkB/view?usp=sharing) document for information on coverage and the [Navia Navigation Guide](https://drive.google.com/file/d/1mTGCLX73yFTEbBWYhabaYwhM7kOsBKMx/view?usp=sharing) for information on claim eligibility and how to submit claims. Additional details can be found in our [Health Reimbursement Arrangement (HRA) FAQ](https://docs.google.com/document/d/1ZpVaDB62vG2djOOjYNBjHnoKVEvwcbELF9gMdwwM2Go/edit?usp=sharing)
-
-</details>
-
-<details markdown="1">
-
-<summary>How to Submit an HRA Claim</summary>
-
-
-To access the benefit, eligible team members can create an account on the [Navia Portal](https://app.naviabenefits.com/app/#/signup), first time users will click the Register button in the top right corner of the page.
-
-To register for online account access you will be requested to provide the following
-information:
-
-- Last Name, First Initial
-- E-mail Address
-- Employer Code: Please click the link to receive the [GitLab Employer Code](https://docs.google.com/document/d/1VTuyywdcPpfzMjQzVwaED_smzePzSgYxPwq_z-P1620/edit?usp=sharing)
-- Last four digits of your social security number/employeeID
-- Date of Birth
-- Choose a Username
-- Answer three security questions
-
-Reminder!  review and accept the Terms and Conditions. After clicking Submit for online access, you will receive an email confirmation with a temporary link to set your
-password to complete your registration.
-
-If you are a newly hired GitLab Team Member, please allow 1 month following your start date to access the portal. Should you require access to the portal earlier, please contact Total-Rewards@gitlab.com. Once you have access to the portal you can submit a claim directly with Navia, and view plan documents.
 
 </details>
 
@@ -707,6 +670,43 @@ The 401(k) Committee meets on a regular cadence with Fidelity to review how the 
 
 </details>
 
+### Navia - Health Reimbursement Arrangement (HRA)
+
+Effective 2022-10-01, GitLab offers a TravelHealth Reimbursement Arrangement (HRA) benefit to reimburse eligible team members and their dependents for transportation and lodging expenses related to travel while obtaining medical care not offered within 100 miles of the location the member resides.
+
+To be eligible for the Travel HRA benefit, team members and their dependents must be enrolled in one of the Cigna Medical Plans. Navia Benefit Solutions administers the HRA benefit.
+
+The HRA Benefit is split into a pre-tax account, in which team members can receive reimbursement of up to $2,100 USD for eligible pre-tax travel expenses, and a post-tax account of $900 USD for eligible travel expenses that exceed the pre-tax travel limits.
+
+Please see the [HRA Summary of Benefits and Coverage](https://drive.google.com/file/d/10qDNSuYWYqPXGMQCc8hE1bQ1FT6fxDkB/view?usp=sharing) document for information on coverage and the [Navia Navigation Guide](https://drive.google.com/file/d/1mTGCLX73yFTEbBWYhabaYwhM7kOsBKMx/view?usp=sharing) for information on claim eligibility and how to submit claims. Additional details can be found in our [Health Reimbursement Arrangement (HRA) FAQ](https://docs.google.com/document/d/1ZpVaDB62vG2djOOjYNBjHnoKVEvwcbELF9gMdwwM2Go/edit?usp=sharing)
+
+</details>
+
+<details markdown="1">
+
+<summary>How to Submit an HRA Claim</summary>
+
+
+To access the benefit, eligible team members can create an account on the [Navia Portal](https://app.naviabenefits.com/app/#/signup), first time users will click the Register button in the top right corner of the page.
+
+To register for online account access you will be requested to provide the following
+information:
+
+- Last Name, First Initial
+- E-mail Address
+- Employer Code: Please click the link to receive the [GitLab Employer Code](https://docs.google.com/document/d/1VTuyywdcPpfzMjQzVwaED_smzePzSgYxPwq_z-P1620/edit?usp=sharing)
+- Last four digits of your social security number/employeeID
+- Date of Birth
+- Choose a Username
+- Answer three security questions
+
+Reminder!  review and accept the Terms and Conditions. After clicking Submit for online access, you will receive an email confirmation with a temporary link to set your
+password to complete your registration.
+
+If you are a newly hired GitLab Team Member, please allow 1 month following your start date to access the portal. Should you require access to the portal earlier, please contact Total-Rewards@gitlab.com. Once you have access to the portal you can submit a claim directly with Navia, and view plan documents.
+
+</details>
+
 ## Optional Plans Available at Team Member Expense
 
 ### WEX (Discovery Benefits) Health Savings Accounts and Flexible Spending Accounts
@@ -715,7 +715,7 @@ If you are enrolled in a Health Savings Account (HSA), Flexible Spending Account
 
 Wex Contact:  866-451-3399; customerservice@wexhealth.com; www.wexinc.com
 
-#### Health Savings Account (HSA)
+### Health Savings Account (HSA)
 
 GitLab contributes $100 per month for those enrolled in the HSA under Individual cover, and $125 per month under team member + dependent(s) cover. You must be enrolled in the HDHP plan in order to contribute to the HSA.
 
@@ -758,7 +758,7 @@ You can also choose to front-load the team member portion of your HSA contributi
 
 </details>
 
-#### Flexible Spending Account (FSA) Plans
+### Flexible Spending Account (FSA) Plans
 
 FSAs help you pay for eligible out-of-pocket health care and dependent day care expenses on a pretax basis. You determine your projected expenses for the Plan Year and then elect to set aside a portion of each paycheck into your FSA. FSA contributions can only be updated during open enrollment or through a [qualifying life event (QLE)](#qualifying-life-events).
 
@@ -850,7 +850,7 @@ If you leave GitLab, all supplemental life insurance is not included in COBRA an
 
 </details>
 
-## ARAG Legal Insurance
+### ARAG Legal Insurance
 
 Team Members can enroll in a Legal Insurance plan with ARAG during Open Enrollment and New Hire Enrollment.
 
@@ -886,7 +886,7 @@ $20.90 per month
 
 </details>
 
-## Pet Insurance
+### Pet Insurance
 
 GitLab offers team members to join the MetLife group Pet Insurance plan. A MetLife Pet Insurance plan helps cover the costs when unexpected accidents or illnesses occur, so
 nothing gets in the way of caring for your pet when they need it most.
@@ -905,7 +905,7 @@ With MetLife Pet Insurance, you can get:
 
 For more details and steps on how to enroll please see the [MetLife Pet Insurance flyer](https://drive.google.com/file/d/11Q3NeSqNjqXMxSqADgNmKbGFCWTKLasH/view?usp=sharing) & [Enrollment Instructions](https://drive.google.com/file/d/1KDrCVNlTo9Kl8EZ3sp_HhtP2Cz36ZxTg/view?usp=sharing)
 
-## 529 Savings Plans
+### 529 Savings Plans
 
 Effective 2024, GitLab offers access to 529 plan investments to US team members so that you can use tax-advantaged savings for your child’s future education expenses.
 
@@ -925,7 +925,7 @@ Want more information?
 • [Schedule a consultation](https://www.scholarshare529.com/appointments) with a 529 specialist.
 • Rollover an existing 529 into your ScholarShare 529 account. [Schedule an appointment](https://www.scholarshare529.com/appointments) to have a consultant assist you.
 
-## Student Loan Guidance & Tools
+### Student Loan Guidance & Tools
 
 GitLab offers a student loan guidance products, tools, and expert consultation services through SoFi.
 
