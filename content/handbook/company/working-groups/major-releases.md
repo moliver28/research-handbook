@@ -17,7 +17,7 @@ status: active
 
 ## Purpose
 
-The 17.Major Releases Working Group aims to minimise any negative customer impact related to the major release and breaking change across SaaS and self manged GitLab users.
+The `Major Releases Working Group aims to minimise any negative customer impact related to the major release and breaking change across SaaS and self manged GitLab users.
 
 ### Overview
 
@@ -36,21 +36,19 @@ This is a non-comprehensive list of topics to be discussed.
 
 ### Exit Criteria
 
-Exit Criteria are avaialable in the [17.0 Major Release Coordination Epic](https://gitlab.com/groups/gitlab-com/-/epics/2292).
+Exit Criteria are avaialable in the [Future Major Release Coordination & Improvements Epic](https://gitlab.com/groups/gitlab-com/-/epics/2363#exit-criteria).
 
 ## Roles and Responsibilities
 
 | Working Group Role                       | Person                           | Title                                                          |
 |------------------------------------------|----------------------------------|----------------------------------------------------------------|
-| Executive Stakeholder                    | Josh Lemos (@joshlemos)           | CISO |
-| Facilitator/DRI                          | Sam Wiskow (@swiskow)                 | Sr. PM, Delivery & Scalability - Infra |
-| Product Management                       | Mike flouton (@mflouton )         | VP - Product |
-| Member                                   | Marin Jankovski (@marin)        | Senior Director - Infrastructure, SaaS Platforms  |
-| Member                                   | Fabian Zimmer (@fzimmer)        |  Product Director - SaaS Platforms    |
-| Member                                   | Michele Bursi (@mbursi)  | Engineering Manager, Delivery Group |
-| Member                                   | Amy Phillips (@amyphillips)  | Senior Engineering Manager, GitLab Dedicated |
-| Member                                   | Steve Evangelista (@steve-evangelista)    |  Senior Product Director - Dev & Analytics |
-| Member                                   | Tim Zallman (@timzallmann)  | Senior Director of Engineering, Core Development |
-| Member                                   | Balasankar 'Balu' C (@balasankarc)    |  Senior Distribution Engineer |
-| Member                                   | Martin Bruemmer (@mbruemmer)    |  Sr. Customer Success Engineer, EMEA |
-| Member                                   | Lyle Kozloff (@lyle)    |  Director of Support, Global Readiness |
+| Executive Stakeholder (Lead) | Sabrina Farmer (@joshlemos)               | CTO |
+| Executive Stakeholder        | Josh Lemos (@joshlemos)                   | CISO |
+| Facilitator/DRI              | Sam Wiskow (@swiskow)                     | Sr. PM, Delivery & Scalability - Infra |
+| Product Management           | Mike flouton (@mflouton )                 | VP - Product |
+| Member                       | Marin Jankovski (@marin)                  | Senior Director - Infrastructure, SaaS Platforms  |
+| Member                       | Fabian Zimmer (@fzimmer)                  | Product Director - SaaS Platforms    |
+| Member                       | Michele Bursi (@mbursi)                   | Engineering Manager, Delivery Group |
+| Member                       | Steve Evangelista (@steve-evangelista)    | Senior Product Director - Dev & Analytics |
+| Member                       | Martin Bruemmer (@mbruemmer)              | Sr. Customer Success Engineer, EMEA |
+| Member                       | Lyle Kozloff (@lyle)                      | Director of Support, Global Readiness |
