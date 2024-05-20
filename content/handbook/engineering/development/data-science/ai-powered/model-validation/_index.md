@@ -10,8 +10,7 @@ The AI Model Validation team mission is to support and improve the integrity, re
 
 ## Direction
 
-[Group direction](https://about.gitlab.com/handbook/engineering/development/data-science/ai-powered/model-validation/): We have two categories under this group. Category AI Evaluation and Category AI Research. This group followed under the 
-stage AI-Powered.
+[Here](https://about.gitlab.com/handbook/engineering/development/data-science/ai-powered/model-validation/) is group direction page.We have two categories under this group. Category AI Evaluation and Category AI Research. This group falls under the stage AI-Powered.
 
 ## 🚀 Team members
 
@@ -26,7 +25,7 @@ The team is composed of [ML engineers](https://handbook.gitlab.com/job-families/
 | [Monmayuri Ray](/handbook/company/team/#mon) | Engineering Manager |
 | [Susie Bitters](/handbook/company/team/#susie.bee) | Senior Product Manager |
 
-## ☎️  How to contact us
+## ☎️ How to contact us
 
 - Tag a team member in a merge request or issue
 - Slack Channel: [`#g_ai_model_validation`](https://gitlab.enterprise.slack.com/archives/C05CJ1T3P0W)
@@ -43,7 +42,7 @@ We first assess the models and the feature on a large-scale dataset to understan
 
 After the initial assessment, we have a dynamic dataset pull from daily runs so feature teams can run the datasets with every code and prompt change via CLI. This helps them understand how changes in code /prompt/system can impact quality based on the variance between control (before change) and test (after change) code on a primary metric of choice.
 
-#### Documentation as we use new ways and processes as we embrace GenAI
+#### Documentation as we use new ways and processes for GenAI Evaluation
 
 We are further iterating and documenting an evaluation-centric way of building GenAI features. This is mainly for the internal team, and the epic to track this can be found here.
 
@@ -72,9 +71,9 @@ This can be achieved through the Framework's API for the Prompt Library, recogni
 
 Further there are novel research topics and we would love GitLab presented in the AI Research community by publishing our approaches on Evaluation
 
-## 📚 Prompt Library ( Data)
+## 📚 Prompt Library (Data)
 
-We create large libraries ( prompts as data) that serves as a proxy to production. We do this by understanding various complexities of tasks and methods so we can holistically evaluate a set of data beyond few tests but more as a performance in production. The currents tasks we have included or are planning in the immediate team  in the prompt library are as below.
+We create large libraries (prompts as data) that serve as a proxy to production.We do this by understanding the various complexities of tasks and methods, allowing us to holistically evaluate a set of data beyond a few tests, and more as a performance in production.The current tasks we have included or are planning to include in the prompt library are as follows
 
 1. Code Completion 
 2. Code Genertation
@@ -85,7 +84,7 @@ We create large libraries ( prompts as data) that serves as a proxy to productio
 
 ## 🔍 Metrics 
 
-There are few different metrics that we use to asses. If we have establish ground truth we do an assessment with similarity and cross similarity score. If the ground truth is not establish we use Consensus Filtering as LLM Based evalutor through Independent LLM Judge and Collective LLM judge. We are always iterating and evolving our metric pipeline 
+There are a few different metrics that we use to assess.If we have established ground truth, we conduct an assessment with similarity and cross-similarity scores.If ground truth is not established, we use Consensus Filtering as an LLM-based evaluator through an Independent LLM Judge and a Collective LLM Judge.We are always iterating and evolving our metric pipeline.
 
 #### Similarity Score
 
@@ -115,7 +114,7 @@ We have meetings dedicated to milestone planning as we as engineering dicussion 
 
 1. **Weekly Team Sync**
    * **When:** Every Wednesday, 21:00 GMT
-   * **What:** This meeting is dedicated to working on the vision and roadmap . The Engineering Manager and Product Manager ideate , discuss and assign work as needed for the entire team.
+   * **What:** This meeting is dedicated to working on the vision and roadmap.The Engineering Manager and Product Manager ideate, discuss and assign work as needed for the entire team.
 
 2. **Weekly Engineering Sync**
    * **When:** Every Tuesday, 21:00 GMT
@@ -123,7 +122,7 @@ We have meetings dedicated to milestone planning as we as engineering dicussion 
 
 3. **Quarterly Creative Destruction Labs**
    * **When:** Once in 8 weeks a 48 hour collab session. 
-   * **What:** This is a 48 hour session of working comprised of syn and async where under the Category AI research the team comes together as part of a lab , to take a topic to destruct and old way and rebuild in a new way to be able to rapidly iterate to the Product Roadmap and Vision 
+   * **What:** This is a 48-hour working session, comprised of both synchronous and asynchronous activities, where the team comes together under the AI research category as part of a lab. The goal is to take a topic, deconstruct the old approach, and rebuild it in a new way to rapidly iterate toward the product roadmap and vision.
 
 ### 🌍 Shared calendars
 
@@ -145,20 +144,19 @@ Our current OKR can bbe viewed [here](https://gitlab.com/gitlab-com/gitlab-OKRs/
 
 ### 🔗 Epics and Themes
 
-We have two major epic that can be subdivided into further sub-epics and issues. The themes are based on the Category AI Evaluation and Category AI Research 
+We have two major epic that can be subdivided into further sub-epics and issues.The themes are based on the Category AI Evaluation and Category AI Research 
 
-* [Category AI Evaluation ](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/-/epics/19)
+* [Category AI Evaluation](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/-/epics/19)
 * [Category AI Research](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/ai-research/-/epics/1)
 
-## 🔄 How to work with us? 
+## 🔄 How to work with us?
 
 We have issue templates for requesting a new model evaluation or for evaluating a feature (Internal Only). Below are the request templates that can be used .
 
 1. If a feature team would like a model to be evaluated for a certain task, here is the request template:[Model Request](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/blob/main/.gitlab/issue_templates/Model%20Request.md?ref_type=heads)
 2. If a feature team would like to evaluate a certain use case, here is the request template:[Use-Case Request](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/blob/main/.gitlab/issue_templates/Use%20Case%20Request.md?ref_type=heads)
 
-Further , we iterate and act more quickly with feedback and [here](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/prompt-library/-/issues/31) is the best place for provide feedback.
-
+Further we iterate and act more quickly with feedback and [here](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/prompt-library/-/issues/31) is the best place to provide feedback.
 
 ## 📝 Dashboards and additional Resources (internal only)
 
