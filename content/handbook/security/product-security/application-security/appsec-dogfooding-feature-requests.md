@@ -8,6 +8,8 @@ This page describes the usage of a new label to indicate a specific issue or epi
 
 ### `~"Internal Request::AppSec Team"` Label
 
+[Link to the list of issues with this label](To-be-created-in-GL).
+
 #### Usage
 
 Apply the `~"Internal Request::AppSec Team"` label when the AppSec team requests new security features or improvements to be built into GitLab, the product.
