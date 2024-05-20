@@ -107,6 +107,3 @@ These issues must be labeled with the appropriate AppSecRotation label:
 
 
 When issue is fully refined, please set the `AppSecWorkflow:planned` label, indicating it's ready to be worked on in the assigned milestone.
-
-
-
