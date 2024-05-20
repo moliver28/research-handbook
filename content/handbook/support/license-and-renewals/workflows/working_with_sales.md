@@ -13,6 +13,12 @@ description: This page is about working with sales.
 1. Check the `Escalated to sales` box and set the ticket status to `Open`.
 1. Set the ticket status to `Pending`.
 
+#### If the account is owned by `AMER|EMEA|APAC SMB Sales User`
+
+Inform the customer that they may email `smallbusiness@gitlab.com` directly to reach the account management team if they choose to.  See below for more information on contacting the SMB team internally when necessary.
+
+Alternatively, if the ticket requestor is listed as a contact already in SFDC on the correct account, they can use the [Contact Sales form](https://about.gitlab.com/sales/) on the marketing website to contact the team directly as well
+
 ***NB:** A Zendesk trigger will prevent a ticket from being set to `Pending` when an agent made an internal note instead of a public comment. It will set the ticket back to `Open` when that happens. So if you check the `Escalated to sales` box and set the ticket status to `Pending`, it will be reverted to status `Open`. Saving a second time as `Pending` will also work.*
 
 ### 2. Leave a message for the Salesforce `Account Owner` on Chatter with the relevant details
