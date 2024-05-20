@@ -1,9 +1,38 @@
 ---
-title: "UX Research Operations Coordination at GitLab"
-description: "Learn about how UX Research Operations Coordinators work at GitLab"
+title: "UX Research Operations (ReOps) Coordination at GitLab"
+description: "We empower UX Research DRIs with the resources needed for efficient and high-quality research, enabling researchers to focus on generating insights that drive exceptional user experiences and product innovation."
 ---
 
-## How many studies can a UX Research Operations Coordination support?
+## What is UX Research Operations
+
+UX Research Operations (often referred to as UX ReOps) is a discipline within user experience (UX) research focused on managing and optimizing the processes, tools, and infrastructure that support UX research activities. The primary goal of UX Research Operations is to enable UX researchers to conduct their work more efficiently and effectively by providing the necessary support and resources. 
+
+Here are some key aspects of UX Research Operations in GitLab:
+
+1. Participant Recruitment
+1. Tool and Resource Management
+1. Process Optimisation
+1. Governance and Compliance
+1. Training and support
+1. Logistics and Administration
+
+We have ReOps coordinator(s) driving all of the above aspects. And often, Research DRIs can lead the ReOps aspects of their own projects, with a ReOps coordinator's supervision.
+
+## Our Strategy
+
+Our strategy is a living, long-term strategy, which we revisit on a regular basis and iterate to meet the UX Research's strategic needs. [The current ReOps strategy](https://docs.google.com/document/d/1g3_k-HNcoOQ_q0ymNd2mUz-9ytQ-qemDmv0l8PUDUVM/edit#heading=h.9j3bilag0pmg) is accessible internally only.
+
+In general, we adhere to 3 pillars and 1 principle.
+
+### ReOps pillars
+* Grow our reach, build and manage panels of niche participants meeting strategic research needs.
+* Improve recruitment process efficiency and flexibility so Research DRIs can move fast with confidence.
+* Drive the impact of ReOps and UX Research through communication, engagement, and community building.
+
+### ReOps principle
+* Foster a culture of continuous improvement, and transparency.
+
+## How many studies can a UX Research Operations Coordinater support?
 
 The short answer is approximately 5-10 at any given time. The long answer is that it depends on the type of study and the target population. When each study only requires 5-8 participants who are relatively abundant in our database and community, the number of studies recruited per milestone could be ~10. This is also contingent upon the Product Designer and Product Manager submitting their complete requests early enough to allow coordinators to juggle multiple recruiting efforts at once. When there are surveys that require 50+ respondents, or studies addressing new user groups or features, the number of studies recruited per milestone may be closer to 5. Those studies require sustained effort and creativity.
 
