@@ -34,7 +34,7 @@ We use the same [weekly async issue template](./authorization.md#weekly-async-is
 
 ## Group members
 
- [Anti-abuse group](https://gitlab.com/groups/gitlab-org/govern/authorization/) can be `@` mentioned on GitLab with `@gitlab-org/modelops/anti-abuse `.
+ [Anti-abuse group](https://gitlab.com/groups/gitlab-org/govern/authorization/) can be `@` mentioned on GitLab with `@gitlab-org/modelops/anti-abuse`.
 
 The following people are permanent members of the group:
 
