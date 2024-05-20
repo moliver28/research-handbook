@@ -82,7 +82,7 @@ To ensure respondents meet our activity criteria, we pull a new user list for ev
 
 ### Analysis & Reporting
 
-We summarize results and calculate scores for SUS on a fiscal year quarterly basis. For each quarter, we report an overall SUS score and SUS scores for any predefined segments. We also report average scores for each individual question for those same segments.
+We summarize results and calculate scores for SUS on a fiscal year quarterly basis. For each quarter, we report an overall SUS score and SUS scores for any predefined segments. We also report average scores for each individual question for those same segments. All reports and results are stored internally in the [System Usability Scale](https://drive.google.com/drive/u/0/folders/1Me5_0lcyaFJ6egbB6aytS7di1cGyV0wz) folder (internal only).
 
 ## Calculating SUS scores
 
