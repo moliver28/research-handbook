@@ -148,7 +148,9 @@ This role includes all of the responsibilities of the previous level, plus:
 ### Requirements
 
 This role includes all of the requirements of the previous level, plus:
-- Requires exemplary analytical skills and proven aptitude to use data to optimize program performance and inform future processes
+
+- Requires exemplary analytical skills and proven aptitude to use data to optimize program performance and
+inform future processes
 - Complete [Adobe Marketo Engage Professional Training - Section 3](https://experienceleague.adobe.com/en/docs/certification/program/technical-certifications/ame/ame-professional/ame-p) - Defining and targeting audiences
 - Detailed understanding of GitLab’s accounting process and proven ability to work efficiently within Allocadia
 - Excellent analytical and problem-solving skills
