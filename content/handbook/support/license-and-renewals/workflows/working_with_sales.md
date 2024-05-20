@@ -106,14 +106,13 @@ Chatter the [**@SMB Advocate Team**](https://gitlab.my.salesforce.com/_ui/core/c
 ###### If the Salesforce `Account Owner` is `AMER|EMEA|APAC SMB Sales User`
 
 - If you have SFDC access to the case, and the case has an assigned owner
-  - Ping the case owner in chatter on the case 
+  - Ping the case owner in chatter on the case
   - Mention the `@SMB Advocate Team` in chatter on the case
 - If you do not have SFDC access, or the case is not owned
   - Post a message in the [**#global-digital-smb_public**](https://gitlab.enterprise.slack.com/archives/C06H72XGQUD) slack channel.
   - In your post, include:
     - details of the request
     - the Zendesk ticket link
-
 
 ## Determining whether **to pass** or **to NOT pass** to Sales
 
