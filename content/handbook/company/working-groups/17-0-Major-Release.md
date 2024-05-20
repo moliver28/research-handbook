@@ -1,5 +1,5 @@
 ---
-title: "17.0 Major Release Working Group"
+title: "Major Releases Working Group"
 description: "Working group to faciliate a smooth and boring Major release."
 status: active
 ---
@@ -10,14 +10,14 @@ status: active
 | -------------- | ------------------------------------------------------------ |
 | Date Created   | 2024-02-22                                                   |
 | End Date       | 2023-07-01                                                   |
-| Slack          | [#17-0-release-coordination](https://gitlab.enterprise.slack.com/archives/C04S5KLDB50) (only accessible from within the company) |
-| Google Doc     | [17.0 Major Release Working Group Agenda](https://docs.google.com/document/d/1jxl4SDDeoQgR9DOCZ63_D38OglE1OGkJBq_fC_z46BA/edit?usp=sharing)|
-| Epic           | [17.0 Major Release Coordination Working Group](https://gitlab.com/groups/gitlab-com/-/epics/2292) |
+| Slack          | [#wg_major-releases](https://gitlab.enterprise.slack.com/archives/C073MV570F7) (only accessible from within the company) |
+| Google Doc     | [Major Releases Working Group Agenda](https://docs.google.com/document/d/1jxl4SDDeoQgR9DOCZ63_D38OglE1OGkJBq_fC_z46BA/edit?usp=sharing)|
+| Epic           | [Future Major Release Coordination & Improvements](https://gitlab.com/groups/gitlab-com/-/epics/2363) |
 | Overview & Status | Open |
 
 ## Purpose
 
-The 17.0 Major release Working Group aims to minimise any negative customer impact related to the major release and breaking change across SaaS and self manged GitLab users.
+The 17.Major Releases Working Group aims to minimise any negative customer impact related to the major release and breaking change across SaaS and self manged GitLab users.
 
 ### Overview
 
