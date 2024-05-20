@@ -268,7 +268,7 @@ There are some key lessons that the Data Team learned about testing our MR datab
 
 1. The author of the MR shares the MR database with you.
 2. Open up a development copy of the workbook or data source you want to test the changes on.
-   1. **_Make sure you are using a development copy and not working on the published data source!_**
+   1. ***Make sure you are using a development copy and not working on the published data source!***
 3. Open up the data connections pane.
 4. Find the MR database in the left-hand connections window/dropdown.
 5. Replace the PROD tables with the MR database tables.
@@ -300,13 +300,13 @@ It is recommended you only test the logic and totals of the columns being added/
 
 If you try saving the development copy that is pointing to your development data source, you will be unable to access that data source.
 
-### AVOIDING ERRORS!
+### AVOIDING ERRORS
 
 To repeat: once your Merge Request gets merged, any Tableau Data Source which is trying to connect to that MR database will become inaccessible. You will not be able to even open the data source to edit it - in Cloud, Desktop, a duplicate version, or via any other method.
 
 This is why it is recommended to work on a development copy of the data source only, and not in the published/production version of the data source at all.
 
-_Even if you are 'searching for' the MR database (pictured below) but not using this connection for any of the tables in the workbook, you will encounter errors._
+*Even if you are 'searching for' the MR database (pictured below) but not using this connection for any of the tables in the workbook, you will encounter errors.*
 
 ![''](images/searching.png)
 
@@ -320,6 +320,7 @@ Testing MR databases is a useful way to test changes before they get merged into
 
 * Business logic changes that would affect a total number
 * Quick changes to fields that would affect the view
+
 
 It is not efficient to extensively test changes that would require many changes to the dashboard/ calculated fields, because you will not be able to save those changes for use with the updated table once the MR goes through.
 
