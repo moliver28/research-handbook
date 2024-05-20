@@ -1,6 +1,6 @@
 ---
 title: "UX Research Operations (ReOps) Coordination at GitLab"
-description: "We empower UX Research DRIs with the resources needed for efficient and high-quality research, enabling researchers to focus on generating insights that drive exceptional user experiences and product innovation."
+description: "We empower UX Research DRIs with the resources needed for efficient and high-quality research, enabling team members to focus on generating insights that drive exceptional user experiences and product innovation."
 ---
 
 ## What is UX Research Operations
@@ -16,11 +16,11 @@ Here are some key aspects of UX Research Operations in GitLab:
 1. Training and support
 1. Logistics and Administration
 
-We have ReOps Coordinator(s) driving all of the above aspects. And often, Research DRIs can lead the ReOps aspects of their own projects, with a ReOps Coordinator's supervision.
+The ReOps Coordinator drives all of the above aspects. And often, Research DRIs can lead the ReOps aspects of their own projects, with the ReOps Coordinator's supervision.
 
 ## Our Strategy
 
-Our strategy is a living, long-term strategy, which we revisit on a regular basis and iterate to meet the UX Research's strategic needs. [The current ReOps strategy](https://docs.google.com/document/d/1g3_k-HNcoOQ_q0ymNd2mUz-9ytQ-qemDmv0l8PUDUVM/edit#heading=h.9j3bilag0pmg) is accessible internally only.
+[The current ReOps strategy](https://docs.google.com/document/d/1g3_k-HNcoOQ_q0ymNd2mUz-9ytQ-qemDmv0l8PUDUVM/edit#heading=h.9j3bilag0pmg) is accessible internally only.
 
 In general, we adhere to 3 pillars and 1 principle.
 
@@ -32,7 +32,7 @@ In general, we adhere to 3 pillars and 1 principle.
 
 ### ReOps principle
 
-* Foster a culture of continuous improvement, and transparency.
+* Be transparent about our work and progress, and foster a culture of continuous improvement in our research process and practice, that everyone (UX Researchers, Product Designers, Product Managers, etc.) can participate.
 
 ## How many studies can a UX Research Operations Coordinater support?
 
