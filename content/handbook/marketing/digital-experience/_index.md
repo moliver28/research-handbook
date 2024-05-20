@@ -395,11 +395,21 @@ We love collaborating on work that drives our North Star and supporting metrics.
 
 
 
-From the repositories we own, the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience) repository and the [GitLab Blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog) push their built files to the same GCP bucket as [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com). When a pipeline is triggered (by a merge or a webhook) in any of these projects, a deployment job specific to that repository runs, pushing the built files into the bucket and merging them with the existing files. This process is managed by the `Deploy.sh` file in each repository.
+From the repositories we own, the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience) repository and the [GitLab Blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog) push their built files to the same GCP bucket as [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com). When a pipeline is triggered (by a merge or a webhook) in any of these projects, a deployment job specific to that repository runs, pushing the built files into the bucket and merging them with the existing files. This process is managed by the `Deploy.sh` file in each repository:
+
+- [WWW Deploy file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/scripts/deploy).
+- [BE Deploy file](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/scripts/deploy).
+- [GitLab Blog Deploy file](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/blob/main/scripts/deploy).
+
 
 ![Mermaid diagram](Dex-pipeline.png)
 
-To maintain our bucket clean, we run a scheduled delete job in these repositories, which deletes outdated files from the cloud bucket (such as pages removed from the marketing site and old JS bundles).
+To maintain our bucket clean, we run a scheduled pipeline with a delete flag in these repositories, which deletes outdated files from the cloud bucket (such as pages removed from the marketing site and old JS bundles).
+
+- [WWW Cleanup logic](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/scripts/deploy#L66)
+- [GitLab Blog Clean up logic](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/blob/main/scripts/deploy#L70)
+
+The deletion of BE files is handled in the same WWW delete job by [pulling the latest build artifacts from the BE Repository](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/scripts/pull_buyer_experience_artifacts.rb)
 
 ## Digital Experience FAQ
 
