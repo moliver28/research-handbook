@@ -292,7 +292,7 @@ Search this MR database for your desired tables. Create your data source as you 
 
 You can now test the tables that the MR would build right in your Tableau workbook, to make sure all of the changes will have the desired effect.
 
-#### Saving Changes
+### Saving Changes
 
 You cannot save these changes that you are testing, because once the MR gets merged, the MR database you are using will disappear.
 
