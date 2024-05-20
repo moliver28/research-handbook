@@ -1,48 +1,49 @@
 ---
 title: UX Showcase
 description: >-
-  The UX Showcase is a recurring meeting that allows each stage group to share their UX work.
+  The UX Showcase is a recurring meeting for UX team members to share and discuss their work.
 ---
 
 ## About UX Showcase
 
-The UX Showcase is a recurring meeting that allows each stage group to share their UX work.
+The UX Showcase is a recurring meeting for UX team members to share and discuss their work.
 This includes past, current, or future work, and covers Product Design, UX Research, and Technical Writing.
 All showcases are recorded and made available on [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) for Product, UX, Engineering, and Leadership to watch at their convenience.
 
 ### Purpose
 
-- Increase awareness of the value delivered through UX by highlighting business and customer value
+- Increase awareness of the value delivered through UX by highlighting business, product, and user outcomes
 - Increase visibility into findings, opportunities, solutions
-- Increase exposure of stage group UX activities to the broader organization
-- Increase synchronous discussion immediately following the topic shared or asynchronously after the UX Showcase
+- Increase exposure of UX activities to the broader organization
+- Increase work quality by promoting cross-stage collaboration in the meeting and after it
 
 ### Audience
 
-- Stage Group Product Designer, Researcher, and/or Technical Writer (Presenter)
-- Product
-- Engineering
-- Relevant Leadership (VP of UX, VP of Development, CEO, VP of Product)
+- Product designer, researcher, and/or technical writer (speaker)
+- UX department
+- Product division
+- Engineering division
+- Relevant leadership (VP of UX, VP of Development, VP of Product, E-Group)
 
 ### Schedule
 
-UX Showcases are scheduled every two weeks. They are 60 minutes long to allow up to three team members to share for 15 minutes, plus 5 minutes of discussion time from the UX Department.
+Showcases are scheduled every two weeks. They are 60 minutes long to allow up to three team members to share for 15 minutes, plus 5 minutes of discussion time with the attendees.
 
 - To be inclusive of our distributed team, we alternate the meeting start time every other occurrence to be either Americas/LAC/EMEA friendly or APAC friendly.
 - Each showcase is hosted by a Product Design Manager.
     - Due to time zone restrictions for managers, the APAC UX Showcase is hosted by another Product Designer, Technical Writer or UX researcher.
-- Product Designers are assigned presentation dates based on a randomly generated rotation:
-    - We ensure each designer has the opportunity to present twice a year.
-    - Gaps are left throughout the schedule for additional presenters.
-- Anyone can sign up to share in a UX Showcase. Coordinate with the host to claim an available spot.
-- Each person who shares is expected to fill out the agenda (attached to the meeting invite) for that week prior to presenting.
-- It is the responsibility of the host to know when they are scheduled to host and the responsibility of the presenter to know when they are scheduled to present. To help, a slack reminder has been set up in the `#ux` channel to review the showcase schedule.
+- Product Designers are assigned dates based on a randomly generated rotation:
+    - We ensure each designer has the opportunity to share twice a year.
+    - Gaps are left throughout the schedule for additional speakers.
+- Anyone can sign up to share and discuss their work. Coordinate with the host to claim an available slot.
+- Each person who shares is expected to fill out the agenda (attached to the meeting invite) for that week prior to speaking.
+- It is the responsibility of the host to know when they are scheduled to host and the responsibility of the speaker to know when they are scheduled to share. To help, a Slack reminder has been set up in the `#ux` channel to review the schedule.
 
-If a Product Designer can't present on the assigned date, it's their responsibility to make a trade. To make a trade:
+If a speaker can't share on their assigned date, it's their responsibility to make a trade. To make a trade:
 
-- announce in Slack (`#ux` channel) and during the UX Weekly call that you'd like to trade
-- after you identify a trade, make an MR to update the schedule
-- ask your Product Design Manager to review and merge.
+- Announce in the `#ux` channel and during the UX weekly call that you'd like to trade.
+- After you identify a trade, make an MR to update the schedule.
+- Ask your Product Design Manager to review and merge.
 
 {{% include "includes/ux-showcase-schedule.md" %}}
 
@@ -50,22 +51,27 @@ If a Product Designer can't present on the assigned date, it's their responsibil
 
 ## Sharing your work
 
-You have up to 15 minutes to share some of your work. If you need more time to present a complex topic, ask the host about having less people present at that showcase.
+You have up to 15 minutes to share some of your work.
+If you need more time to share and discuss a complex topic, ask the host about having less people speak at that showcase.
 
-Preparation for a UX Showcase should be minimal.
+Preparation for a showcase should be minimal.
 You should come prepared with just enough to tell a story and ellicit feedback from the audience.
-Successful UX Showcases share these aspects:
+Successful showcases share these aspects:
 
 - **Informal**:
     Avoid creating dedicated slides or assets, but use your best judgment to determine what's most effective: a prototype, a series of mockups, a process diagram, a journey map, a few slides, or something else.
-    The UX Showcase is all about sharing your work informally, not fancy storytelling.
+    The UX Showcase is to share and discuss your work informally, not fancy storytelling.
 - **Just enough sophistication**:
     Help us strive for a [low level of shame](/handbook/values/#low-level-of-shame) and share your work with as little sophistication as possible.
-    While some topics gain from a more sophisticated presentation, this sophistication raises the perception of quality and puts unnecessary pressure on other presenters.
+    While some topics gain from a more sophisticated presentation, this sophistication raises the perception of quality, puts unnecessary pressure on other speakers, and might make it harder for others to engage.
 - **Relatable**:
     Structure your story with the audience in mind, to elicit feedback from them, and highlight potential overlaps.
-    This makes it easier for the audience to relate, find value, and engage.
+    This makes it easier for people to relate, find value, and engage.
     For example, intentionally pinpoint overlaps or add questions for the audience.
+- **Iteration mindset**:
+    Use it as an opportunity to learn from and collaborate with others.
+    Make iteration shine not only in the work you've done so far, but how you might iterate forward and what's missing.
+    For example, list your current challenges, open questions, and where others might help.
 
 See [helpful tips](#helpful-tips-for-those-sharing).
 
