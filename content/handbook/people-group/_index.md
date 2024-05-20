@@ -222,6 +222,10 @@ If you need support with a specific CultureAmp Survey, please complete this [iss
 
 ## Other pages related to the People Group
 
+### People Business Partners
+
+- [People Business Partner Team](/handbook/people-group/people-business-partners/_index.md)
+
 ### Total Rewards
 
 - [Benefits]({{< ref "benefits" >}})

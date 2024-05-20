@@ -19,16 +19,37 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 
 ### People Business Partner Alignments
 
-| Contact | Division - Department |
-|-------------------|------------|
-| Anjali Kaufmann   | G&A: People Group, Finance, LACA  |
-| Denise Parsonage  | Marketing: Awareness, Brand Activation, Campaigns, CMO Executive, Communications, Developer Relations, Content Marketing, Digital Design, Digital Marketing, Field Marketing, Marketing Ops, Partner Marketing, Sales Development, and Search Marketing |
-| Carolyn Bednarz   | Sales: Enterprise Sales  |
-| Carlie Russell    | Sales: Customer Success, Channel and Alliances |
-| Lauren Tepper     | Sales: Commercial Sales, Field Operations   |
-| Giuliana Lucchesi | Product: Product Management and UX; CISO: Security   |
-| Kristina Bullock  | Engineering: CTO, Customer Support, Quality/Infrastructure, Chief of Staff   |
-| Jess Durbin       | Engineering: Core Development and Expansion  |
+Please reach out to your aligned People Business Partner (PBP) to engage in the following areas:
+
+| Contact | Division | Department |
+|-------------------|--|----------|
+| Anjali Kaufmann   | People Goup | CPO, DIB, Engagement, PBPs, People Operations, Talent Acquisition, Total Rewards  |
+| Anjali Kaufmann   | Legal | CLO, Corporate Affairs, Legal  |
+| Anjali Kaufmann   | Finance | CFO, Accounting, Corporate IT, Data, Enterprise Applications, Finance, Internal Audit, Procurement, Tax  |
+| Carlie Russell    | Sales | Customer Success, Engineering and Renewals, Partner Sales, and Solutions Architects  |
+| Carolyn Bednarz   | Sales | CRO, Enterprise Sales |
+| Lauren Tepper     | Sales | Commercial Sales, Field Operations, Field Ops - Child   |
+| Denise Parsonage  | Marketing | Account-Based Marketing, Brand Campaigns, Brand Design, Campaigns, CMO Executive, Communications, Community Relations, Content Marketing, Corporate Events, Digital Experience, Digital Marketing, Field Marketing, Growth, Marketing Ops, Marketing Strategy and Analytics, Partner Marketing, Product Marketing, Sales Development, Search Marketing |
+| Giuliana Lucchesi | Product | CPO, Monetization, Dev & Analytics, CI/CD Core Platforms & SaaS Delivery, Sec & Data Science, UX Research, Product Design, Technical Writing  |
+| Giuliana Lucchesi | Security | CISO, Corporate Security, Product Security, Security Assurance, Security Operations   |
+| Jess Durbin       | Engineering | Core Development, Expansion  |
+| Kristina Bullock       | Chief of Staff | Chief of Staff |
+| Kristina Bullock  | Engineering | CTO, Customer Support, Core Infrastructure |
+
+Remaining Divisions : Departments:  
+
+- Sales : Business Development and Strategic Partnerships
+- Sales : Consulting Delivery
+- Sales : eCommerce
+- Sales : Education Delivery
+- Sales : Education Services
+- Sales : Enablement
+- Sales : ENTR
+- Sales : MM
+- Sales : Practive Management
+- Sales : PubSec
+- Sales : SA
+- Sales : SMB
 
 ## How to partner with PBPs to foster high performance in your team
 
