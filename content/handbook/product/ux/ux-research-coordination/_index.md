@@ -5,7 +5,7 @@ description: "We empower UX Research DRIs with the resources needed for efficien
 
 ## What is UX Research Operations
 
-UX Research Operations (often referred to as UX ReOps) is a discipline within user experience (UX) research focused on managing and optimizing the processes, tools, and infrastructure that support UX research activities. The primary goal of UX Research Operations is to enable UX researchers to conduct their work more efficiently and effectively by providing the necessary support and resources. 
+UX Research Operations (often referred to as UX ReOps) is a discipline within user experience (UX) research focused on managing and optimizing the processes, tools, and infrastructure that support UX research activities. The primary goal of UX Research Operations is to enable UX researchers to conduct their work more efficiently and effectively by providing the necessary support and resources.
 
 Here are some key aspects of UX Research Operations in GitLab:
 
