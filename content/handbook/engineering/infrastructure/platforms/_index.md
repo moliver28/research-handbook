@@ -3,13 +3,6 @@
 title: "The Infrastructure Platforms Section"
 ---
 
-
-
-
-
-
-
-
 ## Mission
 
 The Infrastructure Platforms section enables GitLab Engineering to build and deliver **safe**, **scalable** and **efficient** features for multi-tenant and single-tenant GitLab SaaS platforms (GitLab.com and GitLab Dedicated).
@@ -32,11 +25,65 @@ Initiatives driven within the Platforms section, often spanning multiple quarter
 
 ### Communication
 
-We collaborate on the section level items in the [#s_platforms](https://gitlab.slack.com/archives/C02D1HQRTKQ) Slack channel. This channel is used to share important information with the wider team, but also serves to align all teams in Platfroms with the common topic.
+#### Slack
 
-For communication between managers, we have [#g_saas_platforms_leads](https://gitlab.slack.com/archives/C010QV6RRB3) channel. Everyone interested is welcome to join this channel if they find the topics interesting. We also have [a confidential managers channel](https://gitlab.slack.com/archives/G010N73CXJ6) that is used to discuss staffing issues affecting all teams that require additional coordination.
+Our main method of communication is Slack.
 
-Queries to Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
+If you need assistance with a production issue or incident, please see the section on [getting assistance](https://handbook.gitlab.com/handbook/engineering/infrastructure/#getting-assistance).
+
+**SaaS Platforms**
+
+| **Channel** | **Purpose** |
+|-----------|-----------|
+| [#s_platforms](https://gitlab.slack.com/archives/C02D1HQRTKQ) | We collaborate on section level items here. This channel is used to share important information with the wider team, but also serves to align all teams in Platfroms with the common topic. |
+| [#g_saas_platforms_leads](https://gitlab.slack.com/archives/C010QV6RRB3) | Communication for managers. Everyone interested is welcome to join this channel if they find the topics interesting. |
+| [confidential managers channel](https://gitlab.slack.com/archives/G010N73CXJ6) | Used to discuss staffing issues affecting all teams that require additional coordination. We default to using the public channel as far as possible.|
+| [#s_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) | Our social channel. |
+
+**Dedicated**
+
+| **Channel** | **Purpose** |
+|-----------|-----------|
+| [#g_dedicated-team](https://gitlab.enterprise.slack.com/archives/C025LECQY0M)| |
+| [#f_gitlab_dedicated](https://gitlab.enterprise.slack.com/archives/C01S0QNSYJ2)| |
+| [#g_dedicated-us-pubsec](https://gitlab.enterprise.slack.com/archives/C03R5837WCV)| |
+| [#g_dedicated-switchboard-team](https://gitlab.enterprise.slack.com/archives/C04DG7DR1LG)| |
+| [#g_dedicated-team-social](https://gitlab.enterprise.slack.com/archives/C03QBGQ3K5W)| |
+| [#dedicated-mr-review-stream](https://gitlab.enterprise.slack.com/archives/C065DDKPL21)| |
+
+**Delivery**
+
+| **Channel** | **Purpose** |
+|-----------|-----------|
+|[#g_delivery](https://gitlab.enterprise.slack.com/archives/CCFV016SV)| |
+|[#g_delivery_standups](https://gitlab.enterprise.slack.com/archives/C05KS71438B)| |
+|[#delivery_social](https://gitlab.enterprise.slack.com/archives/C01QX84J6UR)| Social channel for the group. |
+
+**Production Engineering**
+
+| **Channel** | **Purpose** |
+|-----------|-----------|
+| [#production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N)| |
+| [#g_production_engineering_leads](https://gitlab.enterprise.slack.com/archives/C06LDGA7Z9S)| |
+| [#g_infra_ops](https://gitlab.enterprise.slack.com/archives/C04MH2L07JS)| |
+| [#g_infra_social](https://gitlab.enterprise.slack.com/archives/CQYDEJE13)| |
+| [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)| |
+| [#g_infra_foundations_social](https://gitlab.enterprise.slack.com/archives/C04QVEXBVL3)| |
+
+**Scalability**
+
+| **Channel** | **Purpose** |
+|-----------|-----------|
+|[#g_scalability](https://gitlab.enterprise.slack.com/archives/CMMF8TKR9)| General conversation for Scalability and requests coming in from other team members. |
+|[confidential managers channel](https://gitlab.enterprise.slack.com/archives/C034V5P1725) | Used for specific communication. We default to public channels. |
+|[#g_scalability-observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)| Team channel for general work in Observability. |
+|[#g_scalability-practices](https://gitlab.enterprise.slack.com/archives/C04M6HVAY49)| Team channel for general work in Practices. |
+|[#scalability-social](https://gitlab.enterprise.slack.com/archives/C0108V9SQHY)| |
+| #scalability-id-project-name() | We use project specific channels to keep make it easier to follow specific topics. Channel names follow this format. |
+
+Queries to the Infrastructure team can be directed to a dedicated Slack channel [#infrastructure_lounge](https://gitlab.slack.com/archives/CB3LSMEJV). The Infrastructure department actively engages with these queries or Slack messages here, which are then converted into issues in a separate [GitLab project tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure-lounge-slack-issue-tracker) for efficient tracking and resolution.
+
+#### Meetings
 
 Once per week, we hold a `Platforms leads call` to align on action items related to career development, general direction or answer any ongoing questions that have not been addressed async. The call is cancelled when there are no topics added on the morning of the call.
 
