@@ -42,10 +42,10 @@ Exit Criteria are avaialable in the [Future Major Release Coordination & Improve
 
 | Working Group Role                       | Person                           | Title                                                          |
 |------------------------------------------|----------------------------------|----------------------------------------------------------------|
-| Executive Stakeholder (Lead) | Sabrina Farmer (@joshlemos)               | CTO |
+| Executive Stakeholder (Lead) | Sabrina Farmer (@sabrinafarmer )          | CTO |
 | Executive Stakeholder        | Josh Lemos (@joshlemos)                   | CISO |
 | Facilitator/DRI              | Sam Wiskow (@swiskow)                     | Sr. PM, Delivery & Scalability - Infra |
-| Product Management           | Mike flouton (@mflouton )                 | VP - Product |
+| Product Management           | Mike flouton (@mflouton)                  | VP - Product |
 | Member                       | Marin Jankovski (@marin)                  | Senior Director - Infrastructure, SaaS Platforms  |
 | Member                       | Fabian Zimmer (@fzimmer)                  | Product Director - SaaS Platforms    |
 | Member                       | Michele Bursi (@mbursi)                   | Engineering Manager, Delivery Group |
