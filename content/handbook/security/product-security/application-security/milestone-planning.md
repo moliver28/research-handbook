@@ -91,3 +91,15 @@ These issues must be labeled with the appropriate AppSecRotation label:
 | Triage | `AppSecWorkType::TriageRotation` |
 | Security Release | `AppSecWorkType::ReleaseRotation` |
 | Federal AppSec VAT | `AppSecWorkType::VATRotation` |
+
+### Unplanned work
+
+Sometimes high-priority and/or urgent work comes up after a milestone starts. When an unplanned issue is added after the milestone began:
+
+- Document why the work needs to be prioritized in the issue
+- Apply the `Unplanned` label
+- If the unplanned work is large enough to displace other planned issues, inform the applicable stakeholders so they are aware that their issue is being delayed
+
+### Missed milestones
+
+Work planned for a milestone may not be fully finished due to time constraints or planned work being too ambitious. When this happens, attach the `missed::X.Y` label.
