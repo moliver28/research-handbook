@@ -49,3 +49,10 @@ I consider myself an empathetic person and leader, capable of putting myself in 
 I am a detailed communicator and value transparency. I will always err on telling you more than you need to know rather than not enough. I have an “open-door” policy and will always prioritize my people if I am not otherwise engaged.
 
 I am extremely data-driven. While not beholden to it, I consult and leverage data when making decisions. I rarely “fly by the seat of my pants” and change course based on feel. My goal is to use data to set my team up for success, using all available information to put them in the best possible position to execute and deliver results. Measure twice, cut once. 
+
+
+### Communicating with Me
+
+I'm a pretty informal communicator who values responsiveness, and you can expect a speedy reply from me if I am not otherwise occupied. The more detailed you can be in your communication, the better. Based on the scope of the topic, I'm always open to Slack, video huddle, scheduled Zoom call, or Salesforce Chatter. Feel free to book meetings with me over free slots on my calendar without needing to confirm if it will work, but please be mindful of my working hours. I have hard starts and stops for my kids. 
+
+I am always looking to improve myself and my team and am always open to feedback. Please (a) be constructive and (b) consider the privacy of others when deciding to share feedback in a group setting or 1:1. 
