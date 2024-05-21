@@ -13,7 +13,7 @@ GitLab implements these measures to ensure compliance with various policies and 
 
 ## Scope
 
-This policy applies to all GitLab.com monitoring services in support of GitLab’s statutory, regulatory and contractual requirements.
+This policy applies to all GitLab.com monitoring services in support of the statutory, regulatory and contractual requirements of GitLab.
 
 ## Roles & Responsibilities
 
@@ -54,7 +54,7 @@ A service is unavailable, if, for 5 minutes:
 
 In other words, a service needs to simultaneously meet both of its Service Level Objectives (SLO) targets in order to be considered available. If either target is not met, the service is considered unavailable.
 
-The availability score for a service is then calculated as the percentage of time that it is available. The Availability score for _each_ service combined define the platform Service Availability. This number indicates availability of GitLab.com for a select period of time.
+The availability score for a service is then calculated as the percentage of time that it is available. The Availability score for _each_ service combined define the platform Service Availability. This number indicates the availability of GitLab.com for a select period of time.
 
 For example, if service becomes unavailable for a 10 minute period, the availability score will be:
 
@@ -75,7 +75,7 @@ The availability score can be seen on the [SLA dashboard], and the Service Avail
 
 ### Log management
 
-GitLab.com services emit network, system, and application logs, which are then stored, processed, and searched to to provide a basis for incident and security incident investigations.
+GitLab.com services emit network, system, and application logs, which are then stored, processed, and searched to provide a basis for incident and security incident investigations.
 
 Logs are stored in a short-term and long-term storage, with their own respective retention policies:
 
@@ -85,7 +85,7 @@ Logs are stored in a short-term and long-term storage, with their own respective
 Logs in short-term storage are used to actively monitor application activity, spam events, transient errors, system and network authentication
 events, security events, and similar.
 
-Logs in long-term storage are used to comply to the [Records Retention & Disposal] policy.
+Logs in long-term storage are used to comply to the [Records Retention & Disposal] policy. Logs in long-term storage are less granular and have less detail than those in short-term storage.
 
 Detailed overview of architecture, tooling and workflows are listed on the [Logging] page.
 
