@@ -65,4 +65,3 @@ The research tool being used (for example Qualtrics, UserTesting, Respondent) de
 
  - **Question:** Are these IP Assignment options included in the Qualtrics survey question library?
  - **Answer:** Yes. To access the IP Assignment options from within your Qualtrics survey, follow these steps: (1) create a survey question, (2) in the "..." select replace from library, (3) select the "UX Research & Product" library, (4) select "Question Library", (5) select the IP Assignment option that you want to use:  "IP Statement", "IP Assignment Question", or "Individual Contributor License Agreement (ICLA)", and (6) select "Import"
-

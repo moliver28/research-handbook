@@ -52,7 +52,6 @@ Issues owned by the Custom Models group should have these labels, as appropriate
 - `~"category::model personalization"`
 - `~"category::self-hosted model deployment"`
 
-
 In addition, issues should contain the relevant `~type:` and subtype labels.
 
 ## Team Milestone Planning Process
@@ -132,7 +131,7 @@ Blog posts written by Custom Model's team members
 The Custom Models communicates based on the following guidelines:
 
 1. Always prefer async communication over sync meetings.
-1. Don't shy away from arranging a [sync call](#-ad-hoc-sync-calls) when async is proving inefficient, however endevour record it to share with team members.
+1. Don't shy away from arranging a [sync call](#ad-hoc-sync-calls) when async is proving inefficient, however endevour record it to share with team members.
 1. [Transparency by Default](/handbook/security/transparency-by-default/)
 1. The primary channel for work-related communication is the [#g_custom_models](https://gitlab.enterprise.slack.com/archives/C06DCB3N96F) Slack channel.
 1. Internal team issues and projects are namespaced under [`gitlab-org/ai-powered/custom-models`](https://gitlab.com/gitlab-org/ai-powered/custom-models)

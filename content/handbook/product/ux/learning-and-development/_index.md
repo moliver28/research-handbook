@@ -198,4 +198,3 @@ Managers should add approved growth and development programs to the [department 
 - From time to time, we run an internal book club on a book from one of our resource lists. Join the conversation in `#ux-book-club`.
 - [GitLab Book Clubs project](https://gitlab.com/gitlab-com/book-clubs)
 - [Leadership Book clubs](/handbook/leadership/book-clubs/)
-

@@ -5,12 +5,6 @@ title: "Distribution Team Workflow"
 description: "Overview of how work is performed by Distribution Engineers, for Omnibus, Helm and other Engineering projects."
 ---
 
-
-
-
-
-
-
 ## Common links
 
 * [Engineering Team Workflow](/handbook/engineering/workflow/)
@@ -54,22 +48,22 @@ The distribution team is comprised of two groups, Distribution:Build and Distrib
 Work to be completed by the Distribution team members who are not currently
 acting as the [Distribution DRI](#distribution-dri) is prioritized as follows:
 
-Priority level | Work item
--|-
-1 | Unblock in-review `~priority::1` Merge Requests
-1 | Pick up `~priority::1` [Merge Requests for review][MR dashboard]
-1 | Work on in-progress `~priority::1` [Deliverable Issues][Deliverable board]
-1 | Pick up available `~priority::1` [Deliverable Issues][Deliverable board]
-2 | Unblock remaining in-review Merge Requests
-3 | Work on in-progress `~priority::2` [Deliverable Issues][Deliverable board]
-3 | Pick up [SLO-breaching][SLO] [Merge Requests for review][MR dashboard]
-4 | Pick up [SLO-near-breaching][SLO] [Merge Requests for review][MR dashboard]
-5 | Pick up available `~priority::2` [Deliverable Issues][Deliverable board]
-6 | Work on in-progress `~priority::3` [Deliverable Issues][Deliverable board]
-6 | Pick up available `~priority::3` [Deliverable Issues][Deliverable board]
-6 | Pick up [SLO-non-breaching][SLO] [Merge Requests for review][MR dashboard]
-7 | Work on in-progress `~priority::4` [Deliverable Issues][Deliverable board]
-7 | Pick up available `~priority::4` [Deliverable Issues][Deliverable board]
+| Priority level | Work item |
+| -|- |
+| 1 | Unblock in-review `~priority::1` Merge Requests |
+| 1 | Pick up `~priority::1` [Merge Requests for review][MR dashboard] |
+| 1 | Work on in-progress `~priority::1` [Deliverable Issues][Deliverable board] |
+| 1 | Pick up available `~priority::1` [Deliverable Issues][Deliverable board] |
+| 2 | Unblock remaining in-review Merge Requests |
+| 3 | Work on in-progress `~priority::2` [Deliverable Issues][Deliverable board] |
+| 3 | Pick up [SLO-breaching][SLO] [Merge Requests for review][MR dashboard] |
+| 4 | Pick up [SLO-near-breaching][SLO] [Merge Requests for review][MR dashboard] |
+| 5 | Pick up available `~priority::2` [Deliverable Issues][Deliverable board] |
+| 6 | Work on in-progress `~priority::3` [Deliverable Issues][Deliverable board] |
+| 6 | Pick up available `~priority::3` [Deliverable Issues][Deliverable board] |
+| 6 | Pick up [SLO-non-breaching][SLO] [Merge Requests for review][MR dashboard] |
+| 7 | Work on in-progress `~priority::4` [Deliverable Issues][Deliverable board] |
+| 7 | Pick up available `~priority::4` [Deliverable Issues][Deliverable board] |
 
 Use this prioritization outline as a general guide when determining what to do each day. This list helps direct
 work toward overall team priorities and goals laid out by the team managers.

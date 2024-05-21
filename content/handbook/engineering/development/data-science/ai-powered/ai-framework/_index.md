@@ -50,15 +50,19 @@ Depending on the context here are the most appropriate ways to reach out to the 
 
 #### Team Meetings
 
-1. **Weekly Work Assignment Meeting**
+1. **Weekly Refinement/Weight Assignment Meeting**
    * **When:** Every Monday, alternating between 09:00 AM GMT+1 and 17:00 PM GMT+1
-   * **What:** This meeting is dedicated to workload assignment. The Engineering Manager and Product Manager assign work as needed for the entire team.
+   * **What:** This meeting replaces the previous Work Assignment Meeting and focuses on refining and assigning weights to issues. The Engineering Manager and Product Manager ensure all issues are properly refined and weighted.
 
 2. **Bi-Weekly Engineering Sync**
    * **When:** Every other Thursday, alternating between 11:00 AM GMT+1 and 18:00 PM GMT+1
    * **What:** This meeting is dedicated to the engineering team for the purpose of syncing up on progress, discussing technical challenges, and planning upcoming sprints.
 
-3. **Think BIG sessions**
+3. **Monthly Capacity Review Meeting**
+   * **When:** Once a month
+   * **What:** This meeting focuses on reviewing the team's capacity, monitoring fluctuations, and reacting to any drops in capacity. It includes a review of the points completed in the past month and adjustments to estimates if necessary.
+
+4. **Think BIG sessions**
    * **When:** Once a month
    * **What:** This session will alternate between EMEA/AMER and APAC regions every other month, focusing on broad discussions about group dynamics and strategic planning.
 
@@ -71,7 +75,7 @@ AI Framework team members should [sync your PTO events](/handbook/people-group/e
 
 ### 🖖 Weekly EM Updates
 
-Each week the team EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-org/ai-powered/ai-framework/team-hq/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=Weekly%20Announcements&first_page_size=20).
+Each week the team EM provides a Weekly Status update issue which aims to capture the most important items for the team to be aware of. These can be found [here](https://gitlab.com/gitlab-org/ai-powered/ai-weekly/-/issues/?sort=created_date&state=all&label_name%5B%5D=AI%20Powered%20Weekly%20Updates&first_page_size=20).
 
 ### 📚 AI Framework Board Outline
 
@@ -96,24 +100,14 @@ To ensure that our developers are aware of the priority of their work, we [use t
 
 ### 🔄 Processes
 
-#### 🗓️ Weekly
+#### 🗓️ Weekly Process
 
-1. **Open 🆕**: (DRI: PM) Capture and list new issues as they arrive. This stage serves as the initial holding area where issues await further classification and prioritization.
-2. **Workflow Design ✍️**: (DRI: Designer) Move issues into this lane for design refinement. Focus on detailing user experience and interface design. Essential for aligning the visual and functional aspects of the solution with user needs.
-3. **Workflow Refinement 🔧**: (DRI: Engineering Lead) Issues undergo technical refinement here. Engineers review and adjust the technical aspects to ensure feasibility and adherence to technical standards.
-4. **Workflow Ready for Development 🎯**: (DRI: PM/EM) Transition issues that have completed the refinement process here. They are fully specced and ready for developers to start coding.
-5. **Workflow in Development 💻**: (DRI: Assigned Developer) Coding and implementation of workflows happen in this stage. Developers build out the features and functionalities as specified.
-6. **Workflow in Review 🔍**: (DRI: QA/Reviewer) Conduct thorough reviews and testing of completed workflows. This includes code reviews and usability testing to ensure quality and functionality before final deployment.
-
-
-1. **Backlog Refinement 📝**: (DRI: PM /EM) Once per week, review all the issues in the **Open** lane. Prioritize them based on their importance, urgency, and input from the team. Identify which issues need discovery work and which can be moved straight into **workflow::ready for development**.
-2. **Discovery Work Assignment 🧪**: (DRI: PM/EM) Move issues that need discovery work into the **workflow::problem validation** lane. These issues are not yet fully defined and need further investigation before they can be developed.
-3. **Ready for Development Assignment 🎯**: (DRI: PM/EM) Move issues that have the necessary details for development into the **workflow::ready for development** lane. These issues are either already assigned to an individual contributor (IC), or if not, are ordered by priority so they can be picked up with ease.
-4. **Progress Check 🔄**: (DRI: Assigned Developer) Check the **workflow::in dev** lane daily to see the status of the ongoing tasks.
-5. **Review Completed Tasks 👥**: (DRI: Assigned Developer) Review the tasks in the **workflow::in review** lane. Ensure they are moving forward.
-
-
-**Issues for the AI Framework team are binary: they are categorized as either a discovery issue, requiring further investigation, or an implementation issue, ready for development. This approach helps us maintain a lean and efficient workflow.**
+1. **Open 🆕**: (DRI: PM) Capture and list new issues as they arrive. This stage serves as the initial holding area for issues awaiting classification and prioritization.
+2. **Workflow Design ✍️**: (DRI: Designer) Move issues into this lane for **design refinement**, focusing on user experience and interface design.
+3. **Workflow Refinement 🔧**: (DRI: Engineering Lead) Conduct **technical refinement** to ensure feasibility and adherence to standards.
+4. **Workflow Ready for Development 🎯**: (DRI: PM/EM) Transition fully refined and specced issues here, ready for developers to start coding.
+5. **Workflow in Development 💻**: (DRI: Assigned Developer) Implement and build the specified features and functionalities.
+6. **Workflow in Review 🔍**: (DRI: QA/Reviewer) Perform thorough reviews and testing, including code reviews and usability testing.
 
 ### 📝 Issue Guidelines
 
@@ -129,6 +123,17 @@ These guidelines apply to all issues we use for planning and scheduling work wit
 * Design and frontend engineering use one issue. The same issues moves from workflow::design to workflow::refinement to workflow::ready for development. This ensures that there is a single source of truth for customer-facing issues. If a design issue is too large to be implemented, it may be promoted to an epic.
 
 It's okay to create specific engineering-driven implementation issues for more complex features. These would be called **Child Issues** and they should always link back to their parent. If one issue would spawn many child issues, consider creating an Epic.
+
+🏋 Weighting and Estimation Process
+
+To assign weights to issues effectively, it’s important to remember that issue weight should not be tied to time. Instead, it should be a purely abstract measure of the issue’s significance. The team uses the Fibonacci sequence starting from weight 0:
+
+* **Weight 0:** Reserved for the smallest and easiest issues, such as typos or minor formatting changes, or very minor code changes with no tests required.
+* **Weight 1:** For simple issues with little or no uncertainty, risk or complexity. These issues may have labels like “good for new contributors” or “Hackathon - Candidate”. Example: Changing copy text which may be simple but take some time.
+* **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
+* **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant breaking down into smaller separate issues.
+* **Weight 5:** Normally, this weight should be avoided, and indicates that the issue ideally should be broken down into smaller separate issues. However, in some cases, a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn’t necessarily involve significant risk or uncertainty.
+* **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and must be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to “placeholder” issues to capture the scope of the effort in our velocity-based capacity planning calculations.
 
 ## 👏 Communication
 
@@ -151,12 +156,11 @@ We operate using async communication by default. There are times when a sync dis
 
 ### 🌍 AIGW Region Deployments
 
-- 🚀 [Staging](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway-staging.yml?ref_type=heads#L12)
-- 🌐 [Production](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway.yml?ref_type=heads#L12)
+* 🚀 [Staging](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway-staging.yml?ref_type=heads#L12)
+* 🌐 [Production](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/.runway/runway.yml?ref_type=heads#L12)
 
 ### 📝 Dashboards (internal only)
 
-* All Usage
 * [Requests per provider](https://thanos-query.ops.gitlab.net/graph?g0.expr=sum%20by%20(client)(rate(gitlab_sli_llm_client_request_total%7Benv%3D%22gprd%22%7D%5B1m%5D))&g0.tab=0&g0.stacked=0&g0.range_input=1w&g0.max_source_resolution=0s&g0.deduplicate=1&g0.partial_response=0&g0.store_matches=%5B%5D&g0.step_input=60)
 * [Error budgets](https://dashboards.gitlab.net/d/product-ai-powered_error_budget/product-error-budgets-ai-powered?orgId=1)
 * [AI Gateway SLIs](https://dashboards.gitlab.net/d/ai-gateway-main/ai-gateway-overview?orgId=1)

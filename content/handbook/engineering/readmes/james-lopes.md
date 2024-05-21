@@ -51,4 +51,3 @@ I've found there is no one-size-fits-all management style or technique that work
 - I take every new experience as an opportunity to learn something new
 
 - I am good at fixing things
-

@@ -23,6 +23,7 @@ title: "Dev Career Framework: Senior Frontend Engineer"
 
 {{% include "includes/engineering-careers/senior-technical-competency.md" %}}
 {{% include "includes/engineering-careers/development-senior-technical-competency.md" %}}
+
 - High level of expertise in frontend programming languages and GitLab's default frontend frameworks
 - Able to provide architectural guidance on REST and GraphQL API design
 - Able to utilize Websockets to create real-time updating UIs

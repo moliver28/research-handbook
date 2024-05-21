@@ -12,11 +12,14 @@ This page is intended for helping find resources during emergencies. If this isn
 ### Non-Emergencies
 
 1. Label your issue to be triaged by the right team:
+
   - For operational or configuration issues, label them `~"team::Database Reliability"`
   - For issues related to the packaged Postgres in Omnibus/Charts, label them `~"group::distribution"`
   - For application issues, label them for the team responsible for that feature.
   - If you're not sure, take a look at the guide below for help identifying the right team.
+
 1. If the issue is blocking or you need to escalate:
+
   - For application issues, Post a detailed message in the channel for the team that is responsible for the related feature.
   - For operational or configuration issues, post in [#g_infra_database_reliability](https://gitlab.enterprise.slack.com/archives/C02K0JTKAHJ) (internal)
   - For issues related to the packaged Postgres in Omnibus/Charts, post in [#g_distribution](https://gitlab.enterprise.slack.com/archives/C1FCTU4BE) (internal)
@@ -107,6 +110,7 @@ Even if the emergency is related to the database or has database words in it, th
 When escalating an emergency, be as specific as possible and provide as many details as possible. Per [communication guidelines](/handbook/communication/#writing-style-guidelines), avoid acronyms whenever possible.
 
 Always include:
+
 - A link to the issue, Sentry error, incident, or Zendesk ticket
 - The text of any error messages
 - Links to any applicable charts

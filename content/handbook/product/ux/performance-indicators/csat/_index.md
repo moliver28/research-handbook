@@ -46,10 +46,12 @@ At the beginning of each quarter, the UX Research DRI will generate a list of el
 1. Using the percentages you calculated in the `percentages` tab of the [CSAT user list Google Sheet template](https://docs.google.com/spreadsheets/d/1y9cedI2uoHNaoZ1IgXkH7CB0fecvlg-RGsJp_mihpEI/edit#gid=776912528), determine how many users for each plan type you need to contact for the wave. If it’s the first wave, use the population proportions. If it’s a subsequent wave, use the proportions you calculate based on the responses so far (see next point).
 2. To calculate your current sample plan proportions, download your survey results from Qualtrics. Calculate the percentage breakdown of plans so far. Then subtract that number from the population percentage and add the result to the population percentage.
 An example with fake numbers:
-* Population percentage for Ultimate = 73%
-* Percentage of Ultimate plan types after sending wave 1 = 65%
-* Wave 2 percentage for Ultimate: (73% - 65%) + 73% = 81%
-In this example, the sample is under the population, hence the next wave percentage is higher than the population to try to get within 3% of the population percentage for Ultimate.
+
+    * Population percentage for Ultimate = 73%
+    * Percentage of Ultimate plan types after sending wave 1 = 65%
+    * Wave 2 percentage for Ultimate: (73% - 65%) + 73% = 81%
+    In this example, the sample is under the population, hence the next wave percentage is higher than the population to try to get within 3% of the population percentage for Ultimate.
+
 3. Waves should be ~2,000 users. Mark the desired number of users out of that 2,000 that fit your percentages for each plan type with the name of the wave you are sending.
 4. Paste all the emails for that wave into a new sheet and upload them into the participant list for your CSAT project in Rally.
 5. Once the mailing list has been uploaded to Rally, filter out `@gitlab.com` email addresses and people contacted about previous CSAT surveys from the past 12 months.

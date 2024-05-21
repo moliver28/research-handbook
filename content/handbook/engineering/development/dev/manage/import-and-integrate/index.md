@@ -250,6 +250,7 @@ from PM or UX.
 The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.
 
 An [Application Security Review](/handbook/security/product-security/application-security/appsec-reviews/) should be requested when the issue or MR might have security implications. These include, but aren't limited to, issues or MRs which:
+
 - falls under the threat model
 - handles binary files (downloading, decompressing, extracting, moving, deleting)
 - modifies or uses file manipulation services
@@ -364,6 +365,7 @@ Our group works with tech leads to help organize work on different topics and id
 #### Characteristics of a Tech Lead
 
 A tech lead is:
+
 - an individual contributor with additional responsibilities. Every engineer regardless of their seniority is qualified to be a tech lead.
 - a temporary role that is tied to a specific topic/project. We allow the team to have multiple tech leads at the same time for different topics/projects.
 - **not** a manager.
@@ -394,7 +396,6 @@ Below is an overview of topics that are overseen by a tech lead:
 | Congregate | tbd | https://gitlab.com/gitlab-org/gitlab/-/issues/428657 | |
 | GitHub Actions | tbd | https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17652 | |
 |  | | |  |
-
 
 ## Merge request roulette reviews
 
@@ -459,7 +460,7 @@ This is a collection of links for monitoring our features.
 
 - [Import and Integrate group dashboard][grafana-dashboard] which contain:
     - Links to various Kibana logs, filtered to our feature categories
-    - Our [error budget](#error-budget) spend attribution
+    - Our [error budget](#error-budgets) spend attribution
 - [Worker queues](https://dashboards.gitlab.net/d/sidekiq-queue-detail/sidekiq-queue-detail?orgId=1&var-PROMETHEUS_DS=Global&var-environment=gprd&var-stage=main&var-queue=jira_connect:jira_connect_sync_branch) where you can switch queues with the `queue` dropdown
 
 ### Sentry errors
@@ -520,6 +521,7 @@ Learn more about error budgets with these resources:
 ## Links and resources {#links}
 
 {{% include "includes/engineering/manage/shared-links.md" %}}
+
 - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/manage-stage/import-and-integrate/-/issues)
 - Our Slack channels
   - Manage:Import and Integrate [#g_manage_import_and_integrate](https://gitlab.slack.com/archives/C04RDL3MEH5)

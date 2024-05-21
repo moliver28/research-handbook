@@ -10,13 +10,11 @@ We have released fast-forward support for merge trains as well as some additiona
 We will continue to work towards maturity level "Complete" for merge trains in future milestones. For now, I am closing this particular project
 plan as the particular feature has shipped.
 
-
 ### Estimated Iteration Completion Milestones
 
 - 16.4: Initial Beta Release of Fast Forward Merge Trains and Merge Immediately without Train Restart
 - 16.5: GA Release of Fast Forward Merge Trains
 - 16.6: Additional Bug Fixes
-
 
 <details>
     <summary markdown="span">Archive</summary>
@@ -157,21 +155,12 @@ plan as the particular feature has shipped.
 
 #### Team Capacity
 
-- 1 Backend Engineers
-
-#### Goals
-
-
-#### Team Capacity
-
   - 1 Backend Engineers
 
 #### Goals
 
   - [x] Any remaining fast-follows for issues that arise during roll-out
   - [~] Complete bug fix - [Merge train-enabled merge request fails with "Merge request is not mergeable", succeeds on retry without changes](https://gitlab.com/gitlab-org/gitlab/-/issues/344021)
-
-
 
 ### Milestone 16.6 (October 17, 2023 - November 10, 2023)
 
