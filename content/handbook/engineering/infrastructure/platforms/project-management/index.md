@@ -189,9 +189,9 @@ There is no set format for the retrospective though Engineering Managers should 
 The retrospective DRI identifies a list of actions which they consolidate in the Summary of Actions section in the issue description.
 
 Process to identify actions:
+
 1. Add a comment on each thread with Actions as the title of the comment (H3 level)
 1. Some threads may not require an action, you may want to state this explicitly at the end of the thread for transparency
 1. Below the Actions comment, add a suggestion on an action the team can take
 1. Ping the contributors to get a round of validation on the actions and potential refinement
 1. Create an issue for each action and list them in the Summary of Actions section
-
