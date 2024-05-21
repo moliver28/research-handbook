@@ -1,48 +1,49 @@
 ---
 title: UX Showcase
 description: >-
-  The UX Showcase is a recurring meeting that allows each stage group to share their UX work.
+  The UX Showcase is a recurring meeting for UX team members to share and discuss their work.
 ---
 
 ## About UX Showcase
 
-The UX Showcase is a recurring meeting that allows each stage group to share their UX work.
+The UX Showcase is a recurring meeting for UX team members to share and discuss their work.
 This includes past, current, or future work, and covers Product Design, UX Research, and Technical Writing.
 All showcases are recorded and made available on [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) for Product, UX, Engineering, and Leadership to watch at their convenience.
 
 ### Purpose
 
-- Increase awareness of the value delivered through UX by highlighting business and customer value
+- Increase awareness of the value delivered through UX by highlighting business, product, and user outcomes
 - Increase visibility into findings, opportunities, solutions
-- Increase exposure of stage group UX activities to the broader organization
-- Increase synchronous discussion immediately following the topic shared or asynchronously after the UX Showcase
+- Increase exposure of UX activities to the broader organization
+- Increase work quality by promoting cross-stage collaboration in the meeting and after it
 
 ### Audience
 
-- Stage Group Product Designer, Researcher, and/or Technical Writer (Presenter)
-- Product
-- Engineering
-- Relevant Leadership (VP of UX, VP of Development, CEO, VP of Product)
+- Product designer, researcher, and/or technical writer (speaker)
+- UX department
+- Product division
+- Engineering division
+- Relevant leadership (VP of UX, VP of Development, VP of Product, E-Group)
 
 ### Schedule
 
-UX Showcases are scheduled every two weeks. They are 60 minutes long to allow up to three team members to share for 15 minutes, plus 5 minutes of discussion time from the UX Department.
+Showcases are scheduled every two weeks. They are 60 minutes long to allow up to three team members to share for 15 minutes, plus 5 minutes of discussion time with the attendees.
 
 - To be inclusive of our distributed team, we alternate the meeting start time every other occurrence to be either Americas/LAC/EMEA friendly or APAC friendly.
 - Each showcase is hosted by a Product Design Manager.
     - Due to time zone restrictions for managers, the APAC UX Showcase is hosted by another Product Designer, Technical Writer or UX researcher.
-- Product Designers are assigned presentation dates based on a randomly generated rotation:
-    - We ensure each designer has the opportunity to present twice a year.
-    - Gaps are left throughout the schedule for additional presenters.
-- Anyone can sign up to share in a UX Showcase. Coordinate with the host to claim an available spot.
-- Each person who shares is expected to fill out the agenda (attached to the meeting invite) for that week prior to presenting.
-- It is the responsibility of the host to know when they are scheduled to host and the responsibility of the presenter to know when they are scheduled to present. To help, a slack reminder has been set up in the `#ux` channel to review the showcase schedule.
+- Product Designers are assigned dates based on a randomly generated rotation:
+    - We ensure each designer has the opportunity to share twice a year.
+    - Gaps are left throughout the schedule for additional speakers.
+- Anyone can sign up to share and discuss their work. Coordinate with the host to claim an available slot.
+- Each person who shares is expected to fill out the agenda (attached to the meeting invite) for that week prior to speaking.
+- It is the responsibility of the host to know when they are scheduled to host and the responsibility of the speaker to know when they are scheduled to share. To help, a Slack reminder has been set up in the `#ux` channel to review the schedule.
 
-If a Product Designer can't present on the assigned date, it's their responsibility to make a trade. To make a trade:
+If a speaker can't share on their assigned date, it's their responsibility to make a trade. To make a trade:
 
-- announce in Slack (`#ux` channel) and during the UX Weekly call that you'd like to trade
-- after you identify a trade, make an MR to update the schedule
-- ask your Product Design Manager to review and merge.
+- Announce in the `#ux` channel and during the UX weekly call that you'd like to trade.
+- After you identify a trade, make an MR to update the schedule.
+- Ask your Product Design Manager to review and merge.
 
 {{% include "includes/ux-showcase-schedule.md" %}}
 
@@ -50,26 +51,31 @@ If a Product Designer can't present on the assigned date, it's their responsibil
 
 ## Sharing your work
 
-You have up to 15 minutes to share some of your work. If you need more time to present a complex topic, ask the host about having less people present at that showcase.
+You have up to 15 minutes to share some of your work.
+If you need more time to share and discuss a complex topic, ask the host about having less people speak at that showcase.
 
-Preparation for a UX Showcase should be minimal.
+Preparation for a showcase should be minimal.
 You should come prepared with just enough to tell a story and ellicit feedback from the audience.
-Successful UX Showcases share these aspects:
+Successful showcases share these aspects:
 
 - **Informal**:
     Avoid creating dedicated slides or assets, but use your best judgment to determine what's most effective: a prototype, a series of mockups, a process diagram, a journey map, a few slides, or something else.
-    The UX Showcase is all about sharing your work informally, not fancy storytelling.
+    The UX Showcase is to share and discuss your work informally, not fancy storytelling.
 - **Just enough sophistication**:
     Help us strive for a [low level of shame](/handbook/values/#low-level-of-shame) and share your work with as little sophistication as possible.
-    While some topics gain from a more sophisticated presentation, this sophistication raises the perception of quality and puts unnecessary pressure on other presenters.
+    While some topics gain from a more sophisticated story, this sophistication raises the perception of quality, puts unnecessary pressure on other speakers, and might make it harder for others to engage.
 - **Relatable**:
     Structure your story with the audience in mind, to elicit feedback from them, and highlight potential overlaps.
-    This makes it easier for the audience to relate, find value, and engage.
+    This makes it easier for people to relate, find value, and engage.
     For example, intentionally pinpoint overlaps or add questions for the audience.
+- **Iteration mindset**:
+    Use it as an opportunity to learn from and collaborate with others.
+    Make iteration shine not only in the work you've done so far, but how you might iterate forward and what's missing.
+    For example, list your current challenges, open questions, and where others might help.
 
 See [helpful tips](#helpful-tips-for-those-sharing).
 
-Examples of minimal UX Showcase presentations:
+Examples of minimal showcases:
 
 - [Fulfillment: Improve provisioning and onboarding of new sales assisted GitLab com subscribers](https://youtu.be/JYl2_Pnh_-I )
 - [Secure: Validating and prioritizing your roadmap](https://youtu.be/FVhZ_XNiR6U)
@@ -80,11 +86,11 @@ Examples of minimal UX Showcase presentations:
 
 - Prior to the UX Showcase, add your specific topic to the meeting agenda.
 - If this is an APAC showcase and there is no host yet, consider [hosting](#hosting).
-- Provide context for the problem you were trying to solve:
+- Provide context for the problem:
     - The scope of the problem
-    - Why was it important to solve?
+    - Why was/is it important to solve?
     - What did we learn during research?
-    - Were there any constraints that impacted the solution?
+    - Any constraints that impact the solution?
 - State the desired goals of the work:
     - What is the desired business and customer outcome?
     - Ideally, describe the [JTDB](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
@@ -92,24 +98,28 @@ Examples of minimal UX Showcase presentations:
     - What were the constraints?
     - How did you iterate toward an MVC?
 - Walk your audience through the solution iterations:
-    - You might prepare a few slides, but this is optional
-    - Be yourself and tell the story of the work you did
-    - Use existing mockups and flows, rather than creating something new
+    - You might prepare a few slides, but this is optional.
+    - Be yourself and tell the story of the work you did.
+    - Use existing mockups and flows, rather than creating something new.
+- Invite discussion:
+    - How might this overlap with or help other teams?
+    - What are the current challenges, next steps, and open questions?
+    - How might others approach this or help you?
 
 ### Helpful tips for those sharing
 
-- Introduce yourself and provide [context](#preparation) for your presentation.
+- Introduce yourself and provide [context](#preparation) for your topic.
 - [Make the participant experience an enjoyable one](/handbook/tools-and-tips/zoom/#make-the-participant-experience-an-enjoyable-one): avoid moving around too fast (for example, when showing a Figma prototype), or back and forth between views because you forgot to say one thing at the previous one.
-- [When sharing your screen](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom), consider going fullscreen so that the audience can see the details of your presentation.
+- [When sharing your screen](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom), consider going fullscreen so that the audience can see the details.
     - Useful Figma keyboard shortcut on macOS to show/hide UI: `⌘\` or `⌘.`.
-- Make sure the minimum font size of text in your presentation is large enough so that it can easily be read by everyone.
+- Make sure the minimum font size of text in your story is large enough so that it can easily be read by everyone.
 - [Provide links](/handbook/tools-and-tips/zoom/#provide-links-rather-than-sharing-while-you-present-or-edit) in the agenda doc that are relevant to your story, such as, issues, epics, Figma files, FigJam boards, and recordings.
-- When sharing directly from Figma files and issues, consider preparing an outline of the things you want to cover beforehand, filling in a few details of points you want to mention. Use this as a guide while you present your showcase to make it more linear & easy to follow for the audience.
+- When sharing directly from Figma files and issues, consider preparing an outline of the things you want to cover beforehand, filling in a few details of points you want to mention. Use this as a guide while you speak to make it more linear and easy to follow for the audience.
 - Is your internet connection limited? Stop the Zoom camera feed or try [these tips](https://www.canr.msu.edu/od/educational-technology/tips-zoom-slow-connection).
-- Ask people to share their questions after a section of your shared work.
+- Ask people to share their questions after a section of your story.
 - It’s normal to have anxiety when everyone is looking at you. Remember: We’re here to support each other, not to judge each other.
 
-Read more about presentation tips in the [communication handbook page](/handbook/communication/#presentations).
+For more presentation tips, see the [communication handbook page](/handbook/communication/#presentations).
 
 ## Hosting
 
@@ -123,16 +133,16 @@ To limit the amount of post-UX Showcase editing, please start and stop (not paus
 
 If you need to edit the videos at all, you can use a video editor like iMovie.
 
-Otherwise,
+Otherwise:
 
-1. Locate the video clips on your computer
-1. Name the videos with "UX Showcase" + the title of the presentation
-1. Check with presenters to make sure the video is appropriate for the public (no customer names)
-1. Upload the videos to [GitLab Unfiltered](https://m.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
-1. Add the videos to the [UX Showcase playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) and [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5)
-1. Set the visibility to Public
+1. Locate the video clips on your computer.
+1. Name the videos with "UX Showcase" + the title of the topic.
+1. Check with speakers to make sure the video is appropriate for the public (no customer names).
+1. Upload the videos to [GitLab Unfiltered](https://m.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz).
+1. Add the videos to the [UX Showcase playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) and [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5).
+1. Set the visibility to Public.
     - NOTE: If the video content contains items that are un[SAFE](/handbook/legal/safe-framework/) mark the video as Private.
-1. Share the YouTube links in `#ux` and `#product` Slack channels with a brief description of each presentation
+1. Share the YouTube links in `#ux` and `#product` Slack channels with a brief description of each topic.
     - Add the same update to the Engineering Week-In-Review document. The document is available in the description of our internal [`engineering-fyi` Slack channel](https://gitlab.slack.com/archives/CJWA4E9UG).
 
 #### Helpful tips
