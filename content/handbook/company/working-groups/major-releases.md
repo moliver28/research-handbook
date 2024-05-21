@@ -50,5 +50,5 @@ Exit Criteria are avaialable in the [Future Major Release Coordination & Improve
 | Member                       | Fabian Zimmer (@fzimmer)                  | Product Director - SaaS Platforms    |
 | Member                       | Michele Bursi (@mbursi)                   | Engineering Manager, Delivery Group |
 | Member                       | Steve Evangelista (@steve-evangelista)    | Senior Product Director - Dev & Analytics |
-| Member                       | Martin Bruemmer (@mbruemmer)              | Sr. Customer Success Engineer, EMEA |
+| Member                       | Martin Bruemmer (@mbruemmer)              | Staff Customer Success Manager |
 | Member                       | Lyle Kozloff (@lyle)                      | Director of Support, Global Readiness |
