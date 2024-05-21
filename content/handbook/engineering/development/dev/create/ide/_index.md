@@ -1,7 +1,7 @@
 ---
-title: 'Create:IDE Group'
+title: 'Create:Remote Development Group'
 description: >-
-  The IDE Group is part of the Create Stage. We focus on multiple categories:
+  The Remote Development Group is part of the Create Stage. We focus on multiple categories:
   Workspaces and the Web IDE.
 ---
 
@@ -19,11 +19,11 @@ If you're interested in the group's Objectives and Key Results (OKRs), you can f
 
 <span id="-team-principles" data-message="alias anchor for old links"></span>
 
-[Create:IDE Principles][principles]: What Are the Create:IDE Group Principles?
+[Create:Remote Development Principles][principles]: What Are the Create:Remote Development Group Principles?
 
 ### 🚀 Team Members
 
-The following people are permanent members of the IDE Engineering Group:
+The following people are permanent members of the Remote Development Engineering Group:
 
 **Engineering Manager & Engineers**
 
@@ -31,7 +31,7 @@ The following people are permanent members of the IDE Engineering Group:
 
 **Product, Design & Quality**
 
-{{< stable-counterparts role="Create:IDE" manager-role="Engineering Manager(.*)Create:IDE" >}}
+{{< stable-counterparts role="Create:Remote Development" manager-role="Engineering Manager(.*)Create:Remote Development" >}}
 
 ### ☕ Category DRIs
 
@@ -44,20 +44,20 @@ The following people are permanent members of the IDE Engineering Group:
 
 ### ☎️ How to reach us
 
-Depending on the context here are the most appropriate ways to reach out to the IDE Group:
+Depending on the context here are the most appropriate ways to reach out to the Remote Development Group:
 
 - Slack Channel: [`#g_create_ide`][slack]
 - Slack Groups: `@create-ide-team` (entire team) and `@create-ide-engs` (just engineers)
 
 ### Group Metrics Dashboards
 
-[Create::IDE Group Metrics Tableau Workbook](https://10az.online.tableau.com/#/site/gitlab/workbooks/2067787/views)
+[Create::Remote Development Group Metrics Tableau Workbook](https://10az.online.tableau.com/#/site/gitlab/workbooks/2067787/views)
 
 ### 📆 Group Meetings
 
 <span id="-team-meetings" data-message="alias anchor for old links"></span>
 
-**❗️Important**: For every meeting, the [IDE group's meeting document][gdoc] should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
+**❗️Important**: For every meeting, the [Remote Development group's meeting document][gdoc] should be used, and filled with the meeting notes, as well as references to any other sync meeting agendas/notes/recordings which have recently occurred. This will make it easier for people to find any meeting notes.
 
 These are regular meetings in which most team members will participate. Also, please note that sync meeting schedules are flexible and can be moved to accomodate required participants.  Below is our schedule:
 
@@ -101,7 +101,7 @@ Each week the group EM provides a Weekly Status update issue which aims to captu
 
 ### 😷 Issue Workflow Hygiene
 
-In the Create:IDE group we leverage an automatic issue hygiene system via the [triage bot](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/groups/gitlab-org/ide). This helps to ensure issues and label hygiene are respected, currently, our rules are:
+In the Create:Remote Development group we leverage an automatic issue hygiene system via the [triage bot](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/groups/gitlab-org/ide). This helps to ensure issues and label hygiene are respected, currently, our rules are:
 
 ### 🌉 Architecture Plans vs. Iteration Plans
 
@@ -131,12 +131,12 @@ It's okay to create specific engineering-driven implementation issues for more c
 
 <span id="-category-specific-planning-processes" data-message="alias anchor for old links"></span>
 
-The IDE group has decided to use an alternate planning process for the following reasons:
+The Remote Development group has decided to use an alternate planning process for the following reasons:
 
 1. Workspaces is a large, greenfield category, with many engineering, infrastructure, and technical concerns and unknowns which will continue to evolve and change as the category matures.
 1. The Workspaces category is also currently receiving much attention as part of of GitLab's competitive strategy, and thus has greater internal and external expectations for accurate estimates of feature delivery and timelines.
 1. In order to meet this need for more accurate and realistic planning and delivery estimates, the Workspaces category team has decided to modify parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies. The goal is to provide accurate delivery estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
-1. To better support the use of these methodologies, the IDE group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/index.html), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint.html) where possible.
+1. To better support the use of these methodologies, the Remote Development group has committed to dogfooding the [Iterations feature](https://docs.gitlab.com/ee/user/group/iterations/index.html), and following the [documented process for running agile iterations](https://docs.gitlab.com/ee/tutorials/agile_sprint.html) where possible.
 1. However, due to existing limitations of the Iterations and Boards features in fully supporting these methodologies, we will also experiment with new and alternate tools and processes, with the goal of informing and potentially contributing back to improve GitLab's support for them. More details will be shared as this effort evolves.
 
 Even though the Web IDE category does not have all these constraints (e.g. it is based on VS Code and is not greenfield code, and has fewer unknowns), the Web IDE category will follow a similar process in order reduce the cognitive overhead of the entire group.
@@ -146,7 +146,7 @@ Even though the Web IDE category does not have all these constraints (e.g. it is
 <span id="-remote-development-planning-process" data-message="alias anchor for old links"></span>
 <span id="remote-development-planning-process-overview" data-message="alias anchor for old links"></span>
 
-The IDE group has modified parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies.
+The Remote Development group has modified parts of the [Plan](/handbook/product-development-flow/#build-phase-1-plan) and [Build & Test](/handbook/product-development-flow/#build-phase-2-develop--test) phases of the GitLab Product Development Flow to a more lightweight velocity-based estimation and planning process inspired by the widely-used and popular [XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) and [Scrum](https://www.scrum.org/resources/blog/agile-metrics-velocity) methodologies.
 
 The crux of these changes is focused around the following process phases:
 
@@ -160,7 +160,7 @@ These components allow us to provide realistic velocity-based estimates based on
 
 ### Custom workflow labels
 
-To facilitate the IDE group's specific planning process, we make use of custom workflow scoped labels under `~rd-workflow::` or `~webide-workflow::`.
+To facilitate the Remote Development group's specific planning process, we make use of custom workflow scoped labels under `~rd-workflow::` or `~webide-workflow::`.
 These custom workflow labels are necessary to work around [current limitations of GitLab iterations and boards in implementing this process](https://gitlab.com/cwoolley-gitlab/gl-velocity-board-extension#why-doesnt-standard-gitlab-support-this).
 
 The Web IDE category uses the separate set of `~webide-workflow::` scoped labels, because this makes management of boards and workflows easier, especially in the case of issues which may have both categories' labels applied.
@@ -439,7 +439,7 @@ This approach ensures that these types of issues do not have an undesired impact
 
 ## 👏 Communication
 
-The IDE Team communicates based on the following guidelines:
+The Remote Development Team communicates based on the following guidelines:
 
 1. Always prefer async communication over sync meetings.
 1. Don't shy away from arranging a [sync call](#-ad-hoc-sync-calls) when async is proving inefficient, however always record it to share with team members.
@@ -462,14 +462,14 @@ We operate using async communication by default. There are times when a sync dis
 
 ### 🤗 Fostering Wider Community Contributors
 
-We want to make sure that all the fields of the Create:IDE team are approachable for outside contributors.
+We want to make sure that all the fields of the Create:Remote Development team are approachable for outside contributors.
 In this case, if issues should be good for any contribution it should be treated with extra care. Therefore have a look at this excellent guide written by our own Paul Slaughter!
 
 [Cultivating Contributions from the Wider Community][community-contributions]: This is a summary of why and how we cultivate contributions from the wider community.
 
 ### 📹 GitLab Unfiltered Playlist
 
-The IDE Group collates all video recordings related to the group and its team members in [a playlist][youtube] in the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) YouTube channel.
+The Remote Development Group collates all video recordings related to the group and its team members in [a playlist][youtube] in the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) YouTube channel.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="ide" >}}
@@ -487,7 +487,7 @@ The IDE Group collates all video recordings related to the group and its team me
   {{< tableau/filters "GROUP_LABEL"="ide" >}}
 {{< /tableau >}}
 
-### Create:IDE Error Budget
+### Create:Remote Development Error Budget
 
 - https://dashboards.gitlab.net/d/stage-groups-detail-ide/stage-groups-ide-group-error-budget-detail?orgId=1
 - https://dashboards.gitlab.net/d/stage-groups-ide/stage-groups-ide-group-dashboard?orgId=1
