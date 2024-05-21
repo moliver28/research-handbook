@@ -431,7 +431,7 @@ The Total Rewards Analyst will collect the invoice and provide a department brea
 
 ## Bike to Work/Tax Saver Commuter Scheme
 
-GitLab uses TravelHub to assist with the administration of the bike to work/tax saver commuter scheme. The GitLab specific online portal can be found at [GitLab Travel Hub](https://gitlab.biketowork.co.uk/). Team members will need to register and account to enter the GitLab specific online portal. 
+GitLab uses TravelHub to assist with the administration of the bike to work/tax saver commuter scheme. The GitLab specific online portal can be found at [GitLab Travel Hub](https://gitlab.biketowork.co.uk/). Team members will need to register and account to enter the GitLab specific online portal.
 
 See the [Bike To Work Flyer](https://drive.google.com/file/d/1vLmVX18ptsKj-AFpAK24-eOaNj7fxlfs/view?usp=sharing) and the [Bike To Work Employee site](https://www.biketowork.co.uk/employees-information) for more details
 
