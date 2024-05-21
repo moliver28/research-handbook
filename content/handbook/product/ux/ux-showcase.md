@@ -63,7 +63,7 @@ Successful showcases share these aspects:
     The UX Showcase is to share and discuss your work informally, not fancy storytelling.
 - **Just enough sophistication**:
     Help us strive for a [low level of shame](/handbook/values/#low-level-of-shame) and share your work with as little sophistication as possible.
-    While some topics gain from a more sophisticated presentation, this sophistication raises the perception of quality, puts unnecessary pressure on other speakers, and might make it harder for others to engage.
+    While some topics gain from a more sophisticated story, this sophistication raises the perception of quality, puts unnecessary pressure on other speakers, and might make it harder for others to engage.
 - **Relatable**:
     Structure your story with the audience in mind, to elicit feedback from them, and highlight potential overlaps.
     This makes it easier for people to relate, find value, and engage.
@@ -75,7 +75,7 @@ Successful showcases share these aspects:
 
 See [helpful tips](#helpful-tips-for-those-sharing).
 
-Examples of minimal UX Showcase presentations:
+Examples of minimal showcases:
 
 - [Fulfillment: Improve provisioning and onboarding of new sales assisted GitLab com subscribers](https://youtu.be/JYl2_Pnh_-I )
 - [Secure: Validating and prioritizing your roadmap](https://youtu.be/FVhZ_XNiR6U)
@@ -86,11 +86,11 @@ Examples of minimal UX Showcase presentations:
 
 - Prior to the UX Showcase, add your specific topic to the meeting agenda.
 - If this is an APAC showcase and there is no host yet, consider [hosting](#hosting).
-- Provide context for the problem you were trying to solve:
+- Provide context for the problem:
     - The scope of the problem
-    - Why was it important to solve?
+    - Why was/is it important to solve?
     - What did we learn during research?
-    - Were there any constraints that impacted the solution?
+    - Any constraints that impact the solution?
 - State the desired goals of the work:
     - What is the desired business and customer outcome?
     - Ideally, describe the [JTDB](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
@@ -98,24 +98,28 @@ Examples of minimal UX Showcase presentations:
     - What were the constraints?
     - How did you iterate toward an MVC?
 - Walk your audience through the solution iterations:
-    - You might prepare a few slides, but this is optional
-    - Be yourself and tell the story of the work you did
-    - Use existing mockups and flows, rather than creating something new
+    - You might prepare a few slides, but this is optional.
+    - Be yourself and tell the story of the work you did.
+    - Use existing mockups and flows, rather than creating something new.
+- Invite discussion:
+    - How might this overlap with or help other teams?
+    - What are the current challenges, next steps, and open questions?
+    - How might others approach this or help you?
 
 ### Helpful tips for those sharing
 
-- Introduce yourself and provide [context](#preparation) for your presentation.
+- Introduce yourself and provide [context](#preparation) for your topic.
 - [Make the participant experience an enjoyable one](/handbook/tools-and-tips/zoom/#make-the-participant-experience-an-enjoyable-one): avoid moving around too fast (for example, when showing a Figma prototype), or back and forth between views because you forgot to say one thing at the previous one.
-- [When sharing your screen](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom), consider going fullscreen so that the audience can see the details of your presentation.
+- [When sharing your screen](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom), consider going fullscreen so that the audience can see the details.
     - Useful Figma keyboard shortcut on macOS to show/hide UI: `⌘\` or `⌘.`.
-- Make sure the minimum font size of text in your presentation is large enough so that it can easily be read by everyone.
+- Make sure the minimum font size of text in your story is large enough so that it can easily be read by everyone.
 - [Provide links](/handbook/tools-and-tips/zoom/#provide-links-rather-than-sharing-while-you-present-or-edit) in the agenda doc that are relevant to your story, such as, issues, epics, Figma files, FigJam boards, and recordings.
-- When sharing directly from Figma files and issues, consider preparing an outline of the things you want to cover beforehand, filling in a few details of points you want to mention. Use this as a guide while you present your showcase to make it more linear & easy to follow for the audience.
+- When sharing directly from Figma files and issues, consider preparing an outline of the things you want to cover beforehand, filling in a few details of points you want to mention. Use this as a guide while you speak to make it more linear and easy to follow for the audience.
 - Is your internet connection limited? Stop the Zoom camera feed or try [these tips](https://www.canr.msu.edu/od/educational-technology/tips-zoom-slow-connection).
-- Ask people to share their questions after a section of your shared work.
+- Ask people to share their questions after a section of your story.
 - It’s normal to have anxiety when everyone is looking at you. Remember: We’re here to support each other, not to judge each other.
 
-Read more about presentation tips in the [communication handbook page](/handbook/communication/#presentations).
+For more presentation tips, see the [communication handbook page](/handbook/communication/#presentations).
 
 ## Hosting
 
@@ -129,16 +133,16 @@ To limit the amount of post-UX Showcase editing, please start and stop (not paus
 
 If you need to edit the videos at all, you can use a video editor like iMovie.
 
-Otherwise,
+Otherwise:
 
-1. Locate the video clips on your computer
-1. Name the videos with "UX Showcase" + the title of the presentation
-1. Check with presenters to make sure the video is appropriate for the public (no customer names)
-1. Upload the videos to [GitLab Unfiltered](https://m.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz)
-1. Add the videos to the [UX Showcase playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) and [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5)
-1. Set the visibility to Public
+1. Locate the video clips on your computer.
+1. Name the videos with "UX Showcase" + the title of the topic.
+1. Check with speakers to make sure the video is appropriate for the public (no customer names).
+1. Upload the videos to [GitLab Unfiltered](https://m.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz).
+1. Add the videos to the [UX Showcase playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz) and [UX Team playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqkW0oPW3n0HqVgKcONVnO5).
+1. Set the visibility to Public.
     - NOTE: If the video content contains items that are un[SAFE](/handbook/legal/safe-framework/) mark the video as Private.
-1. Share the YouTube links in `#ux` and `#product` Slack channels with a brief description of each presentation
+1. Share the YouTube links in `#ux` and `#product` Slack channels with a brief description of each topic.
     - Add the same update to the Engineering Week-In-Review document. The document is available in the description of our internal [`engineering-fyi` Slack channel](https://gitlab.slack.com/archives/CJWA4E9UG).
 
 #### Helpful tips
