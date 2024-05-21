@@ -201,7 +201,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 
 ## Active Working Groups (alphabetic order)
 
-1. [17.0 Major Release]({{< ref "17-0-major-release" >}})
+1. [Major Releases]({{< ref "major-releases" >}})
 1. [Account Escalation Process]({{< ref "account-escalation-process" >}})
 1. [Automotive Development]({{< ref "automotive-development" >}})
 1. [AWS/GCP Partnerships](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/11)
