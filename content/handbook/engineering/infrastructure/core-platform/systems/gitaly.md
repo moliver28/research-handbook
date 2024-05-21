@@ -22,7 +22,9 @@ Processes fully independent of business inputs (such as repository maintenance) 
 
 Please see the public [product direction for Gitaly](https://about.gitlab.com/direction/gitaly/).
 
-A more [detailed internal roadmap and vision](https://internal.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/gitaly/roadmap/) can be found in the internal handbook.
+The [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/gitaly/roadmap/) driving the roadmap can be found in the internal handbook.
+
+The current roadmap is [this epic board](https://gitlab.com/groups/gitlab-org/-/epic_boards/1058926?label_name[]=Roadmap&label_name[]=group%3A%3Agitaly). See [Roadmap planning](#roadmap_planning) below as to how this is managed.
 
 #### Featured upcoming large architectural changes
 
@@ -279,16 +281,28 @@ $ base=$(git merge-base origin/master topic)
 $ ./shears.sh --merging --onto origin/master $base
 ```
 
+### Roadmap planning
+
+The current roadmap is [this epic board](https://gitlab.com/groups/gitlab-org/-/epic_boards/1058926?label_name[]=Roadmap&label_name[]=group%3A%3Agitaly). It consists of themes/projects running for a quarter or longer (in some cases, much longer). It is okay to add sub-projects directly to the roadmap in the latter case.
+
+- Anyone can propose a project: file an epic and discuss with the team (and EM+PM). Don't forget the `group::gitaly` label.
+- Once accepted, we add the `Roadmap` label.
+- Ongoing roadmap items get `roadmap::now`,  while `roadmap::next` and `roadmap::later` show what's been triaged and pushed into the future for now.
+- At each quarterly planning:
+  - we review roadmap items (using arguments from the [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/gitaly/roadmap/), current business priorities etc) 
+  - and then take on OKRs that push those goals forward.
+
 ### Quarterly OKR planning
 
 OKR planning is done before every quarter for the next 3 milestones, with input from everyone. At that time, we must already have a good idea of the work that needs to be done.
 
 The process is as follows:
 
-1. EM+PM (with input from engineers and stakeholders): decide the scope we'll be working on.
+1. EM+PM (with input from engineers and stakeholders): decide the scope we'll be working on. Update the roadmap.
 
-1. EM+PM+Engineers: File issues for the work, not for KRs -- the work may slip or get rescheduled. We'll use these to track the actual work being done.
-1. EM: File Objectives and Key Results [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Agitaly&first_page_size=20) and tie them to the actual work. We use these for reporting/communication of what we want to work on, project goals for the quarter, and its progress. Where possible, align with the larger organization's objectives.
+1. EM+PM+Engineers: Based on roadmap items, file smaller epics/issues if needed that can be completed in 3 milestones (ie one quarter). Tie them to the overall project epics. This is where we'll track the actual work.
+
+1. EM: File Objectives and Key Results [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Agitaly&first_page_size=20) and tie them to the actual work. We use these for reporting/communication of what we want to work on, project goals for the quarter, and its progress. Where possible, align with the larger organization's objectives. If possible, add a preliminary scoring table ("what does it mean to reach 20% of this OKR?").
 
 1. PM: Once the scope of the quarter is clear, take the list of issues and assign one of the three milestones, along with `workflow::planning breakdown` (for large issues in need of breakdown) or `workflow::ready for development`.
 
