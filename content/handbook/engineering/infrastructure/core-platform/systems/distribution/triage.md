@@ -126,10 +126,6 @@ triage duty can be summarized as follows
    you think something should be changed regarding the process. Also, create a
    similar header for the next presenter as an agenda item for the next week's
    meeting in the meeting doc.
-1. Close the meta issue.
-1. Create a new meta issue for the next team member on triage duty, and assign
-   them to it. The issue title should be `Issue triage rotation week of <starting
-   date>`. Use the `Triage` template to fill in the description.
 
 #### Response templates
 
