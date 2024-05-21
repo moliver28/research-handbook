@@ -38,7 +38,6 @@ The observability space is a mature and competitive industry, meaning there are 
 
 We opt for industry accepted standards and implementations, which reinforces our principle of portability.
 
-
 ### Data should have one source of truth
 
 We have a lot of data, and duplicating it in multiple different locations becomes expensive.
@@ -53,7 +52,7 @@ This is an aspirational list of goals that we would like to achieve in the next 
 
 We are faster together.  If we improve how we work with other teams at GitLab, we make their jobs and our jobs easier, and we can focus on new and additional problems.
 
-#### Goals within this theme:
+#### Goals within this theme
 
 - Determine who our internal customers are and make certain that we're meeting their needs by soliciting feedback
 - Determine other observability tools and who is using them and who owns them (Sentry, Tableau, etc)
@@ -70,7 +69,7 @@ We are faster together.  If we improve how we work with other teams at GitLab, w
 
 Adding a new service to the observability stack today is a complicated and not well understood process.  Adding new metrics to the source side is also only partially understood.  We should create as the right tools and abstractions to make it so that all our customers can self-service onboarding to the system.  This will also have the benefit that the system will become easier to maintain.
 
-#### Goals within this theme:
+#### Goals within this theme
 
 - Provide reference tooling for teams to onboard themselves to the observability stack (helm charts, cloud run configs)
 - Create reusable abstractions that can be used for a wide variety of systems within GitLab and are easy to self-service
@@ -81,7 +80,7 @@ Adding a new service to the observability stack today is a complicated and not w
 
 In order to work efficiently, we make data driven decisions on the health of our system, improve the ease of use for ourselves and for other teams, and make certain that we're focusing on self-service.
 
-#### Goals within this theme:
+#### Goals within this theme
 
 - Set SLOs for availability and correctness of observability tools (metrics, logging, capacity planning, etc)
 - Set SLOs for mean time for changes to take effect for metrics and observability deployments
