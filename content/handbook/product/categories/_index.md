@@ -316,7 +316,7 @@ Maybe we should make our features easier to search to replace the section below.
 - [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/)
 - [GitLab CLI](https://gitlab.com/gitlab-org/cli)
 
-#### [IDE group](/handbook/product/categories/#ide-group/)
+#### [Remote Development group](/handbook/product/categories/#remote-development-group/)
 
 - [GitLab Workflow extension for Visual Studio Code](https://docs.gitlab.com/ee/user/project/repository/vscode.html)
 
