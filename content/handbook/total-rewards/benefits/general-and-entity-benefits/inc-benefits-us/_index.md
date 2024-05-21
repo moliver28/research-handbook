@@ -168,7 +168,6 @@ If you do not enroll in a plan within your benefits election period, you will au
 
 ### Cigna Medical Plans
 
-
 Below are the details for the 2024 Calendar Year. For details of the 2023 plan, please refer to [**2023 Calendar Year**](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/5b8646cc905cb0aad9890c38ab4636f17ff3d5ef/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
 
 **Coverages:**
