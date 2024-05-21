@@ -116,7 +116,7 @@ Everything in the Staff Product Designer role, plus:
 - **Deliverables:** Solve design problems of the highest scope, complexity, and ambiguity for your stage.
 - **Design reviews:** Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews) across teams to ensure high-quality output, and model best practices for giving and receiving feedback.
 - **Early adoption:** Drive the adoption of new processes, tools, and methods to improve the UX maturity of the organization.
-- **Communication:** Communicate UX activities with a focus on business outcomes, model best practices in feedback exchange, and guide conversations to remove blockers and encourage collaboration across teams.
+- **Communication:** Communicate UX activities with a focus on business outcomes, and guide conversations to remove blockers and encourage collaboration across teams.
 - **Iteration:** Lead and coach iteration in the organization, encourage quick feedback loops and completion over perfection, and help cross-functional team members break down solutions into actionable steps, aligned with long-term goals.
 - **Mentoring:** Actively engage with and support designers' career development, mentor cross-functional team members and UX leaders, and foster a skill-building environment within the department.
 - **Product knowledge:** Deeply understand the technology and features within your stage and have knowledge of the end-to-end GitLab product.
