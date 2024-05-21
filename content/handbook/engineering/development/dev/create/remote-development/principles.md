@@ -7,7 +7,6 @@ description: "What Are the Create:Remote Development Team Principles?"
 
 ## Overview
 
-
 We outline the Create:Remote Development team principles as practical applications of our [CREDIT value system](/handbook/values/). These principles are not meant to be exhaustive. This page contains our formalized observations about how the Create:Remote Development team operates, and other teams in GitLab may have different perspectives.
 
 
@@ -23,7 +22,6 @@ We strive to be bold and ruthless about deleting code or features that don't pro
 
 ## Embrace challenge and discomfort
 
-
 Software development is often a challenge, and comes with various forms of discomfort. On the Create:Remote Development team we lean onto this discomfort as an expected part of the development process, and look for creativity in these situations. We quickly accept situations as they are, rather than being upset or worried about them. We don't mind being surprised by challenges during development; we accept them as part of the process.
 
 ## Keep the fun
@@ -37,4 +35,3 @@ We're all fun people in Create:Remote Development and we embrace that. We strive
 ## Measure what matters
 
 At GitLab, we seek to measure useful data to help us build better software for our end users. In the Create:Remote Development team, we aim to be extremely careful and purposeful about what we choose to measure and to what extent that influences our decisions, based on how much value we feel it offers our end users.
-
