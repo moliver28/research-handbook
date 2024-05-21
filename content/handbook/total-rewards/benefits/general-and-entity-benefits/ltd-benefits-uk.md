@@ -431,9 +431,11 @@ The Total Rewards Analyst will collect the invoice and provide a department brea
 
 ## Bike to Work/Tax Saver Commuter Scheme
 
-GitLab uses TravelHub to assist with the administration of the bike to work/tax saver commuter scheme. The GitLab specific online portal can be found at [GitLab Travel Hub](https://gitlab.biketowork.co.uk/). Team members will need to register and account to enter the GitLab specific online portal. Here is a link to TravelHub's [FAQs](https://support.hubex.ie/hc/en-ie/articles/360044040031) about these programs.
+GitLab uses TravelHub to assist with the administration of the bike to work/tax saver commuter scheme. The GitLab specific online portal can be found at [GitLab Travel Hub](https://gitlab.biketowork.co.uk/). Team members will need to register and account to enter the GitLab specific online portal. 
 
-There is a limit of £1000 for the total cost of the bicycle and accessories. The scheme may now be availed of once in 4 consecutive tax years, previously this was once every 5 years.
+See the [Bike To Work Flyer](https://drive.google.com/file/d/1vLmVX18ptsKj-AFpAK24-eOaNj7fxlfs/view?usp=sharing) and the [Bike To Work Employee site](https://www.biketowork.co.uk/employees-information) for more details
+
+There is a limit of £3000 for the total cost of the bicycle and accessories. The scheme may be availed once in 4 consecutive tax years.
 
 #### Bike Applications
 
