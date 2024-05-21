@@ -268,13 +268,11 @@ While diligently pursuing our objectives, we also recognize the significance of 
 1. **Maximum issue size**: To rule out likely surprises and extra investigation, only issues with [weight 1-2](#issue-weighting) are acceptable for "~Environments::EngineeringChoice".
 1. **Tracking in Milestone Planning**: Progress and choices under the "~Environments::EngineeringChoice" category will be monitored and recorded in a specific section of the Milestone Planning issue.
 
-#### Bug fixing and priortized work
+#### Bug fixing and prioritized work
 
 In every milestone plan, we compile a list of bugs due in the coming milestone based on the severity SLA.
 
-In addition to the self-scheduling of feature development, the manager will from time to time assign bugs, or other work deemed important, directly to a team member.
-
-On top of the official issue-triaging process, when severity labels are assigned/changed, we aim to set the issue due date at the same time. If there are bugs with a severity label and without a deadline,
+When severity labels are assigned/changed on a `~type::bug` issue, we aim to set/adjust the issue due date at the same time.
 everyone is encouraged to set the deadline based on the date of the last severity label update and [the SLA for the given severity](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
 
 ##### Best practices for managing bug issues
@@ -317,6 +315,39 @@ Best practices for managing multi-part bug issues:
     members to ask if there's availability within the Due Date. cc your
     engineering manager so they can give a high level thumbs up/thumbs down
     regarding the change in priority.
+
+##### Bug resolution process
+
+The entire bug resolution process includes the following phases in order:
+
+1. GitLab Issue triage procedure: we have a handbook section we can follow
+   [here](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#priority)
+
+2. Environment's team [refinement process](#issue-refinement)
+
+3. [Planning](#planning)
+
+4. Reprioritazation. The EM will change unplanned `p3` bugs that have had no
+   activity to `p4` and remove the due date.
+
+###### Putting the process together
+
+- Bug must be refined a milestone before it is due. This is done by the
+  refinement DRI.
+- Bug fix must be planned for a milestone that ends before the bug's due date.
+  This takes place on the milestone planning issue.
+- Reprioritazation will have a dedicated section in the milestone planning
+  issue.
+- Outdated bugs are closed in accordance with [the existing handbook
+  practice](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#outdated-issues)
+
+###### Best practices
+
+- Read the issue triage [handbook page](https://handbook.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
+- Ask the reporter for detailed steps to reproduce the problem, including minimal setup and expected versus actual outputs.
+- Request relevant documentation to validate the unexpected behavior, or an explanation if no documentation exists.
+- If the reporter is a GitLab team member, inquire if there are any insights on the impact of the issue, such as the number of users affected or specific features involved, to help prioritize the resolution.
+- Partner with the PM if you think it may not actually be a bug.
 
 #### Say-do ratio
 
@@ -396,7 +427,7 @@ addressed, or scheduled for work. Additional issues should be created and added 
 rake tasks, database migrations, or other tasks that need to be run, they need to see those through to being
 run on the production systems with the help of the Site Reliability counterpart.
 
-This places a lot of responsibility with the DRI, but the PM and EM are always there to support them. This ownerships
+This places a lot of responsibility with the DRI, but the PM and EM are always there to support them. This ownership
 removes bottlenecks and situations where only the PM or EM is able to advance an idea. In addition, the best people
 to decide on how to implement an issue are often the people who will actually perform the work.
 
