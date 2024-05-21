@@ -4,7 +4,7 @@ title: Create Stage
 description: >-
   The Create Stage is a group of teams including
   Code Creation, Code Review, Editor Extensions,
-  IDE, and Source Code.
+  Remote Development, and Source Code.
 ---
 
 
@@ -18,7 +18,7 @@ description: >-
 | [Create:Code Creation](/handbook/engineering/development/dev/create/code-creation/) | [Matt Nohr](/handbook/company/team/#mnohr) (Fullstack) |
 | [Create:Code Review](/handbook/engineering/development/dev/create/code-review/) | [François Rosé](/handbook/company/team/#francoisrose) (Backend) [André Luís](/handbook/company/team/#andr3) (Frontend) |
 | [Create:Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/) | [Kisha Mavryck Richardson](/handbook/company/team/#kishamavryck) (Fullstack) |
-| [Create:IDE](/handbook/engineering/development/dev/create/ide/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
+| [Create:Remote Development](/handbook/engineering/development/dev/create/remote-development/) | [Adebayo Adesanya](/handbook/company/team/#adebayo_a) (Fullstack) |
 | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) |  [André Luís](/handbook/company/team/#andr3)  |
 
 ## Mission
