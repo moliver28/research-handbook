@@ -5,15 +5,7 @@ innovative technical solutions to automate, scale, and streamline business
 operations"
 ---
 
-As a Data Engineer in Corporate Development, you'll be in charge of developing
-innovative technical solutions to automate, scale, and streamline business
-operations; helping the Corporate Development team achieve its
-[OKRs](/handbook/company/okrs/) and [KPIs](/handbook/company/kpis/). Your main focus will be
-our acquisition prospect
-[scoring program](https://gitlab.com/gitlab-com/corporate-development/issues/1).
-The program will scrape data from websites, blogs, Twitter, etc., and integrate
-data from external data providers, to identify and score companies that might be
-open to a [soft-landing acquisition](https://about.gitlab.com/blog/2019/07/30/gitlab-acquisitions/).
+As a Data Engineer in Corporate Development, you'll be in charge of developing innovative technical solutions to automate, scale, and streamline business operations; helping the Corporate Development team achieve its [OKRs](/handbook/company/okrs/) and [KPIs](/handbook/company/kpis/). Your main focus will be our acquisition prospect [scoring program](https://gitlab.com/gitlab-com/corporate-development/issues/1). The program will scrape data from websites, blogs, Twitter, etc., and integrate data from external data providers, to identify and score companies that might be open to a [soft-landing acquisition](https://about.gitlab.com/blog/2019/07/30/gitlab-acquisitions/).
 
 ## Responsibilities
 
