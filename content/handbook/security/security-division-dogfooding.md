@@ -8,7 +8,7 @@ The Security Division plays a critical role in ensuring the security of GitLab a
 
 This dogfooding program aims to improve the effectiveness and efficiency of collaboration between Product Management and Security as it pertains to capabilities of the GitLab platform.
 
-Historically, dogfooding within the Security Division has not been handled through a formalized program which has likely limited the success of dogfooding efforts. 
+Historically, dogfooding within the Security Division has not been handled through a formalized program which has likely limited the success of dogfooding efforts.
 
 Historical challenges include:
 
@@ -22,7 +22,7 @@ Historical challenges include:
 These outcomes are all within the context of the Security Division.
 
 1. Anyone at GitLab should be able to understand:
-    1. How much of the GitLab platform is in use by the division. 
+    1. How much of the GitLab platform is in use by the division.
     1. Which capabilities are used in their entirety, partially, or not at all by the division.
 
 1. Product Management should be able to understand:
@@ -36,7 +36,6 @@ These outcomes are all within the context of the Security Division.
     1. How to provide effective feedback to Product Management and Product Security Engineering.
     1. How to contribute quality code contributions back to the platform.
     1. Which custom tools are used by the division, and their rationale
-
 
 ### Program Leadership and Stakeholders
 
@@ -67,15 +66,13 @@ TBD
 
 ## Key Processes
 
-
-
 ### Management of Security Personas
 
 TBD
 
 ### Methodlogy for Dogfooding Assessment
 
-####  Alignment with Product Stages and Information Hierarchy
+#### Alignment with Product Stages and Information Hierarchy
 
 The organization of the presentation layer of dogfooding data should be done in a way to maximize the efficacy of output. To this end, information will generally presented in alignment with product stages in order to faciliate feedback loops that already mimic the mental models already prevalent across GitLab.
 
@@ -84,14 +81,17 @@ Unless pragmatism dictates otherwise, the ouptut of dogfooding analysis should b
 #### Documenting Capabilities Used, Partially Used, and Unused
 
 Used
+
 1. Current satisfaction
 1. Desired improvements
 
 Partials
+
 1. Partial because of limitations
 1. Partial because of internal capacity
 
 Unused
+
 1. Due to limitations
 1. Lack of awareness
 1. Planned, not yet being worked on
@@ -120,4 +120,3 @@ TBD
 ### Evaluating and assessing updated or newly introduced platform capabilities
 
 TBD
-       
