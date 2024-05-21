@@ -152,7 +152,7 @@ An unsubscribe link must be included on every email sent by a BDR, including res
 
 ### Do Not Call and Do Not Email Automations
 
-Leads with certain criteria will be automatically labeled as **Do Not Call** and or **Do Not Email** shortly after loading into our database. It's understandable this can be frustrating for certain territories. Please keep in mind, the criteria behind this automation has been set in order to follow local law. Please see the [Internal GitLab handbook](https://internal.gitlab.com/handbook/marketing/marketing-strategy-and-platforms/marketing-operations/do-no-contact) for more information on the triggers.
+Leads with certain criteria will be automatically labeled as **Do Not Call** and or **Do Not Email** shortly after loading into our database. It's understandable this can be frustrating for certain territories. Please keep in mind, the criteria behind this automation has been set in order to follow local law. Please see the [Internal GitLab handbook](https://internal.gitlab.com/handbook/marketing/marketing-ops-and-analytics/marketing-operations/do-not-contact/?search=do+not+call) for more information on the triggers.
 
 
 ### How to enroll to outreach
