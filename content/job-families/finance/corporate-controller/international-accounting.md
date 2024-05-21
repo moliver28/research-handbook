@@ -1,6 +1,5 @@
 ---
 title: "International Accounting"
-description: " _add high level description of job family_ "
 ---
 
 ### Manager, Accounting, Global Consolidation & Reporting
