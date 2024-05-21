@@ -93,10 +93,9 @@ Detailed overview of architecture, tooling and workflows are listed on the [Logg
 
 In order to scale GitLab.com infrastructure at the right time and to prevent incidents, GitLab employs a capacity planning process.
 
-The process has two components:
-
-1. Predictive - utilising a forecasting tool to predict future needs
-1. Reactive - utilising the output of the predictive component to inform actions of the specific Service owners
+The focus of the capacity planning process is to perform historical data analysis to predict future growth.
+From this analysis, GitLab leverages a process that provides information around saturation points, which are then delivered to service owners.
+Service owners then use this process to act on this information.
 
 The data sources used to feed the forecasting tool are historical saturation and utilization data used as part of standard monitoring of GitLab.com.
 
