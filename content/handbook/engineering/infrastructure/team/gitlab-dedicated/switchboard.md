@@ -213,6 +213,7 @@ In addition to the above when a change is being proposed to the UI the following
 1. If you require help or guidance with the UX or copy please ask **before** implementation begins on the issue
 
 **UI changes visible to external customers:**
+
 1. It is highly important to figure out any outstanding questions on the issue, including design changes, copy changes, and product requirements so that we can avoid ambiguity at the MR stage. This must translate to a concrete conclusion of design discussions in the issue before UI code changes are started.
 1. In the event of a missing UX/product piece at the MR stage, the DRI and issue assignee will collaborate to make a decision about whether the missing piece can be resolved on the MR or if it needs to be moved back to the issue for resolution. This is in accordance to the [DRI definition](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/#empowering-dris).
 1. The PM and Designer will deal with these requests as a top priority.
