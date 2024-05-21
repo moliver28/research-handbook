@@ -7,7 +7,6 @@ category: GitLab.com subscriptions & purchases
 
 ## Handling GitLab.com trial requests
 
-
 ### GitLab.com customers without a subscription
 
 1. New customers without an existing GitLab.com subscription and namespace can apply for a 30-day GitLab Ultimate subscription by completing the following [form](https://gitlab.com/-/trial_registrations/new?glm_source=about.gitlab.com/&glm_content=default-saas-trial).
@@ -68,7 +67,6 @@ If any fields when opening the ticket were filled out incorrectly,  send a publi
 
 If a customer is requesting a trial extension, please follow [Working with Sales workflow]({{< ref "working_with_sales" >}}) to let Sales team know in case they would like to have a discussion with the customer.
 
-
 ### SFDC generated temporary renewal extensions
 
 Account Executives (AEs) can use SalesForce.com (SFDC) to issue a SaaS 21-day Subscription extension to a customer when the renewal opportunity is taking longer than expected to close. When an AE uses this functionality, the subscription is automatically extended without any L&R Support involvement. The [Temporary renewal extensions](/handbook/product/fulfillment-guide/#temporary-renewal-extensions) handbook entry documents this approach.
@@ -92,8 +90,6 @@ Please note that the above approach has the following caveats:
    [Manage GitLab Plan and Trials]({{< ref "mechanizer#manage-gitlab-plan-and-trials" >}}).
 
 **Note**: We cannot extend the trial if the customer hasn't started one on the namespace. The Subscription name field in the ZenDesk Mechanizer app is there for that reason. When there's a Subscription name, the mechanizer will create a new trial for the namespace.
-
-
 
 ## Workflow diagram
 
@@ -152,7 +148,6 @@ From CustomerDot you can only change the plan type not the subscription end date
 > adding to an existing issue or creating a new one as required.
 
 If you get an error, use admin following the instructions in the next section.
-
 
 ### How to create an NFR (Not for resale) SaaS License
 

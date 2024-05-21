@@ -80,8 +80,3 @@ The technical diligence is part of our [acquisition process](/handbook/acquisiti
           - Is the architecture scalable or will it need to be refactored? Are infrastructure and frameworks fit to purpose and future purpose?
         - External dependencies
             - Is the application relying on third party functionality/services we would not want to adopt or have trouble finding an alternative service to?
-
-
-
-
-

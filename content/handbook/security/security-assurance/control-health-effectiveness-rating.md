@@ -87,7 +87,6 @@ CHER provides a qualitative value of a control's effectiveness that is used as a
 </table>
 {{% /details %}}
 
-
 #### Quantitative vs. Qualitative Terms and Definitions
 
 CHER is assigned on a control by control basis but in instances where we want to report on control family effectiveness, the CHER for each of the individual underlying controls in a control family can be averaged to provide a more holistic view. Refer to the Control Family Effectiveness Rating Table below for a mapping of averaged CHERs to the qualitative term and definition that can be used to report on control family health/effectiveness. Note that when using this table the final average of CHER values should be rounded **up** to the nearest quantitative value to determine the CHER for the control family (i.e if average of all CHER's equals 2.3, the final CHER for the control family would be rounded up to a 3).

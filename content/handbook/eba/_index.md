@@ -28,7 +28,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Sales](/handbook/sales/) | **Becky Piccone**<br>Sr EBA | Sherrod Patching (VP of CSMS)<br>Jonathan Fullam (VP of Global Solutions Architecture) <br> Kevin Lake (VP of Professional Services & Education) |
 | [Sales](/handbook/sales/) | **Kiran Gill**<br>Sr EBA | Jake Bielecki (VP of Field Operations) <br> Patty Cheung (VP of WW Channels & Alliances) |
 | [Sales](/handbook/sales/) | **Victoria Reinhardt**<br>Sr EBA | Bob Stevens (VP of Public Sector Sales) <br> Darren Moffett (VP of AMER Sales) |
-| [Security](/handbook/security/) | **Marisa Carlson**<br>Sr EBA  | Josh Lemos (CISO) |
+| [Security](/handbook/security/) | **Marisa Carlson**<br>Sr EBA  | Josh Lemos (CISO) <br> Julie Davila (VP of Product Security)  |
 
 ## Contact us
 
@@ -37,6 +37,7 @@ Please feel free to ping/hang out with us in slack at #eba-team. If you need to 
 ## Meeting request requirements
 
 If you would like to schedule a meeting with a Leader at GitLab, please slack the appropriate EBA in #eba-team with the following information (or DM if confidential):
+
 1. Must have/optional attendees
 1. Meeting type: internal prep, client facing/customer, prospective customer, etc
 1. Urgency/ Desired timeframe: in the next two days, in the next week or two, etc
@@ -60,12 +61,14 @@ Please follow the instructions above for scheduling a call with your customer, p
 ### E-Group / VP In-Person Customer Visit Requests
 
 If you would like to request that an E-Group member / VP travel to visit a customer, please review [this template](https://docs.google.com/spreadsheets/d/1HxjfvOSRkZ61s6MGLINCjdgsjlz5AouwIQSPDM4ODrY/edit?usp=sharing) in its entirety to understand expectations.
+
 - Please coordinate with [respective EBAs](https://docs.google.com/presentation/d/1_tRO-5bDjcwUfqsLazfy4AcqeCLe8jOvDl04BHYlhEE/edit?usp=sharing) on aligning all visit details. If the requested GitLab Executive does not have an EBA, please work with them directly. Please tag applicable EBAs in the #eba-team Slack channel to get the process started.
 - Note: It is encouraged that an [Internal Briefing Document](https://docs.google.com/document/d/1eTFV_U16mmKkeI_GcXeFl1eHc5KsN6nI8Kf64UTxFmM/edit?usp=sharing) has been completed prior to requesting. Executive attendance to ensure proper background and prioritization.
 
 ### Requesting Customer Meetings for your Executive
 
 If your Executive is requesting customer meetings while onsite on virtually, please refer to the following contacts as a helpful starting point. These contacts will assist in engaging the proper Sales representatives:
+
 - **AMER**: Darren Moffett, VP AMER Sales
 - **APJ - APACJ/Japan**: Craig Nielsen, VP Sales APAC
 - **EMEA**: Michel Isnard, VP of Enterprise Sales
@@ -244,4 +247,3 @@ More information can be found [here](/job-families/people-group/executive-busine
 - Scan and upload to Google drive?
 - Scan and email?
 - Send originals where?
-

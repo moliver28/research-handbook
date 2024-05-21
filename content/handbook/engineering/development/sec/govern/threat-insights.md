@@ -18,11 +18,23 @@ to be addressed quickly.
 
 **Estimate potential impact and likelihood of vulnerability exploitation** - Give users the ability to access risk directly in the vulnerability report through industry known risk scores like CVSS (Common Vulnerability Scoring System) and exploitability probability.
 
-E**nable users to track vulnerabilities across multiple branches** - Allow users to track vulnerabilities outside the default branch.
+**Enable users to track vulnerabilities across multiple branches** - Allow users to track vulnerabilities outside the default branch.
 
 **Offer guidance for users to get started with vulnerability remediation** - leverage the power of AI and security training to help developers understand and remediate vulnerabilities.
 
 **Threat Insights features are reliable and perform at scale** - As we add more group and organization level features, we will be optimizing query performance and move forward with confidence that our database will scale and perform as we grow.
+
+### Threat Insights teams
+
+{{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Govern:Threat Insights" %}}
+
+{{% team-by-manager-slug manager="ryaanwells" team="end Engineer(.*)Govern:Threat Insights" %}}
+
+## Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+{{% stable-counterparts role="Govern:Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
 
 ## Common Links
 
@@ -48,9 +60,7 @@ Both teams have Backend and Frontend engineers, and as such work on any part of 
 
 We use the scoped labels `~"Threat Insights::Navy"` `~"Threat Insights::Tangerine"` to designate work for each team. Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "sming-gitlab" >}}.
 
-
 ### Metrics
-
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
@@ -83,9 +93,9 @@ Additional information can be found on the [Planning page](/handbook/engineering
 * The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/9951) for 16.0-16.11.
 
 ### Tracking Deliverables
-* Issues that are marked as Deliverables for a milestone serve as the single source of truth for what we aimed to deliver for a given milestone. Throughout the milestone, things may change, become blocked, etc. _Ideally, we'd like to keep the Planning Issue unchanged after the milestone starts._
-* Something is considered delivered if it is either a. merged into production in time for the release date, b. completed before the next milestone start, or c. the feature flag enabling the feature is turned on.  It is important to keep track of the milestone of the deliverable; we encourage self-managed customers to turn on feature flags so they can try different features. Ensuring the milestone is correct, allows someone to tell if that change is available in a specific release.
 
+* Issues that are marked as Deliverables for a milestone serve as the single source of truth for what we aimed to deliver for a given milestone. Throughout the milestone, things may change, become blocked, etc. *Ideally, we'd like to keep the Planning Issue unchanged after the milestone starts.*
+* Something is considered delivered if it is either a. merged into production in time for the release date, b. completed before the next milestone start, or c. the feature flag enabling the feature is turned on.  It is important to keep track of the milestone of the deliverable; we encourage self-managed customers to turn on feature flags so they can try different features. Ensuring the milestone is correct, allows someone to tell if that change is available in a specific release.
 
 ### MR Reviews
 
@@ -135,6 +145,7 @@ Note that an issue probably shouldn't go directly from On Track to At Risk. That
 ### Running E2E specs in the MR pipeline
 
 We encourage running the `e2e: package-and-test` downstream [E2E job](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/#testing-code-in-merge-requests) in merge requests at least once and review the results when there are changes in:
+
    * GraphQL (API response, query parameters, schema etc)
    * Gemfile (version changes, adding/removing gems)
    * Database schema/query changes

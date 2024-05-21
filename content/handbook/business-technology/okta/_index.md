@@ -50,7 +50,6 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 **Using [WebAuthn](https://www.okta.com/sites/default/files/pdf/How_WebAuthn_Works_0.pdf) authentication is required for all team members.**
 
-
 1. While logged in to Okta from the device you wish to add, access the [Settings](https://gitlab.okta.com/enduser/settings) page.
 1. In the 'Security Methods' section of the page, choose `Set up` or `Set up another` next to `Security Key or Biometric`.
 1. You will then presented with a password verification and passkey verification prompt.
@@ -59,7 +58,6 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 <img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
 
 1. For iCloud Keychain or a YubiKey, click "Use a different passkey". For the local Chrome browser choose "Continue".
-
 
     <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Add Passkey #1" width="300"/>
 
@@ -70,7 +68,6 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 1. If you chose to use the iCloud Keychain or Security Key, choose the correct option to finish enrollment.
 
     <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Add Passkey #2" width="300"/>
-
 
 1. For Security Key, relevant prompts will appear.
 
@@ -102,6 +99,7 @@ We have also prepared Introductory Videos on [Configuring Applications](https://
 ### I want to add Touch ID / Face ID / Face Authentication to Okta for my mobile device (iPhone/iPad or Android)
 
 These steps are for an iPhone, and may be slightly different for Android.  If you are using an iPhone and receive a Developer or XCODE error, please upgrade to iOS 16+. We recommend enrolling a phone even if you don't plan to use it often, in case you need a way to [add a new computer or your credential gets accidentally removed on the computer](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled).
+
 1. On the computer, if using Chrome, please check that it is on the latest version by visiting the URL `chrome://settings/help` - if a new version is available, please use the `Relaunch` button to restart the browser.
 1. On your Mac, please also check that you are using macOS Ventura [13.0.1](https://support.apple.com/en-us/HT201260#:~:text=From%20the%20Apple%20menu%20%EF%A3%BF,version%20number%20to%20see%20it.) or newer.
 1. On your Mac, please check under "System Settings"->"Privacy & Security"->"Bluetooth" and make sure that Google Chrome has Bluetooth access enabled.
@@ -137,6 +135,7 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 ### I want to login or add a new computer to Okta and I have a mobile device enrolled
 
 This method has been verified on Macs and Linux with Chrome. For Safari, it requires macOS Ventura 13+. Steps below for iPhone require iOS 16+, may be slightly different for Android.
+
 1. On the computer, log in with username and password
 1. On the computer, a popup appears to "Verify your identity with gitlab.okta.com"
 1. On the computer, choose "Use phone with a QR code". This requires Bluetooth to be enabled on both the phone and the laptop, but doesn't require pairing.
@@ -153,7 +152,6 @@ If both of previous devices are not available, you could use a [YubiKey](https:/
 ### I would like to get a YubiKey, how can I do so?
 
 Please fill open up the Slack form using /yubikey in a DM to yourself, ([check out our guide for some additional information](/handbook/it/guides/yubikey/)), and we will coordinate shipment of one to you thru our group buy.
-
 
 ### Lost access to your 2FA or your OKTA account has been locked out because of failed attempts?
 
@@ -223,7 +221,6 @@ The GitLab Team Member Enablement team has created a new process for Owners and 
 When a member is added/removed from the group it may take up to 1 hour for the sync to happen between Google and Okta. Once the sync happens the user will see the application in Okta, if removed the opposite.
 If you have any questions or require assistance please reach out to the IT team in the #it-help Slack channel.
 
-
 ## Why isn't an application I need available in Okta?
 
 Create a [new application setup issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issuable_template=okta_new_app_request) and fill in as much information as you can.
@@ -261,4 +258,3 @@ Please reach out to [`#it_help`](https://gitlab.slack.com/messages/it_help) Slac
 ## Where do I go if I have any questions?
 
 - For Okta help, setup and integration questions: `#it_help` slack channel
-

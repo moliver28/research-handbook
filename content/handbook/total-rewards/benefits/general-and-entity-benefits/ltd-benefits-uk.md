@@ -14,6 +14,7 @@ Please note: team members enrolled will still be responsible for the BIK ("Benef
 Further information can also be found in the [AXA PPP Brochure](https://drive.google.com/file/d/130IiyCm1qoCUYunqgGvwQGu7btvu0e0R/view?usp=sharing).
 
 Please let the Total Rewards team know if you would like to join the scheme via email to `total-rewards@gitlab.com` and `Bryony.Smith@wtwco.com` Include the following details:
+
  1. Full name
  1. Date of Birth
  1. Current address
@@ -40,7 +41,6 @@ The current coverage includes:
    - £25 a year for eye test
 - Virtual GP appointments – [DR@Hand](https://drive.google.com/file/d/1YzkeG0qMLPLi6TEY6mQXqV8xooMQb4_Z/view?usp=sharing)
 
-
 **Please note: the AXA plan underwriting is based on a MHD (Medical History Disregarded) basis, meaning that pre-existing medical conditions that existed prior to the date on which the individual joined the AXA scheme will be covered for treatment** (subject to the rules and benefits of the AXA policy, please review your AXA membership package sent by AXA for further reference).
 
 \* Current team members enrolled and new joiners to the AXA plan will have cover for treatment of pre-existing medical issues they may have had before joining, without being a member for two years or being required to have 12 consecutive months of "trouble-free" from when the condition began (pre-existing moratorium terms no longer apply).
@@ -61,7 +61,6 @@ Please see the Annual 2024 Rates effective 2024-03-01:
 | Team Member + Child.     | £1537  | £1321.78 | £215.22 |
 | Family                   | £2,441  | £1918.42 | £522.58 |
 
-
 Please see the Monthly 2024 Rates effective 2024-03-01:
 | Tier                     | Total| GitLab's Cover <br> Benefit in Kind Value  | Team Member Cost <br> 34% of Dependent Cost  |
 |--------------------------|:---:|:----:|:----:|
@@ -71,7 +70,6 @@ Please see the Monthly 2024 Rates effective 2024-03-01:
 | Family                   | £203.41  | £159.87 | £43.55 |
 
 The Team Member cost will be deducted from their paycheck on a monthly basis. The Benefit in Kind amount will be reported on a monthly basis and team members will be taxed on the value of the benefit. An audit and reconciliation of Benefit in Kind reporting and Deductions will occur annually around February.
-
 
 ### Vision
 
@@ -297,6 +295,7 @@ Team members are entitled to Statutory Sick Pay (“SSP”)for up to 28 weeks, t
 ### Statutory Vacation Leave
 
 Team members are entitled to at least 28 vacation days which consist of 20 days of standard annual leave plus 8 public holidays. These days will accrue from the team member’s start date.
+
 - Entitlement to vacation leave is pro rata for any part-time team members based on hours worked.
 - It is important for UK team members to utilize time off for public holidays as the total amount of annual leave is accrued here inclusive of public holidays.
 - Team members must designate any vacation time taken as `Vacation` in Time Off by Deel to ensure that vacation entitlement is properly tracked.

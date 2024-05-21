@@ -73,7 +73,7 @@ It’s important to allocate the right amount of time for each part of the inter
   - Redirect the conversation as needed - you are in charge of keeping the conversation focused and timely.
 - Consider adding the question to the meeting chat after verbalising. This helps avoid communication issues and be more inclusive.
 - There is an unbalanced power relationship during the interview, and interviewers should be mindful of this fact. The interviewer is in a powerful position: they provide input that could decide if the candidate will move forward or not. Be as friendly and approachable as you can. This has the added value of getting people comfortable (over time) and allows you to get much better data.
-- Interview for soft skills. Pick some behavioral questions to get data on what the candidate has done before and how their behavior aligns with the [company values](https://handbook.gitlab.com/handbook/values/). You will be asked to evaluate how the candidate’s values align with our own in your feedback form, and asking behavioral questions is the best way to assess this.
+- Interview for soft skills. Pick some behavioral questions to get data on what the candidate has done before and how their behavior aligns with the [company values](/handbook/values/). You will be asked to evaluate how the candidate’s values align with our own in your feedback form, and asking behavioral questions is the best way to assess this.
 - If a candidate discloses outside project(s) or activity(ies), please notify the Recruiter.
 - Always encourage the interviewee to ask questions at the end, and be frank in your answers.
 - Be willing to discuss what went well and any concerns you may have.
@@ -199,7 +199,6 @@ This scorecard feature will increase sharing of candidates that, for example, ma
 **Competency:** Clear communication across all levels and departments
 
 **Key Takeaways:** Overall, I think he was the best candidate I have seen thus far. Plus, he is a diverse candidate. He reminded me of myself in many aspects. He had a well thought out presentation that was easy to understand, but I wish his example was more detailed.
-
 
 **This is a poor example of feedback for a few reasons:**
 

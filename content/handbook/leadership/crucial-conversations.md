@@ -48,7 +48,6 @@ These are just a few strategies outlined in the Crucial Conversation book. We [h
 | [Iteration]({{< ref "values#iteration" >}}) | Crucial conversations should happen early and often. The CPR (Content, Pattern, Relationship) encourages conversation early and often in the `content` category before something becomes a `pattern` |
 | [Transparency]({{< ref "values#transparency" >}})| Results, goals, and stories about crucial conversations are shared throughout teams to encourage more crucial conversations. While the content of specific conversations isn't always shared to maintain a safe space, the discussion about practicing crucial conversations keeps us accountable. |
 
-
 ## Strategies for Successful Crucial Conversations
 
 ### 9 Influencing Strategies

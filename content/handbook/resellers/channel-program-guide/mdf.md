@@ -88,6 +88,7 @@ Instructions on how to accept/reject/reassign a lead or register a deal and subm
       * Made payable to GitLab Inc. <br/>
 
 For partners who are claiming reimbursement for the **first time** only: <br/>
+
 - A **5 day exception** is added to the 30 days, giving partners a total of 35 days, from the activity end date, to submit their claim. This is in place in order to accommodate Partner’s onboarding process in GitLab's procurement system, [Coupa](/handbook/finance/procurement/coupa-faq/).
 - GitLab may reach out once to partner, but if no response is received and the 30 or 35 days has commenced, the activity will be canceled and no payment will be made thereafter.
 - GitLab is not responsible for reimbursing partners that submit a request after this 30 days or 35 days for new partners has passed.
@@ -125,7 +126,6 @@ For partners who are claiming reimbursement for the **first time** only: <br/>
 - If the MDF activity is a sponsorship and it does not have a specific contract from the partner legal will create one once communcated to them within the Zip approval process. This will then follow the same legal process as listed above.
 - Partners are responsible for submitting an MDF request through the Partner Portal.
 
-
 #### Phase 2: Processing MDF
 
 - When a MDF fund request is received, MDF Program Owner and the Channel Marketing Manager receive an email alert.
@@ -157,6 +157,7 @@ To better track the POP we have created a [MDF Operations Board](https://gitlab.
 - A communication will be made to the Channel Marketing Managers if claim has not yet been made and Channel Marketing Managers will reach out to Partners.
 
 Once a claim is submitted MDF Program Owner receives an automated email.
+
 - All of the files received by the partner are checked. If any documentation is missing or does not fulfill the MDF Guidelines we will reach out to partner.
 - All of the documentation gets uploaded to the POP issue and the label for MDF Program Owner to review and approve.
 - MDF Program Owner checks every POP issue, looking at lead list, invoice and supporting images/pdfs and approves it or tags Channel Marketing Managers if there’s a concern.
@@ -182,6 +183,20 @@ Once a claim is submitted MDF Program Owner receives an automated email.
 - The CMPM will change the MDF Request status in SFDC from `Approved` to `Cancelled` or `denied` (where applicable) if request has been submitted by the partner. By doing so the Partner will receive an automated email informing the Funds Request initially submitted has been cancelled or denied.
 - SFDC: CMPM to add `[CANCELED]` to the campaign name and select `Aborted` in the `Campaign Status` dropdown. Also, unlink the `Partner Account` and unsync to `Vartopia`.
 - Marketo: CMPM to delete Marketo program.
+
+## FY25 Q2 GitLab Biz Development team to prospect leads from MDF Campaigns
+
+- Exciting offering for our partners who are running MDF campaigns with us in FY25 Q2 (May 1, 2024 - July 31, 2024).
+- At the partners election, GitLab’s in-house prospecting experts(the GitLab BDR team) will work on your behalf to surface joint opportunities from agreed MDF campaigns, allowing you and your teams to focus on the deal progression and beyond.
+- Even though the GitLab BDR team will be working to surface the opportunity for you, you will still be entitled to your pricing and discounts as listed in the [partner portal](https://partners.gitlab.com/English/).
+
+### The fine print
+
+1. The GitLab BDR team will only work the leads from qualified MDF campaigns based on the following criteria:
+   1. Leads which have scored enough points to be considered a GitLab marketing qualified lead (MQL).
+   1. Are from an actively working account - regardless of how many points they have gathered [and/or] are from a group of accounts called `Actively Working Accounts` which is a set of accounts the BDR team has a specific outbound prospecting strategy for.
+1. The GitLab BDR team will inform you on the records we have worked & send back to you the leads which did not meet the above criteria for your own nurturing.
+1. For more information on  the MDF program, please see the MDF Program Introduction information found in the [portal portal](https://partners.gitlab.com/English/).
 
 ## Contact us
 

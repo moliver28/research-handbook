@@ -28,7 +28,7 @@ Marketing-ready means:
 1. Acknowledges the lead passing and recall process
 1. Has a dedicated marketing responsible person to work on the joint activities with GitLab
 1. Has regular calls with the GitLab Channel Marketing Manager (CMM)
-1. Acknowledges the [MDF Policy](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/mdf/) and requirements for MDF process (requests & claims)
+1. Acknowledges the [MDF Policy](/handbook/resellers/channel-program-guide/mdf/) and requirements for MDF process (requests & claims)
 
 Channel partners are ultimately responsible for the execution of these campaigns.
 
@@ -155,28 +155,31 @@ Our team hosts the Channel Partner webinar using On24. Details on how this opera
 - [Marketo Program set up](/handbook/marketing/marketing-operations/on24/#connecting-on24-web-events-to-marketo-programs)
 
 ## MDF Program Introduction
+
 GitLab Marketing Ready partners have access to the proposal-based GitLab Marketing Development Funds (MDF) Program. These funds are intended to support our partners' demand generation efforts.
 
 #### MDF Investment Objectives
+
 - Demand Generation
       - The objective of these activities is to gain net-new end-user customers for you and GitLab. Examples of eligible activities include seminars, workshops, telemarketing or email marketing campaigns, participation in tradeshows, exhibitions, and direct mail.
       - Eligible costs may include mailing costs, fulfillment items, lead qualification, distribution, venue costs, food and beverages (excluding alcoholic beverages), speakers’ fees, management costs, and lead capturing costs.
-      - GitLab supports a limited number of partners in the selected regions, please check your eligibility with your regional [Partner Account Manager](https://partners.gitlab.com/English/?ReturnUrl=/prm/English/c/marketing-contact-cam) and [Channel Marketing Manager](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#meet-the-team).
+      - GitLab supports a limited number of partners in the selected regions, please check your eligibility with your regional [Partner Account Manager](https://partners.gitlab.com/English/?ReturnUrl=/prm/English/c/marketing-contact-cam) and [Channel Marketing Manager](/handbook/marketing/channel-marketing/#meet-the-team).
 
 - To be considered for funding support you must:
       - Be a Marketing Ready GitLab Partner. Marketing ready means:
          - partner has an approved business plan with GitLab
          - has a list of focus accounts mapped with GitLab
          - has a dedicated person who manages leads sent to the partner by GitLab (Partner Prospect Admin)
-         - acknowledges the [lead passing and recall process](https://handbook.gitlab.com/handbook/marketing/marketing-operations/vartopia/#partner-recall)
+         - acknowledges the [lead passing and recall process](/handbook/marketing/marketing-operations/vartopia/#partner-recall)
          - has a dedicated marketing responsible person to work on the join activities with GitLab
          - has regular calls with the GitLab Channel Marketing Manager
-         - acknowledges the [MDF Policy](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/mdf/) and requirements for MDF process (Requests and Claims)
-      - Comply with GitLab [Proof of Performance (POP)](https://handbook.gitlab.com/handbook/resellers/channel-program-guide/mdf/#funds-reimbursement-requirements) requirements for the activity
+         - acknowledges the [MDF Policy](/handbook/resellers/channel-program-guide/mdf/) and requirements for MDF process (Requests and Claims)
+      - Comply with GitLab [Proof of Performance (POP)](/handbook/resellers/channel-program-guide/mdf/#funds-reimbursement-requirements) requirements for the activity
       - Meet minimum required MDF request amount of $1,000 USD
       - GitLab will cover up to 50% of the total cost of the activity
 
 ## Requesting MDF funds
+
 - Marketing Ready Channel partners with marketing plans in place will submit [MDF proposals through the Partner Portal](https://partners.gitlab.com/English/Partner/SFDC/MDF2/Request/Create), and GitLab approvers will be notified of the request via email.
     - The MDF proposal will go through 2 levels of approvals
        - Level 1 approval - Channel Marketing Manager
@@ -188,16 +191,15 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
        - Campaign Creation
          - List Upload
           - MDF POP
-             - For POP issues add labels:
-             - `MDF-POP` and use the scoped labels below to work through the approval process:
-             - `MDF::POP Pending` issues created but POP has not yet been received
-             - `MDF::POP Approval Needed` once POP is received change this status to have Samara Souza approve the POP documents submitted
-             - `MDF:: POP Approved` POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
-             - `MDF:: POP Completed` Once all of the steps above are completed, change to this status and close the MDF POP issue
+            - For POP issues add labels
+               - `MDF-POP` and use the scoped labels below to work through the approval process:
+               - `MDF::POP Pending`: issues created but POP has not yet been received
+               - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
+               - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisiton can be created
+               - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
     - Once all sub-issues are completed, close out the epic.
 
 ### PTO Process for MDF Request Approvers
-
 Prior to your PTO, as an MDF request approver, you will need to update the `Delegated Approver` to your reporting manager so they have access to approve MDF requests while you are away. When you return, please remember to remove the `Delegated Approver`.
 
 When an approval request email is sent to the assigned approver, the delegated approver also receives an email notification that there is an approval request to review. Delegated approvers can't reassign approval requests; they can only approve or reject approval requests.
@@ -211,8 +213,7 @@ Following the steps to update your Delegated Approver:
    1. Select `If I am an approver or delegated approver`
    1. Save.
 
-### Demand Generation activities eligible for MDF
-
+### Demand Generation activities eligible for MD
 Details are listed out in the [MDF handbook](/handbook/resellers/Channel-Program-Guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities).
 
 These activities are captured as `Campaign Type Details` on the campaign level in Salesforce.com for `Partner - MDF` [Campaign Type](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) only.
@@ -633,7 +634,48 @@ Note that this type of campaign are not generated by MDF.
 
 Follow the steps in [List Import for Partner Leads](/handbook/marketing/channel-marketing/#list-import-for-partner-leads).
 
-## Alliance Marketing Campaigns
+
+## FY25 Q2 GitLab Sales Dev Working Partner Leads
+
+As part of a [pilot program in FY25 Q2](/handbook/resellers/channel-program-guide/mdf/#fy25-q2-gitlab-biz-development-team-to-prospect-leads-from-mdf-campaigns), GitLab Sales Dev team can work on MDF campaign leads agreed upon by Partners. 
+
+We are treating these leads as non-partner leads with Source = `Partner Qualified Lead`. They will be scored, assigned to BDRs, and have LIM. The source will remain as Partner Qualified Lead as we will use this to track partner ownership, while allowing our GitLab Sales Dev team to work these leads and not lose insight into where the lead came from.
+
+The Marketing team will use FM Marketo template to set up the campaigns, and these **MDF campaigns** will follow the **High Priority routing rules** - if the lead is part of an actively working account with BDR assigned, they are assigned to BDR, and if the lead is an MQL, then it will follow the regular lead routing rules. However, if the lead is neither Actively Working nor MQL, they will be shared with the Partner.
+
+Note, that when a lead is already shared with a Partner, it will not go to the Sales Dev team.
+
+### Indicators
+
+- Campaign - `High Priority = True AND Campaign Type = Partner - MDF`
+- Lead/Contact - `Source = Partner Qualified Lead AND/OR Partner Lead Worked by Sales Dev = True`
+- Opportunity - `Source = Partner Qualified Lead AND/OR Partner Lead Worked by Sales Dev = True`
+
+### Process
+
+This process requires the following platforms: Allocadia, Marketo, Salesforce, Traction and Vartopia.
+
+[Flow Chart >](https://www.figma.com/file/6LFKq2rQaw16YFhq1zej5d/Sales-Dev---Partner-Sales-Collaboration?type=whiteboard&node-id=0-1&t=GQvBSLo14kJcVzGu-0)
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6LFKq2rQaw16YFhq1zej5d%2FSales-Dev---Partner-Sales-Collaboration%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Dzu4zZQVPbHpeR8S0-1" allowfullscreen></iframe>
+
+1. Allocadia - Create the subcategory and line item in Allocadia.
+   1. [Create Sales Dev - Partner Campaign Alignment issue (automated when Worked by Sales Dev = True)](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads) to communicate how the Sales Dev team is expected to follow up with the campaign.
+2. Marketo - Clone the appropriate [FM Marketo template](https://handbook.gitlab.com/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-marketo-programs-and-salesforce-campaigns). Follow the [instructions](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#types-of-partner-campaigns) to set up Marketo Program and SFDC Campaign.
+   1. Add Allocadia Subcategory ID to Marketo Program/SFDC campaign description, then sync to Salesforce Campaign
+3. SFDC - Update Salesforce Campaign
+   1. Mark Campaigns as High Priority
+   2. Campaign Type changes to Partner - MDF (Automated - Updated in Minutes)
+   3. Sync the campaign to Vartopia so it shows in the GitLab Marketing Campaign field dropdown. (Automated - Every Hour)
+4. Import - Import leads without the `CRM Partner ID`
+   1. Add `Partner Lead Worked by Sales Dev` = `True` column
+   2. Once imported, if the lead is net new, the source will be changed to `Partner Qualified Lead`
+5. Traction Routing
+   1. Since it's a High Priority campaign, only MQLs and Actively Working Accounts will be routed to BDRs/SDRs
+   2. If the lead is not MQL nor Actively Working, then Vartopia Partner Account will be added and Lead Acquisition Source if blank =\ MDF Campaign and reassigned to the Partner Queue.
+6. Marketo - Leads that are sent back to the partner will be updated with the partner fields ie. Partner Consent, Do Not Email = Partner Lead, Marketing Suspended, etc (Automated)
+
+# Alliance Marketing Campaigns
 
 This section is to walk through the technical setup of webcasts hosted by GitLab and/or Alliance Partner. Unlike Channel leads, Alliance leads follow the regular [lead and contact statuses](/handbook/marketing/marketing-operations/#lead-and-contact-statuses) and [scoring model](/handbook/marketing/marketing-operations/#lead-scoring-lead-lifecycle-and-mql-criteria).
 
@@ -718,7 +760,46 @@ If a form isn't available to capture registration, follow these additional steps
 
 - Please follow the [list import criteria and guidelines](/handbook/marketing/marketing-operations/list-import/#import-methods-and-their-sla).
 
-## List Import for Partner Leads
+## Webcast Hosted by Alliance Partners - Leads Shared via Labra
+
+**Note**: You need access to the Labra Leads object in Salesforce to be able to view the leads
+
+**Step 1: Setup in Marketo**
+
+1. Clone Marketo Template: [YYYYMMDD_ExternalWebcastVendorName_Topic_Region](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG5523A1)
+2. Update the Marketo tokens: {{my.Partner Name}} with Partner Name and {{my.CRM Partner ID}} with [Account ID (18)](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
+
+**Step 2: Update SFDC Campaign**
+
+ 1. Update `Campaign Type Details`
+ 2. Change the `Campaign Owner` to your name
+ 3. Update `Start Date` to the date of launch
+ 4. Update `End Date` to when the campaign concludes
+ 5. Update `Budgeted Cost` - If cost is $0 list 1 in the Budgeted Cost field. - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by 0 you will always get 0 as the pipe2spend calculation.
+ 6. Update `Region` and `Sub-region` if you have the data available
+ 7. Update `Budget Holder`
+ 8. Update `Is an Alliance Partner Involved?`
+ 9. Update `Alliance Partner Name`
+10. Click Save.
+
+Step 3: Export Leads from Salesforce
+
+1. Duplicate [Salesforce Labra Leads Report](https://gitlab.my.salesforce.com/00OPL000003D1vp)
+   1. Update `AWS Campaign Name` with the desired campaign name
+   2. Export report as a CSV
+
+**Step 4: List Import**
+
+1. Clone [Google Sheet template](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838).
+2. Add Labra Leads to the spreadsheet.
+3. Add CRM Partner ID Column in Google Sheet.
+   1. Notes, in the list upload, include the CRM Partner ID value in the spreadsheet column. If the lead is not associated with an Alliance partner, please leave the column blank.
+4. Follow the general [list import criteria and guidelines](https://handbook.gitlab.com/handbook/marketing/marketing-operations/automated-list-import/#data-cleaning-instructions) for the list import spreadsheet.
+   1. Ensure the Countries, States and the Program Member Statuses are an exact match to the picklist values.
+   2. Leads should not be marked as `Opt-In`, unless they specifically opted into **GitLab** emails.
+5. Once the spreadsheet is completed, proceed with [self service list import](https://handbook.gitlab.com/handbook/marketing/marketing-operations/automated-list-import/) steps 3-6.
+
+# List Import for Partner Leads
 
 1. Create a list import issue using the issue template found in the Marketing Operations project titled [general-list-import-request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/general-list-import-request.md).
 1. For the list import spreadsheet (found in the list import issue), be sure to follow the general [instructions](/handbook/marketing/marketing-operations/list-import/#import-methods-and-their-sla).

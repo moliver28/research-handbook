@@ -11,7 +11,7 @@ title: Objectives & Key Results (OKRs)
 
 ## Cascading OKRs
 
-GitLab OKRs allow us to align our work to the overall GitLab objectives. Create Stage OKRs are typically derived from the Sub Department, Department and Division where it resides. [Impactful OKRs](https://handbook.gitlab.com/handbook/company/okrs/#fundamentals-of-impactful-okrs) outisde of this cascade are allowed to be set provided a signoff is gotten from the Stage.
+GitLab OKRs allow us to align our work to the overall GitLab objectives. Create Stage OKRs are typically derived from the Sub Department, Department and Division where it resides. [Impactful OKRs](/handbook/company/okrs/#fundamentals-of-impactful-okrs) outisde of this cascade are allowed to be set provided a signoff is gotten from the Stage.
 
 1. [GitLab OKRs](/handbook/company/okrs/).
 1. [Engineering OKRs](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues?scope=all&utf8=✓&state=opened&label_name[]=OKR&label_name[]=EVP%20of%20Engineering).
@@ -126,7 +126,6 @@ All KRs should have the following labels:
 
 As we close out the quarterly OKRs, the Create Stage Engineering Managers use the following OKR Retrospective format below.
 
-
 **RETROSPECTIVE**
 
 **Good**
@@ -149,6 +148,7 @@ Things that we can do better next time. These can include a suggestion on how to
 **Best**
 
 Things that went really well. Celebrate! How can we do more of this?
+
 * ...
 
 **Feels + Open Questions**
@@ -162,14 +162,3 @@ Emotions, mindsets, areas of confusion, and opportunities to consider.
 * Was the goal harder or easier to achieve than you'd thought when you set it?
 * If we were to rewrite the goal, what would we change?
 * What have we learned that might alter our approach for our next cycle's OKRs?
-
-
-
-
-
-
-
-
-
-
-

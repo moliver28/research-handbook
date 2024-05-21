@@ -7,7 +7,7 @@ description: Information and knowledge that can help to improve your skills. Inc
 
 ## Sales Development Knowledge Vault
 
-This page is part of the Sales Development team's handbook [page](https://handbook.gitlab.com/handbook/marketing/sales-development/) and aims to be the in-depth knowledge base of our org. The content below is sourced from the input of many past team members and is here for you to perfect your inbound and outbound sales development skills.
+This page is part of the Sales Development team's handbook [page](/handbook/marketing/sales-development/) and aims to be the in-depth knowledge base of our org. The content below is sourced from the input of many past team members and is here for you to perfect your inbound and outbound sales development skills.
 
 Please review at your own leasure, and we're excited to receive your contributions as well!
 
@@ -38,7 +38,7 @@ Explore the main documentation [here](https://docs.google.com/document/d/1Y7qEq8
 
 ### Decision Maker Discovery
 
-The questions below are suggestions to be used while doing a discovery call, in order to identify the decision making process, and to meet the outbound accepted SAO as per the guidelines [here.](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#criteria-for-outbound-sales-accepted-opportunity-sao)
+The questions below are suggestions to be used while doing a discovery call, in order to identify the decision making process, and to meet the outbound accepted SAO as per the guidelines [here.](/handbook/sales/field-operations/gtm-resources/#criteria-for-outbound-sales-accepted-opportunity-sao)
 
 - Who gets involved while evaluating a tool at {{company}}?
 - Would you expect anyone to challenge your initiative, and if so can I help by connecting with anyonse else on your end?
@@ -380,7 +380,7 @@ Specifically:
 - These saved searches will pull the relevant decision-makers per segment, and through ZoomInfo workflows do the following:
 
      - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
-     - Automatically add MM/ENTG accounts to the [SFDC dashboard here.] (https://gitlab.my.salesforce.com/01ZPL000000kAPN)
+     - Automatically add MM/ENTG accounts to the [SFDC dashboard here.](https://gitlab.my.salesforce.com/01ZPL000000kAPN)
      - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B6 - My 6QA Leads.`
 
 ## Qualified
@@ -570,6 +570,12 @@ On folder #5 in the [6Sense segments list](https://gitlab.abm.6sense.com/segment
 
 * This allows you to see what members/roles are associated with each territory. When you need a change in BDR assignment to a territory, please sharethe territory name with Sales Dev Ops, not the name of the account. Search for the account owner name and tell Sales Dev Ops which territory/territories require that BDR to be assigned.
 
+## New Account AE Reports
+
+* Use [this report](https://gitlab.my.salesforce.com/00O8X000008gmAA) to figure out the the territory name for the account you are working. Use command F to find the zip/state/country and figure out correct territory name. 
+* Then use [this report](https://gitlab.my.salesforce.com/00O8X000008glPn) by plugging in the territory name to figure out who the correct AE is
+* Please make sure you have all the correct location information on the lead you converting to initially create this new account. 
+
 ## Onboarding
 
 GitLab People Connect Team members will [create the onboarding issue](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#timing) and start completing the onboarding tasks, no later than one week before the new team member joins. People Connect Team members require a minimum of 4 business days (with the new hire timezone as the basis) before the new hire's start date to complete all onboarding tasks. This issue will be automatically assigned to you. As a manager, you will [also have tasks](/handbook/people-group/general-onboarding/#managers-of-new-team-members) that need to be completed prior to the new team member's start date.
@@ -615,8 +621,8 @@ A career mobility issue should be opened 2 weeks before the transition date by t
 
 If an SDR will be out for a prolonged period of time, please follow the proper processes and complete the SDR leave checklist.
 - [Parental Leave](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave)
-- [Emergency Situations](/handbook/paid-time-off/#communicating-time-off-for-emergency-situations)
-- [Unpaid leave](/handbook/paid-time-off/#unpaid-leave-of-absence)
+- [Emergency Situations](/handbook/people-group/paid-time-off/#communicating-time-off-for-emergency-situations)
+- [Unpaid leave](/handbook/people-group/paid-time-off/#unpaid-leave-of-absence)
 
 ### Manager Sales Development Leave Checklist
 -
@@ -634,7 +640,7 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 ## Sequence Creation
 
-* We follow the process outlined [here](https://handbook.gitlab.com/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+* We follow the process outlined [here](/handbook/marketing/sales-development/how-tos/#new-outreach-sequenceworkflow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the sequences/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
 
 ### Sequence needs to be a globally applicable
 
@@ -707,16 +713,13 @@ For BDRs and SDRs joining GitLab on the 15th or after of the month
 Quota and compensation will be assigned by the BDR/SDR Manager and discussed in the first 1:1. If a fully ramped BDR/SDR transfers BDR/SDR teams they will have a 50% ramp for month 1 and 100% quota for month 2.
 
 ## Sales Development Onboarding Resources
+
 - [Adding yourself to the team page](/handbook/editing-handbook/#add-yourself-to-the-team-page)
 - [Making changes/edits to the handbook](/handbook/editing-handbook/#editing-the-handbook)
 - Questions about a handbook edit? Use the slack channels #handbook or #mr-buddies
 - Questions about onboarding? Drop them in the #new_team_members slack channel
 
 ## Manager Responsibilities
+
 - [SDR New Hire 1:1 Template](https://docs.google.com/document/d/1hiIksiDQjZBYCevA36J5Tfa4_bItuDuDOisfIK93Ihw/edit?usp=sharing)
 - [BDR New Hire 1:1 Template](https://docs.google.com/document/d/1ymdIfeGhFzFLJkz0_1qZhzVlLMaTpNaiTowfdbVJEao/edit?usp=sharing)
-
-
-
-
-

@@ -23,7 +23,6 @@ For example, here are a couple of commonly made mis-steps while conducting exper
 
 To ensure we can maximize the value from our experimentation practices and reduce inaccuracy of decisions at GitLab, we recommend  following best practices across all experiments at GitLab. This document outlines the best practices to adopt at GitLab.
 
-
 ## Experimentation Planning
 
 ### Hypothesis: Define the upside
@@ -34,7 +33,6 @@ Before launching an experiment:
 - Explain how we are planning to enhance the business opportunity and why we want to take the particular approach.
     - If you have supporting data/analysis, document it.
 - Document the control UI and flow and test wireframe/concept
-
 
 ### Goals: Without goals, test measurement is meaningless
 
@@ -60,7 +58,6 @@ Before launching an experiment:
         - Another example is from a Social Media company where they define for a "notification disable rate" as a guard rail metric. They set a guard rail that says that every 1% lift in sessions/DAU from increased push notification, the "notification disable rate" increase should be within X%.
         - Another Example: A SaaS company might set up a 12-month churn rate as a guard rail metric and revisit the analysis after 12 months.
 
-
 ### Pre-analysis: do the calculations upfront
 
 - Validate the problem, opportunity, and approach using data (e.g. descriptive analysis)
@@ -70,7 +67,6 @@ Before launching an experiment:
 - Do a cost vs. benefit analysis of conducting the experiment. When the cost of experimentation is high in the organization and we have limited tech resources, we must be able to understand the potential upside from each test, so we are prioritizing the right ideas.
     - Calculate the potential yearly upside from this change as one of the company KPI. When that's not possible, define the upside to a KPI in terms of log value (like 0.01%, 0.01%, 0.1%, 1%, 10%, 100% impact), so we can make rough comparisons between different ideas.
     - Push for step function changes vs. incremental changes
-
 
 ### Experimentation set up plan:  How to setup the test
 
@@ -87,7 +83,6 @@ Before launching an experiment:
         - Example: No significant impact to Primary metric, and we could detect a change as small as 5% (i.e. sensitivity)
 
 <span style="text-decoration:underline;">General Guidance for Test Group Sample Allocation Based on Risk and Critical Path</span>
-
 
 <table>
   <tr>
@@ -156,10 +151,7 @@ Before launching an experiment:
   </tr>
 </table>
 
-
-
 ## Experiment Verification
-
 
 ### Experiment Validation Pre-Launch: Check that everything is in place
 
@@ -167,7 +159,6 @@ Before launching an experiment:
     - Recommendation is to have any two out of Dev, QA and Analyst verify tracking and reporting
     - Recommendation is to have any two of PM, QA and Analyst verify UI functionality
 - Paste the control and test experience screenshot in experiment documentation for future reference
-
 
 ### Experiment Validation Post-Launch: Check that the results are flowing in as expected
 
@@ -178,7 +169,6 @@ Before launching an experiment:
 - If you launched at 5% or 10%, change the weights to 50% as per your initial plan
     - Beware that the customer base could be different on weekdays/weekends, so analyze results in full week increments in case of weekly seasonality and in ful month increments in case of monthly seasonality
     - The above will not apply for the 1% since the 1% test is not intended to get a read impact created by the experimental experience.
-
 
 ## Experimentation Analysis and Communication
 
@@ -196,7 +186,6 @@ Before launching an experiment:
 - Present the results to partners (Tech and Business) and analytical peers to gather additional insights and educate others on the learning. Document any follow-up analysis and insights.
 - For PM: Ensure the experiment is rolled out or retired from code as per final result conclusions.
 
-
 ## Institutionalize Insights from Experimentation
 
 - Along with business partners, present the detailed results in a broader org group to spur conversations on how others can benefit from learning and what actions other teams can take/collaborate to maximize value.
@@ -205,7 +194,6 @@ Before launching an experiment:
     - Ex. In a comparable company, using metadata from ~50 past results, we understood the session lift by increasing the volume of different email types.
     - Ex: In a comparable company, we leveraged ~8 past analyses to understand the incremental value of additional cross merchandising spots.
     - Growth team already documents [experiments results](/handbook/marketing/growth/) in a centralized handbook page. We should adopt this practice across GitLab in a centralized page.
-
 
 ## Experimentation Governance
 
@@ -216,7 +204,6 @@ Before launching an experiment:
 - Review long-running experiments periodically to avoid performance impact on the product.
 - Document any Experiment failures due to set up, tracking/data failure, wrong implementation, or conflicts/ experiment interactions. This enables us to monitor the health of the experiment platform.
 - Create an experiment calendar, to enable conflict management and understand volume and velocity of experiments.
-
 
 ## Opportunity Action Items for Consideration
 
@@ -247,11 +234,9 @@ Based on initial feedback and observations on current experiment platform capabi
     - Short term: Understand the current Experiment calendar and explore automated ways to validate accuracy of testing calendar by comparing against actual experiment assignment data.
     - Long term: We have a single system to record all the experiments running across the organization and the duration of experiments. Enable automated validation against actual test assignment data.
 
-
 ## Tools Created for Analytics Use
 
 - [Sample size calculator using power and varying confidence level](https://docs.google.com/spreadsheets/d/1KP_rDB3e6pJuOJwA59HcAUVpWUuzoPveaJiTH_PSviM/edit?usp=sharing)
-
 
 ## References
 
@@ -259,7 +244,6 @@ Based on initial feedback and observations on current experiment platform capabi
 - [7 Step A/B testing process](https://blog.optimizely.com/2016/08/10/7-step-ab-testing-process/) Need to invest time on planning, Design and QA
 - [A/B testing for a low traffic website](https://blog.optimizely.com/2016/05/17/ab-testing-for-low-traffic-websites/)
 - [Importance of test planning](https://optinmonster.com/ab-testing-best-practices/)
-
 
 ### <span style="text-decoration:underline;">Terminology:</span>
 

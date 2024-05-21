@@ -32,7 +32,6 @@ We encourage communication between team members at all levels of the organizatio
 
 If your manager cannot help you or answer your questions, your questions will be referred to someone who can. If you feel your particular question, concern, or suggestion cannot be discussed with your manager, you are encouraged to contact your manager's manager, your assigned People Business Partner or Team Member Relations. It is important to remember that a team member who takes these steps will not be subject to retaliation. You can expect to be treated fairly and with respect.
 
-
 ### Romantic and Family Relationships at Work
 
 **Hiring Significant Others or Family Members**
@@ -86,7 +85,7 @@ Please see the [Complaint Procedure](/handbook/people-group/#how-to-report-viola
 
 ### Social Responsibility
 
-Please see our [Environmental, Social, and Governance](/handbook/esg) page.
+Please see our [Environmental, Social, and Governance](/handbook/company/esg/) page.
 
 ### Personal Appearance
 
@@ -186,7 +185,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
         - "It's always OK to ask for help."
         - "It’s hard for me to understand exactly what you’re going through, but I can see that it’s distressing for you."
 
-        For additional information, please see the Mental Wellness Services offered through [Modern Health](/handbook/total-rewards/benefits/modern-health/) and tips on [Leading Through Adversity](/handbook/leadership/managing-conflict/leading-through-adversity/). Additionally, team members should learn to [recognize burnout](/handbook/paid-time-off/#recognizing-burnout) and to [prevent it](https://about.gitlab.com/blog/2022/05/03/preventing-burnout-a-managers-toolkit/).
+        For additional information, please see the Mental Wellness Services offered through [Modern Health](/handbook/total-rewards/benefits/modern-health/) and tips on [Leading Through Adversity](/handbook/leadership/managing-conflict/leading-through-adversity/). Additionally, team members should learn to [recognize burnout](/handbook/people-group/paid-time-off/#recognizing-burnout) and to [prevent it](https://about.gitlab.com/blog/2022/05/03/preventing-burnout-a-managers-toolkit/).
 
 Any questions or concerns? Please feel free to contact the People Connect team in the #people-connect Slack channel or email people-connect@gitlab.com.
 
@@ -217,7 +216,6 @@ There are a number of GitLab Legal Policies which are important for GitLab team 
 - [Draft GitLab BV (Belgium) Work Regulations - English](https://docs.google.com/document/d/1HKxLs8AQ9TM-ud2y7EWS6R1ZJ982eeXR1UTKyIu9kPo/edit?usp=sharing)
 - [Comment book](https://docs.google.com/document/d/1UDsYcvkGPHJUF_--EZgxu_ONoiImFzxAavaAFkL5AtA/edit?usp=sharing)
 {{% /details %}}
-
 
 {{% details summary="GitLab BV (Netherlands)" %}}
 

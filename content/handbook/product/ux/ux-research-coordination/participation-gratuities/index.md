@@ -119,7 +119,6 @@ The accounting team funds Tremendous, Rybbon, and Respondent accounts with a lum
 
 - To purchase a bundle, use the Vendor contract request process.
 
-
 ## Monthly Gratuity Report
 
 To avoid having to distribute W-9 forms, the UX research team will not compensate a single participant more than $600 in a calendar year. To ensure we don’t recruit participants that are nearing our cutoff we follow the below process.

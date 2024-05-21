@@ -188,6 +188,16 @@ In general, we want to keep as few projects in `security-products` as necessary.
 
 There may be projects that should belong in `secure` or `govern` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `govern` but were unsuccessful.
 
+### License approval policy
+
+As of 2024-05-17, Analyzer projects (`gitlab-org/security-products/analyzers`) are subject to a [security policy](https://gitlab.com/gitlab-org/security-products/analyzers/analyzers-security-policy-project/-/blob/main/.gitlab/security-policies/policy.yml) that requires approval for merge requests that introduce new licenses. The policy enforces our [company-wide policy](/handbook/legal/product/#using-open-source-software) for open source software.
+
+- Approvers: members of the [`gitlab-org/secure/managers`](https://gitlab.com/groups/gitlab-org/secure/managers/-/group_members?with_inherited_permissions=exclude) group.
+- Pre-approved licenses: as per the [company-wide policy](/handbook/legal/product/#using-open-source-software).
+- Excluded projects: the list includes test projects, other security policy projects, and any projects that can't have license finding enabled. Members of the [`gitlab-org/secure/managers`](https://gitlab.com/groups/gitlab-org/secure/managers/-/group_members?with_inherited_permissions=exclude) group can add exceptions as required.
+
+This is a dogfooding experiment that we intend to eventually apply to all Sec projects.
+
 ### Recommended settings
 
 When creating a new project, all settings should be left to the default options, except for the following which are specific to the secure stage:
@@ -213,9 +223,9 @@ When creating a new project, all settings should be left to the default options,
 
    Using a single, centralized issue tracker over per-project issue trackers has the following advantages:
 
-      - It improves the visibility of issues and aligns with our value of [transparency](https://handbook.gitlab.com/handbook/values/#transparency).
+      - It improves the visibility of issues and aligns with our value of [transparency](/handbook/values/#transparency).
 
-        For example, it's very easy for community members to [filter the issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date_desc&state=opened&label_name%5B%5D=quick%20win&first_page_size=100) in the `groups/gitlab-org` tracker to discover [GitLab issues seeking wider community contributions](https://handbook.gitlab.com/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions).
+        For example, it's very easy for community members to [filter the issues](https://gitlab.com/groups/gitlab-org/-/issues/?sort=due_date_desc&state=opened&label_name%5B%5D=quick%20win&first_page_size=100) in the `groups/gitlab-org` tracker to discover [GitLab issues seeking wider community contributions](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#seeking-wider-community-contributions).
 
       - It leverages existing tools and infrastructure, such as having `triage-ops` and other bots executed against issues, without any additional configuration.
 
@@ -285,6 +295,7 @@ When creating a new project, all settings should be left to the default options,
          - `All threads must be resolved`
          - `Pipelines must succeed`
       - `Merge commit message template`
+
          ```markdown
          Merge branch '%{source_branch}' into '%{target_branch}'
 
@@ -299,7 +310,9 @@ When creating a new project, all settings should be left to the default options,
          %{reviewed_by}
          %{co_authored_by}
          ```
+
       - `Default description template for merge requests`
+
          ```markdown
          ## What does this MR do?
 
@@ -334,7 +347,7 @@ When creating a new project, all settings should be left to the default options,
          /label ~"devops::secure" ~"Category:" ~"group::" ~"backend"
          ```
 
-When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](https://handbook.gitlab.com/handbook/security/gitlab_projects_baseline_requirements) for more details.
+When configuring projects that are not part of the secure stage, please see the [GitLab Projects Baseline Requirements](/handbook/security/gitlab_projects_baseline_requirements) for more details.
 
 ## Performance Indicators
 
@@ -372,6 +385,7 @@ We encourage utilizing our available [Google Groups](https://groups.google.com/m
 ### Google Groups
 
 Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues/246) and are structured as:
+
   - sec-section
   - sec-govern
   - sec-secure
@@ -384,7 +398,6 @@ Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues
   - sec-secure-composition-analysis
 
 The members of each google group consists of stable counterparts and the correct `eng-dev-[sub-department]-[team]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated.
-
 
 ## Staying Informed and Informing Team Members
 
@@ -531,11 +544,9 @@ In addition to our group retrospectives, we facilitate an async Sec Section leve
 1. The week the milestone ends - Groups hold their retrospectives. Team members bubble-up identified topics and follow-up items (outcomes) to the [section retrospective document](https://docs.google.com/document/d/1g_FIMgr9r_Yf56xISxoI8B-1G-kbP3PQSeo7W-kKj24/edit#).
 1. The week of the release -  Section wide retrospective async review shared in the `#sec-section` Slack channel.
 
-
 #### DRI Responsibilities
 
 The [DRI](/handbook/people-group/directly-responsible-individuals/) for Section-wide retrospectives will be the Senior Engineering Manager. The SEM will find a volunteer if it is needed on specific milestones. The following tasks are executed each milestone:
-
 
 1. Prior to the async section retrospective, review bubble-up topics and identify 2-3 themes to support async discussion topics.
 1. Ask everyone through Slack in `#sec-section` to review the [section retrospective document](https://docs.google.com/document/d/1g_FIMgr9r_Yf56xISxoI8B-1G-kbP3PQSeo7W-kKj24/edit#) and add comments.

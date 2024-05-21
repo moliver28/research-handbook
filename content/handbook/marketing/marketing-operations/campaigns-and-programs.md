@@ -832,7 +832,7 @@ It is critical that any reference to asset number in the upload or send from the
 ### Step 6: Test lead flow into your Content Syndication programs
 There are a few common errors we see with Content Syndication leads. You can address most of these before sending the first test by working with the vendor to confirm they have the correct values.
 
-- `Employee Bucket` (Employee count): Values [here](https://handbook.gitlab.com/handbook/marketing/marketing-operations/list-import/#required-data-and-recommended-data). These values must be written exactly as shown (using commas and correct spacing).
+- `Employee Bucket` (Employee count): Values [here](/handbook/marketing/marketing-operations/list-import/#required-data-and-recommended-data). These values must be written exactly as shown (using commas and correct spacing).
 - `State`: We only accept [State values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) for the United States, Canada, and Australia. The vendor must pass blank values for any other country, otherwise SFDC will reject the lead.
 - `Content Syndication Asset`: The values for this field need to be passed exactly as outlined above in step 5. If they are not, the automation on the program will fail.
 - After verifying the common field mistakes above, work with the vendors to submit test leads through DAP.
@@ -1121,6 +1121,18 @@ _e.g.: 2020_Social_AutomatedSoftwareDelivery_autoSD_LinkedIn Lead Gen_
 
 ### Step 7: Update this Handbook page
 - Update this [handbook page with the parameter](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-linkedin-lead-gen-form) with a `yes` and a link to the parameter and campaign you have set up.
+
+## Test your Marketo program setup
+1. Submit a test registration on the webpage for this campaign. If you need to create a new test record (instead of using your existing email address), you can add a `+` after your username: for example `jdoe+testuser@gitlab.com`. When you run your test, pay attention to if the flow has a "Remove from flow" for gitlab email addresses. If this is the case, you need to either delete that flow step or test with another email address.
+1. After the test lead is submitted, go to the Marketo database by clicking `Database` in the Marketo navigation. Then click on `Default` on the left side menu. 
+1. Search for the email address you used for your test record and open the test record in the Marketo database. Go to the Activity History and confirm:
+     1. The form was submitted
+     1. The record was added to the correct program with a successful status (should not be No Action)
+     1. Confirm the correct autoresponder for the requested asset deployed  
+     1. Confirm that no other autoresponders were sent 
+     1. Confirm that the correct Interesting Moment was triggered 
+     1. Confirm that the test record was added to the SFDC campaign (this may take a few minutes) 
+     1. Confirm that the test record was not sent any other emails (except double opt-in email for Germany if applicable) or added to other programs as a result of this test 
 
 ## Raffles
 Raffles can be associated with many different campaign types and have various ways to enter. You must complete the [legal requirements](/handbook/legal/marketing-collaboration/#engaging-legal-for-approval) before launching your raffle.

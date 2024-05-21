@@ -65,7 +65,6 @@ There are two phases for fixing a broken `master` incident which have a target S
 
 Note: Untriaged incidents are negatively impacting master pipeline stability and development velocity. Any untriaged incident will be automatically escalated to dev-on-call within 30 minutes of inactivity, following a Slack reminder to the attributed channel, to ensure the triage SLO is met. Before escalation, if an incident becomes a blocker for MRs and deployments, the team member being impacted should refer to the [broken `master` escalation](#broken-master-escalation) steps to request help from the current [engineer on-call](/handbook/engineering/infrastructure/incident-management/#who-is-the-current-eoc) as early as needed.
 
-
 Additional details about the phases are listed below.
 
 ### Broken `master` escalation
@@ -148,10 +147,10 @@ When an incident is attributed to a group, a notification will be sent to the tr
       - [Look at the recent commits on master](https://gitlab.com/gitlab-org/gitlab/-/commits/master) and search for keywords you might see in the failing job/specs (e.g. if you see a `geo` spec file is failing, specifically the `shard` spec, search for those keywords in the commit history).
         - You can [filter with the `Merge branch` text](https://gitlab.com/gitlab-org/gitlab/-/commits/master?search=Merge%20branch) to only see merge commits.
       - Look at the spec file history or blame views, by clicking respectively the `History` or `Blame` button at the top of a file in the file explorer, e.g. at <https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/backup.rb>.
-    - If you identified a merge request, assign the incident to its author if they are available at the moment. If they are not available, assign to the maintainer that approved/merged the MR. If none are available, mention the team Engineering Manager and seek assistance in the `#development` Slack channel.
+   - If you identified a merge request, assign the incident to its author if they are available at the moment. If they are not available, assign to the maintainer that approved/merged the MR. If none are available, mention the team Engineering Manager and seek assistance in the `#development` Slack channel.
       - You can find the team somebody is in and who's the manager for that team by searching in https://about.gitlab.com/handbook/product/categories/.
-    - If no merge request was identified, ask for assistance in the `#development` Slack channel.
-    - Please set the appropriate `~master-broken:*` label from the list below:
+   - If no merge request was identified, ask for assistance in the `#development` Slack channel.
+   - Please set the appropriate `~master-broken:*` label from the list below:
 
       ```shell
       /label ~"master-broken::caching"
@@ -186,6 +185,7 @@ When an incident is attributed to a group, a notification will be sent to the tr
 
 1. For an initial assessment of what might have contributed to the failure, we can try the experimental AI-assisted [root cause analysis](https://docs.gitlab.com/ee/user/ai_features.html#root-cause-analysis) feature by clicking the "Root cause analysis" button on the failed job page.
 2. To confirm flakiness, you can use the `@gitlab-bot retry_job <job_id>` or the `@gitlab-bot retry_pipeline <pipeline_id>` command to retry the failed job(s), even if you are not a project maintainer.
+
   - **Note**, The `retry_job` command can fail for the following reasons:
     - Retrying the same job twice with the `retry_job` command will result in a failure message because each failed job can only be retried once.
     - If there is no response to either of the `retry` commands, you are likely invoking them in non-supported projects. If you'd like to request for the commands to be added to your project, please [make an issue](https://gitlab.com/gitlab-org/quality/triage-ops/-/issues/new) and inform `#g_engineering_productivity`. You are encouraged to self-serve the MR following [this example](https://gitlab.com/gitlab-org/quality/triage-ops/-/merge_requests/2536) and submit it for review for maximum efficiency.
@@ -361,6 +361,7 @@ For better efficiency, it's common for a regression to be fixed in an MR without
 1. If you are working on an issue that touches on areas outside of your expertise, be sure to mention someone in the other group(s) as soon as you start working on it. This allows others to give you early feedback, which should save you time in the long run.
 1. If you are working on an issue that requires access to specific features, systems, or groups, open an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request) to obtain access on staging and production for testing your changes after they are merged.
 1. When you start working on an issue:
+
   - Add the `workflow::in dev` label to the issue.
   - Create a merge request (MR) by clicking on the **Create merge request** button in the issue. This creates a MR with the labels, milestone and title of the issue. It also relates the just created MR to the issue.
   - Assign the MR to yourself.
@@ -376,12 +377,15 @@ For better efficiency, it's common for a regression to be fixed in an MR without
   - The last maintainer to approve the MR, follows the [Merging a merge request](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) guidelines.
   - (Optionally) Change the workflow label of the issue to `workflow::verification`, to indicate all the development work for the issue has been done and it is waiting to be deployed and verified. We will use this label in cases where the work was requested to be verified by product OR we determined we need to perform this verification in production.
   - When the change has been verified, change the workflow label to `workflow::complete` and close the issue.
+
 1. You are responsible for the issues assigned to you. This means it has to ship with the milestone it's associated with. If you are not able to do this, you have to communicate it early to your manager and other stakeholders (e.g. the product manager, other engineers working on dependent issues). In teams, the team is responsible for this (see [Working in Teams](#working-in-teams)). If you are uncertain, err on the side of overcommunication. It's always better to communicate doubts than to wait.
 1. You (and your team, if applicable) are responsible for:
+
   - Ensuring that your changes [apply cleanly to GitLab Enterprise Edition][ce-ee-docs].
   - The testing of a new feature or fix, especially right after it has been merged and packaged.
   - Creating any [relevant feature or API documentation](https://docs.gitlab.com/ee/development/documentation/workflow.html#developers)
   - Shipping secure code, (see [Security is everyone's responsibility](#security-is-everyones-responsibility)).
+
 1. Once a release candidate has been deployed to the staging environment, please verify that your changes work as intended. We have seen issues where bugs did not appear in development but showed in production (e.g. due to CE-EE merge issues).
 
 Be sure to read general guidelines about [issues](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html) and [merge requests](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html).
@@ -471,7 +475,6 @@ There is extensive [monitoring](https://dashboards.gitlab.com/) publicly availab
 - [log.gprd.gitlab.net](https://log.gprd.gitlab.net/) has production logs
 - [prometheus.gitlab.com](https://prometheus.gitlab.com/alerts) has alerts for the [production team](/handbook/engineering/infrastructure/#production-team)
 
-
 ## Scheduling Issues
 
 GitLab Inc has to be selective in working on particular issues. We have a limited capacity to work on new things. Therefore, we have to schedule issues carefully.
@@ -494,7 +497,7 @@ Make sure the appropriate labels (such as `customer`) are applied so every issue
 
 ## Product Development Timeline
 
-[![](/handbook/engineering/workflow/gitlab-release-timelines.png)](https://gitlab.com/gitlab-org/gitlab/-/snippets/3670861)
+[![''](/handbook/engineering/workflow/gitlab-release-timelines.png)](https://gitlab.com/gitlab-org/gitlab/-/snippets/3670861)
 
 Teams (Product, UX, Development, Quality) continually work on issues according to their respective workflows.
 There is no specified process whereby a particular person should be working on a set of issues in a given time period.
@@ -590,6 +593,7 @@ Milestones closure is in the remit of [the Delivery team](/handbook/engineering/
 The milestone cleanup will happen the day before the release date.
 
 These actions will be applied to open issues:
+
 - Open issues and merge requests will be moved to the next milestone, and
   labelled with `~"missed:x.y"`.
 - `~"missed-deliverable"` will also be added whenever `~"Deliverable"`
@@ -599,7 +603,7 @@ Milestones are closed when the Delivery team no longer needs to create a backpor
 
 ## Kickoff Public Stream Instructions
 
-The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
+The monthly kickoff meeting is publicly streamed to the [GitLab Unfiltered YouTube Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A?view_as=subscriber). The [EBA](/job-families/people-group/executive-business-administrator/) for Engineering is the [moderator](/handbook/company/group-conversations/#moderator) and responsible for initiating the Public Stream or designating another moderator if EBA is unable to attend.
 
 ## Use Group Labels and Group Milestones
 
@@ -671,7 +675,7 @@ Not everything is urgent. See below for a non-exclusive list of things that are 
   - High severity (severity::1/priority::1) security issues. Refer to [security severity and priority](/handbook/security/#severity-and-priority-labels-on-security-issues).
   - Highest priority and severity customer issues based on the [priority and severity definitions](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/contributing/issue_workflow.md#priority-labels).
 - Not In Scope
-  - An operational issue of GitLab.com or a self managed customer environment. This falls under the [on-call](/handbook/on-call/index.html) process.
+  - An operational issue of GitLab.com or a self managed customer environment. This falls under the [on-call](/handbook/engineering/on-call/index.html) process.
   - Self developed and maintained tools that are not officially supported products by GitLab.
   - Feature request by a specific customer.
 

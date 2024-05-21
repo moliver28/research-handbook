@@ -63,6 +63,7 @@ Given the current focus on the project management automation, the [Project Manag
 #### Problem Statement
 
 Gartner predicts by 2024, 75% of software solutions will be delivered with some help of low-code tools. While developers appreciate the efficiency gain, they also share several concerns with room for improvement. For example:
+
 - Overwhelmed by the number of competing solutions and their interoperability.
 - Worried about vendor lock-in.
 - Concerned about the lack of version control, CI/CD and other fundamental DevOps capabilities.

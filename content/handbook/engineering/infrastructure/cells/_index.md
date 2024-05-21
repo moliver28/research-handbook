@@ -21,41 +21,44 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <table>
 <tr>
 <td>
- 
+
 [Cells 1.0](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-1.0.html)
 </td>
 <td>
- 
+
 [Cells 1.5](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-1.5.html)
 </td>
 <td>
- 
+
 [Cells 2.0](https://docs.gitlab.com/ee/architecture/blueprints/cells/iterations/cells-2.0.html)
 </td>
 </tr>
 <tr>
 <td>
- 
+
 - For internal customers only
 - Organizations are private
 - Users cannot interact with other Organizations (including GitLab Org)
 - Groups and projects are private in the Organization
 - For more details, see [Organizations on Cells 1.0](https://docs.gitlab.com/ee/architecture/blueprints/organization/index.html#organizations-on-cells-10)
+
 </td>
 <td>
- 
+
 - For existing/new customers of GitLab.com
 - Organizations are private
 - Existing users can interact with private Organizations on Secondary Cells
 - Groups and projects are private in the Organization
 - For more details, see [Organizations on Cells 1.5](https://docs.gitlab.com/ee/architecture/blueprints/organization/index.html#organizations-on-cells-15)
+
 </td>
 <td>
- 
+
 - Organizations are public or private
 - Users can interact with other Organizations
 - Groups and projects are private or public in the Organization
 - For more details, see [Organizations on Cells 2.0](https://docs.gitlab.com/ee/architecture/blueprints/organization/index.html#organizations-on-cells-20)
+
 </td>
 </tr>
 </table>
@@ -104,6 +107,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 1. Develop project plan and drive schedule
 2. Inter-team connection, collaboration and communication
 3. Project management
+
 </td>
 </tr>
 <tr>
@@ -117,6 +121,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 
 1. Liaison between project team and cross-functional engineering leaders
 2. Coordinating temporary staffing arrangements within the Data Stores stage
+
 </td>
 </tr>
 <tr>
@@ -131,6 +136,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 1. Coordinating staffing and unblocking groups in Data Stores
 2. Drive cross-functional efforts in engineering
 3. Report on Data Stores progress and mitigate risks
+
 </td>
 </tr>
 <tr>
@@ -145,6 +151,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 1. Status updates of Tenant Scale workstreams
 2. Mitigate risks
 3. Collaborate with Tenant Scale Product Manager on Organizations and Cells projects
+
 </td>
 </tr>
 <tr>
@@ -160,6 +167,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 2. Liaison between project team and cross functional product managers and product leaders
 3. Escalation of product priorities competing with Cells
 4. Decision maker for supported and un-supported features for each iteration of Cells
+
 </td>
 </tr>
 <tr>
@@ -175,6 +183,7 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 2. Product definition, requirements, roadmap for Cells workstreams within Tenant Scale
 3. Point of contact to collaborate with product managers from other teams
 4. Investment and staffing of Tenant Scale
+
 </td>
 </tr>
 
@@ -185,21 +194,21 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <table>
 <tr>
 <td>
- 
+
 **Work stream**
 </td>
 <td>
- 
+
 **Engineering DRI**
 </td>
 
 <td>
- 
+
 **PM DRI**
 </td>
- 
+
 <td>
- 
+
 **TPM DRI**
 </td>
 </tr>
@@ -207,15 +216,31 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Application’s Cell readiness</td>
 <td>
- 
+
 [Kamil Trzciński](https://gitlab.com/ayufan)
 </td>
 <td>
- 
+
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
 <td>
- 
+
+[Ethan Guo](https://gitlab.com/yanguo1)
+</td>
+</tr>
+
+<tr>
+<td>Organization for Cells</td>
+<td>
+
+[Alex Pooley](https://gitlab.com/alex.pooley)
+</td>
+<td>
+
+[Christina Lohr](https://gitlab.com/lohrc)
+</td>
+<td>
+
 [Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
@@ -223,15 +248,15 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Architecture</td>
 <td>
- 
+
 [Kamil Trzciński](https://gitlab.com/ayufan)
 </td>
 <td>
- 
+
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
 <td>
- 
+
 [Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
@@ -239,15 +264,15 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Cells Services  (includes Router and Topology services)</td>
 <td>
- 
+
 [Thong Kuah](https://gitlab.com/tkuah)
 </td>
 <td>
- 
+
 [Christina Lohr](https://gitlab.com/lohrc)
 </td>
 <td>
- 
+
 [Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
@@ -255,32 +280,32 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 
 <td>Cell lifecycle automation and management</td>
 <td>
- 
+
 [Steve Xuereb](https://gitlab.com/sxuereb)
 </td>
 <td>
- 
+
 [Christina Lohr](https://gitlab.com/lohrc)
 </td>
 <td>
- 
+
 [Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
 
 <tr>
- 
+
 <td>Observability</td>
 <td>
- 
+
 [Rachel Nienaber](https://gitlab.com/rnienaber)
 </td>
 <td>
- 
+
 [Christina Lohr](https://gitlab.com/lohrc)
 </td>
 <td>
- 
+
 [Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
@@ -288,15 +313,15 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Application Deployment</td>
 <td>
- 
+
 [Dave Smith](https://gitlab.com/dawsmith)
 </td>
 <td>
- 
+
 [Sam Wiskow](https://gitlab.com/swiskow)
 </td>
 <td>
- 
+
 [Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
@@ -304,15 +329,15 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Production readiness</td>
 <td>
- 
+
 [Chun Du](https://gitlab.com/cdu1)
 </td>
 <td>
- 
+
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
 <td>
- 
+
 [Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
@@ -320,15 +345,15 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 
 <td>Operations</td>
 <td>
- 
+
 [Rick Mar](https://gitlab.com/rmar1)
 </td>
 <td>
- 
+
 [Josh Lambert](https://gitlab.com/joshlambert)
 </td>
 <td>
- 
+
 [Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
@@ -336,15 +361,15 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>Performance validation of Cells</td>
 <td>
- 
+
 [Andy Hohenner](https://gitlab.com/AndyWH)
 </td>
 <td>
- 
+
 [Christina Lohr](https://gitlab.com/lohrc)
 </td>
 <td>
- 
+
 [Ethan Guo](https://gitlab.com/yanguo1)
 </td>
 </tr>
@@ -440,6 +465,8 @@ We use t-shirt sizing to estimate the time and effort needed to deliver issues/e
 ### Meetings
 
 - Fortnightly Cells X-Functional Sync ([Meeting notes (internal only)](https://docs.google.com/document/d/1i6B_JcSJoN6OWgOazVdwqkYnn4h-a28P2ddWAUIHQdU/edit#heading=h.37jadhgzdghi))
+- Monthly Infrastructure Cells program review ([Meeting notes (internal only)](https://docs.google.com/document/d/1k6tpaFU6noOcM8irLBTB0IyUM-VN_V6zA-VrE5dcuwE/edit))
+- Quarterly Cells program review (TBD)
 
 ### Status updates
 

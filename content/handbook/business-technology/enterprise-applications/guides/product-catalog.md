@@ -17,6 +17,7 @@ For SOX/audit purposes, all changes to the Zuora Billing product catalog must be
 There are 3 issue templates in [this directory](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#) that the Business Sponsor can choose from to help log their SKU request.
 
 {{% panel header="**Common Use Cases**" header-bg="success" %}}
+
 1. To **create** or **update** a **Professional Services SKU**:
     - Open an issue in [this directory](https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new#) using the `CM: Add_New_PS_SKU` template
     - Follow the steps from the [How to Create New or Update a SKU](#how-to-create-new-or-update-a-sku) section of this handbook page
@@ -113,17 +114,19 @@ In the issue template, three asterisks are considered a "non-standard" configura
    - Add the dollar amount price of the SKU. If a unit of measure is associated to this SKU, explain the dollar amount per UOM (Example: *$250/seat/quarter*)
 
 **Revenue Recognition Requirements**
+
 - Assign Makesh Subramanian `@msubramanian` for input on the Invoicing, Revenue, and Custom Fields sections
 - This is required to configure the SKU and properly recognize revenue
 
 **Taxation Requirements**
+
 - Assign Sally Tian `@stian13` for input on the Taxation section and include a service description to help them identify the correct tax code to use
 - This is required to configure the SKU and properly collect sales tax
 
 **Data Requirements**
-- Assign Sushma N `@snalamaru` and Israel Weeks `@iweeks` for input on the Product Tier, Delivery, and Deployment fields for this offering based on the definitions in the [GitLab Handbook](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/)
-- This is required to configure the SKU and ensure data integrity
 
+- Assign Sushma N `@snalamaru` and Israel Weeks `@iweeks` for input on the Product Tier, Delivery, and Deployment fields for this offering based on the definitions in the [GitLab Handbook](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/tiers/)
+- This is required to configure the SKU and ensure data integrity
 
 ### Step 2. Cross-functional Approval For Pricing and Non-Standard Requests
 
@@ -131,11 +134,13 @@ In the issue template, three asterisks are considered a "non-standard" configura
 {: .alert .alert-warning}
 
 **Pricing approval ALWAYS required**:
+
    - Provide a link to the Cost of Goods Sold (COGS) spreadsheet (Make a copy of [this template](https://docs.google.com/spreadsheets/d/1em_4RiKOzvA3W9N4FxjmDxH6Rtr4my_o6ZifSXEWz0o/edit#gid=1853638008))
    - Provide a justification if project margins are below 55% for internally delivered services
    - Obtain approval from the `Senior Director of Product Monetization`
 
 **Fulfillment approval required if**:
+
    - Proposed SKU (meant to be) sold to Customers: `Self-serve`
    - Subscription with the proposed SKU (meant to) have specific behavior for self-service subscription modifications (for example, no self-service renewal)
    - Any non-standard (***) Charge Type, Charge Model, Charge Timing requests
@@ -143,10 +148,10 @@ In the issue template, three asterisks are considered a "non-standard" configura
    - Obtain approval from the `Fulfillment Product Managers`
 
 **Sales Operations approval required if**:
+
    - If SKU has limited quoting availability (only available to sell by certain groups)
    - Any non-standard (***) Charge Type, Charge Model, Charge Timing requests
    - Obtain approval from the `Senior Manager of Deal Desk`
-
 
 ### Step 3. Finance
 
@@ -160,6 +165,7 @@ The required approvals will differ depending on whether it is a Professional Ser
 {: .alert .alert-warning}
 
 {{% panel header="**Next Steps**" header-bg="success" %}}
+
 - After all above steps are complete and required approval have been obtained, remove the ~"SKU - Gathering Requirements" label and tag `@gitlab-com/business-technology/enterprise-apps/financeops` for intake and prioritization of the SKU request so that it can be configured in the Zuora Billing product catalog and made quotable in Salesforce. Please note that all changes must follow the [Business Technology Change Management](/handbook/business-technology/change-management/) for SOX/Audit purposes.
 - If the SKU will be sold through the channel, assign the issue to the `Sales Operations Analyst` listed in Step 6 to add the SKU to the quarterly update issue, the upcoming Pricebook and any other necessary information
 - If the SKU requires a service description, it is the Business Sponsor's responsibility to complete step 7
@@ -186,7 +192,7 @@ This section outlines what information can or cannot be modified after the SKU h
 
 ### Information Advised Not to Change
 
-1. **The number of charges per Rate Plan.**  
+1. **The number of charges per Rate Plan.**
     - For example, if we have 2 charges per rate plan (license and service), we would not advise adding an additional charge (for storage, for example) to this Rate Plan
     - Existing customers would not receive the additional "charge", although all customers on a go-forward basis would
 
@@ -198,9 +204,11 @@ It is the Business Sponsor's responsibility to provide information and obtain re
 ### Step 1. Product Information
 
 **Identify Rate Plans to be retired**
+
 - In this section, list all the rate plan IDs that need to be retired.
 
 **When is the SKU expected to be retired**
+
 - Provide a specific date of when the new SKU is expected to be retired.
 - Please note that helps with intake and prioritization of the request and does not necessarily mean the SKU will be ready for sale by this date
 
@@ -210,10 +218,12 @@ The required approvals will differ depending on whether it is a Professional Ser
 {: .alert .alert-warning}
 
 **Approval Required Based on Request Type**
+
 - If retiring Professional Services SKUs, tag the `Senior Director of Education Services` or `Director of Professional Services`
 - If retiring Non-Professional Services SKUs, tag the Fulfillment Product Managers `@gitlab-org/fulfillment/product-managers`
 
 **Approval Required for ALL SKU Retirement Requests**
+
 - For Sales, tag the `Senior Director of Sales Operations`
 - For Sales Operations, tag the `Senior Manager of Deal Desk`
 - For Finance, tag the `Senior Director of Revenue Accounting`
@@ -224,7 +234,6 @@ Once all of the above steps are complete and required approval are obtained, ple
 
 Please note that all changes must follow the [Business Technology Change Management](/handbook/business-technology/change-management/) for SOX/Audit purposes.
 {: .alert .alert-warning}
-
 
 ## FAQ
 

@@ -67,10 +67,10 @@ An example template to use in these updates looks like:
 * **% Complete**: X% (Y weight closed / Z total weight)
 * **Blockers**: None
 * **Accomplishments**:
-  * 3 MRs created 
+  * 3 MRs created
   * 1 issue closed
 
-cc/ @alex_martin @csouthard 
+cc/ @alex_martin @csouthard
 ```
 
 Initially we are using the following formula for `% Complete`, rounded down to the nearest multiple of 5:
@@ -104,16 +104,15 @@ The Engineering Manager will report on the progress of [OKRs](/handbook/company/
 
 Current OKRs: [Work Items Labeled with Utilization](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Autilization&first_page_size=100)
 
-
 ### Taking Time Off (PTO)
 
-It is important to [take time off](/handbook/paid-time-off/#paid-time-off) so that you can rest, reset, avoid burnout, take care of loved ones, etc. You are encouraged to take time for yourself or your family following our operating principle of [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second). Guidance is to communicate your PTO intention with your manager with [twice the number of days](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) that you are taking off.
+It is important to [take time off](/handbook/people-group/paid-time-off/#paid-time-off) so that you can rest, reset, avoid burnout, take care of loved ones, etc. You are encouraged to take time for yourself or your family following our operating principle of [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second). Guidance is to communicate your PTO intention with your manager with [twice the number of days](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) that you are taking off.
 
-When going out of office, please be sure to [clearly communicate](/handbook/paid-time-off/#communicating-your-time-off) your availability with other people. The following steps are required when submitting a PTO notification.
+When going out of office, please be sure to [clearly communicate](/handbook/people-group/paid-time-off/#communicating-your-time-off) your availability with other people. The following steps are required when submitting a PTO notification.
 
-1. In [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel), select a role as your backup during your PTO. Please assign the team slack channel #g_utilization as your backup to help distribute the workload. Consider if your current work in progress requires a substitute DRI and assign a single person for those specific issues.
+1. In [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel), select a role as your backup during your PTO. Please assign the team slack channel #g_utilization as your backup to help distribute the workload. Consider if your current work in progress requires a substitute DRI and assign a single person for those specific issues.
 
-2. Add the Fulfillment Shared Calendar to your Time Off by Deel settings so your PTO events are visible to everyone in the team. The calendar ID is: `gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com` Read more about [PTO](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) in the handbook.
+2. Add the Fulfillment Shared Calendar to your Time Off by Deel settings so your PTO events are visible to everyone in the team. The calendar ID is: `gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com` Read more about [PTO](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) in the handbook.
 
 3. Update your GitLab.com status with your out of office dates by clicking on your profile picture and selecting "Edit Status." For Example: `OOO Back on yyyy-mm-dd` Adding `OOO` to your status message will keep you from appearing in the [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette).
 
@@ -144,7 +143,7 @@ We have [cross-functional prioritization](/handbook/product/cross-functional-pri
 #### Mechanics
 
 - The team uses the [#g_utilization_planning](https://gitlab.slack.com/archives/C04108X3FDG) Slack channel to discuss cross-functional prioritization.
-- The team reviews [this dashboard](#merged-merge-request-types) which shows the distribution of MRs that are bugs, maintenance, and features to ensure the team's efforts are properly aligned to our target prioritization ratio (60% features / 30% maintenance / 10% bugs).
+- The team reviews [this dashboard](/handbook/engineering/metrics/dashboards/) which shows the distribution of MRs that are bugs, maintenance, and features to ensure the team's efforts are properly aligned to our target prioritization ratio (60% features / 30% maintenance / 10% bugs).
 - The team uses [this prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/4416231?label_name%5B%5D=group%3A%3Autilization) to order our top features, bugs, maintenance, and [System Usability Scale (SUS)](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#sus-impacting) impacting issues.
 - For a quick view and controls on bugs by priority, [this board](https://gitlab.com/groups/gitlab-org/-/boards/2874336?label_name[]=group%3A%3Autilization&label_name[]=type%3A%3Abug) can be used. More detailed information on bugs, including backlog and open rate, both of which are factors in determining their desired bug percentage for the upcoming milestone, is shown in this [dashboard](https://10az.online.tableau.com/t/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard) (select Utilization from filters).
 - The team collaborates on a prioritization issue that documents and discusses our current prioritization scheme.
@@ -153,7 +152,6 @@ We have [cross-functional prioritization](/handbook/product/cross-functional-pri
 
 - [Current Planning Issue](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Autilization&label_name%5B%5D=Planning%20Issue&first_page_size=100)
 - [Archive 13.8 - present](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=created_date&state=closed&label_name%5B%5D=group%3A%3Autilization&label_name%5B%5D=Planning%20Issue&first_page_size=100)
-
 
 ### How Engineering Refines Issues
 
@@ -312,6 +310,7 @@ We have many labels that can be applied to an issue or a merge request. Besides 
 - `security` if the issue is related to application security, and `breaking change` if this work is considered a breaking change
 
 The extended list of labels that should be applied where applicable to issues and MRs:
+
 - UI Context: `usage_quota:storage`, `usage_quota:pipeline`, `usage_quota:transfer`, `usage_quota:other`
 
 The `workflow::planning breakdown` label is driven by Product, but is a collaborative effort between Product, UX and Engineering. We are using this label to help drive the refinement, estimation, and breakdown of issues as described above. During that refinement process, the following examples of how the team might contribute towards that effort:
@@ -426,7 +425,7 @@ e.g. https://sentry.gitlab.net/gitlab/customersgitlabcom/issues/2505559/?query=i
 
 See links in the right sidebar:
 
-![](./sentry_issue_creator.png)
+![''](./sentry_issue_creator.png)
 
 Although both links look the same, the first link is for creating an issue *in the security repo*, the **second should be for the project** (CustomersDot/GitLab) accordingly.
 
@@ -435,6 +434,7 @@ Although both links look the same, the first link is for creating an issue *in t
 Fulfillment has a new [collaborative process with the Support team](https://gitlab.com/gitlab-com/fulfilment-sub-department/section-fulfilment-request-for-help#how-to-submit-a-request-for-help-to-the-fulfilment-section-development-team) to track and manage requests for help. We have a specialized, scoped label, `~"Help group::Utilization"`.  [Issues](https://gitlab.com/gitlab-com/fulfilment-sub-department/section-fulfilment-request-for-help/-/issues) are generated in the same project.
 
 Other boards where previous requests are tracked:
+
 - Board: [Bugs by severity](https://gitlab.com/groups/gitlab-org/-/boards/4373035?label_name%5B%5D=group%3A%3Autilization&label_name%5B%5D=type%3A%3Abug)
 - Board: [Features by severity](https://gitlab.com/groups/gitlab-org/-/boards/4373035?label_name%5B%5D=group%3A%3Autilization&label_name%5B%5D=type%3A%3Abug)
 
@@ -554,6 +554,4 @@ a typical DRI.
   {{< tableau/filters "GROUP_LABEL"="utilization" >}}
 {{< /tableau >}}
 
-
-You can find more centralized engineering metrics at [this page](https://handbook.gitlab.com/handbook/engineering/metrics/dashboards/).
-
+You can find more centralized engineering metrics at [this page](/handbook/engineering/metrics/dashboards/).

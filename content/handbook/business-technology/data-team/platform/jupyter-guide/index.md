@@ -28,6 +28,7 @@ See related [repository](https://gitlab.com/gitlab-data/data-science)
 First, you need to install and launch [Rancher Desktop](https://rancherdesktop.io/), an open-source container manager, on your local machine.
 
 You have two options when setting up jupyter via the data-science project. Choose from one of the following:
+
 - **Full install (Recommended)**: Creates a [`pipenv`](https://pypi.org/project/pipenv/) virtual environment on your local machine, installs [Mambaforge](https://github.com/conda-forge/miniforge) and the libraries defined in this [Pipfile](https://gitlab.com/gitlab-data/data-science/-/blob/main/Pipfile)
 - **Minimal install**: Installs ***only*** Creates a `pipenv` virtual environment and installs the libraries defined in this [Pipfile](https://gitlab.com/gitlab-data/data-science/-/blob/main/Pipfile). This install should be used if you already have a python environment on your local machine that you would like to use as the base image instead of the Mambaforge version. Requires Python 3.9.
 
@@ -52,7 +53,7 @@ Included in the environment setup are all of the libraries needed to lint Jupyte
 
 Alternatively, after completing the above setup instructions run:
 
-```
+```console
 make lint
 ```
 
@@ -64,10 +65,10 @@ From the root of the data science repo, this will find and correct and issues ac
 1. Run through the [auth_example notebook](https://gitlab.com/gitlab-data/data-science/-/blob/main/examples/auth_example.ipynb) in the repo to confirm that you have configured everything successfully. The first time you run it you will get a browser redirect to authenticate your snowflake credientials via Okta. After that, if you run the notebook again you should be able to query data from Snowflake.
 1. If you get an error then likely Snowflake is not properly configured on your machine. Please refer to the Snowflake and dbt sections of the [Data Onboarding Issue](https://gitlab.com/gitlab-data/analytics/-/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md). It is likely that your .dbt/profiles.yml is not setup correctly.
 
-
 ### Mounting a local directory
 
 By default, the local install will use the data-science folder as the root directory for jupyter. This is not terribly useful when your code, data, and notebooks are in other repositories on your computer. To change, this you will need to create and modify a jupyter notebook config file:
+
 1. Open terminal and nagivate to the data-science repo, e.g. `cd repos/data-science`. The config file must be created with the `pipenv` we setup in the above steps: `pipenv run jupyter-lab --generate-config`. This creates the file `/Users/{your_user_name}/.jupyter/jupyter_lab_config.py`.
 1. Browse to the file location and open it in an editor
 1. Search for the following line in the file: `#c.ServerApp.root_dir = ''` and replace with `c.ServerApp.root_dir = '/the/path/to/other/folder/'`. If unsure, set the value to your repo directory (i.e. `c.ServerApp.root_dir = '/Users/{your_user_name}/repos'`). Make sure you remove the `#` at the beginning of the line.
@@ -77,9 +78,10 @@ By default, the local install will use the data-science folder as the root direc
 ### Enabling Jupyter Templates
 
 The data science team has created modeling templates that allow you to easily start building predictive models without writing python code from scratch. To enable these templates:
+
 - In your `jupyter_lab_config.py` that you created as part of the [Mounting a local directory](/handbook/business-technology/data-team/platform/jupyter-guide/#mounting-a-local-directory), add the following lines, replacing `/Users/{your_user_name}/repos/` with the path to the `data-science/templates` repo on your local machine:
 
-```
+```py
 c.JupyterLabTemplates.template_dirs = ['/Users/{your_user_name}/repos/data-science/templates']
 c.JupyterLabTemplates.include_default = False
 ```
@@ -90,6 +92,7 @@ c.JupyterLabTemplates.include_default = False
 ### Increasing Container Memory Allocation
 
 By default, rancher will allocate a small percentage of your machine's memory to run containers. This is likely not enough RAM to work with jupyter and python, as data is held in-memory. It is recommended you increase the memory allocation to avoid out-of-memory errors.
+
 1. Open Rancher Desktop (on Mac, there should be an icon on the top menu bar), *Preferences*, then *Kubernetes Settings*
 1. Here you can allocate additional memory and CPUs to be used by your containers. 8GB and 2 CPUS are recommended but you may have to increase it futher if working with large datasets or an intensive multithreaded process.
 1. Click "Restart Kubernetes".
@@ -100,7 +103,7 @@ By default, rancher will allocate a small percentage of your machine's memory to
 - To get the most out of these (and to avoid having to configure them every time you run the container), create the following file: `/Users/{your_user_name}/.jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.jupyterlab-settings`
 - Within that file, paste the following and save:
 
-```
+```json
 {
     "codeCellConfig": {
         "codeFolding": true,
@@ -118,13 +121,12 @@ By default, rancher will allocate a small percentage of your machine's memory to
 1. In your GitLab profile, you will need to create a personal access token access token with api permissions
 1. Locate the project id for your project under `Settings -> General`
 1. On your local machine, you will need to create two new environment variables `MLFLOW_TRACKING_TOKEN` and `MLFLOW_TRACKING_URI`
-  1. Open up your shell resource file (`.zshrc`, for example) in your local machine home directory. 
-  1. Add the following line `export MLFLOW_TRACKING_TOKEN="your-access-token"`
-  1. Add the following line `export MLFLOW_TRACKING_URI="https://gitlab.com/api/v4/projects/your-project-id/ml/mlflow"`, but with your project id. Alternatively, you can also place this directly in your notebook.
-  1. Save the file
-  1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
+    1. Open up your shell resource file (`.zshrc`, for example) in your local machine home directory.
+    1. Add the following line `export MLFLOW_TRACKING_TOKEN="your-access-token"`
+    1. Add the following line `export MLFLOW_TRACKING_URI="https://gitlab.com/api/v4/projects/your-project-id/ml/mlflow"`, but with your project id. Alternatively, you can also place this directly in your notebook.
+    1. Save the file
+    1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
 1. Launch Jupyter. You should now be able to initialize the experiment tracker via the `mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI'))`command in Jupyter
-
 
 **Note:* If looking to connect to the Model Experiments via CI, refer to [Model Training Step-by-Step Instructions](/handbook/business-technology/data-team/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
 
@@ -160,4 +162,3 @@ By default, rancher will allocate a small percentage of your machine's memory to
 
 - [Modin](https://modin.readthedocs.io/en/latest/#): Pandas optimization
 - [Dask](https://dask.org/) (must be self-installed): Parallel computing
-

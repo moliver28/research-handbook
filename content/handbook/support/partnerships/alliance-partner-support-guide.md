@@ -29,11 +29,11 @@ We do not solve issues in Slack, only in tickets. But we can reach out in the Sl
 
 ### Regular touch points
 
-We have regular meetings with our Alliance Partners' support team, to ensure collaboration works well and customers receive stellar support. Reach out to the [Alliance partner DRI](https://handbook.gitlab.com/handbook/support/partnerships/alliance-partner-support-guide/#gitlab-contacts) to get topics on the agenda.
+We have regular meetings with our Alliance Partners' support team, to ensure collaboration works well and customers receive stellar support. Reach out to the [Alliance partner DRI](/handbook/support/partnerships/alliance-partner-support-guide/#gitlab-contacts) to get topics on the agenda.
 
 ### ZenDesk organization
 
-Do not add anyone to Alliance Partner ZenDesk organizations. Reach out to [contacts above](https://handbook.gitlab.com/handbook/support/partnerships/alliance-partner-support-guide/#gitlab-contacts) if needed.
+Do not add anyone to Alliance Partner ZenDesk organizations. Reach out to [contacts above](/handbook/support/partnerships/alliance-partner-support-guide/#gitlab-contacts) if needed.
 
 ## Support Guide
 
@@ -53,7 +53,7 @@ Alliance Partner support team needs to add customer as cc when they create the t
 
 ### Support Process differences
 
-Be mindful that GitLab support process may differ from how the support team works at an Alliance Partner, which might not always be intuitive. Always [assume positive intent](https://handbook.gitlab.com/handbook/values/#assume-positive-intent).
+Be mindful that GitLab support process may differ from how the support team works at an Alliance Partner, which might not always be intuitive. Always [assume positive intent](/handbook/values/#assume-positive-intent).
 
 Also note that specific partners can have [special processes](https://internal.gitlab.com/handbook/support/specific-alliance-partners/) (GitLab internal link, only team members can access).
 
@@ -65,7 +65,7 @@ Alliance partner does initial ticket triage and 1st level support. GitLab Suppor
 
 Alliance partner triages tickets and set the initial ticket priority. GitLab support will assume the ticket priority is appropriately set in our initial response.
 
-If the priority changes at a later point in time or we find the priority should be adjusted, we will clarify with customer in the ticket and change priority [per our normal process](https://handbook.gitlab.com/handbook/support/workflows/setting_ticket_priority/#resetting-ticket-priority).
+If the priority changes at a later point in time or we find the priority should be adjusted, we will clarify with customer in the ticket and change priority [per our normal process](/handbook/support/workflows/setting_ticket_priority/#resetting-ticket-priority).
 
 ### Customer calls
 

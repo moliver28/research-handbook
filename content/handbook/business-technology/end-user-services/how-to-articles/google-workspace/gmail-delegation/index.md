@@ -24,4 +24,3 @@ Gmail Delegation is only available via the `Gmail Webpage`
 1. Click on the team members account
     - This will bring you to the team members inbox.
     - You will be able to `view` and `send` emails on behalf of the team member.
-

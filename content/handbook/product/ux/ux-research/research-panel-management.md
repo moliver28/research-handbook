@@ -5,7 +5,6 @@ description: "How to create and manage a research participant panel"
 
 A research panel is a frequently used means for recruiting participants when conducting research consisting of studying the same group of opted-in participants through various methods and stages that are developed as part of a research effort. This page walks through a self-service process to create and manage panels.
 
-
 ### When should I use a research panel?
 
 Recruiting participants for research with niche topics can take a lot of time and effort to find. Frequency, subject-matter, scope, and scale are all areas of consideration as to when a panel may be needed. If you have a need for a larger group surrounding a certain niche criteria focusing on an issue (that will contain multiple research studies) over a longer period of time, this would be a time to consider using a panel. For example, larger enterprise users or users that are on Ultimate that have experience using a SAST tool and a role that involves using security tools or practices.
@@ -18,13 +17,11 @@ It is also important to consider the various pros and cons when utilizing a pane
 - Better chance of gaining in-depth knowledge and an understanding of your participants through their consistent involvement with the research.
 - Ability to recruit participants on an expedited timeline, especially when you have a difficult or niche user profile.
 
-
 **Cons:**
 
 - Participant fatigue if users are contacted too frequently about participating in studies, which may also lead to having to refresh panel participants.
 - Bias may begin to occur if the same people are surveyed multiple times, possibly causing us to over-index on feedback from a few users, instead of representing as many users as possible. Participants may also begin to recognize your research patterns and respond in a less natural manner.
 - Periodically having to update the panel to ensure the appropriate participants are still included and there is an appropriate mix of individuals.
-
 
 Initially, answering the following questions will help determine whether a panel is the right solution for your project.
 
@@ -87,7 +84,6 @@ After you have established your panel, follow these steps to utilize panel parti
     - Who does this: Panel DRI
 
 **As you use your panel, you will need to continually manage and track panelist information and engagement. Refer to the [Panel management and tracking](/handbook/engineering/ux/ux-research/research-panel-management/#panel-management-and-tracking) section.**
-
 
 ### Guidelines when communicating with panelists
 
@@ -167,7 +163,7 @@ Do not collect data just to have it available for a non-specific purpose. For ex
 - Remember to follow [GitLab’s privacy policy](https://about.gitlab.com/privacy/).
 - Participants may request
   - **To be removed from the panel:** Remove them, and then reach out to a Research Operations team member to ensure they are removed from other active panels and other communications.
-  - **To see their personal data:** They can submit a [Personal data request](/handbook/gdpr/) to see which lists they are subscribed to. Reach out to a Research Operations team member to help with this request.
+  - **To see their personal data:** They can submit a [Personal data request](/handbook/legal/privacy/gdpr/) to see which lists they are subscribed to. Reach out to a Research Operations team member to help with this request.
 
 ### What is an example of a panel in action at GitLab?
 

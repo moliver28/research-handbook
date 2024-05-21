@@ -44,6 +44,7 @@ This person is of interest, but has not interacted with the Talent Acquisition (
 
 - Internal Applicant
 - Job Pages On Your Website
+
 </td>
 </tr>
 <tr>
@@ -57,6 +58,7 @@ This person is of interest, but has not interacted with the Talent Acquisition (
 - Social Media
 - Greenhouse Sourcing (Prospecting via our CRM)
 - Other Sourcing Tools - this indicates any tool we used that we do not have a paid agreement.
+
 </td>
 </tr>
 <tr>
@@ -71,6 +73,7 @@ This person is of interest, but has not interacted with the Talent Acquisition (
 
 - Referral
 - Note: Social Referrals (applications via a link shared by team members) are counted as direct applicants in our metrics.
+
 </td>
 </tr>
 <tr>
@@ -94,6 +97,7 @@ See Greenhouse for the complete list.
 - Glassdoor
 - LinkedIn
 - LinkedIn (Ad Posting)
+
 </td>
 </tr>
 <tr>
@@ -103,6 +107,7 @@ See Greenhouse for the complete list.
 
 - Social Media
   - Example: someone responding to a LinkedIn post that isn’t a referral or someone actively sourced by a recruiter.
+
 </td>
 </tr>
 </table>
@@ -122,6 +127,7 @@ Statistically, our application and referral candidate pools look very similar to
 ### How will we measure the impact of our efforts?
 
 Sourcing rate % is a metric that depicts the total number of candidates sourced using a sourcing strategy that has a high probability of reaching underrepresented talent*. This gives an indication of the % of time each of our recruiters spend focused on sourcing underrepresented talent, while also ensuring we are not making any assumptions on how someone may identify. When a recruiter runs a search that is designed to have a greater chance of identifying candidates who are underrepresented at GitLab, they will utilize tags within Greenhouse to enable this metric for us to goal to as a team. Each quarter, we will set team and individual sourcing rate % goals and measure regularly.
+
 - Sourcing Rate % Calculation: candidates sourced using DIB strategy / divided by the total number of passively sourced candidates.
 
 ### The Sourcing Rate % Metric
@@ -129,7 +135,6 @@ Sourcing rate % is a metric that depicts the total number of candidates sourced 
 **What is Sourcing rate %**: Defined as the total number of candidates sourced utilizing a ‘diverse sourcing strategy’ divided by the total number of candidates (passive, applicants and referrals) in a given pipeline. It is one of our key performance indicators for both sourcers and recruiters on the Talent Acquisition team.
 
 **How does it work**: Per the definition above, we are measuring our sourcing strategy and it’s effectiveness in building representation in our pipelines.
-
 
 ## How to Source Candidates
 
@@ -140,8 +145,11 @@ At GitLab, we consider each of our recruiter team members on the Talent Acquisit
 In accordance with our [values](/handbook/company/culture/inclusion/#values) of Diversity, Inclusion and Belonging, and to build teams as diverse as our users, Talent Acquisition provides a collection of sourcing tools [here](https://docs.google.com/spreadsheets/d/1Hs3UVEpgYOJgvV8Nlyb0Cl5P6_8IlAlxeLQeXz64d8Y/edit#gid=2017610662) to expand our hiring teams’ candidate pipelines. If you have any questions on how to implement these resources into your current sourcing strategy or have suggestions for new tools, please reach out to the Talent Acquisition team.
 
 Our strategy to building representative teams is rooted in our top of funnel strategy. At a high level, our approach and expectations for recruiters and sourcers is as follows:
+
 1. At the beginning of every role, recruiters are responsible to build a DIB first approach to their sourcing strategy. We believe healthy pipelines show a balance between source types (applications, referrals, passive talent and internal talent) in order for our hiring teams to have an adequate view of the talent market before making their hiring decision.
+
 - As a best practice, Recruiters will focus on screening internal candidates, referrals, and sourced candidates for the first 5 business days a req is open.
+
 1. Recruiters run targeted searches leveraging some of our internal resources and sourcing tools (ex: LinkedIn Recruiter, SeekOut, our our CRM)
 1. For each candidate that is sourced in step 2 utilizing a DIB sourcing strategy (ie: leveraging HCBUs in a boolean string, utilizing GraceHopper resume books, etc), apply the appropriate tag.
 
@@ -201,6 +209,7 @@ In today’s talent market, a CRM enables us to efficiently and quickly engage w
 #### DIB Enablement
 
 Examples of searches:
+
 1. Use of SeekOut’s gender or race & ethnicity-specific search tools
 A list of all HBCUs (Historically Black Colleges and Universities) in the United States
 1. A search of all sororities in the United States

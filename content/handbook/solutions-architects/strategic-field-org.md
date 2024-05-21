@@ -18,6 +18,7 @@ To achieve this, the team focuses on internal and external initiatives:
 #### Strategic Customer Advisory
 
 Partner with our account team and their strategic customers' leadership team to deliver advisory services that will enable them to meet their business objectives and get the most out of the GitLab platform. The approach to achieving this varies based on the industry and maturity of the organization's development practice. Example engagements include:
+
 - Deliver roadmap and vision presentations to senior leadership - evangelizing why it exists, where it's going, how it fits in the market, and what critical business problems it solves for the customer.
 - Assess the technical and business impact through TCO and ROI, develop large-scale migration strategies, and provide cultural/workflow recommendations.
 - Develop and deliver executive-level advisory services for strategic prospects and customers who require a broader level of expertise than our offering.
@@ -27,6 +28,7 @@ Represents the company at key industry and customer events
 #### Technical Sales Strategy
 
 As advisors to our largest strategic customers on DevSecOps transformation, the team can provide new approaches and strategies that allow our Sales and Solution Architecture team to increase value and efficiency when positioning GitLab as a solution. This includes:
+
 - Assist in the development and execution of value-driven workshops and assessments (DevSecOps/DORA/Value Stream)
 - Development of scalable and repeatable strategies to drive long-term customer value with GitLab
 - Partner with the sales leadership team to formulate and execute a sales strategy to exceed revenue targets through the adoption of GitLab.

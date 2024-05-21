@@ -8,12 +8,6 @@ description: "Describes the program methodology for GitLab IT programs to ensure
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
 ## Context
 
 This page describes the program methodology for GitLab IT programs to ensure strong results and execution in an efficient way, proper scoping consistent with our value of iteration, correct stakeholders consistent with our value of collaboration and proper documentation for compliance consistent with our transparency value.
@@ -158,7 +152,6 @@ The relevant controls that need to be documented in these programs are these thr
    - In many cases we should have a process to document those changes internally and test even if the change is ultimately implemented by the vendor.  We should always review the SOC 1 or 2 report to understand our responsibilities.
    - While the work to execute the control can be assigned to the vendor, the ultimate responsibility for effective execution of the control lies with GitLab. (i.e. if the vendor executes the control on behalf of GitLab inadequately, GitLab may still be required to report the deficiency of the SOX control)
 
-
 #### Program Development / Implementation of the system (1 time controls)
 
 1. Control - PD1 - Significant program changes are tested and known issues are communicated to the relevant stakeholders prior to approval.
@@ -182,7 +175,6 @@ The sign-off process for each documentation and/or SDLC stage may vary depending
 | ------ | ------ | ------ | ------ | ------ |
 | When a project's deliverable affects the working methods of a limited audience, comprising **three teams or fewer** | No sign-off needed from the business | - Business Lead(s) <br> - Technical Lead(s) (if part of the requirements discovery) | - Business Lead(s) <br> - Technical Lead(s) (if part of the testing) <br> - Testing Participants | - Business Lead(s) |
 | The project's deliverable will have a significant impact on the working methods of a broad audience, consisting of **four teams or more** | - Project Sponsor (can be the Zip / Coupa approval) | - Business Lead(s) <br> - Technical Lead(s) (if part of the requirements discovery) <br> - Project Sponsor(s) | - Business Lead(s) <br> - Technical Lead(s) (if part of the testing)  <br> - Testing Participants | - Business Lead(s) <br> - Project Sponsor(s) |
-
 
 ##### Data Management/Migration
 

@@ -36,13 +36,12 @@ If we delete the entire job, this can break customer pipelines if they have prov
 #### 2. Deprecation Notification
 
 We're required to publish notices in advance of potentially-breaking changes.
-See [Deprecations, removals, and breaking changes](https://handbook.gitlab.com/handbook/product/gitlab-the-product/#deprecations-removals-and-breaking-changes) for details on the required process.
+See [Deprecations, removals, and breaking changes](/handbook/product/gitlab-the-product/#deprecations-removals-and-breaking-changes) for details on the required process.
 
 An example of a previous SAST analyzer deprecation notice is [the notice from 14.8](https://docs.gitlab.com/ee/update/deprecations.html#sast-analyzer-consolidation-and-cicd-template-changes).
 
 The Product Manager and Engineering Manager for SAST are responsible for publishing this announcement.
 Engineers implementing an analyzer removal are responsible for adhering to the stated scope of the change notice, and informing the PM/EM of any important changes to how customers will be affected by the change.
-
 
 ### Analyzer Removal
 
@@ -60,7 +59,7 @@ All analyzers that are no longer supported should be listed in the [end-of-suppo
 
 To further communicate that an analyzer is no longer supported, the following header should be added to its `README.md`.
 
-```
+```text
 [Maintenance Notice](link-to-removal-notice):
 This analyzer is currently in terminal maintenance mode. No new major versions will be released.
 

@@ -177,7 +177,7 @@ After triaging failed tests, possible follow up actions are:
 Your priority is to make sure we have an issue for each failure, and to communicate the status of its investigation and resolution. When there are multiple failures to report, consider their impact when deciding which to report first. See the [pipeline triage responsibilities](/handbook/engineering/infrastructure/test-platform/oncall-rotation/#responsibility) for further guidance.
 
 If there are multiple failures we recommend that you identify whether each one is new or old (and therefore already has an issue open for it). For each new failure, open an issue that includes only the required information. Once you have opened an issue for each new failure you can investigate each more thoroughly and act on them appropriately, as described in later sections.
-[](){: name="known-failures"}
+{: name="known-failures"}
 
 The reason for reporting all new failures first is to allow faster discovery by engineers who might find the test failing in their own merge request test pipeline. If there is no open issue about that failure, the engineer will have to spend time trying to figure out if their changes caused it.
 
@@ -194,7 +194,7 @@ Known failures should be linked to the current [pipeline triage report](https://
 1. If the issue has already been reported please use the existing issue to track the latest status.
 1. If there is no existing issue for the failure, please create an issue using one of [classification labels](#classify-and-triage-the-test-failure) via the steps below.
 
-[](){: name="linking-issue"}
+{: name="linking-issue"}
 In the relevant Slack channel:
 
 1. Apply the :eyes: emoji to indicate that you're investigating the failure(s).
@@ -287,6 +287,7 @@ It is a triggered Reference Architecture Tester pipeline that stands up an envir
 Failures can be triaged as per any other pipeline. Note that as the environment is torn down, retrying QA jobs will fail as the endpoint is unreachable.
 
 The pipeline can be manually retried by:
+
 - Get the package name from the `ansible` job eg. `Configuring GET to fetch package from https://omnibus-builds.s3.amazonaws.com/el-8_fips/gitlab-fips-15.8.3%2Brnightly.fips.272378.ccd2c685-0.el8.x86_64.rpm` ([job example](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester/-/jobs/3779956138#L48))
 - Trigger a pipeline from [Reference Architecture Tester Pipelines](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester/-/pipelines) with the variables
   - `PACKAGE_URL` - This is the package name from the `ansible` job
@@ -464,6 +465,7 @@ If you suspect that certain test is failing due to the `gitlab/gitlab-{ce|ee}-qa
 ##### Verify the reconfigure logs for the GitLab container in the pipeline artefacts
 
 Each orchestrated job has a log file attached as artifacts called
+
 - `<container_name>-reconfigure-logs.txt` - if the container runs successfully on 1st attempt, or
 - `<container_name>-retry-<retry_attempt>-reconfigure-logs.txt` - if the test has tried multiple times to spin up the GitLab container due to failure.
 
@@ -794,4 +796,4 @@ You can find some [general tips for troubleshooting problems with GitLab end-to-
 [quarantining tests]: #quarantining-tests
 [`:flaky`]: #flaky-test
 [`:bug`]: #bug-in-the-application
-[`:stale`]: #test-is-stale-due-to-application-change
+[`:stale`]: #stale-test-due-to-application-change

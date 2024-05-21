@@ -34,7 +34,6 @@ This allows us to see our strengths as a team and to identify team trainings tha
 1. To follow up on the results, the team members and their manager can identify opportunities to fill gaps where team members said they want to improve.
 1. Share with other UX leaders.
 
-
 ## Team Member Updates
 
 Whenever you need to update the area of the product a team member is supporting, such as on the [Product Categories page](/handbook/product/categories), you'll generally need to update or review the following pages and projects. For all updates you'll want to confirm that the name matches the name used on the team page.

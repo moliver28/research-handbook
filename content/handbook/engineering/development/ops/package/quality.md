@@ -37,21 +37,21 @@ The testing strategy for [this level of the pyramid](https://docs.gitlab.com/ee/
 Package tests run in various pipelines and we have a few tests tagged as `:blocking`. `:blocking` tests block merge requests on failure and `:smoke` tests block deployments from going further in case of failure.
 Other Package related tests that are not tagged as `:blocking` run when the full suite of tests runs.
 
-
 ### Where are they
 
 In the [GitLab repository](https://gitlab.com/gitlab-org/gitlab), the End-to-End tests for the Package group are located at:
+
 - `qa/qa/specs/features/api/5_package` _*_
 - `qa/qa/specs/features/browser_ui/5_package`
 - `qa/qa/specs/features/ee/api/5_package` _*_
 - `qa/qa/specs/features/ee/browser_ui/5_package` _*_
-
 
 ### How to run them locally
 
 #### Using GDK
 
 To test against your local GDK, first make sure:
+
 - Environment variables are correctly set
     - `QA_DEBUG` is set to **true** so the debug logs are enabled
     - `WEBDRIVER_HEADLESS` is set to **false** so you can see the test run in an automated browser
@@ -60,6 +60,7 @@ To test against your local GDK, first make sure:
     - [hostname mapped to the loopback interface](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/master/doc/index.md#set-up-gdktest-hostname)
 
 To run the tests:
+
 1. On the terminal, go to `path-to-your-gdk/gitlab/qa`
 1. Make sure that you have all the necessary gems installed: `bundle install`
 1. Issue the command:
@@ -78,7 +79,6 @@ instance as we are using our GDK as the GitLab instance under test. In order to 
 - `qa/specs/features/browser_ui/5_package` is the path to the folder where non-paid package features are.
 - `--tag orchestrated --tag packages` are [RSpec metadata](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/rspec_metadata_tests.html#rspec-metadata-for-end-to-end-tests) used for filtering tests.
 Particularly useful when running on pipelines, but they also need to be included when running locally since they act as a filter for running `:packages` related tests only.
-
 
 ## Using the gitlab-qa gem
 
@@ -183,7 +183,6 @@ Note: Staging, PreProd, and Production use `ipfilteredby` set to `gcp`. This con
 
 - Run the command: `gitlab-qa Test::Integration::Registry EE -- qa/specs/features/browser_ui/5_package/dependency_proxy/dependency_proxy_spec.rb --tag registry`
 
-
 #### Scenario - Run Dependency Proxy on a SAML Group SSO enabled
 
 - Run the command: `CI=true gitlab-qa Test::Integration::GroupSAML EE -- qa/specs/features/browser_ui/5_package/dependency_proxy/dependency_proxy_sso_spec.rb --tag group_saml`
@@ -278,5 +277,3 @@ we have available a sandbox environment that can be launched and destroyed on de
 7. Click on the `Deploy` job after it passes to obtain the URL and access credentials to the demo Omnibus instance
 8. Open the `demo-project`
 9. The environment can be destroyed by returning to the HackyStack environment and manually triggering the `Destroy` job
-
-

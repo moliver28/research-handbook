@@ -80,4 +80,3 @@ Recent hobbies these have included:
 Further back hobbies included [crochet](https://www.flickr.com/photos/unplain-jane/albums/72157608410004917), [sewing](https://www.flickr.com/photos/unplain-jane/albums/72157622880198139), [New Zealand Sign Language](https://www.nzsl.nz/) (sadly I've forgotten most of what I learnt),  [photography](https://www.flickr.com/photos/unplain-jane/albums/72157616370056642).
 
 Way back hobbies included horse-riding, singing, playing guitar, Hamilton Community Gospel Choir, softball, Girl Guides (yep, that far back!)
-

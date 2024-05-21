@@ -21,7 +21,6 @@ description: "Group Cost Metrics"
 [How to Engage](/handbook/engineering/infrastructure/cost-management/how-to-engage)
 {:.btn .btn-purple}
 
-
 We maintain a set of base level cost metrics for groups to use in Periscope in this [Dashboard](https://app.periscopedata.com/app/gitlab/744908/Infrafin-Base-Cost-Metric-SSOT---Groups). These are created in conjunction with a strict definition that explains what is and is not included in the metric, so understanding the definition is crucial to understanding the metric itself.
 
 Currently we aim to have no more than 5 of these metrics per group, but may expand this. Generally we have 1 metric for total cost, 1 metric for total cost MoM growth, and up to 3 additional metrics around specific sub-categories of cost within the group. This is to try and keep the number of metrics manageable as we expand to more groups.
@@ -37,8 +36,6 @@ When you would like to use these metrics to create a final KPI, for example taki
 - Include the original metric definition in your newly created charts, or otherwise link back to the source
 - Less than 6 base level cost metrics per group
 
-
 ## Requesting a New Group Level Cost Metric
 
 If you are a PM or just see a need for a new metric to be added, please read the instructions under "I would like to see a new group or service level cost metric" in [How to Engage](/handbook/engineering/infrastructure/cost-management/how-to-engage)
-

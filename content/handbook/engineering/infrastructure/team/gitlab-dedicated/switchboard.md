@@ -94,6 +94,7 @@ Quarterly planning is owned and driven by the Switchboard EM and PM.
 #### Epic Refinement
 
 Switchboard team process to refine epics:
+
 1. Identify a [DRI](/handbook/people-group/directly-responsible-individuals/) for the epic
    - Team members can volunteer or the EM may ask team ask specific team members to act as DRI
 1. Identify any missing requirements
@@ -122,6 +123,7 @@ Note 1, 2 & 4 can be carried out in parallel
 #### Issue Refinement
 
 Switchboard team process to refine issues:
+
 1. When an issue is created and ready to be refined it is labelled ~"workflow-infra::Triage"
 1. PM and EM ensure that the `Open` and ~"workflow-infra::Ready" columns are prioritised
 1. Team members look at issues in the `Open` column of the [issue board](https://gitlab.com/groups/gitlab-com/gl-infra/gitlab-dedicated/-/boards/4498935?label_name[]=team%3A%3ASwitchboard) and ask questions on the issue to drive clarity
@@ -138,7 +140,7 @@ Switchboard team process to refine issues:
 
 1. Engineers use Progress Threads to share progress in an async fashion
 1. At the beginning of the Switchboard Sync the team will check in on epics labelled ~"workflow-infra::In Progress" or ~"workflow-infra::Triage" to ensure due dates are appropriate and highlight any blockers
-1. Epic DRIs update the status in the Epic Description every Wednesday in preparation for the [Grand Review](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review)
+1. Epic DRIs update the status in the Epic Description every Wednesday in preparation for the [Grand Review](/handbook/engineering/infrastructure/platforms/project-management/#projects-are-reviewed-weekly-in-the-grand-review)
 1. Epic DRIs review the due date weekly. The epic status update should include the DRI's confidence level in the due date and any risks to delivery
 
 #### Picking up work / What to work on next
@@ -182,8 +184,6 @@ Switchboard maintains the following issue templates:
 | `switchboard_team_member_onboarding.md`     | Switchboard EM          | Onboard a new team member to the Switchboard team                                                                                     |                                                                                                                                     |
 | `switchboard_internal_issue.md`             | Switchboard team member | This template is used by DRIs to create issues in pre-existing well-defined epics                                                     |                                                                                                                                     |
 
-
-
 ### Merge Request Review Guidelines
 
 We specifically adhere to the [GitLab Code Review Guidelines](#gitlab-code-review-guidelines) and follow
@@ -206,6 +206,7 @@ As the Switchboard team is currently small, we use an 'Approve and Merge' approa
 In addition to the above when a change is being proposed to the UI the following extra steps should be followed:
 
 **UI changes visible to internal GitLab users:**
+
 1. MR author cc’s PM & UX Designer on the MR but they are not reviewers or blockers of the merge
 1. If they have any suggestions they can be dealt with on the MR or on a later MR at the MR author’s discretion
 1. Eventually the PM & UX Designer will be reviewers on the internally visible UI updates but our process is not there yet nor is their capacity
@@ -221,8 +222,9 @@ In addition to the above when a change is being proposed to the UI the following
 
  **Note:** If significant discussion ends up being needed for a UI change (internal or customer facing) after the MR has been opened, that discussion should be moved back to the issue to resolve and the MR marked as blocked. These discussions will be high priority to resolve and the issue should be assigned to the PM and Designer until progress on the MR can resume.
 Notes:
+
 - It is our intention to move towards a typical 'reviewers and maintainers' approach which would require two reviews as soon as we have the team members to support this.
-- Merge requests should be approved based on the [approval guidelines](#approval_guidelines).
+- Merge requests should be approved based on the [approval guidelines](#approval-guidelines).
 - As per the [GitLab Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) there are scenarios where it is appropriate for the author to merge the merge request: If there are no blocking comments, and the merge request has all the required approvals, the author or maintainer can merge.
 - Switchboard project is configured to use [pipelines for merged results](https://docs.gitlab.com/ee/ci/pipelines/merged_results_pipelines.html) which means that reviewers need to run a pipeline pre-merge to guarantee that updates are compatible with the latest main branch.
 - When reviewing merge requests, reviewers should use the [Conventional Comment labels](https://conventionalcomments.org/#labels) to convey your intent.
@@ -261,12 +263,11 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 - All Switchboard team members are included in the `Reviewer` group.
 - When a team member is fully onboarded and feel confident in their knowledge of the codebase they are invited to the Maintainer group.
 
-
 #### Epic Template
 
 <details><summary>Epic Template</summary>
 
-```
+```markdown
 ### DRI :levitate
 - TBC
 
@@ -356,4 +357,3 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 ```
 
 </details>
-

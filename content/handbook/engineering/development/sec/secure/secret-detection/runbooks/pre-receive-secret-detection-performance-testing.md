@@ -5,6 +5,7 @@ title: "Pre-receive secret detection performance testing"
 ### When to use this runbook?
 
 Use this runbook for:
+
 * [Running GPT tests](#running-gpt-tests) - for running tests and comparing with previous benchmarks
 * [Deploying a new version of GitLab to GET](#re-deploying-a-new-build) - for updating a GET instance, most likely to test out changes related to pre-receive secret detection
 * [Setting up a new GET environment](#setting-up-a-get) - for testing different reference architectures
@@ -23,10 +24,12 @@ Get the url and password for the `root` user from 1password by searching for Sta
 #### Running automated tests (via GCP VM)
 
 Options for logging in to the VM:
+
 * SSH in to the VM: `gcloud compute ssh --zone us-west1-c gpt-test-runner-2 --project dev-sast-prereceive-8a4574ec`
 * Or, go to [The Static Analysis GCP Project: dev-sast-prereceive-8a4574ec](https://console.cloud.google.com/welcome?project=dev-sast-prereceive-8a4574ec), click `Compute Engine`, find `gpt-test-runner-2`, and click `SSH`. This will launch a web-based SSH session.
 
 One time setup (required by everyone running the tests from the VM):
+
 * `git clone https://gitlab.com/gitlab-org/quality/performance.git`
 * cd in to `performance`
 * Copy the gcp-2k.json file from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) to the `performance` directory
@@ -35,6 +38,7 @@ One time setup (required by everyone running the tests from the VM):
 * Check out our branch `secret-detection`
 
 Running the tests:
+
 * Get the glpat token from 1password by searching for Static Analysis in the Engineering Vault
 * Ensure you are in the `performance` directory
 * To run just the `git_secret_detection.js` test (as an example): `ACCESS_TOKEN=glpat-REDACTED SD_PUSH_CHECK_ENABLED=true SD_FILES_PER_COMMIT=4 GPT_DEBUG=true SD_FILE_SIZES="10kb" GPT_SKIP_RETRY=true ./bin/run-k6 --environment gcp-2k.json --options 60s_40rps.json --unsafe --tests k6/tests/git/pre-receive/git_secret_detection.js`
@@ -64,6 +68,7 @@ covered in this guide. Alternate reference architectures can be [found
 here](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/quality/-/tree/main/configs/reference_architectures?ref_type=heads).
 
 One time steps:
+
 * Clone the [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit) and `cd` into it
 * Copy bootstrap.sh from [this MR](https://gitlab.com/gitlab-org/secure/pocs/gitlab-environment-toolkit-configs/-/merge_requests/4) to the root and update it as necessary
 * You may need to make it executable: `chmod +x bootstrap.sh`
@@ -73,6 +78,7 @@ steps that need to be ran for setting up a new $GCP_ENV_PREFIX, and they
 still need to be separated.
 
 Steps to add a new $GCP_ENV_PREFIX:
+
 * Use [Provisioning the environment with Terraform](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_provision.md) as guide for setting up Terraform, ignoring the AWS steps as we are using GCP
 * Make sure you are within your cloned [GET repo](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
 * Update the variables in bootstrap.sh as necessary
@@ -94,7 +100,7 @@ Steps to add a new $GCP_ENV_PREFIX:
 * Rename gcp_2k.gcp.yml and update both *.yml files as necessary
 * Copy over `monitor.yml` to `ansible/environments/$GCP_ENV_PREFIX/files/gitlab_tasks`
 * Nothing needs to change in `monitor.yml`, but be sure `grafana_password` is set in `vars.yml`
-* Acquire a new Ultimate license [following this process](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/policies/team_member_licenses/)
+* Acquire a new Ultimate license [following this process](/handbook/support/readiness/operations/docs/policies/team_member_licenses/)
 * Upload that license file to `/environments/$GCP_ENV_PREFIX/files`
 * From the root directory, follow the steps in [Installing Ansible with a Virtual Environment](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/-/blob/main/docs/environment_configure.md#installing-ansible-with-a-virtual-environment)
 * Cd to the `ansible` directory
@@ -127,7 +133,7 @@ a.save!
 
 Horizontal data:
 
-```
+```console
 docker run -it \
   -e ACCESS_TOKEN=glpat-REDACTED \
   -e GPT_GENERATOR_POOL_TIMEOUT=600 -e GPT_GENERATOR_POOL_SIZE=1 -e GPT_GENERATOR_RETRY_COUNT=20 -e GPT_GENERATOR_RETRY_WAIT=10 \
@@ -143,7 +149,7 @@ the browser, just wait for it to finish importing.
 
 Vertical data:
 
-```
+```console
 docker run -it \
   -e ACCESS_TOKEN=glpat-REDACTED \
   -e GPT_DEBUG=true \
@@ -170,6 +176,7 @@ The Grafana dashboards can be found at `/-/grafana/dashboards/`. Login credentia
 
 Setting up the environment is covered in previous sections, but the
 files necessary to make this work are as follows:
+
 * ansible/environments/gcp-2k/files/gitlab_tasks/monitor.yml
 * ansible/environments/linux_package/server-performance.json
 * ansible/environments/dashboards.yaml

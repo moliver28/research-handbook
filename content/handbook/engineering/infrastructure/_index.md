@@ -28,7 +28,7 @@ Integral part of this vision is to:
 1. Build a highly performant team of engineers, combining operational and software development experience to influence the best in reliable infrastructure.
 1. Work publicly in accordance with our [transparency] value.
 1. [Use our own product](#dogfooding) to prepare, build, deliver work, and support [the company strategy][strategy].
-1. Align our [strategy](#strategy) with the industry trends, company direction, and end customer needs.
+1. Align our [strategy][strategy] with the industry trends, company direction, and end customer needs.
 
 ## Direction
 
@@ -130,9 +130,9 @@ When we consider building tools to help us operate GitLab.com, we follow the [`5
 
 ## Handbook use at the Infrastructure department
 
-At GitLab, we have a [handbook first policy](/handbook/handbook-usage/#why-handbook-first). It is how we communicate process changes, and how we build up a single source of truth for work that is being delivered every day.
+At GitLab, we have a [handbook first policy](/handbook/about/handbook-usage/#why-handbook-first). It is how we communicate process changes, and how we build up a single source of truth for work that is being delivered every day.
 
-The [handbook usage page guide](/handbook/handbook-usage/) lists a number of general tips. Highlighting the ones that can be encountered most frequently in the Infrastructure department:
+The [handbook usage page guide](/handbook/about/handbook-usage/) lists a number of general tips. Highlighting the ones that can be encountered most frequently in the Infrastructure department:
 
 1. The wider community can benefit from training materials, architectural diagrams, technical documentation, and how-to documentation. A good place for this detailed information is in the related project documentation. A handbook page can contain a high level overview, and link to more in-depth information placed in the project documentation.
 1. Think about the audience consuming the material in the handbook. A detailed run through of a GitLab.com operational runbook in the handbook might provide information that is not applicable to self-managed users, potentially causing confusion. Additionally, the handbook is not a go-to place for operational information, and grouping operational information together in a single place while explaining the general context with links as a reference will increase visibility.
@@ -161,7 +161,6 @@ Infrastructure SREs may be aligned with [stage groups](/handbook/product/categor
 
 [Stable Counterparts](./team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
 
-
 ## Interviewing
 
 The Infrastructure department hires for a number of different technical specialisms and positions across its teams. This [Infrastructure Interviewing Guide](/handbook/hiring/interviewing/infrastructure-interview/) offers more detail on some of our regular openings, interview process and other useful information related to applying to jobs with us. More information on our current openings can be found on the [careers page](https://about.gitlab.com/jobs/).
@@ -187,7 +186,6 @@ The Infrastructure department hires for a number of different technical speciali
 - [GitLab.com data breach notification policy](/security/#data-breach-notification-policy)
 - [Infrastructure careers and internships][interning]
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
-
 
 [status]: https://status.gitlab.com/
 [incident]: /handbook/engineering/infrastructure/incident-management/

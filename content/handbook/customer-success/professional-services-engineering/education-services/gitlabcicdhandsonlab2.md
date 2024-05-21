@@ -63,7 +63,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
     > From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
 
-# Task B: Create a Project
+## Task B: Create a Project
 
 1. From the **My Test Group** training subgroup, click the **New project** button.
 
@@ -73,7 +73,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
     > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
-1. In the Project URL field, click the dropdown for the second half of the URL to make sure it’s pointing to a group name (starts with gitlab-learn-labs/*) and not a username. You should create this project inside a group, not directly in your user’s namespace.
+1. In the Project URL field, click the dropdown for the second half of the URL to make sure it’s pointing to a group name (starts with gitlab-learn-labs/* if it is SPT, and training-users/* if it is ILT) and not a username. You should create this project inside a group, not directly in your user’s namespace.
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
@@ -250,15 +250,15 @@ If you see `Service is running` in the output, the gitlab-runner service is work
 
 1. Under the **Project runners** section, click the **New project runner** button.
 
-1. Select your operating system (Linux, MacOS, or Windows).
-
 1. Under **Tags**, select **Run untagged jobs**. Leave the rest of the options blank.
 
     > An untagged runner will run any jobs. To control the jobs that a runner can run, you can define tags for the runner. To learn more about this process, click [here](https://docs.gitlab.com/ee/ci/runners/configure_runners.html#use-tags-to-control-which-jobs-a-runner-can-run)
 
 1. Click the **Create runner** button.
 
-1. From the next page presented, copy the command under **Step 1** to your clipboard.
+1. From the next page presented, select your operating system (Linux, MacOS, or Windows).
+
+1. Copy the command under **Step 1** to your clipboard.
 
 1. Back in your terminal, paste and run the command you copied in the previous step. Press `Enter` for the instance URL and `Enter` for the runner name to use the default values. (You can give this a custom name if desired).
 

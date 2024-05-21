@@ -10,11 +10,17 @@ description: "A running log of Field Operations changes (Sales Ops, CS Ops, Chan
 
 
 
-The Revenue Strategy, Operations & Enablement (RSOE) Changelog keeps a running log of changes related to RSOE functions. The log is organized by fiscal year/quarter and sub-organized by the bi-weekly RSOE release milestone/epic. It was started in Q3-FY22 and is organized by newest updates at the top. 
+The Revenue Strategy, Operations & Enablement (RSOE) Changelog keeps a running log of changes related to RSOE functions. The log is organized by fiscal year/quarter and sub-organized by the bi-weekly RSOE release milestone/epic. It was started in Q3-FY22 and is organized by newest updates at the top.
 
 To learn more about Field Ops releases, see the [RSOE Release Schedule handbook page](/handbook/sales/field-operations/release-schedule/).
 
 ## Q2-FY25
+
+### 2024-05-20 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/548))
+
+**[LinkedIn Sales Insights Discontinuation](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/552)**
+
+**Investment Services Value in SFDC + Clari Changes**
 
 ### 2024-05-06 Release ([epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/512))
 
@@ -36,7 +42,7 @@ To learn more about Field Ops releases, see the [RSOE Release Schedule handbook 
 
 **[Account Cleanup Deadline](https://internal.gitlab.com/handbook/sales/go-to-market/rules-of-engagement/#accounts-eligible-for-immediate-transfer)**
 
-**[Naming Convention Guidelines - GitLab Duo Pro](https://handbook.gitlab.com/handbook/sales/field-operations/gtm-resources/#opportunity-naming-convention)**
+**[Naming Convention Guidelines - GitLab Duo Pro](/handbook/sales/field-operations/gtm-resources/#opportunity-naming-convention)**
 
 **[Clari Forecasting - Net ARR + PS Summary Tab](https://internal.gitlab.com/handbook/sales/sales-tools/sales-forecasting/#sales-forecasting)**
 

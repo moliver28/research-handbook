@@ -16,7 +16,7 @@ Note: the previous single source of truth for all the JTBD at GitLab ([a yml fil
 
 ## Anatomy of a JTBD Canvas
 
-A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) [Main Job](#main-job-where-do-you-want-to-innovate) in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
+A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) [Main Job](#main-jobs) in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
 Each canvas has a number of different sections which combine to provide a **holistic picture of a Job Performer's Main Job**. It can be a bit daunting, so here’s an explanation of each section:
 
 ![JTBD canvas](JTBD_Canvas.png)
@@ -59,7 +59,7 @@ Both personas and Job Performers are useful constructs in helping to understand 
 
 It may help to think about the other actors or Job Performers that relate to your Domain in order to help in selecting a Job Performer to build your canvas around. Consider, who are all of the potential Job Performers within your Domain performing tasks? Once you've select the primary Job Performer you want to innovate for, move the remaining Job Performers to the Related Job Performers section, if you deem it necesary, you can build canvases around them at a later date.
 
-### **Main Job:** Where do you want to innovate?
+### **Main Job:** What is the Job Performer trying to get done?
 
 The Main Job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. What is the Job Performer trying to get done in the selected Domain? Main Jobs should be timeless and as unchanging as possible. It should be expressed in functional terms, like a utilitarian goal. It’s an act that should be performed and have a clear end state… the “done” part of JTBD. It is not what your company needs to do to deliver a service. Always think in terms of the Job Performer’s perspective. The level of granularity for the Main Job can vary, depending on the innovation's purpose and feasibility.
 
@@ -116,12 +116,14 @@ What goes into a Job Step:
     - Each stage comprises vertical stacks which are sub-steps the Job Performer needs to accomplish, moving top to bottom before moving to the next stage.
 
 Good examples:
+
 - Decide where to look for a new home
 - Determine selection criteria
 - Seek new homes
 - Transfer home ownership
 
 Bad example:
+
 - Ask Richard what neighborhoods are popular to live in (Who’s Richard? Does everyone who does this job have a Richard? Too specific.)
 
 ### **Outcomes:** How does the Job Performer measure the success of getting the job done?
@@ -133,6 +135,7 @@ What goes into an Outcome statement:
 1. They begin with a verb indicating a **direction** of change (e.g., minimize, reduce, decrease, maximize, increase).
 2. Contains something the Job Performer wants to change as a unit of **measure** (e.g., time, effort, or likelihood).
 3. They end with qualifiers/clarifiers that make the outcome statement **specific** and **relevant** to the Main Job.
+
 - Avoid ANDs or ORs (they need to be singular), and remain technology/solution agnostic
 
 Good examples:
@@ -161,6 +164,7 @@ What goes into an Emotional aspect:
 - Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
 
 Good Emotional Aspect examples:
+
 - Feel in control of the home acquisition process
 - Avoid feeling uncertain about new home selection
 
@@ -171,6 +175,7 @@ What goes into an Social aspect:
 - Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
 
 Good Social Aspect examples:
+
 - Appear as a good future neighbor
 - Avoid appearing unknowledgeable about the new home acquisition process
 
@@ -181,6 +186,7 @@ These aspects can vary widely and provide insights into the Job Performer's emot
 Job Differentiators are the factors or circumstances that influence how the job gets done. They often encompass time, manner, or place, among other characteristics. Job Differentiators are introduced with the word "if", indicate a range of options, and use "versus/vs." when applicable to show a comparison.
 
 What goes into a Job Differentiators:
+
 - Begins with words like _if_
 - Should show a range of options with Versus/Vs
 - Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
@@ -197,7 +203,6 @@ Additionally, you can qualify the Main Job in order to narrow its scope, such as
 
 When talking about Jobs to be Done, we’re often talking about different levels of jobs. It’s important to note the differences in terminology between these levels so that you and your stakeholders can communicate effectively.
 
-
 ![JTBD hierarchy diagram](JTBD_Diagram.png)
 
 ### Main Jobs
@@ -206,13 +211,11 @@ A Main Job is a means to an end. It's an act that will be performed and should h
 
 Example: Buy a new home
 
-
 ### Small jobs
 
 Small Jobs are more practical and correspond to a process or workflow. They answer the question, "How does the job get done?" in the context of the Main Job and moves the user closer to accomplishing their goal.
 
 Example: Put in an offer on a house
-
 
 ### Micro-jobs
 
@@ -221,7 +224,6 @@ Micro-jobs are the small tasks a user may undergo to accomplish their small job 
 Example: Decide how much you’re going to offer in relation to the asking price.
 
 It’s important to be able to identify and correctly place jobs at the right altitude as you work through the Jobs to be Done process. It will help keep you focused on the Main Job and allow you to quickly incorporate (or discard) new information that you hear during interviews into your [job steps](#job-steps-how-does-the-job-performer-get-the-job-done).
-
 
 ## Job Stories
 
@@ -232,6 +234,7 @@ Job Stories should be created to synthesize and summarize your data from your Jo
 Job Stories emphasize the situation and context over the individual. Ultimately, Job Stories combine your top insights to one place and summarize them. Good Job Stories describe the pain points that you’re going after and help you empathize with the Job Performer.
 
 **Paint points must:**
+
 - Express a need, not a solution
 - Be concrete, not abstract
 - Be measured quantitatively, not anecdotal
@@ -283,7 +286,6 @@ For any domain, you might end up with 3 to 5 Job Stories covering the data and i
 - **Incorporate them into issues**: Add them into the description of an issue as a heuristic to measure the solution against and to aid in making design decisions.
 - **Usability testing success criteria**: Validate whether the solution successfully achieves the Job Story.
 
-
 <!-- OLD CONTENT - from deleted pages -- may be re-incorporated, so keeping it here for now
 
 ### JTBD Hierarchy
@@ -293,7 +295,6 @@ Using our examples, we can produce a JTBD hierarchy, confirming we operate at th
 - **Main Job**: Maintain an acceptable level of risk in my organizations assets.
 - **Small job**: Prioritize business-critical vulnerabilities in my assets.
 - **Micro jobs**: Review the most recent risks detected in my assets; Refine the list of risks by relevancy; Refine the list of risks by impact.
-
 
 ### Using JTBD at GitLab
 
@@ -321,8 +322,7 @@ Job stories offer a higher-level view of the main objective. However, when writt
 
 If you want a detailed breakdown of each segment of the JTBD, learn more about the [structure of a JTBD](/handbook/product/ux/jobs-to-be-done/deep-dive/#how-do-i-structure-a-jtbd). -->
 
-
-<!-- 
+<!--
 ---
 title: "Mapping Jobs to be Done (JTBD)"
 description: "How do I create a job map? How do I validate a JTBD?"
@@ -355,7 +355,6 @@ Consider these job stages as more of a guideline than a prescriptive model. The 
 | Modify     | Modify and iterate as necessary.                       | Modify, Update, Adjust, Maintain       |
 | Conclude   | End the job and follow-up.                             | Conclude, Store, Finish, Close         |
 
-
 ### Step 1 - Create a job map
 
 1. Use this ([FigJam Template](https://www.figma.com/file/M8w3pkidNUAUIQrQALifFS/JTBD-Template?type=whiteboard&t=HXmKttyxz1lwX9B8-6)).
@@ -379,7 +378,6 @@ To get started, ask yourself these questions:
 - How might you get more of the job done for customers?
 - What related jobs can your offering address or tie in to the job?
 
-
 ## References and Further Reading
 
 - [Jobs to be Done Playbook by Jim Kalbach](https://rosenfeldmedia.com/books/jobs-to-be-done-book/)
@@ -388,11 +386,6 @@ To get started, ask yourself these questions:
 - [Intercom on Jobs to be Done by Intercom](https://www.intercom.com/resources/books/intercom-jobs-to-be-done)
 
  -->
-
-
-
-
-
 
   <!--
   ---
@@ -521,5 +514,5 @@ Final version: When a code change is made, I want to know if the change introduc
 - [x] Describe specific circumstances that the Job Performer is in when they need to get the job done.
 - [x] Focus on one specific goal or aspect that the Job Performer needs to complete when writing out the job statement so that it makes it easier to validate in the future.
 - [x] Focus the outcome of the job statement around the desired end state or feeling for the Job Performer as well as the reason why completing the job is so important. Ensure the outcome is something that is measurable and can be used to validate the job statement.
- 
+
   -->

@@ -32,7 +32,7 @@ Remote work is also what led to the development of our publicly viewable [handbo
 
 Each department and team's quarterly goals, or ["objectives and key results" (OKRs)](/handbook/company/okrs), are also clearly documented in our handbook for visibility across the company. We check in on these goals monthly, so there's as much transparency as possible around what each team is accomplishing.
 
-Our approach to [documentation](/handbook/documentation) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}), because everything they need to know is in one place.
+Our approach to [documentation](/handbook/product/ux/technical-writing/documentation/) also helps with [onboarding new team members]({{< ref "./learning-and-development" >}}), because everything they need to know is in one place.
 
 We also have an extensive [onboarding template](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md) and we host a [GitLab 101](/handbook/company/culture/gitlab-101) for new hires to ask questions.
 
@@ -101,7 +101,6 @@ We recognize how crucial it is to build in time when you can mentally take a bre
 
 > **“I work closely with our executive team here, and they have been so supportive and encouraging when family-related conflicts arise. They are constantly reminding me that “family first” is our mantra, and give me ease of mind to take time away when needed. Sid, our co-founder and CEO, told me if it’s a beautiful day out and I just want to go enjoy it, I should do that. Moments like these make me so proud to be a part of the GitLab team."**
 [- Cheri, Manager, Executive Assistant](/handbook/company/team#cheriholmes)
-
 
 ## Tips for leaders and other companies
 

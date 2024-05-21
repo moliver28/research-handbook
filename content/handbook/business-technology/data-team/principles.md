@@ -80,7 +80,6 @@ graph TD
 - We believe the best way to align on a complex outcome is to picture it
 - Automated tests are the best tests and we implement tests at every step of the data delivery process
 
-
 ### Additional beliefs held by the Data Team include
 
 - Everything can and should be defined in code and version controlled
@@ -93,4 +92,3 @@ graph TD
 - All business users should be able to learn how to interpret and calculate simple statistics
 
 ---
-

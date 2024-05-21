@@ -34,12 +34,14 @@ In the Test Platform sub-department at GitLab, our goal is to standardize projec
 #### Personal Projects
 
 Personal Projects are for individual exploration and learning opportunities. These projects provide a sandbox environment for testing new ideas or technologies without the need for formal review.
+
   - Use GitLab's [personal namespaces](https://docs.gitlab.com/ee/user/namespace/#types-of-namespaces).
   - Make projects [private or internal](https://docs.gitlab.com/ee/user/public_access.html#private-projects-and-groups) to minimize clutter in the main group.
 
 #### POC (Proof of Concept) Projects
 
 POC Projects are to explore and validate new concepts or technologies that could potentially bring value to the Test Platform sub-department or broader organization. They are more formal than Personal Projects and are expected to have a clearly defined scope and objectives.
+
   - Ensure that the project is created under the [Quality Department](https://gitlab.com/gitlab-org/quality) group for organizational alignment.
   - Make projects [Public or Internal](https://docs.gitlab.com/ee/user/public_access.html) based on the required collaboration needs.
   - In the README of your POC project, add a section linking to the relevant GitLab issues for tracking progress and challenges, and clearly state the POC project owner's name and role, along with a brief outline of the project's scope and objectives.
@@ -48,6 +50,7 @@ POC Projects are to explore and validate new concepts or technologies that could
 #### Established Projects
 
 Established Projects are those that have proven their value, are mature, and are fully integrated into regular department workflows. These projects are critical to the department's operations and require ongoing management and development.
+
   - Ensure that the project is created under the [Quality Department](https://gitlab.com/gitlab-org/quality) group for organizational alignment.
   - Make projects [Public or Internal](https://docs.gitlab.com/ee/user/public_access.html) based on the required usage needs.
   - Add Ownership details for the established project by following below steps:
@@ -63,11 +66,13 @@ Established Projects are those that have proven their value, are mature, and are
 #### Project Deprecation
 
 Deprecation of a project is a significant decision and should be based on clear, objective criteria. Here are the key factors to consider:
+
   - Decline in usage metrics over a sustained period.
   - Lack of relevance to current organizational goals or technology trends.
   - Existence of newer tools or platforms that effectively replace the project’s functionality.
 
 The process of deprecating a project should be methodical and transparent to all stakeholders:
+
   - Conduct a thorough review of the project against the deprecation criteria.
   - Inform all stakeholders, including project maintainers, users, and dependent teams, about the decision to deprecate.
   - For an established project, ensure all valuable data and documentation are securely [archived](https://docs.gitlab.com/ee/user/project/settings/migrate_projects.html#archive-a-project).

@@ -62,7 +62,7 @@ Pure technical skills and intellectual ability are prerequisites for top positio
 
 Emotional intelligence is a key skillset for all team members at GitLab. For Managers, it is an essential attribute that can help enable team dynamics and ensure your people are receiving the right level of professional development as they progress in their careers.
 
-Skills and behavior of the emotional intelligence [manager competency](/handbook/competencies/#list):
+Skills and behavior of the emotional intelligence [manager competency](/handbook/people-group/competencies/#list):
 
 - Actively displays self-awareness and self-regulation through the use of empathy
 - Models high level of emotional intelligence while balancing with hard and soft skills

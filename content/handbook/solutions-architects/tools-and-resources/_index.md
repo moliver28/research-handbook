@@ -7,7 +7,6 @@ description: “Discover GitLab Solutions Architects’ tools and resources”
 
 ## Tools and Resources
 
-
 Tools and resources provide infomation to help Solution Architects to conduct POV or workshops, respond to RFx, manage customer facing activities, support on-going product learning.
 
 ### Education and Enablement
@@ -22,7 +21,6 @@ Proof of Value (POV), formerly known as Proof of Concept, is conducted during th
 
 In case Support required during the pre-sales cycle (for example in case of a POV excercise or in case of potential new deal with an existing customer) Solution Achitects should use the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to open an internal request with Support. In any other cases with existing customers, SAs are advised to ask the customers to open a support ticket themselves.
 
-
 ### SaaS Trials for Existing Customers
 
 Paid customers must set up a new namespace on SaaS when trialing Ultimate.  There are two primary reasons for this:
@@ -33,8 +31,6 @@ Paid customers must set up a new namespace on SaaS when trialing Ultimate.  Ther
 Both situations put customer production GitLab usage at risk if a trial is applied to the SaaS namespace.
 
 Instead, a customer should create a new namespace and trial there.  We have put together some [rial guidelines](/handbook/solutions-architects/tools-and-resources/trial-guidelines/) in order to make the process as seamless as possible for customers.
-
-
 
 ### Hands-on Workshops
 
@@ -84,7 +80,6 @@ Solutions Architects frequently interact with customers for demos, presentations
 - [Postman](https://www.getpostman.com/) for API interaction
 - [Visual Studio Code](https://code.visualstudio.com/) lightweight IDE text editor
 
-
 #### Related macOS tips
 
 - [Switch between full screen applications](https://www.intego.com/mac-security-blog/how-to-enter-and-exit-full-screen-mode-in-macos/) using the trackpad, Command keys or other options
@@ -95,6 +90,7 @@ Solutions Architects frequently interact with customers for demos, presentations
 ### Useful Customer Facing Presentations
 
 No two presentations are the same and we often find ourselves mixing and matching content tailored to our Customer's journey. All field and customer facing collateral is hosted on
+
 - [HighSpot](https://gitlab.highspot.com/) (for field teams)
 - [Solution Pages](https://about.gitlab.com/solutions/) (for web users)
 
@@ -113,6 +109,7 @@ Linkedin Learning is another platform with various resources to help SA's during
 Here are courses that will facilitate the onboarding process of associate SAs and help them in getting up to speed with the technical concepts required for the role:
 
 **Free for GitLab members**
+
 - The learning path [Become a DevOps Engineer](https://www.linkedin.com/learning/paths/become-a-devops-engineer), particularly the following sections:
     - [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations)
     - [Learning Docker](https://www.linkedin.com/learning/learning-docker-2018)
@@ -122,6 +119,7 @@ Here are courses that will facilitate the onboarding process of associate SAs an
 
 **Paid**
 Paid courses can be expensed as part of the [Growth and Development benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/)
+
 - IBM course on Coursera: [Information Technology (IT) and Cloud Fundamentals Specialization](https://www.coursera.org/specializations/it-cloud-fundamentals)
 Especially the module [Introduction to Cloud Computing](https://www.coursera.org/learn/introduction-to-cloud?specialization=it-cloud-fundamentals)
 
@@ -131,5 +129,3 @@ The [GitLab Data Seeder](https://docs.gitlab.com/ee/topics/data_seeder.html) is 
 The data that is generated is customizable, time-relative, and can be used on-demand to generate data to demonstrate.
 
 The Demo Data can be showcased on any self-managed instance including Docker, GDK, and customer environments.
-
-

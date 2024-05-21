@@ -65,6 +65,7 @@ The patch will first be deployed to GitLab-managed environments (.com, Dedicated
 
 Occasionnaly, we'll need a quick fix before a good patch can be thoroughly developed and reviewed.
 Here are some examples of short term options we've used in the past:
+
 - Cloudflare rule to block certain endpoints.
 - Disable a specific feature using feature flags or application configuration.
 - Deploy a [hotpatch](https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/post-deployment-patches.md).

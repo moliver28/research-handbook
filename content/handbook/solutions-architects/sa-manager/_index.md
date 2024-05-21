@@ -7,7 +7,6 @@ description: "This page provides an overview on relevant SA Managers processes. 
 
 View the [SA Handbook homepage](/handbook/solutions-architects/) for additional SA-related handbook pages.
 
-
 ## Purpose
 
 This page provides an overview on relevant SA Managers processes. The SA Manager role is made up of pillars: Managing the Business and Managing the Team.
@@ -37,6 +36,7 @@ Meeting regularly with your ASM counterpart provides time to discuss SAE/ SA/ CS
 The SA Manager is responsible for developing and delivering a [Quarterly Business Review](/handbook/sales/qbrs/) for their team each quarter.
 
 SA Managers typically cover the following information:
+
 - Review past quarter
 - Assess current quarter
 - Review strategic initiatives
@@ -54,6 +54,7 @@ It is important to pland and schedule [Coginitive Bias](/handbook/solutions-arch
 SA Managers should always be recruiting! It is important that SA Managers always be on the lookout for talent and be conscientious in building a talent network. Make time to interview prospective candidates and be able to artiulate the value of a job at GitLab as outlined in the [Winning Top Talent](/handbook/sales/field-manager-development/#winning-top-talent) portion of the GitLab Field Manager Development Program.
 
 **Key Resources**
+
 - Success Profile
 - Interview Guide
 - Networking tools
@@ -64,7 +65,6 @@ SA Managers should always be recruiting! It is important that SA Managers always
 SA Managers should ensure the new SA team members are set up for success by working to make sure they have access to necessary tools and have an assigned onboarding buddy. Additionally, they should work with new SAs to set clear performance expectations and provide regular feedback during the onboarding process. SA Managers should encourage new SAs to complete their general GitLab onboarding issue and ensure that they actively participate in and complete [Sales Quick Start](/handbook/sales/onboarding/).
 
 Common slack channels within GitLab are #thanks and #deal-graditude are manual from an announcement and celebration point of view. The #wins-key-deals are automated listings and announcements. Those automated slack channels require a SFDC mapping of the team and organisational roll ups. SA Managers are encouraged to review the SFDC mapping on a quarterly basis to ensure consistency for new starters and existing team members (i.e. after promotions).
-
 
 ### Developing and Retaining
 
@@ -113,18 +113,17 @@ We do both the QSD at the end of Q3 and Q4 because the Talent Assessment is fill
 
 As a manager it's extremely important to recognize the accomplishments of your team members. There are [studies](https://www.mindful.org/the-science-of-gratitude/) that show that providing gratitude not only improves the life and mindset of the receiver, but also the one giving the gratitude. As an all-remote company, it's very imporant that we communicate that gratitude in a timely manner.  One thing to keep in mind, however, is that not every team member wants to be recognized the same way.  When meeting with your team in One-on-One's ask them how they like to be recognized and keep that in mind for when and how you do it.
 
-GitLab has a dedicated #thanks Slack channel where team members are encouraged to provide messages of gratitude for all manner of contributions.  As a rule, when recognizing one of your team members, please include the `@sa_leaders` Slack group so that every Solutions Architect leader is made aware and is able to comment on the accomplishment. Doing so provides greater visibiltiy into the work done and helps build the brand of the SA. Additional guidelines can be found [here](https://handbook.gitlab.com/handbook/communication/#say-thanks)
+GitLab has a dedicated #thanks Slack channel where team members are encouraged to provide messages of gratitude for all manner of contributions.  As a rule, when recognizing one of your team members, please include the `@sa_leaders` Slack group so that every Solutions Architect leader is made aware and is able to comment on the accomplishment. Doing so provides greater visibiltiy into the work done and helps build the brand of the SA. Additional guidelines can be found [here](/handbook/communication/#say-thanks)
 
 It may be good practice as well to keep a running log of the accomplishments of your team members (e.g. screenshots from the #thanks channel, notes from AEs, ASMs, etc...). An easy way to do this is in a dedicated section of the individual One-on-One documents you keep for each of them or the SA can collect them in their Individual Growth Plan document. Having this information in a consolidated place with assist you greatly come review time or when that team member is ready for promotion.
 
-Recognition can also be realized in the form of [Discretionary Bonuses](https://handbook.gitlab.com/handbook/incentives/#discretionary-bonuses). This is an amazing incentive and benefit that GitLab provides for those team members that are going above and beyond. Once you as a manager receive the nomination in Slack via the Nominator app, make sure you approve or deny based on the [Approval Criteria](https://handbook.gitlab.com/handbook/incentives/#valid-and-invalid-criteria-for-discretionary-bonuses). You will also have an option to update the nomination text at this step. After you approved, there are two more approvals from the 2nd Level Manager and People Team. When your team member is approved for a bonus it is up to you to make the announcement in the #thanks Slack channel. Again, when doing so, please ensure you add the `@sa_leaders` Slack group as part of the message. As a regular part of your meetings with the ASMs you support, ensure that they and their teams know how to log a discretionary bonus should one be warranted.
+Recognition can also be realized in the form of [Discretionary Bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses). This is an amazing incentive and benefit that GitLab provides for those team members that are going above and beyond. Once you as a manager receive the nomination in Slack via the Nominator app, make sure you approve or deny based on the [Approval Criteria](/handbook/total-rewards/incentives/#valid-and-invalid-criteria-for-discretionary-bonuses). You will also have an option to update the nomination text at this step. After you approved, there are two more approvals from the 2nd Level Manager and People Team. When your team member is approved for a bonus it is up to you to make the announcement in the #thanks Slack channel. Again, when doing so, please ensure you add the `@sa_leaders` Slack group as part of the message. As a regular part of your meetings with the ASMs you support, ensure that they and their teams know how to log a discretionary bonus should one be warranted.
 
 ### Team Assessment
 
 Twice a year, SA Managers should conduct a team assessment to:
+
 - Identify at Risk and High Potential Team Members
 - Identify resource needs for the next 6-months
 - Determine succession plan
 - Update rolling 6 to 12 month promotion forecast
-
-

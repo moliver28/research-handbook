@@ -26,6 +26,7 @@ Learn more about [learning and development at GitLab in our Handbook](/handbook/
 ## Benefits to all-remote L&D
 
 Learning and development teams within all-remote organizations enjoy unique benefits, a few of which are highlighted below.
+
 - **Faster delivery of training courses**: When your company works [asynchronously]({{< ref "./asynchronous" >}}), you don't have to wait for a cohort to be in the same place at the same time to administer updated material.
 - **Culture isn't lost**: Onboarding at most companies involves meet-and-greets and shallow briefs on whatever is pressing at the moment. Institutional knowledge and cultural underpinnings are largely lost due to a dearth of documentation as the company grows and experiences churn.
 - **Learning is more [inclusive](values#diversity-inclusion)**: In all-remote settings, individuals can learn in [environments that are most comfortable for them]({{< ref "inclusion" >}}) — home, a library, a coworking space, a lakeshore, while caring for a family member, etc. This allows those who struggle to focus in group settings, or who have mobility concerns, to embrace education that they may opt out of if the setting weren't ideal.
@@ -57,7 +58,7 @@ One potential downside for all-remote teams is having timely and adequate access
 
 Learning involves much more than comprehending what's necessary to complete a job. In fact, we hope candidates aspire to learn about GitLab's [history]({{< ref "history" >}}), [all-remote culture]({{< ref "culture" >}}), and [values]({{< ref "values" >}}) prior to joining the company.
 
-The above would be difficult, if not impossible, to achieve without a commitment to [documentation]({{< ref "./handbook-first" >}}). Documentation is so important at GitLab that we have a [section of our Handbook devoted to it](/handbook/documentation).
+The above would be difficult, if not impossible, to achieve without a commitment to [documentation]({{< ref "./handbook-first" >}}). Documentation is so important at GitLab that we have a [section of our Handbook devoted to it](/handbook/product/ux/technical-writing/documentation/).
 
 Particularly in all-remote companies — where everything from [interviewing]({{< ref "./interviews" >}}) to [onboarding]({{< ref "./onboarding" >}}) to [career development]({{< ref "career-development" >}}) takes place outside of a central office — regimented [documentation]({{< ref "./handbook-first" >}}) is the only way to ensure future team members have access to the same information as past and current team members. Even if you've already started a company but have failed to document key learnings, it's never too late to start.
 
@@ -99,7 +100,7 @@ GitLab's L&D team has a [regular meeting schedule](/handbook/people-group/learni
 For a remote team to work well, managers should coach their team in healthy remote-work practices such as:
 
 - [asynchronous communication]({{< ref "./management#asynchronous" >}})
-- working [handbook-first](/handbook/handbook-usage#why-handbook-first)
+- working [handbook-first](/handbook/about/handbook-usage/#why-handbook-first)
 - creating an [optimal workspace]({{< ref "./workspace" >}})
 - understanding the importance of [self-learning/self-service]({{< ref "./self-service" >}}).
 
@@ -187,6 +188,7 @@ Encourage team members to collect notes when attending conferences and distribut
 The attendees are encouraged to collect notes in a Google document and distribute the link via Slack channel(s) and other methods as appropriate.
 
 Example:
+
 - [Kubecon 2019 notes](https://docs.google.com/document/d/1CdcERqUJrSoyA6OU9D3CMz8SRYFbJwvcLJDtkgdSEsg/edit#heading=h.jki4vp3yq19q).  This document contains:
     - Pictures of interesting slides
     - Notes on those slides written by the conference attendees
@@ -216,7 +218,7 @@ Here are a few other examples of AMAs:
 
 All-remote companies are uniquely positioned to break down silos. Group Conversations allow members of any function to dive in and ask questions of a function outside of their own. Also, it gives members of one function the ability to ask questions of their own function.
 
-Learn more about [Group Conversations in GitLab's Handbook](/handbook/group-conversations).
+Learn more about [Group Conversations in GitLab's Handbook](/handbook/company/group-conversations/).
 
 {{< youtube "MN3mzvbgwuc" >}}
 
@@ -243,7 +245,7 @@ Learn more about [GitLab's OKRs](/handbook/company/okrs).
 
 For each GitLab executive, we hold a monthly call to discuss Key Performance Indicators (KPI) and Objectives and Key Results (OKR). This goes well beyond the usual scope of learning and development by providing on-the-job education on metrics that impact various parts of the company. Said another way, learning and development has greater impact when it's mapped to something tangible.
 
-Learn more about [GitLab's Key Reviews](/handbook/key-review).
+Learn more about [GitLab's Key Reviews](/handbook/company/key-review/).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

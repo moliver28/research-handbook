@@ -15,12 +15,13 @@ For this year's [technical roadmap](https://gitlab.com/gitlab-org/verify-stage/-
 
 1. [Accelerating efforts](https://gitlab.com/gitlab-org/verify-stage/-/issues/508) to complete [CI Data Partitioning](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/ci_data_decay/pipeline_partitioning.md) - this does not only impacts CI, but addresses a critical availability need impacting all of gitlab.com.  This is a cross-stage effort with backend engineers across the pipeline teams who are able to parallelize the ongoing effort.
 1. Continued review of our [CI Data Retention policies](https://gitlab.com/gitlab-org/verify-stage/-/issues/440) - with the growth we are seeing with our CI database tables, we will be working with the Infrastructure teams to advise on managing CI data once partitioned. Upon further analysis and review, we will also be collaborating with Product to implement features that allows our self-managed users to configure CI data retention policies.
-1. [Pipeline speed improvements](https://gitlab.com/groups/gitlab-org/-/epics/7290) - benchmarking and instrumentation will be our focus as we investigate ways to [implement distributed tracing on our CI workers](https://gitlab.com/groups/gitlab-org/-/epics/11040#note_1568112854) or add more observability to better understand why pipeline creation/processing is slow, prior to determining the work involved to drive improvements. There is also a newly established [working group for CI/CD Build Speed](https://handbook.gitlab.com/handbook/company/working-groups/ci-build-speed/) to support this initiative.
+1. [Pipeline speed improvements](https://gitlab.com/groups/gitlab-org/-/epics/7290) - benchmarking and instrumentation will be our focus as we investigate ways to [implement distributed tracing on our CI workers](https://gitlab.com/groups/gitlab-org/-/epics/11040#note_1568112854) or add more observability to better understand why pipeline creation/processing is slow, prior to determining the work involved to drive improvements. There is also a newly established [working group for CI/CD Build Speed](/handbook/company/working-groups/ci-build-speed/) to support this initiative.
 1. [CI Events](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ci_events/) - while listed on the Product roadmap, we'll continue to iterate on the blueprint within Engineering to better understand the scope and requirements of this initiative.
 
 ### FY24
 
 The Verify Pipeline teams focused on the following Engineering-led initiatives, in addition to our deliverables for the [FY24 Yearlies](/handbook/company/yearlies/#fy24-yearlies):
+
 1. [CI Data Partitioning](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/architecture/blueprints/ci_data_decay/pipeline_partitioning.md)
 1. Pipeline speed improvements - including analysis of pipeline performance
 1. Review of the [data retention strategy of CI data on gitlab.com](https://gitlab.com/gitlab-org/verify-stage/-/issues/440)
@@ -67,7 +68,6 @@ A [Job to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) is a framework,
 Pipeline Authoring and Pipeline Execution are closely related but they also represent different stages in the cycle of a user's interaction with a pipeline. At a very high-level, this image illustrates the main focus of each group and how they can both support a better pipeline experience.
 
 ![Verify Groups](/handbook/product/categories/verify_groups_banner.jpg)
-
 
 ### Verify:Pipeline Execution
 
@@ -153,6 +153,7 @@ By considering MR Rate as a measure of throughput, product management is focused
 Since April 2023, code changes to Verify code require approval from a Verify maintainer since Continuous Integration platform overall is a critical GitLab feature.
 In order to [track quality of the approval process](https://gitlab.com/gitlab-org/gitlab/-/issues/411559)
 we ask Verify maintainers to apply one of the following labels to a merge request changing Verify code:
+
 * `~"verify-review::impacted"` for merge requests where the maintainer was able to identify near miss bugs, inefficiencies and tech debt.
 * `~"verify-review::not impacted"` for merge requests where the change was trivial
 or no issues were found by the Verify maintainer.

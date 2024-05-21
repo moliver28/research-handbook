@@ -237,6 +237,7 @@ To understand how the above process works in action, the following research stud
 The stated goals of the study were:
 
 > As part of our continued effort to improve the automated testing capabilities of GitLab, we want to ship a new feature for accessibility testing. We want to validate some solutions for this feature. Questions we have are:
+>
 > - How exactly users want to see Accessibility issues introduced during their development shown to them.
 > - Which of the proposed designs suffice their use case for Automated Accessibility Testing as part of the CI process.
 

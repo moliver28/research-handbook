@@ -7,7 +7,6 @@ description: Hands-on Workshop
 
 ## Hands-on Workshop
 
-
 Hands-on GitLab workshops are interactive events which enable GitLab prospects and customers to learn more about GitLab, then apply that knowledge hands-on within a provided GitLab environment. GitLab Solution Architects often conduct the workshops with topics such as DevOps Automation, Portfolio and Project Management, Security and Advanced CI/CD. Workshops are ideally limited to 200 or fewer attendees in order to provide stable working environments as well as to be able to field Q&A from attendees in a timely manner.
 
 In order to carry out a hands-on workshop, a GitLab instance must be stood up for the attendees to carry out the exercises during the workshop. Additional preparation is required to setup the class project and issue tracking workflow.
