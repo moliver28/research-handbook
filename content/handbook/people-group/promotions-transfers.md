@@ -266,27 +266,30 @@ Please note, effective for the FY25 Q3 promotions, peer feedback is not required
 
 #### CTO Timeline for FY25-Q3
 
-- 2024-06-10 to 2024-06-21: Direct managers of promotion nominees complete the Promotion Document. Completed documents are shared with Kristina Bullock and Jess Durbin by 2024-06-21 (End of Business Pacific time).
+- 2024-06-10 to 2024-06-21: Direct managers of promotion nominees complete the Promotion Document after discussing the individual's readiness with peers, stakeholders, and fellow team members. Completed documents are shared with Kristina Bullock and Jess Durbin by 2024-06-21 (End of Business Pacific time).
   - Please note: direct managers can start working on promotion documents prior to 2024-06-10. This is the start of the company-wide planning period.
 - 2024-06-24 to 2024-07-10: Department level calibrations (facilitated by PBP) followed by a CTO Leaders Calibration.
 - 2024-07-16 to 2024-08-01: Approved promotions are entered into Workday, Comp review is completed and final approvals are obtained.
 - 2024-08-01: Promotions effective in Workday.
 
-#### Key Considerations for FY25 Promotions
+#### Context Setting for Managers
+As a leader, if your team member's promotion is approved, you will need to reset expectations with the individual and will likely need to make changes to accommodate the growth in seniority of the team. Before you write up the rationale, thinking through what these changes will entail will help you prepare the best business justification. A positive result not only changes the expectations of the individual but also of the manager, current and future, for how work should get done.
 
-Guiding questions for managers as they fill out FY25 promotion documents:
-
-1. How will this team member’s role change if the promotion is approved? Specifically, what work will either be removed, be added, or be realigned?
+#### Guiding Questions for FY25 Promotions
 
 *Please refer to the [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0), [Engineering IC Career Matrix](/handbook/engineering/careers/matrix/) and the [Engineering Leadership Job Families](/job-families/engineering/development/management/) to view the team member’s current responsibilities, and future expectations after the promotion.*
 
-**Example:** Tanuki is being promoted to a Senior Engineer. She will now transition X type of non-technical work to an Intermediate Team Member. She will now take on more leadership responsibilities when working through technical problems on the team, look for process improvements, and begin to mentor other engineers.
+1. How will this team member’s role change if the promotion is approved? What work will they stop doing in order to make room for their increased responsibilities? It is expected that this be included in the business justification and that these decisions are a benefit to the team, stage and company, depending on the level of the promotion.
 
-1. How will the team member work differently if the promotion is approved?
+    1. **Example:** Tanuki is ready to be a senior engineer. This is displayed by the fact that she streamlined her own work by developing an evaluative framework for adding telemetry and quality metrics that will identify regressions before they are put into production. This has improved the quality of her work, and now as a senior engineer she will lead the rest of the team to ensure they are setting the appropriate quality bar for all the team's feature before they are pushed to production. As a senior engineer she will continue to work across the team to incorporate this new evaluative framework in how the team will work. She has the opportunity to expand this across multiple teams but that will be part of her development plan for continued growth.
 
-**Example:** Tanuki is currently receiving instruction for day-to-day tasks/projects. In the  new role, Tanuki will take on ownership for Project A and become the DRI.
+2. How will the team member work differently if the promotion is approved?
 
-1. Have you considered how the team might function differently with this team member in a higher level role?
+   1. **Example:** Tanuki currently receives their work items from the Quad, but in the new role Tanuki will be expected to work x-functionally to identify potential work that should be prioritized and incorporated into the planned milestones. Tanuki will be able to present the challenges and rationale for the work to be appropriately prioritized and will be able to execute quickly for GitLab to realize the benefit of this new work.
+
+3. Have you considered how the team might function differently with this team member in a higher level role?
+
+    1. **Additional Detail:** All promotions increase cost and expectations of a given team and/or project. How will you and the person ensure the return on this increased investment of the company in this person/team/project. Elaborating on the commitment and changes that will occur with a positive outcome will benefit the decision makers to have confidence that this promotion will produced improved outcomes for all parties.
 
 1. Do I need this many "X" level (i.e. Senior Engineer)  team members in my current team state? Is there enough work at that level to be done?
 
