@@ -92,9 +92,6 @@ The OKR Description should have the following format:
 | ---------- | --------- |
 | <title>    | <link>    |
 
-### Scoring Criteria
-
-<This section should list the Scoring Criteria of each Key Results part of the Objective. Different KRs could contribute with different weights to the Objective completion>
 ```
 
 If an Objective description also needs other sections, these can be added after the block above.
