@@ -198,12 +198,6 @@ Blocks of Ruby code can be "instrumented" to measure performance.
   * [Documentation of instrumentation](https://docs.gitlab.com/ee/development/service_ping) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/service_ping/metrics_instrumentation.html)
   * An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 
-[Apdex]: https://en.wikipedia.org/wiki/Apdex
-[Error rate]: https://en.wikipedia.org/wiki/Bit_error_rate
-[SLA dashboard]: https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=now%2FM&to=now
-[KPI]: /handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability
-[SLO]: https://en.wikipedia.org/wiki/Service-level_objective
-
 ## Other Tools
 
 ### Sentry
