@@ -273,6 +273,7 @@ Please note, effective for the FY25 Q3 promotions, peer feedback is not required
 - 2024-08-01: Promotions effective in Workday.
 
 #### Context Setting for Managers
+
 As a leader, if your team member's promotion is approved, you will need to reset expectations with the individual and will likely need to make changes to accommodate the growth in seniority of the team. Before you write up the rationale, thinking through what these changes will entail will help you prepare the best business justification. A positive result not only changes the expectations of the individual but also of the manager, current and future, for how work should get done.
 
 #### Guiding Questions for FY25 Promotions
@@ -291,7 +292,7 @@ As a leader, if your team member's promotion is approved, you will need to reset
 
     1. **Additional Detail:** All promotions increase cost and expectations of a given team and/or project. How will you and the person ensure the return on this increased investment of the company in this person/team/project. Elaborating on the commitment and changes that will occur with a positive outcome will benefit the decision makers to have confidence that this promotion will produced improved outcomes for all parties.
 
-1. Do I need this many "X" level (i.e. Senior Engineer)  team members in my current team state? Is there enough work at that level to be done?
+4. Do I need this many "X" level (i.e. Senior Engineer)  team members in my current team state? Is there enough work at that level to be done?
 
 ## Hiring for VP+ Roles
 
