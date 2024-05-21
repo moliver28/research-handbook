@@ -47,6 +47,24 @@ The following page may contain information related to upcoming products, feature
 
 <summary markdown="span">Past Milestones</summary>
 
+### April to May (Milestone 17.0)
+
+All deliverables for CI Catalog GA are now complete.
+
+- Finish remaining Go-To GA efforts
+  - [Remove beta label for CI/CD Catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/454306) (Complete)
+  - [Remove beta label for catalog resource toggle](https://gitlab.com/gitlab-org/gitlab/-/issues/460260) (Complete)
+  - [Release Process Refinements](https://gitlab.com/groups/gitlab-org/-/epics/12338) for GA
+    - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (Complete)
+  - [Details page](https://gitlab.com/groups/gitlab-org/-/epics/12336) for GA
+    - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914) (Complete)
+    - [Fix images not rendering on ReadMe tab](https://gitlab.com/gitlab-org/gitlab/-/issues/455516) (Complete)
+- Finishing remaining initial loading badges work
+  - [Set verification_level on publish and fix enum mismatch](https://gitlab.com/gitlab-org/gitlab/-/issues/455530) (Complete)
+  - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) (Complete)
+  - [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509)
+  - NOTE: Initial badge load has been initiated via [request](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17746)
+
 ### March to April (Milestone 16.11)
 
 #### Goals
