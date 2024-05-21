@@ -42,7 +42,7 @@ The Product Designer role is a [grade 6][job-grades].
 
 #### Responsibilities
 
-- **Communication:** Communicate UX activities to the UX department, your group(s), and other team members using clear language that simplifies complexity.
+- **Communication:** Communicate UX activities to the department, your group(s), and other team members using clear language that simplifies complexity.
 - **Deferred UX:** Understand [deferred UX][deferred-ux] and make recommendations for its resolution with the help from a more senior product designer or your manager.
 - **Deliverables:** Create deliverables for your group(s) (for example: JTBD, UX Scorecards, competitive evaluations, user flows, low fidelity wireframes, high fidelity mockups, prototypes, and so on) that solve real user problems through the user experience.
 - **Design reviews:** Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews), giving and receiving feedback in an appropriate way.
@@ -65,7 +65,7 @@ Everything in the Product Designer role, plus:
 
 - ➕ **Cross-stage collaboration:** Support your product design manager and product manager in identifying dependencies between groups and stages and advocating for cross-stage collaboration when needed.
 - ➕ **Public presence:** Help promote GitLab publicly by writing blog articles, giving talks, publishing videos to GitLab Unfiltered, or responding on social media, where appropriate.
-- **Communication:** Communicate UX activities with a focus on iteration and user outcomes.
+- **Communication:** Communicate UX activities with a focus on iteration and collaboration for user outcomes.
 - **Deferred UX:** Minimize [deferred UX][deferred-ux] in your group(s) with [MVCs](/handbook/product/product-principles/#the-minimal-viable-change-mvc), and help identify, prioritize, and fix when it occurs.
 - **Deliverables:** Create deliverables for your group(s) (for example: JTBD, UX Scorecards, competitive evaluations, low fidelity wireframes, high fidelity mockups, prototypes, journey maps, storyboards, design vision, and so on) that help define the vision and execution of solving real user problems through the user experience.
 - **Design reviews:** Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews), and model best practices for giving and receiving feedback.
@@ -85,13 +85,13 @@ The Staff Product Designer role is a [grade 8][job-grades].
 
 Everything in the Senior Product Designer role, plus:
 
-- ➕ **Early adoption:** Drive the adoption of new processes, tools, and methods in the design practice.
+- ➕ **Early adoption:** Drive the adoption of new processes, tools, and methods to improve the design practice.
 - ➕ **Mentoring:** Provide impactful feedback to ICs of the UX deparment and mentor them throughout product development.
 - ➕ **Open source:** Create a welcoming community for every contributor by driving engagement of design community contributions.
 - ➕ **Thought leadership:** Support designers in advocating for best practices within their teams.
 - ➕ **Vision:** Collaborate with your group(s) to create a user-centric vision and shape the long-term roadmap based on user needs, connecting it to the broader product and company objectives.
-- **Cross-stage collaboration:** Drive cross-stage collaboration by helping designers to identify dependencies and areas for cross-department work.
-- **Communication:** Set an example for how to effectively communicate across teams by frequently participating in asynchronous collaboration in issues and merge requests.
+- **Cross-stage collaboration:** Promote a holistic UX by proactively helping designers navigate the organization and considering product overlaps, connections, and potential collisions.
+- **Communication:** Communicate UX activities with a focus on product outcomes, and set an example for frequent and effective asynchronous communication.
 - **Deliverables:** Create tactical and strategic deliverables for your group(s) (for example: JTBD, UX Scorecards, wireframes, competitive evaluations, prototypes, journey maps, storyboards, design vision, and so on).
 - **Design reviews:** Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews) across the subdepartment, and model best practices for giving and receiving feedback.
 - **Iteration:** Understand long-term goals in your group(s) and help other product designers break down designs into actionable steps.
@@ -108,27 +108,23 @@ The Principal Product Designer role is a [grade 9][job-grades].
 
 Everything in the Staff Product Designer role, plus:
 
-- ➕ **Goal setting:** Help your stage set achievable, measurable and impactful goals that drive user, product, and business outcomes.
-- ➕ **Impact:** Provide positive influence on the [perception of system usability](/handbook/product/ux/performance-indicators/#perception-of-system-usability)
+- ➕ **Goal setting:** Help your stage set achievable, measurable, and impactful goals that drive user, product, and business outcomes.
 - ➕ **Operations:** Expose cultural, operational, and organizational needs in the department, take responsibility for addressing some of them, and enable others to help.
-- ➕ **Support others:** Support peers in their working rhythm and self-care, and translate their successes, concerns, feedback, and morale to their managers and leadership.
+- ➕ **Supporting others:** Support peers in their working rhythm and self-care, and translate their successes, concerns, feedback, and morale to their managers and leadership.
 - **Cross-stage collaboration:** Identify innovation opportunities in the organization with a willingness to experiment, and collaborate with teams to help them make informed decisions.
 - **Deferred UX:** Help your stage prioritize and close [deferred UX][deferred-ux].
 - **Deliverables:** Solve design problems of the highest scope, complexity, and ambiguity for your stage.
 - **Design reviews:** Participate in [Design Reviews](/handbook/product/ux/product-designer/#design-reviews) across teams to ensure high-quality output, and model best practices for giving and receiving feedback.
-- **Early adoption:** Drive the adoption of new processes, tools, and methods across the organization.
-- **Communication:** Guide conversations to remove blockers and encourage collaboration across teams.
-- **Iteration:** Lead and coach iteration in the organization, encourage quick feedback loops and completion over perfection, and help cross-functional team members break down any kind of solution into actionable steps, aligned with long-term goals.
-- **Mentoring:** Actively engage with and support designers career development, mentor cross-functional team members and UX leaders, and foster a skill-building environment within the UX department.
+- **Early adoption:** Drive the adoption of new processes, tools, and methods to improve the UX maturity of the organization.
+- **Communication:** Communicate UX activities with a focus on business outcomes, model best practices in feedback exchange, and guide conversations to remove blockers and encourage collaboration across teams.
+- **Iteration:** Lead and coach iteration in the organization, encourage quick feedback loops and completion over perfection, and help cross-functional team members break down solutions into actionable steps, aligned with long-term goals.
+- **Mentoring:** Actively engage with and support designers' career development, mentor cross-functional team members and UX leaders, and foster a skill-building environment within the department.
 - **Product knowledge:** Deeply understand the technology and features within your stage and have knowledge of the end-to-end GitLab product.
-- **Public presence:** Be an active voice in the UX of DevSecOps and in the UX industry in general, and evangelize the learnings, successes, and methods of our department to the public.
+- **Public presence:** Be an active voice in the UX of DevSecOps and in the broader UX industry, and evangelize the learnings, successes, and methods of the department to the public.
 - **Recruiting:** Conduct portfolio reviews with staff product designers of qualified design candidates, and help retain a world-class team of product designers and product design managers.
 - **Research:** Collaboratively identify and conduct strategic research with a UX researcher, help designers make connections across the research efforts in your stage, enable accountability for design choices through research, and cultivate a learning culture in the organization.
-- **Thought leadership:** Lead and bring a UX voice to complex scenarios, build trust between UX and other disciplines, interface with product design managers and senior management, and enable designers to engage on large (stage or section-wide) initiatives.
-- **Vision:** Connect the work in your stage and the UX department to the broader product and company objectives.
-
-Play a central role in design, business, and organizational contributions affecting your stage or across the UX department.
-through improved user experiences, leading to increased adoption of [stages per organization](/handbook/product/performance-indicators/#stages-per-organization-spo) and increased [ARR](/handbook/sales/sales-term-glossary/arr-in-practice/#annual-recurring-revenue-arr).
+- **Thought leadership:** Lead and bring a UX voice to complex scenarios, build trust between UX and other disciplines, interface with managers and leaders, and enable designers to engage on large (stage or section-wide) initiatives.
+- **Vision:** Connect the work in your stage and the department to the broader product and company objectives.
 
 ## Specialties
 
