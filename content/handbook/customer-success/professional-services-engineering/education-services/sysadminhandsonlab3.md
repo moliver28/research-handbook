@@ -52,7 +52,7 @@ The objective of this lab is to demonstrate how to create and register a GitLab 
 
 1. Leave all other options as default and select **Create runner**.
 
-1. Copy the command in **Step 1** and run it in your command prompt.
+1. Copy the command in **Step 1**, and add `sudo` in front of the command. Run it in your command prompt.
 
 1. The command will first prompt you for your GitLab instance URL. Verify that this URL matches your GitLab instance, then press <kbd>Enter</kbd>
 
