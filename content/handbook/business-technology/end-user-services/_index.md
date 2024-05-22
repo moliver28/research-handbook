@@ -13,7 +13,7 @@
 - For information on how to create a Role-Based Entitlement, please refer to the [instructions on how to create role-based entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#how-do-i-create-a-role-based-entitlement-template).
 
 #### Automated Group Membership Reports for Managers
-<!-- MOVE_TO: /handbook/security/corporate/google-workspace -->
+<!-- MOVE_TO: /handbook/security/corporate/systems/google-workspace -->
 <!-- comment - open to somewhere else-->
 
 If you would like to check whether or not a team-member is a member of a Slack or a Google Workspace group, you can view the following automated group membership reports:
