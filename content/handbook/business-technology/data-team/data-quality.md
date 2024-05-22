@@ -322,7 +322,7 @@ This dashboard captures the percentage of data availability for Product Usage Me
   - Percentage of Missing Values: Percentage of how many records are missing this data
   - Data Source: whether the data comes from source such as database, redis, redis_hll, or system
   - Description: Definition of the metric
-  - Performance Indicator Type Flags: whether the metric IS UMAU/SMAU/GMAU/PAID GMAU. Please refer to the [xMAU Analysis page](/handbook/business-technology/data-team/data-catalog/xmau-analysis/) for more information
+  - Performance Indicator Type Flags: whether the metric IS UMAU/SMAU/GMAU/PAID GMAU. Please refer to the [xMAU Analysis page](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/xmau-analysis/) for more information
 - Refresh runs on a weekly cadence
 
 ### Quick Links
