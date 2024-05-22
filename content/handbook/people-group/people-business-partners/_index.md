@@ -40,23 +40,23 @@ Please reach out to your aligned People Business Partner (PBP) (listed aplhabeti
 
 Still need to be accounted for:
 
-|Div| Dept|
+| Div | Dept |
 |--|--|
-|Eng| Platforms|
-|Sales|Alliances|
-|Sales|Alliances and Channel|
-|Sales	|APAC - Commercial|
-|Sales|	APAC - Enterprise|
-|Sales|	Direct Sales - AMER|
-|Sales|	Direct Sales - APAC|
-|Sales|	Direct Sales - Japan|
-|Sales|	Education Delivery|
-|Sales|	Education Services|
-|Sales | 	Enablement|
-|Sales|	Global Digital - APAC|
-|Sales|	JAPAN - Commercial|
-|Sales|	JAPAN - Enterprise|
-|Sales|	SMB|
+| Eng | Platforms |
+| Sales | Alliances |
+| Sales | Alliances and Channel |
+| Sales	| APAC - Commercial |
+| Sales | APAC - Enterprise |
+| Sales | Direct Sales - AMER |
+| Sales | Direct Sales - APAC |
+| Sales | Direct Sales - Japan |
+| Sales | Education Delivery |
+| Sales | Education Services |
+| Sales | Enablement |
+| Sales | Global Digital - APAC |
+| Sales | JAPAN - Commercial |
+| Sales | JAPAN - Enterprise |
+| Sales | SMB |
 
 ## How to partner with PBPs to foster high performance in your team
 
