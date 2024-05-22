@@ -167,17 +167,9 @@ Our priorities should follow [overall guidance for Product](/handbook/product/pr
   - Format: | NUMBER | EPIC | GOAL | [DRI](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/) |
 - Implementing team member: post a short update (1-2 sentences) on each item where you are the directly responsible individual (DRI).
 
-#### Why?
+Intention of this is to:
 
-Intention of this is:
-- to be able to verbalize it during the Compliance Weekly meetings.
-- have an easily accessible version of the update for reporting up the chain without EMs having to transcribe meeting recordings.
-- remove the on-the-spot/ad-hoc nature of these updates.
-
-- Implementing team member: post a short update (1-2 sentences) on each item where you are the directly responsible individual (DRI)
-
-Intention of this is:
-- Reference for verbal weekly updates during the Compliance Weekly meetings.
+- Have a reference for verbal weekly updates during the Compliance Weekly meetings.
 - Document the weekly update for reporting.
 - Remove the on-the-spot/ad-hoc nature of the weekly updates.
 
