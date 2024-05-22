@@ -26,7 +26,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 - [Authorization](https://about.gitlab.com/direction/govern/authorization/#priorities)
 - [Compliance](https://about.gitlab.com/direction/govern/compliance/tactical-priorities.html#priorities)
 - [Security Policies](https://about.gitlab.com/direction/govern/security_policies/#priorities)
-- [Threat Insights](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html#priorities) [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#priorities)
+- [Threat Insights](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#priorities) ([16.x](https://about.gitlab.com/direction/govern/threat_insights/16_threat_insights_priorities.html#priorities))
 
 ### Product Documentation Links
 
