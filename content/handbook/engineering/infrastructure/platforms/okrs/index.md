@@ -39,10 +39,6 @@ The description for an Key Result should have the following format:
 ### Context
 
 <context about how this Key Result contributes to meeting the goal of the Objective>
-
-### Scoring Criteria
-
-<numbered list of epics or issues with the percentage contribution>
 ```
 
 ### Keeping OKRs up to date
