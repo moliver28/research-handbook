@@ -15,7 +15,7 @@ title: "Channel Programs Operations"
 This page documents the operational information and processes for managing the Channel Program Operations.  This page does not include transactional processes, which are available on the [Channel Operations Handbook page](/handbook/sales/field-operations/channel-operations/).
 
 
-# Partner Contracts
+## Partner Contracts
 
 Partners register to join the GitLab Partner Program by registering at partners.gitlab.com.  You can find more details about the registration process on the [Channel Operations Handbook](/handbook/sales/field-operations/channel-operations/#partner-applicant-approval--denial---granting-portal-access) page.  As part of that process, partners are able to review and approve the GitLab partner program agreement.  For partners that do not agree to all the terms of the agreement, the Legal Request process is available to negotiate contact terms.
 
@@ -33,7 +33,7 @@ Copies of the contract templates can be found [here](https://drive.google.com/dr
 
 Partner agreements are limited to a single region (Americas, EMEA, APAC, Public Sector), unless otherwise approved by Channel leadership.
 
-# Partner Portal Administration
+## Partner Portal Administration
 
 Members of the Channel team are granted access to the Partner Portal Admin Console.  This console enables team members to track partner engagement and view partner data.  Partner data is synched between the Partner Portal and Salesforce, so GitLab team members that have access to Salesforce can find all the partner data there.
 
@@ -61,7 +61,7 @@ The Admin console capabilities include:
 * Partner will fill out Long-Form Contact Information
 * Partner will automatically go into Pending Status
 * Pending Status email will be sent to the registered partner email address
-* Notification Emails will be sent to each Partner Team’s region for each applicant in their region 
+* Notification Emails will be sent to each Partner Team’s region for each applicant in their region
 
 
 ### Pending Status
@@ -76,9 +76,9 @@ The Admin console capabilities include:
 
 
 
-* PAM/PTM Notification Email 
+* PAM/PTM Notification Email
 * Follow [Partner Vetting Process](https://docs.google.com/document/d/10UitoYs2wL5bWh1ktSrM5rZxXXgmUDN49msMWcdMYK0/edit#heading=h.khaqbs6riuh9)
-* Pending Partner will either be Approved or Denied 
+* Pending Partner will either be Approved or Denied
 
 
 ### Partner Approved
@@ -91,14 +91,14 @@ The Admin console capabilities include:
     1. Pending Account > Standard Registration Form > Primary Vertical > (7) Options
     2. If Blank, Select **Commercial** option
 * Select **Approve **within Step 4: Pending Box
-* Next Window: 
+* Next Window:
     3. Select **Partner** from the **Assigned Level** drop-down
     4. Select **Approved** from the **Assigned Status** drop-down
     5. Click **APPROVE **button
 * Partner will be Approved and sent an email with their log-in information
 
 
-### Partner Denied 
+### Partner Denied
 
 
 
@@ -106,15 +106,15 @@ The Admin console capabilities include:
 * Select “DENY”
 
 
-### Partner Click-Through Agreement 
+### Partner Click-Through Agreement
 
 
 
 * Partner receives an email with their log-in information
 * Once Partner logs in they will be prompted to Read and Agree to GitLab’s Click-Through Partner Agreement
 * Once Agreed, the partner will have access to the partner portal to being the Welcome Onboarding Journey
-* Partners will not be able to fully access the partner portal without Agreeing to the Partner Agreement 
-* 
+* Partners will not be able to fully access the partner portal without Agreeing to the Partner Agreement
+*
 
 **Q:  Partner says “I’m not able to login” or “my account has been deactivated”**
 
@@ -122,8 +122,8 @@ The Admin console capabilities include:
 
 
 
-1. Check to see if the user exists in Impartner.  
-    * If not, have them register at partners.gitlab.com. 
+1. Check to see if the user exists in Impartner.
+    * If not, have them register at partners.gitlab.com.
     * If yes, proceed to the next step.
 2. On the Partner Account, check the Partner Status. If this is not “Authorized” or “NDA”, the partner cannot login and should not be activated until they have signed a Partner Agreement. _Only set it to Authorized if the partner signed a contract._
     * _Is Active? field right now should only be marked "true" if:_
@@ -132,7 +132,7 @@ The Admin console capabilities include:
 
 ** **
 
-# Partner Support Questions
+## Partner Support Questions
 
 Where do partners and CAMs submit questions?
 
@@ -152,10 +152,10 @@ Where do partners and CAMs submit questions?
 The Partner Help Desk team has compiled a list of issues and solutions to the most common Partner Portal, application and data questions into an [FAQ doc](https://docs.google.com/document/d/1rygv7btm5dl-iQrVD30zOYWq98R0dsGYNjIHTBmczGY/edit?usp=sharing).  Please start here to address any issues. This document also includes some of the PHD current state internal processes.
 
 
-# Partner Services Program Management
+## Partner Services Program Management
 
 
-## Help Your Partners Become a GitLab Designated Professional Services Partner (PSP):
+## Help Your Partners Become a GitLab Designated Professional Services Partner (PSP)
 
 Step 1: Introduce your partners to the [GitLab Partner Services Program](/handbook/resellers/Channel-Program-Guide/#gitlab-partner-services-program)
 
@@ -208,7 +208,7 @@ When a partner annual audit identifies a non-compliant PSP, the monthly report w
 
 
 
-# Internal NFR Request Processes
+## Internal NFR Request Processes
 
 **General NFR Request Process**
 

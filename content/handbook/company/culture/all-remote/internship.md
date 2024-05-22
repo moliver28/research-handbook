@@ -168,7 +168,6 @@ Hiring remote interns is hard. An organization shouldn't make it harder by conce
 
 ## How can interns make the most of a remote internship?
 
-
 Interns must recognize that expectations for self-managing your time will likely be higher in a remote internship, while resources *may* be fewer if a company lacks a mature internship infrastructure.
 
 It's important to ask questions during the interview phase to understand the work environment. You'll want to make sure you have a remote mentor or [onboarding buddy]({{< ref "onboarding-buddies" >}}) who will be available to answer questions related to working remotely.

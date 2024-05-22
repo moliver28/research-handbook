@@ -5,6 +5,10 @@ description: This Hands-On Guide walks you through managing GitLab logs on a vir
 
 > Estimated time to complete: 30 minutes
 
+## Objectives
+
+The objective of this lab is to guide you on managing your GitLab logs via the `gitlab-ctl` and `sed` commands. For more information on GitLab logging, click [here](https://docs.gitlab.com/ee/administration/logs/).
+
 ### Task A. View active logs
 
 The `gitlab-ctl` command allows you to tail all GitLab log files as well as filter by GitLab service.
@@ -41,12 +45,12 @@ Admins are able to set minimum log levels for some GitLab services. Note that on
 sudo grep -n -E 'log_level|logging_level' /etc/gitlab/gitlab.rb
 ```
 
-2. Note the line number for `nginx['logging_level']`.
+2. Note the line number for `nginx['error_log_level']`.
 
 3. Change the minimum log level for `nginx`. Replace "1731" with the appropriate line number from the `grep` output in the previous step.
 
 ```bash
-sudo sed -i '1731s/warn/error/' /etc/gitlab/gitlab.rb
+sudo sed -i '1731s/\"error\"/\"warn\"/' /etc/gitlab/gitlab.rb
 sudo sed -i '1731s/# //' /etc/gitlab/gitlab.rb
 ```
 
@@ -115,7 +119,7 @@ Many logs are JSON formatted by default. Admins may wish to configure text forma
 1. Check the current log formats for Gitaly.
 
     ```bash
-    sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb 
+    sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb
     ```
 
     > This command will find the start of the gitaly configuration with grep, then display the 20 lines that follow using the `-A20` flag. This will show the full configuration of the Gitaly configuration file
@@ -136,30 +140,30 @@ Many logs are JSON formatted by default. Admins may wish to configure text forma
 
 1. Run `sudo gitlab-ctl tail gitaly/current` to see the current JSON output for Gitaly logging.
 
-3. Change Gitaly's log format from JSON to text formatting. In your preferred text editor, locate the line `gitaly['configuration]`. Inside this configuration object, you will see a logging configuration similar to below:
+3. Change Gitaly's log format from JSON to text formatting. Ensure you align the line numbers to the correct lines from above. 
 
     ```bash
     sudo sed -i '2588s/json/text/' /etc/gitlab/gitlab.rb
-    sudo sed -i '2574s/# //' /etc/gitlab/gitlab.rb 
+    sudo sed -i '2574s/# //' /etc/gitlab/gitlab.rb
     sudo sed -i '2588s/# //' /etc/gitlab/gitlab.rb
-    sudo sed -i '2585s/# //' /etc/gitlab/gitlab.rb 
-    sudo sed -i '2591s/# //' /etc/gitlab/gitlab.rb 
+    sudo sed -i '2585s/# //' /etc/gitlab/gitlab.rb
+    sudo sed -i '2591s/# //' /etc/gitlab/gitlab.rb
     sudo sed -i '2591s/,/ }/' /etc/gitlab/gitlab.rb
     ```
 
     > With this sed commands, you are first replacing the JSON format with text. Next, you are removing the comments in front of the format and Gitaly configuration blocks to enable them.
 
-4. Rerun your `grep` command to view your configuration: `sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb `. The end result will look similar to below:
+4. Rerun your `grep` command to view your configuration: `sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb`. The end result will look similar to below:
 
 ```bash
 gitaly['configuration'] = {
 ...
    logging: {
-#     dir: "/var/log/gitlab/gitaly",
-#     level: 'warn',
+##     dir: "/var/log/gitlab/gitaly",
+##     level: 'warn',
       format: 'text'
-#     sentry_dsn: 'https://<key>:<secret>@sentry.io/<project>',
-#     sentry_environment: 'production',
+##     sentry_dsn: 'https://<key>:<secret>@sentry.io/<project>',
+##     sentry_environment: 'production',
 }}
 ```
 

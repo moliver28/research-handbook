@@ -18,7 +18,7 @@ This document will serve as a helpful guide for navigating a team through the UX
 
 Below is a template comment you can use for the meeting invite.
 
-```
+```text
 Hello! You are invited to participate in creating a UX Theme workshop for <Stage:group> 🎉!
 
 **Session info**
@@ -29,7 +29,7 @@ Hello! You are invited to participate in creating a UX Theme workshop for <Stage
 
 👉  <PM Name & Designer Name>: As the Product & Design DRIs, we need your help gathering a few links prior to the session. Please review the (Homework section) for more details.
 
-__________________________________
+---
 
 Workshop itinerary
 Introduction (5 min)
@@ -76,7 +76,7 @@ Move on to Category Goals:
 Follow the links provided by the PM for the relevant feature issues. **Only** copy issues with the UX label applied.
 
 > 💡 Tip: Keep the sticky notes in their respective color grouping unordered. Do not arrange them by any pre-existing method (existing epic, product roadmap, group: category,  etc.) The goal is to break down our existing organizational method used in GitLab for this exercise.
-
+>
 > 💡 Tip: Ensure participants have enough space below the sticky notes to create theme bundles. At least ½ of the horizontal area should be blank.
 
 1. Copy and paste each issue title into a sticky note on the FigJam board at the top of Section 2.
@@ -131,7 +131,7 @@ Share your screen and walk through the itinerary in the workshop issue. When com
 Ask everyone to open the FigJam file (share the link over the Zoom chat), and introduce the first exercise.
 
 >💡 This exercise is part warm-up, to get everyone talking and part exercise preparing everyone for UX Theme creation.
-
+>
 >💡 Teams may struggle with this, but it is okay. All that is required is statements on sticky notes so they can complete the goal/vision statements after the workshop.
 
 #### 1. Set the scene for the activity
@@ -206,9 +206,11 @@ A team will rarely complete this activity within 45 minutes. Once the time is up
 ---
 
 ❗️ If you reached the end of time and the team has not finished:
+
 - Take the planned break and return to this activity. After returning from the break, set the timer based on how much more time the team needs on this activity; however, **no more than 30 minutes**.
 
 ❗️ If you reached the end of the additional 30 minutes and the team has not finished:
+
 - **DO NOT CONTINUE.** It is unlikely that they will finish all of the workshop exercises; this is okay. Your goal as the facilitator has now changed from completing the exercise to showing the team how to complete the remaining exercises independently.
   - Move on to Step 3.
   - Take a theme bundle from Step 2, copy it over to the Step 3 working area, and go through Step #3 to give the team a better understanding of the process they will continue on their own.
@@ -246,6 +248,7 @@ This can be an intense process, and participant engagement will fade as the sess
 Have the team look over the themes once they are done.
 
 Ask:
+
 - Are these mutually exclusive?
 - Are these collectively exhaustive as they relate to the goals & vision (See Step 1)?
 - Are these appropriately scoped (i.e. can be completed in 1-3 milestones)?
@@ -263,4 +266,3 @@ Briefly summarize the activities in the workshop, and celebrate the team's progr
 ### Following up
 
 We advise following up with the team in the workshop issue a few days after the workshop has concluded reminding everyone of the next steps. We want to ensure the activities and concepts are fresh so teams won't have to recall every instruction from the workshop; The more time passes, the harder it will be for a team to complete their themes.
-

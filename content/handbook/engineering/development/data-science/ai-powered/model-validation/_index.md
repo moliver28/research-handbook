@@ -36,6 +36,7 @@ If you are a team building or seeking to build an AI solution, you are our custo
 Additionally, we provide dashboards, insights, and guidance to empower you to
 confidently communicate with YOUR customers using data throughout the process.
 Some examples might include:
+
 - How did you select the appropriate model for a use case?
 - How did you systematically evaluate your AI solution AT SCALE as a proxy to
 production?
@@ -51,7 +52,7 @@ Our current customers include:
 2. Create: Code Creation team
 3. Govern:Threat Insights `Vulnerability explanation` team
 
-##  Top FY25 Priorities
+## Top FY25 Priorities
 
 Data Driven evaluated AI Solutions with every code change.
 
@@ -88,15 +89,13 @@ Judges are then tasked with comparing these consolidated responses and assigning
 
 Our OKRs can be viewed [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=closed_at_desc&state=opened&label_name%5B%5D=group%3A%3Aai%20model%20validation&type%5B%5D=objective&first_page_size=100) (GitLab internal)
 
-
 ### Issues
 
 Our team works across GitLab project including:
 
-- [Prompt library ](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Aai%20model%20validation&first_page_size=20)
+- [Prompt library](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/ai-evaluation/prompt-library/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Aai%20model%20validation&first_page_size=20)
 - [Announcements - Weekly updates](https://gitlab.com/gitlab-org/modelops/ai-model-validation-and-research/annoucements/-/issues/?label_name%5B%5D=weekly%20update)
 - [GitLab project](https://gitlab.com/groups/gitlab-org/-/boards/7476573?label_name[]=group%3A%3Aai%20model%20validation) issue board
-
 
 **Required labels**
 

@@ -23,8 +23,6 @@ To support the success of GitLab by developing highly usable, hiqh quality tools
 
 The Secure team works on GitLab's [Secure stage].
 
-[Secure stage]: /stages-devops-lifecycle/secure/
-
 ## Sub-department development people leaders
 
 {{< team-by-manager-slug manager="thomaswoodham" team="Manager(.*)Secure" >}}
@@ -46,25 +44,23 @@ Team Page: [Composition Analysis](composition-analysis/)
 
 {{< team-by-departments departments="Secure:Composition Analysis FE Team" >}}
 
-
-
 ### Static Analysis
 
 Team Page: [Static Analysis](static-analysis/)
 
-{{< team-by-manager-role role="Engineering(.*)Manager(.*)Secure:Static Analysis" team="Engineer" >}}
+{{< team-by-departments departments="Secure:Static Analysis BE Team" >}}
 
 ### Dynamic Analysis
 
 Team Page: [Dynamic Analysis](dynamic-analysis/)
 
-{{< team-by-manager-slug manager="thomaswoodham" team="Secure:Dynamic Analysis" >}}
+{{< team-by-manager-role role="Engineering(.*)Manager(.*)Secure:Dynamic Analysis" team="Engineer" >}}
 
 ### Vulnerability Research
 
 Team Page: [Vulnerability Research](vulnerability-research/)
 
-{{< team-by-manager-slug manager="waynehaber" team="Vulnerability Research" >}}
+{{< team-by-departments departments="Secure:Vulnerability Research BE Team" >}}
 
 ## Stable Counterparts
 
@@ -72,10 +68,9 @@ The following members of other functional teams are our stable counterparts:
 
 {{< stable-counterparts role="Secure" other-manager-roles="Engineering Manager(.*)Secure:Static Analysis|Backend Engineering Manager(.*)Secure:Dynamic Analysis|Manager, Software Engineering(.*)Secure:Composition Analysis|Senior Engineering Manager(.*)Secure|Senior Engineering Manager(.*)Secure|Director of Engineering(.*)Sec|Engineering Manager(.*)Dynamic Analysis" >}}
 
-
 ## Secure Team
 
-The Secure Team (previously known as the _Security Products Team_) is responsible for the security checks features in the GitLab platform, and maps to the [secure](/handbook/product/categories/#secure) transversal stage.
+The Secure Team (previously known as the *Security Products Team*) is responsible for the security checks features in the GitLab platform, and maps to the [secure](/handbook/product/categories/#secure) transversal stage.
 You can learn more about our approach on the [Secure Vision](https://about.gitlab.com/direction/secure/) page.
 
 The features provided by the Secure Team are mostly present at the pipeline level, and mostly available as [Docker](https://www.docker.com/) images.
@@ -83,7 +78,7 @@ This particularity shapes our processes and QA, which differs a bit from the oth
 
 #### Security Products
 
-We still refer to "_Security Products_" as the tools developed by the Secure Team. Hence the home of our projects in GitLab: [https://gitlab.com/gitlab-org/security-products/](https://gitlab.com/gitlab-org/security-products/).
+We still refer to "*Security Products*" as the tools developed by the Secure Team. Hence the home of our projects in GitLab: [https://gitlab.com/gitlab-org/security-products/](https://gitlab.com/gitlab-org/security-products/).
 
 We strive to maintain a consistent User Experience across our Security Products but we do not enforce consistency at the implementation level.
 Each group faces its own challenges and is in the best position to make the technical choices it deems are the most suitable to achieve its goals.
@@ -95,14 +90,14 @@ we rely on individual teams to make smart decisions about when consistency is im
 
 ##### SAST
 
-[SAST](https://docs.gitlab.com/ee/user/application_security/sast/) (_Static Application Security Testing_) refers to static code analysis.
+[SAST](https://docs.gitlab.com/ee/user/application_security/sast/) (*Static Application Security Testing*) refers to static code analysis.
 GitLab leverages the power of various opensource tools to provide a wide range of checks for many languages and support.
 These tools are wrapped inside docker images which ensure we get a standard output from there.
 An orchestrator, [developed by GitLab](https://gitlab.com/gitlab-org/security-products/sast), is in charge of running these images, and gathering all the data needed to generate the final report.
 
 ##### DAST
 
-[DAST](https://docs.gitlab.com/ee/user/application_security/dast/) (_Dynamic Application Security Testing_) is used to hit a live application.
+[DAST](https://docs.gitlab.com/ee/user/application_security/dast/) (*Dynamic Application Security Testing*) is used to hit a live application.
 Because some vulnerabilities can only be detected once all the code is actually running, this method complements the static code analysis.
 DAST is relying on [OWASP Zed Attack Proxy Project](https://gitlab.com/gitlab-org/security-products/zaproxy), modified by GitLab to enable authentication.
 
@@ -113,6 +108,7 @@ Because a large portion of the code shipped to production is actually coming fro
 Dependency Scanning is relying mostly on the Gemnasium engine.
 
 ##### Fuzz Testing
+
 Coverage-guided fuzzing and API fuzzing are used to automatically input data into applications or web apis that has the potential to cause crashes or bugs. Coverage-guided fuzzing relies on open-sourced [language-specific fuzzers](https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers). API Fuzzing is based on a [proprietary GitLab engine](https://gitlab.com/gitlab-org/security-products/analyzers/api-fuzzing-src).
 
 ##### License Compliance
@@ -168,7 +164,7 @@ See [QA Process](qa_process.html) for more info.
 
 We use the [security-triage-automation](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation) tool in conjunction with [scheduled pipelines in the release project](https://gitlab.com/gitlab-org/security-products/release/-/blob/master/.gitlab/ci/security-triage-automation.yml?ref_type=heads) to handle the following tasks:
 
-1. [Create security issues for FedRAMP vulnerabilities (Container Scanning results only) still detected on the default branch ](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#process-vulnerabilities-for-a-given-project), executed at least once, on the first day of the month to match with FedRAMP compliance report cadence.
+1. [Create security issues for FedRAMP vulnerabilities (Container Scanning results only) still detected on the default branch](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#process-vulnerabilities-for-a-given-project), executed at least once, on the first day of the month to match with FedRAMP compliance report cadence.
 Note that we do not yet automatically create security issues for non-FedRAMP vulnerabilities. Please see the [Non-FedRAMP vulnerabilities section](#non-fedramp-vulnerabilities) for more details.
 1. [Resolve all vulnerabilities (both FedRAMP and non-FedRAMP) no longer detected on the default branch and close their issues](https://gitlab.com/gitlab-org/secure/tools/security-triage-automation#resolve-vulnerabilities-and-close-their-issues), executed every 2 days.
 
@@ -220,10 +216,10 @@ To do so, use the following procedure.
     1. Link it to the security issue: `/relate <issue_id>`
 1. Update the security issue accordingly
 
-    ```
-    /label ~"FedRAMP::Vulnerability" ~"FedRAMP::DR Status::Open"
-    /milestone %Backlog
-    ```
+   ```text
+   /label ~"FedRAMP::Vulnerability" ~"FedRAMP::DR Status::Open"
+   /milestone %Backlog
+   ```
 
 </details>
 
@@ -240,10 +236,10 @@ In the meantime, we favor a more specialized approach for these vulnerabilities 
 
 500 errors on gitlab.com are reported to Sentry. Below are some quick links to pull up Sentry errors related to Secure.
 
-- StoreSecurityReports Worker - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+StoreSecurityReportsWorker&statsPeriod=14d
-- SyncSecurityReportsToReportApprovalRules Worker - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+SyncSecurityReportsToReportApprovalRulesWorker&statsPeriod=14d
-- Vulnerabilities - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+vulnerabilities&statsPeriod=14d
-- On-Demand DAST - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+Dast&statsPeriod=14d
+* StoreSecurityReports Worker - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+StoreSecurityReportsWorker&statsPeriod=14d
+* SyncSecurityReportsToReportApprovalRules Worker - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+SyncSecurityReportsToReportApprovalRulesWorker&statsPeriod=14d
+* Vulnerabilities - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+vulnerabilities&statsPeriod=14d
+* On-Demand DAST - https://sentry.gitlab.net/gitlab/gitlabcom/?query=is%3Aunresolved+Dast&statsPeriod=14d
 
 #### Brainstorming sessions
 
@@ -256,20 +252,20 @@ When possible, time should be reserved for a list of actions to be taken from th
 
 Brainstorming Sessions Doc (Internal): https://docs.google.com/document/d/179JL5RzbgSIz2XZewbYn79cuX7_vUtte_TcoLwUUC5o/edit#
 
-_Examples of previous brainstorming topics:_
+*Examples of previous brainstorming topics:*
 
-- [Reduce false positives in Security reports](https://gitlab.com/gitlab-org/gitlab/issues/33934)
-- How to manage occurrence uniqueness identification in the common report format? (CompareKey)
-- [One file with syntax errors should not stop SAST and similar kind of jobs from running](https://gitlab.com/gitlab-org/gitlab/issues/7102)
+* [Reduce false positives in Security reports](https://gitlab.com/gitlab-org/gitlab/issues/33934)
+* How to manage occurrence uniqueness identification in the common report format? (CompareKey)
+* [One file with syntax errors should not stop SAST and similar kind of jobs from running](https://gitlab.com/gitlab-org/gitlab/issues/7102)
 
 #### Resources
 
-- [How to triage a QA test pipeline failure](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#how-to-triage-a-qa-test-pipeline-failure)
-- [Beginner's guide to writing end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/beginners_guide.html)
-- [GitLab QA README](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
-- [GitLab QA Scenarios](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md)
-- [E2E info for GitLab developers](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
-- [Quality training video material](https://www.youtube.com/playlist?list=PL05JrBw4t0KoNUmi5MOeNURxjl_BtUBxH)
+* [How to triage a QA test pipeline failure](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#how-to-triage-a-qa-test-pipeline-failure)
+* [Beginner's guide to writing end-to-end tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/beginners_guide.html)
+* [GitLab QA README](https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa)
+* [GitLab QA Scenarios](https://gitlab.com/gitlab-org/gitlab-qa/-/blob/master/docs/what_tests_can_be_run.md)
+* [E2E info for GitLab developers](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
+* [Quality training video material](https://www.youtube.com/playlist?list=PL05JrBw4t0KoNUmi5MOeNURxjl_BtUBxH)
 
 #### Product Documentation
 
@@ -290,21 +286,21 @@ For that, we rely on the [geekbot](https://geekbot.io/) slack plugin to automate
 
 ##### Standup messages format
 
-- Use the "`description in backquote` + `[link to issue](#)`" format when mentioning issues in your standup report.
-- Prepend CI status icons to the answer lines for `What did you do since yesterday?` to denote the current state:
-    - ![Accomplished](img/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
-    - ![Overdue](img/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
-    - ![In progress](img/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
-    - ![Paused](img/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
-    - any other `:ci_...` icon you find applicable
+* Use the "`description in backquote` + `[link to issue](#)`" format when mentioning issues in your standup report.
+* Prepend CI status icons to the answer lines for `What did you do since yesterday?` to denote the current state:
+    * ![Accomplished](img/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
+    * ![Overdue](img/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
+    * ![In progress](img/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
+    * ![Paused](img/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
+    * any other `:ci_...` icon you find applicable
 
 **Example:**
 
 What did you do since yesterday?
 
-- ![Accomplished](img/ci-success.svg) Accomplished the `Spotbugs java analyzer compareKey is not unique` [https://gitlab.com/gitlab-org/gitlab-ee/issues/10860](https://gitlab.com/gitlab-org/gitlab-ee/issues/10860)
-- ![In progress](img/ci-running.svg) Still working on `Allow guests to create an issue from a vulnerability` [https://gitlab.com/gitlab-org/gitlab-ee/issues/7813](https://gitlab.com/gitlab-org/gitlab-ee/issues/7813)
-- ![Overdue](img/ci-failed.svg) Catch-up on all emails and threads after the vacation
+* ![Accomplished](img/ci-success.svg) Accomplished the `Spotbugs java analyzer compareKey is not unique` [https://gitlab.com/gitlab-org/gitlab-ee/issues/10860](https://gitlab.com/gitlab-org/gitlab-ee/issues/10860)
+* ![In progress](img/ci-running.svg) Still working on `Allow guests to create an issue from a vulnerability` [https://gitlab.com/gitlab-org/gitlab-ee/issues/7813](https://gitlab.com/gitlab-org/gitlab-ee/issues/7813)
+* ![Overdue](img/ci-failed.svg) Catch-up on all emails and threads after the vacation
 
 **Slack Channels:**
 
@@ -336,17 +332,17 @@ In addition to this, each group in Secure conducts a weekly synchronous meeting.
 In addition to keeping yourself informed, team members are encouraged to keep others informed as well. Secure groups have adopted a practice of including the following topics as standing agenda items in their weekly meetings, with example
 topics for each bullet point.
 
-- **Current status**
-  - Work recently achieved against top priorities for that milestone.
-    - Pre-recorded demos are appreciated and encouraged as part of these updates.
-  - Newly discovered scope or dependencies.
-- **Risks**
-  - Issues which are blocked or slowed, impacting whether they can be delivered in the desired timeframe.
-- **Help wanted**
-  - Issues or topics on which the team or individuals on the team are getting stuck and could use some help.
-- **Praise**
-  - Anyone doing a great job and you want to give them kudos?
-  - Any bit of work which has been delivered that's exceptional?
+* **Current status**
+  * Work recently achieved against top priorities for that milestone.
+    * Pre-recorded demos are appreciated and encouraged as part of these updates.
+  * Newly discovered scope or dependencies.
+* **Risks**
+  * Issues which are blocked or slowed, impacting whether they can be delivered in the desired timeframe.
+* **Help wanted**
+  * Issues or topics on which the team or individuals on the team are getting stuck and could use some help.
+* **Praise**
+  * Anyone doing a great job and you want to give them kudos?
+  * Any bit of work which has been delivered that's exceptional?
 
 Engineering Managers are responsible for populating this section of weekly group meetings, though everyone can contribute. In addition to helping the group keep itself informed about what's happening each week, the SEM for Secure will collect
 this information weekly and broadcast a curated list to the section.
@@ -357,6 +353,7 @@ New hires should go through these steps and read the corresponding documentation
 Every new hire will have an assigned [onboarding issue](https://gitlab.com/gitlab-org/security-products/onboarding/blob/master/.gitlab/issue_templates/Technical_Onboarding.md) that will guide them through the whole process.
 
 #### Workflow and Refinement
+
 Secure largely follows our [Product Development Flow](/handbook/product-development-flow/)
 
 See [Issue Refinement](./workflow/) to learn how we evaluate complexity, level of effort, our implementation plan and assign issue weights.
@@ -371,7 +368,7 @@ Engineering Managers are encouraged to look at this queue of work during milesto
 
 The Secure Team follows the coding standards and style guidelines outlined in the company-wide [Contributor and Development Docs](https://docs.gitlab.com/ee/development/), however, please consult the following guidelines which are specific to the Secure Team:
 
-- [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide#secure-team-standards-and-style-guidelines)
+* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide#secure-team-standards-and-style-guidelines)
 
 #### Cross group collaboration
 
@@ -406,7 +403,6 @@ Each group's DRI is responsible to prepare and schedule the retrospective sync s
 
 After all groups have completed their retrospective, we conduct a [Section Retrospective](/handbook/engineering/development/sec/#section-retrospectives).
 
-
 NB: we use to have a sub-department wide retrospective whose issues are still accessible [in the deprecated project](https://gitlab.com/gl-retrospectives/secure/-/issues).
 
 ## Analytics
@@ -433,12 +429,11 @@ MR Type labels help us report what we're working on to industry analysts in a wa
 
 ## Common Links
 
-- [Secure team board]
-- [#s_secure] in Slack
-- [Secure and Govern Glossary of Terms](https://docs.gitlab.com/ee/user/application_security/terminology/)
+* [Secure team board]
+* [#s_secure] in Slack
+* [Secure and Govern Glossary of Terms](https://docs.gitlab.com/ee/user/application_security/terminology/)
 
 [Secure team board]: https://gitlab.com/groups/gitlab-org/-/boards/588843?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Asecure
-[Secure team retrospectives]: https://gitlab.com/gl-retrospectives/secure/-/issues?scope=all&utf8=%E2%9C%93&state=all
 
 [#s_secure]: https://gitlab.slack.com/archives/s_secure
 [#s_secure-standup]: https://gitlab.slack.com/archives/s_secure-standup

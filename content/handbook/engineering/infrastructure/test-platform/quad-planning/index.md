@@ -20,6 +20,7 @@ These [4 areas are the main pillars](/handbook/product/product-processes/#pm-em-
 ## Two dimensions of Quad Planning
 
 The quad planning has two aspects attached to it, which is as follows:
+
   1. Test Planning: For now this is the main focus of the quad-planning process. This is discussed elaborately in the below section.
   1. Being involved in the design discussions: When there is a need to participate in design discussions, the PMs directly ping the corresponding [Software Engineer in Test](/job-families/engineering/software-engineer-in-test/) (SET) to participate.
 
@@ -27,6 +28,7 @@ The quad planning has two aspects attached to it, which is as follows:
 
 The [Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/) (DRIs) collaboratively work on new features to ensure we ship quality software.
 The SET owns the completion of the `Availability and Testing` section in the Feature Proposal to complete the definition of done. As we grow to reach our [desired ratio](/handbook/engineering/quality/#staffing-planning), we will only have the quad approach in groups where we have an assigned SET in place.
+
    1. An automated [Quad Planning triage report](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/stages/report/quad-planning-issues.yml) is created on a weekly basis for groups with dedicated SETs. The report is generated with issues that satisfy the below conditions:
       1. Issue has the label `workflow:ready for development` and `group::*` (this corresponding to the product group to which the SET is aligned to.)
       1. Issue should not have `bug`, `quad-planning::complete-action`, OR `quad-planning::complete-no-action` labels.
@@ -109,5 +111,3 @@ flowchart TB
    action_label --> issue_done
    issue_done --> issues_to_triage
 ```
-
-

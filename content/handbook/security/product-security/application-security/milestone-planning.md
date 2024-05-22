@@ -60,16 +60,16 @@ Application Security team members are responsible for keeping issues and labels 
 Any issue being worked on by an Application Security team member must include:
 
 - The `team::Application Security` label
-- The appropriate `workflow::` label
+- The appropriate `AppSecWorkflow::` label
 - The appropriate Milestone
 
 ### Workflow Labels
 
 | Label | Purpose |
 | --- | --- |
-| `workflow::ready for development` | Indicates that work has not begun, or the rotation has not yet started |
-| `workflow::in dev` | Indicates the issue is actively being worked on, or the rotation is in progress |
-| `workflow::complete` | Indicates the work is done, or the rotation has finished |
+| `AppSecWorkflow::planned` | Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone |
+| `AppSecWorkflow::in-progress` | Indicates the issue is actively being worked on, or the rotation is in progress |
+| `AppSecWorkflow::complete` | Indicates the work is done, or the rotation has finished |
 
 ### Rotations
 
@@ -92,3 +92,14 @@ These issues must be labeled with the appropriate AppSecRotation label:
 | Security Release | `AppSecWorkType::ReleaseRotation` |
 | Federal AppSec VAT | `AppSecWorkType::VATRotation` |
 
+### Unplanned work
+
+Sometimes high-priority and/or urgent work comes up after a milestone starts. When an unplanned issue is added after the milestone began:
+
+- Document why the work needs to be prioritized in the issue
+- Apply the `Unplanned` label
+- If the unplanned work is large enough to displace other planned issues, inform the applicable stakeholders so they are aware that their issue is being delayed
+
+### Missed milestones
+
+Work planned for a milestone may not be fully finished due to time constraints or planned work being too ambitious. When this happens, attach the `missed::X.Y` label.

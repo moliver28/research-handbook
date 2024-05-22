@@ -36,6 +36,7 @@ Note that other fields may be beneficial and the list above is not comprehensive
 ## What are the Technical Requirements for Reproducibility?
 
 As mentioned above, different Reproducible Builds are going to have different required similarity scores. It's not always fesable to enforce 100% reproducability as some nondeterministic factors may be unable to be mitigated. In order to meet the criteria for reproducibility, builds should be:
+
 - Byte-by-byte verifiable: this typically takes the form of a cryptographic hash that is able to be compared against an authenticated source
 - Automatable: build hashes of source inputs, expected outputs, attestations, and so on should be provided in a format that is easily able to be verified by automation
 

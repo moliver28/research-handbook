@@ -16,7 +16,7 @@ The Cryptography Standard applies to all GitLab team members, contractors, consu
 
 This is required for coding best practices as well as client and server configurations involving cryptography for the GitLab product itself. Currently, there are numerous efforts internally by numerous Engineering teams ensuring these standards are met and maintained. The scope includes third party modules and software settings where cryptographic settings are required. Basically if it touches GitLab or GitLab customer data, the standard applies.
 
-## Roles & Responsibilities:
+## Roles & Responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|
@@ -91,6 +91,7 @@ Note to developers and contributors, regardless of FIPS/FedRAMP compliance or no
 Quantum computing allows for advanced mathematical calculations, and as quantum-based computers evolve and become more powerful, there is a danger of certain algorithms being able to be broken or "cracked" - namely a number of algorithms that use a form of factoring large numbers as a part of the cracking effort. So there is concern that when this point is reached, many cryptographic algorithms will no long be considered secure. This scenario is often referred to as "Post Quantum Cryptography", or PQC for short. Currently NIST is running a program for evaluating and testing new algorithms that will replace specific algorithms that will become insecure in a PQC world (details [here](https://csrc.nist.gov/projects/post-quantum-cryptography/)).
 
 In preparation for this, GitLab will consider the following:
+
 - Where possible, choose existing cryptographic algorithms that are already known to be resistant to cracking via quantum computing, commonly known as "quantum resistant".
 - As new quantum resistant algorithms are announced, the [standards](#algorithmic-standards) listed above will be updated.
 - As NIST updates and approves the list of algorithms that are known to be quantum resistant, GitLab will test these algorithms to ensure that we will be able to migrate to their implementation as they become standards.

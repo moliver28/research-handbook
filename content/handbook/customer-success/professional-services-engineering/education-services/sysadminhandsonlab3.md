@@ -6,21 +6,25 @@ description: "This Hands-On Guide walks you through installing and managing a Gi
 
 > Estimated time to complete: 40 minutes
 
+## Objectives
+
+The objective of this lab is to demonstrate how to create and register a GitLab Runner on a server. For more information about GitLab Runners, click [here](https://docs.gitlab.com/runner/).
+
 ### Task A. Install the gitlab-runner package
 
 1. Use your assigned IP address and SSH key file to log into your **GitLab Runner** server (*not* your Omnibus server).
 
-  ```bash
-  ssh -i YOUR_ASSIGNED_SSH_KEYFILE ec2-user@YOUR_RUNNER_SERVER_PUBLIC_IP
-  ```
+    ```bash
+    ssh -i <YOUR_ASSIGNED_SSH_KEYFILE> ec2-user@<YOUR_RUNNER_SERVER_PUBLIC_IP>
+    ```
 
 1. If your system displays an authentication warning, type `yes` and press <kbd>Enter</kbd>
 
 1. Add the GitLab Runner installation repository.
 
-  ```bash
-  curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh" | sudo bash
-  ```
+    ```bash
+    curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh" | sudo bash
+    ```
 
 4. Install the GitLab Runner agent.
 
@@ -42,11 +46,9 @@ description: "This Hands-On Guide walks you through installing and managing a Gi
 
 1. Select **New instance runner**.
 
-1. In the **Operating systems** section, select **Linux**.
-
 1. In the **Tags** section, select **Run untagged jobs**.
 
-  > This will allow the runner to pick up any jobs rather than just jobs with specific tags.
+    > This will allow the runner to pick up any jobs rather than just jobs with specific tags.
 
 1. Leave all other options as default and select **Create runner**.
 
@@ -54,11 +56,11 @@ description: "This Hands-On Guide walks you through installing and managing a Gi
 
 1. The command will first prompt you for your GitLab instance URL. Verify that this URL matches your GitLab instance, then press <kbd>Enter</kbd>
 
-1.  Enter any appropriate name for your runner.
+1. Enter any appropriate name for your runner.
 
 1. When you are prompted for an executor, type `shell`.
 
-  > A shell executor will run jobs using your instance's shell. For more information about executors, check the [documentation](https://docs.gitlab.com/runner/executors/).
+    > A shell executor will run jobs using your instance's shell. For more information about executors, check the [documentation](https://docs.gitlab.com/runner/executors/).
 
 1. Run `sudo gitlab-runner list` to verify the runner after registration.
 
@@ -72,7 +74,7 @@ description: "This Hands-On Guide walks you through installing and managing a Gi
 
 1. Select **Create blank project**.
 
-1. Enter `CICD Test` as the project name. 
+1. Enter `CICD Test` as the project name.
 
 1. In the `Project URL`, select `root` from the namespace dropdown.
 

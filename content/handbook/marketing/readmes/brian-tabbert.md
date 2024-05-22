@@ -27,14 +27,6 @@ I live in Indianapolis, Indiana, USA with my wife and twin daughters, who take u
 - I am a [Cool Blue](https://blog.insights.com/en-us/blog/the-essential-guide-to-insights-discovery-colour-energies-and-how-to-use-them-at-work). The more detailed you can be in your communication, the more useful I will be to you. Expect me to take time to make sure I have considered all available information and then come back to you with a measured response.
 
 
-### Weaknesses
-
-
-- As a Concrete Sequential, Abstract Random situations are not my favorite. Expect me to struggle with situations that involve more than one right answer. “Use your imagination” is the worst direction imaginable to me. I will not thrive in open-ended scenarios that lack guidelines or guardrails. 
-- As a Cool Blue, I tend to be overly-detailed in my communication. While I personally consider this a strength, it’s not for everybody and can cause things to get bogged down. Call me out on this and tell me to get to the point and keep things high level if the situation calls for it.
-- I’m a perfectionist, which means I like to do a complete job and get things right on the first try. This makes it hard for me to iterate and focus on the smallest viable change. Breaking projects down into smaller segments will make me much more efficient.
-
-
 ### Assessments
 
 My CliftonStrengths results suggest that I lead with **Executing** themes, which help me make things happen. 
@@ -57,3 +49,10 @@ I consider myself an empathetic person and leader, capable of putting myself in 
 I am a detailed communicator and value transparency. I will always err on telling you more than you need to know rather than not enough. I have an “open-door” policy and will always prioritize my people if I am not otherwise engaged.
 
 I am extremely data-driven. While not beholden to it, I consult and leverage data when making decisions. I rarely “fly by the seat of my pants” and change course based on feel. My goal is to use data to set my team up for success, using all available information to put them in the best possible position to execute and deliver results. Measure twice, cut once. 
+
+
+### Communicating with Me
+
+I'm a pretty informal communicator who values responsiveness, and you can expect a speedy reply from me if I am not otherwise occupied. The more detailed you can be in your communication, the better. Based on the scope of the topic, I'm always open to Slack, video huddle, scheduled Zoom call, or Salesforce Chatter. Feel free to book meetings with me over free slots on my calendar without needing to confirm if it will work, but please be mindful of my working hours. I have hard starts and stops for my kids. 
+
+I am always looking to improve myself and my team and am always open to feedback. Please (a) be constructive and (b) consider the privacy of others when deciding to share feedback in a group setting or 1:1. 

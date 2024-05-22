@@ -16,6 +16,7 @@ The LCNC SEG is a [Single-Engineer Group](/handbook/company/structure/#single-en
 Low-code and no-code are [two distinct concepts](https://lowcode.com/articles/low-code-vs--no-code--the-differences--similarities--and-how-to-.html) that target different personas and require separate product strategies. This page presents low-code and no-code work streams in two sections.
 
 ### Latest video
+
 <figure class="video_container">
     <iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=1&showinfo=0&rel=0&listType=playlist&list=PL05JrBw4t0KrvsoO39e_NFtFMTIYgSJ7t" frameborder="0" allowfullscreen></iframe>
 </figure>
@@ -62,6 +63,7 @@ Given the current focus on the project management automation, the [Project Manag
 #### Problem Statement
 
 Gartner predicts by 2024, 75% of software solutions will be delivered with some help of low-code tools. While developers appreciate the efficiency gain, they also share several concerns with room for improvement. For example:
+
 - Overwhelmed by the number of competing solutions and their interoperability.
 - Worried about vendor lock-in.
 - Concerned about the lack of version control, CI/CD and other fundamental DevOps capabilities.

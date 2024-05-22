@@ -14,6 +14,7 @@ These requirements are meant to provide a level of consistency across how change
 Changes, in the context of this policy, are defined as **modifications** to the production environment and include supporting infrastructure and key corporate systems. The policy applies to changes that are made to systems assigned a [Critical System Tier]({{< ref "critical-systems" >}}) of `Tier 1 Mission Critical`, `Tier 2 Business Critical`, and `Tier 3 Business Operational`.
 
 **Modifications** include, but are not limited to:
+
 - Creation/development/implementation of new systems, integrations, features, key reports, databases, etc.
 - Changes to configurations
 - Deployment of patches or vendor supplied changes not managed by the vendor
@@ -26,13 +27,13 @@ Changes, in the context of this policy, are defined as **modifications** to the 
 While Tier 4 Administrative systems are not subject to the scope of this policy, team members are encouraged to proactively adopt the requirements established by this policy across all systems, especially if there is a good probability that a system may move from a `Tier 4 Administrative` system to a [higher system tier]({{< ref "critical-systems" >}}) handbook page.
 {{% /note %}}
 
-### Applicable Change Management Procedures:
+### Applicable Change Management Procedures
 
 In conjunction with this policy, supplemental change management procedures are formally documented to describe the standard operating procedure/workflow for executing changes in accordance with this policy and the [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}}). GitLab's current change management procedures are listed below for reference, including a brief statement on the applicable scope for each change procedure. Additional information on scope is provided directly on each respective procedure's handbook page:
 
 - [Infrastructure Change Management Procedure](/handbook/engineering/infrastructure/change-management/), for changes made to environments and cloud infrastructure services directly supporting the `GitLab.com SaaS product`
 - [Business Technology Change Management Procedure](/handbook/business-technology/change-management/), for changes made to production systems/tools/infrastructure that `do not` directly support the `GitLab.com SaaS product`
-- [Organizational Change Management Procedure](/handbook/organizational-change-management/), for organization-wide impacting changes, such as significant team restructures, revisions to hot button policies, etc.
+- [Organizational Change Management Procedure](/handbook/people-group/organizational-change-management/), for organization-wide impacting changes, such as significant team restructures, revisions to hot button policies, etc.
 - [Security Change Management Procedure]({{< ref "security-change-management-procedure" >}}) for changes made to systems and applications owned by Security and processes owned by Security sub-departments.
 
 ## Roles & Responsibilities
@@ -51,6 +52,7 @@ The minimum change management requirements described below have been identified 
 ### Change Management Policy Guidance
 
 Supplemental change management procedures must incorporate the requirements called out in the sections below:
+
    - [Change Request Documentation Requirements](#change-request-documentation-requirements)
    - [Change Testing Requirements](#change-testing-requirements)
    - [Change Review and Approval Requirements](#change-review-and-approval-requirements)

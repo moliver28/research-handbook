@@ -5,8 +5,8 @@ description: "Self-Managed Platform team in Test Platform sub-department"
 
 ## Common Links
 
-| S.No 	| Section     	          |
-|------	|-------------------------|
+| S.No     | Section                   |
+|------    |-------------------------|
 | **GitLab Team Handle** | [`@gl-quality/tp-self-managed-platform`](https://gitlab.com/gl-quality/enablement-qe) |
 | **Team Boards** | [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/978354) |
 | **Self-Managed Platform Team Projects** | [Tools Page](/handbook/engineering/infrastructure/test-platform/self-managed-excellence/) |
@@ -17,16 +17,16 @@ Engineers in this team support the product sections supported by the [Core Platf
 
 Engineering Manager: Kassandra Svoboda
 
-| S.No 	| Section     	          | Stage/ Group/ Tool         | SET Counterpart    |
-|------	|-------------------------|----------------------------|--------------------|
-| 1    	| [Core Platform]    	  | [Data Stores]              | John McDonnell     |
+| S.No     | Section                   | Stage/ Group/ Tool         | SET Counterpart    |
+|------    |-------------------------|----------------------------|--------------------|
+| 1        | [Core Platform]          | [Data Stores]              | John McDonnell     |
 | 2     | [Core Platform]         | [Tenant Scale]             | Andy Hohenner      |
 | 3     | [Core Platform]         | [Systems]                  | Vishal Patel       |
 | 4     | [Core Platform]         | [Geo]                      | Nick Westbury      |
-| 5    	| [SaaS Platforms]        | [GitLab Dedicated]         | Brittany Wilkerson |
-| 6    	| [SaaS Platforms]        | [US Public Sector Services] | Jim Baumgardner    |
-| 7    	|          -              | [GitLab Environment Toolkit] & [Reference Architectures]  | Grant Young    |
-| 8    	|          -              | [GitLab Performance Tool]   | Nailia Iskhakova    |
+| 5        | [SaaS Platforms]        | [GitLab Dedicated]         | Brittany Wilkerson |
+| 6        | [SaaS Platforms]        | [US Public Sector Services] | Jim Baumgardner    |
+| 7        |          -              | [GitLab Environment Toolkit] & [Reference Architectures]  | Grant Young    |
+| 8        |          -              | [GitLab Performance Tool]   | Nailia Iskhakova    |
 
 ## OKRs
 
@@ -66,12 +66,14 @@ For individual questions please reach out to the team via our slack channels.
 ## How we work
 
 ### Meetings and Scheduled Calls
+
 Our preference is to work asynchronously, within our projects issues trackers.
 
 The team does have a set of regular synchronous calls:
-- Self-Managed Environment Triage
-- GitLab Environment ToolKit Bi-Weekly Sync
-- 1-1s between the Individual Contributors and Engineering Manager
+
+* Self-Managed Environment Triage
+* GitLab Environment ToolKit Bi-Weekly Sync
+* 1-1s between the Individual Contributors and Engineering Manager
 
 Stand-up twice per week on Tuesday and Thursday via our teams slack channel
 
@@ -81,8 +83,8 @@ Stand-up twice per week on Tuesday and Thursday via our teams slack channel
 
 We track our work on the following issue boards:
 
-- [Test Platform: Self-Managed Platform Team Milestones](https://gitlab.com/groups/gitlab-org/-/boards/7333962?label_name[]=team%3A%3ASelf-Managed%20Platform)
-- [Test Platform: Self-Managed Platform Team Members](https://gitlab.com/groups/gitlab-org/-/boards/978354?label_name%5B%5D=team%3A%3ASelf-Managed%20Platform)
+* [Test Platform: Self-Managed Platform Team Milestones](https://gitlab.com/groups/gitlab-org/-/boards/7333962?label_name[]=team%3A%3ASelf-Managed%20Platform)
+* [Test Platform: Self-Managed Platform Team Members](https://gitlab.com/groups/gitlab-org/-/boards/978354?label_name%5B%5D=team%3A%3ASelf-Managed%20Platform)
 
 ### Capacity Planning
 
@@ -102,11 +104,11 @@ and continue to improve.
 
 To weigh an issue, consider the following important factors:
 
-- Volume of work: expected size of the change to the code base or validation testing required.
-- Amount of investigation or research expected.
-- Complexity:
-  - Problem understanding: how well the problem is understood.
-  - Problem-solving difficulty: the level of difficulty we expect to encounter.
+* Volume of work: expected size of the change to the code base or validation testing required.
+* Amount of investigation or research expected.
+* Complexity:
+  * Problem understanding: how well the problem is understood.
+  * Problem-solving difficulty: the level of difficulty we expect to encounter.
 
 The following weights are available based on the Fibonacci Series with 8 being the highest assignable number. The definitions are as below:
 
@@ -120,23 +122,24 @@ The following weights are available based on the Fibonacci Series with 8 being t
 
 Anything that would be assigned a weight of 8 or larger should be broken down.
 
-### Status Updates 
-- By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
-     - Format for weekly update:
-          - Date of Update (YYYY-MM-DD)
-          - Brief update (~sentence or couple bullets) for each of these four bullets:
-               - Status update - Progress has been updated to X %.    
-               - What was done :white_check_mark: - Unblocked blockers, any other progress acheived
-               - Next steps :construction_worker: 
-               - Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
-- ASYNC Standup on Tuesdays and Thursdays - Reply to GeekBot questionaire on Slack. 
+### Status Updates
 
-## Test Platform process across product sections:
+* By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
+     * Format for weekly update:
+          * Date of Update (YYYY-MM-DD)
+          * Brief update (~sentence or couple bullets) for each of these four bullets:
+               * Status update - Progress has been updated to X %.
+               * What was done :white_check_mark: - Unblocked blockers, any other progress acheived
+               * Next steps :construction_worker:
+               * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
+* ASYNC Standup on Tuesdays and Thursdays - Reply to GeekBot questionaire on Slack.
+
+## Test Platform process across product sections
 
 Overall we follow the same process as [defined](/handbook/engineering/infrastructure/test-platform/#how-we-work) in our Test Platform handbook across all groups in Core Platform and SaaS Platform
 except for a few exceptions curated to fit the needs of specific groups.
 
-- [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/index.html)
+* [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/index.html)
 
 [Core Platform]: /handbook/product/categories/#core-platform-section
 [Systems]: /handbook/product/categories/#systems-stage
@@ -144,7 +147,6 @@ except for a few exceptions curated to fit the needs of specific groups.
 [Geo]: /handbook/product/categories/#geo-group
 [Tenant Scale]: /handbook/product/categories/#tenant-scale-group
 [SaaS Platforms]: /handbook/product/categories/#saas-platforms-section
-[SaaS Platforms]: /handbook/product/categories/#saas-platforms-stage
 [GitLab Dedicated]: /handbook/product/categories/#gitlab-dedicated-group
 [US Public Sector Services]: /handbook/product/categories/#us-public-sector-services-group
 [GitLab Performance Tool]: https://gitlab.com/gitlab-org/quality/performance

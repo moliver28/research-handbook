@@ -9,7 +9,7 @@ title: "DevOps Solution Resource: Continuous Integration"
 
 
 
-# Looking for a customer-facing overview of GitLab's Continuous Integration (CI) capabilities? See the [CI Solution](https://about.gitlab.com/features/continuous-integration/).
+## Looking for a customer-facing overview of GitLab's Continuous Integration (CI) capabilities? See the [CI Solution](https://about.gitlab.com/features/continuous-integration/)
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around DevSecOps.
 
@@ -19,7 +19,7 @@ The page below is intended to align GitLab sales and marketing efforts with a si
 | ---- | --- |
 | Daniel Hom (@danielhom) | Itzik Gan-Baruch ( @iganbaruch ) |
 
-# The Market Viewpoint
+## The Market Viewpoint
 
 ## Continuous Integration
 
@@ -86,7 +86,7 @@ Examples of comparative research for this use case are listed just below. Additi
 | 11) Elastic scalability | The solution supports elastic scaling leveraging well understood, third-party, mechanisms whenever possible. Supports build scalability around existing native per-cloud and per-virtual environment vendor capabilities since they represent already debugged code for a complex problem, and the customers architects/operators are much more likely to be familiar with these mechanisms in their chosen infrastructure/cloud provider. | Supports ephemeral provisioning. Utilizes strong Kubernetes integration at-scale or supports non-Kubernetes scaling options. For example, use AWS Autoscaling Groups in AWS, GCP scaling in GCP, and Azure Autoscale in Azure. | Faster and more efficient. Reduce infrastructure overhead with on-demand resources. Provides flexibility to scale large workloads using popular cloud providers. |
 | 12) Artifact and dependency management | The solution allows for easy management of outputs and binaries from the build/test process. Manage repos, application packages, and containers with visibility into their dependencies. | View and download artifacts. Modify, store, and share images. Support for a wide range of common package formats and third-party integrations. Can be used on-prem or in the cloud. | Streamlines your CI/CD workflow and speeds up development. |
 
-# The GitLab Solution
+## The GitLab Solution
 
 <iframe width="960" height="569" src="https://www.youtube.com/embed/ljth1Q5oJoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

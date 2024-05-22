@@ -28,9 +28,9 @@ The following teams comprise the Ops sub-department:
 
 Teams in the Ops Sub-Department map to several Product Sections.  Product direction can be found on the following direction pages:
 
-* [CI Section Direction](https://about.gitlab.com/direction/ci)
-* [CD Section Direction](https://about.gitlab.com/direction/cd)
-* [Observability Direction](direction/analytics/observability/)
+- [CI Section Direction](https://about.gitlab.com/direction/ci)
+- [CD Section Direction](https://about.gitlab.com/direction/cd)
+- [Observability Direction](direction/analytics/observability/)
 
 ## Slack channels
 
@@ -38,13 +38,14 @@ Teams in the Ops Sub-Department map to several Product Sections.  Product direct
 - [#cd-section](https://gitlab.slack.com/archives/C05BTB4CBGQ) - CD Section discussions spanning Deploy Stage
 - [#ops_staff_plus](https://gitlab.slack.com/archives/C0305PJB9JR) - Foster collaboration and technical leadership within Ops section
 - [#doe-ops](https://gitlab.slack.com/archives/CT9CM1VDJ) - Channel for GitLab's Director of Engineering, Ops
-- [🔒ops-staff-confidential](#private) - Channel for reviewing Ops promotion docs or sharing other confidential information.  Please use #doe-ops or other public channels for topics that don’t require confidentiality.
+- 🔒ops-staff-confidential - Channel for reviewing Ops promotion docs or sharing other confidential information.  Please use #doe-ops or other public channels for topics that don’t require confidentiality.
 
 ## Meetings
 
 ### Zoom Recordings synced to Google Drive
 
 GitLab encourages transparency by default, and when meetings are recorded, they can be automatically synced to Google Drive as highlighted in [the section about how we conduct video calls at GitLab](/handbook/communication/#video-calls). To summarize:
+
 1. Record meetings to the cloud in Zoom, and add the text [REC] anywhere in the meeting title (e.g. Google calendar event)
 1. It will automatically be added to the [GitLab Videos Recorded folder](https://drive.google.com/drive/folders/0APOeuCQrsm4KUk9PVA) on Google Drive, with a naming convention of `youremail-Meeting Title`.
 1. After a meeting ends, Zoom may take some time to process the recording before it is actually available. The sync to Google Drive happens on the hour mark, so if the recording is not available, it may take another hour to be transferred.
@@ -125,7 +126,7 @@ To be clear, this is not a required process, if your group's approach is working
 - **Impact** should also be highlighted (quantifiable where possible), with examples such as:
   - customer-facing impact (CMAU, ARR growth, retention, adoption, etc)
   - improvements in efficiency, team process or other team metrics
-- Examples demonstrating leadership, ownership and accountability (going _above and beyond_ for your current role):
+- Examples demonstrating leadership, ownership and accountability (going *above and beyond* for your current role):
   - Your role on a project or initiative ("how did you successfully help deliver X?", "what role did you play in this Working Group?")
   - MR Review efforts (your role as a maintainer for your team or for the rest of the department in your domain)
   - Collaborating with your team's stable counterparts
@@ -186,7 +187,7 @@ We have limited capacity in the recruiting team so hiring managers are experimen
 - DRIs are expected to score OKRs on a regular basis, at least monthly, if possible.
 - At the end of the quarter, DRIs can add a retrospective as a comment to reflect on the progress of their KR, in the following format:
 
-```
+```markdown
 **Good**
 - Things that went well...
 
@@ -224,7 +225,6 @@ Key projects will be listed in the table below:
 | O11y Distributed Tracing | [Project plan](/handbook/engineering/development/ops/monitor/observability/#weekly-project-plan) | Nicholas Klick | | FY24-Q4 |
 | GCP Secrets Integration | [Project plan](/handbook/engineering/development/ops/project-plans/gcp-secrets-integration/) | Scott Hampton | Albert Salim | FY24-Q4 |
 
-
 ### Key Project Planning
 
 Projects which are listed as key projects should create these project planning artifacts:
@@ -235,7 +235,7 @@ Since the project plan is stored in the handbook it is easy to track changes in 
 
 Project plans should (roughly) follow this format (from https://www.rubick.com/weekly-project-plans/):
 
-```
+```text
 Weekly project plan template
 
 
@@ -268,7 +268,6 @@ Updates to the plan should be made weekly, marking weekly items done and making 
 
 We expect the use of project plans to reduce the amount of EM reporting by serving as a SSOT for project execution planning.  For example this info no longer needs to be included in async updates (replace with a link to project plan).
 
-
 ### Key Project Review Meetings
 
 We hold periodic sync meetings to review key projects and collaborate on the plans for these important deliverables.
@@ -288,7 +287,6 @@ The focus of the meeting time will be on topics such as:
     1. Competing priorities
     1. How to unblock and/or accelerate
 1. Recognizing progress and key team member contributions
-
 
 ## Async Updates (No Status In Meetings)
 
@@ -323,8 +321,7 @@ The content of these updates varies by individual and role:
     1. Highlights & Accomplishments
     1. Projects & Priorities (progress, blockers, key decisions, etc.)
 
-
-### To create a weekly async update:
+### To create a weekly async update
 
 1. Create a GitLab issue in any project.
 2. Apply the label `~OpsSection::AsyncUpdate`.  (The label `~OpsSection::Weekly-Update` can also be used for backwards compatibility reasons.)
@@ -335,14 +332,14 @@ The content of these updates varies by individual and role:
 1. Begin any paragraph in your update with the text `HIGHLIGHT:`
 1. These paragraphs will automatically be copied into the Highlights & Accomplishments section of the monthly Director's update.
 
-### To review Ops weekly async updates:
+### To review Ops weekly async updates
 
 1. All issues with the `~OpsSection::AsyncUpdate` or `~OpsSection::Weekly-Update` label are summarized in weekly issues in the [Ops Status Updates](https://gitlab.com/gitlab-com/ops-sub-department/ops-status-updates/-/issues) project.
 1. All team members are encouraged to comment and ask questions in weekly async update issues.  This provides useful feedback to the author and opportunities to collaborate.
 1. Director reviews all updates weekly (from the prior week) and provides feedback.
 1. Senior EMs reviews all updates from their teams weekly (from the prior week) and provides feedback.
 
-### Benefits of reporting and reviewing status async vs. synchronously in meetings:
+### Benefits of reporting and reviewing status async vs. synchronously in meetings
 
 1. Collaboration - By sharing announcements, achievements, goals, and plans we are empowering team members with the information they need to make sound decisions and succeed in their roles.
 1. Results - Async updates provide an important channel for sharing accomplishments and progress.
@@ -366,6 +363,7 @@ and would benefit from additional visibility, please post a link with a short de
 
 When teams are asked to triage support requests for customers on GitLab Dedicated and engineers need access to their logs, a sync can be arranged between the engineer and the assigned Support Engineer for a screensharing session.
 However, when further troubleshooting is needed by the engineering team or async collaboration is preferred, follow these steps to request access:
+
 1. Create an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) (AR) and list the engineers who require access.  (Note that EMs can create this issue and provide `Manager Approval` on behalf of the engineers)
-1. Assign the AR to the EM and PM of the [Dedicated group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) for _read-only_ log access.
+1. Assign the AR to the EM and PM of the [Dedicated group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) for *read-only* log access.
 1. Reference the AR issue in the support tracker issue so that the Support Engineer is aware.

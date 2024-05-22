@@ -54,7 +54,6 @@ This is informative report in slide 7
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `count` inside table in Result Manipulation.
     1. Order of result manipulation should be `1-value filter`in Result Manipulation.
 
-
 ### Slide 8: Reports use combination of Sheets and Periscope so will be completed by Ilia
 
 ### Slide 9: Report 1: Month over Month Trend: SSAT (Customers)
@@ -188,7 +187,6 @@ This is main table in Slide 11
     1. Ticket ID should exclude `279135`
     1. Ticket Solved (Month) use Simple Date Range settings i.e. `Last 6 Months`
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" are present on every `cell` in Result Manipulation.
-
 
 ### Slide 12: Report 1: SM FRT SLAs Achieved Chart - No Plan
 
@@ -1054,9 +1052,7 @@ This is bottom right chart in Slide 26.
     1. Make sure report should have "Sort" type `A-Z` and and "SUM" shows in percentage in columns inside every month in Result Manipulation.
     1. Report has a `linear` trend line in Chart configuration.
 
-### Slide 27 is Federal US Slide so the access to Federal Explore is not possible.
-
-
+### Slide 27 is Federal US Slide so the access to Federal Explore is not possible
 
 ## Dashboards
 
@@ -1250,9 +1246,9 @@ This is bottom right chart in Slide 26.
         1. LK - Ops Incoming Tickets For Support Per Week
         1. LK - Incoming Ops
 
-### Manager boards:
+### Manager boards
 
-#### Tabs:
+#### Tabs
 
 1. Tickets:
     - Widgets used:
@@ -1343,10 +1339,10 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months
 - Visualization type: Column
 - Metric used: Count (Tickets)
 - Rows:
-    1. Ticket Priority  
+    1. Ticket Priority
     (Includes only Normal, Low, High)
 - Columns:
-    1. Ticket Created (Hour)  
+    1. Ticket Created (Hour)
     (Includes  Check all even DESELECT ALL as well)
 - Filters used:
     1. Ticket Form
@@ -1365,10 +1361,10 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months SM
 - Visualization type: Column
 - Metric used: Count (Tickets)
 - Rows:
-    1. Ticket Priority  
+    1. Ticket Priority
         (Includes only Normal, Low, High)
 - Columns:
-    1. Ticket Created (Hour)  
+    1. Ticket Created (Hour)
         (Includes  Check all even DESELECT ALL as well)
 - Filters used:
     1. Ticket Form
@@ -1387,10 +1383,10 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months .COM
 - Visualization type: Column
 - Metric used: Count (Tickets)
 - Rows:
-    1. Ticket Priority  
+    1. Ticket Priority
     (Includes only Normal, Low, High)
 - Columns:
-    1. Ticket Created (Hour)  
+    1. Ticket Created (Hour)
     (Includes  Check all even DESELECT ALL as well)
 - Filters used:
     1. Ticket Form
@@ -1411,7 +1407,7 @@ aka IK - Prefered Region last 6 / 3 Months
 - Rows:
     None
 - Columns:
-    1. Preferred Region for Support  
+    1. Preferred Region for Support
     (Includes All Regions, Americas USA, Asia Pacific and Europe Middle East Africa)
 - Filters used:
     1. Ticket Form
@@ -1496,7 +1492,6 @@ aka IK - NRT SLA for .com/SM
     1. Make sure report should have "Sort" type `A-Z` and Percentage is shown inside every bar in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-
 ### FRT SLA % Achieved For .COM - Outdated Calculations
 
 ### NRT SLA % Achieved For .COM - Outdated Calculations
@@ -1577,7 +1572,6 @@ aka IK - FRT Achieved Per Preferred Region - Test
     1. SLA Update (Month) was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 months in the past` to "The end of" should have `1 months in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" showing in `Percentage` in every month on each cell.
 
-
 ## FRT Per Priority .COM/SM
 
 aka IK - Total Breached FRT % Month
@@ -1604,7 +1598,6 @@ aka IK - Total Breached FRT % Month
     1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and `Percentage` is shown on top of every bar in Result Manipulation.
 
-
 ### NRT Per Priority .COM/SM
 
 aka IK - Total Breached NRT % Month
@@ -1628,7 +1621,6 @@ aka IK - Total Breached NRT % Month
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. SLA Update - Year filter was used and it use Advanced Date Range settings i.e. "From beginning of" should have `13 months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and `Percentage` is shown on top of every bar in Result Manipulation.
-
 
 ### Median TTR SaaS/SM
 
@@ -1838,7 +1830,6 @@ aka IK - Poor CSAT For .COM Breakdown Per Month
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `12 Months in the past` to "The end of" should have `1 month in the past`.
     1. Make sure report should have "Sort" type `A-Z` and and "Total" shows in percentage in columns inside every month for every reason in Result Manipulation.
 
-
 ### Poor SSAT Reason Breakdown For SM
 
 aka IK - Poor CSAT For SM Breakdown Per Month
@@ -2035,6 +2026,7 @@ aka IK - Linked Issues
 aka IK - Linked MR's
 
  Dataset used: Support ( Tickets )
+
 - Visualization type: Column
 - Metric used: \* SUM (% Linked MR)*\
 - Rows:
@@ -2103,7 +2095,6 @@ aka IK - Linked Total - Private
     1. Has Plan - Ticket Tags is a custom attribute and setting of Includes have `Has Plan` checked.
     1. Ticket Solved - Year use Advanced Date Range settings i.e. "From beginning of" should have `3 Months in the past` to "The end of" should have `All History`.
     1. Make sure report should have "Sort" type `A-Z`.
-
 
 ### No Problem Type
 
@@ -2420,7 +2411,6 @@ aka IK - Opened On Weekend Breached
     1. Make sure report should have "Sort" type `A-Z` and Totals show `Sum` on top of every month in Result Manipulation.
     1. It also shows 2 trend lines which can be found in Chart Configuration menu.
 
-
 ### Regional Updates Per Hour Last 6 Months
 
 aka IK - Regional updates per hour - 2019/2020
@@ -2667,7 +2657,6 @@ aka IK - SSAT - Last 4 Weeks
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-
 ### FRT
 
 aka IK - Total FRT SLA - Last 4 Weeks
@@ -2760,7 +2749,6 @@ aka IK - Week Over Week SM SLA
     1. Result Metric calculation is used in Result Manipulation with name "week over week SLA" and formula used is ```(SUM(SLA % achieved this week)-SUM(SLA % achieved last week))/SUM(SLA % achieved last week)```.
     1. Make sure report should have "Sort" type `A-Z`.
 
-
 ### LK - Total FRT SLA - Last 4 Weeks + Priority
 
 aka LK - Total FRT SLA - Last 4 Weeks + Priority
@@ -2785,7 +2773,6 @@ aka LK - Total FRT SLA - Last 4 Weeks + Priority
     1. 2FA is custom attribute and `Not 2FA` needs to be selected.
     1. SLA Update - Week of Year was used and it use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
-
 
 ### FRT SLA For SM - Last 3 Weeks
 
@@ -2883,7 +2870,6 @@ aka IK - NRT SLA For SM - This Week
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-
 ### SSAT For SM - Last 3 Weeks
 
 aka IK - SSAT For SM - Last 3 Weeks
@@ -2906,7 +2892,6 @@ aka IK - SSAT For SM - Last 3 Weeks
     1. Ticket Solved - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
-
 
 ## SSAT For SM - This Week
 
@@ -3113,7 +3098,6 @@ aka IK - NRT SLA For .COM - This Week
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-
 ### SSAT For .COM - Last 3 Weeks
 
 aka IK - SSAT For .COM - Last 3 Weeks
@@ -3136,7 +3120,6 @@ aka IK - SSAT For .COM - Last 3 Weeks
     1. Ticket Solved - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
-
 
 ## SSAT For .COM - This Week
 
@@ -3360,7 +3343,6 @@ aka IK - NRT SLA For L&R - This Week
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
 
-
 ### SSAT For L&R - Last 3 Weeks
 
 aka IK - SSAT For L&R - Last 3 Weeks
@@ -3381,7 +3363,6 @@ aka IK - SSAT For L&R - Last 3 Weeks
     1. Ticket Solved - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `1 week in the past`.
     1. Make sure report should have "Sort" type `A-Z` and have "Totals" show `percent` inside of every column in Result Manipulation.
     1. It also shows a trend line which can be found in Chart Configuration menu.
-
 
 ## SSAT For L&R - This Week
 
@@ -3460,7 +3441,6 @@ aka IK - L&R Incoming Tickets For Support Per Week
     1. Ticket Form filter should include `L&R` only.
     1. Ticket Created - Week of Year use Advanced Date Range settings i.e. "From beginning of" should have `3 weeks in the past` to "The end of" should have `All history`.
     1. Make sure report should have "Sort" type `A-Z` and "Totals" show on top of every column and the priortiy percentage shows inside columns in Result Manipulation.
-
 
 ### Baseline comments SM
 
@@ -3719,10 +3699,10 @@ aka IK - H/N/L Tickets - Intake Per Hour Last 12 Months L&R
 - Visualization type: Column
 - Metric used: Count (Tickets)
 - Rows:
-    1. Ticket Priority  
+    1. Ticket Priority
         (Includes only Normal, Low, High)
 - Columns:
-    1. Ticket Created (Hour)  
+    1. Ticket Created (Hour)
         (Includes  Check all even DESELECT ALL as well)
 - Filters used:
     1. Ticket Form
@@ -3794,7 +3774,7 @@ aka LK - Ops Incoming Tickets For Support Per Week
 - Visualization type: Column
 - Metric used: Count (Tickets)
 - Rows:
-    1. Ticket Priority  
+    1. Ticket Priority
     (Includes `Urgent`, `Normal`, `Low`, `High`.)
 - Columns:
     1. Ticket created - Week of year
@@ -4026,7 +4006,7 @@ aka IK - Solved Tickets 90 Days - Main
     1. Ticket Solved - Date was used and it use Advanced Date Range settings i.e. "From beginning of" should have `90 Days in the past` to "The end of" should have `All History`.
     1. Make sure report should have "Sort" type `A-Z` and there is no result manipulation.
 
-## Custom Attributes and Metrics:
+## Custom Attributes and Metrics
 
 ### Custom Attributes
 
@@ -4052,7 +4032,7 @@ aka IK - Solved Tickets 90 Days - Main
     ```Text
     IF ([Gitlab Plan - Ordered]="Community") THEN "Community"
     ELIF (INCLUDES_ANY([Ticket tags],"consumption_only")) THEN "Consumption"
-    ELIF ([SaaS Subscription]="com_sales_assisted_trial" OR [SaaS Subscription]="Sales Assisted Trial" OR [Self-Managed Subscription]="sm_sales_assisted_trial" OR [Self-Managed Subscription]="Sales Assisted Trial" OR (INCLUDES_ANY([Ticket tags],"saas_prospect_customer","sm_prospect_customer","com_sales_assisted_trial","sm_sales_assisted_trial"))) 
+    ELIF ([SaaS Subscription]="com_sales_assisted_trial" OR [SaaS Subscription]="Sales Assisted Trial" OR [Self-Managed Subscription]="sm_sales_assisted_trial" OR [Self-Managed Subscription]="Sales Assisted Trial" OR (INCLUDES_ANY([Ticket tags],"saas_prospect_customer","sm_prospect_customer","com_sales_assisted_trial","sm_sales_assisted_trial")))
     THEN "Trial"
     ELIF(((INCLUDES_ANY([Requester organization tags],"silver","basic","starter","premium","gold","bronze","ultimate") AND [Free]="Paid")
     OR INCLUDES_ANY([Ticket tags],"%silver%","%basic%","%starter%","%premium%","%gold%","%bronze%","%ultimate%") AND [Free]="Paid") OR [Ticket form]="L&R")
@@ -4072,14 +4052,13 @@ aka IK - Solved Tickets 90 Days - Main
     Formula:
 
     ```Text
-    IF (INCLUDES_ALL([Ticket tags], "%edu_account_inquiries__pass_to_edu_%")) 
+    IF (INCLUDES_ALL([Ticket tags], "%edu_account_inquiries__pass_to_edu_%"))
     THEN "EDU"
     ELSE "Not EDU"
     ENDIF
     ```
 
     Special settings: None
-
 
 1. Has Plan Ticket Tags -SSAT (Incl L&R):
 
@@ -4185,11 +4164,11 @@ aka IK - Solved Tickets 90 Days - Main
     Formula:
 
     ```text
-    IF (NOT INCLUDES_ANY([Ticket tags], ARRAY("autoclose-2fa-free","autoclose_2fa_free"))) 
-    AND NOT INCLUDES_ALL([Ticket tags], ARRAY("email_suppression_autochecked","free_customer")) 
-    AND NOT INCLUDES_ANY([Ticket tags], ARRAY("autoresponder_free_tickets","auto_reply_free_plan")) 
-    AND NOT INCLUDES_ANY([Ticket tags], ARRAY("agent_identified_free_user")) 
-    AND NOT INCLUDES([Ticket tags], ARRAY("autowork_forgot_password")) 
+    IF (NOT INCLUDES_ANY([Ticket tags], ARRAY("autoclose-2fa-free","autoclose_2fa_free")))
+    AND NOT INCLUDES_ALL([Ticket tags], ARRAY("email_suppression_autochecked","free_customer"))
+    AND NOT INCLUDES_ANY([Ticket tags], ARRAY("autoresponder_free_tickets","auto_reply_free_plan"))
+    AND NOT INCLUDES_ANY([Ticket tags], ARRAY("agent_identified_free_user"))
+    AND NOT INCLUDES([Ticket tags], ARRAY("autowork_forgot_password"))
     AND NOT INCLUDES([Ticket tags], ARRAY("autowork_no_confirmation_email"))
     AND NOT INCLUDES([Ticket tags], ARRAY("%autowork_account_blocked%"))
     AND NOT INCLUDES([Ticket tags], ARRAY("autoreply_prospect_free"))
@@ -4280,7 +4259,7 @@ aka IK - Solved Tickets 90 Days - Main
     Formula:
 
     ```text
-    IF (INCLUDES([Ticket tags], ARRAY("custom"))) 
+    IF (INCLUDES([Ticket tags], ARRAY("custom")))
     THEN "Custom Plan"
     ELSE "All Else"
     ENDIF
@@ -4294,7 +4273,7 @@ aka IK - Solved Tickets 90 Days - Main
     Formula:
 
     ```text
-    IF (INCLUDES([Ticket tags], ARRAY("%autoclose_nonapproved_users%"))) 
+    IF (INCLUDES([Ticket tags], ARRAY("%autoclose_nonapproved_users%")))
     THEN "Validation Failed"
     ELSE "All Else"
     ENDIF
@@ -4323,7 +4302,7 @@ aka IK - Solved Tickets 90 Days - Main
     Formula:
 
     ```text
-    IF (VALUE(Agent replies) <2) 
+    IF (VALUE(Agent replies) <2)
     THEN "One-touch"
     ELSE "Multi-touch"
     ENDIF
@@ -4338,7 +4317,7 @@ aka IK - Solved Tickets 90 Days - Main
 
     ```text
     IF([Assignee name]=NULL)
-    THEN 
+    THEN
     "Un"
     ELSE
     "As"
@@ -4356,7 +4335,7 @@ aka IK - Solved Tickets 90 Days - Main
     IF ([Changes - Field name]="Ticket Stage"
     AND [Changes - Previous value]="stage-frt"
     AND [Changes - New value]="stage-nrt")
-    THEN 
+    THEN
     "FRT"
     ELSE
     "NRT"
@@ -4364,7 +4343,6 @@ aka IK - Solved Tickets 90 Days - Main
     ```
 
     Special settings: None
-
 
 ### Custom Metrics
 
@@ -4379,7 +4357,6 @@ aka IK - Solved Tickets 90 Days - Main
 
     Special settings: None
 
-
 1. SM Ticket Count:
 
     Type: Standard Calucated Metric
@@ -4387,8 +4364,8 @@ aka IK - Solved Tickets 90 Days - Main
 
     ```Text
     IF IN([Ticket form], ARRAY(
-    "Self-Managed", 
-    "Other Request", 
+    "Self-Managed",
+    "Other Request",
     "GitLab Community Edition (CE)")
     )THEN [Ticket ID] ENDIF
     ```
@@ -4402,7 +4379,7 @@ aka IK - Solved Tickets 90 Days - Main
 
     ```Text
     IF IN([Ticket form], ARRAY(
-    "SaaS", 
+    "SaaS",
     "GitLab Hosted (GitHost.io)",
     "SaaS Account")) THEN [Ticket ID] ENDIF
     ```
@@ -4415,10 +4392,10 @@ aka IK - Solved Tickets 90 Days - Main
     Formula:
 
     ```Text
-    IF (([Ticket form] = "L&R") 
+    IF (([Ticket form] = "L&R")
     AND (NOT INCLUDES_ALL([Ticket tags],"lnr_internal_request")))
-    THEN 
-    [Ticket ID] 
+    THEN
+    [Ticket ID]
     ENDIF
     ```
 
@@ -4444,12 +4421,12 @@ aka IK - Solved Tickets 90 Days - Main
 
     ```Text
     IF ([Ticket form] = "Support Ops")
-    THEN 
-    [Ticket ID] 
+    THEN
+    [Ticket ID]
     ENDIF
     ```
 
-    Special settings: None  
+    Special settings: None
 
 1. Achieved SLA % - Fix
 
@@ -4469,19 +4446,19 @@ aka IK - Solved Tickets 90 Days - Main
 
     ```Text
     IF (INCLUDES_ANY([Ticket tags], ARRAY("autoclose-2fa-free","autoclose_2fa_free")))
-    OR (INCLUDES_ALL([Ticket tags], ARRAY("email_suppression_autochecked","free_customer"))) 
-    OR (INCLUDES_ANY([Ticket tags], ARRAY("autoresponder_free_tickets","auto_reply_free_plan"))) 
-    OR (INCLUDES_ANY([Ticket tags], ARRAY("agent_identified_free_user"))) 
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("email_suppression_autochecked","free_customer")))
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("autoresponder_free_tickets","auto_reply_free_plan")))
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("agent_identified_free_user")))
     OR (INCLUDES_ALL([Ticket tags], ARRAY("verification_requested","stage-needsorg")))
-    OR (INCLUDES_ANY([Ticket tags], ARRAY("autowork_account_blocked"))) 
-    OR (INCLUDES_ANY([Ticket tags], ARRAY("autowork_no_confirmation_email"))) 
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("autowork_account_blocked")))
+    OR (INCLUDES_ANY([Ticket tags], ARRAY("autowork_no_confirmation_email")))
     OR (INCLUDES_ANY([Ticket tags], ARRAY("autowork_forgot_password")))
     OR (INCLUDES_ANY([Ticket tags], ARRAY("autoreply_saas_free")))
     OR (INCLUDES_ANY([Ticket tags], ARRAY("autoreply_prospect_free")))
     OR (INCLUDES_ANY([Ticket tags], ARRAY("close_unmonitored_inbox")))
     OR (INCLUDES_ANY([Ticket tags], ARRAY("autoclose_namesquatting_free")))
-    OR (INCLUDES_ALL([Ticket tags], ARRAY("autoclose_security"))) 
-    OR (INCLUDES_ALL([Ticket tags], ARRAY("autoresponder_gdpr"))) 
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("autoclose_security")))
+    OR (INCLUDES_ALL([Ticket tags], ARRAY("autoresponder_gdpr")))
     OR (INCLUDES_ALL([Ticket tags], ARRAY("autoclose_sm_free")))
     OR (INCLUDES_ALL([Ticket tags], ARRAY("closed_unassociated_ticket")))
     OR (INCLUDES_ALL([Ticket tags], ARRAY("saas_account_access_issues_locked")))
@@ -4553,7 +4530,7 @@ aka IK - Solved Tickets 90 Days - Main
     Formula:
 
     ```Text
-    IF ([Ticket tags] ="linked-to-mr" OR [Ticket tags] ="linked-to-issue" 
+    IF ([Ticket tags] ="linked-to-mr" OR [Ticket tags] ="linked-to-issue"
     OR [Ticket tags] = "linked-to-docs" OR [Ticket tags] ="linked-to-hb")
     THEN [Ticket ID]
     ENDIF
@@ -4645,7 +4622,6 @@ aka IK - Solved Tickets 90 Days - Main
     ```
 
     Special settings:  None
-
 
 1. % Linked Issues
 
@@ -4881,8 +4857,8 @@ aka IK - Solved Tickets 90 Days - Main
     Formula:
 
     ```Text
-    IF ([Updater tags]="tom_atkins" OR [Updater tags]="tine_sørensen" 
-    OR [Updater tags]="ilia_kosenko" OR [Updater tags]="john_lyttle"  
+    IF ([Updater tags]="tom_atkins" OR [Updater tags]="tine_sørensen"
+    OR [Updater tags]="ilia_kosenko" OR [Updater tags]="john_lyttle"
     OR [Updater tags]="rebecca_spainhower")
     THEN [Update ID]
     ENDIF
@@ -4910,8 +4886,8 @@ aka IK - Solved Tickets 90 Days - Main
     Formula:
 
     ```Text
-    IF ([Updater tags]="aric_buerer" OR [Updater tags]="izzy_fee" 
-    OR [Updater tags]="james_lopes" OR [Updater tags]="michael_dunninger" 
+    IF ([Updater tags]="aric_buerer" OR [Updater tags]="izzy_fee"
+    OR [Updater tags]="james_lopes" OR [Updater tags]="michael_dunninger"
     OR [Updater tags]="ronnie_alfaro")
     THEN [Update ID]
     ENDIF

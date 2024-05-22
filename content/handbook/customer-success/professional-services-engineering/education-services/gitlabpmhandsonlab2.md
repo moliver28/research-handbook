@@ -5,7 +5,6 @@ description: "This Hands-On Guide walks you through creating groups, projects, a
 
 > Estimated time to complete: 30 minutes
 
-
 ## Objectives
 
 In GitLab, projects and subgroups help you organize your codebases and effectively manage your projects. In this lab, you will learn how to create an organizational subgroup, how to create a project, and how to add a user to a project.
@@ -36,6 +35,10 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 ## Task B. Create organizational subgroups
 
+> Directions will be different between Instructor-Lead Training and Self-Paced Training due to different training environments. Please follow the instructions that are applicable to you. If your URL starts with `https://gitlab.com/gitlab-learn-labs/`, follow the Instructor-lead Training instructions. If your URL starts with `ilt.gitlabtraining.cloud`, follow the Self-Paced Training instructions.
+
+### Instructor-Lead Training
+
 1. _In the lab environment tab_, ensure that you are in your **My Test Group** group.
 
 1. Click the **New Subgroup** button in the top right corner.
@@ -56,6 +59,39 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. Click the **Create subgroup** button.
     - You should now see the group with the title `Awesome Inc` and your browser URL will reflect the path at `https://gitlab.com/gitlab-learn-labs/environments/session-{id}/iu{######}/awesome`.
+
+1. **Congratulations!** You have created your first group and are ready to create additional groups on your own. Within the **Awesome Inc** group, create subgroups for each of these teams at your awesome company.
+    - **Software**
+      - **Core** (this is a subgroup of `Software`, not `Awesome Inc`)
+      - **Android**
+      - **iOS**
+    - **Infrastructure**
+    - **Security**
+
+1. Move on to Task C.
+
+### Self-Paced Training
+
+1. Navigate to your personl top-level group by going to `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>`, replacing the **<INVITATION_CODE>** with your provided code, and **<USERNAME>** with your username. If you are unsure of what your username is, click on the profile picture in the top right corner, and copy the username provided without the @ symbol.
+
+1. Click the **New Subgroup** button in the top right corner.
+
+1. In the **Subgroup name** field, type `Awesome Inc`.
+
+1. The **Subgroup URL** shows which namespace hierarchy that this group will be created in.
+
+    - **Do not change the Subgroup URL in this class. You will always create projects under `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>` since this is your top-level organization group for these steps.**
+
+1. The **Subgroup slug** will automatically populate based on the name. Rename `awesome-inc` to `awesome`.
+
+    - **Best Practice:** This slug is what will appear as the **project path**, which means that it is both the URL path and the folder name when you run `git clone`. It is a best practice to shorten this when appropriate.
+
+1. Ensure that the **Visibility level** is set to `Private`.
+
+    > A private subgroup will ensure that the group and its projects can only be viewed by members. For more details of visibility levels, see the [documentation](https://docs.gitlab.com/ee/user/public_access.html).
+
+1. Click the **Create subgroup** button.
+    - You should now see the group with the title `Awesome Inc` and your browser URL will reflect the path at `https://ilt.gitlabtraining.cloud/training-users/session-<INVITATION_CODE>/<USERNAME>/awesome`.
 
 1. **Congratulations!** You have created your first group and are ready to create additional groups on your own. Within the **Awesome Inc** group, create subgroups for each of these teams at your awesome company.
     - **Software**
@@ -99,7 +135,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 1. Search for and select your instructor as the user you are inviting. If you are taking the self-paced course, enter your own email address.
 
-1. In the **Select a role** dropdown, select **Developer**. If you are taking the self-paced course, select **Owner**. 
+1. In the **Select a role** dropdown, select **Developer**. If you are taking the self-paced course, select **Owner**.
 
     > See the [permissions and roles docs](https://docs.gitlab.com/ee/user/permissions.html) to learn more about each role level.
 

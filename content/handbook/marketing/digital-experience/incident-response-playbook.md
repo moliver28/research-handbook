@@ -1,59 +1,102 @@
 ---
 
-title: "CMS Troubleshooting Playbook"
-description: "A guide for troubleshooting incidents that may occur on the Marketing site"
+title: "Incident Response Matrix"
+description: "A guide for incidents that may occur on the Marketing site"
 ---
 
-### Overview
 
-1. The Marketing site is composed of multiple repositories: the [blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog), [www](https://gitlab.com/gitlab-com/www-gitlab-com), [navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation), and [buyer experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience). 
+## Overview
 
-2. The files for each of the pages in each of these repositories are generated at build time and uploaded as artifacts to GitLab pages. When a repository’s pipeline is run, all artifacts are fetched and merged together in the /public folder on our GCP bucket.
+This page offers insights into incidents occurring on the GitLab marketing site, delineates methods to assess severity levels, and outlines avenues for obtaining support.
 
-3. See [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab-ci.yml?ref_type=heads) for the www deployment script.
+At the outset, it's important to note the diverse composition of our marketing site, consisting of multiple projects. While all deployments converge into the same GCP bucket, they employ varying technologies for website generation.
 
-### If Blog pages are returning a 404
+1. The Marketing site is composed of multiple repositories: the [blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog), [www](https://gitlab.com/gitlab-com/www-gitlab-com), [navigation](https://gitlab.com/gitlab-com/marketing/digital-experience/navigation), [slippers](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui) and [buyer experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience). 
 
-1. View the [GitLab Blog artifacts](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/artifacts). The artifact upload to GitLab Pages happens during the “Pages” job, and should be fairly large (over 80MiB)
-
-2. If the artifact is smaller than that, it’s likely that most routes were not properly generated. Click into the job to view the build logs, and check for errors.
-
-3. Check to see if that job itself has failed, and see if the logs give any indication of the failure. 
-
-4. Occasionally, our requests will hit the Contentful rate limit, and need to be regenerated. The interval for requests has been set to 300ms to help mitigate this, but if the rate limit has been exceeded, re-run the pipeline.
-
-5. If a corrupt artifact is introduced, we plan on implementing a test that checks for artifact size, which will alert the team that files are missing from the build.
-
-   1. We’re planning to prioritize this feature in our 2024-01-03 to 2024-01-11 sprint.
-
-5. Current fix: hardcode the routes in [route.contentful.js](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/route.contentful.js?ref_type=heads) (currently, some templated pages are built dynamically in their own functions at the top of that file). \[[Example MR](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/merge_requests/3339)]
-
-### Testing
-
-1. When working locally, run “yarn generate” with CTF\_CONTENT\_PREVIEW not active to ensure that the files are being generated properly.
-
-   1. You will know the files are being generated properly as the log will begin outputting messages like “✔ Generated route "/page-name”
-
-2. We currently check for crucial routes in [scripts/routeChecker](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/scripts/routeChecker.js?ref_type=heads), which runs during build time and should output if expected routes have not been properly generated. 
-
-3. We are [investigating](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/3270) a Cypress test that will check generated routes against a sitemap.
-
-### Unpublishing a page in the CMS
-
-To unpublish a page (either a blog post, or a marketing site page), navigate to the Page entry in Contentful. 
-
-1. On the sidebar of the Page, click the Status dropdown, and select `Unpublish`. Note that you will need to have publishing permissions to access this functionality.
-
-   - This pipeline takes about 15 minutes to run. You can check the status of the pipelines of the [Blog](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/pipelines) and the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/pipelines)
-
-2. Once that unpulish pipeline has completed, manually run the `deploy-cleanup-old-deleted-files` job in the www-gitlab-com project by clicking the [Pipeline Schedules page](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules), and clicking the play button next to that job. 
+1. www-gitlab-com, Buyer Experience, and the Blog generate pages during the build process and upload these artifacts to a single GCP bucket. Upon pipeline execution, all artifacts are consolidated within the `/public` directory on our GCP bucket.
 
 
-### Disabling the Contentful Webhook
+### What level is this incident?
 
-1. In order to prevent changes from being picked up by a pipeline, or to prevent users from hitting the rate limit when publishing many items in quick succession, you can disable the webhook in your contentful space: 
+The following are the questions to consider when determining incident severity:
 
-   1. Settings -> Webhooks -> CI Pipeline runner -> Webhook settings -> toggle the “Active” state to off. 
+1. What's the impact level of the marketing site outage?
+1. Have you monitored the #digital-experience-team or #dex-alerts Slack channels for any ongoing incidents?
+1. How extensive is the incident? It's crucial to assess beyond the number of affected individuals, considering:
+    -The total number of impacted users.
+    - The potential impact on various categories of our key stakeholders.
+    - Whether the incident affects significant customers or partners, regardless of the scale.
+1. Are any affected individuals influential among our key audiences or stakeholders?
+1. Does the incident directly affect our core business operations?
+1. Have we encountered a similar incident in the past? In essence, is this a recurring issue for the company?
+1. Is the incident linked to broader industry challenges or trends? Are competitors or others facing similar issues?
+1. Are [vital business pages](https://gitlab-com.gitlab.io/content-sites/handbook/mr5699/handbook/marketing/digital-experience/contentful-cms/#for-top-10-most-visitedimpactful-pages) currently accessible?
 
-### CMS Support Plan
-If non of the above is working, please refer to the [CMS Support Plan](/handbook/marketing/digital-experience/cms-support-plan/)
+## Incident Matrix
+
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th style="background:red">Level 1</th>
+<th  style="background:yellow">Level 2</th>
+<th  style="background:pink">Level 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High risk</td>
+<td>Medium risk</td>
+<td>Low risk</td>
+</tr>
+<tr>
+<td>Leaked mission-critical keys + env variables</td>
+<td>Mission-critical / legal content errors (ex: incorrect pricing, drastic typos or verbiage errors on our high converting pages)</td>
+<td>Section of site is missing (ex: events, press releases)</td>
+</tr>
+<tr>
+<td>Major vendor failures related to infrastructure (GCP + Contentful).</td>
+<td>Integration failures (6sense, GA, etc)</td>
+<td>Performance issues</td>
+</tr>
+<tr>
+<td>Mission-critical pages are missing (ex: Homepage, missing, primary navigation)</td>
+<td>Significant performance issues</td>
+<td></td>
+</tr>
+<tr>
+<td>See <a href="#reporting-an-incident">reporting an incident below.</a></td>
+<td>Create an issue and post in #digital-experience Slack channel</td>
+<td>Create an issue and post in #digital-experience Slack channel</td>
+</tr>
+</tbody>
+</table>
+
+## Reporting an incident
+
+**Point person:** [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4) - Working hours: 9am - 6pm Eastern
+
+1. Post in the #digital-experience Slack channel and tag @digital-experience.
+1. If there is no response within five minutes, please text or phone the following people:
+    1. Eastern Timezone (UTC−5):
+        1. [Nathan Dubord](https://gitlab.enterprise.slack.com/archives/D021YDB4FM4)
+        2. [Laura Duggan](https://gitlab.enterprise.slack.com/archives/D01H18BBUTW)
+    2. Central Timezone (UTC−6):
+        1. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
+    3. Pacific Timezone (UTC−8):
+        1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
+
+## If there is a critical stop business 
+
+Please text the following in order (numbers are in Slack profiles):
+
+1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
+1. [Carrie Maynard](https://gitlab.enterprise.slack.com/archives/D03RZD1F2JV)
+
+_Call on the phone if no response within 15 minutes_
+
+## **Coming soon** - PagerDuty + GitLab Incidents
+
+1. Post in the #digital-experience Slack channel and tag @digital-experience.
+2. If there is no response within five minutes, report an incident by typing `/dex incident` anywhere in Slack.
+3. This will create an incident and notify PagerDuty to alert members of the Digital Experience team.
+4. PagerDuty will continuously escalate until contact with a team member has been made.

@@ -51,7 +51,6 @@ Modules/functionality being implemented:
 | ------ |
 | Talent Assessment Tool, Compaas (Compensation planning tool), PlanSource, Internal Employment Automations |
 
-
 #### Phase 3
 
 **Go live date:** To be determined
@@ -92,4 +91,4 @@ graph LR
 
 ### Key Reports / Dashboards
 
-[People Analytics Tableau Dashboards](https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/) - This is a location on the handbook that lists key dashboards that exist around People Data.
+[People Analytics Tableau Dashboards](/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/) - This is a location on the handbook that lists key dashboards that exist around People Data.

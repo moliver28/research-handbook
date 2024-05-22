@@ -186,7 +186,7 @@ graph LR;
 
 Beginning in FY23, the Order Management team will confirm license delivery on all newly Closed Won self-managed deals.
 
-#### Background:
+#### Background
 
 The License Delivery Review Process is a new process created to ensure that all self-managed deals result in license fulfillment. The goals of this process are to (1) Improve customer satisfaction by ensuring licenses are delivered in a timely manner, (2) Improve Sales efficiency by reducing time spent by sellers to chase license delivery, and (3) Prevent revenue recognition issues caused by delayed license delivery to customers.
 
@@ -208,7 +208,7 @@ The License Delivery Review Process is a new process created to ensure that all 
 
 For assistance with Out of Scope license requests, please [open an Issue](/handbook/support/internal-support/#regarding-licensing-and-subscriptions) with the Support Engineering Team.
 
-#### Process Workflow:
+#### Process Workflow
 
 1. Order Management team member approves opportunity
 2. Billing team member approves opportunity, resulting in Closed Won stage.
@@ -222,7 +222,7 @@ For assistance with Out of Scope license requests, please [open an Issue](/handb
 
 Beginning in FY23, the Order Management team will proactively review and correct bad renewal data.
 
-#### Background:
+#### Background
 
 It is important to have clean, correct renewal data - both for forecasting purposes, ATR (Available to Renew, aka ARR Basis) analysis, and general data cleanliness.
 
@@ -235,6 +235,6 @@ Our goal is to maintain 1:1 ratio of Renewal Opportunity to Customer Subscriptio
 - Every Renewal opportunity's Start Date should match the linked Customer Subscription's Current Term End Date (Unless there is a known exception - i.e. Contract Resets)
 Duplicate renewal opportunities should be marked as such and disconnected from any Customer Subscription.
 
-#### Process Overview:
+#### Process Overview
 
 On an ongoing basis, the Order Management team will review discrepancy reports to correct bad data as described above. (For full process documentation, visit the internal [Subscription Management Wiki](https://gitlab.com/gitlab-com/sales-team/field-operations/deal-desk/-/wikis/Ongoing-Reconciliations/Subscription-Management))

@@ -22,7 +22,7 @@ These policies apply to all GitLab team members, contractors, advisors, and cont
 
 ## Translations
 
-There are translations available of many of our policies, for reference purposes, currently in Dutch, French and German, with further additions planned during FY25. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).
+There are translations available of many of our policies, for reference purposes, currently in Dutch, French, German and Spanish, with further additions planned during FY25. They can be accessed [here](https://drive.google.com/drive/folders/1ZYIAuqGcIpaYVg8hMVDneK1FJg1b8zkN?usp=drive_link).
 
 ## General Employment Practices
 
@@ -31,7 +31,6 @@ There are translations available of many of our policies, for reference purposes
 We encourage communication between team members at all levels of the organization. This is an important part of our culture. Whenever problems or concerns arise, it is expected that they will be addressed as quickly as possible. Your immediate manager is the person on the management team who is closest to you and your work. When you need help or have questions, concerns, problems, or suggestions, please contact your manager first. It is your manager's responsibility to assist you - so please ask, and be willing to work the issue out with your manager. They are interested in your success, the success of every team member in their department, and the overall success of GitLab.
 
 If your manager cannot help you or answer your questions, your questions will be referred to someone who can. If you feel your particular question, concern, or suggestion cannot be discussed with your manager, you are encouraged to contact your manager's manager, your assigned People Business Partner or Team Member Relations. It is important to remember that a team member who takes these steps will not be subject to retaliation. You can expect to be treated fairly and with respect.
-
 
 ### Romantic and Family Relationships at Work
 
@@ -68,7 +67,7 @@ Team members shall not take for themselves, or for family members, or any other 
 
 Team members also have obligations to protect the personal and sensitive information of our fellow team members. Therefore, you may not access and/or disseminate any team member's personal information (i.e. address, personal phone number, salary, etc.) that the team member has not made publicly available, unless the team member has provided written permission to share this information. An exception to this restriction would be when access is a necessary function of your job duties. A violation of this obligation is considered severe and could result in disciplinary action, up to and including termination.
 
-### Exceptions
+#### Exceptions
 
 Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security#information-security-policy-exception-management-process). For reference see the [Parent Policy: Information Security Policy](/handbook/security).
 
@@ -86,7 +85,7 @@ Please see the [Complaint Procedure](/handbook/people-group/#how-to-report-viola
 
 ### Social Responsibility
 
-Please see our [Environmental, Social, and Governance](/handbook/esg) page.
+Please see our [Environmental, Social, and Governance](/handbook/company/esg/) page.
 
 ### Personal Appearance
 
@@ -186,7 +185,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
         - "It's always OK to ask for help."
         - "It’s hard for me to understand exactly what you’re going through, but I can see that it’s distressing for you."
 
-        For additional information, please see the Mental Wellness Services offered through [Modern Health](/handbook/total-rewards/benefits/modern-health/) and tips on [Leading Through Adversity](/handbook/leadership/managing-conflict/leading-through-adversity/). Additionally, team members should learn to [recognize burnout](/handbook/paid-time-off/#recognizing-burnout) and to [prevent it](https://about.gitlab.com/blog/2022/05/03/preventing-burnout-a-managers-toolkit/).
+        For additional information, please see the Mental Wellness Services offered through [Modern Health](/handbook/total-rewards/benefits/modern-health/) and tips on [Leading Through Adversity](/handbook/leadership/managing-conflict/leading-through-adversity/). Additionally, team members should learn to [recognize burnout](/handbook/people-group/paid-time-off/#recognizing-burnout) and to [prevent it](https://about.gitlab.com/blog/2022/05/03/preventing-burnout-a-managers-toolkit/).
 
 Any questions or concerns? Please feel free to contact the People Connect team in the #people-connect Slack channel or email people-connect@gitlab.com.
 
@@ -217,7 +216,6 @@ There are a number of GitLab Legal Policies which are important for GitLab team 
 - [Draft GitLab BV (Belgium) Work Regulations - English](https://docs.google.com/document/d/1HKxLs8AQ9TM-ud2y7EWS6R1ZJ982eeXR1UTKyIu9kPo/edit?usp=sharing)
 - [Comment book](https://docs.google.com/document/d/1UDsYcvkGPHJUF_--EZgxu_ONoiImFzxAavaAFkL5AtA/edit?usp=sharing)
 {{% /details %}}
-
 
 {{% details summary="GitLab BV (Netherlands)" %}}
 

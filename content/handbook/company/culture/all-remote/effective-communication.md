@@ -31,7 +31,7 @@ Writing is a skill which can be learned. *Great* writing involves mastering prov
 
 *The topics covered on this page were discussed in a GitLab Live Learning session, which was recorded and uploaded to [GitLab Unfiltered](https://youtu.be/QTPeyRW766Q), and is embedded above.*
 
-In an all-remote organization with team members spread across an array of time zones, communicating through text is ideal. Not only is it inclusive and considerate, but a bias towards communicating through text creates a company that [documents everything](/handbook/documentation).
+In an all-remote organization with team members spread across an array of time zones, communicating through text is ideal. Not only is it inclusive and considerate, but a bias towards communicating through text creates a company that [documents everything](/handbook/product/ux/technical-writing/documentation/).
 
 Documentation is an essential competitive advantage. Companies which rely on vocalizing end up repeating themselves over and over in meetings, creating an inefficient environment with tremendous opportunity for knowledge leaks. While communicating and documenting through text may feel like a burden in the moment, it prevents a toxic cycle of meetings and touch points which serve only to "bring people up to speed."
 
@@ -153,13 +153,12 @@ When communicating, it's your responsibility to own how something impacted someo
 
 Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
-
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
 Specific examples of using text effectively are ideal for showing new hires how to learn this skill. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

@@ -3,7 +3,8 @@ title: "Diversity, Inclusion & Belonging"
 description: "Diversity, Inclusion & Belonging is fundamental to the success of GitLab. We include it in every way possible and in all that we do."
 ---
 
-![Our Global Team](/images/summits/2019_new-orleans_team.png){:.illustration}*<small>In May of 2019, our team of 638 GitLab team-members from around the world had our annual company trip in New Orleans!</small>*
+<!-- blank line -->
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/947155019/7725ecc570" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ## Diversity, Inclusion & Belonging at GitLab
 
@@ -14,12 +15,12 @@ And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/
 
 ## GitLab's Diversity Inclusion and Belonging Mission
 
-- **Mission**: At GitLab, we believe everyone can contribute and the Diversity Inclusion and Belonging Team are building scalable strategies based on our acronym, A.D.A.P.T. which stands for **A**ction, **D**oing Good in the communities we serve, holding ourselves **A**ccountable and creating equitable **P**olicies in a **T**ransparent environment.  We are focused on helping to build high performing, customer centric teams by expanding, establishing, embedding our DIB  (https://handbook.gitlab.com/handbook/values/#diversity-inclusion). Just as DIB is a journey, our acronym, **A.D.A.P.T.** mirrors the agility required throughout that journey.
-- **Action** - There is intentionality in how we hire, progress and retain our team members as well as engage with our customers and the open source community.
-- **Do Good** - By providing avenues and opportunities for GitLab & team members to meaningfully contribute to our community and society.
-- **Accountable** - We have a Responsibility to commit and Answerable for the outcome.
-- **Policies**  - By building scalable ways to govern our work, actionable processes which inform our program development/execution.
-- **Transparent** - Our Internal efforts are shared externally
+- **Mission**: At GitLab, we believe everyone can contribute and the Diversity Inclusion and Belonging Team are building scalable strategies based on our acronym, A.D.A.P.T. which stands for **A**ction, **D**oing Good in the communities we serve, holding ourselves **A**ccountable and creating equitable **P**olicies in a **T**ransparent environment.  We are focused on helping to build high performing, customer centric teams by expanding, establishing, embedding our DIB  (/handbook/values/#diversity-inclusion). Just as DIB is a journey, our acronym, **A.D.A.P.T.** mirrors the agility required throughout that journey.
+- **Action** - Action puts intentionality into how we attract, progress and retain our team members as well as engage with our customers and the open source community.
+- **Do Good** - We "Do Good" by providing avenues for GitLab & team members to meaningfully contribute to our community and society.
+- **Accountable** - We hold ourselves Accountable in the commitments we make as well as being Answerable for the outcome.
+- **Policies**  - We build scalable Policies to govern our work and actionable processes which inform our program development and execution.
+- **Transparent** - Transparency is the T in our GitLab CREDIT values and how we operate within DIB ensuring that our internal efforts are reflected externally.
 
 ## GitLab's Diversity, Inclusion & Belonging Vision
 
@@ -52,7 +53,7 @@ Embracing inclusion may increase the **sense of belonging**. Team members become
 
 We believe in empowering team members to get their work done efficiently and collaboratively by establishing clear [DRIs]({{< ref "directly-responsible-individuals" >}}) for all our work. [DRIs do not owe anyone an explanation for their decisions]({{< ref "directly-responsible-individuals#empowering-dris-no-explanation-needed" >}}), but DRIs can still acknowledge input by closing an issue and marking it `Won't Do` or commenting on an issue acknowledging that they have read all the comments.
 
-All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree]({{< ref "values#disagree-commit-and-disagree" >}})- but everyone can contribute and it is on the DRI to acknowledge those.
+All team members don't have to agree on the best course of action- we can [disagree, commit, and disagree]({{< ref "values#disagree-and-commit" >}})- but everyone can contribute and it is on the DRI to acknowledge those.
 Some other ways we actively cultivate a sense of Belonging at GitLab include creating and cultivating allies, welcoming family members in the background of a call, and sharing [negative feedback in 1-1 settings]({{< ref "values#negative-feedback-is-1-1" >}}).
 
 **A good way to look at Diversity, Inclusion & Belonging is:**
@@ -131,7 +132,7 @@ By having no offices and allowing each GitLab team member to work and live where
 
 - All-remote means that you [will not sacrifice career advancement](/handbook/people-group/learning-and-development) by working outside of the office, as even GitLab executives are fully remote.
 - All-remote creates a workplace where caregivers, individuals with physical disabilities, etc. are not disadvantaged for being unable to regularly commute into an office.
-- GitLab's approach to [Spending Company Money](/handbook/spending-company-money/) enables all team members to create a work environment uniquely tailored for them.
+- GitLab's approach to [Spending Company Money](/handbook/finance/spending-company-money/) enables all team members to create a work environment uniquely tailored for them.
 - All-remote enables those who must relocate frequently for family and personal reasons to take their career with them.
 - All-remote allows movement and relocation to physical settings that contribute to an individual's health (e.g. moving to a location with an improved air quality index).
 
@@ -232,7 +233,6 @@ Similar to the engagement survey, we will provide a high level overview of the r
 - 2022-06-01 through 2022-06-30 Analyze feedback & conduct 1:1 facilitated discussions
 - 2022-07-01 through 2022-07-15 Identify Working Groups for the Key themes/feedback.
 - Late July - Action planning commences
-
 
 ### Inclusive benefits
 
@@ -364,7 +364,6 @@ GitLab also provides additional support through the [GitLab Diversity Sponsorshi
 We offer funds to help support the event financially, and if the event is in a city we have a GitLab team member, we get hands-on by offering to coach and/or give a talk whenever possible.
 
 We encourage organizers of events that are supported through our [GitLab Diversity Sponsorship program](https://about.gitlab.com/community/sponsorship/) to share [this sign up link](https://gitlab.fra1.qualtrics.com/jfe/form/SV_51J9D8skLbWqdil?Source=d&i) with attendees. Everyone can contribute.
-
 
 ## Definitions
 

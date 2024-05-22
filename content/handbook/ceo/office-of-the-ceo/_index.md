@@ -1,6 +1,6 @@
 ---
 title: "Office of the CEO"
-description: "Details about Office of the CEO at GitLab"
+description: "Details about Office of the CEO (OCEO) at GitLab"
 aliases: 
 - /handbook/ceo/office-of-the-ceo/
 - /handbook/ceo/chief-of-staff-team/
@@ -8,7 +8,7 @@ aliases:
 
 ## Office of the CEO Overview
 
-GitLab is a [functionally organized](/handbook/company/structure/#gitlabcom-isnt-a-role) company in which functions are as mutally exclusive as possible to be efficient. Without a COO or central operating department reporting into the CEO, the CEO gets leverage through an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) led by the Chief of Staff (CoS) to the CEO. While the Chief of Staff to the CEO is not a part of GitLab's executive team, this senior person reports directly to the CEO and manages a team that supports the CEO and/or cross-functional projects of importance to GitLab.
+GitLab is a [functionally organized](/handbook/company/structure/#gitlabcom-isnt-a-role) company in which functions are as mutally exclusive as possible to be efficient. Without a COO or central operating department reporting into the CEO, the CEO gets leverage through an [Office of the CEO](/handbook/ceo/office-of-the-ceo/) (OCEO for short) led by the Chief of Staff (CoS) to the CEO. While the Chief of Staff to the CEO is not a part of GitLab's executive team, this senior person reports directly to the CEO and manages a team that supports the CEO and/or cross-functional projects of importance to GitLab.
 
 ## Team Mission
 
@@ -37,7 +37,6 @@ The Chief of Staff to the CEO and their team may work on projects that fit *any 
 1. projects that are so broad that they can't live within a function but are too much work for the CEO or Chief of Staff to the CEO
 1. projects that are important to the CEO
 
-
 This is not an exhaustive list of the types of work the Office of the CEO might do.
 
 #### Many Functional
@@ -48,6 +47,7 @@ In many cases, a member of the Office of the CEO will be the [directly responsib
 Whether it's a product feature proposal, a new initiative roll-out, or questions from the board, the Office of the CEO is the group that can be trusted to get things done, get them done quickly, and get them done right.
 
 Examples of a cross-functional project:
+
 - Helping shepherd KPI and/or OKR progress
 - Helping to launch a foreign entity
 - Supporting pricing and packaging change initiatives
@@ -63,6 +63,7 @@ A member of the Office of the CEO might help source candidates for a strategic h
 The team helps with work that other teams may not have the bandwidth to do but is important to the organization and/or the CEO.
 
 Examples of an under-resourced project:
+
 - Creating materials for a keynote the CEO will deliver in a rushed timeline
 - Supporting planning for a global conference
 - Supporting launch of a new SKU
@@ -72,7 +73,7 @@ Examples of an under-resourced project:
 There may be projects with no clear leader for a myriad of reasons, including that we're still hiring the point person or the lead is on leave.
 Because of the team's ability to come up to speed quickly, they may be tasked with something totally out of their domain with the expectation that they bring their leadership experience to the table, will do the work to make good decisions, and will lean on team members who are subject-matter experts.
 
-For example, there has historically been no DRI for the [handbook or related content sites]({{< ref content-websites >}}). As it became clear that this was a GitLab priority, but no function planned to prioritize this within the coming year, the Office of the CEO stepped in to take on handbook ownership.
+For example, there has historically been no DRI for the [handbook or related content sites](/handbook/about/maintenance/). As it became clear that this was a GitLab priority, but no function planned to prioritize this within the coming year, the Office of the CEO stepped in to take on handbook ownership until an owner could be identified.
 
 Examples of projects with no clear leader:
 
@@ -199,6 +200,7 @@ In addition, the CoS to the CEO is responsible for preparing the CEO for offsite
 In Q1 of a new fiscal year, the Chairperson of the Compensation Committee conducts the annual CEO Evaluation. The Chairperson meets with all members of GitLab's Board and E-Group for their feedback on the CEO's performance over the past Fiscal Year. The Chairperson meets with the CEO for their self-assessment at the beginning of the evaluation cycle.
 
 The CEO's self-assessment is centered on three main areas
+
 1. Areas of Notable Success
 1. Areas of Disappointment
 1. Areas for Improvement and Focus in the next fiscal year
@@ -221,7 +223,7 @@ The CoS to the CEO enables and manages this group.
 
 ## Maintaining the Mitigating Concerns
 
-We outline our [Mitigating Concerns](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/) in the handbook.
+We outline our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/) in the handbook.
 The CoS to the CEO is responsible for maintaining this list.
 There is an issue to also [add DRIs and review the mitigations](https://gitlab.com/gitlab-com/cos-team/-/issues/20).
 
@@ -332,4 +334,3 @@ As of 2023-08 there's no automatic syncing between these groups so Office of the
 #### GitLab Project
 
 The primary project used by the Office of the CEO to track work specific to our team is [Office of the CEO](https://gitlab.com/gitlab-com/office-of-the-ceo/cos-team). Please file issues here as needed to track work being done.
-

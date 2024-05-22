@@ -88,12 +88,12 @@ If we optimize code that now manages to complete 1M iterations instead of 800k i
 application only calls it once every a few seconds or so, chances are the improvement is inconsequential.
 1. When running a benchmark on a developer box, it needs to be understood that results cannot be assumed to represent
 performance when deployed to production due to a number of reasons, including:
-   - Different machine specs or virtualized hardware.
-   - [Noisy neighbors](https://en.wikipedia.org/wiki/Cloud_computing_issues#Performance_interference_and_noisy_neighbors) in cloud environments (unless that is cared for by the provider).
-   - More time spent in I/O due to increased network latency, especially since I/O on developer machines often happens over
+   * Different machine specs or virtualized hardware.
+   * [Noisy neighbors](https://en.wikipedia.org/wiki/Cloud_computing_issues#Performance_interference_and_noisy_neighbors) in cloud environments (unless that is cared for by the provider).
+   * More time spent in I/O due to increased network latency, especially since I/O on developer machines often happens over
      the `loopback` interface or UNIX domain sockets, i.e. no network boundaries are traversed.
-   - Different sizes of database tables if those are involved.
-   - GC and/or caches are not as warm as on production.
+   * Different sizes of database tables if those are involved.
+   * GC and/or caches are not as warm as on production.
 
 ### Prepare a fix and verify it
 

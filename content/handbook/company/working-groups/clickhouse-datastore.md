@@ -36,10 +36,6 @@ In April 2024 the ClickHouse Working Group was closed out.  The group made major
 
 Due to the overlap with the recently created [Product Usage Data Architecture Working Group](https://internal.gitlab.com/handbook/company/internal-working-groups/product-usage-data-architecture/), the decision was made to wind down the ClickHouse group, and roll those concerns into that group’s work defining the architecture for analytical features.
 
-
-
-
-
 ### Exit Criteria
 
 This Working Group has the following goals:
@@ -68,7 +64,7 @@ This Working Group has the following goals:
 | [Develop a ClickHouse rollout strategy and plan](https://gitlab.com/groups/gitlab-com/-/epics/2077) | 2023-01-05 | | 60% | Sam Goldstein |
 | [Develop Recommendation for ClickHouse Ownership Model](https://gitlab.com/groups/gitlab-com/-/epics/2094) | | | 0% | |
 | [Develop and implement a communication plan for the working group](https://gitlab.com/groups/gitlab-com/-/epics/2078) | 2023-01-18 | | 0% | Nicole Williams |
-| [Complete production readiness through to GA](https://gitlab.com/groups/gitlab-com/-/epics/2316) | 2023-08-04 | | 50% | Nathan Rosandich |
+| [Complete production readiness through to GA](https://gitlab.com/groups/gitlab-com/-/epics/2316) | 2023-08-04 | | 75% | Nathan Rosandich |
 
 ### Current and Planned Use Cases
 

@@ -61,5 +61,3 @@ Regional details for how the response and outcome are acheived are noted below.
 - Originating Discussion [Issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5231)
 - Rollout notification [Issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5486) (Change Record)
 - Support Ops VBT Slackbot [project](https://gitlab.com/gitlab-com/support/support-ops/other-software/vbt-slackbot)
-
-

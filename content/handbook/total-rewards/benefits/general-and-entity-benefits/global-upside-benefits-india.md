@@ -325,7 +325,6 @@ All team members are entitled to up to 1 ½ years of parental leave for the birt
 - This leave may be taken in a single period or in parts. If taken in parts, the total leave must not exceed  1 ½ years.
 - Team members must notify the Absence Management team at `leaves@gitlab.com` one month in advance of beginning parental leave, and at least two weeks in advance if returning from leave early.
 
-
 #### Maternity Leave Payment
 
 - If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), you will receive 100% paid Parental Leave from GitLab for up to 16 weeks.

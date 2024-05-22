@@ -5,6 +5,10 @@ description: "This Hands-On Guide walks you through accessing and using Promethe
 
 > Estimated time to complete: 30 minutes
 
+## Objectives
+
+The purpose of this lab is to walk you through using Prometheus Service, and how to view Prometheus metrics. To learn more about Prometheus, click [here](https://docs.gitlab.com/ee/administration/monitoring/prometheus/).
+
 ### Task A. Access the Prometheus Service
 
 1. GitLab's Prometheus server can be reached via TCP port 9090. Unfortunately, the training environment currently blocks inbound traffic to that port. As a workaround, you can open an SSH tunnel as follows.
@@ -23,7 +27,7 @@ description: "This Hands-On Guide walks you through accessing and using Promethe
 
 > For this example, suppose you wanted to monitor HTTP requests sent into your GitLab instance. To achieve this, we can use some built in GitLab metrics.
 
-1. Navigate to `http://localhost:9090`. 
+1. Navigate to `http://localhost:9090`.
 
 1. In the input beside the **magnifying glass** button, type `http_requests_total`.
 
@@ -45,7 +49,7 @@ description: "This Hands-On Guide walks you through accessing and using Promethe
 
 1. Click **Alerts** in the top menu.
 
-    > Note that there are two sets of alert rules, one named GitLab and one named Node. The GitLab alerts correspond to platform issues such as the a service being down, Postgres being down, or high queueing withing services. A Node alert corresponds to the server GitLab is deployed on. 
+    > Note that there are two sets of alert rules, one named GitLab and one named Node. The GitLab alerts correspond to platform issues such as the a service being down, Postgres being down, or high queueing withing services. A Node alert corresponds to the server GitLab is deployed on.
 
 1. Note the file that contains the alerting rules. By default, the file is `/var/opt/gitlab/prometheus/rules/gitlab.rules`.
 

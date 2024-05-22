@@ -14,7 +14,7 @@ description: "Successful management includes onboarding, reviewing Command Plans
 
 Welcome to the Enterprise Area Sales Manager Handbook. You can use the [Enterprise Area Sales Manager Playbook](https://docs.google.com/presentation/d/1HmzgSsau959CSZxEOoXCHdFS9h6a0vvvtDMVsFX57yo/edit?usp=sharing) for a 1-page view of what's on this page. It includes key activities an Enterprise Area Sales Manager leads as they manage their team and area. Think of it as a guide (not hard and fast mandates) to help you manage your business and optimize results.
 
-The below detail offers additional guidance on how responsibilities and activities are managed, and has been sourced from experienced GitLab Enterprise ASMs and leaders. When thinking about 'what good looks like' in this department, refer to your [job family](/job-families), the [field competencies](/handbook/sales/training/field-functional-competencies/), our [manager and leadership competencies](/handbook/competencies/#manager-and-leadership-competencies), and our [GitLab values](/handbook/values/).
+The below detail offers additional guidance on how responsibilities and activities are managed, and has been sourced from experienced GitLab Enterprise ASMs and leaders. When thinking about 'what good looks like' in this department, refer to your [job family](/job-families), the [field competencies](/handbook/sales/training/field-functional-competencies/), our [manager and leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies), and our [GitLab values](/handbook/values/).
 
 ## Quick links
 
@@ -36,7 +36,7 @@ Strategic sales planning is a key activity every Area Sales Manager (ASM) leads 
 
 This happens annually. In preparation, you’ll look at how those accounts are distributed across your team and validate our goal of having a fairly equitable distribution across your Account Executives (AEs). You’ll recommend territory assignments and quotas and identifying resource requirements to meet and exceed financial targets.
 
-#### Territory planning is a key part of strategic planning.
+#### Territory planning is a key part of strategic planning
 
 AEs create a new or updated territory plan based on their assignments annually; the detail of this plan will vary depending on if they are Major or Strategic Account Executives. They present these plans in Territory Plan Presentations hosted by ASMs or VPs, which usually occur twice per year in Q1 and Q3. [View the territory planning handbook page and toolkit.](https://internal.gitlab.com/handbook/sales/territory-planning/)
 
@@ -53,11 +53,11 @@ High-level account plans are often shared using a [strategic account plan templa
 
 ## Reviews and consults
 
-#### Quarterly Business Reviews (QBRs)  
+#### Quarterly Business Reviews (QBRs)
 
 [QBRs](/handbook/sales/qbrs/#best-practices-for-rdsasmssalsaes) happen during the first two weeks of each quarter for the previous quarter. Preparation usually starts about two weeks before that. QBR decks are stored in our [Google Drive (GitLab internal only)](https://drive.google.com/drive/u/0/folders/1QAWFYxT2-NzWpOUodepbl0O6zfsMxJGL).
 
-#### Account reviews:
+#### Account reviews
 
 Initially, ASMs and CSM Managers may want or need to partner on scheduling and facilitating these reviews, but regular account reviews should eventually become part of an account team's normal operating rhythm. See [Coaching Account Planning for ASMs](/handbook/sales/account-planning/coaching/) for additional guidance.
 
@@ -116,7 +116,7 @@ Month 2 and Month 3 forecast & pipeline reviews are typically scheduled for 2 ho
     - Actions with partners and SDRs
 1. Prioritized Actions
 
-#### Best practices for forecasting and pipeline reviews:
+#### Best practices for forecasting and pipeline reviews
 
 We have detailed guidance on Sales Forecasting, Opportunity Management, and using our tools to review on the [internal handbook page](https://internal.gitlab.com/handbook/sales/sales-forecasting/).  Guide AEs to [the Clari cheat sheet](https://docs.google.com/presentation/d/1ZvQzFrmmqsJPUIk_FxfTy5X0G59IIWDve0Rfmfw1Wec/edit#slide=id.g133719dda83_2_102) and #sales-support Slack channel for additional support.
 - **AEs should be empowered to be the CEO of their own territory and manage their business accordingly.** ASMs will need to manage the agenda to ensure the team doesn't get bogged down in too much detail and encourage AEs to focus on the bigger picture. More specifically, even the best AEs will miss their quarterly quota from time to time. What's important is that the AE and ASM are aware of the risk in advance and that there is sufficient pipeline in other quarters to make up for a down quarter.
@@ -159,7 +159,7 @@ All team members go through an onboarding journey by segment and role. [View the
 
 ASMs should work with new AEs to develop and monitor progress against their 30/60/90 day plan, set clear performance expectations, and provide regular feedback during the onboarding process.
 
-#### Key activities for managers during team onboarding:
+#### Key activities for managers during team onboarding
 
 - Support your ramping AE. ASMs should encourage new AEs to complete “red dot” tasks in their general GitLab onboarding issue, bookmark and organize key resources, complete their role-speific onboarding, and prioritize peer-to-peer shadowing of customers calls.
 - Connect the dots. Encourage your new hires to speak up or ask for help when and if they need it. Pair them with an onboarding buddy to support their first 90 days, and point them to the right resource and team when they’re not sure where to find something.

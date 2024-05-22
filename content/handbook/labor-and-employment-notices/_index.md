@@ -6,7 +6,6 @@ title: "Labor and Employment Notices"
 
 Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company we don't have a physical worksite or breakroom wall upon which to post important labor and employment notices, so this page is our version of that.
 
-
 {{% details summary="GitLab, Inc. & GitLab Federal LLC" %}}
 
 ### Alabama
@@ -41,7 +40,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Arkansas
 
-- [Minimum Wage, Overtime, Child Labor, Wage Collection Notice](https://www.labor.arkansas.gov/wp-content/uploads/2020/09/POSTER-FINAL-2019.pdf)
+- [Minimum Wage, Overtime, Child Labor, Wage Collection Notice](https://www.labor.arkansas.gov/wp-content/uploads/Poster2023-Notice-to-EmployerEmployee.pdf)
 - [How to Claim Unemployment Insurance](https://dws.arkansas.gov/wp-content/uploads/Employer_poster_on_how_to_file_UI_v09142021_LPS.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1UyrBwZhl9vlTgL-FwuzWGVaLAUQh3PTp/view?usp=sharing)
 
@@ -102,7 +101,6 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - **City of West Hollywood**
   - [Minimum Wage - English](https://www.weho.org/home/showpublisheddocument/56165/638158711072630000)
   - [Minimum Wage - Spanish](https://www.weho.org/home/showpublisheddocument/56249/638168015412630000)
-
 
 ### Colorado
 
@@ -428,7 +426,8 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/13W9mUkiRUi8msZG2kXemM6fwxLdysNcS/view?usp=sharing)
 - [Workers' Compensation Notice - Federal](https://drive.google.com/file/d/1nYMzCdHjkRQXrwkkY-8C0vmUdRDgLuS9/view?usp=sharing)
 - **City of New York City**
-    - [Safe and Sick Leave](https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSafeSickLeave-MandatoryNotice-English.pdf)
+    - [Workers' Bill of Rights](https://www.nyc.gov/site/dca/workers/workersrights/know-your-worker-rights.page)
+    - [Safe and Sick Leave](https://www.nyc.gov/site/dca/workers/workersrights/paid-sick-leave-law-for-workers.page) and Notice(https://www.nyc.gov/assets/dca/downloads/pdf/about/PaidSafeSickLeave-MandatoryNotice-English.pdf)
     - Employers calendar year is Jan 1 - Dec 31st.
 
 ### North Carolina

@@ -46,6 +46,7 @@ Gitaly team members do not carry pagers, but we live around the world and there'
 
 These issues relate to ongoing production outages or similar. They interrupt our process used to [schedule work] and get attention as soon as possible.
 Please only interrupt us sparingly, in these cases:
+
 - [Severity 1 or 2](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#availability) issues, where you believe that Gitaly team has _immediately actionable_ work to do
 - Ongoing incidents where no mitigation exists that would tide us over until the next business day.
 
@@ -67,7 +68,7 @@ We are happy to help when a customer needs it! But please keep in mind that we a
 Our _engineers_ can help, preferably [async](/handbook/company/culture/all-remote/asynchronous/), with:
 
 - deep technical investigation based on _data_ and able technical collaboration, in close partnership with Support and CSM
-- providing product-level fixes or improvements, work to be scheduled and results released as usual, under [direction of EM and PM](#working_with_product)
+- providing product-level fixes or improvements, work to be scheduled and results released as usual, under [direction of EM and PM](#working-with-product)
 - improving our documentation if something's unclear
 
 _Engineering Managers_ (`@jcaigitlab` & `@andrashorvath`) and _Product Managers_ (`@mjwood`) are also happy to engage with customers if you need assistance clarifying roadmaps, product features and timelines, or to ensure the correct prioritization.
@@ -98,7 +99,6 @@ For information requests and other quick one-offs, feel free to use [#g_gitaly] 
 These are typically [Corrective Actions or other followup items](/handbook/engineering/workflow/#infradev) that have strict
 SLO tracking. They will be scheduled through either of the above paths, by EM
 and/or PM polling [these dashboards](#useful-links).
-
 
 ## Cluster team
 
@@ -267,15 +267,15 @@ This workflow is similar to what Git for Windows uses and can be implemented via
 script:
 
 ```shell
-# Update origin, pulling in new changes for origin/master.
+## Update origin, pulling in new changes for origin/master
 $ git fetch origin
-# Switch to the topic branch.
+## Switch to the topic branch
 $ git switch topic
-# Find the current root of the topic branch. This could either be the last fake-merge:
+## Find the current root of the topic branch. This could either be the last fake-merge
 $ base=$(git rev-parse ':/Start the merging-rebase')
-# Or it could be the merge-base of origin/master and your topic branch:
+## Or it could be the merge-base of origin/master and your topic branch
 $ base=$(git merge-base origin/master topic)
-# Rebase the topic branch onto origin/master.
+## Rebase the topic branch onto origin/master
 $ ./shears.sh --merging --onto origin/master $base
 ```
 
@@ -322,10 +322,10 @@ coordination with all the teams consuming Gitaly. The DRI on Consumer side is Ig
 
 The Gitaly consumers are:
 
-* [GitLab Rails](https://gitlab.com/gitlab-org/gitlab)
-* [GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell)
-* [GitLab Workhorse](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/workhorse/index.md)
-* [GitLab Elasticsearch Indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer)
+- [GitLab Rails](https://gitlab.com/gitlab-org/gitlab)
+- [GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell)
+- [GitLab Workhorse](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/workhorse/index.md)
+- [GitLab Elasticsearch Indexer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer)
 
 ## Gitaly Deprecations
 
@@ -343,17 +343,17 @@ after the 18th that issue will be used to discuss what was brought up.
 
 ### On gitlab.com
 
-* [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=created_date&state=all&label_name%5B%5D=Service%3A%3AGitaly&label_name%5B%5D=incident&first_page_size=100) (not all pages are incidents)
-* [Pages](https://nonprod-log.gitlab.net/goto/2e1a9f00-f006-11ed-bb50-33eb1f5eb489)
-* [Global Apdex](https://dashboards.gitlab.net/d/gitaly-main/gitaly-overview?orgId=1&viewPanel=3357097446)
-* [Alerts](https://log.gprd.gitlab.net/goto/17c536b0-efd0-11ed-8afc-c9851e4645c0) (S1/S2 are paging, S3/S4 are not)
+- [Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/?sort=created_date&state=all&label_name%5B%5D=Service%3A%3AGitaly&label_name%5B%5D=incident&first_page_size=100) (not all pages are incidents)
+- [Pages](https://nonprod-log.gitlab.net/goto/2e1a9f00-f006-11ed-bb50-33eb1f5eb489)
+- [Global Apdex](https://dashboards.gitlab.net/d/gitaly-main/gitaly-overview?orgId=1&viewPanel=3357097446)
+- [Alerts](https://log.gprd.gitlab.net/goto/17c536b0-efd0-11ed-8afc-c9851e4645c0) (S1/S2 are paging, S3/S4 are not)
 
 ### Useful links
 
-* [Actual pending Infradev issues](https://10az.online.tableau.com/#/site/gitlab/views/DraftInfrastructureEmbeddedDashboard/InfrastructureEmbeddedDashboard?:iid=1) (sort by group, focus on gitaly)
-* [Out of SLO Infradev issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2219735/views)
-* [Error budget](https://dashboards.gitlab.net/d/stage-groups-detail-gitaly/stage-groups-gitaly-group-error-budget-detail?orgId=1&from=now-28d%2Fm&to=now)
-* [MR review workload](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitaly)
+- [Actual pending Infradev issues](https://10az.online.tableau.com/#/site/gitlab/views/DraftInfrastructureEmbeddedDashboard/InfrastructureEmbeddedDashboard?:iid=1) (sort by group, focus on gitaly)
+- [Out of SLO Infradev issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2219735/views)
+- [Error budget](https://dashboards.gitlab.net/d/stage-groups-detail-gitaly/stage-groups-gitaly-group-error-budget-detail?orgId=1&from=now-28d%2Fm&to=now)
+- [MR review workload](https://gitlab-org.gitlab.io/gitlab-roulette/?currentProject=gitaly)
 
 ### Dashboards
 

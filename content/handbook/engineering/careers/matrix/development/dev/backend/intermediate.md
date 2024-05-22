@@ -18,6 +18,7 @@ title: "Dev Career Framework: Intermediate Backend Engineer"
 
 {{% include "includes/engineering-careers/intermediate-leadership-competency.md" %}}
 {{% include "includes/engineering-careers/development-intermediate-leadership-competency.md" %}}
+
 - Performs Code Reviews within their domain on a regular cadence
 - Intentionally develops the skills necessary to become an expert on a specific subject
 - Shares knowledge with team members after becoming a domain expert
@@ -26,6 +27,7 @@ title: "Dev Career Framework: Intermediate Backend Engineer"
 
 {{% include "includes/engineering-careers/intermediate-technical-competency.md" %}}
 {{% include "includes/engineering-careers/development-intermediate-technical-competency.md" %}}
+
 - Proficient or fluent with one or more database languages to design, create and manage databases
 - Proficient or fluent with one or more server side programming languages and their frameworks
 - Able to design and build APIs
@@ -36,7 +38,7 @@ title: "Dev Career Framework: Intermediate Backend Engineer"
 - Able to debug issues that occur in the Production Environment
 - Develops documentation and instructions explaining how to work with GitLab Products
 
-###  Values Alignment
+### Values Alignment
 
 {{% include "includes/engineering-careers/values-competency.md" %}}
 {{% include "includes/engineering-careers/development-intermediate-values-competency.md" %}}

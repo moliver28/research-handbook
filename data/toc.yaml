@@ -52,8 +52,6 @@
         url: /handbook/company/okrs
       - name: Pricing Model
         url: /handbook/company/pricing
-    - name: Creator pairing
-      url: /handbook/engineering/development/director-shadow-program
     - name: Office of the CEO
       url: office-of-the-ceo
     - name: Key Reviews
@@ -63,7 +61,7 @@
     - name: E-Group Weekly
       url: e-group-weekly
     - name: Environmental, Social, and Governance
-      url: /handbook/esg
+      url: /handbook/company/esg
 - name: Handbook
   icon: fa-solid fa-book
   url: handbook
@@ -81,15 +79,13 @@
   - name: Handbook Usage
     url: handbook-usage
   - name: Contribution Guide
-    url: docs
-  - name: Practical Handbook Edits
-    url: /handbook/editing-handbook/practical-handbook-edits
-  - name: Edit This Website Locally
-    url: /docs/development
+    url: /docs/development/
+  - name: Editing the handbook
+    url: /handbook/editing-handbook/
   - name: Handbook Style Guide
-    url: /handbook/style-guide
-  - name: Content Websites
-    url: content-websites
+    url: /handbook/about/style-guide/
+  - name: Handbook maintenance
+    url: /handbook/about/maintenance/
 - name: People Group
   icon: fa-solid fa-people-group
   url: /handbook/people-group/
@@ -146,8 +142,8 @@
           url: paid-time-off
         - name: Compensation
           url: compensation
-        - name: Stock Options
-          url: /handbook/stock-options
+        - name: Equity Compensation
+          url: /handbook/total-rewards/stock-options
     - name: Tools and Tips
       url: tools-and-tips
       links:
@@ -345,8 +341,8 @@
     links:
      - name: Sarbanes-Oxley (SOX) Compliance
        url: sarbanes-oxley
-  - name: Stock Options
-    url: /handbook/stock-options
+  - name: Equity Compensation
+    url: /handbook/total-rewards/stock-options
 - name: Product
   icon: fa-solid fa-comments
   url: /handbook/product

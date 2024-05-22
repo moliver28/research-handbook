@@ -86,7 +86,7 @@ This step impacts all activities of the framework and must be re-evaluated regul
 
 A value among: `Green`, `Yellow`, `Orange`, or `Red`.
 
-##### Resources:
+##### Resources
 
 1. The [Data Classification
    Standard]({{< ref "data-classification-standard" >}}) handbook page
@@ -101,7 +101,6 @@ its functional requirements as well as the relevant quality attributes.
 This activity is supported by a set of principles and tools. The artifacts (Architecture description
 and decisions) help to achieve the following activities. For example, a better understanding of the
 system helps to get started with the Threat Modeling activity.
-
 
 #### Define Target Environment
 
@@ -118,7 +117,6 @@ infrastructure or our product inform the Security Research Team
 efforts.
 
 ## Additional resources and references
-
 
 [Security Assurance]: {{< ref "security-assurance" >}}
 [Security Architects]:{{< ref "../product-security/architecture" >}}

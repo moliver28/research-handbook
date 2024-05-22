@@ -11,7 +11,7 @@ See [the exhaustive list of projects](#projects) the group maintains.
 
 ## Common Links
 
-- Slack channel: #g_secure-composition-analysis
+- Slack channel: [#g_secure-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
 - Slack alias: @secure_composition_analysis_dev
 - Google groups: composition-analysis-dev@gitlab.com
 
@@ -24,7 +24,7 @@ The Composition Analysis group largely follows GitLab's [Engineering Workflow](/
 This includes:
 
 - [Issue triage](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/)
-- [Infradev triage](#triage-process)
+- [Infradev triage](#triaging-vulnerabilities)
 - [Wider Community Merge Request Triage](/handbook/engineering/infrastructure/engineering-productivity/merge-request-triage/)
 - [Retrospectives](/handbook/engineering/management/group-retrospectives/)
 
@@ -101,6 +101,7 @@ If a support engineer requests assistance via Slack and it requires investigatio
     - [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
     - [#f_container_scanning](https://gitlab.slack.com/archives/C041F2XJACB)
     - [#g_secure-composition-analysis-alerts](https://gitlab.slack.com/archives/C04UX9MQNSJ)
+    - [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)
 1. Monitor [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?label_name=Help%20group%3A%3Acomposition%20analysis) project for support requests.
 1. Refine scheduled bugs and maintenance issues.
 
@@ -116,7 +117,7 @@ These items must be triaged continuously throughout the milestone which means th
     1. Application dependencies.
     1. Programming language.
 1. Check in on test failures. Check relevant slack channels ([#g_secure-composition-analysis-alerts](https://gitlab.slack.com/archives/C04UX9MQNSJ), [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)).
-1. Check latest pipelines for any release failures. If any issue is preventing the automated release process from running, begin the [release failure escalation process](#release-failure-escalation-process).
+1. Check latest pipelines for any release failures. If any issue is preventing the automated release process from running, begin the [release failure escalation process](#release-failure-process).
 1. Consider creating or updating any automation or tooling (related to security, maintainership or support!).
 1. Monitor failures and errors on license-db project, use the `#f_licese_database` Slack channel for communication about these items, so other team members can provide the support.
     1. Check latest [scheduled pipelines of license-db](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) for any failures. Ensure that pipelines pass or create an issue to fix the failure.
@@ -225,13 +226,14 @@ In some other cases, a finding is related to an upstream dependency or Operating
 When an issue is both blocked for a few releases and low risk you may dismiss the finding with a note as to the reasoning. If there is an open issue notify the Application Security team with your specific reasoning and close the issue (if applicable). In the future we will specifically want to tag everything related to these findings as won't fix or blocked when they are being closed, for now that is only available on issues and not findings.
 
 The following class of container scan vulnerabilities can be considered low risk:
+
   - Many kernel-related findings will be at a decrease of risk and hence severity because of the way our process works with temporary containers with limited inputs which are developer-controlled.
   - Issues related to a software stack that will not apply to the analyzer e.g GUI related issues, issues in Bluetooth drivers, browser-related issues which require browser running in non-headless mode, etc.
   - S3 or S4 findings with complex exploit method or limited risk which have no fix available, or the upstream has stated there are no plans to release a patch.
   - Denial of Service (of the container/analyzer) as these containers run in ephemeral pipelines, are automatically stopped once a timeout is reached, and are accepting in code from users who already have developer access. This as a result is not an expansion of the risk profile.
   - Random number generator issues (where the numbers are not random) as we don't use random numbers for security purposes from the containers. (At the time this was last updated these were true, please use your knowledge of our analyzers or ask if unsure)"
 
-  __To add items to the list above discuss repeatable finding patterns with Application Security, get approval from a leader in the security section, and add to this list.__
+  **To add items to the list above discuss repeatable finding patterns with Application Security, get approval from a leader in the security section, and add to this list.**
 
 #### Confirming a vulnerability
 
@@ -259,14 +261,16 @@ As a workaround, you can copy and paste the content of the vulnerability page (t
 
 You can leverage quick actions to add the necessary labels.
 
-    /confidential
+```text
+/confidential
 
-    /label ~security ~"type::bug" ~"bug::vulnerability"
-    /label ~"section::sec" ~"devops::secure" ~"group::composition analysis"
+/label ~security ~"type::bug" ~"bug::vulnerability"
+/label ~"section::sec" ~"devops::secure" ~"group::composition analysis"
 
-    <!-- depending on the affected project: -->
-    /label ~"Category:Software Composition Analysis"
-    /label ~"Category:Container Scanning"
+<!-- depending on the affected project: -->
+/label ~"Category:Software Composition Analysis"
+/label ~"Category:Container Scanning"
+```
 
 It's important to add the `~security` and `~"bug::vulnerability"` labels as described above, because the [`AppSec Escalation Engine`](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/appsec-escalator/-/blob/3a7e8a4baed7b7e54039558f4f76328046543a0c/README.md#L3) will automatically pick up any issues with these labels and add additional labels `~security-sp-label-missing` and `~security-triage-appsec` as well as mention the issue in the `#sec-appsec` Slack channel. At this point, the [Stable Counterpart](/handbook/engineering/development/sec/secure/#stable-counterparts) or [Application Security team](/handbook/security/product-security/application-security/) triage person will pick up the issue and assign a severity as part of the appsec triage rotation.
 
@@ -287,7 +291,7 @@ all of our incidents in the [main GitLab project](https://gitlab.com/gitlab-org/
 and add a description of the problem along with any reproduction steps. Add the following labels so that we can track the incidents
 that have impacted composition analysis in the future.
 
-    ```
+    ```text
     <!--
     Select one of the following severities
     Ref: https://about.gitlab.com/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity
@@ -368,7 +372,6 @@ Additional notes:
 - [Cluster Image Scanning related code](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/blob/master/internal/module/starboard_vulnerability/agent/scanner.go),
 needed for [Operational Container Scanning](https://docs.gitlab.com/ee/user/clusters/agent/vulnerabilities.html) feature.
 
-
 ### License-db
 
 - [advisory-processor](https://gitlab.com/gitlab-org/security-products/license-db/advisory-processor)
@@ -396,13 +399,11 @@ As some of our analyzers rely on open source software, we include them in our se
 
 To do so, we mirror their repository and execute our security scans on them (when relevant):
 
-- [grype](https://gitlab.com/gitlab-org/security-products/dependencies/grype)
 - [trivy](https://gitlab.com/gitlab-org/security-products/dependencies/trivy)
 - [trivy-db](https://gitlab.com/gitlab-org/security-products/dependencies/trivy-db)
 - [trivy-db-data](https://gitlab.com/gitlab-org/security-products/dependencies/trivy-db-data)
 - [trivy-db-glad](https://gitlab.com/gitlab-org/security-products/dependencies/trivy-db-glad)
 - [vuln-list-update](https://gitlab.com/gitlab-org/security-products/dependencies/vuln-list-update)
-
 
 The vulnerabilities reported on the currently used version of the scanner are automatically reported in [the group level Vulnerability Report][Upstream scanners Vulnerability Report] and triaged as part of our [security vulnerabilities triaging process](#security-vulnerabilities-triaging-process).
 
@@ -456,7 +457,6 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 
 - [Stage Group dashboad on Grafana](https://dashboards.gitlab.net/d/stage-groups-composition_analysis/stage-groups-group-dashboard-secure-composition-analysis?orgId=1)
 
-
 [License-db Vulnerability Report]: https://gitlab.com/groups/gitlab-org/security-products/license-db/-/security/vulnerabilities/?state=DETECTED&severity=CRITICAL,HIGH&projectId=39193358,39229232,39233486,39298809,39622674,40857363,45266022&activity=STILL_DETECTED
 
 [Upstream Scanners Vulnerability Report]: https://gitlab.com/groups/gitlab-org/security-products/dependencies/-/security/vulnerabilities/?state=DETECTED&projectId=30616761,30684590,35335143,39545454,39545481,51420921&severity=CRITICAL,HIGH&activity=STILL_DETECTED
@@ -464,8 +464,6 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 [Analyzer vulnerabilities that are no longer detected]: https://gitlab.com/groups/gitlab-org/security-products/analyzers/-/security/vulnerabilities/?state=CONFIRMED,DETECTED&projectId=13150952,15369510,18446184,24673064,52241202,6126012,9450192&activity=NO_LONGER_DETECTED
 
 [License-db vulnerabilities that are no longer detected]: https://gitlab.com/groups/gitlab-org/security-products/license-db/-/security/vulnerabilities/?state=CONFIRMED,DETECTED&projectId=39193358,39229232,39233486,39298809,39622674,40857363,45266022&activity=NO_LONGER_DETECTED
-
-[Upstream scanner vulnerabilities that are no longer detected]: https://gitlab.com/groups/gitlab-org/security-products/dependencies/-/security/vulnerabilities/?state=CONFIRMED,DETECTED&severity=CRITICAL&severity=HIGH&projectId=25588419,30616761,30684590,35335143,39545454,39545481&activity=NO_LONGER_DETECTED
 
 [Vulnerability SLAs]: /handbook/security/threat-management/vulnerability-management/#remediation-slas
 

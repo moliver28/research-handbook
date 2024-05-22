@@ -16,11 +16,10 @@ The Customer Success Architect (CSA) team focuses on hands-on technical enableme
 | Role | Grade |
 | -- | - |
 | [Customer Success Architect](#customer-success-architect-csa-intermediate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-| [Senior Customer Success Architect](#senior-customer-success-architect-csa) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
-| [Staff Customer Success Architect](#staff-customer-success-architect-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+| [Senior Customer Success Architect](#senior-customer-success-architect-csa) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Staff Customer Success Architect](#staff-customer-success-architect-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Manager, Customer Success Architects](#manager-customer-success-architects-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Customer Success Architects](#senior-manager-customer-success-architects-csa) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
-
 
 ### Customer Success Architect (CSA) (Intermediate)
 
@@ -72,6 +71,7 @@ The Senior CSA is a job grade [level 7](/handbook/total-rewards/compensation/com
 #### Senior CSA Responsibilities
 
 Includes all responsibilities of the Intermediate Customer Success Architect (CSA) role and expands on that in the following ways:
+
 - Establish a trusted/strategic advisor relationship with each assigned customer and drive continued value of our solution and services
 - Assist and provide expert deployment, operational best practices, and establishing a GitLab Center of Excellence
 - Assist in workshops to help customers leverage the full value of GitLab solution
@@ -82,6 +82,7 @@ Includes all responsibilities of the Intermediate Customer Success Architect (CS
 #### Senior CSA Requirements
 
 Meets the requirements of the Intermediate Customer Success Architect (CSA) role and the following requirements:
+
 - Understanding of Git and typical branching strategies
 - Knowledge of software development lifecycle and development pipeline
 - Understanding of continuous integration, continuous deployment, DevSecOps
@@ -99,6 +100,7 @@ The Staff CSA is a job grade [level 9](/handbook/total-rewards/compensation/comp
 #### Staff CSA Responsibilities
 
 Includes all responsibilities of the Intermediate and Senior Customer Success Architect (CSA) roles and expands on that in the following ways:
+
 - Strategize on the overall objectives and long-range goals of the team
 - Provide mentorship for Associate and Intermediate CSMs to help them grow in their technical knowledge and provide premium customer experience
 - Work cross-departmentally to find solutions to complex scenarios and integration issues
@@ -110,6 +112,7 @@ Includes all responsibilities of the Intermediate and Senior Customer Success Ar
 #### Staff CSA Requirements
 
 Meets the requirements of the Intermediate and Senior Customer Success Architect (CSA) roles and the following requirements:
+
 - Ability to translate business requirements into business value, and work with sales and marketing to promote value-driven solutions
 - Strong knowledge of Customer Success best practices, with experience defining process and providing enablement programs to promote adoption in CS and across the company
 - Expert in GitLab usage and able to train others in its usage
@@ -148,7 +151,6 @@ The Senior Manager, CSA is a job grade [level 9](/handbook/total-rewards/compens
 
 - [content to be added when the need for the role arises]
 
-
 ## Specialties
 
 ### Public Sector Customer Success Architect (CSA)
@@ -160,6 +162,7 @@ The Senior Manager, CSA is a job grade [level 9](/handbook/total-rewards/compens
 #### Public Sector CSA Requirements
 
 In addition to the corresponding Customer Success Architect level requirements:
+
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
 
@@ -170,7 +173,7 @@ In addition to the corresponding Customer Success Architect level requirements:
 
 ## Career Ladder
 
-Team members in the Customer Success Architect job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Manager or Solutions Architect.  
+Team members in the Customer Success Architect job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Customer Success Engineer, Customer Success Manager or Solutions Architect.
 
 ## Hiring Process
 
@@ -204,4 +207,3 @@ The panel interview consists of several members of the Customer Success team. It
 Once the candidate has successfully completed all interview stages with positive recommendations at each stage, GitLab will complete [reference checks](/handbook/hiring/interviewing/#reference-check-process) and a [background check](/handbook/hiring/interviewing/#background-checks).
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/interviewing/).
-

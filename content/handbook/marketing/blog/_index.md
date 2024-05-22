@@ -20,11 +20,11 @@ Blogs fall into the following categories:
 - Feature/change/etc. announcement
 - Guest blog to highlight partnerships/alliances 
 
-## Who can publish content to the GitLab blog?
+## Who can publish content to the GitLab Blog?
 
 [Everyone can contribute at GitLab](/handbook/company/mission/#mission). For the blog, this means we welcome your blog suggestions, ideas, and drafts. However, the [main blog](https://about.gitlab.com/blog/) is one of the many official voices of GitLab – meaning content that is published there must be carefully vetted to ensure we are accurately representing GitLab – both the company and the product. The Blog Managing Editor and the Director of Global Content Marketing are the [directly responsible individuals (DRIs) for the official GitLab blog](/handbook/people-group/directly-responsible-individuals/) and are tasked with this responsibility.
 
-Partner, alliance, and customer contributor guidelines can be found [here](https://docs.google.com/document/d/10Xb4qnZNedhPzNNRTByH7fgvNzlo5Bc5Rz1TiuHtPxE/edit?usp=sharing).
+If you have questions about the GitLab Blog, please reach out to [sgittlen@gitlab.com](mailto:sgittlen@gitlab.com).
 
 ## How to suggest a blog idea - NEW PROCESS {#how-to-suggest-a-blog-post}
 
@@ -35,6 +35,26 @@ Please create an issue using the [blog submission template](https://gitlab.com/g
 * For corporate/comms requests or blogs on a tight turnaround, please submit an issue and reach out to @sgittlen directly.
 
 The blog editor will review the pitch and either a) greenlight the post, b) offer suggestions for improvements, or c) explain why the idea might not be a fit for the blog and offer other ideas for getting the message out.
+
+### External contributions
+
+**Note:** GitLab does not accept unsolicited blog submissions. If you are a GitLab partner and would like to pitch a blog post idea for consideration, please [email sgittlen@gitlab.com](mailto:sgittlen@gitlab.com). If you are a GitLab community member and would like to pitch a blog post idea for consideration, please [email contributors@gitlab.com](mailto:contributors@gitlab.com). Please DO NOT SEND drafts of your blogs with your pitch.
+
+Pitch ideas must be relevant to the GitLab Blog and our readers and include the following information:
+* What will your blog be about? Please be as specific as possible.
+* Which of the following best describes your blog? (Please check at least one box.)
+- [ ] tutorial/how-to on how best to use a feature/capability
+- [ ] best practices for how to use the GitLab platform
+- [ ] the open source community and GitLab
+- [ ] partner/alliance integration
+- [ ] other - please explain
+
+**All blog pitch ideas and submissions will be vetted and reviewed by GitLab team members.**
+
+Blog editors, please add the following two sentences at the beginning of contributed articles:
+
+***Editor's note: From time to time, we invite members of the community to contribute to the GitLab Blog. Thanks to [entity name] for co-creating with us.***
+
 
 ## How to submit a blog draft once your idea is approved
 
@@ -305,33 +325,33 @@ There are a few ways to create animated GIFs, one of them is using [Giphy Captur
 
 Avoid GIFs with a huge file size, they will be difficult to load for users with bad internet connection. In those cases, you can either cut the GIFs in smaller pieces, or record a video, or use a sequential image.
 
-#### Creating `Author` entries in the CMS
+### Creating `Author` entries in the CMS
 
-Here's a set of recommendations when creating an `Author` entry in the CMS.
+Here's a set of recommendations **when creating** an `Author` entry in the CMS.
 
-##### `Name` field
+- `Name` field
+    This is a required field. It is also a unique field.
 
-This is a required field.
+    1. Author's name should be a combination of first and last name only, including composed names. Please avoid adding a job description (use the `Role` field for this task) or alpha-numeric combinations into this field. 
+    1. No double authors (eg. `/authors/<author1>-<author2>`). We can add multiple single authors to blog posts. We should create individual authors and then add them all to other content types as a one-to-many relationship.
+    1. Same as above, no multiple authors for a single blog post (eg. `/authors/<author1>-<author2>-<author3>-and-<author4>`).
 
-1. Author's name should be a combination of first and last name only, including composed names. Please avoid adding a job description (use the `Role` field for this task) or alpha-numeric combinations into this field. 
-1. No double authors (eg. `/authors/<author1>-<author2>`). We can add multiple single authors to blog posts. We should create individual authors and then add them all to other content types as a one-to-many relationship.
-1. Same as above, no multiple authors for a single blog post (eg. `/authors/<author1>-<author2>-<author3>-and-<author4>`).
 
-##### `Role` field
+- `Role` field
 
-Current working position or job description
+    Current working position or job description.
 
-##### `Bio` field
+- `Bio` field
 
-Biography
+    Biography of the Author.
 
-##### `GitLab handle` field
+- `GitLab handle` field
 
-It corresponds to Author's GitLab username in lowercase format. This field has to be unique. 
+    It corresponds to Author's GitLab username in lowercase format. This field has to be unique. 
 
-##### `Social media handles` fields
+- `Social media handles` fields
 
-Optional fields for social media handles
+    Optional fields for social media handles.
 
 ## Localizing blog posts in Contentful
 
@@ -355,3 +375,43 @@ It's important to note that while we wait for Contentful to release locale-speci
 Publishing a blog post without an English-language equivalent follows the same process as "Translating an English blog post to other languages," with one minor difference. Contentful mandates that required fields cannot be left empty in English. To circumvent this requirement, a '#' character can be inserted into the English Title and Blog Body fields. This informs our system that the English-language blog post does not exist and should not generate a web page for it.
 
 Contentful is currently developing a solution to address this workaround, which is expected to be available by Fall 2024.
+
+### How to kick off translations
+
+Starting the process of getting a blog post translated is easy. Follow these steps: 
+
+1. Create a translation request issue in the Localization project. Pro tip - add the URL for the blog post & a direct link to the Contentful entry. It will be super helpful to you as you track the project.
+2. Argo will export the enlish blog post JSON and inport the translated JSON back into Contentful. Then you'll be pinged in the issue when it's ready for review. 
+3. Hop into the entry for the Blog post and review the translated content. 
+4. Cordinate with @sandra on publishing the translated post
+5. Once published, always verify that it's working as expected on about.gitlab.com/blog
+6. Celebrate your translated blog post by posting it in Slack. 
+
+Here's a video walk thru of the fullprocess from creating the translation request to publishing on production. 
+
+- Video recording comming soon that demonstrates the following
+- Create issue
+- Argo rountrip
+- Translation show up in Contentful
+- Review the translations
+- Live previews/changing languages
+- Publish
+
+### Gotcahs When Localizing an EN blog post 
+Things to be careful about when localizing an EN blog post.
+
+- Dont change the slug! 
+- Until Contentful introduces the async field publishing feature, we'll need to release all translations simultaneously
+
+### Tags to keep organized
+- If a post in process of being translating, slap the "translation-in-progress" label on it. This enables the team to easily find all blog posts in Contentful that are in progress of being translated and reviewed.
+- Remove and apply local label to languages the post is translated into.
+- Here's a [direct link to the Contentful Blog space](https://app.contentful.com/spaces/r9o86ar0p03f/environments/master/views/entries?searchText=&contentTypeId=&contentTypeIds=&displayedFieldIds=name&displayedFieldIds=contentType&displayedFieldIds=updatedAt&displayedFieldIds=author&displayedFieldIds=metadata.tags&displayedFieldIds=status&order.direction=descending&order.fieldId=updatedAt&filters.0.key=metadata.tags.sys.id&filters.0.op=in&filters.0.val=translation-in-progress) to see all posts currently being translated. 
+- If you make changes to translated content in the Contentful blog space, note your changes in this spreadsheet. (need link to sheet)
+| Tag | Definition | How to use |
+|----|----|----|
+| translation-in-progress | Notes when a blog post is currently be translated and reviewed | Apply when translation request is opened. Remove when post is published | 
+| language_de-DE | Marks entry that is in German | Apply to blog post that is translated into German | 
+| language_fr-FR | Marks entry that is in French | Apply to blog post that is translated into French | 
+| language_ja-JP | Marks entry that is in Japanese | Apply to blog post that is translated into Japanese | 
+

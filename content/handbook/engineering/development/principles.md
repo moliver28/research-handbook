@@ -244,8 +244,8 @@ We develop and document processes that are designed to help us in achieving bett
 
 For example, the following processes exist to reduce the risk and improve code quality:
 
-* [Feature Flags Usage](https://docs.gitlab.com/ee/development/feature_flags/index.html)
-* [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html))
+- [Feature Flags Usage](https://docs.gitlab.com/ee/development/feature_flags/index.html)
+- [Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html))
 
 We find opportunities for improvement through analyzing metrics to identify trends, hosting retrospectives (e.g. [Group Retrospectives](/handbook/engineering/management/group-retrospectives/), [Iteration Retrospectives](/handbook/engineering/development/dev/create/engineers/iteration/)), performing [Root Cause Analyses](/handbook/customer-success/professional-services-engineering/workflows/internal\root-cause-analysis.html), and receiving feedback from team members. Team members are encouraged to identify opportunities to improve our processes and propose solutions, examples of this could be an MR or and issue describing these opportunities.
 
@@ -269,12 +269,12 @@ As the first of these is a monthly release, it's tempting to try to rush to get 
 
 Due date pressure logically leads to a few outcomes:
 
-1. People are at [increased risk of burnout](/handbook/paid-time-off/#recognizing-burnout).
+1. People are at [increased risk of burnout](/handbook/people-group/paid-time-off/#recognizing-burnout).
 1. We may compromise on our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done).
 1. We [cut scope](/handbook/values/#move-fast-by-shipping-the-minimal-viable-change).
 1. We miss the due date.
 
-Only the last two outcomes are acceptable as a general rule. Missing a 'due date' in the form of an assigned milestone is often OK as we put [velocity above predictability](#velocity-over-predictability), and missing the monthly self-managed release does not prevent code from reaching GitLab.com.
+Only the last two outcomes are acceptable as a general rule. Missing a 'due date' in the form of an assigned milestone is often OK as we put [velocity above predictability](/handbook/engineering/development/principles/#the-importance-of-velocity), and missing the monthly self-managed release does not prevent code from reaching GitLab.com.
 
 For these reasons, and others, we intentionally [do not define a specific date](/handbook/engineering/releases/#timelines) for code to be merged in order to reach a self-managed monthly release. The earlier it is merged, the better. This also means that:
 
@@ -353,8 +353,8 @@ If a GitLab UI component is not available on HAML due to its intrinsic complexit
 
 A complex component denotes a type of component that cannot be used easily in our HAML files. This might be due to in-built state management, CSS or dynamic behaviour that rapidly becomes a maintainability burden inside HAML. An example of such a component would be our [Table component](https://gitlab-org.gitlab.io/gitlab-ui/?path=/docs/base-table-table--default).
 
-* [backend](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html)
-* [frontend](https://docs.gitlab.com/ee/development/fe_guide/graphql.html)
-* [use GraphQL everywhere](https://gitlab.com/groups/gitlab-org/-/epics/1366)
-* [the importance of velocity](/handbook/engineering/development/principles/#the-importance-of-velocity)
-* [engineering proposed initiative](/handbook/engineering/#engineering-proposed-initiatives)
+- [backend](https://docs.gitlab.com/ee/development/api_graphql_styleguide.html)
+- [frontend](https://docs.gitlab.com/ee/development/fe_guide/graphql.html)
+- [use GraphQL everywhere](https://gitlab.com/groups/gitlab-org/-/epics/1366)
+- [the importance of velocity](/handbook/engineering/development/principles/#the-importance-of-velocity)
+- [engineering proposed initiative](/handbook/engineering/#engineering-proposed-initiatives)

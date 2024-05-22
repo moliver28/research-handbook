@@ -24,7 +24,6 @@ Team Members will automatically receive the allowance via payroll. No documentat
 
 The allowance will be prorated for New Hires that start in the middle of the month and terminations that are effective in the middle of the month. Team members on sick pay or unpaid parental leave will still receive the monthly allowance. Team members who are on other unpaid leaves will not receive the stipend during their leave.
 
-
 ### Medical Collective Healthcare Policy
 
 GitLab has partnered with [CZ](https://www.cz.nl/en) to offer GitLab Team Members a collective healthcare policy in the Netherlands, effective 2023-10-01
@@ -42,10 +41,7 @@ Team Members can contact CZ directly if they have any questions at 088 555 7777
 
 GitLab Team Members are not obligated to join CZ collective health policy. If they choose not to join the plan, they still must purchase their own health insurance package with another approved provider, as required by the Netherlands statutory healthcare system.
 
-
-
 ### Occupational Saftey and Health
-
 
 Due to the [Working Conditions Act](https://www.arboineuropa.nl/en/legislation/wetgeving-in-het-engels/), GitLab contracts an occupational safety and health service. The OSH-service can assist employees who are not able to work because of illness. The contact information for GitLab's designated Occupational Health Service provider is:
 

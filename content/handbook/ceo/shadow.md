@@ -6,7 +6,7 @@ description: "At GitLab, being a CEO Shadow is not a job title, but a temporary 
 ## Overview
 
 At GitLab, being a CEO Shadow is not a job title, but a temporary assignment to shadow the CEO.
-The shadows will be present at [all meetings of the CEO]({{< ref "ceo#ceo-meeting-cadence" >}}) during their rotation.
+The shadows will be present at [all meetings of the CEO](_index.md#ceo-meeting-cadence) during their rotation.
 GitLab is an [all-remote](/handbook/company/culture/all-remote/) company, but the CEO has in-person meetings with external organizations.
 Unless you're joining the program during one of our [remote rotations](#remote-shadow-rotations), you will stay in San Francisco during the entire [rotation](#rotation-rhythm) and travel with the CEO.
 
@@ -90,6 +90,7 @@ CEO Shadow rotations will be reserved for [VP-Directs](/handbook/company/structu
 The CEO generally works from 8am to 6pm Pacific. This means that shadows from Pacific, Mountain, or Central time zones can participate without dramatic shifts to their usual working hours. To the degree possible, these folks should plan to clear their schedule during the CEO's working hours.
 
 If a person is applying from over 3 time zones from the Pacific time zones or has special considerations (for example, inflexible care duties), they can still participate. We ask that they:
+
 1. Commit to participating at least 6 hours a day between 8am and 6pm Pacific
 1. Confirm with their "See One" and "Teach One" partners that they can provide sufficient coverage during the times that the participant will not be participating
 
@@ -116,7 +117,7 @@ Currently, a rotation is two weeks:
 
 The shadow should be available for the full two weeks.
 
-When the CEO has a week or more of paid time off, or during [Summit (Contribute)](/handbook/company/culture/contribute/_index.md), the program will pause, one shadow will "see one" before the break and "teach one" after the break.
+When the CEO has a week or more of paid time off, or during [Summit (Contribute)](/handbook/company/culture/summit/_index.md), the program will pause, one shadow will "see one" before the break and "teach one" after the break.
 The rotations with breaks of one or more weeks without a shadow are great if you can't be away from home for more than one week at a time.
 
 This program is not limited to long-term GitLab team members.
@@ -139,24 +140,24 @@ For those with regular commitments, look for shorter weeks or timezone variation
 | 2024-06-17 | 2024-06-21 | [Stacy Cline](https://gitlab.com/slcline) - Sr Director, ESG | [Camilo Villanueva Santiago](https://gitlab.com/cvillanueva1) - Sr. Enterprise Renewals Manager | REMOTE - PT |
 | 2024-06-24 | 2024-06-27 | [Sherrod Patching](https://gitlab.com/spatching) - VP, Customer Success | [Emilio Salvador](@esalvadorp) - VP Developer Relations & Community | In Person - East Coast |
 | 2024-07-01 | 2024-07-05 | NO SHADOW | NO SHADOW | CEO OOO |
-| 2024-07-08 | 2024-07-12 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | limited week/travel in EMEA |
-| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
+| 2024-07-08 | 2024-07-12 | NO SHADOW | NO SHADOW | travel in EMEA |
+| 2024-07-15 | 2024-07-19 |  [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | [David Tuan](https://gitlab.com/dtuan) - Director, Strategy and Operations | REMOTE - PT |
 | 2024-07-22 | 2024-07-26 |  [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | [Kristine Setschin](https://gitlab.com/KSetschin) - Sr. Manager Regional Marketing, EMEA | REMOTE - PT |
 | 2024-07-29 | 2024-08-02 |  Ivan French - CEO, Sijbrandij Foundation | [Lesley Razzaghian](https://gitlab.com/lesley-r) - Backend Engineer | REMOTE - PT |
-| 2024-07-29 | 2024-08-02 |  OPEN | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
-| 2024-08-05 | 2024-08-09 |  OPEN | OPEN | REMOTE - CT - limited week due to MS conference |
+| 2024-07-29 | 2024-08-02 | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | Ivan French - CEO, Sijbrandij Foundation | REMOTE - PT |
+| 2024-08-05 | 2024-08-09 |  OPEN | [Gary Holtz](https://gitlab.com/garyh) - Backend Engineer, Create: Code Review | REMOTE - CT - limited week due to MS conference |
 | 2024-08-12 | 2024-08-16 |  OPEN | OPEN | REMOTE - PT |
 | 2024-08-19 | 2024-08-23 |  OPEN | OPEN | REMOTE - PT - limited week (M-W)|
-| 2024-08-26 | 2024-08-30 |  OPEN | OPEN | REMOTE - PT |
-| 2024-09-02 | 2024-09-06 |  OPEN | OPEN | REMOTE - PT |
-| 2024-09-09 | 2024-09-13 |  OPEN | OPEN | REMOTE - PT - limited week due to conference / f&f day |
+| 2024-08-26 | 2024-08-30 | [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | OPEN | REMOTE - PT |
+| 2024-09-02 | 2024-09-06 |  [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture| [Sam Wiskow - Senior Product Manager, Delivery & Scalability](https://gitlab.com/swiskow) | REMOTE - PT |
+| 2024-09-09 | 2024-09-13 |  OPEN | [Vladimir Dzalbo](https://gitlab.com/dzalbo) - Sr. Manager Solutions Architecture | REMOTE - PT - limited week due to conference / f&f day |
 | 2024-09-16 | 2024-09-20 |  OPEN | OPEN | REMOTE - PT |
 | 2024-09-23 | 2024-09-27 |  VP-DIRECTS ONLY | VP-DIRECTS ONLY  | In person - San Francisco |
 | 2024-09-30 | 2024-10-04 |  OPEN | OPEN | REMOTE - PT |
 | 2024-10-07 | 2024-10-11 |  OPEN | OPEN | REMOTE - PT |
 | 2024-10-14 | 2024-10-18 |  OPEN | OPEN | REMOTE - PT - very limited week due to multiple conferences |
-| 2024-10-21 | 2024-10-25 |  OPEN | OPEN | REMOTE - PT |
-| 2024-10-28 | 2024-11-01 |  OPEN | OPEN | REMOTE - PT |
+| 2024-10-21 | 2024-10-25 |  [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
+| 2024-10-28 | 2024-11-01 |  OPEN | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
@@ -266,7 +267,7 @@ For insights on maximizing a remote CEO Shadow rotation, view takeaway recap vid
 1. Depending on your time zone, working in Pacific Time may be an adjustment to your typical working hours. [Plan ahead,](/handbook/company/culture/all-remote/getting-started/#establish-routine-with-family-and-friends) especially if you're balancing responsibilities with family, pets, roommates, etc.
 1. Consider switching locations in your home or workspace during the CEO's 1:1 meetings. Since you [won't be taking active notes](#meeting-responsibilities) in these calls, this is a good opportunity to change position or scenery intermittently throughout the day.
 1. Particularly in a remote CEO Shadow rotation, life is more available to sidetrack you. It is OK if you need to drop from a meeting to handle tasks at home, from childcare to answering the door, or anything in between. GitLab puts [family and friends first, work second]({{< ref "values#family-and-friends-first-work-second" >}}). If feasible, communicate these instances with your co-shadow, so they can assist with ongoing note-taking/tasks.
-1. Consider taking one or two days off after your rotation. Being a CEO Shadow can be intense. Be aware of [symptoms of burnout](/handbook/paid-time-off/#recognizing-burnout).
+1. Consider taking one or two days off after your rotation. Being a CEO Shadow can be intense. Be aware of [symptoms of burnout](/handbook/people-group/paid-time-off/#recognizing-burnout).
 
 ## What to expect during the program
 
@@ -404,10 +405,9 @@ Score definitions:
 - `4`: reactions were mostly positive
 - `5`: reactions were authentically positive
 
-
 #### When and how to speak up
 
-The CEO shadow program is not about you being an active member of the discussion. Still, our [Results for Customers value](https://handbook.gitlab.com/handbook/values/#operate-with-a-bias-for-action) mentions to operate with a bias for action. If a question is raised during the discussion that you know the definitive answer or can look up it up in very few seconds, you are welcome to share your insights in the chat during GitLab internal meetings only. You might be asked to vocalize your answer. Note that sharing a single bit of information when discussing a larger topic might be more disturbing than helpful.
+The CEO shadow program is not about you being an active member of the discussion. Still, our [Results for Customers value](/handbook/values/#operate-with-a-bias-for-action) mentions to operate with a bias for action. If a question is raised during the discussion that you know the definitive answer or can look up it up in very few seconds, you are welcome to share your insights in the chat during GitLab internal meetings only. You might be asked to vocalize your answer. Note that sharing a single bit of information when discussing a larger topic might be more disturbing than helpful.
 
 ### Tasks
 
@@ -436,7 +436,7 @@ CEO Shadows label the handbook MRs they create with the `ceo-shadow` label. You 
 
 #### Drafting a tweet storm
 
-A tweet storm is a series of Twitter posts usually made as replies in a single thread on a topic. CEO Shadows may be asked to draft the tweets in relation to a public livestreamed video recording or some other media content.
+A tweet storm is a series of X/Twitter posts usually made as replies in a single thread on a topic. CEO Shadows may be asked to draft the tweets in relation to a public livestreamed video recording or some other media content.
 
 1. Create a Google Doc with a title using the format "202X-XX-XX Tweet storm for Topic".
 1. At the top of the document, include the full title of the media and a link to it.
@@ -454,7 +454,7 @@ A tweet storm is a series of Twitter posts usually made as replies in a single t
 
 Tweet storm examples:
 
-1. 2021-06-02: Server runtimes and development environments: [Twitter thread](https://twitter.com/sytses/status/1400134840754733059), [Source (internal)](https://docs.google.com/document/d/1eXGoPr6iXBUgOBr9fgDjQkk-vGdT_edCSTNUIK6UVrc/edit)
+1. 2021-06-02: Server runtimes and development environments: [X/Twitter thread](https://twitter.com/sytses/status/1400134840754733059), [Source (internal)](https://docs.google.com/document/d/1eXGoPr6iXBUgOBr9fgDjQkk-vGdT_edCSTNUIK6UVrc/edit)
 
 ## Meetings & Events
 
@@ -469,6 +469,8 @@ Tweet storm examples:
 ### Types of meetings
 
 There are three types of meetings on the CEO's calendar: GitLab meetings, Valley meetings, and personal meetings. Please note that the program's continued success depends on the participants respecting confidentiality during the program, after the program, and after they leave GitLab.
+
+For Valley meetings and personal meetings you may be invited to, it may be helpful to know context on the attendees in advance. CEO Shadows have created a [document](https://drive.google.com/drive/search?q=CEO%20non-GitLab%20meetings) (limited access) that they can use to provide context to future CEO Shadows on these folks. CEO Shadows may update this document while they are shadowing. This document should not contain any information that is not publicly available.
 
 #### GitLab Meetings
 
@@ -542,7 +544,7 @@ Personal meetings will be marked as "busy" on the calendar. Shadows do not atten
 
 #### Earnings Mock Call Webinars
 
-Mock Call webinars for earnings prep differ from other meetings on the CEO calendar. There there is a specific panelist link for the CEO, and a participants link for shadows to use for observation. Do not join the mock call using the link in the CEO's calendar. The link to register as a participant will be shared with the shadows in #ceo-shadow-private typically by the day prior. If you do not see the registration link posted, please reach out to the [EBAs]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) on Slack.
+Mock Call webinars for earnings prep differ from other meetings on the CEO calendar. There is a specific panelist link for the CEO, and a participants link for shadows to use for observation. Do not join the mock call using the link in the CEO's calendar. The link to register as a participant will be shared with the shadows in #ceo-shadow-private typically by the day prior. If you do not see the registration link posted, please reach out to the [EBAs]({{< ref "eba#executive-business-administrator-team" >}}) and [Chief of Staff to the CEO]({{< ref chief-of-staff >}}) on Slack.
 
 #### Earnings Call
 
@@ -628,11 +630,11 @@ This can be seen on the CEO's [GitLab activity log](https://gitlab.com/users/syt
 ![GitLab Activity Log](https://about.gitlab.com/images/ceoshadow/gitlabactivitylog.png)
 See what issues and MRs Sid is interacting with
 
-### On Twitter
+### On X/Twitter
 
-Check out [Sid's Twitter account](https://twitter.com/sytses).
+Check out [Sid's X/Twitter account](https://twitter.com/sytses).
 
-![Twitter notification](/images/ceoshadow/twitternotification.png)
+![X/Twitter notification](https://about.gitlab.com/images/ceoshadow/twitternotification.png)
 Sign up for Twitter notifications (Twitter account required) to follow his everyday engagements.
 
 ## Travel & Expenses
@@ -649,7 +651,7 @@ If you're traveling for the CEO Shadow Program, depending on your hotel accommod
 
 #### Lodging
 
-Lodging during the CEO Shadow Program is provided by the company. Executive Admin to the CEO books the accommodation based on availability and cost. You can express your preference (hotel or AirBnB) via email to the Executive Admin to the CEO in question. However, the final decision is made by the Executive Admin based on the distance from the CEO and costs. Executive Admin will provide the accommodation details no earlier than 1 month and no later than 2 weeks before the scheduled rotation.
+Lodging during the CEO Shadow Program is provided by the company. Executive Admin to the CEO books the accommodation based on availability and cost. You can express your preference (hotel or Airbnb) via email to the Executive Admin to the CEO in question. However, the final decision is made by the Executive Admin based on the distance from the CEO and costs. Executive Admin will provide the accommodation details no earlier than 1 month and no later than 2 weeks before the scheduled rotation.
 
 Accommodation is provided only for the active shadowing period, it is not provided during the shadow program pause (cases when the CEO is unavailable).
 In case you are coming from a timezone that is more than 6 hours difference with Pacific Time, it is possible to book the weekend before the first shadow work day to adjust to the new timezone.
@@ -658,12 +660,12 @@ If your CEO Shadow rotation is two consecutive weeks, it is expected you will be
 
 #### Airfare
 
-Airfare can be booked according to our [travel policy](/handbook/travel/) or [spending company money](/handbook/spending-company-money/) policy.
-In case your shadow rotation includes time without shadowing, it is possible to expense airfare to fly home and back within the continental USA. If you are from outside of the USA, it is also possible to expense airfare during the time without shadowing because of the possible high cost of lodging in San Francisco if you chose to stay at a different location.
+Airfare can be booked according to our [travel policy](/handbook/travel/) or [spending company money](/handbook/finance/spending-company-money/) policy.
+In case your shadow rotation includes time without shadowing, it is possible to expense airfare to fly home and back within the continental USA. If you are from outside of the USA, it is also possible to expense airfare during the time without shadowing because of the possible high cost of lodging in San Francisco if you choose to stay at a different location.
 
 #### Meals
 
-Shadows are able to expense food and beverage during their rotation and should follow our [spending company money](/handbook/spending-company-money/) policy.
+Shadows are able to expense food and beverage during their rotation and should follow our [spending company money](/handbook/finance/spending-company-money/) policy.
 
 ### Traveling with the CEO
 
@@ -674,11 +676,6 @@ When traveling with the CEO, keep the following in mind:
 1. Keep the EBA to the CEO and onsite EBA updated regularly and promptly on estimated arrival time in `#ceo-shadow` Slack channel to ensure the schedule is on time.
 1. If travel plans change, please update the EBA(s) in Slack immediately so cancellations to prior transportation can be made promptly to not incur fees.
 1. When returning to San Francisco, if on a different airline, be sure to arrive before the CEO and communicate a meetup location if traveling back together.
-
-### Travel Guidance: COVID-19
-
-Our top priority is the health and safety of our team members, please refer to the current [travel policy](/handbook/travel/#travel-guidance-covid-19).
-The CEO Shadow Program is classified as non-essential travel and travel is generally not required. If you prefer not to travel, sign up for a remote rotation.
 
 ## Considerations for other companies starting CEO Shadow Programs
 
@@ -799,11 +796,11 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2021-11-30 | 2021-12-10 | [Amy Qualls](https://gitlab.com/aqualls) | Sr. Technical Writer | |
 | 2021-12-06 | 2021-12-17 | [James Heimbuck](https://gitlab.com/jheimbuck_gl) | Sr. Product Manager | |
 | 2021-12-13<br>2022-01-03 | 2021-12-17<br>2022-01-07 | [Cynthia Ng](https://gitlab.com/cynthia) | Sr. Support Engineer | [CEO Shadow Reflection](https://wp.me/pHQ83-1Id) |
-| 2022-01-10 | 2022-01-21 | [Marshall Cottrell](https://gitlab.com/marshall007) - Strategy and Operations (Technical) | |
+| 2022-01-10 | 2022-01-21 | [Marshall Cottrell](https://gitlab.com/marshall007) | Strategy and Operations (Technical) | |
 | 2022-01-04 | 2022-01-14 | [Josh Zimmerman](https://gitlab.com/Josh_Zimmerman) | Learning & Development Manager | [What I Learned From Shadowing the CEO of GitLab](https://www.linkedin.com/pulse/what-i-learned-from-shadowing-ceo-gitlab-josh-zimmerman/?trackingId=fNh8oCxzT9uxnuQffP%2Fd1A%3D%3D) |
 | 2022-01-18 | 2022-01-28 | [Cesar Saavedra](https://gitlab.com/csaavedra1) | Sr. Technical Marketing Manager | [Being a GitLab CEO Shadow](https://www.linkedin.com/pulse/being-gitlab-ceo-shadow-cesar-saavedra/?trackingId=y6tHk3NjTLyW1yPhu%2Bm7Zw%3D%3D) |
 | 2022-01-24<br>2022-02-14 | 2022-01-28<br>2022-02-17 | [Darby Frey](https://gitlab.com/darbyfrey) | Staff Fullstack Engineer |  |
-| 2022-02-14 | 2022-02-25 | [Mark Scheuber](https://gitlab.com/mscheuber)  - Sr. Strategic Account Executive |  |
+| 2022-02-14 | 2022-02-25 | [Mark Scheuber](https://gitlab.com/mscheuber)  | Sr. Strategic Account Executive |  |
 | 2022-02-22 | 2022-03-04 | [Jonathan Miller](https://gitlab.com/JonathanMiller) | FP&A Manager, R&D |  |
 | 2022-02-28 | 2022-03-11 | [Fiona O'Keeffe](https://gitlab.com/FionaOKeeffe) | Senior Reference Program Manager | |
 | 2022-03-07 | 2022-03-18 | [Byron Boots](https://gitlab.com/byronboots) | Senior Security Asssurance Engineer | |
