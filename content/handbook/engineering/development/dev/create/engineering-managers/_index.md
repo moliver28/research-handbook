@@ -8,7 +8,7 @@ title: Engineering Managers
 | Image | Name | Title | Team | LinkedIn |
 | ----- | ---- | ----- | ---- | -------- |
  | ![''](https://about.gitlab.com/images/team/darvasatcher-crop.jpg "Darva")             | Darva Satcher | Director of Engineering | [Create Stage](/handbook/engineering/development/dev/create/) | [LinkedIn](https://www.linkedin.com/in/darva-satcher-34a288a/) |
- | ![''](https://about.gitlab.com/images/team/adebayo_a-crop.jpg "Adebayo")              | Adebayo Adesanya | Fullstack Engineering Manager | [IDE](/handbook/engineering/development/dev/create/ide/) |  |
+ | ![''](https://about.gitlab.com/images/team/adebayo_a-crop.jpg "Adebayo")              | Adebayo Adesanya | Fullstack Engineering Manager | [Remote Development](/handbook/engineering/development/dev/create/remote-development/) |  |
  | ![''](https://about.gitlab.com/images/team/andreluis-crop.jpg "Andre")                | André Luis | Frontend Engineering Manager |  [Code Review](/handbook/engineering/development/dev/create/code-review/frontend/) & [Source Code](/handbook/engineering/development/dev/create/code-review/frontend/) | [LinkedIn](https://www.linkedin.com/in/andr3/) |
  | ![''](https://about.gitlab.com/images/team/francoisrose-crop.jpg "Francois")          | François Rosé | Fullstack Engineering Manager | [Code Review](/handbook/engineering/development/dev/create/code-review/backend/) | [LinkedIn](https://www.linkedin.com/in/fvarose) |
  | ![''](https://about.gitlab.com/images/team/mattnohr-crop.jpg "Matt")                  | Matt Nohr | Backend Engineering Manager | [Code Creation](/handbook/engineering/development/dev/create/code-creation/) | [LinkedIn](https://www.linkedin.com/in/matthewnohr/) |

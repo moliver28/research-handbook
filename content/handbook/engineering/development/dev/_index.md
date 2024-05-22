@@ -26,7 +26,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
     - [Create: Source Code FE](/handbook/engineering/development/dev/create/code-review/frontend/)
     - [Create: Code Review BE](/handbook/engineering/development/dev/create/code-review/backend/)
     - [Create: Code Review FE](/handbook/engineering/development/dev/create/code-review/frontend/)
-    - [Create: IDE](/handbook/engineering/development/dev/create/ide/)
+    - [Create: Remote Development](/handbook/engineering/development/dev/create/remote-development/)
     - [Create: Code Creation](/handbook/engineering/development/dev/create/code-creation/)
     - [Create: Editor Extensions](/handbook/engineering/development/dev/create/editor-extensions/)
     - [Create Frontend](/handbook/engineering/frontend/create/)

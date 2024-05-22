@@ -42,7 +42,7 @@ Run `git pull` [enter] on occasion to make sure you have the most recent changes
 
 ### Static Site Editor Developer Tips
 
-There is a handy resource the Static Site Editor group has put together for [Git Tips here](/handbook/engineering/development/dev/create/ide/developer-cheatsheet/#git-tips).
+There is a handy resource the Static Site Editor group has put together for [Git Tips here](/handbook/engineering/development/dev/create/remote-development/developer-cheatsheet/#git-tips).
 
 ## Getting Recent Changes From Main
 
@@ -99,5 +99,5 @@ If you're having problems with Git, reach out in the following Slack channels =)
 ### Existing Resources
 
 Here are some existing resources from GitLab for Git.
-- [Developer Cheatsheet, Engineering Handbook](/handbook/engineering/development/dev/create/ide/developer-cheatsheet/)
+- [Developer Cheatsheet, Engineering Handbook](/handbook/engineering/development/dev/create/remote-development/developer-cheatsheet/)
 - [Git Cheat Sheet for Press](/images/press/git-cheat-sheet.pdf)

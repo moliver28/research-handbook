@@ -360,7 +360,7 @@ The merge request is the atomic unit of deliverable work in most cases, so it mu
 and calculations by being owned by one and only one issue.
 
 In order to enforce this via triage-ops automations
-(https://about.gitlab.com/handbook/engineering/development/dev/create/ide/#automations-for-remote-development-workflow),
+(https://about.gitlab.com/handbook/engineering/development/dev/create/remote-development/#automations-for-remote-development-workflow),
 the first line of the issue should have the format: `MR: <...>`:
 
 1. For new issues, the first description line should be: `MR: Pending`
@@ -533,9 +533,9 @@ TODO: None of these are set up for the Web IDE category and `webide-workflow::*`
 [gdoc]: https://docs.google.com/document/d/1b-dgL0ElBf_I3pbBUFISTYBG9VN02F1b3TERkAJwJ20/edit#
 [slack]: https://gitlab.slack.com/archives/CJS40SLJE
 [youtube]: https://www.youtube.com/playlist?list=PL05JrBw4t0KrRQhnSYRNh1s1mEUypx67-
-[cheatsheet]: /handbook/engineering/development/dev/create/ide/developer-cheatsheet/
-[principles]: /handbook/engineering/development/dev/create/ide/principles/
-[community-contributions]: /handbook/engineering/development/dev/create/ide/community-contributions/
-[community-contributions-wider-community]: /handbook/engineering/development/dev/create/ide/community-contributions/#wider-community-as-primary-audience
+[cheatsheet]: /handbook/engineering/development/dev/create/remote-development/developer-cheatsheet/
+[principles]: /handbook/engineering/development/dev/create/remote-development/principles/
+[community-contributions]: /handbook/engineering/development/dev/create/remote-development/community-contributions/
+[community-contributions-wider-community]: /handbook/engineering/development/dev/create/remote-development/community-contributions/#wider-community-as-primary-audience
 
 <!-- LINKS END -->
