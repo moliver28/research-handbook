@@ -146,14 +146,18 @@ Such events can be recovered by reprocessing them.
       
       Example setup process to Amazon Linux:
       1. Install nessesery unilites 
+
       ```shell
       sudo yum groupinstall "Development Tools" # install build-essentials and related tools
-      sudo install git tmux # tmux or similar utilite to avoid terminating process on disconnect
+      sudo yum install git ruby-devel tmux # tmux or similar utilite to avoid terminating process on disconnect
       ```
+
       2. Setup AWS CLI access (used to download files from S3)
+
       ```shell
       aws configure sso
       ```
+      
 2. Download events from `enriched-bad` S3 folder using `aws` CLI `aws s3 cp s3://gitlab-com-snowplow-events/enriched-bad/{year}/{month}/{day} {local_folder} --recursive` and un-archive them `gunzip -r .`.
 3. Checkout [snowplow anonymizer repository](https://gitlab.com/gitlab-org/analytics-section/analytics-instrumentation/snowplow-pseudonymization). It contains classes necessary to de-serialize binary base64 encoded payload.
 4. Create a processing script to fix the payloads and re-submit data. An important point to consider:
