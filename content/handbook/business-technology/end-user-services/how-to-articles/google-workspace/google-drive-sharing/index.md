@@ -1,4 +1,4 @@
-<!-- MOVE_TO: /handbook/security/corporate/support/google -->
+<!-- MOVE_TO: /handbook/security/corporate/systems/google-drive/guides/ -->
 <!-- comment: move the entire page -->
 
 ---
