@@ -6,7 +6,7 @@
 - For links to role based access request templates, system access templates, and other general instructions and FAQs, please refer to the [Access Requests page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 #### Baseline & Role-Based Entitlements
-<!-- MOVE_TO: /handbook/security/corporate/access-requests -->
+<!-- MOVE_TO: /handbook/security/corporate/services/access-requests -->
 
 - For information about baseline entitlements and role-based access, please refer to the [baseline entitlements handbook page](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/).
 
