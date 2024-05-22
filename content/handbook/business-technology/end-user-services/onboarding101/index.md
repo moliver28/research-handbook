@@ -1,29 +1,20 @@
+<!-- MOVE_TO: /handbook/security/guides -->
+<!-- move entire page to that section -->
 ---
 
 title: "GitLab IT 101"
 ---
 
-
-
-
-
-
-
 ## Welcome To GitLab
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 Congratulations on joining GitLab! This page is dedicated to the IT onboarding experience, here at GitLab we use many applications and the latest hardware to enable you to complete your work to the best of your ability! While it may seen a little bit overwhelming at the start the Team member enablement team is here to make the process as easy as possible!
 
 ## Getting Started
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 ### Laptop Setup: MacBook
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
-
 The first time your MacBook Pro starts up, Setup Assistant walks you through the simple steps needed to start using your new Mac.
 
 #### Initial Setup
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 ![ALT](https://help.apple.com/assets/5F46CA8B094622AD463B4A64/5F46CA9D094622AD463B4A8A/en_US/cd2f81cf603fecfcc05525948f6f84fb.png)
 
@@ -36,12 +27,10 @@ Tip: After setup, if you don’t see the Wi-Fi status icon in the menu bar, you 
 - Transfer information: If you’re setting up a new computer and you haven’t previously set up a Mac, click “Don’t transfer any information now.”
 
 #### Apple ID
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 - Please create a new Apple ID for GitLab using your @gitLab.com email address to keep your personal and work data separate. You can also reimburse apps using an Apple ID created with your GitLab account. Your Apple ID consists of an email address and a password. It’s the account you use for everything you do with Apple—including using the App Store, Apple TV app, Apple Book Store, iCloud, Messages, and more.
 
 #### Initial Setup Part 2
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 - **Screen Time:** Monitor and get reports on the use of your computer. For options and details, see Screen Time on Mac.
 
@@ -58,7 +47,6 @@ Tip: After setup, if you don’t see the Wi-Fi status icon in the menu bar, you 
 Tip: If two or more users use the same MacBook Pro, each user can add a fingerprint to Touch ID to quickly unlock, authenticate, and log in to the MacBook Pro. You can add up to three fingerprints per user account, and a total of five fingerprints for all your MacBook Pro user accounts.
 
 ## MacBook Cheat Sheet
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 If you are new to using a MacBook or switched from another OS such as windows check out these useful shortcuts and options!
 
@@ -67,26 +55,22 @@ If you are new to using a MacBook or switched from another OS such as windows ch
 ![mactips1.png](mactips1.png)
 
 ### Official Apple Training
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 Apple has official training sessions available every week! These training sessions are great if you are new to using a MacBook or want some tips and insider knowledge on using a MacBook! Please check it out [here](https://events.apple.com/content/events/pst/us/en/default.html?token=xww6uj7woR0X9A3Y9qIMRkNVdH60MurN7MAvJSY75sHQxWqaTEhMjEmalXqC7MMJuZhb5dzJ1P9mLUXaAAfCMipX6qVTaNqFY_njjpamZQfrSbMYEpe-edwBN1r5nI4t-GCxEY8&a=1&l=e).
 
 ## Laptop Setup: Linux
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 Check out [this detailed page](/handbook/tools-and-tips/linux/) on setting up your Linux laptop.
+
 ## Extra Setup
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 ### Endpoint Management
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 MacBook: You are required to install Jamf on your MacBook for security and compliance reasons. Please check [this guide](https://internal.gitlab.com/handbook/it/endpoint-tools/jamf/#enrolling-in-jamf) for assistance!
 
 Linux: Currently we do not have an endpoint management tool for Linux. However we do have [a tool](/handbook/business-technology/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe) that we use to wipe and lock them if needed.
 
 ### Laptop Encryption
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 It is essential to encrypt your laptops hard drive using Mac's FileVault or Linux's built in encryption. This will prevent unauthorised access of the contents in your hard drive. Please refer to our security pages to complete this.
 
@@ -94,6 +78,5 @@ It is essential to encrypt your laptops hard drive using Mac's FileVault or Linu
 - [Linux Encryption](/handbook/tools-and-tips/linux/#initial-installation)
 
 ## Need Help?
-<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 
 If you need further assistance with setting up your MacBook please join our weekly onboarding call scheduled every Tuesday (Check your Calendar!) or reach out to us in slack in the #it_help channel.

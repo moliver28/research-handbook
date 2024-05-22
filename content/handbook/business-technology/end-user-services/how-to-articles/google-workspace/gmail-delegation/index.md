@@ -1,3 +1,4 @@
+<!-- MOVE_TO: /handbook/security/corporate/services/onboarding -->
 ---
 title: "How To Use Gmail Delegate"
 ---
