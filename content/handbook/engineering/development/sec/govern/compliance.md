@@ -161,10 +161,11 @@ Our priorities should follow [overall guidance for Product](/handbook/product/pr
 | priority::3 | **Normal**: incremental improvements to existing features. These are important iterations, but deemed non-critical. | ~50% |
 | priority::4 | **Low**: stretch issues that are acceptable to postpone into a future release. | ~25% |
 
-### Progress Updates
+### Weekly Progress Updates
 
-- Engineering manager(EM): post comment on current planning issue on frist day of week to prompt team members to update. Format: | NUMBER | EPIC | GOAL | [DRI](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/) |  
-- Implementing team member: post a short update (1-2 sentences) on each item where you are the directly responsible individual (DRI)
+- Engineering manager (EM): Posts a comment on the current planning issue on the first day of the week, to prompt team members to update. 
+  - Format: | NUMBER | EPIC | GOAL | [DRI](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/) |  
+- Implementing team member: post a short update (1-2 sentences) on each item where you are the directly responsible individual (DRI).
 
 #### Why?
 
@@ -173,6 +174,12 @@ Intention of this is:
 - have an easily accessible version of the update for reporting up the chain without EMs having to transcribe meeting recordings. 
 - remove the on-the-spot/ad-hoc nature of these updates. 
 
+- Implementing team member: post a short update (1-2 sentences) on each item where you are the directly responsible individual (DRI)
+
+Intention of this is:
+- Reference for verbal weekly updates during the Compliance Weekly meetings.
+- Document the weekly update for reporting. 
+- Remove the on-the-spot/ad-hoc nature of the weekly updates. 
 
 ## During Milestone
 
