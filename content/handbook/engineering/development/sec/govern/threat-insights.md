@@ -57,10 +57,14 @@ We use our Threat Insights Priorities pages [16.x](https://about.gitlab.com/dire
 
 Threat Insights is a large group, and to reduce planning overhead, engineering is organized into two teams, Navy and Tangerine, that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/). This is more efficient because it virtually eliminates the cross-team dependency that comes from organizing a large group by technical expertise.
 
-Both teams have Backend and Frontend engineers, and as such work on any part of our codebase. However, Team Navy primarily focuses on features that affect the user interface, while Team Tangerine concentrates on data management.
 
 We use the scoped labels `~"Threat Insights::Navy"` `~"Threat Insights::Tangerine"` to designate work for each team. Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "ryaanwells" >}}.
 
+In FY25-Q2 we are grouping projects into three main `swimlanes`:
+
+1. Performance and optimization (DRI: @nmccorrison)
+2. Roadmap projects (DRI: @ryaanwells)
+3. AI Vulnerability Management (DRI: @sming-gitlab)
 
 ### Metrics
 
