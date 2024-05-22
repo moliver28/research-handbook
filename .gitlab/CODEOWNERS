@@ -25,7 +25,7 @@
 * @gitlab-com/egroup @gitlab-com/content-sites
 
 ^[test]
-/content/handbook/ipedowitz-test/ @ipedowitz
+/content/handbook/ipedowitz-test.md @ipedowitz
 
 # Handbook section needs to be near the top as it includes the fallback
 ^[handbook]
