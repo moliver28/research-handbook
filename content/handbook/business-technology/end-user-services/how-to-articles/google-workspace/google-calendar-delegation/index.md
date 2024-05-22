@@ -1,4 +1,4 @@
-<!-- MOVE_TO: /handbook/security/corporate/systems/google-calendar/guides/ -->
+<!-- MOVE_TO: /handbook/security/corporate/systems/google-calendar/guides -->
 <!-- comment: move the entire page -->
 
 ---

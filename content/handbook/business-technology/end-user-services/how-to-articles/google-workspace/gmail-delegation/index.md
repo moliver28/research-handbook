@@ -1,4 +1,4 @@
-<!-- MOVE_TO: /handbook/security/corporate/systems/google-mail/guides/ -->
+<!-- MOVE_TO: /handbook/security/corporate/systems/google-mail/guides -->
 <!-- comment: move the entire page -->
 
 --- 
