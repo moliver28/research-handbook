@@ -1,12 +1,12 @@
 
 #### Access Requests
-<!-- move this as to an EUS page-->
+<!-- MOVE_TO: /handbook/security/corporate/support -->
 - For information about the access request policies and security guidelines, please refer to the Security Team's [access request handbook page section](/handbook/security/#access-management-process).
 
 - For links to role based access request templates, system access templates, and other general instructions and FAQs, please refer to the [Access Requests page](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 #### Baseline & Role-Based Entitlements
-<!-- move this as to an EUS page-->
+<!-- MOVE_TO: /handbook/security/corporate/support -->
 
 - For information about baseline entitlements and role-based access, please refer to the [baseline entitlements handbook page](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/).
 
@@ -22,7 +22,7 @@ If you would like to check whether or not a team-member is a member of a Slack o
 - [Slack Group Membership Reports](https://gitlab.com/gitlab-com/security-tools/report-slack-group-members)
 
 ## IT-Help Slack Issue Creator
-<!-- move this as to an EUS page-->
+<!-- MOVE_TO: /handbook/security/corporate/support -->
 
 This automation converts Slack threads from the #it_help channel to issues in GitLab. With most IT support requests being handled in the #it_help Slack channel today, this automation will create one basic intake point with bilateral synchronization to GitLab helpdesk issues.
 
@@ -45,7 +45,7 @@ To learn more on how this automation works, check the [IT-Help Slack Issue Creat
 {: .alert .alert-info}
 
 #### IT Holiday Schedule
-<!-- move this as to an EUS page-->
+<!-- MOVE_TO: /handbook/security/corporate/support -->
 The IT Helpdesk team (End User Services) will be observing 2 end of the year holidays during the weeks from 2023-12-18 to the 2024-01-02.
 
 Observed Support Holidays
@@ -55,7 +55,7 @@ Monday January 1st
 If you have an urgent request, please reach out to us via slack in the #it_help channel.
 
 #### Laptop Wipe Schedules for IT Analysts
-<!-- move this as to an EUS page-->
+<!-- MOVE_TO: /handbook/security/corporate/support -->
 <!-- comment - that the offboarding laptop lock automation and other HB pages point to this one-->
 
 - Mic Rohr - [appointment schedule](https://calendar.app.google/QrBCkxhvAxkhA36M8) - AMER
