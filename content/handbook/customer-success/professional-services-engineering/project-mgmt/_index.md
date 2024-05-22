@@ -19,10 +19,6 @@ GitLab takes our customer's success very seriously. In Professional Services (PS
 
 Given the close collaboration between the PS Project Management and PS Operations [team functions](/handbook/customer-success/professional-services-engineering/#team-functions), please refer to the [PS Operations Wiki](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home) for details on processes related to scheduling, reporting, billing, partner processes, and more.  
 
-### Project plan
-
-Each PS Engagement will include a Project Plan based on the activities outlined in the Statement of Work (SOW). The Project Plan starts in Kantata but may be supplemented by a more detailed Gantt chart, tasks list, or another form of documented plan. This plan will follow the process diagram listed above.
-
 ### Project workflow
 
 #### Pre-Project Prep
@@ -33,7 +29,6 @@ Each PS Engagement will include a Project Plan based on the activities outlined 
    - Technical growth path opportunity
    - Time zone
    - Availability
-
 2. PS Operations: Reviews team member availability, consulting with Regional Delivery Managers as needed, and adds a soft-allocation to the Kantata project schedule.
    - This puts a temporary hold on the resources intended to work the project
 
