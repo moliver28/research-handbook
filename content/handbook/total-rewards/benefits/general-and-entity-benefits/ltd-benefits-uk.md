@@ -13,7 +13,9 @@ For UK-based team members, GitLab provides 100% paid membership of medical insur
 Please note: team members enrolled will still be responsible for the BIK ("Benefits in-Kind") taxes on their healthcare coverage. If you have questions on your BIK taxes, please email 'nonuspayroll@gitlab.com' and 'total-rewards@gitlab.com'.
 Further information can also be found in the [AXA PPP Brochure](https://drive.google.com/file/d/130IiyCm1qoCUYunqgGvwQGu7btvu0e0R/view?usp=sharing).
 
-Please let the Total Rewards team know if you would like to join the scheme via email to `total-rewards@gitlab.com` and `Bryony.Smith@wtwco.com` Include the following details:
+### Enrollment
+
+Please let the Total Rewards team know if you would like to join the scheme via email to `total-rewards@gitlab.com` and `Lisa.Holland@wtwco.com`  Include the following details:
 
  1. Full name
  1. Date of Birth
@@ -25,7 +27,7 @@ Team members who join the plan prior to the 24th of the month will have the BIK 
 
 Please note that it can take 7 - 10 working days to receive a reply and confirmation from AXA PPP.
 
-FYI Total Rewards team: The UK HR partner's contact information can be found in the Entity and Co-Employer HR Contacts note in the PeopleOps vault in 1Password.
+### Coverage Details
 
 The current coverage includes:
 
@@ -134,7 +136,7 @@ Please refer to the [Company Pension Plan FAQ](https://drive.google.com/file/d/1
 
 ### Salary Sacrifice
 
-Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by emailing total-rewards@gitlab.com. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
+Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by emailing total-rewards@gitlab.com and nonuspayroll@gitlab.com. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
 
 **Salary Sacrifice FAQ**
 
@@ -162,7 +164,11 @@ If an employee does not meet these criteria then they will be considered an **En
 - **Entitled workers** must be offered the opportunity to join the pension scheme. They can make contributions to the pension scheme if they choose. However, there is no requirement for GitLab to make a contribution
 - **Non-Eligible jobholders** must be offered the opportunity to opt in to an automatic enrollment scheme.
 
-### Scottish Widows Group Personal Pension Scheme & Enrollment
+</details>
+
+<details markdown="1">
+
+<summary>Scottish Widows Group Personal Pension Scheme & Enrollment</summary>
 
 The following process is followed by GitLab People Operations to join the Scheme during onboarding:
 
@@ -177,6 +183,8 @@ When an employee joins the scheme they will be sent a welcome pack in the post s
 
 If the team member hasn't received their Scottish Widows package in the mail within their first 2 months of their joining date, they can log on to their
 [Scottish Widows Portal](http://www.scottishwidows.co.uk/personal). Select “Register Now’, and fill out your details (no need to fill out the Policy Number, as you can use your National Insurance Number instead). Please do not try to log in via the portal before Papaya has uploaded your information in accordance to the schedule above, as you will be denied access.
+
+</details>
 
 Some other key points of the scheme are as follows:
 
@@ -205,7 +213,11 @@ benefits from a Defined Contribution pension arrangement. Please see the [Annual
 These contribution percentages are in line with [The Pension Regulator's Auto-enrollment legislation](http://www.thepensionsregulator.gov.uk/doc-library/automatic-enrolment-detailed-guidance.aspx).
 Should the government's minimum contribution standards change further GitLab will contact you to advise the new levels to comply with legislation.
 
-### Opting Out
+</details>
+
+<details markdown="1">
+
+<summary>Opting Out</summary>
 
 If you decide to opt out of the scheme you can do this within one month of the enrollment date by following the instructions in the information from Scottish Widows. The Opt Out deadlines are:
 
@@ -215,6 +227,16 @@ If you decide to opt out of the scheme you can do this within one month of the e
 - You can opt-out by completing the Scottish Widows [Opt-out form for Group Pension Scheme](https://drive.google.com/file/d/1FDCXW2qa3pniHIbkJ4vSkK-C_KGmLiNa/view?usp=sharing). The form must be completed, then returned to Total Rewards at total-rewards@gitlab.com
 - The pension provider will also be able to tell you when the one month opt-out period started, if you aren’t sure.
 - An opt-out from the pension scheme normally lasts for **three years**. If you've opted out, or stopped contributions to the scheme, GitLab is required to automatically enroll you into the scheme at a later date (normally every three years).
+
+</details>
+
+<details markdown="1">
+
+<summary>Re-joining</summary>
+
+If you decide to re-join the scheme you can do so by emailing or sending a signed letter to People Operations. If you send an email, it should be from your personal email address, please ensure it contains the phrase `I confirm I personally submitted this notice to join a workplace pension scheme`. You can only re-join once in any 12 month period.
+
+</details>
 
 ### Contacts
 
@@ -231,10 +253,6 @@ You can also reach out to Willis Tower Watson to explain the details of the GitL
 Nick Allen, Associate Director
 Direct Line: 07920 213595
 E-mail: nick.allen@wtwco.com
-
-### Re-joining
-
-If you decide to re-join the scheme you can do so by emailing or sending a signed letter to People Operations. If you send an email, it should be from your personal email address, please ensure it contains the phrase `I confirm I personally submitted this notice to join a workplace pension scheme`. You can only re-join once in any 12 month period.
 
 ### Reports
 
@@ -280,6 +298,20 @@ The [workplace pension page](https://drive.google.com/file/d/1e38np_Q8_s9Ty5JdbX
 A fund fact sheet is provided for each fund with usual information such as previous performance.
 
 Management charges vary by fund and are not on the fact sheets: use the charges sheet tool on the [workplace pension page.](https://drive.google.com/file/d/1e38np_Q8_s9Ty5JdbXTiMFXYVPTa20UQ/view?usp=sharing).
+
+## Bike to Work/Tax Saver Commuter Scheme
+
+GitLab uses TravelHub to assist with the administration of the bike to work/tax saver commuter scheme. The GitLab specific online portal can be found at [GitLab Travel Hub](https://gitlab.biketowork.co.uk/). Team members will need to register and account to enter the GitLab specific online portal. Here is a link to TravelHub's [FAQs](https://support.hubex.ie/hc/en-ie/articles/360044040031) about these programs.
+
+There is a limit of £1000 for the total cost of the bicycle and accessories. The scheme may now be availed of once in 4 consecutive tax years, previously this was once every 5 years.
+
+#### Bike Applications
+
+Once your account is created, select a Bike to Work UK partner shop.
+Pick the new bike and accessories if required.
+Upload the quote received from the bike ship to the TravelHub portal to have the order approved.
+The Total Rewards team will receive an email with the request to login, review, and approve the application (credentials can be found in 1password). Please note that all payments should be made to TravelHub directly and not to the supplier chosen by staff. TravelHub will pay the supplier once the employee has received their Bike or Ticket.
+Total Rewards will notify payroll to reduce the team member's gross salary by the cost of the bike using a Salary Sacrifice Agreement.
 
 ## GitLab LTD United Kingdom Leave Policy
 
@@ -412,36 +444,6 @@ The following leave types run concurrently with GitLab PTO. Team members should 
 ## Employers' Liability Insurance
 
 You can view the `Certificate of Employers' Liability Insurance` [here](https://drive.google.com/file/d/1RCbwcUClPUxmkJALT9Ojk_TdTyCWOHgs/view?usp=sharing).
-
-## Monthly Medical Bill Payments
-
-The Total Rewards Analyst will collect the invoice and provide a department breakdown to Accounts Payable for AXA PPP each month.
-
-1. Send an email to all UK benefits contacts at Vistra on the 10th of the month requesting the AXA PPP invoice for that month. Subsequent emails may be required to ensure timely delivery of the invoice.
-1. Once the invoice has been received, add this to the `Monthly AXA Invoices` folder in the `Benefits` Google drive.
-1. Transcribe the PDF into a new tab of the `Monthly AXA Bills` spreadsheet.
-     - The easiest way to do this is to duplicate a previous detail tab, add in the new invoice amounts, and insert any new team members that have been added to the plan.
-1. Run a new Department report for all UK team members from BambooHR and overwrite this in the BambooHR department report tab.
-     - If you duplicated a previous tab when transcribing the PDF, the formula should automatically add everyone's department. Make sure everyone has a department associated with their record in the detail tab before proceeding to the next step.
-1. Add a new tab to the spreadsheet for the department summary:
-     - Create a pivot table in this tab using the detail tab.
-     - Add "Department" to the "Rows" section of the pivot table builder.
-     - Add "Invoice Amount (GBP)" to the "Values" section of the pivot table builder and set this to summarize by "Sum".
-1. Once completed, send an email to Accounts Payable notifying that the invoice and department summary are ready to view.
-
-## Bike to Work/Tax Saver Commuter Scheme
-
-GitLab uses TravelHub to assist with the administration of the bike to work/tax saver commuter scheme. The GitLab specific online portal can be found at [GitLab Travel Hub](https://gitlab.biketowork.co.uk/). Team members will need to register and account to enter the GitLab specific online portal. Here is a link to TravelHub's [FAQs](https://support.hubex.ie/hc/en-ie/articles/360044040031) about these programs.
-
-There is a limit of £1000 for the total cost of the bicycle and accessories. The scheme may now be availed of once in 4 consecutive tax years, previously this was once every 5 years.
-
-#### Bike Applications
-
-Once your account is created, select a Bike to Work UK partner shop.
-Pick the new bike and accessories if required.
-Upload the quote received from the bike ship to the TravelHub portal to have the order approved.
-The Total Rewards team will receive an email with the request to login, review, and approve the application (credentials can be found in 1password). Please note that all payments should be made to TravelHub directly and not to the supplier chosen by staff. TravelHub will pay the supplier once the employee has received their Bike or Ticket.
-Total Rewards will notify payroll to reduce the team member's gross salary by the cost of the bike using a Salary Sacrifice Agreement.
 
 ## Administrative Details for Benefits Team
 
