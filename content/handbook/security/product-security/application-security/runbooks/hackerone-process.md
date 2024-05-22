@@ -222,10 +222,11 @@ Some vulnerabilities will only work on certain Ruby versions. In order to reprod
 
 1. Update the Ruby version inside the following file to the required version:
    - `gitlab-development-kit/.tool-versions`
+   - `gitlab-development-kit/gitlab/.tool-versions`
 1. Run `asdf install ruby <required-version>` while inside the GDK directory.
 1. Run `gem install gitlab-development-kit` while inside the GDK directory.
 1. Go into the `./gitlab` directory inside the GDK direcory, and run `bundle install`.
-1. Verify the Ruby version by running `gdk restart`.
+1. Verify the Ruby version after running `gdk restart` and going to `http://127.0.0.1:3000/admin`
 
 ## Triaging deprecated features
 
