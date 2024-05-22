@@ -242,3 +242,10 @@ post_comment_on_failure:
     - glab mr note --unique $CI_MERGE_REQUEST_IID -m "$(cat msg.txt)"
   rules:
   - <<: *merge-request-or-tag
+
+notify_slack_on_build_failures:
+  when: on_failure
+  stage: notify
+  script: ./scripts/send-failure-notification-to-slack.sh
+  rules:
+  - <<: *default-branch
