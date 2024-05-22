@@ -181,7 +181,7 @@ For reimbursements above $1,000, you can expense 50% of the cost up front, and 5
 
 ### Code Based Learning
 
-**Description:**The company will pay for courses related to learning how to code (for example Learning Rails on Codecademy), and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
+**Description:** The company will pay for courses related to learning how to code (for example Learning Rails on Codecademy), and you may also allocate work time to take courses that interest you. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
 
 **Eligibility for Reimbursement:** The course must be related code based learning. A final grade report or satisfactory certificate of completion are required to receive reimbursements over $1,000 USD. For reimbursements above $1,000, you can expense 50% of the cost up front, and 50% upon completion.
 
