@@ -64,12 +64,12 @@ If you need assistance with a production issue or incident, please see the secti
 
 | **Channel** | **Purpose** |
 |-----------|-----------|
-| [#production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N)| |
-| [#g_production_engineering_leads](https://gitlab.enterprise.slack.com/archives/C06LDGA7Z9S)| |
-| [#g_infra_ops](https://gitlab.enterprise.slack.com/archives/C04MH2L07JS)| |
-| [#g_infra_social](https://gitlab.enterprise.slack.com/archives/CQYDEJE13)| |
-| [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)| |
-| [#g_infra_foundations_social](https://gitlab.enterprise.slack.com/archives/C04QVEXBVL3)| |
+| [#production_engineering](https://gitlab.enterprise.slack.com/archives/C03QC5KNW5N)| Place for the Production Eng team to have internal work discussions and ask for MR reviews etc. |
+| [#g_production_engineering_leads](https://gitlab.enterprise.slack.com/archives/C06LDGA7Z9S)| Channel for Production Engineering leads (staff+ and management) |
+| [#g_infra_ops](https://gitlab.enterprise.slack.com/archives/C04MH2L07JS)| Team channel for Production Engineering Ops  |
+| [#g_infra_social](https://gitlab.enterprise.slack.com/archives/CQYDEJE13)| Social channel for Production Engineering |
+| [#g_infra_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)| Team channel for Production Engineering Foundations |
+| [#g_infra_foundations_social](https://gitlab.enterprise.slack.com/archives/C04QVEXBVL3)| Socializing and standups for the Foundations team |
 
 **Scalability**
 
