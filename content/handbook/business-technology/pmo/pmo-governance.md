@@ -20,8 +20,8 @@ This page describes the program methodology for GitLab IT programs to ensure str
 
 ## Non SOX projects tha tfollow Prgram development
 
-- Please refer to the 1 time programd evelopment controls below as a best practice
-- For UAT insteak off test cases for SOX applicaitons as a best practice provide screenshots for the high risk critical test scenarios
+- Please refer to the one time program development controls below and follow the requirements as a best practice
+- For UAT, obtain testing screenshots only for high/critical risk test scenarios. For high/critical risk test failures, obtain screenshots documenting resolution
 
 ## Program governance
 
