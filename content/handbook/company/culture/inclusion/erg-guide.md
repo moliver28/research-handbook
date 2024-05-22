@@ -15,7 +15,7 @@ Team Member **Resource Group** provide support for an underrepresented group
 
 Team Member **Advocacy Group**
 
-- Team Member Advocacy Groups provide company-backed support to GitLab team members through action, enablement and opportunity. As a result, they meet the specific and unique needs of demographics that are outside the scope of TMRGs. These groups provide education, resources, and community to enable increased visibility to leadership and the broader organization. A successful TMAG promotes team member engagement, well-being, retention, mobility and equity.
+- Team Member Advocacy Groups focus on Inclusion & Belonging of a demographic or social issue that sits outside of URGs and does not focus on team member representation.
 
 ### What is not an TMRG at GitLab
 
