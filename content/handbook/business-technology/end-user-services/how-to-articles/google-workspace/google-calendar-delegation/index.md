@@ -1,3 +1,6 @@
+<!-- MOVE_TO: /handbook/security/corporate/support/google -->
+<!-- comment: move the entire page -->
+
 ---
 
 title: "How To Use Google Calendar Delegate"

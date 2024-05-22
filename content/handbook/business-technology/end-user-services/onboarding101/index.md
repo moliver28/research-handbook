@@ -1,5 +1,5 @@
 <!-- MOVE_TO: /handbook/security/guides -->
-<!-- move entire page to that section -->
+<!-- comment: move the entire page -->
 ---
 
 title: "GitLab IT 101"

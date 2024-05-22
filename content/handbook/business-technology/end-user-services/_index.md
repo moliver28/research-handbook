@@ -14,7 +14,7 @@
 
 #### Automated Group Membership Reports for Managers
 <!-- MOVE_TO: /handbook/security/corporate/systems/google-workspace -->
-<!-- comment - open to somewhere else-->
+<!-- comment: open to somewhere else-->
 
 If you would like to check whether or not a team-member is a member of a Slack or a Google Workspace group, you can view the following automated group membership reports:
 
@@ -57,7 +57,7 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 #### Laptop Wipe Schedules for IT Analysts
 <!-- MOVE_TO: /handbook/security/corporate/services/laptops -->
-<!-- comment - that the offboarding laptop lock automation and other HB pages point to this one-->
+<!-- comment: that the offboarding laptop lock automation and other HB pages point to this one-->
 
 - Mic Rohr - [appointment schedule](https://calendar.app.google/QrBCkxhvAxkhA36M8) - AMER
 
