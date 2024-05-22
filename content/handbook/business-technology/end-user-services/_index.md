@@ -59,18 +59,13 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 <!-- MOVE_TO: /handbook/security/corporate/services/laptops -->
 <!-- comment: that the offboarding laptop lock automation and other HB pages point to this one-->
 
-- Mic Rohr - [appointment schedule](https://calendar.app.google/QrBCkxhvAxkhA36M8) - AMER
-
-- Jeff Ford - [appointment schedule](https://calendar.app.google/Qc1wwN94q6RqEyGL9) - AMER
-
-- Alex Kruseic - [appointment schedule](https://calendar.app.google/xsTHAQWxHmT3tpr86) - AMER
-
-- Jenny Wong - [appointment schedule](https://calendar.app.google/HJoCYkbf4XnApqSU6) - AMER
-
-- Steve Ladgrove - [appointment schedule](https://calendar.app.google/sno1aJBB9YhQUHXh8) - APAC
-
-- Max Hirata - [appointment schedule](https://calendar.app.google/CMK6dKUN2otv1wsWA) - APAC
-
-- Bruno Ferreira - [appointment schedule](https://calendar.app.google/zKj8AH9c8VmAcYX48) - EMEA
-
-- Eoghan Dunne - [appointment schedule](https://calendar.app.google/BXECy3uLpUKdNbHe6) - EMEA
+| Region | IT Analysts | Calendar Link |
+| --- | --- | --- |
+| APAC | Steve Ladgrove | [here](https://calendar.app.google/sno1aJBB9YhQUHXh8)
+| APAC | Max Hirata | [here](https://calendar.app.google/CMK6dKUN2otv1wsWA)
+| EMEA | Bruno Ferreira | [here](https://calendar.app.google/zKj8AH9c8VmAcYX48)
+| EMEA | Eoghan Dunne | [here](https://calendar.app.google/BXECy3uLpUKdNbHe6)
+| AMER | Alex Krusiec | [here](https://calendar.app.google/xsTHAQWxHmT3tpr86)
+| AMER | Jeff Ford | [here](https://calendar.app.google/Qc1wwN94q6RqEyGL9)
+| AMER | Jenny Wong | [here](https://calendar.app.google/HJoCYkbf4XnApqSU6)
+| AMER | Mic Rohr | [here](https://calendar.app.google/QrBCkxhvAxkhA36M8)
