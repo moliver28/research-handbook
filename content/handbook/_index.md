@@ -18,7 +18,7 @@ feedback. Please make a [merge request](https://gitlab.com/gitlab-com/content-si
 improvements or add clarifications. Please use [issues](https://gitlab.com/gitlab-com/content-sites/handbook/issues) to
 ask questions.
 
-For a very specific set of [internal](/handbook/communication/confidentiality-levels/#internal)
+For a very specific set of [internal](/handbook/communication/confidentiality-levels-page-that-is-a-broken-link)
 information we also maintain an [Internal Handbook](https://internal.gitlab.com/handbook/)
 
 ## Handbook Contents
