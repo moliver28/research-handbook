@@ -19,17 +19,44 @@ PBPs collaborate across the People Group to ensure people and business strategy 
 
 ### People Business Partner Alignments
 
-| Contact | Division - Department |
-|-------------------|------------|
-| Anjali Kaufmann   | G&A: People Group, Finance, LACA  |
-| Carolyn Bednarz   | Sales & Marketing |
-| Carlie Russell    | Sales: Solutions Architecture, CSM & Renewals, Professional Services, and Partners |
-| Lauren Tepper     | Sales: Global Field Operations, Global Self Serve, Americas and Public Sector Sales   |
-| Jenny Burns       | Sales: EMEA Sales |
-| TBH               | Marketing: Global Marketing |
-| Giuliana Lucchesi | Product: Product Management and UX; CISO: Security   |
-| Kristina Bullock  | Engineering: CTO, Customer Support, Quality/Infrastructure, Chief of Staff   |
-| Jess Durbin       | Engineering: Core Development and Expansion  |
+Please reach out to your aligned People Business Partner (PBP) (listed aplhabetically by first name) to engage in the following areas:
+
+| Contact | Division | Department |
+|-------------------|--|----------|
+| Anjali Kaufmann   | People Goup | CPO, DIB, Engagement, PBPs, People Operations, Talent Acquisition, Total Rewards  |
+| Anjali Kaufmann   | Legal | CLO, Corporate Affairs, Legal  |
+| Anjali Kaufmann   | Finance | CFO, Accounting, Enterprise Applications, Finance, Internal Audit, Tax  |
+| Carlie Russell    | Sales | CSM, Consulting Delivery, Customer Success, Practice Management, Renewals, SA (Solutions Architectur) |
+| Carolyn Bednarz  | Marketing | Account-Based Marketing, Brand Campaigns, Brand Design, Campaigns, CMO, Communications, Community Relations, Content Marketing, Corporate Events, Data, Digital Experience, Digital Marketing, Field Marketing, Growth, Marketing Ops, Marketing Strategy and Analytics, Partner Marketing, Product Marketing, Sales Development, Search Marketing |
+| Carolyn Bednarz   | Sales | CRO, AMER - Enterprise Sales |
+| Giuliana Lucchesi | Product | CPO, Product Management, UX  |
+| Giuliana Lucchesi | Security | CISO, Corporate Security, Product Security, Security Assurance, Security Operations   |
+| Jenny Burns       | Sales | EMEA - Commercial Sales, EMEA - Enterprise Sales, Global Digital - EMEA, Direct Sales - EMEA  |
+| Jess Durbin       | Engineering | Core Development, Expansion  |
+| Kristina Bullock       | CEO | Chief of Staff |
+| Kristina Bullock  | Engineering | CTO, Customer Support, Core Infrastructure |
+| Lauren Tepper     | Sales | AMER - Commercial Sales, Field Operations, Field Ops - Child, Public Sector - FED, Public Sector - SLED, Direct Sales - PubSec, Global Digital - AMER   |
+| TBH | Marketing | Global Marketing|
+
+Still need to be accounted for:
+
+|Div| Dept|
+|--|--|
+|Eng| Platforms|
+|Sales|Alliances|
+|Sales|Alliances and Channel|
+|Sales	|APAC - Commercial|
+|Sales|	APAC - Enterprise|
+|Sales|	Direct Sales - AMER|
+|Sales|	Direct Sales - APAC|
+|Sales|	Direct Sales - Japan|
+|Sales|	Education Delivery|
+|Sales|	Education Services|
+|Sales | 	Enablement|
+|Sales|	Global Digital - APAC|
+|Sales|	JAPAN - Commercial|
+|Sales|	JAPAN - Enterprise|
+|Sales|	SMB|
 
 ## How to partner with PBPs to foster high performance in your team
 
