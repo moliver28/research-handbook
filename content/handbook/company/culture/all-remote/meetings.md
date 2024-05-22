@@ -29,6 +29,7 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 1. **Recording.** For group meetings where there are multiple time zones, consider recording the meeting to allow for async participation.
 1. **Give audio and video feedback.** If you are unable to see or hear someone, let them know so they can address and correct.
 1. **Name pronunciation.** Consider these tips to ensure name pronunciation during the meeting:
+1. **Name pronunciation.** Inline with our [values](https://handbook.gitlab.com/handbook/values/#learn-how-to-pronounce-other-peoples-names), consider these tips to ensure name pronunciation during the meeting:
    1. Ask all participants what is your preferred name or do you have a nickname? Example: “My name is pronounced….you can call me….”
    1. Introduce yourself, and mention your pronouns and pronunciation, and ask participants if they want to introduce themselves. Reminder that pronouns can be set in [applications we use for collaborating](https://handbook.gitlab.com/handbook/people-group/pronouns/#setting-your-pronouns-in-applications)
    1. Adding team members name pronunciation in agenda.
