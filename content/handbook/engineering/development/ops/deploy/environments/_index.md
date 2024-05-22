@@ -187,6 +187,47 @@ Every week the [refinement bot](https://gitlab.com/gitlab-org/ci-cd/deploy-stage
 
 The refinement process is described in the [issue template](https://gitlab.com/gitlab-org/ci-cd/deploy-stage/environments-group/refinement/-/blob/main/templates/default.erb).
 
+### Labels used
+
+#### Discovery backlog
+
+In discovery we use the following labels
+
+1. `~workflow::problem validation` (optional) - to signal loosely defined problems where either the user problem or the business value is not yet understood
+1. `~workflow::ready-for-design` - this is our (likely endless) design backlog
+1. `~workflow::solution validation` (optional) - used for work with a concrete solution proposal that needs user validation
+1. `~workflow::design` - for ongoing design work
+
+#### Delivery backlog
+
+1. `~workflow::refinement` - this is our (likely endless) delivery backlog; it contains all the issues that were not discussed by engineers in depth yet
+1. `~workflow::scheduling` - this is our (likely endless) backlog of already discussed issues; these issues are still waiting to be scheduled or even to be put on the roadmap; issues entering should have a preliminary weight
+1. `~workflow::planning breakdown` - this is the backlog for the upcoming milestone;  it has a WIP limit of 2-months capacity
+1. `~workflow::ready-for-development` - this is the list of issues refined for the current or the upcoming milestone; it has a WIP limit of 2-months capacity; issues here should have a final weight
+
+The PM is responsible for moving proposed issues from `~workflow::scheduling` to `~workflow::planning breakdown` and to maintain the WIP limits. Everyone is welcome to recommend issues for planning.
+
+The EM is responsible for moving accepted issues from `~workflow::planning breakdown` to `~workflow::ready-for-development` and to maintain the WIP limits. Everyone is welcome to improve issues to make the ready for development.
+
+#### Special labels
+
+- the `~environments::parked` label is used to signal that we don't intend to focus on an issue in the next 9-12 months
+
+### Milestone Board
+
+The issues scheduled for a milestone can be tracked at [Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/4176401?not[label_name][]=environments%3A%3Aparked).
+
+This board contains all the necessary columns to track the workflow of the team, in particular:
+
+- Labels of interest as outlined above
+- One or more Milestone columns containing the planned work for the given milestone.
+
+All the columns are prioritised top to bottom.
+
+Once a team memeber self-assigns an issue on the Milestone Board, issue labels should follow the [Engineering Workflow](/handbook/engineering/workflow/#updating-issues-throughout-development).
+
+For Merge Requests, it's up to the author and the project they are contributing to, to decide if they want to use these `~workflow::` labels. It is not required to use them or keep them synced up with the Issue labels.
+
 ### Planning
 
 #### Issue Weighting
@@ -227,23 +268,7 @@ When making decisions about how much work the team can take on for a milestone, 
 
 The [GitLab Terraform Provider](/handbook/engineering/projects/#terraform-provider-gitlab) is managed by the Environments group.
 
-### Milestone Board
-
-The issues scheduled for a milestone can be tracked at [Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/4176401?not[label_name][]=environments%3A%3Aparked).
-
-This board contains all the necessary columns to track the workflow of the team, in particular:
-
-- `~"workflow::refinement"` the list of issues that needs to be refined before they can be assigned.
-- `~"workflow::ready for development"` the list of issues that are ready to be worked on, both assigned and not assigned to the milestone.
-- One or more Milestone columns containing the planned work for the given milestone.
-
-All the columns are prioritised top to bottom.
-
-Once a team memeber self-assigns an issue on the Milestone Board, issue labels should follow the [Engineering Workflow](/handbook/engineering/workflow/#updating-issues-throughout-development).
-
-For Merge Requests, it's up to the author and the project they are contributing to, to decide if they want to use these `~workflow::` labels. It is not required to use them or keep them synced up with the Issue labels.
-
-#### Feature development
+### Feature development
 
 Our goal is to move towards a continuous delivery model so the team completes tasks regularly, and keeps working off of a prioritized backlog of issues. We default to team members self-scheduling their work:
 
