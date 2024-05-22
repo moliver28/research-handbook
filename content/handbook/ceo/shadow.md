@@ -835,4 +835,5 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-03-18 | 2024-04-05 | [Miracle Banks](https://gitlab.com/miraclebanks) | Full Stack Engineer | |
 | 2024-04-01 | 2024-04-12 | [Jeremy Wagner](https://gitlab.com/jeremywagner) | Sr Solutions Architect | |
 | 2024-04-08 | 2024-04-26 | [Karen Kwentus](https://gitlab.com/kkwentus1) | Sr Solutions Architect | |
-| 2024-04-22 | 2024-04-26 | Kelsey Turcotte  | VP, Investor Relations | REMOTE - PT |
+| 2024-04-22 | 2024-04-26 | [Kelsey Turcotte](https://gitlab.com/KTurcotteGTLB) | VP, Investor Relations | |
+| 2024-04-29 | 2024-05-03 | [Ian Pedowitz](https://gitlab.com/ipedowitz) | Director, Strategy and Operations, Office of the CEO | |
