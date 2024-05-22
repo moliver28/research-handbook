@@ -45,7 +45,7 @@ Still need to be accounted for:
 | Eng | Platforms |
 | Sales | Alliances |
 | Sales | Alliances and Channel |
-| Sales	| APAC - Commercial |
+| Sales | APAC - Commercial |
 | Sales | APAC - Enterprise |
 | Sales | Direct Sales - AMER |
 | Sales | Direct Sales - APAC |
