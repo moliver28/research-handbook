@@ -171,7 +171,7 @@ with less experience in delivering demos and in environments where there is limi
 The available click-through demos are as follows:
 
 * [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html)
-* [Remote Development](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
+* [Workspaces](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html)
 * [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html)
 * [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html)
 
