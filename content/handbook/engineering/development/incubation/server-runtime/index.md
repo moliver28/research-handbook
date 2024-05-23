@@ -15,7 +15,7 @@ This page provides a comprehensive overview of *Server Runtime* and catalogs rel
 
 ## About Server Runtime
 
-Server Runtime is aimed at engineering a performant, scalable remote development experience & productizing it as a customer offering. When this comes to fruition, we envision being able to bring to bear a remote development experience that is browser and platform agnostic and lets GitLab users build, run and test their code right within the GitLab platform. We see this as a viable product idea to generate revenue for the company & to transform the IDE experience for engineers. Competitors in this space, currently, are GitPod and Codespaces.
+Server Runtime is aimed at engineering a performant, scalable workspace experience & productizing it as a customer offering. When this comes to fruition, we envision being able to bring to bear a workspace experience that is browser and platform agnostic and lets GitLab users build, run and test their code right within the GitLab platform. We see this as a viable product idea to generate revenue for the company & to transform the IDE experience for engineers. Competitors in this space, currently, are GitPod and Codespaces.
 
 Generally, cloud based development environments have the following traits:
 
@@ -153,7 +153,7 @@ Coming soon!
 ## Product Development Group Affinity
 
 - [Editor](/handbook/product/categories/#editor-group)
-- [Remote Development](https://about.gitlab.com/direction/create/ide/remote_development/)
+- [Workspaces](https://about.gitlab.com/direction/create/remote_development/workspaces/)
 
 ## Getting started with Server Runtime
 
@@ -183,5 +183,5 @@ bazel run //cmd/agentk -- --kas-address=grpc://127.0.0.1:8150 --token-file="$(pw
 ## Handy links and pages
 
 - [Original Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/329602)
-- [Remote Development Strategy](https://gitlab.com/gitlab-org/gitlab/-/issues/377921)
+- [Workspaces Strategy](https://gitlab.com/gitlab-org/gitlab/-/issues/377921)
 - [Custom Server Runtime Playground Repository](https://gitlab.com/gitlab-org/incubation-engineering/server-runtime/custom-server-runtime-playground)
