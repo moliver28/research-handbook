@@ -79,7 +79,7 @@ The Dev sub-department is taking care of the first part of the DevSecOps Lifecyc
 
 {{% team-by-manager-role role="(.*)Manager(.*)Create:Editor Extensions" %}}
 
-#### Create:IDE
+#### Create:Remote Development
 
 {{< team-by-manager-slug "adebayo_a" >}}
 
