@@ -9,7 +9,6 @@ description: "What Are the Create:Remote Development Team Principles?"
 
 We outline the Create:Remote Development team principles as practical applications of our [CREDIT value system](/handbook/values/). These principles are not meant to be exhaustive. This page contains our formalized observations about how the Create:Remote Development team operates, and other teams in GitLab may have different perspectives.
 
-
 ## Fight for the user
 
 At the core of all our actions, we always fight for our end users. Above anything else, we always start with the desired user experience, then work backward. Our end goal is always to make GitLab the most loveable product it can be, full of features that users **want** to use.
