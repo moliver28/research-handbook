@@ -421,7 +421,6 @@ Below are tools in the Marketing Technology stack, organized by tier.
 - [Litmus](/handbook/marketing/marketing-operations/litmus)
 - [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/)
 - Google Analytics (Search Discovery/Further) (DEX)
-- Survey Monkey
 - [Terminus Email Experiences](/handbook/marketing/marketing-operations/terminus-email-experiences)
 - [Typeform](/handbook/marketing/marketing-operations/typeform/)
 
@@ -472,15 +471,14 @@ Click to see dropdown list of available status page URLs.
 - [PathFactory](https://status.pathfactory.com/)
 - ReachDesk
 - RingLead
-- Terminus Email Experiences
+- [Terminus Email Experiences](https://status.terminus.com/)
 - [ZoomInfo](https://status.zoominfo.com/)
 - Vartopia - Lead Sharing Module
-- Allocadia
+- [Allocadia](https://support.allocadia.com/hc/en-us/sections/115001724228-System-Maintenance-Alerts)
 - [Hopin](https://status.hopin.com/)
 - [Iterable](https://status.iterable.com/)
 - [Litmus](https://status.litmus.com/)
-- On24
-- [Survey Monkey](https://help.surveymonkey.com/en/surveymonkey/site/site-status-information/)
+- [On24](https://on24.my.site.com/Support/s/platform-status)
 - [Typeform](https://status.typeform.com/)
 
 </details>
