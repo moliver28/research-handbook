@@ -112,7 +112,7 @@ For stages still missing participants we will seek support from Engineering lead
 |-----------------------|-----------------------|--------------------------------|
 | Executive Sponsor     | Sam Goldstein         | Director of Engineering, Ops   |
 | Facilitator           | Fabio Pitino          | Principal Engineer, Verify     |
-| Member                | Chad Woolley          | Senior Backend Engineer, Create::IDE (Remote Development) |
+| Member                | Chad Woolley          | Senior Backend Engineer, Create::Remote Development (Workspaces) |
 | Member                | Thong Kuah            | Principal Engineer, Data Stores  |
 | Member                | Lucas Charles         | Principal Engineer, Secure & Govern |
 | Member                | Furkan Ayhan          | Senior Backend Engineer, Verify:Pipeline Authoring |
