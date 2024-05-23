@@ -114,7 +114,7 @@ Content we create is distributed internally and externally to our stakeholders, 
 
 Each TMM is listed with their areas of primary responsibility, but all TMM's should be able to help in other areas of the product as well:
 
-  - [Itzik Gan-Baruch](/handbook/company/team/#itzikgb) - CI, CD, Software Delivery Automation, Value Stream Analytics, WebIDE, Remote Development workspaces.
+  - [Itzik Gan-Baruch](/handbook/company/team/#itzikgb) - CI, CD, Software Delivery Automation, Value Stream Analytics, WebIDE, Workspaces.
   - [Fernando Diaz](/handbook/company/team/#fjdiaz) - DevSecOps, Security, Continuous Software Security Assurance, Continous Software Compliance.
   - [Cesar Saavedra](/handbook/company/team/#csaavedra1) - CD/GitOps/IaC, Software Delivery Automation, DORA, GitLab agent for Kubernetes, GitLab Flow, Feature Flags, advanced deployment techniques, Progressive Delivery, Developer Experimentation.
 
