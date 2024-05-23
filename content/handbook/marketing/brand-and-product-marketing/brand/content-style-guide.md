@@ -81,7 +81,7 @@ These guidelines will help you incorporate the GitLab brand voice into your writ
 
 **Examples:**
 
-> - Blog: [Quickstart guide for GitLab Remote Development workspaces](https://about.gitlab.com/blog/2023/06/26/quick-start-guide-for-gitlab-workspaces/)
+> - Blog: [Quickstart guide for GitLab Workspaces](https://about.gitlab.com/blog/2023/06/26/quick-start-guide-for-gitlab-workspaces/)
 > - Blog: [The ultimate guide to SBoMs](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/)
 > - Handbook: [CEO handbook page](/handbook/ceo/)
 > - Handbook: [Communication handbook page](/handbook/communication/)
