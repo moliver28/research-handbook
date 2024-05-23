@@ -22,7 +22,7 @@ The source of truth for GitLab OKRs and KRs is [GitLab](https://gitlab.com/gitla
 ### 1. CTO: [Continue to win against GitHub with AI in all we do](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2231)
 
 1. **CTO KR**: [Enhanced Support offering ready for launch in Q3](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2429)
-1. **CTO KR**: [Experimental launch of Remote Development feature used by 10 team members to develop GitLab features](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2430)
+1. **CTO KR**: [Experimental launch of Workspaces feature used by 10 team members to develop GitLab features](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2430)
 1. **CTO KR**: [Create a foundation in support of rapid experimentation](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2432)
 1. **CTO KR**: [48 experimental, 16 beta, and 8 GA AI Assisted features delivered](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2433)
 
