@@ -346,11 +346,19 @@ For **virtual events**, there are additional set up details on this [page](/hand
 
 For all other campaign types, follows steps below. All steps are required.
 
-## Parent/Child Campaigns
+## Parent/Child Campaigns Setup
 
-For some tactics, there are mutiple campaigns that occur as a part of a single initiative. Some examples of these could be a conference with speaking session, direct mail, content syndication, or hybrid events (where in-person and virtual leads will be tracked separately). When this happens, a `parent` campaign should be created in SFDC and have each `child` campaign represent the individual tactics. The parent SFDC campaign should not include any members, or include bizible touchpoints. Additionaly, if you are an Allocadia user, you will not include a sub-category ID in Marketo when syncing to SFDC and creating the new parent campaign. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
+For some tactics, there are mutiple campaigns that occur as a part of a single initiative. Some examples of these could be a conference with speaking session, direct mail, content syndication, or hybrid events (where in-person and virtual leads will be tracked separately). When this happens, a `parent` campaign should be created in SFDC and have each `child` campaign represent the individual tactics. 
 
-To assocate a child SFDC campaign to a parent SFDC campaign, go into what will be the child SFDC campaign and at the top of the campaign, click `Edit`. This will open the SFDC fields and then you can add the parent SFDC campaign name into the `Parent` field. Click `Save`.
+Two important aspects that need to be avoided when it comes when creating/editing parent campaigns are the following: 
+
+1. Do not add any campaign members to the parent campaign as we want to minimize the risk of creating duplicate bizible touchpoints for the same activity.
+
+2. We should not be running any ROI on the parent campaigns, so the parent campaigns shouldn't have values in the `Actual Cost in Campaign` field, while in the `Budgeted Cost in Campaign` field, we need to only have the $1 value. Budgeted Cost & Actual Cost are to be updated only on the child campaings and not on parent campaigns. 
+
+Additionaly, if you are an Allocadia user, you will not include a sub-category ID in Marketo when syncing to SFDC and creating the new parent campaign. Since we do not have the same parent/child relationship structure available in Marketo, you will create a folder that will house all of the shared tactics together.
+
+To assocate a child SFDC campaign to a parent SFDC campaign (the parent campaign needs to be created before-hand), go into what will be the child SFDC campaign and at the top of the campaign, click `Edit`. This will open the SFDC fields and then you can add the parent SFDC campaign name into the `Parent` field. Click `Save`.
 
 An example of a folder setup in Marketo is:
 - Conference Name (Folder)
