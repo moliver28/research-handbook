@@ -13,7 +13,7 @@ Customer Satisfaction score, or CSAT, are surveys sent directly to primary users
 
 In order to target leaders and decision-makers on accounts, three types of users will receive an invitation to a survey: 
 
-- [`GitLab admin contacts`](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)
+- [GitLab admin contacts](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)
 - Sold-To Billing Contact (if no GitLab Admin exists)
 - [GitLab.com Owner user](/https://docs.gitlab.com/ee/user/permissions.html)
 
@@ -21,7 +21,7 @@ In order to target leaders and decision-makers on accounts, three types of users
 #### Who is not contacted on a CSAT survey? 
 - Identified Billing or Procurement personas configured as Owners or GitLab Admins on accounts
 - Guest, Reporter, Developer or Maintainer roles on accounts
-- Users that have been contacted by others CSAT Surveys within the past eight weeks, such as the [‘Product CSAT’](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/csat/) survey administered by the UX Research Team.
+- Users that have been contacted by others CSAT Surveys within the past eight weeks, such as the [Product CSAT](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/csat/) survey administered by the UX Research Team.
 
 ## All-Customer CSAT Survey
 
