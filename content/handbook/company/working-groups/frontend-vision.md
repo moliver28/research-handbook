@@ -63,7 +63,7 @@ Updates are being tracked every other week within https://gitlab.com/gitlab-org/
 | Facilitator        | Donald Cook              | Engineering Manager, Plan:Project Management        |
 | Functional Lead    | Natalia Tepluhina        | Principal Engineer, Plan                            |
 | Member             | Vitaly Slobodin          | Staff Frontend Engineer, Fulfillment                |
-| Member             | Paul Slaughter           | Staff Frontend Engineer, Create:IDE                 |
+| Member             | Paul Slaughter           | Staff Frontend Engineer, Create:Remote Development  |
 | Member             | Mark Florian             | Staff Frontend Engineer, Manage:Foundations         |
 | Member             | Lukas Eipert             | Senior Frontend Engineer, Manage:Foundations        |
 | Member             | Frédéric Caplette        | Senior Frontend Engineer, Verify:Pipeline Authoring |
