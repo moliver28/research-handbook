@@ -45,7 +45,7 @@ graph LR
     A --> C[Development Tools]
     C --> C1[GitLab Development Kit<br>Providing a reliable development environment]
     click C1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/31"
-    C --> C2[GitLab Remote Development<br>Providing a remote reliable development environment]
+    C --> C2[GitLab Workspaces<br>Providing a remote reliable development environment]
     click C1 "https://gitlab.com/groups/gitlab-org/quality/engineering-productivity/-/epics/31"
 
     A --> F[Review & CI]
