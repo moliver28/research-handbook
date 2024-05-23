@@ -49,6 +49,12 @@ It is pre-configured and the [repository](https://gitlab.com/gitlab-org/analytic
 
 Follow the [GDK documentation](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/product_analytics.md) on how to set up your GDK for product analytics.
 
+### Set up your own cluster for use in production
+
+To improve results and customer empathy, in Q2FY25 [all engineers were expected](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/7137) to stand up their own cluster to use in production and we require all future engineers to do the same and note any issues faced.
+
+Instructions to do so are in the public [helm-charts](https://gitlab.com/gitlab-org/analytics-section/product-analytics/helm-charts).
+
 ## Communication
 
 ### Slack
