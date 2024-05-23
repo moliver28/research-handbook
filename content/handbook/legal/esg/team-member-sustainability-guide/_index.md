@@ -51,7 +51,7 @@ We are a global team, and we know there are sustainability initiatives and offer
 
 ## Food
 
-1. Reduce your meat and dairy consumption. Animal-based foods have a much higher carbon footprint than planted-based foods. For example, producing a kilogram of beef produces 60 kilograms of greenhouse gasses. In contrast, peas emit just 1 kilogram per kg.<sup>9</sup> Check out [this visualization](https://ourworldindata.org/food-choice-vs-eating-local) that shows GHG emissions from 29 food products — from beef at the top to nuts at the bottom.
+1. Choose plant-based foods to reduce your meat and dairy consumption. Animal-based foods have a significantly higher carbon footprint than plant-based foods. For example, producing one kilogram of beef emits 60 kilograms of greenhouse gasses. In contrast, peas emit just 1 kilogram per kilogram produced.<sup>9</sup> Check out [this visualization](https://ourworldindata.org/food-choice-vs-eating-local) that shows GHG emissions from 29 food products — from beef at the top to nuts at the bottom.
 
 ## Renewable Energy
 
