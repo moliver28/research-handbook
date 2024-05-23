@@ -1083,7 +1083,7 @@ G. Please note that backdated amendments for adding additional users can be proc
 
 
 
-### Alliance Marketplace Private Offers
+### Cloud Marketplace Private Offers
 
 Effective Friday, 2022-04-08, Deal Desk manages AWS and GCP Private Offer creation and acceptance.
 
@@ -1106,20 +1106,16 @@ Effective Friday, 2022-04-08, Deal Desk manages AWS and GCP Private Offer creati
 -For AWS Portal queries i.e trouble accepting private offers or setting up an account can be reached at mpcustdesk@amazon.com
 - For GCP Portal queries can be reached at private-offers-team@google.com
 
-#### Working with Deal Desk vs. Alliance Business Development Managers (ABDMs)
+#### Working with Deal Desk vs. Partner Sales
 
-Please note that Deal Desk handles only Private Offer creation, edits to Private Offers, and the acceptance of Private Offers. For any other matters related to Alliances deals, **Sales must work with the appropriate ABDM.** The Alliances team can provide assistance and best practices that are vital to a successful marketplace transaction.
+Please note that Deal Desk handles only Private Offer creation, edits to Private Offers, and the acceptance of Private Offers. For any other matters related to Cloud Marketplace deals, **Sales must work with the appropriate Partner Acount Manager (PAM).** The Partner Sales team can provide assistance and best practices that are vital to a successful marketplace transaction.
 
-To reach an ABDM, use the #a_aws_deal_registration or #a_gcp_deal_registration Slack channels.
+To reach Partner Sales, use the #cloud-aws or #Cloud-gcp Slack channels.
 
-#### Alliance Deal/Private Offer Resources
+#### Cloud Marketplace Resources
 
 - Internal Handbook:
-  - [Google Cloud Platform](https://internal.gitlab.com/handbook/alliances/gcp/)
-  - [Amazon Web Services](https://internal.gitlab.com/handbook/alliances/aws/)
-- Marketplace FAQ
-  - [Google Cloud Private Offers](https://docs.google.com/document/d/1S0k0T12xkXajpHt9uvl3YDA4OSOwS6qB9pHmRKiqCgA/edit#bookmark=id.5hmmfbjqr9xn)
-  - [Amazon Web Services Private Offer](https://docs.google.com/document/d/1S0k0T12xkXajpHt9uvl3YDA4OSOwS6qB9pHmRKiqCgA/edit#bookmark=id.ee7ef9xn6p1k)
+  - [Strategic Cloud Partnerships](https://internal.gitlab.com/handbook/alliances/strategic-cloud-partnerships/)
 
 ### Opportunity Categorization
 
