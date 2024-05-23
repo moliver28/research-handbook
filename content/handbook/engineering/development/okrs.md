@@ -57,7 +57,7 @@ The source of truth for GitLab OKRs and KRs for Development is the [GitLab OKRs 
 #### 1. OKR [Continue to win against GitHub with AI in all we do](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2231) => 66%
 
 1. KR: [Create: Compete with GitHub](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/1842) => 65%
-1. KR: [Experimental launch of Remote Development feature used by 10 team members to develop GitLab features.](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2430) => 70%
+1. KR: [Experimental launch of Workspaces feature used by 10 team members to develop GitLab features.](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2430) => 70%
 1. KR: [Ops: Compete with GitHub](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2556) => 70%
 1. KR: [Assess and propose organizational structure for AI moving forward (end of quarter)](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/2049) => 40%
 1. KR: [Development: AI in everything we do](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/1792) => 87%
