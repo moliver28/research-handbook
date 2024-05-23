@@ -36,12 +36,12 @@ This survey is performed in two parts; an email is sent to an identified contact
 5. **What could we be doing better?**
    - Note: Open text field
 6. **Select a role that you most closely identify with:**
-   a. Developer or Engineer
-   b. Administrator
-   c. Team Lead or Manager
-   d. Security
-   e. Product Manager
-   f. Billing or Procurement
+   - Developer or Engineer
+   - Administrator
+   - Team Lead or Manager
+   - Security
+   - Product Manager
+   - Billing or Procurement
  
 ### FY25 Schedule 
 
