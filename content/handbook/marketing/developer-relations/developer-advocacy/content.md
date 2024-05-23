@@ -43,7 +43,7 @@ Click-through demos are product simulation demonstrations that can be used for s
 | Title | Area | Last updated |
 |-------|------|--------------|
 | [GitLab Duo (AI)](https://tech-marketing.gitlab.io/static-demos/ai-demos.html) | GitLab Duo | 2023-07-23 |
-| [Remote Development](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html) | Dev section, Create | 2023-05-23 |
+| [Workspaces](https://tech-marketing.gitlab.io/static-demos/workspaces/ws_html.html) | Dev section, Create | 2023-05-23 |
 | [Feature Flags](https://tech-marketing.gitlab.io/static-demos/feature-flags/feature-flags-html.html) | CD | 2023-06-23 |
 | [CI Overview](https://tech-marketing.gitlab.io/static-demos/ci_overview_v1.html) | CI | 2023-10-23 |
 
@@ -80,7 +80,7 @@ These talks are maintained throughout FY25:
 
 ### Projects
 
-Source code, demo projects, workshops, tutorials, research, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/). This includes use cases for GitLab Duo (AI), CI/CD components, DevSecOps and Security, Remote Development, GitLab API, etc.
+Source code, demo projects, workshops, tutorials, research, etc. are documented in the [Projects handbook](/handbook/marketing/developer-relations/developer-advocacy/projects/). This includes use cases for GitLab Duo (AI), CI/CD components, DevSecOps and Security, Workspaces, GitLab API, etc.
 
 ## Content Creation
 
