@@ -7,7 +7,7 @@ description: "A deep dive into the CSAT and NPS, how they are defined and calcul
 
 
 
-## Customer CSAT surveys
+## Customer CSAT Surveys
 
 Customer Satisfaction score, or CSAT, are surveys sent directly to primary users on paid Premium and Ultimate accounts to measure satisfaction of a service, product, interaction or experience with GitLab. Each account will receive a CSAT survey no more than twice in a year. We hope to recieve from as many accounts at GitLab as possible, rather than a representative sample of accounts. This enables us to inform all account teams of their portfolio's customer satisfaction.
 
@@ -15,7 +15,7 @@ In order to target leaders and decision-makers on accounts, three types of users
 
 - [`GitLab admin contacts`](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)
 - Sold-To Billing Contact (if no GitLab Admin exists)
-- [‘GitLab.com Owner user’](/https://docs.gitlab.com/ee/user/permissions.html)
+- [GitLab.com Owner user](/https://docs.gitlab.com/ee/user/permissions.html)
 
 
 #### Who is not contacted on a CSAT survey? 
@@ -100,4 +100,4 @@ You may request data for the following NPS surveys:
 
 - Post-Scale Engagement CSAT Survey
    - Transactional to Scale/CSE customers only
-- [‘Case Closure Survey’](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey
+- [Case Closure Survey](https://handbook.gitlab.com/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey
