@@ -29,13 +29,13 @@ This survey is performed in two parts; an email is sent to an identified contact
 
 ### Questions
 
-1. How satisfied are you with GitLab?
-2. How satisfied are you with your teams’ adoption of GitLab?
-3. How satisfied are you with your experience working with the GitLab team?
-4. How satisfied are you with the business value provided by GitLab?
-5. What could we be doing better?
+1. **How satisfied are you with GitLab?**
+2. **How satisfied are you with your teams’ adoption of GitLab?**
+3. **How satisfied are you with your experience working with the GitLab team?**
+4. **How satisfied are you with the business value provided by GitLab?**
+5. **What could we be doing better?**
    - Note: Open text field
-6. Select a role that you most closely identify with:
+6. **Select a role that you most closely identify with:**
    a. Developer or Engineer
    b. Administrator
    c. Team Lead or Manager
@@ -45,11 +45,11 @@ This survey is performed in two parts; an email is sent to an identified contact
  
 ### FY25 Schedule 
 
-- All-Customer CSAT Survey 1
+- **All-Customer CSAT Survey 1**
    - May 22, 2024
    - Follow-up email: May 30, 2024
    - Purpose: Create a macro-level baseline for Customer Satisfaction Scoring, not drive customer-level interactions and escalation.
-- All-Customer Survey 2
+- **All-Customer Survey 2**
    - January 8, 2025 (tentative)
    - Purpose: Create account-level action orientation for Customer Success and Sales organizations.
 
@@ -64,9 +64,6 @@ The CSSO team is working to make survey results available within Snowflake so th
 - Gainsight: NPS and CSAT scores are written to a scorecard in the Customer 360.
    - For an overview of how CSMs use Customer360 (or C360), please refer to the [Gainsight CSM C360 Overview Page](/handbook/customer-success/csm/gainsight/c360-overview)
 - SalesForce: Survey responses can also be found in the embedded Gainsight widget on any account page in Salesforce.
-
-### Background
-
 
 #### What is CSAT?
 
