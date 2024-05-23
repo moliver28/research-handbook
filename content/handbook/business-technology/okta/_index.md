@@ -1,3 +1,5 @@
+<!-- MOVE_TO: /handbook/security/corporate/systems/okta -->
+
 ---
 
 title: "Okta"
