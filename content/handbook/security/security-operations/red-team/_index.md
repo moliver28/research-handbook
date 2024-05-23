@@ -20,16 +20,29 @@ Further details can be found in the [job family description](/job-families/secur
 
 ### Stealth Operations
 
-Stealth operations are our default and preferred way of working. They provide the most realistic opportunity for GitLab to practice responding to real world attacks. During a stealth operation, only a small group of GitLab team members are aware of the details.
-We call these people "trusted participants", and they help keep operations safe and productive.
+Red Teams work best in stealth, as this provides the most realistic way to practice responding to real world attacks.  After all, malicious actors don't announce themselves, so the Red Team shouldn't either. During a stealth operation, only a small group of GitLab team members are aware of the details.  We call these people "trusted participants", and they help keep operations safe and productive.
+
+These stealth operations require [special rules]({{< ref "red-team-roe#stealth-operations" >}}). Examples of techniques we may use and those we will specifically avoid can be found in [Stealth Operation Techniques]({{< ref "red-team-roe#stealth-operation-techniques" >}}).
 
 Stealth operations are not a contest. If our Red Team completes an objective undetected, we can offer recommendations to improve our detections. If we trigger a response, we've validated that detection capability in a realistic scenario and allowed the team to work through the same processes they would use when responding to real-life attacks. Both of these scenarios provide valuable feedback to the organization.
 
-These operations require [special rules]({{< ref "red-team-roe#stealth-operations" >}}). Examples of techniques we may use and those we will specifically avoid can be found in [Stealth Operation Techniques]({{< ref "red-team-roe#stealth-operation-techniques" >}}).
+We have two types of stealth operations: Campaign-Based Operations, and Continuous Operations.
+
+#### Campaign-Based Operations
+
+Campaign-Based Operations have very specific goals, typically span 3-6 months, and have defined start and stop dates. These campaign-based ops are designed to determine whether the organization is susceptible to specifically defined threat actors or attack paths.
+
+Campaign-Based Operations exist to determine how the organization responds to specific attacks. Even if detected early, a well-executed operation is a success as it allows defensive teams to respond and informs leadership of the organization's strengths and weaknesses.
+
+#### Continuous Operations
+
+In a Continuous Red Team Operation, attacker goals are pursued until achieved. Detection does not end the operation but instead forces the Red Team to regroup, reset, and find new attack avenues. Resources beyond the primary target are in scope if they bring us closer to our goals, and parallel attack efforts are encouraged. Automation is used where practical to identify changes in targets and modify attacks accordingly.
+
+This operating model helps the Red Team more effectively emulate the advanced threats who target our software supply chains, platform, and CI/CD processes.
 
 ### Purple Team Flash Operations
 
-Purple Team flash operations are short, collaborative exercises that address rapidly emerging threats. While stealth operations can span 3-6 months, we complete these flash operations in 1-2 weeks.
+Purple Team flash operations are short, collaborative exercises that address rapidly emerging threats. While stealth operations can span 3-6 months or longer, we complete these flash operations in 1-2 weeks.
 
 These operations start with our Threat Intelligence team identifying a specific threat that is likely to impact GitLab in the near future. We then collaborate with SIRT and others to quickly create and execute attack scenarios to test our preparedness.
 
