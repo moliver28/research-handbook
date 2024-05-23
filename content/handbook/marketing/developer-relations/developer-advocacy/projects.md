@@ -117,7 +117,7 @@ flowchart TD;
   C --> |No| B
 ```
 
-### Remote Development Workspaces
+### Workspaces
 
 The [remote-development sub group](https://gitlab.com/gitlab-da/use-cases/remote-development) has an agent for Kubernetes installed, which is documented in the [agent-kubernetes-gke](https://gitlab.com/gitlab-da/use-cases/remote-development/agent-kubernetes-gke) project. This includes troubleshooting when the agent becomes unresponsive, and workspaces are not created.
 
