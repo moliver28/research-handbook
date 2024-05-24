@@ -1,8 +1,8 @@
 <!-- MOVE_TO: /handbook/security/corporate/systems/google-mail/guides -->
 <!-- comment: move the entire page -->
 
---- 
-title: "How To Use Gmail Delegate"
+---
+title:"How To Use Gmail Delegate"
 ---
 
 ## Introduction

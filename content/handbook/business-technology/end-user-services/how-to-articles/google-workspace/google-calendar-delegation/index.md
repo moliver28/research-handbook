@@ -6,13 +6,6 @@
 title: "How To Use Google Calendar Delegate"
 ---
 
-
-
-
-
-
-
-
 ## Introduction
 
 The purpose of this handbook page is to describe how to utilize [Google
