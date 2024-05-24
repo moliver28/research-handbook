@@ -69,15 +69,15 @@ Issues and Epics on the Opportunity Backlog have the ![Triage](img/label-triage.
 - [Roadmap for Practices](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1202)
 - [Roadmap for Observability](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1295)
 
-A Roadmap epic has three sections: Now, Next and Later. These list, in priority order, what the team is working on, what they will do next, and what they might address at a later date. 
+A Roadmap epic has three sections: Now, Next and Later. These list, in priority order, what the team is working on, what they will do next, and what they might address at a later date.
 
 **Now**
-For the 'Now' section, the common pattern is to link to our [Scalability top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148) so we have a consistent SSoT for the work in progress. 
+For the 'Now' section, the common pattern is to link to our [Scalability top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148) so we have a consistent SSoT for the work in progress.
 
 Projects in this section are ![In Progress](img/label-in_progress.png).
 
 **Next**
-The 'Next' section contains projects that are ![Ready](img/label-ready.png) for development. 
+The 'Next' section contains projects that are ![Ready](img/label-ready.png) for development.
 
 **Later**
 This section contains projects that are either ![Ready](img/label-ready.png) for development or still ![Proposals](img/label-proposal.png).
