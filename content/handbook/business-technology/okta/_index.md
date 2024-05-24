@@ -5,12 +5,6 @@
 title: "Okta"
 ---
 
-
-
-
-
-
-
 ## What is Okta?
 
 From the Okta website
