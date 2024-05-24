@@ -56,9 +56,12 @@ If you need assistance with a production issue or incident, please see the secti
 
 | **Channel** | **Purpose** |
 |-----------|-----------|
-|[#g_delivery](https://gitlab.enterprise.slack.com/archives/CCFV016SV)| |
+|[#g_delivery](https://gitlab.enterprise.slack.com/archives/CCFV016SV)| Delivery Group channel|
 |[#g_delivery_standups](https://gitlab.enterprise.slack.com/archives/C05KS71438B)| |
 |[#delivery_social](https://gitlab.enterprise.slack.com/archives/C01QX84J6UR)| Social channel for the group. |
+|[#releases](https://gitlab.enterprise.slack.com/archives/C0XM5UU6B)| General communication about the current Release/Patch|
+|[#f_upcoming_release](https://gitlab.enterprise.slack.com/archives/C0139MAV672)| Detailed Release status / Release Manager channel |
+|[#announcements](https://gitlab.enterprise.slack.com/archives/C8PKBH3M5)|Release-Tools automation posts related to deployment activity|
 
 **Production Engineering**
 
