@@ -50,7 +50,19 @@ The epic for the project must have the following items:
 
 #### Preparation
 
-In this stage, projects are rough ideas that are formed into proposals for discussion. They are developed into full projects that are then ready to be picked up by the team. We keep track of these projects in our roadmaps.
+In this stage, projects are rough ideas on the Opportunity Backlog, that are formed into proposals for discussion on the Roadmap. They are developed into full projects that are then ready to be picked up by the team. We keep track of these projects in our roadmaps.
+
+##### Opportunity Backlog
+
+![Triage](img/label-triage.png)
+
+When we have ideas for projects but we aren't certain that they are the right thing to do, we use the Opportunity Backlog.
+
+There is one Opportunity Backlog epic per roadmap.
+
+Ideas are documented in issues or epics and attached to the relevant Opportunity Backlog epic. They are regularly reviewed by the Product Manager and Engineering Managers.
+
+Issues and Epics on the Opportunity Backlog have the ![Triage](img/label-triage.png) label and can have very little detail. Ideas are selected from this list to become proposals. 
 
 ##### Roadmaps
 
@@ -66,14 +78,6 @@ The roadmap epics should have the workflow label of `workflow-infra::Proposal` s
 Any project that is being prepared should be a child of a roadmap epic. These epics should have the workflow labels of either `workflow-infra::Triage`, `workflow-infra::Proposal` or `workflow-infra::Ready`.
 
 The EM and the PM should work together to keep the Roadmap epics up to date with updates expected monthly.
-
-##### Opportunity Backlog
-
-When we have ideas for projects but we aren't certain that they are the right thing to do, we use the Opportunity Backlog.
-
-There is one Opportunity Backlog epic per roadmap.
-
-Ideas are documented in issues and attached to the relevant Opportunity Backlog epic and are regularly reviewed by the Product Manager and Engineering Managers.
 
 #### In Progress
 
