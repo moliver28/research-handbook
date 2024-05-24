@@ -69,7 +69,7 @@ The manager and the team member should have walked through the guidelines on [un
     - Once the review has been completed and the decision has been made to offboard the team member, the manager should review the best timing for the involuntary offboarding call and termination date. We recommend to avoid scheduling a involuntary offboarding call while a team member is scheduled for any sensitive customer meetings or is on-call, per guidance below under Last working day.
     - TMR will enter and approve the offboarding in
       Workday. Once entered, the releavant offboarding stakeholders will receive an alert via Workday reports or a Workday notification.
-    - TMR will inform the People Business Partner on the 
+    - TMR will inform the People Business Partner on the possible upcoming offboarding.
        possible upcoming offboarding.
     - TMR will work with IT in a seperate Slack channel
     1. **TMR**: TMR will create a private Slack channel that will include the PBP, Manager, and Leader of the organization to review the offboarding and agreed upon offboarding date.
