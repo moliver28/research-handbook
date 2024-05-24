@@ -62,14 +62,25 @@ There is one Opportunity Backlog epic per roadmap.
 
 Ideas are documented in issues or epics and attached to the relevant Opportunity Backlog epic. They are regularly reviewed by the Product Manager and Engineering Managers.
 
-Issues and Epics on the Opportunity Backlog have the ![Triage](img/label-triage.png) label and can have very little detail. Ideas are selected from this list to become proposals. 
+Issues and Epics on the Opportunity Backlog have the ![Triage](img/label-triage.png) label and can have very little detail. Ideas are selected from this list to become proposals.
 
 ##### Roadmaps
 
 - [Roadmap for Practices](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1202)
 - [Roadmap for Observability](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1295)
 
-A Roadmap epic has three sections: Now, Next and Later. These list out what the team is working on, what they will do next, and what they might address at a later date. For the 'Now' section, the common pattern is to link to our [Scalability top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148) so we have a consistent SSoT for the work in progress. These sections are in priority order.
+A Roadmap epic has three sections: Now, Next and Later. These list, in priority order, what the team is working on, what they will do next, and what they might address at a later date. 
+
+**Now**
+For the 'Now' section, the common pattern is to link to our [Scalability top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148) so we have a consistent SSoT for the work in progress. 
+
+Projects in this section are ![In Progress](img/label-in_progress.png).
+
+**Next**
+The 'Next' section contains projects that are ![Ready](img/label-ready.png) for development. 
+
+**Later**
+This section contains projects that are either ![Ready](img/label-ready.png) for development or still ![Proposals](img/label-proposal.png).
 
 A Roadmap epic can have sub-epics that are also roadmaps. For example, the Practices team will have a sub-epic for Redis and the Observability team will have a sub-epic for Capacity Planning. These help to keep the narrative for each category in a single place. We will also implement automation for the flow of information between levels.
 
