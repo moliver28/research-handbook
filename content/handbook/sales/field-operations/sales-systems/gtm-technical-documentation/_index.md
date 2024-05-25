@@ -236,15 +236,15 @@ Code Units:
 - `@revenue`
   - This alias is leveraged by the Revenue team to review Opportunities and how we will record revenue.[Detailed Response Here](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/859#note_386593491).
 - `@SMB Flat Renewals`
- - This alias is used by our SMB team for flat renewal support. Please see this [Section of the handbook](###) for how this is used.
+  - This alias is used by our SMB team for flat renewal support. Please see this Section of the handbook for how this is used.
 - `@Partner Help Desk`
- - This alias is used by the Channel Partner Help Desk (PHD) Team. Please see this [Section of the handbook](/handbook/sales/field-operations/channel-operations/#partner-help-desk-support-and-communication) for more information.
+  - This alias is used by the Channel Partner Help Desk (PHD) Team. Please see this [Section of the handbook](/handbook/sales/field-operations/channel-operations/#partner-help-desk-support-and-communication) for more information.
 - `@Sales-Comp`
- - This alias is used by our Compensation Team and should be used to reach out to them regarding, splits, compensation etc. as it pertains to specific opportunities.
+  - This alias is used by our Compensation Team and should be used to reach out to them regarding, splits, compensation etc. as it pertains to specific opportunities.
 - `@Partner-Ops`
- - This alias is used by our Partner Operations team and should be used to reach out to them - Link to their business section coming soon
+  - This alias is used by our Partner Operations team and should be used to reach out to them - Link to their business section coming soon
 - `MktgOps-Support`
- - This alias is used by our Marketing Operations team and should be used to reach out to them - Link to their business section coming soon
+  - This alias is used by our Marketing Operations team and should be used to reach out to them - Link to their business section coming soon
 
 **Steps to add a Group:**
 
@@ -318,8 +318,8 @@ Code Unit:
 **Outputs:** Reverts opportunity owners to their original owners if the user attempted to change them
 
 **Logic Locations:**
-Code Units:
 
+- Code Units:
    - ProtectClosedOppOwnersBefore
    - ProtectClosedOppOwnersAfter
 - Triggers
@@ -548,7 +548,7 @@ Please see our internal [document](https://docs.google.com/document/d/1UaKPTQePA
 
 ## CSM Team Stamping
 
-**Business Process this supports:** This process supports our CSM Team Tracking Alignment and Compensation. See the business handbook section [Coming Soon](#)
+**Business Process this supports:** This process supports our CSM Team Tracking Alignment and Compensation. See the business handbook section Coming Soon
 
 **Relevant fields**
 
