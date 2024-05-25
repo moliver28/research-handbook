@@ -352,8 +352,8 @@ Promotion candidates should follow these steps to solicit feedback as part of ou
     - To ensure we are gathering feedback in a consistent way, we ask that team members make a copy of the Google Form feedback request template to send to stakeholders providing feedback. The questions related to feedback center around the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in the promotion document to ensure a clear scope for the feedback being provided and direct tie to next level performance.
     - **Due date: 2024-06-07**
 4. Team member identifies stakeholders for feedback request
-    - Requirements for feedback providers are: a) feedback provider should be at or above the target promotion level (I.E. if a Security Engineer is taregting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher), and b) feedback provider should have direct experience working with the team member on one or more of the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document). 
-    - Team members should discuss their proposal for feedback providers with their manager before sending out the feedback form to ensure alignment. 
+    - Requirements for feedback providers are: a) feedback provider should be at or above the target promotion level (I.E. if a Security Engineer is taregting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher), and b) feedback provider should have direct experience working with the team member on one or more of the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document).
+    - Team members should discuss their proposal for feedback providers with their manager before sending out the feedback form to ensure alignment.
     - For promotion candidates soliciting feedback and for team members providing feedback, we recommend that you review our [Guidance on Feedback](https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/) ahead of the process kicking off. The [S-B-I model](https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/#s-b-i-model) can be a helpful framework in ensuring feedback is structured in a clear and digestible way.
     **Feedback will be ongoing from 2024-06-10 through 2024-06-21. All feedback needs to be obtained by 2024-06-21.**
 5. Team member and manager analyze feedback
@@ -364,7 +364,7 @@ Promotion candidates should follow these steps to solicit feedback as part of ou
     - CISO direct is responsible for adding promotion feedback to the CISO directs promotion calibration agenda to ensure visibility ahead of the calibration session.
     - **Due date: 2024-07-05**
 7. Calibration session occurs
-    - Calibration is scheduled for 2024-07-08 where CISO directs calibrate promotion candidates across the division. 
+    - Calibration is scheduled for 2024-07-08 where CISO directs calibrate promotion candidates across the division.
 8. Managers communication promotion status
     - Promotions are effective 2024-08-01 aligned with a communication window of 2024-07-24 to 2024-08-01 aligned with the [company-wide timeline](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#fy25-q3-2nd-half)
     - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
