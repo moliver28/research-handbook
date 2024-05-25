@@ -152,12 +152,11 @@ pages:
   rules:
     - <<: *default-branch
     - <<: *scheduled-pipeline
-    # 2024-05-21 - Temporarily disabled due to > 500 pages deployments blocking
-    #- <<: *merge-request-only
-    #  variables:
-    #    PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
-    #    ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
-    #    HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+    - <<: *merge-request-only
+      variables:
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'mr$CI_MERGE_REQUEST_IID'
+        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
 
 ####################################
 ##
