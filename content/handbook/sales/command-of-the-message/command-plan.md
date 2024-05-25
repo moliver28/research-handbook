@@ -17,6 +17,7 @@ description: "The Command Plan is how GitLab has operationalized a customer valu
 The Command Plan is how GitLab has operationalized [Command of the Message](/handbook/sales/command-of-the-message/) (*a customer value-driven sales methodology*) and [MEDDPPICC](/handbook/sales/meddppicc/) (*a proven methodology used for strategic opportunity management and complex sales process orchestration for enterprise organizations*) into the opportunity management process. Access the [Effective Command Plans to Help You Win More Deals](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/sal-effective-command-plans-to-help-you-win-more-deals) e-learning course.
 
 The Command Plan consists of the below 3 sections. The Opportunity Overview section is **required for ALL opportunities in stage 2-Scoping or later for current quarter and next quarter as a minimum global standard**. The remaining sections (MEDDPPICC and Close Plan Details) are only required for opportunities *at or above defined ARR thresholds* (**$100K+ for Enterprise**, **$50K+ for Mid-Market**). By day 1 of the current quarter, all Command Plans and Opportunity Consults should be updated for both the current and next quarters. Note: These thresholds are minimum global standards, and geographic and segment specific teams can and should aim to exceed these expectations by extending the command plan process to lower deal thresholds where appropriate.
+
 1. [**Opportunity Overview**](/handbook/sales/command-of-the-message/command-plan/#opportunity-overview)
 1. [**MEDDPPICC**](/handbook/sales/command-of-the-message/command-plan/#meddppicc)
 1. [**Close Plan Details**](/handbook/sales/command-of-the-message/command-plan/#close-plan-details)
@@ -30,6 +31,7 @@ You can find the Command Plan button in the `Opportunity Detail` section of the 
 ## Opportunity Overview
 
 This section consists of 5 mandatory fields:
+
 1. **Why Now?** - *What is the compelling event? Why does the customer need to make the purchase now including both qualitative and quantitative implications?*
 1. **Primary Value Driver** - *What is the primary business problem that the customer is trying to solve (even if GitLab didn't exist) that is causing the economic buyer to allocate discretionary funds to solve?*
 1. **Solution** - *What is the primary GitLab solution (Automate Software Delivery, Continuous Software Security Assurance, Software Compliance, or DevOps Platform) that best aligns with the problem the customer wants to solve?*
@@ -44,6 +46,7 @@ There are a total of **9 MEDDPPICC fields** (see details [here](/handbook/sales/
 ## Close Plan Details
 
 This section is comprised of the following 3 fields:
+
 1. **Close Plan** - *What is the full beginning to end close plan with dates (day by day or week by week)?*
 1. **Risks** - *What is the biggest risk with this opportunity? What would be the possible reasons for why the deal doesn't come in on time? What are we doing to proactively address and/or mitigate key risks?*
 1. **Help** - *How can the extended GitLab team help (i.e. Product Management/Engineering needs, Legal requirements, Deal Desk, Finance, Execs)?*
@@ -51,6 +54,7 @@ This section is comprised of the following 3 fields:
 ## Manager Review
 
 Continuing to improve the fidelity of Command Plans is a critical success factor to winning more deals and improving productivity and predictability. As such, at the bottom of the Command Plan is a section for Managers and above to enter review notes from [opportunity consults](/handbook/sales/command-of-the-message/opportunity-consults/) (and/or Lightweight Deal Reviews for Commercial Sales) conducted. Manager Review notes should begin with “YYYY-MM-DD” to indicate the date when the opportunity consult was conducted, and the notes should succinctly highlight:
+
 1. Prioritized gaps identified during the opportunity consult
 1. Specific action items that were agreed to (who will do what by when)
 

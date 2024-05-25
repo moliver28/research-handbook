@@ -5,15 +5,6 @@ description: "The Renewals Operations Team handbook page covers our mission, str
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
-
 ## Vision
 
 The Renewal Operations team is responsible for building, maintaining and optimizing the operational framework that supports GitLab Account Teams to effectively manage customer Renewals in an effort to increase Net Revenue Retention. The Renewal Operations team enables and supports Account Teams to:
@@ -27,9 +18,7 @@ The Renewal Operations team is responsible for building, maintaining and optimiz
 
 Find more information about how we drive the above initiatives on the [Renewals Managers - What we Do](/handbook/customer-success/renewals-managers/what/) page
 
-
 Below is a breakdown of the 4-part [Renewal Operations Strategy](https://docs.google.com/document/d/1W63d98cMVXfMvqAey8vbd2JRlfOWHLK-Yu23hhZQGTI/edit#heading=h.xion0u9mlv5c).
-
 
 - **Measure**
     1. Create continuous workflow that accurately measures and analyzes the main areas of churn and contraction
@@ -109,7 +98,6 @@ For Compensation related questions please reach out to @Sales-Comp on chatter. R
 - MM Churn & Contraction Readout
 - Customer Success Forum
 
-
 ## Renewal Operations Projects
 
 Renewal Operations uses issues and issue boards to track our projects and tasks. If your expertise can assist in any of our projects or if you simply want to share an idea you believe could assist the Renewals process, please open an issue and add the ~CS RenewalOps label anywhere within the GitLab repo.
@@ -123,6 +111,7 @@ Create Issues in the [CS Operations project](https://gitlab.com/gitlab-com/sales
 ### Labels
 
 Labels to use when creating new Issues or MRs for Renewal Ops:
+
 - CS RenewalOps - Catch all label to designate Renewal Operations involvement in the Issue. Use this label to bring an Issue to the Renewal Ops teams attention.
 - ROPS::In_Process - Renewal Ops actively working Issue
 - ROPS::Monitoring - Renewal Ops is a stakeholder but not the DRI for the Issue and is tracking progress
@@ -131,9 +120,6 @@ Labels to use when creating new Issues or MRs for Renewal Ops:
 - ROPS::Backlog - Renewal Ops has deprioritized this Issue and will be addressed at a later time
 - ROPS::Completed - Renewal Ops resolved the Issue and is now Closed
 
-
 ## Contact Us
 
 Send any questions to the slack channel [#renewal-ops](https://gitlab.slack.com/archives/C028Q2F3002)
-
-
