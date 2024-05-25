@@ -31,6 +31,7 @@
   },
   "ignores": [
     "content/handbook/customer-success/**/*.md",
+    "content/handbook/marketing/**/*.md",
     "content/handbook/company/culture/all-remote/remote-work-report-2020.md",
     "content/handbook/company/culture/all-remote/universal-remote.md"
   ]

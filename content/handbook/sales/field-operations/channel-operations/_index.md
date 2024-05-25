@@ -451,13 +451,15 @@ _Note, Partner Sourced Deal Registration incentives do not apply to alliance par
   - The GitLab ASM should communicate and align with the GitLab Partner Territory Manager and Sales Rep prior to approving or rejecting the Deal Registration.
 - **GitLab SLAs**
   - The SLA for GitLab to communicate with partners on a Partner Sourced Deal Registration is two business days. There must be contact with the registering partner within two business days, whether it be initial outreach to discuss the registration, a request for more information, approval, or rejection.
-  - The GitLab ASM has one business day to either approve or reject the Registration, which begins when the Registration hits their queue for approval. The ASM *must* communicate with the GitLab Partner Territory Manager if their approval is anticipated to push beyond the one business day SLA.
+  - The GitLab ASM has one business day to either approve or reject the Registration, which begins when the Registration hits their queue for approval. The ASM _must_ communicate with the GitLab Partner Territory Manager if their approval is anticipated to push beyond the one business day SLA.
 - **Identify and Notify Backup Approvers**
 
   - GitLab Partner Territory Managers and ASMs should *always* identify a backup approver prior to being out of office. This ensures approval requests can be actioned in your absence, and is crucial to meeting our SLAs (see **GitLab SLAs** above).
   - Partner Territory Managers
+
     - Communicate that you will be out of office to your backup approver. The backup approver should monitor the `Pending Deal Reg's by PM` component of their [Partner Forecast Dashboard](/handbook/sales/field-operations/channel-operations/#partner-forecast-salesforce-dashboards) to identify and action Deal Registrations in Pending Sales Review for the Partner Territory Manager they are covering.
     - If you find an ASM is out of office while communicating with the Sales Rep and ASM during your approval process (see **Approval Criteria** above), align with their backup approver. If you approve the Deal Registration, chatter the backup approver to request their final approval on the record, as aligned to your discussion.
+
   - ASMs - Communicate that you will be out of office to your backup approver. Partner Territory Managers will raise Deal Registrations for their review in your absence. Ensure your backup approver is prepared to action these requests while you are out.
 
 - **Standard Term and Extension**
@@ -497,8 +499,10 @@ Follow the steps below to process a Partner Sourced Deal Registration for a resa
 #### Partner Territory Manager for first review and action
 
 1. Partner Operations Team:
+
    - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Territory Manager review while in `DR-Status` = *Submitted*.
    - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Territory Manager to review and action the registration.
+
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
 1. Confirm the `Deal Registration Type` is ”Resale” and that the partner provided sufficient detail to proceed with the registration. If registration details are:
    - _accurate and complete_, proceed to the next step.
@@ -659,8 +663,8 @@ Follow the steps below to process a Service Attached Registration for an applica
 1. On the “Link/Create Opportunity” page, search for the opportunity in the provided list and/or perform a “Global Search.”
    - **If the opportunity already exists**, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
    - **If there is no matching opportunity**, and you plan to:
-     - ***Approve*** the registration, click the `Back` button and refer to Step 2 above for next steps.
-     - ***Reject*** the registration, click the `Back` button and proceed to the next step.
+     - _**Approve**_ the registration, click the `Back` button and refer to Step 2 above for next steps.
+     - _**Reject**_ the registration, click the `Back` button and proceed to the next step.
    - **The opportunity must be less than 6 months old to qualify for the incentive**. If the opportunity is greater than 6 months old, the Partner Territory Manager should reject the registration and work with the partner to see if there is an upcoming licensing opportunity that would qualify for partner services.
      ![21-Svce_Att_Reg_LinkCreateOpp_Screen.png](/handbook/sales/field-operations/channel-operations/images/21-Svce_Att_Reg_LinkCreateOpp_Screen.png)
 
@@ -987,7 +991,6 @@ The following partner forecast dashboards have been published for FY25. Please u
 - [EMEA](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000eZ2H2AU/view?queryScope=userFolders)
 - [Japan](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000hFmz2AE/view?queryScope=userFolders)
 - [PubSec](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000000hF3p2AE/view?queryScope=userFolders)
-
 
 ## Clari Forecasting for Partner Territory Managers and Leaders
 
