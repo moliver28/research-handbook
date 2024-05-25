@@ -177,7 +177,7 @@ To give each functional marketing team has a single point of contact for marketi
 - [Marketing Metrics](/handbook/marketing/strategy-performance/marketing-metrics)
 - [Dashboards Page](dashboards)
 
-## <i id="biz-tech-icons" class="fas fa-toolbox"></i>We are the Bussiness Owners Of the Following Applications: 
+## <i id="biz-tech-icons" class="fas fa-toolbox"></i>We are the Business Owners Of the Following Applications: 
 
 - [Bizible](/handbook/marketing/marketing-operations/bizible/)
 - [Allocadia](/handbook/marketing/strategy-performance/allocadia/)
