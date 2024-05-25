@@ -1,5 +1,4 @@
 ---
-
 title: "Brand Creative Handbook"
 description: "GitLab Brand Creative Handbook: "
 twitter_image: '/images/tweets/handbook-marketing.png'
@@ -7,14 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-# <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Creative Handbook
-
+## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Brand Creative Handbook
 
 We develop our brand visual identity design to ensure it stays relevant in the market and reflects the benefits and quality of our product. We are the creative partners for GitLab marketing. We create, conceptualize, and design high quality brand experiences.
 
@@ -44,14 +36,14 @@ Please fill out one of these issue templates to request support. Please note, if
 
 ### Brand & Marketing Design Issue Templates
 
+1. ##### [Brand Review Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request)
 
-   1. ##### [Brand Review Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request)
       Need a brand review? Please use this template to request a brand or design review of multiple or single assets.
-      - _For brand review only - do NOT use this template for requesting new assets or designs_.
-      - _Do NOT use any of the below issues for brand review_.
+      - *For brand review only - do NOT use this template for requesting new assets or designs*.
+      - *Do NOT use any of the below issues for brand review*.
 
+2. ##### [Content Design Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request)
 
-   2. ##### [Content Design Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request)
       Please use this issue request template for net new creative or refreshes needed for the following asset types:
          - eBook / Solution Briefs
          - Infographic / Diagrams
@@ -61,31 +53,34 @@ Please fill out one of these issue templates to request support. Please note, if
          - Whitepaper
          - Other but within the same category of assets
 
+3. ##### [Event Asset Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request)
 
-   3. ##### [Event Asset Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request)
       Please use this issue template when requesting net new or refreshing any of the following event-related assets:
          - Event Booth
          - Event Signage
          - Event Social Posts
          - Event Swag + Giveaways
 
+4. ##### [Illustration + Iconography Requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=illustration-and-iconography-request)
 
-   4. ##### [Illustration + Iconography Requests](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=illustration-and-iconography-request)
       Please use this issue template for any illustration and iconography needs.
 
-   5. ##### [Presentation Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request)
+5. ##### [Presentation Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request)
+
       Please use this issue request template for updating existing presentation decks or when requesting design for net new decks.
 
-   6. ##### [Social Media Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request)
+6. ##### [Social Media Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request)
+
       Please use this issue template for net new or refreshing organic and/or paid social requests.
 
-   7. ##### [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request)
+7. ##### [Swag Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=swag-request)
+
       This issue request is for general branded swag for the store or TMRG programs. Please use the Event Asset Request, listed above, for event-related swag.
 
-   8. ##### [General Design Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request)
-      Does your design request not fall within one of the above categories? Please use this issue template to request a new design of multiple or a single asset.
-      - _Do NOT use this template for brand reviews._
+8. ##### [General Design Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=general-design-request)
 
+      Does your design request not fall within one of the above categories? Please use this issue template to request a new design of multiple or a single asset.
+      - *Do NOT use this template for brand reviews.*
 
 ##### **Not sure if you need a brand refresh?** Here's what has changed with our branding
 
@@ -101,8 +96,6 @@ Please fill out one of these issue templates to request support. Please note, if
 
    6. Small adjustments to [Tone of voice](https://design.gitlab.com/brand/overview) and [co-branding guidelines](https://design.gitlab.com/brand-logo/branded-lockups)
 
-
-
 ##### **Request Instructions and Tips:**
 
    - When submitting your request, please title the request “CREATIVE REQUEST: [Descriptive name]”
@@ -114,18 +107,22 @@ Please fill out one of these issue templates to request support. Please note, if
 
 ### Brand Video Issue Templates
 
-   1. ##### [New Brand Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request)
+1. ##### [New Brand Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=new-video-request)
+
       Please use this issue when requesting a net new video.
 
-   2. ##### [Upload Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request)
+2. ##### [Upload Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request)
+
       Please us this issue template when requesting to have a video uploaded to Vimeo, YouTube, or another similar platform.
 
-   3. ##### [Video Edit Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request)
+3. ##### [Video Edit Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request)
+
       Please use this issue when requesting an update to an existing video or edits to video footage such as adding lower thirds, bumpers or slides to a zoom recording.
 
 #### Contacting the team
 
 The best way to get in contact with the Brand design team is to fill out one of the above issue templates with your request, or to:
+
 - Use the @gl-design tag in GitLab issues and epics for visibility.
 - @-mention individuals from the team in GitLab issues and epics.
 - Ask your question in the #marketing-design Slack channel.
@@ -152,6 +149,7 @@ Brand extensions are directly aligned with GitLab marketing initiatives and conn
 An example of a brand extension is the [Partner Leadership Summit](https://twitter.com/hapapower/status/1529106372771577857). This brand extension builds upon the core branding by incorporating new elements, such as the distinct arrow motif, that make it stand apart from our standard marketing collateral.
 
 Here are the style guides for existing brand extensions:
+
 - [GitLab Duo](https://www.figma.com/proto/5MrZGllC83sH3HHnlOtyl7/GitLab-Duo-Style-Guide?type=design&node-id=2-2&t=04Rm1rOtcZUTjgBq-0&scaling=contain&page-id=0%3A1)
 - [Partner Leadership Summit](https://www.figma.com/proto/oXk59yUAsJm7ZAqSUK4LhI/Alliance-%26-Channel-Partner-Summit?page-id=296%3A153&node-id=296%3A321&viewport=3169%2C1327%2C1&scaling=contain)
 
@@ -162,6 +160,7 @@ Sub-brands are established for approved initiatives that generate awareness, but
 An example of a sub-brand is [Level Up](https://levelup.gitlab.com/), GitLab's certification program. While Level Up offers technical training for the product, it has a broader focus on DevOps as a whole, which extends beyond the company and product.
 
 Here are the style guides for existing sub-brands:
+
 - [Level Up](https://www.figma.com/proto/cnr9OJiJH7zKszF9VAD3rd/Level-Up-Style-Guide?page-id=0%3A1&node-id=2%3A2&viewport=296%2C240%2C0.09&scaling=contain)
 - [TeamOps](https://www.figma.com/proto/DlhZglOWzvCWh5UF3Jq4sh/TeamOps-style-guide?page-id=0%3A1&node-id=2%3A2&viewport=1044%2C682%2C0.5&scaling=contain)
 
@@ -318,7 +317,6 @@ Depending on your Canva permissions, you may be able to share the file as a temp
 
 Always share your work for review. If you are working from an existing Canva template, you will see the option to request [design approval](https://www.canva.com/help/get-approval/) in the top right of the file. If you are creating your own design, you can open a [brand review issue](/handbook/marketing/brand-and-product-marketing/design/#requesting-support) and link your file. For expedited requests, please reach out in the `#marketing-design` channel on Slack with a link to the issue or file.
 
-
 ## How we work
 
 ### Brand Design team structure
@@ -409,6 +407,7 @@ Our Brand Guideline pages are located in the `Contents` folder and organized acc
 1. `nav.json:` This file dictates the structure reflected in the navigation bar on Pajamas.
 
 **Creating a new page**
+
 1. Right click on the folder where the page will be located. Select `New File`.
 1. Add your file name (this is what will be reflected in the URL path). End with the `.md` extension to denote a new markdown page.
 1. Update the navigation bar with your new page by opening the `nav.json` file.
@@ -419,6 +418,7 @@ Our Brand Guideline pages are located in the `Contents` folder and organized acc
 **Note:** Pajamas uses markdown and the heading styles match the handbook. Add content as you normally would.
 
 **Optimizing and uploading media**
+
 1. `.svg` format is ideal because it scales with the page. Optimize your file before uploading by using [SVGO](https://jakearchibald.github.io/svgomg/).
 1. `.png` or `.jpg` work well for graphics that contain images. [Optimize](https://tinypng.com/) your graphic before uploading.
 1. `.gif` format is not accepted.
@@ -454,6 +454,3 @@ Smaller commits make collaboration easier.
 1. Select `create merge request`.
 1. Wait for the pipeline to complete, then assign either Jeremy or Taurie as the `reviewer`.
 1. Once the pipeline has passed, check out the `review app` to preview changes.
-
-
-

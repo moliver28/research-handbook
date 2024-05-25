@@ -4,7 +4,7 @@ title: Welcome E-mail
 category: Project Execution
 ---
 
-This welcome e-mail will be sent by the [Manager, Professional Services]() to introduce the customer to our Professional Services Engineering team and the concept of a GitLab implementation.
+This welcome e-mail will be sent by the Manager, Professional Services to introduce the customer to our Professional Services Engineering team and the concept of a GitLab implementation.
 
 ## E-mail Template
 

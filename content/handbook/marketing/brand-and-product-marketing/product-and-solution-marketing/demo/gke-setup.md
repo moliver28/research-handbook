@@ -6,7 +6,6 @@ description: "This tutorial walks through the process of installing GitLab on Go
 
 ## Video
 
-
 The video below shows installing GitLab on Google Kubernetes Engine (GKE). For the DevOps lifecycle, please refer to the
 [sales demo](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/).
 
@@ -14,12 +13,6 @@ The video below shows installing GitLab on Google Kubernetes Engine (GKE). For t
   <iframe src="https://www.youtube.com/embed/HLNNFS8b_aw" frameborder="0" allowfullscreen="true"> </iframe>
  </iframe>
 </figure>
-
-
-
-
-
-
 
 ## Preparation
 
@@ -42,6 +35,7 @@ The video below shows installing GitLab on Google Kubernetes Engine (GKE). For t
 > - Consider opening this page on an iPad that has screen lock disabled.
 >
 > **CLI setup**
+>
 > - On macOS, install `brew` for all the things
 > - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 > - You need to have the [Google Cloud SDK](https://cloud.google.com/sdk/downloads) installed. e.g.
@@ -122,12 +116,13 @@ to install all the necessary components.
 > - `helm upgrade -i makesiddance --namespace gitlab --set baseDomain=makesiddance.com,baseIP=192.168.1.1,legoEmail=you@gitlab.com,provider=gke gitlab/gitlab-omnibus` (Replacing baseDomain, baseIP with External Address from above, and legoEmail as appropriate.)
 >
 > **Alternate instructions for GitLab EE**
+>
 > - Go to [/free-trial/](https://about.gitlab.com/free-trial/) and request a trial license for GitLab EE
 > - Wait for email
 > - Download license to `~/.gitlab-license`
 > - Install helm chart, adding the gitlab and gitlabEELicense options:
 
-```
+```console
 export LICENSE= `cat ~/GitLab.gitlab-license`
 helm upgrade -i makesiddance --namespace gitlab --set baseDomain=makesiddance.com,externalIP=192.168.1.1,legoEmail=you@gitlab.com,provider=gke,gitlab=ee,gitlabEELicense=$LICENSE gitlab/gitlab-omnibus
 ```
@@ -242,7 +237,7 @@ There are several scenarios which can cause deployment failures due to issues su
 
 - You can check logs from CLI using `kubectl` as well
 
- ```
+ ```console
   kubectl get namespaces
   kubectl get pods --namespace=<NAMESPACE>
   kubectl logs <POD> --namespace=<NAMESPACE>

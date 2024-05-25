@@ -1,19 +1,9 @@
 ---
-
 title: "Major League Hacking Fellows"
 description: "Information on the MLHF cohorts working with Digital Experience."
 ---
 
-
-
-
-
-
-  
-
-# Program Information
-
-
+## Program Information
 
 The purpose of this page is to present process guidelines for the Major League Hacking Fellow cohorts (https://fellowship.mlh.io/) that are working with the Digital Experience team. This page is for fellows to find information about their cohort, the Digital Experience team, our projects, and where to ask for help.
 
@@ -76,7 +66,7 @@ Please identify and describe the deliverables for your project(s) and the ideal 
 
 | **Issue**                                                                                                                               | **Description**                                                                              | **Assignee**                        | **Deadline**   |
 | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------- | -------------- |
-| ✅  [Vertically align dropdown caret](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/194)   | Vertically align dropdown caret                                                              | Seung Yoo                           | October, 17th  | 
+| ✅  [Vertically align dropdown caret](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/194)   | Vertically align dropdown caret                                                              | Seung Yoo                           | October, 17th  |
 | ✅ [Loading components](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/204)                               | Create progress bar and spinner loading components                                                              | Uy Seng (Wei)                       | October, 17th  |
 | ✅ [Address v::deep errors on build on Slippers repo](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/208) | Update v::deep references that are now deprecated                                            | Uy Seng (Wei)                       | October, 17th  |
 | ✅ [Add Slippers variable names next to colors](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/214)       | Add the matching Slippers variable within `_variables.scss` to the table on our color page   | Uy Seng (Wei)                       | October, 17th  |
@@ -92,10 +82,10 @@ Please identify and describe the deliverables for your project(s) and the ideal 
 | ✅ [Update breadcrumb component](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/219) | Update existing breadcrumb component | Uy Seng (Wei) | December 8th |
 | ✅ [Update Top Button name to be Side Button](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/220) | Update name of Top Button component | Seung Yoo | December 8th |
 | ✅ [Update RadioGroup component functionality and states](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/221) | Update existing RadioGroup component | Seung Yoo | December 8th |
-| ✅ [Add checkbox components to Slippers + create new Controls folder](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/222) | Create new component and update folder structure | Uy Seng (Wei) | December 8th | 
+| ✅ [Add checkbox components to Slippers + create new Controls folder](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/222) | Create new component and update folder structure | Uy Seng (Wei) | December 8th |
 | ✅ [Update horizontal rule component color](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/223) | Update HorizontalRule component to use new brand color | Seung Yoo | December 8th |
 | ✅ [Change CustomDropdown component placeholder text](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/235) | Change placeholder text in CustomDropdown story file | Chukwuemeka Mba | December 8th |
-| ✅ [Add mobile styles for Quote typography variables](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/237) | Add new font styles on mobile in variables file and update SlpTypography component | TBD | December 8th
+| ✅ [Add mobile styles for Quote typography variables](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/237) | Add new font styles on mobile in variables file and update SlpTypography component | TBD | December 8th |
 | ✅ [CustomDropdown component MVC2](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/240) | Second iteration to our CustomDropdown component | Chukwuemeka Mba | December 8th |
 | ✅ [Update tooltip component arrow size](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui/-/issues/249) | Implement design feedback from MVC1 review | Chukwuemeka Mba | December 8th |
 | More issues if there's capacity from fellows                                                                                            | TBD                                                                                          | TBD                                 | December 8th |

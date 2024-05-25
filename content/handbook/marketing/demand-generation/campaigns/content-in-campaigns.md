@@ -13,6 +13,7 @@ twitter_creator: '@gitlab'
 
 
 ## Overview
+
 {: #overview .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -26,6 +27,7 @@ The epic code in each section below outlines the necessary issues to open in ord
 * Jump to gated content (Landing Page) setup process - *being phased out*
 
 ### Types of content in campaigns
+
 {: #content-types .gitlab-orange}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * **Content for use in marketing campaigns:** we leverage the content in our marketing channels (website, email nurture, paid digital, organic social, etc.)
@@ -35,6 +37,7 @@ The epic code in each section below outlines the necessary issues to open in ord
 * **[Content syndication](/handbook/marketing/marketing-operations/campaigns-and-programs/#content-syndication)** (under Digital Marketing): We have promoted our content through a third-party vendor, but do not drive people back to our website. In these cases, we often have given them the resource to make available for download to their audience, and receive the leads to be uploaded.
 
 ## How to pick content for campaigns
+
 {: #picking-content-for-campaigns .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 **Search the entire Pathfactory Content Library**
@@ -42,23 +45,26 @@ The epic code in each section below outlines the necessary issues to open in ord
 https://gitlab.lookbookhq.com/authoring/content-library/content
 
 Filter by one or multiple of the following:
-- Topic
-- Content Type
-- Funnel Stage
-- GTM Motion (Business Unit in Pathfactory)
-- Language
+
+* Topic
+* Content Type
+* Funnel Stage
+* GTM Motion (Business Unit in Pathfactory)
+* Language
 
 **View reports to see what works**
 
 * **Key metric to analyze: Engagement Time**
-   - *"Why not total views?"* Engagement time is a better indicator of content effectiveness than views, which can be a self-fulfilling prophesy; the more views, the more it is used, the more it continues to climb in comparison to other content.
+   * *"Why not total views?"* Engagement time is a better indicator of content effectiveness than views, which can be a self-fulfilling prophesy; the more views, the more it is used, the more it continues to climb in comparison to other content.
 
 ## Internally-Created Content (i.e. eBooks, Guides)
+
 {: #internal-content .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 The below process should be used for all new content (ebooks, guides, whitepapers, etc.). Creating the epic and related issues is the responsibility of the **Campaign Manager** to make sure that when the content is ready, the teams involved in putting into Pathfactory (MOps) and the teams involved in activating (Campaigns, Digital, ABM) are able to take action immediately.
 
 #### Epic code and issues - Internal GitLab Content
+
 {: #epic-issues-internal-content}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -71,7 +77,7 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 
 :calendar: As a guide in developing timeline, please view the **[workback timeline calculator](https://docs.google.com/spreadsheets/d/1RvYLEUJvh9QZJZX1uXiKJPcOOSGd7dEeNneqyA2bt3A/edit#gid=969067029)*
 
-```
+```markdown
 <!-- NAME EPIC: [type] <Name of Asset> (ex. [eBook] A beginner's guide to GitOps) -->
 
 ## Launch date: `to be added`
@@ -171,6 +177,7 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 ```
 
 ## Externally-Created Content (i.e. Analyst Relations)
+
 {: #external-content .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 External content can be sourced from Analyst Relations, partners, and other vendors with whom we work. Some examples would be vendor comparisons (i.e. Gartner/Forrester) or industry/market analyses (i.e. DevOps Institute).
@@ -193,6 +200,7 @@ The purpose of the decision matrix is to gather cross-functional feedback whethe
 **Decision Matrix end to end decision timeline (SLA): 7 Business days**
 
 #### Epic code and issues - External Content
+
 {: #epic-issues-external-content}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -205,7 +213,7 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 
 As a guide in developing timeline, please view the workback timeline calculator [here](https://docs.google.com/spreadsheets/d/1RvYLEUJvh9QZJZX1uXiKJPcOOSGd7dEeNneqyA2bt3A/edit#gid=969067029)
 
-```
+```markdown
 <!-- NAME EPIC: [type] <Name of Asset> (ex. [Report] Gartner MQ for ARO) -->
 
 * [ ] Make sure epic is CONFIDENTIAL, if applicable (i.e. Analyst Reports)
@@ -300,6 +308,7 @@ Adjust list as applicable for each report activation. [Use the workback timeline
 ```
 
 ## Adding new content to the Resources page
+
 {: #add-to-resources-page .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
@@ -308,17 +317,19 @@ Adjust list as applicable for each report activation. [Use the workback timeline
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=G8NZV75H7lw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 **Step by step instructions below**
+
 1. Go to the [Resources page](https://app.contentful.com/spaces/xz1dnu24egyd/entries/5sF9ZMv4xAffzAKEnQGozh?focusedField=title) entry in Contentful
 2. Click on the "Browse all resources" section of page content
 3. Scroll waaaaay to the bottom and select + Add Content -> Card
 4. From here, it might be helpful to open an existing card and make sure the same fields are filled out, but the gist is:
-- the Title goes in both `Internal Name` and `Title`
-- the Language goes in `Subtitle`
-- the Teaser goes in `Description`
-- the Topics go in `List` (hit enter after each topic)
-- the Solutions go in `Pills` (hit enter after each topic)
-- the Type of resource goes in `Icon Name`
-- the URL goes in `Card Link`
+
+* the Title goes in both `Internal Name` and `Title`
+* the Language goes in `Subtitle`
+* the Teaser goes in `Description`
+* the Topics go in `List` (hit enter after each topic)
+* the Solutions go in `Pills` (hit enter after each topic)
+* the Type of resource goes in `Icon Name`
+* the URL goes in `Card Link`
 
 Publish that card, drag it to the top of the list if you want it to appear first, and publish that section too!
 
@@ -327,6 +338,7 @@ If you want to edit other parts of the page the process is similar, just follow 
 *Note: For ungated journeys, the URL drives to the PF asset/track, instead of a landing page.*
 
 **TYPES to choose from (select one)**
+
 * eBook
 * Report
 * Webcast
@@ -337,6 +349,7 @@ If you want to edit other parts of the page the process is similar, just follow 
 * Assessment
 
 **LANGUAGES to choose from (select one)**
+
 * English
 * Korean
 * Japanese
@@ -370,6 +383,7 @@ If you want to edit other parts of the page the process is similar, just follow 
 * Version Control & Collaboration
 
 **SOLUTIONS to choose from (select best aligned)**
+
 * Accelerated Delivery
 * Deliver better products faster
 * Executive visibility
@@ -386,6 +400,7 @@ If you want to edit other parts of the page the process is similar, just follow 
 * Security and quality
 
 ## How to extend analyst assets
+
 {: #extend-analyst-assets .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 At times, we will extend the rights to an asset if it is heavily used by sales or performing in campaigns. In that case the decision is indicated in the [Expiration Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=campaigns-expire-analyst).
@@ -393,14 +408,17 @@ At times, we will extend the rights to an asset if it is heavily used by sales o
 Follow the steps outlined [in the Pathfactory Content Library Handbook](/handbook/marketing/marketing-operations/pathfactory/content-library/#replacing-or-updating-the-verson-of-an-asset-after-initial-upload).
 
 ## How to retire analyst assets when they expire
+
 {: #retire-analyst-assets .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 An [Expiration Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=campaigns-expire-analyst) will be opened by the Campaign Manager DRI for each analyst asset, and related to the overarching Epic (with due date for when the asset is set to expire). When the decision is made to expire the asset, the teams involved will check off their respective action items in the issue.
 
 ### Retire Marketo landing page
+
 {: #retire-marketo-page}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 **First you will remove the form from the page and add a "no longer available" message**
+
 * In the Marketo program, click "edit" on the Registration Page
 * On right rail under "Variables" (below "Elements"), find `2column Visibility` and switch to "Hidden"
 * On right rail under "Variables" (below "Elements"), find `2column Sidebar` and switch to "No Sidebar"
@@ -408,22 +426,25 @@ An [Expiration Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/
 * In flex1 section, double-click then click to edit in HTML > add the code below into the section and save
 * Approve Landing Page and test live. You should no longer be able to see the form or paragraph text, and only see the notice about resource no longer being available.
 
-```
+```html
 <h1>This resource is no longer available.</h1>
 <p>Thank you for your interest in this resource, but it is no longer available for download. <a href="https://about.gitlab.com/analysts/" target="_blank" id="">Click here to visit our industry analysts page to view other reports and best practices!</a></p>
 ```
 
 ### Remove from Intelligent Nurture
+
 {: #remove-intelligent-nurture}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 Please follow the process outlined in the [Emails/Nurture Handbook](/handbook/marketing/lifecycle-marketing/emails-nurture).
 
 ### Remove from Pathfactory
+
 {: #remove-pathfactory}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 Please follow the process outlined in the [Pathfactory Handbook](/handbook/marketing/marketing-operations/pathfactory/content-library/#removing-an-asset-from-the-library).
 
 ### Marketo automation and setup for gated landing page
+
 {: #steps-gated-landing-pages}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 **!!! REMINDER: We are using ungated content journeys via Pathfactory. This process should only be used for specific scenarios, and used sparingly.**
@@ -433,6 +454,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
 :exclamation: Dependencies: delivery of final asset, completion of final landing page copy, and final asset added to pathfactory and placed in a track must be complete before setting up the Marketo program.
 
 **The TL;DR of what you'll do:**
+
 * Create Marketo program, tokens, and SFDC campaign sync
 * Edit registration page and thank you page URLs
 * Edit and Activate smart campaign(s)
@@ -441,6 +463,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
 * Add new content to the Resources page (separate issue)
 
 #### Create Marketo program, tokens, and SFDC campaign sync
+
 {: #steps-gated-mkto-sfdc}
 <!-- DO NOT CHANGE THIS ANCHOR -->
   * Clone the [Marketo Gated Content Template](https://app-ab13.marketo.com/#PG5111A1) and name new program using naming convention (YYYY_Type_AssetName, i.e. 2020_report_GarnterVOC_ARO)
@@ -471,6 +494,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
     * `{{my.valueStatement}}` token with the short value statement on what the viewer gains from the webcast, this ties into the follow up emails and must meet the max/min requirements of the [character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
 
 #### Edit registration page and thank you page URLs
+
 {: #steps-gated-registration-page}
 <!-- DO NOT CHANGE THIS ANCHOR -->
   * Right click the landing page object > "URL Tools" > "Edit URL Settings"
@@ -479,6 +503,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
   * For both, leave `"Throw away" existing url` selected and click save
 
 #### Edit "resulting page" from the form submit
+
 {: #steps-gated-resulting-page}
 <!-- DO NOT CHANGE THIS ANCHOR -->
   * The cloned program will automatically reference the Marketo program template Thank You Page
@@ -489,6 +514,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
   * At top left of page, click `Landing Page Actions` > "Approve and Close"
 
 #### Activate smart campaign(s)
+
 {: #steps-gated-activate-smart-campaigns}
 <!-- DO NOT CHANGE THIS ANCHOR -->
   * Click to `01 Downloaded Content` smart campaign
@@ -505,18 +531,20 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
   * Schedule tab: click "Activate" (note: the settings should be that "each person can run through the flow once every 7 days" - this is to avoid bots resubmitting repeatedly)
 
 #### Update SFDC campaign
+
 {: #steps-gated-update-sfdc}
 <!-- DO NOT CHANGE THIS ANCHOR -->
   * Navigate to [https://gitlab.my.salesforce.com/701?fcf=00B61000004NY3B&page=1&rolodexIndex=-1] campaigns in Salesforce
   * `Campaign Owner` should be the campaign creator
   * `Active` field should be checked
-  * `Description ` must include the epic url, best practice to include the registration page URL
+  * `Description` must include the epic url, best practice to include the registration page URL
   * `Start Date` should be date of launch
   * `End Date` should be one year later
   * `Budgeted Cost` is required, if cost is $0 list `1` in the `Budgeted Cost` field - NOTE there needs to be at least a 1 value here for ROI calculations, otherwise, when you divide the pipeline by `0` you will always get `0` as the pipe2spend calculation.
   * `Bizible Touchpoints Enabled` leave this blank (because this would be an online touchpoint)
 
 #### Test live registration page and flows
+
 {: #steps-gated-testing}
 <!-- DO NOT CHANGE THIS ANCHOR -->
   * Click to the landing page object and click "View Approved Page"
@@ -529,6 +557,7 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
   * Final QA that the confirmation email link sends to Pathfactory with the tracking for the email address  (`&lb_email=[email submitted in form]`)
 
 ## Potential backup process
+
 {: #retire-marketo-page .gitlab-purple}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 To be completed by the content owner if Pathfactory access is granted. If no access, please open an issue in Campaigns team based on epic category above.
@@ -536,6 +565,7 @@ To be completed by the content owner if Pathfactory access is granted. If no acc
 **Add to /downloads/ repository** (only available and recommended for assets under 2 MB size)
 
 *The purpose of this step is to make it possible to flip the autoresponder if Pathfactory were to have an outtage, at which point, we would still have the PDF version available in Marketo for a quick turnaround.*
+
 1. Save the pdf to your computer with naming convention `[asset-type]-short-name-asset`, ex: `ebook-agile-delivery-models`
 1. Navigate to the (de-indexed) [`resource/download`](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/sites/uncategorized/source/resources) directory
 1. Where it says `www-gitlab-com / sites / marketing / source / resources / +`, click the plus drop down and select "Upload File"

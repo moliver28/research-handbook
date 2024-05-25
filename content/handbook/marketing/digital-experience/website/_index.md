@@ -49,7 +49,7 @@ Known Issue: There is an [ongoing issue](https://gitlab.com/gitlab-com/Product/-
 
 As of 2021-04-27, we are [actively auditing](https://gitlab.com/gitlab-com/marketing/inbound-marketing/marketing-website/-/issues/125) the tracking, cookies, and other 3rd party personalization tools installed on the GitLab Website to ensure we are only collecting the information needed to deliver our service.
 
-* Last audit complete date with link to issue: TBD - audit underwawy
+- Last audit complete date with link to issue: TBD - audit underwawy
 
 ### List of Tracking Tools
 
@@ -119,6 +119,7 @@ Similar content can appear as a topic, solution, and in the product section with
 - A category page `/product/continuous-integration` would talk about the capabilities and features that are part of GitLab's CI functionality and the value it has.
 
 ## Requesting Support
+
 If you need support please review the information on the [Digital Experience Hanbook Page](/handbook/marketing/digital-experience/#requesting-support)
 
 ## Updating the Marketing Website
@@ -323,7 +324,7 @@ To change or update the current maturity, set the `maturity` field to the desire
 
 #### Sample template
 
-```
+```yaml
 authentication_and_authorization:
   name: "Authentication and Authorization"
   stage: manage
@@ -403,7 +404,7 @@ To add a new feature, add a feature block to under the `features:` section of th
 
 For example:
 
-```
+```yaml
 - title: "Group Milestones"
   description: "Create and manage milestones across projects, to work towards a target date from the group level. View all the issues for the milestone you’re currently working on across multiple projects."
   link_description: "Learn more about Group Milestones"
@@ -429,7 +430,7 @@ For example:
 
 Copy and paste this template:
 
-```
+```yaml
 - title: ""
   description: ""
   link_description: ""
@@ -450,16 +451,17 @@ Copy and paste this template:
 The underlying data shown on the [GitLab Learn](https://about.gitlab.com/learn/) page is available in [https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml)
 
 To update the course content data:
+
 1. Open an MR to the [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) file. Follow the existing syntax in the file. For ease of adding a new course, we recommend copying an existing entry and updating the values based on the new course being added, populating every field.
 1. Add content to the list as soon as it is planned.
 1. To indicate that a course is planned for the future, include a live_date in the future. You can see an example in [this MR #94773](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/94773).
 
 Important guidelines to keep in mind:
+
 1. [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) is our SSOT for GitLab-produced content, including all existing and future planned content.
 1. When planning new learning content, add it to [learn.yml]https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) as soon as possible, at a minimum monthly, and aim to include what you plan to produce over the upcoming 6 months or more. This gives visibility to all other GitLab team members producing learning content as to what has been planned.
 1. Before producing new content, check [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) for redundancy, as other teams may have developed or plan to develop similar content.
 1. Communicate updates with other DRIs working on learning content by posting on the #gitlab-learn-updates Slack channel (available to team members only)
-
 
 ### Contentful CMS
 
@@ -471,12 +473,11 @@ The Digital Experience team is implementing [Contentful CMS](https://www.content
 
 Read the [Contentful handbook page](/handbook/marketing/digital-experience/contentful-cms/) for up to date directions and status of the system.
 
-
-# Merge requests
+## Merge requests
 
 For best practices regarding testing and reviewing merge requests, please see our related handbook page for [reviewing merge requests](/handbook/marketing/digital-experience/website/merge-requests/).
 
-# Working in Modules
+## Working in Modules
 
 ##### What is a module?
 
@@ -501,8 +502,7 @@ For best practices regarding testing and reviewing merge requests, please see ou
 1. Tracking the performance of a module becomes more difficult the more a module changes.
 1. When examining from a distance, it's hard to know what module to use if the modules all have several different purposes, sometimes overlapping purposes. "Do I use this module or that one?"
 
-
-# Digital FAQ
+## Digital FAQ
 
 <details markdown="1">
 

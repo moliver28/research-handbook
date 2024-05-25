@@ -42,7 +42,7 @@ We accomplish these by offering [categories of services](/services/) to help ens
 
 #### Migration Services
 
-We offer data and user [migration services](/services/migration/) to enable the customer to come from a variety of legacy systems (both SCM and CI/CD). We work closely with the gitlab import API team and have automation tools to facilitate the migration. We are continuously improving them with every nuanced customer migration service we provide. Read about a [customer case study]() of a recent gitlab self managed to gitlab.com migration experience.
+We offer data and user [migration services](/services/migration/) to enable the customer to come from a variety of legacy systems (both SCM and CI/CD). We work closely with the gitlab import API team and have automation tools to facilitate the migration. We are continuously improving them with every nuanced customer migration service we provide. Read about a customer case study of a recent gitlab self managed to gitlab.com migration experience.
 
 Migration services are always custom-scoped because of the variability of level of effort based on the amount of data and number of users in the source system(s).
 

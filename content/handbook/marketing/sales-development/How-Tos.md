@@ -7,7 +7,6 @@ description: Use this page to quickly learn the basics of inbound lead managemen
 
 While the contents below are meant to get you up to speed quickly, we also have a wealth of resources for team members that are looking to perfect their craft [here](/handbook/marketing/sales-development/sales-development-vault/).
 
-
 ## Where to find your leads and accounts
 
 Inbound leads get automatically imported to SFDC by the Sales Operations team, you can find links to their handbook pages on our [main page](/handbook/marketing/sales-development).
@@ -40,7 +39,6 @@ To find and access your leads, please:
 | FY25 B6 - 6QA imported leads           | You can find any leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.                                                                  |
 | FY25 B7 - BDR Prospecting Last 7 Days  | This view will surface leads that you created or refreshed from ZoomInfo or Cognism. (Please note that there is also a contacts view you will need to check should the person already be a contact in our system)                                                                                                                                                                                                                 |
 
-
 ### Contact Views
 
 | View    | Description                                                                                                                                                                                                       |
@@ -58,12 +56,11 @@ To find and access your leads, please:
 | B2 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
 | B3 - My Actively Working accounts (clone)    | Customize to show "Actively Working" accounts where you are the BDR assigned.                                                                     |
 | B4 - BDR Recycle Date Past due (Clone)       | Show AWA accounts where the Recycle Date is in the past two weeks.                                                                                |
-| B5 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date.
+| B5 - Mvd to "WorkedinFY" this week (Clone)  | Show Worked in FY accounts with a recent Recycle Date. |
 
 ## How to do Lead Database Management
 
 As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](/handbook/marketing/sales-development/roe-kpis-faq/).
-
 
 | Step | Action                                                                                                                                  |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,7 +77,6 @@ As part of your SDR responsibilities, you are expected to perform due diligence 
 |  4a    | - If there's no matched account, but there's another lead that has the `Accepted` or `Qualifying` status, assign the new MQL to the owner of the accepted/qualifying leads.                                |
 | 5    | BDRs receiving leads not associated with `Actively Working` accounts must assign back to SDR team or chatter mktgops support. |
 | 6   | Qualified leads associated with “Actively Working” accounts are routed to BDR assigned to the Actively Working Account.                |
-
 
 ### Company Address Based Routing Information
 
@@ -134,7 +130,6 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 | 1a | - High touch sequences are for higher-quality leads and require more personalization and touch points, including phone calls and LinkedIn Connect requests. This should be the majority of your pipeline. |
 | 1b | - Low touch sequences are typically automated and run for a shorter period of time. You can use Low-touch for leads where a phone number cannot be found online or in our databases, or where their contact information is incomplete and cannot be enriched by our tools, or through manual research. Low touch should only be reserved as the last resort. |
 | 2    | Research the appropriate outreach collections for relevant collateral to be used. Most typically our [High-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc) or [Low-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc) collections. |
-|
 
 ### Cold-Calling and Email Checkbox
 
@@ -143,6 +138,7 @@ Before calling any Lead or Contact, BDRs must ensure that the `Do Not Call` box 
 Our cold-calling best practices typically consist of 4 elements. A pattern interrupt, an elevator pitch and, if required, objection/trap-setting questions and Up-Front Contracts.
 
 To be effective, these need to be customized to the individuals we call as per the logic below:
+
 * Different Geographical Business Cultures
 * Personality Type as per the DISC model
 * Individual's Role and Responsibilities
@@ -153,7 +149,6 @@ An unsubscribe link must be included on every email sent by a BDR, including res
 ### Do Not Call and Do Not Email Automations
 
 Leads with certain criteria will be automatically labeled as **Do Not Call** and or **Do Not Email** shortly after loading into our database. It's understandable this can be frustrating for certain territories. Please keep in mind, the criteria behind this automation has been set in order to follow local law. Please see the [Internal GitLab handbook](https://internal.gitlab.com/handbook/marketing/marketing-strategy-and-platforms/marketing-operations/do-no-contact) for more information on the triggers.
-
 
 ### How to enroll to outreach
 
@@ -208,8 +203,8 @@ Content created for BDRS and SDRs to use to create hyper-personalized sequences,
 
 * **Common Snippet Examples**
 
-     - [Objection Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=objection)
-     - [Support Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=Support)
+     * [Objection Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=objection)
+     * [Support Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=Support)
 
 ### New Outreach Sequence/Workflow creation
 
@@ -230,9 +225,9 @@ By maintaing a Single Source of Truth (SSoT) we give the best possible forum for
 
 ### Follow Up Outreach Sequences
 
-- For SDRS and BDRS that want to sequence leads in their qualifying views we created [this video](https://www.youtube.com/watch?v=IKE24LRJbcc) to help you create a workflow around this follow up [sequence.](https://app1a.outreach.io/sequences/9383)
+* For SDRS and BDRS that want to sequence leads in their qualifying views we created [this video](https://www.youtube.com/watch?v=IKE24LRJbcc) to help you create a workflow around this follow up [sequence.](https://app1a.outreach.io/sequences/9383)
 
-- The same video also showcases the [Auto Follow Up](https://app1a.outreach.io/sequences/9543) to Book a Meeting Sequence SDRs and BDRs can use when a prospect responds to one of their sequences.
+* The same video also showcases the [Auto Follow Up](https://app1a.outreach.io/sequences/9543) to Book a Meeting Sequence SDRs and BDRs can use when a prospect responds to one of their sequences.
 
 ### White Glove Event Follow Up Sequence (SAEs Included)
 
@@ -240,8 +235,8 @@ For more personal events, such as Executive Roundtables, there many be more deta
 
  The goal of this sequence is to reach out to the prospect quickly and to include our SAEs/AEs in the conversation.
 
-- The first step is to put the prospect in the Sequence. From there customize the first email step to include the people mentioned in the Last Event Notes. You can also delay the time that the first email goes out so you have more time to get feedback from the SAE/AE if needed.
-- Next send a screenshot of the first email step to the SAE/AE’s that will be CC’d. Explain to them that this strategy creates space for them to engage with more specific messaging if the prospect is unresponsive. NOTE: There is a generic task on Day 12 to reach out to the SAE/SA if there has not been any engagement. The goal is to keep them in the loop and for you to work together to engage the prospect.
+* The first step is to put the prospect in the Sequence. From there customize the first email step to include the people mentioned in the Last Event Notes. You can also delay the time that the first email goes out so you have more time to get feedback from the SAE/AE if needed.
+* Next send a screenshot of the first email step to the SAE/AE’s that will be CC’d. Explain to them that this strategy creates space for them to engage with more specific messaging if the prospect is unresponsive. NOTE: There is a generic task on Day 12 to reach out to the SAE/SA if there has not been any engagement. The goal is to keep them in the loop and for you to work together to engage the prospect.
 
 ### Other Outreach Training Resources
 
@@ -276,25 +271,25 @@ Utilizing these accounts, create an outreach strategy and plan for the upcoming 
 
 During your research phase for accounts to include in your sequences, thoroughly investigate and document pertinent information, which may include:
 
-- Identifying new strategic hires.
-- Discovering recent job openings in DevOps.
-- Monitoring for security breaches or threats.
-- Scanning for relevant news articles.
-- Gathering intelligence on competitors.
-- Examining future plans, such as digital transformation initiatives.
-- Noting recent company acquisitions.
-- Investigating LinkedIn connections.
-- Identifying instances of GitLab usage by employees or as a past customer.
-- Exploring 2nd and 3rd-degree connections.
-- Seeking mentions of DevOps.
-- Reviewing relevant 10K reports or financial disclosures.
+* Identifying new strategic hires.
+* Discovering recent job openings in DevOps.
+* Monitoring for security breaches or threats.
+* Scanning for relevant news articles.
+* Gathering intelligence on competitors.
+* Examining future plans, such as digital transformation initiatives.
+* Noting recent company acquisitions.
+* Investigating LinkedIn connections.
+* Identifying instances of GitLab usage by employees or as a past customer.
+* Exploring 2nd and 3rd-degree connections.
+* Seeking mentions of DevOps.
+* Reviewing relevant 10K reports or financial disclosures.
 
 This comprehensive research will provide valuable insights for crafting effective outreach strategies further down the funnel. Regarding account research, in addition to our B2B database toolstack, we also use 6Sense to pre-qualify the accounts that should be considered for our pipelines since 6Sense scores accounts based on their market and profile fit.
 
 There are two ways utilize 6Sense:
 
-- Through the SFDC iframe integrated dashboard (mandatory for FY24Q3)
-- Through the 6Sense Platform (optional for this Quarter)
+* Through the SFDC iframe integrated dashboard (mandatory for FY24Q3)
+* Through the 6Sense Platform (optional for this Quarter)
 
 ### 2A. Using 6Sense through the SFDC dashboard
 
@@ -308,7 +303,6 @@ There are two ways utilize 6Sense:
 | 5    | On “Search by User” select “BDR Assigned” and add your name                                         |
 | 6    | On “Other filters” select “Salesforce Account fields” and type “BDR Prospecting Status”              |
 | 7    | On the “BDR Prospecting Status” field, select “Actively Working”                                    |
-
 
 The dashboard will now display the top actively working accounts in your name. Do note that these are only accounts that we currently have on our database, while you can find greenfield accounts by visiting the SaaS platform (instructions in section 2B). Section 3 below explains how you can review and utilize this data.
 
@@ -325,7 +319,6 @@ You will find all of the relevant resources for BDRs and SDRs on the first 5 fol
 | 2. Non-AWA Greenfield Accounts | These segments will display the top accounts in your territory that we do not have on our SFDC database. These accounts should be manually investigated and considered for adding to your outbound pipeline. Note that we have approx. 15% of our TAM on our SFDC database, while these reports are an automated way to identify great accounts from the other 85% of the TAM in your territory. Please note that the Sales Dev Ops team is here to work with you to generate these reports, as the particularities of our Sales Territories require some editing with the filters. Please don’t hesitate to reach out to us so we help you work through these. |
 | 3. Non-AWA SFDC Accounts   | These segments display the accounts that currently hold on our database that display high 6sense intent scores, but are not part of your actively working list.                      |
 
-
 After choosing the type of report you’d like to work, please follow the steps below:
 
 | Step | Description                                                                                                                                                                        |
@@ -336,7 +329,6 @@ After choosing the type of report you’d like to work, please follow the steps 
 | 4    | For folders 1 and 3, you’ll see a prompt on one of the filters to add your name to the “BDR Assigned” Field.                                                                     |
 | 5    | For folder 2, you’ll see a prompt to add your region to the “Address: Region” field. Do note that based on your territory there are other datapoints like “Address: City” or “Address: Country” that can be used. |
 | 6    | After having done the edits on steps 4 and 5, press “Save Changes”. Make sure that you’ve updated the naming convention accordingly and click “Save As New Segment”.           |
-
 
 ### 3. Manual Research on Accounts
 
@@ -358,7 +350,6 @@ The importance of diligent manual research will lead to the below efficiencies:
 | 3    | Search for the account website domain on SFDC.                                            |
 | 4    | Search for the Account’s HQ address, along with any regional business unit address.       |
 
-
 **2. To hyper-personalize your messaging:**
 
 Please follow the steps below to understand how to research the data provided on 6Sense, and to cross-reference this data with our internal knowledge base so that you create your account strategy accordingly.
@@ -372,7 +363,6 @@ Please follow the steps below to understand how to research the data provided on
 | Cross-reference with External sources       | i. Search LinkedIn Insights for company growth, financials and recent news <br> ii. Search company webpage for recent news, career openings or specific technologies used <br> iii. Search online sources like newsletter or crunchbase |
 | Cross-reference the above with HighSpot     | i. Check for relevant playbooks based on company size <br> ii. Check for relevant messaging based on persona <br> iii. Check for relevant pain-points based on value driver |
 
-
 ### Execution Phase (5-10 hours/week)
 
 **Exporting Accounts and Leads to SFDC, and adding to your Outbound Pipeline.**
@@ -381,9 +371,9 @@ After having manually shortlisted the accounts that are applicable to your campa
 
 To determine which prospects to enroll per account, please follow the steps below:
 
-- Identify the idea value drivers to be used for the account’s pain-points through your manual research, as outlined above.
-- Determine which personas would most benefit from the specific value drivers by using our CoM documentation on HighSpot.
-- Run queries for the specific titles on ZoomInfo, and export to CRM.
+* Identify the idea value drivers to be used for the account’s pain-points through your manual research, as outlined above.
+* Determine which personas would most benefit from the specific value drivers by using our CoM documentation on HighSpot.
+* Run queries for the specific titles on ZoomInfo, and export to CRM.
 
 You should explore the specific personas you intend to target, such as: VPs, Directors, Developers, Security, Architecture, DevOps, DevSecOps, Procurement Officers, and IT Buyers.
 
@@ -393,9 +383,9 @@ In Step 7, compile the selected prospects and create LinkedIn Sales Navigator li
 
 **To export to CRM, please follow the guidelines below:**
 
-- Click the Export to CRM button on ZoomInfo
-- That’s it
-- No, really.
+* Click the Export to CRM button on ZoomInfo
+* That’s it
+* No, really.
 
 **To fill in the BDR fields, please follow the guidelines below:**
 
@@ -504,7 +494,7 @@ Once you’ve audited an opp, you will create a task by logging a call, choose �
 
 [**Audit Process Video Walkthrough**](https://www.youtube.com/watch?v=ef8gFx0lR48)
 
-### AUDIT REVIEW (what to look for):
+### AUDIT REVIEW (what to look for)
 
 | Action | Rationale | Coaching Opportunity |
 | ------ | ------ | ------ |

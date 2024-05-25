@@ -16,32 +16,31 @@ Case Study creation is maintained by the Customer Reference Team in the [Product
 
 1. Issue created using Case Study Template in this [project](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/)
 
-2. Customer Reference Manager begins to gather information (from Reference Edge, Command Plan, other internal resources such as sales call notes)
+1. Customer Reference Manager begins to gather information (from Reference Edge, Command Plan, other internal resources such as sales call notes)
 
-3. Customer Reference Manager syncs with CSM/AO
+1. Customer Reference Manager syncs with CSM/AO
 
-4. Customer Reference Manager conducts initial outreach: this includes email, call, and follow up.
+1. Customer Reference Manager conducts initial outreach: this includes email, call, and follow up.
 
-5. Customfer Reference Manager links call notes and recording to case study issue
+1. Customfer Reference Manager links call notes and recording to case study issue
 
-5. Customer Reference Manager identifies appropriate PMM and opens a PMM issue, links to Case Study issue and [PMM Involvement Epic.](https://gitlab.com/groups/gitlab-com/marketing/strategic-marketing/-/epics/270)
+1. Customer Reference Manager identifies appropriate PMM and opens a PMM issue, links to Case Study issue and [PMM Involvement Epic.](https://gitlab.com/groups/gitlab-com/marketing/strategic-marketing/-/epics/270)
 
-6. In advance of second call (in-depth): Customer Reference Manager provides customer with appropriate Metrics Questions by copying [this template](https://docs.google.com/spreadsheets/d/1_632vXyYnpbebt-boO2TwRuUPznvLcwmJP7walwHaec/edit#gid=252417068) and placing new file in the appropriate customer folder in [this G-Drive folder](https://drive.google.com/drive/u/0/folders/1L_CUjvW_1cOmqjLCPUsAqqr7D29jW-Vb).  Hide tabs that do not apply, and add questions where indicated by PMM or the Customer
+1. In advance of second call (in-depth): Customer Reference Manager provides customer with appropriate Metrics Questions by copying [this template](https://docs.google.com/spreadsheets/d/1_632vXyYnpbebt-boO2TwRuUPznvLcwmJP7walwHaec/edit#gid=252417068) and placing new file in the appropriate customer folder in [this G-Drive folder](https://drive.google.com/drive/u/0/folders/1L_CUjvW_1cOmqjLCPUsAqqr7D29jW-Vb).  Hide tabs that do not apply, and add questions where indicated by PMM or the Customer
 
-7. In advance of second call (in-depth): Customer Reference Manager provides customer with appropriate questions (see below list), updating based on PMM or customer indications.
+1. In advance of second call (in-depth): Customer Reference Manager provides customer with appropriate questions (see below list), updating based on PMM or customer indications.
 
-7. Customer Reference Manager opens Partners issue, if applicable
+1. Customer Reference Manager opens Partners issue, if applicable
 
-8. Customer Reference Manager condcuts In-Depth interview with customer and invites any stakeholders from GitLab (PMM, Partners, etc.) where appropriate
+1. Customer Reference Manager condcuts In-Depth interview with customer and invites any stakeholders from GitLab (PMM, Partners, etc.) where appropriate
 
-9. Customer Reference Manager sends in-depth recording to be transcripted.  Provides customer with transcript for approval
+1. Customer Reference Manager sends in-depth recording to be transcripted.  Provides customer with transcript for approval
 
-10. Once transcript is approved and metrics are gathered, Customer Reference Manager sends to contracted writer for Case Study creation.
+1. Once transcript is approved and metrics are gathered, Customer Reference Manager sends to contracted writer for Case Study creation.
 
-11. Once draft is received, edit for brevity, accuracy, and appropriate focus.  Customer Reference Manager will share with content team for final review, and with customer for final approval prior to publication.
+1. Once draft is received, edit for brevity, accuracy, and appropriate focus.  Customer Reference Manager will share with content team for final review, and with customer for final approval prior to publication.
 
-12. Customer Reference Manager will seek PR where appropriate prior to publication.
-
+1. Customer Reference Manager will seek PR where appropriate prior to publication.
 
 #### Customer Blog Creation Process
 
@@ -74,6 +73,7 @@ Interview Questions: (Select the questions we should ask)
 **Note, these questions will be adjusted based on specific UseCases and Value Drivers Identified by the CRM team, with possible custom additional questions as determined by PMM/CRM engagement, please confer with CRM before regarding appropriate timing for provision of questionnaire**
 
 **Why GitLab**
+
 - [ ] Describe what your organization does, how the software is used, and how your team helps solve business challenges.
 - [ ] What problem were you trying to solve when you were looking at GitLab?
 - [ ] What was your process before using GitLab?
@@ -91,11 +91,12 @@ Interview Questions: (Select the questions we should ask)
 - [ ] Is tech debt an issue that's affecting your development teams and ability to deliver, or has it been in the past?  If yes to either, how is it trending? (Has GitLab helped?)
 - [ ] Which step in development takes the longest, and in which step are the most problems introduced?
 
-
 **What if**
+
 - [ ] What would have happened if you hadn't selected GitLab?
 
 **Feedback on GitLab**
+
 - [ ] How did GitLab solve those problems you were suffering from?
 - [ ] Which teams are using GitLab?
 - [ ] What do users say about GitLab?
@@ -104,20 +105,22 @@ Interview Questions: (Select the questions we should ask)
 - [ ] If your team is not on the most recent version (or within a release or two), why haven't you updated?
 
 **Impact of GitLab**
+
 - [ ] What are the positive business outcomes of introducing GitLab?
 - [ ] What are some initial successes resulting from moving to GitLab?
 - [ ] Can you share any larger successes?
-
 
 **Customer Use Case Questions**
 Depending on the customers use cases; please select the appropriate questions below to ask the customer.
 
 **Version Control & Collaboration (VC&C)/Source Code Management (SCM)**
+
 - [ ] How does your team create, manage and protect your project artifacts. (source code, designs, configuration, etc)?
 - [ ] How were you managing project assets prior to GitLab?
 - [ ] Does having one SCM tool improve your development process (efficiency, speed, quality, etc)?
 
 **Continuous Integration (CI)**
+
 - [ ] How are you automating software development processes, testing and building code?
 - [ ] How does GitLab Continuous Integration add value to your SDLC?
 - [ ] How has GitLab Continuous Integration helped improve quality and speed of your delivery?
@@ -131,14 +134,14 @@ Depending on the customers use cases; please select the appropriate questions be
 - [ ] Corresponds to Metrics Form: We find that the most meaningful case studies show value that changes over time with supporting quantitative data. These come in various forms of metrics and/or data points, such as DORA metrics (lead time, deployment frequency (more CD than CI), mean time to recovery, and change failure rate). What are you currently measuring today from a quantitative standpoint? If nothing right now, that's ok! Have you considered what you want to be able to track and measure in the short term?
 - [ ] Corresponds to Metrics Form: Code commits: If you’re not already tracking the number of code commits your team(s) make before deploying your software, it’s a great time to take a look at that data in your environment. It should be fairly easy to retrieve, please let me know if you need guidance!
 
-
-
 **Continuous Delivery (CD)**
+
 - [ ] How are you improving the speed to deploy code?
 - [ ] Has using GitLab Continuous Delivery empowered your developers to deploy changes faster?  What's their feedback?
 - [ ] Has the automated delivery increased your code output while maintaining quality?
 
 **Development, Security, and Operations (DevSecOps)**
+
 - [ ] How are you identifying application vulnerabilities during your development process?
 - [ ] How has detecting security bugs earlier impacted the SDLC?
 - [ ] How has GitLab helped support audits and compliance etc?
@@ -155,37 +158,46 @@ Depending on the customers use cases; please select the appropriate questions be
      - [ ] Vulnerability management (In the MR and/or in the Security dashboard?)
 - [ ] Do you export the vulnerabilities found to anywhere else? (like SIEM, Risk Mgmt, another dashboard?)
 
-
 **Agile Project Management (Agile)**
+
 - [ ] How are you managing your team's backlog, sprints, milestones, and future work?
 - [ ] How do you have visibility of team results?
 - [ ] How do you track/monitor project milestones etc?
 
 **Simplify Development Operations / End to End DevOps (DevOps)**
+
 - [ ] How has collaboration across teams improved with GitLab?
 - [ ] How has productivity or efficiency improved using GitLab?
 - [ ] What other benefits have you realized with GitLab and a single application?
 
 **Cloud Native Approach to Applications Development (CloudNative)**
+
 - [ ] How are you developing and managing cloud native applications?
+>
 > - [ ] K8s executor?
 > - [ ] Canary deployments?
 > - [ ] AutoDevOps? Using Templates?
 > - [ ] CI/CD to orchestrate deployments?
+>
 - [ ] How has GitLab helped you to manage cloud native/microservices?
 - [ ] What are the benefits of using GitLab's kubernetes integration?
 - [ ] How long have you been using Cloud Native, what has the journey been like?
+>
 > - [ ] When did you start adopting K8s? (before/after GitLab?)
+>
 - [ ] How many clusters do you have?
 - [ ] If Autoscaling - what were you doing before?
+>
 > - [ ] How long did it take you? (cost of efficiency, speed, security)
 
 **Infrastructure as Code (GitOps)**
+
 - [ ] How are your operations teams managing different versions of their automation/configuration scripts?
 - [ ] How are you testing and validating your infrastructure scripts?
 - [ ] How are you integrating with other tools to maintain IAC?
 
 **Deployment Strategy Questions**
+
 - [ ] Can you describe the current deployment strategy you are using with GitLab? (target environment types, on-premise infrastructure and/or public cloud services, some combination of these and/or other resources)?
 - [ ] Can you share the background and reasoning behind selecting this current deployment strategy?
 - [ ] Were there specific business and/or technical reasons that shaped this strategy?
@@ -193,6 +205,7 @@ Depending on the customers use cases; please select the appropriate questions be
 - [ ] Are you using or planning to use containers? If so, can you describe your use of containers?
 
 **Professional Services Questions**
+
 - [ ] Were Professional Services (i.e. Migration, Training/Certification, Implementation, Advisory) offered/provided?
     - [ ] if yes, notify Bryan May @bryan-may
 - [ ] What were the benefits of working with professional services (e.g. accelerate time to value, knowledge transfer from the experts, improving operational efficiency, etc.)?
@@ -201,7 +214,8 @@ Depending on the customers use cases; please select the appropriate questions be
 - [ ] What were your business objectives for investing in GitLab? Did GitLab Professional Services help you meet or exceed the business objectives?
 
 **Education Program Customers**
-- [ ] How is GitLab advancing research at your University/Research Organization?  
+
+- [ ] How is GitLab advancing research at your University/Research Organization?
 - [ ] What role does GitLab have in advancing open science?
 - [ ] How are you using GitLab in your organization?
 - [ ] What do the students and researchers like most about GitLab?
@@ -209,6 +223,7 @@ Depending on the customers use cases; please select the appropriate questions be
 - [ ] How are students and researchers using GitLab to collaborate?
 
 **Open Source Program Customers**
+
 - [ ] How is GitLab impacting the number of contributions in your community?
 - [ ] What kind of feedback have you received about GitLab from your community?
 - [ ] Did you need to adapt GitLab to fit your community’s needs?
@@ -221,9 +236,10 @@ Depending on the customers use cases; please select the appropriate questions be
 
 ##### Metrics Questions
 
-We have a **[Metrics Spreadsheet Template](https://docs.google.com/spreadsheets/d/1_632vXyYnpbebt-boO2TwRuUPznvLcwmJP7walwHaec/edit#gid=252417068) that serves as the basis for the custom Metric form we will send to customers along with their custom questions.  Based on the value drivers identified, hide or include tabs.  
+We have a **[Metrics Spreadsheet Template](https://docs.google.com/spreadsheets/d/1_632vXyYnpbebt-boO2TwRuUPznvLcwmJP7walwHaec/edit#gid=252417068) that serves as the basis for the custom Metric form we will send to customers along with their custom questions.  Based on the value drivers identified, hide or include tabs.
 
 Steps:
+
 - [ ] CRM to make a NEW COPY of this Template - Save in Customer Folder
 - [ ] Customize with additional requisite questions based on PMM review/recommendation
 - [ ] Hide irrelevant Value Driver tabs
@@ -245,9 +261,9 @@ Written Case studies are vital to showcasing the success of our customers and di
 10. Once customer feedback is received, customer content addresses any concerns and CRM reviews and sends final version to customer for approval or continued discussion around draft.
 11. If the marketing approval form hasn't already been received, CRM sends the [marketing approval form](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#customer-logo-permission-form) for the customer to review, sign and return to GitLab.  Customer will also be requested to send a high res logo file (png/svg) to use on our website and marketing materials
 12. CRM will review the PR potential of the reference with the PR team and if they deem it has PR merit, the CRM will propose PR support for the reference to the customer. The CRM will also propose social promotion of the case study [details here](#asking-the-customer-to-partner-with-us-on-social-promotion-of-the-published-case-study)
-12. If customer agrees to media awareness around the case study, introduction to the PR team is co-ordinated by the CRM.
-13. Once customer approves final version and a signed marketing permission form is received, CRM loads the signed form into the SFDC account and either customer content or CRM publishes case study on the /customers page.
-14. CRM and Customer content begin internal promotion process. Raise a Customer Content Activation issue, the CRM is the DRI for this activity.
+13. If customer agrees to media awareness around the case study, introduction to the PR team is co-ordinated by the CRM.
+14. Once customer approves final version and a signed marketing permission form is received, CRM loads the signed form into the SFDC account and either customer content or CRM publishes case study on the /customers page.
+15. CRM and Customer content begin internal promotion process. Raise a Customer Content Activation issue, the CRM is the DRI for this activity.
 
 Please note that we can facilitate customer interviews in other languages (FR/DE/IT/ES/JP) if the customer prefers this option
 
@@ -284,7 +300,3 @@ The customer approval form includes permission to localise the reference content
 1. Please follow the process for translating content for campaigns as detailed [here](/handbook/marketing/localization/#translating-content-for-campaigns)
 2. Please note the [prioritisation](/handbook/marketing/localization/#priority-countries) of content localization as per priority countries
 3. Once the customer case study content is localized by the external vendor; the requestor can raise an internal review [request](/handbook/marketing/localization/#process-for-requesting-a-review)
-
-
-
-

@@ -23,7 +23,6 @@ twitter_creator: gitlab
     * Build lasting and trusting vendor and internal relationships
     * Help elevate the attendee/customer's GitLab experience during events
 
-
 ## What does the Corporate Events team handle?
 
 * Sponsored events
@@ -36,7 +35,6 @@ twitter_creator: gitlab
 * Internal events
     * [GitLab Summit](https://about.gitlab.com/events/summit-las-vegas/), our internal company and core community event
     * Please review our events decision tree to ensure Corporate Marketing is the appropriate owner for an event. If it is not clear who should own an event based on the [decision tree](https://docs.google.com/spreadsheets/d/1aWsmsksPfOlX1t6TeqPkh5EQXergt7qjHAjGTxU27as/edit?usp=sharing), please email events@gitlab.com.
-
 
 ## Meet the Corporate Events Team and How to Reach Us
 
@@ -71,7 +69,6 @@ twitter_creator: gitlab
   <tr>
 </table>
 
-
 ### If you’d like to email us instead, please reach us at
 
 General Questions: [events at gitlab dot com](mailto:events@gitlab.com)
@@ -79,7 +76,6 @@ General Questions: [events at gitlab dot com](mailto:events@gitlab.com)
 Summit-related Questions: [summit at gitlab dot com](mailto:summit@gitlab.com)
 
 DevSecOps World Tour-related Questions: [events at gitlab dot com](mailto:events@gitlab.com)
-
 
 ## How We Evaluate and Build Potential Events
 
@@ -96,14 +92,12 @@ All GitLab events must check at least  three or more of the goals of our events 
 9. Communicate the marketplace positioning
 10. Promote Partnerships and Alliances
 
-
 ### Corporate Events must also meet
 
 1. Audience minimum requirement will vay based on the type of sponsored event
 2. Audience demographic requirements. We consider the balance of roles represented (contributor, user, customer, potential hires), and the Global reach of the audience. Audience profile must be over 50% national/ global.
 
 **If you are looking to request a new Corporate Event, please use the following [issue template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=Event_Request)
-
 
 ## Questions we ask ourselves when assessing an event
 
@@ -120,7 +114,6 @@ All GitLab events must check at least  three or more of the goals of our events 
 * Do we have the bandwidth and resources to make this event a success? Do we have the cycles, funds, collateral and runway to invest fully and make the event as successful as possible? Events must be weighed against other current activity in the region and department.
 
 Suggested events will be subject to a valuation calculation - will it meet or exceed objectives listed above?
-
 
 ### Corporate Events Strategy / Goals / OKRs
 
@@ -140,6 +133,7 @@ Suggested events will be subject to a valuation calculation - will it meet or ex
 ### Third party sponsored events speaking session & CFP process
 
 **Corporate Events speaking session & CFP process references:**
+
 * [FY25 Sponsored Events & Epics](https://gitlab.com/groups/gitlab-com/marketing/-/epics/4775)
 * [FY25 Dev Evangelism Event Strategy](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/326/)
 * [Developer Advocate CFPs](/handbook/marketing/developer-relations/developer-advocacy/cfps/)
@@ -171,18 +165,18 @@ If the event we are sponsoring is not on the Developer Advocate team's radar to 
 
 ### Teams we work with internally at Tier 1 shows
 
-    * Event Marketing — Project management, execute logistics, budget management, event staffing/training, lead collection/reporting, and ancillary events
-    * Field Marketing — Field communication, meeting program support, onsite booth support, ancillary event support
-    * Inside Sales Rep  — Drive registration, booth support, lead follow-up
-    * Customer Success (TAM, SAs attending) / Developer Relations — Booth support, attend customer meetings, presentations/speaking engagements
-    * Product/Alliance Marketing — Messaging, content creation (blogs, sponsorship deliverables, post event emails etc), onsite booth support
-    * Developer Advocate — Demos creation, onsite support
-    * Social and Communications — Pre-event, on-site, post-event social content creation, PR & media
-    * Lifecycle Marketing — Event landing pages, email blasts, database email reviews, SEO, copyedit
-    * Recruiting - Onsite booth support
-    * Design — Look & feel, tone, collateral (print), digital, environmental
-    * Large & MidMarket sales teams - Attending & setting up meetings
-    * [Leading Organization Team](/handbook/marketing/developer-relations/leading-organizations/) — Executive/customer meetings, attending social events (ex: receptions, dinners), panel discussions, speaking engagements, media interviews
+* Event Marketing — Project management, execute logistics, budget management, event staffing/training, lead collection/reporting, and ancillary events
+* Field Marketing — Field communication, meeting program support, onsite booth support, ancillary event support
+* Inside Sales Rep  — Drive registration, booth support, lead follow-up
+* Customer Success (TAM, SAs attending) / Developer Relations — Booth support, attend customer meetings, presentations/speaking engagements
+* Product/Alliance Marketing — Messaging, content creation (blogs, sponsorship deliverables, post event emails etc), onsite booth support
+* Developer Advocate — Demos creation, onsite support
+* Social and Communications — Pre-event, on-site, post-event social content creation, PR & media
+* Lifecycle Marketing — Event landing pages, email blasts, database email reviews, SEO, copyedit
+* Recruiting - Onsite booth support
+* Design — Look & feel, tone, collateral (print), digital, environmental
+* Large & MidMarket sales teams - Attending & setting up meetings
+* [Leading Organization Team](/handbook/marketing/developer-relations/leading-organizations/) — Executive/customer meetings, attending social events (ex: receptions, dinners), panel discussions, speaking engagements, media interviews
 
 ### Staffing 3rd party sponsored event booths
 
@@ -247,7 +241,6 @@ These are estimated numbers that the Corporate Events team uses to account for b
 4. Once GitLab content is created, it will then go through the review process which will entail: Overall Content DRI Review, Brand Compliance DRI Review, and Legal Review (only if necessary). Reviewers will leave feedback as comments in the slide presentation to be addressed.
 5. Once Parter content is created, it will then go through the review process which will entail: Overall Content DRI Review. Reviewers will leave feedback as comments in the slide presentation to be addressed.
 6. Once the content has gone through the review process and all reviewer comments have been addressed the content will then be deemed final.
-
 
 ## GitLab DevSecOps World Tour
 
@@ -518,6 +511,7 @@ As part of the event planning and execution process at GitLab, the event lead wi
 
 The planning committee will ensure that there is an inclusive environment when selecting CFP/keynote/speakers which aligns with [GitLab's event requirements for speaking](/handbook/marketing/corporate-communications/speaking-resources/#event-requirements).
 This includes researching and sourcing for speakers from [underrepresented groups](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups) and with various backgrounds including:
+
 * Ability, disability, and ableism
 * Faith and/or religious identity
 * Gender identity
@@ -530,6 +524,7 @@ This includes researching and sourcing for speakers from [underrepresented group
 #### Venue/Vendor/Supplier Selection
 
 When working with a vendor or supplier, the team will ensure that the selected venue/vendor/supplier is supportive of GitLab’s DIB values. These may include, but are not limited to the following:
+
 * LGBTQIA+, racial, faith/religious, and gender friendly
 * Are able to accommodate accessibility needs or are able to make special arrangements if needed
 * Work with diverse and locally owned businesses when possible
@@ -553,6 +548,7 @@ When working with a vendor or supplier, the team will ensure that the selected v
 At GitLab, the Corporate Events team wants to continue to play our part and operate with integrity when we are making decisions. The team is consciously making decisions that help align with the company’s social and environmental efforts.
 
 The Corporate Events team works with our [swag vendor](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/) that sources swag with a goal of 95% of swag is sustainable or eco-friendly or work with companies that have sustainable initiatives. Some categories that the Corporate Events team considers when selecting suppliers are:
+
 * Union Made Products
 * Give-Back Programs
 * Eco Products

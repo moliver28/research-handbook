@@ -1,7 +1,7 @@
 ---
 
 title: "Processes and Methodology"
-description: "Learn the processes and methodology that GitLab Professional Services uses to help ensure Customer Success." 
+description: "Learn the processes and methodology that GitLab Professional Services uses to help ensure Customer Success."
 ---
 # Processes and Methodology
 
@@ -22,7 +22,7 @@ The professional services process and methodology fits within the [customer jour
 </figure>
 
 
-<!--![](/handbook/customer-success/professional-services-engineering/processes/customer-journey-mapped-ps-process.png)-->
+<!--![''](/handbook/customer-success/professional-services-engineering/processes/customer-journey-mapped-ps-process.png)-->
 
 [Source, GitLab Team Members Only](https://docs.google.com/presentation/d/1eC_ocJkzNkH4Vw3v4Vkd3S58a0NALYxXtnb6BZ7pJdc/edit?usp=sharing)
 

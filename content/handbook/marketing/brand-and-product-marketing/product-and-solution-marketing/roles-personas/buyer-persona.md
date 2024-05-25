@@ -1,13 +1,6 @@
 ---
-
 title: "Buyer Personas"
 ---
-
-
-
-
-
-
 
 ### Buyer personas
 
@@ -19,10 +12,10 @@ coordinate various teams to make a purchase. We've updated our approach to inclu
 
 1. [CIO](#tech-exec-tristan)
 2. [App Dev](#app-dev-avery)
-2. [Security](#infosec-shiloh)
-3. [Platform](#platform-perry)
-4. [Compliance](#compliance-cooper)
-5. [Release](#release-rory)
+3. [Security](#infosec-shiloh)
+4. [Platform](#platform-perry)
+5. [Compliance](#compliance-cooper)
+6. [Release](#release-rory)
 7. [PMO](#program-management-payton)
 8. [Back Office](#back-office-blake)
 
@@ -124,6 +117,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
    - Internal Influencers: Data Consultants / Marketing / C-Suite / Engineering Team / Tech Leads / Developers / Peer Tech Execs
 
 - **Purchasing Roles:**
+
 1. Influencer
 1. Decision-maker (relies on users/influencers for renewal decisions)
 1. Initiator/Identifier of need
@@ -133,7 +127,6 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
    - Awareness: CIO Round Table, Conference Presos, Case studies
    - Considerations: Blog posts, white papers, cusotm website landing page
    - Decision: topical campaigin email with CTA, Podcasts, Press releases/announcements
-
 
 ---
 
@@ -155,7 +148,6 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
    - Receive feedback from security and other teams in the same tool you use for development
    - Get real-time feedback with automated CI tools
    - Easy collaboration for quicker resolution and deployment
-
 
 - **Potential Titles:**
    - Application Development Executive (VP, etc) / Application Development Director / Application Development Manager / Product Development / Application Developer / Software Developer / Software Engineer
@@ -185,7 +177,6 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
    - Career growth/learning (and the ability to fail/learn in a safe environment)
    - Choosing the technology/tools I use to do my work
 
-
 - **Biggest Challenges:**
    - The need to increase speed of development
    - Siloed teams and workflows
@@ -199,6 +190,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
    - Internal Influencers: Senior team members / Architects and Developer Advocates / Execs in Engineering and PLM Orgs / CTO / Head of DevOps /
 
 - **Purchasing Role:**
+
 1. Influencer
 1. Likely an Initiator / Identifier of Need and Researcher
 1. Probably a Researcher
@@ -272,10 +264,10 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
    - Internal Influencers: C-Suite / Network Administrator / Directors, VPs and senior engineers & analysts / Evaluators / security management teams / CISO / IT SME / User Testing
 
 - **Purchasing Role:**
+
 1. Influencer
 1. Researcher
 1. Often a Decision-Maker
-
 
 - **Buyer's Journey:**
    - Awareness:  Tech demo video series, Analyst Reports, Conference Presentations
@@ -302,7 +294,6 @@ scaling efficiencies and new ways of working across multiple projects and enviro
    - Implement guardrails to control access to cloud envirionments and incrementally deploy your appliations to the cloud
    - Increase deployment velocity with auomation and CI/CD
    - A single platform improves communications with Dev, Sec, and other departments
-
 
 - **Potential Titles:**
    - Architect/Manager/Director/VP of: Infrastructure Engineering, Platform, Engineering, Software Operations, IT Operations, CloudOps, Architecture, Systems
@@ -349,11 +340,11 @@ scaling efficiencies and new ways of working across multiple projects and enviro
 Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / Innovation Team / IT Director / Head of Development & Sr. Developers / Peers / Partner companies
 
 - **Purchasing Role:**
+
 1. Influencer
 1. Probably a researcher
 1. Likely an Initiator / Identifier of Need & Researcher
 1. Decison-Maker: this group is the lead ARR and First Order purchaser of GitLab
-
 
 - **Recommended Buyer's Journey:**
    - Awareness: Tech demo video servies, case studies, conference presentation
@@ -414,6 +405,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    - Internal Influencers: Tech management / C-Suite / Peers
 
 - **Purchasing Role:**
+
 1. Decision-maker
 1. Influencer
 1. Initiator/ Identifier of need
@@ -432,7 +424,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - **Job To Be Done:**
    - Ensure delivery milestones are met on time and with quality
 
- - **Summary:**
+- **Summary:**
    - I’m really motivated by being more efficient and effective
    - I’m an Influencer and Researcher for tech purchases but I am very often the decision-maker
    - My biggest challenges are tool and process sprawl and the volume of required integrations (and associated maintenance). My job also restricts tooling choices (and I don’t like the tools I am allowed to use)
@@ -478,6 +470,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    - Internal Influencers: Infrastructure Team
 
 - **Purchasing Role:**
+
 1. Influencer
 1. Researcher
 1. Decision-maker
@@ -496,7 +489,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - **Job To Be Done:**
    - Plan, govern, and oversee the delivery of new capabilities
 
- - **Summary:**
+- **Summary:**
    - I’m really motivated by being more effective and efficient
    - I’m both an Influencer and Decision-maker
    - My biggest challenges are that the transition to DevSecOps is challenging for certain legacy workloads and environments, the need to increase the speed of development, and the disjointed developer experience
@@ -548,6 +541,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    - Internal Influencers: DevSecOps Consultants / Developers / System Administrators / DBAs / PMO / Security / Product Management
 
 - **Purchasing Role:**
+
 1. Influencer
 1. Decision-maker
 
@@ -623,6 +617,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
    - Internal Influencers: Internal team / C-level / Software development lead
 
 - **Purchasing Role:**
+
 1. Influencer
 1. Decision-maker
 
@@ -655,8 +650,8 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - [(Product) Website:](https://about.gitlab.com/) Page on a vendor’s website describing a particular product/service and including specific specs and features, information about the manufacturer and brand, etc. .
 - [Whitepaper:](https://fbcinc.com/source/virtualhall_images/Convergence/GitLab/modernizing-government-it.pdf) Report/guide that informs readers concisely about a complex issue and presents the issuing body's philosophy on the matter. It is meant to help readers understand an issue, solve a problem, or make a decision.
 
-
 ### Enablement Artifacts
+
 - [Slides](https://docs.google.com/presentation/d/18Cro-xz9k8jHAdnLOLX1Y0QP9pEdkCli_bnnm3oHGWk/edit#slide=id.p1)
 - [Video 1](https://drive.google.com/file/d/1e5pojzdV3mdQzqLhXiTYniJNTHuwktxD/view?usp=share_link)
 - [Video 2 - updates](https://drive.google.com/file/d/1-Drm1XdBvyO9adU8bjJDqp4z2tjq8W-M/view?usp=share_link)
@@ -665,22 +660,22 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - Slack channel: #buyer-personas
 
 ### Enablement Sessions
+
 - Product: 2022-11-01 [Recording](https://gitlab.slack.com/files/U01HVL4CLTX/F0496QE1KBQ/traci_-_buyer_persona_refresh.mp4)
-- All Marketing: 2022-11-10 730 pm ET / 1230 am UTC [Recording]()
-- Sales Strategy: Scheduled for 2022-11-21 1130 am ET / 430 pm UTC [Recording]()
+- All Marketing: 2022-11-10 730 pm ET / 1230 am UTC Recording
+- Sales Strategy: Scheduled for 2022-11-21 1130 am ET / 430 pm UTC Recording
 - Channel/Alliances/Partner: Scheduled for 2022-12-06 1130 am ET /430 pm UTC [Recording](https://youtu.be/AdgiCCRo7LE)
 - UX: Scheduled for 2022-11-29 1130 am ET /430 pm UTC [Recording](https://drive.google.com/file/d/15LZFnLAUoSZaUWHEY5ZbxaRhc3BzvQpv/view?usp=share_link)
-- Customer Success: Scheduled for 2022-11-30 12 pm ET / 5 pm UTC [Recording]()
+- Customer Success: Scheduled for 2022-11-30 12 pm ET / 5 pm UTC Recording
 - Sales: Rollout at SKO Feb 2023
 <br>
 - Office Hours:
    - 2022-11-15 11 am ET / 4 pm UTC [Notes](https://docs.google.com/document/d/1qbZK3_cwxzyOIqeqYcoZDby-5dibSW6HQT8D4jrMaLw/edit) | [Recording](https://drive.google.com/file/d/1BLlKu_biBzm9g9I8sbUbV7DX0qdBuDFw/view)
-   - Scheduled for 2022-12-20 11 am ET / 4 pm UTC [Notes]() | [Recording]()
-   - Scheduled for 2023-01-17 11 am ET / 4 pm UTC [Notes]() | [Recording]()
-   - Scheduled for 2023-02-21 11 am ET / 4 pm UTC [Notes]() | [Recording]()
-   - Scheduled for 2023-03-21 11 am ET / 4 pm UTC [Notes]() | [Recording]()
-   - Scheduled for 2023-04-18 11 am ET / 4 pm UTC [Notes]() | [Recording]()
-
+   - Scheduled for 2022-12-20 11 am ET / 4 pm UTC Notes | Recording
+   - Scheduled for 2023-01-17 11 am ET / 4 pm UTC Notes | Recording
+   - Scheduled for 2023-02-21 11 am ET / 4 pm UTC Notes | Recording
+   - Scheduled for 2023-03-21 11 am ET / 4 pm UTC Notes | Recording
+   - Scheduled for 2023-04-18 11 am ET / 4 pm UTC Notes | Recording
 
 ### Deprecated Buyer Videos
 

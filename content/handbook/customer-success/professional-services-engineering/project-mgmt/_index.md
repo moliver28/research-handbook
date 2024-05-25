@@ -12,12 +12,12 @@ description: "Learn about the processes that the GitLab Project Management team 
 
 GitLab takes our customer's success very seriously. In Professional Services (PS) we strive to provide a first class experience for all engagements.
 
-![](./ps-engagement-framework_v2_09092022.png)
+![''](./ps-engagement-framework_v2_09092022.png)
 
 - [Process Flow - trim (above)](https://docs.google.com/spreadsheets/d/1uRoB73lZtvNhkk-Z9eQS3_Ys4yX8vVUXXqQUO7Nm1ss/edit?usp=sharing)
 - [Process Flow - full](https://docs.google.com/spreadsheets/d/1Y8wWj5g8T6HuPGEnHaWUfdtI7LPmathGaMwfiA2b_Ks/edit?usp=sharing)
 
-Given the close collaboration between the PS Project Management and PS Operations [team functions](/handbook/customer-success/professional-services-engineering/#team-functions), please refer to the [PS Operations Wiki](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home) for details on processes related to scheduling, reporting, billing, partner processes, and more.  
+Given the close collaboration between the PS Project Management and PS Operations [team functions](/handbook/customer-success/professional-services-engineering/#team-functions), please refer to the [PS Operations Wiki](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home) for details on processes related to scheduling, reporting, billing, partner processes, and more.
 
 ### Project plan
 
@@ -64,7 +64,7 @@ Each PS Engagement will include a Project Plan based on the activities outlined 
     - Submit resource request via Kantata to match the customer-confirmed project schedule
     - Weekly project check-in meeting: Notes documented in the [Project Definition](https://docs.google.com/spreadsheets/d/1tBO5wyQ-lMkHJMSHkpq8rwzDsKXPcIxURaGrYi_HX9Q/edit#gid=1659103486) or customer collaboration project
     - Provide Weekly Status Report: Using the template in the [Project Definition](https://docs.google.com/spreadsheets/d/1tBO5wyQ-lMkHJMSHkpq8rwzDsKXPcIxURaGrYi_HX9Q/edit#gid=1659103486) or other agreed upon method
-  
+
 #### Monitor/Control, Develop, Configure, Integrate, Train
 
 8. PS Engineer: Complete work per the SOW
@@ -90,8 +90,8 @@ Each PS Engagement will include a Project Plan based on the activities outlined 
 12. Project Owner:
     - Complete this [sign off workflow](/handbook/customer-success/professional-services-engineering/workflows/project_execution/sign-off.html)
     - Schedule [Project closure meeting](https://docs.google.com/document/d/1Cw5eLe8VKFtHG9xGqUiCua8Pbu52reMzHujcPWq3ofQ/edit?usp=sharing)
-    - Schedule [Project Retrospective](https://docs.google.com/document/d/1CXfnCzjF_hwapy0R-89txiFUmSmvX7jvlEqWn48zN8A/edit?usp=sharing)  
-    - Regional Manager to provide a closeout report including estimated hours, actual hours, deliverable documents, and lessons learned to broader team. Post this in [#ps-project-leadership](https://gitlab.slack.com/archives/GR4A7UJSF) and make sure to mention the Engagement Manager team `@em`.  
+    - Schedule [Project Retrospective](https://docs.google.com/document/d/1CXfnCzjF_hwapy0R-89txiFUmSmvX7jvlEqWn48zN8A/edit?usp=sharing)
+    - Regional Manager to provide a closeout report including estimated hours, actual hours, deliverable documents, and lessons learned to broader team. Post this in [#ps-project-leadership](https://gitlab.slack.com/archives/GR4A7UJSF) and make sure to mention the Engagement Manager team `@em`.
 
 ### Project Management Process Templates
 

@@ -22,6 +22,3 @@ The purpose of the lightning strike is to generate buzz that creates awareness u
 ### Campaign brief FY23
 
 Information about the FY23 Campaign brief, messaging and target personas can be found [here](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2868#memo-campaign-brief)
-
-
-

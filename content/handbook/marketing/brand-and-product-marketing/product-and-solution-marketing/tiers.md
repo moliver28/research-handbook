@@ -88,9 +88,9 @@ Community Edition (CE) and Enterprise Edition (EE) refer to software distributio
 
 Users can be on the EE distribution for free. Distribution doesn't imply if a user is a customer or not.
 
-    1. Say "users" when you mean all users - paid and unpaid.
-    2. Say "customers" when you mean paid users.
-    3. Say "Free users" when you mean unpaid users.
+1. Say "users" when you mean all users - paid and unpaid.
+2. Say "customers" when you mean paid users.
+3. Say "Free users" when you mean unpaid users.
 
 ❌ Incorrect:  "Let's run a marketing campaign to encourage CE users to upgrade to a paid tier."
 
@@ -100,11 +100,11 @@ Users can be on the EE distribution for free. Distribution doesn't imply if a us
 
 GitLab has 3 tiers: Free, Premium, and Ultimate. Distribution doesn't imply which tier a user is on.
 
-    1. Say the "Free" when you mean the $0 tier.
-    2. Say "Open source" when you mean features in the $0 tier.
-    3. Say "Premium" or "Ultimate" to refer to those tiers.
-    4. Optionally, say "GitLab Free," "GitLab Premium," or "GitLab Ultimate" when you want to refer to a pricing tier.
-    5. Say "commercial tier" when you mean any paid tier.
+1. Say the "Free" when you mean the $0 tier.
+2. Say "Open source" when you mean features in the $0 tier.
+3. Say "Premium" or "Ultimate" to refer to those tiers.
+4. Optionally, say "GitLab Free," "GitLab Premium," or "GitLab Ultimate" when you want to refer to a pricing tier.
+5. Say "commercial tier" when you mean any paid tier.
 
 ❌ Incorrect:  "Let's move this feature to CE."
 

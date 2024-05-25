@@ -39,7 +39,6 @@ Related Reading:
     - Why is [cloud native](https://about.gitlab.com/topics/cloud-native/) important to digital transformation
     - Speed [time to market](https://about.gitlab.com/solutions/faster-software-delivery/) without impacting [risk](https://about.gitlab.com/solutions/dev-sec-ops/)
 
-
         **CIO or VP IT** - Business focus, strategic, long-term, transformation, budget
         1. Persona reference: [VP IT video](https://www.youtube.com/watch?v=LUh5eevH3F4), [VP IT Slide Deck](https://docs.google.com/presentation/d/17Ucpgxzt1jSCs83ER4-LdDyEuermpDuriugPNYrz8Rg/)
         1. Value Prop:
@@ -54,7 +53,6 @@ Related Reading:
               - [Comparison page](https://about.gitlab.com/why-gitlab/)
               - [Solutions page](https://about.gitlab.com/solutions/), depending upon unique challenges/interests
 
-
         **CISO and VP Security** - Risk, Security, Compliance, protecting the business
         1. Value Prop:
               - You no longer must choose between velocity and risk.
@@ -67,7 +65,6 @@ Related Reading:
               - [Comparison](https://about.gitlab.com/why-gitlab/)
               - [Current Security Deck](https://docs.google.com/presentation/d/1z4v6v_lP7BHCP2jfRJ9bK_XoUgQ9XW01X2ZhQcon8bY/edit#slide=id.g2823c3f9ca_0_9) - [Deprecated Security Deck](https://docs.google.com/presentation/d/1lNr9pz7axLlN7uw7Wkwi_FYMuEh4F4QzPaoJLfReGFk/edit#slide=id.g2823c3f9ca_0_9)
               - [Regulatory Compliance](https://about.gitlab.com/solutions/compliance/)
-
 
         **CTO** - Technology focused, today and in the future. Focus can vary from company to company.
         1. Persona reference: [Chief Architect Video](https://www.youtube.com/watch?v=qyELotxsQzY), [Chief Architect slide deck](https://docs.google.com/presentation/d/1KXsozYkimSLlEg3N-sKeN7Muatz_4XimYp-s7_dY1ZM/)
@@ -90,7 +87,6 @@ Related Reading:
             - [Product page](https://about.gitlab.com/stages-devops-lifecycle/)
             - [Comparison page](https://about.gitlab.com/why-gitlab/)
             - [Solutions page](https://about.gitlab.com/solutions/), depending upon unique challenges/interests
-
 
 1. **VP Level**
 
@@ -117,7 +113,6 @@ Related Reading:
           - [Comparison page](https://about.gitlab.com/why-gitlab/)
           - [Solutions page](https://about.gitlab.com/solutions/), depending upon unique challenges/interests
 
-
       **VP Ops** - Keeping the business running efficiently.  Uptime, recovery are important.  The role is typically bonused/compensated on uptime and SLAs back to the business.
       1. Value Prop:
           - GitLab’s single application that supports the entire DevOps lifecycle is going to be important for this role.  Shifting left monitoring, testing and security earlier in the SDLC is valuable to the VP Ops to reduce the risk of downtime in production.  Auto DevOps will be of interest here as well.
@@ -135,7 +130,6 @@ Related Reading:
             - [Solutions page](https://about.gitlab.com/solutions/), depending upon unique challenges/interests
             - [Security Deck](https://docs.google.com/presentation/d/1lNr9pz7axLlN7uw7Wkwi_FYMuEh4F4QzPaoJLfReGFk/edit#slide=id.g2823c3f9ca_0_9)
             - [Regulatory Compliance](https://about.gitlab.com/solutions/compliance/)
-
 
       **VP/Dir DevOps or Enterprise Architect** - VP/Director of DevOps is a fairly new role. Enterprise Architect role is expanding with more and more control.  Leading the execution of the transformation. Ensures the business and technology are in alignment. Focuses on best practices and processes as well as assists with documentation. Evangelist of DevOps best practices.
       1. GitLab persona reference: [Director DevOps video](https://www.youtube.com/watch?v=qyELotxsQzY), [Director DevOps slide deck](https://docs.google.com/presentation/d/1x-XUhAXkZxl8ZGe4ze9qcWMmrWITc7es1fYNY_OHQQA/)
@@ -159,20 +153,16 @@ Related Reading:
             - [Comparison page](https://about.gitlab.com/why-gitlab/)
             - [Solutions page](https://about.gitlab.com/solutions/), depending upon unique challenges/interests
 
-
       **VP Security** - Large enterprises will have this but others go straight to Manager of Security.
       1. Value Prop and Resources = see CISO
-
 
       **VP Shared Svcs** - Common services for IT (Project Mgt, Portfolio Mgt, Resource Mgt, perhaps QA, etc) - for enterprises with microservices model
       1. Value Prop - Project & [Portfolio Mgmt](https://about.gitlab.com/solutions/agile-delivery/), Testing (QA)
       1. Resources - future vision
 
-
       **VP PMO / EPMO** - Gathering and managing business projects/demand, execution, on-time, on budget
       1. Value Prop - Issues, issue boards, etc but of interest to their Directors
       1. Resources - future vision
-
 
 1. **Directors**
       1. Service Mgt - Service Desk, Incident mgt, responding to outages, recovery
@@ -196,7 +186,6 @@ Related Reading:
       1. Configuration - ensuring the configuration of environments is documented, controlled and managed
       1. Application Security - a specialty within Security that focuses on finding and removing vulnerabilities in software. They establish policies, procedures, and processes to test application software for security vulnerabilities.
 
-
 ### Navigating roles to get a qualified lead
 
 1. For prospects **not** yet using GitLab, focus on:
@@ -204,7 +193,6 @@ Related Reading:
         **Ask:** Are you challenged by Digital Transformation? (e.g. moving to the cloud, DevOps, etc.) Are you wanting to speed time-to-market while balancing constrained resources?
         * Director or Manager - repository and CI/CD are best-in-class. Benefits of single application, less friction.
         **Ask:** are you trying to increase the velocity of your software development? Are you stitching together a diverse tool chain to manage your code repo, CI/CD, and more? Do you need modern tools to help you with modern architectures like containers and cloud?
-
 
 2. For prospects using GitLab, up-sell to Ultimate by focusing on:
         *Cxo (including CISO) or VP - test more of your apps to manage more risk without hiring additional /scarce security pros.

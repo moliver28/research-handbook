@@ -26,11 +26,13 @@ The below demonstration highlights a simple flow of work between GitHub pull req
 ## Jira Integration Demo
 
 There are 3 different Jira integrations avaialble.
+
 1. Real-time MR/comments integration also known as “Jira Integration”. All Jira + GitLab customers should use this if they cannot use only GitLab.
 2. Dev Panel (DVCS) integration. Only way to have GitLab feed Jira’s Dev Panel if using GitLab self-managed and/or Jira Server. Data sync once per hour `Premium`
 3. Dev Panel integration using the GitLab for Jira app from the Atlassian Marketplace. Ideal for Jira Cloud integrating with GitLab SaaS because data is sync’d in real-time! - Works only with Jira Cloud and GitLab SaaS `Premium`
 
 The following guide can be used to integrate GitLab.com with Jira Software Cloud:
+
 - [GitLab Jira integration](https://docs.gitlab.com/ee/integration/jira/) - mention a Jira issue ID from GitLab and have this reflected in the Jira Issue’s comments.
 - [Dev Panel integration using the GitLab for Jira app](https://docs.gitlab.com/ee/integration/jira/) - for each Jira issue, displays links with number of related commits, branches, and pull (merge) requests from GitLab.
 

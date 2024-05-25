@@ -11,7 +11,6 @@ description: How to contribute content to the GitLab marketing website using Net
 
 ## Introduction
 
-
 Thanks for checking out how to contribute to the GitLab marketing website with Netlify CMS! We have three goals:
 
 1. Improve [efficiency for the right group](/handbook/values/#efficiency-for-the-right-group) and make [self-service](/handbook/values/#self-service-and-self-learning) easier for team members who are [collaborating](/handbook/values/#collaboration) on the GitLab marketing website.
@@ -83,7 +82,6 @@ A Typeform page is a landing page that includes an embeddable Typeform quiz on i
 
 Typeform pages managed through Netlify CMS. The content is located/stored in the [/data/typeform](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/typeform) directory in the `www-gitlab-com` repository. Netlify CMS allows the user to edit these data files.
 
-
 ### GitLab blog posts
 
 Blog posts can be created and edited using Netlify CMS. Netlify CMS is especially good for starting your blog post, creating the proper markdown file that is structured correctly, and starting a merge request. Blog posts can be created with the traditional merge request workflow or through the Netlify CMS workflow. Be sure to read the [Blog Handbook](/handbook/marketing/blog/) for all instructions related to writing and creating a blog post.
@@ -114,36 +112,35 @@ We have a selection of icons available for the event template. These are svgs an
 
 The option of icon strings available are:
 
-* /icons/slp-tracks.svg
-* /icons/slp-separator-vertical.svg
-* /icons/slp-resource-tracks.svg
-* /icons/slp-plus.svg
-* /icons/slp-minus.svg
-* /icons/slp-list.svg
-* /icons/slp-group.svg
-* /icons/slp-earth.svg
-* /icons/slp-devops.svg
-* /icons/slp-dashed-line.svg
-* /icons/slp-countdown.svg
-* /icons/slp-continuous-delivery.svg
-* /icons/slp-connect.svg
-* /icons/slp-community.svg
-* /icons/slp-cog.svg
-* /icons/slp-cloud.svg
-* /icons/slp-chevron-lg-down.svg
-* /icons/slp-checkmark.svg
-* /icons/slp-caret-up.svg
-* /icons/slp-caret-down.svg
-* /icons/slp-calendar.svg
-* /icons/slp-bulb.svg
-* /icons/slp-arrow-left.svg
+- /icons/slp-tracks.svg
+- /icons/slp-separator-vertical.svg
+- /icons/slp-resource-tracks.svg
+- /icons/slp-plus.svg
+- /icons/slp-minus.svg
+- /icons/slp-list.svg
+- /icons/slp-group.svg
+- /icons/slp-earth.svg
+- /icons/slp-devops.svg
+- /icons/slp-dashed-line.svg
+- /icons/slp-countdown.svg
+- /icons/slp-continuous-delivery.svg
+- /icons/slp-connect.svg
+- /icons/slp-community.svg
+- /icons/slp-cog.svg
+- /icons/slp-cloud.svg
+- /icons/slp-chevron-lg-down.svg
+- /icons/slp-checkmark.svg
+- /icons/slp-caret-up.svg
+- /icons/slp-caret-down.svg
+- /icons/slp-calendar.svg
+- /icons/slp-bulb.svg
+- /icons/slp-arrow-left.svg
 
 If you do not designate an icon, we have default ones set up for each block.
 
 #### Icon color for tracks
 
 For the tracks module, you must designate a background color for the icon. Current options are listed in our [Slippers Tailwind Config](https://gitlab-com.gitlab.io/marketing/inbound-marketing/slippers-ui/tailwind/#Colors).
-
 
 Place the class name of background color you'd like your icon displayed on. For example `slp-bg-brand-purple`.
 
@@ -164,7 +161,6 @@ Solution child pages can be created and edited using Netlify CMS.
 The content is located at [`data/solution_children/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/solution_children) directory in the `www-gitlab-com` repository. Netlify CMS allows the user to edit these `yml` files.
 
 Please note that a parent solution page needs to be built with a data file at [`data/solution_slippers/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/solution_slippers)` for this feature to be available in Netlify CMS.
-
 
 ## Admin features
 
@@ -199,12 +195,14 @@ If you experience an issue or bug using the system, submit an issue! GitLab's ma
 Sometimes drafts in progress are missing from the workflow tab in Netlify CMS. This makes it hard for an editor to access the Netlify CMS UI to continue editing this draft! This is a known [issue](https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/-/issues/1166). However, you can still access the draft editing interface with a direct URL.
 
 The URL structure to find the draft in Netlify CMS is `/admin/#/collections/COLLECTION_NAME/entries/BRANCH_NAME?ref=workflow`
+
 - `COLLECTION_NAME` = topic, topic_child, or blog_posts
 - `BRANCH_NAME` = `name_of_page_edited`, this is the last part of branch name created by Netlify CMS which is `cms/collection_name/name_of_page_edited`.
 
 **Find this information from the MR associated with your change.**
 
 Here is an example [MR #78654](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/78654):
+
 - Branch Name: `cms/topic/ci-cd`
 - Netlify CMS Direct URL: `/admin/#/collections/topic/entries/ci-cd?ref=workflow`
 

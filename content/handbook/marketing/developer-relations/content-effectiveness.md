@@ -49,13 +49,11 @@ There are 2 filters applicable to the Developer Relations team: Developer Relati
 
 The "Developer Relations" option under the "Integrated Budget Holder" filter shows data for campaign touchpoints generated with the teams' use of  `devrel`, or `cmty` for old campaigns, for `utm_budget`. These are only applicable to links we share ourselves, mostly using CommunityApps. When you use CommunityApps to create a short link under the DevRel team, the `utm_budget` is automatically added when tracking is enabled.
 
-
 #### DevRel Influence Type Filter
 
 ![devrel_influence_type](/images/handbook/marketing/developer-relations/devrel_influence_type.png)
 
 To access the "DevRel Influence Type" filter, click on "Advanced filters" on the "Campaign Drill Down" tab of the Marketing Campaigns Dashboard. The DevRel Influence Type filter shows all campaigns influenced by the Developer Relations team, including those with the `devrel` UTM campaign budget code. Uncheck the "No DevRel Influence" check box to filter the dashboard. You can also filter by specific influence types to further filter the results. The "Owned" filter are touchpoints data from the `devrel` budget holder.
-
 
 ### Content Asset Inventory
 
@@ -116,9 +114,7 @@ Here is an example of a blend:
 
 ![looker-blend](/images/handbook/marketing/developer-relations/looker-blend.png)
 
-
-
-##  Maintenance guide
+## Maintenance guide
 
 This section details how the different components of the Content Effectiveness wokflow link togther and how to maintain them.
 

@@ -24,7 +24,7 @@ Identify areas that are of high priority to the customer together with the Solut
 
 1. Identify the opportunity and create a Slack channel with the following pattern #cocreate-initiative-CUSTOMERNAME.
 1. Determine the level of willingness and ability of the customer to [contribute to GitLab](https://docs.gitlab.com/ee/development/contributing/)
-1. Invite the CSM, SA, AE, Nick Veenhof & Raimund Hook. 
+1. Invite the CSM, SA, AE, Nick Veenhof & Raimund Hook.
 1. Share your understanding on what we could work on with the customer. Contributor Success will qualify that the opportunity meets the requirments of the co-create program.
 1. Contributor Success will lead the triage process, and partner with the appropriate PMs. We will invite the PMs and other stakeholders of the problem-space to get their buy-in. This will result in 3 pathways.
     1. The opportunity is not aligned with our roadmap or product strategy.
@@ -43,17 +43,17 @@ Identify areas that are of high priority to the customer together with the Solut
 
 ## SPIFF (sales performance incentive fund formula)
 
-### Q2 
+### Q2
 
 * Target account list: Please see the spreadsheet linked in the Slack Channel of #cocreate-initiative or find the file in Drive named "Co-Creation SPIFF Target Account List (Data as of April 2024)".
 * Eligibility Criteria: Please see the slide linked in the Slack Channel of #cocreate-initiative or find the file in Drive named "FY25 Q2 Customer & Partner Co-Creation SPIFF"
 
 ## Resources
 
-* [Contribute to GitLab](https://about.gitlab.com/community/contribute/) - this webpage provides a high level overview of the benefits related to contributing to GitLab’s open source community, as well as contribution guidelines and tutorials aimed at helping you better understand and visualize the process 
+* [Contribute to GitLab](https://about.gitlab.com/community/contribute/) - this webpage provides a high level overview of the benefits related to contributing to GitLab’s open source community, as well as contribution guidelines and tutorials aimed at helping you better understand and visualize the process
 * [Our stewardship of open source](https://handbook.gitlab.com/handbook/company/stewardship/#promises) - this webpage discusses GitLab’s open-core business model and promises related to open source stewardship
 * [Frequently asked questions](https://about.gitlab.com/community/contribute/dco-cla/#frequently-asked-questions) - this webpage answers FAQs about contributing to GitLab  
-* [GitLab’s Corporate Contributor Agreement](https://docs.google.com/document/d/1JZ495wMxsnUPIzZoBvAVtvnfbWiMNS4VYC_S2Er4K0s/edit) - this Agreement covers all contributions made behalf of a corporate contributor by the corporation's authorized contributors. Please email [cla_managers@gitlab.com](cla_managers@gitlab.com) to start the process of signing this agreement. 
+* [GitLab’s Corporate Contributor Agreement](https://docs.google.com/document/d/1JZ495wMxsnUPIzZoBvAVtvnfbWiMNS4VYC_S2Er4K0s/edit) - this Agreement covers all contributions made behalf of a corporate contributor by the corporation's authorized contributors. Please email [cla_managers@gitlab.com](cla_managers@gitlab.com) to start the process of signing this agreement.
 
 ## Internal Slack Channel
 
