@@ -34,6 +34,7 @@ This method of connecting your cluster was deprecated in GitLab v14.5. This tuto
 ### Task 1. Create a Kubernetes cluster using the Google Cloud Platform (GCP) Console (Web UI)
 
 For additional assistance with accessing your GCP project, see the [GitLab Sandbox Cloud](/handbook/infrastructure-standards/realms/sandbox/#accessing-your-gcp-project) handbook instructions.
+
 1. Open a **new tab or window** in your web browser.
 
 2. Visit [https://console.cloud.google.com](https://console.cloud.google.com).
@@ -44,30 +45,31 @@ For additional assistance with accessing your GCP project, see the [GitLab Sandb
 
 5. In the blue top navigation bar, locate and click on the hamburger menu icon to the *left* of the `Google Cloud Platform` title. These are all of the services that are available in the Google Cloud Platform. In the **Compute** section, click on **Kubernetes Engine** or **Kubernetes Engine > Clusters**.
 
-    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-19.png"  style="width: 50%"/>
+    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-19.png"  style="width: 50%" alt=""/>
 
 6. On the *Kubernetes clusters* page, click on **ENABLE** to initialize the Google API service. *This action might take take a few moments.*
 
-    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-20.png"  style="width: 75%"/>
+    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-20.png"  style="width: 75%" alt=""/>
 
 7. In the new page, click on **CREATE** then on **CONFIGURE** to the *right* of `GKE Standard`.
 
-    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-22.png"  style="width: 75%"/>
+    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-22.png"  style="width: 75%" alt=""/>
 
-    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-21.png"  style="width: 50%"/>
+    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-21.png"  style="width: 50%" alt=""/>
 
 8. On the *left-hand* menu, click on the following sections to configure your cluster:
-  - **Cluster basics**: specify your cluster name (ex. `jmartin-cluster`) and make sure to select **Zonal** as 'Location Type'.
 
-    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-23.png"  style="width: 75%"/>
+   - **Cluster basics**: specify your cluster name (ex. `jmartin-cluster`) and make sure to select **Zonal** as 'Location Type'.
 
-  - **Node Pools -> default-pool**: specify **1** (one) for the 'Number of nodes'
-  
-    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-24.png"  style="width: 75%"/>
+    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-23.png"  style="width: 75%" alt=""/>
 
-  - **Node Pools -> default-pool -> Nodes**: select **e2-standard-2** for the 'Machine type' (recommended)
-  
-    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-25.png"  style="width: 75%"/>
+   - **Node Pools -> default-pool**: specify **1** (one) for the 'Number of nodes'
+
+    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-24.png"  style="width: 75%" alt=""/>
+
+   - **Node Pools -> default-pool -> Nodes**: select **e2-standard-2** for the 'Machine type' (recommended)
+
+    <img src="https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-25.png"  style="width: 75%" alt=""/>
 
 9. Click on **CREATE** on the bottom navigation bar.When your cluster appears, click on the name of your cluster.
 
@@ -107,11 +109,11 @@ For additional assistance with accessing your GCP project, see the [GitLab Sandb
 
 4. When the Cloud Shell terminal appears, the first line will be pre-populated with a command to obtain the credentials for your cluster using role-based access control (RBAC). **Simply press the ENTER key.**
 
-    ```
+    ```console
     jmartin@cloudshell:~ (jmartin-xxxxxxxx)$ gcloud container clusters get-credentials jmartin-cluster --zone us-central1-c --project jmartin-xxxxxxxx
     ```
 
-    ```
+    ```text
     Fetching cluster endpoint and auth data.
     kubeconfig entry generated for demosys-us-jmartin-cluster.
     ```
@@ -120,17 +122,17 @@ For additional assistance with accessing your GCP project, see the [GitLab Sandb
 
 5. **Use the following command** to get the API URL and **copy/paste the outputted URL to your text file**.
 
-    ```
+    ```console
     kubectl cluster-info | grep 'Kubernetes master' | awk '/http/ {print $NF}'
     ```
 
     For recent versions of Kubernetes:
 
-    ```
+    ```console
     kubectl cluster-info | grep 'Kubernetes control plane' | awk '/http/ {print $NF}'
     ```
 
-    ```
+    ```text
     https://35.239.222.203
     ```
 
@@ -140,25 +142,25 @@ For additional assistance with accessing your GCP project, see the [GitLab Sandb
 
 6. **Use the following command** to create the service account.
 
-    ```
+    ```console
     kubectl create sa gitlab-admin -n kube-system
     kubectl create clusterrolebinding gitlab-admin --serviceaccount=kube-system:gitlab-admin --clusterrole=cluster-admin
     ```
 
    You will receive a confirmation.
 
-    ```
+    ```text
     serviceaccount "gitlab-admin" created
     clusterrolebinding "gitlab-admin" created
     ```
 
-8. **Use the following command** to get the API token for the `gitlab-admin` service account and copy/paste the value of the `token` to your text editor.
+7. **Use the following command** to get the API token for the `gitlab-admin` service account and copy/paste the value of the `token` to your text editor.
 
-    ```
+    ```console
     kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep gitlab-admin | awk '{print $1}')
     ```
 
-    ```
+    ```text
     Name:         gitlab-admin-token-b5zv4
     Namespace:    kube-system
     Labels:       <none>
@@ -178,14 +180,14 @@ For additional assistance with accessing your GCP project, see the [GitLab Sandb
     ca.crt:     1115 bytes
     ```
 
-9. In your text editor, **remove the line breaks in the token** so that it is on a single line.
+8. In your text editor, **remove the line breaks in the token** so that it is on a single line.
     > The line breaks appear as a space in the token when pasting into the GitLab UI and will result in a connection error with invalid credentials if you do not remove the line breaks.
 
     ![Line breaks before](https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-6.png)
 
     ![Line breaks after](https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-7.png)
 
-10. You have successfully obtained the credentials needed to connect your cluster from GitLab.
+9. You have successfully obtained the credentials needed to connect your cluster from GitLab.
 
 ### Task 4. Accessing the GitLab Instance
 
@@ -207,7 +209,7 @@ See the [demo systems handbook page](/handbook/customer-success/demo-systems/#ac
 
 5. In the form fields, use the following values and copy and paste the appropriate values from your text editor file.
 
-    ```
+    ```text
     Kubernetes cluster name:     (copy/paste - ex. jmartin-cluster)
     Environment scope:           *
     API URL:                     (copy/paste - ex. https://35.239.222.203)

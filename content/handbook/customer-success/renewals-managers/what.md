@@ -3,6 +3,7 @@ title: Renewals Managers - What we do
 ---
 
 View the Renewals Manager handbook pages:
+
 - [Home](/handbook/customer-success/renewals-managers/home) - Information about the organization.
 - [How We Do It](/handbook/customer-success/renewals-managers/how) - Information about how renewals managers execute on the mission.
 
@@ -63,6 +64,7 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 In FY24 The Global Renewals team is responsible for providing the business with a renewal rate and churn forecast on a regular basis for the Enterprise-Growth (ENTG) Segment.
 
 Providing an accurate, data driven forecast is essential for GitLab’s continued growth as it enables the business to:
+
 - Identify and manage Churn and Contraction risk effectively
 - Drive revenue predictability in support of strategic decision making
 - Analyze and take strategic action on trends within GitLab’s book of business to mitigate risk
@@ -86,7 +88,6 @@ The key risk fields for capturing risk on the renewal are:
         - Examples: Significant workforce reduction at a customer that reduces the number of engineers capable of using the GitLab platform to well below their current seat count (including appropriate buffer levels).
     - `Will Contract (actionable)`: Used when there is a risk to a portion of the renewal opportunity, but steps can be taken to mitigate that risk, fully or partially.
         - Examples: Customer has indicated they are evaluating downtiering to premium - we believe with a SA-led VSA we can demonstrate the value and cost savings associated with the Ultimate version, and influence that decision.
-
 
 ## Critiera for how to assign risk (pre and post-quote)
 
@@ -113,7 +114,6 @@ The key risk fields for capturing risk on the renewal are:
 
         In instances where Sales has a primary quote that reflects Net ARR Growth but Renewals is aware of persisting Contraction risk update the `Renewal Forecast Health` to `Red` and check the `Renewal Forecast Health Override` box. Note that this will set the Won ATR field to $0.
 
-
 Both the `Will Churn` and `Will Contract` selections should only occur very close to the `Subscription Renewal Date` - as situations at a customer may change rapidly. These selections indicate that the risk on the opportunity will no longer be actively mitigated.
 
 All `Will Churn` renewals should be closed-lost by their `Subscription Renewal Date`
@@ -121,7 +121,6 @@ All `Will Churn` renewals should be closed-lost by their `Subscription Renewal D
 ## Forecasting Goal
 
 - Maintain two full quarters of forecasted risk (by the end of Q1, Q2 and Q3 should be forecasted)
-
 
 ## Risk Intervention Tactics
 
@@ -167,7 +166,6 @@ These tactics/motions may not always be approved or appropriate for each risk sc
     - [Risk Intervention] (Executive involvement - EXEC_NAME email, in the next 2 weeks) Hi EXEC_NAME - our customer is a huge fan of your work and I think an email from you would be impactful in mitigating the risk we are seeing on this opp. Here's a *doc* with language and context.  @EXEC_NAME, CC: @MANAGER
     - [Risk Intervention] (CSM/E Workshop - premium feature demo, next week) Hi CSM_Name, if we can demonstrate the efficacy of premium features for this customer we have a chance to save this opp. I've kicked off a triage issue to manage the workshop - here's the *link*. @CSM_Name CC: @MANAGER
 
-
 ## Quantifying the risk to an opportunity
 
 The following detail different opportunities and our standard appraoch to quantifying/labeling the risk and swing fields.
@@ -180,7 +178,6 @@ The following detail different opportunities and our standard appraoch to quanti
  6. **Program/project termination** - `Will Churn (actionable)` with a full `Renewal Swing ARR` field (full amount of recoverable)
 
 ## Key fields for calculations of the forecast
-
 
 The key revenue fields for setting the Renewal forecast are:
 

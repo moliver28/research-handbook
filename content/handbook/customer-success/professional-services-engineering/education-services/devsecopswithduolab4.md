@@ -19,7 +19,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Between the `main` function and `import` block, type the following comment:
 
-    ```
+    ```text
     // write a function called random_gitlab that pulls a random word from a list and returns it as a string.
     ```
 
@@ -109,7 +109,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
         word1 := random_gitlab()
         word2 := random_gitlab()
         if word1 == word2 {
-            t.Error("returned same word twice in a row") 
+            t.Error("returned same word twice in a row")
         }
     }
     ```
@@ -152,7 +152,7 @@ default:
 
 build app:
     stage: build
-    script: 
+    script:
         - go get github.com/common-nighthawk/go-figure
         - go run main.go
 

@@ -14,4 +14,3 @@ description: "A page containing links to helpful AI/ML resources for the CSM tea
 ## Adoption Enablement
 
 ## Highspot Pages
-

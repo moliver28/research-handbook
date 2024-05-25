@@ -50,7 +50,6 @@ I guess this isn't an exhaustive list and I'll try to enhance it in future. If y
 - DIB (Diversity, Inclusion and Belonging) are important for me and I actively try to turn down any biases that I've learned in my life, I expect you hold these values up high as well!
 - Open, honest, candid feedback is appreciated. Don't try to sugar coat the feedback or try to be diplomatic. Don't forget: Feedback should be about behavior, not about personal traits.
 
-
 ## What I want to earn
 
 I'm always eager to learn about our customers, their challenges, their business goals, patterns across or in specific verticals. I'm pretty sure I haven't even seen the tip of the iceberg yet when it comes to different ways of using our DevSecOps platform, GitLab. I'm curious to see what works, what doesn't, what common (yes, I try to avoid best here) pr are.

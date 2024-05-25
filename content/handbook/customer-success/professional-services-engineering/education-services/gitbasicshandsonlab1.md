@@ -40,7 +40,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
 
     > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
-
+    >
     > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
 
 1. From your **My Test Group** training subgroup, click the **New project** button.
@@ -115,7 +115,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
     - **[Iteration](https://docs.gitlab.com/ee/user/group/iterations/):** Associate the issue with an iteration to track it over a period of time. This allows teams to track velocity and volatility metrics.
 
-2. Click the **Create issue** button.
+1. Click the **Create issue** button.
 
 ## Task D. Create custom labels
 

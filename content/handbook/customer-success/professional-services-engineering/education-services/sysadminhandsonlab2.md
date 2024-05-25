@@ -21,7 +21,7 @@ The objective of this lab is to show various gitlab-ctl commands you can use to 
 
 1. The output of this command will appear similar to this:
 
-    ```
+    ```text
     run: alertmanager: (pid 21371) 205s; run: log: (pid 21114) 254s
     run: gitaly: (pid 21327) 208s; run: log: (pid 20429) 399s
     run: gitlab-exporter: (pid 21346) 207s; run: log: (pid 21012) 270s
@@ -51,7 +51,7 @@ The objective of this lab is to show various gitlab-ctl commands you can use to 
 
 1. To verify that the service is down, run `sudo gitlab-ctl status`. Note the value displayed for `nginx`.
 
-    ```
+    ```text
     down: nginx: 13s, normally up; run: log: (pid 20917) 1782s
     ```
 
@@ -65,11 +65,11 @@ The objective of this lab is to show various gitlab-ctl commands you can use to 
 
 1. Run `sudo gitlab-ctl status` to verify that `nginx` is up and running again.
 
-    ```
+    ```text
     run: nginx: (pid 22369) 7s; run: log: (pid 20917) 1852s
     ```
 
-7. Navigate to GitLab in your web browser. The application should now load properly.
+1. Navigate to GitLab in your web browser. The application should now load properly.
 
 ### Task B. Change visibility settings
 
@@ -83,15 +83,15 @@ The objective of this lab is to show various gitlab-ctl commands you can use to 
 
 1. Change the `Default project visibility` to **Internal** by clicking the associated radio button.
 
-1. Change the `Default group visibility` to **Internal** by clicking on the associated radio button.  
+1. Change the `Default group visibility` to **Internal** by clicking on the associated radio button.
 
 ### Task C. Locate sign-in settings
 
-1. The second setting we will update are Sign-In restrictions. Still under **Settings** > **General**, click **Collapse** next to **Visibility and access controls**.  
+1. The second setting we will update are Sign-In restrictions. Still under **Settings** > **General**, click **Collapse** next to **Visibility and access controls**.
 
 1. Under **Sign-in restrictions**, click **Expand**.
 
-1. Under **Two-factor authentication**, click the checkbox next to **Enforce two-factor authentication**.  
+1. Under **Two-factor authentication**, click the checkbox next to **Enforce two-factor authentication**.
 
 1. Click **Collapse** next to **Sign-in restrictions** to close the menu.
 
@@ -101,9 +101,9 @@ You can personalize your GitLab instance by uploading a header logo.
 
 1. On the left hand side panel, click **Settings > Appearance**.
 
-1. Under the **Navigation Bar section**, click **Choose File**.  
+1. Under the **Navigation Bar section**, click **Choose File**.
 
-1. Select an appropriate picture from your computer to serve as a header logo, and click **Open**.  
+1. Select an appropriate picture from your computer to serve as a header logo, and click **Open**.
 
 1. Click the **Update appearance settings** to save the changes. You should see your picture in the top left corner of the screen.
 

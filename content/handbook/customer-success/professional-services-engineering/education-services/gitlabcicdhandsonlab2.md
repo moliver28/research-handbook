@@ -40,7 +40,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
 
     > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
-
+    >
     > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
 
 1. From your **My Test Group** training subgroup, click the **New project** button.
@@ -73,7 +73,7 @@ In this lab, you'll enabled CI/CD for a GitLab project. After creating your firs
 
     > The project slug will automatically populate. You can change this to a shorter string if desired for your own project. Leave it at the default for this lab.
 
-1. In the Project URL field, click the dropdown for the second half of the URL to make sure it’s pointing to a group name (starts with gitlab-learn-labs/* if it is SPT, and training-users/* if it is ILT) and not a username. You should create this project inside a group, not directly in your user’s namespace.
+1. In the Project URL field, click the dropdown for the second half of the URL to make sure it’s pointing to a group name (starts with gitlab-learn-labs/*if it is SPT, and training-users/* if it is ILT) and not a username. You should create this project inside a group, not directly in your user’s namespace.
 
 1. Under **Visibility Level**, ensure **Private** is selected.
 
@@ -277,17 +277,16 @@ If you see `Service is running` in the output, the gitlab-runner service is work
        gitlab-runner list
        ```
 
-     * In a normal (not elevated) **Windows** PowerShell window:
+    * In a normal (not elevated) **Windows** PowerShell window:
 
         ```powershell
         cd C:\GitLab-Runner
         .\gitlab-runner.exe list
         ```
 
-
 > If your runner is registered correctly, you should see an output like this: </br>`gitlab-runner run Executor=shell Token=your-gl-token URL=https://gitlab.com`
 
-11. If you’re on Windows, follow these additional instructions to configure your gitlab-runner to use the right command to start PowerShell:
+1. If you’re on Windows, follow these additional instructions to configure your gitlab-runner to use the right command to start PowerShell:
     1. Open `C:\GitLab-Runner\config.toml` in a text editor.
 
     1. Change this line:

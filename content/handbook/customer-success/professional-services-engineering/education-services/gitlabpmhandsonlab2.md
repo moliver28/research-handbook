@@ -118,7 +118,7 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 1. Set the **Visibility Level** to private.
 
     > See the [visibility docs](https://docs.gitlab.com/ee/user/public_access.html) to learn more. Keep in mind that any parent groups that have `Private` visibility will be inherited for all child groups and projects and cannot be changed.
-
+    >
     > **Training Environment Limitation:** In the training environment, your group is part of a private parent group so you will not be able to make a group or project `Public`. To test working with public projects, you can create a project in your personal namespace.
 
 1. Enable the **Initialize repository with a README** checkbox.

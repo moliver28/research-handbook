@@ -29,7 +29,7 @@ To get started with GitLab Duo, we will test out some of the basic code generati
     import "fmt"
 
     func main() {
-      fmt.Println("hello world") 
+      fmt.Println("hello world")
     }
     ```
 
@@ -88,13 +88,13 @@ You have now created a simple hello world program in Go! In the next section, yo
 
     build app:
       stage: build
-      script: 
+      script:
         - go run main.go
 
     ```
 
     > This `.gitlab-ci.yml` file has one stage `build` with a job `build app` that runs as part of the stage. This job runs our main.go app.
-
+    >
     > Again, feel free to highlight the YAML and use `/explain` in GitLab Duo chat to explain the CI pipeline!
 
 1. In the **Commit message**, type any appropriate message.

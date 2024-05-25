@@ -29,10 +29,10 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
     The response will look similar to the following:
 
-    ```
+    ```text
     Issue: The "hello world" application lacks visual appeal
 
-    The current "hello world" application prints basic text without any formatting or visual elements. We want to enhance the user experience and make the application output more interesting to look at. 
+    The current "hello world" application prints basic text without any formatting or visual elements. We want to enhance the user experience and make the application output more interesting to look at.
 
     The Go Figure module allows printing text in different styles and formats. Integrating this module into our "hello world" code will let us customize how the message is displayed, such as changing fonts, colors, effects and more. This will make our application stand out more and be more enjoyable for end users to interact with.
 
@@ -133,7 +133,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
     build app:
       stage: build
-      script: 
+      script:
         - go get github.com/common-nighthawk/go-figure
         - go run main.go
     ```

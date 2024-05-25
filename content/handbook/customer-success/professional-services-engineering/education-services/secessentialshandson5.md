@@ -34,7 +34,6 @@ flowchart TD
     E -- return coverage info and info on unhandled exceptions or crashes --> C
 ```
 
-
 ## Prerequisites
 
 1. Open your browser to to the **Security Labs** project that you created in Lab 1.
@@ -56,7 +55,7 @@ flowchart TD
     ```
 
     > This code-under-test defines a function that expects to be passed a list of bytes. If the third byte in that list is 0, the code returns the value `True`.
-
+    >
     > **There's a bug in this code-under-test:** it doesn't check to make sure you passed in at least 3 bytes. If you pass it fewer than 3 bytes, an error will occur when the code looks for, but can't find, the third byte. Different languages will do different things in this situation, but Python will throw an unexpected `IndexError`. That error could cause problems in whatever code calls this function, so this behavior is considered to be a bug. Fuzz testing is a great tool to find this bug.
 
 2. Commit the new file with an appropriate commit message.

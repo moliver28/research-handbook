@@ -8,6 +8,7 @@ description: "This Hands-on Guide walks you through using Git commands to work w
 ## Objectives
 
 In this lab you will practice using a repository on your local computer and learning about the following concepts:
+
 - cloning a repository
 - creating, using, and merging a branch
 - editing and committing a file
@@ -32,11 +33,10 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 > GitLab uses the SSH protocol to securely communicate with Git. When you use SSH keys to authenticate to the GitLab remote server, you don’t need to supply your username and password each time. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/ssh.html).
 
-
 1. We will use OpenSSH client, which comes pre-installed on GNU/Linux, macOS, and Windows 10. To check your current version run the following command in your terminal or Powershell:
 
     ```bash
-    ssh -V 
+    ssh -V
     ```
 
 2. Create a public and private key pair by running this command in your terminal or PowerShell.
@@ -214,7 +214,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
 1. Using any text editor (Visual Studio Code, Sublime Text, notepad, vi, etc.), add this line to the end of `README.md` and save the file.
 
-    ```
+    ```text
     a line added to temporary_branch locally
     ```
 
@@ -324,7 +324,7 @@ You will now see that the `README` file has a green font color. This indicates t
 
 1. Add a new line to the end of the file.
 
-    ```
+    ```text
     a third line added on the remote copy of temporary_branch
     ```
 

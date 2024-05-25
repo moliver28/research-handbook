@@ -18,16 +18,17 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 ## CSE Team Customer Engagement Types
 
 There are several different ways that the CSE team engages with customers, including:
+
 1. [Targeted campaigns run from Gainsight](#targeted-campaigns)
 
 1. [Monthly Webinars and Labs](#monthly-webinars-and-hands-on-labs)
 1. [GitLab Onboarding Cohorts](#cse-onboarding-cohorts)
 1. [Sales Driven CSE Engagement Request](#cse-engagement-request-process)
 
-
 ### Targeted Campaigns
 
 Customer Success Operations and CS leaders determine, based on various GitLab health metrics, a set of outreach campaigns to drive customer interactions that will help improve GitLab adoption and usage.  Examples of campaigns are:
+
  - 21 day check in
  - 90 day low license utilization
  - CI product coach
@@ -45,6 +46,7 @@ The upcoming month's webinar dates are added to an issue in the [Customer Succes
 The host of the webinar should download the recording from [Webinar Master Recordings folder](https://drive.google.com/drive/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3?usp=drive_link) and do a practice session in the zoom webinar to ensure it plays successfully.  Here are details for playing the video for the webinar:
 
 1.Download Mp4 to your computer the day before session starts.
+
 1. Start practice session. You'll get a reminder email one day and one hour before the webinar starts and can click on that link. You can join the webinar anytime before it starts in a practice session in order to test the video playback.
 1. Mute yourself and turn off video. The customer will only see the pre-recorded presenter, at no time should they see the panelists.
 1. Press "Share Screen" > Advanced > Video **DE-Select "Optimize for video clip"** Share > Select the Mp4 file of the recording
@@ -85,11 +87,13 @@ You should also create a paste notes doc that has all of the information and lin
 On the day of the lab, the host should login at least 10 minutes prior to the lab start to get set up.  
 
 Lab housekeeping items - these should be called out in the lab slide deck as well:
+
    - all attendees are muted - ask participants to stay muted and add their questions in the Q&A panel
    - an account on gitlab.com is needed before starting
    - access to lab environment for x days (it's 2 days for some labs and 4 days for others - should be called out in the appropriate slide deck)
 
 Tips and tricks for presenting:
+
    - open 2 chrome windows side by side when working through labs - one with the issue instructions and one with the lab project you're using to work through each step
    - put your slides in full screen presentation mode for presentation
    - turn off all notifications
@@ -103,7 +107,6 @@ After the lab, the CSE Program Manager will send a post-event email with a link 
 As a supplement to the [monthly webinars](/handbook/customer-success/csm/segment/cse/webinar-calendar/) presented by the CSM/CSE team, the CSE team also invites net-new eligible customers to participate in a monthly onboardhing cohort.
 
 The onboarding cohort will have a duration of 4 weeks, starting at the beginning of each month, with 90-minute live weekly training led by a Customer Success Engineer. Customers will be grouped with other new GitLab customers during each training. In addition to the weekly hands-on calls, customers will have access to a shared Slack channel monitored by Customer Success Engineers throughout the program to help answer questions and provide best practice guidance.
-
 
 - Week 1: [Getting Started and Project Management with GitLab](https://docs.google.com/presentation/d/1Aq0DrBv-EGXAP13pX8wD1RepPesNqq1wkjXjMkLaLus/edit?usp=sharing)
 - Week 2: [CI/CD in GitLab](https://docs.google.com/presentation/d/1WDfTfaK7AyPOXAT3HJkKoSODx5YLtxAPhj0Bf-CadNQ/edit?usp=sharing)
@@ -128,7 +131,6 @@ To make a request, click "CSE Help" at the top of the Salesforce account page ch
 
 - For more information about the scope and qualifications for CSE engagement, refer to [CSE: Qualifications/Scope Document for CSE Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#)
 
-
 #### Tracking Ad-Hoc CSE Engagements in Gainsight (CSEs only)
 
 When a CSE has accepted an engagement request, the CSE must then create a [CTA](/handbook/customer-success/csm/gainsight/ctas/) in Gainsight for proper tracking and CSAT survey deployment post-follow-up email.
@@ -147,9 +149,6 @@ The CSE should then prepare a follow-up email to be sent to the customer through
 
 This ensures that a CSAT survey is deployed to the recipients of the email.
 
-
-
-
 ## General Guidelines for CSE Engagements
 
 ### CSE Escalations
@@ -159,6 +158,7 @@ Qualifying the customer for an escalation is important in terms of ARR and LAM. 
 Escalations ought to be used sparingly and only for the larger accounts in our segment with a high potential for growth so that our support, product, and engineering teams can prioritize their efforts in good alignment with overall GitLab business objectives.
 
 There are two types of escalations: support escalations and account escalations.
+
 1. Support escalations are for existing tickets causing a very high business impact for the customer and is raising their temperature very high. The escalation process can bring attention to the issue and raise its priority within support. Following the defined process for a support ticket escalation noted on [this page](/handbook/support/internal-support/support-ticket-attention-requests.html#submitting-a-support-ticket-attention-request-star--starring-a-ticket) is sufficient.
 1. Account escalations may or may not relate to a support ticket. It could be relevant to an open issue for a product bug or a feature request. It’s useful when the customer communicates a highly-impactful problem relevant to e.g. an open issue that is blocking a critical use case and causing them to evaluate other vendors for non-GitLab solutions and is thus posing a churn or contraction risk for GitLab.
 

@@ -1,21 +1,15 @@
 ---
-
 title: "Demo Systems Onboarding"
 description: "This guide is meant for getting any new hire to the CS Org set up on demo systems and prepaired to start demoing the product"
 ---
 
-
-
-
-
-
-# Demo Systems Initial Set Up
+## Demo Systems Initial Set Up
 
 ### Preface
 
 If you experience any roadblocks while setting up your environment, open an [issue in the original project](https://gitlab.com/gitlab-com/customer-success/demo-engineering/demo-systems-initial-set-up/-/issues/new) or attend the office hours linked below.
 
-The goal is that you will  be able to use and contribute to this shared demo group: <https://gitlab.com/gitlab-learn-labs/webinars> by the time you complete this.  
+The goal is that you will  be able to use and contribute to this shared demo group: <https://gitlab.com/gitlab-learn-labs/webinars> by the time you complete this.
 
 You can collaborate with your onboarding buddy and your colleagues to remove this blocker, and open a merge request to improve the instructions and make onboarding easier for everyone.
 
@@ -125,7 +119,7 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
       - id: {path-to-your-group-and-project}
         paths:
         - glob: 'manifests/*.yaml'
-   
+
       # The CI/CD tunnel is always enabled in the project where you register and configure the Agent.
       # This connection can be shared with other groups and projects.
       ci_access:
@@ -136,7 +130,7 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
     ```
 
     > **Notice how the path example above does not include <https://gitlab.com> but only the path after it**
-
+    >
     > This config is telling the agent to look at our Cluster Management project for any manfiest changes as well as to allow any other projects within our group to use it for deployments.
 
 11. Once your agent config is set up, go ahead commit the changes to the `main` branch.
@@ -177,11 +171,11 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
 
 10. Click **Add variable** and use the key value pair example below to add the variable.
 
-    ```
+    ```text
     KUBE_CONTEXT:{path-to-your-group-and-project}:primary-agent
     ```
 
-    ```
+    ```text
     Example
     KUBE_CONTEXT:gitlab-learn-labs/sample-project-testing/cm-test:primary-agent
     ```
@@ -224,7 +218,7 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
 
 24. Then add the variable below in addition to the existing ones making sure that ***protected*** and ***mask*** are not checked and the rest of the default settings are the same. The {your-external-ip} value is going to be the ingress ip we just copied from the gcloud console:
 
-    ```
+    ```text
     KUBE_INGRESS_BASE_DOMAIN:{your-external-ip}.nip.io
     ```
 
@@ -259,7 +253,7 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
     ```yml
     gitops:
       manifest_projects:
- 
+
       - id: gitlab-learn-labs/gitops/2022-10-11-ultimate-gitops/jenlung/world-greetings-env-1
         default_namespace: default
         paths:
@@ -270,7 +264,7 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
         prune_timeout: 360s # 1 hour by default
         prune_propagation_policy: foreground # 'foreground' by default
         inventory_policy: must_match # 'must_match' by default
- 
+
       - id: gitlab-learn-labs/gitops/2022-10-11-ultimate-gitops/lai_dai/world-greetings-env-1
         default_namespace: default
         paths:
@@ -291,9 +285,9 @@ At this point you should have your own group on GitLab.com SaaS as well as a GCP
 
 There is a shared demo group for webinars at [https://gitlab.com/gitlab-learn-labs/webinars](https://gitlab.com/gitlab-learn-labs/webinars) that you can fork projects out of and into your new ulitmate group & have running in under 5 minutes.
 
-We suggest reading the [documentation](https://gitlab.com/gitlab-learn-labs/webinars/how-to-use-these-projects) about how these shared projects works. These demos are great because they all come with suggested talk tracks as well for how you might present the various topics.  
+We suggest reading the [documentation](https://gitlab.com/gitlab-learn-labs/webinars/how-to-use-these-projects) about how these shared projects works. These demos are great because they all come with suggested talk tracks as well for how you might present the various topics.
 
-By forking the project, you can use them how you want and then submit MRs to the original project to collaborate with others on fixing any bugs or add any new features.  
+By forking the project, you can use them how you want and then submit MRs to the original project to collaborate with others on fixing any bugs or add any new features.
 
 Learn more about setting up these demos at [gitlab.com/gitlab-learn-labs/webinars/how-to-use-these-projects](https://gitlab.com/gitlab-learn-labs/webinars/how-to-use-these-projects)
 
@@ -315,13 +309,13 @@ You only need to do this if you find yourself running out of shared runner minut
 
 5. Within your terminal shell first run the below command to enter privileged mode:
 
-    ```
+    ```console
     sudo -i
     ```
 
 6. Install Docker.
 
-    ```
+    ```console
     sudo apt-get update
     sudo apt install docker.io
     ```
@@ -330,19 +324,19 @@ You only need to do this if you find yourself running out of shared runner minut
 
 7. Install GitLab Runner.
 
-    ```
+    ```console
     # Add the GitLab repository
     curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
     ```
 
-    ```
+    ```console
     # Install the GitLab Runner package.
     sudo apt-get install gitlab-runner
     ```
 
 8. You can then check the status of the runner with this command:
 
-    ```
+    ```console
     sudo gitlab-runner status
     ```
 
@@ -354,7 +348,7 @@ You only need to do this if you find yourself running out of shared runner minut
 
 10. Copy this command into a text editor and replace the `REGISTRATION_TOKEN` placeholder below with the token that you copied locally. Copy the command into your Terminal and run it.
 
-    ```
+    ```console
     sudo gitlab-runner register -n \
       --url https://gitlab.com/ \
       --registration-token REGISTRATION_TOKEN \
@@ -389,7 +383,7 @@ You only need to do this if you find yourself running out of shared runner minut
 
 ### Next steps
 
-Now that you have your own instance and projects spun up, go ahead and try out some of our customer facing workshops we put on by clicking the link below.  
+Now that you have your own instance and projects spun up, go ahead and try out some of our customer facing workshops we put on by clicking the link below.
 
 Please ensure that you sign up with your GitLab provided email for access. These workshop will cover the basics of Advanced CI/CD & DevSecOps & can be a good reference point for later.
 

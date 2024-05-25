@@ -1,24 +1,13 @@
 ---
-
 title: "Professional Services EM Scoping - Migrations"
 description: "Describes the processes for scoping migrations."
-
 ---
 
-
-
-
-
-
-
-
-# Info for Sales - positioning migrations to SaaS
+## Info for Sales - positioning migrations to SaaS
 
  - [GitLab self-managed to SaaS migration](SM-to-SaaS/)
 
-
-
-# Migration Scoping Details
+## Migration Scoping Details
 
 This page describes scoping migrations from GitLab, Bitbucket Server or GitHub (Enterprise or .com) to a destination GitLab instance (Self-Managed or SaaS).  The migrations typically utilize our [Congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate) automation tool.  Migrations from other SCM systems and non-GitLab CI/CD migrations are out of scope for this migration tooling and must be scoped separately.
 
@@ -44,9 +33,9 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA o
 | Source system DB version | to-do | PostgreSQL 13.0 | If an upgrade of the source system is needed/included prior to the migration, we want to be sure the DB does not need to be upgraded by the customer to support the new version of GitLab.  See [installation requirements](https://docs.gitlab.com/ee/install/requirements.html) for more details. |
 
 **Notes:**
+
 1. Source Code Management (SCM) Migrations do not include secrets mediation.
 1. SCM migrations do not include transitioning CI/CD functionality to use GitLab CI.
-
 
 ## GitLab Self-Managed to GitLab.com Migration Notes
 
@@ -85,7 +74,7 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA o
     - To do this, we need to have full control over the GitHub API Rate limit setting.
     - We also want to ensure there is a strong enough network connection between the GHE and GitLab SM instance to support moving the data. We don't have a hard number, but ask them about moving hundreds of GB over a few hours across lots of connections. Their network team should be able to answer.
 - If the customer wants to reorganize their groups/project structure, we can support this (see below common customer requests).
-- Make sure the customer acknowledges that they need to have email addresses public, not private for any migration to work properly.  
+- Make sure the customer acknowledges that they need to have email addresses public, not private for any migration to work properly.
 - GitLab self managed should be on 13.7+ or later to take advantage of an API change that allows us to specify a specific github hostname in the import call (rather than defaulting to github.com).
 
 ### GitHub Enterprise to GitLab SaaS
@@ -126,7 +115,6 @@ _Note: A project on bitbucket is equivalent to a GitLab group. A Repository on B
 
 - We will be limited by the rate limit on GitLab SaaS, which is why our scoping is low (e.g. 200 projects per wave)
 
-
 ### Bitbucket Cloud to GitLab SaaS
 
 - GitLab does not have an API to initiate an import from bitbucket cloud currently. Automated migrations are not possible.
@@ -156,8 +144,8 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 | **Azure Repos** ||||
 | Are you using Git or TFVC for your SCM? | | Git | This will influence how we interact with the ADO server and determine if a conversion to Git is necessary |
 | How many code repositories? || 500 | This will affect the decision on general approaches listed above |
-| Are you using branches in your code repositories? | | Yes | If the answer is no for some of the repositories, the customer will have to choose between converting specific folders in the repository to branches to retain history or accept a flat file migration of the repository with no history
-| Do you need to retain history in your code repositories? | | Yes | If the answer is no and the customer is using ADO, then we do not need to convert the repos to Git.
+| Are you using branches in your code repositories? | | Yes | If the answer is no for some of the repositories, the customer will have to choose between converting specific folders in the repository to branches to retain history or accept a flat file migration of the repository with no history |
+| Do you need to retain history in your code repositories? | | Yes | If the answer is no and the customer is using ADO, then we do not need to convert the repos to Git. |
 | **Azure Pipelines** ||||
 | Are you using ADO to build your software? | | Yes | This will add CI/CD consulting/transformation activities to the engagement if the answer is yes |
 | How many builds/build templates are used per code repository? | | 1 | This is a gauge of complexity. Sometimes a code repository can contain several different build definitions |
@@ -179,7 +167,7 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 | Do you use build/pipeline artifacts? || Yes ||
 | What is the retention policy of the packages and do you need to migrate them? || 365 days, no migration needed |To estimate additional effort for migration or/and advisory service to retain existing ADO feed refactoring application to use [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/)|
 | **Integrations** ||||
-| Are there any external tools/applications tied to your ADO server? | | Yes. We use an in-house tool that pulls from TFS daily for gathering metrics | If the answer is yes, additional activities will need to be added to the SOW to accommodate transitioning those tools to pull from Git instead.
+| Are there any external tools/applications tied to your ADO server? | | Yes. We use an in-house tool that pulls from TFS daily for gathering metrics | If the answer is yes, additional activities will need to be added to the SOW to accommodate transitioning those tools to pull from Git instead. |
 
 ## Other git based SCMs
 
@@ -191,7 +179,6 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 
 - For sources like CSV, ClearCase, SVN, TFVC we can support non automated migration but there is risk that should be factored into these engagements as we dont have deep experience with these source systems. Consider working with a channel partner to find expertise in these source systems.
 - Ensure the customer has researched and thought about how their projects will be organized on the destination gitlab system. Often times during the initial transformation from non-git SCM to git scm, there will be splitting of a single trunk of source code to multiple git repositories.
-
 
 ## Common customer requests
 
@@ -210,4 +197,3 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 - See the publicly available [Migration Toolkit](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/migration-template) to help understand the steps taken during delivery of migration services.
 - The [Customer folder](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/migration-template/-/tree/master/customer) of the migration template project contains useful documentation to help a customer prepare for their migration.
 - The [Migrating from Self-Managed to SaaS](/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/migrations/SM-to-SaaS/) handbook page has details specific to migrating to gitlab.com.
-
