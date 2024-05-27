@@ -12,3 +12,7 @@ The intention is for this page to act as a guide - even if you're in the departm
 ### Adding to the list
 
 We're always keen to hear about team members' experiences using the Growth and Development Fund, especially if you feel that your opportunity could be worth adding to the G&D Select list. Please post in the #learninganddevelopment slack channel to tell us more about your experience, or tag `@jallen16` in your G&D request issue.
+
+## G&D Selects - Conferences
+
+## G&D Selects - Courses
