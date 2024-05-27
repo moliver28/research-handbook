@@ -87,7 +87,7 @@ The following members of other functional teams are our stable counterparts:
 A [Job to be Done (JTBD)](/handbook/product/ux/jobs-to-be-done/) is a framework, or lens, for viewing products and solutions in terms of the jobs customers are trying to achieve.
 
 * [Verify:Pipeline Execution JTBD](/handbook/engineering/development/ops/verify/pipeline-execution/jtbd/)
-* [Verify:Pipeline Authoring JTBD](/handbook/engineering/development/ops/verify/pipeline-authoring/jtdb/)
+* [Verify:Pipeline Authoring JTBD](/handbook/engineering/development/ops/verify/pipeline-authoring/jtbd/)
 * [Verify:Runner JTBD](/handbook/engineering/development/ops/verify/runner/jtbd/)
 * [Verify:Pipeline Security JTBD](/handbook/engineering/development/ops/verify/pipeline-security/JTBD/)
 
