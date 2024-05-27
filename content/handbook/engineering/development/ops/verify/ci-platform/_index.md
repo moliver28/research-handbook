@@ -62,8 +62,7 @@ We use [geekbot](https://geekbot.com/) integrated with Slack for our every-other
 
 #### Weekly
 
-Given the distributed nature of our team members, our _meetings_ consist of collaborating async through a [Google Doc Agenda (internal)](https://docs.google.com/document/d/1JsS4kVu8X8LtFva35StlNfabWfgZTd0tl3I8-w7hJwE/edit#heading=h.kvc0p7nyngz5). 
-Slackbot will remind the team weekly to review the agenda and encourage us to collaborate through the agenda.
+Given the distributed nature of our team members, our "team meetings" consist of collaborating async through a [Google Doc Agenda (internal)](https://docs.google.com/document/d/1JsS4kVu8X8LtFva35StlNfabWfgZTd0tl3I8-w7hJwE/edit#heading=h.kvc0p7nyngz5). Slackbot will remind the team weekly to review the agenda and encourage us to collaborate through the agenda.
 
 #### Monthly
 
@@ -74,9 +73,7 @@ We use a GitLab issue in [the (internal) async retrospectives project](https://g
 - what we can do improve upon
 - what praise we have for one another.
 
-Instead of waiting until the end of the milestone to add items to the retrospective issue, we encourage team members to add comments throughout the month. 
-
-The issue's due dates and Slackbot reminders serve as reminders to contribute feedback to our issue prior to closing.
+Instead of waiting until the end of the milestone to add items to the retrospective issue, we encourage team members to add comments throughout the month. The issue's due dates and Slackbot reminders serve as reminders to contribute feedback to our issue prior to closing.
 
 ### Labels
 
