@@ -52,7 +52,7 @@ The Verify stage is made up of 4 groups:
 
 ### Verify:CI Platform
 
-{{< team-by-manager-role role="Senior Engineering Manager(.*)Verify" team="(.*)CI Platform" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.\*)Verify" team="(.\*)CI Platform" >}}
 
 ### Verify:Pipeline Authoring
 
