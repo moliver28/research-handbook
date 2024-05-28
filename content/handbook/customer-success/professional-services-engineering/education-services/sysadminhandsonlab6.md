@@ -151,7 +151,7 @@ Many logs are JSON formatted by default. Admins may wish to configure text forma
     sudo sed -i '2591s/,/ }/' /etc/gitlab/gitlab.rb
     ```
 
-    > With this sed commands, you are first replacing the JSON format with text. Next, you are removing the comments in front of the format and Gitaly configuration blocks to enable them.
+    > With these sed commands, you are first replacing the JSON format with text. Next, you are removing the comments in front of the format and Gitaly configuration blocks to enable them.
 
 1. Rerun your `grep` command to view your configuration: `sudo grep -n -F "gitaly['configuration']" -A20 /etc/gitlab/gitlab.rb`. The end result will look similar to below:
 

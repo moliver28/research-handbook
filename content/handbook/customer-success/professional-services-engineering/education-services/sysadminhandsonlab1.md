@@ -68,7 +68,7 @@ Before you get started, complete the following:
     curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
     ```
 
-1. Install the GitLab package using the command below. Use your training system's assigned public IP address in lieu of a fully qualified domain name. Make sure not to include in the <> symbols.
+1. Install the GitLab package using the command below. Use your training system's assigned public IP address in lieu of a fully qualified domain name. Make sure not to include the <> symbols.
 
     ```bash
     sudo EXTERNAL_URL="http://<your_assigned_public_ip>" dnf install -y gitlab-ee
@@ -77,7 +77,7 @@ Before you get started, complete the following:
     > This step may take a few minutes to complete.
     > For this example, we added `http://` to the front of the URL. For this set of labs, we are using the `http` protocol. If you are installing GitLab in a production environment, it is recommended to use `https://` to use the `https` protocol.
 
-### Task D. Log in and reset password
+### Task D. Login and reset password
 
 1. During installation, a password is randomly generated and stored for 24 hours in `/etc/gitlab/initial_root_password`. To view the generated password, use the command below:
 

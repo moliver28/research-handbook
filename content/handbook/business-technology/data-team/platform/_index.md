@@ -539,6 +539,16 @@ The PAT is named `snowflake_provisioning_automation` and was created in the ['Gi
 
 The PAT value is saved within 1Pass, and also as a CI environment variable so that it can be used by the GitLab runner.
 
+#### snowflake_users.yml - end of file issue
+
+When adding a user to the `snowflake_users.yml` file, specifically when appending to the bottom of the file, it causes unexpected behavior if done using the Gitlab Single File Editor, more info in [this issue](https://gitlab.com/gitlab-data/analytics/-/issues/20730#note_1919902289).
+
+The workaround is that at the bottom of `snowflake_users.yml`, it has this comment:
+
+```yml
+#### do not insert users below this line ####
+```
+
 ### Snowflake Deprovisioning Users
 
 Inactive Snowflake users will be deprovisioned weekly via `snowflake_cleanup` DAG, implemented in [this issue](https://gitlab.com/gitlab-data/analytics/-/issues/20347).

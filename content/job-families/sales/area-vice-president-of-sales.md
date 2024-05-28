@@ -1,5 +1,5 @@
 ---
-title: "Area Vice President"
+title: "Area Vice President, Enterprise Sales"
 ---
 
 The Area Vice President is responsible for building and managing a team of Area Sales Managers who are leading teams of Strategic Account Leaders selling GitLab's industry leading single application for the full software development lifecycle.

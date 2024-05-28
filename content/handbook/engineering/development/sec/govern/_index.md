@@ -155,7 +155,7 @@ Because we have a wide range of domains to cover, it requires a lot of different
 
 At GitLab our goal is that [everyone can contribute](/handbook/company/mission/#contribute-to-gitlab-application). This applies to GitLab team members and the wider community through community contributions. We welcome contributions to any and all features, but recognize that first time contributors may prefer to start with smaller features. To support this we maintain a list of `quick wins` that may be more suitable for first time contributors, and contributors new to the domains in Govern.
 
-- [Quick wins](https://gitlab.com/dashboard/issues?sort=updated_desc&state=opened&label_name[]=quick+win&label_name[]=devops::govern)
+- [Quick wins](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=quick%20win&label_name%5B%5D=devops%3A%3Agovern&first_page_size=100)
 
 If the contributor needs an EE license, we can point towards the [Contributing to the GitLab Enterprise Edition (EE)](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contributing-to-the-gitlab-enterprise-edition-ee) section on the Community contributors workflows page.
 

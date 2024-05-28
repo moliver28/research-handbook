@@ -81,6 +81,45 @@ Data minimisation is not applied on the following levels:
 
 - Rows. We don't apply filtering on rows by default, unless there is a good reason (technical or functional). This is to avoid confusion about which data our data consumers are actually seeing.
 
+##### Data minimisation use case
+
+When you want to do a data minimization and specify one or more columns to the JSON file while loading the data, you can use the procedure [object_insert](https://docs.snowflake.com/en/sql-reference/functions/object_insert). Example for usage:
+
+```sql
+WITH base AS (
+    SELECT try_parse_json('{"id":1, 
+                            "name": "ABC"}'
+                                       ) AS json_data)
+SELECT object_insert(json_data,'email','test@gitlab.com')
+  FROM base;
+
+-- {
+--   "email": "test@gitlab.com",
+--   "id": 1,
+--   "name": "ABC"
+-- }
+```
+
+In the situation when you want to discard one or more columns from the JSON file while loading the data, you can use the procedure [object_delete](https://docs.snowflake.com/en/sql-reference/functions/object_delete). Example for using it:
+
+```sql
+WITH base AS (
+    SELECT try_parse_json('{"id":1, 
+                            "name": "ABC",
+                            "address":{"add1":"1234",
+                                       "add2":"XYZ",
+                                       "city":"TN",
+                                       "apt": 1 }}'
+                                       ) AS json_data)
+SELECT object_delete(json_data,'id','address')
+  FROM base;
+
+-- {"name": "ABC"}
+
+```
+
+In this situation, you can **exclude** the column that shouldn't be processed for various reasons ([RED data](https://handbook.gitlab.com/handbook/security/data-classification-standard/#red), PII data, no value for the data or other minimization principles).
+
 #### Extraction solution
 
 The Data Team has different instruments available to extract data out of source systems (randomly ordered):
