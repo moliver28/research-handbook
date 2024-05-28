@@ -26,6 +26,7 @@ Conferences are a great tool for professional development, they provide networki
 
 </details>
 
+<details>
 <summary>Security</summary>
 
 | **Conference** | **Why attend?** | **Location** |
@@ -35,7 +36,6 @@ Conferences are a great tool for professional development, they provide networki
 </details>
 
 <details>
-
 <summary>Sales</summary>
 
 | **Conference** | **Why attend?** | **Location** |
@@ -44,6 +44,7 @@ Conferences are a great tool for professional development, they provide networki
 
 </details>
 
+<details>
 <summary>Product</summary>
 
 | **Conference** | **Why attend?** | **Location** |
@@ -52,6 +53,7 @@ Conferences are a great tool for professional development, they provide networki
 
 </details>
 
+<details>
 <summary>Marketing</summary>
 
 | **Conference** | **Why attend?** | **Location** |
@@ -60,6 +62,7 @@ Conferences are a great tool for professional development, they provide networki
 
 </details>
 
+<details>
 <summary>Finance</summary>
 
 | **Conference** | **Why attend?** | **Location** |
@@ -68,6 +71,7 @@ Conferences are a great tool for professional development, they provide networki
 
 </details>
 
+<details>
 <summary>People</summary>
 
 | **Conference** | **Why attend?** | **Location** |
