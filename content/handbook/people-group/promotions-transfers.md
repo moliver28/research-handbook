@@ -302,8 +302,7 @@ Regardless of the promotion level, it is critical that leaders work with their P
 
 **Required Documentation**
 
-In the CTO Organization, we will follow the company process for promotions and use the standard Promotion Document. We will require business justification to be filled out for every role, regardless of seniority. There is specific guidance that we’d like our managers to focus on when considering promotions in this fiscal year. Please see below.
-Please note, effective for the FY25 Q3 promotions, peer feedback is not required for promotion consideration. We may re-evaluate this component in the future.
+In the CTO Organization, we will follow the company process for promotions and use the standard Promotion Document. We will require business justification to be filled out for every role, regardless of seniority. There is specific guidance that we’d like our managers to focus on when considering promotions in this fiscal year. Please see below. Please note, effective for the FY25 Q3 promotions, peer feedback is not required for promotion consideration. We may re-evaluate this component in the future.
 
 #### CTO Timeline for FY25-Q3
 
