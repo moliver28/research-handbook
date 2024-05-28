@@ -3,7 +3,7 @@ title: Growth and Development Select
 description: A list of recommended Growth and Development Opportunities
 ---
 
-Using GitLab's Growth and Development (G&D) Fund is a great way for team members to help drive their own career development. GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. 
+Using GitLab's Growth and Development (G&D) Fund is a great way for team members to help drive their own career development. GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget.
 
 This handbook page provides a curated list of recommended Growth and Development opportunities. We've put it together to act as a guide or as inspiration for team members who want to use the G&D fund, but aren't sure of where to begin. The list is largely made up of courses or conferences that have previously been completed or attended by GitLab team members. If you would like to get in touch with a team member who has previously taken part in an opportunity you're considering, try searching the name of the opportunity in the `GitLab.com` project, using the `GrowthDevelopment` label, or reach out in the #learninganddevelopment slack channel.
 
