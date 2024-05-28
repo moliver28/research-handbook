@@ -17,24 +17,50 @@ We're always keen to hear about team members' experiences using the Growth and D
 
 Conferences are a great tool for professional development, they provide networking opportunities, skill enhancement through workshops and seminars, and the chance to hear from thought leaders on the future of the industry. However, there are lots of conferences to choose from, and they can be expensive
 
-### EMEA
-
 <details>
 <summary>Engineering</summary>
 
-| **Conference** | **Suitable for** | **Description** | **Location** |
+| **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- | ------- |
-| KubeCon | Engineering | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
-| AWS Reinvent | Engineering, Sales | AWS re:Invent is a learning conference hosted by AWS for the global cloud-computing community. The in-person event features keynote announcements, training and certification opportunities, 2,000+ technical sessions, the Expo, after-hours events, and so much more. | Las Vegas, NV |
-| Gainsight Pulse Europe | Sales | One of the top customer success conferences in the world, it includes industry-leading speakers, breakouts focus don customer success best practices, Gainsight product training, and community building opportunities for the team. |  |
-| Ruby Conferences | Engineering | | |
-| RailsWorld |  | | |
-| [Ruby Retreat](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/1495#note_1912661055) | Engineering | | APAC |
-| [Web Directions Summit ](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues/1570#note_1911881399)| Engineering | | APAC |
-|  |  | | |
-|  |  | | |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
 
 </details>
+
+<summary>Security</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- | ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
+
+<details>
+
+<summary>Sales</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- | ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
+
+<summary>Product</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- | ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
+
+<summary>Marketing</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- | ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
+
+
 
 ### AMER
 
