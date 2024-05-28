@@ -368,11 +368,10 @@ Promotion candidates should follow these steps to request feedback as part of ou
 8. Managers communication promotion status
     - Promotions are effective 2024-08-01 aligned with a communication window of 2024-07-24 to 2024-08-01 aligned with the [company-wide timeline](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#fy25-q3-2nd-half)
     - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
-
-
-
-
-
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 
 ## Hiring for VP+ Roles
 
