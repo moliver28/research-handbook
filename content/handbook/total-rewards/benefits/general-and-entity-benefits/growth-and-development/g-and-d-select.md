@@ -81,3 +81,68 @@ Conferences are a great tool for professional development, they provide networki
 </details>
 
 ## G&D Selects - Courses
+
+Conferences are a great tool for professional development, they provide networking opportunities, skill enhancement through workshops and seminars, and the chance to hear from thought leaders on the future of the industry. However, there are lots of conferences to choose from, and they can be expensive
+
+<details>
+<summary>Engineering</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
+
+<details>
+<summary>Security</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
+
+<details>
+<summary>Sales</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
+
+<details>
+<summary>Product</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
+
+<details>
+<summary>Marketing</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
+
+<details>
+<summary>Finance</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
+
+<details>
+<summary>People</summary>
+
+| **Conference** | **Why attend?** | **Location** |
+|----------------|-------------------------| ------- |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+
+</details>
