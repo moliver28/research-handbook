@@ -89,6 +89,13 @@ If the Admin Note is `User deleted own account on {timestamp}`, this means the u
         - SE updates the ticket with the result of the deletion.
 1. **Paid user** accounts who are part of a paid namespace, the user has no deletion delayed and the account is deleted immediately, see [this MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/121912). Note: At present, this applies to members of top-level paid namespace only, see [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/416651). Paid users added below the top-level group will still be subject to the 7-day delay period.
 
+It is possible to delete the account without waiting 7 days for it to be deleted. To do so:
+
+1. Confirm the account is "locked" or "blocked" with the admin note that states the user initiated a self-deletion
+1. Confirm that the account was provisioned
+1. Ask for a manager approval in #support_leadership
+1. Delete the user (without contributions, just the account itself)
+
 ### Embargoed countries
 
 If the block or complaint is related to access from an embargoed country, use the [`Support::SaaS::Gitlab.com::Abuse::TOS Section 10 (Embargoed Countries)`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Abuse/TOS%20Section%2010%20(Embargoed%20Countries).md?ref_type=heads) macro.
