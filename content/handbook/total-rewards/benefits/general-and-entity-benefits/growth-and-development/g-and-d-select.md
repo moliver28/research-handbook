@@ -22,7 +22,7 @@ Conferences are a great tool for professional development, they provide networki
 <details>
 <summary>Engineering</summary>
 
-- | **Conference** | **Suitable for** | **Description** | **Location** |
+| **Conference** | **Suitable for** | **Description** | **Location** |
 |----------------|-------------------------| ------- | ------- |
 | KubeCon | Engineering | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
 | AWS Reinvent | Engineering, Sales | AWS re:Invent is a learning conference hosted by AWS for the global cloud-computing community. The in-person event features keynote announcements, training and certification opportunities, 2,000+ technical sessions, the Expo, after-hours events, and so much more. | Las Vegas, NV |
@@ -39,6 +39,5 @@ Conferences are a great tool for professional development, they provide networki
 ### AMER
 
 ### APAC
-
 
 ## G&D Selects - Courses
