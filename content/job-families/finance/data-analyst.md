@@ -229,7 +229,7 @@ The requirements of the Staff Data Analyst extend the Senior Data Analyst role a
 
 ### People
 
-- Coordinate and support the People function by automating all reports from Greenhouse, BambooHR, and Google Sheets into reporting dashboards.
+- Coordinate and support the People function by automating all reports from Greenhouse, Workday, and Google Sheets into reporting dashboards.
 - Focus on cross-functional analysis to help other departments identify opportunities for improvement within their recruiting, hiring, and retention policies.
 
 ## Performance Indicators (PI)

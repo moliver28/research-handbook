@@ -188,7 +188,7 @@ Once data has been collected, the Total Rewards team will review the compensatio
 To automate the process of pulling survey data from Comptryx and Radford to review benchmarks, GitLab has mapped each job title with a corresponding job code. As a first iteration GitLab will use the job codes Radford has outlined. Each job family and level must have a unique job code. The following structure is used:
 
 - Radford Code to be used as job code.
-- If there is a duplicate Radford code, the job code in BambooHR will have a letter behind to differentiate (A, B, C, etc).
+- If there is a duplicate Radford code, the job code in Workday will have a letter behind to differentiate (A, B, C, etc).
 - If there is no job code, GitLab will generate a four digit unique job code starting with "N".
 
 For example:
