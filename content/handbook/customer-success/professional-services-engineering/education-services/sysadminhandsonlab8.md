@@ -70,7 +70,7 @@ curl -i http://localhost/nginx_status
 sudo gitlab-ctl stop puma
 ```
 
-3. Refresh GitLab in your web browser. You should immediately see an error that reads "**502: GitLab is taking too much time to respond**". NGINX is running, so it can accept HTTP requests. However, when workhorse tries to pass an HTTP request to the Rails application, there is no running service to accept it.
+1. Refresh GitLab in your web browser. You should immediately see an error that reads "**502: GitLab is taking too much time to respond**". NGINX is running, so it can accept HTTP requests. However, when workhorse tries to pass an HTTP request to the Rails application, there is no running service to accept it.
 
 1. View the GitLab Workhorse logs.
 
