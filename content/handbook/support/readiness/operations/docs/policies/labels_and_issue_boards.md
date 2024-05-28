@@ -31,7 +31,7 @@ so that we can automatically add group labels and assignees based on our
 | ![Readiness::Blocked](https://img.shields.io/badge/Readiness-Blocked-ff0000) | The issues/MRs that are blocked and Support Readiness is not able to actively work on them |
 | ![Readiness::Backlogged](https://img.shields.io/badge/Readiness-Backlogged-34495e) | For issues backlogged by Support Readiness |
 
-### Priority Labels
+### Planning Labels
 
 | Label | Meaning |
 |-------|---------|
