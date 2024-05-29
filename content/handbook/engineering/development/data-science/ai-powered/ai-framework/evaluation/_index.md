@@ -48,10 +48,11 @@ In the `evaluation_scripts` directory  create a `.env` file and add the followin
 
 ```bash
 LANGCHAIN_TRACING_V2=true
-LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
-LANGCHAIN_API_KEY=your_langsmith_api_key
-OPENAI_API_KEY=''
-GITLAB_PRIVATE_TOKEN=your_gitlab_private_token
+LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+LANGCHAIN_API_KEY="your_langsmith_api_key"
+LANGCHAIN_PROJECT="26a248f8-d774-467d-860f-047f99a8e8b5"
+OPENAI_API_KEY=""
+GITLAB_PRIVATE_TOKEN="your_gitlab_private_token"
 ```
 
 ## Step 2: Create and upload your dataset
