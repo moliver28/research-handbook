@@ -90,6 +90,8 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 
 ## Engineering Quarterly Achievers Past Winners
 
+These are the past award winners. The quarter indicated is the quarter the award was announced. The award itself covers work completed the _previous_ quarter.
+
 ### FY24-Q4
 
 | Quarter | Category | Award | Winner |
@@ -127,6 +129,24 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 | FY25-Q1 | Customer Results | Performance and Stability | Sylvester Chin |
 | FY25-Q1 | Customer Results | Contribution to Sales or Renewal | Cameron Swords |
 
+### FY25-Q2
+
+| Quarter | Category | Award | Winner |
+| --- | --- | --- | --- |
+| FY25-Q2 | Efficiency | Best Blueprint Proposal | TBA |
+| FY25-Q2 | Efficiency | Cost Savings | TBA |
+| FY25-Q2 | Efficiency | Software Efficiency | TBA |
+| FY25-Q2 | Efficiency | Proactive Avoidance |  TBA |
+| FY25-Q2 | Efficiency | Security Improvement | TBA |
+| FY25-Q2 | Excellence | Engineering Excellence | TBA |
+| FY25-Q2 | Excellence | Excellence Under Pressure | TBA |
+| FY25-Q2 | Excellence | Testing Excellence | TBA |
+| FY25-Q2 | Excellence | Most Impactful MR or Doc Update | TBA |
+| FY25-Q2 | Excellence | Everyone-can-contribute | TBA |
+| FY25-Q2 | Customer Results | Customer Centered Individual | TBA |
+| FY25-Q2 | Customer Results | Customer Kudos | TBA |
+| FY25-Q2 | Customer Results | Performance and Stability | TBA |
+| FY25-Q2 | Customer Results | Contribution to Sales or Renewal | TBA |
 ---
 
 ## Engineering Quarterly Achievers Process
