@@ -14,17 +14,14 @@ description: "This page is an overview of the search team alignment and the tale
 | Customer Success & Solutions Architects, EMEA | Ornella Miles | Lerato Thipe |
 | Commercial Sales/R&D, EMEA | Ben Cowdry | Lerato Thipe |
 | Global Services & Field Operations | Kelsey Hart  | Fernando Khubeir |
-| Customer Success & Solutions Architects, AMER | Barbara Dinoff |  Jazmin Armstrong |
+| Customer Success & Solutions Architects, AMER | Barbara Dinoff |  Teranay Dixon |
 | All Business, APAC | Yas Priatna  | Sruthy Menon |
 | G&A/EBA/Marketing (Leadership and E-Group+ EBA) | Steph Sarff | Michelle Jubrey |
 | G&A/EBA/Marketing (Global Sales Development, FP&A, EBA) | Caroline Rebello |  Michelle Jubrey |
-| G&A/Marketing (Developer Relations, Growth, IT) | Hannah Stewart  | Jazmin Armstrong |
+| G&A/Marketing (Developer Relations, Growth, IT) | Hannah Stewart  | Fernando Khubeir |
 | G&A/Marketing (Corporate Communications, Data, Legal, People, Product Marketing) | Jenna VanZutphen  | Fernando Khubeir |
-| G&A/Marketing (Accounting, Integrated Marketing, Internal Audit, Marketing Ops, Tax) | Aiste Juozaponyte  | Fernando Khubeir |
-| Engineering, Development | Matt Angell | Alice Crosbie |
-| Engineering, Development | Sara Currie, Chux Ugorji | Jazmin Armstrong |
-| Engineering, Development | Joe Guiler, Heather Tarver, Seema Anand | Teranay Dixon |
-| Engineering, Infrastucture   | Maxx Snow | Teranay Dixon  |
+| Engineering, Development | Matt Angell, Chux Ugorji | Alice Crosbie |
+| Engineering, Development | Heather Tarver, Seema Anand, Sara Currie | Teranay Dixon |
 | Engineering, Infrastucture   | Michelle A. Kemp, Aziz Quadri | Alice Crosbie  |
 | Customer Support | Joanna Michniewicz  |  Alice Crosbie |
 | Product Management | Holly Nesselroad | Fernando Khubeir |
@@ -44,9 +41,11 @@ For urgent requests of the Candidate Experience Specialist team, we encourage yo
 | Talent Acquisition (EMEA and APAC Sales) | Jake Foster |
 | Talent Acquisition (Marketing & G&A) | Steph Sarff + Jake Foster |
 | Talent Acquisition (G&A) | Steph Sarff + Jake Foster |
-| Talent Acquisition (Development) | TBA |
-| Talent Acquisition (Specialty Tech): | Jake Foster |
-| Talent Acquisition (R&D: Infrastructure) | TBA |
+| Talent Acquisition (R&D) | Jack Connors |
+| Talent Acquisition (Core Development) | Jack Connors |
+| Talent Acquisition (Expansion Development) | Matt Angell |
+| Talent Acquisition (Specialty Tech) | Jack Connors|
+| Talent Acquisition (Infrastructure) | Jack Connors |
 | Talent Acquisition (Executive) | Rich Kahn |
 | Enablement | Marissa Farris |
 | Candidate Experience | Marissa Farris |
