@@ -396,7 +396,6 @@ added to the policy within three months of the child’s birth. Congenital condi
 
 For a full overview of the plan please view our [2024 New Zealand Webinar](https://drive.google.com/file/d/1CCqSMJTBV8NUtvk5YilKPgZ8kPw2bVcb/view?usp=sharing)
 
-
 ### Medical Plan Administration Details
 
 #### New Hires
