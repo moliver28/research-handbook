@@ -26,6 +26,7 @@ From 1st of May 2015, if you are 35 or over when you first take out private heal
 Dependents eligible for the GitLab subsidy include Team Member's Spouse, Domestic Partner, and Children up to the age of 21 as long as they are still enrolled in school.
 
 Domestic Partnership is defined as follows:
+
 - Neither partner is currently married to anyone else nor currently has a different Domestic Partner.
 - Partners have assumed mutual obligations for the welfare and support of each other.
 - Partners reside together as a non-married cohabiting couple and share the common necessities of life.
