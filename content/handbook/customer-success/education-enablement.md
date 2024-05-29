@@ -300,7 +300,7 @@ To align our education and enablement with our product, each of the topics below
 
 - [Terraform Associate Certification](https://www.hashicorp.com/certification/terraform-associate)
 
-#### HashiCorrp Vault
+#### HashiCorp Vault
 
 ---
 
@@ -342,11 +342,11 @@ If you do not already have a login are outside of the customer success organizat
 
 ### O'Reilly Answer Slack Bot
 
-As part of GitLab's O'Reilly subscrition, team members have access to the O'Reilly Answer Slack Bot. To get started, in Slack, just type /oreilly-answers followed by your tech question. It’s that simple.
+As part of GitLab's O'Reilly subscription, team members have access to the O'Reilly Answer Slack Bot. To get started, in Slack, just type `/oreilly-answers` followed by your tech question. It’s that simple.
 
 For example:
 
-- /oreilly-answers How do I fine-tune a model?
+- `/oreilly-answers` How do I fine-tune a model?
 - O’Reilly Answers will respond to your question with highly relevant snippets of content right within Slack.
 
 **More Answers**

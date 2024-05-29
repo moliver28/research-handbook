@@ -20,7 +20,6 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 There are several different ways that the CSE team engages with customers, including:
 
 1. [Targeted campaigns run from Gainsight](#targeted-campaigns)
-
 1. [Monthly Webinars and Labs](#monthly-webinars-and-hands-on-labs)
 1. [GitLab Onboarding Cohorts](#cse-onboarding-cohorts)
 1. [Sales Driven CSE Engagement Request](#cse-engagement-request-process)
@@ -29,9 +28,9 @@ There are several different ways that the CSE team engages with customers, inclu
 
 Customer Success Operations and CS leaders determine, based on various GitLab health metrics, a set of outreach campaigns to drive customer interactions that will help improve GitLab adoption and usage.  Examples of campaigns are:
 
- - 21 day check in
- - 90 day low license utilization
- - CI product coach
+- 21 day check in
+- 90 day low license utilization
+- CI product coach
 
   Existing campaign email drafts can be found in the [Automated CSE Campaigns Content google doc](https://docs.google.com/document/d/1Db6y_i2gPQrPnJkJpAAbfFKQtw4c5VgSFJcHKDG-4hk/edit?usp=sharing).  The email campaigns get sent to a target group based on geo and ARR and typically contain the calendly link for the specific CSE working with that segment.
 
@@ -45,8 +44,7 @@ The upcoming month's webinar dates are added to an issue in the [Customer Succes
 
 The host of the webinar should download the recording from [Webinar Master Recordings folder](https://drive.google.com/drive/folders/1x0_7J30cTpfbRXjrXgG_2XOIARLusNt3?usp=drive_link) and do a practice session in the zoom webinar to ensure it plays successfully.  Here are details for playing the video for the webinar:
 
-1.Download Mp4 to your computer the day before session starts.
-
+1. Download Mp4 to your computer the day before session starts.
 1. Start practice session. You'll get a reminder email one day and one hour before the webinar starts and can click on that link. You can join the webinar anytime before it starts in a practice session in order to test the video playback.
 1. Mute yourself and turn off video. The customer will only see the pre-recorded presenter, at no time should they see the panelists.
 1. Press "Share Screen" > Advanced > Video **DE-Select "Optimize for video clip"** Share > Select the Mp4 file of the recording
@@ -76,7 +74,7 @@ The Presenter should add the lab to the [FY23 and FY24 Lab Schedule issue](https
 
 A registration code will then be created for the lab.  Registration codes are tracked in the [2023 Demo Team Scale/CSM Workshop Registrations google sheet](https://docs.google.com/spreadsheets/d/1H0Ym78QqXeufzsHMWMsFBSi9mIav0apUBm7D-D7-haU/edit?usp=sharing).  Lab attendees will use the registration code at the beginning of the lab to have lab credentials and an subgroup created to use for the hands-on exercises, [provisioned via gitlabdemo.com](https://gitlabdemo.com/login).  Each slide deck has detailed instructions for the attendees that the host will guide them through to create the subgroup and access it.
 
-Before the event, the host should make a copy of the appropriate [master slide deck](https://drive.google.com/drive/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY?usp=drive_link) and store it in the [2. Global Onboarding Labs -> Decks -> Delivered decks folder](https://drive.google.com/drive/folders/1SYuAOlR9YqLSS3I9qebW8aKyRYx2Yv8I?usp=drive_link), with the Title: `<Lab Name> - <Region> - Date`.  In the lab deck, change the registration codes to match the current lab, and add their name and profile picture to the presenter slide.  
+Before the event, the host should make a copy of the appropriate [master slide deck](https://drive.google.com/drive/folders/1h-I2J_J4MlgBmjfwxpdGiyVM0vIVW9vY?usp=drive_link) and store it in the [2. Global Onboarding Labs -> Decks -> Delivered decks folder](https://drive.google.com/drive/folders/1SYuAOlR9YqLSS3I9qebW8aKyRYx2Yv8I?usp=drive_link), with the Title: `<Lab Name> - <Region> - Date`.  In the lab deck, change the registration codes to match the current lab, and add their name and profile picture to the presenter slide.
 
 The CSE Program Manager will handle all pre-lab and post-lab communication with the attendees, and will request the Highspot link to add to the post-lab email.
 
@@ -84,23 +82,23 @@ The lab content is contained in the [GitLab Learn Labs Sample Projects group](ht
 
 You should also create a paste notes doc that has all of the information and links that you will want to put in the chat for the lab participants.  See [Sample Paste Notes for Security and Compliance Lab](https://docs.google.com/document/d/1rNF2PvfJrunZgoI9PW4mPIirLLhyXH9ohXgLEmsXeRI/edit?usp=sharing). Provide the link in the #scale-workshops-planning slack channel for anyone who is helping with Q&A.  The #scale-workshops-planning slack channel is used for any pre-lab questions, set up, demo environment issues, etc.
 
-On the day of the lab, the host should login at least 10 minutes prior to the lab start to get set up.  
+On the day of the lab, the host should login at least 10 minutes prior to the lab start to get set up.
 
 Lab housekeeping items - these should be called out in the lab slide deck as well:
 
-   - all attendees are muted - ask participants to stay muted and add their questions in the Q&A panel
-   - an account on gitlab.com is needed before starting
-   - access to lab environment for x days (it's 2 days for some labs and 4 days for others - should be called out in the appropriate slide deck)
+- all attendees are muted - ask participants to stay muted and add their questions in the Q&A panel
+- an account on gitlab.com is needed before starting
+- access to lab environment for x days (it's 2 days for some labs and 4 days for others - should be called out in the appropriate slide deck)
 
 Tips and tricks for presenting:
 
-   - open 2 chrome windows side by side when working through labs - one with the issue instructions and one with the lab project you're using to work through each step
-   - put your slides in full screen presentation mode for presentation
-   - turn off all notifications
-   - hide your bookmarks bar and be conscious not to share anything related to other customers
-   - go slower than you think you need to through the exercises
+- open 2 chrome windows side by side when working through labs - one with the issue instructions and one with the lab project you're using to work through each step
+- put your slides in full screen presentation mode for presentation
+- turn off all notifications
+- hide your bookmarks bar and be conscious not to share anything related to other customers
+- go slower than you think you need to through the exercises
 
-After the lab, the CSE Program Manager will send a post-event email with a link to the recording and slide deck.  
+After the lab, the CSE Program Manager will send a post-event email with a link to the recording and slide deck.
 
 ### CSE Onboarding Cohorts
 
@@ -136,21 +134,21 @@ Only account owners (AEs and RM's) should file a new issue requesting a CSE enga
 NOTE: Unless specified otherwise, CSEs will automatically reach out to the contact with the AE/RM in copy when cases are created. If the AE/RM does not want that to happen they can put a note in the open text "Challenges/Pain Points (1000 Character Limit)" field on the case.
 
 - For more information about the scope and qualifications for CSE engagement, refer to the following links:
-   - [CSE: Qualifications/Scope Document for CSE Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#)
-   - [CSE Workflow - Process](https://docs.google.com/document/d/14hgdDN9JYVQLcuwGFfvryWDeXeWUpHLZv7RAUH7oers/edit#heading=h.vs4fplqboev)
-   - [CSE highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=shp.4)
+  - [CSE: Qualifications/Scope Document for CSE Engagement](https://docs.google.com/document/d/1UVUPVTpEd3uYN8X1a_-LgB0GVY3fW6Y-S8sXfh-W65M/edit#)
+  - [CSE Workflow - Process](https://docs.google.com/document/d/14hgdDN9JYVQLcuwGFfvryWDeXeWUpHLZv7RAUH7oers/edit#heading=h.vs4fplqboev)
+  - [CSE highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=shp.4)
 
 #### Tracking Ad-Hoc CSE Engagements in Gainsight (CSEs only)
 
 When a CSE has accepted an engagement request, the CSE must then create a [CTA](/handbook/customer-success/csm/gainsight/ctas/) in Gainsight for proper tracking and CSAT survey deployment post-follow-up email.
 
 - Create CTA from the Cockpit with the following details
-   - Name: [Customer Name] - Ad-Hoc CSE Engagement Request
-   - Company: [Customer Name]
-   - Type: Digital Journey
-   - Reason: Other Digital Journey Reason
-   - Priority: (select the most appropriate type based on the request)
-   - Playbook: One-Off CSE Outreach
+  - Name: [Customer Name] - Ad-Hoc CSE Engagement Request
+  - Company: [Customer Name]
+  - Type: Digital Journey
+  - Reason: Other Digital Journey Reason
+  - Priority: (select the most appropriate type based on the request)
+  - Playbook: One-Off CSE Outreach
 
 Once the call is complete, the call must be [logged as an activity](/handbook/customer-success/csm/cadence-calls/#review-and-update-account-details) against the customer’s timeline in Gainsight using the `CSE Engagement` meeting type in Gainsight, and filling in the relevant details regarding the customer meeting details.
 

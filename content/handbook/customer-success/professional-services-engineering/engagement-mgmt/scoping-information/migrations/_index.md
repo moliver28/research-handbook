@@ -5,7 +5,7 @@ description: "Describes the processes for scoping migrations."
 
 ## Info for Sales - positioning migrations to SaaS
 
- - [GitLab self-managed to SaaS migration](SM-to-SaaS/)
+- [GitLab self-managed to SaaS migration](SM-to-SaaS/)
 
 ## Migration Scoping Details
 
@@ -40,25 +40,25 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA o
 ## GitLab Self-Managed to GitLab.com Migration Notes
 
 - There are specific cases where migrating to SaaS might not be the best recommendation.  Here are some considerations when working with the customer to decide on whether or not SaaS is the best solution:
-   1. Is the customer using something other than GitLab CI?  If so, are they able to establish connectivity between their CI tool and GitLab.com?  There are occassionally issues that prevent them from using GitLab and their CI/CD tools, i.e. the customer is not able to convince their network security team to adjust firewall configurations to be able to use their CI/CD tool behind their firewall with GitLab SaaS.
-   1. If the customer has a very large number of projects, this could become a change management challenge as well as be cost prohibitive to do the migration.  e.g. for one customer recently, who has been having performance issues in their self-managed instance, it was going to take $400k and 150+ days to migrate them to SaaS (1600 users and 20k+ projects).  GitLab Dedicated might be a better option for some customers who are using Ultimate.
-   1. The customer may be using some self-managed features that they are insistent on continuing to use that aren't available on SaaS (e.g. server hooks).  See [Differences Between Self-Managed and SaaS](https://about.gitlab.com/features/) for more information.
-   1. The customer may have very large GitLab projects that would be difficult to migrate to SaaS, and they would need to [pay for additional storage consumption](https://about.gitlab.com/pricing/) in order to use SaaS; plus there are known git and CI performance issues when customers have very large monorepos.
+  1. Is the customer using something other than GitLab CI?  If so, are they able to establish connectivity between their CI tool and GitLab.com?  There are occassionally issues that prevent them from using GitLab and their CI/CD tools, i.e. the customer is not able to convince their network security team to adjust firewall configurations to be able to use their CI/CD tool behind their firewall with GitLab SaaS.
+  1. If the customer has a very large number of projects, this could become a change management challenge as well as be cost prohibitive to do the migration.  e.g. for one customer recently, who has been having performance issues in their self-managed instance, it was going to take $400k and 150+ days to migrate them to SaaS (1600 users and 20k+ projects).  GitLab Dedicated might be a better option for some customers who are using Ultimate.
+  1. The customer may be using some self-managed features that they are insistent on continuing to use that aren't available on SaaS (e.g. server hooks).  See [Differences Between Self-Managed and SaaS](https://about.gitlab.com/features/) for more information.
+  1. The customer may have very large GitLab projects that would be difficult to migrate to SaaS, and they would need to [pay for additional storage consumption](https://about.gitlab.com/pricing/) in order to use SaaS; plus there are known git and CI performance issues when customers have very large monorepos.
 - [Migrating from Self-Managed to SaaS](/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/migrations/SM-to-SaaS/) has additional information, rough order magnitude estimates, and common customer questions
 - see [Congregate Features Matrix](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/gitlab-migration-features-matrix.md) to see a comparison of GitLab ui migration vs Congregate migration and gain a better understanding of which features get migrated and which don't.
 - Migrations from one GitLab instance to another using Congregate require that the group and project structure of the source system is retained during migration.
 - scoping uses our standard [Automated Migration PS Engagement Estimate Template](https://docs.google.com/spreadsheets/d/1YKMyflzsA-VPEVobB82zC8-n0hlC-uRBtiNB7Fm-kZg/edit#gid=498273375). For very small migrations with less than 30 repositories, use the [Manual Migration Estimate Template](https://docs.google.com/spreadsheets/d/1YKMyflzsA-VPEVobB82zC8-n0hlC-uRBtiNB7Fm-kZg/edit#gid=1993932036) to compare the cost of a manual migration to the cost of automated migration
 - SaaS Discovery, SSO configuration and Security configuration activities are typically added to migrations to SaaS.  See Services Calculator activities for more details:
-   - [saas_discovery_remote](https://gitlab.com/services-calculator/services-calculator.gitlab.io/-/blob/master/public/resources/sow-activites.yml#L2260)
-   - [saas_sso_configuration_remote](https://gitlab.com/services-calculator/services-calculator.gitlab.io/-/blob/master/public/resources/sow-activites.yml#L2293)
-   - [saas_security_configuration_remote](https://gitlab.com/services-calculator/services-calculator.gitlab.io/-/blob/master/public/resources/sow-activites.yml#L2309)
+  - [saas_discovery_remote](https://gitlab.com/services-calculator/services-calculator.gitlab.io/-/blob/master/public/resources/sow-activites.yml#L2260)
+  - [saas_sso_configuration_remote](https://gitlab.com/services-calculator/services-calculator.gitlab.io/-/blob/master/public/resources/sow-activites.yml#L2293)
+  - [saas_security_configuration_remote](https://gitlab.com/services-calculator/services-calculator.gitlab.io/-/blob/master/public/resources/sow-activites.yml#L2309)
 - see [TEMPLATE Professional Services Presentation](https://docs.google.com/presentation/d/1-svCV8CFqZZr0ma-1TJIzy-Lobu4sSslP5eAS2BaCbc/edit?usp=sharing) for a summary of our migration approach and which features get migrated or not.  This also includes a description of our SaaS Discovery, SSO configuration and Security configuration activities, which we often add for new SaaS customers.
 
 ## GitLab Self-Managed to GitLab Self-Managed
 
 - You can use Congregate but you also have other options at your disposal:
-   - **Backup and restore** using rake-tasks. This enables you to restore all of the data from one instance of GitLab to another. This can be used to shorten the migration period, but will cause complete downtime as the source instance will need to be locked during the time it takes to backup. Also, this could take many hours to days depedening on the size of the data.
-   - **Geo Replication**. This method allows you to setup the new gitlab instance as a Geo secondary. The data will sync over the course of time. Then you can perform a failover to make the new instance primary. This tends to be more complex and requires a more specialized skillset than the backup/restore approach.
+  - **Backup and restore** using rake-tasks. This enables you to restore all of the data from one instance of GitLab to another. This can be used to shorten the migration period, but will cause complete downtime as the source instance will need to be locked during the time it takes to backup. Also, this could take many hours to days depedening on the size of the data.
+  - **Geo Replication**. This method allows you to setup the new gitlab instance as a Geo secondary. The data will sync over the course of time. Then you can perform a failover to make the new instance primary. This tends to be more complex and requires a more specialized skillset than the backup/restore approach.
 
 ## GitLab Self-Managed to GitLab Dedicated Instance
 
@@ -71,8 +71,8 @@ Using the [services calculator](https://services-calculator.gitlab.io/), an SA o
 
 - This is one of our strongest combinations of source and destination systems. We have migrated 7,000+ projects per wave in our best case.
 - If minimizing the transition period is a concern, we will want to maximize the number of projects per wave.
-    - To do this, we need to have full control over the GitHub API Rate limit setting.
-    - We also want to ensure there is a strong enough network connection between the GHE and GitLab SM instance to support moving the data. We don't have a hard number, but ask them about moving hundreds of GB over a few hours across lots of connections. Their network team should be able to answer.
+  - To do this, we need to have full control over the GitHub API Rate limit setting.
+  - We also want to ensure there is a strong enough network connection between the GHE and GitLab SM instance to support moving the data. We don't have a hard number, but ask them about moving hundreds of GB over a few hours across lots of connections. Their network team should be able to answer.
 - If the customer wants to reorganize their groups/project structure, we can support this (see below common customer requests).
 - Make sure the customer acknowledges that they need to have email addresses public, not private for any migration to work properly.
 - GitLab self managed should be on 13.7+ or later to take advantage of an API change that allows us to specify a specific github hostname in the import call (rather than defaulting to github.com).
@@ -102,8 +102,8 @@ _Note: A project on bitbucket is equivalent to a GitLab group. A Repository on B
 
 - Theoretically, migrations with this pair of source/destination should be able to be scaled as high as GHE to GL Self-Managed. Its safe to increase the projects per wave to 1,000.
 - If minimizing the transition period is a concern, we will want to maximize the number of projects per wave.
-   - To do this, we need to have full control over the BitBucket API Rate limit setting.
-   - We also want to ensure there is a strong enough network connection between the BitBucket Server and GitLab SM instance to support moving the data. We don't have a hard number, but ask them about moving hundreds of GB over a few hours across lots of connections. Their network team should be able to answer.
+  - To do this, we need to have full control over the BitBucket API Rate limit setting.
+  - We also want to ensure there is a strong enough network connection between the BitBucket Server and GitLab SM instance to support moving the data. We don't have a hard number, but ask them about moving hundreds of GB over a few hours across lots of connections. Their network team should be able to answer.
 - If the customer wants to reorganize their groups/project structure, we can support this (see below common customer requests).
 
 ### Bitbucket Cloud to GitLab Self-Managed
@@ -171,7 +171,7 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 
 ## Other git based SCMs
 
-- We can support these customers by using the "bare git" method of migration. This is done through the [Import repo by URL UI](https://docs.gitlab.com/ee/user/project/import/repo_by_url.html) or command line using `git push -u.
+- We can support these customers by using the "bare git" method of migration. This is done through the [Import repo by URL UI](https://docs.gitlab.com/ee/user/project/import/repo_by_url.html) or command line using `git push -u`.
 - The customer should provide a list of git urls to iterate over to support the migration.
 - Data elements outside of the git envelope (e.g. pull request comments, user membership, etc.) will not be migrated. Only git data elements (e.g. branches, commits, files, tags, etc.) will be migrated.
 
@@ -186,7 +186,7 @@ Azure DevOps (formerly named Team Foundation Server) contains more than a source
 
 - In congregate, we can do this for source systems of Github Enterprise and Bitbucket. The customer must provide a `.csv` file with `source project url` and `destination parent path` to let us know where the projects will land on the destination system. Also the customer or we must create the group structure prior to a migration with this reorganization involved. There should be additional time added for new group hierarcy creation to the scope.
 - We strongly recommend against this for GitLab as the source and destination systems. This seems counterintuitive, but because GitLab has lots of other data outside of the repository structure that sits in the project/group structure that needs to be maintained, the reorganization step should not happen during the migration. If a customer MUST do this, recommend doing it as a pre or post migration step using the UI or API to coordinate the local moves of projects and groups.
-   - This can be positioned as additional days of migration advisory time. We need to determine what this is a function of to have objective scoping.
+  - This can be positioned as additional days of migration advisory time. We need to determine what this is a function of to have objective scoping.
 
 ### 2. We're on 13.5 (or some old version), can we still migrate?
 
