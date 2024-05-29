@@ -98,6 +98,7 @@ Open up a Growth & Development issue for a course application [here](https://git
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
+| OffSec | Why? | Virtual |
 | ISACA Membership | Why? | Virtual |
 
 </details>
