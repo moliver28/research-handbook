@@ -112,11 +112,11 @@ A blog can and should be repurposed as a web article/cluster page if the content
 **Blog repurpose workflow**
 
 1. Work with the SEO team to identify existing, older blogs that are the best options for repurposing.
-2. Ensure that the editorial team is aware of the intention and has approved the redirect.
-3. In a Google doc, copy and paste the existing blog. From there, use the keyword spreadsheets to identify the best possible updates -- this can include changing the title to a better keyword phrase, identifying areas of copyediting improvements, adding links, adding a 'More On' section, and elaborating on longtail keywords throughout the content.
-4. Create a merge request on the `www-gitlab-com` project.
-5. Once the web article is edited and merged, open an [issue to redirect](https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/-/issues/new#set-up-a-new-redirect) the blog URL to the new web article. Add the new URL and old URL in the issue. The labels are included in the issue, do not assign.
-6. After the web article is merged and the blog redirected, add the web article link to the associated Topics page in the sidebar.
+1. Ensure that the editorial team is aware of the intention and has approved the redirect.
+1. In a Google doc, copy and paste the existing blog. From there, use the keyword spreadsheets to identify the best possible updates -- this can include changing the title to a better keyword phrase, identifying areas of copyediting improvements, adding links, adding a 'More On' section, and elaborating on longtail keywords throughout the content.
+1. Create a merge request on the `www-gitlab-com` project.
+1. Once the web article is edited and merged, open an [issue to redirect](https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/-/issues/new#set-up-a-new-redirect) the blog URL to the new web article. Add the new URL and old URL in the issue. The labels are included in the issue, do not assign.
+1. After the web article is merged and the blog redirected, add the web article link to the associated Topics page in the sidebar.
 
 #### Whitepaper
 
@@ -127,7 +127,7 @@ Any technical GitLab team member is welcome to write a whitepaper and collaborat
 **Examples:**
 
 1. [A seismic shift in application security](https://about.gitlab.com/resources/whitepaper-seismic-shift-application-security/)
-2. [How to deploy on AWS from GitLab](https://about.gitlab.com/resources/whitepaper-deploy-aws-gitlab/)
+1. [How to deploy on AWS from GitLab](https://about.gitlab.com/resources/whitepaper-deploy-aws-gitlab/)
 
 #### eBook
 
@@ -142,8 +142,8 @@ Follow the instructions for creating an internal gated asset and start the eBook
 **Examples:**
 
 1. [An intermediate guide to GitOps, Kubernetes, and GitLab](https://page.gitlab.com/resources-ebook-gitops-kubernetes-gitlab.html)
-2. [The GitLab Remote Playbook](/handbook/company/culture/all-remote/)
-3. [The benefits of single application CI/CD](https://about.gitlab.com/resources/ebook-single-app-cicd/)
+1. [The GitLab Remote Playbook](/handbook/company/culture/all-remote/)
+1. [The benefits of single application CI/CD](https://about.gitlab.com/resources/ebook-single-app-cicd/)
 
 #### Infographic
 
@@ -152,7 +152,7 @@ An infographic is an illustrated overview of a topic or process, and is typicall
 **Example:**
 
 1. [Git cheat sheet](/images/press/git-cheat-sheet.pdf)
-2. [How GitLab accelerates workload deployments on AWS](https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/uploads/59d1390557bb304e7401443c4e710c0f/gitlab-aws-ci_t-campaign-infographic-01.pdf)
+1. [How GitLab accelerates workload deployments on AWS](https://gitlab.com/gitlab-com/marketing/inbound-marketing/growth/uploads/59d1390557bb304e7401443c4e710c0f/gitlab-aws-ci_t-campaign-infographic-01.pdf)
 
 #### Topic page
 
@@ -165,8 +165,8 @@ Web articles are educational, informational content, designed to support topic p
 **Examples:**
 
 1. [How to choose the right continuous integration tool](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/)
-2. [What are Git version control best practices?](https://about.gitlab.com/topics/version-control/version-control-best-practices/)
-3. [What is developer-first security?](https://about.gitlab.com/topics/devsecops/what-is-developer-first-security/)
+1. [What are Git version control best practices?](https://about.gitlab.com/topics/version-control/version-control-best-practices/)
+1. [What is developer-first security?](https://about.gitlab.com/topics/devsecops/what-is-developer-first-security/)
 
 #### Case study
 
@@ -177,7 +177,7 @@ Case studies are in-depth customer stories that provide insight as to how GitLab
 **Examples:**
 
 1. [How Hotjar deploys 50% faster with GitLab](https://about.gitlab.com/customers/hotjar/)
-2. [Security provider KnowBe4 keeps code in-house and speeds up deployment](https://about.gitlab.com/customers/knowbe4/)
+1. [Security provider KnowBe4 keeps code in-house and speeds up deployment](https://about.gitlab.com/customers/knowbe4/)
 
 ## Recommended Slack channels
 

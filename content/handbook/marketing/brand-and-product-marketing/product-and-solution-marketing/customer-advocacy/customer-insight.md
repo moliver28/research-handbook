@@ -47,20 +47,20 @@ Case Study creation is maintained by the Customer Reference Team in the [Product
 Customer Blogs are managed by the CR team and typically they will focus on SMB/MM customer success stories.
 
 1. The CRM creates an issue in the Product Marketing repo and conducts the intro interview, they source a transcript of this interview and create a content folder in the [drive](https://drive.google.com/drive/folders/1E_jGCarWiMmuj8G-vf2dpxqwAG2yBAqt?usp=sharing) for our contract writer resources.  They upload the audio/video recording and the transcript/main notes into this folder
-2. The writer creates a draft and advises the CRM of any additional information required, they prepare the blog draft to 80% and the CRM completes it with customer feedback and additional metrics
-3. The CRM reaches out to customer with the draft plus additional content requests
-4. Once the customer has approved the blog (with the [signed approval form 03.03.2022](https://docs.google.com/document/d/1Q73D5lptyIyuvStC8pAwxnxGGjBKGa5TH3GylfA4uAQ/edit) the CRM sends it to the content team for review. The CRM will add the signed form to the customer account in SFDC.
-5. The content team reviews the case study copy and sends it to the legal team for their review before we publish the customer blog
-6. The CRM sends the link + swag gift to the customer and updates ReferenceEdge of the reference activity completed.
-7. The CRM amplifies the customer blog with a content activation issue (upload to Pathfactory/Highspot/Bambu etc)
-8. The CRM notes the new logo approval and adds to the various marketing outcomes (logo deck/grid/website)
+1. The writer creates a draft and advises the CRM of any additional information required, they prepare the blog draft to 80% and the CRM completes it with customer feedback and additional metrics
+1. The CRM reaches out to customer with the draft plus additional content requests
+1. Once the customer has approved the blog (with the [signed approval form 03.03.2022](https://docs.google.com/document/d/1Q73D5lptyIyuvStC8pAwxnxGGjBKGa5TH3GylfA4uAQ/edit) the CRM sends it to the content team for review. The CRM will add the signed form to the customer account in SFDC.
+1. The content team reviews the case study copy and sends it to the legal team for their review before we publish the customer blog
+1. The CRM sends the link + swag gift to the customer and updates ReferenceEdge of the reference activity completed.
+1. The CRM amplifies the customer blog with a content activation issue (upload to Pathfactory/Highspot/Bambu etc)
+1. The CRM notes the new logo approval and adds to the various marketing outcomes (logo deck/grid/website)
 
 #### Customer Quote and Logo approval process
 
 Customer quotes and logo approvals are managed by the CR team and typically they will focus on SMB/MM customer success stories.
 
 1. Customer quotes are uploaded into this [deck](https://docs.google.com/presentation/d/1YuP5_7LOnTMDcvl9UKPqim7lxaush4SUXDtTQ0uA4Sg/edit#slide=id.g8f271498f2_0_301) and approval forms are added to the customer SFDC account
-2. Customer logos are added to the [approved logo deck](https://docs.google.com/presentation/d/1UKVfxDm6KNpWCjoAcWp0AfX1yaLT10FK-zbbFZLAwZE/edit) and to the [external logo approval sheet](https://docs.google.com/spreadsheets/d/1wnczZQ7a8rIXI_OCNPuqJv5VeC5gGs-lwAmlgyxUlvU/edit?ouid=118300580366217548304&usp=sheets_home&ths=true), all signed approval forms are added to the customer SFDC account.
+1. Customer logos are added to the [approved logo deck](https://docs.google.com/presentation/d/1UKVfxDm6KNpWCjoAcWp0AfX1yaLT10FK-zbbFZLAwZE/edit) and to the [external logo approval sheet](https://docs.google.com/spreadsheets/d/1wnczZQ7a8rIXI_OCNPuqJv5VeC5gGs-lwAmlgyxUlvU/edit?ouid=118300580366217548304&usp=sheets_home&ths=true), all signed approval forms are added to the customer SFDC account.
 
 ### Customer Case Studies
 
@@ -147,15 +147,17 @@ Depending on the customers use cases; please select the appropriate questions be
 - [ ] How has GitLab helped support audits and compliance etc?
 - [ ] How has shifting security earlier in the delivery lifecycle impacted your speed to deliver?
 - [ ] Which are you using for the following scan types? (GitLab or 3rd party) Note where GitLab replaced an incumbent third party scanner.
-     - [ ] SAST
-     - [ ] DAST (in pipeline or ondemand?)
-     - [ ] Dependency scanning
-     - [ ] Container scanning
-     - [ ] Secrets detection
-     - [ ] Coverage guided fuzzing
-     - [ ] API fuzzing
-     - [ ] License Compliance
-     - [ ] Vulnerability management (In the MR and/or in the Security dashboard?)
+
+      - [ ] SAST
+      - [ ] DAST (in pipeline or ondemand?)
+      - [ ] Dependency scanning
+      - [ ] Container scanning
+      - [ ] Secrets detection
+      - [ ] Coverage guided fuzzing
+      - [ ] API fuzzing
+      - [ ] License Compliance
+      - [ ] Vulnerability management (In the MR and/or in the Security dashboard?)
+
 - [ ] Do you export the vulnerabilities found to anywhere else? (like SIEM, Risk Mgmt, another dashboard?)
 
 **Agile Project Management (Agile)**
@@ -207,7 +209,9 @@ Depending on the customers use cases; please select the appropriate questions be
 **Professional Services Questions**
 
 - [ ] Were Professional Services (i.e. Migration, Training/Certification, Implementation, Advisory) offered/provided?
-    - [ ] if yes, notify Bryan May @bryan-may
+
+  - [ ] if yes, notify Bryan May @bryan-may
+
 - [ ] What were the benefits of working with professional services (e.g. accelerate time to value, knowledge transfer from the experts, improving operational efficiency, etc.)?
 - [ ] In what ways did GitLab Professional Service help manage risks during the transition period to being using the GitLab platform?
 - [ ] How did your end users (developers, IT Operations, Security professionals, PMs) learn how to use GitLab?
@@ -250,53 +254,53 @@ Steps:
 Written Case studies are vital to showcasing the success of our customers and display how they overcame the pain and challenges their organizations were facing in their software development lifecycle. This is an opportunity to describe how GitLab helps overcome these pain points and provide value to the organnization. Often these stories require time for proof points and metrics to be established within customer organization.  Here are the steps to creating written case studies.
 
 1. Sales Rep follows process outlined in [Reference Program Process](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#process-for-adding-new-reference-customers) to alert the Customer Reference Manager that customer has agreed to participating in written case study process.
-2. Sales Rep introduces CRM to customer by email. CRM coordinates an introduction call with customer.
-3. CRM meets with customer for intro call to uncover customer story and to label case study issue with applicable value drivers and customer use case. CRM will share applicable [interview questions](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-insight/#common-interview-questions) with customer by email. During this session, CRM will work with customer to determine the best timeframe for interview call. Common time frames are 30 days, 60 days, 90 days or 6 months. CRM distributes the logo permission form to customer to help increase speed of legal approval. CRM will also bring up possibility of Media opportunities for case study.
-4. For the interview call, the CRM leads the discussion. The content creator is on the call to make sure questions are answered to get the case study completed and that they have everything they need to create case study.
-5. CRM gets interview transcribed using rev.com and sends the resulting transcript to customer for redlines/changes and approval to use. CRM to check with customer that legal and communications team is aligned with the process and is approving assets along the way.
-6. Once the transcript is approved for use, CRM puts approved transcript in the customer-identified folder in WIP Case Studes in Google Drive. CRM alerts Customer Content that the transcript is approved and links to it in the case study issue description. The customer transcript is stored in gdrive **only** under the named customer folder (it is not stored in rev.com)
-7. Customer Content drafts case study and alerts CRM when draft is ready for review.
-8. CRM reviews draft for completeness, content and makes sure it acurately refects the customer story. CRM brings in designated use case PMM teammember for additional review (if necessary) and the Alliances/Partner team is alerted to draft by alert in the issue if the CRM deems it necessary. The additional reviewers will be tagged in the issue and also slacked the issue. They will have 3 working days to respond.The Draft is sent to PR team for media opportunity exploration. Draft is sent to content team for a copy edit review.
-9. Customer content uses feedback and creates a clean draft to send to customer. CRM sends draft to customer with Customer content cc'd in the email. This email should be sent as both a link to a google doc as well as a .docx file attached to the email.
-10. Once customer feedback is received, customer content addresses any concerns and CRM reviews and sends final version to customer for approval or continued discussion around draft.
-11. If the marketing approval form hasn't already been received, CRM sends the [marketing approval form](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#customer-logo-permission-form) for the customer to review, sign and return to GitLab.  Customer will also be requested to send a high res logo file (png/svg) to use on our website and marketing materials
-12. CRM will review the PR potential of the reference with the PR team and if they deem it has PR merit, the CRM will propose PR support for the reference to the customer. The CRM will also propose social promotion of the case study [details here](#asking-the-customer-to-partner-with-us-on-social-promotion-of-the-published-case-study)
-13. If customer agrees to media awareness around the case study, introduction to the PR team is co-ordinated by the CRM.
-14. Once customer approves final version and a signed marketing permission form is received, CRM loads the signed form into the SFDC account and either customer content or CRM publishes case study on the /customers page.
-15. CRM and Customer content begin internal promotion process. Raise a Customer Content Activation issue, the CRM is the DRI for this activity.
+1. Sales Rep introduces CRM to customer by email. CRM coordinates an introduction call with customer.
+1. CRM meets with customer for intro call to uncover customer story and to label case study issue with applicable value drivers and customer use case. CRM will share applicable [interview questions](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-insight/#common-interview-questions) with customer by email. During this session, CRM will work with customer to determine the best timeframe for interview call. Common time frames are 30 days, 60 days, 90 days or 6 months. CRM distributes the logo permission form to customer to help increase speed of legal approval. CRM will also bring up possibility of Media opportunities for case study.
+1. For the interview call, the CRM leads the discussion. The content creator is on the call to make sure questions are answered to get the case study completed and that they have everything they need to create case study.
+1. CRM gets interview transcribed using rev.com and sends the resulting transcript to customer for redlines/changes and approval to use. CRM to check with customer that legal and communications team is aligned with the process and is approving assets along the way.
+1. Once the transcript is approved for use, CRM puts approved transcript in the customer-identified folder in WIP Case Studes in Google Drive. CRM alerts Customer Content that the transcript is approved and links to it in the case study issue description. The customer transcript is stored in gdrive **only** under the named customer folder (it is not stored in rev.com)
+1. Customer Content drafts case study and alerts CRM when draft is ready for review.
+1. CRM reviews draft for completeness, content and makes sure it acurately refects the customer story. CRM brings in designated use case PMM teammember for additional review (if necessary) and the Alliances/Partner team is alerted to draft by alert in the issue if the CRM deems it necessary. The additional reviewers will be tagged in the issue and also slacked the issue. They will have 3 working days to respond.The Draft is sent to PR team for media opportunity exploration. Draft is sent to content team for a copy edit review.
+1. Customer content uses feedback and creates a clean draft to send to customer. CRM sends draft to customer with Customer content cc'd in the email. This email should be sent as both a link to a google doc as well as a .docx file attached to the email.
+1. Once customer feedback is received, customer content addresses any concerns and CRM reviews and sends final version to customer for approval or continued discussion around draft.
+1. If the marketing approval form hasn't already been received, CRM sends the [marketing approval form](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/#customer-logo-permission-form) for the customer to review, sign and return to GitLab.  Customer will also be requested to send a high res logo file (png/svg) to use on our website and marketing materials
+1. CRM will review the PR potential of the reference with the PR team and if they deem it has PR merit, the CRM will propose PR support for the reference to the customer. The CRM will also propose social promotion of the case study [details here](#asking-the-customer-to-partner-with-us-on-social-promotion-of-the-published-case-study)
+1. If customer agrees to media awareness around the case study, introduction to the PR team is co-ordinated by the CRM.
+1. Once customer approves final version and a signed marketing permission form is received, CRM loads the signed form into the SFDC account and either customer content or CRM publishes case study on the /customers page.
+1. CRM and Customer content begin internal promotion process. Raise a Customer Content Activation issue, the CRM is the DRI for this activity.
 
 Please note that we can facilitate customer interviews in other languages (FR/DE/IT/ES/JP) if the customer prefers this option
 
 #### Publishing to the website
 
 1. Start by opening a public issue and an Merge Request in the www-gitlab-com project.
-2. Create a `.yml` file in `/data/case_studies` directory under Marketing site repo (www-gitlab-com project). This can be accomplished in the Web IDE.
-3. Keep the name of file same as company name (this is not mandatory but it is easier to manage), for eg; if company name is "Foobar", create a file as `/data/case_studies/foobar.yml`.
-4. Once created, add contents of the file using the sample Case Study template, or by scraping the content from an existing case study, and then update the values of each property based on case study details, remember, do NOT change property names.
-5. Add images to the same MR. This ensures they show up in the preview app. To accomplish this, stay in your MR and on the left rail open the selected file. Upload the file to the specific directory by hovering over the file and selecting upload file. The Cover image needs to be a .jpg and put in 'source/image/blogimage' directory. The company logo needs to be a color .SVG image and is placed in the 'source/image/case_study_logos' directory.
-6. In the Web IDE, you can view generated Case Study page in the generated App under the URL, for eg; http://localhost:4567/customers/foobar.
-7. Once the case study is ready to publish, remove the WIP label from your MR and ask an approved publisher to post.
+1. Create a `.yml` file in `/data/case_studies` directory under Marketing site repo (www-gitlab-com project). This can be accomplished in the Web IDE.
+1. Keep the name of file same as company name (this is not mandatory but it is easier to manage), for eg; if company name is "Foobar", create a file as `/data/case_studies/foobar.yml`.
+1. Once created, add contents of the file using the sample Case Study template, or by scraping the content from an existing case study, and then update the values of each property based on case study details, remember, do NOT change property names.
+1. Add images to the same MR. This ensures they show up in the preview app. To accomplish this, stay in your MR and on the left rail open the selected file. Upload the file to the specific directory by hovering over the file and selecting upload file. The Cover image needs to be a .jpg and put in 'source/image/blogimage' directory. The company logo needs to be a color .SVG image and is placed in the 'source/image/case_study_logos' directory.
+1. In the Web IDE, you can view generated Case Study page in the generated App under the URL, for eg; `http://localhost:4567/customers/foobar`.
+1. Once the case study is ready to publish, remove the WIP label from your MR and ask an approved publisher to post.
 
 #### Adding customer logo and case study to customer's grid
 
 1. When a customer has approved the usage of their logo on our /customers page, we place their approved logo in the grid on the bottom of the page. Confirm that the customer industry categorisation is correct and aligns with their SFDC account.
-2. Open an MR in the www-gitlab-com project.
-3. Add the approved single-tone .svg logo to the /source/images/organizations file.
-4. Once the .svg is live in the organizations file, open the organizations.yml at www-gitlab-com in the /data file
-5. Add new lines in the file to correspond to the exsiting format.
-6. Ensure the asset_type and asset_link are filled in and point to the live case study.
-7. Once the preview app shows a successful addition, remove the WIP label from your MR and ask an approved publisher to post.
+1. Open an MR in the www-gitlab-com project.
+1. Add the approved single-tone .svg logo to the /source/images/organizations file.
+1. Once the .svg is live in the organizations file, open the organizations.yml at www-gitlab-com in the /data file
+1. Add new lines in the file to correspond to the exsiting format.
+1. Ensure the asset_type and asset_link are filled in and point to the live case study.
+1. Once the preview app shows a successful addition, remove the WIP label from your MR and ask an approved publisher to post.
 
 #### Asking the customer to partner with us on social promotion of the published case study
 
 1. Once the customer agrees to social promotion of their case study; the CRM will create an issue [using the Social Media Case Study issue template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/blob/master/.gitlab/issue_templates/social-case-study-promotion.md).
-2. The CRM will request URLs for all of the customers social media pages (in order to tag the company pages),a high-quality resolution logo; one image for bright backgrounds and one image for dark background
-3. Once the customer reverts with the materials; the CRM will update the issue and tag the Social Media Manager.
+1. The CRM will request URLs for all of the customers social media pages (in order to tag the company pages),a high-quality resolution logo; one image for bright backgrounds and one image for dark background
+1. Once the customer reverts with the materials; the CRM will update the issue and tag the Social Media Manager.
 
 #### Localization process for Published Case References
 
 The customer approval form includes permission to localise the reference content into different languages hosted on our website.
 
 1. Please follow the process for translating content for campaigns as detailed [here](/handbook/marketing/localization/#translating-content-for-campaigns)
-2. Please note the [prioritisation](/handbook/marketing/localization/#priority-countries) of content localization as per priority countries
-3. Once the customer case study content is localized by the external vendor; the requestor can raise an internal review [request](/handbook/marketing/localization/#process-for-requesting-a-review)
+1. Please note the [prioritisation](/handbook/marketing/localization/#priority-countries) of content localization as per priority countries
+1. Once the customer case study content is localized by the external vendor; the requestor can raise an internal review [request](/handbook/marketing/localization/#process-for-requesting-a-review)
