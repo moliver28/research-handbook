@@ -57,7 +57,7 @@ For any other offboarding questions, please reach out to People Connect via `peo
 
 ## Involuntary Terminations
 
-**Note:** Involuntary terminations are **only** facilitated by Team Member Relations (TMR) who will initiate the process in Workday. 
+**Note:** Involuntary terminations are **only** facilitated by Team Member Relations (TMR) who will initiate the process in Workday.
 
 Involuntary offboarding of any team member is never easy. We've created guidelines and information to make this process as humane as we can. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance]({{< ref "underperformance" >}}), as well as the [offboarding issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/offboarding.md).
 
