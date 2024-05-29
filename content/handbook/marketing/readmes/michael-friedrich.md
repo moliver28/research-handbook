@@ -60,20 +60,20 @@ I bring my authentic-self to work every day -- can you spot all easter eggs in [
 - Ask questions in [public Slack channels](https://handbook.gitlab.com/handbook/communication/#use-public-channels), so that everyone can contribute.
     - This helps loop in more team members, subject matter experts, and those responsible for specific areas (DRIs).
     - Please avoid direct messages (DMs) unless it's private feedback or confidential information. I'll respond to DMs with lower priority than public requests.
-- I enjoy helping in public, and sometimes work longer hours to assist with incidents or late-night tasks (after 10 AM PT, which is 7 PM CET).
+- I enjoy helping in public, and sometimes work evening hours to assist with incidents or timezone aligned tasks (after 10 AM PT, which is 7 PM CET).
     - If I need to leave during a planned task, I will communicate the sign-off time and provide a handover summary.
 - My calendar invites are editable by guests. Feel free to adjust the time to fit everyone's schedule.
     - My default Zoom URL has a meeting room set up for external guests. If I don't show up in Zoom and let you in, ping me on Slack.
 - If you think a repeating coffee chat or a topic-specific 1:1 would be beneficial for efficient collaboration, propose a new calendar event and include an agenda document.
-- My work hours cover mostly the Americas (AMER) and Europe, the Middle East, and Africa (EMEA) time zones.
-    - Meetings can be scheduled in my afternoon (5 AM to 10 AM PT, 2 PM CET to 7 PM CET). My mornings are reserved for focused work or personal time (shopping, extended lunch).
+- My work hours cover mostly AMER and EMEA time zones.
+    - Meetings can be scheduled in my afternoon (5 AM to 10 AM PT, 2 PM CET to 7 PM CET). My mornings are reserved for focused work or personal time (shopping, extended lunch with friends).
     - Ask when scheduling during my focus time blocks (customer calls, EMEA syncs, etc.).
 - Team members can always schedule a coffee chat with me. I'd love to learn about you, your background, life stories, experiences, and interests.
     - Wider community members can request my Calendly link.
 
 ## Finding me
 
-I go by `dnsmichi` everywhere: Slack, [GitLab.com profile](https://gitlab.com/dnsmichi), [GitLab forum](https://forum.gitlab.com/u/dnsmichi/summary), social media, and my [personal website](https://dnsmichi.at/). However, for email and calendar, you need to find my full name `Michael Friedrich` or the short form `mfriedrich`. I love coffee chats, so please schedule one without asking for permission. :-)
+I go by `dnsmichi` everywhere: [Slack](https://gitlab.enterprise.slack.com/team/UUCF3K61G), [GitLab.com profile](https://gitlab.com/dnsmichi), [GitLab forum](https://forum.gitlab.com/u/dnsmichi/summary), social media, and my [personal website](https://dnsmichi.at/). However, for email and calendar, you need to find my full name `Michael Friedrich` or the short form `mfriedrich`. I love coffee chats, so please schedule one without asking for permission. :-)
 
 I enjoy connecting with team members on [LinkedIn](https://www.linkedin.com/in/dnsmichi/), and amplifying your voice into my network (hiring, product/engineering insights, marketing, etc.). Tips for social media messaging are documented in the [Developer Advocacy on Social Media handbook](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/social-media/). I'm mostly active on social media, but I have push notifications disabled on my mobile. I'm not good at responding to many private messages or connection requests, so using a different channel is more efficient. I uninstall social media apps during vacations to relax and maintain my mental health.
 
