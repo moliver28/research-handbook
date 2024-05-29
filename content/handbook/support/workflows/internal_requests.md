@@ -147,7 +147,7 @@ To be actioned by a Support Stable Counterpart for Pipeline Authoring. These req
 
 1. Open [GraphiQL](https://gitlab.com/-/graphql-explorer) with your GitLab.com administrator account
 1. In the following query, replace `root-level-group` with the namespace provided in the internal request:
-   
+
    ```graphql
    mutation {
      verifiedNamespaceCreate(input: { namespaceId: "root-level-group", 
@@ -157,8 +157,7 @@ To be actioned by a Support Stable Counterpart for Pipeline Authoring. These req
      }
    }
    ```
-   
+
 1. Execute the query via GraphiQL
    - In case of an error, reach out to Pipeline Authoring for assistance
 1. When closing the internal request as actioned on, ping the requester to let them know the badge was applied
-
