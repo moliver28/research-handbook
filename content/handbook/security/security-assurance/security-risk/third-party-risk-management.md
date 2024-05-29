@@ -37,6 +37,10 @@ This procedure applies to all third party providers that access, store, process 
 
 Security is a top priority in GitLab's vendor selection process, and GitLab is committed to partnering with vendors who prioritize the protection of sensitive data and maintain robust security measures. As such, Security Risk thoroughly evaluates each vendor's security practices, including their adherence to industry standards, compliance with relevant regulations, and health of their BitSight security ratings. GitLab's aim is to establish partnerships with vendors who share our commitment to maintaining the highest standards of security to safeguard GitLab's data and uphold the trust of our stakeholders. Below are some examples of how Security Risk evaluates vendors of different types and some recommendations for vetting vendors when making purchasing decisions.
 
+Note: Proof of concept and piloting engagements often require the exchange of sensitive GitLab data and must adhere to the same evaluation of the vendor's security practices
+
+
+
 <details>
 <summary markdown="span">Software as a Service (SaaS)</summary>
 
@@ -48,6 +52,8 @@ When considering new software to address business needs and objectives, see belo
    - Security requires software vendors complete and share an annual independent third party audit of their security controls. Some examples of these are a [SOC 2 or ISO 27001 certification](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#acceptable-third-party-attestations).
  - Does the vendor require an independent third party penetration test of their systems to identify and remediate vulnerabilities and weaknesses?
    - Security requires that vendors conduct annual independent penetration testing on all systems supporting their SaaS solution and attest to the remediation or mitigation of any High or Critical findings.
+
+*Note: Proof of concept and piloting software engagements often require the exchange of sensitive GitLab data and must adhere to the same evaluation of the vendor's security practices for new software requests. Security Risk recommends minimizing or anonymizing sensitive GitLab data if possible, and ensuring contract language defines expectations and requirements around data security, [privacy considerations](https://handbook.gitlab.com/handbook/legal/privacy/), and [deletion of data](https://handbook.gitlab.com/handbook/finance/procurement/vendor-guidelines/vendor-agreement/#7-termination) after the PoC or pilot is complete.*
 
 </details>
 
