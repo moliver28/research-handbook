@@ -22,10 +22,12 @@ Conferences are a great tool for professional development, they provide networki
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. They're a great opportunity to learn from industry experts on DevOps, Cloud, and other topics directly relevant to GitLab's business. If you're curious about KubeCon events, there's plenty to read about them. Here's a [blog post](https://www.kristhecodingunicorn.com/post/kubecon-cloudnativecon-eu-2023-takeaways/) for starters with an overview and some tips on attending. | Worldwide |
-| AWS re:Invent | AWS re:Invent is a learning conference hosted by AWS for the global cloud-computing community. The in-person event features keynote announcements, training and certification opportunities, 2,000+ technical sessions, the Expo, after-hours events, and so much more. | Las Vegas, NV |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. They're a great opportunity to learn from industry experts on DevOps, Cloud, and other topics directly relevant to GitLab's business. If you're curious about KubeCon events, there's plenty to read about them. Here's a [blog post](https://www.kristhecodingunicorn.com/post/kubecon-cloudnativecon-eu-2023-takeaways/) for starters with an overview and some tips on attending. | Worldwide - conferences in AMER, EMEA, & APAC |
+| AWS re:Invent | AWS re:Invent is a huge learning conference hosted by AWS for the global cloud-computing community. The in-person event features keynote announcements, training and certification opportunities, 2,000+ technical sessions, the Expo, after-hours events, and more. It's relevant to anyone interested in the latest technology advancements on AWS and capitalize on transformative innovations, like generative AI, analytics, and cloud operations. GitLab has often [exhibited their previously.](https://about.gitlab.com/blog/2023/11/22/gitlab-at-aws-re-invent-2023/) | Las Vegas, NV |
 | Ruby Conferences | Why attend Ruby Conferences? | Global |
 | Web Directions Summit | Why attend Web Directions Summit? | APAC |
+
+Open a Growth & Development issue for a conference application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)
 
 
 </details>
@@ -35,7 +37,10 @@ Conferences are a great tool for professional development, they provide networki
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| DefCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+| DefCon | Our security department has a history of meeting yearly at this conference.  | Las Vegas, NV |
+| Black Hat | Our security department has a history of meeting yearly at this conference.  | Worldwide |
+
+Open a Growth & Development issue for a conference application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)
 
 </details>
 
@@ -44,8 +49,10 @@ Conferences are a great tool for professional development, they provide networki
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| AWS re:Invent | AWS re:Invent is a learning conference hosted by AWS for the global cloud-computing community. The in-person event features keynote announcements, training and certification opportunities, 2,000+ technical sessions, the Expo, after-hours events, and so much more. | Las Vegas, NV |
-| Gainsight Pulse Europe | Gainsight conference, why? | Europe |
+| AWS re:Invent |AWS re:Invent is a huge learning conference hosted by AWS for the global cloud-computing community. The in-person event features keynote announcements, training and certification opportunities, 2,000+ technical sessions, the Expo, after-hours events, and more. GitLab usually has a booth at the event, so it can be a great opportunity to meet and spend time with existing and prospective customers, and improve understanding of the technology Landscpe GitLab is in. | Las Vegas, NV |
+| Gainsight Pulse Europe | Gainsight conference, why? | EMEA & AMER |
+
+Open a Growth & Development issue for a conference application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)
 
 </details>
 
@@ -56,6 +63,8 @@ Conferences are a great tool for professional development, they provide networki
 |----------------|-------------------------| ------- |
 | Product Conference 1 | Why attend product conference 1? | London, GB, & other smaller events globally |
 
+Open a Growth & Development issue for a conference application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)
+
 </details>
 
 <details>
@@ -65,23 +74,7 @@ Conferences are a great tool for professional development, they provide networki
 |----------------|-------------------------| ------- | ------- |
 | The Alliance Conferences | The Alliance has a range of brands, each of which offers live events on it's particular specialism - Product Marketing, Customer Marketing, AI Accelerator, and more. Team members have previously attended events with the Customer Marketing Alliance and would strongly recommend them to others in the Marketing org. | AMER & Virtual | All |
 
-</details>
-
-<details>
-<summary>Finance</summary>
-
-| **Conference** | **Why attend?** | **Location** |
-|----------------|-------------------------| ------- |
-| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
-
-</details>
-
-<details>
-<summary>People</summary>
-
-| **Conference** | **Why attend?** | **Location** |
-|----------------|-------------------------| ------- |
-| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+Open a Growth & Development issue for a conference application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-conference)
 
 </details>
 
@@ -94,9 +87,11 @@ Conferences are a great tool for professional development, they provide networki
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+| MIT Professional |  | Virtual |
 
 </details>
+
+Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
 
 <details>
 <summary>Security</summary>
@@ -107,15 +102,22 @@ Conferences are a great tool for professional development, they provide networki
 
 </details>
 
+Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
+
+
 <details>
 <summary>Sales</summary>
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
 | Certified Customer Success Manager | Why? | Virtual |
+| MasterClass - Kelly Course | Why? | Virtual |
 
 
 </details>
+
+Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
+
 
 <details>
 <summary>Product</summary>
@@ -123,32 +125,19 @@ Conferences are a great tool for professional development, they provide networki
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
 | Reforge | Reforge membership | Virtual |
+| [UX Research one](https://maven.com/twocents/research-to-impact) | recommended | Virtual |
 
 </details>
+
+Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
 
 <details>
 <summary>Marketing</summary>
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| What | Denise opportunities list | Virtual |
+| LinkedIn Learning courses | Denise opportunities list | Virtual |
 
 </details>
 
-<details>
-<summary>Finance</summary>
-
-| **Conference** | **Why attend?** | **Location** |
-|----------------|-------------------------| ------- |
-| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
-
-</details>
-
-<details>
-<summary>People</summary>
-
-| **Conference** | **Why attend?** | **Location** |
-|----------------|-------------------------| ------- |
-| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
-
-</details>
+Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
