@@ -227,7 +227,7 @@ Below are the two types of code blocks we commonly use on the blog. Find a numbe
 
 #### Inline code
 
-We use this for short words or phrases included in a paragraph. For inline code, surround the word or code with single backticks (`).
+We use this for short words or phrases included in a paragraph. For inline code, surround the word or code with single backticks (`` ` ``).
 
 **Example:**
 

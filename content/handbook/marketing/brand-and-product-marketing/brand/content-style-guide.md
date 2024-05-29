@@ -59,7 +59,7 @@ These guidelines will help you incorporate the GitLab brand voice into your writ
 - Ensure your recommendations are accurate, provable, and helpful for your audience.
 
 **Examples:**
->
+
 > - Blog: [GitLab’s 2023 predictions: What’s next for DevSecOps?](https://about.gitlab.com/blog/2023/01/26/whats-next-for-devsecops/)
 > - Blog: [What the ML is up with DevSecOps and AI?](https://about.gitlab.com/blog/2023/03/16/what-the-ml-ai/)
 > - Blog: [Building GitLab with GitLab: How GitLab.com inspired Dedicated](https://about.gitlab.com/blog/2023/08/03/building-gitlab-with-gitlabcom-how-gitlab-inspired-dedicated/)
