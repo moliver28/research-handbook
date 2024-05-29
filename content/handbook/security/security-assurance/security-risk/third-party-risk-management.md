@@ -37,10 +37,6 @@ This procedure applies to all third party providers that access, store, process 
 
 Security is a top priority in GitLab's vendor selection process, and GitLab is committed to partnering with vendors who prioritize the protection of sensitive data and maintain robust security measures. As such, Security Risk thoroughly evaluates each vendor's security practices, including their adherence to industry standards, compliance with relevant regulations, and health of their BitSight security ratings. GitLab's aim is to establish partnerships with vendors who share our commitment to maintaining the highest standards of security to safeguard GitLab's data and uphold the trust of our stakeholders. Below are some examples of how Security Risk evaluates vendors of different types and some recommendations for vetting vendors when making purchasing decisions.
 
-Note: Proof of concept and piloting engagements often require the exchange of sensitive GitLab data and must adhere to the same evaluation of the vendor's security practices
-
-
-
 <details>
 <summary markdown="span">Software as a Service (SaaS)</summary>
 
