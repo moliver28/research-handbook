@@ -360,23 +360,16 @@ For questions about the new team member's laptop, ping [<i class="fa-brands fa-s
 When team members depart GitLab, People Connect will create an offboarding issue. The CES team is responsible for completing tasks under the `@gitlab-com/gl-ces` section. Please note that offboarding issues are time sensitive and should be completed by the due date set on the issue. Completion of these tasks also ensure GitLab remains compliant.
 
 1. Go to [Employment Issues](https://gitlab.com/gitlab-com/team-member-epics/employment/-/issues) where the offboarding issues can be found. In the search bar, filter issues by the "CES: To Do" label and work on the issues by due date. Once you open up an offboarding issue, navigate to the `@gitlab-com/gl-ces` section and complete the following steps.
-1. Open Google calendar, select the "Interview Calendar", and type in the team member's name in the search bar at the top. Ensure the team member offboarding isn't in any active interviews. If applicable, post in the ces-team slack channel the departing team member's name and list the interviews they are currently scheduled for. Advise the CES team member to work with their recruiters to review any other interview plans and update accordingly.
+1. Open Google calendar, select the "Interview Calendar", and type in the team member's name in the search bar at the top. Ensure the team member offboarding isn't in any active interviews. If the team member appears in an active interview,advise the respective CES team member to work with their recruiters to replace the interviewer. Also request the recruiters to review any other interview plans, hiring repo (backend and frontend technical interviewer pool) and update them accordingly. 
 Any interviews that have been grayed out on the calendar, have passed already.
-1. Check any interview plans and reqs that the team member might be on by searching the team member's name under `Users` in Greenhouse. When searching the team member's name, select the profile with the team member's GitLab email address; this will navigate to their Greenhouse profile settings.
+1. Check for reqs that the team member might be on by searching the team member's name under `Users` in Greenhouse. When searching the team member's name, select the profile with the team member's GitLab email address; this will navigate to their Greenhouse profile settings.
 
-    Under "Permissions" check what the team member's permission level is. If permissions are anything other than "Job Admin: Hiring Manager" (i.e. "Basic" or "Job Approver") you can skip to step 4.
-
-    If the permission is listed as "Job Admin: Hiring Manager", check if the job req title has "Closed", "Draft", or "Template" in it. If so,you can skip to step 4.
-
-    Please note you may encounter a "Job Admin: Hiring Manager" who has both "closed" and active job reqs. If there are active job reqs you must take the following steps:
+    If you encounter a team member's name listed as "Job Admin: Hiring Manager" with Open job reqs, please following steps:
 
     - Copy and paste the job req title into a new Greenhouse window and search
     - Select the correct job req by ensuring the req#s match (i.e. 7458)
     - Select Job Set up and navigate to the Hiring Team section
     - Please ensure that the hiring manager position has been filled by another team member. If the hiring manager section is empty or still shows the team member who is offboarding, reach out to the CES coordinator listed and advise the CES team member to work with the recruiter to find a replacement hiring manager & update interview plans.
-1. If the team member offboarding is listed under an [Engineering department](https://docs.google.com/spreadsheets/d/13P3eBebTceAF6v1aPxFm3Q7VCqLGOn1i/edit#gid=590568882) (highlighted in yellow), you will need to search the [hiring repo](https://gitlab.com/gitlab-com/people-group/hiring-processes/-/tree/master/Engineering) and update (if applicable). This usually pertains to any team members who were a part of interviewer pools (e.g Ruby on Rails, Frontend technical, Backend and etc.) Please note that only the backend and frontend hiring repos list technical interviewers.
-    - While in the Engineering hiring repos, select Backend / Interviewers.md / search the team member's name using their gitlab username (i.e Eric Johnson = ejohnson). If they do not show up, there is no further action needed.
-    - Next, navigate back the Engineering hiring repo and select Frontend / 3- Technical Interview / Interviewers.md / search the team member's name using their first and last names. If they are not listed, there is no further action needed.
+   No action is required if the offboarding team member is listed as “Job Admin: Hiring Manager”, for a req title which is “Closed”, “Draft”, or “Template” in it.
 
-    If the team member is listed in any of the engineering hiring repos, remove their name from the hiring repo and submit changes through a merge request e.g "Removed John Doe from list of ruby on rails technical interviewers".
 1. Once all steps have been completed, navigate to the right hand side of the offboarding issue, remove the "CES: To Do" label, disable notifications, and leave a comment/ notify "Recruiting Ops". (e.g @ destinyreyes ces tasks done)
