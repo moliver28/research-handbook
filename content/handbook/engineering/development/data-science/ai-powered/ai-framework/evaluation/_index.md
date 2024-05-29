@@ -4,7 +4,7 @@ description: "The AI Framework group is focused on how to support other product 
 aliases: /handbook/engineering/development/data-science/ai-framework
 ---
 
-# Step-by-Step Guide for Conducting Evaluations using LangSmith
+# Step-by-Step Guide for Conducting Evaluations using LangSmith at GitLab - ELI5 Evals
 
 This guide is designed to help Backend and Frontend developers at GitLab conduct evaluations using LangSmith, even if you are not familiar with Python. The process is broken down into easy-to-follow steps with detailed explanations, examples, and links for further context.
 
@@ -122,11 +122,11 @@ Once your dataset is uploaded to LangSmith, you can reference it in your evaluat
 
 ### How to decide how to create a dataset
 
-...TDOD
+Please reach out to the `#g_model_validation` team for advice on how to create a dataset for your evaluation needs if you cannot find one in our [current list](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/-/epics/6#data-sets--use-cases).
 
 ### Current list of datasets
 
-...TODO
+You can find the current list of ongoing datasets [here](https://gitlab.com/groups/gitlab-org/modelops/ai-model-validation-and-research/-/epics/6#data-sets--use-cases). If the dataset you need is not already in the LangSmith Project, please upload it to use it.
 
 ## Step 3: Create a Basic Evaluation Script
 
