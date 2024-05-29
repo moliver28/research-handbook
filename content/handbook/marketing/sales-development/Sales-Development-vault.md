@@ -157,7 +157,7 @@ To make sure that the hand-offs maximize internal efficiencies, it is required t
 ### 1. BDR Qualified Meeting
 
 - Are leads that have been qualified by the BDR over a Discovery call.
-- CoM principles have been applied to the call and some of the Before/After Scenarios, Positive Business Outcomes, Requirements and Metrics have been identified and agreed upon between the prospect and the BDR.
+- [CoM principles](https://docs.google.com/document/d/1m5YBOCc--M1Iq5-SEEd2OUWDjYyc6VJ3xTsDEEqisUQ/edit) have been applied to the call and some of the Before/After Scenarios, Positive Business Outcomes, Requirements and Metrics have been identified and agreed upon between the prospect and the BDR.
 - There is a clear need or intent identified from the side of the company, and the prospect has clearly articulated a path to the ultimate decision-maker, as per the guidelines for outbound SAO criteria.
 
 
