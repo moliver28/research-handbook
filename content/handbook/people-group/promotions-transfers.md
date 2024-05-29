@@ -364,7 +364,7 @@ Promotion candidates should follow these steps to request feedback as part of ou
     **Feedback will be ongoing from 2024-06-10 through 2024-06-21. All feedback needs to be obtained by 2024-06-21.**
 6. Team member and manager analyze feedback
     - Team member shares the feedback obtained with their manager and they discuss and analyze themes and trends
-    - Team member and manager compile themes to share with CISO direct. It is recommended to leverage [this template](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit) for theme compilation and analysis to ensure consistency. Analysis should focus on key themes and feedback provided in the Google Form.
+    - Team member and manager compile themes to share with CISO direct. Leverage [this template](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit) for theme compilation and analysis to ensure consistency. Analysis should focus on key themes and feedback provided in the Google Form.
     - CISO direct has the opportunity to review, provide feedback, and ask any clarifying questions to ensure they are able to represent the feedback in the CISO directs [calibration session](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#calibration).
     - **Due date: 2024-06-28**
 7. CISO direct adds feedback summary to calibration agenda
