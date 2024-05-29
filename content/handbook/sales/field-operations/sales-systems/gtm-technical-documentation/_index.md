@@ -4,11 +4,6 @@ title: "Go-To-Market Technical Documentation"
 description: "This page is the key GitLab Handbook page for all the technical documentation relating to the main projects and automations that the sales systems has worked on, developed and deployed. It includes a high level business overview as well as technical details revolving around each project's technical lift."
 ---
 
-
-
-
-
-
 ## How to use this documentation
 
 The documentation below is organized by feature.  Each section will have links to the appropriate business process page, the relevant inputs and outputs for the feature, as well as references to the specific logic that processes the input and outputs.
@@ -188,21 +183,21 @@ We have two Approval Processes for Zuora Quotes, the first for undiscounted, and
 The Quote must be submitted using the "Submit for Approval" button on the page layout to enter the correct Approval Process.
 
 - Undiscounted Approval Process
-   - If the Quote's Approval Stage is "Approvals Not Required" or null, the Approval Stage is updated to "In Review" and the Owner of the Quote is emailed confirming submission for approval. Then, if there are any Special Terms and Notes or has been flagged as Requires Deal Desk Review, a member of the Deal Desk team must approve. If neither of those are true, the deal auto-approves. Upon approval, the Owner of the Quote is emailed to inform them of the approval and the Approval Stage is updated to "Approved". If the Quote is rejected, the Approval Stage is set to "Rejected" and the Owner is emailed informing them.
+  - If the Quote's Approval Stage is "Approvals Not Required" or null, the Approval Stage is updated to "In Review" and the Owner of the Quote is emailed confirming submission for approval. Then, if there are any Special Terms and Notes or has been flagged as Requires Deal Desk Review, a member of the Deal Desk team must approve. If neither of those are true, the deal auto-approves. Upon approval, the Owner of the Quote is emailed to inform them of the approval and the Approval Stage is updated to "Approved". If the Quote is rejected, the Approval Stage is set to "Rejected" and the Owner is emailed informing them.
 - Discounted Approval Process
-   - If the Quote's Approval Stage is "Approvals Required" or "Rejected", the Approval Stage is updated to "In Review" and the Owner of the Quote is emailed confirming the submission for approval. Then, based on the "Required_Approvals" fields, the Quote waits for approval by the people in that step. Once all approvals are acquired, the Approval Stage is set to "Approved" and the Owner of the Quote is emailed. If any approval step is rejected, the Approval Stage is set to "Rejected" and the Owner is emailed as well.
+  - If the Quote's Approval Stage is "Approvals Required" or "Rejected", the Approval Stage is updated to "In Review" and the Owner of the Quote is emailed confirming the submission for approval. Then, based on the "Required_Approvals" fields, the Quote waits for approval by the people in that step. Once all approvals are acquired, the Approval Stage is set to "Approved" and the Owner of the Quote is emailed. If any approval step is rejected, the Approval Stage is set to "Rejected" and the Owner is emailed as well.
 
 **Logic Locations:**
 
 - [ZuoraQuoteClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/ZuoraQuoteClass.cls)
 Code Unit:
-   - stampManagerStack
+  - stampManagerStack
 - [ZuoraQuoteClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/ZuoraQuoteClass.cls)
 Code Unit:
-   - quoteApprovals
+  - quoteApprovals
 - [Salesforce Approval Process Setup](https://gitlab.lightning.force.com/lightning/setup/ApprovalProcesses/home)
 Manage Approval Process For:
-   - Quote (Installed Package: Zuora Quotes)
+  - Quote (Installed Package: Zuora Quotes)
 
 ## Salesforce Chatter to Cases
 
@@ -269,11 +264,11 @@ Code Units:
 **Logic Locations**
 
 - Custom Buttons:
-   - [In Setup, under Opportunity, "Buttons, Links, and Actions", Legal Request](https://gitlab.my.salesforce.com/00b4M000001ZNps)
+  - [In Setup, under Opportunity, "Buttons, Links, and Actions", Legal Request](https://gitlab.my.salesforce.com/00b4M000001ZNps)
 - Visualforce Pages:
-   - [LegalCaseCreate.page](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/pages/LegalCaseCreate.page)
+  - [LegalCaseCreate.page](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/pages/LegalCaseCreate.page)
 - Apex Classes:
-   - [LegalCaseCreateController.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/LegalCaseCreateController.cls)
+  - [LegalCaseCreateController.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/LegalCaseCreateController.cls)
 
 ## Primary Quote System
 
@@ -285,7 +280,7 @@ Code Units:
 
 - [ZuoraQuoteClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/ZuoraQuoteClass.cls)
 Code Unit:
-   - primaryCheck
+  - primaryCheck
 
 ## Opportunity Stage Progression Tracking
 
@@ -320,8 +315,8 @@ Code Unit:
 **Logic Locations:**
 
 - Code Units:
-   - ProtectClosedOppOwnersBefore
-   - ProtectClosedOppOwnersAfter
+  - ProtectClosedOppOwnersBefore
+  - ProtectClosedOppOwnersAfter
 - Triggers
   - [AccountTrigger.trigger](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/triggers/AccountTrigger.trigger)
 - Clases
@@ -371,7 +366,7 @@ Code Units:
 **Logic Locations:** [LeadClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/LeadClass.cls)
 Code Unit:
 
-  - determineSegment
+- determineSegment
 
 ## Force Management / Command of The Message / Command Plan
 
@@ -394,19 +389,19 @@ Please see our internal [document](https://docs.google.com/document/d/1UaKPTQePA
 
 **Overview:** The following sections of code control the process by which Mavenlink projects in Salesforce are created, which in turn are then pushed over to Mavenlink by leveraging an extension class that was provided by Mavenlink. Currently a Mavenlink Project is created when one of the following scenarios is met
 
-  - A primary quote is created, that has a flagged Quote Rate Plan Charge on it (Mavenlink flag), where its associated opportunity is in stage 5 or later and their is not already an existing Mavenlink project for the related Opportunity
-  - A Opportunity is moved into stage 5 or later, and it's primary quote has a flagged Quote Rate Plan Charge on it (Mavenlink flag) and their is not already an existing Mavenlink project for the related Opportunity
-  - In the above two cases if there is an associated Mavenlink project the project is updated with the new updated information that has been changed
+- A primary quote is created, that has a flagged Quote Rate Plan Charge on it (Mavenlink flag), where its associated opportunity is in stage 5 or later and their is not already an existing Mavenlink project for the related Opportunity
+- A Opportunity is moved into stage 5 or later, and it's primary quote has a flagged Quote Rate Plan Charge on it (Mavenlink flag) and their is not already an existing Mavenlink project for the related Opportunity
+- In the above two cases if there is an associated Mavenlink project the project is updated with the new updated information that has been changed
 
 **Logic Locations:**
 
-  - [OpportunityClass.CreateAndMaintainMavenLinkProject](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls#L176)
-  - [QuoteRatePlanChargeClass.CreateAndMaintainMavenLinkProject](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/QuoteRatePlanChargeClass.cls#L3)
-  - [MavenlinkProjectClass.upsertMavenLinkProject](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/MavenlinkProjectClass.cls)
-  - [GitlabMavenlinkExtension.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/GitlabMavenlinkExtension.cls)
-  - [OpportunityClassTests.CreateAndMaintainMavenLinkProject](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClassTests.cls#L227)
-  - [QuoteRatePlanChargeClassTest.CreateAndMaintainMavenLinkProject](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/QuoteRatePlanChargeClassTest.cls#L3)
-  - [GitlabMavenlinkExtensionTest.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/GitlabMavenlinkExtensionTest.cls)
+- [OpportunityClass.CreateAndMaintainMavenLinkProject](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls#L176)
+- [QuoteRatePlanChargeClass.CreateAndMaintainMavenLinkProject](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/QuoteRatePlanChargeClass.cls#L3)
+- [MavenlinkProjectClass.upsertMavenLinkProject](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/MavenlinkProjectClass.cls)
+- [GitlabMavenlinkExtension.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/GitlabMavenlinkExtension.cls)
+- [OpportunityClassTests.CreateAndMaintainMavenLinkProject](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClassTests.cls#L227)
+- [QuoteRatePlanChargeClassTest.CreateAndMaintainMavenLinkProject](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/QuoteRatePlanChargeClassTest.cls#L3)
+- [GitlabMavenlinkExtensionTest.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/GitlabMavenlinkExtensionTest.cls)
 
 ## Opportunity Splits
 
@@ -414,44 +409,44 @@ Please see our internal [document](https://docs.google.com/document/d/1UaKPTQePA
 
 **Overview:**
 
-  - **Split Creation and Automation**
-  - Below we'll see some key points as they pertain to Opportunity splits and below that we attempt to summarize the automation by end user story.
-  - Split for any Opportunity can only be created by an individual on one of the teams Below. To clarify the current permission does not aim to say who should be creating opportunity splits but rather who can create them based on our current permission set assignments.
-        - Compensation Team
-        - Deal Desk
-        - Sales Ops
-        - System Admins
-  - `Account Executives` / `Opportunity Owner`
-     - All of these splits should only ever appear in ``Opportunity - Incremental ACV 2`` split type
-     - When the Opportunity Owner is updated, the splits for the Opportunity Owner are updated.
-     - If a split is needed for the Owner the split needs to be created manually by an approved user
-  - `Sales Development Representatives` / `Primary Solutions Architect` / `Channel Manager`: Base split automation rules
-     - When the corresponding lookup field on the Opportunity is populated (created or updated) a split for 100% is created for the user in the lookup field and added to the opportunity
-     - The population of the above lookup fields follow the same rules and processes as they have before the rollout of this automation
-     - If a lookup field is changed from User A to User B then ALL splits for that User Role on the Opportunity are deleted and a split for 100% is assigned to User B
-     - If a lookup field is changed from a User to Null/Empty then ALL splits for that User Role on the Opportunity are deleted, and there will be not splits for that Team Role on the Opportunity
-     - If a split is needed for any of these roles the split needs to be created manually by an approved user
-  - `Customer Success Manager` Special Use Cases
-     - This is handeled through the CSM Stamping process for some teams and are aligned with the SA Team for other CSM Teams. Splits aren't relevant for Customer Success Managers and Compensation. Please see [CSM Team Stamping](#csm-team-stamping) on this page for more details
-  - `Channel Manager` Special Use Cases
-     - This is handeled through several matrixes that either stamp channel managers on the Opportunity and difffernt opportunity splits depending on a nuber of layers of criteria.
-     More detail coming soon to the handbook. Refernce this [Epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/87) and related Issues in the meantime
+- **Split Creation and Automation**
+- Below we'll see some key points as they pertain to Opportunity splits and below that we attempt to summarize the automation by end user story.
+- Split for any Opportunity can only be created by an individual on one of the teams Below. To clarify the current permission does not aim to say who should be creating opportunity splits but rather who can create them based on our current permission set assignments.
+      - Compensation Team
+      - Deal Desk
+      - Sales Ops
+      - System Admins
+- `Account Executives` / `Opportunity Owner`
+  - All of these splits should only ever appear in ``Opportunity - Incremental ACV 2`` split type
+  - When the Opportunity Owner is updated, the splits for the Opportunity Owner are updated.
+  - If a split is needed for the Owner the split needs to be created manually by an approved user
+- `Sales Development Representatives` / `Primary Solutions Architect` / `Channel Manager`: Base split automation rules
+  - When the corresponding lookup field on the Opportunity is populated (created or updated) a split for 100% is created for the user in the lookup field and added to the opportunity
+  - The population of the above lookup fields follow the same rules and processes as they have before the rollout of this automation
+  - If a lookup field is changed from User A to User B then ALL splits for that User Role on the Opportunity are deleted and a split for 100% is assigned to User B
+  - If a lookup field is changed from a User to Null/Empty then ALL splits for that User Role on the Opportunity are deleted, and there will be not splits for that Team Role on the Opportunity
+  - If a split is needed for any of these roles the split needs to be created manually by an approved user
+- `Customer Success Manager` Special Use Cases
+  - This is handeled through the CSM Stamping process for some teams and are aligned with the SA Team for other CSM Teams. Splits aren't relevant for Customer Success Managers and Compensation. Please see [CSM Team Stamping](#csm-team-stamping) on this page for more details
+- `Channel Manager` Special Use Cases
+  - This is handeled through several matrixes that either stamp channel managers on the Opportunity and difffernt opportunity splits depending on a nuber of layers of criteria.
+   More detail coming soon to the handbook. Refernce this [Epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/87) and related Issues in the meantime
 
 **Split Validation**
 
-  - `OpportunityClass.checkAndConfirmSplitPercentages`
-     - When an Opportunity has its stage changed there is a validation run against the splits on the opportunity. The validation aims to ensure that all splits on the Opportunity when grouped by Role add up to 100%. If the splits do not add up to 100% an error is thrown and the splits must be updated prior to moving the opportunity forward
-     - For the purposes of this validation the Team Roles of `Opportunity Owner`, `Account Executive`, `null/Empty` are assumed to be the same role and are summed accordingly.
-  - Validation Rules
-     - For individual end users to avoid having their splits erased - see the general automation notes for more details - a number of validation rules have been created. These validation rule prevent the Opportunity Owner from ever being the same user as either the `Sales Development Representatives`, `Primary Solutions Architect`.
-        - `Channel Managers` are not included in this Validation rule because they are not paid until after the close, the validation rule would conflict with existing automations and because it is expected that Channel Managers will never have a split Opportunity.
+- `OpportunityClass.checkAndConfirmSplitPercentages`
+  - When an Opportunity has its stage changed there is a validation run against the splits on the opportunity. The validation aims to ensure that all splits on the Opportunity when grouped by Role add up to 100%. If the splits do not add up to 100% an error is thrown and the splits must be updated prior to moving the opportunity forward
+  - For the purposes of this validation the Team Roles of `Opportunity Owner`, `Account Executive`, `null/Empty` are assumed to be the same role and are summed accordingly.
+- Validation Rules
+  - For individual end users to avoid having their splits erased - see the general automation notes for more details - a number of validation rules have been created. These validation rule prevent the Opportunity Owner from ever being the same user as either the `Sales Development Representatives`, `Primary Solutions Architect`.
+    - `Channel Managers` are not included in this Validation rule because they are not paid until after the close, the validation rule would conflict with existing automations and because it is expected that Channel Managers will never have a split Opportunity.
 
 **Logic Locations:**
 
-  - [OpportunityClass.maintainTamTeamLookup](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls#L315)
-  - [OpportunityClass.maintainTeamMembersToSplits](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls#L399)
-  - [OpportunityClass.checkAndConfirmSplitPercentages](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls#L337)
-  - Please also see the [OpportunityClass.singleWonOppSplitOwnerUpdate](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls#L126) where split are also handled but not directly in alignment with the needs for this process
+- [OpportunityClass.maintainTamTeamLookup](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls#L315)
+- [OpportunityClass.maintainTeamMembersToSplits](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls#L399)
+- [OpportunityClass.checkAndConfirmSplitPercentages](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls#L337)
+- Please also see the [OpportunityClass.singleWonOppSplitOwnerUpdate](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls#L126) where split are also handled but not directly in alignment with the needs for this process
 
 **General Automation Notes**
 
@@ -487,10 +482,10 @@ Note: Because this process uses a checkbox field, it is also possible to trigger
 
 **Logic Locations:**
 
-  - [OpportunityClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls)
+- [OpportunityClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls)
 Code Unit:
-     - CreateRefundOpp
-  - Create Refund Opportunity Button
+  - CreateRefundOpp
+- Create Refund Opportunity Button
 
 ## Link Credit Opportunities and Contract Reset Opportunities
 
@@ -498,8 +493,8 @@ Code Unit:
 
 **Relevant fields**
 
- - Opportunity.Contract_Reset_Opportunity__c
- - Opportunity.Total_Net_ARR_Credit__c
+- Opportunity.Contract_Reset_Opportunity__c
+- Opportunity.Total_Net_ARR_Credit__c
 
 **Overview:**
 
@@ -511,8 +506,8 @@ Code Unit:
 
 **Logic Locations:**
 
-  - OpportunityClass.LinkCreditOppsToContractResetOpps
-  - OpportunityClassTests.LinkCreditOppsToContractResetOpps
+- OpportunityClass.LinkCreditOppsToContractResetOpps
+- OpportunityClassTests.LinkCreditOppsToContractResetOpps
 
 ## SQS [ Sales Qualified Source] Override
 
@@ -536,11 +531,11 @@ Once this is complete, a validation rule will prohibit anyone other than the abo
 
 **Overview:**
 
-  - Currently the process that stamps Channel Managers on on Opportunity records is being updated more details are coming soon
+- Currently the process that stamps Channel Managers on on Opportunity records is being updated more details are coming soon
 
 **Logic Locations:**
 
-  - Coming soon!
+- Coming soon!
 
 ## SA Team Stamping
 
@@ -553,17 +548,17 @@ Please see our internal [document](https://docs.google.com/document/d/1UaKPTQePA
 **Relevant fields**
 
 - User Object:
-   - `[Comp] CSM Team` (`TAM_Team__c`)
+  - `[Comp] CSM Team` (`TAM_Team__c`)
 - Account Object:
-   - `Customer Success Manager` (`Technical_Account_Manager_LU__c`)
+  - `Customer Success Manager` (`Technical_Account_Manager_LU__c`)
 - Opportunity Object:
-   - `[Comp] CSM Team` (`Comp_TAM_Team__c`)
+  - `[Comp] CSM Team` (`Comp_TAM_Team__c`)
 
 **Overview:**
 
 - On Opportunity creation and closure the CSM Team of the user in the Customer Success Manager on the Opportunities related account is stamped onto the Opportunity in either of the following cases
-   - If the CSM Team of the user in the lookup field is `Scale`
-   - If the Order Type on the Opportunity is one of the following: `2. New - Connected`, `3. Growth`, `4. Contraction`, `5. Churn - Partial`, `6. Churn - Final`
+  - If the CSM Team of the user in the lookup field is `Scale`
+  - If the Order Type on the Opportunity is one of the following: `2. New - Connected`, `3. Growth`, `4. Contraction`, `5. Churn - Partial`, `6. Churn - Final`
 
 **Logic Locations:**
 
@@ -579,19 +574,19 @@ Please see our internal [document](https://docs.google.com/document/d/1UaKPTQePA
 
 There will be Salesforce validation checks at stages 4+ to ensure at least one `gitlab admin` has been identified to support the account via Digital Programs. At Stages 4+ and deal close and if the criteria below is met, there are two potential results:
 
-  1. There is already a GitLab Admin defined on the Account.
-     - Result: The submission continues to the normal screen for advancing stages or  Closed Won Reason requirements for approvals.
-  2. There is not a GitLab Admin defined on the Account
-     - Result: An error screen will display instructing the user to define a GitLab Admin. Once the GitLab Admin is defined, they can re-submit the Opportunity to advance the stage or closed-won for approval.
+1. There is already a GitLab Admin defined on the Account.
+   - Result: The submission continues to the normal screen for advancing stages or  Closed Won Reason requirements for approvals.
+1. There is not a GitLab Admin defined on the Account
+   - Result: An error screen will display instructing the user to define a GitLab Admin. Once the GitLab Admin is defined, they can re-submit the Opportunity to advance the stage or closed-won for approval.
 
   **Criteria to enter this logic:**
 
-  - `Web Portal Purchase` is Unchecked (false value)
-  - `Order Type 2.0` is 1. New - First Order OR 2. New - Connected OR 3. Growth OR 4. Contraction
+- `Web Portal Purchase` is Unchecked (false value)
+- `Order Type 2.0` is 1. New - First Order OR 2. New - Connected OR 3. Growth OR 4. Contraction
 
 **Logic Locations:**
 
-  - Flow: [Opp Approval Field Check 3.0 GitLab Admin Check](https://gitlab.lightning.force.com/lightning/setup/Flows/page?address=%2F3004M000000brYQQAY%3FretUrl%3D%2Flightning%2Fsetup%2FFlows%2Fhome)
+- Flow: [Opp Approval Field Check 3.0 GitLab Admin Check](https://gitlab.lightning.force.com/lightning/setup/Flows/page?address=%2F3004M000000brYQQAY%3FretUrl%3D%2Flightning%2Fsetup%2FFlows%2Fhome)
 
 ## Downgrade Reason Required
 
@@ -605,8 +600,8 @@ Please see our internal [document](https://docs.google.com/document/d/1UaKPTQePA
 
 **Criteria to enter this logic:**
 
-  - `Next Steps` has been changed/updated OR the Opportunity has just been created.
-  - `Next Steps` previous value was not a "blank" value.
+- `Next Steps` has been changed/updated OR the Opportunity has just been created.
+- `Next Steps` previous value was not a "blank" value.
 
 **Logic Locations:**
 
@@ -633,7 +628,7 @@ Please see our internal [document](https://docs.google.com/document/d/1UaKPTQePA
 
 **Logic Locations:**
 
-  - [Tesorio Client](https://gitlab.my.salesforce.com/_ui/core/application/force/connectedapp/ForceConnectedApplicationPage/d?applicationId=06P4M000000XZXs)
+- [Tesorio Client](https://gitlab.my.salesforce.com/_ui/core/application/force/connectedapp/ForceConnectedApplicationPage/d?applicationId=06P4M000000XZXs)
 
 ## Automations
 
@@ -700,15 +695,16 @@ Here is the config table for the automation logic for reference:
 **Business Process this supports:** This is the process of how the Pub Sec Type (`PubSec_Type__c`) is determined on an account. This is important in order to determine Public Sector status on the basis of account demogrpahic information instead of ownership.
 **Overview:** The criteria that is used to determine if an account is Public Sector or not is based on the inputs listed below. Additionally if the Account needs to be over written to a Pub Sec type that is different from what the job is producing that is possible using the `PubSec_Type_Override__c` field
 
-  - `Website`
-  - `zi_sub_industry__c`
-  - `Industry`
-  - `Account_Demographics_UPA_Country__c`
+- `Website`
+- `zi_sub_industry__c`
+- `Industry`
+- `Account_Demographics_UPA_Country__c`
 
 **Related Issues:**
-  - [Pub Sec Type](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/2663)
 
- **Logic Locations:**
+- [Pub Sec Type](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/2663)
+
+**Logic Locations:**
 
 - [AccountJob_SetPubSecType.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountJob_SetPubSecType.cls)
 - [AccountJob_SetPubSecTypeTest.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountJob_SetPubSecTypeTest.cls)
@@ -723,12 +719,12 @@ Here is the config table for the automation logic for reference:
 **Business Process this supports:** This is a part of the process of how the Billing Address is determined on an Account - by stamping the lead address on the account. The Lead address is one of the layers of the data hierarchy that is used in determining where the account is.
 **Overview:** This process catches the lead on a lead conversion and uses the lead address to stamp either a blank lead address field on the account or to populate missing informaiton on the lead address on the account.
 
-   - If the Lead address on the account is blank and there is any info in the lead address on the conversion the lead address will be stamped into the lead address fields on the account
-   - If there is a partial address in the lead address fields on the account when the lead is converted and ALL of the information on the account matches the corressponding info on the lead - any additional new address information will be stamped into the currently blank field on the account. If the overlapping infromation between the account and lead is different then no new information is stamped onto the account even if their is a partial match (Example same state but different Zip Code)
+- If the Lead address on the account is blank and there is any info in the lead address on the conversion the lead address will be stamped into the lead address fields on the account
+- If there is a partial address in the lead address fields on the account when the lead is converted and ALL of the information on the account matches the corressponding info on the lead - any additional new address information will be stamped into the currently blank field on the account. If the overlapping infromation between the account and lead is different then no new information is stamped onto the account even if their is a partial match (Example same state but different Zip Code)
 
 **Related Issues:**
 
-  - [Address Waterfall](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/3139)
+- [Address Waterfall](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/3139)
 
 **Logic Locations:**
 
@@ -745,7 +741,7 @@ Here is the config table for the automation logic for reference:
 
 **Related Issues:**
 
-  - [Address Waterfall](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/3139)
+- [Address Waterfall](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/3139)
 
 **Logic Locations:**
 
