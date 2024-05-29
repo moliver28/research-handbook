@@ -38,7 +38,7 @@ Here are some best practices when making a screener from scratch:
  - When writing up a screener draft, use brackets for internal notes, so the researcher and other stakeholders can indicate whether an answer should terminate/reject a respondent. Brackets can also be used to indicate when a question should be skipped.
  - If you need to use advanced logic to display questions and/or route respondents down a certain path based on their previous answers, Qualtrics is a great tool.
 
-Final drafts of screeners at GitLab are created in [Qualtrics](/handbook/product/ux/qualtrics/). If you don’t have access to Qualtrics, [request it](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). If you are using a [different recruiting method](/handbook/product/ux/ux-research-coordination/recruitment-methods) or an unmoderated study platform (such as [UserTesting.com](https://www.usertesting.com/)), you will create the screener in those platforms.
+Final drafts of screeners at GitLab are created in [Qualtrics](/handbook/product/ux/ux-research/surveys/qualtrics/). If you don’t have access to Qualtrics, [request it](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). If you are using a [different recruiting method](/handbook/product/ux/ux-research-coordination/recruitment-methods) or an unmoderated study platform (such as [UserTesting.com](https://www.usertesting.com/)), you will create the screener in those platforms.
 
 ### Screener tips
 
@@ -50,7 +50,6 @@ When crafting questions, keep the following in mind:
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Do you take two or more vacations per year?  <ol type="a"><li>Yes [Reject]</li><li>No</li></ol>          | How many personal vacations do you take per year?<ol type="a"><li>0 [Reject]</li><li>1 [Skip to question 4]</li><li>2 [Reject]</li><li>3 [Reject]</li><li>4+</li></ol>                      |
 | Are you traveling with a partner, friend, or family member?  <ol type="a"><li>No, I’m traveling by myself [Reject]</li><li>Yes, I’m traveling with someone else</li></ol> | For this upcoming trip, who are you traveling with? <ol type="a"><li>By myself [Reject]</li><li>With my spouse/partner</li><li>With my family (spouse/partner AND kids/external family)</li><li>With a friend</li><li>With a group of friends</li><li>I’m not sure [Reject]</li></ol> |
-
 
  - Provide similar options to choose from to mitigate guessing the purpose of the study.
      - To screen participants for their natural behavior, provide **multiple options** to mask what you’re looking for.

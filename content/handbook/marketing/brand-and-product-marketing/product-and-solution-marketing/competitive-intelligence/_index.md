@@ -126,7 +126,7 @@ At GitLab, anyone can contribute to the Competitive Intelligence process.   We s
 
 ## Competitors and Products with overlapping functionality
 
-GitLab exists in an ecosystem of **[DevOps tools](https://about.gitlab.com/why-gitlab/)** and might need to interact with any number of these tools. Many have over-lapping capabilities, but that does not mean that we necessarily directly compete with them. A user would need to patch together multiple solutions from this list in order to get all the functionality that is built-in to GitLab as a **[single application for end-to-end DevOps](/)**.
+GitLab exists in an ecosystem of **[DevOps tools](https://about.gitlab.com/why-gitlab/)** and might need to interact with any number of these tools. Many have over-lapping capabilities, but that does not mean that we necessarily directly compete with them. A user would need to patch together multiple solutions from this list in order to get all the functionality that is built-in to GitLab as a **[single application for end-to-end DevOps](https://about.gitlab.com)**.
 
 We tend to include those products also in the DevOps Tools comparison pages so customers have a comprehensive understanding of how we view the full landscape, not necessarily in competitive terms. Refer to this handbook page for more information on [who GitLab competes with](/handbook/product/gitlab-the-product/#who-gitlab-competes-with).
 

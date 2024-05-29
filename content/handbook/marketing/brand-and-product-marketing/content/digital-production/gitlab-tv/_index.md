@@ -111,7 +111,7 @@ To contribute to an existing channel, visit the channel playbook for more inform
 
 GitLab.tv Video Channel Playbooks define the channel audience, measurable goals, content types, content distribution plan, and contribution paths. To create a GitLab.tv Video Channel Playbook, use this [template](https://docs.google.com/document/d/1YEMzrvmo9g2ukDTsOlmMatzELu0FhmkaBil_DRVGv6Q/edit?usp=sharing) and reach out to the GitLab.tv team.
 
-----
+---
 
 Return to the main [Inbound Marketing Handbook](/handbook/marketing/inbound-marketing/).
 

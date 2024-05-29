@@ -40,7 +40,7 @@ description: "This page has all the information for the FO GitOps sales play."
 ### Part 3: POV & Evaluation
 
 | POV & Evaluation |
-| ------ | 
+| ------ |
 | 1. Set up the evaluation with the appropriate internal resources | - N/A |
 | 2. Do the following before sending out a trial key<br> - Mutually agree upon **success criteria** for the 30-day evaluation period (“If at the end of 30 days, we prove [these criteria], then we will consider this trial a success")<br><br>Success criteria examples:<br> - Store and Run an Ansible Playbook in GitLab<br> - Incorporate the above into a pipeline<br> - Scan x% of our code base (because of the language)<br> - Build a CI pipeline and have a basic one working |
 | 3. Send an [email](https://docs.google.com/document/d/1PSwEBCxkQMgMmtLKocNfP0EKTLnWIr2FZimG0yv1gTM/edit#bookmark=id.5grp5yaens0e) outlining and confirming the success criteria |
@@ -57,4 +57,4 @@ description: "This page has all the information for the FO GitOps sales play."
 | 2. Share the [Forrester TEI report](https://drive.google.com/file/d/1Vi3_InvTs8r6cLvC4gR9bBumlWV5TNvY/view) |
 | 3. Use the [Cost Comparison Calculators](https://about.gitlab.com/calculator/) to show the value of using GitLab as a single application over other solutions. |
 
-### Part 5: Close the Deal!
+### Part 5: Close the Deal

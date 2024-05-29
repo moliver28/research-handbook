@@ -1,13 +1,13 @@
 ---
 title: "GitLab System Administration - Hands-on Lab: Troubleshoot GitLab"
-description: "This hands-on lab guide is designed to walk you through the lab exercises used in the GitLab System Administration course."
+description: "TThis Hands-On Guide walks you through troubleshooting GitLab services NGINX, Puma, and Gitaly."
 ---
 
 > Estimated time to complete: 30 minutes
 
-> **You are viewing the latest Version 16.x instructions.** If you are using `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson8.md).
+## Objectives
 
-For this lab exercise, refer to GitLab's [application architecture](https://docs.gitlab.com/ee/development/architecture.html#simplified-component-overview) to review GitLab's major services and interactions.
+The purpose of this lab is to show how to troubleshoot the GitLab server by using the `gitlab-ctl` command. For this lab exercise, refer to GitLab's [application architecture](https://docs.gitlab.com/ee/development/architecture.html#simplified-component-overview) to review GitLab's major services and interactions.
 
 ### Task A. Troubleshoot NGINX
 
@@ -70,7 +70,7 @@ curl -i http://localhost/nginx_status
 sudo gitlab-ctl stop puma
 ```
 
-3. Refresh GitLab in your web browser. You should immediately see an error that reads "**502: GitLab is taking to much time to respond**". NGINX is running, so it can accept HTTP requests. However, when workhorse tries to pass an HTTP request to the Rails application, there is no running service to accept it.
+3. Refresh GitLab in your web browser. You should immediately see an error that reads "**502: GitLab is taking too much time to respond**". NGINX is running, so it can accept HTTP requests. However, when workhorse tries to pass an HTTP request to the Rails application, there is no running service to accept it.
 
 4. View the GitLab Workhorse logs.
 
@@ -137,7 +137,7 @@ Recent entries should indicate successful requests to Puma (i.e. when you reload
 1. SSH into your **GitLab Runner server**.
 
 ```bash
-ssh -i <SSH_host_keyY>.pem ec2-user@<GitLab_runner_host>
+ssh -i <SSH_HOST_KEY>.pem ec2-user@<GITLAB_runner_host>
 ```
 
 8. Download Git if it is not already installed.
@@ -169,7 +169,7 @@ git status
 14. Open an SSH session on your **GitLab Omnibus instance**.
 
 ```bash
-ssh -i <SSH_host_key>.pem ec2-user@<GitLab_omnibus_host>
+ssh -i <SSH_HOST_KEY>.pem ec2-user@<GITLAB_OMNIBUS_HOST>
 ```
 
 15. Verify Gitaly is running.
@@ -241,7 +241,7 @@ git fetch
 29. Re-initiate an SSH session on your **GitLab Omnibus instance**.
 
 ```bash
-ssh -i <SSH_host_key>.pem ec2-user@<GitLab_omnibus_host>
+ssh -i <SSH_HOST_KEY>.pem ec2-user@<GITLAB_OMNIBUS_HOST>
 ```
 
 30. Restart Gitaly services.
@@ -287,7 +287,7 @@ sudo ./gitlabsos.rb
 
 ```bash
 ls
-tar -tvf gitlabsos.<GitLab_FQDN>.<timestamp>.tar.gz
+tar -tvf gitlabsos.<GITLAB_FQDN>.<timestamp>.tar.gz
 ```
 
 GitLab Support may ask for this report to assist with troubleshooting.

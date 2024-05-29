@@ -11,11 +11,11 @@ title: "Territory Planning"
 
 ## Overview
 
-Every Strategic Account Executive in Enterprise Sales should have a plan for how they're approaching their patch. A sales territory plan is a workable plan for targeting the right customers and implementing goals for income and consistent sales growth over time.
+Every Account Executive regardless of segment or geo should have a plan for how they're approaching their patch. A sales territory plan is a workable plan for targeting the right customers and implementing goals for income and consistent sales growth over time.
 
 It’s usually done annually and updated throughout the year. It can be used for plotting a specific geographical location, or for different industries, customer types and other segments.
 
-*When do you need one?* Some SAEs might be starting up a whole new territory and need a detailed, comprehensive plan, whereas others may be one of several SAEs operating in their territory and may benefit from a narrower plan. The key is that you have a plan documented to reach your goals.
+*When do you need one?* Some AEs might be starting up a whole new territory and need a detailed, comprehensive plan, whereas others may be one of several AEs operating in their territory and may benefit from a narrower plan. The key is that you have a plan documented to reach your goals.
 
 ## Why it matters
 

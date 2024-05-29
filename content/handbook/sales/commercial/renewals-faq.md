@@ -88,7 +88,7 @@ A: Yes, these users will count as a billable user, and will be charged for.
 
 Q: I would like to give another user access to my subscription account in the GitLab Customers Portal. How do I do this?
 
-A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases.html#self-service-option) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
+A: It is possible you may be able to transfer ownership without GitLabs assistance. See this [workflow](/handbook/support/license-and-renewals/workflows/customersdot/associating_purchases/#self-service-option) for details. If the self-service options are unavailable to you, then please open a [Support Ticket](https://support.gitlab.com/hc/en-us/requests/new?ticket_form_id=360000071293). You will be required to provide ownership verification, after which Support will transfer the ownership.
 
 Q: I am part way through my GitLab subscription term and I would like to buy extra licenses for some recent hires. Am I able to do this?
 

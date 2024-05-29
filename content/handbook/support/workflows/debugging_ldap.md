@@ -8,7 +8,7 @@ description: "Support Engineering workflow describing how to debug LDAP problems
 
 This assumes an omnibus installation.
 
-----
+---
 
 See LDAP troubleshooting in docs - [View Docs](https://docs.gitlab.com/ee/administration/auth/ldap/ldap-troubleshooting.html)
 

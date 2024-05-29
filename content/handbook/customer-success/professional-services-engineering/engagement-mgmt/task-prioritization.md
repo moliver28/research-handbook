@@ -15,7 +15,7 @@ description: "Describes the various EM job duties in order of prioritization."
 
 The list of job responsibilities is in ranked order with the highest priority task at the top.
 
-### SOW Processing for current opportunities including:
+### SOW Processing for current opportunities including
 
 - Creating a draft SOW from an estimate and providing to the customer for review
 - Working through SOW redlines with a customer in conjunction with legal and the account team

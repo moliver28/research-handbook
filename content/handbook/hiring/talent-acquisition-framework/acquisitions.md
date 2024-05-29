@@ -22,5 +22,5 @@ An acquisition hire is any hire which was made as a direct result of acquisition
 1. Provide candidate details i.e. Resume or LinkedIn Profile, to the recruiter so they can process the candidate in Greenhouse.
 1. Talent Acquisition Manager will gather details specific to the offer letter for each candidate from the Dir. Corp Dev as per our [acquisition handbook](https://about.gitlab.com/handbook/acquisitions#what-we-offer)
 1. When a acquisition candidate has completed the process, the recruiter responsible will update the Slack Channel with the results.
-1. Once complete we will follow the standard process of background checks, offer approvals and offer process as outlined here [Hiring]({{< ref "/handbook/hiring" >}})
+1. Once complete we will follow the standard process of background checks, offer approvals and offer process as outlined here [Hiring](/handbook/hiring)
 1. There are [some edits](https://docs.google.com/document/d/1UEcqbj-DUPtpWf-_WZfRoiSGgqE8bXwIoToEOUAHhmM/edit) that may be allowed in a acquisition contract, however, must be approved by GitLab's CFO and Legal team. The CES will be told explicitly that these can be added to the contract.

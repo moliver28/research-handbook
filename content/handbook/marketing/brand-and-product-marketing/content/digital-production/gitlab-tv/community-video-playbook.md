@@ -126,6 +126,6 @@ Here are some possible avenues of promotion for your video:
 1. Featured in GitLab event follow up email/s (DRI must create issue to enable this step)
 1. Consideration for featuring in GitLab Community video band
 
-----
+---
 
 Return to the main [Inbound Marketing Handbook](/handbook/marketing/inbound-marketing/).

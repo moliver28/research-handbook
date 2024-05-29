@@ -142,9 +142,9 @@ as part of their subscription, which refresh every month:
 - Ultimate: `50,000`
 
 Units **are not a 1-to-1 translation of minutes** and are subject to
-[cost factors](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#cost-factor),
-including [the type of Runner being used](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#additional-costs-on-gitlab-saas)
-in a pipeline. A customer [can purchase additional units](https://docs.gitlab.com/ee/ci/pipelines/cicd_minutes.html#purchase-additional-cicd-minutes)
+[cost factors](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#cost-factor),
+including [the type of Runner being used](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#additional-costs-on-gitlab-saas)
+in a pipeline. A customer [can purchase additional units](https://docs.gitlab.com/ee/ci/pipelines/compute_minutes.html#purchase-additional-cicd-minutes)
 at any time.
 
 #### Storage and Transfer
@@ -236,8 +236,8 @@ the APAC region's support hours.
 
 #### Zuora
 
-Zuora is considered the [single source of truth](/handbook/handbook-usage/#single-source-of-truth)
-or [system of record](/handbook/handbook-usage/#system-of-record)
+Zuora is considered the [single source of truth](/handbook/about/handbook-usage/#single-source-of-truth)
+or [system of record](/handbook/about/handbook-usage/#system-of-record)
 for many subscription and renewal-related items, such as product SKUs,
 subscriptions and invoices. See the
 [Transition to Zuora as the SSOT issue](https://gitlab.com/groups/gitlab-org/-/epics/4664)
@@ -257,12 +257,10 @@ When creating an [individual/bulk access request](https://gitlab.com/gitlab-com/
 
 ### Workflows
 
-- [License & renewals workflows](/handbook/support/license-and-renewals/workflows/index.html)
+- [License & renewals workflows](/handbook/support/license-and-renewals/workflows/index/)
 
 ### Useful tools
 
-- [license decoder](https://gitlab.com/gitlab-com/support/toolbox/license-decoder)
-  -- Ruby script to decode `.gitlab-license` files.
 - [slic - Subscription and License Information Copier](https://gitlab.com/rverschoor/punk/-/tree/main/slic)
   -- browser userscript to copy and format CustomersDot information
   into internal notes.

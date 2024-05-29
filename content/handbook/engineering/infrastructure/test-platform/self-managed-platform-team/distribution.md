@@ -10,8 +10,8 @@ The goal of this page is to document existing Quality Engineering activities in 
 ### Dashboards
 
 - [QE Distribution dashboard](https://gitlab.com/groups/gitlab-org/-/boards/2187925?label_name%5B%5D=Quality&label_name%5B%5D=devops%3A%3Asystems&label_name%5B%5D=group%3A%3Adistribution) - Dashboard to track Quality Engineering work items
-- [Distribution Issues](https://app.periscopedata.com/app/gitlab/1045553/Distribution-Issues) - Dashboard to visualize metrics important for Bug Prioritization
-- [Bug Prioritization metrics](https://app.periscopedata.com/app/gitlab/1037965/Bug-Prioritization) - Bugs metrics required for [Bug Prioritization](#bug-prioritization) (ensure to filter by Distribution group)
+- [Distribution Issues](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/OpenBugAgeOBADashboard) - Dashboard to visualize metrics important for Bug Prioritization
+- [Bug Prioritization metrics](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard?:iid=2) - Bugs metrics required for [Bug Prioritization](#bug-prioritization) (ensure to filter by Distribution group)
 
 ### Quality work
 
@@ -27,7 +27,6 @@ GitLab QA is being used in several Distribution projects to validate that GitLab
 | [GitLab Charts](https://gitlab.com/gitlab-org/charts/gitlab)                  | Sanity     | Run [automatically in merge requests](https://gitlab.com/gitlab-org/charts/gitlab/-/blob/master/.gitlab-ci.yml) and [scheduled against default branch](https://gitlab.com/gitlab-org/charts/gitlab/-/pipeline_schedules)                                                                    |
 | [GitLab Charts](https://gitlab.com/gitlab-org/charts/gitlab)                  | Full       | Triggered [manually in merge requests](https://gitlab.com/gitlab-org/charts/gitlab/-/blob/master/.gitlab-ci.yml)                              |
 | [GitLab Operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) | Smoke      | Run [automatically in merge requests](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator/-/blob/master/.gitlab-ci.yml)        |
-| [GitLab Operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) | Reliable   | [Scheduled nightly](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator/-/pipeline_schedules)               |
 | [GitLab Operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) | Full       | [Manually triggered](https://docs.gitlab.com/operator/developer/ci.html#qa-pipelines)               |
 | [Reference Architecture Tester](https://gitlab.com/gitlab-org/distribution/reference-architecture-tester)                                                | Full       | [Manually triggered](https://gitlab.com/gitlab-org/omnibus-gitlab/-/blob/master/doc/development/pipelines.md#rat) and FIPS QA Nightly    |
 
@@ -51,12 +50,12 @@ Process:
 
 - Team creates a new [Planning issue](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/?label_name%5B%5D=Planning%20Issue)
 - SET creates a new issue using [Bug Prioritization template](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/new?issuable_template=Distribution%20Bug%20Prioritization)
-- SET reviews open bugs using [Distribution Issues](https://app.periscopedata.com/app/gitlab/1045553/Distribution-Issues)
+- SET reviews open bugs using [Distribution Issues](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/OpenBugAgeOBADashboard)
   - Add [Severity labels](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) to bugs that are missing a severity label
   - Review open bugs following [Prioritization Guidelines](/handbook/engineering/infrastructure/test-platform/bug-prioritization/#prioritization-guidelines)
 - SET to propose in team planning issue 6 bugs to be considered in milestone
 - At the end of the quarter:
-  - SET reviews [Distribution Issues](https://app.periscopedata.com/app/gitlab/1045553/Distribution-Issues) metrics for open bugs
+  - SET reviews [Distribution Issues](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/OpenBugAgeOBADashboard) metrics for open bugs
   - SET shares analysis with the Distribution team
   - The Distribution discusses if the process should be adjusted
 

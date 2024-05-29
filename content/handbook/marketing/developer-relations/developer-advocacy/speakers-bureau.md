@@ -18,11 +18,11 @@ The Speakers Bureau is a group of GitLab team members and members of the wider G
 
 ## Find a speaker
 
-A list of speakers bureau members can be found on our [Speakers Bureau page](/speakers/). After identifying a speaker for an event or other speaking opportunity, please [create an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=speaker-request) to request the speaker.
+A list of speakers bureau members can be found on our [Speakers Bureau page](https://about.gitlab.com/speakers/). After identifying a speaker for an event or other speaking opportunity, please [create an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=speaker-request) to request the speaker.
 
 ## Join the Speakers Bureau
 
-If you would like to join the speakers bureau, we ask that you submit an MR to add yourself to the [Speakers Bureau page](/speakers/). This can be done by adding the following lines to the speakers.yml file in the www-gitlab-com project.
+If you would like to join the speakers bureau, we ask that you submit an MR to add yourself to the [Speakers Bureau page](https://about.gitlab.com/speakers/). This can be done by adding the following lines to the speakers.yml file in the www-gitlab-com project.
 
 To create an MR for the Speakers Bureau page, you will need:
 
@@ -92,7 +92,7 @@ When adding yourself to the Speakers Bureau, you may get a linting error in the 
 
 ## Speaker Enablement
 
-The Developer Advocate team provides support to new and experienced speakers where necessary. These can range from presentation review, CFP ideation, or dry-run. [Learn more](/handbook/marketing/developer-relations/developer-evangelism/speaker-enablement/) about the different resources and activities you can benefit from or drop a message in the [#dev-evangelism-and-technical-marketing Slack channel](https://gitlab.slack.com/archives/CMELFQS4B) if you need direct support.
+The Developer Advocate team provides support to new and experienced speakers where necessary. These can range from presentation review, CFP ideation, or dry-run. [Learn more](/handbook/marketing/developer-relations/developer-advocacy/speaker-enablement/) about the different resources and activities you can benefit from or drop a message in the [#dev-advocacy-team Slack channel](https://gitlab.slack.com/archives/CMELFQS4B) if you need direct support.
 
 ## Speaking at Events
 

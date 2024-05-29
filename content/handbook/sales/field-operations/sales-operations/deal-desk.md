@@ -403,7 +403,7 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
         - Please note that Sales reps may only generate PDF versions of the Order Form. If you require special wording or other manual edits, please make the request by tagging @Sales-Support in chatter.
 
 
-##### Prorata calculation of add-on order forms:
+##### Prorata calculation of add-on order forms
 
 [Explanation with screenshot of example order form](https://docs.google.com/presentation/d/1HV4jYVP4yITm0FyhGbDPGmb6f-ebI0Fh480cLfw7u9M/edit#slide=id.ga42daef6d7_0_0)
 
@@ -633,7 +633,7 @@ Effective 2021-11-15, the "True-up" SKU has been deprecated and replaced with 6 
 - True-Up (Annually) - SaaS - Premium: $228/seat/year
 - True-Up (Annually) - Bronze: $48/seat/year
 
-##### Note for Quoting True-ups:
+##### Note for Quoting True-ups
 
 True-ups shouldn’t be added to an amendment quote, because functionally they will do nothing. Overuse is only recognised at renewal and hence, true-ups are necessary only at renewal to unlock a license when the customer had gone over their licensed user count in the previous subscription term.
 Example- The customer had 100 licensed users and they used 108, the 8-user overuse will be covered and quoted as True-up during renewal.
@@ -712,11 +712,11 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 ##### Creating a Professional Services Quote for Standard Services
 
 - Standard services are those for which a SKU exists in Zuora CPQ.
-- Standard services can be added to any New Business, Add-On, or Renewal quote alongside subscription product SKUs. (i.e. If you are selling a 12 month SaaS Ultimate deal, you can add a separate SKU on the same quote to sell the Rapid Results offering.)
+- Standard services can be added to any New Business, Add-On, or Renewal quote alongside subscription product SKUs. (i.e. If you are selling a 12 month SaaS Ultimate deal, you can add a separate SKU on the same quote to sell instructor led training offering(s).)
 - For Standard Services, a signed Order Form is sufficient to book the deal. (Note, some customers may also require issuance of a PO)
-- More information on [Professional Services SKUs](/handbook/customer-success/professional-services-engineering/#professional-services-skus)
+- More information on [Professional Services SKUs](https://about.gitlab.com/services/catalog)
 
-##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure:
+##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure
 
 - For [standard professional services SKUs](/handbook/customer-success/professional-services-engineering/SKUs/), only a signed order form is required.
 
@@ -728,24 +728,27 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 - Scoped/Custom Services must always be quoted on a standalone opportunity, separately from any subscription products SKUs. (i.e.; You may NOT sell a 12 month SaaS Ultimate SKU on the same quote/ opportunity as Scoped/Custom Services).
 - Create a New Business Opportunity and select “Professional Services Only” under “Opportunity Record Type.”
 - Create a new subscription quote under the Professional Services opportunity by following the steps above under “new Subscription Quote.”
-  - **If the SOW contains purely Professional Services**, select the "GitLab Service Package" SKU. Update the price to reflect the total price on the SOW.
-  - **If the SOW contains purely Education Services**, select the "Custom PS Education Services" SKU. Update the price to reflect the total price on the SOW.
-  - **If the SOW contains a mixture of Professional Services and Education Services**, two separate quotes should be created under the same opportunity. **Note, for this use case ONLY, a Professional Services Engagement Manager will create the quotes on behalf of the SAE/AE.** Create one quote using the GitLab Service Package SKU, and another quote using the Custom PS Education Services SKU. Do not include the individual Education SKU's; instead use this 'umbrella' SKU, and sum the total amount of Education. On each quote, update the price of the applicable SKU to reflect the applicable price for each category from the SOW. Together, the totals of both quotes should add up to the total price on the SOW. **Note: Once this second quote is added, it is likley to overwrite the "Professional Services Value" field against the opportunity. Please ensure that this field continues to reflect the sum of both quotes, in line with the overall SOW.**
+  - **If the SOW contains purely Professional Services**, select the "GitLab Service Package" SKU. Update the price to reflect the total price on the SOW. **DISREGARD DISCOUNT APPROVALS**.
+  - **If the SOW contains purely Education Services**, select the matching training and/or certification SKUs. Update the price to reflect the total price on the SOW. If you cannot find a match, use the `Custom PS Education Services` SKU.
+  - **If the SOW contains a mixture of Professional Services and Education Services**, two separate quotes should be created under the same opportunity.
+      - Create one quote using the `GitLab Service Package` SKU and reflect the Time and Materials value from the SOW.
+      - Create a second quote using the matching training/certification SKU(s).
+      - The sum of the values from these two quotes should equal to the total price on the SOW. **Note: Once this second quote is added, it is likley to overwrite the "Professional Services Value" field against the opportunity. Please ensure that this field continues to reflect the sum of both quotes, in line with the overall SOW.**
     - To determine which portion of the SOW is for Professional Services vs. Education Services, note the following: Education and Services are split out on the SOW in separate sections. The Education portion would display standard SKU names such as "CI/CD Training" and "Admin Training" and will contain a total cost for the full Education portion. The Services portion would be custom, but would often denote "Time and Materials" or "PS Hours" and will contain a total cost for the full Services Portion.
 
 
 **Note: You do not need to submit the quote for Custom services for approval.** Approvals will be handled by the Engagement Manager via the scoping issue, and any discounts in rate should be handled separately via Chatter, as per the [Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y). The SAE/AE remains responsible for obtaining any approvals required. As well as discounts in price, this also includes increased payment terms. Once approved, the SOW will be sent to the customer for signature, not the quote/order form.
 - To gain support from the Professional Services team with a Custom SOW, initiate a scoping issue using the [Services Calculator](https://services-calculator.gitlab.io/) and work with a Professional Services [Engagement Manager](/handbook/customer-success/professional-services-engineering/engagement-mgmt/).
 
-##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure:
+##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure
 
 - Ensure that a supporting Quote object has been created with the amount matching the SOW amount (as per above)
 - Please note that the following items must be attached to the opportunity before it can be Closed Won:
-    - SOW signed by **both the customer and GitLab's PAO or CFO**
+    - SOW signed by **both the customer and GitLab's VP, Revenue Accounting**
     - Cost Estimate (COGS) spreadsheet (Link provided by the PS team)
     - A supporting Purchase Order (PO), or email from the Customer stating that a PO is not required for invoicing
 
-### My Customer Bought the wrong Product!
+### My Customer Bought the wrong Product
 
 If a deal was booked with SaaS but the customer wanted Self Managed (vice versa), you will need to build an Add On Opp and Amendment quote to make the change to the subscription.
 
@@ -892,7 +895,7 @@ Ramp Deals are multi-year deals in which products can incrementally vary in pric
 
 **Opportunities submitted for booking that do not meet these requirements will be rejected by the Order Management team.**
 
-###### How to amend an existing ramp deal, created before 2023-03-01:
+###### How to amend an existing ramp deal, created before 2023-03-01
 
 To amend a ramp deal created before 2023-03-01, tag @Sales-Support in chatter on the opportunity. Deal Desk will create the quotes and Order Form. **Provide the following information for each ramp period:**
 - Start date and term length
@@ -1082,14 +1085,14 @@ G. Please note that backdated amendments for adding additional users can be proc
 
 ### Alliance Marketplace Private Offers
 
-Effective Friday, 2022-04-08, Deal Desk manages AWS and GCP Private Offer creation and acceptance.
+Deal Desk manages AWS and GCP Private Offer creation and acceptance.
 
 #### Process Overview
 
 - **All Private Offer requests must be made in chatter by tagging @Sales-Support on the related SFDC opportunity.** All Private Offer requests must include the following information:
   - Customer's AWS or GCP Billing ID
   - Customer Contact name and email address
-  - Allaince margin
+  - Alliance margin
   - For GCP deals Mode of payment(Prepay or Postpay) should be confirmed when making a private offer request
     - Note: This contact must have the necessary permissions to accept the Private Offer in the marketplace
 - After a Private Offer request is made, Deal Desk will review the request and confirm the quote is tagged appropriately for AWS/GCP and confirm the Order Form acceptance section also includes AWS or GCP marketplace language.
@@ -1097,26 +1100,21 @@ Effective Friday, 2022-04-08, Deal Desk manages AWS and GCP Private Offer creati
 - At time of acceptance, an email will be sent to the GitLab Team and Deal Desk will chatter the documentation to close the deal.
 - The AWS and GCP deals do not need to be signed.
 - When the deal is Closed Won, the license key file/subscription details will be automatically sent to the 'Sold To' contact on the GitLab Order Form.
--For Route-to-market changes contract reset needs to be done . Credit will not be included in the order form and will be refunded at the time of booking based on the original mode of payment.
+-For Route-to-market changes contract reset needs to be done. Credit will not be included in the order form and will be refunded at the time of booking based on the original mode of payment.
 -All Private offers are sent via Tackle.
 - Any queries related to tackle can be reached out at support@tackle.io
 -For AWS Portal queries i.e trouble accepting private offers or setting up an account can be reached at mpcustdesk@amazon.com
 - For GCP Portal queries can be reached at private-offers-team@google.com
 
-#### Working with Deal Desk vs. Alliance Business Development Managers (ABDMs)
+#### Working with Deal Desk vs. Partner Territory Managers (PTMs) and Partner Account Managers (PAMs)
 
-Please note that Deal Desk handles only Private Offer creation, edits to Private Offers, and the acceptance of Private Offers. For any other matters related to Alliances deals, **Sales must work with the appropriate ABDM.** The Alliances team can provide assistance and best practices that are vital to a successful marketplace transaction.
+Please note that Deal Desk handles only Private Offer creation, edits to Private Offers, and the acceptance of Private Offers. For any other matters related to Alliances deals, **Sales must work with the appropriate PTM or PAM.** The Alliances team can provide assistance and best practices that are vital to a successful marketplace transaction.
 
-To reach an ABDM, use the #a_aws_deal_registration or #a_gcp_deal_registration Slack channels.
+To reach a PTM or PAM, use the #cloud-aws or #cloud-gcp Slack channels.
 
 #### Alliance Deal/Private Offer Resources
 
-- Internal Handbook:
-  - [Google Cloud Platform](https://internal.gitlab.com/handbook/alliances/gcp/)
-  - [Amazon Web Services](https://internal.gitlab.com/handbook/alliances/aws/)
-- Marketplace FAQ
-  - [Google Cloud Private Offers](https://docs.google.com/document/d/1S0k0T12xkXajpHt9uvl3YDA4OSOwS6qB9pHmRKiqCgA/edit#bookmark=id.5hmmfbjqr9xn)
-  - [Amazon Web Services Private Offer](https://docs.google.com/document/d/1S0k0T12xkXajpHt9uvl3YDA4OSOwS6qB9pHmRKiqCgA/edit#bookmark=id.ee7ef9xn6p1k)
+Refer to [Cloud Co-selling](https://internal.gitlab.com/handbook/alliances/cloud-co-selling/) for additional information.
 
 ### Opportunity Categorization
 

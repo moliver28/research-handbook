@@ -25,7 +25,6 @@ For deep-dives on how GitLab's UX and design teams collaborate remotely, visit t
 1. [Running an asynchronous sketch workshop for UX](https://about.gitlab.com/blog/2020/03/27/async-sketching/)
 1. [Synchronous collaboration as a remote designer at GitLab](https://about.gitlab.com/blog/2020/04/01/synchronous-collaboration-as-a-remote-designer-at-gitlab/)
 
-
 ## What are the best online whiteboards with collaboration features?
 
 When looking for the right tool for you and your team, consider what's most important:
@@ -137,7 +136,7 @@ Since the inception of GitLab, [iteration](https://about.gitlab.com/blog/2020/02
 
 ### Zoom for all
 
-Any meeting at GitLab happens over a [Zoom call]({{< ref "/handbook/communication/zoom" >}}). Face to face is the best way to "meet" someone in person. On top of that, press record to digitally document the meeting for future reference or for anyone who might not make the call. Zoom also has a whiteboard function in [Zoom Rooms for Touch](https://support.zoom.us/hc/en-us/articles/115004797286-Using-the-whiteboard-in-Zoom-Rooms-for-Touch). Attendees can access and annotate a whiteboard on the call and then save and share the whiteboard by email.
+Any meeting at GitLab happens over a [Zoom call](/handbook/communication/zoom). Face to face is the best way to "meet" someone in person. On top of that, press record to digitally document the meeting for future reference or for anyone who might not make the call. Zoom also has a whiteboard function in [Zoom Rooms for Touch](https://support.zoom.us/hc/en-us/articles/115004797286-Using-the-whiteboard-in-Zoom-Rooms-for-Touch). Attendees can access and annotate a whiteboard on the call and then save and share the whiteboard by email.
 
 ### Pinging on Slack
 
@@ -205,7 +204,7 @@ GitLab's policy is to [dogfood everything](https://about.gitlab.com/blog/2020/01
 
 ## GitLab Knowledge Assessment: Remote collaboration and whiteboarding
 
-Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team]({{< ref "/handbook/people-group/learning-and-development" >}}) at `learning@gitlab.com`.
+Complete all knowledge assessments in the [Remote Work Foundation certification]({{< ref "remote-certification" >}}) to receive the [Remote Foundations Badge in GitLab Learn](https://gitlab.edcast.com/pathways/copy-of-remote-foundations-badge). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
@@ -213,6 +212,6 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 GitLab believes that all-remote is the future of work, and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a merge request and adding a contribution to this page.
 
-----
+---
 
 Return to the main [all-remote page]({{< ref "../_index.md" >}}).

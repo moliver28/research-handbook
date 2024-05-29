@@ -46,7 +46,7 @@ The Search Marketing team will focus our support on pages with the most valuable
 
 Our goals are to **develop keyword targeting** that supports revenue growth, **implement technical improvements**, and to **create a culture of SEO** across our organization so everyone can contribute to search optimization.
 
-We will focus on researching keyword targeting for content clusters, keyword groups of related terms that link to a pillar page. 
+We will focus on researching keyword targeting for content clusters, keyword groups of related terms that link to a pillar page.
 
 We'll also improve technical SEO on all GitLab websites, starting with about.gitlab.com expanding outward to docs and our SaaS application.
 
@@ -61,7 +61,7 @@ As a small team, we cannot build or maintain every aspect of optimization. GitLa
 ## Measuring success
 
 **Keyword clusters**
-Our goal is to move our target keywords to the top 3 positions as often as possible. We’ll need proper keyword targeting, on-page optimization, and technical optimization across our sites to achieve this goal. We will measure keyword position over time, and our measure of keyword success will focus on the visibility of our keywords by content cluster. 
+Our goal is to move our target keywords to the top 3 positions as often as possible. We’ll need proper keyword targeting, on-page optimization, and technical optimization across our sites to achieve this goal. We will measure keyword position over time, and our measure of keyword success will focus on the visibility of our keywords by content cluster.
 
 For example, we want to increase the visibility of our CI keywords in [SEMRush](https://www.semrush.com/), a tool for tracking our SEO progress.
 
@@ -69,13 +69,13 @@ For example, we want to increase the visibility of our CI keywords in [SEMRush](
 We want to move the site health for marketing pages on about.gitlab.com above 90%. This excludes the handbook and jobs pages. We will measure our site health with the site audit score from SEMRush.
 
 **Creating a culture of SEO**
-We’ll measure the success of our SEO culture by looking at the site health for the handbook and jobs pages on about.gitlab.com and the overall site health of our SaaS application. 
+We’ll measure the success of our SEO culture by looking at the site health for the handbook and jobs pages on about.gitlab.com and the overall site health of our SaaS application.
 
 We can use SEMRush site audit tool to measure handbook and jobs pages. We’ll need to consider how to measure success in the application.
 
 ## Keyword clusters
 
-### Goal: Expand GitLab’s presence in search results used by our target audiences.
+### Goal: Expand GitLab’s presence in search results used by our target audiences
 
 We are building keyword families that mirror the focus of Marketing at GitLab. We want to identify terms related to CI, SCM, and DevSecOps to help the content team build pages to raise awareness of our product-related use cases.
 
@@ -87,7 +87,7 @@ Once we've determined the pillars, we do keyword research to find related terms 
 
 ## Technical SEO improvements
 
-### Goal: Make sure our sites are built to surface the right information to search engines.
+### Goal: Make sure our sites are built to surface the right information to search engines
 
 Search engines do their best to deliver the right information to their users. To do this, they rely on sites using infrastructure and organization that meets their standards.
 
@@ -99,14 +99,14 @@ The Search Marketing team is responsible for the execution of technical SEO for 
 
 ## Creating a culture of SEO
 
-### Goal: The Search Marketing team will create a culture of SEO to grow best practices with teams across GitLab to help manage SEO for the handbook, docs site, and product.
+### Goal: The Search Marketing team will create a culture of SEO to grow best practices with teams across GitLab to help manage SEO for the handbook, docs site, and product
 
 At GitLab, we believe that everyone can contribute. This leads the Search Marketing team to focus on teaching what we know so that every aspect of GitLab's business can reach its full organic search potential.
 
 For our initial focus, the Search Marketing team will create videos to share best practices for on-page content and long-term care of URLs, including managing internal redirects.
 
 ## How our SEO strategy impacts content strategy
-We want to build content clusters that match the intent of our target visitors with relevant content with a depth designed to engage people as they land on a page. 
+We want to build content clusters that match the intent of our target visitors with relevant content with a depth designed to engage people as they land on a page.
 
 Our pages should minimize keyword overlap in page titles and headings, and avoid keyword stuffing.
 

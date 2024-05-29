@@ -1,14 +1,7 @@
 ---
-
 title: "Create:IDE Principles"
 description: "What Are the Create:IDE Team Principles?"
 ---
-
-#
-
-
-
-
 
 ## Overview
 

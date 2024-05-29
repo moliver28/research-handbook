@@ -107,7 +107,7 @@ My interests include:
 - Travel - Favorite trips include: French Polynesia, Barcelona, Banff & Jasper, Japan, Taiwan
 - Music and concerts - Mostly indie / alternative
 
-## Thanks for Reading!
+## Thanks for Reading
 
 As you get to know me, please share when you see a pattern of how I work that you think would be beneficial to articulate in this document.
 

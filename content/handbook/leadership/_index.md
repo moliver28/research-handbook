@@ -12,7 +12,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 
 1. At GitLab, leadership is requested from everyone, whether an individual contributor or member of the leadership team.
 1. As a leader, GitLab team members will follow your behavior, so always do the right thing. Lead by example with effort.
-1. Everyone who joins GitLab should consider themselves ambassadors of our [values]({{< ref "values" >}}) and protectors of our [culture](handbook/company/culture/).
+1. Everyone who joins GitLab should consider themselves ambassadors of our [values]({{< ref "values" >}}) and protectors of our [culture](/handbook/company/culture/).
 1. Behavior should be consistent inside and outside the company. We do the right thing outside the company, too.
 1. GitLab respects your judgment of what is best for you, since you know yourself best. If you have a better opportunity somewhere else don't stay at GitLab out of a sense of loyalty to the company.
 1. In tough times people will put in their best effort when they are doing it for each other.
@@ -31,7 +31,6 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. Act as a CEO of yourself and your role by taking responsibility to set goals and appropriate timelines. Prioritize your contributions and know it's [impossible to know everything]({{< ref "values#its-impossible-to-know-everything" >}}).
 1. Communicate clearly with your team and people leader on the status of your goals. Act quickly to address areas that pose a challenge or to reassess goals that cannot be reached in an alloted timeframe.
 
-
 ### Examples of actions from managers of one at GitLab
 
 1. When asked to attend a synchronous brainstorming call, a team member instead opens an issue and [requests for their team's ideas asynchronously](/handbook/company/culture/all-remote/asynchronous/#how-to-decline-meetings-in-favor-of-async).
@@ -41,7 +40,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. When a scheduled meeting agenda is complete 10 minutes before the call is set to end, an attendee ends the call early.
 1. A people leader hires a new team member that demonstrates our [CREDIT values]({{< ref "values" >}}).
 1. Before asking for others' time to discuss a topic, they dedicate time to process their thoughts and [make a proposal]({{< ref "values#make-a-proposal" >}}).
-1. A manager of one prioritizes wellbeing by blocking their calendars for fitness, meals, [paid time off](/handbook/paid-time-off/), and personal appointments.
+1. A manager of one prioritizes wellbeing by blocking their calendars for fitness, meals, [paid time off](/handbook/people-group/paid-time-off/), and personal appointments.
 1. A team member surfaces blockers as opposed to assuming their manager or team is already aware, and simultaneously works to unblock others by [working in public]({{< ref "values#public-by-default" >}}) and with a [low level of shame]({{< ref "values#low-level-of-shame" >}}).
 
 {{< youtube "d0x-JH3aolM" >}}
@@ -111,11 +110,11 @@ Feedback](https://hbr.org/2018/05/the-right-way-to-respond-to-negative-feedback)
 
 ## 1-to-1
 
-Please see [{{< relref "1-1" >}}]({{< ref "1-1" >}}).
+Please see [1-1]({{< ref "1-1" >}}).
 
 ## Skip level interactions
 
-Please see [{{< relref "skip-levels" >}}]({{< ref "skip-levels" >}}).
+Please see [skip-levels]({{< ref "skip-levels" >}}).
 
 ## Your Individual README
 
@@ -135,8 +134,7 @@ GitLab division README pages are linked below for context. Reading other READMEs
 - [People Group READMEs](/handbook/people-group/readmes/)
 - [Finance Team READMEs](/handbook/finance/readmes/)
 - [Legal Team READMEs](/handbook/legal/readmes/)
-- [Chief of Staff Team to the CEO READMEs]({{< ref "/handbook/ceo/chief-of-staff-team/readmes" >}})
-
+- [Office of the CEO READMEs](/handbook/ceo/office-of-the-ceo/readmes)
 
 ### Creating Your README
 
@@ -170,7 +168,7 @@ READMEs are particularly powerful when working with those *outside* of GitLab, w
 
 ## No matrix organization
 
-Please see [{{< relref "no-matrix-organization" >}}]({{< ref "no-matrix-organization" >}})
+Please see [no-matrix-organization]({{< ref "no-matrix-organization" >}})
 
 ## Stable counterparts
 
@@ -197,7 +195,7 @@ Folks who are escalating an issue should avoid surprising folks in the managemen
 
 There may be some exceptions to first notifying managers or peers. For example, a team member [feels unsafe]({{< ref "psychological-safety" >}}) in voicing a concern to a manager or their peers and feels that they can't effectively escalate with standard notification without retribution. While exceptions may be appropriate, they should be rare.
 
-After a team member escalates an issue, it is OK if they [disagree, commit, and disagree]({{< ref "values#disagree-commit-and-disagree" >}}) with the decisions made by the person they escalated to.
+After a team member escalates an issue, it is OK if they [disagree, commit, and disagree]({{< ref "values#disagree-and-commit" >}}) with the decisions made by the person they escalated to.
 
 ## Process gets a bad rep
 
@@ -237,7 +235,7 @@ Watch the replay of our conversation with [Jeb Hurley, Co-founder and Managing P
 
 {{< youtube "te3ZfJgFRxI" >}}
 
-**Skills and behavior of [building high performing teams competency](/handbook/competencies/#list) for Managers**:
+**Skills and behavior of [building high performing teams competency](/handbook/people-group/competencies/#list) for Managers**:
 
 - Models and encourages teamwork by fostering collaboration, communication, [trust]({{< ref "building-trust" >}}), shared goals, mutual accountability and support
 - Fosters an environment where results are balanced with time management of multiple assignments and [Direct Responsible Individuals (DRI's)](/handbook/people-group/directly-responsible-individuals/) on important topics
@@ -272,7 +270,6 @@ Building and maintaining high performance includes staying mindful of team well-
 M-teams are management support groups made up of 3 to 6 managers who are in timezones that allow for sync meetings among members. M-teams should set up a regular meeting on a cadence agreed by the members with the agenda being "what's challenging this week?". Decide who will facilitate and each person will get a chance to have their challenge discussed in the meeting. When it's your turn, you talk a little about what you're struggling with. M-groups agree to a level of [confidentiality](https://3plusinternational.com/2017/10/confidentiality-and-the-potential-loss-of-trust/) so that group members are willing to be vulnerable; vulnerability leads to trust and better outcomes for the group.
 
 If you're interested in starting or joining an m-team meeting, reach out to other managers in the [#managers](https://gitlab.slack.com/archives/C5Z55R5J5) Slack channel.
-
 
 ## Articles
 
@@ -332,7 +329,7 @@ When you give leadership training please [screenshare the handbook instead of cr
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
 1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
-1. Explore opportunities to join the [CEO Shadow program]({{< ref "/handbook/ceo/shadow" >}}) or other division specific shadow programs with the [Chief of Staff]({{< ref "chief-of-staff-team#chief-of-staff-shadow" >}}), [People Connect Shadow Program](/handbook/people-group/people-connect-shadow-program/), [Security]({{< ref "security-shadow" >}}), and [Development Director Shadow Program](/handbook/engineering/development/shadow/director-shadow-program.html).
+1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), and [Security]({{< ref "security-shadow" >}}).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
 1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management?u=2255073)
 1. Watch or listen to one of the many [CEO Handbook Learning sessions](/handbook/people-group/learning-and-development/learning-initiatives/#list-of-ceo-handbook-learning-sessions) with Sid on various leadership topics
@@ -349,4 +346,4 @@ Learn more on GitLab's view of [being a public company]({{< ref "being-a-public-
 
 ## Mitigating Concerns
 
-We have a page which documents our [Mitigating Concerns](https://internal-handbook.gitlab.io/handbook/leadership/mitigating-concerns/). Many of our [values]({{< ref "values" >}}) help to mitigate some of these concerns.
+We have a page which documents our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/). Many of our [values]({{< ref "values" >}}) help to mitigate some of these concerns.

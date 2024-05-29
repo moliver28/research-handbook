@@ -1,11 +1,13 @@
 ---
-title: "Content Editor"
-description: "As a member of the Editorial team at GitLab, you are part of building the media and publishing arm of GitLab."
+title: "Blog Editor"
+description: "As a member of the Content Strategy &amp; Ops team at GitLab, you are part of building the media and publishing arm of GitLab."
 ---
 
-## Content Editor
+## Blog Editor
 
-As a member of the Editorial team at GitLab, you are part of building the media and publishing arm of GitLab. You will be directly responsible for generating website traffic and growing GitLab’s audience. You will work closely with team members across the company to develop and optimize stories for the GitLab blog, and you will use GitLab itself to plan and collaborate.
+As a member of the Content Strategy &amp; Ops team at GitLab, you are part of building the media and publishing arm of GitLab. You will be directly responsible for generating website traffic and growing GitLab’s audience. You will work closely with team members across the company to develop and optimize stories for the GitLab blog, and you will use GitLab itself to plan and collaborate.
+
+The Blog Editor reports to the Manager, Blog Strategy (in absence, Director, Global Content)
 
 ### Responsibilities
 
@@ -35,84 +37,50 @@ As a member of the Editorial team at GitLab, you are part of building the media 
 
 ## Levels
 
-### Associate Content Editor
+### Senior Blog Editor
+
+The Senior Blog Editor reports to the Manager, Blog Strategy (in absence, Director, Global Content)
 
 #### Job Grade
 
-The Associate Content Editor is a [grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Blog Editor is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
-- Execute writing and editing tasks as assigned by the Managing Editor.
-- Learn the enterprise software beat.
-- Write and research technical topics.
+- Conduct original research and reporting
+- Cultivate story ideas with an astute journalistic eye
+- Propose and execute on editorial themes
+- Conduct SEO and keyword research
+- Assist in newsjacking efforts
+- Participate in the development of the editorial strategy (e.g. share observations and insights, including topic performance, SEO optimization, industry trends, etc.)
 
 #### Requirements
 
-- 1-3 years experience in a content-related role.
-- Ability to meet deadlines and execute on assignments.
+- 5+ years experience in a content-related role
+- Experience covering technical topics like DevOps, digital transformation, CI/CD, and software development methods
 
-### Intermediate Content Editor
+### Staff Managing Editor
+
+The Staff Managing Editor reports to the Manager, Blog Strategy (in absence, Director, Global Content)
 
 #### Job Grade
 
-The Intermediate Content Editor is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Staff Managing Editor is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
-- Self-manage writing and editing tasks.
-- Execute on editorial themes as defined by the Managing Editor.
-- Cover the software & technology beat with a journalistic eye.
-- Influence publishing strategy and execution.
-- Conduct SEO and keyword research.
-- Assist in newsjacking efforts.
+- Extends that of the Senior Blog Editor responsibilities
+- Set the publishing strategy, directives, and goals
+- Oversee all daily publishing operations
+- dentify and facilitate high-potential posts. Work with SEO team on optimization goals
+- Improve and enforce GitLab’s editorial style guide, including brand style, tone, and voice
+- Work cross-functionally with social, PR, and other marketing groups to develop distribution and amplification strategies
+- Collaborate with technical stakeholders across the organization to create relevant content to support messaging goals
+- Create content as needed
 
 #### Requirements
 
-- 3-5 years experience in a content-related role.
-- Experience writing about software.
-- Proven ability to research and write on technical topics independently.
-- Proven experience with SEO and keyword research.
-
-### Senior Content Editor
-
-#### Job Grade
-
-The Senior Content Editor is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Responsibilities
-
-- Conduct original research and reporting.
-- Cultivate story ideas with an astute journalistic eye.
-- Propose and execute on editorial themes.
-- Conduct SEO and keyword research.
-- Assist in newsjacking efforts.
-- Participate in the development of  the editorial strategy (e.g. share observations and insights, including topic performance, SEO optimization, industry trends, etc.)
-
-#### Requirements
-
-- 5+ years experience in a content-related role.
-- Experience covering technical topics like DevOps, digital transformation, CI/CD, and software development methods.
-
-### Managing Editor
-
-#### Job Grade
-
-The Managing Editor is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Responsibilities
-
-- Set the publishing strategy, directives, and goals.
-- Oversee all daily publishing operations.
-- Identify and facilitate high-potential posts.
-_ Work with SEO team on optimization goals.
-- Improve and enforce GitLab's editorial style guide, including brand style, tone, and voice.
-- Work cross-functionally with social, PR, and other marketing groups to develop distribution and amplification strategies.
-- Collaborate with technical stakeholders across the organization to create relevant content to support messaging goals.
-- Create content as needed.
-
-#### Requirements
-
+- Extends that of the Senior Blog Editor requirements
 - Proven experience as a managing editor or similar role, preferably within enterprise marketing.
 - Software development experience including Git, CI and CD.
 - 5+ years experience in journalism, content marketing, communications, or software development.
@@ -122,30 +90,32 @@ _ Work with SEO team on optimization goals.
 - You share our values, and work in accordance with those values.
 - BONUS: A passion for and strong understanding of the industry and our mission.
 
-### Senior Managing Editor
+### Manager, Blog Strategy
+
+The Manager, Blog Strategy reports to the Director, Global Content
 
 #### Job Grade
 
-The Senior Managing Editor is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Manager, Blog Strategy is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
-- Define strategy and direction, and drive execution of GitLab's blog:
-  - Serve as GitLab's go-to source for all things editorial.
-  - Set the publishing strategy, directives, and goals, together with the managing editor.
-  - Drive improvements to user experience on the GitLab blog, working with Digital Experience, Design, SEO, and other involved teams.
-- Effectively and efficiently partner with peer groups within marketing to ensure editorial strategy aligns with and supports broader marketing strategy:
+- Define strategy and direction, and drive execution of GitLab’s blog:
+- Serve as GitLab’s go-to source for all things editorial
+- Set the publishing strategy, directives, and goals, together with blog team
+- Drive improvements to user experience on the GitLab blog, working with Digital Experience, Design, SEO, and other involved teams
+- Effectively and efficiently partner with peer groups within marketing to ensure editorial strategy aligns with and supports broader marketing strategy
 - Take a data-driven approach to editorial strategy:
-  - Report on and socialise results
-  - Make recommendations to teams/groups who contribute
-  - Identify opportunities to consolidate, update, and rework successful content (do more with less)
+- Report on and socialize results
+- Make recommendations to teams/groups who contribute
+- Identify opportunities to consolidate, update, and rework successful content (do more with less)
 - Manage the editorial team:
-  - Coach and enable team to take ownership of OKRs and drive their own initiatives
+- Coach and enable team to take ownership of OKRs and drive their own initiatives
 - Continually improve publishing operations.
-- Improve and enforce GitLab's editorial style guide, including brand style, tone, and voice alongside the managing editor.
-- Manage the editorial budget.
-- Lead special editorial projects and initiatives including, but not limited to, our annual DevSecOps Survey.
-- Create content as needed.
+- Improve and enforce GitLab’s editorial style guide, including brand style, tone, and voice alongside blog team
+- Manage the editorial budget
+- Lead special editorial projects and initiatives including, but not limited to, our annual DevSecOps Survey
+- Create content as needed
 
 #### Requirements
 
@@ -156,7 +126,7 @@ The Senior Managing Editor is a [grade 9](/handbook/total-rewards/compensation/c
 - Experience as a people manager.
 - Markdown proficiency.
 - Familiarity of the software development processes including Git, CI and CD
-- You share our [values](/handbook/values/), and work in accordance with those values.
+- You share our values, and work in accordance with those values.
 - BONUS: A passion for and strong understanding of the industry and our mission.
 
 ## Career Progression

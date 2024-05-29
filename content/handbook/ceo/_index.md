@@ -155,7 +155,6 @@ Please follow these steps if you'd like me to review a [Merge Request (MR)](http
    1. Address any feedback I provide and ensure that the MR is mergeable (see `#3` above)
 1. After my approval is given merge the MR if I have not
 
-
 ### Please chat me the subject line of emails
 
 I prefer other forms of communication (e.g. slack) over email. I get a lot of email and I'm frequently not on top of it.
@@ -249,6 +248,7 @@ I try to plan my vacations around times when many team members in the United Sta
 ### Candidate interviews with GitLab Board Members
 
 The recruiter should share a prep package with the Board Member at least 3 business days in advance of a candidate interview. This should include:
+
 1. The purpose of the interview. The specific ask (for ex, sell, evaluate expertise in x) should be clearly stated
 1. Summaries per interview of all interviews done to date
 1. Any concerns
@@ -329,6 +329,7 @@ Often when attending an event, the organizers will reach out to see if I want a 
 ## Home Office Setup
 
 People regularly ask what I use for my home office setup. Below is a list of the items I use:
+
 - Microphone: [Shure MV7](https://www.shure.com/en-US/products/microphones/mv7)
 - Boom Arm: [RODE PSA 1 Swivel Mount Studio Microphone Boom Arm](https://www.amazon.com/PSA-Swivel-Mount-Studio-Microphone/dp/B001D7UYBO/)
 - Camera: [Sony Alpha 7C Full-Frame Mirrorless Camera - Silver (ILCE7C/S)](https://www.amazon.com/Sony-Alpha-Full-Frame-Mirrorless-Camera/dp/B08HW132XW)

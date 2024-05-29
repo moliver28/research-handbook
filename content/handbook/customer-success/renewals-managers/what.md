@@ -1,12 +1,6 @@
 ---
-
 title: Renewals Managers - What we do
 ---
-
-
-
-
-
 
 View the Renewals Manager handbook pages:
 - [Home](/handbook/customer-success/renewals-managers/home) - Information about the organization.
@@ -14,10 +8,9 @@ View the Renewals Manager handbook pages:
 
 Renewals Managers --> visit the internal handbook [page](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/) for more information.
 
-
 ---
 
-# FY24 Renewals Opportunity Management
+## FY24 Renewals Opportunity Management
 
 In FY24, the Global Renewals team will manage more customer-facing transactions than any other team at GitLab. As such, the Renewals team manages Renewal Opportunities with the utmost level of rigor and data quality to ensure a high degree of organization, effective collaboration with account teams, and successful Renewal outcomes.
 
@@ -65,7 +58,7 @@ The Renewals team primarily uses these key fields on Renewal Opportunities:
 - `Closed Lost Details` - free-form field for additional information and insight as to why we lost the deal
 - `Downgrade Details` - free-form field for additional information and insight as to why the customer reduced.
 
-# Renewals Forecast Methodology
+## Renewals Forecast Methodology
 
 In FY24 The Global Renewals team is responsible for providing the business with a renewal rate and churn forecast on a regular basis for the Enterprise-Growth (ENTG) Segment.
 
@@ -127,25 +120,25 @@ All `Will Churn` renewals should be closed-lost by their `Subscription Renewal D
 
 ## Forecasting Goal
 
-    - Maintain two full quarters of forecasted risk (by the end of Q1, Q2 and Q3 should be forecasted)
+- Maintain two full quarters of forecasted risk (by the end of Q1, Q2 and Q3 should be forecasted)
 
 
 ## Risk Intervention Tactics
 
 These tactics/motions may not always be approved or appropriate for each risk scenario, but they can serve as a starter and repository for ways in which Renewals Managers may intervene in renewal risk situations.
 
-    1. Executive involvement - email
-    2. Executive involvement - call w/ decision makers
-    3. Discounted professional services
-    4. CSM/E workshop
-    5. Discount/rebate on specific renewal
-    6. Offer better contract terms (Net 60, etc)
-    7. Product team - features preview
-    8. Favorable ramp deal
-    9. SA VSA engagement 
-    10. Peer phone call (peer of customer)
-    11. Board member contact
-    12. Develop bespoke ROI deck for customer internal justifications
+1. Executive involvement - email
+2. Executive involvement - call w/ decision makers
+3. Discounted professional services
+4. CSM/E workshop
+5. Discount/rebate on specific renewal
+6. Offer better contract terms (Net 60, etc)
+7. Product team - features preview
+8. Favorable ramp deal
+9. SA VSA engagement
+10. Peer phone call (peer of customer)
+11. Board member contact
+12. Develop bespoke ROI deck for customer internal justifications
 
 ## Kicking off the risk mitigation (end-to-end summary)
 
@@ -220,11 +213,10 @@ In summary, the Renewals Manager is forecasting that they believe there is a ris
 
 Note that if there is no risk on a given Renewal, the worst-case scenario and best-case scenario will be the same (a 100% renewal), and populating the `Renewal Swing ARR*`* field is not necessary.
 
-# Account team collaboration
+## Account team collaboration
 
 Renewals Managers work closely with Customer Success Managers/Engineers and Account Executives. After a customer purchases a subscription with GitLab - they can expect to be engaged by these persona in the following ways:
 
 - **Account Executive**: Manages the overarching customer relationship with GitLab on the account level. Primary focus is on how to grow the customers relationship with GitLab. Account Executives are sales people. Best practice - CC the CSM/AE on the account when in communication with customer.
 - **Customer Success Manager/Engineer**: Dependent upon our segmentation, a CSM or CSE could be assigned to an account or territory. Their primary focus is adoption, outcomes and advocacy. CSM/Es are not sales people - they are specialists in Customer Success. Best practice - CC the CSM/AE on the account when in communication with customer.
 - **Renewals Manager**: Manages a customers existing renewable business. Primary focus is on retention, with a secondary focus on growth. Renewals managers are a hybrid role - managing the renewal "sale" and the renewal process. They sit at the intersection of customer success and sales.
-

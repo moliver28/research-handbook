@@ -109,7 +109,7 @@ The Technical Instructional Designer is responsible for designing and developing
 #### Technical Instructional Designer Requirements
 
 - Knowledge of the software development life cycle, DevOps, and/or open source software is preferred
-- Familiarity with statically generated websites are preferred, as we take a [handbook-first](/handbook/handbook-usage/#why-handbook-first) approach to Learning & Development
+- Familiarity with statically generated websites are preferred, as we take a [handbook-first](/handbook/about/handbook-usage/#why-handbook-first) approach to Learning & Development
 
 #### Technical Instructional Designer Responsibilities
 

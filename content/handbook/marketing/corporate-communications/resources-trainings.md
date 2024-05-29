@@ -18,7 +18,7 @@ More information about additional trainings are coming soon.
 
 ### GitLab Media Training
 
-At GitLab, any team member who speaks to the media on behalf of GitLab must complete the GitLab Media Training as of September 13, 2021. Whether you’ve done media interviews in the past or you’re fairly new to it, you’ll learn some best practices and some guidance specific to speaking about GitLab (both the product and the company). **[Complete the training on Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-media-training)** where you’ll find the required video training and the slide deck with additional resources you can use as you prepare for your next media interview. 
+At GitLab, any team member who speaks to the media on behalf of GitLab must complete the GitLab Media Training as of September 13, 2021. Whether you’ve done media interviews in the past or you’re fairly new to it, you’ll learn some best practices and some guidance specific to speaking about GitLab (both the product and the company). **[Complete the training on Level Up](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/gitlab-media-training)** where you’ll find the required video training and the slide deck with additional resources you can use as you prepare for your next media interview.
 
 ### GitLab Speaker Training
 
@@ -28,11 +28,11 @@ At GitLab, any team member who speaks externally (to non-team members) on behalf
 
 ### How to Make Your Content Work Harder for You
 
-As a GitLab team member, no matter your role, you are typically actively engaging with our user community, customers, technology partners, prospects, etc. on a regular basis. Often these engagements are centered around some sort of content preparation to speak with the intended audience such as a presentation, video, speaking session at a conference or meetup, blog post on a topic or a webinar to showcase GitLab and/or technical expertise and thought leadership. 
+As a GitLab team member, no matter your role, you are typically actively engaging with our user community, customers, technology partners, prospects, etc. on a regular basis. Often these engagements are centered around some sort of content preparation to speak with the intended audience such as a presentation, video, speaking session at a conference or meetup, blog post on a topic or a webinar to showcase GitLab and/or technical expertise and thought leadership.
 
-The content amplification does not need to stop at that one event,blog post or webinar! Why not create a domino effect with your content to further the reach and increase viewership of the topic. 
+The content amplification does not need to stop at that one event,blog post or webinar! Why not create a domino effect with your content to further the reach and increase viewership of the topic.
 
-##### 🔗 Watch the training [here](https://youtu.be/VrKd89vJizM) (you'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video).
+##### 🔗 Watch the training [here](https://youtu.be/VrKd89vJizM) (you'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video)
 
 ##### Follow along with the presentation here: [How to make your content work harder for you](https://docs.google.com/presentation/d/1RPSkAWtXtWfbuoHD9D1iSdt5o1d7a4MA5QPGjGeFFXM/edit#slide=id.g29a70c6c35_0_68)
 
@@ -47,7 +47,7 @@ The content amplification does not need to stop at that one event,blog post or w
 
 ### Social Media 101 Training + Certification
 
-Anyone can test their knowledge of social media basics or get up to speed with our social media 101 training and certification. The video runs under 22 minutes and the knowledge assessment could be done in as little as 10 minutes. You could be more confident with social media in less than 45 minutes! 
+Anyone can test their knowledge of social media basics or get up to speed with our social media 101 training and certification. The video runs under 22 minutes and the knowledge assessment could be done in as little as 10 minutes. You could be more confident with social media in less than 45 minutes!
 
 ##### 🔗 [Watch the training here. You'll need to be logged into GitLab's Unfiltered YouTube account in order to access the video.](https://youtu.be/c5UcbNYVTu4)
 We're aware of a typo in the middle of the session. Instead of "do no" at 4:43 and 5:46, it should be "do not". Kristen says this in the session, but the slide is missing the last letter.

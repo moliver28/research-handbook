@@ -1,13 +1,6 @@
 ---
-
 title: Renewals Managers - How we do it
 ---
-
-
-
-
-
-
 
 View the Renewals Manager handbook pages:
 - [Home](/handbook/customer-success/renewals-managers/home) - Information about the organization.
@@ -17,16 +10,13 @@ Renewals Managers --> visit the internal handbook [page](https://internal.gitlab
 
 ---
 
-
-
-# Execution: Establishing fundamental excellence
+## Execution: Establishing fundamental excellence
 
 Renewals managers (RMs) execute a series of activities across a specifically defined customer renewal lifecycle. These activities are both internal and customer facing. We seek excellence in performing the fundamental tasks of renewals management.
 
 ## Renewals lifecycle
 
 The renewals team organizes it's coverage of a customer subscriptions around particular key stages during a customers journey through the renewal process. During each stage we prescribe specific activities that encourage renewals managers to deliver distinct, stage relevant customer outcomes.
-
 
 | Time Frame | Renewals Stage | Customer Outcomes (Qualitative)                                          |
 |-------|--------|-------------------------------------------------------------------------------------|
@@ -89,7 +79,7 @@ The following activities are recommended for each Renewals Manager as a baseline
 | X  | 0,1,2 | Closed Won    | Email           | Close email w/ gratitude, instructions | Email customer with gratitude and something unique to GitLab (moniker, closing stats - i.e. we did this in 8 touches, better than our benchmark of 10, etc.) |
 
 
-# Renewals policies
+## Renewals policies
 
 To build and maintain an efficient, fair, and high impact renewals organization, we have adopted the following policies and processes to describe our engagement with field sales, partners and customers.
 
@@ -97,8 +87,8 @@ To build and maintain an efficient, fair, and high impact renewals organization,
 
   - **Growth opportunities**
     - First order business is handled by Account Executives
-     - Customer add-ons are identified by Renewals Managers, and primarily managed by Account Executives (exceptions made for timing risk to customers environment; risk to experience)
-     - Connected-new opportunities are handled by Account Executive
+    - Customer add-ons are identified by Renewals Managers, and primarily managed by Account Executives (exceptions made for timing risk to customers environment; risk to experience)
+    - Connected-new opportunities are handled by Account Executive
   - **Renewal opporutnities**
     - Customer true-ups are handled by Renewal Manager
     - Renewals Managers do not waive true-ups
@@ -119,7 +109,7 @@ Our management philosophy regarding the expectations of booking renewals is simp
   - *No detrimental pulling*: We do not pull opportunities forward into quarters for the purpose of personal performance metric effect if it results in compression (i.e. offering a discount for an early contract reset to improve a quarters performance)
   - *Corresponding subscriptions*: We book opportunities that correspond, together (aka SaaS and Self-Managed migrations are booked at the same time)
 
-# Compensation
+## Compensation
 
 ## Churn Exceptions
 
@@ -128,10 +118,10 @@ Our management philosophy regarding the expectations of booking renewals is simp
     - a. Near-term add-on contraction (true up negotiations, budget optimizations)
     - b. Subscription migration and consolidations - where we can prove that users simply moved to another subscription (not-merged) on another opportunity, or to another account
     - c. System errors (non-standard contract resets that may net incorrectly, incorrectly merged opps)
-  2. Strategic Churn/Contraction
+  1. Strategic Churn/Contraction
     - a. Change in GTM (direct to indirect) and the associated margin event that results in contraction
     - b. Change in term length (must pass approvals)
-  3. Protected Churn/Contraction
+  1. Protected Churn/Contraction
     - a. Large/Influential Tier 3 deals where a churn event encompasses more than 10% of a Renewals Managers overall quarterly target may be considered
     - b. Recent account transition churn/contraction - opps that have been recently acquired as a result of account transition
 
@@ -142,15 +132,15 @@ Our management philosophy regarding the expectations of booking renewals is simp
   - When submitting a churn exception, chatter wth this syntax [Churn Exception Request] Details and context (link to supporting doc) CC: Manager for approval, CC: Caleb for approval CC: Sales Comp, CC: James Harrison
 
 
-# Metrics
+## Metrics
 
 The renewals organization puts a focus on execution through a balanced series of metrics.
 
 ## Primary Metrics
 
-- Renewal Rate (% of dollar)  
+- Renewal Rate (% of dollar)
    `[Won ARR Basis (for Clari)]` / `[ARR Basis (for Clari)]`
-- On-time renewal rate (% of dollar) (# of opps)  
+- On-time renewal rate (% of dollar) (# of opps)
   `Close date` >= `subscription renewal date`
 
 ## Secondary Metrics
@@ -166,5 +156,3 @@ The renewals organization puts a focus on execution through a balanced series of
 - Scaling: % of business executed through partners
 - Closing Velocity: Average quote to close time (measured by stage progression)
 - Customer Satisifacation: NPS, CSat scores
-
-

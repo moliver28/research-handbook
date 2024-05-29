@@ -27,7 +27,7 @@ description: "The Self-Service Data Team is responsible for leveraging data to o
 
 ## Who We Work With
 
-**Self Service Team** - We partner with the overall Self Service team to provide data insight around the self service customers (currently AMER SMB FO and Pooled accounts) to drive nARR and growth through sales efficiency and strategy.  
+**Self Service Team** - We partner with the overall Self Service team to provide data insight around the self service customers (currently AMER SMB FO and Pooled accounts) to drive nARR and growth through sales efficiency and strategy.
 
 **Central Data Team** - We work with the central data team by staying involved in cross functional data initiatives, collaborating where possible, and providing feedback on data models and the data that live in Snowflake. We also work with the data science team by staying up to date on their projects and models and incorporate many of their predictive outputs into our analyses and triggers,
 
@@ -110,7 +110,7 @@ The more points the better!
 
 If an ad-hoc request scores north of 7 points, we will re-consider prioritizing it above existing OKR work. -->
 
-## Data Definitions:
+## Data Definitions
 
 **Purpose**: To ensure that we are all speaking the same data language, we have created clear metrics that align with our agreed business definitions.
 
@@ -134,7 +134,7 @@ If an ad-hoc request scores north of 7 points, we will re-consider prioritizing 
 - Pooled Acct Set Growth Rates: Shows how the overall Pooled account CARR changes monthly/quarterly, broken in the TRX type components ("Growth" excludes Renewals)
 - Pooled Acct Set Growth nARR: Same as above but the actual nARR totals
 
-## SSOT Queries:
+## SSOT Queries
 
 SSOT data is necessary in order to have confidence in our metrics, have repeatable and replicable reporting, and for our data team to work more efficiently. We have created a [GitLab repo](https://gitlab.com/gitlab-com/sales-team/self-service/-/tree/main/SSOT%20Queries) to house our SSOT SQL queries for both our foundational [base queries](https://gitlab.com/gitlab-com/sales-team/self-service/-/tree/main/SSOT%20Queries/Base_Queries) and for [ad hoc analyses](https://gitlab.com/gitlab-com/sales-team/self-service/-/tree/main/SSOT%20Queries/Ad_Hoc_Analyses).
 
@@ -170,7 +170,7 @@ Dashboard queries are also housed in Sisense as snippets in order for the data t
 7. Run the extract
 8. Publish the updated Data Source
 
-#### Current SSOT Queries (Updated Quarterly):
+#### Current SSOT Queries (Updated Quarterly)
 
 - ARR Mart Price Quantity
 - Churn Renewal Rates (Low Touch)
@@ -190,7 +190,7 @@ Dashboard queries are also housed in Sisense as snippets in order for the data t
 - Touch Level Data on Opportunities (WIP)
 - TO BE ADDED: Tableau Queries
 
-#### Ad Hoc Analysis (updated Quarterly):
+#### Ad Hoc Analysis (updated Quarterly)
 
 - Account Tiering (deprecated)
 - Credit Card Failure and Payment Method Analysis

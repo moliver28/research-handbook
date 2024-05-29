@@ -13,11 +13,11 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 ---
 
-As part of GitLab's [paid time off policy](/handbook/paid-time-off/), team members are encouraged to take time off. However, as customer-facing team members this can feel difficult, so this page is intended to help guide CSMs to ensure they can regularly take time off, avoid burnout, and keep their customers successful.
+As part of GitLab's [paid time off policy](/handbook/people-group/paid-time-off/), team members are encouraged to take time off. However, as customer-facing team members this can feel difficult, so this page is intended to help guide CSMs to ensure they can regularly take time off, avoid burnout, and keep their customers successful.
 
 ## Before you go
 
-To take PTO, please follow the guidelines in the [PTO policy](/handbook/paid-time-off/) and be sure to enter your time off in Time Off by Deel.
+To take PTO, please follow the guidelines in the [PTO policy](/handbook/people-group/paid-time-off/) and be sure to enter your time off in Time Off by Deel.
 
 Before your PTO begins, please follow these additional guidelines:
 
@@ -25,7 +25,7 @@ Before your PTO begins, please follow these additional guidelines:
 1. [Communicate](#communicate-your-time-off-plan-to-colleagues) your time off to colleagues.
 1. [Notify customers](#notify-customers-and-make-necessary-changes) and adjust plans as necessary.
 2. [Set up your email autoresponder](#email-templates).
-3. Review our [PTO communication guidelines](/handbook/paid-time-off/#communicating-your-time-off).
+3. Review our [PTO communication guidelines](/handbook/people-group/paid-time-off/#communicating-your-time-off).
 
 ## Establish Coverage
 
@@ -42,7 +42,7 @@ Be sure to confirm with whoever will be covering for you the dates you'll be out
 Backup CSMs should not be expected to support the entire book of business of the vacationing CSM; however, they should stay abreast of what is going on with those accounts during the coverage period. For example, you should respond to any customers that reach out to you, but it's also recommended to spend 5 minutes each day of coverage checking if the CSM has been pinged in either Slack or in GitLab.com [collaboration projects](/handbook/customer-success/csm/engagement/). Here are some tips on how to do this quickly and easily:
 
 Slack:
-1. Use the search bar and search the person's name, then review any pings they may have gotten and answer appropriately.  
+1. Use the search bar and search the person's name, then review any pings they may have gotten and answer appropriately.
 1. Alternatively, to automatically be notified if the CSM is pinged, click on `GitLab` at the top left of your Slack, go to `Preferences`, and enter the CSM's Slack handle in the `My keywords` box. (Remember to remove this when they return!)
 
 GitLab.com:
@@ -66,7 +66,7 @@ As the East team continues to trial this program, they will share feedback and i
 
 ## Communicate your time off plan to colleagues
 
-In accordance with our ["no ask, must tell"](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) policy, ensure that you are informing the relevant team members of your out-of-office plan. This includes:
+In accordance with our ["no ask, must tell"](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) policy, ensure that you are informing the relevant team members of your out-of-office plan. This includes:
 
 - SAE/AE and SA for the accounts you cover
 - [Backup CSM](#backup-csms)

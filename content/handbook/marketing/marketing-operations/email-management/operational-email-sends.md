@@ -31,7 +31,10 @@ Marketing Ops is not responsible for the list pull. You must open an [list reque
 Please follow information found on [this page](/handbook/marketing/emergency-response/#marketing-emergency-response), as these emails are highly important, urgent and follow a different order of operations for deploy.
 
 
-### Security Release Notifications
+### Security Notifications
+
+These emails are sent when there is a security related update in a patch release, or a critical patch applied. The patch releases are typically 2x a month.
+
 If there is going to be a release during EMEA work hours, please notify us ahead of time to arrange for coverage. If unplanned and urgent, follow the [coverage matrix defined here](/handbook/marketing/emergency-response/#coverage-matrix)
 
 Requestor Responsibilities:
@@ -51,7 +54,7 @@ Marketing Ops Responsibilities:
 - Confirm email copy and blog have similar content
 - Schedule the email, confirm the send and paste in issue
 
-#### Marketing Operations Steps to deploy a Security Release Notification
+#### Marketing Operations Steps to deploy a Security  Notification
 1. Check issue for completeness
 2. Do not edit email itself, only edit the program tokens with updated information
 
@@ -84,6 +87,7 @@ Emails are sent to update a specific group of people about a change to the produ
 For more significa in sequence by the head of the department that is leading the communication (e.g., Product, Engineering, Security), Vice President of Customer Success, Legal, or appropriate designates (if they are out on PTO or unavailable).
 
 Communication checklist:
+- Check with the [CS Ops team](h/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/) to see if they should be sending this email via gainsight 
 - Loop in Customer Service and Field teams if this change will impact them or a major change/communication
 - For more significant emails regarding pricing, material changes or issues with significant risk the following must be approved in sequence by the head of the department that is leading the communication (e.g., Product, Engineering, Security), Vice President of Customer Success, Legal, or appropriate designates (if they are out on PTO or unavailable).
 
@@ -106,7 +110,7 @@ The email should answer the following questions in the following order:
 1.  What is your call to action? What should you do?
 1.  Where should you go if you need support? If applicable, where do you provide feedback (e.g., forum, issue, other)? If additional updates will be provided, when and how will that information be shared? 
 
-To request an email, follow directions on [this page](/handbook/marketing/marketing-operations/email-management/#request-non-demand-generation-emails)
+To request an email, [create an issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=request-operational-email)
 
 ##### Sample email 
 

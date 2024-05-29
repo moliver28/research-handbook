@@ -35,6 +35,7 @@ The CES team utilizes [GitLab Service Desk](https://about.gitlab.com/stages-devo
 ### Screening
 
 No action is needed by the CES team on this step. For additional information:
+
 - Once a candidate is moved into the Screening stage, the candidate is automatically sent the GSIS.
 - When scheduling a candidate for a screening call with a recruiter, the Calendly link is to be used. We will no longer use the "Request Availability" option for screening calls as this creates unnecessary manual work
    - If the candidate is sourced, the sourcer should send the Calendly
@@ -51,7 +52,7 @@ No action is needed by the CES team on this step. For additional information:
    - CES will be using the Zoom integration with [Prelude]({{< ref "prelude" >}}) for interviews
    - After the candidate has provided the availability, as an optional step the CES team members can send the Candidate First Touch Email from Greenhouse if there are scheduling challenges and are pausing on sending the Guide for 24 hours.
 - This email is sent to inform the candidates that their interview scheduling is in the process and to ensure better engagement with the candidates.
-- If CES sees an alert to merge applicant profiles, and those profiles are a match (candidates' email address, phone number, or resume matches), they will merge the applicant profiles. Visit [the Candidate Hygiene section of the home page]({{< ref "/handbook/hiring#interview-stages" >}}) for instructions.
+- If CES sees an alert to merge applicant profiles, and those profiles are a match (candidates' email address, phone number, or resume matches), they will merge the applicant profiles. Visit [the Candidate Hygiene section of the home page](/handbook/hiring#interview-stages) for instructions.
 - CES will [send interview confirmations via Guide]({{< ref "./coordinator#using-the-candidate-guide" >}})
 - CES will not automatically schedule next interviews based off of scorecards
    - The Recruiter or Hiring Manager will need to follow the same scheduling procedures as above in Greenhouse to request scheduling assistance on the next round of interviews.
@@ -78,21 +79,25 @@ To schedule a technical interview, CES should follow the process outlined below:
    - Note: CES has specific “pools” of interviewers to use in Prelude when scheduling technical interviews. Unless advised otherwise by the recruiter, please use “ruby on rails”, “frontend” and “golang” pools when selecting an interviewer for these specific interviews.
 - CES will then open the Guide extension in Greenhouse
    - Under Guide Process click Team Interview. Then click the interview you just scheduled. You will see a section to “add a description”. CES will insert the appropriate text expander snippet here. This provides the candidate with additional information about what they can expect for their technical interview.
-- CES will proceed with sending the Guide. Guide processes can be found [here]({{< ref "/handbook/hiring/guide" >}}).
+- CES will proceed with sending the Guide. Guide processes can be found [here](/handbook/hiring/guide).
 
 #### Executive Interview Scheduling
 
 The process below outlines the steps to be followed by the CES team in scheduling executive interviews while partnering with the Executive Business Administrator(EBA) team and executive recruiters. The Candidate Experience team and EBA team will adhere to a 24 hour working day SLA response time for scheduling interviews. Interview requests coming from Executive recruiters are to be scheduled in the executive calendar only.
 
 1. The CES desk receives the scheduling ticket from the recruiter.
+
 - CES refers to the EBA cheat sheet doc for executive interviewer preferences and contacts the respective EBA with interview details in the #EBA-team-interview-requests channel.
+
 1. CES adds the “Pending EBA label” to the ticket and the link to the EBA slack conversation in the scheduling ticket while awaiting response.
-  
+
  **Note: Follow up SLA is 24 hours to check for time conflicts delaying scheduling. If the times do not match, CES may contact the candidate
    requesting more availability or suggest some times that works for the interviewer.**
+
 1. Once the EBA confirms the best time and date for the interview. CES sends the interview confirmation email through Guide to the candidate.
 
   **The email template used for the first time interview confirmation  - First Time Single Executive interview. Please use the "Updated Interview" or "Single Interview" email templates in Guide once the candidate progresses to the next level in the interview plan.**
+
 1. CES will schedule the interview through Prelude & send the calendar invite to the interviewer. Make sure the invite is always marked private.
 1. CES notifies EBA of scheduled interviews in the original slack message with a check mark emoji and close the ticket.
 
@@ -128,7 +133,7 @@ On occasion, candidates may need to interview in person with a team member at Gi
 
 Please ensure you have the [Prelude Chrome Extension](https://chrome.google.com/webstore/detail/interview-schedule/nbimjaonnklighojgkihkipemiaimgdk) installed on your Chrome Browser.
 
-Prelude processes can be found [here]({{< ref "/handbook/hiring/prelude" >}}).
+Prelude processes can be found [here](/handbook/hiring/prelude).
 
 ### Zoom troubleshooting using Prelude when there is a zoom link error
 
@@ -145,7 +150,7 @@ When a candidate or an interviewer reaches out to CES via slack / email / Guide 
 
 Please ensure you have the [guide Chrome extension](https://chrome.google.com/webstore/detail/resource-button/ikeemflbkbdhkgmgbdpeapmnnggbfogd) installed on your Chrome Browser.
 
-Guide processes can be found [here]({{< ref "/handbook/hiring/guide" >}}).
+Guide processes can be found [here](/handbook/hiring/guide).
 
 #### If a Candidate Withdraws from the Hiring Process
 
@@ -165,14 +170,14 @@ Once the NDA has been returned, upload the document in the "details" section of 
 
 ### Background Screenings
 
-GitLab will obtain references and complete a criminal [records check]({{< ref "people-policies#background-checks" >}}) with employment verifications.
+GitLab will obtain references and complete a criminal [records check](/handbook/people-group/contracts-probation-periods/#background-screenings) with employment verifications.
 
 - If the candidate is located in Belgium and the role is not Grade 9 or higher, the CES or Recruiter (whoever kicks off the reference check process) should send the job requisition to the legal team via the #legal Slack channel during Reference/Background screening phase to determine whether or not the role is a position of trust.
 - The recruiter should select "Email the team" and send the "CES Start Contract Request" email to CES* to initiate the offer letter and background screening processes after the verbal offer has been made.
-- The Candidate Experience Specialist will [initiate a background screening]({{< ref "people-policies#background-checks" >}}) and start the contract process for the candidate.
+- The Candidate Experience Specialist will [initiate a background screening](/handbook/people-group/contracts-probation-periods/#background-screenings) and start the contract process for the candidate.
 - Background screening results will be received by the Senior Background Check Specialist and escalated to Team Member Relations and Legal where appropriate
 
-For additional information on reviewing Background screenings see [this page]({{< ref "people-policies#background-checks" >}}).
+For additional information on reviewing Background screenings see [this page](/handbook/people-group/contracts-probation-periods/#background-screenings).
 
 #### Initiating a Background Screening through Greenhouse
 
@@ -273,6 +278,7 @@ Our hiring process includes an **optional** step where candidates can request to
 All current TMRGs have agreed to take part in this process. You can find the group list [here](/handbook/company/culture/inclusion/erg-guide/).
 
 When a candidate requests to meet with a TMRG team member via the Reference Check Form, the Candidate Experience Specialist will do the following:
+
 1. Reach out to TMRG volunteers for this call in the dedicated #candidate_tmrg-call slack channel.
     - Select Shortcuts button - looks like a plus sign with lightening bolt
     - Fill in appropriate details
@@ -293,11 +299,12 @@ These calls don’t require you to submit a scorecard in Greenhouse. If a candid
 
 [See Candidate Experience Specialist Contract Processes section of the handbook]({{< ref "ces-contract-processes" >}})
 
-The [Candidate Experience Specialists]({{< ref "/job-families/people-group/candidate-experience" >}}) will prepare the contract. While the Candidate Experience Specialist will prioritize a contract above other tasks, the expected turn around on the task is 1 business day. If the contract is time-sensitive, please provide context for the rush. If the Candidate Experience Specialist cannot meet the 1 business day they will inform the recruiter and CES manager via Greenhouse and will provide context.
+The [Candidate Experience Specialists](/job-families/people-group/candidate-experience) will prepare the contract. While the Candidate Experience Specialist will prioritize a contract above other tasks, the expected turn around on the task is 1 business day. If the contract is time-sensitive, please provide context for the rush. If the Candidate Experience Specialist cannot meet the 1 business day they will inform the recruiter and CES manager via Greenhouse and will provide context.
 
 Recruiters should make themselves familiar with the basic knowledge of the contract processes that can be found on the [CES Contract Processes]({{< ref "ces-contract-processes#framework-coord" >}}) page and the [Contracts, Probation Periods & PIAA]({{< ref "contracts-probation-periods#employment-agreements" >}}) page, as well as the [Employment Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/) page in the internal handbook.
 
 1. Check all aspects of the offer:
+
   - Do we have the new team members' legal name in their profile?
     - _It is extremely important to enter the team member's full legal name (as much as it is known before visually seeing a legal ID). Full legal name should be provided for the [background screening]({{< ref "people-policies#background-checks" >}}) process. It is important to be as accurate as possible, including the person's full legal name as well as any accents used for their name.
   - Is the new team members' address listed on the details page?
@@ -306,28 +313,31 @@ Recruiters should make themselves familiar with the basic knowledge of the contr
   - Is the start date one that is not a "no start date" and provides an adequate amount of time for People Connect and IT to have sufficient notice? Ideally, we are providing 10 days notice, but the teams can work with less if we let them know.
   - Has the signatory been determined by the Candidate Experience Specialist and updated?
   - Has the Entity been selected based on the New Hire's location? If the job title has Federal or PubSec included, please check with the Recruiter if they set up the contract as Inc rather than Federal LLC to confirm.
+
 1. [Generate the contract within Greenhouse]({{< ref "ces-contract-processes" >}}) using a template based on the details found in the offer package.
 1. Contact the recruiter or new team member to gather any missing pieces of information (note: the address can be found on the background screening information page).
 1. If the contract was created outside of Greenhouse, ensure that the contract has been reviewed and approved by a member of the Legal team.
 1. [Stage the contract in DocuSign from within Greenhouse]({{< ref "ces-contract-processes" >}}), which emails the contract to the signing parties, with the recruiter, talent acquisition manager, and the hiring manager cc'd. It will be sent to the designated signatory as previously determined in Offer Details.
 1. **Before marking the candidate as hired** the Candidate Experience Specialist will reject the candidate from any other active roles including roles for which they are a prospect (without sending a rejection email). *NOTE: If this step is skipped, the profile will not be exported to Workday when the candidate is marked as hired.*
-1. **Before marking the candidate as hired** on all candidates, the CES will make sure that the profiles were merged (for internal candidates, this will be indicated if the candidate shows their original `Hired` inactive role). [View candidate merge instructions in the Candidate Hygiene section]({{< ref "/handbook/hiring#interview-stages" >}}).  *NOTE: If this step is skipped, it will create problems with privacy and increases the possibility of a new hire seeing their own Greenhouse profile.*
+1. **Before marking the candidate as hired** on all candidates, the CES will make sure that the profiles were merged (for internal candidates, this will be indicated if the candidate shows their original `Hired` inactive role). [View candidate merge instructions in the Candidate Hygiene section](/handbook/hiring#interview-stages).  *NOTE: If this step is skipped, it will create problems with privacy and increases the possibility of a new hire seeing their own Greenhouse profile.*
 1. **Before marking the candidate as hired** the CES will ping the recruiter and give them 24 hours to contact/reject all other active candidates. Once this is complete, the CES can proceed with hiring in GH (if candidates are still present in req, select the "keep open" option when setting candidate to hired. This will trigger a new opening to ensure candidates are still present in req)
 1. **Before marking the candidate as hired** the CES will verify if the listed Recruiter and Coordinator in the `Details` >  `Source & Responsibility` section of the candidate's profile is correct to ensure accuracy in reporting.
 1. The CES will mark the candidate as "Hired" in Greenhouse: *when prompted, select the option to close the req.* Please note, the new hire's Workday profile will be generated automatically.
 1. For internal hires ONLY - the CES will send the automated email template labeled "Internal Hiring Survey". You can also cancel the survey that will appear automatically when the candidate is marked as hired.
 1. The Candidate Experience Specialist will email the new team member the Welcome Email from Greenhouse with a cc to IT Ops, the Hiring Manager and the Recruiter.  For new team members in USA, use 'GitLab Welcome - US only' template.  For team members located outside the US, use 'GitLab Welcome - non US' template
-  - Instructions on the [Notebook Ordering Process](/handbook/business-technology/team-member-enablement/onboarding-access-requests/#gitlab-laptops) are included with this email.
+
+  - Instructions on the [Notebook Ordering Process](/handbook/business-technology/end-user-services/onboarding-access-requests/#gitlab-laptops) are included with this email.
+
 1. Should the start date change after the welcome email is sent please see the required steps [here]({{< ref "ces-contract-processes#how-to-update-a-start-date-after-the-contract-is-signed" >}}).
 1. Exception to the start date and onboarding date alignment: If a new team member requires a specific start date for legal reasons (cannot have break in employment) but onboarding on that specific day is restricted (because of Public Holiday, Family & Friends Day, etc.), the Candidate Experience Specialist can notify the People Connect Team in the private Slack channel `people-connect_ces`. The Contract, Greenhouse and Workday should reflect the same start date regardless of the actual onboarding date.  
 
 The last part of the Candidate Experience Specialist's responsibilities with a candidate is to hire them into the system and pass them on to People Connect. The hire-in process includes more complexities, so CES created the following guidelines to clarify start date exceptions and confidentiality around new hires.
 
-**SETTING GREENHOUSE REMINDERS** - CES should utilize reminders in Greenhouse at least 12 days before the start date and maintain consistent communication with the recruiters to ensure the candidates in the requisition are cleared completely. CES can make use of the "Need to hire into Workday" label and set due dates in the GitLab issue to track as well.
+**SETTING GREENHOUSE REMINDERS** - CES make use of the due date feature in the GitLab issue to keep track of the start date and maintain consistent communication with the recruiters to ensure the candidates in the requisition are cleared completely. CES can make use of the "Need to hire into Workday" label and set due dates in the GitLab issue to track as well.
 
-The People Connect team has an SLA period of 10 working days to onboard an entity-based team member. In the event of an exception, the minimum notice required for the People Connect team is 5 working days.
+The People Connect team has an SLA period of 10 working days to onboard an entity-based team member. In the event of an exception, the minimum notice required for the People Connect team is 5 working days. The People Connect team requires a minimum of 10 working days to successfully onboard a new team member from a PEO.
 
-**PROACTIVE COMMUNICATION**- CES should promptly notify in the #peopleconnect-ces slack channel when the CES experiences a delay/ issues with the PEO contract generated. In case of any start date issues, the responsible CES must keep the People Connect team updated about the changes. The People Connect team requires a minimum of 10 working days to onboard a new team member from a PEO successfully. While generating the PEO contract, please ensure the PEO payroll cut off date is also factored in. Most recruiters are aware of these dates.
+**PROACTIVE COMMUNICATION**- It's essential that CES promptly notify in the #peopleconnect-ces slack channel when they experience a delay or issues with the contracts generated and mark a team member as hired. In case of start date issues, it's the responsibility of the CES to keep the People Connect team updated by initiating the “Hiring SLA exception request” workflow in the channel. This workflow provides the People Connect team with the necessary information like - the proposed joining date, and reasons for requesting the exception, whether the team member is informed about the impacts of joining on short notice, etc. This information allows the people Connect and IT team to analyze the case, discuss the laptop procurement scenario based on the location, and come to a final decision.
 
 **NEW HIRE EXCEPTIONS** - For any confidential hires that necessitate a public announcement, please inform Alissa Meeks or Melody Patel about the specific scenario. Additionally, loop them in any communication related to the role to keep them in the loop. This will also be considered as an exception.
 

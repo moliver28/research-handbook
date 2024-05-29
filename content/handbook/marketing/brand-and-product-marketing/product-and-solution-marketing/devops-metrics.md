@@ -15,17 +15,17 @@ These four "DORA" metrics are:
 - Change Failure Rate
 
 
-DORA metrics are available in GitLab [Group-level value stream analytics (VSA)](https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics) and in the [CI/CD analytics](https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics.html). APIs are also available for all four DORA metrics. To learn more check out the [DORA API documentation](https://docs.gitlab.com/ee/api/dora/metrics.html#get-project-level-dora-metrics)  
+DORA metrics are available in GitLab [Group-level value stream analytics (VSA)](https://docs.gitlab.com/ee/user/analytics/#devops-research-and-assessment-dora-key-metrics) and in the [CI/CD analytics](https://docs.gitlab.com/ee/user/analytics/ci_cd_analytics.html). APIs are also available for all four DORA metrics. To learn more check out the [DORA API documentation](https://docs.gitlab.com/ee/api/dora/metrics.html#get-project-level-dora-metrics)
 
 Here’s an overview of each metric, with a look at how they matter to the company as a whole.
 
-### Deployment Frequency:
+### Deployment Frequency
 
-How often you’re deploying software to production. This is one of the most foundational DevOps/Agile metrics because if you aren’t deploying regularly, you can’t be delivering value.  
+How often you’re deploying software to production. This is one of the most foundational DevOps/Agile metrics because if you aren’t deploying regularly, you can’t be delivering value.
 
 It’s worth noting that this doesn’t tell you how valuable the software you’re deploying actually is—we’ll cover that in the next section—but without it, there’s nothing to measure. You need to deploy to generate value. And, most likely, you already have a similar metric like this in play. This should be the easiest metric to find and report.
 
-### Mean Lead Time for changes (LEAD TIME):
+### Mean Lead Time for changes (LEAD TIME)
 
 This is the time from code commit to having that code live in production. For some companies, this is a matter of minutes. For others, it’s months. There are schools of thought that will tell you that what you’re really measuring here is *cycle time*, not lead time, but the important thing is that you measure this, whatever the name.
 
@@ -57,7 +57,7 @@ If you’re tracking CFR, you can start to make data-driven decisions about thin
 
 So, in summary, these four DORA metrics are a wonderful place to start, because:
 
-- They enable you to understand Velocity and Speed AND also overall Quality and Stability.  
+- They enable you to understand Velocity and Speed AND also overall Quality and Stability.
 - They’re fairly easy for DevOps teams to generate on their own, using tools they have available today
 - They provide useful guidance for what you’re already doing
 - They help the business understand how DevOps and business can work together with a shared concept of value

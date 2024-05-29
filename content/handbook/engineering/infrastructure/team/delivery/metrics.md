@@ -4,7 +4,7 @@ title: "Delivery Team Metrics"
 description: "The Delivery Team enables GitLab Engineering to deliver features in a safe, scalable and efficient fashion to both GitLab.com and self-managed customers."
 ---
 
-# Metrics
+## Metrics
 
 [Delivery team] uses Mean Time To Production (MTTP) as an indicator of our speed capabilities
 to deploy application changes into production.
@@ -12,7 +12,8 @@ to deploy application changes into production.
 - [Performance Indicator]
 - **Target: 12 hours.**
 
-{{< sisense chart="10055732" dashboard="764878" >}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/InfrastructureKPIs/MTTP" >}}
+{{< /tableau >}}
 
 MTTP measures the elapsed time (in hours) from merging a change in gitlab-org/gitlab project master
 branch, to deploying that change to GitLab.com.

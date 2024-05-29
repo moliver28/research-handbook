@@ -78,9 +78,11 @@ As there may be many projects and proposals in flight at any time, there are a f
 When scoping custom SOWs, the Professional Services Engagement Manager partners with the SA/CSM/SAE to create a custom engagement that will help meet the customer's needs, and push the SOW through the appropriate approval process. All Custom SOW's will require approval from PS Leadership.
 
 ##### Estimate creation
+
 - The account team (SAE/ISR/SA/CSM) can initiate the process by creating a new scoping issue via the [Services Calculator](https://services-calculator.gitlab.io/). Through this process they will be asked some high-level questions, and a SSOT table will arrive in the issue to drive the scoping process. The SA/CSM should work with the Customer initially to complete this as well as they can. The Professional Services Engagement Manager will then create an Estimate based upon the inputs provided, and provide a link for review.
 
 ##### SOW creation
+
 - Once the Estimate has been reviewed by the account team and Customer, any feedback received, and refinement made, we can then move to generating the SOW. As part of the scoping issue, the Engagement Manager will need to understand whether there is an MSA in place, or standard terms are to be used.
 - We prefer customers to mark up our agreement and SOW document if they request changes. If they require the use of their own services terms or SOW, please contact the PS team.
 

@@ -13,13 +13,13 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 
 
 
-# <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Product and Solution Marketing Handbook
+## <i class="fas fa-bullhorn fa-fw color-orange font-awesome"></i> Welcome to the GitLab Product and Solution Marketing Handbook
 
 We create positioning and messaging to fuel demand and adoption of GitLab’s solutions and products. We develop market and competitive intelligence in order to develop actionable insights on market trends, customer needs, and competitive insights that guide go-to-market and product strategy. We identify, recruit, and activate customer advocates to demonstrate momentum and trust in the market.
 
 {: .no_toc}
 
-# What does Product and Solution Marketing do?
+## What does Product and Solution Marketing do?
 
 Our mission is to accelerate GitLab’s path to market by developing insights, positioning, and messaging that communicate the value of our platform and solutions.
 
@@ -39,7 +39,7 @@ There are [10 key capabililities](https://docs.google.com/spreadsheets/d/1SqvXqr
 - Competitive Marketing
 - Analyst Relations
 
-# <i class="fas fa-star fa-fw color-orange font-awesome"></i>Go-to-market (GTM) Strategies
+## <i class="fas fa-star fa-fw color-orange font-awesome"></i>Go-to-market (GTM) Strategies
 
 We develop and champion **go-to-market strategies** that take into account our sales goals, product strengths/limitations, and marketing vehicles. These strategies include recommendations on product and solution areas upon which to focus our marketing and sales efforts and provide supporting messaging, positioning, personas, key assets/content, demos, sales enablement, and more. We deliver our stories/messages to customers, analysts, press through collateral, events, customer meetings, etc., where we get first-hand feedback from the audience to iterate and improve our strategies. We champion the customer perspective for continuity of experience across the various customer touchpoints.
 
@@ -66,7 +66,7 @@ graph LR;
   end
 ```
 
-Each team within Product and Solution Marketing contributes uniquely and equally toward a comprehensive GTM strategy that includes:  
+Each team within Product and Solution Marketing contributes uniquely and equally toward a comprehensive GTM strategy that includes:
 
    - characteristics of accounts and personas to pursue with marketing and sales,
    - routes to market (e.g. direct, channels),
@@ -78,7 +78,7 @@ Each team within Product and Solution Marketing contributes uniquely and equally
 [Solutions GTM Page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/) has links to all of this and more.
 
 
-# <i class="fas fa-star fa-fw color-orange font-awesome"></i>Subject matter expertise
+## <i class="fas fa-star fa-fw color-orange font-awesome"></i>Subject matter expertise
 
 Product marketers are core to GitLab’s go-to-market process, operating at the intersection of product management, sales, customer success, and marketing. Some examples of initiatives led by product marketing team include:
 - They lead go to market across different channels working with many cross functional teams within marketing. E.g., Solutions based Go to Market of Automated Software Delivery or Security and Governance
@@ -105,7 +105,7 @@ All Product and Solution Marketing work is aligned to the overall Marketing OKRs
 - @supadhyaya - Senior Manager, DevSecOps Platform
 - @anair5 - Product Marketing Manager, Continuous Delivery, Analytics and Insights
 
-# <i class="fas fa-star fa-fw color-orange font-awesome"></i>Marketing and Sales Enablement
+## <i class="fas fa-star fa-fw color-orange font-awesome"></i>Marketing and Sales Enablement
 
 Through research and iteration, Product and Solution Marketing becomes the subject matter experts around key product capabilities and/or solutions. We provide the voice of the customer to help to connect the dots across the marketing functions (web, campaigns, digital ads, ABM, events) and sales stages (SDR nurture, SAEs/SAs pursuit/close, CSM expansion) by providing an outside-in perspective of our buyer's journey experience, along with that of their key influencers, from pain to purchase and from interest to sales. We strive to optimize the journey to efficiently achieve return on marketing and sales investment.
 
@@ -113,7 +113,7 @@ Product and Solution Marketing team members serve as subject matter experts and 
 
 
 
-# Metrics
+## Metrics
 
 The Product and Solution Marketing organization is often considered the nexus that brings together research, customer and market insights. The Product and Solution Marketing organization collaborates and partners with other teams in marketing for certain execution elements, such as Digital Experience, Brand, and Integrated marketing.  Additional key collaborators are sales for using the revenue plays for effective iteration, and Product Management to help with customer engagement via our CAB as well as providing input into analyst outreach.
 

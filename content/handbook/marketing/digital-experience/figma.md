@@ -13,18 +13,18 @@ description: "The purpose of this page is to present guidelines for Figma."
 # Figma Process
 
 
-The purpose of this page is to present some Figma process guidelines for the GitLab marketing team. This page is for people who create designs in Figma, people who review designs in Figma, and for engineers who receive Figma files. This page is not a Figma 101. 
+The purpose of this page is to present some Figma process guidelines for the GitLab marketing team. This page is for people who create designs in Figma, people who review designs in Figma, and for engineers who receive Figma files. This page is not a Figma 101.
 
 ## File naming convention
 
 **Figma master project name:**
 * `Parent page / Child page (if none, leave blank)`
-    * *`Solutions / DevSecOps`* 
+    * *`Solutions / DevSecOps`*
     * *`Pricing Page`*
 
 **Master project files:**
 * `Parent page / Child page / Type or Phase / Version`
-    * *`Solutions / DevSecOps / Wireframes / 1.0`* 
+    * *`Solutions / DevSecOps / Wireframes / 1.0`*
     * *`Solutions / DevSecOps / Design / 1.0`*
     * *`Pricing Page / Mock / 1.0`*
 
@@ -33,7 +33,7 @@ The purpose of this page is to present some Figma process guidelines for the Git
 * Pages that are ready for engineering should be labeled with the ship icon:
     * 🚢 PAGE NAME 🚢
 
-Example: In this example, the pages ready for engineering are at the top labeled with a 🚢 icon and a divider separates other working pages. 
+Example: In this example, the pages ready for engineering are at the top labeled with a 🚢 icon and a divider separates other working pages.
 
 ![Diagram of a headless CMS](/images/handbook/growth-marketing/figma-page-naming.png)
 
@@ -50,7 +50,7 @@ Add READ:ME frames when appropriate. Some reasons to add READ:MEs are:
 
 [READ:ME Template >](https://www.figma.com/file/9GzJNLpyzlFmiimnmEfyt7/README-Templates?node-id=0%3A1)
 
-## Feedback loops:
+## Feedback loops
 
 * Leave feedback in Issues and MRs when possible.
 * Link to the Figma frame when necessary (check “link to selected frame”)

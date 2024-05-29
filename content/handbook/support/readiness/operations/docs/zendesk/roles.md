@@ -74,6 +74,30 @@ the right-hand side and then click `Delete`.
 This will cause a pop-up modal to appear asking you to confirm the action. Click
 the red `Delete role` button to do so.
 
+## Troubleshooting
+
+#### Pipeline error "Blank ID"
+
+This means the script detected a YAML file within `data/` that has an `id` value
+of blank (or nil). You will need to locate the file mentioned in the error and
+correct that.
+
+#### Pipeline error "Blank name"
+
+This means the script detected a YAML file within `data/` that has an `name`
+value of blank (or nil). You will need to locate the file mentioned in the error
+and correct that.
+
+#### Pipeline error "GitLab errors"
+
+This is a generic error message that will detail some error that occurred when
+trying to either create or update the tag used on the source project. The exact
+steps to fix this will vary based on the nature of the error itself. You will
+need to review the error and determine the next steps from there.
+
+If you are unsure how to proceed, it is best to seek assistance from the wider
+team.
+
 ## Source Projects
 
 #### Zendesk Global

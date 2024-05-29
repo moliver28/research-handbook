@@ -5,17 +5,7 @@ title: How to Engage with Product Management
 
 This document describes how to engage with the product management team.
 
-
-
-
-
-
-
-
-
 ## Where to reach Product Managers
-
-
 
 - **[Public Issue Tracker (for Product)](https://gitlab.com/gitlab-com/Product/issues)**; please use confidential issues for topics that should only be visible to team members at GitLab.
 - **[Chat channel](https://gitlab.slack.com/archives/product)**; please use the `#product` chat channel for questions that don't seem appropriate for the issue tracker.
@@ -34,7 +24,7 @@ In general terms, if you require something to happen with the product or if you 
 
 In the same vein, PMs are required to ask for feedback from the stakeholder on particular changes. If a change will affect GitLab.com and its maintenance, a PM should proactively reach out to infrastructure engineers to help with the scope, design, and decisions regarding this change.
 
-It is then up to the PM to weigh all these inputs and decide on a [prioritization](#prioritization). It is to be expected that they are the best equipped to make this prioritization, while also keeping in mind all goals of GitLab.
+It is then up to the PM to weigh all these inputs and decide on a prioritization. It is to be expected that they are the best equipped to make this prioritization, while also keeping in mind all goals of GitLab.
 
 ## How do I share feedback?
 
@@ -76,14 +66,14 @@ It is highly recommended to use the feedback template below to make this easier.
 
 You can copy/paste this to make sure you don't miss anything or [create a comment template](https://docs.gitlab.com/ee/user/profile/comment_templates.html#create-comment-templates) for reusability:
 
-```
+```markdown
 <!-- Select the appropriate subscription and product text below and remove the others (note: do not add them as labels)>
 <!-- Click on ~customer priority:: below to select an appropriate label 1 through 10 with 10 being the highest>
 
-The following ~customer is interested in this capability 
+The following ~customer is interested in this capability
 
-- Subscription: ~"GitLab Ultimate" OR ~"GitLab Premium" OR ~"GitLab Free" 
-- Product: ~"self-managed" OR ~SaaS OR ~"SaaS Dedicated"
+- Subscription: ~"GitLab Ultimate" OR ~"GitLab Premium" OR ~"GitLab Free"
+- Product: ~"self-managed" OR ~"gitlab.com" OR ~"GitLab Dedicated"
 - Link to request:
 - Priority: ~customer priority::
 - Why interested:
@@ -97,18 +87,18 @@ The following ~customer is interested in this capability
 
 The `~customer priority::*` labels are inputs for the prioritization model powering the customer issue prioritization framework dashboards:
 
-- [Customer Requested Issues (Product)](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970771/User-Request-Issue-Prioritization---Product) for Product Managers
-- [Customer Requested Issues (CSM)](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970772/User-Request-Issue-Prioritization---TAM-Customer-View) for Sales and Customer Success
+- [Customer Requested Issues (Product)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) for Product Managers
+- [Customer Requested Issues (CSM)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) for Sales and Customer Success
 
 These dashboards represent the relative importance of a given issue to the specific customer. 1 is the lowest priority and 10 is the highest. These can be updated at any point in time and will be reflected in the model within 24 hours. You can find more context about priority labels on the [customer issues prioritization framework handbook page](/handbook/product/product-processes/customer-issues-prioritization-framework/#priority-points).
 
-##### Good example:
+##### Good example
 
 > A customer with more than 1000 users mentioned they are interested in this feature to be able to do their sprint planning more effectively. The problem they are trying to solve is that with the current implementation, they can't X and need to do so because Y. They are using software X to do this today, but would be able to move to GitLab if we would do this.
 >
 > @productmanager this issue doesn't have a milestone right now, are we planning to address this in the near term?
 
-##### Bad example:
+##### Bad example
 
 > salesforce.com/blabla
 
@@ -187,11 +177,11 @@ Everything in GitLab should be fast and creating files falls under the repositor
 
 The PM in turn will investigate whether this is a general problem or one specific to GitLab.com, in collaboration with infrastructure and others, and schedule any necessary changes for an upcoming release.
 
-### Sisense
+### Tableau
 
-The Product team maintains a [Sisense dashboard](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970771/User-Request-Issue-Prioritization---Product) to aggregate issues and customer interest in those issues. Information is automatically gathered from [GitLab issues](https://gitlab.com/gitlab-org/gitlab/issues) by scanning for Salesforce customer account links. A separate dashboard [Customer Requested Issues (CSM)](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/970772/User-Request-Issue-Prioritization---CSM-Customer-View) is maintained for Sales and CS to make the dashboard easily filterable by the Account Owner or CSM for example.
+The Product team maintains a [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) to aggregate issues and customer interest in those issues. Information is automatically gathered from [GitLab issues](https://gitlab.com/gitlab-org/gitlab/issues) by scanning for Salesforce customer account links. A separate dashboard [Customer Requested Issues (CSM)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) is maintained for Sales and CS to make the dashboard easily filterable by the Account Owner or CSM for example.
 
-The Sisense page automation will detect when Salesforce links are added and use the customer's Salesforce data, such as Total Account Value and seat licenses, to add them to the page. This also maintains a customer's privacy on public issues, since Salesforce links are only accessible to GitLab employees with proper credentials.
+The Tableau page automation will detect when Salesforce links are added and use the customer's Salesforce data, such as Total Account Value and seat licenses, to add them to the page. This also maintains a customer's privacy on public issues, since Salesforce links are only accessible to GitLab employees with proper credentials.
 
 ### Reporting Bugs
 
@@ -243,7 +233,6 @@ It is best practice to ask for a PM to join your call through the slack channel 
 Before reaching out to the PM, fill out the [PM Customer Meeting Briefing Document](https://docs.google.com/document/d/1TPJwjJTOrlrtuJ_srs631ndL6dkiwl9yIi3PPtgStos/edit#heading=h.sujaka5bd7jl) and send it to the PM along with your request. The PM will review the doc and let you know if they are able to attend the meeting. PMs may decline meeting requests if they do not receive the context doc or if it is only partially complete. We recommend sending this context along with your request at least 3 business days before the meeting. The PM will review the document and provide feedback to ask for further clarity if needed.
 
 In addition, once the call is scheduled, make sure you have a detailed agenda set at least 24 hours before the call that is shared with both the customer and the Product team.
-
 
 ### EBR Preparation
 

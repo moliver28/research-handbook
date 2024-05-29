@@ -66,8 +66,8 @@ The topics and scenarios discussed in the meeting are brought up in [Release Man
 
 ## Training Listings
 
-- [Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqQh7yud-u2NSt7V4isH_vg)
-- [Release Manager discussions and fire drills playlist]
+* [Youtube playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KqQh7yud-u2NSt7V4isH_vg)
+* [Release Manager discussions and fire drills playlist]
 
 ### FAQ
 

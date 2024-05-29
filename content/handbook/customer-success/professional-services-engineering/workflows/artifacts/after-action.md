@@ -28,11 +28,11 @@ This report template should be used for
 Particpants:
 
 Customer
-----
+---
 
 
 GitLab
------
+---
 
 
 Goals

@@ -2,7 +2,7 @@
 
 title: "Analyst Resources for SDR and Sales Enablement Topics"
 ---
-## This is a list of analyst resources that may be useful for deeper dives into the topics covered in SDR Enablement conversations.
+## This is a list of analyst resources that may be useful for deeper dives into the topics covered in SDR Enablement conversations
 
 Please do not share these documents outside of GitLab. They are for your personal use only.  Thank you.
 

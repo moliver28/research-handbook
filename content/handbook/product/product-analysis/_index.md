@@ -1,17 +1,10 @@
 ---
 
 title: Product Data Insights
+
 ---
 
-
-
-
-
-
-
 ## Product Data Insights Handbook
-
-
 
 The Product Data Insights (formerly known as "Product Analysis") group consists of a team of
 product analysts. This group reports to the Senior Director, Product Monetization and serves
@@ -20,15 +13,13 @@ analysis across GitLab.
 
 In addition to supporting the Product division, the Product Data Insights team is an active
 contributor to the GitLab Data Program. As part of the [Research & Development (R&D) Data Fusion Team](/handbook/business-technology/data-team/#analytics-engineering-team),
-the product analysts also work closely with members from the central Data team. In addition,
+the product analysts also work closely with members from the Enterprise Data team. In addition,
 the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/business-technology/data-team/functional-analytics-center-of-excellence/),
 along with other functional analytics groups across the GitLab Data Program.
 
 Read more about what we do at GitLab on our [Direction](https://about.gitlab.com/direction/product-analysis/) page.
 
 ### Team members
-
-
 
 Product Data Insights is a small (but mighty) team. In order to support the Product division,
 each analyst is assigned to one or more sections or teams to support.
@@ -37,8 +28,8 @@ each analyst is assigned to one or more sections or teams to support.
 | --- | --- | --- |
 | [Carolyn Braza](/handbook/company/team/#cbraza) | [Senior Manager, Product Data Insights](/job-families/product/product-analyst/#senior-manager-product-data-insights) | [Analytics](/handbook/product/categories/#analytics-section) |
 | [Nicole Hervas](/handbook/company/team/#nhervas) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [CI](/handbook/product/categories/#ci-section), [CD](/handbook/product/categories/#cd-section) |
-| [Emma Neuberger](/handbook/company/team/#eneuberger) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Growth](/handbook/product/categories/#growth-section), [Enablement](/handbook/product/categories/#enablement-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) |
-| [Matthew Petersen](/handbook/company/team/#matthewpetersen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Dev](/handbook/product/categories/#dev-section) |
+| [Emma Neuberger](/handbook/company/team/#eneuberger) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Growth](/handbook/product/categories/#growth-section), [Core Platform](/handbook/product/categories/#core-platform-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) |
+| [Matthew Petersen](/handbook/company/team/#matthewpetersen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Dev](/handbook/product/categories/#dev-section), [Data Science](/handbook/product/categories/#data-science-section) |
 | [Dave Peterson](/handbook/company/team/#dpeterson1) | [Staff Product Analyst](/job-families/product/product-analyst/#staff-product-analyst) | [Sec](/handbook/product/categories/#sec-section) |
 | [Neil Raisinghani](/handbook/company/team/#nraisinghani) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Fulfillment](/handbook/product/categories/#fulfillment-section), [Pricing](https://internal.gitlab.com/handbook/product/pricing/) |
 
@@ -68,8 +59,6 @@ All data issues with the `Team::PDI` label will appear on the [Product Data Insi
 
 #### Issue templates
 
-
-
 Please select the appropriate template based on your type of request and answer as many of the
 questions as you can. The more information and context we have up front, the faster we are able
 to triage and begin work on the issue.
@@ -82,8 +71,6 @@ to triage and begin work on the issue.
 | Iteration planning | [Iteration Planning](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Iteration%20Planning) |
 
 #### Submission due date
-
-
 
 In order to be considered for the upcoming iteration, please open all issues by EOD Monday
 before the next iteration begins. We understand that urgent matters come up, but please try to
@@ -148,7 +135,7 @@ planning.
 | ----- | -------- |
 | `pdi-priority::1` | **High / Urgent Priority** Any analysis requests that are required to be completed within the current iteration. All requests that have Priority 1 should have a direct KPI and/or OKR that will be affected by the analysis. |
 | `pdi-priority::2` | **Medium Priority** This is where most requests would fall into. This can be any net-new analysis, reporting (dashboard creation), or exploratory analysis that is needed for decision making. |
-| `pdi-priority::1` | **Consultant:** This is for any analysis that does not have a direct action as a result of the analysis and/or other low-level, non-urgent requests that can be placed in an analyst's backlog. |
+| `pdi-priority::3` | **Low Priority / Consultant:** This is for any analysis that does not have an immediate direct action as a result of the analysis and/or other low-level, non-urgent requests that can be placed in an analyst's backlog. |
 
 Most issues will fall under `pdi-priority::2` and `pdi-priority::3`.
 
@@ -204,7 +191,7 @@ plan ahead if you know that you will need assistance from the Product Data Insig
 
 #### Working days
 
-As GitLab team members, we are [encouraged to take PTO](/handbook/paid-time-off/) and observe public
+As GitLab team members, we are [encouraged to take PTO](/handbook/people-group/paid-time-off/) and observe public
 holidays in order to maintain a healthy work-life balance. Analyst capacity should be adjusted
 based on the number of days they are working in the iteration.
 
@@ -232,7 +219,7 @@ Please include why the issue is urgent, when it is needed by, what it will infor
 be used, and who is the intended audience.
 
 If you have not heard from the tagged analyst within 1 business day* (or earlier if the issue
-requires a faster turn-around), please send a message in [#data](https://gitlab.slack.com/messages/data/)
+requires a faster turn-around), please send a message in [#data](https://gitlab.enterprise.slack.com/archives/C8D1LGC23)
 and feel free to tag `@cbraza`.
 
 **Please keep in mind that we work across different time zones*
@@ -269,6 +256,7 @@ impact our ability to complete all issues in the iteration.
 Experimentation analysis issues are naturally blocked by the experiment actually running (we have
 to wait until we have sufficient data in order to perform the analysis). In order to enable a more
 accurate measure of velocity, we will divide the work into 2 separate issues*:
+
 1. Experiment prep (dashboard creation and data validation)
 1. Experiment analysis
 
@@ -311,8 +299,6 @@ questions are captured in issues and go through a more rigorous, structured prio
 
 #### How to sign up
 
-
-
 The [agenda](https://docs.google.com/document/d/1ZXS-eeZNuRUn7176dZFqsyhIU-DSWYvWuEhogpbTzys/edit#)
 is first-come, first-served. Walk-ins/drop-ins are always welcome, but if possible, please
 add your name and topic (or question) before office hours begins. This allows the team time
@@ -324,8 +310,6 @@ which can help reduce async back-and-forth communication in the issue itself.
 
 #### Example topics
 
-
-
 Office hours are intended for smaller bodies of work, brainstorming, and assistance with
 data self-service. Here are some examples of topics for office hours:
 
@@ -334,6 +318,7 @@ data self-service. Here are some examples of topics for office hours:
 <details markdown="1"><summary>👍 Example Topic 1: Experiment Setup</summary>
 
 I am interested in launching an experiment to see if we can increase adoption of Secure.
+
 - How would you go about setting the experiment up?
 - Can you help me calculate the sample size?
 - Can you help me interpret the results?
@@ -344,6 +329,7 @@ I am interested in launching an experiment to see if we can increase adoption of
 
 I am trying to do an analysis on the relationship between users with SSO enabled and invite
 acceptance rate.
+
 - Which tables should I use? Can you help me understand this data source?
 - What approach would you take?
 - Would this metric answer the question?
@@ -354,6 +340,7 @@ acceptance rate.
 <details markdown="1"><summary>👍 Example Topic 3: Code Review</summary>
 
 I wrote a query to calculate xMAU for namespaces that converted from a trial to a paid plan.
+
 - Is this `JOIN` correct?
 - Does this logic only include namespaces that had trials before converting?
 
@@ -366,6 +353,7 @@ data source, etc.
 <details markdown="1"><summary>👍 Example Topic 4: Dashboard Updates</summary>
 
 I am looking to make some updates or enhancements to this existing dashboard.
+
 - Can you help me incorporate a filter into this dashboard that would allow me to limit the charts
 to activity within 30 days of namespace creation?
 - Can you update this funnel to include this additional event?
@@ -375,6 +363,7 @@ to activity within 30 days of namespace creation?
 <details markdown="1"><summary>👍 Example Topic 5: Follow-Up Questions</summary>
 
 In the last key meeting, you presented an [analysis on early trial adoption](https://docs.google.com/presentation/d/1ESH797L8zwT_28n3Ypqp1xckKhvtt3jr-8eWpexgmto/edit#slide=id.ge35de508d3_0_0).
+
 - Can you walk me through your methodology?
 - Can you help me understand the implications of the data/analysis?
 
@@ -383,6 +372,7 @@ In the last key meeting, you presented an [analysis on early trial adoption](htt
 <details markdown="1"><summary>👍 Example Topic 6: Scope and Define New Issue</summary>
 
 I am going to open an issue for a new analysis.
+
 - Can we discuss the overall scope and details?
 - What kind of information should I include in the issue?
 
@@ -394,8 +384,6 @@ If the topic you bring is too broad to be addressed during office hours, we can 
 work and will redirect you to [open an issue](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Ad%20Hoc%20Request).
 
 #### FAQs
-
-
 
 **What is the difference between topics for office hours and formal data requests?**
 
@@ -415,11 +403,16 @@ When in doubt, come to office hours and the team can discuss there.
 
 ### Slack
 
-1. [#data](https://gitlab.slack.com/messages/data/) - For any type of data question, including
+#### Channels
+
+1. [#data](https://gitlab.enterprise.slack.com/archives/C8D1LGC23) - For any type of data question, including
 those related to product and/or the Product Data Insights team
-1. [#g_product_data_insights_daily](https://gitlab.slack.com/messages/g_product_data_insights_daily/) - For
+1. [#data-tableau](https://gitlab.enterprise.slack.com/archives/C03RMCEHVCP) - For any questions related to Tableau
+1. [#g_product_data_insights_daily](https://gitlab.enterprise.slack.com/archives/C0285NMCLBY) - For
 the Product Data Insights team's asynchronous daily stand-up, powered by [Geekbot](https://geekbot.com/)
-1. [#s_growth_data](https://gitlab.slack.com/messages/s_growth_data/) - For Growth-related data questions
+
+#### Aliases
+
 1. `@product-analysts` - Notifies the entire Product Data Insights team
 1. `@randdanalyticstriage` - Notifies the entire Product Data Insights team and the Data
 team's R&D Fusion group, per the [Enterprise Data Triage Program](/handbook/business-technology/data-team/how-we-work/triage/#enterprise-data-program-triage)

@@ -78,6 +78,16 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 
 ## Landing Page: (add when live)
 
+## UTMs for [insert epic title here]
+**Example utm structure:**
+* `utm_campaign=autosd`
+* `utm_content=awssecurityvideo`
+* `utm_asset_type=video`
+* `utm_budget=cmp`
+
+- :nerd: Read about our UTM strategy in [this handbook page](https://about.gitlab.com/handbook/marketing/utm-strategy/).
+- :link: Build a link with UTMs through this [UTM builder googlesheet](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=2043976569).
+
 ## Pathfactory link: (add when live)
 
 #### :key: Key Details
@@ -87,16 +97,16 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 * **Official Content Type:**
 * **Primary Campaign:**
 * **Primary Sales Segment:**
-   - [ ] Enterprise
-   - [ ] Mid-Market
-   - [ ] SMB
+   - [x] Enterprise
+   - [x] Mid-Market
+   - [x] SMB
    - [ ] PubSec
-         * [ ] Civilian (CIV)
-         * [ ] Department of Defense (DOD)
-         * [ ] Federal Systems Integrators (FSI)
-         * [ ] National Security Group (NSG)
-         * [ ] PUBSEC General Nurture
-         * [ ] State, Local and Education (SLED)
+     - [ ] Civilian (CIV)
+     - [ ] Department of Defense (DOD)
+     - [ ] Federal Systems Integrators (FSI)
+     - [ ] National Security Group (NSG)
+     - [ ] PUBSEC General Nurture
+     - [ ] State, Local and Education (SLED)
 * **Primary Buying Stage:**
    - [ ] Awareness
    - [ ] Consideration
@@ -137,7 +147,7 @@ If you have any questions on this process, please contact `@aoetama` in the [#ma
 [Use the workback timeline calculator to assign correct due dates based off of launch date](https://docs.google.com/spreadsheets/d/1RvYLEUJvh9QZJZX1uXiKJPcOOSGd7dEeNneqyA2bt3A/edit#gid=969067029)
 
 **Required Issues:**
-* [ ] :calendar: Not an issue, but an action item for content owner: Add to [SSoT Marketing Calendar](https://docs.google.com/spreadsheets/d/1ni6gKeWhjtrNppMdYvPESsCRjDbfVdYjTNtUtcNBFGg/edit#gid=571560493)
+* [ ] :calendar: Not an issue, but an action item for content owner: Add to [SSoT Marketing Calendar](https://docs.google.com/spreadsheets/d/1Tk5fVSwpsEZVFbKOtuaPAItTpAE2PjPeyZ4jKoDe42w/edit#gid=571560493)
 * [ ] Asset Copy Issue (open based on which team is content owner)
    * [Content Asset Copy Issue](https://gitlab.com/gitlab-com/marketing/inbound-marketing/global-content/content-marketing/-/issues/new?issuable_template=content-resource-request) - Content
    * [PMM Asset Copy Issue](https://gitlab.com/gitlab-com/marketing/strategic-marketing/product-marketing/-/issues/new) - PMM (no issue template)
@@ -173,7 +183,7 @@ All external content should be planned in advance of purchase with `at least a 3
 
 The purpose of the decision matrix is to gather cross-functional feedback whether a new analyst report will be a lucrative investment to solidify GitLab's positioning in the market. It will also outline the campaigns and persona it is aligned to as well as the channels where it will be activated.
 
-##### Step by step decision matrix process:
+##### Step by step decision matrix process
 
 1. **Analyst relations** will open a [decision matrix issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=decision-tree-matrix) and assign to relevant Campaign Manager.
 1. **Campaign Manager** to tag relevant product marketing, sdr enablement, and field enablement counterparts on the decision matrix issue and comment to submit their inputs by agreed upon SLA date. | `SLA: 1 Business Day`
@@ -232,7 +242,7 @@ As a guide in developing timeline, please view the workback timeline calculator 
 * [ ] [Pathfactory & Resource Page Copy]() - `doc to be added by Content Owner` ([use template here](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=1837173931)
 * [ ] UTMS: `utm_campaign=[add here]&utm_content=[add here]`
 
-#### :dart: Timeline / Promotional asset list (add links when completed) and DRIs:
+#### :dart: Timeline / Promotional asset list (add links when completed) and DRIs
 Adjust list as applicable for each report activation:
 
 * [ ] 2023-xx-xx add report to **Pathfactory** `@DRI`
@@ -274,7 +284,7 @@ Adjust list as applicable for each report activation. [Use the workback timeline
 * [ ] Open issue for executive social sharing
 
 **Campaign Manager** `@DRI`
-* [ ] Add to [SSoT Marketing Calendar](https://docs.google.com/spreadsheets/d/1fyrC4O1e13QTRNmYR3H5rMZIoIJcPk93vltOCx0ubjk/edit#gid=571560493)
+* [ ] Add to [SSoT Marketing Calendar]https://docs.google.com/spreadsheets/d/1Tk5fVSwpsEZVFbKOtuaPAItTpAE2PjPeyZ4jKoDe42w/edit#gid=571560493)
 * [ ] [Open Pathfactory upload Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-pathfactory-upload)
 * [ ] [Open Nurture Email Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=add-to-intelligent-email-nurture)
 * [ ] [Open Resource Page Addition Issue](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-resource-page-addition)
@@ -440,23 +450,23 @@ Please follow the process outlined in the [Pathfactory Handbook](/handbook/marke
     * `{{my.bullet2}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
     * `{{my.bullet3}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
     * `{{my.bullet4}}` - bullet copy with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
-    * `{{my.contentDescription}}`	- 2-3 sentences with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679), this will show up in page previews on social and be used in Pathfactory description.
+    * `{{my.contentDescription}}`    - 2-3 sentences with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679), this will show up in page previews on social and be used in Pathfactory description.
     * `{{my.contentDownloadURL}}` - skip updating in initial registration page setup (update during on-demand switch), Pathfactory link WITHOUT the `https://` NOR the email tracking part (`lb_email=`)
       * Example of correct link to include: `learn.gitlab.com/gartner-voc-aro/gartner-voc-aro` - the code in the Marketo template assets will create the URL `https://learn.gitlab.com/gartner-voc-aro/gartner-voc-aro?lb_email={{lead.email address}}&{{my.utm}}`
       * Note that both parts of this url include custom URL slugs which should be incorporated into all pathfactory links for simplicity of tracking paramaeters
     * `{{my.contentEpicURL}}` - no longer used in automation, but helpful for reference
     * `{{my.contentSubtitle}}` - content subtitle to display to viewer (throughout landing page, emails, etc.)
-    * `{{my.contentTitle}}`	- content title to display to viewer (throughout landing page, emails, interesting moments, etc.), with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
-    * `{{my.contentType}}`	- content type to display to viewer (throughout landing page, emails, interesting moments, etc.)
+    * `{{my.contentTitle}}`    - content title to display to viewer (throughout landing page, emails, interesting moments, etc.), with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
+    * `{{my.contentType}}`    - content type to display to viewer (throughout landing page, emails, interesting moments, etc.)
     * `{{my.contentTypeSFDC}}` - pick from following list (critical to avoid Marketo > SFDC sync errors): whitepaper, report, video, eBook, general
-    * `{{my.emailConfirmationButtonCopy}}`	- leave as `Download`  (but can be updated if needed)
-    * `{{my.formButtonCopy}}`	- leave as `Download  now` (but can be updated if needed)
-    * `{{my.formHeader}}`	- leave as `Free Instant Download:` (but can be updated if needed)
-    * `{{my.formSubhead}}`	- form subhead (not currently used for gated content landing page to try to keep form shorter)
+    * `{{my.emailConfirmationButtonCopy}}`    - leave as `Download`  (but can be updated if needed)
+    * `{{my.formButtonCopy}}`    - leave as `Download  now` (but can be updated if needed)
+    * `{{my.formHeader}}`    - leave as `Free Instant Download:` (but can be updated if needed)
+    * `{{my.formSubhead}}`    - form subhead (not currently used for gated content landing page to try to keep form shorter)
     * `{{my.heroImage}}` - image to display above landing page form ([options in Marketo here](https://app-ab13.marketo.com/#FI0A1ZN9784))
-    * `{{my.introParagraph}}`	- intro paragraph to be used in landing page and nurture email, with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
+    * `{{my.introParagraph}}`    - intro paragraph to be used in landing page and nurture email, with approved [character limits](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
     * `{{my.or}}` - leave as `?` (but can be updated to `&` if during Pathfactory upload, the custom URL slugs were not applied to both the asset and the track). If this is not correctly applied and there are multiple `?` question marks in the URL, it will break. [WATCH THE VIDEO EXPLAINER](https://www.youtube.com/watch?v=VHgR33cNeJg)
-    * `{{my.socialImage}}`	- image that would be presented in social, slack, etc. preview when the URL is shared, this image is provided by design/social, leave the default unless presented with webcast specific image.
+    * `{{my.socialImage}}`    - image that would be presented in social, slack, etc. preview when the URL is shared, this image is provided by design/social, leave the default unless presented with webcast specific image.
     * `{{my.utm}}` - this should match the aligned campaign utm
     * `{{my.valueStatement}}` token with the short value statement on what the viewer gains from the webcast, this ties into the follow up emails and must meet the max/min requirements of the [character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
 

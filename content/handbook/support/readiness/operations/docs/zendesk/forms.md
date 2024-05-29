@@ -97,6 +97,48 @@ click on it. After doing so, click the three vertical dots at top-right of the
 page and click `Delete`. This will cause a pop-up modal to appear asking you to
 confirm the action. Click red `Delete` button to do so.
 
+## Troubleshooting
+
+#### Pipeline error "Blank ID"
+
+This means the script detected a YAML file within `data/forms/active` or
+`data/forms/inactive` that has an `id` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank position"
+
+This means the script detected a YAML file within `data/forms/active` or
+`data/forms/inactive` that has an `position` value of blank (or nil). You will
+need to locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank name"
+
+This means the script detected a YAML file within `data/forms/active` or
+`data/forms/inactive` that has an `name` value of blank (or nil). You will need
+to locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Inactive form in active folder"
+
+This means the script detected a YAML file within `data/forms/active` that has an
+`active` value of `false`. You will need to locate the file mentioned in the
+error and correct that.
+
+#### Pipeline error "Active form in inactive folder"
+
+This means the script detected a YAML file within `data/forms/inactive` that has
+an `active` value of anything other than `false`. You will need to locate the
+file mentioned in the error and correct that.
+
+#### Pipeline error "GitLab errors"
+
+This is a generic error message that will detail some error that occurred when
+trying to either create or update the tag used on the source project. The exact
+steps to fix this will vary based on the nature of the error itself. You will
+need to review the error and determine the next steps from there.
+
+If you are unsure how to proceed, it is best to seek assistance from the wider
+team.
+
 ## Source Projects
 
 #### Zendesk Global
@@ -109,31 +151,31 @@ confirm the action. Click red `Delete` button to do so.
 
 ## Current Zendesk Global forms
 
-| Name                 | ID            | Visibility | Category    |
-|----------------------|:-------------:|------------|-------------|
-| SaaS                 | 334447        | Public     | Support     |
-| SaaS Account         | 360000803379  | Public     | Support     |
-| Self-Managed         | 426148        | Public     | Support     |
-| GitLab Dedicated     | 4414917877650 | Public     | Support     |
-| L&R                  | 360000071293  | Public     | Support     |
-| Billing              | 360000258393  | Public     | Billing     |
-| Alliance Partners    | 360001172559  | Public     | Support     |
-| Support Ops          | 360001801419  | Public     | Support Ops |
-| JiHu                 | 360001477519  | Public     | Support     |
-| China Comms Response | 360001535259  | Public     | Support     |
-| Emergencies          | 360001264259  | Internal   | Support     |
-| GitLab Incidents     | 360001629679  | Internal   | Support     |
+| Name                     | ID             | Visibility | Category    |
+|--------------------------|:--------------:|------------|-------------|
+| SaaS                     | 334447         | Public     | Support     |
+| SaaS Account             | 360000803379   | Public     | Support     |
+| Self-Managed             | 426148         | Public     | Support     |
+| GitLab Dedicated         | 4414917877650  | Public     | Support     |
+| L&R                      | 360000071293   | Public     | Support     |
+| Billing                  | 360000258393   | Public     | Billing     |
+| Alliance Partners        | 360001172559   | Public     | Support     |
+| Support Ops              | 360001801419   | Public     | Support Ops |
+| Emergencies              | 360001264259   | Public     | Support     |
+| GitLab Incidents         | 360001629679   | Internal   | Support     |
+| Support Internal Request | 12829030177948 | Internal   | Support     |
 
 ## Current Zendesk US Federal forms
 
-| Name               | ID           | Visibility | Category |
-|--------------------|:------------:|------------|----------|
-| Support            | 360000446511 | Public     | Support  |
-| Upgrade Assistance | 360001434131 | Public     | Support  |
-| Support Ops        | 360001421052 | Public     | Support  |
-| L&R                | 360001421072 | Public     | Support  |
-| Emergency          | 360001421112 | Public     | Support  |
-| License Issue      | 360001803151 | Internal   | Support  |
+| Name               | ID             | Visibility | Category |
+|--------------------|----------------|------------|----------|
+| Support            | 360000446511   | Public     | Support  |
+| GitLab Dedicated   | 26347526042004 | Public     | Support  |
+| Upgrade Assistance | 360001434131   | Public     | Support  |
+| Support Ops        | 360001421052   | Public     | Support  |
+| L&R                | 360001421072   | Public     | Support  |
+| Emergency          | 360001421112   | Public     | Support  |
+| License Issue      | 360001803151   | Internal   | Support  |
 
 ## Positioning
 

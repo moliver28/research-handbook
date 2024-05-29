@@ -1,8 +1,8 @@
 ---
 
-title: Accessibility  
+title: Accessibility
 description: >-
-  Defining Accessibility for the Digital Experience team 
+  Defining Accessibility for the Digital Experience team
 ---
 
 
@@ -11,17 +11,17 @@ description: >-
 
 
 
-# Surface accessibility issues on about.gitlab.com
+## Surface accessibility issues on about.gitlab.com
 
-[Open an issue to the Buyer Experience repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new) and add the `dex-category::accessibility` label. 
+[Open an issue to the Buyer Experience repository](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new) and add the `dex-category::accessibility` label.
 
-# Resolving Accesibility issues
+## Resolving Accesibility issues
 
 ## Quick and dirty (Start here)
 
 > I have run [Axe Devtools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
- 
-> I have run Google Lighthouse 
+
+> I have run Google Lighthouse
 
 
 

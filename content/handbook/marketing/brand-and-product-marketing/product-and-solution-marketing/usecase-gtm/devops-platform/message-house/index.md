@@ -1,5 +1,4 @@
 ---
-
 title: "DevOps Platform Message House"
 ---
 
@@ -16,7 +15,7 @@ In the spirit of [Command of the Message](/handbook/sales/command-of-the-message
 
 ## The Four Phases of DevOps
 
-As [DevOps](/topics/devops/) has evolved, so has its complexity. This complexity is driven by two factors:
+As [DevOps](https://about.gitlab.com/topics/devops/) has evolved, so has its complexity. This complexity is driven by two factors:
 
 1. Organizations are moving from monolithic architectures to microservices architectures. By using microservices, teams can work independently and move faster.
 1. As DevOps matures, organizations need more and more DevOps tools per project.
@@ -109,48 +108,28 @@ Single-platform visibility and collaboration dovetails nicely with transformatio
 
 Below are one-sentence summaries of value you can deliver to user and buyer personas to position relevant aspects of the DevOps Platform use case's value, based on the market segment of the persona's company.
 
-
-
-<div class="panel panel-info">
-
-**SMB**
-{: .panel-heading}
-
-<div class="panel-body">
+### SMB
 
 |   User: [Delaney - the Development Team Lead](/handbook/product/personas/#delaney-development-team-lead) |   User: [Devon - the DevOps Engineer](/handbook/product/personas/) |   Buyer: CTO<code>&ast;</code> |  Buyer: CIO<code>&ast;</code>  |
 |--- |--- |--- |--- |
 |   Receive immediate feedback on the quality, performance, and security of code as soon as you commit. Collaborate seamlessly among teams. |   Grow without having to build and support custom integrations. |   Collaborate in a single system, minimize context-switching, and increase developer productivity and focus. |   Grow without building and supporting custom integrations. Scale and manage a single system. |
-{: .custom-class #custom-id}
 
 *<code>&ast;</code> CTO (Dev, external focus) and CIO (Ops, internal focus) personas in development and may vary per segment.*
 
 </div>
 
-#### **Mid-Market**
-
-{: .panel-heading}
-
-<div class="panel-body">
+### Mid-Market
 
 |   User: [Delaney - the Development Team Lead](/handbook/product/personas/#delaney-development-team-lead) |   User: [Devon - the DevOps Engineer](/handbook/product/personas/) |   Buyers: range from [Erin - the Application Development Executive](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#erin---the-application-development-executive-vp-etc) to the CTO<code>&ast;</code> |  Buyers: range from [Kennedy - the Infrastructure Engineering Director](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#kennedy---the-infrastructure-engineering-director) to the CIO<code>&ast;</code>  |
 |--- |--- |--- |--- |
 |   Receive immediate feedback on the quality, performance, and security of code as soon as you commit. Collaborate seamlessly among teams. |   Increase reliability and eliminate ad hoc, team-based integrations. |  Collaborate in a single system, minimize context-switching and waiting, identify and remove productivity blockers, and deliver more value faster with more productive, focused developers.  |   Increase reliability and performance while you grow by eliminating custom integrations. Scale and manage a single system. |
-{: .custom-class #custom-id}
 
 *<code>&ast;</code> CTO (Dev, external focus) and CIO (Ops, internal focus) personas in development and may vary per segment.*
 
-</div>
-
-#### **Enterprise**
-
-{: .panel-heading}
+### Enterprise
 
 <div class="panel-body">
 
 |   User: [Delaney - the Development Team Lead](/handbook/product/personas/#delaney-development-team-lead) |   User: [Devon - the DevOps Engineer](/handbook/product/personas/) |   Buyer: [Erin - the Application Development Executive](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#erin---the-application-development-executive-vp-etc) |  Buyer: [Kennedy - the Infrastructure Engineering Director](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/#kennedy---the-infrastructure-engineering-director)  |
 |--- |--- |--- |--- |
 |   Receive immediate feedback on the quality, performance, and security of code as soon as you commit. Collaborate seamlessly among teams. |   Increase reliability and eliminate ad hoc, team-based integrations. |   Collaborate in a single system, minimize context-switching and waiting, identify and remove productivity blockers, and deliver more value faster with more productive, focused developers. |   Increase reliability and performance while you grow by eliminating custom integrations. Scale and manage a single system. |
-{: .custom-class #custom-id}
-
-</div></div>

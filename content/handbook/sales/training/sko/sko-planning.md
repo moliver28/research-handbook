@@ -10,7 +10,7 @@ description: "This page outlines the GitLab Sales Kickoff core team structure an
 
 
 
-# Sales Kickoff Core Team
+## Sales Kickoff Core Team
 
 Sales Kickoff is too big to have a single DRI for everything. The Field Enablement leader is ultimately accountable for delivery of a successful, on-budget SKO and will be responsible for the following:
 - Overall story arc

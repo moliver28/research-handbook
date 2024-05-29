@@ -374,6 +374,8 @@ A plugin controlled app that can do several things Zendesk related
 
 The current plugins are:
 
+- **Create new ticket**
+  > Allows an agent to create a new ticket using the same user as the ticket they are currently on.
 - **Due date picker**
   > This allows you to customize what the Due Date for a Task ticket is set for. By default, Zendesk only allows setting the date. This enables you to set the date, time, and timezone.
   >

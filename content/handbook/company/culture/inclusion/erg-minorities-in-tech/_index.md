@@ -39,6 +39,7 @@ We are the Minorities in Tech (MIT) Enterprise Resource Group (TMRG) founded in 
 ## 2020 Initiatives
 
 The top four Initiatives for 2020 are:
+
 - Mentorship
 - Participation in external events
 - Talent Acquisition

@@ -10,7 +10,7 @@ noindex: true
 
 
 
-# Click-throughs
+## Click-throughs
 
 Click-through demos can be run in multiple ways:
 - [Run them off-line](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/off-line-click-throughs/) (for conferences, practice on the airplane, etc)
@@ -92,7 +92,7 @@ Click-through demos can be run in multiple ways:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRjhO2VvKf_gWbObwi5APm18gxQrzQk5vvAARD-4vLQeT0NbkrSuP3t4sTVylRYZOD6kINLr37HmtHA/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 [G-slides file](https://docs.google.com/presentation/d/1Ejnho9pqXPj-OHNU2q51cC0xCG5c8pVLmvg-maIA7BQ/edit?usp=sharing)
 
-# Live (instructions)
+## Live (instructions)
 
 ## [Planning to Monitoring (formerly i2p)](i2p/)
 
@@ -106,6 +106,6 @@ Provides a more in-depth look at GitLab CI/CD pipelines.
 
 Demonstrations which highlight integrations between GitLab and common tools such as Jira issues and Jenkins pipelines.
 
-# Conference Booth Setup
+## Conference Booth Setup
 
 We've started using iPad's to run click-through demos at conferences, and also we now have a main screen video to loop that shows our key slides and product clips. You can find details about both of these on the [conference booth setup page](conference-booth-setup/).

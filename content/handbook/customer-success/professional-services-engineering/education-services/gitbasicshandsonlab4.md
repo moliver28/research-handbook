@@ -1,11 +1,9 @@
 ---
 title: "GitLab with Git Essentials - Hands-on Lab: Build a .gitlab-ci.yml file"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
+description: "This Hands-On Guide walks you through creating and running a CI/CD pipeline via a .gitlab-ci.yml file."
 ---
 
 > Estimated time to complete: 30 minutes
-
-> **We are transitioning to the latest version of this course.**  If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitbasicshandsonlab4.md).
 
 ## Objectives
 
@@ -91,7 +89,7 @@ To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your pr
 
 1. Only 1 pipeline has run so far, so your table of pipelines has only 1 row. See the details of that pipeline by clicking the **status** label at the left of the pipeline’s row.
 
-    > Note: The status label should show either **Running** or **Passed**
+    > The status label should show either **Running** or **Passed**
 
 1. Inspect the pipeline graph. Each column represents a stage. In the **Build** stage, there’s a widget representing the **build1** job. In the **Test** column there’s a widget representing the **test1** job. Click on the **build1** widget to see the job’s output in a web terminal. For example, look for the message `Do your build here` in the output.
 

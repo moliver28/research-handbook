@@ -107,7 +107,7 @@ Occassionally I will talk at conferences. Here are some of the talks I have give
 
 [https://www.youtube.com/watch?v=swnj6KTRg08](https://www.youtube.com/watch?v=swnj6KTRg08)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/swnj6KTRg08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/swnj6KTRg08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Devopsdays Cape Town 2019
 

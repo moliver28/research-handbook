@@ -24,7 +24,7 @@ The newsletter is sent to members of the field (sales + customer success) and st
 
 ## Newsletter Tool
 
-The newsletter is sent using the internal comms newsletter platform [Staffbase](https://staffbase.com/). This tool allows GitLab internal communications professionals to send targeted email newsletters to team members based on department, region, manager, location, start date and more.
+The newsletter is sent using the internal comms newsletter platform [Workshop](https://useworkshop.com/). This tool allows GitLab internal communications professionals to send targeted email newsletters to team members based on department, region, manager, location, start date and more.
 
 Access to this tool is shared amongst internal comms teams such as Field Communications, GitLab corporate internal comms and others. The benefit of this tool is that it is internal comms-specific, meaning that the newsletter can only be sent to team members with a GitLab email domain.
 

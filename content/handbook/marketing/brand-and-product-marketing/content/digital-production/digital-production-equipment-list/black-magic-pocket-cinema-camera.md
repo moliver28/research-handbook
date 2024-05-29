@@ -1,7 +1,7 @@
 ---
 
 title: "Digital Production Equipment List: Equipment Use and Operation"
-description: A guide for use of the Digital Production Equipment. 
+description: A guide for use of the Digital Production Equipment.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
@@ -12,11 +12,11 @@ twitter_creator: "@gitlab"
 
 
 
-# Blackmagic Pocket Cinema
+## Blackmagic Pocket Cinema
 
 The Blackmagic Pocket Cinema is a camera designed for professional quality video recording. It is used by GitLab employees who require expanded features for recording video or making higher end calls.
 
-#### External Resource:
+#### External Resource
 
 **[Blackmagic Pocket Cinema Manual](https://www.bhphotovideo.com/lit_files/452872.pdf)**
 
@@ -87,7 +87,7 @@ This will help you add enchanced color to have a nice look in your webcam presen
 
 #### Connecting a Lavalier Microphone
 
-The wireless lavalier kit contains a transmittor and a receiver. The transmittor can by identified by the mute switch located on the top.  
+The wireless lavalier kit contains a transmittor and a receiver. The transmittor can by identified by the mute switch located on the top.
 
 1. Attach the microphone to the transmittor and the three pronged XLR cable to the receiver.
 1. Turn on both the microphone and the transmittor by opening the front facing panel and holding the **ON/OFF button** until the screen turns on.
@@ -184,7 +184,7 @@ The White Balance settings removes color cast from your image and helps white ap
 
 ***Be sure to keep your eye fixed on the Blackmagic lens only, as that is where you will be looking in the final video. Refrain from looking at your slides or computer as much as possible.***
 
-# Webcams
+## Webcams
 
 The operation of webcams is plug and play. Connect the webcam to your computer via USB and use the clamp to position the camera on your laptop or monitor. Logitech and Razr webcams include a thread that will allow you to attach it to a tripod, if necessary.
 
@@ -203,7 +203,7 @@ The simplest way to record with your Webcam is with the QuickTime application.
 1. When you've finished recording, the clip will open in QuickTime Player for your review.
 1. Select File -> Save in order to save the clip.
 
-# Audio
+## Audio
 
 If you are looking for the Rode Camera Microphone, or the lavalier microphone, please see the instructions for setting up the Blackmagic Pocket Cinema above.
 
@@ -221,7 +221,7 @@ The Rode Desktop microphone connects to your computer via the supplied USB cable
      1. Select the microphone.
      1. Adjust the input volume until you have eliminated excessive background noise.
 
-# Lighting
+## Lighting
 
 ## Elgato Lights
 
@@ -260,7 +260,7 @@ GVM Panel lights should be operated in CCT mode only. In most cases, it will not
 1. Use the right knob to adjust the color temperature (CCT). A lower value represents warm light, such as candlelight. A higher value represents cool light, such as sunlight. In almost every case, the desired color temperature is 5000k or higher because it will compliment the natural light from your windows.
 1. Ensure that each GVM light displays an identical CCT value.
 
-# Teleprompters
+## Teleprompters
 
 ## GlideGear TMP100 Teleprompter
 

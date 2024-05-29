@@ -28,7 +28,7 @@ Similar to prior year, if we do not use the full envelope provided to Marketing 
 
 Allocadia integrates with multiple systems described further [below](/handbook/marketing/strategy-performance/allocadia/#integrations-behind-the-scenes). However, [this presentation](https://docs.google.com/presentation/d/1tIWyzb6P9_-c-S1tYEGX5fC_jdjrMt8_/edit?usp=sharing&ouid=118269909391513703853&rtpof=true&sd=true) gives a high level view.
 
-## Great links for more details in Allocadia support pages:
+## Great links for more details in Allocadia support pages
 
 - [Allocadia terms glossary](https://support.allocadia.com/hc/en-us/articles/115005305868-Glossary)
 - [Navigating Allocadia](https://support.allocadia.com/hc/en-us/articles/115004960047-Navigating-Allocadia)
@@ -38,17 +38,17 @@ Allocadia integrates with multiple systems described further [below](/handbook/m
 - [Switching between activity plans](https://support.allocadia.com/hc/en-us/articles/115004969207-Switching-Between-Activity-Plans)
 - [Budget Reallocations (transfers)](https://support.allocadia.com/hc/en-us/articles/360060630433-What-are-Budget-Reallocations-##)
 
-## Partnership with Finance 
-Marketing and Finance partner together when using Allocadia. The [Marketing Finance handbook](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) page lists out: 
-1. [Finance Marketing Allocadia Training](/handbook/finance/financial-planning-and-analysis/marketing-finance/#allocadia-training-materials) 
-1. [Financial terminology](/handbook/finance/financial-planning-and-analysis/marketing-finance/#finance-terminology) as it relates to your view in Allocadia 
-1. [Important dates](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) to be aware of between finance and marketing 
-1. And more! 
+## Partnership with Finance
+Marketing and Finance partner together when using Allocadia. The [Marketing Finance handbook](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) page lists out:
+1. [Finance Marketing Allocadia Training](/handbook/finance/financial-planning-and-analysis/marketing-finance/#allocadia-training-materials)
+1. [Financial terminology](/handbook/finance/financial-planning-and-analysis/marketing-finance/#finance-terminology) as it relates to your view in Allocadia
+1. [Important dates](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) to be aware of between finance and marketing
+1. And more!
 
-## Allocadia Internal communication 
-We have a slack room! Search - allocadia_mktg-budget-holders  
+## Allocadia Internal communication
+We have a slack room! Search - allocadia_mktg-budget-holders
 
-All budget holders are added and Marketing ops is responsible for granting access. 
+All budget holders are added and Marketing ops is responsible for granting access.
 
 ## Home
 
@@ -105,7 +105,7 @@ The idea for the placeholder is if you know that there will be an expense but yo
 
 ##### Delete
 
-This button allows users to delete a line item or category.. The Delete button is only able to be used by Marketing Finance and Marketing Ops admins. If you need a line item, category, or sub-category deleted please reach out to Marketing Finance or Marketing Ops in the #allocadia-mktg-budget-holders slack channel and they can delete it for you. If a line item has previous months expense or invoice data, it cannot be deleted. 
+This button allows users to delete a line item or category.. The Delete button is only able to be used by Marketing Finance and Marketing Ops admins. If you need a line item, category, or sub-category deleted please reach out to Marketing Finance or Marketing Ops in the #allocadia-mktg-budget-holders slack channel and they can delete it for you. If a line item has previous months expense or invoice data, it cannot be deleted.
 
 ##### Request Transfer
 
@@ -167,17 +167,17 @@ Any line items within a category or subcategory default inherit the details from
 - GitLab Procurement issue URL - this will auto populate for you if you've created the issue with a click of a button within Allocadia
 - GL Account - will be selected for you based on your input in Spend Type above. Note that we have three different fields for GL Account - one for FMM, one for Contribute and one for the rest of marketing. If there are any problems with the GL account during integrations, remind support of this fact to expedite a response.
 
-##### Useful tricks inside the Activity Grid 
-1. Do you find yourself wanting to copy & paste a line item from a differnt activity plan into your activity plan? If so, then you will need to (right click) Copy/Paste the line item within the same activity plan, and then use the right-click "Move" option to move the line item copy to the correct activity plan. Within the Field Marketing team, we ask FMMs to transfer dollars to the ALL plans for shared activity, vs. having multiple line items for the same activity in multiple activity plans. Those instructions can be [found here](/handbook/marketing/field-marketing/#the-field-marketing-budget) pt. 12. 
+##### Useful tricks inside the Activity Grid
+1. Do you find yourself wanting to copy & paste a line item from a differnt activity plan into your activity plan? If so, then you will need to (right click) Copy/Paste the line item within the same activity plan, and then use the right-click "Move" option to move the line item copy to the correct activity plan. Within the Field Marketing team, we ask FMMs to transfer dollars to the ALL plans for shared activity, vs. having multiple line items for the same activity in multiple activity plans. Those instructions can be [found here](/handbook/marketing/field-marketing/#the-field-marketing-budget) pt. 12.
 
 #### Channel Marketing Set up
 **Category:** FY + Quarter
 **Sub-categories:** Partner_Activity Name (no need to add date, it will be listed in the details panel)
 **Line Item:** MDF 000 Partner_Activity Name (000 indicates being 'bookedmarked' once MDF has been approved and the funds request received in SFDC, the MDF Program Owner will change from 000 to the funds request number)
 
-##### MDF that spans multiple months and quarters 
-1. If the funding is all in the same quarter, then it put plan, and forecast in one month, regardless of amount, unless there are payment milestones built into the campaign. If there are milestones, then defer to the milestones agreed to.  
-1. If the campaign is split between more than 1 quarter, then break the plan and forecast numbers out based on what is actually running. As an example, you have digital ads running in Sept, Oct, & Nov. totaling $12k, then $8k ($4k from Sept +$4k from Oct) would be in the plan and forecast for Sept, and then $4k would be November. 
+##### MDF that spans multiple months and quarters
+1. If the funding is all in the same quarter, then it put plan, and forecast in one month, regardless of amount, unless there are payment milestones built into the campaign. If there are milestones, then defer to the milestones agreed to.
+1. If the campaign is split between more than 1 quarter, then break the plan and forecast numbers out based on what is actually running. As an example, you have digital ads running in Sept, Oct, & Nov. totaling $12k, then $8k ($4k from Sept +$4k from Oct) would be in the plan and forecast for Sept, and then $4k would be November.
 
 
 #### 🗓 GitLab Internal Calendars
@@ -209,26 +209,26 @@ The calendar invite is set for the entire day. If you would like the event to be
 
 Here is a [quick video walk through](https://youtu.be/xa8OpqMDrJw) to show you how the calendar invite gets created, if you're more of a visual learner!
 
-#### Impact Modeller 
+#### Impact Modeller
 
 Today our Field Marketing team is the only team using this function. If you are interested in having this added to your view please open [this issue](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new) for Marketing Ops.
 
-We have loaded the previous fiscal years worth of influenced conversion data from campaigns run by field marketing for both the MQL>SAO conversion rates as well as SAO>Closed Won data. 
+We have loaded the previous fiscal years worth of influenced conversion data from campaigns run by field marketing for both the MQL>SAO conversion rates as well as SAO>Closed Won data.
 
-If a region did not have a conversion rate for the campaign type (likely because the region did not run that campaign), then the global conversion rate was used. Also, because our MQLs can "skip" MQL status (meaning an SDR can work a lead BEFORE it's actually hit our MQL scoring threshold), we used the `MQL Inferred Date` field to assume MQLs. We took a snap shot in time data, but the below widgets can be referenced 
+If a region did not have a conversion rate for the campaign type (likely because the region did not run that campaign), then the global conversion rate was used. Also, because our MQLs can "skip" MQL status (meaning an SDR can work a lead BEFORE it's actually hit our MQL scoring threshold), we used the `MQL Inferred Date` field to assume MQLs. We took a snap shot in time data, but the below widgets can be referenced
 
-Live MQL>SAO regional data [can be found here](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965060/Field-Marketing-Metrics-(V2---WIP)?widget=13480873&udv=1547451) and live SAO>Won data [can be found here](https://app.periscopedata.com/app/gitlab:safe-intermediate-dashboard/965060/Field-Marketing-Metrics-(V2---WIP)?widget=13480874&udv=1547451).
+Live MQL>SAO regional data [can be found here](https://10az.online.tableau.com/#/site/gitlab/views/DraftFieldMarketingMetrics_v2/KPITrend?:iid=1) and live SAO>Won data [can be found here](https://10az.online.tableau.com/#/site/gitlab/views/DraftFieldMarketingMetrics_v2/KPITrend?:iid=1).
 
-The average deal size by campaign by region can be found [here](https://app.periscopedata.com/app/gitlab/823916/Field-Marketing-Metrics?widget=11036333&udv=1250443) (you'll have to refer back to dashboard to change the region if you want to see a specific regions data) are also loaded for calculation purposes. If there were less than 3 closed deals then we did NOT use that deal size information, but relied on the ASP from the TOPO model to fulfill that deal size.
+The average deal size by campaign by region can be found [here](https://10az.online.tableau.com/#/site/gitlab/views/DraftFieldMarketingMetrics_v2/KPITrend?:iid=13) (you'll have to refer back to dashboard to change the region if you want to see a specific regions data) are also loaded for calculation purposes. If there were less than 3 closed deals then we did NOT use that deal size information, but relied on the ASP from the TOPO model to fulfill that deal size.
 
 A calculation is then done by then taking into account the MQLs, region, segment data and campaign type (specifically the GitLab Issue type) that has been given at the line item level in the details panel.
 
 [Video walk through](https://youtu.be/bBLiwdpd5iY) (and yes, you know you need to be logged into Unfiltered to see! ;))
 
-##### Showing low ROI - what now? 
-Because we've loaded historical conversion rates into the impact modeller, a marketer should feel empowered to build a business case justifying why an investment should be made even though the impact modeller is showing a lower ROI. The business case could include specific accounts who you will connect with, LAM (landed addresable market) of account, how the pre/post campaign follow-up will be different than in investments past, nuanced facts about the proposed investment vs. historical program, etc. We want to still test out programs, and at times we may fail, and that's ok! Review your overall plan. Do you have a strong ROI built into a few campaigns that can afford a risk in a program you believe in? 
+##### Showing low ROI - what now?
+Because we've loaded historical conversion rates into the impact modeller, a marketer should feel empowered to build a business case justifying why an investment should be made even though the impact modeller is showing a lower ROI. The business case could include specific accounts who you will connect with, LAM (landed addresable market) of account, how the pre/post campaign follow-up will be different than in investments past, nuanced facts about the proposed investment vs. historical program, etc. We want to still test out programs, and at times we may fail, and that's ok! Review your overall plan. Do you have a strong ROI built into a few campaigns that can afford a risk in a program you believe in?
 
-## 📊 Insights 
+## 📊 Insights
 
 Most reporting is done within the Insights tab within Allocadia. Reports are built at the highest level and then use a drill down feature so each team does not have to recreate reports.
 
@@ -281,38 +281,38 @@ We do have a few fields within Allocadia which have a different name on the fron
 |  |  |
 |  |  |
 
-##### Nuances with fields + reporting 
-Allocadia comes with a lot of standard fields & definitions associated with those fields. At times our definitions may vary and we may have to create a new custom field. Unfortunately, we cannot delete out the Allocadia fields and only have our current fields available. This causes us to have many similar fields and a creates a need for us to document which field should be used when building reports. The list below should serve as the SSOT for fields when building reports. 
+##### Nuances with fields + reporting
+Allocadia comes with a lot of standard fields & definitions associated with those fields. At times our definitions may vary and we may have to create a new custom field. Unfortunately, we cannot delete out the Allocadia fields and only have our current fields available. This causes us to have many similar fields and a creates a need for us to document which field should be used when building reports. The list below should serve as the SSOT for fields when building reports.
 
 1. Campaign Type - should be used when you want to report out on both Spend Type and Spend Type (FM). These two fields have been merged into one in reporting.
-   * Do NOT use Campaign Tupe (DNU) OR Campaign Type (SF) as we do not capture data in those fields, therefore nothing will return on your report. 
+   * Do NOT use Campaign Tupe (DNU) OR Campaign Type (SF) as we do not capture data in those fields, therefore nothing will return on your report.
 
 
 ## Integrations (behind the scenes)
 
 ### Allocadia - GitLab Issue Integration
-An efficiency we are able to gain by using Allocaida is that we create a GitLab issue and can push information gathered in the details panel directly to that issue. This saves the team's time by not having to reenter information which has already been entered. 
+An efficiency we are able to gain by using Allocaida is that we create a GitLab issue and can push information gathered in the details panel directly to that issue. This saves the team's time by not having to reenter information which has already been entered.
 
-#### How to create a FMM issue from within Allocadia 
-1. Create a **sub-category** and fill in all information in the details panel 
-1. Add AT LEAST 1 line item 
-1. Go back up to the sub-category details panel and scroll all the way down to the `Actions` section where you will see a button called GitLab issue - click that - and 💥 - your issue is created 
+#### How to create a FMM issue from within Allocadia
+1. Create a **sub-category** and fill in all information in the details panel
+1. Add AT LEAST 1 line item
+1. Go back up to the sub-category details panel and scroll all the way down to the `Actions` section where you will see a button called GitLab issue - click that - and 💥 - your issue is created
 
-   * [Video walk through on GitLab unfiltered.](https://youtu.be/EsGlPNeH2P4) 
+   * [Video walk through on GitLab unfiltered.](https://youtu.be/EsGlPNeH2P4)
 
-By creating the FMM issue at the sub category level, this still allows the marketer flexibility in terms of how they want to structure their activity plan. Another way to think about this is that everything under the sub category should align to the same campaign name to be created. 
+By creating the FMM issue at the sub category level, this still allows the marketer flexibility in terms of how they want to structure their activity plan. Another way to think about this is that everything under the sub category should align to the same campaign name to be created.
 
-Please be mindful of where you are creating a sub-category. The system will allow you to create a sub-category within a sub-category, and you will realize this because upon creation of the what you believe to be a new sub category, you will notice the details panel is already filled in. Do NOT go through and start changing out the data in the details panel, as you are only allowed to create one FMM issue within the sub-category. What you’ll need to do is delete the newly already filled in sub-category and then ensure you're in the category level and create a new sub-category. 
+Please be mindful of where you are creating a sub-category. The system will allow you to create a sub-category within a sub-category, and you will realize this because upon creation of the what you believe to be a new sub category, you will notice the details panel is already filled in. Do NOT go through and start changing out the data in the details panel, as you are only allowed to create one FMM issue within the sub-category. What you’ll need to do is delete the newly already filled in sub-category and then ensure you're in the category level and create a new sub-category.
 
-##### FM Issue Date/Name Changes 
-Should a date on a campaign need to change and the issue has already been created, you can systematically change the date & name. In order to do so, all changes must be made in Allocadia and then overnight will push the change to the GitLab FMM issue. Should you want to manually change both the issue AND Allocadia, you should feel empowered to do so. The automation is there to help you. 
+##### FM Issue Date/Name Changes
+Should a date on a campaign need to change and the issue has already been created, you can systematically change the date & name. In order to do so, all changes must be made in Allocadia and then overnight will push the change to the GitLab FMM issue. Should you want to manually change both the issue AND Allocadia, you should feel empowered to do so. The automation is there to help you.
 
-##### Help! The feature to create a GitLab issue is missing from the details panel 
-You can **ONLY** create a GitLab issue from within a **SUB-CATEGORY**. Please double check you have created a subcategory, and a line item as listed in the [instructions here.](/handbook/marketing/strategy-performance/allocadia/#how-to-create-a-fmm-issue-from-within-allocadia) 
+##### Help! The feature to create a GitLab issue is missing from the details panel
+You can **ONLY** create a GitLab issue from within a **SUB-CATEGORY**. Please double check you have created a subcategory, and a line item as listed in the [instructions here.](/handbook/marketing/strategy-performance/allocadia/#how-to-create-a-fmm-issue-from-within-allocadia)
 
-[Video walk through](https://www.youtube.com/watch?v=D-rxIHhbF0Q) of how to diagnose this problem and then how to also correct the problem if you've created a Category and need to move it to a sub-category. 
+[Video walk through](https://www.youtube.com/watch?v=D-rxIHhbF0Q) of how to diagnose this problem and then how to also correct the problem if you've created a Category and need to move it to a sub-category.
 
-If you have tried to create from the subcategory and you're still not able to create the issue, please ask in the #allocadia_mktg-budget-holders slack channel. 
+If you have tried to create from the subcategory and you're still not able to create the issue, please ask in the #allocadia_mktg-budget-holders slack channel.
 
 #### How to Create a Channel Marketing Epic/Issues from Allocadia
 
@@ -339,7 +339,7 @@ Watch the [video](https://youtu.be/Xis0KDi-Iy4) for a step to step walkthrough.
 
 ##### MDF Epic/Issues Auto Update
 
-Allocadia runs two daily syncs at 1:30 am and 1:30 pm EST and you can manual push the changes using the button at the bottom of the line item details button: `Create/Update MDF Epic/Issues`. Doing so will update any Allocadia name and date changes to the epic/issues. 
+Allocadia runs two daily syncs at 1:30 am and 1:30 pm EST and you can manual push the changes using the button at the bottom of the line item details button: `Create/Update MDF Epic/Issues`. Doing so will update any Allocadia name and date changes to the epic/issues.
 
 Please be aware that the Start and End Date updates will only go through if the format of the “Date(s)” section in the epic description is still in the original format (e.g. “Date(s):YYYY.MM.DD - YYYY.MM.DD”).
 
@@ -353,17 +353,17 @@ If you've hit the GitLab issue template button and the wrong issue template has 
 
 ### SalesForce.com (SFDC)
 
-As mentioned above, there is a listing of available FY23 SFDC campaigns to choose from in the detail panel. Once the initial connection has been made between Allocadia and SFDC on a given campaign (which is done by either manually connecting them via choosing a campaign from the drop down or by using your Allocadia sub-category ID to create your SFDC campaign, instructions in [pt.2 & 5 here](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up)), Allocadia will push over all the fields that have been completed in the details panel. 
+As mentioned above, there is a listing of available FY23 SFDC campaigns to choose from in the detail panel. Once the initial connection has been made between Allocadia and SFDC on a given campaign (which is done by either manually connecting them via choosing a campaign from the drop down or by using your Allocadia sub-category ID to create your SFDC campaign, instructions in [pt.2 & 5 here](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up)), Allocadia will push over all the fields that have been completed in the details panel.
 
-In addition, we will be sending over planned amounts into the SFDC Campaign Budget field and actuals will synch nightly. This ONLY happens if the connection is there by having a campaign selected in the `Existing SFDC Campaign` field. If there are multiple line items for a given SFDC campaign, they will be combined for the updated SFDC Campaign Budget, since we use the Allocadia sub-category ID to sync Allocadia to the SFDC campaign. 
+In addition, we will be sending over planned amounts into the SFDC Campaign Budget field and actuals will synch nightly. This ONLY happens if the connection is there by having a campaign selected in the `Existing SFDC Campaign` field. If there are multiple line items for a given SFDC campaign, they will be combined for the updated SFDC Campaign Budget, since we use the Allocadia sub-category ID to sync Allocadia to the SFDC campaign.
 
 Full detailed instructions on how to set this synch up, which does have to be done campaign by campaign, can be [found here](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up).
 
-#### Influenced MQLs 
-If entered in, the MQLs entered used in the impact modeller will be pushed to the SFDC campaign to a field called `Total Planned MQL` in the planning section of the campaign.  That data can then be pushed from SFDC into the company's BI tool and displayed on the SFDC attribution reporting so we can understand how good we are at forecasting MQL impact. 
+#### Influenced MQLs
+If entered in, the MQLs entered used in the impact modeller will be pushed to the SFDC campaign to a field called `Total Planned MQL` in the planning section of the campaign.  That data can then be pushed from SFDC into the company's BI tool and displayed on the SFDC attribution reporting so we can understand how good we are at forecasting MQL impact.
 
-#### Drop down in details panel 
-If you need to add a new value to the drop down selector options, in order for the new options to properly pulled through to SFDC correctly, you need to be sure the new drop down value has been added to Allocadia and SFDC. Once that's been done, test the systems and you should be good to go! 
+#### Drop down in details panel
+If you need to add a new value to the drop down selector options, in order for the new options to properly pulled through to SFDC correctly, you need to be sure the new drop down value has been added to Allocadia and SFDC. Once that's been done, test the systems and you should be good to go!
 
 ### Okta
 
@@ -375,7 +375,7 @@ We will be using CSV transfer files to upload plans from Allocadia to Adaptive. 
 
 ### Marketo
 
-There is no integration with Marketo. However, through the [Marketo program/SFDC campaign creation process](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up), Marketo will update the SFDC campaign description with an ID. Allocadia ingests this ID and in return, updates SFDC campaign fields to match. 
+There is no integration with Marketo. However, through the [Marketo program/SFDC campaign creation process](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up), Marketo will update the SFDC campaign description with an ID. Allocadia ingests this ID and in return, updates SFDC campaign fields to match.
 
 ### NetSuite
 
@@ -384,11 +384,11 @@ Expenses are loaded from NetSuite to Allocadia by Marketing Finance, [Instructio
 
 #### Mapping Expenses via Line Item IDs
 
-The huge advantage of having an Allocadia ID tagged throughout the systems is that it can then be used to easily match line item plans/forecasts with actuals. **Classifications (aka line item IDs) are no longer required to be created in NetSuite.** 
+The huge advantage of having an Allocadia ID tagged throughout the systems is that it can then be used to easily match line item plans/forecasts with actuals. **Classifications (aka line item IDs) are no longer required to be created in NetSuite.**
 
 Think of each line item ID as its own budget line. Each Allocadia line item ID will represent that particular budgetary item (versus using one main line item ID for all event charges, as was our previous practice).
 
-**Example Event in Allocadia:**  
+**Example Event in Allocadia:**
 
 ![Example Event](/handbook/marketing/strategy-performance/allocadia/Alloscreenshot.png)
 
@@ -396,11 +396,11 @@ In this example, you would use your sponsorship line item ID when submitting you
 
 #### Submitting Expenses
 
-##### For expenses submitted through Zip/Coupa:
+##### For expenses submitted through Zip/Coupa
    - Populate the line item Allocadia ID in the Zip request - this will ensure the PO and invoice are both mapped to the correct Allocadia line item
    - Marketing Finance will confirm the Allocadia line item ID is correct and is properly forecasted. Zip/Coupa requests without Allocadia IDs will not be approved until an ID is provided. See [screenshot](https://drive.google.com/file/d/1DoyN4_uTlYO5q1VGPN-NRiL8M0Lv76z9/view?usp=sharing) for example.
 
-##### For expenses submitted through Navan:
+##### For expenses submitted through Navan
    - Enter the Allocadia line item ID in the `Allocadia ID (Marketing Only)` field when submitting the expense. This will ensure the expense is mapped to the correct Allocadia line item ID. See [screenshot](https://drive.google.com/file/d/1o4eeas6uxeBzUtxevBgZrhQkEv4duD7_/view?usp=sharing) for example.
 
 To find expenses that need to be mapped after the NetSuite actual upload, go to the home page in Allocadia. In the `Actuals` column, see if your `Map` column has a Map (#) in red. If so, click on that link, and it will open a new screen to show you what needs to be mapped. Scroll over to see descriptions, invoice numbers, etc from NetSuite. All you do is select the hierarchy category and then the line item to match each one to. Then hit map. You can also bulk map by shifting /clicking several lines and then hit bulk map for a smaller screen with its own “map” button.
@@ -434,12 +434,12 @@ Via an integration of Allocadia and Coupa, Marketers are able to create a Coupa 
 * Click into the appropriate activity plan
 * Click into the details panel of the line item in the activity for which you are creating the Coupa req
 * Scroll to the bottom of the panel and click `Create PR in Coupa` and your request form will appear. If it does not, the error message will inform you that you are missing required information. Go back to your panel and line item and make sure all required fields have been filled in.
-* `Created By` can be left under your name, unless you would like the requisition to be submitted under someone else’s name, in which case, you can pull the person’s name in the drop down options in the `On Behalf Of` field 
-* `Supplier` should pull over automatically based on the supplier you have provided in the Allocadia line item. **Note:** You must have the name of the supplier in your line item listed exactly as Coupa has the supplier listed. If not, the supplier will not pull through automatically, in which case, you can search the drop down for the supplier listing. 
+* `Created By` can be left under your name, unless you would like the requisition to be submitted under someone else’s name, in which case, you can pull the person’s name in the drop down options in the `On Behalf Of` field
+* `Supplier` should pull over automatically based on the supplier you have provided in the Allocadia line item. **Note:** You must have the name of the supplier in your line item listed exactly as Coupa has the supplier listed. If not, the supplier will not pull through automatically, in which case, you can search the drop down for the supplier listing.
 * `Description of Purchase` should provide details of your purchase - Example - Contract for ABC Event
 * `Vendor has access to red or orange data` is a required field, see linked handbook page in the form for more information
 * `List data and system involved` is only a field that should be filled in if you select YES to the above data question
-* `Vendor’s Contact Email` is a required field and is generally utilized for contract countersignature requests 
+* `Vendor’s Contact Email` is a required field and is generally utilized for contract countersignature requests
 * `Vendor’s Security Contact Email` is a field to be filled in if vendor has access to red or orange data
 * `Attachment` is required and this where you would attach the appropriate contract
 * Click `Next`
@@ -454,7 +454,7 @@ Via an integration of Allocadia and Coupa, Marketers are able to create a Coupa 
 * If you are submitting a single line item request, click `Submit`
 * The system will provide you with the link to your Coupa req (this will also be linked in your Allocadia line item’s detail panel)
 * **PLEASE NOTE** - This does NOT mean your Coupa req has been submitted. This is taking you to the actual req in Coupa to review and you will still need to submit the req in Coupa.
-* Click on your Coupa req link and review 
+* Click on your Coupa req link and review
 * At this point you can make any adjustments needed and even [add an approver](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-an-approver)
 * When you are ready to submit your req, click `Submit`
 
@@ -468,6 +468,6 @@ Via an integration of Allocadia and Coupa, Marketers are able to create a Coupa 
 * Click `Submit`
 * The system will provide you with the link to your Coupa req (this will also be linked in your Allocadia line item’s detail panel for each line item of your Coupa req)
 * **PLEASE NOTE** - This does NOT mean your Coupa req has been submitted. This is taking you to the actual req in Coupa to review and you will still need to submit the req in Coupa.
-* Click on your Coupa req link and review 
+* Click on your Coupa req link and review
 * At this point you can make any adjustments needed and even [add an approver](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-an-approver)
 * When you are ready to submit your req, click `Submit`

@@ -65,7 +65,7 @@ Please see the product handbook to see [what information product wants us to pro
 
 Optional:
 
-[Search for Zendesk tickets based on the `GitLab Issues` custom field]({{< ref "/handbook/support/readiness/operations/docs/zendesk/searching#searching-by-custom-ticket-field" >}}). Copy and add the link to the search query as a comment to the issue, specifying that it's an internal link to a ZenDesk search of related tickets. This will give the PM more insight into how many customers have encountered an open bug, or have requested a certain feature.
+[Search for Zendesk tickets based on the `GitLab Issues` custom field](/handbook/support/readiness/operations/docs/zendesk/searching#searching-by-custom-ticket-field). Copy and add the link to the search query as a comment to the issue, specifying that it's an internal link to a ZenDesk search of related tickets. This will give the PM more insight into how many customers have encountered an open bug, or have requested a certain feature.
 
 **Note:** To obtain the field ID for the `GitLab Issues` field, you can reference [this repository file](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/ticket-forms-and-fields/-/blob/master/ticket_fields/active/GitLab%20Issues.yaml).
 
@@ -138,11 +138,11 @@ If you create a feature proposal on behalf of a customer, please follow the same
 ## Functional escalation points
 
 | Service/Product  | Escalation Types                 | Escalation Point                                        | Assignment      |
-|------------------|--------------------------------|-----------------------------------------------------------|------------------
-| GitLab           | Bug reports or Feature proposals | [Bug](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Bug) or [Feature proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20proposal%20-%20detailed)           |
-| Omnibus GitLab   | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/omnibus-gitlab/issues/new>   | Omnibus GitLab specialist
-| GitLab Runner    | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/gitlab-runner/issues/new>  | GitLab CI specialist
-| GitLab Workhorse | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/gitlab/-/issues/new?issue%5bdescription%5d=%2flabel%20%7eworkhorse> | Maintainer of gitlab-workhorse
+|------------------|--------------------------------|-----------------------------------------------------------|------------------|
+| GitLab           | Bug reports or Feature proposals | [Bug](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Bug) or [Feature proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Feature%20proposal%20-%20detailed)           | |
+| Omnibus GitLab   | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/omnibus-gitlab/issues/new>   | Omnibus GitLab specialist |
+| GitLab Runner    | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/gitlab-runner/issues/new>  | GitLab CI specialist |
+| GitLab Workhorse | Bug reports, Feature proposals | <https://gitlab.com/gitlab-org/gitlab/-/issues/new?issue%5bdescription%5d=%2flabel%20%7eworkhorse> | Maintainer of gitlab-workhorse |
 
 **See the [GitLab team page](/handbook/company/team/) for assignments**
 
@@ -150,9 +150,9 @@ If you create a feature proposal on behalf of a customer, please follow the same
 
 | Service/Product       | Escalation Type                                                                                  | Escalation Point                                         |  Assignment      |
 |-----------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------|----------------------- |
-| GitLab Infrastructure | Anything related to the **running of GitLab.com**, performance, something breaks                | <https://gitlab.com/gitlab-com/infrastructure/issues/new> | Production Lead/Senior Production Engineer
+| GitLab Infrastructure | Anything related to the **running of GitLab.com**, performance, something breaks                | <https://gitlab.com/gitlab-com/infrastructure/issues/new> | Production Lead/Senior Production Engineer |
 | Support Engineers with GitLab.com console access| Anything related to the **use of GitLab.com**, operations that can't be performed with admin access  | See [Console escalation requests]({{< ref "internal_requests.md#gitlabcom-console-escalation" >}}) | Use `~"GitLab.com Console Escalation"` label |
-| GitLab Support        | Any and all questions in relation to providing customer service for GitLab users and customers. | <https://gitlab.com/gitlab-com/support/support-team-meta/issues/new>        | Support Team Lead/Senior Support Engineer
+| GitLab Support        | Any and all questions in relation to providing customer service for GitLab users and customers. | <https://gitlab.com/gitlab-com/support/support-team-meta/issues/new>        | Support Team Lead/Senior Support Engineer |
 
 **See the [GitLab team page](/handbook/company/team/) for assignments**
 

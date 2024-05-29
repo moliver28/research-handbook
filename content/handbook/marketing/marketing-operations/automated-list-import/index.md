@@ -4,15 +4,6 @@ title: "Self-Service List Imports"
 description: "Automated process developed by Marketing Operations to facilitate self-service list imports"
 ---
 
-
-
-
-
-
-
-
-  
-
 With the purpose of increasing efficiency through the use of automation, Marketing Operations has developed a self-service process for list imports, to be used by campaign managers when they have third party vendor lists from events/other campaigns or to update the member status on field marketing events.
 
 The objective of this process is to reduce the SLA for list imports to a minimum, allowing leads to be followed up as soon as possible by SDR/BDR teams while minimising the busy work of the various teams involved.
@@ -114,17 +105,9 @@ Pubsec field marketers need to use `List Upload Complete - PubSec` label on eith
 
 ## Data Cleaning Instructions
 
-<div  class="panel panel-danger">
-
-**Caution**
-
+{{% panel header="**Caution**" header-bg="danger" %}}
 DO NOT MAKE CHANGES TO THE ORIGINAL SPREADSHEET OR INPUT DATA INTO IT. MAKE A COMPLETE COPY AS INDICATED IN THE LIST UPLOAD ISSUE TEMPLATE
-{: .panel-heading}
-
-<div  class="panel-body">
-
-</div>
-</div>
+{{% /panel %}}
 
 <details>
 

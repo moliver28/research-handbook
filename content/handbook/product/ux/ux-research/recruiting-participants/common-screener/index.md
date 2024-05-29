@@ -55,6 +55,7 @@ A question about key tasks is a good example of something that can be used in a 
 Asking respondents to select their common tasks from a list that covers multiple Personas also minimizes the response bias introduced by respondents who select tasks that they don’t actually complete in the hopes of being included in a research study. Below is an example of what a task-based question might look like:
 
 > Which of the following are part of your primary job responsibilities? Select all that apply.
+>
 > - Lead the design of an effective, empathetic, and efficient user experience
 > - Translate product designs into application code
 > - Deploy, build, and release code
@@ -117,7 +118,9 @@ Once the Common Screener is set up, there are a few more steps to follow.
 |   [Problem Validation + Foundational Research 2023](https://gitlab.com/gitlab-org/ux-research/-/issues/1894)   |  30 or 60 min Zoom interviews, 60 min interviews, 30 or 60 min task based moderated usability studies   |
 
 1. Tag the owner of the Common Screener Coordination issue (linked above) and let them know:
+
   - what study you’d like to recruit for
   - the Personas you are looking for
   - when you’d like to start recruiting participants and the number of participant you are looking for
+
 1. The owner of the coordination issue will ask you to fill out the Common Screener as if you were your ideal participant and will create a filter that the ReOps team can use to help you shortlist participants.

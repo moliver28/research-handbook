@@ -92,7 +92,7 @@ Weekend/Holiday oncall will continue to use the [oncall spreadsheet](https://dri
 
 Holidays will be included in the oncall spreadsheet, those holidays include: [Family & Friends days](/handbook/company/family-and-friends-day/), Christmas Day, New Year's Eve, New Year's Day, and any major holidays that affect multiple timezones.
 
-There are restrictions of eligibility in certain localities, which can be found in the `weekend` column of the [Development-Team-BE](https://docs.google.com/spreadsheets/d/1Uug3QHeGYobzUbB2ajJsw7CKe7vy1xRdflO5FOuHgDw/edit#gid=361355071) spreadsheet (internal only). This spreadsheet is refreshed by the end of each month automactically via the [Employment Automation](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/blob/main/lib/syncing/on_call_scheduling_spreadsheet.rb).
+There are restrictions of eligibility in certain localities, which can be found in the `weekend` column of the [Development-Team-BE](https://docs.google.com/spreadsheets/d/1rCamrCMZPreBpYwbzFG9zpghtiH3KPiFYu46RbqWjXU/edit#gid=1779774378) spreadsheet (internal only). This spreadsheet is refreshed by the end of each month automactically via the [Employment Automation](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/blob/main/lib/syncing/on_call_scheduling_spreadsheet.rb).
 
 ##### Escalation
 
@@ -115,8 +115,8 @@ Use the [product sections](/handbook/product/categories/) handbook page to deter
 
 **OPERATIONAL EMERGENCY ISSUES ONLY**
 
-1.  **GitLab.com**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue within **15 minutes**.
-1.  **Self-managed**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue on a best-effort basis. (SLO will be determined at a later time.)
+1. **GitLab.com**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue within **15 minutes**.
+1. **Self-managed**: Development engineers provide initial response (not solution) in both [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4) and the tracking issue on a best-effort basis. (SLO will be determined at a later time.)
 1. In the case of a tie between GitLab.com and self-managed issues, GitLab.com issue takes priority.
 1. In the case of a tie between production (GitLab.com, self-managed) and engineering issues, production issue takes priority. The preferred action is to either backout or rollback to the point before the offending MR.
 
@@ -149,13 +149,13 @@ One engineer must be on-call at all times on weekends and company holidays. This
 must allocate 756 4-hour shifts.
 
 The total number of shifts is divided among the eligible engineers. This is
-the minimum number of shifts any one engineer is expected to do. As of January
-2021 we have around 157 eligible engineers, this means each engineer is
-expected to do 8 shifts per year, or 2 shifts per quarter.
+the minimum number of shifts any one engineer is expected to do. As of February
+2024 we have around 206 eligible engineers, this means each engineer is
+expected to do 4 shifts per year, or 1 shift per quarter.
 
 In general, engineers are free to choose which shifts they take across the
 year. They are free to choose shifts that are convenient for them, and to
-arange shifts in blocks if they prefer. A few conditions apply:
+arrange shifts in blocks if they prefer. A few conditions apply:
 
 - No engineer should be on call for more than 3 shifts in a row (12 hours),
  with 1-2 being the norm
@@ -170,9 +170,14 @@ The on-call spreadsheet(internal only) can be found by searching [Google Drive f
 
 #### Eligibility
 
-All development backend and fullstack engineers who have been with the company for at least 3 months.
+All backend and fullstack engineers within Core Development, Expansion Development, or Core Platform who have been with the company for at least 3 months, with the exception of team members in:
 
-Exceptions: (i.e. exempted from on-call duty)
+- ModelOps: AI Model Validation
+- Secure: Composition Analysis
+- Distribution: Build
+- Infra: DB Reliability Team
+
+Other general exceptions: (i.e. exempted from on-call duty)
 
 - Distinguished engineers and above.
 - Intern and Associate engineers.
@@ -180,7 +185,7 @@ Exceptions: (i.e. exempted from on-call duty)
     - There are countries with laws governing hours that can be worked.
     - This would not be an issue in the U.S.
     - At this point we would only be looking into countries where 1) we have legal entities, as those team members are employees or 2) countries where team members are hired as employees through one of our PEO providers. For everyone else, team members are contracted as independent contractors so general employment law would not apply.
-- Team members participating in another on-call rotation. Examples of this include a team specific rotation for a service owned by that team or in the [Engineering Incident Manager rotation](/handbook/on-call/#engineering-incident-manager).
+- Team members participating in another on-call rotation. Examples of this include a team specific rotation for a service owned by that team or in the [Engineering Incident Manager rotation](/handbook/engineering/on-call/#engineering-incident-manager).
 
 The eligibility is maintained in this [team members list(internal only)](https://drive.google.com/drive/search?q=%22Development-Team-BE%22) and the spreadsheet is refreshed automatically by our [automation script](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/blob/main/lib/syncing/on_call_scheduling_spreadsheet.rb).
 
@@ -233,10 +238,10 @@ There is additional information regarding weekend shifts, which can be found in 
     - Anything that helps bring the next on-call engineer up to speed quickly
 
       These summary items should be in written format in the following locations:
-      
-        - _Existing_ threads in [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4)
+
+        - *Existing* threads in [#dev-escalation](https://gitlab.slack.com/messages/CLKLMSUR4)
         - Incident tracking issues
-    
+
       This shall be completed at the end of shifts to hand over smoothly.
 - For current Infrastructure issues and status, refer to [Infra/Dev Triage](https://gitlab.com/groups/gitlab-org/-/boards/1193197?&label_name[]=gitlab.com&label_name[]=infradev) board.
 - For current Production incident issues and status, refer to [Production Incidents](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1717012?label_name[]=incident) board.
@@ -317,8 +322,10 @@ When responding to an Incident, utilize the below procedure as guidelines to fol
 1. Join the Incident Zoom - this can be found bookmarked in the `#incident-management` Slack Channel
 1. Join the appropriate incident slack channel for all communications that are text based - Normally this is `#incident-<ISSUE NUMBER>`
 1. Work with the EOC to determine if a known code path is problematic
+
   - Should the knowledge of this be in your domain, continue working with the Engineer to troubleshoot the problem
   - Should this be something you may be unfamiliar with, attempt to determine code ownership by team - Knowing this will enable us to see if we can bring online an Engineer from that team into the Incident
+
 1. Work with the Incident Manager to ensure that the Incident issue is assigned to the appropriate Engineering Manager - if applicable
 
 ### Bot (Pagerslack) Usage
@@ -340,7 +347,6 @@ Situation Room recordings from previous incidents are available in internal Goog
 ### Shadowing A Whole Shift
 
 To get an idea of [what's expected](#expectation) of an on-call engineer and how often incidents occur it can be helpful to shadow another shift. To do this simply identify a time-slot that you'd like to shadow in the on-call schedule and contact the primary to let them know you'll be shadowing. Ask them to invite you to the calendar event for this slot. During the shift keep an eye on [#dev-escalation](https://gitlab.slack.com/archives/CLKLMSUR4) for incidents and observe how the primary [follows the process](#process-outline) if any arise.
-
 
 ### Tips & Tricks of Troubleshooting
 
@@ -365,13 +371,16 @@ To get an idea of [what's expected](#expectation) of an on-call engineer and how
    1. [SLAs](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1).
    1. [Web Overview](https://dashboards.gitlab.net/d/web-main/web-overview?orgId=1).
 
-### Pagerslack statistics ([Sisense](https://app.periscopedata.com/app/gitlab/780258/Pagerslack-Stats))
+### Pagerslack statistics ([Tableau](https://10az.online.tableau.com/#/site/gitlab/workbooks/2225419/views))
 
-{{< sisense dashboard="780258" chart="10320020" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/PagerslackStats/ofEscalationsperMonth" >}}
+{{< /tableau >}}
 
-{{< sisense dashboard="780258" chart="10320263" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/PagerslackStats/Responsetime" >}}
+{{< /tableau >}}
 
-{{< sisense dashboard="780258" chart="10320108" >}}
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/PagerslackStats/Percentageofbotescalatedresponses" >}}
+{{< /tableau >}}
 
 ### Notification Settings
 
@@ -394,7 +403,6 @@ These are the recommended settings. Your mileage may vary.
 
 ![screenshot of slack notification settings](notifications-slack-1.png)
 ![screenshot of slack notification settings](notifications-slack-2.png)
-
 
 #### macOS Notifications
 

@@ -1,13 +1,13 @@
 ---
 
 title: Elevate
-aliases: 
+aliases:
 - /handbook/people-group/learning-and-development/elevate/elevate
 ---
 
 Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
-The handbook provides guidance on GitLab [leadership competencies](/handbook/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
+The handbook provides guidance on GitLab [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
 
 At this time, Elevate is only available for current People Leaders, People Business Partners, and members of the Team Member Relations team.
 
@@ -26,12 +26,12 @@ In FY24, 85% of people leaders will complete Elevate and earn the GitLab Elevate
 
 ## What is Elevate
 
-Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values]({{< ref "values" >}}), [leadership competencies](/handbook/competencies/#manager-and-leadership-competencies), and [mission]({{< ref "mission" >}}).
+Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values]({{< ref "values" >}}), [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies), and [mission]({{< ref "mission" >}}).
 
 In Elevate, participants will:
 
 1. Learn what it means to lead at GitLab
-1. Practice the [Manager & Leadership competencies](/handbook/competencies/#manager-and-leadership-competencies)
+1. Practice the [Manager & Leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies)
 1. Build cross-functional relationships with coaching cohort members
 1. Demonstrate leadership competency by completing the Elevate Leadership Certification
 
@@ -39,13 +39,13 @@ In Elevate, participants will:
 
 Elevate is organized into 5 learning modules. Read more about the skills covered in each module below:
 
-![visual displaying the content in each elevate module](../elevatemodules.png)
+![visual displaying the content in each elevate module](/handbook/people-group/learning-and-development/elevate-programs/images/elevatemodules.png)
 
 We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
 
 ## Time Commitment
 
-![visual displaying the module path for learners in the Elevate program](../elevatepath.png)
+![visual displaying the module path for learners in the Elevate program](/handbook/people-group/learning-and-development/elevate-programs/images/elevatepath.png)
 
 Elevate runs for a total of 6 months and is organized into 5 learning modules. In each module, participants spend a total of 3-4 hours in the following learning activities:
 
@@ -54,7 +54,7 @@ Elevate runs for a total of 6 months and is organized into 5 learning modules. I
 | Step 1 | Live Learning Session | 1x monthly synchronous learning session on the relevant module topic | 50 minutes |
 | Step 2 | Asynchronous Learning | Videos, reading, journaling, self-reflections, and quizzes to reinforce concepts completed in Level Up | 45 minutes |
 | Step 3 | Group Coaching | Cross-functional group coaching sessions with 10-12 other GitLab people leaders to practice module concepts | 80 minutes |
-| Step 4 | Assess your Learning | Take a quiz in Level Up to demonstrate your understanding of new concepts. |
+| Step 4 | Assess your Learning | Take a quiz in Level Up to demonstrate your understanding of new concepts. | 5 minutes |
 
 Watch this video for a walk through of each step:
 
@@ -171,7 +171,6 @@ We currently plan for a new group of ~30 people leaders to start this program ev
 
 Due to our priority to certify people leaders, participation by aspiring managers is not currently an option. We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
 
-
 ### What if I get promoted while I'm part of Elevate?
 
 If you're promoted from Manager to Senior Manager, you'll continue Elevate without inturruption. If you're promoted to a Director role or above, please plan to discuss directly with your manager and the Elevate team. Decisions will be made on a case by case basis.
@@ -189,7 +188,7 @@ Refer to the table below to align on language used to talk about Elevate.
 | Round | Collection of cohorts starting Elevate at the same time - used for internal reference only |
 | Cohort | Groups of 10-12 participants organized by timezone who meet together for Group Coaching - used with participants |
 | Manager+ Path | Elevate content for Managers and Senior Managers |
-| Director+ Path | Elevate content for Directors, Senior Directors, and VPs
+| Director+ Path | Elevate content for Directors, Senior Directors, and VPs |
 | Pilot | First group of ~45 managers involved in Elevate |
 | Round 1 | Manager+ Path running from April-August 2023 - 100 participants |
 | Round 2 | Manager+ Path running from June-January 2024 - 60 participants |
@@ -209,6 +208,3 @@ If a participant misses a live session or falls behind on self paced work, the L
 | No response 24 hours after Message 1 | Message 2: Direct message via Slack to participant & PBP |
 | No response 24 hours after Message 2 | Message 3: Direct message via Slack to participant, PBP, & Talent Aquisition VP |
 | Disengaged or request program exit | Message 4: L&D team sends message to PBP of participant to discuss enrollment of future Elevate cohort |
-
-
-

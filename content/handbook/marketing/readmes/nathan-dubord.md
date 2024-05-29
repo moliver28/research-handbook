@@ -20,7 +20,7 @@ I am curious minded, with a strong sense of direction. I value moving fast, and 
 Outside of work, I enjoy golfing, soccer, traveling, and trying new cuisine.
 
 
-### What excites me:
+### What excites me
 - Simplifying process.
 - Meeting challenges.
 - Outside the box thinking.

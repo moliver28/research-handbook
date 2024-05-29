@@ -4,15 +4,8 @@ title: "Data Team - How We Work"
 description: "GitLab Data Team Workflow"
 ---
 
-
-
-
-
-
-
-
-
 ---
+
 ### <i class="fas fa-map-marked-alt fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i>Quick Links
 
 - [Calendar](/handbook/business-technology/data-team/how-we-work/calendar/)
@@ -34,7 +27,7 @@ The Data Team strives to spend the majority of its time developing and operating
 
 | Rank | Priority | Description| Target Allocation | Prioritization Method |
 | --- | --- | --- | --- | --- |
-| 1  | Production Operations | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/business-technology/data-team/platform/#slos-service-level-objectives-by-data-source). | 10-20% (may fluctuate depending on incident frequency and complexity) | As needed
+| 1  | Production Operations | Activities required to maintain efficient and reliable data services, including triage, bug fixes, and patching to meet established [Service Level Objectives](/handbook/business-technology/data-team/platform/#slos-service-level-objectives-by-data-source). | 10-20% (may fluctuate depending on incident frequency and complexity) | As needed |
 | 2  | Data Team OKRs | The Data Team identifies strategic-level OKRs in collaboration with partner teams each quarter. | 50-65% | Prioritized through the monthly [Data Leadership Forum](/handbook/business-technology/data-team/how-we-work/#data-leadership-forum) and committed to during our [quarterly planning process](/handbook/business-technology/data-team/how-we-work/planning/) |
 | 3  | Other | Other tactical work that is requested on an ad-hoc basis throughout the quarter | 15-25% | Prioritized on an ongoing basis and committed to during our [iteration planning process](/handbook/business-technology/data-team/how-we-work/#quarterly-and-iteration-planning). Other work that has a weight of 8 issue points or higher and is important or urgent may necessitate discussion at the Data Leadership Forum for key result prioritization and scheduling. |
 
@@ -65,9 +58,9 @@ Here's the process to follow to create a new Data issue:
 
 The monthly Data Leadership Forum includes representation from partner teams across GitLab (Marketing, Sales, Customer Success, Finance, IT, Support, Product, Engineering, People, Security, Legal) and is used to oversee and drive the strategic direction of GitLab data management and analytics initiatives, including project prioritization. The forum ensures that data is leveraged effectively to support business goals, improve decision-making processes, and drive innovation. It acts as a governing body to establish policies, standards, and best practices for data governance, data quality, data privacy, and data security.
 
-In order for OKRs / projects to be prioritized through the Data Leadership Forum, an opportunity canvas is required. An opportunity canvas is a specific [issue template](https://gitlab.com/gitlab-data/analytics/-/issues) that contains detailed information about the work that is being requested, the expected business impact from that work, a rough estimate of the level of effort to accomplish the work, and known risks/dependencies. The opportunity canvas also includes a business value score based on our [Value Calculator](/handbook/business-technology/data-team/how-we-work/#data-team-value-calculator), which is one factor in prioritizing and ranking our backlog of work. 
+In order for OKRs / projects to be prioritized through the Data Leadership Forum, an opportunity canvas is required. An opportunity canvas is a specific [issue template](https://gitlab.com/gitlab-data/analytics/-/issues) that contains detailed information about the work that is being requested, the expected business impact from that work, a rough estimate of the level of effort to accomplish the work, and known risks/dependencies. The opportunity canvas also includes a business value score based on our [Value Calculator](/handbook/business-technology/data-team/how-we-work/#data-team-value-calculator), which is one factor in prioritizing and ranking our backlog of work.
 
-In the instance that a new project is raised mid-quarter and is proposed to be prioritized sooner than the next quarterly planning cycle, the forum will review the Opportunity Canvas for the new project, determine if the business value and impact warrants re-prioritization, and will come to a decision on the necessary trade-offs (i.e. to prioritize that new work, other planned work must be deprioritized). 
+In the instance that a new project is raised mid-quarter and is proposed to be prioritized sooner than the next quarterly planning cycle, the forum will review the Opportunity Canvas for the new project, determine if the business value and impact warrants re-prioritization, and will come to a decision on the necessary trade-offs (i.e. to prioritize that new work, other planned work must be deprioritized).
 
 ### Request to Expedite Responses
 
@@ -79,7 +72,7 @@ Requests to expedite responses, triage issues, or MR reviews are rare. Given the
 
 ### Deciding What And How To Build
 
-Not all data solutions require the same level of quality, scalability, and performance so we have defined a [Data Development](/handbook/business-technology/data-team/data-development/) framework to help match required outcomes with level of investment. The Data Team works with all teams to build solutions appropriate to the need, but focuses on *Trusted Data* using [Trusted Data Development](/handbook/business-technology/data-team/data-development/#trusted-data-development).
+Not all data solutions require the same level of quality, scalability, and performance so we have defined a [Data Development](/handbook/business-technology/data-team/data-development/) framework to help match required outcomes with level of investment. The Data Team works with all teams to build solutions appropriate to the need, but focuses on _Trusted Data_ using [Trusted Data Development](/handbook/business-technology/data-team/data-development/#trusted-data-development).
 
 ### Design Spike
 
@@ -110,43 +103,18 @@ The calculator below is based on the following [Value Calculator](https://docs.g
 
 Our planning process is called the [Planning Drumbeat](/handbook/business-technology/data-team/how-we-work/planning) and it encompasses Quarterly Planning and [Iteration Planning](/handbook/business-technology/data-team/how-we-work/planning/#iteration-planning). The Planning Drumbeat is one of the most important activities the Data Team performs because it helps us align our work with the broader company, while remaining agile enough to manage shifting business priorities.
 
-#### Weekly Roll Up Reporting
+#### Quarterly KR Status Reporting
 
-Business Technology developed [Rolly Bot](/handbook/business-technology/how-we-work/rolly/) to automate the creation and dissemination of weekly status updates. By using their tool, the Data Team is able to send out regular updates about their OKRs via email and Slack with minimal time commitments from team members. One roll up is generated for the Data Fusion team and a second is created for the Data Platform team. 
-
-We use GitLab's [DRI Handbook Page](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) to define the roles and responsibilities for each key result. The DRI (Responsible and Accountable Team Member that completes the Key Result), Consulted (Primary Business Stakeholder for Data Activation), and Informed (Secondary Business Stakeholder for Data activation) should be added to the Epic description.
+Beginning in FY25-Q1, the Data Team is using the [GitLab Objectives and Key Results project](https://gitlab.com/gitlab-com/gitlab-OKRs) to manage quarterly commitments.
 
 Process:
-1. Create Epics for tracking KRs related to our Quarterly Objectives
-2. Add the appropriate Label to each epic
-    - Data Platform Team: `Data-Platform-weekly-rollup`
-    - Data Fusion Team: `Data-Fusion-weekly-rollup`
-    - Data Science Team: `Data-Science-weekly-rollup`
-    - Data Collaboration Team: `Data-Collaboration-weekly-rollup`
-3. Add the following text in each Epic description, filling in the details for each KR: 
-    ```
-    <!-- Status Start -->
-    1. **DRI:** [Team member(s) tags responsible for completing the KR]
-    1. **Consulted:** [Primary Business stakeholder(s) tags so they receive the weekly roll up email]
-    1. **Informed:** [Secondary Business stakeholder(s) tags so they receive the weekly roll up email]
-    1. **Next Release Date:** [Date of Release]
-    1. **Status:** [Red, Yellow, Green]
-    1. **Stage:** [Triage, Validation, Scheduling, Scheduled, Development, Review, Completed, Blocked]
-    1. **Achieved:** [Bulleted list of what has been completed]
-    1. **Features Included in Next Release:** [Bulleted list of what is scheduled to be completed in the next release]
-    1. **Blockers:**  [Details of any blockers (technical, business, other)]
-    1. **Overall Estimated Size:**  [T-Shirt Size Estimate]
-    1. **Business Impact Statement:** [Short summary of business impact]
-    <!-- Status End -->
-    ```
-4. During iteration planning, the DRI will be responsible for updating the above details for the KR in the Epic. The best practice is to write the update for the entire iteration.
-5. At the end of the quarter, the roll up labels will be removed from the KR Epics and added to the new quarter's KR Epics.
 
-**Note:** The release date will often be the next iteration based on our iteration planning process, but it could be sooner or later than that, depending on the specific KR.
-
-Current limits:
-1. Only Epics can be added to the weekly roll up (i.e. not Issues)
-1. Only 20 Epics can be added to the weekly roll up
+1. Create KRs in the project for each of the committed Key Results.
+2. In the KR description, add a link to the corresponding Epic from the GitLab Data Team project where the development work is being tracked.
+3. Throughout the quarter, the DRI for the workstream should make the following updates (at a minimum, these updates should be added at the end of each month in the quarter for the KRs that have the `Division::` scoped label applied to them; some teams may choose to make updates more frequently):
+    - Add a comment outlining what work has been completed, and what work is remaining to complete the KR.
+    - Update the % complete field on the KR.
+    - Update the Health Status field to indicate whether the KR is `On Track`, `Needs Attention`, or `At Risk`.
 
 ##### Introducing a new data source
 <!-- Amie to check with Dennis on this -->
@@ -158,10 +126,10 @@ This helps verify that numbers are accurate and the original data source and the
 
 Incidents are times when a problem is discovered and some immediate action is required to fix the issue. When this happens, we make an [Incident Issue](https://docs.gitlab.com/ee/operations/incident_management/incidents.html) in the Data Team Project. The process for working through incidents is as follows:
 
-* Open an [Incident issue](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=incident&issue[issue_type]=incident) using the "Incident Report" template
-* Detail the relevant information with appropriate timestamps
-* Tag and assign people on the Data Team and any other teams that need to be informed
-* Review the Security Team's documentation on [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response.html) and take any necessary action
+- Open an [Incident issue](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=incident&issue[issue_type]=incident) using the "Incident Report" template
+- Detail the relevant information with appropriate timestamps
+- Tag and assign people on the Data Team and any other teams that need to be informed
+- Review the Security Team's documentation on [Incident Response](/handbook/security/security-operations/sirt/sec-incident-response.html) and take any necessary action
 
 Data Team Incidents can be reviewed in [Incident Overview page](https://gitlab.com/gitlab-data/analytics/-/incidents) within the main project.
 
@@ -211,13 +179,14 @@ All issues should get the following classes of labels assigned to them:
 - **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
 
 Optional labels that are useful to communicate state or other priority:
-- **What:** 
+
+- **What:**
     - Data: Data being touched (Salesforce, Zuora, Zendesk, GitLab.com, etc.)
     - Tool: (Sisense, dbt, Stitch, Airflow, etc.)
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
-- **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/business-technology/data-team/how-we-work/#prioritization). 
+- **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/business-technology/data-team/how-we-work/#prioritization).
 
-##### Merge Request Workflow 
+##### Merge Request Workflow
 
 _Ideally_, your workflow should be as follows:
 
@@ -261,7 +230,7 @@ Other tips:
 ##### KPI Development Workflow
 
 The Data Team will work to add KPIs and Performance Indicators to our enterprise database models and BI reports once the following steps have been completed.
-    - The DRI should ensure the KPI definition, business logic, and calculation steps are documented in the relevant section of the handbook and added to the GitLab KPIs [with all of its parts](/handbook/company/kpis/#parts-of-a-kpi) 
+    - The DRI should ensure the KPI definition, business logic, and calculation steps are documented in the relevant section of the handbook and added to the GitLab KPIs [with all of its parts](/handbook/company/kpis/#parts-of-a-kpi)
     - The handbook definition should be reviewed by the necessary [Consulted & Informed](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) cross-functional partners. In some cases, the definition may also require [approval](/handbook/people-group/directly-responsible-individuals/#circumstances-requiring-the-rare-need-for-approvals) from those cross-functional partners
     - Once the KPI is ready to be added into our enterprise reporting, the DRI should create an issue using the standard Data Team Issue template on the [GitLab Data Team Issue Tracker](https://gitlab.com/gitlab-data/analytics/issues).
     - The Data team will verify the data sources and help to find a way to automate (if necessary).
@@ -282,6 +251,7 @@ Once the KPI has been added to our enterprise BI platform, the Data Team will pr
 After some time, environments will have software/code/components that are not needed any more. It feels risky to delete software and code, even when its not being used, seems not being used or asked not to being used (i.e. users access).
 
 There are multiple reasons to perform deletions:
+
 1. We see software (or parts of software) that is not used anymore
 2. There is a request to remove user access
 3. There is a request to delete a user account
@@ -294,7 +264,9 @@ To address observations and requests, and ensure that deletion will take place i
 Write down what will be deleted and where possible link to existings issues.
 
 #### Calculate a Risk score
+
 The Risk score is build upon 2 variables.
+
 1. Probability that it will break something
 2. Impact if the deletion is executed by mistake or is execute wrongly
 
@@ -312,8 +284,7 @@ Each variables will be scored 1 to 3.
 | Lenient |   2   |
 | Severe  |   3   |
 
-`Probability ` * `Impact` = `Risk Score`
-
+`Probability` * `Impact` = `Risk Score`
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -368,7 +339,6 @@ Each variables will be scored 1 to 3.
   </tr>
 </tbody>
 </table>
-{::options parse_block_html="false" /}
 
 | Risk Score | Outcome |
 | ---------- | ------- |

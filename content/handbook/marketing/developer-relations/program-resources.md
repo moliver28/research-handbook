@@ -24,7 +24,7 @@ Program e-mails:
 
 Specialized e-mails:
 
-1. [conduct@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/conduct): contact for questions or reports related to the [GitLab Community Code of Conduct](/community/contribute/code-of-conduct/)
+1. [conduct@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/conduct): contact for questions or reports related to the [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/)
 1. [merch@gitlab.com](https://groups.google.com/a/gitlab.com/forum/#!forum/merch): merchandise notifications
 
 Contact e-mails are implemented as Google groups, part of our [Google Workspace](/handbook/business-technology/tech-stack/#google-workspace) (formerly G Suite). Their visibility is set to private: users (senders) outside of the Developer Relations team can send e-mails to contact the team, but they cannot see the Google group's content or subscribe to the group.

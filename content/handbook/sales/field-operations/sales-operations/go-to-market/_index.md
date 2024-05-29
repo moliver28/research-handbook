@@ -10,7 +10,7 @@ noindex: true
 
 
 
-## Welcome to The Sales Operations GTM Page!
+## Welcome to The Sales Operations GTM Page
 
 The purpose of this page is to centralize and document all key Go To Market policies & links for ease of use.
 
@@ -62,7 +62,7 @@ The current TSP design supports our Geo sales accounts & territories.
 - It does not currently support Named Accounts, PubSec Accounts, or Channel Accounts - as these require manual assignment.
 - These accounts are intentionally filtered out of the TSP automation process, and will not be impacted by automated reassignment assuming.
 
-## Process for Requesting TSP Changes:
+## Process for Requesting TSP Changes
 
 In the event our data enrichment tools are outdated or incorrect (primary address or employee count), you can submit a request to override this information.
 

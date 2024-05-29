@@ -20,7 +20,7 @@ The professional services practice management team is responsible for maturing [
 1. **Engagement Management** - positioning, selling, scoping and coordinating sigature of customer engagements. Check out the [Engagement Management page](/handbook/customer-success/professional-services-engineering/engagement-mgmt/) for more information
 1. **Practice Management** - building, maintaining, and bringing to market service offerings to be sold and delivered by GitLab PS and our partners. Also, improving back-office processes to decrease overall cost of revenue.
 
-## Meet the team - Lets Chat!
+## Meet the team - Lets Chat
 
 You can check out our team on the [team page here](/handbook/company/team/?department=practice-management). We are most reachable via the [#ps-practice](https://gitlab.slack.com/archives/C02DWMKHGRG) slack channel.
 

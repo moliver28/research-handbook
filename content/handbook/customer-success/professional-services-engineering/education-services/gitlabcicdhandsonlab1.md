@@ -1,12 +1,9 @@
 ---
 title: "GitLab CI/CD - Hands-On Lab: Understanding the Basics of Pipelines"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab CI/CD course."
+description: "This Hands-On Guide walks you a live example of a GitLab CI/CD Pipeline"
 ---
 
-
 > Estimate time to complete: 15 - 20 minutes
-
-> **We are transitioning to the latest version of this course.**  If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandsonlab1.md).
 
 ## Objectives
 
@@ -17,7 +14,7 @@ CI/CD is a continuous method of software development, where you continuously bui
 1. Click [here](https://gitlab.com/gitlab-org/gitlab/-/pipelines) to navigate to GitLab's pipelines. You will see all of the pipelines that are running for commits to the main GitLab repo.
 
     On this page, you will see a table with four columns. The four columns you see at the top are:
-    
+
     **Status**: The current status of the overall pipeline. Each job in the pipeline will have their own status as well.
 
     **Pipeline**: The name of the pipeline being ran. Also contains information on what merge request and commit the pipeline is running on.
@@ -38,7 +35,7 @@ CI/CD is a continuous method of software development, where you continuously bui
 
     **Failed**: The job has not succeeded due to an exception. This does not necessarily mean that the entire pipeline will fail.
 
-1. Click on any of the running pipeline statuses in the leftmost column to view that pipeline's graph. The graph is a visual representation of the order of stages in a pipeline, as well as the statuses of the jobs in a stage. By default, all jobs in a stage must succeed in order for the next stage to run. 
+1. Click on any of the running pipeline statuses in the leftmost column to view that pipeline's graph. The graph is a visual representation of the order of stages in a pipeline, as well as the statuses of the jobs in a stage. By default, all jobs in a stage must succeed in order for the next stage to run.
 
     > There are exceptions to the rule that all jobs in a stage must succeed for the next stage to run. You can read more about the exceptions [here](https://docs.gitlab.com/ee/ci/directed_acyclic_graph/).
 
@@ -46,7 +43,7 @@ CI/CD is a continuous method of software development, where you continuously bui
 
 1. Click on the name of a job with either a **Succeeded** or a **Running** status to see the output from the jobs.
 
-    > Note: Each job runs in an environment independent of all other jobs.
+    > Each job runs in an environment independent of all other jobs.
 
 ## Lab Guide Complete
 

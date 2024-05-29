@@ -5,8 +5,6 @@ title: Internal Analytics Infrastructure
 description: "Architecture of our internal analytics systems"
 ---
 
-# Internal Analytics Infrastructure
-
 ## Snowplow
 
 Snowplow events fired on GitLab SaaS go through an AWS pipeline, managed by GitLab.
@@ -90,4 +88,3 @@ Attributes are combined with a secret salt to replace each identifiable informat
 ### S3 bucket data lake to Snowflake
 
 See [Data team's Snowplow Overview](/handbook/business-technology/data-team/platform/snowplow/) for further details how data is ingested into our Snowflake data warehouse.
-

@@ -12,7 +12,7 @@ description: "Effective discovery is critical to thoroughly understanding custom
 
 
 
-# Overview
+## Overview
 
 Effective discovery is critical to thoroughly understanding customer needs and establishes the foundation for being able to effectively articulate GitLab's value and differentiation in a compelling, customer-centric way. Effective discovery will help you attach to your customers' biggest problems, gain access to higher-level business stakeholders, and serve as a trusted advisor to your customers. This, in turn, will help you build and maintain a healthy and predictable pipeline to meet and exceed your sales goals while helping your customers achieve their business objectives. After reviewing the below information, GitLab field team members are encouraged to take the interactive [Effective Discovery course](https://gitlab.edcast.com/insights/ECL-c0a6e34d-a997-4200-b0d9-65e3305e3761) in GitLab Learn.
 
@@ -144,7 +144,7 @@ The final phase of discovery identifies the roadmap, along with potential roadbl
 </figure>
 <!-- blank line -->
 
-# Avoid These Discovery Pitfalls
+## Avoid These Discovery Pitfalls
 
 ## Lack of Preparation
 
@@ -210,7 +210,7 @@ Sales multi-threading refers to the concept of engaging and developing relations
 </figure>
 <!-- blank line -->
 
-# Supplemental Resources
+## Supplemental Resources
 
 **Overall Discovery**
 - [Executing Great Discovery](https://theaudible-readypodcast.sounder.fm/episode/33-executing-great-discovery-w-brian-walsh) podcast (31 minutes)

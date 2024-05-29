@@ -1,9 +1,7 @@
 ---
 title: "GitLab Security Essentials - Hands-On Lab: Enable and Configure Container Scanning"
-description: "This Hands-On Guide walks you through the lab exercises used in the GitLab Security Essentials course."
+description: "This Hands-On Guide walks you through enabling and using Container Scanning in a GitLab project."
 ---
-
-> You are viewing the latest Version 16.x instructions. If your group URL starts with https://spt.gitlabtraining.cloud, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson3.md)
 
 
 > Estimated time to complete: 15 to 20 minutes
@@ -266,7 +264,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
     #    - docker push $IMAGE
     ```
 
-    > Note that we need to keep at least one job enabled for the pipeline to succeed. In this example, the SAST job is left enabled since it is the quickest to complete. 
+    > Note that we need to keep at least one job enabled for the pipeline to succeed. In this example, the SAST job is left enabled since it is the quickest to complete.
 
 1. Set the commit message to `Lab 3 pipeline reset` and commit your changes to the `main` branch.
 

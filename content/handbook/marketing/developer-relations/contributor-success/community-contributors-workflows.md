@@ -61,7 +61,7 @@ More information on merge request coaches (including how to become a merge reque
 
 ## Contributing to the GitLab Enterprise Edition (EE)
 
-For community contributors to contribute to the [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab-ee), they will need a license for EE. If they don't already have a license, they can get a [free trial for 30 days](https://about.gitlab.com/free-trial/) (choose the Self-Managed option). If they cannot complete their work in 30 days, a new EE license for 90 days for a limited number of users (100) can be issued.
+For community contributors to contribute to the [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee), they will need a license for EE. If they don't already have a license, they can get a [free trial for 30 days](https://about.gitlab.com/free-trial/) (choose the Self-Managed option). If they cannot complete their work in 30 days, a new EE license for 90 days for a limited number of users (100) can be issued.
 
 Renewal of this license:
 
@@ -201,7 +201,7 @@ To generate the external community message:
   - Open floor for the community to bring topics
 - Include instructions on how to join
   - Link to zoom (or any other video platform)
-- Add the event to the [Developer Advocacy team calendar](/handbook/marketing/developer-relations/developer-evangelism/calendar). If you are not a GitLab Team Member, ask a member of the [Developer Relations](/handbook/marketing/developer-relations/) team to add the event to the calendar.
+- Add the event to the [Developer Advocacy team calendar](/handbook/marketing/developer-relations/developer-advocacy/calendar). If you are not a GitLab Team Member, ask a member of the [Developer Relations](/handbook/marketing/developer-relations/) team to add the event to the calendar.
 - Follow the instructions below for social support or open a request at the [Code Contributor's planning repo](https://gitlab.com/gitlab-com/marketing/community-relations/contributor-program/general/issues/new?issuable_template=event-support-request).
 
 ### Social
@@ -218,7 +218,7 @@ To generate the external community message:
 
 ### Hackathons
 
-There will be a quarterly [Hackathon](/community/hackathon/) for GitLab community members to come together to work on merge requests, participate in tutorial sessions, and support each other on the [GitLab Discord](https://discord.gg/gitlab).  Agenda, logistics, materials, recordings, and other information for Hackathons will be available on the [GitLab Community Hackathon](/community/hackathon/) page.
+There will be a quarterly [Hackathon](https://about.gitlab.com/community/hackathon/) for GitLab community members to come together to work on merge requests, participate in tutorial sessions, and support each other on the [GitLab Discord](https://discord.gg/gitlab).  Agenda, logistics, materials, recordings, and other information for Hackathons will be available on the [GitLab Community Hackathon](https://about.gitlab.com/community/hackathon/) page.
 
 The event planning will be done following the [Hackathon issue template](https://gitlab.com/gitlab-org/developer-relations/gitlab-hackathon/-/issues/new?issuable_template=hackathon%20event%20plan) in the [GitLab Hackathon project](https://gitlab.com/gitlab-org/developer-relations/gitlab-hackathon).
 
@@ -238,14 +238,14 @@ To facilitate communication between the wider community and GitLab team members,
 
 Calls will be open to everyone and recordings will be posted after the call. See examples of past office hours from [this playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrXZEInAfyddFlalvwaxL-I). To make it easier for the community to find the videos, each stage should create their own office hours playlist and link to it from their handbook page.
 
-All the community office hour calls should be added to the [Developer Advocacy calendar](/handbook/marketing/developer-relations/developer-evangelism/#-team-calendar) and [meetup.com group](https://www.meetup.com/gitlab-virtual-meetups/).
+All the community office hour calls should be added to the [Developer Advocacy calendar](/handbook/marketing/developer-relations/developer-advocacy/#-team-calendar) and [meetup.com group](https://www.meetup.com/gitlab-virtual-meetups/).
 
 #### How to organize a community office hour call
 
 **Preparation**
 - Once you have a finalized date and time, add it to:
   - the [meetup.com group](https://www.meetup.com/gitlab-virtual-meetups/) (meetup.com account available at your GitLab's 1Password vault)
-  - the [developer advocacy calendar](/handbook/marketing/developer-relations/developer-evangelism/#-team-calendar)
+  - the [developer advocacy calendar](/handbook/marketing/developer-relations/developer-advocacy/#-team-calendar)
 - Update [the office hour running notes doc](https://docs.google.com/document/d/18ddf5d5xASImrYnAG9P8VJXe0I63SBXy7ufDBBNB5H4/edit#) with the Zoom URL and call details
 - Announce it [on Discord](https://discord.gg/gitlab)
 - Tweet about it, [tagging GitLab](https://twitter.com/gitlab)
@@ -266,7 +266,7 @@ All the community office hour calls should be added to the [Developer Advocacy c
 To encourage contribution to priority issues on an on-going basis (and not just during Hackathons), we will maintain a list of up to 5 priority issues for each [product stage](/handbook/product/categories/) and prizes will be given to wider community members who have MRs merged for these issues. These issues will have the label [`Community challenge`](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=Community+challenge) and more details such as prizes, assignment of these issues, etc.
 
 ### Community Newsletter
-We run a [Community Newsletter](/handbook/marketing/developer-relations/developer-evangelism/#community-newsletter) to share developer-focused content, alert community members about upcoming events, and keep contributors engaged. The focus of the newsletter is on driving contributions and engagement. It will not be used to generate or nurture leads and allow us to connect with and share our community's contributions.
+We run a [Community Newsletter](/handbook/marketing/developer-relations/developer-advocacy/#community-newsletter) to share developer-focused content, alert community members about upcoming events, and keep contributors engaged. The focus of the newsletter is on driving contributions and engagement. It will not be used to generate or nurture leads and allow us to connect with and share our community's contributions.
 
 #### Issues for new contributors
 
@@ -282,7 +282,7 @@ These 10 GitLab values support efforts to unblock the wider community and push f
 1. [Short toes](/handbook/values/#short-toes)
 1. [Collaboration is not consensus](/handbook/values/#collaboration-is-not-consensus)
 1. [Bias for action](/handbook/values/#bias-for-action)
-1. [Disagree, commit, and disagree](/handbook/values/#disagree-commit-and-disagree)
+1. [Disagree, commit, and disagree](/handbook/values/#disagree-and-commit)
 1. [Escalate to unblock](/handbook/values/#escalate-to-unblock)
 1. [Cleanup over sign-up](/handbook/values/#cleanup-over-sign-off)
 1. [Minimal viable change](/handbook/values/#minimal-viable-change-mvc)
@@ -309,7 +309,7 @@ Once the merge request is reviewed and merged, the contributor can apply for the
 Contributor Success team members can use the [outreach email/message template](/handbook/marketing/developer-relations/contributor-success/templates/email-templates) when sending the link for the first-time contributor gift.
 
 ### Working with the Core Team
-More information on the [Core Team](/community/core-team/) is available in the [Core Team handbook page](/handbook/marketing/developer-relations/core-team/).
+More information on the [Core Team](https://about.gitlab.com/community/core-team/) is available in the [Core Team handbook page](/handbook/marketing/developer-relations/core-team/).
 
 ### For contributors who don't own a credit card
 
@@ -321,11 +321,9 @@ Wider community members may run out of monthly compute minutes, or run into othe
 
 The solution is to work from the [GitLab community forks](https://gitlab.com/gitlab-community/meta#about).
 
-### Community outreach
+### Contacting contributors
 
-#### Contacting contributors
-
-To be respectful to the contributor's privacy, we will only contact data that is publicly available to reach out to them.
+To be respectful to the contributor's privacy, we will only use contact data that is publicly available to reach out to them.
 
 Here are some ways to reach out to contributors to e.g. distribute Hackathon prizes or MVP swag:
 
@@ -338,11 +336,100 @@ If you need assistance finding a contributor's email address please see [Finding
 
 Once you've found out the best way to contact them, you can choose to use a mention, e-mail or Twitter for instance.
 
-#### Contributor blog post series
+### Contributor blog post series
 
 Goal is to publish a regular blog post featuring contributors from the community.  The format will be a [casual Q&A with a community member](https://about.gitlab.com/blog/2018/08/08/contributor-post-vitaliy/) and will be posted on the [GitLab blog page](https://about.gitlab.com/blog/).
 
 When developing a blog post, follow the [blog guidelines](/handbook/marketing/blog/).
+
+## Contributor outreach campaigns
+
+Outreach campaigns help us reconnect with past contributors to GitLab who have stopped
+or users who have expressed interest in contributing but have not started.
+When reaching out, we plant trees in the [GitLab forest](https://tree-nation.com/profile/gitlab)
+in their name to recognize their past and/or potential future contributions. 
+
+### Outreach goals
+
+The Contributor Success team experimented with different criteria and messages to create a repeatable
+outreach campaign with three goals:
+
+1. Maximize community members opening new merge requests 
+1. Minimize time commitment from Contributor Success to run the campaign
+1. Prevent outreach campaigns from being a nuisance or appearing like marketing spam
+
+### Candidate criteria for return contributors
+
+- 0 opened merge requests in the last 3 months
+- Must have merged 2 or more merge requests in the last 12 months
+- Has not previously been contacted in an outreach campaign
+
+### Candidate criteria for new contributors
+
+- Requested and received access to the community forks at least 1 month ago
+- No merged merge requests in their history
+- Has not previously been contacted in an outreach campaign
+
+### Tracking Results
+
+Outreach campaign results are tracked in the [Outreach resuts spreadsheet](https://docs.google.com/spreadsheets/d/1oAkJsYoeRmcYevacWb_PK339C1F-wi-cfy4p7F7BlSg/edit?usp=sharing)
+and reported in the [Report on all outreach campaigns issue](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/517).
+
+#### Results for return contributor campaigns
+
+| Outreach campaign    | Criteria         | Total outreach users | Returned users | User return rate | Merged MR | Opened MR | Closed MR |
+|----------------------|------------------|----------------------|----------------|------------------|-----------|-----------|-----------|
+| December 2023        | 6 months idle    | 49                   | 7              | 14.29%           | 11        | 0         | 2         |
+| January 2024         | 3 months idle    | 124                  | 12             | 9.68%            | 15        | 2         | 2         |
+| April 2024           | 3 months idle    | 40                   | 5              | 12.50%           | 12        | 1         | 1         |
+
+#### Results for new contributor campaigns
+
+| Outreach campaign    | Criteria         | Total outreach users | Returned users | User return rate | Merged MR | Opened MR | Closed MR |
+|----------------------|------------------|----------------------|----------------|------------------|-----------|-----------|-----------|
+| April 2024           | 0 contributions  | 274                  | 6              | 2.19%            | 4         | 2         | 1         |
+
+#### Observations on results
+
+- To date, the return contributor campaigns has been a success with an average user return rate of 11%, 24 returned contributors, and 38 merged merge requests.
+- The April experiment with a new contributor campaign was less successful with a 2% contribution rate.
+  - This campaign did not have a time restriction on how long ago users requested community forks access and likely many users had lost interest in getting started.
+  - It is expected that return contributors would be more successful than new contributors in opening a merge request.
+- In addition to opened and merged merge request results, we observed user engagement in the issues, onboarding task completion, and apreciation of the tree planting.
+- Many contributors will not have the availability to make a merge request within 1 month of the outreach to appear in these results. The campaign might be a positive reminder of the opportunity to contribute at a later time.
+
+### Outreach campaign scheduling
+
+Outreach campaigns are targeted to run every 3 months but should coincide with an announcement that might entice contributors.
+For example, announcing an upcoming hackathon or a new contributing feature like GDK-in-a-box.
+
+### Outreach campaign workflow
+
+#### Review candidate pool
+
+The Contributor Success team reviews the candidate pool to remove:
+
+- Any known GitLab team members with either a GitLab account or a personal account
+- Longstanding contributors who have lapsed but should be contacted separately outside of the campaign (e.g. Core members, former MVPs, GitLab Heroes, etc.)
+- Any known community members who have had code of conduct violations, expressed they do not want to be contacted,
+or expressed they do not want to contribute to GitLab
+
+#### Create issues and plant trees
+
+- Use the temporary branch [`temp-outreach-path` in the reward engine project](https://gitlab.com/gitlab-org/developer-relations/contributor-success/reward-engine/-/tree/temp-outreach-patch?ref_type=heads)
+- Paste candidate usernames into the `recipients` variable in [the `RewardIssuer` module](https://gitlab.com/gitlab-org/developer-relations/contributor-success/reward-engine/-/blob/temp-outreach-patch/lib/reward_issuer/gitlab.rb?ref_type=heads)
+- Run `bundle exec bin/reward_engine`
+- Use a personal access token so the outreach message comes from a real team member instead of a bot
+
+#### Responding and closing outreach issues
+
+- Answer any questions or acknowledge feedback in the outreach issues
+- Close outreach issues after 2 month period with a closing message encouraging the contributor to reopen the issue and reach out if they would like support
+
+### Potential iterations 
+
+- Reduce the manual review step with automation by checking candidates against role criteria or list of candidates to exclude
+- Thank users who contribute after the outreach campaign in their respective issues which might give opportunity for them to share why they came back
 
 ## Recognition for contributors
 
@@ -352,7 +439,7 @@ From time to time, a wider community member will submit a particularly outstandi
 
 ### Top Annual Contributors
 
-In order to recognize regular contributors, the list of top contributors for each calendar year will be published in the [Top Annual Contributors page](/community/top-annual-contributors/). There will be three categories of top contributors:
+In order to recognize regular contributors, the list of top contributors for each calendar year will be published in the [Top Annual Contributors page](https://about.gitlab.com/community/top-annual-contributors/). There will be three categories of top contributors:
 
 *  SuperStar: more than 75 MRs merged
 *  Star: between 11 and 75 MRs merged
@@ -385,7 +472,7 @@ These lifecycle segments are assigned on an individual user level. For organizat
 | Casual contributor | < 10 MRs | Last 6 months |
 | Regular contributor | 10+ MRs | Last 6 months |
 | Leading contributor | 20+ MRs | last 6 months |
-| [Core](/community/core-team/) | Election based | All time |
+| [Core](https://about.gitlab.com/community/core-team/) | Election based | All time |
 
 Segmenting our contributor community will allow us to understand better how contributors "move" across this funnel and how we can better support them through their journey.
 
@@ -395,41 +482,13 @@ The goal is to increase code contributors across all segments (except the inacti
 
 Note: this is currently a working list of all locations where we can currently gather contributor metrics. It is not *yet* the final set of metrics we will be using to monitor the success of the contributor program with.
 
-### Bitergia dashboards
-The [Bitergia dashboard](https://gitlab.biterg.io) is public and anyone can use the dashboard to view/filter/export/analyze the data. A good place to start is the [Merged Community MRs dashboard](https://gitlab.biterg.io/app/kibana#/dashboard/f88a8d00-f36b-11e8-8fe1-b354a33b38be) as it includes information that most people are looking for such as merged community MRs, number of contributors (e.g. yearly), top contributors, merged MRs per milestone, etc. You can filter the dashboard data per milestone and repository (e.g. CE vs. EE).
+### Tableau dashboards
+Internally, GitLab uses [Tableau](/handbook/business-technology/data-team/platform/tableau/) for tracking down the performance of various KPIs. Below you can find a list of community-related dashboards.
 
 | Dashboard | Description |
 | --- | --- |
-| [Contributors](https://contributors.gitlab.com) | Metrics associated to contributors (people) and organizations |
-| [Contributions](https://gitlab.biterg.io/app/kibana#/dashboard/f88a8d00-f36b-11e8-8fe1-b354a33b38be) | Metrics associated to contributions (submitted MRs). It contains our main KPI. |
-| [Hackathon](https://gitlab.biterg.io/app/kibana#/dashboard/9097a7d0-55bd-11eb-a6f8-03728e7a4c82) | Metrics associated to the quarterly GitLab Hackathon. Change the time scale to zoom into a specific Hackathon |
-| [Contributions and contributors over time](https://gitlab.biterg.io/app/kibana#/dashboard/1a47afc0-b950-11eb-a6f8-03728e7a4c82?_g=(refreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-10y%2Cmode%3Arelative%2Cto%3Anow))) | Overview of contribution and contributor growth over release, month and year time periods |
-
-There are a number of other custom dashboards also available and to see the full list, click on `dashboard` on the upper left (next to the Bitergia logo) and then select the dashboard link from the list. To learn more about using the Bitergia dashboard, you can view recordings of Bitergia training at the [Bitergia training livestream channel](https://www.youtube.com/playlist?list=PL-gGdYiFOp7_9ij_wNLKyHgZsyhAY42rv). Specific Bitergia documentation is available on the [Bitergia FAQ](https://gitlab.com/Bitergia/c/FAQ).
-
-Identity management is available on Bitergia's [HatStall](https://gitlab.biterg.io/identities/hatstall/profiles). Amongst other capabilities, HatStall enables merging/unmerging identities from the same person (to avoid their contributions being counted multiple times) and enrollment/offboarding identities to organizations. Use the [same login as the main Bitergia platform](#advanced-features-and-login).
-
-#### Advanced features and login
-
-Some administrative features for Bitergia dashboards (e.g. getting a short URL, creating a new permanent dashboard) require a login, and the login information is available in the Team Vault on 1Password.
-
-#### Bitergia License
-
-GitLab has a subscription with Bitergia for an annual membership renewed on the 1st of October each year. Bitergia is responsible for sending a Statement of Work (SOW) to be signed by GitLab, a month prior the expiration of the license. Contributor Success' Director should include the Bitergia subscription in the program's annual budget planning.
-
-#### Contacting Bitergia support
-
-The Bitergia team can be reached out for support and feature requests via their regular [customer contact process](https://gitlab.com/Bitergia/c/FAQ/-/blob/master/how-to-general/README.md#contact-support)
-
-### SiSense dashboards
-Internally, GitLab uses [SiSense](/handbook/business-technology/data-team/platform/sisensecdt/) for tracking down the performance of various KPIs. Below you can find a list of community-related dashboards, similar to Bitergia's ones. Both tools, SiSense and Bitergia, are in sync, and we use Bitergia as the primary metrics platform for community contributions.
-
-| Dashboard | Description |
-| --- | --- |
-| [Wider Community Dashboard](https://app.periscopedata.com/app/gitlab/593556/Wider-Community-Dashboard) | Metrics associated to contributors (people) and organizations |
-| [Community Contributions KPI](https://app.periscopedata.com/app/gitlab/729542/Community-Contributions-KPI) | Metrics associated to [Developer Relations KPIs](/handbook/marketing/developer-relations/performance-indicators/#unique-community-contributors-per-month) (like unique contributors per month, etc) |
-| [Wider Community Contribution Dashboard](https://app.periscopedata.com/app/gitlab/833190/Wider-Community-Contribution-Dashboard) | Metrics associated to community contributions, including time to triage, [MRARR](/handbook/engineering/performance-indicators/#mrarr) forecast for merging month, etc |
-
+| [Wider Community Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/WiderCommunityPIsPart1/WiderCommunityPIsDashboardPart1) | Metrics associated to contributors (people) and organizations |
+| [MRARR Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/MRARRDashboard_17055242209630/MRARRDashboard) | Metrics associated to contributing organizations who are also a customer of GitLab |
 
 ### GitLab.com
 You can also directly query data from `Merge Requests` pages for projects (e.g. CE, EE, Omnibus, Shell, etc.) on gitlab.com and apply appropriate filters for milestone, labels, etc. Some of the examples are listed in the metrics table below.
@@ -437,14 +496,14 @@ You can also directly query data from `Merge Requests` pages for projects (e.g. 
 ### Number of Contributors
 In the past we often mentioned 2,000+ contributors in the GitLab community (GitLab team members + wider community) as you can see in [this example](https://about.gitlab.com/blog/2018/08/13/join-the-gitlab-community/). However, this only included contributors to CE and EE projects based on the old [https://contributors.gitlab.com](https://web.archive.org/web/20190619012814/http://contributors.gitlab.com/) page.
 
-If you include other GitLab projects, the [total number of contributors](https://gitlab.biterg.io/goto/97a5b88e986f2c5d81c017c6413910a1) is much larger.
+If you include other GitLab projects, the total number of contributors is much larger.
 
 - Total code contributors: includes GitLab team members and wider community contributors (since 2015)
 - Wider community code contributors: includes wider community contributors only (since 2015)
 - These figures count contributors who have opened at least one merge request, regardless of whether the merge request has been merged, closed or is still open.
 
-- The number of wider community code contributors with a successful contributions (whose Merge Requests have been merged), can be found by applying the "merged" filter on the [Bitergia dashboard](https://gitlab.biterg.io/goto/2d7a935826f511844c52291300f3d3b2)
-  - See [our top misused terms page](/handbook/communication/top-misused-terms/) for a refresher on the definition of wider community members.
+- The number of wider community code contributors with a successful contributions (whose Merge Requests have been merged), can be found by looking at the Wider Community Dashboard.
+- See [our top misused terms page](/handbook/communication/top-misused-terms/) for a refresher on the definition of wider community members.
 
 When people ask about the number of contributors at GitLab, it's best to clarify if they're asking about total code contributors or wider community code contributors. In most cases, people tend to be more interested in the wider community number.
 
@@ -458,4 +517,4 @@ As a general rule, a project will be set up for monitoring wider community contr
 
 See the exhaustive list of [monitored `gitlab-org` group projects](https://gitlab.com/Bitergia/c/gitlab/sources/blob/master/projects.json).
 
-Are you interested in contributing to GitLab? Check out the available [contribution opportunities here](/community/contribute/).
+Are you interested in contributing to GitLab? Check out the available [contribution opportunities here](https://about.gitlab.com/community/contribute/).

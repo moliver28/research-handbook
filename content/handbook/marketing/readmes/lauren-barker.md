@@ -27,7 +27,7 @@ Team 1:1s are a meeting where I listen to your concerns and ideas, and strive to
 
 To keep notes, we have an ongoing Google document and for topic inspiration, we have an optional template.
 
-#### Myers-Briggs Personality type:
+#### Myers-Briggs Personality type
 
 🔗[**“The Protagonist”** (ENFJ-A/ENFJ-T)](https://www.16personalities.com/articles/assertive-protagonist-enfj-a-vs-turbulent-protagonist-enfj-t)
 

@@ -24,14 +24,28 @@ This role works closely across Marketing for all things email, and directly with
 [Read the job family here >>](/job-families/marketing/marketing-campaign-manager/#user-lifecycle-marketing)
 
 For more information on email marketing at GitLab, please visit the following pages:
-* [Nurture programs](https://handbook.gitlab.com/handbook/marketing/lifecycle-marketing/emails-nurture/) 
-* [Best practices](https://handbook.gitlab.com/handbook/marketing/lifecycle-marketing/email-best-practices/), 
-* [Email processes and requests](https://handbook.gitlab.com/handbook/marketing/lifecycle-marketing/email-processes-requests/)
+* [Nurture programs](/handbook/marketing/lifecycle-marketing/emails-nurture/)
+* [Best practices](/handbook/marketing/lifecycle-marketing/email-best-practices/),
+* [Email processes and requests](/handbook/marketing/lifecycle-marketing/email-processes-requests/)
 
 Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 
 ### Meet the Team
 <!-- DO NOT CHANGE THIS ANCHOR -->
+
+**Allie Klatzkin** _Staff Lifecycle Marketing Manager_
+
+- **Free User Campaigns**: DRI for free user efficiency project, focused on progression of free users to trial to paid
+- **Trial User Campaigns**: DRI for trial nurture, focused on progressing trial users to paid
+- **Duo Pro Campaigns**: DRI for email campaigns related to our AI product
+- **Intelligent Nurture - Buyer / User Personas**: DRI for organization of new content additions to the intelligent nurture, build of new streams within the nurture architecture in collaboration with marketing operations
+- **Customer MVCs**: (connection with Dir. Digital Success on CS Ops side)
+- **Calendaring and stakeholder conversations (DRI)**: Lead weekly email calendar conversations to ensure we are prioritizing our email sends per audience
+- **Email Templates**: define needs, organize design, and manage development and testing of new email templates
+- **Email Best Practices, Processes & Optimization**: enable teams across GitLab (mainly Marketing and Sales Dev) on email best practices, as well as streamlining, scaling, and improving email performance
+- **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences.
+- **Email point of contact/support**: Reviewing and optimizing AMER & Global events (fmm & corp), campaigns, and newsletter email sends to ensure best practices and compliance with the GitLab brand
+
 
 
 **Luis Diego D'Ambrosio** _Senior Lifecycle Marketing Manager_
@@ -43,21 +57,6 @@ Please reach out to Allie Klatzkin or Luis Diego D'ambrosio with any questions.
 - **Localization within emails**: Owning the translation and localization strategy for email
 - **Calendaring and stakeholder conversations (Supporting)**: Assist in the calendaring conversations led by @aklatzkin and be back-up in case of OOO
 - **Re-engagement nurture**: Develop and implement strategy for re-engagement email nurture
-
-
-
-**Allie Klatzkin** _Senior Lifecycle Marketing Manager_
-
-- **Free User Campaigns**: DRI for free user efficiency project, focused on progression of free users to trial to paid
-- **Trial User Campaigns**: DRI for trial nurture, focused on progressing trial users to paid
-- **Intelligent Nurture - Buyer / User Personas**: DRI for organization of new content additions to the intelligent nurture, build of new streams within the nurture architecture in collaboration with marketing operations
-- **Customer MVCs**: (connection with Dir. Digital Success on CS Ops side)
-- **Calendaring and stakeholder conversations (DRI)**: Lead weekly email calendar conversations to ensure we are prioritizing our email sends per audience
-- **Email Templates**: define needs, organize design, and manage development and testing of new email templates
-- **Email Best Practices, Processes & Optimization**: enable teams across GitLab (mainly Marketing and Sales Dev) on email best practices, as well as streamlining, scaling, and improving email performance
-- **GitLab Corporate Events**: Global templates and scaling process for promoting and following up from corporate events and conferences. 
-- **Email point of contact/support**: Reviewing and optimizing AMER & Global events (fmm & corp), campaigns, and newsletter email sends to ensure best practices and compliance with the GitLab brand
-
 
 
 ## Communication
@@ -114,7 +113,6 @@ Is our single source of truth (SSoT) for processes and relevant links
    - Prioritize completion of "Top" priority issues, then "High" priority issues.
 
 ### Labels
-{: #labels}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 #### Prioritization labels
@@ -154,9 +152,9 @@ Note on timelines: The campaigns team is focused on campaign strategy, execution
 Below are the issue templates to make a lifecycle request. For processes, please see our [processes handbook page](/handbook/marketing/lifecycle-marketing/email-processes-requests).
 
 - [lifecycle-add-to-nurture](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=lifecycle-add-to-nurture)
-- [request-email-followup](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup) 
-- [request-email-invitation](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-invitation) 
-- [request-email-newsletter](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-newsletter) 
+- [request-email-followup](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-followup)
+- [request-email-invitation](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-invitation)
+- [request-email-newsletter](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-newsletter)
 - [request-email-reminder](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email-reminder)
 - [request-email](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email) - *only for general email requests* *For customer communications, please work with Marketing Ops.*
 - [idea-campaign](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=idea-campaign)
@@ -211,7 +209,7 @@ Team manager completes daily review of [lifecycle marketing issues in triage](ht
 **When a team member is picking up an issue from the backlog:**
 
 ```
-/label ~"mktg-status::wip" 
+/label ~"mktg-status::wip"
 /assign @
 /milestone %Mktg:2023-
 ```
@@ -237,6 +235,11 @@ The lifecycle marketing team uses the overall 2-week marketing milestones (forma
 
 <b>[All Milestones Board](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/3702791?milestone_title=Any%20Milestone&label_name[]=mktg-demandgen)</b> - this board provides high level of all milestones in consecutive order
 
+<b>[Lifecycle email - copy needs review](https://gitlab.com/groups/gitlab-com/marketing/-/boards/7146189?label_name[]=Lifecycle%3A%3A%2001%20Needs%20Copy%20Review)</b>
+
+<b>[Lifecycle email - layout needs review](https://gitlab.com/groups/gitlab-com/marketing/-/boards/7181554?label_name[]=Lifecycle%3A%3A%2003%20Email%20Layout%20Needs%20Approval)</b>
+
+
 ##### Board View Priorities Current Milestone
 - [All Team Members Priorities Current Milestone](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/3702791)
 - [Luis Diego D'Ambrosio Current Milestone](https://gitlab.com/groups/gitlab-com/marketing/demand-generation/-/boards/2574635?scope=all&milestone_title=%23started&assignee_username=dambrold)
@@ -252,7 +255,6 @@ The lifecycle marketing team uses the overall 2-week marketing milestones (forma
 - [Upcoming MIlestone by Team Members](https://gitlab.com/groups/gitlab-com/-/boards/1948068?scope=all&label_name[]=dg-campaigns&milestone_title=%23upcoming)
 
 #### Lists
-{: #lists}
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 ##### Issue List Current Mile by Team Member

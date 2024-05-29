@@ -9,7 +9,6 @@ Internal diversity groups are a valuable component of a company’s diversity, i
 
 The Global DIB Influencer Group is an action oriented group that advocates, sponsors and evangelizes DIB initiatives and is a voice for all team members on matters of Diversity, Inclusion & Belonging.
 
-
 ### Responsibilities of the Group
 
 - Become influencers with regards to Diversity, Inclusion & Belonging at GitLab:
@@ -87,7 +86,7 @@ To ensure that the group is achieving action the following steps will happen.
 - These bite-sized actions will be posted to all DIB Influencer Group members on a bi-weekly basis for the group members to take action on.
 - On a monthly basis the DIB Influencer Group will meet to discuss the action taken and any results from the action
 
-## Selection Criteria:
+## Selection Criteria
 
 - [The team member must be performing]({{< ref "underperformance" >}}) in their role and not part of any performance management process as confirmed by the People Group
 - Must be a full-time GitLab team member - this includes PEO and full-time contractor team members
@@ -115,7 +114,7 @@ Once a quarter, the DIB Team will assess attendance, team member departure, and 
 - A team member will nominate themselves for a lead role by completing the TMRG Lead Nomination Issue template
 - The DIB team will consult with existing DIB Influencer Members, Leads, The People Team, Executive Sponsors, and Managers to decide who will take the leadership positions. This is to ensure the best person for the DIB Influencer program is selected and diversity of departments, geography and URGs are properly represented.
 
-## Accountabilities and Commitments:
+## Accountabilities and Commitments
 
 These are the Accountabilities and Commitments of the DIB Influencer Group for the duration of tenure:
 

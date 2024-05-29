@@ -35,9 +35,11 @@ environment, please complete the
 - Review the [documentation style guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
   - It's not required to memorize the style guide, but remember to check it when writing your documentation to ensure it complies. This will help to ensure your Merge Request is approved quickly.
 - Remember to also review the [topic types page](https://docs.gitlab.com/ee/development/documentation/topic_types/), paying close attention to the [troubleshooting section](https://docs.gitlab.com/ee/development/documentation/topic_types/troubleshooting.html).
-- While not required, it is highly recommended to [install the docs linters](https://docs.gitlab.com/ee/development/documentation/testing.html#local-linters) in your local editor to prevent pipelines from failing, or use the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit). Plugins can be also used from the command line.
-  - Set up [markdownlint](https://docs.gitlab.com/ee/development/documentation/testing.html#markdownlint).
-  - Set up [Vale](https://docs.gitlab.com/ee/development/documentation/testing.html#vale).
+- While not required, it is highly recommended to [install the docs linters](https://docs.gitlab.com/ee/development/documentation/testing/index.html)
+  in your local editor to prevent pipelines from failing, or use the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit). Plugins can be also
+  used from the command line.
+  - Set up [markdownlint](https://docs.gitlab.com/ee/development/documentation/testing/markdownlint.html).
+  - Set up [Vale](https://docs.gitlab.com/ee/development/documentation/testing/vale.html).
   - [Set up a vertical ruler](https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code) to help you [split long lines](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#text).
 
 #### Documentation Merge Requests

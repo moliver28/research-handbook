@@ -36,8 +36,8 @@ Various verticals and industries face specific challenges as they address their 
  - [Top Finanical Svcs Issues  (PWC)](https://www.pwc.com/us/en/industries/financial-services/research-institute/top-issues.html)
  - [FSI Top Issues 2018 (PWC pdf)](https://www.pwc.com/us/en/financial-services/research-institute/assets/pwc-fsi-top-issues-2018.pdf)
  - [Fin Svcs Insights - Protiviti](https://www.protiviti.com/sites/default/files/united_states/insights/fs-insights-v4-i3-protiviti.pdf)
- - [Financial Services Regulatory Compliance](/solutions/financial-services-regulatory-compliance/)
- - [PCI Compliance](/solutions/pci-compliance/)
+ - [Financial Services Regulatory Compliance](https://about.gitlab.com/solutions/financial-services-regulatory-compliance/)
+ - [PCI Compliance](https://about.gitlab.com/solutions/pci-compliance/)
 
 ### Automotive
 
@@ -64,7 +64,7 @@ Various verticals and industries face specific challenges as they address their 
 - [3 challenges for healthcare IT](https://www.healthdatamanagement.com/opinion/how-3-major-challenges-will-shape-healthcare-it-in-2018)
 - [Four IT Challenges for healthcare in 2018](https://thedoctorweighsin.com/four-it-challenges-facing-healthcare-organizations-in-2018/)
 - [Top IT issues in 2018](https://www.advisory.com/research/health-care-it-advisor/it-forefront/2018/01/top-it-2018)
-- [How GitLab can help HIPAA compliance](/solutions/hipaa-compliance/)
+- [How GitLab can help HIPAA compliance](https://about.gitlab.com/solutions/hipaa-compliance/)
 
 ### Oil & gas/energy
 

@@ -149,10 +149,10 @@ Unsure what content types align with your asset? Use the table below as a guidel
 | ---- | --- | ------- |
 | Analyst report | Third-party content licensed from an analyst firm | [Gartner Magic Quadrant for ARO](/analysts/gartner-aro19/) |
 | Assessment | Content with the primary purpose of providing a self-assessment, quiz, or maturity model. |  |
-| Case study | Web articles that focus on the stories and opinions of GitLab customers. | [Goldman Sachs improves from 1 build every two weeks to over a thousand per day](/customers/goldman-sachs/) |
+| Case study | Web articles that focus on the stories and opinions of GitLab customers. | [Goldman Sachs improves from 1 build every two weeks to over a thousand per day](https://about.gitlab.com/customers/goldman-sachs/) |
 | Data sheet | A document providing the specifications of GitLab the product or feature/feature set. | [GitLab data sheet](/images/press/gitlab-data-sheet.pdf) |
 | Demo | A live-action video recording demonstrating how to do or use a technical product. | [GitLab Security & Compliance Capabilities Demo](https://www.youtube.com/watch?v=UgCHtr-6uG8) |
-| eBook | An eBook presents educational information that helps the reader gain a comprehensive understanding of a subject. eBooks are casual in tone and are most often an awareness-stage asset. | [Modernize your CI/CD](/resources/ebook-fuel-growth-cicd/) |
+| eBook | An eBook presents educational information that helps the reader gain a comprehensive understanding of a subject. eBooks are casual in tone and are most often an awareness-stage asset. | [Modernize your CI/CD](https://about.gitlab.com/resources/ebook-fuel-growth-cicd/) |
 | Infographic | A visual asset used to represent information or data. |  |
 | Landing page | | |
 | Presentation | Video recording or slides of a live talk. | [Multicloudcon Keynote: The Multicloud Maturity Model](https://www.youtube.com/watch?v=R1LWQPAXFEE) |
@@ -166,7 +166,7 @@ Unsure what content types align with your asset? Use the table below as a guidel
 | Topic article |  |  |
 | Video | A scripted, edited, & post-produced video. Videos can be promotional, educational, and/or animated. | [GitLab Infomercial](https://www.youtube.com/watch?v=gzYTZhJlHoI) |
 | Webcast | A live broadcast & recording that includes a presenter, slides, and a live audience. | [Cloud Native Transformation with Ask Media Group](https://www.youtube.com/watch?v=3ED5NrVoVzk) |
-| Whitepaper | Whitepapers are data-driven, persuasive, and opinionated reports that address a specific problem for a niche audience. A whitepaper presents new research, addresses a specific problem, and argues in favor of a specific solution. Whitepapers are academic and authoritative in tone. Whitepapers are most often introduced in the consideration or decision making stage to prove or validate a concept or solution. | [A seismic shift in application security](/resources/whitepaper-seismic-shift-application-security/) |
+| Whitepaper | Whitepapers are data-driven, persuasive, and opinionated reports that address a specific problem for a niche audience. A whitepaper presents new research, addresses a specific problem, and argues in favor of a specific solution. Whitepapers are academic and authoritative in tone. Whitepapers are most often introduced in the consideration or decision making stage to prove or validate a concept or solution. | [A seismic shift in application security](https://about.gitlab.com/resources/whitepaper-seismic-shift-application-security/) |
 
 ### Content topics
 
@@ -180,11 +180,11 @@ Unsure what content topics align with your asset? Use the table below as a guide
 | Azure | Content that talks specifically about Microsoft Azure. Likely uses cases are tutorials on using GitLab + Azure cloud or competitive content. | [Competitive analysis page for Azure DevOps](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/) |
 | Bitbucket | | |
 | Checkmarx | | |
-| Cloud native | Content that relates container-based environments. Specifically, technologies are used to develop applications built with services packaged in containers, deployed as microservices and managed on elastic infrastructure through agile DevOps processes and continuous delivery workflows. | [A Cloud Native Transformation](/webcast/cloud-native-transformation/) |
+| Cloud native | Content that relates container-based environments. Specifically, technologies are used to develop applications built with services packaged in containers, deployed as microservices and managed on elastic infrastructure through agile DevOps processes and continuous delivery workflows. | [A Cloud Native Transformation](https://about.gitlab.com//webcast/cloud-native-transformation/) |
 | Continuous delivery | Content that covers methods and tools for delivering or updating software in smaller increments, resulting in a better end-user experience. Both technical and strategic content may be found. | [Securing the journey to Continuous Delivery](https://about.gitlab.com/blog/2019/10/30/secure-journey-continuous-delivery/) |
 | Continuous integration |  |  |
 | DevOps | Content that relates to DevOps methods, process, culture, and tooling. [Keys to DevOps success with Gene Kim](https://www.youtube.com/watch?v=dbkj0qXQ22A) |  |
-| DevSecOps | Content that relates specifically to integrating and automating security into the software development lifecycle. Content that relates to cybersecurity should be tagged `security` and not `devsecops`. | [A seismic shift in application security](/resources/downloads/gitlab-seismic-shift-in-application-security-whitepaper.pdf) |
+| DevSecOps | Content that relates specifically to integrating and automating security into the software development lifecycle. Content that relates to cybersecurity should be tagged `security` and not `devsecops`. | [A seismic shift in application security](https://about.gitlab.com/resources/downloads/gitlab-seismic-shift-in-application-security-whitepaper.pdf) |
 | Digital transformation | Content that covers the process, methods, and strategy of integrating technology into all aspects of business. This content also includes strategies, tools, and tactics for furthering innovation, building new efficiencies, and delivering higher value faster. | [The cloud adoption roadmap](https://about.gitlab.com/blog/2019/12/05/cloud-adoption-roadmap/) |
 | GitHub | | |
 | GitOps | | |

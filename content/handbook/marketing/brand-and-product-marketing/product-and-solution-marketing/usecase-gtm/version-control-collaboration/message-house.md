@@ -18,12 +18,12 @@ title: "Version Control & Collaboration Message House"
 | **Why GitLab** | GitLab Insights and Compliance Dashboard can aggregate and compose dashboards for Team Leads and Product Managers to capture bottlenecks, apply solutions and foster continuous improvement |  GitLab's Merge Requests and Code Quality provide the perfect canvas to manage all aspects of changing code and project assets, enabling reviews, feedback, and immediate action to improve code  | GitLab Merge Request design, automated merge approvals, issue closing, and more automate tedious tasks and allow developers to focus on shipping features |
 
 
-| Proof points | |  
+| Proof points | |
 |--------------|----------|
 | | [Paessler's 90% of QA is self served](https://about.gitlab.com/customers/paessler/) thanks to immediate, contextual feedback
-| | [ESA (European Space Agency)](/customers/european-space-agency/) had more than 140 groups adopt GitLab |
-| | [Goldman Sachs](/customers/goldman-sachs/) Improved from **1 build every two weeks to over a 1000/day** |
-| | [Worldline](/customers/worldline/) spins source code repos in a matter of seconds |
+| | [ESA (European Space Agency)](https://about.gitlab.com/customers/european-space-agency/) had more than 140 groups adopt GitLab |
+| | [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) Improved from **1 build every two weeks to over a 1000/day** |
+| | [Worldline](https://about.gitlab.com/customers/worldline/) spins source code repos in a matter of seconds |
 | | [NorthWestern Mutual](https://youtu.be/kPNMyxKRRoM) completed a full migration to their enterprise environment in 8 months |
 | | [Progressive Delivery at GitLab](https://redmonk.com/jgovernor/2019/07/10/progressive-delivery-at-gitlab/) fast iteration at GitLab dogfooding GitLab with Review Apps and short-lived branches |
 

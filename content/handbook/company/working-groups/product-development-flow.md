@@ -49,6 +49,7 @@ Iterate on the product development flow to shift away from a "step by step" and 
 **Creating Epics & Issues for the working group board**
 
 To propose an idea or solution that addresses one of the [defined problems](https://gitlab.com/groups/gitlab-com/-/epics/938#problems-to-solve) - follow the below steps to ensure effective asynchronous collaboration:
+
 1. Create an issue to address your proposal and add it to [Product Development Flow as a Framework epic](https://gitlab.com/groups/gitlab-com/-/epics/938)
 1. We use [this issue board](https://gitlab.com/gitlab-com/www-gitlab-com/-/boards/2012861?label_name[]=wg-product-development-flow) as a single source of truth. Issues should be moved through the board from left to right
 1. Assign newly created issues to [the Facilitator](/handbook/company/working-groups/product-development-flow/#roles-and-responsibilities) who is currently @fseifoddini for prioritization
@@ -150,7 +151,6 @@ To propose an idea or solution that addresses one of the [defined problems](http
 | Reviewer          | Jason Yavorska (CI/CD) | Director Product Management |
 | Reviewer          | Thiago Figueiró | Engineering Manager, Threat Management |
 | Reviewer          | Dan Jensen (Manage) | Engineering Manager, Analytics & Compliance |
-
 
 ## Meetings
 

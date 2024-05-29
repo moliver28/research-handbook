@@ -5,13 +5,13 @@ description: "Information about the Geo Team"
 
 ## The Geo Team
 
-[Geo](/solutions/geo/) is a [Premium](https://about.gitlab.com/pricing/premium/) feature, built to help speed up the development of distributed teams by providing
+[Geo](https://about.gitlab.com/solutions/geo/) is a [Premium](https://about.gitlab.com/pricing/premium/) feature, built to help speed up the development of distributed teams by providing
 one or more read-only mirrors of a primary GitLab instance. This mirror (a Geo secondary node) reduces the time to clone or fetch large
 repositories and projects, or can be part of a Disaster Recovery solution.
 
 ### Team members
 
-{{< team-by-manager-slug manager="juan-silva" >}}
+{{< team-by-manager-slug manager="pjphillips" >}}
 
 ### Stable counterparts
 
@@ -50,12 +50,15 @@ The first line of support will always be the support engineer assigned to the is
 This section outlines the process and expectations when requesting support from the team for Geo-related customer support issues.
 
 ### Before requesting support
+
 Before submitting a request for support, please review Geo's [documentation](https://docs.gitlab.com/ee/administration/geo/), the [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/) docs, the Geo Handbook pages, or search through previous customer issues in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers). The answer to your questions might be found there.
 
 ### Asking a general question
+
 If you have a general question for which you can't find your answer, then feel free to ask your question in the #g_geo channel on Slack. Please keep in mind that engineers will do their best to support you and answer your question from the top of their heads. If they need to do more research and/or address more complicated scenarios, you will need to create a support issue (see next section).
 
 ### Create a support request issue
+
 We like to use issues when customers need help from the Geo Team. This helps us to prioritize work and make sure that we don't lose history and maintain context when the Slack retention policy activates.
 We ask requestors to create an issue in the [Geo Customers Project](https://gitlab.com/gitlab-com/geo-customers).
 
@@ -65,10 +68,10 @@ If you like, you may assign a priority label to your request. A geo team member 
 
 | Priority | Typically used for | Expected first response time |
 | ---      | ---   |  ------  |
-| P4 		 | General questions that can't be answered on slack by Geo engineers of the top of their heads and will require a bit more investigation. | 2-3 days |
-| P3 		 | Customer problems that are not time sensitive (i.e. they have an easy work around) or scheduling time to engage with the customer in the future for them to achieve their goals. | 1 day |
-| P2 		 | Customer problems that are somewhat time sensitive and are blocking decisions or progress to be made on the customer side. | 1/2 day |
-| P1 		 | Fires and emergencies that the customer is experiencing | 1-2 hours |
+| P4          | General questions that can't be answered on slack by Geo engineers of the top of their heads and will require a bit more investigation. | 2-3 days |
+| P3          | Customer problems that are not time sensitive (i.e. they have an easy work around) or scheduling time to engage with the customer in the future for them to achieve their goals. | 1 day |
+| P2          | Customer problems that are somewhat time sensitive and are blocking decisions or progress to be made on the customer side. | 1/2 day |
+| P1          | Fires and emergencies that the customer is experiencing | 1-2 hours |
 
 \* Response times are based on weekdays (excluding holidays) within regular business hours in the time zones that team members are located.
 
@@ -77,6 +80,7 @@ If you like, you may assign a priority label to your request. A geo team member 
 ## Common Links
 
 ### Documentation
+
 - [Geo](https://docs.gitlab.com/ee/administration/geo/index.html)
 - [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html)
 - [Planned Failover](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/planned_failover.html)
@@ -95,6 +99,7 @@ The following links lead to Geo team lists of issues to help with identifying mi
 - [Bug issues missing subtype label](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_asc&state=all&label_name%5B%5D=type%3A%3Abug&label_name%5B%5D=group%3A%3Ageo&milestone_title=15.6&not%5Blabel_name%5D%5B%5D=bug%3A%3A%2a&first_page_size=20)
 
 ### Other Resources
+
 - Issues relating to Geo are mostly to be found on the
 [gitlab-ee issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues/?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Geo)
 - [Chat channel](https://gitlab.slack.com/archives/g_geo); please use the `#g_geo`
@@ -119,4 +124,18 @@ See the [Geo Glossary](https://docs.gitlab.com/ee/administration/geo/glossary.ht
 
 ## Dashboards
 
-{{% cross-functional-dashboards filters="Geo" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="geo" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="geo" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="geo" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="geo" >}}
+{{< /tableau >}}

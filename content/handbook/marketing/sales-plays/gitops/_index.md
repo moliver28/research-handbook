@@ -9,7 +9,7 @@ title: "Sales Play: Infrastructure Automation with GitOps"
 
 - The [GitOps Marketing campaign](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/1183) has produced the highest amount of linear SAOs across all segments since launch in April 2020
 - Over 45% of our [survey respondents at Kubecon EU](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/4792) highlighted that GitOps is a priority for their organization in the short term.
-- The interest in GitOps topics was so HIGH that CD Conference (by CNCF) had to spin up a separate [GitOps Conference](https://hopin.com/events/gitops-con) 
+- The interest in GitOps topics was so HIGH that CD Conference (by CNCF) had to spin up a separate [GitOps Conference](https://hopin.com/events/gitops-con)
 - GitOps helps you target a completely new persona and usecase - opening up [new land and expand opportunities](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/1183#sample-deals-from-fy21) for you
 
 
@@ -19,7 +19,7 @@ If the above has gotten you excited, learn more [here](https://docs.google.com/p
 
 Simply said - GitOps takes DevOps best practices used for application development such as version control, collaboration, compliance, and CI/CD, and applies them to infrastructure automation.
 
-### Sales play objectives  
+### Sales play objectives
 
 * Landing new deals with a new persona and usecases
 * Expanding existing customers to new teams and usecases
@@ -49,13 +49,13 @@ graph TB
   click C2 "./#required-capabilities"
   click D2 "./#positioning-value"
 
-  Z3[Sales Tactics] -.- A3[SAEs / AEs] 
+  Z3[Sales Tactics] -.- A3[SAEs / AEs]
   A3 -.- B3[SAs / CSMs]
   B3 -.- C3[SDRs]
   click Z3 "./#sales-tactics"
-  click A3 "./#sals-aes" 
-  click B3 "./#sas-tams" 
-  click C3 "./#sdrs" 
+  click A3 "./#sals-aes"
+  click B3 "./#sas-tams"
+  click C3 "./#sdrs"
 
   Z4[Resources] -.- A4[Email Templates]
   A4 -.- B4[Customer Stories]
@@ -63,18 +63,18 @@ graph TB
   C4 -.- D4[All collaterals]
   D4 -.- E4[Services]
   click Z4 "./#resources"
-  click A4 "./#email-templates" 
-  click B4 "./#customer-stories" 
-  click C4 "./#lim-anchor" 
-  click D4 "./#resources-list" 
-  click E4 "./#services" 
+  click A4 "./#email-templates"
+  click B4 "./#customer-stories"
+  click C4 "./#lim-anchor"
+  click D4 "./#resources-list"
+  click E4 "./#services"
 
   classDef orange fill:#fca121,stroke:#333,stroke-width:1px;
   class Z1 orange
   class Z2 orange
   class Z3 orange
   class Z4 orange
-  
+
 </div>
 
 ## Getting Started {#getting-started}
@@ -82,7 +82,7 @@ graph TB
 ### Who to meet  {#who-to-meet}
 {: .alert .alert-gitlab-orange}
 
-The persona interested in GitOps is in general different from your development or engineering organizations. They are most often from the operations, systems, infrastructure, platform and cloud side of the organization. 
+The persona interested in GitOps is in general different from your development or engineering organizations. They are most often from the operations, systems, infrastructure, platform and cloud side of the organization.
 
 | | Typical Roles | Typical Titles |
 | - | ----------- | -------------- |
@@ -106,13 +106,13 @@ Customers engage with our content from our website, collaterals, videos and camp
 1. [Identify the Last Interesting moment](#lim-anchor)
 1. [Identify the topics in the Top consumed content and time spent on it](#lim-anchor)
 
-If both of these include GitOps keywords or GitOps topics - ensure to have the GitOps conversation. 
+If both of these include GitOps keywords or GitOps topics - ensure to have the GitOps conversation.
 
 #### Targeted leads are waiting for attention
 
-Marketing is running a related demand gen campaign.  
+Marketing is running a related demand gen campaign.
 
-* A Demand Generation campaign is running across different channels (LinkedIn, Facebook, Google Search...) surfacing new leads from the Focus Account Lists, ICP Total Addressable Market, and Volume accounts. See the flow of the Marketing campaign [on Figjam can be found here](https://www.figma.com/file/R5rSFgNdyW5mSN9mSHORJo/Campaigns-%3E-GitOps-GTM-Campaign-Flow-FY22---FY23_2023-08-22_10-43-13?type=whiteboard&t=S9GSk8jFu3bJ28Iq-1) 
+* A Demand Generation campaign is running across different channels (LinkedIn, Facebook, Google Search...) surfacing new leads from the Focus Account Lists, ICP Total Addressable Market, and Volume accounts. See the flow of the Marketing campaign [on Figjam can be found here](https://www.figma.com/file/R5rSFgNdyW5mSN9mSHORJo/Campaigns-%3E-GitOps-GTM-Campaign-Flow-FY22---FY23_2023-08-22_10-43-13?type=whiteboard&t=S9GSk8jFu3bJ28Iq-1)
 * A series of virtual events are scheduled throughout FY22, targeting new and existing Inquiries. Schedule of upcoming Infrastructure Automation/GitOps GTM related virtual events can be found in the [FY22 All-Marketing Calendar SSoT](https://docs.google.com/spreadsheets/d/1c2V3Aj1l_UT5hEb54nczzinGUxtxswZBhZV8r9eErqM/edit#gid=571560493&fvid=1570851636)
 
 
@@ -146,7 +146,7 @@ More questions [here](/handbook/marketing/brand-and-product-marketing/product-an
 
 'GitOps = Infrastructure as Code + Merge Request + CI/CD'
 
-| Required capability	 | Customer Metrics |
+| Required capability     | Customer Metrics |
 | ----------------------------- | -------------------------------- |
 | Version control for infrastructure code | Improved time to value - less manual, less error prone, more automated |
 | Change control and collaboration for infrastructure | Lower change failure rate - more controls, more reviews and approvals |
@@ -215,7 +215,7 @@ How to identify if you need to lead with a GitOps conversation?
   - Infrastructure automation
   - Managing cloud native environments
   - Multi cloud / kubernetes adoption
-  - Compliance related to infrastructure  
+  - Compliance related to infrastructure
 1. After your call, consider emailing your customer using one or more of these [email templates](https://docs.google.com/document/d/1uvZPw39OAExz7sIivIlPi3jNlUXKodVNy0mmIb-X0Cs/edit#) custom made for GitOps conversations. Feel free to update the call to action to any of the artifacts from the [Pathfactory track for GitOps](https://learn.gitlab.com/l/gitops-gtm-content)
 
 #### During evaluation
@@ -273,8 +273,8 @@ How to identify if you need to have a GitOps conversation with a lead?
 
 #### Customer outreach / conversation
 1. There are a number of high performing outreach sequences available - use one that is already available and customize as required
-1. Use the SDR Call Script for [Land](https://docs.google.com/document/d/1MDeaKj4XHEQe73jqDWClNJBKXr61gsZu7qNzHiD4138/edit) / [Expand](https://docs.google.com/document/d/1am53Ijr3EFuoZWwQPxsXAXGIhSOBJ7hQeFQv4-5QVyo/edit) 
-1. Use the content from the [GitOps Pathfactory track](https://learn.gitlab.com/l/gitops-gtm-content) to share with your lead. You can get the content links (including tracking) directly from Pathfactory for Sales through SFDC. They are categorized by the stage in the customer's journey. 
+1. Use the SDR Call Script for [Land](https://docs.google.com/document/d/1MDeaKj4XHEQe73jqDWClNJBKXr61gsZu7qNzHiD4138/edit) / [Expand](https://docs.google.com/document/d/1am53Ijr3EFuoZWwQPxsXAXGIhSOBJ7hQeFQv4-5QVyo/edit)
+1. Use the content from the [GitOps Pathfactory track](https://learn.gitlab.com/l/gitops-gtm-content) to share with your lead. You can get the content links (including tracking) directly from Pathfactory for Sales through SFDC. They are categorized by the stage in the customer's journey.
 
 
 
@@ -292,15 +292,15 @@ Here are a few recommended email templates you can use based on the stage of the
 
 ### Services {#services}
 
-GitLab Professional Services help customers become efficient in GitLab quickly. GitLab (or a GitLab partner) offers a number of service offerings to support customers. 
+GitLab Professional Services help customers become efficient in GitLab quickly. GitLab (or a GitLab partner) offers a number of service offerings to support customers.
 
-For the GitOps sales play, consider asking your customer about their workforce's proficiency with git, GitLab, and GitLab CI as they are foundational elements to GitOps. If they are not strong in all of these topics, consider positioning [GitLab with git Basics training](https://about.gitlab.com/services/education/gitlab-basics/) and/or [GitLab CI/CD training](https://about.gitlab.com/services/education/gitlab-ci/). 
+For the GitOps sales play, consider asking your customer about their workforce's proficiency with git, GitLab, and GitLab CI as they are foundational elements to GitOps. If they are not strong in all of these topics, consider positioning [GitLab with git Basics training](https://about.gitlab.com/services/education/gitlab-basics/) and/or [GitLab CI/CD training](https://about.gitlab.com/services/education/gitlab-ci/).
 
 Advisory/Consulting services to help with GitOps rollout are planned to be rolled out later this year. Please register your interest for a GitOps Advisory offering [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management/-/issues/74) to help PS effectively prioritize!
 
 As you position services, you can use our [Services Pitch Deck](https://docs.google.com/presentation/d/1CFR8_ZyE9r4Dk_mjoWGe4ZkhtBimSdN0pylIPu-NAeU/edit#slide=id.g2823c3f9ca_0_9) to help establsh the value of engaging with PS. Other services can be found in our [Complete list of professional service offerings](https://about.gitlab.com/services/)
 
-Talk with @em in the [professional services slack channel](/handbook/customer-success/professional-services-engineering/working-with/#slack) to learn more. 
+Talk with @em in the [professional services slack channel](/handbook/customer-success/professional-services-engineering/working-with/#slack) to learn more.
 
 ### Webinars, e-books, whitepapers, videos  {#resources-list}
 - [Pathfactory track for GitOps](https://learn.gitlab.com/l/gitops-gtm-content) to share with customers
@@ -316,7 +316,7 @@ Talk with @em in the [professional services slack channel](/handbook/customer-su
 - [kiwi.com](https://learn.gitlab.com/gitops-gtm-all/flying-base-native-clouds?lx=AZeFEd)
 - [VMware](https://learn.gitlab.com/gitops-gtm-all/infrastructure-code-iac-terraform-cloud?lx=AZeFEd)
 - [ValidaTek](https://learn.gitlab.com/gitops-gtm-all/valida-tek-iac?lx=AZeFEd)
-And many more [here](https://learn.gitlab.com/l/gitops-gtm-content) 
+And many more [here](https://learn.gitlab.com/l/gitops-gtm-content)
 
 - [Gartner Peer Insights](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#gartner-peer-insights)
 

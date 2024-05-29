@@ -89,7 +89,7 @@ CMO staff will recommend who from their organizations should participate in the 
 1. This is not a performance evaluation.
 1. Plan to observe and ask questions.
 1. Don't plan to do any of your usual work. Prepare your team as if you were on vacation.
-1. Be ready to add a number of [handbook](/handbook/handbook-usage/) updates during your shadow period.
+1. Be ready to add a number of [handbook](/handbook/about/handbook-usage/) updates during your shadow period.
 1. Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them.
 1. Give feedback to and receive feedback from the CMO. Participants in the shadow program are encouraged to deliver [candid feedback](/handbook/people-group/guidance-on-feedback/#guidelines-for-delivering-feedback). Examples of this are to the CMO and to the world about the company if they make a blog post or video. Shadows maintaining confidentiality during the program is separate from shadows being able to provide candid feedback.
 

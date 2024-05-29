@@ -37,7 +37,7 @@ proceeding.
     - `Project Description (optional)`: Something to describe the form's use
   - Visibility, project features, permissions
     - `Project visibility`: Private
-    - `Issues`: Checked
+    - `Issues`: Unchecked
     - `Respository`: Checked
     - `Merge requests`: Checked
     - `Forks`: Unchecked
@@ -149,7 +149,8 @@ proceeding.
   - Suggested reviewers: Do not enable
   - Merge request branch workflow: There should be none
 - CI/CD
-  - Leave as is
+  - Ensure `Public pipelines` under `General pipelines` is unchecked
+  - Leave the rest as it
 - Packages and registries
   - Leave as is
 - Monitor

@@ -17,7 +17,7 @@ The GitLab solution is the result of collaboration between thousands of communit
 
 ### GitLab: A complete DevOps platform, in a single application
 
-GitLab fundamentally changes the way development, security, and ops teams collaborate and build software — helping customers on their DevOps journey in ways no other company can — by providing [a single application for the entire DevOps lifecycle](/stages-devops-lifecycle/).
+GitLab fundamentally changes the way development, security, and ops teams collaborate and build software — helping customers on their DevOps journey in ways no other company can — by providing [a single application for the entire DevOps lifecycle](https://about.gitlab.com/stages-devops-lifecycle/).
 
 DevOps toolchains are often complex, fragile, and expensive to maintain. Teams are further slowed by hand-offs and re-work. Across toolchains in a company, teams can be siloed by DevOps software that was supposed to help eliminate siloes.
 
@@ -25,7 +25,7 @@ GitLab customers can have SCM, CI, security, and more in one browser window. The
 
 ### A partner like no other
 
-GitLab is uniquely open and transparent about our [vision and roadmap](https://about.gitlab.com/direction/), [our internal processes](/handbook/), our [product maturity](https://about.gitlab.com/direction/maturity/), and we invite and encourage [community and customer contributions and collaboration](/community/contribute/).
+GitLab is uniquely open and transparent about our [vision and roadmap](https://about.gitlab.com/direction/), [our internal processes](/handbook/), our [product maturity](https://about.gitlab.com/direction/maturity/), and we invite and encourage [community and customer contributions and collaboration](https://about.gitlab.com/community/contribute/).
 
 This short video summarizes our unique DevOps solution and bold way of working:
 
@@ -39,17 +39,17 @@ This short video summarizes our unique DevOps solution and bold way of working:
 
 ##### Customer case studies
 
-[Our case studies feature GitLab customers sharing their accomplishments, in their own words](/customers/), including the few introduced below.
+[Our case studies feature GitLab customers sharing their accomplishments, in their own words](https://about.gitlab.com/customers/), including the few introduced below.
 
-- Goldman Sachs had already started their DevOps journey, but progress had stalled before they began using GitLab. After reducing their toolchain complexity by implementing GitLab for development, source code control and reviews, builds, testing, QA, and production deployments, [Goldman Sachs’ build velocity was dramatically improved, from 1 build every 2 weeks to over 1,000 per day](/customers/goldman-sachs/).
+- Goldman Sachs had already started their DevOps journey, but progress had stalled before they began using GitLab. After reducing their toolchain complexity by implementing GitLab for development, source code control and reviews, builds, testing, QA, and production deployments, [Goldman Sachs’ build velocity was dramatically improved, from 1 build every 2 weeks to over 1,000 per day](https://about.gitlab.com/customers/goldman-sachs/).
 
-- At BI Worldwide, they had built multiple, complex DevOps toolchains resulting in issues like lost bug reports and constant context shifting. Now [with broadening GitLab adoption, they describe their DevOps success](/customers/bi_worldwide/):
+- At BI Worldwide, they had built multiple, complex DevOps toolchains resulting in issues like lost bug reports and constant context shifting. Now [with broadening GitLab adoption, they describe their DevOps success](https://about.gitlab.com/customers/bi_worldwide/):
 
 > “One tool for SCM+CI/CD was a big initial win. Now wrapping security scans into that tool as well has already increased our visibility into security vulnerabilities. The integrated Docker registry has also been very helpful for us. Issue/Product management features let everyone operate in the same space regardless of role.”
 >
 >— Adam Dehnel, product architect, BI Worldwide
 
-From enterprise customers and [an established retailer like Fanatics](/customers/fanatics/), to [a growing startup like Glympse](/customers/glympse/), GitLab’s singular approach offers efficiency, velocity, reliability, and more at levels only possible with a truly seamless, continuous solution.
+From enterprise customers and [an established retailer like Fanatics](https://about.gitlab.com/customers/fanatics/), to [a growing startup like Glympse](https://about.gitlab.com/customers/glympse/), GitLab’s singular approach offers efficiency, velocity, reliability, and more at levels only possible with a truly seamless, continuous solution.
 
 ##### Peer reviews
 

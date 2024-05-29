@@ -14,7 +14,6 @@ Quota setting and Compensation Design are led by the Go-To-Market Planning & Ope
 
 ## **Meet The Team**
 
-- Lauren Whelihan, VP, Revenue Accounting
 - Lisa Puzar, Sr. Manager, Sales Commissions
 - Swetha Kashyap, Manager, Sales Commissions
 - Sophie Hamann, Sr. Sales Commissions Analyst

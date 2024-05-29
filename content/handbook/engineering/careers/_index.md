@@ -45,6 +45,22 @@ There are scenarios where a position must become available before a promotion ca
 
 These next level opportunities are not guaranteed to be available and should not be viewed as career limiting. Again, using the Senior Engineering role as an example, is a critical role within GitLab. It is an accomplishment to thrive at the Senior level and should be celebrated as such.
 
+## Mobility Principles
+
+The Engineering Mobility Principle is an add-on to the company's mobility guidelines. For cases not covered in this section, please visit the [People Ops Internal Mobility guidelines](/handbook/people-group/promotions-transfers/#internal-mobility)
+
+Career mobility is a part of career development, we support and encourage development and opportunities of our team members while maintaining or making conscious choices of impact to business objectives, current business team capacity, and budget constraints. The following steps must be followed
+
+- Internal mobility should not be an easier path than a promotion for level change
+- All new roles will follow inclusive hiring guidelines for posting and making them available to all potential internal candidates (must be open for a minimum of 5 days before any offer is made)
+- All new roles have a recommended level that is determined by the expected return on investment for the given budget. Managers who wish to consider candidates above or below the given role may offer an interested internal candidate, the following two options:
+  - Re-level the role with a business justification for how this change will benefit the company.
+    - A [template (google document)](https://docs.google.com/document/d/1BAIty-x7otBpohe5w6Kl8DKD-C2nUS9MCm4JwognfVI/edit#heading=h.5onpwyv1o0vg) has been provided, please create a copy and fill in the business justification.
+  - After evaluating the potential readiness of the candidate to meet the expected criteria within a given time period, accept the candidate for an interim period, up to 6 months, and evaluate readiness and impact of level change at the end of the interim period.
+- Transfers between career paths (IC->EM, EM->IC) the person should be moved into an available role on an [interim/acting](/handbook/engineering/careers/#types-of-interim-roles) basis for 4-6 months before the change is made permanent with a promotion/evaluation rationale based on performance
+- All role changes will be reviewed by R&D leadership on a weekly basis. This review will include impact on roadmaps and mitigation of the budget impact if the change requires additional budget to accommodate the request.
+- All internal transfer candidates should have an aligned transition and communication plan to address impact on the previous team, including finalizing a plan for backfill and completing any milestones that are already underway.
+
 ## Individual Contribution vs. Management
 
 Most important is the fork between purely technical work and managing teams. It's important that Engineering Managers self-select into that track and don't feel pressured. We believe that management is a craft like any other and requires dedication. We also believe that everyone deserves a manager that is passionate about their craft.
@@ -141,7 +157,7 @@ For more details on logistics of ending an interim or acting period please refer
 
 #### Development Department
 
-<div class="x-scrollable">
+<div style="overflow-x: auto">
 <div style="width: 1800px;">
 
 ```mermaid
@@ -221,7 +237,7 @@ For more details on logistics of ending an interim or acting period please refer
   click eng:fel "/job-families/engineering/engineering-management/#engineering-fellow";
 
   %% career progression
-  subgraph Based on Merit and Company Need
+  subgraph Based on Merit & Company Need
   eng:stfe & eng:em
   eng:stbe & eng:em
   eng:stfs & eng:em;
@@ -235,10 +251,14 @@ For more details on logistics of ending an interim or acting period please refer
   eng:tfs-->eng:afs-->eng:ifs-->eng:sfs-->eng:stfs & eng:em;
   end
 ```
+
 </div>
 </div>
 
 #### Quality Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -250,7 +270,7 @@ For more details on logistics of ending an interim or acting period please refer
     qual:ifsecs(Intermediate Fullstack Engineer, Contributor Success)-->qual:sfsecs(Senior Fullstack Engineer, Contributor Success);
   end
 
-  subgraph Based on Merit &amp; Company Need
+  subgraph Based on Merit & Company Need
     qual:sset(Senior Software Engineer in Test)-->qual:stset(Staff Software Engineer in Test);
     qual:sset(Senior Software Engineer in Test)-->qual:qem(Quality Engineering Manager);
 
@@ -277,7 +297,13 @@ For more details on logistics of ending an interim or acting period please refer
   click qual:vpq "/job-families/engineering/engineering-management-quality/#vp-of-quality";
 ```
 
+</div>
+</div>
+
 #### Support Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -287,7 +313,7 @@ For more details on logistics of ending an interim or acting period please refer
     supe:se(Support Engineer)-->supe:sse(Senior Support Engineer);
   end
 
-  subgraph Based on Merit &amp; Company Need
+  subgraph Based on Merit & Company Need
     supe:sse(Senior Support Engineer)-->supe:stse(Staff Support Engineer);
     supe:sse(Senior Support Engineer)-->supe:sem(Support Engineering Manager);
 
@@ -303,7 +329,13 @@ For more details on logistics of ending an interim or acting period please refer
   click supe:ds "/job-families/engineering/support-management#director-of-support";
 ```
 
+</div>
+</div>
+
 #### Infrastructure Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -322,7 +354,7 @@ For more details on logistics of ending an interim or acting period please refer
     eng:ia(Infrastructure Analyst)
   end
 
-subgraph Based on Merit &amp; Company Need
+subgraph Based on Merit & Company Need
   %% Backend Engineers
     eng:sbe(Senior Backend Engineer)-->eng:stbe(Staff Backend Engineer);
     eng:stbe(Staff Backend Engineer)-->eng:pei(Principal Engineer Infrastructure);
@@ -379,7 +411,13 @@ subgraph Based on Merit &amp; Company Need
   click eng:efi "/job-families/engineering/infrastructure/engineering-fellow/";
 ```
 
+</div>
+</div>
+
 #### Incubation Engineering Department
+
+<div style="overflow-x: auto">
+<div style="width: 1800px;">
 
 ```mermaid
   graph LR;
@@ -388,7 +426,7 @@ subgraph Based on Merit &amp; Company Need
   inc:int(Intermediate Incubation Engineer) --> inc:snr(Senior Incubation Engineer);
   end
 
-  subgraph Based on Merit &amp; Company Need
+  subgraph Based on Merit & Company Need
   inc:snr(Senior Incubation Engineer)-->inc:stf(Staff Incubation Engineer);
   inc:stf(Staff Incubation Engineer)-->inc:pre(Principal Incubation Engineer);
   inc:dir(Director, Incubation Engineering)-->inc:vp(VP of Incubation Engineering);
@@ -399,8 +437,11 @@ subgraph Based on Merit &amp; Company Need
   click inc:stf "/job-families/engineering/development/incubation/engineer/#staff-incubation-engineer";
   click inc:pre "/job-families/engineering/development/incubation/engineer/#principal-incubation-engineer";
   click inc:dir "/job-families/engineering/development/incubation/management/#director-incubation-engineering";
-  click inc:vp  "/job-families/engineering/development/incubation/management/#vp-of-incubation-engineering";
+  click inc:vp "/job-families/engineering/development/incubation/management/#vp-of-incubation-engineering";
 ```
+
+</div>
+</div>
 
 ## Apprenticeship for Learning
 
@@ -444,7 +485,7 @@ Note that we have a specific section for [Senior Engineer](/job-families/enginee
 
 The Senior Engineer role is a critical role where we need the most contributions. It should also be considered a destination role. It is not a given that you will naturally progress into the next role, whether it is Staff or Management. There are different needs and expectations for the next role. Individual growth and progression is supported and encouraged at GitLab, however progression beyond the Senior Engineering role is gated on availability and need. There may not be a need for another Staff or Management position.
 
-Senior engineers typically receive fewer trivial comments on their merge requests. Attention to detail is very important to us. They also receive fewer _major_ comments because they understand the application architecture and select from proven patterns. We also expect senior engineers to come up with simpler solutions to complex problems. Managing complexity is key to their work. [Staff](/job-families/engineering/backend-engineer/#staff-backend-engineer) and [Distinguished](/job-families/engineering/infrastructure/distinguished-engineer/) positions extend the Senior Engineer role.
+Senior engineers typically receive fewer trivial comments on their merge requests. Attention to detail is very important to us. They also receive fewer *major* comments because they understand the application architecture and select from proven patterns. We also expect senior engineers to come up with simpler solutions to complex problems. Managing complexity is key to their work. [Staff](/job-families/engineering/backend-engineer/#staff-backend-engineer) and [Distinguished](/job-families/engineering/infrastructure/distinguished-engineer/) positions extend the Senior Engineer role.
 
 ## Promotion
 

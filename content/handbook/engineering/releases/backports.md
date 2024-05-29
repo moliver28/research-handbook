@@ -70,7 +70,6 @@ You can request a backport by:
 1. Wait for confirmation and approval from the RMs
 1. Communicate to your stakeholders if/when the release is available on our [releases blog](https://about.gitlab.com/releases/categories/releases/)
 
-
 Please note that this is done on a case by case basis and not covered by any of our Maintenance Policies or releases.
 
 ## Backports FAQ
@@ -95,8 +94,11 @@ If your backport is a security fix and covered by the maintenance policy, please
 
 For anything outside of the maintenance policy, please follow [the exception process](/handbook/engineering/releases/backports/#what-if-my-backport-is-not-covered-by-the-maintenance-policy)
 
-### Common Backporting Issues and Considerations
+### What should Product Managers consider when approving a backport?
 
+Backports require multiple engineers to apply a fix through multiple versions and are time intensive. When reviewing a backport requrest, product managers should consult our [backport policy](https://docs.gitlab.com/ee/policy/maintenance.html#backporting-to-older-releases) to ensure that the backport proposal meets the criteria. Product managers should ensure that the severity, priority, customer impact and the potential risks associated with not backporting are properly documented before approval.
+
+### Common Backporting Issues and Considerations
 
 #### Additional Release Manager and User Capacity
 

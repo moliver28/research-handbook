@@ -7,31 +7,32 @@ description: Using the customer console for internal requests is only for specia
 
 ## Overview
 
-Using the customer console for internal requests is only for specials cases where the existing tools won't allow us to complete the task at hand.
+This workflow is for frequently used functions that are pre-loaded via the [Customers Console and Functions project](https://gitlab.com/gitlab-com/support/toolbox/console-training-wheels).
 
-Console access requires a completed [Access Request](https://gitlab.com/gitlab-com/access-requests/issues/new?issuable_template=Single%20Person%20Access%20Request) as outlined in the [Customers Console training](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Customers%20Console.md) and its completion.
+Using the customer console for internal requests is only for special cases in which the existing tools won't allow us to complete the task at hand.
 
-The scope of what's outlined in this workflow is for frequently used functions which are pre-loaded via [Customers Console and Functions project](https://gitlab.com/gitlab-com/support/toolbox/console-training-wheels).
+Console access is through [Teleport](https://goteleport.com/docs/connect-your-client/introduction/), and requires membership in the relevant Okta groups [documented on the CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#group-membership).  You can file an [access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) to gain membership.
 
-## Using the support console
+Refer to the [CustomersDot documentation page about Teleport](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/teleport.md#using-teleport-for-db-rails-access) for a full overview of installing and using Teleport to access the production or staging rails console.
 
-After logging into the CustomersDot server, enter the command:
+#### Production
 
-```sh
-support_console
-```
+All requests to *production* require approval of the SRE(s) on shift, and you can view your request(s) in `#teleport-requests` in slack.
 
-This will open the rails console and automatically load the functions available to use.
+**Note** The production system will automatically invoke the support console wrapper script upon login
 
-Most functions rely on the namespace (i.e. GitLab.com Group name or username), always make sure to have it handy before starting any work from the console.
+1. You will initiate the request via Teleport using `tsh login`.
+   - Your command shell will hang until approval is given, but you can close the terminal or kill the process at any time, and then resume it using the `--request-id` option:
+     - *e.g.* `tsh login --request-id=xxx ...`
+   - The ID is shown in your shell, and is also available in `#teleport-requests` or the slack DM from Teleport-app
+1. Afer the request is approved, you will then use Teleport to SSH into the system with `tsh ssh`
+1. Requests generally remain approved for 8-12 hours.  You can resume that session anytime, again using `--request-id`
 
-Consider creating a [Shell alias](/handbook/tools-and-tips/#shell-aliases) such as the below:
+#### Staging
 
-```sh
-alias cdot-console="ssh -t <YOUR_USERNAME>@customersdot-prod 'support_console'"
-```
-
-- If needed, review the [Production SSH Config settings here](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/doc/setup/production.md) for more information on configuring your local SSH settings to access the console.
+- No approval is necessary for staging, and access is granted immediately
+- Accessing is the same as it is for production, except your `tsh login` will be approved immediately, and you can move on to `tsh ssh`
+- The wrapper script *is not* invoked upon login
 
 ## Scope
 
@@ -395,7 +396,7 @@ irb(main):021:0> unlink_customer(0000000)
 
 | Name | Required | Details |
 | ------ | ------ | ------ |
-| `:uid` | *Yes* |GitLab.com UID which may have been linked to multiple cdot accounts
+| `:uid` | *Yes* |GitLab.com UID which may have been linked to multiple cdot accounts |
 
 #### Sample
 

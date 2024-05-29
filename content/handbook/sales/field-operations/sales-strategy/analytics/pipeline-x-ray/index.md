@@ -17,7 +17,7 @@ The X-Ray dashboard provides a forward looking perspective of current and future
 
 ### Access
 
-To comply with the [SAFE Framework](/handbook/legal/safe-framework/), please submit an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) to the Sisense SAFE Enviroment.
+To comply with the [SAFE Framework](/handbook/legal/safe-framework/), please submit an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) to the Sisense SAFE Enviroment.
 
 Access to the X-Ray dashboard is automatically awarded to all members of the SAFE Sisense group.
 

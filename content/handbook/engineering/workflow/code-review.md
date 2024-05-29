@@ -45,7 +45,7 @@ For senior+ engineers, being a maintainer is part of their job family unless the
 | ----------- | --------- |
 | Intermediate Engineers | Maintainership is optional |
 | Existing Senior+ Engineer | Existing senior+ engineers who are not already maintainers are encouraged to complete the trainee program in support of our team's productivity and motivation. There is no expected completion timeframe of the trainee program. |
-| Newly hired Senior+ | During onboarding, newly hired senior+ engineers will be asked to become trainee maintainers instead of reviewers. We expect their maintainership to be complete within 12 months of their onboarding completion.
+| Newly hired Senior+ | During onboarding, newly hired senior+ engineers will be asked to become trainee maintainers instead of reviewers. We expect their maintainership to be complete within 12 months of their onboarding completion. |
 | Promotions to Senior | For engineers moving into the Senior role, we expect that they have already become a maintainer prior to promotion. |
 
 ### Meeting the reviewer/maintainer
@@ -84,8 +84,8 @@ The manager/mentor should seek to understand any concern raised by a current mai
 1. In keeping with other values, the maintainer's concern(s) should not be personal or prejudicial.
 1. The maintainer's concern(s) must be consistent with the [Responsibilities of a Maintainer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-maintainer).
 1. The maintainer's concern(s) should be grounded in fact that:
-  1. the trainee maintainer consistently does not perform [MR reviews in a conventional manner](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request), or
-  1. the trainee maintainer has consistently been irresponsible in ensuring our [code quality and standards](/handbook/engineering/development/principles/#code-quality-and-standards) as isolated incidents are expected in the training process.
+1. the trainee maintainer consistently does not perform [MR reviews in a conventional manner](https://docs.gitlab.com/ee/development/code_review.html#reviewing-a-merge-request), or
+1. the trainee maintainer has consistently been irresponsible in ensuring our [code quality and standards](/handbook/engineering/development/principles/#code-quality-and-standards) as isolated incidents are expected in the training process.
 
 In order to better inform a decision, the manager should privately reach out to 2 existing maintainers without sharing any personal information regarding the feedback. The manager is ultimately responsible for the readiness of the trainee maintainer and owns the decision to entrust the trainee maintainer with maintainer responsibilities.
 
@@ -109,7 +109,7 @@ Interested reviewers for the projects below should complete the listed tasks in 
 Tips:
 
 - If you'd like a dashboard limited to just reviews where you applied the `~"database::reviewed"` label,
-  reach out to the database group manager to get one. ([Example](https://app.periscopedata.com/app/gitlab/1150689/Database-Reviewers-and-Maintainers?widget=16991435&udv=0))
+  reach out to the database group manager to get one.
 
 #### Project maintainer process for [`gitlab-components`](https://gitlab.com/components)
 
@@ -121,12 +121,13 @@ Tips:
 - Have at least 2 approvals from existing maintainers in order to merge the MR.
 
 Upon approval, the maintainer who merges the MR will:
+
 - Add the newly approved maintainer to the CI components maintainer group (`@gitlab-org/maintainers/ci-components`).
-- Announce in [`#ci_components_maintainers`](https://gitlab.slack.com/archives/C06AQBJETRR) and post an update in the _Engineering Week-in-Review document_
+- Announce in [`#ci_components_maintainers`](https://gitlab.slack.com/archives/C06AQBJETRR) and post an update in the *Engineering Week-in-Review document*
 
 #### Project maintainer process for [`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) or [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs)
 
--  Understand [how to become a maintainer](/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer).
+- Understand [how to become a maintainer](/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer).
 - All designers are maintainers of [`gitlab-design`](https://gitlab.com/gitlab-org/gitlab-design) project. If you are interested in becoming a Maintainer of UI (`.scss`) for `gitlab`, and `gitlab-ui` projects, please follow the [Engineering Review Workflow](/handbook/engineering/workflow/code-review).
 - It is up to you to ensure that you are getting enough MRs to review, and of varied types. You could also seek out more reviews from your team, for example by asking for reviews on the `#ux` and `#pajamas-design-system` Slack channels. If you are not receiving enough MRs to advance in your training, be proactive and work on your own improvements to Pajamas. This will demonstrate overall understanding of the product, as well as quality contributions, and help propel your progress. Maintainers are available to help guide you.
 - Your reviews should aim to cover maintainer responsibilities as well as reviewer responsibilities. Design Maintainers should be focused on MRs that have an impact on usability, iterate on existing user experience, and/or include usage of design guidelines, standards, and patterns. Your approval means you think it is ready to merge.
@@ -156,7 +157,7 @@ Upon approval, the maintainer who merges the MR will:
 - Review the [GitLab Elasticsearch Indexer development and release](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/blob/main/PROCESS.md) process.
 - Join the `#g_global_search` Slack channel.
 - Work on issues to gain familiarity with the project.
-- _Optional:_ Reach out to an (existing maintainer)[https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/project_members?with_inherited_permissions=exclude] to [help you become](/handbook/engineering/workflow/code-review/#trainee-maintainer-mentorship-pilot-program) a maintainer.
+- *Optional:* Reach out to an [existing maintainer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/project_members?with_inherited_permissions=exclude) to [help you become](/handbook/engineering/workflow/code-review/#trainee-maintainer-mentorship-pilot-program) a maintainer.
 
 #### Project maintainer process for [`customers-gitlab-com`](https://gitlab.com/gitlab-org/customers-gitlab-com)
 
@@ -206,8 +207,9 @@ Create a merge request and indicate your role as a `project-name: trainee_mainta
 After each review, reviewers should summarize why they believe a merge request is ready to be merged:
 
 For example:
-> Looks good!  I believe this MR resolves the issue and it looks safe because the code change is relatively isolated.
 
+> Looks good!  I believe this MR resolves the issue and it looks safe because the code change is relatively isolated.
+>
 > LGTM! I feel this MR is a good iteration. And it has low risk because it is behind a feature flag.
 
 Maintainers should respond to the comment from the reviewer with a 👍 if they agree, and upon merging if there were additional comments they feel should have been caught, they should ping any reviewers so they are aware of the comments.
@@ -328,15 +330,15 @@ Use this lightweight template as a starting point for defining your project's ma
 
 ### Maintainer ratios
 
-We aim to keep the engineer : maintainer ratio under 6, for both frontend and backend. We track this in the [Engineer : Maintainer Ratio dashboard][dashboard]:
+We aim to keep the engineer : maintainer ratio under 6, for both frontend and backend. We track this in the Engineer : Maintainer Ratio dashboard:
 
-{{< sisense dashboard="475647" >}}
+https://10az.online.tableau.com/t/gitlab/views/DraftEngineerMaintainerRatio/EngineerMaintainerRatio_1
 
 ### Maintainer Demand
 
-We can gauge demand by looking at the [Maintainership Demand dashboard](https://app.periscopedata.com/app/gitlab/1055628/Maintainership-Demand?widget=15440601&udv=1762708), which can be filtered by month, project and technology:
+We can gauge demand by looking at the Maintainership Demand dashboard, which can be filtered by month, project and technology:
 
-{{< sisense dashboard="1055628" >}}
+https://10az.online.tableau.com/#/site/gitlab/views/MaintainershipDemand/MaintainershipDemand?:iid=1
 
 #### About this dashboard
 
@@ -360,7 +362,6 @@ Explanation of charts:
 - Unhealthy Core Areas of Maintainership Health - The percentage of projects (GitLab) or areas (backend) that are not meeting the Minimum Maintainers Required, and are receiving more than 100 Incoming Merge Requests per month over time.
 - Part of Product Repos - Full Data - An all-inclusive chart for each project, area, and month that includes all metrics noted above.
 
-
 #### Monthly Review Targets
 
 Targets are calculated based on the number of available maintainers (described above) and what a "reasonable" number of reviews per maintainer per month is. "Reasonable" has been defined for some areas in [separate analysis issues](https://gitlab.com/groups/gitlab-com/-/epics/1817). These are custom targets defined in the "maintainer_custom_targets" Sisense snippet. There are general targets for all other projects based on the number of incoming merge requests to the project. These numbers are a first iteration and were based on the analysis issues, where less demanding projects had fewer maintainers (therefore requiring more monthly reviews per person) and more demanding projects had more maintainers (therefore requiring less monthly reviews per person):
@@ -383,9 +384,9 @@ To add a custom target to an area using the `maintainer_custom_targets` Sisense 
 
 ### Maintainer/Reviewer Availability
 
-We aim to have enough reviewers and maintainers across timezones to ensure that there are people available to review MRs in a timely manner while keeping review load at a reasonable level. We track this in the [Reviewer/Maintainer Availability and Capacity dashboard](https://app.periscopedata.com/app/gitlab/1028635/Reviewer-Maintainer-Availability-and-Capacity):
+We aim to have enough reviewers and maintainers across timezones to ensure that there are people available to review MRs in a timely manner while keeping review load at a reasonable level. We track this in the [Reviewer/Maintainer Availability and Capacity dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ReviewermaintainerAvailabilityandCapacity/Reviewermaintaineravailabilityandcapacity?:iid=1):
 
-{{< sisense dashboard="1028635" >}}
+https://10az.online.tableau.com/#/site/gitlab/workbooks/2286852/views
 
 ## Leading Organizations
 
@@ -503,7 +504,7 @@ on these other statuses, please refer to the [code review](https://docs.gitlab.c
 page in the developer documentation.
 
 Of course, if you are out of office and have
-[communicated](/handbook/paid-time-off/#communicating-your-time-off)
+[communicated](/handbook/people-group/paid-time-off/#communicating-your-time-off)
 this through your GitLab.com Status, authors are expected to realize this and
 find a different reviewer themselves.
 
@@ -517,20 +518,19 @@ When you are assigned to review an MR and you are not able to get to it within t
 
 As the author of an MR you should reassign to another reviewer or maintainer if the `Review-response` SLO has not been met and you have been unable to contact the assignee.
 
-[1:1 meetings]: /handbook/leadership/1-1/
-[dashboard]: https://app.periscopedata.com/app/gitlab/475647/Engineer-:-Maintainer-Ratio
-[ratio]: https://app.periscopedata.com/app/gitlab/655064/Merge-Requests:-MR-Count-and-Ratio-by-FE-BE-DB
-
 ## Code Owner approvals
 
 Some GitLab projects use GitLab's [CODEOWNERS file feature](https://docs.gitlab.com/ee/user/project/codeowners/) to manage approvals for specific file paths and types. In the `gitlab-org/gitlab` project, [we use a combination of CODEOWNERS approval rules plus MR approval settings](https://docs.gitlab.com/ee/development/code_review.html#merging-a-merge-request) in order to follow segregation of duties best practices. This section describes the process for updating the eligible approvers for CODEOWNERS changes for the `gitlab-org/gitlab` project.
 
 The Code Owners for the [CODEOWNERS file](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/CODEOWNERS) itself are managed with a rule in the file. For example:
 
-```
+```text
 CODEOWNERS @gitlab-org/development-leaders @gitlab-org/tw-leadership
 ```
 
 There are two ways to update the Code Owner(s) of the `CODEOWNERS` file:
-1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+
+1. Update the membership of a group that already has the ability to approve CODEOWNERS changes via the [standard access request process](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 1. Open a merge request to update the relevant lines. An existing Code Owner will have to approve the merge request. You are also encouraged to ping a security compliance team member for visibility.
+
+The `@gitlab-org/development-leaders` group consists of team members from Senior Managers and above in the management track, and Distinguished Engineer and above in the individual contributor track in the development departments within Engineering.

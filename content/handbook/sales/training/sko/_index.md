@@ -22,7 +22,7 @@ We will achieve this by creating an event that is:
 1. **Engaging**
 1. **Inclusive**
 
-----
+---
 
 ## [Sales Kickoff 2023](/handbook/sales/training/SKO/2023)
 
@@ -33,7 +33,7 @@ We will achieve this by creating an event that is:
 ## [Sales Kickoff 2020](/handbook/sales/training/SKO/2020)
 
 
-----
+---
 
 ## Sales Kickoff Planning
 

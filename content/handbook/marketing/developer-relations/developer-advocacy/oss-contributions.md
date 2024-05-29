@@ -13,17 +13,17 @@ aliases:
 
 ## Contributions to OSS
 
-The Developer Advocacy team believes in Open Source and wants to lead by example, contributing to GitLab and the OSS ecosystem. Our workshops, community activities and projects are documented in the [projects overview](/handbook/marketing/developer-relations/developer-evangelism/projects/).
+The Developer Advocacy team believes in Open Source and wants to lead by example, contributing to GitLab and the OSS ecosystem. Our workshops, community activities and projects are documented in the [projects overview](/handbook/marketing/developer-relations/developer-advocacy/projects/).
 
 ### Projects maintained by Developer Advocates
 
-We organize our projects in the [Developer Advocacy group](https://gitlab.com/gitlab-de). A few examples are:
+We organize our projects in the [Developer Advocacy group](https://gitlab.com/gitlab-da). A few examples are:
 
 * [Docker Hub Limit Monitoring](https://about.gitlab.com/blog/2020/11/18/docker-hub-rate-limit-monitoring/)
-    * [Exporter for Prometheus](https://gitlab.com/gitlab-de/docker-hub-limit-exporter)
-    * [Monitoring Plugin](https://gitlab.com/gitlab-de/check-docker-hub-limit)
-* [CI/CD API Lint Git Hook](https://gitlab.com/gitlab-de/ci-cd-api-lint-hook)    
-* [Go Excusegen](https://gitlab.com/gitlab-de/go-excusegen)
+    * [Exporter for Prometheus](https://gitlab.com/gitlab-da/docker-hub-limit-exporter)
+    * [Monitoring Plugin](https://gitlab.com/gitlab-da/check-docker-hub-limit)
+* [CI/CD API Lint Git Hook](https://gitlab.com/gitlab-da/ci-cd-api-lint-hook)
+* [Go Excusegen](https://gitlab.com/gitlab-da/go-excusegen)
 
 ### Contribution Examples
 
@@ -66,11 +66,11 @@ Contributions are "more than just code" and are often times hard to measure. Our
 
 ### Resource and Time Dedication
 
-Developer Advocates are encouraged to find time every week for Open Source contributions. 
+Developer Advocates are encouraged to find time every week for Open Source contributions.
 
 ### Measurement
 
-We aim to measure this in the form of submitted issues, MR/PRs and commit URLs where applicable. 
+We aim to measure this in the form of submitted issues, MR/PRs and commit URLs where applicable.
 
 ### Contribution Areas
 
@@ -80,7 +80,7 @@ It can be hard to decide, or make a one-time contribution a permanent engagement
 - Help you and your environment (e.g. a calendar app)
 - Benefits the ecosystem and makes processes easier
 
-We focus on languages and frameworks where we have the most experience: Golang, C/C++, JS, Ruby, .NET, etc. 
+We focus on languages and frameworks where we have the most experience: Golang, C/C++, JS, Ruby, .NET, etc.
 
 
 

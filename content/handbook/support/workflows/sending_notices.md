@@ -40,12 +40,6 @@ review the
 [Support Readiness documentation](/handbook/support/readiness/operations/docs/zendesk/tickets/#creating-tickets-for-outbound-requests)
 for more information.
 
-### Customer Ticket Generator (Deprecated)
-
-The [Customer Ticket Generator](https://gitlab-com.gitlab.io/support/support-ops/forms/customer-ticket-generator/) is a form that can be used to send multiple tickets out at once. Once the form is submitted, an issue will be created in the [customer ticket generator tracker](https://gitlab.com/gitlab-com/support/support-ops/forms/customer-ticket-generator) where a member of SupportOps will then run it. This can also be used in conjunction with the [Email Grab Script](#email-grab-script), whose output can be provided as the CSV for the form.
-
-The limit of 500 tickets is defined in order not to hit API rate limits on Zendesk side.
-
 ### Mass Emails through Marketing Department
 
 Outside of Zendesk we may be asked to be involved in the process of sending mass notices to users. For larger email campaigns, involve the marketing team:

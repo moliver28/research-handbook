@@ -11,7 +11,7 @@ description: "Best practices and setup guide for Customer Success Managers using
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-- - -
+---
 
 *For an overview of Chorus, the tool used to record our meetings please refer to the [Gainsight Overview Page](/handbook/sales/field-operations/sales-operations/go-to-market/chorus/).*
 
@@ -42,7 +42,7 @@ It is recommended to create multiple event types for your Calendly to ensure cus
   - Click the [Create New Event Type Button](https://calendly.com/event_types/new) and choose One-on-One
   - *Event name*: Name your event based on the length of time or specific topic/focus (Ex: New Customer: Onboarding Call)
   - *Location*: Custom (Use a Static Link from Chorus Scheduler generated from your Zoom PMI)
-    - Next, add the go.chorus.ai link to your calendly event configuration Location field.  
+    - Next, add the go.chorus.ai link to your calendly event configuration Location field.
         - *Important Note*: Anyone booking through your calendly would use the same location link when booking an event instead of an automatically generated unique meeting ID per meeting. Please make sure your Zoom Personal Meeting follows GitLab’s best practices on [privacy and security](/handbook/tools-and-tips/zoom/#a-note-on-privacy-and-security).
 
         - Make sure to select display location only after confirmation
@@ -54,9 +54,9 @@ It is recommended to create multiple event types for your Calendly to ensure cus
     >
     > You will join a Zoom meeting via Chorus.ai
     >
-    > _______________________________
+    > `_______________________________`
     >
-    > Recording Disclaimer: This meeting will be recording with [Chorus.ai](https://www.chorus.ai). By accepting this meeting invite or joining the meeting room, you consent to the recording.```
+    > Recording Disclaimer: This meeting will be recording with [Chorus.ai](https://www.chorus.ai). By accepting this meeting invite or joining the meeting room, you consent to the recording.
 
 - *When can people book this event?*
     - Date range: 60

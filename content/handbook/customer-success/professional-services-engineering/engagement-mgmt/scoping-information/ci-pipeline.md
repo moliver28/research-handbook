@@ -11,7 +11,7 @@ description: "Describes the process for scoping pipeline migrations from other C
 
 
 
-# General discovery questions to determine customer maturity level
+## General discovery questions to determine customer maturity level
 
 Its helpful to understand the level of maturity that the customer is on as it relates to CI/CD, Containers and repository hygiene. The following questions should be considered if a customer is interested in **GitLab Ultimate** or the **DevOps Platform Concent**. Also, consider these questions if conversations on **SCM Migration** are expanding to migration of additional data elements from the later stages of the DevOps lifecycle.
 
@@ -23,12 +23,12 @@ Its helpful to understand the level of maturity that the customer is on as it re
 | How do you structure your repositories, structured (single tech stack focused on a single solution) vs. unstructured (many tech stacks that host many software solutions) | | Most of the git repositories are focused on a single software solution. We may have a few unstructured repositories, but these are outliers. | We ask this because using strutured repositories will help make use of GitLab CI/CD (and specifically Pipeline COE) out of the box. |
 | How do you currently import packages such as Debian or Red Hat packages into your environment today? | | We utilize Red Hat Satellite to handle this. We currently allow developers to import packages themselves. We have an internal Apt/Yum Repository that we import packages into | We want to understand the level of control/standardization the customer currently has and what level of control/standarization they want to achieve in their future state. |
 
-# General approaches for CI/CD "Migration"
+## General approaches for CI/CD "Migration"
 
 1. **Flash Cut** - Migrate all data from legacy CI platform to GitLab including job definitions, job outputs and artifacts. *Note: This is typically harder to do as you will need to recreate history on the new system. Most customers are not interested in the additional cost (development time to script/test, longer migration). Wherever possible, we should recommend **Net New***.
-2. **Net New** - Update all pipelines job definitions to run on the customer GitLab instance using GitLab CI. All job history remains on the legacy system. All historical packages and containers are left on the legacy system and rebuilt on the new GitLab system.  
+2. **Net New** - Update all pipelines job definitions to run on the customer GitLab instance using GitLab CI. All job history remains on the legacy system. All historical packages and containers are left on the legacy system and rebuilt on the new GitLab system.
 
-# Migrating from Artifactory to GitLab Registry
+## Migrating from Artifactory to GitLab Registry
 
 ## Specific Approaches
 
@@ -45,7 +45,7 @@ Its helpful to understand the level of maturity that the customer is on as it re
 | How many software packages/images are pushed to artifactory per Month? |  | 2345 | This shows the customer is measuring this data to be used during the transition process. |
 | How many software packages/images are pulled from artifactory per month? |  | 2345 | This shows the customer is measuring this data to be used during the transition process. |
 
-# Migrating from Jenkins to GitLab CI
+## Migrating from Jenkins to GitLab CI
 
 ## Specific Approaches
 

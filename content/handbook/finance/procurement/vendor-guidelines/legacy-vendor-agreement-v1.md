@@ -124,4 +124,3 @@ description: "Learn more about the Legacy Vendor Terms and Conditions v1"
 ### 18. ENTIRE AGREEMENT
 
 18.1  This Agreement contains the entire understanding of the parties hereto in respect of transactions contemplated hereby and supersedes any prior agreements and understandings between the parties with respect to such subject matter.  The parties agree that all such prior agreements and understandings shall have no further force and effect.
-

@@ -6,7 +6,7 @@ twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
- 
+
 
 
 
@@ -32,7 +32,7 @@ We have 3 separate Google calendars to manage different types and platforms of v
 
 All 3 calendars are consolidated into a single GitLab virtual events calendar view (above - calendars are not public because they contain secure login for presenters). **The purpose of the consolidated view is to help event organizer(s) minimize topic overlap with other GitLab virtual events happening around the same time and to provide executive visibility into ALL virtual events that GitLab is running/participating in.**
 
-#### Glossary of calendar event naming convention:
+#### Glossary of calendar event naming convention
 {: #calendar-glossary}
 
 * `[Hold WC Hosted] Webcast title` - GitLab hosted webcast still in planning
@@ -58,7 +58,7 @@ As soon as you create the epic for the sponsored virtual event, add the event to
 * For executive round tables please use the following naming convention `[Hold ER sponsored] Event title` (e.g: `[Hold ER sponsored] DevOps 101`).
 * For vendor arranged meetings, please use the following naming convention  `[Hold VA sponsored] Vendor Name Region` (e.g: `[Hold VA sponsored] Captive Eight APAC `).
 
-##### Confirmed external virtual events 
+##### Confirmed external virtual events
 {: #calendar-confirmed-external-virtual-event}
 Once the sponsorship has been confirmed, go to your calendar event and remove `Hold` from the event title. **Note:** In the spirit of efficiency and to avoid creating multiple calendar invites, please include the epic or issue, add the marketing DRI, any GitLab speakers and/or attendees (SAEs, SAs, etc.), as well as any other team members who would benefit from being included in the calendar invite as this invite will provide a hold for team members participating in the event. The 3rd party sponsor will send out additional event details separately.
 * For sponsored webcasts, change the event title to `[WC sponsored] Event title` (e.g: `[WC sponsored] Securing your pipeline with GitLab and WhiteSource`).
@@ -68,11 +68,11 @@ Once the sponsorship has been confirmed, go to your calendar event and remove `H
 
 ## Rescheduling external virtual events
 
-For the most up-to-date rescheduling instructions, please visit [this handbook page](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events). 
+For the most up-to-date rescheduling instructions, please visit [this handbook page](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events).
 
 ## Cancelling external virtual events
 
-For the most up-to-date rescheduling instructions, please visit [this handbook page](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events). 
+For the most up-to-date rescheduling instructions, please visit [this handbook page](/handbook/marketing/field-marketing/#rescheduling-or-canceling-events).
 
 ## Virtual events decision tree
 {: #decision-tree .gitlab-purple}
@@ -92,7 +92,7 @@ This is a GitLab-hosted virtual event with `Webcast` type configuration, which *
 
 [Webcast handbook](/handbook/marketing/virtual-events/webcasts/)
 
-#### Webcast Subcategory - Virtual Hands-on Workshops 
+#### Webcast Subcategory - Virtual Hands-on Workshops
 {: #workshops}
 Field Marketing runs hands-on workshops virtually. Regardless or not if there will be money spent to advertise these workshops, marketers are to use the webcast event type. A few more points to note:
 
@@ -104,7 +104,7 @@ For details regarding Virtual Workshops, please visit the [Field Marketing Page]
 
 ### Virtual Conference
 {: #virtual-conference}
-Please work with the Corporate Marketing Events team on planning these large scale events. [Virtual Conference handbook](/handbook/marketing/virtual-events/external-virtual-events/#virtual-conference) This event type is only intended if you need more tracked attendees than is capable with zoom and/ or you need multiple simultaneous tracks. It also allows for a partner expo hall. The tool we have in place allows for a cleaner experience for the end user than switchign between zoom calls. It more mirrors a physical event experience, with a keynote stage, tracks, expo halls and networking options. 
+Please work with the Corporate Marketing Events team on planning these large scale events. [Virtual Conference handbook](/handbook/marketing/virtual-events/external-virtual-events/#virtual-conference) This event type is only intended if you need more tracked attendees than is capable with zoom and/ or you need multiple simultaneous tracks. It also allows for a partner expo hall. The tool we have in place allows for a cleaner experience for the end user than switchign between zoom calls. It more mirrors a physical event experience, with a keynote stage, tracks, expo halls and networking options.
 
 ### External virtual events
 {: #external}
@@ -137,7 +137,7 @@ Note: these events are not included in the above decision tree as they are not G
 ## How to go live?
 {: #going-live}
 
-### Webcasts 
+### Webcasts
 {: #go-live-webcast}
 Currently, only the Campaigns Team team can run GitLab hosted virtual event with `Webcast` type configuration in zoom since this configuration requires a special Zoom license and integration with Marketo. To begin a webcast request, visit the [webcast page](/handbook/marketing/virtual-events/webcasts/) and follow the instructions.
 
@@ -146,7 +146,7 @@ Currently, only the Campaigns Team team can run GitLab hosted virtual event with
 
 ### Webcasts
 {: #promotion-webcast}
-Below is a summary of the promotion plan for webcasts. MPMs will be responsible for creating all promotion request issues as part of the webcast project management process. The requestor will start with a [virtual event request issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/blob/master/.gitlab/issue_templates/MPM_VirtualEvent_Request.md) and MPMs will create the necessary epic and related issues. 
+Below is a summary of the promotion plan for webcasts. MPMs will be responsible for creating all promotion request issues as part of the webcast project management process. The requestor will start with a [virtual event request issue](https://gitlab.com/gitlab-com/marketing/digital-marketing-programs/blob/master/.gitlab/issue_templates/MPM_VirtualEvent_Request.md) and MPMs will create the necessary epic and related issues.
 
 * **Blog merchandising:** 1 post, -30 days prior to live event, DRI = Content team
 * **Organic Social:** 1-2 post, -14 to -7 days prior to live event, DRI = Social team (requires image for sharing)
@@ -154,14 +154,14 @@ Below is a summary of the promotion plan for webcasts. MPMs will be responsible 
 * **Targeted Email:** 2-3 sends, -14 and -7 days prior to live event, DRI = MPM (copy provided by requestor)
 * **Newsletter:** 1 post, -15 to -1 day prior to live event, DRI = MPM (only support English language)
 
-## Virtual event operations 
+## Virtual event operations
 {: #operations}
 
 #### Zoom capabilities
 {: #zoom-capabilities}
 
 When scheduling an event, this table can help guide you towards the right event type to select based on the features you would like to use during the event. GitLab hosted virtual events will need to fit into either: Zoom Webcast type or Zoom Meeting type.
- 
+
 |                                       | Zoom Webcast                | Zoom Meeting                                  |
 |---------------------------------------|-----------------------------|-----------------------------------------------|
 | Screenshare                           | Yes                         | Yes                                           |
@@ -222,7 +222,7 @@ You can also download the results of your poll - see [reporting](/handbook/marke
 {: #zoom-networking}
 There are currently no networking features available in Zoom outside of the participation features listed above. However, there are some creative ways to continue the conversation after your event is over:
 
-*  Create a custom Twitter hashtag for your event and encourage participants to join the conversation 
+*  Create a custom Twitter hashtag for your event and encourage participants to join the conversation
 *  Create a LinkedIn group and invite participants prior to the event
 *  If you're doing a self-service event, use the breakout rooms to create a more intimate setting for discussion and opportunity for 1:1's
 
@@ -232,7 +232,7 @@ Please follow the [prerequisites](/handbook/marketing/virtual-events/self-servic
 
 ### GDPR and privacy compliance
 {: #zoom-compliance}
-In order to stay compliant with all regulatory policies as it relates to marketing, please adhere the following guidelines when working with registration or attendee lists and event confirmation emails: 
+In order to stay compliant with all regulatory policies as it relates to marketing, please adhere the following guidelines when working with registration or attendee lists and event confirmation emails:
 
 - Password protect sheets for lists (use under GitLab ID only, GitLab only access)
 - Delete info in Zoom after event
@@ -274,7 +274,7 @@ For attendee lists:
 1. Select the date of your event and click `Search`. Maximum report duration is one month. The report displays information for meetings that ended at least 30 minutes ago.
 1. You can toggle the visible columns you want shown in the results from the `Toggle columns` drop down on the right-side of the screen (optional).
 1. Once your event is shown in results, scroll right to the `Participants` column to view the number of participants hyperlinked in blue. Click the linked number of participants.
-1. A pop-up box will appear called `Meeting Participants`. From here, you can select the checkbox whether you want to export this list with meeting data or not. Meeting data includes the meeting ID, duration (minutes), # of participants, topic, start time, end time, and user email. 
+1. A pop-up box will appear called `Meeting Participants`. From here, you can select the checkbox whether you want to export this list with meeting data or not. Meeting data includes the meeting ID, duration (minutes), # of participants, topic, start time, end time, and user email.
 1. Click `Export`. It exports the list as a .csv file.
 
 ### List uploads

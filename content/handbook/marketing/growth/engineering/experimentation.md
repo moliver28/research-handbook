@@ -14,7 +14,7 @@ description: "Information about creating and running experiments at GitLab."
 
 This page covers the Growth engineering process for running experiments. See also:
 
-* [How Growth Launches Experiments](/handbook/marketing/growth/#how-growth-launches-experiments) (Product)
+* [How Growth Launches Experiments](/handbook/product/growth/#how-growth-launches-experiments) (Product)
 * [Experiment Guide](https://docs.gitlab.com/ee/development/experiment_guide/) (GitLab Developer Documentation)
 * [Experimentation Design & Analysis](/handbook/product/product-analysis/experimentation/) (Product Analysis)
 
@@ -138,7 +138,7 @@ The [Experiment Successful Cleanup](https://gitlab.com/gitlab-org/gitlab/-/issue
 Experimentation, like everything at GitLab, should be approached with [the GitLab CREDIT values](/handbook/values/) in mind, specifically the values of [Iteration](/handbook/values/#iteration), [Efficiency](/handbook/values/#efficiency), and [Results](/handbook/values/#results).
 
 The larger an experiment is, the longer it takes to craft a design, implement code changes, review code changes, define and collect necessary data, organize data into meaningful tables, graphs, and dashboards, and so on.
-As we build and improve our experimentation platform and increase our ability to quickly create and run experiments, we should [expect a large percentage of all experiments to fail at proving their hypotheses](https://hbr.org/2017/09/the-surprising-power-of-online-experiments#:~:text=At%20Google%20and%20Bing,%20only%20about%2010%%20to%2020%%20of%20experiments%20generate%20positive%20results.).
+As we build and improve our experimentation platform and increase our ability to quickly create and run experiments, we should [expect a large percentage of all experiments to fail at proving their hypotheses](https://hbr.org/2017/09/the-surprising-power-of-online-experiments#:~:text=At%20Google%20and%20Bing,%20only%20about%2010%25%20to%2020%25%20of%20experiments%20generate%20positive%20results).
 Given these invalidated or inconclusive experiments will be rolled back there is an advantage in ensuring experiments are as small and iterative as possible.
 
 With this in mind, there are advantages to considering developing a Minimum Viable Experiment (MVE).
@@ -165,9 +165,5 @@ For real time experiment rollout status GitLab team members can view the [experi
 The "current_status" will be on, off, or conditional. If conditional, there will be either a percentage_of_time or percentage_of_actors. Refer to the [note on feature flags](https://docs.gitlab.com/ee/development/experiment_guide/gitlab_experiment.html#notes-on-feature-flags) in the experiment guide.
 
 There are dashboards in Sisense to indicate whether the experiment flag still exists, but not the current status. These are also only available to GitLab team members.
-
-- [Experiments in codebase](https://app.periscopedata.com/app/gitlab/799224/Growth-experiment-cadence?widget=10640386&udv=0)
-- [Experiments removed](https://app.periscopedata.com/app/gitlab/799224/Growth-experiment-cadence?widget=12422147&udv=0)
-- [Legacy experiments (before 13.7)](https://app.periscopedata.com/app/gitlab/799224/Growth-experiment-cadence?widget=10640406&udv=0)
 
 The [experiment rollout board](https://gitlab.com/groups/gitlab-org/-/boards/1352542?label_name[]=experiment-rollout) lists rollout issues linked to [experiment feature flags](https://docs.gitlab.com/ee/development/feature_flags/#experiment-type) used in development and on SaaS.

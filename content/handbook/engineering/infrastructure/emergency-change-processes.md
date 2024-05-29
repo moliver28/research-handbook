@@ -42,7 +42,6 @@ Developers follow the standard review process, where the codebase maintainers re
 
 In cases where the emergency change is required as a means to rectify a security vulnerability, the [security release process] is followed.
 
-
 [incident management process]: /handbook/engineering/infrastructure/incident-management/
 [change management process]: /handbook/engineering/infrastructure/change-management/
 [post deployment patching]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/post-deployment-patches.md

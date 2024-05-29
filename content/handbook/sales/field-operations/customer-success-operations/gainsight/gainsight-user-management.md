@@ -173,7 +173,7 @@ You may also need to remove the user's Gainsight license in Salesforce:
 2. Click **Manage Licenses**
 3. Search for the user on the list and click the *Remove* next to their name.
 
-# User Access to Gainsight
+## User Access to Gainsight
 
 Users can access Gainsight directly from Okta or through Salesforce.
 
@@ -188,6 +188,6 @@ To access Gainsight through Salesforce:
    - If you don't see "Gainsight NXT" as a choice, you can add it by clicking the "+" sign, choosing "Customize My Tabs" and choosing Gainsight NXT from the applications list.
 To hide the Salesforce header to maximize Gainsight screen space, click the "double arrow" icon in the top right corner of the Gainsight header, next to your profile icon.
 
-# Troubleshooting
+## Troubleshooting
 
 Coming soon!

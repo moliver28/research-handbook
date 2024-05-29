@@ -23,7 +23,7 @@ graph TD
 
 We are only able to process Account Deletion and Data Access requests if they are submitted through the official [Personal Data Request form](https://support.gitlab.io/account-deletion/). If a request is received via any other method, we will close it and direct the user to open a request through the form.
 
-When a user submits a request through the form, an issue is [automatically created]({{< ref "/content/handbook/support/readiness/operations/docs/gitlab/account_deletions.md" >}}) in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/service_desk), *even for invalid requests*. Comments made in the issue will be emailed to the user. You will communicate with the user through the issue on the progress of their request.
+When a user submits a request through the form, an issue is [automatically created](/handbook/support/readiness/operations/docs/gitlab/account_deletions.md) in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/service_desk), *even for invalid requests*. Comments made in the issue will be emailed to the user. You will communicate with the user through the issue on the progress of their request.
 
 The purpose of this stage is to instruct you on how to close out invalid requests.
 
@@ -98,7 +98,7 @@ Currently, only **GitLab.com Account Deletion** or **Full Deletion** requests ar
 
 #### **GitLab.com Account Deletion and Full Deletion**
 
-This workflow applies to both **GitLab.com Account Deletion** and **Full Deletion** requests. When a request is submitted for either of these types, the following form entries are verified using [built-in automated checks]({{< ref "/content/handbook/support/readiness/operations/docs/gitlab/account_deletions.md" >}}):
+This workflow applies to both **GitLab.com Account Deletion** and **Full Deletion** requests. When a request is submitted for either of these types, the following form entries are verified using [built-in automated checks](/handbook/support/readiness/operations/docs/gitlab/account_deletions.md):
 
 - Username (must exist)
 - Email address (must exist)
@@ -136,7 +136,7 @@ If the user fails to respond within 7 calendar days, close it using the followin
 
   <p>Regards,</p>
 
-  /label ~"Account Verification Failed" ~"deletion request::denied"
+  `/label ~"Account Verification Failed" ~"deletion request::denied"`
 </details>
 
 ##### **Step 1.5:** Blocked or Banned Accounts
@@ -184,7 +184,7 @@ If the user fails the challenge questions, apply the `Account Verification Faile
 
   <p>Regards,</p>
 
-  /label ~"Account Verification Failed" ~"deletion request::denied"
+  `/label ~"Account Verification Failed" ~"deletion request::denied"`
 </details>
 
 ###### Verification Failed - Sole Owner Exception
@@ -287,6 +287,7 @@ IMPORTANT NOTE: If at any point you are unsure of next steps or have any questio
 
 1. Add the `Awaiting::Challenge Answers` label, and wait for the requestor to reply.
    1. If no response is received after 10 calendar days, apply the `Account Verification Failed` and `deletion request::denied` labels to the issue, and close it using the following snippet:
+
 <details>
   <summary markdown="span">Request Closed - No Response (Account Deletion - Deceased User) </summary>
 
@@ -385,7 +386,6 @@ Use the following workflows based on the type of request submitted.
 
   <p>Regards,</p>
 </details>
-
 
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [personal_data_access_request](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=personal_data_access_request) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.

@@ -56,7 +56,7 @@ For a full overview of the QBR planning and execution process, QBR request track
 
 ### WW Field Org Call
 
-- **When:** Quarterly in the second month of each quarter. Typically on a Monday or Tuesday in the morning PT for 50 minutes.  
+- **When:** Quarterly in the second month of each quarter. Typically on a Monday or Tuesday in the morning PT for 50 minutes.
    - The call recording is shared with Japan/APAC team members once available with a CTA to watch the prepared remarks (watching the Q&A is not required). The CRO then leads a dedicated follow-up Japan/APAC Q&A session 1-3 business days after the initial call.
 - **Who:** This meeting includes all members of the CRO organization as well as stakeholders of the Field team from the Marketing, Finance, Legal and People Groups.
    - If you are in the Field organization and do not have the calendar invite, first confirm that your manager has opened a [role-based access request](/handbook/people-group/engineering/onboarding/#access-request-issue-creation) to add you to your team's Google Group (ex. sales-ent). Field attendance is informed by the sales-all Google Group, which is made up of all team sub-groups. Using this method, the calendar invite will auto-add new team members to the invite once they're added to their group.
@@ -94,7 +94,7 @@ For a full overview of the QBR planning and execution process, QBR request track
 - **What:** The CRO Leaders will rotate and provide the company with an update on their business, overall team performance, notable wins, accomplishments, and relevant strategies planned.
 You can view previous updates in the "Group Conversation Sales" (previously "Functional Group Update Sales") folder on the Google Drive.
 
-### Sales Monthly [Key Review](/handbook/key-review/)
+### Sales Monthly [Key Review](/handbook/company/key-review/)
 - **When:** Happens once every month
 - **Where:** Zoom link varies - please check the calendar invitation
 - **What:** Michael McBride (CRO) will present to the CEO, CFO, and other company leaders a monthly Sales update.
@@ -114,7 +114,7 @@ We will review the standard IACV/ARR look back on historical performance, as wel
 
 ### Focus Fridays
 
-The Field team practices Focus Fridays. The goal is to encourage all field team members to clear out their calendars on Fridays as much as possible in hopes that this will help all of us be more efficient, allow space within our weeks for focused work, and reduce potential burnout. Guidance for Focus Fridays includes:  
+The Field team practices Focus Fridays. The goal is to encourage all field team members to clear out their calendars on Fridays as much as possible in hopes that this will help all of us be more efficient, allow space within our weeks for focused work, and reduce potential burnout. Guidance for Focus Fridays includes:
 
 - Cancel or move any standing meetings occurring on Fridays
 - Customer/prospect/partner/external meetings are exceptions

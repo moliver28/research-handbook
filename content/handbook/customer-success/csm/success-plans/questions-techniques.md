@@ -11,7 +11,7 @@ title: "Questions & Techniques for Success Plan Discovery"
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
 
-----
+---
 
 The questions and techniques described on this page will provide you with some ways to drive a strategic conversation with a customer, and explore the information you need to develop an [effective success plan](/handbook/customer-success/csm/success-plans/).  A Success Plan should always be a continuation of the [Command Plan](/handbook/sales/sales-operating-procedures/engage-and-educate-the-customer/#step-5-qualify-the-opportunity) where available.  The below questions are for further expanding on what we know from the Command Plan, or refreshing on objectives if it has been some time.
 
@@ -27,7 +27,7 @@ Asking open-ended questions is the most effective way to get clarity from the cu
 
 The most straightforward and open-ended approach to starting a conversation about stage adoption, growth, and strategic objectives is something to the effect of:
 
-> "So I know right now you're using [[use cases](/handbook/use-cases/) in use, such as SCM, CI, etc.] - where can we go from here to maximize your success and value?"
+> "So I know right now you're using [[use cases](/handbook/marketing/use-cases/) in use, such as SCM, CI, etc.] - where can we go from here to maximize your success and value?"
 
 This question creates an opening to explore driving additional value for the customer, with the customer leading.  From here, we can explore with the customer use cases or features they're interested in knowing more about, business problems they could solve using GitLab, or anything else related to GitLab or DevSecOps. This one question also sets you up for more targeted follow-ups.
 

@@ -149,7 +149,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 - [Handbook Markdown Guide](/handbook/markdown-guide/)
 - [GitLab Flavored Markdown (GLFM)](https://docs.gitlab.com/ee/user/markdown.html)
-- [Handbook Style Guide](/handbook/style-guide/)
+- [Handbook Style Guide](/handbook/about/style-guide/)
 - [Markdown Tutorial](https://about.gitlab.com/blog/2018/08/17/gitlab-markdown-tutorial/)
 
 #### Docker

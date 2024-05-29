@@ -78,6 +78,7 @@ Announce deprecations, breaking changes, and removals at least 3 milestone befor
   - If no issues are detected, the change is considered stable and we can open the feature flag cleanup MR.
 
 By implementing the change before the major milestone we have less MRs to produce on the major version milestone. In addition, it allows more flexiblity. For example, if the rollout goes wrong. We have then two paths:
+
 - We can fix it before the end of the major version milestone and do the rollout again or
 - We can disable the feature flag and wait for the next major version milestone to re-do the rollout.
 
@@ -95,7 +96,21 @@ Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/)
 
 We measure the value we contribute by using [performance indicator metrics](/handbook/product/performance-indicators/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
 
-{{% cross-functional-dashboards filters="Package Registry" %}}
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="package registry" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="package registry" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="package registry" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="package registry" >}}
+{{< /tableau >}}
 
 ### What Are We Working On
 
@@ -108,8 +123,7 @@ Here is a list of active projects and initiatives that we are currently working 
 | [Improve the performance of package metadata generation](https://gitlab.com/groups/gitlab-org/-/epics/9835)                                 | [@dmeshcharakou](https://gitlab.com/dmeshcharakou)                                        |
 | [Eliminating duplicate npm packages](https://gitlab.com/groups/gitlab-org/-/epics/9812)                                                        | [@dmeshcharakou](https://gitlab.com/dmeshcharakou)                                        |
 | [Key improvements for the npm registry](https://gitlab.com/groups/gitlab-org/-/epics/7037)                                                     | [@radbatnag](https://gitlab.com/radbatnag)                                                |
-| [Key improvements for the NuGet registry](https://gitlab.com/groups/gitlab-org/-/epics/7039)                                                   | [@mkhalifa3 ](https://gitlab.com/mkhalifa3)                                               |
-
+| [Key improvements for the NuGet registry](https://gitlab.com/groups/gitlab-org/-/epics/7039)                                                   | [@mkhalifa3](https://gitlab.com/mkhalifa3)                                               |
 
 ## Documentation
 

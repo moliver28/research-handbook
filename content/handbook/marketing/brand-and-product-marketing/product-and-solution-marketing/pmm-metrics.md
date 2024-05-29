@@ -3,7 +3,7 @@
 title: "PMM Metrics"
 ---
 
-## Objective:  Manage and track the velocity of the PMM team.
+## Objective:  Manage and track the velocity of the PMM team
 
 At GitLab, we ship MVC and iterate quickly to deliver value.  The true measure of product marketing is in how effectively customers are able to understand how GitLab can help solve their problems.  We aspire to measure the value of our activities, but the first start is capturing and tracking our activities. (which hopefully are aligned to business value)
 
@@ -27,7 +27,7 @@ For MVC, we'll start with a handful of exclusive TOP level project labels in the
 | Web updates  |  Web content such as: handbook, product page, solution page, blogs, etc  |  pmm::Web  |
 
 
-### Reporting and Tracking.
+### Reporting and Tracking
 
 1. We have a quarterly milestone to track PMM quarterly work.
 1. We also can set up an Insights dashboard using [GitLab Insights](https://docs.gitlab.com/ee/user/project/insights/) which will give us visibility into work completed.  Such as:

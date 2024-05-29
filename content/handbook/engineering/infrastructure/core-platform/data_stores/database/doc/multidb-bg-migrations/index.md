@@ -69,6 +69,7 @@ We describe each of these points in more detail below.
 For an example, with the decomposition effort, we intend to have a main database and a CI database. If a developer needs to run a background migration against tables on the main database, they will use a Rails migration for the main database to enqueue it. If they need to run the migration against tables on the CI database, it is enqueued by a Rails migration under CI.
 
 This approach has several advantages:
+
   - The migration naturally follows the model of Rails migrations. We don't have to reach cross-database (which Rails doesn't support) while the Rails migration enqueues the jobs.
   - The execution framework can use `SharedModel` consistently both to access the tracking information and the database context for generic migration jobs which don't use a hardcoded connection to a particular database.
   - We keep tracking data local to the database where the business data for the migration resides.
@@ -92,6 +93,7 @@ This allows us to restrict the enqueuing migration to only run on the targeted l
 Again looking at a concrete example, if we have a main and CI database, we also have both a main and CI background worker.
 
 Advantages to this approach:
+
   - It provides a clean separation of concerns that is easier to reason about and maintain.
   - It takes full advantage of multiple physical databases by processing against each independently. It also provides operation flexibility to manage these independently.
   - The workers automatically know the context in which they run, without having to pass additional data to them.
@@ -103,6 +105,7 @@ This is the only "decision" which is really a hard requirement. Individual backg
 There are a couple ways this could work in practice depending on the scenario:
 
   - The job uses migration-specific models that inherit from the correct base class for the intended database(s).
+
     ```ruby
     class ExplicitMigrationJob
       class SecurityScan < Gitlab::Database[:main]
@@ -122,7 +125,9 @@ There are a couple ways this could work in practice depending on the scenario:
       end
     end
     ```
+
   - The job is designed to be generic and can use `SharedModel` (either as base class or to retreive a connection) which is already configured by the execution framework for the correct context.
+
     ```ruby
     class GenericMigrationJob
       def perform(source_table, target_table, start_id, end_id)

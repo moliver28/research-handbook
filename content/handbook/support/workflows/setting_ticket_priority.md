@@ -27,4 +27,4 @@ Note that the amount of time that passes between our last response and the next 
 
 ### Guidelines and Effects
 
-Changing the priority in a ticket will change the SLA, because different priorities have shorter or longer SLAs. Please refer to the [guidelines and SLA listed in our statement of support](/support/#standard-support).
+Changing the priority in a ticket will change the SLA, because different priorities have shorter or longer SLAs. Please refer to the [guidelines and SLA listed in our statement of support](https://about.gitlab.com/support/#standard-support).

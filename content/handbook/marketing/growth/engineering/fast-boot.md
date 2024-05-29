@@ -162,7 +162,7 @@ At this time the individual Growth teams split into their groups to create and w
 
 ## Fast Boot Outcomes
 
-### Implemented new team names, KPI’s and objectives.
+### Implemented new team names, KPI’s and objectives
 * [Rename Growth Groups](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29704)
 * [Updating growth KPIs on KPI index page](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/29726)
 
@@ -171,7 +171,7 @@ At this time the individual Growth teams split into their groups to create and w
 * [Product/Engineering workflow established](https://gitlab.com/gitlab-org/growth/discussion/issues/1)
 * [A/B Testing discussion progress](https://gitlab.com/gitlab-org/growth/engineering/issues/44)
 
-### Create and deliver issues:
+### Create and deliver issues
 Acquisition
 * [Test simplified user registration page](https://gitlab.com/gitlab-org/growth/engineering/issues/20) + [Design progress](https://gitlab.com/gitlab-org/growth/engineering/issues/20/designs)
 * [Update .com paid signup process](https://gitlab.com/gitlab-org/growth/product/issues/87)

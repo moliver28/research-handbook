@@ -9,9 +9,9 @@ title: "DEPRECATED-Demos"
 
 
 
-# About Demos
+## About Demos
 
-# THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE.
+## THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE
 
 ## The new version of this page is at https://about.gitlab.com/learn
 
@@ -25,7 +25,7 @@ These demos come in different formats:
 - [Sim demos](./sim-demos/) - good for disconnected situations (like conferences) and for interactive self demos
 - Live (instructions for how to set up and run demos live) - enables everyone (especially GitLab sales) to set up and run through the demo live on their own system resources. Allows for spontaneous deep diving - not always a good thing).
 
-# Videos
+## Videos
 
 ## Foster Collaboration with GitOps (GitLab 13.2) (July 2020)
 
@@ -171,7 +171,7 @@ These demos come in different formats:
  <iframe width="560" height="315" src="https://www.youtube.com/embed/gcWfUw_Cau4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </figure>
 
-# Click-throughs
+## Click-throughs
 
 Click-through demos can be run in multiple ways:
 - [Run them off-line](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/demo/off-line-click-throughs/) (for conferences, practice on the airplane, etc)
@@ -207,33 +207,33 @@ Click-through demos can be run in multiple ways:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRZaaHmlJcBQS56SSS1QKyvLJQayJ31ZXqlAJMzQOMckbHt0dSj0KBN2bzg6lwny-lqfvhfhOl7tK8H/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-[G-slides file](https://docs.google.com/presentation/d/1AVYo0HqTrwG59G2a55YzQhbXX2EKIsxQ-9P7-g_2bQc/edit?usp=sharing)  
+[G-slides file](https://docs.google.com/presentation/d/1AVYo0HqTrwG59G2a55YzQhbXX2EKIsxQ-9P7-g_2bQc/edit?usp=sharing)
 
 ## Secure Capabilities (March 2019 - 11.8)
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmtpY92Uun3YsixCJHZu7yt69M9rFB5SuFRSglOBRXoFNTKBdgPZpE4JBTl3LtAAX1zS4zQdBdD6Ga/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>  
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmtpY92Uun3YsixCJHZu7yt69M9rFB5SuFRSglOBRXoFNTKBdgPZpE4JBTl3LtAAX1zS4zQdBdD6Ga/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-[G-slides file](https://docs.google.com/presentation/d/1fdTmdepdaq03OSfcA3pYduDxDnQEyvY4ARPqXEX8KrY/edit#slide=id.g2823c3f9ca_0_9)  
+[G-slides file](https://docs.google.com/presentation/d/1fdTmdepdaq03OSfcA3pYduDxDnQEyvY4ARPqXEX8KrY/edit#slide=id.g2823c3f9ca_0_9)
 [Sales enablement recording (of shorter version)](https://youtu.be/hwJTiXt5T3w)
 
 ## Secure Capabilities (short, guided) (March 2019 - 11.8)
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQF2Neh1h0vFwMapLvhppr_bZZVaxbtnVvTP69xd6YNGreW5dZ43w4w5qQTmYNewmI-3pViilsvbIcX/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-[G-slides file](https://docs.google.com/presentation/d/1cfzdLFWk3hYLw_aocgunVmJCD-TSiOgypr66A_nR8VQ/edit?usp=sharing)  
-[Booth Demo Auto Play link](https://docs.google.com/presentation/d/e/2PACX-1vQF2Neh1h0vFwMapLvhppr_bZZVaxbtnVvTP69xd6YNGreW5dZ43w4w5qQTmYNewmI-3pViilsvbIcX/pub?start=true&loop=true&delayms=3000)  
+[G-slides file](https://docs.google.com/presentation/d/1cfzdLFWk3hYLw_aocgunVmJCD-TSiOgypr66A_nR8VQ/edit?usp=sharing)
+[Booth Demo Auto Play link](https://docs.google.com/presentation/d/e/2PACX-1vQF2Neh1h0vFwMapLvhppr_bZZVaxbtnVvTP69xd6YNGreW5dZ43w4w5qQTmYNewmI-3pViilsvbIcX/pub?start=true&loop=true&delayms=3000)
 [Sales enablement recording](https://youtu.be/hwJTiXt5T3w)
 
 ## Auto DevOps (Oct 2018 - 11.3)
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNeBj0TJWca1PVwccxUTXWDWYqaIyB6Q1fRYCfjtMzeK8DtpmAcG1o6ipFBi-lhYKVTAA9kYBWyKKu/embed?start=false&loop=false&delayms=600000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-[G-slides file](https://docs.google.com/presentation/d/1oKHU3MsbJmxVQyO-7c6JLMoCOS80uS-0NlcI-mRxAAY/edit?usp=sharing)  
+[G-slides file](https://docs.google.com/presentation/d/1oKHU3MsbJmxVQyO-7c6JLMoCOS80uS-0NlcI-mRxAAY/edit?usp=sharing)
 [Sales enablement recording (of shorter version)](https://youtu.be/V_6bR0Kjju8)
 
 ## Auto DevOps (short, guided) (July 2018 - 11.0)
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRQ4xltHhYRO_zgbo7exF6BwR09jvPmyFzR4XvjdlpYMRqT4dctx61XCkLjfR-8sq6QyOsoEFBBJjJh/embed?start=false&loop=false&delayms=600000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-[G-slides file](https://docs.google.com/presentation/d/1UkQI_9V-CJZcbZJBDTB7tyOg14XHCKIwNoUHW1K6tC8/edit?usp=sharing)  
-[Booth Demo Auto Play link](https://docs.google.com/presentation/d/e/2PACX-1vRQ4xltHhYRO_zgbo7exF6BwR09jvPmyFzR4XvjdlpYMRqT4dctx61XCkLjfR-8sq6QyOsoEFBBJjJh/pub?start=true&loop=true&delayms=3000)  
+[G-slides file](https://docs.google.com/presentation/d/1UkQI_9V-CJZcbZJBDTB7tyOg14XHCKIwNoUHW1K6tC8/edit?usp=sharing)
+[Booth Demo Auto Play link](https://docs.google.com/presentation/d/e/2PACX-1vRQ4xltHhYRO_zgbo7exF6BwR09jvPmyFzR4XvjdlpYMRqT4dctx61XCkLjfR-8sq6QyOsoEFBBJjJh/pub?start=true&loop=true&delayms=3000)
 [Sales enablement recording](https://youtu.be/V_6bR0Kjju8)
 
 ## Auto DevOps - Setup (GKE) (Oct 2018 - 11.3)
@@ -246,7 +246,7 @@ Click-through demos can be run in multiple ways:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRjhO2VvKf_gWbObwi5APm18gxQrzQk5vvAARD-4vLQeT0NbkrSuP3t4sTVylRYZOD6kINLr37HmtHA/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 [G-slides file](https://docs.google.com/presentation/d/1Ejnho9pqXPj-OHNU2q51cC0xCG5c8pVLmvg-maIA7BQ/edit?usp=sharing)
 
-# Live (instructions)
+## Live (instructions)
 
 ## [Planning to Monitoring (formerly i2p)](i2p/)
 
@@ -260,6 +260,6 @@ Provides a more in-depth look at GitLab CI/CD pipelines.
 
 Demonstrations which highlight integrations between GitLab and common tools such as Jira issues and Jenkins pipelines.
 
-# Conference Booth Setup
+## Conference Booth Setup
 
 We've started using iPad's to run click-through demos at conferences, and also we now have a main screen video to loop that shows our key slides and product clips. You can find details about both of these on the [conference booth setup page](conference-booth-setup/).

@@ -46,24 +46,24 @@ Please fill out one of these issue templates to request support. Please note, if
 
 
    1. ##### [Brand Review Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=brand-review-request)
-      Need a brand review? Please use this template to request a brand or design review of multiple or single assets. 
+      Need a brand review? Please use this template to request a brand or design review of multiple or single assets.
       - _For brand review only - do NOT use this template for requesting new assets or designs_.
       - _Do NOT use any of the below issues for brand review_.
 
 
    2. ##### [Content Design Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=content-design-request)
-      Please use this issue request template for net new creative or refreshes needed for the following asset types:  
+      Please use this issue request template for net new creative or refreshes needed for the following asset types:
          - eBook / Solution Briefs
          - Infographic / Diagrams
          - One-Pager / Two-Pager
          - Quarterly Update of Executive Candidate Info Packet
          - Surveys
          - Whitepaper
-         - Other but within the same category of assets 
+         - Other but within the same category of assets
 
 
    3. ##### [Event Asset Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request)
-      Please use this issue template when requesting net new or refreshing any of the following event-related assets: 
+      Please use this issue template when requesting net new or refreshing any of the following event-related assets:
          - Event Booth
          - Event Signage
          - Event Social Posts
@@ -74,7 +74,7 @@ Please fill out one of these issue templates to request support. Please note, if
       Please use this issue template for any illustration and iconography needs.
 
    5. ##### [Presentation Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=presentation-request)
-      Please use this issue request template for updating existing presentation decks or when requesting design for net new decks. 
+      Please use this issue request template for updating existing presentation decks or when requesting design for net new decks.
 
    6. ##### [Social Media Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=social-media-request)
       Please use this issue template for net new or refreshing organic and/or paid social requests.
@@ -87,14 +87,14 @@ Please fill out one of these issue templates to request support. Please note, if
       - _Do NOT use this template for brand reviews._
 
 
-##### **Not sure if you need a brand refresh?** Here's what has changed with our branding:
+##### **Not sure if you need a brand refresh?** Here's what has changed with our branding
 
    1. [Logomark](https://design.gitlab.com/brand-logo/logomark) and [Core Logo](https://design.gitlab.com/brand-logo/core-logo) the rules around how to use it properly
 
    2. [Font and typography guidelines](https://design.gitlab.com/brand-design/typography)
 
    3. [Colors and color usage](https://design.gitlab.com/brand-design/color)
-      
+
    4. [Marketing icons and illustration style](https://design.gitlab.com/brand-design/marketing-illustrations)
 
    5. Added [photography guidelines](https://design.gitlab.com/brand-design/photography) for our brand
@@ -103,12 +103,12 @@ Please fill out one of these issue templates to request support. Please note, if
 
 
 
-##### **Request Instructions and Tips:** 
+##### **Request Instructions and Tips:**
 
    - When submitting your request, please title the request “CREATIVE REQUEST: [Descriptive name]”
    - Please complete the issue form to the best of your ability. The more information our team can receive upfront, the quicker we can get started on your request.
    - **Please note, all requests need a minimum of a two-week turnaround.**
-   - **If the deadline for your request is under a two-week window,** please ping our Senior Creative Operations Manager via Slack and include a link to your request, the deadline date, and why this is a quick-turn ask.  
+   - **If the deadline for your request is under a two-week window,** please ping our Senior Creative Operations Manager via Slack and include a link to your request, the deadline date, and why this is a quick-turn ask.
    - When inputting your project deadline, **please be mindful of time zone differences**. For example, if you're operating a day ahead of our Brand Design Team (PT / GMT-8 time zone) and need deliverables completed by Tuesday, Feb 20, please select Monday, Feb 19 as your deadline to accommodate for the time difference.
    - If you have any questions, comments, or concerns regarding your creative request, please reach out to our Senior Creative Operations Manager.
 
@@ -118,10 +118,10 @@ Please fill out one of these issue templates to request support. Please note, if
       Please use this issue when requesting a net new video.
 
    2. ##### [Upload Video Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=upload-request)
-      Please us this issue template when requesting to have a video uploaded to Vimeo, YouTube, or another similar platform. 
+      Please us this issue template when requesting to have a video uploaded to Vimeo, YouTube, or another similar platform.
 
    3. ##### [Video Edit Request](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-video/-/issues/new?issuable_template=video-editing-request)
-      Please use this issue when requesting an update to an existing video or edits to video footage such as adding lower thirds, bumpers or slides to a zoom recording. 
+      Please use this issue when requesting an update to an existing video or edits to video footage such as adding lower thirds, bumpers or slides to a zoom recording.
 
 #### Contacting the team
 
@@ -200,7 +200,7 @@ Artwork that draws inspiration from or is based on GitLab’s intellectual prope
 **Don’ts:**
 
 - Do not create or share Fanart that uses the GitLab logo or wordmark.
-   - If your Fanart incorporates any other GitLab IP (e.g., screenshots, likenesses, or imagery taken directly from GitLab materials), reach out to #brand for review.  
+   - If your Fanart incorporates any other GitLab IP (e.g., screenshots, likenesses, or imagery taken directly from GitLab materials), reach out to #brand for review.
 - Do not imply that the Fanart is official GitLab content. For example:
    - Do not use Fanart in any GitLab materials, such as slide decks, printed collateral, or swag.
    - Don’t use or distribute Fanart to GitLab customers, or at events that you attend on GitLab’s behalf.
@@ -229,7 +229,7 @@ Canva enables team members to self-service their design needs and create on-bran
 
 ### GitLab Enterprise access
 
-If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
+If you regularly create designs in Canva, we ask that you work in the `GitLab Enterprise` Canva Pro account instead of using a free or personal account. To gain access, please submit an [access request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/) issue. Once this is completed, someone from the Brand Design team will grant you access.
 
 We have a limited number of seats available, so we encourage teams to consolidate the number of people on their team who need access. *Note: Shared logins are prohibited*.
 
@@ -291,7 +291,7 @@ Folders can contain Canva design files, sub-folders, and assets you upload from 
 
 **Graphics**
 
-- You can search and add graphics from the `Elements` tab, but please use with discretion. This tab is great for finding basic shapes, lines, and image frames; beyond that, use graphics from the GitLab [icon library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_resources/_designer-resources/assets/icon-library/marketing-icons) to keep your design on-brand.  
+- You can search and add graphics from the `Elements` tab, but please use with discretion. This tab is great for finding basic shapes, lines, and image frames; beyond that, use graphics from the GitLab [icon library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_resources/_designer-resources/assets/icon-library/marketing-icons) to keep your design on-brand.
 - All elements can be dragged and dropped into your design. Upload branded assets in the `Uploads` tab. The .png file format with a transparent background works best.
 - For most Canva elements, you can adjust the color of the graphic to make sure you’re using GitLab’s color palette. Refer to the [color guidelines](https://design.gitlab.com/brand-design/color) and use the accent colors sparingly.
 - You can also change the line weight of some Canva elements. To keep consistent with our [illustration guidelines](https://design.gitlab.com/brand-design/marketing-illustrations), a line weight of 1-2 works best.

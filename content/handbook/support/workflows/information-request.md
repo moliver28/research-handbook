@@ -33,13 +33,13 @@ Respond to the ticket with the [`Legal::Namespace and Trademark`](https://gitlab
 
 #### Ownership Disputes
 
-*Note: This workflow is specifically related to inquiries about disputes on ownership. You can also check other [ownership-related workflows](/handbook/support/workflows/account_verification.html) to ensure you are using the correct one.*
+*Note: This workflow is specifically related to inquiries about disputes on ownership. You can also check other [ownership-related workflows](/handbook/support/workflows/account_verification/) to ensure you are using the correct one.*
 
 Respond to the ticket with the [`Legal::Ownership disputes`](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360056759320) macro.
 
 #### Log Requests
 
-Please see [Log requests workflow](/handbook/support/workflows/log_requests.html)
+Please see [Log requests workflow](/handbook/support/workflows/log_requests/)
 
 ### Other Legal-related Questions
 
@@ -58,4 +58,4 @@ A request may come in that you believe needs legal input but does not fit into o
 
 Support should be handling responses to any inquiries for clarifications. In most cases, an existing customer will be referred to their account manager.
 
-If you're unsure on how to respond, post in the `#spt_managers` Slack channel for guidance.
+If you're unsure on how to respond, post in the `#support_leadership` Slack channel for guidance.

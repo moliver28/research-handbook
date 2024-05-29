@@ -1,7 +1,7 @@
 ---
 
 title: "Digital Production Setup: Greenscreen"
-description: A guide for setting up equipment for recording with a greenscreen. 
+description: A guide for setting up equipment for recording with a greenscreen.
 twitter_image: '/images/tweets/handbook-marketing.png'
 twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
@@ -54,7 +54,7 @@ Creating a nice look when recording with a green screen requires soft, even ligh
 
 - Gaffer Tape - [Example](https://www.bhphotovideo.com/c/product/812203-REG/General_Brand_001UPCG255MBLA_General_Brands_Pro_Gaffer_s.html).
 *This is specialized tape for securing cords against tripping (saftey first!). It has a light grip and will not leave marks when pulled up. It could also be used to temporarily secure the lav receiver to the tripod if a support such as the clamp is not used*
-- Elgato Game Capture HD60 S - [Example](https://www.amazon.com/Elgato-Standalone-Recording-Zero-Lag-Passthrough/dp/B07XB6VNLJ/ref=sr_1_1_sspa?dchild=1&keywords=hd60%2Bs%2B&qid=1605213537&s=electronics&sr=1-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTkFYRlBIWVExNkxJJmVuY3J5cHRlZElkPUEwMjUxNTc0MllDVUZSSDk4T0tWWSZlbmNyeXB0ZWRBZElkPUEwNDk5MDMwN1c1QkJYQ0FGWDhQJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1).  
+- Elgato Game Capture HD60 S - [Example](https://www.amazon.com/Elgato-Standalone-Recording-Zero-Lag-Passthrough/dp/B07XB6VNLJ/ref=sr_1_1_sspa?dchild=1&keywords=hd60%2Bs%2B&qid=1605213537&s=electronics&sr=1-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyTkFYRlBIWVExNkxJJmVuY3J5cHRlZElkPUEwMjUxNTc0MllDVUZSSDk4T0tWWSZlbmNyeXB0ZWRBZElkPUEwNDk5MDMwN1c1QkJYQ0FGWDhQJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1).
 *A capture card that allows you to connect your camera via HDMI to your computer for use as a webcam. Can be used for calls and/or self monitoring.*
 
 
@@ -91,7 +91,7 @@ Creating a nice look when recording with a green screen requires soft, even ligh
 - FRONT PANEL: Even light on your subject without casting a shadow behind onto the green screen (keeping the light raised high will help). Diffusion is highly recommended, or the light could be directed at the ceiling without diffusion.
 
 
---------
+---
 
 
 

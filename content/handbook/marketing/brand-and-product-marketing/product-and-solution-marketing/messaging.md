@@ -83,7 +83,7 @@ Sometimes, we will use headlines with the purpose of grabbing someone's attentio
 ### Messaging to avoid
 
 1. Don't use terms like “first” and “only”. They are extremely difficult to prove with evidence so they lack credibility. Additionally, our partners often have policies that explicitly forbid this type of messaging so whenever we do joint marketing (press release, event sponsorship, etc.) they ask us to change this wording.
-2. Don't use the term "integrated". Yes, GitLab is an integrated product, but Atlassian can claim the same thing even though their product suite is made up of many different apps in different code bases with even the prem and cloud versions for the same app being written in different programming languages. Instead use, "single application", "built from the ground up", or "built in" to describe GitLab's integrated nature.  
+2. Don't use the term "integrated". Yes, GitLab is an integrated product, but Atlassian can claim the same thing even though their product suite is made up of many different apps in different code bases with even the prem and cloud versions for the same app being written in different programming languages. Instead use, "single application", "built from the ground up", or "built in" to describe GitLab's integrated nature.
 
 
 ### Pricing tier messaging
@@ -92,4 +92,4 @@ Go to the [Pricing tier page](/handbook/marketing/brand-and-product-marketing/pr
 
 ### GitLab positioning FAQs
 
-Go to the [GitLab positioning FAQ page](/handbook/positioning-faq/).
+Go to the [GitLab positioning FAQ page](/handbook/marketing/positioning-faq/).

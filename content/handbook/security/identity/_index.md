@@ -41,7 +41,7 @@ We also want to ensure that all approvals are systematic in nature to allow auto
 
 We want to provide a streamlined user experience for admins, managers, and end users alike to reduce friction and provide self service wherever possible. We have had success with past projects and want to bring our experience and lessons learned to the next generation of Identity Management.
 
-> "I created an AWS account with [gitlabsandbox.cloud](https://handbook.gitlab.com/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) today. To be honest, I did not expect it to be fully automated. I got my AWS credentials in 5 minutes without bothering anyone. That's amazing!" - Dmitriy Zaporozhets (DZ), GitLab Co-Founder, 2020-12-14
+> "I created an AWS account with [gitlabsandbox.cloud](/handbook/infrastructure-standards/realms/sandbox/#individual-aws-account-or-gcp-project) today. To be honest, I did not expect it to be fully automated. I got my AWS credentials in 5 minutes without bothering anyone. That's amazing!" - Dmitriy Zaporozhets (DZ), GitLab Co-Founder, 2020-12-14
 
 We will be using SaaS vendors (Google Workspace, Okta, Okta IGA, Workday) where possible and providing last mile automation, auditing, and user experience with our custom [Identity Platform](/handbook/security/identity/platform).
 
@@ -55,7 +55,7 @@ In Identity v3, we will use programmatic provisioning so every action and metada
 
 Our next-gen architecture will allow us to automate just-in-time access for elevated and administrative actions that are burdensome to manage manually.
 
-For users that need perpetual administrative access, we have an additional admin account for each of the users in Customer Support, Infrastructure, IT, Security and other roles. See [access level wristbands](https://handbook.gitlab.com/handbook/it/policies/access-level-wristbands/) to learn more.
+For users that need perpetual administrative access, we have an additional admin account for each of the users in Customer Support, Infrastructure, IT, Security and other roles. See [access level wristbands](/handbook/it/policies/access-level-wristbands/) to learn more.
 
 We are also investing in additional administrative control plane separation. Details are not published in the public handbook for security reasons.
 
@@ -69,7 +69,7 @@ GitLab Identity v1 was managed using Tech Ops practices by the Infrastructure an
 
 ### GitLab Identity v2
 
-GitLab Identity v2 is what we do today and have been doing since 2018 with [baseline entitlements](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/baseline-entitlements/) and [access requests](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). See the [Access Management Policy](/handbook/security/access-management-policy/) to learn more.
+GitLab Identity v2 is what we do today and have been doing since 2018 with [baseline entitlements](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/) and [access requests](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). See the [Access Management Policy](/handbook/security/access-management-policy/) to learn more.
 
 The processes that we do today meets audit and compliance requirements, however the processes are mostly manual that results in internal inefficiency. It takes a lot of labor hours to manage onboarding, access requests, access reviews, and offboarding processes.
 
@@ -107,7 +107,7 @@ The [Identity Platform](/handbook/security/identity/platform) provides the API i
 
 The Identity Platform is a well architected library of scripts that use [CI/CD pipeline jobs](/handbook/security/identity/platform/#cicd-pipeline-jobs) to parse [YAML policy files](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/policies/-/tree/main/role/policies?ref_type=heads), generate [user manifests](https://gitlab.com/gitlab-com/gl-security/identity/data-poc/manifests/-/tree/main/accessctl/manifests/role?ref_type=heads), and use the [REST API](/handbook/security/identity/platform/#group-user-sync) for each respective vendor to check if the user belongs to the group, should be removed from the group, and sync the group members against our policy. See the full [data flow](/handbook/security/identity/platform#data-flow) for more details.
 
-We will be using [GitOps](https://handbook.gitlab.com/handbook/security/identity/gitops/) (a.k.a. Terraform and GitLab CI/CD pipelines) approach for assigning groups to [Okta applications with state management](https://handbook.gitlab.com/handbook/security/identity/gitops/okta/).
+We will be using [GitOps](/handbook/security/identity/gitops/) (a.k.a. Terraform and GitLab CI/CD pipelines) approach for assigning groups to [Okta applications with state management](/handbook/security/identity/gitops/okta/).
 
 #### Complex Systems
 
@@ -199,9 +199,9 @@ Learn more on the [Identity Boundaries](/handbook/security/identity/boundaries) 
 
 ### Data Sources
 
-We consider Workday to be the source of truth for [team members](https://handbook.gitlab.com/handbook/people-group/employment-solutions/#team-member-types-at-gitlab). All users and their attributes are synced with Okta every hour with built-in vendor integrations.
+We consider Workday to be the source of truth for [team members](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab). All users and their attributes are synced with Okta every hour with built-in vendor integrations.
 
-The [Temporary Service Provider](https://handbook.gitlab.com/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/) process is the SSOT for contractors and external users. The IT team manages automation that creates temporary service provider users in Okta with `-ext@gitlab.com` email addresses.
+The [Temporary Service Provider](/handbook/business-technology/end-user-services/onboarding-access-requests/temporary-service-providers/) process is the SSOT for contractors and external users. The IT team manages automation that creates temporary service provider users in Okta with `-ext@gitlab.com` email addresses.
 
 Workday has department, job title, and manager metadata, but does not have sufficient sub-department/team/role metadata that is needed for RBAC (that are being evaluated). Workday also does not have any of our temporary service provider contractors. In our current iteration, we consider Workday to be focused on People Group related use cases.
 

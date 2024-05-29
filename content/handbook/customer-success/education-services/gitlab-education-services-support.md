@@ -16,9 +16,9 @@ description: "This handbook will detail how to handle support inquiries for the 
 
 This handbook will detail how to handle support inquiries for the Education Services team and the applicable systems that are used.
 
-## Support Systems in Use:
+## Support Systems in Use
 
-------------------------
+---
 
 - [ZenDesk](https://gitlab.zendesk.com/agent)
 - [LevelUp Google Group](https://groups.google.com/a/gitlab.com/g/levelup) (Inbox for <levelup@gitlab.com>)
@@ -26,11 +26,11 @@ This handbook will detail how to handle support inquiries for the Education Serv
 - [Zapier](https://zapier.com/app/zaps/folder/840205)
 - [Credly](https://www.credly.com/organizations/gitlab/badges)
 
-If you do not have access to these systems, please complete an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/). To see who owns these systems or who is able to provision these accounts, see the [GitLab Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
+If you do not have access to these systems, please complete an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). To see who owns these systems or who is able to provision these accounts, see the [GitLab Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
 
 ### Using ZenDesk
 
---------------
+---
 
 The education services team has limited licenses for ZenDesk full agent- which gives users access to respond to customer tickets. To determine who has full agent access on this team, please see [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/education-services/-/wikis/Education-Services-Support-Delegates).
 
@@ -49,9 +49,9 @@ The education services team has limited licenses for ZenDesk full agent- which g
 
 ### Managing the LevelUp Inbox
 
----------------------------
+---
 
-All members of the GitLab Education Services team have access to the GitLab Level Up support inbox. If you are not able to access this group, please complete an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/). The team rotates responsibility for monitoring the inbox in weekly intervals, you can see who is currently assigned on the [GitLab Education Services Calendar](https://calendar.google.com/calendar/embed?src=c_2f86c1ceb88f08d428c3406c956335383e323ef8bbd19fde5379a8ab0f48b4b1%40group.calendar.google.com&ctz=America%2FDenver).
+All members of the GitLab Education Services team have access to the GitLab Level Up support inbox. If you are not able to access this group, please complete an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/). The team rotates responsibility for monitoring the inbox in weekly intervals, you can see who is currently assigned on the [GitLab Education Services Calendar](https://calendar.google.com/calendar/embed?src=c_2f86c1ceb88f08d428c3406c956335383e323ef8bbd19fde5379a8ab0f48b4b1%40group.calendar.google.com&ctz=America%2FDenver).
 
 1. If you are a part of the Level Up support google group, you will receive all emails to the <Levelup@gitlab.com> inbox.
 2. If it is your assigned week, respond to the support emails Monday through Friday during normal business hours.
@@ -62,9 +62,9 @@ All members of the GitLab Education Services team have access to the GitLab Leve
 
 ### Zapier
 
--------
+---
 
-In order to access Zapier, which is used for integrations and webhooks between systems (issuing badges, automated messaging), you need to have access to the Zapier 1Pass Vault. If you do not have access, please complete an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+In order to access Zapier, which is used for integrations and webhooks between systems (issuing badges, automated messaging), you need to have access to the Zapier 1Pass Vault. If you do not have access, please complete an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 All Zaps associated with the Education Services Team are found within the following folder in [Zapier](https://zapier.com/app/zaps/folder/840205).
 
@@ -72,9 +72,9 @@ Please see the following handbook page for [Zapier Training](/handbook/support/r
 
 ### Credly
 
--------
+---
 
-In order to access Credly, login to the site [here](https://www.credly.com/). If you do not have access, please complete an [Access Request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/).
+In order to access Credly, login to the site [here](https://www.credly.com/). If you do not have access, please complete an [Access Request](/handbook/business-technology/end-user-services/onboarding-access-requests/access-requests/).
 
 [GitLab Organization Profile](https://www.credly.com/organizations/gitlab)
 
