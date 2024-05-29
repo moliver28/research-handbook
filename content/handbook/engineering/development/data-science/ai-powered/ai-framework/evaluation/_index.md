@@ -10,32 +10,32 @@ This guide is designed to help Backend and Frontend developers at GitLab conduct
 
 ## Prerequisites
 
-1. Basic Tools and Setup:
+- Basic Tools and Setup:
   - Ensure you have a GitLab account and access to the relevant repositories.
   - Set up the GitLab Development Kit (GDK). Follow the [GDK setup guide](https://gitlab.com/gitlab-org/gitlab-development-kit).
-2. Python Installation:
+- Python Installation:
   - Make sure Python is installed on your machine. You can download and install it from the [official Python website](https://www.python.org/downloads/).
-3.	API Keys and Tokens:
+-	API Keys and Tokens:
   - Obtain the necessary API keys for LangSmith and OpenAI. You can get these from `@oregand`, `@m_gill` or `@tzallmann`. You can also reach out to the #g_ai_framework slack channel and ask. An account will be created for you under https://smith.langchain.com.
-  - Ensure you have a GitLab private token with the necessary permissions. You can generate one from your GitLab profile settings under “Access Tokens”.
+  - Ensure you have a GitLab private token with the necessary permissions. You can generate one from your GitLab profile settings under [“Access Tokens”](https://gitlab.com/-/user_settings/personal_access_tokens). Make sure it has `api` and `ai_features` checked.
 
 ## Step 1: Setting Up Your Environment
 
 ### Install Python and Necessary Libraries:
 
-Ensure Python is installed on your machine. If not, download and install it from the official Python website.
+Ensure Python 3 is installed on your machine. If not, download and install it from the official [Python website](https://www.python.org/downloads/).
 
 ### Install Required Python Libraries:
 
 Open your terminal and install the following libraries:
 
 ```bash
-pip install requests langsmith langchain
+pip install requests langsmith langchain langchain-openai
 ```
 
 ### Create the Evaluation Directory
 
-Navigate to your project directory and create a new folder called `evaluation_scripts``. Inside this folder, create subfolders for each feature you plan to evaluate, such as `chat` and `code_suggestions`:
+Navigate to your project directory and create a new folder called `evaluation_scripts`. Inside this folder, create subfolders for each feature you plan to evaluate, such as `chat` and `code_suggestions`:
 
 ```bash
 mkdir -p evaluation_scripts/chat evaluation_scripts/code_suggestions
@@ -44,31 +44,90 @@ cd evaluation_scripts
 
 ### Set Environment Variables
 
-In the `evaluation_scripts` directory  create a `.env`` file and add the following lines. This file stores your environment variables securely.
+In the `evaluation_scripts` directory  create a `.env` file and add the following lines. This file stores your environment variables securely. Leave the `OPENAI_API_KEY` blank.
 
 ```bash
+LANGCHAIN_TRACING_V2=true
 LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
 LANGCHAIN_API_KEY=your_langsmith_api_key
-OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_KEY=''
 GITLAB_PRIVATE_TOKEN=your_gitlab_private_token
 ```
 
-### Directory Structure
+## Step 2: Create and upload your dataset
 
-Your project directory should look like this:
+Creating a dataset tailored to your evaluation needs is a critical step in ensuring accurate and meaningful assessments of your AI models. Here’s how to create and upload a dataset for use with LangSmith.
 
-```bash
-project_root/
-├── evaluation_scripts/
-│   ├── chat/
-│   │   ├── .env
-│   │   └── evaluate.py
-│   ├── code_suggestions/
-│   │   ├── .env
-│   │   └── evaluate.py
+### Create Your Dataset
+
+- Define Your Data Requirements:
+  - Identify the types of inputs and expected outputs you need for evaluation. For a chat model, this might include various questions and their corresponding expected responses.
+- Prepare Your Data
+  -	Create a CSV or JSON file containing your data. Each entry should include the necessary fields such as input questions and expected answers.
+
+### Example CSV Structure
+
+```csv
+question,expected_answer
+"What's your name?","My name is GitLab Bot."
+"How can I reset my password?","You can reset your password by going to the login page and clicking on 'Forgot password?'."
+"What is the weather today?","I'm sorry, I can't provide weather updates."
+"Tell me a joke.","Why did the scarecrow win an award? Because he was outstanding in his field!"
+"Explain quantum physics.","Quantum physics is the branch of physics relating to the very small."
 ```
 
-## Step 2: Create a Basic Evaluation Script
+### Example JSON Structure
+
+```json
+[
+  {
+    "question": "What's your name?",
+    "expected_answer": "My name is GitLab Bot."
+  },
+  {
+    "question": "How can I reset my password?",
+    "expected_answer": "You can reset your password by going to the login page and clicking on 'Forgot password?'."
+  },
+  {
+    "question": "What is the weather today?",
+    "expected_answer": "I'm sorry, I can't provide weather updates."
+  },
+  {
+    "question": "Tell me a joke.",
+    "expected_answer": "Why did the scarecrow win an award? Because he was outstanding in his field!"
+  },
+  {
+    "question": "Explain quantum physics.",
+    "expected_answer": "Quantum physics is the branch of physics relating to the very small."
+  }
+]
+```
+
+### Upload Your Dataset to LangSmith
+
+Once your dataset is prepared, follow these steps to upload it to LangSmith:
+
+- Log In to LangSmith:
+  - Visit the LangSmith website at `https://smith.langchain.com` and log in with your credentials.
+- Navigate to the Datasets Section:
+  - In the LangSmith dashboard, locate and click on the “Datasets” section.
+- Upload the Dataset:
+  - Click on the “Upload Dataset” button.
+  - Choose your CSV or JSON file and upload it. Ensure you provide a meaningful name and description for your dataset.
+- Verify the Upload:
+  - After uploading, verify that the dataset appears in your list of datasets and that the entries are correctly formatted.
+
+Once your dataset is uploaded to LangSmith, you can reference it in your evaluation scripts.
+
+### How to decide how to create a dataset
+
+...TDOD
+
+### Current list of datasets
+
+...TODO
+
+## Step 3: Create a Basic Evaluation Script
 
 ### Write the Evaluation Script
 
@@ -103,6 +162,7 @@ def get_chat_answer(question):
 def main():
     chain_results = evaluate(
         lambda inputs: get_chat_answer(inputs["question"]),
+        # Replace "duo_chat_questions_0shot" with the name of your uploaded dataset
         data="duo_chat_questions_0shot",
         evaluators=["oshot_choice"],
         experiment_prefix="Run Small Duo Chat Questions on GDK",
@@ -113,7 +173,39 @@ if __name__ == "__main__":
     main()
 ```
 
-An example output might look like
+**note: make sure to replace "duo_chat_questions_0shot" with the name of your uploaded dataset**
+
+### Directory Structure
+
+Your project directory should look like this:
+
+```bash
+project_root/
+├── evaluation_scripts/
+│   ├── chat/
+│   │   ├── .env
+│   │   └── evaluate.py
+│   ├── code_suggestions/
+│   │   ├── .env
+│   │   └── evaluate.py
+```
+
+### Running the Script Locally
+
+Make sure your GDK is running. Open a new terminal window, navigate to your GDK directory, and start it:
+
+```bash
+cd path/to/your/gdk
+gdk start
+```
+
+Then, in your terminal where `evaluate.py` is located, run:
+
+```bash
+python evaluate.py
+```
+
+An example output would be:
 
 ```bash
 Running evaluation for: Run Small Duo Chat Questions on GDK
@@ -213,29 +305,14 @@ Tokens Used: 30
 Evaluation completed successfully.
 ```
 
-### Running the Script Locally
-
-Make sure your GDK is running. Open a new terminal window, navigate to your GDK directory, and start it:
-
-```bash
-cd path/to/your/gdk
-gdk start
-```
-
-Then, in your terminal where `evaluate.py` is located, run:
-
-```bash
-python evaluate.py
-```
-
 ### Making Changes to Prompts and Rerunning the Evaluation
 
 To evaluate changes to prompts in the GDK, you can follow these steps:
 
-1. Locate the Prompt File:
-- The prompts for the chat model are located in the GitLab repository. For example, the file might be at [base.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/llm/chain/agents/zero_shot/prompts/base.rb), etc.
-2.	Modify the Prompt:
-- Open the [base.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/llm/chain/agents/zero_shot/prompts/base.rb) file and make your changes to the prompt. For instance, you might modify the `base_prompt` method to improve the clarity and specificity of the system prompt, which can lead to better model performance. Improving the clarity of prompts in language models like those used in Chat can significantly enhance the performance and reliability of the model.
+- Locate the Prompt File:
+  - The prompts for the chat model are located in the GitLab repository. For example, the file might be at [base.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/llm/chain/agents/zero_shot/prompts/base.rb), etc.
+-	Modify the Prompt:
+  - Open the [base.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/llm/chain/agents/zero_shot/prompts/base.rb) file and make your changes to the prompt. For instance, you might modify the `base_prompt` method to improve the clarity and specificity of the system prompt, which can lead to better model performance. Improving the clarity of prompts in language models like those used in Chat can significantly enhance the performance and reliability of the model.
 
 #### Example of the original base_prompt method:
 
@@ -308,7 +385,7 @@ python evaluate.py
 3. Users receive more precise and helpful responses, enhancing their overall experience with the chat system.
 4. With clearer instructions, the model can process queries more efficiently, potentially reducing latency and token usage.
 
-## Step 3: Integrate with GitLab CI/CD
+## Step 4: Integrate with GitLab CI/CD
 
 Using a CI/CD pipeline for evaluations provides several key benefits compared to running evaluations solely on your local machine.
 
@@ -339,14 +416,14 @@ git push origin main
 
 Navigate to your GitLab project and monitor the CI/CD pipeline. Ensure the job evaluate_langsmith runs successfully.
 
-## Step 4: Analyzing the Results
+## Step 5: Analyzing the Results
 
-1.	Review Output:
+- Review Output:
   - Check the output of your evaluation job in the GitLab CI/CD pipeline. It should print the results of the evaluation, showing the performance and any issues identified.
-2.	Trace and Debug:
+- Trace and Debug:
   - If there are errors or unexpected results, use the tracing functionality provided by LangSmith. Refer to the LangSmith documentation for detailed guidance on tracing and debugging.
 
-## Step 5: Good Evaluation Heuristics
+## Step 6: Good Evaluation Heuristics
 
 - Choosing Evaluation Metrics:
   - Accuracy: Measure how often the model’s predictions are correct.
