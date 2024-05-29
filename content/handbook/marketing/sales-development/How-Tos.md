@@ -13,10 +13,10 @@ Inbound leads get automatically imported to SFDC by the Sales Operations team, y
 
 To find and access your leads, please:
 
- 1. Navigate to SFDC's homepage
- 2. Click on the `Leads` tab.
+1. Navigate to SFDC's homepage
+1. Click on the `Leads` tab.
 
- You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/roe-kpis-faq/).
+You will find the lead views below. These views are split per use-case for your convenience. The KPIs for managing these leads are thoroughly outlined in our [SLAs page](/handbook/marketing/sales-development/roe-kpis-faq/).
 
 ### SDR Lead Views
 
@@ -135,10 +135,10 @@ Our cold-calling best practices typically consist of 4 elements. A pattern inter
 
 To be effective, these need to be customized to the individuals we call as per the logic below:
 
-* Different Geographical Business Cultures
-* Personality Type as per the DISC model
-* Individual's Role and Responsibilities
-* Business’ Needs and Objectives
+- Different Geographical Business Cultures
+- Personality Type as per the DISC model
+- Individual's Role and Responsibilities
+- Business’ Needs and Objectives
 
 An unsubscribe link must be included on every email sent by a BDR, including responses to a prospect or contact. Please reach out to the Privacy Team via #privacy-team-help for the recommended language that should appear at the bottom of each outbound email.
 
@@ -170,13 +170,13 @@ Leads with certain criteria will be automatically labeled as **Do Not Call** and
 
 Ways to organize similar sequences and snippets
 
-* **Common Collections**
-    * [FY24 Global Inbound High Touch Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
-    * [FY24 Global Inbound Low Touch Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
-    * [FY24 Inbound Languages Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2270%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
-    * [Events Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2266%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
-    * [Good Outbound Collection](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2276%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
-    * [Testing Outbound Collection](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2275%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
+- **Common Collections**
+  - [FY24 Global Inbound High Touch Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
+  - [FY24 Global Inbound Low Touch Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
+  - [FY24 Inbound Languages Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2270%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
+  - [Events Collection](https://app1a.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2266%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
+  - [Good Outbound Collection](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2276%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
+  - [Testing Outbound Collection](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2275%22%5D%7D%5D&sortBy=recent&sortDirection=desc)
 
 ### Outreach Tags
 
@@ -184,21 +184,21 @@ A method of distinguishing sequences and snippets from others. Use tags to help 
 
 #### Common Tag Examples
 
-* **Primary-** a sequence created by SDR leadership that should be used by all reps to follow up with inbound leads
-* **High Touch/Low Touch-** Distinguish if the sequence is high or low touch
-* **Region-** Can be used to show which region the sequence
-* **GTM-** The message trying to be delivered. Ex. Security, CI/CD ect.
-* **Inbound/Outbound-** Whether the sequence is meant for inbound or outbound prospecting
-* **Language-** What language the sequence is written in
+- **Primary-** a sequence created by SDR leadership that should be used by all reps to follow up with inbound leads
+- **High Touch/Low Touch-** Distinguish if the sequence is high or low touch
+- **Region-** Can be used to show which region the sequence
+- **GTM-** The message trying to be delivered. Ex. Security, CI/CD ect.
+- **Inbound/Outbound-** Whether the sequence is meant for inbound or outbound prospecting
+- **Language-** What language the sequence is written in
 
 ### Outreach Snippets
 
 Content created for BDRS and SDRs to use to create hyper-personalized sequences, one-off emails, or to use for reaching out to prospects via LinkedIn.
 
-* **Common Snippet Examples**
+- **Common Snippet Examples**
 
-     * [Objection Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=objection)
-     * [Support Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=Support)
+  - [Objection Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=objection)
+  - [Support Snippets](https://app1a.outreach.io/snippets?direction=asc&order=owner&tags%5B%5D=Support)
 
 ### New Outreach Sequence/Workflow creation
 
@@ -219,9 +219,9 @@ By maintaing a Single Source of Truth (SSoT) we give the best possible forum for
 
 ### Follow Up Outreach Sequences
 
-* For SDRS and BDRS that want to sequence leads in their qualifying views we created [this video](https://www.youtube.com/watch?v=IKE24LRJbcc) to help you create a workflow around this follow up [sequence.](https://app1a.outreach.io/sequences/9383)
+- For SDRS and BDRS that want to sequence leads in their qualifying views we created [this video](https://www.youtube.com/watch?v=IKE24LRJbcc) to help you create a workflow around this follow up [sequence.](https://app1a.outreach.io/sequences/9383)
 
-* The same video also showcases the [Auto Follow Up](https://app1a.outreach.io/sequences/9543) to Book a Meeting Sequence SDRs and BDRs can use when a prospect responds to one of their sequences.
+- The same video also showcases the [Auto Follow Up](https://app1a.outreach.io/sequences/9543) to Book a Meeting Sequence SDRs and BDRs can use when a prospect responds to one of their sequences.
 
 ### White Glove Event Follow Up Sequence (SAEs Included)
 
@@ -229,15 +229,15 @@ For more personal events, such as Executive Roundtables, there many be more deta
 
  The goal of this sequence is to reach out to the prospect quickly and to include our SAEs/AEs in the conversation.
 
-* The first step is to put the prospect in the Sequence. From there customize the first email step to include the people mentioned in the Last Event Notes. You can also delay the time that the first email goes out so you have more time to get feedback from the SAE/AE if needed.
-* Next send a screenshot of the first email step to the SAE/AE’s that will be CC’d. Explain to them that this strategy creates space for them to engage with more specific messaging if the prospect is unresponsive. NOTE: There is a generic task on Day 12 to reach out to the SAE/SA if there has not been any engagement. The goal is to keep them in the loop and for you to work together to engage the prospect.
+- The first step is to put the prospect in the Sequence. From there customize the first email step to include the people mentioned in the Last Event Notes. You can also delay the time that the first email goes out so you have more time to get feedback from the SAE/AE if needed.
+- Next send a screenshot of the first email step to the SAE/AE’s that will be CC’d. Explain to them that this strategy creates space for them to engage with more specific messaging if the prospect is unresponsive. NOTE: There is a generic task on Day 12 to reach out to the SAE/SA if there has not been any engagement. The goal is to keep them in the loop and for you to work together to engage the prospect.
 
 ### Other Outreach Training Resources
 
-* [Intro Slide Deck](https://docs.google.com/presentation/d/1IpTVE4-Nkblfuiu6f1OUnFbi8IpjRPK7UDSx4eSfQCg/edit#slide=id.g5a343b482a_2_10) and [Training Video](https://gitlab.edcast.com/journey/weeks/cards/7257647)
-    * password should be in onboarding issue or ask your manager
-* GitLab Edcast: [Advanced Outreach Training](https://gitlab.edcast.com/journey/weeks)
-* Best Practices: [Our Outreach Handbook Page](/handbook/marketing/marketing-operations/outreach/)
+- [Intro Slide Deck](https://docs.google.com/presentation/d/1IpTVE4-Nkblfuiu6f1OUnFbi8IpjRPK7UDSx4eSfQCg/edit#slide=id.g5a343b482a_2_10) and [Training Video](https://gitlab.edcast.com/journey/weeks/cards/7257647)
+  - password should be in onboarding issue or ask your manager
+- GitLab Edcast: [Advanced Outreach Training](https://gitlab.edcast.com/journey/weeks)
+- Best Practices: [Our Outreach Handbook Page](/handbook/marketing/marketing-operations/outreach/)
 
 ## How to follow our FO Outbound Process
 
@@ -265,25 +265,25 @@ Utilizing these accounts, create an outreach strategy and plan for the upcoming 
 
 During your research phase for accounts to include in your sequences, thoroughly investigate and document pertinent information, which may include:
 
-* Identifying new strategic hires.
-* Discovering recent job openings in DevOps.
-* Monitoring for security breaches or threats.
-* Scanning for relevant news articles.
-* Gathering intelligence on competitors.
-* Examining future plans, such as digital transformation initiatives.
-* Noting recent company acquisitions.
-* Investigating LinkedIn connections.
-* Identifying instances of GitLab usage by employees or as a past customer.
-* Exploring 2nd and 3rd-degree connections.
-* Seeking mentions of DevOps.
-* Reviewing relevant 10K reports or financial disclosures.
+- Identifying new strategic hires.
+- Discovering recent job openings in DevOps.
+- Monitoring for security breaches or threats.
+- Scanning for relevant news articles.
+- Gathering intelligence on competitors.
+- Examining future plans, such as digital transformation initiatives.
+- Noting recent company acquisitions.
+- Investigating LinkedIn connections.
+- Identifying instances of GitLab usage by employees or as a past customer.
+- Exploring 2nd and 3rd-degree connections.
+- Seeking mentions of DevOps.
+- Reviewing relevant 10K reports or financial disclosures.
 
 This comprehensive research will provide valuable insights for crafting effective outreach strategies further down the funnel. Regarding account research, in addition to our B2B database toolstack, we also use 6Sense to pre-qualify the accounts that should be considered for our pipelines since 6Sense scores accounts based on their market and profile fit.
 
 There are two ways utilize 6Sense:
 
-* Through the SFDC iframe integrated dashboard (mandatory for FY24Q3)
-* Through the 6Sense Platform (optional for this Quarter)
+- Through the SFDC iframe integrated dashboard (mandatory for FY24Q3)
+- Through the 6Sense Platform (optional for this Quarter)
 
 ### 2A. Using 6Sense through the SFDC dashboard
 
@@ -376,9 +376,9 @@ After having manually shortlisted the accounts that are applicable to your campa
 
 To determine which prospects to enroll per account, please follow the steps below:
 
-* Identify the idea value drivers to be used for the account’s pain-points through your manual research, as outlined above.
-* Determine which personas would most benefit from the specific value drivers by using our CoM documentation on HighSpot.
-* Run queries for the specific titles on ZoomInfo, and export to CRM.
+- Identify the idea value drivers to be used for the account’s pain-points through your manual research, as outlined above.
+- Determine which personas would most benefit from the specific value drivers by using our CoM documentation on HighSpot.
+- Run queries for the specific titles on ZoomInfo, and export to CRM.
 
 You should explore the specific personas you intend to target, such as: VPs, Directors, Developers, Security, Architecture, DevOps, DevSecOps, Procurement Officers, and IT Buyers.
 
