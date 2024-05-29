@@ -19,6 +19,7 @@ Field Alerts are an as-needed Field communication channel used to capture the Fi
 Field Alerts are used exclusively for [Tier 1 Field Communications updates](/handbook/sales/field-communications/#tier-1-update). These updates often necessitate the [GTM Enablement Process](/handbook/sales/field-operations/field-enablement/#gtm-enablement-process), which also scopes out Field and Partner enablement needs, content requirements and more. Exceptions can be made at the Field Communication team's discretion for non-Tier 1 topics or announcements that involve a time-sensitive CTA and/or immediate impact on customers.
 
 Examples of initiatives that warrant a Field Alert include:
+
 - Customer communication
 - Major compete events
 - Time-sensitive, event-based communications
@@ -47,4 +48,3 @@ SUBJ: Field Alert: [Topic]
 **More information:** [Slack channel and/or DRIs]
 
 **What's next:** [If relevant, include information about what the Field should plan to see or do next]
-

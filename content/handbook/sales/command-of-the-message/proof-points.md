@@ -317,7 +317,6 @@ Articulating value is a critical sales skill in achieving [Command of the Messag
 **Usecase:** CI, CD, VC&C, DevSecOps, Simplify DevOps, Agile<br>
 **Vertical:** Technology<br>
 
-
 ---
 
 <big>[ANWB](https://about.gitlab.com/customers/anwb/)</big><br>
@@ -376,14 +375,12 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 **Value Drivers:** Efficiency, Speed, Risk<br>
 **Differentiators:** Rapid Dev, Single App
 
-
 #### 2019
 
 <big>[IDC Innovators: Tools Supporting Open (Unopinionated) Developer Platforms](https://www.idc.com/getdoc.jsp?containerId=US45074219)</big><br>
 *demonstrated either a groundbreaking business model or an innovative new technology or both*<br>
 **Value Drivers:** Efficiency, Speed, Risk<br>
 **Differentiators:** Rapid Dev
-
 
 ---
 
@@ -475,7 +472,6 @@ GitLab customers were interviewed and related data was collected independently b
 **Value Drivers:** Risk<br>
 **Usecase** DevSecOps
 
-
 #### 2019
 
 <big>[Forrester: Manage Your Toolchain Before it Manages You](https://about.gitlab.com/resources/whitepaper-forrester-manage-your-toolchain/)</big><br>
@@ -518,7 +514,7 @@ GitLab customers were interviewed and related data was collected independently b
 
 ---
 
-### Peer Reviews
+### 2017 Peer Reviews
 
 _[The original and internal-to-GitLab proof points Google Doc is online, here](https://docs.google.com/document/d/1Tuhg6LO0e6R-KP7Vfwb8cggHDiBzkC26pBl0lyLS7UY/edit) while some parts of this handbook page are being approved for publication.*
 
@@ -543,7 +539,6 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 "[Efficient, can trace back, easy to collaborate](https://www.g2.com/products/gitlab/reviews/gitlab-review-701837)" — Industry Analyst / Tech Writer, SMB from [G2 Crowd Leader]<br>
 **Value Drivers:** Efficiency<br>
 **Use Case:** VC&C
-
 
 ### GitLab Reports and Studies
 
@@ -573,8 +568,6 @@ About 35% report code is released twice as rapidly, while nearly 25% said it’s
 **Value Drivers:** Efficiency<br>
 **Usecase** Continuous Integration, Continuous Delivery**
 
-
-
 #### Older GitLab Reports and Studies (2019 and beyond)
 
 <big>[2019 Global Developer Report: DevSecOps](/developer-survey/previous/2019/)</big><br>
@@ -593,7 +586,7 @@ About 35% report code is released twice as rapidly, while nearly 25% said it’s
 
 ---
 
-### Peer Reviews
+### 2019 Peer Reviews
 
 _[The original and internal-to-GitLab proof points Google Doc is online, here](https://docs.google.com/document/d/1Tuhg6LO0e6R-KP7Vfwb8cggHDiBzkC26pBl0lyLS7UY/edit) while some parts of this handbook page are being approved for publication.*
 
@@ -652,5 +645,3 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 **Use Case:** SCM, CI, CD <br>
 **Differentiator:** SCM&CI, End-to-End Insight <br>
 **Vertical:** Technology <br>
-
-

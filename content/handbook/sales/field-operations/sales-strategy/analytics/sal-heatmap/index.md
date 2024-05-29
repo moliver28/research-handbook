@@ -48,5 +48,3 @@ Coverage is calculated per SAE as `Open Pipe Stage X+ / Remainder to Quota`.
 ### Refresh rates
 
 The dashboard is refreshed once a day between 8:00 and 9:00 AM PST time for Salesforce data. Achievement data is only refreshed after month's end.
-
-

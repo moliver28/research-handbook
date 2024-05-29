@@ -76,4 +76,3 @@ description: "Instructions on how to install, delete, and upgrade Dataloader at 
     - If none of the versions are at least 45
         - You may need to install Java, follow those steps in the “Installing from Scratch” section
 1. Follow the [Installing from Scratch](#installing-from-scratch) instructions
-
