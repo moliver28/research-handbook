@@ -96,11 +96,12 @@ I'm a leader within GitLab, and happy to share my knowledge, expertise and conne
 ### Strengths
 
 - **I'm a fast learner.** I'm always eager to expand my knowledge and skills, whether it's learning a new programming language, framework, or technology. I enjoy tackling challenges and finding creative solutions.
-- **I'm adaptable.** I'm comfortable working in a variety of environments and can quickly adjust to changing priorities or requirements. I'm able to pivot and find new ways to contribute when needed.
-- **I document everything.** Depending on the scope, a [handbook MR](https://gitlab.com/groups/gitlab-com/content-sites/-/merge_requests?scope=all&state=all&author_username=dnsmichi) or GitLab issue is not far away. You can help me with your bias for action, and also assign handbook MRs for review.
-- **I love connecting everyone.** I'm not shy to engage in important discussions to help company goals, or cross-functional work, often in [key Slack channels](https://handbook.gitlab.com/handbook/communication/chat/#key-slack-channels) or epics. I usually leave the conversation afterwards. If you need something from me later on, please explicitely tag me and ask.
-- **I'm a team player and prioritize helping other's achieve their results.** I take the time to unblock processes and results, or contribute ideas to iterate faster.
-- **I know a lot of things.** [My career](https://dnsmichi.at/about/) touches on many different technical topics and open-source collaboration. I'm here to share my knowledge and help you advance your goals and career.
+- **I'm adaptable.** I'm comfortable working in various environments and can quickly adjust to changing priorities or requirements. I'm able to pivot and find new ways to contribute when needed.
+- **I document everything.** Depending on the scope, a [handbook merge request](https://gitlab.com/groups/gitlab-com/content-sites/-/merge_requests?scope=all&state=all&author_username=dnsmichi) or GitLab issue is never far away. You can help me with your bias for action, and also assign handbook merge requests for review.
+- **I love connecting everyone.** I'm not shy to engage in important discussions to help achieve company goals or contribute to cross-functional work, often in [key Slack channels](https://handbook.gitlab.com/handbook/communication/chat/#key-slack-channels) or epics. I usually leave the conversation afterwards. If you need something from me later on, please explicitly tag me and ask.
+- **I'm a team player and prioritize helping others achieve their results.** I take the time to unblock processes and results or contribute ideas to iterate faster.
+- **I have a broad knowledge base.** [My career](https://dnsmichi.at/about/) has touched on many different technical topics and open-source collaboration. I'm here to share my knowledge and help you advance your goals and career.
+
 
 ### Weaknesses
 
