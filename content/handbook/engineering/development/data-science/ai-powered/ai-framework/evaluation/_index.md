@@ -15,7 +15,7 @@ This guide is designed to help Backend and Frontend developers at GitLab conduct
   - Set up the GitLab Development Kit (GDK). Follow the [GDK setup guide](https://gitlab.com/gitlab-org/gitlab-development-kit).
 - Python Installation:
   - Make sure Python is installed on your machine. You can download and install it from the [official Python website](https://www.python.org/downloads/).
--  API Keys and Tokens:
+- API Keys and Tokens:
   - Obtain the necessary API keys for LangSmith and OpenAI. You can get these from `@oregand`, `@m_gill` or `@tzallmann`. You can also reach out to the #g_ai_framework slack channel and ask. An account will be created for you under https://smith.langchain.com.
   - Ensure you have a GitLab private token with the necessary permissions. You can generate one from your GitLab profile settings under [“Access Tokens”](https://gitlab.com/-/user_settings/personal_access_tokens). Make sure it has `api` and `ai_features` checked.
 
@@ -30,7 +30,7 @@ Ensure Python 3 is installed on your machine. If not, download and install it fr
 Open your terminal and install the following libraries
 
 ```bash
-pip install requests langsmith langchain langchain-openai
+pip install requests langsmith langchain langchain-openai python-dotenv
 ```
 
 #### Create the Evaluation Directory
@@ -315,7 +315,7 @@ To evaluate changes to prompts in the GDK, you can follow these steps:
 - Modify the Prompt:
   - Open the [base.rb](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/lib/gitlab/llm/chain/agents/zero_shot/prompts/base.rb) file and make your changes to the prompt. For instance, you might modify the `base_prompt` method to improve the clarity and specificity of the system prompt, which can lead to better model performance. Improving the clarity of prompts in language models like those used in Chat can significantly enhance the performance and reliability of the model.
 
-###### Example of the original base_prompt method:
+###### Example of the original base_prompt method
 
 ```ruby
 module Gitlab
