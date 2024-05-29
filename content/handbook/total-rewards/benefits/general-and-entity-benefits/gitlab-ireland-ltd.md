@@ -28,7 +28,6 @@ Domestic Partnership is defined as follows:
 - Partners reside together as a non-married cohabiting couple and share the common necessities of life.
 - Partners are living together as a couple in the same household as each other’s sole Domestic Partner and intend to do so indefinitely.
 
-
 ### Enroll in the VHI Plan
 
 GitLab's VHI scheme will renew November 1. You can choose to enroll from this date or
