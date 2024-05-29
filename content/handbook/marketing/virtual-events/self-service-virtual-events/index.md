@@ -224,7 +224,7 @@ Make sure these settings are enabled in your personal zoom account settings as n
 12. Specify if you want the Host and/or Participant’s video `on` or `off`.
 13. Make sure audio is set to `BOTH` telephone and computer audio.
 14. For meeting options configurations:
-15. Check “Enable join before host` option if you want to allow participants to join before the host(s).
+15. Check `Enable join before host` option if you want to allow participants to join before the host(s).
 16. **(Recommended)** Check `Mute participants upon entry` to prevent disruption whenever someone joins mid-presentation.
 17. **(Recommended)** Check the `Enable waiting room` option if you’d like to choose some participants to join prior to others . This is useful to allow a final dry run between host and the other presenters right before the event. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/).
 18. Check `Only authenticated users can join` to restrict meeting only to participants that have logged in to zoom using their email address. Activating this is recommended by zoom to prevent [Zoom Bombing](https://blog.zoom.us/wordpress/2020/03/20/keep-uninvited-guests-out-of-your-zoom-event/) but may impact registration due to its restrictive nature (forcing registrants to sign up for zoom before completing registration).

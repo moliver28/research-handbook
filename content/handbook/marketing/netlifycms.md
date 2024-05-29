@@ -160,7 +160,7 @@ Solution child pages can be created and edited using Netlify CMS.
 
 The content is located at [`data/solution_children/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/solution_children) directory in the `www-gitlab-com` repository. Netlify CMS allows the user to edit these `yml` files.
 
-Please note that a parent solution page needs to be built with a data file at [`data/solution_slippers/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/solution_slippers)` for this feature to be available in Netlify CMS.
+Please note that a parent solution page needs to be built with a data file at [`data/solution_slippers/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/solution_slippers) for this feature to be available in Netlify CMS.
 
 ## Admin features
 
