@@ -266,12 +266,11 @@ Approvals for the Director+ level off-cycle promotion exceptions require E-Group
 
 Regardless of the promotion level, it is critical that leaders work with their People Business Partner, Total Rewards, and FP&A [as outlined]({{< ref "compensation-review-cycle#compensation-program-budget" >}}) to identify tradeoffs we can review to fund the promotion.
 
-### FY25 CTO Org Promo Guidance
+### FY25 Engineering Promotion Guidance
 
 **Required Documentation**
 
-In the CTO Organization, we will follow the company process for promotions and use the standard Promotion Document. We will require business justification to be filled out for every role, regardless of seniority. There is specific guidance that we’d like our managers to focus on when considering promotions in this fiscal year. Please see below.
-Please note, effective for the FY25 Q3 promotions, peer feedback is not required for promotion consideration. We may re-evaluate this component in the future.
+In the CTO Organization, we will follow the company process for promotions and use the standard Promotion Document. We will require business justification to be filled out for every role, regardless of seniority. There is specific guidance that we’d like our managers to focus on when considering promotions in this fiscal year. Please see below. Please note, effective for the FY25 Q3 promotions, peer feedback is not required for promotion consideration. We may re-evaluate this component in the future.
 
 #### CTO Timeline for FY25-Q3
 
@@ -302,6 +301,45 @@ As a leader, if your team member's promotion is approved, you will need to reset
     1. **Additional Detail:** All promotions increase cost and expectations of a given team and/or project. How will you and the person ensure the return on this increased investment of the company in this person/team/project. Elaborating on the commitment and changes that will occur with a positive outcome will benefit the decision makers to have confidence that this promotion will produced improved outcomes for all parties.
 
 4. Do I need this many "X" level (i.e. Senior Engineer)  team members in my current team state? Is there enough work at that level to be done?
+
+### FY25 Security Promotion Process
+
+Giving and receiving feedback is a critical part of building high performing teams. Feedback from stakeholders on key business results achieved is an important data point to consider when assessing team member promotion readiness. In an effort to continue to foster a feedback culture within the Security division and ensure we are calibrating collaboration effectivess through business results, starting in FY25 Q3 we will be embedding a formal feedback touchpoint into our promotion process for the division. **Please note that the feedback does not determine whether the team member is ready for promotion in isolation, but is rather a data point to consider throughout the promotion planning and calibration process.**
+
+Promotion candidates should follow these steps to request feedback as part of our bi-annual promotion process:
+
+1. Team members aligns with manager on promotion readiness and candidacy
+    - Ahead of requesting feedback, team members should have a conversation on promotion readiness with their manager. If there is alignment on readiness for the upcoming promotion cycle between both manager and team member, the team member qualifies as a "promotion candidate".
+    - **Due date: 2024-05-31**
+2. Team member completes their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document)
+    - The promotion document completion should be team member driven with manager support, review, and feedback. Ahead of requesting feedback, the promotion document should be complete, as it will serve as the baseline to provide feedback. Team members should ensure their manager has reviewed their promotion document and is aligned with the content ahead of requesting feedback.
+    - **Due date: 2024-06-06**
+3. Team member makes a copy of feedback form template
+    - This [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScTNNO3eskfTL49L8MS8I8H_Q0wB4vHPcJ8Q1jhIlFMTZ-pkw/viewform?usp=sf_link) provides a template for promotion feedback collection across the Security division to ensure consistency in the format and questions to facilitate more consistent and equitable [calibration process](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#calibration). This process focuses specifically on feedback related to the business results section of the promotion document to ensure feedback is consistently tied back to key deliverables that demonstrate next level performance.
+    - *Each promotion candidate should make a copy of this form to use to collect feedback from their respective feedback providers.*
+    - **Due date: 2024-06-07**
+4. Team member identifies stakeholders for feedback request
+    - Requirements for feedback providers are: a) feedback provider should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher), and b) feedback provider should have direct experience working with the team member on one or more of the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document).
+    - Team members should select 3-4 team members to provide feedback and review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment.
+    - Team members can leverage this as a structure to include in the feedback request if helpful: *Hi [team member name], I am currently under consideration for a promotion to [next level job title]. I would really appreciate your feedback on our work together, specifically on results and our collaboration related to [name business result]. Please complete this feedback form by [insert due date]. You can read more about the feedback process [link this handbook section].*
+    - For promotion candidates requesting feedback and for team members providing feedback, we recommend that you review our [Guidance on Feedback](https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/) ahead of the process kicking off. The [S-B-I model](https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/#s-b-i-model) can be a helpful framework in ensuring feedback is structured in a clear and digestible way.
+    **Feedback will be ongoing from 2024-06-10 through 2024-06-21. All feedback needs to be obtained by 2024-06-21.**
+5. Team member and manager analyze feedback
+    - Team member shares the feedback obtained with their manager and they discuss and analyze themes and trends
+    - Team member and manager compile themes to share with CISO direct (if applicable)
+    - **Due date: 2024-06-28**
+6. CISO direct adds to calibration agenda
+    - CISO direct is responsible for adding promotion feedback to the CISO directs promotion calibration agenda to ensure visibility ahead of the calibration session.
+    - **Due date: 2024-07-05**
+7. Calibration session occurs
+    - Calibration is scheduled for 2024-07-08 where CISO directs calibrate promotion candidates across the division.
+8. Managers communication promotion status
+    - Promotions are effective 2024-08-01 aligned with a communication window of 2024-07-24 to 2024-08-01 aligned with the [company-wide timeline](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#fy25-q3-2nd-half)
+    - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 
 ## Hiring for VP+ Roles
 
