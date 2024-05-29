@@ -143,7 +143,7 @@ If you're not completely sure about the specifics of the script or commands, tes
 
 ## CI Catalog Badge requests
 
-[CI Catalog Badge requests](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=CI%20Catalog%20Badge%20Request) are be actioned by a Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com. They require a GitLab.com administrator account to execute the [verifiedNamespaceCreate](https://docs.gitlab.com/ee/api/graphql/reference/#mutationverifiednamespacecreate) GraphQL mutation.
+[CI Catalog Badge requests](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=CI%20Catalog%20Badge%20Request) are to be actioned by a Support Stable Counterpart for Pipeline Authoring. These requests are used to give certain organizations a "Partner badge" in the CI catalog on GitLab.com. They require a GitLab.com administrator account to execute the [verifiedNamespaceCreate](https://docs.gitlab.com/ee/api/graphql/reference/#mutationverifiednamespacecreate) GraphQL mutation.
 
 1. Open [GraphiQL](https://gitlab.com/-/graphql-explorer) with your GitLab.com administrator account
 1. In the following query, replace `root-level-group` with the namespace provided in the internal request:
