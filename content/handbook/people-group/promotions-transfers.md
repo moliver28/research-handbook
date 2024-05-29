@@ -352,11 +352,11 @@ Promotion candidates should follow these steps to request feedback as part of ou
     - **Due date: 2024-06-07**
 4. Team member identifies stakeholders for feedback request
     - Team members should select 3-4 team members to provide feedback and review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment.
-    - Requirements for feedback providers are: 
-        - Feedback provider should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher) 
+    - Requirements for feedback providers are:
+        - Feedback provider should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher)
         - Feedback provider should have direct experience working with the team member on one or more of the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document).
         - Feedback provider is not in the same reporting line as the manager (I.E. not team member's manager, skip level, etc.)
-        - Feedback providers can be cross-functional or within the division, with a mix of both being the preference and recommendation. The core focus when thinking through who the most appropriate team members to provide feedback are is to reflect on who worked most closely with the promotion candidate on the business results highlighted in the promotion document. 
+        - Feedback providers can be cross-functional or within the division, with a mix of both being the preference and recommendation. The core focus when thinking through who the most appropriate team members to provide feedback are is to reflect on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
 5. Team member sends out feedback form copy to feedback providers
     - This references the form promotion candidates made a copy of in Step 3.
     - Team members can leverage this as a structure to include in the feedback request if helpful: *Hi [team member name], I am currently under consideration for a promotion to [next level job title]. I would really appreciate your feedback on our work together, specifically on results and our collaboration related to [name business result]. Please complete this feedback form by [insert due date]. You can read more about the feedback process [link this handbook section].*
@@ -364,13 +364,15 @@ Promotion candidates should follow these steps to request feedback as part of ou
     **Feedback will be ongoing from 2024-06-10 through 2024-06-21. All feedback needs to be obtained by 2024-06-21.**
 6. Team member and manager analyze feedback
     - Team member shares the feedback obtained with their manager and they discuss and analyze themes and trends
-    - Team member and manager compile themes to share with CISO direct (if applicable)
+    - Team member and manager compile themes to share with CISO direct. It is recommended to leverage [this template](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit) for theme compilation and analysis to ensure consistency. Analysis should focus on key themes and feedback provided in the Google Form.
+    - CISO direct has the opportunity to review, provide feedback, and ask any clarifying questions to ensure they are able to represent the feedback in the CISO directs [calibration session](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#calibration).
     - **Due date: 2024-06-28**
-7. CISO direct adds to calibration agenda
-    - CISO direct is responsible for adding promotion feedback to the CISO directs promotion calibration agenda to ensure visibility ahead of the calibration session.
+7. CISO direct adds feedback summary to calibration agenda
+    - CISO direct is responsible for adding promotion themes reviewed in Step 6 to the CISO directs promotion calibration agenda to ensure visibility ahead of the calibration session.
     - **Due date: 2024-07-05**
 8. Calibration session occurs
     - Calibration is scheduled for 2024-07-08 where CISO directs calibrate promotion candidates across the division.
+    - CISO direct is responsible for following up with the promotion candidate's manager to provide feedback and key takeaways from the calibration session.
 9. Managers communicate promotion status
     - Promotions are effective 2024-08-01 and the communication window is 2024-07-24 to 2024-08-01 aligned with the [company-wide timeline](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#fy25-q3-2nd-half)
     - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
