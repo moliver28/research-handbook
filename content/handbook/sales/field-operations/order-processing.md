@@ -663,7 +663,7 @@ IF:
 
 1. Order Type 2.0 = `1. New - First Order`
 2. Net ARR >=`$20,000`
-3. Stamped Sales Segment = `Mid-Market``
+3. Stamped Sales Segment = `Mid-Market`
 
 THEN:
 
