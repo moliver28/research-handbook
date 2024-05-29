@@ -110,10 +110,10 @@ Humans tend to [favor solutions that add features than solutions that remove the
 
 Our customers choose SaaS because it reduces their operating costs, helps them adopt the latest capabilities without performing upgrades, and provides them peace of mind of high availability. This principle implies the following:
 
-- Design features so that they can be released without downtime. 
+- Design features so that they can be released without downtime.
 - Release features in SaaS before self-managed or alongside it.
 
-This principle does not mean SaaS only. For more information on parity between SaaS and self-managed, see our [parity principle](#design-for-self-managed-for-maximum-parity-between-deployments).
+This principle does not mean SaaS only. For more information on parity between SaaS and self-managed, see our [parity principle](#design-for-self-managed-for-feature-parity-between-deployments).
 
 #### Feedback issues
 
