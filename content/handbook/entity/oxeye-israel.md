@@ -1,14 +1,14 @@
 ---
-title: Oxeye Security Ltd (Israel) information & benefits
-description: Oxeye Security Ltd (Israel) benefits and information specific to Israel-based team members
+title: GitLab Israel Ltd. information & benefits
+description: GitLab Israel Ltd. benefits and information specific to Israel-based team members
 controlled_document: true
 ---
 
-This Handbook page is for team members employed by Oxeye Security Ltd (Israel) and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
+This Handbook page is for team members employed by GitLab Israel Ltd. and includes (we hope!), all the information you might want or need. If there's anything we don't have here, that you think should be included, please feel free to make a suggestion.
 
 ### Scope
 
-These standards apply to all GitLab team members hired through Oxeye Ltd.
+These standards apply to all GitLab team members hired through GitLab Israel Ltd..
 
 ### Roles & Responsibilities:
 
@@ -39,7 +39,7 @@ Trust-based working time generally refers to a GitLab's way of working, a flexib
 
 ### Timekeeping Record
 
-Each team member employeed by Oxeye Ltd will be required to report their actual working hours using the methods prescribed (the details of which will be shared in due course, please hold tight!). These records will be kept by Payroll and can be audited at any time.
+Each team member employeed by GitLab Israel Ltd. will be required to report their actual working hours using the methods prescribed (the details of which will be shared in due course, please hold tight!). These records will be kept by Payroll and can be audited at any time.
 
 ### Daily Work Time
 
@@ -59,7 +59,7 @@ Payroll information will be linked in due course - please hold tight!
 
 ## Israel-Specific Team Member Benefits
 
-Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continously review our benefits design and offerings available through Oxeye/GitLab in Israel.
+Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continously review our benefits design and offerings available through GitLab in Israel.
 
 ### Pension
 
