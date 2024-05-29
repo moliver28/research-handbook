@@ -159,5 +159,5 @@ If you're not completely sure about the specifics of the script or commands, tes
    ```
 
 1. Execute the query via GraphiQL
-   - In case of an error, reach out to Pipeline Authoring for assistance
+   - In case of an error, reach out in [#g_pipeline-authoring](https://gitlab.enterprise.slack.com/archives/C019R5JD44E) for assistance
 1. When closing the internal request as actioned on, ping the requester to let them know the badge was applied
