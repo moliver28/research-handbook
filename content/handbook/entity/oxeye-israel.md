@@ -10,7 +10,7 @@ This Handbook page is for team members employed by GitLab Israel Ltd. and includ
 
 These standards apply to all GitLab team members hired through GitLab Israel Ltd..
 
-### Roles & Responsibilities:
+### Roles & Responsibilities
 
 | Role  | Responsibility |
 |-----------|-----------|
@@ -112,6 +112,7 @@ Team members in Israel may make use of [GitLab's Flexible PTO Policy](https://ha
 The accrual and use period for statutory vacation days is the calendar year, from 1 January 1 to 31 December, and any unused statutory vacation leave will be foreited if not used within the balance period.
 
 Team members with a full-time, 5-day working week are entitled to the following number of vacation days:
+
 - 16 days during their first five years of service
 - 18 days from the sixth year
 - 21 days from their seventh year, and
@@ -183,4 +184,3 @@ Team members should enter the time away into Time off by Deel by selecting the l
 In Israel, team members serving on reserve duty must still be paid by their employer. Military service is mandatory in Israel.
 
 Team members should enter the time away into Time Off by Deel by selecting the label `Mandatory Civilian Service`.
-
