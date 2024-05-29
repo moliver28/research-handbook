@@ -90,7 +90,7 @@ Prior to the start of the quarter, a call for nominations will go out. You may n
 
 ## Engineering Quarterly Achievers Past Winners
 
-These are the past award winners. The quarter indicated is the quarter the award was announced. The award itself covers work completed the _previous_ quarter.
+These are the past award winners. The quarter indicated is the quarter the award was announced. The award itself covers work completed the *previous* quarter.
 
 ### FY24-Q4
 
