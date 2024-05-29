@@ -321,7 +321,7 @@ These will be completed by Marketing Ops when setting up the landing page.
 - Complete the same steps for the `Thank You Page`
   - Use the format `webcast-topic-thank-you` (or `webcast-topic-region-thank-you` if region is relevant) - ex. `webcast-mastering-cicd-thank-you` or `webcast-mastering-cicd-italian-thank-you`
 
-##### Adjusting number of speakers in Marketo landing page
+#### Adjusting number of speakers in Marketo landing page
 
 **DRI: Marketing Ops**
 *This section only applies to webcasts and not workshops.*
@@ -689,7 +689,7 @@ Please note, GitLab-owned workshops have $0 cost to the team in regards to platf
 
 ## Virtual Workshop Set-Up
 
-`NOTE: Please make sure your Webcast or Workshop date is confirmed before starting the below process. Moving a Webcast or Workshop date is extremely time-intensive once setup is complete.`
+NOTE: Please make sure your Webcast or Workshop date is confirmed before starting the below process. Moving a Webcast or Workshop date is extremely time-intensive once setup is complete.
 
 ### Virtual Workshop Logistical Set-Up
 

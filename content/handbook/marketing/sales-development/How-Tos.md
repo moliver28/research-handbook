@@ -62,21 +62,19 @@ To find and access your leads, please:
 
 As part of your SDR responsibilities, you are expected to perform due diligence on each lead you receive. This includes checking the database for duplicate records, as well as referencing against our [RoE](/handbook/marketing/sales-development/roe-kpis-faq/).
 
-| Step | Action                                                                                                                                  |
-|------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| 1    | Open the lead you want to investigate and press the `Find Duplicates` on the top of the lead's record.                                                                    |
-| 2    | Check through all the records that show up, from leads to Acccounts. Make sure to search for `Domain` and `Last Name` if the data you have seems incomplete.                                                    |
-| 3    | Check the `Matched Account Info` section on the lead record.                                                                                       |
-| 3a    | - For SMB leads, if there's a matched account where the type is `Customer`, please press the `Convert` button at the top of the lead page and match this lead to the existing account.                                       |
-|  3b    | - If there's not a customer record but you find an existing open opportunity, update the `Lead Status` to `Recycle` and `Recycle Reasons` to `Evaluating.`                |
-|  3c    | - For Universities/Education leads (non-US Pub Sec), work as regular lead if technical contact.                                         |
-| 3d    | - If there's a matched account, check if the field `BDR Prospecting Status` is `Actively Working` and, if so, reroute the lead to the team mentioned on the `BDR Assigned` field.                                                               |
-|  3e    | - If the existing account is not marked as `Actively Working`, check for duplicate leads or contacts and merge if necessary while keeping the oldest `Initial Source`.                            |
-| 3f | - If the `Company Address` fields on the lead record do not match your research online of the company, please update the `Admin Company Override fields` that are found in the `Lead/Contact Review Admin` section. As a further fail-safe step, you'll be asked to verify that this due diligence is done prior to converting this person to a new account. |
-| 4    | If there's no matched account, but there's another lead at same company that has the `MQL` status, assign both leads to the owner with the earliest `MQL Date`.                                                 |
-|  4a    | - If there's no matched account, but there's another lead that has the `Accepted` or `Qualifying` status, assign the new MQL to the owner of the accepted/qualifying leads.                                |
-| 5    | BDRs receiving leads not associated with `Actively Working` accounts must assign back to SDR team or chatter mktgops support. |
-| 6   | Qualified leads associated with “Actively Working” accounts are routed to BDR assigned to the Actively Working Account.                |
+1. Open the lead you want to investigate and press the `Find Duplicates` on the top of the lead's record.
+1. Check through all the records that show up, from leads to Acccounts. Make sure to search for `Domain` and `Last Name` if the data you have seems incomplete.
+1. Check the `Matched Account Info` section on the lead record.
+   1. For SMB leads, if there's a matched account where the type is `Customer`, please press the `Convert` button at the top of the lead page and match this lead to the existing account.
+   1. If there's not a customer record but you find an existing open opportunity, update the `Lead Status` to `Recycle` and `Recycle Reasons` to `Evaluating.`
+   1. For Universities/Education leads (non-US Pub Sec), work as regular lead if technical contact.
+   1. If there's a matched account, check if the field `BDR Prospecting Status` is `Actively Working` and, if so, reroute the lead to the team mentioned on the `BDR Assigned` field.
+   1. If the existing account is not marked as `Actively Working`, check for duplicate leads or contacts and merge if necessary while keeping the oldest `Initial Source`.
+   1. If the `Company Address` fields on the lead record do not match your research online of the company, please update the `Admin Company Override fields` that are found in the `Lead/Contact Review Admin` section. As a further fail-safe step, you'll be asked to verify that this due diligence is done prior to converting this person to a new account.
+1. If there's no matched account, but there's another lead at same company that has the `MQL` status, assign both leads to the owner with the earliest `MQL Date`.
+   1. If there's no matched account, but there's another lead that has the `Accepted` or `Qualifying` status, assign the new MQL to the owner of the accepted/qualifying leads.
+1. BDRs receiving leads not associated with `Actively Working` accounts must assign back to SDR team or chatter mktgops support.
+1. Qualified leads associated with “Actively Working” accounts are routed to BDR assigned to the Actively Working Account.
 
 ### Company Address Based Routing Information
 
@@ -124,12 +122,10 @@ Lastly, Every so often you may be assigned a lead that has no value to GitLab an
 
 **1. Determining High-touch or Low-touch sequence usage:**
 
-| Step | Notes |
-|------|--------------|
-| 1    | Determine if the lead qualifies for a high touch or low touch sequence. |
-| 1a | - High touch sequences are for higher-quality leads and require more personalization and touch points, including phone calls and LinkedIn Connect requests. This should be the majority of your pipeline. |
-| 1b | - Low touch sequences are typically automated and run for a shorter period of time. You can use Low-touch for leads where a phone number cannot be found online or in our databases, or where their contact information is incomplete and cannot be enriched by our tools, or through manual research. Low touch should only be reserved as the last resort. |
-| 2    | Research the appropriate outreach collections for relevant collateral to be used. Most typically our [High-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc) or [Low-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc) collections. |
+1. Determine if the lead qualifies for a high touch or low touch sequence.
+   - High touch sequences are for higher-quality leads and require more personalization and touch points, including phone calls and LinkedIn Connect requests. This should be the majority of your pipeline.
+   - Low touch sequences are typically automated and run for a shorter period of time. You can use Low-touch for leads where a phone number cannot be found online or in our databases, or where their contact information is incomplete and cannot be enriched by our tools, or through manual research. Low touch should only be reserved as the last resort.
+1. Research the appropriate outreach collections for relevant collateral to be used. Most typically our [High-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2269%22%5D%7D%5D&sortBy=recent&sortDirection=desc) or [Low-Touch](https://web.outreach.io/sequences?queryFilters=%5B%7B%22attribute%22%3A%22collection%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%2271%22%5D%7D%5D&sortBy=recent&sortDirection=desc) collections.
 
 ### Cold-Calling and Email Checkbox
 
@@ -154,23 +150,21 @@ Leads with certain criteria will be automatically labeled as **Do Not Call** and
 
 [Outreach.io](https://www.outreach.io/) is a tool used to automate emails in the form of sequences. Users can track open rates, click-through rates, response rates for various templates, and update sequences based on these metrics. Outreach.io also helps to track sales activities such as calls. All emails/calls/tasks that are made through Outreach.io are automatically logged in Salesforce with a corresponding disposition. See below for a list of current call dispositions, what they mean, and scenarios on when to use each of them.
 
-| Step | Action |
-|------|--------|
-| 1 | Go to your SDR views on SFDC and select the lead you want to sequence. |
-| 2 | Press `Import to Outreach`. |
-| 3 | Work from the Outreach extension on Chrome to then select the sequence you want to enroll the lead in. |
-| 4 | If manual steps are required for the sequence that you chose, select `Edit Steps`. Go through each step you want to edit, paying especial attention to manual variables. |
-| 5 | Once the first step of an Outreach sequence is complete, the lead status will automatically change from `MQL, Inquiry, or Raw` to `Accepted` status, marking that you are actively working on this lead. |
-| 6 | When a lead responds to you via email, their status will again automatically change from `Accepted` to `Qualifying`. Manage these leads from your S3 and B5 lead views. |
-| 7 | If you are not working on qualifying this lead further, manually change the status to `Recycle` so that this lead is back in Marketing recycle and isn’t stuck in your `My Qualifying` view. If you have spoken to the lead by phone and are qualifying them, manually change the status from `Accepted` to `Qualifying`. |
-| 8 | When looking at your qualifying view, sequence leads that have no recent last activity + no active tasks + are not actively being sequenced into one of our follow up sequences that have the `Follow up Ruleset Sequences`. |
-| 9.   | Tasks and your pipeline can be then managed via the Outreach [360 view.](https://support.outreach.io/hc/en-us/articles/214806328-Navigating-the-360-View-Dashboard) |
-| 10.   | In the 360 View, review the list of inbound leads assigned to you by navigating to the bottom left of the screen and pressing Start tasks.                                             |
-| 19 | If a lead finishes an Outreach sequence without responding, the lead status will automatically change to `Unresponsive` or `Recycle` in seven days if there is still no response. |
-| 20 | If a lead responds, schedule a call/meeting using Outreach’s meetings feature. |
-| 21 | Manually change lead status if you don’t use an Outreach sequence to reach out to someone or if you need to unqualify a lead for bad data etc. |
-| 22 | If you check the Inactive lead or Inactive contact checkbox, signifying that this person no longer works at the company, any running sequence will automatically be marked as finished. |
-| 23 | If you notice your leads are being reassigned to Inquiry Queue, that’s due to a scheduled clean up job in Traction that updated `Status = Inquiry` to Inquiry Queue. To resolve this, add your leads to an Outreach sequence. Note: The scheduled clean up runs daily at 10:30 PM EST/EDT. |
+1. Go to your SDR views on SFDC and select the lead you want to sequence.
+1. Press `Import to Outreach`.
+1. Work from the Outreach extension on Chrome to then select the sequence you want to enroll the lead in.
+1. If manual steps are required for the sequence that you chose, select `Edit Steps`. Go through each step you want to edit, paying especial attention to manual variables.
+1. Once the first step of an Outreach sequence is complete, the lead status will automatically change from `MQL, Inquiry, or Raw` to `Accepted` status, marking that you are actively working on this lead.
+1. When a lead responds to you via email, their status will again automatically change from `Accepted` to `Qualifying`. Manage these leads from your S3 and B5 lead views.
+1. If you are not working on qualifying this lead further, manually change the status to `Recycle` so that this lead is back in Marketing recycle and isn’t stuck in your `My Qualifying` view. If you have spoken to the lead by phone and are qualifying them, manually change the status from `Accepted` to `Qualifying`.
+1. When looking at your qualifying view, sequence leads that have no recent last activity + no active tasks + are not actively being sequenced into one of our follow up sequences that have the `Follow up Ruleset Sequences`.
+1. Tasks and your pipeline can be then managed via the Outreach [360 view.](https://support.outreach.io/hc/en-us/articles/214806328-Navigating-the-360-View-Dashboard)
+1. In the 360 View, review the list of inbound leads assigned to you by navigating to the bottom left of the screen and pressing Start tasks.
+1. If a lead finishes an Outreach sequence without responding, the lead status will automatically change to `Unresponsive` or `Recycle` in seven days if there is still no response.
+1. If a lead responds, schedule a call/meeting using Outreach’s meetings feature.
+1. Manually change lead status if you don’t use an Outreach sequence to reach out to someone or if you need to unqualify a lead for bad data etc.
+1. If you check the Inactive lead or Inactive contact checkbox, signifying that this person no longer works at the company, any running sequence will automatically be marked as finished.
+1. If you notice your leads are being reassigned to Inquiry Queue, that’s due to a scheduled clean up job in Traction that updated `Status = Inquiry` to Inquiry Queue. To resolve this, add your leads to an Outreach sequence. Note: The scheduled clean up runs daily at 10:30 PM EST/EDT.
 
 ### Outreach Collections
 
@@ -293,16 +287,14 @@ There are two ways utilize 6Sense:
 
 ### 2A. Using 6Sense through the SFDC dashboard
 
-| Step | Description                                                                                         |
-|------|-----------------------------------------------------------------------------------------------------|
-| 1    | Navigate to SFDC                                                                                   |
-| 2    | On the main tab with options (leads, accounts, etc), click on the “+” sign                         |
-| 3    | Select 6Sense dashboards, you can also click “customize my tabs” to add the 6sense dashboard        |
-|      | to your homepage permanently                                                                       |
-| 4    | On the 6Sense dashboard, click the cog icon on the top right                                        |
-| 5    | On “Search by User” select “BDR Assigned” and add your name                                         |
-| 6    | On “Other filters” select “Salesforce Account fields” and type “BDR Prospecting Status”              |
-| 7    | On the “BDR Prospecting Status” field, select “Actively Working”                                    |
+1. Navigate to SFDC
+1. On the main tab with options (leads, accounts, etc), click on the “+” sign
+1. Select 6Sense dashboards, you can also click “customize my tabs” to add the 6sense dashboard
+   to your homepage permanently
+1. On the 6Sense dashboard, click the cog icon on the top right
+1. On “Search by User” select “BDR Assigned” and add your name
+1. On “Other filters” select “Salesforce Account fields” and type “BDR Prospecting Status”
+1. On the “BDR Prospecting Status” field, select “Actively Working”
 
 The dashboard will now display the top actively working accounts in your name. Do note that these are only accounts that we currently have on our database, while you can find greenfield accounts by visiting the SaaS platform (instructions in section 2B). Section 3 below explains how you can review and utilize this data.
 
@@ -321,14 +313,12 @@ You will find all of the relevant resources for BDRs and SDRs on the first 5 fol
 
 After choosing the type of report you’d like to work, please follow the steps below:
 
-| Step | Description                                                                                                                                                                        |
-|------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1    | Select the template in each of the BDR folders that starts with the prefix “-[TEMPLATE]”.                                                                                         |
-| 2    | On the title, add your name or territory as suggested by the naming convention. Please make sure to delete the Prefix “-[TEMPLATE]”.                                               |
-| 3    | Click on “Edit Segment”.                                                                                                                                                          |
-| 4    | For folders 1 and 3, you’ll see a prompt on one of the filters to add your name to the “BDR Assigned” Field.                                                                     |
-| 5    | For folder 2, you’ll see a prompt to add your region to the “Address: Region” field. Do note that based on your territory there are other datapoints like “Address: City” or “Address: Country” that can be used. |
-| 6    | After having done the edits on steps 4 and 5, press “Save Changes”. Make sure that you’ve updated the naming convention accordingly and click “Save As New Segment”.           |
+1. Select the template in each of the BDR folders that starts with the prefix “-[TEMPLATE]”.
+1. On the title, add your name or territory as suggested by the naming convention. Please make sure to delete the Prefix “-[TEMPLATE]”.
+1. Click on “Edit Segment”.
+1. For folders 1 and 3, you’ll see a prompt on one of the filters to add your name to the “BDR Assigned” Field.
+1. For folder 2, you’ll see a prompt to add your region to the “Address: Region” field. Do note that based on your territory there are other datapoints like “Address: City” or “Address: Country” that can be used.
+1. After having done the edits on steps 4 and 5, press “Save Changes”. Make sure that you’ve updated the naming convention accordingly and click “Save As New Segment”.
 
 ### 3. Manual Research on Accounts
 
@@ -343,25 +333,40 @@ The importance of diligent manual research will lead to the below efficiencies:
 
 **1. To double-check the account on Salesforce:**
 
-| Step | Description                                                                              |
-|------|------------------------------------------------------------------------------------------|
-| 1    | Search for the account name on SFDC.                                                     |
-| 2    | Search for the account email domain on SFDC.                                              |
-| 3    | Search for the account website domain on SFDC.                                            |
-| 4    | Search for the Account’s HQ address, along with any regional business unit address.       |
+1. Search for the account name on SFDC.
+1. Search for the account email domain on SFDC.
+1. Search for the account website domain on SFDC.
+1. Search for the Account’s HQ address, along with any regional business unit address.
 
 **2. To hyper-personalize your messaging:**
 
 Please follow the steps below to understand how to research the data provided on 6Sense, and to cross-reference this data with our internal knowledge base so that you create your account strategy accordingly.
 
-| Step                                          | Description                                                                                                                               |
-|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| Understand and utilize 6Sense data           | Each segment has an accounts tab that displays all the accounts that correspond to this segment. This view can be shortlisted further by using the three analytics tabs as all datapoints in these tabs is clickable. <br> **i. Predictive Analytics** filters accounts by their propensity to buy. This data can be used to split prospecting efforts between high-priority outbound campaigns and low-priority awareness campaigns <br> **ii. Behavioural Analytics** filters accounts by the intent/value-driver that they mostly focused on. This data can be used to split accounts into specific value-driver focused campaigns. <br> **iii. Profile Analytics** filter accounts by the demographic of each company in terms of location or size. This data can be used to run location-specific campaigns. |
-| Search for past opportunities on SFDC        | i. Check the qualification notes <br> ii. Check the unqualified reasons by the AE team <br> iii. Check past email communication on the activity records              |
-| Search for the account record on SFDC        | i. Check Account Rank notes by the AE team <br> ii. Check the PathFactory, ZoomInfo, Marketo integration tabs <br> iii. Check their product usage information (if applicable) <br> iv. Check their LAM Dev Count |
-| Search for relevant leads on SFDC           | i. Check for past communication <br> ii. Check for Last Interesting Moment and how it connects to their title and lead source to determine their compelling events <br> iii. Check for Web Activity on Marketo and PathFactory to gauge past interest |
-| Cross-reference with External sources       | i. Search LinkedIn Insights for company growth, financials and recent news <br> ii. Search company webpage for recent news, career openings or specific technologies used <br> iii. Search online sources like newsletter or crunchbase |
-| Cross-reference the above with HighSpot     | i. Check for relevant playbooks based on company size <br> ii. Check for relevant messaging based on persona <br> iii. Check for relevant pain-points based on value driver |
+1. Understand and utilize 6Sense data: Each segment has an accounts tab that displays all the accounts that correspond to this segment. This view can be shortlisted further by using the three analytics tabs as all datapoints in these tabs is clickable.
+   - **Predictive Analytics** filters accounts by their propensity to buy. This data can be used to split prospecting efforts between high-priority outbound campaigns and low-priority awareness campaigns
+   - **Behavioural Analytics** filters accounts by the intent/value-driver that they mostly focused on. This data can be used to split accounts into specific value-driver focused campaigns.
+   - **Profile Analytics** filter accounts by the demographic of each company in terms of location or size. This data can be used to run location-specific campaigns.
+1. Search for past opportunities on SFDC
+   1. Check the qualification notes
+   1. Check the unqualified reasons by the AE team
+   1. Check past email communication on the activity records
+1. Search for the account record on SFDC
+   1. Check Account Rank notes by the AE team
+   1. Check the PathFactory, ZoomInfo, Marketo integration tabs
+   1. Check their product usage information (if applicable)
+   1. Check their LAM Dev Count
+1. Search for relevant leads on SFDC:
+   1. Check for past communication
+   1. Check for Last Interesting Moment and how it connects to their title and lead source to determine their compelling events
+   1. Check for Web Activity on Marketo and PathFactory to gauge past interest
+1. Cross-reference with External sources
+   1. Search LinkedIn Insights for company growth, financials and recent news
+   1. Search company webpage for recent news, career openings or specific technologies used
+   1. Search online sources like newsletter or crunchbase
+1. Cross-reference the above with HighSpot
+   1. Check for relevant playbooks based on company size
+   1. Check for relevant messaging based on persona
+   1. Check for relevant pain-points based on value driver
 
 ### Execution Phase (5-10 hours/week)
 
@@ -383,9 +388,9 @@ In Step 7, compile the selected prospects and create LinkedIn Sales Navigator li
 
 **To export to CRM, please follow the guidelines below:**
 
-* Click the Export to CRM button on ZoomInfo
-* That’s it
-* No, really.
+- Click the Export to CRM button on ZoomInfo
+- That’s it
+- No, really.
 
 **To fill in the BDR fields, please follow the guidelines below:**
 
@@ -410,15 +415,15 @@ As an SDR or BDR, you will work to connect with inbound/outbound leads that you 
 1. **You have scheduled time with AE/SAE to speak with the prospect:**
 If you are scheduling time with an AE/SAE to speak to the prospect based on a qualifying conversation you have had with the prospect, an opportunity needs to be created and placed in stage 0. On the opportunity, all “required qualification” fields need to be filled in.
 
-2. **You have obtained a commitment/willigness from a prospect to discuss further.**
+1. **You have obtained a commitment/willigness from a prospect to discuss further.**
 If you have a meaningful two-way communication with a prospect, but have not had the required qualification criteria to move to the Sales team, you can create an opportunity under your name so that you better track your warm conversations. These opportunities may also be used for better collaboration with your team, as they can be reviewed and brain-stormed upon during team meetings.
 
 **Who owns the opportunity at this point?**
 
-**1. You have scheduled time with AE/SAE to speak with the prospect.**
+1. **You have scheduled time with AE/SAE to speak with the prospect.**
 When you have entered the qualification criteria onto the opportunity, and have received calendar confirmation from all parties for the intro call with sales, you will change ownership to the AE/SAE. After you have saved opp owner, you will add yourself to the BDR/SDR field. The opportunity will remain in stage 0.
 
-**2.You have obtained a commitment/willigness from a prospect to discuss further.**
+1. **You have obtained a commitment/willigness from a prospect to discuss further.**
 At this point, the opportunity will be in your ownership but you can not have yourself listed in the Business Development Representative or Sales Development Representative field. There is a validation rule that will not allow the opp owner and the SDR/BDR representative field to be the same member.
 
 **When will it be credited as an SAO?**
@@ -435,18 +440,34 @@ If the opportunity is for a new group of users in a Large account where sales is
 
 ### Scheduling IQMs
 
-| Step | Description |
-| ---- | ----------- |
-| **Creating Opportunities:** | |
-| 1. Identify and Relate Communications | Identify relevant two-way communications with the prospect, such as email exchanges, call records, or LI messages. Ensure that these are properly logged in SFDC associated with the `person, company, and opportunity records` as needed. To do this, select the specific activity records highlighting your involvement and press `related to`. Afterwards select the corresponding Opportunity and press Save.Select specific activity records highlighting your involvement and press `related to` Select the corresponding Opportunity and press Select specific activity records highlighting your involvement and press `related to` Select the corresponding Opportunity and press save. save.   |
-| 3. Verify Sales Organization RoE | - On ZoomInfo, or other established sources if needed, verify the parent/child segmentation and the HQ of the company or ultimate user. <br> - If discrepancies exist, communicate with the appropriate personnel for resolution. |
-| 3a. Overriding Incorrect Account Assignments | - Navigate to the `Lead/Contact Review Admin` section in Salesforce to input correct information. <br> - After making sure that the information is properly reflected on the `Company Address` fields (ie: **Company Address: Street**), please tick the `Company Address Checked` checkbox on the lead level. If this step is not completed, then you will receive a message to remind you on Salesforce when you try to convert the lead. <br> - If unsuccessful, communicate with the Sales Dev Director for assistance in updating account records.|
-| 5. Schedule IQM | - For booking meetings, use [Outreach Meetings](https://www.outreach.io/resources/blog/meetings-pr) to expedite the experience for prospects. <br> - Make sure to give a 24 hour notice to the AEs. <br> - Having sent a meeting invitation, ask the prospect to accept while on the phone/meeting with them. |
-| 6. AE Review | - Expect AEs to verify that they reviewed the opportunity beforehand. <br> - If needed, review the specifics of the call, responsibilities, and send meeting reminders. |
-| 7. Attending the IQM | - Please make sure that both AE and SDR show up on time or up to 5 minutes beforehand with Cameras on. <br> - Please ensure that the location is quiet and indoors for AE and SDR. |
-| 8. Debrief | - Have a goal for the AE and SDR to debrief within 24 hours regarding the opportunity being flipped or being disqualified. <br> - Ensure that feedback is shared in writing via Slack/email and added to Salesforce by the AE. |
-| 9. IQM Notes | - SDR adds IQM notes to the Initiative section in the opportunity Title. <br> - Include Attendees, Raw Notes, Questions, Summary, and Next Steps. |
-| 10. Rebooking no-shows | - The SDR’s responsibility lies only in rebooking no-shows using the [Outreach rebook sequences](https://web.outreach.io/sequences?search=no%20show&sortBy=recent&sortDirection=desc). <Br> - Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity. |
+**Creating Opportunities:**
+
+1. **Identify and Relate Communications**: Identify relevant two-way communications with the prospect, such as email exchanges, call records, or LI messages. Ensure that these are properly logged in SFDC associated with the `person, company, and opportunity records` as needed. To do this:
+   1. Select the specific activity records highlighting your involvement and press `related to`.
+   1. Select the corresponding Opportunity and press Save.
+   1. Select specific activity records highlighting your involvement and press `related to`
+   1. Select the corresponding Opportunity and press `Select specific activity records highlighting your involvement` and press `related to`
+   1. Select the corresponding Opportunity and press save.
+1. **Verify Sales Organization RoE**: On ZoomInfo, or other established sources if needed, verify the parent/child segmentation and the HQ of the company or ultimate user.
+   - If discrepancies exist, communicate with the appropriate personnel for resolution.
+1. Overriding Incorrect Account Assignments**
+   1. Navigate to the `Lead/Contact Review Admin` section in Salesforce to input correct information.
+   1. After making sure that the information is properly reflected on the `Company Address` fields (ie: **Company Address: Street**), please tick the `Company Address Checked` checkbox on the lead level. If this step is not completed, then you will receive a message to remind you on Salesforce when you try to convert the lead.
+
+   If unsuccessful, communicate with the Sales Dev Director for assistance in updating account records.
+1. **Schedule IQM**: For booking meetings, use [Outreach Meetings](https://www.outreach.io/resources/blog/meetings-pr) to expedite the experience for prospects.
+   1. Make sure to give a 24 hour notice to the AEs.
+   1. Having sent a meeting invitation, ask the prospect to accept while on the phone/meeting with them.
+1. **AE Review**: Expect AEs to verify that they reviewed the opportunity beforehand.
+   - If needed, review the specifics of the call, responsibilities, and send meeting reminders.
+1. **Attending the IQM**: Please make sure that both AE and SDR show up on time or up to 5 minutes beforehand with Cameras on.
+   - Please ensure that the location is quiet and indoors for AE and SDR.
+1. **Debrief**: Have a goal for the AE and SDR to debrief within 24 hours regarding the opportunity being flipped or being disqualified.
+   - Ensure that feedback is shared in writing via Slack/email and added to Salesforce by the AE.
+1. **IQM Notes**: SDR adds IQM notes to the Initiative section in the opportunity Title.
+   - Include Attendees, Raw Notes, Questions, Summary, and Next Steps.
+1. **Rebooking no-shows**: The SDR’s responsibility lies only in rebooking no-shows using the [Outreach rebook sequences](https://web.outreach.io/sequences?search=no%20show&sortBy=recent&sortDirection=desc).
+   - Conduct outreach for 2 weeks. If IQM cannot be rescheduled, AE will unqualify the opportunity.
 
 ### Trial Extensions and Ultimate to Premium Downgrades
 
@@ -463,9 +484,9 @@ Participating and completing the audit on time is mandatory.
 Guiding principles:
 
 1. All activities must be logged and documented in Salesforce. <br>
-2. Timestamps for such activities will be audited and cannot be modified after the fact
+1. Timestamps for such activities will be audited and cannot be modified after the fact
 Sourcing cases must be clearly documented. <br>
-3. All opportunities associated with a Sales Development team member must have meaningful engagement for Web Directs and full qualifications criteria for Direct Deals.
+1. All opportunities associated with a Sales Development team member must have meaningful engagement for Web Directs and full qualifications criteria for Direct Deals.
 
 **Mandatory SLA:** Audit and XDR response must be completed by the first day of the following month. Rulings will be completed by the management team by the end of the second day.  Invitations and pairing will be sent to the entire Sales Dev team the first week of the month. It is the responsibility of the team member to find a backfill to do their audit if they are unable to complete the audit within set timelines.
 
@@ -479,12 +500,12 @@ Examples: web directs. AE-created. Partner generated (for now), Opp w/no value, 
 ### AUDITOR'S RESPONSIBILITY
 
 1. Auditor needs to review all notes and time stamps related to the opportunity
-2. Auditor needs to log an activity #Audited on the activity record of the opportunity as mentioned below, this way we can track completion of monthly audit.
-3. Ensure that relevant activity & products are attached.
-4. Ensure that Products match up to Qualification info in Call Connect and/or Meeting
-5. For BDRs, ensure account was in AWA status
+1. Auditor needs to log an activity #Audited on the activity record of the opportunity as mentioned below, this way we can track completion of monthly audit.
+1. Ensure that relevant activity & products are attached.
+1. Ensure that Products match up to Qualification info in Call Connect and/or Meeting
+1. For BDRs, ensure account was in AWA status
 ensuring that the [RoE](/handbook/marketing/sales-development/#rules-of-engagement-quick-guide) was followed
-6. Flag in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0), any questions related to the audited opportunities.
+1. Flag in the monthly [Audit Doc](https://docs.google.com/spreadsheets/d/1IBSfKuK6QcvsAIPvW7uYYCjeMtqPmpeDv2swsPAZShc/edit#gid=0), any questions related to the audited opportunities.
 
 ### AUDIT PROCESS
 
@@ -519,15 +540,14 @@ _Directors, Ops and JB will select random opps each month to audit and ensure au
 #### Best practices to ensure credit for SAO
 
 1. Sequence all leads if you’re reaching out
-2. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.
-3. Populate all qualification fields
-4. If activity was a phone call or a zoom call, log notes at the time of call
-5. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps
-6. If engagement is in LinkedIn or Whatsapp, take a picture and attach to chatter/opp
-7. If activity happened at an event, make sure that immediately following the event, you create a stage 0 opportunity and  send follow up email that recaps the conversation that took place
+1. Make sure your activity is logged that shows how you drove the meaningful engagement that led to the opportunity.
+1. Populate all qualification fields
+1. If activity was a phone call or a zoom call, log notes at the time of call
+1. If a meeting was set, make sure you create a stage 0 opportunity prior to the meeting, populate fields during/afterwards. If person will likely web direct, keep opp in your name and update next steps
+1. If engagement is in LinkedIn or Whatsapp, take a picture and attach to chatter/opp
+1. If activity happened at an event, make sure that immediately following the event, you create a stage 0 opportunity and  send follow up email that recaps the conversation that took place
 
 ### Reports
 
-[1. SAO Report for SDRs](https://gitlab.my.salesforce.com/00O8X000008QeFh?sdtd=1)
-
-[2. SAO Report BDRs](https://gitlab.my.salesforce.com/00O8X000008QdwB)
+1. [SAO Report for SDRs](https://gitlab.my.salesforce.com/00O8X000008QeFh?sdtd=1)
+1. [SAO Report BDRs](https://gitlab.my.salesforce.com/00O8X000008QdwB)

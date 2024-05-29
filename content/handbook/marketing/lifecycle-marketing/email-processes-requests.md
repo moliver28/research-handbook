@@ -44,7 +44,7 @@ Steps to add to the Asana calendar:
 * Add labels for appropriate email type: “operational-email” “non-operational-email”
 * Set email issue due date as the send date
 
-#### Email Request Issue Template
+### Email Request Issue Template
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 **PLEASE READ IMPORTANT NOTE IN SECTION ABOVE PRIOR TO SUBMITTING**
@@ -71,7 +71,7 @@ Please note: Invitation and follow-up emails will not be sent on Thursdays, due 
 
 All links in email sends, going to about.gitlab.com will need to be appended with utm parameters, following the nomenclature outlined in this [document](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit#gid=0). This is the way we track and give attribution to emails.
 
-#### Need-to-know details for the email request
+### Need-to-know details for the email request
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Below are the information from the issue template that will need to be filled out before the Campaign Manager will create the email in the appropriate system:
@@ -89,12 +89,12 @@ Below are the information from the issue template that will need to be filled ou
     * If supplying a .csv file, the file must include the following fields:  Email address, First Name (or Full Name)
     * If personalizing the email to reference a specific project or page, that field must be included in the .csv file and clearly marked using the same terminology used in the email copy. The email copy must clearly identify {{Project}}or {{Page}}where the applicable personalization should be inserted.
 
-#### Types of email requests
+### Types of email requests
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Go to [this page](/handbook/marketing/marketing-operations/email-management/#types-of-email) to read more about email management and the different types of emails.
 
-#### Approvals and notifications for email requests
+### Approvals and notifications for email requests
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Marketing related ad-hoc emails are sent at the discretion of the Campaigns team.
@@ -115,7 +115,7 @@ The approval table below applies to non-Marketing emails.
 ## Ad-hoc (one-time) emails
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Important note regarding audience segmentation efforts and efficiency
+### Important note regarding audience segmentation efforts and efficiency
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Until our foundational Marketo database segmentations (noted in the overview at the top of this handbook page) are rolled out, there are challenges in targeting audiences efficiencly. If you would like to propose an MVC email, please remember that the tactical execution may be beyond bandwidth constraints.
@@ -387,7 +387,7 @@ For additional context, please see the [issue here](https://gitlab.com/gitlab-co
 ## Newsletter
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
-#### Process for monthly newsletter
+### Process for monthly newsletter
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 Open an issue using the [Newsletter Request Template](https://gitlab.com/gitlab-com/marketing/lifecycle-marketing/-/issues/new?issuable_template=request-email-newsletter), including the newsletter send date
@@ -395,7 +395,7 @@ Open an issue using the [Newsletter Request Template](https://gitlab.com/gitlab-
 
 **[Epic of Past and Upcoming Newsletters](https://gitlab.com/groups/gitlab-com/marketing/-/epics/179)**
 
-#### Creating the newsletter in Marketo
+### Creating the newsletter in Marketo
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 A day or two before the issue due date, create the newsletter draft. It's easiest to clone the last newsletter in Marketo:
@@ -409,21 +409,21 @@ A day or two before the issue due date, create the newsletter draft. It's easies
 1. Click the + symbol to the left of your new newsletter item and select `Newsletter`.
 1. In the menu bar that appears along the top of your screen, select `Edit draft`.
 
-#### Editing the newsletter in Marketo
+### Editing the newsletter in Marketo
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. Make sure you update the subject line.
 1. Add your newsletter items by editing the existing boxes (double click to go into them). It's best to select the `HTML` button on the menu bar and edit the HTML so you don't inadvertently lose formatting.
 1. Don't forget to update the dates in the UTM parameters of your links (including the banner at the top and all default items such as the "We're hiring" button).
 
-#### Sending newsletter test/samples from Marketo
+### Sending newsletter test/samples from Marketo
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. When you're ready, select `Email actions` from the menu at the top, then `Send sample` to preview.
 1. Enter your email in the `Person` field, then in `Send to` you can add any other emails you'd like to send a preview too. We recommend sending a sample to the newsletter requestor (or rebecca@ from the content team for marketing newsletters) for final approval.
 1. When you are satisfied with the newsletter, select `Approve and close` from the `Email actions` menu.
 
-#### Sending the newsletter
+### Sending the newsletter
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 1. When the edit view has closed, click on the main newsletter item in the left-hand column.
@@ -466,25 +466,32 @@ It’s virtually impossible to support all the calendar applications available. 
 * Create google calendar link for your events
     * Use this tool to generate your event information: [http://kalinka.tardate.com/](http://kalinka.tardate.com/)
     * You would have to copy and paste the information for the event from marketo to the tool above, this takes about 2 minutes
-        * Location should be formatted as follows to show up as an address in the google calendar invite<br>
+        * Location should be formatted as follows to show up as an address in the google calendar invite:
+
           **747 Howard St, San Francisco, CA 94103, USA**
         * Make sure time zone is correct
 
     * Create link [Example Here](http://www.google.com/calendar/event?action=TEMPLATE&dates=20200406T150000Z%2F20200409T030000Z&text=Google%20Next%202020&location=747%20Howard%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA&details=https%3A%2F%2Fcloud.withgoogle.com%2Fnext%2Fsf%2F) and paste into correct template in Marketo as follows:
-    `<a href=“http://www.google.com/calendar/event?action=TEMPLATE&dates=20200206T035000Z%2F20200206T065000Z&text=Nouts%20test%20event&location=5107%20Oakbrook%20Drive%2C%20Durham%2C%20NC&details=nout's%20test%20event%20”>Add to Google calendar</a>`
+
+      ```plaintext
+      <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20200206T035000Z%2F20200206T065000Z&text=Nouts%20test%20event&location=5107%20Oakbrook%20Drive%2C%20Durham%2C%20NC&details=nout's%20test%20event%20">Add to Google calendar</a>
+      ```
 
 * Create ICS file for all other calendars (mostly Outlook and Apple)
     * Marketo can create an ICS file
     * Add “Calendar File” Token to local tokens section
     * Paste all necessary information (same as above)
-    * Add token to the email as follows: <br>
-      `<a href=“link goes here”>Add to other calendar</a>`
+    * Add token to the email as follows:
+
+      `<a href="link goes here">Add to other calendar</a>`
 
 ### Additional option for "add to calendar": APIs
 <!-- DO NOT CHANGE THIS ANCHOR -->
-* Use AddEvent API (available for $19/month billed annually for up to 50 events/month).<br>
+* Use AddEvent API (available for $19/month billed annually for up to 50 events/month).
+
   [https://www.addevent.com/plans-and-pricing](https://www.addevent.com/plans-and-pricing)
-* Use Eventable in Marketo (not sure about price)<br>
+* Use Eventable in Marketo (not sure about price)
+
   [https://www.eventable.com/info/add-to-calendar-marketo/](https://www.eventable.com/info/add-to-calendar-marketo/)
 
 ## Lifecycle Campaign Development Process
@@ -501,7 +508,7 @@ The Lifecycle Marketing Manger is responsible for coordinating execution of Free
 * Lifecycle Marketer outlines timeline
 * Lifecycle Marketer provides status updates to Free User Efficiency Project
 
-#### Workback Timeline
+### Workback Timeline
 <!-- DO NOT CHANGE THIS ANCHOR -->
 
 The workback timeline is to be created by the Lifecycle Marketer to organize the execution of a new campaign. The workback is a starting point, to be discussed and agreed with the teams involved.

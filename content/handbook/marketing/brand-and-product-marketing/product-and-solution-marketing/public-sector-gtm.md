@@ -28,7 +28,7 @@ GitLab empowers government agencies to deliver secure software so they are succe
 
 #### Long Description
 
-Government agencies strive to serve the public by providing optimal experiences to their communities. One way to do this is a successful digital transformation ensuring software is secure, manual processes are minimized, and there is collaboration between teams and vendors.  
+Government agencies strive to serve the public by providing optimal experiences to their communities. One way to do this is a successful digital transformation ensuring software is secure, manual processes are minimized, and there is collaboration between teams and vendors.
 
 GitLab supports your digital transformation because it is secure by design, reduces manual processes, and empowers collaboration to provide a positive civilian experience.
 
@@ -159,7 +159,7 @@ Empowering the mission:
 
 - [How the U.S. Army Cyber School created “Courseware as Code” with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/)
 
-GitLab is 100% remote and helps to foster collaborative environments. It has been recognized by numerous awards, including as a [Best Workplace by Inc. Magazine](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/) and a [Top Small and Medium Workplace for Millennials by Fortune](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/).  
+GitLab is 100% remote and helps to foster collaborative environments. It has been recognized by numerous awards, including as a [Best Workplace by Inc. Magazine](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/) and a [Top Small and Medium Workplace for Millennials by Fortune](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/).
 
 ### Use Cases
 
@@ -203,7 +203,7 @@ GitLab is 100% remote and helps to foster collaborative environments. It has bee
 
 ### SWOTT Analysis
 
-**Strenghts**
+**Strengths**
 
 - Empowers users to be collaborative which brings efficiency
 *Multiple functionalities align to NIST guidelines from Executive Order

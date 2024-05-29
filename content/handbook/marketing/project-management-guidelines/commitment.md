@@ -55,7 +55,7 @@ graph TD
 
   classDef Open fill:#D8BFD8, stroke: #333
   classDef Close fill:#c4d3d9, stroke: #333
-````
+```
 
 ```mermaid
 graph LR

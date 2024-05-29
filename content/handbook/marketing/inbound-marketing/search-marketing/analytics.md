@@ -76,7 +76,7 @@ In the Event Category `navigation` you'll find events sorted by location in acti
 `Event Action = main navigation header`
 `Event Label = https://gitlab.com/users/sign_in`
 
-To understand what offers people find compelling we use CTA events to see when people click on buttons to follow through from a page. We're looking to see what resources, webcasts, trial, or other offers lead people to take action.  A sample of a popular CTA event would match these values in `Behavior > Events > Top Events in Google Analytics.
+To understand what offers people find compelling we use CTA events to see when people click on buttons to follow through from a page. We're looking to see what resources, webcasts, trial, or other offers lead people to take action.  A sample of a popular CTA event would match these values in `Behavior > Events > Top Events in Google Analytics`.
 
 `Event category = CTA`
 `Event action = button`
@@ -112,7 +112,7 @@ We use semantic names for tags, triggers, and variables to make it simpler to de
 
 Tags start with the platform, followed by the tag’s purpose, and are finally contextualized to about.gitlab.com. Any tags related to timed events need the timeframe indicated in a note attached to the tag in GTM to make it clear when to remove a tag.
 
-###### Tag naming examples
+##### Tag naming examples
 
 * Google Analytics Event — Free Trial CTA click
 * Google Ads —  conversion tracker
@@ -121,7 +121,7 @@ Tags start with the platform, followed by the tag’s purpose, and are finally c
 
 Triggers start with a description of the action triggering a tag, followed by contextualization for about.gitlab.com.
 
-###### Trigger naming examples
+##### Trigger naming examples
 
 * Link click — Learn more 100M carousel
 * CTA click — cta-btn
@@ -129,7 +129,7 @@ Triggers start with a description of the action triggering a tag, followed by co
 
 Variables start with the tag or trigger they reference, followed by contextual data about their purpose.
 
-###### Variable naming examples
+##### Variable naming examples
 
 * Google Analytics — GitLab Universal Analytics ID
 * dataLayer — postType custom dimension
@@ -240,17 +240,17 @@ Due to the scoping, not every dimension can be combined with every metric. In mo
 
 #### Understanding Reporting
 
-###### Setting a date range
+##### Setting a date range
 
 You can use the calendar in the top right to set the active date range. You can also select the `compare to` box to compare metrics from different time periods. This will allow you to see month over month or year over year growth for the desired metrics.
 
-###### Annotations
+##### Annotations
 
 Annotations are used to mark a point in time in Google Analytics. They can be used to mark an important event such as a change to the setup of Google Analytics, or an event that heavily impacted traffic positively or negatively.
 
 To create an annotation, double-click on a date. The double-click will bring up the annotation field where you can enter details, and select `private` or `public`. Public annotations can be seen by anyone that has access to that view within Google Analytics, and private annotations can only be seen by you.
 
-###### Data Tables
+##### Data Tables
 
 Most reports have a data table below the graph. The data tables contain a dimension and associated metrics.
 
@@ -266,7 +266,7 @@ The audience reports are used to understand characteristics of your users such a
 
 The acquisition reports help you know how people find the website. These reports will help you to analyze the benefits of the different digital marketing efforts that you are involved in.
 
-###### Channels Report
+##### Channels Report
 
 The `All Traffic > Channels` report breaks down all the different channels that are sending traffic to the site. You can click on any of the channels to drill down  and get more granular data about that specific channel. For example, if you click on the `Referral` channel, you will see which sites are referring traffic to your site.
 
@@ -274,18 +274,18 @@ The `All Traffic > Channels` report breaks down all the different channels that 
 
 The behaviors section is about how users use the website. This includes what pages of the site people are looking at as well as how they flow through the site.
 
-###### All Pages Report
+##### All Pages Report
 
 The `All Pages` report shows the number of times a given page was viewed within the selected period of time. You can change the primary dimension to `Page Title` if it is easier to tell what the page is by looking at the title rather than the URL.
 
 `Avg. Time on Page` and `Bounce Rate` can be used to find underperforming content or content that is very engaging to users and can be used in future marketing efforts.
 
-###### Landing Pages and Exit Pages
+##### Landing Pages and Exit Pages
 
 The `Landing Pages` and `Exit Pages` reports are scoped at the session and tell us how many people are beginning a session at a certain page (landing page) and how many people are ending a session at a certain page (exit page).
 
 These reports can be valuable to see what content is bringing people to the site and what content is causing people to leave the site.
 
-###### Events
+##### Events
 
 Events can be set up to track actions that people take on the website, such as clicking links or selecting drop downs. These events can be set up in Google Tag Manager and for the most part won’t require any additional code to be placed on the website.

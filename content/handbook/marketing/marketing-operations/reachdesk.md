@@ -133,7 +133,7 @@ PLEASE NOTE: Do not tick `Ask recipient to confirm their address` for  campaigns
 
 ### Best Practices when completing the Landing Page form
 
-1. Create campaigns before completing the form and add the links of these campaigns into 'What campaign(s) would you like to link to this landing page?`
+1. Create campaigns before completing the form and add the links of these campaigns into `What campaign(s) would you like to link to this landing page?`
 1. Complete the form in the language the landing page will be in e.g German, French etc
 1. Always state `Yes` for question `Would you like approval on submissions?`
 1. Revisions will require additional turnaround time, so please allow 5 - 7 days prior to the launch date
@@ -167,7 +167,7 @@ Link to the [Sales Development Playbook](https://app.hubspot.com/documents/54652
 1. Go to: Organizations > Balances
 1. Click on Add Credit on the top right of the page
 1. In the Account & Amount section, select either Company Balance or User Balance and populate the amount of money and currency account you want to top-up.
-1. In the Billing Entity section, select which Billing Entity you want the invoice to be addressed. In some cases, there is only one so this should be pre-selected. If there is no billing entity, or you cannot find the right billing entity, please contact support@reachdesk.com so we can add this billing entity to our invoicing system.
+1. In the Billing Entity section, select which Billing Entity you want the invoice to be addressed. In some cases, there is only one so this should be pre-selected. If there is no billing entity, or you cannot find the right billing entity, please contact `support@reachdesk.com` so we can add this billing entity to our invoicing system.
 
 All campaigns must have a Salesforce.com attached. If this campaign involves Marketo, please skip to [those instructions](/handbook/marketing/marketing-operations/reachdesk/#marketo-campaigns), otherwise follow directions [below](/handbook/marketing/marketing-operations/reachdesk/#salesforce-campaigns).
 

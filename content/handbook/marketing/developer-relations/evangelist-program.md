@@ -363,7 +363,7 @@ The [GitLab Heroes project](https://gitlab.com/gitlab-com/marketing/community-re
 
 If you are organizing or speaking at a community-driven GitLab-centric event, we will do our best to support you including connecting you with speakers and, when possible, sending stickers or other small swag items. At this time, we are unable to provide financial support to community events. If you have questions, you can always reach us by sending an e-mail to `evangelists@gitlab.com`.
 
-#### Student-run hackathons
+### Student-run hackathons
 
 Student hackathons are the events most frequently submitting requests for support from GitLab. Hackathon organizers who wish to leverage GitLab's DevOps platform for their events are encouraged to use free trials for their events. This can be done by directing hackathon participants to apply for a [free trial of GitLab](https://about.gitlab.com/free-trial/) for use during the hackathon which will allow them to use all of GitLab's features. In some cases, if your event meets [the criteria](/handbook/marketing/developer-relations/workflows-tools/team-budgets/#community-event-sponsorship) above at a score of 9 or higher, we may also send stickers for participants or swags as prizes. Given the volume of requests we receive, providing financial support for these events is not feasible.
 

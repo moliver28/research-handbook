@@ -388,7 +388,7 @@ Should you come across an account you believe should be owned (or perhaps NOT ow
 
 Complete details on how GitLab Sales handles rules of Account Engagement can be [found here](/handbook/sales/field-operations/gtm-resources/rules-of-engagement/).
 
-#### PathFactory
+### PathFactory
 
 Via our Marketing Operations team, Field Marketers can request Author Role access to PathFactory to upload and curate assets into tracks that are then disseminated for use in Marketo, about.gitlab.com, and other campaign-related channels. Field Marketing currently has Reporter level access. To view the difference in user roles, head over to the [PathFactory page](/handbook/marketing/marketing-operations/pathfactory/#access).
 
@@ -603,7 +603,7 @@ These instructions are standard across all campaign types and will close down th
 - In the drop down list click `Unapprove`
 - Click the orange `Unapprove` button in the pop up box
 - Go to your landing page URL and make sure the landing page is no longer active (the site that should pop up is `about.gitlab.com`)
-- Go to the `01a or 01b Registration Flow and deactivate the smart campaign
+- Go to the `01a or 01b Registration Flow and deactivate the smart campaign`
 
 ## Adding a Registrant after Marketo LP Reg Form is Closed
 
@@ -1170,7 +1170,7 @@ You will note in Allocadia in the details panel if you need SA support. [Video w
 
 We know and understand the importance of working with our channel partners in region to help build pipeline, and ultimately contribute to closed won business. Jointly with their regionally algined Channel Marketing Manager & Field Sales teams, Field Marketers should be thinking about which partners will help their sales teams build pipeline in the region and include them in their campaigns.
 
-#### The Field Marketing team will work with channel partners that have successfully
+### The Field Marketing team will work with channel partners that have successfully
 
 1. Executed at least 3 MDF campaigns in the last 12 months - achieving ROI of 10 x Pipe 2 Spend and targeted # of DRs
 1. Booked business threshold.
@@ -2158,7 +2158,7 @@ SimplyDirect defines engagement by targets filling out the survey.  The SimplyDi
 - We are not running ads for webcasts or workshops - as that is handled by our campaigns team.
 - We will run paid ads to drive registration to regional in person events.
 
-#### Helpful Links
+## Helpful Links
 
 - [**Survey Details**](/handbook/marketing/field-marketing/#survey)
 - [**Simply Direct Marketo & SFDC Instructions**](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-surveys-in-marketo-and-sfdc)

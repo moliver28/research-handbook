@@ -204,10 +204,10 @@ Follow these steps to apply a console template:
 
 ### Connecting On24 Web Events to Marketo Programs
 
-##### Marketo Program Templates and the Differences
+#### Marketo Program Templates and the Differences
 
 - Alliance template: [YYYYMMDD_EventName_Alliance_On24_template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME14006A1)
-  - This program uses `FORM 3299: Alliances` and fills in the `CRM Partner ID` field using the `my.partnerid}} program token. Be sure to fill in the token.
+  - This program uses `FORM 3299: Alliances` and fills in the `CRM Partner ID` field using the `my.partnerid}}` program token. Be sure to fill in the token.
 - Partner template: [YYYYMMDD_EventName_Channel_Partner_Webcast_On24_template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME14001A1)
   - This program uses the `FORM 3432: Channel Partner Webcast` form. This form fills in field `Channel Record` with `true` in order to appropriately route the registrants.
 - Webcast template: [YYYYMMDD_EventName_Webcast_On24_template](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME12620A1)
@@ -298,7 +298,7 @@ The `contact us` widget on the On24 console requires the use of email. In order 
 
 In order to get `Q&A`, `poll` and `survey` data into Marketo from On24, a list upload will be required. Because this is a manual process, before attempting to upload webinar notes into Marketo ask yourself: `Will Sales or BDRs/SDRs use this data?` If the answer to this question is `No`, do not proceed with adding notes to Marketo. If there is a mixture of useful and not useful notes taken from the webinar, only pull the useful data into the spreadsheet for upload. Use your best judgment when deciding what leads need notes added and which notes to leave out.
 
-##### Steps to upload data (subject to change after introducing more automation)
+#### Steps to upload data (subject to change after introducing more automation)
 
 1. Export the data from the webinar into a spreadsheet. Access the report export feature by selecting the webinar's `options` button, found on the list of webinars page in the On24 interface (the 3 dots under the `Actions` column). The dropdown option is titled `Report`.
 1. Once in the webinar `Report` area, there is a spreadsheet download button next to the `Dashboards` page header. It looks like a downward arrow.
@@ -309,7 +309,7 @@ In order to get `Q&A`, `poll` and `survey` data into Marketo from On24, a list u
     - For every poll or survey answer uploaded, be sure to include the question asked.
 1. To start, these will be treated the same as manual list uploads to be completed by MktgOps. Please follow the regular process of sharing the spreadsheet with MktgOps to have them upload via a list upload issue. Soon this will be moved to more of a drag-and-drop process, similar to the [self-service list import process](/handbook/marketing/marketing-operations/automated-list-import/). This page will be updated when that is ready.
 
-##### Field Matching Instructions for Marketing Ops
+#### Field Matching Instructions for Marketing Ops
 
 The smart campaign being used to compile the notes is found here: [Compile On24 fields into Last Event Notes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC33343C3ZN19). This flow can only be triggered once per hour. The field matching for the upload spreadsheet is as follows:
 
