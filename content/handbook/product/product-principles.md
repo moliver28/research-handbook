@@ -212,7 +212,12 @@ Sometimes fast deployments are needed to fix a service or application outage tha
 
 We want to provide the same capabilities to end users regardless of the method they choose to use GitLab (GitLab SaaS, Dedicated or Self-managed). At the same time, we believe in the power of a [single code base](/handbook/product/single-application/#single-codebase). Therefore we strive to maintain feature parity between SaaS and Self-managed installations.
 
-GitLab SaaS is a self-managed instance with special multitenant licensing. By designing and implementing features for self-managed first we achieve maximum parity between the various installations. Design features so that they can be rolled out on self-managed without downtime. Since downtime on self-managed is also a downtime on SaaS, if each team does a rearchitecture once every 2 years that requires downtime, then, as of this writing, it would imply 20 downtimes a year.
+All GitLab SaaS environments leverage the same installation method available to self-managed users, with a different licensing structure. By designing and implementing features for self-managed, we achieve maximum parity between the various installations.
+
+A few examples:
+
+- Downtime is not acceptable in SaaS, but that is also not acceptable for self-managed users. By designing a feature that covers both of these use cases, we can avoid inflicting additional work to the end users whether they are using SaaS or self-managed.
+- It is ok to release functionality to SaaS first, as long as there is a solution for self-managed users. By designing a feature that can be managed in SaaS environments, and thinking through how self-managed users could operate this feature on their own, we reduce the burden of supporting many different ways of operating individual functionality.
 - Involve infrastructure team early in your design process to ensure that not only is there no downtime, but that the deployment to SaaS can be low toil.
 
 In line with our [SaaS-first rollouts](#rollout-features-on-saas-first) principle, some features may be released on SaaS to gain operational experience and apply learnings prior to recommending and supporting customers using it. Features would be present of self-managed codebase but are disabled until General Availability.
