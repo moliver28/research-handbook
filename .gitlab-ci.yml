@@ -19,6 +19,7 @@ stages:
   - build
   - deploy
   - notify
+  - maintenance
 
 include:
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
@@ -71,6 +72,7 @@ variables:
   ### TOOLING ###
   # Specify versions of tools used in pipelines
   HUGO_VERSION: '0.124.1'
+  HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
   MARKDOWNLINT_VERSION: '0.13.0'
 
 .default-branch: &default-branch
@@ -95,7 +97,7 @@ variables:
 ###################################
 
 build:
-  image: registry.gitlab.com/pages/hugo/hugo_extended:${HUGO_VERSION}
+  image: $HUGO_IMAGE
   stage: build
   script:
     - echo -e "\e[0Ksection_start:`date +%s`:group1\r\e[0KGroup 1"
@@ -136,7 +138,6 @@ build:
 # DEPLOY STAGE
 #
 ###################################
-
 pages:
   stage: deploy
   environment:
@@ -278,3 +279,24 @@ notify_slack_on_build_failures:
   script: ./scripts/send-failure-notification-to-slack.sh
   rules:
   - <<: *default-branch
+
+####################################
+##
+## MAINTENANCE STAGE
+##
+####################################
+
+modules:tidy:
+  image: $HUGO_IMAGE
+  stage: maintenance
+  allow_failure: true
+  rules:
+    - <<: *merge-request-only
+  needs: []
+  script:
+    - apk update
+    - apk upgrade
+    - apk add go
+    - hugo mod tidy
+    - echo "If this job failed, please commit changes to the go.mod and go.sum files"
+    - git diff --exit-code go.mod go.sum
