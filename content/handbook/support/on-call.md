@@ -79,10 +79,10 @@ PagerDuty is the single source of truth for on-call hours, rotation order and es
 
 There are several ways to view current and future schedules:
 
-1. On gitlab.io: [View the current and next week's assignments](https://gitlab-com.gitlab.io/support/team/oncall)
 1. In PagerDuty: View the [Customer Emergencies schedule](https://gitlab.pagerduty.com/schedules) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH)
 1. In Google Calendar, [subscribe to your on-call schedule](https://support.pagerduty.com/docs/schedules-in-apps#section-export-only-your-on-call-shifts)
 1. In the `#spt-gg-forest` slack channel, you can see who is on-call for the different schedules today
+1. In the [Support Pagerduty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit#gid=0), you can see who will be on-call for future quarters.
 
 #### Scheduling PagerDuty rotations
 
