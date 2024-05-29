@@ -774,7 +774,7 @@ Stamped Opp Owner User Role Type
 
 ### Changes to Net ARR formula logic
 
- **Business Process this supports**-  Net ARR for renewal opportunities with new business quotes, lookup value from comp table 
+ **Business Process this supports**-  Net ARR for renewal opportunities with new business quotes, lookup value from comp table
 
 **Overview** -
 
@@ -786,6 +786,7 @@ Net_ARR_Automation__c
 ARR_Net__c(formula field driven by automation)
 
 **Logic** -
+
 - TF_OpportunityAfterCreateUpdateNetARRAutomation flow is fired when an opportunity is created or updated and has a primary quote of type new subscription. If there is no primary quote of type subscription, stage 1 XDR net arr is stamped to Net arr automation field which in turn will reach the Net arr formula field
 - TF_OpportunityAfterUpdate_StampNetARRAutomation fires only on opportunity update and checks whether Stamped_ARR_Basis__c is changed. If so, the flow calculates the net arr automation field(based on primary quote's zqu__Previewed_Delta_MRR__c or stage 1 xdr net arr if there is no primary quote). Right value is stamped to Net arr automation field which in turn will reach the Net arr formula field
 - TF_QuoteAfterCreateUpdate_StampNetARRAutomation flow is written from a quote perpective. When a primary quote of type new subscription is created or updated, flow checks whether the opportunity satisfies #4349 and then stamps Net arr automation field which in turn will reach the Net arr formula field
@@ -799,4 +800,3 @@ TF_QuoteAfterCreateUpdate_StampNetARRAutomation flow
 TF_OpportunityAfterUpdate_SyncStage1NetARR flow
 Net_ARR_Automation__c field in Opportunity
 ARR_Net__c field in Opportunity
-

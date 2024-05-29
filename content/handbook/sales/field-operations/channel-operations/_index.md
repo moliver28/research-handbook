@@ -452,9 +452,9 @@ _Note, Partner Sourced Deal Registration incentives do not apply to alliance par
 - **GitLab SLAs**
   - The SLA for GitLab to communicate with partners on a Partner Sourced Deal Registration is two business days. There must be contact with the registering partner within two business days, whether it be initial outreach to discuss the registration, a request for more information, approval, or rejection.
   - The GitLab ASM has one business day to either approve or reject the Registration, which begins when the Registration hits their queue for approval. The ASM _must_ communicate with the GitLab Partner Territory Manager if their approval is anticipated to push beyond the one business day SLA.
-- **Identify and Notify Backup Approvers**
+- _Identify and Notify Backup Approvers_
 
-  - GitLab Partner Territory Managers and ASMs should *always* identify a backup approver prior to being out of office. This ensures approval requests can be actioned in your absence, and is crucial to meeting our SLAs (see **GitLab SLAs** above).
+  - GitLab Partner Territory Managers and ASMs should _always_ identify a backup approver prior to being out of office. This ensures approval requests can be actioned in your absence, and is crucial to meeting our SLAs (see **GitLab SLAs** above).
   - Partner Territory Managers
 
     - Communicate that you will be out of office to your backup approver. The backup approver should monitor the `Pending Deal Reg's by PM` component of their [Partner Forecast Dashboard](/handbook/sales/field-operations/channel-operations/#partner-forecast-salesforce-dashboards) to identify and action Deal Registrations in Pending Sales Review for the Partner Territory Manager they are covering.
@@ -500,8 +500,8 @@ Follow the steps below to process a Partner Sourced Deal Registration for a resa
 
 1. Partner Operations Team:
 
-   - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Territory Manager review while in `DR-Status` = *Submitted*.
-   - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Territory Manager to review and action the registration.
+   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Partner Territory Manager review while in `DR-Status` = `Submitted`.
+   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
 1. Confirm the `Deal Registration Type` is ”Resale” and that the partner provided sufficient detail to proceed with the registration. If registration details are:
@@ -519,8 +519,8 @@ Follow the steps below to process a Partner Sourced Deal Registration for a resa
     ![15-Link_Create_Opp_Screen](/handbook/sales/field-operations/channel-operations/images/15-Link_Create_Opp_Screen.png)
 1. Navigate to the Partner Territory Manager Approvals section of the registration record. If you are going to:
 
-   - ***Approve***, select “Approved” in the `PM Approval Status` field, then click `Save` to complete your approval.
-   - ***Reject***, select “Denied” in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
+   - **Approve**, select “Approved” in the `PM Approval Status` field, then click `Save` to complete your approval.
+   - **Reject**, select “Denied” in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
      ![17-Approve_Deny_Partner_Manager](/handbook/sales/field-operations/channel-operations/images/17-Approve_Deny_Partner_Manager.png)
 
 1. If you created a new opportunity during this process (see step 6 above), update `Opportunity Owner` to the Sales Rep who owns the customer account using the `Change Opportunity Owner` button on the opportunity.
@@ -550,8 +550,8 @@ Follow the steps below to process a Partner Sourced Deal Registration for an MSP
 
 1. Partner Operations Team:
 
-   - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Territory Manager review while in `DR-Status` = *Submitted*.
-   - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Territory Manager to review and action the registration.
+   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Partner Territory Manager review while in `DR-Status` = `Submitted`.
+   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
 1. Confirm the `Deal Registration Type` is "MSP" and that the partner provided sufficient detail to proceed with the registration. If registration details are:
@@ -601,8 +601,8 @@ Follow the steps below to process a Partner Sourced Deal Registration for a Refe
 
 1. Partner Operations Team:
 
-   - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Territory Manager review while in `DR-Status` = *Submitted*.
-   - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Territory Manager to review and action the registration.
+   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Partner Territory Manager review while in `DR-Status` = `Submitted`.
+   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
 1. Confirm the `Deal Registration Type` is ”Referral” and that the partner provided sufficient detail to proceed with the registration. If registration details are:
@@ -648,8 +648,8 @@ Follow the steps below to process a Service Attached Registration for an applica
 
 1. Partner Operations Team:
 
-   - has first action to review and update the registration when `DR-Status` = *Submitted*. **Important to note**, the registration is *not ready* for Partner Territory Manager review while in `DR-Status` = *Submitted*.
-   - will update `DR-Status` to *Pending Sales Review* once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to *Pending Sales Review* sends a notification to the Partner Territory Manager to review and action the registration.
+   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Partner Territory Manager review while in `DR-Status` = `Submitted`.
+   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Partner Territory Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Partner Territory Manager to review and action the registration.
 
 1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
 1. Confirm the `Program Name` is “Service Attached Registration”, `Services Attach Type` is populated with the relevant service, and that the partner provided sufficient detail to proceed with the registration. If registration details are _accurate and complete_, proceed to the next step. If registration details are _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select “Returned” in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process. **Important to note:**
@@ -686,15 +686,15 @@ Follow the steps below to process a Service Attached Registration for an applica
 
 1. The registration and opportunity records will be updated with the approval information.
 
-  - A Service Attached registration will **not** populate the Partner Sourced Deal Registration section of an opportunity. Click the related list link at the top of the opportunity to locate the Service Attached registration. This will bring you to a list of any registration attached to the opportunity, including the Service Attached Registration.
+   - A Service Attached registration will **not** populate the Partner Sourced Deal Registration section of an opportunity. Click the related list link at the top of the opportunity to locate the Service Attached registration. This will bring you to a list of any registration attached to the opportunity, including the Service Attached Registration.
    ![10-Reg_Related_Lists](/handbook/sales/field-operations/channel-operations/images/10-Reg_Related_Lists.png)
-  - Alternatively, you can scroll to the “Registrations” section toward the bottom of the opportunity.
-   ![11-Reg_for_Svc_Att](/handbook/sales/field-operations/channel-operations/images/11-Reg_for_Svc_Att.png)
+   - Alternatively, you can scroll to the “Registrations” section toward the bottom of the opportunity.
+     ![11-Reg_for_Svc_Att](/handbook/sales/field-operations/channel-operations/images/11-Reg_for_Svc_Att.png)
 
 1. The Partner delivers services, either before or after the license sale is completed.
 
-  - The services can be completed up to six months before or after the license opportunity closes.
-  - Services delivered more than six months before or after the opportunity closes do not qualify for the Services Attach Rebate.
+   - The services can be completed up to six months before or after the license opportunity closes.
+   - Services delivered more than six months before or after the opportunity closes do not qualify for the Services Attach Rebate.
 
 1. The Partner provides Proof of Execution (POE) to `partnersupport@gitlab.com` which can include customer signed statement of work (SOW) or other customer-verified POE.
 1. The Partner Operations team will ensure the `DR - Deal ID` is listed on the POE, upload it to the opportunity, and chatter the Partner Territory Manager. The Partner Operations team will then update the Service Attached Registration Status to Closed-Won.
@@ -1035,15 +1035,15 @@ If GCP or AWS support a deal and help drive the customer to buy GitLab, but were
 
 ### Quote Tagging for Marketplace Deals
 
- - If a deal is being transacted through the **Google Cloud Marketplace**, use the following values in the quote:
-   - Invoice Owner = Google Cloud Marketplace
-   - Invoice Owner Contact = Cloud Marketplace Payments
-         _Note: search “Payments” (with quotation marks) for the correct contact to populate in this field)_
-   - Resale Partner = Google Cloud (Partner)
- - If a deal is being transacted through the **Amazon Web Services Marketplace**, use the following values in the quote:
-   - Invoice Owner = Amazon Web Services, Inc.
-   - Invoice Owner Contact = Accounts Payable (AWS)
-   - Resale Partner = Amazon Web Services
+- If a deal is being transacted through the **Google Cloud Marketplace**, use the following values in the quote:
+  - Invoice Owner = Google Cloud Marketplace
+  - Invoice Owner Contact = Cloud Marketplace Payments
+    _Note: search “Payments” (with quotation marks) for the correct contact to populate in this field)_
+  - Resale Partner = Google Cloud (Partner)
+- If a deal is being transacted through the **Amazon Web Services Marketplace**, use the following values in the quote:
+  - Invoice Owner = Amazon Web Services, Inc.
+  - Invoice Owner Contact = Accounts Payable (AWS)
+  - Resale Partner = Amazon Web Services
 
 ### Opportunity Tagging for Carahsoft Distributor Seller of Record (DSOR) AWS Marketplace Transactions
 
