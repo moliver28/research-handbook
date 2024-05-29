@@ -216,7 +216,7 @@ A few examples:
 
 - Downtime is not acceptable in SaaS, but that is also not acceptable for self-managed users. By designing a feature that covers both of these use cases, we can avoid inflicting additional work to the end users whether they are using SaaS or self-managed.
 - It is ok to release functionality to SaaS first, as long as there is a solution for self-managed users. By designing a feature that can be managed in SaaS environments, and thinking through how self-managed users could operate this feature on their own, we reduce the burden of supporting many different ways of operating individual functionality.
-- Involve infrastructure team early in your design process to ensure that not only is there no downtime, but that the deployment to SaaS can be low toil.
+- While a feature can be enabled first on SaaS via a feature flag or setting, the underlying implementation must also exist, although disabled, on self-managed.
 
 In line with our [SaaS-first rollouts](#rollout-features-on-saas-first) principle, some features may be released on SaaS to gain operational experience and apply learnings prior to recommending and supporting customers using it. Features would be present of self-managed codebase but are disabled until General Availability.
 
