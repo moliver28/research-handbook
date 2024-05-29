@@ -37,6 +37,7 @@ For urgent requests of the Candidate Experience Specialist team, we encourage yo
 |--------------------------|-----------------|
 | Talent Acquisition         | Jess Dallmar |
 | Talent Brand | Devin Rogozinski |
+| Talent Acquisition (Emerging Talent)| Justin Smith |
 | Talent Acquisition (Sales) | Jake Foster|
 | Talent Acquisition (EMEA and APAC Sales) | Jake Foster |
 | Talent Acquisition (Marketing & G&A) | Steph Sarff + Jake Foster |
