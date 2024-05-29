@@ -233,7 +233,7 @@ Job Stories should be created to synthesize and summarize your data from your Jo
 
 Job Stories emphasize the situation and context over the individual. Ultimately, Job Stories combine your top insights to one place and summarize them. Good Job Stories describe the pain points that you’re going after and help you empathize with the Job Performer.
 
-**Paint points must:**
+**Pain points must:**
 
 - Express a need, not a solution
 - Be concrete, not abstract
