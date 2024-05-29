@@ -31,6 +31,3 @@ Of the 11 responses received (25% response rate) all 11 said that the above focu
 1. [This Epic board](https://gitlab.com/groups/gitlab-com/customer-success/-/epic_boards/14748?label_name[]=TAM) shows the relevant epics for the following points
 1. Each Big Rock initiative is housed in an epic, with a CSM Manager DRI.  CSMs are encouraged to contribute, and progress made is reported back to the team in the bi-weekly team meeting
 1. The CSM segmentation is also housed in an epic, and roll-out is reported upon in the team meeting also.
-
-
-

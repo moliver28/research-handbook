@@ -212,7 +212,6 @@ By asking additional "why does this matter?" questions after the initial mention
 
 If you'd like to see more examples of how to use the Five Whys framework and what it could look like in practice, take a look at the [Five Whys breakout session from SKO 2021](https://gitlab.edcast.com/insights/breakout-leveling).
 
-
 ## Examples
 
 ### Customer meeting about DORA Metrics with GitLab
@@ -228,7 +227,3 @@ One of our customers has asked to have a meeting to understand what GitLab can o
 - Are there additional tools involved? Which ones?
 - Would API/export CSV from GitLab help display all data in one place?
 - What other metrics you interested in? (i.e., developers' performance, the time between releases, etc.)
-
-
-
-
