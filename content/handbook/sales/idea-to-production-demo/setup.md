@@ -1,13 +1,6 @@
 ---
-
 title: "Set up your own test OpenShift Origin instance for the Idea to Production Demo"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -66,19 +59,19 @@ Configure the Docker daemon with an insecure registry parameter of `172.30.0.0/1
 
  - In RHEL and Fedora, edit the `/etc/sysconfig/docker` file and add or uncomment the insecure registry line:
 
-     ```console
-     sudo vi /etc/sysconfig/docker
-     ```
+   ```console
+   sudo vi /etc/sysconfig/docker
+   ```
 
-     ```console
-     INSECURE_REGISTRY='--insecure-registry 172.30.0.0/16'
-     ```
+   ```console
+   INSECURE_REGISTRY='--insecure-registry 172.30.0.0/16'
+   ```
 
  - After editing the config, restart the Docker daemon.
 
-     ```console
-     sudo systemctl restart docker
-     ```
+   ```console
+   sudo systemctl restart docker
+   ```
 
  - In Ubuntu edit `/lib/systemd/system/docker.service` and edit the `ExecStart` line:
 

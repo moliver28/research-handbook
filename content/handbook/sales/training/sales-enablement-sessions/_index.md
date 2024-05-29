@@ -300,13 +300,13 @@ Field Enablement Spotlight sessions are scheduled on the [Sales Enablement calen
   - Add an `index.html.md` file to that directory.
     - Use this template:
 
-    ```markdown
-    ---
-    title: "Title goes here"
-    ---
+      ```markdown
+      ---
+      title: "Title goes here"
+      ---
 
-    ## Title goes here
-    ```
+      ## Title goes here
+      ```
 
   - Add your content to this page.
   - Add links to any other pages you need to reference on this page so you can present from training page.

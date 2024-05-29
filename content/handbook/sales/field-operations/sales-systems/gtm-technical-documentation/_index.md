@@ -704,6 +704,7 @@ Here is the config table for the automation logic for reference:
   - `zi_sub_industry__c`
   - `Industry`
   - `Account_Demographics_UPA_Country__c`
+
 **Related Issues:**
   - [Pub Sec Type](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/2663)
 
