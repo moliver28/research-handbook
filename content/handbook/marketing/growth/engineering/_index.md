@@ -16,7 +16,7 @@ as well our own [areas of responsibility](/handbook/marketing/growth/#product-ow
 
 ## Direction
 
-We work on the issues prioritized by our product teams including running [experiments](/handbook/engineering/development/growth/experimentation/) on GitLab.com.
+We work on the issues prioritized by our product teams including running [experiments](/handbook/marketing/growth/engineering/experimentation/) on GitLab.com.
 More information on priorities can be found on the [Growth direction](/handbook/marketing/growth/) page.
 
 Growth stage teams have Fullstack Engineers.
@@ -33,7 +33,7 @@ Some useful links to see how and what we are working on include:
 - [acquisition](acquisition/) group
 - [activation](activation/) group
 
-Growth teams contribute to a GitLab [experimentation](/handbook/engineering/development/growth/experimentation/) gem to make it easier to run experiments and make data driven product decisions on GitLab.com.
+Growth teams contribute to a GitLab [experimentation](/handbook/marketing/growth/engineering/experimentation/) gem to make it easier to run experiments and make data driven product decisions on GitLab.com.
 
 ## Roadmap
 
