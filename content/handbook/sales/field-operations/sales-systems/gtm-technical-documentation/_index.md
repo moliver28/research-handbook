@@ -674,9 +674,9 @@ Here is the config table for the automation logic for reference:
 **Overview:** This process maintains the values on two field on the Opportunity Recrod, `Comp_New_Logo_Override__c` and `New_Logo_Override_Clari__c`. As the names suggest the `Comp_New_Logo_Override__c` is a field that feeds into the Compensation process and is leveraged by the compensation team in Xactly and `New_Logo_Override_Clari__c` is a corresponding field that shares similar characteristics as the Comp field but feeds directly into Clari for forecasting needs.
 **Related Issues:**
 
-  - [New_Logo_Override_Clari__c Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/3138)
+- [New_Logo_Override_Clari__c Issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/3138)
 
- **Logic Locations:**
+**Logic Locations:**
 
 - [OpportunityClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/OpportunityClass.cls)
   - `stampCompNewLogoOverride`
@@ -709,9 +709,12 @@ Here is the config table for the automation logic for reference:
 - [AccountJob_SetPubSecType.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountJob_SetPubSecType.cls)
 - [AccountJob_SetPubSecTypeTest.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountJob_SetPubSecTypeTest.cls)
 - [AccountClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountClass.cls)
+
   - `setPubSecType`
   - `determinePubSecType`
+
 - [AccountClassTest.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountClassTest.cls)
+
   - `determinePubSecType`
 
 ### Set Lead Address on Account on Lead Conversion
