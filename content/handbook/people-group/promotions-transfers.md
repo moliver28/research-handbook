@@ -351,25 +351,27 @@ Promotion candidates should follow these steps to request feedback as part of ou
     - *Each promotion candidate should make a copy of this form to use to collect feedback from their respective feedback providers.*
     - **Due date: 2024-06-07**
 4. Team member identifies stakeholders for feedback request
+    - Team members should select 3-4 team members to provide feedback and review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment.
     - Requirements for feedback providers are: 
         - Feedback provider should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher) 
         - Feedback provider should have direct experience working with the team member on one or more of the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document).
         - Feedback provider is not in the same reporting line as the manager (I.E. not team member's manager, skip level, etc.)
         - Feedback providers can be cross-functional or within the division, with a mix of both being the preference and recommendation. The core focus when thinking through who the most appropriate team members to provide feedback are is to reflect on who worked most closely with the promotion candidate on the business results highlighted in the promotion document. 
-    - Team members should select 3-4 team members to provide feedback and review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment.
+5. Team member sends out feedback form copy to feedback providers
+    - This references the form promotion candidates made a copy of in Step 3.
     - Team members can leverage this as a structure to include in the feedback request if helpful: *Hi [team member name], I am currently under consideration for a promotion to [next level job title]. I would really appreciate your feedback on our work together, specifically on results and our collaboration related to [name business result]. Please complete this feedback form by [insert due date]. You can read more about the feedback process [link this handbook section].*
     - For promotion candidates requesting feedback and for team members providing feedback, we recommend that you review our [Guidance on Feedback](https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/) ahead of the process kicking off. The [S-B-I model](https://handbook.gitlab.com/handbook/people-group/guidance-on-feedback/#s-b-i-model) can be a helpful framework in ensuring feedback is structured in a clear and digestible way.
     **Feedback will be ongoing from 2024-06-10 through 2024-06-21. All feedback needs to be obtained by 2024-06-21.**
-5. Team member and manager analyze feedback
+6. Team member and manager analyze feedback
     - Team member shares the feedback obtained with their manager and they discuss and analyze themes and trends
     - Team member and manager compile themes to share with CISO direct (if applicable)
     - **Due date: 2024-06-28**
-6. CISO direct adds to calibration agenda
+7. CISO direct adds to calibration agenda
     - CISO direct is responsible for adding promotion feedback to the CISO directs promotion calibration agenda to ensure visibility ahead of the calibration session.
     - **Due date: 2024-07-05**
-7. Calibration session occurs
+8. Calibration session occurs
     - Calibration is scheduled for 2024-07-08 where CISO directs calibrate promotion candidates across the division.
-8. Managers communicate promotion status
+9. Managers communicate promotion status
     - Promotions are effective 2024-08-01 aligned with a communication window of 2024-07-24 to 2024-08-01 aligned with the [company-wide timeline](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#fy25-q3-2nd-half)
     - Managers will communicate successful or unsuccessful promotion with team members directly. For unsuccessful promotions, clear feedback should be provided to the team member.
 <br></br>
