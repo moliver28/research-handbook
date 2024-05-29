@@ -152,6 +152,7 @@
 /content/handbook/engineering/development/ops/verify/pipeline-execution/ @carolinesimpson
 /content/handbook/engineering/development/ops/verify/pipeline-security/ @shampton
 /content/handbook/engineering/development/ops/verify/runner/ @nicolewilliams
+/content/handbook/engineering/development/processes/Infra-Dev-Escalation @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @pcalder
 /content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @pcalder @ryaanwells
 /content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
