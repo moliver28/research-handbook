@@ -27,7 +27,7 @@ Ensure Python 3 is installed on your machine. If not, download and install it fr
 
 #### Install Required Python Libraries
 
-Open your terminal and install the following libraries:
+Open your terminal and install the following libraries
 
 ```bash
 pip install requests langsmith langchain langchain-openai
@@ -343,7 +343,7 @@ module Gitlab
 end
 ```
 
-###### Example of a modified base_prompt method to improve clarity:
+###### Example of a modified base_prompt method to improve clarity
 
 ```ruby
 module Gitlab
@@ -413,7 +413,7 @@ git commit -m "Add LangSmith evaluation script and CI/CD pipeline"
 git push origin main
 ```
 
-#### Monitor the Pipeline 
+#### Monitor the Pipeline
 
 Navigate to your GitLab project and monitor the CI/CD pipeline. Ensure the job evaluate_langsmith runs successfully.
 
