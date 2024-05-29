@@ -148,15 +148,15 @@ Depending on the customers use cases; please select the appropriate questions be
 - [ ] How has shifting security earlier in the delivery lifecycle impacted your speed to deliver?
 - [ ] Which are you using for the following scan types? (GitLab or 3rd party) Note where GitLab replaced an incumbent third party scanner.
 
-      - [ ] SAST
-      - [ ] DAST (in pipeline or ondemand?)
-      - [ ] Dependency scanning
-      - [ ] Container scanning
-      - [ ] Secrets detection
-      - [ ] Coverage guided fuzzing
-      - [ ] API fuzzing
-      - [ ] License Compliance
-      - [ ] Vulnerability management (In the MR and/or in the Security dashboard?)
+  - [ ] SAST
+  - [ ] DAST (in pipeline or ondemand?)
+  - [ ] Dependency scanning
+  - [ ] Container scanning
+  - [ ] Secrets detection
+  - [ ] Coverage guided fuzzing
+  - [ ] API fuzzing
+  - [ ] License Compliance
+  - [ ] Vulnerability management (In the MR and/or in the Security dashboard?)
 
 - [ ] Do you export the vulnerabilities found to anywhere else? (like SIEM, Risk Mgmt, another dashboard?)
 
@@ -175,22 +175,22 @@ Depending on the customers use cases; please select the appropriate questions be
 **Cloud Native Approach to Applications Development (CloudNative)**
 
 - [ ] How are you developing and managing cloud native applications?
->
-> - [ ] K8s executor?
-> - [ ] Canary deployments?
-> - [ ] AutoDevOps? Using Templates?
-> - [ ] CI/CD to orchestrate deployments?
->
+
+  - [ ] K8s executor?
+  - [ ] Canary deployments?
+  - [ ] AutoDevOps? Using Templates?
+  - [ ] CI/CD to orchestrate deployments?
+
 - [ ] How has GitLab helped you to manage cloud native/microservices?
 - [ ] What are the benefits of using GitLab's kubernetes integration?
 - [ ] How long have you been using Cloud Native, what has the journey been like?
->
-> - [ ] When did you start adopting K8s? (before/after GitLab?)
->
+
+  - [ ] When did you start adopting K8s? (before/after GitLab?)
+
 - [ ] How many clusters do you have?
 - [ ] If Autoscaling - what were you doing before?
->
-> - [ ] How long did it take you? (cost of efficiency, speed, security)
+
+  - [ ] How long did it take you? (cost of efficiency, speed, security)
 
 **Infrastructure as Code (GitOps)**
 
