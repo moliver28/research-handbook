@@ -336,7 +336,7 @@ As a leader, if your team member's promotion is approved, you will need to reset
 
 ### FY25 Security Promotion Process
 
-Giving and receiving feedback is a critical part of building high performing teams. Feedback from stakeholders on key business results achieved is an important data point to consider when assessing team member promotion readiness. In an effort to continue to foster a feedback culture within the Security division and ensure we are calibrating collaboration effectivess through business results, starting in FY25 Q3 we will be embedding a formal feedback touchpoint into our promotion process for the division. **Please note that the feedback does not determine whether the team member is ready for promotion in isolation, but is rather a data point to consider throughout the promotion planning and calibration process.**
+Giving and receiving feedback is a critical part of building high performing teams. Feedback from stakeholders on key business results achieved is an important data point to consider when assessing team member promotion readiness. In an effort to continue to foster a feedback culture within the Security division and ensure we are calibrating collaboration effectiveness through business results, starting in FY25 Q3 we will be embedding a formal feedback touchpoint into our promotion process for the division. **Please note that the feedback does not determine whether the team member is ready for promotion in isolation, but is rather a data point to consider throughout the promotion planning and calibration process.**
 
 Promotion candidates should follow these steps to request feedback as part of our bi-annual promotion process:
 
