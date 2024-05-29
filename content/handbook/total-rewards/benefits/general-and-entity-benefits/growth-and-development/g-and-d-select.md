@@ -22,7 +22,7 @@ Conferences are a great tool for professional development, they provide networki
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. [Really cool blog post about it](https://www.linkedin.com/pulse/my-kubecon-cloudnativecon-adventure-hope-oluwalolope-psa1c/) | London, GB, & other smaller events globally |
+| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. They're a great opportunity to learn from industry experts on DevOps, Cloud, and other topics directly relevant to GitLab's business. If you're curious about KubeCon events, there's plenty to read about them. Here's a [blog post](https://www.kristhecodingunicorn.com/post/kubecon-cloudnativecon-eu-2023-takeaways/) for starters with an overview and some tips on attending. | Worldwide |
 | AWS re:Invent | AWS re:Invent is a learning conference hosted by AWS for the global cloud-computing community. The in-person event features keynote announcements, training and certification opportunities, 2,000+ technical sessions, the Expo, after-hours events, and so much more. | Las Vegas, NV |
 | Ruby Conferences | Why attend Ruby Conferences? | Global |
 | Web Directions Summit | Why attend Web Directions Summit? | APAC |
@@ -35,7 +35,7 @@ Conferences are a great tool for professional development, they provide networki
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| KubeCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
+| DefCon | KubeCon is the flagship conference of the Cloud Native Computing Foundation. At KubeCon, you can learn the state-of-the-art for cloud-native software development and modern operations and deployment techniques. | London, GB, & other smaller events globally |
 
 </details>
 
@@ -61,9 +61,9 @@ Conferences are a great tool for professional development, they provide networki
 <details>
 <summary>Marketing</summary>
 
-| **Conference** | **Why attend?** | **Location** |
-|----------------|-------------------------| ------- |
-| What | Denise opportunities list | Virtual |
+| **Conference** | **Why attend?** | **Location** | **Departments** |
+|----------------|-------------------------| ------- | ------- |
+| The Alliance Conferences | The Alliance has a range of brands, each of which offers live events on it's particular specialism - Product Marketing, Customer Marketing, AI Accelerator, and more. Team members have previously attended events with the Customer Marketing Alliance and would strongly recommend them to others in the Marketing org. | AMER & Virtual | All |
 
 </details>
 
