@@ -224,22 +224,14 @@ Code Units:
 
 **Supported Groups**
 
-- `@sales-support`
-  - This alias is leveraged by the Deal Desk team to manage inbound requests from the Sales Team.
-- `@billing ops`
-  - This alias is leveraged by the Billing team to manage inbound requests as they pertain to Billing.
-- `@revenue`
-  - This alias is leveraged by the Revenue team to review Opportunities and how we will record revenue.[Detailed Response Here](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/859#note_386593491).
-- `@SMB Flat Renewals`
-  - This alias is used by our SMB team for flat renewal support. Please see this Section of the handbook for how this is used.
-- `@Partner Help Desk`
-  - This alias is used by the Channel Partner Help Desk (PHD) Team. Please see this [Section of the handbook](/handbook/sales/field-operations/channel-operations/#partner-help-desk-support-and-communication) for more information.
-- `@Sales-Comp`
-  - This alias is used by our Compensation Team and should be used to reach out to them regarding, splits, compensation etc. as it pertains to specific opportunities.
-- `@Partner-Ops`
-  - This alias is used by our Partner Operations team and should be used to reach out to them - Link to their business section coming soon
-- `MktgOps-Support`
-  - This alias is used by our Marketing Operations team and should be used to reach out to them - Link to their business section coming soon
+- `@sales-support`: Used by the Deal Desk team to manage inbound requests from the Sales Team.
+- `@billing ops`: Used by the Billing team to manage inbound requests as they pertain to Billing.
+- `@revenue`: Used by the Revenue team to review Opportunities and how we will record revenue.[Detailed Response Here](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/859#note_386593491).
+- `@SMB Flat Renewals`: Used by our SMB team for flat renewal support. Please see this Section of the handbook for how this is used.
+- `@Partner Help Desk`: Used by the Channel Partner Help Desk (PHD) Team. Please see this [Section of the handbook](/handbook/sales/field-operations/channel-operations/#partner-help-desk-support-and-communication) for more information.
+- `@Sales-Comp`: Used by our Compensation Team and should be used to reach out to them regarding, splits, compensation etc. as it pertains to specific opportunities.
+- `@Partner-Ops`: Used by our Partner Operations team and should be used to reach out to them - Link to their business section coming soon
+- `MktgOps-Support`: Used by our Marketing Operations team and should be used to reach out to them - Link to their business section coming soon
 
 **Steps to add a Group:**
 
@@ -319,7 +311,7 @@ Code Unit:
   - ProtectClosedOppOwnersAfter
 - Triggers
   - [AccountTrigger.trigger](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/triggers/AccountTrigger.trigger)
-- Clases
+- Classes
   - [AccountClass.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountClass.cls)
 - Tests
   - [AccountClassTest.cls](https://gitlab.com/gitlab-com/sales-team/field-operations/salesforce-src/-/blob/master/force-app/main/default/classes/AccountClassTest.cls)
