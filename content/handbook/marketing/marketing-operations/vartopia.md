@@ -288,14 +288,35 @@ This will allow the Distributor to tie the DR to the campaign, HOWEVER, we’ll 
 
 This process is still a work in progress, follow along in this [epic](https://gitlab.com/groups/gitlab-com/-/epics/2249) for the next iteration.
 
-#### Value-Add Campaign
+#### Campaigns Without Leads
 
-The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI.
+The purpose of this use case is to allow Value-Add campaigns to be available in the Distirbutor Marketing Campaign dropdown to track ROI, which doesn't require a lead list.
 
-1. Gabby - Create a Marketing Ops issue assigned to Salina requesting to have the SFDC campaign created and provide the name of the campaign.
-2. Salina - Create the SFDC campaign, and Salina will provide Gabby with the Salesforce Campaign ID
-3. Gabby - Add Campaign name and info to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1)
-4. This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
+1. Carahsoft - Add the Event/Activity Name and Campaign Code to the [Carahsoft Marketing Plan spreadsheet](https://docs.google.com/spreadsheets/d/12HTBd4wye-G-Ep6-WKFQ6dtYkambLN2U-OMihzF0NFE/edit)
+1. Gabby - Assign Salina to the Campaign Code column
+1. Salina - Create the SFDC campaign and add Campaign Name and Campaign Code to the [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1). This will allow the Campaign Name to be displayed on the Distributor Marketing Campaign.
+1. Salina - Add SFDC Campaign ID, SFDC Campaign Link and confirm the campaign name has been added to the Smartsheet under the `Added to smartsheet` column.
+
+#### Campaigns Worked by Sales Dev
+
+This is not an MDF campaign, as referenced in the name, it's a value-added where the leads will be worked by the Sales Dev team.
+
+1. Allocadia - Create a subcategory and line item, then open the epic and issues (using the GitLab issue - Allocadia integration). The Gitlab epic and issues will include an issue template called, [Partner Sales Campaign - BDR Collaboration Template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/Partner_Sales_BDR_Collaboration_Template.md?ref_type=heads). The purpose of this issue is to communicate how the Sales Dev team is expected to follow up with the campaign.
+2. Follow the [instructions](https://handbook.gitlab.com/handbook/marketing/channel-marketing/partner-campaigns/#partner-campaigns) to setup Marketo Program and SFDC Campaign.
+   1. Setup in Marketo
+      1. Clone the appropriate FM program template
+      1. Update Flow - Lead Acquisition Source = Partner Managed Campaign
+      2. Fill out the Tokens
+   2. Sync to Salesforce Campaign
+      1. Update `Is the Channel Partner Involved?` = Yes
+      2. Update `Channel Partner Name` with Partner Name (Exact match to the Account Name)
+      3. Mark campaign as `High Priority`
+   3. Update Salesforce Campaign
+3. Spreadsheet - Assign Salina to the [Carahsoft Marketing Plan spreadsheet](https://docs.google.com/spreadsheets/d/12HTBd4wye-G-Ep6-WKFQ6dtYkambLN2U-OMihzF0NFE/edit) to  Add Salesforce Campaign to [Smartsheet](https://app.smartsheet.com/sheets/Jrr5PhjRjRfH965FqrvCq7GC9p56whHXp22C98m1) (Interim process until the next iteration)
+4. Upload lead list via Google Drive
+   1. Include `CRM Partner ID`
+   1. Add `Partner Lead Worked by Sales Dev` = `True` column
+   2. Once imported, if the lead is net new, the source will be changed to `Partner Qualified Lead` (Automated)
 
 ## Field Glossary
 
