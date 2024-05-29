@@ -140,7 +140,7 @@ For additional assistance with accessing your GCP project, see the [GitLab Sandb
 
    ![Cloud shell example](https://storage.googleapis.com/gitlab-demosys-docs-assets/tutorials/getting-started/configuring-group-cluster-13.png)
 
-6. **Use the following command** to create the service account.
+1. **Use the following command** to create the service account.
 
    ```console
    kubectl create sa gitlab-admin -n kube-system
