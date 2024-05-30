@@ -467,4 +467,4 @@ Before releasing an analyzer with a newer version of its upstream scanner, we mu
 
 [Vulnerability SLAs]: /handbook/security/threat-management/vulnerability-management/#remediation-slas
 
-[Vulnerabilities near SLA breach]: https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ANear%20Breach&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3ADenied&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AAccepted&first_page_size=20
+[Vulnerabilities near SLA breach]: https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Acomposition%20analysis&label_name%5B%5D=bug%3A%3Avulnerability&label_name%5B%5D=SLA%3A%3ANear%20Breach&amp;not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3ADenied&amp;not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AOpen&amp;not%5Blabel_name%5D%5B%5D=FedRAMP%3A%3ADR%20Status%3A%3AAccepted&first_page_size=20
