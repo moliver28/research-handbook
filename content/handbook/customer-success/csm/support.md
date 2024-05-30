@@ -118,19 +118,19 @@ CSM guidance on [contact management projects](https://handbook.gitlab.com/handbo
 
 Who has access to a Contacts Management Project?
 
-  * Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
+  - Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
 
 How do I know if my customer has a contacts management project?
 
-  * The best source is to check the organization within Zendesk. It will have a field on the left sidebar toward the bottom called `Contact Management Project ID` that points to the project being used. If that field has a value, the customer has a contact management project.
+  - The best source is to check the organization within Zendesk. It will have a field on the left sidebar toward the bottom called `Contact Management Project ID` that points to the project being used. If that field has a value, the customer has a contact management project.
 
 How do I know which customer users can access the contacts management project?
 
-  * The people who can access the contact management project are stored in the `CMP Developers` field on the organization page (right below `Contact Management Project ID`)
+  - The people who can access the contact management project are stored in the `CMP Developers` field on the organization page (right below `Contact Management Project ID`)
 
 How do I know which users can open support tickets?
 
-  * Within the customer's organization in Zendesk, there is a `Users` tab that syncs with the contacts management project and will show who has support entitlement.
+  - Within the customer's organization in Zendesk, there is a `Users` tab that syncs with the contacts management project and will show who has support entitlement.
 
 ## Helpful links
 
@@ -139,4 +139,3 @@ How do I know which users can open support tickets?
 - [GitLab.com Status and Notifications](https://status.gitlab.com/)
 - [Customer Onboarding](/handbook/customer-success/csm/onboarding/)
 - [Escalation Process](/handbook/customer-success/csm/escalations/)
-
