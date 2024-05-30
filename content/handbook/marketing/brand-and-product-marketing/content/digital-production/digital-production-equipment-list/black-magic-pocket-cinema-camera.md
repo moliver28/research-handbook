@@ -36,7 +36,7 @@ The Blackmagic Pocket Cinema is a camera designed for professional quality video
 1. Once you've aligned the dots and inserted the lens, **rotate the lens clockwise** until you feel a click.
 1. The lens is now attached to the camera, **remove the cap** on the front of the lens to allow for viewing.
 1. On the side of the lens, ensure that the **autofocus (AF)** feature is turned on.
-2. To remove a lens, hold the **release button** immediately beside the lens mount and twist the lens to the left until it comes free.
+1. To remove a lens, hold the **release button** immediately beside the lens mount and twist the lens to the left until it comes free.
 
 ### Prepare Your SD Card
 
@@ -48,7 +48,7 @@ This proccess will **permanently delete the contents of your SD Card** to prepar
 1. Select **Format SD Card**.
 1. Select **OS X Extended** to prepare your card for use with Apple Products.
 1. Select **Format Sd Card**.
-2. Repeat this process for the other card slot, if necessary.
+1. Repeat this process for the other card slot, if necessary.
 
 Your card is now cleared of footage and ready to use!
 
@@ -163,7 +163,7 @@ The White Balance settings removes color cast from your image and helps white ap
 1. Connect headphones to the camera using the port located on the left side of the camera, towards the top.
 2. Using the LCD Touch Screen, select the audio meters on the lower right side.
 3. Use the headphones to listen for any unwelcome noise in your audio. Common examples are clicking jewelry or watches against a desk or table, fans and vents, kitchen appliances turning on, or outside traffic.
-3. While your subject is speaking confidently, adjust the levels until they very gently enter the yellow portion of the meter. This will record at an appropriate level, while allowing room for futher noise should your subject laugh or exclaim something loudly.
+4. While your subject is speaking confidently, adjust the levels until they very gently enter the yellow portion of the meter. This will record at an appropriate level, while allowing room for futher noise should your subject laugh or exclaim something loudly.
 
 ## Recording with your Blackmagic
 
@@ -280,6 +280,3 @@ GVM Panel lights should be operated in CCT mode only. In most cases, it will not
 </figure>
 
 **[User Manual](https://cdn.shopify.com/s/files/1/2489/1934/files/TMP100_-_User_Manual-_Dec_20.pdf?v=1608143109)**
-
-
-

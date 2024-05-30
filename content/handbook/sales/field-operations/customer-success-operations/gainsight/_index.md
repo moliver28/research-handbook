@@ -153,7 +153,7 @@ Zendesk objects used in Connector job to load data to `Zendesk Ticket V2 MDA` ob
 
 ### Snowflake connector
 
-More details in the [Product Usage Data]() section.
+More details in the Product Usage Data section.
 
 At the time of writing, the Snowflake connector is only available to use in the Data Designer and in Adoption Explorer. You cannot see the jobs from the Connector 2.0 interface in Gainsight.
 

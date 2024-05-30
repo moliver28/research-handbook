@@ -4,10 +4,11 @@ description: "Contributor Success Team"
 ---
 
 ## Common Links
+
 |  | |
 |-----|-----|
 | **GitLab Team Handle** | [`@gitlab-org/developer-relations/contributor-success`](https://gitlab.com/gitlab-org/developer-relations/contributor-success) |
-| **Slack Channel** | [`#contributor-success`](https://gitlab.slack.com/archives/C02R0NE6P6C) & [`#contributor-success-confidential`](https://gitlab.slack.com/archives/C04KENT97K7)
+| **Slack Channel** | [`#contributor-success`](https://gitlab.slack.com/archives/C02R0NE6P6C) & [`#contributor-success-confidential`](https://gitlab.slack.com/archives/C04KENT97K7) |
 | **Slack Channels from initiatives that we help drive**| [`#leading_organizations`](https://gitlab.slack.com/archives/C03KC7N184D)  |
 | **Team Boards** | [`gitlab-org/-/boards/4296693`](https://gitlab.com/groups/gitlab-org/-/boards/4296693) |
 | **Issue Tracker** | [`gitlab-org/developer-relations/contributor-success/team-task`](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues) |
@@ -15,6 +16,7 @@ description: "Contributor Success Team"
 ---
 
 ## Sub-pages
+
 |  | |
 |-----|-----|
 | **Workflows** | [Contributor Success Contributor Workflows](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows) |
@@ -55,7 +57,7 @@ ranges from supporting customers on contributions, supporting various open sourc
 #### Unique New Monthly Contributors
 
 1. Minimize reliance on human interaction
-1. Reduce volatility through introducing [automations](#community-merge-request-workflow-automations) that drive contributions
+1. Reduce volatility through introducing automations that drive contributions
    forward automatically
 1. Capitalize on untapped potential - MRs that have become stale but have received a seal of approval as useful addition to GitLab.
 1. Invest into attracting more new contributors
@@ -99,7 +101,7 @@ to the program.
 - Improve GitLab's Contribution Efficiency and [merge request coaching](/job-families/expert/merge-request-coach/) process.
 - Contribute as a [merge request coach](/job-families/expert/merge-request-coach/) in one or more specialties by providing guidance to community contributors on technical and non-technical aspects.
 - Be a point of escalation for community contributors and identify GitLab DRIs to resolve blockers.
-- Organize community contributors into [community teams](#gitlab-community-teams-structure) and ensure their success.
+- Organize community contributors into [community teams](#team-members) and ensure their success.
 - Track [contribution](https://about.gitlab.com/community/contribute/) delivery of the Community Contributors and Cohorts.
 - Nominate impactful community contributors and contributions for recognition.
 - Select and recognize a [GitLab MVP](/handbook/marketing/developer-relations/contributor-success/mvp-process) for each release post
@@ -301,7 +303,6 @@ Everything that we're working actively is present above the cut-line. Our planni
   - Everything that relates to [Scaling the Community](/handbook/engineering/open-source/growth-strategy.html#scale-the-community) as defined by our [Open Source Growth Strategy](/handbook/engineering/open-source/growth-strategy.html)
 - `~contributorgrowth::internal`
   - Everything that relates to internal processes such as onboarding, internal issues such as tooling or customer & company specific tasks.
-
 
 ### Monthly planning meeting
 

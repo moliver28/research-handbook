@@ -17,6 +17,7 @@ Complex projects and programs, securing teams in a matrixed world to organize an
 ### Personas / job titles
 
 Clearly these titles:
+
 - **Contributors:** Project Manager, Scrum Master, Product Manager(see note about Product Manager),  Business Analyst (BA)
 - **Managers:**  Program Manager, Portfolio Director
 - **Executives:**  PMO Director, EPMO Director, perhaps VP EPMO or VP Shared Services.

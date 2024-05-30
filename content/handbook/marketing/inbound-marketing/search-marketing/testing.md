@@ -1,10 +1,7 @@
 ---
-
 title: "Testing for conversion at GitLab"
 description: "The Inbound Marketing team run tests to improve visitor experience and conversion rate across about.gitlab.com."
 ---
-
-# Testing for conversion at GitLab
 
 We test changes at GitLab to verify a hypothesis for design or copy changes. These changes can use a variety of tools and methods, but the goal is the same: to make changes to help improve the visitor experience and better explain the value of GitLab.
 
@@ -17,6 +14,7 @@ We don't test fixes for typos, link updates, or other structural improvements to
 1. Improve customer experience
 
 ### Always be testing
+
 Testing requires a control and a variant within the same time period, while holding all other variables constant. Using A/B testing tools allow us to create tests to follow testing best practices and gather data about what works or does not work to encourage people to spend time on our site or [convert on a form](/handbook/sales/field-operations/gtm-resources/). With testing, we can make informed decisions about what works for our audience and helps them reach their goals, and what works for us to help use meet our business goals.
 
 ### Types of experiments

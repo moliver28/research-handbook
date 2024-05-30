@@ -27,7 +27,6 @@ twitter_creator: "@gitlab"
 - Contribute & Commit - No video requests will be accepted on site.
 - Contribute & Commit - Please open an interview request using the video-request issue template. You must use the production schedule to request an interview timeslot. Please be flexible because some intvs can run long and impact the day's production schedule. If you are late or fail to appear for your scheduled interview time, you may lose the chance to have your requested interview filmed.
 
-
 ## SLAs and procedures for videography at GitLab Connect events
 
 - Please open a request using the video-request issue template **as soon as your date and venue have been locked in.** You **do not** have to wait until a speaker has agreed to be recorded; this is the only general digital production SLA that does not apply for Connect events.
@@ -46,15 +45,17 @@ The following is an overview of how to prepare an Illustrator file for import in
 </figure>
 
 #### Checklist
+
 - One Artboard (1920x1080px)
 - Each Element to be animated is on an individual Layer
 
 ###### Artboard
+
 - After Effects will only display the content within the first artboard, ignoring the rest. Therefore, place all elements you wish to be imported into After Effects into the first artboard, and adjust its settings to **1920x1080px**. If there are multiple artboards, stack the Elements on the first artboard, or export each artboard into individual files, then remove any additional artboards.
 
 ###### Layers
-- It is preferable to have each individual element (icon, shape, or text) on an individual layer, as After Effects pulls from the layer level only. This is different from the typical approach of having each element within a separate group, but containing all those groups on the same layer. This may require some thought, as perhaps there are multiple elements to an overall shape that will require motion. The safest way to be sure that element is free for animation is to place it on its own individual layer. If there are simple vector paths within groups as part of the layer, they can be broken down into groups again within After Effects.
 
+- It is preferable to have each individual element (icon, shape, or text) on an individual layer, as After Effects pulls from the layer level only. This is different from the typical approach of having each element within a separate group, but containing all those groups on the same layer. This may require some thought, as perhaps there are multiple elements to an overall shape that will require motion. The safest way to be sure that element is free for animation is to place it on its own individual layer. If there are simple vector paths within groups as part of the layer, they can be broken down into groups again within After Effects.
 
 ## Related links and handbooks
 

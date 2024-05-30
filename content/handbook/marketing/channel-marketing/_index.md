@@ -21,6 +21,7 @@ Our Channel Marketing Managers support the channel go-to-market efforts through 
 ### Marketing-Ready
 
 Marketing-ready means:
+
 1. Partner has an approved business plan with GitLab
 1. Has a list of focus accounts mapped with GitLab
 1. Has a joint value proposition statement with GitLab
@@ -76,30 +77,33 @@ The goal is that we eventually have our partners aligned to our planning cycle, 
 6. On a bi-annual basis (every 6 months) our CMMs are responsible for creating a [scorecard](https://docs.google.com/spreadsheets/d/1MuyKcDYMeIdfIcRGSzfLgy0SmGUG8ASPrhb4W0iHxkk/edit#gid=0&range=A1) with our partners. We have this scorecard in order to align around what's mutually important to the success of both of our business and to help with goal setting for future quarters. This should be built in collaboration with the Marketing-Ready Channel partner.
 
 ### Requirements and SLAs for MDF budget approvals
+
 1. Requirements for an MDF budget review:
-   * Complete FY Partner Business Plan (provided by the Partner Account Manager/Partner Territory Manager)
-   * A joint value proposition with the partner (worked out jointly with the PAM/PTM and Channel Partner)
-   * A list of mapped accounts that we are targeting with this Channel Partner (provided by PAM/PTM)
-   * A complete marketing ready issue and Channel Partner scorecard (completed by CMMs)
-   * A complete MDF request epic with all tactic details (submitted by CMMs)
-   * A strategic marketing plan with the partner (included in the partner buisiness plan by CMMs)
+   - Complete FY Partner Business Plan (provided by the Partner Account Manager/Partner Territory Manager)
+   - A joint value proposition with the partner (worked out jointly with the PAM/PTM and Channel Partner)
+   - A list of mapped accounts that we are targeting with this Channel Partner (provided by PAM/PTM)
+   - A complete marketing ready issue and Channel Partner scorecard (completed by CMMs)
+   - A complete MDF request epic with all tactic details (submitted by CMMs)
+   - A strategic marketing plan with the partner (included in the partner buisiness plan by CMMs)
 2. SLAs
-   * All the above elements should be completed, prior to the CMM creating an MDF Request approval epic. We aim to approve the MDF budget requests within 7 working days of submission date by the CMM, however if the above requirements are missing or incomplete this time frame will be extended until all elements are received in full.
-   * Once CMM obtained budget approval for the campaign, it is the Partner Program Manager's responsibility to approve the tactic in SFDC within 48 hours.
-   * For easier tracking and enhanced transparency between the involved teams, the CMM is to apply due dates to MDF Request Epics.
-4. Flexi-budget requests
+   - All the above elements should be completed, prior to the CMM creating an MDF Request approval epic. We aim to approve the MDF budget requests within 7 working days of submission date by the CMM, however if the above requirements are missing or incomplete this time frame will be extended until all elements are received in full.
+   - Once CMM obtained budget approval for the campaign, it is the Partner Program Manager's responsibility to approve the tactic in SFDC within 48 hours.
+   - For easier tracking and enhanced transparency between the involved teams, the CMM is to apply due dates to MDF Request Epics.
+3. Flexi-budget requests
 On occasion we may consider supporting partners outside the [target markets](https://internal.gitlab.com/handbook/marketing/fy25-strategy/#target-markets-and-segments). For this we can leverage 5% of the overall quarterly MDF budget for the specific region. To gain approval for these tactics:
-   * The CMM opens a flexi-budget issue, [example](https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/1039).
-   * The justification for using funds outside the focus countries will have to be provided by the CAM
-   * The Regional Director of Channel reviews and vets the request
-   * Approval is granted by Regional Marketing Lead and the Global Director of Channel & Field Marketing if deemed appropriate
-   * The Regional FM Lead is responsible for tracking the MDF budget spend for all flexi budget requests in the region. SLAs for approving MDF flexi-budget requests differ case by case depending on the complexity of the request.
+   - The CMM opens a flexi-budget issue, [example](https://gitlab.com/gitlab-com/marketing/channel-marketing/-/issues/1039).
+   - The justification for using funds outside the focus countries will have to be provided by the CAM
+   - The Regional Director of Channel reviews and vets the request
+   - Approval is granted by Regional Marketing Lead and the Global Director of Channel & Field Marketing if deemed appropriate
+   - The Regional FM Lead is responsible for tracking the MDF budget spend for all flexi budget requests in the region. SLAs for approving MDF flexi-budget requests differ case by case depending on the complexity of the request.
 
 #### Approval status of MDF campaigns
-   * [EMEA channel marketing board](https://gitlab.com/groups/gitlab-com/marketing/-/epic_boards/48005?label_name%5B%5D=Channel%20Marketing&label_name%5B%5D=EMEA%20Channels) (GitLab internal)
-   * [APAC channel marketing board](https://gitlab.com/groups/gitlab-com/marketing/-/epic_boards/48005?label_name%5B%5D=Channel%20Marketing&label_name%5B%5D=EMEA%20Channels) (GitLab internal)
+
+   - [EMEA channel marketing board](https://gitlab.com/groups/gitlab-com/marketing/-/epic_boards/48005?label_name%5B%5D=Channel%20Marketing&label_name%5B%5D=EMEA%20Channels) (GitLab internal)
+   - [APAC channel marketing board](https://gitlab.com/groups/gitlab-com/marketing/-/epic_boards/48005?label_name%5B%5D=Channel%20Marketing&label_name%5B%5D=EMEA%20Channels) (GitLab internal)
 
 ### Team Roles and Responsibilities
+
 - **Channel Marketing Manager (CMMs)** - Responsible for building and driving the marketing strategy with the Marketing-Ready partners, including the usage of MDF & proposing which partners are ready to run campaigns WITH the Field Marketing team. The CMMs are regionally aligned, to collaborate with PAMs and PTMs in specific geographies.
 
 - **Field Marketing Managers (FMMs)** - The field marketing managers are responsible for articulating where we need channel partner engagement to drive demand generation plans, the FMMs collaborate directly with the regional Channel Marketing Managers to execute marketing campaigns WITH the marketing ready channel partners.
@@ -127,6 +131,7 @@ For more information about Partner Flash/News On Demand and process to become a 
 Global Channel Marketing hosts a quarterly webinar for our partner community.  Our goal is to provide updates and general marketing program news, as well as highlight one to three larger marketing program topics for a deeper dive.  Invitations are sent via our Partner Flash and News on Demand platform.  We target the global list of marketing contacts (those who have chosen a “marketing” role in their profile) as well as those in GitLab Channel roles, including our sales and program operations teams.  Invites are sent 30 days in advance of the event with a follow up at two weeks out and one day prior.  Those who register will receive a reminder email the day before the event. Members of our global channel marketing team attend and speak during the webinar, along with special guests from other GitLab organizations, depending on the topics we are covering.  Thank You and Sorry We Missed You emails will be sent post-event and provide access to webinar recordings, assets and resources.
 
 Our FY25 webinars dates are:
+
 - February
   - 2024-02-28 AMER/EMEA
   - 2024-02-29 APAC
@@ -190,7 +195,7 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
     - Once Epic has been created, the following sub-issues are created automatically and are linked to the Epic (links are to templates):
        - Campaign Creation
          - List Upload
-          - MDF POP
+         - MDF POP
             - For POP issues add labels
                - `MDF-POP` and use the scoped labels below to work through the approval process:
                - `MDF::POP Pending`: issues created but POP has not yet been received
@@ -200,11 +205,13 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
     - Once all sub-issues are completed, close out the epic.
 
 ### PTO Process for MDF Request Approvers
+
 Prior to your PTO, as an MDF request approver, you will need to update the `Delegated Approver` to your reporting manager so they have access to approve MDF requests while you are away. When you return, please remember to remove the `Delegated Approver`.
 
 When an approval request email is sent to the assigned approver, the delegated approver also receives an email notification that there is an approval request to review. Delegated approvers can't reassign approval requests; they can only approve or reject approval requests.
 
 Following the steps to update your Delegated Approver:
+
 1. Log into Salesforce
 1. On the top right of the page, click on the your name to drop down a menu, then select `My Settings`
 1. On the left column, click on `Personal` > `Approver Settings`
@@ -214,34 +221,36 @@ Following the steps to update your Delegated Approver:
    1. Save.
 
 ### Demand Generation activities eligible for MD
+
 Details are listed out in the [MDF handbook](/handbook/resellers/Channel-Program-Guide/MDF/#eligible-activities-and-required-proof-of-performance-mdf-activities).
 
 These activities are captured as `Campaign Type Details` on the campaign level in Salesforce.com for `Partner - MDF` [Campaign Type](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) only.
 
-
 ## Requesting Swag for Channel Events and Awards
 
 We offer Marketing Kit Swag for Marketing Ready partner, these kits consists of:
+
    - Banner stand
    - Table Cloth
    - 1000 stickers
    - 200 Swag items (examples would be: colorful cable set, iPhone stand, bottle opener key chain, etc)
 Please work with your Channel Marketing Managers to order your Marketing Kits.
 
-
 ## Concierge Program
+
 The Partner Concierge Program was created to help support partners to promote campaigns in their social channels by using a through-channel marketing automation platform to empower partners to market to their customers using co-branded campaigns.
 The tool is known as TCMA Demand Generation and it will be known for Partners as the Marketing Center within the Partner Portal.
 Partners will have a monthly meeting with the Program’s Manager and receive a customized content calendar that best suits their needs.
 In the Marketing Center, Partners will have access to real time reporting.
 
 ##### Key Features
+
 Social Syndication - SMARTlink technlogy directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
 Lead Management - gives your partners the ability to manage all the leads generated within the TCMA system via our simple dashboard.
 
 ##### How to Participate
-Reach out to partner-marketing@gitlab.com with the subject line: Partner Concierge Program and we will respond within 1 business day to schedule an introductory meeting.
 
+Reach out to partner-marketing@gitlab.com with the subject line: Partner Concierge Program and we will respond within 1 business day to schedule an introductory meeting.
 
 ## Partner Instant Marketing Campaign
 
@@ -272,25 +281,24 @@ We currently offer the Self-Managed form in English, Spanish, German, French, Ko
 
       *I agree that GitLab may share the data in this form with the GitLab partner that referred me to this landing page and GitLab's partner may contact me by email or telephone about relevant products, services and events. You may opt-out at any time by unsubscribing in future emails or contacting the GitLab partner directly.*
 
-
 - Next, test your custom URL to ensure you are receiving the leads inside the partner portal deal registration prospect section.
 
    - Learn more about where to find your leads by watching this [video](https://partners.gitlab.com/prm/English/s/assets?id=453616).
 
- - Use our [ready made assets](https://partners.gitlab.com/prm/English/c/marketing-free-trial#:~:text=Step%203%3A%20Get%20the%20word%20out) to create co-branded display ads, social posts, and emails to invite prospects to the trial. Link to your custom free trial URL to drive traffic to the Free Trial landing page.
+- Use our [ready made assets](https://partners.gitlab.com/prm/English/c/marketing-free-trial#:~:text=Step%203%3A%20Get%20the%20word%20out) to create co-branded display ads, social posts, and emails to invite prospects to the trial. Link to your custom free trial URL to drive traffic to the Free Trial landing page.
 
- - Once a user registers for a free trial on the landing page, they receive an auto-generated email from GitLab with their license key. Your next step: nurture and convert those leads! The links below provide you with the copy and supporting assets that you need to run your own email campaign to nurture your leads over the next 30-days on their buyer journey, from evaluation to purchase.
+- Once a user registers for a free trial on the landing page, they receive an auto-generated email from GitLab with their license key. Your next step: nurture and convert those leads! The links below provide you with the copy and supporting assets that you need to run your own email campaign to nurture your leads over the next 30-days on their buyer journey, from evaluation to purchase.
 
   - GitLab has created customizable assets that include social posts, display ads and emails to help promote your custom free trial links. You can download the full kit of free trial assets [here](https://partners.gitlab.com/prm/English/s/assets?id=439714&q=free%20trial%20kit).
 
-   - We recommend promoting these social posts and display ads on the following platforms:
+  - We recommend promoting these social posts and display ads on the following platforms:
       - LinkedIn
       - Reddit
       - Facebook
       - X (formely Twitter)
       - Developer focused communities such as Stackoverflow
-   - GitLab has provided you with a list of recommended AdWord keywords that can effectively help you target your desired audience and increase visibility for your microsite and free trial links. These keywords cover a wide range of topics related to DevSecOps and have been carefully selected to target the relevant audience interested in topics related to DevSecOps, continuous integration, continuous delivery, and software development. This list can be found [here](https://partners.gitlab.com/prm/api/objects/v1/asset/tzhnhfb5s0zf/_download).
-   - Additionally, it is asked that partners add "GitLab" as an account level phrase match negative keyword to their Google Ads.
+  - GitLab has provided you with a list of recommended AdWord keywords that can effectively help you target your desired audience and increase visibility for your microsite and free trial links. These keywords cover a wide range of topics related to DevSecOps and have been carefully selected to target the relevant audience interested in topics related to DevSecOps, continuous integration, continuous delivery, and software development. This list can be found [here](https://partners.gitlab.com/prm/api/objects/v1/asset/tzhnhfb5s0zf/_download).
+  - Additionally, it is asked that partners add "GitLab" as an account level phrase match negative keyword to their Google Ads.
 
 ## GitLab Hosted Partner Microsite Program
 
@@ -364,10 +372,8 @@ Note, the subject needs to be an exact match of what's displayed above, otherwis
 - **Gabby Chorny**: Senior Channel Marketing Manager for AMER and PubSec.
 Responsible for Planning, and MDF allocation of AMER Managed Partners. Works closely with PAMs and PTMs and the Field Marketing Team
 
-
 - **Daria Polukanina**: Channel Marketing Manager for EMEA and APAC.
 Responsible for Planning, and MDF allocation of EMEA and APAC Managed Partners. Works closely with PAMs and PTMs  and the Field Marketing Team
-
 
 ## The best way to contact our team is through our Slack channel
 
@@ -379,7 +385,6 @@ Responsible for Planning, and MDF allocation of EMEA and APAC Managed Partners. 
 
 - [MDF Requests](/handbook/marketing/channel-marketing/channel-marketing-epics/#mdf-requests)
 - [Channel Events](/handbook/marketing/channel-marketing/channel-marketing-epics/#channel-events)
-
 
 ## Operational set up of Partner Marketing Campaigns
 
@@ -410,6 +415,7 @@ and
 This handbook page is to walk through the technical and operational setup of different partner campaign types from Marketo → SFDC → Vartopia, including Marketo and SFDC campaign set up for MDF, Joint GitLab and Partner, Trials and Partner Managed Campaigns.
 
 The general steps required for creating a partner campaign include:
+
 1. Clone and update Marketo program template and tokens.
 2. Sync Marketo program to Salesforce - if necessary update campaign info.
 3. Import the partner lead list.
@@ -440,7 +446,6 @@ The recall process is built to be able to pull back partner leads that are not b
 
 For a running list of Channel Partners and their CRM IDs, which is critical to the channel partner lead flow, click [here](https://gitlab.my.salesforce.com/00O4M000004aSq6), while the `CRM Partner ID` for Alliance Partners can be found [here](https://gitlab.my.salesforce.com/00O8X000008mxIb).
 
-
 ## Types of Partner Campaigns
 
 Partners have many different type of campaigns that fit into specific categories. Each campaign has it's own ROE for lead routing and email practices. See the campaign [flow chart](https://www.figma.com/file/vOe7ohMpZfYCGEG3siIpbU/Partner-%2B-GitLab-Campaign-Workflows_2023-08-28_19-18-38?type=whiteboard&t=QvcXdK9p5nlkFL2I-1) to understand how leads are distributed.
@@ -470,11 +475,13 @@ In an attempt to extend our GitLab [CREDIT](/handbook/values/#credit) values to 
 Before starting this steps, note you'll need to have already set up the [Allocadia](/handbook/marketing/strategy-performance/allocadia/#channel-marketing-set-up) subcategory and line item.
 
 **Step 1: Setup Marketo Program**
+
 1. Clone Marketo Template and update program name: [YYYYMMDD__MDF_000_Partner_Name_Region_Event_Name](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/PG11842A1).
 1. Select the Program Name on the Summary page, this will unlock a description, where you will update description with the links to the SFDC MDF request, Coupa ID and Allocadia ID (if you have it), then `Save`.
 1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
 
 **Step 2: Sync Marketo Program to SFDC**
+
 1. In the Marketo Program Summary page, in `Salesforce Campaign Sync`, click on `Not Set`.
 1. `Salesforce Campaign Sync` will pop up, with a `Campaign` dropdown, select `Create New`, then `Save`. This will automatically populate the campaign tag, so you do not need to edit anything.
 
@@ -483,7 +490,7 @@ Before starting this steps, note you'll need to have already set up the [Allocad
 1. Under `Vartopia Partner Information`, select the `Partner Account` and check `Sync to Vartopia` for the campaign to sync to Vartopia.
 1. `Budgeted Cost` in SFDC pulls from your plan number, not your forecast number from Allocadia. If you do not have a plan cost in Allocadia then `Budgeted Cost` in SFDC will remain blank. If this is the case, you will want to add in your `Budgeted Cost` manually into your SFDC campaign.
 1. Under `MDF Request`, select the corresponding `MDF Request` to successfuly link to SFDC campaign.
-2. Once Allocadia has updated the SFDC campaign, you will need to double check `Campaign Type` and make sure it still says `Partner - MDF`. If it does not, please update the field.
+1. Once Allocadia has updated the SFDC campaign, you will need to double check `Campaign Type` and make sure it still says `Partner - MDF`. If it does not, please update the field.
 
 **Step 4: Update List Upload Request Issue**
 
@@ -549,6 +556,7 @@ GitLab allows Channel Partners to sponsor our owned events. The leads acquired b
 **Step 2**: Marketing Ops team will need to update the program flow.
 
 **Step 2a**: Update the smart campaign flow according to the lead creation method:
+
  - For online lead creation via form submission, update `01b - Registration`
  - For offline lead creation via list import, update `02b - Manual Upload Processing`
 
@@ -569,6 +577,7 @@ GitLab allows Channel Partners to sponsor our owned events. The leads acquired b
 Partners can host our self-managed trial form. They will have a specific UTM parameter that is captured upon form submit that allows us to pass that lead directly to the partner. Each page must have the UTM `utm_partnerid` in the URL populated, otherwise we cannot pass to the partner. See the [UTM Paramter URL](/handbook/marketing/channel-marketing/#utm-parameter-url) section for more on how to set up the URL for partners.
 
 🖇️ Quick Links:
+
 - [Lead Routing](/handbook/marketing/marketing-operations/traction-lead-complete/#free-trial-campaign)
 - [Self-Managed Free Trial Page](https://page.gitlab.com/sm-free-trial-partner.html)
 - [Salesforce Campaign](https://gitlab.my.salesforce.com/7014M000001dqjG?srPos=1&srKp=701)
@@ -586,11 +595,13 @@ As partner leads are [suspended](/handbook/marketing/channel-marketing/#email-ma
 Partners can use the SaaS free trial submission via GitLab.com. They will have a specific UTM parameter that is captured upon form submit that allows us to pass that lead directly to the partner. Below explains the backend for the activity.
 
 🖇️ Quick Links:
+
 - [Lead Routing](/handbook/marketing/marketing-operations/traction-lead-complete/#free-trial-campaign)
 - [SaaS Free Trial Page](https://gitlab.com/-/trial_registrations/new)
 - [Salesforce Campaign](https://gitlab.my.salesforce.com/7018X000001OHIF?srPos=0&srKp=701)
 
 Each page must have the UTMs in the URL :
+
 - `glm_source` and `glm_content` to pass to the partner
 - `utm_source` to track online touchpoints
 
@@ -615,6 +626,7 @@ Note that this type of campaign are not generated by MDF.
 2. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
 
 **Step 2: Sync to Salesforce Campaign**
+
 1. In the Marketo Program Summary page, in `Salesforce Campaign Sync`, click on `Not Set`.
 1. `Salesforce Campaign Sync` will pop up, with a `Campaign` dropdown, select `Create New`, then `Save`. This will automatically populate the campaign tag, so you do not need to edit anything.
 
@@ -634,10 +646,9 @@ Note that this type of campaign are not generated by MDF.
 
 Follow the steps in [List Import for Partner Leads](/handbook/marketing/channel-marketing/#list-import-for-partner-leads).
 
-
 ## FY25 Q2 GitLab Sales Dev Working Partner Leads
 
-As part of a [pilot program in FY25 Q2](/handbook/resellers/channel-program-guide/mdf/#fy25-q2-gitlab-biz-development-team-to-prospect-leads-from-mdf-campaigns), GitLab Sales Dev team can work on MDF campaign leads agreed upon by Partners. 
+As part of a [pilot program in FY25 Q2](/handbook/resellers/channel-program-guide/mdf/#fy25-q2-gitlab-biz-development-team-to-prospect-leads-from-mdf-campaigns), GitLab Sales Dev team can work on MDF campaign leads agreed upon by Partners.
 
 We are treating these leads as non-partner leads with Source = `Partner Qualified Lead`. They will be scored, assigned to BDRs, and have LIM. The source will remain as Partner Qualified Lead as we will use this to track partner ownership, while allowing our GitLab Sales Dev team to work these leads and not lose insight into where the lead came from.
 
@@ -675,7 +686,7 @@ This process requires the following platforms: Allocadia, Marketo, Salesforce, T
    2. If the lead is not MQL nor Actively Working, then Vartopia Partner Account will be added and Lead Acquisition Source if blank =\ MDF Campaign and reassigned to the Partner Queue.
 6. Marketo - Leads that are sent back to the partner will be updated with the partner fields ie. Partner Consent, Do Not Email = Partner Lead, Marketing Suspended, etc (Automated)
 
-# Alliance Marketing Campaigns
+## Alliance Marketing Campaigns
 
 This section is to walk through the technical setup of webcasts hosted by GitLab and/or Alliance Partner. Unlike Channel leads, Alliance leads follow the regular [lead and contact statuses](/handbook/marketing/marketing-operations/#lead-and-contact-statuses) and [scoring model](/handbook/marketing/marketing-operations/#lead-scoring-lead-lifecycle-and-mql-criteria).
 
@@ -706,13 +717,13 @@ GitLab can drive webcasts with Alliance Partners using [On24](/handbook/marketin
 **Step 1: Setup in Marketo**
 
  1. Update the Marketo tokens: `{{my.Partner Name}}` with Partner Name and `{{my.CRM Partner ID}}` with [Account ID (18)](/handbook/marketing/channel-marketing/#crm-ids-for-channel-and-alliance-partners).
- 3. The registration landing page must have the following:
+ 1. The registration landing page must have the following:
     - `FORM 3299: Alliances` with a hidden field that captures  `utm_partnerid`.
     - The **URL must include the utm parameter with the CRM Partner ID** to the landing page to lead to be associated with the Alliance partner.
- 4. Activate `01a Registration Flow (single timeslot)`
- 5. Activate `00 Interesting Moments` and interesting moments will dynamically change if there is a partner involved to reflect that.
- 6. (no setup needed) Marketo will process.
-  1. If there is a  `CRM Partner ID`
+ 1. Activate `01a Registration Flow (single timeslot)`
+ 1. Activate `00 Interesting Moments` and interesting moments will dynamically change if there is a partner involved to reflect that.
+ 1. (no setup needed) Marketo will process.
+ 1. If there is a  `CRM Partner ID`
      1. Set  `CRM Partner ID (Look up)`
      2. Set  `Partner Type` = `Alliance Partner` (by Salesforce)
 
@@ -799,7 +810,7 @@ Step 3: Export Leads from Salesforce
    2. Leads should not be marked as `Opt-In`, unless they specifically opted into **GitLab** emails.
 5. Once the spreadsheet is completed, proceed with [self service list import](https://handbook.gitlab.com/handbook/marketing/marketing-operations/automated-list-import/) steps 3-6.
 
-# List Import for Partner Leads
+## List Import for Partner Leads
 
 1. Create a list import issue using the issue template found in the Marketing Operations project titled [general-list-import-request](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/blob/master/.gitlab/issue_templates/general-list-import-request.md).
 1. For the list import spreadsheet (found in the list import issue), be sure to follow the general [instructions](/handbook/marketing/marketing-operations/list-import/#import-methods-and-their-sla).
@@ -845,8 +856,7 @@ Below are the glossary of fields used for Channel and Alliance partner campaigns
 | [Partner Manager](https://gitlab.my.salesforce.com/00N8X00000HNDnd?setupid=LeadFields)          | X               |                 |             |             |                  |                  |
 | [Partner Type](https://gitlab.my.salesforce.com/00N8X00000HNKlG?setupid=LeadFields)             | X               |                 | X           |             | X                |                  |
 | Subscribe - Partner                                                                             | X               |                 | X           |             | X                |                  |
-| [Vartopia Partner Account](https://gitlab.my.salesforce.com/00N8X00000FnjVo?setupid=LeadFields) | X               |                 |             |             |                  |
-
+| [Vartopia Partner Account](https://gitlab.my.salesforce.com/00N8X00000FnjVo?setupid=LeadFields) | X               |                 |             |             |                  | |
 
 Go to the [Vartopia page](/handbook/marketing/marketing-operations/vartopia/) to review fields that are relevant to Vartopia.
 
@@ -867,7 +877,6 @@ For a running list of Channel Partners and their CRM IDs, which is critical to t
 ### CRM Partner ID (Look up)
 
 The lookup field retrieves the name of the partner account associated with the `Account ID (18)` used for both Channel and Alliance.
-
 
 ### Lead Acquisition Source
 
