@@ -1,6 +1,6 @@
 ---
-title: AI Framework Group - Eval like I am 5
-description: "The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab AI feature development."
+title: Creating and uploading a dataset
+description: "Creating a dataset tailored to your evaluation needs is a critical step in ensuring accurate and meaningful assessments of your AI models. Here’s how to create and upload a dataset for use with LangSmith."
 aliases: /handbook/engineering/development/data-science/ai-framework
 ---
 
