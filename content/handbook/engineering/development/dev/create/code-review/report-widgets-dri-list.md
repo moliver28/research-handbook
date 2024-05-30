@@ -5,7 +5,7 @@ title: "Merge Request Report Widgets - DRI list"
 description: Listing the DRIs for Merge Request Report Widgets which share ownership over the code powering the several widgets.
 ---
 
-# Merge Request Report Widgets - DRI list
+## Merge Request Report Widgets - DRI list
 
 In the context of the [Working Group](/handbook/company/working-groups/merge-request-report-widgets/), a list of DRIs have been identified to facilitate communication among all Widgets currently active and in development.
 
@@ -25,7 +25,7 @@ Please refer to this list and keep it updated as Widgets evolve.
 | [Status checks](https://gitlab.com/groups/gitlab-org/-/epics/7066) | [#336172](https://gitlab.com/gitlab-org/gitlab/-/issues/336172) | Govern:Compliance | [@cam.x](https://gitlab.com/cam.x) | [@xanf](https://gitlab.com/xanf) |
 | [Load performance](https://gitlab.com/gitlab-org/gitlab/-/issues/338287) | [#336448](https://gitlab.com/gitlab-org/gitlab/-/issues/336448) | Verify:Pipeline Security  | [@gdoyle](https://gitlab.com/gdoyle) | [@mfluharty](https://gitlab.com/mfluharty) |
 
-# Related links
+## Related links
 
 * [Merge Request Extensions technical documentation](https://docs.gitlab.com/ee/development/fe_guide/merge_request_widget_extensions.html)
 * [Merge Request Report Widget Working Group page](/handbook/company/working-groups/merge-request-report-widgets/)

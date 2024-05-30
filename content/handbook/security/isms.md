@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Purpose
 
-GitLab has adopted the ISO/IEC 27001:2013, ISO/IEC 27017:2015 and ISO/IEC 27018:2019 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
+GitLab has adopted the ISO/IEC 27001:2022, ISO/IEC 27017:2015 and ISO/IEC 27018:2019 standards for our information security management system (ISMS) to provide GitLab team members, customers and community members with a high level of assurance on the robustness of our information security policies, standards and procedures, and the strength of our control environment. The purpose of this document is to define the boundaries and objectives of GitLab's ISMS.
 
 ## Scope
 
@@ -30,7 +30,8 @@ GitLab's headquarter mailing address is in scope and covers all sub organization
 ### Organizational Units
 
 Business functions included in the scope of the ISMS include:
-- Engineering - Chief Information Security Officer; Security Assurance sub-department; Application Security, Security Operations, Security Incident Response (SIRT), Infrastructure Security teams
+
+- Engineering - Chief Information Security Officer; Security Assurance; Product Security; Security Operations; Threat Management Security teams. Division structure is defined [here](https://handbook.gitlab.com/handbook/security/#division-structure)
 - Engineering - VP of Development
 - Engineering - VP of Infrastructure and Quality
 - Finance - VP of Information Technology
@@ -56,9 +57,9 @@ This ISMS governs GitLab security operations. Interested parties include:
 | Chief Information Security Officer | Executive sponsor of the ISMS; coordinate, promote and improve information security; establish information security policy |
 | Security Management (Code Owners) | Owner of the ISMS responsible for approving significant changes and exceptions of the ISMS |
 | Security Assurance | Reporting on the performance of the information security management system to top management; security risk assessments and treatment; continuous monitoring and auditing; customer assurance activities; security awareness program; security governance activities |
-| Application Security | Manage third party penetration and bug bounty programs; provide input to the software development lifecycle; manage application vulnerability program; administer security champions program; maintain application security tools; identify security risks |
+| Product Security | Manage third party penetration and bug bounty programs; provide input to the software development lifecycle; manage application vulnerability program; administer security champions program; maintain application security tools; identify security risks; infrastructure vulnerability program; maintain infrastructure security tools; identify security risks |
 | Security Operations | Monitor, manage and report on security incidents; monitor compliance with security policies through technical tools; identify security risks; monitor and respond to abuse of SaaS subscriptions |
-| Infrastructure Security | Manage infrastructure vulnerability program; maintain infrastructure security tools; identify security risks |
+| Threat Management | Manage identity and access management, role based access control, admin access |
 | Other ISMS Business units | Implement, operate and/or administer information security requirements; remediate information security findings; collaborate with the Security department |
 | All GitLab Team Members | Awareness of responsibilities as it relates to information security; adherence to information security controlled documents; reporting of suspected security violations |
 
@@ -66,7 +67,7 @@ This ISMS governs GitLab security operations. Interested parties include:
 
 ### Leadership
 
-GitLab is committed to information security. The general objective for the ISMS is to protect GitLab's confidential information and assets against new and existing security and privacy risks while maintaining confidentiality, integrity and availability. Objectives for individual security controls are inherited by the in scope security standards and regulations which are: ISO 27001, and SOC 2 Type 2 Security.
+GitLab is committed to information security. The general objective for the ISMS is to protect GitLab's confidential information and assets against new and existing security and privacy risks while maintaining confidentiality, integrity and availability. Objectives for individual security controls are inherited by the in scope security standards and regulations which are: ISO 27001:2022, and SOC 2 Type 2.
 
 The ISMS council, comprised of Security and Privacy (Legal) leadership, shall meet on a minimum of an annual basis to discuss the state of the ISMS and measure the fulfillment of all ISMS objectives. The following topics will be covered:
 
@@ -115,7 +116,7 @@ If using a third party service to outsource or supplement security processes, a 
 GitLab monitors, measures, and improves security controls through various continuous monitoring measures, such as:
 
 - [Continuous control testing/Annual ISMS internal compliance audits]({{< ref "security-control-lifecycle" >}})
-- [External audits (SOC 2 Type 2, SOC 3, customer security assessments)]({{< ref "./security-assurance/security-compliance/certifications" >}})
+- [External audits (SOC 2 Type 2, TISAX, customer security assessments)]({{< ref "./security-assurance/security-compliance/certifications" >}})
 - [Annual security operational risk assessments]({{< ref "storm-program" >}})
 - [Annual third-party penetration testing]({{< ref "penetration-testing-policy" >}})
 - [Ongoing third party scorecard monitoring (BitSight)]({{< ref "independent_security_assurance#third-party-security-ratings" >}})

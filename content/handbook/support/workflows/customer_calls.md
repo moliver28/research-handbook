@@ -269,7 +269,7 @@ A customer who has an understanding of what work will happen next and has secure
 
 ### Getting manager help
 
-Managers can be called in by [paging the on-call manager](/handbook/support/on-call/#paging-the-on-call-manager) or tagging them in Slack if:
+Managers can be called in by [engaging the on-call manager](/handbook/support/on-call/#engaging-the-on-call-manager):
 
 - a call can't be ended gracefully
 - the customer is being abusive / bullying

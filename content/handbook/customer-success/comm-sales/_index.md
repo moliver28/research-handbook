@@ -4,22 +4,13 @@ title: "Commercial Sales - Customer Success"
 description: "The Commercial Sales segment consists of two sales teams, Small Business (SMB) and Mid-Market (MM)"
 ---
 
-# Commercial Sales - Customer Success Handbook
-
-
 GitLab defines Commercial Sales as worldwide sales for the mid-market and small/medium business segments. [Sales segmentation](/handbook/sales/field-operations/gtm-resources/) is defined by the total employee count of the global account. The Commercial Sales segment consists of two sales teams, Small Business (SMB) and Mid-Market (MM). The Commercial Sales segment is supported by a dedicated team of Solutions Architects (SA) and Customer Success Managers (CSM).
-
-
-
-
-
-
 
 ## Role & Responsibilities
 
 ### Solutions Architects
 
-Solutions Architects are aligned to the Commercial Sales Account Executives by a pooled model. Requests for an SA will be pulled from the triage board by an SA based on multiple factors including availability, applicable subject matter expertise, and current workload.  
+Solutions Architects are aligned to the Commercial Sales Account Executives by a pooled model. Requests for an SA will be pulled from the triage board by an SA based on multiple factors including availability, applicable subject matter expertise, and current workload.
 
 - [Engage a Commercial Solutions Architect](/handbook/solutions-architects/processes/commercial/)
 - [Solutions Architect role description](/job-families/sales/solutions-architect/)

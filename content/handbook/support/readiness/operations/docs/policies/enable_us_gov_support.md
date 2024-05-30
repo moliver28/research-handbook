@@ -111,7 +111,6 @@ this, you can determine your next steps:
   >
   > /close
 
-
 ## Troubleshooting
 
 #### Pipeline Error '1: Restforce::ErrorCode::UnableToLockRow'

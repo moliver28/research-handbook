@@ -5,7 +5,7 @@ description: The Create:Source Code BE team is responsible for all backend aspec
 
 The Create:Source Code BE team focuses on GitLab's suite of Source Code Management (SCM) tools and is responsible for all backend aspects of the product categories that fall under the [Source Code group][group] of the [Create stage][stage] of the [DevOps lifecycle][lifecycle]. Our Product direction is found on the [Category Direction - Source Code Management](https://about.gitlab.com/direction/create/source_code_management/) page.
 
-We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](../../create-source-code-fe/index.html). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#createsource-code-group) and technical documentation can be found on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) technical reference page.
+We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/create-source-code-fe/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#createsource-code-group) and technical documentation can be found on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) technical reference page.
 
 [group]: /handbook/product/categories/#source-code-group
 [stage]: /handbook/product/categories/#create-stage
@@ -15,13 +15,13 @@ We interface with the Gitaly and Code Review teams, and work closely with the [C
 
 The following people are permanent members of the Create:Source Code BE Team:
 
-{{% team-by-manager-role "Backend Engineering Manager(.*)Create:Source Code" %}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*Backend.*Create:Source Code" >}}
 
 ## Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{< stable-counterparts role="Create:Source Code|Technical Writer(.*)Source Code|Director(.*)Create|Principal(.*)Create|Group(.*)Create" manager-role="Backend Engineering Manager(.*)Create:Source Code"  >}}
+{{< stable-counterparts role="(Product Manager|Frontend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
 
 ## Sisense & KPIs
 
@@ -56,10 +56,6 @@ For more urgent items, feel free to use `#g_create_source_code` on Slack.
 
 [Take a look at the features we support per category here.](/handbook/product/categories/features/#createsource-code-group)
 
-[engineering workflow]: /handbook/engineering/workflow/
-[GitLab]: https://gitlab.com/gitlab-org/gitlab
-[#g_create_source_code]: https://gitlab.slack.com/archives/g_create_source-code
-
 ### Working with the Product Team
 
 Weekly calls between the Product Manager and Engineering Managers (frontend and backend) are listed in the "Source Code Group" calendar. Everyone is welcome to join and these calls are used to discuss any roadblocks, concerns, status updates, deliverables, or other thoughts that impact the group.
@@ -93,7 +89,7 @@ You are encouraged to work as closely as needed with stable counterparts outside
 
 Quality engineering is included in our workflow via the [Quad Planning Process](https://gitlab.com/gitlab-com/www-gitlab-com/issues/6318).
 
-Application Security will be involved in our workflow at the same time that [kickoff emails](#kickoff-emails) are sent to the team, so that they are able to review the upcoming milestone work, and notate any concerns or potential risks that we should be aware of.
+Application Security will be involved in our workflow at the same time that kickoff emails are sent to the team, so that they are able to review the upcoming milestone work, and notate any concerns or potential risks that we should be aware of.
 
 ### Communication
 
@@ -156,7 +152,7 @@ Create Source Code UX planning takes inputs from the following sources:
 
 ##### Planning Issue
 
-Each month a planning issue is created by the PM, using the [Source code template](https://gitlab.com/gitlab-org/create-stage/-/blob/master/.gitlab/issue_templates/source-code-planning.md).
+Each month a planning issue is created by one of the EMs, using [automated tools](https://gitlab.com/gitlab-com/create-stage/source-code-be/-/blob/main/doc/planning/index.md)based on the [Source Code issue template](https://gitlab.com/gitlab-org/create-stage/-/blob/master/.gitlab/issue_templates/source-code-planning.md).
 
 ##### Planning Board
 
@@ -181,7 +177,7 @@ The EM then applies the ~Deliverable label to each issue in the Release and assi
 
 Urgent issues are tentatively assigned to a release to ensure other teams have visibility.
 
-At this point the issues are _Candidate_ issues, and the milestone does not confirm that they will be definitely scheduled. Issues move from _Candidate_ status to confirmed during the [Issue selection](#issue-selection) process.
+At this point the issues are *Candidate* issues, and the milestone does not confirm that they will be definitely scheduled. Issues move from *Candidate* status to confirmed during the [Issue selection](#issue-selection) process.
 
 #### Key Dates
 
@@ -189,10 +185,9 @@ At this point the issues are _Candidate_ issues, and the milestone does not conf
 | ------ | ------ | ------ |
 | The Monday of the week the milestone ends |**PM** creates planning board and pings EMs in the Planning Issue for review & weighting.<br><br> **EMs** calculate capacity, add to Planning Issue.<br><br>**PM** submits RPIs for reviews.|
 | Monday to Friday of the week the milestone ends |**EMs** & **ICs** add weights to issues in the planning board|
-| The Friday the milestone ends | **EMs** add ~Deliverable labels to issues so that they appear on the Build board _as a draft_<br><br>Release Post: **EMs**, **PMs**, and **PDs** contribute to MRs for Usability, Performance Improvements, and Bug Fixes|
+| The Friday the milestone ends | **EMs** add ~Deliverable labels to issues so that they appear on the Build board *as a draft*<br><br>Release Post: **EMs**, **PMs**, and **PDs** contribute to MRs for Usability, Performance Improvements, and Bug Fixes|
 | The Friday the milestone ends | **EMs** adjust ~Deliverable labels for slippage and make final assignments<br><br>**PMs** review final plan for milestone on Build board<br><br>**EMs** merge RPI MRs for features that have been merged.|
 | The third Thursday of the month | Release |
-
 
 #### Weighting issues
 
@@ -236,7 +231,7 @@ When a spike is scheduled, the engineer performs research on what needs to be do
 
 Security issues are typically weighted one level higher than they would normally
 appear from the table above. This is to account for additional work and backports in the
-[security release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/developer.md).
+[patch release process](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/engineer.md).
 
 #### Planning issue review
 
@@ -255,11 +250,11 @@ Approximately 5-10 business days before the start of a new release, the EM will 
 - Upcoming on-call slots
 - Potential time spent on another teams deliverables
 
-Availability is a percentage calculated by _(work days available / work days in release) * 100_.
+Availability is a percentage calculated by *(work days available / work days in release) * 100*.
 
 All individual contributors start with a "weight budget" of 10, meaning they are capable (based on historical data) of completing a maximum number of issues worth 10 weight points total (IE: 2 issues which are weighted at 5 and 5, or 10 issues weighted at 1 each, etc.) Then, based on their availability percentage, weight budgets are reduced individually. For example, if you are 80% available, your weight budget becomes 8.
 
-Product will prioritize issues based on the teams total weight budget. Our [planning rotation](#planning-rotation) will help assign weights to issues that product intends on prioritizing, to help gauge the amount of work prioritized versus the amount we can handle prior to a kickoff.
+Product will prioritize issues based on the teams total weight budget. Our [planning rotation](#capacity-planning) will help assign weights to issues that product intends on prioritizing, to help gauge the amount of work prioritized versus the amount we can handle prior to a kickoff.
 
 ##### Source Code issue pipeline
 
@@ -287,12 +282,11 @@ Once availability has been determined, weights have been assigned, and the PM/EM
 - A reasoning behind why you have been assigned more than your weight budget, if applicable
 - A list of the issues the team is working on that are deemed "note-worthy," in case you'd like to offer help on those issues as time allows
 
-
 You will begin to collect follow-up issues when you've worked on something in a release but have tasks leftover, such as technical debt, feature flag rollouts or removals, or non-blocking work for the issue. For these, you can address them in at least 2 ways:
 
 - Add an appropriate future milestone to the follow-up issue(s) with a weight and good description on the importance of working this issue
 - Add the issue(s) to the relevant [planning issue](https://gitlab.com/gitlab-org/create-stage/-/issues?scope=all&utf8=%E2%9C%93&state=opened&search=source+code+group+planning)
- 
+
 You should generally take on follow-up work that is part of our [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done), preferably in the same milestone as the original work, or the one immediately following. If this represents a substantial amount of work, bring it to your manager's attention, as it may affect scheduling decisions.
 
 If there are many follow-up issues, consider creating an epic.

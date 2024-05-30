@@ -23,14 +23,16 @@ The below demonstration highlights a simple flow of work between GitHub pull req
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qgl3F2j-1cI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </figure>
 
-# Jira Integration Demo
+## Jira Integration Demo
 
 There are 3 different Jira integrations avaialble.
+
 1. Real-time MR/comments integration also known as “Jira Integration”. All Jira + GitLab customers should use this if they cannot use only GitLab.
 2. Dev Panel (DVCS) integration. Only way to have GitLab feed Jira’s Dev Panel if using GitLab self-managed and/or Jira Server. Data sync once per hour `Premium`
 3. Dev Panel integration using the GitLab for Jira app from the Atlassian Marketplace. Ideal for Jira Cloud integrating with GitLab SaaS because data is sync’d in real-time! - Works only with Jira Cloud and GitLab SaaS `Premium`
 
 The following guide can be used to integrate GitLab.com with Jira Software Cloud:
+
 - [GitLab Jira integration](https://docs.gitlab.com/ee/integration/jira/) - mention a Jira issue ID from GitLab and have this reflected in the Jira Issue’s comments.
 - [Dev Panel integration using the GitLab for Jira app](https://docs.gitlab.com/ee/integration/jira/) - for each Jira issue, displays links with number of related commits, branches, and pull (merge) requests from GitLab.
 
@@ -55,7 +57,7 @@ Prerequisite: Must be a `Premium` group owner on GitLab.com
 1. Follow the [GitLab.com Development Panel](https://docs.gitlab.com/ee/integration/jira/index.html#configuration) instructions.
 2. Navigate to the Jira issue board and select your issue (*SI-X* if using the `spring-integrations` project). Note the GitLab commit and branch information displayed in the Development panel on the right side.
 
-# Jenkins Integration Demo
+## Jenkins Integration Demo
 
 - Login to Jenkins using `Jenkins.Taunki.Cloud Login` in 1Password.
 - Log into GitLab `spring-integrations` project on `demo.tanuki.cloud` via 1Password.
@@ -67,7 +69,7 @@ Prerequisite: Must be a `Premium` group owner on GitLab.com
 - Click on Jenkins job, noting that it takes you to the Jenkins console output.
 - Return to the GitLab repository and highlight the Jenkinsfile maintained alongside the repo for consistency and versioning.
 
-# Bamboo CI Integration Demo
+## Bamboo CI Integration Demo
 
 - Log into GitLab using your credentials
 - Create a new project from any template
@@ -98,7 +100,7 @@ Prerequisite: Must be a `Premium` group owner on GitLab.com
 - Edit README.md in new branch and commit the change
 - Check Bamboo to confirm the change has been picked up by Bamboo
 
-# OpenLDAP Integration Demo (Adding Users)
+## OpenLDAP Integration Demo (Adding Users)
 
 - Log into the OpenLDAP GUI (details can be found in the SA vault)
 - In the left navigation panel, expand the LDAP tree
@@ -114,7 +116,7 @@ Prerequisite: Must be a `Premium` group owner on GitLab.com
 - Click `Sign In`
 - Newly created users will be taken to their profile page to update their `Email` field and confirm their Email address.
 
-# GitHub Integration Demo
+## GitHub Integration Demo
 
 - Navigate to GitHub.com/signin and login using `GitHub Demo Login` in 1Password.
 - Navigate to GitLab.com and login using `GitHub Demo Login (GitLab)` in 1Password.
@@ -135,6 +137,6 @@ Prerequisite: Must be a `Premium` group owner on GitLab.com
 - After time has elapsed, return to the GitHub pull request to show the pass/fail status displayed in GitHub.
 - Optional: Other existing pull requests may be used to show the linkage without committing changes or creating new pull requests.
 
-# Conclusion
+## Conclusion
 
 GitLab, leveraging built-in integrations, can work with existing Jira, GitHub or Jenkins systems, flowing work and updating status bi-directionally between those tools and GitLab.

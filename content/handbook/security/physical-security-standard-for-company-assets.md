@@ -7,7 +7,6 @@ controlled_document: true
 
 This document defines asset management measures and requirements to support the protection of information assets in GitLab's all remote environment. The measures and requirements noted within the standard are designed to create a secure infrastructure, work environment, and protect sensitive information from physical threats.
 
-
 ## Scope
 
 This standard applies to all GitLab team-members, contractors, advisors, and contracted parties interacting with GitLab computing resources and accessing company or customer data.
@@ -45,7 +44,6 @@ GitLab has two distinct security zones:
    - Screen timeout
    - Encryption
    - Endpoint detection and response
-
 
 - Utilize trusted networks when available. If you are connecting from an untrusted network such as a public Wi-Fi, guest networks, or unsecured hotspots, you should use a [personal VPN](/handbook/tools-and-tips/personal-vpn/). GitLab has selected [NordLayer](/handbook/it/guides/nordlayer/) as the preferred provider.
 

@@ -82,7 +82,7 @@ The next step in the Group Manager, Product is to move to [Director of Product](
 
 ##### Verify
 
-Are responsible for managing the team of product managers covering the [Verify stage groups](/handbook/product/categories/#verify-stage). Leading the [Verify direction](https://about.gitlab.com/direction/ops/#verify) is a high impact position. Works with your team to ensure our [industry-leading CI](https://about.gitlab.com/analysts/forrester-cloudci19/) continues to be a [critical entry-point](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/) to our single DevOps platform. Work cross functionally as an expert and invest in your team of high caliber product managers to make sure our [R&D investment in Verify](https://internal-handbook.gitlab.io/handbook/product/investment/) is as effective as possible in fulfilling our [mission to enable everyone to contribute](/handbook/company/mission/#mission).
+Are responsible for managing the team of product managers covering the [Verify stage groups](/handbook/product/categories/#verify-stage). Leading the [Verify direction](https://about.gitlab.com/direction/ops/#verify) is a high impact position. Works with your team to ensure our [industry-leading CI](https://about.gitlab.com/analysts/forrester-cloudci19/) continues to be a [critical entry-point](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/) to our single DevOps platform. Work cross functionally as an expert and invest in your team of high caliber product managers to make sure our [R&D investment in Verify](https://internal.gitlab.com/handbook/product/investment/) is as effective as possible in fulfilling our [mission to enable everyone to contribute](/handbook/company/mission/#mission).
 
 ###### Verify - Runner
 
@@ -265,7 +265,7 @@ Product Leadership is responsible for building the capacity and capability of th
 1. Our global [Product KPIs](/handbook/company/kpis/#product-kpis)
 1. Job satisfaction of the team members who report to them (as measured by annual employee engagement survey)
 1. Hiring versus plan and [new hire location factor](/handbook/product/performance-indicators/#new-hire-location-factor)
-1. IACV attained by assigned [use case](/handbook/use-cases/#specific-use-cases) as designated in `Why GitLab` of opportunity [Command Plans](/handbook/sales/command-of-the-message/command-plan/) ([Dashboard](https://app.periscopedata.com/app/gitlab/705822/Product-Management-+-Sales-Opportunity-Feedback)).
+1. IACV attained by assigned [use case](/handbook/marketing/use-cases/#specific-use-cases) as designated in `Why GitLab` of opportunity [Command Plans](/handbook/sales/command-of-the-message/command-plan/) ([Dashboard](https://app.periscopedata.com/app/gitlab/705822/Product-Management-+-Sales-Opportunity-Feedback)).
 
 In addition, some roles have role-specific activities and performance indicators.
 

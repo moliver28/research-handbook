@@ -19,7 +19,7 @@ The GitLab Finance Department includes multiple Teams: Accounting, Financial Pla
 - [Sales Comp Plan]({{< ref "./sales-comp-plan" >}})
 - [Signature Authorization Matrix]({{< ref "./authorization-matrix" >}})
 - [Authorization Matrix Policy]({{< ref "./authorization-matrix#authorization-matrix-policy" >}})
-- [Stock Options](/handbook/stock-options/)
+- [Stock Options](/handbook/total-rewards/stock-options/)
 
 ## Forms
 
@@ -102,7 +102,7 @@ Non-US contractors not from Hungary, Italy, Japan, New Zealand, Nigeria, South A
 - the scheduled payment date is the 22nd of each month
 - iiPay will send out remittance advice along with the scheduled payment via your gitlab email address
 
-Non-US contractors from Italy, Nigeria, South Africa, Switzerland, and Ukraine will need to send their monthly invoice for salary/bonus/commission and any [expenses](/handbook/spending-company-money/) by the 15th to payroll@gitlab.com.
+Non-US contractors from Italy, Nigeria, South Africa, Switzerland, and Ukraine will need to send their monthly invoice for salary/bonus/commission and any [expenses](/handbook/finance/spending-company-money/) by the 15th to payroll@gitlab.com.
 
 In many cases, VAT will not be payable on transactions between GitLab BV and EU-based
 vendors/contractors, thanks to "Shifted VAT". To make use of this shifted VAT:

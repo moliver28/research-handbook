@@ -4,8 +4,6 @@ title: Manage Foundations Team - UX Onboarding
 description: UX onboarding checklist for the Foundations team
 ---
 
-# UX onboarding
-
 ## Checklist
 
 - Add team member to [https://gitlab.com/gitlab-com/gitlab-ux/ux-foundations](https://gitlab.com/gitlab-com/gitlab-ux/ux-foundations)

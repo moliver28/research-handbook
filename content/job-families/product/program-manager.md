@@ -4,11 +4,11 @@ description: "This role supports cross-division initaitives across PM, UX, Engin
 ---
 ## Technical Program Management Context and Mission
 
-### Context:
+### Context
 
 As we incorporate more program management functions at GitLab, we want to ensure our role, vision, and responsibilities are clear. There are currently Program Managers in Product, IT, Infrastructure within the R&D, along with other areas of the business. We want to ensure there are clear boundaries for each of these program managers and work cross-functionally to align on best practices, process, and overall efficiency across the various programs.
 
-### Mission:
+### Mission
 
 Our mission as program managers is to own the execution of cross-functional initiatives that are critical to the business. We lead programs from start to finish to help GitLab meet our organizational goals.
 Program managers develop strategies, evaluate the performance of projects, keep teams organized, and allocate budgets and resources across projects. Program managers may oversee several different teams, all working toward different goals and separate work schedules. We take the lead on tracking project progress, aligning team members, and strategizing program outcomes.
@@ -59,7 +59,7 @@ The role of TPM can mean different things at different organizations. At GitLab,
 
 * Understands organizational systems, architecture, and applications and how they fit together into an enterprise tech stack
 * Connects the dots between upstream decisions and downstream impacts to people, process, and technology
-* Has and or creates domain expertise  
+* Has and or creates domain expertise
 * Applies program management methodologies and best practices, but knows how and when to flex to the project rather than simply following rigid standards.
 
 ## Division Structure
@@ -67,10 +67,10 @@ The role of TPM can mean different things at different organizations. At GitLab,
 |Product|Infrastructure|Security|
 |:-----------------|:-------------|:---------------|
 |**The R&D Technical Program Manager role supports cross-division initiatives across PM, UX, Engineering and other functions within R&D along with functions across GTM**| **Infrastructure Technical Program Management Team drives the planning, execution, and delivery of complex infrastructure projects across Engineering and Product.**|**The Security Program Manager will be responsible for complete overview and driving security initiatives across product, engineering and business enablement.**|
-|Manage and collaborate on key initiatives with stakeholders and leadership across R&D. Drive accountability ensuring all program objectives are met.|Establish a reliable and visible cadence for initiative reviews, decision making, prioritization, and staffing management.|Communicate successfully with partners and drive accountability across teams to ensure program objectives are met
-|Refine and optimize division processes improving overall efficiency and execution of the division.|Lead and drive Infrastructure projects such as: Availability, Disaster Recovery, Releases, CI/CI pipeline Efficiency and Engineering Productivity|Gather and examine customer and internal security team needs and opportunities for new information security programs, products and projects
-|Gather inputs and feedback and suggest improvements to our Product Process, and operational model within the Product division.|Provide technical project management, coordination, and inter/intra team communications to deliver outstanding program outcomes.|Drive organizational needs cross-functionally with product, engineering and finance including tracking and reporting of progress and metrics
-| [Product Technical Program Management](https://handbook.gitlab.com/job-families/product/program-manager/) | [Infrastructure Program Management](https://handbook.gitlab.com/job-families/engineering/technical-program-management/technical-program-management-ic/) | [Security Program Management](https://handbook.gitlab.com/job-families/security/security-program-manager/)
+|Manage and collaborate on key initiatives with stakeholders and leadership across R&D. Drive accountability ensuring all program objectives are met.|Establish a reliable and visible cadence for initiative reviews, decision making, prioritization, and staffing management.|Communicate successfully with partners and drive accountability across teams to ensure program objectives are met |
+|Refine and optimize division processes improving overall efficiency and execution of the division.|Lead and drive Infrastructure projects such as: Availability, Disaster Recovery, Releases, CI/CI pipeline Efficiency and Engineering Productivity|Gather and examine customer and internal security team needs and opportunities for new information security programs, products and projects |
+|Gather inputs and feedback and suggest improvements to our Product Process, and operational model within the Product division.|Provide technical project management, coordination, and inter/intra team communications to deliver outstanding program outcomes.|Drive organizational needs cross-functionally with product, engineering and finance including tracking and reporting of progress and metrics |
+| [Product Technical Program Management](https://handbook.gitlab.com/job-families/product/program-manager/) | [Infrastructure Program Management](https://handbook.gitlab.com/job-families/engineering/technical-program-management/technical-program-management-ic/) | [Security Program Management](https://handbook.gitlab.com/job-families/security/security-program-manager/) |
 
 ## Responsibilities
 

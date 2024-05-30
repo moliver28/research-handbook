@@ -6,7 +6,6 @@ title: Core Platform Sub-department
 
 Offer enterprise-grade operational experience of GitLab products from streamlined deployment and maintenance, disaster recovery, secure search and discoverability, to high availability, scalability, and performance.
 
-
 ## Mission
 
 Core Platform focuses on improving our capabilities and metrics in the following areas:
@@ -120,7 +119,7 @@ To address this need, the Core Platform sub-department has established a cross-g
 
 List of frontend collaborations:
 
-| Engineer | Group | Roadmap Item | Milestones | Notes
+| Engineer | Group | Roadmap Item | Milestones | Notes |
 | ------ | ------ | ------ | ------ | ------ |
 | Zack Cuddy | Global Search | [GitLab Chat](https://gitlab.com/groups/gitlab-org/-/epics/10220) | 16.0 | |
 | Zack Cuddy | Tenant Scale | [Migrate user tabs to Vue](https://gitlab.com/groups/gitlab-org/-/epics/9056) | 16.1 | |
@@ -130,6 +129,7 @@ List of frontend collaborations:
 The frontend roadmap items above are broken down into specific epics and issues, and they can also be labelled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
 
 ### Increasing Efficiency through Documenting Decisions
+
 Documenting development decisions is another way to increase efficiency.  These decisions can be either in an issue explicitly stating that we will not work on this issue, the product category page for your group or a more formal decision log in your group's section of the handbook.  Whatever your chosen desitination, each group should try to maintain a [single source of truth](/handbook/values/#single-source-of-truth) for the decisions.  A recent example (without mentioning specific product name) had a development team researching an open source product to accelerate development time only to find out later that this research had been previously completed and the product was eliminated from consideration.  If this decision had been discoverable via documentation or issue it would have saved precious development time.
 
 We have started creating decision logs to benefit our internal development team as well as our greater GitLab community.  It is up to each group to determine the best location for decision logs to be discoverable.  For example, the Database team has a decision log for [Sharding GitLab with CitusDB](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus.html) in the Core Platform/Database section of the handbook and a decision log for the [Sharding Working Group](/handbook/company/working-groups/sharding/#outcome---closed) in the working group section of the handbook.
@@ -137,11 +137,13 @@ We have started creating decision logs to benefit our internal development team 
 For issues, a clear decision is when an issue is successfully closed.  However, if an issue is closed because we "won't do it" it may not be immediately clear.  We are adopting the `~won't do` label for those issues.  Often the pattern is to just stash these issues in the `~backlog`.  This can be misleading to those watching the issue and frustrating to the original author, especially if they are a community contributor.  When we apply a `won't do` label to an issue, we are making a clear decision.  If there is no pushback on the `won't do` label then we made the right decision.  If there is pushback and we need to reprioritize the issue, then that is a good outcome as well.
 
 ### How Do We Interview Candidates
+
 We hold our bar high when it comes to hiring. Our goal is to hire the best candidates who will make GitLab successful meanwhile ensuring that the candidates are also set up for success at GitLab. With that in mind, our interview panels consist of a minimum of 4 interviewers (a.k.a. 4 scorecards), and there is no upper bound if needed. However, typically it won't go beyond 6 interviewers in total. Our interview panels are designed so that multiple data points are available from different interviewers for a specific factor, such as technical competency. This lets us confidently make decisions by cross referencing interview feedback in order to avoid the risk of single data source.
 
 To bring the best possible candidate experience and stay competitive, we schedule all interviews at once and try to fit all in a small time window. This means the interviews are not serial and the scheduling of an interview doesn't depend on the outcome of another one. On the other hand, we will give candidates advanced notice that the interview process can halt at any time and we will notify them if the case. This is to respect the candidates' time when we believe the candidate is a better fit for other opportunities.
 
 #### Individual Contributors
+
 1. Technical Assessment Interview
    1. Typically the general frontend, backend, full-stack, or Go technical assessment
    1. The Distribution team has designed a technical assessment specific to their needs, as the above does not apply to its domain.
@@ -162,6 +164,7 @@ To bring the best possible candidate experience and stay competitive, we schedul
    1. Hiring a Staff and above engineer
 
 Additional Guidelines:
+
 1. There must be at least one behavioral style interview that is administered by another IC. This could be another engineer on the team or a Product Manager, for example. Regardless of who conducts this interview, we still want to ensure there are at least 2 scorecards from engineers.
    1. Other teams who would like to adopt this consolidation approach can follow this additional guideline.
 1. When the `Technical Assessment` and `Peer Team Member Interview` are separate, the hiring manager can feel free to determine how many engineers are invited to each interview as long as a minimum of 2 engineers will provide **independent** feedback of technical assessments.
@@ -171,6 +174,7 @@ Additional Guidelines:
    1. The Product Manager interview is **required** for Staff and above candidates
 
 #### Engineering Managers
+
 1. Hiring Manager Interview
 1. Peer Manager Interview - an EM who will be the peer of the candidate. Usually, it is an Engineering Manager within the same Stage or who collaborates closely with this role
 1. Team Member Interview - an individual contributor who will report to this role
@@ -179,6 +183,7 @@ Additional Guidelines:
 1. Other interviews if needed - when the interview team finds out they need additional data for a particular topic(s), where the topic can be any item required for the scorecards or more clarification/drilldown to the answers that candidates provided. For Engineering Manager roles, it can also include additional skip-level manager interviews to provide additional input
 
 #### Requirements for Qualified Candidates
+
 1. There are at least two `Strong Yes` scorecards, excluding the recruiting call
 1. All `must-haves` assessed and positive (`Yes` or `Strong Yes`)
 1. Majority (e.g. 5 out of 9) of `nice-to-haves` assessed and positive
@@ -189,6 +194,7 @@ Additional Guidelines:
 1. Justification scorecard must score `must-haves` and `nice-to-haves` the same way as required in #2 and #3. The ratings should reflect the hiring manager's evaluation of the candidate based on all feedback. They are **not** an average of scores given by the interview panel.
 
 ## Software Subscriptions
+
 The Core Platform teams leverage the following software or SaaS services to deliver our products. For general information of procurement, checkout the [procurement team page](/handbook/finance/procurement/). For procurement questions, bring to [#procurement](https://gitlab.slack.com/archives/CPTMP6ZCK). To make new Purchase Order (PO), create a new [procurement issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/new?issuable_template=software_vendor_contract_request).
 
 | Software | Vendor Link | Term    | Renewal Date | Team Impacted | Comments |
@@ -202,14 +208,16 @@ The Core Platform teams leverage the following software or SaaS services to deli
 At GitLab, we encourage team members to explore their interests in other domains and generally support moves between teams. This helps with team member retention and career development. It can also help the receiving team gain valuable exposure to other parts of the product. However, we don't have a well-defined process to connect interested team members with available opportunities. For example, sometimes we execute borrow requests where specific engineers are requested for assignment and there is no opportunity for other engineers to express interest. We can encourage engineers interested in a move to look at job postings. But there could be other opportunities for temporary assignments or exchanges if we had an overview of interest across the organization.
 
 We are piloting a process within Core Platform to help team members interested in exploring different teams. This process is applicable to temporary assignments, i.e. [Rapid Actions](/handbook/product/product-processes/#rapid-action), [Borrows](/handbook/product/product-processes/#borrow), [Internship](/handbook/people-group/learning-and-development/internship-for-learning/) and mutual interests of a temporary exchange between 2 individuals. Other assignment changes such as [Realignment](/handbook/people-group/promotions-transfers/#realignment-process) and new job openings are out of scope.
+
 1. A team member can express their interest in other domains either to their direct manager or skip-level manager. If there is already a job opening in their area of interest, we can encourage them to apply following the [internal hiring process](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/).
 2. In the Core Platform staff meeting agenda, managers will highlight team members who have expressed interest. Their names will be kept confidential, but we will provide details about what areas they are interested in.
 3. If other managers have a potential opportunity for a given team member, they can connect with the team member's manager or skip-level manager. An opportunity may be a temporary opening such as a borrow request or another team member who may be interested in an exchange. Ultimately, any proposed moves are detailed in an issue with clear terms and reviewed and agreed by the following stakeholders:
    1. Giving team's Product Manager and Engineering Manager
    1. Receiving team's Product Manager and Engineering Manager if they are part of Core Platform
-   2. Director of Product Management and Director of Engineering
+   1. Director of Product Management and Director of Engineering
 
 The following conditions are followed when initiating the process:
+
 1. The applying candidate's last performance rating was `Performing` and there is no ongoing performance concerns at the time of application.
 2. The length of duration is what is defined by the Rapid Action and Borrow requests. For Internship, it is typically [6 weeks to 3 months](/handbook/people-group/learning-and-development/internship-for-learning/#:~:text=How%20long%20does%20an%20internship%20of%20this%20nature%20last%3F).
 3. At any time, the maximum concurrent temporary assignments cannot exceed 2 individuals for the roles within Core Platform. Note that there is no limit to roles for Rapid Actions and Borrows of company priority initiatives.

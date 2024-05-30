@@ -38,14 +38,13 @@ Login to Snowflake from Okta.
 
 The [Snowflake Quick Tour of the Web Interface](https://docs.snowflake.com/en/user-guide/snowflake-manager.html) provides comprehensive documentation for the UI.
 
-
 ## Snowflake account configuration
 
 ### ABORT_DETACHED_QUERY
 
-[ABORT_DETACHED_QUERY](https://docs.snowflake.com/en/sql-reference/parameters#abort-detached-query) parameter is set on account level to `True`. 
+[ABORT_DETACHED_QUERY](https://docs.snowflake.com/en/sql-reference/parameters#abort-detached-query) parameter is set on account level to `True`.
 
-We often have cases where the connectivity was lost and the query keeps trying to run and still does not complete. It is meaningless for the query to keep running in these cases and adds no value. There is a grace period of 5 mins. If the connectivity isn’t fixed in 5 mins now, it stops the execution after the 5 mins so the warehouses won’t be running unnecessarily. 
+We often have cases where the connectivity was lost and the query keeps trying to run and still does not complete. It is meaningless for the query to keep running in these cases and adds no value. There is a grace period of 5 mins. If the connectivity isn’t fixed in 5 mins now, it stops the execution after the 5 mins so the warehouses won’t be running unnecessarily.
 
 ## Snowflake SNS integration for snowflake snowpipe and task for failure
 
@@ -71,12 +70,12 @@ Notified a repeatable situation occurred:
 ```mermaid
 graph LR
     PM[Pipelines monitoring]
-    
+
     subgraph DE
         TM[Technical monitoring]
         PH[Pipeline health]
         DL[Data freshness check]
-    end 
+    end
     subgraph DE_AE[DE+AE]
         OD[Observing data]
         MT[Metrics throughput check]
@@ -85,7 +84,7 @@ graph LR
     PM-->TM
     TM-->PH
     TM-->DL
-    PM-->OD 
+    PM-->OD
     OD-->MT
 ```
 
@@ -104,20 +103,20 @@ graph LR
         SNS_SETUP[SNS setup for Taks and Snowpipes]
         SNOWPIPE-->SNS_SETUP
         TASK-->SNS_SETUP
-    end    
+    end
 
     subgraph AWS [AWS]
         SNS_TOPIC[SNS Topic] --> Lambda[Lambda function Python]
     end
 
     subgraph Slack
-        SLACK[#data-pipelines channel alert] 
+        SLACK[#data-pipelines channel alert]
     end
 ```
 
 Below covered details of the name and commands used for setup.
 
-### **Step 1: Created SNS topic in AWS  named `gitlab-snowflake-notification` following the instructution.**  
+### **Step 1: Created SNS topic in AWS  named `gitlab-snowflake-notification` following the instructution.**
 
 For this full access on SNS topic should be provided to the user
 Same SNS topic can be used for all snowflake task and snowpipe push notification.
@@ -148,9 +147,9 @@ CREATE OR REPLACE NOTIFICATION INTEGRATION gitlab_data_notification_int
 
 ### **Step 5: Granting Snowflake Access to the SNS Topic**
 
-Run below query in Snowflake:  
+Run below query in Snowflake:
 
-```
+```sql
   DESC NOTIFICATION INTEGRATION gitlab_data_notification_int;
 ```
 
@@ -179,7 +178,6 @@ And capture **SF_AWS_IAM_USER_ARN** and **SF_AWS_EXTERNAL_ID** post this modify 
 
  This will require the IT help to update the policy.
 
-
 ### **Step 6: Grant usage permission on integration to loader role**
 
 With `ACCOUNTADMIN` role execute below in Snowflake.
@@ -195,6 +193,7 @@ With `ACCOUNTADMIN` role execute below in Snowflake.
 For this the user should have `Create lambda function` and `ListRoles` permission in AWS. If any of those 2 privileges are missing, create an [**AR issue**](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new).
 
 For Creating lambda function select the following :
+
 1. `Author from scratch`
 1. Give unique name to lambda function
 1. Select any of the `Python` version (everything `>=3.10` is fine)
@@ -229,43 +228,43 @@ def lambda_handler(event, context):
         failure_type_name= task_details['pipeName']
         error_meesage=task_details['messages'][0]["firstError"]
         title="Snowpipe Failure Alert"
-    
+
     error_message_markdown=f"```{error_meesage}```"
-    
+
     log_link='https://gitlab.com/gitlab-data/runbooks/-/blob/main/triage_issues/snowflake_pipeline_failure_triage.md'
     log_link_markdown = f"<{log_link}|Runbook>"
-    
+
     message = {
             "channel": "#data-pipelines",
             "username": "SNOWFLAKE_TASK_PIPE",
             "icon_emoji": "snowflake",
-            "attachments": [{       
-                          "fallback":"Snowflake Task Failure Alert",       
+            "attachments": [{
+                          "fallback":"Snowflake Task Failure Alert",
                           "color":"#FF0000",
-                          "fields": [            
-                                    {      
-                                        "title":title,              
+                          "fields": [
+                                    {
+                                        "title":title,
                                         "value":failure_type_name
                                     },
-                                    {             
-                                        "title":"Timestamp",             
+                                    {
+                                        "title":"Timestamp",
                                         "value":timestamp
                                     },
-                                    {             
-                                        "title":"Error Message",             
+                                    {
+                                        "title":"Error Message",
                                         "value":error_message_markdown
                                     },
-                                    {             
-                                        "title":"Steps to view error message in snowflake",             
+                                    {
+                                        "title":"Steps to view error message in snowflake",
                                         "value":log_link_markdown
                                     }
                                     ]
                         }]
     }
-    
+
     encoded_msg = json.dumps(message).encode("utf-8")
     resp = http.request("POST", url, body=encoded_msg)
-    
+
     print(
         {
             #"message": event['Records'],
@@ -275,9 +274,9 @@ def lambda_handler(event, context):
     )
 ```
 
-**Things to consider during the implementation**:  
-- Good practice is to encrypt environment variables you plan to use in `AWS` Lambda function, as a part of good practices. Here is the comprehensive guideline on how to [secure environment variables](https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html#configuration-envvars-encryption).
+**Things to consider during the implementation**:
 
+- Good practice is to encrypt environment variables you plan to use in `AWS` Lambda function, as a part of good practices. Here is the comprehensive guideline on how to [secure environment variables](https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html#configuration-envvars-encryption).
 
 Above function will send all the event notification information into `Slack` for snowflake tasks and snowpipe failures and it will look like:
 
@@ -306,7 +305,6 @@ All the required permission in AWS account has been provided to all data platfor
 **Note:** Snowpipe error notifications only work when the `ON_ERROR` copy option is set to `SKIP_FILE` *(the default value)*. Snowpipe will not send any error notifications if the `ON_ERROR` copy option is set to `CONTINUE`.
 
 You can use the `NOTIFICATION_HISTORY` table function to query the history of notifications sent through Snowpipe. For more information, refer to [NOTIFICATION_HISTORY](https://docs.snowflake.com/en/sql-reference/functions/notification_history) documentation.
-
 
 ## Triage errors
 

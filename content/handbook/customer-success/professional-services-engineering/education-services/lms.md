@@ -33,4 +33,3 @@ The Thought Industries LMS Implementation is a stand-alone SaaS app and is not i
 ### Key Reports / Dashboards
 
 All Dashboards and Reports are a part of LMS itself. No separate Sisense reports are available or planned.
-

@@ -106,7 +106,7 @@ An example report can be found in this [sheet](https://docs.google.com/spreadshe
 Marginalia is a Ruby gem that annotates database queries with their origin. For example, for sidekiq jobs and web requests, we would see similar SQL comments alongside each query:
 
 1. Sidekiq: `/*application:sidekiq,...,jid:...,job_class:AuthorizedProjectUpdate::UserRefreshWithLowUrgencyWorker*/`
-2. Web: ` /*application:web,controller:issues,action:related_branches,correlation_id:...*/`
+2. Web: `/*application:web,controller:issues,action:related_branches,correlation_id:...*/`
 
 This information is retained in `pg_stat_statements`. We can use it to aggregate across sidekiq jobs, controllers or controller actions.
 

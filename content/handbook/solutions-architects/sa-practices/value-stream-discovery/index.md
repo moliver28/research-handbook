@@ -4,7 +4,7 @@ aliases: /handbook/solutions-architects/sa-practices/value-stream-assessments
 ---
 
 
-When working with GitLab, many prospects and customers have software delivery performance improvements as critical business outcomes. Unfortunately, due to the inherent and increasing complexity in the software delivery process, an organization's software delivery value streams often consist of dozens, if not hundreds, of manual configuration touch points and handoffs. Typically, there is a lack of visibility and understanding into the current process, making it challenging to identify and measure software delivery improvements. Without understanding the current software development value streams, organizations risk putting time, effort and money into areas that will not improve their software delivery capability in any meaningful way.
+When working with GitLab, many prospects and customers have software delivery performance improvements as critical business outcomes. Unfortunately, due to the inherent and increasing complexity in the software delivery process, an organization's software delivery value streams often consist of dozens, if not hundreds, of manual configuration touch points and handoffs. Typically, there is a lack of visibility and understanding into the current process, making it challenging to identify and measure software delivery improvements. Without understanding the current software development value streams, organizations risk putting time, effort, and money into areas that will not improve their software delivery capability in any meaningful way.
 
 GitLab account teams should offer to assist prospects and customers in helping to provide an overview and understanding of their value stream(s).
 
@@ -24,8 +24,8 @@ Value Stream Discovery (VSD) aims to gain a clear understanding of how an organi
 
 ### Common Value Stream Discovery Techniques
 
-* **Discovery Session (with Value Stream Concepts):** Integrate value stream mapping concepts into standard discovery sessions. This aligns well with GitLab's [Command of the Message](https://handbook.gitlab.com/handbook/sales/command-of-the-message/) approach, focusing on understanding the customer's current state, future desired state, and the metrics they'll use to measure success.  It's vital to grasp how the customer's value stream ties into achieving their larger business goals.
-* **"Day in the Life":** Leverage the established ["Day in the Life" SA practice](https://handbook.gitlab.com/handbook/solutions-architects/sa-practices/day-in-the-life/) to extract valuable value stream information. While initial observations might be limited to a single team, the resulting metrics and insights provide a valid foundation. Ideally, expand this exercise to involve multiple teams within the value stream for greater cross-functional visibility.
+* **Discovery Session (with Value Stream Concepts):** Integrate value stream mapping concepts into standard discovery sessions. This aligns well with GitLab's [Command of the Message](/handbook/sales/command-of-the-message/) approach, focusing on understanding the customer's current state, future desired state, and the metrics they'll use to measure success.  It's vital to grasp how the customer's value stream ties into achieving their larger business goals.
+* **"Day in the Life":** Leverage the established ["Day in the Life" SA practice](/handbook/solutions-architects/sa-practices/day-in-the-life/) to extract valuable value stream information. While initial observations might be limited to a single team, the resulting metrics and insights provide a valid foundation. Ideally, expand this exercise to involve multiple teams within the value stream for greater cross-functional visibility.
 * **Value Stream Discovery Session (Informal):** A focused session involving representatives from across the value stream. Less structured than a full workshop, it still prioritizes understanding the customer's value stream with the potential to identify immediate improvement areas if time allows.
 * **Value Stream Workshop:** A comprehensive approach detailed [below in this handbook page](#value-stream-workshop).
 
@@ -35,7 +35,6 @@ Since Value Stream Discovery aims to uncover challenges in delivering value to t
 
 * **Customer Journey Mapping:** Visualize the customer's experience as they interact with the value stream. Map touchpoints, identify pain points, and uncover opportunities to improve their journey, enhancing overall delivered value ([Lucidchart Overview](https://www.lucidchart.com/blog/how-to-build-customer-journey-maps)).
 * **Voice of the Customer (VOC):** Employ surveys, interviews, or user testing to collect direct feedback from end-users on their experience with the value stream. This qualitative data provides insights into their needs, frustrations, and areas for improvement ([Gainsight Overview](https://www.gainsight.com/essential-guides/voice-of-the-customer/)).
-
 
 ### Choosing a Technique
 
@@ -71,7 +70,6 @@ Running a Value Stream Workshop requires a non-trivial investment of time by bot
 * We have a relationship with the [economic buyer](/handbook/sales/meddppicc/#economic-buyer)
 * We have identified and established a relationship with the [internal champion](/handbook/sales/meddppicc/#champion)
 * We suggest positioning a Value Stream Workshop prior to POVs (Proof of Value) to understand bottlenecks, key metrics important to stakeholder. This also gives us an opportunity to agree to the success criterias before starting the POV as value drivers for deal closure.
-
 
 Key indicators that the opportunity is well-suited include:
 
@@ -124,6 +122,7 @@ This gives the team at GitLab the ability to both track the progress of the Valu
 #### Internal Preparation Meeting
 
 It is extremely important to have an internal preparation meeting (can be async) prior to positioning a Value Stream Workshop to the customer. The goal of the meeting is to be able to discuss:
+
 * The opportunity (should include SFDC link for SA engagement)
 * The key players & their roles
 * What metrics are these key players measured by
@@ -137,6 +136,7 @@ It is extremely important to have an internal preparation meeting (can be async)
 ### Position
 
 The initial customer positioning allows us to position value stream assesment to our key stakeholders & get their buy in. The customer positioning should include:
+
 * What is a Value Stream Workshop?
 * What does a Value Stream Workshop entail?
 * Who are the key participants involved in the Value Stream Workshop?
@@ -145,9 +145,9 @@ The initial customer positioning allows us to position value stream assesment to
 It is important to identify a project or few projects as next step for the planning meeting with customer.
 
 Here are some resources that can be used as starting point for the positioning session:
+
 * [Customer positioning deck](https://docs.google.com/presentation/d/1dOy-YGmsQio3v4EVjhFoCJWekzG0Z8PIpwsqliTyku0/edit?usp=sharing) - ([Recording](https://youtu.be/oxYjSrYLML4))
 * [Internal positioning deck](https://docs.google.com/presentation/d/1kWqXBbBC2BZ1w9dWEUe4hVJdcXMcO6tXNK9dFY-5XF0/edit#slide=id.gef34d4c13c_1_636)
-
 
 ### Planning meeting with customer
 
@@ -208,7 +208,6 @@ The process which we will go through, at a high level, is as follows  (per funct
     1. Managing the work
         1. How will we measure if the value stream is performing as we intended? (KPIs)
         1. Who will monitor and manage the value stream performance?
-
 
 #### Tools
 
@@ -282,8 +281,6 @@ It is recommended to review the executive briefing with your champion, key stake
     * It takes 1 or 1.5 hr per team to do focused discovery for a Value Stream Workshop. We interviewed 4 different teams for our silicon valley customer in 4.5 hrs. We can start with the least busy team if you don't want it to be pursued in a group setting.
 1. Can you interview 1 team at a time?
     * Yes. We would like to start with application development team if so. This helps us understand an overview of their development process(idea-production) process.
-
-
 
 ### Salesforce Tracking
 

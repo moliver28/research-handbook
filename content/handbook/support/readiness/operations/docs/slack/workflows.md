@@ -83,7 +83,6 @@ This section serves as a form of "backup" for the Slack workflows we manage, as
 the current implementation of Slack workflows does not allow an export/import
 option.
 
-
 #### Licensing  Internal Requests
 
 Locate at
@@ -338,7 +337,6 @@ Permissions:
 - Can copy this workflow
   - Workflow managers only
 
-
 #### Support Contact Management
 
 Locate at
@@ -416,7 +414,7 @@ Located at
      > is not permitted to be shared openly here.
      >
      > Refer to the
-     > [US Government Support Communication Guidelines](https://handbook.gitlab.com/handbook/support/workflows/usgovernment_tickets/#how-to-reference-customer-information-securely-in-chat)
+     > [US Government Support Communication Guidelines](/handbook/support/workflows/usgovernment_tickets/#how-to-reference-customer-information-securely-in-chat)
      > to see how you may reference customer information in a secure manner.
 
      - Variables

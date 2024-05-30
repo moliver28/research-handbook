@@ -12,8 +12,6 @@ description: "Giltab's Reporting Data Catalog"
 
 ---
 
-
-
 ## Introduction
 
 This is GitLab's catalog of published Tableau Datasources and Dashboards.  While it is possible to search for and discover datasources and dashboards directly in the Tableau site this catalog acts as the documentation for what content is available for reporting and use.
@@ -27,8 +25,6 @@ Each entry in the catalog will have the following information:
 - Keywords: Common terms used for searching
 - Certification: The level at which the published item has been certified by the enterprise data team.
 - Lineage: Links to database tables, sources, and published datasources used in the creation of the item.
-
-
 
 ## Datasources
 
@@ -63,4 +59,3 @@ Total, recorded, and estimated usage for Self-Managed and SaaS Service Ping metr
 - Lineage: [common_mart_product.rpt_ping_metric_totals_w_estimates_monthly](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_ping_metric_totals_w_estimates_monthly)
 
 ## Dashboards
-

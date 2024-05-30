@@ -15,13 +15,12 @@ description: >-
 
 Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11112](https://gitlab.com/groups/gitlab-org/-/epics/11112)
 
-
 ### Milestone 16.5 (September 17, 2023 - October 13, 2023)
 
-#### Goals:
+#### Goals
+
 - [-] [Implement Watch API for Kubernetes API calls](https://gitlab.com/gitlab-org/gitlab/-/issues/422945) as this is a prerequisite for the dashboard
 - [-] [Design the dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/365901)
-
 
 #### Week of Oct 09-13
 
@@ -29,14 +28,15 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11112](https://gitlab.com/gr
 
 ### Milestone 16.6 (October 17, 2023 - November 10, 2023)
 
-#### Goals:
+#### Goals
+
 - [x] [Implement Watch API for Kubernetes API calls](https://gitlab.com/gitlab-org/gitlab/-/issues/422945) as this is a prerequisite for the dashboard
 - [x] [Design the dashboard](https://gitlab.com/gitlab-org/gitlab/-/issues/365901)
 
 #### Week of Oct 16-20
 
-- [-] *forecast*: [Implement Watch API for Kubernetes API calls](https://gitlab.com/gitlab-org/gitlab/-/issues/422945) is merged and tested 
-- [x] *forecast*:  More issues are created to break down the work for the dashboard described in the epic 
+- [-] *forecast*: [Implement Watch API for Kubernetes API calls](https://gitlab.com/gitlab-org/gitlab/-/issues/422945) is merged and tested
+- [x] *forecast*:  More issues are created to break down the work for the dashboard described in the epic
 
 #### Week of Oct 23-27
 
@@ -54,7 +54,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11112](https://gitlab.com/gr
 
 ### Milestone 16.7 (November 13, 2023 - December 15, 2023)
 
-#### Goals:
+#### Goals
 
 - [x] Now that the Iteration 1 of the dashboard is designed we can focus on refining [https://gitlab.com/groups/gitlab-org/-/epics/11351](https://gitlab.com/groups/gitlab-org/-/epics/11351)
 - [x] 50% of the MVC issues for iteration 1 is delivered
@@ -71,7 +71,6 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11112](https://gitlab.com/gr
 - [x] *forecast*: MR to introduce [layout](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/137048) for dashboard pages is merged and tested
 - [x] *forecast*: MR to introduce [stats component](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/137347) for dashboard pages is merged and tested
 - [x] *forecast*: [Implement Watch API for Kubernetes services](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/137306) is merged and tested
-
 
 #### Week of Nov 27 - Dec 1
 
@@ -94,7 +93,7 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11112](https://gitlab.com/gr
 
 ### Milestone 16.8 (December 18, 2023 - January 12, 2024)
 
-#### Goals:
+#### Goals
 
 - [ ] Iteration 1 is finalised and deplopyed behind feature flags.
 - [ ] Iteration 2 is scoped, the issues created and refined
@@ -117,25 +116,27 @@ Epic: [https://gitlab.com/groups/gitlab-org/-/epics/11112](https://gitlab.com/gr
 - [x] *forecast*: [Iteration 1 of the Kubernetes services page](https://gitlab.com/gitlab-org/gitlab/-/issues/428322) is done
 - [-] *forecast*: Iteration 1 of the Kubernetes dashboard pages are enriched with detailed resource spec information
 
-
 ### Milestone 16.9 (January 15, 2024 - February 9, 2024)
 
-#### Goals:
+#### Goals
+
 - [ ] Iteration 1 is enabled by default
 - [ ] Iteration 2 is 50% done and delivered as progresive enhancement over version 1
 
-
 ### Milestone 16.10 (February 12, 2024 - March 8, 2024)
 
-#### Goals:
+#### Goals
+
 -
 
 ### Milestone 16.11 (March 11, 2024 - April 12, 2024)
 
-#### Goals:
+#### Goals
+
 -
 
 ### Milestone 17.0 (April 15, 2024 - May 10, 2024)
 
-#### Goals:
+#### Goals
+
 -

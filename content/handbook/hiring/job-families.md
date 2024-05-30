@@ -32,11 +32,13 @@ For Grades 10 and above:
 1. **Your executive leader**: Your executive leader is responsible for confirming the role is in plan and review of department/division structure and levels.
 1. **Your People Business Partner** Who will review and typically notify Total Rewards
 1. **Total Rewards**: The Total Rewards Team, `@gl-total-rewards`, is the final approver for job families on the merge request ensuring.:
+
   - There is a business need for the level within the job family.
   - The level is common in the market based on survey data.
   - All components of the job family are populated.
   - A [benchmark]({{< ref "compensation-calculator#new-benchmark" >}}) is set to add to the Compensation Calculator.
   - A Job Title is created within Workday.
+
 1. To create more visibility for the Merge Request, send a note to the `#job-family` slack channel
 
 For Grades 9 and below:
@@ -45,13 +47,14 @@ For Grades 9 and below:
 1. **Your Department Head**: Your Department Head (typically at the VP level) is responsible for confirming the role is in plan and review of department/division structure and levels. It is highly recommended that the Department Head notifies the EGroup Leader for awarenesss.
 1. **Your People Business Partner** Who will review and typically notify Total Rewards
 1. **Total Rewards**: The Total Rewards Team, `@gl-total-rewards`, is the final approver for job families on the merge request ensuring.:
+
   - There is a business need for the level within the job family.
   - The level is common in the market based on survey data.
   - All components of the job family are populated.
   - A [benchmark]({{< ref "compensation-calculator#new-benchmark" >}}) is set to add to the Compensation Calculator.
   - A Job Title is created within Workday.
-1. To create more visibility for the Merge Request, send a note to the `#job-family` slack channel
 
+1. To create more visibility for the Merge Request, send a note to the `#job-family` slack channel
 
 ## Templates for New Job Family
 
@@ -311,6 +314,7 @@ created starting from the template. There's only a few additions you should do w
 1. The file type should be `index.html.haml`.
 1. Copy the template and add it to your new file
 1. Update all the places that need updates:
+
  - replace {Job Title} with the job titile
  - replace {Job Family introduction} with a paragraph giving more information about the job itself.
  - if there's a video for this job family, switch out the youtube `ID_FOR_VIDEO` with the relevant ID

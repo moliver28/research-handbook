@@ -16,7 +16,7 @@ description: "A page containing links to helpful CI resources for the CSM team a
   <tr>
     <td>No agreement</td>
     <td><ul><li><a href="https://docs.google.com/presentation/d/1M5B4vFiNp967KI50UTCeg5FoYYTE4wNe8MGKZhG3WNw/edit#slide=id.g24901083280_0_7242">Next Generation DevOps Deck</a>(w/ <a href="https://drive.google.com/file/d/1WACCqn6YuACLLF4YdHqjTABs3ULzJE5s/view">talk track</a>)</li>
-    <li><a href="https://internal.gitlab.com/handbook/sales/command-of-the-message/trap-setting-questions/?redirected-from=internal-handbook.gitlab.io#leading-scm-and-cicd-in-one-application">Trap setting questions</a></li>
+    <li><a href="https://internal.gitlab.com/handbook/sales/command-of-the-message/trap-setting-questions/">Trap setting questions</a></li>
     <li><a href="https://page.gitlab.com/2021_eBook_leadershipCICD.html">How to convince leadership to adopt CI/CD EBook</a></li></ul></td>
   </tr>
   <tr>
@@ -90,14 +90,9 @@ Jenkins to GitLab
 1. Webinars (Informational & Hands-On):
      - [Monthly Webinar Calendar](/handbook/customer-success/csm/segment/scale/webinar-calendar/)
 
-
-## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption:
+## Product Features or Enhancements Coming Soon That Will Accelerate CI setup and adoption
 
  1. CI Component Catalog: https://docs.gitlab.com/ee/ci/components/
     - Quick demo on how the CI Component Catalog Works [VIDEO](https://youtu.be/nijvYhAPKsM)
     - Epic outlining the business need and cusotomer pain point this catalog will solve: https://gitlab.com/groups/gitlab-org/-/epics/7462
     - Epic housing future feature enhancements: https://gitlab.com/groups/gitlab-org/-/epics/9897
-
-
-
-

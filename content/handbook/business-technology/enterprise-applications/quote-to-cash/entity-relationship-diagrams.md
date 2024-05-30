@@ -6,14 +6,6 @@ description: "Entity Relationship Diagrams for Quote to Cash Systems"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
 ## Quote to Cash Entity Relationship Diagrams
 
 ### Zuora Billing

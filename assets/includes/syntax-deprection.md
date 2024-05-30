@@ -13,4 +13,4 @@ GitLab does not have a versioning system for CI/CD configuration. Therefore, it 
 
     This step is optional if the keyword usage is relatively low (Recommend minimal reach of ~5% impacted users).
 
-4. Keyword removal - The keyword will be removed from our code and schema and should happen in a major version. Once removed,  using the keyword will result in a lint error. 
+4. Keyword removal - The keyword will be removed from our code and schema and should happen in a major version. Once removed,  using the keyword will result in a lint error.

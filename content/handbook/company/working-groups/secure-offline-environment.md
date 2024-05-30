@@ -11,7 +11,7 @@ description: "The Secure Offline Environment Working Group allows mirroring or d
 | Target End Date | April 22, 2020 |
 | Slack           | [#wg_secure-offline-environment](https://gitlab.slack.com/archives/CV9K1JEF5) (only accessible from within the company) |
 | Google Doc      | [Secure Offline Deployment Working Group Agenda](https://docs.google.com/document/d/13eDkeyMH1rp7Dhzy0t-nIlwVfCqbSEp_WUftJGqFHzQ/edit?usp=sharing) (only accessible from within the company) |
-| Tracking Epic   | [gitlab-org Epic](https://gitlab.com/groups/gitlab-org/-/epics/1359)
+| Tracking Epic   | [gitlab-org Epic](https://gitlab.com/groups/gitlab-org/-/epics/1359) |
 
 ## Business Goal
 

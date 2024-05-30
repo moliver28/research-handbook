@@ -131,6 +131,6 @@ Fortunately, partitioning is the groundwork that allows us to tackle the same se
 
 We are going to tackle the [audit log database design](https://gitlab.com/groups/gitlab-org/-/epics/320) as a first step to introduce the groundwork for partitioning and prepare the application to make wider use of this pattern.
 
-------
+---
 
 Author: [Andreas Brandl](https://gitlab.com/abrandl)

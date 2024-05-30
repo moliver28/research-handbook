@@ -149,7 +149,6 @@ graph TD
 
 *For Third-Party Risk Acceptance, any Moderate/High risk requires VP and/or above approval*
 
-
 ## Internal Privacy Review
 
 {{% details summary="Internal Product Feature/Release Privacy Review Process" %}}

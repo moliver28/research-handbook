@@ -5,12 +5,14 @@ title: Business Value Consulting
 
 
 Business value consulting is a practice and approach that a Solutions Architect (SA), in collaboration with the sales team, can engage with the customers to
+
 - Focus on customer challenges and required GitLab DevSecOps capabilities to address the challenges
 - Quantify values of GitLab DevSecOps solution with performance improvements and measurable business outcomes
 
 The practice should usually start at the discovery and scoping stages. The output of the business value discussion can be Return on Investment (ROI) and Total Cost of Ownership (TCO).
 
 To extend the customer converstaions with the value focus, the SA together with Account Executives can provide the consultantive dialogue to
+
 - Drive value discussion to address challenges, support organizational goals and vision
 - Expand the customer reach and engage right stakeholders
 - Demonstrate hard cost savings along with validated efficient gains and performance improvements
@@ -52,7 +54,3 @@ SAs can incorporate the value consulting into early sales stages while building 
   - Top value drivers: Secure the software supply chain, bring application security to developer's hand and mature organizational DevSecOps practice. Both individual tool cost can be calculated to consolidated into a DevSecOps platform along with associated cost on developer velocity when addressing security concerns early in the SDLC.
 - Accelerate Cloud Adoption & Transformation - Standardize cloud processes to accelerate business outcomes
   - Top value drivers: Streamline and standardize cloud first practice for DevSecOps and applications to bring products and services to the market faster, safer and more accessible. The benefits of eliminating high on premise infrastracture cost with associated SREs can be realized with managed services by GitLab in the cloud. App development teams, infrastracture teams and security teams can deliver software faster and more securely.
-
-
-
-

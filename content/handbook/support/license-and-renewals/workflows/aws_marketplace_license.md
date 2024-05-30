@@ -21,7 +21,7 @@ New licenses
 
 If the customer needs to go above the 5 users license seats, they would need to reach out to <aws-sales@gitlab.com> to get a private offer. Once the customer get a private offer with us, a Customers Portal and Zuora account is created for the customer and a new license is generated for the private offer.
 
-----
+---
 
 ## Workflows
 

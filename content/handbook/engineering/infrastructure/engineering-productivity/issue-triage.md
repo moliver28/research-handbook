@@ -62,9 +62,9 @@ The [Features by Group](/handbook/product/categories/features) listing can help 
 
 The priority label is used to indicate the importance and guide the scheduling of the issue. Priority labels are expected to be set based on the circumstances of the market, product direction, IACV impact, number of impacted users and capacity of the team. [DRIs](/handbook/people-group/directly-responsible-individuals/) for prioritization are based on work type:
 
-* Feature - Product Manager (PM)
-* Maintenance - Engineering Manager (EM)
-* Bug - Quality Engineering Manager (QEM)
+- Feature - Product Manager (PM)
+- Maintenance - Engineering Manager (EM)
+- Bug - Quality Engineering Manager (QEM)
 
 | Priority | Importance | Intention | DRI |
 | -------- | ---------- | --------- | --- |
@@ -93,7 +93,7 @@ Once you've determined a severity for an issue add a note that explains in summa
 | `~"bug::performance"` Browser Rendering <br> ([TBT](https://web.dev/tbt/))[^2] | Above 9000ms to timing out | Between 2000ms and 9000ms | Between 1000ms and 2000ms | Between 300ms and 1000ms | [Enablement Quality Engineering team](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/) |
 | `~bug::ux` User experience problem [&sup3;](#ux) | "I can't figure this out." Users are blocked and/or likely to make risky errors due to poor usability, and are likely to ask for support. | "I can figure out why this is happening, but it's really painful to solve." Users are significantly delayed by the available workaround. | "This still works, but I have to make small changes to my process." Users are self sufficient in completing the task with the workaround, but may be somewhat delayed. |  "There is a small inconvenience or inconsistency." Usability isn't ideal or there is a small cosmetic issue. | [Product Designers](/handbook/product/ux/product-design/) of that Product group |
 | `~"bug::availability"` of GitLab SaaS | See [Availability section](#availability) | See [Availability section](#availability) | See [Availability section](#availability) | See [Availability section](#availability) | |
-| `~"bug::vulnerability"` Security Vulnerability | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#remediation-slas) | AppSec team |
+| `~"bug::vulnerability"` Security Vulnerability | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) | See [Vulnerability Remediation SLAs](/handbook/security/threat-management/vulnerability-management/#remediation-slas) | AppSec team |
 | Global Search | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | |
 | `~test` Bugs blocking end-to-end test execution | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | [Test Platform Sub-Department](/handbook/engineering/infrastructure/test-platform/) |
 | `~GitLab.com Resource Saturation` Capacity planning warnings | Mean forecast shows Hard SLO breach within 3 months. | | | | Scalability Engineering Manager (who will hand over to EM that owns the resource) |
@@ -124,6 +124,7 @@ If a issue seems to fall between two severity labels, assign it to the higher se
 - Example(s) of `~"severity::2"`
   - Cannot submit changes through the web IDE, but the command line works.
   - A status widget on the merge request page is not working, but information can be seen in the test pipeline page.
+  - A workaround is available but it requires the use of the [Rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html), making it unacceptably complex.
 - Example(s) of `~"severity::3"`
   - Can create merge requests only from the Merge Requests list view, not from an Issue page.
 - Example(s) of `~"severity::4"`
@@ -267,8 +268,6 @@ Severity should be assessed using the following table:
 
 These issues follow the established [severity SLOs for bugs](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos).
 
-
-
 ## Triaging Issues
 
 Initial triage involves (at a minimum) labelling an issue appropriately, so un-triaged issues can be discovered by searching for issues without any labels.
@@ -352,10 +351,7 @@ As the DRI you should consider take additional steps to ensure the continued sup
 
 If as a result of the triage process a group is identified as qualified and willing to take ownership on a permanent basis, product and engineering leaders should officially document the type of ownership model and the team in the [shared services components](/handbook/engineering/development/#shared-services-and-components) section of the Development handbook. Multiple groups may permanently share ownership of the same component if deemed appropriate.
 
-
 It is important to keep in mind that throughout this process, as a leader in your group, you are deemed the initial Directly Responsible Individual ([DRI](/handbook/people-group/directly-responsible-individuals/)) until the issue is resolved or someone else agrees to take over. Simply removing your group label without further triage conversations with other groups is not an acceptable or helpful action to take in this process. This aligns with our value of [Results: global optimization](/handbook/values/#global-optimization).
-
-
 
 ### Outdated issues
 
@@ -378,7 +374,7 @@ Use the issue with the better title, description, or more comments and positive 
 
 If the issue is really a support request for help, you can post this message:
 
-```
+```markdown
 Hey {{author}} thanks for reaching out, but it looks like this might be a request for support. The issue tracker is for new bug reports and feature proposals. For support requests we have several resources that you can use to find help and support from the Community, including:
 
 * [Technical Support for Paid Tiers](https://about.gitlab.com/support/)

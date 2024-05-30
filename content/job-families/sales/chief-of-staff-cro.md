@@ -32,7 +32,6 @@ This role does not overlap with the responsibilities [Executive Business Adminis
 - Help identify items that can be delegated to others to optimize the CROs time allocation to high-value activities
 - Support the CRO in organizing inspiring and informative WW Field meetings to share important business information as well as engage and boost team morale
 
-
 ## Requirements
 
 - Ability to use GitLab
@@ -69,7 +68,5 @@ There is no set career path for a Chief of Staff. As such, the role is often vie
 ## Hiring Process
 
 The hiring process for this role is yet to be defined. It will include interviews with the CRO, and other key stakeholders on the Sales leadership team.
-
-
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/)

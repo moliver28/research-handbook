@@ -78,7 +78,7 @@ The Social Media Manager is a [grade 6](/handbook/total-rewards/compensation/com
 - Understanding of how social media, public relations, and content strategies intersect to drive business outcomes.
 - Previous experience working in a remote environment.
 
-------
+---
 
 ### Senior Social Media Manager
 
@@ -110,7 +110,7 @@ The Senior Social Media Manager is a [grade 7](/handbook/total-rewards/compensat
 - Understanding of how social media, public relations, and content strategies intersect to drive business outcomes.
 - Previous experience working in a remote environment.
 
-------
+---
 
 ### Staff Social Media Manager
 
@@ -169,7 +169,7 @@ The Principal Social Media Manager is a [grade 9](/handbook/total-rewards/compen
 - Strong sense of and experience with high-level concept development, strategy, research, and problem-solving
 - Exceptional communication skills and ability to develop, pitch, execute, and report on creative ideas, strategies, and campaigns
 
-------
+---
 
 ### Manager, Social Media
 
@@ -200,7 +200,7 @@ The Manager, Social Media is a [grade 8](/handbook/total-rewards/compensation/co
 - BONUS: Experience in people management (we have an internal management development program)
 - BONUS: A passion and strong understanding of the industry and our mission
 
-------
+---
 
 ### Senior Manager, Social Media
 
@@ -251,7 +251,7 @@ The Director, Global Social Media is a [grade 10](/handbook/total-rewards/compen
 - Strong sense of and experience with high-level concept development, strategy, research, and problem-solving
 - Exceptional communication skills and ability to develop, pitch, execute, and report on creative ideas, strategies, and campaigns
 
-------
+---
 
 #### Career Ladder
 

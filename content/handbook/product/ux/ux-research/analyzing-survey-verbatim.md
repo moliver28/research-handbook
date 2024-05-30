@@ -6,11 +6,13 @@ description: "Guidelines for how to analyze survey verbatim"
 [Verbatim are comments that are submitted to open-ended questions](https://goascribe.com/blog/verbatim-coding-for-survey-research/) (e.g.,” Is there anything that you’d like to share with us about GitLab’s usability?”) that are typically asked in a survey where respondents can type in their responses in a free-form format. A verbatim analysis helps us understand different phenomena, like the user experience, by looking for themes across those responses.
 
 The process of analyzing verbatim is usually called “coding”, which is not related to writing a computer program in a programming language but describes the process of assigning codes that represent what a verbatim is trying to communicate.
+
 - **A code** [is "a word or phrase that acts as a label for a segment of text"](https://www.nngroup.com/articles/thematic-analysis/#:~:text=Definition%3A%20A%20code%20is%20a,a%20hashtag%20describes%20a%20tweet).
 - **Coding** ["refers to the process of labeling segments of text with the appropriate codes"](https://www.nngroup.com/articles/thematic-analysis/#:~:text=Definition%3A%20A%20code%20is%20a,a%20hashtag%20describes%20a%20tweet).
 - **Themes** represent groups of codes that tell us something about the user experience.
 
 There are two different approaches to categorizing verbatims.
+
 - **Top-down:** This is when you take a preset list of categories and assign them to individual verbatim. This approach is best used when you already have a sense of what types of codes and themes you’ll observe in verbatims.
 - **Bottom-up approach:** This involves creating categories based on an analysis of each individual data point one by one and grouping them to categories that you then refine until you have codes and themes that meaningfully represent your complete sample of responses. This approach takes more time but it is particularly useful if you don’t have a sense of what types of codes and themes you’ll observe and/or want to help control for bias in your analysis. The bottom up approach is also sometimes referred to as a [grounded theory approach](https://en.wikipedia.org/wiki/Grounded_theory) - though we’re not using that term here because the steps that we’ve framed below represent a simplified version of that more academic pursuit.
 
@@ -118,7 +120,7 @@ Table with examples:
 |   Pipelines are too complex and confusing     |   Pipelines confusing     | Pipelines confusing |
 |   My experience is that is really overly complex for my  use case. I came over from bitbucket and this seems to just have way too much going on, when I just want to simply have a private repo that me and my small team work on.     |   Lots going on, wants simplicity     | wants simplicity - private repo for team |
 |   I find the way different pipelines are presented to be confusing and it's hard to know which are running     |    Pipeline presentation confusing    | Pipelines confusing |
-|    Any simplification wherever possible is welcome    |   wants simplicity     | wants simplicity
+|    Any simplification wherever possible is welcome    |   wants simplicity     | wants simplicity |
 
 ### 6. **Determine final themes.**
 

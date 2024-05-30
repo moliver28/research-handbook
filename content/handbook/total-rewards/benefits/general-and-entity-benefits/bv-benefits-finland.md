@@ -15,7 +15,7 @@ The Employer is required by law to provide preventative occupational healthcare 
 
 Both Employer and Employee must pay pension insurance contributions in Finland. The Employer must withhold the contributions through the Payroll and pay both the employee and employer social insurance contributions to the pension insurance company. GitLab administers all pension Insurance contributions through [ELO](https://www.elo.fi/en/about-elo#:~:text=We%20are%20Elo%2C%20a%20large,funds%20profitably%2C%20securely%20and%20responsibly.).
 
-#### 2022 Contributions:
+#### 2022 Contributions
 
 | Pay to your insurance company                                                                                                                                              |    2022 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------:|

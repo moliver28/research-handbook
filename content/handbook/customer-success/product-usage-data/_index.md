@@ -1,19 +1,9 @@
 ---
-
 title: "Product Usage Reporting Vision"
 description: "The page outlines the current and planned utilization of operational data at GitLab, including Product, Sales, Customer Success, and Marketing."
 ---
 
-
-
-
-
-
-
----
-
-
-# Operational Data Vision
+## Operational Data Vision
 
 ## Vision
 
@@ -69,9 +59,8 @@ The benefit to GitLab is based on the premise that customers will renew and expa
 
 #### Identifying & Mitigating Risk
 
-1. Triggered alerts in Gainsight to notify a CSM to take action when there are concerning patterns within the month over month operational data.  
+1. Triggered alerts in Gainsight to notify a CSM to take action when there are concerning patterns within the month over month operational data.
 1. Reporting and alerts when adoption across a use case goes from 'Green' to 'Yellow' or 'Red', indicating potential movement from a team off of the platform
-
 
 #### Success Planning and Outcome Delivery
 
@@ -114,7 +103,7 @@ The benefit to GitLab is based on the premise that customers will renew and expa
 
 - [Operationalized Usage Metrics in Gainsight/Tableau](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit#gid=0)
 - [License Utilization](/handbook/customer-success/product-usage-data/use-case-adoption/): Assist the customer in determining how well utilized licenses are, how they could be used, and assess their future needs
-- [xMAU](/handbook/product/performance-indicators/#three-versions-of-xmau) leverages usage stats and is a key performance indicator (KPI) for the Product Team
+- [xMAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/#three-versions-of-xmau) leverages usage stats and is a key performance indicator (KPI) for the Product Team
 - Use case expansion playbook success will be measured by customer use case adoption
 - Use case health score will leverage use case adoption (scored as minimum to advanced). This is used to understand which use cases have been adopted and what is the progress on adopting those use cases.
 - Customer health scores (planned) will leverage use case health scores. This is used to analyze and understand the customer's overall health through engagement and depth of deployment. This will also leverage other inputs like support cases and NPS/customer sentiment surveys.

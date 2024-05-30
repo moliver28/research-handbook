@@ -19,8 +19,6 @@ The team member needs to provide documentation (a prescription) from the opticia
 
 Please submit your prescription to Total Rewards for approval. Once approved, please send your receipts to expensify for reimbursement.
 
-
-
 ## German Supplemental Pension Plans
 
 GitLab has introduced two supplemental Pension Plans for our Germany Team Members.
@@ -76,6 +74,13 @@ Following receipt, the Benefits Team will countersign and confirm with WTW on yo
 If a Team member notifies Total Rewards before the 5th of the month that they want to change their Direct Insurance Plan contributions, changes will be reflected on the 1st of the current month. If they notify Total Rewards after the 5th of the month enrollment/changes will be reflected the 1st of the following  month. Total Rewards will inform WTW and Non-US Payroll of the change and when to update the change.
 The team member will receive a new version of the contract (may take up to 8 weeks to receive the new contract), however in the meantime Payroll will update the contribution amount.
 
+#### Options for existing direct insurance contracts with prior employer
+
+There are two different options on how to handle existng direct insurance contracts:
+
+- There is a legal claim to the transfer of the value of the existing insurance (transfer of actuarial reserve) if, for example, it is a direct insurance that was concluded as a new commitment as of 01.01.2005. However, the transfer is only possible within 15 months of leaving the previous employer In this case, a new insurance policy is taken out on the basis of current legal principles. This may change the existing insurance cover. The value of the existing insurance will be included in the new insurance to be taken out
+- Optionally, the existing contract can be continued privately contributory or non-contributory (in this case, GitLab will not take over the existing contract) and the employee takes out a new contract within the group contract with GitLab.
+
 ### Team Members On Leave
 
 For the Direct Insurance plan, Team Members on Leave, including unpaid, maternity, and paternity and extended Long Term Sickness (42 continuous calendar days of sick leave- 6 weeks) are not eligible to contribute on the plans while on leave.
@@ -103,6 +108,7 @@ Direct Entitlement is excluded from the plan, meaning the premiums are only taxe
 In the unfortunate event of an accident, please find the Group Personal Accident Flier in [German](https://drive.google.com/file/d/1AbBRSZ1-mkUyITCU0eLhltfRvu3Z3ppy/view?usp=sharing) & in [English](https://drive.google.com/file/d/1GFMTLLgMeyj1EZQ8K0axu8zxhV7jM4QT/view?usp=sharing) with information on how to report an accident and start a claim.
 
 Accidents at work that are fatal or lead to an inability to work for more than 3 days must be reported within three days of the accident to our Berufsgenossenschaft VBG.
+
 1. If you had an accident, please review the criteria [here](https://www.vbg.de/DE/2_Versicherungsschutz_und_Leistungen/2_Was_ist_versichert/1_Arbeits-_und_Wegeunfaelle/arbeits-_und_wegeunfaelle_node.html;jsessionid=1D2B9247A96790725C91E29C620D9109.live4) to clarify if the accident is insured as a work accident
 1. If it meets the criteria for a work accident, please fill in [this form](https://drive.google.com/file/d/1oIum7DOjuRBdJPGOzv07cIEEdGHVVEcp/view?usp=sharing) and report your accident to the Absence Management Team by emailing the form to leaves@gitlab.com. Fields 2 and 28 will get completed by the Absence Management Team.
 1. The Absence Management Team will [notify the VBG](https://service.vbg.de/arbeits-und-wegeunfall-berufskrankheit/unfallanzeige) about the accident report and inform the specialist for occupational safety.
@@ -207,12 +213,11 @@ How to Apply:
 
 - Team members must email leaves@domain proof of the relevant illness of the close relative by means of a medical certificate.
 
-
 ## Sick Leave
 
 #### Statutory Sick Leave
 
-Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/paid-time-off/#sick-time-procedures---all-team-members) policy.
+Team members are entitled to 100% of their salary, to be paid by GitLab, for up to the first six weeks if they are unable to work due to an illness. This runs concurrently with GitLab's [Sick Time](/handbook/people-group/paid-time-off/#sick-time-procedures---all-team-members) policy.
 
 - If a team member is sick for more than six weeks, they can apply for "Krankengeld" from their health insurer. The benefit amount will be less than the team member's salary.
 
@@ -271,7 +276,6 @@ During onboarding you may have been asked to set up your GitLab Gmail and your e
 ## Company details/Signature on Company Communications
 
 Some company related details are required to be added as a signature to certain forms of communication, where that communication is going from a team member employed by our German entity GitLab GmbH to outside of the company, *and* relates to GitLab's business activities. There are further details listed [here]({{< ref "tools-and-tips#add-company-details-to-certain-company-communications-if-employed-by-our-german-entity" >}}) (accessible internally to GitLab only).
-
 
 ## Useful links
 

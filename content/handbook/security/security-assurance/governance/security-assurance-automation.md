@@ -29,7 +29,6 @@ The Security Assurance team uses scoped labels to identify the priority and indi
 - Description - Criteria the issue must fit to be assigned the label.
 - Provide Solution - The time it will take to update the issue and provide a solution to the automation request.
 
-
 | Priority | Color | Description | Provide Solution |
 | -------- | ---------- | --------- | --- |
 | `~"SAA::1"` | Red | These issues have a direct, immediate impact on business continuity AND are critical for compliance engagements. These are “drop everything so the team can do work” types of requests.                 | 1 Business Day |

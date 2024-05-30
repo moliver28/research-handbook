@@ -9,7 +9,7 @@ description: 'Escalations, Processes, and How to Manage Incidents'
 
 
 
-### If you need review from the corporate communications team on a potential incident, gather information in an issue or link us to the Slack discussion by message the team in the #corpcomms Slack channel and we'll work with the [Security Communication Manager on Call](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident) to determine next steps.
+### If you need review from the corporate communications team on a potential incident, gather information in an issue or link us to the Slack discussion by message the team in the #corpcomms Slack channel and we'll work with the [Security Communication Manager on Call](/handbook/security/security-operations/sirt/security-incident-communication-plan.html#roles-and-responsibilities-in-a-security-incident) to determine next steps
 
 ## Incident Communication Plan
 
@@ -20,6 +20,7 @@ We use our incident plan and communication escalation process enables the entire
 A contentious issue that undermines a critical attribute of our company’s brand and challenges its reputation. And/or an incident which impacts, or has the potential to impact the safety and wellbeing of our team-members.
 
 ### Defining the scope/severity of a potential incident
+
 When determining the need for communication escalation, it is important to first determine what the immediate issue is and determine what caused said issue. After collecting this information, review Tier 1-4 to determine the severity and subsequent action plan
 
 #### Tier 4 - Event
@@ -41,6 +42,7 @@ A Tier 1 escalated incident is a significant reputational or financial risk to t
 ### Tier 2 Process
 
 If a Tier 2 communication escalation arises, please use Slack or a text message to alert:
+
 1. The Head of Corporate Communications and Internal Communications
 1. If the former is unavailable, the Head of Corporate Marketing and CMO
 
@@ -102,6 +104,7 @@ Our values guide our actions: [our sense of urgency](/handbook/values/#sense-of-
 Where possible when dealing with an incident, we want team members to hear about it internally first. Depending on the incident though this may not be possible. However as soon as communication has happened externally we should aim to respond quickly internally - even if it's just to acknowledge we are aware/and are preparing a statement/ or looking into the details of the issue and will update team members as soon as we have more information.
 
 Internal Communications Channel
+
 - #Company-FYI
 - #diversity_inclusion_and_belonging
 - #external-comms
@@ -109,6 +112,7 @@ Internal Communications Channel
 ### Communicating Externally
 
 Centering Communications on GitLab Values + Research - In “[Incorporating Social Media in Risk Communication](https://www.researchgate.net/publication/228129989_A_Work-In-Process_Literature_Review_Incorporating_Social_Media_in_Risk_and_Crisis_Communication),” it’s recommended that we handle communication escalation through:
+
 - [Communicating with honesty](/handbook/values/#transparency), [candor and openness](/handbook/values/#collaboration) while acknowledging risk
 - [Collaborating](/handbook/values/#collaboration) and coordinating with credible sources
 - [Accepting uncertainty and ambiguity](/handbook/values/#accepting-uncertainty)
@@ -118,6 +122,7 @@ Centering Communications on GitLab Values + Research - In “[Incorporating Soci
 A number of these recommendations directly or indirectly align with [GitLab’s Values](/handbook/values/).
 
 Additionally, we need to be sure we:
+
 - Communicate early and often, [as much as necessary](/handbook/values/#iteration)
 - Always use the [GitLab brand voice](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/)
 

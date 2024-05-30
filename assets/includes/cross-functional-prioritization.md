@@ -37,7 +37,6 @@ Our backlog should be prioritized on an ongoing basis. Prioritization will be do
 
 The DRIs of these three core areas will work collaboratively to ensure the overall prioritization of the backlog is in alignment with [section direction](https://about.gitlab.com/direction/#devops-stages) or any other necessary product and business needs. If a team is not assigned a Product Designer then there is no UX counterpart needed for prioritization purposes. PMs will prioritize the final plan for a given milestone.
 
-
 #### Planning for the milestone
 
 The Product Manager is responsible for planning each milestone. Product Managers are also responsible for ensuring that their team's target ratios are maintained over time.
@@ -47,7 +46,6 @@ The Product Manager is responsible for planning each milestone. Product Managers
    1. Teams working on net-new product functionality may have a much higher feature work percentage.
    1. Conversly, teams with more mature product categories may have more maintence work.
 1. Sequencing of work within the milestone should reflect that we [plan ambitiously](/handbook/product/product-principles/#how-this-impacts-planning). This means not every issue will be delivered. Be aware that this can skew your ratios over time if subsequent milestones are not properly re-balanced.
-
 
 Add the `milestone` ([example](https://gitlab.com/groups/gitlab-org/-/boards/4309441?label_name[]=group%3A%3Athreat%20insights&milestone_title=15.1)) to review the milestone plan. The board will show the number of issues and cumulative issue weights for `type::feature`, `type::maintenance`, and `type::bug` issues.
 
@@ -128,7 +126,6 @@ The collaboration should be async first but include an optional sync review amon
 
 The name of the meeting and associated agenda document should be clearly defined so that the invitees can decide if they should attend.
 
-
 ##### Company-wide review
 
 The company-wide review is coordinated by the VP of Development.
@@ -146,7 +143,3 @@ Required collaborators from the quad for the stage/section are:
 Optional collaborators who should be invited but not required to participate:
 
 - The [functional leads for the next prioritization working group](/handbook/company/working-groups/cross-functional-prioritization/#roles-and-responsibilities).
-
-
-
- 

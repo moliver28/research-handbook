@@ -371,6 +371,7 @@ In the cases where a risk owner has concluded that a risk is within [tolerance](
 #### Remediate the Risk
 
 When choosing to remediate the risk, a specific path must be selected:
+
 - Remediate by reducing the likelihood that the risk could occur
 - Remediate by reducing the impact to GitLab if the risk occurs
 - Remediate by sharing or transferring the risk with a third party
@@ -388,6 +389,7 @@ In the cases where a risk owner has opted to pursue a risk acceptance, the follo
 |-----|-----|
 |VERY HIGH|Risk Owner + VP Level Approval* + E-group Level Approval|
 |HIGH/MODERATE|Risk Owner + VP Level Approval*|
+
 `*` If the Risk Owner is a VP, no additional VP level approval is required
 
 By accepting the risk, the Risk Owner and risk acceptance approvers (if separate from Risk Owner), agree to reassess the risk on an annual basis to determine whether risk acceptance is the best response option for the respective risk. If risk acceptance is appropriate based on the annual assessment, approvals will be re-obtained based on the risk and approval requirements noted in the table above. Additionally, the Risk Owner will be on point for remediation in the event the risk is realized or risk acceptance is no longer appropriate.
@@ -406,7 +408,7 @@ The Security Division's "Top 5 Risks" are established annually and are reported 
 
 Executive Risk Owners are accountable for ensuring that long-term treatment plans are established and executed for each of the Top 5 Risks. The Security Risk Team is responsible for coordinating long-term treatment planning with the Executive Risk Owner and the associated Risk Owner(s). The following template is leveraged during planning to ensure consistency in our approach and in reporting:
 
- - Establish success criteria that would move the risk within [tolerance](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/#translating-gitlabs-security-risk-appetite-to-risk-tolerance). These criteria will become Key Results (KRs) and are the milestones used to gauge progress of risk remediation. Completed KRs will correlate to a reduced risk score.
+ - Establish success criteria that would move the risk within [tolerance](/handbook/security/security-assurance/security-risk/storm-program/#translating-gitlabs-security-risk-appetite-to-risk-tolerance). These criteria will become Key Results (KRs) and are the milestones used to gauge progress of risk remediation. Completed KRs will correlate to a reduced risk score.
  - Identify dependencies for each KR.
  - Identify a Risk Owner responsible for delivering each KR. This person should be in the department responsible for implementing the treatment activity.
  - Establish realistic target delivery dates for each KR. Due to the nature of operational risks, we expect delivery dates to range up to 4 years in the future. Try to establish at least one KR per quarter to show incremental progress.

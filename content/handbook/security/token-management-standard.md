@@ -40,7 +40,7 @@ GitLab customers are responsible for managing their own accounts and tokens, sho
 
 ### Compliance and Certification Standards
 
-##### General Assumptions:
+##### General Assumptions
 
 - The standard is currently not fully implemented within the GitLab product, but will help guide future development to achieve the standard.
 - The standard meets all relevant compliance needs (e.g. FedRAMP requirements).

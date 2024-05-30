@@ -35,7 +35,6 @@ For executive level searches, we have a Talent DRI and Hiring DRI.
 - Ensures interview process is followed and feedback is documented
 - Lead for all steps in the recruitment process, including sourcing strategy, candidate engagement, candidate screening, next steps, references, offer negotiation and approvals. These responsibilities may vary if an external search vendor is engaged.
 
-
 **Hiring DRI Responsibilities**
 
 - Attends intake meeting and approves of direction taken at intake meeting

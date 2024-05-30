@@ -4,11 +4,11 @@ title: "GitLab Early Access Program Direction"
 description: "Alignment & vision of the GitLab Early Access Program"
 ---
 
-# Purpose
+## Purpose
 
-The GitLab Early Access Program aims to increase engagement with early adopters, create brand ambassadors while also increasing the level of feedback received on non-GA high-priority features. 
+The GitLab Early Access Program aims to increase engagement with early adopters, create brand ambassadors while also increasing the level of feedback received on non-GA high-priority features.
 
-In a secondary priority, this helps to [cultivate contributions from the Wider Community](https://handbook.gitlab.com/handbook/engineering/development/dev/create/ide/community-contributions/) in alignment with GitLab's [dual-flywheel strategy](https://handbook.gitlab.com/handbook/company/strategy/#dual-flywheels) & GitLab's [Developer Relations strategy](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/#accountabilities)
+In a secondary priority, this helps to [cultivate contributions from the Wider Community](/handbook/engineering/development/dev/create/ide/community-contributions/) in alignment with GitLab's [dual-flywheel strategy](/handbook/company/strategy/#dual-flywheels) & GitLab's [Developer Relations strategy](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/#accountabilities)
 
 ## Key group that formed alignment on product direction
 
@@ -22,7 +22,7 @@ In a secondary priority, this helps to [cultivate contributions from the Wider C
 
 1. All customers who agree with the terms & conditions should gain access to available non GA-features. Otherwise said, we will not gate features to a subset of customers.
 2. The existing process of accepting the terms & conditions of our testing agreement will be followed.
-3. There must be an optional opt-in to receive marketing communications regarding beta or experimental features. 
+3. There must be an optional opt-in to receive marketing communications regarding beta or experimental features.
 4. Guidance from UX & Product should be followed how this gets implemented for a consistent user experience. We should avoid adding friction.
 
 ### Potential UX solutions discussed
@@ -31,10 +31,7 @@ In a secondary priority, this helps to [cultivate contributions from the Wider C
 
 ### FYI
 
-For guidelines on how features are marked as Beta or Experimental, along with their legal and support status please refer to one of the following pages:
-
-1. https://docs.gitlab.com/ee/policy/experiment-beta-support.html
-2. https://docs.gitlab.com/ee/development/gitlab_beta_program/features.html
+For guidelines on how features are marked as Beta or Experimental, along with their legal and support status please refer to the following pages: https://docs.gitlab.com/ee/policy/experiment-beta-support.html
 
 ## Program nurturing activities
 
@@ -44,8 +41,8 @@ The following list is not complete and up for iteration. It serves as an example
   * Incentive is joint-publicity.
 * Through engaging and building a specific early-access community, we can re-use existing recognition & incentive mechanisms built by Developer Relations.
   * Incentive is swag or donating trees when X testing activities are performed, when Y feedback items were created, leaderboards etc..
-* Through nurturing campaigns of active members we guide them to becoming a contributor. 
-  * Wider Community Contribution licenses can be granted for those that want to fix bugs or iterate on the features. 
+* Through nurturing campaigns of active members we guide them to becoming a contributor.
+  * Wider Community Contribution licenses can be granted for those that want to fix bugs or iterate on the features.
 
 ## Traffic Drivers
 

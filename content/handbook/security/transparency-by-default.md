@@ -41,6 +41,7 @@ This information is open to GitLab but not publicly (handbook) available because
 ### Restricted: Security Only or other restrictions imposed
 
 This information is restricted due to confidential data or privacy concerns related to company, customer or individual data that would be significantly damaging if disclosed or otherwise restricted by law or by legal contract.
+
 - Customer contracts / Open to Security Only (and Legal, Sales)
      - Due to confidential customer data
 - Open/closed security customer support tickets / Open to (Security, Support)

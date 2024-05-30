@@ -70,7 +70,7 @@ In the epic, click the Add dropdown button.
 1. If there are multiple issues to be added, press the spacebar and repeat this step
 1. Click Add
 
-### Add an epic to an issue:
+### Add an epic to an issue
 
 For an existing issue, navigate to the side bar,
 
@@ -84,7 +84,7 @@ Once the desired epic has been selected, it will be shown on the issue like this
 
 ![issue sidebar](/images/handbook/people-group/epic_added_to_issue_4.png)
 
-### Helpful Tips:
+### Helpful Tips
 
 **Issues** - medium for collaborating on ideas and planning work in GitLab
 
@@ -170,12 +170,12 @@ Before creating a new handbook page, ensure the information does not already exi
 1. Name the file path and ensure it ends in `/index.html.md`.
 1. To ensure the page is set up correctly, copy/paste the following to the top of your new handbook page. Remember to edit appropriately.
 
-```markdown
----
-title: "[insert title of your page]"
-description: "[insert a short sentence to appear as part of search results]"
----
-```
+    ```markdown
+    ---
+    title: "[insert title of your page]"
+    description: "[insert a short sentence to appear as part of search results]"
+    ---
+    ```
 
 1. Type in the commit message and click `commit changes`.
 1. Update the merge request template and assign the merge request to the appropriate reviewer.

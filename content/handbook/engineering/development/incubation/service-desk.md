@@ -11,7 +11,6 @@ The Service Desk SEG is a [Single-Engineer Group](/handbook/company/structure/#s
 
 Our goal is to provide a complete, yet lightweight and customizable customer support solution that seamlessly integrates with the GitLab ecosystem and brings customers, support staff and developers closer together.
 
-
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/LDVQXv3I5rI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
@@ -74,7 +73,7 @@ Additionally to bigger features and initiatives we're trying to always include a
 The Service Desk SEG is also the DRI for the [former Respond group](/handbook/engineering/development/ops/monitor/respond/) categories
 [Service Desk](https://about.gitlab.com/direction/service_management/service_desk/),
 [incident management](https://about.gitlab.com/direction/service_management/incident_management/) and
-[on-call schedule management](https://about.gitlab.com/direction/service_management/on-call_schedule_management/). 
+[on-call schedule management](https://about.gitlab.com/direction/service_management/on-call_schedule_management/).
 Service Desk remains the focus.
 
 ### Released features

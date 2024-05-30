@@ -84,7 +84,7 @@ Feature proposals can be submitted for the following:
 
 You can tag `@gitlab-com/gl-security/security-operations/trust-and-safety` and `@gitlab-org/modelops/anti-abuse` to review the gitlab issue.
 
-### GitLab team members can reach Trust and Safety via:
+### GitLab team members can reach Trust and Safety via
 
 - Slack: `#abuse` channel using the team Slack handle: `@trust-and-safety`
 - Non-urgent queries should be created in our [Operations Tracker](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/operations) or tag us (`@gitlab-com/gl-security/security-operations/trust-and-safety`) in the issue and notify us in the `#abuse` slack channel.
@@ -93,7 +93,7 @@ You can tag `@gitlab-com/gl-security/security-operations/trust-and-safety` and `
       - *that is or has a high probability of resulting in service degradation or outages of `GitLab.com` and/or its features.*
       - *on `GitLab.com` that has the potential of causing significant legal, financial or reputational damage or liability to the company.*
 
-### Non GitLab team members.
+### Non GitLab team members
 
 - Non GitLab members should use the `report Abuse` button to report abuse.
 - More detailed abuse reports can be sent to abuse@gitlab.com

@@ -5,7 +5,7 @@ description: "How to find the right participants for research studies at GitLab"
 
 At GitLab, our UX Research Operations Coordinators work closely with those requesting research to make sure the people they are gathering feedback from are the right ones. If you are filling in for a UX Research Operations Coordinator, use [this page](/handbook/product/ux/ux-research-coordination/research-coordinator-fill-in/) as a reference.
 
-#### How to recruit participants when you aren’t sure where to find them:
+#### How to recruit participants when you aren’t sure where to find them
 
 1. [Identify your target audience](/handbook/product/ux/ux-research/recruiting-participants/#identify-your-target-audience) (i.e. what characteristics should they have?)
 1. [Craft your screener](/handbook/product/ux/ux-research/recruiting-participants/#craft-your-screener)
@@ -13,14 +13,14 @@ At GitLab, our UX Research Operations Coordinators work closely with those reque
 1. [Open a recruitment request issue](/handbook/product/ux/ux-research/recruiting-participants/#open-a-recruitment-request-issue)
 1. [Open an incentives request issue](/handbook/product/ux/ux-research/recruiting-participants/#reimbursing-participants-for-their-time)
 
-#### How to recruit participants who are customers you know:
+#### How to recruit participants who are customers you know
 
 1. [Identify your target audience](/handbook/product/ux/ux-research/recruiting-participants/#identify-your-target-audience) (i.e. what characteristics should they have?)
 1. Reach out to your customers and ask for their interest
 1. Coordinate directly with your customers to schedule their session. This may include [creating a Calendly event](/handbook/product/ux/ux-research/recruiting-participants/#create-a-calendly-event)
 1. [Open an incentives request issue](/handbook/product/ux/ux-research/recruiting-participants/#reimbursing-participants-for-their-time)
 
-#### How to recruit participants from issues:
+#### How to recruit participants from issues
 
 1. [Identify your target audience](/handbook/product/ux/ux-research/recruiting-participants/#identify-your-target-audience) to determine what characteristics they should have
 1. [Craft your screener](/handbook/product/ux/ux-research/recruiting-participants/#craft-your-screener)
@@ -237,6 +237,7 @@ To understand how the above process works in action, the following research stud
 The stated goals of the study were:
 
 > As part of our continued effort to improve the automated testing capabilities of GitLab, we want to ship a new feature for accessibility testing. We want to validate some solutions for this feature. Questions we have are:
+>
 > - How exactly users want to see Accessibility issues introduced during their development shown to them.
 > - Which of the proposed designs suffice their use case for Automated Accessibility Testing as part of the CI process.
 

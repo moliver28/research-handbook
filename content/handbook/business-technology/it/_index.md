@@ -1,16 +1,7 @@
 ---
-
 title: "Information Technology (IT) Department"
 description: "The IT department focuses on managing the framework of how GitLab procures, implements, integrates, secures, exports analytics, and supports our tech stack applications while providing strategic enablement and integration support for all departments and team members that allows us to scale efficiently, safely, and securely."
 ---
-
-
-
-
-
-
-
-# Information Technology (IT) Department
 
 > The IT Department is part of the [Business Technology](/handbook/business-technology) organization in the [Finance](/handbook/finance) division.
 
@@ -178,7 +169,6 @@ You can ask questions or get assistance in the <a href="https://gitlab.slack.com
 
 </details>
 
-
 <details>
 <summary markdown="span">Laptop Hardware</summary>
 
@@ -193,7 +183,6 @@ You can ask questions or get assistance in the <a href="https://gitlab.slack.com
 
 </details>
 
-
 <details>
 <summary markdown="span">Laptop Mac OS</summary>
 
@@ -201,14 +190,12 @@ You can ask questions or get assistance in the <a href="https://gitlab.slack.com
 
 </details>
 
-
 <details>
 <summary markdown="span">Laptop Apps</summary>
 
 <a href="/handbook/it/#laptop-apps-overview">IT Self Service Handbook Page</a><br />
 
 </details>
-
 
 <details>
 <summary markdown="span">Laptop Data</summary>
@@ -259,7 +246,7 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | [Peter Kaldis](/handbook/company/team/#pkaldis)        | Senior Manager, IT Systems Engineering          | Access Manager, Okta, Google, IT Engineering, Infrastructure        |
 | [Michael Beltran](/handbook/company/team/#mbeee)       | Senior Manager, IT End User Services            | End User Services IT Manager                                        |
 | [Eric Rubin](/handbook/company/team/#ericrubin)        | Senior Manager, IT Security Operations          | Endpoint Security, Okta, Nira                                       |
-| [Derek Isla](/handbook/company/team/#disla)            | Manager, IT Compliance                          | IT Compliance
+| [Derek Isla](/handbook/company/team/#disla)            | Manager, IT Compliance                          | IT Compliance |
 
 ### IT Support Team
 
@@ -273,7 +260,6 @@ We use animated movie and theme park references. We are careful to avoid tradema
 | Alex Krusiec                                        | IT Helpdesk Analyst             | AMER              |
 | Mic Rohr                                            | IT Helpdesk Analyst             | AMER              |
 | [Max Hirata](/handbook/company/team/#mraetz)                 | IT Helpdesk Analyst             | APAC              |
-
 
 ### Engineering Team
 
@@ -295,7 +281,6 @@ We use animated movie and theme park references. We are careful to avoid tradema
 |-----------------------------------------------------------------------------|-----------------------------------|
 | [Sarah Pang](/handbook/company/team/#arahpang)                                       | Senior IT Compliance Engineer     |
 
-
 ### IT Security Operations Team
 
 {: #who-it-security}
@@ -304,7 +289,6 @@ We use animated movie and theme park references. We are careful to avoid tradema
 |-----------------------------------------------------------------------------|-----------------------------------|
 | [Adam Huss](/handbook/company/team/#adamhuss)                                        | IT Security Analyst               |
 | [Clayton Shank](/handbook/company/team/#cshankgitlab)                                | Senior IT Security Engineer       |
-
 
 ### Cross-Department System Owners
 

@@ -12,6 +12,7 @@ Conducting a RITE study is quite simple and is similar to conducting a tradition
 ![Workflow to take for a RITE study](RITE_workflow.png)
 
 To summarize:
+
 - **Step 1: Start with 3 participants**
      - If issues are found, address them, and repeat Step 1 with 3 new participants
      - If issues are NOT found, proceed to Step 2
@@ -31,7 +32,6 @@ In comparison to other usability testing protocols, RITE consists of the followi
 |     A    | Issues with an obvious cause and an obvious solution that can be implemented in the prototype quickly, such as text changes, re-labeling buttons. | Implement solutions immediately and this will be the version for the next test session.  |
 |     B    | Issues with an obvious cause and an obvious solution that can’t be implemented quickly/by the time of the next test session.                      | Start working on the solution to address these issues and test in an upcoming session.   |
 |     C    | Issues with no obvious cause or due to other factors, such as task instructions.                                                                  | Collect more data in the upcoming session until they can be promoted to Category A or B. |
-
 
 - **Domain knowledge and decision making:** The decision makers of the team should be present or catch up on the session insights in order to quickly react on the learnings from each session. Domain knowledge is essential to estimate if the observed problems are likely to be a problem for others.
 
@@ -100,7 +100,7 @@ You can repeat this process in the same milestone or in an upcoming one, dependi
 
 The process is considered complete when usability issues are no longer found in a sample of 5 participants, and you're confident that your solution is user friendly, which may not happen within one milestone.
 
-----
+---
 
 ### Frequently Asked Questions
 

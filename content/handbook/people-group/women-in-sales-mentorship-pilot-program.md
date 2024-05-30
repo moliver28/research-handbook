@@ -121,6 +121,7 @@ Applications will be prioritized on a few different factors including:
 ### Mentors
 
 You are eligible to apply for the program if you meet the requirements below:
+
 - You have been with GitLab for at least 3 months at the time of application
 - In a role with a [job grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) of 10 or above (10 indicates you are in a "director" level role)
 
@@ -140,7 +141,6 @@ You are eligible to apply for the program if you meet the requirements below:
 **Q. Does participation in this program guarantee a promotion?**
 
 - A. No, participation in this program does not guarantee a promotion. Benefits for mentees include: Increased visibility with leadership in various areas of the organization, increased professional development opportunities, career coaching and guidance, and opportunity to form relationships with leaders on other teams. You can review these benefits in the [Program Benefits](https://gitlab.com/-/ide/project/gitlab-com/www-gitlab-com/edit/master/-/source/handbook/people-group/women-in-sales-mentorship-pilot-program/index.html.md#program-benefits) section above.
-
 
 Interested in what other mentorship opportunities exist at GitLab? Check out the [Minorities in Tech](/handbook/company/culture/inclusion/erg-minorities-in-tech/mentoring/) pilot program!
 

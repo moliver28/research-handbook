@@ -27,7 +27,6 @@ The Commercial Account Executive- Mid-Market is a [grade 7](/handbook/total-rewa
 - Be the voice of the customer by contributing product ideas to our public [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
 - Master MEDPICC and Command of the Message on all opportunities
 
-
 ### Requirements
 
 - A true desire to see customers benefit from the investment they make with GitLab
@@ -76,7 +75,6 @@ The Commercial Account Executive- Named is a [grade 7](/handbook/total-rewards/c
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Ability to travel if needed and comply with the company’s [travel policy](/handbook/travel/)
 
-
 ## Performance Indicators
 
 As with all roles in the Sales Department the Strategic Account Executive participates in the [Sales KPIs](/handbook/company/kpis/#sales-kpis).
@@ -84,8 +82,3 @@ As with all roles in the Sales Department the Strategic Account Executive partic
 ## Career Ladder
 
 The progression of the Commercial Account Executive job family is to move from Commercial Account Executive - Mid-Market to either the Commercial Account Executive - Named role, [Strategic Account Executive](/job-families/sales/enterprise-account-executive) job family or the [Sales Management](/job-families/sales/area-sales-manager/) job family.
-
-
-
-
-

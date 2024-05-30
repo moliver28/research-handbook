@@ -10,9 +10,6 @@ title: "GitLab Sales FAQ - Selling with Partners"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
 This page documents frequently asked questions from our GitLab Sellers on how to collaborate with partners throughout the sales process. Please contact us at `#partner-programs-ops` in slack or `@Partner Operations` in SFDC chatter if you have any questions or would like to see another question/answer documented on this page.
 
 ## Deal Registration
@@ -57,7 +54,6 @@ The Channel Account Manager (CAM) assigned to the DR has reviewed and sent it ba
 
 </details>
 
-
 ## SFDC Opportunity
 
 <details>
@@ -66,6 +62,7 @@ Where can I find Deal Registration (DR) information on an opportunity?
 </summary>
 
 DR information can be found in two areas on the opportunity:
+
 - “Registrations” section in the related list quick links section at the top of the opportunity. This section contains all DRs attached to an opportunity, including approved, expired, rejected, and pending Partner Sourced DRs as well as Service Attach DRs.
 
 ![Opp DR Top Section](/handbook/sales/field-operations/channel-operations/images/opp_top_section.png "Deal Registration Opp")
@@ -96,7 +93,6 @@ SQS on the opportunity will be "Partner Generated" if (i) there is an approved P
 
 </details>
 
-
 ## Sales Process
 
 ### Partner Discounts and Incentives
@@ -125,6 +121,7 @@ When should I provide Partner Sourced vs Co-Sell partner discounts?
 </summary>
 
 If the opportunity is for new or add-on/upsell business:
+
 - **sourced** by the partner (including adding licenses as part of a renewal opportunity), the partner should submit a Partner Sourced Deal Registration (DR) for the opportunity. The GitLab CAM and ASM will approve the DR and then you can provide Partner Sourced discounts to the DR partner for the new or add-on portion of the deal.
 - **not sourced** by the partner, the partner will generally receive co-sell discounts.
 
@@ -142,7 +139,6 @@ How do partner discounts impact my compensation?
 Please refer to GitLab's [channel neutral compensation policy](/handbook/sales/field-operations/channel-operations/#channel-neutral). Please contact the Sales Compensation team if you have any questions on a specific opportunity after reviewing the policy.
 
 </details>
-
 
 ### Quoting
 
@@ -190,6 +186,7 @@ Where do I send the quote when I have a reseller-direct or two-tier distribution
 </summary>
 
 The quote needs to be sent to the partner, not the customer. Specifically, if your quote is:
+
 - reseller-direct, send the quote to your reseller contact only (ensure you do not copy the customer)
 - via distribution, send the quote to your distributor contact only (ensure you do not copy the reseller or the customer). Please refer to the [Partner Operations handbook](/handbook/sales/field-operations/channel-operations/#distributor-requirements-and-coverage-by-geo-and-market) for distribution contact information
 
@@ -303,7 +300,6 @@ Yes, you can [submit an internal support ticket](https://support-super-form-gitl
 
 </details>
 
-
 ### Purchase Orders (POs)
 
 <details>
@@ -342,7 +338,6 @@ You can find our ECCN in our [Trade Compliance handbook](/handbook/legal/trade-c
 
 </details>
 
-
 ## Post-Sale
 
 <details>
@@ -371,6 +366,7 @@ The partner requested that the purchase confirmation email with license/activati
 </summary>
 
 This can be actioned by either the GitLab Sales Rep or the partner:
+
 - The GitLab Sales Rep can [submit an internal support ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) to request that the support team send the purchase confirmation email to the same end user contact.
 - The partner that received the Gitlab invoice (i.e., Distributor for two-tier deal, Reseller for one-tier deal) can [submit a support ticket](https://support.gitlab.com/hc/en-us/requests/new) with the GitLab invoice attached to request the purchase confirmation email be resent to the same end user contact.
 

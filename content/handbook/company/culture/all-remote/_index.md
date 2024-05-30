@@ -77,5 +77,4 @@ aliases:
     </div>
 </div>
 
-
 {{< include "includes/take-gitlab-for-a-spin.md" >}}

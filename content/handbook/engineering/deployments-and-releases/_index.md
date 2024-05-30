@@ -66,7 +66,6 @@ Each week, the current Release Managers walk through the key Delivery Group metr
 1. Walkthrough of last week’s [Deployment Blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1192)
 1. Do we need to take action based on the previous week’s MTTP?
 
-
 ## Resources
 
 | Description        | Location            |
@@ -82,7 +81,6 @@ Each week, the current Release Managers walk through the key Delivery Group metr
 [auto-deploy]: https://www.youtube.com/watch?v=_G-EWRpCAz4
 [process-monthly-release]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md
 [process-patch-release]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/patch/process.md
-[process-auto-deploy]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/auto-deploy.md
 [process-security-release-critical]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#critical-security-releases
 [process-security-release-non-critical]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#non-critical-security-releases
 [Release Managers schedule]: https://about.gitlab.com/community/release-managers/

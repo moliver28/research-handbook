@@ -25,6 +25,7 @@ All people managers in the GitLab field organization
 ## Approach
 
 Managers will participate in a series of quarterly training & reinforcement exercises throughout FY22. While there will be formal training elements, a large focus will be on social learning (learning from others) and practical, real-world application to convert knowledge to action.
+
 - **Q1FY22** (2021-03-22): Program Launch & Recruiting Top Talent (virtual)
 - **Q2FY22** (2021-05-24, 2021-05-26, and 2021-06-02): Field Manager Challenge (virtual)
 - **Q3FY22** (2021-10-04): Recognition, Coaching & Manager Operating Rhythm (virtual)
@@ -32,6 +33,7 @@ Managers will participate in a series of quarterly training & reinforcement exer
 ## Topics
 
 This program will leverage content from the GitLab Manager Challenge and address multiple learning objectives supporting the following categories:
+
 1. Winning Top Talent
 1. What is a High Performing Team?
 1. Organizational / Team Health

@@ -27,6 +27,7 @@ description: "How to use Qualtrics at GitLab to run surveys"
 ## Styling (Look & Feel settings)
 
 The following settings should be applied to your survey:
+
 1. Theme: Blank
 1. Layout: Modern
 1. General
@@ -166,6 +167,7 @@ When users sign-up to GitLab First Look, we automatically collect the following 
 **Note: These instructions are only applicable to UX Researchers and Research Coordinators.**
 
 There could be a couple of reasons why your sample number is lower than expected:
+
 1. The contact frequency for GitLab First Look has been exhausted. By default, no member of GitLab First Look receives an email more than once a week or four times a month. If this is the case, you will need to either delay sending your survey (you may only need to delay sending your survey by a day - reach out to the UX Research Coordinator for confirmation) or source users outside of the GitLab First Look panel.
 1. There aren’t enough GitLab First Look members that match your sampling criteria.
 1. There’s an error in your sampling criteria.
@@ -222,6 +224,7 @@ UX Research Coordinators occasionally receive requests to remove a contact from 
 UX Research Coordinators, or other team members with Qualtrics Brand Administrator access, must remove contacts on a global level to prevent them from receiving future emails.
 
 To remove a contact from your directory:
+
 1. Log into your Qualtrics account
 1. Click on the Contacts tab on the top right
 1. Click on Directory Contacts

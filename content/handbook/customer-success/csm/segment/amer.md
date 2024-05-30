@@ -18,10 +18,9 @@ CSMs aligned with AMER customers can use this handbook page to help define their
 
 Customer Lifecycle Journey:
 
-<img src="/images/handbook/customer-success/ht-tam-customer-journey.png">
+<img src="/images/handbook/customer-success/ht-tam-customer-journey.png" alt="">
 
 [Source](https://lucid.app/lucidchart/4fcdb329-8367-44e0-a1c4-d1c0fd1c2362/edit?invitationId=inv_ab8b15ca-1360-4f53-ab72-1da8e092b620&page=0_0#)
-
 
 ## CSM Activities
 
@@ -55,7 +54,6 @@ This phase is about going beyond a customer’s primary use cases, into addition
 | Expansion Discovery | - Expansion playbooks opened (QoQ) |
 | Expansion enablement & workshops | - Expansion playbooks completed (QoQ) <br> - Days per playbook completed per stage (QoQ) <br> - Win rate for expansion playbooks (QoQ) |
 | [Renewals](/handbook/customer-success/csm/renewals/) and [health management](/handbook/customer-success/csm/health-score-triage/) | - Renewal rate <br> - Regular CSM Sentiment health score logged |
-
 
 ## Account Engagement Expectations
 
@@ -94,4 +92,3 @@ In addition to success planning, where the focus is on building a shared plan be
 CSMs are expected to regularly update Gainsight with health updates on the health of their customers. For red customers, a weekly update is expected, and for green customers a monthly update. Please see [Customer Health Assessment and Management](/handbook/customer-success/csm/health-score-triage/) for full details of how to manage risk.
 
 If a CSM has a customer in an [escalated state](/handbook/customer-success/csm/escalations/), they are to follow the guidance based on escalation severity on how frequently to update the Slack channel.
-

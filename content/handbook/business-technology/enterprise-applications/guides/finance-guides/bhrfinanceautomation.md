@@ -19,17 +19,16 @@ It will first validate that all the necessary data is there on the Employee reco
       - Accounts Payable team will need to deactivate manually.
 - Once NetSuite is complete, it will then move onto Navan.
    - Based on an Employee’s Location, Department and Currency, that will determine which NetSuite Subsidiary to assign them to and which Navan Policy to add them to.
-    - It will also evaluate the Employee’s manager details to determine if they need to also be added to the Navan policy in order to approve their reportee’s expense reports.
+   - It will also evaluate the Employee’s manager details to determine if they need to also be added to the Navan policy in order to approve their reportee’s expense reports.
 - If it is able to successfully action in NetSuite and Navan then it will return a success, otherwise it will retry twice, if it still fails it will proceed to generate an error (see next section)
 
-# Error Handling:
+## Error Handling
 
 - Errors will be summarized daily and dropped into a Google Sheet and should be resolved timely.
    - There are 6 different types of errors
       - Sid’s direct reports: Because Sid doesn’t have a manager, there is a step in the Integration that evaluates an Employee’s Manager’s Manager, so that step will fail for Sid, since he doesn’t have a manager in BambooHR (rightfully so).
 
-
-# Maintenance:
+## Maintenance
 
 ### **BambooHR: Location Creation/Changes**
 

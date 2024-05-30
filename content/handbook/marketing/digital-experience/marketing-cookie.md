@@ -1,8 +1,6 @@
 ---
-
 title: Marketing Cookies
-description: >-
-  Learn more about how Digital Experience uses browser cookies.
+description: "Learn more about how Digital Experience uses browser cookies."
 ---
 
 # Marketing cookies
@@ -25,7 +23,6 @@ Note that this cookie can sometimes not show up for GitLab team members. This do
 * Newest MR: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/151323
 * Updating marketing cookie: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/131072
 * Setting marketing cookie: for logged in users: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/113761
-
 
  <figure class="video_container">
    <iframe src="https://www.youtube.com/embed/Nm8wWtoBCTc" frameborder="0" allowfullscreen="true"> </iframe>

@@ -20,6 +20,3 @@ This page will provide a calendar of upcoming events & program release for Diver
 | November |   |   |
 | December |   |   |
 | January |   |   |
-
-
-

@@ -56,4 +56,3 @@ as soon as the documents are ready for review.
 - Go multi-modal and [add an announcement](https://gitlab-com.gitlab.io/support/toolbox/forms_processor/SWIR/) to the [Support Week in Review (SWIR)](/handbook/support/#support-week-in-review), using the "Team Member Updates" category
 - Move the promotion doc to the [Individual Docs folder](https://drive.google.com/drive/search?q=Individual%20Docs)
   in the shared `Support` drive on Google Drive.
-

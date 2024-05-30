@@ -1,14 +1,7 @@
 ---
-
 title: Product Handbook
 description: "Most of the content in the product handbook talks about _how_ we do product at GitLab."
 ---
-
-
-
-
-
-
 
 ## Welcome to the Product Team Handbook
 
@@ -34,11 +27,10 @@ description: "Most of the content in the product handbook talks about _how_ we d
 
 ## Contributing to the Product Handbook
 
-The product handbook is widely referenced by product managers and cross-functional team members. Therefore, we want to follow a consistent change management process so all affected collaborators are aligned and informed when there are changes (specially new requirements, processes, meetings, etc.) that affect their workflow. To help ensure awareness across teams, when suggesting a change to the product handbook, please use the `Change-Product-Handbook` [merge request description template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Change-Product-Handbook.md). This ensures your changes are included in [Product Operations Releases](/handbook/product/product-operations/#product-operations-releases).
+The product handbook is widely referenced by product managers and cross-functional team members. Therefore, we want to follow a consistent change management process so all affected collaborators are aligned and informed when there are changes (specially new requirements, processes, meetings, etc.) that affect their workflow.
 
-This template will also help you out by automatically adding labels and assigning required reviewers.
+It is helpful to indicate which type of change you are suggesting:
 
-You will also be asked to indicate which type of change you are suggesting:
 - Small improvement (typos, clarifications, etc.)
 - Adding a new section
 - Modifying existing section
@@ -46,18 +38,17 @@ You will also be asked to indicate which type of change you are suggesting:
 - Adding a new page or directory
 - Other
 
-For a small improvement, please feel free to merge the MR yourself. Otherwise, the template will ping Product Operations for collaboration and review, and the guidance below should be followed for driving awareness:
+For a small improvement, please feel free to merge the MR yourself. Otherwise, please tag the appropriate code owner for review and approval. The guidance below should be followed for driving awareness:
 
 ### Informing team members about the changes
 
 It is your responsibility to communicate with relevant team members about your merge request. Here are some best practices to follow:
 
-- For significant changes affecting the whole Product or Engineering team, consult Product Operations for the best communication strategy.
+- For significant changes affecting the whole Product or Engineering team, consult your manager or product leader for the best communication strategy.
 - For changes specific to product management, tag `@gl-product-pm` in the merge request before merging.
 - Indicate in the comment whether you are requesting contributions and feedback or simply providing information.
 - For changes relevant to other teams, tag department leads such as the VP of UX, VP of Development, or the Director of Quality Engineering in the merge request before merging.
 - Share and cross-post the merge request link with a brief description in relevant channels such as Slack `#product`, `#product-leadership`, `#eng-managers`, and `#ux-managers`.
-- Add the merge request as a read-only or discussion topic in the [Weekly Product Management Meeting](/handbook/product/product-processes/#weekly-product-management-meeting).
 - For more guidance on communication, refer to the [GitLab Communication tips and best practices](/handbook/communication/#top-tips-and-best-practices).
 
 ## Product Management
@@ -105,7 +96,7 @@ Learn about our Product Leadership Team and learn about them via their personal 
 - [**Data for Product Managers**](/handbook/business-technology/data-team/programs/data-for-product-managers/)
 - [**Internal Product Handbook**](https://internal.gitlab.com/handbook/product/) (must access through OKTA)
 - [**Learning and Development for Product Management**](/handbook/product/product-manager-role/learning-and-development/)
-- [**Product Budgeting Process**](/handbook/product-development-budgeting/)
+- [**Product Budgeting Process**](/handbook/product-development-flow/product-development-budgeting/)
 - [**Product Development Flow**](/handbook/product-development-flow/)
 - [**Product Development Timeline**](/handbook/engineering/workflow/#product-development-timeline)
 - [**Analytics Instrumentation Guide**](/handbook/product/analytics-instrumentation-guide/)
@@ -113,7 +104,6 @@ Learn about our Product Leadership Team and learn about them via their personal 
 - [**Product Manager Onboarding**](/handbook/product/product-manager-role/#product-manager-onboarding)
 - [**Product Manager Responsibilities**](/handbook/product/product-manager-responsibilities/)
 - [**Product Manager SAFE (legal) Guidance**](/handbook/product/product-safe-guidance/)
-- [**Product Operations Releases**](/handbook/product/product-operations/#product-operations-releases)
 - [**Product Pricing Model**](/handbook/company/pricing/)
 - [**Release Posts**](/handbook/marketing/blog/release-posts/)
 - [**Tiering Guidance for Features**](/handbook/product/tiering-guidance-for-features/#learning-opportunities)
@@ -124,9 +114,9 @@ Below are team emails and handles that can be used for different departments and
 
 - `@gl-product-leadership` tags all group managers, directors and VPs in the Product Division
 - `@gl-product-plt` tags all direct reports to the VP Product in the Product Division
-- `@gl-product-pm` tags to all members of Product Management, Product Monetization and Product Operations in the Product Division
-- `@gl-product` tags to all members in the Product Division: Product Management, Product Monetization, Product Operations, Product Design, User Research, and Technical Writing
-- `product@gitlab.com` emails all members of Product Management, Product Monetization and Product Operations in the Product Division
+- `@gl-product-pm` tags to all members of Product Management, Product Monetization and Program Managers in the Product Division
+- `@gl-product` tags to all members in the Product Division: Product Management, Product Monetization, Program Management, Product Design, User Research, and Technical Writing
+- `product@gitlab.com` emails all members of Product Management, Product Monetization and Program Management in the Product Division
 - `ux-department@gitlab.com` emails all members of UX (UX Research, Technical Writing and Product Design) in the Product Division
 - `@gitlab-com/gitlab-ux` tags all members of UX (UX Research, Technical Writing and Product Design) in the Product Division
 - `@gitlab-com/gitlab-ux/managers` tags all people managers within UX (UX Research, Technical Writing, and Product Design)
@@ -139,5 +129,3 @@ When you are tagging `@mention`:
 - Write a short summary in the same comment so team members can quickly understand the necessary context.
 - Review the issue title and description to ensure it has relevant details other product team members need **BEFORE** submitting the comment. The issue title will be the subject of email notifications and in-product to-do items.
 - If asking team members to review a change, please directly link to the specific page on the [review app](https://docs.gitlab.com/ee/ci/review_apps/#how-review-apps-work) and any relevant issues or MRs.
-
-

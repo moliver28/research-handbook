@@ -87,5 +87,3 @@ GitLab Premium or Ultimate plans provide access to the [Audit Events](https://do
 
 - Help the customers get out of a tough situation.
 - Ensure that the product provides functionalities that are important to customers.
-
-

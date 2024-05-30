@@ -6,6 +6,7 @@ description: "Information on automations related to syncing to our team page, jo
 ## Team page entry daily sync
 
 Once/day we run a pipeline that syncs the the following fields for all team members:
+
 - `name`, team members preferred name or nick name.
   - This can be changed at any time in the YAML entry itself, as a team member may want to set a custom nickname or preferred name.
   - Only updated if the team member has opted out of having their information on the team page, in which case this will be updated to reflect their current job title.

@@ -1,5 +1,11 @@
 <ul>
-{{- range . -}}
-    <li>{{- . | plainify -}}</li>
+{{- range $key, $value := . -}}
+    {{- if eq (printf "%T" $value) "string" -}}
+        <li>{{- $value | plainify -}}</li>
+    {{- else if eq (printf "%T" $value) "map[string]interface {}" -}}
+        {{- range $mapKey, $mapValue := $value -}}
+            <li>{{- $mapKey | plainify }}: {{- $mapValue | plainify -}}</li>
+        {{- end -}}
+    {{- end -}}
 {{- end -}}
 </ul>

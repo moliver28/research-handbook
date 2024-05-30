@@ -33,7 +33,7 @@ Please see the [Application Security Job Family page][6].
 - [The AppSec private group that contains other private subgroups and projects](https://gitlab.com/gitlab-com/gl-security/product-security/appsec)
 - [The `appsec-lab` group on Staging. This has an Ultimate license.](https://staging.gitlab.com/appsec-lab)
 - [Bug bounty council search](https://gitlab.com/gitlab-com/gl-security/engineering/-/issues?label_name%5B%5D=Bug+Bounty+Council)
-- [Upcoming security release](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name%5B%5D=upcoming+security+release)
+- [Upcoming patch release](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_date&state=opened&label_name%5B%5D=upcoming+security+release)
 - [GitLab Project Security dashboard](https://gitlab.com/gitlab-org/gitlab/-/security/dashboard/?project_id=278964&scope=dismissed&page=1&days=90)
 - [Security issue board that tracks ongoing issues (hackerone and others)](https://gitlab.com/groups/gitlab-org/-/boards/1216545?label_name[]=security)
 - [The latest releases](https://gitlab.com/gitlab-org/gitlab/-/tags)
@@ -89,6 +89,10 @@ Projects without the expected configurations can be found in the [inventory viol
 
 Learn more about the [GitLab AppSec Inventory]({{< ref "inventory" >}}).
 
+## Responding to customer scan review requests
+
+Please see the [Responding to customers security scanners review requests page][15]
+
 ## Reproducible Vulnerabilities
 
 Learn how to identify or remediate security issues using real examples with GitLab's [Reproducible Vulnerabilities][11].
@@ -96,6 +100,10 @@ Learn how to identify or remediate security issues using real examples with GitL
 ## Reproducible Builds
 
 Learn how GitLab is implementing [Reproducable Builds][13] for our build processes.
+
+## Milestone Planning
+
+The GitLab Application Security team plans work based around Milestones, see [this page for a description of that process][14]
 
 ## Application Security Automation and Monitoring
 
@@ -112,3 +120,5 @@ Please see the [Application Security Automation and Monitoring page][12]
 [11]: {{< ref "reproducible-vulnerabilities" >}}
 [12]: {{< ref "application-security-automation-monitoring" >}}
 [13]: {{< ref "reproducible-builds" >}}
+[14]: {{< ref "milestone-planning" >}}
+[15]: {{< ref "responding-customers-scan-review-requests" >}}

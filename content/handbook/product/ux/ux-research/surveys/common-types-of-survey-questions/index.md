@@ -5,7 +5,6 @@ description: "This page touches upon some of the common types of survey question
 
 There are many types of survey questions to choose from when designing your survey.  Determining which kind of survey question to choose to use depends on the data you need to collect. Below are some of the more common survey question types that we use at GitLab.
 
-
 - **Open ended** - Typically a comment box or a single line where respondents can type in responses.
      - Best for: qualitative data such as providing feedback
      - Things to watch for: don’t use too many of these types of questions, time-consuming to analyze, participants tend to skip them and/or leave limited detail
@@ -30,13 +29,11 @@ There are many types of survey questions to choose from when designing your surv
 
      ![Example of a Likert scale survey question](Likert.png)
 
-
 - **Matrix** - A set of questions that all have the same scale and are presented as a grid.  Often used in conjunction with Rating scale or Likert scale questions.
      - Best for: consolidating questions that have the same scale into an efficient experience
      - Things to watch for: presenting too many questions in the matrix, keeping the scale the same, making sure the questions are clear and related
 
      ![Example of a matrix survey question](matrix.png)
-
 
 - **Ranking** - Allows respondents to rank a list of items, typically by preference.
      - Best for: understanding how users rank certain items in relation to other items (example: ranking possible features to build)

@@ -122,9 +122,3 @@ Please note it's suggested to have these meetings weekly, biweekly so handling o
 - <span class="colour" style="color:rgb(0, 0, 0)">7 Steps to Handling Objections: </span>[<span class="colour" style="color:rgb(95, 95, 95)"><u>https://www.youtube.com/watch?v=DBpLFAS2s3w</u></span>](https://www.youtube.com/watch?v=DBpLFAS2s3w)
 - <span class="colour" style="color:rgb(0, 0, 0)">Changing Minds </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>Objection Handling Techniques</u></span>](http://changingminds.org/disciplines/sales/objection/objection_handling.htm)
 - <span class="colour" style="color:rgb(0, 0, 0)">Solution Architect’s </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>O’reilly playlist</u></span>](https://learning.oreilly.com/playlists/e2e7811d-9032-4b9d-9890-c41d6c29c8be/)<span class="colour" style="color:rgb(0, 0, 0)"> (objection handling)</span>
-
-
-
-
-
-

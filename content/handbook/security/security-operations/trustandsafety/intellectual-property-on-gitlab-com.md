@@ -80,6 +80,7 @@ The Counter complaint is a legal document and must comply with the requirements 
 {{% /details %}}
 
 {{% details sunmmary="Mitigating Copyright Infringement" %}}
+
 - Should you receive a gitlab.com DMCA notice for content that is in your control;
   1. You can respond to the notice by removing the reported content from gitlab.com.
   1. If you believe your content is mistakenly the subject of a DMCA take down request, you have the right to contest the take down request by submitting a counter complaint.
@@ -104,11 +105,14 @@ You can send this information to dmca@gitlab.com, you should receive an automate
 {{% /details %}}
 
 {{% details summary="Responding to a Trademark Infringement Request" %}}
+
 1. Should you receive a Trademark take down notice;
+
   - You can respond to the notice by submitting the requested information that proves that you hold Trademark rights to the infringing content.
 {{% /details %}}
 
 {{% details summary="Mitigating Trademark Infringement" %}}
+
 1. Should you receive a Trademark take down request, you can;
    1. Agree to remove the reported content within 24 hours of receiving our notice.
 {{% /details %}}

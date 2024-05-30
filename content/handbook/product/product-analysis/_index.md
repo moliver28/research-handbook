@@ -191,7 +191,7 @@ plan ahead if you know that you will need assistance from the Product Data Insig
 
 #### Working days
 
-As GitLab team members, we are [encouraged to take PTO](/handbook/paid-time-off/) and observe public
+As GitLab team members, we are [encouraged to take PTO](/handbook/people-group/paid-time-off/) and observe public
 holidays in order to maintain a healthy work-life balance. Analyst capacity should be adjusted
 based on the number of days they are working in the iteration.
 
@@ -256,6 +256,7 @@ impact our ability to complete all issues in the iteration.
 Experimentation analysis issues are naturally blocked by the experiment actually running (we have
 to wait until we have sufficient data in order to perform the analysis). In order to enable a more
 accurate measure of velocity, we will divide the work into 2 separate issues*:
+
 1. Experiment prep (dashboard creation and data validation)
 1. Experiment analysis
 
@@ -317,6 +318,7 @@ data self-service. Here are some examples of topics for office hours:
 <details markdown="1"><summary>👍 Example Topic 1: Experiment Setup</summary>
 
 I am interested in launching an experiment to see if we can increase adoption of Secure.
+
 - How would you go about setting the experiment up?
 - Can you help me calculate the sample size?
 - Can you help me interpret the results?
@@ -327,6 +329,7 @@ I am interested in launching an experiment to see if we can increase adoption of
 
 I am trying to do an analysis on the relationship between users with SSO enabled and invite
 acceptance rate.
+
 - Which tables should I use? Can you help me understand this data source?
 - What approach would you take?
 - Would this metric answer the question?
@@ -337,6 +340,7 @@ acceptance rate.
 <details markdown="1"><summary>👍 Example Topic 3: Code Review</summary>
 
 I wrote a query to calculate xMAU for namespaces that converted from a trial to a paid plan.
+
 - Is this `JOIN` correct?
 - Does this logic only include namespaces that had trials before converting?
 
@@ -349,6 +353,7 @@ data source, etc.
 <details markdown="1"><summary>👍 Example Topic 4: Dashboard Updates</summary>
 
 I am looking to make some updates or enhancements to this existing dashboard.
+
 - Can you help me incorporate a filter into this dashboard that would allow me to limit the charts
 to activity within 30 days of namespace creation?
 - Can you update this funnel to include this additional event?
@@ -358,6 +363,7 @@ to activity within 30 days of namespace creation?
 <details markdown="1"><summary>👍 Example Topic 5: Follow-Up Questions</summary>
 
 In the last key meeting, you presented an [analysis on early trial adoption](https://docs.google.com/presentation/d/1ESH797L8zwT_28n3Ypqp1xckKhvtt3jr-8eWpexgmto/edit#slide=id.ge35de508d3_0_0).
+
 - Can you walk me through your methodology?
 - Can you help me understand the implications of the data/analysis?
 
@@ -366,6 +372,7 @@ In the last key meeting, you presented an [analysis on early trial adoption](htt
 <details markdown="1"><summary>👍 Example Topic 6: Scope and Define New Issue</summary>
 
 I am going to open an issue for a new analysis.
+
 - Can we discuss the overall scope and details?
 - What kind of information should I include in the issue?
 

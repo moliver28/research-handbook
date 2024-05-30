@@ -1,15 +1,14 @@
 ---
 title: "GitLab with Git Essentials - Hands-on Lab: Work With Git Locally"
-description: "This Hands-on Guide walks you through the lab exercises used in the GitLab with Git Essentials course."
+description: "This Hands-on Guide walks you through using Git commands to work with both a remote and local repository."
 ---
 
 > Estimated time to complete: 45 minutes
 
-> **We are transitioning to the latest version of this course.**  If your group URL starts with `https://spt.gitlabtraining.cloud`, please use the [Version 15.x instructions](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/d14ee71aeac2054c72ce96e8b35ba2511f86a7ca/content/handbook/customer-success/professional-services-engineering/education-services/gitbasicshandsonlab2.md).
-
 ## Objectives
 
 In this lab you will practice using a repository on your local computer and learning about the following concepts:
+
 - cloning a repository
 - creating, using, and merging a branch
 - editing and committing a file
@@ -17,16 +16,16 @@ In this lab you will practice using a repository on your local computer and lear
 
 Please take time to understand any code that you are asked to copy and paste in any lab. Ask your instructor to explain any code that’s not clear.
 
-> Note: Many of the Git commands used in this lab are summarized in GitLab’s helpful [git cheat sheet](
+> Many of the Git commands used in this lab are summarized in GitLab’s helpful [git cheat sheet](
   https://about.gitlab.com/images/press/git-cheat-sheet.pdf). This lab will require you to be able to use your local computer to have SSH access to the internet. Please make sure your machine has the required permissions.
 
 ## Task A. Verify that Git is installed locally
 
 1. Open a terminal on your computer and type this command:
 
-    ```bash
-    git version
-    ```
+   ```bash
+   git version
+   ```
 
 1. If the output prints a version number, Git is installed. If the command throws an error, see the [documentation](https://docs.gitlab.com/ee/topics/git/how_to_install_git/) for installing Git.
 
@@ -34,32 +33,31 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 > GitLab uses the SSH protocol to securely communicate with Git. When you use SSH keys to authenticate to the GitLab remote server, you don’t need to supply your username and password each time. You can learn more in the [documentation](https://docs.gitlab.com/ee/user/ssh.html).
 
-
 1. We will use OpenSSH client, which comes pre-installed on GNU/Linux, macOS, and Windows 10. To check your current version run the following command in your terminal or Powershell:
 
-    ```bash
-    ssh -V 
-    ```
+   ```bash
+   ssh -V
+   ```
 
 2. Create a public and private key pair by running this command in your terminal or PowerShell.
 
-    ```bash
-    ssh-keygen
-    ```
+   ```bash
+   ssh-keygen
+   ```
 
 3. The first prompt will ask you where you would like to save your SSH key. Take note of the location that the command is saving the key to. By default, the path will be `~/.ssh`, and the default name will be `id_rsa`. Press <kbd>Enter</kbd> to accept the default key location and name.
 
-    > Note: If preferred, you can also provide a custom file path and key name for this step.
+   > If preferred, you can also provide a custom file path and key name for this step.
 
 4. The second prompt will ask you to set a password for the key file. Press <kbd>Enter</kbd> to use a blank passphrase for the local key file.
 
-    > Note: To keep the steps simple, we are opting to not set a password for the key file. Blank passphrases are not generally considered best practices. You can set a passphrase if desired.
+   > To keep the steps simple, we are opting to not set a password for the key file. Blank passphrases are not generally considered best practices. You can set a passphrase if desired.
 
 ## Task C. Add an SSH key to your GitLab profile
 
 1. Open your browser to the project that you created in Lab 1.
 
-    > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL and the group should appear in your history.
+   > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL and the group should appear in your history.
 
 1. Click your user avatar in the top left corner.
 
@@ -69,29 +67,30 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Open your existing terminal window. Navigate to the directory that you saved the SSH key in by using `cd ~/.ssh` and print a list of all files in that directory by using the `ls` command, as seen below.
 
-    ```bash
-    cd ~/.ssh
-    ls
-    ```
-    In Windows: 
+   ```bash
+   cd ~/.ssh
+   ls
+   ```
 
-    ```bash
-    cd ~\.ssh
-    ```
+   In Windows:
 
-    > Note: By default, the key will be saved in the `~/.ssh` directory. If you saved the key to a different directory, you will need to `cd` to that directory instead.
+   ```bash
+   cd ~\.ssh
+   ```
+
+   > By default, the key will be saved in the `~/.ssh` directory. If you saved the key to a different directory, you will need to `cd` to that directory instead.
 
 1. You should see two key files: a public key (ex. `id_rsa.pub`) and a private key (ex. `id_rsa`). The public key ends with `.pub` and is what you need to share with GitLab.
 
-    > **Security Warning:** You should never share your private key or paste it into any website form field. Only your public key should be shared.
+   > **Security Warning:** You should never share your private key or paste it into any website form field. Only your public key should be shared.
 
 1. Display the contents of your public key by using the `cat id_rsa.pub` command as seen below.
 
-    ```bash
-    cat id_rsa.pub
-    ```
+   ```bash
+   cat id_rsa.pub
+   ```
 
-    > If you used a different file name, you command will be `cat <filename>.pub`
+   > If you used a different file name, you command will be `cat <filename>.pub`
 
 1. Copy the content of the file displayed to your screen to your clipboard.
 
@@ -101,31 +100,31 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Type any title you want in the **Title** field (ex. your computer's hostname), and click **Add key**.
 
-    > **Tip:** To easily identify where your key is used at, you should use your computer's hostname or description (ex. `alextanuki-m2-mac`) if you don't have a different preferred naming schema.
+   > **Tip:** To easily identify where your key is used at, you should use your computer's hostname or description (ex. `alextanuki-m2-mac`) if you don't have a different preferred naming schema.
 
 1. For **Usage type**, make sure **Authentication & Signing** is selected
 
-    > This usage type allows your key to be used to authenticate with GitLab, as well as for signing commits. You can learn more about signed commits in the [documentation](https://docs.gitlab.com/ee/user/project/repository/signed_commits/ssh.html)
+   > This usage type allows your key to be used to authenticate with GitLab, as well as for signing commits. You can learn more about signed commits in the [documentation](https://docs.gitlab.com/ee/user/project/repository/signed_commits/ssh.html)
 
 1. For **Expiration date**, keep the default date.
 
-    > It is ideal to set an expiry date on keys and rotate the keys periodically. The recommended value for the key expiration date will depend on your security requirements.
+   > It is ideal to set an expiry date on keys and rotate the keys periodically. The recommended value for the key expiration date will depend on your security requirements.
 
-1.  Click the **Add key** button.
+1. Click the **Add key** button.
 
 1. In your terminal, run the following command to test your connection.
 
-    If your instance URL includes `gitlab-learn-labs/*` run:
+   If your instance URL includes `gitlab-learn-labs/*` run:
 
-    ```bash
-    ssh -T git@gitlab.com
-    ```
+   ```bash
+   ssh -T git@gitlab.com
+   ```
 
-    If your instance URL includes `ilt.gitlabtraining.cloud` run:
+   If your instance URL includes `ilt.gitlabtraining.cloud` run:
 
-    ```bash
-    ssh -T git@ilt.gitlabtraining.cloud
-    ```
+   ```bash
+   ssh -T git@ilt.gitlabtraining.cloud
+   ```
 
 If the command completes with a welcome message instead of an error, your SSH key is set up correctly.
 
@@ -135,7 +134,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
 1. Navigate back to the `Top Level` project that you created in Lab 1.
 
-    > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL and the group should appear in your history.
+   > If you closed the tab or lost the link, open a browser tab and start typing https://gitlab.com/gitlab-learn-labs in your URL and the group should appear in your history.
 
 1. In the left sidebar, click on **Code > Repository**.
 
@@ -143,44 +142,45 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
 1. In your terminal or PowerShell window, create a new directory called `training` in your home directory, and navigate into it via the commands below.
 
-    ```bash
-    mkdir ~/training
-    cd ~/training
-    ```
-    In Windows:
+   ```bash
+   mkdir ~/training
+   cd ~/training
+   ```
 
-    ```bash
-    mkdir ~\training
-    cd ~\training
-    ```
+   In Windows:
+
+   ```bash
+   mkdir ~\training
+   cd ~\training
+   ```
 
 1. Run the `git clone` command, using the command you copied from **Clone with SSH**.
 
-    ```bash
-    git clone <Clone with SSH Command>
-    ```
+   ```bash
+   git clone <Clone with SSH Command>
+   ```
 
 1. Move into the repository you just cloned via the `cd` command. All files in this directory will be tracked by Git, and any Git commands you run in this lab should be run from this directory.
 
-    ```bash
-    cd top-level-project
-    ```
+   ```bash
+   cd top-level-project
+   ```
 
 1. Show the contents of the directory, including hidden files and directories beginning with a period with the `ls -a` command.
 
-    ```bash
-    ls -a
-    ```
+   ```bash
+   ls -a
+   ```
 
-    > Notice the presence of the `.git` directory. The `.git` directory stores the metadata and object database for your project.
+   > Notice the presence of the `.git` directory. The `.git` directory stores the metadata and object database for your project.
 
 1. Check the status of your repository by running the following command:
 
-    ```bash
-    git status
-    ```
+   ```bash
+   git status
+   ```
 
-    > Note: You'll see `nothing to commit, working tree clean` in the output, which means the files in this directory have the same contents as the versions of these files that are stored in Git.
+   > You'll see `nothing to commit, working tree clean` in the output, which means the files in this directory have the same contents as the versions of these files that are stored in Git.
 
 ## Task E. Work on a branch
 
@@ -188,21 +188,21 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
 1. Create a new branch called **temporary_branch** on your computer.
 
-    ```bash
-    git branch temporary_branch
-    ```
+   ```bash
+   git branch temporary_branch
+   ```
 
 2. Switch to the branch you just created.
 
-    ```bash
-    git checkout temporary_branch
-    ```
+   ```bash
+   git checkout temporary_branch
+   ```
 
 3. List all the branches in the repository.
 
-    ```bash
-    git branch -a
-    ```
+   ```bash
+   git branch -a
+   ```
 
    > To exit the branch list, press `q` (for quit) on your keyboard.
 
@@ -214,15 +214,15 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
 1. Using any text editor (Visual Studio Code, Sublime Text, notepad, vi, etc.), add this line to the end of `README.md` and save the file.
 
-    ```
-    a line added to temporary_branch locally
-    ```
+   ```text
+   a line added to temporary_branch locally
+   ```
 
 1. See if Git has noticed that the file has been modified.
 
-    ```bash
-    git status
-    ```
+   ```bash
+   git status
+   ```
 
    > The output shows the `README` file in read, with a status of `modified`. The red font color indicates that the `README` file has not been added to Git's staging area yet.
 
@@ -231,16 +231,16 @@ If the command completes with a welcome message instead of an error, your SSH ke
 1. Add the file to the staging area using the `git add` command. If the command is successful, there will be no output.
 
    ```bash
-    git add README.md
-    ```
+   git add README.md
+   ```
 
    > `git add` doesn’t move `README.md` on your filesystem, but it does add it to Git’s "staging area".
 
 1. Make sure that `README.md` is now ready to be committed (that is, it has been successfully staged).
 
-    ```bash
-    git status
-    ```
+   ```bash
+   git status
+   ```
 
 You will now see that the `README` file has a green font color. This indicates that the change is now tracked in Git's staging area.
 
@@ -248,61 +248,61 @@ You will now see that the `README` file has a green font color. This indicates t
 
 1. Commit the staged file using the `git commit` command below. It is important to have a descriptive commit message with each commit.
 
-    ```bash
-    git commit -m "Add a line to README.md"
-    ```
+   ```bash
+   git commit -m "Add a line to README.md"
+   ```
 
    You have now created a snapshot of the file that you can refer to later, if needed.
 
 1. Make sure the staging area is empty again.
 
-    ```bash
-    git status
-    ```
+   ```bash
+   git status
+   ```
 
 ## Task I. Push your changes to the GitLab instance
 
 1. Create a new branch in the remote Git repository on the GitLab server called **temporary_branch**, and push your changes to that branch using the `git push` command.
 
-    ```bash
-    git push -u origin temporary_branch
-    ```
+   ```bash
+   git push -u origin temporary_branch
+   ```
 
-    > If you're ever unsure of the exact command to push your changes to the remote server, type `git push` and Git will output an error message with the correct command for you to copy and paste.
+   > If you're ever unsure of the exact command to push your changes to the remote server, type `git push` and Git will output an error message with the correct command for you to copy and paste.
 
 ## Task J. Edit, commit, and push the file again
 
 1. In your local machine’s text editor (not GitLab’s in-browser editor), add this new line to the end of your local copy of `README.md` and save the file.
 
-    ```a second line in README.md```
+   ```a second line in README.md```
 
 1. In your terminal, move the edited file to Git’s staging area via the `git add` command.
 
-    ```bash
-    git add README.md
-    ```
+   ```bash
+   git add README.md
+   ```
 
 1. Commit the staged file using the `git commit` command. Make sure you have a descriptive commit message, or feel free to use the example below.
 
-    ```bash
-    git commit -m "Modify README.md"
-    ```
+   ```bash
+   git commit -m "Modify README.md"
+   ```
 
 1. See a description of the commit you just made by using the `git log` command.
 
-    ```bash
-    git log
-    ```
+   ```bash
+   git log
+   ```
 
    > Press `q` to exit the `git log` output screen.
 
 1. Push your commit up to the remote repository on the GitLab instance by typing in the `git push` command.
 
-    ```bash
-    git push
-    ```
+   ```bash
+   git push
+   ```
 
-    > To commit your changes to the upstream branch (that is, an already-existing branch on the remote repository with the same name as the branch on your local machine), you can just run `git push` instead of the longer command you used the first time you pushed your commit up to the GitLab instance. The system only needs to set the upstream branch once.
+   > To commit your changes to the upstream branch (that is, an already-existing branch on the remote repository with the same name as the branch on your local machine), you can just run `git push` instead of the longer command you used the first time you pushed your commit up to the GitLab instance. The system only needs to set the upstream branch once.
 
 1. Navigate to your project in the GitLab Web UI.
 
@@ -310,7 +310,7 @@ You will now see that the `README` file has a green font color. This indicates t
 
 1. Click on **temporary_branch** to switch to that branch. Confirm that the changes you made to `README.md` on your local branch were pushed up to the remote repository.
 
-    > To see all of the changes applied, click the **History** button. This will show all of the commits applied to a branch.
+   > To see all of the changes applied, click the **History** button. This will show all of the commits applied to a branch.
 
 ## Task K. Edit a remote branch
 
@@ -324,9 +324,9 @@ You will now see that the `README` file has a green font color. This indicates t
 
 1. Add a new line to the end of the file.
 
-    ```
-    a third line added on the remote copy of temporary_branch
-    ```
+   ```text
+   a third line added on the remote copy of temporary_branch
+   ```
 
 1. Enter an appropriate commit message.
 
@@ -342,15 +342,15 @@ After making this commit, the remote repository on the GitLab instance is now on
 
 1. Retrieve metadata about branches on the remote copy of the repository using the `git fetch` command.
 
-    ```bash
-    git fetch
-    ```
+   ```bash
+   git fetch
+   ```
 
 1. Find out how many commits are in the remote copy of the repository but not your local copy, or vice versa.
 
-    ```bash
-    git status
-    ```
+   ```bash
+   git status
+   ```
 
 You will see that your branch is one commit behind in the `git status` output.
 
@@ -360,15 +360,15 @@ You will see that your branch is one commit behind in the `git status` output.
 
 1. In your terminal, merge the remote copy into your local copy using the `git pull` command.
 
-    ```bash
-    git pull
-    ```
+   ```bash
+   git pull
+   ```
 
 1. View the updated contents of the file by typing in the `cat README.md` command. You should see the fourth line that you added in the GitLab Web IDE.
 
-    ```bash
-    cat README.md
-    ```
+   ```bash
+   cat README.md
+   ```
 
 ## Task N. Merge changes back into the main branch
 
@@ -376,35 +376,35 @@ You will see that your branch is one commit behind in the `git status` output.
 
 1. See what branch you are currently working on by typing in `git branch`.
 
-    ```bash
-    git branch
-    ```
+   ```bash
+   git branch
+   ```
 
 1. Switch to the **main** branch by using the `git checkout` command in the terminal.
 
-    ```bash
-    git checkout main
-    ```
+   ```bash
+   git checkout main
+   ```
 
 1. Incorporate all changes from your local **temporary_branch** (in this case, just the modified `README.md`) into your local **main** branch by typing in `git merge temporary_branch`.
 
-    ```bash
-    git merge temporary_branch
-    ```
+   ```bash
+   git merge temporary_branch
+   ```
 
 ## Task O. Update the remote repository
 
 1. Make sure there are no edited files that you need to stage or commit and to confirm that you are on the **main** branch by typing in `git status`.
 
-    ```bash
-    git status
-    ```
+   ```bash
+   git status
+   ```
 
 1. Update the remote copy of the **main** branch with any changes from your local copy by typing in `git push`.
 
-    ```bash
-    git push
-    ```
+   ```bash
+   git push
+   ```
 
 1. Return to the GitLab page in your browser and view `README.md` in your project’s **main** branch to view the changes you just pushed to the remote copy of **main**.
 
