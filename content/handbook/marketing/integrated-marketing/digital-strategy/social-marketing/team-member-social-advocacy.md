@@ -179,7 +179,7 @@ While we have a team of content curators working to add relevant and fresh conte
 - Paste the story URL and click Suggest Story
 - The admin team will review your suggestion. If we approve it, we'll mark you as the curator for the content.
 
-Please note that most of what is approrpriate to share that comes from GitLab will be curated already.
+Please note that most of what is appropriate to share that comes from GitLab will be curated already.
 
 ### Become a Bambu Power User with Scheduling Content
 
