@@ -99,9 +99,7 @@ Steps:
 
 ## Automatic Enrollment to Sequences
 
-
-From FY24Q4 onwards, we will pilot [automatic triggers](https://support.outreach.io/hc/en-us/articles/221361788-How-To-Create-an-Outreach-Trigger) through Outreach. 
-
+From FY24Q4 onwards, we will pilot [automatic triggers](https://support.outreach.io/hc/en-us/articles/221361788-How-To-Create-an-Outreach-Trigger) through Outreach.
 
 ### Automatic High PTP Sequence
 

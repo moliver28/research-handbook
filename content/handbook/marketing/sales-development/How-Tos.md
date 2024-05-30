@@ -239,15 +239,16 @@ For more personal events, such as Executive Roundtables, there many be more deta
 - GitLab Edcast: [Advanced Outreach Training](https://gitlab.edcast.com/journey/weeks)
 - Best Practices: [Our Outreach Handbook Page](/handbook/marketing/marketing-operations/outreach/)
 
-### How to Change your Email Signature 
+### How to Change your Email Signature
 
-You must change your email signature [in Terminus](https://handbook.gitlab.com/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Outreach or Gmail your signature will revert back within 24 hours. 
+You must change your email signature [in Terminus](https://handbook.gitlab.com/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Outreach or Gmail your signature will revert back within 24 hours.
 
 **Steps to change your signature**
+
 1. [Log into Terminus](https://email2.terminusplatform.com/users/sign_in/) using your GitLab Google Account
-2. After logging in click on the Terminus logo in the top left corner 
-3. Next click the menu item for "Email Experiences" 
-4. From there you can edit your signature and see a preview of it on the right side of your screen. 
+1. After logging in click on the Terminus logo in the top left corner
+1. Next click the menu item for "Email Experiences"
+1. From there you can edit your signature and see a preview of it on the right side of your screen.
 
 ## How to follow our FO Outbound Process
 

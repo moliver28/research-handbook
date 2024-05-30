@@ -287,13 +287,13 @@ Please follow the process detailed in the GitLab Heroes project to [request supp
 
 ### GitLab Heroes Licenses
 
-If you are a GitLab Hero seeking access to Ultimate and Duo, please create an issue in the GitLab Heroes project using the [heroes-license-request template](https://gitlab.com/gitlab-com/marketing/community-relations/gitlab-heroes/-/issues/new?issuable_template=heroes-license-request). 
+If you are a GitLab Hero seeking access to Ultimate and Duo, please create an issue in the GitLab Heroes project using the [heroes-license-request template](https://gitlab.com/gitlab-com/marketing/community-relations/gitlab-heroes/-/issues/new?issuable_template=heroes-license-request).
 
-Please note: 
+Please note:
 
-- These licenses are only available to GitLab Heroes at the Hero or Superhero level. 
+- These licenses are only available to GitLab Heroes at the Hero or Superhero level.
 - Licenses are for personal use and therefore limited to one user.
-- Licenses are only availble for a personal subgroup within the Community group on GitLab.com. 
+- Licenses are only availble for a personal subgroup within the Community group on GitLab.com.
 - Membership to the group will be issued for 6 months and can be extended as long as the GitLab Hero maintains their Hero or Superhero status in the program.
 
 GitLab team members should follow the steps in the License Request issue to fulfill the license request.
