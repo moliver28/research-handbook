@@ -137,7 +137,7 @@ To assign weights to issues effectively, it’s important to remember that issue
 
 ## 📝 AI Feature Evaluations Guidelines - Evaluate like I am 5
 
-- [Step-by-Step Guide for Conducting Evaluations using LangSmith at GitLab - ELI5 Evals](./evaluation/)
+* [Step-by-Step Guide for Conducting Evaluations using LangSmith at GitLab - ELI5 Evals](./evaluation/)
 
 ## 👏 Communication
 
