@@ -114,7 +114,7 @@ The following tables contain fields necessary to build out the side navigation b
 
 <details><summary>Expand to view Nodes code snippet</summary>
 
-**Note:** This method is being deprecated. Please use the `Child Anchor Links` field instead! 
+**Note:** This method is being deprecated. Please use the `Child Anchor Links` field instead!
 
 ```JSON
 {
@@ -130,9 +130,8 @@ The following tables contain fields necessary to build out the side navigation b
     ]
 }
 ```
+
 </details>
-
-
 
 ##### Visual Representation
 
@@ -301,4 +300,3 @@ At this time, these call-out sections take in a **list** of information. The che
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/kALB1thn6ac?si=3GV9LK4v2-L5y9XP" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-

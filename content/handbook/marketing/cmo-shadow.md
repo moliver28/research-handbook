@@ -45,7 +45,6 @@ The CMO Shadow Program is not a performance evaluation or the next step to a pro
 1. Are you interested in learning more about marketing's interaction with other departments within the company?
 1. Are you intersted in how other leaders within marketing run their 1:1s with CMO or run their team meetings and you're looking for leadership inspiration you can take back to your team?
 
-
 ### What is it like?
 
 {: #what-it-is-like}

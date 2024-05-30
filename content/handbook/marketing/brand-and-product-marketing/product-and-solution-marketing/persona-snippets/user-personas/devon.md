@@ -14,6 +14,7 @@ title: "Devon Persona snippets"
 ### [Devon (DevOps Engineer)](/handbook/product/personas/#devon-devops-engineer)
 
 **Overview**
+
 - description
 
 #### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)
@@ -35,7 +36,6 @@ title: "Devon Persona snippets"
 - Some of the teams I talk with spend hours 'babysitting' their pipeline jobs - has that been the case for you or your teams?
 - What is the workflow if a developer wants to create a new pipeline or add a job to an existing pipeline? How much time does that take the developer away from doing “real work”?
 - ...
-
 
 ##### SDR Use Case Snippets
 
