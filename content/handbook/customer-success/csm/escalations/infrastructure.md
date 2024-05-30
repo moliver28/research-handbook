@@ -44,8 +44,6 @@ For S1/S2 incidents where a CSM has reason to believe their customer has been im
  proactive CSM communication, in addition to the platform notifications and incident
  issue updates, will be sufficient.
 
-
-
 ### Incidents Impacting All Customers
 
 For our top ARR customers or those significantly impacted by an incident, a customer-facing

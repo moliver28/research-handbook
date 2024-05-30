@@ -1,16 +1,7 @@
 ---
-
 title: "Processes and Methodology"
 description: "Learn the processes and methodology that GitLab Professional Services uses to help ensure Customer Success."
 ---
-# Processes and Methodology
-
-
-
-
-
-
-
 
 ## PS Process & Methodology Mapped to the Customer Journey
 

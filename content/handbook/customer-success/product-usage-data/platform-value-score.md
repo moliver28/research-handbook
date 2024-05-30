@@ -26,14 +26,13 @@ Product Feedback Loop: These metrics are shared with Product to better understan
 ### How do different teams use and drive platform adoption
 
 The following shows how different teams use and measures they apply to increase platform adoption:
+
 1. Marketing leverages use case terms as part of top-level and marketed value drivers for the GitLab platform. Customer Marketing would leverage use cases to promote existing customers to expand usage and value realization. **Measurement**: Consumption and usage of case studies, competitive analysis, demos and use case videos.
 2. Sales, Solution Architects and Renewals teams position GitLab marketed value drivers, use cases, and customer journey to deliver to customer’s desired business outcomes. Expectations are set to ensure the customer has a roadmap (new and growth opportunities) for successful adoption of use cases, including skill sets, resourcing, timelines, and services (as needed) to realize business value as quickly as possible. **Measurement**: Success roadmaps completed, service attach, Ultimate sales.
 3. Professional Services, Customer Success Managers, and Support drive adoption of features supporting use cases and ultimately platform value realization defined by adoption of 3+ use cases. **Measurement**: service attach, development of services to deliver to all customer use cases, time-to-value, use case and platform adoption, support case measures and feedback by use case, gross retention by subscription tier
 4. Product and Engineering leverage use case and platform adoption as an input into investments and prioritization. Those metrics can inform decisions about prioritization and resourcing of feature development in order to drive greater adoption and retention of usage. In addition, Product and Engineering will work towards including use case adoption metrics in the product so customers have the same visibility GitLab team members do. **Measurement**: time-to-value, use case and platform adoption, and retained usage by customers.
 5. Finance, People Ops and Operations would prioritize efforts in alignment with use case priorities (i.e., funding, data and analytics, etc.).
 6. Data and Analytics: Deliver and maintain data products that support / increase use case adoption. **Measurement**: On-time delivery, data quality, and predictive models and analytics (e.g., PtC, PtE).
-
-
 
 ### References
 

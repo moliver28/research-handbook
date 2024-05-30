@@ -18,7 +18,6 @@ Making the transition from onsite trainer to remote trainer can be a challenge â
 
 When you can see participants it keeps them accountable for paying attention, and youâ€™ll be able to observe the non-verbal cues indicating a wane in attention. On the other hand, if you have a large number of participants, having everyone's video on at the same time can be distracting -- in that case, you can invite specific participants to turn on their video when they are speaking. Also keep in mind that some participants may not be comfortable with sharing their video -- be sensitive to this and do not make video sharing a requirement.
 
-
 #### Tip 2: Take frequent breaks
 
 If your session will last more than 90 minutes, build in a break at least every 60 - 75 minutes. Let attendees know what time they need to return, and request they indicate their return by turning their video back on and/or raising their virtual hand (if that tool is available in our video conferencing software).

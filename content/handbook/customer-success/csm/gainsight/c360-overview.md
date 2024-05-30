@@ -61,5 +61,3 @@ The `Chorus/Notetaker Opt Out` field on the C360 Attributes section allows a CSM
 #### NPS and CSAT Scores
 
 For information on customer surveys and how the NPS and CSAT scores are calculated and the types of questions asked, please refer to the [NPS and CSAT scores handbook page](/handbook/customer-success/csm/gainsight/c360-overview/nps-csat-scores).
-
-
