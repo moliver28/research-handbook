@@ -351,7 +351,7 @@ Promotion candidates should follow these steps to request feedback as part of ou
     - *Each promotion candidate should make a copy of this form to use to collect feedback from their respective feedback providers.*
     - **Due date: 2024-06-07**
 4. Team member identifies stakeholders for feedback request
-    - Team members should select 3-4 team members to provide feedback and review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment.
+    - Team members should select 3-4 team members to provide feedback and review their proposed feedback providers with their manager before sending out the feedback form to ensure alignment. Team members should select at least one distinct feedback provider for each business result highlighted in the promotion document. 
     - Requirements for feedback providers are:
         - Feedback provider should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher)
         - Feedback provider should have direct experience working with the team member on one or more of the [business results](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) highlighted in their [promotion document](https://handbook.gitlab.com/handbook/people-group/promotions-transfers/#promotion-document).
