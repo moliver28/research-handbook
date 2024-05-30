@@ -1,6 +1,6 @@
 ---
-title: AI Framework Group - Eval like I am 5
-description: "The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab AI feature development."
+title: Good Evaluation Heuristics
+description: "Choosing Evaluation Metrics, Designing Evaluations and Best Practices"
 aliases: /handbook/engineering/development/data-science/ai-framework
 ---
 

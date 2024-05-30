@@ -1,6 +1,6 @@
 ---
-title: AI Framework Group - Eval like I am 5
-description: "The AI Framework group is focused on how to support other product groups at GitLab with the AI Abstraction Layer, and GitLab AI feature development."
+title: Example evaluating performance metrics
+description: "Evaluate performance metrics by sending chat requests, measuring latency, tracking token usage, and calculating overall metrics such as error rate, average latency, and reliability using LangSmith."
 aliases: /handbook/engineering/development/data-science/ai-framework
 ---
 
