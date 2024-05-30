@@ -284,7 +284,7 @@ The HackerOne bot will automatically assign the correct due date based on severi
 
 When a patch is released and the award process complete, it is time to close the HackerOne issue.
 
-After 30 days, follow the [process for disclosing security issues](/handbook/security#process-for-disclosing-security-issues).
+After 30 days, follow the [process for disclosing security issues](/handbook/security/engaging-with-security/#process-for-disclosing-security-issues).
 Once this has occurred, the HackerOne issue can also be publicly disclosed on
 a case-by-case basis, following the same process to remove sensitive information.
 We should not disclose, or request to disclose, a HackerOne issue while the GitLab issue
