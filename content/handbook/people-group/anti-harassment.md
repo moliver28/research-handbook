@@ -161,7 +161,7 @@ Training and guidance on understanding, preventing, and dealing with discriminat
 ### Course
 
 [COM 001 Common Ground: Prevention of Harassment, Sexual Harassment, and Abusive Conduct in the workplace](https://learning.willinteractive.com/) (2 hrs for managers, 1 hr for non-managers). This training will be assigned to all team members and managers using [Will Interactive's content and LMS platform](https://willinteractive.com/) by email invitation. Details on how to use the platform can be found on the [learning and development page](/handbook/people-group/learning-and-development/#compliance-courses).
-Once the course has been completed, each team member and manager will receive a certificate of completion which will be kept in their employee record in BambooHR.
+Once the course has been completed, each team member and manager will receive a certificate of completion which will be kept in their employee record in Workday.
 
 ## Country & US State-Specific Requirements
 
