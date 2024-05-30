@@ -113,7 +113,6 @@ The Staff IT Compliance role is a [grade 8](/handbook/total-rewards/compensation
 - Maintain expert knowledge of GitLab's product, environment, systems and architecture while mentoring others on this knowledge and helping to shape designs for the sake of security compliance efficiencies
 - Participate in the development and continuous improvement of IT compliance metrics
 - Provide actionable and constructive advisement to cross-functional teams, to include driving remediation activities for high and select moderate risk Observations across several GitLab departments
-
 - Implement security compliance technical and process improvements
 - Mentor other IT Compliance Engineers and improve quality and quantity of the team's output
 - Design and implement major iterations on GitLab's security control framework in alignment with industry trends
@@ -143,7 +142,7 @@ The IT Compliance role is a [grade 8](/handbook/total-rewards/compensation/compe
 ### Manager, IT Compliance Responsibilities
 
 - Build, scale, and manage our IT Compliance team to support our needs as a distributed company
-- Be the IT Compliance Expert at GitLab
+- Be the IT Compliance Expert at GitLab, and advocate on bahalf of management for all external audits that requrie IT inquiry
 - Hold regular 1:1’s with all members of the IT Compliance team
 - Triage and manage priorities of the IT Compliance team
 - Represent the IT Compliance team in different company functions
@@ -160,6 +159,43 @@ This role includes all of the requirements above, plus:
 - Ability to use GitLab
 - Experience building and maintaining corporate IT Compliance policies and processes
 
+## Senior Manager, IT Compliance
+
+### Senior Manager, IT Compliance Job Grade
+
+The IT Compliance role is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+### Senior Manager, IT Compliance Responsibilities
+
+- Review and assess sub-department team strategies, objectives and initiatives
+- Generate and implement process improvements, especially cross-team processes
+- Hold regular 1:1s with team managers and skip-level 1:1s with all members of their team
+- Assist in building morale, support and alignment within their sub-department
+Work cross-functionally (both within and outside of IT) to promote and gain prioritization of sub-department needs
+- Work closely with the IT leadersip team on all things compliance
+- Advises over GitLab IT SOX program to ensure the program is run effectively and efficiently.
+-Leads the implementation of  the Company’s IT internal controls over financial reporting to ensure all controls are implemented over existing and new IT systems that are onboared.
+- Act as the “go-to” person for IT general controls for Security, IA, and SOX PMO
+- Develop and deliver IT compliance training programs for staff at all levels and ensure continuous education on compliance-related topics.
+- Collaborate with IT teams to ensure compliance requirements are integrated into IT projects and operations.
+- Maintain relationships with regulatory bodies, industry groups, and other external stakeholders.
+- Participate in industry forums and stay abreast of trends and developments.
+- Coordinate external audits and manage relationships with auditors.
+- 
+
+### Senior Manager, IT Compliance Requirements
+
+This role includes all of the requirements above, plus:
+- High ethical standards and integrity
+- Meticulous attention to detail in managing compliance documentation and activities.
+- Skill in developing and maintaining IT compliance policies and procedures.
+- Ability to ensure policies are up-to-date with current regulations.
+- Strong leadership skills to lead the IT compliance team.
+- Ability to foster a culture of compliance within the organization.
+- Ability to prepare and present compliance reports to senior management and the board.
+- Strong interpersonal skills to build relationships with internal and external stakeholders.
+
+
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
@@ -171,6 +207,3 @@ Candidates for this position can expect the hiring process to follow the order b
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
 
-## Career Ladder
-
-The next step in the IT Compliance job family is to move to the job family.
