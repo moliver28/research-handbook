@@ -379,7 +379,7 @@ Promotion candidates should follow these steps to request feedback as part of ou
 
 #### Feedback Confidentiality
 
-A goal through this process is to continue to facilitate opportunity to provide more regular and ongoing feedback and flex the feedback muscle as a division. We encourage team members to own the feedback that they provide to strengthen relationships, invest in each other's grwoth and development, and provide the opportunity for team members receiving the feedback to ask clarifying questions if needed.
+A goal through this process is to continue to facilitate opportunity to provide more regular and ongoing feedback and flex the feedback muscle as a division. We encourage team members to own the feedback that they provide to strengthen relationships, invest in each other's growth and development, and provide the opportunity for team members receiving the feedback to ask clarifying questions if needed.
 
 The feedback form asks for feedback provider's information, so promotion candidates and their managers will have visibility into specifics of the feedback provided. At the CISO directs calibration session we will review themes in [this structure](https://docs.google.com/document/d/11w4fI2iJj0-GRgtQxRGgRMiUyt60Z1Xv1w19UkC2ubE/edit).
 
