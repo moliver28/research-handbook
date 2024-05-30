@@ -100,9 +100,9 @@ Open up a Growth & Development issue for a course application [here](https://git
 | Certified Customer Success Manager | CCSM is a well-known and industry recognised customer success certification - Level 1 covers the essentials of Customer Success Management, with the option to continue certifications all the way up to Level 5, with more indepth and advanced learning. You will develop core competencies that will enable you to demonstrate your expertise in Customer Success Management, drive results in your own organization, and enable you to help your customers to achieve success. There are a number of providers who can deliver the training - [here's one to take a look at and learn more](https://successcoaching.co/). | Virtual |
 | MasterClass - The Art of Negotiation | MasterClass offers a number of courses relevant to Sales, delivered in an engaging digestable format, and taught by some of the best in the world. [The Art of Negotiation](https://www.masterclass.com/classes/chris-voss-teaches-the-art-of-negotiation), delivered by former FBI Hostage Negotiator Chris Voss, teaches skills directly applicable to working in Sales. A Masterclass subscription also gives access to the rest of the platforms course catalog. | Virtual |
 
-</details>
-
 Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
+
+</details>
 
 <details>
 <summary>Product</summary>
@@ -110,19 +110,19 @@ Open up a Growth & Development issue for a course application [here](https://git
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
 | Reforge | Learning platform for Product, Marketing, and Growth professionals working in tech, with Product Management certififcations available through live learning sessions. Membership includes access to [virtual live events](https://www.reforge.com/events), [guides](https://www.reforge.com/guides), and [courses](https://www.reforge.com/courses).  | Virtual |
-| [UX Research one](https://maven.com/twocents/research-to-impact) | recommended | Virtual |
-
-</details>
+| Research For Impact - A Course For Applied Researchers | This course is for experienced researchers of all types (quant, qual, UXR, marketing, sales and more) in industry settings who are looking to have more impact with their stakeholders, see their findings result in action, and build their brand as a strategic go-to partner. [More info here.](https://maven.com/twocents/research-to-impact) | Virtual |
 
 Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
+
+</details>
 
 <details>
 <summary>Marketing</summary>
 
 | **Conference** | **Why attend?** | **Location** |
 |----------------|-------------------------| ------- |
-| LinkedIn Learning courses | Denise opportunities list | Virtual |
-
-</details>
+| LinkedIn Learning courses | The [Marketing Career Development Handbook page](https://handbook.gitlab.com/handbook/marketing/marketing-career-development/#writing-and-communication) details a number of recommended LinkedIn Learning courses for marketing team members at GitLab, covering Analytics, Writing and Communication, Design and Communication, Revenue Basics, Marketing Campaigns, and more. You can purchase an individual LinkedIn Learning license using the G&D Fund. | Virtual |
 
 Open up a Growth & Development issue for a course application [here](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other)
+
+</details>
