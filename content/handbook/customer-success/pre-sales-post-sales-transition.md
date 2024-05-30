@@ -150,7 +150,3 @@ There are instances where the CSM will need to reengage the SAE/AE and SA. Here 
   [account-management](https://gitlab.com/gitlab-com/account-management/) parent project for account-specific work and collaboration with the rest of the sales
 
   [customer-success](https://gitlab.com/gitlab-com/customer-success) parent project for Customer Success employee, shared or triage work
-
-  
-
-

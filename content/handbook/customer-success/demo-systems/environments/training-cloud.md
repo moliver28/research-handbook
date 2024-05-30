@@ -50,4 +50,3 @@ This process has moved to [/handbook/customer-success/demo-systems/#workshop-pre
 #### Extension Policy
 
 This process has moved to [/handbook/customer-success/demo-systems/#workshop-preparation].
-

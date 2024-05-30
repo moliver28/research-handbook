@@ -5,12 +5,6 @@ category: Artifacts
 
 The following are reference architecture diagrams for various deployment methods of GitLab.
 
-
-
-
-
-
-
 ## Cloud Providers
 
 ### AWS
