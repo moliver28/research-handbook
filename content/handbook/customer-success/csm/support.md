@@ -116,7 +116,7 @@ As described at that link, support already collects feedback via an automatic em
 
 CSM guidance on [contact management projects](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/gitlab/contact_management_projects/).
 
-Who has access to a Contacts Management Project?
+Who has access to a Contact Management Projects?
 
   - Due to their sensitive nature for our customers, only Support Readiness and the customers' chosen users have access to a contact management project.
 
