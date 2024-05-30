@@ -39,6 +39,7 @@ Given the close collaboration between the PS Project Management and PS Operation
       * Pin a link to the Customer RAID issue (customer facing)
    5. Add a [Customer Project folder](https://drive.google.com/drive/folders/1ozPKiAlUzbKwpkscaYVTp9PVoi9hWm4U) sorted by Customer & SOW#
       * Make a copy of the [project kick-off template](https://docs.google.com/presentation/d/1XUljBcQUZgQA-0fhQ5UayiEGtp4Of3xsaFGpVxdoDS4/edit?usp=sharing) to your project's Drive folder
+      
 5. PMs then schedule and conduct the EM>PS Transition Meeting with the Technical Delivery team- the goal is to ultimately review the engagement purpose, expectations and assumptions, and SoW/DoW
 6. PMs to conduct the [Stakeholder Introduction](https://docs.google.com/document/d/1fOmBxXf9MqYHQ8LZD5nIepu5WcFeTiwss59RJbd3BWE/edit?usp=sharing) Meeting & prepare for Kickoff
 7. Create an external Slack channel to collaborate with the customer and add a link to it to the kick-off deck. [AR example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24542)
