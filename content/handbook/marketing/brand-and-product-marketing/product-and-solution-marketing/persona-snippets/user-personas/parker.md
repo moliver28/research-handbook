@@ -14,6 +14,7 @@ title: "Parker Persona snippets"
 ### [Parker (Product Manager)](/handbook/product/personas/#parker-product-manager)
 
 **Overview**
+
 - description
 
 #### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)

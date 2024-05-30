@@ -41,10 +41,9 @@ If you see a community member volunteering their time to help another community 
 
 ### Flagging Inappropriate Content
 
-If any GitLab team member sees a forum post that is inappropriate, abusive, spam, or a violation of our code of conduct, please flag the post by clicking the flag icon. The post is automatically hidden from public viewing and added to the [moderation](#moderation) queue for review. If the flagging action requires more context or immediate actions, contact [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel. 
+If any GitLab team member sees a forum post that is inappropriate, abusive, spam, or a violation of our code of conduct, please flag the post by clicking the flag icon. The post is automatically hidden from public viewing and added to the [moderation](#moderation) queue for review. If the flagging action requires more context or immediate actions, contact [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel.
 
 If immediate action to hide or redact private information is required, flag the post and then ping one of the [admins](https://forum.gitlab.com/about) in the [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9) Slack channel.
-
 
 ## Best Practices
 
@@ -85,7 +84,6 @@ When the user account looks suspicious, these tips can help with verification:
   - Different used names may indicate a fake profile.
 - With admin permissions:
   - On the user profile, open the admin interface. Inspect the user profile's IP address with the Discourse built-in Whois lookup including geo location. When in doubt, use a search engine with `whois <IP address>` and also verify the ASN and its ISP. Sometimes a google search unveils them belonging to a fraud friendly environment, or other insightful details.
-
 
 ### Moderator Specific Permissions
 
@@ -306,7 +304,6 @@ Discourse uses [trust levels](https://meta.discourse.org/t/trust-level-permissio
 - Members with trust level 2 have spent time on the forum, helped users with responses, receive and give likes, and read more about GitLab topics.
 - Trust level 3 as a regular user means becoming a GitLab community evangelist with visiting often, leading the path with helpful responses, engaging with likes and feeling energized.
 - Leaders with trust level 4 have earned their trust by staff team member nomination, helping with questions, engaging with likes, flagging posts to moderators, lending a hand to new users, and overall collaborate closely with GitLab team members.
-
 
 ##### Nomination for Trust Level 4
 
