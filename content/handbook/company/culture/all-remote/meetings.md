@@ -48,7 +48,7 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 ### What to do after the meeting
 
 1. **Capture action items from notes.** For an ongoing meeting series, GitLab has established [nomenclature]({{< ref "1-1" >}}) such as adding tags like "TODO" and "DONE" to track action items. You can also file issues in GitLab.com to track action items.
-1. **Consider important decisions.**  When the meeting takes place outside of some participants' time zones, consider confirming decisions and actions for 24 hours. This will allow participants to contribute asynchronously.
+1. **Consider important decisions.**  When the meeting takes place outside of some participants' time zones, consider confirming decisions and actions for 24-48 hours. This will allow participants to contribute asynchronously.
 1. **Upload recording.** When the meeting is recorded, add the recording link and password in the agenda shortly after the meeting to allow for async consumption for people in different time zones. Also consider uploading to YouTube if it can be done so consistent with SAFE guidelines.
 1. **Assess and Iterate.** Once the meeting concludes, reflect on what worked, what didn’t work, and what you need to do differently to run a more effective meeting. This process touches three of our CREDIT values: Iteration, Efficiency, and Results for Customers. By taking a small amount of time after a meeting to focus on continuous improvement, we can apply those improvements in future meetings. This drive for continuous improvement drives Efficiency, which is the foundation for Results.
 
