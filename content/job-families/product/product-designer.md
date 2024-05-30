@@ -157,7 +157,7 @@ You’ll spend your time collaborating with a [cross-functional team](http://abo
 
 ## UX Paper Cuts Specialty
 
-The UX Paper Cuts team is responsible for identifying and fixing small, impactful usability issues in the GitLab product. Like the Foundations team, UX Paper Cuts doesn't work within a specific product area, but across the product as a whole, identifying issues and creating merge requests to continually [improve the user experience](https://nicolasdular.gitlab.io/gitlab-polish-gallery/?&label=UX%20Paper%20Cuts). You'll also spend your time helping to implement and evolve the design system and GitLab UI and assist in burning down backlogs of known UI and usability problems. By focusing on small details, you'll help create a more polished and user-friendly interface, leading to increased user satisfaction, engagement, and ultimately a more successful product.
+The UX Paper Cuts team is responsible for identifying and fixing small, impactful usability issues in the GitLab product. Like the Foundations team, UX Paper Cuts doesn't work within a specific product area, but across the product as a whole, identifying issues and creating merge requests to continually [improve the user experience](https://papercuts.gitlab.com/). You'll also spend your time helping to implement and evolve the design system and GitLab UI and assist in burning down backlogs of known UI and usability problems. By focusing on small details, you'll help create a more polished and user-friendly interface, leading to increased user satisfaction, engagement, and ultimately a more successful product.
 
 #### UX Paper Cuts Responsibilities
 
