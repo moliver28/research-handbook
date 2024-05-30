@@ -133,8 +133,7 @@ As a manager, in collaboration with the Team Member Relations Specialist (TMR) a
 
 [People Engineering automations](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation) will generate the offboarding issue at the end of the team member's last working day, as per notification from the Team Member Relations Specialist (TMR) and the People Business Partner (PBP). Once the `Last Working Day` or Garden leave expires the team member will be officially offboarded from GitLab.  Prior to the offboarding issue and the overall process for the term listed below.
 
-
-#### Last Working Day for US Team Members 
+#### Last Working Day for US Team Members
 
 1. **TMR**: TMR will have a legal/CPO review of the planned offboarding.
 1. **TMR**: TMR will inform payroll, compensation and benefits, security and the stock administration of the date the team member will have access suspended and the official offboarding date prior to the opening of the offboarding issue.
