@@ -14,6 +14,7 @@ title: "Sacha Persona snippets"
 ### [Sasha (Software Developer)](/handbook/product/personas/#sasha-software-developer)
 
 **Overview**
+
 - description
 
 #### [VC&C use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/#personas)
@@ -43,7 +44,6 @@ title: "Sacha Persona snippets"
 - Take your weekends back with GitLab: You'll gain faster feedback and be able to integrate smaller changes frequently with confidence, reducing the risk of build-breaking changes intensifying and causing bigger problems downstream
 - With the leading SCM + CI in a single application, GitLab allows you to work fast and consistently deliver high quality code.
 - A complete platform for automating each step of your SDLC, GitLab CI enables you to spend more time writing code, innovating, and creating lovable features that end up providing value to your customers
-
 
 #### [CD use case](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/#personas)
 

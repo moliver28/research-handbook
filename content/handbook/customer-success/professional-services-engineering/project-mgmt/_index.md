@@ -1,5 +1,4 @@
 ---
-
 title: "Professional Services Project Management"
 description: "Learn about the processes that the GitLab Project Management team uses to deliver successful engagements with Customers."
 ---
@@ -16,7 +15,7 @@ Customer success = GitLab product implementation, on time, on budget delivery of
 
 ### SOW Close
 
-Given the close collaboration between the PS Project Management and PS Operations [team functions](/handbook/customer-success/professional-services-engineering/#team-functions), please refer to the [PS Operations Wiki](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home) for details on processes related to scheduling, reporting, billing, partner processes, and more.  
+Given the close collaboration between the PS Project Management and PS Operations [team functions](/handbook/customer-success/professional-services-engineering/#team-functions), please refer to the [PS Operations Wiki](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-operations/-/wikis/home) for details on processes related to scheduling, reporting, billing, partner processes, and more.
 
 ### Project Initiate & Plan
 

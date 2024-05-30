@@ -65,6 +65,7 @@ The CSM should review and revise this deck in advance of the kickoff call based 
 #### **What should I know coming out of the Kickoff call?**
 
 Ideally, the following information has been collected in the presales process and we use the kickoff to confirm and build upon this knowledge.  In the times that these questions are not known, we always seek to leave the kickoff with an understanding of the following?
+
 1. `Why did you buy GitLab?` Ideally you've already answered this question in your handoff from pre-sales, so if that's the case, reframe the question to validate that you understand they purchased GitLab for X reason and confirm your understanding of what challenges the customer is looking to solve.
 1. `What other tools are you using?` Understanding what the tool landscape is for the customer is crucial in being able to help them adopt GitLab in relation to their desired use cases. Try to write down their tool for each of the following use cases: SCM, CI, CD, Package, Security, Monitoring, Agile
 1. `What are your business goals?` After they achieve their immediate goal of whatever they want to use GitLab for, what's next for them?
@@ -97,6 +98,7 @@ The completion of this second customer call marks the completion of customer onb
 Once onboarding is complete, close the onboarding CTA and then move the customer into the `Adoption` phase of the customer lifecycle in Gainsight.
 
 By accomplishing the following tasks, you'll know you have completed onboarding:
+
 - [ ] Complete internal handoff, where CSM reviews the command plan, adoption goals, priorities, and stakeholders with the SAE/AE and SA
 - [ ] Assign `GitLab Admin` and/or other persona roles to primary contacts
 - [ ] Complete kickoff call, where the CSM:
@@ -134,7 +136,6 @@ Time to Engage is the number of days between the `Onboarding CTA Start Date` and
 
 **Why is this metric important?**
 Helps determine the time it takes to first engagement with the customer. Engagement is defined as the first CSM meeting with the customer.
-
 
 ### Time to First Value
 
@@ -188,6 +189,7 @@ A Command Plan is used as a living pre-sales document, and its objectives are co
 ### Command Plan Attainment Reporting in Gainsight
 
 To ensure the customer attains their original purchase intent, the field can now monitor the [Customer Health Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/6fe58b23-f27b-45a2-b2bc-1aca54a3495f) in Gainsight, which provides quick snapshot into the following fields and information related to an account's Command Plan:
+
 - `Solution` (i.e. Platform, Security, Automate Software Delivery, etc.)
 - `Primary Capability` (i.e. Agile, CI, DevSecOps, etc.)
 - `Primary Value Driver` (i.e. Reduce Security & Compliance risk, Increase operational efficiencies, etc.)

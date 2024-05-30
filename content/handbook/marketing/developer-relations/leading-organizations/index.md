@@ -12,7 +12,7 @@ description: "Leading Organizations are groups and people who consistently make 
 
 ## Overview
 
-GitLab's [mission](/handbook/company/mission/#mission) is to make it so everyone can contribute. 
+GitLab's [mission](/handbook/company/mission/#mission) is to make it so everyone can contribute.
 
 The GitLab Leading Organization program supports this mission by recognizing and incentivizing organizations and individuals who are among our most active contributors. This initiative rewards and encourages co-creation. Through this program, we seek to strengthen the open source ecosystem. Leading Organizations drive their company’s innovation and employee retention through contributions while influencing GitLab’s product trajectory.
 
@@ -94,6 +94,7 @@ GitLab hosts workshops with organizations interested in increasing their contrib
 Email: [leadingorganizations AT gitlab DOT com](mailto:leadingorganizations@gitlab.com)
 
 Contribution Help:
+
 - [Developer Relations team](/handbook/marketing/developer-relations/)
 - [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 - [Core team](https://about.gitlab.com/community/core-team/)

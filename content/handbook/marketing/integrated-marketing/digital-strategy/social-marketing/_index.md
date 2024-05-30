@@ -33,6 +33,7 @@ twitter_creator: gitlab
 ### Current Major Project Links
 
 ##### Brand Campaigns
+
 [Brand Refresh](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2592){:.btn .btn-purple}
 [GitLab 15](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2591){:.btn .btn-purple}
 [Social Community Contributor](https://gitlab.com/groups/gitlab-com/marketing/-/epics/2590){:.btn .btn-purple}
@@ -115,7 +116,6 @@ The FY23 content strategy will enable our objectives of engagement and elevation
 
 ### Engagement
 
-
 Because engagement is our principal metric focus, it's important that we consider all social content for engagement opportunities. [Our reporting handbook page defines engagement and engagement rate](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/social-reporting/#social-media-metric-definitions):
 
 ℹ️ **Engagements** are the number of times that users took action on our posts during the reporting period. This includes likes, retweets, comments, saves, replies, reactions, and shares. Does not include quote retweets.
@@ -129,7 +129,6 @@ Because engagement is our principal metric focus, it's important that we conside
 To learn more about the specifics of engagement and conversations, [check out our community management handbook page](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/community-management/).
 
 ### Elevation
-
 
 Elevate our brand on social by delivering on intentional and properly planned campaigns with cross-functional support to align with overall marketing OKRs. We'll look to polish visuals, write higher quality and shorter copy, and experiment with rich content like Twitter Spaces, livestreaming video, and other formats.
 
@@ -146,7 +145,6 @@ Elevation requires siginficant campaign planning, above years' past. The social 
 [Social Quarterly Brief Form](https://forms.gle/7J7X28Pm6Ti12Ein9){:.btn .btn-purple-inv}
 
 ### Remember when considering OKRs for organic social media
-
 
 - It's about storytelling, not direct marketing
 - Because our content goes worldwide and untargeted, organic social is top-of-funnel activity driving impressions, engagements, and conversations with assistance in link clicks to move users further down the funnel for the next team to work with
@@ -216,7 +214,7 @@ We'll come across articles that are behind a pay wall from time to time, mainly 
 
 Add the paywall disclosure copy to the very end of the copy. Consider using a line break to make this sentence explict to the community.
 
-```
+```text
 This article is behind a paywall.
 ```
 
@@ -228,7 +226,7 @@ Beyond general inquries and regular social engagement with our followers, we do 
 
 Please use a derivative of this message:
 
-```
+```text
 Thanks for reaching out! In our spirit of transparency, we don't provide support here. Please add your question to the Q&A section of the GitLab forum, so that everyone can learn the answer. https://forum.gitlab.com/c/questions-and-answers/7
 ```
 
@@ -237,6 +235,7 @@ Thanks for reaching out! In our spirit of transparency, we don't provide support
 We know that less is more, usually. However GitLab is a global all remote brand. We have users in every timezone and we are often organizing events and news to coordinate in ways that include people across the globe. Because of this, our calendaring and volume must remain adaptable.
 
 Content calendars are often at "full capacity" or what we'd consider:
+
 - 1-2x on LinkedIn per day
 - 1-2x on Facebook per day
 - 2-4x on Twitter per day
@@ -461,6 +460,7 @@ The elements the social team uses for our designs are mainly GitLab-owned. Icons
 ### Social Videos
 
 Each social channel can have videos uploaded directly to them. We can use videos as we see fit, but they will need to follow the following guidelines:
+
 - 16:9 or 1:1 ratio
 - less than 2 minutes and 20 seconds required; though performance increases with shorter, snappier videos
 - min. of 720 resolution, preferably 1080 or 2k to account for high resolution screens
@@ -490,15 +490,3 @@ The above template is also located in Sprout for quick access.
 
 <!-- Social Marketing Handbook - ref https://gitlab.com/gitlab-com/marketing/issues/524 -->
 <!-- identifiers, in alphabetical order -->
-
-[blog]: /blog/
-[description-tag]: http://www.wordstream.com/meta-tags
-[facebook debugger]: https://developers.facebook.com/tools/debug/
-[first post]: /2016/07/19/markdown-kramdown-tips-and-tricks/
-[OG]: https://developers.facebook.com/docs/sharing/webmasters#markup
-[second post]: /2016/07/20/gitlab-is-open-core-github-is-closed-source/
-[twitter card validator]: https://cards-dev.twitter.com/validator
-[twitter cards]: https://dev.twitter.com/cards/overview
-[twitter-card-comp]: /images/handbook/marketing/twitter-card-complete.jpg
-[twitter-card-incomp]: /images/handbook/marketing/twitter-card-incomplete.jpg
-[www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com

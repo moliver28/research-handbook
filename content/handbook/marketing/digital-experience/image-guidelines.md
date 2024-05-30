@@ -1,17 +1,7 @@
 ---
-
 title: "Image Guidelines"
 description: "The purpose of this page is to present guidelines for image file formats."
 ---
-
-
-
-
-
-
-
-# Image Guidelines
-
 
 **Please note that deviation from these guidelines will increase production time.**
 

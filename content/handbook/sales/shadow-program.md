@@ -28,7 +28,6 @@ and how to get started shadowing or hosting.
 - Develop stronger relationships with your peers across the globe while creating and contributing to a positive sales culture at GitLab.
 - Strengthen your skills through the experience of sharing them with others. After all, the way you go about something in your territory or country may be different from the way someone in another country may go about it.
 
-
 ## Getting started
 
 **Start as soon as you begin onboarding.** Shadows can begin shadowing immediately after taking the introduction training. As a shadow, new hires benefit from a stronger understanding of the customer: hearing in real-time what they're looking for, what their pain points are, and how GitLab may be able to help. As a shadow, you'll also:
@@ -41,12 +40,12 @@ and how to get started shadowing or hosting.
 **Onboarding buddies:** A big part of an onboarding buddy’s responsibility is offering calls to shadow or connecting the new hire with peers that can offer calls to shadow.
 
 **Hosts:** A person hosting a call and inviting the new hire to it is a ‘Host’. They invite new hires to customers calls, provide them with a link to the opportunity, and may also brief or debrief with the new hires before or after the call. Hosting is a great opportunity to:
+
 - Create and contribute to a positive sales culture at GitLab
 - Expand your coaching skillset, simply by having someone shadow you live.
 - A great way to show your ready to take on more responsibility whether through a promotion of job title change
 
 **Managers:** Managers should be familiar with the program when they assign an onboarding buddy to their new hire. They can take the introduction training to learn more about it, and will receive updates throughout the program. It’s the manager’s role to ultimately ensure the new hire is getting enough calls to shadow and receiving support from their peers. A manager will also grade the new hire’s pitch at the end of the program so they can achieve certification.
-
 
 ## Shadow etiquette
 
@@ -62,7 +61,6 @@ Not every call is a hit. And you may attend calls where it goes really well or p
 
 This is your chance to sit back and put on your critical-thinking hat. As you go through the rest of your training, compare what you've learned to what you're seeing and decide what you want to improve as you prepare to take the stage yourself.
 
-
 ## Graduating from the program
 
 At some point during onboarding, new hires are invited to a weekly series with their peers where they’ll share and learn from each other, hear advice and lessons learned from tenured SAEs, and even customers. This looks different for different segments, and may run at different times depending on your start date. If this is relevant to you, you'll receive an invite from your sales enablement lead and attending will be part of your certification.
@@ -70,5 +68,3 @@ At some point during onboarding, new hires are invited to a weekly series with t
 **Certification:** The program completes with a pitch review where new hires record themselves presenting the One Platform story. This is also a key part of graduating from the overall onboarding journey and usually occurs at the end of the new hire's first 90 days. This recording is graded by a manager and a passing score must be achieved to graduate. Once shadows graduate from this program, they'll achieve the coveted Customer-Ready certification badge.
 
 View additional resources on GitLab LevelUp (coming soon) or reach out in the #customer-ready-shadow-program channel.
-
-

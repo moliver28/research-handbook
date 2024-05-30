@@ -123,7 +123,7 @@ When there is an ongoing discussion with many threads and requiring multiple ans
 
 Example analysis for the [file extensions not being allowed in usernames thread on HackerNews](https://news.ycombinator.com/item?id=28535298):
 
-```
+```text
 This bug affects the user profile page, when you call it like https://gitlab.com/dnsmichi.html it will not render the page correctly.
 The attempt to fix was to disallow reserved file type extensions, but the error message was wrong.
 ```

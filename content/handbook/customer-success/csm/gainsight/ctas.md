@@ -39,7 +39,6 @@ Once you have your Cockpit customized to your needs, you can also sort the rows 
 
 Please note that any customizations you do for a Cockpit view will be consistent between the main Cockpit and individual C360 Cockpits.
 
-
 ### Types of CTAs
 
 There are several "types" of CTAs, which will have different corresponding playbooks, so if you're looking for a particular playbook be sure to select the appropriate type. See below for each type and the corresponding [playbooks](/handbook/customer-success/playbooks/) for that type.
@@ -91,6 +90,7 @@ If the CTA you're opening does not fall into one of the playbook categories, cho
 CTA statuses are defined below.
 
 Available on All CTAs:
+
 - New - Brand new CTA, has yet to be started
 - Work in progress - CTA currently being worked on by a CSM
 - Closed Success - This CTA was completed with a positive (or intended) outcome
@@ -100,9 +100,11 @@ Available on All CTAs:
 - Closed: Lack of Engagement
 
 Available on Lifecycle CTAs only:
+
 - Closed: Not needed
 
 Available on Objective CTAs only (Success Plans):
+
 - Closed Lost: Competitive Loss - This is explicitly when a customer is exploring solutions for additional use cases and selects another net-new vendor. This situation does not include losing out to the incumbent, which speaks more to didn't see the value.
 - Closed Lost: Product Gaps - In reviewing the use case and features/capabilities, there were product gaps, or the customer believes the product does not meet their use case needs.
 - Closed Lost: Responsible Team Unengaged - Another team other than the one we are engaged with owns the capability or permission needed for adoption. We have not been successful in engaging this other team.
@@ -134,5 +136,3 @@ When a CTA is snoozed, it will not appear in the main Cockpit until the snooze e
 To request additional Snooze options, please open an issue in the [Gainsight issue tracker](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).
 
 For more information and illustrations, review [Gainsight's documentation](https://support.gainsight.com/Gainsight_NXT/04Cockpit_and_Playbooks/Cockpit_Version_-_Old/User_Guides/Using_Call_to_Action_(CTA)_and_Task_Detail_Views#How_to_Use_the_Snooze_Option).
-
-

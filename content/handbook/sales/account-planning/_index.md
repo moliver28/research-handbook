@@ -41,7 +41,6 @@ The account plan focuses on the account team's strategy to win, retain, and expa
 
 The opportunity plan (aka the [Command Plan](/handbook/sales/command-of-the-message/command-plan/)) outlines the strategy for closing business related to a single budgeted customer initiative. In contrast, the account plan is a more comprehensive, holistic, organization-wide strategy and action plan for earning the trust and respect of the customer. This is achieved by delivering value to the customer over and over again. Unlike opportunity plans, account plans span multiple customer engagements and lines of business across the account over a longer period of time and may include actions that don't directly align to revenue (e.g. customer appreciation initiatives, other).
 
-
 ## Components of an Account Plan
 
 There are a few different components that are part of an account plan.

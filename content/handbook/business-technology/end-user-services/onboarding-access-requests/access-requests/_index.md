@@ -111,7 +111,7 @@ Refer to [Okta Application Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-
 What this means is:
 
 1. A GitLab Team member gets transferred to a different role.
-1. The team member's profile in BambooHR is changed.
+1. The team member's profile in Workday is changed.
 1. This profile change automatically triggers a change in the team member's Okta profile accordingly.
 1. This, in turn, results in the team member getting assigned to new applications based on their new department and role.
 1. Simultaneously all old applications that are not relevant to their new role get revoked/unassigned.

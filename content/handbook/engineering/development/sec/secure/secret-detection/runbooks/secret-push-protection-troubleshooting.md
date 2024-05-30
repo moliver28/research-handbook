@@ -1,5 +1,5 @@
 ---
-title: "Pre-receive secret detection troubleshooting"
+title: "Secret push protection troubleshooting"
 ---
 
 ### When to use this runbook?
