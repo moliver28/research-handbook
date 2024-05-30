@@ -5,15 +5,6 @@ description: "This page shows the data structure, integrations, and other techni
 ---
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
-
-
-
-
-
-
-
-
-
 ## Gainsight overview
 
 [Gainsight](https://www.gainsight.com/) is a customer success software that our Customer Success Managers (CSMs) and Enterprise Sales team use in order to support our customers and manage their workflows. This page shows the data structure, integrations, and other technical information about how GitLab uses Gainsight. Gainsight is owned by CS Operations, and Sales Operations and Sales Systems play very active and important roles in its continual expansion and improvement.
@@ -52,7 +43,6 @@ For Sales teams, we use this escalation path:
 - [Duplicate records in `Instance Data` table](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/255)
 - [Snowflake > Gainsight connector - known data issues](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/98)
 
-
 ## Account Classification Fields (FY24)
 
 With some changes made in FY24, some fields used in Gainsight for account classification purposes have shifted. In order to align more with the Sales org, the same fields with the same naming conventions that are used in Salesforce are now being used in Gainsight.
@@ -75,7 +65,6 @@ With some changes made in FY24, some fields used in Gainsight for account classi
 | Account Demographics: Business Unit | The type of business                                                                           | ENTG, COMM                        |
 | Account Demographics: Role Type  | Which type of team will work with the account                                                     | MAJ, STR, KEY, TERR               |
 | PubSec Type                      | Determines if an account is a PubSec account and where it is located in the world (US vs non-US)  | US-PubSec, ROW-PubSec             |
-
 
 ## Gainsight User Provisioning
 
@@ -175,7 +164,6 @@ Username and password are saved in Jeff Beaumont’s 1Password account. If you n
 | SFDC User Sync         | User                  | User                  |
 
 Note: The Upsert key for contacts is their email address. This is useful when it comes to the bi-directional sync of contacts that are created in Gainsight.
-
 
 <details>
 <summary markdown='span'>Gainsight to Salesforce fields and data types</summary>
@@ -296,7 +284,6 @@ The following fields are pushed from Gainsight to their associated Salesforce fi
 | Company Person                   | Last Name                  | Contact                    | Last Name                          |
 | Company Person                   | Title                      | Contact                    | Title                              |
 
-
 </details>
 
 To see the complete list of fields and objects that are synced back from Gainsight to Salesforce, see [Using Gainsight Data in SFDC](/handbook/customer-success/product-usage-data/using-gainsight-data-in-sfdc/).
@@ -373,6 +360,7 @@ When an account record is deleted or merged in Salesforce, the matching record i
 ### Reports
 
 The following reports are located on the CS Ops dashboard in Gainsight. They are also scheduled to be emailed to the CS Ops email address every Monday morning so that a member of the team can be reminded to review them weekly.
+
 - `Accounts Flagged to Merge`: This report identifies accounts where the `Merged?` field is checked. The accounts that appear on this report need to be reviewed and merged with the correct account. This can be done in the Data Operations section in Gainsight by filtering to accounts where `Merge?` = Yes. More instructions on merging accounts in Gainsight can be found on the [Gainsight documentation website](https://support.gainsight.com/Gainsight_NXT/02Data_Management/02Managing_Data_In_Gainsight/Company_Merge).
 - `Accounts Flagged to Delete`: This report identifies accounts where the `Delete?` field is checked. These accounts need to be deleted completely from Gainsight. This can be done in the Data Operations section in Gainsight by filtering to accounts where `Delete?` = Yes. More instructions on deleting accounts in Gainsight can be found on the [Gainsight documentation website](https://support.gainsight.com/Gainsight_NXT/02Data_Management/03Gainsight_Standard_Objects/01Data_Operations#Delete_Records).
 
@@ -381,6 +369,7 @@ The following reports are located on the CS Ops dashboard in Gainsight. They are
 Some of our Gainsight users and champions have reported not being able to see new field, field values added to GS Dashboards. One known reason why that can happen is that Gainsight caches dashboards for quicker loading.  This includes both the state of the dashboard and the data in reports. When GS Admins make changes to dashboards, it is likely for users to still see the cached version of the dashboard (previous version).
 
 In order to reset the cache, GS Admins can take one of the following actions:
+
 1. Next to “Save Layout” click on the 3 dots and select “Clear State”.  This will clear the cached state and the next time a user loads the dashboard, it will be the most recent version of the dashboard.
 2. A GS admin can add and remove a filter to the dashboard.  The act of adding a filter automatically clears the state.
 
@@ -418,7 +407,6 @@ Codification standards and naming conventions are to be used to clearly articula
 | Journey Orchestrator               | Remove old/unused templates as well as outdated programs that are no longer in use and analytics will not need to be referenced in the future. Create folders for different types of programs                                                                                                                                                                                                                                     | (Onboarding Programs, Adoption Programs, Retention Programs, Growth Programs)                                                                                            |
 | Templates                          | For any templates used in Email Assist or Programs start all templates with                                                                                                                                                                                                                                                                                                                                                       | Email Assist: {Insert Template Name} or Email Program: {insert Template Name} Email # - subject Example: Email Onboarding Program: Email 1 - Intro to GitLab             |
 | Email Template Folders             | Create email template folders that indicate the purpose of the email                                                                                                                                                                                                                                                                                                                                                              | Email Assist Templates Onboarding Templates Renewal Templates                                                                                                            |
-
 
 ## Rule title labeling
 
@@ -507,8 +495,6 @@ The namespaces list used by SaaS Namespace Service Ping is driven by a clone of 
 
 **Caveat**: Redis-sourced metrics (noted in the metric dictionary as either redis or redis_hll) are not yet available at the namespace level. For the time being, SaaS Namespace Service Ping will only have Postgres-sourced metrics (as of 2021-09-08).
 
-
-
 ### Data definitions
 
 - [UUID](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html#uuid): originally intended as unique identifier
@@ -560,4 +546,3 @@ From this program name, we are ble to quickly understand that it relates to Issu
 - [Monthly](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_product_usage_wave_1_3_metrics_monthly) metrics
 - [Latest](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_product_usage_wave_1_3_metrics_latest) metrics
 - [Self-managed and SaaS](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.mart_product_usage_paid_user_metrics_monthly)
-

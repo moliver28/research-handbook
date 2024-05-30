@@ -19,6 +19,7 @@ Many sales reps find the Metrics component of the Command of the Message custome
 </figure>
 
 Below are some additional challenges your peers have shared.
+
 - Customers may be reluctant to share metric details for negotiation purposes (they don't want to admit how compelling of an ROI GitLab can provide!)
 - Sales team members struggle with finding the perfect proof point(s) to demonstrate how we've helped similar organizations (e.g. similar industry, business challenge, geography, etc.)
 - Difficulty connecting Metrics with Positive Business Outcomes (PBOs)
@@ -37,6 +38,7 @@ Keep in mind that many customers may not understand why their DevOps initiatives
 Below is just one example of how you could leverage Nico's approach to open the conversation with your customers to begin to understand the specific challenges they are experiencing.
 
 “If you’re like other organizations we speak with, below are some of the common challenges they encounter in their software development life cycle:
+
 1. There is still significant room for improvement in their DevOps processes
 1. They lack visibility across their entire Software Development Life Cycle
 1. They are unable to clearly measure and assess developer productivity
@@ -61,6 +63,7 @@ Listen to how Nico Ochoa (Strategic Account Executive, US West) explains the val
 </figure>
 
 As a follow on to the above, be sure to familiarize yourself with GitLab's [Value Stream Management (VSM)](https://about.gitlab.com/solutions/value-stream-management/) & Value Stream Analytics capabilities. Effectively articulating these capabilities plays to two of GitLab's key differentiators:
+
 1. Single Application for Entire DevOps Lifecycle, and
 1. End-to-End Insight and Visibility
 
@@ -75,6 +78,7 @@ Watch the below video and check out GitLab's [Value Stream Management](https://a
 ### Economic Metrics
 
 **Economic metrics** highlight how your solution attaches to the customer's large strategic initiatives.
+
 - Economic metrics typically align to one or more of three [customer value drivers](/handbook/sales/command-of-the-message/#customer-value-drivers)
 - To help you document your customer's ROI of adopting GitLab, use the GitLab ROI Model
     - Watch the video below
@@ -95,6 +99,7 @@ Listen to Nico Ochoa (Strategic Account Executive, US West) describe his role in
 ### Technical Metrics
 
 **Technical metrics** highlight measurable results that prove the solution's capabilities.
+
 - Review [Getting Started with Agile Metrics](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/devops-metrics/)
 - Consider reading ["Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"](https://itrevolution.com/book/accelerate/)
 
@@ -109,6 +114,7 @@ Hear what Nico says about cycle time compression, helping organizations do more 
 </figure>
 
 To better navigate Metrics conversations, listen to the 7-minute Force Management [Metrics in the Sales Conversation podcast](https://soundcloud.com/force-management-1/metrics-in-the-sales-conversation) and implement these practices:
+
 1. Recognize that your solution impacts decision-makers in different ways and their reasoning for choosing your solution over alternatives is also different
 1. Understand what each stakeholder/decision-maker cares about and help them (especially your Champions) understand how your solution impacts
     - What they care about, and
@@ -126,18 +132,21 @@ Link your **technical buyers** to the metrics and their role in driving the posi
 | **Reduce Security and Compliance Risk** | - Decrease % of critical security vulnerabilities that escaped development<br> - increase the % of code scanned<br> - improve audit pass rate<br> - Reduce time spent on audits and/or compliance adherence efforts<br> - Reduce mean time to resolve security vulnerabilities |
 
 ## Know Your Proof Points
+
 - Reference and leverage the proof points listed in the GitLab Value Framework and in slides 22 and 23 of the Customer Deck (see the [Command of the Message Core Content](https://internal.gitlab.com/handbook/sales/command-of-the-message/#resources-core-content)) (internal only)
 - Familiarize yourself with GitLab's [Proof Points](/handbook/sales/command-of-the-message/proof-points/) to the point where you can talk about various success stories in a conversational manner
 - Check out the short videos in the [Customer Success Stories playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrRRGEIdtGsiCtgLy8dJhlk) on GitLab Unfiltered (GitLab internal-only)
 - [Listen to the Maximize the Effectiveness of Proof Points](https://podcasts.apple.com/us/podcast/26-maximize-the-effectiveness-of-proof-points-w-john-kaplan/id991362894?i=1000488439478) podcast (12.5 minutes)
 
 ## Embrace the Tension
+
 - Early in the sales process, a difficult metrics conversation is a good sign that the customer wants and needs a trusted advisor (you!!) to help them with their DevOps adoption journey. Leverage relevant proof points to instill confidence that GitLab is uniquely suited to help them achieve their desired outcomes.
 - As the opportunity progresses, customers will ask for and expect discounting because that’s what they’ve been trained to do. Maintain conviction in and continue to reiterate the VALUE of the GitLab solution and the defensible differentiators that make GitLab the best choice.
 
 ## Leverage Metrics to Create Urgency
 
 By understanding your customer's desired outcomes and their strategic business initiatives, be sure you fully understand and can articulate the answer to the following questions:
+
 1. Why should the customer buy anything?
 1. Why should the customer buy now?
 1. Why should the customer buy the GitLab solution?
@@ -149,6 +158,7 @@ And once you have identified compelling answers to these questions, continue to 
 ## Assess the Health of Your Metrics
 
 Periodically, conduct a critical review of the below questions. This can be done via a self-assessment and/or with your account team, peers, mentors, or your manager. In some instances, you may even consider reviewing this with your Champion.
+
 1. Has the customer bought into the identified metrics?
 1. Are the metrics aligned with the desired business outcomes?
 1. Are your Champions leveraging the identified metrics?

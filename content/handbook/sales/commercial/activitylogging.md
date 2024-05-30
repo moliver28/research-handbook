@@ -25,6 +25,7 @@ Once the contact has been added to the opp in SFDC, it must also be added to the
 ![outreach-screenshot](/images/handbook/sales/outreach.png)
 
 FO AE’s should log calls using one of the below subject lines only;
+
 - Initial Call (ii)
 - IQM (ii)
 - Trial check in call (ii)
@@ -34,7 +35,6 @@ FO AE’s should log calls using one of the below subject lines only;
 
 The status of an activity should move from Open to Completed once said activity has been completed (for manually recorded activities).
 Activities still need to be logged after every interaction, even if the Next Steps field on the opps has been updated.
-
 
 ### Calls
 
@@ -64,10 +64,8 @@ Every pre-arranged meeting should be held via Chorus, and not Zoom.  This ensure
 - DO NOT click on Make it a Zoom Meeting
 - A video tutorial of the process is available.  To request the link, please post a message in the #self-service_public slack channel.
 
-
 Once the meeting has taken place, and a Chorus activity has been automatically logged, make sure it is related to both the Contact and the Opportunity, and is Assign to yourself.
 
 ### Cases
 
 When following up on a case, be sure to relate the relevant activity to the Case record.  You can either log an activity directly on the Case, or log an activity via Outreach on the contact, and relate it to the Case record.  
-

@@ -24,6 +24,7 @@ But before you do that, you must first make sure that the contact record is asso
 ### First, Contact Roles
 
 To add a Contact Role to an opportunity:
+
 1. Go to the Opportunity.
 1. Go to the Contact Role related list.
 1. Click 'New'.
@@ -70,12 +71,10 @@ If you want to associate emails to Opportunities or other records using the Sale
 
 1. Visit the Chrome Store to download the [Salesforce Plugin for Gmail](https://chrome.google.com/webstore/detail/salesforce-lightning-for/jjghhkepijgakdammjldcbnjehfkfmha) plug in.
 1. Click `Add to Chrome`
-2. Click `Add Extension`
-2. Go to Gmail and open the right sidebar.
-3. When you open an email that may contain email addresses from existing leads or contacts in Salesforce, all related records associated to that email (Lead, Contact, Account, Opportunity, and Cases) will appear, and you can select any or all records to related the email to.
-3. For each record you'd like to associate the email to, click on the upload icon for each record.
-4. If you wish, you can include some or all of the attachments to the record as well by clicking the checkbox next to each attachment.
+1. Click `Add Extension`
+1. Go to Gmail and open the right sidebar.
+1. When you open an email that may contain email addresses from existing leads or contacts in Salesforce, all related records associated to that email (Lead, Contact, Account, Opportunity, and Cases) will appear, and you can select any or all records to related the email to.
+1. For each record you'd like to associate the email to, click on the upload icon for each record.
+1. If you wish, you can include some or all of the attachments to the record as well by clicking the checkbox next to each attachment.
 
 If you have any issues with the setup, please contact the Director of Sales Operations via Slack, email, or SFDC Chatter.
-
-

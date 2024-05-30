@@ -12,12 +12,11 @@ title: "Targeted Sales & Customer Success Roles for Sales Quick Start (SQS)"
 
 ## Targeted Sales & Customer Success Roles for Sales Quick Start (SQS)
 
-The Sales Quick Start (SQS) Workshop is MANDATORY for all new Field Sales team members. 
+The Sales Quick Start (SQS) Workshop is MANDATORY for all new Field Sales team members.
 
-If you need to cancel for any reason, you must obtain approval from your VP. 
+If you need to cancel for any reason, you must obtain approval from your VP.
 
 Please send a copy of the written approval to the Field Onboarding Program Manager.
-
 
 - Targeted roles for the Sales Quick Start learning path include recently hired:
    - Enterprise and Public Sector Account Executives
