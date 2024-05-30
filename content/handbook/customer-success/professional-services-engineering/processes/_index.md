@@ -12,7 +12,6 @@ The professional services process and methodology fits within the [customer jour
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQNYu_4jB3j3i_fYukM3yMtcbhgbpKbivbaaiKnuih3X6pdn-oI9ic0k6TqtwP2qjqVAaC-HXIC0uD7/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1536" height="893" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
-
 <!--![''](/handbook/customer-success/professional-services-engineering/processes/customer-journey-mapped-ps-process.png)-->
 
 [Source, GitLab Team Members Only](https://docs.google.com/presentation/d/1eC_ocJkzNkH4Vw3v4Vkd3S58a0NALYxXtnb6BZ7pJdc/edit?usp=sharing)
