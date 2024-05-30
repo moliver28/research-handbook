@@ -16,6 +16,7 @@ title: "Proposed Usecase: Data Science"
 #### Common challenges
 
 Common challenges in data science are described on the [Data Science with GitLab solution page](https://about.gitlab.com/solutions/data-science/) and generally include being cross-functional, agile, and iterative while unlocking the value in an organization's data. To do this, data teams need to:
+
 - Collaborate both inside and outside their teams, and often inside and outside their organization
 - Plan and manage projects and sprints, with tools flexible enough to support scrum, kanban, and more
 - Version control everything: manage and track different versions of files, models, test cases, data sets
@@ -62,6 +63,7 @@ The message house provides a structure to describe and discuss value and differe
 [Media coverage, 20 Feb. of Gartner’s 2020 Magic Quadrant For Data Science And Machine Learning Platforms.](https://www.forbes.com/sites/janakirammsv/2020/02/20/gartners-2020-magic-quadrant-for-data-science-and-machine-learning-platforms-has-many-surprises/#4b57dd763f55)
 
 Internal to GitLab:
+
 - [EMA research on the impact of AI on DevOps in the enterprise](https://drive.google.com/file/d/1pEum6vqD85v1A77z72e5U1EqtiQagl5d/view?usp=sharing)
 - [Gartner on App Dev in the Era of AI, at App Summit](https://drive.google.com/file/d/18op1VgbtEZgyU8WLiEST-0DzZ1JY96Wm/view?usp=sharing)
 - [Gartner on Git support as a baseline requirement in Data Science and Machine Learning Platforms](https://drive.google.com/file/d/1XPzdE-pT-1ThHZmNINn-ewyULeyThTSu/view) see pages 4, 7-8
@@ -125,16 +127,21 @@ NOTE: In short, concise value/ Proofpoint format
 ## Resources
 
 ### Presentations
+
 - LINK
 
 ### Whitepapers and infographics
+
 - LINK
 
 ### Videos (including basic demo videos)
+
 - LINK
 
 ### Integrations Demo Videos
+
 - LINK
 
 ### Clickthrough & Live Demos
+
 - Link

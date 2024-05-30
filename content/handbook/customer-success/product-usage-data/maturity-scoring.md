@@ -133,7 +133,6 @@ The following primary and ancillary metrics are used to determine a customer's C
     - [Session 2](https://chorus.ai/meeting/E4F00AFC0C4A4036A7AC370653A50112?) (Internal Only)
     - [Value Statements for CI Adoption](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/#customer-adoption-and-value)
 
-
 ### Security (DevSecOps) Adoption Scoring
 
 The following metrics are used to determine a customer's Security Adoption Score:
@@ -153,11 +152,11 @@ The following metrics are used to determine a customer's Security Adoption Score
 #### CS enablement
 
 In this internal [enablement session](https://youtu.be/WrhUfVWa3BU), CS will walk you through:
+
 - New changes introduced to the scoring rubric
 - Breakdown of newly added metrics
 - Process of building customer-facing slide decks
 - Examples of scoring four different types of customer scenarios
-
 
 <!-- blank line -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WrhUfVWa3BU?si=RwOKuhj9nEz275Vi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -181,6 +180,7 @@ The following metrics are used to determine a customer's CD Adoption Score:
 #### CS enablement
 
 In this internal [enablement session](https://youtu.be/MQkIlvlsBUA), CS will walk you through:
+
 - How & Why we chose the CD Metrics
 - How thresholds are established
 - How to calculate and build a customer-ready presentation deck

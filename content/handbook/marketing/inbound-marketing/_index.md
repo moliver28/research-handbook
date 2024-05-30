@@ -14,7 +14,6 @@ twitter_creator: '@gitlab'
 
 ## Inbound Marketing Overview
 
-
 Inbound Marketing exists to build, grow, and protect the business value created at the top of GitLab's marketing funnel. Through organic engagement with our content, both on the GitLab website and through other channels, we work to establish mindshare and relationships with existing and potential GitLab customers.
 
 ## Measuring Progress
@@ -65,6 +64,7 @@ Inbound Marketing sets quarterly OKRs, and also maintains a backlog of future OK
 [Q2 FY22 Inbound Marketing OKRs](https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/318)
 
 ### Past OKRs
+
 - [Q1FY22 OKRs](https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/227)
 - [CANDIDATES Q2FY22](https://gitlab.com/groups/gitlab-com/marketing/inbound-marketing/-/epics/226)
 
@@ -172,7 +172,6 @@ Meanings and usage
     - Does not denote the timeline it will be worked on
 
 #### Projects
-
 
 #### Additional Labels
 
@@ -378,8 +377,6 @@ If you know of a brand or digital vendor, whether “an agency of one” (aka fr
     - Should issues arise, provide vendors feedback in private. Be specific on the concern, how it can be resolved, and set a date for when it will be resolved.
     - Share critical concerns or patterns of issues with your manager.
     - Immediately report urgent concerns to your manager, such as significant project delays or poor quality of work.
-
-
 
 ### Vendor invoicing, payment and reporting
 

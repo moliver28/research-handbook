@@ -100,7 +100,6 @@ markup:
       unsafe: true
   highlight:
     style: tango
-    lineNos: true
     tabWidth: 2
   tableOfContents:
     startLevel: 2

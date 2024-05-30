@@ -134,7 +134,7 @@ In those cases, the DRIs may want to engage the [Internal Communications functio
 ### Top tips and best practices
 
 1. All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.
-1. Use **asynchronous communication** when possible: merge requests (preferred) or issues. Announcements happen on the appropriate Slack channels and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk).
+1. Use **asynchronous communication** when possible: merge requests (preferred) or issues. Announcements happen on the appropriate Slack channels and people should be able to do their work without getting interrupted by chat.
 1. Discussion in issues or Merge Requests is preferred over everything else. If you need a response urgently, you can Slack someone with a link to your comment on an issue or merge request, asking them to respond there, however be aware that they still may not see it straight away. See [Slack](/handbook/communication#slack) for more.
 1. If you choose to email instead of chat it is OK to send an *internal* email that contains only a short message, similar as you would use in chat.
 1. You are not expected to be available all the time. There is no expectation to respond to messages outside of your planned working hours.

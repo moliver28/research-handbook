@@ -15,7 +15,7 @@ Finally, you’ll fix a vulnerability on a branch and introduce a new vulnerabil
 
 Please take time to understand any code that you are asked to copy and paste in any lab. Ask your instructor to explain any code that’s not clear.
 
-# Task A. Access your Lab Environment
+## Task A. Access your Lab Environment
 
 1. Navigate to [**https://gitlabdemo.com/invite**](https://gitlabdemo.com/invite) in a web browser.
 
@@ -44,7 +44,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
 
     > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
-
+    >
     > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
 
 1. From your **My Test Group** training subgroup, click the **New project** button.
@@ -66,7 +66,6 @@ Please take time to understand any code that you are asked to copy and paste in 
 1. From the **My Test Group** training subgroup, click the **New project** button.
 
 ### Task B. Create a Project
-
 
 1. Click the **Create blank project** tile.
 
@@ -136,9 +135,9 @@ Please take time to understand any code that you are asked to copy and paste in 
     ```
 
     > You can customize your SAST by adding configurations to the variables section of the `.gitlab-ci.yml` file. For example, the `SAST_EXCLUDED_PATHS` variable can exclude project paths from the SAST scan. This option can be set to prevent unnecessary scanning of files.
-
+    >
     > As an example, Python projects often contain a `venv` directory that contains packages used by the project. Since this directory does not contain our own source code, we should exclude it from the SAST scan.
-
+    >
     > A full list of SAST variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/sast/#available-cicd-variables">documentation</a>.
 
 1. Add an appropriate commit message (ex. `Add SAST template to .gitlab-ci.yml`), set the **Target Branch** to `main`, then click the **Commit changes** button.
@@ -205,7 +204,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > You may need to refresh the page to see the new security scan section.
 
-1. In this example, the security scan will show 1 new medium vulnerability. To view the details of the vulnerability report, click the **Full report** button.
+1. In this example, the security scan will show 1 new high vulnerability. To view the details of the vulnerability report, click the **View all pipeline findings** button.
 
 ## Task E. Merge Request Vulnerability Report
 
@@ -259,14 +258,14 @@ Please take time to understand any code that you are asked to copy and paste in 
 ## Task F. Enable and Configure Secret Detection
 
 > In the last section, you applied SAST to detect vulnerabilities in your source code. In addition to scanning code for vulnerabilities, GitLab can also scan your code for secrets like keys and API tokens. Adding secret detection to your code will prevent leaking sensitive data in your repositories.
-
+>
 > The Secret Detection job belongs to the **test** stage by default. Since your `.gitlab-ci.yml` already defines that stage, you don’t need to define it again.
 
 1. In the Left sidebar, navigate to **Code > Repository**.
 
 1. Click the `.gitlab-ci.yml` file. In the top right above the code, navigate to **Edit > Edit single file**.
 
-2. Enable Secret Detection by adding `template: Security/Secret-Detection.gitlab-ci.yml` at the end of the existing `include:` section in `.gitlab-ci.yml`, below the template for SAST. This indent should be at the same level as the previous template.
+1. Enable Secret Detection by adding `template: Security/Secret-Detection.gitlab-ci.yml` at the end of the existing `include:` section in `.gitlab-ci.yml`, below the template for SAST. This indent should be at the same level as the previous template.
 
     ```yml
     include:
@@ -276,7 +275,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > It is also possible to configure Secret Detection through the GitLab UI by navigating to **Secure > Security configuration** and clicking the **Configure Secret Detection** button. We will be configuring it by editing the CI file for this lab to help you learn more about how it works under the hood.
 
-3. Configure Secret Detection to ignore the test directory by pasting this job definition at the end of `.gitlab-ci.yml`. The first line should have no indent.
+1. Configure Secret Detection to ignore the test directory by pasting this job definition at the end of `.gitlab-ci.yml`. The first line should have no indent.
 
     ```yml
     secret_detection:
@@ -285,10 +284,10 @@ Please take time to understand any code that you are asked to copy and paste in 
     ```
 
     > To configure Secret Detection to use non-default behavior, you can override the **secret_detection** job definition and add variables inside it.
-
+    >
     > A full list of Secret Detection variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/secret_detection/#available-cicd-variables">documentation</a>.
 
-4. Your `.gitlab-ci.yml` file will now look like this.
+1. Your `.gitlab-ci.yml` file will now look like this.
 
     ```yml
     stages:
@@ -306,11 +305,11 @@ Please take time to understand any code that you are asked to copy and paste in 
         SECRET_DETECTION_EXCLUDED_PATHS: tests/
     ```
 
-5. You have already learned how to commit your changes to a new branch and create a merge request. Commit your changes to the `add_secret_detection` target branch. The commit message can be left at default or updated to `Add Secret Detection to .gitlab-ci.yml`. For single commit branches, the commit message is used as the merge request title.
+1. You have already learned how to commit your changes to a new branch and create a merge request. Commit your changes to the `add_secret_detection` target branch. The commit message can be left at default or updated to `Add Secret Detection to .gitlab-ci.yml`. For single commit branches, the commit message is used as the merge request title.
 
     > If you look at the security report on this merge request, you will notice that no vulnerabilities have been detected. This occurs because the secrets in `main.py` already exist in the main branch. The scan that occurs in the merge request will only show vulnerabilities that are newly introduced in the merge request. To see existing vulnerabilities, you will need to look at the project level vulnerability report covered in the next section.
 
-6. Click the `Merge` button on your merge request after the pipeline passes.
+1. Click the `Merge` button on your merge request after the pipeline passes.
 
 ## Task G. View the Project Level Vulnerability Report
 
@@ -424,7 +423,7 @@ Please take time to understand any code that you are asked to copy and paste in 
     - dast
     ```
 
-2. Enable DAST by adding `template: DAST.gitlab-ci.yml` to the end of the existing `include:` section in `.gitlab-ci.yml`. This line should have the same indentation as the other templates.
+1. Enable DAST by adding `template: DAST.gitlab-ci.yml` to the end of the existing `include:` section in `.gitlab-ci.yml`. This line should have the same indentation as the other templates.
 
     ```yml
     include:
@@ -433,7 +432,7 @@ Please take time to understand any code that you are asked to copy and paste in 
     - template: DAST.gitlab-ci.yml
     ```
 
-3. Add `DAST_WEBSITE: https://example.com` at the end of the existing global `variables:` section (not the `variables:` section inside the `secret_detection` job definition). Use the same indentation as the `SAST_EXCLUDED_PATHS` variable.
+1. Add `DAST_WEBSITE: https://example.com` at the end of the existing global `variables:` section (not the `variables:` section inside the `secret_detection` job definition). Use the same indentation as the `SAST_EXCLUDED_PATHS` variable.
 
     ```yml
     variables:
@@ -442,10 +441,10 @@ Please take time to understand any code that you are asked to copy and paste in 
     ```
 
     > Normally you would run DAST against your project's code running in either a review environment or a production environment. Since the code in this project is just a single Python file instead of a deployable web app, you’ll configure DAST to scan an outside web app *that has nothing to do with the code in this project.*
-
+    >
     > A full list of DAST variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dast/browser_based.html#available-cicd-variables">documentation</a>.
 
-4. After these changes, your `.gitlab-ci.yml` file should look like this.
+1. After these changes, your `.gitlab-ci.yml` file should look like this.
 
     ```yml
     stages:
@@ -466,15 +465,15 @@ Please take time to understand any code that you are asked to copy and paste in 
         SECRET_DETECTION_EXCLUDED_PATHS: tests/
     ```
 
-5. Click the **Commit changes** button.
+1. Click the **Commit changes** button.
 
-6. To view the progress of the DAST scan, navigate to **Build > Pipelines**. Click on the `Status` of the job to see each individual job in the pipeline. Click `dast` to see the CI output of the job.
+1. To view the progress of the DAST scan, navigate to **Build > Pipelines**. Click on the `Status` of the job to see each individual job in the pipeline. Click `dast` to see the CI output of the job.
 
     > The DAST scan will take approximately 90 seconds to complete.
 
-7. Once the scan completes, navigate to **Secure > Vulnerability Report**.
+1. Once the scan completes, navigate to **Secure > Vulnerability Report**.
 
-8. In the vulnerability report, note the new vulnerabilities discovered by DAST. Click on each vulnerability to learn more.
+1. In the vulnerability report, note the new vulnerabilities discovered by DAST. Click on each vulnerability to learn more.
 
 ## Lab Guide Complete
 

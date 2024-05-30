@@ -49,6 +49,12 @@ It is pre-configured and the [repository](https://gitlab.com/gitlab-org/analytic
 
 Follow the [GDK documentation](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/product_analytics.md) on how to set up your GDK for product analytics.
 
+### Set up your own cluster for use in production
+
+To improve results and customer empathy, in Q2FY25 [all engineers were expected](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/7137) to stand up their own cluster to use in production and we require all future engineers to do the same and note any issues faced.
+
+Instructions to do so are in the public [helm-charts](https://gitlab.com/gitlab-org/analytics-section/product-analytics/helm-charts).
+
 ## Communication
 
 ### Slack
@@ -69,6 +75,29 @@ We have dedicated Slack channels for the Product Analytics group:
 
 We base our workflow on the company's [Product Development Flow](/handbook/product-development-flow/). Any modifications or clarifications on how we apply the workflow are detailed below.
 
+### Milestone goals
+
+During milestone planning it is the responsibility of the issue scheduler to add one of the five scoped goal labels to set clear expectations for a given milestone:
+
+| Goal label          | Expectation                                                        |
+|---------------------|--------------------------------------------------------------------|
+| `goal::design`      | Design work completed.                                             |
+| `goal::planning`    | Implementation plan created and if needed reviewed and approved.   |
+| `goal::development` | Development has begun and either has in dev or in review workflow. |
+| `goal::complete`    | Development complete and issue verified.                           |
+| `goal::stretch`     | Added as a stretch goal, no expectation to start.                  |
+
+### Issue prioritization
+
+Our priorities should follow [overall guidance for Product](/handbook/product/product-processes/#how-we-prioritize-work). This should be reflected in the priority label for scheduled issues:
+
+| Priority | Description | Probability of shipping in milestone |
+| ------ | ------ | ------ |
+| priority::1 | **Urgent**: top priority for achieving in the given milestone. These issues are the most important goals for a release and should be worked on first; some may be time-critical or unblock dependencies. | ~100% |
+| priority::2 | **High**: important issues that have significant positive impact to the business or technical debt. Important, but not time-critical or blocking others.  | ~75% |
+| priority::3 | **Normal**: incremental improvements to existing features. These are important iterations, but deemed non-critical. | ~50% |
+| priority::4 | **Low**: stretch issues that are acceptable to postpone into a future release. | ~25% |
+
 ### Estimation
 
 We estimate issues async and aim to provide an initial estimate (weight) for all issues scheduled for an upcoming milestone. Engineering are responsible for estimating issues at the `~workflow::solution validation` stage and issues require a weight and milestone before proceeding to `~workflow::scheduling`. They are used by engineering and product management to most effectively decide which issues are picked for a particular milestone.
@@ -85,3 +114,7 @@ Weight estimates are just that: estimates. They _do not equate_ to time spent, b
 | 5 | A more complex change that will impact multiple areas of the codebase, there may also be some refactoring involved. Requirements are understood but you feel there are likely to be some gaps along the way. |
 | 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. |
 | 13| A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
+
+### Feature flags
+
+Engineering are responsible for maintaining an up to date [list of active feature flags](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/product_analytics.md#feature-flags) and their statuses.

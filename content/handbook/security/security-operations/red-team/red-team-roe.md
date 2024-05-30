@@ -14,9 +14,9 @@ Please refer to [our general handbook page]({{< ref "_index.md" >}}) to learn mo
 
 Some systems require special approval from GitLab legal before accessing during any type of Red Team operation. GitLab team members can view that list [here](https://internal.gitlab.com/handbook/security/security_operations/red_team/private_roe/).
 
-All other systems managed by GitLab are in scope for all types of Red Team operations. No prior approval is required to conduct any activity that meets the rules documented on this page.
-
 Third-party systems that are used by GitLab for official business purposes are also considered in scope, but these often require permission from the system owners. This permission will be obtained when necessary.
+
+All other systems managed by GitLab are in scope for all types of Red Team operations.
 
 Team members can request that a system be excluded from our scope by [opening an issue here](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-internal/red-team-operations/-/issues/new).
 
@@ -40,15 +40,21 @@ Please check with your manager to ensure they have no concerns with your partici
 
 ## Stealth Operations
 
-[Stealth Operations]({{< ref "_index.md#stealth-operations" >}}) are conducted without being widely announced. These operations require careful planning. We will use the same [logistics issue template](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/02-logistics.md) used for Purple Team operations, but it will only be visible to trusted participants until the operation is disclosed.
+[Stealth Operations]({{< ref "_index.md#stealth-operations" >}}) require careful planning. During the logistics phase, we propose objectives and outline the threats we'll emulate, seeking approvals.
 
-The logistics phase will define detailed rules for each specific operation. The sections below contain general rules that apply to all stealth operations.
+Stealth operations fall into two categories, which use the following planning templates:
+
+- [Campaign-based operations](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/red-team-issue-templates/-/blob/main/.gitlab/issue_templates/02-logistics.md)
+- Continuous operations (link coming soon)
+
+The sections below contain general rules that apply to all stealth operations.
 
 ### Prior Approval
 
 - Approval is required from at least one layer of SIRT leadership. This starts at the SIRT managers and goes up to the CISO.
-- Approval is required from the Senior Manager of Threat Management.
+- Approval is required from the Senior Manager responsible for the Red Team.
 - Approval is required from everyone defined as a "trusted participant" in the logistics phase.
+- Approval is provided as part of the logistics phase of every stealth operation. The scope of the approval is included as part of the logistics issue where approval is recorded.
 
 ### Requests for Disclosure
 
@@ -165,6 +171,6 @@ At this time, the Red Team **will not**:
 
 The Red Team maintains operator logs which include specific details on attack techniques we've conducted, timestamps, source IP addresses, etc. These are included in an operation's final report, but will be redacted to not show specific names of accounts and laptops that may have been compromised.
 
-If a team member's account or laptop is compromised during an operation, the Red Team will share specific details of all related activity with that team member. This will include the operator logs. Red Team will offer to meet with them synchronously to explain these logs, if the team member would like that.
+If a team member's account or laptop is compromised during an operation, the Red Team will share specific details of all related activity with that team member. This will include the operator logs. The Red Team will offer to meet with them synchronously to explain these logs, if the team member would like that.
 
 Besides these manual logs, our activities can be audited using the same capabilities GitLab has to investigate actual malicious activity. For example, any commands we may execute on a "compromised" laptop should be captured and archived by our endpoint detection and response (EDR) software.

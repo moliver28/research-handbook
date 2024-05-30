@@ -16,6 +16,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 ## What is Service Ping
 
 Service Ping generates customer analytics on self-managed instances that enable GitLab to collaborate with our customers to accelerate value attribution, achieve return-on-investment (ROI) goals, and accomplish business outcomes with the GitLab solution. Specifically, it helps GitLab understand product adoption to:
+
 1. Ensure adoption is aligned to business outcomes (i.e., goals, timelines, etc).
 1. Understand usage for industry and best practice recommendations
 1. Recommend features or capabilities that maximize solution value based on:
@@ -27,7 +28,6 @@ Service Ping generates customer analytics on self-managed instances that enable 
 For the definition of each metric, please see our [Service Ping Metrics Dictionary](https://metrics.gitlab.com).
 
 [Links to other ways Service Ping is used by Customer Success](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/)
-
 
 ## How Does Service Ping Help Me?
 
@@ -52,6 +52,7 @@ GitLab can collaborate with you to understand your security controls and regulat
 ### 3. Is there a way we can share this data manually so that we can review it before it goes out?
 
 Yes, you are able to extract this information manually and review prior to sending to GitLab. Here are the steps:
+
 1. Login to your gitlab instance as administrator
 1. Navigate to the admin section of the Interface by clicking the "wrench" at the top navigation ribbon of the homepage
 1. At the left navigation panel, hover over the "Settings" –> and click on "Metrics and Profiling"
@@ -88,6 +89,7 @@ You can view the payload at "/admin/application_settings/metrics_and_profiling" 
 Product Documentation: Deactivate the Service Ping
 
 **Important Documentation links**
+
 1. [Admin Settings for Service Ping](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#service-ping)
 1. [Usage Statistics Collected](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#usage-statistics-collected)
 1. [Network Configuration](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html#network-configuration)

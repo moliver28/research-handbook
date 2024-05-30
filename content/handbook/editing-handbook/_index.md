@@ -290,7 +290,7 @@ is "broken" and pipelines are failing for everyone, the root issue is most likel
 1. There are two ways to fix. Either:
    1. Make the code itself more robust to deal with the types of values it may encounter.
       However, not everyone knows Go and Hugo well enough to do that quickly.
-      If needed, create a "handbook::bug" issue in the handbook repository to document the problem
+      If needed, create a "Handbook::Operations" "type::bug" issue in the handbook repository to document the problem
       after fixing the pipeline issue.
    1. Edit the data file to have values the build won't fail on.
 

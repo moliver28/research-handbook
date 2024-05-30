@@ -1,6 +1,6 @@
 ---
 title: "DevSecOps with GitLab Duo - Hands-On Lab: Working with Issues and Merge Requests"
-description: "This Hands-On Guide walks you through using GitLab Duo to create Issues and merge requests"
+description: "This Hands-On Guide walks you through using GitLab Duo to create Issues and merge requests."
 ---
 
 > Estimated time to complete: 30 minutes
@@ -21,25 +21,25 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. If your editor is in **rich text editing** mode, Select `Switch to plain text editing` at the bottom of the issue description.
 
-    > The AI generation feature for issue descriptions will only display in plain text editing mode. If you do not see the Tanuki button, you are likely in rich text editing mode.
+   > The AI generation feature for issue descriptions will only display in plain text editing mode. If you do not see the Tanuki button, you are likely in rich text editing mode.
 
 1. In the Description box, select the Tanuki button, then select **Generate issue description**.
 
 1. In the issue description generation box, type the prompt: `We want to make our "hello world" application more visually appealing for the end user. We want to incorporate the Go Figure module into our application to print out more exciting text.`
 
-    The response will look similar to the following:
+   The response will look similar to the following:
 
-    ```
-    Issue: The "hello world" application lacks visual appeal
+   ```text
+   Issue: The "hello world" application lacks visual appeal
 
-    The current "hello world" application prints basic text without any formatting or visual elements. We want to enhance the user experience and make the application output more interesting to look at. 
+   The current "hello world" application prints basic text without any formatting or visual elements. We want to enhance the user experience and make the application output more interesting to look at.
 
-    The Go Figure module allows printing text in different styles and formats. Integrating this module into our "hello world" code will let us customize how the message is displayed, such as changing fonts, colors, effects and more. This will make our application stand out more and be more enjoyable for end users to interact with.
+   The Go Figure module allows printing text in different styles and formats. Integrating this module into our "hello world" code will let us customize how the message is displayed, such as changing fonts, colors, effects and more. This will make our application stand out more and be more enjoyable for end users to interact with.
 
-    ***
-    _Description was generated using AI_
+   ***
+   _Description was generated using AI_
 
-    ```
+   ```
 
 1. Assign the issue to yourself and select **Create issue**.
 
@@ -51,7 +51,7 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. Select **Apply AI-generated description**.
 
-    > GitLab Duo can also provide a summary of code changes in an MR. We will return to this feature later in the course.
+   > GitLab Duo can also provide a summary of code changes in an MR. We will return to this feature later in the course.
 
 1. Leave all other options as default and select **Create merge request**.
 
@@ -63,20 +63,20 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. In the chat, write the prompt: `How could I use the go-figure module of go-to print hello world in a different font?`
 
-    You will get a response similar to this:
+   You will get a response similar to this:
 
-    ```go
-    package main
+   ```go
+   package main
 
-    import (
-        "github.com/common-nighthawk/go-figure"
-    )
+   import (
+       "github.com/common-nighthawk/go-figure"
+   )
 
-    func main() {
-        myFigure := figure.NewFigure("hello world", "", true)
-        myFigure.Print()
-    }
-    ```
+   func main() {
+       myFigure := figure.NewFigure("hello world", "", true)
+       myFigure.Print()
+   }
+   ```
 
 1. Select the repository icon from the left sidebar.
 
@@ -122,23 +122,23 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
 
 1. In the `script` section of your `build app` job, add the script to pull the `go-figure` dependency.
 
-    Your configuration file should look like the file below:
+   Your configuration file should look like the file below:
 
-    ```yml
-    stages:
-      - build
+   ```yml
+   stages:
+     - build
 
-    default:
-      image: golang:latest
+   default:
+     image: golang:latest
 
-    build app:
-      stage: build
-      script: 
-        - go get github.com/common-nighthawk/go-figure
-        - go run main.go
-    ```
+   build app:
+     stage: build
+     script:
+       - go get github.com/common-nighthawk/go-figure
+       - go run main.go
+   ```
 
-    This will fix the pipeline and in the output you should see a fun version of hello world printed in the job log!
+   This will fix the pipeline and in the output you should see a fun version of hello world printed in the job log!
 
 1. Select Source Control from the left sidebar.
 

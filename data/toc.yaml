@@ -68,8 +68,6 @@
   links:
   - name: About the Handbook
     url: about
-  - name: Handbook Preferences
-    url: preferences
   - name: Handbook Changelog
     url: changelog
   - name: Handbook Roadmap
@@ -79,15 +77,13 @@
   - name: Handbook Usage
     url: handbook-usage
   - name: Contribution Guide
-    url: docs
-  - name: Practical Handbook Edits
-    url: /handbook/editing-handbook/practical-handbook-edits
-  - name: Edit This Website Locally
-    url: /docs/development
+    url: /docs/development/
+  - name: Editing the handbook
+    url: /handbook/editing-handbook/
   - name: Handbook Style Guide
-    url: /handbook/about/style-guide
-  - name: Content Websites
-    url: content-websites
+    url: /handbook/about/style-guide/
+  - name: Handbook maintenance
+    url: /handbook/about/maintenance/
 - name: People Group
   icon: fa-solid fa-people-group
   url: /handbook/people-group/

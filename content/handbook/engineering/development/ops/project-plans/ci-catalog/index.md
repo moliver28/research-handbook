@@ -12,14 +12,15 @@ The following page may contain information related to upcoming products, feature
 
 #### Goals
 
-- [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509) (In Review)
-- [Spike for Cells 1.0 support for CI Catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/456843)
+- [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509) (Complete)
+- [Spike for Cells 1.0 support for CI Catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/456843) (In Progress)
+  - From recent [conversation](https://gitlab.com/gitlab-org/gitlab/-/issues/442195#note_1917201790), determining if CI Catalog support can be deferred to Cells 1.5 at the moment.
 - Post-GA follow-ups/technical debt
-  - [Exclude pre-release from catalog, latest tag, and shorthand fetching](https://gitlab.com/gitlab-org/gitlab/-/issues/460873)
-  - [Add sorting option for prerelease for semver concern](https://gitlab.com/gitlab-org/gitlab/-/issues/441266)
-  - [Remove ignore rule on inputs and path for catalog_resource_components](https://gitlab.com/gitlab-org/gitlab/-/issues/455431)
-  - GA follow-ups from "Create CI component usage record when component is included in pipeline" - [1](https://gitlab.com/gitlab-org/gitlab/-/issues/460776) and [2](https://gitlab.com/gitlab-org/gitlab/-/issues/460490)
-- Tableau component usage visualization work - [1](https://gitlab.com/gitlab-org/gitlab/-/issues/452545) and [2](https://gitlab.com/gitlab-org/gitlab/-/issues/454912)
+  - [Exclude pre-release from catalog, latest tag, and shorthand fetching](https://gitlab.com/gitlab-org/gitlab/-/issues/460873) (In-Review)
+  - [Add sorting option for prerelease for semver concern](https://gitlab.com/gitlab-org/gitlab/-/issues/441266) (In Progress)
+  - [Remove ignore rule on inputs and path for catalog_resource_components](https://gitlab.com/gitlab-org/gitlab/-/issues/455431) (In-Review)
+  - GA follow-ups from "Create CI component usage record when component is included in pipeline" - [1](https://gitlab.com/gitlab-org/gitlab/-/issues/460776) (In-Review) and [2](https://gitlab.com/gitlab-org/gitlab/-/issues/460490) (In-Review)
+- Tableau component usage visualization work - [1](https://gitlab.com/gitlab-org/gitlab/-/issues/452545) (In Progress) and [2](https://gitlab.com/gitlab-org/gitlab/-/issues/454912) (In Progress)
 
 ### Milestone 17.2 (June 15, 2024 - July 12, 2024)
 
@@ -46,6 +47,24 @@ The following page may contain information related to upcoming products, feature
 <details markdown="1">
 
 <summary markdown="span">Past Milestones</summary>
+
+### April to May (Milestone 17.0)
+
+All deliverables for CI Catalog GA are now complete.
+
+- Finish remaining Go-To GA efforts
+  - [Remove beta label for CI/CD Catalog](https://gitlab.com/gitlab-org/gitlab/-/issues/454306) (Complete)
+  - [Remove beta label for catalog resource toggle](https://gitlab.com/gitlab-org/gitlab/-/issues/460260) (Complete)
+  - [Release Process Refinements](https://gitlab.com/groups/gitlab-org/-/epics/12338) for GA
+    - `release-cli` pre-GA [tasks](https://gitlab.com/gitlab-org/gitlab/-/issues/442066) (Complete)
+  - [Details page](https://gitlab.com/groups/gitlab-org/-/epics/12336) for GA
+    - [Relative URL breaks CI/CD component catalog project reference](https://gitlab.com/gitlab-org/gitlab/-/issues/450914) (Complete)
+    - [Fix images not rendering on ReadMe tab](https://gitlab.com/gitlab-org/gitlab/-/issues/455516) (Complete)
+- Finishing remaining initial loading badges work
+  - [Set verification_level on publish and fix enum mismatch](https://gitlab.com/gitlab-org/gitlab/-/issues/455530) (Complete)
+  - [Allow service object to create `VerifiedNamespace` record](https://gitlab.com/gitlab-org/gitlab/-/issues/451507) (Complete)
+  - [Create API to support future requests for badge additions](https://gitlab.com/gitlab-org/gitlab/-/issues/451509)
+  - NOTE: Initial badge load has been initiated via [request](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17746)
 
 ### March to April (Milestone 16.11)
 

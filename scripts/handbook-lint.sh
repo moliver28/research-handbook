@@ -229,5 +229,4 @@ if [[ $ERROR_FOUND == "true" ]]; then
   exit 1
 else
     printf "%b" "\n${green}Success!${normal} - No issues found with CODEOWNERS or Controlled Documents\n"
-    rm handbook-codequality.json
 fi

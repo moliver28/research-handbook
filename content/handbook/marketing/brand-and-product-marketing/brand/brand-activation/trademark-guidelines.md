@@ -1,17 +1,6 @@
 ---
-
 title: "Trademark Guidelines"
 ---
-
-
-
-
-
-
-
-# Trademark Guidelines
-
-
 
 *Date of last revision: 2023/04/27*
 

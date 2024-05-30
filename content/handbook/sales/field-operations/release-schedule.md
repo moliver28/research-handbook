@@ -24,19 +24,21 @@ The updates included in this process are *strictly* system/process/policy-based.
 
 1. Field Ops updates are released on a two-week cycle, with updates launching every other week on Mondays.
 1. Update is shared in the [#field-fyi announcement channel](/handbook/sales/sales-google-groups/field-fyi-channel/) using a set format that summarizes the changes and links to an epic for full details:
->    - Sales Ops is releasing ## system and process-related improvements today. Please see a summary of the changes and impacted teams below and see the [DATE Sales Ops Release eipc] for full details. Reach out in #sales-support with any questions.
->    - **Change 1: [TITLE] (LINK TO EPIC)**
+>
+> - Sales Ops is releasing ## system and process-related improvements today. Please see a summary of the changes and impacted teams below and see the [DATE Sales Ops Release eipc] for full details. Reach out in #sales-support with any questions.
+> - **Change 1: [TITLE] (LINK TO EPIC)**
 >       - **Who:** (Which teams are impacted?)
 >       - **Why:** (Why are we making this change? WIIFM?)
 >       - **Action:** (What is the ask/next step that we're asking the audience to take?)
->    - **Change 2: [TITLE] (LINK TO EIPC)**
+> - **Change 2: [TITLE] (LINK TO EIPC)**
 >       - **Who:** (Which teams are impacted?)
 >       - **Why:** (Why are we making this change? WIIFM?)
 >       - **Action:** (What is the ask/next step that we're asking the audience to take?)
->    - See the [Field Ops Changelog] for past changes.
-3. Update is included in next-available [WW Field Org Call](/handbook/sales/sales-meetings/#ww-field-org-call). (Sync or async depending on announcement scope)
-4. Summary epics are aggregated in next-available [Field Flash](/handbook/sales/field-communications/field-flash-newsletter/), "Did You Know?" section.
-5. Changes are documented in the [Field Ops Changelog](/handbook/sales/field-operations/changelog/)
+> - See the [Field Ops Changelog] for past changes.
+>
+1. Update is included in next-available [WW Field Org Call](/handbook/sales/sales-meetings/#ww-field-org-call). (Sync or async depending on announcement scope)
+1. Summary epics are aggregated in next-available [Field Flash](/handbook/sales/field-communications/field-flash-newsletter/), "Did You Know?" section.
+1. Changes are documented in the [Field Ops Changelog](/handbook/sales/field-operations/changelog/)
 
 ### Process
 
@@ -48,4 +50,3 @@ The updates included in this process are *strictly* system/process/policy-based.
 1. Leaders of Sales Ops, Channel Ops, CS Ops and Deal Desk ensure all information contributed by their teams is complete and changes have been added to the changelog. Leaders determine appropriate spokesperson for the release.
 1. Field Communications creates #field-fyi draft based on epic content in a coordinating Field Announcement Request issue.
 1. Designated Field Ops spokesperson sends the #field-fyi announcement out on Monday morning.
-

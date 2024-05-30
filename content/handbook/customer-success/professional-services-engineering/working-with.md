@@ -72,7 +72,6 @@ As there may be many projects and proposals in flight at any time, there are a f
 - Please, check with the PS Operations Team by tagging the group `@ps-scheduling` for the latest lead time details in the [professional services slack channel](#slack) if you need a more accurate estimate.  
 - The PS Operations team does review projects that are SFDC Stage 5.  As we strive to start the projects within days of the SFDC Stage of closed/won.
 
-
 #### Custom services SOW creation and approval
 
 When scoping custom SOWs, the Professional Services Engagement Manager partners with the SA/CSM/SAE to create a custom engagement that will help meet the customer's needs, and push the SOW through the appropriate approval process. All Custom SOW's will require approval from PS Leadership.
@@ -103,7 +102,6 @@ The labels are (from left to right):
 - `proposal::SOW_WIP`: The Engagement Manager is drafting the SOW and preparing a [Cost Estimate](/handbook/customer-success/vision/#professional-services-standard-cost) using the [SOW Cost Estimate Calculator](https://docs.google.com/spreadsheets/d/16KFNRFe4E_oaqU7_ZGivoO7eU3-65dkMgVvK5Jvb7ZQ/edit#gid=158441360) for margin calculation purposes
 - `proposal::Ready For Approval`: The Engagement Manager has prepared the required SOW, and triggered the approval requests. Approvals are now required prior to releasing the SOW.
 - `proposal::Approved`: The SOW is now approved, and ready for execution. The SAE/AE should gain a Legal stamp via a Legal Case in SFDC before releasing the SOW for signature.
-
 
 ### Scheduling Professional Services
 

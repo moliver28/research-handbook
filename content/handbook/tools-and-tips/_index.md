@@ -876,7 +876,7 @@ If you are employed by our German entity GitLab GmbH, you will need to include s
 
 <img src="https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png" alt="GitLab Logo" width="98" height="37">
 
-<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen und Craig Adam Mestel</span>
+<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen</span>
 
 #### Add company details to certain company communications if employed by our German entity
 
@@ -896,7 +896,7 @@ If you are sending such a communication, externally, please look at the setting 
 
 If you are employed by our German entity you may have been asked during onboarding to set up your signature wherever it's required to be used and to include these company details, and if you have not been, please do so now, adding these details to the end of your signature:
 
-<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen und Craig Adam Mestel</span>
+<span style="font-family: serif;font-size: small;display: block;">GitLab GmbH  | Sitz: München  | Registergericht: Amtsgericht München, HRB 237630  | Geschäftsführer: James John Gladen</span>
 
 #### Filters
 

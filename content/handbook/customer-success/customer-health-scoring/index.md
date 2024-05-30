@@ -18,7 +18,6 @@ description: "Customer Account Scoring overview and methodology framework to imp
 
 The Customer Health Score assists GitLab Account Teams in understanding the customer’s relative health of GitLab adoption and engagement through their lifecycle journeys. This assists expansion and retention efforts through understanding the customer's product adoption, risks, and engagement with GitLab.
 
-
 ## Direction
 
 As initially laid out in the Account Health Scoring [epic](https://gitlab.com/groups/gitlab-com/sales-team/field-operations/-/epics/25), the intent of Health Scoring is to enable the teams to better understand customer adoption of GitLab.
@@ -29,12 +28,9 @@ As initially laid out in the Account Health Scoring [epic](https://gitlab.com/gr
 - Customer health scoring framework has been backtested and validated as effective and beneficial
 - Customer Health is used by CSMs, Sales, Product, and the broader org for assessing a customer’s level of adoption of GitLab the product and their engagement with GitLab the company as a company-level reporting metric
 
-
 <br>
 ![Early Warning Segmentation Framework](https://lucid.app/publicSegments/view/1d7cb4c0-392c-41d8-afeb-569fa48440dd/image.png)
 <br>
-
-
 
 ## Scoring methodologies
 
@@ -71,10 +67,8 @@ Looking through just one lens provides a limited view. In a happier example, a c
 - **Voice of the customer** (VoC): Support + Surveys: 5%
 - **Engagement**: Customer Engagement + Executive Sponsorship + Events + Certifications: 10%
 
-
 ![Customer Health Vision](https://lucid.app/publicSegments/view/cccc6a4b-adad-4fcf-aba6-ddc53310111d/image.png)
 <br><br>
-
 
 ## Customer health categories and risks
 
@@ -117,6 +111,7 @@ The items below serve as *guidelines* for the CSM to assess and record customer 
 Understanding how Gainsight calculates a measure score to be Red, Yellow, or Green:
 
 Gainsight scoring framework:
+
 - Green: 75-100 points
 - Yellow: 50-74 points
 - Red: 0-49 points
@@ -256,15 +251,13 @@ Some metrics are more leading or lagging indicators. While we will lean toward a
 
 The following graph (Early Warning Segmentation Framework) is used to provide a framework for which strategy to use and which resources to leverage. Customers are grouped by their Account Health and growth potential. Renewal Operations Analysts will support the Field in triaging accounts to identify where to spend their time.
 
-
-# Methodology
+## Methodology
 
 ## Health scoring
 
 ### Starting point
 
 The first approach was a calculation of multiple metrics to create a “black box” approach. This was neither helpful to the end user (CSMs, SAs, sales reps), it was not easy to understand the calculation, the Gainsight logic was inadequate, and was not action-oriented to know *which* aspects of the use case were great and which needed improvement.
-
 
 ## PROVE Components
 
@@ -285,7 +278,6 @@ The first approach was a calculation of multiple metrics to create a “black bo
 | **Engagement** | Events                     | Is the customer attending GitLab events?                     | Event attendance indicates customer engagement, dialogues with team members, and face-to-face interactions | TBD                                                          | All              | Not started  |
 | **Engagement** | Certifications             | Are users within the account taking certifications? Are they maintaining their certifications? | Obtaining GitLab certifications is a positive for us and the customer; it also indicates their involvement in GitLab, knowledge of using GitLab, and provides an inference as an internal champion | TBC                                                          | All              | Not started  |
 
-
 ## Predictive Analytics
 
 Predictive Analytics is not a silver bullet. It will not cure all that ails you. Instead, this methodology is probabilistic and incorporates health measures to correlate the typical journey of “healthy” customers (expand and renew) with “unhealthy” customers (downgrade and churn). For example, a healthy sales pipeline has few pushes (moving the close date) and progressively moves through stages (not stale). Conversely, an opportunity with multiple pushes and stuck in stages for long periods of time is an indicator of risk.
@@ -293,7 +285,7 @@ Predictive Analytics is not a silver bullet. It will not cure all that ails you.
 | Prediction Type | Model Name | Status | Description |
 | :--: | :--: | :--: | :--: |
 | Expansion | [Propensity To Expand (PTE)](https://internal.gitlab.com/handbook/sales/propensity_models/) | Active | Predicts whether an account is likely to expand (increase ARR) |
-| Churn and Contraction | [Propensity To Churn or Contract (PTC)](https://internal.gitlab.com/handbook/sales/propensity_models/) | Active | Predicts whether an account is likely to churn or contract (decrease ARR) |  
+| Churn and Contraction | [Propensity To Churn or Contract (PTC)](https://internal.gitlab.com/handbook/sales/propensity_models/) | Active | Predicts whether an account is likely to churn or contract (decrease ARR) |
 
 ### Appetite and ability to expand (Seats, uptier)
 
@@ -356,7 +348,6 @@ Indicators from Seat Reduction or Downtier above plus:
 - Stages not progressing
 - Pushes
 - Lack of Oppty customer activity
-
 
 ## References
 

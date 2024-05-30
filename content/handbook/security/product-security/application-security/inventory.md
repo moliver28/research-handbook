@@ -10,7 +10,7 @@ Keeping track of all these moving parts can not rely only upon our current under
 Automation is a key aspect of our work, and GitLab is no exception.
 
 The AppSec Inventory is a private GitLab project to identify and track all projects, components, and dependencies important to us.
-xtThe project is available at [https://gitlab.com/gitlab-com/gl-security/product-security/inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
+The project is available at [https://gitlab.com/gitlab-com/gl-security/product-security/inventory](https://gitlab.com/gitlab-com/gl-security/product-security/inventory)
 to GitLab team members. The Inventory is built using this [CLI tool](https://gitlab.com/gitlab-com/gl-security/product-security/gib/).
 
 Not all projects are important, and we certainly don't want to monitor projects that are POCs, demos, or tests.

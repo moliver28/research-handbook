@@ -79,7 +79,7 @@ To use GitLab CI/CD, you start with a .gitlab-ci.yml file at the root of your pr
         - echo "For example run a test suite"
     ```
 
-3. Leave the default values for the **Commit message** and **Target Branch** fields, and click the **Commit changes** button.
+1. Leave the default values for the **Commit message** and **Target Branch** fields, and click the **Commit changes** button.
 
 ## Task B. Inspect the CI/CD pipeline
 

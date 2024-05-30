@@ -3,17 +3,11 @@ aliases: /handbook/engineering/okrs
 title: Engineering OKRs
 ---
 
-
-
-
-
-
-
 Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/). Engineering has some small deviations from (and extensions to) this process.
 
 ## Historical OKRs
 
-All of our past OKRs are available to the public [HERE](https://drive.google.com/drive/folders/1DjmchDg__B9uaQShOFDDSA9AA5HNb28c?usp=sharing).
+All of our [past OKRs are available internally](https://drive.google.com/drive/search?q=previous%20OKRs).
 
 ## Active OKRs FY24-Q2
 

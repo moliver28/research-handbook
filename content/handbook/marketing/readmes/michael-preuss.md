@@ -11,6 +11,7 @@ description: "Learn more about working with Michael Preuss"
 
 
 ## About Me
+
 Hi 👋 my name is Michael Preuss. My last name is pronounced like Rolls Royce ... Royce ... Proyce ... Preuss. I know, it's German 🤷‍♂️ I'm the [Director of Digital Experience](/job-families/marketing/digital-experience/#director-of-digital-experience) at GitLab.
 
 - [Digital Experience Handbook Page](/handbook/marketing/digital-experience/)
@@ -19,6 +20,7 @@ Hi 👋 my name is Michael Preuss. My last name is pronounced like Rolls Royce .
 - [LinkedIn](https://www.linkedin.com/in/michaelapreuss/)
 
 ### Headlines
+
 1. 🤙 I'm born and raised on the West Coast.
 1. 🇨🇦 I live in North Vancouver, BC.
 1. 🔮 A psychic predicted I'd work in digital.
@@ -36,6 +38,7 @@ Hi 👋 my name is Michael Preuss. My last name is pronounced like Rolls Royce .
 1. 🏃🏼‍♂️ I've started running. It's not fun.
 
 ### 10 Books On My Bookshelf
+
 1. [Thinking Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
 2. [Tribal Leadership](https://www.triballeadership.net/)
 3. [Predictably Irrational](https://en.wikipedia.org/wiki/Predictably_Irrational)
@@ -48,6 +51,7 @@ Hi 👋 my name is Michael Preuss. My last name is pronounced like Rolls Royce .
 10. [Principles](https://www.principles.com/)
 
 ### Simpli5
+
 [https://www.simpli5.com](https://www.simpli5.com/)
 
 I am energetic, ambitious, and adventurous. I welcome challenges and will not be diverted from my purpose. Instead, I am determined to work on a project tirelessly to bring it to completion. I take advantage of new opportunities better than most people. Life for me can be a vibrant affair in which I passionately pursue success, experience, and achievement. I am dramatic, idealistic, proud, and self-assured with a creative mind.
@@ -64,6 +68,7 @@ I am an innovative thinker with an actively curious and very quick mind. With my
 I turn thought into action almost instantly. When I get an idea, I become excited, get others excited about it, then act on it. I can become so involved in my pursuit of success that I forget to tend to the necessary details and planning along the way. I must learn to discern good ideas from bad ones and, most of all, to make a clear outline of the steps, procedures, and deadlines needed to proceed successfully.
 
 ### CliftonStrengths Top 5
+
 [https://www.gallup.com/cliftonstrengths/](https://www.gallup.com/cliftonstrengths/)
 
 1. **Strategic**<br />
@@ -78,6 +83,7 @@ I help people see the opportunities and possibilities that await them in the com
 I feel more favourable about myself and life in general when I am functioning at an optimal level. I realize that excellence is the result of not only hard work but also top-quality people.
 
 ### VIA Strengths Finder
+
 [https://www.viacharacter.org](https://www.viacharacter.org)
 
 1. **Leadership** (Justice)<br />
@@ -92,6 +98,7 @@ Thinking of unique and productive ways to conceptualize and do things.
 Mastering new skills, topics, and bodies of knowledge to add to what I know systematically.
 
 ### Big 5 Personality
+
 [https://openpsychometrics.org/tests/IPIP-BFFM/](https://openpsychometrics.org/tests/IPIP-BFFM/)
 
 1. Factor I: **Extroversion**<br />
@@ -106,6 +113,7 @@ I am intentional and attentive.
 I am open to experiences, adaptable, and do well with ambiguity.
 
 ### DiSC Profile
+
 [Di: Driver](https://www.crystalknows.com/disc/di-personality-type/)
 
 **Strengths**
@@ -121,6 +129,7 @@ I am open to experiences, adaptable, and do well with ambiguity.
 3. I can give insufficient structure for people who need definition.
 
 ### Myers-Briggs
+
 [“The Protagonist” (ENFJ-A)](https://www.16personalities.com/enfj-personality)
 
 **Individual traits:**
@@ -132,6 +141,7 @@ I am open to experiences, adaptable, and do well with ambiguity.
 - Identity: **65% Assertive**
 
 ## Working With Me
+
 - I'm **data-informed** and **performance-driven**.
 - I'm responsive and independent.
 - I'm objective yet sympathetic.
@@ -162,6 +172,7 @@ I am open to experiences, adaptable, and do well with ambiguity.
 [https://hbr.org/2018/07/creating-a-purpose-driven-organization](https://hbr.org/2018/07/creating-a-purpose-driven-organization)
 
 ### How I Perform
+
 1. I am a **listener**.
 2. I learn by **doing**.
 3. I work well **first on my own** to organize my thinking and **then collaborate** to elevate the work and identify blind spots.
@@ -171,6 +182,7 @@ I am open to experiences, adaptable, and do well with ambiguity.
 7. I work best in **medium to large organizations** with **good funding/budgets**.
 
 ### My Values
+
 1. Kindness
 2. Openness
 3. Accountability
@@ -179,6 +191,7 @@ I am open to experiences, adaptable, and do well with ambiguity.
 6. Results
 
 ### Where I Belong
+
 1. A position that enables me to inspire others by:
     1. Leading through influence.
     2. Enabling people to achieve their full potential.
@@ -189,6 +202,7 @@ I am open to experiences, adaptable, and do well with ambiguity.
     1. Fostering a climate of discovery, questioning, and exploration.
 
 ### What I Can Contribute
+
 1. **Self Development**<br />
 I have a positive attitude toward personal growth and development. I'm motivated to make contributions and exercise professional or managerial responsibility.
 2. **Corporate Adaptability**<br />
@@ -205,6 +219,7 @@ My preference is for combining organized and systematic methods with a flexible 
 I utilize abstract information, experience, intuition, and knowledge to find fresh and imaginative solutions.
 
 ### Communication Style
+
 - I use candour well and am sensitive to the feelings of others.
 - I'm decisive and can synthesize information quickly.
 - I'm objective with a preference for honest and direct relationships.
@@ -213,6 +228,7 @@ I utilize abstract information, experience, intuition, and knowledge to find fre
 - I'm self-directed and flexible when giving or accepting direction, resisting close control and rigid schedules.
 
 ## Leadership Style
+
 [Coach](https://hbr.org/2019/11/the-leader-as-coach) and [Situational Leader](https://en.wikipedia.org/wiki/Situational_leadership_theory)
 
 I am a charismatic leader, constantly in motion, seeing possibilities, inspiring people, and promoting action. My strengths involve Explore, Excite, and Execute energy:
@@ -227,17 +243,20 @@ I foster open communication, encourage and motivate others, spread enthusiasm, c
 I am efficient in providing clear instruction, focusing efforts, taking practical action, and achieving results. Qualities and skills of **Execute leadership** include delegating, challenging, decision making, time management, confidence, and determination.
 
 ### What I Do
+
 - Inspire teams with a **sense of purpose** to create **psychological safety** and a **shared, strategic vision**.
 - Involve teams with **authentic relationships** to develop **connection and commitment**.
 - Protect teams by building a **shared understanding** to create **meaning, clarity and predictability**.
 - Catalyze teams with **decisive confidence and directed movement** to create **fulfillment**.
 
 ### One-on-Ones
+
 - These are your meetings, and I want to listen.
 - I prefer shorter and more frequent meetings; let me know if that works best for you.
     - We'll start with weekly 25min meetings and potentially shift to biweekly 45min meetings once we're in flow.
 - Please come prepared with 4-5 things you'd like to discuss.
 - You can expect I'll ask the following questions from [The Coaching Habit](https://boxofcrayons.com/the-coaching-habit-book/). I find them incredibly useful:
+
 1. What's on your mind?
 2. And what else?
 3. What's the real challenge here for you?
@@ -245,10 +264,12 @@ I am efficient in providing clear instruction, focusing efforts, taking practica
 5. How can I help?
 6. If you're saying Yes to this, what are you saying No to?
 7. What was most valuable to you?
+
 - Help me calibrate my leadership style by sharing what I should be doing more of/less of (I have thick skin, don't worry 😀).
 - Please do not feel you have to wait for a 1:1 to bring anything up; my door/calendar is always open.
 
 ## Coaching Me
+
 - Allow me to use initiative and autonomy; impose a minimum of routine.
 - Challenge me. I thrive on pushing my limits and will work tirelessly when challenged by someone I respect.
 - Utilize my strengths; avoid exposing my weaknesses.
@@ -259,4 +280,5 @@ I am efficient in providing clear instruction, focusing efforts, taking practica
 - I want to improve. Criticize and correct me gently, and be reassuring.
 
 ## Final Thought
+
 The way I see it, life is short, we're all trying our best, so let's make awesome sh*t together.

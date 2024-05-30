@@ -28,18 +28,15 @@ The following people are members of the Scalability:Observability team:
 
 The team is located all over the world in [different timezones](https://timezonewizard.com/p4-6e9).
 
-## Responsibilities and topics
+## Technical principles, goals and responsibilities
 
-This is an overview of topics we cover to help us reflect on and learn about our areas of ownership, duties, products and services since the team got created when merging Scalability:Projections and Reliability:Observability at the end of 2023.
+Please see [the Technical Blueprint](technical_blueprint.md) for details on our principles and goals.
 
-1. [Monitoring](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/monitoring/README.md#L1)
+The following gives an overview of our scope and ownership.
+
+1. [Monitoring fundamentals](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/monitoring/README.md#L1)
    1. Metrics stack
-      1. [Thanos](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/thanos/README.md#L1)
-      1. [Thanos readiness review (03/2023)](https://gitlab.com/gitlab-com/gl-infra/readiness/-/blob/master/thanos/overview.md)
-      1. We are [moving towards Grafana Mimir](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1107), also see [Mimir runbooks](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/mimir/README.md#L1)
    1. Logging stack
-      1. In use: [ELK Stack](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/logging/README.md#L1)
-      1. Potential upcoming project: [Loki](https://gitlab.com/gitlab-com/runbooks/blob/e00eeb59937a9043c5db04314a35acb05c4e9288/docs/loki/README.md#L1)
 1. [Error budgets](/handbook/engineering/infrastructure/team/scalability/observability/error_budgets.html)
    1. Ownership of concept and implementation
    1. Delivery of monthly error budget report
@@ -49,8 +46,7 @@ This is an overview of topics we cover to help us reflect on and learn about our
    1. Developing [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland), the forecasting tool
    1. [Capacity reporting for GitLab Dedicated](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated)
 1. [Service Maturity model][service maturity model] which covers GitLab.com's production services.
-1. [GitLab.com availability](/handbook/engineering/monitoring/): Provide underlying data and aggregate numbers
-1. SRE oncall rotation
+1. [GitLab.com availability reporting](/handbook/engineering/monitoring/): Provide underlying data and aggregate numbers
 
 ### Indicators
 

@@ -77,7 +77,7 @@ They should select "GitLab.com (SaaS) User Accounts and Login Issues" as the rea
 
 ### If a customer cannot login to GitLab Support Zendesk / customer portal
 
-Customers having difficulty logging into the Zendesk customer portal should first [try our documented troubleshooting steps](https://about.gitlab.com/support/portal/#having-trouble-with-the-support-portal). These steps almost always resolve the difficulty.
+Customers having difficulty logging into the Zendesk customer portal should first [try our documented troubleshooting steps](https://about.gitlab.com/support/portal/#troubleshooting-support-portal-issues). These steps almost always resolve the difficulty.
 
 If those tips do not resolve the problem, you can open an [Internal Request > Other](#internal-requests) on their behalf.
 

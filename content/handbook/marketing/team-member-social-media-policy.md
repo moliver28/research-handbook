@@ -14,7 +14,6 @@ twitter_image_alt: GitLab Social Media Policy
 
 ## Introduction
 
-
 We recognize that many team members engage in social media activity. This policy establishes a set of rules and guidelines for any activity and participation on social media channels when commenting about GitLab or GitLab-related topics.
 
 **These rules are intended to be adaptable to the changes in technology and norms of online communication and behavior and may be amended by GitLab at any time, for any reason, without notice to team members. However, we will work to be as transparent as possible when communicating changes, what those changes are, and when they are expected to go into effect.**
@@ -36,15 +35,14 @@ The GitLab Social Media policy for team members applies to traditional social me
 The term "social media" applies to any online technology in use now or in the future that enables you to send or receive information and communicate or interact with others. Any site where you can share a post or comment on a post would be considered a social media website for the purposes of this policy.
 
 ##### Exclusions for anonymous review sites
+
 This policy is not intended to limit team members from sharing their feedback or reviews of their experiences at GitLab on sites like Glassdoor, Fishbowl, Indeed, or similar sites. While we encourage you to share feedback with your manager and the people ops team, we celebrate our value of transparency and welcome feedback from team members on these sites, as long as the feedback follows our [SAFE Framework](/handbook/legal/safe-framework/).
 
 ### All other GitLab codes of conduct and policies also apply to our social media policy
 
-
 Please adhere to the [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/), [Anti-Harrassment Policy](/handbook/people-group/anti-harassment/), which includes sexual harrassment and discrimination policies, and our [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d). These policies all apply to team member behavior within social media and in public online spaces.
 
 ##### Social Media sometimes generates press and media attention or legal questions. Please refer all inquires to the Communications Team in the #external-comms Slack channel
-
 
 ### What you should do
 
@@ -93,6 +91,7 @@ If it's written in a blog, presented at a public conference, or simply on GitLab
 </details>
 
 #### Examples of what you should, and are encouraged, to share on social media
+
 - GitLab [blogs](https://about.gitlab.com/blog/) and [press releases](https://about.gitlab.com/press/releases/)
 - Positive news media that mentions GitLab and is shared in the #newswire Slack channel (team member adds no commentary/copy to the post) or is available to share in the social media advocacy tool (with commentary/copy to share)
 - Industry reports that are publicly available and are ungated
@@ -105,6 +104,7 @@ If it's written in a blog, presented at a public conference, or simply on GitLab
 [Learn more about what is encouraged and how GitLab helps to enable you to become great at using social media on our team member advocacy page.](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/)
 
 ### It's your job to protect GitLab, our customers, and our team members
+
 Whether you're an intern or our CEO, protecting the GitLab brand, the company, and our entire team is a part of your job description.
 
 ##### You can protect GitLab by not sharing the following data with the public on your social media profiles

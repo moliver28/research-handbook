@@ -53,7 +53,6 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. Add a commit message, set the target branch to `main` and click **Commit changes**.
 
-
 ## Task B. Build the Docker image
 
 > In this section you will define a job that builds a Docker image. To build a Docker image with a CI/CD pipeline job, you must use a GitLab Runner that's configured to use a Docker executor.

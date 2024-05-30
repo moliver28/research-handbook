@@ -35,12 +35,12 @@ If you are no longer able to or interested in serving in the Core Team, you shou
 
 1. Email the nominated member to confirm they are interested before beginning the orientation process.
 1. Create an issue in the [Core Team Project](https://gitlab.com/gitlab-org/gitlab-core-team/general) using the [Core Team Member Onboarding Issue Template](https://gitlab.com/gitlab-org/gitlab-core-team/general/-/issues/new?issuable_template=onboarding) and follow the steps outlined.
+
   - Core team members must sign an NDA before granting them any access.
 
 ## Core Team Group
 
 All Core Team members are part of the [`gitlab-org/gitlab-core-team`](https://gitlab.com/gitlab-org/gitlab-core-team/) group on GitLab.com. This group has a particular structure for specific automation purposes:
-
 
 ```mermaid
 graph TD
@@ -50,8 +50,8 @@ graph TD
 
 The [`community-members`](https://gitlab.com/gitlab-org/gitlab-core-team/community-members) group exists to:
 
-* [facilitate triaging](https://gitlab.com/gitlab-org/quality/triage-ops/-/merge_requests/65) and;
-* [ensure Core Team members are credited in the changelog](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/69076)
+- [facilitate triaging](https://gitlab.com/gitlab-org/quality/triage-ops/-/merge_requests/65) and;
+- [ensure Core Team members are credited in the changelog](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/69076)
 
 ## Core Team member benefits
 
@@ -160,6 +160,7 @@ details summary * {
 </details>
 
 #### Requesting Core Team access to Slack channels
+
 1. Please submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) with the new channel(s) requested.
 1. Assign the issue to a member of [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members) who will complete the next steps.
 1. Contributor Success to: Identify the channel(s) owner and invite them to review the request by leaving a comment on whether they agree on having Core Team members in their channel(s).
@@ -202,13 +203,13 @@ To support their code contributions to GitLab, Core Team members can [request a 
 
 #### Process
 
-* Raise a request in the `#core` team slack channel.
-* Once approved, purchase the relevant license.
-* Email `ap@gitlab.com` cc `nveenhof@gitlab.com` and `rnalen@gitlab.com` including:
-  * A copy of your receipt.
-  * Your international bank details for reimbursement.
-  * @nick_vh and @rnalen should reply with their approval.
-  * AP will proceed with the reimbursement process.
+- Raise a request in the `#core` team slack channel.
+- Once approved, purchase the relevant license.
+- Email `ap@gitlab.com` cc `nveenhof@gitlab.com` and `rnalen@gitlab.com` including:
+  - A copy of your receipt.
+  - Your international bank details for reimbursement.
+  - @nick_vh and @rnalen should reply with their approval.
+  - AP will proceed with the reimbursement process.
 
 ### Sponsored access to GitLab events
 

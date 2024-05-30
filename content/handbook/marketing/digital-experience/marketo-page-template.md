@@ -1,18 +1,6 @@
 ---
-
 title: "Marketo page template"
 description: "Marketo guided template for modules. Each module can be toggled on or off and has options such as background color."
----
-
-
-
-
-
-
-
-# Marketo page template
-
-
 ---
 
 This will serve as documentation for [Modular landing page 7259](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/7259).
@@ -129,7 +117,7 @@ Options
 * Speaker List
     * Please add a new bulleted list for each speaker, where each item in the list below is a new bullet point within each list:
 
-```
+```text
 Bulleted list
   Speaker photo
   Name
@@ -174,7 +162,7 @@ Options
     * This list is designed to feature a set of 3 statistics. That said, it can accommodate larger or smaller lists.
     * Please add a new bulleted list for each stat, where each item in the list below is a new bullet point within each list:
 
-```
+```text
 Bulleted list
   Logo in color
   Statistic ( 6x, 1000+, < 8 hours ... )
