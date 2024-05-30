@@ -52,7 +52,7 @@ On each account's 360, there is a "Follow" button next to the account name. If y
 
 #### Referenceable customers
 
-The `Referenceable Customers` field on the C360 Attributes section highlights [if a customer is a Referenceable Customer](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/). If a Customer is *not* a Referenceable Customer and they would make a great one, follow the process to [Nominate a Reference Customer]().
+The `Referenceable Customers` field on the C360 Attributes section highlights [if a customer is a Referenceable Customer](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/). If a Customer is *not* a Referenceable Customer and they would make a great one, follow the process to Nominate a Reference Customer.
 
 #### Chorus Opt Out
 

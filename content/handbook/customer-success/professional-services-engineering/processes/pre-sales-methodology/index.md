@@ -19,7 +19,7 @@ This page will help outline the when and how to get involved with positioning an
 
 For custom SOWs, the [workflow for SOW creation](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services) involves a partnership between the Account Team and the Professional Services Team.
 
-![](./scoping-workflow.png)
+![''](./scoping-workflow.png)
 [Source](https://docs.google.com/presentation/d/1TOI2aoseBoyWYQC6-xpJVMknEncCNreSFfMvOHO7EBA/edit#slide=id.gbfb62d0c00_0_58) (GitLab Team Members Only)
 
 ## 1. Positioning
@@ -115,7 +115,7 @@ Once the SOW is fully executed, the deal desk team updates the Salesforce PS-Onl
 
 TODO: update this with documents and delivery kits that are organized to help the delivery team be successful with the engagement.
 
-![](../PS-delivery-workflow.png)
+![''](../PS-delivery-workflow.png)
 
 <!--This page provides scoping questions designed to collect details and uncover the customer's required capabilities. This ensures alignment of the SOW and PS delivery with the positive business outcomes the customer is looking for.  While not an exhaustive list, these questions and suggestions will help spark the discovery conversations.
 
@@ -134,7 +134,7 @@ The following questions are about bringing multiple GitLab instances together in
 1. What is the version of every GitLab instance involved?
 1. What integrations are used on each instance?
 1. For each instance, how is artifact, upload, container registry and Git LFS storage handled?
- 
+
 ### SVN to Git scoping questions
 
 SVN to Git Questions:

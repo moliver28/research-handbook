@@ -5,12 +5,6 @@ title: 'GitLab Speakers Resources'
 
 The Corporate Communications and Developer Advocacy teams want to enable everyone to contribute and spread the message about GitLab, DevSecOps, AI, and cloud-native to the entire world. We are happy to help speakers in any way we can, including public speaking coaching and building out slides. Below you can find some resources for becoming a speaker, finding an event, submitting a talk, and putting together the presentation and speech.
 
-
-
-
-
-
-
 ## Becoming a Speaker
 
 > 🤝 **These steps are required.** The Corporate Communications and Developer Advocacy teams are happy to help.
@@ -63,6 +57,7 @@ Identify events to speak at, prepare for the Call-for-Papers, review and ensure 
 1. You can also see CFPs we're tracking with the `CFP` label [in the Corporate Marketing project](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=CFP) (internal)
 1. For a complete list of events we are tracking, see the [marketing calendar](/handbook/marketing/#marketing-calendar) and the [Developer Advocacy team calendar](/handbook/marketing/developer-relations/developer-advocacy/).
 1. More sources for events and CFPs:
+
   - [CFP Land](https://www.cfpland.com/)
   - [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda) by Aurélie Vache
   - [Newsletters](/handbook/marketing/developer-relations/developer-advocacy/social-media/#content-sources). @dnsmichi maintains a section in his [opsindev.news newsletter](https://opsindev.news/) every month.
@@ -72,6 +67,7 @@ Identify events to speak at, prepare for the Call-for-Papers, review and ensure 
 > 🤝 **These steps are required.**
 
 All talk submissions to the Call-for-Papers (CFP) process at events must be tracked in an issue, using the [`CFP-Meta` template](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/new?issuable_template=CFP-Meta).
+
   - If you submitted a talk, or it was accepted already, please also create an issue.
   - Inviting customers to speak, or co-submit a talk should also be coordinated in the CFP issue.
 
@@ -145,4 +141,3 @@ Below are some tips on being a better presenter. For an in-depth book that cover
 To find a speaker for your event, you can see the following resources:
 
 - Speakers Bureau: a catalogue of talks, speaker briefs and speakers can be found on our [Speakers Bureau page](https://about.gitlab.com/speakers/). Feel free to add yourself to this page and submit a MR if you want to be in our speaker portal and are interested in being considered for any upcoming speaking opportunities.
-

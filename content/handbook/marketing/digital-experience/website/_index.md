@@ -26,7 +26,7 @@ Generate demand for GitLab by:
 
 ## Scope
 
-The GitLab marketing site, or simply the "GitLab Website" refers to all of the content on `` and the contents of `sites/uncategorized` in the www-gitlab-com rexcept for:
+The GitLab marketing site, or simply the "GitLab Website" refers to all of the content on `about.gitlab.com` and the contents of `sites/uncategorized` in the www-gitlab-com except for:
 
 - The Docs: `docs.gitlab.com`
 - The GitLab.com product: `gitlab.com`
@@ -49,7 +49,7 @@ Known Issue: There is an [ongoing issue](https://gitlab.com/gitlab-com/Product/-
 
 As of 2021-04-27, we are [actively auditing](https://gitlab.com/gitlab-com/marketing/inbound-marketing/marketing-website/-/issues/125) the tracking, cookies, and other 3rd party personalization tools installed on the GitLab Website to ensure we are only collecting the information needed to deliver our service.
 
-* Last audit complete date with link to issue: TBD - audit underwawy
+- Last audit complete date with link to issue: TBD - audit underwawy
 
 ### List of Tracking Tools
 
@@ -119,6 +119,7 @@ Similar content can appear as a topic, solution, and in the product section with
 - A category page `/product/continuous-integration` would talk about the capabilities and features that are part of GitLab's CI functionality and the value it has.
 
 ## Requesting Support
+
 If you need support please review the information on the [Digital Experience Hanbook Page](/handbook/marketing/digital-experience/#requesting-support)
 
 ## Updating the Marketing Website
@@ -230,8 +231,8 @@ Below are attributes that can be added to a stage in `data/stages.yml`. Each of 
 - `sam_driver_score`:the Service Addressable Market score, used on [/handbook/product/investment](https://internal.gitlab.com/handbook/product/investment/)
 - `stage_development_spend_percent`:
 - `analyst_reports`: a list of links to relevant analyst reports
-    - `analyst_reports.title`: the title of the report
-    - `analyst_reports.url`: the URL of the report
+  - `analyst_reports.title`: the title of the report
+  - `analyst_reports.url`: the URL of the report
 - `related`: the stages related to this stage
 - `section`: the section this stage belongs to
 - `groups`: a list of groups that belong to this stage. [definitions for their properties below](#group-attributes)
@@ -324,7 +325,7 @@ To change or update the current maturity, set the `maturity` field to the desire
 
 #### Sample template
 
-```
+```yaml
 authentication_and_authorization:
   name: "Authentication and Authorization"
   stage: manage
@@ -395,16 +396,16 @@ To add a new feature, add a feature block to under the `features:` section of th
 - **gitlab_com**: `true`, `false` or `not_applicable`, defaults to `true`. Is this feature or capability available on GitLab.com? Because GitLab.com tiers map 1:1 to self-managed tiers setting this will automatically assign the GitLab.com tier. E.g. `gitlab_core: true` + `gitlab_com: true` == `GitLab.com Free`. Adding a tiers fields is what powers the tier badges on product pages and comparison pages, as well as powers the tier [feature comparison of the pricing page](https://about.gitlab.com/pricing/feature-comparison/). Use `not_applicable` for features that do not apply to GitLab.com, such as the operational details of the service itself, like `Fault-tolerant PostgreSQL`.
 - **gitlab_com_parity**: For features which are currently not available on GitLab.com, but still applicable, this field should used to provide a rationale or path towards parity. Supports markdown, links to issues are encouraged. Content shows up on the [GitLab.com missing features list](https://about.gitlab.com/features/).
 - **toolname**<a name="feature_status_defs"></a>: any tool from the `devops_tools:` section such as `jira:`, `circle_ci:`, `blackduck:`, etc. that does or does not have this feature. Holds a value of either `true` or `false` or `partially` or is blank (indicating subfields with details should exist).
-    - `true` or `false` or `partially`: Examples of `partially` are if a DevOps tool has some but not all of the feature described, or if they have the feature, but only through a plugin. If using `partially` it is highly recommended to instead add `details` as to what partially actually means (see next)
-    - <blank>:<a name="feature_status_details"></a> Means that the feature for this particular toolname have a sub-section with details:
-        - `valid`: Same as `true` or `false` or `paritally` above
-        - `details`: A short statement about the details that need to be shared. For example: "supports 11 languages", or "only supported through 3rd party plug-ins"
+  - `true` or `false` or `partially`: Examples of `partially` are if a DevOps tool has some but not all of the feature described, or if they have the feature, but only through a plugin. If using `partially` it is highly recommended to instead add `details` as to what partially actually means (see next)
+  - <blank>:<a name="feature_status_details"></a> Means that the feature for this particular toolname have a sub-section with details:
+    - `valid`: Same as `true` or `false` or `paritally` above
+    - `details`: A short statement about the details that need to be shared. For example: "supports 11 languages", or "only supported through 3rd party plug-ins"
 - **pricing_page**: `true` or `false`: This currently has no impact on the primary [pricing page](https://about.gitlab.com/pricing/), which is driven off themes. This does still apply to the ([self-managed comparison](https://about.gitlab.com/pricing/feature-comparison/) and [GitLab.com comparison](https://about.gitlab.com/pricing/feature-comparison/)) pages.
 - **pricing_theme**: Use this option to mark this feature as part of a [pricing theme](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/pricing_themes.yml). The value is a string, which should match the desired string. Features that align to Themes are shown on our [pricing page](https://about.gitlab.com/pricing/).
 
 For example:
 
-```
+```yaml
 - title: "Group Milestones"
   description: "Create and manage milestones across projects, to work towards a target date from the group level. View all the issues for the milestone you’re currently working on across multiple projects."
   link_description: "Learn more about Group Milestones"
@@ -430,7 +431,7 @@ For example:
 
 Copy and paste this template:
 
-```
+```yaml
 - title: ""
   description: ""
   link_description: ""
@@ -451,16 +452,17 @@ Copy and paste this template:
 The underlying data shown on the [GitLab Learn](https://about.gitlab.com/learn/) page is available in [https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml)
 
 To update the course content data:
+
 1. Open an MR to the [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) file. Follow the existing syntax in the file. For ease of adding a new course, we recommend copying an existing entry and updating the values based on the new course being added, populating every field.
 1. Add content to the list as soon as it is planned.
 1. To indicate that a course is planned for the future, include a live_date in the future. You can see an example in [this MR #94773](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/94773).
 
 Important guidelines to keep in mind:
+
 1. [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) is our SSOT for GitLab-produced content, including all existing and future planned content.
 1. When planning new learning content, add it to [learn.yml]https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) as soon as possible, at a minimum monthly, and aim to include what you plan to produce over the upcoming 6 months or more. This gives visibility to all other GitLab team members producing learning content as to what has been planned.
 1. Before producing new content, check [learn.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/learn/index.yml) for redundancy, as other teams may have developed or plan to develop similar content.
 1. Communicate updates with other DRIs working on learning content by posting on the #gitlab-learn-updates Slack channel (available to team members only)
-
 
 ### Contentful CMS
 
@@ -472,20 +474,19 @@ The Digital Experience team is implementing [Contentful CMS](https://www.content
 
 Read the [Contentful handbook page](/handbook/marketing/digital-experience/contentful-cms/) for up to date directions and status of the system.
 
-
-# Merge requests
+## Merge requests
 
 For best practices regarding testing and reviewing merge requests, please see our related handbook page for [reviewing merge requests](/handbook/marketing/digital-experience/website/merge-requests/).
 
-# Working in Modules
+## Working in Modules
 
-##### What is a module?
+### What is a module?
 
 1. A module is a section where the presentation, goal, and required functionality remains the same, but content can be updated (wording, imagery, links, etc).
 1. A module is a block, box, or section of the page, generally kept as small as possible. It's usually a horizontal slice of layer cake across the page but can also be a chunk of a sidebar.
 1. Modules often have configurable options to facilitate reuse with different configurations. It might not always be desirable to have a title block or buttons might need to expire after a date.
 
-##### Why is it important for a module to be reusable?
+### Why is it important for a module to be reusable?
 
 1. In order to facilitate updates, the code needs to be reusable. It's not an easy update if you have to build it again.
 1. Implementing the same thing over and over again is not an efficient use of resources.
@@ -493,7 +494,7 @@ For best practices regarding testing and reviewing merge requests, please see ou
 1. If the same code is implemented several times in several spots then the chance for bugs increases. One of those spots might have a bug where the others don't.
 1. Much of what goes into building code is unseen on the page. This includes things like optimizing performance, setting up tracking, preparing assets such as formatting images & videos, building responsive views and layouts, human physiology (fingers on a touchscreen, eyes and perception, etc). Testing and building all of these things takes time, so it's important to reuse and reduce code as much as possible.
 
-##### Why is it important for a module to have a single-purpose?
+### Why is it important for a module to have a single-purpose?
 
 1. In order to facilitate updates, the code needs to be easy to operate.
 1. Having a clearly defined purpose for each module enhances the goals of the page and assists with navigation and conversion goals. If a module tries to do 5 things or there are 3 different modules on the page doing the same thing it's easy to spot.
@@ -502,8 +503,7 @@ For best practices regarding testing and reviewing merge requests, please see ou
 1. Tracking the performance of a module becomes more difficult the more a module changes.
 1. When examining from a distance, it's hard to know what module to use if the modules all have several different purposes, sometimes overlapping purposes. "Do I use this module or that one?"
 
-
-# Digital FAQ
+## Digital FAQ
 
 <details markdown="1">
 
@@ -532,18 +532,18 @@ On the about.gitlab.com website we have approval to use the customer logos lisit
 - Due to how CI/CD deployment pipelines work, release times will NOT be exact. Please plan accordingly. We try to have releases live within 1 hour of the requested timeframe.
 - When requesting a release time, please specify a timezone.
 - Reasons we can't guarantee a release time include:
-    - We don't have a dynamic server, all items are pre-compiled and static.
-    - Pipelines might have hundreds of people already in the queue before you.
-    - Pipelines might be broken.
-    - It takes an unknown amount of time for pipelines to allocate resources, build, run tests, and deploy.
-    - It takes time for our CDN to propagate any changes across their network.
-    - We don't have dedicated QA resources to ensure that things will happen as expected.
+  - We don't have a dynamic server, all items are pre-compiled and static.
+  - Pipelines might have hundreds of people already in the queue before you.
+  - Pipelines might be broken.
+  - It takes an unknown amount of time for pipelines to allocate resources, build, run tests, and deploy.
+  - It takes time for our CDN to propagate any changes across their network.
+  - We don't have dedicated QA resources to ensure that things will happen as expected.
 - If planning to release AT a specific time...
-    - Request a time an hour before the expected release.
-    - Plan for your item to appear before the expected release time. This might mean supplying alternate visuals or copy.
+  - Request a time an hour before the expected release.
+  - Plan for your item to appear before the expected release time. This might mean supplying alternate visuals or copy.
 - If planning to release AFTER a specific time...
-    - Plan for the preexisting content to cover that time range.
+  - Plan for the preexisting content to cover that time range.
 - Please ensure requested times are during normal business hours for the person making the changes.
-    - If any changes are requested outside of their normal business hours, please ask before hand if that is possible or if someone else who is available can work on it to ensure that it releases in a timely fashion.
+  - If any changes are requested outside of their normal business hours, please ask before hand if that is possible or if someone else who is available can work on it to ensure that it releases in a timely fashion.
 
 </details>

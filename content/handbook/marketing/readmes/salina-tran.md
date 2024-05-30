@@ -40,10 +40,10 @@ I do my best to mask the characteristics of Dyslexia, but there are times when I
 - I am a visual person - I process new information by visualizing what it would look like. When I am learning or being explained something new, I need to see it in my mind to be able to follow along.
 - and the list goes on...
 
-
 ## 💪 Strengths
 
 I covered a number of challenges with Dyslexia, however there are tons of positives associated with this. I am…
+
 - 🖼️ **A big picture and visual analytical problem solver** - I can effortlessly pick out trends and patterns from a pool of data/information for quick troubleshooting. I also use 3-dimensional thinking to seek the whole picture to bring new ideas.
 - 🧠 **Self-aware** - I have a strong understanding of my strengths and weaknesses as I have spent hours studying how and what makes my brain tick. I can easily find solutions to compensate for my weaknesses or know when it's time to ask for help.
 - 🎯 **Goal oriented** - I am motivated by an end goal, and determined to achieve the goal that is set before me.
